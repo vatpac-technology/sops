@@ -1,0 +1,34 @@
+/* Navigation Modifications */
+.md-header {
+  background: #3A7CA5;
+}
+.md-nav--primary .md-nav__title[for=__drawer] {
+    background: var(--md-primary-fg-color--dark);
+    overflow: visible;
+}
+.md-tabs {
+  background: #2F6690;
+}
+.md-top {
+  color: #ffffff;
+}
+.md-top {
+  color: #ffffff;
+}
+.md-tabs__link--active, .md-tabs__link:focus, .md-tabs__link:hover {
+  border-bottom: 1.5px solid #D9DCD6;
+  height: -webkit-fill-available;
+}
+
+/*Announcement Bar*/
+.md-banner {
+    background-color: var(--md-footer-bg-color--dark);
+    color: var(--md-footer-fg-color);
+    overflow: auto;
+    text-align: center;
+}
+.md-typeset img, .md-typeset svg {
+    height: auto;
+    max-width: 100%;
+    vertical-align: text-bottom;
+}

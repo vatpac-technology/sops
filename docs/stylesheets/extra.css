@@ -1,0 +1,89 @@
+/* Theme Adaptation */
+
+
+
+/*Primary Thematic Colors*/
+:root {
+  --md-primary-fg-color:        #6096BA;
+  --md-primary-fg-color--dark:  #16425B;
+  --md-primary-fg-color--light: #6096BA;
+  --md-accent-fg-color:         #6096BA;
+  --md-footer-fg-color:         #6096BA;
+  --md-footer-bg-color--dark:   #16425B;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #16425B;
+}
+
+/*Header Modifications*/
+.md-typeset h1 {
+  color: #81C3D7;
+}
+h1 {
+  /*text-transform: uppercase;*/
+}
+h2 {
+  color: #81C3D7;
+  /*text-transform: uppercase;*/
+  padding-bottom: 0.5em;
+}
+h3 {
+  color: #81C3D7;
+}
+h4 {
+  padding-top: 1em;
+  color: #D9DCD6;
+}
+.md-typeset h5 {
+  color: hsl(0deg 0% 100%);
+}
+
+/* highlighting */
+.md-typeset mark { /* ==text== */
+    background-color: #3A7CA5;
+    color: white;
+    text-decoration: none;
+}
+/*.md-typeset ins {  !* ^^text^^ *!*/
+/*    background-color: #594a47;*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*}*/
+.md-typeset del {  /* ~~text~~ */
+    background-color: #271b2b;
+    color: white;
+    text-decoration: none;
+}
+.md-typeset code {
+    background-color: #103042;
+    border-radius: 0.25rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-size: .90em;
+    padding: 0 .2941176471em;
+    word-break: break-word;
+}
+/*Standardize Font Awesome CSS Styling*/
+.discord {
+  font-size: 20px;
+}
+.github {
+  font-size: 20px;
+}
+/*Table Styling*/
+.md-typeset table:not([class]) th {
+  font-weight: bold;
+  background-color: #81C3D7;
+  color: var(--md-default-bg-color);
+}
+/* reduced table row height */
+.md-typeset table:not([class]) td {
+  border-top: .05rem solid var(--md-default-fg-color--lightest);
+  padding: .2375em 1.25em;
+  vertical-align: top;
+}
+/* Tasklist */
+ .md-typeset [type=checkbox]:checked+.task-list-indicator:before {
+    background-color: #81C3D7;
+}

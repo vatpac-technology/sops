@@ -1,0 +1,67 @@
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
+<link rel="stylesheet" href="assets/stylesheets/home.css">
+<!-- Hero -->
+<section class="container">
+    <div class="md-grid md-typeset">
+        <div class="hero">
+            <div class="hero-content">
+                <h1> Welcome! </h1>
+                    <p>Welcome to the information hub for VATNZ, where you can find SOPs, Local Instructions and other information pertinent to providing a high-quality service within the virtual New Zealand FIR.</p>
+                <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">
+                    Let's go!
+                </a>
+                <a href="https://vatnz.net/" title="VATNZ Website" class="md-button">
+                    Go to VATNZ Website
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Page links -->
+
+<div class="lowerSection">
+    <div class="md-grid md-typeset">
+        <div class="feature">
+					<h2>Featured Changes</h2>
+
+					<div class="cards">
+							<div class="card">
+									<a href="">
+										<h3>Wellington Spotlight</h3>
+	
+										<p>
+											Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nam voluptates non dolorem odio modi magni distinctio id unde, alias quis, porro libero corporis, blanditiis laboriosam soluta eos cumque tempore.
+										</p>
+									</a>
+							</div>
+							
+							<div class="card">
+								<a href="">
+									<h3>Wellington Spotlight</h3>
+
+									<p>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nam voluptates non dolorem odio modi magni distinctio id unde, alias quis, porro libero corporis, blanditiis laboriosam soluta eos cumque tempore.
+									</p>
+								</a>
+						</div>
+						
+						<div class="card">
+							<a href="">
+								<h3>Wellington Spotlight</h3>
+
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nam voluptates non dolorem odio modi magni distinctio id unde, alias quis, porro libero corporis, blanditiis laboriosam soluta eos cumque tempore.
+								</p>
+							</a>
+						</div>
+					</div>
+
+				</div>
+    </div>
+</div>
+
+{% endblock %}
+{% block content %}{% endblock %}
