@@ -1,8 +1,8 @@
 # Project Information
-site_name: VATNZ Standard Operating Procedures
-site_url: https://vatnz-dev.github.io/sops/
-repo_url: https://github.com/vatnz-dev/sops
-repo_name: vatnz-dev/sops
+site_name: VATPAC Standard Operating Procedures
+site_url: https://vatpac-technology.github.io/sops/
+repo_url: https://github.com/vatpac-technology/sops
+repo_name: vatpac-technology/sops
 edit_uri: "" #removes edit button and icon
 copyright: ""
 
