@@ -1,17 +1,14 @@
-# VATNZ SOPs Refresh Project
+# VATPAC SOPs
 
-[![ci](https://github.com/vatnz-dev/sops/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vatnz-dev/sops/actions/workflows/ci.yml) [![pages-build-deployment](https://github.com/vatnz-dev/sops/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/vatnz-dev/sops/actions/workflows/pages/pages-build-deployment) 
-[![wakatime](https://wakatime.com/badge/user/aee2c50b-3ced-4d92-a929-de0362daeb37/project/f9b51418-4a41-46c9-ae52-5b5b8a9600a9.svg)](https://wakatime.com/badge/user/aee2c50b-3ced-4d92-a929-de0362daeb37/project/f9b51418-4a41-46c9-ae52-5b5b8a9600a9.svg)
-
-The VATNZ SOPs Refresh Project is an open-source collaborative project allowing members of the VATNZ community to work together to create high-quality SOPs for the virtual New Zealand FIR.
+The VATPAC SOPs site is an open-source collaborative project allowing members of the VATNZ community to work together to create high-quality SOPs.
 
 ## Contributing
 
-Contribution guidelines can be found within the project under [Assist Us](https://vatnz-dev.github.io/sops/assist-us/). 
+Contribution guidelines can be found within the project under [Assist Us](https://vatpac-technology.github.io/sops/assist-us/). 
 
-**Before contributing** you should liaise with the VATNZ Operations Team to ascertain whether that particular SOP is needed. There is a fine-line between enabling a realistic service, and making our SOPs easy to navigate and understand.
+**Before contributing** you should liaise with the VATPAC ATS Team to ascertain whether that particular SOP is needed. There is a fine-line between enabling a realistic service, and making our SOPs easy to navigate and understand.
 
-A specific channel for SOP development discussion exists on the VATNZ Discord. Please message the Operations Director to gain access to this channel.
+A specific channel for SOP development discussion exists on the VATPAC Discord. Please message the ATS Director to gain access to this channel.
 
 ## Build and Deployment
 
