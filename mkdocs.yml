@@ -10,7 +10,7 @@ copyright: ""
 theme:
   name: material
   custom_dir: overrides
-  logo: assets/images/vatnz-ops.png
+  logo: assets/images/mini-logo.png
   font:
     text: Maven Pro
   palette:
@@ -23,7 +23,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
-  favicon: assets/images/vatnz-ops.png
+  favicon: assets/images/mini-logo.png
   icon:
     repo: fontawesome/brands/github
 
@@ -45,14 +45,14 @@ extra_css:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/vatnz-dev
-      name: VATNZ on Github
+      link: https://github.com/vatpac-technology
+      name: VATPAC on Github
     - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/vatnz
-      name: VATNZ on Facebook
+      link: https://www.facebook.com/vatpac
+      name: VATPAC on Facebook
     - icon: fontawesome/brands/discord
-      link: https://vatnz.net/discord
-      name: VATNZ on Discord
+      link: https://discord.vatpac.org
+      name: VATPAC on Discord
 
 # Additional Markdown Extensions to use bundled icon sets
 markdown_extensions:
