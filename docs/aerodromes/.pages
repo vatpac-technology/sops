@@ -3,7 +3,7 @@
 # - Titles for specific pages or subdirectories
 # - Order of pages (otherwise alphabetical order)
 
-title: Controlled Aerodromes
+title: Aerodromes
 nav:
     - Overview: index.md
     - ...

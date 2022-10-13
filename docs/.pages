@@ -1,6 +1,7 @@
 nav:
     - Home: index.md
     - Aerodromes: aerodromes
+    - Terminal Area: terminal
     - Enroute: enroute
     - Oceanic and Pacific: oceanic-pacific
     - Controller Skills: controller-skills
