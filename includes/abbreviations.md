@@ -19,3 +19,5 @@
 *[AFIS]: Aerodrome Flight Information Station
 *[AIP]: Aeronautical Information Publication
 *[ProcEd]: Procedure Editor
+*[SODPROPS]: Simultaneous Opposite Direction Parallel Runway Operations
+*[PROPS]: Parallel Runway Operations
