@@ -21,3 +21,5 @@
 *[ProcEd]: Procedure Editor
 *[SODPROPS]: Simultaneous Opposite Direction Parallel Runway Operations
 *[PROPS]: Parallel Runway Operations
+*[SMC]: Surface Movement Control (Ground Controller)
+*[ADC]: Aerodrome Control (Tower Controller)
