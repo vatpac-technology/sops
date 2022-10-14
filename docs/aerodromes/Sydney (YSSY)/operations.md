@@ -6,23 +6,36 @@
 
 ## Positions
 
-| Name              | Callsign       | Frequency        | Login Identifier                         |
-| ----------------- | -------------- | ---------------- | ---------------------------------------- |
-| Sydney ADC West   | Sydney Tower   | 120.500          | SY_TWR                                   |
-| Sydney ADC East†  | Sydney Tower   | 124.700          | SY-E_TWR                                 |
-| Sydney SMC West   | Sydney Ground  | 126.500          | SY_GND                                   |
-| Sydney SMC East†  | Sydney Ground  | 121.700          | SY-E_GND                                 |
-| Sydney ACD        | Sydney Delivery| 133.800          | SY_DEL                                   |
-| Sydney ATIS       |                | 126.250          | YSSY_ATIS                                |
+| Name               | Callsign       | Frequency        | Login Identifier                         |
+| ------------------ | -------------- | ---------------- | ---------------------------------------- |
+| Sydney ADC West    | Sydney Tower   | 120.500          | SY_TWR                                   |
+| Sydney ADC East†   | Sydney Tower   | 124.700          | SY-E_TWR                                 |
+| Sydney SMC West    | Sydney Ground  | 126.500          | SY_GND                                   |
+| Sydney SMC East†   | Sydney Ground  | 121.700          | SY-E_GND                                 |
+| Sydney Coordinator† | Sydney Coordinator   | 127.600          | SY-C_GND                                |
+| Sydney ACD         | Sydney Delivery| 133.800          | SY_DEL                                   |
+| Sydney ATIS        |                | 126.250          | YSSY_ATIS                                |
 
 † **Non-standard position** – may only be used in accordance with VATPAC Ratings and Controller Positions Policy (link)
 
 ### Maneuvring Area Responsibility
-(2.1.1.1 Diagram)
+<figure markdown>
+![YSSY Maneuvring Area](img/yssy_maneuvring_area.png){ width="500" }
+  <figcaption>Manouvering Area</figcaption>
+</figure>
 
+#### Standard Taxi Routes
 
+Except when the traffic situation warrants, taxi clearances shall conform to the following diagram:
+<figure markdown>
+![YSSY Taxi Route](img/yssy_taxi_routes.png){ width="500" }
+  <figcaption>Standard Taxi Routes</figcaption>
+</figure>
 
-# ATIS
+!!! tip
+    For aircraft taxiing northbound on B, consider instructing them to hold short of taxiway B8 when 34L is in use for arrivals, in order to separate from aircraft using the B9 rapid exit.
+
+Intersection departures are not permitted for Jet aircraft on runway 34L. `ERSA FAC YSSY 7.1a`
 ## Runway Modes
 Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
@@ -40,8 +53,21 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 
 *Permitted between the hours of 2300 and 0600 Local. If the pilot does not want to participate in curfew mode operations, the controller must accommodate this request
 
-#### PROPS Runway Selection
-Unless operationally required, aircraft shall be assigned the following runways for departure:
+!!! note
+    In general, the SODPROPS, 16D/07A, and 25D/34A modes are most suitable for Noise Abatement. The PROPS modes are most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Milk Run Monday or Panic Stations.
+
+!!! tip
+    Take in to account an aircraft's weight when Runway 16L/34R or 07/25 are in use. The aircraft may operationally require the longer Runway 16R/34L. If in doubt, ask the pilot. The aircraft may simply want a departure from 16R instead of 16L so they have a shorter taxi, for example. If the traffic situation permits, try to be accommodating of these requests.
+
+When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time
+
+!!! example
+    SY_TWR: "ABC, Traffic is DEF, a 737, opposite direction, on short final for the parallel runway. Runway 16L, Cleared for Takeoff"  
+    ABC: "Cleared for Takeoff Runway 16L, ABC"  
+    SY_TWR: "DEF, Traffic is ABC, an A320, opposite direction, departing from the parallel runway. Runway 34L, Cleared to Land"  
+    DEF: "Cleared to Land Runway 34L, DEF"  
+#### Parallel Runway Operations - Runway Selection
+Unless operationally required, aircraft shall be assigned the following runways for departure when PROPS are in progress:
 
 | Aircraft tracking | Runway  |
 | ----------------| --------- |
@@ -49,40 +75,57 @@ Unless operationally required, aircraft shall be assigned the following runways 
 | via WOL | 16R/34L |
 | via RIC| 16R/34L |
 | via ENTRA | 16L/34R |
-| Aircraft assigned Radar SID or No SID: |
+| Other aircraft: |
 | To the NORTH and EAST | 16L/34R |
 | To the WEST and SOUTH | 16R/34L |
 
-!!! information
-    When parallel runways are used (excluding SODPROPS), the ATIS shall include: `PARALLEL RUNWAY OPERATIONS IN PROGRESS`. When parallel runways are used for departures, the ATIS shall include: `INDEPENDENT DEPARTURES IN PROGRESS`.
+!!! note
+    Aircraft 
 
-### Approach Type
+#### SID Selection
+
+Jet Aircraft planned via **KADOM**, **WOL**, **RIC**, or **ENTRA**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
+
+!!! example
+    Jet Aircraft planned via ENTRA, assigned runway 16L, shall be given KEVIN6 departure, ENTRA transition.
+
+Jet Aircraft **not** planned via **KADOM**, **WOL**, **RIC**, or **ENTRA**, and **not** using Runway 25, shall be assigned the **Procedural SID** appropriate to their runway, with the **RADAR** transition.
+
+!!! example
+    Jet Aircraft planned via EVONN, assigned runway 34R, shall be given MARUB6 departure, RADAR transition.
+
+!!! note
+    Heavier aircraft on long-haul flights may not be able to achieve the Climb Gradient required of the Procedural SIDs. In this instance, they shall be assigned the **Radar SID**. If in doubt, ask the pilot.
+
+All other aircraft (Non-Jet aircraft, Aircraft with shallow Climb Gradient, and Aircraft using Runway 25), shall be assigned the **Radar SID**.
+
+!!! example
+    Non-Jet Aircraft planned via CORDO, assigned runway 16R, shall be given the SYDNEY2 departure.
+#### ATIS Operational Info
+
+
+When parallel runways are used (excluding SODPROPS), the ATIS OPR INFO shall include:  
+`PARALLEL RUNWAY OPERATIONS IN PROGRESS`  
+When parallel runways are used for departures, the ATIS OPR INFO shall include:  
+`INDEPENDENT DEPARTURES IN PROGRESS`  
+When SODPROPS are in operation, the ATIS OPR INFO shall include:  
+`SIMULTANEOUS OPPOSITE DIRECTION PARALLEL RUNWAY OPERATIONS IN PROGRESS`
+#### ATIS Approach Types
 
 | Cloud Base             | Visibility     | Approach                             |
 | -----------------------| -------------- | -------------------------------------|
 | >3000FT                | >5000M         | `EXPECT INDEPENDENT VISUAL APPROACH` |
 | Between 2000FT & 3000FT| >5000M         | `EXPECT ILS APPROACH THEN INDEPENDENT VISUAL APPROACH WHEN VISUAL`|
-| Below 2000FT         or| <5000M         | `EXPECT ILS APPROACH`                |
-
-### Standard Taxi Routes
-
-Except when the traffic situation warrants, taxi clearances shall conform to the following diagram:
-(2.1.4.1 Diagram)
-#### Standard Assignable Levels - Departure
-
-Jets: `A050`
-Non-jets: `A030`
-
-#### Runway Assignment
-
-Take in to account an aircraft's weight when Runway 16L/34R or 07/25 are in use. The aircraft may operationally require the longer Runway 16R/34L. If in doubt, ask the pilot.
+| Below 2000FT **or**    | <5000M         | `EXPECT ILS APPROACH`                |
 
 ## Airspace
-
 Tower airspace is defined as between SFC to 500 FT, within the lateral limits:
 a) Wanda Kopter Route; then
 b) along the SY CTR boundary; to
 c) Long Bay; then
 d) direct to YSSY.
 
-(vatSys Diagram)
+<figure markdown>
+![Sydney Tower Airspace](img/SYTWR.png){ width="700" }
+  <figcaption>Sydney Tower Airspace</figcaption>
+</figure>
