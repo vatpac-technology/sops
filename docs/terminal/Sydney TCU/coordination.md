@@ -3,7 +3,62 @@
 ---
 
 --8<-- "includes/abbreviations.md"
+# SY TCU / ENR
+Voiceless coordination is in place from SY TCU to all surrounding ENR sectors (ARL to the North and East, YWE to the West, BIK to the South) for aircraft:  
+Planned at or above F280: `Assigned F280`  
+Planned below F280: `Assigned the RFL`  
+with ADES YWLM at or above F130: `Assigned F130`  
+with ADES YWLM below F130: `Assigned the RFL`  
 
+Any aircraft not meeting the above criteria must be prior coordinated to ENR.
+
+!!! example
+    SDN -> ARL: "JST789, with your concurrence, will be assigned F240, for my separation with ANZ12"  
+    ARL -> SDN: "JST789, concur F240"  
+    SDN -> ARL: "F240, JST789" 
+
+Standard assignable levels from ENR to SY TCU are as follows:  
+via RIVET, BOREE, or MARLN: `A100`  
+All other routes: `A090`  
+# SY TCU Internal
+### APP / DIR
+
+Voiceless coordination is in place between APP and DIR, with the following conditions:
+
+a) Assigned A060  
+b) Routed/vectored as per the table below:
+
+| STAR  | 07   | 16L  | 16R   | 25   | 34L | 34R
+| ------| --------------| -------------- | ----- | -----|-----|-----|
+| BOREE   |H240| LOC/IVA  | LOC/IVA  | H060 | STAR | STAR|
+| MEPIL   |H240| STAR  | STAR  | H060 | H150 | H150|
+| MARLN   |H240| H330  | H330  | STAR | H150 | STAR|
+| RIVET  |STAR| H330  | H330  | H060 | STAR | STAR|
+| ODALE |LOC| H330  | H330  | H060 | H150 | H150|
+
+Where an aircraft needs to cross the approach paths or overfly Sydney to join the opposite circuit, the following altitudes shall be used until radar separation is established with respect to the approach paths:  
+Eastbound: `A070`  
+Westbound: `A080`
+
+Any aircraft not meeting these requirements **must** be prior coordinated to DIR.
+
+!!! example
+    QFA123 -> SAS: "QFA123, Requesting DCT SOSIJ"  
+    SAS -> QFA123: "QFA123, Standby"  
+    SAS -> SFW: "QFA123, requesting DCT SOSIJ"  
+    SFW -> SAS: "QFA123, concur DCT SOSIJ"  
+    SAS -> SFW: "DCT SOSIJ, QFA123"  
+    SAS -> QFA123: "QFA123, Cancel STAR, Recleared DCT SOSIJ, A060"  
+    QFA123 -> SAS: "Cancel STAR, Recleared DCT SOSIJ, A060, QFA123"  
+
+!!! example
+    SAS -> SFW: "VOZ456, with your concurrence, will be assigned A070, for my separation with ABC"  
+    SFW -> SAS: "VOZ456, concur A070"  
+    SAS -> SFW: "A070, VOZ456"  
+
+### APP / DEP
+Aircraft are permitted cross the MARLN corridor at or above A060 without coordination with APP. DEP is responsible for separation with respect to aircraft in the corridor.
+# SY TCU / SY ADC
 ### Auto Release
 
 "Next" Coordination is a procedure where the SY TWR controller gives a heads-up to the SY TCU controller about an impending departure. The SY TCU controller will respond by assigning a heading to the aircraft, for the SY TWR controller to pass on with their takeoff clearance.
@@ -13,38 +68,73 @@
     SY TCU -> SY TWR: "ABC, Heading 030"  
     SY TWR -> SY TCU: "Heading 030, ABC"  
     SY TWR -> ABC: "ABC, Assigned heading right 030, Runway 34R, Cleared for Takeoff"  
-    ABC -> SY TWR: "Right heading 030, Runway 34R, Cleared for Takeoff"  
+    ABC -> SY TWR: "Right heading 030, Runway 34R, Cleared for Takeoff, ABC"  
     `AIP GEN 3.4 6.16.6`
 
-"Next" Coordination to SY TCU is additionally required for:  
-    a) Departures to YSBK  
-    b) Jets departing 16L via WOL, except during SODPROPS  
-    c) after a go-around, the next departure from that runway
-
 The SY TCU controller can suspend/resume Auto Release at any time, with the concurrence of SY TWR.
+# SY TCU / BK TWR
+#### Departures
 
-"Next" Coordination to SY TCU is not required for aircraft assigned a **Procedural SID** and the Standard Assignable Level.
+Aircraft departing YSBK in to SY TCU will be coordinated from BK TWR at Taxi. Aircraft that will enter the SY TCU Class C airspace need to be passed airways clearances to BK TWR at this point, to be relayed to the aircraft.
 
-#### Standard Assignable Departure Headings
+!!! example
+    BK TWR -> SY TCU: "Taxi, TFX12 for YMML via WOL"  
+    SY TCU -> BK TWR: "TFX12, BK, WOL, Flight Planned Route, A030, Squawk 3601"  
+    BK TWR -> SY TCU: "BK, WOL, Flight Planned Route, A030, Squawk 3601, TFX12"  
+    BK TWR Will then pass the airways clearance to TFX12
 
-Aircraft that have been assigned the **Radar SID** must be assigned a heading on departure. “Next” coordination is not required to the SY TCU controller when the departing aircraft has been assigned the standard assignable level, and has been cleared via the headings listed below:
+BK TWR will then give a "Next" call, where the SY TCU controller shall assign a heading (usually 290, for separation from YSSY).
 
-| Runway | Jet | Non-Jet 
-| ----------------- | -------------- | ---------------- |
-| 07                | 070         | 020, 110       |
-| 16L                | 125          | 125 (RWY 25 in use), 090 (RWY 25 not in use) |
-| 16R               | 170         | 210         |
-| 25                | 300, 240          | 020, 210, 240 |
-| 34L                | 290          | 230 |
-| 34R                | 030, 070          | 350 |
+!!! example
+    BK TWR -> SY TCU: "Next, TFX12"  
+    SY TCU -> BK TWR: "TFX12, Right Heading 290, A030"  
+    BK TWR -> SY TCU: "Right Heading 290, A030, TFX12"  
+    BK TWR Will then clear the aircraft to takeoff with the assigned heading, and instruct them to contact SY TCU passing A020.
 
-!!! information
-    Where multiple standard assignable headings are available, assign the heading most suitable for the aircraft's direction of flight
+#### BK TWR Offline
+Due to the low level of CTA (A015) in the BK CTR when BK TWR is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
-#### Standard Assignable Departure Levels
+!!! example
+    ABC -> SY TCU: "Sydney Approach, ABC, PC12, POB 8, IFR, Taxiing YSBK for YSHL, Runway 11C" `AIP GEN 3.4 6.16.4 1b`  
+    SY TCU -> ABC: "ABC, Sydney Approach, Squawk 3601, No Reported IFR Traffic, Call me Ready at the Holding Point for Airways Clearance"  
+    ABC -> SY TCU: "Squawk 3601, Wilco, ABC"  
+    ABC -> SY TCU: "ABC, Ready Runway 11C, Request clearance"  
+    SY TCU -> ABC: "ABC, Cleared to YSHL via ANKUB, Flight Planned Route. Make Visual right turn DCT ANKUB, Climb to A030 Visual"  
+    ABC -> SY TCU: "Cleared to YSHL via ANKUB, Flight Planned Route. Make Visual right turn DCT ANKUB, Climb to A030 Visual, ABC" 
 
-Jets: `A050`
-Non-jets: `A030`
+#### Arrivals
 
-### Ground Operations
-As per this (link) diagram, ADC has Responsibility of the Runways, meaning SMC must always coordinate with ADC to allow aircraft to cross runways whilst taxiing. SMC may request, or ADC may elect, to release certain runways to the SMC controller, so they may let aircraft cross the runway without coordination (For example, Releasing runway 07/25 to SMC whilst PROPS are in progress.) This Release may also be cancelled at the controller's discretion.
+YSBK arrivals shall be coordinated to BK TWR from SY TCU prior to 10 minutes from entering the BK CTR.
+
+!!! tip
+    Ensure the aircraft's FDR is up-to-date in order to give BK TWR maximum situational awareness of the traffic picture. (eg. if the aircraft is doing the RNP approach, ensure the FDR has been rerouted via the appropriate points)
+
+!!! example
+    SY TCU -> BK TWR: "Estimate, ABC, Estimating YSBK time 26, via ODALE"  
+    BK TWR -> SY TCU: "ABC via ODALE"  
+
+# SY TCU / CN TWR
+#### Departures
+
+Aircraft departing YSCN in to SY TCU will be coordinated from CN TWR at Taxi. SY TCU will issue the Squawk code.
+
+!!! example
+    CN TWR -> SY TCU: "Taxi, DEF for YBTH via KADOM"  
+    SY TCU -> CN TWR: "DEF, Squawk 3601."  
+    CN TWR -> SY TCU: "Squawk 3601, DEF"  
+
+CN TWR will then give a "Next" call.
+
+!!! example
+    CN TWR -> SY TCU: "Next, DEF"  
+    SY TCU -> CN TWR: "DEF"  
+#### Arrivals
+
+YSCN arrivals shall be coordinated to CN TWR from SY TCU prior to 10 minutes from entering the CN CTR.
+
+!!! example
+    SY TCU -> CN TWR: "Estimate, ZYX, Estimating YSCN time 53, via TONTO"  
+    CN TWR -> SY TCU: "ZYX via TONTO"  
+# SY TCU / RIC TWR
+
+Reserved
