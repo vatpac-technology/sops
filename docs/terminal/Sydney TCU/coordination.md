@@ -69,7 +69,7 @@ Aircraft are permitted cross the MARLN corridor at or above A060 without coordin
     SY TWR -> SY TCU: "Heading 030, ABC"  
     SY TWR -> ABC: "ABC, Assigned heading right 030, Runway 34R, Cleared for Takeoff"  
     ABC -> SY TWR: "Right heading 030, Runway 34R, Cleared for Takeoff, ABC"  
-    `AIP GEN 3.4 6.16.6`
+    `AIP GEN 3.4 6.16.6 3f`
 
 The SY TCU controller can suspend/resume Auto Release at any time, with the concurrence of SY TWR.
 # SY TCU / BK TWR

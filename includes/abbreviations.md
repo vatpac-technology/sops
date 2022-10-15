@@ -27,3 +27,5 @@
 *[ADEP]: Departure Aerodrome
 *[LOC]: Localiser
 *[ILS]: Instrument Landing System
+*[ACD]: Airways Clearance Delivery
+*[ATIS]: Automatic Terminal Information Service

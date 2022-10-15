@@ -19,12 +19,12 @@
 † **Non-standard position** – may only be used in accordance with VATPAC Ratings and Controller Positions Policy (link)
 ## Airspace
 The Sydney TMA spans a 45nm Radius around YSSY from SFC-FL280.  
-SY TCU is responsible for the Sydney TMA, except:
-a) BK CTR when BK TWR is active;
-b) CN CTR when CN TWR is active;
+SY TCU is responsible for the Sydney TMA, except:  
+a) BK CTR when BK TWR is active;  
+b) CN CTR when CN TWR is active;  
 c) any airspace released to an external unit (e.g. tower) either by a provision of this TMA SUP or as negotiated.
 
-BK CTR reverts to Class G when BK TWR is offline, and is administered by the relevant SY TCU controller.  
+BK CTR reverts to Class G when BK TWR is offline, and is administered by the relevant SY TCU controller.    
 CN CTR reverts to Class G when CN TWR is offline, and is administered by the relevant SY TCU controller.  
 #### Airspace Structural Arrangements
 
@@ -36,7 +36,7 @@ b) Approach assumes Director/Departure airspace “on-side” when the latter po
 When assigning levels on descent to aircraft, remember that you will not receive "Next" Coordination on aircraft assigned Standard Assignable Levels (ie A050 for Jets, A030 for Non-Jets), meaning an aircraft could depart at any time without prior warning and climb to A050. So in order to assure separation between arrivals and departures, do not assign below **A060** to aircraft until they are clear of the active runway's departure path.
 
 !!! example
-    For an aircraft inbound from the north on the BOREE3A arrival Runway 34R, assign A060 until south of the field, then lower as required
+    For an aircraft inbound from the north on the BOREE3A arrival Runway 34R, assign no lower than A060 until south of the field, then lower as required
 ### Parallel Runway Operations
 
 #### Runway Selection
@@ -59,8 +59,8 @@ Aim to vector aircraft to the following Intercept points during PROPS:
 
 | Runway | Distance from Threshold | Level  |
 | --| ----------------| --------- |
-|RWY 16R/34L| Approx 10nm   | A030     |
-|RWY 16L/34R| 15nm of further | A040 |
+|RWY 16R/34L| 10nm   | A030     |
+|RWY 16L/34R| 15nm or further | A040 |
 
 #### Independent Visual Approach
 
@@ -75,7 +75,7 @@ When conducting IVAs, aircraft shall not be transferred to SY ADC until establis
     BNZ444: "120.5, BNZ444" 
 
 ## Sydney Harbour Scenic Flights
-The airspace above Sydney Harbour is Class C and availability of an airways clearance to enter depends on traffic levels, controller workload and VMC. Flights may be cleared for one of two standard scenic flight routes at A015, **Harbour Scenic ONE** or **Harbour Scenic TWO**, which are described below. Pilot preference should be accommodated where traffic permits.
+Flights may be cleared for one of two standard scenic flight routes at A015, **Harbour Scenic ONE** or **Harbour Scenic TWO**, which are described below. Pilot preference should be accommodated where traffic permits.
 
 Aircraft must Track via Class G airspace to Long Reef and contact ATC prior to reaching Long Reef requesting a ‘Harbour Scenic’ clearance. If a clearance cannot be given immediately, instruct the pilot to remain in Class G airspace
 
