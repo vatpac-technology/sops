@@ -29,3 +29,6 @@
 *[ILS]: Instrument Landing System
 *[ACD]: Airways Clearance Delivery
 *[ATIS]: Automatic Terminal Information Service
+*[NOTAM]: Notice to Airmen
+*[CTA]: Controlled Airspace
+*[OCTA]: Outside Controlled Airspace

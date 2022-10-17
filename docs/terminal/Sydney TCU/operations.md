@@ -22,7 +22,7 @@ The Sydney TMA spans a 45nm Radius around YSSY from SFC-FL280.
 SY TCU is responsible for the Sydney TMA, except:  
 a) BK CTR when BK TWR is active;  
 b) CN CTR when CN TWR is active;  
-c) any airspace released to an external unit (e.g. tower) either by a provision of this TMA SUP or as negotiated.
+c) any airspace released to an external unit (e.g. tower) either by NOTAM or as negotiated.
 
 BK CTR reverts to Class G when BK TWR is offline, and is administered by the relevant SY TCU controller.    
 CN CTR reverts to Class G when CN TWR is offline, and is administered by the relevant SY TCU controller.  
@@ -98,6 +98,16 @@ A **‘Harbour Scenic ONE’** (or **‘TWO’**) clearance is used to authorise
 </figure>
 
 These can be displayed on vatSys using the SY_VFR map.
+## BK TWR Offline
+Due to the low level of CTA (A015) in the BK CTR when BK TWR is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
+
+!!! example
+    ABC -> SY TCU: "Sydney Approach, ABC, PC12, POB 8, IFR, Taxiing YSBK for YSHL, Runway 11C" `AIP GEN 3.4 6.16.4 1b`  
+    SY TCU -> ABC: "ABC, Sydney Approach, Squawk 3601, No Reported IFR Traffic, Call me Ready at the Holding Point for Airways Clearance"  
+    ABC -> SY TCU: "Squawk 3601, Wilco, ABC"  
+    ABC -> SY TCU: "ABC, Ready Runway 11C, Request clearance"  
+    SY TCU -> ABC: "ABC, Cleared to YSHL via ANKUB, Flight Planned Route. Make Visual right turn DCT ANKUB, Climb to A030"  
+    ABC -> SY TCU: "Cleared to YSHL via ANKUB, Flight Planned Route. Make Visual right turn DCT ANKUB, Climb to A030, ABC" 
 ## Airspace Division
 
 The divisions of the airspace between SAN, SAS, SDS, SDN, SFW and SFE change based on the Runway Mode.
