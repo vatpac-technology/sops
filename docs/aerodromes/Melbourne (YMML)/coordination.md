@@ -7,17 +7,20 @@
 # ML ADC / ML TCU
 ### Auto Release
 
-Auto Release shall be used for aircraft that are:  
-a) Departing from a runway nominated on the ATIS; and
-b) Issued A Procedural SID; and
-c) Assigned A050.
+Auto Release shall be used for aircraft that are:    
+a) Departing from a runway nominated on the ATIS; and  
+b) Issued a Procedural SID; and   
+c) Assigned A050; or
 
 Any aircraft that don't meet these criteria must be coordinated to ML TCU with a "Next" Call
 
 !!! example
-    ML TWR -> ML TCU: "Next, ABC"  
-    ML TCU -> ML TWR: "ABC, Track Extended Centreline"  
-    SY TWR -> SY TCU: "Track Extended Centreline, ABC"  
-    SY TWR -> ABC: "ABC, Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff"  
-    ABC -> SY TWR: "Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff, ABC"  
+    ML ADC -> ML TCU: "Next, ABC"  
+    ML TCU -> ML ADC: "ABC, Track Extended Centreline"  
+    ML ADC -> ML TCU: "Track Extended Centreline, ABC"  
+    ML ADC -> ABC: "ABC, Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff"  
+    ABC -> ML ADC: "Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff, ABC"  
     `AIP GEN 3.4 6.16.6 3h`
+
+### Runway Change
+Any Runway change must be prior coordinated to MAE and EN TWR.

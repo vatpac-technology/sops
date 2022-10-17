@@ -10,11 +10,11 @@
 "Next" Coordination is a procedure where the SY TWR controller gives a heads-up to the SY TCU controller about an impending departure. The SY TCU controller will respond by assigning a heading to the aircraft, for the SY TWR controller to pass on with their takeoff clearance.
 
 !!! example
-    SY TWR -> SY TCU: "Next, ABC"  
-    SY TCU -> SY TWR: "ABC, Heading 030"  
-    SY TWR -> SY TCU: "Heading 030, ABC"  
-    SY TWR -> ABC: "ABC, Assigned heading right 030, Runway 34R, Cleared for Takeoff"  
-    ABC -> SY TWR: "Right heading 030, Runway 34R, Cleared for Takeoff, ABC"  
+    SY ADC -> SY TCU: "Next, ABC"  
+    SY TCU -> SY ADC: "ABC, Heading 030"  
+    SY ADC -> SY TCU: "Heading 030, ABC"  
+    SY ADC -> ABC: "ABC, Assigned heading right 030, Runway 34R, Cleared for Takeoff"  
+    ABC -> SY ADC: "Right heading 030, Runway 34R, Cleared for Takeoff, ABC"  
     `AIP GEN 3.4 6.16.6 3f`
 
 "Next" Coordination to SY TCU is additionally required for:  

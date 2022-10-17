@@ -4,6 +4,7 @@
 
 --8<-- "includes/abbreviations.md"
 # SY TCU / ENR
+#### Departures
 Voiceless coordination is in place from SY TCU to all surrounding ENR sectors (ARL to the North and East, YWE to the West, BIK to the South) for aircraft:  
 Planned at or above F280: `Assigned F280`  
 Planned below F280: `Assigned the RFL`  
@@ -17,6 +18,7 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
     ARL -> SDN: "JST789, concur F240"  
     SDN -> ARL: "F240, JST789" 
 
+#### Arrivals
 Standard assignable levels from ENR to SY TCU are as follows:  
 via RIVET, BOREE, or MARLN: `A100`  
 All other routes: `A090`  
@@ -59,16 +61,16 @@ Any aircraft not meeting these requirements **must** be prior coordinated to DIR
 ### APP / DEP
 Aircraft are permitted cross the MARLN corridor at or above A060 without coordination with APP. DEP is responsible for separation with respect to aircraft in the corridor.
 # SY TCU / SY ADC
-### Auto Release
+#### Auto Release
 
 "Next" Coordination is a procedure where the SY TWR controller gives a heads-up to the SY TCU controller about an impending departure. The SY TCU controller will respond by assigning a heading to the aircraft, for the SY TWR controller to pass on with their takeoff clearance.
 
 !!! example
-    SY TWR -> SY TCU: "Next, ABC"  
-    SY TCU -> SY TWR: "ABC, Heading 030"  
-    SY TWR -> SY TCU: "Heading 030, ABC"  
-    SY TWR -> ABC: "ABC, Assigned heading right 030, Runway 34R, Cleared for Takeoff"  
-    ABC -> SY TWR: "Right heading 030, Runway 34R, Cleared for Takeoff, ABC"  
+    SY ADC -> SY TCU: "Next, ABC"  
+    SY TCU -> SY ADC: "ABC, Heading 030"  
+    SY ADC -> SY TCU: "Heading 030, ABC"  
+    SY ADC -> ABC: "ABC, Assigned heading right 030, Runway 34R, Cleared for Takeoff"  
+    ABC -> SY ADC: "Right heading 030, Runway 34R, Cleared for Takeoff, ABC"  
     `AIP GEN 3.4 6.16.6 3f`
 
 The SY TCU controller can suspend/resume Auto Release at any time, with the concurrence of SY TWR.
@@ -90,17 +92,6 @@ BK TWR will then give a "Next" call, where the SY TCU controller shall assign a 
     SY TCU -> BK TWR: "TFX12, Right Heading 290, A030"  
     BK TWR -> SY TCU: "Right Heading 290, A030, TFX12"  
     BK TWR Will then clear the aircraft to takeoff with the assigned heading, and instruct them to contact SY TCU passing A020.
-
-#### BK TWR Offline
-Due to the low level of CTA (A015) in the BK CTR when BK TWR is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
-
-!!! example
-    ABC -> SY TCU: "Sydney Approach, ABC, PC12, POB 8, IFR, Taxiing YSBK for YSHL, Runway 11C" `AIP GEN 3.4 6.16.4 1b`  
-    SY TCU -> ABC: "ABC, Sydney Approach, Squawk 3601, No Reported IFR Traffic, Call me Ready at the Holding Point for Airways Clearance"  
-    ABC -> SY TCU: "Squawk 3601, Wilco, ABC"  
-    ABC -> SY TCU: "ABC, Ready Runway 11C, Request clearance"  
-    SY TCU -> ABC: "ABC, Cleared to YSHL via ANKUB, Flight Planned Route. Make Visual right turn DCT ANKUB, Climb to A030 Visual"  
-    ABC -> SY TCU: "Cleared to YSHL via ANKUB, Flight Planned Route. Make Visual right turn DCT ANKUB, Climb to A030 Visual, ABC" 
 
 #### Arrivals
 
