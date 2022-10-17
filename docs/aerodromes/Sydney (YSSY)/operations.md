@@ -10,7 +10,7 @@
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Sydney ADC West**    | **Sydney Tower**   | **120.500**          | **SY_TWR**                                   |
 | Sydney ADC East†   | Sydney Tower   | 124.700          | SY-E_TWR                                 |
-| **Sydney SMC West**    | **Sydney Ground**  | **126.500**          | SY_GND**                                   |
+| **Sydney SMC West**    | **Sydney Ground**  | **126.500**          | **SY_GND**                                   |
 | Sydney SMC East†   | Sydney Ground  | 121.700          | SY-E_GND                                 |
 | Sydney Coordinator† | Sydney Coordinator   | 127.600          | SY-C_GND                                |
 | **Sydney ACD**         | **Sydney Delivery**| **133.800**          | **SY_DEL**                                   |
@@ -20,10 +20,10 @@
 
 In the absence of an ACD controller, SMC shall asssume the ADC responsibilities.  
 In the absence of an SMC controller, ADC shall assume the SMC and ADC responsibilities.
-### Maneuvring Area Responsibility
+### Maneuvering Area Responsibility
 <figure markdown>
-![YSSY Maneuvring Area](img/yssy_maneuvring_area.png){ width="500" }
-  <figcaption>Manouvering Area</figcaption>
+![YSSY Maneuvering Area](img/yssy_maneuvring_area.png){ width="500" }
+  <figcaption>Maneuvering Area</figcaption>
 </figure>
 
 #### Standard Taxi Routes
