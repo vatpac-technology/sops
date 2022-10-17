@@ -45,7 +45,7 @@ Aircraft that have been assigned the **Radar SID** must be assigned a heading on
 #### Standard Assignable Departure Levels
 
 Jets: `A050`
-Non-jets: `A030`
+Non-jets: `A030` or `RFL` if lower
 
 # SY ADC / SY SMC
 ### Ground Operations
