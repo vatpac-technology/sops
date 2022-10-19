@@ -18,7 +18,7 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
     MDN -> YWE: "F190, QFA123" 
 
 #### Arrivals
-The Standard assignable level from ENR to ML TCU is `A090`, and is voiceless coordination.
+The Standard assignable level from ENR to ML TCU is `A090`. All other levels must be prior coordinated
 
 # ML TCU / ML ADC
 #### Auto Release
@@ -26,9 +26,11 @@ The Standard assignable level from ENR to ML TCU is `A090`, and is voiceless coo
 Auto Release shall be used for aircraft that are:    
 a) Departing from a runway nominated on the ATIS; and  
 b) Issued a Procedural SID; and   
-c) Assigned A050; or
+c) Assigned A050.
 
-Any aircraft that don't meet these criteria must be coordinated to ML TCU with a "Next" Call
+Any aircraft that don't meet these criteria must be coordinated to ML TCU with a "Next" Call.
+
+"Next" Coordination is a procedure where the BN ADC controller gives a heads-up to the BN TCU controller about an impending departure. The BN TCU controller will respond by assigning a heading to the aircraft, for the BN ADC controller to pass on with their takeoff clearance.
 
 !!! example
     ML ADC -> ML TCU: "Next, ABC"  
@@ -40,7 +42,7 @@ Any aircraft that don't meet these criteria must be coordinated to ML TCU with a
 
 # ML TCU / EN TWR
 #### Arrivals
-ML TCU Must coordinate the sequence information to EN TWR prior to **15nm** from YMEN. ML TCU is responsible for clearing aircraft for the approach prior to handoff to EN TWR
+ML TCU Must coordinate the sequence information to EN TWR prior to transfer of jurisdiction. ML TCU is responsible for clearing aircraft for the approach prior to handoff to EN TWR.
 
 !!! example
     ML TCU -> EN TWR: "New sequence of 1, FD123, via MONTY, Number 1"  
@@ -57,7 +59,7 @@ Aircraft departing YMEN in to ML TCU Class C will be coordinated from EN TWR at 
 
 # ML TCU / AV TWR
 #### Arrivals
-ML TCU Must coordinate the sequence information to AV TWR prior to **20nm** from YMAV.
+ML TCU Must coordinate the sequence information to AV TWR prior to transfer of jurisdiction.
 
 !!! example
     ML TCU -> AV TWR: "New sequence of 1, JST612, via TEMPL, Number 1"  
@@ -81,7 +83,7 @@ When the aircraft is ready for takeoff, AV TWR will give a "Next" call, where ML
 
 # ML TCU / MB TWR
 #### Arrivals
-ML TCU Must coordinate the sequence information to MB TWR prior to **10 minutes** from MB.
+ML TCU Must coordinate the sequence information to MB TWR prior to transfer of jurisdiction.
 
 !!! example
     ML TCU -> MB TWR: "New sequence of 1, OXA, via MMBSA, Number 1"  
