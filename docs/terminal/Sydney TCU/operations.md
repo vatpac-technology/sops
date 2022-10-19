@@ -20,8 +20,9 @@
 ## Airspace
 The Sydney TMA spans a 45nm Radius around YSSY from SFC-FL280.  
 SY TCU is responsible for the Sydney TMA, except:  
-a) BK CTR when BK TWR is active;  
-b) CN CTR when CN TWR is active;  
+a) BK CTR when BK TWR is online;  
+b) CN CTR when CN TWR is online;
+c) R470 Restricted Area, when RIC TWR is online (or as negotiated) 
 c) any airspace released to an external unit (e.g. tower) either by NOTAM or as negotiated.
 
 BK CTR reverts to Class G when BK TWR is offline, and is administered by the relevant SY TCU controller.    

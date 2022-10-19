@@ -73,7 +73,7 @@ Aircraft are permitted cross the MARLN corridor at or above A060 without coordin
     ABC -> SY ADC: "Right heading 030, Runway 34R, Cleared for Takeoff, ABC"  
     `AIP GEN 3.4 6.16.6 3f`
 
-The SY TCU controller can suspend/resume Auto Release at any time, with the concurrence of SY TWR.
+The SY TCU controller can suspend/resume Auto Release at any time, with the concurrence of SY ADC.
 # SY TCU / BK TWR
 #### Departures
 
@@ -95,7 +95,7 @@ BK TWR will then give a "Next" call, where the SY TCU controller shall assign a 
 
 #### Arrivals
 
-YSBK arrivals shall be coordinated to BK TWR from SY TCU prior to 10 minutes from entering the BK CTR.
+YSBK arrivals shall be coordinated to BK TWR from SY TCU prior to transfer of jurisdiction.
 
 !!! tip
     Ensure the aircraft's FDR is up-to-date in order to give BK TWR maximum situational awareness of the traffic picture. (eg. if the aircraft is doing the RNP approach, ensure the FDR has been rerouted via the appropriate points)
@@ -121,7 +121,7 @@ CN TWR will then give a "Next" call.
     SY TCU -> CN TWR: "DEF"  
 #### Arrivals
 
-YSCN arrivals shall be coordinated to CN TWR from SY TCU prior to 10 minutes from entering the CN CTR.
+YSCN arrivals shall be coordinated to CN TWR from SY TCU prior to transfer of jurisdiction.
 
 !!! example
     SY TCU -> CN TWR: "Estimate, ZYX, Estimating YSCN time 53, via TONTO"  
