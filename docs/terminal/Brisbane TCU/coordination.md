@@ -5,11 +5,11 @@
 --8<-- "includes/abbreviations.md"
 # BN TCU / ENR
 #### Departures
-Voiceless coordination is in place from BN TCU to all surrounding ENR sectors (ARL to the North and East, YWE to the West, BIK to the South) for aircraft:  
-Planned at or above F280: `Assigned F180`  
-Planned below F280: `Assigned the RFL`  
-with ADES YBSU at or above ???: `Assigned F???`  
-with ADES YBSU below ???: `Assigned the RFL`  
+Voiceless coordination is in place from BN TCU to INL (and subsectors) for aircraft:  
+**Departing YBBN** - Assigned the lower of `F180` or `RFL`  
+**Departing YBCG to the North** - Assigned the lower of `F180` or `RFL`  
+**Departing YBCG any other direction** - Assigned the lower of `F120` or `RFL`  
+**Arriving YBSU via ITIDE** - Assigned `F130`
 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
@@ -19,7 +19,9 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
     BDS -> INL: "F150, BNZ123" 
 
 #### Arrivals
-The Standard assignable level from ENR to ML TCU is `A090`. All other levels must be prior coordinated.
+The Standard assignable levels from ENR to BN TCU are as follows:  
+YBBN Arrivals: `A090`  
+YBCG Arrivals: `F130`
 
 # BN TCU / BN ADC
 #### Auto Release
@@ -44,83 +46,47 @@ Any aircraft that don't meet these criteria must be coordinated to BN TCU with a
 # BN TCU / AF TWR
 #### Departures
 
-Aircraft departing YSBK in to BN TCU will be coordinated from BK TWR at Taxi. Aircraft that will enter the BN TCU Class C airspace need to be passed airways clearances to BK TWR at this point, to be relayed to the aircraft.
+Aircraft departing YBAF in to BN TCU Class C will be coordinated from AF TWR at Taxi. Aircraft will need to be passed airways clearances to AF TWR at this point, to be relayed to the aircraft.
+
+The Standard assignable levels for YBAF departures is the lower of `A040` or the `RFL`.
 
 !!! example
-    BK TWR -> BN TCU: "Taxi, TFX12 for YMML via WOL"  
-    BN TCU -> BK TWR: "TFX12, BK, WOL, Flight Planned Route, A030, Squawk 3601"  
-    BK TWR -> BN TCU: "BK, WOL, Flight Planned Route, A030, Squawk 3601, TFX12"  
-    BK TWR Will then pass the airways clearance to TFX12
+    AF TWR -> BN TCU: "Taxi, DEF, VFR for YCDR via TVT"  
+    BN TCU -> AF TWR: "DEF, AF, TVT, Flight Planned Route, A040, Squawk 3601"  
+    AF TWR -> BN TCU: "AF, TVT, Flight Planned Route, A040, Squawk 3601, DEF"  
+    AF TWR Will then pass the airways clearance to DEF
 
-BK TWR will then give a "Next" call, where the BN TCU controller shall assign a heading (usually 290, for separation from YSBN).
+BK TWR will then give a "Next" call, where the BN TCU controller shall assign a heading (usually 290, for separation from YBBN).
 
 !!! example
-    BK TWR -> BN TCU: "Next, TFX12"  
-    BN TCU -> BK TWR: "TFX12, Right Heading 290, A030"  
-    BK TWR -> BN TCU: "Right Heading 290, A030, TFX12"  
-    BK TWR Will then clear the aircraft to takeoff with the assigned heading, and instruct them to contact BN TCU passing A020.
+    AF TWR -> BN TCU: "Next, TFX12"  
+    BN TCU -> AF TWR: "TFX12, Right Heading 290, A030"  
+    AF TWR -> BN TCU: "Right Heading 290, A030, TFX12"  
+    AF TWR Will then clear the aircraft to takeoff with the assigned heading, and instruct them to contact BN TCU passing A020.
 
 #### Arrivals
 
-YSBK arrivals shall be coordinated to BK TWR from BN TCU prior to 10 minutes from entering the BK CTR.
-
-!!! tip
-    Ensure the aircraft's FDR is up-to-date in order to give BK TWR maximum situational awareness of the traffic picture. (eg. if the aircraft is doing the RNP approach, ensure the FDR has been rerouted via the appropriate points)
+YBAF arrivals shall be coordinated to AF TWR from BN TCU prior to transfer of jurisdiction.
 
 !!! example
-    BN TCU -> BK TWR: "Estimate, ABC, Estimating YSBK time 26, via ODALE"  
-    BK TWR -> BN TCU: "ABC via ODALE"  
+    BN TCU -> AF TWR: "Estimate, BDF, Estimating YBAF time 26, via HUUGO, A040"  
+    AF TWR -> BN TCU: "ABC, A040"  
 
 # BN TCU / AMB APP
-#### Departures
-
-Aircraft departing YSCN in to BN TCU will be coordinated from CN TWR at Taxi. BN TCU will issue the Squawk code.
+All aircraft transiting between BN TCU and AMB APP must be heads-up coordinated prior to **20nm** from the boundary. Operations within AMB APP are fairly ad-hoc, so there are no standard assignable levels, simply whatever the BN TCU and AMB APP controller agree on.
 
 !!! example
-    CN TWR -> BN TCU: "Taxi, DEF for YBTH via KADOM"  
-    BN TCU -> CN TWR: "DEF, Squawk 3601."  
-    CN TWR -> BN TCU: "Squawk 3601, DEF"  
+    BN TCU -> AMB APP: "via WACKO, STAL13, what level can I assign?"  
+    AMB APP -> BN TCU: "STAL13, A050"  
+    BN TCU -> AMB APP: "A050, STAL13"  
 
-CN TWR will then give a "Next" call.
-
-!!! example
-    CN TWR -> BN TCU: "Next, DEF"  
-    BN TCU -> CN TWR: "DEF"  
-#### Arrivals
-
-YSCN arrivals shall be coordinated to CN TWR from BN TCU prior to 10 minutes from entering the CN CTR.
-
-!!! example
-    BN TCU -> CN TWR: "Estimate, ZYX, Estimating YSCN time 53, via TONTO"  
-    CN TWR -> BN TCU: "ZYX via TONTO"  
 # BN TCU / SU TWR
-#### Departures
 
-Aircraft departing YSBK in to BN TCU will be coordinated from BK TWR at Taxi. Aircraft that will enter the BN TCU Class C airspace need to be passed airways clearances to BK TWR at this point, to be relayed to the aircraft.
+As you may have noticed, BN TCU shares a tiny border with SU TWR, however there are no SIDs, STARs, or airways through this gap. The only possible way for an aircraft to directly enter SU TWR airspace from BN TCU's jurisdiction, is from Class G, and as such, no coordination is required to SU TWR, however, ensure the aircraft is transferred to the TWR at least **10nm** prior to the boundary, to facilitate their airways clearance.
 
-!!! example
-    BK TWR -> BN TCU: "Taxi, TFX12 for YMML via WOL"  
-    BN TCU -> BK TWR: "TFX12, BK, WOL, Flight Planned Route, A030, Squawk 3601"  
-    BK TWR -> BN TCU: "BK, WOL, Flight Planned Route, A030, Squawk 3601, TFX12"  
-    BK TWR Will then pass the airways clearance to TFX12
+<figure markdown>
+![BN TCU / SU TWR Border](img/subntcu.png){ width="700" }
+  <figcaption>BN TCU / SU TWR Border</figcaption>
+</figure>
 
-BK TWR will then give a "Next" call, where the BN TCU controller shall assign a heading (usually 290, for separation from YSBN).
-
-!!! example
-    BK TWR -> BN TCU: "Next, TFX12"  
-    BN TCU -> BK TWR: "TFX12, Right Heading 290, A030"  
-    BK TWR -> BN TCU: "Right Heading 290, A030, TFX12"  
-    BK TWR Will then clear the aircraft to takeoff with the assigned heading, and instruct them to contact BN TCU passing A020.
-
-#### Arrivals
-
-YSBK arrivals shall be coordinated to BK TWR from BN TCU prior to 10 minutes from entering the BK CTR.
-
-!!! tip
-    Ensure the aircraft's FDR is up-to-date in order to give BK TWR maximum situational awareness of the traffic picture. (eg. if the aircraft is doing the RNP approach, ensure the FDR has been rerouted via the appropriate points)
-
-!!! example
-    BN TCU -> BK TWR: "Estimate, ABC, Estimating YSBK time 26, via ODALE"  
-    BK TWR -> BN TCU: "ABC via ODALE"  
-
-Reserved
+SU TWR coordination for arrivals and departures via the SID/STAR is handled by INL (or NSA when they are online).

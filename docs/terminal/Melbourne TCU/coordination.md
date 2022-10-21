@@ -41,13 +41,6 @@ Any aircraft that don't meet these criteria must be coordinated to ML TCU with a
     `AIP GEN 3.4 6.16.6 3h`
 
 # ML TCU / EN TWR
-#### Arrivals
-ML TCU Must coordinate the sequence information to EN TWR prior to transfer of jurisdiction. ML TCU is responsible for clearing aircraft for the approach prior to handoff to EN TWR.
-
-!!! example
-    ML TCU -> EN TWR: "New sequence of 1, FD123, via MONTY, Number 1"  
-    EN TWR -> ML TCU: "FD123, Number 1"  
-
 #### Departures
 
 Aircraft departing YMEN in to ML TCU Class C will be coordinated from EN TWR at Taxi.
@@ -56,15 +49,13 @@ Aircraft departing YMEN in to ML TCU Class C will be coordinated from EN TWR at 
     EN TWR -> ML TCU: "Taxi, ABC for YBDG, Runway 17, via ML V376 DOTPA"  
     ML TCU -> EN TWR: "ABC for YBDG, Runway 17, via ML V376 DOTPA, A030"  
     EN TWR -> ML TCU: "A030, ABC" 
-
-# ML TCU / AV TWR
 #### Arrivals
-ML TCU Must coordinate the sequence information to AV TWR prior to transfer of jurisdiction.
+ML TCU Must coordinate the sequence information to EN TWR prior to transfer of jurisdiction. ML TCU is responsible for clearing aircraft for the approach prior to handoff to EN TWR.
 
 !!! example
-    ML TCU -> AV TWR: "New sequence of 1, JST612, via TEMPL, Number 1"  
-    AV TWR -> ML TCU: "JST612, Number 1"  
-
+    ML TCU -> EN TWR: "New sequence of 1, FD123, via MONTY, Number 1"  
+    EN TWR -> ML TCU: "FD123, Number 1"  
+# ML TCU / AV TWR
 #### Departures
 
 Aircraft departing YMAV in to ML TCU CTA will be coordinated from AV TWR at Taxi.
@@ -73,6 +64,12 @@ Aircraft departing YMAV in to ML TCU CTA will be coordinated from AV TWR at Taxi
     AV TWR -> ML TCU: "Taxi, JST604 for YSSY, Runway 18, JUSTY2 departure"  
     ML TCU -> AV TWR: "JST604, Runway 18, JUSTY1, Squawk 3601"  
     AV TWR -> ML TCU: "3601, JST604"
+#### Arrivals
+ML TCU Must coordinate the sequence information to AV TWR prior to transfer of jurisdiction.
+
+!!! example
+    ML TCU -> AV TWR: "New sequence of 1, JST612, via TEMPL, Number 1"  
+    AV TWR -> ML TCU: "JST612, Number 1"  
 
 When the aircraft is ready for takeoff, AV TWR will give a "Next" call, where ML TCU will provide the cleared level, and any additional departure instructions.
 
@@ -82,13 +79,6 @@ When the aircraft is ready for takeoff, AV TWR will give a "Next" call, where ML
     AV TWR -> ML TCU: "A040, JST604"
 
 # ML TCU / MB TWR
-#### Arrivals
-ML TCU Must coordinate the sequence information to MB TWR prior to transfer of jurisdiction.
-
-!!! example
-    ML TCU -> MB TWR: "New sequence of 1, OXA, via MMBSA, Number 1"  
-    MB TWR -> ML TCU: "OXA, Number 1"  
-
 #### Departures
 
 Aircraft departing YMMB in to ML TCU CTA will be coordinated from MB TWR at Taxi.
@@ -107,3 +97,9 @@ When the aircraft is ready for takeoff, MB TWR will give a "Next" call, where ML
 
 !!! note
     ML TCU will not receive a taxi call on aircraft departing in to Class G airspace, including aircraft that have planned to leave and re-enter controlled airspace (for example, aircraft planned at or above A050 on the MB-AV track). In this instance, ML TCU is only required to readback the callsign at the "Next" call. ML TCU will then give airways clearance to the aircraft on first contact if required.
+#### Arrivals
+ML TCU Must coordinate the sequence information to MB TWR prior to transfer of jurisdiction.
+
+!!! example
+    ML TCU -> MB TWR: "New sequence of 1, OXA, via MMBSA, Number 1"  
+    MB TWR -> ML TCU: "OXA, Number 1"  

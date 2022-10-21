@@ -66,7 +66,7 @@ Due to the low level of CTA at these aerodromes, it is best practice to give air
     ABC -> ML TCU: "Cleared to YBLT via ANKUB, Flight Planned Route. Make Visual left turn DCT SAMIG, Climb to A040, ABC" 
 ## Airspace Division
 
-The divisions of the airspace between SAN, SAS, SDS, SDN, SFW and SFE change based on the Runway Mode.
+The divisions of the airspace between MAE, MDN, and MDS change based on the Runway Mode.
 
 <figure markdown>
 ![34 PROPS TCU Structure](img/34PROPS.png){ width="700" }

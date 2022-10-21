@@ -58,7 +58,7 @@ Due to the low level of CTA (A015) in the AF CTR when AF TWR is offline, it is b
     ABC -> BN TCU: "Cleared to YBSU via BN, Flight Planned Route. Make Visual right turn DCT BN, Climb to A030, ABC" 
 ## Airspace Division
 
-The divisions of the airspace between SAN, SAS, SDS, SDN, SFW and SFE change based on the Runway Mode.
+The divisions of the airspace between BAN, BAS, BDS, BDN, BAC and BMN change based on the Runway Mode.
 
 <figure markdown>
 ![34 PROPS TCU Structure](img/34PROPS.png){ width="700" }
