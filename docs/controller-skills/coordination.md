@@ -49,21 +49,26 @@ The Boundary Sector may omit the restriction and readback the callsign only. Thi
 
 ## Rules
 
+### General
+Coordination must be done on a **point-to-point** basis. Meaning, you can only coordinate with the sector which the aircraft is coming from, or going to, no skipping! This is important to remember, for example, if you are controlling ELW, and you would like to pass an amended route to someone on the ground at YMML. Whilst that may be no issue for ELW, ML SMC and ML ADC, it might not work for ML APP. ML APP would be the sector which the aircraft is coming from, so ELW must talk to them, and it is the responsibility of ML APP to work backwards down the line on a point-to-point basis.
+
+Ensure no coordination is ambiguous in its meaning. Not all coordination can be straight out of the phraseology books, and the reality is, not everyone controlling the airspace is going to be 100% proficient and by the books. When using "plain english", ensure there is no ambiguity, and the message is fully understood by both parties.
+
 ### ENR/TCU -> Class D TWR
 Voice coordinate Sequence prior to transfer
 ### Class D TWR -> ENR/TCU
 Voice coordinate Taxi call for CTA departures, Next call for **all** departures
 ### ENR -> TCU
 Voiceless for aircraft landing at main airport (eg YMML in ML TCU), assigned a STAR, and standard assignable level.  
-Voice coordinate all other aircraft by 20nm
+Voice coordinate all other aircraft by 20nm to boundary
 ### TCU -> ENR
 Voiceless for aircraft assigned lower of standard assignable level or RFL
 ### ENR -> Oceanic
-Voice coordinate estimate and level prior to 15 mins
+Voice coordinate estimate and level prior to 15 mins to boundary
 ### Oceanic -> ENR
-Voice coordinate estimate and level prior to 15 mins
+Voice coordinate estimate and level prior to 15 mins to boundary
 ### ENR -> ENR
-Voiceless, no changes to route or CFL within 50nm
+Voiceless, no changes to route or CFL within 50nm to boundary (Rules vary in ELW and BIK airspace)
 ### Handoffs
 Receiving a handoff means you are permitted to turn an aircraft 45 degrees left or right, and climb/descend it to any level without coordination. Do not handoff an aircraft to another sector if a turn of 45 degrees or a change of level would cause a conflict with any of your own aircraft. Or alternatively, you can nominate a restriction prior to handoff.
 

@@ -174,6 +174,7 @@ This page lists some of the most commonly used callsigns in Australia.
 | SABR  | SABRE      |
 | SELN | SEA LION          |
 | SPTN  | SPARTAN           |
+| STAL  | STALLION           |
 | TAIP  | TAIPAN              |
 | TROJ  | TROJAN       |
 | VIPR | VIPER          |
