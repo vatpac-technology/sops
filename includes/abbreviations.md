@@ -32,3 +32,4 @@
 *[NOTAM]: Notice to Airmen
 *[CTA]: Controlled Airspace
 *[OCTA]: Outside Controlled Airspace
+*[ARP]: Aerodrome Reference Point
