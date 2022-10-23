@@ -17,11 +17,11 @@
 ## Airspace
 The Melbourne TMA spans a 30nm Radius around ML from SFC-FL245, as well as the AV CTR.   
 ML TCU is responsible for the Melbourne TMA, except:    
-a) AV CTR (SFC-A025) when AV TWR is online.  
-b) MB CTR when MB TWR is online.  
-c) The Sunbury Corridor, when ML TWR is online  
-d) The South East Quadrant, when EN TWR is online  
-e) The Coffin, when EN TWR is online, and the airspace has been released to EN TWR  
+a) AV CTR (SFC-A025) when **AV TWR** is online.  
+b) MB CTR when **MB TWR** is online.  
+c) The Sunbury Corridor, when **ML TWR** is online  
+d) The South East Quadrant, when **EN TWR** is online  
+e) The Coffin, when **EN TWR** is online, and the airspace has been released to **EN TWR**  
 f) Any airspace released to an external unit (e.g. tower) either by NOTAM or as negotiated.
 
 <figure markdown>
@@ -32,11 +32,11 @@ f) Any airspace released to an external unit (e.g. tower) either by NOTAM or as 
 !!! note
     The released airspace of the Sunbury Corridor and South East Quadrant is only from the lower level of CTA. ML TCU still owns the Class G airspace beneath it.
 
-MB CTR reverts to Class G when MB TWR is offline, and is administered by the relevant ML TCU controller.    
-EN CTR reverts to Class G when EN TWR is offline, and is administered by the relevant ML TCU controller.  
-AV CTR Class D reverts to Class G when AV TWR is offline, and is administered by the relevant ML TCU controller.  
-MAE Shall assume the airspace of MDN and MDS when they are offline.
-MDN shall assume the airspace of MDS when they are offline.
+MB CTR reverts to Class G when **MB TWR** is offline, and is administered by the relevant ML TCU controller.    
+EN CTR reverts to Class G when **EN TWR** is offline, and is administered by the relevant ML TCU controller.  
+AV CTR Class D reverts to Class G when **AV TWR** is offline, and is administered by the relevant ML TCU controller.  
+In the absence of a **MDS** controller, **MDN** shall asssume the MDN airspace.  
+In the absence of a **MDN** controller, **MAE** shall asssume the MDN and MDS airspace.  
 
 ## Arrival Procedures
 #### YMEN Arrivals
@@ -58,15 +58,15 @@ VFR YMEN Arrivals from ML TCU shall be cleared via any of the following arrival 
 Due to the low level of CTA at these aerodromes, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
 !!! example
-    ABC -> ML TCU: "Melbourne Approach, ABC, PC12, POB 8, IFR, Taxiing YMMB for YBLT, Runway 35L" `AIP GEN 3.4 6.16.4 1b`  
-    ML TCU -> ABC: "ABC, Melbourne Approach, Squawk 3601, No Reported IFR Traffic, Call me Ready at the Holding Point for Airways Clearance"  
-    ABC -> ML TCU: "Squawk 3601, Wilco, ABC"  
-    ABC -> ML TCU: "ABC, Ready Runway 35L, Request clearance"  
-    ML TCU -> ABC: "ABC, Cleared to YBLT via SAMIG, Flight Planned Route. Make Visual left turn DCT SAMIG, Climb to A040"  
-    ABC -> ML TCU: "Cleared to YBLT via ANKUB, Flight Planned Route. Make Visual left turn DCT SAMIG, Climb to A040, ABC" 
+    **ABC** -> **ML TCU**: "Melbourne Approach, ABC, PC12, POB 8, IFR, Taxiing YMMB for YBLT, Runway 35L" `AIP GEN 3.4 6.16.4 1b`  
+    **ML TCU** -> **ABC**: "ABC, Melbourne Approach, Squawk 3601, No Reported IFR Traffic, Call me Ready at the Holding Point for Airways Clearance"  
+    **ABC** -> **ML TCU**: "Squawk 3601, Wilco, ABC"  
+    **ABC** -> **ML TCU**: "ABC, Ready Runway 35L, Request clearance"  
+    **ML TCU** -> **ABC**: "ABC, Cleared to YBLT via SAMIG, Flight Planned Route. Make Visual left turn DCT SAMIG, Climb to A040"  
+    **ABC** -> **ML TCU**: "Cleared to YBLT via ANKUB, Flight Planned Route. Make Visual left turn DCT SAMIG, Climb to A040, ABC" 
 ## Airspace Division
 
-The divisions of the airspace between MAE, MDN, and MDS change based on the Runway Mode.
+The divisions of the airspace between **MAE**, **MDN**, and **MDS** change based on the Runway Mode.
 
 <figure markdown>
 ![34 PROPS TCU Structure](img/34PROPS.png){ width="700" }
