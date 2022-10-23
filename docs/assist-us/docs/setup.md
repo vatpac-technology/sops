@@ -20,7 +20,7 @@ To contribute, you'll need the following -
 
 ## Lets get cracking!
 
-- Fork and Clone the [:fontawesome-brands-github:{: .github } -  **SOPs Project**](https://github.com/vatnz-dev/sops){target=new} - [Guide](https://docs.github.com/en/get-started/quickstart/fork-a-repo){target=new}.
+- Fork and Clone the [:fontawesome-brands-github:{: .github } -  **SOPs Project**](https://github.com/vatpac-technology/sops){target=new} - [Guide](https://docs.github.com/en/get-started/quickstart/fork-a-repo){target=new}.
 - Install the following Python packages: `mkdocs-material, mkdocs-git-revision-date-localized-plugin, mkdocs-awesome-pages-plugin` and `mkdocs-redirects`.
 
 !!! info "Easy Python Package Installation"
