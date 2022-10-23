@@ -32,3 +32,5 @@
 *[NOTAM]: Notice to Airmen
 *[CTA]: Controlled Airspace
 *[OCTA]: Outside Controlled Airspace
+*[HDS]: Hours of Daylight Savings
+*[CTR]: Control Zone

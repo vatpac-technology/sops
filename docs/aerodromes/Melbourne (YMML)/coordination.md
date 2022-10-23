@@ -15,11 +15,11 @@ c) Assigned `A050`;
 Any aircraft that don't meet these criteria must be coordinated to ML TCU with a "Next" Call
 
 !!! example
-    ML ADC -> ML TCU: "Next, ABC"  
-    ML TCU -> ML ADC: "ABC, Track Extended Centreline"  
-    ML ADC -> ML TCU: "Track Extended Centreline, ABC"  
-    ML ADC -> ABC: "ABC, Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff"  
-    ABC -> ML ADC: "Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff, ABC"  
+    **ML ADC** -> **ML TCU**: "Next, ABC"  
+    **ML TCU** -> **ML ADC**: "ABC, Track Extended Centreline"  
+    **ML ADC** -> **ML TCU**: "Track Extended Centreline, ABC"  
+    **ML ADC** -> **ABC**: "ABC, Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff"  
+    **ABC** -> **ML ADC**: "Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff, ABC"  
     `AIP GEN 3.4 6.16.6 3h`
 
 #### Standard Assignable Departure Levels
@@ -27,4 +27,4 @@ Any aircraft that don't meet these criteria must be coordinated to ML TCU with a
 IFR: `A050`  
 VFR: `A040` or `RFL` if lower
 ### Runway Change
-Any Runway change must be prior coordinated to MAE and EN TWR.
+Any Runway change must be prior coordinated to **MAE** and **EN TWR**.

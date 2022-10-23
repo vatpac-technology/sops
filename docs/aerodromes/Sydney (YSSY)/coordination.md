@@ -7,14 +7,14 @@
 # SY ADC / SY TCU
 ### Auto Release
 
-"Next" Coordination is a procedure where the SY TWR controller gives a heads-up to the SY TCU controller about an impending departure. The SY TCU controller will respond by assigning a heading to the aircraft, for the SY TWR controller to pass on with their takeoff clearance.
+"Next" Coordination is a procedure where the **SY ADC** controller gives a heads-up to the SY TCU controller about an impending departure. The SY TCU controller will respond by assigning a heading to the aircraft, for the **SY ADC** controller to pass on with their takeoff clearance.
 
 !!! example
-    SY ADC -> SY TCU: "Next, ABC"  
-    SY TCU -> SY ADC: "ABC, Heading 030"  
-    SY ADC -> SY TCU: "Heading 030, ABC"  
-    SY ADC -> ABC: "ABC, Assigned heading right 030, Runway 34R, Cleared for Takeoff"  
-    ABC -> SY ADC: "Right heading 030, Runway 34R, Cleared for Takeoff, ABC"  
+    **SY ADC** -> **SY TCU**: "Next, ABC"  
+    **SY TCU** -> **SY ADC**: "ABC, Heading 030"  
+    **SY ADC** -> **SY TCU**: "Heading 030, ABC"  
+    **SY ADC** -> **ABC**: "ABC, Assigned heading right 030, Runway 34R, Cleared for Takeoff"  
+    **ABC** -> **SY ADC**: "Right heading 030, Runway 34R, Cleared for Takeoff, ABC"  
     `AIP GEN 3.4 6.16.6 3f`
 
 "Next" Coordination to SY TCU is additionally required for:  
@@ -22,7 +22,7 @@
     b) Jets departing 16L via WOL, except during SODPROPS  
     c) after a go-around, the next departure from that runway
 
-The SY TCU controller can suspend/resume Auto Release at any time, with the concurrence of SY TWR.
+The SY TCU controller can suspend/resume Auto Release at any time, with the concurrence of **SY ADC**.
 
 "Next" Coordination to SY TCU is not required for aircraft assigned a **Procedural SID** and the Standard Assignable Level.
 
@@ -49,18 +49,18 @@ Non-jets: `A030` or `RFL` if lower
 
 # SY ADC / SY SMC
 ### Ground Operations
-As per this (link) diagram, ADC has Responsibility of the Runways, meaning SMC must always coordinate with ADC to allow aircraft to cross runways whilst taxiing. SMC may request, or ADC may elect, to release certain runways to the SMC controller, so they may let aircraft cross the runway without coordination (For example, Releasing runway 07/25 to SMC whilst PROPS are in progress.) This Release may also be cancelled at the controller's discretion.
+As per this (link) diagram, **SY ADC** has Responsibility of the Runways, meaning **SY SMC** must always coordinate with **SY ADC** to allow aircraft to cross runways whilst taxiing. **SY SMC** may request, or **SY ADC** may elect, to release certain runways to the **SY SMC** controller, so they may let aircraft cross the runway without coordination (For example, Releasing runway 07/25 to **SY SMC** whilst PROPS are in progress.) This Release may also be cancelled at the controller's discretion.
 
 # SY ACD / SY TCU
-The controller assuming responsibility of ACD shall give heads-up coordination to the relevant SY TCU controller prior to the issue of the following clearances:  
+The controller assuming responsibility of **SY ACD** shall give heads-up coordination to the relevant SY TCU controller prior to the issue of the following clearances:  
 a) VFR Departures  
 b) Aircraft using a runway not on the ATIS
 
 !!! example
-    ABC -> SY ACD: "Sydney Delivery, ABC, Requesting clearance for a Northbound VFR Coastal departure at A035"  
-    SY ACD -> ABC: "ABC, Sydney Delivery, Standby"  
-    SY ACD -> SY TCU: "ABC, Requesting clearance for a Northbound VFR Coastal departure at A035"  
-    SY TCU -> SY ACD: "ABC, Cleared for a Northbound VFR Coastal departure, A035"  
-    SY ACD -> SY TCU: "Cleared for a Northbound VFR Coastal departure, A035, ABC"  
-    SY ACD -> ABC: "ABC, Cleared for a Northbound VFR Coastal departure, A035"  
-    ABC -> SY ACD: "Cleared for a Northbound VFR Coastal departure, A035, ABC"  
+    **ABC** -> **SY ACD**: "Sydney Delivery, ABC, Requesting clearance for a Northbound VFR Coastal departure at A035"  
+    **SY ACD** -> **ABC**: "ABC, Sydney Delivery, Standby"  
+    **SY ACD** -> **SY TCU**: "ABC, Requesting clearance for a Northbound VFR Coastal departure at A035"  
+    **SY TCU** -> **SY ACD**: "ABC, Cleared for a Northbound VFR Coastal departure, A035"  
+    **SY ACD** -> **SY TCU**: "Cleared for a Northbound VFR Coastal departure, A035, ABC"  
+    **SY ACD** -> **ABC**: "ABC, Cleared for a Northbound VFR Coastal departure, A035, Squawk 3601"  
+    **ABC** -> **SY ACD**: "Cleared for a Northbound VFR Coastal departure, A035, 3601, ABC"  
