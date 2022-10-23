@@ -8,36 +8,18 @@
 
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Sydney ADC West**    | **Sydney Tower**   | **120.500**          | **SY_TWR**                                   |
-| Sydney ADC East†   | Sydney Tower   | 124.700          | SY-E_TWR                                 |
-| **Sydney SMC West**    | **Sydney Ground**  | **126.500**          | **SY_GND**                                   |
-| Sydney SMC East†   | Sydney Ground  | 121.700          | SY-E_GND                                 |
-| Sydney Coordinator† | Sydney Coordinator   | 127.600          | SY-C_GND                                |
-| **Sydney ACD**         | **Sydney Delivery**| **133.800**          | **SY_DEL**                                   |
-| Sydney ATIS        |                | 126.250          | YSSY_ATIS                                |
+| Bankstown SMC   | Bankstown Ground   | 124.700          | BK_GND                                 |
+| Bankstown TWR  | Bankstown Tower  | 121.700          | BK_TWR                                 |
+| Bankstown ATIS        |                | 126.250          | YSBK_ATIS                                |
 
-† **Non-standard position** – may only be used in accordance with VATPAC Ratings and Controller Positions Policy (link)
-
-In the absence of an ACD controller, SMC shall asssume the ADC responsibilities.  
-In the absence of an SMC controller, ADC shall assume the SMC and ADC responsibilities.
+ 
+In the absence of an SMC controller, TWR shall assume the SMC responsibilities.
 ### Maneuvering Area Responsibility
 <figure markdown>
-![YSSY Maneuvering Area](img/yssy_maneuvring_area.png){ width="500" }
+![YSBK Maneuvering Area](img/ysbk_maneuvring_area.png){ width="500" }
   <figcaption>Maneuvering Area</figcaption>
 </figure>
 
-#### Standard Taxi Routes
-
-Except when the traffic situation warrants, taxi clearances shall conform to the following diagram:
-<figure markdown>
-![YSSY Taxi Route](img/yssy_taxi_routes.png){ width="500" }
-  <figcaption>Standard Taxi Routes</figcaption>
-</figure>
-
-!!! tip
-    For aircraft taxiing northbound on B, consider instructing them to hold short of taxiway B8 when 34L is in use for arrivals, in order to separate from aircraft using the B9 rapid exit.
-
-Intersection departures are not permitted for Jet aircraft on runway 34L. `ERSA FAC YSSY 7.1a`
 ## Airspace
 Tower airspace is defined as between SFC to 500 FT, within the lateral limits:
 a) Wanda Kopter Route; then
