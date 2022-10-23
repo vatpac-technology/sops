@@ -20,7 +20,7 @@ Any aircraft that don't meet these criteria must be coordinated to AD TCU with a
     **AD ADC** -> **AD TCU**: "Track Extended Centreline, ABC"  
     **AD ADC** -> **ABC**: "ABC, Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff"  
     **ABC** -> **AD ADC**: "Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff, ABC"  
-    `AIP GEN 3.4 6.16.6 3h`
+    `AIP GEN 3.4`
 
 #### Standard Assignable Departure Levels
 
