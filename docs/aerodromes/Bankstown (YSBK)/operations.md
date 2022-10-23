@@ -28,17 +28,13 @@ Tower airspace is defined as between SFC to 1500 FT.
   <figcaption>Bankstown Tower Airspace</figcaption>
 </figure>
 
-## Circuits
+## VFR Inbound Procedures
 The circuit direction changes depending on time of day and runway being used.
 
-| Runway | Day  | Night |
+| VFR Approach Point | RWYs 29  | RWYs 11 |
 | ----------------| --------- | ---------- |
-| 11L    | Left       | Right        |
-| 11C   | Left | Right  |
-| 11R    | Right | -  |
-| 29L     | Left        | -  |
-| 29C    | Right | Left         |
-| 29R    | Right        | Left  |
+| Prospect Reservoir (PSP)    | Join right downwind, maintain A15 (Abeam RWYs 11 threshold or clear of departing traffic), cleared visual approach       | Join final or Join upwind, maintain A015        |
+| 2RN (TWRN)   | Join right crosswind, maintain A015 (Abeam RWYs 11 threshold or clear of departing traffic), cleared visual approach | Join final, report at Warwick Farm  |
 
 ## Circuits
 The circuit direction changes depending on time of day and runway being used.
