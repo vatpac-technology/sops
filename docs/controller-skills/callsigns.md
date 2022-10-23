@@ -17,16 +17,19 @@ This page lists some of the most commonly used callsigns in Australia.
 | BNZ | BONZA |
 | CFH  | CAREFLIGHT |
 | FD | FLYDOC |
-| FRE | PELICAN |
+| HM | HEMS |
 | JTE  | JETEX |
 | JST | JETSTAR |
 | NWK  | NETLINK |
+| PE | PELICAN |
 | PFY  | PELFLIGHT |
+| PY  | SKIPPY |
 | QFA  | QANTAS |
 | QJE | Q JET |
 | QLK | Q LINK|
 | RXA | REX |
 | SFZ | SKYFORCE |
+| SH | SHARP |
 | SKP | SKYTRANS |
 | SND  | SNOWBIRD |
 | TGG | TIGGOZ |
@@ -34,6 +37,7 @@ This page lists some of the most commonly used callsigns in Australia.
 | TFX  | TOLL EXPRESS |
 | UTY | UNITY |
 | VOZ  | VELOCITY |
+| WP  | WESTPAC |
 
 ### International
 
@@ -122,10 +126,10 @@ This page lists some of the most commonly used callsigns in Australia.
 
 ## Military
 
+For more info on military callsigns, and on'es not listed here, refer to `MATS 6.2.2` or http://www.swld.com.au/pages/aus_raaf_callsigns.htm
+
 | ICAO | Callsign           |
 | ---- | ------------------ |
-| ACHR | ARCHER           |
-| ADDR  | ADDER             |
 | AJAX  | AJAX               |
 | ALDN  | ALADDIN       |
 | ASY | AUSSIE           |
@@ -137,26 +141,18 @@ This page lists some of the most commonly used callsigns in Australia.
 | BUCK  | BUCKSHOT               |
 | CBRA  | COBRA       |
 | CHET  | CHEETAH             |
-| CHGR | CHARGER           |
 | CLAS  | CLASSIC               |
-| CLTX  | CALTEX       |
 | DPOT | DESPOT           |
 | DNGO  | DINGO             |
 | DRGN  | AJAX               |
 | EVY  | ENVOY      |
 | FALC | FALCON          |
-| GHST  | GHOST            |
 | HDDO  | HOODOO              |
 | HPST  | HIPSHOT              |
 | KIW  | KIWI       |
-| LEPD | LEOPARD          |
-| LTNG  | LIGHTNING            |
 | LYNX  | LYNX               |
 | MAPL | MAPLE          |
 | MDNT  | MIDNIGHT              |
-| MERL  | MERLIN             |
-| MGIC  | MAGIC       |
-| MUST  | MUSTANG      |
 | NPTN | NEPTUNE            |
 | OBAK | OUTBAK      |
 | ORCA  | ORCA               |
@@ -179,5 +175,6 @@ This page lists some of the most commonly used callsigns in Australia.
 | TROJ  | TROJAN       |
 | VIPR | VIPER          |
 | WGTL  | WEDGETAIL            |
+| WLBY  | WALLABY            |
 
 
