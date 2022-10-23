@@ -34,3 +34,7 @@
 *[OCTA]: Outside Controlled Airspace
 *[HDS]: Hours of Daylight Savings
 *[CTR]: Control Zone
+*[ARP]: Aerodrome Reference Point
+*[NM]: Nautical Mile
+*[SFC]: Surface
+*[RVSM]: Reduced Vertical Separation Minima
