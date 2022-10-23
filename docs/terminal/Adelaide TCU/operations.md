@@ -32,7 +32,7 @@ EDN CTR reverts to Class G when **EDN TWR** is offline, and is administered by t
 Due to the low level of CTA at YPPF, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb. The Standard assignable level for YPPF departures is the lower of `A040` or the `RFL`.
 
 !!! example
-    **ABC** -> **AD TCU**: "Adelaide Approach, ABC, PC12, POB 8, IFR, Taxiing YPPF for YPAG, Runway 21R" `AIP GEN 3.4 6.16.4 1b`  
+    **ABC** -> **AD TCU**: "Adelaide Approach, ABC, PC12, POB 8, IFR, Taxiing YPPF for YPAG, Runway 21R" `AIP GEN 3.4`  
     **AD TCU** -> **ABC**: "ABC, Adelaide Approach, Squawk 3601, No Reported IFR Traffic, Call me Ready at the Holding Point for Airways Clearance"  
     **ABC** -> **AD TCU**: "Squawk 3601, Wilco, ABC"  
     **ABC** -> **AD TCU**: "ABC, Ready Runway 21R, Request clearance"  

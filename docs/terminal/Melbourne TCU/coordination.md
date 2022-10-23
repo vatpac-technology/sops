@@ -37,7 +37,7 @@ Any aircraft that don't meet these criteria must be coordinated to ML TCU with a
     **ML ADC** -> **ML TCU**: "Track Extended Centreline, ABC"  
     **ML ADC** -> **ABC**: "ABC, Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff"  
     **ABC** -> **ML ADC**: "Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff, ABC"  
-    `AIP GEN 3.4 6.16.6 3h`
+    `AIP GEN 3.4`
 
 # ML TCU / EN TWR
 #### Departures

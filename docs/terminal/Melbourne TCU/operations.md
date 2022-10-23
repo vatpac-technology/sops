@@ -58,7 +58,7 @@ VFR YMEN Arrivals from ML TCU shall be cleared via any of the following arrival 
 Due to the low level of CTA at these aerodromes, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
 !!! example
-    **ABC** -> **ML TCU**: "Melbourne Approach, ABC, PC12, POB 8, IFR, Taxiing YMMB for YBLT, Runway 35L" `AIP GEN 3.4 6.16.4 1b`  
+    **ABC** -> **ML TCU**: "Melbourne Approach, ABC, PC12, POB 8, IFR, Taxiing YMMB for YBLT, Runway 35L" `AIP GEN 3.4`  
     **ML TCU** -> **ABC**: "ABC, Melbourne Approach, Squawk 3601, No Reported IFR Traffic, Call me Ready at the Holding Point for Airways Clearance"  
     **ABC** -> **ML TCU**: "Squawk 3601, Wilco, ABC"  
     **ABC** -> **ML TCU**: "ABC, Ready Runway 35L, Request clearance"  

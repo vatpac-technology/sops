@@ -37,7 +37,7 @@ Except when the traffic situation warrants, taxi clearances shall conform to the
 !!! tip
     For aircraft taxiing northbound on B, consider instructing them to hold short of taxiway B8 when 34L is in use for arrivals, in order to separate from aircraft using the B9 rapid exit.
 
-Intersection departures are not permitted for Jet aircraft on runway 34L. `ERSA FAC YSSY 7.1a`
+Intersection departures are not permitted for Jet aircraft on runway 34L. `ERSA FAC YSSY`
 ## Airspace
 Tower airspace is defined as between SFC to 500 FT, within the lateral limits:
 a) Wanda Kopter Route; then

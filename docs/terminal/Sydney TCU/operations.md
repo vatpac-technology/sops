@@ -68,7 +68,7 @@ Aim to vector aircraft to the following Intercept points during PROPS:
 When conducting IVAs, aircraft shall not be transferred to **SY ADC** until established on final.
 
 !!! example
-    **SFW:** “BNZ444, Turn left heading 360, join final Runway 34L, from that heading Cleared Independent Visual Approach, report on final” `AIP GEN 3.4 6.17.8 3`   
+    **SFW:** “BNZ444, Turn left heading 360, join final Runway 34L, from that heading Cleared Independent Visual Approach, report on final” `AIP GEN 3.4`   
     **BNZ444:** "Left heading 360, join final Runway 34L, from that heading Cleared Independent Visual Approach, wilco, BNZ444"  
     ...  
     **BNZ444:** "BNZ444, on final"  
@@ -103,7 +103,7 @@ These can be displayed on vatSys using the SY_VFR map.
 Due to the low level of CTA (A015) in the BK CTR when **BK TWR** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
 !!! example
-    **ABC** -> **SY TCU**: "Sydney Approach, ABC, PC12, POB 8, IFR, Taxiing YSBK for YSHL, Runway 11C" `AIP GEN 3.4 6.16.4 1b`  
+    **ABC** -> **SY TCU**: "Sydney Approach, ABC, PC12, POB 8, IFR, Taxiing YSBK for YSHL, Runway 11C" `AIP GEN 3.4`  
     **SY TCU** -> **ABC**: "ABC, Sydney Approach, Squawk 3601, No Reported IFR Traffic, Call me Ready at the Holding Point for Airways Clearance"  
     **ABC** -> **SY TCU**: "Squawk 3601, Wilco, ABC"  
     **ABC** -> **SY TCU**: "ABC, Ready Runway 11C, Request clearance"  
