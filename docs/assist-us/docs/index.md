@@ -4,7 +4,7 @@
 
 --8<-- "includes/abbreviations.md"
 
-The SOPs Refresh project aims to provide a set of high quality and easily accessible SOPs to the VATNZ Community, enabling both Controllers and Pilots to enjoy themselves with a standardized and realistic service.
+The VATPAC SOPs project aims to provide a set of high quality and easily accessible SOPs to the VATPAC Community, enabling both Controllers and Pilots to enjoy themselves with a standardized and realistic service.
 
 This project is entirely open-source, relying on Community contributions and support to help makes these the best they can be. You don't need to have an in-depth knowledge of programming languages to contribute to the project, as most of our pages are written in [Markdown](https://www.markdownguide.org/){target=blank}. Everything else will be explained as we go.
 
@@ -18,7 +18,7 @@ We draw the line at things like low-visibilty and noise-abatement operations - w
 
 It's important that you read all of the Contribution documentation before making any changes. These will ensure that your PR's are approved and merged quickly.
 
-Additionally, we ask that you reach out to the Operations Team before opening a new PR for your addition. This ensures that this is a welcome feature to the project.
+Additionally, we ask that you reach out to the ATS Team before opening a new PR for your addition. This ensures that this is a welcome feature to the project.
 
 !!! hint ""
-    There is a channel on the VATNZ Discord dedicated to the discussion and management of these SOPs, which is not open by default to the Community. If you wish to be added to this channel, please contact the Operations Team, and they'll add you.
+    There is a channel on the VATPAC Discord dedicated to the discussion and management of these SOPs, which is not open by default to the Community. If you wish to be added to this channel, please contact the Operations Team, and they'll add you.
