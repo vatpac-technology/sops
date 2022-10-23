@@ -52,6 +52,9 @@ In the absence of an SMC controller, ADC shall assume the SMC and ADC responsibi
 
 ## Airspace
 Tower airspace is defined as between SFC to 1500 FT, within the lateral limits:
+a) 11DME PH
+b) Herdsman Lake
+c) 3NM JT ARP
 
 <figure markdown>
 ![Perth Tower Airspace](img/PHTWR.png){ width="700" }
