@@ -8,9 +8,9 @@
 
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| Bankstown SMC   | Bankstown Ground   | 124.700          | BK_GND                                 |
-| Bankstown TWR  | Bankstown Tower  | 121.700          | BK_TWR                                 |
-| Bankstown ATIS        |                | 126.250          | YSBK_ATIS                                |
+| Bankstown TWR  | Bankstown Tower  | 132.800          | BK_TWR                                 |
+| Bankstown SMC   | Bankstown Ground   | 119.900          | BK_GND                                 |
+| Bankstown ATIS        |                | 120.900          | YSBK_ATIS                                |
 
  
 In the absence of an SMC controller, TWR shall assume the SMC responsibilities.
@@ -21,47 +21,27 @@ In the absence of an SMC controller, TWR shall assume the SMC responsibilities.
 </figure>
 
 ## Airspace
-Tower airspace is defined as between SFC to 500 FT, within the lateral limits:
-a) Wanda Kopter Route; then
-b) along the SY CTR boundary; to
-c) Long Bay; then
-d) direct to YSSY.
+Tower airspace is defined as between SFC to 1500 FT.
 
 <figure markdown>
-![Sydney Tower Airspace](img/BKTWR.png){ width="700" }
+![Bankstown Tower Airspace](img/BKTWR.png){ width="700" }
   <figcaption>Bankstown Tower Airspace</figcaption>
 </figure>
 
-## Runway Modes
-Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
+## Circuit Direction
+The circuit direction changes depending on time of day and runway being used.
 
-| Priority - Mode | Arrivals  | Departures |
+| Runway | Day  | Night |
 | ----------------| --------- | ---------- |
-| 1 - SODPROPS    | 34L       | 16L        |
-| 2 - 34 PROPS    | 34L & 34R | 34L & 34R  |
-| 2 - 16 PROPS    | 16L & 16R | 16L & 16R  |
-| 3 - 16D/07A     | 07        | 16L & 16R  |
-| 3 - 25D/34A     | 34L & 34R | 25         |
-| 4 - 16D/25A     | 25        | 16L & 16R  |
-| 5 - 07          | 07        | 07         |
-| 5 - 25          | 25        | 25         |
-| *Curfew         | 34L       | 16R        |
+| 11L    | Left       | Right        |
+| 11C   | Left | Right  |
+| 11R    | Right | -  |
+| 29L     | Left        | -  |
+| 29C    | Right | Left         |
+| 29R    | Right        | Left  |
 
-*Permitted between the hours of 2300 and 0600 Local. If the pilot does not want to participate in curfew mode operations, the controller must accommodate this request
+*Circuits to be flown at A010
 
-!!! note
-    In general, the SODPROPS, 16D/07A, and 25D/34A modes are most suitable for Noise Abatement. The PROPS modes are most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Milk Run Monday or Panic Stations.
-
-!!! tip
-    Take in to account an aircraft's weight when Runway 16L/34R or 07/25 are in use. The aircraft may operationally require the longer Runway 16R/34L. If in doubt, ask the pilot. The aircraft may simply want a departure from 16R instead of 16L so they have a shorter taxi, for example. If the traffic situation permits, try to be accommodating of these requests.
-
-When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time
-
-!!! example
-    SY_TWR: "ABC, Traffic is DEF, a 737, on short final for the opposite direction parallel runway. Runway 16L, Cleared for Takeoff"  
-    ABC: "Cleared for Takeoff Runway 16L, ABC"  
-    SY_TWR: "DEF, Traffic is ABC, an A320, departing from the opposite direction parallel runway to the South-East. Runway 34L, Cleared to Land"  
-    DEF: "Cleared to Land Runway 34L, DEF"  
 ## Parallel Runway Operations
 
 #### Go-arounds / Missed Approaches
