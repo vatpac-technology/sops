@@ -14,7 +14,6 @@
 
  
 In the absence of an SMC controller, TWR shall assume the SMC responsibilities.
-### Maneuvering Area Responsibility
 <figure markdown>
 ![YSBK Maneuvering Area](img/ysbk_maneuvring_area.png){ width="500" }
   <figcaption>Maneuvering Area</figcaption>
@@ -29,7 +28,6 @@ Tower airspace is defined as between SFC to 1500 FT.
 </figure>
 
 ## VFR Inbound Procedures
-The circuit direction changes depending on time of day and runway being used.
 
 | VFR Approach Point | RWYs 29  | RWYs 11 |
 | ----------------| --------- | ---------- |
