@@ -28,7 +28,7 @@ Tower airspace is defined as between SFC to 1500 FT.
   <figcaption>Bankstown Tower Airspace</figcaption>
 </figure>
 
-## Circuit Direction
+## Circuits
 The circuit direction changes depending on time of day and runway being used.
 
 | Runway | Day  | Night |
@@ -40,7 +40,7 @@ The circuit direction changes depending on time of day and runway being used.
 | 29C    | Right | Left         |
 | 29R    | Right        | Left  |
 
-*Circuits to be flown at A010
+Circuits to be flown at A010
 
 ## Parallel Runway Operations
 
