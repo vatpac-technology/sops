@@ -34,8 +34,13 @@ Bindook shall assign the following standard assignable levels to aircraft enteri
 | RIVET | A100 |  
 | All other arrivals | A090 |  
 
-Aircraft not arriving via a STAR must be coordianted in accordance with the Coordination procedure.
+Bindook shall assign the following standard assignable levels to aircraft entering the CB TCU:  
 
+| Arrival | Standard Assignable Atitude |
+| ------ | -------------------------- |
+| All arrivals | F130 |  
+
+Aircraft not arriving via a STAR must be coordinated in accordance with the Coordination procedure.
 
 ## Subsector Responsibilities
 ### Gundagai
