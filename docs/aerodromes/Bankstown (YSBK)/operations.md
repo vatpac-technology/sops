@@ -28,8 +28,8 @@ c) Long Bay; then
 d) direct to YSSY.
 
 <figure markdown>
-![Sydney Tower Airspace](img/SYTWR.png){ width="700" }
-  <figcaption>Sydney Tower Airspace</figcaption>
+![Sydney Tower Airspace](img/BKTWR.png){ width="700" }
+  <figcaption>Bankstown Tower Airspace</figcaption>
 </figure>
 
 ## Runway Modes

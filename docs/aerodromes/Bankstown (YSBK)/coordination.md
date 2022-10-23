@@ -25,8 +25,8 @@ Once the aircraft is clear of the Class D CTR either vertically or laterally the
 
 SY TCU will coordinate with BK TWR for incoming IFR arrivals on either the RNP or NDB approaches
 !!! example
-    SY TCU: “UJN, RNP 11C, ETA time 11”
-    BK TWR: “UJN, RNP 11C, ETA time 11”
+    SY TCU: “UJN, RNP 11C, ETA time 11”  
+    BK TWR: “UJN, RNP 11C, ETA time 11”  
 
 #### Standard Assignable Departure Levels
 
