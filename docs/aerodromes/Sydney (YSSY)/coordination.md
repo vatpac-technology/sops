@@ -15,7 +15,7 @@
     **SY ADC** -> **SY TCU**: "Heading 030, ABC"  
     **SY ADC** -> **ABC**: "ABC, Assigned heading right 030, Runway 34R, Cleared for Takeoff"  
     **ABC** -> **SY ADC**: "Right heading 030, Runway 34R, Cleared for Takeoff, ABC"  
-    `AIP GEN 3.4 6.16.6 3f`
+    `AIP GEN 3.4`
 
 "Next" Coordination to SY TCU is additionally required for:  
     a) Departures to YSBK  

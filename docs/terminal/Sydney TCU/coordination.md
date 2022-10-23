@@ -76,7 +76,7 @@ Any aircraft that don't meet these criteria must be coordinated to SY TCU with a
     **SY ADC** -> **SY TCU**: "Heading 030, ABC"  
     **SY ADC** -> **ABC**: "ABC, Assigned heading right 030, Runway 34R, Cleared for Takeoff"  
     **ABC** -> **SY ADC**: "Right heading 030, Runway 34R, Cleared for Takeoff, ABC"  
-    `AIP GEN 3.4 6.16.6 3f`
+    `AIP GEN 3.4`
 
 The SY TCU controller can suspend/resume Auto Release at any time, with the concurrence of **SY ADC**.
 # SY TCU / BK TWR

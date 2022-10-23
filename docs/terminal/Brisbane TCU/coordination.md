@@ -40,7 +40,7 @@ Any aircraft that don't meet these criteria must be coordinated to BN TCU with a
     **BN ADC** -> **BN TCU**: "Heading 030, ABC"  
     **BN ADC** -> **ABC**: "ABC, Assigned heading right 030, Runway 34R, Cleared for Takeoff"  
     **ABC** -> **BN ADC**: "Right heading 030, Runway 34R, Cleared for Takeoff, ABC"  
-    `AIP GEN 3.4 6.16.6 3f`
+    `AIP GEN 3.4`
 
 # BN TCU / AF TWR
 #### Departures

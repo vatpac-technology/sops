@@ -49,7 +49,7 @@ Aircraft shall be assigned the following runways for arrival when PROPS are in p
 Due to the low level of CTA (A015) in the AF CTR when **AF TWR** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
 !!! example
-    **ABC** -> **BN TCU**: "Brisbane Approach, ABC, PC12, POB 8, IFR, Taxiing YBAF for YBSU, Runway 28R" `AIP GEN 3.4 6.16.4 1b`  
+    **ABC** -> **BN TCU**: "Brisbane Approach, ABC, PC12, POB 8, IFR, Taxiing YBAF for YBSU, Runway 28R" `AIP GEN 3.4`  
     **BN TCU** -> **ABC**: "ABC, Brisbane Approach, Squawk 3601, No Reported IFR Traffic, Call me Ready at the Holding Point for Airways Clearance"  
     **ABC** -> **BN TCU**: "Squawk 3601, Wilco, ABC"  
     **ABC** -> **BN TCU**: "ABC, Ready Runway 28R, Request clearance"  
