@@ -8,12 +8,12 @@
 
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| Bankstown TWR  | Bankstown Tower  | 132.800          | BK_TWR                                 |
-| Bankstown SMC   | Bankstown Ground   | 119.900          | BK_GND                                 |
+| **Bankstown ADC**  | **Bankstown Tower**  | **132.800**          | **BK_TWR**                        |
+| **Bankstown SMC**   | **Bankstown Ground**   | **119.900**          | **BK_GND**                       |
 | Bankstown ATIS        |                | 120.900          | YSBK_ATIS                                |
 
  
-In the absence of an SMC controller, TWR shall assume the SMC responsibilities.
+In the absence of an SMC controller, ADC shall assume the SMC responsibilities.
 <figure markdown>
 ![YSBK Maneuvering Area](img/ysbk_maneuvring_area.png){ width="500" }
   <figcaption>Maneuvering Area</figcaption>
