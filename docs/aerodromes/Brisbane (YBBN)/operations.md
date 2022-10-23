@@ -18,8 +18,8 @@
 
 † **Non-standard position** – may only be used in accordance with VATPAC Ratings and Controller Positions Policy (link)
 
-In the absence of an ACD controller, SMC shall asssume the ADC responsibilities.  
-In the absence of an SMC controller, ADC shall assume the SMC and ADC responsibilities.
+In the absence of an ACD controller, SMC shall asssume the ACD responsibilities.  
+In the absence of an SMC controller, ADC shall assume the SMC and ACD responsibilities.
 
 ### Maneuvering Area Responsibility
 
@@ -48,10 +48,10 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time
 
 !!! example
-    BN_TWR: "ABC, Traffic is DEF, a 737, on short final for the opposite direction parallel runway. Runway 01R, Cleared for Takeoff"  
-    ABC: "Cleared for Takeoff Runway 01R, ABC"  
-    BN_TWR: "DEF, Traffic is ABC, an A320, departing from the opposite direction parallel runway to the South-West. Runway 19R, Cleared to Land"  
-    DEF: "Cleared to Land Runway 19R, DEF"  
+    **BN ADC:** "ABC, Traffic is DEF, a 737, on short final for the opposite direction parallel runway. Runway 01R, Cleared for Takeoff"  
+    **ABC:** "Cleared for Takeoff Runway 01R, ABC"  
+    **BN ADC:** "DEF, Traffic is ABC, an A320, departing from the opposite direction parallel runway to the South-West. Runway 19R, Cleared to Land"  
+    **DEF:** "Cleared to Land Runway 19R, DEF"  
 
 ## Parallel Runway Operations - Runway Selection
 Aircraft shall be assigned the following runways for departure when PROPS are in progress:
@@ -75,12 +75,12 @@ Aircraft shall be assigned the following runways for departure when PROPS are in
 Jet Aircraft planned via **BIXAD**, **GUMKI**, **SCOTT**, **SANEG**, or **WACKO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
 !!! example
-    Jet Aircraft planned via SCOTT, assigned runway 19L, shall be given the SCOTT3 departure.
+    Jet Aircraft planned via SCOTT, assigned runway 19L, shall be given the SCOTT# departure.
 
 Non-Jet aircraft, and aircraft that cannot accept a Procedural SID, shall be assigned the **Radar SID**.
 
 !!! example
-    Non-Jet Aircraft planned via WACKO, assigned runway 01L, shall be given the BRISBANE4 departure.
+    Non-Jet Aircraft planned via WACKO, assigned runway 01L, shall be given the BRISBANE# departure.
 
 ## ATIS
 #### Operational Info

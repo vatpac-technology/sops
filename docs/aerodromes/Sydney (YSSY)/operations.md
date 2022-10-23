@@ -18,8 +18,8 @@
 
 † **Non-standard position** – may only be used in accordance with VATPAC Ratings and Controller Positions Policy (link)
 
-In the absence of an ACD controller, SMC shall asssume the ADC responsibilities.  
-In the absence of an SMC controller, ADC shall assume the SMC and ADC responsibilities.
+In the absence of an ACD controller, SMC shall asssume the ACD responsibilities.  
+In the absence of an SMC controller, ADC shall assume the SMC and ACD responsibilities.
 ### Maneuvering Area Responsibility
 <figure markdown>
 ![YSSY Maneuvering Area](img/yssy_maneuvring_area.png){ width="500" }
@@ -76,10 +76,10 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time
 
 !!! example
-    SY_TWR: "ABC, Traffic is DEF, a 737, on short final for the opposite direction parallel runway. Runway 16L, Cleared for Takeoff"  
-    ABC: "Cleared for Takeoff Runway 16L, ABC"  
-    SY_TWR: "DEF, Traffic is ABC, an A320, departing from the opposite direction parallel runway to the South-East. Runway 34L, Cleared to Land"  
-    DEF: "Cleared to Land Runway 34L, DEF"  
+    **SY ADC:** "ABC, Traffic is DEF, a 737, on short final for the opposite direction parallel runway. Runway 16L, Cleared for Takeoff"  
+    **ABC:** "Cleared for Takeoff Runway 16L, ABC"  
+    **SY ADC:** "DEF, Traffic is ABC, an A320, departing from the opposite direction parallel runway to the South-East. Runway 34L, Cleared to Land"  
+    **DEF:** "Cleared to Land Runway 34L, DEF"  
 ## Parallel Runway Operations
 
 #### Go-arounds / Missed Approaches
@@ -104,12 +104,12 @@ Unless operationally required, aircraft shall be assigned the following runways 
 Jet Aircraft planned via **KADOM**, **WOL**, **RIC**, or **ENTRA**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
 
 !!! example
-    Jet Aircraft planned via ENTRA, assigned runway 16L, shall be given KEVIN6 departure, ENTRA transition.
+    Jet Aircraft planned via ENTRA, assigned runway 16L, shall be given KEVIN# departure, ENTRA transition.
 
 Jet Aircraft **not** planned via **KADOM**, **WOL**, **RIC**, or **ENTRA**, and **not** using Runway 25, shall be assigned the **Procedural SID** appropriate to their runway, with the **RADAR** transition.
 
 !!! example
-    Jet Aircraft planned via EVONN, assigned runway 34R, shall be given MARUB6 departure, RADAR transition.
+    Jet Aircraft planned via EVONN, assigned runway 34R, shall be given MARUB# departure, RADAR transition.
 
 !!! note
     Heavier aircraft on long-haul flights may not be able to achieve the Climb Gradient required of the Procedural SIDs. In this instance, they shall be assigned the **Radar SID**, as it has a shallower minimum Climb Gradient. If in doubt, ask the pilot.
@@ -117,7 +117,7 @@ Jet Aircraft **not** planned via **KADOM**, **WOL**, **RIC**, or **ENTRA**, and 
 All other aircraft (Non-Jet aircraft, Aircraft with shallow Climb Gradient, and Aircraft using Runway 25), shall be assigned the **Radar SID**.
 
 !!! example
-    Non-Jet Aircraft planned via CORDO, assigned runway 16R, shall be given the SYDNEY2 departure.
+    Non-Jet Aircraft planned via CORDO, assigned runway 16R, shall be given the SYDNEY# departure.
 
 !!! tip
     A Radar SID (eg, SYDNEY 2 departure) is distinct from a SID with a RADAR transition (eg, RICHMOND 5 departure, RADAR transition) SIDs with a RADAR Transition are still considered Procedural SIDs. A Radar SID can be identified in the DAPs (link) as having a "(RADAR)" at the end of the name.

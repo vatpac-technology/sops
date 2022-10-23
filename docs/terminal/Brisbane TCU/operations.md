@@ -20,11 +20,10 @@
 ## Airspace
 The Brisbane TMA covers the area shown below, SFC-FL185. (vatSys screenshot)  
 BN TCU is responsible for the Brisbane TMA, except:  
-a) AMB CTR when AM APP is online;  
-b) AF CTR when AF TWR is online;  
-c) any airspace released to an external unit (e.g. tower) either by NOTAM or as negotiated.
+a) AF CTR when **AF TWR** is online;  
+b) any airspace released to an external unit (e.g. tower) either by NOTAM or as negotiated.
 
-AF CTR reverts to Class G when AF TWR is offline, and is administered by the relevant BN TCU controller.      
+AF CTR reverts to Class G when **AF TWR** is offline, and is administered by the relevant BN TCU controller.      
 #### Airspace Structural Arrangements
 
 Pursuant to Section 3 of the Controller Positions and Ratings Policy 5.1, **“North”**/**”West”** positions shall assume the airspace of corresponding **“South”**/**”East”** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
@@ -47,18 +46,18 @@ Aircraft shall be assigned the following runways for arrival when PROPS are in p
 | From the SOUTH and EAST | 01R/19L |
 
 ## AF TWR Offline
-Due to the low level of CTA (A015) in the AF CTR when AF TWR is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
+Due to the low level of CTA (A015) in the AF CTR when **AF TWR** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
 !!! example
-    ABC -> BN TCU: "Brisbane Approach, ABC, PC12, POB 8, IFR, Taxiing YBAF for YBSU, Runway 28R" `AIP GEN 3.4 6.16.4 1b`  
-    BN TCU -> ABC: "ABC, Brisbane Approach, Squawk 3601, No Reported IFR Traffic, Call me Ready at the Holding Point for Airways Clearance"  
-    ABC -> BN TCU: "Squawk 3601, Wilco, ABC"  
-    ABC -> BN TCU: "ABC, Ready Runway 28R, Request clearance"  
-    BN TCU -> ABC: "ABC, Cleared to YBSU via BN, Flight Planned Route. Make Visual right turn DCT BN, Climb to A030"  
-    ABC -> BN TCU: "Cleared to YBSU via BN, Flight Planned Route. Make Visual right turn DCT BN, Climb to A030, ABC" 
+    **ABC** -> **BN TCU**: "Brisbane Approach, ABC, PC12, POB 8, IFR, Taxiing YBAF for YBSU, Runway 28R" `AIP GEN 3.4 6.16.4 1b`  
+    **BN TCU** -> **ABC**: "ABC, Brisbane Approach, Squawk 3601, No Reported IFR Traffic, Call me Ready at the Holding Point for Airways Clearance"  
+    **ABC** -> **BN TCU**: "Squawk 3601, Wilco, ABC"  
+    **ABC** -> **BN TCU**: "ABC, Ready Runway 28R, Request clearance"  
+    **BN TCU** -> **ABC**: "ABC, Cleared to YBSU via BN, Flight Planned Route. Make Visual right turn DCT BN, Climb to A030"  
+    **ABC** -> **BN TCU**: "Cleared to YBSU via BN, Flight Planned Route. Make Visual right turn DCT BN, Climb to A030, ABC" 
 ## Airspace Division
 
-The divisions of the airspace between BAN, BAS, BDS, BDN, BAC and BMN change based on the Runway Mode.
+The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, **BAC** and **BMN** change based on the Runway Mode.
 
 <figure markdown>
 ![34 PROPS TCU Structure](img/34PROPS.png){ width="700" }
