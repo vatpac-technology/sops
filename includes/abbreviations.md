@@ -33,3 +33,6 @@
 *[CTA]: Controlled Airspace
 *[OCTA]: Outside Controlled Airspace
 *[ARP]: Aerodrome Reference Point
+*[NM]: Nautical Mile
+*[SFC]: Surface
+*[RVSM]: Reduced Vertical Separation Minima
