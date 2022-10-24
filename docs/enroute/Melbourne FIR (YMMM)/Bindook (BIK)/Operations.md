@@ -38,7 +38,7 @@ Bindook shall assign the following standard assignable levels to aircraft enteri
 
 | Arrival | Standard Assignable Atitude |
 | ------ | -------------------------- |
-| All arrivals | F130 |  
+| All arrivals | FL130 |  
 
 Aircraft not arriving via a STAR must be coordinated in accordance with the Coordination procedure.
 
