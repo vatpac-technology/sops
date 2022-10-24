@@ -20,4 +20,5 @@
 </figure>
 
 ## Standard Assignable Level
-All aircraft departing from YMAY shall be assigned `A060` or `RFL` if lower.
+In IMC, aircraft must be assigned a minimum of `A060`. This shall be coordinated with CTR.
+In VMC, aircraft may be issued `A040 VISUAL` without prior coordination regarding the level.
