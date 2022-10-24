@@ -39,3 +39,5 @@
 *[SFC]: Surface
 *[RVSM]: Reduced Vertical Separation Minima
 *[FF]: Feeder Fix
+*[FDRs]: Flight Data Records
+*[DME]: Distance Measuring Equipment
