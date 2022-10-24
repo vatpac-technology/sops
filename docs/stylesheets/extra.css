@@ -4,11 +4,11 @@
 
 /*Primary Thematic Colors*/
 :root {
-  --md-primary-fg-color:        #6096BA;
+  --md-primary-fg-color:        #344767;
   --md-primary-fg-color--dark:  #16425B;
-  --md-primary-fg-color--light: #6096BA;
-  --md-accent-fg-color:         #6096BA;
-  --md-footer-fg-color:         #6096BA;
+  --md-primary-fg-color--light: #344767;
+  --md-accent-fg-color:         #344767;
+  --md-footer-fg-color:         #344767;
   --md-footer-bg-color--dark:   #16425B;
 }
 
@@ -18,18 +18,18 @@
 
 /*Header Modifications*/
 .md-typeset h1 {
-  color: #81C3D7;
+  color: #344767;
 }
 h1 {
   /*text-transform: uppercase;*/
 }
 h2 {
-  color: #81C3D7;
+  color: #344767;
   /*text-transform: uppercase;*/
   padding-bottom: 0.5em;
 }
 h3 {
-  color: #81C3D7;
+  color: #344767;
 }
 h4 {
   padding-top: 1em;

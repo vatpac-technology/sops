@@ -1,13 +1,18 @@
 /* Navigation Modifications */
 .md-header {
-  background: #3A7CA5;
+  background: #344767;
+  color: var(/*--md-primary-fg-color*/ #fff)
 }
 .md-nav--primary .md-nav__title[for=__drawer] {
-    background: var(--md-primary-fg-color--dark);
+    background: var(--md-primary-fg-color);
     overflow: visible;
 }
 .md-tabs {
-  background: #2F6690;
+  background: #fff;
+}
+
+.md-tabs__link {
+  color: var(--md-primary-fg-color);
 }
 .md-top {
   color: #ffffff;
@@ -17,6 +22,7 @@
 }
 .md-tabs__link--active, .md-tabs__link:focus, .md-tabs__link:hover {
   border-bottom: 1.5px solid #D9DCD6;
+  color: var(--md-primary-fg-color);
   height: -webkit-fill-available;
 }
 
