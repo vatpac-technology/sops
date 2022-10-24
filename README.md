@@ -1,6 +1,6 @@
 # VATPAC SOPs
 
-The VATPAC SOPs site is an open-source collaborative project allowing members of the VATNZ community to work together to create high-quality SOPs.
+The VATPAC SOPs site is an open-source collaborative project allowing members of the VATPAC community to work together to create high-quality SOPs.
 
 ## Contributing
 
@@ -20,4 +20,4 @@ Because of this, all changes should be made as a Pull Request. This also ensures
 
 ## Project Control
 
-The owner for this project is the Operations Director. Members of the Operations Team are also able to review PR's.
+The owner for this project is the ATS Director. Members of the ATS Team are also able to review PR's.
