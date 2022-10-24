@@ -76,7 +76,7 @@ markdown_extensions:
   - md_in_html #enables the use of image figures
   - abbr
   - pymdownx.snippets
-  - pymdownx.arithmatex:
+  - pymdownx.arithmatex: # Allows the use of math formulas with proper formatting
       generic: true
 
 extra_javascript:
