@@ -17,3 +17,6 @@
 ![YBAS Airspace](img/ybas_airspace.jpg){ width="700" }
   <figcaption>YBAS Airspace</figcaption>
 </figure>
+
+## Standard Assignable Level
+All aircraft departing YBAS shall be assigned `A060` or `RFL` if lower.

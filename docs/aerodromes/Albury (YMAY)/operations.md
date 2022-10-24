@@ -18,3 +18,6 @@
 ![YMAY Airspace](img/ymay_airspace.jpg){ width="700" }
   <figcaption>YMAY Airspace</figcaption>
 </figure>
+
+## Standard Assignable Level
+All aircraft departing from YMAY shall be assigned `A060` or `RFL` if lower.
