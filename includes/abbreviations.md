@@ -38,3 +38,4 @@
 *[NM]: Nautical Mile
 *[SFC]: Surface
 *[RVSM]: Reduced Vertical Separation Minima
+*[BRL]: Bearing-Range Line

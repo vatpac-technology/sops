@@ -6,6 +6,8 @@ title: Coordination
 
 Coordination requirements are often very location-specific, however this page outlines the general guidelines to coordination, which are supplemented by Local Instructions.
 
+`MATS Chapter 6` https://www.airservicesaustralia.com/mats/docs/nos-saf-2000.pdf goes in to much more detail about coordination principles, phraseology, and situations. It is well above the level required for VATSIM, but feel free to read up on it if you want to extend your learning.
+
 ## Types of Coordination
 ### Heads-up
 
@@ -15,16 +17,16 @@ Controlling Sector -> Receiving Sector: "(Position), (Callsign)"
 Receiving Sector -> Controlling Sector: "(Callsign), (Level)"
 
 !!! example
-    ELW -> BIK: "via CB, VOZ1234"  
-    BIK -> ELW: "VOZ1234, F350"  
+    **ELW** -> **BIK**: "via CB, VOZ1234"  
+    **BIK** -> **ELW**: "VOZ1234, F350"  
 
 If the level that will be assigned at transfer of jurisdiction is different from the current CFL, the Controlling Sector will use the phrase "Will be assigned (level)".
 
 Once this coordination is completed, the aircraft's level and route is **locked in**. Any further changes must be recoordinated.
 
 !!! example
-    ELW -> BIK: "VOZ1234, requesting DCT RIVET"  
-    BIK -> ELW: "VOZ1234, concur DCT RIVET"  
+    **ELW** -> **BIK**: "VOZ1234, requesting DCT RIVET"  
+    **BIK** -> **ELW**: "VOZ1234, concur DCT RIVET"  
 
 ### Voiceless
 
@@ -38,14 +40,14 @@ Controlling Sector -> Boundary Sector: "For Ident, (Position), (Callsign), (Deta
 Boundary Sector -> Controlling Sector: "(Callsign), (Restriction)"
 
 !!! example
-    BIK -> CAE: "For Ident, overhead CB, QFA12, do you have any restrictions on descent?"  
-    CAE -> BIK: "QFA12, No restrictions on descent"  
+    **BIK** -> **CAE**: "For Ident, overhead CB, QFA12, do you have any restrictions on descent?"  
+    **CAE** -> **BIK**: "QFA12, No restrictions on descent"  
 
 The Boundary Sector may omit the restriction and readback the callsign only. This will be taken as the Boundary Sector having **no vertical or lateral restrictions**.
 
 !!! example
-    INL -> BAS: "For Ident, West of BLAKA, ABC"  
-    BAS -> INL: "ABC"
+    **INL** -> **BAS**: "For Ident, West of BLAKA, ABC"  
+    **BAS** -> **INL**: "ABC"
 
 ## Rules
 
@@ -73,8 +75,8 @@ Voiceless, no changes to route or CFL within 50nm to boundary (Rules vary in ELW
 Receiving a handoff means you are permitted to turn an aircraft 45 degrees left or right, and climb/descend it to any level without coordination. Do not handoff an aircraft to another sector if a turn of 45 degrees or a change of level would cause a conflict with any of your own aircraft. Or alternatively, you can nominate a restriction prior to handoff.
 
 !!! example
-    YWE -> TBD: "ABC, my restriction is DEF, calls you now"  
-    TBD -> YWE: "ABC, restriction is DEF, calls me now"
+    **YWE** -> **TBD**: "ABC, my restriction is DEF, calls you now"  
+    **TBD** -> **YWE**: "ABC, restriction is DEF, calls me now"
 
 For more information, refer to individual local instructions.
 
