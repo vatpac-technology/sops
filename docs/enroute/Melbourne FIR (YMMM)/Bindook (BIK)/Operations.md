@@ -48,9 +48,9 @@ Bindook (BIK) will provide final sequencing actions to ensure aircraft comply wi
 For aircraft overflying the SY TMA place 'O/FLY' in the LABEL DATA field.
 
 ### Gundagai
-Gundagai (GUN) assigns and issues arrival clearance for Sydney and will give aircraft an initial descent clearance to FL250. Gundagai (GUN) will transfer responsibility of control to Bindook (BIK) at the latter of:  
+Gundagai (GUN) assigns and issues arrival clearance for aircraft inbound to Sydney via RIVET and ODALE. Gundagain (GUN) will assing aircraft an initial descent clearance to FL250. Gundagai (GUN) will transfer responsibility of control to Bindook (BIK) at the latter of:  
 a) readback of STAR and descent clearance  
 b) xxx NM from BIK/GUN border
 
 ### Wollongong
-Wollongon (WOL) is responsible for aircraft departing the SY TMA via CORDO and WOL. Wollongong (WOL) will also assing and issue arrival clearance for Canberra and will give aircraft an initial descent clearance to the lower of FL130 or their planned altitude.
+Wollongong (WOL) is responsible for assigning and issueing arrival clearance to aircraft inbound to Canberra via RAZZI annd BUNGA. Wollongong (WOL) will issue aircraft an initial descent clearance to the lower of FL130 or their planned altitude.
