@@ -38,3 +38,4 @@
 *[NM]: Nautical Mile
 *[SFC]: Surface
 *[RVSM]: Reduced Vertical Separation Minima
+*[FF]: Feeder Fix

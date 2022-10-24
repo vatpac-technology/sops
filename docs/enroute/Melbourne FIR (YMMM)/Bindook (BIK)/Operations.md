@@ -23,7 +23,7 @@ Bindooks also assumes responsiblity of:
 a) The airspace within 50nm of SY DME above FL280  
 b) The airspace within the lateral limits of the CB TCU above FL245, except for the region south west which is assumed by Benalla (BLA)
 !!! note
-    Bindook does not assume the CB TCU in the absence of a CB TCU controller. Assumption of the CB TCU is the responsibility of sector/subsector of Eildon Weir (ELW) or Benalla (BLA). Controllers may choose to verbally coordinate the release of the CB TCU to either sector/subsector.
+    Bindook does not assume the CB TCU in the absence of a CB TCU controller. Assumption of the CB TCU is the responsibility of Benalla (BLA). Controllers may choose to verbally coordinate the release of the CB TCU to either sector/subsector.
 
 
 ## Standard Assignable Levels
@@ -34,7 +34,7 @@ Bindook shall assign the following standard assignable levels to aircraft enteri
 | RIVET | A100 |  
 | All other arrivals | A090 |  
 
-Bindook shall assign the following standard assignable levels to aircraft entering the CB TCU:  
+Wollongong shall assign the following standard assignable levels to aircraft entering the CB TCU:  
 
 | Arrival | Standard Assignable Atitude |
 | ------ | -------------------------- |
@@ -42,8 +42,14 @@ Bindook shall assign the following standard assignable levels to aircraft enteri
 
 Aircraft not arriving via a STAR must be coordinated in accordance with the Coordination procedure.
 
-## Subsector Responsibilities
+## Sector Responsibilities
+### Bindook
+Bindook (BIK) will provide final sequencing actions to ensure aircraft comply with their FF times prior to entering the Sydney TMA. Bindook (BIK) shall assign the standard assignable altitude in accordance with the table above. 
+
 ### Gundagai
 Gundagai (GUN) assigns and issues arrival clearance for Sydney and will give aircraft an initial descent clearance to FL250. Gundagai (GUN) will transfer responsibility of control to Bindook (BIK) at the latter of:  
 a) readback of STAR and descent clearance  
 b) xxx NM from BIK/GUN border
+
+### Wollongong
+Wollongon (WOL) is responsible for aircraft departing the Sydney TMA via CORDO and WOL. Wollongong (WOL) will also assing and issue arrival clearance for Canberra and will give aircraft an initial descent clearance to the lower of FL130 or their planned altitude.
