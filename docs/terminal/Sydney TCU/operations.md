@@ -54,9 +54,27 @@ Unless operationally required, aircraft shall be assigned the following runways 
 | From the NORTH and EAST | 16L/34R |
 | From the SOUTH and WEST | 16R/34L |
 
-#### ILS
+#### Director East and West
 
-Aim to vector aircraft to the following Intercept points during PROPS:
+Sydney Approach North (SAN) / Sydney Approach South (SAS) are required to hand-off aircraft to the appropriate Sydney Director East (SFE) / Sydney Director West (SFW) Controller on a <u>downwind heading</u>, <u>assigned</u> (or maintaining) <u>6000FT</u>.
+
+Note - the downwind heading is not required to be entered in the label data by SAN/SAS.
+
+SFW/SFE should provide aircraft an approximate 'miles to run' on first contact, to allow the aircraft to plan their descent path.
+
+A typical downwind will take roughly 25 track miles from the normal point have handover from SAN/SAS to SFE/SFW.
+
+!!! example
+    "QLK402, Sydney Director, descend via STAR 4000 FT, 25 miles to run"
+
+SFW/SFE may provide distance to touchdown, when transferring an aircraft to tower after the aircraft is established on their approach runway centreline (see below).
+
+!!! example
+    "QFA490, 8 miles to touchdown, contact tower 120.5"
+
+#### Instrument Approach
+
+Aim to vector aircraft to the following Intercept points during instrument PROPS (GLS or ILS approach):
 
 | Runway | Distance from Threshold | Level  |
 | --| ----------------| --------- |
