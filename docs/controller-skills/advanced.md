@@ -4,7 +4,7 @@ title: Advanced Techniques
 
 --8<-- "includes/abbreviations.md"
 
-# Separation Assurance
+## Separation Assurance
 
 Colloquially, separation assurance could be described as: if you turn away from the screen for 5 minutes, no standard could possibly be infringed. Officially, `MATS 10.1.1.1.1` defines Separation assurance as:  
 
@@ -38,7 +38,7 @@ Executing the plan may involve passing instructions to pilots, coordinating with
 
 The BRL Tool has many uses, and is critical to the act of separation assurance.
 
-# Sequencing
+## Sequencing
 
 It's all well and good maintaining separation standards in your airspace, but if you handoff 2 aircraft to ML_APP overhead LIZZI at the same speed, 1000ft apart, you're not going to make any friends. By default, aircraft must be sequenced **2 minutes** apart at the **Feeder Fix** (ie, the first waypoint of the STAR).  
 
@@ -63,7 +63,7 @@ Speed Control is simply slowing aircraft down and speeding aircraft up as requir
 Vectoring aircraft is best to achieve anywhere between a 2 minute and a 6 minute delay. Vectoring aircraft for sequencing involves pointing aircraft away from their route (somewhere between 30° and 60°) for as long as necessary to achieve the delay. Whilst vectoring, you can anchor a BRL between the aircraft and the Feeder Fix to monitor how much time needs to be lost, then turn the aircraft back on route once the required delay has been achieved.
 
 ### Holding
-Holding is the final delaying action, useful for when a delay of 6 minutes or more is required. Published Holds exist on common useful holding fixes all around Australia, usually either at the Feeder Fix, or a waypoint before the Feeder Fix. Published Holds can be seen on ERC Charts.
+Holding is the final delaying action, useful for when a delay of 6 minutes or more is required. Published Holds exist on common useful holding fixes all around Australia, usually either at the Feeder Fix, or a waypoint before the Feeder Fix. Locations of Published Holds can be found on ERC Charts.
 
 !!! example
     **YWE:** "BNZ135, Showing an 8 minute delay at ARBEY. Fly published hold at APPLE, when ready, descend to reach F250 by APPLE."  
@@ -72,16 +72,16 @@ Holding is the final delaying action, useful for when a delay of 6 minutes or mo
     **YWE:** "BNZ135, Cancel hold, cleared APPLE, ARBEY, to rejoin the STAR, when ready, descend via STAR to A090, QNH 1013"  
     **BNZ135:** "Cancel hold, cleared APPLE, ARBEY, to rejoin the STAR, when ready, descend via STAR to A090, QNH 1013, BNZ135" 
 
-Keep in mind, that not all pilots may be familiar with published holds, and you may need to hold at a non-published point. Utilise the full hold phraseology in this instance.
+Using standard `AIP GEN 3.4` phraseology *"Hold at (waypoint)"*, lends itself to pilots unfamiliar with the published hold procedures being less likely to speak up, and more likely to just do whatever they want. This is why it is preferred that instead, the phrase *"Fly published hold at (waypoint)"* is used, to give the pilot a chance to let the controller know that they're not sure what the instruction means. In this instance, and if you need to hold at a non-published point, Utilise the full `AIP GEN 3.4` hold phraseology:
 
 !!! example
-    **ELW:** "VOZ888, Showing a 7 minute delay at LIZZI. Hold at NABBA, Left turns, 2 minute legs, 224 inbound track. When ready, descend to reach F250 by NABBA."  
-    **VOZ888:** "Hold at NABBA, Left turns, 2 minute legs, 224 inbound track. When ready, descend to reach F250 by NABBA, VOZ888"  
+    **ELW:** "VOZ888, Showing a 7 minute delay at LIZZI. Hold at NABBA, Inbound track 224 degrees, Left hand pattern, Outbound time 2 minutes. When ready, descend to reach F250 by NABBA."  
+    **VOZ888:** "Hold at NABBA, Inbound track 224 degrees, Left hand pattern, Outbound time 2 minutes. When ready, descend to reach F250 by NABBA, VOZ888"  
     ...  
     **ELW:** "VOZ888, Cancel hold, cleared NABBA, BULLA, TAREX, LIZZI, to rejoin the STAR, when ready, maintain F250"  
     **VOZ888:** "Cancel hold, cleared NABBA, BULLA, TAREX, LIZZI, to rejoin the STAR, when ready, maintain F250, VOZ888" 
 
-# Level Check
+## Level Check
 
 Unless a level has been "locked in" for an aircraft entering your airspace, either from being inside a change parameter, receiving heads-up coordination, or being a standard assignable level, their CFL cannot be used for separation purposes. Certain aircraft may require additional time to plan restrictions, identify conflicts, etc (For example, as **ELW**, an aircraft cutting across the YMML departure/arrival path at F230), and this is where a **level check** may be useful. If you want to "lock in" a level for an aircraft coming from an adjacent sector, use the following phraseology:
 
@@ -98,3 +98,23 @@ Level checks are also useful for when you have identified a conflict, and you ne
     **SDS** -> **BIK**: "JST123, F200"  
 
 When using the level check technique, bear in mind the sector that you're coordinating with may have no idea what a Level Check is. Use plain english as required to get the message across (and be nice 😊).
+## Level Management
+When issuing a climb or descent instruction, as yourself, what altitude/level can assign which results in the smallest number of transmissions.
+
+A common habit is to see controllers clearing aircraft "when ready" to FL250 on descent, despite there being no reason to do so. If there is no traffic restrictions and CTA LL permits, descent the aircraft to the CTA LL.
+
+!!! Example
+    VOZ888 is tracking from Sydney to Melbourne via the Q29 airway to LIZZI for the LIZZI8A arrival runway 34.
+
+    "VOZ888, when ready, descend via the STAR to A090, QNH 1009."
+
+!!! note
+    An appropriate time to assign F250 for descent would be, for example, an aircraft tracking on the Y59 airway to YSSY, when CB_APP is online (since they own the CB TMA up to F245). In this example, you would not assign lower than F250 until the aircraft is 2.5nm clear of the CB TMA.  
+    Do not assign levels through another sector's airspace without coordination, even if it would take a 20,000ft/min descent rate to clip the airspace! Either wait until the aircraft is 2.5nm clear, or coordinate with the sector.
+
+Use "descend via STAR" phraseology when CTA protection is in place, through the use of height requirements on the STAR.
+
+!!! Example
+    RXA4652 is tracking via ODALE for the ODALE7 STAR to runway 34R. CTA LL is 8000FT, but the STAR has built-in CTA protection (8000FT ABOVE at KABLO)
+
+    "RXZ4652, Sydney Approach, runway 34R, descend via the STAR to 6000FT"
