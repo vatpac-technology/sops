@@ -4,7 +4,7 @@
 
 --8<-- "includes/abbreviations.md"
 
-# BN ADC / BN TCU
+## BN ADC / BN TCU
 ### Auto Release
 
 Auto Release is available for:  
@@ -22,7 +22,7 @@ Any aircraft / runway configuration that doesn't meet the above criteria, requir
     **ABC** -> **BN ADC**: "Right heading 160, Runway 19L, Cleared for Takeoff, ABC"  
     `AIP GEN 3.4 6.16.6 3f`
 
-#### Standard Assignable Departure Levels
+## Standard Assignable Departure Levels
 
 Jets: `A060`  
 Non-jets: `A040` or `RFL` if lower

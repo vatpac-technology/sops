@@ -4,7 +4,7 @@
 
 --8<-- "includes/abbreviations.md"
 
-# SY ADC / SY TCU
+## SY ADC / SY TCU
 ### Auto Release
 
 "Next" Coordination is a procedure where the **SY ADC** controller gives a heads-up to the SY TCU controller about an impending departure. The SY TCU controller will respond by assigning a heading to the aircraft, for the **SY ADC** controller to pass on with their takeoff clearance.
@@ -47,11 +47,11 @@ Aircraft that have been assigned the **Radar SID** must be assigned a heading on
 Jets: `A050`
 Non-jets: `A030` or `RFL` if lower
 
-# SY ADC / SY SMC
+## SY ADC / SY SMC
 ### Ground Operations
 As per this (link) diagram, **SY ADC** has Responsibility of the Runways, meaning **SY SMC** must always coordinate with **SY ADC** to allow aircraft to cross runways whilst taxiing. **SY SMC** may request, or **SY ADC** may elect, to release certain runways to the **SY SMC** controller, so they may let aircraft cross the runway without coordination (For example, Releasing runway 07/25 to **SY SMC** whilst PROPS are in progress.) This Release may also be cancelled at the controller's discretion.
 
-# SY ACD / SY TCU
+## SY ACD / SY TCU
 The controller assuming responsibility of **SY ACD** shall give heads-up coordination to the relevant SY TCU controller prior to the issue of the following clearances:  
 a) VFR Departures  
 b) Aircraft using a runway not on the ATIS
