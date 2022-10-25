@@ -4,7 +4,10 @@ title: Extending
 
 --8<-- "includes/abbreviations.md"
 
-As per `VATPAC Controller Position and Ratings Policy`, Enroute controllers are permitted to *extend* to any adjacent sector (with the exception of ML-ASP_CTR, which can only extend to adjacent YMMM sectors).
+As per `VATPAC Controller Position and Ratings Policy`, Enroute controllers are permitted to *extend* to any adjacent sector, with the exception of:
+
+- ML-ASP_CTR, which can only extend to adjacent YMMM (Melbourne Centre) sectors.
+- BN-ISA_CTR, which can only extend to adjacent YBBB (Brisbane Centre) sectors.
 
 ## Frequency Management
 When providing extended coverage, controllers will have multiple frequencies active and at this time, those active frequencies are not displayed to pilots. It can also be confusing as to which frequency a pilot is currently transmitting on.
