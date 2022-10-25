@@ -4,7 +4,7 @@
 
 --8<-- "includes/abbreviations.md"
 
-# CG ADC / BN TCU
+## CG ADC / BN TCU
 ### Auto Release
 
 Auto Release shall be used for aircraft that are:
@@ -26,7 +26,7 @@ A start clearance is required for aircraft planned to Brisbane. Start clearance 
 
 The BN TCU controller can suspend/resume Auto Release at any time, with the concurrence of **CG ADC**.
 
-#### Standard Assignable Departure Levels
+## Standard Assignable Departure Levels
 
 Jets: `A060`
 Non-jets: `A060` or `RFL` if lower
