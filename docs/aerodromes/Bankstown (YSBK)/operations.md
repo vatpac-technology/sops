@@ -31,20 +31,20 @@ Tower airspace is defined as between SFC to 1500 FT.
 
 | VFR Approach Point | RWYs 29  | RWYs 11 |
 | ----------------| --------- | ---------- |
-| Prospect Reservoir (PSP)    | Join right downwind, maintain A15 (Abeam RWYs 11 threshold or clear of departing traffic), cleared visual approach       | Join final or Join upwind, maintain A015        |
-| 2RN (TWRN)   | Join right crosswind, maintain A015 (Abeam RWYs 11 threshold or clear of departing traffic), cleared visual approach | Join final, report at Warwick Farm  |
+| Prospect Reservoir (PSP)    | Join right downwind, maintain A015 (Abeam RWYs 11 threshold or clear of departing traffic), cleared visual approach       | Join final or Join upwind at or below A010        |
+| 2RN (TWRN)   | Join right crosswind, maintain A015 (Abeam RWYs 11 threshold or clear of departing traffic), cleared visual approach | Join final, report at Warwick Farm at or below A010  |
 
 ## Circuits
 The circuit direction changes depending on time of day and runway being used.
 
 | Runway | Day  | Night |
 | ----------------| --------- | ---------- |
-| 11L    | Left       | Right        |
+| 11L    | Left       | -        |
 | 11C   | Left | Right  |
 | 11R    | Right | -  |
 | 29L     | Left        | -  |
 | 29C    | Right | Left         |
-| 29R    | Right        | Left  |
+| 29R    | Right        | -  |
 
 Circuits to be flown at A010
 
@@ -52,6 +52,6 @@ Circuits to be flown at A010
 #### Operational Info
 
 ATIS broadcast for runway shall follow the format: 
-`RWY 11L (or 29R) FOR ARRIVALS AND DEPARTURES; RWY 11R (or 29L) FOR CIRCUIT TRAINING; RWY 11C (or 29C) ACTIVE`  
+`RWY 11L (or 29R) FOR ARRIVALS AND DEPARTURES; RWY 11R (or 29L) FOR CIRCUIT TRAINING; RWY 11C (or 29C) IN USE`  
 When the crosswind component exceeds 15 knots, include in the ATIS: 
 `CROSSWIND ALERT – DO NOT PASS THROUGH FINAL FOR YOUR ASSIGNED RUNWAY`
