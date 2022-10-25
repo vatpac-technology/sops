@@ -6,12 +6,15 @@
 *[GNSS]: Global Navigation Satellite System
 *[RNP]: Required Navigation Performance
 *[ANR]: Air Navigation Register   
+*[ATS]: Air Traffic Services
 *[TMA]: Terminal Maneuvering Area
 *[FIR]: Flight Information Region
 *[SSR]: Secondary Surveillance Radar
+*[LL]: Lower Level
 *[SOPs]: Standard Operating Procedures
 *[FSS]: Flight Service Station
 *[AIP]: Aeronautical Information Publication
+*[PRM]: Precision Runway Monitoring
 *[SODPROPS]: Simultaneous Opposite Direction Parallel Runway Operations
 *[PROPS]: Parallel Runway Operations
 *[SMC]: Surface Movement Control (Ground Controller)
@@ -27,6 +30,7 @@
 *[ADEP]: Departure Aerodrome
 *[LOC]: Localiser
 *[ILS]: Instrument Landing System
+*[GLS]: GBAS Landing System
 *[ACD]: Airways Clearance Delivery
 *[ATIS]: Automatic Terminal Information Service
 *[NOTAM]: Notice to Airmen
@@ -42,3 +46,4 @@
 *[FDRs]: Flight Data Records
 *[DME]: Distance Measuring Equipment
 *[BRL]: Bearing-Range Line
+*[LAHSO]: Land and Hold Short Operations
