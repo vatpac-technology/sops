@@ -11,29 +11,12 @@ Here is a complete list of standard annotations controllers should be entering i
 | ----------- | ----------------- | ------- |
 | Four-figure time group | Expected or actual time of occurrences | 0955 |
 | Two-figure time group | Expected or actual time of occurrences <br /> *Note: Use when there is no possibility of confusion.* | 55 |
-| Not before | NB(time) | NB1035 |
-| Not after | NA(time) | NA1035 |
 
 ## Flight Rules
 | Information | Meaning and Usage | Example |
 | ----------- | ----------------- | ------- |
 | Instrument Flight Rules | | I |
 | Visual Flight Rules | | V |
-| IFR then VFR | | Y |
-| VFR then IFR | | Z |
-
-## Level
-| Information | Meaning and Usage | Example |
-| ----------- | ----------------- | ------- |
-| Aircraft level | Two- or three-figure group <br />Record levels of 1000ft or higher as multiples of 100ft<br />Record levels less than 1000ft as a two-didget group beginning with zero. | FL177<br />A01 (100ft) |
-| Above Ground Level | (level)AGL | 200AGL |
-| Maintain initial level | Departure Instructions <br /> M(level) | M80 |
-| Assigned visual level | V(level) | V70 |
-| Assigned level not below DME or GNSS steps | (level)D/(level)G | 30D/30G |
-| Amended level | | AL350 |
-| VFR departure | (level)VD | 15VD |
-| Special VFR | (level)SV | 15SV |
-| VFR-on-top | (level)VT | A080 VT |
 
 ## Route and Positions
 | Information | Meaning and Usage | Example |
@@ -42,20 +25,7 @@ Here is a complete list of standard annotations controllers should be entering i
 | Waypoint name | Five-letter designator<br />*Note: can be reduced if unlikely to cause confusion.* | RIVET<br />RIV |
 | Place-brearing-distance locations | Position expressed as a bearing and distance from a datum.<br />(place)(bearing)(distance) | SY335045<br />*ie: SY DME, R335, 45 NM* |
 | Amended route | When assigned a route that differs to that planned | AR |
-| Re-cleared | | RC |
-| Flight planned route | | FPR |
-| Abeam | A/(position) | A/MDG |
-| Dead reckoning | | DR |
-| Pilot Estimate | (position)(time) | UVUPU0702 |
-
-## Headings
-| Information | Meaning and Usage | Example |
-| ----------- | ----------------- | ------- |
 | Assigned Heading | H(heading) | H350 |
-| Left turn | L(heading) | L240 |
-| Right turn | R(heading) | R020 |
-| Maintain runway heading | Surveillance environment only | MR |
-| Climb straight ahead | Non-surveillance environment | CSA |
 
 ## Requests, Requirements and Restrictions
 | Information | Meaning and Usage | Example |
@@ -66,26 +36,16 @@ Here is a complete list of standard annotations controllers should be entering i
 | No lateral restrictions | Changes to only lateral clearances permitted without further coordiantion | NLR |
 | No vertical restrictions | Changes to only verical clearance permitted without further coordination | NVR |
 | No restrictions on descent | Aircraft may continue descent without further coordination | NRD |
-| No restrictions on climn | Aircraft may continue climb without further coordination | NRC |
+| No restrictions on climb | Aircraft may continue climb without further coordination | NRC |
 | Reach by | Aircraft may continue climb without further coordination<br />X(position) | X20BN |
 | Reach level by | R(level)X(position or time) | R280XBANDA |
 | Reach level by distance before position | R(level)X(distance)(position) | R370X20LHI<br />*Note: distance **before** position* |
 | Reach level by distance after position |  R(level)X(position)(distance) | R250XSY65<br />*Note: distance **after** position* |
 | Reach level by time | R(level)X(time) | R370X50 |
 
-## Distance Separation Information
-| Information | Meaning and Usage | Example |
-| ----------- | ----------------- | ------- |
-| Distance between two aircraft subject to a longitudinal distance standard | Record the source of information as "D" for DME, "G" for GNSS or "R" for RNAV/SCNS. Record the time of the report.<br />(distance)(source)@(time) | 30D@0437 |
-| Distance report | (distance)(reference point) | 30LT
-
 ## Approaches, Arrivals and Departures
 | Information | Meaning and Usage | Example |
 | ----------- | ----------------- | ------- |
-| Expected approach time | EAT(time) | EAT23 |
-| Expected onwards clearance time | EOC(time) | EOC46 |
-| Stack departure time | SDT(time) | SDT52 |
-| Latest divert time | LDT(time) | LDT56
 | Visual approach | | VSA |
 | DME arrival | | DME |
 | GNSS arrival | | GNSS |
@@ -94,7 +54,6 @@ Here is a complete list of standard annotations controllers should be entering i
 | RNAV approach | | RNAV |
 | VOR approach | | VOR |
 | ILS approach | | ILS |
-| Visual departure | | VSD |
 
 ## Sequencing 
 | Information | Meaning and Usage | Example |
@@ -106,33 +65,33 @@ Here is a complete list of standard annotations controllers should be entering i
 | Mach reduction on cruise and descent speed | MR(difference)/(descent speed) | MR04/240 |
 | Descend at minimum speed | | MIN |
 | Descend at maximum speed | Also cancels STAR speed restrictions | MX |
-| Stream to follow |  F/(preceding aircraft) | F/QLK41D |
-| Stream to follow by distance | F/(preceding aircraft)+(distance) | F/TFD+18 |
 | Feeder fix time | F(time) | F37 |
 | Estimated landing time | L(time) | L58 |
-| LAHSO approved | | LA |
-| Passive LAHSO only | | PL |
-| Negative LAHSO | | XX |
-| Hold at normal position | | H |
 | Hold at position | H/(position) | H/SHARK |
-| Hold at normal position with stack departure time | H/(time) | H/06 |
 | Hold at position with stack departure time | H/(position)/(time) | H/CANTY/33 |
-| No height requires on STAR | | NHR |
+| No height requirement on STAR | | NHR |
 | No STAR (or cancel STAR) | | NS |
 | Cancel STAR speed restrictions | | CSR |
-| Arriving at procedural tower aerodrome | Include estimate for destination navaid, track in, assigned level (if not standard assignable) and sequence number. <br /> L(time) (track) (level) (number) | L49 038 120 3 |
 
 ## Miscellaneous
 | Information | Meaning and Usage | Example |
 | ----------- | ----------------- | ------- |
-| VFR-on-top | | VT |
 | Surveillance Information Service | Aircraft receiving service | SIS |
-| At | | @ |
-| Information is checked and correct | An aircraft has acknowledged information; or<br />Action has been taken or requirement has been met<br /><(information) | <F42 |
 | Coordinated Item | C(information) | C380 |
 | Requested Item | R(information) | R380 |
 | Information/instruction in yet to be issued | Record information on reciept from other unit followed by a period.<br />Remove period once action is completed | MX. |
 | Clearance issued to an aircraft prior to 10 NM from the lateral CTA boundary | | > |
+| No IFR Traffic | | NIT |
+| Cancel SARWATCH | IFR aircraft cancelled SARWATCH prior to circuit area or destination ETA | CSW |
+| QNH issued (en route traffic is altimeter setting region) | QNH(value) | QNH1015 |
+
+## Less commonly used
+
+| Information | Meaning and Usage | Example |
+| ----------- | ----------------- | ------- |
+| Not before | NB(time) | NB1035 |
+| Not after | NA(time) | NA1035 |
+| QNH issued (en route traffic is altimeter setting region) | QNH(value) | QNH1015 |
 | Distance left or right of track | (distance) [LOT/ROT] | 30 LOT |
 | Enter lateral conflict | ELC/(time/position) | ELC/15 |
 | Leaves lateral conflict | LLC/(time)(position) | LLC/190SY |
@@ -140,6 +99,39 @@ Here is a complete list of standard annotations controllers should be entering i
 | Sight and pass | S+P/(callsign) | S+P/EDM |
 | Sight and follow | S+F/(callsign) | S+F/VOZ882 |
 | Calculated time of passing | TP(time) | TP0835 |
-| No IFR Traffic | | NIT |
-| Cancel SARWATCH | IFR aircraft cancelled SARWATCH prior to circuit area or destination ETA | CSW |
-| QNH issued (en route traffic is altimeter setting region) | QNH(value) | QNH1015 |
+| At | | @ |
+| Information is checked and correct | An aircraft has acknowledged information; or<br />Action has been taken or requirement has been met<br /><(information) | <F42 |
+| VFR-on-top | | VT |
+| Arriving at procedural tower aerodrome | Include estimate for destination navaid, track in, assigned level (if not standard assignable) and sequence number. <br /> L(time) (track) (level) (number) | L49 038 120 3 |
+| Hold at normal position with stack departure time | H/(time) | H/06 |
+| LAHSO approved | | LA |
+| Passive LAHSO only | | PL |
+| Negative LAHSO | | XX |
+| Hold at normal position | | H |
+| Stream to follow |  F/(preceding aircraft) | F/QLK41D |
+| Stream to follow by distance | F/(preceding aircraft)+(distance) | F/TFD+18 |
+| Visual departure | | VSD |
+| Expected approach time | EAT(time) | EAT23 |
+| Expected onwards clearance time | EOC(time) | EOC46 |
+| Stack departure time | SDT(time) | SDT52 |
+| Latest divert time | LDT(time) | LDT56
+| Distance between two aircraft subject to a longitudinal distance standard | Record the source of information as "D" for DME, "G" for GNSS or "R" for RNAV/SCNS. Record the time of the report.<br />(distance)(source)@(time) | 30D@0437 |
+| Distance report | (distance)(reference point) | 30LT
+| Climb straight ahead | Non-surveillance environment | CSA |
+| Left turn | L(heading) | L240 |
+| Right turn | R(heading) | R020 |
+| Maintain runway heading | Surveillance environment only | MR |
+| Aircraft level | Two- or three-figure group <br />Record levels of 1000ft or higher as multiples of 100ft<br />Record levels less than 1000ft as a two-didget group beginning with zero. | FL177<br />A01 (100ft) |
+| Above Ground Level | (level)AGL | 200AGL |
+| Maintain initial level | Departure Instructions <br /> M(level) | M80 |
+| Assigned visual level | V(level) | V70 |
+| Assigned level not below DME or GNSS steps | (level)D/(level)G | 30D/30G |
+| Amended level | | AL350 |
+| VFR departure | (level)VD | 15VD |
+| Special VFR | (level)SV | 15SV |
+| VFR-on-top | (level)VT | A080 VT |
+| Re-cleared | | RC |
+| Flight planned route | | FPR |
+| Abeam | A/(position) | A/MDG |
+| Dead reckoning | | DR |
+| Pilot Estimate | (position)(time) | UVUPU0702 |
