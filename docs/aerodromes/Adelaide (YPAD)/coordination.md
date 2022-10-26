@@ -4,7 +4,7 @@
 
 --8<-- "includes/abbreviations.md"
 
-# AD ADC / AD TCU
+## AD ADC / AD TCU
 ### Auto Release
 
 Auto Release shall be used for aircraft that are:    
@@ -22,7 +22,7 @@ Any aircraft that don't meet these criteria must be coordinated to AD TCU with a
     **ABC** -> **AD ADC**: "Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff, ABC"  
     `AIP GEN 3.4`
 
-#### Standard Assignable Departure Levels
+## Standard Assignable Departure Levels
 
 Jets: `A050`  
 Non-Jets: `A040` or `RFL` if lower
