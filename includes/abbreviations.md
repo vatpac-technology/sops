@@ -47,3 +47,5 @@
 *[DME]: Distance Measuring Equipment
 *[BRL]: Bearing-Range Line
 *[LAHSO]: Land and Hold Short Operations
+*[ADSB]: Automatic Dependant Surveillance - Broadcast
+*[FF]: Feeder Fix

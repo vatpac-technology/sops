@@ -44,10 +44,12 @@ It's all well and good maintaining separation standards in your airspace, but if
 
 It's important to remember that aircraft aren't just arriving from your sector, they can be coming in from all directions at similar times. **Maestro** is a tool used to help aid with Sequencing, and you can find more info at https://maestro.vatpac.org/about (link)
 
+In real life, controllers have the luxury of putting a fair bit of the onus of forming the sequence on the pilots, by issuing instructions like *"Adjust speed to cross RIVET at time 52 at 250kts in to published speeds"*. On VATSIM, every pilot may be using a different clock, potentially even different weather, and the pilot may simply not be proficient enough to meet a FF time. As such, all sequencing is best left in the hands of you, the controller.
+
 There are 3 ways to control the sequence:
 
 ### Speed Control
-Speed Control is simply slowing aircraft down and speeding aircraft up as required. As a general rule of thumb, Speed Control is most useful to achieve anywhere between a 1 minute expedition, to a 2 minute delay. Some handy indicators to put in the aircraft's label whilst doing speed control are:  
+Speed Control is simply slowing aircraft down and speeding aircraft up as required. As a general rule of thumb, Speed Control is most useful to achieve anywhere between a 1 minute expedition, to a 2 minute delay (depending on how far out from the FF). Some handy indicators to put in the aircraft's label whilst doing speed control are:  
 **.78** - Aircraft report - Mach .78  
 **M78** - Controller instruction - Maintain Mach .78  
 **M78G** - Controller instruction - Maintain Mach .78 or Greater  
@@ -60,7 +62,13 @@ Speed Control is simply slowing aircraft down and speeding aircraft up as requir
 **MX** - Controller instruction - Increase to Maximum Speed  
 
 ### Vectoring
-Vectoring aircraft is best to achieve anywhere between a 2 minute and a 6 minute delay. Vectoring aircraft for sequencing involves pointing aircraft away from their route (somewhere between 30° and 60°) for as long as necessary to achieve the delay. Whilst vectoring, you can anchor a BRL between the aircraft and the Feeder Fix to monitor how much time needs to be lost, then turn the aircraft back on route once the required delay has been achieved.
+Vectoring aircraft is best to achieve anywhere between a 2 minute and a 6 minute delay (again, depending on how far out from the FF). Vectoring aircraft for sequencing involves pointing aircraft away from their route (somewhere between 30° and 60°) for as long as necessary to achieve the delay. Whilst vectoring, you can anchor a BRL between the aircraft and the Feeder Fix to monitor how much time needs to be lost, then turn the aircraft back on route once the required delay has been achieved.
+
+!!! note
+    The times shown at waypoints when displaying an aircraft's route are not completely accurate. They are calculated based on a combination of the aircraft's ***planned TAS, Forecast GRIB winds, and estimated climb/descent profiles***. Times shown on the BRL anchored from an aircraft to a waypoint are based on the aircraft's ***current ground speed***. As a general rule of thumb, a jet aircraft will tend to add approximately 1-2 minutes to a BRL time on descent. A propeller aircraft will not add any time on descent. Both the route time and the BRL time can provide situational awareness and more info, but use whatever is appropriate for the situation.
+
+!!! tip
+    In practice, vectoring for sequencing is done a lot simply by feel. Once magnetic variation, winds, changes in aircraft speeds, rate of turns, etc, are factored in, there's a lot of variability to worry about. It can be a bit like making pancakes, the first one's always a bit screwed up... But it'll give you a good idea of the effect of winds, changes in times, and other aforementioned factors.
 
 ### Holding
 Holding is the final delaying action, useful for when a delay of 6 minutes or more is required. Published Holds exist on common useful holding fixes all around Australia, usually either at the Feeder Fix, or a waypoint before the Feeder Fix. Locations of Published Holds can be found on ERC Charts.

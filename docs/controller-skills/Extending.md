@@ -28,3 +28,18 @@ Extending to adjacent sectors **must** be done with traffic levels and complexit
 If you find yourself actively having to zoom in to certain areas, and not seeing large areas of your airspace for extended periods, **relinquish some airspace**.  
 If you find yourself barely having any time to think in between radio calls, **relinquish some airspace**.  
 If the frequency is constantly getting stepped on by multiple aircraft, **relinquish some airspace**.  
+
+!!! tip
+    Stay vigilant for aircraft in your airspace taxiing without calling up. Many aerodromes have Radar/ADSB on the ground, and this can be used in conjunction with the ground radar to check for aircraft movements. If you zoom right in to a Radar/ADSB return on the ground, and it has a velocity vector, time to send a contact me!
+
+## Remarks
+
+When extending, include in your remarks, "Extending to (Sector) (frequency), (Sector) (frequency), etc. This will have the benefit of:
+- Helping pilots be aware of whether or not they are in your airspace, so they are less likely to start taxiing without a clearance or traffic statement
+- Helping pilots know which frequency to use
+- If entered in this format, display on Volanta the extensions on the ATC map.
+
+!!! example
+    Melbourne (ELW) Centre. Extending to HUO 122.6, YWE 134.325, BIK 129.8.  
+    Charts - vats.im/pac/charts  
+    ATC feedback - helpdesk.vatpac.org

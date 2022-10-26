@@ -144,7 +144,7 @@ For more info on military callsigns, and on'es not listed here, refer to `MATS 6
 | CLAS  | CLASSIC               |
 | DPOT | DESPOT           |
 | DNGO  | DINGO             |
-| DRGN  | AJAX               |
+| DRGN  | DRAGON              |
 | EVY  | ENVOY      |
 | FALC | FALCON          |
 | HDDO  | HOODOO              |
