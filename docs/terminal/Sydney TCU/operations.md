@@ -27,9 +27,10 @@ d) any airspace released to an external unit (e.g. tower) either by NOTAM or as 
 
 BK CTR reverts to Class G when **BK TWR** is offline, and is administered by the relevant SY TCU controller.    
 CN CTR reverts to Class G when **CN TWR** is offline, and is administered by the relevant SY TCU controller.  
+SY TCU is responsible for the provision of ADC, SMC and ACD responsibilities when **SY TWR** is offline.
 #### Airspace Structural Arrangements
 
-Pursuant to Section 3 of the Controller Positions and Ratings Policy 5.1, the following rules apply, in the order presented, to these controller positions, except **SFL**:  
+Pursuant to Section 3 of the [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}, the following rules apply, in the order presented, to these controller positions, except **SFL**:  
 a) **“North”**/**”West”** positions shall assume the airspace of corresponding **“South”**/**”East”** positions when the latter are inactive (e.g. **SAN** assumes **SAS** airspace), and vice versa;  
 b) Approach assumes Director/Departure airspace “on-side” when the latter positions are inactive (e.g. with **SAS** and **SAN** online only, **SAS** assumes **SDS** and **SFW**) 
 ## Arrival Procedures

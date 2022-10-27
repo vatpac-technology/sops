@@ -51,7 +51,7 @@ The Boundary Sector may omit the restriction and readback the callsign only. Thi
 
 ## Rules
 ### The C-Prompt (Coordination Prompt)
-Once all voice coordination is complete for an aircraft, display the "C-Prompt" by middle clicking the area just above the aircraft's callsign in the label. *Note: This includes if the aircraft is subject to voice coordination, which most aircraft are.
+Once all voice coordination is complete for an aircraft, display the "C-Prompt" by middle clicking the area just above the aircraft's callsign in the label. *Note: This includes if the aircraft is subject to voiceless coordination, which most aircraft are.
 
 <figure markdown>
 ![C-Prompt](img/cprompt.png){ width="200" }

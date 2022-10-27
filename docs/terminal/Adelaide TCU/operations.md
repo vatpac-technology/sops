@@ -23,7 +23,8 @@ c) Any airspace released to an external unit (e.g. tower) either by NOTAM or as 
 
 PF CTR reverts to Class G when **PF TWR** is offline, and is administered by the relevant AD TCU controller.    
 EDN CTR reverts to Class G when **EDN TWR** is offline, and is administered by the relevant AD TCU controller.  
-**AAW** Shall assume the airspace of **AAE** when they are offline.
+**AAW** shall assume the airspace of **AAE** when they are offline.  
+AD TCU is responsible for the provision of ADC, SMC and ACD responsibilities when **AD TWR** is offline.
 
 ## Arrival Procedures
 #### YMEN Arrivals

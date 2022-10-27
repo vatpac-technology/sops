@@ -23,10 +23,11 @@ BN TCU is responsible for the Brisbane TMA, except:
 a) AF CTR when **AF TWR** is online;  
 b) any airspace released to an external unit (e.g. tower) either by NOTAM or as negotiated.
 
-AF CTR reverts to Class G when **AF TWR** is offline, and is administered by the relevant BN TCU controller.      
+AF CTR reverts to Class G when **AF TWR** is offline, and is administered by the relevant BN TCU controller.  
+BN TCU is responsible for the provision of ADC, SMC and ACD responsibilities when **BN TWR** is offline.      
 #### Airspace Structural Arrangements
 
-Pursuant to Section 3 of the Controller Positions and Ratings Policy 5.1, **“North”**/**”West”** positions shall assume the airspace of corresponding **“South”**/**”East”** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
+Pursuant to Section 3 of the [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}, **“North”**/**”West”** positions shall assume the airspace of corresponding **“South”**/**”East”** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
 
 ## Parallel Runway Operations - Runway Selection
 Aircraft shall be assigned the following runways for arrival when PROPS are in progress:

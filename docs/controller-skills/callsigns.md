@@ -126,7 +126,7 @@ This page lists some of the most commonly used callsigns in Australia.
 
 ## Military
 
-For more info on military callsigns, and ones not listed here, refer to `MATS 6.2` or http://www.swld.com.au/pages/aus_raaf_callsigns.htm
+For more info on military callsigns, and ones not listed here, refer to [MATS Chapter 6.2](https://www.airservicesaustralia.com/mats/docs/nos-saf-2000.pdf ){target=new} or [This website](http://www.swld.com.au/pages/aus_raaf_callsigns.htm){target=new}
 
 | ICAO | Callsign           |
 | ---- | ------------------ |
