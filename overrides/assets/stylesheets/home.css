@@ -74,14 +74,14 @@
 }
 
 .feature h2 {
-    color: #81C3D7;
+    color: var(--md-primary-fg-color--dark);
     font-weight: 400;
     font-size: 25px;
     line-height: normal;
     margin-top: 20px;
     margin-bottom: 0px;
     display: inline-block;
-    border-bottom: 1px solid #81C3D7;
+    border-bottom: 1px solid #f1f5f9;
 }
 
 .feature .cards {
@@ -96,14 +96,14 @@
 
 .feature .card a {
     display: block;
-    background:rgba(0, 0, 0, 0.2);
+    background: rgba(241, 245, 249, 0.5);
     transition: background-color 0.2s ease;
     padding: 0.5rem 1rem;
     border-radius: 5px;
 }
 
 .feature .card a:hover {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(241, 245, 249, 1);
 }
 
 .feature .card a h3 { margin-top: 8px; }

@@ -4,11 +4,11 @@
 
 /*Primary Thematic Colors*/
 :root {
-  --md-primary-fg-color:        #6096BA;
+  --md-primary-fg-color:        #344767;
   --md-primary-fg-color--dark:  #16425B;
-  --md-primary-fg-color--light: #6096BA;
-  --md-accent-fg-color:         #6096BA;
-  --md-footer-fg-color:         #6096BA;
+  --md-primary-fg-color--light: #344767;
+  --md-accent-fg-color:         #344767;
+  --md-footer-fg-color:         #344767;
   --md-footer-bg-color--dark:   #16425B;
 }
 
@@ -18,22 +18,22 @@
 
 /*Header Modifications*/
 .md-typeset h1 {
-  color: #81C3D7;
+  color: #344767;
 }
 h1 {
   /*text-transform: uppercase;*/
 }
 h2 {
-  color: #81C3D7;
+  color: #344767;
   /*text-transform: uppercase;*/
   padding-bottom: 0.5em;
 }
 h3 {
-  color: #81C3D7;
+  color: #344767;
 }
 h4 {
   padding-top: 1em;
-  color: #D9DCD6;
+  color: #344767;
 }
 .md-typeset h5 {
   color: hsl(0deg 0% 100%);
@@ -41,7 +41,7 @@ h4 {
 
 /* highlighting */
 .md-typeset mark { /* ==text== */
-    background-color: #3A7CA5;
+    background-color: #06b6d4;
     color: white;
     text-decoration: none;
 }
@@ -56,7 +56,7 @@ h4 {
     text-decoration: none;
 }
 .md-typeset code {
-    background-color: #103042;
+    background-color: #7a7a7a82;
     border-radius: 0.25rem;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
@@ -74,7 +74,7 @@ h4 {
 /*Table Styling*/
 .md-typeset table:not([class]) th {
   font-weight: bold;
-  background-color: #81C3D7;
+  background-color: #344767;
   color: var(--md-default-bg-color);
 }
 /* reduced table row height */

@@ -14,7 +14,7 @@ theme:
   font:
     text: Maven Pro
   palette:
-    scheme: slate
+    scheme: default
   features:
     - navigation.tabs
     - navigation.tabs.sticky
