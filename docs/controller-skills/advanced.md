@@ -14,11 +14,20 @@ Here are some techniques to help aid with each of those elements.
 
 ### Assessing traffic and Identifying conflicts
 
-There are 3 different ways aircraft could be in conflict;
+There are 3 types of conflicts;
+#### Vertical
+Aircraft assigned the same level, or assigned climb/descend through the other aircraft's level(s).  Simple
+#### Longitudinal
+Tracks intersecting at less than 45° (same track), or between 135° and 180° (reciprocal track).  
+Reciprocal tracks will always be a longitudinal conflict at some point in time.  
+Same tracks are only in conflict if there is a **faster following** scenario, eg, ABC doing 120kts, 30nm ahead of QFA94 doing 360kts on the same route.
+#### Lateral
+Tracks intersecting at more than 45°, but less than 135°.
 
-**Laterally** - Tracks intersecting at more than 45°, but less than 135°, and the aircraft come within 5nm of each other.  
-**Longitudinally** - Tracks intersecting at less than 45°, either as a faster following, or opposite direction scenario.  
-**Vertically** - Aircraft assigned the same level, or assigned climb/descend through the other aircraft's level(s).  
+The best way to determine if aircraft will be laterally in conflict, is with the use of the Closest Approach tool. A good rule of thumb is, if the Closest Approach tool indicates the aircraft will come with **20nm laterally** of each other, they have the potential to be in lateral conflict.
+
+!!! note
+    The Closest Approach tool uses calculations based on both aircraft's **routes, planned TAS,** and **estimated climb/descent profiles**. This is why in practice, it won't always get the distance right, which is why we add so much fat to a 5nm lateral standard in the usage of the tool for assessment purposes. The further out from the crossing point the aircraft are, the more inaccurate the tool is.
 
 ### Planning to ensure separation
 This is where you decide the method for separation assurance. Are you going to implement a restriction to reach a certain altitude by a certain point? Are you going to place a BRL between the aircraft to monitor closing speed? Are you going to anchor a BRL at the point where lateral conflict is infringed, to monitor the aircraft vertically clear? Are you going to give one aircraft a vector to keep clear? There are several different ways to approach resolving these conflicts, so choose the one that best suits the situation, and that you are comfortable with.
@@ -46,7 +55,7 @@ It's important to remember that aircraft aren't just arriving from your sector, 
 
 In real life, controllers have the luxury of putting a fair bit of the onus of forming the sequence on the pilots, by issuing instructions like *"Adjust speed to cross RIVET at time 52 at 250kts in to published speeds"*. On VATSIM, every pilot may be using a different clock, potentially even different weather, and the pilot may simply not be proficient enough to meet a FF time. As such, all sequencing is best left in the hands of you, the controller.
 
-There are 3 ways to control the sequence:
+There are 4 ways to control the sequence:
 
 ### Speed Control
 Speed Control is simply slowing aircraft down and speeding aircraft up as required. As a general rule of thumb, Speed Control is most useful to achieve anywhere between a 1 minute expedition, to a 2 minute delay (depending on how far out from the FF). Some handy indicators to put in the aircraft's label whilst doing speed control are:  
@@ -61,6 +70,18 @@ Speed Control is simply slowing aircraft down and speeding aircraft up as requir
 **MIN** - Controller instruction - Reduce to Minimum Speed  
 **MX** - Controller instruction - Increase to Maximum Speed  
 
+!!! tip
+    Prior to implementing speed control, get yourself the best possible picture of what the pilots are doing. Asking questions like;  
+    *"QFA123, report planned cruise Mach number"  
+    "VOZ456, report speed on descent"  
+    "QJE1781, report top of descent point"*  
+    Will give you maximum awareness of the traffic picture, and help plan restrictions, sequences, etc.
+
+### Descending early
+Levels can also be used to help facilitate sequencing where required. Aircraft will naturally have a slower ground speed at lower levels, so to assist with any delaying action, you can give the instruction:
+*"BNZ148, for sequencing, descend now to F130"*
+
+This method is not the best for planning purposes, and will only help to achieve 1-4 mins delay, depending on how far out from the destination. This method is more suited to adjusting the sequence if things haven't quite worked out as planned, or an aircraft that despite all efforts, just will not slow down.
 ### Vectoring
 Vectoring aircraft is best to achieve anywhere between a 2 minute and a 6 minute delay (again, depending on how far out from the FF). Vectoring aircraft for sequencing involves pointing aircraft away from their route (somewhere between 30° and 60°) for as long as necessary to achieve the delay. Whilst vectoring, you can anchor a BRL between the aircraft and the Feeder Fix to monitor how much time needs to be lost, then turn the aircraft back on route once the required delay has been achieved.
 
@@ -86,10 +107,31 @@ Using standard `AIP GEN 3.4` phraseology *"Hold at (waypoint)"*, lends itself to
     **ELW:** "VOZ888, Showing a 7 minute delay at LIZZI. Hold at NABBA, Inbound track 224 degrees, Left hand pattern, Outbound time 2 minutes. When ready, descend to reach F250 by NABBA."  
     **VOZ888:** "Hold at NABBA, Inbound track 224 degrees, Left hand pattern, Outbound time 2 minutes. When ready, descend to reach F250 by NABBA, VOZ888"  
     ...  
-    **ELW:** "VOZ888, Cancel hold, cleared NABBA, BULLA, TAREX, LIZZI, to rejoin the STAR, when ready, maintain F250"  
-    **VOZ888:** "Cancel hold, cleared NABBA, BULLA, TAREX, LIZZI, to rejoin the STAR, when ready, maintain F250, VOZ888" 
+    **ELW:** "VOZ888, Cancel hold, cleared NABBA, BULLA, TAREX, LIZZI, to rejoin the STAR, maintain F300"  
+    **VOZ888:** "Cancel hold, cleared NABBA, BULLA, TAREX, LIZZI, to rejoin the STAR, maintain F300, VOZ888" 
 
-## Level Check
+## Level Management
+When issuing a climb or descent instruction, ask yourself: *"What altitude/level can be assigned which results in the smallest number of transmissions?"*
+
+A common habit is to see controllers issuing the instruction *"When ready, descend to F250"*, despite there being no reason to do so. If there is no traffic restrictions and CTA LL permits, descent the aircraft to the CTA LL.
+
+!!! Example
+    VOZ888 is tracking from Sydney to Melbourne via the Q29 airway to LIZZI for the LIZZI8A arrival runway 34.
+
+    "VOZ888, when ready, descend via the STAR to A090, QNH 1009."
+
+!!! note
+    An appropriate time to assign F250 for descent would be, for example, an aircraft tracking on the Y59 airway to YSSY, when CB_APP is online (since they own the CB TMA up to F245). In this example, you would not assign lower than F250 until the aircraft is 2.5nm clear of the CB TMA.  
+    Do not assign levels through another sector's airspace without coordination, even if it would take a 20,000ft/min descent rate to clip the airspace! Either wait until the aircraft is 2.5nm clear, or coordinate with the sector.
+
+Further transmissions can be saved in the busy TMA, with the use of "descend via STAR" phraseology when CTA protection is in place, **only** where Height Requirements exist on the STAR assuring aircraft remain inside CTA.
+
+!!! Example
+    RXA4652 is tracking via ODALE for the ODALE7 STAR to runway 34R. CTA LL is 8000FT, but the STAR has built-in CTA protection (8000FT ABOVE at KABLO)
+
+    "RXA4652, Sydney Approach, runway 34R, descend via the STAR to 6000FT"
+
+### Level Check
 
 Unless a level has been "locked in" for an aircraft entering your airspace, either from being inside a change parameter, receiving heads-up coordination, or being a standard assignable level, their CFL cannot be used for separation purposes. Certain aircraft may require additional time to plan restrictions, identify conflicts, etc (For example, as **ELW**, an aircraft cutting across the YMML departure/arrival path at F230), and this is where a **level check** may be useful. If you want to "lock in" a level for an aircraft coming from an adjacent sector, use the following phraseology:
 
@@ -106,23 +148,3 @@ Level checks are also useful for when you have identified a conflict, and you ne
     **SDS** -> **BIK**: "JST123, F200"  
 
 When using the level check technique, bear in mind the sector that you're coordinating with may have no idea what a Level Check is. Use plain english as required to get the message across (and be nice 😊).
-## Level Management
-When issuing a climb or descent instruction, as yourself, what altitude/level can assign which results in the smallest number of transmissions.
-
-A common habit is to see controllers clearing aircraft "when ready" to FL250 on descent, despite there being no reason to do so. If there is no traffic restrictions and CTA LL permits, descent the aircraft to the CTA LL.
-
-!!! Example
-    VOZ888 is tracking from Sydney to Melbourne via the Q29 airway to LIZZI for the LIZZI8A arrival runway 34.
-
-    "VOZ888, when ready, descend via the STAR to A090, QNH 1009."
-
-!!! note
-    An appropriate time to assign F250 for descent would be, for example, an aircraft tracking on the Y59 airway to YSSY, when CB_APP is online (since they own the CB TMA up to F245). In this example, you would not assign lower than F250 until the aircraft is 2.5nm clear of the CB TMA.  
-    Do not assign levels through another sector's airspace without coordination, even if it would take a 20,000ft/min descent rate to clip the airspace! Either wait until the aircraft is 2.5nm clear, or coordinate with the sector.
-
-Use "descend via STAR" phraseology when CTA protection is in place, through the use of height requirements on the STAR.
-
-!!! Example
-    RXA4652 is tracking via ODALE for the ODALE7 STAR to runway 34R. CTA LL is 8000FT, but the STAR has built-in CTA protection (8000FT ABOVE at KABLO)
-
-    "RXZ4652, Sydney Approach, runway 34R, descend via the STAR to 6000FT"

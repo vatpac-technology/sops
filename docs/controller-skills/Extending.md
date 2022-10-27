@@ -34,9 +34,9 @@ If the frequency is constantly getting stepped on by multiple aircraft, **relinq
 
 ## Remarks
 
-When extending, include in your remarks, "Extending to (Sector) (frequency), (Sector) (frequency), etc. This will have the benefit of:
-- Helping pilots be aware of whether or not they are in your airspace, so they are less likely to start taxiing without a clearance or traffic statement
-- Helping pilots know which frequency to use
+When extending, include in your remarks, "Extending to (Sector) (frequency), (Sector) (frequency), etc. This will have the benefit of:  
+- Helping pilots be aware of whether or not they are in your airspace, so they are less likely to start taxiing without a clearance or traffic statement  
+- Helping pilots know which frequency to use  
 - If entered in this format, display on Volanta the extensions on the ATC map.
 
 !!! example
