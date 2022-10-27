@@ -34,9 +34,10 @@ f) Any airspace released to an external unit (e.g. tower) either by NOTAM or as 
 
 MB CTR reverts to Class G when **MB TWR** is offline, and is administered by the relevant ML TCU controller.    
 EN CTR reverts to Class G when **EN TWR** is offline, and is administered by the relevant ML TCU controller.  
-AV CTR Class D reverts to Class G when **AV TWR** is offline, and is administered by the relevant ML TCU controller.  
-In the absence of a **MDS** controller, **MDN** shall asssume the MDN airspace.  
-In the absence of a **MDN** controller, **MAE** shall asssume the MDN and MDS airspace.  
+AV CTR Class D reverts to Class G when **AV_TWR** is offline, and is administered by the relevant ML TCU controller.  
+In the absence of a **MDS** controller, **MDN** shall asssume the **MDS** airspace.  
+In the absence of a **MDN** controller, **MAE** shall asssume the **MDN** and **MDS** airspace.  
+ML TCU is responsible for the provision of ADC, SMC and ACD responsibilities when **ML TWR** is offline.
 
 ## Arrival Procedures
 #### YMEN Arrivals

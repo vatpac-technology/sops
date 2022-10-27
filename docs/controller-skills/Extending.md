@@ -4,7 +4,7 @@ title: Extending
 
 --8<-- "includes/abbreviations.md"
 
-As per `VATPAC Controller Position and Ratings Policy`, Enroute controllers are permitted to *extend* to any adjacent sector, with the exception of:
+As per [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}, Enroute controllers are permitted to *extend* to any adjacent sector, with the exception of:
 
 - ML-ASP_CTR, which can only extend to adjacent YMMM (Melbourne Centre) sectors.
 - BN-ISA_CTR, which can only extend to adjacent YBBB (Brisbane Centre) sectors.
@@ -34,7 +34,7 @@ If the frequency is constantly getting stepped on by multiple aircraft, **relinq
 
 ## Remarks
 
-When extending, include in your remarks, "Extending to (Sector) (frequency), (Sector) (frequency), etc. This will have the benefit of:  
+When extending, include in your remarks, *"Extending to (Sector) (frequency), (Sector) (frequency), etc.* This will have the benefit of:  
 - Helping pilots be aware of whether or not they are in your airspace, so they are less likely to start taxiing without a clearance or traffic statement  
 - Helping pilots know which frequency to use  
 - If entered in this format, display on Volanta the extensions on the ATC map.
