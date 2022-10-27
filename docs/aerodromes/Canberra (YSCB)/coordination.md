@@ -23,7 +23,7 @@ Any aircraft that don't meet these criteria must be coordinated to CB TCU with a
     `AIP GEN 3.4`
 
 ## Runway Change
-Any Runway change must be prior coordinated to **MAE** and **EN TWR**.
+Any Runway change must be prior coordinated to **CB TCU** and **CB ADC**.
 
 ## Standard Assignable Departure Levels
 
