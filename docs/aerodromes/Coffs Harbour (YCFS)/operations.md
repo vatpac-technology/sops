@@ -19,5 +19,5 @@
 </figure>
 
 ## Standard Assignable Level
-In IMC, aircraft must be assigned a minimum of `A050`. This shall be coordinated with CTR.  
+In IMC, aircraft must be assigned a minimum of `A070`. This shall be coordinated with CTR.  
 In VMC, aircraft may be issued `A040 VISUAL` without prior coordination regarding the level.
