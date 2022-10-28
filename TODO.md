@@ -17,7 +17,7 @@
 - Moorabin
 - Camden
 - Archerfield
-- Parafield
+- Parafield (Alex M Wanted to do it)
 
 ### Procedural
 - Broome (WIP by Chris G)
@@ -46,8 +46,7 @@
 
 ## Pacific
 
-- All Pacific Positions
-- YBBB/YMMM Oceanic (WIP by Tyler B)
+- All Pacific Positions (Tyler B WIP)
 
 ## Controller Skills
 
