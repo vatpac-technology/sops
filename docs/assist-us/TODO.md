@@ -15,7 +15,7 @@
 | Essendon | - | Not Started |
 | Gold Coast | Tyler B | Complete, To be reviewed |
 | Avalon | - | Not Started |
-| Canberra | - | Not Started |
+| Canberra | Tyler B | Complete, To be reviewed |
 
 ### Class D
 | Task | Assigned to | Progress |
@@ -38,8 +38,8 @@
 | Hamilton Island | - | Not Started |
 | Sunshine Coast | - | Not Started |
 | Karratha | - | Not Started |
-| Albury | - | Not Started |
-| Alice Springs | - | Not Started |
+| Albury | Chris G | Complete, To be reviewed |
+| Alice Springs | Chris G | Complete, To be reviewed |
 | Coffs Harbor | Tyler B | Complete, To be reviewed |
 | Tamworth | - | Not Started |
 
