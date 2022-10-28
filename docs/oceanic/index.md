@@ -7,7 +7,7 @@
 
 ## Airspace
 
-The following oceanic FIRs are owned by VATPAC and are covered under the Pacific Oceanic Agreement:
+The following oceanic FIRs are owned by VATPAC and are covered under the [Pacific Oceanic Agreement.](https://drive.google.com/file/d/1xRWTTwpDOek2mkRbXQx53ee2uuot0ofB/view){target=new}
 
 YBBB - Brisbane Oceanic  
 YMMM - Melbourne Oceanic  
