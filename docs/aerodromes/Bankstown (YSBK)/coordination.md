@@ -10,7 +10,7 @@
 
 Whilst the aircraft is taxiing, the Ground Controller Coordinate with the controller responsible for SDS who will issue their airways clearance.
 !!! example
-    **BK SMC** -> **SY TCU**: "Taxi's, UJS, Dubbo, 29C”  
+    **BK SMC** -> **SY TCU**: "Taxi's, UJN, Dubbo, 29C”  
     **SY TCU** -> **BK SMC**: “UJN, Cleared to Dubbo via KADOM Flight Planned Route, Bankstown 8 Departure, Climb via SID A030, Squawk 3342”  
     **BK SMC** -> **SY TCU**: “Cleared to Dubbo via KADOM Flight Planned Route, Bankstown 8 Departure, Climb via SID A030, Squawk 3342, UJN”  
 
@@ -22,7 +22,7 @@ Whilst the aircraft is taxiing, the Ground Controller Coordinate with the contro
 Tower will now coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
 
 !!! example
-    **BK ADC** -> **SY TCU**: "Next, UJS, 29C”  
+    **BK ADC** -> **SY TCU**: "Next, UJN, 29C”  
     **SY TCU** -> **BK ADC**: “UJN, Unrestricted"
 
 !!! information
@@ -56,7 +56,7 @@ SY TCU will coordinate with BK ADC for incoming IFR arrivals on either Visual Tr
 
 ### Miscellaneous
 
-If departure is Runway 11 into CTA, coordination is required with Director (or SDW) if open, as the "Half a Radar Sep Standard From Sector Boundary" rule.
+If departure is Runway 11 into CTA, coordination is required with Director (or SDS) if open, as the "Half a Radar Sep Standard From Sector Boundary" rule.
 
 !!! Example
     **SDS** -> **SY TCU**: “Request left turn our of Bankstown”  
