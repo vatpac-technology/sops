@@ -11,7 +11,7 @@
 | Melbourne | Alex D | Complete, To be reviewed |
 | Sydney | Alex D | Complete, To be reviewed |
 | Brisbane | Alex D | Complete, To be reviewed |
-| Perth | - | Not Started |
+| Perth | Chris G | Complete, To be reviewed |
 | Essendon | - | Not Started |
 | Gold Coast | Tyler B | Complete, To be reviewed |
 | Avalon | - | Not Started |
@@ -113,7 +113,8 @@
 | ENR airspace diagrams | Alex D | Not Started |
 
 ## Other
-| Task | Assigned to | Progress |
-| ---- | ----------- | -------- |
-| Dark Mode | Chris G | Not Started |
+| Task | Assigned to | Progress | Priority |
+| ---- | ----------- | -------- | -------- |
+| Fix Navbar colour | Chris G | Not Started | Medium Priority|
+| Dark Mode | Chris G | Not Started | Low Priority |
 
