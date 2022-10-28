@@ -182,9 +182,6 @@ Along with longitudinal separation, lateral separation is a method of separating
 |**36**|	156|	**54**|	100|	**72**|	70|	**90**|	51|
 |**37**|	152|	**55**|	98| 	**73**|	69|	
 
-!!! Note
-    For tracks with an angular difference of 35 degrees, aircraft enter lateral conflict at 161nm from the common point.
-
 !!! Example
     “UAE406, due to converging traffic at TATOD a level change is required. Climb to reach FL350 by 161nm from TATOD."
 
