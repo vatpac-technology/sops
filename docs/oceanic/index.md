@@ -309,15 +309,14 @@ Controllers must check each aircraft’s flight plan for a discrete SELCAL code.
 
 ### Position Reports
 
-|Position Report Elements|
-|------------------------|
-|Callsign| 
-|Position| 
-|Time | 
-|Flight level|
-|Next position and time over  |
-|Ensuing significant point  |
-|Specified Speed|
+A Position Report will contain the following elements:
+- Callsign  
+- Position  
+- Time    
+- Flight level  
+- Next position and time over   
+- Ensuing significant point   
+- Specified Speed  
 
 !!! Note
     If after making a position report an estimate has changed by more than 2 minutes, the new estimate shall be passed to ATC.  
