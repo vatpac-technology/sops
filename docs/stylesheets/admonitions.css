@@ -29,6 +29,10 @@
   font-size: 0.8rem;
 }
 
+.md-typeset .admonition.information {
+  border-color: #448aff;
+}
+
 /* for aligning image left or right with control over which text flows around */
 .md-typeset .admonition.block,
 .md-typeset details.block {
