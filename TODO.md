@@ -13,7 +13,7 @@
 - Avalon
 
 ### Metro D
-- Jandakot
+- Jandakot (TBD by Zac G)
 - Moorabin
 - Camden
 - Archerfield
@@ -35,7 +35,7 @@
 ## ENR
 
 - All YBBB
-- OLW
+- OLW (WIP by Zac G)
 - PIY (WIP by Zach G)
 - ASP
 - TBD
