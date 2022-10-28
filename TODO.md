@@ -55,5 +55,4 @@
 
 ## Other
 
-- Fix admonitions.css (WIP by Chris G)
 - Dark mode (low priority, TBD by Chris G)
