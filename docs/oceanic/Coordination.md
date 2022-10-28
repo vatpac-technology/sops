@@ -10,6 +10,9 @@
 
 Controllers must provide an estimate and level to the next sector no less than **30 minutes** prior to the aircraft's estimate for the sector boundary.
 
+!!! note
+    Brisbane – Auckland Oceanic coordination is treated as domestic and therefore requires only 15 minutes notice.
+
 !!! example
     **BN-TSN_FSS** -> **NZZO_FSS**: "Estimate ANZ52, LEGAN 0243, FL370"  
     **NZZO_FSS** -> **BN-TSN_FSS**: "ANZ52, FL370"  
