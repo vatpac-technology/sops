@@ -50,7 +50,7 @@ All other aircraft must be voice coordinated to SY TCU prior to **20nm** from th
 ### WOL/GUN / CB TCU
 #### Standard Assignable Levels
 
-The Standard assignable level from WOL to CB TCU is `F130`, and assigned the RAZZI #, BUNGO #, or AVBEG # STAR. //F120 as per IRL?    
+The standard assignable level from WOL to CB TCU is `F120`, and assigned the RAZZI #, BUNGO #, or AVBEG # STAR.
 
 All other aircraft must be voice coordinated to CB TCU prior to **20nm** from the boundary.
 
