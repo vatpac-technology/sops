@@ -15,10 +15,7 @@
   color: var(--md-primary-fg-color);
 }
 .md-top {
-  color: #ffffff;
-}
-.md-top {
-  color: #ffffff;
+  color: #344767;
 }
 .md-tabs__link--active, .md-tabs__link:focus, .md-tabs__link:hover {
   border-bottom: 1.5px solid #D9DCD6;
