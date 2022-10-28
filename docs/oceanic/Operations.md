@@ -60,7 +60,7 @@ Aircraft that are on crossing tracks, including situations where one aircraft is
 
 Where a difference 15 minutes does not exist at the crossing point, vertical separation shall be applied from the time at which the second aircraft is 15 minutes from the crossing point until the first aircraft is 15 minutes past the crossing point.
 <figure markdown>
-![Both](assets/both.png)
+![Both](assets/Both.png)
 </figure>
 
 #### Reciprocal Track
