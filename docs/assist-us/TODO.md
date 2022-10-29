@@ -64,7 +64,7 @@
 | Task | Assigned to | Progress |
 | ---- | ----------- | -------- |
 | Perth | Josh M | In Progress |
-| Tasmania (HB/LT) | - | Not Started |
+| Tasmania (HB/LT) | Tyler B | In Progress|
 | Coral (MK/RK) | - | Not Started |
 | Cairns | Josh M | In Progress |
 | Adelaide | Alex D | Complete, To be reviewed |
