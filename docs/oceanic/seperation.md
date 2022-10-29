@@ -106,60 +106,93 @@ An alternative method to establish definite passing is to instruct pilots to "si
 !!! Note
     When using the sight & pass method, both aircraft must confirm they have visually sighted & passed the other aircraft. TCAS may not be used in lieu of a visual sighting.
 
-
-#### Mach Number Technique
-
-The mach number technique is something that a controller can use in conjunction with a time-based standard to allow two jets to operate with closing between them. The mach number technique may only be used on the same or diverging tracks, and may only be used between jet aircraft.  
-
-The mach number technique operates on the basis that for a given amount of closing between two aircraft (‘Difference in Mach column’), a certain amount of time is required between the aircraft at the time they enter conflict. This time depends on the distance the aircraft are flying and is always greater than 10 minutes, to ensure that 10 minutes will be maintained until the aircraft exit conflict.  
-
-The following table contains the information needed to use the technique to maintain separation over a specifed route sector/interval length:
-
-|  Difference in Mach |   	0-600nm  |	601-1200nm  |	1201-1800nm  |	1801-2400nm | 	2401-3000nm|
-|---|---|---|---|---|---|
-|0.01	|11	|12	|13	|14	|15|
-|0.02	|12	|14	|16	|18	|20|
-|0.03	|13	|16	|19	|22	|25|
-|0.04	|14	|18	|22	|26	|30|
-|0.05	|15	|20	|25	|30	|35|
-|0.06	|16	|22	|28	|34	|40|
-|0.07	|17	|24	|31	|38	|45|
-|0.08	|18	|26	|34	|42	|50|
-|0.09	|19	|28	|37	|46	|55|
-|0.10	|20	|30	|40	|50	|60|
-
-
-!!! Example
-    A & B, that will be on the same track for 700nm with a closing speed of M.04. Using the table above, we see that there must be 18 minutes of separation between these aircraft at the entry point if there is to be 10 minutes of separation between them at the exit point.
-
 ### Lateral Separation
 
-Along with longitudinal separation, lateral separation is a method of separating aircraft 'horizontally', or in other words, separating aircraft that are at the same altitude/flight level. Longitudinal separation is used to separate aircraft at a given time using their position, whereas lateral separation is something used to separate aircraft over a period of time using their heading.
+The Quickest and easiest way to assess lateral conflict scenarios is with the *Conflict Area tool*. Unfortunately, whilst its quick and easy to *use*, it's fairly complex and long to understand the rules and concepts.  
+The first thing to note, is that there are many different unusual remarks and equipment codes that pilots file on VATSIM, primarily because not everyone knows what they mean. A little bit of background knowledge is required to understand these concepts.
 
-| Angle |	 Distance 	| Angle 	| Distance |	 Angle 	| Distance |	 Angle |	 Distance |
-|--|--|--|--|--|--|--|--|
-|**20**|	287|	**38**|	147|	**56**|	96|	**74**|	68|
-|**21**|  273|  **39**|	143|	**57**|	94|	**75**|	67|
-|**22**|	261|	**40**|	139|	**58**|	92|	**76**|	66|
-|**23**|	249|	**41**|	136|	**59**|	90|	**77**|	64|
-|**24**|	238|	**42**|	132|	**60**|	88|	**78**|	63|
-|**25**|	229|	**43**|	129|	**61**|	87|	**79**|	62|
-|**26**|	220|	**44**|	126|	**62**|	85|	**80**|	61|
-|**27**|	211|	**45**|	123|	**63**|	83|	**81**|	60|
-|**28**|	203|	**46**|	120|	**64**|	82|	**82**|	59|
-|**29**|	196|	**47**|	117|	**65**|	80|	**83**|	58|
-|**30**|	189|	**48**|	114|	**66**|	79|	**84**|	57|
-|**31**|	183|	**49**|	112|	**67**|	77|	**85**|	56|
-|**32**|	177|	**50**|	109|	**68**|	76|	**86**|	55|
-|**33**|	171|	**51**|	107|	**69**|	74|	**87**|	54|
-|**34**|	166|	**52**|	104|	**70**|	73|	**88**|	53|
-|**35**|	161|	**53**|	102|	**71**|	72|	**89**|	52|
-|**36**|	156|	**54**|	100|	**72**|	70|	**90**|	51|
-|**37**|	152|	**55**|	98| 	**73**|	69|	
+#### NAVCAPs
+All aircraft have a NAVCAP, associated with a ***Circular Error of Position***. This determines which number to select when using the Conflict Area Tool:
 
-!!! Example
-    “UAE406, due to converging traffic at TATOD a level change is required. Climb to reach FL350 by 161nm from TATOD."
+| NAVCAP Code | Meaning | Cicular Error of Position (CEP) |
+| ---- | ----------- | -------- |
+| A | All | 7nm |
+| 2 | RNP2 | 7nm |
+| 4 | RNP4 | 14nm |
+| 5 | RNAV5 | 14nm |
+| T | RNAV10 | 14nm |
+| Z | None | 30nm |
 
+<figure markdown>
+![NAVCAP Z Example](assets/navcapZ.png){ width="300" }
+  <figcaption>NAVCAP Z Example</figcaption>
+</figure>
+
+<figure markdown>
+![NAVCAP 2 Example](assets/navcap2.png){ width="300" }
+  <figcaption>NAVCAP 2 Example</figcaption>
+</figure>
+
+The minimum number you must select when using the tool, is equal to: **Aircraft 1 CEP + Aircraft 2 CEP + 1nm**
+
+!!! example
+    Aircraft 1 NAVCAP: 4  
+    Aircraft 2 NAVCAP: Z  
+    14+30+1=**45**  
+
+!!! example
+    Aircraft 1 NAVCAP: 2  
+    Aircraft 2 NAVCAP: A  
+    7+7+1=**15**  
+
+!!! tip
+    The best scenario is to have 2 aircraft that are RNP2 approved. "Feed the beast" in order to get what you want, that is to say "QFA12, confirm you are RNP2 approved?", and they'll probably say yes. Enter `NAV/RNP2` in the flight plan remarks, and you can use a 7nm CEP.
+
+#### Working with Conflict Area
+
+<figure markdown>
+![Conflict Area Example 1](assets/conflictarea.png){ width="300" }
+  <figcaption>Conflict Area Example 1</figcaption>
+</figure>
+
+Once you've established the Conflict area, you now know the area in which the aircraft are in **lateral conflict**. You can now either separate from the conflict area using a Time Standard, or a Distance Standard:  
+**Time standard** (**5 minutes** prior to time shown at entry, or **5 minutes** after time shown at exit); or  
+**Distance standard** (Use BRL to measure a distance to/from a waypoint that is outside of the conflict area, and use it to implement a vertical standard after exiting, or prior to entering the lateral conflict area)
+
+#### Time Standard (5 in, 5 out)
+
+Using the time standard, aircraft are considered to have entered the conflict area **5 minutes prior** to the estimate shown, and to have left the conflict area **5 minutes after** the estimate shown.
+
+<figure markdown>
+![Conflict Area Example 2](assets/conflictarea2.png){ width="600" }
+<figcaption>Conflict Area Example 2</figcaption>
+</figure>
+
+!!! example
+    JST801 estimate for entering conflict area: **0250**  
+    JST801 **enters lateral conflict** 0250-5: **0245**  
+    JST801 estimate for leaving conflict area: **0257**  
+    JST801 **leaves lateral conflict** 0257+5: **0302**  
+    JST801 is considered to be **in the conflict area** from time **0245** until time **0302**  
+    SIA7286 estimate for entering conflict area: **0230**  
+    SIA7286 **enters lateral conflict** 0230-5: **0225**  
+    SIA7286 estimate for leaving conflict area: **0238**  
+    SIA7286 **leaves lateral conflict** 0238+5: **0243**  
+    SIA7286 is considered to be **in the conflict area** from time **0225** until time **0243**  
+    SIA7286 **leaves lateral conflict** prior to the time that JST801 **enters lateral conflict**. Therefore, the 2 aircraft are **not** in lateral conflict
+
+When the aircraft **are** in lateral conflict, a vertical standard must be applied for that period.
+
+!!! example
+    "Climb to reach (vertically separated level) by (prior to entering lateral conflict)"  
+    "Expect requested level at (time aircraft leaves lateral conflict)"  
+
+#### Distance Standard
+Use BRL to measure a distance to/from a waypoint that is outside of the conflict area, and use it to implement a vertical standard after exiting, or prior to entering the lateral conflict area
+
+!!! example
+    "Climb to reach (vertically separated level) by (GNSS distance outside entry of conflict area)"  
+    "Report (GNSS distance outside exit of conflict area) for requested level"  
 ### Vertical
 
 Vertical separation is the most common form of separation that is employed within oceanic airspace as a controller can have two aircraft flying at vertically separated levels with no risk of a loss of separation until one needs to climb or descend.
