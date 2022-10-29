@@ -108,8 +108,91 @@ An alternative method to establish definite passing is to instruct pilots to "si
 
 ### Lateral Separation
 
-(Explanation of how to use Conflict Area tool)
+The Quickest and easiest way to assess lateral conflict scenarios is with the *Conflict Area tool*. Unfortunately, whilst its quick and easy to *use*, it's fairly complex and long to understand the rules and concepts.  
+The first thing to note, is that there are many different unusual remarks and equipment codes that pilots file on VATSIM, primarily because not everyone knows what they mean. A little bit of background knowledge is required to understand these concepts.
 
+#### NAVCAPs
+All aircraft have a NAVCAP, associated with a ***Circular Error of Position***. This determines which number to select when using the Conflict Area Tool:
+
+| NAVCAP Code | Meaning | Cicular Error of Position (CEP) |
+| ---- | ----------- | -------- |
+| A | All | 7nm |
+| 2 | RNP2 | 7nm |
+| 4 | RNP4 | 14nm |
+| 5 | RNAV5 | 14nm |
+| T | RNAV10 | 14nm |
+| Z | None | 30nm |
+
+<figure markdown>
+![NAVCAP Z Example](assets/navcapZ.png){ width="300" }
+  <figcaption>NAVCAP Z Example</figcaption>
+</figure>
+
+<figure markdown>
+![NAVCAP 2 Example](assets/navcap2.png){ width="300" }
+  <figcaption>NAVCAP 2 Example</figcaption>
+</figure>
+
+The minimum number you must select when using the tool, is equal to: **Aircraft 1 CEP + Aircraft 2 CEP + 1nm**
+
+!!! example
+    Aircraft 1 NAVCAP: 4  
+    Aircraft 2 NAVCAP: Z  
+    14+30+1=**45**  
+
+!!! example
+    Aircraft 1 NAVCAP: 2  
+    Aircraft 2 NAVCAP: A  
+    7+7+1=**15**  
+
+!!! tip
+    The best scenario is to have 2 aircraft that are RNP2 approved. "Feed the beast" in order to get what you want, that is to say "QFA12, confirm you are RNP2 approved?", and they'll probably say yes. Enter `NAV/RNP2` in the flight plan remarks, and you can use a 7nm CEP.
+
+#### Working with Conflict Area
+
+<figure markdown>
+![Conflict Area Example 1](assets/conflictarea.png){ width="300" }
+  <figcaption>Conflict Area Example 1</figcaption>
+</figure>
+
+Once you've established the Conflict area, you now know the area in which the aircraft are in **lateral conflict**. You can now either separate from the conflict area using a Time Standard, or a Distance Standard:  
+**Time standard** (**5 minutes** prior to time shown at entry, or **5 minutes** after time shown at exit); or  
+**Distance standard** (Use BRL to measure a distance to/from a waypoint that is outside of the conflict area, and use it to implement a vertical standard after exiting, or prior to entering the lateral conflict area)
+
+#### Time Standard (5 in, 5 out)
+
+Using the time standard, aircraft are considered to have entered the conflict area **5 minutes prior** to the estimate shown, and to have left the conflict area **5 minutes after** the estimate shown.
+
+<figure markdown>
+![Conflict Area Example 2](assets/conflictarea2.png){ width="600" }
+<figcaption>Conflict Area Example 2</figcaption>
+</figure>
+
+!!! example
+    JST801 estimate for entering conflict area: **0250**  
+    JST801 **enters lateral conflict** 0250-5: **0245**  
+    JST801 estimate for leaving conflict area: **0257**  
+    JST801 **leaves lateral conflict** 0257+5: **0302**  
+    JST801 is considered to be **in the conflict area** from time **0245** until time **0302**  
+    SIA7286 estimate for entering conflict area: **0230**  
+    SIA7286 **enters lateral conflict** 0230-5: **0225**  
+    SIA7286 estimate for leaving conflict area: **0238**  
+    SIA7286 **leaves lateral conflict** 0238+5: **0243**  
+    SIA7286 is considered to be **in the conflict area** from time **0225** until time **0243**  
+    SIA7286 **leaves lateral conflict** prior to the time that JST801 **enters lateral conflict**. Therefore, the 2 aircraft are **not** in lateral conflict
+
+When the aircraft **are** in lateral conflict, a vertical standard must be applied for that period.
+
+!!! example
+    "Climb to reach (vertically separated level) by (prior to entering lateral conflict)"  
+    "Expect requested level at (time aircraft leaves lateral conflict)"  
+
+#### Distance Standard
+Use BRL to measure a distance to/from a waypoint that is outside of the conflict area, and use it to implement a vertical standard after exiting, or prior to entering the lateral conflict area
+
+!!! example
+    "Climb to reach (vertically separated level) by (GNSS distance outside entry of conflict area)"  
+    "Report (GNSS distance outside exit of conflict area) for requested level"  
 ### Vertical
 
 Vertical separation is the most common form of separation that is employed within oceanic airspace as a controller can have two aircraft flying at vertically separated levels with no risk of a loss of separation until one needs to climb or descend.
