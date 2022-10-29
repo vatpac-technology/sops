@@ -20,8 +20,8 @@
 ### Class D
 | Task | Assigned to | Progress |
 | ---- | ----------- | -------- |
-| Hobart | - | Not Started |
-| Launceston | - | Not Started |
+| Hobart | Tyler B | Complete, To be reviewed |
+| Launceston | Tyler B | Complete, To be reviewed |
 | Mackay | - | Not Started |
 | Rockhampton | - | Not Started |
 | Jandakot | Zach G | Not Started |
@@ -40,7 +40,7 @@
 | Karratha | - | Not Started |
 | Albury | Chris G | Complete, To be reviewed |
 | Alice Springs | Chris G | Complete, To be reviewed |
-| Coffs Harbor | Tyler B | Complete, To be reviewed |
+| Coffs Harbour | Tyler B | Complete, To be reviewed |
 | Tamworth | - | Not Started |
 
 ## Military
