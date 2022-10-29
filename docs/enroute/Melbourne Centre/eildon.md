@@ -25,7 +25,7 @@ AY CTR (Class D and C SFC-A085) reverts to Class G when **AY TWR** is offline, a
 
 ## Sector Responsibilities
 ### Eildon Weir (ELW)
-ELW is responsible for the final finessing of the sequence in for aircraft in to the ML TCU.
+ELW is responsible for the final "finessing" of the sequence for aircraft in to the ML TCU.
 
 ### Benalla (BLA)
 BLA is reponsible for issuing STAR clearances and descent for aircraft bound for YMML, YMAV, and YSCB.
@@ -69,34 +69,41 @@ That being said, it is *advised* that ELW/BLA/SNO give **Heads-up Coordination**
 
 As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/){target=new}, Voice coordinate estimate and level prior to **15 mins** to boundary.
 
-### BLA/SNO / ESL APP
+### ELW(All) / ESL APP
+#### Airspace
+By default, **ESL APP** owns the airspace within 30nm ESL, SFC-F200, unless stated otherwise by ad-hoc release or NOTAM.
 #### Departures
-Departures from YSNW in to WOL Class C will be coordinated at taxi, and will be requesting a level.
+Departures from YMES in to ELW(All) Class C will be coordinated at taxi, and will be requesting a level.
 
 !!! example
-    **NW APP** -> **WOL**: "Taxi, PSDN18 for YMCO via URBOB, Requesting F130"  
-    **WOL** -> **NW APP**: "PSDN18, F130"  
-    **NW APP** -> **WOL**: "F130, PSDN18"  
+    **ESL APP** -> **SNO**: "Taxi, ALDN14 for YSWG via VALDU, Requesting F210"  
+    **SNO** -> **ESL APP**: "ALDN14, F210"  
+    **ESL APP** -> **SNO**: "F210, ALDN14"  
 
 #### Arrivals/Overfliers
-All aircraft transiting from WOL to **NW APP** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **NW APP** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the WOL and **NW APP** controller agree on.
+All aircraft transiting from ELW(All) to **ESL APP** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **ESL APP** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the ELW(All) and **ESL APP** controller agree on.
 
 !!! example
-    **WOL** -> **NW APP**: "via CB, SKJ, with your concurrence, will be assigned descent to A090"  
-    **NW APP** -> **WOL**: "SKJ, concur A090"  
+    **ELW** -> **ESL APP**: "via MNG, BFRT21, will be assigned F220, BLA and myself have no restrictions on descent"  
+    **ESL APP** -> **ELW**: "BFRT21, F220"  
 
 ### BLA / AY TWR
+#### Airspace
+**AY TWR** own the Class D airspace up to A045. BLA own the Class C steps in the "AY keyhole" between A045-A085.
 #### Departures
-Departures from YMAY in to BLA Class C will be coordinated at taxi, and will be requesting a level.
+Departures from YMAY in to BLA Class C will be coordinated at taxi, and ready for departure. BLA will coordinate a level at the "Next" call.
 
 !!! example
-    **NW APP** -> **WOL**: "Taxi, PSDN18 for YMCO via URBOB, Requesting F130"  
-    **WOL** -> **NW APP**: "PSDN18, F130"  
-    **NW APP** -> **WOL**: "F130, PSDN18"  
+    **AY TWR** -> **BLA**: "Taxi, RXA6772 for YSSY via UGVER1 departure"  
+    **BLA** -> **AY TWR**: "RRXA6772"  
+    ...  
+    **AY TWR** -> **BLA**: "Next, RXA6772"  
+    **BLA** -> **AY TWR**: "RXA6772, A050"  
+    **AY TWR** -> **BLA**: "A050, RXA6772"  
 
-#### Arrivals/Overfliers
-All aircraft transiting from WOL to **NW APP** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **NW APP** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the WOL and **NW APP** controller agree on.
+#### Arrivals
+YMAY arrivals shall be coordinated to **AY TWR** from BLA prior to transfer of jurisdiction.
 
 !!! example
-    **WOL** -> **NW APP**: "via CB, SKJ, with your concurrence, will be assigned descent to A090"  
-    **NW APP** -> **WOL**: "SKJ, concur A090"  
+    **BLA** -> **AY TWR**: "QLK38, via VEGRU1 arrival, Number 1"  
+    **AY TWR** -> **BLA**: "QLK38, Number 1"  
