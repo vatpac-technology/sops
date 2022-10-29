@@ -17,6 +17,7 @@ Here are tips to help manage frequencies when extending:
 - Advise the aircraft to transfer frequencies at specific times/situations, such as
     - "at time xx, contact me xxx.xx"
     - "at waypoint ABABI, contact me xxx.xx"
+    - "at top of descent, contact me xxx.xx"
 - Include which frequency the aircraft is currently on by placing the 3 letter sector designator in the label.
     - An aircraft on the ML-TBD_CTR frequency would have `TBD` in the label.
     - An aircraft on the BN-ARL_CTR frequency would have `ARL` in the label.
