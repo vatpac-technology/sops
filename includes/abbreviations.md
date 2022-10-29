@@ -49,3 +49,4 @@
 *[LAHSO]: Land and Hold Short Operations
 *[ADSB]: Automatic Dependant Surveillance - Broadcast
 *[FF]: Feeder Fix
+*[NAVCAP]: Navigation Capability
