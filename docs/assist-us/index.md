@@ -21,4 +21,4 @@ It's important that you read all of the Contribution documentation before making
 Additionally, we ask that you reach out to the ATS Team before opening a new PR for your addition. This ensures that this is a welcome feature to the project.
 
 !!! hint ""
-    There is a channel on the VATPAC Discord dedicated to the discussion and management of these SOPs, which is not open by default to the Community. If you wish to be added to this channel, please contact the Operations Team, and they'll add you.
+    There is a channel on the VATPAC Discord dedicated to the discussion and management of these SOPs, which is not open by default to the Community. If you wish to be added to this channel, please contact someone from the ATS Team, and they'll add you.
