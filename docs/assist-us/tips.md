@@ -19,7 +19,7 @@ Links that navigate a user through the SOPs site can follow the normal Markdown 
 === "External Link"
 
     ``` md
-    [External Link](https://vatnz.net){target=new}
+    [External Link](https://vatpac.org){target=new}
     ```
 
 !!! warning
