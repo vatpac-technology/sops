@@ -12,9 +12,9 @@
 | Sydney | Alex D | Complete, To be reviewed |
 | Brisbane | Alex D | Complete, To be reviewed |
 | Perth | Chris G | Complete, To be reviewed |
-| Essendon | - | Not Started |
+| Essendon | Tyler B | Complete, To be reviewed |
 | Gold Coast | Tyler B | Complete, To be reviewed |
-| Avalon | - | Not Started |
+| Avalon | Tyler B | Complete, To be reviewed |
 | Canberra | Tyler B | Complete, To be reviewed |
 
 ### Class D
