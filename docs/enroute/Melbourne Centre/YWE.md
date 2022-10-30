@@ -93,5 +93,5 @@ Departures from YMES in to WON Class C will be coordinated at taxi, and will be 
 All aircraft transiting from WON to **ESL APP** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **ESL APP** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the WON and **ESL APP** controller agree on.
 
 !!! example
-    **WON** -> **ESL APP**: "via MNG, BFRT23, will be assigned F220, I have no restrictions on descent"  
+    **WON** -> **ESL APP**: "via ANTLA, BFRT23, will be assigned F220, I have no restrictions on descent"  
     **ESL APP** -> **WON**: "BFRT23, F220"  
