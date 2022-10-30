@@ -1,5 +1,5 @@
 ---
-  title: Eildon Wier (ELW)
+  title: Eildon Weir (ELW)
 ---
 
 --8<-- "includes/abbreviations.md"
