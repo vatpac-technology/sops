@@ -27,7 +27,7 @@ AY CTR (Class D and C SFC-A085) reverts to Class G when **AY TWR** is offline, a
 ### Eildon Weir (ELW)
 ELW is responsible for the final sequencing actions in to YMML.
 ### Benalla (BLA)
-BLA is reponsible for issuing STAR clearances and initial descent for aircraft bound for YMML, YMAV, and YSCB. BLA is also responsible for sequencing in to YSCB.
+BLA is reponsible for issuing STAR clearances and initial descent for aircraft bound for YMML, YMAV, and YSCB. BLA is also responsible for sequencing in to YSCB, and initial sequencing in to YMML.
 ### Snowy (SNO)
 SNO is reponsible for issuing STAR clearances and initial descent for aircraft bound for YSCB.
 ## Coordination
