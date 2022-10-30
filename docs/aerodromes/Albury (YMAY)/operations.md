@@ -18,7 +18,3 @@
 ![YMAY Airspace](img/ymay_airspace.jpg){ width="700" }
   <figcaption>YMAY Airspace</figcaption>
 </figure>
-
-## Standard Assignable Level
-In IMC, aircraft must be assigned a minimum of `A060`. This shall be coordinated with CTR.
-In VMC, aircraft may be issued `A040 VISUAL` without prior coordination regarding the level.
