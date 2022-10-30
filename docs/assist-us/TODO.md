@@ -25,7 +25,7 @@
 | Mackay | - | Not Started |
 | Rockhampton | - | Not Started |
 | Jandakot | Zach G | Not Started |
-| Moorabbin | - | Not Started |
+| Moorabbin | Alex D | Complete, To be reviewed |
 | Camden | - | Not Started |
 | Archerfield | - | Not Started |
 | Parafield | Alex M | Not Started |
@@ -40,7 +40,7 @@
 | Karratha | - | Not Started |
 | Albury | Chris G | Complete, To be reviewed |
 | Alice Springs | Chris G | Complete, To be reviewed |
-| Coffs Harbour | Tyler B | Complete, To be reviewed |
+| Coffs Harbor | Tyler B | Complete, To be reviewed |
 | Tamworth | - | Not Started |
 
 ## Military
@@ -85,10 +85,10 @@
 | INL | - | Not Started |
 | ARL | - | Not Started |
 | TBD | - | Not Started |
-| YWE | - | Not Started |
-| ELW | Alex D | In Progress |
+| YWE | Alex D | Complete, To be reviewed |
+| ELW | Alex D | Complete, To be reviewed |
 | BIK | Zach G | Complete, To be reviewed |
-| HUO | - | Not Started |
+| HUO | Tyler B | Not Started |
 
 ## Pacific
 | Task | Assigned to | Progress |
@@ -109,7 +109,7 @@
 ## General
 | Task | Assigned to | Progress |
 | ---- | ----------- | -------- |
-| TCU airspace diagrams | Alex D | Not Started |
+| TCU airspace diagrams | Alex D | In Progress |
 | ENR airspace diagrams | Alex D | Not Started |
 
 ## Other
