@@ -35,9 +35,9 @@
 | Task | Assigned to | Progress |
 | ---- | ----------- | -------- |
 | Broome | Zach G | In Progress |
-| Hamilton Island | - | Not Started |
+| Hamilton Island | Chris G | Complete, To be reviewed |
 | Sunshine Coast | - | Not Started |
-| Karratha | - | Not Started |
+| Karratha | Chris G | Complete, To be Reviewed |
 | Albury | Chris G | Complete, To be reviewed |
 | Alice Springs | Chris G | Complete, To be reviewed |
 | Coffs Harbor | Tyler B | Complete, To be reviewed |

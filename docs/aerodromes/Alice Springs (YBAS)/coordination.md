@@ -39,3 +39,9 @@ ML-ASP_CTR will coordinate all arrivals into Alice Springs Prior to handing over
 !!! example
     **ML-ASP_CTR** -> **AS_TWR**: "JST734, A320, estimates Alice Springs 52, 189 radial, 5000ft, number 2”
     **AS_TWR** -> **ML-ASP_CTR**: "JST734"
+
+## Standard Assignable Levels
+
+Aircraft departing from Alice Springs shall be assigned `A060` or `RFL` if lower.
+
+Aircraft arriving into Alice Springs shall be assigned `A070`.
