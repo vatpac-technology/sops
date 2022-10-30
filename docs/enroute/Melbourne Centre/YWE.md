@@ -77,3 +77,21 @@ That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** i
 As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/){target=new}, all aircraft must be **Heads-up coordinated** prior to **20nm** from the boundary.  
 
 The Standard Assignable level from SY TCU to KAT is `F280`, and tracking via KADOM.
+
+### WON / ESL APP
+#### Airspace
+By default, **ESL APP** owns the airspace within 30nm ESL, SFC-F200, unless stated otherwise by ad-hoc release or NOTAM.
+#### Departures
+Departures from YMES in to WON Class C will be coordinated at taxi, and will be requesting a level.
+
+!!! example
+    **ESL APP** -> **WON**: "Taxi, ALDN16 for YFLI DCT, Requesting F230"  
+    **WON** -> **ESL APP**: "ALDN14, F230"  
+    **ESL APP** -> **WON**: "F230, ALDN14"  
+
+#### Arrivals/Overfliers
+All aircraft transiting from WON to **ESL APP** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **ESL APP** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the WON and **ESL APP** controller agree on.
+
+!!! example
+    **WON** -> **ESL APP**: "via MNG, BFRT23, will be assigned F220, I have no restrictions on descent"  
+    **ESL APP** -> **WON**: "BFRT23, F220"  
