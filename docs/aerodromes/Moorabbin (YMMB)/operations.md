@@ -14,11 +14,6 @@
 
  
 In the absence of an SMC controller, ADC shall assume the SMC responsibilities.
-<figure markdown>
-![YSBK Maneuvering Area](img/ysbk_maneuvring_area.png){ width="500" }
-  <figcaption>Maneuvering Area</figcaption>
-</figure>
-
 ## Airspace
 MB TWR owns a 3nm radius around YMMB, SFC-A025.
 
