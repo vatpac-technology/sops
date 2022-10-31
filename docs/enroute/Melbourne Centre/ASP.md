@@ -13,12 +13,13 @@
 | Forest† | Melbourne Centre | 132.700 | ML-FOR_CTR |
 | Woomera† | Melbourne Centre | 132.900 | ML-WRA_CTR |
 | Bourke† | Melbourne Centre | 128.200 | ML-BKE_CTR |
+| Esperance† | Melbourne Centre | 123.950 | ML-ESP_CTR |
 
 † **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}
 
 ## Airspace
  
-ASP is responsible for **ASP**, **ASW**, **WAR**, **FOR**, **WRA**, and **BKE** when they are offline.  
+ASP is responsible for **ASP**, **ASW**, **WAR**, **FOR**, **WRA**, **BKE**, and **ESP** when they are offline.  
 
 Class D and C SFC-F125 within 80 DME AS reverts to Class G when **AS TWR** is offline, and is administered by ASP.  
 Class C F125-F245 within 80 DME AS reverts to Class E when **AS TWR** is offline, and is administered by ASP.  
@@ -33,7 +34,7 @@ As per [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/d
 
 As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
 
-### ASP/ASW/WAR/FOR/WRA/BKE Internal
+### ASP/ASW/WAR/FOR/WRA/BKE/ESP Internal
 
 As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
 
