@@ -74,12 +74,12 @@ The divisions of the airspace between **PHA**, and **PHD** change based on the R
 
 ### 03/06
 <figure markdown>
-![03/06 TCU Structure](img/0306 annotated.png){ width="700" }
+![03/06 TCU Structure](img/0306annotated.png){ width="700" }
   <figcaption>03/06 TCU Structure</figcaption>
 </figure>
 
 ### 21/24
 <figure markdown>
-![21/24 TCU Structure](img/2124 annotated.png){ width="700" }
+![21/24 TCU Structure](img/2124annotated.png){ width="700" }
   <figcaption>21/24 TCU Structure</figcaption>
 </figure>

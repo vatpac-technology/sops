@@ -71,12 +71,12 @@ The divisions of the airspace between **CS1** and **CS2** change based on the Ru
 
 ### 15
 <figure markdown>
-![15 TCU Structure](img/15 annotated.png){ width="700" }
+![15 TCU Structure](img/15annotated.png){ width="700" }
   <figcaption>15 TCU Structure</figcaption>
 </figure>
 
 ### 33
 <figure markdown>
-![33 TCU Structure](img/33 annotated.png){ width="700" }
+![33 TCU Structure](img/33annotated.png){ width="700" }
   <figcaption>33 TCU Structure</figcaption>
 </figure>

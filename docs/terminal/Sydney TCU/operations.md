@@ -137,30 +137,30 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
 
 ### 07
 <figure markdown>
-![07 TCU Structure](img/07 annotated.png){ width="700" }
+![07 TCU Structure](img/07annotated.png){ width="700" }
   <figcaption>07 TCU Structure</figcaption>
 </figure>
 
 ### 16 PROPS
 <figure markdown>
-![16 PROPS TCU Structure](img/16PROPS annotated.png){ width="700" }
+![16 PROPS TCU Structure](img/16PROPSannotated.png){ width="700" }
   <figcaption>16 PROPS TCU Structure</figcaption>
 </figure>
 
 ### 25
 <figure markdown>
-![25 TCU Structure](img/25 annotated.png){ width="700" }
+![25 TCU Structure](img/25annotated.png){ width="700" }
   <figcaption>25 TCU Structure</figcaption>
 </figure>
 
 ### 34 PROPS
 <figure markdown>
-![34 PROPS TCU Structure](img/34PROPS annotated.png){ width="700" }
+![34 PROPS TCU Structure](img/34PROPSannotated.png){ width="700" }
   <figcaption>34 PROPS TCU Structure</figcaption>
 </figure>
 
 ### SODPROPS
 <figure markdown>
-![SODPROPS TCU Structure](img/SODPROPS annotated.png){ width="700" }
+![SODPROPS TCU Structure](img/SODPROPSannotated.png){ width="700" }
   <figcaption>SODPROPS TCU Structure</figcaption>
 </figure>
