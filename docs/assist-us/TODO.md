@@ -115,6 +115,6 @@
 ## Other
 | Task | Assigned to | Progress | Priority |
 | ---- | ----------- | -------- | -------- |
-| Fix Navbar colour | Chris G | Not Started | Medium Priority|
+| Fix Navbar colour | Chris G | Completed | Medium Priority|
 | Dark Mode | Chris G | Not Started | Low Priority |
 
