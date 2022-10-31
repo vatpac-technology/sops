@@ -35,3 +35,7 @@
     max-width: 100%;
     vertical-align: text-bottom;
 }
+
+.md-footer__inner {
+  display: none;
+}
