@@ -71,7 +71,7 @@
 | Melbourne | Alex D | Complete, To be reviewed |
 | Sydney | Alex D | Complete, To be reviewed |
 | Brisbane | Alex D | Complete, To be reviewed |
-| Canberra | - | Not Started |
+| Canberra | Tyler B | Not Started |
 
 ## ENR
 | Task | Assigned to | Progress |
@@ -79,12 +79,12 @@
 | PIY | Zach G | In Progress |
 | OLW | Zach G | In Progress |
 | TRT | - | Not Started |
-| ASP | - | Not Started |
+| ASP | Alex D | Complete, To be reviewed |
 | ISA | - | Not Started |
 | KEN | - | Not Started |
 | INL | - | Not Started |
 | ARL | - | Not Started |
-| TBD | - | Not Started |
+| TBD | Alex D | Complete, To be reviewed |
 | YWE | Alex D | Complete, To be reviewed |
 | ELW | Alex D | Complete, To be reviewed |
 | BIK | Zach G | Complete, To be reviewed |
@@ -109,7 +109,7 @@
 ## General
 | Task | Assigned to | Progress |
 | ---- | ----------- | -------- |
-| TCU airspace diagrams | Alex D | In Progress |
+| TCU airspace diagrams | Alex D | Complete, To be reviewed |
 | ENR airspace diagrams | Alex D | Not Started |
 
 ## Other
