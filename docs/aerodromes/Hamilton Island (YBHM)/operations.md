@@ -8,12 +8,12 @@
 
 | Name | Callsign | Frequency | Login Identifier |
 | ---- | -------- | --------- | ---------------- |
-| Alice Springs ADC | Alice Tower | 118.300 | AS_TWR |
-| Alice Springs ATIS | N/A | 123.000 | YBAS_ATIS |
+| Hamilton Island ADC | Hamilton Tower | 118.700 | HM_TWR |
+| Hamilton Island ATIS | N/A | 128.350 | YBHM_ATIS |
 
 ## Airspace
 
 <figure markdown>
-![YBAS Airspace](img/ybas_airspace.jpg){ width="700" }
-  <figcaption>YBAS Airspace</figcaption>
+![YBHM Airspace](img/ybhm_airspace.png){ width="700" }
+  <figcaption>YBHM Airspace</figcaption>
 </figure>
