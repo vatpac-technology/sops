@@ -74,30 +74,30 @@ The divisions of the airspace between **MAE**, **MDN**, and **MDS** change based
 
 ### 09
 <figure markdown>
-![09 TCU Structure](img/09 annotated.png){ width="700" }
+![09 TCU Structure](img/09annotated.png){ width="700" }
   <figcaption>09 TCU Structure</figcaption>
 </figure>
 
 ### 09A16D
 <figure markdown>
-![09A16D TCU Structure](img/09A16D annotated.png){ width="700" }
+![09A16D TCU Structure](img/09A16Dannotated.png){ width="700" }
   <figcaption>09A16D TCU Structure</figcaption>
 </figure>
 
 ### 16 / 16A27D
 <figure markdown>
-![16 / 16A27D TCU Structure](img/16 annotated.png){ width="700" }
+![16 / 16A27D TCU Structure](img/16annotated.png){ width="700" }
   <figcaption>16 / 16A27D TCU Structure</figcaption>
 </figure>
 
 ### 27 / 27AD34D
 <figure markdown>
-![27 / 27AD34D TCU Structure](img/27 annotated.png){ width="700" }
+![27 / 27AD34D TCU Structure](img/27annotated.png){ width="700" }
   <figcaption>27 / 27AD34D TCU Structure</figcaption>
 </figure>
 
 ### 34
 <figure markdown>
-![34 TCU Structure](img/34 annotated.png){ width="700" }
+![34 TCU Structure](img/34annotated.png){ width="700" }
   <figcaption>34 TCU Structure</figcaption>
 </figure>
