@@ -64,3 +64,7 @@ Aircraft that have been assigned the **Radar SID** must be assigned a heading on
 
 Jets: `A050`
 Non-jets: `A030` or `RFL` if lower
+
+## Departures Controller
+
+Refer to [Sydney TCU Airspace Division](http://sops.vatpac.org/terminal/Sydney%20TCU/operations/#airspace-division){target=new} for information on airspace divisions when **SAS**, **SDN** and/or **SDS** are online.

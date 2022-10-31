@@ -67,37 +67,19 @@ Due to the low level of CTA at these aerodromes, it is best practice to give air
     **ABC** -> **ML TCU**: "Cleared to YBLT via ANKUB, Flight Planned Route. Make Visual left turn DCT SAMIG, Climb to A040, ABC" 
 ## Airspace Division
 
-The divisions of the airspace between **MAE**, **MDN**, and **MDS** change based on the Runway Mode.
+The divisions of the airspace between **PHA**, and **PHD** change based on the Runway Mode.
 
 !!! note
-    The following diagrams do not include non ML TCU areas of responsibility such as MB CTR or AV TWR
+    The following diagrams do not include non PH TCU areas of responsibility such as JK CTR or PEA APP
 
-### 09
+### 03/06
 <figure markdown>
-![09 TCU Structure](img/09 annotated.png){ width="700" }
-  <figcaption>09 TCU Structure</figcaption>
+![03/06 TCU Structure](img/0306 annotated.png){ width="700" }
+  <figcaption>03/06 TCU Structure</figcaption>
 </figure>
 
-### 09A16D
+### 21/24
 <figure markdown>
-![09A16D TCU Structure](img/09A16D annotated.png){ width="700" }
-  <figcaption>09A16D TCU Structure</figcaption>
-</figure>
-
-### 16 / 16A27D
-<figure markdown>
-![16 / 16A27D TCU Structure](img/16 annotated.png){ width="700" }
-  <figcaption>16 / 16A27D TCU Structure</figcaption>
-</figure>
-
-### 27 / 27AD34D
-<figure markdown>
-![27 / 27AD34D TCU Structure](img/27 annotated.png){ width="700" }
-  <figcaption>27 / 27AD34D TCU Structure</figcaption>
-</figure>
-
-### 34
-<figure markdown>
-![34 TCU Structure](img/34 annotated.png){ width="700" }
-  <figcaption>34 TCU Structure</figcaption>
+![21/24 TCU Structure](img/2124 annotated.png){ width="700" }
+  <figcaption>21/24 TCU Structure</figcaption>
 </figure>
