@@ -21,26 +21,16 @@ Pingelly (PIY) is responsible for the Perth TCU in the absence on an approach co
 
 ## Airspace
 
-Pingelly (PIY) assumes responsibility for the sub sectors of:  
-a) Grove (GVE)  
-b) Cross (CRS)  
-c) Hyden (HYD)  
-d) Jarrah (JAR)  
-e) Leaman (LEA)  
-f) Geraldton (GEL)  
+PIY is responsible for the PH TCU when **PH APP** is offline.  
+PIY is responsible for **GEL**, **CRS**, **GVE**, **HYD**, **JAR** and **LEA** when they are offline.
 
-Pingelly (PIY) also assumes responsiblity of:  
-a) The airspace within 36nm of PH DME above FL190  
+Pingelly also assumes responsiblity of:  
+a) The airspace within 36nm of PH DME above `F185`  
 
-## Standard Assignable Levels
-
-Pingelly (PIY), Leaman (LEA) and Jarrah (JAR) shall assign the following standard assignable levels to aircraft entering the PH TCU:  
-
-| Arrival | Standard Assignable Atitude |
-| ------ | -------------------------- |
-| All arrivals | A090 |  
-
-Aircraft not arriving via a STAR must be coordinated in accordance with the Coordination procedure.
+<figure markdown>
+![Pingelly Airspace](img/PIY.png){ width="700" }
+  <figcaption>Pingelly Airspace</figcaption>
+</figure>
 
 ## Sector Responsibilities
 ### Pingelly
@@ -61,3 +51,21 @@ Hyden (HYD) is responsible for assigning and issueing arrival clearance to aircr
 Jarrah (JAR) is responsible for assigning and issueing arrival clearance to aircraft inbound to Perth via SOLUS.
 !!! note
     Controllers should be aware there may be limited ADS-B coverage around Albany (YABA). Expect identification to be lost as aircraft descend through A100.
+
+
+## Coordination
+## ENR / PH TCU
+### Standard Assignable Levels
+The Standard assignable level from ENR to PH TCU is:  
+`A090` for all arrivals.
+
+All other aircraft must be voice coordinated to PH TCU prior to **20nm** from the boundary.
+## PIY (ALL) / ENR
+
+As per the enroute coordination requirements (link), voiceless coordination exists between enroute sectors, with no changes within 20nm to the boundary.
+
+That being said, it is *advised* that BIK give **Heads-up Coordination** to the relevant sector, prior to **20nm** from the boundary.
+
+## LEA / IND (Oceanic)
+
+As per Standard coordination procedures (link).
