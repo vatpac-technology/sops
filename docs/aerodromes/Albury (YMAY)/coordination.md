@@ -40,3 +40,9 @@ ML-BLA_CTR will coordinate all arrivals into Albury Prior to handing over to tow
 !!! example
     **ML-BLA_CTR** -> **AY_TWR**: "JST416, A320, estimates Albury 52, ARRAN1 arrival, 5000ft, number 1”
     **AY_TWR** -> **ML-BLA_CTR**: "JST416"
+
+## Standard Assignable Levels
+
+All aircraft departing from Albury shall be assigned `A060`.
+
+All aircraft arriving into Albury shall be assigned `A070`.
