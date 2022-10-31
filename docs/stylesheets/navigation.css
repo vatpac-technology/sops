@@ -18,8 +18,14 @@
 .md-top {
   color: #344767;
 }
-.md-tabs__link--active, .md-tabs__link:focus, .md-tabs__link:hover {
-  border-bottom: 1.5px solid #D9DCD6;
+.md-tabs__link--active, .md-tabs__link:focus {
+  border-bottom: 1.5px solid #b5b6b3;
+  color: var(--md-primary-fg-color);
+  height: -webkit-fill-available;
+}
+
+.md-tabs__link:hover {
+  border-bottom: 1.5px solid #3447679f;
   color: var(--md-primary-fg-color);
   height: -webkit-fill-available;
 }
