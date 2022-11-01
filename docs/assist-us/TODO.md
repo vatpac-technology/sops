@@ -90,11 +90,11 @@
 | BIK | Zach G | Complete, To be reviewed |
 | HUO | Tyler B | Complete, To be reviewed |
 
-## Pacific
+## Oceanic
 | Task | Assigned to | Progress |
 | ---- | ----------- | -------- |
-| TSN | Tyler B | Not Started |
-| IND | Tyler B | Not Started |
+| Oceanic | Tyler B | Complete, To be reviewed  |
+| Pacific Ports | Tyler B | Not Started |
 
 ## Controller Skills
 | Task | Assigned to | Progress |
