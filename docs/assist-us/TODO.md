@@ -40,7 +40,7 @@
 | Karratha | Chris G | Complete, To be Reviewed |
 | Albury | Chris G | Complete, To be reviewed |
 | Alice Springs | Chris G | Complete, To be reviewed |
-| Coffs Harbor | Tyler B | Complete, To be reviewed |
+| Coffs Harbour | Tyler B | Complete, To be reviewed |
 | Tamworth | - | Not Started |
 
 ## Military
@@ -88,7 +88,7 @@
 | YWE | Alex D | Complete, To be reviewed |
 | ELW | Alex D | Complete, To be reviewed |
 | BIK | Zach G | Complete, To be reviewed |
-| HUO | Tyler B | Not Started |
+| HUO | Tyler B | Complete, To be reviewed |
 
 ## Pacific
 | Task | Assigned to | Progress |
