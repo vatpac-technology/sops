@@ -6,7 +6,7 @@
 ## TAS TCU / ENR
 ## Departures
 Voiceless coordination is in place from TAS TCU to **HUO** for aircraft:  
-**Departing All Ports** - Assigned the lower of `F130` or `RFL`  
+**Departing All Ports** - Assigned the lower of `F240` or `RFL`  
 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
@@ -16,7 +16,7 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
 ## Arrivals
 The Standard assignable levels from **HUO** to TAS TCU are as follows:  
-YMLT Arrivals: `F130`  
+YMLT Arrivals: `A090`  
 YMHB Arrivals: `F130`
 
 ## HB ADC / HB TCU
