@@ -17,7 +17,7 @@
 
 † **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}
 
-Pingelly (PIY) is responsible for the Perth TCU in the absence on an approach controller.
+Pingelly (PIY) is responsible for the Perth TCU in the absence of an approach controller.
 
 ## Airspace
 
