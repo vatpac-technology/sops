@@ -14,6 +14,13 @@
 !!! Note
     Hobart Approach may extend to Launy Approach and vice versa, callsigns remain the same.
 
+## Airspace
+The TAS TCU has an upper limit of FL245 within the following area:
+
+<figure markdown>
+![TAS TCU](img/TASTCU.png){ width="700" }
+</figure>
+
 ## Hobart
 
 All aircraft should be kept on SIDs and STARs. If due to operational requirements, an aircraft is unable to accept the SID or STAR, Coordination with HUO may be required.
