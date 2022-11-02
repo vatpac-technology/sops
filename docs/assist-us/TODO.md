@@ -12,9 +12,9 @@
 | Sydney | Alex D | Complete, To be reviewed |
 | Brisbane | Alex D | Complete, To be reviewed |
 | Perth | Chris G | Complete, To be reviewed |
-| Essendon | - | Not Started |
+| Essendon | Tyler B | Complete, To be reviewed |
 | Gold Coast | Tyler B | Complete, To be reviewed |
-| Avalon | - | Not Started |
+| Avalon | Tyler B | Complete, To be reviewed |
 | Canberra | Tyler B | Complete, To be reviewed |
 
 ### Class D
@@ -25,7 +25,7 @@
 | Mackay | - | Not Started |
 | Rockhampton | - | Not Started |
 | Jandakot | Zach G | Not Started |
-| Moorabbin | - | Not Started |
+| Moorabbin | Alex D | Complete, To be reviewed |
 | Camden | - | Not Started |
 | Archerfield | - | Not Started |
 | Parafield | Alex M | Not Started |
@@ -64,14 +64,14 @@
 | Task | Assigned to | Progress |
 | ---- | ----------- | -------- |
 | Perth | Josh M | In Progress |
-| Tasmania (HB/LT) | Tyler B | In Progress|
+| Tasmania (HB/LT) | Tyler B | Complete, To be reviewed |
 | Coral (MK/RK) | - | Not Started |
 | Cairns | Josh M | In Progress |
 | Adelaide | Alex D | Complete, To be reviewed |
 | Melbourne | Alex D | Complete, To be reviewed |
 | Sydney | Alex D | Complete, To be reviewed |
 | Brisbane | Alex D | Complete, To be reviewed |
-| Canberra | - | Not Started |
+| Canberra | Tyler B | Not Started |
 
 ## ENR
 | Task | Assigned to | Progress |
@@ -79,22 +79,22 @@
 | PIY | Zach G | In Progress |
 | OLW | Zach G | In Progress |
 | TRT | - | Not Started |
-| ASP | - | Not Started |
+| ASP | Alex D | Complete, To be reviewed |
 | ISA | - | Not Started |
 | KEN | - | Not Started |
 | INL | - | Not Started |
 | ARL | - | Not Started |
-| TBD | - | Not Started |
-| YWE | - | Not Started |
-| ELW | Alex D | In Progress |
+| TBD | Alex D | Complete, To be reviewed |
+| YWE | Alex D | Complete, To be reviewed |
+| ELW | Alex D | Complete, To be reviewed |
 | BIK | Zach G | Complete, To be reviewed |
-| HUO | - | Not Started |
+| HUO | Tyler B | Complete, To be reviewed |
 
-## Pacific
+## Oceanic
 | Task | Assigned to | Progress |
 | ---- | ----------- | -------- |
-| TSN | Tyler B | Not Started |
-| IND | Tyler B | Not Started |
+| Oceanic | Tyler B | Complete, To be reviewed  |
+| Pacific Ports | Tyler B | Not Started |
 
 ## Controller Skills
 | Task | Assigned to | Progress |
@@ -109,7 +109,7 @@
 ## General
 | Task | Assigned to | Progress |
 | ---- | ----------- | -------- |
-| TCU airspace diagrams | Alex D | Not Started |
+| TCU airspace diagrams | Alex D | Complete, To be reviewed |
 | ENR airspace diagrams | Alex D | Not Started |
 
 ## Other

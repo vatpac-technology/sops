@@ -28,26 +28,30 @@ b) The airspace within the lateral limits of the CB TCU above FL245, except for 
 (vatsys map)
 ## Sector Responsibilities
 ### Bindook (BIK)
-BIK will provide final sequencing actions to ensure aircraft comply with their FF times prior to entering the Sydney TMA. Bindook (BIK) shall assign the standard assignable altitude in accordance with the table above. 
-For aircraft overflying the SY TMA place 'O/FLY' in the LABEL DATA field.
+BIK will provide final sequencing actions in to YSSY. For aircraft overflying the SY TMA, place *'O/FLY'* in the LABEL DATA field.
+
 ### Wollongong (WOL)
-WOL is responsible for assigning and issueing arrival clearance to aircraft inbound to Canberra via RAZZI annd BUNGO. WOL will issue aircraft an initial descent clearance to the standard assignable level.
+WOL is reponsible for issuing STAR clearances and initial descent for aircraft bound for YSCB. WOL is also responsible for sequencing in to YSCB.
 ### Gundagai (GUN)
 GUN assigns and issues arrival clearance for aircraft inbound to Sydney via RIVET and ODALE. GUN will assing aircraft an initial descent clearance to FL250. GUN will transfer responsibility of control to BIK at the latter of:  
 a) readback of STAR and descent clearance  
 b) xxx NM from BIK/GUN border //do we need this info? will standard handoff procedures be adequate?
 
 ## Coordination
-## BIK/WOL / SY TCU
-### Standard Assignable Levels
+### BIK/WOL / SY TCU
+#### Standard Assignable Levels
 The Standard assignable level from BIK to SY TCU is:  
 `A100` for aircraft tracking via RIVET, and assigned the RIVET # STAR  
 `A090` for aircraft tracking via ODALE, and assigned the ODALE # STAR  
 
 All other aircraft must be voice coordinated to SY TCU prior to **20nm** from the boundary.
 
-## WOL/GUN / CB TCU
-### Standard Assignable Levels
+The Standard Assignable level from SY TCU to WOL is `F280`, and tracking via WOL NDB.
+
+Refer to [Sydney TCU Airspace Division](http://sops.vatpac.org/terminal/Sydney%20TCU/operations/#airspace-division){target=new} for information on airspace divisions when **SAS**, **SDN** and/or **SDS** are online.
+
+### WOL/GUN / CB TCU
+#### Standard Assignable Levels
 
 The Standard assignable level from WOL to CB TCU is `F120`, and assigned the RAZZI #, BUNGO #, or AVBEG # STAR.  
 
@@ -56,17 +60,23 @@ All other aircraft must be voice coordinated to CB TCU prior to **20nm** from th
 !!! note
     These coordination requirements apply to aircraft entering the CB TCU, even if the airspace is owned by ELW/BLA
 
-## BIK (All) / ENR
+The Standard Assignable level from CB TCU to GUN is `F240`, and tracking via AVBEG, AKMIR, or CULIN.
 
-As per the enroute coordination requirements (link), voiceless coordination exists between enroute sectors, with no changes within 20nm to the boundary.
+### BIK (All) / ENR
+
+As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 That being said, it is *advised* that BIK give **Heads-up Coordination** to the relevant sector, prior to **20nm** from the boundary, for **any aircraft not on the Q29 or V169 airways**. 
 
-## WOL / TSN (Oceanic)
+### WOL / TSN (Oceanic)
 
-As per Standard coordination procedures (link).
+As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-oceanic){target=new}, Voice coordinate estimate and level prior to **15 mins** to boundary
 
-## WOL / NW APP
+### BIK/WOL/GUN Internal
+
+Changes to the CFL are permitted up to the boundary for aircraft transiting BIK/GUN/WOL airspace internally. It is *advised* that BIK/WOL/GUN give **Heads-up Coordination** to the relevant sector, prior to **20nm** from the boundary, for **any aircraft not on the Q29, Y59, W113, or V169 airways**. 
+
+### WOL / NW APP
 #### Departures
 Departures from YSNW in to WOL Class C will be coordinated at taxi, and will be requesting a level.
 
