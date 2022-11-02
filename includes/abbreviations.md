@@ -50,3 +50,4 @@
 *[ADSB]: Automatic Dependant Surveillance - Broadcast
 *[FF]: Feeder Fix
 *[NAVCAP]: Navigation Capability
+*[TFMS]: The Flow Management System
