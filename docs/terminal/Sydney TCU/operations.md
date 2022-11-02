@@ -139,7 +139,35 @@ Due to the low level of CTA (A015) in the BK CTR when **BK TWR** is offline, it 
 
 The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW** and **SFE** change based on the Runway Mode.
 
+!!! note
+    The following diagrams do not include non SY TCU areas of responsibility such as BK CTR or CN CTR
+
+### 07
 <figure markdown>
-![34 PROPS TCU Structure](img/34PROPS.png){ width="700" }
+![07 TCU Structure](img/07annotated.png){ width="700" }
+  <figcaption>07 TCU Structure</figcaption>
+</figure>
+
+### 16 PROPS
+<figure markdown>
+![16 PROPS TCU Structure](img/16PROPSannotated.png){ width="700" }
+  <figcaption>16 PROPS TCU Structure</figcaption>
+</figure>
+
+### 25
+<figure markdown>
+![25 TCU Structure](img/25annotated.png){ width="700" }
+  <figcaption>25 TCU Structure</figcaption>
+</figure>
+
+### 34 PROPS
+<figure markdown>
+![34 PROPS TCU Structure](img/34PROPSannotated.png){ width="700" }
   <figcaption>34 PROPS TCU Structure</figcaption>
+</figure>
+
+### SODPROPS
+<figure markdown>
+![SODPROPS TCU Structure](img/SODPROPSannotated.png){ width="700" }
+  <figcaption>SODPROPS TCU Structure</figcaption>
 </figure>

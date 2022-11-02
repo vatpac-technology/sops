@@ -53,28 +53,31 @@ All other aircraft must be voice coordinated to ML TCU prior to **20nm** from th
 The Standard Assignable level from ML TCU to YWE/WON is `F240`, and tracking via CRENA, ESDIG, NEVIS, CORRS, KEPPA, or SUNTI.
 ### YWE (All) / ENR
 
-As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** in the following scenarios:  
 - YWE to ELW/BLA for all aircraft  
 - WON to ELW/BLA for all aircraft  
 - GTH to BLA for all aircraft  
-- GTH to BIK/GUN for aircraft **not** planned via TARAL 
+- GTH to BIK/GUN for aircraft **not** planned via TARAL  
 - KAT to BIK/GUN for all aircraft  
-- MUN to TBD for aircraft **not** on H345 airway  
+- MUN to TBD for aircraft **not** on H345 airway*
+
+!!! tip
+    **MUN** should aim to handoff aircraft as soon as possible to **TBD**, so they can issue STAR clearance and commence sequencing. Remember, As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#handoffs){target=new}, the Receiving sector may turn the aircraft 45° left or right and climb/descend to any level. So if required, nominate a restriction.
 
 ### YWE/WON/MUN/OXL/GTH/KAT Internal
 
-As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** in the following scenarios:  
-- MUN to YWE for aircraft **not** on the Y12 or H119 airway (Changes to CFL permitted up to boundary)  
-- OXL to YWE for aircraft **not** tracking via CANTY (Changes to CFL permitted up to boundary)  
+- MUN to YWE for aircraft **not** on the Y12 or H119 airway (Changes permitted up to boundary for sequencing/descent purposes)  
+- OXL to YWE for aircraft **not** tracking via CANTY (Changes permitted up to boundary for sequencing/descent purposes)  
 - WON to YWE for all aircraft  
 - YWE to WON for all aircraft  
 
 ### KAT / SY TCU
-As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/){target=new}, all aircraft must be **Heads-up coordinated** prior to **20nm** from the boundary.  
+As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-tcu){target=new}, all aircraft must be **Heads-up coordinated** prior to **20nm** from the boundary.  
 
 The Standard Assignable level from SY TCU to KAT is `F280`, and tracking via KADOM.
 
@@ -86,8 +89,8 @@ Departures from YMES in to WON Class C will be coordinated at taxi, and will be 
 
 !!! example
     **ESL APP** -> **WON**: "Taxi, ALDN16 for YFLI DCT, Requesting F230"  
-    **WON** -> **ESL APP**: "ALDN14, F230"  
-    **ESL APP** -> **WON**: "F230, ALDN14"  
+    **WON** -> **ESL APP**: "ALDN16, F230"  
+    **ESL APP** -> **WON**: "F230, ALDN16"  
 
 #### Arrivals/Overfliers
 All aircraft transiting from WON to **ESL APP** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **ESL APP** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the WON and **ESL APP** controller agree on.
