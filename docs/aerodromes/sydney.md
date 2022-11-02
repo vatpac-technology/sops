@@ -68,7 +68,7 @@ Most helicopters will be capable of departing from their company helipad.  If re
     **YOE:** "Sydney Tower, helicopter YOE, Hotel 7, request reposition Hotel 1"  
     **SY ADC:** "YOE, reposition approved"
 
-Helipad 1 is controlled by **SY ADC** and treated like a runway (takeoff clearances required).  All other pads are outside Tower's jurisdiction and do not require a takeoff/landing clearance.  However, approval must still be sought for helicopters to become airborne in the SY CTR.  This approval is communicated to the helicopter in the form of a requirement to 'report airborne'.
+Helipad 1 is controlled by **SY ADC** and treated like a runway (takeoff clearances required).  All other pads are outside Tower's jurisdiction and do not require a takeoff/landing clearance, however, approval must still be sought for helicopters to become airborne in the SY CTR.  This approval is communicated in the form of a requirement to *'report airborne'*.
 !!! example
     **HWD:** "Sydney Tower, helicopter HWD, Hotel 7, for the Harbour Bridge 5 outbound, ready"  
     **SY ADC:** "HWD, Sydney Tower, report airborne"  
@@ -88,11 +88,11 @@ VFR helicopters are generally processed via by one of Sydney's Kopter Routes.  I
 
 ***(DECIDE WHAT OWNERSHIP SY TWR HAS (4NM RADIUS SY?) - CLEARANCE ISSUED BY TWR)***
 
-Helipad 1 is controlled by **SY ADC** and treated like a runway (landing clearances required).  All other pads are outside Tower's jurisdiction and do not require a takeoff/landing clearance.  Helicopters should be instructed to 'report on the ground' so the controller knows when they are no longer active in their airspace.
+Helipad 1 is controlled by **SY ADC** and treated like a runway (landing clearances required).  All other pads are outside Tower's jurisdiction and do not require a takeoff/landing clearance.  Helicopters should be instructed to *'report on the ground'* so the controller knows when they are no longer active in their airspace.
 
-During times of peak fixed wing traffic, instruct helicopters to hold at their designated clearance limit (as per their coded clearance) and maintain own separation on approach to the heliport.
+During times of peak fixed wing traffic, instruct helicopters to hold at their designated clearance limit on their Kopter Route and maintain own separation on approach to the heliport.
 !!! example
-    **SY ADC:** "Traffic is a 717 on a 4nm final to runway 25, report in sight"  
+    **SY ADC:** "YOE, traffic is a 717 on a 4nm final to runway 25, report in sight"  
     **YOE:** "Traffic sighted, YOE"  
     **SY ADC:** "YOE, pass behind that aircraft, maintain own separation, caution wake turbulence, cleared visual approach, report on the ground"  
     **YOE:** "Pass behind the 717, maintain own separation, cleared visual approach, YOE" 
@@ -105,7 +105,7 @@ During times of peak fixed wing traffic, instruct helicopters to hold at their d
     **SY ADC:** "YOE"
 
 !!! tip
-    Some Kopter Routes may conflict with fixed wing approach/departure paths, so use common sense to separate helicopters when required.  For example, during 34 PROPS, it may be more suitable for helicopters to track "via Long Bay to the Boat Ramp, hold at the Boat Ramp" rather than taking the **Maroubra 5 Inbound**, due to it's close proximity to the **MARUB SID**.
+    Some Kopter Routes may conflict with fixed wing approach/departure paths, so use common sense to separate helicopters when required.  For example, during 34 PROPS, it may be more suitable for helicopters to track "via Long Bay to the Boat Ramp" and hold at the Boat Ramp if required, or the **Cape Banks 5 Inbound** rather than taking the **Maroubra 5 Inbound**, due to it's close proximity to the **MARUB SID**.  In any case, if pilots are unfamiliar with local landmarks, simplify your instructions to assist them while maintaining separation.
 
 ## Runway Modes
 Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
@@ -122,7 +122,7 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 | 5 - 25          | 25        | 25         |
 | *Curfew         | 34L       | 16R        |
 
-*Permitted between the hours of 2300 and 0600 Local. If the pilot does not want to participate in curfew mode operations, the controller must accommodate this request
+*Permitted between the hours of 2300 and 0600 Local. If the pilot does not want to participate in curfew mode operations, the controller must accommodate this request.
 
 !!! note
     In general, the SODPROPS, 16D/07A, and 25D/34A modes are most suitable for Noise Abatement. The PROPS modes are most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Milk Run Monday or Panic Stations.
@@ -130,7 +130,7 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 !!! tip
     Take in to account an aircraft's weight when Runway 16L/34R or 07/25 are in use. The aircraft may operationally require the longer Runway 16R/34L. If in doubt, ask the pilot. The aircraft may simply want a departure from 16R instead of 16L so they have a shorter taxi, for example. If the traffic situation permits, try to be accommodating of these requests.
 
-When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time
+When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time.
 
 !!! example
     **SY ADC:** "ABC, Traffic is DEF, a 737, on short final for the opposite direction parallel runway. Runway 16L, Cleared for Takeoff"  
@@ -198,7 +198,7 @@ When parallel runways are used for departures and the arrival sequence requires 
 When SODPROPS are in operation, the ATIS OPR INFO shall include:  
 `SIMULTANEOUS OPPOSITE DIRECTION PARALLEL RUNWAY OPERATIONS IN PROGRESS`  
 
-When Independent Visual Approaches are run during PROPS, the APCH must also include:
+When Independent Visual Approaches are run during PROPS, the APCH must also include:  
 `DO NOT PASS THRU ASSIGNED RWY CENTRELINE`
 
 !!! example
@@ -249,7 +249,7 @@ b) Aircraft using a runway not on the ATIS
     **SY ACD** -> **ABC**: "ABC, Cleared for a Northbound VFR Coastal departure, A035, Squawk 3601"  
     **ABC** -> **SY ACD**: "Cleared for a Northbound VFR Coastal departure, A035, 3601, ABC"  
 
-### Standard Assignable Departure Headings
+## Standard Assignable Departure Headings
 
 Aircraft that have been assigned the **Radar SID** must be assigned a heading on departure. “Next” coordination is not required to the SY TCU controller when the departing aircraft has been assigned the standard assignable level, and has been cleared via the headings listed below:
 
@@ -269,7 +269,7 @@ Aircraft that have been assigned the **Radar SID** must be assigned a heading on
     If strong winds are present at altitude, TWR/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
 
 
-### Standard Assignable Departure Levels
+## Standard Assignable Departure Levels
 
-Jets: `A050`
+Jets: `A050`  
 Non-jets: `A030` or `RFL` if lower
