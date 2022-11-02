@@ -7,7 +7,7 @@ title: MAESTRO
 # MAESTRO
 MAESTRO (pronounced my-stro), also and otherwise known as The Flow Management System (TFMS), is an arrival manager used to generate a sequence of aircraft inbound to an airport from multiple directions.
 
-MAESTRO can be viewed by accessing the website at [External Link](https://MAESTRO.vatpac.org){target=new} or via the link within vatSys.
+MAESTRO can be viewed by accessing the website [here](https://maestro.vatpac.org){target=new} or via the link within vatSys.
 
 MAESTRO is a semi-automatic system, and will manage a small number of arrivals generally without intervention. When the number of arriving aircraft increases, a flow controller is required to 'drive' the system, make adjustments as required, and communicate sequencing information to the respective ENR controllers.
 
@@ -56,9 +56,16 @@ Each line on the ladder shows information about arriving aircraft. From the cent
 - Delay remaining
 - Total delay
 
-Example:
+Example for the runway view:
 
 `3 0 JST471 16`
+
+From left to right:
+
+- 3 minute total delay.
+- 0 minutes of delay remaining (all delay has been absorbed).
+- Callsign
+- Assigned Runway.
 
 ## Aircraft Stability
 
@@ -83,9 +90,12 @@ The flow controller can interact with aircraft on the ladder if they have delega
 The best view for the flow controller is the runway view. From this view they can:
 
 - adjust an aircrafts landing time.
+- delay the entire sequence after a specific aircraft, for a desired amount of time.
 - manually adjust an aircrafts runway (if the automatically detected runway is wrong, or you want to see their estimated landing time on a new runway).
 - desequence an aircraft (remove it from an aircraft).
 - insert an aircraft at any time, provided that the aircraft can be inserted at that time (minimum landing time before and after)
+- insert a slot (which blocks aircraft from being allocated this landing time). This is useful for additional space when it may be required for wake-turbulence or slower-preceeding.
+
 
 The flow controller can also make changes from the sector view, but this is not recommended.
 
