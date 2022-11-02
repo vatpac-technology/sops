@@ -29,3 +29,7 @@ Any Runway change must be prior coordinated to **MAE** and **EN TWR**.
 
 IFR: `A050`  
 VFR: `A040` or `RFL` if lower
+
+## Departures Controller
+
+Refer to [Melbourne TCU Airspace Division](http://sops.vatpac.org/terminal/Melbourne%20TCU/operations/#airspace-division){target=new} for information on airspace divisions when **MDN** and/or **MDS** are online.
