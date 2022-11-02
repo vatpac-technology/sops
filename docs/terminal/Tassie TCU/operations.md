@@ -27,4 +27,6 @@ All aircraft should be kept on SIDs and STARs. If due to operational requirement
 
 ## Launceston
 
-Visual approaches are preferred into Launceston, if due to operational requirements, an aircraft is unable to accept a visual approach, Coordination with **LT ADC** may be required.
+Visual approaches are preferred into Launceston. If due to operational requirements, an aircraft is unable to accept a visual approach, Coordination with **LT ADC** may be required.  
+
+Runway 32L is preffered geographically. To assist traffic flow in and out of the TCU, ATC will instruct aircraft to track for 32L via IRSOM, NODAS, MLTSC which keeps the aircraft within CTA and away from the departures stream.
