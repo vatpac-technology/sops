@@ -75,7 +75,7 @@ SFW/SFE may provide distance to touchdown, when transferring an aircraft to towe
 
 #### Instrument Approach
 
-Aim to vector aircraft to the following Intercept points during instrument PROPS (GLS or ILS approach):
+Aim to vector aircraft to the following Intercept points during instrument PROPS (GLS or ILS approach) unless sufficient separation can be established between parallel approaches:
 
 | Runway | Distance from Threshold | Level  |
 | --| ----------------| --------- |
@@ -117,6 +117,14 @@ A **‘Harbour Scenic ONE’** (or **‘TWO’**) clearance is used to authorise
 </figure>
 
 These can be displayed on vatSys using the SY_VFR map.
+
+## Helicopter Operations
+### Inbound/Outbound Routes
+Reserved
+
+### Terminal Airspace Operations
+Reserved
+
 ## BK TWR Offline
 Due to the low level of CTA (A015) in the BK CTR when **BK TWR** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
