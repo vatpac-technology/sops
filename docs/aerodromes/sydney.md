@@ -50,6 +50,63 @@ d) direct to YSSY.
   <figcaption>Sydney Tower Airspace</figcaption>
 </figure>
 
+### Helicopter Operations
+#### Departures
+VFR helicopters are generally processed via one of Sydney's Kopter Routes.  IFR helicopters should conform to fixed wing ops and be processed via the **Radar SID** from an appropriate runway, unless a visual departure is acceptable.
+
+SY ACD will issue airways clearance for a Kopter Route through a coded clearance.
+!!! tip
+    You can find details of each Kopter Route (including applicable clearance limits) in the YSSY ERSA FAC.
+
+!!! example
+    **YOE:** "Sydney Delivery, helicopter YOE, for the Harbour Bridge 5 outbound, request clearance"  
+    **SY ACD:** "YOE, Delivery, cleared Harbour Bridge 5 outbound, squawk 0215, departure frequency 123.0"  
+    **YOE:** "Cleared Harbour Bridge 5 outbound, squawk 0215, departure frequency 123.0, YOE"
+
+Most helicopters will be capable of departing from their company helipad.  If reposition is required to Helipad 1 (the primary helipad), this must be approved by **SY ADC**.
+!!! example
+    **YOE:** "Sydney Tower, helicopter YOE, Hotel 7, request reposition Hotel 1"  
+    **SY ADC:** "YOE, reposition approved"
+
+Helipad 1 is controlled by **SY ADC** and treated like a runway (takeoff clearances required).  All other pads are outside Tower's jurisdiction and do not require a takeoff/landing clearance.  However, approval must still be sought for helicopters to become airborne in the SY CTR.  This approval is communicated to the helicopter in the form of a requirement to 'report airborne'.
+!!! example
+    **HWD:** "Sydney Tower, helicopter HWD, Hotel 7, for the Harbour Bridge 5 outbound, ready"  
+    **SY ADC:** "HWD, Sydney Tower, report airborne"  
+    **HWD:** "HWD"  
+     
+    **SY ADC:** "HWD, contact departures"  
+    **HWD:** "Departures, HWD"
+
+Helicopter operations should be accommodated without unduly delaying fixed wing traffic to/from the aerodrome.  Where possible, visually separate helicopters and fixed wing aircraft, and when necessary, delegate responsibility for separation to the helicopter.
+!!! example
+    **SY ADC:** "HSZ, traffic is a 737 shortly rolling on runway 34R, report in sight"  
+    **HSZ:** "Traffic sighted, HSZ"  
+    **SY ADC:** "HSZ, maintain own separation, caution wake turbulence, report airborne"
+
+#### Arrivals
+VFR helicopters are generally processed via by one of Sydney's Kopter Routes.  IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway.
+
+***(DECIDE WHAT OWNERSHIP SY TWR HAS (4NM RADIUS SY?) - CLEARANCE ISSUED BY TWR)***
+
+Helipad 1 is controlled by **SY ADC** and treated like a runway (landing clearances required).  All other pads are outside Tower's jurisdiction and do not require a takeoff/landing clearance.  Helicopters should be instructed to 'report on the ground' so the controller knows when they are no longer active in their airspace.
+
+During times of peak fixed wing traffic, instruct helicopters to hold at their designated clearance limit (as per their coded clearance) and maintain own separation on approach to the heliport.
+!!! example
+    **SY ADC:** "Traffic is a 717 on a 4nm final to runway 25, report in sight"  
+    **YOE:** "Traffic sighted, YOE"  
+    **SY ADC:** "YOE, pass behind that aircraft, maintain own separation, caution wake turbulence, cleared visual approach, report on the ground"  
+    **YOE:** "Pass behind the 717, maintain own separation, cleared visual approach, YOE" 
+
+    *Remember to pass traffic information to both aircraft.*  
+    **SY ADC:** "QJE1745, traffic is a helicopter, currently 3nm north of the field, they'll maintain own separation and pass behind you on approach to the helipad, runway 25, cleared to land"  
+    **QJE1745:** "Runway 25, cleared to land, QJE1745" 
+    
+    **YOE:** "YOE, on the pad"  
+    **SY ADC:** "YOE"
+
+!!! tip
+    Some Kopter Routes may conflict with fixed wing approach/departure paths, so use common sense to separate helicopters when required.  For example, during 34 PROPS, it may be more suitable for helicopters to track "via Long Bay to the Boat Ramp, hold at the Boat Ramp" rather than taking the **Maroubra 5 Inbound**, due to it's close proximity to the **MARUB SID**.
+
 ## Runway Modes
 Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
