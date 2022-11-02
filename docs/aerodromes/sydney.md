@@ -98,7 +98,7 @@ During times of peak fixed wing traffic, instruct helicopters to hold at their d
     **YOE:** "Pass behind the 717, maintain own separation, cleared visual approach, YOE" 
 
     *Remember to pass traffic information to both aircraft.*  
-    **SY ADC:** "QJE1745, traffic is a helicopter, currently 3nm north of the field, they'll maintain own separation and pass behind you on approach to the helipad, runway 25, cleared to land"  
+    **SY ADC:** "QJE1745, traffic is a helicopter, currently 3nm north of the field, they'll maintain own separation and pass behind you on approach to the heliport, runway 25, cleared to land"  
     **QJE1745:** "Runway 25, cleared to land, QJE1745" 
     
     **YOE:** "YOE, on the pad"  
