@@ -31,12 +31,6 @@ BLA is reponsible for issuing STAR clearances and initial descent for aircraft b
 ### Snowy (SNO)
 SNO is reponsible for issuing STAR clearances and initial descent for aircraft bound for YSCB.
 ## Coordination
-### ELW / ML TCU
-#### Standard Assignable Levels
-The Standard assignable level from ELW to ML TCU is `A090` and assigned a STAR.
-
-All other aircraft must be voice coordinated to ML TCU prior to **20nm** from the boundary.
-
 ### BLA / CB TCU
 #### Standard Assignable Levels
 
@@ -54,28 +48,33 @@ The Standard assignable level from ELW to CML TCU is `A090`, and assigned the LI
 All other aircraft must be voice coordinated to ML TCU prior to **20nm** from the boundary.
 
 The Standard Assignable level from ML TCU to ELW is `F240`, and tracking via MNG, NONIX, or DOSEL.
+
+Refer to [Melbourne TCU Airspace Division](http://sops.vatpac.org/terminal/Melbourne%20TCU/operations/#airspace-division){target=new} for information on airspace divisions when **MDN** and/or **MDS** are online.
 ### ELW (All) / ENR
 
-As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 That being said, it is *advised* that ELW give **Heads-up Coordination** in the following scenarios:  
-- BLA to BIK(GUN) for aircraft **not** on the Y59 or W817 airway  
+- BLA to BIK(GUN) for aircraft **not** on the Y59 or W817 airway*  
 - ELW to YWE and WON for all aircraft  
 - BLA to YWE(All) and BIK(WOL) for all aircraft  
 - SNO to BIK(WOL) for all aircraft
 
+!!! tip
+    **BLA** should aim to handoff aircraft as soon as possible to **GUN**, so they can issue STAR clearance and commence sequencing. Remember, As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#handoffs){target=new}, the Receiving sector may turn the aircraft 45° left or right and climb/descend to any level. So if required, nominate a restriction.
+
 ### ELW/BLA/SNO Internal
 
-As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 That being said, it is *advised* that ELW/BLA/SNO give **Heads-up Coordination** in the following scenarios:  
-- ELW to BLA for aircraft **not** on the Y59, H66, or W569 airway (Changes to CFL permitted up to boundary)  
-- BLA to ELW for aircraft **not** on the Q29 or V169 airway (Changes to CFL permitted up to boundary)  
+- ELW to BLA for aircraft **not** on the Y59, H66, or W569 airway (Changes permitted up to boundary for sequencing/descent purposes)  
+- BLA to ELW for aircraft **not** on the Q29 or V169 airway (Changes permitted up to boundary for sequencing/descent purposes)  
 - SNO to BLA for all aircraft
 
 ### SNO / TSN (Oceanic)
 
-As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/){target=new}, Voice coordinate estimate and level prior to **15 mins** to boundary.
+As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-oceanic){target=new}, Voice coordinate estimate and level prior to **15 mins** to boundary.
 
 ### ELW(All) / ESL APP
 #### Airspace
@@ -109,7 +108,10 @@ Departures from YMAY in to BLA Class C will be coordinated at taxi, and ready fo
     **BLA** -> **AY TWR**: "RXA6772, A050"  
     **AY TWR** -> **BLA**: "A050, RXA6772"  
 
+The Standard Assignable level from **AY TWR** to BLA is the lower of `A070` or the `RFL`.
+
 #### Arrivals
+The Standard Assignable level from BLA to **AY TWR** is `A080`. Any aircraft that will not be assigned the Standard Assignable level must have that level concurred by **AY TWR**.
 YMAY arrivals shall be coordinated to **AY TWR** from BLA prior to transfer of jurisdiction.
 
 !!! example
