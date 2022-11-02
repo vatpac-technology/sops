@@ -8,8 +8,8 @@
 Voiceless coordination is in place from SY TCU to all surrounding ENR sectors (**ARL** (and subsectors) to the North and East, **YWE** (and subsectors) to the West, **BIK** (and subsectors) to the South) for aircraft:  
 Planned at or above F280: `Assigned F280`  
 Planned below F280: `Assigned the RFL`  
-with ADES YWLM at or above F130: `Assigned F130`  
-with ADES YWLM below F130: `Assigned the RFL`  
+With ADES YWLM at or above F130: `Assigned F130`  
+With ADES YWLM below F130: `Assigned the RFL`  
 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
@@ -36,6 +36,9 @@ b) Routed/vectored as per the table below:
 | MARLN   |H240| H330  | H330  | STAR | H150 | STAR|
 | RIVET  |STAR| H330  | H330  | H060 | STAR | STAR|
 | ODALE |LOC| H330  | H330  | H060 | H150 | H150|
+
+!!! tip
+    If strong winds are present at altitude, APP/DIR should discuss slight changes to these headings to compensate for large crosswind components.
 
 Where an aircraft needs to cross the approach paths or overfly Sydney to join the opposite circuit, the following altitudes shall be used until radar separation is established with respect to the approach paths:  
 Eastbound: `A070`  
