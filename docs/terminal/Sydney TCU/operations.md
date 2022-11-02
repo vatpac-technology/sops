@@ -88,7 +88,7 @@ When conducting IVAs, aircraft shall not be transferred to **SY ADC** until esta
 
 !!! example
     **SFW:** “BNZ444, Turn left heading 360, join final Runway 34L, from that heading Cleared Independent Visual Approach” `AIP GEN 3.4`   
-    **BNZ444:** "Left heading 360, join final Runway 34L, from that heading Cleared Independent Visual Approach, wilco, BNZ444"  
+    **BNZ444:** "Left heading 360, join final Runway 34L, from that heading Cleared Independent Visual Approach, BNZ444"  
     ...  
     **SFW:** "BNZ444, Contact Sydney Tower 120.5"  
     **BNZ444:** "120.5, BNZ444" 
