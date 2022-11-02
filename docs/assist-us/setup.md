@@ -38,6 +38,10 @@ To contribute, you'll need the following -
 ```
 mkdocs serve
 ```
+OR
+```
+python -m mkdocs serve
+```
 
 - You'll see the command line performing some magic, eventually displaying `Serving on http://127.0.0.1:8000`. Open up your web browser, and navigate to that address.
 
