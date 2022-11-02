@@ -122,18 +122,29 @@ All other aircraft (Non-Jet aircraft, Aircraft with shallow Climb Gradient, and 
 !!! tip
     A Radar SID (eg, SYDNEY 2 departure) is distinct from a SID with a RADAR transition (eg, RICHMOND 5 departure, RADAR transition) SIDs with a RADAR Transition are still considered Procedural SIDs. A Radar SID can be identified in the DAPs (link) as having a "(RADAR)" at the end of the name.
 ## ATIS
-#### Operational Info
-
-When parallel runways are used (excluding SODPROPS), the ATIS OPR INFO shall include:  
-`PARALLEL RUNWAY OPERATIONS IN PROGRESS`  
-When parallel runways are used for departures, the ATIS OPR INFO shall include:  
-`INDEPENDENT DEPARTURES IN PROGRESS`  
-When SODPROPS are in operation, the ATIS OPR INFO shall include:  
-`SIMULTANEOUS OPPOSITE DIRECTION PARALLEL RUNWAY OPERATIONS IN PROGRESS`
 #### Approach Types
 
 | Cloud Base             | Visibility     | Approach                             |
 | -----------------------| -------------- | -------------------------------------|
 | >3000FT                | >5000M         | `EXPECT INDEPENDENT VISUAL APPROACH` |
-| Between 2000FT & 3000FT| >5000M         | `EXPECT ILS APPROACH THEN INDEPENDENT VISUAL APPROACH WHEN VISUAL`|
-| Below 2000FT **or**    | <5000M         | `EXPECT ILS APPROACH`                |
+| Between 2000FT & 3000FT| >5000M         | `EXPECT INSTRUMENT APPROACH THEN INDEPENDENT VISUAL APPROACH WHEN VISUAL`|
+| Below 2000FT **or**    | <5000M         | `EXPECT INSTRUMENT APPROACH`                |
+
+#### Operational Info
+
+When parallel runways are used for departures but inbound traffic levels don't necessitate independent approaches (low traffic levels), the ATIS OPR INFO shall include:  
+`INDEPENDENT PARALLEL DEPARTURES IN PROGRESS`  
+
+When parallel runways are used for departures and the arrival sequence requires independent approaches (high traffic levels), the ATIS OPR INFO shall include:  
+`INDEPENDENT PARALLEL APPROACHES AND DEPARTURES IN PROGRESS`   
+
+When SODPROPS are in operation, the ATIS OPR INFO shall include:  
+`SIMULTANEOUS OPPOSITE DIRECTION PARALLEL RUNWAY OPERATIONS IN PROGRESS`  
+
+When Independent Visual Approaches are run during PROPS, the OPR INFO must also include:
+`DO NOT PASS THRU ASSIGNED RWY CENTRELINE`
+
+!!! example
+    <figure markdown>
+        ![IVAs on the ATIS](img/yssy_atis_example.png)
+    </figure>
