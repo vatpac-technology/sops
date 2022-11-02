@@ -198,7 +198,7 @@ When parallel runways are used for departures and the arrival sequence requires 
 When SODPROPS are in operation, the ATIS OPR INFO shall include:  
 `SIMULTANEOUS OPPOSITE DIRECTION PARALLEL RUNWAY OPERATIONS IN PROGRESS`  
 
-When Independent Visual Approaches are run during PROPS, the OPR INFO must also include:
+When Independent Visual Approaches are run during PROPS, the APCH must also include:
 `DO NOT PASS THRU ASSIGNED RWY CENTRELINE`
 
 !!! example
