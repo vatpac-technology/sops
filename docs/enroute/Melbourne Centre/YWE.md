@@ -44,7 +44,6 @@ KAT is responsible for issuing STAR Clearances for YSCB.
 ## Coordination
 
 ### YWE/WON / ML TCU
-#### Standard Assignable Levels
 
 The Standard assignable level from YWE and WON to ML TCU is `A090`, and assigned the ARBEY #, PORTS #, WAREN #, or WENDY # STAR.
 
@@ -57,7 +56,7 @@ Refer to [Melbourne TCU Airspace Division](http://sops.vatpac.org/terminal/Melbo
 
 As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
 
-That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** in the following scenarios:  
+That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** prior to **20nm** from the boundary in the following scenarios:  
 - YWE to ELW/BLA for all aircraft  
 - WON to ELW/BLA for all aircraft  
 - GTH to BLA for all aircraft  
@@ -78,6 +77,7 @@ That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** i
 - YWE to WON for all aircraft  
 
 ### KAT / SY TCU
+
 As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-tcu){target=new}, all aircraft must be **Heads-up coordinated** prior to **20nm** from the boundary.  
 
 The Standard Assignable level from SY TCU to KAT is the lower of `F280` or the `RFL`, and tracking via KADOM.

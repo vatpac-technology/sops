@@ -39,7 +39,20 @@ NSA is responsible for facilitating YBSU traffic.
 KPL is responsible for issuing STAR Clearances and descent for YBSU.
 
 ## Coordination
+### INL(All) / BN TCU
 
+The Standard assignable level from INL(All) to BN TCU is:  
+`A090` for YBBN arrivals, and assigned a STAR  
+`F130` for YBCG arrivals via BERNI, and assigned a STAR  
+
+All other aircraft must be voice coordinated to BN TCU prior to **20nm** from the boundary.
+
+The Standard Assignable level for YBBN departures from BN TCU to **INL(All)** is the lower of `F180` or the `RFL`.  
+The Standard Assignable level for YBCG departures from BN TCU to **GOL/SDY** is the lower of `F120` or the `RFL`, and tracking via APAGI.  
+The Standard Assignable level for YBCG departures from BN TCU to **NSA/BUR/DOS** is the lower of `F180` or the `RFL`.  
+The Standard Assignable level for YBSU arrivals from BN TCU to **NSA** is `F130`, and tracking via ITIDE.  
+
+Refer to [Brisbane TCU Airspace Division](http://sops.vatpac.org/terminal/Brisbane%20TCU/operations/#airspace-division){target=new} for information on airspace divisions when **BAS**, **BDN** and/or **BDS** are online.
 ### INL (All) / ENR
 
 As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
@@ -48,79 +61,103 @@ As per [Standard coordination procedures](http://sops.vatpac.org/controller-skil
 
 As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
 
+That being said, it is *advised* that INL(All) give **Heads-up Coordination** to the relevant sector prior to **20nm** from the boundary in the following scenarios:  
+- INL to DOS for all aircraft  
+- DOS to BUR, NSA, GOL and INL for all aircraft  
+- SDY to NSA, GOL and INL for all aircraft  
+
 ### NSA / SU TWR
 #### Airspace
-When **TW TWR** is online, **ARL** owns the Class C airspace from A045 upwards. **TW TWR** owns the Class D airspace SFC-A045, and is shown **shaded** in the image below
-<figure markdown>
-![Tamworth Tower Airspace](img/TWTWR.png){ width="800" }
-  <figcaption>Tamworth Tower Airspace</figcaption>
-</figure>
+When **SU TWR** is online, **NSA** owns the Class C airspace from A045 upwards. **SU TWR** owns the Class D airspace SFC-A045.
 
 #### Departures
-Departures from YSTW in to ARL/MDE Class C will be coordinated at taxi, and ready for departure. If a level other than the Standard Assignable is required from ARL/MDE, they will coordinate this at the "Next" call.
+Departures from YBSU in to NSA Class C will be coordinated at taxi, and ready for departure. If a level other than the Standard Assignable is required from NSA, they will coordinate this at the "Next" call.
 
 !!! example
-    **TW TWR** -> **MDE**: "Taxi, SKV for YMOR DCT"  
-    **MDE** -> **TW TWR**: "SKV"  
+    **SU TWR** -> **NSA**: "Taxi, BNZ123 for YBSU via TAPET1 departure"  
+    **NSA** -> **SU TWR**: "BNZ123"  
     ...  
-    **TW TWR** -> **MDE**: "Next, SKV"  
-    **MDE** -> **TW TWR**: "SKV"  
+    **SU TWR** -> **NSA**: "Next, BNZ123"  
+    **NSA** -> **SU TWR**: "BNZ123"  
 
-The Standard Assignable level from **TW TWR** to ARL/MDE is the lower of `A070` or the `RFL`.
+The Standard Assignable level from **SU TWR** to NSA is the lower of `A050` or the `RFL`.
 
 #### Arrivals
-The Standard Assignable level from ARL/MDE to **TW TWR** is `A080`. Any aircraft that will not be assigned the Standard Assignable level must have that level concurred by **TW TWR**.  
-YSTW arrivals shall be coordinated to **TW TWR** from ARL/MDE prior to transfer of jurisdiction.
+The Standard Assignable level from NSA to **SU TWR** is `A060`. Any aircraft that will not be assigned the Standard Assignable level must have that level concurred by **SU TWR**.  
+NSA will ensure all YBSU arrivals have been assigned a STAR, unless the pilot is unable to accept one.  
+YBSU arrivals shall be coordinated to **SU TWR** from NSA prior to transfer of jurisdiction.
 
 !!! example
-    **ARL** -> **TW TWR**: "QLK6D, via MATLA DCT STWWD, Number 1"  
-    **TW TWR** -> **ARL**: "QLK6D, Number 1"  
+    **NSA** -> **SU TWR**: "JST731, via ITIDE2W Arrival Runway 31, Number 1"  
+    **SU TWR** -> **NSA**: "JST731, Number 1"  
+
+!!! caution
+    It is the responsibility of **SU TWR** to manage the sequence in to YBSU. This can be challenging, as it involves transitioning from **Radar** standards to **Procedural** standards. MNN/INL can greatly assist with this however, with use of Radar/ADSB tools, getting coordination done early, and ensuring any aircraft within **10 minutes** arrival time at YCFS, are assigned a *vertically separated level* at handoff to **CFS TWR**. For example:  
+    **QLK123D** ETA CFS 0732, Number 1, A080  
+    **BNZ456** ETA CFS 0736, Number 2, A090  
+    **ABC** ETA CFS 0739, Number 3, A100  
 
 ### KPL / RK APP
+
+The Standard assignable level from KPL to **RK APP** is `A070`, and assigned the ABVAS # or DADBO # STAR.
+
+All other aircraft must be voice coordinated to **RK APP** prior to **20nm** from the boundary.
+
+The Standard Assignable level from **RK APP** to KPL is `F150`, and tracking via BUDGI or TARES.
 #### Airspace
-When **TW TWR** is online, **ARL** owns the Class C airspace from A045 upwards. **TW TWR** owns the Class D airspace SFC-A045, and is shown **shaded** in the image below
+When **RK APP** is online, **KPL** owns the Class C airspace outside 36 DME RK. **RK APP** owns the Class C airspace within the RK CTR SFC-F150, and is shown **shaded** in the image below
 <figure markdown>
-![Tamworth Tower Airspace](img/TWTWR.png){ width="800" }
-  <figcaption>Tamworth Tower Airspace</figcaption>
+![Rockhampton TCU Airspace](img/RKAPP.png){ width="800" }
+  <figcaption>Rockhampton TCU Airspace</figcaption>
 </figure>
 
+### INL / CFS TWR
+#### Airspace
+When **CFS TWR** is online, **INL** and **MNN** owns the Class C airspace from A045 upwards, and **CFS TWR** owns the Class D airspace SFC-A045.
+
 #### Departures
-Departures from YSTW in to ARL/MDE Class C will be coordinated at taxi, and ready for departure. If a level other than the Standard Assignable is required from ARL/MDE, they will coordinate this at the "Next" call.
+Departures from YCFS in to INL Class C will be coordinated at taxi, and ready for departure. If a level other than the Standard Assignable is required from INL, they will coordinate this at the "Next" call.
 
 !!! example
-    **TW TWR** -> **MDE**: "Taxi, SKV for YMOR DCT"  
-    **MDE** -> **TW TWR**: "SKV"  
+    **CFS TWR** -> **INL**: "Taxi, BNZ185 for YBSU via TUCAB"  
+    **INL** -> **CFS TWR**: "BNZ185"  
     ...  
-    **TW TWR** -> **MDE**: "Next, SKV"  
-    **MDE** -> **TW TWR**: "SKV"  
+    **CFS TWR** -> **INL**: "Next, BNZ185"  
+    **INL** -> **CFS TWR**: "BNZ185"  
 
-The Standard Assignable level from **TW TWR** to ARL/MDE is the lower of `A070` or the `RFL`.
+The Standard Assignable level from **CFS TWR** to INL is the lower of `A070` or the `RFL`.
 
 #### Arrivals
-The Standard Assignable level from ARL/MDE to **TW TWR** is `A080`. Any aircraft that will not be assigned the Standard Assignable level must have that level concurred by **TW TWR**.  
-YSTW arrivals shall be coordinated to **TW TWR** from ARL/MDE prior to transfer of jurisdiction.
+The Standard Assignable level from INL to **CFS TWR** is `A080`. Any aircraft that will not be assigned the Standard Assignable level must have that level concurred by **CFS TWR**.  
+YCFS arrivals shall be coordinated to **CFS TWR** from INL prior to transfer of jurisdiction.
 
 !!! example
-    **ARL** -> **TW TWR**: "QLK6D, via MATLA DCT STWWD, Number 1"  
-    **TW TWR** -> **ARL**: "QLK6D, Number 1"  
+    **INL** -> **CFS TWR**: "VET, via GAMBL, Number 1"  
+    **CFS TWR** -> **INL**: "VET, Number 1"  
 
-### GOL/DOS/BUR/NSA / OK APP and AMB APP
+!!! caution
+    It is the responsibility of **CFS TWR** to manage the sequence in to YCFS. This can be challenging, as it involves transitioning from **Radar** standards to **Procedural** standards. MNN/INL can greatly assist with this however, with use of Radar/ADSB tools, getting coordination done early, and ensuring any aircraft within **10 minutes** arrival time at YCFS, are assigned a *vertically separated level* at handoff to **CFS TWR**. For example:  
+    **QLK123D** ETA CFS 0732, Number 1, A080  
+    **BNZ456** ETA CFS 0736, Number 2, A090  
+    **ABC** ETA CFS 0739, Number 3, A100  
+
+### GOL/DOS/BUR / OK APP and AMB APP
 #### Airspace
-By default, **WLM APP** owns the airspace within the R578A-G restricted areas, unless stated otherwise by ad-hoc release or NOTAM.
+By default, **OK APP** owns the airspace within the **R654A-D** restricted areas, and **AMB APP** owns the airspace within the **R625A-D** restricted areas, unless stated otherwise by ad-hoc release or NOTAM.
 #### Departures
-Departures from YWLM in to CNK/MND/MNN Class C will be coordinated at taxi, and will be requesting a level.
+Departures from YBOK and YAMB in to GOL/DOS/BUR Class C will be coordinated at taxi, and will be requesting a level.
 
 !!! example
-    **WLM APP** -> **MNN**: "Taxi, WGTL33 for YPTN via BUBRI1A departure, Requesting F380"  
-    **MNN** -> **WLM APP**: "WGTL33, F120"  
-    **WLM APP** -> **MNN**: "F120, WGTL33"  
+    **OK APP** -> **DOS**: "Taxi, VLAN48 for YBOK via MATVI, Requesting F140"  
+    **DOS** -> **OK APP**: "VLAN48, F140"  
+    **OK APP** -> **DOS**: "F140, VLAN48"  
 
 #### Arrivals/Overfliers
-All aircraft transiting from CNK/MND/MNN to **WLM APP** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **WLM APP** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the CNK/MND/MNN and **WLM APP** controller agree on.
+All aircraft transiting from GOL/DOS/BUR to **OK APP** and **AMB APP** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **OK APP** and **AMB APP** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the GOL/DOS/BUR and **WLM APP** controller agree on.
 
 !!! example
-    **MNN** -> **WLM APP**: "via SANAD, JST458, DCT BLAFF, will be assigned F130"  
-    **WLM APP** -> **MNN**: "JST458, F130"  
+    **GOL** -> **AMB APP**: "via HUUGO, PUMA11, will be assigned A080"  
+    **AMB APP** -> **GOL**: "PUMA11, A080"  
 
 ### INL/SDY/KPL / TSN (Oceanic)
 
