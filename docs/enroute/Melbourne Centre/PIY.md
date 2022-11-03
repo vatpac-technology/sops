@@ -62,9 +62,8 @@ The Standard assignable level from ENR to PH TCU is:
 All other aircraft must be voice coordinated to PH TCU prior to **20nm** from the boundary.
 ## PIY (ALL) / ENR
 
-As per the enroute coordination requirements (link), voiceless coordination exists between enroute sectors, with no changes within 20nm to the boundary.
+As per the enroute coordination requirements, voiceless coordination exists between enroute sectors, with changes permitted up to the boundary with PIY.
 
-That being said, it is *advised* that BIK give **Heads-up Coordination** to the relevant sector, prior to **20nm** from the boundary.
 
 ## LEA / IND (Oceanic)
 
