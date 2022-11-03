@@ -5,13 +5,13 @@
 --8<-- "includes/abbreviations.md"
 # SY TCU / ENR
 #### Departures
-Voiceless coordination is in place from SY TCU to all surrounding ENR sectors (**ARL** (and subsectors) to the North and East, **YWE** (and subsectors) to the West, **BIK** (and subsectors) to the South) for aircraft:  
-Planned at or above F280: `Assigned F280`  
-Planned below F280: `Assigned the RFL`  
-With ADES YWLM at or above F130: `Assigned F130`  
-With ADES YWLM below F130: `Assigned the RFL`  
+Voiceless coordination is in place from SY TCU to all surrounding ENR sectors (**ARL** (and subsectors) to the North and East, **YWE** (and subsectors) to the West, **BIK** (and subsectors) to the South) for aircraft assigned:  
+The lower of `F280` or the `RFL`, **with the exception of**:  
+Aircraft with ADES YWLM, which will be assigned the lower of `F130` or the `RFL`.  
 
-Any aircraft not meeting the above criteria must be prior coordinated to ENR.
+Aircraft must be tracking from **SDN** or **SDS** airspace (see [Airspace Division](http://sops.vatpac.org/terminal/Sydney%20TCU/operations/#airspace-division){target=new}).
+
+Any aircraft tracking from **SAS** or **SAN** airspace, or **not** assigned the standard assignable level, must be **Heads-up** Coordinated to the relevant ENR sector as soon as practical.
 
 !!! example
     **SY TCU** -> **ARL**: "JST789, with your concurrence, will be assigned F240, for my separation with ANZ12"  

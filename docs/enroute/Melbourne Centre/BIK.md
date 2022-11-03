@@ -39,7 +39,7 @@ b) xxx NM from BIK/GUN border //do we need this info? will standard handoff proc
 
 ## Coordination
 ### BIK/WOL / SY TCU
-#### Standard Assignable Levels
+
 The Standard assignable level from BIK to SY TCU is:  
 `A100` for aircraft tracking via RIVET, and assigned the RIVET # STAR  
 `A090` for aircraft tracking via ODALE, and assigned the ODALE # STAR  
@@ -51,7 +51,6 @@ The Standard Assignable level from SY TCU to WOL is the lower of `F280` or the `
 Refer to [Sydney TCU Airspace Division](http://sops.vatpac.org/terminal/Sydney%20TCU/operations/#airspace-division){target=new} for information on airspace divisions when **SAS**, **SDN** and/or **SDS** are online.
 
 ### WOL/GUN / CB TCU
-#### Standard Assignable Levels
 
 The Standard assignable level from WOL to CB TCU is `F120`, and assigned the RAZZI #, BUNGO #, or AVBEG # STAR.  
 

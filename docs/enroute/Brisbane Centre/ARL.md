@@ -34,18 +34,16 @@ CNK and MLD are responsible for final sequencing for aircraft bound for YSSY, vi
 Just keeping them separated!
 ### Ocean (OCN)
 OCN responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YSSY via MARLN.
-
 ## Coordination
-
 ### ARL (All) / SY TCU
-#### Standard Assignable Levels
+
 The Standard assignable level from ARL(All) to SY TCU is:  
 `A100` for aircraft tracking via BOREE or MARLN, and assigned the relevant STAR  
 `A090` for aircraft tracking via MEPIL, and assigned the MEPIL # STAR  
 
 All other aircraft must be voice coordinated to SY TCU prior to **20nm** from the boundary.
 
-The Standard Assignable level from SY TCU to ARL(All) is the lower of `F280` or the `RFL`.
+The Standard Assignable level from SY TCU to ARL(All) is the lower of `F280` or the `RFL`, and tracking 
 
 Refer to [Sydney TCU Airspace Division](http://sops.vatpac.org/terminal/Sydney%20TCU/operations/#airspace-division){target=new} for information on airspace divisions when **SAS**, **SDN** and/or **SDS** are online.
 
@@ -92,7 +90,7 @@ As per [Standard coordination procedures](http://sops.vatpac.org/controller-skil
     **TW TWR** -> **ARL**: "QLK6D, Number 1"  
 
 !!! caution
-    It is the responsibility of **TW TWR** to manage the sequence in to TW TWR. This can be challenging, as it involves transitioning from **Radar** standards to **Procedural** standards. ARL/MDE can greatly assist with this however, with use of Radar/ADSB tools, getting coordination done early, and ensuring any aircraft within **10 minutes** arrival time at YSTW, are assigned a *vertically separated level* at handoff to **TW TWR**. For example:  
+    It is the responsibility of **TW TWR** to manage the sequence in to YSTW. This can be challenging, as it involves transitioning from **Radar** standards to **Procedural** standards. ARL/MDE can greatly assist with this however, with use of Radar/ADSB tools, getting coordination done early, and ensuring any aircraft within **10 minutes** arrival time at YSTW, are assigned a *vertically separated level* at handoff to **TW TWR**. For example:  
     **QLK123D** ETA TW 0158, Number 1, A080  
     **HDSN45** ETA TW 0200, Number 2, A090  
     **VUT** ETA TW 0207, Number 3, A100  
@@ -122,14 +120,14 @@ YCFS arrivals shall be coordinated to **CFS TWR** from MNN prior to transfer of 
     **CFS TWR** -> **MNN**: "RXA6438, Number 1"  
 
 !!! caution
-    It is the responsibility of **CFS TWR** to manage the sequence in to CFS TWR. This can be challenging, as it involves transitioning from **Radar** standards to **Procedural** standards. MNN/INL can greatly assist with this however, with use of Radar/ADSB tools, getting coordination done early, and ensuring any aircraft within **10 minutes** arrival time at YCFS, are assigned a *vertically separated level* at handoff to **CFS TWR**. For example:  
+    It is the responsibility of **CFS TWR** to manage the sequence in to YCFS. This can be challenging, as it involves transitioning from **Radar** standards to **Procedural** standards. MNN/INL can greatly assist with this however, with use of Radar/ADSB tools, getting coordination done early, and ensuring any aircraft within **10 minutes** arrival time at YCFS, are assigned a *vertically separated level* at handoff to **CFS TWR**. For example:  
     **QLK123D** ETA CFS 0732, Number 1, A080  
     **BNZ456** ETA CFS 0736, Number 2, A090  
     **ABC** ETA CFS 0739, Number 3, A100  
 
 ### CNK/MND/MNN / WLM APP
 #### Airspace
-By default, **WLM APP** owns the airspace within the R578A-G restricted areas, unless stated otherwise by ad-hoc release or NOTAM.
+By default, **WLM APP** owns the airspace within the **R578A-G** restricted areas, unless stated otherwise by ad-hoc release or NOTAM.
 #### Departures
 Departures from YWLM in to CNK/MND/MNN Class C will be coordinated at taxi, and will be requesting a level.
 

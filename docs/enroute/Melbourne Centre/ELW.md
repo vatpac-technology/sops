@@ -32,7 +32,6 @@ BLA is reponsible for issuing STAR clearances and initial descent for aircraft b
 SNO is reponsible for issuing STAR clearances and initial descent for aircraft bound for YSCB.
 ## Coordination
 ### BLA / CB TCU
-#### Standard Assignable Levels
 
 The Standard assignable level from BLA to CB TCU is `F120`, and assigned the POLLI # or MANDA # STAR.  
 
@@ -41,7 +40,6 @@ All other aircraft must be voice coordinated to CB TCU prior to **20nm** from th
 The Standard Assignable level from CB TCU to BLA is the lower of `F240` or the `RFL`, and tracking via HOWLY, WG, NONUP, TANTA, or DUBUS.
 
 ### ELW / ML TCU
-#### Standard Assignable Levels
 
 The Standard assignable level from ELW to CML TCU is `A090`, and assigned the LIZZI # or BOYSE # STAR.  
 
@@ -54,7 +52,7 @@ Refer to [Melbourne TCU Airspace Division](http://sops.vatpac.org/terminal/Melbo
 
 As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
 
-That being said, it is *advised* that ELW give **Heads-up Coordination** in the following scenarios:  
+That being said, it is *advised* that ELW give **Heads-up Coordination** prior to **20nm** from the boundary in the following scenarios:  
 - BLA to BIK(GUN) for aircraft **not** on the Y59 or W817 airway*  
 - ELW to YWE and WON for all aircraft  
 - BLA to YWE(All) and BIK(WOL) for all aircraft  
@@ -67,7 +65,7 @@ That being said, it is *advised* that ELW give **Heads-up Coordination** in the 
 
 As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
 
-That being said, it is *advised* that ELW/BLA/SNO give **Heads-up Coordination** in the following scenarios:  
+That being said, it is *advised* that ELW/BLA/SNO give **Heads-up Coordination** prior to **20nm** from the boundary in the following scenarios:  
 - ELW to BLA for aircraft **not** on the Y59, H66, or W569 airway (Changes permitted up to boundary for sequencing/descent purposes)  
 - BLA to ELW for aircraft **not** on the Q29 or V169 airway (Changes permitted up to boundary for sequencing/descent purposes)  
 - SNO to BLA for all aircraft
@@ -119,7 +117,7 @@ YMAY arrivals shall be coordinated to **AY TWR** from BLA prior to transfer of j
     **AY TWR** -> **BLA**: "QLK38, Number 1"  
 
 !!! caution
-    It is the responsibility of **AY TWR** to manage the sequence in to AY TWR. This can be challenging, as it involves transitioning from **Radar** standards to **Procedural** standards. BLA can greatly assist with this however, with use of Radar/ADSB tools, getting coordination done early, and ensuring any aircraft within **10 minutes** arrival time at YMAY, are assigned a *vertically separated level* at handoff to **AY TWR**. For example:  
+    It is the responsibility of **AY TWR** to manage the sequence in to YMAY. This can be challenging, as it involves transitioning from **Radar** standards to **Procedural** standards. BLA can greatly assist with this however, with use of Radar/ADSB tools, getting coordination done early, and ensuring any aircraft within **10 minutes** arrival time at YMAY, are assigned a *vertically separated level* at handoff to **AY TWR**. For example:  
     **QLK123D** ETA AY 0239, Number 1, A080  
     **RXA4567** ETA AY 0244, Number 2, A090  
     **FD321** ETA AY 0246, Number 3, A100  
