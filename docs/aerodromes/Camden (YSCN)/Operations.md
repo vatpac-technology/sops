@@ -16,8 +16,8 @@
  
 In the absence of an SMC controller, ADC shall assume the SMC responsibilities.
 <figure markdown>
-![YSCN Maneuvering Area](img/yscn_maneuvring_area.png){ width="500" }
-  <figcaption>Maneuvering Area</figcaption>
+![YSCN Maneuvering Area](img/YSCN_ManMap.PNG){ width="500" }
+<figcaption>Maneuvering Area</figcaption>
 </figure>
 
 ## Airspace
