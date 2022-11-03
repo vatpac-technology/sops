@@ -75,7 +75,7 @@ SFW/SFE may provide distance to touchdown, when transferring an aircraft to towe
 
 #### Instrument Approach
 
-Aim to vector aircraft to the following Intercept points during instrument PROPS (GLS or ILS approach):
+Aim to vector aircraft to the following Intercept points during instrument PROPS (GLS or ILS approach) unless sufficient separation can be established between parallel approaches:
 
 | Runway | Distance from Threshold | Level  |
 | --| ----------------| --------- |
@@ -87,20 +87,19 @@ Aim to vector aircraft to the following Intercept points during instrument PROPS
 When conducting IVAs, aircraft shall not be transferred to **SY ADC** until established on final.
 
 !!! example
-    **SFW:** “BNZ444, Turn left heading 360, join final Runway 34L, from that heading Cleared Independent Visual Approach, report on final” `AIP GEN 3.4`   
-    **BNZ444:** "Left heading 360, join final Runway 34L, from that heading Cleared Independent Visual Approach, wilco, BNZ444"  
+    **SFW:** “BNZ444, Turn left heading 360, join final Runway 34L, from that heading Cleared Independent Visual Approach” `AIP GEN 3.4`   
+    **BNZ444:** "Left heading 360, join final Runway 34L, from that heading Cleared Independent Visual Approach, BNZ444"  
     ...  
-    **BNZ444:** "BNZ444, on final"  
     **SFW:** "BNZ444, Contact Sydney Tower 120.5"  
     **BNZ444:** "120.5, BNZ444" 
 
 ## Sydney Harbour Scenic Flights
 Flights may be cleared for one of two standard scenic flight routes at `A015`, **Harbour Scenic ONE** or **Harbour Scenic TWO**, which are described below. Pilot preference should be accommodated where traffic permits.
 
-Aircraft must Track via Class G airspace to Long Reef and contact SY TCU prior to reaching Long Reef requesting a ‘Harbour Scenic’ clearance. If a clearance cannot be given immediately, instruct the pilot to remain in Class G airspace
+Aircraft must Track via Class G airspace to Long Reef and contact SY TCU prior to reaching Long Reef requesting a ‘Harbour Scenic’ clearance. If a clearance cannot be given immediately, instruct the pilot to remain in Class G airspace.
 
 !!! example
-    “ABC, remain outside Class C airspace and standby”
+    “ABC, remain clear of Class C airspace”
 
 A **‘Harbour Scenic ONE’** (or **‘TWO’**) clearance is used to authorise flight in the nominated route at `A015`. Sydney Airport QNH must be issued with the clearance.
 
@@ -118,6 +117,14 @@ A **‘Harbour Scenic ONE’** (or **‘TWO’**) clearance is used to authorise
 </figure>
 
 These can be displayed on vatSys using the SY_VFR map.
+
+## Helicopter Operations
+### Inbound/Outbound Routes
+Reserved
+
+### Terminal Airspace Operations
+Reserved
+
 ## BK TWR Offline
 Due to the low level of CTA (A015) in the BK CTR when **BK TWR** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 

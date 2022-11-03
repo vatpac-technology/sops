@@ -40,7 +40,7 @@
 | Karratha | Chris G | Complete, To be Reviewed |
 | Albury | Chris G | Complete, To be reviewed |
 | Alice Springs | Chris G | Complete, To be reviewed |
-| Coffs Harbor | Tyler B | Complete, To be reviewed |
+| Coffs Harbour | Tyler B | Complete, To be reviewed |
 | Tamworth | - | Not Started |
 
 ## Military
@@ -64,7 +64,7 @@
 | Task | Assigned to | Progress |
 | ---- | ----------- | -------- |
 | Perth | Josh M | In Progress |
-| Tasmania (HB/LT) | Tyler B | In Progress|
+| Tasmania (HB/LT) | Tyler B | Complete, To be reviewed |
 | Coral (MK/RK) | - | Not Started |
 | Cairns | Josh M | In Progress |
 | Adelaide | Alex D | Complete, To be reviewed |
@@ -88,13 +88,13 @@
 | YWE | Alex D | Complete, To be reviewed |
 | ELW | Alex D | Complete, To be reviewed |
 | BIK | Zach G | Complete, To be reviewed |
-| HUO | Tyler B | Not Started |
+| HUO | Tyler B | Complete, To be reviewed |
 
-## Pacific
+## Oceanic
 | Task | Assigned to | Progress |
 | ---- | ----------- | -------- |
-| TSN | Tyler B | Not Started |
-| IND | Tyler B | Not Started |
+| Oceanic | Tyler B | Complete, To be reviewed  |
+| Pacific Ports | Tyler B | Not Started |
 
 ## Controller Skills
 | Task | Assigned to | Progress |
