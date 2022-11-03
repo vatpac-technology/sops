@@ -51,6 +51,8 @@ The Standard assignable level from YWE and WON to ML TCU is `A090`, and assigned
 All other aircraft must be voice coordinated to ML TCU prior to **20nm** from the boundary.
 
 The Standard Assignable level from ML TCU to YWE/WON is `F240`, and tracking via CRENA, ESDIG, NEVIS, CORRS, KEPPA, or SUNTI.
+
+Refer to [Melbourne TCU Airspace Division](http://sops.vatpac.org/terminal/Melbourne%20TCU/operations/#airspace-division){target=new} for information on airspace divisions when **MDN** and/or **MDS** are online.
 ### YWE (All) / ENR
 
 As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
@@ -59,8 +61,7 @@ That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** i
 - YWE to ELW/BLA for all aircraft  
 - WON to ELW/BLA for all aircraft  
 - GTH to BLA for all aircraft  
-- GTH to BIK/GUN for aircraft **not** planned via TARAL  
-- KAT to BIK/GUN for all aircraft  
+- KAT to BIK/GUN for aircraft **not** planned via MAKKA  
 - MUN to TBD for aircraft **not** on H345 airway*
 
 !!! tip
@@ -79,7 +80,9 @@ That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** i
 ### KAT / SY TCU
 As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-tcu){target=new}, all aircraft must be **Heads-up coordinated** prior to **20nm** from the boundary.  
 
-The Standard Assignable level from SY TCU to KAT is `F280`, and tracking via KADOM.
+The Standard Assignable level from SY TCU to KAT is the lower of `F280` or the `RFL`, and tracking via KADOM.
+
+Refer to [Sydney TCU Airspace Division](http://sops.vatpac.org/terminal/Sydney%20TCU/operations/#airspace-division){target=new} for information on airspace divisions when **SAS**, **SDN** and/or **SDS** are online.
 
 ### WON / ESL APP
 #### Airspace

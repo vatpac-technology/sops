@@ -21,8 +21,7 @@
  
 ASP is responsible for **ASP**, **ASW**, **WAR**, **FOR**, **WRA**, **BKE**, and **ESP** when they are offline.  
 
-Class D and C SFC-F125 within 80 DME AS reverts to Class G when **AS TWR** is offline, and is administered by ASP.  
-Class C F125-F245 within 80 DME AS reverts to Class E when **AS TWR** is offline, and is administered by ASP.  
+When **AS TWR** is offline, AS CTR (Class D and C SFC-F125) within 80 DME AS reverts to Class G, and AS CTR (Class C F125-F245) within 80 DME AS reverts to Class E, and both are administered by ASP. Alternatively, ASP may provide a top-down procedural service if they wish.
 
 (vatsys map)
 
@@ -78,7 +77,13 @@ ASP will coordinate all arrivals into Alice Springs Prior to handing over to tow
 
 The Standard assignable level from ASP to **AS TWR** is `A080`.  
 
-The Standard assignable level from **AS TWR** to ASP is the lower of `A080` or the `RFL`.  
+The Standard assignable level from **AS TWR** to ASP is the lower of `A070` or the `RFL`.  
+
+!!! caution
+    It is the responsibility of **AS TWR** to manage the sequence in to AS TWR. This can be challenging, as it involves transitioning from **Surveillance** standards to **Procedural** standards. ASP can greatly assist with this however, with use of ADSB tools, getting coordination done early, and ensuring any aircraft within **10 minutes** arrival time at YBAS, are assigned a *vertically separated level* at handoff to **AS TWR**. For example:  
+    **VOZ123** ETA AS 2203, Number 1, A080  
+    **JTE456** ETA AS 2206, Number 2, A090  
+    **QFA797** ETA AS 2212, Number 3, A100  
 
 ### WRA / WR TWR
 
