@@ -26,8 +26,8 @@ For information only, the following approximate time gains and losses achieved b
 | 300  | - 1 MIN |  |
 | 280  | - 0 MIN |  |
 | 270  | + 1 MIN |  |
-| 250  | - 2 MIN |  |
-| 230  | - 3 MIN |  |
+| 250  | + 2 MIN |  |
+| 230  | + 3 MIN |  |
 | 210  |  | +1 MIN |
 | 190  |  | +2 MIN |
 | 180  |  | +3 MIN |

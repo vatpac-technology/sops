@@ -154,7 +154,7 @@ For more info on military callsigns, and ones not listed here, refer to [MATS Ch
 | EVY  | ENVOY      |
 | FALC | FALCON          |
 | HDDO  | HOODOO              |
-| HDSN  | HOODOO              |
+| HDSN  | HUDSON              |
 | HPST  | HIPSHOT              |
 | KIW  | KIWI       |
 | LYNX  | LYNX               |
