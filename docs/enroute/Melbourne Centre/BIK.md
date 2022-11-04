@@ -28,14 +28,16 @@ b) The airspace within the lateral limits of the CB TCU above FL245, except for 
 (vatsys map)
 ## Sector Responsibilities
 ### Bindook (BIK)
-BIK will provide final sequencing actions in to YSSY. For aircraft overflying the SY TMA, place *'O/FLY'* in the LABEL DATA field.
+BIK will provide final sequencing actions and descent into YSSY. For aircraft overflying the SY TMA, place *'O/FLY'* in the LABEL DATA field.
 
 ### Wollongong (WOL)
-WOL is reponsible for issuing STAR clearances and initial descent for aircraft bound for YSCB. WOL is also responsible for sequencing in to YSCB.
+WOL is reponsible for issuing STAR clearances and initial descent for aircraft inbound to YSCB. WOL is also responsible for sequencing in to YSCB.
 ### Gundagai (GUN)
-GUN assigns and issues arrival clearance for aircraft inbound to Sydney via RIVET and ODALE. GUN will assing aircraft an initial descent clearance to FL250. GUN will transfer responsibility of control to BIK at the latter of:  
-a) readback of STAR and descent clearance  
-b) xxx NM from BIK/GUN border //do we need this info? will standard handoff procedures be adequate?
+GUN is reponsible for issuing STAR clearances and initial descent for aircraft inbound to YSSY via RIVET and ODALE, as well as initial sequencing actions into YSSY. Aircraft cruising above FL250 should be assigned `F250` and handed to BIK for further descent.  Aircraft cruising below FL250 should be transferred to BIK at their cruise level.
+
+!!! note
+    Non-jet aircraft from the west/south are processed via the ODALE STAR into YSSY.  If a subsector of BIK is operated by another controller, this subsector should issue STAR clearance **without a runway assignment** either on first contact or with airways clearance if departing from a CTAF.  The BIK controller will issue runway assignment on first contact with the aircraft, allowing them to refine the sequence into YSSY more effectively.
+    E.g. *"QLK52, cleared to Sydney via AKMIR, flight planned route, ODALE7 arrival, climb to FL190"*
 
 ## Coordination
 ### BIK/WOL / SY TCU
