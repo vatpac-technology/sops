@@ -33,7 +33,7 @@ BIK will provide final sequencing actions and descent into YSSY. For aircraft ov
 ### Wollongong (WOL)
 WOL is reponsible for issuing STAR clearances and initial descent for aircraft inbound to YSCB. WOL is also responsible for sequencing in to YSCB.
 ### Gundagai (GUN)
-GUN is reponsible for issuing STAR clearances and initial descent for aircraft inbound to YSSY via RIVET and ODALE, as well as initial sequencing actions into YSSY. Aircraft cruising above FL250 should be assigned `F250` and handed to BIK for further descent.  Aircraft cruising below FL250 should be transferred to BIK at their cruise level.
+GUN is reponsible for issuing STAR clearances and initial descent for aircraft inbound to YSSY via RIVET and ODALE, as well as initial sequencing actions into YSSY. Aircraft cruising above FL250 should be assigned *no lower* than `F250` and handed to BIK for further descent.  Aircraft cruising below FL250 should be transferred to BIK at their cruise level.
 
 !!! note
     Non-jet aircraft from the west/south are processed via the ODALE STAR into YSSY.  If a subsector of BIK is operated by another controller, this subsector should issue STAR clearance **without a runway assignment** either on first contact or with airways clearance if departing from a CTAF.  The BIK controller will issue runway assignment on first contact with the aircraft, allowing them to refine the sequence into YSSY more effectively.
