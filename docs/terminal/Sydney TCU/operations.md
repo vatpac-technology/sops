@@ -39,6 +39,9 @@ When assigning levels on descent to aircraft, remember that you will not receive
 
 !!! example
     For an aircraft inbound from the north on the BOREE3A arrival Runway 34R, assign no lower than `A060` until south of the field, then lower as required
+
+!!! tip
+    With aircraft side by side on the RIVET and ODALE STARs, lateral separation will be lost at around 13 DME due to the converging nature of the procedures.  Consider assigning vertically-separated levels to aircraft on each STAR if they are likely to be in close lateral proximity.
 ### Parallel Runway Operations
 
 #### Runway Selection
