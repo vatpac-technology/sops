@@ -6,12 +6,18 @@ title: Aircraft Callsigns
 
 This page lists some of the most commonly used callsigns in Australia.
 
+!!! tip
+    For any callsign not listed here or not immediately obvious, after confirming with the pilot or looking it up on google, place *"RTF/CALLSIGN (Callsign)"* in the Remarks section of the aircraft's flight plan, so that other controllers can be aware in advance.  
+    Eg: **NWK1601:** *"RTF/CALLSIGN NETLINK"*  
+    The pilot may have even filled this out in advance, so be sure to check the Remarks first.
+
 ## Airlines
 ### Domestic
 
 | ICAO | Callsign |          
 | ---- | ------------------ |
 | ADA | AUSCAL |
+| AE | AIRMED |
 | ANO | TOPEND |
 | AWK | AIRWORK |
 | BNZ | BONZA |
@@ -148,6 +154,7 @@ For more info on military callsigns, and ones not listed here, refer to [MATS Ch
 | EVY  | ENVOY      |
 | FALC | FALCON          |
 | HDDO  | HOODOO              |
+| HDSN  | HUDSON              |
 | HPST  | HIPSHOT              |
 | KIW  | KIWI       |
 | LYNX  | LYNX               |
@@ -167,6 +174,7 @@ For more info on military callsigns, and ones not listed here, refer to [MATS Ch
 | RCH | REACH          |
 | RLTS  | ROULETTES              |
 | RNGD  | RENEGADE            |
+| ROLR  | ROLLER              |
 | SABR  | SABRE      |
 | SELN | SEA LION          |
 | SPTN  | SPARTAN           |

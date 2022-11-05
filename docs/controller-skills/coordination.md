@@ -28,6 +28,9 @@ Once this coordination is completed, the aircraft's level and route is **locked 
     **ELW** -> **BIK**: "VOZ1234, requesting DCT RIVET"  
     **BIK** -> **ELW**: "VOZ1234, concur DCT RIVET"  
 
+!!! tip
+    In situations where Heads-Up Coordination is required, the best time to do it is when the aircraft first calls you. There's no need to wait until half a mile before when its due, if you can get it done sooner.
+
 ### Voiceless
 
 Certain routes, areas, levels, airspace, etc, will have voiceless coordination agreements, which is where Heads-Up Coordination is not required. These routes may also have change parameters, where no changes are permitted within a certain distance of the sector boundary without prior coordination.
@@ -49,25 +52,28 @@ The Boundary Sector may omit the restriction and readback the callsign only. Thi
     **INL** -> **BAS**: "For Ident, West of BLAKA, ABC"  
     **BAS** -> **INL**: "ABC"
 
-## Rules
-### The C-Prompt (Coordination Prompt)
-Once all voice coordination is complete for an aircraft, display the "C-Prompt" by middle clicking the area just above the aircraft's callsign in the label. *Note: This includes if the aircraft is subject to voiceless coordination, which most aircraft are.
+## The C-Prompt (Coordination Prompt)
+Display the "C-Prompt" when all coordination for an aircraft is complete, or voice coordination is not required for an aircraft (eg subject to voiceless coordination).
+
+The "C-Prompt" can be displayed by middle clicking the area just above the aircraft's callsign in the label.
 
 <figure markdown>
 ![C-Prompt](img/cprompt.png){ width="200" }
   <figcaption>C-Prompt</figcaption>
 </figure>
 
-Remove the "C-Prompt" once the aircraft has correctly read back the frequency you have handed them off to.
+Remove the "C-Prompt" once jurisdiction of the aircraft has been handed off, and the new frequency has been correctly read back.
 
-### General
+## Rules
+## General
 Coordination must be done on a **point-to-point** basis. Meaning, you can only coordinate with the sector which the aircraft is coming from, or going to, no skipping! This is important to remember, for example, if you are controlling ELW, and you would like to pass an amended route to someone on the ground at YMML. Whilst that may be no issue for ELW, ML SMC and ML ADC, it might not work for ML APP. ML APP would be the sector which the aircraft is coming from, so ELW must talk to them, and it is the responsibility of ML APP to work backwards down the line on a point-to-point basis.
 
 Ensure no coordination is ambiguous in its meaning. Not all coordination can be straight out of the phraseology books, and the reality is, not everyone controlling the airspace is going to be 100% proficient and by the books. When using "plain english", ensure there is no ambiguity, and the message is fully understood by both parties.
-
-### ENR/TCU -> Class D TWR
+### ENR/TCU -> Metro Class D TWR
 Voice coordinate Sequence **prior to transfer**
-### Class D TWR -> ENR/TCU
+### ENR -> Procedural Class D TWR
+Voice coordinate Sequence prior to **5 mins** from boundary
+### All Class D TWR -> ENR/TCU
 Voice coordinate Taxi call for CTA departures, Next call for **all** departures
 ### ENR -> TCU
 **Voiceless** for aircraft landing at main airport (eg YMML in ML TCU), assigned a STAR, and standard assignable level.  
