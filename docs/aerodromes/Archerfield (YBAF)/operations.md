@@ -30,11 +30,11 @@ Tower airspace is defined as between SFC to 1500 FT.
 ## VFR Arrival Procedures
 
 | VFR Approach Point | RWYs 04  | RWYs 22 | RWYs 10  | RWYs 28 | 
-| ----------------   | --------- | ---------- | --------- | ---------- |
-| TV Towers (TVT)    |        |         |        |         |
-| Goodna    (GON)    |        |         |        |         |
-| Park Ridge (PKR)   |        |         |        |         |
-| Target (TAR)       |        |         |        |         |
+| ----------------   | --------- | ------------- | --------- | ---------- |
+| TV Towers <br> (TVT)    |  Join Base RWY 04L <br> Report Centenary Bridge | Join Base RWY 22R <br> Report Centenary Bridge | Join Final RWY 10L <br> Report Centenary Bridge | Join Downwind RWY 28R <br> Report Centenary Bridge |
+| Goodna   <br> (GON)    |  Join Final RWY 04L                             | Join Downwind RWY 22R                          | Join Final RWY 10R | Join Downwind RWY 28L        |
+| Park Ridge <br> (PKR)   |  Join Base RWY 04R <br> Report Logan Bridge     | Join Base RWY 22L <br> Report Logan Bridge     | Join Base RWY 10R <br> Report Logan Bridge  | Join Base 28L <br> Report Logan Bridge         |
+| Target <br> (TAR)       |  Join Base RWY 04R                              | Join Base RWY 22L                              | Join Downwind RWY 10R       | Join Final RWY 28L        |
 
 Entry into the Archerfield CTR shall be at 1500ft.
 
@@ -77,3 +77,17 @@ Circuits are to be flown at 1000ft.
 ## ATIS
 #### Operational Info
 
+Use the following Runway Modes;
+
+| Runway | ATIS  |
+| ----------------| --------- |
+| Single RWY      | ALL OPERATIONS RWY (Number) |
+| RWY 10/28       | RWY 10L/28R FOR ARRIVALS AND DEPARTURES NORTH; and <br> RWY 10R/28L FOR ARRIVALS AND DEPARTURES SOUTH |
+| RWY 04          | RWY 04L FOR ARRIVALS AND DEPARTURES NORTH AND WEST; and <br> RWY 04R FOR ARRIVALS AND DEPARTURES SOUTH AND EAST |
+| RWY 22          | RWY 22. EASTERN DEPARTURES NOT AVAILABLE. <br> RWY 22R FOR ARRIVALS AND DEPARTURES NORTH AND WEST <br> RWY 22L FOR ARRIVALS SOUTH AND EAST AND DEPARTURES SOUTH |
+
+#### Expect Instrument Approach
+
+Include **Expect Instrument Approach** on the ATIS when:  
+  - the ceiling is at or below A029; or  
+  - visibility is less than 5000m  

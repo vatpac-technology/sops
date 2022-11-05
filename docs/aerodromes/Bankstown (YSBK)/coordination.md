@@ -8,7 +8,7 @@
 
 ### Taxi Call
 
-Whilst the aircraft is taxiing, the Ground Controller Coordinate with the controller responsible for SDS who will issue their airways clearance.
+Whilst the aircraft is taxiing, the Ground Controller will Coordinate with the controller responsible for SDS who will issue their airways clearance.
 !!! example
     **BK SMC** -> **SY TCU**: "Taxi's, UJN, Dubbo, 29C”  
     **SY TCU** -> **BK SMC**: “UJN, Cleared to Dubbo via KADOM Flight Planned Route, Bankstown 8 Departure, Climb via SID A030, Squawk 3342”  

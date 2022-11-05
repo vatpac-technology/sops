@@ -27,7 +27,7 @@
 | Jandakot | Zach G | Not Started |
 | Moorabbin | Alex D | Complete, To be reviewed |
 | Camden | Matt E | Complete, To be reviewed |
-| Archerfield | - | Started |
+| Archerfield | Matt E | In Progress |
 | Parafield | Alex M | Not Started |
 | Bankstown | Tyler B | Complete, To be reviewed |
 

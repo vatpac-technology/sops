@@ -8,7 +8,7 @@
 
 ### Taxi Call
 
-Whilst the aircraft is taxiing, the Ground Controller Coordinate with the controller responsible for Sydney Departures South (SDS).
+Whilst the aircraft is taxiing, the Ground Controller will Coordinate with the controller responsible for Sydney Departures South (SDS).
 In response to a taxiies call, SY TCU will issue a squawk code.
 
 CN TWR must advise SY TCU when the aircraft has called 'Ready'.
