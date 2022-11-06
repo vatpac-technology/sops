@@ -27,15 +27,15 @@ Tower airspace is defined as between SFC to 2000 FT.
 
 | VFR Approach Point | RWYs 06  | RWYs 24 |
 | ----------------| --------- | ---------- |
-| Bringelly (BRY)    | Join Downwind RWY 06, Maintain 1800ft, Report 3NM     | Join Final RWY 24, Maintain 1800ft, Report Oran Park (ONPK)       |
-| Menangle (MEG)   | Join Midfield Crosswind RWY 06, Maintain 1800ft, Report 3NM      | Join Midfield Crosswind RWY 24, Maintain 1800ft, Report 3NM       |
-| Picton (PIC)   | Join Final RWY 06, Maintain 1800ft, Report 3NM      | Join Downwind RWY 24, Maintain 1800ft, Report 3NM       |
-| The Oaks (THK)   | Join Final RWY 06, Maintain 1800ft, Report 3NM    | Join Downwind RWY 24, Maintain 1800ft, Report 3NM      |
-| Mayfield (MYF)   | Join Base RWY 06, Maintain 1800ft, Report 3NM      | Join Base RWY 24, Maintain 1800ft, Report 3NM       |
+| Bringelly (BRY)    | Join Downwind RWY 06, Maintain 1800ft, Report 2NM     | Join Final RWY 24, Maintain 1800ft, Report Oran Park (ONPK)       |
+| Menangle (MEG)   | Overfly Camden to join Mid-Field Crosswind RWY 06, Maintain 1800ft, Report Overhead      | Overfly Camden to join Mid-Field Crosswind RWY 24, Maintain 1800ft, Report Overhead       |
+| Picton (PIC)   | Overfly Camden to join Mid-Field Crosswind RWY 06, Maintain 1800ft, Report Overhead      | Overfly Camden to join Mid-Field Crosswind RWY 24, Maintain 1800ft, Report Overhead       |
+| The Oaks (THK)   | Join Final RWY 06, Maintain 1800ft, Report 3NM    | Join Downwind RWY 24, Maintain 1800ft, Report 2NM      |
+| Mayfield (MYF)   | Join Base RWY 06, Maintain 1800ft, Report 2NM      | Join Base RWY 24, Maintain 1800ft, Report 2NM       |
 
 When Aircraft are clear of conflicting traffic below, aircraft may be issued a Visual Approach.
 
-Sequencing Instruction: When the aircraft reports at either 3NM, or on Downwind, issue the aircraft its sequence (if different from previous circuit)
+Sequencing Instruction: When the aircraft reports at their specified report (or downwind), issue the aircraft its sequence (if different from previous circuit)
 *Example: "ABC, Number 3 Runway 06, Follow C172 on Base"*
 
 
