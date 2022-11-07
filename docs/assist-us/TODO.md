@@ -26,8 +26,8 @@
 | Rockhampton | - | Not Started |
 | Jandakot | Zach G | Not Started |
 | Moorabbin | Alex D | Complete, To be reviewed |
-| Camden | - | Not Started |
-| Archerfield | - | Not Started |
+| Camden | Matt E | In Progress |
+| Archerfield | Matt E | In Progress |
 | Parafield | Alex M | Not Started |
 | Bankstown | Tyler B | Complete, To be reviewed |
 
