@@ -83,7 +83,7 @@ When the crosswind component exceeds 15 knots, the OPR INFO field must include:
 
 #### Taxi Call
 
-Whilst the aircraft is taxiing, the Ground Controller Coordinate with the controller responsible for SDS who will issue their airways clearance.
+Whilst the aircraft is taxiing, the Ground Controller will coordinate with the controller responsible for SDS who will issue their airways clearance.
 !!! example
     **BK SMC** -> **SY TCU**: "Taxis UJN, Dubbo, runway 29C"  
     **SY TCU** -> **BK SMC**: "UJN, cleared to Dubbo via KADOM flight planned route, Bankstown 8 departure, climb via SID A030, squawk 3342"  
