@@ -35,7 +35,7 @@ Except when the traffic situation warrants, taxi clearances shall conform to the
 </figure>
 
 !!! tip
-    For aircraft taxiing northbound on B, consider instructing them to hold short of taxiway B8 when 34L is in use for arrivals, in order to separate from aircraft using the B9 rapid exit.
+    For aircraft taxiing northbound on B, consider instructing them to hold short of taxiway B8 when 34L or 16R are in use for arrivals, in order to separate from aircraft using the B7 & B9 rapid exits.
 
 Intersection departures are not permitted for Jet aircraft on runway 34L. `ERSA FAC YSSY`
 ## Airspace
@@ -105,7 +105,7 @@ During times of peak fixed wing traffic, instruct helicopters to hold at their d
     **SY ADC:** "YOE"
 
 !!! tip
-    Some Kopter Routes may conflict with fixed wing approach/departure paths, so use common sense to separate helicopters when required.  For example, during 34 PROPS, it may be more suitable for helicopters to track "via Long Bay to the Boat Ramp" and hold at the Boat Ramp if required, or the **Cape Banks 5 Inbound** rather than taking the **Maroubra 5 Inbound**, due to it's close proximity to the **MARUB SID**.  In any case, if pilots are unfamiliar with local landmarks, simplify your instructions to assist them while maintaining separation.
+    Some Kopter Routes may conflict with fixed wing approach/departure paths, so use common sense to separate helicopters when required.  For example, during 34 PROPS, it may be more suitable for helicopters to track via the **Cape Banks 5 Inbound** rather than taking the **Maroubra 5 Inbound**, due to it's close proximity to the **MARUB SID**.  In any case, if pilots are unfamiliar with local landmarks, simplify your instructions to assist them while maintaining separation.
 
 ## Runway Modes
 Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
@@ -128,20 +128,20 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
     In general, the SODPROPS, 16D/07A, and 25D/34A modes are most suitable for Noise Abatement. The PROPS modes are most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Milk Run Monday or Panic Stations.
 
 !!! tip
-    Take in to account an aircraft's weight when Runway 16L/34R or 07/25 are in use. The aircraft may operationally require the longer Runway 16R/34L. If in doubt, ask the pilot. The aircraft may simply want a departure from 16R instead of 16L so they have a shorter taxi, for example. If the traffic situation permits, try to be accommodating of these requests.
+    Take in to account an aircraft's weight when runways 16L/34R or 07/25 are in use. Heavier aircraft may operationally require the longer Runway 16R/34L, or pilots may prefer a departure from 16R instead of 16L so they have a shorter taxi. If in doubt, ask the pilot and try to be accommodating of these requests.
 
 When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time.
 
 !!! example
-    **SY ADC:** "ABC, Traffic is DEF, a 737, on short final for the opposite direction parallel runway. Runway 16L, Cleared for Takeoff"  
-    **ABC:** "Cleared for Takeoff Runway 16L, ABC"  
-    **SY ADC:** "DEF, Traffic is ABC, an A320, departing from the opposite direction parallel runway to the South-East. Runway 34L, Cleared to Land"  
-    **DEF:** "Cleared to Land Runway 34L, DEF"  
+    **SY ADC:** "JST521, traffic is a 737 on a 3nm final for the opposite direction parallel runway, runway 16L, cleared for takeoff"  
+    **JST521:** "Runway 16L, cleared for takeoff, JST521"  
+    **SY ADC:** "VOZ954, traffic is an A320 departing from the opposite direction parallel runway to the southeast, runway 34L, cleared to land"  
+    **VOZ954:** "Runway 34L, cleared to land, VOZ954"  
 ## Parallel Runway Operations
 
 #### Go-arounds / Missed Approaches
-When operating under PROPS, go around headings shall diverge from the extended centreline by at least 30° away from the parallel runway. Aircraft on the ILS may follow the Published Missed Approach in order to meet this requirement.  
-Go Arounds / Missed Approaches shall be coordinated to the SY TCU as per the standard procedure.
+When operating under PROPS, go around headings shall diverge from the extended centreline of the parallel runway by at least 30°. Aircraft cleared the ILS or IVA may follow the published missed approach in order to meet this requirement.  
+Go arounds / missed approaches shall be coordinated with the SY TCU as per the standard procedure.
 
 #### Runway Selection
 Unless operationally required, aircraft shall be assigned the following runways for departure when PROPS are in progress:
@@ -171,35 +171,35 @@ Jet Aircraft **not** planned via **KADOM**, **WOL**, **RIC**, or **ENTRA**, and 
 !!! note
     Heavier aircraft on long-haul flights may not be able to achieve the Climb Gradient required of the Procedural SIDs. In this instance, they shall be assigned the **Radar SID**, as it has a shallower minimum Climb Gradient. If in doubt, ask the pilot.
 
-All other aircraft (Non-Jet aircraft, Aircraft with shallow Climb Gradient, and Aircraft using Runway 25), shall be assigned the **Radar SID**.
+All other aircraft (non-jet aircraft, aircraft requiring a shallow climb gradient, and all aircraft using runway 25) shall be assigned the **Radar SID**.
 
 !!! example
     Non-Jet Aircraft planned via CORDO, assigned runway 16R, shall be given the SYDNEY# departure.
 
 !!! tip
-    A Radar SID (eg, SYDNEY 2 departure) is distinct from a SID with a RADAR transition (eg, RICHMOND 5 departure, RADAR transition) SIDs with a RADAR Transition are still considered Procedural SIDs. A Radar SID can be identified in the DAPs (link) as having a "(RADAR)" at the end of the name.
+    A radar SID (e.g. SYDNEY 2 departure) is distinct from a procedural SID with a RADAR transition (eg, RICHMOND 5 departure, RADAR transition). A Radar SID can be identified in the DAPs (link) as having a "(RADAR)" at the end of the name.
 ## ATIS
 #### Approach Types
 
 | Cloud Base             | Visibility     | Approach                             |
 | -----------------------| -------------- | -------------------------------------|
-| >3000FT                | >5000M         | `EXPECT INDEPENDENT VISUAL APPROACH` |
-| Between 2000FT & 3000FT| >5000M         | `EXPECT INSTRUMENT APPROACH THEN INDEPENDENT VISUAL APPROACH WHEN VISUAL`|
-| Below 2000FT **or**    | <5000M         | `EXPECT INSTRUMENT APPROACH`                |
+| >3000FT                | >5000M         | `EXP INDEP VISUAL APCH` |
+| Between 2000FT & 3000FT| >5000M         | `EXP INST APCH THEN INDEP VISUAL APCH WHEN VISUAL`|
+| Below 2000FT **or**    | <5000M         | `EXP INST APCH`                |
+
+When Independent Visual Approaches are run during PROPS, the APCH field must also include:  
+`DO NOT PASS THRU ASSIGNED RWY CL`
 
 #### Operational Info
 
 When parallel runways are used for departures but inbound traffic levels don't necessitate independent approaches (low traffic levels), the ATIS OPR INFO shall include:  
-`INDEPENDENT PARALLEL DEPARTURES IN PROGRESS`  
+`INDEP PARL DEPS IN PROG`  
 
 When parallel runways are used for departures and the arrival sequence requires independent approaches (high traffic levels), the ATIS OPR INFO shall include:  
-`INDEPENDENT PARALLEL APPROACHES AND DEPARTURES IN PROGRESS`   
+`INDEP PARL APPROACHES AND DEPS IN PROG`   
 
 When SODPROPS are in operation, the ATIS OPR INFO shall include:  
-`SIMULTANEOUS OPPOSITE DIRECTION PARALLEL RUNWAY OPERATIONS IN PROGRESS`  
-
-When Independent Visual Approaches are run during PROPS, the APCH must also include:  
-`DO NOT PASS THRU ASSIGNED RWY CL`
+`SIMUL OPP DIR PARL RWY OPS IN PROG`  
 
 !!! example
     <figure markdown>
@@ -241,17 +241,19 @@ a) VFR Departures
 b) Aircraft using a runway not on the ATIS
 
 !!! example
-    **ABC** -> **SY ACD**: "Sydney Delivery, ABC, Requesting clearance for a Northbound VFR Coastal departure at A035"  
-    **SY ACD** -> **ABC**: "ABC, Sydney Delivery, Standby"  
-    **SY ACD** -> **SY TCU**: "ABC, Requesting clearance for a Northbound VFR Coastal departure at A035"  
-    **SY TCU** -> **SY ACD**: "ABC, Cleared for a Northbound VFR Coastal departure, A035"  
-    **SY ACD** -> **SY TCU**: "Cleared for a Northbound VFR Coastal departure, A035, ABC"  
-    **SY ACD** -> **ABC**: "ABC, Cleared for a Northbound VFR Coastal departure, A035, Squawk 3601"  
-    **ABC** -> **SY ACD**: "Cleared for a Northbound VFR Coastal departure, A035, 3601, ABC"  
+    **TEK:** "Sydney Delivery, TEK, for Shellharbour via Cronulla, A025, request clearance"  
+    **SY ACD:** "TEK, Sydney Delivery, standby"    
+
+    **SY ACD** -> **SY TCU**: "TEK, requesting clearance for Shellharbour via Cronulla, A025"  
+    **SY TCU** -> **SY ACD**: "TEK, cleared to Shellharbour via Cronulla, A025"  
+    **SY ACD** -> **SY TCU**: "Cleared to Shellharbour via Cronulla, A025, TEK"   
+
+    **SY ACD:** "TEK, cleared to Shellharbour via Cronulla, climb A025, squawk 0552, departure frequency 123.0"  
+    **TEK:** "Cleared to Shellharbour via Cronulla, climb A025, squawk 0552, departure frequency 123.0, TEK"  
 
 ## Standard Assignable Departure Headings
 
-Aircraft that have been assigned the **Radar SID** must be assigned a heading on departure. “Next” coordination is not required to the SY TCU controller when the departing aircraft has been assigned the standard assignable level, and has been cleared via the headings listed below:
+Aircraft that have been cleared the **Radar SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required to the SY TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
 
 | Runway | Jet | Non-Jet 
 | ----------------- | -------------- | ---------------- |
@@ -263,7 +265,7 @@ Aircraft that have been assigned the **Radar SID** must be assigned a heading on
 | 34R                | 030, 070          | 350 |
 
 !!! information
-    Where multiple standard assignable headings are available, assign the heading most suitable for the aircraft's direction of flight
+    Where multiple standard assignable headings are available, assign the heading most suitable for the aircraft's direction of flight.
 
 !!! tip
     If strong winds are present at altitude, TWR/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
