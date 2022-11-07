@@ -27,14 +27,26 @@ Tower airspace is defined as between SFC to 1500 FT.
   <figcaption>Bankstown Tower Airspace</figcaption>
 </figure>
 
-## VFR Inbound Procedures
+## Fixed-Wing Operations
+### VFR Inbound Procedures
+VFR aircraft will report inbound at `PSP` or `TWRN` at `A015` (when RWY 29s are in use) or `A010` (when RWY 11s are in use).  They should be instructed to join the circuit as below:
 
 | VFR Approach Point | RWYs 29  | RWYs 11 |
 | ----------------| --------- | ---------- |
-| Prospect Reservoir (PSP)    | Join right downwind, maintain A015 (Abeam RWYs 11 threshold or clear of departing traffic), cleared visual approach       | Join final or Join upwind at or below A010        |
-| 2RN (TWRN)   | Join right crosswind, maintain A015 (Abeam RWYs 11 threshold or clear of departing traffic), cleared visual approach | Join final, report at Warwick Farm at or below A010  |
+| Prospect Reservoir (PSP)    | *"Join right downwind runway 29R, maintain A015"*, then when abeam RWYs 11 threshold or clear of departing traffic, *"Cleared visual approach"*       | *"Join final runway 11L, report 3nm"*        |
+| 2RN (TWRN)   | *"Join crosswind runway 29R, maintain A015"*, then when abeam RWYs 11 threshold or clear of departing traffic, *"Cleared visual approach"* | *"Join final runway 11L, report at Warwick Farm"*  |
 
-## Circuits
+!!! note
+    Aircraft joining final in the RWY 11 direction are not assigned a level and are expected to commence a visual approach in accordance with the tracking instructions issued by TWR.  There is no need to clear these aircraft for a visual approach.
+
+### VFR Outbound Procedures
+VFR aircraft should report ready to **BK ADC** with their departure intentions.  A takeoff clearance constitutes a clearance to depart the zone by extending the pilot's requested leg of the circuit.  Aircraft departing the zone into class G airspace will transfer to area frequency upon leaving the zone, **no explicit frequency transfer is given to these aircraft**.
+
+Aircraft departing a leg of the circuit will climb to and maintain the following levels until clear of the zone:  
+RWY 29 direction: `A010`  
+RWY 11 direction: `A015`
+
+### Circuits
 The circuit direction changes depending on time of day and runway being used.
 
 | Runway | Day  | Night |
@@ -46,14 +58,24 @@ The circuit direction changes depending on time of day and runway being used.
 | 29C    | Right | Left         |
 | 29R    | Right        | -  |
 
-Circuits to be flown at A010
+Circuits to be flown at `A010`
+
+## Helicopter Operations
+### Inbound Procedures
+Reserved.
+### Outbound Procedures
+Reserved.
+### Circuits
+Reserved.
 
 ## ATIS
-#### Operational Info
+### Runway Nomination
+The ATIS must indicate the current runway config and nominate what each parallel runway is being used for.  The northern runway (11L/29R) is primarily used for VFR arrivals and departures, the southern runway (11R/29L) for circuit training, and the centre runway for IFR arrivals/departures and VFR overflow.  
 
-ATIS broadcast for runway shall follow the format: 
-`RWY 11L (or 29R) FOR ARRIVALS AND DEPARTURES; RWY 11R (or 29L) FOR CIRCUIT TRAINING; RWY 11C (or 29C) IN USE`  
-When the crosswind component exceeds 15 knots, include in the ATIS: 
+This should be reflected on the ATIS as below:  
+`RWY 11L FOR ARRIVALS AND DEPARTURES; RWY 11R FOR CIRCUIT TRAINING; RWY 11C IN USE`
+### Operational Info
+When the crosswind component exceeds 15 knots, the OPR INFO field must include:  
 `CROSSWIND ALERT – DO NOT PASS THROUGH FINAL FOR YOUR ASSIGNED RUNWAY`
 
 ## Coordination
@@ -63,9 +85,9 @@ When the crosswind component exceeds 15 knots, include in the ATIS:
 
 Whilst the aircraft is taxiing, the Ground Controller Coordinate with the controller responsible for SDS who will issue their airways clearance.
 !!! example
-    **BK SMC** -> **SY TCU**: "Taxi's, UJN, Dubbo, 29C”  
-    **SY TCU** -> **BK SMC**: “UJN, Cleared to Dubbo via KADOM Flight Planned Route, Bankstown 8 Departure, Climb via SID A030, Squawk 3342”  
-    **BK SMC** -> **SY TCU**: “Cleared to Dubbo via KADOM Flight Planned Route, Bankstown 8 Departure, Climb via SID A030, Squawk 3342, UJN”  
+    **BK SMC** -> **SY TCU**: "Taxis UJN, for Dubbo, runway 29C"  
+    **SY TCU** -> **BK SMC**: "UJN, cleared to Dubbo via KADOM flight planned route, Bankstown 8 departure, climb via SID A030, squawk 3342"  
+    **BK SMC** -> **SY TCU**: "Cleared to Dubbo via KADOM flight planned route, Bankstown 8 departure, climb via SID A030, squawk 3342, UJN" 
 
 
 ### BK ADC / SY TCU
@@ -75,35 +97,33 @@ Whilst the aircraft is taxiing, the Ground Controller Coordinate with the contro
 Tower will now coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
 
 !!! example
-    **BK ADC** -> **SY TCU**: "Next, UJN, 29C”  
-    **SY TCU** -> **BK ADC**: “UJN, Unrestricted"
+    **BK ADC** -> **SY TCU**: "Next, UJN, runway 29C"  
+    **SY TCU** -> **BK ADC**: "UJN, unrestricted"
 
 !!! information
-    Keep in mind some Class D aerodromes only allow 1 IFR aircraft in the CTR at any one time so Approach Centre Controllers will either approve or deny the release of the aircraft until there is a slot available for them.
-
-Once the aircraft is clear of the Class D CTR either vertically or laterally the tower controller will tell them to contact the relevant frequency. 
+    Due to the size of the CTR, only one IFR aircraft can occupy the airspace at any one time.  This includes aircraft established inbound on an instrument approach, even if they're not yet in the CTR.  Due to this, there may be a delay between a 'Next' call and the TCU controller releasing that aircraft.
 
 ### SY TCU / BK TWR
 
 #### Arrival Coordination
 
-SY TCU will coordinate with BK ADC for incoming IFR arrivals on either Visual Tracking, RNP or NDB approaches
+SY TCU will coordinate with BK ADC for incoming IFR arrivals on either Visual Tracking, RNP or NDB approaches.
 
 ##### Visual Tracking
 
 !!! example
-    **SY TCU** -> **BK ADC**: “Estimate, UJN via TWRN time 02.”  
-    **BK ADC** -> **SY TCU**: “UJN” 
+    **SY TCU** -> **BK ADC**: "Estimate, UJN via TWRN time 02."  
+    **BK ADC** -> **SY TCU**: "UJN"
 
 ##### IAP Tracking
 
 !!! example
-    **SY TCU** -> **BK ADC**: “Estimated Approach Time, UJN via RNP at time 59”  
-    **BK ADC** -> **SY TCU**: “via RNP, UJN”   
-    **BK Tower Must Clear Aircraft for Final, before SY TCU issues approach clearance.**  
-    **SY TCU** -> **BK ADC**: “Request clearance for final, UJN”  
-    **BK ADC** -> **SY TCU**: “UJN Cleared RNP 11C” 
-    **SY TCU** -> **BK ADC**: “Cleared RNP 11C, UJN”  
+    **SY TCU** -> **BK ADC**: "Estimated approach time, UJN via RNP at time 59"  
+    **BK ADC** -> **SY TCU**: "Via RNP, UJN"   
+    *BK Tower must clear aircraft for final, before SY TCU issues approach clearance.*  
+    **SY TCU** -> **BK ADC**: "Request clearance for final, UJN"  
+    **BK ADC** -> **SY TCU**: "UJN cleared RNP 11C" 
+    **SY TCU** -> **BK ADC**: "Cleared RNP 11C, UJN"  
 
 ### SDS / SY TCU
 
