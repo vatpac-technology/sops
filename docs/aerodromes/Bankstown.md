@@ -85,7 +85,7 @@ When the crosswind component exceeds 15 knots, the OPR INFO field must include:
 
 Whilst the aircraft is taxiing, the Ground Controller Coordinate with the controller responsible for SDS who will issue their airways clearance.
 !!! example
-    **BK SMC** -> **SY TCU**: "Taxis UJN, for Dubbo, runway 29C"  
+    **BK SMC** -> **SY TCU**: "Taxis UJN, Dubbo, runway 29C"  
     **SY TCU** -> **BK SMC**: "UJN, cleared to Dubbo via KADOM flight planned route, Bankstown 8 departure, climb via SID A030, squawk 3342"  
     **BK SMC** -> **SY TCU**: "Cleared to Dubbo via KADOM flight planned route, Bankstown 8 departure, climb via SID A030, squawk 3342, UJN" 
 
@@ -99,9 +99,6 @@ Tower will now coordinate with the relevant Class C sector above them for permis
 !!! example
     **BK ADC** -> **SY TCU**: "Next, UJN, runway 29C"  
     **SY TCU** -> **BK ADC**: "UJN, unrestricted"
-
-!!! information
-    Due to the size of the CTR, only one IFR aircraft can occupy the airspace at any one time.  This includes aircraft established inbound on an instrument approach, even if they're not yet in the CTR.  Due to this, there may be a delay between a 'Next' call and the TCU controller releasing that aircraft.
 
 ### SY TCU / BK TWR
 
