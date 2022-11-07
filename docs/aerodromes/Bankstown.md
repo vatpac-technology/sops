@@ -117,20 +117,21 @@ SY TCU will coordinate with BK ADC for incoming IFR arrivals on either Visual Tr
 !!! example
     **SY TCU** -> **BK ADC**: "Estimated approach time, UJN via RNP at time 59"  
     **BK ADC** -> **SY TCU**: "Via RNP, UJN"   
+
     *BK Tower must clear aircraft for final, before SY TCU issues approach clearance.*  
     **SY TCU** -> **BK ADC**: "Request clearance for final, UJN"  
-    **BK ADC** -> **SY TCU**: "UJN cleared RNP 11C" 
+    **BK ADC** -> **SY TCU**: "UJN cleared RNP 11C"  
     **SY TCU** -> **BK ADC**: "Cleared RNP 11C, UJN"  
 
 ### SDS / SY TCU
 
 #### Miscellaneous
 
-If departure is Runway 11 into CTA, coordination is required with Director (or SDS) if open, as the "Half a Radar Sep Standard From Sector Boundary" rule.
+If aircraft are cleared off runway 11 into CTA, coordination is required with **Director West (SDW)** or **Departures South (SDS)** (depending on YSSY runway config) as the aircraft will pass closer than 'half a radar sep standard from the sector boundary'.
 
 !!! Example
-    **SDS** -> **SY TCU**: “Request left turn our of Bankstown”  
-    **SY TCU** -> **SDS**: "Approved" (no callsigns need be used here)  
+    **SDS** -> **SY TCU**: “Request left turn out of Bankstown”  
+    **SY TCU** -> **SDS**: "Approved" *(no callsigns need be used here)*  
 
 ## Standard Assignable Levels
 
