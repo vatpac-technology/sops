@@ -101,7 +101,7 @@ Helicopters shall report ready to **BK ADC** with their departure intentions.  I
 
     Example:  
     *"XEL, traffic is a helicopter overflying the aerodrome to the south at 500ft, runway left, cleared touch and go"*  
-    *"YZD, traffic is a Cherokee turning final for runway left, depart CSTH, main pad, cleared for takeoff"*
+    *"YZD, traffic is a Cherokee turning final for runway left, depart Choppers South, main pad, cleared for takeoff"*
 ### Circuits
 Circuits are conducted within the lateral confines of the fixed-wing circuit at `A007`, in the same direction as the current runway config.  The termination point of the circuit is the Main Pad.
 
