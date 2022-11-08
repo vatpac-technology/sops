@@ -1,5 +1,5 @@
 ---
-  title: Operations
+  title: Perth TCU
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -13,7 +13,8 @@
 | Melbourne Departures South†   |MDS| Melbourne Departures | 129.400          | ML-S_DEP         |
 | Melbourne Flow†        |MFL|                |          | ML-FLW_CTR                               |
 
-† **Non-standard position** – may only be used in accordance with VATPAC Ratings and Controller Positions Policy (link)
+† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}
+
 ## Airspace
 The Melbourne TMA spans a 30nm Radius around ML from SFC-FL245, as well as the AV CTR.   
 ML TCU is responsible for the Melbourne TMA, except:    
@@ -74,12 +75,12 @@ The divisions of the airspace between **PHA**, and **PHD** change based on the R
 
 ### 03/06
 <figure markdown>
-![03/06 TCU Structure](img/0306annotated.png){ width="700" }
+![03/06 TCU Structure](img/PH0306annotated.png){ width="700" }
   <figcaption>03/06 TCU Structure</figcaption>
 </figure>
 
 ### 21/24
 <figure markdown>
-![21/24 TCU Structure](img/2124annotated.png){ width="700" }
+![21/24 TCU Structure](img/PH2124annotated.png){ width="700" }
   <figcaption>21/24 TCU Structure</figcaption>
 </figure>
