@@ -61,12 +61,44 @@ The circuit direction changes depending on time of day and runway being used.
 Circuits to be flown at `A010`
 
 ## Helicopter Operations
+These procedures apply during hours of daylight only.  During hours of darkness, all helicopters must revert to fixed-wing operations.  
+
+The Main Pad (abeam taxiway Mike) is treated like a runway and requires a takeoff/landing clearance.  Helicopters are permitted to become airborne from a limited number of other locations on the aerodrome, such as taxiway November Two, and should be instructed to *"report airborne"* or *"report on the ground"*.
 ### Inbound Procedures
-Reserved.
+Helicopters should track inbound at `A007` via one of the normal inbound points (`PSP` or `TWRN`) or via Olympic Park and report to **BK ADC** at that point.  In response, **BK ADC** should instruct the aircraft to track as below:
+
+| Inbound Point | RWY 11 Config | RWY 29 Config |
+| ----------------| --------- | ---------- |
+| PSP | *"Report CWST"*, then <br>*"Join base main pad"* | *"Report CNTH"*, then <br>*"Join base main pad"* |
+| TWRN | *"Report CSTH, 500ft"*, then <br>*"Overfly midfield at 500ft, join downwind main pad"* | *"Report CSTH, 500ft"*, then <br>*"Overfly midfield at 500ft, join downwind main pad"* |
+| Olympic Park | *"Report CWST"*, then <br>*"Join base main pad"* | *"Report CNTH"*, then <br>*"Join base main pad"* |
+
+!!! note
+    Helicopters tracking via CSTH will pass over the runway complex midfield at `A005` to join downwind.  Be mindful of aircraft in the fixed-wing circuit and pass traffic information to both aircraft prior to the fixed-wing aircraft turning final.  
+
+    Example:  
+    *"LOI, traffic is a helicopter overflying the aerodrome to the north at 500ft, runway left, cleared touch and go"*  
+    *"YZD, traffic is a Cherokee turning final for runway left, overfly midfield at 500ft, join downwind main pad"*
 ### Outbound Procedures
-Reserved.
+Helicopters should track outbound via one of the helicopter reporting points at `A007`.  Departures to the north must track via `CWST` when RWY 29s are in use and `CNTH` when RWY 11s are in use.
+
+Helicopters shall report ready to **BK ADC** with their departure intentions.  In response, **BK ADC** will clear the aircraft for takeoff and instruct them to track via the appropriate exit gate.
+
+!!! example
+    **YZD:** "Bankstown Tower, helicopter YZD, main pad, for Choppers North departure, ready"  
+    **BK ADC:** "YZD, Bankstown Tower, depart Choppers North, main pad, cleared for takeoff"
+
+!!! note
+    Helicopters tracking via CSTH will pass over the runway complex midfield at `A005` to join downwind.  Be mindful of aircraft in the fixed-wing circuit and pass traffic information to both aircraft prior to the helicopter becoming airborne.  
+
+    Example:  
+    *"XEL, traffic is a helicopter overflying the aerodrome to the south at 500ft, runway left, cleared touch and go"*  
+    *"YZD, traffic is a Cherokee turning final for runway left, depart CSTH, main pad, cleared for takeoff"*
 ### Circuits
-Reserved.
+Circuits are conducted within the lateral confines of the fixed-wing circuit at `A007`, in the same direction as the current runway config.  The termination point of the circuit is the Main Pad.
+
+!!! example
+    **BK ADC:** "SUA, main pad, cleared stop and go"
 
 ## ATIS
 ### Runway Nomination
