@@ -61,9 +61,17 @@ The circuit direction changes depending on time of day and runway being used.
 Circuits to be flown at `A010`
 
 ## Helicopter Operations
+### General
 These procedures apply during hours of daylight only.  During hours of darkness, all helicopters must revert to fixed-wing operations.  
 
 The Main Pad (abeam taxiway Mike) is treated like a runway and requires a takeoff/landing clearance.  Helicopters are permitted to become airborne from a limited number of other locations on the aerodrome, such as taxiway November Two, and should be instructed to *"report airborne"* or *"report on the ground"*.
+
+### Reporting Points
+Three helicopter reporting points help keep helicopters segregated from other traffic.  
+
+`CWST` (Choppers West): Michels Patisserie located 1.2nm west of CNTH on the water pipeline  
+`CNTH` (Choppers North): Northern end of Regents Park Railway Station, roughly 300 metres north of the water pipeline  
+`CSTH` (Choppers South):  Intersection of two creeks enclosing a sewage treatment works 2.1nm south of the aerodrome reference point
 ### Inbound Procedures
 Helicopters should track inbound at `A007` via one of the normal inbound points (`PSP` or `TWRN`) or via Olympic Park and report to **BK ADC** at that point.  In response, **BK ADC** should instruct the aircraft to track as below:
 
