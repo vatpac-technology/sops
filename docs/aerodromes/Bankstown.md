@@ -123,7 +123,8 @@ When the crosswind component exceeds 15 knots, the OPR INFO field must include:
 
 #### Taxi Call
 
-Whilst the aircraft is taxiing, the Ground Controller will coordinate with the controller responsible for SDS who will issue their airways clearance.
+For aircraft planned into the overlying class C airspace, an airways clearance must be coordinated with the TCU controller responsible for Sydney Departures South (SDS).  This is achieved by performing 'Taxi' coordination and then relaying the clearance to the aircraft when they are ready in the run up bays.
+
 !!! example
     **BK SMC** -> **SY TCU**: "Taxis UJN, Dubbo, runway 29C"  
     **SY TCU** -> **BK SMC**: "UJN, cleared to Dubbo via KADOM flight planned route, Bankstown 8 departure, climb via SID A030, squawk 3342"  
@@ -134,7 +135,7 @@ Whilst the aircraft is taxiing, the Ground Controller will coordinate with the c
 
 #### Next Call
 
-Tower will now coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
+When the aircraft is ready for departure, Tower will coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
 
 !!! example
     **BK ADC** -> **SY TCU**: "Next, UJN, runway 29C"  
