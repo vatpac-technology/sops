@@ -39,7 +39,12 @@ OXL is responsible for issuing STAR Clearances for aircraft arriving at YMML. OX
 Just keeping them separated!
 
 ### Katoomba (KAT)
-KAT is responsible for issuing STAR Clearances for YSCB.
+KAT is responsible for issuing STAR Clearances for YSCB.  KAT is also responsible for issuing STAR clearance *(but not runway assignment)* to aircraft processed via the ODALE STAR into YSSY. The BIK controller will issue runway assignment to these aircraft on first contact.
+
+!!! example
+    *PE211 has departed YBTH for YSSY and is making a departure call*  
+    **PE211:** "PE211, 3nm south of Bathurst, passing 5800ft, climbing FL120, estimate REVKI 22"  
+    **KAT:** "PE211, identified, cleared to YSSY via REVKI flight plan route, ODALE7 arrival, climb FL120"
 
 ## Coordination
 
