@@ -36,10 +36,24 @@ a) **“North”**/**”West”** positions shall assume the airspace of corresp
 b) Approach assumes Director/Departure airspace “on-side” when the latter positions are inactive (e.g. with **SAS** and **SAN** online only, **SAS** assumes **SDS** and **SFW**) 
 ## Arrival Procedures
 ### Level Assignment
-When assigning levels on descent to aircraft, remember that you will not receive "Next" Coordination on aircraft assigned Standard Assignable Levels (ie `A050` for Jets, `A030` for Non-Jets), meaning an aircraft could depart at any time without prior warning and climb to `A050`. So in order to assure separation between arrivals and departures, do not assign below `A060` to aircraft until they are clear of the active runway's departure path.
+Adjacent STARs do not guarantee lateral separation (particularly as aircraft get closer to TESAT), so to avoid a breakdown of separation standards, Approach should assign levels as follows: <ul><li>ODALE/MEPIL STAR: `A060`</li><li>RIVET/BOREE STAR: `A080`</li><li>MARLN STAR: `A090`</li></ul>
+
+RIVET/BOREE aircraft should only be assigned `A070` when an adjacent ODALE/MEPIL arrival is maintaining `A060`.  These aircraft can be stepped down to `A060` once sufficient lateral separation exists (often during the downwind turn).
+
+MARLN aircraft which require an overfly to the west should be assigned `A090` and stepped down on top of any RIVET arrivals.
+
+!!! tip
+    Be mindful of Sydney's <a href="#radar-entry-procedure-rep">REP airspace</a> arrangement and avoid leaving arrivals at `A100`.  Aircraft should be descended to `A090` or below by 20DME to prevent conflict with departing traffic.
+
+All aircraft should be assigned no lower than `A060` until clear of the active runways' departure tracks.  This normally occurs once established on downwind (but changes based on runway config).
+
+!!! note
+    Remember that you will not receive "Next" Coordination on aircraft assigned Standard Assignable Levels (ie `A050` for Jets, `A030` for Non-Jets), meaning an aircraft could depart at any time without prior warning and climb to `A050`.
 
 !!! example
-    For an aircraft inbound from the north on the BOREE3A arrival Runway 34R, assign no lower than `A060` until south of the field, then lower as required
+    For an aircraft inbound from the north on the BOREE3A arrival to runway 34R, assign no lower than `A080` until any adjacent aircraft are maintaing `A060`, then `A070` until the aircraft are laterally clear.  The arrival should then be assigned `A060` until south of the field.
+
+Be mindful of departures from YSBK which may also impact aircraft on downwind for RWY 16R at YSSY.  Do not assign lower than `A040` until the aircraft is north/east of the BK CTR and clear of any departing traffic (who are assigned `A030` by default).
 ## Parallel Runway Operations
 
 ### Runway Selection
@@ -97,15 +111,15 @@ When conducting IVAs, aircraft shall not be transferred to **SY ADC** until esta
 ## Sydney Harbour Scenic Flights
 Flights may be cleared for one of two standard scenic flight routes at `A015`, **Harbour Scenic ONE** or **Harbour Scenic TWO**, which are described below. Pilot preference should be accommodated where traffic permits.
 
-Aircraft must Track via Class G airspace to Long Reef and contact SY TCU prior to reaching Long Reef requesting a ‘Harbour Scenic’ clearance. If a clearance cannot be given immediately, instruct the pilot to remain in Class G airspace.
+Aircraft must Track via Class G airspace to Long Reef and contact SY TCU prior to reaching Long Reef requesting a ‘Harbour Scenic’ clearance. Attempt to identify the aircraft, and if a clearance cannot be given immediately, instruct the pilot to remain in Class G airspace.
 
 !!! example
-    “ABC, remain clear of Class C airspace”
+    LOI, squawk 0542, remain clear of Class C airspace”
 
-A **‘Harbour Scenic ONE’** (or **‘TWO’**) clearance is used to authorise flight in the nominated route at `A015`. Sydney Airport QNH must be issued with the clearance.
+A **‘Harbour Scenic ONE’** (or **‘TWO’**) clearance is used to authorise flight in the nominated route at `A015`. Sydney QNH must be issued with the clearance.
 
 !!! example
-    “ABC, Cleared Harbour Scenic One, Sydney QNH 1014”
+    LOI, identified, cleared Harbour Scenic One, Sydney QNH 1014”
 
 <figure markdown>
 ![Sydney Harbour Scenic One](img/SYhs1.jpg){ width="400" }
@@ -117,7 +131,7 @@ A **‘Harbour Scenic ONE’** (or **‘TWO’**) clearance is used to authorise
   <figcaption>Sydney Harbour Scenic Two</figcaption>
 </figure>
 
-These can be displayed on vatSys using the SY_VFR map.
+These can be displayed on vatSys using the `SY_VFR` map.
 
 ## Helicopter Operations
 ### Inbound/Outbound Routes
@@ -218,20 +232,37 @@ Westbound: `A080`
 Any aircraft not meeting these requirements **must** be prior coordinated to DIR.
 
 !!! example
-    **QFA123** -> **SAS**: "QFA123, Requesting DCT SOSIJ"  
-    **SAS** -> **QFA123**: "QFA123, Standby"  
-    **SAS** -> **SFW**: "QFA123, requesting DCT SOSIJ"  
-    **SFW** -> **SAS**: "QFA123, concur DCT SOSIJ"  
-    **SAS** -> **SFW**: "DCT SOSIJ, QFA123"  
-    **SAS** -> **QFA123**: "QFA123, Cancel STAR, Recleared DCT SOSIJ, A060"  
-    **QFA123** -> **SAS**: "Cancel STAR, Recleared DCT SOSIJ, A060, QFA123"  
+    **QFA421:** "QFA421, request direct SOSIJ"  
+    **SAS:** "QFA421, standby"  
+
+    **SAS** -> **SFW**: "QFA421, requesting direct SOSIJ"  
+    **SFW** -> **SAS**: "QFA421, concur direct SOSIJ"  
+    **SAS** -> **SFW**: "Direct SOSIJ, QFA421"  
+
+    **SAS:** "QFA421, cancel STAR, recleared direct SOSIJ, A060"  
+    **QFA421:** "Cancel STAR, recleared direct SOSIJ, A060, QFA421"  
 
 !!! example
-    **SAS** -> **SFW**: "VOZ456, with your concurrence, will be assigned A070, for my separation with ABC"  
+    **SAS** -> **SFW**: "VOZ456, with your concurrence, will be assigned A070, for my separation with UJI"  
     **SFW** -> **SAS**: "VOZ456, concur A070"   
 
 #### APP / DEP
-Aircraft are permitted cross the MARLN corridor at or above A060 without coordination with APP. DEP is responsible for separation with respect to aircraft in the corridor.
+##### Radar Entry Procedure (REP)
+Within 15 DME of SY, Departure controllers (**SDN** and **SDS**) can allow aircraft to cross airspace owned by Approach controllers (**SAN** and **SAS**) at or above `A100` without coordination.  This allows aircraft to safely depart above arriving aircraft and facilitates more direct tracking for YSBK & YSRI departures.  
+
+!!! note
+    SIDs from YSSY do not guarantee that aircraft will reach A100 by 15DME, so Departure controllers should be mindful of this and take action where necessary to expedite climb or coordinate with Approach.  
+
+    Departure controllers should take extra caution when processing the following procedures to ensure they reach `A100` prior to entering REP airspace:  
+    <ul><li>RWY 34L: WOL SID & RIC SID with RADAR transition</li><li>RWY 16R DEENA SID with RIC/KADOM transitions</li><li>YSBK departures via ENTRA/WOL</li></ul>
+
+It is vital that Approach controllers ensure all arriving aircraft are established below `A090` no later than 20DME to avoid conflicting with departures utilising the airspace.  All STARs have height requirements which ensure this is achieved.  Aircraft inbound to YSBK or YSSY who are not cleared via a STAR should be instructed to reach `A090` by 20DME.
+
+!!! information
+    Circumstances like excessive weather deviation may make the use of REP impractical.  Controllers should coordinate with other TMA positions and suspend REP in this case.
+
+##### MARLN Corridor
+Aircraft are permitted to cross the MARLN corridor at or above `A060` without coordination with APP. DEP is responsible for separation with respect to aircraft in the corridor.
 ### SY TCU / SY ADC
 #### Auto Release
 
