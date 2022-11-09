@@ -1,7 +1,6 @@
 ---
-  title: Armidale (ARL)
+  title: Coral TCU
 ---
 
 --8<-- "includes/abbreviations.md"
 
-TBC
