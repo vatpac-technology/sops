@@ -34,12 +34,7 @@ All other aircraft must be voice coordinated to AD TCU prior to **20nm** from th
 The Standard Assignable level from AD TCU to TBD/AUG is the lower of `F240` or the `RFL`, and assigned a SID.
 
 ### TBD/AUG / ENR
-
 As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
 
-That being said, it is *advised* that TBD/AUG gives **Heads-up Coordination** in the following scenarios:   
-- TBD to MUN for aircraft **not** on Y12, Y465, or Y23 airway
-
 ### TBD/AUG Internal
-
 As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.

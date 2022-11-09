@@ -81,9 +81,9 @@
 | TRT | - | Not Started |
 | ASP | Alex D | Complete, To be reviewed |
 | ISA | - | Not Started |
-| KEN | - | Not Started |
-| INL | - | Not Started |
-| ARL | - | Not Started |
+| KEN | Alex D | Not Started |
+| INL | Alex D | Complete, To be reviewed |
+| ARL | Alex D | Complete, To be reviewed |
 | TBD | Alex D | Complete, To be reviewed |
 | YWE | Alex D | Complete, To be reviewed |
 | ELW | Alex D | Complete, To be reviewed |

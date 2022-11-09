@@ -60,19 +60,18 @@ GUN is also responsible for initial sequencing actions into YSSY. Aircraft cruis
 
 ## Coordination
 ### BIK/WOL / SY TCU
-#### Standard Assignable Levels
+
 The Standard assignable level from BIK to SY TCU is:  
 `A100` for aircraft tracking via RIVET, and assigned the RIVET # STAR  
 `A090` for aircraft tracking via ODALE, and assigned the ODALE # STAR  
 
 All other aircraft must be voice coordinated to SY TCU prior to **20nm** from the boundary.
 
-The Standard Assignable level from SY TCU to WOL is `F280`, and tracking via WOL NDB.
+The Standard Assignable level from SY TCU to WOL is the lower of `F280` or the `RFL`, and tracking via WOL NDB.
 
 Refer to [Sydney TCU Airspace Division](http://sops.vatpac.org/terminal/Sydney%20TCU/operations/#airspace-division){target=new} for information on airspace divisions when **SAS**, **SDN** and/or **SDS** are online.
 
 ### WOL/GUN / CB TCU
-#### Standard Assignable Levels
 
 The Standard assignable level from WOL to CB TCU is `F120`, and assigned the RAZZI #, BUNGO #, or AVBEG # STAR.  
 
@@ -81,7 +80,7 @@ All other aircraft must be voice coordinated to CB TCU prior to **20nm** from th
 !!! note
     These coordination requirements apply to aircraft entering the CB TCU, even if the airspace is owned by ELW/BLA
 
-The Standard Assignable level from CB TCU to GUN is `F240`, and tracking via AVBEG, AKMIR, or CULIN.
+The Standard Assignable level from CB TCU to GUN is the lower of `F240` or the `RFL`, and tracking via AVBEG, AKMIR, or CULIN.
 
 ### BIK (All) / ENR
 
