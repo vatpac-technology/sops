@@ -41,6 +41,13 @@ In the absence of a **MDN** controller, **MAE** shall asssume the **MDN** and **
 ML TCU is responsible for the provision of ADC, SMC and ACD responsibilities when **ML TWR** is offline.
 
 ## Arrival Procedures
+### Level Assignment
+When assigning levels on descent to aircraft, remember that you will not receive "Next" Coordination on aircraft assigned Standard Assignable Levels (`A050` for most aircraft), meaning an aircraft could depart at any time without prior warning and climb to `A050`. To maintain separation assurance between arrivals and departures, do not assign below `A060` to arriving aircraft until they are clear of the active runway's departure path.
+
+!!! example
+    With RWY 34 in use for arrivals and RWY 27 in use for departures, aircraft inbound on the ARBEY STAR should be assigned no lower than `A060` until established south of the RWY 27 departure track.
+
+To avoid conflicting with published departure procedures, aircraft not cleared via a STAR should be issued a requirement to reach `A090` by 20DME.
 ### YMEN Arrivals
 IFR YMEN Arrivals shall be cleared via the following arrival gates:  
 Runway 26: `MONTY`  
@@ -56,16 +63,92 @@ VFR YMEN Arrivals from ML TCU shall be cleared via any of the following arrival 
 `SNP` (Station Pier)  
 `WES` (Westgate Bridge)  
 
-## EN/AV/MB TWR Offline
-Due to the low level of CTA at these aerodromes, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
+## YMEN TWR Offline
+### Arrivals
+The class C airspace surrounding YMEN extends to SFC.  This means that aircraft conducting approaches will remain inside controlled airspace until they land (and in the event of a go around).  These aircraft should be cleared for an appropriate approach, advised of any traffic taxiing at YMEN, and instructed to *'report clear of the runway'*.  The missed approach path must be protected until the aircraft reports clear.
 
 !!! example
-    **ABC** -> **ML TCU**: "Melbourne Approach, ABC, PC12, POB 8, IFR, Taxiing YMMB for YBLT, Runway 35L" `AIP GEN 3.4`  
-    **ML TCU** -> **ABC**: "ABC, Melbourne Approach, Squawk 3601, No Reported IFR Traffic, Call me Ready at the Holding Point for Airways Clearance"  
-    **ABC** -> **ML TCU**: "Squawk 3601, Wilco, ABC"  
-    **ABC** -> **ML TCU**: "ABC, Ready Runway 35L, Request clearance"  
-    **ML TCU** -> **ABC**: "ABC, Cleared to YBLT via SAMIG, Flight Planned Route. Make Visual left turn DCT SAMIG, Climb to A040"  
-    **ABC** -> **ML TCU**: "Cleared to YBLT via ANKUB, Flight Planned Route. Make Visual left turn DCT SAMIG, Climb to A040, ABC" 
+    **ML TCU:** "SH490, cleared ILS Runway 26 approach, traffic taxiing for the holding point is UJA, an Aero Commander, report clear of the runway"  
+    **SH490:** "Cleared ILS Runway 26, copy UJA, SH490"  
+
+    **SH490:** "SH490, clear of the runway, Essendon, cancel SARWATCH"  
+    **ML TCU:** "SH490, Essendon SARWATCH terminated, gday"
+### Departures
+Essendon has unique procedures due to its position in the ML CTR, with controlled airspace to the ground.  Departing aircraft will request airways clearance and engine start while on the bay and ML TCU will provide current weather conditions, expected runway for departure, and clearance.  On completion of the readback, aircraft should be instructed to *'report taxiing to runway XX'*.
+
+!!! example
+    **FDK**: "Melbourne Approach, FDK, YMEN for YSHT, request clearance and engine start" `AIP GEN 3.4`  
+    **ML TCU**: "FDK, Melbourne Approach, wind 290 degrees 4 knots, QNH 1017, cleared to YSHT via MNG, flight planned route, visual departure, climb to A040, expect runway 35"  
+    **FDK**: "QNH 1017, cleared to YSHT via MNG, flight planned route, visual departure, climb to A040, FDK"  
+    **ML TCU**: "FDK, start approved, report taxiing for runway 35"  
+    **FDK**: "Start approved, FDK"
+
+When the aircraft reports taxiing, issue a traffic statement and instruct them to report at the holding point for departure instructions.
+!!! example
+    **FDK**: "FDK, taxiing runway 35"  
+    **ML TCU**: "FDK, traffic is CBN, a Cherokee, 5nm final runway 35, report at the holding point for departure instructions"  
+    **FDK**: "Copy CBN, wilco, FDK"
+
+Once the aircraft is ready for departure and no conflict exists in your airspace, issue any relevant departure instructions (assigned heading, visual turns, etc).  If a departure is not yet available, instruct the pilot to hold on the ground and indicate the reason for the delay.
+!!! example
+    **FDK**: "FDK, ready runway 35"  
+    **ML TCU**: "FDK, hold at the holding point, short delay due inbound aircraft"  
+    **FDK**: "Hold at the holding point, FDK"  
+
+    **ML TCU**: "FDK, make right turn, report airborne"  
+    **FDK**: "Make right turn, FDK"
+
+## YMAV TWR Offline
+### Arrivals
+Due to the low level of CTA above Avalon, aircraft conducting approaches will commence the approach inside controlled airspace and leave CTA on descent.  If the aircraft goes around, they will re-enter controlled airspace.  These aircraft should be cleared to leave controlled airspace descending via an appropriate approach and instructed to *'report clear of the runway'*.  The missed approach path must be protected until the aircraft reports clear.
+
+!!! note
+    A clearance to conduct an instrument approach constitutes a clearance to carry out the published missed approach.  As a result, there is no need to issue a clearance to re-enter controlled airspace in the event the aircraft goes around.
+
+!!! example
+    **ML TCU:** "JST607, cleared to leave control area descending via the ILS Runway 18 approach, no reported IFR traffic, report clear of the runway"  
+    **JST607:** "Cleared to leave control area descending via the ILS Runway 18 approach, JST607"  
+
+    **JST607:** "JST607, clear of the runway, Avalon, cancel SARWATCH"  
+    **ML TCU:** "JST607, Avalon SARWATCH terminated, gday"
+
+<figure markdown>
+![Approximate Airspace Split](img/YMAV_approach.png)
+  <figcaption>Approximate Airspace Vertical Split (not to scale)</figcaption>
+</figure>
+
+### Departures
+Departing aircraft generally require an airways clearance on the ground, due to the low level of CTA.  Aircraft should report taxiing to the TCU controller, who will issue a squawk code and traffic statement.  These aircraft should be instructed to report at the holding point, where airways clearance will be issued.
+
+!!! example
+    **AM318**: "Melbourne Approach, AM318, King Air IFR, taxiing YMAV runway 18 for YMEN, 2 POB" `AIP GEN 3.4`  
+    **ML TCU**: "AM318, Melbourne Approach, squawk 3542, no reported IFR traffic, report ready at the holding point for airways clearance"  
+    **AM318**: "Squawk 3542, wilco, AM318"  
+    
+    **AM318**: "AM318, ready runway 18"  
+    **ML TCU**: "AM318, cleared to YMEN direct, AV5 departure, climb via SID to A040"  
+    **AM318**: "Cleared to YMEN direct, AV5 departure, climb via SID to A040, AM318"  
+    **ML TCU**: "AM318, assigned heading left 020, report airborne"  
+    **AM318**: "Assigned left 020, wilco, AM318"  
+
+## YMMB TWR Offline
+### Arrivals
+IFR aircraft cruising inside CTA will generally commence an instrument approach from within controlled airspace and leave CTA on descent.  The missed approach procedure will keep these aircraft outside controlled airspace, so does not need to be protected by the TCU controller.  Clear these aircraft to leave CTA descending via an appropriate approach.
+
+!!! example
+    **ML TCU:** "OFX, cleared to leave control area descending via the RNP Runway 17L approach, no reported IFR traffic"  
+    **OFX:** "Cleared to leave control area descending via the RNP Runway 17L approach, OFX"  
+### Departures
+Due to the low level of CTA surrounding YMMB, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
+
+!!! example
+    **AAC:** "Melbourne Approach, AAC, PC12 IFR, taxiing YMMB for YBLT, runway 35L, 7 POB" `AIP GEN 3.4`  
+    **ML TCU:** "AAC, Melbourne Approach, squawk 4301, no reported IFR traffic, report ready at the holding point for airways clearance"  
+    **AAC:** "Squawk 4301, wilco, AAC" 
+
+    **AAC:** "AAC, ready runway 35L"  
+    **ML TCU:** "AAC, Cleared to YBLT via SAMIG, flight planned route, make visual left turn DCT SAMIG, climb to A040"  
+    **AAC:** "Cleared to YBLT via SAMIG, flight planned route, make visual left turn DCT SAMIG, climb to A040, AAC" 
 ## Airspace Division
 
 The divisions of the airspace between **MAE**, **MDN**, and **MDS** change based on the Runway Mode.
