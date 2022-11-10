@@ -111,7 +111,7 @@ Other than traffic information and/or ATC direction to vacate, there will be no 
 ![Oceanic](../../oceanic/assets/Oceanic.png)
 </figure>
 
-Longitudinal separation shall only be applied between aircraft on same or reciprocal tracks. There is an exception to this rule where a 15 minute standard may be used for crossing tracks.  
+Longitudinal separation shall only be applied between aircraft on same or reciprocal tracks.
 
 Longitudinal time separation must be established by using pilot estimates and ensuring that the time between two aircraft is equal or greater than the longitudinal time separation minimum.  
 
@@ -119,14 +119,14 @@ Longitudinal time separation must be established by using pilot estimates and en
     "ABC, Cross ALPHA at time 1051 or later"  
     "DEF, Hold at BRAVO to leave BRAVO at time 2215 or later"
 
-
-#### Same Track
+#### Time
+##### Same Track
 Aircraft that are on the same track, including situations where one aircraft is climbing or descending through the level of another, are to be separated by **10 minutes**
 <figure markdown>
 ![10min](../../oceanic/assets/10min.png)
 </figure>
 
-#### Reciprocal Track
+##### Reciprocal Track
 Aircraft flying on reciprocal tracks may only be separated vertically. Such separation must exist **at least 10 minutes** prior to the estimated time of passing
 <figure markdown>
 ![ETP](../../oceanic/assets/ETP.png)
@@ -146,21 +146,31 @@ Distance checks must be conducted as per the following table:
 | Speed control has been applied to limit closing to less than or equal to 35kts or Mach 0.06 | 15 mins |
 | There is closing of more than 35kts or Mach 0.06 | The standard is not valid |
 | Speed control has been applied to have opening or stable distance | 30 mins |
-##### 5nm Definite Passing
+
+##### Same track
+###### 20nm
+| Conditions | |
+| ------------- | ------------------ |
+| | <figure markdown>
+![20nm Distance Standard Diagram](img/d2.png){ width="600" }
+</figure> |
+
+##### Reciprocal track
+###### 5nm Definite Passing
 | Conditions | |
 | ------------- | ------------------ |
 | Reports indicate that the aircraft have passed and the distance is opening | <figure markdown>
 ![10nm Definite Passing Standard Diagram](img/d8b.png){ width="600" }
 </figure> |
 
-##### Sight and Pass
+###### Sight and Pass
 | Conditions | |
 | ------------- | ------------------ |
 | a) Both aircraft report sighting and passing the other by day (and in Oceanic airspace by night);<br>b) Both aircraft are above A100; and<br>c) You ensure there is no possibility of incorrect identification by either aircraft. | <figure markdown>
 ![Sight and Pass Standard Diagram](img/snp.png){ width="600" }
 </figure> |
 
-##### Opposite sides of visual fix
+###### Opposite sides of visual fix
 | Conditions | |
 | ------------- | ------------------ |
 | a) Both aircraft report passing the same visual fix; and<br>b) The visual fix must be a prominent topographical feature within 10,000 FT of the levels of each aircraft | <figure markdown>
@@ -169,7 +179,7 @@ Distance checks must be conducted as per the following table:
 
 ### Lateral
 
-#### Crossing Track
+#### Time-based crossing track
 Aircraft that are on crossing tracks, including situations where one aircraft is climbing or descending through the level of another, are to be separated by **15 minutes** at the point of intersection
 <figure markdown>
 ![15min](../../oceanic/assets/15min.png)
@@ -255,7 +265,7 @@ Using the time standard, aircraft are considered to have entered the conflict ar
     SIA7286 is considered to be **in the conflict area** from time **0225** until time **0243**  
     SIA7286 **leaves lateral conflict** prior to the time that JST801 **enters lateral conflict**. Therefore, the 2 aircraft are **not** in lateral conflict
 
-When the aircraft **are** in lateral conflict, a vertical standard must be applied for that period.
+When aircraft **are** in lateral conflict, a vertical standard must be applied for that period.
 
 !!! example
     "Climb to reach (vertically separated level) by (prior to entering lateral conflict)"  
