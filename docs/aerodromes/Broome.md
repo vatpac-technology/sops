@@ -19,6 +19,10 @@
   <figcaption>YBRM Airspace</figcaption>
 </figure>
 
+## Surveillance
+BRM TWR is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels in the BRM CTR.  
+For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
+## Coordination
 ### AY ADC / ENR
 
 #### Taxi Call

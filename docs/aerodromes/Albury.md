@@ -19,11 +19,18 @@
   <figcaption>YMAY Airspace</figcaption>
 </figure>
 
-## Coordination
-### AY ADC / ENR
+## Surveillance
+AY TWR is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels in the AY CTR.  
+For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
 
+## Lateral Separation
+Placeholder for local lateral separation options, such as using visual features, useful VOR radials, etc.
+
+
+## Coordination
+### Departures
 #### Taxi Call
-A taxi call shall be made between AY TWR and ML CTR as an aircraft is given taxi clearance. Center will respond by acknowledging the callsign and activating FDR.
+A taxi call shall be made to BLA as an aircraft is given taxi clearance. Center will respond by acknowledging the callsign and activating FDR.
 
 !!! example
     **AY_TWR** -> **ML-BLA_CTR**: "Taxis QFA400 for YSSY via MUSOP"  
@@ -44,18 +51,22 @@ A departure call should be made as the aircraft becomes airborne. If not already
     **AY_TWR** -> **ML-BLA_CTR**: "Departure QFA400 at 06"  
     **ML-BLA_CTR** -> **AY_TWR**: "QFA400"
 
-#### Arrival Coordination
-ML-BLA_CTR will coordinate all arrivals into Albury Prior to handing over to tower in the following format:
+The
 
-- Callsign & Aircraft Type
-- Estimate
-- Inbound Radial/Procedure
-- Assigned Level
-- Sequence Number (if applicable)
+#### Arrivals
+As per [Standard coordination procedures](../../controller-skills/coordination/#class-d-twr-enrtcu), it is the responsibility of **BLA** to coordinate arrivals to AY TWR prior to **5 mins** from the airspace boundary. AY TWR is the arbiter of the sequence, so AY TWR shall tell **BLA** what level to assign when a new arrival is coordinated. The standard assignable level for an arrival is `A060`, however AY TWR must ensure the aircraft arrive in their airspace in a vertical stack, in order to ensure they are procedurally separated.
 
 !!! example
-    **ML-BLA_CTR** -> **AY_TWR**: "JST416, A320, estimates Albury 52, ARRAN1 arrival, 5000ft, number 1”
-    **AY_TWR** -> **ML-BLA_CTR**: "JST416"
+    **BLA** -> **AY TWR**: "RXA3421, estimating YMAY time 52, via ARRAN1 arrival”  
+    **AY TWR** -> **BLA**: "RXA3421, A060"  
+    **BLA** -> **AY TWR**: "A060, RXA3421”  
+    ...
+    **BLA** -> **AY TWR**: "Addition to the sequence, ABC, estimating YMAY time 56, via DUBUS, Number 2. QLK123D, estimating YMAY time 59, via VEGRU1 arrival, Number 3”  
+    **AY TWR** -> **BLA**: "RXA3421, new restriction to reach A060 by 9 GNSS POKIT, Number 1. ABC, A070 by 15 GNSS AY, Number 2. QLK123D, A080, Number 3"  
+    **BLA** -> **AY TWR**: "A060 by 9 GNSS POKIT, RXA3421. A070 by 15 GNSS AY, ABC. A080, QLK123D”  
+
+!!! note
+    The restrictions *"by 9 GNSS POKIT"* and *"by 15 GNSS AY"* are in place to ensure the sequence is 1000ft separated *before* they enter lateral conflict. Once they're in your airspace, you can safely step the aircraft down as required to ensure they remain procedurally separated
 
 ## Standard Assignable Levels
 
