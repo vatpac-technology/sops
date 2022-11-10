@@ -79,7 +79,9 @@ Voice coordinate Sequence prior to **5 mins** from the boundary
 !!! note
     Aircraft estimating the field within **10 minutes** of each other are considered to be in the same sequence.
 ### Class D TWR -> ENR/TCU
-Voice coordinate Taxi call for CTA departures, Next call for **all** departures
+Voice coordinate Taxi call for CTA departures, Next call for **all** departures.
+!!! note
+    A Departure call is required at some Class D aerodromes with limited surveillance coverage. Refer to inidividual local instructions.
 ### ENR -> TCU
 **Voiceless** for aircraft landing at main airport (eg YMML in ML TCU), assigned a STAR, and standard assignable level.  
 Voice coordinate all other aircraft by **20nm** to boundary

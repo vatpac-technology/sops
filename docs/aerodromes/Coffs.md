@@ -19,8 +19,10 @@
 </figure>
 
 ## Surveillance
-CFS TWR is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be not available below **feet** in the CFS CTR.  
+CFS TWR is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be not available below **2800 feet** in the CFS CTR.  
 For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
+
+CFS TWR must establish a [Procedural Standard](../../controller-skills/SepStandards/#procedural) prior to losing surveillance identification of an aircraft.
 ## Instrument Approaches
 Only one aircraft is permitted to conduct an instrument approach at any time, due to limited surveillance coverage. If the cloud base is below **feet**, all aircraft in CFS TWR airspace must be above **feet+1000** and laterally separated from the missed approach path.  
 
