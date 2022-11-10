@@ -24,7 +24,7 @@ For simulation purposes, visual separation is assumed to exist below the cloud b
 
 CFS TWR must establish a [Procedural Standard](../../controller-skills/SepStandards/#procedural) prior to losing surveillance identification of an aircraft.
 ## Instrument Approaches
-Only one aircraft is permitted to conduct an instrument approach at any time, due to limited surveillance coverage. If the cloud base is below **feet**, all aircraft in CFS TWR airspace must be above **feet+1000** and laterally separated from the missed approach path.  
+Only one aircraft is permitted to conduct an instrument approach at any time, due to limited surveillance coverage. CFS TWR must ensure that all aircraft are procedurally separated from any portion of an instrument approach and missed approach that is conducted below **2800 feet**.  
 
 If required, CFS TWR can pass amended tracking/level instructions to an aircraft for a missed approach for separation purposes, as long as the aircraft can be issued **uninterrupted climb** to the LSALT/MSA once identified.
 ## Coordination
