@@ -7,7 +7,7 @@ title: MAESTRO
 # MAESTRO
 MAESTRO (pronounced my-stro), also and otherwise known as The Flow Management System (TFMS), is an arrival manager used to generate a sequence of aircraft inbound to an airport from multiple directions.
 
-MAESTRO can be viewed by accessing the website [here](https://maestro.vatpac.org){target=new} or via the link within vatSys.
+MAESTRO can be viewed by accessing the website [here](https://maestro.vatpac.org) or via the link within vatSys.
 
 MAESTRO is a semi-automatic system, and will manage a small number of arrivals generally without intervention. When the number of arriving aircraft increases, a flow controller is required to 'drive' the system, make adjustments as required, and communicate sequencing information to the respective ENR controllers.
 
