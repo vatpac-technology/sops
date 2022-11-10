@@ -1,10 +1,10 @@
 ---
-  title: Seperation Standards
+  title: Separation Standards
 ---
 
 --8<-- "includes/abbreviations.md"
 
-## Seperation Standards
+## Separation Standards
 
 ### Longitudinal
 

@@ -79,24 +79,19 @@ Other than traffic information and/or ATC direction to vacate, there will be no 
 |  | Light | 2 |
 
 
-## Oceanic
+## Procedural
+### Lateral Separation
+Procedurally, lateral separation can be simplified as below:
 
-TBC
+*Tracks that intersect at a common point at an angle of less than* ***16°***, *are* ***not laterally separated***  
 
-### Longitudinal Separation
+*Tracks that intersect at a common point at an angle of* ***16°*** *or more, are laterally separated at a distance of* ***15nm or greater*** *from the common point*
 
-TBC
+Aircraft can be considered laterally separated, if *any* of the two aircraft are greater than 15nm from from the common point, and the tracks intersect at 16° or more.
 
-#### Time Based Separation
+This can be used to plan restrictions as required if surveillance coverage cannot be assured.
 
-| Track | Time (min) |
-| ----- | ---------- |
-| Same Track | 10 |
-| Crossing Track | 15 |
-| Reciprocal Track | 10 prior to ETP |
+### Oceanic
+Refer to [Oceanic Separation Standards](../../oceanic/separation/)
 
-!!! note "Estimated Time of Passing"
 
-    To calculate the time until aircraft will pass, the following formula can be used: 
-    
-    $$ \operatorname{time} = {60 ∗ distance} \over GS1+GS2 $$

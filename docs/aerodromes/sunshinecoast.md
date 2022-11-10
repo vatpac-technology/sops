@@ -1,5 +1,5 @@
 ---
-  title: Coffs Harbour (YCFS)
+  title: Sunshine Coast (YBSU)
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -19,12 +19,14 @@
 </figure>
 
 ## Surveillance
-CFS TWR is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be not available below **feet** in the CFS CTR.  
+SU TWR is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be not available below **feet** in the SU CTR.  
 For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
-## Instrument Approaches
-Only one aircraft is permitted to conduct an instrument approach at any time, due to limited surveillance coverage. If the cloud base is below **feet**, all aircraft in CFS TWR airspace must be above **feet+1000** and laterally separated from the missed approach path.  
 
-If required, CFS TWR can pass amended tracking/level instructions to an aircraft for a missed approach for separation purposes, as long as the aircraft can be issued **uninterrupted climb** to the LSALT/MSA once identified.
+## Instrument Approaches
+Only one aircraft is permitted to conduct an instrument approach at any time, due to limited surveillance coverage. If the cloud base is below **feet**, all aircraft in your airspace must be above **feet+1000** and laterally separated from the missed approach path.  
+
+If required, SU TWR can pass amended tracking/level instructions to an aircraft for a missed approach for separation purposes, as long as the aircraft can be issued **uninterrupted climb** to the LSALT/MSA once identified.
+
 ## Coordination
 ### CFS ADC / ENR
 

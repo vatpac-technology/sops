@@ -105,12 +105,20 @@
 | Coordination | Alex D | Complete, To be reviewed |
 | Extending | Alex D | Complete, To be reviewed |
 | Sep Standards | Chris G | Complete, To be reviewed |
+| Airspace Classes | Alex D | Not Started |
+| Sequencing | Alex D | Complete, To be reviewed |
+| Maestro | Zach BF | Complete, To be reviewed |
 
 ## General
 | Task | Assigned to | Progress |
 | ---- | ----------- | -------- |
 | TCU airspace diagrams | Alex D | Complete, To be reviewed |
-| ENR airspace diagrams | Alex D | Not Started |
+| ENR airspace diagrams | Alex D | Not Required? |
+| Match up TAS TCU coord with HUO | Alex D | Not Started |
+| Match up BN TCU coord with INL | Alex D | Not Started |
+| Procedural Tower Standard Review | Alex D | In Progress |
+| Change all internal links to ../.. format | Alex D | In Progress |
+
 
 ## Other
 | Task | Assigned to | Progress | Priority |
