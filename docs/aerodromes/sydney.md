@@ -97,6 +97,9 @@ SY TCU will clear helicopters for all inbound Helicopter Routes, with the except
     **SY ADC:** "YZD, cleared visual approach, report on the ground"  
     **YZD:** "Cleared visual approach, wilco, YZD"
 
+!!! tip
+    You can find details of each Helicopter Route (including applicable clearance limits) in the YSSY ERSA FAC.
+
 During times of peak fixed wing traffic, instruct helicopters to hold at their designated clearance limit on their Helicopter Route and maintain own separation on approach to the heliport.
 !!! example
     **SY ADC:** "YOE, traffic is a 717 on a 4nm final to runway 25, report in sight"  
