@@ -20,12 +20,14 @@ In the absence of an SMC controller, ADC shall assume the SMC responsibilities.
 </figure>
 
 ## Airspace
-Tower airspace is defined as between SFC to 1500 FT.
+BK TWR owns the Class D airspace in the BK CTR SFC-A015.
 
 <figure markdown>
 ![Bankstown Tower Airspace](img/BKTWR.png){ width="700" }
   <figcaption>Bankstown Tower Airspace</figcaption>
 </figure>
+
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr/) for more information.
 
 ## Fixed-Wing Operations
 ### VFR Inbound Procedures

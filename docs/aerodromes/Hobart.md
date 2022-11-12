@@ -29,6 +29,8 @@ In the absence of an SMC controller, ADC shall assume the SMC responsibilities.
 ![Hobart Tower Class D Airspace](img/hbtwr_profile.png){ width="700" }
 </figure>
 
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr/) for more information.
+
 ## SID Selection
 
 Jet Aircraft planned via **CLARK**, **LATUM**, or **LAVOP**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
