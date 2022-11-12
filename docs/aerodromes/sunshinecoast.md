@@ -8,62 +8,68 @@
 
 | Name | Callsign | Frequency | Login Identifier |
 | ---- | -------- | --------- | ---------------- |
-| Coffs Harbour ADC | Coffs Harbour Tower | 118.200 | CFS_TWR |
-| Coffs Harbour ATIS | N/A | 130.300 | YCFS_ATIS |
+| Sunshine Coast ADC | Sunshine Coast Tower | 124.400 | SU_TWR |
+| Sunshine Coast SMC | Sunshine Coast Ground | 121.100 | SU_GND |
+| Sunshine Coast ATIS | N/A | 119.800 | YBSU_ATIS |
 
 ## Airspace
 
 <figure markdown>
-![YCFS Airspace](img/ycfs_airspace.png){ width="700" }
-  <figcaption>YCFS Airspace</figcaption>
+![SU TWR Airspace](img/SUCTR.png){ width="700" }
+  <figcaption>SU TWR Airspace</figcaption>
 </figure>
+
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr/) for more information.
 
 ## Surveillance
 SU TWR is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be not available below **1200 feet** in the SU CTR.  
-For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
+For simulation purposes, visual separation is assumed to exist below the cloud base, and within the SFC-A045 Class D step (7nm from RWY thresholds). Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
+
+SU TWR must establish a [Procedural Standard](../../controller-skills/classdtwr/#standards) prior to losing surveillance identification of an aircraft, when the cloud base is below **1200 feet**.
+
+!!! caution
+    An aircraft becoming identified, or maintaining identification, *below* 1200 feet, cannot be assumed to be able to maintain identification at that level. A procedural and/or visual standard **must** be put in place for all aircraft below 1200 feet.
 
 ## Instrument Approaches
 Only one aircraft is permitted to conduct an instrument approach at any time, due to limited surveillance coverage. SU TWR must ensure that all aircraft are procedurally separated from any portion of an instrument approach and missed approach that is conducted below **1200 feet**.  
 
 If required, SU TWR can pass amended tracking/level instructions to an aircraft for a missed approach for separation purposes, as long as the aircraft can be issued **uninterrupted climb** to the LSALT/MSA once identified.
 
-## Coordination
-### CFS ADC / ENR
+## Runway Configuration
+Pilots with old simulators/scenery may not have the newer Runway 13/31 config (replacing the old 18/36 config). If a pilot reports this to be the case, try to facilitate their flight as best as possible, whilst giving them lower priority to other traffic. Coordinate as you deem necessary with adjacent units.
 
+## Coordination
+### Departures
 #### Taxi Call
-A taxi call shall be made between CFS TWR and BN CTR as an aircraft is given taxi clearance. Center will respond by acknowledging the callsign and activating FDR.
+A taxi call shall be made to INL(NSA/BUR), for all aircraft entering INL(NSA/BUR) Class C airspace, as an aircraft is given taxi clearance. INL(NSA/BUR) will respond by acknowledging the callsign.
 
 !!! example
-    **CFS_TWR** -> **BN-INL_CTR**: "Taxis QLK105D for YSSY via SORTI"  
-    **BN-INL_CTR** -> **CFS_TWR**: "QLK105D"  
+    **SU TWR** -> **NSA**: "Taxi, BNZ133 for YCFS via MOOLO1 departure"  
+    **NSA** -> **SU TWR**: "BNZ133"  
 
 #### Next Call
-A next call is made for all aircraft when they are next to depart and will be departing within two minutes. Center will respond by either acknowledging the callsign or offering a higher level. Any higher level issued will be passed along in the takeoff clearance. If the controller is in a high workload environment, a next call may be omitted, in favour of taxi and departure coordination.
+A next call is made for all aircraft when they are next to depart and will be departing within two minutes. INL(NSA/BUR) will respond by acknowledging the callsign.
 
 !!! example
-    **CFS_TWR** -> **BN-INL_CTR**: "Next QLK105D"  
-    **BN-INL_CTR** -> **CFS_TWR**: "QLK105D, FL120"  
-    **CFS_TWR** -> **BN-INL_CTR**: "FL120, QLK105D"  
+    **SU TWR** -> **NSA**: "Next, BNZ133"  
+   **NSA** -> **SU TWR**: "BNZ133"    
 
-#### Departure Call
-A departure call should be made as the aircraft becomes airborne. If not already issued, CTR will issue a higher level. The aircraft should be transferred to CTR as they climb through the upper level of the CFS Class D airspace.
+The Standard Assignable level from SU TWR to INL(NSA/BUR) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
 
-!!! example
-    **CFS_TWR** -> **BN-INL_CTR**: "Departure QLK105D at 06"  
-    **BN-INL_CTR** -> **CFS_TWR**: "QLK105D"
-
-#### Arrival Coordination
-BN_CTR will coordinate all arrivals into Coffs Harbour Prior to handing over to tower in the following format:
-
-- Callsign & Aircraft Type
-- Estimate
-- Inbound Radial/Procedure
-- Assigned Level
-- Sequence Number (if applicable)
+### Arrivals
+INL(NSA/BUR) will coordinate the sequence to SU TWR.
 
 !!! example
-    **BN-INL_CTR** -> **CFS_TWR**: "QLK116D, DH8D, estimates Coffs Harbour 52, RNP 03 via CFSSG, A055, number 1”
-    **CFS_TWR** -> **BN-INL_CTR**: "QLK116D"
-## Standard Assignable Level
-In IMC, aircraft must be assigned a minimum of `A070`. This shall be coordinated with CTR.  
-In VMC, aircraft may be issued `A040 VISUAL` without prior coordination regarding the level.
+    **NSA** -> **SU TWR**: "New Sequence of 2. Via ITIDE2W Arrival, QJE1756, Number 1. Via REBEG2X Arrival, FD425, Number 2”  
+    **SU TWR** -> **NSA**: "QJE1756, Number 1. FD425, Number 2"  
+
+The Standard Assignable level from INL(NSA/BUR) to SU TWR is `A060`, any other level must be prior coordinated.
+
+### BN TCU / SU TWR
+
+As you may have noticed, BN TCU Class G shares a tiny border with SU TWR, however there are no SIDs, STARs, or airways through this gap. The only possible way for an aircraft to directly enter BN TCU's airspace from SU TWR's jurisdiction, is in to Class G, and as such, no coordination is required to BN TCU.
+
+<figure markdown>
+![BN TCU / SU TWR Border](../../terminal/img/subntcu.png){ width="700" }
+  <figcaption>BN TCU / SU TWR Border</figcaption>
+</figure>
