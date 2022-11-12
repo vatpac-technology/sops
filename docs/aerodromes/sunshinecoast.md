@@ -34,9 +34,13 @@ SU TWR must establish a [Procedural Standard](../../controller-skills/classdtwr/
 Only one aircraft is permitted to conduct an instrument approach at any time, due to limited surveillance coverage. SU TWR must ensure that all aircraft are procedurally separated from any portion of an instrument approach and missed approach that is conducted below **1200 feet**.  
 
 If required, SU TWR can pass amended tracking/level instructions to an aircraft for a missed approach for separation purposes, as long as the aircraft can be issued **uninterrupted climb** to the LSALT/MSA once identified.
-
 ## Runway Configuration
 Pilots with old simulators/scenery may not have the newer Runway 13/31 config (replacing the old 18/36 config). If a pilot reports this to be the case, try to facilitate their flight as best as possible, whilst giving them lower priority to other traffic. Coordinate as you deem necessary with adjacent units.
+## SID Selection
+
+Jet Aircraft planned via **MOOLO** or **TAPET**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint, unless the pilot indicates they are unable to accept a Procedural SID.
+
+All other aircraft may be assigned a visual departure, or a standard IFR departure.
 
 ## Coordination
 ### Departures
