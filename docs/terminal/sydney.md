@@ -201,13 +201,13 @@ Helicopters should be identified and then provided the clearance where traffic p
 Due to the low level of CTA (`A015`) in the BK CTR when **BK TWR** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
 !!! example
-    **LOA**: "Sydney Approach, LOA, King Air IFR, taxiing YSBK for YSHL, runway 11C, 10 POB" `AIP GEN 3.4`  
+    **LOA**: "LOA, King Air, POB 10, IFR, taxing Bankstown for Shellharbour, Runway 11C" `AIP GEN 3.4`  
     **SY TCU**: "LOA, Sydney Approach, squawk 3601, no reported IFR traffic, report ready at the holding point for airways clearance"  
     **LOA**: "Squawk 3601, wilco, LOA"  
 
     **ABC**: "LOA, ready Runway 11C"  
-    **SY TCU**: "LOA, cleared to YSHL via ANKUB, flight planned route, make visual right turn DCT ANKUB, climb to A030"  
-    **LOA**: "Cleared to YSHL via ANKUB, flight planned route, make visual right turn DCT ANKUB, climb to A030, LOA" 
+    **SY TCU**: "LOA, cleared to YSHL via ANKUB, flight planned route, Bankstown 8 Departure, climb via SID A030"  
+    **LOA**: "Cleared to YSHL via ANKUB, flight planned route, Bankstown 8 Departure, climb via SID A030, LOA" 
 ## Airspace Division
 
 The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW** and **SFE** change based on the Runway Mode.
@@ -249,8 +249,8 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
 ### SY TCU / ENR
 #### Departures
 Voiceless coordination is in place from SY TCU to all surrounding ENR sectors (**ARL** (and subsectors) to the North and East, **YWE** (and subsectors) to the West, **BIK** (and subsectors) to the South) for aircraft assigned:  
-The lower of `F280` or the `RFL`, **with the exception of**:  
-Aircraft with ADES YWLM, which will be assigned the lower of `F130` or the `RFL`.  
+- The lower of `F280` or the `RFL`, **with the exception of**:  
+- Aircraft with ADES YWLM, which will be assigned the lower of `F130` or the `RFL`.  
 
 Aircraft must be tracking from **SDN** or **SDS** airspace (see [Airspace Division](http://sops.vatpac.org/terminal/Sydney%20TCU/operations/#airspace-division){target=new}).
 
