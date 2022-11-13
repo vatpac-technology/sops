@@ -40,7 +40,7 @@ Except when the traffic situation warrants, taxi clearances shall conform to the
 Intersection departures are not permitted for Jet aircraft on runway 34L. `ERSA FAC YSSY`
 ## Airspace
 Tower airspace is defined as between SFC to 500 FT, within the lateral limits:
-a) Wanda Kopter Route; then
+a) Wanda Helicopter Route; then
 b) along the SY CTR boundary; to
 c) Long Bay; then
 d) direct to YSSY.
@@ -52,11 +52,11 @@ d) direct to YSSY.
 
 ### Helicopter Operations
 #### Departures
-VFR helicopters are generally processed via one of Sydney's Kopter Routes.  IFR helicopters should conform to fixed wing ops and be processed via the **Radar SID** from an appropriate runway, unless a visual departure is acceptable.
+VFR helicopters are generally processed via one of Sydney's Helicopter Routes.  IFR helicopters should conform to fixed wing ops and be processed via the **Radar SID** from an appropriate runway, unless a visual departure is acceptable.
 
-SY ACD will issue airways clearance for a Kopter Route through a coded clearance.
+SY ACD will issue airways clearance for a Helicopter Route through a coded clearance.
 !!! tip
-    You can find details of each Kopter Route (including applicable clearance limits) in the YSSY ERSA FAC.
+    You can find details of each Helicopter Route (including applicable clearance limits) in the YSSY ERSA FAC.
 
 !!! example
     **YOE:** "Sydney Delivery, helicopter YOE, for the Harbour Bridge 5 outbound, request clearance"  
@@ -84,13 +84,23 @@ Helicopter operations should be accommodated without unduly delaying fixed wing 
     **SY ADC:** "HSZ, maintain own separation, caution wake turbulence, report airborne"
 
 #### Arrivals
-VFR helicopters are generally processed via by one of Sydney's Kopter Routes.  IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway.
+VFR helicopters are generally processed via by one of Sydney's Helicopter Routes.  IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway.
 
-***(DECIDE WHAT OWNERSHIP SY TWR HAS (4NM RADIUS SY?) - CLEARANCE ISSUED BY TWR)***
+SY TCU will clear helicopters for all inbound Helicopter Routes, with the exception of the `CAPE BANKS 5 INBOUND` and `WANDA 5 INBOUND`.  Tower controllers should assess the current traffic situation and issue clearances for these aircraft when available.  Each procedure is delivered as a coded clearance, which includes automatic altitude assignment, tracking, and a clearance limit designed to separate helicopters from fixed-wing aircraft.
 
-Helipad 1 is controlled by **SY ADC** and treated like a runway (landing clearances required).  All other pads are outside Tower's jurisdiction and do not require a takeoff/landing clearance.  Helicopters should be instructed to *'report on the ground'* so the controller knows when they are no longer active in their airspace.
+!!! example
+    **YZD:** "Sydney Tower, helicopter YZD, Jibbon Point, 500ft, received Tango, request Cape Banks 5 Inbound"  
+    **SY ADC:** "YZD, Sydney Tower, cleared Cape Banks 5 Inbound, report at the Container Terminal"  
+    **YZD:** "Cleared Cape Banks 5 Inbound, YZD"  
 
-During times of peak fixed wing traffic, instruct helicopters to hold at their designated clearance limit on their Kopter Route and maintain own separation on approach to the heliport.
+    **YZD:** "YZD, Container Terminal"  
+    **SY ADC:** "YZD, cleared visual approach, report on the ground"  
+    **YZD:** "Cleared visual approach, wilco, YZD"
+
+!!! tip
+    You can find details of each Helicopter Route (including applicable clearance limits) in the YSSY ERSA FAC.
+
+During times of peak fixed wing traffic, instruct helicopters to hold at their designated clearance limit on their Helicopter Route and maintain own separation on approach to the heliport.
 !!! example
     **SY ADC:** "YOE, traffic is a 717 on a 4nm final to runway 25, report in sight"  
     **YOE:** "Traffic sighted, YOE"  
@@ -104,8 +114,7 @@ During times of peak fixed wing traffic, instruct helicopters to hold at their d
     **YOE:** "YOE, on the pad"  
     **SY ADC:** "YOE"
 
-!!! tip
-    Some Kopter Routes may conflict with fixed wing approach/departure paths, so use common sense to separate helicopters when required.  For example, during 34 PROPS, it may be more suitable for helicopters to track via the **Cape Banks 5 Inbound** rather than taking the **Maroubra 5 Inbound**, due to it's close proximity to the **MARUB SID**.  In any case, if pilots are unfamiliar with local landmarks, simplify your instructions to assist them while maintaining separation.
+Helipad 1 is controlled by **SY ADC** and treated like a runway (landing clearances required).  All other pads are outside Tower's jurisdiction and do not require a takeoff/landing clearance.  Helicopters should be instructed to *'report on the ground'* so the controller knows when they are no longer active in their airspace.
 
 ## Runway Modes
 Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:

@@ -81,6 +81,32 @@ Other than traffic information and/or ATC direction to vacate, there will be no 
 |  | Light | 2 |
 
 
+## Visual
+### ATC Responsibility
+With sufficient visibility and an adequately high cloud base, controllers may visually separate two aircraft by visually acquiring and identifying them both, and determining that their projected flight paths do not conflict.  
+
+Controllers can utilise visual separation by using Tower View linked to a flight simulator or simulating pseudo-visual separation through vatSys.  It is generally practical within about **5nm** of the aerodrome.  
+
+This technique is useful for situations such as:<ul><li>Procedural towers processing aircraft at altitudes below usable surveillance</li><li>Making more efficient use of runways at major aerodromes by allowing departures to roll with aircraft on final</li><li>Processing VFR aircraft arriving or departing during a busy established sequence (e.g. helicopter operations at Sydney)</li></ul>
+### Pilot Responsibility
+Pilots can be instructed to maintain own separation with other aircraft provided:  
+a) Both aircraft are operated at or below `A100`, and  
+b) One pilot reports the other aircraft in sight.  
+
+Pilots will continue to follow ATC instructions but the controller will no longer be responsible for maintaining a separation standard between the two aircraft.  If the pilot loses sight of the aircraft, an alternative separation standard will need to be used.  
+
+Where an aircraft is instructed to maintain own separation with an IFR aircraft, traffic information should be passed to the IFR aircraft, including advice of assignment of separation responsibility to the other aircraft. 
+
+This technique is useful for situations such as:<ul><li>VFR aircraft manoeuvring behind another aircraft on approach to land (e.g. helicopter operations at Sydney)</li><li>Allowing aircraft to conduct airwork in a position which would normally conflict with other aircraft</li><li>Providing track shortening or expedited clearances where a delay would normally occur due to other aircraft</li></ul>
+
+!!! example
+    *RSCU203 is a VFR helicopter who wishes to depart from Royal Prince Alfred Hospital, which sits directly under the YSSY RWY 16L approach path.*  
+    **SY ADC:** "RSCU203, report sighting a Jetstar A320 on a 6nm final RWY 16L"  
+    **RSCU203:** "Traffic sighted, RSCU203"  
+    **SY ADC:** "RSCU203, maintain own separation with that aircraft, report airborne"  
+
+    **SY ADC:** "JST219, traffic is a helicopter becoming airborne from RPA, approximately 4nm final, maintaining own separation with you, runway 16L, cleared to land"
+
 ## Procedural
 ### Departures
 #### 5 min

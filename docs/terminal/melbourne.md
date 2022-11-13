@@ -190,15 +190,13 @@ The divisions of the airspace between **MAE**, **MDN**, and **MDS** change based
 
 ### ML TCU / ENR
 #### Departures
-Voiceless coordination is in place from ML TCU to all surrounding ENR sectors (**ELW** to the East, **YWE** (and **WON** if online) All other directions) for aircraft:  
-Planned at or above F240: `Assigned F240`  
-Planned below F240: `Assigned the RFL`  
+Voiceless coordination is in place from ML TCU to all surrounding ENR sectors (**ELW** to the East, **YWE**/**WON** all other directions) for aircraft:<ul><li>Planned at or above F240: `Assigned F240`</li><li>Planned below F240: `Assigned the RFL`</li></ul>
 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
 !!! example
-    **ML TCU** -> **YWE**: "QFA123, with your concurrence, will be assigned F190, for my separation with QLK456D"  
-    **YWE** -> **ML TCU**: "QFA123, concur F190"  
+    **ML TCU** -> **YWE**: "QFA420, with your concurrence, will be assigned F190, for my separation with QLK52D"  
+    **YWE** -> **ML TCU**: "QFA420, concur F190"  
 
 #### Arrivals
 The Standard assignable level from ENR to ML TCU is `A090`. All other levels must be prior coordinated
@@ -206,21 +204,22 @@ The Standard assignable level from ENR to ML TCU is `A090`. All other levels mus
 ### ML TCU / ML ADC
 #### Auto Release
 
-Auto Release shall be used for aircraft that are:    
+Auto Release shall be used for aircraft that are:      
 a) Departing from a runway nominated on the ATIS; and  
 b) Issued a Procedural SID; and   
 c) Assigned `A050`.
 
 Any aircraft that don't meet these criteria must be coordinated to ML TCU with a "Next" Call.
 
-"Next" Coordination is a procedure where the ML ADC controller gives a heads-up to the ML TCU controller about an impending departure. The ML TCU controller will respond by assigning a heading to the aircraft, for the ML ADC controller to pass on with their takeoff clearance.
+"Next" Coordination is a procedure where the ML ADC controller gives a heads-up to the ML TCU controller about an impending departure. The ML TCU controller will respond by assigning any relevant departure instructions (i.e. assigned heading, amended altitude, visual turn) to the aircraft, for the ML ADC controller to pass on with their takeoff clearance.
 
 !!! example
-    **ML ADC** -> **ML TCU**: "Next, ABC"  
-    **ML TCU** -> **ML ADC**: "ABC, Track Extended Centreline"  
-    **ML ADC** -> **ML TCU**: "Track Extended Centreline, ABC"  
-    **ML ADC** -> **ABC**: "ABC, Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff"  
-    **ABC** -> **ML ADC**: "Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff, ABC"  
+    **ML ADC** -> **ML TCU**: "Next, CYF, runway 34"  
+    **ML TCU** -> **ML ADC**: "CYF, track extended centreline"  
+    **ML ADC** -> **ML TCU**: "Track extended centreline, CYF"  
+
+    **ML ADC:** "CYF, track extended centreline 340 degrees, Runway 34, cleared for takeoff"  
+    **CYF:** "Track extended centreline 340 degrees, Runway 34, cleared for takeoff, CYF"  
     `AIP GEN 3.4`
 
 ### ML TCU / EN TWR
@@ -229,15 +228,15 @@ Any aircraft that don't meet these criteria must be coordinated to ML TCU with a
 Aircraft departing YMEN in to ML TCU Class C will be coordinated from **EN TWR** at Taxi.
 
 !!! example
-    **EN TWR** -> **ML TCU**: "Taxi, ABC for YBDG, Runway 17, via ML V376 DOTPA"  
-    **ML TCU** -> **EN TWR**: "ABC for YBDG, Runway 17, via ML V376 DOTPA, A030"  
-    **EN TWR** -> **ML TCU**: "A030, ABC" 
+    **EN TWR** -> **ML TCU**: "Taxi, AM322 for YBDG via ML, Runway 17"  
+    **ML TCU** -> **EN TWR**: "AM322, A030"  
+    **EN TWR** -> **ML TCU**: "A030, AM322" 
 #### Arrivals
-ML TCU Must coordinate the sequence information to **EN TWR** prior to transfer of jurisdiction. ML TCU is responsible for clearing aircraft for the approach prior to handoff to **EN TWR**.
+ML TCU must coordinate the sequence information to **EN TWR** prior to transfer of jurisdiction. ML TCU is responsible for clearing aircraft for the approach prior to handoff to **EN TWR**.
 
 !!! example
-    **ML TCU** -> **EN TWR**: "New sequence of 1, FD123, via MONTY, Number 1"  
-    **EN TWR** -> **ML TCU**: "FD123, Number 1"  
+    **ML TCU** -> **EN TWR**: "New sequence of 1, CJI, via MONTY, Number 1"  
+    **EN TWR** -> **ML TCU**: "CJI, Number 1"  
 ### ML TCU / AV TWR
 #### Departures
 
@@ -245,8 +244,7 @@ Aircraft departing YMAV in to ML TCU CTA will be coordinated from **AV TWR** at 
 
 !!! example
     **AV TWR** -> **ML TCU**: "Taxi, JST604 for YSSY, Runway 18, JUSTY2 departure"  
-    **ML TCU** -> **AV TWR**: "JST604, Runway 18, JUSTY1, Squawk 3601"  
-    **AV TWR** -> **ML TCU**: "3601, JST604"
+    **ML TCU** -> **AV TWR**: "JST604"
 
 When the aircraft is ready for takeoff, **AV TWR** will give a "Next" call, where ML TCU will provide the cleared level, and any additional departure instructions.
 
@@ -255,7 +253,7 @@ When the aircraft is ready for takeoff, **AV TWR** will give a "Next" call, wher
     **ML TCU** -> **AV TWR**: "JST604, A040"  
     **AV TWR** -> **ML TCU**: "A040, JST604"
 #### Arrivals
-ML TCU Must coordinate the sequence information to **AV TWR** prior to transfer of jurisdiction.
+ML TCU must coordinate the sequence information to **AV TWR** prior to transfer of jurisdiction.
 
 !!! example
     **ML TCU** -> **AV TWR**: "JST612, via TEMPL, Number 1"  
