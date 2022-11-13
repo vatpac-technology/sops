@@ -18,13 +18,16 @@ There are multiple tools a controller can use to create and maintain a sequence.
 Speed Control is simply slowing aircraft down and speeding aircraft up as required. As a general rule of thumb, Speed Control is most useful to achieve anywhere between a 1 minute expedition, to a 2 minute delay (depending on how far out from the FF).
 
 !!! tip
-    Prior to implementing speed control, get yourself the best possible picture of what the pilots are doing. Asking questions like;  
+    Prior to implementing speed control, get yourself the best possible picture of what the pilots are doing. Asking questions like:  
     *"QFA123, report planned cruise Mach number"  
     "VOZ456, report speed on descent"  
     "QJE1781, report top of descent point"*  
-    Will give you maximum awareness of the traffic picture, and help plan restrictions, sequences, etc.
+    to give you maximum awareness of the traffic picture, and help plan restrictions, sequences, etc.
+
+!!! tip
+    When in doubt, start with speed control and use other sequencing techniques as required.  Reducing an aircraft to minimum speed in the cruise and applying a short delaying vector may produce the same delay as a hold, but greatly reduce controller and pilot workload.
 ### General Flow Speeds
-For information only, the following approximate time gains and losses achieved by speed control.
+For information only, the following approximate time gains and losses achieved by speed control during descent.
 
 | IAS Restriction | JET Gain / Loss | Others |
 | ---- | -------- | -------|

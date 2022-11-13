@@ -135,21 +135,79 @@ These can be displayed on vatSys using the `SY_VFR` map.
 
 ## Helicopter Operations
 ### Inbound/Outbound Routes
-Reserved
-
-### Terminal Airspace Operations
-Reserved
-
-## BK TWR Offline
-Due to the low level of CTA (A015) in the BK CTR when **BK TWR** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
+Helicopters outbound from YSSY will make contact with the Departures controller established on a Helicopter Route.  Controllers need only identify the aircraft, as they will already be cleared to climb to a suitable level (generally not above `A010`) through their coded clearance.  Each clearance stipulates a point where identification and control services are automatically terminated, but controllers may explicitely cancel these services for new pilots who may not understand where they exit CTA.  
 
 !!! example
-    **ABC** -> **SY TCU**: "Sydney Approach, ABC, PC12, POB 8, IFR, Taxiing YSBK for YSHL, Runway 11C" `AIP GEN 3.4`  
-    **SY TCU** -> **ABC**: "ABC, Sydney Approach, Squawk 3601, No Reported IFR Traffic, Call me Ready at the Holding Point for Airways Clearance"  
-    **ABC** -> **SY TCU**: "Squawk 3601, Wilco, ABC"  
-    **ABC** -> **SY TCU**: "ABC, Ready Runway 11C, Request clearance"  
-    **SY TCU** -> **ABC**: "ABC, Cleared to YSHL via ANKUB, Flight Planned Route. Make Visual right turn DCT ANKUB, Climb to A030"  
-    **ABC** -> **SY TCU**: "Cleared to YSHL via ANKUB, Flight Planned Route. Make Visual right turn DCT ANKUB, Climb to A030, ABC" 
+    **YZD:** "Sydney Departures, helicopter YZD, passing 900ft on the Barracks 5 Outbound"  
+    **SY TCU:** "YZD, Departures, identified"
+
+Helicopters tracking inbound to YSSY will generally do so via a Helicopter Route.  Aircraft are required to contact the TCU controller for clearance along these routes, with the exception of the `CAPE BANKS 5 INBOUND` and `WANDA 5 INBOUND` for which they should contact **SY ADC** directly.  
+
+Controllers should identify the aircraft and then provide clearance if traffic permits.
+
+!!! example
+    **HSZ:** "Sydney Departures, helicopter HSZ, Sydney Heads, A010, received Delta, request Harbour Bridge 5 Inbound"  
+    **SY TCU:** "HSZ, squawk 0552"  
+
+    **SY TCU:** "HSZ, identified, cleared Harbour Bridge 5 Inbound"
+
+!!! note
+    Some Helicopter Routes may conflict with fixed wing approach/departure paths, so use common sense to separate helicopters when required.  For example, during 34 PROPS, it may be more suitable for helicopters to track via the `CAPE BANKS 5 INBOUND` rather than taking the `MAROUBRA 5 INBOUND`, due to it's close proximity to the **MARUB SID**.  In any case, if pilots are unfamiliar with local landmarks, simplify your instructions to assist them while maintaining separation.
+
+Helicopters should be transferred to **SY ADC** early to allow them to provide sequencing and separation with fixed-wing aircraft.
+
+!!! tip
+    You can find details of each Helicopter Route in the YSSY ERSA FAC under section 14 `HELICOPTER ROUTE OPERATIONS` and display an approximation of the route on vatSys using the `SY_HELO` map.
+
+### Terminal Airspace Operations
+#### Bondi Coded Clearances
+The `BONDI 5` coded clearance is only available to helicopters, provided PRM approaches are not in use to RWY 16s at YSSY.  The clearance may not be available (or delays may be required) when RWY 25 is in use for arrivals or RWY 07 is in use for departures.  
+
+!!! tip
+    You can find details of the BONDI 5 procedure in the YSSY ERSA FAC under section 14 `HELICOPTER ROUTE OPERATIONS`.
+
+Helicopters should be identified and then cleared for the `BONDI 5 NORTHBOUND` or `BONDI 5 SOUTHBOUND`. Traffic information must be provided on any other helicopters operating on the route or any other aircraft in the area (e.g. aircraft in Victor One).  Sydney QNH should be provided if the aircraft didn't depart from YSSY recently.
+
+!!! example
+    **YOE:** "Sydney Approach, helicopter YOE, Jibbon Point, 500ft, received Whiskey, request Bondi 5 Northbound"  
+    **SY TCU:** "YOE, Sydney Approach, squawk 0451"  
+
+    **SY TCU:** "YOE, identified, cleared Bondi 5 Northbound, Sydney QNH 1024"
+
+Once the aircraft exits CTA at Long Bay Headland (southbound) or Sydney Heads (northbound), cancel their identification and control services.  If the helicopter is likely to request a clearance via one of Sydney's Helicopter Routes, consider instructing them to remain on their assigned squawk code to assist with identification.
+
+!!! example
+    *"YOE, clear of controlled airspace, identification and control service terminated, squawk 1200, frequency change approved"*
+#### Sector Coded Clearances
+To reduce frequency congestion, several commonly used geographically defined areas are designated with lateral and vertical limits and provided upon request via a coded clearance to helicopter aircraft.
+
+| Sector Name | Lateral Limits | Vertical Limits  |
+| --| ----------------| --------- |
+| City East | Bounded by Rushcutters Bay, Sydney Cricket Ground, Sydney Harbour Bridge South Pylon, Fort Denison, Clark Island, Rushcutters Bay   | Not above `A020`     |
+| CBD | Bounded by Rushcutters Bay, Sydney Cricket Ground, Cleveland Street, Regent Street, George Street, Sydney Harbour Bridge South Pylon, Fort Denison, Clarke Island, Rushcutters Bay | Not above `A020` |
+| North Harbour | The area northeast of a line St Ives Showground, Roseville Bridge, Sydney Harbour Bridge North Pylon then via the northern shore of Sydney Harbour to Middle Head then Manly | Not above `A015` |
+| Northern Beaches | The area east of a line Long Reef, Spit Bridge, Sydney Harbour Bridge North Pylon then via the northern shores of Sydney Harbour to Middle Head then Manly | Not above `A015` |
+| South Harbour | The area bounded by lines joining Sydney Harbour Bridge North Pylon, Sydney Harbour Bridge South Pylon, then via the southern shoreline of Sydney Harbour to South Head then Manly to Middle Head, then via the northern shoreline of Sydney Harbour to Sydney Harbour Bridge North Pylon | Not above `A015` |
+| Manly | The area North of line South Head to Middle Head to the Spit Bridge, East of a line Spit Bridge to intersection Pittwater and Warringah Roads to Curl Curl Beach, Coastal Southbound to South Head | Not above `A015` |
+
+Helicopters should be identified and then provided the clearance where traffic permits.  Helicopters established on a Helicopter Route should be issued an onwards clearance into the requested sector.
+
+!!! example
+    **HWD:** "Sydney Departures gday, helicopter HWD, passing 800ft on the Harbour Bridge 5 outbound, request South Harbour Sector"  
+    **SY TCU:** "HWD, Departures, identified, onwards clearance South Harbour Sector"  
+    **HWD:** "Onwards clearance South Harbour Sector, HWD"
+
+## BK TWR Offline
+Due to the low level of CTA (`A015`) in the BK CTR when **BK TWR** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
+
+!!! example
+    **LOA**: "LOA, King Air, POB 10, IFR, taxing Bankstown for Shellharbour, Runway 11C" `AIP GEN 3.4`  
+    **SY TCU**: "LOA, Sydney Approach, squawk 3601, no reported IFR traffic, report ready at the holding point for airways clearance"  
+    **LOA**: "Squawk 3601, wilco, LOA"  
+
+    **ABC**: "LOA, ready Runway 11C"  
+    **SY TCU**: "LOA, cleared to YSHL via ANKUB, flight planned route, Bankstown 8 Departure, climb via SID A030"  
+    **LOA**: "Cleared to YSHL via ANKUB, flight planned route, Bankstown 8 Departure, climb via SID A030, LOA" 
 ## Airspace Division
 
 The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW** and **SFE** change based on the Runway Mode.
@@ -191,8 +249,8 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
 ### SY TCU / ENR
 #### Departures
 Voiceless coordination is in place from SY TCU to all surrounding ENR sectors (**ARL** (and subsectors) to the North and East, **YWE** (and subsectors) to the West, **BIK** (and subsectors) to the South) for aircraft assigned:  
-The lower of `F280` or the `RFL`, **with the exception of**:  
-Aircraft with ADES YWLM, which will be assigned the lower of `F130` or the `RFL`.  
+- The lower of `F280` or the `RFL`, **with the exception of**:  
+- Aircraft with ADES YWLM, which will be assigned the lower of `F130` or the `RFL`.  
 
 Aircraft must be tracking from **SDN** or **SDS** airspace (see [Airspace Division](http://sops.vatpac.org/terminal/Sydney%20TCU/operations/#airspace-division){target=new}).
 
