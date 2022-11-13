@@ -18,6 +18,9 @@
   <figcaption>YBAS Airspace</figcaption>
 </figure>
 
+## Surveillance
+AS TWR is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels in the AS CTR.  
+For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
 ## Coordination
 ### AS ADC / ENR
 

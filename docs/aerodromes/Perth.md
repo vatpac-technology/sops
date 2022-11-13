@@ -74,7 +74,7 @@ When traffic permits, VFR scenic flights over Perth are cleared via VICTOR 65 ro
 
 ### Separation
 #### 2400m Reduced Runway Separation Minima
-By day, ATC may use 2400m runway separation between aircraft arriving to Runway 03/21. Both aircraft may occupy the runway during application of the standard. Read more on the standard [here](../../controller-skills/SepStandards.md).
+By day, ATC may use 2400m runway separation between aircraft arriving to Runway 03/21. Both aircraft may occupy the runway during application of the standard. Read more on the standard [here](../controller-skills/SepStandards.md).
 
 ### ATIS Notification of Departure Runway
 When both Runway 03 and Runway 06 are nominated as departure runways, broadcast the following:
