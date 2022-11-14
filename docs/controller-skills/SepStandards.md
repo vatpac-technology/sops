@@ -134,7 +134,7 @@ This technique is useful for situations such as:<ul><li>VFR aircraft manoeuvring
 ### Longitudinal
 
 <figure markdown>
-![Oceanic](../../oceanic/assets/Oceanic.png)
+![Oceanic](../oceanic/assets/Oceanic.png)
 </figure>
 
 Longitudinal separation shall only be applied between aircraft on same or reciprocal tracks.
@@ -149,13 +149,13 @@ Longitudinal time separation must be established by using pilot estimates and en
 ##### Same Track
 Aircraft that are on the same track, including situations where one aircraft is climbing or descending through the level of another, are to be separated by **10 minutes**
 <figure markdown>
-![10min](../../oceanic/assets/10min.png)
+![10min](../oceanic/assets/10min.png)
 </figure>
 
 ##### Reciprocal Track
 Aircraft flying on reciprocal tracks may only be separated vertically. Such separation must exist **at least 10 minutes** prior to the estimated time of passing
 <figure markdown>
-![ETP](../../oceanic/assets/ETP.png)
+![ETP](../oceanic/assets/ETP.png)
 </figure>
 
 After the estimated time of passing, aircraft may not climb or descend through the level of the opposite direction aircraft until **10 minutes** after the estimated time of passing. It is possible to reduce this requirement if definite passing has been achieved, and this will be explained later in this section.
@@ -208,12 +208,12 @@ Distance checks must be conducted as per the following table:
 #### Time-based crossing track
 Aircraft that are on crossing tracks, including situations where one aircraft is climbing or descending through the level of another, are to be separated by **15 minutes** at the point of intersection
 <figure markdown>
-![15min](../../oceanic/assets/15min.png)
+![15min](../oceanic/assets/15min.png)
 </figure>
 
 Where a difference 15 minutes does not exist at the crossing point, vertical separation shall be applied from the time at which the second aircraft is 15 minutes from the crossing point until the first aircraft is 15 minutes past the crossing point.
 <figure markdown>
-![Both](../../oceanic/assets/Both.png)
+![Both](../oceanic/assets/Both.png)
 </figure>
 
 #### Conflict Area
@@ -234,12 +234,12 @@ All aircraft have a NAVCAP, associated with a ***Circular Error of Position***. 
 | Z | None | 30nm |
 
 <figure markdown>
-![NAVCAP Z Example](../../oceanic/assets/navcapZ.png){ width="300" }
+![NAVCAP Z Example](../oceanic/assets/navcapZ.png){ width="300" }
   <figcaption>NAVCAP Z Example</figcaption>
 </figure>
 
 <figure markdown>
-![NAVCAP 2 Example](../../oceanic/assets/navcap2.png){ width="300" }
+![NAVCAP 2 Example](../oceanic/assets/navcap2.png){ width="300" }
   <figcaption>NAVCAP 2 Example</figcaption>
 </figure>
 
@@ -261,7 +261,7 @@ The minimum number you must select when using the tool, is equal to: **Aircraft 
 ##### Working with Conflict Area
 
 <figure markdown>
-![Conflict Area Example 1](../../oceanic/assets/conflictarea.png){ width="300" }
+![Conflict Area Example 1](../oceanic/assets/conflictarea.png){ width="300" }
   <figcaption>Conflict Area Example 1</figcaption>
 </figure>
 
@@ -274,7 +274,7 @@ Once you've established the Conflict area, you now know the area in which the ai
 Using the time standard, aircraft are considered to have entered the conflict area **5 minutes prior** to the estimate shown, and to have left the conflict area **5 minutes after** the estimate shown.
 
 <figure markdown>
-![Conflict Area Example 2](../../oceanic/assets/conflictarea2.png){ width="600" }
+![Conflict Area Example 2](../oceanic/assets/conflictarea2.png){ width="600" }
 <figcaption>Conflict Area Example 2</figcaption>
 </figure>
 
