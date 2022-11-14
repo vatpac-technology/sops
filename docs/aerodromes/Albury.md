@@ -19,46 +19,37 @@
   <figcaption>YMAY Airspace</figcaption>
 </figure>
 
-## Coordination
-### AY ADC / ENR
+## Surveillance
+AY TWR is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels in the AY CTR.  
+For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
 
+## Lateral Separation
+Placeholder for local lateral separation options, such as using visual features, useful VOR radials, etc.
+
+
+## Coordination
+### Departures
 #### Taxi Call
-A taxi call shall be made between AY TWR and ML CTR as an aircraft is given taxi clearance. Center will respond by acknowledging the callsign and activating FDR.
+A taxi call shall be made to BLA as an aircraft is given taxi clearance. BLA will respond by acknowledging the callsign.
 
 !!! example
-    **AY_TWR** -> **ML-BLA_CTR**: "Taxis QFA400 for YSSY via MUSOP"  
-    **ML-BLA_CTR** -> **AY_TWR**: "QFA400"  
+    **AY TWR** -> **BLA**: "Taxis QFA400 for YSSY via MUSOP"  
+    **BLA** -> **AY TWR**: "QFA400"  
 
 #### Next Call
-A next call is made for all aircraft when they are next to depart and will be departing within two minutes. Center will respond by either acknowledging the callsign or offering a higher level. Any higher level issued will be passed along in the takeoff clearance. If the controller is in a high workload environment, a next call may be omitted, in favour of taxi and departure coordination.
+A next call is made for all aircraft when they are next to depart and will be departing within two minutes. BLA will respond by either acknowledging the callsign.
 
 !!! example
-    **AY_TWR** -> **ML-BLA_CTR**: "Next QFA400"  
-    **ML-BLA_CTR** -> **AY_TWR**: "QFA400, FL320"  
-    **AY_TWR** -> **ML-BLA_CTR**: "FL320, QFA400"  
+    **AY TWR** -> **BLA**: "Next QFA400"  
+    **BLA** -> **AY TWR**: "QFA400"    
 
-#### Departure Call
-A departure call should be made as the aircraft becomes airborne. If not already issued, CTR will issue a higher level. The aircraft should be transferred to CTR as they climb through the upper level of the AY class D airspace.
+The Standard Assignable level from AY TWR to BLA is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
 
-!!! example
-    **AY_TWR** -> **ML-BLA_CTR**: "Departure QFA400 at 06"  
-    **ML-BLA_CTR** -> **AY_TWR**: "QFA400"
-
-#### Arrival Coordination
-ML-BLA_CTR will coordinate all arrivals into Albury Prior to handing over to tower in the following format:
-
-- Callsign & Aircraft Type
-- Estimate
-- Inbound Radial/Procedure
-- Assigned Level
-- Sequence Number (if applicable)
+#### Arrivals
+As per [Standard coordination procedures](../../controller-skills/coordination/#class-d-twr-enrtcu), it is the responsibility of BLA to coordinate arrivals to AY TWR prior to **5 mins** from the airspace boundary.
 
 !!! example
-    **ML-BLA_CTR** -> **AY_TWR**: "JST416, A320, estimates Albury 52, ARRAN1 arrival, 5000ft, number 1”
-    **AY_TWR** -> **ML-BLA_CTR**: "JST416"
+    **BLA** -> **AY TWR**: "RXA3421, estimating YMAY time 52, via ARRAN1 arrival”  
+    **AY TWR** -> **BLA**: "RXA3421"  
 
-## Standard Assignable Levels
-
-All aircraft departing from Albury shall be assigned `A060`.
-
-All aircraft arriving into Albury shall be assigned `A070`.
+The Standard Assignable level from BLA to AY TWR is `A080`, any other level must be prior coordinated.

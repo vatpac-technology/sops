@@ -6,7 +6,7 @@ title: Coordination
 
 Coordination requirements are often very location-specific, however this page outlines the general guidelines to coordination, which are supplemented by Local Instructions.
 
-[MATS Chapter 6](https://www.airservicesaustralia.com/mats/docs/nos-saf-2000.pdf){target=new} goes in to much more detail about coordination principles, phraseology, and situations. It is well above the level required for VATSIM, but feel free to read up on it if you want to extend your learning.
+[MATS Chapter 6](https://www.airservicesaustralia.com/mats/docs/nos-saf-2000.pdf) goes in to much more detail about coordination principles, phraseology, and situations. It is well above the level required for VATSIM, but feel free to read up on it if you want to extend your learning.
 
 ## Types of Coordination
 ### Heads-up
@@ -27,6 +27,9 @@ Once this coordination is completed, the aircraft's level and route is **locked 
 !!! example
     **ELW** -> **BIK**: "VOZ1234, requesting DCT RIVET"  
     **BIK** -> **ELW**: "VOZ1234, concur DCT RIVET"  
+
+!!! tip
+    In situations where Heads-Up Coordination is required, the best time to do it is when the aircraft first calls you. There's no need to wait until half a mile before when its due, if you can get it done sooner.
 
 ### Voiceless
 
@@ -49,38 +52,58 @@ The Boundary Sector may omit the restriction and readback the callsign only. Thi
     **INL** -> **BAS**: "For Ident, West of BLAKA, ABC"  
     **BAS** -> **INL**: "ABC"
 
-## Rules
-### The C-Prompt (Coordination Prompt)
-Once all voice coordination is complete for an aircraft, display the "C-Prompt" by middle clicking the area just above the aircraft's callsign in the label. *Note: This includes if the aircraft is subject to voiceless coordination, which most aircraft are.
+## The C-Prompt (Coordination Prompt)
+Display the "C-Prompt" when all coordination for an aircraft is complete, or voice coordination is not required for an aircraft (eg subject to voiceless coordination).
+
+The "C-Prompt" can be displayed by middle clicking the area just above the aircraft's callsign in the label.
 
 <figure markdown>
 ![C-Prompt](img/cprompt.png){ width="200" }
   <figcaption>C-Prompt</figcaption>
 </figure>
 
-Remove the "C-Prompt" once the aircraft has correctly read back the frequency you have handed them off to.
+Remove the "C-Prompt" once jurisdiction of the aircraft has been handed off, and the new frequency has been correctly read back.
 
-### General
+## Rules
+## General
 Coordination must be done on a **point-to-point** basis. Meaning, you can only coordinate with the sector which the aircraft is coming from, or going to, no skipping! This is important to remember, for example, if you are controlling ELW, and you would like to pass an amended route to someone on the ground at YMML. Whilst that may be no issue for ELW, ML SMC and ML ADC, it might not work for ML APP. ML APP would be the sector which the aircraft is coming from, so ELW must talk to them, and it is the responsibility of ML APP to work backwards down the line on a point-to-point basis.
 
 Ensure no coordination is ambiguous in its meaning. Not all coordination can be straight out of the phraseology books, and the reality is, not everyone controlling the airspace is going to be 100% proficient and by the books. When using "plain english", ensure there is no ambiguity, and the message is fully understood by both parties.
-
 ### ENR/TCU -> Class D TWR
-Voice coordinate Sequence **prior to transfer**
+Voice coordinate Sequence prior to **5 mins** from the boundary
+#### Format
+- Callsign
+- *"via (Route/Procedure)"*
+- Level (if not Standard Assignable)
+- Sequence Number (if applicable)
+!!! note
+    Aircraft estimating the field within **10 minutes** of each other are considered to be in the same sequence.
 ### Class D TWR -> ENR/TCU
-Voice coordinate Taxi call for CTA departures, Next call for **all** departures
+Voice coordinate Taxi call for CTA departures, Next call for **all** departures.
+!!! note
+    A Departure call is required at some Class D aerodromes with limited surveillance coverage. Refer to inidividual local instructions.
 ### ENR -> TCU
 **Voiceless** for aircraft landing at main airport (eg YMML in ML TCU), assigned a STAR, and standard assignable level.  
 Voice coordinate all other aircraft by **20nm** to boundary
 ### TCU -> ENR
-**Voiceless** for aircraft assigned lower of standard assignable level or RFL
+**Voiceless** for aircraft assigned lower of standard assignable level or RFL, and tracking via SID terminus
 ### ENR -> Oceanic
 Voice coordinate estimate and level prior to **15 mins** to boundary
+#### Format
+- Callsign
+- *"via (Boundary point)"*
+- Estimate
+- Level (add *"On climb"* or *"On descent"* if applicable)
 ### Oceanic -> ENR
 Voice coordinate estimate and level prior to **15 mins** to boundary
+#### Format
+- Callsign
+- *"via (Boundary point)"*
+- Estimate
+- Level (add *"On climb"* or *"On descent"* if applicable)
 ### ENR -> ENR
 **Voiceless**, no changes to route or CFL within **20nm** to boundary
-### Handoffs
+## Handoffs
 Receiving a handoff means you are permitted to turn an aircraft **45 degrees left or right**, and **climb/descend it to any level** without coordination. Do not handoff an aircraft to another sector if a turn of 45 degrees or a change of level would cause a conflict with any of your own aircraft. Or alternatively, you can nominate a restriction prior to handoff.
 
 !!! example
