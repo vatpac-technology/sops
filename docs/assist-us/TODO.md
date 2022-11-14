@@ -126,9 +126,3 @@
 | Final checks that all coord parameters match up - INL/KEN area | - | Not Started |
 | Final checks for formatting consistency | - | Not Started |
 
-## Other
-| Task | Assigned to | Progress | Priority |
-| ---- | ----------- | -------- | -------- |
-| Fix Navbar colour | Chris G | Completed | Medium Priority|
-| Dark Mode | Chris G | Not Started | Low Priority |
-
