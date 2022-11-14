@@ -66,6 +66,11 @@ h4 {
     padding: 0 .2941176471em;
     word-break: break-word;
 }
+
+.md-typeset a:hover {
+  color: rgb(104, 148, 230)
+}
+
 /*Standardize Font Awesome CSS Styling*/
 .discord {
   font-size: 20px;
