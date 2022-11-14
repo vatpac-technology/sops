@@ -20,7 +20,9 @@ Other FIRs which are covered under the Pacific Oceanic Agreement are:
 NZZO - Auckland Oceanic  
 NZCM - McMurdo Oceanic  
 KZAK - Oakland Oceanic  
-NTTT - Tahiti Oceanic  
+NTTT - Tahiti Oceanic
+RJTG - Fukuoka Oceanic
+MMZO - Mazatlan Oceanic
 
 !!! information
     Auckland, McMurdo and Tahiti Oceanic are owned and operated by VATNZ, and Oakland Oceanic is owned and operated by VATUSA.  
@@ -34,20 +36,23 @@ NTTT - Tahiti Oceanic
 
 | Name  | 	Callsign  | 	Frequency   |	Logon Identifier |
 | ----------------- | --------------- | ----------------- | ----------- | 
-| KZAK - Oakland Oceanic  (East) |  San Francisco Radio | 131.950  |  ZAK_E_FSS |
-| KZAK - Oakland Oceanic (West) | San Francisco Radio |  122.500 |  ZAK_W_FSS |
-| YBBB - Brisbane Oceanic (Tasman)  | Brisbane Radio | 128.600  |  BN-TSN_FSS |
-| AGGG - Honiara FIR	 |  Brisbane Radio |  128.600 |  BN-TSN_FSS |
-| ANAU - Nauru FIR |  Brisbane Radio |  128.600 |  BN-TSN_FSS |
-| YMMM - Melbourne Oceanic (Indian Ocean) |  Brisbane Radio | 122.400  |  ML-IND_FSS |
-| NZZO - Auckland Oceanic  |  Auckland Radio |  128.900 |  NZZO_FSS |
-| NZCM - McMurdo Oceanic  |  McMurdo Radio |  128.700 |  NZCM_FSS |
-| NFFF - Nadi Oceanic  | Nadi Radio  |  123.600 |  NFFF_FSS |
-| NTTT - Tahiti Oceanic  |  Tahiti Radio |  125.500 |  NTTT_FSS |
+| KZAK - Oakland Oceanic |  San Francisco Radio | 11.282 (129.400)  |  ZAK_FSS |
+| YBBB - Brisbane Oceanic (Tasman)  | Brisbane Radio | 17.904 (124.650)  |  BN-TSN_FSS |
+| AGGG - Honiara FIR	 |  Brisbane Radio |  17.904 (124.650) |  BN-TSN_FSS |
+| ANAU - Nauru FIR |  Brisbane Radio |  17.904 (124.650) |  BN-TSN_FSS |
+| YMMM - Melbourne Oceanic (Indian Ocean) |  Brisbane Radio | 5.634 (129.250)  |  ML-IND_FSS |
+| NZZO - Auckland Oceanic  |  Auckland Radio |  8.867 (129.000) |  NZZO_FSS |
+| NZCM - McMurdo Oceanic  |  McMurdo Radio |  9.032 (128.700) |  NZCM_FSS |
+| NFFF - Nadi Oceanic  | Nadi Radio  |  8.846 (123.600) |  NFFF_FSS |
+| NTTT - Tahiti Oceanic  |  Tahiti Radio | 9.116 (125.500) |  NTTT_FSS |
+| RJTG - Fukuoka Oceanic | Tokyo Radio | 2.932 (126.700) | RJTG_FSS |
+| MMZO - Mazatlan Oceanic | Mazatlan Radio | placeholder | MMZO_FSS |
+
+<!-- waiting on VATMEX to get back to me about frequencies and the correct positions for their sector-->
 
 
 !!! Note 
-    KZAK oceanic positions may be further subdivided by the shift supervisor, in which case the subsector shall add a numeral to the text callsign E/W element. For example, ZAK_W1_FSS.
+    KZAK oceanic positions may be further subdivided by the shift supervisor, in which case the subsector shall add a numeral to the callsign. For example, ZAK_1_FSS. It is discouraged to only control a portion of KZAK in non-event periods. For more information on KZAK procedures, head to their SOP [here.](https://oakartcc.org/web/viewer.html?file=/controllers/file/e8a98e09-1c16-11ec-9430-2a32edb55910){target=new}
 
     Honiara (AGGG) and Nauru (ANAU) FIR ATS are provided by Brisbane Oceanic (Tasman).  
 
