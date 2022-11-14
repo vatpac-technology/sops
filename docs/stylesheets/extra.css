@@ -10,6 +10,7 @@
   --md-card-a:  rgba(241, 245, 249, 0.5);
   --md-card-a-hover: rgba(241, 245, 249, 1);
   --md-default-table-header-text: #fff;
+  --md-top: var(--md-default-bg-color);
 
 }
 [data-md-color-scheme="slate"] {
@@ -19,6 +20,7 @@
   --md-card-a: #1b253b;
   --md-card-a-hover: #293858;
   --md-default-table-header-text: #fff;
+  --md-top: #1b253b;
 }
 
 /*Header Modifications*/
