@@ -16,7 +16,8 @@
   color: var(--md-primary-fg-color);
 }
 .md-top {
-  color: #344767;
+  background-color: var(--md-top);
+  color: var(--md-primary-fg-color);
 }
 .md-tabs__link--active, .md-tabs__link:focus {
   border-bottom: 1.5px solid #b5b6b3;
