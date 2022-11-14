@@ -9,7 +9,7 @@
     overflow: visible;
 }
 .md-tabs {
-  background: #fff;
+  background: var(--md-default-bg-color);
 }
 
 .md-tabs__link {
