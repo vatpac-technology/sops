@@ -39,28 +39,33 @@ OXL is responsible for issuing STAR Clearances for aircraft arriving at YMML. OX
 Just keeping them separated!
 
 ### Katoomba (KAT)
-KAT is responsible for issuing STAR Clearances for YSCB.
+KAT is responsible for issuing STAR Clearances for YSCB.  KAT is also responsible for issuing STAR clearance *(but not runway assignment)* to aircraft processed via the ODALE STAR into YSSY. The BIK controller will issue runway assignment to these aircraft on first contact.
+
+!!! example
+    *PE211 has departed YBTH for YSSY and is making a departure call*  
+    **PE211:** "PE211, 3nm south of Bathurst, passing 5800ft, climbing FL120, estimate REVKI 22"  
+    **KAT:** "PE211, identified, cleared to YSSY via REVKI flight plan route, ODALE7 arrival, climb FL120"
 
 ## Coordination
 
 ### YWE/WON / ML TCU
-#### Standard Assignable Levels
 
 The Standard assignable level from YWE and WON to ML TCU is `A090`, and assigned the ARBEY #, PORTS #, WAREN #, or WENDY # STAR.
 
 All other aircraft must be voice coordinated to ML TCU prior to **20nm** from the boundary.
 
 The Standard Assignable level from ML TCU to YWE/WON is `F240`, and tracking via CRENA, ESDIG, NEVIS, CORRS, KEPPA, or SUNTI.
+
+Refer to [Melbourne TCU Airspace Division](http://sops.vatpac.org/terminal/Melbourne%20TCU/operations/#airspace-division){target=new} for information on airspace divisions when **MDN** and/or **MDS** are online.
 ### YWE (All) / ENR
 
 As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
 
-That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** in the following scenarios:  
+That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** prior to **20nm** from the boundary in the following scenarios:  
 - YWE to ELW/BLA for all aircraft  
 - WON to ELW/BLA for all aircraft  
 - GTH to BLA for all aircraft  
-- GTH to BIK/GUN for aircraft **not** planned via TARAL  
-- KAT to BIK/GUN for all aircraft  
+- KAT to BIK/GUN for aircraft **not** planned via MAKKA  
 - MUN to TBD for aircraft **not** on H345 airway*
 
 !!! tip
@@ -77,9 +82,12 @@ That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** i
 - YWE to WON for all aircraft  
 
 ### KAT / SY TCU
+
 As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-tcu){target=new}, all aircraft must be **Heads-up coordinated** prior to **20nm** from the boundary.  
 
-The Standard Assignable level from SY TCU to KAT is `F280`, and tracking via KADOM.
+The Standard Assignable level from SY TCU to KAT is the lower of `F280` or the `RFL`, and tracking via KADOM.
+
+Refer to [Sydney TCU Airspace Division](http://sops.vatpac.org/terminal/Sydney%20TCU/operations/#airspace-division){target=new} for information on airspace divisions when **SAS**, **SDN** and/or **SDS** are online.
 
 ### WON / ESL APP
 #### Airspace

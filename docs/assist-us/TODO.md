@@ -26,8 +26,8 @@
 | Rockhampton | - | Not Started |
 | Jandakot | Zach G | Not Started |
 | Moorabbin | Alex D | Complete, To be reviewed |
-| Camden | - | Not Started |
-| Archerfield | - | Not Started |
+| Camden | Matt E | In Progress |
+| Archerfield | Matt E | In Progress |
 | Parafield | Alex M | Not Started |
 | Bankstown | Tyler B | Complete, To be reviewed |
 
@@ -42,6 +42,7 @@
 | Alice Springs | Chris G | Complete, To be reviewed |
 | Coffs Harbour | Tyler B | Complete, To be reviewed |
 | Tamworth | - | Not Started |
+| Local Procedural Standards at Lat Sep references | Alex D | In Progress |
 
 ## Military
 | Task | Assigned to | Progress |
@@ -81,9 +82,9 @@
 | TRT | - | Not Started |
 | ASP | Alex D | Complete, To be reviewed |
 | ISA | - | Not Started |
-| KEN | - | Not Started |
-| INL | - | Not Started |
-| ARL | - | Not Started |
+| KEN | Alex D | Not Started |
+| INL | Alex D | Complete, To be reviewed |
+| ARL | Alex D | Complete, To be reviewed |
 | TBD | Alex D | Complete, To be reviewed |
 | YWE | Alex D | Complete, To be reviewed |
 | ELW | Alex D | Complete, To be reviewed |
@@ -105,12 +106,25 @@
 | Coordination | Alex D | Complete, To be reviewed |
 | Extending | Alex D | Complete, To be reviewed |
 | Sep Standards | Chris G | Complete, To be reviewed |
+| Airspace Classes | Alex D | Not Started |
+| Sequencing | Alex D | Complete, To be reviewed |
+| Maestro | Zach BF | Complete, To be reviewed |
 
 ## General
 | Task | Assigned to | Progress |
 | ---- | ----------- | -------- |
 | TCU airspace diagrams | Alex D | Complete, To be reviewed |
-| ENR airspace diagrams | Alex D | Not Started |
+| ENR airspace diagrams | Alex D | Not Required? |
+| Match up TAS TCU coord with HUO | Alex D | Not Started |
+| Match up BN TCU coord with INL | Alex D | Not Started |
+| Procedural Tower Standard Review | Alex D | In Progress |
+| Change all internal links to ../.. format | Alex D | In Progress |
+| Final checks that all coord parameters match up - ARL/BIK area | - | Not Started |
+| Final checks that all coord parameters match up - ELW/YWE/HUO area | - | Not Started |
+| Final checks that all coord parameters match up - TBD/ASP/OLW/PIY area | - | Not Started |
+| Final checks that all coord parameters match up - ISA/TRT area | - | Not Started |
+| Final checks that all coord parameters match up - INL/KEN area | - | Not Started |
+| Final checks for formatting consistency | - | Not Started |
 
 ## Other
 | Task | Assigned to | Progress | Priority |
