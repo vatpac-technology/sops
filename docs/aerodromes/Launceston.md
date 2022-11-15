@@ -26,6 +26,8 @@
 ![Launceston Tower Class D Airspace](img/lttwr_profile.png){ width="700" }
 </figure>
 
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr/) for more information.
+
 ## SID Selection
 
 Aircraft planned via **IRSOM**, **ONAGI**, **NUNPA**, **MOTRA**, **IRONS**, **MORGO**, **KAREN**, **TASUM**, or **NOLAN**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.

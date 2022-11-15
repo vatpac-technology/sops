@@ -23,8 +23,8 @@ GOL is responsible for the BN TCU when **BN APP** is offline.
 GOL is responsible for the RK TCU when **RK APP** is offline.  
 INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, **NSA**, and **KPL** when they are offline.  
 
-When **SU TWR** is offline, SU CTR (Class D SFC-A045) reverts to Class G, and is administered by NSA and BUR. Alternatively, NSA may provide a top-down procedural service if they wish, and this must be coordinated to BUR.  
-When **CFS TWR** is offline, CFS CTR (Class D SFC-A045) reverts to Class G, and is administered by MNN and INL. Alternatively, INL may provide a top-down procedural service if they wish, and this must be coordinated to ARL(MNN).  
+When **SU TWR** is offline, SU CTR (Class D SFC-A045) reverts to Class G, and is administered by NSA and BUR. Alternatively, NSA may provide a top-down procedural service if they wish (not recommended), and this must be coordinated to BUR.  
+When **CFS TWR** is offline, CFS CTR (Class D SFC-A045) reverts to Class G, and is administered by MNN and INL. Alternatively, INL may provide a top-down procedural service if they wish (not recommended), and this must be coordinated to ARL(MNN).  
 
 (vatsys map)
 
