@@ -83,8 +83,8 @@ Circuits are conducted within the lateral confines of the fixed-wing circuit at 
 The ATIS must indicate the current runway config and nominate what each parallel runway is being used for.  The northern runway (06L/24R) is primarily used for VFR arrivals and departures, the southern runway (06R/24L) for circuit training and departures via `SHOP`, and the cross runway (12/30) for arrivals/departures when weather is unsuitable for parallel rwunay operations.  
 
 This should be reflected on the ATIS as below:  
-`RWY 06L FOR ARRIVALS AND DEPARTURES; RWY 06R FOR CIRCUITS AND DEPARTURES VIA ARMADALE SHOPS`  
-`RWY 24R FOR ARRIVALS AND DEPARTURES; RWY 24L FOR CIRCUITS AND DEPARTURES VIA ARMADALE SHOPS`
+`RWY 06R FOR CIRCUITS AND DEPARTURES VIA ARMADALE SHOPS; RWY 06L FOR ARRIVALS AND ALL OTHER DEPARTURES`  
+`RWY 24L FOR CIRCUITS AND DEPARTURES VIA ARMADALE SHOPS; RWY 24R FOR ARRIVALS AND ALL OTHER DEPARTURES`
 
 When PH RWY 03 is in operation, the ATIS should include:
 `DUE PERTH DUTY RUNWAY 03, CAUTION WAKE TURBULANCE`
@@ -120,7 +120,7 @@ PH TCU will coordinate with JT ADC for incoming IFR arrivals on either Visual Tr
 ##### Visual Tracking
 
 !!! example
-    **PH TCU** -> **JT ADC**: "Estimate, FD416 via `CBG` time 02."  
+    **PH TCU** -> **JT ADC**: "Estimate, FD416 via `CNB` time 02."  
     **JT ADC** -> **PH TCU**: "FD416"
 
 ##### IAP Tracking
