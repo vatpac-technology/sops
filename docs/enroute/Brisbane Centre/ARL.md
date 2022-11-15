@@ -20,7 +20,7 @@
 
 ARL is responsible for **MDE**, **CNK**, **MNN**, **MLD**, and **OCN** when they are offline.  
 
-When **TW TWR** is offline, TW CTR (Class D and C SFC-A085) reverts to Class G, and is administered by ARL and MDE. Alternatively, ARL (not MDE) may provide a top-down procedural service if they wish.  
+When **TW TWR** is offline, TW CTR (Class D and C SFC-A085) reverts to Class G, and is administered by ARL and MDE. Alternatively, ARL (not MDE) may provide a top-down procedural service if they wish (not recommended).  
 When **CFS TWR** is offline, CFS CTR (Class D SFC-A045) reverts to Class G, and is administered by MNN and INL. MNN is **not permitted** to provide a top-down procedural service, only INL can do this, and they must coordinate with MNN if they are doing so.
 
 (vatsys map)
@@ -63,11 +63,7 @@ That being said, it is *advised* that ARL(All) gives **Heads-up Coordination** i
 
 ### ARL/MDE / TW TWR
 #### Airspace
-When **TW TWR** is online, **ARL** owns the Class C airspace from A045 upwards. **TW TWR** owns the Class D airspace SFC-A045, and is shown **shaded** in the image below
-<figure markdown>
-![Tamworth Tower Airspace](img/TWTWR.png){ width="800" }
-  <figcaption>Tamworth Tower Airspace</figcaption>
-</figure>
+When **TW TWR** is online, **ARL** owns the Class C airspace from A065 upwards. **TW TWR** owns the Class D airspace SFC-A045 and Class C airspace A045-A065.
 
 #### Departures
 Departures from YSTW in to ARL/MDE Class C will be coordinated at taxi, and ready for departure. If a level other than the Standard Assignable is required from ARL/MDE, they will coordinate this at the "Next" call.

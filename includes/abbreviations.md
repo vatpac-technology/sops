@@ -145,3 +145,18 @@
 *[WOL]: Melbourne (Wollongong) Centre
 *[WON]: Melbourne (Wonthaggi) Centre
 *[WRA]: Melbourne (Woomera) Centre
+*[SVFR]: Special VFR
+*[FIS]: Flight Information Service
+*[SIS]: Surveillance Information Service (Flight Following)
+*[ARP]: Aerodrome Reference Point
+*[GGO]: Goonoo Goonoo Station
+*[WBH]: Wallabadah
+*[NUN]: Nundle
+*[DGN]: Dungowan
+*[NEM]: Nemingha
+*[MAL]: Manilla
+*[GWT]: Gate West
+*[DUA]: Duri Gap
+*[GST]: Gate South
+*[LLC]: Leaves Lateral Conflict
+*[ELC]: Enters Lateral Conflict

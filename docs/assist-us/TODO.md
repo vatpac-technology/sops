@@ -36,13 +36,13 @@
 | ---- | ----------- | -------- |
 | Broome | Zach G | In Progress |
 | Hamilton Island | Chris G | Complete, To be reviewed |
-| Sunshine Coast | - | Not Started |
+| Sunshine Coast |  Alex D | In Progress |
 | Karratha | Chris G | Complete, To be Reviewed |
 | Albury | Chris G | Complete, To be reviewed |
 | Alice Springs | Chris G | Complete, To be reviewed |
 | Coffs Harbour | Tyler B | Complete, To be reviewed |
-| Tamworth | - | Not Started |
-| Local Procedural Standards at Lat Sep references | Alex D | In Progress |
+| Tamworth | Alex D | Complete, To be reviewed |
+| Local Procedural Standards and Lat Sep references | Alex D | In Progress |
 
 ## Military
 | Task | Assigned to | Progress |

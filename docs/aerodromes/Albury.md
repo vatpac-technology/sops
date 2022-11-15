@@ -19,13 +19,14 @@
   <figcaption>YMAY Airspace</figcaption>
 </figure>
 
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr/) for more information.
+
 ## Surveillance
 AY TWR is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels in the AY CTR.  
 For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
 
 ## Lateral Separation
 Placeholder for local lateral separation options, such as using visual features, useful VOR radials, etc.
-
 
 ## Coordination
 ### Departures
@@ -45,8 +46,8 @@ A next call is made for all aircraft when they are next to depart and will be de
 
 The Standard Assignable level from AY TWR to BLA is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
 
-#### Arrivals
-As per [Standard coordination procedures](../../controller-skills/coordination/#class-d-twr-enrtcu), it is the responsibility of BLA to coordinate arrivals to AY TWR prior to **5 mins** from the airspace boundary.
+### Arrivals
+BLA will coordinate the sequence to AY TWR
 
 !!! example
     **BLA** -> **AY TWR**: "RXA3421, estimating YMAY time 52, via ARRAN1 arrival”  
