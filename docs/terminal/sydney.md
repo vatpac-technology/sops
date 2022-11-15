@@ -84,7 +84,7 @@ SFW/SFE should provide aircraft an approximate 'miles to run' on first contact, 
 A typical downwind will take roughly 25 track miles from the normal point have handover from SAN/SAS to SFE/SFW.
 
 !!! example
-    "QLK402, Sydney Director, descend via STAR 4000 FT, 25 miles to run"
+    "QLK402, Sydney Director, descend to 4000ft, 25 miles to run"
 
 SFW/SFE may provide distance to touchdown, when transferring an aircraft to tower after the aircraft is established on their approach runway centreline (see below).
 
@@ -114,7 +114,7 @@ When conducting IVAs, aircraft shall not be transferred to **SY ADC** until esta
 ## Sydney Harbour Scenic Flights
 Flights may be cleared for one of two standard scenic flight routes at `A015`, **Harbour Scenic ONE** or **Harbour Scenic TWO**, which are described below. Pilot preference should be accommodated where traffic permits.
 
-Aircraft must Track via Class G airspace to Long Reef and contact SY TCU prior to reaching Long Reef requesting a ‘Harbour Scenic’ clearance. Attempt to identify the aircraft, and if a clearance cannot be given immediately, instruct the pilot to remain in Class G airspace.
+Aircraft must track via Class G airspace to Long Reef and contact SY TCU prior to reaching Long Reef requesting a ‘Harbour Scenic’ clearance. Attempt to identify the aircraft, and if a clearance cannot be given immediately, instruct the pilot to remain in Class G airspace.
 
 !!! example
     LOI, squawk 0542, remain clear of Class C airspace”
