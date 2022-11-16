@@ -67,4 +67,4 @@ As per the enroute coordination requirements, voiceless coordination exists betw
 
 ## LEA / IND (Oceanic)
 
-As per Standard coordination procedures (link).
+As per Standard coordination procedures [here](https://sops.vatpac.org/oceanic/Coordination/){target=new}
