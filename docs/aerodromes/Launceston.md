@@ -30,9 +30,7 @@ Refer to [Class D Tower Skills](../../controller-skills/classdtwr/) for more inf
 
 ## SID Selection
 
-Aircraft planned via **IRSOM**, **ONAGI**, **NUNPA**, **MOTRA**, **IRONS**, **MORGO**, **KAREN**, **TASUM**, or **NOLAN**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
-
-Aircraft planned via **IRSOM**, **ONAGI**, **NUNPA**, **MOTRA**, **IRONS**, **MORGO**, **KAREN**, **TASUM**, or **NOLAN**, shall be assigned an appropriate **Procedural SID** or a visual departure.
+Aircraft planned via **IRSOM**, **ONAGI**, **NUNPA**, **MOTRA**, **IRONS**, **MORGO**, **KAREN**, **TASUM**, or **NOLAN**, shall be assigned the appropriate **Procedural SID**.  Other aircraft shall be assigned a visual departure.
 
 ## VFR Operations
 
@@ -87,5 +85,5 @@ LT TCU will coordinate all arrivals into Launceston Prior to handing over to tow
 
 ## Standard Assignable Levels
 
-Jets: `A080`
+Jets: `A080`  
 Non-jets: `A045` or `RFL` if lower

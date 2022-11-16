@@ -44,8 +44,6 @@ A next call is made for all aircraft when they are next to depart and will be de
     **AY TWR** -> **BLA**: "Next QFA400"  
     **BLA** -> **AY TWR**: "QFA400"    
 
-The Standard Assignable level from AY TWR to BLA is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
-
 ### Arrivals
 BLA will coordinate the sequence to AY TWR
 
@@ -53,4 +51,8 @@ BLA will coordinate the sequence to AY TWR
     **BLA** -> **AY TWR**: "RXA3421, estimating YMAY time 52, via ARRAN1 arrival”  
     **AY TWR** -> **BLA**: "RXA3421"  
 
-The Standard Assignable level from BLA to AY TWR is `A080`, any other level must be prior coordinated.
+## Standard Assignable Levels
+
+Aircraft departing from Albury shall be assigned `A070` or `RFL` if lower.
+
+Aircraft arriving into Albury shall be assigned `A080` by BLA.
