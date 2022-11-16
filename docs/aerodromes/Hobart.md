@@ -35,44 +35,42 @@ Refer to [Class D Tower Skills](../../controller-skills/classdtwr/) for more inf
 
 Jet Aircraft planned via **CLARK**, **LATUM**, or **LAVOP**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
 
-Jet Aircraft **not** planned via **CLARK**, **LATUM**, or **LAVOP**, shall be assigned an appropriate **Procedural SID** or a visual departure.
-
 Non-Jet Aircraft planned via **CLARK**, **KANLI**, or **LAVOP**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
 
-Non-Jet Aircraft **not** planned via **CLARK**, **KANLI**, or **LAVOP**, shall be assigned an appropriate **Procedural SID** or a visual departure.
+Other aircraft shall be assigned an appropriate **Procedural SID** or a visual departure.
 
 ## Cambridge (YCBG)
 
 HB ADC and/or HB SMC is resposible for clearances into and out of Cambridge (YCBG).
 
-Prior to leaving APN, aircraft will establish communications with HB SMC for Airways Clearance.
+Prior to leaving the apron, aircraft will establish communications with HB SMC for Airways Clearance.
 
 !!! Example
-    **NDR** -> **HB SMC**: "Hobart Ground, NDR, for Devonport, Request Clearance"  
-    **HB ADC** -> **NDR**: "NDR, Cleared to Devonport via KANLI flight plan route, KANLI# Departure, Climb via SID A045, Squawk 4432"
+    **NDR:** "Hobart Ground, NDR, for Devonport, Request Clearance"  
+    **HB ADC:** "NDR, Cleared to Devonport via KANLI flight plan route, KANLI3 Departure, Climb via SID A045, Squawk 4432"
     `AIP GEN 3.4`
 
 When ready to taxi and prior to leaving the apron aircraft must contact HB ADC, advising intended runway for departure and receipt of YMHB ATIS, to obtain TFC information.
 
 !!! Example
-    **NDR** -> **HB ADC**: "Hobart Tower, NDR, Cambridge Runway 32, Hobart Information D"  
-    **HB ADC** -> **NDR**: "NDR, No reported IFR traffic, report ready"
-    **NDR** -> **HB ADC**: "Wilco, NDR"  
+    **NDR:** "Hobart Tower, NDR, Cambridge Runway 32, Hobart Information D"  
+    **HB ADC:** "NDR, No reported IFR traffic, report ready"  
+    **NDR:** "Wilco, NDR"  
     `AIP GEN 3.4`
 
 Landing and Takeoff clearances are not given. ACFT will remain clear of active runway and report ready to HB ADC. Aircraft must not enter ACTIVE runway and become airborne until departure instructions have been issued.
 
 !!! Example
-    **NDR** -> **HB ADC**: "NDR, Ready"  
-    **HB ADC** -> **NDR**: "NDR, track via the KANLI# departure, report airbourne"
-    **NDR** -> **HB ADC**: "Track via the KANLI# departure, wilco, NDR"  
+    **NDR:** "NDR, Ready"  
+    **HB ADC:** "NDR, track via the KANLI3 departure, report airborne"  
+    **NDR:** "Track via the KANLI3 departure, wilco, NDR"  
     `AIP GEN 3.4`
 
 
-All IFR Aircraft departing Cambridge shall be assigned a **Visual Departure** or **Hobart SID**.
+All IFR Aircraft departing Cambridge shall be assigned a **Visual Departure** or one of Hobart's **Procedural SIDs**.
 
 !!! Note
-    If IMC conditions apply, IFR aircraft will fly Hobart IAP's then breakoff to circle to land.
+    If IMC conditions apply, IFR aircraft inbound to Cambridge will fly Hobart instrument approaches, then breakoff to circle to land.
 
 ## VFR Operations
 
@@ -103,8 +101,8 @@ All IFR Aircraft departing Cambridge shall be assigned a **Visual Departure** or
 Clearances for aircraft entering the CTR must be worded so as to leave no possibility for misinterpretation by the pilot.
 
 !!! Example
-    **NDR** -> **HB ADC**: "Hobart Tower, NDR, Campania, A015, on the Victor Northwest, Request Clearance"  
-    **HB ADC** -> **NDR**: "NDR, enter the CTR tracking via the Victor Northwest at A015."
+    **NDR:** "Hobart Tower, NDR, Campania, A015, on the Victor Northwest, Request Clearance"  
+    **HB ADC:** "NDR, enter the CTR tracking via the Victor Northwest at A015."
     `AIP GEN 3.4`
 
 ## Coordination
@@ -119,8 +117,9 @@ Clearances for aircraft entering the CTR must be worded so as to leave no possib
     **HB ADC** -> **HB TCU**: "Next, ABC"  
     **HB TCU** -> **HB ADC**: "ABC, Heading 150 Visual"  
     **HB ADC** -> **HB TCU**: "Heading 150 Visual, ABC"  
-    **HB ADC** -> **ABC**: "ABC, Assigned heading right 150 Visual, Runway 12, Cleared for Takeoff"  
-    **ABC** -> **HB ADC**: "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"  
+
+    **HB ADC:** "ABC, Assigned heading right 150 Visual, Runway 12, Cleared for Takeoff"  
+    **ABC:** "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"  
     `AIP GEN 3.4`
 
 The HB TCU controller can suspend/resume Auto Release at any time, with the concurrence of **HB ADC**.
@@ -142,10 +141,10 @@ HB TCU will coordinate all **non-STAR** arrivals 5min from IAF or 5min from CTA 
 - Sequence Number (if applicable)
 
 !!! example
-    **HB TCU** -> **HB ADC**: "JST419, A320, estimates Hobart 52, RNAV-Z 12 via HBZWG, 5000ft, number 1”
+    **HB TCU** -> **HB ADC**: "JST419, A320, estimates Hobart 52, RNAV-Z 12 via HBZWG, 5000ft, number 1”  
     **HB ADC** -> **HB TCU**: "JST419"
 
 ## Standard Assignable Levels
 
-Jets: `A080`
+Jets: `A080`  
 Non-jets: `A045` or `RFL` if lower
