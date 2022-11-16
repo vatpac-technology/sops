@@ -29,12 +29,12 @@ If not providing a top-down service, due to the low level of CTA at these aerodr
 ### HUO / TAS TCU
 
 The Standard assignable level from HUO to TAS TCU TCU is:  
-`A090` for YMLT arrivals, tracking IRSOM DCT LT, or NUNPA DCT LT.    
-`F130` for YMHB arrivals, and assigned the IPLET # or MORGO # STAR  .
+`A090` for YMLT arrivals, tracking IRSOM DCT LT, or NUNPA DCT LT.  
+`F130` for YMHB arrivals, and assigned the IPLET # or MORGO # STAR.
 
-All other aircraft must be voice coordinated to HB/LT TCU prior to **20nm** from the boundary.
+All other aircraft must be voice coordinated to HBA/LTA prior to **20nm** from the boundary.
 
 The Standard Assignable level from HB/LT TCU to HUO is the lower of `F240` or the `RFL`, and tracking via a SID terminus.
 ### HUO / ENR
 
-As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.

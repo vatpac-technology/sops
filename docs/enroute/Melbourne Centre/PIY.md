@@ -15,7 +15,7 @@
 | Grove† | Melbourne Centre | 133.800 | ML-GVE_CTR |
 | Geraldton† | Melbourne Centre | 134.200 | ML-GEL_CTR |
 
-† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}
+† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf)
 
 Pingelly (PIY) is responsible for the Perth TCU in the absence of an approach controller.
 
@@ -64,7 +64,11 @@ All other aircraft must be voice coordinated to PH TCU prior to **20nm** from th
 
 As per the enroute coordination requirements, voiceless coordination exists between enroute sectors, with changes permitted up to the boundary with PIY.
 
-
+Refer to [Melbourne TCU Airspace Division](../../perth/#airspace-division) for information on airspace divisions when **PHD** is online.
 ## LEA / IND (Oceanic)
 
-As per Standard coordination procedures (link).
+As per [Standard Coordination Procedure](../../controller-skills/coordination/#enr-oceanic).
+
+## PIY (ALL) / PEA APP
+
+Reserved.

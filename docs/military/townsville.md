@@ -1,5 +1,5 @@
 ---
-  title: Cairns TCU
+  title: Townsville TCU
 ---
 
 --8<-- "includes/abbreviations.md"

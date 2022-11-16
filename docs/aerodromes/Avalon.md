@@ -17,7 +17,7 @@
 ![AV Tower Airspace](img/AVTWR.png){ width="500" }
 </figure>
 
-Refer to [Class D Tower Skills](../../controller-skills/classdtwr/) for more information.
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
 ## SID Selection
 

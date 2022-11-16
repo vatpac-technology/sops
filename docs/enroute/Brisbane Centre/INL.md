@@ -15,7 +15,7 @@
 | Noosa† | Brisbane Centre | 124.100 | BN-NSA_CTR |
 | Keppel† | Brisbane Centre | 125.900 | BN-KPL_CTR |
 
-† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}
+† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf)
 
 ## Airspace
 
@@ -52,14 +52,14 @@ The Standard Assignable level for YBCG departures from BN TCU to **GOL/SDY** is 
 The Standard Assignable level for YBCG departures from BN TCU to **NSA/BUR/DOS** is the lower of `F180` or the `RFL`.  
 The Standard Assignable level for YBSU arrivals from BN TCU to **NSA** is `F130`, and tracking via ITIDE.  
 
-Refer to [Brisbane TCU Airspace Division](http://sops.vatpac.org/terminal/Brisbane%20TCU/operations/#airspace-division){target=new} for information on airspace divisions when **BAS**, **BDN** and/or **BDS** are online.
+Refer to [Brisbane TCU Airspace Division](../../terminal/brisbane/operations/#airspace-division) for information on airspace divisions when **BAS**, **BDN** and/or **BDS** are online.
 ### INL (All) / ENR
 
-As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 ### INL/DOS/GOL/SDY/BUR/NSA/KPL Internal
 
-As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 That being said, it is *advised* that INL(All) give **Heads-up Coordination** to the relevant sector prior to **20nm** from the boundary in the following scenarios:  
 - INL to DOS for all aircraft  
@@ -161,4 +161,4 @@ All aircraft transiting from GOL/DOS/BUR to **OK APP** and **AMB APP** must be h
 
 ### INL/SDY/KPL / TSN (Oceanic)
 
-As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-oceanic){target=new}, Voice coordinate estimate and level prior to **15 mins** to boundary.
+As per [Standard coordination procedures](../../controller-skills/coordination/#enr-oceanic), Voice coordinate estimate and level prior to **15 mins** to boundary.

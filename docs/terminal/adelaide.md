@@ -12,7 +12,7 @@
 | Adelaide Approach East†    |AAE| Adelaide Departures  | 118.200         | AD_DEP          |
 | Adelaide Flow†        |AFL|                |          | AD-FLW_CTR                               |
 
-† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}
+† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf)
 
 ## Airspace
 The Adelaide TMA covers the area shown below, SFC-FL245. (vatSys screenshot)   

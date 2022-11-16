@@ -20,7 +20,7 @@
 
 HM TWR is responsible for the Class D airspace in the HM CTR, SFC-A045.
 
-Refer to [Class D Tower Skills](../../controller-skills/classdtwr/) for more information.
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
 ## Surveillance
 HM TWR is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be not available below **3100 feet** in the HM CTR.  
@@ -37,18 +37,10 @@ If required, HM TWR can pass amended tracking/level instructions to an aircraft 
 
 ## Coordination
 ### Departures
-#### Taxi Call
-A taxi call shall be made to KEN(SWY), for all aircraft entering KEN(SWY) Class C airspace, as an aircraft is given taxi clearance. KEN(SWY) will respond by acknowledging the callsign.
+A 'next' call is made for all aircraft when they are next to depart. HM TWR must inform KEN(SWY) if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
-    **HM TWR** -> **SWY**: "Taxis QFA797 for YBBN via OVRON"  
-    **SWY** -> **HM TWR**: "QFA797"  
-
-#### Next Call
-A next call is made for all aircraft when they are next to depart and will be departing within two minutes. KEN(SWY) will respond by acknowledging the callsign.
-
-!!! example
-    **HM TWR** -> **SWY**: "Next QFA797"  
+    **HM TWR** -> **SWY**: "Next, QFA797"  
     **SWY** -> **HM TWR**: "QFA797"  
 
 The Standard Assignable level from HM TWR to KEN(SWY) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
