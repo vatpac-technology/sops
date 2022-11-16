@@ -3,40 +3,44 @@
 
 
 /*Primary Thematic Colors*/
-:root {
-  --md-primary-fg-color:        #344767;
-  --md-primary-fg-color--dark:  #16425B;
-  --md-primary-fg-color--light: #344767;
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #344767;
   --md-accent-fg-color:         #344767;
   --md-footer-fg-color:         #344767;
-  --md-footer-bg-color--dark:   #16425B;
-}
+  --md-card-a:  rgba(241, 245, 249, 0.5);
+  --md-card-a-hover: rgba(241, 245, 249, 1);
+  --md-default-table-header-text: #fff;
+  --md-top: var(--md-default-bg-color);
 
+}
 [data-md-color-scheme="slate"] {
-  --md-default-bg-color: #16425B;
+  --md-default-bg-color: #0f172a;
+  --md-accent-fg-color:         #344767;
+  --md-primary-fg-color: #fff;
+  --md-card-a: #1b253b;
+  --md-card-a-hover: #293858;
+  --md-default-table-header-text: #fff;
+  --md-top: #1b253b;
 }
 
 /*Header Modifications*/
 .md-typeset h1 {
-  color: #344767;
-}
-h1 {
-  /*text-transform: uppercase;*/
+  color: var(--md-primary-fg-color); 
 }
 h2 {
-  color: #344767;
+  color: var(--md-primary-fg-color);
   /*text-transform: uppercase;*/
   padding-bottom: 0.5em;
 }
 h3 {
-  color: #344767;
+  color: var(--md-primary-fg-color);
 }
 h4 {
   padding-top: 1em;
-  color: #344767;
+  color: var(--md-primary-fg-color);
 }
 .md-typeset h5 {
-  color: #344767;
+  color: var(--md-primary-fg-color);
 }
 
 /* highlighting */
@@ -64,6 +68,11 @@ h4 {
     padding: 0 .2941176471em;
     word-break: break-word;
 }
+
+.md-typeset a:hover {
+  color: rgb(104, 148, 230)
+}
+
 /*Standardize Font Awesome CSS Styling*/
 .discord {
   font-size: 20px;
@@ -75,7 +84,7 @@ h4 {
 .md-typeset table:not([class]) th {
   font-weight: bold;
   background-color: #344767;
-  color: var(--md-default-bg-color);
+  color: var(--md-default-table-header-text);
 }
 /* reduced table row height */
 .md-typeset table:not([class]) td {
