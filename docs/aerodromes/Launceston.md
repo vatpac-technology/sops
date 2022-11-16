@@ -30,9 +30,7 @@ Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more info
 
 ## SID Selection
 
-Aircraft planned via **IRSOM**, **ONAGI**, **NUNPA**, **MOTRA**, **IRONS**, **MORGO**, **KAREN**, **TASUM**, or **NOLAN**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
-
-Aircraft planned via **IRSOM**, **ONAGI**, **NUNPA**, **MOTRA**, **IRONS**, **MORGO**, **KAREN**, **TASUM**, or **NOLAN**, shall be assigned an appropriate **Procedural SID** or a visual departure.
+Aircraft planned via **IRSOM**, **ONAGI**, **NUNPA**, **MOTRA**, **IRONS**, **MORGO**, **KAREN**, **TASUM**, or **NOLAN**, shall be assigned the appropriate **Procedural SID**.  Other aircraft shall be assigned a visual departure.
 
 ## VFR Operations
 
@@ -63,5 +61,10 @@ For Non-Jets: The lower of `A045` or the `RFL`.
 LTA will coordinate all arrivals into Launceston Prior to 5 mins from the boundary.
 
 !!! example
-    **LTA** -> **LT ADC**: "JST416, via MLTNE for the RNAV Z RWY 14R, will be assigned A050”
-    **LT ADC** -> **LTA**: "JST416, A050"
+    **LT TCU** -> **LT ADC**: "JST416, A320, estimates Launceston 52, RNAV-Z 14R via MLTNE, 5000ft, number 1”
+    **LT ADC** -> **LT TCU**: "JST416"
+
+## Standard Assignable Levels
+
+Jets: `A080`  
+Non-jets: `A045` or `RFL` if lower

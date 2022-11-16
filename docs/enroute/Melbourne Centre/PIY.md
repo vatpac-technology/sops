@@ -64,11 +64,7 @@ All other aircraft must be voice coordinated to PH TCU prior to **20nm** from th
 
 As per the enroute coordination requirements, voiceless coordination exists between enroute sectors, with changes permitted up to the boundary with PIY.
 
-Refer to [Melbourne TCU Airspace Division](../../perth/#airspace-division) for information on airspace divisions when **PHD** is online.
+Refer to [Perth TCU Airspace Division](../../perth/#airspace-division) for information on airspace divisions when **PHD** is online.
 ## LEA / IND (Oceanic)
 
-As per [Standard Coordination Procedure](../../controller-skills/coordination/#enr-oceanic).
-
-## PIY (ALL) / PEA APP
-
-Reserved.
+As per Standard coordination procedures [here](https://sops.vatpac.org/oceanic/Coordination/){target=new}
