@@ -41,24 +41,30 @@ Other aircraft shall be assigned an appropriate **Procedural SID** or a visual d
 
 ## Cambridge (YCBG)
 
-HB ADC and/or HB SMC is resposible for clearances into and out of Cambridge (YCBG).
+Due to it's close proximity, HB ADC & SMC are resposible for clearances into and out of Cambridge (YCBG), which sits inside the Hobart class D control zone.
 
-Prior to leaving the apron, aircraft will establish communications with HB SMC for Airways Clearance.
+### Departures
+Prior to leaving the apron, all outbound aircraft will establish communications with **HB SMC** for Airways Clearance.  
+
+All IFR Aircraft departing Cambridge shall be assigned a **Visual Departure** or one of Hobart's **Procedural SIDs**.
+
+!!! note
+    Both VFR and IFR aircraft require a clearance to operate in class D airspace (even if this is an implied clearance to depart a leg of the circuit).  The examples below show an IFR aircraft departing.
 
 !!! Example
     **NDR:** "Hobart Ground, NDR, for Devonport, Request Clearance"  
-    **HB ADC:** "NDR, Cleared to Devonport via KANLI flight plan route, KANLI3 Departure, Climb via SID A045, Squawk 4432"
+    **HB SMC:** "NDR, Cleared to Devonport via KANLI flight plan route, KANLI3 Departure, Climb via SID A045, Squawk 4432"
     `AIP GEN 3.4`
 
-When ready to taxi and prior to leaving the apron aircraft must contact HB ADC, advising intended runway for departure and receipt of YMHB ATIS, to obtain TFC information.
+When ready to taxi and prior to leaving the apron aircraft must contact **HB ADC**, advising intended runway for departure and receipt of YMHB ATIS, to obtain traffic information.
 
 !!! Example
-    **NDR:** "Hobart Tower, NDR, Cambridge Runway 32, Hobart Information D"  
+    **NDR:** "Hobart Tower, NDR, taxiing Cambridge Runway 32, received Hobart Information D"  
     **HB ADC:** "NDR, No reported IFR traffic, report ready"  
     **NDR:** "Wilco, NDR"  
     `AIP GEN 3.4`
 
-Landing and Takeoff clearances are not given. ACFT will remain clear of active runway and report ready to HB ADC. Aircraft must not enter ACTIVE runway and become airborne until departure instructions have been issued.
+Takeoff clearances are not given. Aircraft will remain clear of the active runway and report ready to HB ADC. Aircraft must not enter an active runway or become airborne until departure instructions have been issued.
 
 !!! Example
     **NDR:** "NDR, Ready"  
@@ -67,10 +73,29 @@ Landing and Takeoff clearances are not given. ACFT will remain clear of active r
     `AIP GEN 3.4`
 
 
-All IFR Aircraft departing Cambridge shall be assigned a **Visual Departure** or one of Hobart's **Procedural SIDs**.
+### Arrivals
+Inbound VFR aircraft should be instructed to join a leg of the circuit and cleared for a visual approach (traffic permitting).  In IMC, IFR aircraft will fly one of Hobart's instrument approaches until visual, then break off to circle to land.
 
-!!! Note
-    If IMC conditions apply, IFR aircraft inbound to Cambridge will fly Hobart instrument approaches, then breakoff to circle to land.
+As a landing clearance is not given, aircraft should instead be informed of any traffic operating on the aerodrome and instructed to report clear of the runway.
+
+!!! example
+    *UJA is an IFR Aero Commander who has been cleared the YMHB RNAV-Z RWY 30 approach by HB APP and handed off to HB ADC.*  
+    **UJA:** "Hobart Tower, UJA"  
+    **HB ADC:** "UJA, Hobart Tower, report visual"  
+    **UJA:** "Wilco, UJA"  
+
+    **UJA:** "UJA, visual"  
+    **HB ADC:** "UJA, track for final runway 30, no reported traffic, report clear of the runway"  
+    **UJA:** "Track for final runway 30, wilco, UJA"
+
+!!! example
+    *KLR is a VFR Cherokee who is tracking inbound on the Victor East VFR route.*  
+    **HB ADC:** "KLR, enter the control zone tracking via the Victor East, A015, clearance limit Sorell"  
+    **KLR:** "Enter control zone tracking via the Victor East, A015, clearance limit Sorell, KLR"  
+
+    **KLR:** "KLR, approaching Sorell"  
+    **HB ADC:** "KLR, join base runway 12, cleared visual approach, no reported traffic, report clear of the runway"  
+    **KLR:** "Join base runway 12, cleared visual approach, wilco, KLR"
 
 ## VFR Operations
 
@@ -101,7 +126,7 @@ All IFR Aircraft departing Cambridge shall be assigned a **Visual Departure** or
 Clearances for aircraft entering the CTR must be worded so as to leave no possibility for misinterpretation by the pilot.
 
 !!! Example
-    **NDR:** "Hobart Tower, NDR, Campania, A015, on the Victor Northwest, Request Clearance"  
+    **NDR:** "Hobart Tower, NDR, Campania, A015, on the Victor Northwest, received Romeo, request clearance"  
     **HB ADC:** "NDR, enter the CTR tracking via the Victor Northwest at A015."
     `AIP GEN 3.4`
 
