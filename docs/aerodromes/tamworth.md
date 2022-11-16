@@ -21,7 +21,7 @@
 
 TW TWR is responsible for the Class D airspace in the TW CTR, as well as the Class C airspace between A045-A065.
 
-Refer to [Class D Tower Skills](../../controller-skills/classdtwr/) for more information.
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
 ## Surveillance
 TW TWR is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be not available below **3400 feet** in the TW CTR.  
@@ -77,22 +77,14 @@ Runway 12R/30L shall be used for:
 - Departures via GST or GWT
 - Single-engine circuit training
 
-Runway 12L/30R shall be used for all other operations.
+Runway 12L/30R shall be used for all other operations. `ERSA FAC YSTW`
 
 ## Circuits
 Circuits are to be flown in the direction coinciding with the Runway designator (Left/Right) at `A024`.
 
 ## Coordination
 ### Departures
-#### Taxi Call
-A taxi call shall be made to ARL/MDE, for all aircraft entering ARL/MDE Class C airspace, as an aircraft is given taxi clearance. ARL/MDE will respond by acknowledging the callsign.
-
-!!! example
-    **TW TWR** -> **ARL**: "Taxi, QLK5D for YSSY via OLTIN"  
-    **ARL** -> **TW TWR**: "QLK5D"  
-
-#### Next Call
-A next call is made for all aircraft when they are next to depart and will be departing within two minutes. ARL/MDE will respond by acknowledging the callsign.
+A 'next' call is made for all aircraft when they are next to depart. TW TWR must inform ARL/MDE if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
     **TW TWR** -> **ARL**: "Next, QLK5D"  

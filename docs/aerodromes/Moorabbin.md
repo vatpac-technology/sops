@@ -22,7 +22,7 @@ MB TWR owns a 3nm radius around YMMB, SFC-A025.
   <figcaption>Moorabbin Tower Airspace</figcaption>
 </figure>
 
-Refer to [Class D Tower Skills](../../controller-skills/classdtwr/) for more information.
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
 ## Runway 04/22
 Runway 04/22 is not to be used as an active runway. Used for emergencies only

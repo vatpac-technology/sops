@@ -36,13 +36,13 @@
 | ---- | ----------- | -------- |
 | Broome | Zach G | In Progress |
 | Hamilton Island | Chris G | Complete, To be reviewed |
-| Sunshine Coast |  Alex D | In Progress |
+| Sunshine Coast |  Alex D | Complete, To be reviewed |
 | Karratha | Chris G | Complete, To be Reviewed |
 | Albury | Chris G | Complete, To be reviewed |
 | Alice Springs | Chris G | Complete, To be reviewed |
 | Coffs Harbour | Tyler B | Complete, To be reviewed |
 | Tamworth | Alex D | Complete, To be reviewed |
-| Local Procedural Standards and Lat Sep references | Alex D | In Progress |
+| Local Procedural Standards and Lat Sep references | Alex D | Complete, To be reviewed |
 
 ## Military
 | Task | Assigned to | Progress |
@@ -106,7 +106,7 @@
 | Coordination | Alex D | Complete, To be reviewed |
 | Extending | Alex D | Complete, To be reviewed |
 | Sep Standards | Chris G | Complete, To be reviewed |
-| Airspace Classes | Alex D | Not Started |
+| Airspace Classes | Alex D | Complete, To be reviewed |
 | Sequencing | Alex D | Complete, To be reviewed |
 | Maestro | Zach BF | Complete, To be reviewed |
 
@@ -115,20 +115,13 @@
 | ---- | ----------- | -------- |
 | TCU airspace diagrams | Alex D | Complete, To be reviewed |
 | ENR airspace diagrams | Alex D | Not Required? |
-| Match up TAS TCU coord with HUO | Alex D | Not Started |
-| Match up BN TCU coord with INL | Alex D | Not Started |
-| Procedural Tower Standard Review | Alex D | In Progress |
-| Change all internal links to ../.. format | Alex D | In Progress |
+| Match up TAS TCU coord with HUO | Alex D | Complete, To be reviewed |
+| Match up BN TCU coord with INL | Alex D | Complete, To be reviewed |
+| Procedural Tower Standard Review | Alex D | Complete, To be reviewed |
+| Change all internal links to ../.. format | Alex D | Complete, To be reviewed |
 | Final checks that all coord parameters match up - ARL/BIK area | - | Not Started |
 | Final checks that all coord parameters match up - ELW/YWE/HUO area | - | Not Started |
 | Final checks that all coord parameters match up - TBD/ASP/OLW/PIY area | - | Not Started |
 | Final checks that all coord parameters match up - ISA/TRT area | - | Not Started |
 | Final checks that all coord parameters match up - INL/KEN area | - | Not Started |
 | Final checks for formatting consistency | - | Not Started |
-
-## Other
-| Task | Assigned to | Progress | Priority |
-| ---- | ----------- | -------- | -------- |
-| Fix Navbar colour | Chris G | Completed | Medium Priority|
-| Dark Mode | Chris G | Not Started | Low Priority |
-

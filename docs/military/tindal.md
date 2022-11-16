@@ -1,5 +1,5 @@
 ---
-  title: Cairns TCU
+  title: Tindal TCU
 ---
 
 --8<-- "includes/abbreviations.md"

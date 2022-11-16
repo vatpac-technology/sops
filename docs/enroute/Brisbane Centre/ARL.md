@@ -14,7 +14,7 @@
 | Maitland† | Brisbane Centre | 123.350 | BN-MLD_CTR |
 | Ocean† | Brisbane Centre | 128.600 | BN-OCN_CTR |
 
-† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}
+† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf)
 
 ## Airspace
 
@@ -45,15 +45,15 @@ All other aircraft must be voice coordinated to SY TCU prior to **20nm** from th
 
 The Standard Assignable level from SY TCU to ARL(All) is the lower of `F280` or the `RFL`, and tracking 
 
-Refer to [Sydney TCU Airspace Division](http://sops.vatpac.org/terminal/Sydney%20TCU/operations/#airspace-division){target=new} for information on airspace divisions when **SAS**, **SDN** and/or **SDS** are online.
+Refer to [Sydney TCU Airspace Division](../../sydney/operations/#airspace-division) for information on airspace divisions when **SAS**, **SDN** and/or **SDS** are online.
 
 ### ARL (All) / ENR
 
-As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 ### ARL/MDE/CNK/MNN/MLD/OCN Internal
 
-As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 That being said, it is *advised* that ARL(All) gives **Heads-up Coordination** in the following scenarios:   
 - MNN to ARL for all aircraft  
@@ -79,7 +79,7 @@ The Standard Assignable level from **TW TWR** to ARL/MDE is the lower of `A070` 
 
 #### Arrivals
 The Standard Assignable level from ARL/MDE to **TW TWR** is `A080`. Any aircraft that will not be assigned the Standard Assignable level must have that level concurred by **TW TWR**.  
-As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enrtcu-class-d-twr){target=new}, YSTW arrivals shall be coordinated to **TW TWR** from ARL/MDE prior to transfer of jurisdiction.
+As per [Standard coordination procedures](../../controller-skills/coordination/#enrtcu-class-d-twr), YSTW arrivals shall be coordinated to **TW TWR** from ARL/MDE prior to transfer of jurisdiction.
 
 !!! example
     **ARL** -> **TW TWR**: "QLK6D, via MATLA DCT STWWD, Number 1"  
@@ -141,4 +141,4 @@ All aircraft transiting from CNK/MND/MNN to **WLM APP** must be heads-up coordin
 
 ### OCN/MNN / TSN (Oceanic)
 
-As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-oceanic){target=new}, Voice coordinate estimate and level prior to **15 mins** to boundary.
+As per [Standard coordination procedures](../../controller-skills/coordination/#enr-oceanic), Voice coordinate estimate and level prior to **15 mins** to boundary.

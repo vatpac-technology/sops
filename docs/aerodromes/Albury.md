@@ -19,7 +19,7 @@
   <figcaption>YMAY Airspace</figcaption>
 </figure>
 
-Refer to [Class D Tower Skills](../../controller-skills/classdtwr/) for more information.
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
 ## Surveillance
 AY TWR is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels in the AY CTR.  
@@ -30,27 +30,19 @@ Placeholder for local lateral separation options, such as using visual features,
 
 ## Coordination
 ### Departures
-#### Taxi Call
-A taxi call shall be made to BLA as an aircraft is given taxi clearance. BLA will respond by acknowledging the callsign.
+A 'next' call is made for all aircraft when they are next to depart. AY TWR must inform ELW(BLA) if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
-    **AY TWR** -> **BLA**: "Taxis QFA400 for YSSY via MUSOP"  
-    **BLA** -> **AY TWR**: "QFA400"  
+    **AY TWR** -> **BLA**: "Next, AM324"  
+    **BLA** -> **AY TWR**: "AM324"
 
-#### Next Call
-A next call is made for all aircraft when they are next to depart and will be departing within two minutes. BLA will respond by either acknowledging the callsign.
-
-!!! example
-    **AY TWR** -> **BLA**: "Next QFA400"  
-    **BLA** -> **AY TWR**: "QFA400"    
-
-The Standard Assignable level from AY TWR to BLA is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
+The Standard Assignable level from AY TWR to ELW(BLA) is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
 
 ### Arrivals
-BLA will coordinate the sequence to AY TWR
+ELW(BLA) will coordinate the sequence to AY TWR
 
 !!! example
-    **BLA** -> **AY TWR**: "RXA3421, estimating YMAY time 52, via ARRAN1 arrival”  
-    **AY TWR** -> **BLA**: "RXA3421"  
+    **BLA** -> **AY TWR**: "New Sequence of 2. Via ARRAN1 Arrival, RXA2207, Number 1. Via VEGRU1 Arrival, QLK46, Number 2”  
+    **AY TWR** -> **BLA**: "RXA2207, Number 1. QLK46, Number 2"  
 
-The Standard Assignable level from BLA to AY TWR is `A080`, any other level must be prior coordinated.
+The Standard Assignable level from ELW(BLA) to AY TWR is `A080`, any other level must be prior coordinated.
