@@ -49,8 +49,6 @@ A next call is made for all aircraft when they are next to depart and will be de
     **CFS TWR** -> **MNN**: "Next, QJE1573"  
     **MNN** -> **CFS TWR**: "QJE1573"  
 
-The Standard Assignable level from CFS TWR to INL/ARL(MNN) is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
-
 ### Arrivals
 INL/ARL(MNN) will coordinate the sequence to CFS TWR.
 
@@ -58,4 +56,8 @@ INL/ARL(MNN) will coordinate the sequence to CFS TWR.
     **INL** -> **CFS TWR**: "New Sequence of 2. Via GAMBL, RXA9904, Number 1. Via TUCAB, LYM, Number 2”  
     **CFS TWR** -> **INL**: "RXA9904, Number 1. LYM, Number 2"  
 
-The Standard Assignable level from INL/ARL(MNN) to CFS TWR is `A080`, any other level must be prior coordinated.
+## Standard Assignable Levels
+
+Aircraft departing from Coffs Harbour shall be assigned `A070` or `RFL` if lower.
+
+Aircraft arriving into Coffs Harbour shall be assigned `A080` by INL/ARL(MNN).
