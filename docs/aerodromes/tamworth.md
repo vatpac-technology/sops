@@ -90,8 +90,6 @@ A 'next' call is made for all aircraft when they are next to depart. TW TWR must
     **TW TWR** -> **ARL**: "Next, QLK5D"  
     **BLA** -> **AY TWR**: "QLK5D"    
 
-The Standard Assignable level from TW TWR to ARL/MDE is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
-
 ### Arrivals
 ARL/MDE will coordinate the sequence to TW TWR.
 
@@ -99,4 +97,8 @@ ARL/MDE will coordinate the sequence to TW TWR.
     **MDE** -> **TW TWR**: "New Sequence of 2. Via MOR DCT, FD272, Number 1. Via NBR DCT, AM217, Number 2”  
     **TW TWR** -> **MDE**: "FD272, Number 1. AM217, Number 2"  
 
-The Standard Assignable level from ARL/MDE to TW TWR is `A080`, any other level must be prior coordinated.
+## Standard Assignable Levels
+
+Aircraft departing from Tamworth shall be assigned `A070` or `RFL` if lower.
+
+Aircraft arriving into Tamworth shall be assigned `A080` by ARL/MDE.
