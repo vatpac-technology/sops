@@ -11,6 +11,8 @@
 | Mackay Approach  | MKA | Coral Approach  | 125.650       | MK_APP    |
 | Rockhampton Approach  | RKA | Coral Approach   | 123.750        | RK_APP                 |
 
+Upper Limit of the Coral TCU is `F155`
+
 !!! Note
     Mackay Approach may extend to Rockhampton Approach and vice versa, callsigns remain the same.
 
@@ -18,9 +20,9 @@
 
 ### COR TCU / ENR
 #### Departures
-Voiceless coordination is in place from COR TCU to **HUO** for aircraft:  
+Voiceless coordination is in place from COR TCU to ENR for aircraft:  
 
-**Departing All Ports** - Assigned the lower of `F240` or `RFL`  
+**Departing All Ports** - Assigned the lower of `F150` or `RFL`  
 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
@@ -30,8 +32,8 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
 #### Arrivals
 The Standard assignable levels from **ENR** to COR TCU are as follows:  
-YBMK Arrivals: `A090`  
-YBRK Arrivals: `A090`
+YBMK Arrivals: `A070`  
+YBRK Arrivals: `A070`
 
 ### ADC / TCU
 #### Auto Release

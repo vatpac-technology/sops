@@ -44,7 +44,7 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
     **BIK** -> **CB TCU**: "EVY113, concur F180"  
 
 #### Arrivals
-The Standard assignable level from ENR to CB TCU is `A100`. All other levels must be prior coordinated
+The Standard assignable level from ENR to CB TCU is `F120`. All other levels must be prior coordinated
 
 ### CB TCU / CB ADC
 #### Auto Release
@@ -71,5 +71,5 @@ Any aircraft that don't meet these criteria must be coordinated to CB TCU with a
 All aircraft transiting between internal CB TCU boundaries must be heads-up coordinated.
 
 !!! example
-    **CBW** -> **CBE**: "via AD, FD123"  
+    **CBW** -> **CBE**: "via CB, FD123"  
     **CBE** -> **CBW**: "FD123, A090"   
