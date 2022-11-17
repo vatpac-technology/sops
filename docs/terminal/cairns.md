@@ -8,8 +8,8 @@
 
 | Name               | ID      | Callsign       | Frequency        | Login Identifier              |
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
-| **Cairns Approach**    |**CS1**| **Cairns Approach**   | **118.400**         | **CS_APP**          |
-| Cairns Approach†    |CS2| Cairns Departures  | 126.100         | CS_DEP          |
+| **Cairns Approach**    |**CSA**| **Cairns Approach**   | **118.400**         | **CS_APP**          |
+| Cairns Approach†    |CSD| Cairns Departures  | 126.100         | CS_DEP          |
 | Cairns Flow†        |  |                |          | CS-FLW_CTR                               |
 
 † **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}
