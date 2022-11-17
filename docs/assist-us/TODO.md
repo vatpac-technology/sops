@@ -24,11 +24,11 @@
 | Launceston | Tyler B | Complete, To be reviewed |
 | Mackay | - | Not Started |
 | Rockhampton | - | Not Started |
-| Jandakot | Zach G | Not Started |
+| Jandakot | Zach G | Complete, To be reviewed |
 | Moorabbin | Alex D | Complete, To be reviewed |
-| Camden | Matt E | In Progress |
-| Archerfield | Matt E | In Progress |
-| Parafield | Alex M | Not Started |
+| Camden | Matt E | Complete, To be reviewed |
+| Archerfield | Matt E | Complete, To be reviewed |
+| Parafield | Alex M | Complete, To be reviewed |
 | Bankstown | Tyler B | Complete, To be reviewed |
 
 ### Procedural
@@ -64,15 +64,15 @@
 ## TCU
 | Task | Assigned to | Progress |
 | ---- | ----------- | -------- |
-| Perth | Josh M | In Progress |
+| Perth | Chris G | In Progress |
 | Tasmania (HB/LT) | Tyler B | Complete, To be reviewed |
-| Coral (MK/RK) | - | Not Started |
-| Cairns | Josh M | In Progress |
+| Coral (MK/RK) | Tyler B | Complete, To be reviewed |
+| Cairns | Tyler B | Complete, To be reviewed |
 | Adelaide | Alex D | Complete, To be reviewed |
 | Melbourne | Alex D | Complete, To be reviewed |
 | Sydney | Alex D | Complete, To be reviewed |
 | Brisbane | Alex D | Complete, To be reviewed |
-| Canberra | Tyler B | Not Started |
+| Canberra | Tyler B | Complete, To be reviewed |
 
 ## ENR
 | Task | Assigned to | Progress |
