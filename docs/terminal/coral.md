@@ -54,8 +54,9 @@ The TCU controller can suspend/resume Auto Release at any time, with the concurr
     "Next" Coordination to TCU is not required for aircraft assigned a **Procedural SID** and the Standard Assignable Level.
 
 The controller assuming responsibility of **ACD** shall give heads-up coordination to TCU controller prior to the issue of the following clearances:  
-a) VFR Departures  
-b) Aircraft using a runway not on the ATIS
+
+- VFR Departures  
+- Aircraft using a runway not on the ATIS
 
 #### Arrival Coordination
 TCU will coordinate all **non-STAR** arrivals 5min from IAF or 5min from CTA boundary prior to handing over to tower in the following format:
@@ -67,5 +68,5 @@ TCU will coordinate all **non-STAR** arrivals 5min from IAF or 5min from CTA bou
 - Sequence Number (if applicable)
 
 !!! example
-    **TCU** -> **ADC**: "JST420, A320, estimates Mackay 52, RNP 14 via BMKNA, 4700ft, number 1”
+    **TCU** -> **ADC**: "JST420, A320, estimates Mackay 52, RNP 14 via BMKNA, 4700ft, number 1”  
     **ADC** -> **TCU**: "JST420"
