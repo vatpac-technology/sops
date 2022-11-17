@@ -8,7 +8,7 @@
 
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
-| **Perth ADC** | Perth Tower | 127.400 | | PH_TWR |
+| **Perth ADC** | Perth Tower | 127.400 | PH_TWR |
 | **Perth SMC West** | Perth Ground | 121.700 | PH_GND |
 | Perth SMC East† | Perth Ground | 122.200 | PH-E_GND |
 | **Perth ACD** | Perth Delivery | 118.550 | PH_DEL |
