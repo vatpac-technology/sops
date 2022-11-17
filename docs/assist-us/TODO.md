@@ -22,8 +22,8 @@
 | ---- | ----------- | -------- |
 | Hobart | Tyler B | Complete, To be reviewed |
 | Launceston | Tyler B | Complete, To be reviewed |
-| Mackay | - | Not Started |
-| Rockhampton | - | Not Started |
+| Mackay | Tyler B | Complete, To be reviewed |
+| Rockhampton | Tyler B | Complete, To be reviewed |
 | Jandakot | Zach G | Complete, To be reviewed |
 | Moorabbin | Alex D | Complete, To be reviewed |
 | Camden | Matt E | Complete, To be reviewed |
@@ -34,7 +34,7 @@
 ### Procedural
 | Task | Assigned to | Progress |
 | ---- | ----------- | -------- |
-| Broome | Zach G | In Progress |
+| Broome | Alex D | Complete, To be reviewed  |
 | Hamilton Island | Chris G | Complete, To be reviewed |
 | Sunshine Coast |  Alex D | Complete, To be reviewed |
 | Karratha | Chris G | Complete, To be Reviewed |
@@ -95,7 +95,7 @@
 | Task | Assigned to | Progress |
 | ---- | ----------- | -------- |
 | Oceanic | Tyler B | Complete, To be reviewed  |
-| Pacific Ports | Tyler B | Not Started |
+| Pacific Ports | Tyler B |  In Progress  |
 
 ## Controller Skills
 | Task | Assigned to | Progress |
