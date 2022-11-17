@@ -66,13 +66,13 @@
 | ---- | ----------- | -------- |
 | Perth | Josh M | In Progress |
 | Tasmania (HB/LT) | Tyler B | Complete, To be reviewed |
-| Coral (MK/RK) | - | Not Started |
-| Cairns | Josh M | In Progress |
+| Coral (MK/RK) | Tyler B | Complete, To be reviewed |
+| Cairns | Tyler B | Complete, To be reviewed |
 | Adelaide | Alex D | Complete, To be reviewed |
 | Melbourne | Alex D | Complete, To be reviewed |
 | Sydney | Alex D | Complete, To be reviewed |
 | Brisbane | Alex D | Complete, To be reviewed |
-| Canberra | Tyler B | Not Started |
+| Canberra | Tyler B | Complete, To be reviewed |
 
 ## ENR
 | Task | Assigned to | Progress |
