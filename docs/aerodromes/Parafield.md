@@ -9,8 +9,8 @@
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Parafield ADC**  | **Parafield Tower**  | **118.700**          | **PF_TWR**                        |
-| **Parafield SMC**   | **Parafield Ground**   | **119.000**          | **PF_GND**                       |
-| Parafield ATIS        |                | 129.000          | YPPF_ATIS                                |
+| **Parafield SMC**   | **Parafield Ground**   | **119.900**          | **PF_GND**                       |
+| Parafield ATIS        |                | 120.900          | YPPF_ATIS                                |
 
  
 In the absence of an SMC controller, ADC shall assume the SMC responsibilities.
@@ -78,15 +78,15 @@ Whilst the aircraft is taxiing, **PF SMC** will perform TAXI coordination with A
   
 !!! example
     **PF SMC** -> **AD TCU**: "Taxi's, XMM, Bankstown, 03L”  
-    **AD TCU** -> **PF SMC**: “XMM, cleared to Bankstown via TBD flight planned route, Parafield 1 Departure, climb via SID A030, squawk 1427”  
-    **PF SMC** -> **AD TCU**: “Cleared to Bankstown via TBD flight planned route, Parafield 1 Departure, climb via SID A030, squawk 1427, XMM” 
+    **AD TCU** -> **PF SMC**: “XMM, cleared to Bankstown via BENDO flight planned route, Parafield 1 Departure, climb via SID A030, squawk 1427”  
+    **PF SMC** -> **AD TCU**: “Cleared to Bankstown via BENDO flight planned route, Parafield 1 Departure, climb via SID A030, squawk 1427, XMM” 
 
 #### Next Call
 When aircraft planned via a CTA departure are ready for takeoff and expected to depart imminently, **PF ADC** shall seek release of the aircraft through a 'Next' call.
 
 !!! example
     **PF ADC** -> **AD TCU**: "Next, XMM, 03L"  
-    **AD TCU** -> **PF ADC**: "XMM, unrestricted"
+    **AD TCU** -> **PF ADC**: "XMM, Heading 030, unrestricted"
 
 ### AD TCU / PF TWR
 #### Arrival Coordination
@@ -98,7 +98,7 @@ Parafield Tower will not alter an aircrafts tracking until the aircraft is withi
 #### Visual Tracking
 
 !!! example
-    **AD TCU** -> **PF ADC**: "Estimate, UJE via DMU time 02."  
+    **AD TCU** -> **PF ADC**: "Estimate, UJE via PAL time 02."  
     **PF ADC** -> **AD TCU**: "UJE"
 
 #### IAP Tracking
