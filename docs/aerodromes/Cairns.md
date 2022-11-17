@@ -91,7 +91,6 @@ c) All others: Cairns SID(R)
 
 ### Minimum IMC Levels
 2.2.1.4 Lowest assignable level in IMC for assigned heading is:
-Runway Jet Non-Jet
 
 | Runway | Jet | Non-Jet|
 | ------ | -------- | -------|

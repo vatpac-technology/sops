@@ -74,6 +74,6 @@ The Standard Assignable level from INL(NSA/BUR) to SU TWR is `A060`, any other l
 As you may have noticed, BN TCU Class G shares a tiny border with SU TWR, however there are no SIDs, STARs, or airways through this gap. The only possible way for an aircraft to directly enter BN TCU's airspace from SU TWR's jurisdiction, is in to Class G, and as such, no coordination is required to BN TCU.
 
 <figure markdown>
-![BN TCU / SU TWR Border](../../terminal/img/subntcu.png){ width="700" }
+![BN TCU / SU TWR Border](../terminal/img/subntcu.png){ width="700" }
   <figcaption>BN TCU / SU TWR Border</figcaption>
 </figure>
