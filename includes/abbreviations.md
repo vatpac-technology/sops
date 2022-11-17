@@ -160,3 +160,10 @@
 *[GST]: Gate South
 *[LLC]: Leaves Lateral Conflict
 *[ELC]: Enters Lateral Conflict
+*[LSALT]: Lowest Safe Altitude
+*[VOR]: VHF Omni-directional Range
+*[NDB]: Non-Directional Beacon
+*[DR]: Dead Reckoning
+*[MSA]: Minimum Safe Altitude
+*[MVA]: Minimum Vectoring Altitude
+*[RTCC]: Radar Terrain Clearance Chart

@@ -29,7 +29,7 @@ In the absence of an SMC controller, ADC shall assume the SMC responsibilities.
 ![Hobart Tower Class D Airspace](img/hbtwr_profile.png){ width="700" }
 </figure>
 
-Refer to [Class D Tower Skills](../../controller-skills/classdtwr/) for more information.
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
 ## SID Selection
 
@@ -131,12 +131,12 @@ Clearances for aircraft entering the CTR must be worded so as to leave no possib
     `AIP GEN 3.4`
 
 ## Coordination
-### HB ADC / HB TCU
+### Departures
 #### Auto Release
 
-"Next" Coordination to HB TCU is required for all deps not assigned a SID.
+"Next" Coordination to HBA is required for all deps not assigned a SID.
 
-"Next" Coordination is a procedure where the **HB ADC** controller gives a heads-up to the HB TCU controller about an impending departure not on a SID. The HB TCU controller will respond by assigning a visual heading to the aircraft, for the **HB ADC** controller to pass on with their takeoff clearance.
+"Next" Coordination is a procedure where the **HB ADC** controller gives a heads-up to the HBA controller about an impending departure not on a SID. The HBA controller will respond by assigning a visual heading to the aircraft, for the **HB ADC** controller to pass on with their takeoff clearance.
 
 !!! example
     **HB ADC** -> **HB TCU**: "Next, ABC"  
@@ -147,23 +147,20 @@ Clearances for aircraft entering the CTR must be worded so as to leave no possib
     **ABC:** "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"  
     `AIP GEN 3.4`
 
-The HB TCU controller can suspend/resume Auto Release at any time, with the concurrence of **HB ADC**.
+The HBA controller can suspend/resume Auto Release at any time, with the concurrence of **HB ADC**.
 
 !!! Note
-    "Next" Coordination to HB TCU is not required for aircraft assigned a **Procedural SID** and the Standard Assignable Level.
+    "Next" Coordination to HBA is not required for aircraft assigned a **Procedural SID** and the Standard Assignable Level.
 
-The controller assuming responsibility of **HB ACD** shall give heads-up coordination to HB TCU controller prior to the issue of the following clearances:  
+The controller assuming responsibility of **HB ACD** shall give heads-up coordination to HBA controller prior to the issue of the following clearances:  
 a) VFR Departures  
 b) Aircraft using a runway not on the ATIS
 
-#### Arrival Coordination
-HB TCU will coordinate all **non-STAR** arrivals 5min from IAF or 5min from CTA boundary prior to handing over to tower in the following format:
-
-- Callsign & Aircraft Type
-- Estimate
-- Inbound Radial/Procedure
-- Assigned Level
-- Sequence Number (if applicable)
+The Standard Assignable level from HB ADC to HBA is:  
+For Jets: `A080`  
+For Non-Jets: The lower of `A045` or the `RFL`.
+#### Arrivals
+HBA will coordinate all **non-STAR** arrivals 5min from IAF or 5min from CTA boundary.
 
 !!! example
     **HB TCU** -> **HB ADC**: "JST419, A320, estimates Hobart 52, RNAV-Z 12 via HBZWG, 5000ft, number 1”  

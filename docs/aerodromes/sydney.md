@@ -279,6 +279,9 @@ Aircraft that have been cleared the **Radar SID** must receive an assigned headi
 !!! tip
     If strong winds are present at altitude, TWR/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
 
+## Departures Controller
+
+Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for information on airspace divisions when **SDN** and/or **SDS** are online.
 
 ## Standard Assignable Departure Levels
 

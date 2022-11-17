@@ -27,7 +27,7 @@ Tower airspace is defined as between SFC to 2000 FT.
 <figcaption>Camden Tower Airspace</figcaption>
 </figure>  
 
-Refer to [Class D Tower Skills](../../controller-skills/classdtwr/) for more information.
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
 ## VFR Inbound Procedures
 VFR aircraft should track via one of the VFR inbound points and be instructed as below:

@@ -125,3 +125,7 @@ b) Aircraft using a runway not on the ATIS
 ## Standard Assignable Levels
 
 All aircraft: `A050` or `RFL` if lower.
+
+## Departures Controller
+
+Refer to [Perth TCU Airspace Division](../../terminal/perth/#airspace-division) for information on airspace divisions when **PHD** is online.
