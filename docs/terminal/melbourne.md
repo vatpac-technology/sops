@@ -13,7 +13,7 @@
 | Melbourne Departures South†   |MDS| Melbourne Departures | 129.400          | ML-S_DEP         |
 | Melbourne Flow†        |MFL|                |          | ML-FLW_CTR                               |
 
-† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}
+† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf)
 
 ## Airspace
 The Melbourne TMA spans a 30nm Radius around ML from SFC-FL245, as well as the AV CTR.   

@@ -16,7 +16,7 @@
 | Gold Coast Approach† |BAC| Brisbane Approach  | 123.500          | CG_APP                               |
 | Brisbane Flow†        |BFL|                |          | BN-FLW_CTR                               |
 
-† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}
+† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf)
 
 ## Airspace
 The Brisbane TMA covers the area shown below, SFC-FL185. (vatSys screenshot)  
@@ -28,7 +28,7 @@ AF CTR reverts to Class G when **AF TWR** is offline, and is administered by the
 BN TCU is responsible for the provision of ADC, SMC and ACD responsibilities when **BN TWR** is offline.      
 ### Airspace Structural Arrangements
 
-Pursuant to Section 3 of the [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}, **“North”**/**”West”** positions shall assume the airspace of corresponding **“South”**/**”East”** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
+Pursuant to Section 3 of the [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), **“North”**/**”West”** positions shall assume the airspace of corresponding **“South”**/**”East”** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
 
 ## Parallel Runway Operations - Runway Selection
 Aircraft shall be assigned the following runways for arrival when PROPS are in progress:
@@ -85,11 +85,10 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, **BAC*
 ## Coordination
 ### BN TCU / ENR
 #### Departures
-Voiceless coordination is in place from BN TCU to **INL** (and subsectors) for aircraft:  
-**Departing YBBN** - Assigned the lower of `F180` or `RFL`  
-**Departing YBCG to the North** - Assigned the lower of `F180` or `RFL`  
-**Departing YBCG any other direction** - Assigned the lower of `F120` or `RFL`  
-**Arriving YBSU via ITIDE** - Assigned `F130`
+The Standard Assignable level for YBBN departures from BN TCU to **INL(All)** is the lower of `F180` or the `RFL`.  
+The Standard Assignable level for YBCG departures from BN TCU to **GOL/SDY** is the lower of `F120` or the `RFL`, and tracking via APAGI.  
+The Standard Assignable level for YBCG departures from BN TCU to **NSA/BUR/DOS** is the lower of `F180` or the `RFL`.  
+The Standard Assignable level for YBSU arrivals from BN TCU to **NSA** is `F130`, and tracking via ITIDE.  
 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
@@ -98,9 +97,11 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
     **INL** -> **BN TCU**: "BNZ123, concur F150"  
 
 #### Arrivals
-The Standard assignable levels from **INL** (and subsectors) to BN TCU are as follows:  
-YBBN Arrivals: `A090`  
-YBCG Arrivals: `F130`
+The Standard assignable level from INL(All) to BN TCU is:  
+`A090` for YBBN arrivals, and assigned a STAR  
+`F130` for YBCG arrivals via BERNI, and assigned a STAR  
+
+All other aircraft must be voice coordinated to BN TCU.
 
 ### BN TCU / BN ADC
 #### Auto Release

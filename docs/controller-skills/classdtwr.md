@@ -11,7 +11,7 @@ Remember that in [Class D Airspace](../../controller-skills/airspaceclass), IFR 
 For Simulation purposes, Visual Separation is assumed to exist below the Cloud base, and up to 5nm from the ARP. This can be used in conjunction with Surveillance, if available.
 
 ## Procedural Separation
-At [Tamworth](../../aerodromes/tamworth/), [Coffs Harbour](../../aerodromes/Coffs/), [Hamilton Island](../../aerodromes/Hammo/), and [Sunshine Coast](../../aerodromes/sunshinecoast/) Towers, surveillance coverage cannot be guaranteed at all levels. Therefore, Procedural Standards must be implemented prior to losing surveillance identification of an aircraft, if visual separation cannot be assured below the height at which surveillance coverage will be lost. For more information, refer to Local Instructions.
+At [Tamworth](../../aerodromes/tamworth), [Coffs Harbour](../../aerodromes/Coffs), [Hamilton Island](../../aerodromes/Hammo), and [Sunshine Coast](../../aerodromes/sunshinecoast) Towers, surveillance coverage cannot be guaranteed at all levels. Therefore, Procedural Standards must be implemented prior to losing surveillance identification of an aircraft, if visual separation cannot be assured below the height at which surveillance coverage will be lost. For more information, refer to Local Instructions.
 
 ### Standards
 The most relevant Procedural Standards for Class D Towers include:

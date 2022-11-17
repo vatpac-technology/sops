@@ -18,7 +18,7 @@
   <figcaption>CFS TWR Airspace</figcaption>
 </figure>
 
-Refer to [Class D Tower Skills](../../controller-skills/classdtwr/) for more information.
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
 ## Surveillance
 CFS TWR is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be not available below **2800 feet** in the CFS CTR.  
@@ -35,15 +35,7 @@ If required, CFS TWR can pass amended tracking/level instructions to an aircraft
 
 ## Coordination
 ### Departures
-#### Taxi Call
-A taxi call shall be made to INL/ARL(MNN), for all aircraft entering INL/ARL(MNN) Class C airspace, as an aircraft is given taxi clearance. AINL/ARL(MNN) will respond by acknowledging the callsign.
-
-!!! example
-    **CFS TWR** -> **MNN**: "Taxi, QJE1573 for YMML via BANDA"  
-    **MNN** -> **CFS TWR**: "QJE1573"  
-
-#### Next Call
-A next call is made for all aircraft when they are next to depart and will be departing within two minutes. INL/ARL(MNN) will respond by acknowledging the callsign.
+A 'next' call is made for all aircraft when they are next to depart. CFS TWR must inform INL/ARL(MNN) if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
     **CFS TWR** -> **MNN**: "Next, QJE1573"  

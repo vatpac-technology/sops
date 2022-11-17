@@ -16,7 +16,7 @@
 | Sydney Director East† |SFE| Sydney Director   | 125.300          | SY-DE_APP                               |
 | Sydney Flow†        |SFL|                |          | SY-FLW_CTR                               |
 
-† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}
+† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf)
 
 ## Airspace
 The Sydney TMA spans a 45nm Radius around YSSY from SFC-FL280.  
@@ -31,7 +31,7 @@ CN CTR reverts to Class G when **CN TWR** is offline, and is administered by the
 SY TCU is responsible for the provision of ADC, SMC and ACD responsibilities when **SY TWR** is offline.
 ### Airspace Structural Arrangements
 
-Pursuant to Section 3 of the [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}, the following rules apply, in the order presented, to these controller positions, except **SFL**:  
+Pursuant to Section 3 of the [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), the following rules apply, in the order presented, to these controller positions, except **SFL**:  
 a) **“North”**/**”West”** positions shall assume the airspace of corresponding **“South”**/**”East”** positions when the latter are inactive (e.g. **SAN** assumes **SAS** airspace), and vice versa;  
 b) Approach assumes Director/Departure airspace “on-side” when the latter positions are inactive (e.g. with **SAS** and **SAN** online only, **SAS** assumes **SDS** and **SFW**) 
 ## Arrival Procedures
@@ -255,7 +255,7 @@ Voiceless coordination is in place from SY TCU to all surrounding ENR sectors (*
 - The lower of `F280` or the `RFL`, **with the exception of**:  
 - Aircraft with ADES YWLM, which will be assigned the lower of `F130` or the `RFL`.  
 
-Aircraft must be tracking from **SDN** or **SDS** airspace (see [Airspace Division](http://sops.vatpac.org/terminal/Sydney%20TCU/operations/#airspace-division){target=new}).
+Aircraft must be tracking from **SDN** or **SDS** airspace (see [Airspace Division](../../terminal/sydney/#airspace-division)).
 
 Any aircraft tracking from **SAS** or **SAN** airspace, or **not** assigned the standard assignable level, must be **Heads-up** Coordinated to the relevant ENR sector as soon as practical.
 
@@ -399,4 +399,4 @@ YSCN arrivals shall be coordinated to **CN TWR** from SY TCU prior to transfer o
     **CN TWR** -> **SY TCU**: "ZYX Number 1, QET Number 2"  
 ### SY TCU / RIC TWR
 
-Reserved
+Reserved.

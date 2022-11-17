@@ -19,7 +19,7 @@
   <figcaption>SU TWR Airspace</figcaption>
 </figure>
 
-Refer to [Class D Tower Skills](../../controller-skills/classdtwr/) for more information.
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
 ## Surveillance
 SU TWR is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be not available below **1200 feet** in the SU CTR.  
@@ -43,16 +43,8 @@ Jet Aircraft planned via **MOOLO** or **TAPET**, shall be assigned the **Procedu
 All other aircraft may be assigned a visual departure, or a standard IFR departure.
 
 ## Coordination
-### Departures
-#### Taxi Call
-A taxi call shall be made to INL(NSA/BUR), for all aircraft entering INL(NSA/BUR) Class C airspace, as an aircraft is given taxi clearance. INL(NSA/BUR) will respond by acknowledging the callsign.
-
-!!! example
-    **SU TWR** -> **NSA**: "Taxi, BNZ133 for YCFS via MOOLO1 departure"  
-    **NSA** -> **SU TWR**: "BNZ133"  
-
-#### Next Call
-A next call is made for all aircraft when they are next to depart and will be departing within two minutes. INL(NSA/BUR) will respond by acknowledging the callsign.
+#### Departures
+A 'next' call is made for all aircraft when they are next to depart. SU TWR must inform INL(NSA/BUR) if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
     **SU TWR** -> **NSA**: "Next, BNZ133"  
@@ -68,7 +60,6 @@ INL(NSA/BUR) will coordinate the sequence to SU TWR.
     **SU TWR** -> **NSA**: "QJE1756, Number 1. FD425, Number 2"  
 
 The Standard Assignable level from INL(NSA/BUR) to SU TWR is `A060`, any other level must be prior coordinated.
-
 ### BN TCU / SU TWR
 
 As you may have noticed, BN TCU Class G shares a tiny border with SU TWR, however there are no SIDs, STARs, or airways through this gap. The only possible way for an aircraft to directly enter BN TCU's airspace from SU TWR's jurisdiction, is in to Class G, and as such, no coordination is required to BN TCU.
