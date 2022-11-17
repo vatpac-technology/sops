@@ -28,7 +28,7 @@
 | Moorabbin | Alex D | Complete, To be reviewed |
 | Camden | Matt E | In Progress |
 | Archerfield | Matt E | In Progress |
-| Parafield | Alex M | Not Started |
+| Parafield | Alex M | Complete, To be reviewed |
 | Bankstown | Tyler B | Complete, To be reviewed |
 
 ### Procedural
