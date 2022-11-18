@@ -11,7 +11,7 @@ Grid LSALTs are calculated for an area of 1 degree of latitude x 1 degree of lon
 Route LSALTs are valid for RNP2-approved aircraft tracking via an airway, as shown on the relevant chart.
 
 ## Charts
-Grid LSALTs and Route LSALTs can be found on TAC and ERC Low charts [TAC and ERC Low charts](https://www.airservicesaustralia.com/aip/aip.asp), as shown below
+Grid LSALTs and Route LSALTs can be found on [TAC and ERC Low charts](https://www.airservicesaustralia.com/aip/aip.asp), as shown below
 
 <figure markdown>
 ![Grid and Route LSALTs](img/lsalt.png){ width="800" }
@@ -50,7 +50,6 @@ Once an aircraft has reported visual, LSALTs are no longer a factor. However, if
     **AM328**: "Descend to A040 visual, AM328"  
 
 ## Examples
-
 !!! example
     **ABC**: "Melbourne Centre, PA44, ABC, POB 2, IFR, Taxiing YSWG for YMCO, Runway 23"  
     **BLA**: "ABC, Melbourne Centre, Squawk 3601, No reported IFR Traffic"  
@@ -64,7 +63,7 @@ Once an aircraft has reported visual, LSALTs are no longer a factor. However, if
     **DEF**: "Brisbane Centre, PC12, DEF, POB 6, IFR, Taxiing YBUD for YROM, Runway 32"  
     **KPL**: "DEF, Brisbane Centre, Squawk 3601, No reported IFR Traffic"  
     **DEF**: "3601, DEF"  
-    **KPL**: "ABC, you've planned below Grid Lowest Safe, advise intentions"  
+    **KPL**: "DEF, you've planned below Grid Lowest Safe, advise intentions"  
     **DEF**: "We've calculated our own lowest safe, DEF"  
     **KPL**: "DEF"  
     KPL will enter "PCALC" in label data.
