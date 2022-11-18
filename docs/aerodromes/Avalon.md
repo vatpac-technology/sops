@@ -17,6 +17,8 @@
 ![AV Tower Airspace](img/AVTWR.png){ width="500" }
 </figure>
 
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
+
 ## SID Selection
 
 Aircraft planned via **JUSTY**, or **ML**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.

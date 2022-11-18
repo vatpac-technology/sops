@@ -59,8 +59,8 @@
 *[BDN]: Brisbane Departures North
 *[BDS]: Brisbane Departures South
 *[BMN]: Brisbane Finals
-*[CS1]: Cairns Approach 1
-*[CS2]: Cairns Approach 2
+*[CSA]: Cairns Approach
+*[CSD]: Cairns Departures
 *[CBW]: Canberra Approach West
 *[CBE]: Canberra Approach East
 *[HBA]: Hobart Approach
@@ -145,3 +145,25 @@
 *[WOL]: Melbourne (Wollongong) Centre
 *[WON]: Melbourne (Wonthaggi) Centre
 *[WRA]: Melbourne (Woomera) Centre
+*[SVFR]: Special VFR
+*[FIS]: Flight Information Service
+*[SIS]: Surveillance Information Service (Flight Following)
+*[ARP]: Aerodrome Reference Point
+*[GGO]: Goonoo Goonoo Station
+*[WBH]: Wallabadah
+*[NUN]: Nundle
+*[DGN]: Dungowan
+*[NEM]: Nemingha
+*[MAL]: Manilla
+*[GWT]: Gate West
+*[DUA]: Duri Gap
+*[GST]: Gate South
+*[LLC]: Leaves Lateral Conflict
+*[ELC]: Enters Lateral Conflict
+*[LSALT]: Lowest Safe Altitude
+*[VOR]: VHF Omni-directional Range
+*[NDB]: Non-Directional Beacon
+*[DR]: Dead Reckoning
+*[MSA]: Minimum Safe Altitude
+*[MVA]: Minimum Vectoring Altitude
+*[RTCC]: Radar Terrain Clearance Chart

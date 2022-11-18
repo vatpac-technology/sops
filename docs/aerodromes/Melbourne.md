@@ -89,7 +89,7 @@ Any Runway change must be prior coordinated to **MAE** and **EN TWR**.
 
 ## Departures Controller
 
-Refer to [Melbourne TCU Airspace Division](http://sops.vatpac.org/terminal/Melbourne%20TCU/operations/#airspace-division){target=new} for information on airspace divisions when **MDN** and/or **MDS** are online.
+Refer to [Melbourne TCU Airspace Division](../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
 
 ## Standard Assignable Levels
 

@@ -16,7 +16,7 @@
 | Sydney Director East† |SFE| Sydney Director   | 125.300          | SY-DE_APP                               |
 | Sydney Flow†        |SFL|                |          | SY-FLW_CTR                               |
 
-† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}
+† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf)
 
 ## Airspace
 The Sydney TMA spans a 45nm Radius around YSSY from SFC-FL280.  
@@ -31,19 +31,22 @@ CN CTR reverts to Class G when **CN TWR** is offline, and is administered by the
 SY TCU is responsible for the provision of ADC, SMC and ACD responsibilities when **SY TWR** is offline.
 ### Airspace Structural Arrangements
 
-Pursuant to Section 3 of the [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}, the following rules apply, in the order presented, to these controller positions, except **SFL**:  
+Pursuant to Section 3 of the [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), the following rules apply, in the order presented, to these controller positions, except **SFL**:  
 a) **“North”**/**”West”** positions shall assume the airspace of corresponding **“South”**/**”East”** positions when the latter are inactive (e.g. **SAN** assumes **SAS** airspace), and vice versa;  
 b) Approach assumes Director/Departure airspace “on-side” when the latter positions are inactive (e.g. with **SAS** and **SAN** online only, **SAS** assumes **SDS** and **SFW**) 
 ## Arrival Procedures
 ### Level Assignment
-Adjacent STARs do not guarantee lateral separation (particularly as aircraft get closer to TESAT), so to avoid a breakdown of separation standards, Approach should assign levels as follows: <ul><li>ODALE/MEPIL STAR: `A060`</li><li>RIVET/BOREE STAR: `A080`</li><li>MARLN STAR: `A090`</li></ul>
+!!! note
+    Inbound aircraft will be handed from Enroute to Approach assigned the [standard assignable level](#arrivals).  This section refers to further descent issued by the Approach controller.
+
+Adjacent STARs do not guarantee lateral separation (particularly as aircraft get closer to TESAT), so to avoid a breakdown of separation standards, **Approach** should assign levels as follows: <ul><li>ODALE/MEPIL STAR: `A060`</li><li>RIVET/BOREE STAR: `A080`</li><li>MARLN STAR: `A090`</li></ul>
 
 RIVET/BOREE aircraft should only be assigned `A070` when an adjacent ODALE/MEPIL arrival is maintaining `A060`.  These aircraft can be stepped down to `A060` once sufficient lateral separation exists (often during the downwind turn).
 
 MARLN aircraft which require an overfly to the west should be assigned `A090` and stepped down on top of any RIVET arrivals.
 
 !!! tip
-    Be mindful of Sydney's <a href="#radar-entry-procedure-rep">REP airspace</a> arrangement and avoid leaving arrivals at `A100`.  Aircraft should be descended to `A090` or below by 20DME to prevent conflict with departing traffic.
+    Be mindful of Sydney's [REP airspace](#radar-entry-procedure-rep) arrangement and avoid leaving arrivals at `A100`.  Aircraft should be descended to `A090` or below by 20DME to prevent conflict with departing traffic.
 
 All aircraft should be assigned no lower than `A060` until clear of the active runways' departure tracks.  This normally occurs once established on downwind (but changes based on runway config).
 
@@ -81,7 +84,7 @@ SFW/SFE should provide aircraft an approximate 'miles to run' on first contact, 
 A typical downwind will take roughly 25 track miles from the normal point have handover from SAN/SAS to SFE/SFW.
 
 !!! example
-    "QLK402, Sydney Director, descend via STAR 4000 FT, 25 miles to run"
+    "QLK402, Sydney Director, descend to 4000ft, 25 miles to run"
 
 SFW/SFE may provide distance to touchdown, when transferring an aircraft to tower after the aircraft is established on their approach runway centreline (see below).
 
@@ -111,7 +114,7 @@ When conducting IVAs, aircraft shall not be transferred to **SY ADC** until esta
 ## Sydney Harbour Scenic Flights
 Flights may be cleared for one of two standard scenic flight routes at `A015`, **Harbour Scenic ONE** or **Harbour Scenic TWO**, which are described below. Pilot preference should be accommodated where traffic permits.
 
-Aircraft must Track via Class G airspace to Long Reef and contact SY TCU prior to reaching Long Reef requesting a ‘Harbour Scenic’ clearance. Attempt to identify the aircraft, and if a clearance cannot be given immediately, instruct the pilot to remain in Class G airspace.
+Aircraft must track via Class G airspace to Long Reef and contact SY TCU prior to reaching Long Reef requesting a ‘Harbour Scenic’ clearance. Attempt to identify the aircraft, and if a clearance cannot be given immediately, instruct the pilot to remain in Class G airspace.
 
 !!! example
     LOI, squawk 0542, remain clear of Class C airspace”
@@ -252,7 +255,7 @@ Voiceless coordination is in place from SY TCU to all surrounding ENR sectors (*
 - The lower of `F280` or the `RFL`, **with the exception of**:  
 - Aircraft with ADES YWLM, which will be assigned the lower of `F130` or the `RFL`.  
 
-Aircraft must be tracking from **SDN** or **SDS** airspace (see [Airspace Division](http://sops.vatpac.org/terminal/Sydney%20TCU/operations/#airspace-division){target=new}).
+Aircraft must be tracking from **SDN** or **SDS** airspace (see [Airspace Division](../../terminal/sydney/#airspace-division)).
 
 Any aircraft tracking from **SAS** or **SAN** airspace, or **not** assigned the standard assignable level, must be **Heads-up** Coordinated to the relevant ENR sector as soon as practical.
 
@@ -396,4 +399,4 @@ YSCN arrivals shall be coordinated to **CN TWR** from SY TCU prior to transfer o
     **CN TWR** -> **SY TCU**: "ZYX Number 1, QET Number 2"  
 ### SY TCU / RIC TWR
 
-Reserved
+Reserved.

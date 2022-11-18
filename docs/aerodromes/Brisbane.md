@@ -116,7 +116,7 @@ Any aircraft / runway configuration that doesn't meet the above criteria, requir
 
 ## Departures Controller
 
-Refer to [Brisbane TCU Airspace Division](http://sops.vatpac.org/terminal/Brisbane%20TCU/operations/#airspace-division){target=new} for information on airspace divisions when **BAS**, **BDN** and/or **BDS** are online.
+Refer to [Brisbane TCU Airspace Division](../../terminal/brisbane/#airspace-division) for information on airspace divisions when **BDN** and/or **BDS** are online.
 
 ## Standard Assignable Levels
 
