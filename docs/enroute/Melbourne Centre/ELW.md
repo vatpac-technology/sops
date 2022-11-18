@@ -15,13 +15,11 @@
 
 ## Airspace
 
-ELW is responsible for the ML TCU when **ML APP** is offline.  
+ELW is responsible for the [ML TCU](../../../terminal/melbourne) when **ML APP** is offline.  
 ELW is responsible for **BLA** and **SNO** when they are offline.  
 
-When **CB APP** is offline, CB TCU (Class C SFC-F245) reverts to Class G, and is administered by BLA. Alternatively, BLA may provide a top-down approach service if they wish.  
-When **AY TWR** is offline, AY CTR (Class D and C SFC-A085) reverts to Class G, and is administered by BLA. Alternatively, BLA may provide a top-down procedural service if they wish.
-
-(vatsys map)
+When **CB APP** is offline, CB TCU (Class C SFC-F245) reverts to Class G, and is administered by BLA. Alternatively, BLA may provide a [top-down approach service](../../../terminal/canberra) if they wish.  
+When **AY TWR** is offline, AY CTR (Class D and C SFC-A085) reverts to Class G, and is administered by BLA. Alternatively, BLA may provide a [top-down procedural service](../../../aerodromes/Albury) if they wish.
 
 ## Sector Responsibilities
 ### Eildon Weir (ELW)
@@ -47,10 +45,10 @@ All other aircraft must be voice coordinated to ML TCU prior to **20nm** from th
 
 The Standard Assignable level from ML TCU to ELW is the lower of `F240` or the `RFL`, and tracking via MNG, NONIX, or DOSEL.
 
-Refer to [Melbourne TCU Airspace Division](../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
+Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
 ### ELW (All) / ENR
 
-As per [Standard coordination procedures](../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 That being said, it is *advised* that ELW give **Heads-up Coordination** prior to **20nm** from the boundary in the following scenarios:  
 - BLA to BIK(GUN) for aircraft **not** on the Y59 or W817 airway*  
@@ -59,11 +57,11 @@ That being said, it is *advised* that ELW give **Heads-up Coordination** prior t
 - SNO to BIK(WOL) for all aircraft
 
 !!! tip
-    **BLA** should aim to handoff aircraft as soon as possible to **GUN**, so they can issue STAR clearance and commence sequencing. Remember, As per [Standard coordination procedures](../../controller-skills/coordination/#handoffs), the Receiving sector may turn the aircraft 45° left or right and climb/descend to any level. So if required, nominate a restriction.
+    **BLA** should aim to handoff aircraft as soon as possible to **GUN**, so they can issue STAR clearance and commence sequencing. Remember, As per [Standard coordination procedures](../../../controller-skills/coordination/#handoffs), the Receiving sector may turn the aircraft 45° left or right and climb/descend to any level. So if required, nominate a restriction.
 
 ### ELW/BLA/SNO Internal
 
-As per [Standard coordination procedures](../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 That being said, it is *advised* that ELW/BLA/SNO give **Heads-up Coordination** prior to **20nm** from the boundary in the following scenarios:  
 - ELW to BLA for aircraft **not** on the Y59, H66, or W569 airway (Changes permitted up to boundary for sequencing/descent purposes)  

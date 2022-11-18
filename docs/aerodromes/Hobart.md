@@ -132,8 +132,6 @@ Clearances for aircraft entering the CTR must be worded so as to leave no possib
 
 ## Coordination
 ### Departures
-#### Auto Release
-
 "Next" Coordination to HBA is required for all deps not assigned a SID.
 
 "Next" Coordination is a procedure where the **HB ADC** controller gives a heads-up to the HBA controller about an impending departure not on a SID. The HBA controller will respond by assigning a visual heading to the aircraft, for the **HB ADC** controller to pass on with their takeoff clearance.
@@ -142,9 +140,8 @@ Clearances for aircraft entering the CTR must be worded so as to leave no possib
     **HB ADC** -> **HB TCU**: "Next, ABC"  
     **HB TCU** -> **HB ADC**: "ABC, Heading 150 Visual"  
     **HB ADC** -> **HB TCU**: "Heading 150 Visual, ABC"  
-
-    **HB ADC:** "ABC, Assigned heading right 150 Visual, Runway 12, Cleared for Takeoff"  
-    **ABC:** "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"  
+    **HB ADC** -> **ABC**: "ABC, Assigned heading right 150 Visual, Runway 12, Cleared for Takeoff"  
+    **ABC** -> **HB ADC**: "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"  
     `AIP GEN 3.4`
 
 The HBA controller can suspend/resume Auto Release at any time, with the concurrence of **HB ADC**.
@@ -159,14 +156,5 @@ b) Aircraft using a runway not on the ATIS
 The Standard Assignable level from HB ADC to HBA is:  
 For Jets: `A080`  
 For Non-Jets: The lower of `A045` or the `RFL`.
-#### Arrivals
-HBA will coordinate all **non-STAR** arrivals 5min from IAF or 5min from CTA boundary.
-
-!!! example
-    **HB TCU** -> **HB ADC**: "JST419, A320, estimates Hobart 52, RNAV-Z 12 via HBZWG, 5000ft, number 1”  
-    **HB ADC** -> **HB TCU**: "JST419"
-
-## Standard Assignable Levels
-
-Jets: `A080`  
-Non-jets: `A045` or `RFL` if lower
+### Arrivals
+HBA will coordinate all YMHB arrivals to HB ADC prior to 5 mins from the boundary.

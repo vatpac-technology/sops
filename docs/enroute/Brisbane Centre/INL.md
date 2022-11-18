@@ -19,14 +19,14 @@
 
 ## Airspace
 
-GOL is responsible for the BN TCU when **BN APP** is offline.  
-GOL is responsible for the RK TCU when **RK APP** is offline.  
+GOL is responsible for the [BN TCU](../../../terminal/brisbane) when **BN APP** is offline.  
+GOL is responsible for the [RK TCU](../../../terminal/coral) when **RKA** is offline.  
 INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, **NSA**, and **KPL** when they are offline.  
 
-When **SU TWR** is offline, SU CTR (Class D SFC-A045) reverts to Class G, and is administered by NSA and BUR. Alternatively, NSA may provide a top-down procedural service if they wish (not recommended), and this must be coordinated to BUR.  
-When **CFS TWR** is offline, CFS CTR (Class D SFC-A045) reverts to Class G, and is administered by MNN and INL. Alternatively, INL may provide a top-down procedural service if they wish (not recommended), and this must be coordinated to ARL(MNN).  
+When **SU TWR** is offline, SU CTR (Class D SFC-A045) reverts to Class G, and is administered by NSA and BUR. Alternatively, NSA may provide a [top-down procedural service](../../../aerodromes/sunshinecoast) if they wish (not recommended), and this must be coordinated to BUR.  
+When **CFS TWR** is offline, CFS CTR (Class D SFC-A045) reverts to Class G, and is administered by MNN and INL. Alternatively, INL may provide a [top-down procedural service](../../../aerodromes/Coffs) if they wish (not recommended), and this must be coordinated to ARL(MNN).  
 
-(vatsys map)
+Whilst the **RKA** controller is expected to provide a [top-down service](../../../aerodromes/Rockhampton) to YBRK when **RK TWR** is offline, this is not expected of a GOL controller when both **RKA** and **RK TWR** are offline. If electing not to provide a top-down service to YBRK, the RK CTR Class D is reclassified to Class G SFC-A007, and Class E A007-A045.
 
 ## Sector Responsibilities
 ### Inverell (INL) / Downs (DOS) / Straddy (SDY) / Burnett (BUR)
@@ -52,14 +52,14 @@ The Standard Assignable level for YBCG departures from BN TCU to **GOL/SDY** is 
 The Standard Assignable level for YBCG departures from BN TCU to **NSA/BUR/DOS** is the lower of `F180` or the `RFL`.  
 The Standard Assignable level for YBSU arrivals from BN TCU to **NSA** is `F130`, and tracking via ITIDE.  
 
-Refer to [Brisbane TCU Airspace Division](../../terminal/brisbane/operations/#airspace-division) for information on airspace divisions when **BAS**, **BDN** and/or **BDS** are online.
+Refer to [Brisbane TCU Airspace Division](../../../terminal/brisbane/operations/#airspace-division) for information on airspace divisions when **BAS**, **BDN** and/or **BDS** are online.
 ### INL (All) / ENR
 
-As per [Standard coordination procedures](../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 ### INL/DOS/GOL/SDY/BUR/NSA/KPL Internal
 
-As per [Standard coordination procedures](../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 That being said, it is *advised* that INL(All) give **Heads-up Coordination** to the relevant sector prior to **20nm** from the boundary in the following scenarios:  
 - INL to DOS for all aircraft  
@@ -105,7 +105,7 @@ All other aircraft must be voice coordinated to **RK APP** prior to **20nm** fro
 
 The Standard Assignable level from **RK APP** to KPL is `F150`, and tracking via BUDGI or TARES.
 #### Airspace
-When **RK APP** is online, **KPL** owns the Class C airspace outside 36 DME RK. **RK APP** owns the Class C airspace within the RK CTR SFC-F150, and is shown **shaded** in the image below
+When **RK APP** is online, KPL owns the Class C airspace outside 36 DME RK. **RK APP** owns the Class C airspace within the RK CTR SFC-F150, and is shown **shaded** in the image below
 <figure markdown>
 ![Rockhampton TCU Airspace](img/RKAPP.png){ width="800" }
   <figcaption>Rockhampton TCU Airspace</figcaption>
@@ -159,6 +159,5 @@ All aircraft transiting from GOL/DOS/BUR to **OK APP** and **AMB APP** must be h
     **GOL** -> **AMB APP**: "via HUUGO, PUMA11, will be assigned A080"  
     **AMB APP** -> **GOL**: "PUMA11, A080"  
 
-### INL/SDY/KPL / TSN (Oceanic)
-
-As per [Standard coordination procedures](../../controller-skills/coordination/#enr-oceanic), Voice coordinate estimate and level prior to **15 mins** to boundary.
+### INL/SDY/KPL / TSN(FLD/HWE) (Oceanic)
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Voice coordinate estimate and level prior to **15 mins** to boundary.
