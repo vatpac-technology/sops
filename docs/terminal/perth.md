@@ -34,6 +34,9 @@ IFR RNAV equipped arrivals to Jandakot planned via a fix listed shall be cleared
 | **North**<br>JULIM (Jet)<br>CONNI (Non-Jet) | <br>JT 2G / WOORA | <br>DCT JT |
 | **East**<br>BEVLY (Jet)<br>GRENE (Non-Jet)<br>HAMTN (Non-Jet) | <br>JT 2G / BEVLY<br>JT 2G / GRENE<br>JT 2W / HAMTN | <br>JT 2R / BEVLY<br>JT 2R / GRENE<br>N/A 
 
+#### YPEA Arrivals
+
+Reserved
 
 ## JT/PEA TWR Offline
 Due to the low level of CTA at these aerodromes, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
@@ -87,11 +90,9 @@ The Standard assignable level from ENR to PH TCU is `A090`. All other levels mus
 "Next" Coordination is a procedure where the PH TWR controller gives a heads-up to the PH TCU controller about an impending departure. The PH TCU controller will respond by assigning a heading to the aircraft, for the PH TWR controller to pass on with their takeoff clearance.
 
 !!! example
-    PH ADC -> PH TCU: "Next, ABC"  
-    PH TCU -> PH ADC: "ABC, Heading 010"  
-    PH ADC -> PH TCU: "Heading 010, ABC"  
-    PH ADC -> ABC: "ABC, Assigned heading left 010, Runway 03, Cleared for Takeoff"  
-    ABC -> PH ADC: "Left heading 010, Runway 010, Cleared for Takeoff, ABC"  
+    **PH ADC** -> **PH TCU**: "Next, ABC"  
+    **PH TCU** -> **PH ADC**: "ABC, Heading 010"  
+    **PH ADC** -> **PH TCU**: "Heading 010, ABC"  
     `AIP GEN 3.4`
 
 "Next" Coordination to PH TCU is additionally required for:  
@@ -110,19 +111,51 @@ All aircraft transiting between internal PH TCU boundaries must be heads-up coor
     **PHA** -> **PHD**: "via PH, FD123"  
     **PHD** -> **PHA**: "FD123, A090"   
 
-### PH TCU / JT TWR
-#### Departures
+### JT SMC / PH TCU
 
-Aircraft departing YPJT in to PH TCU Class C will be coordinated from **JT TWR** at Taxi.
+#### Taxi Call
 
-!!! example
-    **PF TWR** -> **AD TCU**: "Taxi, ABC for YKSC, Runway 03L, via AD"  
-    **AD TCU** -> **PF TWR**: "ABC for YKSC, Runway 03L, Cleared Parafield 1, A030"  
-    **PF TWR** -> **AD TCU**: "Parafield 1, A030, ABC"  
-
-#### Arrivals
-YPPF arrivals shall be coordinated to **PF TWR** from the relevant AD TCU controller prior to transfer of jurisdiction.
+For aircraft planned into the overlying class C airspace, an airways clearance must be coordinated with the TCU controller responsible for Perth Approach or Departures (dependant on runway configuation at PH).  This is achieved by performing 'Taxi' coordination and then relaying the clearance to the aircraft when they are ready in the run up bays.
 
 !!! example
-    **AD TCU** -> **PF TWR**: "ZYX, via DOLVU, Number 1" 
-    **PF TWR** -> **AD TCU**: "ZYX, Number 1"  
+    **JT SMC** -> **PH TCU**: "Taxis FD420, Kalbarri, runway 24R"  
+    **PH TCU** -> **PH SMC**: "FD420, cleared to Kalbarri via RECKS flight planned route, MANTL3 depature, climb via SID A030, squawk 3342"  
+    **JT SMC** -> **PH TCU**: "Cleared to Kalbarri via RECKS flight planned route, MANTL3 depature, climb via SID A030, squawk 3342, FD420" 
+
+
+### JT ADC / PH TCU
+
+#### Next Call
+
+When the aircraft is ready for departure, Tower will coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
+
+!!! example
+    **JT ADC** -> **PH TCU**: "Next, FD420, runway 24R"  
+    **PH TCU** -> **JT ADC**: "FD420, unrestricted"
+
+### PH TCU / JT ADC
+
+#### Arrival Coordination
+
+PH TCU will coordinate with JT ADC for incoming IFR arrivals on either Visual Tracking, RNAV or NDB approaches.
+
+##### Visual Tracking
+
+!!! example
+    **PH TCU** -> **JT ADC**: "Estimate, FD416 via `CNB` time 02."  
+    **JT ADC** -> **PH TCU**: "FD416"
+
+##### IAP Tracking
+
+!!! example
+    **PH TCU** -> **JT ADC**: "Estimated approach time, FD416 via RNAV at time 59"  
+    **JT ADC** -> **PH TCU**: "Via RNAV, FD4166"   
+
+    *JT Tower must clear aircraft for final, before PH TCU issues approach clearance.*  
+    **PH TCU** -> **JT ADC**: "Request clearance for final, FD416"  
+    **JT ADC** -> **PH TCU**: "FD416 cleared RNAV 24R"  
+    **PH TCU** -> **JT ADC**: "Cleared RNAV 24R, FD416"  
+
+### PH TCU / PEA ADC
+Reserved
+
