@@ -26,7 +26,10 @@ INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, **NSA**, and **KPL** 
 When **SU TWR** is offline, SU CTR (Class D SFC-A045) reverts to Class G, and is administered by NSA and BUR. Alternatively, NSA may provide a top-down procedural service if they wish (not recommended), and this must be coordinated to BUR.  
 When **CFS TWR** is offline, CFS CTR (Class D SFC-A045) reverts to Class G, and is administered by MNN and INL. Alternatively, INL may provide a top-down procedural service if they wish (not recommended), and this must be coordinated to ARL(MNN).  
 
-(vatsys map)
+<figure markdown>
+![Inverell Airspace](../assets/INLENR.png){ width="700" }
+  <figcaption>Inverell Airspace</figcaption>
+</figure>
 
 ## Sector Responsibilities
 ### Inverell (INL) / Downs (DOS) / Straddy (SDY) / Burnett (BUR)

@@ -81,7 +81,7 @@
 | OLW | Zach G | In Progress |
 | TRT | - | Not Started |
 | ASP | Alex D | Complete, To be reviewed |
-| ISA | - | Not Started |
+| ISA | Tyler B | Complete, To be reviewed |
 | KEN | Alex D | Not Started |
 | INL | Alex D | Complete, To be reviewed |
 | ARL | Alex D | Complete, To be reviewed |
