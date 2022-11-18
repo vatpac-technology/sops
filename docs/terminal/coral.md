@@ -11,7 +11,7 @@
 | Mackay Approach  | MKA | Coral Approach  | 125.650       | MK_APP    |
 | Rockhampton Approach  | RKA | Coral Approach   | 123.750        | RK_APP                 |
 
-Upper Limit of the Coral TCU is `F155`
+Upper Limit of the Coral TCU is `F150`
 
 !!! Note
     Mackay Approach may extend to Rockhampton Approach and vice versa, callsigns remain the same.

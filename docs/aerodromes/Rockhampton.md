@@ -14,6 +14,8 @@
 
 ## Airspace
 
+The RK CTR is from `SFC` to `A010`
+
 <figure markdown>
 ![YBRK Airspace](img/RKTWR.png){ width="700" }
 </figure>
@@ -35,7 +37,7 @@ A 'next' call is made for all aircraft when they are next to depart. RK TWR must
     **RK TWR** -> **COR**: "Next, VJE"  
     **COR** -> **RK TWR**: "VJE"
 
-The Standard Assignable level from RK TWR to COR TCU is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
+The Standard Assignable level from RK TWR to COR TCU is the lower of `A060` or the `RFL`, any other level must be prior coordinated.
 
 ### Arrivals
 COR TCU will coordinate the sequence to RK TWR
@@ -43,5 +45,3 @@ COR TCU will coordinate the sequence to RK TWR
 !!! example
     **COR** -> **RK TWR**: "New Sequence of 2. Via SARUS, VJN, Number 1. WFE, Number 2”  
     **RK TWR** -> **COR**: "VJN, Number 1. WFE, Number 2"  
-
-The Standard Assignable level from COR TCU to MK TWR is `A060`, any other level must be prior coordinated.
