@@ -63,3 +63,66 @@ The divisions of the airspace between **PHA**, and **PHD** change based on the R
 ![21/24 TCU Structure](img/PH2124annotated.png){ width="700" }
   <figcaption>21/24 TCU Structure</figcaption>
 </figure>
+
+## Coordination
+
+### PH TCU / ENR
+#### Departures
+Voiceless coordination is in place from AD TCU to PIY (and subsectors) for aircraft:  
+Planned at or above F180: `Assigned F180`  
+Planned below F180: `Assigned the RFL`  
+
+Any aircraft not meeting the above criteria must be prior coordinated to ENR.
+
+!!! example
+    **PH TCU** -> **PIY**: "PFY1234, with your concurrence, will be assigned F130, for my separation with JTE654"  
+    **PIY** -> **PH TCU**: "PFY1234, concur F130"  
+
+#### Arrivals
+The Standard assignable level from ENR to PH TCU is `A090`. All other levels must be prior coordinated
+
+### PH ADC / PH TCU
+#### Auto Release
+
+"Next" Coordination is a procedure where the PH TWR controller gives a heads-up to the PH TCU controller about an impending departure. The PH TCU controller will respond by assigning a heading to the aircraft, for the PH TWR controller to pass on with their takeoff clearance.
+
+!!! example
+    PH ADC -> PH TCU: "Next, ABC"  
+    PH TCU -> PH ADC: "ABC, Heading 010"  
+    PH ADC -> PH TCU: "Heading 010, ABC"  
+    PH ADC -> ABC: "ABC, Assigned heading left 010, Runway 03, Cleared for Takeoff"  
+    ABC -> PH ADC: "Left heading 010, Runway 010, Cleared for Takeoff, ABC"  
+    `AIP GEN 3.4`
+
+"Next" Coordination to PH TCU is additionally required for:  
+    a) Aircraft on a non-standard level. 
+    b) Aircraft departing from a runway not nominated in the ATIS. 
+
+The PH TCU controller can suspend/resume Auto Release at any time, with the concurrence of PH TWR.
+
+"Next" Coordination to PH TCU is not required for aircraft assigned a **Procedural SID** and the Standard Assignable Level.
+
+### PH TCU Internal
+
+All aircraft transiting between internal PH TCU boundaries must be heads-up coordinated.
+
+!!! example
+    **PHA** -> **PHD**: "via PH, FD123"  
+    **PHD** -> **PHA**: "FD123, A090"   
+
+### PH TCU / JT TWR
+#### Departures
+
+Aircraft departing YPJT in to PH TCU Class C will be coordinated from **JT TWR** at Taxi.
+
+!!! example
+    **PF TWR** -> **AD TCU**: "Taxi, ABC for YKSC, Runway 03L, via AD"  
+    **AD TCU** -> **PF TWR**: "ABC for YKSC, Runway 03L, Cleared Parafield 1, A030"  
+    **PF TWR** -> **AD TCU**: "Parafield 1, A030, ABC"  
+
+#### Arrivals
+YPPF arrivals shall be coordinated to **PF TWR** from the relevant AD TCU controller prior to transfer of jurisdiction.
+
+!!! example
+    **AD TCU** -> **PF TWR**: "ZYX, via DOLVU, Number 1" 
+    **PF TWR** -> **AD TCU**: "ZYX, Number 1"  
