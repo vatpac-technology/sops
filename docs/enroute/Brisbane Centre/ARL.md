@@ -23,7 +23,10 @@ ARL is responsible for **MDE**, **CNK**, **MNN**, **MLD**, and **OCN** when they
 When **TW TWR** is offline, TW CTR (Class D and C SFC-A085) reverts to Class G, and is administered by ARL and MDE. Alternatively, ARL (not MDE) may provide a top-down procedural service if they wish (not recommended).  
 When **CFS TWR** is offline, CFS CTR (Class D SFC-A045) reverts to Class G, and is administered by MNN and INL. MNN is **not permitted** to provide a top-down procedural service, only INL can do this, and they must coordinate with MNN if they are doing so.
 
-(vatsys map)
+<figure markdown>
+![Armidale Airspace](../assets/ARLENR.png){ width="700" }
+  <figcaption>Armidale Airspace</figcaption>
+</figure>
 
 ## Sector Responsibilities
 ### Armidale (ARL) / Manning (MNN)
