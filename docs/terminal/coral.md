@@ -13,9 +13,17 @@
 
 Upper Limit of the Coral TCU is `F150`
 
+MKA is responsible for the provision of ADC and SMC responsibilities when MK ADC is offline.  
+RKA is responsible for the provision of ADC and SMC responsibilities when RK ADC is offline.  
+
 !!! Note
     Mackay Approach may extend to Rockhampton Approach and vice versa, callsigns remain the same.
 
+!!! tip
+    When Setting up VATSYS it is recommended to have 2 seperate windows open for both MKA and RKA
+    <figure markdown>
+    ![Coral Combined Airspace](img/coralrec.png){ width="1000" }
+    </figure>
 ## Coordination
 
 ### COR TCU / ENR
