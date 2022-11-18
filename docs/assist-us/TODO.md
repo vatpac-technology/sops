@@ -48,7 +48,7 @@
 | Task | Assigned to | Progress |
 | ---- | ----------- | -------- |
 | Amberley APP/TWR | - | Not Started |
-| Darwin APP/TWR | - | Not Started |
+| Darwin APP/TWR | Tyler B | In Progress |
 | East Sale APP/TWR | - | Not Started |
 | Edinburgh TWR | - | Not Started |
 | Gingin TWR | - | Not Started |
@@ -77,7 +77,7 @@
 ## ENR
 | Task | Assigned to | Progress |
 | ---- | ----------- | -------- |
-| PIY | Zach G | In Progress |
+| PIY | Zach G | Complete, To be reviewed |
 | OLW | Zach G | In Progress |
 | TRT | - | Not Started |
 | ASP | Alex D | Complete, To be reviewed |
