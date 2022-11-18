@@ -15,16 +15,16 @@
 ## Airspace
 The Perth TMA spans a 36nm Radius around PH from SFC-FL245.   
 PH TCU is responsible for the Perth TMA, except:    
-a) Class G cut out to the south  
-b) JT CTR when **JT TWR** is online.
-c) R155A & B when **PEA APP** is online from `A020` to `FL160`. When R155A is active to Fl160, PH TMA airspace above R155A shall be released to **PEA APP**
-d) Any airspace released to an external unit (e.g. tower) either by NOTAM or as negotiated.
+a) Class G cut out to the south   
+b) JT CTR when **JT TWR** is online.  
+c) R155A & B when **PEA APP** is online from `A020` to `FL160`. When R155A is active to Fl160, PH TMA airspace above R155A shall be released to **PEA APP**  
+d) Any airspace released to an external unit (e.g. tower) either by NOTAM or as negotiated.  
 JT CTR reverts to Class G when **JT TWR** is offline, and is administered by the relevant PH TCU controller.     
 In the absence of a **PHD** controller, **PHA** shall asssume the **PHD** airspace.  
-PH TCU is responsible for the provision of ADC, SMC and ACD responsibilities when **PH TWR** is offline.
+PH TCU is responsible for the provision of ADC, SMC and ACD responsibilities when **PH TWR** is offline.  
 
 ## Arrival Procedures
-#### YPJT Arrivals
+### YPJT Arrivals
 IFR RNAV equipped arrivals to Jandakot planned via a fix listed shall be cleared via STAR dependent on Perth active runway:
 
 | Perth Active Runway | 03/06 | 21/24 |
@@ -32,7 +32,7 @@ IFR RNAV equipped arrivals to Jandakot planned via a fix listed shall be cleared
 | **North**<br>JULIM (Jet)<br>CONNI (Non-Jet) | <br>JT 2G / WOORA | <br>DCT JT |
 | **East**<br>BEVLY (Jet)<br>GRENE (Non-Jet)<br>HAMTN (Non-Jet) | <br>JT 2G / BEVLY<br>JT 2G / GRENE<br>JT 2W / HAMTN | <br>JT 2R / BEVLY<br>JT 2R / GRENE<br>N/A 
 
-#### YPEA Arrivals
+### YPEA Arrivals
 
 Reserved
 
