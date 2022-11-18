@@ -14,11 +14,10 @@
 
 ## Airspace
 The Perth TMA spans a 36nm Radius around PH from SFC-FL245.   
-PH TCU is responsible for the Perth TMA, except:    
-a) Class G cut out to the south   
-b) JT CTR when **JT TWR** is online.  
-c) R155A & B when **PEA APP** is online from `A020` to `FL160`. When R155A is active to Fl160, PH TMA airspace above R155A shall be released to **PEA APP**  
-d) Any airspace released to an external unit (e.g. tower) either by NOTAM or as negotiated.  
+PH TCU is responsible for the Perth TMA, except:      
+a) JT CTR when **JT TWR** is online.  
+b) R155A & B when **PEA APP** is online from `A020` to `FL160`. When R155A is active to Fl160, PH TMA airspace above R155A shall be released to **PEA APP**  
+c) Any airspace released to an external unit (e.g. tower) either by NOTAM or as negotiated.  
 JT CTR reverts to Class G when **JT TWR** is offline, and is administered by the relevant PH TCU controller.     
 In the absence of a **PHD** controller, **PHA** shall asssume the **PHD** airspace.  
 PH TCU is responsible for the provision of ADC, SMC and ACD responsibilities when **PH TWR** is offline.  
@@ -70,7 +69,7 @@ The divisions of the airspace between **PHA**, and **PHD** change based on the R
 
 ### PH TCU / ENR
 #### Departures
-Voiceless coordination is in place from AD TCU to PIY (and subsectors) for aircraft:  
+Voiceless coordination is in place from AD TCU to PIY (and subsectors) for aircraft tracking via a SID and:  
 Planned at or above F180: `Assigned F180`  
 Planned below F180: `Assigned the RFL`  
 
