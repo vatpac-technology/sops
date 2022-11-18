@@ -27,6 +27,8 @@ Tower airspace is defined as between SFC to 1500 FT.
   <figcaption>Archerfield Tower Airspace</figcaption>
 </figure>
 
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
+
 ## VFR Arrival Procedures
 VFR aircraft should track via a VFR inbound point at `A015` and be instructed as below:
 

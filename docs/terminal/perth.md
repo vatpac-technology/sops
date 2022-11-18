@@ -4,8 +4,6 @@
 
 --8<-- "includes/abbreviations.md"
 
-## Positions
-
 | Name | ID | Callsign | Frequency | Login Identifier |
 | -----| -- | -------- | --------- | ---------------- |
 | **Perth Approach** |**PHA**| **Perth Approach**  | **123.600** | **PH_APP**| 
@@ -48,6 +46,7 @@ Due to the low level of CTA at these aerodromes, it is best practice to give air
     **ABC** -> **PH TCU**: "ABC, Ready Runway 06L, Request clearance"  
     **PH TCU** -> **ABC**: "ABC, Cleared to YPKG via PH, Flight Planned Route. Make Visual Right turn DCT PH, Climb to A040"  
     **ABC** -> **PH TCU**: "Cleared to YPKG via PH, Flight Planned Route. Make Visual Right turn DCT PH, Climb to A040, ABC" 
+
 ## Airspace Division
 
 The divisions of the airspace between **PHA**, and **PHD** change based on the Runway Mode.

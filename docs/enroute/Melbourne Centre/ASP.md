@@ -15,7 +15,7 @@
 | Bourke† | Melbourne Centre | 128.200 | ML-BKE_CTR |
 | Esperance† | Melbourne Centre | 123.950 | ML-ESP_CTR |
 
-† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}
+† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf)
 
 ## Airspace
  
@@ -26,16 +26,16 @@ When **AS TWR** is offline, AS CTR (Class D and C SFC-F125) within 80 DME AS rev
 (vatsys map)
 
 ## Extending
-As per [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}, ML-ASP_CTR is only permitted to extend to adjacent **YMMM** sectors.
+As per [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), ML-ASP_CTR is only permitted to extend to adjacent **YMMM** sectors.
 
 ## Coordination
 ### ASP (All) / ENR
 
-As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 ### ASP/ASW/WAR/FOR/WRA/BKE/ESP Internal
 
-As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 ### ASP / AS TWR
 
