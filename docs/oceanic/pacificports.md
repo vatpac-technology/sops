@@ -4,109 +4,101 @@
 
 --8<-- "includes/abbreviations.md"
 
-# Pacific Positions
+## Fiji
 
-## FSS Units
+| Name                    | Login     | Callsign         | Frequency |
+| ----------------------- | --------- | ---------------- | --------- |
+| Nadi Approach	          | NFFN_APP  | Nadi Approach    | 119.100   | 
+| Nadi Centre         	  | NFFN_CTR  | Nadi Centre	     | 120.900   | 
+| Nadi Oceanic	          | NFFF_FSS  | Nadi Radio	     | 123.600   | 
+| Nadi Tower	          | NFFN_TWR  | Nadi Tower	     | 118.100   | 
+| Nadi ATIS	              | NFFN_ATIS |                  | 127.900   | 
+| Nausori (Suva) Approach | NFNA_APP  | Nausori Approach | 119.700   | 
+| Nausori (Suva) Tower	  | NFNA_TWR  | Nausori Tower    | 119.600   | 
+| Nausori (Suva) ATIS	  | NFNA_ATIS | 	             | 128.500   |  
 
-* **NZZO_FSS**: "Auckland Radio" on 8.867 (aliased as 129.000)
-* **NZZO-E_FSS**: "Auckland Radio" on 5.643 (aliased as 131.500)
-* **NZCM_FSS**: "Mac Centre" on 9.032 (aliased as 128.700)
+## Marshall Islands
 
-## Tonga Positions (NF**)
+| Name                    | Login     | Callsign         | Frequency |
+| ----------------------- | --------- | ---------------- | --------- |
+| Bucholz SMC	| PKWA_GND	| Bucholz Ground	| 121.900| 
+| Bucholz Tower	| PKWA_TWR	| Bucholz Tower	| 118.800| 
+| Bucholz ATIS	| PKWA_ATIS| 	|  	119.500| 
+| Kwajalein Approach	| PKWA_APP	| Kwaj Approach	| 126.200| 
 
-### TMA
+## New Caledonia
 
-* **NFTF_APP** "Fua'Amotu Tower" on 118.500
-    * **Limits**: There are three layers to NFTF_APP's area of responsibility:
-        * A circle 23nm in diameter, centered on TBU VOR from SFC to 3,500ft.
-        * A circle 75nm in diameter, centered on TBU VOR from 3,500ft to 9,500ft.
-        * A circle 100nm in diameter, centered on TBH VOR from 9,500ft to 19,500ft.
-    * Fua'Amotu would hand aircraft off to NZZO_FSS upon crossing the boundary.
+| Name                    | Login     | Callsign         | Frequency |
+| ----------------------- | --------- | ---------------- | --------- |
+| Lifou Tower| 	NWWL_TWR| 	Lifou Tower| 	118.500| 
+| Magenta Tower| 	NWWM_TWR| 	Magenta Tower| 	118.300| 
+| Magenta ATIS| 	NWWM_ATIS	|  | 	126.600| 
+| Noumea Approach| 	NWWW_APP| 	Tontouta Approach| 	128.300| 
+| Noumea Centre| 	NWWW_CTR| 	Tontouta Centre	| 128.200| 
+| Noumea Tower| 	NWWW_TWR| 	Tontouta Tower| 	118.100| 
+| Noumea ATIS| 	NWWW_ATIS	|  | 	126.200| 
 
-!!! info "Why is their callsign Tower, not Approach?"
-    We've had to implement this position with a `_APP` suffix, as the FSD restricts `_TWR` callsigns to a visibility range of 50nm. 
+## Papua New Guinea
 
-### Towers
+| Name                    | Login     | Callsign         | Frequency |
+| ----------------------- | --------- | ---------------- | --------- |
+| Goroka Tower| 	AYGA_TWR| 	Goroka Tower	| 118.700| 
+| Goroka ATIS	| AYGA_ATIS	 | | 	134.000| 
+| Madang Tower| 	AYMD_TWR	| Madang Tower| 	118.100| 
+| Madang ATIS	| AYMD_ATIS	 | | 	127.800
+| Mt Hagen Tower| 	AYMH_TWR	| Hagen Tower	| 120.500| 
+| Mt Hagen ATIS	| AYMH_ATIS	 | | 	128.400
+| Nadzab (Lae) Approach	| AYNZ_APP| 	Nadzab Approach| 	118.600| 
+| Nadzab (Lae) Tower	| AYNZ_TWR| 	Nadzab Tower	| 121.700| 
+| Nadzab (Lae) ATIS| 	AYNZ_ATIS	| |  	128.600| 
+| Port Moresby Approach| 	AYPY_APP	| Jacksons Radar	| 125.800| 
+| Port Moresby Centre| 	AYPM_CTR| 	Moresby Control| 	123.400| 
+| Port Moresby SMC| 	AYPY_GND| 	Jacksons Ground	| 121.700| 
+| Port Moresby Tower| 	AYPY_TWR	| Jacksons Tower	| 118.100| 
+| Port Moresby ATIS|	AYPY_ATIS	| |  	128.000| 
+| Tokua (Rabul) Tower	| AYTK_TWR| 	Tokua Tower| 	118.200| 
+| Tokua (Rabul) ATIS	| AYTK_ATIS	 | | 	128.000| 
 
-None! NFTF_TWR is covered by NFTF_APP.
+## Vanuatu
 
-### AFIS
+| Name                    | Login     | Callsign         | Frequency |
+| ----------------------- | --------- | ---------------- | --------- |
+| Port Vila Centre	| NVVV_CTR	| Vila Centre| 	120.700| 
+| Port Vila Tower	| NVVV_TWR	| Vila Tower	| 118.300| 
+| Port Villa ATIS	| NVVV_ATIS	 	| | 126.400| 
 
-* **NFTL_FIS**: "Lifuka Radio" on 118.100.
-* **NFTV_FIS**: "Vava'u Flight Service" on 118.100
-    * This aerodrome weirdly has a Ground service on 121.900, but only an AFIS over top.
 
-## Niue Positions (NI**)
+Port Vila Class D CTA exists:  
+- From 9500 FT (top of TMA) to FL245 (base of Nadi Class A OCA) within the lateral extent of the Port Vila Sector.  
+- Within a 20 NM-radius circle centred on the Port Vila/Bauerfield ARP from surface to 3500 FT (base of TMA).  
+- Within a 50 NM-radius circle centred on the Port Vila/Bauerfield ARP from 3500 FT (top of CTR) to 9500 FT (base of CTA).  
 
-Niue only has a Flight Information Service, providing only traffic information. This will be modelled as **NIUE_TWR**, with a standard Tower visibility range of 50nm. The Tower is to provide a traffic information service, in addition to relaying IFR clearances from NZZO_FSS.
+During Port Vila hours of watch, Port Vila Tower provides ATS for the entire Port Vila Sector. 
 
-**Departing** 
-
-Departing aircraft should make contact with NZZO_FSS upon passing 20DME from `NU`. If unable to gain contact, they are to remain with NIUE_TWR until they have positive contact.
- 
-**Arriving** 
-
-Arriving aircraft will be given clearance to leave Controlled Airspace on descent through FL245, however should maintain a listening watch on NZZO_FSS. Aircraft should attempt to make contact with NIUE_TWR around 40 DME, and shall report that positive contact to NZZO_FSS before dropping that frequency. NIUE_TWR will report your landing back to NZZO_FSS in order to close your flightplan.
-
-## Samoa Positions (NS**)
-
-This section covers both Western Samoa and American Samoa.
-
-### Enroute
-
-There are no real-world Enroute Sectors operating above Samoa, however due to Samoa's complex Approach sectors and large TMAs, we merge them into a single Faleolo Control Sector.
-
-<center>
-  ![NSFA Enroute](assets/nsfa-control.png){ width="450" }
-</center>
-
-* **NSFA_CTR**: "Faleolo Control" on 126.900. 
-    * **Limits**: Vertical limits differ. Includes the main sector to the West, and the 'R' sector over Pago Pago.
-        * The West Sector is from SFC to FL245. 
-        * The East Sector is from 3,500ft to FL245.
-    * The West Sector provides an Enroute Service for NSFA, and interfaces directly with NSFA.
-    * The East Sector provides a TMA service to NSTU, but **does not** provide a Tower service, as the lower limit is 3,500ft. 
+!!! note
+    Outside of hours of watch, Port Vila Class D CTR is reclassified Class G and Nadi Oceanic provides ATS for the entire Sector.  
 
 ### Tower
 
-* **NSFA_TWR** "Faleolo Tower" on 118.100
-    * **Limits**: SFC to 7,500ft. Lateral bounds as shown above.
-    * Provides a Procedural Approach service for NSFA. Also provides a control service for NSMA to the west.
+Circuits are conducted south of the aerodrome.  
 
-### NSTU
+Clear IFR departures via visual departure by day and in VMC. Otherwise, clear IFR departures via SID.
+Obtain departure report from IFR departures to use for separation purposes.
 
-NSTU (Pago Pago) is an interesting aerodrome. It is normally uncontrolled, with a combined App/Dep above it, starting at 3,500ft. On the network, this service is to be provided by NSFA_CTR. 
-
-A tower position will be established on the network for NSTU, as an Event Only position on 122.900. While not incredibly accurate, it will be helpful when an event in underway in the area. The NSTU Clearance position will not be modelled.
-
-## Cook Islands (NC**)
-
-Cook Islands airspace covers a substantial area, which unfortunately cannot be modelled with complete accuracy on the network. Because of this, a solution similar to Samoa would fit nicely.
-
-<figure markdown> 
-  ![Rarotonga Enroute](assets/raro-control.png){ align=right width="450" }
-  <figcaption>Right Click and open in a new tab to see full detail.</figcaption>
-</figure>
+Clear IFR arrivals via visual approach by day and in VMC. Otherwise, clear IFR arrivals via instrument approach.
+!!! note 
+    Straight-in instrument approaches to Runway 11 are offset due to terrain.
 
 ### Enroute
 
-* **NCRG_CTR** "Rarotonga Control" on 118.900
-    * **Limits**: 5,500ft to FL245, with the lateral bounds indicated as above. Roughly 340nm by 260nm.
-    * Provides an Enroute radar service within its' lateral bounds.
-    * Additionally acts as the Enroute interface between NCRG_APP and either NTTT or NZZO FSS.
-    * Provides a top-down service to NCRG when NCRG_APP is offline.
+Due to airspace and aerodrome limitations, you will need to hold aircraft at the initial approach fix until the preceding arrival has landed or separation is achieved with respect to the preceding depature.
 
-### TMA
+### Coordination
 
-* **NCRG_APP** "Rarotonga Tower" on 118.100
-    * **Limits**: There are three layers to NCRG_APP's area of responsibility:
-        * A circle of 30nm diameter centered on RG VOR from SFC to 5,500ft.
-        * A circle of 50nm diameter centered on RG VOR from 5,500ft to 9,500ft.
-        * A circle of 70nm diameter centered on RG VOR from 9,500ft to 14,500ft.
-    *  Provides a combined Approach/Tower service for NCRG.
+**All routes require Coordination Routes**
 
-!!! info "Wait, another Approach station with a Tower callsign?"
-    Similar to `NFTF_APP` above, we've had to implement this position with a `_APP` suffix, as the FSD restricts `_TWR` callsigns to a visibility range of 50nm. 
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
+### Standard Assignable Level
 
-### NCRG
-At the moment Rarotonga has a Ground station defined, using a frequency of 121.9, which is Tower's secondary frequency. There's no reason for having a ground station for any reason **other** than to provide Pre-Departure and Start Clearances. Ground will be removed, and replaced with an Event Only delivery frequency.
+Climbing to Nadi Oceanic: `FL240`  
+Descending to Port Vila Tower: `FL250`  

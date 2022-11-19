@@ -28,6 +28,11 @@ When **CFS TWR** is offline, CFS CTR (Class D SFC-A045) reverts to Class G, and 
 
 Whilst the **RKA** controller is expected to provide a [top-down service](../../../aerodromes/Rockhampton) to YBRK when **RK TWR** is offline, this is not expected of a GOL controller when both **RKA** and **RK TWR** are offline. If electing not to provide a top-down service to YBRK, the RK CTR Class D is reclassified to Class G SFC-A007, and Class E A007-A045.
 
+<figure markdown>
+![Inverell Airspace](../assets/INLENR.png){ width="700" }
+  <figcaption>Inverell Airspace</figcaption>
+</figure>
+
 ## Sector Responsibilities
 ### Inverell (INL) / Downs (DOS) / Straddy (SDY) / Burnett (BUR)
 INL, DOS, SDY and BUR are responsible for initial sequencing, issuing STAR Clearances, and issuing initial descent for aircraft bound for YBBN and YBCG.

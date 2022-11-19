@@ -23,6 +23,12 @@ b) The airspace within the lateral limits of the CB TCU above FL245, except for 
 
 !!! note
     Bindook does not assume the CB TCU in the absence of a CB TCU controller. Assumption of the CB TCU is the responsibility of Benalla (BLA). Controllers may choose to verbally coordinate the release of the CB TCU to either sector/subsector.
+
+<figure markdown>
+![Bindook Airspace](../assets/BIKENR.png){ width="700" }
+  <figcaption>Bindook Airspace</figcaption>
+</figure>
+
 ## Sector Responsibilities
 ### Bindook (BIK)
 BIK will provide final sequencing actions and descent into YSSY.  The BIK sector is also responsible for issuing runway assignment to aircraft cleared via the ODALE STAR.  Subsectors of BIK and YWE will issue STAR clearance to these aircraft with no runway assignment, allowing the BIK sector to perform final sequencing actions for YSSY and assign the runway on first contact.

@@ -9,6 +9,11 @@
 | ---- | -------- | --------- | -------- |
 | **Huon** | Melbourne Centre | 122.600 | ML-HUO_CTR |
 
+<figure markdown>
+![Huon Airspace](../assets/HUOENR.png){ width="700" }
+  <figcaption>Huon Airspace</figcaption>
+</figure>
+
 ## Responsibilities
 HUO is responsible for the [TAS TCU](../../../terminal/tassie) when **HBA** and **LTA** are offline.  
 

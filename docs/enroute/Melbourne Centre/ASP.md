@@ -22,6 +22,13 @@
 ASP is responsible for **ASP**, **ASW**, **WAR**, **FOR**, **WRA**, **BKE**, and **ESP** when they are offline.  
 
 When **AS TWR** is offline, AS CTR (Class D and C SFC-F125) within 80 DME AS reverts to Class G, and AS CTR (Class C F125-F245) within 80 DME AS reverts to Class E, and both are administered by ASP. Alternatively, ASP may provide a [top-down procedural service](../../../aerodromes/Alice) if they wish.
+=======
+When **AS TWR** is offline, AS CTR (Class D and C SFC-F125) within 80 DME AS reverts to Class G, and AS CTR (Class C F125-F245) within 80 DME AS reverts to Class E, and both are administered by ASP. Alternatively, ASP may provide a top-down procedural service if they wish.
+
+<figure markdown>
+![Alice Springs Airspace](../assets/ASPENR.png){ width="700" }
+  <figcaption>Alice Springs Airspace</figcaption>
+</figure>
 
 ## Extending
 As per [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), ML-ASP_CTR is only permitted to extend to adjacent **YMMM** sectors.
