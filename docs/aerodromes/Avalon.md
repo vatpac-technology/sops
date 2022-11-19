@@ -37,7 +37,7 @@ IFR arrivals from the following fixes may be cleared via STAR as indicated:
 !!! Note
     All jet aircraft shall be cleared via TEMPL, DCT AV or the RNAV IAF.
     
-Unless otherwise coordinated and subject to Class E traffic requirements, aircraft shall be transferred to AV TWR no later than:
+Unless otherwise coordinated and subject to Class E traffic requirements, aircraft shall be transferred to AV ADC no later than:
 
 | Procedure | Transfer point |
 | ------ | ----------|
@@ -47,13 +47,13 @@ Unless otherwise coordinated and subject to Class E traffic requirements, aircra
 
 ## Sequencing
 
-AV TWR is responsible for sequencing any aircraft operating in airspace released to the tower, with respect to aircraft arriving from ML TCU. 
+AV ADC is responsible for sequencing any aircraft operating in airspace released to the tower, with respect to aircraft arriving from ML TCU. 
 
 ## Separation
 
-Within 5 NM of AV, AV TWR must provide separation between:
-    a) Departures from all runways and HLS at Avalon; and
-    b) All traffic operating in airspace released to AV TWR.
+Within 5 NM of AV, AV ADC must provide separation between:  
+    a) Departures from all runways and HLS at Avalon; and  
+    b) All traffic operating in airspace released to AV TWR.  
 
 ## VFR Operations
 

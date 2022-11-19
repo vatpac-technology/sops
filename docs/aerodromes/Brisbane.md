@@ -16,10 +16,7 @@
 | **Brisbane ACD**         | **Brisbane Delivery**| **118.850**          | **BN_DEL**                                   |
 | Brisbane ATIS        |                | 126.250          | YBBN_ATIS                                |
 
-† **Non-standard position** – may only be used in accordance with VATPAC Ratings and Controller Positions Policy (link)
-
-In the absence of an ACD controller, SMC shall asssume the ACD responsibilities.  
-In the absence of an SMC controller, ADC shall assume the SMC and ACD responsibilities.
+† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ### Maneuvering Area Responsibility
 
@@ -75,12 +72,12 @@ Aircraft shall be assigned the following runways for departure when PROPS are in
 Jet Aircraft planned via **BIXAD**, **GUMKI**, **SCOTT**, **SANEG**, or **WACKO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
 !!! example
-    Jet Aircraft planned via SCOTT, assigned runway 19L, shall be given the SCOTT# departure.
+    Jet Aircraft planned via SCOTT, assigned runway 19L, shall be given the SCOTT SID.
 
 Non-Jet aircraft, and aircraft that cannot accept a Procedural SID, shall be assigned the **Radar SID**.
 
 !!! example
-    Non-Jet Aircraft planned via WACKO, assigned runway 01L, shall be given the BRISBANE# departure.
+    Non-Jet Aircraft planned via WACKO, assigned runway 01L, shall be given the BN (RADAR) SID.
 
 ## ATIS
 #### Operational Info
@@ -108,10 +105,11 @@ Any aircraft / runway configuration that doesn't meet the above criteria, requir
 !!! example
     **BN ADC** -> **BN TCU**: "Next, ABC"  
     **BN TCU** -> **BN ADC**: "ABC, Heading 160"  
-    **BN ADC** -> **BN TCU**: "Heading 160, ABC"  
-    **BN ADC** -> **ABC**: "ABC, Assigned heading Left 160, Runway 19L, Cleared for Takeoff"  
-    **ABC** -> **BN ADC**: "Left heading 160, Runway 19L, Cleared for Takeoff, ABC"  
-    `AIP GEN 3.4 6.16.6 3f`
+    **BN ADC** -> **BN TCU**: "Heading 160, ABC"   
+
+    **BN ADC**: "ABC, Assigned heading Left 160, Runway 19L, Cleared for Takeoff"  
+    **ABC**: "Left heading 160, Runway 19L, Cleared for Takeoff, ABC"  
+    `AIP GEN 3.4`
 
 
 ## Departures Controller
