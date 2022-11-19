@@ -8,7 +8,7 @@
 
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
-| **Perth ADC** | Perth Tower | 127.400 | | PH_TWR |
+| **Perth ADC** | Perth Tower | 127.400 | PH_TWR |
 | **Perth SMC West** | Perth Ground | 121.700 | PH_GND |
 | Perth SMC East† | Perth Ground | 122.200 | PH-E_GND |
 | **Perth ACD** | Perth Delivery | 118.550 | PH_DEL |
@@ -89,11 +89,11 @@ ALL OTHER DEP.`
 "Next" Coordination is a procedure where the PH TWR controller gives a heads-up to the PH TCU controller about an impending departure. The PH TCU controller will respond by assigning a heading to the aircraft, for the PH TWR controller to pass on with their takeoff clearance.
 
 !!! example
-    PH ADC -> PH TCU: "Next, ABC"  
-    PH TCU -> PH ADC: "ABC, Heading 010"  
-    PH ADC -> PH TCU: "Heading 010, ABC"  
-    PH ADC -> ABC: "ABC, Assigned heading left 010, Runway 03, Cleared for Takeoff"  
-    ABC -> PH ADC: "Left heading 010, Runway 010, Cleared for Takeoff, ABC"  
+    **PH ADC** -> **PH TCU**: "Next, ABC"  
+    **PH TCU** -> **PH ADC**: "ABC, Heading 010"  
+    **PH ADC** -> **PH TCU**: "Heading 010, ABC"  
+    **PH ADC** -> **ABC**: "ABC, Assigned heading left 010, Runway 03, Cleared for Takeoff"  
+    **ABC** -> **PH ADC**: "Left heading 010, Runway 010, Cleared for Takeoff, ABC"  
     `AIP GEN 3.4`
 
 "Next" Coordination to PH TCU is additionally required for:  
@@ -114,13 +114,13 @@ a) VFR Departures
 b) Aircraft using a runway not on the ATIS
 
 !!! example
-    ABC -> PH ACD: "Perth Delivery, ABC, Requesting a Victor 65 scenic."  
-    PH ACD -> ABC: "ABC, Perth Delivery, Standby"  
-    PH ACD -> PH TCU: "ABC, Requesting clearance for a victor 65 scenic"  
-    PH TCU -> PH ACD: "ABC, Cleared for a victor 65 scenic"  
-    PH ACD -> PH TCU: "Cleared for a victor 65 scenic ABC"  
-    PH ACD -> ABC: "ABC, Cleared for a victor 65 scenic"  
-    ABC -> PH ACD: "Cleared for a victor 65 scenic, ABC"  
+    **ABC** -> **PH ACD**: "Perth Delivery, ABC, Requesting a Victor 65 scenic."  
+    **PH ACD** -> **ABC**: "ABC, Perth Delivery, Standby"  
+    **PH ACD** -> **PH TCU**: "ABC, Requesting clearance for a victor 65 scenic"  
+    **PH TCU** -> **PH ACD**: "ABC, Cleared for a victor 65 scenic"  
+    **PH ACD** -> **PH TCU**: "Cleared for a victor 65 scenic ABC"  
+    **PH ACD** -> **ABC**: "ABC, Cleared for a victor 65 scenic"  
+    **ABC** -> **PH ACD**: "Cleared for a victor 65 scenic, ABC"  
 
 ## Standard Assignable Levels
 
