@@ -74,7 +74,7 @@ IFR aircraft shall be processed via one of the following SIDs:
 
 a) RWY 15, Jets via SWIFT: SWIFT SID. Non-Jets via NONUM: NONUM SID  
 b) RWY 33, All Jets: EAZEE SID, Radar Transition  
-c) All others: CS RADAR SID  
+c) All others: CS (RADAR) SID  
 
 !!! Note
     Non-jet aircraft may be issued a Visual Departure.

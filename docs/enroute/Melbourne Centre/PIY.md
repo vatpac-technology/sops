@@ -62,4 +62,4 @@ As per the enroute coordination requirements, voiceless coordination exists betw
 Refer to [Perth TCU Airspace Division](../../perth/#airspace-division) for information on airspace divisions when **PHD** is online.
 ## LEA / IND (Oceanic)
 
-As per [Standard coordination procedures](https://sops.vatpac.org/oceanic/Coordination/){target=new}
+As per [Standard coordination procedures](../../controller-skills/coordination.md/#enr---oceanic){target=new}
