@@ -125,3 +125,5 @@
 | Final checks that all coord parameters match up - ISA/TRT area | - | Not Started |
 | Final checks that all coord parameters match up - INL/KEN area | - | Not Started |
 | Final checks for formatting consistency | - | Not Started |
+| Add links for top-down extensions | Alex D | In Progress |
+| Add coord info for overfliers of Class D airports | Alex D | Not Started |

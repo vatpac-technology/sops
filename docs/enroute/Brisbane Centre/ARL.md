@@ -20,6 +20,10 @@
 
 ARL is responsible for **MDE**, **CNK**, **MNN**, **MLD**, and **OCN** when they are offline.  
 
+
+When **TW TWR** is offline, TW CTR (Class D and C SFC-A085) reverts to Class G, and is administered by ARL and MDE. Alternatively, ARL (not MDE) may provide a [top-down procedural service](../../../aerodromes/tamworth) if they wish (not recommended).  
+When **CFS TWR** is offline, CFS CTR (Class D SFC-A045) reverts to Class G, and is administered by MNN and INL. MNN is **not permitted** to provide a [top-down procedural service](../../../aerodromes/Coffs), only INL can do this, and they must coordinate with MNN if they are doing so.
+=======
 When **TW TWR** is offline, TW CTR (Class D and C SFC-A085) reverts to Class G, and is administered by ARL and MDE. Alternatively, ARL (not MDE) may provide a top-down procedural service if they wish (not recommended).  
 When **CFS TWR** is offline, CFS CTR (Class D SFC-A045) reverts to Class G, and is administered by MNN and INL. MNN is **not permitted** to provide a top-down procedural service, only INL can do this, and they must coordinate with MNN if they are doing so.
 
@@ -40,15 +44,15 @@ OCN responsible for sequencing, issuing STAR Clearances, and issuing descent for
 ## Coordination
 ### ARL (All) / SY TCU
 
-The Standard assignable level from ARL(All) to SY TCU is:  
+The Standard Assignable level from ARL(All) to SY TCU is:  
 `A100` for aircraft tracking via BOREE or MARLN, and assigned the relevant STAR  
 `A090` for aircraft tracking via MEPIL, and assigned the MEPIL # STAR  
 
 All other aircraft must be voice coordinated to SY TCU prior to **20nm** from the boundary.
 
-The Standard Assignable level from SY TCU to ARL(All) is the lower of `F280` or the `RFL`, and tracking 
+The Standard Assignable level from SY TCU to ARL(All) is the lower of `F280` or the `RFL`, and tracking via a SID terminus.
 
-Refer to [Sydney TCU Airspace Division](../../sydney/operations/#airspace-division) for information on airspace divisions when **SAS**, **SDN** and/or **SDS** are online.
+Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN** and/or **SDS** are online.
 
 ### ARL (All) / ENR
 
@@ -142,6 +146,5 @@ All aircraft transiting from CNK/MND/MNN to **WLM APP** must be heads-up coordin
     **MNN** -> **WLM APP**: "via SANAD, JST458, DCT BLAFF, will be assigned F130"  
     **WLM APP** -> **MNN**: "JST458, F130"  
 
-### OCN/MNN / TSN (Oceanic)
-
+### OCN/MNN / TSN/HWE (Oceanic)
 As per [Standard coordination procedures](../../controller-skills/coordination/#enr-oceanic), Voice coordinate estimate and level prior to **15 mins** to boundary.

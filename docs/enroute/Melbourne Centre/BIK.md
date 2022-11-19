@@ -14,13 +14,12 @@
 † **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf)
 ## Airspace
 
-BIK is responsible for the SY TCU when **SY APP** is offline.  
+BIK is responsible for the [SY TCU](../../../terminal/sydney) when **SY APP** is offline.  
 BIK is responsible for **WOL** and **GUN** when they are offline.
 
 Bindook also assumes responsiblity of:  
 a) The airspace within 45nm of SY DME above FL280  
 b) The airspace within the lateral limits of the CB TCU above FL245, except for the region south west which is assumed by Benalla (BLA)
-// required if we just provide vatsys map?
 
 !!! note
     Bindook does not assume the CB TCU in the absence of a CB TCU controller. Assumption of the CB TCU is the responsibility of Benalla (BLA). Controllers may choose to verbally coordinate the release of the CB TCU to either sector/subsector.
@@ -29,7 +28,6 @@ b) The airspace within the lateral limits of the CB TCU above FL245, except for 
 ![Bindook Airspace](../assets/BIKENR.png){ width="700" }
   <figcaption>Bindook Airspace</figcaption>
 </figure>
-
 
 ## Sector Responsibilities
 ### Bindook (BIK)
@@ -74,7 +72,7 @@ All other aircraft must be voice coordinated to SY TCU prior to **20nm** from th
 
 The Standard Assignable level from SY TCU to WOL is the lower of `F280` or the `RFL`, and tracking via WOL NDB.
 
-Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN** and/or **SDS** are online.
+Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN** and/or **SDS** are online.
 
 ### WOL/GUN / CB TCU
 
@@ -89,13 +87,13 @@ The Standard Assignable level from CB TCU to GUN is the lower of `F240` or the `
 
 ### BIK (All) / ENR
 
-As per [Standard coordination procedures](../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 That being said, it is *advised* that BIK give **Heads-up Coordination** to the relevant sector, prior to **20nm** from the boundary, for **any aircraft not on the Q29 or V169 airways**. 
 
 ### WOL / TSN (Oceanic)
 
-As per [Standard coordination procedures](../../controller-skills/coordination/#enr-oceanic), Voice coordinate estimate and level prior to **15 mins** to boundary
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Voice coordinate estimate and level prior to **15 mins** to boundary
 
 ### BIK/WOL/GUN Internal
 
