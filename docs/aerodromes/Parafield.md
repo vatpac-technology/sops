@@ -8,19 +8,18 @@
 
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Parafield ADC**  | **Parafield Tower**  | **118.700**          | **PF_TWR**                        |
-| **Parafield SMC**   | **Parafield Ground**   | **119.900**          | **PF_GND**                       |
+| Parafield ADC  | Parafield Tower  | 118.700          | PF_TWR                        |
+| Parafield SMC   | Parafield Ground  | 119.900          | PF_GND                       |
 | Parafield ATIS        |                | 120.900          | YPPF_ATIS                                |
 
- 
-In the absence of an SMC controller, ADC shall assume the SMC responsibilities.
+
 <figure markdown>
 ![YPPF Maneuvering Area](img/yppf_maneuvring_area.png){ width="500" }
   <figcaption>Maneuvering Area</figcaption>
 </figure>
 
 ## Airspace
-Tower airspace is defined as between SFC to 1500 FT.
+Tower airspace is defined as between `SFC` to `A015`.
 
 <figure markdown>
 ![Parafield Tower Airspace](img/PFTWR.png){ width="700" }
@@ -28,7 +27,7 @@ Tower airspace is defined as between SFC to 1500 FT.
 </figure>
 
 ## Circuits
-The circuit direction changes depending on time of day and runway being used.
+Circuits to be flown at `A010`
 
 | Runway | Day  | Night |
 | -------| -----| ------|
@@ -40,9 +39,6 @@ The circuit direction changes depending on time of day and runway being used.
 | 08R  | Right  | -     |
 | 26L  | Left   | -     |
 | 26R  | Right  | -     |
-
-Circuits to be flown at A010
-
 ## VFR Inbound Procedures
 
 | VFR Approach Point | RWYs 03 | RWYs 21 | RWYs 08 | RWYs 26 |
@@ -70,7 +66,7 @@ ATIS broadcast **BY NIGHT** shall follow the format:
 ### Approach Expectation
 
 The APCH field should include `EXP INST APCH` when:   
-  - the ceiling is at or below A020; or  
+  - the ceiling is at or below `A020`; or  
   - visibility is less than 5000m  
 
 ## Coordination
@@ -82,14 +78,14 @@ Whilst the aircraft is taxiing, **PF SMC** will perform TAXI coordination with A
 !!! example
     **PF SMC** -> **AD TCU**: "Taxi's, XMM, Bankstown, 03L”  
     **AD TCU** -> **PF SMC**: “XMM, cleared to Bankstown via BENDO flight planned route, Parafield 1 Departure, climb via SID A030, squawk 1427”  
-    **PF SMC** -> **AD TCU**: “Cleared to Bankstown via BENDO flight planned route, Parafield 1 Departure, climb via SID A030, squawk 1427, XMM” 
+    **PF SMC** -> **AD TCU**: “Cleared to Bankstown via BENDO flight planned route, Parafield 1 Departure, climb via SID A030, squawk 1427, XMM”  
 
 #### Next Call
 When aircraft planned via a CTA departure are ready for takeoff and expected to depart imminently, **PF ADC** shall seek release of the aircraft through a 'Next' call.
 
 !!! example
     **PF ADC** -> **AD TCU**: "Next, XMM, 03L"  
-    **AD TCU** -> **PF ADC**: "XMM, Heading 020, unrestricted"
+    **AD TCU** -> **PF ADC**: "XMM, Heading 020, unrestricted"  
     **PF ADC** -> **AD TCU**: "Heading 020, unrestricted, XMM" 
 
 ### AD TCU / PF TWR
@@ -111,5 +107,5 @@ Parafield Tower will not alter an aircrafts tracking until the aircraft is withi
 #### IAP Tracking
 Reserved.
 
-### Standard Assignable Departure Levels
+### Standard Assignable Levels
 All IFR Aircraft: `A030`

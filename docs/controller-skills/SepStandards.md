@@ -12,16 +12,16 @@ title: Separation Standards
 
 | Altitude/Flight Level | Separation standard |
 | --------------------- | ------------------- |
-| SFC - FL290 | 1000FT |
-| FL290 - FL410 | RVSM: 1000FT, NON-RVSM: 2000FT |
-| FL410 - FL600 | 2000FT |
-| Supersonic Aircraft | 3000FT |
+| `SFC` - `F290` | `A010` |
+| `F290` - `F410` | RVSM: `A010`, NON-RVSM: `A020` |
+| `F410` - `F600` | `A020` |
+| Supersonic Aircraft | `A030` |
 
 ### TCU
 
 **Lateral** - 3NM
 
-**Vertical** - 1000FT
+**Vertical** - `A010`
 
 ### Tower/Ground
 
