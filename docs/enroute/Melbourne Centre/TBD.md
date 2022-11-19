@@ -17,6 +17,11 @@
 TBD is responsible for the [AD TCU](../../../terminal/adelaide) when **AD APP** is offline.  
 TBD is responsible for **AUG** when they are offline.  
 
+<figure markdown>
+![Tailem Bend Airspace](../assets/TBDENR.png){ width="700" }
+  <figcaption>Tailem Bend Airspace</figcaption>
+</figure>
+
 ## Sector Responsibilities
 TBD and AUG are responsible for Sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YPAD.
 

@@ -83,3 +83,8 @@ The Standard Assignable level from KEN(SWY) to HM TWR is `A060`, any other level
 
 ### TBP/SWY / TSN(FLD) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Voice coordinate estimate and level prior to **15 mins** to boundary.
+=======
+<figure markdown>
+![Kennedy Airspace](../assets/KENENR.png){ width="700" }
+  <figcaption>Kennedy Airspace</figcaption>
+</figure>

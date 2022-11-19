@@ -20,6 +20,14 @@ ELW is responsible for **BLA** and **SNO** when they are offline.
 
 When **CB APP** is offline, CB TCU (Class C SFC-F245) reverts to Class G, and is administered by BLA. Alternatively, BLA may provide a [top-down approach service](../../../terminal/canberra) if they wish.  
 When **AY TWR** is offline, AY CTR (Class D and C SFC-A085) reverts to Class G, and is administered by BLA. Alternatively, BLA may provide a [top-down procedural service](../../../aerodromes/Albury) if they wish.
+=======
+When **CB APP** is offline, CB TCU (Class C SFC-F245) reverts to Class G, and is administered by BLA. Alternatively, BLA may provide a top-down approach service if they wish.  
+When **AY TWR** is offline, AY CTR (Class D and C SFC-A085) reverts to Class G, and is administered by BLA. Alternatively, BLA may provide a top-down procedural service if they wish.
+
+<figure markdown>
+![Eildon Weir Airspace](../assets/ELWENR.png){ width="700" }
+  <figcaption>Eildon Weir Airspace</figcaption>
+</figure>
 
 ## Sector Responsibilities
 ### Eildon Weir (ELW)
