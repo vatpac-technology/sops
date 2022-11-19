@@ -20,7 +20,10 @@
 
 YWE is responsible for **WON**, **MUN**, **OXL**, **GTH** and **KAT** when they are offline.  
 
-(vatsys map)
+<figure markdown>
+![Yarrowee Airspace](../assets/YWEENR.png){ width="700" }
+  <figcaption>Yarrowee Airspace</figcaption>
+</figure>
 
 ## Sector Responsibilities
 ### Yarrowee (YWE)

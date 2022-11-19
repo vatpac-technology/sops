@@ -28,7 +28,7 @@ Pingelly also assumes responsiblity of:
 a) The airspace within 36nm of PH DME above `F185`  
 
 <figure markdown>
-![Pingelly Airspace](img/PIY.png){ width="700" }
+![Pingelly Airspace](../assets/PIYENR.png){ width="700" }
   <figcaption>Pingelly Airspace</figcaption>
 </figure>
 
