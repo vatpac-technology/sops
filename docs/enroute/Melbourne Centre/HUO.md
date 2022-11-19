@@ -9,6 +9,11 @@
 | ---- | -------- | --------- | -------- |
 | **Huon** | Melbourne Centre | 122.600 | ML-HUO_CTR |
 
+<figure markdown>
+![Huon Airspace](../assets/HUOENR.png){ width="700" }
+  <figcaption>Huon Airspace</figcaption>
+</figure>
+
 ## Responsibilities
 HUO is responsible for the TAS TCU when **HB APP** and **LT APP** are offline.  
 HUO is reponsible for issuing STAR clearances, initial descent, and sequencing for aircraft bound for YMLT and YMHB.
