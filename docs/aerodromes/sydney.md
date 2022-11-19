@@ -184,7 +184,7 @@ All other aircraft (non-jet aircraft, aircraft requiring a shallow climb gradien
     Non-Jet Aircraft planned via CORDO, assigned runway 16R, shall be given the SY (RADAR) SID.
 
 !!! tip
-    A radar SID (e.g. SY SID) is distinct from a procedural SID with a RADAR transition (eg, RIC SID, RADAR transition). A Radar SID can be identified in the [DAPs](https://www.airservicesaustralia.com/aip/aip.asp) as having a "(RADAR)" at the end of the name.
+    A radar SID (e.g. SY SID) is distinct from a procedural SID with a RADAR transition (eg, RIC SID, RADAR transition). A Radar SID can be identified in the [DAPs](https://www.airservicesaustralia.com/aip/current/dap/AeroProcChartsTOC.htm) as having a "(RADAR)" at the end of the name.
 ## ATIS
 #### Approach Types
 
