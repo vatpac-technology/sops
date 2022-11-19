@@ -21,6 +21,9 @@ The TAS TCU has an upper limit of FL245 within the following area:
 ![TAS TCU](img/TASTCU.png){ width="700" }
 </figure>
 
+HBA is responsible for the provision of ADC and SMC responsibilities when **HB TWR** is offline.  
+LTA is responsible for the provision of ADC and SMC responsibilities when **LT TWR** is offline.
+
 ## Hobart
 All aircraft should be kept on SIDs and STARs. If due to operational requirements or routing, an aircraft is unable to accept the SID or STAR, Voice Coordination with HUO will be required.
 
@@ -49,66 +52,46 @@ The Standard assignable level from HUO to HBA/LTA is:
 All other aircraft must be voice coordinated to HBA/LTA.
 
 ### HB ADC / HBA
-#### Auto Release
+#### Departures
+HB ADC will give a "Next" call for:
 
-"Next" Coordination to HBA is required for all deps not assigned a SID.
+- VFR Departures  
+- Aircraft using a runway not on the ATIS
+- Aircraft not assigned a Procedural SID and the Standard Assignable level
 
-"Next" Coordination is a procedure where the **HB ADC** controller gives a heads-up to the HBA controller about an impending departure not on a SID. The HBA controller will respond by assigning a visual heading to the aircraft, for the **HB ADC** controller to pass on with their takeoff clearance.
+The Standard Assignable level from HB ADC to HBA is:  
+For Jets: `A080`  
+For Non-Jets: The lower of `A045` or the `RFL`.
 
-!!! example
-    **HB ADC** -> **HBA**: "Next, ABC"  
-    **HBA** -> **HB ADC**: "ABC, Heading 150 Visual"  
-    **HB ADC** -> **HBA**: "Heading 150 Visual, ABC"  
-    **HBA** -> **ABC**: "ABC, Assigned heading right 150 Visual, Runway 12, Cleared for Takeoff"  
-    **ABC** -> **HBA**: "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"  
-    `AIP GEN 3.4`
+#### Arrivals
+HBA will coordinate all YMHB arrivals to HB ADC prior to **5 mins** from the boundary. This coordination shall be as per [Standard Heads-up format](../../controller-skills/coordination/#heads-up), with the addition of:
 
-The HBA controller can suspend/resume Auto Release at any time, with the concurrence of **HB ADC**.
-
-!!! Note
-    "Next" Coordination to HBA is not required for aircraft assigned a **Procedural SID** and the Standard Assignable Level.
-
-The controller assuming responsibility of **HB ACD** shall give heads-up coordination to HBA controller prior to the issue of the following clearances:  
-a) VFR Departures  
-b) Aircraft using a runway not on the ATIS
-
-#### Arrival Coordination
-HBA will coordinate all **non-STAR** arrivals 5min from IAF or 5min from CTA boundary prior to handing over to tower in the following format:
-
-- Callsign
-- Inbound Radial/Procedure
-- Assigned Level
-- Sequence Number (if applicable)
+- Runway, if other than duty runway
+- Approach type, unless specifically nominated on the ATIS
+- IFR Circuit joining instructions, if not on Straight-in instrument approach
 
 !!! example
-    **HBA** -> **HB ADC**: "JST419, RNAV-Z 12 via HBZWG, 5000ft, number 1”  
-    **HB ADC** -> **HBA**: "JST419"
+    **HB TCU** -> **HB ADC**: "via BUSKA, QJE1789, for the ILS”  
+    **HB ADC** -> **HB TCU**: "QJE1789"
 
 ### LT ADC / LTA
+#### Departures
+LT ADC will give a "Next" call for:
 
-#### Taxi Call
-A taxi call shall be made between LT ADC and LTA as an aircraft is given taxi clearance. Center will respond by acknowledging the callsign and activating FDR.
+- VFR Departures  
+- Aircraft using a runway not on the ATIS
+- Aircraft not assigned a Procedural SID and the Standard Assignable level
 
-!!! example
-    **LT ADC** -> **LTA**: "Taxis QFA400 for YSSY via NOLAN"  
-    **LTA** -> **LT ADC**: "QFA400"  
+The Standard Assignable level from LT ADC to LTA is:  
+For Jets: `A080`  
+For Non-Jets: The lower of `A045` or the `RFL`.
+#### Arrivals
+LTA will coordinate all YMLT arrivals to LT ADC prior to **5 mins** from the boundary. This coordination shall be as per [Standard Heads-up format](../../controller-skills/coordination/#heads-up), with the addition of:
 
-#### Next Call
-A next call is made for all aircraft when they are next to depart and will be departing within two minutes. LTA will respond by either acknowledging the callsign or offering a higher level. Any higher level issued will be passed along in the takeoff clearance. If the controller is in a high workload environment, a next call may be omitted, in favour of taxi and departure coordination.
-
-!!! example
-    **LT ADC** -> **LTA**: "Next QFA400"  
-    **LTA** -> **LT ADC**: "QFA400, FL140"  
-    **LT ADC** -> **LTA**: "FL320, QFA400"  
-
-#### Arrival Coordination
-LTA will coordinate all arrivals into Launceston Prior to handing over to tower in the following format:
-
-- Callsign
-- Inbound Radial/Procedure
-- Assigned Level
-- Sequence Number (if applicable)
+- Runway, if other than duty runway
+- Approach type, unless specifically nominated on the ATIS
+- IFR Circuit joining instructions, if not on Straight-in instrument approach
 
 !!! example
-    **LTA** -> **LT ADC**: "JST416, RNAV-Z 14R via MLTNE, 5000ft, number 1”  
-    **LT ADC** -> **LTA**: "JST416"
+    **LT TCU** -> **LT ADC**: "via IRSOM, JST416, for the DGA, will join left downwind 32L”  
+    **LT ADC** -> **LT TCU**: "JST416"

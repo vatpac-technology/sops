@@ -43,6 +43,7 @@ A 'next' call is made for all aircraft when they are next to depart. HM TWR must
     **HM TWR** -> **SWY**: "Next, QFA797"  
     **SWY** -> **HM TWR**: "QFA797"  
 
+The Standard Assignable level from HM TWR to KEN(SWY) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
 ### Arrivals
 KEN(SWY) will coordinate the sequence to HM TWR.
 
@@ -50,9 +51,4 @@ KEN(SWY) will coordinate the sequence to HM TWR.
     **SWY** -> **HM TWR**: "New Sequence of 2. Via OPOSI for RNP U RWY 32, JST848, Number 1. Via SWIFT, UTY551, Number 2”  
     **HM TWR** -> **SWY**: "JST848, Number 1. UTY551, Number 2"  
 
-
-## Standard Assignable Levels
-
-Aircraft departing from Hamilton Island shall be assigned `A050` or `RFL` if lower.
-
-Aircraft arriving into Hamilton Island shall be assigned `A060` by KEN(SWY).
+The Standard Assignable level from KEN(SWY) to HM TWR is `A060`, any other level must be prior coordinated.
