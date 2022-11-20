@@ -13,9 +13,6 @@
 | Adelaide ACD         | Adelaide Delivery| 126.100          | AD_DEL                                   |
 | Adelaide ATIS        |                | 134.500         | YPAD_ATIS                                |
 
-In the absence of an ACD controller, SMC shall asssume the ACD responsibilities.  
-In the absence of an SMC controller, ADC shall assume the SMC and ACD responsibilities.
-
 ### Maneuvering Area Responsibility
 
 <figure markdown>
@@ -39,7 +36,7 @@ Between the hours of 1330-2030 UTC (1230-1930 UTC HDS), AD ADC may elect to simu
 Jet Aircraft planned via **PANKI**, **BENDO**, **GILES**, **HAWKY**, **ORBUN**. or **SEDAN**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
 !!! example
-    Jet Aircraft planned via PANKI, assigned runway 23, shall be given the PANKI# departure.
+    Jet Aircraft planned via PANKI, assigned runway 23, shall be given the PANKI SID.
 
 a) Non-Jet Aircraft; or  
 b) Aircraft using Runway 12/30; or  
@@ -47,7 +44,7 @@ c) Aircraft that cannot accept a Procedural SID
 Shall be assigned the **Radar SID**.
 
 !!! example
-    Non-Jet Aircraft planned via EEMUE, assigned runway 05, shall be given the ADELAIDE# departure.
+    Non-Jet Aircraft planned via EEMUE, assigned runway 05, shall be given the AD (RADAR) SID.
 
 ## Coordination
 ### AD ADC / AD TCU
@@ -64,8 +61,9 @@ Any aircraft that don't meet these criteria must be coordinated to AD TCU with a
     **AD ADC** -> **AD TCU**: "Next, ABC"  
     **AD TCU** -> **AD ADC**: "ABC, Track Extended Centreline"  
     **AD ADC** -> **AD TCU**: "Track Extended Centreline, ABC"  
-    **AD ADC** -> **ABC**: "ABC, Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff"  
-    **ABC** -> **AD ADC**: "Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff, ABC"  
+    
+    **AD ADC**: "ABC, Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff"  
+    **ABC**: "Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff, ABC"  
     `AIP GEN 3.4`
 
 ## Standard Assignable Levels

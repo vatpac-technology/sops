@@ -8,7 +8,7 @@
 
 | Name              | Callsign       | Frequency        | Login Identifier                         |
 | ----------------- | -------------- | ---------------- | ---------------------------------------- |
-| **Launceston ADC**    | **Launceston Tower**   | **118.700**     | **LT_TWR**                          |
+| Launceston ADC    | Launy Tower   | 118.700    | LT_TWR                         |
 | Launceston ATIS       |                | 134.750          | YMLT_ATIS                                |
 
 ### Maneuvering Area Responsibility
@@ -26,7 +26,7 @@
 ![Launceston Tower Class D Airspace](img/lttwr_profile.png){ width="700" }
 </figure>
 
-LT ADC is responsible for the LT CTR SFC-A015.
+LT ADC is responsible for the LT CTR `SFC` to `A015`.
 
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
@@ -38,14 +38,14 @@ Aircraft planned via **IRSOM**, **ONAGI**, **NUNPA**, **MOTRA**, **IRONS**, **MO
 
 ### Circuit Direction
 
-| Runway | Direction |
-| ------ | ----------|
-| 14L     | Left  |
-| 14R    | Right |
-| 32L     | Left  |
-| 32R     | Right |
-| 18     | Left  |
-| 36     | Left  |
+| Runway | Day | Night |
+| ------ | ------ | ----|
+| 14L     | Left  | - |
+| 14R    | Right | Right |
+| 32L     | Left  | Left |
+| 32R     | Right | - |
+| 18     | Left  | - |
+| 36     | Left  | - |
 
 ## Coordination
 ### Departures
@@ -56,9 +56,10 @@ Aircraft planned via **IRSOM**, **ONAGI**, **NUNPA**, **MOTRA**, **IRONS**, **MO
 !!! example
     **LT ADC** -> **LT TCU**: "Next, ABC"  
     **LT TCU** -> **LT ADC**: "ABC, Heading 150 Visual"  
-    **LT ADC** -> **LT TCU**: "Heading 150 Visual, ABC"  
-    **LT ADC** -> **ABC**: "ABC, Assigned heading right 150 Visual, Runway 14L, Cleared for Takeoff"  
-    **ABC** -> **LT ADC**: "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"  
+    **LT ADC** -> **LT TCU**: "Heading 150 Visual, ABC"   
+
+    **LT ADC**: "ABC, Assigned heading right 150 Visual, Runway 14L, Cleared for Takeoff"  
+    **ABC**: "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"  
     `AIP GEN 3.4`
 
 The LTA controller can suspend/resume Auto Release at any time, with the concurrence of **LT ADC**.
@@ -68,7 +69,7 @@ The LTA controller can suspend/resume Auto Release at any time, with the concurr
 
 The controller assuming responsibility of **LT ACD** shall give heads-up coordination to LTA controller prior to the issue of the following clearances:  
 a) VFR Departures  
-b) Aircraft using a runway not on the ATIS
+b) Aircraft using a runway not on the ATIS  
 
 The Standard Assignable level from LT ADC to LTA is:  
 For Jets: `A080`  

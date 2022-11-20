@@ -12,10 +12,8 @@
 | Moorabbin SMC   | Moorabbin Ground   | 134.250          | MB_GND                       |
 | Moorabbin ATIS        |                | 120.900          | YMMB_ATIS                               |
 
- 
-In the absence of an SMC controller, ADC shall assume the SMC responsibilities.
 ## Airspace
-MB TWR owns a 3nm radius around YMMB, SFC-A025.
+MB ADC owns a 3nm radius around YMMB, `SFC` to `A025`.
 
 <figure markdown>
 ![Moorabbin Tower Airspace](img/mbairspace.png){ width="1000" }
@@ -38,7 +36,20 @@ Runway 04/22 is not to be used as an active runway. Used for emergencies only
 | Academy (ACE)  | Join base 13L | Join oblique base 17L | Join base 31R | Join oblique downwind 35R |
 
 ## Circuits
-Circuits are to be flown in the direction coinciding with the Runway designator (Left/Right) at `A010`.
+Circuits are to be flown at `A010`.
+
+| Runway | Day | Night |
+| ------ | ------ | ----|
+| 04     | Right  | - |
+| 22    | Left | - |
+| 13L     | Left  | Left |
+| 13R     | Right | - |
+| 31L     | Left  | - |
+| 31R     | Right  | Right |
+| 17L     | Left  | Left |
+| 17R     | Right | - |
+| 35L     | Left  | - |
+| 35R     | Right  | Right |
 
 ## Coordination
 ### MB ADC / ML TCU
@@ -59,7 +70,7 @@ All IFR departures in to ML TCU airspace (Class C and G), require a "Next" call 
     **MB ADC** -> **ML TCU**: "A060, SGE"
 
 !!! note
-    ML TCU will not receive a taxi call on aircraft departing in to Class G airspace, including aircraft that have planned to leave and re-enter controlled airspace (for example, aircraft planned at or above A050 on the MB-AV track). In this instance, ML TCU is only required to readback the callsign at the "Next" call. ML TCU will then give airways clearance to the aircraft on first contact if required.
+    ML TCU will not receive a taxi call on aircraft departing in to Class G airspace, including aircraft that have planned to leave and re-enter controlled airspace (for example, aircraft planned at or above `A050` on the MB-AV track). In this instance, ML TCU is only required to readback the callsign at the "Next" call. ML TCU will then give airways clearance to the aircraft on first contact if required.
 #### Arrivals
 ML TCU will coordinate the sequence information to **MB ADC** prior to transfer of jurisdiction.
 

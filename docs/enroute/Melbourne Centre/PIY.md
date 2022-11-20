@@ -15,17 +15,10 @@
 | Grove† | Melbourne Centre | 133.800 | ML-GVE_CTR |
 | Geraldton† | Melbourne Centre | 134.200 | ML-GEL_CTR |
 
-† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf)
-
-Pingelly (PIY) is responsible for the Perth TCU in the absence of an approach controller.
-
+† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 ## Airspace
 
-PIY is responsible for the PH TCU when **PH APP** is offline.  
-PIY is responsible for **GEL**, **CRS**, **GVE**, **HYD**, **JAR** and **LEA** when they are offline.
-
-Pingelly also assumes responsiblity of:  
-a) The airspace within 36nm of PH DME above `F185`  
+Pingelly assumes responsiblity of the airspace within 36nm of PH DME above `F245`  
 
 <figure markdown>
 ![Pingelly Airspace](../assets/PIYENR.png){ width="700" }
@@ -34,11 +27,12 @@ a) The airspace within 36nm of PH DME above `F185`
 
 ## Sector Responsibilities
 ### Pingelly
-Pingelly (PIY) will provide final sequencing actions to ensure aircraft comply with their FF times prior to entering the Perth TMA. Pingelly (PIY) shall assign the standard assignable altitude in accordance with the table above. 
-For aircraft overflying the PH TMA place 'O/FLY' in the LABEL DATA field.
+Pingelly (PIY) will provide final sequencing actions to ensure aircraft comply with their FF times prior to entering the Perth TCU. Pingelly (PIY) shall assign the standard assignable altitude in accordance with the table above. 
+For aircraft overflying the PH TCU place 'O/FLY' in the LABEL DATA field.
 
 ### Leeman
-Leeman (LEA) is responsible for assigning and issueing arrival clearance to aircraft inbound to Perth via WAVES. Leeman (LEA) is also responsible for transiting aircraft outbound from Perth into the Melbourne Oceanic Control Area. Coordination between this non-radar position (ML-IND_FSS) must be completed in accordance with the Coordination procedures.
+Leeman (LEA) is responsible for assigning and issueing arrival clearance to aircraft inbound to Perth via WAVES. Leeman (LEA) is also responsible for transiting aircraft outbound from Perth into the Melbourne Oceanic Control Area. Coordination between this non-radar position (ML-IND_FSS) must be completed in accordance with the Coordination procedures.  
+
 !!! note
     Controllers should be aware that VHF coverage near the LEA/IND border may be limited. Controllers should strive to issue HF frequencies and transfer of communications instruction prior to 160 NM PH DME.
 ### Grove
@@ -49,15 +43,16 @@ Hyden (HYD) is responsible for assigning and issueing arrival clearance to aircr
 
 ### Jarrah
 Jarrah (JAR) is responsible for assigning and issueing arrival clearance to aircraft inbound to Perth via SOLUS.
+
 !!! note
-    Controllers should be aware there may be limited ADS-B coverage around Albany (YABA). Expect identification to be lost as aircraft descend through A100.
+    Controllers should be aware there may be limited ADS-B coverage around Albany (YABA). Expect identification to be lost as aircraft descend through `A100`.
 
 
 ## Coordination
 ## ENR / PH TCU
 ### Standard Assignable Levels
 The Standard assignable level from ENR to PH TCU is:  
-`A090` for all arrivals.
+`A090` for all arrivals on a STAR.
 
 All other aircraft must be voice coordinated to PH TCU prior to **20nm** from the boundary.
 ## PIY (ALL) / ENR
@@ -67,4 +62,4 @@ As per the enroute coordination requirements, voiceless coordination exists betw
 Refer to [Perth TCU Airspace Division](../../perth/#airspace-division) for information on airspace divisions when **PHD** is online.
 ## LEA / IND (Oceanic)
 
-As per Standard coordination procedures [here](https://sops.vatpac.org/oceanic/Coordination/){target=new}
+As per [Standard coordination procedures](../../controller-skills/coordination.md/#enr---oceanic){target=new}

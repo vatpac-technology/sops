@@ -11,31 +11,28 @@
 | **Canberra Approach East**    |**CBE**| **Canberra Approach**   | **124.500**         | **CB_APP**     |
 | Canberra Approach West†   |CBW| Canberra Approach   | 125.900          | CB-W_APP    |
 
-† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}
+† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
-Canberra TCU owns the airspace within a 30 nm radius of CB DME, except for the CB CTR and the “clipped” portion in the North, South-Eastern, and North-Western arc, and from SFC – F245.  
+Canberra TCU owns the airspace within a 30 nm radius of CB DME, except for the CB CTR and the “clipped” portion in the North, South-Eastern, and North-Western arc, and from `SFC` to `F245`.  
    
-When both CB TCU positions are opened, CB TMA is split east and west along the Runway 17/35 extended centreline. CBE owns the airspace to the east of the line, and CBW owns the airspace to the west of the line.
+When both CB TCU positions are opened, CB TCU is split east and west along the Runway 17/35 extended centreline. CBE owns the airspace to the east of the line, and CBW owns the airspace to the west of the line.
 
 <figure markdown>
 ![CBTCUStructure](img/CBTCU.png){ width="700" }
   <figcaption>CB TCU Structure</figcaption>
 </figure>
 
-CB TCU is responsible for the provision of ADC, SMC and ACD responsibilities when **CB TWR** is offline.
-
 ### Airspace Structural Arrangements
 
 Pursuant to Section 3 of the [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}, the following rules apply, in the order presented, to these controller positions:  
-a) The **“East”** position shall assume the airspace of corresponding **”West”** position when the latter are inactive (e.g. **CBE** assumes **CBW** airspace), and vice versa;  
 
 ## Coordination
 ### CB TCU / ENR
 #### Departures
 Voiceless coordination is in place from CB TCU to ENR for aircraft:  
-Planned at or above F240: `Assigned F240`  
-Planned below F240: `Assigned the RFL`  
+Planned at or above `F240`: `Assigned F240`  
+Planned below `F240`: `Assigned the RFL`  
 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
@@ -44,7 +41,7 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
     **BIK** -> **CB TCU**: "EVY113, concur F180"  
 
 #### Arrivals
-The Standard assignable level from ENR to CB TCU is `F120`. All other levels must be prior coordinated
+The Standard assignable level from ENR to CB TCU is `F130`. All other levels must be prior coordinated
 
 ### CB TCU / CB ADC
 #### Auto Release
@@ -62,8 +59,9 @@ Any aircraft that don't meet these criteria must be coordinated to CB TCU with a
     **CB ADC** -> **CB TCU**: "Next, ABC"  
     **CB TCU** -> **CB ADC**: "ABC, Track Extended Centreline"  
     **CB ADC** -> **CB TCU**: "Track Extended Centreline, ABC"  
-    **CB ADC** -> **ABC**: "ABC, Track Extended Centreline 350 degrees, Runway 35, Cleared for Takeoff"  
-    **ABC** -> **AD ADC**: "Track Extended Centreline 350 degrees, Runway 35, Cleared for Takeoff, ABC"  
+
+    **CB ADC**: "ABC, Track Extended Centreline 350 degrees, Runway 35, Cleared for Takeoff"  
+    **ABC**: "Track Extended Centreline 350 degrees, Runway 35, Cleared for Takeoff, ABC"  
     `AIP GEN 3.4`
 
 ### CB TCU Internal

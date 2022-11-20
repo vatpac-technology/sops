@@ -12,17 +12,14 @@
 | Launceston Approach  | LTA | Launy Approach   | 123.800        | LT_APP                 |
 
 !!! Note
-    Hobart Approach may extend to Launceston Approach and vice versa, callsigns remain the same.
+    Hobart Approach **must** extend to Launceston Approach and vice versa, callsigns remain the same.
 
 ## Airspace
-The TAS TCU has an upper limit of FL245 within the following area:
+The TAS TCU has an upper limit of `F245` within the following area:
 
 <figure markdown>
 ![TAS TCU](img/TASTCU.png){ width="700" }
 </figure>
-
-HBA is responsible for the provision of ADC and SMC responsibilities when **HB TWR** is offline.  
-LTA is responsible for the provision of ADC and SMC responsibilities when **LT TWR** is offline.
 
 ## Hobart
 All aircraft should be kept on SIDs and STARs. If due to operational requirements or routing, an aircraft is unable to accept the SID or STAR, Voice Coordination with HUO will be required.
@@ -30,7 +27,7 @@ All aircraft should be kept on SIDs and STARs. If due to operational requirement
 ## Launceston
 Visual approaches are preferred into Launceston. If due to operational requirements, an aircraft is unable to accept a visual approach, Coordination with **LT ADC** may be required.  
 
-Runway 32L is preferred geographically. To assist traffic flow in and out of the TCU, ATC will instruct aircraft to track for 32L via IRSOM, NODAS, MLTSC which keeps the aircraft within CTA and away from the departures stream.
+Runway 32L is regularly the duty runway due to prevailing winds. To assist traffic flow in and out of the TCU, ATC will instruct aircraft to track for `32L via IRSOM, NODAS, MLTSC` which keeps the aircraft within CTA and away from the departures stream.
 
 ## Coordination
 
@@ -43,11 +40,12 @@ Any aircraft not meeting the above criteria must be prior coordinated to HUO.
 !!! example
     **LTA** -> **HUO**: "via IRSOM, QFA114, with your concurrence, will be assigned F150, for my separation with ZYX"  
     **HUO** -> **LTA**: "QFA114, concur F150"  
+    `AIP GEN 3.4`
 
 #### Arrivals
 The Standard assignable level from HUO to HBA/LTA is:  
 `A090` for YMLT arrivals, tracking IRSOM DCT LT, or NUNPA DCT LT.  
-`F130` for YMHB arrivals, and assigned the IPLET # or MORGO # STAR.
+`F130` for YMHB arrivals, and assigned the IPLET STAR or MORGO STAR.
 
 All other aircraft must be voice coordinated to HBA/LTA.
 
@@ -72,7 +70,8 @@ HBA will coordinate all YMHB arrivals to HB ADC prior to **5 mins** from the bou
 
 !!! example
     **HB TCU** -> **HB ADC**: "via BUSKA, QJE1789, for the ILS”  
-    **HB ADC** -> **HB TCU**: "QJE1789"
+    **HB ADC** -> **HB TCU**: "QJE1789"  
+    `AIP GEN 3.4`
 
 ### LT ADC / LTA
 #### Departures
@@ -94,4 +93,5 @@ LTA will coordinate all YMLT arrivals to LT ADC prior to **5 mins** from the bou
 
 !!! example
     **LT TCU** -> **LT ADC**: "via IRSOM, JST416, for the DGA, will join left downwind 32L”  
-    **LT ADC** -> **LT TCU**: "JST416"
+    **LT ADC** -> **LT TCU**: "JST416"  
+    `AIP GEN 3.4`

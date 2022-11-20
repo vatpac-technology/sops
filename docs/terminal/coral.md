@@ -13,9 +13,6 @@
 
 Upper Limit of the Coral TCU is `F150`
 
-MKA is responsible for the provision of ADC and SMC responsibilities when MK ADC is offline.  
-RKA is responsible for the provision of ADC and SMC responsibilities when RK ADC is offline.  
-
 !!! Note
     Mackay Approach may extend to Rockhampton Approach and vice versa, callsigns remain the same.
 
@@ -35,8 +32,8 @@ Voiceless coordination is in place from COR TCU to ENR for aircraft:
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
 !!! example
-    **COR TCU** -> **ENR**: "QFA114, with your concurrence, will be assigned F150, for my separation with ZYX"  
-    **ENR** -> **COR TCU**: "QFA114, concur F150"  
+    **COR TCU** -> **ENR**: "QFA114, with your concurrence, will be assigned F130, for my separation with ZYX"  
+    **ENR** -> **COR TCU**: "QFA114, concur F130"  
 
 #### Arrivals
 The Standard assignable levels from **ENR** to COR TCU are as follows:  
@@ -54,8 +51,9 @@ YBRK Arrivals: `A070`
     **MK ADC** -> **MK TCU**: "Next, ABC"  
     **MK TCU** -> **MK ADC**: "ABC, Heading 150 Visual"  
     **MK ADC** -> **MK TCU**: "Heading 150 Visual, ABC"  
-    **MK ADC** -> **ABC**: "ABC, Assigned heading right 150 Visual, Runway 14, Cleared for Takeoff"  
-    **ABC** -> **MK ADC**: "Right heading 150 Visual, Runway 14, Cleared for Takeoff, ABC"  
+
+    **MK ADC**: "ABC, Assigned heading right 150 Visual, Runway 14, Cleared for Takeoff"  
+    **ABC**: "Right heading 150 Visual, Runway 14, Cleared for Takeoff, ABC"  
     `AIP GEN 3.4`
 
 The TCU controller can suspend/resume Auto Release at any time, with the concurrence of **ADC**.
@@ -63,7 +61,7 @@ The TCU controller can suspend/resume Auto Release at any time, with the concurr
 !!! Note
     "Next" Coordination to TCU is not required for aircraft assigned a **Procedural SID** and the Standard Assignable Level.
 
-The controller assuming responsibility of **ACD** shall give heads-up coordination to TCU controller prior to the issue of the following clearances:  
+The controller assuming responsibility of **SMC** shall give heads-up coordination to TCU controller prior to the issue of the following clearances:  
 
 - VFR Departures  
 - Aircraft using a runway not on the ATIS
@@ -78,5 +76,5 @@ TCU will coordinate all **non-STAR** arrivals 5min from IAF or 5min from CTA bou
 - Sequence Number (if applicable)
 
 !!! example
-    **TCU** -> **ADC**: "JST420, A320, estimates Mackay 52, RNP 14 via BMKNA, 4700ft, number 1”  
+    **TCU** -> **ADC**: "JST420, A320, estimates Mackay 52, RNP 14 via BMKNA, A047, number 1”  
     **ADC** -> **TCU**: "JST420"

@@ -27,18 +27,18 @@ For simulation purposes, visual separation is assumed to exist below the cloud b
 
 ## Coordination
 ### Departures
-A 'next' call is made for all aircraft when they are next to depart. AY TWR must inform ELW(BLA) if the aircraft does not depart within **2 minutes** of the next call.
+A 'next' call is made for all aircraft when they are next to depart. AY ADC must inform ELW(BLA) if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
-    **AY TWR** -> **BLA**: "Next, AM324"  
-    **BLA** -> **AY TWR**: "AM324"
+    **AY ADC** -> **BLA**: "Next, AM324"  
+    **BLA** -> **AY ADC**: "AM324"
 
 The Standard Assignable level from AY TWR to ELW(BLA) is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
 ### Arrivals
 ELW(BLA) will coordinate the sequence to AY TWR
 
 !!! example
-    **BLA** -> **AY TWR**: "New Sequence of 2. Via ARRAN1 Arrival, RXA2207, Number 1. Via VEGRU1 Arrival, QLK46, Number 2”  
-    **AY TWR** -> **BLA**: "RXA2207, Number 1. QLK46, Number 2"  
+    **BLA** -> **AY ADC**: "New Sequence of 2. Via ARRAN1 Arrival, RXA2207, Number 1. Via VEGRU1 Arrival, QLK46, Number 2”  
+    **AY ADC** -> **BLA**: "RXA2207, Number 1. QLK46, Number 2"  
 
-The Standard Assignable level from ELW(BLA) to AY TWR is `A080`, any other level must be prior coordinated.
+The Standard Assignable level from ELW(BLA) to AY ADC is `A080`, any other level must be prior coordinated.

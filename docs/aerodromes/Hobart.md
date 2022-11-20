@@ -8,11 +8,9 @@
 
 | Name              | Callsign       | Frequency        | Login Identifier                         |
 | ----------------- | -------------- | ---------------- | ---------------------------------------- |
-| **Hobart ADC**    | **Hobart Tower**   | **118.100**     | **HB_TWR**                            |
-| **Hobart SMC**    | **Hobart Ground**  | **121.700**     | **HB_GND**                  |
+| Hobart ADC    | Hobart Tower   | 118.100     | HB_TWR                            |
+| Hobart SMC    | Hobart Ground  | 121.700     | HB_GND                  |
 | Hobart ATIS       |                | 128.450          | YMHB_ATIS                                |
-
-In the absence of an SMC controller, ADC shall assume the SMC responsibilities.
 
 ### Maneuvering Area Responsibility
 <figure markdown>
@@ -41,7 +39,7 @@ Other aircraft shall be assigned an appropriate **Procedural SID** or a visual d
 
 ## Cambridge (YCBG)
 
-Due to it's close proximity, HB ADC & SMC are resposible for clearances into and out of Cambridge (YCBG), which sits inside the Hobart class D control zone.
+Due to it's close proximity, HB ADC & SMC are responsible for clearances into and out of Cambridge (YCBG), which sits inside the Hobart Class D control zone.
 
 ### Departures
 Prior to leaving the apron, all outbound aircraft will establish communications with **HB SMC** for Airways Clearance.  
@@ -49,7 +47,7 @@ Prior to leaving the apron, all outbound aircraft will establish communications 
 All IFR Aircraft departing Cambridge shall be assigned a **Visual Departure** or one of Hobart's **Procedural SIDs**.
 
 !!! note
-    Both VFR and IFR aircraft require a clearance to operate in class D airspace (even if this is an implied clearance to depart a leg of the circuit).  The examples below show an IFR aircraft departing.
+    Both VFR and IFR aircraft require a clearance to operate in Class D airspace (even if this is an implied clearance to depart a leg of the circuit).  The examples below show an IFR aircraft departing.
 
 !!! Example
     **NDR:** "Hobart Ground, NDR, for Devonport, Request Clearance"  
@@ -140,8 +138,9 @@ Clearances for aircraft entering the CTR must be worded so as to leave no possib
     **HB ADC** -> **HB TCU**: "Next, ABC"  
     **HB TCU** -> **HB ADC**: "ABC, Heading 150 Visual"  
     **HB ADC** -> **HB TCU**: "Heading 150 Visual, ABC"  
-    **HB ADC** -> **ABC**: "ABC, Assigned heading right 150 Visual, Runway 12, Cleared for Takeoff"  
-    **ABC** -> **HB ADC**: "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"  
+
+    **HB ADC**: "ABC, Assigned heading right 150 Visual, Runway 12, Cleared for Takeoff"  
+    **ABC**: "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"  
     `AIP GEN 3.4`
 
 The HBA controller can suspend/resume Auto Release at any time, with the concurrence of **HB ADC**.

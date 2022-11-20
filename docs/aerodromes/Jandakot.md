@@ -8,19 +8,18 @@
 
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Jandakot ADC**  | **Jandakot Tower**  | **118.100**          | **JT_TWR**                        |
-| **Jandakot SMC**  | **Jandakot Ground**   | **124.300**          | **JT_GND**                       |
+| Jandakot ADC  | Jandakot Tower  | 118.100          | JT_TWR                        |
+| Jandakot SMC  | Jandakot Ground   | 124.300          | JT_GND                       |
 | Jandakot ATIS     |                | 128.650          | YPJT_ATIS                                |
 
- 
-In the absence of an SMC controller, ADC shall assume the SMC responsibilities.
+
 <figure markdown>
 ![YPJT Maneuvering Area](img/ypjt_maneuvring_area.png){ width="500" }
   <figcaption>Maneuvering Area</figcaption>
 </figure>
 
 ## Airspace
-Tower airspace is defined as between SFC to 1500 FT.
+Tower airspace is defined as between `SFC` to `A015`.
 
 <figure markdown>
 ![Jandakot Tower Airspace](img/JTTWR.png){ width="700" }
@@ -57,8 +56,8 @@ The circuit direction changes depending on tower opening hours and runway being 
 | Runway | Tower Open   | Tower Closed |
 | -------| ----- | ----- |
 | 06L    | Left  | Right |
-| 06R    | Right | N/A   |
-| 24L    | Left  | N/A   |
+| 06R    | Right | -  |
+| 24L    | Left  | -   |
 | 24R    | Right | Left  |
 | 12     | Left  | Left  |
 | 30     | Left  | Left  |
