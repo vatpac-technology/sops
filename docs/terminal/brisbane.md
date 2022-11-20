@@ -138,13 +138,20 @@ The Standard assignable levels for YBAF departures is the lower of `A040` or the
     **AF ADC** Will then pass the airways clearance to DEF  
     `AIP GEN 3.4`
 
+#### Next Call
+When aircraft planned via a CTA departure are ready for takeoff and expected to depart imminently, **AF ADC** shall seek release of the aircraft through a 'Next' call.
+
+!!! example
+    **AF ADC** -> **BN TCU**: "Next, XMM, 10L"  
+    **BN TCU** -> **AF ADC**: "XMM, unrestricted"
+
 #### Arrivals
 
 YBAF arrivals shall be coordinated to **AF ADC** from the relevant BN TCU controller prior to transfer of jurisdiction.
 
 !!! example
-    **BN TCU** -> **AF ADC**: "BDF, via HUUGO, Number 1"  
-    **AF ADC** -> **BN TCU**: "BDF, Number 1"  
+    **BN TCU** -> **AF ADC**: "BDF, via HUUGO"  
+    **AF ADC** -> **BN TCU**: "BDF"  
 
 ### BN TCU / AMB TCU
 

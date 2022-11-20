@@ -362,8 +362,8 @@ Aircraft departing YSBK in to SY TCU Class C will be coordinated from **BK ADC**
 
 !!! example
     **BK ADC** -> **SY TCU**: "Taxi, TFX12 for YMML via WOL"  
-    **SY TCU** -> **BK ADC**: "TFX12, BK, WOL, Flight Planned Route, A030, Squawk 3601"  
-    **BK ADC** -> **SY TCU**: "BK, WOL, Flight Planned Route, A030, Squawk 3601, TFX12"  
+    **SY TCU** -> **BK ADC**: "TFX12, BK, WOL, Flight Planned Route, BK8 Departure, A030, Squawk 3601"  
+    **BK ADC** -> **SY TCU**: "BK, WOL, Flight Planned Route, BK8 Departure, A030, Squawk 3601, TFX12"  
 
     **BK ADC** Will then pass the airways clearance to TFX12  
     `AIP GEN 3.4`
@@ -372,8 +372,7 @@ Aircraft departing YSBK in to SY TCU Class C will be coordinated from **BK ADC**
 
 !!! example
     **BK ADC** -> **SY TCU**: "Next, TFX12"  
-    **SY TCU** -> **BK ADC**: "TFX12, Right Heading 290, A030"  
-    **BK ADC** -> **SY TCU**: "Right Heading 290, A030, TFX12"  
+    **SY TCU** -> **BK ADC**: "TFX12"
 
     **BK ADC** Will then clear the aircraft to takeoff with the assigned heading, and instruct them to contact SY TCU passing A020.  
     `AIP GEN 3.4`
@@ -391,29 +390,40 @@ YSBK arrivals shall be coordinated to **BK ADC** from SY TCU prior to transfer o
     `AIP GEN 3.4`
 
 ### SY TCU / CN ADC
-#### Departures
 
-Aircraft departing YSCN in to SY TCU Class C will be coordinated from **CN ADC** at Taxi.
+### Departures
+##### Taxi Call
 
-!!! example
-    **CN ADC** -> **SY TCU**: "Taxi, DEF for YBTH via KADOM"  
-    **SY TCU** -> **CN ADC**: "DEF, Squawk 3601."  
-    **CN ADC** -> **SY TCU**: "Squawk 3601, DEF"  
-    `AIP GEN 3.4`
-
-CN ADC will then give a "Next" call.
+IFR aircraft must be coordinated with the SY TCU controller responsible for Sydney Departures South (SDS).  **CN SMC** will perform a 'Taxi' call to **SDS**, who in response will issue a squawk code.
 
 !!! example
-    **CN ADC** -> **SY TCU**: "Next, DEF"  
-    **SY TCU** -> **CN ADC**: "DEF"  
-    `AIP GEN 3.4`
+    **CN ADC** -> **SY TCU**: "Taxi's, MHQ, Lord Howe, runway 06”  
+    **SY TCU** -> **CN ADC**: “MHQ, squawk 0134"  
+    **CN ADC** -> **SY TCU**: “Squawk 0134, MHQ"
+
+##### Ready Call
+CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a ready call, SY TCU will issue a traffic statement.
+
+!!! example
+    **CN ADC** -> **SY TCU**: "Ready, MHQ, Runway 06"  
+    **SY TCU** -> **CN ADC**: "MHQ, traffic is MEH, an IFR AC50, tracking SHL RAKSO SBKWI, A035, estimate RAKSO time 35" (or "No Reported IFR Traffic")  
+    **CN ADC** -> **SY TCU**: "Traffic is MEH tracking SHL RAKSO SBKWI A035, RAKSO at 35"  
+    
+    **CN ADC:** "MHQ, traffic is MEH, IFR AC50 tracking SHL RAKSO SBKWI at A035, estimating RAKSO at time 35, runway 06, cleared for takeoff"  
+    **MHQ:** "Copy MEH, runway 06, cleared for takeoff, MHQ"
+      
+    **CN ADC:** "MHQ, contact Sydney Departures on 129.7"  
+
+!!! note
+    Note: Because aircraft enter Class G after departure, an airways clearance need not be issued by CN ADC. This will be done on first contact with Sydney TCU.
+    Therefore, a *next* call & *departure instructions* are not required. You must however, pass the above (ready) coordination & obtain a traffic statement.
 #### Arrivals
 
 YSCN arrivals shall be coordinated to **CN ADC** from SY TCU prior to transfer of jurisdiction.
 
 !!! example
-    **SY TCU** -> **CN ADC**: "New Sequence of 2, ZYX, via TONTO, Number 1. QET, via WATLE, Number 2"  
-    **CN ADC** -> **SY TCU**: "ZYX Number 1, QET Number 2"   
+    **SY TCU** -> **CN ADC**: "Via TONTO, ZYX"  
+    **CN ADC** -> **SY TCU**: "ZYX"   
     `AIP GEN 3.4`
 ### SY TCU / RIC ADC
 

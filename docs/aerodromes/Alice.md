@@ -25,13 +25,13 @@ AS TWR is permitted to use Surveillance standards for separation. Surveillance c
 For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
 ## Coordination
 ### Departures
-A 'next' call is made for all aircraft when they are next to depart. AS ADC must inform ASP if the aircraft does not depart within **2 minutes** of the next call.
+Departures from YBAS in to ASP Class C will be coordinated when ready for departure.
 
 !!! example
     **AS ADC** -> **ASP**: "Next, QFA797"  
     **ASP** -> **AS ADC**: "QFA797"
 
-The Standard Assignable level from AS ADC to ASP is the lower of `A060` or the `RFL`, any other level must be prior coordinated.
+The Standard Assignable level from AS ADC to ASP is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
 
 ### Arrivals
 ASP will coordinate the sequence to AS ADC

@@ -78,7 +78,7 @@ Helicopters should track inbound at `A007` via one of the normal inbound points 
 | Inbound Point | RWY 11 Config | RWY 29 Config |
 | ----------------| --------- | ---------- |
 | PSP | *"Report CWST"*, then <br>*"Join base main pad"* | *"Report CNTH"*, then <br>*"Join base main pad"* |
-| TWRN | *"Report CSTH, 500ft"*, then <br>*"Overfly midfield at 500ft, join downwind main pad"* | *"Report CSTH, 500ft"*, then <br>*"Overfly midfield at 500ft, join downwind main pad"* |
+| TWRN | *"Report CSTH, A005"*, then <br>*"Overfly midfield at A005, join downwind main pad"* | *"Report CSTH, A005"*, then <br>*"Overfly midfield at A005, join downwind main pad"* |
 | Olympic Park | *"Report CWST"*, then <br>*"Join base main pad"* | *"Report CNTH"*, then <br>*"Join base main pad"* |
 
 !!! note

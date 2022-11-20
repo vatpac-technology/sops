@@ -65,7 +65,7 @@ TBP may make changes to CFL up to the boundary with KEN for the purposes of issu
 
 ### SWY / HM ADC
 #### Departures
-HM ADC will make a 'next' call for all aircraft when they are next to depart.
+Departures from YBHM in to SWY Class C will be coordinated when ready for departure.  
 
 !!! example
     **HM ADC** -> **SWY**: "Next, QFA797"  

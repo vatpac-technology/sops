@@ -27,7 +27,8 @@ When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME
 </figure>
 
 ## Extending
-As per [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), ML-ASP_CTR is only permitted to extend to adjacent **YMMM** sectors.
+!!! Warning
+    As per [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), ML-ASP_CTR is only permitted to extend to adjacent **YMMM** sectors.
 
 ## Coordination
 ### ASP (All) / ENR
@@ -39,28 +40,12 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 ### ASP / AS ADC
-
-#### Taxi Call
-A taxi call shall be made between **AS ADC** and ASP as an aircraft is given taxi clearance. ASP will respond by acknowledging the callsign and activating FDR.
-
-!!! example
-    **AS ADC** -> **ASP**: "Taxis QFA797 for YMML via ELLOW3 departure"  
-    **ASP** -> **AS ADC**: "QFA797"  
-
 #### Next Call
-A next call is made for all aircraft when they are next to depart and will be departing within two minutes. ASP will respond by either acknowledging the callsign or offering a higher level. Any higher level issued will be passed along in the takeoff clearance. If the controller is in a high workload environment, a next call may be omitted, in favour of taxi and departure coordination.
+Departures from YBAS in to ASP Class C will be coordinated when ready for departure.
 
 !!! example
     **AS ADC** -> **ASP**: "Next QFA797"  
-    **ASP** -> **ASP**: "QFA797"    
-
-#### Departure Call
-A departure call should be made as the aircraft becomes airborne. The aircraft should be transferred to ASP as they climb through the upper level of the AS CTR class D airspace.
-
-!!! example
-    **AS ADC** -> **ASP**: "Departure QFA797 at 06"  
-    **ASP** -> **AS ADC**: "QFA797"
-
+    **ASP** -> **AS ADC**: "QFA797"    
 #### Arrival Coordination
 
 **ASP** will coordinate the sequence to **AS ADC**
