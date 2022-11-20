@@ -96,15 +96,12 @@ All aircraft transiting from ELW(All) to **ESL TCU** must be heads-up coordinate
 #### Airspace
 **AY ADC** own the Class D airspace up to `A045`. BLA own the Class C steps in the "AY keyhole" between `A045` and `A085`.
 #### Departures
-Departures from YMAY in to BLA Class C will be coordinated at taxi, and ready for departure. BLA will coordinate a level at the "Next" call.
+Departures from YMAY in to BLA Class C will be coordinated when ready for departure.
 
 !!! example
-    **AY ADC** -> **BLA**: "Taxi, RXA6772 for YSSY via UGVER1 departure"  
-    **BLA** -> **AY ADC**: "RXA6772"  
-      
     **AY ADC** -> **BLA**: "Next, RXA6772"  
-    **BLA** -> **AY ADC**: "RXA6772, A050"  
-    **AY ADC** -> **BLA**: "A050, RXA6772"  
+    **BLA** -> **AY ADC**: "RXA6772"  
+    **AY ADC** -> **BLA**: "RXA6772"  
 
 The Standard Assignable level from **AY ADC** to BLA is the lower of `A070` or the `RFL`.
 
@@ -113,5 +110,5 @@ The Standard Assignable level from BLA to **AY ADC** is `A080`. Any aircraft tha
 YMAY arrivals shall be coordinated to **AY ADC** from BLA prior to transfer of jurisdiction.
 
 !!! example
-    **BLA** -> **AY ADC**: "QLK38, via VEGRU1 arrival, Number 1"  
-    **AY ADC** -> **BLA**: "QLK38, Number 1"  
+    **BLA** -> **AY ADC**: "QLK38, via VEGRU1 arrival"  
+    **AY ADC** -> **BLA**: "QLK38"  

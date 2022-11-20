@@ -76,12 +76,9 @@ That being said, it is *advised* that INL(All) give **Heads-up Coordination** to
 When **SU ADC** is online, **NSA** owns the Class C airspace from `A045` upwards. **SU ADC** owns the Class D airspace `SFC` to `A045`.
 
 #### Departures
-Departures from YBSU in to NSA Class C will be coordinated at taxi, and ready for departure. If a level other than the Standard Assignable is required from NSA, they will coordinate this at the "Next" call.
+Departures from YBSU in to NSA Class C will be coordinated when ready for departure.
 
 !!! example
-    **SU ADC** -> **NSA**: "Taxi, BNZ123 for YBSU via TAPET1 departure"  
-    **NSA** -> **SU ADC**: "BNZ123"  
-     
     **SU ADC** -> **NSA**: "Next, BNZ123"  
     **NSA** -> **SU ADC**: "BNZ123"  
 
@@ -93,8 +90,8 @@ NSA will ensure all YBSU arrivals have been assigned a STAR, unless the pilot is
 YBSU arrivals shall be coordinated to **SU ADC** from NSA prior to transfer of jurisdiction.
 
 !!! example
-    **NSA** -> **SU ADC**: "JST731, via ITIDE2W Arrival Runway 31, Number 1"  
-    **SU ADC** -> **NSA**: "JST731, Number 1"  
+    **NSA** -> **SU ADC**: "JST731, via ITIDE2W Arrival Runway 31"  
+    **SU ADC** -> **NSA**: "JST731"  
 
 ### KPL / RK TCU
 
@@ -108,12 +105,9 @@ The Standard Assignable level from **RK TCU** to KPL is `F150`, and tracking via
 When **CFS ADC** is online, **INL** and **MNN** owns the Class C airspace from `A045` upwards, and **CFS ADC** owns the Class D airspace `SFC` to `A045`.
 
 #### Departures
-Departures from YCFS in to INL Class C will be coordinated at taxi, and ready for departure. If a level other than the Standard Assignable is required from INL, they will coordinate this at the "Next" call.
+Departures from YCFS in to INL Class C will be coordinated when ready for departure.
 
-!!! example
-    **CFS ADC** -> **INL**: "Taxi, BNZ185 for YBSU via TUCAB"  
-    **INL** -> **CFS ADC**: "BNZ185"  
-     
+!!! example 
     **CFS ADC** -> **INL**: "Next, BNZ185"  
     **INL** -> **CFS ADC**: "BNZ185"  
 
@@ -124,8 +118,8 @@ The Standard Assignable level from INL to **CFS ADC** is `A080`. Any aircraft th
 YCFS arrivals shall be coordinated to **CFS ADC** from INL prior to transfer of jurisdiction.
 
 !!! example
-    **INL** -> **CFS ADC**: "VET, via GAMBL, Number 1"  
-    **CFS ADC** -> **INL**: "VET, Number 1"  
+    **INL** -> **CFS ADC**: "VET, via GAMBL"  
+    **CFS ADC** -> **INL**: "VET"  
 ### GOL/DOS/BUR / OK TCU and AMB TCU
 #### Airspace
 By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas, and **AMB TCU** owns the airspace within the **R625A-D** restricted areas, unless stated otherwise by ad-hoc release or NOTAM.

@@ -67,12 +67,9 @@ That being said, it is *advised* that ARL(All) gives **Heads-up Coordination** i
 When **TW ADC** is online, **ARL** owns the Class C airspace from `A065` upwards. **TW ADC** owns the Class D airspace `SFC` to `A045` and Class C airspace `A045` to `A065`.
 
 #### Departures
-Departures from YSTW in to ARL/MDE Class C will be coordinated at taxi, and ready for departure. If a level other than the Standard Assignable is required from ARL/MDE, they will coordinate this at the "Next" call.
+Departures from YSTW in to ARL/MDE Class C will be coordinated when ready for departure.
 
 !!! example
-    **TW ADC** -> **MDE**: "Taxi, SKV for YMOR DCT"  
-    **MDE** -> **TW ADC**: "SKV"  
-    ...  
     **TW ADC** -> **MDE**: "Next, SKV"  
     **MDE** -> **TW ADC**: "SKV"  
 
@@ -83,20 +80,17 @@ The Standard Assignable level from ARL/MDE to **TW ADC** is `A080`. Any aircraft
 As per [Standard coordination procedures](../../controller-skills/coordination/#enrtcu-class-d-twr), YSTW arrivals shall be coordinated to **TW ADC** from ARL/MDE prior to transfer of jurisdiction.
 
 !!! example
-    **ARL** -> **TW ADC**: "QLK6D, via MATLA DCT STWWD, Number 1"  
-    **TW ADC** -> **ARL**: "QLK6D, Number 1"  
+    **ARL** -> **TW ADC**: "QLK6D, via MATLA DCT STWWD"  
+    **TW ADC** -> **ARL**: "QLK6D"  
 
 ### MNN / CFS ADC
 #### Airspace
 When **CFS ADC** is online, **INL** and **MNN** owns the Class C airspace from A045 upwards, and **CFS ADC** owns the Class D airspace SFC-A045.
 
 #### Departures
-Departures from YCFS in to MNN Class C will be coordinated at taxi, and ready for departure. If a level other than the Standard Assignable is required from MNN, they will coordinate this at the "Next" call.
+Departures from YCFS in to MNN Class C will be coordinated when ready for departure.
 
 !!! example
-    **CFS ADC** -> **MNN**: "Taxi, CFH21 for YSTW via LOSKU"  
-    **MNN** -> **CFS ADC**: "CFH21"  
-    
     **CFS ADC** -> **MNN**: "Next, CFH21"  
     **MNN** -> **CFS ADC**: "CFH21"  
 
@@ -107,8 +101,8 @@ The Standard Assignable level from MNN to **CFS ADC** is `A080`. Any aircraft th
 YCFS arrivals shall be coordinated to **CFS ADC** from MNN prior to transfer of jurisdiction.
 
 !!! example
-    **MNN** -> **CFS ADC**: "RXA6438, via KADSI, Number 1"  
-    **CFS ADC** -> **MNN**: "RXA6438, Number 1"  
+    **MNN** -> **CFS ADC**: "RXA6438, via KADSI"  
+    **CFS ADC** -> **MNN**: "RXA6438"  
 ### CNK/MND/MNN / WLM TCU
 #### Airspace
 By default, **WLM TCU** owns the airspace within the **R578A-G** restricted areas, unless stated otherwise by ad-hoc release or NOTAM.
