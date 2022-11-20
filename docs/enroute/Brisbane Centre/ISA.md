@@ -14,7 +14,7 @@
 | Warrego† | Brisbane Centre | 132.450 | BN-WEG_CTR |
 | Carnarvon† | Brisbane Centre | 133.800 | BN-CVN_CTR |
 
-† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf)
+† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
 
@@ -24,6 +24,11 @@ ISA is responsible for **ARA**, **STR**, **WEG**, and **CVN** when they are offl
 ![Mt Isa Airspace](../assets/ISAENR.png){ width="700" }
   <figcaption>Mt Isa Airspace</figcaption>
 </figure>
+
+## Extending
+
+!!! Warning
+    As per [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), BN-ISA_CTR is only permitted to extend to adjacent **YBBB** sectors.
 
 ## Sector Responsibilities
 ISA is purely Classes A, E and G of airspace. [Standard seperation procedures](../../controller-skills/SepStandards.md/#enroute) apply.

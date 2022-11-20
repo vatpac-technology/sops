@@ -14,11 +14,9 @@
 | Griffith† | Melbourne Centre | 122.750 | ML-GTH_CTR |
 | Katoomba† | Melbourne Centre | 133.500 | ML-KAT_CTR |
 
-† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf)
+† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
-
-YWE is responsible for **WON**, **MUN**, **OXL**, **GTH** and **KAT** when they are offline.  
 
 <figure markdown>
 ![Yarrowee Airspace](../assets/YWEENR.png){ width="700" }
@@ -46,8 +44,8 @@ KAT is responsible for issuing STAR Clearances for YSCB.  KAT is also responsibl
 
 !!! example
     *PE211 has departed YBTH for YSSY and is making a departure call*  
-    **PE211:** "PE211, 3nm south of Bathurst, passing 5800ft, climbing FL120, estimate REVKI 22"  
-    **KAT:** "PE211, identified, cleared to YSSY via REVKI flight plan route, ODALE7 arrival, climb FL120"
+    **PE211:** "PE211, 3nm south of Bathurst, passing 5800ft, climbing F120, estimate REVKI 22"  
+    **KAT:** "PE211, identified, cleared to YSSY via REVKI flight plan route, ODALE7 arrival, climb F120"
 
 ## Coordination
 
@@ -92,20 +90,20 @@ The Standard Assignable level from SY TCU to KAT is the lower of `F280` or the `
 
 Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN** and/or **SDS** are online.
 
-### WON / ESL APP
+### WON / ESL TCU
 #### Airspace
-By default, **ESL APP** owns the airspace within 30nm ESL, SFC-F200, unless stated otherwise by ad-hoc release or NOTAM.
+By default, **ESL TCU** owns the airspace within 30nm ESL, `SFC` to `F200`, unless stated otherwise by ad-hoc release or NOTAM.
 #### Departures
 Departures from YMES in to WON Class C will be coordinated at taxi, and will be requesting a level.
 
 !!! example
-    **ESL APP** -> **WON**: "Taxi, ALDN16 for YFLI DCT, Requesting F230"  
-    **WON** -> **ESL APP**: "ALDN16, F230"  
-    **ESL APP** -> **WON**: "F230, ALDN16"  
+    **ESL TCU** -> **WON**: "Taxi, ALDN16 for YFLI DCT, Requesting F230"  
+    **WON** -> **ESL TCU**: "ALDN16, F230"  
+    **ESL TCU** -> **WON**: "F230, ALDN16"  
 
 #### Arrivals/Overfliers
-All aircraft transiting from WON to **ESL APP** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **ESL APP** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the WON and **ESL APP** controller agree on.
+All aircraft transiting from WON to **ESL TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **ESL TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the WON and **ESL TCU** controller agree on.
 
 !!! example
-    **WON** -> **ESL APP**: "via ANTLA, BFRT23, will be assigned F220, I have no restrictions on descent"  
-    **ESL APP** -> **WON**: "BFRT23, F220"  
+    **WON** -> **ESL TCU**: "via ANTLA, BFRT23, will be assigned F220, I have no restrictions on descent"  
+    **ESL TCU** -> **WON**: "BFRT23, F220"  

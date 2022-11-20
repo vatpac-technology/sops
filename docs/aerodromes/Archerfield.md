@@ -8,19 +8,17 @@
 
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Archerfield ADC**  | **Archer Tower**  | **118.100**          | **AF_TWR**                        |
-| **Archerfield SMC**   | **Archer Ground**   | **129.300**          | **AF_GND**                       |
+| Archerfield ADC  | Archer Tower  | 118.100        | AF_TWR                        |
+| Archerfield SMC   | Archer Ground  | 129.300         | AF_GND                       |
 | Archerfield ATIS        |                | 120.900          | YBAF_ATIS                                |
 
- 
-In the absence of an SMC controller, ADC shall assume the SMC responsibilities.
 <figure markdown>
 ![YSBK Maneuvering Area](img/YBAF_ManMapB.PNG){ width="500" }
   <figcaption>Maneuvering Area</figcaption>
 </figure>
 
 ## Airspace
-Tower airspace is defined as between SFC to 1500 FT.
+Tower airspace is defined as between `SFC` to `A015`.
 
 <figure markdown>
 ![Archerfield Tower Airspace](img/YBAF_Vatsys.PNG){ width="700" }
@@ -52,7 +50,7 @@ VFR aircraft should track via a VFR inbound point at `A015` and be instructed as
 | BTN 205 & 309 DEG    | Western Departure  | DEP AF CTR on a track between 220 & 309. Acft must nominate outbound DEP track with TAXI call |
 | Other                |                    | As approved by ATC
 
-Departure Altitude is `A010`.
+VFR departures will depart the control zone at `A010`.
 
 Aircraft should advise planned Departure Procedure to **AF SMC** with TAXI call and **AF ADC** with READY call.
 
@@ -92,7 +90,7 @@ The ATIS must indicate the current runway config and nominate what each runway i
 ### Approach Expectation
 
 The APCH field should include `EXP INST APCH` when:   
-  - the ceiling is at or below A029; or  
+  - the ceiling is at or below `A029`; or  
   - visibility is less than 5000m  
 
 ## Coordination
@@ -113,7 +111,7 @@ When aircraft planned via a CTA departure are ready for takeoff and expected to 
     **AF ADC** -> **BN TCU**: "Next, XMM, 10L"  
     **BN TCU** -> **AF ADC**: "XMM, unrestricted"
 
-### BN TCU / AF TWR
+### BN TCU / AF ADC
 #### Arrival Coordination
 
 BN TCU will coordinate with AF ADC for incoming IFR arrivals on either Visual Tracking or RNP approaches.
