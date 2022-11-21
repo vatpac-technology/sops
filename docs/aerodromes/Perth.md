@@ -34,7 +34,7 @@ In the absence of an SMC controller, ADC shall assume the SMC and ADC responsibi
 | JULIM | 21 |
 | CONNI | 21 |
 | WAVES | 21 |
-| BEVLY | 21 | 
+| BEVLY | 21 (heavy), 24 (up to A330/B787) | 
 | GRENE | 24 |
 | SOLUS | 24 |
 
