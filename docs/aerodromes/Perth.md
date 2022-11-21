@@ -31,7 +31,7 @@
 | JULIM | 21 |
 | CONNI | 21 |
 | WAVES | 21 |
-| BEVLY | 21 (heavy), 24 (up to A330/B787) | 
+| BEVLY | 24, 21 (if operationally required) | 
 | GRENE | 24 |
 | SOLUS | 24 |
 
