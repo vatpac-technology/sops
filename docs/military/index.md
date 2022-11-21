@@ -1,8 +1,7 @@
 ---
-  title: Military
+  title: Overview
 
 ---
 
---8<-- "includes/abbreviations.md"
-
+Local Instructions for all Military positions in Australia. For simulation purposes only.
 

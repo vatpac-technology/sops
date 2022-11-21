@@ -8,62 +8,63 @@
 
 | Name | Callsign | Frequency | Login Identifier |
 | ---- | -------- | --------- | ---------------- |
-| Coffs Harbour ADC | Coffs Harbour Tower | 118.200 | CFS_TWR |
-| Coffs Harbour ATIS | N/A | 130.300 | YCFS_ATIS |
+| Sunshine Coast ADC | Sunshine Coast Tower | 124.400 | SU_TWR |
+| Sunshine Coast SMC | Sunshine Coast Ground | 121.100 | SU_GND |
+| Sunshine Coast ATIS | N/A | 119.800 | YBSU_ATIS |
 
 ## Airspace
 
 <figure markdown>
-![YCFS Airspace](img/ycfs_airspace.png){ width="700" }
-  <figcaption>YCFS Airspace</figcaption>
+![SU TWR Airspace](img/SUCTR.png){ width="700" }
+  <figcaption>SU TWR Airspace</figcaption>
 </figure>
 
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
+
 ## Surveillance
-SU TWR is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be not available below **1200 feet** in the SU CTR.  
-For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
+SU ADC is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be not available below `A012` in the SU CTR.  
+For simulation purposes, visual separation is assumed to exist below the cloud base, and within the `SFC` to `A045` Class D step (7nm from RWY thresholds). Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
+
+SU ADC must establish a [Procedural Standard](../../controller-skills/classdtwr/#standards) prior to losing surveillance identification of an aircraft.
+
+!!! caution
+    A procedural and/or visual standard **must** be put in place for all aircraft below `A012`.
 
 ## Instrument Approaches
-Only one aircraft is permitted to conduct an instrument approach at any time, due to limited surveillance coverage. SU TWR must ensure that all aircraft are procedurally separated from any portion of an instrument approach and missed approach that is conducted below **1200 feet**.  
+Only one aircraft is permitted to conduct an instrument approach at any time, due to limited surveillance coverage. SU ADC must ensure that all aircraft are procedurally separated from any portion of an instrument approach and missed approach that is conducted below `A012`.  
 
-If required, SU TWR can pass amended tracking/level instructions to an aircraft for a missed approach for separation purposes, as long as the aircraft can be issued **uninterrupted climb** to the LSALT/MSA once identified.
+If required, SU ADC can pass amended tracking/level instructions to an aircraft for a missed approach for separation purposes, as long as the aircraft can be issued **uninterrupted climb** to the LSALT/MSA once identified.
+## Runway Configuration
+Pilots with old simulators/scenery may not have the newer Runway 13/31 config (replacing the old 18/36 config). If a pilot reports this to be the case, try to facilitate their flight as best as possible, whilst giving them lower priority to other traffic. Coordinate as you deem necessary with adjacent units.
+## SID Selection
+
+Jet Aircraft planned via **MOOLO** or **TAPET**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint, unless the pilot indicates they are unable to accept a Procedural SID.
+
+All other aircraft may be assigned a visual departure, or a standard IFR departure.
 
 ## Coordination
-### CFS ADC / ENR
-
-#### Taxi Call
-A taxi call shall be made between CFS TWR and BN CTR as an aircraft is given taxi clearance. Center will respond by acknowledging the callsign and activating FDR.
+#### Departures
+A 'next' call is made for all aircraft when they are next to depart. SU ADC must inform INL(NSA/BUR) if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
-    **CFS_TWR** -> **BN-INL_CTR**: "Taxis QLK105D for YSSY via SORTI"  
-    **BN-INL_CTR** -> **CFS_TWR**: "QLK105D"  
+    **SU ADC** -> **NSA**: "Next, BNZ133"  
+   **NSA** -> **SU ADC**: "BNZ133"    
 
-#### Next Call
-A next call is made for all aircraft when they are next to depart and will be departing within two minutes. Center will respond by either acknowledging the callsign or offering a higher level. Any higher level issued will be passed along in the takeoff clearance. If the controller is in a high workload environment, a next call may be omitted, in favour of taxi and departure coordination.
+The Standard Assignable level from SU ADC to INL(NSA/BUR) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
 
-!!! example
-    **CFS_TWR** -> **BN-INL_CTR**: "Next QLK105D"  
-    **BN-INL_CTR** -> **CFS_TWR**: "QLK105D, FL120"  
-    **CFS_TWR** -> **BN-INL_CTR**: "FL120, QLK105D"  
-
-#### Departure Call
-A departure call should be made as the aircraft becomes airborne. If not already issued, CTR will issue a higher level. The aircraft should be transferred to CTR as they climb through the upper level of the CFS Class D airspace.
+### Arrivals
+INL(NSA/BUR) will coordinate the sequence to SU ADC.
 
 !!! example
-    **CFS_TWR** -> **BN-INL_CTR**: "Departure QLK105D at 06"  
-    **BN-INL_CTR** -> **CFS_TWR**: "QLK105D"
+    **NSA** -> **SU ADC**: "New Sequence of 2. Via ITIDE2W Arrival, QJE1756, Number 1. Via REBEG2X Arrival, FD425, Number 2”  
+    **SU ADC** -> **NSA**: "QJE1756, Number 1. FD425, Number 2"  
 
-#### Arrival Coordination
-BN_CTR will coordinate all arrivals into Coffs Harbour Prior to handing over to tower in the following format:
+The Standard Assignable level from INL(NSA/BUR) to SU ADC is `A060`, any other level must be prior coordinated.
+### BN TCU / SU ADC
 
-- Callsign & Aircraft Type
-- Estimate
-- Inbound Radial/Procedure
-- Assigned Level
-- Sequence Number (if applicable)
+As you may have noticed, BN TCU Class G shares a tiny border with SU ADC, however there are no SIDs, STARs, or airways through this gap. The only possible way for an aircraft to directly enter BN TCU's airspace from SU ADC's jurisdiction, is in to Class G, and as such, no coordination is required to BN TCU.
 
-!!! example
-    **BN-INL_CTR** -> **CFS_TWR**: "QLK116D, DH8D, estimates Coffs Harbour 52, RNP 03 via CFSSG, A055, number 1”
-    **CFS_TWR** -> **BN-INL_CTR**: "QLK116D"
-## Standard Assignable Level
-In IMC, aircraft must be assigned a minimum of `A070`. This shall be coordinated with CTR.  
-In VMC, aircraft may be issued `A040 VISUAL` without prior coordination regarding the level.
+<figure markdown>
+![BN TCU / SU ADC Border](../terminal/img/subntcu.png){ width="700" }
+  <figcaption>BN TCU / SU ADC Border</figcaption>
+</figure>

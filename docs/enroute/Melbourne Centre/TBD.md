@@ -10,14 +10,14 @@
 | **Tailem Bend** | **Melbourne Centre** | **123.050** | **ML-TBD_CTR** |
 | Augusta† | Melbourne Centre | 127.050 | ML-AUG_CTR |
 
-† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}
+† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
 
-TBD is responsible for the AD TCU when **AD APP** is offline.  
-TBD is responsible for **AUG** when they are offline.  
-
-(vatsys map)
+<figure markdown>
+![Tailem Bend Airspace](../assets/TBDENR.png){ width="700" }
+  <figcaption>Tailem Bend Airspace</figcaption>
+</figure>
 
 ## Sector Responsibilities
 TBD and AUG are responsible for Sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YPAD.
@@ -34,7 +34,7 @@ All other aircraft must be voice coordinated to AD TCU prior to **20nm** from th
 The Standard Assignable level from AD TCU to TBD/AUG is the lower of `F240` or the `RFL`, and assigned a SID.
 
 ### TBD/AUG / ENR
-As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 ### TBD/AUG Internal
-As per [Standard coordination procedures](http://sops.vatpac.org/controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.

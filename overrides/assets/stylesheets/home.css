@@ -50,7 +50,7 @@
 
 .hero .md-button--primary {
     background-color: var(--md-primary-bg-color);
-    color: var(--md-primary-fg-color--dark);
+    color: var(--md-accent-fg-color);
     border-color: var(--md-primary-bg-color)
 }
 
@@ -74,7 +74,7 @@
 }
 
 .feature h2 {
-    color: var(--md-primary-fg-color--dark);
+    color: var(--md-primary-fg-color);
     font-weight: 400;
     font-size: 25px;
     line-height: normal;
@@ -96,14 +96,15 @@
 
 .feature .card a {
     display: block;
-    background: rgba(241, 245, 249, 0.5);
+    background: var(--md-card-a);
     transition: background-color 0.2s ease;
     padding: 0.5rem 1rem;
     border-radius: 5px;
 }
 
 .feature .card a:hover {
-    background-color: rgba(241, 245, 249, 1);
+    background-color: var(--md-card-a-hover);
+    color: var(--md-primary-fg-color)
 }
 
 .feature .card a h3 { margin-top: 8px; }

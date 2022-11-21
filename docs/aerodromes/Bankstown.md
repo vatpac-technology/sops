@@ -8,28 +8,28 @@
 
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Bankstown ADC**  | **Bankstown Tower**  | **132.800**          | **BK_TWR**                        |
-| **Bankstown SMC**   | **Bankstown Ground**   | **119.900**          | **BK_GND**                       |
+| Bankstown ADC  | Bankstown Tower  | 132.800         | BK_TWR                        |
+| Bankstown SMC   | Bankstown Ground   | 119.900         | BK_GND                       |
 | Bankstown ATIS        |                | 120.900          | YSBK_ATIS                                |
 
- 
-In the absence of an SMC controller, ADC shall assume the SMC responsibilities.
 <figure markdown>
 ![YSBK Maneuvering Area](img/ysbk_maneuvring_area.png){ width="500" }
   <figcaption>Maneuvering Area</figcaption>
 </figure>
 
 ## Airspace
-Tower airspace is defined as between SFC to 1500 FT.
+BK ADC owns the Class D airspace in the BK CTR `SFC` to `A015`.
 
 <figure markdown>
 ![Bankstown Tower Airspace](img/BKTWR.png){ width="700" }
   <figcaption>Bankstown Tower Airspace</figcaption>
 </figure>
 
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
+
 ## Fixed-Wing Operations
 ### VFR Inbound Procedures
-VFR aircraft will report inbound at `PSP` or `TWRN` at `A015` (when RWY 29s are in use) or `A010` (when RWY 11s are in use).  They should be instructed to join the circuit as below:
+VFR aircraft will report inbound at `PSP` or `TWRN`. They should be instructed to join the circuit as below:
 
 | VFR Approach Point | RWYs 29  | RWYs 11 |
 | ----------------| --------- | ---------- |
@@ -37,7 +37,7 @@ VFR aircraft will report inbound at `PSP` or `TWRN` at `A015` (when RWY 29s are 
 | 2RN (TWRN)   | *"Join crosswind runway 29R, maintain A015"*, then when abeam RWYs 11 threshold or clear of departing traffic, *"Cleared visual approach"* | *"Join final runway 11L, report at Warwick Farm"*  |
 
 !!! note
-    Aircraft joining final in the RWY 11 direction are not assigned a level and are expected to commence a visual approach in accordance with the tracking instructions issued by TWR.  There is no need to clear these aircraft for a visual approach.
+    Aircraft joining final in the RWY 11 direction are not assigned a level and are expected to commence a visual approach in accordance with the tracking instructions issued by ADC. Aircraft are required to enter the control zone at `A010`. There is no need to clear these aircraft for a visual approach.
 
 ### VFR Outbound Procedures
 VFR aircraft should report ready to **BK ADC** with their departure intentions.  A takeoff clearance constitutes a clearance to depart the zone by extending the pilot's requested leg of the circuit.  Aircraft departing the zone into class G airspace will transfer to area frequency upon leaving the zone, **no explicit frequency transfer is given to these aircraft**.
@@ -78,15 +78,15 @@ Helicopters should track inbound at `A007` via one of the normal inbound points 
 | Inbound Point | RWY 11 Config | RWY 29 Config |
 | ----------------| --------- | ---------- |
 | PSP | *"Report CWST"*, then <br>*"Join base main pad"* | *"Report CNTH"*, then <br>*"Join base main pad"* |
-| TWRN | *"Report CSTH, 500ft"*, then <br>*"Overfly midfield at 500ft, join downwind main pad"* | *"Report CSTH, 500ft"*, then <br>*"Overfly midfield at 500ft, join downwind main pad"* |
+| TWRN | *"Report CSTH, A005"*, then <br>*"Overfly midfield at A005, join downwind main pad"* | *"Report CSTH, A005"*, then <br>*"Overfly midfield at A005, join downwind main pad"* |
 | Olympic Park | *"Report CWST"*, then <br>*"Join base main pad"* | *"Report CNTH"*, then <br>*"Join base main pad"* |
 
 !!! note
     Helicopters tracking via CSTH will pass over the runway complex midfield at `A005` to join downwind.  Be mindful of aircraft in the fixed-wing circuit and pass traffic information to both aircraft prior to the fixed-wing aircraft turning final.  
 
     Example:  
-    *"LOI, traffic is a helicopter overflying the aerodrome to the north at 500ft, runway left, cleared touch and go"*  
-    *"YZD, traffic is a Cherokee turning final for runway left, overfly midfield at 500ft, join downwind main pad"*
+    *"LOI, traffic is a helicopter overflying the aerodrome to the north at A005, runway left, cleared touch and go"*  
+    *"YZD, traffic is a Cherokee turning final for runway left, overfly midfield at A005, join downwind main pad"*
 ### Outbound Procedures
 Helicopters should track outbound via one of the helicopter reporting points at `A007`.  Departures to the north must track via `CWST` when RWY 29s are in use and `CNTH` when RWY 11s are in use.
 
@@ -100,7 +100,7 @@ Helicopters shall report ready to **BK ADC** with their departure intentions.  I
     Helicopters tracking via CSTH will pass over the runway complex midfield at `A005` to join downwind.  Be mindful of aircraft in the fixed-wing circuit and pass traffic information to both aircraft prior to the helicopter becoming airborne.  
 
     Example:  
-    *"XEL, traffic is a helicopter overflying the aerodrome to the south at 500ft, runway left, cleared touch and go"*  
+    *"XEL, traffic is a helicopter overflying the aerodrome to the south at A005, runway left, cleared touch and go"*  
     *"YZD, traffic is a Cherokee turning final for runway left, depart Choppers South, main pad, cleared for takeoff"*
 ### Circuits
 Circuits are conducted within the lateral confines of the fixed-wing circuit at `A007`, in the same direction as the current runway config.  The termination point of the circuit is the Main Pad.
@@ -168,7 +168,8 @@ SY TCU will coordinate with BK ADC for incoming IFR arrivals on either Visual Tr
 
 #### Miscellaneous
 
-If aircraft are cleared off runway 11 into CTA, coordination is required with **Director West (SDW)** or **Departures South (SDS)** (depending on YSSY runway config) as the aircraft will pass closer than 'half a radar sep standard from the sector boundary'.
+If aircraft are cleared off runway 11 into CTA, coordination is required with SFW or SDS (depending on YSSY runway config) as the aircraft will pass closer than 1.5nm from the sector boundary.  
+Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for more information, or simply ask an SY TCU for clarification.
 
 !!! Example
     **SDS** -> **SY TCU**: “Request left turn out of Bankstown”  
