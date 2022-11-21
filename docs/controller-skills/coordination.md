@@ -117,7 +117,7 @@ Voice coordinate Sequence prior to **5 mins** from the boundary
 !!! note
     Aircraft estimating the field within **10 minutes** of each other are considered to be in the same sequence.
 ### Class D TWR -> ENR/TCU
-Voice coordinate 'Next' call.
+Voice coordinate 'Next' call for all CTA departures.
 #### Format
 - *"Next"*
 - Callsign
@@ -143,6 +143,13 @@ Receiving a handoff means you are permitted to turn an aircraft **45 degrees lef
 !!! example
     **YWE** -> **TBD**: "ABC, my restriction is DEF, calls you now"  
     **TBD** -> **YWE**: "ABC, restriction is DEF, calls me now"
+
+Upon receipt of a handoff, once the aircraft is established **2.5nm** within your airspace, you are free to turn the aircraft as much as you like. If you need to turn them more than 45 degrees earlier than that, simply ask!
+
+!!! example
+    **KPL** -> **RKA**: "ZYX, do you have any restrictions?"  
+    **RKA** -> **KPL**: "ZYX, no restrictions"  
+    KPL will place *"RKA\NR"* in the label until 2.5nm clear of their airspace, to record that the coordination has been completed.
 
 For more information, refer to individual local instructions.
 
