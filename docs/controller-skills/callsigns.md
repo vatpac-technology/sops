@@ -49,7 +49,7 @@ This page lists some of the most commonly used callsigns in Australia.
 
 | ICAO | Callsign | Country |         
 | ---- | ---------- | ---------- |
-| AAR | ASIANA | Japan |
+| AAR | ASIANA | Korea |
 | AAL | AMERICAN | United States |
 | ACA | AIR CANADA | Canada |
 | AIC | AIR INDIA | India |

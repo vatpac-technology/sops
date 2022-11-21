@@ -8,62 +8,45 @@
 
 | Name | Callsign | Frequency | Login Identifier |
 | ---- | -------- | --------- | ---------------- |
-| Coffs Harbour ADC | Coffs Harbour Tower | 118.200 | CFS_TWR |
+| Coffs Harbour ADC | Coffs Tower | 118.200 | CFS_TWR |
 | Coffs Harbour ATIS | N/A | 130.300 | YCFS_ATIS |
 
 ## Airspace
 
 <figure markdown>
-![YCFS Airspace](img/ycfs_airspace.png){ width="700" }
-  <figcaption>YCFS Airspace</figcaption>
+![CFS TWR Airspace](img/ycfs_airspace.png){ width="700" }
+  <figcaption>CFS TWR Airspace</figcaption>
 </figure>
 
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
+
 ## Surveillance
-CFS TWR is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be not available below **2800 feet** in the CFS CTR.  
+CFS ADC is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be not available below `A028` in the CFS CTR.  
 For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
 
-CFS TWR must establish a [Procedural Standard](../../controller-skills/SepStandards/#procedural) prior to losing surveillance identification of an aircraft.
+CFS ADC must establish a [Procedural Standard](../../controller-skills/classdtwr/#standards) prior to losing surveillance identification of an aircraft.
+
+!!! caution
+    A procedural and/or visual standard **must** be put in place for all aircraft below `A028`.
 ## Instrument Approaches
-Only one aircraft is permitted to conduct an instrument approach at any time, due to limited surveillance coverage. CFS TWR must ensure that all aircraft are procedurally separated from any portion of an instrument approach and missed approach that is conducted below **2800 feet**.  
+Only one aircraft is permitted to conduct an instrument approach at any time, due to limited surveillance coverage. CFS ADC must ensure that all aircraft are procedurally separated from any portion of an instrument approach and missed approach that is conducted below `A028`.  
 
-If required, CFS TWR can pass amended tracking/level instructions to an aircraft for a missed approach for separation purposes, as long as the aircraft can be issued **uninterrupted climb** to the LSALT/MSA once identified.
+If required, CFS ADC can pass amended tracking/level instructions to an aircraft for a missed approach for separation purposes, as long as the aircraft can be issued **uninterrupted climb** to the LSALT/MSA once identified.
+
 ## Coordination
-### CFS ADC / ENR
-
-#### Taxi Call
-A taxi call shall be made between CFS TWR and BN CTR as an aircraft is given taxi clearance. Center will respond by acknowledging the callsign and activating FDR.
+### Departures
+A 'next' call is made for all aircraft when they are next to depart. CFS ADC must inform INL/ARL(MNN) if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
-    **CFS_TWR** -> **BN-INL_CTR**: "Taxis QLK105D for YSSY via SORTI"  
-    **BN-INL_CTR** -> **CFS_TWR**: "QLK105D"  
+    **CFS ADC** -> **MNN**: "Next, QJE1573"  
+    **MNN** -> **CFS ADC**: "QJE1573"  
 
-#### Next Call
-A next call is made for all aircraft when they are next to depart and will be departing within two minutes. Center will respond by either acknowledging the callsign or offering a higher level. Any higher level issued will be passed along in the takeoff clearance. If the controller is in a high workload environment, a next call may be omitted, in favour of taxi and departure coordination.
-
-!!! example
-    **CFS_TWR** -> **BN-INL_CTR**: "Next QLK105D"  
-    **BN-INL_CTR** -> **CFS_TWR**: "QLK105D, FL120"  
-    **CFS_TWR** -> **BN-INL_CTR**: "FL120, QLK105D"  
-
-#### Departure Call
-A departure call should be made as the aircraft becomes airborne. If not already issued, CTR will issue a higher level. The aircraft should be transferred to CTR as they climb through the upper level of the CFS Class D airspace.
+The Standard Assignable level from CFS ADC to INL/ARL(MNN) is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
+### Arrivals
+INL/ARL(MNN) will coordinate the sequence to CFS ADC.
 
 !!! example
-    **CFS_TWR** -> **BN-INL_CTR**: "Departure QLK105D at 06"  
-    **BN-INL_CTR** -> **CFS_TWR**: "QLK105D"
+    **INL** -> **CFS ADC**: "New Sequence of 2. Via GAMBL, RXA9904, Number 1. Via TUCAB, LYM, Number 2”  
+    **CFS ADC** -> **INL**: "RXA9904, Number 1. LYM, Number 2"  
 
-#### Arrival Coordination
-BN_CTR will coordinate all arrivals into Coffs Harbour Prior to handing over to tower in the following format:
-
-- Callsign & Aircraft Type
-- Estimate
-- Inbound Radial/Procedure
-- Assigned Level
-- Sequence Number (if applicable)
-
-!!! example
-    **BN-INL_CTR** -> **CFS_TWR**: "QLK116D, DH8D, estimates Coffs Harbour 52, RNP 03 via CFSSG, A055, number 1”
-    **CFS_TWR** -> **BN-INL_CTR**: "QLK116D"
-## Standard Assignable Level
-In IMC, aircraft must be assigned a minimum of `A070`. This shall be coordinated with CTR.  
-In VMC, aircraft may be issued `A040 VISUAL` without prior coordination regarding the level.
+The Standard Assignable level from INL/ARL(MNN) to CFS ADC is `A080`, any other level must be prior coordinated.

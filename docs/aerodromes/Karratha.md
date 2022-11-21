@@ -19,48 +19,25 @@
   <figcaption>YPKA Airspace</figcaption>
 </figure>
 
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
+
 ## Surveillance
-KA TWR is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels in the KA CTR.  
+KA ADC is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels in the KA CTR.  
 For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
 ## Coordination
-### KA ADC / ENR
-
-#### Taxi Call
-A taxi call shall be made between KA TWR and BN CTR A an aircraft is given taxi clearance. Center will respond by acknowledging the callsign and activating FDR.
+### Departures
+A 'next' call is made for all aircraft when they are next to depart. KA ADC must inform OLW if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
-    **KA_TWR** -> **ML-OLW_CTR**: "Taxis NWK694 for YPPH via COBRA"  
-    **ML-OLW_CTR** -> **KA_TWR**: "NWK694"  
+    **KA ADC** -> **OLW**: "Next, NWK694"  
+    **OLW** -> **KA ADC**: "NWK694"  
 
-#### Next Call
-A next call is made for all aircraft when they are next to depart and will be departing within two minutes. Center will respond by either acknowledging the callsign or offering a higher level. Any higher level issued will be passed along in the takeoff clearance. If the controller is in a high workload environment, a next call may be omitted, in favour of taxi and departure coordination.
-
-!!! example
-    **KA_TWR** -> **ML-OLW_CTR**: "Next NWK694"  
-    **ML-OLW_CTR** -> **KA_TWR**: "NWK694"    
-
-#### Departure Call
-A departure call should be made as the aircraft becomes airborne. If not already issued, CTR will issue a higher level. The aircraft should be transferred to CTR as they climb through the upper level of the KA class D airspace.
+The Standard Assignable level from KA ADC to OLW is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
+### Arrivals
+OLW will coordinate the sequence to KA ADC.
 
 !!! example
-    **KA_TWR** -> **ML-OLW_CTR**: "Departure NWK694 at 06"  
-    **ML-OLW_CTR** -> **KA_TWR**: "NWK694, FL360"
-    **KA_TWR** -> **ML-OLW_CTR**: "FL360, NWK694" 
-#### Arrival Coordination
-ML-OLW_CTR will coordinate all arrivals into Karratha Prior to handing over to tower in the following format:
+    **OLW** -> **KA ADC**: "New Sequence of 2. Via PD, FD630J, Number 1. Via PKAEC for the RNAV Z RWY 26, VOZ1729, Number 2”  
+    **KA ADC** -> **OLW**: "FD630J, Number 1. VOZ1729, Number 2"  
 
-- Callsign & Aircraft Type
-- Estimate
-- Inbound Radial/Procedure
-- Assigned Level
-- Sequence Number (if applicable)
-
-!!! example
-    **ML-OLW_CTR** -> **KA_TWR**: "JST734, A320, estimates Karratha 52, 189 radial, 5000ft, number ”
-    **KA_TWR** -> **ML-OLW_CTR**: "JST734"
-
-## Standard Assignable Levels
-
-Aircraft departing from Karratha shall be assigned `A050` or `RFL` if lower.
-
-Aircraft arriving into Karratha shall be assigned `A060`.
+The Standard Assignable level from OLW to KA ADC is `A060`, any other level must be prior coordinated.

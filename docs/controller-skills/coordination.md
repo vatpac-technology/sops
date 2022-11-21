@@ -64,6 +64,44 @@ The "C-Prompt" can be displayed by middle clicking the area just above the aircr
 
 Remove the "C-Prompt" once jurisdiction of the aircraft has been handed off, and the new frequency has been correctly read back.
 
+## No Frequency Requirements (NFR)
+Occasionally, aircraft may clip small parts of a sector's airspace on their planned route. If an aircraft only enters someone's airspace for a small distance, there is usually no need for them to talk to that controller. In this instance, A controller may coordinate an aircraft to have "No Frequency Requirements" with another controller, or vice versa. This shall also be supplemented by the nomination of a restriction, or lack thereof. See below:
+
+Source: [Annotations](../../controller-skills/annotations)
+
+| Label Data / Global Ops | Meaning | Note |
+| ---- | ----------- | --- |
+| **NFR** | No Frequency Requirements | |
+| **NRD** | No Restrictions on Descent | Additional coordination must be done for any **lateral** changes |
+| **NRC** | No Restrictions on Climb | Additional coordination must be done for any **lateral** changes |
+| **NVR** | No Vertical Restrictions | Additional coordination must be done for any **lateral** changes |
+| **NLR** | No Lateral Restrictions | Additional coordination must be done for any **level** changes |
+| **C(lvl)** | Cleared level (lvl) | Additional coordination must be done for any **lateral or level** changes |
+| **NRR** | No Restrictions or Requirements | **Any and all** lateral and level changes approved |
+
+*Offering NFR*
+!!! example
+    ABC tracking MNG W663 VINOP  
+    **ELW** -> **YWE**: "via MNG, ABC, if you have no restrictions or requirements, my onwards with OXL"  
+    **YWE** -> **ELW**: "ABC, I have no restrictions or requirements, your onwards with OXL"  
+    ELW will put *"YWE NRR"* in the label data  
+    **ELW** -> **OXL**: "via MNG, ABC, YWE has no restrictions or requirements"  
+    **OXL** -> **YWE**: "ABC, F190"  
+    ELW will handoff the aircraft directly to OXL
+
+*Initiating NFR*
+!!! example
+    DEF tracking EML-LEMER-RK  
+    **SWY** -> **CVN**: "via LEMER, DEF, I have no vertical restrictions or frequency requirements, your onwards with KPL"  
+    **CVN** -> **SWY**: "DEF, my onwards with KPL"  
+    CVN will put *"SWY NVR NFR"* in the label data  
+    **CVN** -> **KPL**: "via LEMER, DEF, SWY has no vertical restrictions or frequency requirements"  
+    **KPL** -> **CVN**: "DEF"  
+    CVN will handoff the aircraft directly to KPL
+
+!!! note
+    It is important to remember that this coordination is still a negotiation. You are free to reject any proposition that doesn't work for you and your traffic picture. And if there is a particular restriction to nominate, it is always best to take the aircraft on frequency.
+
 ## Rules
 ## General
 Coordination must be done on a **point-to-point** basis. Meaning, you can only coordinate with the sector which the aircraft is coming from, or going to, no skipping! This is important to remember, for example, if you are controlling ELW, and you would like to pass an amended route to someone on the ground at YMML. Whilst that may be no issue for ELW, ML SMC and ML ADC, it might not work for ML APP. ML APP would be the sector which the aircraft is coming from, so ELW must talk to them, and it is the responsibility of ML APP to work backwards down the line on a point-to-point basis.
@@ -72,37 +110,33 @@ Ensure no coordination is ambiguous in its meaning. Not all coordination can be 
 ### ENR/TCU -> Class D TWR
 Voice coordinate Sequence prior to **5 mins** from the boundary
 #### Format
-- Callsign
 - *"via (Route/Procedure)"*
+- Callsign
 - Level (if not Standard Assignable)
-- Sequence Number (if applicable)
+- Sequence Number (if Sequence of more than 1)
 !!! note
     Aircraft estimating the field within **10 minutes** of each other are considered to be in the same sequence.
 ### Class D TWR -> ENR/TCU
-Voice coordinate Taxi call for CTA departures, Next call for **all** departures.
-!!! note
-    A Departure call is required at some Class D aerodromes with limited surveillance coverage. Refer to inidividual local instructions.
+Voice coordinate 'Next' call.
+#### Format
+- *"Next"*
+- Callsign
+- Level (if not Standard Assignable)
 ### ENR -> TCU
 **Voiceless** for aircraft landing at main airport (eg YMML in ML TCU), assigned a STAR, and standard assignable level.  
 Voice coordinate all other aircraft by **20nm** to boundary
 ### TCU -> ENR
 **Voiceless** for aircraft assigned lower of standard assignable level or RFL, and tracking via SID terminus
 ### ENR -> Oceanic
-Voice coordinate estimate and level prior to **15 mins** to boundary
-#### Format
-- Callsign
-- *"via (Boundary point)"*
-- Estimate
-- Level (add *"On climb"* or *"On descent"* if applicable)
+Voice coordinate prior to **15 mins** to boundary
 ### Oceanic -> ENR
-Voice coordinate estimate and level prior to **15 mins** to boundary
-#### Format
-- Callsign
-- *"via (Boundary point)"*
-- Estimate
-- Level (add *"On climb"* or *"On descent"* if applicable)
+Voice coordinate prior to **15 mins** to boundary
+### Oceanic -> Oceanic
+Voice coordinate prior to **30 mins** to boundary (**15 mins** to Australia and New Zealand units)
 ### ENR -> ENR
 **Voiceless**, no changes to route or CFL within **20nm** to boundary
+!!! note
+    Except as amended by Local Instructions
 ## Handoffs
 Receiving a handoff means you are permitted to turn an aircraft **45 degrees left or right**, and **climb/descend it to any level** without coordination. Do not handoff an aircraft to another sector if a turn of 45 degrees or a change of level would cause a conflict with any of your own aircraft. Or alternatively, you can nominate a restriction prior to handoff.
 

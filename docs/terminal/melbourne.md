@@ -13,17 +13,14 @@
 | Melbourne Departures South†   |MDS| Melbourne Departures | 129.400          | ML-S_DEP         |
 | Melbourne Flow†        |MFL|                |          | ML-FLW_CTR                               |
 
-† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}
+† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
-The Melbourne TMA spans a 30nm Radius around ML from SFC-FL245, as well as the AV CTR.   
-ML TCU is responsible for the Melbourne TMA, except:    
-a) AV CTR (SFC-A025) when **AV TWR** is online.  
-b) MB CTR when **MB TWR** is online.  
-c) The Sunbury Corridor, when **ML TWR** is online  
-d) The South East Quadrant, when **EN TWR** is online  
-e) The Coffin, when **EN TWR** is online, and the airspace has been released to **EN TWR**  
-f) Any airspace released to an external unit (e.g. tower) either by NOTAM or as negotiated.
+The Melbourne TCU spans a 30nm Radius around ML from `SFC` to `F245`, as well as the AV CTR.   
+ML TCU is responsible for the Melbourne TCU, except:    
+a) The Sunbury Corridor, when **ML ADC** is online  
+b) The South East Quadrant, when **EN ADC** is online  
+c) The Coffin, when **EN ADC** is online, and the airspace has been released to **EN ADC**  
 
 <figure markdown>
 ![Melbourne TCU Airspace Administration](img/MLTCUairspace.png){ width="500" }
@@ -33,12 +30,9 @@ f) Any airspace released to an external unit (e.g. tower) either by NOTAM or as 
 !!! note
     The released airspace of the Sunbury Corridor and South East Quadrant is only from the lower level of CTA. ML TCU still owns the Class G airspace beneath it.
 
-MB CTR reverts to Class G when **MB TWR** is offline, and is administered by the relevant ML TCU controller.    
-EN CTR reverts to Class G when **EN TWR** is offline, and is administered by the relevant ML TCU controller.  
-AV CTR Class D reverts to Class G when **AV_TWR** is offline, and is administered by the relevant ML TCU controller.  
-In the absence of a **MDS** controller, **MDN** shall asssume the **MDS** airspace.  
-In the absence of a **MDN** controller, **MAE** shall asssume the **MDN** and **MDS** airspace.  
-ML TCU is responsible for the provision of ADC, SMC and ACD responsibilities when **ML TWR** is offline.
+MB CTR reverts to Class G when **MB ADC** is offline, and is administered by the relevant ML TCU controller.    
+EN CTR reverts to Class G when **EN ADC** is offline, and is administered by the relevant ML TCU controller.  
+AV CTR Class D `SFC` to `A007` reverts to Class G and `A007` to `A025` to Class E when **AV ADC** is offline, and is administered by the relevant ML TCU controller.  
 
 ## Arrival Procedures
 ### Level Assignment
@@ -63,31 +57,34 @@ VFR YMEN Arrivals from ML TCU shall be cleared via any of the following arrival 
 `SNP` (Station Pier)  
 `WES` (Westgate Bridge)  
 
-## YMEN TWR Offline
+## EN ADC Offline
 ### Arrivals
-The class C airspace surrounding YMEN extends to SFC.  This means that aircraft conducting approaches will remain inside controlled airspace until they land (and in the event of a go around).  These aircraft should be cleared for an appropriate approach, advised of any traffic taxiing at YMEN, and instructed to *'report clear of the runway'*.  The missed approach path must be protected until the aircraft reports clear.
+The class C airspace surrounding YMEN extends to `SFC`.  This means that aircraft conducting approaches will remain inside controlled airspace until they land (and in the event of a go around).  These aircraft should be cleared for an appropriate approach, advised of any traffic taxiing at YMEN, and instructed to *'report clear of the runway'*.  The missed approach path must be protected until the aircraft reports clear.
 
 !!! example
     **ML TCU:** "SH490, cleared ILS Runway 26 approach, traffic taxiing for the holding point is UJA, an Aero Commander, report clear of the runway"  
     **SH490:** "Cleared ILS Runway 26, copy UJA, SH490"  
 
     **SH490:** "SH490, clear of the runway, Essendon, cancel SARWATCH"  
-    **ML TCU:** "SH490, Essendon SARWATCH terminated, gday"
+    **ML TCU:** "SH490, Essendon SARWATCH terminated"
+    `AIP GEN 3.4`
 ### Departures
-Essendon has unique procedures due to its position in the ML CTR, with controlled airspace to the ground.  Departing aircraft will request airways clearance and engine start while on the bay and ML TCU will provide current weather conditions, expected runway for departure, and clearance.  On completion of the readback, aircraft should be instructed to *'report taxiing to runway XX'*.
+Essendon has unique procedures due to its position in the ML CTR, with controlled airspace to the ground.  Departing aircraft will request airways clearance and engine start while on the bay and ML TCU will provide current weather conditions, expected runway for departure, and clearance. On completion of the readback, aircraft should be instructed to *'report taxiing to runway XX'*.
 
 !!! example
-    **FDK**: "Melbourne Approach, FDK, YMEN for YSHT, request clearance and engine start" `AIP GEN 3.4`  
+    **FDK**: "Melbourne Approach, FDK, YMEN for YSHT, request clearance and engine start"    
     **ML TCU**: "FDK, Melbourne Approach, wind 290 degrees 4 knots, QNH 1017, cleared to YSHT via MNG, flight planned route, visual departure, climb to A040, expect runway 35"  
     **FDK**: "QNH 1017, cleared to YSHT via MNG, flight planned route, visual departure, climb to A040, FDK"  
     **ML TCU**: "FDK, start approved, report taxiing for runway 35"  
-    **FDK**: "Start approved, FDK"
+    **FDK**: "Start approved, FDK"  
+    `AIP GEN 3.4`
 
 When the aircraft reports taxiing, issue a traffic statement and instruct them to report at the holding point for departure instructions.
 !!! example
     **FDK**: "FDK, taxiing runway 35"  
     **ML TCU**: "FDK, traffic is CBN, a Cherokee, 5nm final runway 35, report at the holding point for departure instructions"  
-    **FDK**: "Copy CBN, wilco, FDK"
+    **FDK**: "Copy CBN, wilco, FDK"  
+    `AIP GEN 3.4`
 
 Once the aircraft is ready for departure and no conflict exists in your airspace, issue any relevant departure instructions (assigned heading, visual turns, etc).  If a departure is not yet available, instruct the pilot to hold on the ground and indicate the reason for the delay.
 !!! example
@@ -96,9 +93,10 @@ Once the aircraft is ready for departure and no conflict exists in your airspace
     **FDK**: "Hold at the holding point, FDK"  
 
     **ML TCU**: "FDK, make right turn, report airborne"  
-    **FDK**: "Make right turn, FDK"
+    **FDK**: "Make right turn, FDK"  
+    `AIP GEN 3.4`
 
-## YMAV TWR Offline
+## AV ADC Offline
 ### Arrivals
 Due to the low level of CTA above Avalon, aircraft conducting approaches will commence the approach inside controlled airspace and leave CTA on descent.  If the aircraft goes around, they will re-enter controlled airspace.  These aircraft should be cleared to leave controlled airspace descending via an appropriate approach and instructed to *'report clear of the runway'*.  The missed approach path must be protected until the aircraft reports clear.
 
@@ -110,7 +108,8 @@ Due to the low level of CTA above Avalon, aircraft conducting approaches will co
     **JST607:** "Cleared to leave control area descending via the ILS Runway 18 approach, JST607"  
 
     **JST607:** "JST607, clear of the runway, Avalon, cancel SARWATCH"  
-    **ML TCU:** "JST607, Avalon SARWATCH terminated, gday"
+    **ML TCU:** "JST607, Avalon SARWATCH terminated"  
+    `AIP GEN 3.4`
 
 <figure markdown>
 ![Approximate Airspace Split](img/YMAV_approach.png)
@@ -121,7 +120,7 @@ Due to the low level of CTA above Avalon, aircraft conducting approaches will co
 Departing aircraft generally require an airways clearance on the ground, due to the low level of CTA.  Aircraft should report taxiing to the TCU controller, who will issue a squawk code and traffic statement.  These aircraft should be instructed to report at the holding point, where airways clearance will be issued.
 
 !!! example
-    **AM318**: "Melbourne Approach, AM318, King Air IFR, taxiing YMAV runway 18 for YMEN, 2 POB" `AIP GEN 3.4`  
+    **AM318**: "Melbourne Approach, AM318, King Air, POB 2, IFR, taxiing YMAV runway 18 for YMEN"
     **ML TCU**: "AM318, Melbourne Approach, squawk 3542, no reported IFR traffic, report ready at the holding point for airways clearance"  
     **AM318**: "Squawk 3542, wilco, AM318"  
     
@@ -129,32 +128,35 @@ Departing aircraft generally require an airways clearance on the ground, due to 
     **ML TCU**: "AM318, cleared to YMEN direct, AV5 departure, climb via SID to A040"  
     **AM318**: "Cleared to YMEN direct, AV5 departure, climb via SID to A040, AM318"  
     **ML TCU**: "AM318, assigned heading left 020, report airborne"  
-    **AM318**: "Assigned left 020, wilco, AM318"  
+    **AM318**: "Assigned left 020, wilco, AM318"    
+    `AIP GEN 3.4`
 
-## YMMB TWR Offline
+## MB ADC Offline
 ### Arrivals
 IFR aircraft cruising inside CTA will generally commence an instrument approach from within controlled airspace and leave CTA on descent.  The missed approach procedure will keep these aircraft outside controlled airspace, so does not need to be protected by the TCU controller.  Clear these aircraft to leave CTA descending via an appropriate approach.
 
 !!! example
     **ML TCU:** "OFX, cleared to leave control area descending via the RNP Runway 17L approach, no reported IFR traffic"  
     **OFX:** "Cleared to leave control area descending via the RNP Runway 17L approach, OFX"  
+    `AIP GEN 3.4` 
 ### Departures
 Due to the low level of CTA surrounding YMMB, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
 !!! example
-    **AAC:** "Melbourne Approach, AAC, PC12 IFR, taxiing YMMB for YBLT, runway 35L, 7 POB" `AIP GEN 3.4`  
+    **AAC:** "Melbourne Approach, AAC, PC12, POB 7, IFR, taxiing YMMB for YBLT, runway 35L"  
     **ML TCU:** "AAC, Melbourne Approach, squawk 4301, no reported IFR traffic, report ready at the holding point for airways clearance"  
     **AAC:** "Squawk 4301, wilco, AAC" 
 
     **AAC:** "AAC, ready runway 35L"  
     **ML TCU:** "AAC, Cleared to YBLT via SAMIG, flight planned route, make visual left turn DCT SAMIG, climb to A040"  
-    **AAC:** "Cleared to YBLT via SAMIG, flight planned route, make visual left turn DCT SAMIG, climb to A040, AAC" 
+    **AAC:** "Cleared to YBLT via SAMIG, flight planned route, make visual left turn DCT SAMIG, climb to A040, AAC"  
+    `AIP GEN 3.4`
 ## Airspace Division
 
 The divisions of the airspace between **MAE**, **MDN**, and **MDS** change based on the Runway Mode.
 
 !!! note
-    The following diagrams do not include non ML TCU areas of responsibility such as MB CTR or AV TWR
+    The following diagrams do not include non ML TCU areas of responsibility such as MB CTR or AV ADC
 
 ### 09
 <figure markdown>
@@ -190,7 +192,7 @@ The divisions of the airspace between **MAE**, **MDN**, and **MDS** change based
 
 ### ML TCU / ENR
 #### Departures
-Voiceless coordination is in place from ML TCU to all surrounding ENR sectors (**ELW** to the East, **YWE**/**WON** all other directions) for aircraft:<ul><li>Planned at or above F240: `Assigned F240`</li><li>Planned below F240: `Assigned the RFL`</li></ul>
+Voiceless coordination is in place from ML TCU to all surrounding ENR sectors (**ELW** to the East, **YWE**/**WON** all other directions) for aircraft:<ul><li>Planned at or above `F240`: `Assigned F240`</li><li>Planned below `F240`: `Assigned the RFL`</li></ul>
 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
@@ -209,7 +211,7 @@ a) Departing from a runway nominated on the ATIS; and
 b) Issued a Procedural SID; and   
 c) Assigned `A050`.
 
-Any aircraft that don't meet these criteria must be coordinated to ML TCU with a "Next" Call.
+Any aircraft that don't meet these criteria must be coordinated to ML TCU with a "Next" Call.  
 
 "Next" Coordination is a procedure where the ML ADC controller gives a heads-up to the ML TCU controller about an impending departure. The ML TCU controller will respond by assigning any relevant departure instructions (i.e. assigned heading, amended altitude, visual turn) to the aircraft, for the ML ADC controller to pass on with their takeoff clearance.
 
@@ -222,65 +224,73 @@ Any aircraft that don't meet these criteria must be coordinated to ML TCU with a
     **CYF:** "Track extended centreline 340 degrees, Runway 34, cleared for takeoff, CYF"  
     `AIP GEN 3.4`
 
-### ML TCU / EN TWR
+### ML TCU / EN ADC
 #### Departures
 
-Aircraft departing YMEN in to ML TCU Class C will be coordinated from **EN TWR** at Taxi.
+Aircraft departing YMEN in to ML TCU Class C will be coordinated from **EN ADC** at Taxi.
 
 !!! example
-    **EN TWR** -> **ML TCU**: "Taxi, AM322 for YBDG via ML, Runway 17"  
-    **ML TCU** -> **EN TWR**: "AM322, A030"  
-    **EN TWR** -> **ML TCU**: "A030, AM322" 
+    **EN ADC** -> **ML TCU**: "Taxi, AM322 for YBDG via ML, Runway 17"  
+    **ML TCU** -> **EN ADC**: "AM322, A030"  
+    **EN ADC** -> **ML TCU**: "A030, AM322" 
+    `AIP GEN 3.4`
 #### Arrivals
-ML TCU must coordinate the sequence information to **EN TWR** prior to transfer of jurisdiction. ML TCU is responsible for clearing aircraft for the approach prior to handoff to **EN TWR**.
+ML TCU must coordinate the sequence information to **EN ADC** prior to transfer of jurisdiction. ML TCU is responsible for clearing aircraft for the approach prior to handoff to **EN ADC**.
 
 !!! example
-    **ML TCU** -> **EN TWR**: "New sequence of 1, CJI, via MONTY, Number 1"  
-    **EN TWR** -> **ML TCU**: "CJI, Number 1"  
-### ML TCU / AV TWR
+    **ML TCU** -> **EN ADC**: "New sequence of 1, CJI, via MONTY, Number 1"  
+    **EN ADC** -> **ML TCU**: "CJI, Number 1"  
+    `AIP GEN 3.4`
+### ML TCU / AV ADC
 #### Departures
 
-Aircraft departing YMAV in to ML TCU CTA will be coordinated from **AV TWR** at Taxi.
+Aircraft departing YMAV in to ML TCU CTA will be coordinated from **AV ADC** at Taxi.
 
 !!! example
-    **AV TWR** -> **ML TCU**: "Taxi, JST604 for YSSY, Runway 18, JUSTY2 departure"  
-    **ML TCU** -> **AV TWR**: "JST604"
+    **AV ADC** -> **ML TCU**: "Taxi, JST604 for YSSY, Runway 18, JUSTY2 departure"  
+    **ML TCU** -> **AV ADC**: "JST604"
+    `AIP GEN 3.4`
 
-When the aircraft is ready for takeoff, **AV TWR** will give a "Next" call, where ML TCU will provide the cleared level, and any additional departure instructions.
+When the aircraft is ready for takeoff, **AV ADC** will give a "Next" call, where ML TCU will provide the cleared level, and any additional departure instructions.
 
 !!! example
-    **AV TWR** -> **ML TCU**: "Next, JST604"  
-    **ML TCU** -> **AV TWR**: "JST604, A040"  
-    **AV TWR** -> **ML TCU**: "A040, JST604"
+    **AV ADC** -> **ML TCU**: "Next, JST604"  
+    **ML TCU** -> **AV ADC**: "JST604, A040"  
+    **AV ADC** -> **ML TCU**: "A040, JST604"
+    `AIP GEN 3.4`
 #### Arrivals
-ML TCU must coordinate the sequence information to **AV TWR** prior to transfer of jurisdiction.
+ML TCU must coordinate the sequence information to **AV ADC** prior to transfer of jurisdiction.
 
 !!! example
-    **ML TCU** -> **AV TWR**: "JST612, via TEMPL, Number 1"  
-    **AV TWR** -> **ML TCU**: "JST612, Number 1"  
+    **ML TCU** -> **AV ADC**: "JST612, via TEMPL, Number 1"  
+    **AV ADC** -> **ML TCU**: "JST612, Number 1"  
+    `AIP GEN 3.4`
 
-### ML TCU / MB TWR
+### ML TCU / MB ADC
 #### Departures
 
-Aircraft departing YMMB in to ML TCU CTA will be coordinated from **MB TWR** at Taxi.
+Aircraft departing YMMB in to ML TCU CTA will be coordinated from **MB ADC** at Taxi.
 
 !!! example
-    **MB TWR** -> **ML TCU**: "Taxi, SGE for YBLT via ML"  
-    **ML TCU** -> **MB TWR**: "SGE for YBLT via ML, Squawk 3601"  
-    **MB TWR** -> **ML TCU**: "3601, SGE"
+    **MB ADC** -> **ML TCU**: "Taxi, SGE for YBLT via ML"  
+    **ML TCU** -> **MB ADC**: "SGE for YBLT via ML, Squawk 3601"  
+    **MB ADC** -> **ML TCU**: "3601, SGE"
+    `AIP GEN 3.4`
 
-When the aircraft is ready for takeoff, **MB TWR** will give a "Next" call, where ML TCU will provide the cleared level.
+When the aircraft is ready for takeoff, **MB ADC** will give a "Next" call, where ML TCU will provide the cleared level.
 
 !!! example
-    **MB TWR** -> **ML TCU**: "Next, SGE"  
-    **ML TCU** -> **MB TWR**: "SGE, A060"  
-    **MB TWR** -> **ML TCU**: "A060, SGE"
+    **MB ADC** -> **ML TCU**: "Next, SGE"  
+    **ML TCU** -> **MB ADC**: "SGE, A060"  
+    **MB ADC** -> **ML TCU**: "A060, SGE"
+    `AIP GEN 3.4`
 
 !!! note
     ML TCU will not receive a taxi call on aircraft departing in to Class G airspace, including aircraft that have planned to leave and re-enter controlled airspace (for example, aircraft planned at or above A050 on the MB-AV track). In this instance, ML TCU is only required to readback the callsign at the "Next" call. ML TCU will then give airways clearance to the aircraft on first contact if required.
 #### Arrivals
-ML TCU Must coordinate the sequence information to **MB TWR** prior to transfer of jurisdiction.
+ML TCU Must coordinate the sequence information to **MB ADC** prior to transfer of jurisdiction.
 
 !!! example
-    **ML TCU** -> **MB TWR**: "New sequence of 1, OXA, via MMBSA, Number 1"  
-    **MB TWR** -> **ML TCU**: "OXA, Number 1"  
+    **ML TCU** -> **MB ADC**: "New sequence of 1, OXA, via MMBSA, Number 1"  
+    **MB ADC** -> **ML TCU**: "OXA, Number 1"  
+    `AIP GEN 3.4`

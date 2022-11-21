@@ -9,23 +9,25 @@
 
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Camden ADC**  | **Camden Tower**  | **120.100**          | **CN_TWR**                        |
-| **Camden SMC**   | **Camden Ground**   | **121.900**          | **CN_GND**                       |
+| Camden ADC | Camden Tower | 120.100          | CN_TWR                        |
+| Camden SMC  | Camden Ground   | 121.900          | CN_GND                      |
 | Camden ATIS        |                | 125.100          | YSCN_ATIS                                |
 
- 
-In the absence of an SMC controller, ADC shall assume the SMC responsibilities.
+
 <figure markdown>
 ![YSCN Maneuvering Area](img/YSCN_ManMap.PNG){ width="500" }
 <figcaption>Maneuvering Area</figcaption>
 </figure>
 
 ## Airspace
-Tower airspace is defined as between SFC to 2000 FT.  
+Tower airspace is defined as between `SFC` to `A020`.  
+
 <figure markdown>
 ![Camden Tower Airspace](img/YSCN_Vatsys.PNG){ width="700" }
 <figcaption>Camden Tower Airspace</figcaption>
 </figure>  
+
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
 ## VFR Inbound Procedures
 VFR aircraft should track via one of the VFR inbound points and be instructed as below:
@@ -83,7 +85,7 @@ Some aircraft may request to leave the CTR on climb above `A013`.  If there is n
 ## ATIS
 ### Approach Expectation
 
-When there is significant cloud in the YSCN area below 3500ft, the APCH field must include `EXP INST APCH`.
+When there is significant cloud in the YSCN area below `A035`, the APCH field must include `EXP INST APCH`.
 
 ## Coordination
 ### CN SMC & ADC / SY TCU
@@ -102,16 +104,16 @@ CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a
 
 !!! example
     **CN ADC** -> **SY TCU**: "Ready, MHQ, Runway 06"  
-    **SY TCU** -> **CN ADC**: "MHQ, traffic is MEH, an IFR AC50, tracking SHL RAKSO SBKWI, 3500ft, estimate RAKSO time 35" (or "No Reported IFR Traffic")  
-    **CN ADC** -> **SY TCU**: "Traffic is MEH tracking SHL RAKSO SBKWI 3500ft, RAKSO at 35"  
+    **SY TCU** -> **CN ADC**: "MHQ, traffic is MEH, an IFR AC50, tracking SHL RAKSO SBKWI, A035, estimate RAKSO time 35" (or "No Reported IFR Traffic")  
+    **CN ADC** -> **SY TCU**: "Traffic is MEH tracking SHL RAKSO SBKWI A035, RAKSO at 35"  
     
-    **CN ADC:** "MHQ, traffic is MEH, IFR AC50 tracking SHL RAKSO SBKWI at 3500ft, estimating RAKSO at time 35, runway 06, cleared for takeoff"  
+    **CN ADC:** "MHQ, traffic is MEH, IFR AC50 tracking SHL RAKSO SBKWI at A035, estimating RAKSO at time 35, runway 06, cleared for takeoff"  
     **MHQ:** "Copy MEH, runway 06, cleared for takeoff, MHQ"
       
     **CN ADC:** "MHQ, contact Sydney Departures on 129.7"  
 
 !!! note
-    Note: Because aircraft enter Class G after departure, an airways clearance need not be issued by CN TWR. This will be done on first contact with Sydney TCU.
+    Note: Because aircraft enter Class G after departure, an airways clearance need not be issued by CN ADC. This will be done on first contact with Sydney TCU.
     Therefore, a *next* call & *departure instructions* are not required. You must however, pass the above (ready) coordination & obtain a traffic statement.
 
 
@@ -146,4 +148,4 @@ SY TCU must coordinate the Estimate and approximate inbound track for IFR aircra
 
 #### IFR overflying YSCN
 
-SY TCU must advise CN ADC of observed IFR aircraft overflying CN CTR below 2500ft.
+SY TCU must advise CN ADC of observed IFR aircraft overflying CN CTR below `A025`.

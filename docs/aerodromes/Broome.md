@@ -19,46 +19,26 @@
   <figcaption>YBRM Airspace</figcaption>
 </figure>
 
+Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
+
 ## Surveillance
-BRM TWR is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels in the BRM CTR.  
+BRM ADC is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels in the BRM CTR.  
 For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
 ## Coordination
-### AY ADC / ENR
-
-#### Taxi Call
-A taxi call shall be made between AY TWR and ML CTR as an aircraft is given taxi clearance. Center will respond by acknowledging the callsign and activating FDR.
+### Departures
+A 'next' call is made for all aircraft when they are next to depart. BRM ADC must inform TRT(KIY) if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
-    **AY_TWR** -> **ML-BLA_CTR**: "Taxis QFA400 for YSSY via MUSOP"  
-    **ML-BLA_CTR** -> **AY_TWR**: "QFA400"  
+    **BRM ADC** -> **KIY**: "Next, NWK1653"  
+    **KIY** -> **BRM ADC**: "NWK1653"
 
-#### Next Call
-A next call is made for all aircraft when they are next to depart and will be departing within two minutes. Center will respond by either acknowledging the callsign or offering a higher level. Any higher level issued will be passed along in the takeoff clearance. If the controller is in a high workload environment, a next call may be omitted, in favour of taxi and departure coordination.
+The Standard Assignable level from BRM ADC to TRT(KIY) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
 
-!!! example
-    **AY_TWR** -> **ML-BLA_CTR**: "Next QFA400"  
-    **ML-BLA_CTR** -> **AY_TWR**: "QFA400, FL320"  
-    **AY_TWR** -> **ML-BLA_CTR**: "FL320, QFA400"  
-
-#### Departure Call
-A departure call should be made as the aircraft becomes airborne. If not already issued, CTR will issue a higher level. The aircraft should be transferred to CTR as they climb through the upper level of the AY class D airspace.
+### Arrivals
+TRT(KIY) will coordinate the sequence to BRM ADC
 
 !!! example
-    **AY_TWR** -> **ML-BLA_CTR**: "Departure QFA400 at 06"  
-    **ML-BLA_CTR** -> **AY_TWR**: "QFA400"
+    **KIY** -> **BRM ADC**: "New Sequence of 2. Via CIN, ANO332, Number 1. Via MASIM, VOZ1481, Number 2”  
+    **BRM ADC** -> **KIY**: "ANO332, Number 1. VOZ1481, Number 2"  
 
-#### Arrival Coordination
-ML-BLA_CTR will coordinate all arrivals into Albury Prior to handing over to tower in the following format:
-
-- Callsign & Aircraft Type
-- Estimate
-- Inbound Radial/Procedure
-- Assigned Level
-- Sequence Number (if applicable)
-
-!!! example
-    **ML-BLA_CTR** -> **AY_TWR**: "JST416, A320, estimates Albury 52, ARRAN1 arrival, 5000ft, number 1”
-    **AY_TWR** -> **ML-BLA_CTR**: "JST416"
-
-## Standard Assignable Level
-All aircraft departing from YBRM shall be assigned `A060` or `RFL` if lower.
+The Standard Assignable level from TRT(KIY) to BRM ADC is `A060`, any other level must be prior coordinated.
