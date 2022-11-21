@@ -40,14 +40,18 @@ In the absence of an SMC controller, ADC shall assume the SMC and ADC responsibi
 
 #### Northeast Plan
 
-- Any combination of Runway 03 and/or 06.
+- Runway 03 for arrivals.
+- Runway 03 for departures via:  
+    - AVNEX
+    - OTLED
+    - MANDU
+    - SOLUS
+    - KEELS
+- Runway 06 for all other departures.
+
 - In the following conditions, ATIS shall notify "EXPECT ILS APPROACH"
     - By night; and/or
     - Cloud base of 3200FT or below
-- When Runway 03 is in use, process aircraft on the following SIDS from Runway 03:
-    - MANDU
-    - KEELS
-    - SOLUS
 
 ## Airspace
 Tower airspace is defined as between SFC to 1500 FT, within the lateral limits:
