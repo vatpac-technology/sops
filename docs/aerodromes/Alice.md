@@ -17,7 +17,7 @@
   <figcaption>YBAS Airspace</figcaption>
 </figure>
 
-AS ADC is responsible for the Class D airspace SFC-A045, as well the Class C airspace A045-A065, within the AS CTR.
+AS ADC is responsible for the Class D airspace `SFC` to `A045`, as well the Class C airspace `A045` to `A065`, within the AS CTR.
 
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 

@@ -18,7 +18,7 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
-**AS ADC** is responsible for the Class D airspace SFC-A045, as well the Class C airspace A045-A065, within the AS CTR.
+**AS ADC** is responsible for the Class D airspace `SFC` to `A045`, as well the Class C airspace `A045` to `A065`, within the AS CTR.
 
 When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME AS reverts to Class G, and AS CTR (Class C `F125` to `F245`) within 80 DME AS reverts to Class E, and both are administered by ASP. Alternatively, ASP may provide a [top-down procedural service](../../../aerodromes/Alice) if they wish.
 

@@ -29,7 +29,7 @@ If not providing a top-down service, due to the low level of CTA at these aerodr
     **JST718:** "Melbourne Centre, JST718, A320, IFR, Taxiing YMHB for YSSY, Runway 12"  
     **HUO:** "JST718, Melbourne Centre, Squawk 3601, Expect clearance via the LATUM2 departure Runway 12, No Reported IFR Traffic, Call me Ready at the Holding Point for Airways Clearance"  
     **JST718:** "Squawk 3601, Wilco, JST718"  
-    ...  
+      
     **JST718:** "JST718, Ready Runway 12, Request clearance"  
     **HUO:** "JST718, Cleared to YSSY via the LATUM2 departure Runway 12, LATUM, Flight Planned Route. Climb to A050"  
     **JST718:** "Cleared to YSSY via the LATUM2 departure Runway 12, LATUM, Flight Planned Route. Climb to A050, JST718"  
