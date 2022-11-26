@@ -102,3 +102,11 @@ h4 {
  .md-typeset [type=checkbox]:checked+.task-list-indicator:before {
     background-color: #81C3D7;
 }
+
+.coord {
+  color: #ecee74;
+}
+
+.aircraft {
+  color: #76e297;
+}

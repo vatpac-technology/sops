@@ -58,14 +58,14 @@ a) Departing from a runway nominated on the ATIS; and
 b) Issued a Procedural SID; and   
 c) Assigned `A050`;
 
-Any aircraft that don't meet these criteria must be coordinated to AD TCU with a "Next" Call
+Any aircraft that don't meet these criteria must be coordinated to AD TCU with a "Next" Call 
 
 !!! example
-    **AD ADC** -> **AD TCU**: "Next, ABC"  
-    **AD TCU** -> **AD ADC**: "ABC, Track Extended Centreline"  
-    **AD ADC** -> **AD TCU**: "Track Extended Centreline, ABC"  
-    **AD ADC** -> **ABC**: "ABC, Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff"  
-    **ABC** -> **AD ADC**: "Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff, ABC"  
+    <span class="coord">**AD ADC** -> **AD TCU**</span>: "Next, ABC"  
+    <span class="coord">**AD TCU** -> **AD ADC**</span>: "ABC, Track Extended Centreline"  
+    <span class="coord">**AD ADC** -> **AD TCU**</span>: "Track Extended Centreline, ABC"  
+    <span class="aircraft">**AD ADC** -> **ABC**</span>: "ABC, Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff"  
+    <span class="aircraft">**ABC** -> **AD ADC**</span>: "Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff, ABC"  
     `AIP GEN 3.4`
 
 ## Standard Assignable Levels
