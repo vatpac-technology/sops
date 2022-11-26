@@ -11,6 +11,8 @@
   --md-card-a-hover: rgba(241, 245, 249, 1);
   --md-default-table-header-text: #fff;
   --md-top: var(--md-default-bg-color);
+  --md-typeset-link: rgb(104, 148, 230);
+  --md-typeset-link-hover: #448aff;
 
 }
 [data-md-color-scheme="slate"] {
@@ -21,6 +23,8 @@
   --md-card-a-hover: #293858;
   --md-default-table-header-text: #fff;
   --md-top: #1b253b;
+  --md-typeset-link: rgb(104, 148, 230);
+  --md-typeset-link-hover: #448aff;
 }
 
 /*Header Modifications*/
@@ -68,9 +72,11 @@ h4 {
     padding: 0 .2941176471em;
     word-break: break-word;
 }
-
+.md-typeset a {
+  color: var(--md-typeset-link)
+}
 .md-typeset a:hover {
-  color: rgb(104, 148, 230)
+  color: var(--md-typeset-link-hover)
 }
 
 /*Standardize Font Awesome CSS Styling*/
