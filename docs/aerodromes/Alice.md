@@ -12,11 +12,12 @@
 | Alice Springs ATIS | N/A | 123.000 | YBAS_ATIS |
 
 ## Airspace
-
 <figure markdown>
 ![YBAS Airspace](img/ybas_airspace.jpg){ width="700" }
   <figcaption>YBAS Airspace</figcaption>
 </figure>
+
+AS ADC is responsible for the Class D airspace `SFC` to `A045`, as well as the Class C airspace `A045` to `A065`, within the AS CTR.
 
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 

@@ -14,7 +14,6 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
-
 When **CB TCU** is offline, CB TCU (Class C `SFC` to `F245`) reverts to Class G, and is administered by BLA. Alternatively, BLA may provide a [top-down approach service](../../../terminal/canberra) if they wish.  
 When **AY ADC** is offline, AY CTR (Class D and C `SFC` to `A085`) reverts to Class G, and is administered by BLA. Alternatively, BLA may provide a [top-down procedural service](../../../aerodromes/Albury) if they wish.
 
@@ -32,7 +31,6 @@ BLA is reponsible for issuing STAR clearances and initial descent for aircraft b
 SNO is reponsible for issuing STAR clearances and initial descent for aircraft bound for YSCB.
 ## Coordination
 ### BLA / CB TCU
-
 The Standard assignable level from BLA to CB TCU is `F130`, and assigned the POLLI STAR or MANDA STAR.  
 
 All other aircraft must be voice coordinated to CB TCU prior to **20nm** from the boundary.
@@ -40,8 +38,7 @@ All other aircraft must be voice coordinated to CB TCU prior to **20nm** from th
 The Standard Assignable level from CB TCU to BLA is the lower of `F240` or the `RFL`, and tracking via HOWLY, WG, NONUP, TANTA, or DUBUS.
 
 ### ELW / ML TCU
-
-The Standard assignable level from ELW to CML TCU is `A090`, and assigned the LIZZI STAR or BOYSE STAR.  
+The Standard assignable level from ELW to ML TCU is `A090`, and assigned the LIZZI STAR or BOYSE STAR.  
 
 All other aircraft must be voice coordinated to ML TCU prior to **20nm** from the boundary.
 
@@ -49,7 +46,6 @@ The Standard Assignable level from ML TCU to ELW is the lower of `F240` or the `
 
 Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
 ### ELW (All) / ENR
-
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 That being said, it is *advised* that ELW give **Heads-up Coordination** prior to **20nm** from the boundary in the following scenarios:  
@@ -62,7 +58,6 @@ That being said, it is *advised* that ELW give **Heads-up Coordination** prior t
     **BLA** should aim to handoff aircraft as soon as possible to **GUN**, so they can issue STAR clearance and commence sequencing. Remember, As per [Standard coordination procedures](../../../controller-skills/coordination/#handoffs), the Receiving sector may turn the aircraft 45° left or right and climb/descend to any level. So if required, nominate a restriction.
 
 ### ELW/BLA/SNO Internal
-
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 That being said, it is *advised* that ELW/BLA/SNO give **Heads-up Coordination** prior to **20nm** from the boundary in the following scenarios:  
@@ -71,7 +66,6 @@ That being said, it is *advised* that ELW/BLA/SNO give **Heads-up Coordination**
 - SNO to BLA for all aircraft
 
 ### SNO / TSN (Oceanic)
-
 As per [Standard coordination procedures](../../controller-skills/coordination/#enr-oceanic), Voice coordinate estimate and level prior to **15 mins** to boundary.
 
 ### ELW(All) / ESL TCU
