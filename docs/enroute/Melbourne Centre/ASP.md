@@ -18,6 +18,7 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
+**AS ADC** is responsible for the Class D airspace `SFC` to `A045`, as well as the Class C airspace `A045` to `A065`, within the AS CTR.
 
 When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME AS reverts to Class G, and AS CTR (Class C `F125` to `F245`) within 80 DME AS reverts to Class E, and both are administered by ASP. Alternatively, ASP may provide a [top-down procedural service](../../../aerodromes/Alice) if they wish.
 
@@ -32,34 +33,27 @@ When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME
 
 ## Coordination
 ### ASP (All) / ENR
-
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 ### ASP/ASW/WAR/FOR/WRA/BKE/ESP Internal
-
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 ### ASP / AS ADC
-#### Next Call
+#### Departures
 Departures from YBAS in to ASP Class C will be coordinated when ready for departure.
 
 !!! example
     **AS ADC** -> **ASP**: "Next QFA797"  
-    **ASP** -> **AS ADC**: "QFA797"    
-#### Arrival Coordination
+    **ASP** -> **AS ADC**: "QFA797"
 
-**ASP** will coordinate the sequence to **AS ADC**
+The Standard Assignable level from **AS ADC** to ASP is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
+#### Arrivals
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enrtcu-class-d-twr). ASP must coordinate the sequence prior to **5 mins** from the boundary
 
 !!! example
     **ASP** -> **AS ADC**: "New Sequence of 2. Via SADEL, QFA1956, Number 1. Via HERMA, FD867, Number 2”  
     **AS ADC** -> **ASP**: "QFA1956, Number 1. FD867, Number 2"  
 
-#### Standard Assignable Levels
-
-The Standard assignable level from ASP to **AS ADC** is `A080`.  
-
-The Standard assignable level from **AS ADC** to ASP is the lower of `A070` or the `RFL`.  
-
+The Standard Assignable level from ASP to **AS ADC** is `A080`, any other level must be prior coordinated.
 ### WRA / WR ADC
-
 Reserved.
