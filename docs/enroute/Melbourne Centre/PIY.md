@@ -31,7 +31,7 @@ PIY will provide final sequencing actions to ensure aircraft comply with their F
 For aircraft overflying the PH TCU place `O/FLY` in the LABEL DATA field.
 
 ### Leeman (LEA)
-LEA is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via `WAVES`. LEA is also responsible for transiting aircraft outbound from Perth into the Melbourne Oceanic Control Area. Coordination between this non-radar position (ML-IND_FSS) must be completed in accordance with the Coordination procedures.  
+LEA is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via `WAVES`. LEA is also responsible for transiting aircraft outbound from Perth into the Melbourne Oceanic Control Area. Coordination between this non-radar position (ML-IND_FSS) must be completed in accordance with [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic){target=new}.  
 
 !!! note
     Controllers should be aware that VHF coverage near the LEA/IND border may be limited. Controllers should strive to issue HF frequencies and transfer of communications instruction prior to 160 NM PH DME.
