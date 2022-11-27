@@ -6,6 +6,9 @@
 
 When contributing to this project, aim to follow the best practices outlined below to ensure your changes are standardised and fit in with the existing format.
 
+## File Names
+Ensure new files are named lowercase only, so that the menu items are sorted alphabetically in a predictable way.
+
 ## Links
 
 All links that navigate a user away from the SOPs site should have `{target=new}` appended - this opens the link in a new tab.
