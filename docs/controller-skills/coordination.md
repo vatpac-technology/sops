@@ -16,9 +16,24 @@ A hotline is opened by pressing the yellow button titled with the sector you wis
 !!! tip
     For more in depth information, refer to the [vatSys website](https://virtualairtrafficsystem.com/docs/vscs/).
 
-Coordination notes are included for most positions, using the following legend:  
-`Hotline`:  <span class="hotline">**ORIGINATING SECTOR** -> **RECEIVING SECTOR**</span>: "Message"  
-`Coldline`:  <span class="coldline">**ORIGINATING SECTOR** -> **RECEIVING SECTOR**</span>: "Message"
+Coordination notes are included for most positions, using the following format: 
+!!! note "" 
+    `Hotline`:  <span class="hotline">**ORIGINATING SECTOR** -> **RECEIVING SECTOR**</span>: "Message"  
+    `Coldline`:  <span class="coldline">**ORIGINATING SECTOR** -> **RECEIVING SECTOR**</span>: "Message"  
+
+As a receiving controller, answer a coordination call by stating the name of **your** position.  If you are busy at the time, finish your current radio call and then state your position to indicate that you are ready to receive the message.
+
+!!! example
+    *BIK calls SAN with a hotline to discuss an arrival*  
+    <span class="hotline">**BIK** -> **SAN**</span>: \***DING**\*  
+    <span class="hotline">**SAN** -> **BIK**</span>: "Sydney Approach"  
+    <span class="hotline">**BIK** -> **SAN**</span>: "Via RIVET, QFA541, request heading 030 due weather"  
+    <span class="hotline">**SAN** -> **BIK**</span>: "Concur, QFA541 heading 030"  
+    <span class="hotline">**BIK** -> **SAN**</span>: "QFA541, heading 030, thanks"  
+
+!!! tip
+    Remember that coordination items must be read back in the same way a pilot must read back an instruction from ATC.
+
 ## Types of Coordination
 ### Heads-up
 
