@@ -70,8 +70,8 @@ When **TW ADC** is online, **ARL** owns the Class C airspace from `A065` upwards
 Departures from YSTW in to ARL/MDE Class C will be coordinated when ready for departure.
 
 !!! example
-    **TW ADC** -> **MDE**: "Next, SKV"  
-    **MDE** -> **TW ADC**: "SKV"  
+    <span class="hotline">**TW ADC** -> **MDE**</span>: "Next, SKV"  
+    <span class="hotline">**MDE** -> **TW ADC**</span>: "SKV"  
 
 The Standard Assignable level from **TW ADC** to ARL/MDE is the lower of `A070` or the `RFL`.
 
@@ -80,8 +80,8 @@ The Standard Assignable level from ARL/MDE to **TW ADC** is `A080`. Any aircraft
 As per [Standard coordination procedures](../../controller-skills/coordination/#enrtcu-class-d-twr), YSTW arrivals shall be coordinated to **TW ADC** from ARL/MDE prior to transfer of jurisdiction.
 
 !!! example
-    **ARL** -> **TW ADC**: "QLK6D, via MATLA DCT STWWD"  
-    **TW ADC** -> **ARL**: "QLK6D"  
+    <span class="coldline">**ARL** -> **TW ADC**</span>: "QLK6D, via MATLA DCT STWWD"  
+    <span class="coldline">**TW ADC** -> **ARL**</span>: "QLK6D"  
 
 ### MNN / CFS ADC
 #### Airspace
@@ -91,8 +91,8 @@ When **CFS ADC** is online, **INL** and **MNN** owns the Class C airspace from A
 Departures from YCFS in to MNN Class C will be coordinated when ready for departure.
 
 !!! example
-    **CFS ADC** -> **MNN**: "Next, CFH21"  
-    **MNN** -> **CFS ADC**: "CFH21"  
+    <span class="hotline">**CFS ADC** -> **MNN**</span>: "Next, CFH21"  
+    <span class="hotline">**MNN** -> **CFS ADC**</span>: "CFH21"  
 
 The Standard Assignable level from **CFS ADC** to MNN is the lower of `A070` or the `RFL`.
 
@@ -101,8 +101,8 @@ The Standard Assignable level from MNN to **CFS ADC** is `A080`. Any aircraft th
 YCFS arrivals shall be coordinated to **CFS ADC** from MNN prior to transfer of jurisdiction.
 
 !!! example
-    **MNN** -> **CFS ADC**: "RXA6438, via KADSI"  
-    **CFS ADC** -> **MNN**: "RXA6438"  
+    <span class="coldline">**MNN** -> **CFS ADC**</span>: "RXA6438, via KADSI"  
+    <span class="coldline">**CFS ADC** -> **MNN**</span>: "RXA6438"  
 ### CNK/MND/MNN / WLM TCU
 #### Airspace
 By default, **WLM TCU** owns the airspace within the **R578A-G** restricted areas, unless stated otherwise by ad-hoc release or NOTAM.
@@ -110,16 +110,16 @@ By default, **WLM TCU** owns the airspace within the **R578A-G** restricted area
 Departures from YWLM in to CNK/MND/MNN Class C will be coordinated at taxi, and will be requesting a level.
 
 !!! example
-    **WLM TCU** -> **MNN**: "Taxi, WGTL33 for YPTN via BUBRI1A departure, Requesting F380"  
-    **MNN** -> **WLM TCU**: "WGTL33, F120"  
-    **WLM TCU** -> **MNN**: "F120, WGTL33"  
+    <span class="coldline">**WLM TCU** -> **MNN**</span>: "Taxi, WGTL33 for YPTN via BUBRI1A departure, Requesting F380"  
+    <span class="coldline">**MNN** -> **WLM TCU**</span>: "WGTL33, F120"  
+    <span class="coldline">**WLM TCU** -> **MNN**</span>: "F120, WGTL33"  
 
 #### Arrivals/Overfliers
 All aircraft transiting from CNK/MND/MNN to **WLM TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **WLM TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the CNK/MND/MNN and **WLM TCU** controller agree on.
 
 !!! example
-    **MNN** -> **WLM TCU**: "via SANAD, JST458, DCT BLAFF, will be assigned F130"  
-    **WLM TCU** -> **MNN**: "JST458, F130"  
+    <span class="coldline">**MNN** -> **WLM TCU**</span>: "via SANAD, JST458, DCT BLAFF, will be assigned F130"  
+    <span class="coldline">**WLM TCU** -> **MNN**</span>: "JST458, F130"  
 
 ### OCN/MNN / TSN/HWE (Oceanic)
 As per [Standard coordination procedures](../../controller-skills/coordination/#enr-oceanic), Voice coordinate estimate and level prior to **15 mins** to boundary.
