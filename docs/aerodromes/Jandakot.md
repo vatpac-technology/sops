@@ -33,7 +33,7 @@ VFR aircraft will report inbound at `BOAT`, `POWR`, `OAKF` or `RUSS` at `A015`. 
 | VFR Approach Point | RWYs 06  | RWYs 24 | RWY 12 | RWY 30 |
 | ----------------| --------- | ---------- | ---------- | --------- |
 | Adventure World (ADWD)   | *"Join base runway 06L"* | *"Join right downwind runway 24R, maintain A015"*, until the aircraft are clear of RWY 24R departures via `Fiona Stanely Hospital` and `FREM`, then *"Cleared Visual Approach"*  | *"Join final runway 12"* | *"Join downwind ruwnay 30, maintain A015"*, until the aircraft is clear of RWY 30 departures via `YGB`, then *"Cleared Visual Approach"* |
-| Forestdale Lake (FDL)  | *"Join downwind runway 06L, maintain A015"*. Aircraft should fly overhead the airfield between the control tower and the upwind end of the runway and join the circuit. Once established in the circuit, *"Cleared visual approach"* | *Join right downwind runway 24R, maintain A015"*. Aircraft should fly overhead the airfield between the control tower and the upwind end of the runway and join the circuit. Once established in the circuit, *"Cleared visual approach"* | *"Join right downwind runway 12"* | *"Join final runway 30"* |
+| Forestdale Lake (FDL)  | *"Join downwind runway 06L, maintain A015"*. Aircraft should fly overhead the airfield between the control tower and the upwind end of the runway and join the circuit. Once established in the circuit, *"Cleared visual approach"* | *"Join right downwind runway 24R, maintain A015"*. Aircraft should fly overhead the airfield between the control tower and the upwind end of the runway and join the circuit. Once established in the circuit, *"Cleared visual approach"* | *"Join right downwind runway 12"* | *"Join final runway 30"* |
 
 All aircraft will arrive on runway 06L/24R or 12/30.
 
@@ -95,9 +95,9 @@ When PH RWY 03 is in operation, the ATIS should include:
 For aircraft planned into the overlying class C airspace, an airways clearance must be coordinated with the TCU controller responsible for Perth Approach or Departures (dependant on runway configuation at PH).  This is achieved by performing 'Taxi' coordination and then relaying the clearance to the aircraft when they are ready in the run up bays.
 
 !!! example
-    **JT SMC** -> **PH TCU**: "Taxis FD420, Kalbarri, runway 24R"  
-    **PH TCU** -> **PH SMC**: "FD420, cleared to Kalbarri via RECKS flight planned route, MANTL3 depature, climb via SID A030, squawk 3342"  
-    **JT SMC** -> **PH TCU**: "Cleared to Kalbarri via RECKS flight planned route, MANTL3 depature, climb via SID A030, squawk 3342, FD420" 
+    <span class="coldline">**JT SMC** -> **PH TCU**</span>: "Taxis FD420, Kalbarri, runway 24R"  
+    <span class="coldline">**PH TCU** -> **PH SMC**</span>: "FD420, cleared to Kalbarri via RECKS flight planned route, MANTL3 depature, climb via SID A030, squawk 3342"  
+    <span class="coldline">**JT SMC** -> **PH TCU**</span>: "Cleared to Kalbarri via RECKS flight planned route, MANTL3 depature, climb via SID A030, squawk 3342, FD420" 
 
 
 ### JT ADC / PH TCU
@@ -107,8 +107,8 @@ For aircraft planned into the overlying class C airspace, an airways clearance m
 When the aircraft is ready for departure, Tower will coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
 
 !!! example
-    **JT ADC** -> **PH TCU**: "Next, FD420, runway 24R"  
-    **PH TCU** -> **JT ADC**: "FD420, unrestricted"
+    <span class="hotline">**JT ADC** -> **PH TCU**</span>: "Next, FD420, runway 24R"  
+    <span class="hotline">**PH TCU** -> **JT ADC**</span>: "FD420, unrestricted"
 
 ### PH TCU / JT ADC
 
@@ -119,16 +119,16 @@ PH TCU will coordinate with JT ADC for incoming IFR arrivals on either Visual Tr
 ##### Visual Tracking
 
 !!! example
-    **PH TCU** -> **JT ADC**: "Estimate, FD416 via `CNB` time 02."  
-    **JT ADC** -> **PH TCU**: "FD416"
+    <span class="coldline">**PH TCU** -> **JT ADC**</span>: "Estimate, FD416 via `CNB` time 02."  
+    <span class="coldline">**JT ADC** -> **PH TCU**</span>: "FD416"
 
 ##### IAP Tracking
 
 !!! example
-    **PH TCU** -> **JT ADC**: "Estimated approach time, FD416 via RNAV at time 59"  
-    **JT ADC** -> **PH TCU**: "Via RNAV, FD4166"   
+    <span class="coldline">**PH TCU** -> **JT ADC**</span>: "Estimated approach time, FD416 via RNAV at time 59"  
+    <span class="coldline">**JT ADC** -> **PH TCU**</span>: "Via RNAV, FD4166"   
 
     *JT Tower must clear aircraft for final, before PH TCU issues approach clearance.*  
-    **PH TCU** -> **JT ADC**: "Request clearance for final, FD416"  
-    **JT ADC** -> **PH TCU**: "FD416 cleared RNAV 24R"  
-    **PH TCU** -> **JT ADC**: "Cleared RNAV 24R, FD416"  
+    <span class="coldline">**PH TCU** -> **JT ADC**</span>: "Request clearance for final, FD416"  
+    <span class="coldline">**JT ADC** -> **PH TCU**</span>: "FD416 cleared RNAV 24R"  
+    <span class="coldline">**PH TCU** -> **JT ADC**</span>: "Cleared RNAV 24R, FD416"  

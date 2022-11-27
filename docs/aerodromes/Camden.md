@@ -95,17 +95,17 @@ When there is significant cloud in the YSCN area below `A035`, the APCH field mu
 IFR aircraft must be coordinated with the SY TCU controller responsible for Sydney Departures South (SDS).  **CN SMC** will perform a 'Taxi' call to **SDS**, who in response will issue a squawk code.
 
 !!! example
-    **CN ADC** -> **SY TCU**: "Taxi's, MHQ, Lord Howe, runway 06”  
-    **SY TCU** -> **CN ADC**: “MHQ, squawk 0134"  
-    **CN ADC** -> **SY TCU**: “Squawk 0134, MHQ"  
+    <span class="coldline">**CN ADC** -> **SY TCU**</span>: "Taxi's, MHQ, Lord Howe, runway 06”  
+    <span class="coldline">**SY TCU** -> **CN ADC**</span>: “MHQ, squawk 0134"  
+    <span class="coldline">**CN ADC** -> **SY TCU**</span>: “Squawk 0134, MHQ"  
 
 #### Ready Call
 CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a ready call, SY TCU will issue a traffic statement.
 
 !!! example
-    **CN ADC** -> **SY TCU**: "Ready, MHQ, Runway 06"  
-    **SY TCU** -> **CN ADC**: "MHQ, traffic is MEH, an IFR AC50, tracking SHL RAKSO SBKWI, A035, estimate RAKSO time 35" (or "No Reported IFR Traffic")  
-    **CN ADC** -> **SY TCU**: "Traffic is MEH tracking SHL RAKSO SBKWI A035, RAKSO at 35"  
+    <span class="coldline">**CN ADC** -> **SY TCU**</span>: "Ready, MHQ, Runway 06"  
+    <span class="coldline">**SY TCU** -> **CN ADC**</span>: "MHQ, traffic is MEH, an IFR AC50, tracking SHL RAKSO SBKWI, A035, estimate RAKSO time 35" (or "No Reported IFR Traffic")  
+    <span class="coldline">**CN ADC** -> **SY TCU**</span>: "Traffic is MEH tracking SHL RAKSO SBKWI A035, RAKSO at 35"  
     
     **CN ADC:** "MHQ, traffic is MEH, IFR AC50 tracking SHL RAKSO SBKWI at A035, estimating RAKSO at time 35, runway 06, cleared for takeoff"  
     **MHQ:** "Copy MEH, runway 06, cleared for takeoff, MHQ"
@@ -133,8 +133,8 @@ CN ADC is responsible for issuing a clearance into the CN CTR and for coordinati
 SY TCU will **NOT** clear the aircraft for the approach.
 
 !!! example
-    **SY TCU** -> **CN ADC**: “EAT, HRP via RNP W at time 59”  
-    **CN ADC** -> **SY TCU**: “HRP, RNP W”   
+    <span class="coldline">**SY TCU** -> **CN ADC**</span>: “Estimated Approach Time, HRP via RNP W at time 59”  
+    <span class="coldline">**CN ADC** -> **SY TCU**</span>: “HRP, RNP W”   
 
 
 ##### Visual Tracking
@@ -142,8 +142,8 @@ SY TCU will **NOT** clear the aircraft for the approach.
 SY TCU must coordinate the Estimate and approximate inbound track for IFR aircraft. Where possible, pass the Estimate no later than 10 minutes prior.
 
 !!! example
-    **SY TCU** -> **CN ADC**: “Estimate, TJV via RIC time 02.”  
-    **CN ADC** -> **SY TCU**: “TJV” 
+    <span class="coldline">**SY TCU** -> **CN ADC**</span>: “Estimate, TJV via RIC time 02.”  
+    <span class="coldline">**CN ADC** -> **SY TCU**</span>: “TJV” 
 
 
 #### IFR overflying YSCN

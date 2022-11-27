@@ -88,15 +88,15 @@ Circuits are to be flown in the direction coinciding with the Runway designator 
 A 'next' call is made for all aircraft when they are next to depart. TW ADC must inform ARL/MDE if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
-    **TW ADC** -> **ARL**: "Next, QLK5D"  
-    **ARL** -> **TW ADC**: "QLK5D"    
+    <span class="hotline">**TW ADC** -> **ARL**</span>: "Next, QLK5D"  
+    <span class="hotline">**ARL** -> **TW ADC**</span>: "QLK5D"    
 
 ### Arrivals
 ARL/MDE will coordinate the sequence to TW ADC.
 
 !!! example
-    **MDE** -> **TW ADC**: "New Sequence of 2. Via MOR DCT, FD272, Number 1. Via NBR DCT, AM217, Number 2”  
-    **TW ADC** -> **MDE**: "FD272, Number 1. AM217, Number 2"  
+    <span class="coldline">**MDE** -> **TW ADC**</span>: "New Sequence of 2. Via MOR DCT, FD272, Number 1. Via NBR DCT, AM217, Number 2”  
+    <span class="coldline">**TW ADC** -> **MDE**</span>: "FD272, Number 1. AM217, Number 2"  
 
 ## Standard Assignable Levels
 

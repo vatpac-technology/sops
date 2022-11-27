@@ -46,13 +46,13 @@
     - KEELS
 - Runway 06 for all other departures.
 
-- In the following conditions, ATIS shall notify "EXPECT ILS APPROACH"
+- In the following conditions, ATIS shall notify `EXPECT ILS APPROACH`
     - By night; and/or
     - Cloud base of `A032` or below
 
 
 ## Airspace
-Tower airspace is defined as between `SFC` to `A015`, within the lateral limits:
+Tower airspace is defined as between `SFC` to `A015`, within the lateral limits:  
  a) 11DME PH; then  
  b) Herdsman Lake; then  
  c) 3NM JT ARP. 
@@ -67,10 +67,10 @@ Tower airspace is defined as between `SFC` to `A015`, within the lateral limits:
 ### Circuit Training
 Circuit training traffic shall be issued SSR code and clearance to operate within circuit area not above `A015`. Circuit training is typically conducted on Runway 03/21.
 
-All circuits are to be conducted to the east of Runway 03/21. Circuits being conducted on Runway 03 are a non-standard right-hand circuit.
+All circuits are to be conducted to the east of Runway 03/21 (right-hand circuit Runway 03).
 
 ### Scenic Flights
-When traffic permits, VFR scenic flights over Perth are cleared via VICTOR 65 route (CTE-PCTY-HKE).
+When traffic permits, VFR scenic flights over Perth are cleared via VICTOR 65 route (`CTE-PCTY-HKE`).
 
 ### Separation
 #### 2400m Reduced Runway Separation Minima
@@ -88,9 +88,9 @@ When both Runway 03 and Runway 06 are nominated as departure runways, broadcast 
 "Next" Coordination is a procedure where the PH ADC controller gives a heads-up to the PH TCU controller about an impending departure. The PH TCU controller will respond by assigning a heading to the aircraft, for the PH ADC controller to pass on with their takeoff clearance.
 
 !!! example
-    **PH ADC** -> **PH TCU**: "Next, ABC"  
-    **PH TCU** -> **PH ADC**: "ABC, Heading 010"  
-    **PH ADC** -> **PH TCU**: "Heading 010, ABC"  
+    <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Next, ABC, runway 03"  
+    <span class="hotline">**PH TCU** -> **PH ADC**</span>: "ABC, Heading 010, unrestricted"  
+    <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Heading 010 unrestricted, ABC"  
 
     **PH ADC**: "ABC, Assigned heading left 010, Runway 03, Cleared for Takeoff"  
     **ABC**: "Left heading 010, Runway 010, Cleared for Takeoff, ABC"  
@@ -117,9 +117,9 @@ b) Aircraft using a runway not on the ATIS
     **ABC**: "Perth Delivery, ABC, Requesting a Victor 65 scenic."  
     **PH ACD**: "ABC, Perth Delivery, Standby"  
 
-    **PH ACD** -> **PH TCU**: "ABC, Requesting clearance for a victor 65 scenic"  
-    **PH TCU** -> **PH ACD**: "ABC, Cleared for a victor 65 scenic"  
-    **PH ACD** -> **PH TCU**: "Cleared for a victor 65 scenic ABC"   
+    <span class="coldline">**PH ACD** -> **PH TCU**</span>: "ABC, Requesting clearance for a victor 65 scenic"  
+    <span class="coldline">**PH TCU** -> **PH ACD**</span>: "ABC, Cleared for a victor 65 scenic"  
+    <span class="coldline">**PH ACD** -> **PH TCU**</span>: "Cleared for a victor 65 scenic ABC"   
      
     **PH ACD**: "ABC, Cleared for a victor 65 scenic"  
     **ABC**: "Cleared for a victor 65 scenic, ABC"  

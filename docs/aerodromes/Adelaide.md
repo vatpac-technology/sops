@@ -58,12 +58,12 @@ c) Assigned `A050`;
 Any aircraft that don't meet these criteria must be coordinated to AD TCU with a "Next" Call
 
 !!! example
-    **AD ADC** -> **AD TCU**: "Next, ABC"  
-    **AD TCU** -> **AD ADC**: "ABC, Track Extended Centreline"  
-    **AD ADC** -> **AD TCU**: "Track Extended Centreline, ABC"  
+    <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Next, RXA4362, Runway 23"  
+    <span class="hotline">**AD TCU** -> **AD ADC**</span>: "RXA4362, Track Extended Centreline"  
+    <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Track Extended Centreline, RXA4362"  
     
-    **AD ADC**: "ABC, Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff"  
-    **ABC**: "Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff, ABC"  
+    **AD ADC**: "RXA4362, Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff"  
+    **RXA4362**: "Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff, RXA4362"  
     `AIP GEN 3.4`
 
 ## Standard Assignable Levels

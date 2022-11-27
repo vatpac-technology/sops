@@ -135,9 +135,9 @@ Clearances for aircraft entering the CTR must be worded so as to leave no possib
 "Next" Coordination is a procedure where the **HB ADC** controller gives a heads-up to the HBA controller about an impending departure not on a SID. The HBA controller will respond by assigning a visual heading to the aircraft, for the **HB ADC** controller to pass on with their takeoff clearance.
 
 !!! example
-    **HB ADC** -> **HB TCU**: "Next, ABC"  
-    **HB TCU** -> **HB ADC**: "ABC, Heading 150 Visual"  
-    **HB ADC** -> **HB TCU**: "Heading 150 Visual, ABC"  
+    <span class="hotline">**HB ADC** -> **HB TCU**</span>: "Next, ABC, runway 12"  
+    <span class="hotline">**HB TCU** -> **HB ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
+    <span class="hotline">**HB ADC** -> **HB TCU**</span>: "Heading 150 Visual unrestricted, ABC"  
 
     **HB ADC**: "ABC, Assigned heading right 150 Visual, Runway 12, Cleared for Takeoff"  
     **ABC**: "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"  

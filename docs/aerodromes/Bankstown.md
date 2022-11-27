@@ -126,9 +126,9 @@ When the crosswind component exceeds 15 knots, the OPR INFO field must include:
 For aircraft planned into the overlying class C airspace, an airways clearance must be coordinated with the TCU controller responsible for Sydney Departures South (SDS).  This is achieved by performing 'Taxi' coordination and then relaying the clearance to the aircraft when they are ready in the run up bays.
 
 !!! example
-    **BK SMC** -> **SY TCU**: "Taxis UJN, Dubbo, runway 29C"  
-    **SY TCU** -> **BK SMC**: "UJN, cleared to Dubbo via KADOM flight planned route, Bankstown 8 departure, climb via SID A030, squawk 3342"  
-    **BK SMC** -> **SY TCU**: "Cleared to Dubbo via KADOM flight planned route, Bankstown 8 departure, climb via SID A030, squawk 3342, UJN" 
+    <span class="coldline">**BK SMC** -> **SY TCU**</span>: "Taxis UJN, Dubbo, runway 29C"  
+    <span class="coldline">**SY TCU** -> **BK SMC**</span>: "UJN, cleared to Dubbo via KADOM flight planned route, Bankstown 8 departure, climb via SID A030, squawk 3342"  
+    <span class="coldline">**BK SMC** -> **SY TCU**</span>: "Cleared to Dubbo via KADOM flight planned route, Bankstown 8 departure, climb via SID A030, squawk 3342, UJN" 
 
 
 ### BK ADC / SY TCU
@@ -138,8 +138,9 @@ For aircraft planned into the overlying class C airspace, an airways clearance m
 When the aircraft is ready for departure, Tower will coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
 
 !!! example
-    **BK ADC** -> **SY TCU**: "Next, UJN, runway 29C"  
-    **SY TCU** -> **BK ADC**: "UJN, unrestricted"
+    <span class="hotline">**BK ADC** -> **SY TCU**</span>: "Next, UJN, runway 29C"  
+    <span class="hotline">**SY TCU** -> **BK ADC**</span>: "UJN, unrestricted"  
+    <span class="hotline">**BK ADC** -> **SY TCU**</span>: "Unrestricted, UJN"
 
 ### SY TCU / BK TWR
 
@@ -150,19 +151,19 @@ SY TCU will coordinate with BK ADC for incoming IFR arrivals on either Visual Tr
 ##### Visual Tracking
 
 !!! example
-    **SY TCU** -> **BK ADC**: "Estimate, UJN via TWRN time 02."  
-    **BK ADC** -> **SY TCU**: "UJN"
+    <span class="coldline">**SY TCU** -> **BK ADC**</span>: "Estimate, UJN via TWRN time 02."  
+    <span class="coldline">**BK ADC** -> **SY TCU**</span>: "UJN"
 
 ##### IAP Tracking
 
 !!! example
-    **SY TCU** -> **BK ADC**: "Estimated approach time, UJN via RNP at time 59"  
-    **BK ADC** -> **SY TCU**: "Via RNP, UJN"   
+    <span class="coldline">**SY TCU** -> **BK ADC**</span>: "Estimated approach time, UJN via RNP at time 59"  
+    <span class="coldline">**BK ADC** -> **SY TCU**</span>: "Via RNP, UJN"   
 
     *BK Tower must clear aircraft for final, before SY TCU issues approach clearance.*  
-    **SY TCU** -> **BK ADC**: "Request clearance for final, UJN"  
-    **BK ADC** -> **SY TCU**: "UJN cleared RNP 11C"  
-    **SY TCU** -> **BK ADC**: "Cleared RNP 11C, UJN"  
+    <span class="coldline">**SY TCU** -> **BK ADC**</span>: "Request clearance for final, UJN"  
+    <span class="coldline">**BK ADC** -> **SY TCU**</span>: "UJN cleared RNP 11C"  
+    <span class="coldline">**SY TCU** -> **BK ADC**</span>: "Cleared RNP 11C, UJN"  
 
 ### SDS / SY TCU
 
@@ -172,8 +173,8 @@ If aircraft are cleared off runway 11 into CTA, coordination is required with SF
 Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for more information, or simply ask an SY TCU for clarification.
 
 !!! Example
-    **SDS** -> **SY TCU**: “Request left turn out of Bankstown”  
-    **SY TCU** -> **SDS**: "Approved" *(no callsigns need be used here)*  
+    <span class="coldline">**SDS** -> **SY TCU**</span>: “Request left turn out of Bankstown”  
+    <span class="coldline">**SY TCU** -> **SDS**</span>: "Approved" *(no callsigns need be used here)*  
 
 ## Standard Assignable Levels
 
