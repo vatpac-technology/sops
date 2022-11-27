@@ -106,13 +106,13 @@ Changes to the CFL are permitted up to the boundary for aircraft transiting BIK/
 Departures from YSNW in to WOL Class C will be coordinated at taxi, and will be requesting a level.
 
 !!! example
-    **NW TCU** -> **WOL**: "Taxi, PSDN18 for YMCO via URBOB, Requesting F130"  
-    **WOL** -> **NW TCU**: "PSDN18, F130"  
-    **NW TCU** -> **WOL**: "F130, PSDN18"  
+    <span class="coldline">**NW TCU** -> **WOL**</span>: "Taxi, PSDN18 for YMCO via URBOB, Requesting F130"  
+    <span class="coldline">**WOL** -> **NW TCU**</span>: "PSDN18, F130"  
+    <span class="coldline">**NW TCU** -> **WOL**</span>: "F130, PSDN18"  
 
 #### Arrivals/Overfliers
 All aircraft transiting from WOL to **NW TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **NW TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the WOL and **NW TCU** controller agree on.
 
 !!! example
-    **WOL** -> **NW TCU**: "via CB, SKJ, with your concurrence, will be assigned descent to A090"  
-    **NW TCU** -> **WOL**: "SKJ, concur A090"  
+    <span class="hotline">**WOL** -> **NW TCU**</span>: "via CB, SKJ, with your concurrence, will be assigned descent to A090"  
+    <span class="hotline">**NW TCU** -> **WOL**</span>: "SKJ, concur A090"  

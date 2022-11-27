@@ -97,13 +97,13 @@ By default, **ESL TCU** owns the airspace within 30nm ESL, `SFC` to `F200`, unle
 Departures from YMES in to WON Class C will be coordinated at taxi, and will be requesting a level.
 
 !!! example
-    **ESL TCU** -> **WON**: "Taxi, ALDN16 for YFLI DCT, Requesting F230"  
-    **WON** -> **ESL TCU**: "ALDN16, F230"  
-    **ESL TCU** -> **WON**: "F230, ALDN16"  
+    <span class="coldline">**ESL TCU** -> **WON**</span>: "Taxi, ALDN16 for YFLI DCT, Requesting F230"  
+    <span class="coldline">**WON** -> **ESL TCU**</span>: "ALDN16, F230"  
+    <span class="coldline">**ESL TCU** -> **WON**</span>: "F230, ALDN16"  
 
 #### Arrivals/Overfliers
 All aircraft transiting from WON to **ESL TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **ESL TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the WON and **ESL TCU** controller agree on.
 
 !!! example
-    **WON** -> **ESL TCU**: "via ANTLA, BFRT23, will be assigned F220, I have no restrictions on descent"  
-    **ESL TCU** -> **WON**: "BFRT23, F220"  
+    <span class="hotline">**WON** -> **ESL TCU**</span>: "via ANTLA, BFRT23, will be assigned F220, I have no restrictions on descent"  
+    <span class="hotline">**ESL TCU** -> **WON**</span>: "BFRT23, F220"  

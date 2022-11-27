@@ -31,18 +31,18 @@ Pingelly (PIY) will provide final sequencing actions to ensure aircraft comply w
 For aircraft overflying the PH TCU place 'O/FLY' in the LABEL DATA field.
 
 ### Leeman
-Leeman (LEA) is responsible for assigning and issueing arrival clearance to aircraft inbound to Perth via WAVES. Leeman (LEA) is also responsible for transiting aircraft outbound from Perth into the Melbourne Oceanic Control Area. Coordination between this non-radar position (ML-IND_FSS) must be completed in accordance with the Coordination procedures.  
+Leeman (LEA) is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via WAVES. Leeman (LEA) is also responsible for transiting aircraft outbound from Perth into the Melbourne Oceanic Control Area. Coordination between this non-radar position (ML-IND_FSS) must be completed in accordance with the Coordination procedures.  
 
 !!! note
     Controllers should be aware that VHF coverage near the LEA/IND border may be limited. Controllers should strive to issue HF frequencies and transfer of communications instruction prior to 160 NM PH DME.
 ### Grove
-Grove (GVE) is responsible for assigning and issueing arrival clearance to aircraft inbound to Perth via JULIM and CONNI. 
+Grove (GVE) is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via JULIM and CONNI. 
 
 ### Hyden
-Hyden (HYD) is responsible for assigning and issueing arrival clearance to aircraft inbound to Perth via BEVLY, DAYLR and GRENE.
+Hyden (HYD) is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via BEVLY, DAYLR and GRENE.
 
 ### Jarrah
-Jarrah (JAR) is responsible for assigning and issueing arrival clearance to aircraft inbound to Perth via SOLUS.
+Jarrah (JAR) is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via SOLUS.
 
 !!! note
     Controllers should be aware there may be limited ADS-B coverage around Albany (YABA). Expect identification to be lost as aircraft descend through `A100`.

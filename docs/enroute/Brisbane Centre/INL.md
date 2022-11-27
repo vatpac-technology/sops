@@ -79,8 +79,8 @@ When **SU ADC** is online, **NSA** owns the Class C airspace from `A045` upwards
 Departures from YBSU in to NSA Class C will be coordinated when ready for departure.
 
 !!! example
-    **SU ADC** -> **NSA**: "Next, BNZ123"  
-    **NSA** -> **SU ADC**: "BNZ123"  
+    <span class="hotline">**SU ADC** -> **NSA**</span>: "Next, BNZ123"  
+    <span class="hotline">**NSA** -> **SU ADC**</span>: "BNZ123"  
 
 The Standard Assignable level from **SU ADC** to NSA is the lower of `A050` or the `RFL`.
 
@@ -90,8 +90,8 @@ NSA will ensure all YBSU arrivals have been assigned a STAR, unless the pilot is
 YBSU arrivals shall be coordinated to **SU ADC** from NSA prior to transfer of jurisdiction.
 
 !!! example
-    **NSA** -> **SU ADC**: "JST731, via ITIDE2W Arrival Runway 31"  
-    **SU ADC** -> **NSA**: "JST731"  
+    <span class="coldline">**NSA** -> **SU ADC**</span>: "JST731, via ITIDE2W Arrival Runway 31"  
+    <span class="coldline">**SU ADC** -> **NSA**</span>: "JST731"  
 
 ### KPL / RK TCU
 
@@ -108,8 +108,8 @@ When **CFS ADC** is online, **INL** and **MNN** owns the Class C airspace from `
 Departures from YCFS in to INL Class C will be coordinated when ready for departure.
 
 !!! example 
-    **CFS ADC** -> **INL**: "Next, BNZ185"  
-    **INL** -> **CFS ADC**: "BNZ185"  
+    <span class="hotline">**CFS ADC** -> **INL**</span>: "Next, BNZ185"  
+    <span class="hotline">**INL** -> **CFS ADC**</span>: "BNZ185"  
 
 The Standard Assignable level from **CFS ADC** to INL is the lower of `A070` or the `RFL`.
 
@@ -118,8 +118,8 @@ The Standard Assignable level from INL to **CFS ADC** is `A080`. Any aircraft th
 YCFS arrivals shall be coordinated to **CFS ADC** from INL prior to transfer of jurisdiction.
 
 !!! example
-    **INL** -> **CFS ADC**: "VET, via GAMBL"  
-    **CFS ADC** -> **INL**: "VET"  
+    <span class="hotline">**INL** -> **CFS ADC**</span>: "VET, via GAMBL"  
+    <span class="hotline">**CFS ADC** -> **INL**</span>: "VET"  
 ### GOL/DOS/BUR / OK TCU and AMB TCU
 #### Airspace
 By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas, and **AMB TCU** owns the airspace within the **R625A-D** restricted areas, unless stated otherwise by ad-hoc release or NOTAM.
@@ -127,16 +127,16 @@ By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas
 Departures from YBOK and YAMB in to GOL/DOS/BUR Class C will be coordinated at taxi, and will be requesting a level.
 
 !!! example
-    **OK TCU** -> **DOS**: "Taxi, VLAN48 for YBOK via MATVI, Requesting F140"  
-    **DOS** -> **OK TCU**: "VLAN48, F140"  
-    **OK TCU** -> **DOS**: "F140, VLAN48"  
+    <span class="coldline">**OK TCU** -> **DOS**</span>: "Taxi, VLAN48 for YBOK via MATVI, Requesting F140"  
+    <span class="coldline">**DOS** -> **OK TCU**</span>: "VLAN48, F140"  
+    <span class="coldline">**OK TCU** -> **DOS**</span>: "F140, VLAN48"  
 
 #### Arrivals/Overfliers
 All aircraft transiting from GOL/DOS/BUR to **OK TCU** and **AMB TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **OK TCU** and **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the GOL/DOS/BUR and **WLM TCU** controller agree on.
 
 !!! example
-    **GOL** -> **AMB TCU**: "via HUUGO, PUMA11, will be assigned A080"  
-    **AMB TCU** -> **GOL**: "PUMA11, A080"  
+    <span class="hotline">**GOL** -> **AMB TCU**</span>: "via HUUGO, PUMA11, will be assigned A080"  
+    <span class="hotline">**AMB TCU** -> **GOL**</span>: "PUMA11, A080"  
 
 ### INL/SDY/KPL / TSN(FLD/HWE) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Voice coordinate estimate and level prior to **15 mins** to boundary.
