@@ -27,7 +27,7 @@ All aircraft should be kept on SIDs and STARs. If due to operational requirement
 ## Launceston
 Visual approaches are preferred into Launceston. If due to operational requirements, an aircraft is unable to accept a visual approach, Coordination with **LT ADC** may be required.  
 
-Runway 32L is regularly the duty runway due to prevailing winds. To assist traffic flow in and out of the TCU, ATC will instruct aircraft to track for `32L via IRSOM, NODAS, MLTSC` which keeps the aircraft within CTA and away from the departures stream.
+Runway 32L is regularly the duty runway due to prevailing winds. To assist traffic flow in and out of the TCU, ATC will instruct aircraft to track for runway 32L via `IRSOM, NODAS, MLTSC` which keeps the aircraft within CTA and away from the departures stream.
 
 ## Coordination
 
@@ -38,8 +38,8 @@ The Standard Assignable level from HBA/LTA to HUO is the lower of `F240` or the 
 Any aircraft not meeting the above criteria must be prior coordinated to HUO.
 
 !!! example
-    **LTA** -> **HUO**: "via IRSOM, QFA114, with your concurrence, will be assigned F150, for my separation with ZYX"  
-    **HUO** -> **LTA**: "QFA114, concur F150"  
+    <span class="hotline">**LTA** -> **HUO**</span>: "via IRSOM, QFA114, with your concurrence, will be assigned F150, for my separation with ZYX"  
+    <span class="hotline">**HUO** -> **LTA**</span>: "QFA114, concur F150"  
     `AIP GEN 3.4`
 
 #### Arrivals
@@ -69,8 +69,8 @@ HBA will coordinate all YMHB arrivals to HB ADC prior to **5 mins** from the bou
 - IFR Circuit joining instructions, if not on Straight-in instrument approach
 
 !!! example
-    **HB TCU** -> **HB ADC**: "via BUSKA, QJE1789, for the ILS”  
-    **HB ADC** -> **HB TCU**: "QJE1789"  
+    <span class="coldline">**HB TCU** -> **HB ADC**</span>: "via BUSKA, QJE1789, for the ILS”  
+    <span class="coldline">**HB ADC** -> **HB TCU**</span>: "QJE1789"  
     `AIP GEN 3.4`
 
 ### LT ADC / LTA
@@ -92,6 +92,6 @@ LTA will coordinate all YMLT arrivals to LT ADC prior to **5 mins** from the bou
 - IFR Circuit joining instructions, if not on Straight-in instrument approach
 
 !!! example
-    **LT TCU** -> **LT ADC**: "via IRSOM, JST416, for the DGA, will join left downwind 32L”  
-    **LT ADC** -> **LT TCU**: "JST416"  
+    <span class="coldline">**LT TCU** -> **LT ADC**</span>: "via IRSOM, JST416, for the DGA, will join left downwind 32L”  
+    <span class="coldline">**LT ADC** -> **LT TCU**</span>: "JST416"  
     `AIP GEN 3.4`
