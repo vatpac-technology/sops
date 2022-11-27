@@ -26,5 +26,5 @@
 !!! Information
     Auckland Oceanic airspace does not have a transition layer, except within the Rarotonga, Samoa and Norfolk Island QNH zones.  
     
-    Aircraft within Auckland Oceanic airspace should use the standard altimeter setting of 1013.2hpa unless within the aforementioned QNH zones.
+    Aircraft within Auckland Oceanic airspace should use the standard altimeter setting of 1013 hPa unless within the aforementioned QNH zones.
     
