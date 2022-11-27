@@ -215,30 +215,30 @@ When SODPROPS are in operation, the ATIS OPR INFO shall include:
 ## Coordination
 ### SY ADC / SY TCU
 #### Auto Release
+!!! important
+    Sydney utilises auto release for all **procedural** SIDs and the **SY (RADAR)** SID provided aircraft are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
-"Next" Coordination is a procedure where the **SY ADC** controller gives a heads-up to the SY TCU controller about an impending departure. The SY TCU controller will respond by assigning a heading to the aircraft, for the **SY ADC** controller to pass on with their takeoff clearance.
+"Next" coordination is required for:  
+    a) Aircraft not assigned the standard assignable level    
+    b) Jets departing 16L via WOL, except during SODROPS  
+    c) After a go around, the next departure from that runway  
+    d) Visual departures  
+    e) Departures to YSBK
 
 !!! example
-    **SY ADC** -> **SY TCU**: "Next, ABC"  
-    **SY TCU** -> **SY ADC**: "ABC, Heading 030"  
-    **SY ADC** -> **SY TCU**: "Heading 030, ABC"  
+    <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Next, MHQ, Runway 34R"  
+    <span class="hotline">**SY TCU** -> **SY ADC**</span>: "MHQ, heading 030, unrestricted"  
+    <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Heading 030 unrestricted, MHQ"  
 
-    **SY ADC**: "ABC, Assigned heading right 030, Runway 34R, Cleared for Takeoff"  
-    **ABC**: "Right heading 030, Runway 34R, Cleared for Takeoff, ABC"  
+    **SY ADC**: "MHQ, Assigned heading right 030, Runway 34R, Cleared for Takeoff"  
+    **MHQ**: "Right heading 030, Runway 34R, Cleared for Takeoff, MHQ"  
     `AIP GEN 3.4`
-
-"Next" Coordination to SY TCU is additionally required for:  
-    a) Departures to YSBK  
-    b) Jets departing 16L via WOL, except during SODPROPS  
-    c) after a go-around, the next departure from that runway
 
 The SY TCU controller can suspend/resume Auto Release at any time, with the concurrence of **SY ADC**.
 
-"Next" Coordination to SY TCU is not required for aircraft assigned a **Procedural SID** and the Standard Assignable Level, or an aircraft assigned a **Radar SID** and assigned a standard assignable heading (see Coordination below).
-
 ### SY ADC / SY SMC
-#### Ground Operations
-As per this (link) diagram, **SY ADC** has Responsibility of the Runways, meaning **SY SMC** must always coordinate with **SY ADC** to allow aircraft to cross runways whilst taxiing. **SY SMC** may request, or **SY ADC** may elect, to release certain runways to the **SY SMC** controller, so they may let aircraft cross the runway without coordination (For example, Releasing runway 07/25 to **SY SMC** whilst PROPS are in progress.) This Release may also be cancelled at the controller's discretion.
+#### Inactive Runway Releases
+**SY ADC** has responsibility of all runways, requiring **SY SMC** to coordinate with **SY ADC** to allow aircraft to cross runways whilst taxiing. **SY SMC** may request, or **SY ADC** may elect, to release certain runways to the **SY SMC** controller, so they may let aircraft cross the runway without coordination (for example, releasing runway 07/25 to **SY SMC** whilst PROPS are in progress.) This release may also be cancelled at the controller's discretion.
 
 ### SY ACD / SY TCU
 The controller assuming responsibility of **SY ACD** shall give heads-up coordination to the relevant SY TCU controller prior to the issue of the following clearances:  
@@ -249,9 +249,9 @@ b) Aircraft using a runway not on the ATIS
     **TEK:** "Sydney Delivery, TEK, for Shellharbour via Cronulla, A025, request clearance"  
     **SY ACD:** "TEK, Sydney Delivery, standby"    
 
-    **SY ACD** -> **SY TCU**: "TEK, requesting clearance for Shellharbour via Cronulla, A025"  
-    **SY TCU** -> **SY ACD**: "TEK, cleared to Shellharbour via Cronulla, A025"  
-    **SY ACD** -> **SY TCU**: "Cleared to Shellharbour via Cronulla, A025, TEK"   
+    <span class="coldline">**SY ACD** -> **SY TCU**</span>: "TEK, requesting clearance for Shellharbour via Cronulla, A025"  
+    <span class="coldline">**SY TCU** -> **SY ACD**</span>: "TEK, cleared to Shellharbour via Cronulla, A025"  
+    <span class="coldline">**SY ACD** -> **SY TCU**</span>: "Cleared to Shellharbour via Cronulla, A025, TEK"   
 
     **SY ACD:** "TEK, cleared to Shellharbour via Cronulla, climb A025, squawk 0552, departure frequency 123.0"  
     **TEK:** "Cleared to Shellharbour via Cronulla, climb A025, squawk 0552, departure frequency 123.0, TEK"  

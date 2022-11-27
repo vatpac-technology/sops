@@ -17,7 +17,7 @@
 RNAV jet-aircraft planned via APAGI shall be issued the APAGI SID.  
 !!! note
     For RNP (0.3) approved operators, the RWY14 CUDGN SID and RWY32 BURLI SID are available for departures via APAGI.  
-GC (RADAR) SID shall be assigned to all other IFR aircraft, except those assigned Runway 35.  
+The GOLD COAST (RADAR) SID shall be assigned to all other IFR aircraft, except those assigned Runway 35.  
 IFR departures from Runway 35 shall be assigned a visual departure.  
 
 Radar SID aircraft shall be cleared subject to the following conditions for noise abatement purposes:
@@ -47,11 +47,11 @@ Preferred runway is Runway 14 - all hours
 The crosswind Runways 17/35 may be used at the same time as the main runways.
 
 ### Preferred RWY 14 Approach (All Hours) - Noise Abatement
-Turbo Jet and non turbo Jet aircraft above 5,700KG MTOW (unless due weather or critical operations requirements) - Approach priorities:  
-RNAV-W (RNP) RWY 14, RNAV-Y (RNP) RWY 14, RNAV-Z (GNSS) RWY 14, VISUAL APCH RWY 14, ILS RWY 14  
+The preferred approach for Jet aircraft above 5,700KG MTOW (unless due weather or critical operations requirements) is as follows:  
+<ol><li>RNAV-W (RNP) RWY 14</li><li>RNAV-Y (RNP) RWY 14</li><li>RNAV-Z (GNSS) RWY 14</li><li>VISUAL APCH RWY 14</li><li>ILS RWY 14</li></ol>
 
 ### Circuit Direction
-Circuits are to be conducted at `A010` AGL.  
+Circuits are to be conducted at `A010`.  
 
 | Runway               | Direction       |
 | ------------------ | -------------- |
@@ -101,12 +101,12 @@ c) Assigned `A060`;
 Any aircraft that don't meet these criteria must be coordinated to BN TCU with a "Next" Call
 
 !!! example
-    **CG ADC** -> **BN TCU**: "Next, ABC"  
-    **BN TCU** -> **CG ADC**: "ABC, Heading 030"  
-    **CG ADC** -> **BN TCU**: "Heading 030, ABC"  
+    <span class="hotline">**CG ADC** -> **BN TCU**</span>: "Next, CBN, runway 14"  
+    <span class="hotline">**BN TCU** -> **CG ADC**</span>: "CBN, heading 030, unrestricted"  
+    <span class="hotline">**CG ADC** -> **BN TCU**</span>: "Heading 030 unrestricted, CBN"  
 
-    **CG ADC**: "ABC, Assigned heading left 030, Runway 14, Cleared for Takeoff"  
-    **ABC**: "Left heading 030, Runway 14, Cleared for Takeoff, ABC"  
+    **CG ADC**: "CBN, Assigned heading left 030, Runway 14, Cleared for Takeoff"  
+    **CBN**: "Left heading 030, Runway 14, Cleared for Takeoff, CBN"  
     `AIP GEN 3.4`
 
 A start clearance is required for aircraft planned to Brisbane. Start clearance must be coordinated with BN TCU.
@@ -115,5 +115,5 @@ The BN TCU controller can suspend/resume Auto Release at any time, with the conc
 
 ## Standard Assignable Levels
 
-Jets: `A060`
+Jets: `A060`  
 Non-jets: `A060` or `RFL` if lower

@@ -34,8 +34,8 @@ For simulation purposes, visual separation is assumed to exist below the cloud b
 A 'next' call is made for all aircraft when they are next to depart. MK ADC must inform KEN(SWY) if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
-    **MK ADC** -> **COR**: "Next, TFX113"  
-    **COR** -> **MK ADC**: "TFX113"
+    <span class="hotline">**MK ADC** -> **COR**</span>: "Next, TFX113"  
+    <span class="hotline">**COR** -> **MK ADC**</span>: "TFX113"
 
 The Standard Assignable level from MK ADC to COR TCU is the lower of `A060` or the `RFL`, any other level must be prior coordinated.
 
@@ -43,5 +43,5 @@ The Standard Assignable level from MK ADC to COR TCU is the lower of `A060` or t
 COR TCU will coordinate the sequence to MK ADC
 
 !!! example
-    **COR** -> **MK ADC**: "New Sequence of 2. Via LEDUS, VOZ1164, Number 1. JST453, Number 2”  
-    **MK ADC** -> **COR**: "VOZ1164, Number 1. JST453, Number 2"  
+    <span class="coldline">**COR** -> **MK ADC**</span>: "New Sequence of 2. Via LEDUS, VOZ1164, Number 1. JST453, Number 2”  
+    <span class="coldline">**MK ADC** -> **COR**</span>: "VOZ1164, Number 1. JST453, Number 2"  

@@ -38,15 +38,15 @@ If required, CFS ADC can pass amended tracking/level instructions to an aircraft
 A 'next' call is made for all aircraft when they are next to depart. CFS ADC must inform INL/ARL(MNN) if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
-    **CFS ADC** -> **MNN**: "Next, QJE1573"  
-    **MNN** -> **CFS ADC**: "QJE1573"  
+    <span class="hotline">**CFS ADC** -> **MNN**</span>: "Next, QJE1573"  
+    <span class="hotline">**MNN** -> **CFS ADC**</span>: "QJE1573"  
 
 The Standard Assignable level from CFS ADC to INL/ARL(MNN) is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
 ### Arrivals
 INL/ARL(MNN) will coordinate the sequence to CFS ADC.
 
 !!! example
-    **INL** -> **CFS ADC**: "New Sequence of 2. Via GAMBL, RXA9904, Number 1. Via TUCAB, LYM, Number 2”  
-    **CFS ADC** -> **INL**: "RXA9904, Number 1. LYM, Number 2"  
+    <span class="coldline">**INL** -> **CFS ADC**</span>: "New Sequence of 2. Via KADSI, RXA6416, Number 1. Via TUCAB, LYM, Number 2”  
+    <span class="coldline">**CFS ADC** -> **INL**</span>: "RXA6416, Number 1. LYM, Number 2"  
 
 The Standard Assignable level from INL/ARL(MNN) to CFS ADC is `A080`, any other level must be prior coordinated.
