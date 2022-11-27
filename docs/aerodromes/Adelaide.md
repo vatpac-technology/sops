@@ -27,11 +27,15 @@ Single runway operations using Runway 05 or 23 (whichever is more favoured by th
     METAR: `YPAD 210600Z 15030KT 9999 FEW030 21/11 Q1002 RMK RF00.0/000.0`  
     ATIS: `RUNWAY 23 AND 12 FOR ARRIVALS AND DEPARTURES`
 
-#### Curfew Mode
+### Runway 23 Arrivals
+With **Runway 23** in use for arrivals and the cloud base above `A0xx` but below `A0xx`, the APCH field shall include:  
+`ACFT FM THE EAST AND JET ACFT FM THE WEST EXP INSTR APCH`  
+
+### Curfew Mode
 
 Between the hours of 1330-2030 UTC (1230-1930 UTC HDS), AD ADC may elect to simulate Curfew operations, ie: **Runway 23 for arrivals, Runway 05 for departures**. When this is in operation, the ATIS shall include `CURFEW IN OPERATION UNTIL (time) ZULU`.
 
-#### SID Selection
+## SID Selection
 
 Jet Aircraft planned via **PANKI**, **BENDO**, **GILES**, **HAWKY**, **ORBUN**. or **SEDAN**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 

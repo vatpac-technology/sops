@@ -60,8 +60,14 @@ Shall be assigned the **Radar SID**.
 
 ## ATIS
 
-#### ATIS Identifier
-YMML ATIS identifiers only uses letters `N` through to `Y`, due to nearby YMEN using letters `A` through `M` 
+### ATIS Identifier
+YMML ATIS identifiers only uses letters `N` through to `Y`, due to nearby YMEN using letters `A` through `M`.  
+
+### Approach Expectation
+With **Runway 34** in use for arrivals and the cloud base above `A033` but below `A037`, the APCH field shall include:  
+`ACFT ON THE ALPHA STAR EXP INSTR APCH` 
+
+This permits controllers to assign aircraft either the Alpha or Victor STAR and process them for a GLS/RNP approach or a visual approach (depending on traffic flow and pilot preference).
 
 ## Coordination
 ### ML ADC / ML TCU
