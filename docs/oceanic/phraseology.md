@@ -30,7 +30,7 @@ Controllers must check each aircraft’s flight plan for a discrete SELCAL code.
 
 ### Position Reports
 
-A Position Report will contain the following elements:
+A Position Report will contain the following elements:  
 - Callsign  
 - Position  
 - Time    
