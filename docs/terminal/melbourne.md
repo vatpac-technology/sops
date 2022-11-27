@@ -197,8 +197,8 @@ Voiceless coordination is in place from ML TCU to all surrounding ENR sectors (*
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
 !!! example
-    **ML TCU** -> **YWE**: "QFA420, with your concurrence, will be assigned F190, for my separation with QLK52D"  
-    **YWE** -> **ML TCU**: "QFA420, concur F190"  
+    <span class="hotline">**ML TCU** -> **YWE**</span>: "QFA420, with your concurrence, will be assigned F190, for my separation with QLK52D"  
+    <span class="hotline">**YWE** -> **ML TCU**</span>: "QFA420, concur F190"  
 
 #### Arrivals
 The Standard assignable level from ENR to ML TCU is `A090`. All other levels must be prior coordinated
@@ -216,12 +216,9 @@ Any aircraft that don't meet these criteria must be coordinated to ML TCU with a
 "Next" Coordination is a procedure where the ML ADC controller gives a heads-up to the ML TCU controller about an impending departure. The ML TCU controller will respond by assigning any relevant departure instructions (i.e. assigned heading, amended altitude, visual turn) to the aircraft, for the ML ADC controller to pass on with their takeoff clearance.
 
 !!! example
-    **ML ADC** -> **ML TCU**: "Next, CYF, runway 34"  
-    **ML TCU** -> **ML ADC**: "CYF, track extended centreline"  
-    **ML ADC** -> **ML TCU**: "Track extended centreline, CYF"  
-
-    **ML ADC:** "CYF, track extended centreline 340 degrees, Runway 34, cleared for takeoff"  
-    **CYF:** "Track extended centreline 340 degrees, Runway 34, cleared for takeoff, CYF"  
+    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, CYF, runway 34"  
+    <span class="hotline">**ML TCU** -> **ML ADC**</span>: "CYF, track extended centreline, unrestricted"  
+    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Track extended centreline, unrestricted, CYF"  
     `AIP GEN 3.4`
 
 ### ML TCU / EN ADC
@@ -230,16 +227,15 @@ Any aircraft that don't meet these criteria must be coordinated to ML TCU with a
 Aircraft departing YMEN in to ML TCU Class C will be coordinated from **EN ADC** at Taxi.
 
 !!! example
-    **EN ADC** -> **ML TCU**: "Taxi, AM322 for YBDG via ML, Runway 17"  
-    **ML TCU** -> **EN ADC**: "AM322, A030"  
-    **EN ADC** -> **ML TCU**: "A030, AM322" 
+    <span class="coldline">**EN ADC** -> **ML TCU**</span>: "Taxi, AM322 for YBDG via ML, Runway 17"  
+    <span class="coldline">**ML TCU** -> **EN ADC**</span>: "AM322"  
     `AIP GEN 3.4`
 #### Arrivals
 ML TCU must coordinate the sequence information to **EN ADC** prior to transfer of jurisdiction. ML TCU is responsible for clearing aircraft for the approach prior to handoff to **EN ADC**.
 
 !!! example
-    **ML TCU** -> **EN ADC**: "New sequence of 1, CJI, via MONTY, Number 1"  
-    **EN ADC** -> **ML TCU**: "CJI, Number 1"  
+    <span class="coldline">**ML TCU** -> **EN ADC**</span>: "New sequence of 1, CJI, via MONTY, Number 1"  
+    <span class="coldline">**EN ADC** -> **ML TCU**</span>: "CJI, Number 1"  
     `AIP GEN 3.4`
 ### ML TCU / AV ADC
 #### Departures
@@ -247,23 +243,23 @@ ML TCU must coordinate the sequence information to **EN ADC** prior to transfer 
 Aircraft departing YMAV in to ML TCU CTA will be coordinated from **AV ADC** at Taxi.
 
 !!! example
-    **AV ADC** -> **ML TCU**: "Taxi, JST604 for YSSY, Runway 18, JUSTY2 departure"  
-    **ML TCU** -> **AV ADC**: "JST604"
+    <span class="coldline">**AV ADC** -> **ML TCU**</span>: "Taxi, JST604 for YSSY, Runway 18, JUSTY2 departure"  
+    <span class="coldline">**ML TCU** -> **AV ADC**</span>: "JST604"  
     `AIP GEN 3.4`
 
 When the aircraft is ready for takeoff, **AV ADC** will give a "Next" call, where ML TCU will provide the cleared level, and any additional departure instructions.
 
 !!! example
-    **AV ADC** -> **ML TCU**: "Next, JST604"  
-    **ML TCU** -> **AV ADC**: "JST604, A040"  
-    **AV ADC** -> **ML TCU**: "A040, JST604"
+    <span class="hotline">**AV ADC** -> **ML TCU**</span>: "Next, JST604"  
+    <span class="hotline">**ML TCU** -> **AV ADC**</span>: "JST604, A040"  
+    <span class="hotline">**AV ADC** -> **ML TCU**</span>: "A040, JST604"  
     `AIP GEN 3.4`
 #### Arrivals
 ML TCU must coordinate the sequence information to **AV ADC** prior to transfer of jurisdiction.
 
 !!! example
-    **ML TCU** -> **AV ADC**: "JST612, via TEMPL, Number 1"  
-    **AV ADC** -> **ML TCU**: "JST612, Number 1"  
+    <span class="coldline">**ML TCU** -> **AV ADC**</span>: "JST612, via TEMPL, Number 1"  
+    <span class="coldline">**AV ADC** -> **ML TCU**</span>: "JST612, Number 1"  
     `AIP GEN 3.4`
 
 ### ML TCU / MB ADC
@@ -272,17 +268,17 @@ ML TCU must coordinate the sequence information to **AV ADC** prior to transfer 
 Aircraft departing YMMB in to ML TCU CTA will be coordinated from **MB ADC** at Taxi.
 
 !!! example
-    **MB ADC** -> **ML TCU**: "Taxi, SGE for YBLT via ML"  
-    **ML TCU** -> **MB ADC**: "SGE for YBLT via ML, Squawk 3601"  
-    **MB ADC** -> **ML TCU**: "3601, SGE"
+    <span class="coldline">**MB ADC** -> **ML TCU**</span>: "Taxi, SGE for YBLT via ML"  
+    <span class="coldline">**ML TCU** -> **MB ADC**</span>: "SGE for YBLT via ML, Squawk 3601"  
+    <span class="coldline">**MB ADC** -> **ML TCU**</span>: "3601, SGE"  
     `AIP GEN 3.4`
 
 When the aircraft is ready for takeoff, **MB ADC** will give a "Next" call, where ML TCU will provide the cleared level.
 
 !!! example
-    **MB ADC** -> **ML TCU**: "Next, SGE"  
-    **ML TCU** -> **MB ADC**: "SGE, A060"  
-    **MB ADC** -> **ML TCU**: "A060, SGE"
+    <span class="hotline">**MB ADC** -> **ML TCU**</span>: "Next, SGE"  
+    <span class="hotline">**ML TCU** -> **MB ADC**</span>: "SGE, A060"  
+    <span class="hotline">**MB ADC** -> **ML TCU**</span>: "A060, SGE"  
     `AIP GEN 3.4`
 
 !!! note
@@ -291,6 +287,6 @@ When the aircraft is ready for takeoff, **MB ADC** will give a "Next" call, wher
 ML TCU Must coordinate the sequence information to **MB ADC** prior to transfer of jurisdiction.
 
 !!! example
-    **ML TCU** -> **MB ADC**: "New sequence of 1, OXA, via MMBSA, Number 1"  
-    **MB ADC** -> **ML TCU**: "OXA, Number 1"  
+    <span class="coldline">**ML TCU** -> **MB ADC**</span>: "New sequence of 1, OXA, via MMBSA, Number 1"  
+    <span class="coldline">**MB ADC** -> **ML TCU**</span>: "OXA, Number 1"  
     `AIP GEN 3.4`
