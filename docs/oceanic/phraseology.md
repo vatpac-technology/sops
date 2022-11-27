@@ -61,5 +61,5 @@ Coordination with domestic sectors must be completed at least **15 minutes** pri
     The sector boundary between Australian and New Zealand oceanic sectors is treated as a domestic sector for the purposes of coordination, so aircraft must be coordinated at least **15 minutes** prior to the boundary.
 
 !!! example
-    <span class="coldline">**BN-TSN_FSS** -> **NZZO_FSS**</span>: ""Estimate ANZ52, EGATO 0243, FL370"  
-    <span class="coldline">**NZZO_FSS** -> **BN-TSN_FSS**</span>: ""FL370, ANZ52"
+    <span class="coldline">**BN-TSN_FSS** -> **NZZO_FSS**</span>: "Estimate ANZ52, EGATO 0243, FL370"  
+    <span class="coldline">**NZZO_FSS** -> **BN-TSN_FSS**</span>: "FL370, ANZ52"
