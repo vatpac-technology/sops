@@ -94,8 +94,7 @@ Departures from YMAY in to BLA Class C will be coordinated when ready for depart
 
 !!! example
     **AY ADC** -> **BLA**: "Next, RXA6772"  
-    **BLA** -> **AY ADC**: "RXA6772"  
-    **AY ADC** -> **BLA**: "RXA6772"  
+    **BLA** -> **AY ADC**: "RXA6772"
 
 The Standard Assignable level from **AY ADC** to BLA is the lower of `A070` or the `RFL`.
 
@@ -105,4 +104,11 @@ YMAY arrivals shall be coordinated to **AY ADC** from BLA prior to transfer of j
 
 !!! example
     **BLA** -> **AY ADC**: "QLK38, via VEGRU1 arrival"  
-    **AY ADC** -> **BLA**: "QLK38"  
+    **AY ADC** -> **BLA**: "QLK38"
+
+#### Overfliers
+Any aircraft that will enter AY ADC airspace, and not landing at YMAY, must be Heads-up coordinated prior to **5 mins** from the boundary.
+
+!!! example
+    **BLA** -> **AY ADC**: "via AY, NGJ"  
+    **AY ADC** -> **BLA**: "NGJ, A040"
