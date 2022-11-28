@@ -17,14 +17,15 @@ HF radio is used as the primary long-range radio communications medium. The natu
 
 Given the background noise level experienced on HF radio frequencies, flight crews usually prefer to turn down the audio level of their HF receiver. SELCAL uses a unique 4-letter code for each aircraft (eg. QR-AC) transmitted over the communications frequency to sound an alert for the flight crew.
 
-Controllers must check each aircraft’s flight plan for a discrete SELCAL code. If aircraft have nominated a discrete code (for example “QR-AC”), then a SELCAL Check shall be completed
+Controllers must check each aircraft’s flight plan for a discrete SELCAL code. If aircraft have nominated a discrete code (for example `QR-AC`), then a SELCAL Check shall be completed.
 
 !!! Example
     **BN-TSN_FSS**: "QFA43 good afternoon, Brisbane accepts primary guard 128.6, secondary 122.1, standby SELCAL check."  
     *The aircraft awaits the SELCAL check before replying.*  
     **QFA43**: "SELCAL check OK, secondary 122.1, QFA43."  
     **BN-TSN_FSS**: "QFA43, request your estimate VIROG."  
-    *From now on ATC will preface communications with a text SELCAL*
+
+After the SELCAL check has been completed, controllers must preface all communications to that aircraft with a SELCAL prompt.
 
 ## Position Reports
 
