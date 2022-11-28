@@ -15,17 +15,13 @@
 
 ## Airspace
 Canberra TCU owns the airspace within a 30 nm radius of CB DME, except for the CB CTR and the “clipped” portion in the North, South-Eastern, and North-Western arc, and from `SFC` to `F245`.  
-   
-When both CB TCU positions are opened, CB TCU is split east and west along the Runway 17/35 extended centreline. CBE owns the airspace to the east of the line, and CBW owns the airspace to the west of the line.
+
+### Airspace Division
 
 <figure markdown>
-![CBTCUStructure](img/CBTCU.png){ width="700" }
+![CB TCU Structure](img/cbtcu_annotated.png){ width="700" }
   <figcaption>CB TCU Structure</figcaption>
 </figure>
-
-### Airspace Structural Arrangements
-
-Pursuant to Section 3 of the [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}, the following rules apply, in the order presented, to these controller positions:  
 
 ## Coordination
 ### CB TCU / ENR

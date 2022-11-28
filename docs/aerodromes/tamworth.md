@@ -15,7 +15,7 @@
 ## Airspace
 
 <figure markdown>
-![Tamworth Tower Airspace](img/TWCTR.png){ width="800" }
+![Tamworth Tower Airspace](img/YSTW_airspace.png){ width="800" }
   <figcaption>Tamworth Tower Airspace</figcaption>
 </figure>
 
