@@ -55,5 +55,12 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
     **AS ADC** -> **ASP**: "QFA1956, Number 1. FD867, Number 2"  
 
 The Standard Assignable level from ASP to **AS ADC** is `A080`, any other level must be prior coordinated.
+
+#### Overfliers
+Any aircraft that will enter AS ADC airspace, and not landing at YBAS, must be Heads-up coordinated prior to **5 mins** from the boundary.
+
+!!! example
+    **ASP** -> **AS ADC**: "via AS, JDS"  
+    **AS ADC** -> **ASP**: "JDS, A060"
 ### WRA / WR ADC
 Reserved.

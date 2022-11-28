@@ -102,7 +102,14 @@ YCFS arrivals shall be coordinated to **CFS ADC** from MNN prior to transfer of 
 
 !!! example
     **MNN** -> **CFS ADC**: "RXA6438, via KADSI"  
-    **CFS ADC** -> **MNN**: "RXA6438"  
+    **CFS ADC** -> **MNN**: "RXA6438"
+
+#### Overfliers
+Any aircraft that will enter CFS ADC airspace, and not landing at YCFS, must be Heads-up coordinated prior to **5 mins** from the boundary.
+
+!!! example
+    **MNN** -> **CFS ADC**: "via CFS, GNP"  
+    **CFS ADC** -> **MNN**: "GNP, A030"
 ### CNK/MND/MNN / WLM TCU
 #### Airspace
 By default, **WLM TCU** owns the airspace within the **R578A-G** restricted areas, unless stated otherwise by ad-hoc release or NOTAM.

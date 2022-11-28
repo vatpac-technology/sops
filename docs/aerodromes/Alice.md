@@ -13,7 +13,7 @@
 
 ## Airspace
 <figure markdown>
-![YBAS Airspace](img/ybas_airspace.jpg){ width="700" }
+![YBAS Airspace](img/YBAS_airspace.png){ width="1000" }
   <figcaption>YBAS Airspace</figcaption>
 </figure>
 
