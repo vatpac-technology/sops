@@ -1,12 +1,10 @@
 ---
-  title: Phraseology
+  title: Procedures
 ---
 
 --8<-- "includes/abbreviations.md"
 
-## Phraseology
-
-### HF Radio
+## HF Radio
 
 HF radio is used as the primary long-range radio communications medium. The nature of HF radio makes it highly vulnerable to atmospheric distortion and noise, and so radiotelephony (R/T) procedures on HF tend to be more formal in order to maximise clarity.
 
@@ -15,7 +13,7 @@ HF radio is used as the primary long-range radio communications medium. The natu
     **ZAK_W_FSS**: "UAL873, San Francisco Radio, go-ahead"  
     **UAL873**: "San Francisco Radio, UAL873 request climb FL390"
 
-### SELCAL
+## SELCAL
 
 Given the background noise level experienced on HF radio frequencies, flight crews usually prefer to turn down the audio level of their HF receiver. SELCAL uses a unique 4-letter code for each aircraft (eg. QR-AC) transmitted over the communications frequency to sound an alert for the flight crew.
 
@@ -28,16 +26,15 @@ Controllers must check each aircraft’s flight plan for a discrete SELCAL code.
     **BN-TSN_FSS**: "QFA43, request your estimate VIROG."  
     *From now on ATC will preface communications with a text SELCAL*
 
-### Position Reports
+## Position Reports
 
 A Position Report will contain the following elements:  
 - Callsign  
-- Position  
-- Time    
+- Position & Time  
 - Flight level  
 - Next position and time over   
 - Ensuing significant point   
-- Specified Speed  
+- Specified Speed (if assigned)
 
 !!! Note
     If after making a position report an estimate has changed by more than 2 minutes, the new estimate shall be passed to ATC.  
@@ -52,7 +49,20 @@ ATC shall acknowledge a position report by using the aircraft's callsign. A read
     **UAL873**: "UAL873 position LHI time 1853, FL360, estimate PANDA at 1953, SANDO next. Maintaining Mach 0.84”  
     **ZAK_W_FSS**: "UAL873, San Francisco Radio, Copied Position" 
     
-### Coordination
+## Simulator Time Compression
+Due to the length of most oceanic crossings, some pilots may elect to use time compression to speed up their cruise segment.  Controllers should accommodate this request where possible.
+
+!!! note
+    Time compression is not available within 20 minutes of a domestic sector.
+
+Aircraft using time compression must be assigned the following levels for separation with other traffic:  
+
+| Sim Rate | Eastbound  | Westbound |
+| ----------------| --------- | -------- |
+| 2x   | FL390     | FL380 |
+| 4x | FL410 | FL400 |
+
+## Coordination
 As per [Standard Coordination Rules](../../controller-skills/coordination), all aircraft must be voice coordinated prior to an airspace boundary.  
 
 Coordination with domestic sectors must be completed at least **15 minutes** prior to the boundary.  Coordination with other oceanic sectors must be completed at least **30 minutes** prior to the boundary.
@@ -63,3 +73,10 @@ Coordination with domestic sectors must be completed at least **15 minutes** pri
 !!! example
     <span class="coldline">**BN-TSN_FSS** -> **NZZO_FSS**</span>: "Estimate ANZ52, EGATO 0243, FL370"  
     <span class="coldline">**NZZO_FSS** -> **BN-TSN_FSS**</span>: "FL370, ANZ52"
+
+Any change or request regarding an aircraft which has already been coordinated with the sector must be further coordinated before being issued.  
+
+!!! example
+    <span class="coldline">**BN-TSN_FSS** -> **ARL**</span>: "Via AKALU, QFA122, request descent FL310 due weather"  
+    <span class="coldline">**ARL** -> **BN-TSN_FSS**</span>: "Concur, QFA122, FL310"  
+    <span class="coldline">**BN-TSN_FSS** -> **ARL**</span>: "QFA122, FL310"
