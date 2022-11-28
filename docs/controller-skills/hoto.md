@@ -4,7 +4,7 @@ title: Handover/Takeover
 
 --8<-- "includes/abbreviations.md"
 
-When a prior arrangement has been made to change controllers on a particular sector, an informative, consistent, and reliable Handover procedure will ensure the controller taking over has aall the information necessary to start working the airspace. This is especially important during busy times, such as during events.
+When a prior arrangement has been made to change controllers on a particular sector, an informative, consistent, and reliable Handover procedure will ensure the controller taking over has all the information necessary to start working the airspace. This is especially important during busy times, such as during events.
 
 Wherever possible, Handovers shall be conducted in the **RAWFTO** format:
 
