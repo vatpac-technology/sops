@@ -28,8 +28,10 @@ Single runway operations using Runway 05 or 23 (whichever is more favoured by th
     ATIS: `RUNWAY 23 AND 12 FOR ARRIVALS AND DEPARTURES`
 
 ### Runway 23 Arrivals
-With **Runway 23** in use for arrivals and the cloud base above `A0xx` but below `A0xx`, the APCH field shall include:  
+With **Runway 23** in use for arrivals and the cloud base above `A024` but below `A043`, the APCH field shall include:  
 `ACFT FM THE EAST AND JET ACFT FM THE WEST EXP INSTR APCH`  
+
+This allows aircraft on the Victor STAR from the west to join a visual right base without the need to conduct an instrument approach, while keeping aircraft from the east clear of the higher terrain near the Adelaide Hills.
 
 ### Curfew Mode
 
