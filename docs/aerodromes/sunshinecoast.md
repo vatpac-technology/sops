@@ -15,7 +15,7 @@
 ## Airspace
 
 <figure markdown>
-![SU TWR Airspace](img/SUCTR.png){ width="700" }
+![SU TWR Airspace](img/YBSU_airspace.png){ width="700" }
   <figcaption>SU TWR Airspace</figcaption>
 </figure>
 

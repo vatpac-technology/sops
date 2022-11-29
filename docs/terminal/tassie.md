@@ -50,6 +50,8 @@ The Standard assignable level from HUO to HBA/LTA is:
 All other aircraft must be voice coordinated to HBA/LTA.
 
 ### HB ADC / HBA
+#### Airspace
+HB ADC owns the Class D airspace in the HB CTR `SFC` to `A010`. HBA owns the Class D and C airspace above `A010`.
 #### Departures
 HB ADC will give a "Next" call for:
 
@@ -74,6 +76,8 @@ HBA will coordinate all YMHB arrivals to HB ADC prior to **5 mins** from the bou
     `AIP GEN 3.4`
 
 ### LT ADC / LTA
+#### Airspace
+LT ADC owns the Class D airspace in the LT CTR `SFC` to `A010`. LTA owns the Class D and C airspace above `A010`.
 #### Departures
 LT ADC will give a "Next" call for:
 

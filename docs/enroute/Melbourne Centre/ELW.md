@@ -104,4 +104,11 @@ YMAY arrivals shall be coordinated to **AY ADC** from BLA prior to transfer of j
 
 !!! example
     <span class="coldline">**BLA** -> **AY ADC**</span>: "QLK38, via VEGRU1 arrival"  
-    <span class="coldline">**AY ADC** -> **BLA**</span>: "QLK38"  
+    <span class="coldline">**AY ADC** -> **BLA**</span>: "QLK38" 
+
+#### Overfliers
+Any aircraft that will enter AY ADC airspace, and not landing at YMAY, must be Heads-up coordinated prior to **5 mins** from the boundary.
+
+!!! example
+    **BLA** -> **AY ADC**: "via AY, NGJ"  
+    **AY ADC** -> **BLA**: "NGJ, A040"

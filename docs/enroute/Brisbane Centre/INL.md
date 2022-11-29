@@ -20,7 +20,7 @@
 ## Airspace
 
 GOL is responsible for the [BN TCU](../../../terminal/brisbane) when **BN TCU** is offline.  
-GOL is responsible for the [RK TCU](../../../terminal/coral) when **RKA** is offline.  
+KPL is responsible for the [RK TCU](../../../terminal/coral) when **RKA** is offline.  
 INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, **NSA**, and **KPL** when they are offline.  
 
 When **SU ADC** is offline, SU CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by NSA and BUR. Alternatively, NSA may provide a [top-down procedural service](../../../aerodromes/sunshinecoast) if they wish (not recommended), and this must be coordinated to BUR.  
@@ -91,15 +91,22 @@ YBSU arrivals shall be coordinated to **SU ADC** from NSA prior to transfer of j
 
 !!! example
     <span class="coldline">**NSA** -> **SU ADC**</span>: "JST731, via ITIDE2W Arrival Runway 31"  
-    <span class="coldline">**SU ADC** -> **NSA**</span>: "JST731"  
+    <span class="coldline">**SU ADC** -> **NSA**</span>: "JST731"
 
-### KPL / RK TCU
+#### Overfliers
+Any aircraft that will enter SU ADC airspace, and not landing at YBSU, must be Heads-up coordinated prior to **5 mins** from the boundary.
 
-The Standard assignable level from KPL to **RK TCU** is `A070`, and assigned the ABVAS STAR or DADBO STAR.
+!!! example
+    **NSA** -> **SU ADC**: "via HOLIS, CXB"  
+    **SU ADC** -> **NSA**: "CXB, A025"
 
-All other aircraft must be voice coordinated to **RK TCU** prior to **20nm** from the boundary.
+### KPL / RKA
 
-The Standard Assignable level from **RK TCU** to KPL is `F150`, and tracking via BUDGI or TARES.
+The Standard assignable level from KPL to **RKA** is `A070`, and assigned the ABVAS STAR or DADBO STAR.
+
+All other aircraft must be voice coordinated to **RKA** prior to **20nm** from the boundary.
+
+The Standard Assignable level from **RKA** to KPL is `F150`, and tracking via BUDGI or TARES.
 ### INL / CFS ADC
 #### Airspace
 When **CFS ADC** is online, **INL** and **MNN** owns the Class C airspace from `A045` upwards, and **CFS ADC** owns the Class D airspace `SFC` to `A045`.
@@ -120,9 +127,18 @@ YCFS arrivals shall be coordinated to **CFS ADC** from INL prior to transfer of 
 !!! example
     <span class="hotline">**INL** -> **CFS ADC**</span>: "VET, via GAMBL"  
     <span class="hotline">**CFS ADC** -> **INL**</span>: "VET"  
+
+#### Overfliers
+Any aircraft that will enter CFS ADC airspace, and not landing at YCFS, must be Heads-up coordinated prior to **5 mins** from the boundary.
+
+!!! example
+    **INL** -> **CFS ADC**: "via CFS, XFC"  
+    **CFS ADC** -> **INL**: "XFC, A040"
+
 ### GOL/DOS/BUR / OK TCU and AMB TCU
 #### Airspace
 By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas, and **AMB TCU** owns the airspace within the **R625A-D** restricted areas, unless stated otherwise by ad-hoc release or NOTAM.
+
 #### Departures
 Departures from YBOK and YAMB in to GOL/DOS/BUR Class C will be coordinated at taxi, and will be requesting a level.
 
