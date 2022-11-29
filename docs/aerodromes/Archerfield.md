@@ -115,8 +115,7 @@ When aircraft planned via a CTA departure are ready for takeoff and expected to 
 ### BN TCU / AF ADC
 #### Arrival Coordination
 
-BN TCU will coordinate with AF ADC for incoming IFR arrivals on either Visual Tracking or RNP approaches.
-If tracking visually, BN TCU must coordinate the level assignment with the estimate for aircraft arriving directly from Class C.
+BN TCU will coordinate with AF ADC for incoming IFR arrivals on either Visual Tracking or RNP approaches. If tracking visually, BN TCU must coordinate the level assignment with the estimate for aircraft arriving directly from Class C.  
 Archerfield Tower will not alter an aircrafts tracking until the aircraft is within 3NM of Archerfield.
 
 #### Visual Tracking
@@ -126,7 +125,19 @@ Archerfield Tower will not alter an aircrafts tracking until the aircraft is wit
     <span class="coldline">**AF ADC** -> **BN TCU**</span>: "UJE"
 
 #### IAP Tracking
-Reserved.
+!!! example
+    <span class="coldline">**BN TCU** -> **AF ADC**</span>: "Estimated approach time, UJN via RNP at time 59"  
+    <span class="coldline">**AF ADC** -> **BN TCU**</span>: "Via RNP, UJN"  
+
+Given that the instrument approach procedure will terminate inside another controller's airspace, TCU controllers must obtain a clearance from AF ADC prior to issuing an approach clearance to an aircraft.  If no conflict exists, respond to this call by providing clearance for the approach.  
+
+!!! example 
+    <span class="hotline">**BN TCU** -> **AF ADC**</span>: "Request clearance for final, UJN"  
+    <span class="hotline">**AF ADC** -> **BN TCU**</span>: "UJN cleared RNP-Z 10L"  
+    <span class="hotline">**BN TCU** -> **AF ADC**</span>: "Cleared RNP-Z 10L, UJN"  
+
+!!! tip
+    Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D.  You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.
 
 ### Standard Assignable Departure Levels
 All IFR Aircraft: `A040`

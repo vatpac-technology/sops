@@ -143,12 +143,27 @@ When aircraft planned via a CTA departure are ready for takeoff and expected to 
     <span class="hotline">**BN TCU** -> **AF ADC**</span>: "XMM, unrestricted"
 
 #### Arrivals
+YBAF arrivals shall be coordinated to **AF ADC** from BN TCU prior to transfer of jurisdiction.  If an instrument approach is planned, include the estimated approach time.
 
-YBAF arrivals shall be coordinated to **AF ADC** from the relevant BN TCU controller prior to transfer of jurisdiction.
+!!! tip
+    Ensure the aircraft's FDR is up-to-date in order to give **AF ADC** maximum situational awareness of the traffic picture. (eg. if the aircraft is doing the RNP approach, ensure the FDR has been rerouted via the appropriate points)
 
+##### Visual Tracking
 !!! example
-    <span class="coldline">**BN TCU** -> **AF ADC**</span>: "BDF, via HUUGO"  
-    <span class="coldline">**AF ADC** -> **BN TCU**</span>: "BDF"  
+    <span class="coldline">**BN TCU** -> **AF ADC**</span>: "Estimate, UJN via HUUGO time 02."  
+    <span class="coldline">**AF ADC** -> **BN TCU**</span>: "UJN"
+
+##### IAP Tracking
+!!! example
+    <span class="coldline">**BN TCU** -> **AF ADC**</span>: "Estimated approach time, UJN via RNP at time 59"  
+    <span class="coldline">**AF ADC** -> **BN TCU**</span>: "Via RNP, UJN"
+
+Given that the instrument approach procedure will terminate inside another controller's airspace, TCU controllers must obtain a clearance from AF ADC prior to issuing an approach clearance to an aircraft.  
+
+!!! example 
+    <span class="hotline">**BN TCU** -> **AF ADC**</span>: "Request clearance for final, UJN"  
+    <span class="hotline">**AF ADC** -> **BN TCU**</span>: "UJN cleared RNP-Z 10L"  
+    <span class="hotline">**BN TCU** -> **AF ADC**</span>: "Cleared RNP-Z 10L, UJN"
 
 ### BN TCU / AMB TCU
 

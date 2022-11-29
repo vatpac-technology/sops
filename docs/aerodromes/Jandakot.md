@@ -123,12 +123,16 @@ PH TCU will coordinate with JT ADC for incoming IFR arrivals on either Visual Tr
     <span class="coldline">**JT ADC** -> **PH TCU**</span>: "FD416"
 
 ##### IAP Tracking
-
 !!! example
-    <span class="coldline">**PH TCU** -> **JT ADC**</span>: "Estimated approach time, FD416 via RNAV at time 59"  
-    <span class="coldline">**JT ADC** -> **PH TCU**</span>: "Via RNAV, FD4166"   
+    <span class="coldline">**PH TCU** -> **JT ADC**</span>: "Estimated approach time, FD416 via RNAV-Z at time 59"  
+    <span class="coldline">**JT ADC** -> **PH TCU**</span>: "Via RNAV-Z, FD416"  
 
-    *JT Tower must clear aircraft for final, before PH TCU issues approach clearance.*  
-    <span class="coldline">**PH TCU** -> **JT ADC**</span>: "Request clearance for final, FD416"  
-    <span class="coldline">**JT ADC** -> **PH TCU**</span>: "FD416 cleared RNAV 24R"  
-    <span class="coldline">**PH TCU** -> **JT ADC**</span>: "Cleared RNAV 24R, FD416"  
+Given that the instrument approach procedure will terminate inside another controller's airspace, TCU controllers must obtain a clearance from JT ADC prior to issuing an approach clearance to an aircraft.  If no conflict exists, respond to this call by providing clearance for the approach.  
+
+!!! example 
+    <span class="hotline">**PH TCU** -> **JT ADC**</span>: "Request clearance for final, FD416"  
+    <span class="hotline">**JT ADC** -> **PH TCU**</span>: "FD416 cleared RNAV-Z 24R"  
+    <span class="hotline">**PH TCU** -> **JT ADC**</span>: "Cleared RNAV-Z 24R, FD416"  
+
+!!! tip
+    Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D.  You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.

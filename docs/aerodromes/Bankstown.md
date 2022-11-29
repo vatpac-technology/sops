@@ -155,15 +155,19 @@ SY TCU will coordinate with BK ADC for incoming IFR arrivals on either Visual Tr
     <span class="coldline">**BK ADC** -> **SY TCU**</span>: "UJN"
 
 ##### IAP Tracking
-
 !!! example
     <span class="coldline">**SY TCU** -> **BK ADC**</span>: "Estimated approach time, UJN via RNP at time 59"  
-    <span class="coldline">**BK ADC** -> **SY TCU**</span>: "Via RNP, UJN"   
+    <span class="coldline">**BK ADC** -> **SY TCU**</span>: "Via RNP, UJN"  
 
-    *BK Tower must clear aircraft for final, before SY TCU issues approach clearance.*  
-    <span class="coldline">**SY TCU** -> **BK ADC**</span>: "Request clearance for final, UJN"  
-    <span class="coldline">**BK ADC** -> **SY TCU**</span>: "UJN cleared RNP 11C"  
-    <span class="coldline">**SY TCU** -> **BK ADC**</span>: "Cleared RNP 11C, UJN"  
+Given that the instrument approach procedure will terminate inside another controller's airspace, TCU controllers must obtain a clearance from BK ADC prior to issuing an approach clearance to an aircraft.  If no conflict exists, respond to this call by providing clearance for the approach.  
+
+!!! example 
+    <span class="hotline">**SY TCU** -> **BK ADC**</span>: "Request clearance for final, UJN"  
+    <span class="hotline">**BK ADC** -> **SY TCU**</span>: "UJN cleared RNP 11C"  
+    <span class="hotline">**SY TCU** -> **BK ADC**</span>: "Cleared RNP 11C, UJN"  
+
+!!! tip
+    Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D.  You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.
 
 ### SDS / SY TCU
 
@@ -173,8 +177,8 @@ If aircraft are cleared off runway 11 into CTA, coordination is required with SF
 Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for more information, or simply ask an SY TCU for clarification.
 
 !!! Example
-    <span class="coldline">**SDS** -> **SY TCU**</span>: “Request left turn out of Bankstown”  
-    <span class="coldline">**SY TCU** -> **SDS**</span>: "Approved" *(no callsigns need be used here)*  
+    <span class="hotline">**SDS** -> **SY TCU**</span>: “Request left turn out of Bankstown”  
+    <span class="hotline">**SY TCU** -> **SDS**</span>: "Approved" *(no callsigns need be used here)*  
 
 ## Standard Assignable Levels
 

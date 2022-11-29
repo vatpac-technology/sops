@@ -103,9 +103,9 @@ IFR aircraft must be coordinated with the SY TCU controller responsible for Sydn
 CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a ready call, SY TCU will issue a traffic statement.
 
 !!! example
-    <span class="coldline">**CN ADC** -> **SY TCU**</span>: "Ready, MHQ, Runway 06"  
-    <span class="coldline">**SY TCU** -> **CN ADC**</span>: "MHQ, traffic is MEH, an IFR AC50, tracking SHL RAKSO SBKWI, A035, estimate RAKSO time 35" (or "No Reported IFR Traffic")  
-    <span class="coldline">**CN ADC** -> **SY TCU**</span>: "Traffic is MEH tracking SHL RAKSO SBKWI A035, RAKSO at 35"  
+    <span class="hotline">**CN ADC** -> **SY TCU**</span>: "Ready, MHQ, Runway 06"  
+    <span class="hotline">**SY TCU** -> **CN ADC**</span>: "MHQ, traffic is MEH, an IFR AC50, tracking SHL RAKSO SBKWI, A035, estimate RAKSO time 35" (or "No Reported IFR Traffic")  
+    <span class="hotline">**CN ADC** -> **SY TCU**</span>: "Traffic is MEH tracking SHL RAKSO SBKWI A035, RAKSO at 35"  
     
     **CN ADC:** "MHQ, traffic is MEH, IFR AC50 tracking SHL RAKSO SBKWI at A035, estimating RAKSO at time 35, runway 06, cleared for takeoff"  
     **MHQ:** "Copy MEH, runway 06, cleared for takeoff, MHQ"
@@ -122,13 +122,7 @@ CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a
 #### Arrival Coordination
 
 ##### Intrument Approaches
-
-SY TCU must advise CN ADC of the aircraft's EAT (Estimated Approach Time) at least 10 minutes prior to the EAT at SCNWI for the RNP W approach.
-
-SY TCU must transfer the aircraft at SCNWI for the RNP W approach.
-Prior to transfer, SY TCU must provide the aircraft with a traffic statement and advise *"identification terminated"*.
-
-CN ADC is responsible for issuing a clearance into the CN CTR and for coordination with SY TCU in the event of a missed approach (or on completion of airwork if applicable).
+SY TCU will coordinate inbound aircraft and transfer them to CN ADC by `SCNWI`. CN ADC is responsible for issuing a clearance into the CN CTR and for coordination with SY TCU in the event of a missed approach (or on completion of airwork if applicable).
 
 SY TCU will **NOT** clear the aircraft for the approach.
 
@@ -136,10 +130,19 @@ SY TCU will **NOT** clear the aircraft for the approach.
     <span class="coldline">**SY TCU** -> **CN ADC**</span>: “Estimated Approach Time, HRP via RNP W at time 59”  
     <span class="coldline">**CN ADC** -> **SY TCU**</span>: “HRP, RNP W”   
 
+Given that the instrument approach procedure will terminate inside another controller's airspace, TCU controllers must obtain a clearance from CN ADC prior to issuing an approach clearance to an aircraft.  If no conflict exists, respond to this call by providing clearance for the approach.  
+
+!!! example 
+    <span class="hotline">**SY TCU** -> **CN ADC**</span>: "Request clearance for final, HRP"  
+    <span class="hotline">**CN ADC** -> **SY TCU**</span>: "HRP cleared RNP W"  
+    <span class="hotline">**SY TCU** -> **CN ADC**</span>: "Cleared RNP W, HRP"  
+
+!!! tip
+    Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D.  You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.
+
 
 ##### Visual Tracking
-
-SY TCU must coordinate the Estimate and approximate inbound track for IFR aircraft. Where possible, pass the Estimate no later than 10 minutes prior.
+SY TCU will coordinate the estimated time of arrival and approximate inbound track for IFR aircraft tracking visually.
 
 !!! example
     <span class="coldline">**SY TCU** -> **CN ADC**</span>: “Estimate, TJV via RIC time 02.”  

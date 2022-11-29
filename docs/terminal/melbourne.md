@@ -284,9 +284,24 @@ When the aircraft is ready for takeoff, **MB ADC** will give a "Next" call, wher
 !!! note
     ML TCU will not receive a taxi call on aircraft departing in to Class G airspace, including aircraft that have planned to leave and re-enter controlled airspace (for example, aircraft planned at or above A050 on the MB-AV track). In this instance, ML TCU is only required to readback the callsign at the "Next" call. ML TCU will then give airways clearance to the aircraft on first contact if required.
 #### Arrivals
-ML TCU Must coordinate the sequence information to **MB ADC** prior to transfer of jurisdiction.
+ML TCU Must coordinate the sequence information to **MB ADC** prior to transfer of jurisdiction. If an instrument approach is planned, include the estimated approach time.
 
+!!! tip
+    Ensure the aircraft's FDR is up-to-date in order to give **MB ADC** maximum situational awareness of the traffic picture. (eg. if the aircraft is doing the RNP approach, ensure the FDR has been rerouted via the appropriate points)
+
+##### Visual Tracking
 !!! example
-    <span class="coldline">**ML TCU** -> **MB ADC**</span>: "New sequence of 1, OXA, via MMBSA, Number 1"  
-    <span class="coldline">**MB ADC** -> **ML TCU**</span>: "OXA, Number 1"  
-    `AIP GEN 3.4`
+    <span class="coldline">**ML TCU** -> **MB ADC**</span>: "Estimate, OXA via MONTY time 02."  
+    <span class="coldline">**MB ADC** -> **ML TCU**</span>: "OXA"
+
+##### IAP Tracking
+!!! example
+    <span class="coldline">**ML TCU** -> **MB ADC**</span>: "Estimated approach time, AM318 via RNP at time 59"  
+    <span class="coldline">**MB ADC** -> **ML TCU**</span>: "Via RNP, AM318"
+
+Given that the instrument approach procedure will terminate inside another controller's airspace, TCU controllers must obtain a clearance from MB ADC prior to issuing an approach clearance to an aircraft.  
+
+!!! example 
+    <span class="hotline">**ML TCU** -> **MB ADC**</span>: "Request clearance for final, AM318"  
+    <span class="hotline">**MB ADC** -> **ML TCU**</span>: "AM318 cleared RNP 35R"  
+    <span class="hotline">**ML TCU** -> **MB ADC**</span>: "Cleared RNP 35R, AM318"

@@ -371,24 +371,36 @@ Aircraft departing YSBK in to SY TCU Class C will be coordinated from **BK ADC**
     <span class="hotline">**BK ADC** -> **SY TCU**</span>: "Next, TFX12"  
     <span class="hotline">**SY TCU** -> **BK ADC**</span>: "TFX12"
 
-    **BK ADC** Will then clear the aircraft to takeoff with the assigned heading, and instruct them to contact SY TCU passing `A020`.  
+    **BK ADC** will then clear the aircraft to takeoff with the assigned heading, and instruct them to contact SY TCU passing `A020`.  
     `AIP GEN 3.4`
 
 #### Arrivals
 
-YSBK arrivals shall be coordinated to **BK ADC** from SY TCU prior to transfer of jurisdiction.
+YSBK arrivals shall be coordinated to **BK ADC** from SY TCU prior to transfer of jurisdiction.  If an instrument approach is planned, include the estimated approach time.
 
 !!! tip
     Ensure the aircraft's FDR is up-to-date in order to give **BK ADC** maximum situational awareness of the traffic picture. (eg. if the aircraft is doing the RNP approach, ensure the FDR has been rerouted via the appropriate points)
 
+##### Visual Tracking
 !!! example
-    <span class="coldline">**SY TCU** -> **BK ADC**</span>: "ABC, via ODALE, Number 1"  
-    <span class="coldline">**BK ADC** -> **SY TCU**</span>: "ABC, Number 1"   
-    `AIP GEN 3.4`
+    <span class="coldline">**SY TCU** -> **BK ADC**</span>: "Estimate, UJN via TWRN time 02."  
+    <span class="coldline">**BK ADC** -> **SY TCU**</span>: "UJN"
+
+##### IAP Tracking
+!!! example
+    <span class="coldline">**SY TCU** -> **BK ADC**</span>: "Estimated approach time, UJN via RNP at time 59"  
+    <span class="coldline">**BK ADC** -> **SY TCU**</span>: "Via RNP, UJN"
+
+Given that the instrument approach procedure will terminate inside another controller's airspace, TCU controllers must obtain a clearance from BK ADC prior to issuing an approach clearance to an aircraft.  
+
+!!! example 
+    <span class="hotline">**SY TCU** -> **BK ADC**</span>: "Request clearance for final, UJN"  
+    <span class="hotline">**BK ADC** -> **SY TCU**</span>: "UJN cleared RNP 11C"  
+    <span class="hotline">**SY TCU** -> **BK ADC**</span>: "Cleared RNP 11C, UJN"
 
 ### SY TCU / CN ADC
 
-### Departures
+#### Departures
 ##### Taxi Call
 
 IFR aircraft must be coordinated with the SY TCU controller responsible for Sydney Departures South (SDS).  **CN SMC** will perform a 'Taxi' call to **SDS**, who in response will issue a squawk code.
@@ -402,9 +414,9 @@ IFR aircraft must be coordinated with the SY TCU controller responsible for Sydn
 CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a ready call, SY TCU will issue a traffic statement.
 
 !!! example
-    <span class="coldline">**CN ADC** -> **SY TCU**</span>: "Ready, MHQ, Runway 06"  
-    <span class="coldline">**SY TCU** -> **CN ADC**</span>: "MHQ, traffic is MEH, an IFR AC50, tracking SHL RAKSO SBKWI, A035, estimate RAKSO time 35" (or "No Reported IFR Traffic")  
-    <span class="coldline">**CN ADC** -> **SY TCU**</span>: "Traffic is MEH tracking SHL RAKSO SBKWI A035, RAKSO at 35"  
+    <span class="hotline">**CN ADC** -> **SY TCU**</span>: "Ready, MHQ, Runway 06"  
+    <span class="hotline">**SY TCU** -> **CN ADC**</span>: "MHQ, traffic is MEH, an IFR AC50, tracking SHL RAKSO SBKWI, A035, estimate RAKSO time 35" (or "No Reported IFR Traffic")  
+    <span class="hotline">**CN ADC** -> **SY TCU**</span>: "Traffic is MEH tracking SHL RAKSO SBKWI A035, RAKSO at 35"  
     
     **CN ADC:** "MHQ, traffic is MEH, IFR AC50 tracking SHL RAKSO SBKWI at A035, estimating RAKSO at time 35, runway 06, cleared for takeoff"  
     **MHQ:** "Copy MEH, runway 06, cleared for takeoff, MHQ"
@@ -415,13 +427,33 @@ CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a
     Note: Because aircraft enter Class G after departure, an airways clearance need not be issued by CN ADC. This will be done on first contact with Sydney TCU.
     Therefore, a *next* call & *departure instructions* are not required. You must however, pass the above (ready) coordination & obtain a traffic statement.
 #### Arrivals
+YSCN arrivals shall be coordinated to **CN ADC** from SY TCU prior to transfer of jurisdiction.  If an instrument approach is planned, include the estimated approach time.
 
-YSCN arrivals shall be coordinated to **CN ADC** from SY TCU prior to transfer of jurisdiction.
+!!! tip
+    Ensure the aircraft's FDR is up-to-date in order to give **CN ADC** maximum situational awareness of the traffic picture. (eg. if the aircraft is doing the RNP approach, ensure the FDR has been rerouted via the appropriate points)
 
+##### Visual Tracking
 !!! example
-    <span class="coldline">**SY TCU** -> **CN ADC**</span>: "Via TONTO, ZYX"  
-    <span class="coldline">**CN ADC** -> **SY TCU**</span>: "ZYX"   
-    `AIP GEN 3.4`
+    <span class="coldline">**SY TCU** -> **CN ADC**</span>: "Estimate, UJA via PIC time 02."  
+    <span class="coldline">**CN ADC** -> **SY TCU**</span>: "UJA"
+    
+##### IAP Tracking
+!!! example
+    <span class="coldline">**SY TCU** -> **CN ADC**</span>: "Estimated approach time, ZYX via RNP at time 04"  
+    <span class="coldline">**CN ADC** -> **SY TCU**</span>: "Via RNP, ZYX"
+
+Given that the instrument approach procedure will terminate inside another controller's airspace, TCU controllers must obtain a clearance from CN ADC prior to issuing an approach clearance to an aircraft.  
+
+!!! example 
+    <span class="hotline">**SY TCU** -> **CN ADC**</span>: "Request clearance for final, ZYX"  
+    <span class="hotline">**CN ADC** -> **SY TCU**</span>: "ZYX cleared RNP W"  
+    <span class="hotline">**SY TCU** -> **CN ADC**</span>: "Cleared RNP W, ZYX"  
+
+Aircraft on the RNP W approach must be transferred to **CN ADC** by `SCNWI`.
+
+!!! note
+    The YSCN RNP W approach commences OCTA and only enters CTA at the CN CTR boundary.  TCU controllers **should not** clear aircraft for the approach.  Aircraft in the overlying class C airspace should be instructed to "*leave control area on descent*".
+
 ### SY TCU / RIC ADC
 
 Reserved.
