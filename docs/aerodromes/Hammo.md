@@ -14,7 +14,7 @@
 ## Airspace
 
 <figure markdown>
-![YBHM Airspace](img/ybhm_airspace.png){ width="700" }
+![YBHM Airspace](img/YBHM_airspace.png){ width="700" }
   <figcaption>YBHM Airspace</figcaption>
 </figure>
 

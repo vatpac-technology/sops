@@ -20,6 +20,15 @@ The Adelaide TMA covers `SFC` to `FL245`.
 PF CTR reverts to Class G when **PF ADC** is offline, and is administered by the relevant AD TCU controller.    
 EDN CTR reverts to Class G when **EDN ADC** is offline, and is administered by the relevant AD TCU controller.  
 
+### Airspace Division
+!!! note
+    The following diagram does not include non AD TCU areas of responsibility such as PF CTR or EDN CTR
+
+<figure markdown>
+![AD TCU Structure](img/adtcu_annotated.png){ width="700" }
+  <figcaption>AD TCU Structure</figcaption>
+</figure>
+
 ## PF ADC Offline
 Due to the low level of CTA at YPPF, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
@@ -49,7 +58,7 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
     <span class="hotline">**TBD** -> **AD TCU**</span>: "PFY1234, concur F180"  
 
 #### Arrivals
-The Standard assignable level from ENR to AD TCU is `A090`. All other levels must be prior coordinated
+The Standard assignable level from TBD/AUG to AD TCU is `A090`, and assigned a STAR. All other aircraft must be prior coordinated
 
 ### AD TCU / AD ADC
 #### Auto Release

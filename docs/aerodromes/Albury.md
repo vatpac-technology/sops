@@ -15,7 +15,7 @@
 ## Airspace
 
 <figure markdown>
-![YMAY Airspace](img/ymay_airspace.jpg){ width="700" }
+![YMAY Airspace](img/YMAY_airspace.png){ width="700" }
   <figcaption>YMAY Airspace</figcaption>
 </figure>
 
