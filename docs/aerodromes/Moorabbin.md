@@ -74,6 +74,22 @@ All IFR departures in to ML TCU airspace (Class C and G), require a "Next" call 
 #### Arrivals
 ML TCU will coordinate the sequence information to **MB ADC** prior to transfer of jurisdiction.
 
+##### Visual Tracking
 !!! example
-    <span class="coldline">**ML TCU** -> **MB ADC**</span>: "OXA, via MMBSA, Number 1"  
-    <span class="coldline">**MB ADC** -> **ML TCU**</span>: "OXA, Number 1"  
+    <span class="coldline">**ML TCU** -> **MB ADC**</span>: "Estimate, OXA via MONTY time 02."  
+    <span class="coldline">**MB ADC** -> **ML TCU**</span>: "OXA"
+
+##### IAP Tracking
+!!! example
+    <span class="coldline">**ML TCU** -> **MB ADC**</span>: "Estimated approach time, OXA via RNP at time 59"  
+    <span class="coldline">**MB ADC** -> **ML TCU**</span>: "Via RNP, OXA"  
+
+Given that the instrument approach procedure will terminate inside another controller's airspace, TCU controllers must obtain a clearance from MB ADC prior to issuing an approach clearance to an aircraft.  If no conflict exists, respond to this call by providing clearance for the approach.  
+
+!!! example 
+    <span class="hotline">**ML TCU** -> **MB ADC**</span>: "Request clearance for final, OXA"  
+    <span class="hotline">**MB ADC** -> **ML TCU**</span>: "OXA cleared RNP 35R"  
+    <span class="hotline">**ML TCU** -> **MB ADC**</span>: "Cleared RNP 35R, OXA"  
+
+!!! tip
+    Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D.  You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.
