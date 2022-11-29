@@ -69,10 +69,13 @@ NTTT - Tahiti Oceanic
 !!! Note 
     Standard Altimeter setting (29.92 inHg/1013 hPa) should be used when more than 100 nm from McMurdo.
 
-!!! Information
+!!! note
     Auckland Oceanic airspace does not have a transition layer, except within the Rarotonga, Samoa and Norfolk Island QNH zones.  
     
     Aircraft within Auckland Oceanic airspace should use the standard altimeter setting of 1013 hPa unless within the aforementioned QNH zones.
+
+!!! tip
+    Remember that some cruising levels above the transition level are unavailable when the Area QNH is below 1013.  Refer to `AIP ENR 1.7` for more information.
     
 ## Currency Requirements
 
