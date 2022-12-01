@@ -29,7 +29,25 @@ Tower airspace is defined as between `SFC` to `A020`.
 
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
-## VFR Inbound Procedures
+## Departures
+
+All aircraft must depart at `A013` via an extended leg of the circuit.
+Upon reaching 2NM CN, all VFR aircraft should monitor the appropriate area frequency (Sydney Approach). A frequency transfer will not be issued to VFR aircraft.
+Departing IFR aircraft will receive a frequency transfer.
+
+### Depart On Climb
+Some aircraft may request to leave the CTR on climb above `A013`.  If there is no reported traffic above the zone and no conflicting traffic at `A018`, aircraft may be cleared to depart on climb.
+
+!!! example
+    **CN ADC:** "PCN, runway 06, cleared for takeoff"  
+    **PCN:** "Runway 06, cleared for takeoff, PCN"  
+
+    **PCN:** "PCN, request depart on climb"  
+    **CN ADC:** "PCN, depart on climb"
+
+
+## Arrivals
+### VFR Inbound Procedures
 VFR aircraft should track via one of the VFR inbound points and be instructed as below:
 
 | VFR Approach Point | RWYs 06  | RWYs 24 |
@@ -46,6 +64,18 @@ When an aircraft reports at their specified report point (or on downwind), issue
 !!! example
     *"XEM, number 3 Runway 06, follow the C172 on base"*
 
+### Instrument Approaches
+The only instrument approach at YSCN is the RNP W approach.  This approach commences OCTA and enters the Camden control zone.  
+
+SY TCU **will not** clear aircraft for the approach (as it commences OCTA) and will transfer aircraft to **CN ADC** at `SCNWI`.  **CN ADC** shall issue airways clearance on first contact in accordance with the table below.  
+
+| Scenario | Clearance |
+| -------- | --------- |
+| Aircraft is visual & circuit traffic exists | "*Cleared RNP-W approach, not below A018*" |
+| Aircraft not visual or no circuit traffic | "*Cleared RNP-W approach, runway 06/24*" |
+
+!!! note
+    The circuit altitude at YSCN is `A013` and the overfly altitude is `A018`.  Aircraft issued a restriction to descend not below `A018` should be instructed to join the circuit once clear of traffic established in the circuit area.
 
 ## Circuits
 The circuit direction changes depending on time of day and runway being used.
@@ -63,24 +93,6 @@ When an aircraft reports on downwind, indicate their position in the sequence (a
 !!! example
     **JKA:** "JKA, downwind, touch and go"  
     **CN ADC:** "JKA, number 2"
-
-
-## Departures
-
-All aircraft must depart at `A013` via an extended leg of the circuit.
-Upon reaching 2NM CN, all VFR aircraft should monitor the appropriate area frequency (Sydney Approach). A frequency transfer will not be issued to VFR aircraft.
-Departing IFR aircraft will receive a frequency transfer.
-
-### Depart On Climb
-Some aircraft may request to leave the CTR on climb above `A013`.  If there is no reported traffic above the zone and no conflicting traffic at `A018`, aircraft may be cleared to depart on climb.
-
-!!! example
-    **CN ADC:** "PCN, runway 06, cleared for takeoff"  
-    **PCN:** "Runway 06, cleared for takeoff, PCN"  
-
-    **PCN:** "PCN, request depart on climb"  
-    **CN ADC:** "PCN, depart on climb"
-
 
 ## ATIS
 ### Approach Expectation
@@ -130,16 +142,7 @@ SY TCU will **NOT** clear the aircraft for the approach.
     <span class="coldline">**SY TCU** -> **CN ADC**</span>: “Estimated Approach Time, HRP via RNP W at time 59”  
     <span class="coldline">**CN ADC** -> **SY TCU**</span>: “HRP, RNP W”   
 
-Given that the instrument approach procedure will terminate inside another controller's airspace, TCU controllers must obtain a clearance from CN ADC prior to issuing an approach clearance to an aircraft.  If no conflict exists, respond to this call by providing clearance for the approach.  
-
-!!! example 
-    <span class="hotline">**SY TCU** -> **CN ADC**</span>: "Request clearance for final, HRP"  
-    <span class="hotline">**CN ADC** -> **SY TCU**</span>: "HRP cleared RNP W"  
-    <span class="hotline">**SY TCU** -> **CN ADC**</span>: "Cleared RNP W, HRP"  
-
-!!! tip
-    Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D.  You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.
-
+**CN ADC** must issue an airways clearance to these aircraft on first contact.
 
 ##### Visual Tracking
 SY TCU will coordinate the estimated time of arrival and approximate inbound track for IFR aircraft tracking visually.
@@ -147,7 +150,6 @@ SY TCU will coordinate the estimated time of arrival and approximate inbound tra
 !!! example
     <span class="coldline">**SY TCU** -> **CN ADC**</span>: “Estimate, TJV via RIC time 02.”  
     <span class="coldline">**CN ADC** -> **SY TCU**</span>: “TJV” 
-
 
 #### IFR overflying YSCN
 
