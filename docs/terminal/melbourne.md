@@ -120,7 +120,7 @@ Due to the low level of CTA above Avalon, aircraft conducting approaches will co
 Departing aircraft generally require an airways clearance on the ground, due to the low level of CTA.  Aircraft should report taxiing to the TCU controller, who will issue a squawk code and traffic statement.  These aircraft should be instructed to report at the holding point, where airways clearance will be issued.
 
 !!! example
-    **AM318**: "Melbourne Approach, AM318, King Air, POB 2, IFR, taxiing YMAV runway 18 for YMEN"
+    **AM318**: "Melbourne Approach, AM318, King Air, POB 2, IFR, taxiing YMAV runway 18 for YMEN"  
     **ML TCU**: "AM318, Melbourne Approach, squawk 3542, no reported IFR traffic, report ready at the holding point for airways clearance"  
     **AM318**: "Squawk 3542, wilco, AM318"  
     
