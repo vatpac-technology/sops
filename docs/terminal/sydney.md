@@ -462,17 +462,12 @@ YSCN arrivals shall be coordinated to **CN ADC** from SY TCU prior to transfer o
     <span class="coldline">**SY TCU** -> **CN ADC**</span>: "Estimated approach time, ZYX via RNP at time 04"  
     <span class="coldline">**CN ADC** -> **SY TCU**</span>: "Via RNP, ZYX"
 
-Given that the instrument approach procedure will terminate inside another controller's airspace, TCU controllers must obtain a clearance from CN ADC prior to issuing an approach clearance to an aircraft.  
-
-!!! example 
-    <span class="hotline">**SY TCU** -> **CN ADC**</span>: "Request clearance for final, ZYX"  
-    <span class="hotline">**CN ADC** -> **SY TCU**</span>: "ZYX cleared RNP W"  
-    <span class="hotline">**SY TCU** -> **CN ADC**</span>: "Cleared RNP W, ZYX"  
-
 Aircraft on the RNP W approach must be transferred to **CN ADC** by `SCNWI`.
 
 !!! note
     The YSCN RNP W approach commences OCTA and only enters CTA at the CN CTR boundary.  TCU controllers **should not** clear aircraft for the approach.  Aircraft in the overlying class C airspace should be instructed to "*leave control area on descent*".
+
+**CN ADC** will issue a clearance for the approach on first contact with the aircraft.
 
 ### SY TCU / RIC ADC
 
