@@ -269,9 +269,6 @@ Aircraft that have been cleared the **Radar SID** must receive an assigned headi
 | 34L                | 290          | 230 |
 | 34R                | 030, 070          | 350 |
 
-!!! information
-    Where multiple standard assignable headings are available, assign the heading most suitable for the aircraft's direction of flight.
-
 !!! tip
     If strong winds are present at altitude, TWR/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
 

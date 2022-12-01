@@ -30,6 +30,12 @@ CN CTR reverts to Class G when **CN ADC** is offline, and is administered by the
 Pursuant to Section 3 of the [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), the following rules apply, in the order presented, to these controller positions, except **SFL**:  
 a) **“North”**/**”West”** positions shall assume the airspace of corresponding **“South”**/**”East”** positions when the latter are inactive (e.g. **SAN** assumes **SAS** airspace), and vice versa;  
 b) Approach assumes Director/Departure airspace “on-side” when the latter positions are inactive (e.g. with **SAS** and **SAN** online only, **SAS** assumes **SDS** and **SFW**) 
+## Departure Procedures
+### SY (RADAR) SID
+The **SY (RADAR) SID** is used for all non-jet IFR departures (and certain jet aircraft) from YSSY.  Unlike other aerodromes, **SY ADC** does *not* need to coordinate these departures with a 'Next' call, provided they are assigned the standard assignable level and a [Standard Assignable Heading](#auto-release).
+
+### Climb Requirements
+The Sydney TMA has a unique airspace arrangement which allows Departures controllers to cross Approach-owned airspace at or above `A100` within 15DME SY.  Coordination is not required for these aircraft, however care must be taken to ensure the aircraft reach `A100` or above outside of 15DME, as the SIDs do not guarantee this by default.  Controllers should familiarise themselves with the requirements and limitations of the [Radar Entry Procedure](#radar-entry-procedure-rep) airspace.
 ## Arrival Procedures
 ### Level Assignment
 !!! note
@@ -335,15 +341,29 @@ It is vital that Approach controllers ensure all arriving aircraft are establish
 Aircraft are permitted to cross the MARLN corridor at or above `A060` without coordination with APP. DEP is responsible for separation with respect to aircraft in the corridor.
 ### SY TCU / SY ADC
 #### Auto Release
+Auto Release is used for virtually all fixed-wing departures at Sydney. Unlike other aerodromes, aircraft cleared via the **SY (RADAR) SID** do not need to be 'Next' coordinated, provided they are assigned the standard assignable level and a standard assignable heading from the table below.
 
-Auto Release shall be used for aircraft that are:    
-a) Departing from a runway nominated on the ATIS; and  
-b) Issued a Procedural SID; and   
-c) Assigned the standard assignable level.
+| Runway | Jet | Non-Jet 
+| ----------------- | -------------- | ---------------- |
+| 07                | 070         | 020, 110       |
+| 16L                | 125          | 125 (RWY 25 in use), 090 (RWY 25 not in use) |
+| 16R               | 170         | 210         |
+| 25                | 300, 240          | 020, 210, 240 |
+| 34L                | 290          | 230 |
+| 34R                | 030, 070          | 350 |
+
+!!! note
+    Where multiple standard assignable headings are available, assign the heading most suitable for the aircraft's direction of flight.
+
+!!! tip
+    If strong winds are present at altitude, TWR/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
+
+Auto Release shall also be used for aircraft that are:     
+- Departing from a runway nominated on the ATIS; and  
+- Issued a Procedural SID; and   
+- Assigned the standard assignable level.
 
 Any aircraft that don't meet these criteria must be coordinated to SY TCU with a "Next" Call.
-
-"Next" Coordination is a procedure where the **SY ADC** controller gives a heads-up to the SY TCU controller about an impending departure. The SY TCU controller will respond by assigning a heading to the aircraft, for the **SY ADC** controller to pass on with their takeoff clearance.
 
 !!! example
     <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Next, ADA4, runway 34R"  
