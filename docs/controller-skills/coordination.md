@@ -107,7 +107,7 @@ Source: [Annotations](../../controller-skills/annotations)
 
 *Offering NFR*
 !!! example
-    ABC tracking MNG W663 VINOP  
+    *ABC tracking MNG W663 VINOP*  
     <span class="hotline">**ELW** -> **YWE**</span>: "via MNG, ABC, if you have no restrictions or requirements, my onwards with OXL"  
     <span class="hotline">**YWE** -> **ELW**</span>: "ABC, I have no restrictions or requirements, your onwards with OXL"  
     ELW will put *"YWE NRR"* in the label data  
@@ -117,7 +117,7 @@ Source: [Annotations](../../controller-skills/annotations)
 
 *Initiating NFR*
 !!! example
-    DEF tracking EML-LEMER-RK  
+    *DEF tracking EML-LEMER-RK*  
     <span class="hotline">**SWY** -> **CVN**</span>: "via LEMER, DEF, I have no vertical restrictions or frequency requirements, your onwards with KPL"  
     <span class="hotline">**CVN** -> **SWY**</span>: "DEF, my onwards with KPL"  
     CVN will put *"SWY NVR NFR"* in the label data  
@@ -134,7 +134,7 @@ Coordination must be done on a **point-to-point** basis. Meaning, you can only c
 
 Ensure no coordination is ambiguous in its meaning. Not all coordination can be straight out of the phraseology books, and the reality is, not everyone controlling the airspace is going to be 100% proficient and by the books. When using "plain english", ensure there is no ambiguity, and the message is fully understood by both parties.
 ### ENR/TCU -> Class D TWR
-Voice coordinate Sequence prior to **5 mins** from the boundary
+Voice coordinate Sequence prior to **5 mins** from the boundary.
 #### Format
 - *"via (Route/Procedure)"*
 - Callsign
@@ -148,21 +148,44 @@ Voice coordinate 'Next' call for all CTA departures.
 - *"Next"*
 - Callsign
 - Level (if not Standard Assignable)
+
+### Radar TWR -> TCU
+Voice coordinate all departures **within 2 minutes of takeoff** unless permitted by local Auto Release rules.
+
+#### Format
+- *"Next"*
+- Callsign
+- Runway
+
+If Auto Release is suspended by the TCU controller, respond by advising of any aircraft with a takeoff clearance.
+
+!!! example
+    <span class="hotline">**TCU** -> **ADC**</span>: "Cancel auto release until time 45"  
+    <span class="hotline">**ADC** -> **TCU**</span>: "Cancel auto release until time 45, QLK108D released"  
+    <span class="hotline">**TCU** -> **ADC**</span>: "QLK108D"
+
+### TCU -> Radar TWR
+Radar TWRs will voice coordinate all departures unless permitted by local Auto Release rules. Respond with any lateral departure instructions (if required by SID or departure procedure) and any additional vertical restrictions, or "unrestricted". 
+
+If due to weather, overflying aircraft, runway config changes, etc. Auto Release needs to be cancelled, advise this to the ADC controller.  They will respond with any aircraft who have a takeoff clearance.
+
 ### ENR -> TCU
 **Voiceless** for aircraft landing at main airport (eg YMML in ML TCU), assigned a STAR, and standard assignable level.  
-Voice coordinate all other aircraft by **20nm** to boundary
+
+Voice coordinate all other aircraft by **20nm** to boundary.
 ### TCU -> ENR
-**Voiceless** for aircraft assigned lower of standard assignable level or RFL, and tracking via SID terminus
+**Voiceless** for aircraft assigned lower of standard assignable level or RFL, and tracking via SID terminus/
 ### ENR -> Oceanic
-Voice coordinate prior to **15 mins** to boundary
+Voice coordinate prior to **15 mins** to boundary.
 ### Oceanic -> ENR
-Voice coordinate prior to **15 mins** to boundary
+Voice coordinate prior to **15 mins** to boundary.
 ### Oceanic -> Oceanic
-Voice coordinate prior to **30 mins** to boundary (**15 mins** to Australia and New Zealand units)
+Voice coordinate prior to **30 mins** to boundary (**15 mins** to Australia and New Zealand units).
 ### ENR -> ENR
-**Voiceless**, no changes to route or CFL within **20nm** to boundary
+**Voiceless**, no changes to route or CFL within **20nm** to boundary.
+
 !!! note
-    Except as amended by Local Instructions
+    Except as amended by Local Instructions.
 ## Handoffs
 Receiving a handoff means you are permitted to turn an aircraft **45 degrees left or right**, and **climb/descend it to any level** without coordination. Do not handoff an aircraft to another sector if a turn of 45 degrees or a change of level would cause a conflict with any of your own aircraft. Or alternatively, you can nominate a restriction prior to handoff.
 
