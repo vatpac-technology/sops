@@ -37,7 +37,7 @@ Due to the low level of CTA at these aerodromes, it is best practice to give air
 
 !!! example
     **ABC**: "Perth Approach, ABC, PC12, POB 8, IFR, Taxiing YPJT for YPKG, Runway 06L"  
-    **PH TCU**: "ABC, Perth Approach, Squawk 3601, No Reported IFR Traffic, Call me Ready at the Holding Point for Airways Clearance"  
+    **PH TCU**: "ABC, Perth Approach, Squawk 3601, No Reported IFR Traffic, Report Ready at the Holding Point for Airways Clearance"  
     **ABC**: "Squawk 3601, Wilco, ABC"   
 
     **ABC**: "ABC, Ready Runway 06L, Request clearance"  
@@ -75,8 +75,8 @@ Planned below `F180`: `Assigned the RFL`
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
 !!! example
-    **PH TCU** -> **PIY**: "PFY1234, with your concurrence, will be assigned F130, for my separation with JTE654"  
-    **PIY** -> **PH TCU**: "PFY1234, concur F130"  
+    <span class="hotline">**PH TCU** -> **PIY**</span>: "PFY9916, with your concurrence, will be assigned F130, for my separation with JTE654"  
+    <span class="hotline">**PIY** -> **PH TCU**</span>: "PFY9916, concur F130"  
 
 #### Arrivals
 The Standard assignable level from ENR to PH TCU is `A090`. All other levels must be prior coordinated
@@ -87,9 +87,9 @@ The Standard assignable level from ENR to PH TCU is `A090`. All other levels mus
 "Next" Coordination is a procedure where the PH ADC controller gives a heads-up to the PH TCU controller about an impending departure. The PH TCU controller will respond by assigning a heading to the aircraft, for the PH ADC controller to pass on with their takeoff clearance.
 
 !!! example
-    **PH ADC** -> **PH TCU**: "Next, ABC"  
-    **PH TCU** -> **PH ADC**: "ABC, Heading 010"  
-    **PH ADC** -> **PH TCU**: "Heading 010, ABC"  
+    <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Next, ABC, runway 03"  
+    <span class="hotline">**PH TCU** -> **PH ADC**</span>: "ABC, Heading 010, unrestricted"  
+    <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Heading 010, unrestricted, ABC"  
     `AIP GEN 3.4`
 
 "Next" Coordination to PH TCU is additionally required for:   
@@ -105,8 +105,8 @@ The PH TCU controller can suspend/resume Auto Release at any time, with the conc
 All aircraft transiting between internal PH TCU boundaries must be heads-up coordinated.
 
 !!! example
-    **PHA** -> **PHD**: "via PH, FD123"  
-    **PHD** -> **PHA**: "FD123, A090"   
+    <span class="hotline">**PHA** -> **PHD**</span>: "via PH, FD123"  
+    <span class="hotline">**PHD** -> **PHA**</span>: "FD123, A090"   
 
 ### JT SMC / PH TCU
 
@@ -115,9 +115,9 @@ All aircraft transiting between internal PH TCU boundaries must be heads-up coor
 For aircraft planned into the overlying class C airspace, an airways clearance must be coordinated with the TCU controller responsible for Perth Approach or Departures (dependant on runway configuation at PH).  This is achieved by performing 'Taxi' coordination and then relaying the clearance to the aircraft when they are ready in the run up bays.
 
 !!! example
-    **JT SMC** -> **PH TCU**: "Taxis FD420, Kalbarri, runway 24R"  
-    **PH TCU** -> **PH SMC**: "FD420, cleared to Kalbarri via RECKS flight planned route, MANTL3 depature, climb via SID A030, squawk 3342"  
-    **JT SMC** -> **PH TCU**: "Cleared to Kalbarri via RECKS flight planned route, MANTL3 depature, climb via SID A030, squawk 3342, FD420" 
+    <span class="coldline">**JT SMC** -> **PH TCU**</span>: "Taxis FD420, Kalbarri, runway 24R"  
+    <span class="coldline">**PH TCU** -> **PH SMC**</span>: "FD420, cleared to Kalbarri via RECKS flight planned route, MANTL3 depature, climb via SID A030, squawk 3342"  
+    <span class="coldline">**JT SMC** -> **PH TCU**</span>: "Cleared to Kalbarri via RECKS flight planned route, MANTL3 depature, climb via SID A030, squawk 3342, FD420" 
 
 
 ### JT ADC / PH TCU
@@ -127,8 +127,8 @@ For aircraft planned into the overlying class C airspace, an airways clearance m
 When the aircraft is ready for departure, Tower will coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
 
 !!! example
-    **JT ADC** -> **PH TCU**: "Next, FD420, runway 24R"  
-    **PH TCU** -> **JT ADC**: "FD420, unrestricted"
+    <span class="hotline">**JT ADC** -> **PH TCU**</span>: "Next, FD420, runway 24R"  
+    <span class="hotline">**PH TCU** -> **JT ADC**</span>: "FD420, unrestricted"
 
 ### PH TCU / JT ADC
 
@@ -137,21 +137,21 @@ When the aircraft is ready for departure, Tower will coordinate with the relevan
 PH TCU will coordinate with JT ADC for incoming IFR arrivals on either Visual Tracking, RNAV or NDB approaches.
 
 ##### Visual Tracking
-
 !!! example
-    **PH TCU** -> **JT ADC**: "Estimate, FD416 via `CNB` time 02."  
-    **JT ADC** -> **PH TCU**: "FD416"
+    <span class="coldline">**PH TCU** -> **JT ADC**</span>: "Estimate, UJN via CNB time 02."  
+    <span class="coldline">**JT ADC** -> **PH TCU**</span>: "UJN"
 
 ##### IAP Tracking
-
 !!! example
-    **PH TCU** -> **JT ADC**: "Estimated approach time, FD416 via RNAV at time 59"  
-    **JT ADC** -> **PH TCU**: "Via RNAV, FD4166"   
+    <span class="coldline">**PH TCU** -> **JT ADC**</span>: "Estimated approach time, FD416 via RNP at time 59"  
+    <span class="coldline">**JT ADC** -> **PH TCU**</span>: "Via RNP, FD416"
 
-    *JT Tower must clear aircraft for final, before PH TCU issues approach clearance.*  
-    **PH TCU** -> **JT ADC**: "Request clearance for final, FD416"  
-    **JT ADC** -> **PH TCU**: "FD416 cleared RNAV 24R"  
-    **PH TCU** -> **JT ADC**: "Cleared RNAV 24R, FD416"  
+Given that the instrument approach procedure will terminate inside another controller's airspace, TCU controllers must obtain a clearance from JT ADC prior to issuing an approach clearance to an aircraft.  
+
+!!! example 
+    <span class="hotline">**PH TCU** -> **JT ADC**</span>: "Request clearance for final, FD416"  
+    <span class="hotline">**JT ADC** -> **PH TCU**</span>: "FD416 cleared RNAV-Z 24R"  
+    <span class="hotline">**PH TCU** -> **JT ADC**</span>: "Cleared RNAV-Z 24R, UJN" 
 
 ### PH TCU / PEA ADC
 Reserved

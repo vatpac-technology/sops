@@ -68,16 +68,16 @@ TBP may make changes to CFL up to the boundary with KEN for the purposes of issu
 Departures from YBHM in to SWY Class C will be coordinated when ready for departure.  
 
 !!! example
-    **HM ADC** -> **SWY**: "Next, QFA797"  
-    **SWY** -> **HM ADC**: "QFA797"  
+    <span class="hotline">**HM ADC** -> **SWY**</span>: "Next, QFA797"  
+    <span class="hotline">**SWY** -> **HM ADC**</span>: "QFA797"  
 
 The Standard Assignable level from HM ADC to SWY is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
 #### Arrivals
 SWY must coordinate the sequence to HM ADC prior to **5 mins** from the boundary.
 
 !!! example
-    **SWY** -> **HM ADC**: "New Sequence of 2. Via OPOSI for RNP U RWY 32, JST848, Number 1. Via SWIFT, UTY551, Number 2”  
-    **HM ADC** -> **SWY**: "JST848, Number 1. UTY551, Number 2"  
+    <span class="coldline">**SWY** -> **HM ADC**</span>: "New Sequence of 2. Via OPOSI for RNP U RWY 32, JST848, Number 1. Via SWIFT, UTY551, Number 2”  
+    <span class="coldline">**HM ADC** -> **SWY**</span>: "JST848, Number 1. UTY551, Number 2"  
 
 The Standard Assignable level from KEN(SWY) to HM ADC is `A060`, any other level must be prior coordinated.
 
