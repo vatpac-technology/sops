@@ -174,7 +174,7 @@ If due to weather, overflying aircraft, runway config changes, etc. Auto Release
 
 Voice coordinate all other aircraft by **20nm** to boundary.
 ### TCU -> ENR
-**Voiceless** for aircraft assigned lower of standard assignable level or RFL, and tracking via SID terminus/
+**Voiceless** for aircraft assigned lower of standard assignable level or RFL, and tracking via SID terminus.
 ### ENR -> Oceanic
 Voice coordinate prior to **15 mins** to boundary.
 ### Oceanic -> ENR
