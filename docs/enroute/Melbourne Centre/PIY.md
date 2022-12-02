@@ -26,23 +26,23 @@ Pingelly assumes responsiblity of the airspace within 36nm of PH DME above `F245
 </figure>
 
 ## Sector Responsibilities
-### Pingelly
-Pingelly (PIY) will provide final sequencing actions to ensure aircraft comply with their FF times prior to entering the Perth TCU. Pingelly (PIY) shall assign the standard assignable altitude in accordance with the table above. 
-For aircraft overflying the PH TCU place 'O/FLY' in the LABEL DATA field.
+### Pingelly (PIY)
+PIY will provide final sequencing actions to ensure aircraft comply with their FF times prior to entering the Perth TCU. PIY shall assign the standard assignable altitude in accordance with the table above. 
+For aircraft overflying the PH TCU place `O/FLY` in the LABEL DATA field.
 
-### Leeman
-Leeman (LEA) is responsible for assigning and issueing arrival clearance to aircraft inbound to Perth via WAVES. Leeman (LEA) is also responsible for transiting aircraft outbound from Perth into the Melbourne Oceanic Control Area. Coordination between this non-radar position (ML-IND_FSS) must be completed in accordance with the Coordination procedures.  
+### Leeman (LEA)
+LEA is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via `WAVES`. LEA is also responsible for transiting aircraft outbound from Perth into the Melbourne Oceanic Control Area. Coordination between this non-radar position (ML-IND_FSS) must be completed in accordance with [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic){target=new}.  
 
 !!! note
     Controllers should be aware that VHF coverage near the LEA/IND border may be limited. Controllers should strive to issue HF frequencies and transfer of communications instruction prior to 160 NM PH DME.
-### Grove
-Grove (GVE) is responsible for assigning and issueing arrival clearance to aircraft inbound to Perth via JULIM and CONNI. 
+### Grove (GVE)
+GVE is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via `JULIM` and `CONNI`. 
 
-### Hyden
-Hyden (HYD) is responsible for assigning and issueing arrival clearance to aircraft inbound to Perth via BEVLY, DAYLR and GRENE.
+### Hyden (HYD)
+HYD is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via `BEVLY`, `DAYLR` and `GRENE`.
 
-### Jarrah
-Jarrah (JAR) is responsible for assigning and issueing arrival clearance to aircraft inbound to Perth via SOLUS.
+### Jarrah (JAR)
+JAR is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via `SOLUS`.
 
 !!! note
     Controllers should be aware there may be limited ADS-B coverage around Albany (YABA). Expect identification to be lost as aircraft descend through `A100`.
@@ -59,7 +59,7 @@ All other aircraft must be voice coordinated to PH TCU prior to **20nm** from th
 
 As per the enroute coordination requirements, voiceless coordination exists between enroute sectors, with changes permitted up to the boundary with PIY.
 
-Refer to [Perth TCU Airspace Division](../../perth/#airspace-division) for information on airspace divisions when **PHD** is online.
+Refer to [Perth TCU Airspace Division](../../../terminal/perth/#airspace-division){target=new} for information on airspace divisions when **PHD** is online.
 ## LEA / IND (Oceanic)
 
-As per [Standard coordination procedures](../../controller-skills/coordination.md/#enr---oceanic){target=new}
+As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic){target=new}.

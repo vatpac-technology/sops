@@ -34,14 +34,14 @@ For simulation purposes, visual separation is assumed to exist below the cloud b
 A 'next' call is made for all aircraft when they are next to depart. RK ADC must inform COR TCU if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
-    **RK ADC** -> **COR**: "Next, VJE"  
-    **COR** -> **RK ADC**: "VJE"
+    <span class="hotline">**RK ADC** -> **COR**</span>: "Next, VJE"  
+    <span class="hotline">**COR** -> **RK ADC**</span>: "VJE"
 
 The Standard Assignable level from RK ADC to COR TCU is the lower of `A060` or the `RFL`, any other level must be prior coordinated.
 
 ### Arrivals
-COR TCU will coordinate the sequence to RK ADC
+COR TCU will coordinate the sequence to RK ADC.
 
 !!! example
-    **COR** -> **RK ADC**: "New Sequence of 2. Via SARUS, VJN, Number 1. WFE, Number 2”  
-    **RK ADC** -> **COR**: "VJN, Number 1. WFE, Number 2"  
+    <span class="coldline">**COR** -> **RK ADC**</span>: "New Sequence of 2. Via SARUS, VJN, Number 1. WFE, Number 2”  
+    <span class="coldline">**RK ADC** -> **COR**</span>: "VJN, Number 1. WFE, Number 2"  

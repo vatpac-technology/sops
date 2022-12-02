@@ -39,6 +39,7 @@ Circuits to be flown at `A010`
 | 08R  | Right  | -     |
 | 26L  | Left   | -     |
 | 26R  | Right  | -     |
+
 ## VFR Inbound Procedures
 
 | VFR Approach Point | RWYs 03 | RWYs 21 | RWYs 08 | RWYs 26 |
@@ -76,33 +77,30 @@ For aircraft planned via a CTA departure into Adelaide's class C airspace, **PF 
 Whilst the aircraft is taxiing, **PF SMC** will perform TAXI coordination with Adelaide TCU, who will issue an airways clearance for Parafield Tower to relay to the aircraft.  Aircraft planned above `A030` will be cleared initially to `A030`.
   
 !!! example
-    **PF SMC** -> **AD TCU**: "Taxi's, XMM, Bankstown, 03L”  
-    **AD TCU** -> **PF SMC**: “XMM, cleared to Bankstown via BENDO flight planned route, Parafield 1 Departure, climb via SID A030, squawk 1427”  
-    **PF SMC** -> **AD TCU**: “Cleared to Bankstown via BENDO flight planned route, Parafield 1 Departure, climb via SID A030, squawk 1427, XMM”  
+    <span class="coldline">**PF SMC** -> **AD TCU**</span>: "Taxi's, XMM, Bankstown, 03L”  
+    <span class="coldline">**AD TCU** -> **PF SMC**</span>: “XMM, cleared to Bankstown via BENDO flight planned route, Parafield 1 Departure, climb via SID A030, squawk 1427”  
+    <span class="coldline">**PF SMC** -> **AD TCU**</span>: “Cleared to Bankstown via BENDO flight planned route, Parafield 1 Departure, climb via SID A030, squawk 1427, XMM”  
 
 #### Next Call
 When aircraft planned via a CTA departure are ready for takeoff and expected to depart imminently, **PF ADC** shall seek release of the aircraft through a 'Next' call.
 
 !!! example
-    **PF ADC** -> **AD TCU**: "Next, XMM, 03L"  
-    **AD TCU** -> **PF ADC**: "XMM, Heading 020, unrestricted"  
-    **PF ADC** -> **AD TCU**: "Heading 020, unrestricted, XMM" 
+    <span class="hotline">**PF ADC** -> **AD TCU**</span>: "Next, XMM, 03L"  
+    <span class="hotline">**AD TCU** -> **PF ADC**</span>: "XMM, Heading 020, unrestricted"  
+    <span class="hotline">**PF ADC** -> **AD TCU**</span>: "Heading 020, unrestricted, XMM" 
 
 ### AD TCU / PF TWR
 #### Arrival Coordination
 
 AD TCU will coordinate with PF ADC for incoming IFR arrivals on either Visual Tracking or RNP approaches.
 If tracking visually, AD TCU must coordinate the level assignment with the estimate for aircraft arriving directly from Class C.
-Parafield Tower will not alter an aircrafts tracking until the aircraft is within 3NM of Parafield. 
-
-!!! note
-    If direct from CTA, `A015` unless coordinated otherwise
+Parafield Tower will not alter an aircraft's tracking until the aircraft is within 3NM of Parafield. 
 
 #### Visual Tracking
 
 !!! example
-    **AD TCU** -> **PF ADC**: "Estimate, UJE via PAL time 02."  
-    **PF ADC** -> **AD TCU**: "UJE"
+    <span class="coldline">**AD TCU** -> **PF ADC**</span>: "Estimate, UJE via PAL time 02."  
+    <span class="coldline">**PF ADC** -> **AD TCU**</span>: "UJE"
 
 #### IAP Tracking
 Reserved.

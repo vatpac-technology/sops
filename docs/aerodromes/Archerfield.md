@@ -100,32 +100,44 @@ For aircraft planned via a CTA departure into Brisbane's class C airspace, **AF 
 Whilst the aircraft is taxiing, **AF SMC** will perform TAXI coordination with Brisbane TCU, who will issue an airways clearance for Archerfield Tower to relay to the aircraft.  Aircraft planned above `A040` will be cleared initially to `A040`.
   
 !!! example
-    **AF SMC** -> **BN TCU**: "Taxi's, XMM, Bankstown, 10L”  
-    **BN TCU** -> **AF SMC**: “XMM, cleared to Bankstown via HUUGO flight planned route, Archerfield 3 Departure, climb via SID A040, squawk 1427”  
-    **AF SMC** -> **BN TCU**: “Cleared to Bankstown via HUUGO flight planned route, Archerfield 3 Departure, climb via SID A040, squawk 1427, XMM” 
+    <span class="coldline">**AF SMC** -> **BN TCU**</span>: "Taxi's, XMM, Bankstown, 10L”  
+    <span class="coldline">**BN TCU** -> **AF SMC**</span>: “XMM, cleared to Bankstown via HUUGO flight planned route, Archerfield 3 Departure, climb via SID A040, squawk 1427”  
+    <span class="coldline">**AF SMC** -> **BN TCU**</span>: “Cleared to Bankstown via HUUGO flight planned route, Archerfield 3 Departure, climb via SID A040, squawk 1427, XMM” 
 
 #### Next Call
 When aircraft planned via a CTA departure are ready for takeoff and expected to depart imminently, **AF ADC** shall seek release of the aircraft through a 'Next' call.
 
 !!! example
-    **AF ADC** -> **BN TCU**: "Next, XMM, 10L"  
-    **BN TCU** -> **AF ADC**: "XMM, unrestricted"
+    <span class="hotline">**AF ADC** -> **BN TCU**</span>: "Next, XMM, Runway 10L"  
+    <span class="hotline">**BN TCU** -> **AF ADC**</span>: "XMM, unrestricted"  
+    <span class="hotline">**AF ADC** -> **BN TCU**</span>: "Unrestricted, XMM"
 
 ### BN TCU / AF ADC
 #### Arrival Coordination
 
-BN TCU will coordinate with AF ADC for incoming IFR arrivals on either Visual Tracking or RNP approaches.
-If tracking visually, BN TCU must coordinate the level assignment with the estimate for aircraft arriving directly from Class C.
+BN TCU will coordinate with AF ADC for incoming IFR arrivals on either Visual Tracking or RNP approaches. If tracking visually, BN TCU must coordinate the level assignment with the estimate for aircraft arriving directly from Class C.  
 Archerfield Tower will not alter an aircrafts tracking until the aircraft is within 3NM of Archerfield.
 
 #### Visual Tracking
 
 !!! example
-    **BN TCU** -> **AF ADC**: "Estimate, UJE via TVT time 02."  
-    **AF ADC** -> **BN TCU**: "UJE"
+    <span class="coldline">**BN TCU** -> **AF ADC**</span>: "Estimate, UJE via TVT time 02."  
+    <span class="coldline">**AF ADC** -> **BN TCU**</span>: "UJE"
 
 #### IAP Tracking
-Reserved.
+!!! example
+    <span class="coldline">**BN TCU** -> **AF ADC**</span>: "Estimated approach time, UJN via RNP at time 59"  
+    <span class="coldline">**AF ADC** -> **BN TCU**</span>: "Via RNP, UJN"  
+
+Given that the instrument approach procedure will terminate inside another controller's airspace, TCU controllers must obtain a clearance from AF ADC prior to issuing an approach clearance to an aircraft.  If no conflict exists, respond to this call by providing clearance for the approach.  
+
+!!! example 
+    <span class="hotline">**BN TCU** -> **AF ADC**</span>: "Request clearance for final, UJN"  
+    <span class="hotline">**AF ADC** -> **BN TCU**</span>: "UJN cleared RNP-Z 10L"  
+    <span class="hotline">**BN TCU** -> **AF ADC**</span>: "Cleared RNP-Z 10L, UJN"  
+
+!!! tip
+    Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D.  You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.
 
 ### Standard Assignable Departure Levels
 All IFR Aircraft: `A040`

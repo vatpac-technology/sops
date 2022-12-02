@@ -27,11 +27,17 @@ Single runway operations using Runway 05 or 23 (whichever is more favoured by th
     METAR: `YPAD 210600Z 15030KT 9999 FEW030 21/11 Q1002 RMK RF00.0/000.0`  
     ATIS: `RUNWAY 23 AND 12 FOR ARRIVALS AND DEPARTURES`
 
-#### Curfew Mode
+### Runway 23 Arrivals
+With **Runway 23** in use for arrivals and the cloud base above `A024` but below `A043`, the APCH field shall include:  
+`ACFT FM THE EAST AND JET ACFT FM THE WEST EXP INSTR APCH`  
+
+This allows aircraft on the Victor STAR from the west to join a visual right base without the need to conduct an instrument approach, while keeping aircraft from the east clear of the higher terrain near the Adelaide Hills.
+
+### Curfew Mode
 
 Between the hours of 1330-2030 UTC (1230-1930 UTC HDS), AD ADC may elect to simulate Curfew operations, ie: **Runway 23 for arrivals, Runway 05 for departures**. When this is in operation, the ATIS shall include `CURFEW IN OPERATION UNTIL (time) ZULU`.
 
-#### SID Selection
+## SID Selection
 
 Jet Aircraft planned via **PANKI**, **BENDO**, **GILES**, **HAWKY**, **ORBUN**. or **SEDAN**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
@@ -58,12 +64,12 @@ c) Assigned `A050`;
 Any aircraft that don't meet these criteria must be coordinated to AD TCU with a "Next" Call
 
 !!! example
-    **AD ADC** -> **AD TCU**: "Next, ABC"  
-    **AD TCU** -> **AD ADC**: "ABC, Track Extended Centreline"  
-    **AD ADC** -> **AD TCU**: "Track Extended Centreline, ABC"  
+    <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Next, RXA4362, Runway 23"  
+    <span class="hotline">**AD TCU** -> **AD ADC**</span>: "RXA4362, Track Extended Centreline"  
+    <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Track Extended Centreline, RXA4362"  
     
-    **AD ADC**: "ABC, Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff"  
-    **ABC**: "Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff, ABC"  
+    **AD ADC**: "RXA4362, Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff"  
+    **RXA4362**: "Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff, RXA4362"  
     `AIP GEN 3.4`
 
 ## Standard Assignable Levels

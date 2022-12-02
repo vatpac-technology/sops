@@ -76,9 +76,9 @@ c) Assigned `A040`;
 Any aircraft that don't meet these criteria must be coordinated to ML TCU with a "Next" Call
 
 !!! example
-    **AV ADC** -> **ML TCU**: "Next, ABC"  
-    **ML TCU** -> **AV ADC**: "ABC, Track Extended Centreline"  
-    **AV ADC** -> **ML TCU**: "Track Extended Centreline, ABC" 
+    <span class="hotline">**AV ADC** -> **ML TCU**</span>: "Next, UJI, Runway 18"  
+    <span class="hotline">**ML TCU** -> **AV ADC**</span>: "UJI, left 030, unrestricted"  
+    <span class="hotline">**AV ADC** -> **ML TCU**</span>: "Left 030 unrestricted, UJI"  
     `AIP GEN 3.4`
 
 ### ML TCU / AV ADC
