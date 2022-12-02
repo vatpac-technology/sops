@@ -125,7 +125,7 @@ The Standard Assignable level from INL to **CFS ADC** is `A080`. Any aircraft th
 YCFS arrivals shall be coordinated to **CFS ADC** from INL prior to transfer of jurisdiction.
 
 !!! example
-    <span class="hotline">**INL** -> **CFS ADC**</span>: "VET, via GAMBL"  
+    <span class="hotline">**INL** -> **CFS ADC**</span>: "via IDNER, VET"  
     <span class="hotline">**CFS ADC** -> **INL**</span>: "VET"  
 
 #### Overfliers
