@@ -14,7 +14,7 @@
 ## Airspace
 
 <figure markdown>
-![CFS TWR Airspace](img/YCFS_airspace.png){ width="700" }
+![CFS TWR Airspace](img/ycfs_airspace.png){ width="700" }
   <figcaption>CFS TWR Airspace</figcaption>
 </figure>
 

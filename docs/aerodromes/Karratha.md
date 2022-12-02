@@ -15,7 +15,7 @@
 ## Airspace
 
 <figure markdown>
-![YPKA Airspace](img/YPKA_airspace.png){ width="700" }
+![YPKA Airspace](img/ypka_airspace.png){ width="700" }
   <figcaption>YPKA Airspace</figcaption>
 </figure>
 
