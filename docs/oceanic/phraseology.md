@@ -10,7 +10,7 @@ HF radio is used as the primary long-range radio communications medium. The natu
 
 !!! Example
     **UAL873**: "San Francisco Radio, San Francisco Radio, UAL873 on 122.5"  
-    **ZAK_W_FSS**: "UAL873, San Francisco Radio, go-ahead"  
+    **ZAK_FSS**: "UAL873, San Francisco Radio, go-ahead"  
     **UAL873**: "San Francisco Radio, UAL873 request climb FL390"
 
 ## SELCAL
@@ -46,9 +46,9 @@ ATC shall acknowledge a position report by using the aircraft's callsign. A read
 
 !!! Example
     **UAL873**: "San Francisco Radio, San Francisco Radio, UAL873 Position"  
-    **ZAK_W_FSS**: "UAL873, San Francisco Radio, go-ahead"  
+    **ZAK_FSS**: "UAL873, San Francisco Radio, go-ahead"  
     **UAL873**: "UAL873 position LHI time 1853, FL360, estimate PANDA at 1953, SANDO next. Maintaining Mach 0.84”  
-    **ZAK_W_FSS**: "UAL873, San Francisco Radio, Copied Position" 
+    **ZAK_FSS**: "UAL873, San Francisco Radio, Copied Position" 
     
 ## Simulator Time Compression
 Due to the length of most oceanic crossings, some pilots may elect to use time compression to speed up their cruise segment.  Controllers should accommodate this request where possible.
