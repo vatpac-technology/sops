@@ -24,6 +24,7 @@ This page lists some of the most commonly used callsigns in Australia.
 | CFH  | CAREFLIGHT |
 | FD | FLYDOC |
 | HM | HEMS |
+| HND | HINTERLAND |
 | JTE  | JETEX |
 | JST | JETSTAR |
 | NWK  | NETLINK |

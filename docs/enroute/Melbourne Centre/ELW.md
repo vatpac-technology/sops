@@ -75,16 +75,16 @@ By default, **ESL TCU** owns the airspace within 30nm ESL, `SFC` to `F200`, unle
 Departures from YMES in to ELW(All) Class C will be coordinated at taxi, and will be requesting a level.
 
 !!! example
-    **ESL TCU** -> **SNO**: "Taxi, ALDN14 for YSWG via VALDU, Requesting F210"  
-    **SNO** -> **ESL TCU**: "ALDN14, F210"  
-    **ESL TCU** -> **SNO**: "F210, ALDN14"  
+    <span class="coldline">**ESL TCU** -> **SNO**</span>: "Taxi, ALDN14 for YSWG via VALDU, Requesting F210"  
+    <span class="coldline">**SNO** -> **ESL TCU**</span>: "ALDN14, F210"  
+    <span class="coldline">**ESL TCU** -> **SNO**</span>: "F210, ALDN14"  
 
 #### Arrivals/Overfliers
 All aircraft transiting from ELW(All) to **ESL TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **ESL TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the ELW(All) and **ESL TCU** controller agree on.
 
 !!! example
-    **ELW** -> **ESL TCU**: "via MNG, BFRT21, will be assigned F220, BLA and myself have no restrictions on descent"  
-    **ESL TCU** -> **ELW**: "BFRT21, F220"  
+    <span class="coldline">**ELW** -> **ESL TCU**</span>: "via MNG, BFRT21, will be assigned F220, BLA and myself have no restrictions on descent"  
+    <span class="coldline">**ESL TCU** -> **ELW**</span>: "BFRT21, F220"  
 
 ### BLA / AY ADC
 #### Airspace
@@ -93,8 +93,8 @@ All aircraft transiting from ELW(All) to **ESL TCU** must be heads-up coordinate
 Departures from YMAY in to BLA Class C will be coordinated when ready for departure.
 
 !!! example
-    **AY ADC** -> **BLA**: "Next, RXA6772"  
-    **BLA** -> **AY ADC**: "RXA6772"
+    <span class="hotline">**AY ADC** -> **BLA**</span>: "Next, RXA6772"  
+    <span class="hotline">**BLA** -> **AY ADC**</span>: "RXA6772" 
 
 The Standard Assignable level from **AY ADC** to BLA is the lower of `A070` or the `RFL`.
 
@@ -103,8 +103,8 @@ The Standard Assignable level from BLA to **AY ADC** is `A080`. Any aircraft tha
 YMAY arrivals shall be coordinated to **AY ADC** from BLA prior to transfer of jurisdiction.
 
 !!! example
-    **BLA** -> **AY ADC**: "QLK38, via VEGRU1 arrival"  
-    **AY ADC** -> **BLA**: "QLK38"
+    <span class="coldline">**BLA** -> **AY ADC**</span>: "QLK38, via VEGRU1 arrival"  
+    <span class="coldline">**AY ADC** -> **BLA**</span>: "QLK38" 
 
 #### Overfliers
 Any aircraft that will enter AY ADC airspace, and not landing at YMAY, must be Heads-up coordinated prior to **5 mins** from the boundary.

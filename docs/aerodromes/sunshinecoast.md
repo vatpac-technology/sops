@@ -47,8 +47,8 @@ All other aircraft may be assigned a visual departure, or a standard IFR departu
 A 'next' call is made for all aircraft when they are next to depart. SU ADC must inform INL(NSA/BUR) if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
-    **SU ADC** -> **NSA**: "Next, BNZ133"  
-   **NSA** -> **SU ADC**: "BNZ133"    
+    <span class="hotline">**SU ADC** -> **NSA**</span>: "Next, BNZ133"  
+    <span class="hotline">**NSA** -> **SU ADC**</span>: "BNZ133, unrestricted."    
 
 The Standard Assignable level from SU ADC to INL(NSA/BUR) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
 
@@ -56,8 +56,8 @@ The Standard Assignable level from SU ADC to INL(NSA/BUR) is the lower of `A050`
 INL(NSA/BUR) will coordinate the sequence to SU ADC.
 
 !!! example
-    **NSA** -> **SU ADC**: "New Sequence of 2. Via ITIDE2W Arrival, QJE1756, Number 1. Via REBEG2X Arrival, FD425, Number 2”  
-    **SU ADC** -> **NSA**: "QJE1756, Number 1. FD425, Number 2"  
+    <span class="coldline">**NSA** -> **SU ADC**</span>: "New Sequence of 2. Via ITIDE2W Arrival, QJE1756, Number 1. Via REBEG2X Arrival, FD425, Number 2”  
+    <span class="coldline">**SU ADC** -> **NSA**</span>: "QJE1756, Number 1. FD425, Number 2"  
 
 The Standard Assignable level from INL(NSA/BUR) to SU ADC is `A060`, any other level must be prior coordinated.
 ### BN TCU / SU ADC

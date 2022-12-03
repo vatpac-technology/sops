@@ -15,7 +15,7 @@
 ## Airspace
 
 <figure markdown>
-![YPKA Airspace](img/YPKA_airspace.png){ width="700" }
+![YPKA Airspace](img/ypka_airspace.png){ width="700" }
   <figcaption>YPKA Airspace</figcaption>
 </figure>
 
@@ -29,15 +29,15 @@ For simulation purposes, visual separation is assumed to exist below the cloud b
 A 'next' call is made for all aircraft when they are next to depart. KA ADC must inform OLW if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
-    **KA ADC** -> **OLW**: "Next, NWK694"  
-    **OLW** -> **KA ADC**: "NWK694"  
+    <span class="hotline">**KA ADC** -> **OLW**</span>: "Next, NWK694"  
+    <span class="hotline">**OLW** -> **KA ADC**</span>: "NWK694"  
 
 The Standard Assignable level from KA ADC to OLW is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
 ### Arrivals
 OLW will coordinate the sequence to KA ADC.
 
 !!! example
-    **OLW** -> **KA ADC**: "New Sequence of 2. Via PD, FD630J, Number 1. Via PKAEC for the RNAV Z RWY 26, VOZ1729, Number 2”  
-    **KA ADC** -> **OLW**: "FD630J, Number 1. VOZ1729, Number 2"  
+    <span class="coldline">**OLW** -> **KA ADC**</span>: "New Sequence of 2. Via PD, FD630J, Number 1. Via PKAEC for the RNAV Z RWY 26, VOZ1729, Number 2”  
+    <span class="coldline">**KA ADC** -> **OLW**</span>: "FD630J, Number 1. VOZ1729, Number 2"  
 
 The Standard Assignable level from OLW to KA ADC is `A060`, any other level must be prior coordinated.
