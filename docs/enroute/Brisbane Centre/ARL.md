@@ -126,8 +126,11 @@ Departures from YWLM in to CNK/MND/MNN Class C will be coordinated at taxi, and 
 All aircraft transiting from CNK/MND/MNN to **WLM TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **WLM TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the CNK/MND/MNN and **WLM TCU** controller agree on.
 
 !!! example
-    <span class="coldline">**MNN** -> **WLM TCU**</span>: "via SANAD, JST458, DCT BLAFF, will be assigned F130"  
+    <span class="coldline">**MNN** -> **WLM TCU**</span>: "via SANAD, JST458, will be assigned F130"  
     <span class="coldline">**WLM TCU** -> **MNN**</span>: "JST458, F130"  
+
+!!! tip
+    To keep it simple and safe, coordinate departures at the Lowest Assignable level over the TCU (eg, with standard WLM TCU configuration, `F130`). You may coordinate other levels with WLM TCU if required for separation purposes.
 
 ### OCN/MNN / TSN/HWE (Oceanic)
 As per [Standard coordination procedures](../../controller-skills/coordination/#enr-oceanic), Voice coordinate estimate and level prior to **15 mins** to boundary.
