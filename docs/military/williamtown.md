@@ -8,10 +8,10 @@
 
 | Name               | Callsign       | Frequency        | Login Identifier              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
-| Williamtown Approach    | Williamtown Approach   | 135.700         | WLM_APP                                   |
-| Williamtown ADC    | Williamtown Tower  | 118.300         | WLM_TWR        |
-| Williamtown SMC    | Williamtown Ground  | 121.800         | WLM_GND        |
-| Williamtown ACD    | Williamtown Delivery  | 130.350         | WLM_DEL       |
+| Williamtown Approach    | Willy Approach   | 135.700         | WLM_APP                                   |
+| Williamtown ADC    | Willy Tower  | 118.300         | WLM_TWR        |
+| Williamtown SMC    | Willy Ground  | 121.800         | WLM_GND        |
+| Williamtown ACD    | Willy Delivery  | 130.350         | WLM_DEL       |
 | Williamtown ATIS    | Williamtown ATIS  | 134.450         | YWLM_ATIS       |
 
 ## Airspace
