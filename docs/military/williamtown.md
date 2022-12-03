@@ -97,7 +97,7 @@ A 'Next' call is made for all aircraft when they are next to depart. WLM ADC mus
     <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "Next, JST471"  
     <span class="hotline">**WLM TCU** -> **WLM ADC**</span>: "JST471"
 
-The Standard Assignable level from WLM ADC to WLM TCU is the lower of `A060` or the `RFL`, and assigned a SID. Any other aircraft must be heads-up coordinated in full.
+The Standard Assignable level from WLM ADC to WLM TCU is the lower of `A050` or the `RFL`, and assigned a SID. Any other aircraft must be heads-up coordinated in full.
 
 !!! example
     <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "Next, DPOT27"  
