@@ -17,7 +17,7 @@ Upper Limit of the Coral TCU is `F150`
     MKA may extend to RKA and vice versa, callsigns remain the same.
 
 !!! tip
-    When Setting up VATSYS it is recommended to have 2 seperate windows open for both MKA and RKA
+    When setting up vatSys, it is recommended that you have seperate air displays open for MKA and RKA.
     <figure markdown>
     ![Coral Combined Airspace](img/coralrec.png){ width="1000" }
     </figure>
@@ -32,8 +32,8 @@ Voiceless coordination is in place from MKA/RKA to ENR for aircraft:
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
 !!! example
-    **RKA** -> **KPL**: "QFA114, with your concurrence, will be assigned F130, for my separation with ZYX"  
-    **KPL** -> **RKA**: "QFA114, concur F130"  
+    <span class="hotline">**COR TCU** -> **ENR**</span>: "QFA114, with your concurrence, will be assigned F130, for my separation with ZYX"  
+    <span class="hotline">**ENR** -> **COR TCU**</span>: "QFA114, concur F130"  
 
 #### Arrivals
 The Standard assignable levels from **ENR** to MKA/RKA are as follows:  
@@ -50,12 +50,10 @@ MK ADC and RK ADC both own the Class D airspace within their respective CTRs, `S
 "Next" Coordination is a procedure where the **ADC** controller gives a heads-up to the TCU controller about an impending departure not on a SID. The TCU controller will respond by assigning a visual heading to the aircraft, for the **ADC** controller to pass on with their takeoff clearance.
 
 !!! example
-    **MK ADC** -> **MK TCU**: "Next, ABC"  
-    **MK TCU** -> **MK ADC**: "ABC, Heading 150 Visual"  
-    **MK ADC** -> **MK TCU**: "Heading 150 Visual, ABC"  
-
-    **MK ADC**: "ABC, Assigned heading right 150 Visual, Runway 14, Cleared for Takeoff"  
-    **ABC**: "Right heading 150 Visual, Runway 14, Cleared for Takeoff, ABC"  
+    <span class="hotline">**MK ADC** -> **MK TCU**</span>: "Next, ABC, runway 14"  
+    <span class="hotline">**MK TCU** -> **MK ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
+    <span class="hotline">**MK ADC** -> **MK TCU**</span>: "Heading 150 Visual unrestricted, ABC"    
+    `AIP GEN 3.4`
 
 The TCU controller can suspend/resume Auto Release at any time, with the concurrence of **ADC**.
 

@@ -24,13 +24,13 @@ Departures is responsible for Class C airspace west of the boundary and Class G 
 
 The divisions of the airspace between **CS1** and **CS2** change based on the Runway Mode.
 
-#### 15
+#### Runway 15
 <figure markdown>
 ![15 TCU Structure](img/cs15annotated.png){ width="700" }
   <figcaption>15 TCU Structure</figcaption>
 </figure>
 
-#### 33
+#### Runway 33
 <figure markdown>
 ![33 TCU Structure](img/cs33annotated.png){ width="700" }
   <figcaption>33 TCU Structure</figcaption>
@@ -120,12 +120,9 @@ Auto Release is not Available in Cairns
 All Departing Aircraft must be coordinated to CS TCU with a "Next" Call
 
 !!! example
-    **CS ADC** -> **CS TCU**: "Next, ABC"  
-    **CS TCU** -> **CS ADC**: "ABC, Heading 030, Unrestricted"  
-    **CS ADC** -> **CS TCU**: "Heading 030, Unrestriced, ABC"  
-
-    **CS ADC**: "ABC, Assigned heading Left 030, Runway 15, Cleared for Takeoff"  
-    **ABC**: "Left heading 030, Runway 15, Cleared for Takeoff, ABC"  
+    <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Next, ABC, runway 15"  
+    <span class="hotline">**CS TCU** -> **CS ADC**</span>: "ABC, Heading 030, Unrestricted"  
+    <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Heading 030, Unrestriced, ABC"   
     `AIP GEN 3.4`
 
 #### Seperation
@@ -151,11 +148,11 @@ a) VFR Departures
 b) Aircraft using a runway not on the ATIS
 
 !!! example
-    **CS ACD** -> **CS TCU**: "ABC, Requesting clearance for a Northbound VFR Coastal departure at A035"  
-    **CS TCU** -> **CS ACD**: "ABC, Cleared for a Northbound VFR Coastal departure, A035"  
-    **CS ACD** -> **CS TCU**: "Cleared for a Northbound VFR Coastal departure, A035, ABC"  
+    <span class="coldline">**CS ACD** -> **CS TCU**</span>: "ABC, Requesting clearance for a Northbound VFR Coastal departure at A035"  
+    <span class="coldline">**CS TCU** -> **CS ACD**</span>: "ABC, Cleared for a Northbound VFR Coastal departure, A035"  
+    <span class="coldline">**CS ACD** -> **CS TCU**</span>: "Cleared for a Northbound VFR Coastal departure, A035, ABC"  
 
-    **CS ACD: "ABC, Cleared for a Northbound VFR Coastal departure, A035, Squawk 3601"  
+    **CS ACD**: "ABC, Cleared for a Northbound VFR Coastal departure, A035, Squawk 3601"  
     **ABC**: "Cleared for a Northbound VFR Coastal departure, A035, 3601, ABC"  
     `AIP GEN 3.4`
 
@@ -179,8 +176,8 @@ Voiceless coordination is in place for any route (including SID and random direc
 Any aircraft **not** assigned the standard assignable level, must be **Heads-up** Coordinated to the relevant ENR sector as soon as practical.
 
 !!! example
-    **CS TCU** -> **KEN**: "JST789, with your concurrence, will be assigned F160, for my separation with ANZ12"  
-    **KEN** -> **CS TCU**: "JST789, concur F160"  
+    <span class="hotline">**CS TCU** -> **KEN**</span>: "JST789, with your concurrence, will be assigned F160, for my separation with ANZ12"  
+    <span class="hotline">**KEN** -> **CS TCU**</span>: "JST789, concur F160"  
 
 #### Arrivals
 Standard assignable levels from ENR to CS TCU are as follows:  
