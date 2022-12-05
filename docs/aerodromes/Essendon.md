@@ -111,9 +111,9 @@ Essendon departures that will not enter ML TCU Class C airspace are not required
 All IFR departures and VFR aircraft departing into Class C must be coordinated to ML TCU with a "Next" Call
 
 !!! example
-    **ML ADC** -> **ML TCU**: "Next, ABC"  
-    **ML TCU** -> **ML ADC**: "ABC, Unrestricted"  
-    **ML ADC** -> **ML TCU**: "Unrestricted, ABC" 
+    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, FD318, runway 35"  
+    <span class="hotline">**ML TCU** -> **ML ADC**</span>: "FD318, left heading 330, unrestricted"  
+    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Left 330, unrestricted, FD318"  
     `AIP GEN 3.4`
 
 #### Arrivals

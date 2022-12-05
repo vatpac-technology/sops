@@ -11,6 +11,7 @@
 | Canberra ADC    | Canberra Tower   | 118.700          | CB_TWR                                   |
 | Canberra SMC    | Canberra Ground  | 121.700          | CB_GND                                   |
 | Canberra ATIS        |                | 127.450         | YSCB_ATIS                                |
+
 ## Airspace
 
 <figure markdown>
@@ -76,12 +77,12 @@ c) Assigned `A100`;
 Any aircraft that don't meet these criteria must be coordinated to CB TCU with a "Next" Call
 
 !!! example
-    **CB ADC** -> **CB TCU**: "Next, ABC"  
-    **CB TCU** -> **CB ADC**: "ABC, Assigned Left 270, Unrestricted"  
-    **CB ADC** -> **CB TCU**: "Assigned Left 270, Unrestricted, ABC"    
+    <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Next, XEB, runway 35"  
+    <span class="hotline">**CB TCU** -> **CB ADC**</span>: "XEB, Assigned Left 270, Unrestricted"  
+    <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Assigned Left 270, Unrestricted, XEB"    
     
-    **CB ADC**: "ABC, Assigned Left 270, Runway 35, Cleared for Takeoff"  
-    **ABC**: "Assigned Left 270, Runway 35, Cleared for Takeoff, ABC"  
+    **CB ADC**: "XEB, Assigned Left 270, Runway 35, Cleared for Takeoff"  
+    **XEB**: "Assigned Left 270, Runway 35, Cleared for Takeoff, XEB"  
     `AIP GEN 3.4`
 
 ### Runway Change

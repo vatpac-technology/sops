@@ -11,6 +11,8 @@
   --md-card-a-hover: rgba(241, 245, 249, 1);
   --md-default-table-header-text: #fff;
   --md-top: var(--md-default-bg-color);
+  --hotline: #fff820a1;
+  --coldline: #35b9ff66;
 
 }
 [data-md-color-scheme="slate"] {
@@ -21,6 +23,8 @@
   --md-card-a-hover: #293858;
   --md-default-table-header-text: #fff;
   --md-top: #1b253b;
+  --hotline: #b7b10291;
+  --coldline: #16aeff6e;
 }
 
 /*Header Modifications*/
@@ -95,4 +99,11 @@ h4 {
 /* Tasklist */
  .md-typeset [type=checkbox]:checked+.task-list-indicator:before {
     background-color: #81C3D7;
+}
+/* Coord Examples */
+.hotline {
+  background-color: var(--hotline);
+}
+.coldline {
+  background-color: var(--coldline);
 }

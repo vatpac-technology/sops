@@ -49,12 +49,12 @@ Due to the low level of CTA (`A015`) in the AF CTR when **AF ADC** is offline, i
 
 !!! example
     **ABC**: "Brisbane Approach, ABC, PC12, POB 8, IFR, Taxiing YBAF for YBSU, Runway 28R"   
-    **BN TCU**: "ABC, Brisbane Approach, Squawk 3601, No Reported IFR Traffic, Call me Ready at the Holding Point for Airways Clearance"  
+    **BN TCU**: "ABC, Brisbane Approach, Squawk 3601, No Reported IFR Traffic, Report Ready at the Holding Point for Airways Clearance"  
     **ABC**: "Squawk 3601, Wilco, ABC"  
 
     **ABC**: "ABC, Ready Runway 28R, Request clearance"  
     **BN TCU**: "ABC, Cleared to YBSU via BN, Flight Planned Route. Make Visual right turn DCT BN, Climb to A030"  
-    **ABC**: "Cleared to YBSU via BN, Flight Planned Route. Make Visual right turn DCT BN, Climb to A030, ABC" 
+    **ABC**: "Cleared to YBSU via BN, Flight Planned Route. Make Visual right turn DCT BN, Climb to A030, ABC"  
     `AIP GEN 3.4`  
 ## Airspace Division
 
@@ -92,8 +92,8 @@ The Standard Assignable level for YBSU arrivals from BN TCU to **NSA** is `F130`
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
 !!! example
-    **BN TCU** -> **INL**: "via GOMOL, BNZ123, with your concurrence, will be assigned F150, for my separation with ZYX"  
-    **INL** -> **BN TCU**: "BNZ123, concur F150"  
+    <span class="hotline">**BN TCU** -> **INL**</span>: "via GOMOL, BNZ123, with your concurrence, will be assigned F150, for my separation with ZYX"  
+    <span class="hotline">**INL** -> **BN TCU**</span>: "BNZ123, concur F150"  
 
 #### Arrivals
 The Standard assignable level from INL(All) to BN TCU is:  
@@ -115,12 +115,9 @@ Any aircraft that don't meet these criteria must be coordinated to BN TCU with a
 "Next" Coordination is a procedure where the BN ADC controller gives a heads-up to the BN TCU controller about an impending departure. The BN TCU controller will respond by assigning a heading to the aircraft, for the BN ADC controller to pass on with their takeoff clearance.
 
 !!! example
-    **BN ADC** -> **BN TCU**: "Next, ABC"  
-    **BN TCU** -> **BN ADC**: "ABC, Heading 030"  
-    **BN ADC** -> **BN TCU**: "Heading 030, ABC"  
-
-    **BN ADC**: "ABC, Assigned heading right 030, Runway 34R, Cleared for Takeoff"  
-    **ABC**: "Right heading 030, Runway 34R, Cleared for Takeoff, ABC"  
+    <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Next, ABC, runway 19L"  
+    <span class="hotline">**BN TCU** -> **BN ADC**</span>: "ABC, Heading 030, unrestricted"  
+    <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Heading 030 unrestricted, ABC"   
     `AIP GEN 3.4`
 
 ### BN TCU / AF ADC
@@ -131,27 +128,42 @@ Aircraft departing YBAF in to BN TCU Class C will be coordinated from **AF ADC**
 The Standard assignable levels for YBAF departures is the lower of `A040` or the `RFL`.
 
 !!! example
-    **AF ADC** -> **BN TCU**: "Taxi, DEF, VFR for YCDR via TVT"  
-    **BN TCU** -> **AF ADC**: "DEF, AF, TVT, Flight Planned Route, A040, Squawk 3601"  
-    **AF ADC** -> **BN TCU**: "AF, TVT, Flight Planned Route, A040, Squawk 3601, DEF"  
+    <span class="coldline">**AF ADC** -> **BN TCU**</span>: "Taxi, DEF, VFR for YCDR via TVT"  
+    <span class="coldline">**BN TCU** -> **AF ADC**</span>: "DEF, YCDR, TVT, Flight Planned Route, A040, Squawk 3601"  
+    <span class="coldline">**AF ADC** -> **BN TCU**</span>: "YCDR, TVT, Flight Planned Route, A040, Squawk 3601, DEF"  
 
-    **AF ADC** Will then pass the airways clearance to DEF  
+    **AF ADC** Will then pass the airways clearance to DEF.  
     `AIP GEN 3.4`
 
 #### Next Call
 When aircraft planned via a CTA departure are ready for takeoff and expected to depart imminently, **AF ADC** shall seek release of the aircraft through a 'Next' call.
 
 !!! example
-    **AF ADC** -> **BN TCU**: "Next, XMM, 10L"  
-    **BN TCU** -> **AF ADC**: "XMM, unrestricted"
+    <span class="hotline">**AF ADC** -> **BN TCU**</span>: "Next, XMM, 10L"  
+    <span class="hotline">**BN TCU** -> **AF ADC**</span>: "XMM, unrestricted"
 
 #### Arrivals
+YBAF arrivals shall be coordinated to **AF ADC** from BN TCU prior to transfer of jurisdiction.  If an instrument approach is planned, include the estimated approach time.
 
-YBAF arrivals shall be coordinated to **AF ADC** from the relevant BN TCU controller prior to transfer of jurisdiction.
+!!! tip
+    Ensure the aircraft's FDR is up-to-date in order to give **AF ADC** maximum situational awareness of the traffic picture. (eg. if the aircraft is doing the RNP approach, ensure the FDR has been rerouted via the appropriate points)
 
+##### Visual Tracking
 !!! example
-    **BN TCU** -> **AF ADC**: "BDF, via HUUGO"  
-    **AF ADC** -> **BN TCU**: "BDF"  
+    <span class="coldline">**BN TCU** -> **AF ADC**</span>: "Estimate, UJN via HUUGO time 02."  
+    <span class="coldline">**AF ADC** -> **BN TCU**</span>: "UJN"
+
+##### IAP Tracking
+!!! example
+    <span class="coldline">**BN TCU** -> **AF ADC**</span>: "Estimated approach time, UJN via RNP at time 59"  
+    <span class="coldline">**AF ADC** -> **BN TCU**</span>: "Via RNP, UJN"
+
+Given that the instrument approach procedure will terminate inside another controller's airspace, TCU controllers must obtain a clearance from AF ADC prior to issuing an approach clearance to an aircraft.  
+
+!!! example 
+    <span class="hotline">**BN TCU** -> **AF ADC**</span>: "Request clearance for final, UJN"  
+    <span class="hotline">**AF ADC** -> **BN TCU**</span>: "UJN cleared RNP-Z 10L"  
+    <span class="hotline">**BN TCU** -> **AF ADC**</span>: "Cleared RNP-Z 10L, UJN"
 
 ### BN TCU / AMB TCU
 
@@ -159,17 +171,17 @@ YBAF arrivals shall be coordinated to **AF ADC** from the relevant BN TCU contro
 Departures from YAMB in to BN TCU Class C will be coordinated at taxi, and will be requesting a level.
 
 !!! example
-    **AMB TCU** -> **BN TCU**: "Taxi, FALC22 for YSRI via GOMOL, Requesting F340"  
-    **BN TCU** -> **AMB TCU**: "FALC22, F180"  
-    **AMB TCU** -> **BN TCU**: "F180, FALC22"  
+    <span class="coldline">**AMB TCU** -> **BN TCU**</span>: "Taxi, FALC22 for YSRI via GOMOL, Requesting F340"  
+    <span class="coldline">**BN TCU** -> **AMB TCU**</span>: "FALC22, F180"  
+    <span class="coldline">**AMB TCU** -> **BN TCU**</span>: "F180, FALC22"  
 
 #### Arrivals/Overfliers
 All aircraft transiting from BN TCU to **AMB TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the BN TCU and **AMB TCU** controller agree on.
 
 !!! example
-    **BN TCU** -> **AMB TCU**: "via WACKO, STAL13, what level can I assign?"  
-    **AMB TCU** -> **BN TCU**: "STAL13, A050"  
-    **BN TCU** -> **AMB TCU**: "A050, STAL13"  
+    <span class="hotline">**BN TCU** -> **AMB TCU**</span>: "via WACKO, STAL13, what level can I assign?"  
+    <span class="hotline">**AMB TCU** -> **BN TCU**</span>: "STAL13, A050"  
+    <span class="hotline">**BN TCU** -> **AMB TCU**</span>: "A050, STAL13"  
 
 ### BN TCU / SU ADC
 

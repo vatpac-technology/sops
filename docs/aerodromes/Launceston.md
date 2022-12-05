@@ -54,9 +54,9 @@ Aircraft planned via **IRSOM**, **ONAGI**, **NUNPA**, **MOTRA**, **IRONS**, **MO
 "Next" Coordination is a procedure where the **LT ADC** controller gives a heads-up to the LTA controller about an impending departure not on a SID. The LTA controller will respond by assigning a visual heading to the aircraft, for the **LT ADC** controller to pass on with their takeoff clearance.
 
 !!! example
-    **LT ADC** -> **LT TCU**: "Next, ABC"  
-    **LT TCU** -> **LT ADC**: "ABC, Heading 150 Visual"  
-    **LT ADC** -> **LT TCU**: "Heading 150 Visual, ABC"   
+    <span class="hotline">**LT ADC** -> **LT TCU**</span>: "Next, ABC, runway 14L"  
+    <span class="hotline">**LT TCU** -> **LT ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
+    <span class="hotline">**LT ADC** -> **LT TCU**</span>: "Heading 150 Visual unrestricted, ABC"   
 
     **LT ADC**: "ABC, Assigned heading right 150 Visual, Runway 14L, Cleared for Takeoff"  
     **ABC**: "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"  

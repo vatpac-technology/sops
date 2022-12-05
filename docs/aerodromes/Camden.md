@@ -29,7 +29,25 @@ Tower airspace is defined as between `SFC` to `A020`.
 
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
-## VFR Inbound Procedures
+## Departures
+
+All aircraft must depart at `A013` via an extended leg of the circuit.
+Upon reaching 2NM CN, all VFR aircraft should monitor the appropriate area frequency (Sydney Approach). A frequency transfer will not be issued to VFR aircraft.
+Departing IFR aircraft will receive a frequency transfer.
+
+### Depart On Climb
+Some aircraft may request to leave the CTR on climb above `A013`.  If there is no reported traffic above the zone and no conflicting traffic at `A018`, aircraft may be cleared to depart on climb.
+
+!!! example
+    **CN ADC:** "PCN, runway 06, cleared for takeoff"  
+    **PCN:** "Runway 06, cleared for takeoff, PCN"  
+
+    **PCN:** "PCN, request depart on climb"  
+    **CN ADC:** "PCN, depart on climb"
+
+
+## Arrivals
+### VFR Inbound Procedures
 VFR aircraft should track via one of the VFR inbound points and be instructed as below:
 
 | VFR Approach Point | RWYs 06  | RWYs 24 |
@@ -46,6 +64,18 @@ When an aircraft reports at their specified report point (or on downwind), issue
 !!! example
     *"XEM, number 3 Runway 06, follow the C172 on base"*
 
+### Instrument Approaches
+The only instrument approach at YSCN is the RNP W approach.  This approach commences OCTA and enters the Camden control zone.  
+
+SY TCU **will not** clear aircraft for the approach (as it commences OCTA) and will transfer aircraft to **CN ADC** at `SCNWI`.  **CN ADC** shall issue airways clearance on first contact in accordance with the table below.  
+
+| Scenario | Clearance |
+| -------- | --------- |
+| Aircraft is visual & circuit traffic exists | "*Cleared RNP-W approach, not below A018*" |
+| Aircraft not visual or no circuit traffic | "*Cleared RNP-W approach, runway 06/24*" |
+
+!!! note
+    The circuit altitude at YSCN is `A013` and the overfly altitude is `A018`.  Aircraft issued a restriction to descend not below `A018` should be instructed to join the circuit once clear of traffic established in the circuit area.
 
 ## Circuits
 The circuit direction changes depending on time of day and runway being used.
@@ -64,24 +94,6 @@ When an aircraft reports on downwind, indicate their position in the sequence (a
     **JKA:** "JKA, downwind, touch and go"  
     **CN ADC:** "JKA, number 2"
 
-
-## Departures
-
-All aircraft must depart at `A013` via an extended leg of the circuit.
-Upon reaching 2NM CN, all VFR aircraft should monitor the appropriate area frequency (Sydney Approach). A frequency transfer will not be issued to VFR aircraft.
-Departing IFR aircraft will receive a frequency transfer.
-
-### Depart On Climb
-Some aircraft may request to leave the CTR on climb above `A013`.  If there is no reported traffic above the zone and no conflicting traffic at `A018`, aircraft may be cleared to depart on climb.
-
-!!! example
-    **CN ADC:** "PCN, runway 06, cleared for takeoff"  
-    **PCN:** "Runway 06, cleared for takeoff, PCN"  
-
-    **PCN:** "PCN, request depart on climb"  
-    **CN ADC:** "PCN, depart on climb"
-
-
 ## ATIS
 ### Approach Expectation
 
@@ -95,17 +107,17 @@ When there is significant cloud in the YSCN area below `A035`, the APCH field mu
 IFR aircraft must be coordinated with the SY TCU controller responsible for Sydney Departures South (SDS).  **CN SMC** will perform a 'Taxi' call to **SDS**, who in response will issue a squawk code.
 
 !!! example
-    **CN ADC** -> **SY TCU**: "Taxi's, MHQ, Lord Howe, runway 06”  
-    **SY TCU** -> **CN ADC**: “MHQ, squawk 0134"  
-    **CN ADC** -> **SY TCU**: “Squawk 0134, MHQ"  
+    <span class="coldline">**CN ADC** -> **SY TCU**</span>: "Taxi's, MHQ, Lord Howe, runway 06”  
+    <span class="coldline">**SY TCU** -> **CN ADC**</span>: “MHQ, squawk 0134"  
+    <span class="coldline">**CN ADC** -> **SY TCU**</span>: “Squawk 0134, MHQ"  
 
 #### Ready Call
 CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a ready call, SY TCU will issue a traffic statement.
 
 !!! example
-    **CN ADC** -> **SY TCU**: "Ready, MHQ, Runway 06"  
-    **SY TCU** -> **CN ADC**: "MHQ, traffic is MEH, an IFR AC50, tracking SHL RAKSO SBKWI, A035, estimate RAKSO time 35" (or "No Reported IFR Traffic")  
-    **CN ADC** -> **SY TCU**: "Traffic is MEH tracking SHL RAKSO SBKWI A035, RAKSO at 35"  
+    <span class="hotline">**CN ADC** -> **SY TCU**</span>: "Ready, MHQ, Runway 06"  
+    <span class="hotline">**SY TCU** -> **CN ADC**</span>: "MHQ, traffic is MEH, an IFR AC50, tracking SHL RAKSO SBKWI, A035, estimate RAKSO time 35" (or "No Reported IFR Traffic")  
+    <span class="hotline">**CN ADC** -> **SY TCU**</span>: "Traffic is MEH tracking SHL RAKSO SBKWI A035, RAKSO at 35"  
     
     **CN ADC:** "MHQ, traffic is MEH, IFR AC50 tracking SHL RAKSO SBKWI at A035, estimating RAKSO at time 35, runway 06, cleared for takeoff"  
     **MHQ:** "Copy MEH, runway 06, cleared for takeoff, MHQ"
@@ -122,29 +134,22 @@ CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a
 #### Arrival Coordination
 
 ##### Intrument Approaches
-
-SY TCU must advise CN ADC of the aircraft's EAT (Estimated Approach Time) at least 10 minutes prior to the EAT at SCNWI for the RNP W approach.
-
-SY TCU must transfer the aircraft at SCNWI for the RNP W approach.
-Prior to transfer, SY TCU must provide the aircraft with a traffic statement and advise *"identification terminated"*.
-
-CN ADC is responsible for issuing a clearance into the CN CTR and for coordination with SY TCU in the event of a missed approach (or on completion of airwork if applicable).
+SY TCU will coordinate inbound aircraft and transfer them to CN ADC by `SCNWI`. CN ADC is responsible for issuing a clearance into the CN CTR and for coordination with SY TCU in the event of a missed approach (or on completion of airwork if applicable).
 
 SY TCU will **NOT** clear the aircraft for the approach.
 
 !!! example
-    **SY TCU** -> **CN ADC**: “EAT, HRP via RNP W at time 59”  
-    **CN ADC** -> **SY TCU**: “HRP, RNP W”   
+    <span class="coldline">**SY TCU** -> **CN ADC**</span>: “Estimated Approach Time, HRP via RNP W at time 59”  
+    <span class="coldline">**CN ADC** -> **SY TCU**</span>: “HRP, RNP W”   
 
+**CN ADC** must issue an airways clearance to these aircraft on first contact.
 
 ##### Visual Tracking
-
-SY TCU must coordinate the Estimate and approximate inbound track for IFR aircraft. Where possible, pass the Estimate no later than 10 minutes prior.
+SY TCU will coordinate the estimated time of arrival and approximate inbound track for IFR aircraft tracking visually.
 
 !!! example
-    **SY TCU** -> **CN ADC**: “Estimate, TJV via RIC time 02.”  
-    **CN ADC** -> **SY TCU**: “TJV” 
-
+    <span class="coldline">**SY TCU** -> **CN ADC**</span>: “Estimate, TJV via RIC time 02.”  
+    <span class="coldline">**CN ADC** -> **SY TCU**</span>: “TJV” 
 
 #### IFR overflying YSCN
 

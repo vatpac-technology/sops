@@ -20,7 +20,7 @@
 ## Airspace
 
 GOL is responsible for the [BN TCU](../../../terminal/brisbane) when **BN TCU** is offline.  
-GOL is responsible for the [RK TCU](../../../terminal/coral) when **RKA** is offline.  
+KPL is responsible for the [RK TCU](../../../terminal/coral) when **RKA** is offline.  
 INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, **NSA**, and **KPL** when they are offline.  
 
 When **SU ADC** is offline, SU CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by NSA and BUR. Alternatively, NSA may provide a [top-down procedural service](../../../aerodromes/sunshinecoast) if they wish (not recommended), and this must be coordinated to BUR.  
@@ -79,8 +79,8 @@ When **SU ADC** is online, **NSA** owns the Class C airspace from `A045` upwards
 Departures from YBSU in to NSA Class C will be coordinated when ready for departure.
 
 !!! example
-    **SU ADC** -> **NSA**: "Next, BNZ123"  
-    **NSA** -> **SU ADC**: "BNZ123"  
+    <span class="hotline">**SU ADC** -> **NSA**</span>: "Next, BNZ123"  
+    <span class="hotline">**NSA** -> **SU ADC**</span>: "BNZ123"  
 
 The Standard Assignable level from **SU ADC** to NSA is the lower of `A050` or the `RFL`.
 
@@ -90,16 +90,23 @@ NSA will ensure all YBSU arrivals have been assigned a STAR, unless the pilot is
 YBSU arrivals shall be coordinated to **SU ADC** from NSA prior to transfer of jurisdiction.
 
 !!! example
-    **NSA** -> **SU ADC**: "JST731, via ITIDE2W Arrival Runway 31"  
-    **SU ADC** -> **NSA**: "JST731"  
+    <span class="coldline">**NSA** -> **SU ADC**</span>: "JST731, via ITIDE2W Arrival Runway 31"  
+    <span class="coldline">**SU ADC** -> **NSA**</span>: "JST731"
 
-### KPL / RK TCU
+#### Overfliers
+Any aircraft that will enter SU ADC airspace, and not landing at YBSU, must be Heads-up coordinated prior to **5 mins** from the boundary.
 
-The Standard assignable level from KPL to **RK TCU** is `A070`, and assigned the ABVAS STAR or DADBO STAR.
+!!! example
+    **NSA** -> **SU ADC**: "via HOLIS, CXB"  
+    **SU ADC** -> **NSA**: "CXB, A025"
 
-All other aircraft must be voice coordinated to **RK TCU** prior to **20nm** from the boundary.
+### KPL / RKA
 
-The Standard Assignable level from **RK TCU** to KPL is `F150`, and tracking via BUDGI or TARES.
+The Standard assignable level from KPL to **RKA** is `A070`, and assigned the ABVAS STAR or DADBO STAR.
+
+All other aircraft must be voice coordinated to **RKA** prior to **20nm** from the boundary.
+
+The Standard Assignable level from **RKA** to KPL is `F150`, and tracking via BUDGI or TARES.
 ### INL / CFS ADC
 #### Airspace
 When **CFS ADC** is online, **INL** and **MNN** owns the Class C airspace from `A045` upwards, and **CFS ADC** owns the Class D airspace `SFC` to `A045`.
@@ -108,8 +115,8 @@ When **CFS ADC** is online, **INL** and **MNN** owns the Class C airspace from `
 Departures from YCFS in to INL Class C will be coordinated when ready for departure.
 
 !!! example 
-    **CFS ADC** -> **INL**: "Next, BNZ185"  
-    **INL** -> **CFS ADC**: "BNZ185"  
+    <span class="hotline">**CFS ADC** -> **INL**</span>: "Next, BNZ185"  
+    <span class="hotline">**INL** -> **CFS ADC**</span>: "BNZ185"  
 
 The Standard Assignable level from **CFS ADC** to INL is the lower of `A070` or the `RFL`.
 
@@ -118,25 +125,34 @@ The Standard Assignable level from INL to **CFS ADC** is `A080`. Any aircraft th
 YCFS arrivals shall be coordinated to **CFS ADC** from INL prior to transfer of jurisdiction.
 
 !!! example
-    **INL** -> **CFS ADC**: "VET, via GAMBL"  
-    **CFS ADC** -> **INL**: "VET"  
+    <span class="hotline">**INL** -> **CFS ADC**</span>: "via IDNER, VET"  
+    <span class="hotline">**CFS ADC** -> **INL**</span>: "VET"  
+
+#### Overfliers
+Any aircraft that will enter CFS ADC airspace, and not landing at YCFS, must be Heads-up coordinated prior to **5 mins** from the boundary.
+
+!!! example
+    **INL** -> **CFS ADC**: "via CFS, XFC"  
+    **CFS ADC** -> **INL**: "XFC, A040"
+
 ### GOL/DOS/BUR / OK TCU and AMB TCU
 #### Airspace
 By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas, and **AMB TCU** owns the airspace within the **R625A-D** restricted areas, unless stated otherwise by ad-hoc release or NOTAM.
+
 #### Departures
 Departures from YBOK and YAMB in to GOL/DOS/BUR Class C will be coordinated at taxi, and will be requesting a level.
 
 !!! example
-    **OK TCU** -> **DOS**: "Taxi, VLAN48 for YBOK via MATVI, Requesting F140"  
-    **DOS** -> **OK TCU**: "VLAN48, F140"  
-    **OK TCU** -> **DOS**: "F140, VLAN48"  
+    <span class="coldline">**OK TCU** -> **DOS**</span>: "Taxi, VLAN48 for YBOK via MATVI, Requesting F140"  
+    <span class="coldline">**DOS** -> **OK TCU**</span>: "VLAN48, F140"  
+    <span class="coldline">**OK TCU** -> **DOS**</span>: "F140, VLAN48"  
 
 #### Arrivals/Overfliers
 All aircraft transiting from GOL/DOS/BUR to **OK TCU** and **AMB TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **OK TCU** and **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the GOL/DOS/BUR and **WLM TCU** controller agree on.
 
 !!! example
-    **GOL** -> **AMB TCU**: "via HUUGO, PUMA11, will be assigned A080"  
-    **AMB TCU** -> **GOL**: "PUMA11, A080"  
+    <span class="hotline">**GOL** -> **AMB TCU**</span>: "via HUUGO, PUMA11, will be assigned A080"  
+    <span class="hotline">**AMB TCU** -> **GOL**</span>: "PUMA11, A080"  
 
 ### INL/SDY/KPL / TSN(FLD/HWE) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Voice coordinate estimate and level prior to **15 mins** to boundary.

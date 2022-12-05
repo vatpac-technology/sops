@@ -60,8 +60,14 @@ Shall be assigned the **Radar SID**.
 
 ## ATIS
 
-#### ATIS Identifier
-YMML ATIS identifiers only uses letters `N` through to `Y`, due to nearby YMEN using letters `A` through `M` 
+### ATIS Identifier
+YMML ATIS identifiers only uses letters `N` through to `Y`, due to nearby YMEN using letters `A` through `M`.  
+
+### Approach Expectation
+With **Runway 34** in use for arrivals and the cloud base above `A030` but below `A042`, the APCH field shall include:  
+`ACFT ON THE ALPHA STAR EXP INSTR APCH` 
+
+This permits controllers to assign aircraft either the Alpha or Victor STAR and process them for a GLS/RNP approach or a visual approach (depending on traffic flow and pilot preference).
 
 ## Coordination
 ### ML ADC / ML TCU
@@ -75,9 +81,9 @@ c) Assigned `A050`;
 Any aircraft that don't meet these criteria must be coordinated to ML TCU with a "Next" Call
 
 !!! example
-    **ML ADC** -> **ML TCU**: "Next, ABC"  
-    **ML TCU** -> **ML ADC**: "ABC, Track Extended Centreline"  
-    **ML ADC** -> **ML TCU**: "Track Extended Centreline, ABC"  
+    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, ABC, runway 34"  
+    <span class="hotline">**ML TCU** -> **ML ADC**</span>: "ABC, Track Extended Centreline, unrestricted"  
+    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Track Extended Centreline, unrestricted, ABC"  
 
     **ML ADC**: "ABC, Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff"  
     **ABC**: "Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff, ABC"  

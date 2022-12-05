@@ -50,6 +50,33 @@ NTTT - Tahiti Oceanic
 
     Honiara (AGGG) and Nauru (ANAU) FIR ATS are provided by Brisbane Oceanic (Tasman).  
 
+## Procedures
+
+### Transition Levels
+
+| Name  | 	Transition Altitude  | 	Transition Level   |
+| ----------------- | --------------- | ----------------- |
+| KZAK - Oakland Oceanic |  18,000ft | FL180 |
+| YBBB - Brisbane Oceanic  | 10,000ft  | FL110  | 
+| AGGG - Honiara FIR	 |  11,000ft	 |  FL120 | 
+| ANAU - Nauru FIR |  11,000ft	 |  FL120 |  
+| YMMM - Melbourne Oceanic |  10,000ft | FL110  | 
+| NZZO - Auckland Oceanic  |  13,000ft |  FL150 |  
+| NZCM - McMurdo Oceanic  |  19,500ft |  FL200 |
+| NFFF - Nadi Oceanic  | 11,000ft  |  FL130 | 
+| NTTT - Tahiti Oceanic  |  9,000ft |  By ATC |
+
+!!! Note 
+    Standard Altimeter setting (29.92 inHg/1013 hPa) should be used when more than 100 nm from McMurdo.
+
+!!! note
+    Auckland Oceanic airspace does not have a transition layer, except within the Rarotonga, Samoa and Norfolk Island QNH zones.  
+    
+    Aircraft within Auckland Oceanic airspace should use the standard altimeter setting of 1013 hPa unless within the aforementioned QNH zones.
+
+!!! tip
+    Remember that some cruising levels above the transition level are unavailable when the Area QNH is below 1013.  Refer to `AIP ENR 1.7` for more information.
+    
 ## Currency Requirements
 
 - A Participating Organisation must require a permitted controller to log 1 hour on a permitted oceanic position, within the previous 3 months, for them to be considered active, and

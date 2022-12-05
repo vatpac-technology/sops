@@ -40,14 +40,14 @@ Refer to [Cairns TCU Airspace Division](../../../terminal/cairns/#airspace-divis
 ### TBP / TL TCU
 Reserved.
 
-### KPL / MK TCU
-The Standard assignable level from SWY to **MK TCU** is `A070`, and assigned the DAGSI STAR or WELKE STAR.
+### SWY / MKA
+The Standard assignable level from SWY to **MKA** is `A070`, and assigned the DAGSI STAR or WELKE STAR.
 
-All other aircraft must be voice coordinated to **MK TCU** prior to **20nm** from the boundary.
+All other aircraft must be voice coordinated to **MKA** prior to **20nm** from the boundary.
 
-The Standard Assignable level from **MK TCU** to KPL is `F150`, and tracking via CLIFT or POONA.
+The Standard Assignable level from **MKA** to KPL is `F150`, and tracking via CLIFT or POONA.
 #### Airspace
-When **MK TCU** is online, they own up to `F150` in the **shaded** are shown below:
+When **MKA** is online, they own up to `F150` in the **shaded** are shown below:
 <figure markdown>
 ![Mackay TCU Airspace](img/MKAPP.png){ width="800" }
   <figcaption>Mackay TCU Airspace</figcaption>
@@ -68,18 +68,25 @@ TBP may make changes to CFL up to the boundary with KEN for the purposes of issu
 Departures from YBHM in to SWY Class C will be coordinated when ready for departure.  
 
 !!! example
-    **HM ADC** -> **SWY**: "Next, QFA797"  
-    **SWY** -> **HM ADC**: "QFA797"  
+    <span class="hotline">**HM ADC** -> **SWY**</span>: "Next, QFA797"  
+    <span class="hotline">**SWY** -> **HM ADC**</span>: "QFA797"  
 
 The Standard Assignable level from HM ADC to SWY is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
 #### Arrivals
 SWY must coordinate the sequence to HM ADC prior to **5 mins** from the boundary.
 
 !!! example
-    **SWY** -> **HM ADC**: "New Sequence of 2. Via OPOSI for RNP U RWY 32, JST848, Number 1. Via SWIFT, UTY551, Number 2”  
-    **HM ADC** -> **SWY**: "JST848, Number 1. UTY551, Number 2"  
+    <span class="coldline">**SWY** -> **HM ADC**</span>: "New Sequence of 2. Via OPOSI for RNP U RWY 32, JST848, Number 1. Via SWIFT, UTY551, Number 2”  
+    <span class="coldline">**HM ADC** -> **SWY**</span>: "JST848, Number 1. UTY551, Number 2"  
 
 The Standard Assignable level from KEN(SWY) to HM ADC is `A060`, any other level must be prior coordinated.
+
+#### Overfliers
+Any aircraft that will enter HM ADC airspace, and not landing at YBHM, must be Heads-up coordinated prior to **5 mins** from the boundary.
+
+!!! example
+    **SWY** -> **HM ADC**: "via OVRON, KNV"  
+    **HM ADC** -> **SWY**: "KNV, A030"
 
 ### TBP/SWY / TSN(FLD) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Voice coordinate estimate and level prior to **15 mins** to boundary.

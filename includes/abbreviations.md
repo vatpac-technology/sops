@@ -22,6 +22,7 @@
 *[TCU]: Terminal Control Unit (Approach Controller)
 *[DIR]: Director (Sydney)
 *[IVA]: Independent Visual Approach
+*[IAP]: Instrument Approach
 *[SIS]: Surveillance Information Service
 *[CFL]: Cleared Flight Level
 *[FDR]: Flight Data Record
@@ -75,7 +76,7 @@
 *[SAN]: Sydney Approach North
 *[SAS]: Sydney Approach South
 *[SDN]: Sydney Departures North
-*[SDN]: Sydney Departures South
+*[SDS]: Sydney Departures South
 *[SFW]: Sydney Director West
 *[SFE]: Sydney Director East
 *[ARL]: Brisbane (Armidale) Centre

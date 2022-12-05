@@ -120,7 +120,7 @@ Due to the low level of CTA above Avalon, aircraft conducting approaches will co
 Departing aircraft generally require an airways clearance on the ground, due to the low level of CTA.  Aircraft should report taxiing to the TCU controller, who will issue a squawk code and traffic statement.  These aircraft should be instructed to report at the holding point, where airways clearance will be issued.
 
 !!! example
-    **AM318**: "Melbourne Approach, AM318, King Air, POB 2, IFR, taxiing YMAV runway 18 for YMEN"
+    **AM318**: "Melbourne Approach, AM318, King Air, POB 2, IFR, taxiing YMAV runway 18 for YMEN"  
     **ML TCU**: "AM318, Melbourne Approach, squawk 3542, no reported IFR traffic, report ready at the holding point for airways clearance"  
     **AM318**: "Squawk 3542, wilco, AM318"  
     
@@ -197,8 +197,8 @@ Voiceless coordination is in place from ML TCU to all surrounding ENR sectors (*
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
 !!! example
-    **ML TCU** -> **YWE**: "QFA420, with your concurrence, will be assigned F190, for my separation with QLK52D"  
-    **YWE** -> **ML TCU**: "QFA420, concur F190"  
+    <span class="hotline">**ML TCU** -> **YWE**</span>: "QFA420, with your concurrence, will be assigned F190, for my separation with QLK52D"  
+    <span class="hotline">**YWE** -> **ML TCU**</span>: "QFA420, concur F190"  
 
 #### Arrivals
 The Standard assignable level from ENR to ML TCU is `A090`. All other levels must be prior coordinated
@@ -216,12 +216,9 @@ Any aircraft that don't meet these criteria must be coordinated to ML TCU with a
 "Next" Coordination is a procedure where the ML ADC controller gives a heads-up to the ML TCU controller about an impending departure. The ML TCU controller will respond by assigning any relevant departure instructions (i.e. assigned heading, amended altitude, visual turn) to the aircraft, for the ML ADC controller to pass on with their takeoff clearance.
 
 !!! example
-    **ML ADC** -> **ML TCU**: "Next, CYF, runway 34"  
-    **ML TCU** -> **ML ADC**: "CYF, track extended centreline"  
-    **ML ADC** -> **ML TCU**: "Track extended centreline, CYF"  
-
-    **ML ADC:** "CYF, track extended centreline 340 degrees, Runway 34, cleared for takeoff"  
-    **CYF:** "Track extended centreline 340 degrees, Runway 34, cleared for takeoff, CYF"  
+    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, CYF, runway 34"  
+    <span class="hotline">**ML TCU** -> **ML ADC**</span>: "CYF, track extended centreline, unrestricted"  
+    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Track extended centreline, unrestricted, CYF"  
     `AIP GEN 3.4`
 
 ### ML TCU / EN ADC
@@ -230,16 +227,15 @@ Any aircraft that don't meet these criteria must be coordinated to ML TCU with a
 Aircraft departing YMEN in to ML TCU Class C will be coordinated from **EN ADC** at Taxi.
 
 !!! example
-    **EN ADC** -> **ML TCU**: "Taxi, AM322 for YBDG via ML, Runway 17"  
-    **ML TCU** -> **EN ADC**: "AM322, A030"  
-    **EN ADC** -> **ML TCU**: "A030, AM322" 
+    <span class="coldline">**EN ADC** -> **ML TCU**</span>: "Taxi, AM322 for YBDG via ML, Runway 17"  
+    <span class="coldline">**ML TCU** -> **EN ADC**</span>: "AM322"  
     `AIP GEN 3.4`
 #### Arrivals
 ML TCU must coordinate the sequence information to **EN ADC** prior to transfer of jurisdiction. ML TCU is responsible for clearing aircraft for the approach prior to handoff to **EN ADC**.
 
 !!! example
-    **ML TCU** -> **EN ADC**: "New sequence of 1, CJI, via MONTY, Number 1"  
-    **EN ADC** -> **ML TCU**: "CJI, Number 1"  
+    <span class="coldline">**ML TCU** -> **EN ADC**</span>: "New sequence of 1, CJI, via MONTY, Number 1"  
+    <span class="coldline">**EN ADC** -> **ML TCU**</span>: "CJI, Number 1"  
     `AIP GEN 3.4`
 ### ML TCU / AV ADC
 #### Departures
@@ -247,23 +243,23 @@ ML TCU must coordinate the sequence information to **EN ADC** prior to transfer 
 Aircraft departing YMAV in to ML TCU CTA will be coordinated from **AV ADC** at Taxi.
 
 !!! example
-    **AV ADC** -> **ML TCU**: "Taxi, JST604 for YSSY, Runway 18, JUSTY2 departure"  
-    **ML TCU** -> **AV ADC**: "JST604"
+    <span class="coldline">**AV ADC** -> **ML TCU**</span>: "Taxi, JST604 for YSSY, Runway 18, JUSTY2 departure"  
+    <span class="coldline">**ML TCU** -> **AV ADC**</span>: "JST604"  
     `AIP GEN 3.4`
 
 When the aircraft is ready for takeoff, **AV ADC** will give a "Next" call, where ML TCU will provide the cleared level, and any additional departure instructions.
 
 !!! example
-    **AV ADC** -> **ML TCU**: "Next, JST604"  
-    **ML TCU** -> **AV ADC**: "JST604, A040"  
-    **AV ADC** -> **ML TCU**: "A040, JST604"
+    <span class="hotline">**AV ADC** -> **ML TCU**</span>: "Next, JST604"  
+    <span class="hotline">**ML TCU** -> **AV ADC**</span>: "JST604, A040"  
+    <span class="hotline">**AV ADC** -> **ML TCU**</span>: "A040, JST604"  
     `AIP GEN 3.4`
 #### Arrivals
 ML TCU must coordinate the sequence information to **AV ADC** prior to transfer of jurisdiction.
 
 !!! example
-    **ML TCU** -> **AV ADC**: "JST612, via TEMPL, Number 1"  
-    **AV ADC** -> **ML TCU**: "JST612, Number 1"  
+    <span class="coldline">**ML TCU** -> **AV ADC**</span>: "JST612, via TEMPL, Number 1"  
+    <span class="coldline">**AV ADC** -> **ML TCU**</span>: "JST612, Number 1"  
     `AIP GEN 3.4`
 
 ### ML TCU / MB ADC
@@ -272,25 +268,40 @@ ML TCU must coordinate the sequence information to **AV ADC** prior to transfer 
 Aircraft departing YMMB in to ML TCU CTA will be coordinated from **MB ADC** at Taxi.
 
 !!! example
-    **MB ADC** -> **ML TCU**: "Taxi, SGE for YBLT via ML"  
-    **ML TCU** -> **MB ADC**: "SGE for YBLT via ML, Squawk 3601"  
-    **MB ADC** -> **ML TCU**: "3601, SGE"
+    <span class="coldline">**MB ADC** -> **ML TCU**</span>: "Taxi, SGE for YBLT via ML"  
+    <span class="coldline">**ML TCU** -> **MB ADC**</span>: "SGE for YBLT via ML, Squawk 3601"  
+    <span class="coldline">**MB ADC** -> **ML TCU**</span>: "3601, SGE"  
     `AIP GEN 3.4`
 
 When the aircraft is ready for takeoff, **MB ADC** will give a "Next" call, where ML TCU will provide the cleared level.
 
 !!! example
-    **MB ADC** -> **ML TCU**: "Next, SGE"  
-    **ML TCU** -> **MB ADC**: "SGE, A060"  
-    **MB ADC** -> **ML TCU**: "A060, SGE"
+    <span class="hotline">**MB ADC** -> **ML TCU**</span>: "Next, SGE"  
+    <span class="hotline">**ML TCU** -> **MB ADC**</span>: "SGE, A060"  
+    <span class="hotline">**MB ADC** -> **ML TCU**</span>: "A060, SGE"  
     `AIP GEN 3.4`
 
 !!! note
     ML TCU will not receive a taxi call on aircraft departing in to Class G airspace, including aircraft that have planned to leave and re-enter controlled airspace (for example, aircraft planned at or above A050 on the MB-AV track). In this instance, ML TCU is only required to readback the callsign at the "Next" call. ML TCU will then give airways clearance to the aircraft on first contact if required.
 #### Arrivals
-ML TCU Must coordinate the sequence information to **MB ADC** prior to transfer of jurisdiction.
+ML TCU Must coordinate the sequence information to **MB ADC** prior to transfer of jurisdiction. If an instrument approach is planned, include the estimated approach time.
 
+!!! tip
+    Ensure the aircraft's FDR is up-to-date in order to give **MB ADC** maximum situational awareness of the traffic picture. (eg. if the aircraft is doing the RNP approach, ensure the FDR has been rerouted via the appropriate points)
+
+##### Visual Tracking
 !!! example
-    **ML TCU** -> **MB ADC**: "New sequence of 1, OXA, via MMBSA, Number 1"  
-    **MB ADC** -> **ML TCU**: "OXA, Number 1"  
-    `AIP GEN 3.4`
+    <span class="coldline">**ML TCU** -> **MB ADC**</span>: "Estimate, OXA via MONTY time 02."  
+    <span class="coldline">**MB ADC** -> **ML TCU**</span>: "OXA"
+
+##### IAP Tracking
+!!! example
+    <span class="coldline">**ML TCU** -> **MB ADC**</span>: "Estimated approach time, AM318 via RNP at time 59"  
+    <span class="coldline">**MB ADC** -> **ML TCU**</span>: "Via RNP, AM318"
+
+Given that the instrument approach procedure will terminate inside another controller's airspace, TCU controllers must obtain a clearance from MB ADC prior to issuing an approach clearance to an aircraft.  
+
+!!! example 
+    <span class="hotline">**ML TCU** -> **MB ADC**</span>: "Request clearance for final, AM318"  
+    <span class="hotline">**MB ADC** -> **ML TCU**</span>: "AM318 cleared RNP 35R"  
+    <span class="hotline">**ML TCU** -> **MB ADC**</span>: "Cleared RNP 35R, AM318"
