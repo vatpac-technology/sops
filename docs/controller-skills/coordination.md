@@ -37,7 +37,6 @@ As a receiving controller, answer a coordination call by stating the name of **y
 
 ## Types of Coordination
 ### Heads-up
-
 Heads-up Coordination is the act of giving the next sector a "heads-up" about an aircraft about to enter their airspace. The format is as follows:
 
 Controlling Sector -> Receiving Sector: "(Position), (Callsign)"  
@@ -59,19 +58,17 @@ Once this coordination is completed, the aircraft's level and route is **locked 
     In situations where Heads-Up Coordination is required, the best time to do it is when the aircraft first calls you. There's no need to wait until half a mile before when its due, if you can get it done sooner.
 
 ### Voiceless
-
 Certain routes, areas, levels, airspace, etc, will have voiceless coordination agreements, which is where Heads-Up Coordination is not required. These routes may also have change parameters, where no changes are permitted within a certain distance of the sector boundary without prior coordination.
 
 ### Boundary
-
 Where an aircraft will deviate laterally within 2.5nm, or vertically within 500ft of another sector's airspace, boundary coordination must be completed so they are aware of the aircraft, and can nominate any restrictions. The format is as follows:
 
 Controlling Sector -> Boundary Sector: "For Ident, (Position), (Callsign), (Details as required)"  
 Boundary Sector -> Controlling Sector: "(Callsign), (Restriction)"
 
 !!! example
-    <span class="hotline">**BIK** -> **CAE**</span>: "For Ident, overhead CB, QFA12, do you have any restrictions on descent?"  
-    <span class="hotline">**CAE** -> **BIK**</span>: "QFA12, No restrictions on descent"  
+    <span class="hotline">**BIK** -> **CBE**</span>: "For Ident, overhead CB, QFA12, do you have any restrictions on descent?"  
+    <span class="hotline">**CBE** -> **BIK**</span>: "QFA12, No restrictions on descent"  
 
 The Boundary Sector may omit the restriction and readback the callsign only. This will be taken as the Boundary Sector having **no vertical or lateral restrictions**.
 
@@ -202,6 +199,3 @@ Upon receipt of a handoff, once the aircraft is established **2.5nm** within you
     KPL will place *"RKA\NR"* in the label until 2.5nm clear of their airspace, to record that the coordination has been completed.
 
 For more information, refer to individual local instructions.
-
-
-
