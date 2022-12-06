@@ -54,14 +54,6 @@ Circuits are to be flown at `A010`.
 ## Coordination
 ### MB ADC / ML TCU
 #### Departures
-
-Aircraft departing YMMB in to ML TCU Class C will be coordinated to the relevant ML TCU controller at Taxi.
-
-!!! example
-    <span class="coldline">**MB ADC** -> **ML TCU**</span>: "Taxi, SGE for YBLT via ML"  
-    <span class="coldline">**ML TCU** -> **MB ADC**</span>: "SGE for YBLT via ML, Squawk 3601"  
-    <span class="coldline">**MB ADC** -> **ML TCU**</span>: "3601, SGE"
-
 All IFR departures in to ML TCU airspace (Class C and G), require a "Next" call to ML TCU, where ML TCU will provide the cleared level.
 
 !!! example

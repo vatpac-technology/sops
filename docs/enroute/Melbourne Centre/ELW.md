@@ -99,12 +99,13 @@ Departures from YMAY in to BLA Class C will be coordinated when ready for depart
 The Standard Assignable level from **AY ADC** to BLA is the lower of `A070` or the `RFL`.
 
 #### Arrivals
-The Standard Assignable level from BLA to **AY ADC** is `A080`. Any aircraft that will not be assigned the Standard Assignable level must have that level concurred by **AY ADC**.
-YMAY arrivals shall be coordinated to **AY ADC** from BLA prior to transfer of jurisdiction.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enrtcu-class-d-twr). BLA must coordinate the sequence prior to **5 mins** from the boundary
 
 !!! example
     <span class="coldline">**BLA** -> **AY ADC**</span>: "QLK38, via VEGRU1 arrival"  
     <span class="coldline">**AY ADC** -> **BLA**</span>: "QLK38" 
+
+The Standard Assignable level from BLA to **AY ADC** is `A080`.
 
 #### Overfliers
 Any aircraft that will enter AY ADC airspace, and not landing at YMAY, must be Heads-up coordinated prior to **5 mins** from the boundary.
