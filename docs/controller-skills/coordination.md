@@ -4,6 +4,8 @@ title: Coordination
 
 --8<-- "includes/abbreviations.md"
 
+Coordination is an underutilised tool in VATPAC airspace, primarily due to how difficult it was to do it back in the Euroscope and VRC days. Now, (almost) all controllers are using vatSys, and voice coordination can be done in seconds with the touch of a button, using the Hotlines and Coldlines. Coordination helps controllers stay aware of aircraft that are about to enter their jurisdiction, and ensure they will operate in a predictable manner, which allows for easier planning of sequencing and separation.
+
 Coordination requirements are often very location-specific, however this page outlines the general guidelines to coordination, which are supplemented by Local Instructions.
 
 [MATS Chapter 6](https://www.airservicesaustralia.com/mats/docs/nos-saf-2000.pdf) goes in to much more detail about coordination principles, phraseology, and situations. It is well above the level required for VATSIM, but feel free to read up on it if you want to extend your learning.
@@ -28,8 +30,7 @@ As a receiving controller, answer a coordination call by stating the name of **y
     <span class="hotline">**BIK** -> **SAN**</span>: \***DING**\*  
     <span class="hotline">**SAN** -> **BIK**</span>: "Sydney Approach"  
     <span class="hotline">**BIK** -> **SAN**</span>: "Via RIVET, QFA541, request heading 030 due weather"  
-    <span class="hotline">**SAN** -> **BIK**</span>: "Concur, QFA541 heading 030"  
-    <span class="hotline">**BIK** -> **SAN**</span>: "QFA541, heading 030, thanks"  
+    <span class="hotline">**SAN** -> **BIK**</span>: "QFA541, Concur heading 030"
 
 !!! tip
     Remember that coordination items must be read back in the same way a pilot must read back an instruction from ATC.
@@ -129,7 +130,7 @@ Source: [Annotations](../../controller-skills/annotations)
     It is important to remember that this coordination is still a negotiation. You are free to reject any proposition that doesn't work for you and your traffic picture. And if there is a particular restriction to nominate, it is always best to take the aircraft on frequency.
 
 ## Rules
-## General
+### General
 Coordination must be done on a **point-to-point** basis. Meaning, you can only coordinate with the sector which the aircraft is coming from, or going to, no skipping! This is important to remember, for example, if you are controlling ELW, and you would like to pass an amended route to someone on the ground at YMML. Whilst that may be no issue for ELW, ML SMC and ML ADC, it might not work for ML APP. ML APP would be the sector which the aircraft is coming from, so ELW must talk to them, and it is the responsibility of ML APP to work backwards down the line on a point-to-point basis.
 
 Ensure no coordination is ambiguous in its meaning. Not all coordination can be straight out of the phraseology books, and the reality is, not everyone controlling the airspace is going to be 100% proficient and by the books. When using "plain english", ensure there is no ambiguity, and the message is fully understood by both parties.
