@@ -12,7 +12,7 @@
 | Williamtown ADC    | Willy Tower  | 118.300         | WLM_TWR        |
 | Williamtown SMC    | Willy Ground  | 121.800         | WLM_GND        |
 | Williamtown ACD    | Willy Delivery  | 130.350         | WLM_DEL       |
-| Williamtown ATIS    | Williamtown ATIS  | 134.450         | YWLM_ATIS       |
+| Williamtown ATIS    |   | 134.450         | YWLM_ATIS       |
 
 ## Airspace
 ### Default
