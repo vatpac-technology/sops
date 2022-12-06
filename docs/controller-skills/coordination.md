@@ -4,6 +4,8 @@ title: Coordination
 
 --8<-- "includes/abbreviations.md"
 
+Coordination is an underutilised tool in VATPAC airspace, primarily due to how difficult it was to do it back in the Euroscope and VRC days. Now, (almost) all controllers are using vatSys, and voice coordination can be done in seconds with the touch of a button, using the Hotlines and Coldlines. Coordination helps controllers stay aware of aircraft that are about to enter their jurisdiction, and ensure they will operate in a predictable manner, which allows for easier planning of sequencing and separation.
+
 Coordination requirements are often very location-specific, however this page outlines the general guidelines to coordination, which are supplemented by Local Instructions.
 
 [MATS Chapter 6](https://www.airservicesaustralia.com/mats/docs/nos-saf-2000.pdf) goes in to much more detail about coordination principles, phraseology, and situations. It is well above the level required for VATSIM, but feel free to read up on it if you want to extend your learning.
@@ -28,15 +30,13 @@ As a receiving controller, answer a coordination call by stating the name of **y
     <span class="hotline">**BIK** -> **SAN**</span>: \***DING**\*  
     <span class="hotline">**SAN** -> **BIK**</span>: "Sydney Approach"  
     <span class="hotline">**BIK** -> **SAN**</span>: "Via RIVET, QFA541, request heading 030 due weather"  
-    <span class="hotline">**SAN** -> **BIK**</span>: "Concur, QFA541 heading 030"  
-    <span class="hotline">**BIK** -> **SAN**</span>: "QFA541, heading 030, thanks"  
+    <span class="hotline">**SAN** -> **BIK**</span>: "QFA541, Concur heading 030"
 
 !!! tip
     Remember that coordination items must be read back in the same way a pilot must read back an instruction from ATC.
 
 ## Types of Coordination
 ### Heads-up
-
 Heads-up Coordination is the act of giving the next sector a "heads-up" about an aircraft about to enter their airspace. The format is as follows:
 
 Controlling Sector -> Receiving Sector: "(Position), (Callsign)"  
@@ -58,19 +58,17 @@ Once this coordination is completed, the aircraft's level and route is **locked 
     In situations where Heads-Up Coordination is required, the best time to do it is when the aircraft first calls you. There's no need to wait until half a mile before when its due, if you can get it done sooner.
 
 ### Voiceless
-
 Certain routes, areas, levels, airspace, etc, will have voiceless coordination agreements, which is where Heads-Up Coordination is not required. These routes may also have change parameters, where no changes are permitted within a certain distance of the sector boundary without prior coordination.
 
 ### Boundary
-
 Where an aircraft will deviate laterally within 2.5nm, or vertically within 500ft of another sector's airspace, boundary coordination must be completed so they are aware of the aircraft, and can nominate any restrictions. The format is as follows:
 
 Controlling Sector -> Boundary Sector: "For Ident, (Position), (Callsign), (Details as required)"  
 Boundary Sector -> Controlling Sector: "(Callsign), (Restriction)"
 
 !!! example
-    <span class="hotline">**BIK** -> **CAE**</span>: "For Ident, overhead CB, QFA12, do you have any restrictions on descent?"  
-    <span class="hotline">**CAE** -> **BIK**</span>: "QFA12, No restrictions on descent"  
+    <span class="hotline">**BIK** -> **CBE**</span>: "For Ident, overhead CB, QFA12, do you have any restrictions on descent?"  
+    <span class="hotline">**CBE** -> **BIK**</span>: "QFA12, No restrictions on descent"  
 
 The Boundary Sector may omit the restriction and readback the callsign only. This will be taken as the Boundary Sector having **no vertical or lateral restrictions**.
 
@@ -129,7 +127,7 @@ Source: [Annotations](../../controller-skills/annotations)
     It is important to remember that this coordination is still a negotiation. You are free to reject any proposition that doesn't work for you and your traffic picture. And if there is a particular restriction to nominate, it is always best to take the aircraft on frequency.
 
 ## Rules
-## General
+### General
 Coordination must be done on a **point-to-point** basis. Meaning, you can only coordinate with the sector which the aircraft is coming from, or going to, no skipping! This is important to remember, for example, if you are controlling ELW, and you would like to pass an amended route to someone on the ground at YMML. Whilst that may be no issue for ELW, ML SMC and ML ADC, it might not work for ML APP. ML APP would be the sector which the aircraft is coming from, so ELW must talk to them, and it is the responsibility of ML APP to work backwards down the line on a point-to-point basis.
 
 Ensure no coordination is ambiguous in its meaning. Not all coordination can be straight out of the phraseology books, and the reality is, not everyone controlling the airspace is going to be 100% proficient and by the books. When using "plain english", ensure there is no ambiguity, and the message is fully understood by both parties.
@@ -201,6 +199,3 @@ Upon receipt of a handoff, once the aircraft is established **2.5nm** within you
     KPL will place *"RKA\NR"* in the label until 2.5nm clear of their airspace, to record that the coordination has been completed.
 
 For more information, refer to individual local instructions.
-
-
-

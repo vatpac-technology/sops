@@ -91,8 +91,8 @@ When **CFS ADC** is online, **INL** and **MNN** owns the Class C airspace from A
 Departures from YCFS in to MNN Class C will be coordinated when ready for departure.
 
 !!! example
-    <span class="hotline">**CFS ADC** -> **MNN**</span>: "Next, CFH21"  
-    <span class="hotline">**MNN** -> **CFS ADC**</span>: "CFH21"  
+    <span class="coldline">**CFS ADC** -> **MNN**</span>: "Next, CFH21"  
+    <span class="coldline">**MNN** -> **CFS ADC**</span>: "CFH21"  
 
 The Standard Assignable level from **CFS ADC** to MNN is the lower of `A070` or the `RFL`.
 
@@ -111,19 +111,18 @@ Any aircraft that will enter CFS ADC airspace, and not landing at YCFS, must be 
     **MNN** -> **CFS ADC**: "via CFS, GNP"  
     **CFS ADC** -> **MNN**: "GNP, A030"
 
-### CNK/MND/MNN / WLM TCU
+### ARL (All) / WLM TCU
 #### Airspace
-By default, **WLM TCU** owns the airspace within the **R578A-G** restricted areas, unless stated otherwise by ad-hoc release or NOTAM.
+By default, **WLM TCU** owns the airspace within the **R578A-G** restricted areas, unless stated otherwise by ad-hoc release or NOTAM. It is the responsibility of the **WLM TCU** controller to inform ARL(All) of what airspace they are assuming.
 #### Departures
-Departures from YWLM in to CNK/MND/MNN Class C will be coordinated at taxi, and will be requesting a level.
+Departures from **WLM TCU** in to ARL(All) Class C will be heads-up coordinated.
 
 !!! example
-    <span class="coldline">**WLM TCU** -> **MNN**</span>: "Taxi, WGTL33 for YPTN via BUBRI1A departure, Requesting F380"  
+    <span class="coldline">**WLM TCU** -> **MNN**</span>: "Departed YWLM, WGTL33, will be assigned F120"  
     <span class="coldline">**MNN** -> **WLM TCU**</span>: "WGTL33, F120"  
-    <span class="coldline">**WLM TCU** -> **MNN**</span>: "F120, WGTL33"  
 
 #### Arrivals/Overfliers
-All aircraft transiting from CNK/MND/MNN to **WLM TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **WLM TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the CNK/MND/MNN and **WLM TCU** controller agree on.
+All aircraft transiting from ARL(All) to **WLM TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **WLM TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the ARL(All) and **WLM TCU** controller agree on.
 
 !!! example
     <span class="coldline">**MNN** -> **WLM TCU**</span>: "via SANAD, JST458, will be assigned F130"  
@@ -131,6 +130,16 @@ All aircraft transiting from CNK/MND/MNN to **WLM TCU** must be heads-up coordin
 
 !!! tip
     To keep it simple and safe, coordinate departures at the Lowest Assignable level over the TCU (eg, with standard WLM TCU configuration, `F130`). You may coordinate other levels with WLM TCU if required for separation purposes.
+
+#### R574 Release
+To put it bluntly, the R574 Restricted Area is quite large.
+
+<figure markdown>
+![R574 Restricted Area](../../military/img/r574.png){ width="700" }
+  <figcaption>R574 Restricted Area</figcaption>
+</figure>
+
+It also occupies a lot of airspace that would commonly be used by YSSY arrivals and departures. If **WLM TCU** is taking ownership of this airspace, it is good practice to negotiate an airspace release, whether that be a lateral or vertical portion of airspace (or a combination), to enable them to facilitate YSSY arrivals and departures with minimal impact.
 
 ### OCN/MNN / TSN/HWE (Oceanic)
 As per [Standard coordination procedures](../../controller-skills/coordination/#enr-oceanic), Voice coordinate estimate and level prior to **15 mins** to boundary.

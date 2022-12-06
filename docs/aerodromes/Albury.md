@@ -22,7 +22,7 @@
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
 ## Surveillance
-AY TWR is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels in the AY CTR.  
+AY ADC is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels in the AY CTR.  
 For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm of the aerodrome. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
 
 ## Coordination
@@ -35,7 +35,7 @@ A 'Next' call is made for all aircraft when they are next to depart. AY ADC must
 
 The Standard Assignable level from AY TWR to ELW(BLA) is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
 ### Arrivals
-ELW(BLA) will coordinate the sequence to AY TWR.
+ELW(BLA) will coordinate the sequence to AY ADC.
 
 !!! example
     <span class="coldline">**BLA** -> **AY ADC**</span>: "New Sequence of 2. Via ARRAN1 Arrival, RXA6783, Number 1. Via VEGRU1 Arrival, QLK194, Number 2”  
