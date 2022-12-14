@@ -19,7 +19,7 @@
 ## Airspace
 
 <figure markdown>
-![Yarrowee Airspace](../assets/YWEENR.png){ width="700" }
+![Yarrowee Airspace](../assets/ywe.png){ width="700" }
   <figcaption>Yarrowee Airspace</figcaption>
 </figure>
 

@@ -23,7 +23,7 @@
 When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME AS reverts to Class G, and AS CTR (Class C `F125` to `F245`) within 80 DME AS reverts to Class E, and both are administered by ASP. Alternatively, ASP may provide a [top-down procedural service](../../../aerodromes/Alice) if they wish.
 
 <figure markdown>
-![Alice Springs Airspace](../assets/ASPENR.png){ width="700" }
+![Alice Springs Airspace](../assets/asp.png){ width="700" }
   <figcaption>Alice Springs Airspace</figcaption>
 </figure>
 

@@ -21,7 +21,7 @@
 ISA is responsible for **ARA**, **STR**, **WEG**, and **CVN** when they are offline.  
 
 <figure markdown>
-![Mt Isa Airspace](../assets/ISAENR.png){ width="700" }
+![Mt Isa Airspace](../assets/isa.png){ width="700" }
   <figcaption>Mt Isa Airspace</figcaption>
 </figure>
 
@@ -34,9 +34,21 @@ ISA is responsible for **ARA**, **STR**, **WEG**, and **CVN** when they are offl
 ISA is purely Classes A, E and G of airspace. [Standard seperation procedures](../../controller-skills/SepStandards.md/#enroute) apply.
 ## Coordination
 
-### ISA (All) / ENR (Including WAAF & AYPM)
-
+### ISA (All) / ENR
 As per [Standard coordination procedures](../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 ### ARA / COL (Oceanic)
-
 As per [Standard coordination procedures](../../controller-skills/coordination/#enr-oceanic), Voice coordinate estimate and level prior to **15 mins** to boundary.
+
+### ARA / International (WAAF & AYPM)
+Coordination to International units must be done prior to **15 mins** from the boundary in the following format:
+
+- *"Estimate"*
+- Callsign
+- Boundary Point
+- Estimate
+- Level
+- *"On climb"*/*"On descent*" (if applicable)
+
+!!! example
+    <span class="coldline">**ARA** -> **WAAF CTR**</span>: "Estimate, CEB40, TOREX time 59, F360"  
+    <span class="coldline">**WAAF CTR** -> **ARA**</span>: "CEB40, F360"

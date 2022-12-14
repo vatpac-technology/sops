@@ -25,6 +25,11 @@ When **HM ADC** is offline, HM CTR (Class D `SFC` to `A045`) reverts to Class G,
 
 Whilst the **MKA** controller is expected to provide a [top-down service](../../../aerodromes/Mackay) to YBMK when **MK ADC** is offline, this is not expected of a SWY controller when both **MKA** and **MK ADC** are offline. If electing not to provide a top-down service to YBMK, the RK CTR Class D is reclassified to Class G `SFC` to `A007`, and Class E `A007` to `A045`.
 
+<figure markdown>
+![Kennedy Airspace](../assets/ken.png){ width="700" }
+  <figcaption>Kennedy Airspace</figcaption>
+</figure>
+
 ## Sector Responsibilities
 All Subsectors are responsible for issuing STAR Clearances for YBMK, YBTL and YBCS on first contact.
 ## Coordination
