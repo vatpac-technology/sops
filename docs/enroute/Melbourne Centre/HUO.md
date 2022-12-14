@@ -10,7 +10,7 @@
 | Huon | Melbourne Centre | 122.600 | ML-HUO_CTR |
 
 <figure markdown>
-![Huon Airspace](../assets/HUOENR.png){ width="700" }
+![Huon Airspace](../assets/huo.png){ width="700" }
   <figcaption>Huon Airspace</figcaption>
 </figure>
 

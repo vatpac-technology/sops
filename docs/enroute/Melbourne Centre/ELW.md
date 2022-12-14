@@ -18,7 +18,7 @@ When **CB TCU** is offline, CB TCU (Class C `SFC` to `F245`) reverts to Class G,
 When **AY ADC** is offline, AY CTR (Class D and C `SFC` to `A085`) reverts to Class G, and is administered by BLA. Alternatively, BLA may provide a [top-down procedural service](../../../aerodromes/Albury) if they wish.
 
 <figure markdown>
-![Eildon Weir Airspace](../assets/ELWENR.png){ width="700" }
+![Eildon Weir Airspace](../assets/elw.png){ width="700" }
   <figcaption>Eildon Weir Airspace</figcaption>
 </figure>
 

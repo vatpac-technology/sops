@@ -22,7 +22,7 @@ When **TW ADC** is offline, TW CTR (Class D and C `SFC` to `A085`) reverts to Cl
 When **CFS ADC** is offline, CFS CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by MNN and INL. MNN is **not permitted** to provide a [top-down procedural service](../../../aerodromes/Coffs), only INL can do this, and they must coordinate with MNN if they are doing so.
 
 <figure markdown>
-![Armidale Airspace](../assets/ARLENR.png){ width="700" }
+![Armidale Airspace](../assets/arl.png){ width="700" }
   <figcaption>Armidale Airspace</figcaption>
 </figure>
 
