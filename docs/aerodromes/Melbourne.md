@@ -97,7 +97,4 @@ Any Runway change must be prior coordinated to **MAE** and **EN ADC**.
 Refer to [Melbourne TCU Airspace Division](../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
 
 ## Standard Assignable Levels
-
-IFR: `A050`  
-VFR: `A040` or `RFL` if lower
-
+All Aircraft: `A050` or `RFL` if lower
