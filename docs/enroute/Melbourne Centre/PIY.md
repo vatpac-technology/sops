@@ -21,7 +21,7 @@
 Pingelly assumes responsiblity of the airspace within 36nm of PH DME above `F245`  
 
 <figure markdown>
-![Pingelly Airspace](../assets/PIYENR.png){ width="700" }
+![Pingelly Airspace](../assets/piy.png){ width="700" }
   <figcaption>Pingelly Airspace</figcaption>
 </figure>
 

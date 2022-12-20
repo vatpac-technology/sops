@@ -29,7 +29,7 @@ When **CFS ADC** is offline, CFS CTR (Class D `SFC` to `A045`) reverts to Class 
 Whilst the **RKA** controller is expected to provide a [top-down service](../../../aerodromes/Rockhampton) to YBRK when **RK ADC** is offline, this is not expected of a GOL controller when both **RKA** and **RK ADC** are offline. If electing not to provide a top-down service to YBRK, the RK CTR Class D is reclassified to Class G `SFC` to `A007`, and Class E `A007` to `A045`.
 
 <figure markdown>
-![Inverell Airspace](../assets/INLENR.png){ width="700" }
+![Inverell Airspace](../assets/inl.png){ width="700" }
   <figcaption>Inverell Airspace</figcaption>
 </figure>
 

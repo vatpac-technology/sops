@@ -15,7 +15,7 @@
 ## Airspace
 
 <figure markdown>
-![Tailem Bend Airspace](../assets/TBDENR.png){ width="700" }
+![Tailem Bend Airspace](../assets/tbd.png){ width="700" }
   <figcaption>Tailem Bend Airspace</figcaption>
 </figure>
 
