@@ -23,7 +23,7 @@ b) The airspace within the lateral limits of the CB TCU above `FL245`, except fo
     Bindook does not assume the CB TCU in the absence of a CB TCU controller. Assumption of the CB TCU is the responsibility of Benalla (BLA). Controllers may choose to verbally coordinate the release of the CB TCU to either sector/subsector.
 
 <figure markdown>
-![Bindook Airspace](../assets/BIKENR.png){ width="700" }
+![Bindook Airspace](../assets/bik.png){ width="700" }
   <figcaption>Bindook Airspace</figcaption>
 </figure>
 
