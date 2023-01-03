@@ -179,6 +179,22 @@ Voice coordinate prior to **15 mins** to boundary.
 Voice coordinate prior to **15 mins** to boundary.
 ### Oceanic -> Oceanic
 Voice coordinate prior to **30 mins** to boundary (**15 mins** to Australia and New Zealand units).
+
+#### Format
+Coordination between **Australian** units shall be done in the [Standard Heads-up format](#heads-up).
+
+Coordination to **International** units shall be done in the following format:
+
+- *"Estimate"*
+- Callsign
+- Boundary Point
+- Estimate
+- Level
+- *"On climb"*/*"On descent*" (if applicable)
+
+!!! example
+    <span class="coldline">**IND** -> **FIMM CTR**</span>: "Estimate, QFA63, IBMAT time 33, F360"  
+    <span class="coldline">**FIMM CTR** -> **IND**</span>: "QFA63, F360"
 ### ENR -> ENR
 **Voiceless**, no changes to route or CFL within **20nm** to boundary.
 
