@@ -13,6 +13,7 @@
   --md-top: var(--md-default-bg-color);
   --md-typeset-link: rgb(104, 148, 230);
   --md-typeset-link-hover: #448aff;
+  --md-typeset-a-color: rgb(104, 148, 230);
 
 }
 [data-md-color-scheme="slate"] {
@@ -25,6 +26,7 @@
   --md-top: #1b253b;
   --md-typeset-link: rgb(104, 148, 230);
   --md-typeset-link-hover: #448aff;
+  --md-typeset-a-color: rgb(104, 148, 230);
 }
 
 /*Header Modifications*/
