@@ -168,3 +168,5 @@
 *[MSA]: Minimum Safe Altitude
 *[MVA]: Minimum Vectoring Altitude
 *[RTCC]: Radar Terrain Clearance Chart
+*[PJE]: Parachute Jump Exercise (Parachute Operations)
+*[SAR]: Search and Rescue
