@@ -97,6 +97,7 @@
 .feature .card a {
     display: block;
     background: var(--md-card-a);
+    color: var(--md-primary-fg-color);
     transition: background-color 0.2s ease;
     padding: 0.5rem 1rem;
     border-radius: 5px;
