@@ -8,11 +8,11 @@
 
 | Name               | ID      | Callsign       | Frequency        | Login Identifier              |
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
-| **Cairns Approach**    |**CSA**| **Cairns Approach**   | **118.400**         | **CS_APP**          |
-| Cairns Approach†    |CSD| Cairns Departures  | 126.100         | CS_DEP          |
+| **Cairns Approach**    |**CS1**| **Cairns Approach**   | **118.400**         | **CS_APP**          |
+| Cairns Approach†    |CS2| Cairns Departures  | 126.100         | CS_DEP          |
 | Cairns Flow†        |  |                |          | CS-FLW_CTR                               |
 
-† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf){target=new}
+† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
 
@@ -24,20 +24,20 @@ Departures is responsible for Class C airspace west of the boundary and Class G 
 
 The divisions of the airspace between **CS1** and **CS2** change based on the Runway Mode.
 
-#### 15
+#### Runway 15
 <figure markdown>
 ![15 TCU Structure](img/cs15annotated.png){ width="700" }
   <figcaption>15 TCU Structure</figcaption>
 </figure>
 
-#### 33
+#### Runway 33
 <figure markdown>
 ![33 TCU Structure](img/cs33annotated.png){ width="700" }
   <figcaption>33 TCU Structure</figcaption>
 </figure>
 
 !!! note
-    Due to terrain shielding, Radar Coverage may be limited below 2500 feet southwest of the Aerodrome
+    Due to terrain shielding, Radar Coverage may be limited below `A025` southwest of the Aerodrome
 
 ### Trinity Release
 
@@ -56,10 +56,9 @@ Departing aircraft shall be transferred to TCU after ADC no longer has separatio
 
 IFR aircraft shall be processed via one of the following SIDs:
 
-a) RWY 15, Jets via SWIFT: SWIFT SID. Non-Jets via NONUM: NONUM
-SID
-b) RWY 33, All Jets: EAZEE SID, Radar Transition
-c) All others: Cairns SID(R)
+a) RWY 15, Jets via SWIFT: SWIFT SID. Non-Jets via NONUM: NONUM SID  
+b) RWY 33, All Jets: EAZEE SID, Radar Transition  
+c) All others: CS (RADAR) SID  
 
 !!! Note
     Non-jet aircraft may be issued a Visual Departure.
@@ -72,12 +71,12 @@ c) All others: Cairns SID(R)
 | 33                | 330° to 070° |
 
 ### Minimum IMC Levels
-2.2.1.4 Lowest assignable level in IMC for assigned heading is:
+Lowest assignable level in IMC for assigned heading is:
 
 | Runway | Jet | Non-Jet|
 | ------ | -------- | -------|
-| 15     | **A030** | **A020,** between 350° to 030° |
-| 33     | **A040,** between 330° to 009°.  **A030,** all other headings | **A040,** between 330° to 009°.  **A020,** between 010° to 060°.  **A024,** between 061° to 070° |
+| 15     | `A030` | `A020`, between 350° to 030° |
+| 33     | `A040`, between 330° to 009°. `A030`, all other headings | `A040`, between 330° to 009°.  `A020`, between 010° to 060°. `A024`, between 061° to 070° |
 
 <figure markdown>
 ![Min IMC Levels](img/IMCminlvl.png){ width="700" }
@@ -108,7 +107,7 @@ The following speeds apply from the Feeder Fix:
 
 | Time           | Runway 15     | Runway 33                             |
 | ------| -------------- | -------------------------------------|
-| Day   | Conditions do not meet requirements for CS 360-R Creek Corridor Procedure – NAP2 (VMC conditions do not exist below 3,000 FT)        | Conditions do not meet the requirements for KEEWI arrival visual procedure (VMC conditions do not exist below 3,000 FT) |
+| Day   | Conditions do not meet requirements for CS 360-R Creek Corridor Procedure – NAP2 (VMC conditions do not exist below `A030`)        | Conditions do not meet the requirements for KEEWI arrival visual procedure (VMC conditions do not exist below `A030`) |
 | Night | All conditions        | All conditions |
 
 ## Coordination
@@ -121,11 +120,9 @@ Auto Release is not Available in Cairns
 All Departing Aircraft must be coordinated to CS TCU with a "Next" Call
 
 !!! example
-    **CS ADC** -> **CS TCU**: "Next, ABC"  
-    **CS TCU** -> **CS ADC**: "ABC, Heading 030, Unrestricted"  
-    **CS ADC** -> **CS TCU**: "Heading 030, Unrestriced, ABC"  
-    **CS ADC** -> **ABC**: "ABC, Assigned heading Left 030, Runway 15, Cleared for Takeoff"  
-    **ABC** -> **CB ADC**: "Left heading 030, Runway 15, Cleared for Takeoff, ABC"  
+    <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Next, ABC, runway 15"  
+    <span class="hotline">**CS TCU** -> **CS ADC**</span>: "ABC, Heading 030, Unrestricted"  
+    <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Heading 030, Unrestriced, ABC"   
     `AIP GEN 3.4`
 
 #### Seperation
@@ -151,11 +148,13 @@ a) VFR Departures
 b) Aircraft using a runway not on the ATIS
 
 !!! example
-    **CS ACD** -> **CS TCU**: "ABC, Requesting clearance for a Northbound VFR Coastal departure at A035"  
-    **CS TCU** -> **CS ACD**: "ABC, Cleared for a Northbound VFR Coastal departure, A035"  
-    **CS ACD** -> **CS TCU**: "Cleared for a Northbound VFR Coastal departure, A035, ABC"  
-    **CS ACD** -> **ABC**: "ABC, Cleared for a Northbound VFR Coastal departure, A035, Squawk 3601"  
-    **ABC** -> **CS ACD**: "Cleared for a Northbound VFR Coastal departure, A035, 3601, ABC"  
+    <span class="coldline">**CS ACD** -> **CS TCU**</span>: "ABC, Requesting clearance for a Northbound VFR Coastal departure at A035"  
+    <span class="coldline">**CS TCU** -> **CS ACD**</span>: "ABC, Cleared for a Northbound VFR Coastal departure, A035"  
+    <span class="coldline">**CS ACD** -> **CS TCU**</span>: "Cleared for a Northbound VFR Coastal departure, A035, ABC"  
+
+    **CS ACD**: "ABC, Cleared for a Northbound VFR Coastal departure, A035, Squawk 3601"  
+    **ABC**: "Cleared for a Northbound VFR Coastal departure, A035, 3601, ABC"  
+    `AIP GEN 3.4`
 
 ### CS FLW / CS ADC
 
@@ -177,8 +176,8 @@ Voiceless coordination is in place for any route (including SID and random direc
 Any aircraft **not** assigned the standard assignable level, must be **Heads-up** Coordinated to the relevant ENR sector as soon as practical.
 
 !!! example
-    **CS TCU** -> **KEN**: "JST789, with your concurrence, will be assigned F160, for my separation with ANZ12"  
-    **KEN** -> **CS TCU**: "JST789, concur F160"  
+    <span class="hotline">**CS TCU** -> **KEN**</span>: "JST789, with your concurrence, will be assigned F160, for my separation with ANZ12"  
+    <span class="hotline">**KEN** -> **CS TCU**</span>: "JST789, concur F160"  
 
 #### Arrivals
 Standard assignable levels from ENR to CS TCU are as follows:  
@@ -186,4 +185,4 @@ Standard assignable levels from ENR to CS TCU are as follows:
 355° clockwise to 055°: `A090` or the `RFL`   
 ## Class G arrivals
 
-Aircraft entering CS TMA from Class G shall be coordinated. CS TCU will issue airways clearance, therefore transfer of communications should be effected such that CS TCU will have sufficient time to issue such Clearance.
+Aircraft entering CS TCU from Class G shall be coordinated. CS TCU will issue airways clearance, therefore transfer of communications should be effected such that CS TCU will have sufficient time to issue such Clearance.

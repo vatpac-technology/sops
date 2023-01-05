@@ -1,5 +1,5 @@
 ---
-title: VatSys Setup
+title: vatSys Setup
 ---
 
 --8<-- "includes/abbreviations.md"

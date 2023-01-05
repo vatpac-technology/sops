@@ -12,47 +12,53 @@
 | Adelaide Approach East†    |AAE| Adelaide Departures  | 118.200         | AD_DEP          |
 | Adelaide Flow†        |AFL|                |          | AD-FLW_CTR                               |
 
-† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf)
+† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
-The Adelaide TMA covers the area shown below, SFC-FL245. (vatSys screenshot)   
-AD TCU is responsible for the Adelaide TMA, except:    
-a) PF CTR when **PF TWR** is online.  
-b) EDN CTR when **EDN TWR** is online.  
-c) Any airspace released to an external unit (e.g. tower) either by NOTAM or as negotiated.
+The Adelaide TMA covers `SFC` to `FL245`. 
 
-PF CTR reverts to Class G when **PF TWR** is offline, and is administered by the relevant AD TCU controller.    
-EDN CTR reverts to Class G when **EDN TWR** is offline, and is administered by the relevant AD TCU controller.  
-**AAW** shall assume the airspace of **AAE** when they are offline.  
-AD TCU is responsible for the provision of ADC, SMC and ACD responsibilities when **AD TWR** is offline.
+PF CTR reverts to Class G when **PF ADC** is offline, and is administered by the relevant AD TCU controller.    
+EDN CTR reverts to Class G when **EDN ADC** is offline, and is administered by the relevant AD TCU controller.  
 
+### Airspace Division
+!!! note
+    The following diagram does not include non AD TCU areas of responsibility such as PF CTR or EDN CTR
 
-## PF TWR Offline
-Due to the low level of CTA at YPPF, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb. The Standard assignable level for YPPF departures is the lower of `A040` or the `RFL`.
+<figure markdown>
+![AD TCU Structure](img/adtcu_annotated.png){ width="700" }
+  <figcaption>AD TCU Structure</figcaption>
+</figure>
+
+## PF ADC Offline
+Due to the low level of CTA at YPPF, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
 !!! example
-    **ABC** -> **AD TCU**: "Adelaide Approach, ABC, PC12, POB 8, IFR, Taxiing YPPF for YPAG, Runway 21R" `AIP GEN 3.4`  
-    **AD TCU** -> **ABC**: "ABC, Adelaide Approach, Squawk 3601, No Reported IFR Traffic, Call me Ready at the Holding Point for Airways Clearance"  
-    **ABC** -> **AD TCU**: "Squawk 3601, Wilco, ABC"  
-    **ABC** -> **AD TCU**: "ABC, Ready Runway 21R, Request clearance"  
-    **AD TCU** -> **ABC**: "ABC, Cleared to YPAG via DOLVU, Flight Planned Route. Climb via SID to A040, Runway 21R, PARAFIELD1 departure, Assigned heading Right 360"  
-    **ABC** -> **AD TCU**: "Cleared to YPAG via DOLVU, Flight Planned Route. Climb via SID to A040, Runway 21R, PARAFIELD1 departure, Assigned heading Right 360, ABC" 
+    **ABC**: "Adelaide Approach, ABC, PC12, POB 8, IFR, taxiing YPPF for YPAG, Runway 21R"   
+    **AD TCU**: "ABC, Adelaide Approach, Squawk 3601, no reported IFR traffic, report ready at the holding point for airways clearance"  
+    **ABC**: "Squawk 3601, wilco, ABC"  
+
+    **ABC**: "ABC, ready Runway 21R, request clearance"  
+    **AD TCU**: "ABC, cleared to YPAG via DOLVU, flight planned route, PARAFIELD1 departure, climb via SID to A040"   
+    **ABC**: "Cleared to YPAG via DOLVU, flight planned route, PARAFIELD1 departure, climb via SID to A040, ABC"  
+    **AD TCU**: "ABC, assigned heading right 360, report airborne"  
+    **ABC**: "Assigned right 360, wilco, ABC"  
+    `AIP GEN 3.4`
 
 ## Coordination
 ### AD TCU / ENR
 #### Departures
 Voiceless coordination is in place from AD TCU to TBD (and subsectors) for aircraft:  
-Planned at or above F240: `Assigned F240`  
-Planned below F240: `Assigned the RFL`  
+Planned at or above `F240`: `Assigned F240`  
+Planned below `F240`: `Assigned the RFL`  
 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
 !!! example
-    **AD TCU** -> **TBD**: "PFY1234, with your concurrence, will be assigned F180, for my separation with JTE654"  
-    **TBD** -> **AD TCU**: "PFY1234, concur F180"  
+    <span class="hotline">**AD TCU** -> **TBD**</span>: "PFY1234, with your concurrence, will be assigned F180, for my separation with JTE654"  
+    <span class="hotline">**TBD** -> **AD TCU**</span>: "PFY1234, concur F180"  
 
 #### Arrivals
-The Standard assignable level from ENR to AD TCU is `A090`. All other levels must be prior coordinated
+The Standard assignable level from TBD/AUG to AD TCU is `A090`, and assigned a STAR. All other aircraft must be prior coordinated
 
 ### AD TCU / AD ADC
 #### Auto Release
@@ -67,11 +73,9 @@ Any aircraft that don't meet these criteria must be coordinated to AD TCU with a
 "Next" Coordination is a procedure where the **AD ADC** controller gives a heads-up to the AD TCU controller about an impending departure. The AD TCU controller will respond by assigning a heading to the aircraft, for the **AD ADC** controller to pass on with their takeoff clearance.
 
 !!! example
-    **AD ADC** -> **AD TCU**: "Next, ABC"  
-    **AD TCU** -> **AD ADC**: "ABC, Track Extended Centreline"  
-    **AD ADC** -> **AD TCU**: "Track Extended Centreline, ABC"  
-    **AD ADC** -> **ABC**: "ABC, Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff"  
-    **ABC** -> **AD ADC**: "Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff, ABC"  
+    <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Next, ABC, runway 05"  
+    <span class="hotline">**AD TCU** -> **AD ADC**</span>: "ABC, Track Extended Centreline, unrestricted"  
+    <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Track Extended Centreline, unrestricted, ABC"    
     `AIP GEN 3.4`
 
 ### AD TCU Internal
@@ -79,45 +83,45 @@ Any aircraft that don't meet these criteria must be coordinated to AD TCU with a
 All aircraft transiting between internal AD TCU boundaries must be heads-up coordinated.
 
 !!! example
-    **AAW** -> **AAE**: "via AD, FD123"  
-    **AAE** -> **AAW**: "FD123, A090"   
+    <span class="hotline">**AAW** -> **AAE**</span>: "via AD, FD123"  
+    <span class="hotline">**AAE** -> **AAW**</span>: "FD123, A090"   
 
-### AD TCU / PF TWR
+### AD TCU / PF ADC
 #### Departures
 
-Aircraft departing YPPF in to AD TCU Class C will be coordinated from **PF TWR** at Taxi.
+Aircraft departing YPPF in to AD TCU Class C will be coordinated from **PF ADC** at Taxi.
 
 !!! example
-    **PF TWR** -> **AD TCU**: "Taxi, ABC for YKSC, Runway 03L, via AD"  
-    **AD TCU** -> **PF TWR**: "ABC for YKSC, Runway 03L, Cleared Parafield 1, A030"  
-    **PF TWR** -> **AD TCU**: "Parafield 1, A030, ABC"  
+    <span class="coldline">**PF ADC** -> **AD TCU**</span>: "Taxi, ABC for YKSC, Runway 03L, via AD"  
+    <span class="coldline">**AD TCU** -> **PF ADC**</span>: "ABC, cleared to YKSC via AD, Parafield 1 departure, climb via SID A030"  
+    <span class="coldline">**PF ADC** -> **AD TCU**</span>: "Cleared to YKSC via AD, Parafield 1 departure, climb via SID A030, ABC"
 
 #### Arrivals
-YPPF arrivals shall be coordinated to **PF TWR** from the relevant AD TCU controller prior to transfer of jurisdiction.
+YPPF arrivals shall be coordinated to **PF ADC** from the relevant AD TCU controller prior to transfer of jurisdiction.
 
 !!! example
-    **AD TCU** -> **PF TWR**: "ZYX, via DOLVU, Number 1" 
-    **PF TWR** -> **AD TCU**: "ZYX, Number 1"  
+    <span class="coldline">**AD TCU** -> **PF ADC**</span>: "ZYX, via DOLVU, Number 1"  
+    <span class="coldline">**PF ADC** -> **AD TCU**</span>: "ZYX, Number 1"  
 
-### AD TCU / EDN TWR
+### AD TCU / EDN ADC
 #### Departures
 
-Aircraft departing YPED in to AD TCU Class C will be coordinated from **EDN TWR** at Taxi.
+Aircraft departing YPED in to AD TCU Class C will be coordinated from **EDN ADC** at Taxi.
 
 !!! example
-    **EDN TWR** -> **AD TCU**: "Taxi, BLKT11 for YMES, via GULLY"  
-    **AD TCU** -> **EDN TWR**: "BLKT11 for YMES via GULLY"  
+    <span class="coldline">**EDN ADC** -> **AD TCU**</span>: "Taxi, BLKT11 for YMES, via GULLY"  
+    <span class="coldline">**AD TCU** -> **EDN ADC**</span>: "BLKT11"  
 
-When the aircraft is ready for takeoff, **EDN TWR** will give a "Next" call, where AD TCU will provide the cleared level.
+When the aircraft is ready for takeoff, **EDN ADC** will give a "Next" call, where AD TCU will provide the cleared level.
 
 !!! example
-    **EDN TWR** -> **AD TCU**: "Next, BLKT11"  
-    **AD TCU** -> **EDN TWR**: "BLKT11, A050"  
-    **EDN TWR** -> **AD TCU**: "A060, BLKT11"
+    <span class="hotline">**EDN ADC** -> **AD TCU**</span>: "Next, BLKT11, runway 18"  
+    <span class="hotline">**AD TCU** -> **EDN ADC**</span>: "BLKT11, A050"  
+    <span class="hotline">**EDN ADC** -> **AD TCU**</span>: "A050, BLKT11"
 
 #### Arrivals
-AD TCU Must coordinate the sequence information to **EDN TWR** prior to transfer of jurisdiction.
+AD TCU Must coordinate the sequence information to **EDN ADC** prior to transfer of jurisdiction.
 
 !!! example
-    **AD TCU** -> **EDN TWR**: "New sequence of 2. MRNR21, via AD, Number 1. MARNR22, via AD, Number 2"  
-    **EDN TWR** -> **AD TCU**: "MRNR21, Number 1. MRNR22, Number 2"  
+    <span class="coldline">**AD TCU** -> **EDN ADC**</span>: "New sequence of 2. MRNR21, via AD, Number 1. MARNR22, via AD, Number 2"  
+    <span class="coldline">**EDN ADC** -> **AD TCU**</span>: "MRNR21, Number 1. MRNR22, Number 2"  

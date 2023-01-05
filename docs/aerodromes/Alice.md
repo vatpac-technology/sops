@@ -12,11 +12,12 @@
 | Alice Springs ATIS | N/A | 123.000 | YBAS_ATIS |
 
 ## Airspace
-
 <figure markdown>
-![YBAS Airspace](img/ybas_airspace.jpg){ width="700" }
+![YBAS Airspace](img/YBAS_airspace.png){ width="1000" }
   <figcaption>YBAS Airspace</figcaption>
 </figure>
+
+AS ADC is responsible for the Class D airspace `SFC` to `A045`, as well as the Class C airspace `A045` to `A065`, within the AS CTR.
 
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
@@ -25,19 +26,19 @@ AS TWR is permitted to use Surveillance standards for separation. Surveillance c
 For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
 ## Coordination
 ### Departures
-A 'next' call is made for all aircraft when they are next to depart. AS TWR must inform ASP if the aircraft does not depart within **2 minutes** of the next call.
+Departures from YBAS in to ASP Class C will be coordinated when ready for departure.
 
 !!! example
-    **AS TWR** -> **ASP**: "Next, QFA797"  
-    **ASP** -> **AS TWR**: "QFA797"
+    <span class="hotline">**AS ADC** -> **ASP**</span>: "Next, QFA797"  
+    <span class="hotline">**ASP** -> **AS ADC**</span>: "QFA797"
 
-The Standard Assignable level from AS TWR to ASP is the lower of `A060` or the `RFL`, any other level must be prior coordinated.
+The Standard Assignable level from AS ADC to ASP is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
 
 ### Arrivals
-ASP will coordinate the sequence to AS TWR
+ASP will coordinate the sequence to AS ADC
 
 !!! example
-    **ASP** -> **AS TWR**: "New Sequence of 2. Via SADEL, QFA1956, Number 1. Via HERMA, FD867, Number 2”  
-    **AS TWR** -> **ASP**: "QFA1956, Number 1. FD867, Number 2"  
+    <span class="coldline">**ASP** -> **AS ADC**</span>: "New Sequence of 2. Via SADEL, QFA1956, Number 1. Via HERMA, FD867, Number 2”  
+    <span class="coldline">**AS ADC** -> **ASP**</span>: "QFA1956, Number 1. FD867, Number 2"  
 
-The Standard Assignable level from ASP to AS TWR is `A070`, any other level must be prior coordinated.
+The Standard Assignable level from ASP to AS ADC is `A080`, any other level must be prior coordinated.
