@@ -15,76 +15,52 @@
 | Bourke† | Melbourne Centre | 128.200 | ML-BKE_CTR |
 | Esperance† | Melbourne Centre | 123.950 | ML-ESP_CTR |
 
-† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf)
+† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
- 
-ASP is responsible for **ASP**, **ASW**, **WAR**, **FOR**, **WRA**, **BKE**, and **ESP** when they are offline.  
+**AS ADC** is responsible for the Class D airspace `SFC` to `A045`, as well as the Class C airspace `A045` to `A065`, within the AS CTR.
 
-When **AS TWR** is offline, AS CTR (Class D and C SFC-F125) within 80 DME AS reverts to Class G, and AS CTR (Class C F125-F245) within 80 DME AS reverts to Class E, and both are administered by ASP. Alternatively, ASP may provide a top-down procedural service if they wish.
+When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME AS reverts to Class G, and AS CTR (Class C `F125` to `F245`) within 80 DME AS reverts to Class E, and both are administered by ASP. Alternatively, ASP may provide a [top-down procedural service](../../../aerodromes/Alice) if they wish.
 
-(vatsys map)
+<figure markdown>
+![Alice Springs Airspace](../assets/asp.png){ width="700" }
+  <figcaption>Alice Springs Airspace</figcaption>
+</figure>
 
 ## Extending
-As per [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), ML-ASP_CTR is only permitted to extend to adjacent **YMMM** sectors.
+!!! Warning
+    As per [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), ML-ASP_CTR is only permitted to extend to adjacent **YMMM** sectors.
 
 ## Coordination
 ### ASP (All) / ENR
-
-As per [Standard coordination procedures](../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 ### ASP/ASW/WAR/FOR/WRA/BKE/ESP Internal
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
-As per [Standard coordination procedures](../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
-
-### ASP / AS TWR
-
-#### Taxi Call
-A taxi call shall be made between **AS TWR** and ASP as an aircraft is given taxi clearance. ASP will respond by acknowledging the callsign and activating FDR.
+### ASP / AS ADC
+#### Departures
+Departures from YBAS in to ASP Class C will be coordinated when ready for departure.
 
 !!! example
-    **AS TWR** -> **ASP**: "Taxis QFA797 for YMML via ELLOW3 departure"  
-    **ASP** -> **AS TWR**: "QFA797"  
+    <span class="hotline">**AS ADC** -> **ASP**</span>: "Next QFA797"  
+    <span class="hotline">**ASP** -> **AS ADC**</span>: "QFA797"
 
-#### Next Call
-A next call is made for all aircraft when they are next to depart and will be departing within two minutes. ASP will respond by either acknowledging the callsign or offering a higher level. Any higher level issued will be passed along in the takeoff clearance. If the controller is in a high workload environment, a next call may be omitted, in favour of taxi and departure coordination.
-
-!!! example
-    **AS TWR** -> **ASP**: "Next QFA797"  
-    **ASP** -> **ASP**: "QFA797"    
-
-#### Departure Call
-A departure call should be made as the aircraft becomes airborne. The aircraft should be transferred to ASP as they climb through the upper level of the AS CTR class D airspace.
+The Standard Assignable level from **AS ADC** to ASP is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
+#### Arrivals
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enrtcu-class-d-twr). ASP must coordinate the sequence prior to **5 mins** from the boundary
 
 !!! example
-    **AS TWR** -> **ASP**: "Departure QFA797 at 06"  
-    **ASP** -> **AS TWR**: "QFA797"
+    <span class="coldline">**ASP** -> **AS ADC**</span>: "New Sequence of 2. Via SADEL, QFA1956, Number 1. Via HERMA, FD867, Number 2”  
+    <span class="coldline">**AS ADC** -> **ASP**</span>: "QFA1956, Number 1. FD867, Number 2"  
 
-#### Arrival Coordination
-ASP will coordinate all arrivals into Alice Springs Prior to handing over to tower in the following format:
+The Standard Assignable level from ASP to **AS ADC** is `A080`, any other level must be prior coordinated.
 
-- Callsign
-- Estimate
-- Inbound Radial/Procedure
-- Assigned Level
-- Sequence Number (if applicable)
+#### Overfliers
+Any aircraft that will enter AS ADC airspace, and not landing at YBAS, must be Heads-up coordinated prior to **5 mins** from the boundary.
 
 !!! example
-    **ASP** -> **AS TWR**: "JST734, estimates Alice Springs 52, 189 radial, 5000ft, number 2”  
-    **AS TWR** -> **ASP**: "JST734"
-
-#### Standard Assignable Levels
-
-The Standard assignable level from ASP to **AS TWR** is `A080`.  
-
-The Standard assignable level from **AS TWR** to ASP is the lower of `A070` or the `RFL`.  
-
-!!! caution
-    It is the responsibility of **AS TWR** to manage the sequence in to AS TWR. This can be challenging, as it involves transitioning from **Surveillance** standards to **Procedural** standards. ASP can greatly assist with this however, with use of ADSB tools, getting coordination done early, and ensuring any aircraft within **10 minutes** arrival time at YBAS, are assigned a *vertically separated level* at handoff to **AS TWR**. For example:  
-    **VOZ123** ETA AS 2203, Number 1, A080  
-    **JTE456** ETA AS 2206, Number 2, A090  
-    **QFA797** ETA AS 2212, Number 3, A100  
-
-### WRA / WR TWR
-
-Reserved. Can we get some RAAF insight for this?
+    **ASP** -> **AS ADC**: "via AS, JDS"  
+    **AS ADC** -> **ASP**: "JDS, A060"
+### WRA / WR ADC
+Reserved.

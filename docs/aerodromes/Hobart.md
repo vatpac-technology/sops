@@ -8,11 +8,9 @@
 
 | Name              | Callsign       | Frequency        | Login Identifier                         |
 | ----------------- | -------------- | ---------------- | ---------------------------------------- |
-| **Hobart ADC**    | **Hobart Tower**   | **118.100**     | **HB_TWR**                            |
-| **Hobart SMC**    | **Hobart Ground**  | **121.700**     | **HB_GND**                  |
+| Hobart ADC    | Hobart Tower   | 118.100     | HB_TWR                            |
+| Hobart SMC    | Hobart Ground  | 121.700     | HB_GND                  |
 | Hobart ATIS       |                | 128.450          | YMHB_ATIS                                |
-
-In the absence of an SMC controller, ADC shall assume the SMC responsibilities.
 
 ### Maneuvering Area Responsibility
 <figure markdown>
@@ -41,7 +39,7 @@ Other aircraft shall be assigned an appropriate **Procedural SID** or a visual d
 
 ## Cambridge (YCBG)
 
-Due to it's close proximity, HB ADC & SMC are resposible for clearances into and out of Cambridge (YCBG), which sits inside the Hobart class D control zone.
+Due to it's close proximity, HB ADC & SMC are responsible for clearances into and out of Cambridge (YCBG), which sits inside the Hobart Class D control zone.
 
 ### Departures
 Prior to leaving the apron, all outbound aircraft will establish communications with **HB SMC** for Airways Clearance.  
@@ -49,7 +47,7 @@ Prior to leaving the apron, all outbound aircraft will establish communications 
 All IFR Aircraft departing Cambridge shall be assigned a **Visual Departure** or one of Hobart's **Procedural SIDs**.
 
 !!! note
-    Both VFR and IFR aircraft require a clearance to operate in class D airspace (even if this is an implied clearance to depart a leg of the circuit).  The examples below show an IFR aircraft departing.
+    Both VFR and IFR aircraft require a clearance to operate in Class D airspace (even if this is an implied clearance to depart a leg of the circuit).  The examples below show an IFR aircraft departing.
 
 !!! Example
     **NDR:** "Hobart Ground, NDR, for Devonport, Request Clearance"  
@@ -132,19 +130,17 @@ Clearances for aircraft entering the CTR must be worded so as to leave no possib
 
 ## Coordination
 ### Departures
-#### Auto Release
-
 "Next" Coordination to HBA is required for all deps not assigned a SID.
 
 "Next" Coordination is a procedure where the **HB ADC** controller gives a heads-up to the HBA controller about an impending departure not on a SID. The HBA controller will respond by assigning a visual heading to the aircraft, for the **HB ADC** controller to pass on with their takeoff clearance.
 
 !!! example
-    **HB ADC** -> **HB TCU**: "Next, ABC"  
-    **HB TCU** -> **HB ADC**: "ABC, Heading 150 Visual"  
-    **HB ADC** -> **HB TCU**: "Heading 150 Visual, ABC"  
+    <span class="hotline">**HB ADC** -> **HB TCU**</span>: "Next, ABC, runway 12"  
+    <span class="hotline">**HB TCU** -> **HB ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
+    <span class="hotline">**HB ADC** -> **HB TCU**</span>: "Heading 150 Visual unrestricted, ABC"  
 
-    **HB ADC:** "ABC, Assigned heading right 150 Visual, Runway 12, Cleared for Takeoff"  
-    **ABC:** "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"  
+    **HB ADC**: "ABC, Assigned heading right 150 Visual, Runway 12, Cleared for Takeoff"  
+    **ABC**: "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"  
     `AIP GEN 3.4`
 
 The HBA controller can suspend/resume Auto Release at any time, with the concurrence of **HB ADC**.
@@ -159,14 +155,5 @@ b) Aircraft using a runway not on the ATIS
 The Standard Assignable level from HB ADC to HBA is:  
 For Jets: `A080`  
 For Non-Jets: The lower of `A045` or the `RFL`.
-#### Arrivals
-HBA will coordinate all **non-STAR** arrivals 5min from IAF or 5min from CTA boundary.
-
-!!! example
-    **HB TCU** -> **HB ADC**: "JST419, A320, estimates Hobart 52, RNAV-Z 12 via HBZWG, 5000ft, number 1”  
-    **HB ADC** -> **HB TCU**: "JST419"
-
-## Standard Assignable Levels
-
-Jets: `A080`  
-Non-jets: `A045` or `RFL` if lower
+### Arrivals
+HBA will coordinate all YMHB arrivals to HB ADC prior to 5 mins from the boundary.

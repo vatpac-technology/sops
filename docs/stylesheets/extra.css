@@ -14,8 +14,10 @@
   --md-typeset-link: rgb(104, 148, 230);
   --md-typeset-link-hover: #448aff;
   --md-typeset-a-color: rgb(104, 148, 230);
-
+  --hotline: #fff820a1;
+  --coldline: #35b9ff66;
 }
+
 [data-md-color-scheme="slate"] {
   --md-default-bg-color: #0f172a;
   --md-accent-fg-color:         #344767;
@@ -27,6 +29,8 @@
   --md-typeset-link: rgb(104, 148, 230);
   --md-typeset-link-hover: #448aff;
   --md-typeset-a-color: rgb(104, 148, 230);
+  --hotline: #b7b10291;
+  --coldline: #16aeff6e;
 }
 
 /*Header Modifications*/
@@ -103,4 +107,11 @@ h4 {
 /* Tasklist */
  .md-typeset [type=checkbox]:checked+.task-list-indicator:before {
     background-color: #81C3D7;
+}
+/* Coord Examples */
+.hotline {
+  background-color: var(--hotline);
+}
+.coldline {
+  background-color: var(--coldline);
 }

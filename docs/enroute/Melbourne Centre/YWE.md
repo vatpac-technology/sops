@@ -14,13 +14,14 @@
 | Griffith† | Melbourne Centre | 122.750 | ML-GTH_CTR |
 | Katoomba† | Melbourne Centre | 133.500 | ML-KAT_CTR |
 
-† **Non-standard position** – may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf)
+† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
 
-YWE is responsible for **WON**, **MUN**, **OXL**, **GTH** and **KAT** when they are offline.  
-
-(vatsys map)
+<figure markdown>
+![Yarrowee Airspace](../assets/ywe.png){ width="700" }
+  <figcaption>Yarrowee Airspace</figcaption>
+</figure>
 
 ## Sector Responsibilities
 ### Yarrowee (YWE)
@@ -43,8 +44,8 @@ KAT is responsible for issuing STAR Clearances for YSCB.  KAT is also responsibl
 
 !!! example
     *PE211 has departed YBTH for YSSY and is making a departure call*  
-    **PE211:** "PE211, 3nm south of Bathurst, passing 5800ft, climbing FL120, estimate REVKI 22"  
-    **KAT:** "PE211, identified, cleared to YSSY via REVKI flight plan route, ODALE7 arrival, climb FL120"
+    **PE211:** "PE211, 3nm south of Bathurst, passing 5800ft, climbing F120, estimate REVKI 22"  
+    **KAT:** "PE211, identified, cleared to YSSY via REVKI flight plan route, ODALE7 arrival, climb F120"
 
 ## Coordination
 
@@ -56,10 +57,10 @@ All other aircraft must be voice coordinated to ML TCU prior to **20nm** from th
 
 The Standard Assignable level from ML TCU to YWE/WON is `F240`, and tracking via CRENA, ESDIG, NEVIS, CORRS, KEPPA, or SUNTI.
 
-Refer to [Melbourne TCU Airspace Division](../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
+Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
 ### YWE (All) / ENR
 
-As per [Standard coordination procedures](../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** prior to **20nm** from the boundary in the following scenarios:  
 - YWE to ELW/BLA for all aircraft  
@@ -69,11 +70,11 @@ That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** p
 - MUN to TBD for aircraft **not** on H345 airway*
 
 !!! tip
-    **MUN** should aim to handoff aircraft as soon as possible to **TBD**, so they can issue STAR clearance and commence sequencing. Remember, As per [Standard coordination procedures](../../controller-skills/coordination/#handoffs), the Receiving sector may turn the aircraft 45° left or right and climb/descend to any level. So if required, nominate a restriction.
+    **MUN** should aim to handoff aircraft as soon as possible to **TBD**, so they can issue STAR clearance and commence sequencing. Remember, As per [Standard coordination procedures](../../../controller-skills/coordination/#handoffs), the Receiving sector may turn the aircraft 45° left or right and climb/descend to any level. So if required, nominate a restriction.
 
 ### YWE/WON/MUN/OXL/GTH/KAT Internal
 
-As per [Standard coordination procedures](../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** in the following scenarios:  
 - MUN to YWE for aircraft **not** on the Y12 or H119 airway (Changes permitted up to boundary for sequencing/descent purposes)  
@@ -83,26 +84,26 @@ That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** i
 
 ### KAT / SY TCU
 
-As per [Standard coordination procedures](../../controller-skills/coordination/#enr-tcu), all aircraft must be **Heads-up coordinated** prior to **20nm** from the boundary.  
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-tcu), all aircraft must be **Heads-up coordinated** prior to **20nm** from the boundary.  
 
 The Standard Assignable level from SY TCU to KAT is the lower of `F280` or the `RFL`, and tracking via KADOM.
 
-Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN** and/or **SDS** are online.
+Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN** and/or **SDS** are online.
 
-### WON / ESL APP
+### WON / ESL TCU
 #### Airspace
-By default, **ESL APP** owns the airspace within 30nm ESL, SFC-F200, unless stated otherwise by ad-hoc release or NOTAM.
+By default, **ESL TCU** owns the airspace within 30nm ESL, `SFC` to `F200`, unless stated otherwise by ad-hoc release or NOTAM.
 #### Departures
 Departures from YMES in to WON Class C will be coordinated at taxi, and will be requesting a level.
 
 !!! example
-    **ESL APP** -> **WON**: "Taxi, ALDN16 for YFLI DCT, Requesting F230"  
-    **WON** -> **ESL APP**: "ALDN16, F230"  
-    **ESL APP** -> **WON**: "F230, ALDN16"  
+    <span class="coldline">**ESL TCU** -> **WON**</span>: "Taxi, ALDN16 for YFLI DCT, Requesting F230"  
+    <span class="coldline">**WON** -> **ESL TCU**</span>: "ALDN16, F230"  
+    <span class="coldline">**ESL TCU** -> **WON**</span>: "F230, ALDN16"  
 
 #### Arrivals/Overfliers
-All aircraft transiting from WON to **ESL APP** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **ESL APP** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the WON and **ESL APP** controller agree on.
+All aircraft transiting from WON to **ESL TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **ESL TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the WON and **ESL TCU** controller agree on.
 
 !!! example
-    **WON** -> **ESL APP**: "via ANTLA, BFRT23, will be assigned F220, I have no restrictions on descent"  
-    **ESL APP** -> **WON**: "BFRT23, F220"  
+    <span class="hotline">**WON** -> **ESL TCU**</span>: "via ANTLA, BFRT23, will be assigned F220, I have no restrictions on descent"  
+    <span class="hotline">**ESL TCU** -> **WON**</span>: "BFRT23, F220"  

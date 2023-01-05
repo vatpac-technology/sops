@@ -28,12 +28,12 @@ Consideration of the Melbourne duty runway(s) should be made when nominating run
 ## Departures
 
 IFR flights shall be cleared via:  
-    a) When cloud base and visibility exceeds 2000 FT and 5 KM, visual departure;  
-    b) otherwise; Essendon SID(Radar).  
+    a) When cloud base and visibility exceeds `A020` and 5 KM, visual departure;  
+    b) otherwise; EN (RADAR) SID.  
 
 Start clearance is required for:  
     a) Flights to ML;  
-    b) Flights to MB and AV planned above A020 (i.e. via ML TCU Class C).  
+    b) Flights to MB and AV planned above `A020` (i.e. via ML TCU Class C).  
 
 ## Arrivals
 
@@ -53,7 +53,7 @@ ML TCU shall clear aircraft for approach via the appropriate arrival gate:
 
 ### VFR
 
-VFR arrivals from Class G shall be cleared (at not above **1500 FT**) via:
+VFR arrivals from Class G shall be cleared (at not above `A015`) via:
 
 | VFR Approach Point | RWY 17, 26 | RWY 36 |
 | ------------------------ | ----------| ----------|
@@ -76,12 +76,12 @@ VFR arrivals from Class G shall be cleared (at not above **1500 FT**) via:
 | 08     | Right |
 
 ### Circuit Altitude
-Circuits are to be flown at A015
+Circuits are to be flown at `A015`
 
 ## Separation
 
 ### Separation with SHEED Track
-By day only, ML TCU may require EN ADC to separate aircraft from the MONTY – SHEED track for RWY 34 ML during the Next call. EN ADC shall separate by restricting the departure to A015 until clear of the MONTY – SHEED track.
+By day only, ML TCU may require EN ADC to separate aircraft from the MONTY – SHEED track for RWY 34 ML during the Next call. EN ADC shall separate by restricting the departure to `A015` until clear of the MONTY – SHEED track.
 
 ### Additional EN ADC separation requirements
 EN TWR shall separate traffic in EN airspace with:  
@@ -92,7 +92,7 @@ d) EN arrivals from ML TCU inbound via Arrival Gates or as coordinated.
 
 ## Miscellaneous
 
-Traffic in EN TWR airspace shall squawk 0100 unless a discrete code is required.
+Traffic in EN ADC airspace shall squawk 0100 unless a discrete code is required.
 
 ## ATIS
 
@@ -111,28 +111,28 @@ Essendon departures that will not enter ML TCU Class C airspace are not required
 All IFR departures and VFR aircraft departing into Class C must be coordinated to ML TCU with a "Next" Call
 
 !!! example
-    **ML ADC** -> **ML TCU**: "Next, ABC"  
-    **ML TCU** -> **ML ADC**: "ABC, Unrestricted"  
-    **ML ADC** -> **ML TCU**: "Unrestricted, ABC" 
+    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, FD318, runway 35"  
+    <span class="hotline">**ML TCU** -> **ML ADC**</span>: "FD318, left heading 330, unrestricted"  
+    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Left 330, unrestricted, FD318"  
     `AIP GEN 3.4`
 
 #### Arrivals
 
-MAE must relay sequence to EN TWR, including transferring radar identification, prior to the aircraft reaching 15 NM from EN or 4 minutes from the Arrival Gate.
+MAE must relay sequence to EN ADC, including transferring radar identification, prior to the aircraft reaching 15 NM from EN or 4 minutes from the Arrival Gate.
 
-Sequence information must include:
-    a) Arrival gate or circuit entry
-    b) Runway (if other than ATIS nominated)
+Sequence information must include:  
+    a) Arrival gate or circuit entry  
+    b) Runway (if other than ATIS nominated)  
 
 !!! Note
-    For aircraft not tracking via an Arrival Gate (see ML TCU shall clear aircraft for approach via the appropriate arrival gate:), ML TCU is required to coordinate descent of aircraft into EN TWR airspace.
+    For aircraft not tracking via an Arrival Gate (see ML TCU shall clear aircraft for approach via the appropriate arrival gate:), ML TCU is required to coordinate descent of aircraft into EN ADC airspace.
 
-When “The Coffin” is released, coordinate any use of Runway 27 with EN TWR prior to use.
+When “The Coffin” is released, coordinate any use of Runway 27 with EN ADC prior to use.
 
 ### ML ADC / EN ADC
-EN TWR must advise ML TWR when “The Coffin” is activated or deactivated.
+EN ADC must advise ML ADC when “The Coffin” is activated or deactivated.
 
-EN TWR must advise ML TWR, for traffic awareness, when an ad hoc airspace release to EN TWR will cause an aircraft to pass within 3 NM of any runway at ML.
+EN ADC must advise ML ADC, for traffic awareness, when an ad hoc airspace release to EN ADC will cause an aircraft to pass within 3 NM of any runway at ML.
 
 ### Runway Change
 Any Runway change must be prior coordinated to **MAE**

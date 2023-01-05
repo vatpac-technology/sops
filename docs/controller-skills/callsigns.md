@@ -24,6 +24,7 @@ This page lists some of the most commonly used callsigns in Australia.
 | CFH  | CAREFLIGHT |
 | FD | FLYDOC |
 | HM | HEMS |
+| HND | HINTERLAND |
 | JTE  | JETEX |
 | JST | JETSTAR |
 | NWK  | NETLINK |
@@ -49,7 +50,7 @@ This page lists some of the most commonly used callsigns in Australia.
 
 | ICAO | Callsign | Country |         
 | ---- | ---------- | ---------- |
-| AAR | ASIANA | Korea |
+| AAR | ASIANA | South Korea |
 | AAL | AMERICAN | United States |
 | ACA | AIR CANADA | Canada |
 | AIC | AIR INDIA | India |

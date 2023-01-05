@@ -12,7 +12,6 @@
 | Canberra SMC    | Canberra Ground  | 121.700          | CB_GND                                   |
 | Canberra ATIS        |                | 127.450         | YSCB_ATIS                                |
 
-In the absence of an SMC controller, ADC shall assume the SMC responsibilities.
 ## Airspace
 
 <figure markdown>
@@ -27,14 +26,14 @@ In the absence of an SMC controller, ADC shall assume the SMC responsibilities.
 **Non-Jet** Aircraft planned via **AKMIR** or **DUBUS** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
 
 !!! example
-    Jet Aircraft planned via TANTA, assigned runway 35, shall be given the TANTA# departure.
+    Jet Aircraft planned via TANTA, assigned runway 35, shall be given the TANTA SID.
 
 a) Jet or Non-Jet aircraft departing **Off Mode** that don't meet the above critera; or   
 b) Aircraft that cannot accept a Procedural SID  
 Shall be assigned the **Radar SID**.
 
 !!! example
-    Non-Jet Aircraft planned via TANTA, assigned runway 35, shall be given the CANBERRA# departure.
+    Non-Jet Aircraft planned via TANTA, assigned runway 35, shall be given the CB (RADAR) SID.
 
 ## VFR Operations
 
@@ -47,9 +46,9 @@ Aircraft operating in the circuit area are to remain on the ADC frequency. The p
 
 The circuit direction is not specified in the airways clearance, but with a take-off or touch-and-go clearance.
 
-Military jet training circuits are conducted at 3,500 ft, unless otherwise requested by the pilot. ADC shall notify the TCU of the beginning and end of the sortie.
+Military jet training circuits are conducted at `A035`, unless otherwise requested by the pilot. ADC shall notify the TCU of the beginning and end of the sortie.
 
-City Scenic Flights are available by day and to the west of the aerodrome. Aircraft on these routes shall be cleared at 4,500 ft.
+City Scenic Flights are available by day and to the west of the aerodrome. Aircraft on these routes shall be cleared at `A045`.
 
 | Runway              | City Flight One      | City Flight Two       |
 | ------------------ | -------------- | ---------------- | 
@@ -73,16 +72,17 @@ City Scenic Flights are available by day and to the west of the aerodrome. Aircr
 Auto Release shall be used for aircraft that are:    
 a) Departing from a runway nominated on the ATIS; and  
 b) Issued a Procedural SID; and   
-c) Assigned `A100`;
+c) Assigned `A100`;  
 
 Any aircraft that don't meet these criteria must be coordinated to CB TCU with a "Next" Call
 
 !!! example
-    **CB ADC** -> **CB TCU**: "Next, ABC"  
-    **CB TCU** -> **CB ADC**: "ABC, Assigned Left 270, Unrestricted"  
-    **CB ADC** -> **CB TCU**: "Assigned Left 270, Unrestricted, ABC"  
-    **CB ADC** -> **ABC**: "ABC, Assigned Left 270, Runway 35, Cleared for Takeoff"  
-    **ABC** -> **CB ADC**: "Assigned Left 270, Runway 35, Cleared for Takeoff, ABC"  
+    <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Next, XEB, runway 35"  
+    <span class="hotline">**CB TCU** -> **CB ADC**</span>: "XEB, Assigned Left 270, Unrestricted"  
+    <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Assigned Left 270, Unrestricted, XEB"    
+    
+    **CB ADC**: "XEB, Assigned Left 270, Runway 35, Cleared for Takeoff"  
+    **XEB**: "Assigned Left 270, Runway 35, Cleared for Takeoff, XEB"  
     `AIP GEN 3.4`
 
 ### Runway Change

@@ -16,10 +16,7 @@
 | **Sydney ACD**         | **Sydney Delivery**| **133.800**          | **SY_DEL**                                   |
 | Sydney ATIS        |                | 126.250          | YSSY_ATIS                                |
 
-† **Non-standard position** – may only be used in accordance with VATPAC Ratings and Controller Positions Policy (link)
-
-In the absence of an ACD controller, SMC shall asssume the ACD responsibilities.  
-In the absence of an SMC controller, ADC shall assume the SMC and ACD responsibilities.
+† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 ### Maneuvering Area Responsibility
 <figure markdown>
 ![YSSY Maneuvering Area](img/yssy_maneuvring_area.png){ width="500" }
@@ -37,13 +34,10 @@ Except when the traffic situation warrants, taxi clearances shall conform to the
 !!! tip
     For aircraft taxiing northbound on B, consider instructing them to hold short of taxiway B8 when 34L or 16R are in use for arrivals, in order to separate from aircraft using the B7 & B9 rapid exits.
 
-Intersection departures are not permitted for Jet aircraft on runway 34L. `ERSA FAC YSSY`
+Intersection departures are not permitted for Jet aircraft on runway 34L.  
+`ERSA FAC YSSY`
 ## Airspace
-Tower airspace is defined as between SFC to 500 FT, within the lateral limits:
-a) Wanda Helicopter Route; then
-b) along the SY CTR boundary; to
-c) Long Bay; then
-d) direct to YSSY.
+Tower airspace is defined as between `SFC` to `A005`, within a 4nm arc reference YSSY ARP, extended to the south along the Wanda Helicopter Route to the SY CTR boundary.  The 4nm arc begins again at Long Bay. 
 
 <figure markdown>
 ![Sydney Tower Airspace](img/SYTWR.png){ width="700" }
@@ -52,11 +46,11 @@ d) direct to YSSY.
 
 ### Helicopter Operations
 #### Departures
-VFR helicopters are generally processed via one of Sydney's Helicopter Routes.  IFR helicopters should conform to fixed wing ops and be processed via the **Radar SID** from an appropriate runway, unless a visual departure is acceptable.
+VFR helicopters are generally processed via one of Sydney's Helicopter Routes.  IFR helicopters should conform to fixed wing ops and be processed via the **SY (RADAR) SID** from an appropriate runway, unless a visual departure is acceptable.
 
 SY ACD will issue airways clearance for a Helicopter Route through a coded clearance.
 !!! tip
-    You can find details of each Helicopter Route (including applicable clearance limits) in the YSSY ERSA FAC.
+    You can find details of each Helicopter Route (including applicable clearance limits) in the `YSSY ERSA FAC`.
 
 !!! example
     **YOE:** "Sydney Delivery, helicopter YOE, for the Harbour Bridge 5 outbound, request clearance"  
@@ -66,7 +60,8 @@ SY ACD will issue airways clearance for a Helicopter Route through a coded clear
 Most helicopters will be capable of departing from their company helipad.  If reposition is required to Helipad 1 (the primary helipad), this must be approved by **SY ADC**.
 !!! example
     **YOE:** "Sydney Tower, helicopter YOE, Hotel 7, request reposition Hotel 1"  
-    **SY ADC:** "YOE, reposition approved"
+    **SY ADC:** "YOE, reposition approved"  
+    **YOE:** "Reposition approved, YOE"
 
 Helipad 1 is controlled by **SY ADC** and treated like a runway (takeoff clearances required).  All other pads are outside Tower's jurisdiction and do not require a takeoff/landing clearance, however, approval must still be sought for helicopters to become airborne in the SY CTR.  This approval is communicated in the form of a requirement to *'report airborne'*.
 !!! example
@@ -74,6 +69,7 @@ Helipad 1 is controlled by **SY ADC** and treated like a runway (takeoff clearan
     **SY ADC:** "HWD, Sydney Tower, report airborne"  
     **HWD:** "HWD"  
      
+    **HWD:** "HWD, airborne"  
     **SY ADC:** "HWD, contact departures"  
     **HWD:** "Departures, HWD"
 
@@ -81,7 +77,8 @@ Helicopter operations should be accommodated without unduly delaying fixed wing 
 !!! example
     **SY ADC:** "HSZ, traffic is a 737 shortly rolling on runway 34R, report in sight"  
     **HSZ:** "Traffic sighted, HSZ"  
-    **SY ADC:** "HSZ, maintain own separation, caution wake turbulence, report airborne"
+    **SY ADC:** "HSZ, maintain own separation, caution wake turbulence, report airborne"  
+    **HSZ:** "Maintain own separation, wilco, HSZ"
 
 #### Arrivals
 VFR helicopters are generally processed via by one of Sydney's Helicopter Routes.  IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway.
@@ -89,7 +86,7 @@ VFR helicopters are generally processed via by one of Sydney's Helicopter Routes
 SY TCU will clear helicopters for all inbound Helicopter Routes, with the exception of the `CAPE BANKS 5 INBOUND` and `WANDA 5 INBOUND`.  Tower controllers should assess the current traffic situation and issue clearances for these aircraft when available.  Each procedure is delivered as a coded clearance, which includes automatic altitude assignment, tracking, and a clearance limit designed to separate helicopters from fixed-wing aircraft.
 
 !!! example
-    **YZD:** "Sydney Tower, helicopter YZD, Jibbon Point, 500ft, received Tango, request Cape Banks 5 Inbound"  
+    **YZD:** "Sydney Tower, helicopter YZD, Jibbon Point, A005, received Tango, request Cape Banks 5 Inbound"  
     **SY ADC:** "YZD, Sydney Tower, cleared Cape Banks 5 Inbound, report at the Container Terminal"  
     **YZD:** "Cleared Cape Banks 5 Inbound, YZD"  
 
@@ -98,12 +95,12 @@ SY TCU will clear helicopters for all inbound Helicopter Routes, with the except
     **YZD:** "Cleared visual approach, wilco, YZD"
 
 !!! tip
-    You can find details of each Helicopter Route (including applicable clearance limits) in the YSSY ERSA FAC.
+    You can find details of each Helicopter Route (including applicable clearance limits) in the `YSSY ERSA FAC`.
 
 During times of peak fixed wing traffic, instruct helicopters to hold at their designated clearance limit on their Helicopter Route and maintain own separation on approach to the heliport.
 !!! example
-    **SY ADC:** "YOE, traffic is a 717 on a 4nm final to runway 25, report in sight"  
-    **YOE:** "Traffic sighted, YOE"  
+    **SY ADC:** "YOE, hold at the clearance limit, traffic is a 717 on a 4nm final to runway 25, report in sight"  
+    **YOE:** "Hold at the clearance limit, traffic sighted, YOE"  
     **SY ADC:** "YOE, pass behind that aircraft, maintain own separation, caution wake turbulence, cleared visual approach, report on the ground"  
     **YOE:** "Pass behind the 717, maintain own separation, cleared visual approach, YOE" 
 
@@ -170,23 +167,23 @@ Unless operationally required, aircraft shall be assigned the following runways 
 Jet Aircraft planned via **KADOM**, **WOL**, **RIC**, or **ENTRA**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
 
 !!! example
-    Jet Aircraft planned via ENTRA, assigned runway 16L, shall be given KEVIN# departure, ENTRA transition.
+    Jet Aircraft planned via ENTRA, assigned runway 16L, shall be given KEVIN SID, ENTRA transition.
 
 Jet Aircraft **not** planned via **KADOM**, **WOL**, **RIC**, or **ENTRA**, and **not** using Runway 25, shall be assigned the **Procedural SID** appropriate to their runway, with the **RADAR** transition.
 
 !!! example
-    Jet Aircraft planned via EVONN, assigned runway 34R, shall be given MARUB# departure, RADAR transition.
+    Jet Aircraft planned via EVONN, assigned runway 34R, shall be given MARUB SID, RADAR transition.
 
 !!! note
-    Heavier aircraft on long-haul flights may not be able to achieve the Climb Gradient required of the Procedural SIDs. In this instance, they shall be assigned the **Radar SID**, as it has a shallower minimum Climb Gradient. If in doubt, ask the pilot.
+    Heavier aircraft on long-haul flights may not be able to achieve the Climb Gradient required of the Procedural SIDs. In this instance, they shall be assigned the **SY (RADAR) SID**, as it has a shallower minimum Climb Gradient. If in doubt, ask the pilot.
 
-All other aircraft (non-jet aircraft, aircraft requiring a shallow climb gradient, and all aircraft using runway 25) shall be assigned the **Radar SID**.
+All other aircraft (non-jet aircraft, aircraft requiring a shallow climb gradient, and all aircraft using runway 25) shall be assigned the **SY (RADAR) SID**.
 
 !!! example
-    Non-Jet Aircraft planned via CORDO, assigned runway 16R, shall be given the SYDNEY# departure.
+    Non-Jet Aircraft planned via PEGSU, assigned runway 16R, shall be given the SY (RADAR) SID.
 
 !!! tip
-    A radar SID (e.g. SYDNEY 2 departure) is distinct from a procedural SID with a RADAR transition (eg, RICHMOND 5 departure, RADAR transition). A Radar SID can be identified in the DAPs (link) as having a "(RADAR)" at the end of the name.
+    A radar SID (e.g. **SY (RADAR) SID**) is distinct from a procedural SID with a RADAR transition (eg, **RIC SID, RADAR transition**). A radar SID can be identified in the [DAPs](https://www.airservicesaustralia.com/aip/current/dap/AeroProcChartsTOC.htm) as having a *"(RADAR)"* at the end of the name.
 ## ATIS
 #### Approach Types
 
@@ -214,55 +211,53 @@ When SODPROPS are in operation, the ATIS OPR INFO shall include:
     <figure markdown>
         ![IVAs on the ATIS](img/yssy_atis_example.png)
     </figure>
-
-
-
 ## Coordination
 ### SY ADC / SY TCU
 #### Auto Release
+!!! important
+    Sydney utilises auto release for all **procedural** SIDs and the **SY (RADAR)** SID provided aircraft are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
-"Next" Coordination is a procedure where the **SY ADC** controller gives a heads-up to the SY TCU controller about an impending departure. The SY TCU controller will respond by assigning a heading to the aircraft, for the **SY ADC** controller to pass on with their takeoff clearance.
+"Next" coordination is required for:  
+    a) Aircraft not assigned the standard assignable level    
+    b) Jets departing 16L via WOL, except during SODROPS  
+    c) After a go around, the next departure from that runway  
+    d) Visual departures  
+    e) Departures to YSBK
 
 !!! example
-    **SY ADC** -> **SY TCU**: "Next, ABC"  
-    **SY TCU** -> **SY ADC**: "ABC, Heading 030"  
-    **SY ADC** -> **SY TCU**: "Heading 030, ABC"  
-    **SY ADC** -> **ABC**: "ABC, Assigned heading right 030, Runway 34R, Cleared for Takeoff"  
-    **ABC** -> **SY ADC**: "Right heading 030, Runway 34R, Cleared for Takeoff, ABC"  
-    `AIP GEN 3.4`
+    <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Next, MHQ, Runway 34R"  
+    <span class="hotline">**SY TCU** -> **SY ADC**</span>: "MHQ, heading 030, unrestricted"  
+    <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Heading 030 unrestricted, MHQ"  
 
-"Next" Coordination to SY TCU is additionally required for:  
-    a) Departures to YSBK  
-    b) Jets departing 16L via WOL, except during SODPROPS  
-    c) after a go-around, the next departure from that runway
+    **SY ADC**: "MHQ, Assigned heading right 030, Runway 34R, Cleared for Takeoff"  
+    **MHQ**: "Right heading 030, Runway 34R, Cleared for Takeoff, MHQ"  
+    `AIP GEN 3.4`
 
 The SY TCU controller can suspend/resume Auto Release at any time, with the concurrence of **SY ADC**.
 
-"Next" Coordination to SY TCU is not required for aircraft assigned a **Procedural SID** and the Standard Assignable Level, or an aircraft assigned a **Radar SID** and assigned a standard assignable heading (see Coordination below).
-
 ### SY ADC / SY SMC
-#### Ground Operations
-As per this (link) diagram, **SY ADC** has Responsibility of the Runways, meaning **SY SMC** must always coordinate with **SY ADC** to allow aircraft to cross runways whilst taxiing. **SY SMC** may request, or **SY ADC** may elect, to release certain runways to the **SY SMC** controller, so they may let aircraft cross the runway without coordination (For example, Releasing runway 07/25 to **SY SMC** whilst PROPS are in progress.) This Release may also be cancelled at the controller's discretion.
+#### Inactive Runway Releases
+**SY ADC** has responsibility of all runways, requiring **SY SMC** to coordinate with **SY ADC** to allow aircraft to cross runways whilst taxiing. **SY SMC** may request, or **SY ADC** may elect, to release certain runways to the **SY SMC** controller, so they may let aircraft cross the runway without coordination (for example, releasing runway 07/25 to **SY SMC** whilst PROPS are in progress.) This release may also be cancelled at the controller's discretion.
 
 ### SY ACD / SY TCU
 The controller assuming responsibility of **SY ACD** shall give heads-up coordination to the relevant SY TCU controller prior to the issue of the following clearances:  
 a) VFR Departures  
-b) Aircraft using a runway not on the ATIS
+b) Aircraft using a runway not on the ATIS 
 
 !!! example
     **TEK:** "Sydney Delivery, TEK, for Shellharbour via Cronulla, A025, request clearance"  
     **SY ACD:** "TEK, Sydney Delivery, standby"    
 
-    **SY ACD** -> **SY TCU**: "TEK, requesting clearance for Shellharbour via Cronulla, A025"  
-    **SY TCU** -> **SY ACD**: "TEK, cleared to Shellharbour via Cronulla, A025"  
-    **SY ACD** -> **SY TCU**: "Cleared to Shellharbour via Cronulla, A025, TEK"   
+    <span class="coldline">**SY ACD** -> **SY TCU**</span>: "TEK, requesting clearance for Shellharbour via Cronulla, A025"  
+    <span class="coldline">**SY TCU** -> **SY ACD**</span>: "TEK, cleared to Shellharbour via Cronulla, A025"  
+    <span class="coldline">**SY ACD** -> **SY TCU**</span>: "Cleared to Shellharbour via Cronulla, A025, TEK"   
 
     **SY ACD:** "TEK, cleared to Shellharbour via Cronulla, climb A025, squawk 0552, departure frequency 123.0"  
     **TEK:** "Cleared to Shellharbour via Cronulla, climb A025, squawk 0552, departure frequency 123.0, TEK"  
 
 ## Standard Assignable Departure Headings
 
-Aircraft that have been cleared the **Radar SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required to the SY TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
+Aircraft that have been cleared the **SY (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required to the SY TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
 
 | Runway | Jet | Non-Jet 
 | ----------------- | -------------- | ---------------- |
@@ -272,9 +267,6 @@ Aircraft that have been cleared the **Radar SID** must receive an assigned headi
 | 25                | 300, 240          | 020, 210, 240 |
 | 34L                | 290          | 230 |
 | 34R                | 030, 070          | 350 |
-
-!!! information
-    Where multiple standard assignable headings are available, assign the heading most suitable for the aircraft's direction of flight.
 
 !!! tip
     If strong winds are present at altitude, TWR/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
