@@ -11,10 +11,13 @@
   --md-card-a-hover: rgba(241, 245, 249, 1);
   --md-default-table-header-text: #fff;
   --md-top: var(--md-default-bg-color);
+  --md-typeset-link: rgb(104, 148, 230);
+  --md-typeset-link-hover: #448aff;
+  --md-typeset-a-color: rgb(104, 148, 230);
   --hotline: #fff820a1;
   --coldline: #35b9ff66;
-
 }
+
 [data-md-color-scheme="slate"] {
   --md-default-bg-color: #0f172a;
   --md-accent-fg-color:         #344767;
@@ -23,6 +26,9 @@
   --md-card-a-hover: #293858;
   --md-default-table-header-text: #fff;
   --md-top: #1b253b;
+  --md-typeset-link: rgb(104, 148, 230);
+  --md-typeset-link-hover: #448aff;
+  --md-typeset-a-color: rgb(104, 148, 230);
   --hotline: #b7b10291;
   --coldline: #16aeff6e;
 }
@@ -72,9 +78,11 @@ h4 {
     padding: 0 .2941176471em;
     word-break: break-word;
 }
-
+.md-typeset a {
+  color: var(--md-typeset-link)
+}
 .md-typeset a:hover {
-  color: rgb(104, 148, 230)
+  color: var(--md-typeset-link-hover)
 }
 
 /*Standardize Font Awesome CSS Styling*/
