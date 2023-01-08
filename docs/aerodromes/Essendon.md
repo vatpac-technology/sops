@@ -5,7 +5,6 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | Essendon ADC      | Essendon Tower   | 125.100          | EN_TWR                                   |
@@ -13,7 +12,6 @@
 | Essendon ATIS     |                | 119.800         | YMEN_ATIS                                |
 
 ## Airspace
-
 <figure markdown>
 ![EN Tower Airspace](img/ENTWR.png){ width="500" }
 </figure>
@@ -26,7 +24,6 @@
 Consideration of the Melbourne duty runway(s) should be made when nominating runways. The effect of Melbourne traffic on a runway selection takes priority over compliance with DAP Noise Abatement Procedures.
 
 ## Departures
-
 IFR flights shall be cleared via:  
     a) When cloud base and visibility exceeds `A020` and 5 KM, visual departure;  
     b) otherwise; EN (RADAR) SID.  
@@ -38,7 +35,6 @@ Start clearance is required for:
 ## Arrivals
 
 ### IFR
-
 ML TCU shall clear aircraft for approach via the appropriate arrival gate: 
 
 | Runway | Arrival Gate |
@@ -52,7 +48,6 @@ ML TCU shall clear aircraft for approach via the appropriate arrival gate:
     EN ADC must not permit aircraft to depart from the RWY 26 extended centreline until passed LUY and within the vertical limits of EN airspace.
 
 ### VFR
-
 VFR arrivals from Class G shall be cleared (at not above `A015`) via:
 
 | VFR Approach Point | RWY 17, 26 | RWY 36 |
@@ -91,8 +86,20 @@ c) ML RWY 34 arrivals from overhead EN;
 d) EN arrivals from ML TCU inbound via Arrival Gates or as coordinated.  
 
 ## Miscellaneous
-
 Traffic in EN ADC airspace shall squawk 0100 unless a discrete code is required.
+
+### Melbourne City Orbits
+EN ADC is responsible for facilitating aircraft requesting city orbits. They shall be conducted at an altitude of:  
+`A015` by day  
+`A022` by night
+
+!!! example
+    **EOG**: "Essendon Tower, EOG, approaching Williamstown, A015, Requesting 1 left-hand city orbit, in receipt of L"  
+    **EN ADC**: "EOG, Essendon Tower, cleared 1 left-hand city orbit A015"  
+    **EOG**: "Cleared 1 left-hand city orbit A015, EOG"  
+    *When orbit is complete and aircraft is leaving CTA laterally:*  
+    **EN ADC**: "EOG, control services terminated, frequency change approved"  
+    **EOG**: "EOG"
 
 ## ATIS
 
@@ -100,7 +107,6 @@ YMEN ATIS identifiers only uses letters `A` through to `M`, due to nearby YMML u
 
 ## Coordination
 ### EN SMC / ML TCU
-
 When an aircraft requests start clearance, the EN SMC controller shall coordinate with ML TCU to obtain the start clearance.
 
 ### EN ADC / ML TCU
@@ -117,7 +123,6 @@ All IFR departures and VFR aircraft departing into Class C must be coordinated t
     `AIP GEN 3.4`
 
 #### Arrivals
-
 MAE must relay sequence to EN ADC, including transferring radar identification, prior to the aircraft reaching 15 NM from EN or 4 minutes from the Arrival Gate.
 
 Sequence information must include:  
@@ -138,5 +143,4 @@ EN ADC must advise ML ADC, for traffic awareness, when an ad hoc airspace releas
 Any Runway change must be prior coordinated to **MAE**
 
 ## Standard Assignable Departure Levels
-
 All Aircraft: `A030` or `RFL` if lower
