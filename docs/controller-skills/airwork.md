@@ -19,16 +19,20 @@ Airwork can be conducted in any defined area specified by the pilot or ATC. This
 ### Remarks
 An aircraft's Flight Plan Remarks can be the first sign that airwork will be occurring. It can help you as a controller start your planning nice and early, and stay ahead of the game. If the pilot has left detailed remarks, it also means you can spend less time on the frequency asking them what they're doing.
 #### STS/ (Status) field
-`STS/MEDEVAC` - Aircraft engaged in life critical transportation of severely ill patients
+(Aircraft that has declared a Mayday)  
+(Aircraft that has declared a Pan Pan)  
+`STS/MEDEVAC` - Aircraft engaged in life critical transportation of severely ill patients  
 `STS/FFR` - Aircraft engaged in Fire or Flood Relief operations  
 `STS/SAR` - Aircraft engaged in Search and Rescue Operations  
 `STS/HEAD STATE` - Aircraft carrying the Prime Minister  
 `STS/STATE` - Aircraft part of the defence force, military, or customs.  
 `STS/HOSP` - Aircraft engaged in non-life-critical transportation of medical operations, personnel, or ill patients.
 
-!!! important
-    As a controller, you may elect to prioritise aircraft in the order shown above (Top being Highest Priority). However, As per the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct){target=new} Section B6, *"No flight may declare itself to have priority over another"*. You are permitted to simulate the higher priority operations above by giving track shortening and conducting coordination as required, as long as it does not impose a delay on any other aircraft (other than normal delays associated with sequencing, weather, etc).
+##### VATSIM Code of Conduct
+[Section B6](https://vatsim.net/docs/policy/code-of-conduct){target=new}:  
+*"No flight may declare itself to have priority over another. Pilots are permitted to declare in-flight emergencies only when under air traffic control. If, for any reason, air traffic control requests the pilot to terminate the emergency, then the pilot must do so IMMEDIATELY or disconnect from the network. Pilots are not permitted to simulate any unlawful act including, but not limited to, declaring a hijack by any method, including entering a transponder code of 7500."*
 
+Persuant to the above, you are permitted to simulate the higher priority operations above, such as emergency aircraft and MEDEVAC operations, by giving track shortening and conducting coordination as required, as long as it does not impose a delay on any other aircraft (other than normal delays associated with sequencing, weather, etc).
 #### Examples
 `DLE/ESDAN0010 AV0020 MB0030 RMK/ESDAN26ILS AV36VOR MB4000NDB`  
 A pilot intending to do the ILS Runway 26 at YMEN, followed by the VOR Runway 36 at YMAV, then the 4000ft NDB-A at YMMB.
