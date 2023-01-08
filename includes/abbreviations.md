@@ -170,3 +170,4 @@
 *[RTCC]: Radar Terrain Clearance Chart
 *[PJE]: Parachute Jump Exercise (Parachute Operations)
 *[SAR]: Search and Rescue
+*[SVY]: Aerial Survey
