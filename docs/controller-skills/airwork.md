@@ -16,6 +16,32 @@ Airwork can be conducted in any defined area specified by the pilot or ATC. This
     **KIY**: "PPB, No Reported IFR Traffic"  
     **PPB**: "PPB"
 
+### Remarks
+An aircraft's Flight Plan Remarks can be the first sign that airwork will be occurring. It can help you as a controller start your planning nice and early, and stay ahead of the game. If the pilot has left detailed remarks, it also means you can spend less time on the frequency asking them what they're doing.
+#### STS/ (Status) field
+`STS/MEDEVAC` - Aircraft engaged in life critical transportation of severely ill patients
+`STS/FFR` - Aircraft engaged in Fire or Flood Relief operations  
+`STS/SAR` - Aircraft engaged in Search and Rescue Operations  
+`STS/HEAD STATE` - Aircraft carrying the Prime Minister  
+`STS/STATE` - Aircraft part of the defence force, military, or customs.  
+`STS/HOSP` - Aircraft engaged in non-life-critical transportation of medical operations, personnel, or ill patients.
+
+!!! important
+    As a controller, you may elect to prioritise aircraft in the order shown above (Top being Highest Priority). However, As per the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct){target=new} Section B6, *"No flight may declare itself to have priority over another"*. You are permitted to simulate the higher priority operations above by giving track shortening and conducting coordination as required, as long as it does not impose a delay on any other aircraft (other than normal delays associated with sequencing, weather, etc).
+
+#### Examples
+`DLE/ESDAN0010 AV0020 MB0030 RMK/ESDAN26ILS AV36VOR MB4000NDB`  
+A pilot intending to do the ILS Runway 26 at YMEN, followed by the VOR Runway 36 at YMAV, then the 4000ft NDB-A at YMMB.
+
+`STS/SAR DLE/2352S13601E0130 RMK/SAR OPERATIONS WI 10NM OF 2352S13601E`  
+A pilot intending to conduct Search and Rescue operations within a 10nm radius centred on 10° 52' S 136° 01' E.
+
+`RMK/PJE OPS ROCKINGHAM`  
+A pilot intending to conduct Parachute Operations overhead Rockingham
+
+`RMK/SVY OPS WI MAP 420`  
+A pilot intending to conduct Aerial Survey Operations as per Map 420
+
 ### General Operations
 
 #### Ops Normal time
@@ -69,9 +95,6 @@ SAR Operations are most commonly flown in a circular area (eg Radius from a Fix,
     **DDU**: "DDU, Requesting Traffic for Search and Rescue operations for the next 90 minutes, within a 10nm Radius of 23 52 South, 136 01 East, Not above A060"  
     **ASP**: "DDU, No Reported IFR Traffic. Call Ops Normal time on the hour"  
     **DDU**: "Ops Normal on the hour, DDU"  
-
-!!! note
-    Commonly, another part of SAR operations (usually immediately afterwards) is MEDEVAC operations. As per the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct){target=new} Section B6, *"No flight may declare itself to have priority over another"*. As a controller, you are permitted to simulate MEDEVAC operations by giving track shortening and conducting coordination as required, as long as it does not impose a delay on any other aircraft, in order to be in compliance with the Code of Conduct
 
 ### Practice Instrument Approaches
 A Practice Instrument Approach is simply an aircraft conducting an Instrument Approach with no intention of a full-stop landing. This is pretty straight-forward outside controlled airspace, as the pilot will often just request a traffic statement for a given radius from a fix. In controlled airspace, however, there can be quite a few things to consider.
@@ -254,28 +277,37 @@ Best practice is to clear the aircraft to operate within a reasonably sized radi
 
 Ensure you maintain separation assurance with other aircraft in the area. There is nothing wrong with assigning an interim level, holding them at a particular level, or vectoring them away from their intended area of operation, in order to facilitate the movements of other traffic.
 
+#### Broadcasts
+Throughout the Parachute operations, you can expect the PJE aircraft to make multiple broadcasts on your frequency to traffic in the area. Unless the aircraft addresses you directly (eg *"Sydney Departures and traffic in the Wollongong area"*), there is no need to respond to these traffic broadcasts
+
+!!! example
+    **DJV**: "Traffic in the Wollongong city area, DJV is a Caravan, 5 minutes to Parachute drop from flight levels overhead Flagstaff Point, expect 6 canopies, Traffic Wollongong city area"
+
 #### Drop and Descent
 !!! example
     **DJV**: "DJV, Broadcasts complete, Request Drop and Descent"  
 
-You are required to separate all aircraft from a **2nm Radius** of the Drop Zone, once a drop clearance has been given. This is because you are no longer just separating from the aircraft, but the Parachutes themselves as well. Your responsibility for separating from the Parachutes terminates once the pilot reports the chutes are OCTA.
+You are required to separate all aircraft from a **2nm Radius** of the Drop Zone (ie, the appropriate radar standard, 3nm for TCU, 5nm for Enroute, **Plus** 2nm Radius of the Drop Zone), once a drop clearance has been given. This is because you are no longer just separating from the aircraft, but the Parachutes themselves as well. Your responsibility for separating from the Parachutes terminates once the pilot reports the chutes are OCTA.
 
 Once again, when giving drop and descent clearance, consider giving an interim level, or a heading, if required for separation.
 
 !!! example
-    **SDS**: "DJV, Cleared to Drop and leave controlled airspace descending tracking DCT YSHL, No Reported IFR Traffic. Report chutes OCTA."  
-    **DJV**: "Cleared to Drop and leave controlled airspace descending tracking DCT YSHL, Wilco, DJV."  
+    **SDS**: "DJV, Cleared to Drop and leave controlled airspace descending, not below the chutes, tracking DCT YSHL, No Reported IFR Traffic. Report chutes OCTA."  
+    **DJV**: "Cleared to Drop and leave controlled airspace descending, not below the chutes, tracking DCT YSHL, Wilco, DJV."  
 
 !!! note
-    Do not change the CFL to *"000"*. Leave the CFL as the original drop level, as you must separate from that level downwards (in CTA) until the chutes have been reported as OCTA. Write *"DROP (Cleaded Level)"* in the label to signify this. For example, an instruction of *"Cleared to Drop and descend to A090"* would be entered in to the label as *"DROP 090"*. *"Cleared to Drop and leave controlled airspace descending"* would be entered in to the label as *"DROP 000"*
+    *"Not below the chutes"* is so that you can separate from the last level vacated by the aircraft. If you do not instruct the aircraft to descend not below the chutes, then you would need to separate all the way from the drop height (in this case, F140) until the chutes are reported as OCTA.
 
 !!! example
     **DJV**: "DJV, Chutes and aircraft OCTA."  
-    **SDS**: "DJV, Frequency change approved"  
+    **SDS**: "DJV, Identification terminated, Frequency change approved"  
     **DJV**: "DJV"
 
+!!! note
+    "Frequency change approved" is given in this instance, as DJV is now a VFR aircraft in Class G airspace. DO NOT approve a frequency change to any PJE aircraft in Class E airspace, or any IFR PJE aircraft.
+
 #### IFR Operations
-Most procedures are the same for IFR aircraft, just remember that the situation changes when Class E airspace is involved, as it is now Controlled, and you must separate other IFR aircraft from the PJE aircraft and the chutes inside Class E airspace.
+Most procedures are the same for IFR aircraft, just remember that the situation changes when Class E airspace is involved, as it is now Controlled, and you must separate other IFR aircraft from the PJE aircraft and the chutes inside Class E airspace. As a controller, remember that you need to hold SARWATCH over the IFR aircraft in all Classes of airspace, until they cancel their SARWATCH or downgrade VFR.
 
 #### OCTA Operations
 VFR PJE aircraft operating wholly within Class G or Class E airspace are still required to make broadcasts on frequency, and they are entitled to a traffic statement for Drop and Descent.
