@@ -43,11 +43,10 @@ Extended Labels: **ON**
 ### Display
 ATC List: **ON**
 ### Strip Setup
-Sort: **TIME**  
+Sort: **TIME**  or **ALPHA** as preferred  
 Strips: **BEACON**
 ### Windows displayed
-**ADEP (Main airport)**  
-**ADES (Main airport)**  
+**ADEP (Towered airports in airspace)**  
 **Other**  
 **ARRIVAL LIST** (if airport is busy, eg during events)  
 **All ATISes** in your airspace  
@@ -81,7 +80,6 @@ Sort: **TIME**
 Strips: **BEACON**
 ### Windows displayed
 **ADEP (Airport)**  
-**ADES (Airport)**  
 **Other**  
 **ARRIVAL LIST** (if airport is busy, eg during events)  
 **ATIS**
