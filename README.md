@@ -6,9 +6,7 @@ The VATPAC SOPs site is an open-source collaborative project allowing members of
 
 Contribution guidelines can be found within the project under [Assist Us](https://vatpac-technology.github.io/sops/assist-us/). 
 
-**Before contributing** you should liaise with the VATPAC ATS Team to ascertain whether that particular SOP is needed. There is a fine-line between enabling a realistic service, and making our SOPs easy to navigate and understand.
-
-A specific channel for SOP development discussion exists on the VATPAC Discord. Please message the ATS Director to gain access to this channel.
+**Before contributing** you should liaise with the VATPAC ATS Team to ascertain whether that particular SOP is needed. There is a fine-line between enabling a realistic service, and making our SOPs easy to navigate and understand.  
 
 ## Build and Deployment
 
