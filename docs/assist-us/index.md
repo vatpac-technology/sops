@@ -19,6 +19,3 @@ We draw the line at things like low-visibilty and noise-abatement operations - w
 It's important that you read all of the Contribution documentation before making any changes. These will ensure that your PR's are approved and merged quickly.
 
 Additionally, we ask that you reach out to the ATS Team before opening a new PR for your addition. This ensures that this is a welcome feature to the project.
-
-!!! hint ""
-    There is a channel on the VATPAC Discord dedicated to the discussion and management of these SOPs, which is not open by default to the Community. If you wish to be added to this channel, please contact someone from the ATS Team, and they'll add you.
