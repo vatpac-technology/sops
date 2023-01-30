@@ -87,28 +87,45 @@ This permits controllers to assign aircraft either the Alpha or Victor STAR and 
 ### ML ADC / ML TCU
 #### Auto Release
 
-Auto Release shall be used for aircraft that are:    
-a) Departing from a runway nominated on the ATIS; and  
-b) Issued a Procedural SID; and   
-c) Assigned `A050`;
+!!! important
+    Melbourne utilises auto release for all **procedural** SIDs and the **ML (RADAR)** SID provided aircraft are assigned the Standard Assignable Level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
-Any aircraft that don't meet these criteria must be coordinated to ML TCU with a "Next" Call
+'Next' coordination is required for aircraft that are:   
+a) Departing from a non-ATIS runway; or  
+b) Assigned a level other than `A050`; or  
+c) Requiring an assigned heading other than a Standard Assignable Heading; or
+d) The next departure after a go around
 
 !!! example
-    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, ABC, runway 34"  
-    <span class="hotline">**ML TCU** -> **ML ADC**</span>: "ABC, Track Extended Centreline, unrestricted"  
-    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Track Extended Centreline, unrestricted, ABC"  
+    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, JIA, runway 34"  
+    <span class="hotline">**ML TCU** -> **ML ADC**</span>: "JIA, Track Extended Centreline, unrestricted"  
+    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Track Extended Centreline, unrestricted, JIA"  
 
-    **ML ADC**: "ABC, Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff"  
-    **ABC**: "Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff, ABC"  
+    **ML ADC**: "JIA, Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff"  
+    **JIA**: "Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff, JIA"  
     `AIP GEN 3.4`
 
 ### Runway Change
-Any Runway change must be prior coordinated to **MAE** and **EN ADC**.
+Any runway change must be prior coordinated to **MAE** and **EN ADC**.
 
 ## Departures Controller
 
 Refer to [Melbourne TCU Airspace Division](../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
+
+## Standard Assignable Departure Headings
+
+Aircraft that have been cleared the **ML (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required to the ML TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
+
+| Runway | W | NE | SE | S |
+| ---- | ---- | ---- | ---- | ---- |
+| 16* | 290 | 290 | 160 | 260 |
+| 27 | 320 | 290 | 260 | 260 |
+| 34 | 340 | 340 | 340 | 260 |
+
+
+*\*When Runway 09 is in use for arrivals, all Runway 16 departures shall be assigned heading 160.*
+
+When Runway 09 is in use for departures, ML TCU shall nominate a heading to ML ADC for use as a standard assignable heading.
 
 ## Standard Assignable Levels
 All Aircraft: `A050` or `RFL` if lower
