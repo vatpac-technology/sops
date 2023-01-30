@@ -34,6 +34,10 @@ MB CTR reverts to Class G when **MB ADC** is offline, and is administered by the
 EN CTR reverts to Class G when **EN ADC** is offline, and is administered by the relevant ML TCU controller.  
 AV CTR Class D `SFC` to `A007` reverts to Class G and `A007` to `A025` to Class E when **AV ADC** is offline, and is administered by the relevant ML TCU controller.  
 
+## Departure Procedures
+### ML (RADAR) SID
+The **ML (RADAR) SID** is used for all non-jet IFR departures (and certain jet aircraft) from YMML.  Unlike at other aerodromes, **ML ADC** does *not* need to coordinate these departures with a 'Next' call, provided they are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-headings).
+
 ## Arrival Procedures
 ### Level Assignment
 When assigning levels on descent to aircraft, remember that you will not receive "Next" Coordination on aircraft assigned Standard Assignable Levels (`A050` for most aircraft), meaning an aircraft could depart at any time without prior warning and climb to `A050`. To maintain separation assurance between arrivals and departures, do not assign below `A060` to arriving aircraft until they are clear of the active runway's departure path.
@@ -208,7 +212,7 @@ The Standard assignable level from ENR to ML TCU is `A090`. All other levels mus
 
 Auto Release shall be used for aircraft that are:      
 a) Departing from a runway nominated on the ATIS; and  
-b) Issued a Procedural SID, or a Radar SID with a [Standard assignable heading](#standard-assignable-headings); and   
+b) Issued a Procedural SID, or the ML (RADAR) SID with a [Standard assignable heading](#standard-assignable-headings); and   
 c) Assigned `A050`.
 
 Any aircraft that don't meet these criteria must be coordinated to ML TCU with a "Next" Call.  
@@ -222,15 +226,16 @@ Any aircraft that don't meet these criteria must be coordinated to ML TCU with a
     `AIP GEN 3.4`
 
 ##### Standard Assignable Headings
-The following Standard Assignable Headings may be used for aircraft assigned the Radar SID.
+The following Standard Assignable Headings may be used for aircraft assigned the ML (RADAR) SID, depending on their direction of travel.
 
-| Aircraft tracking | RWY 16  | RWY 27  | RWY 34  |
-| ----------------| --------- | --------- | --------- |
-| to the NORTH EAST   | Right H290* | Right H290 | H340 |
-| to the WEST | Right H290* | Left H320 | H340 |
-| to the SOUTH |H160 | H260 | Left H260 |
-| to the SOUTH EAST |H160 | H260 | H340 |
-|*When Runway 09 is in use for arrivals, Runway 16 departures shall be assigned H160.||||
+| Runway | W | NE | SE | S |
+| ---- | ---- | ---- | ---- | ---- |
+| 16* | 290 | 290 | 160 | 260 |
+| 27 | 320 | 290 | 260 | 260 |
+| 34 | 340 | 340 | 340 | 260 |
+
+
+*\*When Runway 09 is in use for arrivals, all Runway 16 departures shall be assigned heading 160.*
 
 When Runway 09 is in use for departures, ML TCU shall nominate a heading to ML ADC for use as a standard assignable heading.
 

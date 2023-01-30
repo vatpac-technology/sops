@@ -14,6 +14,7 @@
 | Melbourne ATIS        |                | 118.000         | YMML_ATIS                                |
 
 ## Airspace
+### Sunbury Corridor
 **ML ADC** is responsible for the Sunbury Corridor airspace as shown below. It is only available to Day VFR Helicopters.
 
 <figure markdown>
@@ -21,10 +22,23 @@
   <figcaption>Melbourne TCU Airspace Administration</figcaption>
 </figure>
 
+Due to the close proximity of the airspace to the arrival and departure paths at YMML, controllers should be aware of surrounding traffic before issuing a clearance to helicopters.  If necessary, issue a clearance limit for separation, then instruct helicopters to report sighting and maintain own separation with other aircraft.  Alternatively, tower controllers can simulate visual separation provided no risk of collision exists and both aircraft remain in sight of the controller at all times.
+
 !!! example
-    **HEMS3:** "Melbourne Tower, HEMS3, Approaching Sunbury Water Tank, A020, Request clearance for Sunbury Corridor"  
-    **ML ADC:** "HEMS3, Enter the zone, Track Sunbury Corridor, not above A020"  
-    **HEMS3:** "Enter the zone, Track Sunbury Corridor, not above A020, HEMS3"
+    **HEMS3:** "Melbourne Tower, HEMS3, approaching Sunbury Water Tank, A020, for Essendon via the Sunbury Corridor, request clearance"  
+    **ML ADC:** "HEMS3, cleared to Essendon, track Sunbury Corridor, not above A020, clearance limit Powerline Crossing"  
+    **HEMS3:** "Cleared to Essendon, track Sunbury Corridor, not above A020, clearance limit Powerline Crossing, HEMS3"  
+
+    **ML ADC:** "HEMS3, report sighting a Jetstar A320, 4nm final runway 16"  
+    **HEMS3:** "Traffic sighted, HEMS3"  
+    **ML ADC:** "HEMS3, cleared direct Melbourne, thence Essendon, pass behind that aircraft and maintain own separation"  
+    **HEMS3:** "Cleared direct Melbourne, thence Essendon, pass behind the A320, maintain own separation, HEMS3"
+
+*Remember to pass traffic information to both aircraft.*
+
+!!! example
+    **ML ADC:** "JST515, traffic is a helicopter, 2nm northwest of the field, tracking for Essendon and maintaining own separation with you, runway 16, cleared to land"  
+    **JST515:** "Runway 16, cleared to land, JST515"
 
 ## Runway Modes
 If winds are too great, single runway operations may be necessary (eg, Runway 16 for Arrivals and Departures). However, pending wind limitations (Crosswind <20kts, Tailwind <5kts), the following runway modes are to be used
