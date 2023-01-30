@@ -84,8 +84,6 @@ Non-Jet aircraft, and aircraft that cannot accept a Procedural SID, shall be ass
 
 When parallel runways are used for departures, the ATIS OPR INFO shall include:  
 `INDEPENDENT PARALLEL DEPARTURES IN PROGRESS`  
-When parallel runways are used (excluding SODPROPS), the ATIS OPR INFO shall include:  
-`INDEPENDENT PARALLEL APPROACHES IN PROGRESS`  
 When SODPROPS are in operation, the ATIS OPR INFO shall include:  
 `SIMULTANEOUS OPPOSITE DIRECTION PARALLEL RUNWAY OPERATIONS IN PROGRESS`
 #### Approach Types
