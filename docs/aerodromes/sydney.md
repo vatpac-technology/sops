@@ -230,8 +230,7 @@ When SODPROPS are in operation, the ATIS OPR INFO shall include:
     <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Heading 030 unrestricted, MHQ"  
 
     **SY ADC**: "MHQ, Assigned heading right 030, Runway 34R, Cleared for Takeoff"  
-    **MHQ**: "Right heading 030, Runway 34R, Cleared for Takeoff, MHQ"  
-    `AIP GEN 3.4`
+    **MHQ**: "Right heading 030, Runway 34R, Cleared for Takeoff, MHQ"
 
 The SY TCU controller can suspend/resume Auto Release at any time, with the concurrence of **SY ADC**.
 

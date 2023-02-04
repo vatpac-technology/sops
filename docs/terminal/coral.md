@@ -52,8 +52,7 @@ MK ADC and RK ADC both own the Class D airspace within their respective CTRs, `S
 !!! example
     <span class="hotline">**MK ADC** -> **MK TCU**</span>: "Next, ABC, runway 14"  
     <span class="hotline">**MK TCU** -> **MK ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
-    <span class="hotline">**MK ADC** -> **MK TCU**</span>: "Heading 150 Visual unrestricted, ABC"    
-    `AIP GEN 3.4`
+    <span class="hotline">**MK ADC** -> **MK TCU**</span>: "Heading 150 Visual unrestricted, ABC"
 
 The TCU controller can suspend/resume Auto Release at any time, with the concurrence of **ADC**.
 
