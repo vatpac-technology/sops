@@ -39,8 +39,7 @@ Any aircraft not meeting the above criteria must be prior coordinated to HUO.
 
 !!! example
     <span class="hotline">**LTA** -> **HUO**</span>: "via IRSOM, QFA114, with your concurrence, will be assigned F150, for my separation with ZYX"  
-    <span class="hotline">**HUO** -> **LTA**</span>: "QFA114, concur F150"  
-    `AIP GEN 3.4`
+    <span class="hotline">**HUO** -> **LTA**</span>: "QFA114, concur F150"
 
 #### Arrivals
 The Standard assignable level from HUO to HBA/LTA is:  
@@ -72,8 +71,7 @@ HBA will coordinate all YMHB arrivals to HB ADC prior to **5 mins** from the bou
 
 !!! example
     <span class="coldline">**HB TCU** -> **HB ADC**</span>: "via BUSKA, QJE1789, for the ILS”  
-    <span class="coldline">**HB ADC** -> **HB TCU**</span>: "QJE1789"  
-    `AIP GEN 3.4`
+    <span class="coldline">**HB ADC** -> **HB TCU**</span>: "QJE1789"
 
 ### LT ADC / LTA
 #### Airspace
@@ -97,5 +95,4 @@ LTA will coordinate all YMLT arrivals to LT ADC prior to **5 mins** from the bou
 
 !!! example
     <span class="coldline">**LT TCU** -> **LT ADC**</span>: "via IRSOM, JST416, for the DGA, will join left downwind 32L”  
-    <span class="coldline">**LT ADC** -> **LT TCU**</span>: "JST416"  
-    `AIP GEN 3.4`
+    <span class="coldline">**LT ADC** -> **LT TCU**</span>: "JST416"

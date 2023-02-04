@@ -36,14 +36,13 @@ Reserved
 Due to the low level of CTA at these aerodromes, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
 !!! example
-    **ABC**: "Perth Approach, ABC, PC12, POB 8, IFR, Taxiing YPJT for YPKG, Runway 06L"  
-    **PH TCU**: "ABC, Perth Approach, Squawk 3601, No Reported IFR Traffic, Report Ready at the Holding Point for Airways Clearance"  
-    **ABC**: "Squawk 3601, Wilco, ABC"   
+    **AAC**: "Perth Approach, AAC, PC12, POB 8, IFR, Taxiing YPJT for YPKG, Runway 06L"  
+    **PH TCU**: "AAC, Perth Approach, Squawk 3601, No Reported IFR Traffic, Report Ready at the Holding Point for Airways Clearance"  
+    **AAC**: "Squawk 3601, Wilco, AAC"   
 
-    **ABC**: "ABC, Ready Runway 06L, Request clearance"  
-    **PH TCU**: "ABC, Cleared to YPKG via PH, Flight Planned Route. Make Visual Right turn DCT PH, Climb to A040"  
-    **ABC**: "Cleared to YPKG via PH, Flight Planned Route. Make Visual Right turn DCT PH, Climb to A040, ABC"  
-    `AIP GEN 3.4`  
+    **AAC**: "AAC, Ready Runway 06L, Request clearance"  
+    **PH TCU**: "AAC, Cleared to YPKG via PH, Flight Planned Route. Make Visual Right turn DCT PH, Climb to A040"  
+    **AAC**: "Cleared to YPKG via PH, Flight Planned Route. Make Visual Right turn DCT PH, Climb to A040, AAC"
 
 ## Airspace Division
 
@@ -89,8 +88,7 @@ The Standard assignable level from ENR to PH TCU is `A090`. All other levels mus
 !!! example
     <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Next, ABC, runway 03"  
     <span class="hotline">**PH TCU** -> **PH ADC**</span>: "ABC, Heading 010, unrestricted"  
-    <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Heading 010, unrestricted, ABC"  
-    `AIP GEN 3.4`
+    <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Heading 010, unrestricted, ABC"
 
 "Next" Coordination to PH TCU is additionally required for:   
     a) Aircraft on a non-standard level.  

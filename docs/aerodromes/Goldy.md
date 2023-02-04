@@ -106,8 +106,7 @@ Any aircraft that don't meet these criteria must be coordinated to BN TCU with a
     <span class="hotline">**CG ADC** -> **BN TCU**</span>: "Heading 030 unrestricted, CBN"  
 
     **CG ADC**: "CBN, Assigned heading left 030, Runway 14, Cleared for Takeoff"  
-    **CBN**: "Left heading 030, Runway 14, Cleared for Takeoff, CBN"  
-    `AIP GEN 3.4`
+    **CBN**: "Left heading 030, Runway 14, Cleared for Takeoff, CBN"
 
 A start clearance is required for aircraft planned to Brisbane. Start clearance must be coordinated with BN TCU.
 

@@ -82,8 +82,7 @@ Any aircraft that don't meet these criteria must be coordinated to CB TCU with a
     <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Assigned Left 270, Unrestricted, XEB"    
     
     **CB ADC**: "XEB, Assigned Left 270, Runway 35, Cleared for Takeoff"  
-    **XEB**: "Assigned Left 270, Runway 35, Cleared for Takeoff, XEB"  
-    `AIP GEN 3.4`
+    **XEB**: "Assigned Left 270, Runway 35, Cleared for Takeoff, XEB"
 
 ### Runway Change
 Any Runway change must be prior coordinated to **CB TCU** and **CB ADC**.

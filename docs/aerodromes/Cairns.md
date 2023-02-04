@@ -107,15 +107,13 @@ Clearances for aircraft entering the CTR must be worded so as to leave no possib
 
 !!! Example
     **NDR**: "Cairns Tower, NDR, Edmonton, A015, for the Western VFR Corridor, Request Clearance"  
-    **CS ADC**: "NDR, enter the CTR tracking via the Western VFR corridor at A015. Remain on the corridor until advised."    
-    `AIP GEN 3.4`
+    **CS ADC**: "NDR, enter the CTR tracking via the Western VFR corridor at A015. Remain on the corridor until advised."
 
 If a clearance limit is associated with the clearance, then it must be reiterated to the pilot to remain “on or west of the VFR Corridor”
 
 !!! Example
     **NDR**: "Cairns Tower, NDR, Edmonton, A015, for the Western VFR Corridor, Request Clearance"  
-    **CS ADC**: "NDR, enter the CTR tracking via the Western VFR Corridor at A015. Clearance limit the Admirty Island, Remain on or west of the Western VFR Corridor at all times."  
-    `AIP GEN 3.4`
+    **CS ADC**: "NDR, enter the CTR tracking via the Western VFR Corridor at A015. Clearance limit the Admirty Island, Remain on or west of the Western VFR Corridor at all times."
 
 ### Inbound
 
@@ -123,8 +121,7 @@ ACFT planning to enter the CS CTR between: Mt Gorton, Cape Grafton and Upolo Cay
 
 !!! Example
     **NDR**: "Cairns Tower, NDR, Cape Grafton, A005, Inbound, Information Alpha, Request Clearance"  
-    **CS ADC**: "NDR, enter the CTR tracking for a Right Base runway 33, A005."  
-    `AIP GEN 3.4`
+    **CS ADC**: "NDR, enter the CTR tracking for a Right Base runway 33, A005."
 
 ### Circuit Direction
 
@@ -158,8 +155,7 @@ All Departing Aircraft must be coordinated to CS TCU with a "Next" Call
     <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Heading 030, unrestriced, HND151"   
 
     **CS ADC**: "HND151, Assigned heading Left 030, Runway 15, Cleared for Takeoff"  
-    **HND151** ->: "Left heading 030, Runway 15, Cleared for Takeoff, HNT151"  
-    `AIP GEN 3.4`
+    **HND151**: "Left heading 030, Runway 15, Cleared for Takeoff, HNT151"
 
 #### Separation
 CS ADC shall notify Approach and Departure when:    

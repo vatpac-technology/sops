@@ -55,9 +55,9 @@ VFR departures will depart the control zone at `A010`.
 Aircraft should advise planned Departure Procedure to **AF SMC** with TAXI call and **AF ADC** with READY call.
 
 !!! example
-    "Archer Ground, Cherokee VPF is on the Main Apron, solo, Western Departure, received information Alpha, request taxi"
+    **VPF:** "Archer Ground, Cherokee VPF is on the Main Apron, solo, Western Departure, received information Alpha, request taxi"
 
-    "Archer Tower, Cherokee VPF is B8, runway 10 Left for Western Departure, ready"
+    **VPF:** "Archer Tower, Cherokee VPF is B8, runway 10 Left for Western Departure, ready"
 
 ## Circuits
 The circuit direction changes depending on time of day and runway being used.
