@@ -106,8 +106,7 @@ Any aircraft / runway configuration that doesn't meet the above criteria, requir
     <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Heading 160 unrestricted, QLK404D"   
 
     **BN ADC**: "QLK404D, Assigned heading Left 160, Runway 19L, Cleared for Takeoff"  
-    **QLK404D**: "Left heading 160, Runway 19L, Cleared for Takeoff, QLK404D"  
-    `AIP GEN 3.4`
+    **QLK404D**: "Left heading 160, Runway 19L, Cleared for Takeoff, QLK404D"
 
 
 ## Departures Controller

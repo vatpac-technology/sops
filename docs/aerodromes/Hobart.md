@@ -52,23 +52,20 @@ All IFR Aircraft departing Cambridge shall be assigned a **Visual Departure** or
 !!! Example
     **NDR:** "Hobart Ground, NDR, for Devonport, Request Clearance"  
     **HB SMC:** "NDR, Cleared to Devonport via KANLI flight plan route, KANLI3 Departure, Climb via SID A045, Squawk 4432"
-    `AIP GEN 3.4`
 
 When ready to taxi and prior to leaving the apron aircraft must contact **HB ADC**, advising intended runway for departure and receipt of YMHB ATIS, to obtain traffic information.
 
 !!! Example
     **NDR:** "Hobart Tower, NDR, taxiing Cambridge Runway 32, received Hobart Information D"  
     **HB ADC:** "NDR, No reported IFR traffic, report ready"  
-    **NDR:** "Wilco, NDR"  
-    `AIP GEN 3.4`
+    **NDR:** "Wilco, NDR"
 
 Takeoff clearances are not given. Aircraft will remain clear of the active runway and report ready to HB ADC. Aircraft must not enter an active runway or become airborne until departure instructions have been issued.
 
 !!! Example
     **NDR:** "NDR, Ready"  
     **HB ADC:** "NDR, track via the KANLI3 departure, report airborne"  
-    **NDR:** "Track via the KANLI3 departure, wilco, NDR"  
-    `AIP GEN 3.4`
+    **NDR:** "Track via the KANLI3 departure, wilco, NDR"
 
 
 ### Arrivals
@@ -126,7 +123,6 @@ Clearances for aircraft entering the CTR must be worded so as to leave no possib
 !!! Example
     **NDR:** "Hobart Tower, NDR, Campania, A015, on the Victor Northwest, received Romeo, request clearance"  
     **HB ADC:** "NDR, enter the CTR tracking via the Victor Northwest at A015."
-    `AIP GEN 3.4`
 
 ## Coordination
 ### Departures
@@ -140,8 +136,7 @@ Clearances for aircraft entering the CTR must be worded so as to leave no possib
     <span class="hotline">**HB ADC** -> **HB TCU**</span>: "Heading 150 Visual unrestricted, ABC"  
 
     **HB ADC**: "ABC, Assigned heading right 150 Visual, Runway 12, Cleared for Takeoff"  
-    **ABC**: "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"  
-    `AIP GEN 3.4`
+    **ABC**: "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"
 
 The HBA controller can suspend/resume Auto Release at any time, with the concurrence of **HB ADC**.
 

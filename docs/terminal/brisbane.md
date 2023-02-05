@@ -54,8 +54,8 @@ Due to the low level of CTA (`A015`) in the AF CTR when **AF ADC** is offline, i
 
     **ABC**: "ABC, Ready Runway 28R, Request clearance"  
     **BN TCU**: "ABC, Cleared to YBSU via BN, Flight Planned Route. Make Visual right turn DCT BN, Climb to A030"  
-    **ABC**: "Cleared to YBSU via BN, Flight Planned Route. Make Visual right turn DCT BN, Climb to A030, ABC"  
-    `AIP GEN 3.4`  
+    **ABC**: "Cleared to YBSU via BN, Flight Planned Route. Make Visual right turn DCT BN, Climb to A030, ABC"
+
 ## Airspace Division
 
 The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, **BAC** and **BMN** change based on the Runway Mode.
@@ -117,8 +117,7 @@ Any aircraft that don't meet these criteria must be coordinated to BN TCU with a
 !!! example
     <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Next, ABC, runway 19L"  
     <span class="hotline">**BN TCU** -> **BN ADC**</span>: "ABC, Heading 030, unrestricted"  
-    <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Heading 030 unrestricted, ABC"   
-    `AIP GEN 3.4`
+    <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Heading 030 unrestricted, ABC"
 
 ### BN TCU / AF ADC
 #### Departures
@@ -132,8 +131,7 @@ The Standard assignable levels for YBAF departures is the lower of `A040` or the
     <span class="coldline">**BN TCU** -> **AF ADC**</span>: "DEF, YCDR, TVT, Flight Planned Route, A040, Squawk 3601"  
     <span class="coldline">**AF ADC** -> **BN TCU**</span>: "YCDR, TVT, Flight Planned Route, A040, Squawk 3601, DEF"  
 
-    **AF ADC** Will then pass the airways clearance to DEF.  
-    `AIP GEN 3.4`
+    **AF ADC** Will then pass the airways clearance to DEF.
 
 #### Next Call
 When aircraft planned via a CTA departure are ready for takeoff and expected to depart imminently, **AF ADC** shall seek release of the aircraft through a 'Next' call.
