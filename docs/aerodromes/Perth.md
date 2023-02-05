@@ -93,8 +93,7 @@ When both Runway 03 and Runway 06 are nominated as departure runways, broadcast 
     <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Heading 010 unrestricted, ABC"  
 
     **PH ADC**: "ABC, Assigned heading left 010, Runway 03, Cleared for Takeoff"  
-    **ABC**: "Left heading 010, Runway 010, Cleared for Takeoff, ABC"  
-    `AIP GEN 3.4`
+    **ABC**: "Left heading 010, Runway 010, Cleared for Takeoff, ABC"
 
 "Next" Coordination to PH TCU is additionally required for:  
     a) Aircraft on a non-standard level.  

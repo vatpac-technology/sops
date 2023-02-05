@@ -33,8 +33,7 @@ BIK will provide final sequencing actions and descent into YSSY.  The BIK sector
 
 !!! example
     **QLK43:** "Melbourne Centre, QLK43, maintaining F190"  
-    **BIK:** "QLK43, Melbourne Centre, runway 34L"  
-    `AIP GEN 3.4`
+    **BIK:** "QLK43, Melbourne Centre, runway 34L"
 
 If no subsectors are online, it is advisable to continue this practice, issuing STAR clearance with airways clearance or on first contact (see the WOL & GUN notes below) and leaving runway assignment until the aircraft enters the BIK sector.
 
@@ -49,8 +48,8 @@ WOL is reponsible for issuing STAR clearances, initial descent, and sequencing a
 !!! example
     *RXA6116 has departed YMRY for YSSY and is making a departure call*  
     **RXA6116:** "RXA6116, 4nm northwest of Moruya, passing A038, climbing F160, estimate ATGOD on the hour"  
-    **WOL:** "RXA6116, identified, cleared to YSSY via ATGOD flight plan route, ODALE7 arrival, climb F160"  
-    `AIP GEN 3.4`
+    **WOL:** "RXA6116, identified, cleared to YSSY via ATGOD flight plan route, ODALE7 arrival, climb F160"
+    
 ### Gundagai (GUN)
 GUN is reponsible for issuing STAR clearances and initial descent for aircraft inbound to YSSY via RIVET, and STAR clearances *(but not runway assignment)* for aircraft inbound via ODALE.  The BIK controller will issue runway assignment to aircraft cleared the ODALE STAR on first contact.  
 
@@ -58,7 +57,6 @@ GUN is reponsible for issuing STAR clearances and initial descent for aircraft i
     *VOZ655 (operated by a SAAB 340) has departed YSCB for YSSY and been handed off from CB TCU to GUN*  
     **VOZ655:** "Melbourne Centre, VOZ655, climbing F130"  
     **GUN:** "VOZ655, Melbourne Centre, cleared ODALE7 arrival, climb F130"
-    `AIP GEN 3.4`
 
     
 GUN is also responsible for initial sequencing actions into YSSY. Aircraft cruising above `F250` should be assigned *no lower* than `F250` and handed to BIK for further descent.  Aircraft cruising below `F250` should be transferred to BIK at their cruise level.

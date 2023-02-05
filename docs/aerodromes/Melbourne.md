@@ -105,8 +105,7 @@ d) The next departure after a go around
     <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Track Extended Centreline, unrestricted, JIA"  
 
     **ML ADC**: "JIA, Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff"  
-    **JIA**: "Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff, JIA"  
-    `AIP GEN 3.4`
+    **JIA**: "Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff, JIA"
 
 ### Runway Change
 Any runway change must be prior coordinated to **MAE** and **EN ADC**.

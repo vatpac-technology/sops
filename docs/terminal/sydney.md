@@ -86,14 +86,12 @@ SFW/SFE should provide aircraft an approximate 'miles to run' on first contact, 
 A typical downwind will take roughly 25 track miles from the normal point have handover from SAN/SAS to SFE/SFW.
 
 !!! example
-    "QLK402, Sydney Director, descend to A040, 25 miles to run"  
-    `AIP GEN 3.4`
+    "QLK402, Sydney Director, descend to A040, 25 miles to run"
 
 SFW/SFE may provide distance to touchdown, when transferring an aircraft to tower after the aircraft is established on their approach runway centreline (see below).
 
 !!! example
-    "QFA490, 8 miles to touchdown, contact tower 120.5"  
-    `AIP GEN 3.4`
+    "QFA490, 8 miles to touchdown, contact tower 120.5"
 
 ### Instrument Approach
 
@@ -113,23 +111,23 @@ When conducting IVAs, aircraft shall not be transferred to **SY ADC** until esta
     **BNZ444:** "Left heading 360, join final Runway 34L, from that heading Cleared Independent Visual Approach, BNZ444"  
       
     **SFW:** "BNZ444, Contact Sydney Tower 120.5"  
-    **BNZ444:** "120.5, BNZ444"  
-    `AIP GEN 3.4`
+    **BNZ444:** "120.5, BNZ444"
 
 ## Sydney Harbour Scenic Flights
-Flights may be cleared for one of two standard scenic flight routes at `A015`, **Harbour Scenic ONE** or **Harbour Scenic TWO**, which are described below. Pilot preference should be accommodated where traffic permits.
+Flights may be cleared for one of two standard scenic flight routes at `A015`, **Harbour Scenic One** or **Harbour Scenic Two**, which are described below. Pilot preference should be accommodated where traffic permits.
 
 Aircraft must track via Class G airspace to Long Reef and contact SY TCU prior to reaching Long Reef requesting a ‘Harbour Scenic’ clearance. Attempt to identify the aircraft, and if a clearance cannot be given immediately, instruct the pilot to remain in Class G airspace.
 
 !!! example
-    LOI, squawk 0542, remain clear of Class C airspace”  
-    `AIP GEN 3.4`
+    "LOI, squawk 0542, remain clear of Class C airspace"
 
-A **‘Harbour Scenic ONE’** (or **‘TWO’**) clearance is used to authorise flight in the nominated route at `A015`. Sydney QNH must be issued with the clearance.
+A **‘Harbour Scenic One’** (or **‘Two’**) clearance is used to authorise flight in the nominated route at `A015`. Sydney QNH must be issued with the clearance.
 
 !!! example
-    LOI, identified, cleared Harbour Scenic One, Sydney QNH 1014”  
-    `AIP GEN 3.4`
+    "LOI, identified, cleared Harbour Scenic One, Sydney QNH 1014"
+
+!!! caution
+    The Harbour Scenic One procedure may cause conflict with departures from Runway 34R to the north. Before issuing a Harbour Scenic One clearance, assess the traffic situation on the ground at YSSY and determine whether a departure to the north of the harbour is likely in the next few minutes. If necessary, instruct the aircraft to remain OCTA and advise of the delay, or alternatively, issue the Harbour Scenic Two clearance.
 
 <figure markdown>
 ![Sydney Harbour Scenic One](img/SYhs1.jpg){ width="400" }
@@ -141,7 +139,10 @@ A **‘Harbour Scenic ONE’** (or **‘TWO’**) clearance is used to authorise
   <figcaption>Sydney Harbour Scenic Two</figcaption>
 </figure>
 
-These can be displayed on vatSys using the `SY_VFR` map.
+These can be displayed on vatSys using the `SY_VFR` map.  
+
+!!! note
+    Remember that VFR aircraft are **not** separated from other VFR aircraft in class C airspace.  If other VFR aircraft are operating over the harbour, you are not required to provide a separation standard between them, however you must pass traffic information to both aircraft.
 
 ## Helicopter Operations
 ### Inbound/Outbound Routes
@@ -149,8 +150,7 @@ Helicopters outbound from YSSY will make contact with the Departures controller 
 
 !!! example
     **YZD:** "Sydney Departures, helicopter YZD, passing A009 on the Barracks 5 Outbound"  
-    **SY TCU:** "YZD, Departures, identified"  
-    `AIP GEN 3.4`
+    **SY TCU:** "YZD, Departures, identified"
 
 Helicopters tracking inbound to YSSY will generally do so via a Helicopter Route.  Aircraft are required to contact the TCU controller for clearance along these routes, with the exception of the `CAPE BANKS 5 INBOUND` and `WANDA 5 INBOUND` for which they should contact **SY ADC** directly.  
 
@@ -160,8 +160,7 @@ Controllers should identify the aircraft and then provide clearance if traffic p
     **HSZ:** "Sydney Departures, helicopter HSZ, Sydney Heads, A010, received Delta, request Harbour Bridge 5 Inbound"  
     **SY TCU:** "HSZ, squawk 0552"  
 
-    **SY TCU:** "HSZ, identified, cleared Harbour Bridge 5 Inbound"  
-    `AIP GEN 3.4`
+    **SY TCU:** "HSZ, identified, cleared Harbour Bridge 5 Inbound"
 
 !!! note
     Some Helicopter Routes may conflict with fixed wing approach/departure paths, so use common sense to separate helicopters when required.  For example, during 34 PROPS, it may be more suitable for helicopters to track via the `CAPE BANKS 5 INBOUND` rather than taking the `MAROUBRA 5 INBOUND`, due to it's close proximity to the **MARUB SID**.  In any case, if pilots are unfamiliar with local landmarks, simplify your instructions to assist them while maintaining separation.
@@ -185,13 +184,12 @@ Helicopters should be identified and then cleared for the `BONDI 5 NORTHBOUND` o
     **SY TCU:** "YOE, Sydney Approach, squawk 0451"  
 
     **SY TCU:** "YOE, identified, cleared Bondi 5 Northbound, Sydney QNH 1024"
-    `AIP GEN 3.4`
 
 Once the aircraft exits CTA at Long Bay Headland (southbound) or Sydney Heads (northbound), cancel their identification and control services.  If the helicopter is likely to request a clearance via one of Sydney's Helicopter Routes, consider instructing them to remain on their assigned squawk code to assist with identification.
 
 !!! example
-    "YOE, clear of controlled airspace, identification and control service terminated, squawk 1200, frequency change approved"  
-    `AIP GEN 3.4`
+    "YOE, clear of controlled airspace, identification and control service terminated, squawk 1200, frequency change approved"
+
 #### Sector Coded Clearances
 To reduce frequency congestion, several commonly used geographically defined areas are designated with lateral and vertical limits and provided upon request via a coded clearance to helicopter aircraft.
 
@@ -221,10 +219,9 @@ Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, i
 
     **ABC**: "LOA, ready Runway 11C"  
     **SY TCU**: "LOA, cleared to YSHL via ANKUB, flight planned route, Bankstown 8 Departure, climb via SID A030"  
-    **LOA**: "Cleared to YSHL via ANKUB, flight planned route, Bankstown 8 Departure, climb via SID A030, LOA"  
-    `AIP GEN 3.4`
-## Airspace Division
+    **LOA**: "Cleared to YSHL via ANKUB, flight planned route, Bankstown 8 Departure, climb via SID A030, LOA"
 
+## Airspace Division
 The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW** and **SFE** change based on the Runway Mode.
 
 !!! note
@@ -273,8 +270,7 @@ Any aircraft tracking from **SAS** or **SAN** airspace, or **not** assigned the 
 
 !!! example
     <span class="hotline">**SY TCU** -> **ARL**</span>: "JST789, with your concurrence, will be assigned F240, for my separation with ANZ12"  
-    <span class="hotline">**ARL** -> **SY TCU**</span>: "JST789, concur F240"  
-    `AIP GEN 3.4`
+    <span class="hotline">**ARL** -> **SY TCU**</span>: "JST789, concur F240"
 
 #### Arrivals
 Standard assignable levels from ENR to SY TCU are as follows:  
@@ -314,13 +310,11 @@ Any aircraft not meeting these requirements **must** be prior coordinated to DIR
     <span class="hotline">**SAS** -> **SFW**</span>: "Direct SOSIJ, QFA421"  
 
     **SAS:** "QFA421, cancel STAR, recleared direct SOSIJ, A060"  
-    **QFA421:** "Cancel STAR, recleared direct SOSIJ, A060, QFA421"  
-    `AIP GEN 3.4`
+    **QFA421:** "Cancel STAR, recleared direct SOSIJ, A060, QFA421"
 
 !!! example
     <span class="hotline">**SAS** -> **SFW**</span>: "VOZ456, with your concurrence, will be assigned A070, for my separation with UJI"  
-    <span class="hotline">**SFW** -> **SAS**</span>: "VOZ456, concur A070"   
-    `AIP GEN 3.4`
+    <span class="hotline">**SFW** -> **SAS**</span>: "VOZ456, concur A070"
 
 #### APP / DEP
 ##### Radar Entry Procedure (REP)
@@ -368,8 +362,7 @@ Any aircraft that don't meet these criteria must be coordinated to SY TCU with a
 !!! example
     <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Next, ADA4, runway 34R"  
     <span class="hotline">**SY TCU** -> **SY ADC**</span>: "ADA4, Heading 030, unrestricted"  
-    <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Heading 030, unrestricted, ADA4"  
-    `AIP GEN 3.4`
+    <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Heading 030, unrestricted, ADA4"
 
 The SY TCU controller can suspend/resume Auto Release at any time, with the concurrence of **SY ADC**.
 ### SY TCU / BK ADC
@@ -382,8 +375,7 @@ Aircraft departing YSBK in to SY TCU Class C will be coordinated from **BK ADC**
     <span class="coldline">**SY TCU** -> **BK ADC**</span>: "TFX12, BK, WOL, Flight Planned Route, BK8 Departure, A030, Squawk 3601"  
     <span class="coldline">**BK ADC** -> **SY TCU**</span>: "BK, WOL, Flight Planned Route, BK8 Departure, A030, Squawk 3601, TFX12"  
 
-    **BK ADC** Will then pass the airways clearance to TFX12  
-    `AIP GEN 3.4`
+    **BK ADC** Will then pass the airways clearance to TFX12.
 
 **BK ADC** will then give a "Next" call, where the SY TCU controller shall assign a heading (usually 290, for separation from YSSY).
 
@@ -391,11 +383,9 @@ Aircraft departing YSBK in to SY TCU Class C will be coordinated from **BK ADC**
     <span class="hotline">**BK ADC** -> **SY TCU**</span>: "Next, TFX12"  
     <span class="hotline">**SY TCU** -> **BK ADC**</span>: "TFX12"
 
-    **BK ADC** will then clear the aircraft to takeoff with the assigned heading, and instruct them to contact SY TCU passing `A020`.  
-    `AIP GEN 3.4`
+    **BK ADC** will then clear the aircraft to takeoff with the assigned heading, and instruct them to contact SY TCU passing `A020`.
 
 #### Arrivals
-
 YSBK arrivals shall be coordinated to **BK ADC** from SY TCU prior to transfer of jurisdiction.  If an instrument approach is planned, include the estimated approach time.
 
 !!! tip

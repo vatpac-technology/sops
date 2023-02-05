@@ -58,9 +58,8 @@ Aircraft planned via **IRSOM**, **ONAGI**, **NUNPA**, **MOTRA**, **IRONS**, **MO
     <span class="hotline">**LT TCU** -> **LT ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
     <span class="hotline">**LT ADC** -> **LT TCU**</span>: "Heading 150 Visual unrestricted, ABC"   
 
-    **LT ADC**: "ABC, Assigned heading right 150 Visual, Runway 14L, Cleared for Takeoff"  
-    **ABC**: "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"  
-    `AIP GEN 3.4`
+    **LT ADC**: "ABC, turn right heading 150 Visual, Runway 14L, Cleared for Takeoff"  
+    **ABC**: "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"
 
 The LTA controller can suspend/resume Auto Release at any time, with the concurrence of **LT ADC**.
 

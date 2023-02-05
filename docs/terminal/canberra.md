@@ -54,8 +54,7 @@ Any aircraft that don't meet these criteria must be coordinated to CB TCU with a
 !!! example
     <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Next, ABC, runway 35"  
     <span class="hotline">**CB TCU** -> **CB ADC**</span>: "ABC, Track Extended Centreline, unrestricted"  
-    <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Track Extended Centreline, unrestricted, ABC"   
-    `AIP GEN 3.4`
+    <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Track Extended Centreline, unrestricted, ABC"
 
 ### CB TCU Internal
 

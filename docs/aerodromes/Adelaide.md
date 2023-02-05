@@ -69,8 +69,7 @@ Any aircraft that don't meet these criteria must be coordinated to AD TCU with a
     <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Track Extended Centreline, RXA4362"  
     
     **AD ADC**: "RXA4362, Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff"  
-    **RXA4362**: "Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff, RXA4362"  
-    `AIP GEN 3.4`
+    **RXA4362**: "Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff, RXA4362"
 
 ## Standard Assignable Levels
 

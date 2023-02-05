@@ -119,8 +119,7 @@ All IFR departures and VFR aircraft departing into Class C must be coordinated t
 !!! example
     <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, FD318, runway 35"  
     <span class="hotline">**ML TCU** -> **ML ADC**</span>: "FD318, left heading 330, unrestricted"  
-    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Left 330, unrestricted, FD318"  
-    `AIP GEN 3.4`
+    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Left 330, unrestricted, FD318"
 
 #### Arrivals
 MAE must relay sequence to EN ADC, including transferring radar identification, prior to the aircraft reaching 15 NM from EN or 4 minutes from the Arrival Gate.
