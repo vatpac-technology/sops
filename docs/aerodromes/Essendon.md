@@ -12,12 +12,14 @@
 | Essendon ATIS     |                | 119.800         | YMEN_ATIS                                |
 
 ## Airspace
+EN ADC is responsible for the Class C airspace in the "Coffin" `SFC` to `A015`, and in the "South East Quadrant" `SFC` to `A020`.
+
 <figure markdown>
-![EN Tower Airspace](img/ENTWR.png){ width="500" }
+![EN ADC Airspace](img/ENTWR.png){ width="500" }
 </figure>
 
 <figure markdown>
-![EN Tower ML Airspace](img/MLTCUairspace.png){ width="500" }
+![EN ADC ML Airspace](img/MLTCUairspace.png){ width="500" }
 </figure>
 
 ## Runway Selection
@@ -62,7 +64,6 @@ VFR arrivals from Class G shall be cleared (at not above `A015`) via:
 ## VFR Operations
 
 ### Circuit Direction
-
 | Runway | Direction |
 | ------ | ----------|
 | 35     | Right  |
@@ -102,7 +103,6 @@ EN ADC is responsible for facilitating aircraft requesting city orbits. They sha
     **EOG**: "EOG"
 
 ## ATIS
-
 YMEN ATIS identifiers only uses letters `A` through to `M`, due to nearby YMML using letters `N` through `Y` 
 
 ## Coordination
@@ -117,12 +117,17 @@ Essendon departures that will not enter ML TCU Class C airspace are not required
 All IFR departures and VFR aircraft departing into Class C must be coordinated to ML TCU with a "Next" Call
 
 !!! example
-    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, FD318, runway 35"  
-    <span class="hotline">**ML TCU** -> **ML ADC**</span>: "FD318, left heading 330, unrestricted"  
-    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Left 330, unrestricted, FD318"
+    <span class="hotline">**EN ADC** -> **ML TCU**</span>: "Next, FD318, runway 35"  
+    <span class="hotline">**ML TCU** -> **EN ADC**</span>: "FD318, left heading 330, unrestricted"  
+    <span class="hotline">**EN ADC** -> **ML TCU**</span>: "Left 330, unrestricted, FD318"
+
+The Standard Assignable level from EN ADC to ML TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
+
+#### Runway Change
+Any Runway change must be prior coordinated to **ML TCU**
 
 #### Arrivals
-MAE must relay sequence to EN ADC, including transferring radar identification, prior to the aircraft reaching 15 NM from EN or 4 minutes from the Arrival Gate.
+ML TCU must relay sequence to EN ADC, including transferring radar identification, prior to the aircraft reaching 15 NM from EN or 4 minutes from the Arrival Gate.
 
 Sequence information must include:  
     a) Arrival gate or circuit entry  
@@ -131,15 +136,9 @@ Sequence information must include:
 !!! Note
     For aircraft not tracking via an Arrival Gate (see ML TCU shall clear aircraft for approach via the appropriate arrival gate:), ML TCU is required to coordinate descent of aircraft into EN ADC airspace.
 
-When “The Coffin” is released, coordinate any use of Runway 27 with EN ADC prior to use.
+When “The Coffin” is released, ML TCU is required to coordinate any use of Runway 27 prior to use.
 
 ### ML ADC / EN ADC
 EN ADC must advise ML ADC when “The Coffin” is activated or deactivated.
 
 EN ADC must advise ML ADC, for traffic awareness, when an ad hoc airspace release to EN ADC will cause an aircraft to pass within 3 NM of any runway at ML.
-
-### Runway Change
-Any Runway change must be prior coordinated to **MAE**
-
-## Standard Assignable Departure Levels
-All Aircraft: `A030` or `RFL` if lower

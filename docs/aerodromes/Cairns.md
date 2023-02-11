@@ -5,7 +5,6 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | Cairns ADC    | Cairns Tower   | 124.900          |  CS_TWR                 |
@@ -13,19 +12,18 @@
 | Cairns ACD    | Cairns Delivery   | 128.750          |  CS_DEL                  |
 | Cairns ATIS        |                | 131.100          | YBCS_ATIS                                |
 
+## Airspace
+CS ADC is responsible for the Class C airspace in the CS CTR `SFC` to `A015`.
+
+<figure markdown>
+![CS ADC Airspace](img/csadc.png){ width="700" }
+  <figcaption>CS ADC Airspace</figcaption>
+</figure>
 
 ## Taxiway Restrictions
 Taxiway’s A2 and A between A2 and A3 are not available to Aircraft above 7,000 kilograms. Taxiway A4 is not available to Aircraft above 90,000 kilograms. Taxiway Y is not available to aircraft above 10,000 kilograms.
 
-## Airspace
-
-<figure markdown>
-![Cairns Tower Airspace](img/CSTWR.png){ width="700" }
-  <figcaption>Cairns Tower Airspace</figcaption>
-</figure>
-
 ### Trinity Release
-
 **Daytime Hours Only**
 
 No coordination is required through Trinity Airspace for arriving aircraft in the sector Runway 15/33 extended centreline south clockwise CS 360R.  
@@ -38,13 +36,11 @@ Departing aircraft shall be transferred to TCU after ADC no longer has separatio
 </figure>
 
 ## Runway Selection
-
 The preferred Runway direction is Runway 15 
 
 ## Separation
 
 ### Reciprocal Runway Operations
-
 Prior to issuing departure instructions and until the departing aircraft is airborne and another method of separation is applied, TCU shall ensure that the arriving aircraft is:  
 a) assigned a level above and vertically separated from the assigned level of the departure and be at a distance which permits uninterrupted profile descent without loss of radar separation;  
 b) be confined to a square base leg to join not less than a 10 mile final; or  
@@ -56,7 +52,6 @@ The above does not apply if tower accepts responsibility for separation.
     The ADC may not accept responsibility for separation when a jet aircraft is departing Runway 33.
 
 ### ADC Separation Responsibility
-
 When weather conditions are suitable, ADC shall visually separate:  
 a) Left downwind with straight-in final for Runway 15 within 5 Miles;  
 b) Right downwind with final for runway 33 within 5 Miles:  
@@ -69,7 +64,6 @@ d) Aircraft departing to the Western VFR Corridor from all arriving aircrafton o
 ## Departures
 
 ### IFR Departures
-
 IFR aircraft shall be processed via one of the following SIDs:
 
 a) RWY 15, Jets via SWIFT: SWIFT SID. Non-Jets via NONUM: NONUM SID  
@@ -80,7 +74,6 @@ c) All others: CS (RADAR) SID
     Non-jet aircraft may be issued a Visual Departure.
 
 ### Assignable Heading Range
-
 | Runway | Heading |
 | ----------------- | ---------------|
 | 15                | 350° to 030°   |
@@ -102,7 +95,6 @@ Lowest assignable level in IMC for assigned heading is:
 ## VFR Operations
 
 ### Western VFR Corridor
-
 Clearances for aircraft entering the CTR must be worded so as to leave no possibility for misinterpretation by the pilot.
 
 !!! Example
@@ -116,7 +108,6 @@ If a clearance limit is associated with the clearance, then it must be reiterate
     **CS ADC**: "NDR, enter the CTR tracking via the Western VFR Corridor at A015. Clearance limit the Admirty Island, Remain on or west of the Western VFR Corridor at all times."
 
 ### Inbound
-
 ACFT planning to enter the CS CTR between: Mt Gorton, Cape Grafton and Upolo Cay at `A005`, must contact CS ADC for airways clearance
 
 !!! Example
@@ -124,7 +115,6 @@ ACFT planning to enter the CS CTR between: Mt Gorton, Cape Grafton and Upolo Cay
     **CS ADC**: "NDR, enter the CTR tracking for a Right Base runway 33, A005."
 
 ### Circuit Direction
-
 | Runway | Direction |
 | ----------------- | ---------------|
 | 15                | Left  |
@@ -132,7 +122,6 @@ ACFT planning to enter the CS CTR between: Mt Gorton, Cape Grafton and Upolo Cay
 
 ## ATIS
 ### Approach Types
-
 **Approach Expectation shall be `Expect Instrument Approach` when:**
 
 | Time           | Runway 15     | Runway 33                             |
@@ -144,8 +133,7 @@ ACFT planning to enter the CS CTR between: Mt Gorton, Cape Grafton and Upolo Cay
 
 ### CS ADC / CS TCU
 #### Departures
-
-**Auto Release is not Available in Cairns**  
+**Auto Release is not Available at YBCS**  
 
 All Departing Aircraft must be coordinated to CS TCU with a "Next" Call
 
@@ -157,13 +145,13 @@ All Departing Aircraft must be coordinated to CS TCU with a "Next" Call
     **CS ADC**: "HND151, Assigned heading Left 030, Runway 15, Cleared for Takeoff"  
     **HND151**: "Left heading 030, Runway 15, Cleared for Takeoff, HNT151"
 
+The Standard Assignable level from CS ADC to CS TCU is the lower of `A060` or the `RFL`.
 #### Separation
 CS ADC shall notify Approach and Departure when:    
 a) ADC is unable to visually separate traffic;   
 b) When ADC is able to resume visually separating traffic.    
 
 #### Missed Approach
-
 When weather conditions prevent the application of visual separation between a departure and a missed approach by ADC:  
 a) ADC must advise TCU  
 b) Approach must limit departure headings to the following:  
@@ -174,7 +162,6 @@ b) Approach must limit departure headings to the following:
 | 33          | - | 330°  |
 
 ### CS ACD / CS TCU
-
 The controller assuming responsibility of **CS ACD** shall give heads-up coordination to the relevant CS TCU controller prior to the issue of the following clearances:  
 a) VFR Departures  
 b) Aircraft using a runway not on the ATIS
@@ -188,10 +175,5 @@ b) Aircraft using a runway not on the ATIS
     **ABC**: "Cleared for a Northbound VFR Coastal departure, A035, 3601, ABC"  
 
 ### CS FLW / CS ADC
-
 FLW must advise ADC of any sequence changes within 36 Miles CS.  
 All requests for non-duty runway arrivals must be approved by ADC.
-
-## Standard Assignable Departure Levels
-
-All Aircraft: `A060` or `RFL` if lower

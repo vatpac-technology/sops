@@ -13,7 +13,6 @@
 | Tamworth ATIS | N/A | 123.800 | YSTW_ATIS |
 
 ## Airspace
-
 <figure markdown>
 ![Tamworth Tower Airspace](img/YSTW_airspace.png){ width="800" }
   <figcaption>Tamworth Tower Airspace</figcaption>
@@ -89,7 +88,10 @@ A 'next' call is made for all aircraft when they are next to depart. TW ADC must
 
 !!! example
     <span class="hotline">**TW ADC** -> **ARL**</span>: "Next, QLK5D"  
-    <span class="hotline">**ARL** -> **TW ADC**</span>: "QLK5D"    
+    <span class="hotline">**ARL** -> **TW ADC**</span>: "QLK5D, Unrestricted"  
+    <span class="hotline">**TW ADC** -> **ARL**</span>: "Unrestricted, QLK5D"
+
+The Standard Assignable level from TW ADC to ARL/MDE is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
 
 ### Arrivals
 ARL/MDE will coordinate the sequence to TW ADC.
@@ -98,8 +100,4 @@ ARL/MDE will coordinate the sequence to TW ADC.
     <span class="coldline">**MDE** -> **TW ADC**</span>: "New Sequence of 2. Via MOR DCT, FD272, Number 1. Via NBR DCT, AM217, Number 2”  
     <span class="coldline">**TW ADC** -> **MDE**</span>: "FD272, Number 1. AM217, Number 2"  
 
-## Standard Assignable Levels
-
-Aircraft departing from Tamworth shall be assigned `A070` or `RFL` if lower.
-
-Aircraft arriving into Tamworth shall be assigned `A080` by ARL/MDE.
+The Standard Assignable level from ARL/MDE to TW ADC is `A080`, any other level must be prior coordinated.

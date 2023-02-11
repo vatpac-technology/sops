@@ -5,7 +5,6 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | Archerfield ADC  | Archer Tower  | 118.100        | AF_TWR                        |
@@ -18,11 +17,11 @@
 </figure>
 
 ## Airspace
-Tower airspace is defined as between `SFC` to `A015`.
+AF ADC is responsible for the Class D airspace in the AF CTR `SFC` to `A015`.
 
 <figure markdown>
-![Archerfield Tower Airspace](img/YBAF_Vatsys.PNG){ width="700" }
-  <figcaption>Archerfield Tower Airspace</figcaption>
+![AF ADC Airspace](img/YBAF_Vatsys.PNG){ width="700" }
+  <figcaption>AF ADC Airspace</figcaption>
 </figure>
 
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
@@ -112,9 +111,10 @@ When aircraft planned via a CTA departure are ready for takeoff and expected to 
     <span class="hotline">**BN TCU** -> **AF ADC**</span>: "XMM, unrestricted"  
     <span class="hotline">**AF ADC** -> **BN TCU**</span>: "Unrestricted, XMM"
 
-### BN TCU / AF ADC
-#### Arrival Coordination
+The Standard Assignable level from AF ADC to BN TCU is the lower of `A040` or the `RFL`, any other level must be prior coordinated.
 
+### BN TCU / AF ADC
+#### Arrivals
 BN TCU will coordinate with AF ADC for incoming IFR arrivals on either Visual Tracking or RNP approaches. If tracking visually, BN TCU must coordinate the level assignment with the estimate for aircraft arriving directly from Class C.  
 Archerfield Tower will not alter an aircrafts tracking until the aircraft is within 3NM of Archerfield.
 
@@ -138,6 +138,3 @@ Given that the instrument approach procedure will terminate inside another contr
 
 !!! tip
     Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D.  You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.
-
-### Standard Assignable Departure Levels
-All IFR Aircraft: `A040`
