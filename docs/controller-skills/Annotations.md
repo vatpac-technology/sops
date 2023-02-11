@@ -34,10 +34,10 @@ Here is a complete list of standard annotations controllers should be entering i
 | Unrestricted | Aircraft may climb to the standard assignable level | U |
 | No restrictions | Changes to both lateral and vertical clearances permitted without further coordination | NR |
 | No lateral restrictions | Changes to only lateral clearances permitted without further coordiantion | NLR |
-| No vertical restrictions | Changes to only verical clearance permitted without further coordination | NVR |
+| No vertical restrictions | Changes to only vertical clearance permitted without further coordination | NVR |
 | No restrictions on descent | Aircraft may continue descent without further coordination | NRD |
 | No restrictions on climb | Aircraft may continue climb without further coordination | NRC |
-| Reach by | Aircraft may continue climb without further coordination<br />X(position) | X20BN |
+| Reach by | X(position) | X20BN |
 | Reach level by | R(level)X(position or time) | R280XBANDA |
 | Reach level by distance before position | R(level)X(distance)(position) | R370X20LHI<br />*Note: distance **before** position* |
 | Reach level by distance after position |  R(level)X(position)(distance) | R250XSY65<br />*Note: distance **after** position* |

@@ -13,7 +13,6 @@
 | Sunshine Coast ATIS | N/A | 119.800 | YBSU_ATIS |
 
 ## Airspace
-
 <figure markdown>
 ![SU TWR Airspace](img/YBSU_airspace.png){ width="700" }
   <figcaption>SU TWR Airspace</figcaption>
@@ -48,7 +47,8 @@ A 'next' call is made for all aircraft when they are next to depart. SU ADC must
 
 !!! example
     <span class="hotline">**SU ADC** -> **NSA**</span>: "Next, BNZ133"  
-    <span class="hotline">**NSA** -> **SU ADC**</span>: "BNZ133, unrestricted."    
+    <span class="hotline">**NSA** -> **SU ADC**</span>: "BNZ133, Unrestricted"  
+    <span class="hotline">**SU ADC** -> **NSA**</span>: "Unrestricted, BNZ133"
 
 The Standard Assignable level from SU ADC to INL(NSA/BUR) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
 
