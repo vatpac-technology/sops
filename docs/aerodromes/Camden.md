@@ -6,7 +6,6 @@
 
 
 ## Positions
-
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | Camden ADC | Camden Tower | 120.100          | CN_TWR                        |
@@ -20,11 +19,11 @@
 </figure>
 
 ## Airspace
-Tower airspace is defined as between `SFC` to `A020`.  
+CN ADC is responsible for the Class D airspace in the CN CTR `SFC` to `A020`.
 
 <figure markdown>
-![Camden Tower Airspace](img/YSCN_Vatsys.PNG){ width="700" }
-<figcaption>Camden Tower Airspace</figcaption>
+![CN ADC Airspace](img/YSCN_Vatsys.PNG){ width="700" }
+<figcaption>CN ADC Airspace</figcaption>
 </figure>  
 
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
@@ -96,18 +95,16 @@ When an aircraft reports on downwind, indicate their position in the sequence (a
 
 ## ATIS
 ### Approach Expectation
-
-When there is significant cloud in the YSCN area below `A035`, the APCH field must include `EXP INST APCH`.
+When there is more than SCT cloud on the YSCN METAR area below `A035`, the APCH field must include `EXP INST APCH`.
 
 ## Coordination
 ### CN SMC & ADC / SY TCU
 
 #### Taxi Call
-
 IFR aircraft must be coordinated with the SY TCU controller responsible for Sydney Departures South (SDS).  **CN SMC** will perform a 'Taxi' call to **SDS**, who in response will issue a squawk code.
 
 !!! example
-    <span class="coldline">**CN ADC** -> **SY TCU**</span>: "Taxi's, MHQ, Lord Howe, runway 06”  
+    <span class="coldline">**CN ADC** -> **SY TCU**</span>: "Taxis, MHQ, YLHI, runway 06”  
     <span class="coldline">**SY TCU** -> **CN ADC**</span>: “MHQ, squawk 0134"  
     <span class="coldline">**CN ADC** -> **SY TCU**</span>: “Squawk 0134, MHQ"  
 
@@ -131,7 +128,7 @@ CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a
 
 ### SY TCU / CN ADC
 
-#### Arrival Coordination
+#### Arrivals
 
 ##### Intrument Approaches
 SY TCU will coordinate inbound aircraft and transfer them to CN ADC by `SCNWI`. CN ADC is responsible for issuing a clearance into the CN CTR and for coordination with SY TCU in the event of a missed approach (or on completion of airwork if applicable).
@@ -152,5 +149,4 @@ SY TCU will coordinate the estimated time of arrival and approximate inbound tra
     <span class="coldline">**CN ADC** -> **SY TCU**</span>: “TJV” 
 
 #### IFR overflying YSCN
-
 SY TCU must advise CN ADC of observed IFR aircraft overflying CN CTR below `A025`.

@@ -5,7 +5,6 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-
 | Name | Callsign | Frequency | Login Identifier |
 | ---- | -------- | --------- | ---------------- |
 | Broome ADC | Broome Tower | 123.250 | BRM_TWR |
@@ -13,10 +12,9 @@
 | Broome ATIS | N/A | 133.850 | YBRM_ATIS |
 
 ## Airspace
-
 <figure markdown>
-![YBRM Airspace](img/ybrm_airspace.png){ width="700" }
-  <figcaption>YBRM Airspace</figcaption>
+![BRM ADC Airspace](img/ybrm_airspace.png){ width="700" }
+  <figcaption>BRM ADC Airspace</figcaption>
 </figure>
 
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
@@ -30,7 +28,8 @@ A 'next' call is made for all aircraft when they are next to depart. BRM ADC mus
 
 !!! example
     <span class="hotline">**BRM ADC** -> **KIY**</span>: "Next, NWK1653"  
-    <span class="hotline">**KIY** -> **BRM ADC**</span>: "NWK1653"
+    <span class="hotline">**KIY** -> **BRM ADC**</span>: "NWK1653, Unrestricted"  
+    <span class="hotline">**BRM ADC** -> **KIY**</span>: "Unrestricted, NWK1653"
 
 The Standard Assignable level from BRM ADC to TRT(KIY) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
 

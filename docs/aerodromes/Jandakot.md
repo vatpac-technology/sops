@@ -19,11 +19,11 @@
 </figure>
 
 ## Airspace
-Tower airspace is defined as between `SFC` to `A015`.
+JT ADC is responsible for the Class D airspace in the JT CTR `SFC` to `A015`.
 
 <figure markdown>
-![Jandakot Tower Airspace](img/JTTWR.png){ width="700" }
-  <figcaption>Jandakot Tower Airspace</figcaption>
+![JT ADC Airspace](img/JTTWR.png){ width="700" }
+  <figcaption>JT ADC Airspace</figcaption>
 </figure>
 
 ## Fixed-Wing Operations
@@ -91,33 +91,30 @@ When PH RWY 03 is in operation, the ATIS should include:
 ### JT SMC / PH TCU
 
 #### Taxi Call
-
 For aircraft planned into the overlying class C airspace, an airways clearance must be coordinated with the TCU controller responsible for Perth Approach or Departures (dependant on runway configuation at PH).  This is achieved by performing 'Taxi' coordination and then relaying the clearance to the aircraft when they are ready in the run up bays.
 
 !!! example
-    <span class="coldline">**JT SMC** -> **PH TCU**</span>: "Taxis FD420, Kalbarri, runway 24R"  
-    <span class="coldline">**PH TCU** -> **PH SMC**</span>: "FD420, cleared to Kalbarri via RECKS flight planned route, MANTL3 depature, climb via SID A030, squawk 3342"  
-    <span class="coldline">**JT SMC** -> **PH TCU**</span>: "Cleared to Kalbarri via RECKS flight planned route, MANTL3 depature, climb via SID A030, squawk 3342, FD420" 
+    <span class="coldline">**JT SMC** -> **PH TCU**</span>: "Taxis FD420, YKBR, runway 24R"  
+    <span class="coldline">**PH TCU** -> **PH SMC**</span>: "FD420, cleared to YKBR via RECKS flight planned route, MANTL3 depature, climb via SID A030, squawk 3342"  
+    <span class="coldline">**JT SMC** -> **PH TCU**</span>: "Cleared to YKBR via RECKS flight planned route, MANTL3 depature, climb via SID A030, squawk 3342, FD420" 
 
 
 ### JT ADC / PH TCU
 
 #### Next Call
-
 When the aircraft is ready for departure, Tower will coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
 
 !!! example
     <span class="hotline">**JT ADC** -> **PH TCU**</span>: "Next, FD420, runway 24R"  
-    <span class="hotline">**PH TCU** -> **JT ADC**</span>: "FD420, unrestricted"
+    <span class="hotline">**PH TCU** -> **JT ADC**</span>: "FD420, Unrestricted"  
+    <span class="hotline">**JT ADC** -> **PH TCU**</span>: "Unrestricted, FD420"  
 
-### PH TCU / JT ADC
+The Standard Assignable level from JT ADC to PH TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
 
 #### Arrival Coordination
-
 PH TCU will coordinate with JT ADC for incoming IFR arrivals on either Visual Tracking, RNAV or NDB approaches.
 
 ##### Visual Tracking
-
 !!! example
     <span class="coldline">**PH TCU** -> **JT ADC**</span>: "Estimate, FD416 via `CNB` time 02."  
     <span class="coldline">**JT ADC** -> **PH TCU**</span>: "FD416"

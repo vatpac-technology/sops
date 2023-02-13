@@ -28,7 +28,7 @@ Outside controlled airspace, it is the responsibility of the controller to provi
     **CNK**: "VFR aircraft overhead YCNK 3500 tracking westbound, confirm you will be remaining clear of the R564 restricted area?"  
     To which they will almost always reply with either *"Affirm"* or *"Huh?"*
 
-For aircraft unfamiliar with the restricted area, provide *suggested* headings to avoid. Get the aircraft to squawk ident to temporarily indentify them. Remember that you cannot vector aircraft OCTA.
+For aircraft unfamiliar with the restricted area, provide *suggested* headings to avoid. Get the aircraft to squawk ident to temporarily identify them. Remember that you cannot vector aircraft OCTA.
 
 ### CTA
 You must separate all aircraft in controlled airspace by *half the applicable lateral standard* from a Restricted Area (ie, 1.5nm for TCU, 2.5nm for Enroute), and 1000ft vertically.

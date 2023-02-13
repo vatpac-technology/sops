@@ -23,7 +23,6 @@
 *[DIR]: Director (Sydney)
 *[IVA]: Independent Visual Approach
 *[IAP]: Instrument Approach
-*[SIS]: Surveillance Information Service
 *[CFL]: Cleared Flight Level
 *[FDR]: Flight Data Record
 *[RFL]: Requested Flight Level
@@ -39,11 +38,9 @@
 *[OCTA]: Outside Controlled Airspace
 *[HDS]: Hours of Daylight Savings
 *[CTR]: Control Zone
-*[ARP]: Aerodrome Reference Point
 *[NM]: Nautical Mile
 *[SFC]: Surface
 *[RVSM]: Reduced Vertical Separation Minima
-*[FF]: Feeder Fix
 *[FDRs]: Flight Data Records
 *[DME]: Distance Measuring Equipment
 *[BRL]: Bearing-Range Line
