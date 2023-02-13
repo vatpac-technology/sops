@@ -5,19 +5,18 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-
 | Name | Callsign | Frequency | Login Identifier |
 | ---- | -------- | --------- | ---------------- |
 | Alice Springs ADC | Alice Tower | 118.300 | AS_TWR |
 | Alice Springs ATIS | N/A | 123.000 | YBAS_ATIS |
 
 ## Airspace
-<figure markdown>
-![YBAS Airspace](img/YBAS_airspace.png){ width="1000" }
-  <figcaption>YBAS Airspace</figcaption>
-</figure>
-
 AS ADC is responsible for the Class D airspace `SFC` to `A045`, as well as the Class C airspace `A045` to `A065`, within the AS CTR.
+
+<figure markdown>
+![AD ADC Airspace](img/YBAS_airspace.png){ width="1000" }
+  <figcaption>AD ADC Airspace</figcaption>
+</figure>
 
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
@@ -30,7 +29,8 @@ Departures from YBAS in to ASP Class C will be coordinated when ready for depart
 
 !!! example
     <span class="hotline">**AS ADC** -> **ASP**</span>: "Next, QFA797"  
-    <span class="hotline">**ASP** -> **AS ADC**</span>: "QFA797"
+    <span class="hotline">**ASP** -> **AS ADC**</span>: "QFA797, Unrestricted"  
+    <span class="hotline">**AS ADC** -> **ASP**</span>: "Unrestricted, QFA797"
 
 The Standard Assignable level from AS ADC to ASP is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
 

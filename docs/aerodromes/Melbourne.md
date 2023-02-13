@@ -5,7 +5,6 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | Melbourne ADC    | Melbourne Tower   | 120.500          | ML_TWR                                   |
@@ -14,6 +13,20 @@
 | Melbourne ATIS        |                | 118.000         | YMML_ATIS                                |
 
 ## Airspace
+ML ADC is responsible for the Class C airspace in the ML CTR `SFC` to `A015`.
+
+<figure markdown>
+![ML ADC Airspace](img/mladc.png){ width="700" }
+  <figcaption>ML ADC Airspace</figcaption>
+</figure>
+
+The "Coffin" and "South East Quadrant" as shown below are released to EN ADC by default.
+
+<figure markdown>
+![Melbourne TCU Airspace Administration](img/MLTCUairspace.png){ width="500" }
+  <figcaption>Melbourne TCU Airspace Administration</figcaption>
+</figure>
+
 ### Sunbury Corridor
 **ML ADC** is responsible for the Sunbury Corridor airspace as shown below. It is only available to Day VFR Helicopters.
 
@@ -89,15 +102,14 @@ This permits controllers to assign aircraft either the Alpha or Victor STAR and 
 ## Coordination
 ### ML ADC / ML TCU
 #### Auto Release
-
 !!! important
-    Melbourne utilises auto release for all **procedural** SIDs and the **ML (RADAR)** SID provided aircraft are assigned the Standard Assignable Level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
+    Melbourne utilises auto release for all **Procedural** SIDs and the **ML (RADAR)** SID provided aircraft are assigned the Standard Assignable Level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
 'Next' coordination is required for aircraft that are:   
-a) Departing from a non-ATIS runway; or  
-b) Assigned a level other than `A050`; or  
-c) Requiring an assigned heading other than a Standard Assignable Heading; or
-d) The next departure after a go around
+    a) Departing from a non-ATIS runway; or  
+    b) Assigned a level other than `A050`; or  
+    c) Requiring an assigned heading other than a Standard Assignable Heading; or
+    d) The next departure after a go around
 
 !!! example
     <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, JIA, runway 34"  
@@ -107,15 +119,17 @@ d) The next departure after a go around
     **ML ADC**: "JIA, Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff"  
     **JIA**: "Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff, JIA"
 
-### Runway Change
+The ML TCU controller can suspend/resume Auto Release at any time, with the concurrence of **ML ADC**.
+
+The Standard Assignable level from ML ADC to ML TCU is the lower of `A050` or the `RFL`.
+
+#### Runway Change
 Any runway change must be prior coordinated to **MAE** and **EN ADC**.
 
-## Departures Controller
-
+#### Departures Controller
 Refer to [Melbourne TCU Airspace Division](../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
 
-## Standard Assignable Departure Headings
-
+#### Standard Assignable Departure Headings
 Aircraft that have been cleared the **ML (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required to the ML TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
 
 | Runway | W | NE | SE | S |
@@ -125,9 +139,6 @@ Aircraft that have been cleared the **ML (RADAR) SID** must receive an assigned 
 | 34 | 340 | 340 | 340 | 260 |
 
 
-*\*When Runway 09 is in use for arrivals, all Runway 16 departures shall be assigned heading 160.*
+When Runway 09 is in use for arrivals, all Runway 16 departures shall be assigned heading 160.
 
 When Runway 09 is in use for departures, ML TCU shall nominate a heading to ML ADC for use as a standard assignable heading.
-
-## Standard Assignable Levels
-All Aircraft: `A050` or `RFL` if lower

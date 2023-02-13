@@ -5,21 +5,20 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | Avalon ADC      | Avalon Tower   | 120.100          | AV_TWR                                   |
 | Avalon ATIS     |                | 118.200         | YMAV_ATIS                                |
 
 ## Airspace
-AV ADC is responsible for the Class D Airspace within the AV CTR (`SFC`-`A025`). This airspace may be released to ML TCU with the concurrence of both controllers.  
+AV ADC is responsible for the Class D Airspace within the AV CTR `SFC` to `A025`. This airspace may be released to ML TCU with the concurrence of both controllers.  
 ML TCU is responsible for the Class E Airspace to the North, South, and Above the AV CTR.  
 ML TCU is repsonsible for the Class G Airspace to the East of the AV CTR, and to the West of the AV CTR within 30 DME ML.  
 YWE is responsible for the Class G Airspace to the West of the AV CTR outside 30 DME ML.  
 YWE(WON) is responsible for the Class G Airspace to the South East of the AV CTR outside 30 DME ML.
 
 <figure markdown>
-![AV Tower Airspace](img/avctr.png){ width="500" }
+![AV ADC Airspace](img/avctr.png){ width="500" }
 </figure>
 
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
@@ -60,17 +59,17 @@ Within 5 NM of AV, AV ADC must provide separation between:
 ## Coordination
 ### AV ADC / ML TCU
 #### Departures
-Auto Release shall be used for aircraft that are:    
-a) Departing from a runway nominated on the ATIS; and  
-b) Issued a Procedural SID; and   
-c) Assigned `A040`;
-
-Any aircraft that don't meet these criteria must be coordinated to ML TCU with a "Next" Call
+'Next' coordination is required to ML TCU for aircraft that are:   
+  a) Departing from a runway not nominated on the ATIS; or  
+  b) Not assigned the standard assignable level; or  
+  c) Not assigned a **Procedural** SID
 
 !!! example
     <span class="coldline">**AV ADC** -> **MDS**</span>: "Next, UJI, Runway 18"  
     <span class="coldline">**MDS** -> **AV ADC**</span>: "UJI, left 030, unrestricted"  
     <span class="coldline">**AV ADC** -> **MDS**</span>: "Left 030 unrestricted, UJI"
+
+The Standard Assignable level from AV ADC to ML TCU is the lower of `A040` or the `RFL`.
 
 #### Arrivals
 ML TCU will coordinate the sequence to AV ADC. ML TCU will clear aircraft for the approach prior to transfer to AV ADC.

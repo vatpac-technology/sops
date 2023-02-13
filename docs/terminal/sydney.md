@@ -333,6 +333,14 @@ It is vital that Approach controllers ensure all arriving aircraft are establish
 
 ##### MARLN Corridor
 Aircraft are permitted to cross the MARLN corridor at or above `A060` without coordination with APP. DEP is responsible for separation with respect to aircraft in the corridor.
+
+#### SDN / SFW/SAN
+If aircraft are cleared off runway 11 into CTA, coordination is required from SDN (who will be receiving the aircraft from BK ADC) with SFW or SAN (depending on YSSY runway config) as the aircraft will pass closer than 1.5nm from the sector boundary.  
+Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for more information.
+
+!!! Example
+    <span class="hotline">**SDN** -> **SFW**</span>: “Request left turn out of Bankstown”  
+    <span class="hotline">**SFW** -> **SDN**</span>: "Approved" *(no callsigns need be used here)*  
 ### SY TCU / SY ADC
 #### Auto Release
 Auto Release is used for virtually all fixed-wing departures at Sydney. Unlike other aerodromes, aircraft cleared via the **SY (RADAR) SID** do not need to be 'Next' coordinated, provided they are assigned the standard assignable level and a standard assignable heading from the table below.

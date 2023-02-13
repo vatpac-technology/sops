@@ -18,7 +18,15 @@
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
-### Maneuvering Area Responsibility
+## Airspace
+BN ADC is responsible for the Class C airspace in the BN CTR `SFC` to `A007`.
+
+<figure markdown>
+![BN ADC Airspace](img/bnadc.png){ width="700" }
+  <figcaption>BN ADC Airspace</figcaption>
+</figure>
+
+## Maneuvering Area Responsibility
 
 <figure markdown>
 ![YBBN Maneuvering Area North](img/ybbn_maneuvring_area_north.png){ width="500" }
@@ -90,15 +98,12 @@ When SODPROPS are in operation, the ATIS OPR INFO shall include:
 The ATIS shall always have `EXP INST APCH` as the approach type. Visual Approaches are permitted on request, as long as a separation standard exists between the aircraft and any aircraft arriving on the parallel runway during PROPS, or departing from the parallel runway during SODPROPS.
 
 ## Coordination
-### BN ADC / BN TCU
-#### Auto Release
-
-Auto Release is available for:  
-a) PROPS or Single Runway Ops only (Not available for SODPROPS); and  
-b) Jets assigned `A060` and a Procedural SID; and  
-c) Aircraft departing from a runway nominated on the ATIS
-
-Any aircraft / runway configuration that doesn't meet the above criteria, requires "Next" Coordination to BN TCU
+### Auto Release
+'Next' coordination is required to BN TCU for aircraft that are:   
+  a) Departing from a runway not nominated on the ATIS; or  
+  b) Departing during SODPROPS runway mode; or
+  c) Not assigned the standard assignable level; or  
+  d) Not assigned a **Procedural** SID
 
 !!! example
     <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Next, QLK404D, Runway 19L"  
@@ -108,12 +113,11 @@ Any aircraft / runway configuration that doesn't meet the above criteria, requir
     **BN ADC**: "QLK404D, Assigned heading Left 160, Runway 19L, Cleared for Takeoff"  
     **QLK404D**: "Left heading 160, Runway 19L, Cleared for Takeoff, QLK404D"
 
+The BN TCU controller can suspend/resume Auto Release at any time, with the concurrence of **BN ADC**.
 
-## Departures Controller
+The Standard Assignable level from BN ADC to BN TCU is:  
+For Jets: `A060`  
+For Non-Jets: The lower of `A040` or the `RFL`
 
+### Departures Controller
 Refer to [Brisbane TCU Airspace Division](../../terminal/brisbane/#airspace-division) for information on airspace divisions when **BDN** and/or **BDS** are online.
-
-## Standard Assignable Levels
-
-Jets: `A060`  
-Non-jets: `A040` or `RFL` if lower
