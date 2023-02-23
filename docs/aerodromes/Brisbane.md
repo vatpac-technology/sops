@@ -38,6 +38,12 @@ BN ADC is responsible for the Class C airspace in the BN CTR `SFC` to `A007`.
   <figcaption>YBBN Maneuvering Area South</figcaption>
 </figure>
 
+## Standard Taxi Directions
+
+Taxiway A is to be used in the same direction as the duty runway. Taxiway B is to be used in the opposite direction to the duty runway.
+
+Taxiway Y is to be used in a westerly direction and Taxiway Z in an easterly direction.
+
 ## Runway Modes
 Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
