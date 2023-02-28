@@ -72,7 +72,7 @@ All other aircraft must be voice coordinated to SY TCU prior to **20nm** from th
 
 The Standard Assignable level from SY TCU to WOL is the lower of `F280` or the `RFL`, and tracking via WOL NDB.
 
-Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN** and/or **SDS** are online.
+Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
 
 ### WOL/GUN / CB TCU
 

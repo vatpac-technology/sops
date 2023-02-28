@@ -76,6 +76,7 @@
 *[SDS]: Sydney Departures South
 *[SFW]: Sydney Director West
 *[SFE]: Sydney Director East
+*[SRI]: Sydney Radar
 *[ARL]: Brisbane (Armidale) Centre
 *[INL]: Brisbane (Inverell) Centre
 *[ISA]: Brisbane (Mt Isa) Centre
@@ -168,3 +169,4 @@
 *[PJE]: Parachute Jump Exercise (Parachute Operations)
 *[SAR]: Search and Rescue
 *[SVY]: Aerial Survey
+*[BCTA]: Bottom of Controlled Airspace
