@@ -14,7 +14,7 @@
 | Sydney Departures South†   |SDS| Sydney Departures | 129.700          | SY-S_DEP         |
 | Sydney Director West† |SFW| Sydney Director   | 126.100          | SY-D_APP                               |
 | Sydney Director East† |SFE| Sydney Director   | 125.300          | SY-DE_APP                               |
-| Sydney Radar† |SRI| Sydney Centre  | 124.5500          | SY-C_DEP                               |
+| Sydney Radar† |SRI| Sydney Centre  | 124.550          | SY-C_DEP                               |
 | Sydney Flow†        |SFL|                |          | SY-FLW_CTR                               |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
