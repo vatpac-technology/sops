@@ -14,7 +14,7 @@
 | Sydney Departures South†   |SDS| Sydney Departures | 129.700          | SY-S_DEP         |
 | Sydney Director West† |SFW| Sydney Director   | 126.100          | SY-D_APP                               |
 | Sydney Director East† |SFE| Sydney Director   | 125.300          | SY-DE_APP                               |
-| Sydney Radar† |SRI| Sydney Centre  | 125.800          | SY-D_DEP                               |
+| Sydney Radar† |SRI| Sydney Centre  | 124.5500          | SY-C_DEP                               |
 | Sydney Flow†        |SFL|                |          | SY-FLW_CTR                               |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
@@ -38,6 +38,12 @@ b) Approach assumes Director/Departure airspace “on-side” when the latter po
 c) Departures assumes **SRI** airspace when the position is inactive  
 
 d) **SRI** is **not permitted** to be logged on to, unless there are already at least **2 other active positions** (ie, SY APP and SY DEP, or SY APP and SY DIR) in the SY TCU.
+
+!!! note
+    The default ownership of sectors within the SY TCU is merely a suggestion for starters. There are 7 executive controller positions within the SY TCU, plus a flow controller, and the ownership of these sectors can be delegated as desired based on the traffic disposition, when agreed between the controllers. For example, during a Milk Run event, if SY APP and SY DEP are online, SY APP may have a lot more work to do than SY DEP, and it would mostly be concentrated on the RIVET/ODALE corridor. In light of this, it might be wise for SY APP to take ownership of SAS, SFW and SFE airspace, whilst SY DEP take ownership of SAN, SDS, SDN, and SRI airspace.
+
+!!! note
+    Unless there are 2 separate Director controllers online (during a Major event like Panic Stations, for example), it is **not recommended** that the SFW and SFE positions are held by 2 separate controllers, due to the tendency of some less experienced pilots to overshoot the runway centreline
 
 ## Arrival Procedures
 ### Level Assignment
@@ -266,6 +272,9 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
   <figcaption>SODPROPS TCU Structure</figcaption>
 </figure>
 
+!!! note
+    SODPROPS runway mode may not be used when Director is online, as they do not own any airspace in this mode.
+
 ## Coordination
 ### SY TCU / ENR
 #### Departures
@@ -287,7 +296,6 @@ via RIVET, BOREE, or MARLN: `A100`
 All other routes: `A090`  
 ### SY TCU Internal
 #### APP / DIR
-
 Voiceless coordination is in place between APP and DIR, with the following conditions:
 
 a) Assigned `A060`  
@@ -352,21 +360,29 @@ Refer to [Sydney TCU Airspace Division](#airspace-division) for more information
     <span class="hotline">**SFW** -> **SDN**</span>: "Approved" *(no callsigns need be used here)*  
 
 #### SRI / APP/DEP/DIR
-Heads-up coordination is not required from SRI to any other SY TCU position for aircraft:
+##### Entering CTA
+Heads-up coordination is required for **all aircraft** entering SY TCU Class C from SRI Class G. Heads-up coordination must be completed prior to handoff, however, best practice is to complete the coordination as soon as possible, ie, as soon as the aircraft enters SRI airspace, or as soon as it becomes identified after departure from an aerodrome within 45nm SY.
 
-**Entering CTA *vertically*:**
+Upon receipt of the heads-up coordination from SRI, the SY TCU controller has several options:
 
-- Assigned the BCTA as the CFL; and
-- Requested level written in label as per [Annotations format](../../controller-skills/annotations/#requests-requirements-and-restrictions); and
-- Handed off to appropriate SY TCU controller
+- Concur the requested level
+- Concur an interim level
+- "Remain outside Class C airspace, expect no delay"
+- "Remain outside Class C airspace, expect XX minute delay" - *Useful if it's busy*
+- "I'll call you back" - *Useful if the SY TCU controller hasn't had time to assess the aircraft yet*
 
-**Entering CTA *laterally*:**
+!!! Example
+    <span class="hotline">**SRI** -> **SDS**</span>: “Departed YSHL, EQU”  
+    <span class="hotline">**SDS** -> **SRI**</span>: "EQU, F170"  
+    <span class="hotline">**SRI** -> **SDS**</span>: “F170, EQU”  
+    
+    **SRI:** "EQU, Cleared to YWLM via TESAT, flight planned route. Climb to F170"  
+    **EQU:** "Cleared to YWLM via TESAT, flight planned route. Climb to F170, EQU"  
+    *(Approaching SRI/SDS sector boundary)*  
+    **SRI:** "EQU, Contact Sydney Departures 129.7"  
+    **EQU:** "129.7, EQU"  
 
-- Assigned the BCTA or lower as the CFL; and
-- Handed off to appropriate SY TCU controller prior to **10nm** from lateral CTA boundary
-<br>
-<br>
-
+##### Leaving CTA
 Heads-up coordination is not required from a SY TCU position to SRI for aircraft:
 
 **Leaving CTA *vertically*:**
@@ -475,7 +491,7 @@ CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a
     **CN ADC:** "MHQ, traffic is MEH, IFR AC50 tracking SHL RAKSO SBKWI at A035, estimating RAKSO at time 35, runway 06, cleared for takeoff"  
     **MHQ:** "Copy MEH, runway 06, cleared for takeoff, MHQ"
       
-    **CN ADC:** "MHQ, contact Sydney Centre on 125.8"  
+    **CN ADC:** "MHQ, contact Sydney Centre on 124.55"  
 
 #### Arrivals
 YSCN arrivals shall be coordinated to **CN ADC** from SRI prior to transfer of jurisdiction.  If an instrument approach is planned, include the estimated approach time.
