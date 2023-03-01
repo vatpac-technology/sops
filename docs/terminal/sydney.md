@@ -272,9 +272,6 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
   <figcaption>SODPROPS TCU Structure</figcaption>
 </figure>
 
-!!! note
-    SODPROPS runway mode may not be used when Director is online, as they do not own any airspace in this mode.
-
 ## Coordination
 ### SY TCU / ENR
 #### Departures
