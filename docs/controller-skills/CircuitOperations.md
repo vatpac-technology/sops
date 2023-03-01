@@ -15,7 +15,7 @@ area, alongside an altitude and a discrete squawk code.
 
 !!! example
     *ABC is a VFR aircraft on the ground at Canberra that intends to conduct circuit training.*  
-    **ABC:** "Canberra Ground, ABC, request clearance for circuits, with information L"  
+    **ABC:** "Canberra Ground, ABC, request clearance for circuits"  
     **CB SMC:** "ABC, Canberra Ground, cleared to operate in the circuit area not above A030, squawk 0040"  
     **ABC:** "Cleared to operate in the circuit area not above A030, squawk 0040, ABC"  
     **CB SMC:** "ABC"
@@ -25,22 +25,26 @@ a Class D control zone, so an explicit airways clearance is not given.
 
 !!! example
     *ABC is a VFR aircraft on the ground at Archerfield that intends to conduct circuit training.*  
-    **ABC:** "Archer Ground, ABC, Cessna 172 on the Eastern Apron, information F, request taxi for circuits"  
+    **ABC:** "Archer Ground, ABC, Cessna 172, information F, on the Eastern Apron, request taxi, for circuits"  
     **AF SMC:** "ABC, Archer Ground, taxi to holding point B1, runway 28R"  
-    **ABC:** "Taxi to holding point B1, runway 28R"    
+    **ABC:** "Holding point B1, runway 28R, ABC"  
     *ABC changes to **AF ADC** frequency approaching the holding point.*  
     **ABC:** "Archer Tower, ABC, ready runway 28R, for circuits"  
-    **AF ADC:** "ABC, runway 28R cleared for take-off"  
-    **ABC:** "Runway 28R cleared for take-off, ABC"
+    **AF ADC:** "ABC, runway 28R, cleared for take-off"  
+    **ABC:** "Runway 28R, cleared for take-off, ABC"
 
 For aircraft that are already airborne, provide circuit joining instructions on first contact.
 
 !!! example
     *DEF is a VFR aircraft inbound to Canberra that intends to conduct circuit training.*  
-    **DEF:** "Canberra Tower, DEF, overhead Hoskinstown, A040, information L, for the circuit"  
+    **DEF:** "Canberra Tower, DEF, overhead Hoskinstown, A040, information L, for circuits"  
     **CB ADC:** "DEF, Canberra Tower, join downwind runway 12, not above A030, squawk 2311"  
     **DEF:** "Join downwind runway 12, not above A030, squawk 2311, DEF"  
-    **CB ADC:** "DEF"
+    **CB ADC:** "DEF"  
+    *After DEF has joined downwind.*  
+    **DEF:** "DEF, downwind, touch and go"  
+    **CB ADC:** "DEF, cleared touch and go, make left circuit"  
+    **DEF:** "Cleared touch and go, make left circuit, DEF"
 
 ## Takeoff
 
@@ -55,8 +59,8 @@ non-standard circuit is in use, provide the circuit direction with the take-off
 clearance.
 
 !!! example
-    **AF ADC:** "ABC, runway 28R cleared for take-off, make left circuit"  
-    **ABC:** "Runway 28R cleared for take-off, make left circuit, ABC"
+    **AF ADC:** "ABC, runway 28R, cleared for take-off, make left circuit"  
+    **ABC:** "Runway 28R, cleared for take-off, make left , ABC"
 
 ## Landing
 
@@ -70,7 +74,7 @@ different requests a pilot may make a this point:
 4. the **option**, which is the pilot asking for the option to make either of the above three manouvers at their own discretion, without any further clearance.
 
 !!! example
-    **ABC:** "ABC, downwind, request touch and go"  
+    **ABC:** "ABC, downwind, touch and go"  
     **AF ADC:** "ABC, cleared touch and go"  
     **ABC:** "Cleared touch and go, ABC"
 
@@ -86,13 +90,13 @@ require that they make a full-stop landing.
 ## Sequencing
 
 In Class C airspace, separation is required between IFR and VFR aircraft. In
-Class D airspace, separation is only required between IFR aircraft.
-Nevertheless, controllers should still make all efforts to ensure an expiditious
-flow of traffic between aircraft in the circuit as well as aircraft arriving at
-the aerodrome from elsewhere.
+Class D airspace, separation is only required between IFR aircraft (and SVFR
+aircraft in IMC). Nevertheless, controllers should still make all efforts to
+ensure an expeditious flow of traffic between aircraft in the circuit as well as
+aircraft arriving at the aerodrome from elsewhere.
 
-**ADC** are not permitted to vector aircraft, but there are a number
-of other tools available to help segregate aircraft within the circuit.
+**ADC** are not permitted to vector aircraft, but there are a number of other
+tools available to help segregate aircraft within the circuit.
 
 !!! warning
     The use of these tools in no way diminishes the responsibility of VFR
@@ -105,20 +109,23 @@ An **ADC** may issue instructions for a pilot to make a longer or shorter
 approach, or to explicitly extend their downwind leg, so as to either pass in
 front of or behind another aircraft.
 
+A straightforward way of accomplishing this with minimal added workload is to
+instruct the aircraft to "follow" the leading aircraft. In order to do this, the
+following aircraft **must** report having the leading aircraft in sight.
+
 !!! example
-    *ABC is downwind on runway 16L at Sydney while QFA1254 is established on a 3 mile final for the same runway.*
-    **ABC:** "ABC, downwind, request touch and go"  
-    **SY ADC:** "ABC, traffic is a Boeing 737 on a 3 mile final, extend downwind"  
-    **ABC:** "Extend downwind, traffic in sight, ABC"  
-    **SY ADC:** "QFA1254, traffic is a Citation on a left downwind, A015"  
-    **QFA1254:** "QFA1254, looking"  
-    *Some time later, after QFA1254 is no longer a factor and wake turbulence separation has been assured.*  
-    **SY ADC:** "ABC, continue approach, report final"  
-    **ABC:** "Wilco, ABC"  
-    *At 4nm from touchdown.*  
-    **ABC:** "ABC, final"  
-    **SY ADC:** "ABC, cleared touch and go"  
-    **ABC:** "Cleared touch and go, ABC"
+    *ABC is downwind on runway 16L at Sydney while QFA1254 is established on a 3 mile final for the same runway.*  
+    **ABC:** "ABC, downwind, touch and go"  
+    **SY ADC:** "ABC, traffc is a 737 on a 3nm final, runway 16L, report sighting"  
+    **ABC:** "Traffic in sight, ABC"  
+    **SY ADC:** "ABC, follow the 737, caution wake turbulence"  
+    **SY ADC:** "Follow the 737, ABC"  
+    *Remember to pass traffic information to both aircraft.*  
+    **SY ADC:** "QFA1254, traffic is a Citation on a left downwind, they'll pass behind you, runway 16L, cleared to land"  
+    **QFA1254:** "Runway 16L, cleared to land, QFA1254"  
+    *Some time later, after QFA1254 has vacated the runway.*  
+    **SY ADC:** "ABC, runway 16L, cleared touch and go"  
+    **ABC:** "Runway 16L, cleared touch and go, ABC"
 
 ### Delaying Aircraft
 
@@ -126,17 +133,20 @@ An **ADC** may issue an instruction for a pilot to make a complete 360 degree
 orbit, either left or right, to delay the aircraft in place.
 
 !!! example
-    *DEF, a Cessna 172, is on a left downwind on runway 30 at Canberra, while UEM, a Baron, is joining left base.*
+    *DEF, a Cessna 172, is on a left downwind on runway 30 at Canberra, while UEM, a Baron, is joining left base.*  
     **DEF:** "DEF, downwind, full-stop"  
-    **CB ADC:** "DEF, traffic is a Baron joining base to land, orbit right, report orbit complete"  
-    **DEF:** "Orbit right, wilco, DEF"  
-    **CB ADC:** "UEM, traffic is a Cessna 172 orbiting downwind to give way to you, A030, cleared to land"  
-    **UEM:** "Traffic in sight, cleared to land, UEM"  
-    **DEF:** "DEF, orbit complete"  
-    **CB ADC:** "DEF"  
+    **CB ADC:** "DEF, make one right hand orbit"  
+    **DEF:** "One right hand orbit, DEF"  
+    **CB ADC:** "UEM, runway 30, cleared to land"  
+    **UEM:** "Runway 30, cleared to land, UEM"  
+    *Once the controller observes that DEF's orbit is complete.*  
+    **CB ADC:** "DEF, traffic is a Baron on base, runway 30, report sighting"  
+    **DEF:** "Traffic in sight, DEF"  
+    **CB ADC:** "DEF, follow the Baron"  
+    **DEF:** "Follow the baron, DEF"  
     *Some time later, after UEM has vacated the runway.*  
-    **CB ADC:** "DEF, cleared to land"  
-    **DEF:** "Cleared to land, DEF"
+    **CB ADC:** "DEF, runway 30, cleared to land"  
+    **DEF:** "Runway 30, cleared to land, DEF"
 
 ### Change of Runway
 
@@ -145,14 +155,12 @@ separate circuit traffic from non-circuit traffic, or to segregate aircraft with
 different performances for better traffic flow.
 
 !!! note
-    Do not offer a change of runway to an aircraft below `A005` on final.  
+    Do not offer a change of runway to an aircraft below 500ft AGL on final.  
     You may approve a pilot request for a change of runway for an aircraft
     established on final.
 
 !!! example
     *ABC is on a right downwind on runway 16R at Sydney. QLK1834 is on a 7 mile final for the same runway.*  
-    **ABC:** "ABC, downwind, request touch and go"  
-    **SY ADC:** "ABC, join right base change of runway 16L"  
-    **ABC:** "Join right base runway 16L, ABC"  
-    **ABC:** "ABC, base runway 16L"  
-    **SY ADC:** "ABC, runway 16L cleared touch and go, make left circuit"
+    **ABC:** "ABC, downwind, touch and go"  
+    **SY ADC:** "ABC, change of runway, runway 16L, cleared touch and go, make left circuit"  
+    **ABC:** "Change of runway 16L, cleared touch and go, make left circuit, ABC"
