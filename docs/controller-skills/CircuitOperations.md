@@ -66,7 +66,7 @@ clearance.
 
 After becoming airborne and making the turn to crosswind and then downwind, the
 pilot will report their position with intentions. There are a number of
-different requests a pilot may make a this point:
+different requests a pilot may make at this point:
 
 1. a **touch and go**, where the aircraft makes a landing and then immediately takes off again, continuing within the circuit;
 2. a **stop and go**, where the aircraft makes a landing, comes to a complete stop on the runway and then takes off again, continuing within the circuit;
@@ -123,7 +123,7 @@ following aircraft **must** report having the leading aircraft in sight.
     *Remember to pass traffic information to both aircraft.*  
     **SY ADC:** "QFA1254, traffic is a Citation on a left downwind, they'll pass behind you, runway 16L, cleared to land"  
     **QFA1254:** "Runway 16L, cleared to land, QFA1254"  
-    *Some time later, after QFA1254 has vacated the runway.*  
+    *Some time later, after QFA1254 has vacated the runway and a wake turbulence standard has been achieved.*  
     **SY ADC:** "ABC, runway 16L, cleared touch and go"  
     **ABC:** "Runway 16L, cleared touch and go, ABC"
 
