@@ -244,31 +244,31 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
 
 ### 07
 <figure markdown>
-![07 TCU Structure](img/sy07annotated.png){ width="700" }
+![07 TCU Structure](img/sy07.png){ width="700" }
   <figcaption>07 TCU Structure</figcaption>
 </figure>
 
 ### 16 PROPS
 <figure markdown>
-![16 PROPS TCU Structure](img/sy16PROPSannotated.png){ width="700" }
+![16 PROPS TCU Structure](img/sy16PROPS.png){ width="700" }
   <figcaption>16 PROPS TCU Structure</figcaption>
 </figure>
 
 ### 25
 <figure markdown>
-![25 TCU Structure](img/sy25annotated.png){ width="700" }
+![25 TCU Structure](img/sy25.png){ width="700" }
   <figcaption>25 TCU Structure</figcaption>
 </figure>
 
 ### 34 PROPS
 <figure markdown>
-![34 PROPS TCU Structure](img/sy34PROPSannotated.png){ width="700" }
+![34 PROPS TCU Structure](img/sy34PROPS.png){ width="700" }
   <figcaption>34 PROPS TCU Structure</figcaption>
 </figure>
 
 ### SODPROPS
 <figure markdown>
-![SODPROPS TCU Structure](img/sySODPROPSannotated.png){ width="700" }
+![SODPROPS TCU Structure](img/sySODPROPS.png){ width="700" }
   <figcaption>SODPROPS TCU Structure</figcaption>
 </figure>
 
@@ -277,7 +277,7 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
 #### Departures
 Voiceless coordination is in place from SY TCU to all surrounding ENR sectors (**ARL** (and subsectors) to the North and East, **YWE** (and subsectors) to the West, **BIK** (and subsectors) to the South) for aircraft assigned:  
 - The lower of `F280` or the `RFL`, **with the exception of**:  
-- Aircraft with ADES YWLM, which will be assigned the lower of `F130` or the `RFL`.  
+- Aircraft with ADES YWLM, which will be assigned the lower of `F130` or the `RFL`.
 
 Aircraft must be tracking from **SDN** or **SDS** airspace (see [Airspace Division](../../terminal/sydney/#airspace-division)).
 
