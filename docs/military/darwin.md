@@ -178,12 +178,12 @@ a) MIL Jet: `A020`
 b) Jet: `A015`  
 c) Non-jet: `A010`  
 d) Helo: `A010`  
-#### IFR Training Area
+### IFR Training Area
 IFR aircraft requiring an area for training shall be cleared to operate in the North Eastern Training Area (NETA)  
 The NETA is defined as the area between DN 360R–060R from 15NM–30NM DN DME.  
 Aircraft are to be cleared to the NETA via the 030R outbound. Vertical limits are to be specified by DAW prior to issuing airways clearance  
 
-#### Designated Fuel Dumping Area
+### Designated Fuel Dumping Area
 Other than in an emergency, the designated fuel jettison area is:  
 a) Over water in the Beagle Gulf  
 b) Between the 320 and 020 TACAN radials  
