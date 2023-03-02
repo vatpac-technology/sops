@@ -45,8 +45,21 @@ python -m mkdocs serve
 
 - You'll see the command line performing some magic, eventually displaying `Serving on http://127.0.0.1:8000`. Open up your web browser, and navigate to that address.
 
-## Using MkDocs
+## Common Setup Issues
+### 'pip' Term not Recognised
+When running the `pip install -r requirements.txt` command, you may receive an error preventing any packages from being installed. Check that Python is installed and accessible by typing `python` into a VS Code terminal. If necessary, the Windows Store will open and allow you to install the correct Python package. Restart VS Code before continuing.
 
+### Script installed 'Not on PATH'
+After running the `pip install -r requirements.txt` command, some packages may produce yellow warnings, such as below:
+
+!!! example ""
+    *"WARNING: The script watchmedo.exe is installed in 'C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\Scripts' which is not on PATH. Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location."*
+
+Python is recognised but some scripts have been installed beyond the scope of the software.  Update your Windows *PATH* variable to include the path indicated in the error.  
+
+Follow the steps [here](https://www.educative.io/answers/how-to-add-python-to-path-variable-in-windows){target=new} to update your Windows PATH variable. Restart VS Code before continuing.
+
+## Using MkDocs
 MkDocs is the underlying tool that we use for our SOPs. It takes in Markdown files, and converts them to a static website on each save, which is then pumped into your browser upon an automatic reload.
 
 We can also run `mkdocs build` to build a export the core HTML/CSS/JS that can be uploaded via FTP to the web.

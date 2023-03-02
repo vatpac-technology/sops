@@ -5,7 +5,6 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | Canberra ADC    | Canberra Tower   | 118.700          | CB_TWR                                   |
@@ -13,10 +12,11 @@
 | Canberra ATIS        |                | 127.450         | YSCB_ATIS                                |
 
 ## Airspace
+CB ADC is responsible for the Class C airspace in the CB CTR `SFC` to `A035`.
 
 <figure markdown>
-![Canberra Tower Airspace](img/CBTWR.png){ width="500" }
-  <figcaption>Canberra Tower Airspace</figcaption>
+![CB ADC Airspace](img/cbadc.png){ width="500" }
+  <figcaption>CB ADC Airspace</figcaption>
 </figure>
 
 ## SID Selection
@@ -66,29 +66,22 @@ City Scenic Flights are available by day and to the west of the aerodrome. Aircr
 </figure>
 
 ## Coordination
-### CB ADC / CB TCU
-#### Auto Release
-
-Auto Release shall be used for aircraft that are:    
-a) Departing from a runway nominated on the ATIS; and  
-b) Issued a Procedural SID; and   
-c) Assigned `A100`;  
-
-Any aircraft that don't meet these criteria must be coordinated to CB TCU with a "Next" Call
+### Auto Release
+'Next' coordination is required to CB TCU for aircraft that are:   
+  a) Departing from a runway not nominated on the ATIS; or  
+  b) Not assigned the standard assignable level; or  
+  c) Not assigned a **Procedural** SID
 
 !!! example
     <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Next, XEB, runway 35"  
-    <span class="hotline">**CB TCU** -> **CB ADC**</span>: "XEB, Assigned Left 270, Unrestricted"  
-    <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Assigned Left 270, Unrestricted, XEB"    
-    
-    **CB ADC**: "XEB, Assigned Left 270, Runway 35, Cleared for Takeoff"  
-    **XEB**: "Assigned Left 270, Runway 35, Cleared for Takeoff, XEB"  
-    `AIP GEN 3.4`
+    <span class="hotline">**CB TCU** -> **CB ADC**</span>: "XEB, Left 270, Unrestricted"  
+    <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Left 270, Unrestricted, XEB"
+
+The CB TCU controller can suspend/resume Auto Release at any time, with the concurrence of **CB ADC**.
+
+The Standard Assignable level from CB ADC to CB TCU is:  
+For IFR aircraft: `A100`  
+For VFR aircraft: The lower of `A040` or the `RFL`
 
 ### Runway Change
-Any Runway change must be prior coordinated to **CB TCU** and **CB ADC**.
-
-## Standard Assignable Levels
-
-IFR: `A100`  
-VFR: `A040` or `RFL` if lower
+Any Runway change must be prior coordinated to **CB TCU**.

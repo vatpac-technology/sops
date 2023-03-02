@@ -5,7 +5,6 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | Bankstown ADC  | Bankstown Tower  | 132.800         | BK_TWR                        |
@@ -18,11 +17,11 @@
 </figure>
 
 ## Airspace
-BK ADC owns the Class D airspace in the BK CTR `SFC` to `A015`.
+BK ADC is responsible for the Class D airspace in the BK CTR `SFC` to `A015`.
 
 <figure markdown>
-![Bankstown Tower Airspace](img/BKTWR.png){ width="700" }
-  <figcaption>Bankstown Tower Airspace</figcaption>
+![BK ADC Airspace](img/BKTWR.png){ width="700" }
+  <figcaption>BK ADC Airspace</figcaption>
 </figure>
 
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
@@ -122,7 +121,6 @@ When the crosswind component exceeds 15 knots, the OPR INFO field must include:
 ### BK SMC / SY TCU
 
 #### Taxi Call
-
 For aircraft planned into the overlying class C airspace, an airways clearance must be coordinated with the TCU controller responsible for Sydney Departures South (SDS).  This is achieved by performing 'Taxi' coordination and then relaying the clearance to the aircraft when they are ready in the run up bays.
 
 !!! example
@@ -134,7 +132,6 @@ For aircraft planned into the overlying class C airspace, an airways clearance m
 ### BK ADC / SY TCU
 
 #### Next Call
-
 When the aircraft is ready for departure, Tower will coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
 
 !!! example
@@ -142,14 +139,14 @@ When the aircraft is ready for departure, Tower will coordinate with the relevan
     <span class="hotline">**SY TCU** -> **BK ADC**</span>: "UJN, unrestricted"  
     <span class="hotline">**BK ADC** -> **SY TCU**</span>: "Unrestricted, UJN"
 
-### SY TCU / BK TWR
+The Standard Assignable level from BK ADC to SY TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
 
-#### Arrival Coordination
+### SY TCU / BK ADC
 
+#### Arrivals
 SY TCU will coordinate with BK ADC for incoming IFR arrivals on either Visual Tracking, RNP or NDB approaches.
 
 ##### Visual Tracking
-
 !!! example
     <span class="coldline">**SY TCU** -> **BK ADC**</span>: "Estimate, UJN via TWRN time 02."  
     <span class="coldline">**BK ADC** -> **SY TCU**</span>: "UJN"
@@ -168,18 +165,3 @@ Given that the instrument approach procedure will terminate inside another contr
 
 !!! tip
     Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D.  You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.
-
-### SDS / SY TCU
-
-#### Miscellaneous
-
-If aircraft are cleared off runway 11 into CTA, coordination is required with SFW or SDS (depending on YSSY runway config) as the aircraft will pass closer than 1.5nm from the sector boundary.  
-Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for more information, or simply ask an SY TCU for clarification.
-
-!!! Example
-    <span class="hotline">**SDS** -> **SY TCU**</span>: “Request left turn out of Bankstown”  
-    <span class="hotline">**SY TCU** -> **SDS**</span>: "Approved" *(no callsigns need be used here)*  
-
-## Standard Assignable Levels
-
-All IFR Aircraft: `A030`

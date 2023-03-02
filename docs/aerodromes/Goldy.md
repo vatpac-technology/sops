@@ -5,13 +5,20 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | Gold Coast ADC | Gold Coast Tower   | 118.700       | CG_TWR                       |
 | Gold Coast SMC | Gold Coast Ground  | 121.800       | CG_GND                       |
 | Gold Coast ACD | Gold Coast Delivery | 128.750       | CG_DEL                       |
 | Gold Coast ATIS    |                        | 134.500          | YBCG_ATIS                        |
+
+## Airspace
+CG ADC is responsible for the Class C airspace in the CG CTR `SFC` to `A015`.
+
+<figure markdown>
+![CG ADC Airspace](img/cgadc.png){ width="500" }
+  <figcaption>CG ADC Airspace</figcaption>
+</figure>
 
 ## Departures
 RNAV jet-aircraft planned via APAGI shall be issued the APAGI SID.  
@@ -90,30 +97,25 @@ The HLS (Helipad) is located between the GA Apron and Taxiway Golf.
 Circuits from the Western Grass are to be made in the same direction as the duty runway.
 
 ## Coordination
-### CG ADC / BN TCU
-#### Auto Release
-
-Auto Release shall be used for aircraft that are:
-a) Departing from a runway nominated on the ATIS; and
-b) Issued an RNAV SID; and
-c) Assigned `A060`;
-
-Any aircraft that don't meet these criteria must be coordinated to BN TCU with a "Next" Call
+### Auto Release
+'Next' coordination is required to BN TCU for aircraft that are:   
+  a) Departing from a runway not nominated on the ATIS; or  
+  b) Not assigned the standard assignable level; or  
+  c) Not assigned a **Procedural** SID
 
 !!! example
-    <span class="hotline">**CG ADC** -> **BN TCU**</span>: "Next, CBN, runway 14"  
-    <span class="hotline">**BN TCU** -> **CG ADC**</span>: "CBN, heading 030, unrestricted"  
-    <span class="hotline">**CG ADC** -> **BN TCU**</span>: "Heading 030 unrestricted, CBN"  
+    <span class="hotline">**CG ADC** -> **BAC**</span>: "Next, CBN, runway 14"  
+    <span class="hotline">**BAC** -> **CG ADC**</span>: "CBN, heading 030, unrestricted"  
+    <span class="hotline">**CG ADC** -> **BAC**</span>: "Heading 030 unrestricted, CBN"  
 
     **CG ADC**: "CBN, Assigned heading left 030, Runway 14, Cleared for Takeoff"  
-    **CBN**: "Left heading 030, Runway 14, Cleared for Takeoff, CBN"  
-    `AIP GEN 3.4`
-
-A start clearance is required for aircraft planned to Brisbane. Start clearance must be coordinated with BN TCU.
+    **CBN**: "Left heading 030, Runway 14, Cleared for Takeoff, CBN"
 
 The BN TCU controller can suspend/resume Auto Release at any time, with the concurrence of **CG ADC**.
 
-## Standard Assignable Levels
+The Standard Assignable level from CG ADC to BN TCU is:  
+For Jets: `A060`  
+For Non-Jets: The lower of `A060` or the `RFL`
 
-Jets: `A060`  
-Non-jets: `A060` or `RFL` if lower
+### Start Clearance
+A start clearance is required for aircraft planned to YBBN. Start clearance must be coordinated with BN TCU.

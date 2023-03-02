@@ -5,7 +5,6 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | Parafield ADC  | Parafield Tower  | 118.700          | PF_TWR                        |
@@ -19,11 +18,11 @@
 </figure>
 
 ## Airspace
-Tower airspace is defined as between `SFC` to `A015`.
+PF ADC is responsible for the Class D airspace in the PF CTR `SFC` to `A015`.
 
 <figure markdown>
-![Parafield Tower Airspace](img/PFTWR.png){ width="700" }
-  <figcaption>Parafield Tower Airspace</figcaption>
+![PF ADC Airspace](img/PFTWR.png){ width="700" }
+  <figcaption>PF ADC Airspace</figcaption>
 </figure>
 
 ## Circuits
@@ -77,9 +76,11 @@ For aircraft planned via a CTA departure into Adelaide's class C airspace, **PF 
 Whilst the aircraft is taxiing, **PF SMC** will perform TAXI coordination with Adelaide TCU, who will issue an airways clearance for Parafield Tower to relay to the aircraft.  Aircraft planned above `A030` will be cleared initially to `A030`.
   
 !!! example
-    <span class="coldline">**PF SMC** -> **AD TCU**</span>: "Taxi's, XMM, Bankstown, 03L”  
-    <span class="coldline">**AD TCU** -> **PF SMC**</span>: “XMM, cleared to Bankstown via BENDO flight planned route, Parafield 1 Departure, climb via SID A030, squawk 1427”  
-    <span class="coldline">**PF SMC** -> **AD TCU**</span>: “Cleared to Bankstown via BENDO flight planned route, Parafield 1 Departure, climb via SID A030, squawk 1427, XMM”  
+    <span class="coldline">**PF SMC** -> **AD TCU**</span>: "Taxis, XMM for YSBK, 03L”  
+    <span class="coldline">**AD TCU** -> **PF SMC**</span>: “XMM, cleared to YSBK via AD, flight planned route, PF1 Departure, climb via SID A030, squawk 1427”  
+    <span class="coldline">**PF SMC** -> **AD TCU**</span>: “Cleared to YSBK via AD, flight planned route, PF1 Departure, climb via SID A030, squawk 1427, XMM”  
+
+### AD TCU / PF ADC
 
 #### Next Call
 When aircraft planned via a CTA departure are ready for takeoff and expected to depart imminently, **PF ADC** shall seek release of the aircraft through a 'Next' call.
@@ -87,23 +88,18 @@ When aircraft planned via a CTA departure are ready for takeoff and expected to 
 !!! example
     <span class="hotline">**PF ADC** -> **AD TCU**</span>: "Next, XMM, 03L"  
     <span class="hotline">**AD TCU** -> **PF ADC**</span>: "XMM, Heading 020, unrestricted"  
-    <span class="hotline">**PF ADC** -> **AD TCU**</span>: "Heading 020, unrestricted, XMM" 
+    <span class="hotline">**PF ADC** -> **AD TCU**</span>: "Heading 020, unrestricted, XMM"
 
-### AD TCU / PF TWR
-#### Arrival Coordination
-
-AD TCU will coordinate with PF ADC for incoming IFR arrivals on either Visual Tracking or RNP approaches.
-If tracking visually, AD TCU must coordinate the level assignment with the estimate for aircraft arriving directly from Class C.
-Parafield Tower will not alter an aircraft's tracking until the aircraft is within 3NM of Parafield. 
+The Standard Assignable level from PF ADC to AD TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
+#### Arrivals
+AD TCU will coordinate with PF ADC for incoming IFR arrivals on either Visual Tracking or RNP approaches.  
+If tracking visually, AD TCU must coordinate the level assignment with the estimate for aircraft arriving directly from Class C.  
+PF ADC must not alter an aircraft's tracking until the aircraft is within **3NM** of the aerodrome.
 
 #### Visual Tracking
-
 !!! example
     <span class="coldline">**AD TCU** -> **PF ADC**</span>: "Estimate, UJE via PAL time 02."  
     <span class="coldline">**PF ADC** -> **AD TCU**</span>: "UJE"
 
 #### IAP Tracking
 Reserved.
-
-### Standard Assignable Levels
-All IFR Aircraft: `A030`

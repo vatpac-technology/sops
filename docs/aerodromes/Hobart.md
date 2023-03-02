@@ -5,32 +5,30 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-
 | Name              | Callsign       | Frequency        | Login Identifier                         |
 | ----------------- | -------------- | ---------------- | ---------------------------------------- |
 | Hobart ADC    | Hobart Tower   | 118.100     | HB_TWR                            |
 | Hobart SMC    | Hobart Ground  | 121.700     | HB_GND                  |
 | Hobart ATIS       |                | 128.450          | YMHB_ATIS                                |
 
-### Maneuvering Area Responsibility
+## Maneuvering Area Responsibility
 <figure markdown>
 ![YMHB Maneuvering Area](img/ymhb_maneuvring_area.png){ width="500" }
 </figure>
 
 ## Airspace
+HB ADC is responsible for the Class D airspace in the HB CTR:  
+North of the Runway Centreline: `SFC` to `A015`  
+South of the Runway Centreline: `SFC` to `A025`
 
 <figure markdown>
-![Hobart Tower Airspace](img/HBTWR.png){ width="700" }
-</figure>
-
-<figure markdown>
-![Hobart Tower Class D Airspace](img/hbtwr_profile.png){ width="700" }
+![HB ADC Airspace](img/hbadc.png){ width="700" }
+  <figcaption>HB ADC Airspace</figcaption>
 </figure>
 
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
 ## SID Selection
-
 Jet Aircraft planned via **CLARK**, **LATUM**, or **LAVOP**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
 
 Non-Jet Aircraft planned via **CLARK**, **KANLI**, or **LAVOP**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
@@ -38,7 +36,6 @@ Non-Jet Aircraft planned via **CLARK**, **KANLI**, or **LAVOP**, shall be assign
 Other aircraft shall be assigned an appropriate **Procedural SID** or a visual departure.
 
 ## Cambridge (YCBG)
-
 Due to it's close proximity, HB ADC & SMC are responsible for clearances into and out of Cambridge (YCBG), which sits inside the Hobart Class D control zone.
 
 ### Departures
@@ -52,23 +49,20 @@ All IFR Aircraft departing Cambridge shall be assigned a **Visual Departure** or
 !!! Example
     **NDR:** "Hobart Ground, NDR, for Devonport, Request Clearance"  
     **HB SMC:** "NDR, Cleared to Devonport via KANLI flight plan route, KANLI3 Departure, Climb via SID A045, Squawk 4432"
-    `AIP GEN 3.4`
 
 When ready to taxi and prior to leaving the apron aircraft must contact **HB ADC**, advising intended runway for departure and receipt of YMHB ATIS, to obtain traffic information.
 
 !!! Example
     **NDR:** "Hobart Tower, NDR, taxiing Cambridge Runway 32, received Hobart Information D"  
     **HB ADC:** "NDR, No reported IFR traffic, report ready"  
-    **NDR:** "Wilco, NDR"  
-    `AIP GEN 3.4`
+    **NDR:** "Wilco, NDR"
 
 Takeoff clearances are not given. Aircraft will remain clear of the active runway and report ready to HB ADC. Aircraft must not enter an active runway or become airborne until departure instructions have been issued.
 
 !!! Example
     **NDR:** "NDR, Ready"  
     **HB ADC:** "NDR, track via the KANLI3 departure, report airborne"  
-    **NDR:** "Track via the KANLI3 departure, wilco, NDR"  
-    `AIP GEN 3.4`
+    **NDR:** "Track via the KANLI3 departure, wilco, NDR"
 
 
 ### Arrivals
@@ -97,9 +91,7 @@ As a landing clearance is not given, aircraft should instead be informed of any 
 
 ## VFR Operations
 
-
 ### Circuit Direction
-
 | Runway | Direction |
 | ------ | ----------|
 | 12     | Left  |
@@ -107,7 +99,6 @@ As a landing clearance is not given, aircraft should instead be informed of any 
 
 
 ### Inbound / Outbound
-
 | Victor    | Inbound       | Outbound        | 
 | --------- | -------------- | ---------------- | 
 | Northwest |  CBV-CPA-RCH west of the Colebrook/Richmond Road to west abeam RADT.  | West abeam RADT-RCH-CPA-CBV west of the Richmond/Colebrook Road.    | 
@@ -126,13 +117,13 @@ Clearances for aircraft entering the CTR must be worded so as to leave no possib
 !!! Example
     **NDR:** "Hobart Tower, NDR, Campania, A015, on the Victor Northwest, received Romeo, request clearance"  
     **HB ADC:** "NDR, enter the CTR tracking via the Victor Northwest at A015."
-    `AIP GEN 3.4`
 
 ## Coordination
 ### Departures
-"Next" Coordination to HBA is required for all deps not assigned a SID.
-
-"Next" Coordination is a procedure where the **HB ADC** controller gives a heads-up to the HBA controller about an impending departure not on a SID. The HBA controller will respond by assigning a visual heading to the aircraft, for the **HB ADC** controller to pass on with their takeoff clearance.
+'Next' coordination is required to HBA for aircraft that are:   
+  a) Departing from a runway not nominated on the ATIS; or  
+  b) Not assigned the standard assignable level; or  
+  c) Not assigned a SID
 
 !!! example
     <span class="hotline">**HB ADC** -> **HB TCU**</span>: "Next, ABC, runway 12"  
@@ -140,8 +131,7 @@ Clearances for aircraft entering the CTR must be worded so as to leave no possib
     <span class="hotline">**HB ADC** -> **HB TCU**</span>: "Heading 150 Visual unrestricted, ABC"  
 
     **HB ADC**: "ABC, Assigned heading right 150 Visual, Runway 12, Cleared for Takeoff"  
-    **ABC**: "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"  
-    `AIP GEN 3.4`
+    **ABC**: "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"
 
 The HBA controller can suspend/resume Auto Release at any time, with the concurrence of **HB ADC**.
 

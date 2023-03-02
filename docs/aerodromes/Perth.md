@@ -5,7 +5,6 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Perth ADC** | **Perth Tower** | **127.400** | **PH_TWR** |
@@ -16,10 +15,17 @@
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
+## Airspace
+PH ADC is responsible for the Class C airspace in the PH CTR `SFC` to `A015`.
+
+<figure markdown>
+![PH ADC Airspace](img/phadc.png){ width="700" }
+  <figcaption>PH ADC Airspace</figcaption>
+</figure>
+
 ## Runway Selection
 
 #### Southwest Plan
-
 - Any combination of Runway 21 and/or 24.
 - The ATIS shall notify `EXPECT ILS APPROACH`
 
@@ -36,7 +42,6 @@
 | SOLUS | 24 |
 
 #### Northeast Plan
-
 - Runway 03 for arrivals.
 - Runway 03 for departures via:  
     - AVNEX
@@ -84,8 +89,10 @@ When both Runway 03 and Runway 06 are nominated as departure runways, broadcast 
 ## Coordination
 ### PH ADC / PH TCU
 #### Auto Release
-
-"Next" Coordination is a procedure where the PH ADC controller gives a heads-up to the PH TCU controller about an impending departure. The PH TCU controller will respond by assigning a heading to the aircraft, for the PH ADC controller to pass on with their takeoff clearance.
+'Next' coordination is required for aircraft that are:   
+    a) Departing from a runway not nominated on the ATIS; or  
+    b) Not assigned the standard assignable level; or  
+    c) Assigned the **Radar SID**
 
 !!! example
     <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Next, ABC, runway 03"  
@@ -93,16 +100,14 @@ When both Runway 03 and Runway 06 are nominated as departure runways, broadcast 
     <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Heading 010 unrestricted, ABC"  
 
     **PH ADC**: "ABC, Assigned heading left 010, Runway 03, Cleared for Takeoff"  
-    **ABC**: "Left heading 010, Runway 010, Cleared for Takeoff, ABC"  
-    `AIP GEN 3.4`
+    **ABC**: "Left heading 010, Runway 010, Cleared for Takeoff, ABC"
 
-"Next" Coordination to PH TCU is additionally required for:  
-    a) Aircraft on a non-standard level.  
-    b) Aircraft departing from a runway not nominated in the ATIS.  
+The PH TCU controller can suspend/resume Auto Release at any time, with the concurrence of **PH ADC**.
 
-The PH TCU controller can suspend/resume Auto Release at any time, with the concurrence of PH ADC.
+The Standard Assignable level from PH ADC to PH TCU is the lower of `A050` or the `RFL`
 
-"Next" Coordination to PH TCU is not required for aircraft assigned a **Procedural SID** and the Standard Assignable Level.
+#### Departures Controller
+Refer to [Perth TCU Airspace Division](../../terminal/perth/#airspace-division) for information on airspace divisions when **PHD** is online.
 
 ## PH ADC / PH SMC
 #### Ground Operations
@@ -123,10 +128,3 @@ b) Aircraft using a runway not on the ATIS
      
     **PH ACD**: "ABC, Cleared for a victor 65 scenic"  
     **ABC**: "Cleared for a victor 65 scenic, ABC"  
-## Departures Controller
-
-Refer to [Perth TCU Airspace Division](../../terminal/perth/#airspace-division) for information on airspace divisions when **PHD** is online.
-
-## Standard Assignable Levels
-
-All aircraft: `A050` or `RFL` if lower.

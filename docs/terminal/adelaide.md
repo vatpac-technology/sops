@@ -41,8 +41,7 @@ Due to the low level of CTA at YPPF, it is best practice to give airways clearan
     **AD TCU**: "ABC, cleared to YPAG via DOLVU, flight planned route, PARAFIELD1 departure, climb via SID to A040"   
     **ABC**: "Cleared to YPAG via DOLVU, flight planned route, PARAFIELD1 departure, climb via SID to A040, ABC"  
     **AD TCU**: "ABC, assigned heading right 360, report airborne"  
-    **ABC**: "Assigned right 360, wilco, ABC"  
-    `AIP GEN 3.4`
+    **ABC**: "Assigned right 360, wilco, ABC"
 
 ## Coordination
 ### AD TCU / ENR
@@ -75,8 +74,7 @@ Any aircraft that don't meet these criteria must be coordinated to AD TCU with a
 !!! example
     <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Next, ABC, runway 05"  
     <span class="hotline">**AD TCU** -> **AD ADC**</span>: "ABC, Track Extended Centreline, unrestricted"  
-    <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Track Extended Centreline, unrestricted, ABC"    
-    `AIP GEN 3.4`
+    <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Track Extended Centreline, unrestricted, ABC"
 
 ### AD TCU Internal
 

@@ -23,6 +23,14 @@
   <figcaption>Maneuvering Area</figcaption>
 </figure>
 
+## Airspace
+SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005`.
+
+<figure markdown>
+![SY ADC Airspace](img/SYTWR.png){ width="700" }
+  <figcaption>SY ADC Airspace</figcaption>
+</figure>
+
 #### Standard Taxi Routes
 
 Except when the traffic situation warrants, taxi clearances shall conform to the following diagram:
@@ -36,13 +44,6 @@ Except when the traffic situation warrants, taxi clearances shall conform to the
 
 Intersection departures are not permitted for Jet aircraft on runway 34L.  
 `ERSA FAC YSSY`
-## Airspace
-Tower airspace is defined as between `SFC` to `A005`, within a 4nm arc reference YSSY ARP, extended to the south along the Wanda Helicopter Route to the SY CTR boundary.  The 4nm arc begins again at Long Bay. 
-
-<figure markdown>
-![Sydney Tower Airspace](img/SYTWR.png){ width="700" }
-  <figcaption>Sydney Tower Airspace</figcaption>
-</figure>
 
 ### Helicopter Operations
 #### Departures
@@ -215,7 +216,7 @@ When SODPROPS are in operation, the ATIS OPR INFO shall include:
 ### SY ADC / SY TCU
 #### Auto Release
 !!! important
-    Sydney utilises auto release for all **procedural** SIDs and the **SY (RADAR)** SID provided aircraft are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
+    YSSY utilises auto release for all **Procedural** SIDs (except **ABBEY** SID during SODPROPS), and the **SY (RADAR)** SID provided aircraft are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
 "Next" coordination is required for:  
     a) Aircraft not assigned the standard assignable level    
@@ -230,10 +231,31 @@ When SODPROPS are in operation, the ATIS OPR INFO shall include:
     <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Heading 030 unrestricted, MHQ"  
 
     **SY ADC**: "MHQ, Assigned heading right 030, Runway 34R, Cleared for Takeoff"  
-    **MHQ**: "Right heading 030, Runway 34R, Cleared for Takeoff, MHQ"  
-    `AIP GEN 3.4`
+    **MHQ**: "Right heading 030, Runway 34R, Cleared for Takeoff, MHQ"
 
 The SY TCU controller can suspend/resume Auto Release at any time, with the concurrence of **SY ADC**.
+
+The Standard Assignable level from SY ADC to SY TCU is:  
+For Jets: `A050`  
+For Non-Jets: The lower of `A030` or the `RFL`
+
+#### Departures Controller
+Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for information on airspace divisions when **SDN** and/or **SDS** are online.
+
+#### Standard Assignable Departure Headings
+Aircraft that have been cleared the **SY (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required to the SY TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
+
+| Runway | Jet | Non-Jet 
+| ----------------- | -------------- | ---------------- |
+| 07                | 070         | 020, 110       |
+| 16L                | 125          | 125 (RWY 25 in use), 090 (RWY 25 not in use) |
+| 16R               | 170         | 210         |
+| 25                | 300, 240          | 020, 210, 240 |
+| 34L                | 290          | 230 |
+| 34R                | 030, 070          | 350 |
+
+!!! tip
+    If strong winds are present at altitude, TWR/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
 
 ### SY ADC / SY SMC
 #### Inactive Runway Releases
@@ -254,28 +276,3 @@ b) Aircraft using a runway not on the ATIS
 
     **SY ACD:** "TEK, cleared to Shellharbour via Cronulla, climb A025, squawk 0552, departure frequency 123.0"  
     **TEK:** "Cleared to Shellharbour via Cronulla, climb A025, squawk 0552, departure frequency 123.0, TEK"  
-
-## Standard Assignable Departure Headings
-
-Aircraft that have been cleared the **SY (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required to the SY TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
-
-| Runway | Jet | Non-Jet 
-| ----------------- | -------------- | ---------------- |
-| 07                | 070         | 020, 110       |
-| 16L                | 125          | 125 (RWY 25 in use), 090 (RWY 25 not in use) |
-| 16R               | 170         | 210         |
-| 25                | 300, 240          | 020, 210, 240 |
-| 34L                | 290          | 230 |
-| 34R                | 030, 070          | 350 |
-
-!!! tip
-    If strong winds are present at altitude, TWR/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
-
-## Departures Controller
-
-Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for information on airspace divisions when **SDN** and/or **SDS** are online.
-
-## Standard Assignable Departure Levels
-
-Jets: `A050`  
-Non-jets: `A030` or `RFL` if lower

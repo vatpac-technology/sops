@@ -5,7 +5,6 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | Moorabbin ADC  | Moorabbin Tower  | 118.100         | MB_TWR                        |
@@ -13,11 +12,11 @@
 | Moorabbin ATIS        |                | 120.900          | YMMB_ATIS                               |
 
 ## Airspace
-MB ADC owns a 3nm radius around YMMB, `SFC` to `A025`.
+MB ADC is responsible for the Class D airspace in the MB CTR `SFC` to `A025`.
 
 <figure markdown>
-![Moorabbin Tower Airspace](img/mbairspace.png){ width="1000" }
-  <figcaption>Moorabbin Tower Airspace</figcaption>
+![MB ADC Airspace](img/mbairspace.png){ width="1000" }
+  <figcaption>MB ADC Airspace</figcaption>
 </figure>
 
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
@@ -84,4 +83,4 @@ Given that the instrument approach procedure will terminate inside another contr
     <span class="hotline">**ML TCU** -> **MB ADC**</span>: "Cleared RNP 35R, OXA"  
 
 !!! tip
-    Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D.  You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.
+    Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D. Use other separation methods, such as holding a departure on the ground, if separation is required with these aircraft.
