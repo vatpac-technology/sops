@@ -73,8 +73,8 @@ Essendon has unique procedures due to its position in the ML CTR, with controlle
 
 !!! example
     **FDK**: "Melbourne Approach, FDK, YMEN for YSHT, request clearance and engine start"    
-    **ML TCU**: "FDK, Melbourne Approach, wind 290 degrees 4 knots, QNH 1017, cleared to YSHT via MNG, flight planned route, visual departure, climb to A040, expect runway 35"  
-    **FDK**: "QNH 1017, cleared to YSHT via MNG, flight planned route, visual departure, climb to A040, FDK"  
+    **ML TCU**: "FDK, Melbourne Approach, wind 290 degrees 4 knots, QNH 1017, cleared to YSHT via MNG, flight planned route, visual departure, climb to A040, squawk 4423, expect runway 35"  
+    **FDK**: "QNH 1017, cleared to YSHT via MNG, flight planned route, visual departure, climb to A040, squawk 4423, FDK"  
     **ML TCU**: "FDK, start approved, report taxiing for runway 35"  
     **FDK**: "Start approved, FDK"  
     `AIP GEN 3.4`
