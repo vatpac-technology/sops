@@ -37,12 +37,12 @@ When both DN TCU positions are opened, DN TCU is split east and west along the r
 ADC owns the airspace within the DN CTR (`SFC`–`A010`). This airspace is designed to facilitate the processing of helicopter scenic flights and low-level helicopter circuits.  
 The CTR extends 7NM from the thresholds of runways 11 and 29 but does not including the Robertson Barracks transit zone.  
 
-ADC may request DN TCU (`SFC`–`A020`) from DAW to facilitate fixed-wing circuit operations:  
+ADC may request DN TCU (`SFC`–`A020`) from DN TCU to facilitate fixed-wing circuit operations:  
 a) Fixed-wing circuit operations are typically conducted at Delissaville (YDLV) due to high traffic density at Darwin  
 b) ADC may deny requests for circuits if IFR traffic may be unduly delayed  
 
 <figure markdown>
-![WLM ADC Airspace](img/dnadc.png){ width="700" }
+![DN ADC Airspace](img/dnadc.png){ width="700" }
   <figcaption>DN ADC Airspace</figcaption>
 </figure>
 
@@ -50,6 +50,9 @@ b) ADC may deny requests for circuits if IFR traffic may be unduly delayed
 DN ADC is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels in the DN ADC airspace.  
 For simulation purposes, visual separation is assumed to exist below the cloud base, and within 7nm of the aerodrome. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
 
+
+## Traffic Management Plan (TMP)
+The Darwin Traffic Management Plan (TMP) is designed to reduce ATC intervention and workload, provide aircraft with predicted tracking and descent, expedite departures, increase safety and assist in noise abatement. It applies to all departing aircraft, arriving low level aircraft and IFR aircraft tracking to Darwin at A100 and above. 
 ## Aerodrome
 ### Standard Taxi Routes
 Aircraft transiting to or from the Southern and Northern GA should follow the following standardised taxi routes:  
@@ -159,7 +162,7 @@ Any aircraft that don't meet these criteria must be coordinated to DN TCU with a
     <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Track Extended Centreline, unrestricted, ABC"  
 
 
-All other aircraft, including high level IFR and all departures from 18/36 require departure coordination with **DN TCU**
+All departures from 18/36 require departure coordination with **DN TCU**
 
 ### DN TCU Internal
 
