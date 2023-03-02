@@ -13,6 +13,14 @@
 | Adelaide ACD         | Adelaide Delivery| 126.100          | AD_DEL                                   |
 | Adelaide ATIS        |                | 134.500         | YPAD_ATIS                                |
 
+## Airspace
+AD ADC is responsible for the Class C airspace in the AD CTR `SFC` to `A015`.
+
+<figure markdown>
+![AD ADC Airspace](img/adadc.png){ width="700" }
+  <figcaption>AD ADC Airspace</figcaption>
+</figure>
+
 ### Maneuvering Area Responsibility
 
 <figure markdown>
@@ -53,26 +61,25 @@ Shall be assigned the **Radar SID**.
     Non-Jet Aircraft planned via EEMUE, assigned runway 05, shall be given the AD (RADAR) SID.
 
 ## Coordination
-### AD ADC / AD TCU
-#### Auto Release
-
-Auto Release shall be used for aircraft that are:    
-a) Departing from a runway nominated on the ATIS; and  
-b) Issued a Procedural SID; and   
-c) Assigned `A050`;
-
-Any aircraft that don't meet these criteria must be coordinated to AD TCU with a "Next" Call
+### Auto Release
+'Next' coordination is required to AD TCU for aircraft that are:   
+  a) Departing from a runway not nominated on the ATIS; or  
+  b) Not assigned the standard assignable level; or  
+  c) Not assigned a **Procedural** SID
 
 !!! example
     <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Next, RXA4362, Runway 23"  
-    <span class="hotline">**AD TCU** -> **AD ADC**</span>: "RXA4362, Track Extended Centreline"  
-    <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Track Extended Centreline, RXA4362"  
+    <span class="hotline">**AD TCU** -> **AD ADC**</span>: "RXA4362, Track Extended Centreline, Unrestricted"  
+    <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Track Extended Centreline, Unrestricted, RXA4362"  
     
     **AD ADC**: "RXA4362, Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff"  
-    **RXA4362**: "Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff, RXA4362"  
-    `AIP GEN 3.4`
+    **RXA4362**: "Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff, RXA4362"
 
-## Standard Assignable Levels
+The AD TCU controller can suspend/resume Auto Release at any time, with the concurrence of **AD ADC**.
 
-Jets: `A050`  
-Non-Jets: `A040` or `RFL` if lower
+The Standard Assignable level from AD ADC to AD TCU is:  
+For Jets: `A050`  
+For Non-Jets: The lower of `A040` or the `RFL`
+
+### Departures Controller
+Refer to [Adelaide TCU Airspace Division](../../terminal/adelaide/#airspace-division) for information on airspace divisions when **AAE** is online.

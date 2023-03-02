@@ -122,8 +122,7 @@ All Departing Aircraft must be coordinated to CS TCU with a "Next" Call
 !!! example
     <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Next, ABC, runway 15"  
     <span class="hotline">**CS TCU** -> **CS ADC**</span>: "ABC, Heading 030, Unrestricted"  
-    <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Heading 030, Unrestriced, ABC"   
-    `AIP GEN 3.4`
+    <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Heading 030, Unrestriced, ABC"
 
 #### Seperation
 CS ADC shall notify Approach and Departure when:  
@@ -153,8 +152,7 @@ b) Aircraft using a runway not on the ATIS
     <span class="coldline">**CS ACD** -> **CS TCU**</span>: "Cleared for a Northbound VFR Coastal departure, A035, ABC"  
 
     **CS ACD**: "ABC, Cleared for a Northbound VFR Coastal departure, A035, Squawk 3601"  
-    **ABC**: "Cleared for a Northbound VFR Coastal departure, A035, 3601, ABC"  
-    `AIP GEN 3.4`
+    **ABC**: "Cleared for a Northbound VFR Coastal departure, A035, 3601, ABC"
 
 ### CS FLW / CS ADC
 

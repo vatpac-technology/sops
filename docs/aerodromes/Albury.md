@@ -5,7 +5,6 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-
 | Name | Callsign | Frequency | Login Identifier |
 | ---- | -------- | --------- | ---------------- |
 | Albury ADC | Albury Tower | 123.250 | AY_TWR |
@@ -13,10 +12,9 @@
 | Albury ATIS | N/A | 133.850 | YMAY_ATIS |
 
 ## Airspace
-
 <figure markdown>
-![YMAY Airspace](img/YMAY_airspace.png){ width="700" }
-  <figcaption>YMAY Airspace</figcaption>
+![AY ADC Airspace](img/YMAY_airspace.png){ width="700" }
+  <figcaption>AY ADC Airspace</figcaption>
 </figure>
 
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
@@ -31,7 +29,8 @@ A 'Next' call is made for all aircraft when they are next to depart. AY ADC must
 
 !!! example
     <span class="hotline">**AY ADC** -> **BLA**</span>: "Next, AM324"  
-    <span class="hotline">**BLA** -> **AY ADC**</span>: "AM324"
+    <span class="hotline">**BLA** -> **AY ADC**</span>: "AM324, Unrestricted"  
+    <span class="hotline">**AY ADC** -> **BLA**</span>: "Unrestricted, AM324"
 
 The Standard Assignable level from AY TWR to ELW(BLA) is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
 ### Arrivals

@@ -11,7 +11,7 @@
 | Mudgee† | Brisbane Centre | 133.000 | BN-MDE_CTR |
 | Cessnock† | Brisbane Centre | 123.400 | BN-CNK_CTR |
 | Manning† | Brisbane Centre | 130.100 | BN-MNN_CTR |
-| Maitland† | Brisbane Centre | 123.350 | BN-MLD_CTR |
+| Maitland† | Brisbane Centre | 132.350 | BN-MLD_CTR |
 | Ocean† | Brisbane Centre | 128.600 | BN-OCN_CTR |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
@@ -46,7 +46,7 @@ All other aircraft must be voice coordinated to SY TCU prior to **20nm** from th
 
 The Standard Assignable level from SY TCU to ARL(All) is the lower of `F280` or the `RFL`, and tracking via a SID terminus.
 
-Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN** and/or **SDS** are online.
+Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
 
 ### ARL (All) / ENR
 

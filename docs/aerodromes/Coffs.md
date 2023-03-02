@@ -5,17 +5,15 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-
 | Name | Callsign | Frequency | Login Identifier |
 | ---- | -------- | --------- | ---------------- |
 | Coffs Harbour ADC | Coffs Tower | 118.200 | CFS_TWR |
 | Coffs Harbour ATIS | N/A | 130.300 | YCFS_ATIS |
 
 ## Airspace
-
 <figure markdown>
-![CFS TWR Airspace](img/ycfs_airspace.png){ width="700" }
-  <figcaption>CFS TWR Airspace</figcaption>
+![CFS ADC Airspace](img/ycfs_airspace.png){ width="700" }
+  <figcaption>CFS ADC Airspace</figcaption>
 </figure>
 
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
@@ -39,7 +37,8 @@ A 'next' call is made for all aircraft when they are next to depart. CFS ADC mus
 
 !!! example
     <span class="hotline">**CFS ADC** -> **MNN**</span>: "Next, QJE1573"  
-    <span class="hotline">**MNN** -> **CFS ADC**</span>: "QJE1573"  
+    <span class="hotline">**MNN** -> **CFS ADC**</span>: "QJE1573, Unrestricted"  
+    <span class="hotline">**CFS ADC** -> **MNN**</span>: "Unrestricted, QJE1573"
 
 The Standard Assignable level from CFS ADC to INL/ARL(MNN) is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
 ### Arrivals

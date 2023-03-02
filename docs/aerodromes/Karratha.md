@@ -13,7 +13,6 @@
 | Karratha ATIS | N/A | 128.350 | YBAS_ATIS |
 
 ## Airspace
-
 <figure markdown>
 ![YPKA Airspace](img/ypka_airspace.png){ width="700" }
   <figcaption>YPKA Airspace</figcaption>
@@ -30,7 +29,8 @@ A 'next' call is made for all aircraft when they are next to depart. KA ADC must
 
 !!! example
     <span class="hotline">**KA ADC** -> **OLW**</span>: "Next, NWK694"  
-    <span class="hotline">**OLW** -> **KA ADC**</span>: "NWK694"  
+    <span class="hotline">**OLW** -> **KA ADC**</span>: "NWK694, Unrestricted"  
+    <span class="hotline">**KA ADC** -> **OLW**</span>: "Unrestricted, NWK694"
 
 The Standard Assignable level from KA ADC to OLW is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
 ### Arrivals
