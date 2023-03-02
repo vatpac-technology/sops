@@ -34,6 +34,7 @@ title: ATIS Abbreviations
 |FM	|From|
 |FREQ	|Frequency|
 |GLS	|G L S|
+|GT	|Greater Than|
 |HIAL	|High Intensity Approach Lighting|
 |HIRL	|High Intensity Runway Lighting|
 |HLDG	|Holding|
