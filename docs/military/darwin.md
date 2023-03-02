@@ -23,7 +23,7 @@ DN TCU owns the airspace within a 40NM radius of the DN DME from `SFC`–`FL180`
 
 DN TCU is also responsible for Active Restricted Area R264 A-K and R230 A-F  
 
-DAW may request Darwin MIL TCU (`SFC`–`FL240`) from TRT to facilitate military transits to/from R264 A-K and R230 A-F  
+DAW may request DN TCU (`SFC`–`FL240`) from TRT to facilitate military transits to/from R264 A-K and R230 A-F  
 
 When both DN TCU positions are opened, DN TCU is split east and west along the runway 18/36 extended centreline. DAW owns the airspace to the west of the line and DAE owns the airspace to the east of the line  
 
@@ -34,10 +34,10 @@ When both DN TCU positions are opened, DN TCU is split east and west along the r
 
 ### ADC
 
-ADC owns the airspace within the DN MIL CTR (`SFC`–`A010`). This airspace is designed to facilitate the processing of helicopter scenic flights and low-level helicopter circuits.  
+ADC owns the airspace within the DN CTR (`SFC`–`A010`). This airspace is designed to facilitate the processing of helicopter scenic flights and low-level helicopter circuits.  
 The CTR extends 7NM from the thresholds of runways 11 and 29 but does not including the Robertson Barracks transit zone.  
 
-ADC may request DN MIL CTR (`SFC`–`A020`) from DAW to facilitate fixed-wing circuit operations:  
+ADC may request DN TCU (`SFC`–`A020`) from DAW to facilitate fixed-wing circuit operations:  
 a) Fixed-wing circuit operations are typically conducted at Delissaville (YDLV) due to high traffic density at Darwin  
 b) ADC may deny requests for circuits if IFR traffic may be unduly delayed  
 
