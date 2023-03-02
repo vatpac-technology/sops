@@ -103,8 +103,6 @@ tools available to help segregate aircraft within the circuit.
     aircraft to see and avoid, nor does it relieve the controller of the
     responsibility to pass traffic information where applicable.
 
-### Approach Instructions
-
 An **ADC** may issue instructions for a pilot to make a longer or shorter
 approach, or to explicitly extend their downwind leg, so as to either pass in
 front of or behind another aircraft.
@@ -127,8 +125,6 @@ following aircraft **must** report having the leading aircraft in sight.
     **SY ADC:** "ABC, runway 16L, cleared touch and go"  
     **ABC:** "Runway 16L, cleared touch and go, ABC"
 
-### Delaying Aircraft
-
 An **ADC** may issue an instruction for a pilot to make a complete 360 degree
 orbit, either left or right, to delay the aircraft in place.
 
@@ -147,8 +143,6 @@ orbit, either left or right, to delay the aircraft in place.
     *Some time later, after UEM has vacated the runway.*  
     **CB ADC:** "DEF, runway 30, cleared to land"  
     **DEF:** "Runway 30, cleared to land, DEF"
-
-### Change of Runway
 
 An **ADC** may change the runway for an aircraft in the circuit, so as to
 separate circuit traffic from non-circuit traffic, or to segregate aircraft with
