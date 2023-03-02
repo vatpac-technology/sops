@@ -14,28 +14,37 @@
 | Sydney Departures South†   |SDS| Sydney Departures | 129.700          | SY-S_DEP         |
 | Sydney Director West† |SFW| Sydney Director   | 126.100          | SY-D_APP                               |
 | Sydney Director East† |SFE| Sydney Director   | 125.300          | SY-DE_APP                               |
+| Sydney Radar† |SRI| Sydney Centre  | 124.550          | SY-C_DEP                               |
 | Sydney Flow†        |SFL|                |          | SY-FLW_CTR                               |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
-The Sydney TMA spans a 45nm Radius around YSSY from `SFC` to `F280`.  
+The Sydney TMA spans a 45nm Radius around SY DME from `SFC` to `F280`.  
 SY TCU is responsible for the Sydney TMA, except:  
 R470 Restricted Area, when RIC ADC is online (or as negotiated)  
 
 BK CTR reverts to Class G when **BK ADC** is offline, and is administered by the relevant SY TCU controller.    
 CN CTR reverts to Class G when **CN ADC** is offline, and is administered by the relevant SY TCU controller.  
+
+SRI is responsible for the provision of FIS in Class G airspace within the SY TCU.
 ### Airspace Structural Arrangements
-
 Pursuant to Section 3 of the [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), the following rules apply, in the order presented, to these controller positions, except **SFL**:  
-a) **“North”**/**”West”** positions shall assume the airspace of corresponding **“South”**/**”East”** positions when the latter are inactive (e.g. **SAN** assumes **SAS** airspace), and vice versa;  
-b) Approach assumes Director/Departure airspace “on-side” when the latter positions are inactive (e.g. with **SAS** and **SAN** online only, **SAS** assumes **SDS** and **SFW**) 
-## Departure Procedures
-### SY (RADAR) SID
-The **SY (RADAR) SID** is used for all non-jet IFR departures (and certain jet aircraft) from YSSY.  Unlike other aerodromes, **SY ADC** does *not* need to coordinate these departures with a 'Next' call, provided they are assigned the standard assignable level and a [Standard Assignable Heading](#auto-release).
 
-### Climb Requirements
-The Sydney TMA has a unique airspace arrangement which allows Departures controllers to cross Approach-owned airspace at or above `A100` within 15DME SY.  Coordination is not required for these aircraft, however care must be taken to ensure the aircraft reach `A100` or above outside of 15DME, as the SIDs do not guarantee this by default.  Controllers should familiarise themselves with the requirements and limitations of the [Radar Entry Procedure](#radar-entry-procedure-rep) airspace.
+a) **“North”**/**”West”** positions shall assume the airspace of corresponding **“South”**/**”East”** positions when the latter are inactive (e.g. **SAN** assumes **SAS** airspace, **SFW** assumes **SFE** airspace)  
+
+b) Approach assumes Director/Departure airspace “on-side” when the latter positions are inactive (e.g. with **SAS** and **SAN** online only, **SAS** assumes **SDS** and **SFW**)  
+
+c) Departures assumes **SRI** airspace when the position is inactive  
+
+d) **SRI** is **not permitted** to be logged on to, unless there are already at least **2 other active positions** (ie, SY APP and SY DEP, or SY APP and SY DIR) in the SY TCU.
+
+!!! note
+    The default ownership of sectors within the SY TCU is merely a suggestion for starters. There are 7 executive controller positions within the SY TCU, plus a flow controller, and the ownership of these sectors can be delegated as desired based on the traffic disposition, when agreed between the controllers. For example, during a Milk Run event, if SY APP and SY DEP are online, SY APP may have a lot more work to do than SY DEP, and it would mostly be concentrated on the RIVET/ODALE corridor. In light of this, it might be wise for SY APP to take ownership of SAS, SFW and SFE airspace, whilst SY DEP take ownership of SAN, SDS, SDN, and SRI airspace.
+
+!!! note
+    Unless there are 2 separate Director controllers online (during a Major event like Panic Stations, for example), it is **not recommended** that the SFW and SFE positions are held by 2 separate controllers, due to the tendency of some less experienced pilots to overshoot the runway centreline
+
 ## Arrival Procedures
 ### Level Assignment
 !!! note
@@ -227,33 +236,39 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
 !!! note
     The following diagrams do not include non SY TCU areas of responsibility such as BK CTR or CN CTR
 
+### Side Profile
+<figure markdown>
+![SY TCU Side Profile](img/syside.png){ width="700" }
+  <figcaption>SY TCU Side Profile</figcaption>
+</figure>
+
 ### 07
 <figure markdown>
-![07 TCU Structure](img/SY07annotated.png){ width="700" }
+![07 TCU Structure](img/sy07annotated.png){ width="700" }
   <figcaption>07 TCU Structure</figcaption>
 </figure>
 
 ### 16 PROPS
 <figure markdown>
-![16 PROPS TCU Structure](img/SY16PROPSannotated.png){ width="700" }
+![16 PROPS TCU Structure](img/sy16PROPSannotated.png){ width="700" }
   <figcaption>16 PROPS TCU Structure</figcaption>
 </figure>
 
 ### 25
 <figure markdown>
-![25 TCU Structure](img/SY25annotated.png){ width="700" }
+![25 TCU Structure](img/sy25annotated.png){ width="700" }
   <figcaption>25 TCU Structure</figcaption>
 </figure>
 
 ### 34 PROPS
 <figure markdown>
-![34 PROPS TCU Structure](img/SY34PROPSannotated.png){ width="700" }
+![34 PROPS TCU Structure](img/sy34PROPSannotated.png){ width="700" }
   <figcaption>34 PROPS TCU Structure</figcaption>
 </figure>
 
 ### SODPROPS
 <figure markdown>
-![SODPROPS TCU Structure](img/SYSODPROPSannotated.png){ width="700" }
+![SODPROPS TCU Structure](img/sySODPROPSannotated.png){ width="700" }
   <figcaption>SODPROPS TCU Structure</figcaption>
 </figure>
 
@@ -278,7 +293,6 @@ via RIVET, BOREE, or MARLN: `A100`
 All other routes: `A090`  
 ### SY TCU Internal
 #### APP / DIR
-
 Voiceless coordination is in place between APP and DIR, with the following conditions:
 
 a) Assigned `A060`  
@@ -335,15 +349,51 @@ It is vital that Approach controllers ensure all arriving aircraft are establish
 Aircraft are permitted to cross the MARLN corridor at or above `A060` without coordination with APP. DEP is responsible for separation with respect to aircraft in the corridor.
 
 #### SDN / SFW/SAN
-If aircraft are cleared off runway 11 into CTA, coordination is required from SDN (who will be receiving the aircraft from BK ADC) with SFW or SAN (depending on YSSY runway config) as the aircraft will pass closer than 1.5nm from the sector boundary.  
-Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for more information.
+If aircraft are cleared off runway 11 at YSBK into CTA, coordination is required from SDN (who will be receiving the aircraft from BK ADC) with SFW or SAN (depending on YSSY runway config) as the aircraft will pass closer than 1.5nm from the sector boundary.  
+Refer to [Sydney TCU Airspace Division](#airspace-division) for more information.
 
 !!! Example
     <span class="hotline">**SDN** -> **SFW**</span>: “Request left turn out of Bankstown”  
     <span class="hotline">**SFW** -> **SDN**</span>: "Approved" *(no callsigns need be used here)*  
+
+#### SRI / APP/DEP/DIR
+##### Entering CTA
+Heads-up coordination is required for **all aircraft** entering SY TCU Class C from SRI Class G. Heads-up coordination must be completed prior to handoff, however, best practice is to complete the coordination as soon as possible, ie, as soon as the aircraft enters SRI airspace, or as soon as it becomes identified after departure from an aerodrome within 45nm SY.
+
+Upon receipt of the heads-up coordination from SRI, the SY TCU controller has several options:
+
+- Concur the requested level
+- Concur an interim level
+- "Remain outside Class C airspace, expect no delay"
+- "Remain outside Class C airspace, expect XX minute delay" - *Useful if it's busy*
+- "I'll call you back" - *Useful if the SY TCU controller hasn't had time to assess the aircraft yet*
+
+!!! Example
+    <span class="hotline">**SRI** -> **SDS**</span>: “Departed YSHL, EQU”  
+    <span class="hotline">**SDS** -> **SRI**</span>: "EQU, F170"  
+    <span class="hotline">**SRI** -> **SDS**</span>: “F170, EQU”  
+    
+    **SRI:** "EQU, Cleared to YWLM via TESAT, flight planned route. Climb to F170"  
+    **EQU:** "Cleared to YWLM via TESAT, flight planned route. Climb to F170, EQU"  
+    *(Approaching SRI/SDS sector boundary)*  
+    **SRI:** "EQU, Contact Sydney Departures 129.7"  
+    **EQU:** "129.7, EQU"  
+
+##### Leaving CTA
+Heads-up coordination is not required from a SY TCU position to SRI for aircraft:
+
+**Leaving CTA *vertically*:**
+
+- Assigned 500ft above the BCTA as the CFL; and
+- Handed off to SRI
+
+**Leaving CTA *laterally*:**
+
+- Handed off to SRI upon termination of control services
+
 ### SY TCU / SY ADC
 #### Auto Release
-Auto Release is used for virtually all fixed-wing departures at Sydney. Unlike other aerodromes, aircraft cleared via the **SY (RADAR) SID** do not need to be 'Next' coordinated, provided they are assigned the standard assignable level and a standard assignable heading from the table below.
+Auto Release is used for virtually all fixed-wing departures at Sydney. Unlike some other aerodromes, aircraft cleared via the **SY (RADAR) SID** do not need to be 'Next' coordinated, provided they are assigned the standard assignable level and a standard assignable heading from the table below.
 
 | Runway | Jet | Non-Jet 
 | ----------------- | -------------- | ---------------- |
@@ -416,57 +466,52 @@ Given that the instrument approach procedure will terminate inside another contr
     <span class="hotline">**BK ADC** -> **SY TCU**</span>: "UJN cleared RNP 11C"  
     <span class="hotline">**SY TCU** -> **BK ADC**</span>: "Cleared RNP 11C, UJN"
 
-### SY TCU / CN ADC
+### SRI / CN ADC
 
 #### Departures
 ##### Taxi Call
-
-IFR aircraft must be coordinated with the SY TCU controller responsible for Sydney Departures South (SDS).  **CN SMC** will perform a 'Taxi' call to **SDS**, who in response will issue a squawk code.
+IFR aircraft will be coordinated with SRI at Taxi.
 
 !!! example
-    <span class="coldline">**CN ADC** -> **SY TCU**</span>: "Taxi, MHQ, Lord Howe, runway 06”  
-    <span class="coldline">**SY TCU** -> **CN ADC**</span>: “MHQ, squawk 0134"  
-    <span class="coldline">**CN ADC** -> **SY TCU**</span>: “Squawk 0134, MHQ"
+    <span class="coldline">**CN SMC** -> **SRI**</span>: "Taxi, MHQ, Lord Howe, runway 06”  
+    <span class="coldline">**SRI** -> **CN SMC**</span>: “MHQ, squawk 0134"  
+    <span class="coldline">**CN SMC** -> **SRI**</span>: “Squawk 0134, MHQ"
 
 ##### Ready Call
 CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a ready call, SY TCU will issue a traffic statement.
 
 !!! example
-    <span class="hotline">**CN ADC** -> **SY TCU**</span>: "Ready, MHQ, Runway 06"  
-    <span class="hotline">**SY TCU** -> **CN ADC**</span>: "MHQ, traffic is MEH, an IFR AC50, tracking SHL RAKSO SBKWI, A035, estimate RAKSO time 35" (or "No Reported IFR Traffic")  
-    <span class="hotline">**CN ADC** -> **SY TCU**</span>: "Traffic is MEH tracking SHL RAKSO SBKWI A035, RAKSO at 35"  
+    <span class="hotline">**CN ADC** -> **SRI**</span>: "Ready, MHQ, Runway 06"  
+    <span class="hotline">**SRI** -> **CN ADC**</span>: "MHQ, traffic is MEH, an IFR AC50, tracking SHL RAKSO SBKWI, A035, estimate RAKSO time 35" (or "No Reported IFR Traffic")  
+    <span class="hotline">**CN ADC** -> **SRI**</span>: "Traffic is MEH tracking SHL RAKSO SBKWI A035, RAKSO at 35"  
     
     **CN ADC:** "MHQ, traffic is MEH, IFR AC50 tracking SHL RAKSO SBKWI at A035, estimating RAKSO at time 35, runway 06, cleared for takeoff"  
     **MHQ:** "Copy MEH, runway 06, cleared for takeoff, MHQ"
       
-    **CN ADC:** "MHQ, contact Sydney Departures on 129.7"  
+    **CN ADC:** "MHQ, contact Sydney Centre on 124.55"  
 
-!!! note
-    Note: Because aircraft enter Class G after departure, an airways clearance need not be issued by CN ADC. This will be done on first contact with Sydney TCU.
-    Therefore, a *next* call & *departure instructions* are not required. You must however, pass the above (ready) coordination & obtain a traffic statement.
 #### Arrivals
-YSCN arrivals shall be coordinated to **CN ADC** from SY TCU prior to transfer of jurisdiction.  If an instrument approach is planned, include the estimated approach time.
+YSCN arrivals shall be coordinated to **CN ADC** from SRI prior to transfer of jurisdiction.  If an instrument approach is planned, include the estimated approach time.
 
 !!! tip
     Ensure the aircraft's FDR is up-to-date in order to give **CN ADC** maximum situational awareness of the traffic picture. (eg. if the aircraft is doing the RNP approach, ensure the FDR has been rerouted via the appropriate points)
 
 ##### Visual Tracking
 !!! example
-    <span class="coldline">**SY TCU** -> **CN ADC**</span>: "Estimate, UJA via PIC time 02."  
-    <span class="coldline">**CN ADC** -> **SY TCU**</span>: "UJA"
+    <span class="coldline">**SRI** -> **CN ADC**</span>: "Estimate, UJA via PIC time 02."  
+    <span class="coldline">**CN ADC** -> **SRI**</span>: "UJA"
     
 ##### IAP Tracking
 !!! example
-    <span class="coldline">**SY TCU** -> **CN ADC**</span>: "Estimated approach time, ZYX via RNP at time 04"  
-    <span class="coldline">**CN ADC** -> **SY TCU**</span>: "Via RNP, ZYX"
+    <span class="coldline">**SRI** -> **CN ADC**</span>: "Estimated approach time, ZYX via RNP at time 04"  
+    <span class="coldline">**CN ADC** -> **SRI**</span>: "Via RNP, ZYX"
 
 Aircraft on the RNP W approach must be transferred to **CN ADC** by `SCNWI`.
 
 !!! note
-    The YSCN RNP W approach commences OCTA and only enters CTA at the CN CTR boundary.  TCU controllers **should not** clear aircraft for the approach.  Aircraft in the overlying class C airspace should be instructed to "*leave control area on descent*".
+    The YSCN RNP W approach commences OCTA and only enters CTA at the CN CTR boundary.  TCU controllers **should not** clear aircraft for the approach.  Aircraft in the overlying class C airspace should be instructed to "*leave controlled airspace descending*".
 
 **CN ADC** will issue a clearance for the approach on first contact with the aircraft.
 
 ### SY TCU / RIC ADC
-
 Reserved.
