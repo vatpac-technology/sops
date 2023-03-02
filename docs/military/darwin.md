@@ -50,9 +50,6 @@ b) ADC may deny requests for circuits if IFR traffic may be unduly delayed
 DN ADC is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels in the DN ADC airspace.  
 For simulation purposes, visual separation is assumed to exist below the cloud base, and within 7nm of the aerodrome. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
 
-
-## Traffic Management Plan (TMP)
-The Darwin Traffic Management Plan (TMP) is designed to reduce ATC intervention and workload, provide aircraft with predicted tracking and descent, expedite departures, increase safety and assist in noise abatement. It applies to all departing aircraft, arriving low level aircraft and IFR aircraft tracking to Darwin at A100 and above. 
 ## Aerodrome
 ### Standard Taxi Routes
 Aircraft transiting to or from the Southern and Northern GA should follow the following standardised taxi routes:  
@@ -76,14 +73,39 @@ c) Runway 29 only;
 d) Runway 11 and Runway 36 (LAHSO);  
 e) Runway 11 and Runway 18;  
 f) Runway 11 only.  
- 
-### Departures
-#### IFR Level Assignment
 
-Issue `F180` or `RFL`; whichever is lower, to aircraft cleared via an RNAV SID or aircraft with a MTOW of 25000kg or more  
-Issue `F180` or `RFL`; whichever is lower, to jet aircraft not cleared via an RNAV SID regardless of MTOW  
-Issue `A030` or `RFL`; whichever is lower, to aircraft not cleared via an RNAV SID with a MTOW of less than 25000kg  
+#### Non-RNAV Departures
+For non-RNAV approved IFR aircraft with a wake turbulence category of medium or greater, issue a Radar SID  
+For non-RNAV approved IFR aircraft with a wake turbulence category of light, issue a visual departure or Radar SID  
+## Coordination
+### DN TCU / ENR
+#### Departures
+Voiceless coordination is in place from DN TCU to TRT for aircraft:  
+Planned at or above `F180`: `Assigned F180`  
+Planned below `F180`: `Assigned the RFL`  
 
+Any aircraft not meeting the above criteria must be prior coordinated to ENR.
+
+!!! example
+    <span class="hotline">**DN TCU** -> **TRT**</span>: "PFY1234, with your concurrence, will be assigned F160, for my separation with JTE654"  
+    <span class="hotline">**TRT** -> **DN TCU**</span>: "PFY1234, concur F160"  
+
+#### Arrivals
+The Standard assignable level from TRT to DN TCU is `A100`, and assigned a STAR. All other aircraft must be prior coordinated
+
+### DN TCU / DN ADC
+#### Auto Release
+
+"Next" Coordination is a procedure where the **DN ADC** controller gives a heads-up to the DN TCU controller about an impending departure. The DN TCU controller will respond by assigning a heading to the aircraft, for the **DN ADC** controller to pass on with their takeoff clearance.
+
+
+!!! example
+    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Next, ABC, runway 18"  
+    <span class="hotline">**DN TCU** -> **DN ADC**</span>: "ABC, Track Extended Centreline, unrestricted"  
+    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Track Extended Centreline, unrestricted, ABC"  
+
+
+All departures from 18/36 require departure coordination with **DN TCU**
 
 #### VFR Departures
 `A020` or the planned level; whichever is lower, to all VFR aircraft.  
@@ -106,12 +128,11 @@ Assign VFR routes in accordance with the following radial chart:
 !!! tip
     If a VFR aircraft has not planned via a VFR route as above, use the phraseology: “ABC, cleared amended route VFR route 1, maintain A020, squawk 4512”
 
-
 #### Auto-Release Wedge
 
 The Darwin auto-release wedges extend from the departure end runway threshold, 30 degrees splayed from the centreline, to 7nm  
 
-Auto-release at Darwin is only available for VFR aircraft and low-level IFR aircraft that conform with the TMP  
+Auto-release at Darwin is only available for VFR aircraft and low-level IFR aircraft.
 
 Tower may depart aircraft that conform with the above conditions within the auto-release wedge using the following headings:
 
@@ -124,49 +145,21 @@ Tower may depart aircraft that conform with the above conditions within the auto
 !!! tip
     Tower shall provide visual separation between aircraft in the auto-release wedge and subsequent departures until the preceding departure has been maneuvered by TCU
 
-#### Non-RNAV Departures
-For non-RNAV approved IFR aircraft with a MTOW of 25000kg or more, issue a Radar SID  
-For non-RNAV approved IFR aircraft with a MTOW of less than 25000kg, issue a visual departure or Radar SID  
-## Coordination
-### DN TCU / ENR
-#### Departures
-Voiceless coordination is in place from DN TCU to TRT for aircraft:  
-Planned at or above `F180`: `Assigned F180`  
-Planned below `F180`: `Assigned the RFL`  
+#### IFR Level Assignment
 
-Any aircraft not meeting the above criteria must be prior coordinated to ENR.
+Issue `F180` or `RFL`; whichever is lower, to aircraft cleared via an RNAV SID or aircraft with a wake turbulence category of medium or greater.  
+Issue `F180` or `RFL`; whichever is lower, to jet aircraft not cleared via an RNAV SID regardless of wake turbulence category.  
+Issue `A030` or `RFL`; whichever is lower, to aircraft not cleared via an RNAV SID with a wake turbulence category of light.  
 
-!!! example
-    <span class="hotline">**DN TCU** -> **TRT**</span>: "PFY1234, with your concurrence, will be assigned F160, for my separation with JTE654"  
-    <span class="hotline">**TRT** -> **DN TCU**</span>: "PFY1234, concur F160"  
-
-#### Arrivals
-The Standard assignable level from TRT to DN TCU is `A100`, and assigned a STAR. All other aircraft must be prior coordinated
-
-### DN TCU / DN ADC
-#### Auto Release
-
-Auto Release shall be used for aircraft that are:    
-a) Departing from a runway nominated on the ATIS; and  
-b) Issued a Procedural SID; and   
-c) Assigned `F180`.
-
-Any aircraft that don't meet these criteria must be coordinated to DN TCU with a "Next" Call.
-
-"Next" Coordination is a procedure where the **DN ADC** controller gives a heads-up to the DN TCU controller about an impending departure. The DN TCU controller will respond by assigning a heading to the aircraft, for the **DN ADC** controller to pass on with their takeoff clearance.
-
-
-!!! example
-    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Next, ABC, runway 11"  
-    <span class="hotline">**DN TCU** -> **DN ADC**</span>: "ABC, Track Extended Centreline, unrestricted"  
-    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Track Extended Centreline, unrestricted, ABC"  
-
-
-All departures from 18/36 require departure coordination with **DN TCU**
 
 ### DN TCU Internal
 
-All aircraft transiting between internal DN TCU boundaries must be heads-up coordinated.
+Heads-up coordination is not required between DAW and DAE for:
+
+- Departures on a Procedural SID and assigned `F180`  
+- Arrivals on a STAR assigned `A060`  
+
+All other aircraft must be heads-up coordinated prior to the airspace boundary  
 
 !!! example
     <span class="hotline">**DAW** -> **DAE**</span>: "via DN, CFH23"  
