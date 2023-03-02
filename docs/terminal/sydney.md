@@ -14,20 +14,19 @@
 | Sydney Departures South†   |SDS| Sydney Departures | 129.700          | SY-S_DEP         |
 | Sydney Director West† |SFW| Sydney Director   | 126.100          | SY-D_APP                               |
 | Sydney Director East† |SFE| Sydney Director   | 125.300          | SY-DE_APP                               |
-| Sydney Radar† |SRI| Sydney Centre  | 124.550          | SY-C_DEP                               |
+| Sydney Radar†* |SRI| Sydney Centre  | 124.550          | SY-C_DEP                               |
 | Sydney Flow†        |SFL|                |          | SY-FLW_CTR                               |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
+† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies).  
+* [Additional requirements](#airspace-structural-arrangements) must be met prior to opening SRI as a stand-alone position.
 
 ## Airspace
-The Sydney TMA spans a 45nm Radius around SY DME from `SFC` to `F280`.  
-SY TCU is responsible for the Sydney TMA, except:  
-R470 Restricted Area, when RIC ADC is online (or as negotiated)  
+The Sydney TMA spans a 45nm Radius around SY DME from `SFC` to `F280`. SY TCU is responsible for the Sydney TMA, except:  
 
-BK CTR reverts to Class G when **BK ADC** is offline, and is administered by the relevant SY TCU controller.    
-CN CTR reverts to Class G when **CN ADC** is offline, and is administered by the relevant SY TCU controller.  
+- R470 Restricted Area, when RIC ADC is online (or as negotiated)  
+- BK CTR reverts to Class G when **BK ADC** is offline, and is administered by the relevant SY TCU controller.    
+- CN CTR reverts to Class G when **CN ADC** is offline, and is administered by the relevant SY TCU controller.  
 
-SRI is responsible for the provision of FIS in Class G airspace within the SY TCU.
 ### Airspace Structural Arrangements
 Pursuant to Section 3 of the [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), the following rules apply, in the order presented, to these controller positions, except **SFL**:  
 
@@ -44,6 +43,12 @@ d) **SRI** is **not permitted** to be logged on to, unless there are already at 
 
 !!! note
     Unless there are 2 separate Director controllers online (during a Major event like Panic Stations, for example), it is **not recommended** that the SFW and SFE positions are held by 2 separate controllers, due to the tendency of some less experienced pilots to overshoot the runway centreline
+
+### Sydney Radar (SRI)
+SRI is responsible for the provision of FIS in Class G airspace within the SY TMA.  It is a role normally performed by DEPs but can be delegated to any TMA controller.  The position is designed to reduce the workload of the other TMA positions by identifying and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller.  [Explicit coordation requirements](#sri-app-dep-dir) exist between SRI and other TCU positions, and there are [certain rules](#airspace-structural-arrangements) surrounding the opening of SRI as a stand-alone position.  
+
+!!! example
+    During a busy event, Sydney Departures is experiencing a high workload and wishes to delegate the SRI role to another TMA controller who isn't as busy.  SAN's sector is quiet, so they elect to perform the role.
 
 ## Arrival Procedures
 ### Level Assignment
@@ -348,7 +353,7 @@ It is vital that Approach controllers ensure all arriving aircraft are establish
 ##### MARLN Corridor
 Aircraft are permitted to cross the MARLN corridor at or above `A060` without coordination with APP. DEP is responsible for separation with respect to aircraft in the corridor.
 
-#### SDN / SFW/SAN
+#### SDN / SFW / SAN
 If aircraft are cleared off runway 11 at YSBK into CTA, coordination is required from SDN (who will be receiving the aircraft from BK ADC) with SFW or SAN (depending on YSSY runway config) as the aircraft will pass closer than 1.5nm from the sector boundary.  
 Refer to [Sydney TCU Airspace Division](#airspace-division) for more information.
 
@@ -356,7 +361,7 @@ Refer to [Sydney TCU Airspace Division](#airspace-division) for more information
     <span class="hotline">**SDN** -> **SFW**</span>: “Request left turn out of Bankstown”  
     <span class="hotline">**SFW** -> **SDN**</span>: "Approved" *(no callsigns need be used here)*  
 
-#### SRI / APP/DEP/DIR
+#### SRI / APP / DEP / DIR
 ##### Entering CTA
 Heads-up coordination is required for **all aircraft** entering SY TCU Class C from SRI Class G. Heads-up coordination must be completed prior to handoff, however, best practice is to complete the coordination as soon as possible, ie, as soon as the aircraft enters SRI airspace, or as soon as it becomes identified after departure from an aerodrome within 45nm SY.
 
@@ -377,7 +382,7 @@ Upon receipt of the heads-up coordination from SRI, the SY TCU controller has se
     **EQU:** "Cleared to YWLM via TESAT, flight planned route. Climb to F170, EQU"  
     *(Approaching SRI/SDS sector boundary)*  
     **SRI:** "EQU, Contact Sydney Departures 129.7"  
-    **EQU:** "129.7, EQU"  
+    **EQU:** "129.7, EQU" 
 
 ##### Leaving CTA
 Heads-up coordination is not required from a SY TCU position to SRI for aircraft:
