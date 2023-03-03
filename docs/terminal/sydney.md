@@ -353,7 +353,7 @@ It is vital that Approach controllers ensure all arriving aircraft are establish
 ##### MARLN Corridor
 Aircraft are permitted to cross the MARLN corridor at or above `A060` without coordination with APP. DEP is responsible for separation with respect to aircraft in the corridor.
 
-#### SDN / SFW / SAN
+#### SDN / SFW/SAN
 If aircraft are cleared off runway 11 at YSBK into CTA, coordination is required from SDN (who will be receiving the aircraft from BK ADC) with SFW or SAN (depending on YSSY runway config) as the aircraft will pass closer than 1.5nm from the sector boundary.  
 Refer to [Sydney TCU Airspace Division](#airspace-division) for more information.
 
@@ -361,7 +361,7 @@ Refer to [Sydney TCU Airspace Division](#airspace-division) for more information
     <span class="hotline">**SDN** -> **SFW**</span>: “Request left turn out of Bankstown”  
     <span class="hotline">**SFW** -> **SDN**</span>: "Approved" *(no callsigns need be used here)*  
 
-#### SRI / APP / DEP / DIR
+#### SRI / APP/DEP/DIR
 ##### Entering CTA
 Heads-up coordination is required for **all aircraft** entering SY TCU Class C from SRI Class G. Heads-up coordination must be completed prior to handoff, however, best practice is to complete the coordination as soon as possible, ie, as soon as the aircraft enters SRI airspace, or as soon as it becomes identified after departure from an aerodrome within 45nm SY.
 
@@ -394,11 +394,11 @@ Heads-up coordination is not required from a SY TCU position to SRI for aircraft
 
 !!! example
     *FD214 is intending on leaving Class C airspace on descent into Bankstown.  The lower limit of CTA is `A045`.*  
-    **SDS:** "FD214 descend to 5,000ft, contact Sydney Radar 124.55"  
+    **SDS:** "FD214 descend to 5,000ft, contact Sydney Centre 124.55"  
     **FD214:** "Descend 5,000ft, 124.55, FD214"  
 
-    **FD214:** "Sydney Radar, FD214, descending 5,000ft"  
-    **SRI:** "FD214, Sydney Radar, cleared to leave controlled area descending, no reported IFR traffic"  
+    **FD214:** "Sydney Centre, FD214, descending 5,000ft"  
+    **SRI:** "FD214, Sydney Centre, leave controlled area descending, no reported IFR traffic"  
     **FD214:** "Cleared to leave controlled area descending, FD214"
 
 **Leaving CTA *laterally*:**
@@ -407,11 +407,11 @@ Heads-up coordination is not required from a SY TCU position to SRI for aircraft
 
 !!! example 
     *CYF is an IFR C172 leaving CTA to the north at `A050`.*  
-    **SAN:** "CYF at 30DME SY, control service terminates, contact Sydney Radar 124.55"  
+    **SAN:** "CYF at 30DME SY, control service terminates, contact Sydney Centre 124.55"  
     **CYF:** "124.55, CYF"  
 
-    **CYF:** "Sydney Radar, CYF, maintaining 5,000ft"  
-    **SRI:** "CYF, Sydney Radar, no reported IFR traffic"
+    **CYF:** "Sydney Centre, CYF, maintaining 5,000ft"  
+    **SRI:** "CYF, Sydney Centre, no reported IFR traffic, area QNH 1024"
 
 ### SY TCU / SY ADC
 #### Auto Release
