@@ -40,7 +40,7 @@ All other aircraft must be voice coordinated to CS TCU prior to **20nm** from th
 
 The Standard Assignable level from CS TCU to KEN/BAR is the lower of `F180` or the `RFL`
 
-Refer to [Cairns TCU Airspace Division](../../../terminal/cairns/#airspace-division) for information on airspace divisions when **CS TCU** is online.
+Refer to [Cairns TCU Airspace Division](../../../terminal/cairns/#airspace-division) for information on airspace divisions when **CS2** is online.
 
 ### TBP / TL TCU
 Reserved.
@@ -59,11 +59,9 @@ When **MKA** is online, they own up to `F150` in the **shaded** are shown below:
 </figure>
 
 ### KEN (All) / ENR
-
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 ### KEN/BAR/TBP/SWY Internal
-
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 TBP may make changes to CFL up to the boundary with KEN for the purposes of issuing descent for YBCS.
@@ -74,7 +72,8 @@ Departures from YBHM in to SWY Class C will be coordinated when ready for depart
 
 !!! example
     <span class="hotline">**HM ADC** -> **SWY**</span>: "Next, QFA797"  
-    <span class="hotline">**SWY** -> **HM ADC**</span>: "QFA797"  
+    <span class="hotline">**SWY** -> **HM ADC**</span>: "QFA797, Unrestricted"  
+    <span class="hotline">**HM ADC** -> **SWY**</span>: "Unrestricted, QFA797"  
 
 The Standard Assignable level from HM ADC to SWY is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
 #### Arrivals
@@ -90,8 +89,8 @@ The Standard Assignable level from KEN(SWY) to HM ADC is `A060`, any other level
 Any aircraft that will enter HM ADC airspace, and not landing at YBHM, must be Heads-up coordinated prior to **5 mins** from the boundary.
 
 !!! example
-    **SWY** -> **HM ADC**: "via OVRON, KNV"  
-    **HM ADC** -> **SWY**: "KNV, A030"
+    <span class="hotline">**SWY** -> **HM ADC**</span>: "via OVRON, KNV"  
+    <span class="hotline">**HM ADC** -> **SWY**</span>: "KNV, A030"
 
 ### TBP/SWY / TSN(FLD) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Voice coordinate estimate and level prior to **15 mins** to boundary.

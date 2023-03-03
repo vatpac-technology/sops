@@ -116,8 +116,8 @@ Any aircraft that don't meet these criteria must be coordinated to BN TCU with a
 
 !!! example
     <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Next, ABC, runway 19L"  
-    <span class="hotline">**BN TCU** -> **BN ADC**</span>: "ABC, Heading 030, unrestricted"  
-    <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Heading 030 unrestricted, ABC"
+    <span class="hotline">**BN TCU** -> **BN ADC**</span>: "ABC, Heading 030, Unrestricted"  
+    <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Heading 030 Unrestricted, ABC"
 
 ### BN TCU / AF ADC
 #### Departures
@@ -138,7 +138,8 @@ When aircraft planned via a CTA departure are ready for takeoff and expected to 
 
 !!! example
     <span class="hotline">**AF ADC** -> **BN TCU**</span>: "Next, XMM, 10L"  
-    <span class="hotline">**BN TCU** -> **AF ADC**</span>: "XMM, unrestricted"
+    <span class="hotline">**BN TCU** -> **AF ADC**</span>: "XMM, Unrestricted"  
+    <span class="hotline">**AF ADC** -> **BN TCU**</span>: "Unrestricted, XMM"
 
 #### Arrivals
 YBAF arrivals shall be coordinated to **AF ADC** from BN TCU prior to transfer of jurisdiction.  If an instrument approach is planned, include the estimated approach time.

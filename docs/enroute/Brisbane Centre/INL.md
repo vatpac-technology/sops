@@ -80,7 +80,8 @@ Departures from YBSU in to NSA Class C will be coordinated when ready for depart
 
 !!! example
     <span class="hotline">**SU ADC** -> **NSA**</span>: "Next, BNZ123"  
-    <span class="hotline">**NSA** -> **SU ADC**</span>: "BNZ123"  
+    <span class="hotline">**NSA** -> **SU ADC**</span>: "BNZ123, Unrestricted"  
+    <span class="hotline">**SU ADC** -> **NSA**</span>: "Unrestricted, BNZ123"
 
 The Standard Assignable level from **SU ADC** to NSA is the lower of `A050` or the `RFL`.
 
@@ -97,8 +98,8 @@ YBSU arrivals shall be coordinated to **SU ADC** from NSA prior to transfer of j
 Any aircraft that will enter SU ADC airspace, and not landing at YBSU, must be Heads-up coordinated prior to **5 mins** from the boundary.
 
 !!! example
-    **NSA** -> **SU ADC**: "via HOLIS, CXB"  
-    **SU ADC** -> **NSA**: "CXB, A025"
+    <span class="hotline">**NSA** -> **SU ADC**</span>: "via HOLIS, CXB"  
+    <span class="hotline">**SU ADC** -> **NSA**</span>: "CXB, A025"
 
 ### KPL / RKA
 
@@ -116,7 +117,8 @@ Departures from YCFS in to INL Class C will be coordinated when ready for depart
 
 !!! example 
     <span class="hotline">**CFS ADC** -> **INL**</span>: "Next, BNZ185"  
-    <span class="hotline">**INL** -> **CFS ADC**</span>: "BNZ185"  
+    <span class="hotline">**INL** -> **CFS ADC**</span>: "BNZ185, Unrestricted"  
+    <span class="hotline">**CFS ADC** -> **INL**</span>: "Unrestricted, BNZ185"  
 
 The Standard Assignable level from **CFS ADC** to INL is the lower of `A070` or the `RFL`.
 
@@ -132,8 +134,8 @@ YCFS arrivals shall be coordinated to **CFS ADC** from INL prior to transfer of 
 Any aircraft that will enter CFS ADC airspace, and not landing at YCFS, must be Heads-up coordinated prior to **5 mins** from the boundary.
 
 !!! example
-    **INL** -> **CFS ADC**: "via CFS, XFC"  
-    **CFS ADC** -> **INL**: "XFC, A040"
+    <span class="hotline">**INL** -> **CFS ADC**</span>: "via CFS, XFC"  
+    <span class="hotline">**CFS ADC** -> **INL**</span>: "XFC, A040"
 
 ### GOL/DOS/BUR / OK TCU and AMB TCU
 #### Airspace
