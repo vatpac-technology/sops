@@ -185,4 +185,4 @@ a) Over water in the Beagle Gulf
 b) Between the 320 and 020 TACAN radials  
 c) `A060` or above  
 ### Robertson Barracks
-Darwin TMA is not responsible for traffic or separation services within the A005 step to the east of Darwin. This step is designed for low-level VFR MIL helos to transit in/out of Robertson Barracks within the need for communication with Darwin TMA.
+Darwin TCU is not responsible for traffic or separation services within the A005 step to the east of Darwin. This step is designed for low-level VFR MIL helos to transit in/out of Robertson Barracks without the need for communication with Darwin TCU.
