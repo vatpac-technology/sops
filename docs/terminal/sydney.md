@@ -398,8 +398,8 @@ Heads-up coordination is not required from a SY TCU position to SRI for aircraft
     **FD214:** "Descend 5,000ft, 124.55, FD214"  
 
     **FD214:** "Sydney Centre, FD214, descending 5,000ft"  
-    **SRI:** "FD214, Sydney Centre, leave controlled area descending, no reported IFR traffic"  
-    **FD214:** "Cleared to leave controlled area descending, FD214"
+    **SRI:** "FD214, Sydney Centre, leave controlled airspace descending, no reported IFR traffic"  
+    **FD214:** "Leave controlled airspace descending, FD214"
 
 **Leaving CTA *laterally*:**
 
