@@ -34,7 +34,7 @@ CNK and MLD are responsible for final sequencing for aircraft bound for YSSY, vi
 ### Mudgee (MDE)
 Just keeping them separated!
 ### Ocean (OCN)
-OCN responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YSSY via MARLN.
+OCN is responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YSSY via MARLN.
 ## Coordination
 ### ARL (All) / SY TCU
 
@@ -71,7 +71,8 @@ Departures from YSTW in to ARL/MDE Class C will be coordinated when ready for de
 
 !!! example
     <span class="hotline">**TW ADC** -> **MDE**</span>: "Next, SKV"  
-    <span class="hotline">**MDE** -> **TW ADC**</span>: "SKV"  
+    <span class="hotline">**MDE** -> **TW ADC**</span>: "SKV, Unrestricted"  
+    <span class="hotline">**TW ADC** -> **MDE**</span>: "Unrestricted, SKV"  
 
 The Standard Assignable level from **TW ADC** to ARL/MDE is the lower of `A070` or the `RFL`.
 
@@ -92,7 +93,8 @@ Departures from YCFS in to MNN Class C will be coordinated when ready for depart
 
 !!! example
     <span class="coldline">**CFS ADC** -> **MNN**</span>: "Next, CFH21"  
-    <span class="coldline">**MNN** -> **CFS ADC**</span>: "CFH21"  
+    <span class="coldline">**MNN** -> **CFS ADC**</span>: "CFH21, Unrestricted"  
+    <span class="coldline">**CFS ADC** -> **MNN**</span>: "Unrestricted, CFH21"  
 
 The Standard Assignable level from **CFS ADC** to MNN is the lower of `A070` or the `RFL`.
 
@@ -108,8 +110,8 @@ YCFS arrivals shall be coordinated to **CFS ADC** from MNN prior to transfer of 
 Any aircraft that will enter CFS ADC airspace, and not landing at YCFS, must be Heads-up coordinated prior to **5 mins** from the boundary.
 
 !!! example
-    **MNN** -> **CFS ADC**: "via CFS, GNP"  
-    **CFS ADC** -> **MNN**: "GNP, A030"
+    <span class="hotline">**MNN** -> **CFS ADC**</span>: "via CFS, GNP"  
+    <span class="hotline">**CFS ADC** -> **MNN**</span>: "GNP, A030"
 
 ### ARL (All) / WLM TCU
 #### Airspace
