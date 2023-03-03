@@ -392,9 +392,26 @@ Heads-up coordination is not required from a SY TCU position to SRI for aircraft
 - Assigned 500ft above the BCTA as the CFL; and
 - Handed off to SRI
 
+!!! example
+    *FD214 is intending on leaving Class C airspace on descent into Bankstown.  The lower limit of CTA is `A045`.*  
+    **SDS:** "FD214 descend to 5,000ft, contact Sydney Radar 124.55"  
+    **FD214:** "Descend 5,000ft, 124.55, FD214"  
+
+    **FD214:** "Sydney Radar, FD214, descending 5,000ft"  
+    **SRI:** "FD214, Sydney Radar, cleared to leave controlled area descending, no reported IFR traffic"  
+    **FD214:** "Cleared to leave controlled area descending, FD214"
+
 **Leaving CTA *laterally*:**
 
 - Handed off to SRI upon termination of control services
+
+!!! example 
+    *CYF is an IFR C172 leaving CTA to the north at `A050`.*  
+    **SAN:** "CYF at 30DME SY, control service terminates, contact Sydney Radar 124.55"  
+    **CYF:** "124.55, CYF"  
+
+    **CYF:** "Sydney Radar, CYF, maintaining 5,000ft"  
+    **SRI:** "CYF, Sydney Radar, no reported IFR traffic"
 
 ### SY TCU / SY ADC
 #### Auto Release
