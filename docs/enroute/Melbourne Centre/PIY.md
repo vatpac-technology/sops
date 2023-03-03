@@ -17,9 +17,6 @@
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 ## Airspace
-
-Pingelly assumes responsiblity of the airspace within 36nm of PH DME above `F245`  
-
 <figure markdown>
 ![Pingelly Airspace](../assets/piy.png){ width="700" }
   <figcaption>Pingelly Airspace</figcaption>
@@ -31,7 +28,7 @@ PIY will provide final sequencing actions to ensure aircraft comply with their F
 For aircraft overflying the PH TCU place `O/FLY` in the LABEL DATA field.
 
 ### Leeman (LEA)
-LEA is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via `WAVES`. LEA is also responsible for transiting aircraft outbound from Perth into the Melbourne Oceanic Control Area. Coordination between this non-radar position (ML-IND_FSS) must be completed in accordance with [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic){target=new}.  
+LEA is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via `WAVES`.
 
 !!! note
     Controllers should be aware that VHF coverage near the LEA/IND border may be limited. Controllers should strive to issue HF frequencies and transfer of communications instruction prior to 160 NM PH DME.
@@ -49,17 +46,25 @@ JAR is responsible for assigning and issuing arrival clearance to aircraft inbou
 
 
 ## Coordination
-## ENR / PH TCU
-### Standard Assignable Levels
-The Standard assignable level from ENR to PH TCU is:  
-`A090` for all arrivals on a STAR.
+## PIY(All) / PH TCU
+The Standard Assignable level from PIY(All) to PH TCU is `A090` and assigned the relevant STAR. 
 
 All other aircraft must be voice coordinated to PH TCU prior to **20nm** from the boundary.
-## PIY (ALL) / ENR
 
-As per the enroute coordination requirements, voiceless coordination exists between enroute sectors, with changes permitted up to the boundary with PIY.
+The Standard Assignable level from PH TCU to PIY(All) is the lower of `F240` or the `RFL`.
 
-Refer to [Perth TCU Airspace Division](../../../terminal/perth/#airspace-division){target=new} for information on airspace divisions when **PHD** is online.
-## LEA / IND (Oceanic)
+Refer to [Perth TCU Airspace Division](../../../terminal/perth/#airspace-division) for information on airspace divisions when **PHD** is online.
 
-As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic){target=new}.
+## PIY(All) / ENR
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
+
+## PIY/LEA/GVE/HYD/JAR Internal
+Changes to CFL are permitted up to the boundary from GVE, CRS and HYD to PIY.
+
+All else is as per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
+
+That being said, it is *advised* that PIY(All) gives **Heads-up Coordination** in the following scenarios:  
+- JAR to PIY for all aircraft  
+- LEA to PIY for all aircraft  
+## PIY(All) / IND (Oceanic)
+As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic).
