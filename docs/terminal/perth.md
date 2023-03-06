@@ -67,9 +67,9 @@ The divisions of the airspace between **PHA**, and **PHD** change based on the R
 
 ### PH TCU / ENR
 #### Departures
-Voiceless coordination is in place from AD TCU to PIY (and subsectors) for aircraft tracking via a SID and:  
-Planned at or above `F180`: `Assigned F180`  
-Planned below `F180`: `Assigned the RFL`  
+Voiceless coordination is in place from PH TCU to PIY (and subsectors) for aircraft tracking via a SID and:  
+Planned at or above `F240`: `Assigned F240`  
+Planned below `F240`: `Assigned the RFL`  
 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
@@ -152,5 +152,5 @@ Given that the instrument approach procedure will terminate inside another contr
     <span class="hotline">**PH TCU** -> **JT ADC**</span>: "Cleared RNAV-Z 24R, UJN" 
 
 ### PH TCU / PEA ADC
-Reserved
+Reserved.
 
