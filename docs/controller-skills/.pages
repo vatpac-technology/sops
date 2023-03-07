@@ -1,21 +1,3 @@
 title: Controller Skills
 nav:
-    - "Overview": index.md
-    - "Advanced Techniques": advanced.md
-    - "Airwork / Special Operations": airwork.md
-    - "Annotations": annotations.md
-    - "ATIS": atis.md
-    - "Callsigns": callsigns.md
-    - "Circuit Operations": CircuitOperations.md
-    - "Class D Tower": classdtwr.md
-    - "Classes of Airspace": classofairspace.md
-    - "Coordination": coordination.md
-    - "Extending": extending.md
-    - "Handover/Takeover": hoto.md
-    - "Lowest Safe Altitude (LSALT)": lsalt.md
-    - "MAESTRO": maestro.md
-    - "Restricted Areas": restrictedareas.md
-    - "Separation Standards": sepstandards.md
-    - "Sequencing": sequencing.md
-    - "vatSys": vatsys.md
     - ...
