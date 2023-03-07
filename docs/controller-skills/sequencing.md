@@ -42,7 +42,7 @@ For information only, the following approximate time gains and losses achieved b
 | 180  |  | +3 MIN |
 
 !!! tip
-    Refer to [Annotations](../../controller-skills/Annotations/#sequencing) for info regarding Label data pertaining to speed control sequencing.
+    Refer to [Annotations](../../controller-skills/annotations/#sequencing) for info regarding Label data pertaining to speed control sequencing.
 ## Descending early
 Levels can also be used to help facilitate sequencing where required. Aircraft will naturally have a slower ground speed at lower levels, so to assist with any delaying action, you can give the instruction:
 *"BNZ148, for sequencing, descend now to F130"*
