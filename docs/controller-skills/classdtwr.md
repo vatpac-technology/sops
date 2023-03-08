@@ -21,15 +21,15 @@ At [Tamworth](../../aerodromes/tamworth), [Coffs Harbour](../../aerodromes/Coffs
 ### Standards
 The most relevant Procedural Standards for Class D Towers include:
 
-- [5 min Departures](../../controller-skills/SepStandards/#5-min)  
-- [10 min Departures](../../controller-skills/SepStandards/#10-min)  
-- [10nm Arrivals](../../controller-skills/SepStandards/#10nm)  
-- [5nm Definite Passing](../../controller-skills/SepStandards/#5nm-definite-passing)  
-- [Sight and Pass](../../controller-skills/SepStandards/#sight-and-pass)  
-- [Opposite sides of visual fix](../../controller-skills/SepStandards/#opposite-sides-of-visual-fix)  
-- [Lateral - Conflict Area](../../controller-skills/SepStandards/#conflict-area)  
-- [Lateral - Lat Sep Table](../../controller-skills/SepStandards/#lat-sep-table)  
-- [Vertical](../../controller-skills/SepStandards/#vertical)  
+- [5 min Departures](../../controller-skills/sepstandards/#5-min)  
+- [10 min Departures](../../controller-skills/sepstandards/#10-min)  
+- [10nm Arrivals](../../controller-skills/sepstandards/#10nm)  
+- [5nm Definite Passing](../../controller-skills/sepstandards/#5nm-definite-passing)  
+- [Sight and Pass](../../controller-skills/sepstandards/#sight-and-pass)  
+- [Opposite sides of visual fix](../../controller-skills/sepstandards/#opposite-sides-of-visual-fix)  
+- [Lateral - Conflict Area](../../controller-skills/sepstandards/#conflict-area)  
+- [Lateral - Lat Sep Table](../../controller-skills/sepstandards/#lat-sep-table)  
+- [Vertical](../../controller-skills/sepstandards/#vertical)  
 - [Tamworth Local Lateral Separation Points](../../aerodromes/tamworth/#local-lateral-separation-points)  
 
 ### Control Techniques
