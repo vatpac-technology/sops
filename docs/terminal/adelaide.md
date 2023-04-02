@@ -29,6 +29,30 @@ EDN CTR reverts to Class G when **EDN ADC** is offline, and is administered by t
   <figcaption>AD TCU Structure</figcaption>
 </figure>
 
+### Secnic Coastal Flights
+VFR aircraft may transit the control zone tracking coastal north or southbound, generally between `A005` and `A015`.  These aircraft should be issued a squawk code and instructed to remain OCTA, then coordinated with **AD ADC** who may issue a clearance limit based on the current traffic situation at YPAD (generally from the table below).  
+
+| Direction of Travel | Clearance Limit |
+| --- | --- |
+| Northbound | Brighton Jetty (`BTJ`) |
+| Southbound | Henley Jetty (`HNLY`) |
+
+!!! example
+    *CNY is a VFR Cessna 172 tracking coastal northbound, approaching Port Noarlunga (`PNL`).*  
+    **CNY:** "Adelaide Approach, Cessna 172 CNY, 2nm south of Port Noarlunga, 1500ft, received Delta, request coastal northbound"  
+    **AD TCU:** "CNY, Adelaide Approach, squawk 0511, remain clear of class C airspace"  
+    **CNY:** "Squawk 0511, remain clear of class C airspace, CNY"  
+
+    *TCU coordinates with ADC.*  
+    <span class="hotline">**TCU** -> **ADC**</span>: "South of Port Noarlunga, CNY, for coastal northbound, 1500ft"  
+    <span class="hotline">**ADC** -> **TCU**</span>: "CNY clearance limit Brighton Jetty"  
+    <span class="hotline">**TCU** -> **ADC**</span>: "Clearance limit Brighton Jetty, CNY"
+
+    **AD TCU:** "CNY, cleared coastal northbound, 1500ft, clearance limit Brighton Jetty"  
+    **CNY:** "Cleared coastal northbound, 1500ft, clearance limit Brighton Jetty, CNY"
+
+These aircraft should be transferred to **AD ADC** approaching the control zone.
+
 ## PF ADC Offline
 Due to the low level of CTA at YPPF, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 

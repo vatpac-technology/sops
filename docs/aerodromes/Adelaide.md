@@ -21,10 +21,17 @@ AD ADC is responsible for the Class C airspace in the AD CTR `SFC` to `A015`.
   <figcaption>AD ADC Airspace</figcaption>
 </figure>
 
-### Scenic Coastal Flights
-VFR aircraft may transit the control zone tracking coastal north or southbound, generally at `A005`. **AD ADC** is responsible for ensuring these aircraft remain separated from aircraft arriving/departing at YPAD.  
+### Maneuvering Area Responsibility
 
-Where an arrival or departure may conflict with a coastal aircraft, issue a clearance limit to the coastal aircraft to ensure the arrival/departure path remains clear.  Remember to consider the missed approach to runway 23 when assessing conflict between aircraft.  When necessary, aircraft tracking coastal should be issued with a clearance limit in accordance with the table below:  
+<figure markdown>
+![YPAD Maneuvering Area](img/ypad_maneuvring_area.png){ width="500" }
+  <figcaption>YPAD Maneuvering Area</figcaption>
+</figure>
+
+### Scenic Coastal Flights
+VFR aircraft may transit the control zone tracking coastal north or southbound, generally between `A005` and `A015`. **AD ADC** is responsible for ensuring these aircraft remain separated from aircraft arriving/departing at YPAD.  
+
+The TCU controller will coordinate these aircraft with ADC prior to issuing airways clearance.  ADC should consider any possible conflict from arriving or departing aircraft at YPAD (including the missed approach to runway 23), and impose a clearance limit on coastal aircraft where conflict exists.  The clearance limits in the table below will ensure that coastal aircraft remain clear of the runway 05 approach path and runway 23 departure/missed approach path. 
 
 | Direction of Travel | Clearance Limit |
 | --- | --- |
@@ -36,24 +43,24 @@ Where an arrival or departure may conflict with a coastal aircraft, issue a clea
   <figcaption>Clearance Limits (red) and Approach/Departure Path (green)</figcaption>
 </figure>
 
-Once the conflict is no longer a threat, cancel the clearance limit and issue onwards clearance tracking coastal north/southbound at the desired level.
-
 !!! example
-    *CNY is a VFR Cessna 172 tracking coastal northbound, approaching Port Noarlunga (`PNL`).*  
-    **CNY:** "Adelaide Tower, Cessna 172 CNY, 2nm south of Port Noarlunga, 500ft, received Delta, request coastal northbound"  
-    **AD ADC:** "CNY, Adelaide Tower, cleared coastal northbound, 500ft, clearance limit Brighton Jetty"  
-    **CNY:** "Cleared coastal northbound, 500ft, clearance limit Brighton Jetty, CNY"  
+    *CNY is a VFR Cessna 172 tracking coastal northbound, approaching Port Noarlunga (`PNL`). They have contacted AD TCU for clearance.*    
+    <span class="hotline">**TCU** -> **ADC**</span>: "South of Port Noarlunga, CNY, for coastal northbound, 1500ft"  
+    <span class="hotline">**ADC** -> **TCU**</span>: "CNY clearance limit Brighton Jetty"  
+    <span class="hotline">**TCU** -> **ADC**</span>: "Clearance limit Brighton Jetty, CNY"
+
+The TCU will issue airways clearance, then transfer the aircraft to ADC.  If a delay is expected at the clearance limit, instruct the aircraft to hold there.  Once the conflict is no longer a threat, cancel the clearance limit and issue onwards clearance tracking coastal north/southbound at the desired level.
+
+!!! example 
+    **CNY:** "Adelaide Tower, CNY"  
+    **AD ADC:** "CNY, Adelaide Tower, hold at the clearance limit, expect onwards clearance in 5 minutes due inbound traffic"  
+    **CNY:** "Hold at the clearance limit, CNY"  
 
     *Once conflict with YPAD traffic no longer exists:*  
-    **AD ADC:** "CNY, cancel clearance limit, track coastal northbound, 500ft"  
-    **CNY:** "Cancel clearance limit, track coastal northbound, 500ft, CNY"
+    **AD ADC:** "CNY, cancel clearance limit, track coastal northbound, 1500ft"  
+    **CNY:** "Cancel clearance limit, track coastal northbound, 1500ft, CNY"
 
-### Maneuvering Area Responsibility
-
-<figure markdown>
-![YPAD Maneuvering Area](img/ypad_maneuvring_area.png){ width="500" }
-  <figcaption>YPAD Maneuvering Area</figcaption>
-</figure>
+If the aircraft will be exiting the CTR back into class C CTA, instruct them to contact **AD TCU**. Otherwise, as they approach the lateral limit of the CTR, cancel their identification & control services and issue frequency change approval.
 
 ## Runway Modes
 Single runway operations using Runway 05 or 23 (whichever is more favoured by the winds) are preferred at YPAD. However, when strong winds favour Runway 12 or 30, Non-Jets (Runway 12/30 is too short for most jets) would benefit from having that runway available to them as well. As a general rule of thumb, if the Crosswind on Runway 05/23 exceeds **20kts**, the more favourable of Runway 12 or 30 shall be in use as well as the more favourable of Runway 05 or 23.
