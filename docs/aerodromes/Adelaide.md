@@ -28,6 +28,11 @@ AD ADC is responsible for the Class C airspace in the AD CTR `SFC` to `A015`.
   <figcaption>YPAD Maneuvering Area</figcaption>
 </figure>
 
+!!! note
+    Where an aircraft will be taxiing via multiple taxiways of the same lettering (e.g. A6, then A5, then A4, etc), refer to the taxiway by only the letter.  
+
+    E.g. an aircraft taxiing from the terminal to runway 05 could be instructed to taxi "*via Alpha, cross runway 30, Foxtrot, to holding point Foxtrot Six runway 05*".
+
 ### Scenic Coastal Flights
 VFR aircraft may transit the control zone tracking coastal north or southbound, generally between `A005` and `A015`. **AD ADC** is responsible for ensuring these aircraft remain separated from aircraft arriving/departing at YPAD.  
 
