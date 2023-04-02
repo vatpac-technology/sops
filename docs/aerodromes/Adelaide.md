@@ -21,6 +21,33 @@ AD ADC is responsible for the Class C airspace in the AD CTR `SFC` to `A015`.
   <figcaption>AD ADC Airspace</figcaption>
 </figure>
 
+### Scenic Coastal Flights
+VFR aircraft may transit the control zone tracking coastal north or southbound, generally at `A005`. **AD ADC** is responsible for ensuring these aircraft remain separated from aircraft arriving/departing at YPAD.  
+
+Where an arrival or departure may conflict with a coastal aircraft, issue a clearance limit to the coastal aircraft to ensure the arrival/departure path remains clear.  Remember to consider the missed approach to runway 23 when assessing conflict between aircraft.  When necessary, aircraft tracking coastal should be issued with a clearance limit in accordance with the table below:  
+
+| Direction of Travel | Clearance Limit |
+| --- | --- |
+| Northbound | Brighton Jetty (`BTJ`) |
+| Southbound | Henley Jetty (`HNLY`) |
+
+<figure markdown>
+![Clearance Limits](img/adclearancelimits.png){ width="500" }
+  <figcaption>Clearance Limits (red) and Approach/Departure Path (green)</figcaption>
+</figure>
+
+Once the conflict is no longer a threat, cancel the clearance limit and issue onwards clearance tracking coastal north/southbound at the desired level.
+
+!!! example
+    *CNY is a VFR Cessna 172 tracking coastal northbound, approaching Port Noarlunga (`PNL`).*  
+    **CNY:** "Adelaide Tower, Cessna 172 CNY, 2nm south of Port Noarlunga, 500ft, received Delta, request coastal northbound"  
+    **AD ADC:** "CNY, Adelaide Tower, cleared coastal northbound, 500ft, clearance limit Brighton Jetty"  
+    **CNY:** "Cleared coastal northbound, 500ft, clearance limit Brighton Jetty, CNY"  
+
+    *Once conflict with YPAD traffic no longer exists:*  
+    **AD ADC:** "CNY, cancel clearance limit, track coastal northbound, 500ft"  
+    **CNY:** "Cancel clearance limit, track coastal northbound, 500ft, CNY"
+
 ### Maneuvering Area Responsibility
 
 <figure markdown>
@@ -35,8 +62,11 @@ Single runway operations using Runway 05 or 23 (whichever is more favoured by th
     METAR: `YPAD 210600Z 15030KT 9999 FEW030 21/11 Q1002 RMK RF00.0/000.0`  
     ATIS: `RUNWAY 23 AND 12 FOR ARRIVALS AND DEPARTURES`
 
+!!! note
+    Where low traffic levels and relevant meteorological conditions permit, non-jet arrivals from the west may be offered runway 12.
+
 ### Runway 23 Arrivals
-With **Runway 23** in use for arrivals and the cloud base above `A024` but below `A043`, the APCH field shall include:  
+With **Runway 23** in use for arrivals and the cloud base above `A024` but below `A043`, the ATIS APCH field shall include:  
 `ACFT FM THE EAST AND JET ACFT FM THE WEST EXP INSTR APCH`  
 
 This allows aircraft on the Victor STAR from the west to join a visual right base without the need to conduct an instrument approach, while keeping aircraft from the east clear of the higher terrain near the Adelaide Hills.
