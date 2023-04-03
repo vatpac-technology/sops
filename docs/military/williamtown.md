@@ -67,6 +67,10 @@ When WLM ADC is online, the airspace below the R578A restricted area is owned by
 WLM ADC is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels in the WLM ADC airspace.  
 For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm of the aerodrome. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
 
+## Charts
+!!! note
+    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
+
 ## Coordination
 ### WLM TCU / ARL(All)
 
