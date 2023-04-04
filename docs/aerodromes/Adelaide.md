@@ -28,6 +28,45 @@ AD ADC is responsible for the Class C airspace in the AD CTR `SFC` to `A015`.
   <figcaption>YPAD Maneuvering Area</figcaption>
 </figure>
 
+!!! note
+    Where an aircraft will be taxiing via multiple taxiways of the same lettering (e.g. A6, then A5, then A4, etc), refer to the taxiway by only the letter.  
+
+    E.g. an aircraft taxiing from the terminal to runway 05 could be instructed to taxi "*via Alpha, cross runway 30, Foxtrot, to holding point Foxtrot Six runway 05*".
+
+### Scenic Coastal Flights
+VFR aircraft may transit the control zone tracking coastal north or southbound, generally between `A005` and `A015`. **AD ADC** is responsible for ensuring these aircraft remain separated from aircraft arriving/departing at YPAD.  
+
+The TCU controller will coordinate these aircraft with ADC prior to issuing airways clearance.  ADC should consider any possible conflict from arriving or departing aircraft at YPAD (including the missed approach to runway 23), and impose a clearance limit on coastal aircraft where conflict exists.  The clearance limits in the table below will ensure that coastal aircraft remain clear of the runway 05 approach path and runway 23 departure/missed approach path. 
+
+| Direction of Travel | Clearance Limit |
+| --- | --- |
+| Northbound | Brighton Jetty (`BTJ`) |
+| Southbound | Henley Jetty (`HNLY`) |
+
+<figure markdown>
+![Clearance Limits](img/adclearancelimits.png){ width="500" }
+  <figcaption>Clearance Limits (red) and Approach/Departure Path (green)</figcaption>
+</figure>
+
+!!! example
+    *CNY is a VFR Cessna 172 tracking coastal northbound, approaching Port Noarlunga (`PNL`). They have contacted AD TCU for clearance.*    
+    <span class="hotline">**TCU** -> **ADC**</span>: "South of Port Noarlunga, CNY, for coastal northbound, 1500ft"  
+    <span class="hotline">**ADC** -> **TCU**</span>: "CNY clearance limit Brighton Jetty"  
+    <span class="hotline">**TCU** -> **ADC**</span>: "Clearance limit Brighton Jetty, CNY"
+
+The TCU will issue airways clearance, then transfer the aircraft to ADC.  If a delay is expected at the clearance limit, instruct the aircraft to hold there.  Once the conflict is no longer a threat, cancel the clearance limit and issue onwards clearance tracking coastal north/southbound at the desired level.
+
+!!! example 
+    **CNY:** "Adelaide Tower, CNY"  
+    **AD ADC:** "CNY, Adelaide Tower, hold at the clearance limit, expect onwards clearance in 5 minutes due inbound traffic"  
+    **CNY:** "Hold at the clearance limit, CNY"  
+
+    *Once conflict with YPAD traffic no longer exists:*  
+    **AD ADC:** "CNY, cancel clearance limit, track coastal northbound, 1500ft"  
+    **CNY:** "Cancel clearance limit, track coastal northbound, 1500ft, CNY"
+
+If the aircraft will be exiting the CTR back into class C CTA, instruct them to contact **AD TCU**. Otherwise, as they approach the lateral limit of the CTR, cancel their identification & control services and issue frequency change approval.
+
 ## Runway Modes
 Single runway operations using Runway 05 or 23 (whichever is more favoured by the winds) are preferred at YPAD. However, when strong winds favour Runway 12 or 30, Non-Jets (Runway 12/30 is too short for most jets) would benefit from having that runway available to them as well. As a general rule of thumb, if the Crosswind on Runway 05/23 exceeds **20kts**, the more favourable of Runway 12 or 30 shall be in use as well as the more favourable of Runway 05 or 23.
 
@@ -35,8 +74,11 @@ Single runway operations using Runway 05 or 23 (whichever is more favoured by th
     METAR: `YPAD 210600Z 15030KT 9999 FEW030 21/11 Q1002 RMK RF00.0/000.0`  
     ATIS: `RUNWAY 23 AND 12 FOR ARRIVALS AND DEPARTURES`
 
+!!! note
+    Where low traffic levels and relevant meteorological conditions permit, non-jet arrivals from the west may be offered runway 12.
+
 ### Runway 23 Arrivals
-With **Runway 23** in use for arrivals and the cloud base above `A024` but below `A043`, the APCH field shall include:  
+With **Runway 23** in use for arrivals and the cloud base above `A024` but below `A043`, the ATIS APCH field shall include:  
 `ACFT FM THE EAST AND JET ACFT FM THE WEST EXP INSTR APCH`  
 
 This allows aircraft on the Victor STAR from the west to join a visual right base without the need to conduct an instrument approach, while keeping aircraft from the east clear of the higher terrain near the Adelaide Hills.
