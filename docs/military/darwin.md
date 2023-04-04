@@ -77,6 +77,11 @@ f) Runway 11 only.
 #### Non-RNAV Departures
 For non-RNAV approved IFR aircraft with a wake turbulence category of medium or greater, issue a Radar SID  
 For non-RNAV approved IFR aircraft with a wake turbulence category of light, issue a visual departure or Radar SID  
+
+## Charts
+!!! note
+    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
+
 ## Coordination
 ### DN TCU / ENR
 #### Departures
