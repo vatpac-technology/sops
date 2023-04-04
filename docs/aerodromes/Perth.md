@@ -59,7 +59,7 @@ PH ADC is responsible for the Class C airspace in the PH CTR `SFC` to `A015`.
 ## Airspace
 Tower airspace is defined as between `SFC` to `A015`, within the lateral limits:  
  a) 11DME PH; then  
- b) Herdsman Lake; then  
+ b) HKE; then  
  c) 3NM JT ARP. 
 
 <figure markdown>
@@ -75,7 +75,7 @@ Circuit training traffic shall be issued SSR code and clearance to operate withi
 All circuits are to be conducted to the east of Runway 03/21 (right-hand circuit Runway 03).
 
 ### Scenic Flights
-When traffic permits, VFR scenic flights over Perth are cleared via VICTOR 65 route (`CTE-PCTY-HKE`).
+When traffic permits, VFR scenic flights over Perth are cleared via VICTOR 65 route (CTE-PCTY-HKE).
 
 ### Separation
 #### 2400m Reduced Runway Separation Minima
@@ -89,15 +89,15 @@ When both Runway 03 and Runway 06 are nominated as departure runways, broadcast 
 ## Coordination
 ### PH ADC / PH TCU
 #### Auto Release
-'Next' coordination is required for aircraft that are:   
-    a) Departing from a runway not nominated on the ATIS; or  
-    b) Not assigned the standard assignable level; or  
-    c) Assigned the **Radar SID**
+'Next' coordination is **not** required for aircraft that are:   
+    a) Departing from a runway nominated on the ATIS; and  
+    b) Assigned the standard assignable level; and  
+    c) Assigned a **Procedural SID**
 
 !!! example
     <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Next, ABC, runway 03"  
     <span class="hotline">**PH TCU** -> **PH ADC**</span>: "ABC, Heading 010, unrestricted"  
-    <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Heading 010 unrestricted, ABC"  
+    <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Heading 010, ABC"  
 
     **PH ADC**: "ABC, Assigned heading left 010, Runway 03, Cleared for Takeoff"  
     **ABC**: "Left heading 010, Runway 010, Cleared for Takeoff, ABC"
@@ -109,10 +109,6 @@ The Standard Assignable level from PH ADC to PH TCU is the lower of `A050` or th
 #### Departures Controller
 Refer to [Perth TCU Airspace Division](../../terminal/perth/#airspace-division) for information on airspace divisions when **PHD** is online.
 
-## PH ADC / PH SMC
-#### Ground Operations
-ADC has Responsibility of the Runways, meaning SMC must always coordinate with ADC to allow aircraft to cross runways whilst taxiing. SMC may request, or ADC may elect, to release certain runways to the SMC controller, so they may let aircraft cross the runway without coordination (For example, Releasing runway 06/24 to SMC while not in use.) This Release may also be cancelled at the controller's discretion.
-
 ### PH ACD / PH TCU
 The controller assuming responsibility of ACD shall give heads-up coordination to the relevant PH TCU controller prior to the issue of the following clearances:  
 a) VFR Departures  
@@ -122,9 +118,9 @@ b) Aircraft using a runway not on the ATIS
     **ABC**: "Perth Delivery, ABC, Requesting a Victor 65 scenic."  
     **PH ACD**: "ABC, Perth Delivery, Standby"  
 
-    <span class="coldline">**PH ACD** -> **PH TCU**</span>: "ABC, Requesting clearance for a victor 65 scenic"  
-    <span class="coldline">**PH TCU** -> **PH ACD**</span>: "ABC, Cleared for a victor 65 scenic"  
-    <span class="coldline">**PH ACD** -> **PH TCU**</span>: "Cleared for a victor 65 scenic ABC"   
+    <span class="coldline">**PH ACD** -> **PH TCU**</span>: "ABC, Requesting Victor 65 scenic"  
+    <span class="coldline">**PH TCU** -> **PH ACD**</span>: "ABC, Cleared Victor 65 scenic"  
+    <span class="coldline">**PH ACD** -> **PH TCU**</span>: "Cleared Victor 65 scenic, ABC"   
      
     **PH ACD**: "ABC, Cleared for a victor 65 scenic"  
     **ABC**: "Cleared for a victor 65 scenic, ABC"  

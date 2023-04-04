@@ -38,14 +38,14 @@ A 'next' call is made for all aircraft when they are next to depart. CFS ADC mus
 !!! example
     <span class="hotline">**CFS ADC** -> **MNN**</span>: "Next, QJE1573"  
     <span class="hotline">**MNN** -> **CFS ADC**</span>: "QJE1573, Unrestricted"  
-    <span class="hotline">**CFS ADC** -> **MNN**</span>: "Unrestricted, QJE1573"
+    <span class="hotline">**CFS ADC** -> **MNN**</span>: "QJE1573"
 
 The Standard Assignable level from CFS ADC to INL/ARL(MNN) is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
-### Arrivals
-INL/ARL(MNN) will coordinate the sequence to CFS ADC.
+### Arrivals/Overfliers
+INL/ARL(MNN) will heads-up coordinate all arrivals/overfliers to CFS ADC.
 
 !!! example
-    <span class="coldline">**INL** -> **CFS ADC**</span>: "New Sequence of 2. Via KADSI, RXA6416, Number 1. Via TUCAB, LYM, Number 2”  
-    <span class="coldline">**CFS ADC** -> **INL**</span>: "RXA6416, Number 1. LYM, Number 2"  
+    <span class="hotline">**INL** -> **CFS ADC**</span>: "Via KADSI, RXA6416”  
+    <span class="hotline">**CFS ADC** -> **INL**</span>: "RXA6416"  
 
 The Standard Assignable level from INL/ARL(MNN) to CFS ADC is `A080`, any other level must be prior coordinated.

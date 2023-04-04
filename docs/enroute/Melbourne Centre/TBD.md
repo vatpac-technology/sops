@@ -34,7 +34,7 @@ All other aircraft must be voice coordinated to AD TCU prior to **20nm** from th
 The Standard Assignable level from AD TCU to TBD/AUG is the lower of `F240` or the `RFL`, and assigned a SID.
 
 ### TBD/AUG / ENR
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 ### TBD/AUG Internal
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **50nm** to boundary.

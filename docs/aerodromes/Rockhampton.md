@@ -26,18 +26,18 @@ RK ADC is permitted to use Surveillance standards for separation. Surveillance c
 For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
 ## Coordination
 ### Departures
-A 'next' call is made for all aircraft when they are next to depart. RK ADC must inform COR TCU if the aircraft does not depart within **2 minutes** of the next call.
+A 'next' call is made for all aircraft when they are next to depart. RK ADC must inform rka if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
     <span class="hotline">**RK ADC** -> **RKA**</span>: "Next, VJE"  
     <span class="hotline">**RKA** -> **RK ADC**</span>: "VJE, Unrestricted"  
-    <span class="hotline">**RK ADC** -> **RKA**</span>: "Unrestricted, VJE"
+    <span class="hotline">**RK ADC** -> **RKA**</span>: "VJE"
 
 The Standard Assignable level from RK ADC to RKA is the lower of `A060` or the `RFL`, any other level must be prior coordinated.
 
-### Arrivals
-COR TCU will coordinate the sequence to RK ADC.
+### Arrivals/Overfliers
+RKA will heads-up coordinate arrivals/overfliers from Class C to RK ADC. Aircraft will be cleared for the coordinated approach prior to handoff to RK ADC, unless RK ADC nominates a restriction.
 
 !!! example
-    <span class="coldline">**RKA** -> **RK ADC**</span>: "New Sequence of 2. Via SARUS, VJN, Number 1. WFE, Number 2”  
-    <span class="coldline">**RK ADC** -> **RKA**</span>: "VJN, Number 1. WFE, Number 2"  
+    <span class="hotline">**RKA** -> **RK ADC**</span>: "Via SARUS for the visual approach, VJN”  
+    <span class="hotline">**RK ADC** -> **RKA**</span>: "VJN, visual approach"  

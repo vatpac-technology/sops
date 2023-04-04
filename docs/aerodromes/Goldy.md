@@ -82,12 +82,6 @@ Tower airspace is defined as between `SFC` to `A015`
   <figcaption>Gold Coast Tower Airspace</figcaption>
 </figure>
 
-## Tower Closed Procedures
-When ADC and the Brisbane TCU unit responsible for BAC is closed:  
-Gold Coast aerodrome shall be considered uncontrolled and pilots will operate using the CTAF.  
-Gold Coast Class C airspace below `A035` shall be re-classified Class G.  
-When ADC is closed and the Brisbane TCU unit responsible for BAC is open, that unit will provide a Gold Coast aerodrome control service.
-
 ## Helicopter Operations
 Local helicopter operations are conducted on the Western Grass which is the area contained by blue gable markers north of the VOR and west of the runway intersection. This is marked on the aerodrome chart as “HELO OPS”.
 !!! note
@@ -98,15 +92,15 @@ Circuits from the Western Grass are to be made in the same direction as the duty
 
 ## Coordination
 ### Auto Release
-'Next' coordination is required to BN TCU for aircraft that are:   
-  a) Departing from a runway not nominated on the ATIS; or  
-  b) Not assigned the standard assignable level; or  
-  c) Not assigned a **Procedural** SID
+'Next' coordination is **not** required to BN TCU for aircraft that are:   
+  a) Departing from a runway nominated on the ATIS; and  
+  b) Assigned the standard assignable level; and  
+  c) Assigned a **Procedural** SID
 
 !!! example
     <span class="hotline">**CG ADC** -> **BAC**</span>: "Next, CBN, runway 14"  
     <span class="hotline">**BAC** -> **CG ADC**</span>: "CBN, heading 030, unrestricted"  
-    <span class="hotline">**CG ADC** -> **BAC**</span>: "Heading 030 unrestricted, CBN"  
+    <span class="hotline">**CG ADC** -> **BAC**</span>: "Heading 030, CBN"  
 
     **CG ADC**: "CBN, Assigned heading left 030, Runway 14, Cleared for Takeoff"  
     **CBN**: "Left heading 030, Runway 14, Cleared for Takeoff, CBN"

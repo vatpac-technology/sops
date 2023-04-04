@@ -33,10 +33,10 @@ When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME
 
 ## Coordination
 ### ASP (All) / ENR
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 ### ASP/ASW/WAR/FOR/WRA/BKE/ESP Internal
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 ### ASP / AS ADC
 #### Departures
@@ -63,3 +63,6 @@ Any aircraft that will enter AS ADC airspace, and not landing at YBAS, must be H
 !!! example
     <span class="hotline">**ASP** -> **AS ADC**</span>: "via AS, JDS"  
     <span class="hotline">**AS ADC** -> **ASP**</span>: "JDS, A060"
+
+### FOR / IND(INS) (Oceanic)
+As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.

@@ -62,15 +62,15 @@ Shall be assigned the **Radar SID**.
 
 ## Coordination
 ### Auto Release
-'Next' coordination is required to AD TCU for aircraft that are:   
-  a) Departing from a runway not nominated on the ATIS; or  
-  b) Not assigned the standard assignable level; or  
-  c) Not assigned a **Procedural** SID
+'Next' coordination is **not** required to AD TCU for aircraft that are:   
+  a) Departing from a runway nominated on the ATIS; and  
+  b) Assigned the standard assignable level; and  
+  c) Assigned a **Procedural** SID
 
 !!! example
     <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Next, RXA4362, Runway 23"  
     <span class="hotline">**AD TCU** -> **AD ADC**</span>: "RXA4362, Track Extended Centreline, Unrestricted"  
-    <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Track Extended Centreline, Unrestricted, RXA4362"  
+    <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Track Extended Centreline, RXA4362"  
     
     **AD ADC**: "RXA4362, Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff"  
     **RXA4362**: "Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff, RXA4362"
@@ -82,4 +82,20 @@ For Jets: `A050`
 For Non-Jets: The lower of `A040` or the `RFL`
 
 ### Departures Controller
-Refer to [Adelaide TCU Airspace Division](../../terminal/adelaide/#airspace-division) for information on airspace divisions when **AAE** is online.
+When **AAE** is online, the AD TCU airspace is split down the 05/23 Runway Centreline. As such, departing aircraft shall be instructed to contact the departures controller corresponding to the direction of turn of the aircraft after departure
+
+| Tracking via            | Departure Runway      | Departures Controller        |
+| ------------------ | -------------- | ---------------- |
+| VILAD   | 05/23/12   | AAE         |
+| SEDAN    | 05/23/12   | AAE         |
+| PANKI    | 05/23/12   | AAE         |
+| BENDO     | 05/23/12 | AAE          | 
+| ALBUT    | 05/23/12  | AAE          | 
+| EEMUE    | 05/23/30  | AAW          | 
+| GILES   | 05/23/30  | AAW          | 
+| YORKE    | 05/23/30  | AAW          | 
+| HAWKY    | 05/23/30  | AAW          | 
+| HOLIT    | 05/23/30  | AAW          | 
+| ORBUN    | 05/23/30  | AAW          | 
+| All   | 12  | AAE          | 
+| All   | 30  | AAW          | 

@@ -442,28 +442,19 @@ Any aircraft that don't meet these criteria must be coordinated to SY TCU with a
 !!! example
     <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Next, ADA4, runway 34R"  
     <span class="hotline">**SY TCU** -> **SY ADC**</span>: "ADA4, Heading 030, unrestricted"  
-    <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Heading 030, unrestricted, ADA4"
+    <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Heading 030, ADA4"
 
 The SY TCU controller can suspend/resume Auto Release at any time, with the concurrence of **SY ADC**.
 ### SY TCU / BK ADC
 #### Departures
-
-Aircraft departing YSBK in to SY TCU Class C will be coordinated from **BK ADC** at Taxi. Aircraft will need to be passed airways clearances to **BK ADC** at this point, to be relayed to the aircraft.
-
-!!! example
-    <span class="coldline">**BK ADC** -> **SY TCU**</span>: "Taxi, TFX12 for YMML via WOL"  
-    <span class="coldline">**SY TCU** -> **BK ADC**</span>: "TFX12, BK, WOL, Flight Planned Route, BK8 Departure, A030, Squawk 3601"  
-    <span class="coldline">**BK ADC** -> **SY TCU**</span>: "BK, WOL, Flight Planned Route, BK8 Departure, A030, Squawk 3601, TFX12"  
-
-    **BK ADC** Will then pass the airways clearance to TFX12.
-
-**BK ADC** will then give a "Next" call, where the SY TCU controller shall assign a heading (usually 290, for separation from YSSY).
+Aircraft departing YSBK in to SY TCU Class C will be coordinated from **BK ADC** when ready for takeoff.
 
 !!! example
     <span class="hotline">**BK ADC** -> **SY TCU**</span>: "Next, TFX12"  
-    <span class="hotline">**SY TCU** -> **BK ADC**</span>: "TFX12"
+    <span class="hotline">**SY TCU** -> **BK ADC**</span>: "TFX12, Unrestricted"  
+    <span class="hotline">**BK ADC** -> **SY TCU**</span>: "TFX12"  
 
-    **BK ADC** will then clear the aircraft to takeoff with the assigned heading, and instruct them to contact SY TCU passing `A020`.
+    **BK ADC** will then clear the aircraft to takeoff , and instruct them to contact SY TCU passing `A020`.
 
 #### Arrivals
 YSBK arrivals shall be coordinated to **BK ADC** from SY TCU prior to transfer of jurisdiction.  If an instrument approach is planned, include the estimated approach time.

@@ -67,15 +67,18 @@ City Scenic Flights are available by day and to the west of the aerodrome. Aircr
 
 ## Coordination
 ### Auto Release
-'Next' coordination is required to CB TCU for aircraft that are:   
-  a) Departing from a runway not nominated on the ATIS; or  
-  b) Not assigned the standard assignable level; or  
-  c) Not assigned a **Procedural** SID
+'Next' coordination is not required to CB TCU for aircraft that are:   
+  a) Departing from a runway nominated on the ATIS; and  
+  b) Assigned the standard assignable level; and  
+  c) Assigned a **Procedural** SID
 
 !!! example
     <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Next, XEB, runway 35"  
-    <span class="hotline">**CB TCU** -> **CB ADC**</span>: "XEB, Left 270, Unrestricted"  
-    <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Left 270, Unrestricted, XEB"
+    <span class="hotline">**CB TCU** -> **CB ADC**</span>: "XEB, heading 010, Unrestricted"  
+    <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Heading 010, XEB"
+
+    **CB ADC**: "XEB, Assigned heading Right 010, Runway 35, Cleared for Takeoff"  
+    **XEB**: "Right heading 010, Runway 35, Cleared for Takeoff, XEB"
 
 The CB TCU controller can suspend/resume Auto Release at any time, with the concurrence of **CB ADC**.
 

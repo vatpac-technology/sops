@@ -44,7 +44,7 @@ All other aircraft must be voice coordinated to HBA/LTA prior to **20nm** from t
 
 The Standard Assignable level from HBA and LTA to HUO is the lower of `F240` or the `RFL`, and tracking via a SID terminus.
 ### HUO / ENR
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-### HUO / TSN/IND(INS) (Oceanic)
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Voice coordinate estimate and level prior to **15 mins** to boundary.
+### HUO / TSN,IND(INS) (Oceanic)
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.

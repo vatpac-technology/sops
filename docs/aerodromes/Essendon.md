@@ -52,14 +52,14 @@ ML TCU shall clear aircraft for approach via the appropriate arrival gate:
 ### VFR
 VFR arrivals from Class G shall be cleared (at not above `A015`) via:
 
-| VFR Approach Point | RWY 17, 26 | RWY 36 |
-| ------------------------ | ----------| ----------|
-| **North** KAO (Kalkallo) | DCT | DCT |
-| **Northeast** YYN (Yan Yean Reservoir)     | DCT | DCT |
-| **East** DSN (Doncaster Shoppingtown)    | DCT | DCT |
-| **Southeast** APL (Albert Park Lake)     | MCG (Melbourne Cricket Ground) | MCG (Melbourne Cricket Ground) |
-| **South** SNP (Station Pier)     | MVC (Mooney Valley Racecourse) | FGN (Flemington) |
-| WES (Westgate Bridge)     | MVC (Mooney Valley Racecourse) | DCT |
+| Direction | VFR Approach Point | RWY 17, 26 | RWY 36 |
+|----------| ------------------------ | ----------| ----------|
+| North | KAO | DCT | DCT |
+| North East | YYN     | DCT | DCT |
+| East | DSN    | DCT | DCT |
+| South East | APL    | MCG  | MCG|
+| South | SNP     | MVC | FGN  |
+| South West | WES   | MVC | DCT |
 
 ## VFR Operations
 
@@ -118,25 +118,25 @@ All IFR departures and VFR aircraft departing into Class C must be coordinated t
 
 !!! example
     <span class="hotline">**EN ADC** -> **ML TCU**</span>: "Next, FD318, runway 35"  
-    <span class="hotline">**ML TCU** -> **EN ADC**</span>: "FD318, left heading 330, unrestricted"  
-    <span class="hotline">**EN ADC** -> **ML TCU**</span>: "Left 330, unrestricted, FD318"
+    <span class="hotline">**ML TCU** -> **EN ADC**</span>: "FD318, heading 330, unrestricted"  
+    <span class="hotline">**EN ADC** -> **ML TCU**</span>: "Heading 330, FD318"
 
 The Standard Assignable level from EN ADC to ML TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
 
-#### Runway Change
-Any Runway change must be prior coordinated to **ML TCU**
+### Arrivals/Overfliers
+SY TCU will heads-up coordinate arrivals/overfliers from Class C to EN ADC. Aircraft will be cleared for the coordinated approach prior to handoff to EN ADC, unless EN ADC nominates a restriction.
 
-#### Arrivals
-ML TCU must relay sequence to EN ADC, including transferring radar identification, prior to the aircraft reaching 15 NM from EN or 4 minutes from the Arrival Gate.
-
-Sequence information must include:  
-    a) Arrival gate or circuit entry  
-    b) Runway (if other than ATIS nominated)  
+!!! example 
+    <span class="hotline">**ML TCU** -> **EN ADC**</span>: "via DSN, KHU"  
+    <span class="hotline">**EN ADC** -> **ML TCU**</span>: "KHU"
 
 !!! Note
-    For aircraft not tracking via an Arrival Gate (see ML TCU shall clear aircraft for approach via the appropriate arrival gate:), ML TCU is required to coordinate descent of aircraft into EN ADC airspace.
+    For aircraft not tracking via an Arrival Gate (ML TCU shall clear aircraft for approach via the appropriate arrival gate:), ML TCU is required to coordinate descent of aircraft into EN ADC airspace.
 
 When “The Coffin” is released, ML TCU is required to coordinate any use of Runway 27 prior to use.
+
+#### Runway Change
+Any Runway change must be prior coordinated to **ML TCU**
 
 ### ML ADC / EN ADC
 EN ADC must advise ML ADC when “The Coffin” is activated or deactivated.

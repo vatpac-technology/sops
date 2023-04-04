@@ -121,25 +121,14 @@ Any aircraft that don't meet these criteria must be coordinated to BN TCU with a
 
 ### BN TCU / AF ADC
 #### Departures
-
-Aircraft departing YBAF in to BN TCU Class C will be coordinated from **AF ADC** at Taxi. Aircraft will need to be passed airways clearances to **AF ADC** at this point, to be relayed to the aircraft.
-
-The Standard assignable levels for YBAF departures is the lower of `A040` or the `RFL`.
-
-!!! example
-    <span class="coldline">**AF ADC** -> **BN TCU**</span>: "Taxi, DEF, VFR for YCDR via TVT"  
-    <span class="coldline">**BN TCU** -> **AF ADC**</span>: "DEF, YCDR, TVT, Flight Planned Route, A040, Squawk 3601"  
-    <span class="coldline">**AF ADC** -> **BN TCU**</span>: "YCDR, TVT, Flight Planned Route, A040, Squawk 3601, DEF"  
-
-    **AF ADC** Will then pass the airways clearance to DEF.
-
-#### Next Call
-When aircraft planned via a CTA departure are ready for takeoff and expected to depart imminently, **AF ADC** shall seek release of the aircraft through a 'Next' call.
+Aircraft departing YBAF in to BN TCU Class C will be coordinated from **AF ADC** when ready for takeoff.
 
 !!! example
     <span class="hotline">**AF ADC** -> **BN TCU**</span>: "Next, XMM, 10L"  
     <span class="hotline">**BN TCU** -> **AF ADC**</span>: "XMM, Unrestricted"  
     <span class="hotline">**AF ADC** -> **BN TCU**</span>: "Unrestricted, XMM"
+
+The Standard assignable level for YBAF departures is the lower of `A040` or the `RFL`.
 
 #### Arrivals
 YBAF arrivals shall be coordinated to **AF ADC** from BN TCU prior to transfer of jurisdiction.  If an instrument approach is planned, include the estimated approach time.
