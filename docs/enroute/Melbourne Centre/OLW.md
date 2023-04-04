@@ -30,10 +30,10 @@ OLW is responsible for issuing descent and ascertaining arrival intentions for a
 ## Coordination
 
 ### OLW(All) / ENR
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 ### OLW/POT/PAR/NEW/MEK/MTK/MZI Internal
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 ### OLW / KA ADC
 #### Departures
@@ -61,5 +61,5 @@ Any aircraft that will enter KA ADC airspace, and not landing at YPKA, must be H
     <span class="hotline">**OLW** -> **KA ADC**</span>: "via BORAT, QQK"  
     <span class="hotline">**KA ADC** -> **OLW**</span>: "QQK, A030"
 
-## OLW(All) / IND/INE (Oceanic)
-As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic).
+## OLW(All) / IND,INE (Oceanic)
+As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.

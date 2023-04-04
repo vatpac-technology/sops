@@ -51,11 +51,11 @@ VFR aircraft should track via one of the VFR inbound points and be instructed as
 
 | VFR Approach Point | RWYs 06  | RWYs 24 |
 | ----------------| --------- | ---------- |
-| Bringelly (BRY)    | *"Join Downwind RWY 06, Maintain A018, Report 2NM"*     | *"Join Final RWY 24, Maintain A018, Report Oran Park (ONPK)"*       |
-| Menangle (MEG)   | *"Overfly Camden to join Mid-Field Crosswind RWY 06, Maintain A018, Report Overhead"*      | *"Overfly Camden to join Mid-Field Crosswind RWY 24, Maintain A018, Report Overhead"*       |
-| Picton (PIC)   | *"Overfly Camden to join Mid-Field Crosswind RWY 06, Maintain 1800ft, Report Overhead"*      | *"Overfly Camden to join Mid-Field Crosswind RWY 24, Maintain A018, Report Overhead"*       |
-| The Oaks (THK)   | *"Join Final RWY 06, Maintain A018, Report 3NM"*    | *"Join Downwind RWY 24, Maintain A018, Report 2NM"*      |
-| Mayfield (MYF)   | *"Join Base RWY 06, Maintain A018, Report 2NM"*      | *"Join Base RWY 24, Maintain A018, Report 2NM"*       |
+| BRY    | *"Join Downwind RWY 06, Maintain A018, Report 2NM"*     | *"Join Final RWY 24, Maintain A018, Report Oran Park (ONPK)"*       |
+| MEG  | *"Overfly Camden to join Mid-Field Crosswind RWY 06, Maintain A018, Report Overhead"*      | *"Overfly Camden to join Mid-Field Crosswind RWY 24, Maintain A018, Report Overhead"*       |
+| PIC   | *"Overfly Camden to join Mid-Field Crosswind RWY 06, Maintain 1800ft, Report Overhead"*      | *"Overfly Camden to join Mid-Field Crosswind RWY 24, Maintain A018, Report Overhead"*       |
+| THK  | *"Join Final RWY 06, Maintain A018, Report 3NM"*    | *"Join Downwind RWY 24, Maintain A018, Report 2NM"*      |
+| MYF   | *"Join Base RWY 06, Maintain A018, Report 2NM"*      | *"Join Base RWY 24, Maintain A018, Report 2NM"*       |
 
 When Aircraft are clear of conflicting traffic below, aircraft may *"cleared visual approach"*.
 
@@ -98,55 +98,34 @@ When an aircraft reports on downwind, indicate their position in the sequence (a
 When there is more than SCT cloud on the YSCN METAR area below `A035`, the APCH field must include `EXP INST APCH`.
 
 ## Coordination
-### CN SMC & ADC / SY TCU
 
-#### Taxi Call
-IFR aircraft must be coordinated with the SY TCU controller responsible for Sydney Departures South (SDS).  **CN SMC** will perform a 'Taxi' call to **SDS**, who in response will issue a squawk code.
-
-!!! example
-    <span class="coldline">**CN ADC** -> **SY TCU**</span>: "Taxis, MHQ, YLHI, runway 06”  
-    <span class="coldline">**SY TCU** -> **CN ADC**</span>: “MHQ, squawk 0134"  
-    <span class="coldline">**CN ADC** -> **SY TCU**</span>: “Squawk 0134, MHQ"  
-
-#### Ready Call
+### Departures
 CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a ready call, SY TCU will issue a traffic statement.
 
 !!! example
-    <span class="hotline">**CN ADC** -> **SY TCU**</span>: "Ready, MHQ, Runway 06"  
-    <span class="hotline">**SY TCU** -> **CN ADC**</span>: "MHQ, traffic is MEH, an IFR AC50, tracking SHL RAKSO SBKWI, A035, estimate RAKSO time 35" (or "No Reported IFR Traffic")  
-    <span class="hotline">**CN ADC** -> **SY TCU**</span>: "Traffic is MEH tracking SHL RAKSO SBKWI A035, RAKSO at 35"  
+    <span class="hotline">**CN ADC** -> **SRI**</span>: "Ready, MHQ, Runway 06"  
+    <span class="hotline">**SRI** -> **CN ADC**</span>: "MHQ, traffic is MEH, an IFR AC50, tracking SHL RAKSO SBKWI, A035, estimate RAKSO time 35" (or "No Reported IFR Traffic")  
+    <span class="hotline">**CN ADC** -> **SRI**</span>: "Traffic is MEH tracking SHL RAKSO SBKWI A035, RAKSO at 35"  
     
     **CN ADC:** "MHQ, traffic is MEH, IFR AC50 tracking SHL RAKSO SBKWI at A035, estimating RAKSO at time 35, runway 06, cleared for takeoff"  
     **MHQ:** "Copy MEH, runway 06, cleared for takeoff, MHQ"
       
-    **CN ADC:** "MHQ, contact Sydney Departures on 129.7"  
+    **CN ADC:** "MHQ, contact Sydney Centre on 124.55"  
 
 !!! note
     Note: Because aircraft enter Class G after departure, an airways clearance need not be issued by CN ADC. This will be done on first contact with Sydney TCU.
     Therefore, a *next* call & *departure instructions* are not required. You must however, pass the above (ready) coordination & obtain a traffic statement.
 
-
-### SY TCU / CN ADC
-
-#### Arrivals
-
-##### Intrument Approaches
-SY TCU will coordinate inbound aircraft and transfer them to CN ADC by `SCNWI`. CN ADC is responsible for issuing a clearance into the CN CTR and for coordination with SY TCU in the event of a missed approach (or on completion of airwork if applicable).
+### Arrivals/Overfliers
+SY TCU will coordinate inbound IFR aircraft. CN ADC is responsible for issuing a clearance into the CN CTR and for coordination with SY TCU in the event of a missed approach (or on completion of airwork if applicable).
 
 SY TCU will **NOT** clear the aircraft for the approach.
 
 !!! example
-    <span class="coldline">**SY TCU** -> **CN ADC**</span>: “Estimated Approach Time, HRP via RNP W at time 59”  
-    <span class="coldline">**CN ADC** -> **SY TCU**</span>: “HRP, RNP W”   
+    <span class="hotline">**SRI** -> **CN ADC**</span>: “via RNP W, HRP”  
+    <span class="hotline">**CN ADC** -> **SRI**</span>: “HRP”   
 
 **CN ADC** must issue an airways clearance to these aircraft on first contact.
 
-##### Visual Tracking
-SY TCU will coordinate the estimated time of arrival and approximate inbound track for IFR aircraft tracking visually.
-
-!!! example
-    <span class="coldline">**SY TCU** -> **CN ADC**</span>: “Estimate, TJV via RIC time 02.”  
-    <span class="coldline">**CN ADC** -> **SY TCU**</span>: “TJV” 
-
-#### IFR overflying YSCN
-SY TCU must advise CN ADC of observed IFR aircraft overflying CN CTR below `A025`.
+### IFR overflying YSCN
+SRI will advise CN ADC of observed IFR aircraft overflying CN CTR below `A025`.

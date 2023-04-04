@@ -56,15 +56,15 @@ The Standard Assignable level from PH TCU to PIY(All) is the lower of `F240` or 
 Refer to [Perth TCU Airspace Division](../../../terminal/perth/#airspace-division) for information on airspace divisions when **PHD** is online.
 
 ## PIY(All) / ENR
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 ## PIY/LEA/GVE/HYD/JAR Internal
 Changes to CFL are permitted up to the boundary from GVE, CRS and HYD to PIY.
 
 All else is as per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
-That being said, it is *advised* that PIY(All) gives **Heads-up Coordination** in the following scenarios:  
+That being said, it is *advised* that PIY(All) gives **Heads-up Coordination** prior to **20nm** in the following scenarios:  
 - JAR to PIY for all aircraft  
 - LEA to PIY for all aircraft  
 ## PIY(All) / IND (Oceanic)
-As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic).
+As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.

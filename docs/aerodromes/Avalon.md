@@ -24,33 +24,13 @@ YWE(WON) is responsible for the Class G Airspace to the South East of the AV CTR
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
 ## SID Selection
+Aircraft planned via **ML** shall be assigned the **JUSTY** SID.
 
-Aircraft planned via **JUSTY**, or **ML**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
+Aircraft **not** planned via **ML**, and tracking to the North East, shall be recleared via ML, and assigned the **JUSTY** SID.
 
-Aircraft **not** planned via **JUSTY**, or **ML**, shall be assigned an appropriate **Procedural SID** or a visual departure.
-
-
-## Arrivals
-IFR arrivals from the following fixes may be cleared via STAR as indicated:
-
-| Arrival Fix | STAR |
-| ------ | ----------|
-| **Northwest / North / Northeast** KEPPA / CANTY   | JAYBI / APPLE or CANTY transition |
-| **Northeast / East / Southeast** ML    | JAYBI / ML transition |
-
-!!! Note
-    All jet aircraft shall be cleared via TEMPL, DCT AV or the RNAV IAF.
-
-## Sequencing
-AV ADC is responsible for sequencing any aircraft operating in airspace released to the tower, with respect to aircraft arriving from ML TCU. 
-
-## Separation
-Within 5 NM of AV, AV ADC must provide separation between:  
-    a) Departures from all runways and HLS at Avalon; and  
-    b) All traffic operating in airspace released to AV TWR.  
+All other IFR aircraft shall be assigned the **Radar SID**.
 
 ### Circuit Direction
-
 | Runway | Direction |
 | ------ | ----------|
 | 18     | Left  |
@@ -59,30 +39,33 @@ Within 5 NM of AV, AV ADC must provide separation between:
 ## Coordination
 ### AV ADC / ML TCU
 #### Departures
-'Next' coordination is required to ML TCU for aircraft that are:   
-  a) Departing from a runway not nominated on the ATIS; or  
-  b) Not assigned the standard assignable level; or  
-  c) Not assigned a **Procedural** SID
+'Next' coordination is **not** required to ML TCU for aircraft that are:   
+  a) Departing from a runway nominated on the ATIS; or  
+  b) Assigned the standard assignable level; or  
+  c) Assigned a **Procedural** SID
 
 !!! example
-    <span class="coldline">**AV ADC** -> **MDS**</span>: "Next, UJI, Runway 18"  
-    <span class="coldline">**MDS** -> **AV ADC**</span>: "UJI, left 030, unrestricted"  
-    <span class="coldline">**AV ADC** -> **MDS**</span>: "Left 030 unrestricted, UJI"
+    <span class="hotline">**AV ADC** -> **MDS**</span>: "Next, UJI, Runway 18"  
+    <span class="hotline">**MDS** -> **AV ADC**</span>: "UJI, heading 030, unrestricted"  
+    <span class="hotline">**AV ADC** -> **MDS**</span>: "Heading 030, UJI"
 
 The Standard Assignable level from AV ADC to ML TCU is the lower of `A040` or the `RFL`.
 
-#### Arrivals
-ML TCU will coordinate the sequence to AV ADC. ML TCU will clear aircraft for the approach prior to transfer to AV ADC.
+#### Arrivals/Overfliers
+ML TCU will heads-up coordinate arrivals/overfliers from Class C to AV ADC. Aircraft will be cleared for the coordinated approach prior to handoff to AV ADC, unless AV ADC nominates a restriction.
 
 !!! example
-    <span class="coldline">**MDS** -> **AV ADC**</span>: "New Sequence of 2. Via JAYBI5 Arrival, JST631, Number 1. Via AV for a practice VOR approach, OXG, Number 2”  
-    <span class="coldline">**AV ADC** -> **MDS**</span>: "JST631, Number 1. OXG, Number 2"  
+    <span class="hotline">**MDS** -> **AV ADC**</span>: "via TEMPL for the ILS-Y 18, JST631"  
+    <span class="hotline">**AV ADC** -> **MDS**</span>: "JST631, ILS-Y 18"  
+
+!!! tip
+    Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D. You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.
 
 #### Runway Change
-Any Runway change must be prior coordinated to **MAE**
+Any Runway change must be prior coordinated to the relevant [TCU Controller](#TCU-Controller).
 
 #### TCU Controller
-Refer to [Melbourne TCU Airspace Division](../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
+When **MDN** and/or **MDS** are online, the relevant TCU controller is whoever is responsible for **MDS**.
 
-### AV ADC / YWE/WON
+### AV ADC / YWE, WON
 AV ADC only borders YWE/WON Class G airspace, and as such, no coordination is required between AV ADC and YWE/WON.

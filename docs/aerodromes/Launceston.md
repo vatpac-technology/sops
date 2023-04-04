@@ -26,7 +26,11 @@ LT ADC is responsible for the Class D airspace in the LT CTR `SFC` to `A015`.
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
 ## SID Selection
-Aircraft planned via **IRSOM**, **ONAGI**, **NUNPA**, **MOTRA**, **IRONS**, **MORGO**, **KAREN**, **TASUM**, or **NOLAN**, shall be assigned the appropriate **Procedural SID**.  Other aircraft shall be assigned a visual departure.
+Aircraft planned via **IRSOM**, **ONAGI**, **NUNPA**, **MOTRA**, **IRONS**, **MORGO**, **KAREN**, **TASUM**, or **NOLAN**, shall be assigned the appropriate **Procedural SID**.
+
+Aircraft **not** planned via any of the above waypoints, shall be recleared via the most appropriate one, and assigned the **Procedural SID**.
+
+Aircraft unable to accept a SID, or that cannot practically accept amended routing via the above points, shall be assigned a visual departure.
 
 ## VFR Operations
 
@@ -42,15 +46,15 @@ Aircraft planned via **IRSOM**, **ONAGI**, **NUNPA**, **MOTRA**, **IRONS**, **MO
 
 ## Coordination
 ### Departures
-'Next' coordination is required to LTA for aircraft that are:   
-  a) Departing from a runway not nominated on the ATIS; or  
-  b) Not assigned the standard assignable level; or  
-  c) Not assigned a SID
+'Next' coordination is not required to LTA for aircraft that are:   
+  a) Departing from a runway nominated on the ATIS; and  
+  b) Assigned the standard assignable level; and  
+  c) Assigned a SID
 
 !!! example
-    <span class="hotline">**LT ADC** -> **LT TCU**</span>: "Next, ABC, runway 14L"  
-    <span class="hotline">**LT TCU** -> **LT ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
-    <span class="hotline">**LT ADC** -> **LT TCU**</span>: "Heading 150 Visual unrestricted, ABC"   
+    <span class="hotline">**LT ADC** -> **LTA**</span>: "Next, ABC, runway 14L"  
+    <span class="hotline">**LTA** -> **LT ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
+    <span class="hotline">**LT ADC** -> **LTA**</span>: "Heading 150 Visual, ABC"   
 
     **LT ADC**: "ABC, turn right heading 150 Visual, Runway 14L, Cleared for Takeoff"  
     **ABC**: "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"
@@ -64,5 +68,9 @@ b) Aircraft using a runway not on the ATIS
 The Standard Assignable level from LT ADC to LTA is:  
 For Jets: `A080`  
 For Non-Jets: The lower of `A045` or the `RFL`.
-### Arrivals
-LTA will coordinate all YMLT arrivals to LT ADC prior to 5 mins from the boundary.
+### Arrivals/Overfliers
+LTA will heads-up coordinate arrivals/overfliers from Class C to LT ADC. Aircraft will be cleared for the coordinated approach prior to handoff to LT ADC, unless LT ADC nominates a restriction.
+
+!!! example
+    <span class="hotline">**LTA** -> **LT ADC**</span>: "via IRSOM for the DGA, TFW"  
+    <span class="hotline">**LT ADC** -> **LTA**</span>: "TFW, DGA"  

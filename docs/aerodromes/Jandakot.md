@@ -28,12 +28,12 @@ JT ADC is responsible for the Class D airspace in the JT CTR `SFC` to `A015`.
 
 ## Fixed-Wing Operations
 ### VFR Inbound Procedures
-VFR aircraft will report inbound at `BOAT`, `POWR`, `OAKF` or `RUSS` at `A015`. JT ACD will instruct aircraft to maintain `A015` or remain outside the control zone (workload permitting). Aircraft will then report again at `ADWD` when inbound from `BOAT` or `POWR`, or `FDL` when inbound from `OAKF` or `RUSS`. They should then be instructed to join the circuit as below:
+VFR aircraft will report inbound at BOAT, POWR, OAKF or RUSS at `A015`. JT ADC will instruct aircraft to maintain `A015` or remain outside the control zone (workload permitting). Aircraft will then report again at ADWD when inbound from BOAT or POWR, or FDL when inbound from OAKF or RUSS. They should then be instructed to join the circuit as below:
 
 | VFR Approach Point | RWYs 06  | RWYs 24 | RWY 12 | RWY 30 |
 | ----------------| --------- | ---------- | ---------- | --------- |
-| Adventure World (ADWD)   | *"Join base runway 06L"* | *"Join right downwind runway 24R, maintain A015"*, until the aircraft are clear of RWY 24R departures via `Fiona Stanely Hospital` and `FREM`, then *"Cleared Visual Approach"*  | *"Join final runway 12"* | *"Join downwind ruwnay 30, maintain A015"*, until the aircraft is clear of RWY 30 departures via `YGB`, then *"Cleared Visual Approach"* |
-| Forestdale Lake (FDL)  | *"Join downwind runway 06L, maintain A015"*. Aircraft should fly overhead the airfield between the control tower and the upwind end of the runway and join the circuit. Once established in the circuit, *"Cleared visual approach"* | *"Join right downwind runway 24R, maintain A015"*. Aircraft should fly overhead the airfield between the control tower and the upwind end of the runway and join the circuit. Once established in the circuit, *"Cleared visual approach"* | *"Join right downwind runway 12"* | *"Join final runway 30"* |
+| ADWD   | *"Join base runway 06L"* | *"Join right downwind runway 24R, maintain A015"*, until the aircraft are clear of RWY 24R departures via *Fiona Stanley Hospital* and FREM, then *"Cleared Visual Approach"*  | *"Join final runway 12"* | *"Join downwind ruwnay 30, maintain A015"*, until the aircraft is clear of RWY 30 departures via YGB, then *"Cleared Visual Approach"* |
+| FDL  | *"Join downwind runway 06L, maintain A015"*. Aircraft should fly overhead the airfield between the control tower and the upwind end of the runway and join the circuit. Once established in the circuit, *"Cleared visual approach"* | *"Join right downwind runway 24R, maintain A015"*. Aircraft should fly overhead the airfield between the control tower and the upwind end of the runway and join the circuit. Once established in the circuit, *"Cleared visual approach"* | *"Join right downwind runway 12"* | *"Join final runway 30"* |
 
 All aircraft will arrive on runway 06L/24R or 12/30.
 
@@ -46,9 +46,9 @@ VFR aircraft should report ready to **JT ADC** with their departure intentions. 
 Aircraft departing a leg of the circuit will climb to and maintain the following levels until clear of the zone:  
 All runways: `A010`  
 
-VFR aircraft will depart via set outbound departure routes. Aircraft will track extended circuit legs to the departure point. These departure points include: `YGB`, `FREM` via `Fiona Stanley Hospital`, and `SHOP`.
+VFR aircraft will depart via set outbound departure routes. Aircraft will track extended circuit legs to the departure point. These departure points include: YGB, FREM via *Fiona Stanley Hospital*, and SHOP.
 
-Departures via `FREM` and `YGB` will depart on runway 06L/24R. Runway 06R/24L is used for circuit traffic and departures via `SHOP`.
+Departures via FREM and YGB will depart on runway 06L/24R. Runway 06R/24L is used for circuit traffic and departures via SHOP.
 
 ### Circuits
 The circuit direction changes depending on tower opening hours and runway being used.
@@ -65,7 +65,7 @@ The circuit direction changes depending on tower opening hours and runway being 
 Circuits to be flown at `A010`
 
 ## IFR Inbound Procedures
-Aircraft arriving from the Perth Class C in VMC will track via `CNB`. These aircraft will contract **JT ADC** approaching `CNB` and will be issued circuit joining instructions.  
+Aircraft arriving from the Perth Class C in VMC will track via CNB. These aircraft will contract **JT ADC** approaching CNB and will be issued circuit joining instructions.  
 Aircraft in IMC will track inbound via an instrument approach.  
 **PH TCU** will coordinate all IFR arrivals in accordance with coordination procedures.
 
@@ -88,48 +88,22 @@ This should be reflected on the ATIS as below:
 When PH RWY 03 is in operation, the ATIS should include:
 `DUE PERTH DUTY RUNWAY 03, CAUTION WAKE TURBULANCE`
 ## Coordination
-### JT SMC / PH TCU
-
-#### Taxi Call
-For aircraft planned into the overlying class C airspace, an airways clearance must be coordinated with the TCU controller responsible for Perth Approach or Departures (dependant on runway configuation at PH).  This is achieved by performing 'Taxi' coordination and then relaying the clearance to the aircraft when they are ready in the run up bays.
-
-!!! example
-    <span class="coldline">**JT SMC** -> **PH TCU**</span>: "Taxis FD420, YKBR, runway 24R"  
-    <span class="coldline">**PH TCU** -> **PH SMC**</span>: "FD420, cleared to YKBR via RECKS flight planned route, MANTL3 depature, climb via SID A030, squawk 3342"  
-    <span class="coldline">**JT SMC** -> **PH TCU**</span>: "Cleared to YKBR via RECKS flight planned route, MANTL3 depature, climb via SID A030, squawk 3342, FD420" 
-
-
-### JT ADC / PH TCU
-
-#### Next Call
-When the aircraft is ready for departure, Tower will coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
+### Next Call
+When the aircraft is ready for departure, JT ADC will coordinate with the relevant PH TCU controller above them for permission to release the aircraft into their CTA.
 
 !!! example
     <span class="hotline">**JT ADC** -> **PH TCU**</span>: "Next, FD420, runway 24R"  
     <span class="hotline">**PH TCU** -> **JT ADC**</span>: "FD420, Unrestricted"  
-    <span class="hotline">**JT ADC** -> **PH TCU**</span>: "Unrestricted, FD420"  
+    <span class="hotline">**JT ADC** -> **PH TCU**</span>: "FD420"  
 
 The Standard Assignable level from JT ADC to PH TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
 
-#### Arrival Coordination
-PH TCU will coordinate with JT ADC for incoming IFR arrivals on either Visual Tracking, RNAV or NDB approaches.
+### Arrivals/Overfliers
+PH TCU will heads-up coordinate arrivals/overfliers from Class C to JT ADC. Aircraft will be cleared for the coordinated approach prior to handoff to JT ADC, unless JT ADC nominates a restriction.
 
-##### Visual Tracking
 !!! example
-    <span class="coldline">**PH TCU** -> **JT ADC**</span>: "Estimate, FD416 via `CNB` time 02."  
-    <span class="coldline">**JT ADC** -> **PH TCU**</span>: "FD416"
-
-##### IAP Tracking
-!!! example
-    <span class="coldline">**PH TCU** -> **JT ADC**</span>: "Estimated approach time, FD416 via RNAV-Z at time 59"  
-    <span class="coldline">**JT ADC** -> **PH TCU**</span>: "Via RNAV-Z, FD416"  
-
-Given that the instrument approach procedure will terminate inside another controller's airspace, TCU controllers must obtain a clearance from JT ADC prior to issuing an approach clearance to an aircraft.  If no conflict exists, respond to this call by providing clearance for the approach.  
-
-!!! example 
-    <span class="hotline">**PH TCU** -> **JT ADC**</span>: "Request clearance for final, FD416"  
-    <span class="hotline">**JT ADC** -> **PH TCU**</span>: "FD416 cleared RNAV-Z 24R"  
-    <span class="hotline">**PH TCU** -> **JT ADC**</span>: "Cleared RNAV-Z 24R, FD416"  
+    <span class="hotline">**PH TCU** -> **JT ADC**</span>: "via RNAV-Z RWY 06L, FD416, circling to land RWY 24R"  
+    <span class="hotline">**JT ADC** -> **PH TCU**</span>: "FD416, RNAV-Z RWY 06L with a circle to land RWY 24R"  
 
 !!! tip
     Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D.  You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.

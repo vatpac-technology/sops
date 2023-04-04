@@ -30,15 +30,15 @@ Departures from YBAS in to ASP Class C will be coordinated when ready for depart
 !!! example
     <span class="hotline">**AS ADC** -> **ASP**</span>: "Next, QFA797"  
     <span class="hotline">**ASP** -> **AS ADC**</span>: "QFA797, Unrestricted"  
-    <span class="hotline">**AS ADC** -> **ASP**</span>: "Unrestricted, QFA797"
+    <span class="hotline">**AS ADC** -> **ASP**</span>: "QFA797"
 
 The Standard Assignable level from AS ADC to ASP is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
 
-### Arrivals
-ASP will coordinate the sequence to AS ADC
+### Arrivals/Overfliers
+ASP will heads-up coordinate all arrivals/overfliers to AS ADC
 
 !!! example
-    <span class="coldline">**ASP** -> **AS ADC**</span>: "New Sequence of 2. Via SADEL, QFA1956, Number 1. Via HERMA, FD867, Number 2”  
-    <span class="coldline">**AS ADC** -> **ASP**</span>: "QFA1956, Number 1. FD867, Number 2"  
+    <span class="hotline">**ASP** -> **AS ADC**</span>: "Via SADEL, QFA1956”  
+    <span class="hotline">**AS ADC** -> **ASP**</span>: "QFA1956"  
 
 The Standard Assignable level from ASP to AS ADC is `A080`, any other level must be prior coordinated.

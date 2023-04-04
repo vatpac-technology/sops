@@ -89,15 +89,15 @@ A 'next' call is made for all aircraft when they are next to depart. TW ADC must
 !!! example
     <span class="hotline">**TW ADC** -> **ARL**</span>: "Next, QLK5D"  
     <span class="hotline">**ARL** -> **TW ADC**</span>: "QLK5D, Unrestricted"  
-    <span class="hotline">**TW ADC** -> **ARL**</span>: "Unrestricted, QLK5D"
+    <span class="hotline">**TW ADC** -> **ARL**</span>: "QLK5D"
 
 The Standard Assignable level from TW ADC to ARL/MDE is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
 
-### Arrivals
-ARL/MDE will coordinate the sequence to TW ADC.
+### Arrivals/Overfliers
+ARL/MDE will heads-up coordinate all arrivals/overfliers to TW ADC
 
 !!! example
-    <span class="coldline">**MDE** -> **TW ADC**</span>: "New Sequence of 2. Via MOR DCT, FD272, Number 1. Via NBR DCT, AM217, Number 2”  
-    <span class="coldline">**TW ADC** -> **MDE**</span>: "FD272, Number 1. AM217, Number 2"  
+    <span class="hotline">**MDE** -> **TW ADC**</span>: "Via MOR DCT for the VOR-A, FD272”  
+    <span class="hotline">**TW ADC** -> **MDE**</span>: "FD272, VOR-A"  
 
 The Standard Assignable level from ARL/MDE to TW ADC is `A080`, any other level must be prior coordinated.

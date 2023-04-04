@@ -42,16 +42,15 @@ Except when the traffic situation warrants, taxi clearances shall conform to the
 !!! tip
     For aircraft taxiing northbound on B, consider instructing them to hold short of taxiway B8 when 34L or 16R are in use for arrivals, in order to separate from aircraft using the B7 & B9 rapid exits.
 
-Intersection departures are not permitted for Jet aircraft on runway 34L.  
-`ERSA FAC YSSY`
+Intersection departures are not permitted for Jet aircraft on runway 34L as per `ERSA FAC YSSY`.
 
 ### Helicopter Operations
 #### Departures
-VFR helicopters are generally processed via one of Sydney's Helicopter Routes.  IFR helicopters should conform to fixed wing ops and be processed via the **SY (RADAR) SID** from an appropriate runway, unless a visual departure is acceptable.
+VFR helicopters are generally processed via one of Sydney's Helicopter Routes. IFR helicopters should conform to fixed wing ops and be processed via the **SY (RADAR) SID** from an appropriate runway, unless a visual departure is acceptable.
 
 SY ACD will issue airways clearance for a Helicopter Route through a coded clearance.
 !!! tip
-    You can find details of each Helicopter Route (including applicable clearance limits) in the `YSSY ERSA FAC`.
+    You can find details of each Helicopter Route (including applicable clearance limits) in the `ERSA FAC YSSY`.
 
 !!! example
     **YOE:** "Sydney Delivery, helicopter YOE, for the Harbour Bridge 5 outbound, request clearance"  
@@ -87,7 +86,7 @@ VFR helicopters are generally processed via by one of Sydney's Helicopter Routes
 SY TCU will clear helicopters for all inbound Helicopter Routes, with the exception of the `CAPE BANKS 5 INBOUND` and `WANDA 5 INBOUND`.  Tower controllers should assess the current traffic situation and issue clearances for these aircraft when available.  Each procedure is delivered as a coded clearance, which includes automatic altitude assignment, tracking, and a clearance limit designed to separate helicopters from fixed-wing aircraft.
 
 !!! example
-    **YZD:** "Sydney Tower, helicopter YZD, Jibbon Point, A005, received Tango, request Cape Banks 5 Inbound"  
+    **YZD:** "Sydney Tower, helicopter YZD, JIBN, A005, received Tango, request Cape Banks 5 Inbound"  
     **SY ADC:** "YZD, Sydney Tower, cleared Cape Banks 5 Inbound, report at the Container Terminal"  
     **YZD:** "Cleared Cape Banks 5 Inbound, YZD"  
 
@@ -164,7 +163,6 @@ Unless operationally required, aircraft shall be assigned the following runways 
 | To the SOUTH and WEST | 16R/34L |
 
 #### SID Selection
-
 Jet Aircraft planned via **KADOM**, **WOL**, **RIC**, or **ENTRA**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
 
 !!! example
@@ -218,17 +216,22 @@ When SODPROPS are in operation, the ATIS OPR INFO shall include:
 !!! important
     YSSY utilises auto release for all **Procedural** SIDs (except **ABBEY** SID during SODPROPS), and the **SY (RADAR)** SID provided aircraft are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
-"Next" coordination is required for:  
-    a) Aircraft not assigned the standard assignable level    
-    b) Jets departing 16L via WOL, except during SODROPS  
+'Next' coordination is **not** required for aircraft that are:   
+    a) Departing from a runway nominated on the ATIS; and   
+    b) Assigned the Standard assignable level; and  
+    c) Assigned a **Procedural SID** (except **ABBEY** SID during SODPROPS); or  
+    d) Assigned a [Standard Assignable Heading](#standard-assignable-departure-headings)
+
+"Next" coordination is additionally required for:  
+    a) Visual departures  
+    b) Departures to YSBK  
     c) After a go around, the next departure from that runway  
-    d) Visual departures  
-    e) Departures to YSBK
+    d) Jets departing 16L via WOL
 
 !!! example
     <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Next, MHQ, Runway 34R"  
     <span class="hotline">**SY TCU** -> **SY ADC**</span>: "MHQ, heading 030, unrestricted"  
-    <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Heading 030 unrestricted, MHQ"  
+    <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Heading 030, MHQ"  
 
     **SY ADC**: "MHQ, Assigned heading right 030, Runway 34R, Cleared for Takeoff"  
     **MHQ**: "Right heading 030, Runway 34R, Cleared for Takeoff, MHQ"
@@ -267,12 +270,12 @@ a) VFR Departures
 b) Aircraft using a runway not on the ATIS 
 
 !!! example
-    **TEK:** "Sydney Delivery, TEK, for Shellharbour via Cronulla, A025, request clearance"  
+    **TEK:** "Sydney Delivery, TEK, for YSHL via CUL, A025, request clearance"  
     **SY ACD:** "TEK, Sydney Delivery, standby"    
 
-    <span class="coldline">**SY ACD** -> **SY TCU**</span>: "TEK, requesting clearance for Shellharbour via Cronulla, A025"  
-    <span class="coldline">**SY TCU** -> **SY ACD**</span>: "TEK, cleared to Shellharbour via Cronulla, A025"  
-    <span class="coldline">**SY ACD** -> **SY TCU**</span>: "Cleared to Shellharbour via Cronulla, A025, TEK"   
+    <span class="coldline">**SY ACD** -> **SY TCU**</span>: "TEK, requesting clearance for YSHL via CUL, A025"  
+    <span class="coldline">**SY TCU** -> **SY ACD**</span>: "TEK, cleared to YSHL via CUL, A025"  
+    <span class="coldline">**SY ACD** -> **SY TCU**</span>: "Cleared to YSHL via CUL, A025, TEK"   
 
-    **SY ACD:** "TEK, cleared to Shellharbour via Cronulla, climb A025, squawk 0552, departure frequency 123.0"  
-    **TEK:** "Cleared to Shellharbour via Cronulla, climb A025, squawk 0552, departure frequency 123.0, TEK"  
+    **SY ACD:** "TEK, cleared to YSHL via CUL, climb A025, squawk 0552, departure frequency 123.0"  
+    **TEK:** "Cleared to YSHL via CUL, climb A025, squawk 0552, departure frequency 123.0, TEK"  

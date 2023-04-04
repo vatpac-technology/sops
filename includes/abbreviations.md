@@ -170,3 +170,61 @@
 *[SAR]: Search and Rescue
 *[SVY]: Aerial Survey
 *[BCTA]: Bottom of Controlled Airspace
+*[PAL]: Port Adelaide
+*[TWRN]: Two R N
+*[TVT]: TV Towers
+*[DSN]: Doncaster Shopping Town
+*[ADWD]: Adventure World
+*[TVT]: TV Towers
+*[FREM]: Fremantle Golf Course
+*[YGB]: Yangebup Lake
+*[FDL]: Forestdale Lake
+*[BOAT]: Boatyard
+*[POWR]: Powerhouse
+*[OAKF]: Oakford
+*[RUSS]: Russell
+*[CNB]: Canning Bridge
+*[SHOP]: Armadale Shops
+*[BTO]: Brighton
+*[BAW]: Baywest
+*[CARR]: Carrum
+*[GMH]: GMH (General Motors Holden)
+*[ACE]: Academy
+*[CWST]: Choppers West
+*[CNTH]: Choppers North
+*[CSTH]: Choppers South
+*[PSP]: Prospect Reservoir
+*[EDT]: Edmonton
+*[CGF]: Cape Grafton
+*[ADI]: Admiralty Island
+*[BRY]: Bringelly
+*[MEG]: Menangle
+*[PIC]: Picton
+*[THK]: The Oaks
+*[MYF]: Mayfield
+*[KAO]: Kalkallo
+*[YYN]: Yan Yean Reservoir
+*[APL]: Albert Park Lake
+*[SNP]: Station Pier
+*[WES]: West Gate Bridge
+*[MCG]: Melbourne Cricket Ground
+*[MVC]: Moonee Valley Racecourse
+*[FGN]: Flemington
+*[CBV]: Craigbourne Reservoir
+*[CPA]: Campania
+*[RCH]: Richmond
+*[RADT]: Radio Telescope
+*[SORL]: Sorell
+*[DLY]: Dunalley
+*[DRP]: Droughty Point
+*[LAUD]: Lauderdale
+*[CREM]: Cremorne
+*[BOWB]: Bowen Bridge
+*[SWT]: Sunbury Water Tank
+*[OHB]: Outer Harbor
+*[DMW]: Dam Wall
+*[CTE]: Cottesloe
+*[PCTY]: Perth City
+*[HKE]: Herdsman Lake
+*[JIBN]: Jibbon Point
+*[CUL]: Cronulla

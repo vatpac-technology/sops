@@ -46,9 +46,9 @@ The Standard Assignable level from ML TCU to ELW is the lower of `F240` or the `
 
 Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
 ### ELW (All) / ENR
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-That being said, it is *advised* that ELW give **Heads-up Coordination** prior to **20nm** from the boundary in the following scenarios:  
+That being said, it is *advised* that ELW give **Heads-up Coordination** prior to **50nm** from the boundary in the following scenarios:  
 - BLA to BIK(GUN) for aircraft **not** on the Y59 or W817 airway*  
 - ELW to YWE and WON for all aircraft  
 - BLA to YWE(All) and BIK(WOL) for all aircraft  
@@ -64,9 +64,6 @@ That being said, it is *advised* that ELW/BLA/SNO give **Heads-up Coordination**
 - ELW to BLA for aircraft **not** on the Y59, H66, or W569 airway (Changes permitted up to boundary for sequencing/descent purposes)  
 - BLA to ELW for aircraft **not** on the Q29 or V169 airway (Changes permitted up to boundary for sequencing/descent purposes)  
 - SNO to BLA for all aircraft
-
-### SNO / TSN (Oceanic)
-As per [Standard coordination procedures](../../controller-skills/coordination/#enr-oceanic), Voice coordinate estimate and level prior to **15 mins** to boundary.
 
 ### ELW(All) / ESL TCU
 #### Airspace
@@ -114,3 +111,6 @@ Any aircraft that will enter AY ADC airspace, and not landing at YMAY, must be H
 !!! example
     <span class="hotline">**BLA** -> **AY ADC**</span>: "via AY, NGJ"  
     <span class="hotline">**AY ADC** -> **BLA**</span>: "NGJ, A040"
+
+### SNO / TSN (Oceanic)
+As per [Standard coordination procedures](../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.

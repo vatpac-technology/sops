@@ -28,19 +28,17 @@ Runway 04/22 is not to be used as an active runway. Used for emergencies only
 
 | VFR Approach Point | RWY 13  | RWY 17 | RWY 31  | RWY 35 |
 | ----------------| --------- | ---------- | --------- | ---------- |
-| Brighton (BTO) | Join final 13R | Join base 17R | Join downwind 31L | Join oblique downwind 35L |
-| Baywest (BAW)  | Join base 13R | Join base 17R | Join oblique downwind 31L | Join base 35L |
-| Carrum (CARR) | Join downwind 13R | Join downwind 17R | Join oblique base 31L | Join final 35L |
-| GMH (GMH)  | Join downwind 13L | Join base 17L | Join oblique base 31R | Join base 35R |
-| Academy (ACE)  | Join base 13L | Join oblique base 17L | Join base 31R | Join oblique downwind 35R |
+| BTO | Join final 13R | Join base 17R | Join downwind 31L | Join oblique downwind 35L |
+| BAW  | Join base 13R | Join base 17R | Join oblique downwind 31L | Join base 35L |
+| CARR | Join downwind 13R | Join downwind 17R | Join oblique base 31L | Join final 35L |
+| GMH  | Join downwind 13L | Join base 17L | Join oblique base 31R | Join base 35R |
+| ACE  | Join base 13L | Join oblique base 17L | Join base 31R | Join oblique downwind 35R |
 
 ## Circuits
 Circuits are to be flown at `A010`.
 
 | Runway | Day | Night |
 | ------ | ------ | ----|
-| 04     | Right  | - |
-| 22    | Left | - |
 | 13L     | Left  | Left |
 | 13R     | Right | - |
 | 31L     | Left  | - |
@@ -51,36 +49,20 @@ Circuits are to be flown at `A010`.
 | 35R     | Right  | Right |
 
 ## Coordination
-### MB ADC / ML TCU
-#### Departures
-All IFR departures in to ML TCU airspace (Class C and G), require a "Next" call to ML TCU, where ML TCU will provide the cleared level.
+### Departures
+Departures in to ML TCU Class C airspace require a "Next" call, where ML TCU will provide the cleared level. There is no standard assignable level.
 
 !!! example
-    <span class="hotline">**MB ADC** -> **ML TCU**</span>: "Next, SGE"  
-    <span class="hotline">**ML TCU** -> **MB ADC**</span>: "SGE, A060"  
-    <span class="hotline">**MB ADC** -> **ML TCU**</span>: "A060, SGE"
+    <span class="hotline">**MB ADC** -> **MDS**</span>: "Next, SGE"  
+    <span class="hotline">**MDS** -> **MB ADC**</span>: "SGE, A060"  
+    <span class="hotline">**MB ADC** -> **MDS**</span>: "A060, SGE"
 
-!!! note
-    ML TCU will not receive a taxi call on aircraft departing in to Class G airspace, including aircraft that have planned to leave and re-enter controlled airspace (for example, aircraft planned at or above `A050` on the MB-AV track). In this instance, ML TCU is only required to readback the callsign at the "Next" call. ML TCU will then give airways clearance to the aircraft on first contact if required.
-#### Arrivals
-ML TCU will coordinate the sequence information to **MB ADC** prior to transfer of jurisdiction.
+### Arrivals/Overfliers
+ML TCU will heads-up coordinate arrivals/overfliers from Class C to MB ADC. Aircraft will be cleared for the coordinated approach prior to handoff to MB ADC, unless MB ADC nominates a restriction.
 
-##### Visual Tracking
 !!! example
-    <span class="coldline">**ML TCU** -> **MB ADC**</span>: "Estimate, OXA via MONTY time 02."  
-    <span class="coldline">**MB ADC** -> **ML TCU**</span>: "OXA"
-
-##### IAP Tracking
-!!! example
-    <span class="coldline">**ML TCU** -> **MB ADC**</span>: "Estimated approach time, OXA via RNP at time 59"  
-    <span class="coldline">**MB ADC** -> **ML TCU**</span>: "Via RNP, OXA"  
-
-Given that the instrument approach procedure will terminate inside another controller's airspace, TCU controllers must obtain a clearance from MB ADC prior to issuing an approach clearance to an aircraft.  If no conflict exists, respond to this call by providing clearance for the approach.  
-
-!!! example 
-    <span class="hotline">**ML TCU** -> **MB ADC**</span>: "Request clearance for final, OXA"  
-    <span class="hotline">**MB ADC** -> **ML TCU**</span>: "OXA cleared RNP 35R"  
-    <span class="hotline">**ML TCU** -> **MB ADC**</span>: "Cleared RNP 35R, OXA"  
+    <span class="hotline">**MDS** -> **MB ADC**</span>: "To the west, PLE, for the NDB-A"  
+    <span class="hotline">**MB ADC** -> **MDS**</span>: "PLE, NDB-A"
 
 !!! tip
     Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D. Use other separation methods, such as holding a departure on the ground, if separation is required with these aircraft.

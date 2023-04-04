@@ -98,17 +98,17 @@ Lowest assignable level in IMC for assigned heading is:
 Clearances for aircraft entering the CTR must be worded so as to leave no possibility for misinterpretation by the pilot.
 
 !!! Example
-    **NDR**: "Cairns Tower, NDR, Edmonton, A015, for the Western VFR Corridor, Request Clearance"  
+    **NDR**: "Cairns Tower, NDR, EDT, A015, for the Western VFR Corridor, Request Clearance"  
     **CS ADC**: "NDR, enter the CTR tracking via the Western VFR corridor at A015. Remain on the corridor until advised."
 
 If a clearance limit is associated with the clearance, then it must be reiterated to the pilot to remain “on or west of the VFR Corridor”
 
 !!! Example
-    **NDR**: "Cairns Tower, NDR, Edmonton, A015, for the Western VFR Corridor, Request Clearance"  
-    **CS ADC**: "NDR, enter the CTR tracking via the Western VFR Corridor at A015. Clearance limit the Admirty Island, Remain on or west of the Western VFR Corridor at all times."
+    **NDR**: "Cairns Tower, NDR, EDT, A015, for the Western VFR Corridor, Request Clearance"  
+    **CS ADC**: "NDR, enter the CTR tracking via the Western VFR Corridor at A015. Clearance limit is ADI, Remain on or west of the Western VFR Corridor at all times."
 
 ### Inbound
-ACFT planning to enter the CS CTR between: Mt Gorton, Cape Grafton and Upolo Cay at `A005`, must contact CS ADC for airways clearance
+ACFT planning to enter the CS CTR between: *Mt Gorton*, CGF and Upolo Cay at `A005`, must contact CS ADC for airways clearance
 
 !!! Example
     **NDR**: "Cairns Tower, NDR, Cape Grafton, A005, Inbound, Information Alpha, Request Clearance"  
@@ -132,34 +132,21 @@ ACFT planning to enter the CS CTR between: Mt Gorton, Cape Grafton and Upolo Cay
 ## Coordination
 
 ### CS ADC / CS TCU
-#### Departures
-**Auto Release is not Available at YBCS**  
-
-All Departing Aircraft must be coordinated to CS TCU with a "Next" Call
+#### Auto Release
+'Next' coordination is not required for aircraft that are:   
+  a) Departing from a runway nominated on the ATIS; and  
+  b) Assigned the standard assignable level; and  
+  c) Assigned a **Procedural** SID
 
 !!! example
     <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Next, HND151"  
     <span class="hotline">**CS TCU** -> **CS ADC**</span>: "HND151, Heading 030, unrestricted"  
-    <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Heading 030, unrestriced, HND151"   
+    <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Heading 030, HND151"   
 
     **CS ADC**: "HND151, Assigned heading Left 030, Runway 15, Cleared for Takeoff"  
     **HND151**: "Left heading 030, Runway 15, Cleared for Takeoff, HNT151"
 
 The Standard Assignable level from CS ADC to CS TCU is the lower of `A060` or the `RFL`.
-#### Separation
-CS ADC shall notify Approach and Departure when:    
-a) ADC is unable to visually separate traffic;   
-b) When ADC is able to resume visually separating traffic.    
-
-#### Missed Approach
-When weather conditions prevent the application of visual separation between a departure and a missed approach by ADC:  
-a) ADC must advise TCU  
-b) Approach must limit departure headings to the following:  
-
-| Runway | Jet | Non-Jet
-| ----------- | ------ | ---------|
-| 15          | 030°  | 030°  |
-| 33          | - | 330°  |
 
 ### CS ACD / CS TCU
 The controller assuming responsibility of **CS ACD** shall give heads-up coordination to the relevant CS TCU controller prior to the issue of the following clearances:  

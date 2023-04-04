@@ -59,10 +59,10 @@ When **MKA** is online, they own up to `F150` in the **shaded** are shown below:
 </figure>
 
 ### KEN (All) / ENR
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 ### KEN/BAR/TBP/SWY Internal
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 TBP may make changes to CFL up to the boundary with KEN for the purposes of issuing descent for YBCS.
 
@@ -73,15 +73,15 @@ Departures from YBHM in to SWY Class C will be coordinated when ready for depart
 !!! example
     <span class="hotline">**HM ADC** -> **SWY**</span>: "Next, QFA797"  
     <span class="hotline">**SWY** -> **HM ADC**</span>: "QFA797, Unrestricted"  
-    <span class="hotline">**HM ADC** -> **SWY**</span>: "Unrestricted, QFA797"  
+    <span class="hotline">**HM ADC** -> **SWY**</span>: "QFA797"  
 
 The Standard Assignable level from HM ADC to SWY is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
 #### Arrivals
-SWY must coordinate the sequence to HM ADC prior to **5 mins** from the boundary.
+YBHM arrivals shall be heads-up coordinated to **JM ADC** from SWY prior to **5 mins** from the boundary.
 
 !!! example
-    <span class="coldline">**SWY** -> **HM ADC**</span>: "New Sequence of 2. Via OPOSI for RNP U RWY 32, JST848, Number 1. Via SWIFT, UTY551, Number 2”  
-    <span class="coldline">**HM ADC** -> **SWY**</span>: "JST848, Number 1. UTY551, Number 2"  
+    <span class="hotline">**SWY** -> **HM ADC**</span>: "Via OPOSI for RNP U RWY 32, JST848”  
+    <span class="hotline">**HM ADC** -> **SWY**</span>: "JST848, RNP U RWY 32"  
 
 The Standard Assignable level from KEN(SWY) to HM ADC is `A060`, any other level must be prior coordinated.
 
@@ -89,11 +89,11 @@ The Standard Assignable level from KEN(SWY) to HM ADC is `A060`, any other level
 Any aircraft that will enter HM ADC airspace, and not landing at YBHM, must be Heads-up coordinated prior to **5 mins** from the boundary.
 
 !!! example
-    <span class="hotline">**SWY** -> **HM ADC**</span>: "via OVRON, KNV"  
+    <span class="hotline">**SWY** -> **HM ADC**</span>: "via OVRON, KNV, Overfleir"  
     <span class="hotline">**HM ADC** -> **SWY**</span>: "KNV, A030"
 
 ### TBP/SWY / TSN(FLD) (Oceanic)
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Voice coordinate estimate and level prior to **15 mins** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
 
 <figure markdown>
 ![Kennedy Airspace](../assets/KENENR.png){ width="700" }

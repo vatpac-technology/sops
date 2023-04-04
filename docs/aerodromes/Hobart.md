@@ -101,12 +101,12 @@ As a landing clearance is not given, aircraft should instead be informed of any 
 ### Inbound / Outbound
 | Victor    | Inbound       | Outbound        | 
 | --------- | -------------- | ---------------- | 
-| Northwest |  CBV-CPA-RCH west of the Colebrook/Richmond Road to west abeam RADT.  | West abeam RADT-RCH-CPA-CBV west of the Richmond/Colebrook Road.    | 
-| Northeast |  CBV-CPA-Orielton-SORL east of Colebrook Road to CPA then Orielton east of Tasman HWY to SORL. |  As directed by ATC to SORL then Orielton east of Tasman HWY, thence east of Colebrook Rd east of CPA to CBV.   | 
-| East      |  DLY-SORL north of the Arthur HWY.        |  As directed by ATC to SORL   | 
-| Southwest |  DRP to-CBG west of Mt Rumney.        |  Eest of Mt Rumney to DRP.        | 
-| South     |  CRM-LAUD-CBG.            |  LAUD-CRM.          | 
-| West      |  BOWB to Risdon Vale thence Cambridge township.   |  Risdon Vale thence BOWB. | 
+| Northwest |  CBV-CPA-RCH west of the Colebrook/Richmond Road to west abeam RADT  | West abeam RADT-RCH-CPA-CBV west of the Richmond/Colebrook Road    | 
+| Northeast |  CBV-CPA-Orielton-SORL east of Colebrook Road to CPA then Orielton east of Tasman HWY to SORL |  As directed by ATC to SORL then Orielton east of Tasman HWY, thence east of Colebrook Rd east of CPA to CBV   | 
+| East      |  DLY-SORL north of the Arthur HWY        |  As directed by ATC to SORL   | 
+| Southwest |  DRP to-YCBG west of Mt Rumney        |  Eest of Mt Rumney to DRP        | 
+| South     |  CREM-LAUD-YCBG            |  LAUD-CREM          | 
+| West      |  BOWB to Risdon Vale thence Cambridge township   |  Risdon Vale thence BOWB | 
 
 <figure markdown>
 ![Victor Routes](img/victor_routes.png){ width="700" }
@@ -115,20 +115,20 @@ As a landing clearance is not given, aircraft should instead be informed of any 
 Clearances for aircraft entering the CTR must be worded so as to leave no possibility for misinterpretation by the pilot.
 
 !!! Example
-    **NDR:** "Hobart Tower, NDR, Campania, A015, on the Victor Northwest, received Romeo, request clearance"  
+    **NDR:** "Hobart Tower, NDR, CPA, A015, on the Victor Northwest, received Romeo, request clearance"  
     **HB ADC:** "NDR, enter the CTR tracking via the Victor Northwest at A015."
 
 ## Coordination
 ### Departures
-'Next' coordination is required to HBA for aircraft that are:   
-  a) Departing from a runway not nominated on the ATIS; or  
-  b) Not assigned the standard assignable level; or  
-  c) Not assigned a SID
+'Next' coordination is not required to HBA for aircraft that are:   
+  a) Departing from a runway nominated on the ATIS; and  
+  b) Assigned the standard assignable level; and  
+  c) Assigned a SID
 
 !!! example
-    <span class="hotline">**HB ADC** -> **HB TCU**</span>: "Next, ABC, runway 12"  
-    <span class="hotline">**HB TCU** -> **HB ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
-    <span class="hotline">**HB ADC** -> **HB TCU**</span>: "Heading 150 Visual unrestricted, ABC"  
+    <span class="hotline">**HB ADC** -> **HBA**</span>: "Next, ABC, runway 12"  
+    <span class="hotline">**HBA** -> **HB ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
+    <span class="hotline">**HB ADC** -> **HBA**</span>: "Heading 150 Visual, ABC"  
 
     **HB ADC**: "ABC, Assigned heading right 150 Visual, Runway 12, Cleared for Takeoff"  
     **ABC**: "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"
@@ -145,5 +145,9 @@ b) Aircraft using a runway not on the ATIS
 The Standard Assignable level from HB ADC to HBA is:  
 For Jets: `A080`  
 For Non-Jets: The lower of `A045` or the `RFL`.
-### Arrivals
-HBA will coordinate all YMHB arrivals to HB ADC prior to 5 mins from the boundary.
+### Arrivals/Overfliers
+HBA will heads-up coordinate arrivals/overfliers from Class C to HB ADC. Aircraft will be cleared for the coordinated approach prior to handoff to HB ADC, unless HB ADC nominates a restriction.
+
+!!! example
+    <span class="hotline">**HBA** -> **HB ADC**</span>: "via BAVUR for the RNAV-W RWY 12, QJE1551"  
+    <span class="hotline">**HB ADC** -> **HBA**</span>: "QJE1551, RNP-W RWY 12"  
