@@ -13,22 +13,10 @@
 | Melbourne ATIS        |                | 118.000         | YMML_ATIS                                |
 
 ## Airspace
-ML ADC is responsible for the Class C airspace in the ML CTR `SFC` to `A015`.
-
-<figure markdown>
-![ML ADC Airspace](img/mladc.png){ width="700" }
-  <figcaption>ML ADC Airspace</figcaption>
-</figure>
-
-The "Coffin" and "South East Quadrant" as shown below are released to EN ADC by default.
-
-<figure markdown>
-![Melbourne TCU Airspace Administration](img/MLTCUairspace.png){ width="500" }
-  <figcaption>Melbourne TCU Airspace Administration</figcaption>
-</figure>
+ML ADC is not responsible for any airspace by default.
 
 ### Sunbury Corridor
-**ML ADC** is responsible for the Sunbury Corridor airspace as shown below. It is only available to Day VFR Helicopters.
+**ML ADC** may request a release of the Sunbury Corridor from ML TCU, to facilitate movements of Day VFR Helicopters.
 
 <figure markdown>
 ![Melbourne TCU Airspace Administration](img/MLTCUairspace.png){ width="500" }
@@ -114,8 +102,11 @@ This permits controllers to assign aircraft either the Alpha or Victor STAR and 
 
 'Next' coordination is **not** required for aircraft that are:   
     a) Departing from a runway nominated on the ATIS; and  
-    b) Assigned `A050`; or  
-    c) Assigned a [Standard Assignable Heading](#standard-assignable-departure-headings)
+    b) Assigned `A050`; and  
+    c) Assigned a **Procedural** SID; or  
+    d) Assigned a [Standard Assignable Heading](#standard-assignable-departure-headings)
+
+All other aircraft require a 'Next' call to ML TCU.
 
 !!! example
     <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, JIA, runway 34"  
@@ -130,19 +121,20 @@ The ML TCU controller can suspend/resume Auto Release at any time, with the conc
 The Standard Assignable level from ML ADC to ML TCU is the lower of `A050` or the `RFL`.
 
 #### Standard Assignable Departure Headings
-Aircraft that have been cleared the **ML (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required to the ML TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
+Aircraft that have been cleared the **ML (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance.
+
+The following Standard Assignable Headings may be used for aircraft assigned the ML (RADAR) SID, depending on their direction of travel.
 
 | Runway | W | NE | SE | S |
 | ---- | ---- | ---- | ---- | ---- |
-| 16* | 290 | 290 | 160 | 260 |
+| 09* | - | - | - | - |
+| 16** | 290 | 290 | 160 | 260 |
 | 27 | 320 | 290 | 260 | 260 |
 | 34 | 340 | 340 | 340 | 260 |
-| 09** | - | - | - | - |
 
+*When Runway 09 is in use for departures, ML TCU shall nominate a heading to ML ADC for use as a standard assignable heading.
 
-*When Runway 09 is in use for arrivals, all Runway 16 departures shall be assigned heading 160.
-
-**When Runway 09 is in use for departures, ML TCU shall nominate a heading to ML ADC for use as a standard assignable heading.
+**When Runway 09 is in use for arrivals, all Runway 16 departures shall be assigned heading 160.
 
 #### Runway Change
 Any runway change must be prior coordinated to **MAE** and **EN ADC**.

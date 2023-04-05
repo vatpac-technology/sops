@@ -222,6 +222,8 @@ When SODPROPS are in operation, the ATIS OPR INFO shall include:
     c) Assigned a **Procedural SID** (except **ABBEY** SID during SODPROPS); or  
     d) Assigned a [Standard Assignable Heading](#standard-assignable-departure-headings)
 
+All other aircraft require a 'Next' call to SY TCU.
+
 "Next" coordination is additionally required for:  
     a) Visual departures  
     b) Departures to YSBK  

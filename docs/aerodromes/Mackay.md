@@ -35,7 +35,9 @@ A 'next' call is made for all aircraft when they are next to depart. MK ADC must
 The Standard Assignable level from MK ADC to MKA is the lower of `A060` or the `RFL`, any other level must be prior coordinated.
 
 ### Arrivals/Overfliers
-MKA will heads-up coordinate arrivals/overfliers from Class C to MK ADC. Aircraft will be cleared for the coordinated approach prior to handoff to MK ADC, unless MK ADC nominates a restriction.
+MKA will heads-up coordinate arrivals/overfliers from Class C to MK ADC.  
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to MK ADC, unless MK ADC nominates a restriction.  
+VFR aircraft require a level readback.
 
 !!! example
     <span class="hotline">**MKA** -> **MK ADC**</span>: "Via BAVAM for the RNP RWY 32, VOZ1164”  

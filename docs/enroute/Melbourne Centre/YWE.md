@@ -49,8 +49,7 @@ KAT is responsible for issuing STAR Clearances for YSCB.  KAT is also responsibl
 
 ## Coordination
 
-### YWE/WON / ML TCU
-
+### YWE,WON / ML TCU
 The Standard assignable level from YWE and WON to ML TCU is `A090`, and assigned the ARBEY #, PORTS #, WAREN #, or WENDY # STAR.
 
 All other aircraft must be voice coordinated to ML TCU prior to **20nm** from the boundary.

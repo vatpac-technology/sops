@@ -35,22 +35,12 @@ By default, WLM APP owns all of the R578 Restricted Areas, detailed below:
 ### Optional, as required
 WLM APP can negotiate further airspace releases from surrounding ENR sectors of the following Restricted Areas:
 
-- R574 (`SFC`-`F600`) (*See below)    
 - R580 (`A045`-`F125`)  
 - R583A (`SFC`-`F125`)  
 - R583B (`SFC`-`A100`)  
 - R587A (`F125`-`F600`)  
 - R587B (`F125`-`F600`)  
 - R596 (`SFC`-`F120`)
-#### R574 Release
-To put it bluntly, the R574 Restricted Area is quite large.
-
-<figure markdown>
-![R574 Restricted Area](img/r574.png){ width="700" }
-  <figcaption>R574 Restricted Area</figcaption>
-</figure>
-
-It also occupies a lot of airspace that would commonly be used by YSSY arrivals and departures. If WLM APP is taking ownership of this airspace, it is good practice to negotiate an airspace release, whether that be a lateral or vertical portion of airspace (or a combination) to ARL(OCN) and TSN(HWE), to enable them to facilitate YSSY arrivals and departures with minimal impact.
 
 ### Classification
 All airspace owned by WLM TCU when online is reclassified to **Class C**.

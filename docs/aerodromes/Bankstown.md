@@ -130,11 +130,13 @@ When the aircraft is ready for departure, Tower will coordinate with the relevan
 The Standard Assignable level from BK ADC to SY TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
 
 ### Arrivals/Overfliers
-SY TCU will heads-up coordinate arrivals/overfliers from Class C to BK ADC. Aircraft will be cleared for the coordinated approach prior to handoff to BK ADC, unless BK ADC nominates a restriction.
+SY TCU will heads-up coordinate arrivals/overfliers from Class C to BK ADC.  
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to BK ADC, unless BK ADC nominates a restriction.  
+VFR aircraft require a level readback.
 
 !!! example
-    <span class="hotline">**SY TCU** -> **BK ADC**</span>: "via TWRN, UJN"  
-    <span class="hotline">**BK ADC** -> **SY TCU**</span>: "UJN"
+    <span class="hotline">**SY TCU** -> **BK ADC**</span>: "via GRB, UJN"  
+    <span class="hotline">**BK ADC** -> **SY TCU**</span>: "UJN, A010"
 
 !!! tip
     Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D. You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.

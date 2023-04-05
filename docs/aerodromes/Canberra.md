@@ -12,15 +12,9 @@
 | Canberra ATIS        |                | 127.450         | YSCB_ATIS                                |
 
 ## Airspace
-CB ADC is responsible for the Class C airspace in the CB CTR `SFC` to `A035`.
-
-<figure markdown>
-![CB ADC Airspace](img/cbadc.png){ width="500" }
-  <figcaption>CB ADC Airspace</figcaption>
-</figure>
+CB ADC is not responsible for any airspace by default.
 
 ## SID Selection
-
 **Jet** Aircraft planned via **CULIN**, **TANTA**, **WG**, **HOWLY**, **NONUP** or **AVBEG** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
 **Non-Jet** Aircraft planned via **AKMIR** or **DUBUS** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
@@ -36,7 +30,6 @@ Shall be assigned the **Radar SID**.
     Non-Jet Aircraft planned via TANTA, assigned runway 35, shall be given the CB (RADAR) SID.
 
 ## VFR Operations
-
 VFR aircraft that will operate only in ADCs airspace shall be assigned SSR code 0040.
 
 Aircraft operating in the circuit area are to remain on the ADC frequency. The phrasing of the airways clearance is:
@@ -71,6 +64,8 @@ City Scenic Flights are available by day and to the west of the aerodrome. Aircr
   a) Departing from a runway nominated on the ATIS; and  
   b) Assigned the standard assignable level; and  
   c) Assigned a **Procedural** SID
+
+All other aircraft require a 'Next' call to CB TCU.
 
 !!! example
     <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Next, XEB, runway 35"  

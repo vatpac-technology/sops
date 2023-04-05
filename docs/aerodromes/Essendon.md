@@ -114,21 +114,23 @@ When an aircraft requests start clearance, the EN SMC controller shall coordinat
 #### Departures
 Essendon departures that will not enter ML TCU Class C airspace are not required to be coordinated.
 
-All IFR departures and VFR aircraft departing into Class C must be coordinated to ML TCU with a "Next" Call
+All aircraft departing into Class C must be coordinated to ML TCU with a "Next" Call
 
 !!! example
-    <span class="hotline">**EN ADC** -> **ML TCU**</span>: "Next, FD318, runway 35"  
+    <span class="hotline">**EN ADC** -> **ML TCU**</span>: "Next, FD318"  
     <span class="hotline">**ML TCU** -> **EN ADC**</span>: "FD318, heading 330, unrestricted"  
     <span class="hotline">**EN ADC** -> **ML TCU**</span>: "Heading 330, FD318"
 
 The Standard Assignable level from EN ADC to ML TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
 
 ### Arrivals/Overfliers
-SY TCU will heads-up coordinate arrivals/overfliers from Class C to EN ADC. Aircraft will be cleared for the coordinated approach prior to handoff to EN ADC, unless EN ADC nominates a restriction.
+ML TCU will heads-up coordinate arrivals/overfliers from Class C to EN ADC.  
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to EN ADC, unless EN ADC nominates a restriction.  
+VFR aircraft require a level readback.
 
 !!! example 
-    <span class="hotline">**ML TCU** -> **EN ADC**</span>: "via DSN, KHU"  
-    <span class="hotline">**EN ADC** -> **ML TCU**</span>: "KHU"
+    <span class="hotline">**ML TCU** -> **EN ADC**</span>: "via KAO, KHU"  
+    <span class="hotline">**EN ADC** -> **ML TCU**</span>: "KHU, A015"
 
 !!! Note
     For aircraft not tracking via an Arrival Gate (ML TCU shall clear aircraft for approach via the appropriate arrival gate:), ML TCU is required to coordinate descent of aircraft into EN ADC airspace.

@@ -92,16 +92,16 @@ Departures from YMAY in to BLA Class C will be coordinated when ready for depart
 !!! example
     <span class="hotline">**AY ADC** -> **BLA**</span>: "Next, RXA6772"  
     <span class="hotline">**BLA** -> **AY ADC**</span>: "RXA6772, Unrestricted"  
-    <span class="hotline">**AY ADC** -> **BLA**</span>: "Unrestricted, RXA6772"  
+    <span class="hotline">**AY ADC** -> **BLA**</span>: "RXA6772"  
 
 The Standard Assignable level from **AY ADC** to BLA is the lower of `A070` or the `RFL`.
 
 #### Arrivals
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enrtcu-class-d-twr). BLA must coordinate the sequence prior to **5 mins** from the boundary
+YMAY arrivals shall be heads-up coordinated to **AY ADC** from BLA prior to **5 mins** from the boundary.
 
 !!! example
-    <span class="coldline">**BLA** -> **AY ADC**</span>: "QLK38, via VEGRU1 arrival"  
-    <span class="coldline">**AY ADC** -> **BLA**</span>: "QLK38" 
+    <span class="hotline">**BLA** -> **AY ADC**</span>: "via VEGRU1 arrival, QLK38"  
+    <span class="hotline">**AY ADC** -> **BLA**</span>: "QLK38" 
 
 The Standard Assignable level from BLA to **AY ADC** is `A080`.
 

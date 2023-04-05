@@ -68,7 +68,7 @@ The APCH field should include `EXP INST APCH` when:
 
 ## Coordination
 ### Departures
-When the aircraft is ready for departure, Tower will coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
+When the aircraft is ready for departure, PF ADC will coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
 
 !!! example
     <span class="hotline">**PF ADC** -> **AAW**</span>: "Next, XMM, 03L"  
@@ -77,11 +77,14 @@ When the aircraft is ready for departure, Tower will coordinate with the relevan
 
 The Standard Assignable level from PF ADC to AD TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
 ### Arrivals
-AD TCU will heads-up coordinate arrivals/overfliers from Class C to PF ADC. Aircraft will be cleared for the coordinated approach prior to handoff to PF ADC, unless PF ADC nominates a restriction.
+AD TCU will heads-up coordinate arrivals/overfliers from Class C to PF ADC.  
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to PF ADC, unless PF ADC nominates a restriction.  
+VFR aircraft require a level readback.
+
 
 !!! example
     <span class="hotline">**AAW** -> **PF ADC**</span>: "via PAL, YTS"  
-    <span class="hotline">**PF ADC** -> **AAW**</span>: "YTS"
+    <span class="hotline">**PF ADC** -> **AAW**</span>: "YTS, A010"
 
 !!! tip
     Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D. You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.

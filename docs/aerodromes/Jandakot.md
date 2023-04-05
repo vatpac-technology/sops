@@ -99,7 +99,9 @@ When the aircraft is ready for departure, JT ADC will coordinate with the releva
 The Standard Assignable level from JT ADC to PH TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
 
 ### Arrivals/Overfliers
-PH TCU will heads-up coordinate arrivals/overfliers from Class C to JT ADC. Aircraft will be cleared for the coordinated approach prior to handoff to JT ADC, unless JT ADC nominates a restriction.
+PH TCU will heads-up coordinate arrivals/overfliers from Class C to JT ADC.  
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to JT ADC, unless JT ADC nominates a restriction.  
+VFR aircraft require a level readback.
 
 !!! example
     <span class="hotline">**PH TCU** -> **JT ADC**</span>: "via RNAV-Z RWY 06L, FD416, circling to land RWY 24R"  

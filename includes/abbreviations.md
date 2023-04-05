@@ -5,6 +5,7 @@
 *[RNAV]: Area Navigation
 *[GNSS]: Global Navigation Satellite System
 *[RNP]: Required Navigation Performance
+*[DGA]: DME or GNSS Arrival
 *[ANR]: Air Navigation Register   
 *[ATS]: Air Traffic Services
 *[TMA]: Terminal Maneuvering Area
@@ -172,7 +173,6 @@
 *[BCTA]: Bottom of Controlled Airspace
 *[PAL]: Port Adelaide
 *[TWRN]: Two R N
-*[TVT]: TV Towers
 *[DSN]: Doncaster Shopping Town
 *[ADWD]: Adventure World
 *[TVT]: TV Towers
@@ -228,3 +228,13 @@
 *[HKE]: Herdsman Lake
 *[JIBN]: Jibbon Point
 *[CUL]: Cronulla
+*[BTJ]: Brighton Jetty
+*[HNLY]: Henley Jetty
+*[GRB]: Georges River Bridge
+*[GON]: Goodna
+*[PKR]: Park Ridge
+*[TAR]: Target
+*[CBRG]: Centenary Bridge
+*[WTBG]: Walter Taylor Bridge
+*[KCFF]: Kingscliff
+*[DNGR]: Point Danger
