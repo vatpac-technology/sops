@@ -42,15 +42,15 @@ Departures from YPKA in to OLW CTA will be coordinated when ready for departure.
 !!! example
     <span class="hotline">**KA ADC** -> **OLW**</span>: "Next, OHN"  
     <span class="hotline">**OLW** -> **KA ADC**</span>: "OHN, Unrestricted"  
-    <span class="hotline">**KA ADC** -> **OLW**</span>: "Unrestricted, OHN"  
+    <span class="hotline">**KA ADC** -> **OLW**</span>: "OHN"  
 
 The Standard Assignable level from KA ADC to OLW is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
 #### Arrivals
-OLW must coordinate the sequence to KA ADC prior to **5 mins** from the boundary.
+YPKA arrivals shall be heads-up coordinated to **KA ADC** from OLW prior to **5 mins** from the boundary.
 
 !!! example
-    <span class="coldline">**OLW** -> **KA ADC**</span>: "New Sequence of 2. Via MCNAB, QFA1214 for the RNP U RWY 26, Number 1. Via PD, FD626J, Number 2”  
-    <span class="coldline">**KA ADC** -> **OLW**</span>: "QFA1214, Number 1. FD626J, Number 2"  
+    <span class="coldline">**OLW** -> **KA ADC**</span>: "Via MCNAB, QFA1214 for the RNP U RWY 26”  
+    <span class="coldline">**KA ADC** -> **OLW**</span>: "QFA1214, RNP U RWY 26"  
 
 The Standard Assignable level from OLW to KA ADC is `A060`, any other level must be prior coordinated.
 

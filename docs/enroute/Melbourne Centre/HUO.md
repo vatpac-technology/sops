@@ -15,7 +15,6 @@
 </figure>
 
 ## Responsibilities
-
 Whilst the **HBA** controller is expected to provide a [top-down service](../../../aerodromes/Hobart) to YMHB when **HB ADC** is offline, this is not expected of a HUO controller when both **HBA** and **HB ADC** are offline. If electing not to provide a top-down service to YMHB, the HB CTR Class D `SFC` to `A015` reverts to Class G.  
 Whilst the **LTA** controller is expected to provide a [top-down service](../../../aerodromes/Launceston) to YMLT when **LT ADC** is offline, this is not expected of a HUO controller when both **LTA** and **LT ADC** are offline. If electing not to provide a top-down service to YMLT, the LT CTR Class D `SFC` to `A015` reverts to Class G.  
 
@@ -25,14 +24,18 @@ When **HB ADC** or **LT ADC** is offline, the relevant CTR (Class D `SFC` to `A0
 
 If not providing a top-down service, due to the low level of CTA at these aerodromes, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
+Departures shall be cleared via a SID.
+
 !!! example
     **JST718:** "Melbourne Centre, JST718, A320, IFR, Taxiing YMHB for YSSY, Runway 12"  
-    **HUO:** "JST718, Melbourne Centre, Squawk 3601, Expect clearance via the LATUM2 departure Runway 12, No Reported IFR Traffic, Call me Ready at the Holding Point for Airways Clearance"  
+    **HUO:** "JST718, Melbourne Centre, Squawk 3601, No Reported IFR Traffic, Call me Ready at the Holding Point for Airways Clearance"  
     **JST718:** "Squawk 3601, Wilco, JST718"  
       
     **JST718:** "JST718, Ready Runway 12, Request clearance"  
-    **HUO:** "JST718, Cleared to YSSY via the LATUM2 departure Runway 12, LATUM, Flight Planned Route. Climb to A050"  
-    **JST718:** "Cleared to YSSY via the LATUM2 departure Runway 12, LATUM, Flight Planned Route. Climb to A050, JST718"  
+    **HUO:** "JST718, Cleared to YSSY via LATUM, flight planned route. Runway 12, LATUM2 Departure. Climb via SID to A080"  
+    **JST718:** "Cleared to YSSY via LATUM, flight planned route. Runway 12, LATUM2 Departure. Climb via SID to A080, JST718"  
+
+YMHB arrivals shall still be assigned the relevant STAR for their requested arrival runway.
 
 ## Coordination
 ### HUO / TAS TCU

@@ -51,6 +51,8 @@ Aircraft unable to accept a SID, or that cannot practically accept amended routi
   b) Assigned the standard assignable level; and  
   c) Assigned a SID
 
+All other aircraft require a 'Next' call to LTA.
+
 !!! example
     <span class="hotline">**LT ADC** -> **LTA**</span>: "Next, ABC, runway 14L"  
     <span class="hotline">**LTA** -> **LT ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
@@ -69,7 +71,9 @@ The Standard Assignable level from LT ADC to LTA is:
 For Jets: `A080`  
 For Non-Jets: The lower of `A045` or the `RFL`.
 ### Arrivals/Overfliers
-LTA will heads-up coordinate arrivals/overfliers from Class C to LT ADC. Aircraft will be cleared for the coordinated approach prior to handoff to LT ADC, unless LT ADC nominates a restriction.
+LTA will heads-up coordinate arrivals/overfliers from Class C to LT ADC.  
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to LT ADC, unless LT ADC nominates a restriction.  
+VFR aircraft require a level readback.
 
 !!! example
     <span class="hotline">**LTA** -> **LT ADC**</span>: "via IRSOM for the DGA, TFW"  

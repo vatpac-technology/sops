@@ -36,7 +36,9 @@ A 'next' call is made for all aircraft when they are next to depart. RK ADC must
 The Standard Assignable level from RK ADC to RKA is the lower of `A060` or the `RFL`, any other level must be prior coordinated.
 
 ### Arrivals/Overfliers
-RKA will heads-up coordinate arrivals/overfliers from Class C to RK ADC. Aircraft will be cleared for the coordinated approach prior to handoff to RK ADC, unless RK ADC nominates a restriction.
+RKA will heads-up coordinate arrivals/overfliers from Class C to RK ADC.  
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to RK ADC, unless RK ADC nominates a restriction.  
+VFR aircraft require a level readback.
 
 !!! example
     <span class="hotline">**RKA** -> **RK ADC**</span>: "Via SARUS for the visual approach, VJN”  

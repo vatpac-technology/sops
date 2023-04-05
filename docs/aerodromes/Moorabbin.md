@@ -57,8 +57,16 @@ Departures in to ML TCU Class C airspace require a "Next" call, where ML TCU wil
     <span class="hotline">**MDS** -> **MB ADC**</span>: "SGE, A060"  
     <span class="hotline">**MB ADC** -> **MDS**</span>: "A060, SGE"
 
+Departing aircraft will be **cleared to leave and re-enter controlled airspace** on climb to their assigned level, due to the structure of the Class C airspace around YMMB.
+
+!!! example
+    **MB ADC**: "SGE, Cleared to leave and re-enter controlled airspace climbing to A060, no reported IFR traffic. Contact Melbourne Departures on 129.4"  
+    **SGE**: "Cleared to leave and re-enter controlled airspace climbing to A060, Departures 129.4, SGE"
+
 ### Arrivals/Overfliers
-ML TCU will heads-up coordinate arrivals/overfliers from Class C to MB ADC. Aircraft will be cleared for the coordinated approach prior to handoff to MB ADC, unless MB ADC nominates a restriction.
+ML TCU will heads-up coordinate arrivals/overfliers from Class C to MB ADC.  
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to MB ADC, unless MB ADC nominates a restriction.  
+VFR aircraft will not be coordinated, and will need to receive their airways clearance from MB ADC.
 
 !!! example
     <span class="hotline">**MDS** -> **MB ADC**</span>: "To the west, PLE, for the NDB-A"  

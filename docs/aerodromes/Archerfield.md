@@ -31,10 +31,10 @@ VFR aircraft should track via a VFR inbound point at `A015` and be instructed as
 
 | VFR Approach Point | RWYs 04  | RWYs 22 | RWYs 10  | RWYs 28 | 
 | ----------------   | --------- | ------------- | --------- | ---------- |
-| TV Towers <br> (TVT)    |  *"Join Base RWY 04L, report Centenary Bridge"* | *"Join Base RWY 22R, report Centenary Bridge"* | *"Join Final RWY 10L, report Centenary Bridge"* | *"Join Downwind RWY 28R, maintain A015, report Centenary Bridge"* |
-| Goodna   <br> (GON)    |  *"Join Final RWY 04L"*                             | *"Join Downwind RWY 22R, maintain A015"*                          | *"Join Final RWY 10R"* | *"Join Downwind RWY 28L, maintain A015"*        |
-| Park Ridge <br> (PKR)   |  *"Join Base RWY 04R, report Logan Bridge"*     | *"Join Base RWY 22L, report Logan Bridge"*     | *"Join Base RWY 10R, report Logan Bridge"*  | *"Join Base 28L, report Logan Bridge"*         |
-| Target <br> (TAR)       |  *"Join Base RWY 04R"*                              | *"Join Base RWY 22L"*                              | *"Join Downwind RWY 10R, maintain A015"*       | *"Join Final RWY 28L"*        |
+| TVT    |  *"Join Base RWY 04L, report CBRG"* | *"Join Base RWY 22R, report CBRG"* | *"Join Final RWY 10L, report CBRG"* | *"Join Downwind RWY 28R, maintain A015, report CBRG"* |
+| GON    |  *"Join Final RWY 04L"*                             | *"Join Downwind RWY 22R, maintain A015"*                          | *"Join Final RWY 10R"* | *"Join Downwind RWY 28L, maintain A015"*        |
+| PKR   |  *"Join Base RWY 04R, report Logan Bridge"*     | *"Join Base RWY 22L, report Logan Bridge"*     | *"Join Base RWY 10R, report Logan Bridge"*  | *"Join Base 28L, report Logan Bridge"*         |
+| TAR       |  *"Join Base RWY 04R"*                              | *"Join Base RWY 22L"*                              | *"Join Downwind RWY 10R, maintain A015"*       | *"Join Final RWY 28L"*        |
 
 !!! note
     Aircraft joining downwind are instructed to maintain `A015` for separation with aircraft departing the zone at `A010`.  Once inbound aircraft are clear of the departure track, they should be *"cleared visual approach"*.
@@ -43,7 +43,7 @@ VFR aircraft should track via a VFR inbound point at `A015` and be instructed as
 
 | Planned Departure Tracks | "Intentions"   | Tracking Requirement | 
 | ---------------      | ---------      | ----------           | 
-| BTN 310 & 019 DEG    | Northern Departure | Track via Walter Taylor (Indooroopilly) Bridge | 
+| BTN 310 & 019 DEG    | Northern Departure | Track via WTBG | 
 | BTN 020 & 099 DEG    | Eastern Departure  | Track via Gateway Motorway and Pacific Motorway Intersection   *(Not available when Rwy 22 active EXC if departing into Class C)* | 
 | BTN 100 & 204 DEG    | Southern Departure | Track 135 DEG from Archerfield |
 | BTN 205 & 309 DEG    | Western Departure  | DEP AF CTR on a track between 220 & 309. Acft must nominate outbound DEP track with TAXI call |
@@ -104,7 +104,10 @@ When aircraft planned via a CTA departure are ready for takeoff and expected to 
 The Standard Assignable level from AF ADC to BN TCU is the lower of `A040` or the `RFL`, any other level must be prior coordinated.
 
 ### Arrivals/Overfliers
-BN TCU will heads-up coordinate arrivals/overfliers from Class C to AF ADC. Aircraft will be cleared for the coordinated approach prior to handoff to AF ADC, unless AF ADC nominates a restriction.
+BN TCU will heads-up coordinate arrivals/overfliers from Class C to AF ADC.  
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to AF ADC, unless AF ADC nominates a restriction.  
+VFR aircraft require a level readback.
+
 
 !!! example
     <span class="hotline">**BN TCU** -> **AF ADC**</span>: "via TVT for the visual approach, UJE"  

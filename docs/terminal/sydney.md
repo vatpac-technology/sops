@@ -21,8 +21,10 @@
 * [Additional requirements](#airspace-structural-arrangements) must be met prior to opening SRI as a stand-alone position.
 
 ## Airspace
-The Sydney TMA spans a 45nm Radius around SY DME from `SFC` to `F280`. SY TCU is responsible for the Sydney TMA, except:  
+The Vertical limits of the SY TCU are `SFC` to `F280`.  
+SY TCU is responsible for the Sydney TMA, except:  
 
+- SY CTR `SFC` to `A005`  
 - R470 Restricted Area, when RIC ADC is online (or as negotiated)  
 - BK CTR reverts to Class G when **BK ADC** is offline, and is administered by the relevant SY TCU controller.    
 - CN CTR reverts to Class G when **CN ADC** is offline, and is administered by the relevant SY TCU controller.  
@@ -281,7 +283,7 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
 ### SY TCU / ENR
 #### Departures
 Voiceless coordination is in place from SY TCU to all surrounding ENR sectors (**ARL** (and subsectors) to the North and East, **YWE** (and subsectors) to the West, **BIK** (and subsectors) to the South) for aircraft assigned:  
-- The lower of `F280` or the `RFL`, **with the exception of**:  
+- The lower of `F280` or the `RFL`, and tracking via a Procedural SID terminus, **with the exception of**:  
 - Aircraft with ADES YWLM, which will be assigned the lower of `F130` or the `RFL`.
 
 Aircraft must be tracking from **SDN** or **SDS** airspace (see [Airspace Division](../../terminal/sydney/#airspace-division)).
@@ -457,40 +459,20 @@ Aircraft departing YSBK in to SY TCU Class C will be coordinated from **BK ADC**
     **BK ADC** will then clear the aircraft to takeoff , and instruct them to contact SY TCU passing `A020`.
 
 #### Arrivals
-YSBK arrivals shall be coordinated to **BK ADC** from SY TCU prior to transfer of jurisdiction.  If an instrument approach is planned, include the estimated approach time.
+SY TCU will heads-up coordinate arrivals/overfliers from Class C to BK ADC prior to **5 mins** from the boundary.  
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to BK ADC, unless BK ADC nominates a restriction.  
+VFR aircraft require a level readback.
+
+!!! example
+    <span class="hotline">**SY TCU** -> **BK ADC**</span>: "via GRB, UJN"  
+    <span class="hotline">**BK ADC** -> **SY TCU**</span>: "UJN, A010"
 
 !!! tip
     Ensure the aircraft's FDR is up-to-date in order to give **BK ADC** maximum situational awareness of the traffic picture. (eg. if the aircraft is doing the RNP approach, ensure the FDR has been rerouted via the appropriate points)
 
-##### Visual Tracking
-!!! example
-    <span class="coldline">**SY TCU** -> **BK ADC**</span>: "Estimate, UJN via TWRN time 02."  
-    <span class="coldline">**BK ADC** -> **SY TCU**</span>: "UJN"
-
-##### IAP Tracking
-!!! example
-    <span class="coldline">**SY TCU** -> **BK ADC**</span>: "Estimated approach time, UJN via RNP at time 59"  
-    <span class="coldline">**BK ADC** -> **SY TCU**</span>: "Via RNP, UJN"
-
-Given that the instrument approach procedure will terminate inside another controller's airspace, TCU controllers must obtain a clearance from BK ADC prior to issuing an approach clearance to an aircraft.  
-
-!!! example 
-    <span class="hotline">**SY TCU** -> **BK ADC**</span>: "Request clearance for final, UJN"  
-    <span class="hotline">**BK ADC** -> **SY TCU**</span>: "UJN cleared RNP 11C"  
-    <span class="hotline">**SY TCU** -> **BK ADC**</span>: "Cleared RNP 11C, UJN"
-
 ### SRI / CN ADC
 
 #### Departures
-##### Taxi Call
-IFR aircraft will be coordinated with SRI at Taxi.
-
-!!! example
-    <span class="coldline">**CN SMC** -> **SRI**</span>: "Taxi, MHQ, Lord Howe, runway 06”  
-    <span class="coldline">**SRI** -> **CN SMC**</span>: “MHQ, squawk 0134"  
-    <span class="coldline">**CN SMC** -> **SRI**</span>: “Squawk 0134, MHQ"
-
-##### Ready Call
 CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a ready call, SY TCU will issue a traffic statement.
 
 !!! example
@@ -499,32 +481,24 @@ CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a
     <span class="hotline">**CN ADC** -> **SRI**</span>: "Traffic is MEH tracking SHL RAKSO SBKWI A035, RAKSO at 35"  
     
     **CN ADC:** "MHQ, traffic is MEH, IFR AC50 tracking SHL RAKSO SBKWI at A035, estimating RAKSO at time 35, runway 06, cleared for takeoff"  
-    **MHQ:** "Copy MEH, runway 06, cleared for takeoff, MHQ"
+    **MHQ:** "Runway 06, cleared for takeoff, MHQ"
       
     **CN ADC:** "MHQ, contact Sydney Centre on 124.55"  
 
-#### Arrivals
-YSCN arrivals shall be coordinated to **CN ADC** from SRI prior to transfer of jurisdiction.  If an instrument approach is planned, include the estimated approach time.
-
-!!! tip
-    Ensure the aircraft's FDR is up-to-date in order to give **CN ADC** maximum situational awareness of the traffic picture. (eg. if the aircraft is doing the RNP approach, ensure the FDR has been rerouted via the appropriate points)
-
-##### Visual Tracking
-!!! example
-    <span class="coldline">**SRI** -> **CN ADC**</span>: "Estimate, UJA via PIC time 02."  
-    <span class="coldline">**CN ADC** -> **SRI**</span>: "UJA"
-    
-##### IAP Tracking
-!!! example
-    <span class="coldline">**SRI** -> **CN ADC**</span>: "Estimated approach time, ZYX via RNP at time 04"  
-    <span class="coldline">**CN ADC** -> **SRI**</span>: "Via RNP, ZYX"
-
-Aircraft on the RNP W approach must be transferred to **CN ADC** by `SCNWI`.
-
 !!! note
-    The YSCN RNP W approach commences OCTA and only enters CTA at the CN CTR boundary.  TCU controllers **should not** clear aircraft for the approach.  Aircraft in the overlying class C airspace should be instructed to "*leave controlled airspace descending*".
+    Note: Because aircraft enter Class G after departure, an airways clearance need not be issued by CN ADC. This will be done on first contact with Sydney TCU.
+    Therefore, a *next* call & *departure instructions* are not required. You must however, pass the above (ready) coordination & obtain a traffic statement.
 
-**CN ADC** will issue a clearance for the approach on first contact with the aircraft.
+#### Arrivals/Overfliers
+SY TCU must heads-up coordinate inbound IFR aircraft prior to **5 mins** from the boundary. CN ADC is responsible for issuing a clearance into the CN CTR and for coordination with SY TCU in the event of a missed approach (or on completion of airwork if applicable).
+
+SY TCU will **NOT** clear the aircraft for the approach.
+
+!!! example
+    <span class="hotline">**SRI** -> **CN ADC**</span>: “via RNP W, HRP”  
+    <span class="hotline">**CN ADC** -> **SRI**</span>: “HRP”   
+
+**CN ADC** must issue an airways clearance to these aircraft on first contact.
 
 ### SY TCU / RIC ADC
 Reserved.

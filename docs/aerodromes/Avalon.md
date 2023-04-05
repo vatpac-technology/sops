@@ -44,6 +44,8 @@ All other IFR aircraft shall be assigned the **Radar SID**.
   b) Assigned the standard assignable level; or  
   c) Assigned a **Procedural** SID
 
+All other aircraft require a 'Next' call to ML TCU.
+
 !!! example
     <span class="hotline">**AV ADC** -> **MDS**</span>: "Next, UJI, Runway 18"  
     <span class="hotline">**MDS** -> **AV ADC**</span>: "UJI, heading 030, unrestricted"  
@@ -52,7 +54,9 @@ All other IFR aircraft shall be assigned the **Radar SID**.
 The Standard Assignable level from AV ADC to ML TCU is the lower of `A040` or the `RFL`.
 
 #### Arrivals/Overfliers
-ML TCU will heads-up coordinate arrivals/overfliers from Class C to AV ADC. Aircraft will be cleared for the coordinated approach prior to handoff to AV ADC, unless AV ADC nominates a restriction.
+ML TCU will heads-up coordinate arrivals/overfliers from Class C to AV ADC.  
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to AV ADC, unless AV ADC nominates a restriction.  
+VFR aircraft will not be coordinated, and will need to receive their airways clearance from AV ADC.
 
 !!! example
     <span class="hotline">**MDS** -> **AV ADC**</span>: "via TEMPL for the ILS-Y 18, JST631"  
@@ -67,5 +71,5 @@ Any Runway change must be prior coordinated to the relevant [TCU Controller](#TC
 #### TCU Controller
 When **MDN** and/or **MDS** are online, the relevant TCU controller is whoever is responsible for **MDS**.
 
-### AV ADC / YWE, WON
+### AV ADC / YWE,WON
 AV ADC only borders YWE/WON Class G airspace, and as such, no coordination is required between AV ADC and YWE/WON.

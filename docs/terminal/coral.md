@@ -11,15 +11,19 @@
 | Mackay Approach  | MKA | Coral Approach  | 125.650       | MK_APP    |
 | Rockhampton Approach  | RKA | Coral Approach   | 123.750        | RK_APP                 |
 
-Upper Limit of the Coral TCU is `F150`
+## Airspace
+The Vertical limits of the COR TCU are `SFC` to `F150`.  
+MK ADC own the Class D airspace within MK CTR `SFC` to `A010`.  
+RK ADC own the Class D airspace within RK CTR `SFC` to `A010`.  
 
+## Extending
 !!! Note
     MKA may extend to RKA and vice versa, callsigns remain the same.
 
 !!! tip
-    When setting up vatSys, it is recommended that you have seperate air displays open for MKA and RKA.
+    When setting up vatSys while providing coverage to RKA and MKA, it is recommended that you have seperate air displays open for MKA and RKA.
     <figure markdown>
-    ![Coral Combined Airspace](img/coralrec.png){ width="1000" }
+    ![Coral Combined Airspace](img/coraltcusetup.png){ width="1000" }
     </figure>
 ## Coordination
 
@@ -32,27 +36,23 @@ Voiceless coordination is in place from MKA/RKA to ENR for aircraft:
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
 !!! example
-    <span class="hotline">**COR TCU** -> **ENR**</span>: "QFA114, with your concurrence, will be assigned F130, for my separation with ZYX"  
-    <span class="hotline">**ENR** -> **COR TCU**</span>: "QFA114, concur F130"  
+    <span class="hotline">**RKA** -> **KPL**</span>: "QFA114, with your concurrence, will be assigned F130, for my separation with ZYX"  
+    <span class="hotline">**KPL** -> **RKA**</span>: "QFA114, concur F130"  
 
 #### Arrivals
-The Standard assignable levels from **ENR** to MKA/RKA are as follows:  
-YBMK Arrivals: `A070`  
-YBRK Arrivals: `A070`
+The Standard assignable level from INL(KPL) to RKA is `A070`, and assigned a STAR. All other aircraft must be prior coordinated.  
+The Standard assignable level from KEN(SWY) to MKA is `A070`, and assigned a STAR. All other aircraft must be prior coordinated
 
-### ADC / TCU
-
-#### Airspace
-MK ADC and RK ADC both own the Class D airspace within their respective CTRs, `SFC` to `A010`. MKA/RKA own the Class D and Class C airspace above `A010`.
+### COR TCU / ADC
 #### Auto Release
 "Next" Coordination to TCU is required for all deps not assigned a SID.
 
 "Next" Coordination is a procedure where the **ADC** controller gives a heads-up to the TCU controller about an impending departure not on a SID. The TCU controller will respond by assigning a visual heading to the aircraft, for the **ADC** controller to pass on with their takeoff clearance.
 
 !!! example
-    <span class="hotline">**MK ADC** -> **MK TCU**</span>: "Next, ABC, runway 14"  
-    <span class="hotline">**MK TCU** -> **MK ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
-    <span class="hotline">**MK ADC** -> **MK TCU**</span>: "Heading 150 Visual unrestricted, ABC"
+    <span class="hotline">**MK ADC** -> **MKA**</span>: "Next, ABC, runway 14"  
+    <span class="hotline">**MKA** -> **MK ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
+    <span class="hotline">**MK ADC** -> **MKA**</span>: "Heading 150 Visual unrestricted, ABC"
 
 The TCU controller can suspend/resume Auto Release at any time, with the concurrence of **ADC**.
 
@@ -65,5 +65,12 @@ The controller assuming responsibility of **SMC** shall give heads-up coordinati
 - Aircraft using a runway not on the ATIS
 
 #### Arrivals
-The Standard assignable level from INL(KPL) to RKA is `A070`, and assigned a STAR. All other aircraft must be prior coordinated.  
-The Standard assignable level from KEN(SWY) to MKA is `A070`, and assigned a STAR. All other aircraft must be prior coordinated
+COR TCU will coordinate all YBMK and YBRK arrivals to ADC prior to **5 mins** from the boundary. This coordination shall be as per [Standard Heads-up format](../../controller-skills/coordination/#heads-up), with the addition of:
+
+- Runway, if other than duty runway  
+- Approach type, unless specifically nominated on the ATIS  
+- IFR Circuit joining instructions, if not on Straight-in instrument approach
+
+!!! example
+    <span class="hotline">**RKA** -> **RK ADC**</span>: "via ABVAS, DJU, for the VOR-A”  
+    <span class="hotline">**RK ADC** -> **RKA**</span>: "DJU, VOR-A"

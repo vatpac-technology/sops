@@ -16,7 +16,7 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies){target=new}
 
 ## Airspace
-The Melbourne TCU spans a 30nm Radius around ML from `SFC` to `F245`, as well as the AV CTR.   
+The Vertical limits of the ML TCU are `SFC` to `F245`.  
 ML TCU is responsible for the Melbourne TCU, except:    
 a) The Sunbury Corridor, when **ML ADC** is online  
 b) The South East Quadrant, when **EN ADC** is online  
@@ -54,12 +54,13 @@ Runway 17: `5NM FINAL`
 Runway 08: `5NM FINAL`  
 
 VFR YMEN Arrivals from ML TCU shall be cleared via any of the following arrival gates:  
-`KAO` (Kalkallo)   
-`YYN` (Yan Yean Reservoir)  
-`DSN` (Doncaster Shoppingtown)  
-`APL` (Albert Park Lake)  
-`SNP` (Station Pier)  
-`WES` (Westgate Bridge)  
+
+- KAO
+- YYN
+- DSN 
+- APL 
+- SNP
+- WES
 
 ## EN ADC Offline
 ### Arrivals
@@ -117,7 +118,7 @@ Due to the low level of CTA above Avalon, aircraft conducting approaches will co
 </figure>
 
 ### Departures
-Departing aircraft generally require an airways clearance on the ground, due to the low level of CTA.  Aircraft should report taxiing to the TCU controller, who will issue a squawk code and traffic statement.  These aircraft should be instructed to report at the holding point, where airways clearance will be issued.
+Departing aircraft will require an airways clearance on the ground, due to the low level of CTA. Aircraft should report taxiing to the TCU controller, who will issue a squawk code and traffic statement. These aircraft should be instructed to report at the holding point, where airways clearance will be issued.
 
 !!! example
     **AM318**: "Melbourne Approach, AM318, King Air, POB 2, IFR, taxiing YMAV runway 18 for YMEN"  
@@ -190,8 +191,7 @@ The divisions of the airspace between **MAE**, **MDN**, and **MDS** change based
 
 ### ML TCU / ENR
 #### Departures
-Voiceless coordination is in place from ML TCU to all surrounding ENR sectors (**ELW** to the East, **YWE**/**WON** all other directions) for aircraft:<ul><li>Planned at or above `F240`: `Assigned F240`</li><li>Planned below `F240`: `Assigned the RFL`</li></ul>
-
+Voiceless coordination is in place from ML TCU to all surrounding ENR sectors (**ELW** to the East, **YWE**/**WON** all other directions) for aircraft assigned the lower of `F240` or the `RFL`, and tracking via a Procedural SID terminus.
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
 !!! example
@@ -203,98 +203,105 @@ The Standard assignable level from ENR to ML TCU is `A090`. All other levels mus
 
 ### ML TCU / ML ADC
 #### Auto Release
+!!! important
+    Melbourne utilises auto release for all **Procedural** SIDs and the **ML (RADAR)** SID provided aircraft are assigned the Standard Assignable Level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
-Auto Release shall be used for aircraft that are:      
-a) Departing from a runway nominated on the ATIS; and  
-b) Issued a Procedural SID, or the ML (RADAR) SID with a [Standard assignable heading](#standard-assignable-headings); and   
-c) Assigned `A050`.
+'Next' coordination is **not** required for aircraft that are:   
+    a) Departing from a runway nominated on the ATIS; and  
+    b) Assigned `A050`; and  
+    c) Assigned a **Procedural** SID; or  
+    d) Assigned a [Standard Assignable Heading](#standard-assignable-departure-headings)
 
 Any aircraft that don't meet these criteria must be coordinated to ML TCU with a "Next" Call.  
-
-"Next" Coordination is a procedure where the ML ADC controller gives a heads-up to the ML TCU controller about an impending departure. The ML TCU controller will respond by assigning any relevant departure instructions (i.e. assigned heading, amended altitude, visual turn) to the aircraft, for the ML ADC controller to pass on with their takeoff clearance.
 
 !!! example
     <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, CYF, runway 34"  
     <span class="hotline">**ML TCU** -> **ML ADC**</span>: "CYF, track extended centreline, unrestricted"  
-    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Track extended centreline, unrestricted, CYF"
+    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Track extended centreline, CYF"
 
-##### Standard Assignable Headings
+##### Standard Assignable Departure Headings
 The following Standard Assignable Headings may be used for aircraft assigned the ML (RADAR) SID, depending on their direction of travel.
 
 | Runway | W | NE | SE | S |
 | ---- | ---- | ---- | ---- | ---- |
-| 16* | 290 | 290 | 160 | 260 |
+| 09* | - | - | - | - |
+| 16** | 290 | 290 | 160 | 260 |
 | 27 | 320 | 290 | 260 | 260 |
 | 34 | 340 | 340 | 340 | 260 |
 
+*When Runway 09 is in use for departures, ML TCU shall nominate a heading to ML ADC for use as a standard assignable heading.
 
-*\*When Runway 09 is in use for arrivals, all Runway 16 departures shall be assigned heading 160.*
-
-When Runway 09 is in use for departures, ML TCU shall nominate a heading to ML ADC for use as a standard assignable heading.
+**When Runway 09 is in use for arrivals, all Runway 16 departures shall be assigned heading 160.
 
 ### ML TCU / EN ADC
+
+#### Start Clearance
+When an aircraft requests start clearance, the EN SMC controller shall coordinate with ML TCU to obtain the start clearance.
 #### Departures
-Aircraft departing YMEN in to ML TCU Class C will be coordinated from **EN ADC** at Taxi.
+Essendon departures that will not enter ML TCU Class C airspace are not required to be coordinated.
+
+All aircraft departing into Class C must be coordinated to ML TCU with a "Next" Call
 
 !!! example
-    <span class="coldline">**EN ADC** -> **ML TCU**</span>: "Taxi, AM322 for YBDG via ML, Runway 17"  
-    <span class="coldline">**ML TCU** -> **EN ADC**</span>: "AM322"
+    <span class="hotline">**EN ADC** -> **ML TCU**</span>: "Next, FD318"  
+    <span class="hotline">**ML TCU** -> **EN ADC**</span>: "FD318, heading 330, unrestricted"  
+    <span class="hotline">**EN ADC** -> **ML TCU**</span>: "Heading 330, FD318"
 
-#### Arrivals
-ML TCU must coordinate the sequence information to **EN ADC** prior to **5 mins** from the boundary. ML TCU is responsible for clearing aircraft for the approach prior to handoff to **EN ADC**.
+The Standard Assignable level from EN ADC to ML TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
 
-!!! example
-    <span class="coldline">**ML TCU** -> **EN ADC**</span>: "New sequence of 1, CJI, via MONTY, Number 1"  
-    <span class="coldline">**EN ADC** -> **ML TCU**</span>: "CJI, Number 1"
+#### Arrivals/Overfliers
+ML TCU will heads-up coordinate arrivals/overfliers from Class C to EN ADC prior to **5 mins** from the boundary.  
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to EN ADC, unless EN ADC nominates a restriction.  
+VFR aircraft require a level readback.
+
+!!! example 
+    <span class="hotline">**ML TCU** -> **EN ADC**</span>: "via KAO, KHU"  
+    <span class="hotline">**EN ADC** -> **ML TCU**</span>: "KHU, A015"
+
+!!! Note
+    For aircraft not tracking via an Arrival Gate (ML TCU shall clear aircraft for approach via the appropriate arrival gate:), ML TCU is required to coordinate descent of aircraft into EN ADC airspace.
+
+When “The Coffin” is released, ML TCU is required to coordinate any use of Runway 27 to EN ADC prior to use.
 
 ### ML TCU / AV ADC
 #### Departures
-Auto Release shall be used for aircraft that are:    
-a) Departing from a runway nominated on the ATIS; and  
-b) Issued a Procedural SID; and   
-c) Assigned `A040`;
+'Next' coordination is **not** required from AV ADC for aircraft that are:   
+  a) Departing from a runway nominated on the ATIS; or  
+  b) Assigned the standard assignable level; or  
+  c) Assigned a **Procedural** SID
 
 Any aircraft that don't meet these criteria will be coordinated to ML TCU with a "Next" Call
 
 !!! example
-    <span class="coldline">**AV ADC** -> **MDS**</span>: "Next, UJI, Runway 18"  
-    <span class="coldline">**MDS** -> **AV ADC**</span>: "UJI, left 030, unrestricted"  
-    <span class="coldline">**AV ADC** -> **MDS**</span>: "Left 030 unrestricted, UJI"
+    <span class="hotline">**AV ADC** -> **MDS**</span>: "Next, UJI, Runway 18"  
+    <span class="hotline">**MDS** -> **AV ADC**</span>: "UJI, left 030, unrestricted"  
+    <span class="hotline">**AV ADC** -> **MDS**</span>: "Left 030, UJI"
 #### Arrivals
-As per [Standard coordination procedures](../../controller-skills/coordination/#enrtcu-class-d-twr). ML TCU must coordinate the sequence prior to **5 mins** from the boundary. ML TCU is responsible for clearing aircraft for the approach prior to handoff to **AV ADC**.
+ML TCU will heads-up coordinate arrivals/overfliers from CTA to AV ADC prior to **5 mins** from the boundary.  
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to AV ADC, unless AV ADC nominates a restriction.  
+VFR aircraft will have their control services terminated upon leaving controlled airspace, and instructed to contact AV ADC for onwards clearance.
 
 !!! example
-    <span class="coldline">**ML TCU** -> **AV ADC**</span>: "JST612, via TEMPL, Number 1"  
-    <span class="coldline">**AV ADC** -> **ML TCU**</span>: "JST612, Number 1"
+    <span class="hotline">**MDS** -> **AV ADC**</span>: "via TEMPL for the ILS-Y 18, JST631"  
+    <span class="hotline">**AV ADC** -> **MDS**</span>: "JST631, ILS-Y 18"  
 
 ### ML TCU / MB ADC
 #### Departures
-When the aircraft is ready for takeoff, **MB ADC** will give a "Next" call, where ML TCU will provide the cleared level.
+Departures in to ML TCU Class C airspace require a "Next" call, where ML TCU will provide the cleared level. There is no standard assignable level.
 
 !!! example
-    <span class="coldline">**MB ADC** -> **ML TCU**</span>: "Next, SGE"  
-    <span class="coldline">**ML TCU** -> **MB ADC**</span>: "SGE, A060"  
-    <span class="coldline">**MB ADC** -> **ML TCU**</span>: "A060, SGE"
+    <span class="hotline">**MB ADC** -> **MDS**</span>: "Next, SGE"  
+    <span class="hotline">**MDS** -> **MB ADC**</span>: "SGE, A060"  
+    <span class="hotline">**MB ADC** -> **MDS**</span>: "A060, SGE"
 
-#### Arrivals
-As per [Standard coordination procedures](../../controller-skills/coordination/#enrtcu-class-d-twr). ML TCU must coordinate the sequence prior to **5 mins** from the boundary.
+#### Arrivals/Overfliers
+ML TCU will heads-up coordinate arrivals/overfliers from Class C to MB ADC prior to **5 mins** from the boundary.  
+IFR aircraft will be cleared to **leave and re-enter controlled airspace** via the coordinated approach (Instrument or Visual) prior to handoff to MB ADC, unless MB ADC nominates a restriction.  
+VFR aircraft will have their control services terminated passing `A025` on descent, and instructed to contact MB ADC for onwards clearance.
+
+!!! example
+    <span class="hotline">**MDS** -> **MB ADC**</span>: "To the west, PLE, for the NDB-A"  
+    <span class="hotline">**MB ADC** -> **MDS**</span>: "PLE, NDB-A"
 
 !!! tip
     Ensure the aircraft's FDR is up-to-date in order to give **MB ADC** maximum situational awareness of the traffic picture. (eg. if the aircraft is doing the RNP approach, ensure the FDR has been rerouted via the appropriate points)
-
-##### Visual Tracking
-!!! example
-    <span class="coldline">**ML TCU** -> **MB ADC**</span>: "via MONTY, OXA"  
-    <span class="coldline">**MB ADC** -> **ML TCU**</span>: "OXA"
-
-##### IAP Tracking
-!!! example
-    <span class="coldline">**ML TCU** -> **MB ADC**</span>: "via MMBSA for the RNP RWY 35R, AM318"  
-    <span class="coldline">**MB ADC** -> **ML TCU**</span>: "AM318 for the RNP RWY 35R"
-
-Given that the instrument approach procedure will terminate inside another controller's airspace, TCU controllers must obtain a clearance from MB ADC prior to issuing an approach clearance to an aircraft.  
-
-!!! example 
-    <span class="hotline">**ML TCU** -> **MB ADC**</span>: "Request clearance for final, AM318"  
-    <span class="hotline">**MB ADC** -> **ML TCU**</span>: "AM318 cleared RNP 35R"  
-    <span class="hotline">**ML TCU** -> **MB ADC**</span>: "Cleared RNP 35R, AM318"

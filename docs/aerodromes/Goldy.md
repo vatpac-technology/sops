@@ -13,12 +13,7 @@
 | Gold Coast ATIS    |                        | 134.500          | YBCG_ATIS                        |
 
 ## Airspace
-CG ADC is responsible for the Class C airspace in the CG CTR `SFC` to `A015`.
-
-<figure markdown>
-![CG ADC Airspace](img/cgadc.png){ width="500" }
-  <figcaption>CG ADC Airspace</figcaption>
-</figure>
+CG ADC is not responsible for any airspace by default.
 
 ## Departures
 RNAV jet-aircraft planned via APAGI shall be issued the APAGI SID.  
@@ -33,7 +28,7 @@ Radar SID aircraft shall be cleared subject to the following conditions for nois
 | ------------------ | -------------- | ---------------- |
 |  **North**   |   Left (14)/Right (32) turn and then over water until `A030`    | Left (14)/Right (32) turn and then over water until `A030` |
 |  **East**   |   Left (14)/Right (32) turn and then over water until `A030`      | Left (14)/Right (32) turn and then over water until `A030` |
-|  **South** Jets   |   Minor right turn then over water until 5 DME   |    Over water until south of Kingscliff (CG130/7 NM) and `A050`    |
+|  **South** Jets   |   Minor right turn then over water until 5 DME   |    Over water until south of KCFF (CG130/7 NM) and `A050`    |
 |  **South** Non-Jets  |    left(14)/right(32) turn and then over water until `A030`     |Left (14)/Right (32) turn and then over water until `A030`  |
 
 
@@ -43,8 +38,8 @@ Aircraft shall be cleared subject to the following conditions:
 
 | Via             | 14      | 32       |
 | ------------------ | -------------- | ---------------- |
-|  **North** Jets   |  Not below `A050` until vectored over water to join final    | Via right circuit for 10 NM final or right base south of Point Danger  |
-|  **North** Non-Jets   |   Not below `A030` until vectored over water to join final   | Via right circuit for 10 NM final or right base south of Point Danger  |
+|  **North** Jets   |  Not below `A050` until vectored over water to join final    | Via right circuit for 10 NM final or right base south of DNGR  |
+|  **North** Non-Jets   |   Not below `A030` until vectored over water to join final   | Via right circuit for 10 NM final or right base south of DNGR  |
 |  **East**   |   Via LAMSI STAR or over water until final   |    Join 10 NM final   |
 |  **South** Jets   |    Via STAR or not below `A050` until over water to join final |  Via STAR to join final  |
 |  **South** Non-Jets   |    Via STAR or not below `A030` until over water to join final |  **IMC:** via STAR or **VMC:** Join left base for 2 NM final |
@@ -74,14 +69,6 @@ Aircraft tracking southbound should contact ADC at Robina Town Centre (ROT) for 
 Aircraft tracking northbound should contact ADC approaching Cudgen Lake for clearance.  
 Aircraft requiring to transit the CTR coastal will be subject to delays depending on traffic in the Gold Coast CTR.  
 
-## Airspace
-Tower airspace is defined as between `SFC` to `A015` 
-
-<figure markdown>
-![Gold Coast Tower Airspace](img/CGTWR.png){ width="700" }
-  <figcaption>Gold Coast Tower Airspace</figcaption>
-</figure>
-
 ## Helicopter Operations
 Local helicopter operations are conducted on the Western Grass which is the area contained by blue gable markers north of the VOR and west of the runway intersection. This is marked on the aerodrome chart as “HELO OPS”.
 !!! note
@@ -96,6 +83,8 @@ Circuits from the Western Grass are to be made in the same direction as the duty
   a) Departing from a runway nominated on the ATIS; and  
   b) Assigned the standard assignable level; and  
   c) Assigned a **Procedural** SID
+
+All other aircraft require a 'Next' call to CG TCU.
 
 !!! example
     <span class="hotline">**CG ADC** -> **BAC**</span>: "Next, CBN, runway 14"  

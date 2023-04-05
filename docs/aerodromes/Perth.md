@@ -16,16 +16,11 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
-PH ADC is responsible for the Class C airspace in the PH CTR `SFC` to `A015`.
-
-<figure markdown>
-![PH ADC Airspace](img/phadc.png){ width="700" }
-  <figcaption>PH ADC Airspace</figcaption>
-</figure>
+PH ADC is not responsible for any airspace by default.
 
 ## Runway Selection
 
-#### Southwest Plan
+### Southwest Plan
 - Any combination of Runway 21 and/or 24.
 - The ATIS shall notify `EXPECT ILS APPROACH`
 
@@ -41,7 +36,7 @@ PH ADC is responsible for the Class C airspace in the PH CTR `SFC` to `A015`.
 | GRENE | 24 |
 | SOLUS | 24 |
 
-#### Northeast Plan
+### Northeast Plan
 - Runway 03 for arrivals.
 - Runway 03 for departures via:  
     - AVNEX
@@ -54,18 +49,6 @@ PH ADC is responsible for the Class C airspace in the PH CTR `SFC` to `A015`.
 - In the following conditions, ATIS shall notify `EXPECT ILS APPROACH`
     - By night; and/or
     - Cloud base of `A032` or below
-
-
-## Airspace
-Tower airspace is defined as between `SFC` to `A015`, within the lateral limits:  
- a) 11DME PH; then  
- b) HKE; then  
- c) 3NM JT ARP. 
-
-<figure markdown>
-![Perth Tower Airspace](img/PHTWR.png){ width="700" }
-  <figcaption>Perth Tower Airspace</figcaption>
-</figure>
 
 ## Miscellaneous
 
@@ -93,6 +76,8 @@ When both Runway 03 and Runway 06 are nominated as departure runways, broadcast 
     a) Departing from a runway nominated on the ATIS; and  
     b) Assigned the standard assignable level; and  
     c) Assigned a **Procedural SID**
+
+All other aircraft require a 'Next' call to PH TCU.
 
 !!! example
     <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Next, ABC, runway 03"  

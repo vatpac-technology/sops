@@ -13,20 +13,12 @@
 | Cairns ATIS        |                | 131.100          | YBCS_ATIS                                |
 
 ## Airspace
-CS ADC is responsible for the Class C airspace in the CS CTR `SFC` to `A015`.
-
-<figure markdown>
-![CS ADC Airspace](img/csadc.png){ width="700" }
-  <figcaption>CS ADC Airspace</figcaption>
-</figure>
-
-## Taxiway Restrictions
-Taxiway’s A2 and A between A2 and A3 are not available to Aircraft above 7,000 kilograms. Taxiway A4 is not available to Aircraft above 90,000 kilograms. Taxiway Y is not available to aircraft above 10,000 kilograms.
+CS ADC is not responsible for any airspace by default.
 
 ### Trinity Release
-**Daytime Hours Only**
+During **Daytime Hours Only**, CS ADC may request the *Trinity Release* from CS TCU, consisting of the airspace displayed below.
 
-No coordination is required through Trinity Airspace for arriving aircraft in the sector Runway 15/33 extended centreline south clockwise CS 360R.  
+The Trinity Release may be used to facilitate low-level VFR and helicopter movements in CTA east of the 15/33 centreline.
 
 Departing aircraft shall be transferred to TCU after ADC no longer has separation requirements.  
 
@@ -34,6 +26,9 @@ Departing aircraft shall be transferred to TCU after ADC no longer has separatio
 ![Trinity Release](img/TRI.jpg){ width="700" }
   <figcaption>Trinity Airspace Release</figcaption>
 </figure>
+
+## Taxiway Restrictions
+Taxiways A2 and A between A2 and A3 are not available to Aircraft above 7,000 kilograms. Taxiway A4 is not available to Aircraft above 90,000 kilograms. Taxiway Y is not available to aircraft above 10,000 kilograms.
 
 ## Runway Selection
 The preferred Runway direction is Runway 15 
@@ -133,10 +128,12 @@ ACFT planning to enter the CS CTR between: *Mt Gorton*, CGF and Upolo Cay at `A0
 
 ### CS ADC / CS TCU
 #### Auto Release
-'Next' coordination is not required for aircraft that are:   
+'Next' coordination is **not** required for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  
   b) Assigned the standard assignable level; and  
   c) Assigned a **Procedural** SID
+
+All other aircraft require a 'Next' call to CS TCU.
 
 !!! example
     <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Next, HND151"  

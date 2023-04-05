@@ -19,12 +19,11 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
-The Brisbane TMA covers `SFC` to `F180`.
+The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, where it is `SFC` to `A065` in the North West, and `SFC` to `F115` in the South East.
 
 AF CTR reverts to Class G when **AF ADC** is offline, and is administered by the relevant BN TCU controller.  
   
 ### Airspace Structural Arrangements
-
 Pursuant to Section 3 of the [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), **“North”**/**”West”** positions shall assume the airspace of corresponding **“South”**/**”East”** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
 
 ## Parallel Runway Operations - Runway Selection
@@ -84,10 +83,10 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, **BAC*
 ## Coordination
 ### BN TCU / ENR
 #### Departures
-The Standard Assignable level for YBBN departures from BN TCU to **INL(All)** is the lower of `F180` or the `RFL`.  
-The Standard Assignable level for YBCG departures from BN TCU to **GOL/SDY** is the lower of `F120` or the `RFL`, and tracking via APAGI.  
-The Standard Assignable level for YBCG departures from BN TCU to **NSA/BUR/DOS** is the lower of `F180` or the `RFL`.  
-The Standard Assignable level for YBSU arrivals from BN TCU to **NSA** is `F130`, and tracking via ITIDE.  
+The Standard Assignable level for YBBN departures from BN TCU to **INL(All)** is the lower of `F180` or the `RFL`, and tracking via a **Procedural** SID terminus.  
+The Standard Assignable level for YBCG departures from BN TCU to **GOL/SDY** is the lower of `F120` or the `RFL`, and tracking via **APAGI**.  
+The Standard Assignable level for YBCG departures from BN TCU to **NSA/BUR/DOS** is the lower of `F180` or the `RFL`and tracking via a **Procedural** SID terminus.  
+The Standard Assignable level for YBSU arrivals from BN TCU to **NSA** is `F130`, and tracking via **ITIDE**.  
 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
@@ -104,54 +103,57 @@ All other aircraft must be voice coordinated to BN TCU.
 
 ### BN TCU / BN ADC
 #### Auto Release
-
-Auto Release shall be used for aircraft that are:    
-a) Departing from a runway nominated on the ATIS; and  
-b) Issued a Procedural SID; and   
-c) Assigned the standard assignable level.  
-
-Any aircraft that don't meet these criteria must be coordinated to BN TCU with a "Next" Call.  
-
-"Next" Coordination is a procedure where the BN ADC controller gives a heads-up to the BN TCU controller about an impending departure. The BN TCU controller will respond by assigning a heading to the aircraft, for the BN ADC controller to pass on with their takeoff clearance.
+'Next' coordination is **not** required from BN ADC for aircraft that are:   
+  a) Departing from a runway nominated on the ATIS (except during SODPROPS*); and  
+  b) Assigned the standard assignable level; and  
+  c) Assigned a **Procedural** SID  
 
 !!! example
     <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Next, ABC, runway 19L"  
     <span class="hotline">**BN TCU** -> **BN ADC**</span>: "ABC, Heading 030, Unrestricted"  
-    <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Heading 030 Unrestricted, ABC"
+    <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Heading 030, ABC"
+
+The Standard Assignable level from BN ADC to BN TCU is:  
+For Jets: `A060`  
+For Non-Jets: The lower of `A040` or the `RFL`
+
+### BN TCU / CG ADC
+#### Auto Release
+'Next' coordination is **not** required fro CG ADC for aircraft that are:   
+  a) Departing from a runway nominated on the ATIS; and  
+  b) Assigned the standard assignable level; and  
+  c) Assigned a **Procedural** SID
+
+!!! example
+    <span class="hotline">**CG ADC** -> **BAC**</span>: "Next, CBN, runway 14"  
+    <span class="hotline">**BAC** -> **CG ADC**</span>: "CBN, heading 030, unrestricted"  
+    <span class="hotline">**CG ADC** -> **BAC**</span>: "Heading 030, CBN"  
+
+The BN TCU controller can suspend/resume Auto Release at any time, with the concurrence of **CG ADC**.
+
+The Standard Assignable level from CG ADC to BN TCU is:  
+For Jets: `A060`  
+For Non-Jets: The lower of `A060` or the `RFL`
 
 ### BN TCU / AF ADC
-#### Departures
-Aircraft departing YBAF in to BN TCU Class C will be coordinated from **AF ADC** when ready for takeoff.
+### Departures
+When aircraft planned via a CTA departure are ready for takeoff and expected to depart imminently, **AF ADC** shall seek release of the aircraft through a 'Next' call.
 
 !!! example
-    <span class="hotline">**AF ADC** -> **BN TCU**</span>: "Next, XMM, 10L"  
+    <span class="hotline">**AF ADC** -> **BN TCU**</span>: "Next, XMM, Runway 10L"  
     <span class="hotline">**BN TCU** -> **AF ADC**</span>: "XMM, Unrestricted"  
-    <span class="hotline">**AF ADC** -> **BN TCU**</span>: "Unrestricted, XMM"
+    <span class="hotline">**AF ADC** -> **BN TCU**</span>: "XMM"
 
-The Standard assignable level for YBAF departures is the lower of `A040` or the `RFL`.
+The Standard Assignable level from AF ADC to BN TCU is the lower of `A040` or the `RFL`, any other level must be prior coordinated.
 
-#### Arrivals
-YBAF arrivals shall be coordinated to **AF ADC** from BN TCU prior to transfer of jurisdiction.  If an instrument approach is planned, include the estimated approach time.
+### Arrivals/Overfliers
+BN TCU will heads-up coordinate arrivals/overfliers from Class C to AF ADC prior to **5 mins** from the boundary.  
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to AF ADC, unless AF ADC nominates a restriction.  
+VFR aircraft require a level readback.
 
-!!! tip
-    Ensure the aircraft's FDR is up-to-date in order to give **AF ADC** maximum situational awareness of the traffic picture. (eg. if the aircraft is doing the RNP approach, ensure the FDR has been rerouted via the appropriate points)
-
-##### Visual Tracking
 !!! example
-    <span class="coldline">**BN TCU** -> **AF ADC**</span>: "Estimate, UJN via HUUGO time 02."  
-    <span class="coldline">**AF ADC** -> **BN TCU**</span>: "UJN"
-
-##### IAP Tracking
-!!! example
-    <span class="coldline">**BN TCU** -> **AF ADC**</span>: "Estimated approach time, UJN via RNP at time 59"  
-    <span class="coldline">**AF ADC** -> **BN TCU**</span>: "Via RNP, UJN"
-
-Given that the instrument approach procedure will terminate inside another controller's airspace, TCU controllers must obtain a clearance from AF ADC prior to issuing an approach clearance to an aircraft.  
-
-!!! example 
-    <span class="hotline">**BN TCU** -> **AF ADC**</span>: "Request clearance for final, UJN"  
-    <span class="hotline">**AF ADC** -> **BN TCU**</span>: "UJN cleared RNP-Z 10L"  
-    <span class="hotline">**BN TCU** -> **AF ADC**</span>: "Cleared RNP-Z 10L, UJN"
+    <span class="hotline">**BN TCU** -> **AF ADC**</span>: "via TVT for the visual approach, UJE"  
+    <span class="hotline">**AF ADC** -> **BN TCU**</span>: "UJE, visual approach"
 
 ### BN TCU / AMB TCU
 
@@ -172,12 +174,11 @@ All aircraft transiting from BN TCU to **AMB TCU** must be heads-up coordinated 
     <span class="hotline">**BN TCU** -> **AMB TCU**</span>: "A050, STAL13"  
 
 ### BN TCU / SU ADC
-
-As you may have noticed, BN TCU Class G shares a tiny border with **SU ADC**, however there are no SIDs, STARs, or airways through this gap. The only possible way for an aircraft to directly enter SU ADC airspace from BN TCU's jurisdiction, is from Class G, and as such, no coordination is required to **SU ADC**. However, ensure the aircraft is transferred to the ADC at least **10nm** prior to the boundary, to facilitate their airways clearance.
+BN TCU Class G shares a tiny border with **SU ADC**, however there are no SIDs, STARs, or airways through this gap. The only possible way for an aircraft to directly enter SU ADC airspace from BN TCU's jurisdiction, is from Class G, and as such, no coordination is required to **SU ADC**. However, ensure the aircraft is transferred to the ADC at least **10nm** prior to the boundary, to facilitate their airways clearance.
 
 <figure markdown>
 ![BN TCU / SU ADC Border](img/subntcu.png){ width="700" }
   <figcaption>BN TCU / SU ADC Border</figcaption>
 </figure>
 
-**SU ADC** coordination for arrivals and departures via the SID/STAR is handled by **INL** (or **NSA** when they are online).
+**SU ADC** coordination for arrivals and departures via the SID/STAR is handled by INL(NSA).

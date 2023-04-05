@@ -30,6 +30,8 @@ When **CFS ADC** is offline, CFS CTR (Class D `SFC` to `A045`) reverts to Class 
 ARL and MNN are responsible for initial sequencing, issuing STAR Clearances, and issuing initial descent for aircraft bound for YSSY, via BOREE and MEPIL respectively.  
 Jet aircraft for YSSY shall be assigned the **BOREE** STAR.  
 Non-jet aircraft for YSSY shall be assigned the **MEPIL** STAR.
+
+For Sequencing purposes, MEPIL and BOREE must be considered to be the same STAR. Practically, this means ARL must sequence at least a 2 minute gap between all YSSY arrivals, whether they are arriving via the same feeder fix or not.
 ### Cessnock (CNK) / Maitland (MLD)
 CNK and MLD are responsible for final sequencing for aircraft bound for YSSY, via BOREE and MEPIL respectively.
 ### Mudgee (MDE)
@@ -141,7 +143,7 @@ To put it bluntly, the R574 Restricted Area is quite large.
   <figcaption>R574 Restricted Area</figcaption>
 </figure>
 
-It also occupies a lot of airspace that would commonly be used by YSSY arrivals and departures. If **WLM TCU** is taking ownership of this airspace, it is good practice to negotiate an airspace release, whether that be a lateral or vertical portion of airspace (or a combination), to enable them to facilitate YSSY arrivals and departures with minimal impact.
+It also occupies a lot of airspace that would commonly be used by YSSY arrivals and departures. If YWLM military operations are taking ownership of this airspace, it is good practice to negotiate an airspace release, whether that be a lateral or vertical portion of airspace (or a combination), to enable them to facilitate YSSY arrivals and departures with minimal impact.
 
 ### OCN/MNN / TSN/HWE (Oceanic)
 As per [Standard coordination procedures](../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.

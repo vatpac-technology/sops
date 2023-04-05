@@ -120,10 +120,12 @@ Clearances for aircraft entering the CTR must be worded so as to leave no possib
 
 ## Coordination
 ### Departures
-'Next' coordination is not required to HBA for aircraft that are:   
+'Next' coordination is **not** required to HBA for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  
   b) Assigned the standard assignable level; and  
   c) Assigned a SID
+
+All other aircraft require a 'Next' call to HBA.
 
 !!! example
     <span class="hotline">**HB ADC** -> **HBA**</span>: "Next, ABC, runway 12"  
@@ -146,7 +148,9 @@ The Standard Assignable level from HB ADC to HBA is:
 For Jets: `A080`  
 For Non-Jets: The lower of `A045` or the `RFL`.
 ### Arrivals/Overfliers
-HBA will heads-up coordinate arrivals/overfliers from Class C to HB ADC. Aircraft will be cleared for the coordinated approach prior to handoff to HB ADC, unless HB ADC nominates a restriction.
+HBA will heads-up coordinate arrivals/overfliers from Class C to HB ADC.  
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to HB ADC, unless HB ADC nominates a restriction.  
+VFR aircraft require a level readback.
 
 !!! example
     <span class="hotline">**HBA** -> **HB ADC**</span>: "via BAVUR for the RNAV-W RWY 12, QJE1551"  

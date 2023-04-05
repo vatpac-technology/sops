@@ -15,13 +15,10 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
-
-Cairns TCU airspace is divided between Approach and Departure, and is dependent on the Cairns Duty Runway.  
-Approach is responsible for Class C airspace east of the boundary.  
-Departures is responsible for Class C airspace west of the boundary and Class G airspace within the Cairns TMA.
+The Vertical limits of the CS TCU are `SFC` to `F180`.  
+CS2 is responsible for Class G airspace within the Cairns TMA.
 
 ### Airspace Division
-
 The divisions of the airspace between **CS1** and **CS2** change based on the Runway Mode.
 
 #### Runway 15
@@ -114,23 +111,17 @@ The following speeds apply from the Feeder Fix:
 
 ### CS ADC / CS TCU
 #### Departures
-
-Auto Release is not Available in Cairns  
-
-All Departing Aircraft must be coordinated to CS TCU with a "Next" Call
+'Next' coordination is **not** required for aircraft that are:   
+  a) Departing from a runway nominated on the ATIS; and  
+  b) Assigned the standard assignable level; and  
+  c) Assigned a **Procedural** SID
 
 !!! example
     <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Next, ABC, runway 15"  
     <span class="hotline">**CS TCU** -> **CS ADC**</span>: "ABC, Heading 030, Unrestricted"  
     <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Heading 030, Unrestriced, ABC"
 
-#### Seperation
-CS ADC shall notify Approach and Departure when:  
-a) ADC is unable to visually separate traffic;  
-b) When ADC is able to resume visually separating traffic.   
-
 #### Missed Approach
-
 When weather conditions prevent the application of visual separation between a departure and a missed approach by tower:  
 a) ADC must advise TCU  
 b) Approach must limit departure headings to the following:  
@@ -141,7 +132,6 @@ b) Approach must limit departure headings to the following:
 | 33          | - | 330°  |
 
 ### CS ACD / CS TCU
-
 The controller assuming responsibility of **CS ACD** shall give heads-up coordination to the relevant CS TCU controller prior to the issue of the following clearances:  
 a) VFR Departures  
 b) Aircraft using a runway not on the ATIS
@@ -155,23 +145,20 @@ b) Aircraft using a runway not on the ATIS
     **ABC**: "Cleared for a Northbound VFR Coastal departure, A035, 3601, ABC"
 
 ### CS FLW / CS ADC
-
 FLW must advise ADC of any sequence changes within 36 Miles CS.  
 FLW must advise ADC of aircraft sequenced for Runway 30.  
 All requests for non-duty runway arrivals must be approved by ADC.
 
 ### CS TCU / ENR
 #### Departures
-
-Standard assignable levels from ENR to CS TCU are as follows:  
-All routes: `F180` or the `RFL`  
-
 Voiceless coordination is in place for any route (including SID and random direct tracks) to SWIFT, provided that the aircraft is:
 - Assigned the standard assignable level;  
 - Departed Cairns; and  
 - Is a Jet aircraft 
 
-Any aircraft **not** assigned the standard assignable level, must be **Heads-up** Coordinated to the relevant ENR sector as soon as practical.
+The Standard assignable level from CS TCU to ENR is the lower of `F180` or the `RFL`.
+
+Any aircraft **not** meeting the above criteria, must be **Heads-up** Coordinated to ENR.
 
 !!! example
     <span class="hotline">**CS TCU** -> **KEN**</span>: "JST789, with your concurrence, will be assigned F160, for my separation with ANZ12"  

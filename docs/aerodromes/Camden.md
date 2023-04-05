@@ -108,7 +108,7 @@ CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a
     <span class="hotline">**CN ADC** -> **SRI**</span>: "Traffic is MEH tracking SHL RAKSO SBKWI A035, RAKSO at 35"  
     
     **CN ADC:** "MHQ, traffic is MEH, IFR AC50 tracking SHL RAKSO SBKWI at A035, estimating RAKSO at time 35, runway 06, cleared for takeoff"  
-    **MHQ:** "Copy MEH, runway 06, cleared for takeoff, MHQ"
+    **MHQ:** "Runway 06, cleared for takeoff, MHQ"
       
     **CN ADC:** "MHQ, contact Sydney Centre on 124.55"  
 
