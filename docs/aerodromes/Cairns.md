@@ -13,7 +13,13 @@
 | Cairns ATIS        |                | 131.100          | YBCS_ATIS                                |
 
 ## Airspace
-CS ADC is not responsible for any airspace by default.
+CS ADC is responsible for the Class C Airspace within the CS CTR `SFC` to `A010`.
+
+<figure markdown>
+![CS ADC Airspace](img/csadc.png){ width="700" }
+  <figcaption>CS ADC Airspace</figcaption>
+</figure>
+
 
 ### Trinity Release
 During **Daytime Hours Only**, CS ADC may request the *Trinity Release* from CS TCU, consisting of the airspace displayed below.

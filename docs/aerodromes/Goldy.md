@@ -13,7 +13,12 @@
 | Gold Coast ATIS    |                        | 134.500          | YBCG_ATIS                        |
 
 ## Airspace
-CG ADC is not responsible for any airspace by default.
+CG ADC is responsible for the Class C Airspace within the CG CTR `SFC` to `A015`.
+
+<figure markdown>
+![CG ADC Airspace](img/CGTWR.png){ width="700" }
+  <figcaption>CG ADC Airspace</figcaption>
+</figure>
 
 ## Departures
 RNAV jet-aircraft planned via APAGI shall be issued the APAGI SID.  
