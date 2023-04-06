@@ -24,7 +24,7 @@
 </figure>
 
 ## Airspace
-SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005`.
+SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005` as shown below.
 
 <figure markdown>
 ![SY ADC Airspace](img/SYTWR.png){ width="700" }
