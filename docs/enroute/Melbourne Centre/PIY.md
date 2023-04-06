@@ -50,7 +50,7 @@ The Standard Assignable level from PIY(All) to PH TCU is `A090` and assigned the
 
 All other aircraft must be voice coordinated to PH TCU prior to **20nm** from the boundary.
 
-The Standard Assignable level from PH TCU to PIY(All) is the lower of `F240` or the `RFL`.
+The Standard Assignable level from PH TCU to PIY(All) is the lower of `F180` or the `RFL`.
 
 Refer to [Perth TCU Airspace Division](../../../terminal/perth/#airspace-division) for information on airspace divisions when **PHD** is online.
 

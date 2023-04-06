@@ -12,7 +12,12 @@
 | Canberra ATIS        |                | 127.450         | YSCB_ATIS                                |
 
 ## Airspace
-CB ADC is not responsible for any airspace by default.
+CB ADC is responsible for the Class C Airspace within the CB CTR `SFC` to `A035`.
+
+<figure markdown>
+![CB ADC Airspace](img/CBTWR.png){ width="700" }
+  <figcaption>CB ADC Airspace</figcaption>
+</figure>
 
 ## SID Selection
 **Jet** Aircraft planned via **CULIN**, **TANTA**, **WG**, **HOWLY**, **NONUP** or **AVBEG** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
