@@ -24,7 +24,7 @@
 The Vertical limits of the SY TCU are `SFC` to `F280`.  
 SY TCU is responsible for the Sydney TMA, except:  
 
-- SY CTR `SFC` to `A005`  
+- SY CTR `SFC` to `A005` as outlined [here](../../aerodromes/sydney/#airspace)
 - R470 Restricted Area, when RIC ADC is online (or as negotiated)  
 - BK CTR reverts to Class G when **BK ADC** is offline, and is administered by the relevant SY TCU controller.    
 - CN CTR reverts to Class G when **CN ADC** is offline, and is administered by the relevant SY TCU controller.  
