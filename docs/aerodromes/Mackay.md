@@ -30,13 +30,15 @@ A 'next' call is made for all aircraft when they are next to depart. MK ADC must
 !!! example
     <span class="hotline">**MK ADC** -> **MKA**</span>: "Next, TFX113"  
     <span class="hotline">**MKA** -> **MK ADC**</span>: "TFX113, Unrestricted"  
-    <span class="hotline">**MK ADC** -> **MKA**</span>: "Unrestricted, TFX113"
+    <span class="hotline">**MK ADC** -> **MKA**</span>: "TFX113"
 
 The Standard Assignable level from MK ADC to MKA is the lower of `A060` or the `RFL`, any other level must be prior coordinated.
 
-### Arrivals
-COR TCU will coordinate the sequence to MK ADC
+### Arrivals/Overfliers
+MKA will heads-up coordinate arrivals/overfliers from Class C to MK ADC.  
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to MK ADC, unless MK ADC nominates a restriction.  
+VFR aircraft require a level readback.
 
 !!! example
-    <span class="coldline">**MKA** -> **MK ADC**</span>: "New Sequence of 2. Via LEDUS, VOZ1164, Number 1. JST453, Number 2”  
-    <span class="coldline">**MK ADC** -> **MKA**</span>: "VOZ1164, Number 1. JST453, Number 2"  
+    <span class="hotline">**MKA** -> **MK ADC**</span>: "Via BAVAM for the RNP RWY 32, VOZ1164”  
+    <span class="hotline">**MK ADC** -> **MKA**</span>: "VOZ1164, RNP RWY 32"  

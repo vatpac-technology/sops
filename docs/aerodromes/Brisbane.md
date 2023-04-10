@@ -19,12 +19,7 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
-BN ADC is responsible for the Class C airspace in the BN CTR `SFC` to `A007`.
-
-<figure markdown>
-![BN ADC Airspace](img/bnadc.png){ width="700" }
-  <figcaption>BN ADC Airspace</figcaption>
-</figure>
+BN ADC is not responsible for any airspace by default.
 
 ## Maneuvering Area Responsibility
 
@@ -110,16 +105,19 @@ The ATIS shall always have `EXP INST APCH` as the approach type. Visual Approach
 
 ## Coordination
 ### Auto Release
-'Next' coordination is required to BN TCU for aircraft that are:   
-  a) Departing from a runway not nominated on the ATIS; or  
-  b) Departing during SODPROPS runway mode; or
-  c) Not assigned the standard assignable level; or  
-  d) Not assigned a **Procedural** SID
+'Next' coordination is **not** required to BN TCU for aircraft that are:   
+  a) Departing from a runway nominated on the ATIS (except during SODPROPS*); and  
+  b) Assigned the standard assignable level; and  
+  c) Assigned a **Procedural** SID  
+
+*Auto Release is not available during SODPROPS runway mode. All aircraft must be coordinated from BN ADC to BN TCU.
+
+All other aircraft require a 'Next' call to BN TCU.
 
 !!! example
     <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Next, QLK404D, Runway 19L"  
     <span class="hotline">**BN TCU** -> **BN ADC**</span>: "QLK404D, heading 160, unrestricted"  
-    <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Heading 160 unrestricted, QLK404D"   
+    <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Heading 160, QLK404D"   
 
     **BN ADC**: "QLK404D, Assigned heading Left 160, Runway 19L, Cleared for Takeoff"  
     **QLK404D**: "Left heading 160, Runway 19L, Cleared for Takeoff, QLK404D"

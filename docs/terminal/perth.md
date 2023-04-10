@@ -13,7 +13,7 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
-The Perth TCU spans a 36nm Radius around PH from `SFC` to `F245`.   
+The Vertical limits of the PH TCU are `SFC` to `F245`.     
 PH TCU is responsible for the Perth TCU, except:      
 R155A & B when **PEA TCU** is online from `A020` to `F160`. When R155A is active to `F160`, PH TCU airspace above R155A shall be released to **PEA TCU**  
 
@@ -67,9 +67,7 @@ The divisions of the airspace between **PHA**, and **PHD** change based on the R
 
 ### PH TCU / ENR
 #### Departures
-Voiceless coordination is in place from PH TCU to PIY (and subsectors) for aircraft tracking via a SID and:  
-Planned at or above `F240`: `Assigned F240`  
-Planned below `F240`: `Assigned the RFL`  
+Voiceless coordination is in place from PH TCU to PIY (and subsectors) for aircraft assigned the lower of `F180` or the `RFL`, and tracking via a Procedural SID terminus.
 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
@@ -106,50 +104,26 @@ All aircraft transiting between internal PH TCU boundaries must be heads-up coor
     <span class="hotline">**PHA** -> **PHD**</span>: "via PH, FD123"  
     <span class="hotline">**PHD** -> **PHA**</span>: "FD123, A090"   
 
-### JT SMC / PH TCU
+### PH TCU / JT ADC
 
-#### Taxi Call
-
-For aircraft planned into the overlying class C airspace, an airways clearance must be coordinated with the TCU controller responsible for Perth Approach or Departures (dependant on runway configuation at PH).  This is achieved by performing 'Taxi' coordination and then relaying the clearance to the aircraft when they are ready in the run up bays.
-
-!!! example
-    <span class="coldline">**JT SMC** -> **PH TCU**</span>: "Taxis FD420, Kalbarri, runway 24R"  
-    <span class="coldline">**PH TCU** -> **PH SMC**</span>: "FD420, cleared to Kalbarri via RECKS flight planned route, MANTL3 depature, climb via SID A030, squawk 3342"  
-    <span class="coldline">**JT SMC** -> **PH TCU**</span>: "Cleared to Kalbarri via RECKS flight planned route, MANTL3 depature, climb via SID A030, squawk 3342, FD420" 
-
-
-### JT ADC / PH TCU
-
-#### Next Call
-
-When the aircraft is ready for departure, Tower will coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
+### Next Call
+When the aircraft is ready for departure, JT ADC will coordinate with the relevant PH TCU controller above them for permission to release the aircraft into their CTA.
 
 !!! example
     <span class="hotline">**JT ADC** -> **PH TCU**</span>: "Next, FD420, runway 24R"  
-    <span class="hotline">**PH TCU** -> **JT ADC**</span>: "FD420, unrestricted"
+    <span class="hotline">**PH TCU** -> **JT ADC**</span>: "FD420, Unrestricted"  
+    <span class="hotline">**JT ADC** -> **PH TCU**</span>: "FD420"  
 
-### PH TCU / JT ADC
+The Standard Assignable level from JT ADC to PH TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
 
-#### Arrival Coordination
+### Arrivals/Overfliers
+PH TCU will heads-up coordinate arrivals/overfliers from Class C to JT ADC prior to **5 mins** from the boundary.  
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to JT ADC, unless JT ADC nominates a restriction.  
+VFR aircraft require a level readback.
 
-PH TCU will coordinate with JT ADC for incoming IFR arrivals on either Visual Tracking, RNAV or NDB approaches.
-
-##### Visual Tracking
 !!! example
-    <span class="coldline">**PH TCU** -> **JT ADC**</span>: "Estimate, UJN via CNB time 02."  
-    <span class="coldline">**JT ADC** -> **PH TCU**</span>: "UJN"
-
-##### IAP Tracking
-!!! example
-    <span class="coldline">**PH TCU** -> **JT ADC**</span>: "Estimated approach time, FD416 via RNP at time 59"  
-    <span class="coldline">**JT ADC** -> **PH TCU**</span>: "Via RNP, FD416"
-
-Given that the instrument approach procedure will terminate inside another controller's airspace, TCU controllers must obtain a clearance from JT ADC prior to issuing an approach clearance to an aircraft.  
-
-!!! example 
-    <span class="hotline">**PH TCU** -> **JT ADC**</span>: "Request clearance for final, FD416"  
-    <span class="hotline">**JT ADC** -> **PH TCU**</span>: "FD416 cleared RNAV-Z 24R"  
-    <span class="hotline">**PH TCU** -> **JT ADC**</span>: "Cleared RNAV-Z 24R, UJN" 
+    <span class="hotline">**PH TCU** -> **JT ADC**</span>: "via RNAV-Z RWY 06L, FD416, circling to land RWY 24R"  
+    <span class="hotline">**JT ADC** -> **PH TCU**</span>: "FD416, RNAV-Z RWY 06L with a circle to land RWY 24R"  
 
 ### PH TCU / PEA ADC
 Reserved.

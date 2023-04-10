@@ -14,19 +14,53 @@
 | Adelaide ATIS        |                | 134.500         | YPAD_ATIS                                |
 
 ## Airspace
-AD ADC is responsible for the Class C airspace in the AD CTR `SFC` to `A015`.
+AD ADC is not responsible for any airspace by default.
 
-<figure markdown>
-![AD ADC Airspace](img/adadc.png){ width="700" }
-  <figcaption>AD ADC Airspace</figcaption>
-</figure>
-
-### Maneuvering Area Responsibility
+## Maneuvering Area Responsibility
 
 <figure markdown>
 ![YPAD Maneuvering Area](img/ypad_maneuvring_area.png){ width="500" }
   <figcaption>YPAD Maneuvering Area</figcaption>
 </figure>
+
+!!! note
+    Where an aircraft will be taxiing via multiple taxiways of the same lettering (e.g. A6, then A5, then A4, etc), refer to the taxiway by only the letter.  
+
+    E.g. an aircraft taxiing from the terminal to runway 05 could be instructed to taxi "*via Alpha, cross runway 30, Foxtrot, to holding point Foxtrot Six runway 05*".
+
+## Scenic Coastal Flights
+VFR aircraft may transit the control zone tracking coastal north or southbound, generally between `A005` and `A015`. **AD ADC** is responsible for ensuring these aircraft remain separated from aircraft arriving/departing at YPAD.  
+
+The TCU controller will coordinate these aircraft with ADC prior to issuing airways clearance.  ADC should consider any possible conflict from arriving or departing aircraft at YPAD (including the missed approach to runway 23), and impose a clearance limit on coastal aircraft where conflict exists.  The clearance limits in the table below will ensure that coastal aircraft remain clear of the runway 05 approach path and runway 23 departure/missed approach path. 
+
+| Direction of Travel | Clearance Limit |
+| --- | --- |
+| Northbound | BTJ |
+| Southbound | HNLY |
+
+<figure markdown>
+![Clearance Limits](img/adclearancelimits.png){ width="500" }
+  <figcaption>Clearance Limits (red) and Approach/Departure Path (green)</figcaption>
+</figure>
+
+!!! example
+    *CNY is a VFR Cessna 172 tracking coastal northbound, approaching PNL. They have contacted AD TCU for clearance.*    
+    <span class="hotline">**TCU** -> **ADC**</span>: "South of PNL, CNY, for coastal northbound, 1500ft"  
+    <span class="hotline">**ADC** -> **TCU**</span>: "CNY clearance limit BTJ"  
+    <span class="hotline">**TCU** -> **ADC**</span>: "Clearance limit BTJ, CNY"
+
+The TCU will issue airways clearance, then transfer the aircraft to ADC.  If a delay is expected at the clearance limit, instruct the aircraft to hold there.  Once the conflict is no longer a threat, cancel the clearance limit and issue onwards clearance tracking coastal north/southbound at the desired level.
+
+!!! example 
+    **CNY:** "Adelaide Tower, CNY"  
+    **AD ADC:** "CNY, Adelaide Tower, hold at the clearance limit, expect onwards clearance in 5 minutes due inbound traffic"  
+    **CNY:** "Hold at the clearance limit, CNY"  
+
+    *Once conflict with YPAD traffic no longer exists:*  
+    **AD ADC:** "CNY, cancel clearance limit, track coastal northbound, 1500ft"  
+    **CNY:** "Cancel clearance limit, track coastal northbound, 1500ft, CNY"
+
+If the aircraft will be exiting the CTR back into class C CTA, instruct them to contact **AD TCU**. Otherwise, as they approach the lateral limit of the CTR, cancel their identification & control services and issue frequency change approval.
 
 ## Runway Modes
 Single runway operations using Runway 05 or 23 (whichever is more favoured by the winds) are preferred at YPAD. However, when strong winds favour Runway 12 or 30, Non-Jets (Runway 12/30 is too short for most jets) would benefit from having that runway available to them as well. As a general rule of thumb, if the Crosswind on Runway 05/23 exceeds **20kts**, the more favourable of Runway 12 or 30 shall be in use as well as the more favourable of Runway 05 or 23.
@@ -35,8 +69,11 @@ Single runway operations using Runway 05 or 23 (whichever is more favoured by th
     METAR: `YPAD 210600Z 15030KT 9999 FEW030 21/11 Q1002 RMK RF00.0/000.0`  
     ATIS: `RUNWAY 23 AND 12 FOR ARRIVALS AND DEPARTURES`
 
+!!! note
+    Where low traffic levels and relevant meteorological conditions permit, non-jet arrivals from the west may be offered runway 12.
+
 ### Runway 23 Arrivals
-With **Runway 23** in use for arrivals and the cloud base above `A024` but below `A043`, the APCH field shall include:  
+With **Runway 23** in use for arrivals and the cloud base above `A024` but below `A043`, the ATIS APCH field shall include:  
 `ACFT FM THE EAST AND JET ACFT FM THE WEST EXP INSTR APCH`  
 
 This allows aircraft on the Victor STAR from the west to join a visual right base without the need to conduct an instrument approach, while keeping aircraft from the east clear of the higher terrain near the Adelaide Hills.
@@ -46,7 +83,6 @@ This allows aircraft on the Victor STAR from the west to join a visual right bas
 Between the hours of 1330-2030 UTC (1230-1930 UTC HDS), AD ADC may elect to simulate Curfew operations, ie: **Runway 23 for arrivals, Runway 05 for departures**. When this is in operation, the ATIS shall include `CURFEW IN OPERATION UNTIL (time) ZULU`.
 
 ## SID Selection
-
 Jet Aircraft planned via **PANKI**, **BENDO**, **GILES**, **HAWKY**, **ORBUN**. or **SEDAN**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
 !!! example
@@ -62,15 +98,17 @@ Shall be assigned the **Radar SID**.
 
 ## Coordination
 ### Auto Release
-'Next' coordination is required to AD TCU for aircraft that are:   
-  a) Departing from a runway not nominated on the ATIS; or  
-  b) Not assigned the standard assignable level; or  
-  c) Not assigned a **Procedural** SID
+'Next' coordination is **not** required to AD TCU for aircraft that are:   
+  a) Departing from a runway nominated on the ATIS; and  
+  b) Assigned the standard assignable level; and  
+  c) Assigned a **Procedural** SID
+
+All other aircraft require a 'Next' call to AD TCU.
 
 !!! example
     <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Next, RXA4362, Runway 23"  
     <span class="hotline">**AD TCU** -> **AD ADC**</span>: "RXA4362, Track Extended Centreline, Unrestricted"  
-    <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Track Extended Centreline, Unrestricted, RXA4362"  
+    <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Track Extended Centreline, RXA4362"  
     
     **AD ADC**: "RXA4362, Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff"  
     **RXA4362**: "Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff, RXA4362"
@@ -82,4 +120,20 @@ For Jets: `A050`
 For Non-Jets: The lower of `A040` or the `RFL`
 
 ### Departures Controller
-Refer to [Adelaide TCU Airspace Division](../../terminal/adelaide/#airspace-division) for information on airspace divisions when **AAE** is online.
+When **AAE** is online, the AD TCU airspace is split down the 05/23 Runway Centreline. As such, departing aircraft shall be instructed to contact the departures controller corresponding to the direction of turn of the aircraft after departure
+
+| Tracking via            | Departure Runway      | Departures Controller        |
+| ------------------ | -------------- | ---------------- |
+| VILAD   | 05/23/12   | AAE         |
+| SEDAN    | 05/23/12   | AAE         |
+| PANKI    | 05/23/12   | AAE         |
+| BENDO     | 05/23/12 | AAE          | 
+| ALBUT    | 05/23/12  | AAE          | 
+| EEMUE    | 05/23/30  | AAW          | 
+| GILES   | 05/23/30  | AAW          | 
+| YORKE    | 05/23/30  | AAW          | 
+| HAWKY    | 05/23/30  | AAW          | 
+| HOLIT    | 05/23/30  | AAW          | 
+| ORBUN    | 05/23/30  | AAW          | 
+| All   | 12  | AAE          | 
+| All   | 30  | AAW          | 

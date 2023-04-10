@@ -43,14 +43,14 @@ A 'next' call is made for all aircraft when they are next to depart. HM ADC must
 !!! example
     <span class="hotline">**HM ADC** -> **SWY**</span>: "Next, QFA797"  
     <span class="hotline">**SWY** -> **HM ADC**</span>: "QFA797, Unrestricted"  
-    <span class="hotline">**HM ADC** -> **SWY**</span>: "Unrestricted, QFA797"
+    <span class="hotline">**HM ADC** -> **SWY**</span>: "QFA797"
 
 The Standard Assignable level from HM ADC to KEN(SWY) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
-### Arrivals
-KEN(SWY) will coordinate the sequence to HM ADC.
+### Arrivals/Overfliers
+KEN(SWY) will heads-up coordinate all arrivals/overfliers to HM ADC
 
 !!! example
-    <span class="coldline">**SWY** -> **HM ADC**</span>: "New Sequence of 2. Via OPOSI for RNP U RWY 32, JST848, Number 1. Via SWIFT, UTY551, Number 2”  
-    <span class="coldline">**HM ADC** -> **SWY**</span>: "JST848, Number 1. UTY551, Number 2"  
+    <span class="hotline">**SWY** -> **HM ADC**</span>: "Via OPOSI for the RNP-U RWY 32, JST848”  
+    <span class="hotline">**HM ADC** -> **SWY**</span>: "JST848"  
 
 The Standard Assignable level from KEN(SWY) to HM ADC is `A060`, any other level must be prior coordinated.

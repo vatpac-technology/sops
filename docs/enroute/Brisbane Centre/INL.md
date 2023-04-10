@@ -63,7 +63,6 @@ Refer to [Brisbane TCU Airspace Division](../../../terminal/brisbane/operations/
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 ### INL/DOS/GOL/SDY/BUR/NSA/KPL Internal
-
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 That being said, it is *advised* that INL(All) give **Heads-up Coordination** to the relevant sector prior to **20nm** from the boundary in the following scenarios:  
@@ -81,28 +80,28 @@ Departures from YBSU in to NSA Class C will be coordinated when ready for depart
 !!! example
     <span class="hotline">**SU ADC** -> **NSA**</span>: "Next, BNZ123"  
     <span class="hotline">**NSA** -> **SU ADC**</span>: "BNZ123, Unrestricted"  
-    <span class="hotline">**SU ADC** -> **NSA**</span>: "Unrestricted, BNZ123"
+    <span class="hotline">**SU ADC** -> **NSA**</span>: "BNZ123"
 
 The Standard Assignable level from **SU ADC** to NSA is the lower of `A050` or the `RFL`.
 
 #### Arrivals
-The Standard Assignable level from NSA to **SU ADC** is `A060`. Any aircraft that will not be assigned the Standard Assignable level must have that level concurred by **SU ADC**.  
-NSA will ensure all YBSU arrivals have been assigned a STAR, unless the pilot is unable to accept one.  
-YBSU arrivals shall be coordinated to **SU ADC** from NSA prior to transfer of jurisdiction.
+NSA must ensure all YBSU arrivals have been assigned a STAR, unless the pilot is unable to accept one.  
+YBSU arrivals shall be coordinated to **SU ADC** from NSA prior to **5 mins** from the boundary.
 
 !!! example
-    <span class="coldline">**NSA** -> **SU ADC**</span>: "JST731, via ITIDE2W Arrival Runway 31"  
-    <span class="coldline">**SU ADC** -> **NSA**</span>: "JST731"
+    <span class="hotline">**NSA** -> **SU ADC**</span>: "via ITIDE2W Arrival, JST731"  
+    <span class="hotline">**SU ADC** -> **NSA**</span>: "JST731"
+
+The Standard Assignable level from NSA to **SU ADC** is `A060`, any other level must be prior coordinated.
 
 #### Overfliers
 Any aircraft that will enter SU ADC airspace, and not landing at YBSU, must be Heads-up coordinated prior to **5 mins** from the boundary.
 
 !!! example
-    <span class="hotline">**NSA** -> **SU ADC**</span>: "via HOLIS, CXB"  
+    <span class="hotline">**NSA** -> **SU ADC**</span>: "via HOLIS, CXB, Overflier"  
     <span class="hotline">**SU ADC** -> **NSA**</span>: "CXB, A025"
 
 ### KPL / RKA
-
 The Standard assignable level from KPL to **RKA** is `A070`, and assigned the ABVAS STAR or DADBO STAR.
 
 All other aircraft must be voice coordinated to **RKA** prior to **20nm** from the boundary.
@@ -118,26 +117,27 @@ Departures from YCFS in to INL Class C will be coordinated when ready for depart
 !!! example 
     <span class="hotline">**CFS ADC** -> **INL**</span>: "Next, BNZ185"  
     <span class="hotline">**INL** -> **CFS ADC**</span>: "BNZ185, Unrestricted"  
-    <span class="hotline">**CFS ADC** -> **INL**</span>: "Unrestricted, BNZ185"  
+    <span class="hotline">**CFS ADC** -> **INL**</span>: "BNZ185"  
 
 The Standard Assignable level from **CFS ADC** to INL is the lower of `A070` or the `RFL`.
 
 #### Arrivals
-The Standard Assignable level from INL to **CFS ADC** is `A080`. Any aircraft that will not be assigned the Standard Assignable level must have that level concurred by **CFS ADC**.  
-YCFS arrivals shall be coordinated to **CFS ADC** from INL prior to transfer of jurisdiction.
+YCFS arrivals shall be coordinated to **CFS ADC** from INL prior to **5 mins** from the boundary.
 
 !!! example
     <span class="hotline">**INL** -> **CFS ADC**</span>: "via IDNER, VET"  
     <span class="hotline">**CFS ADC** -> **INL**</span>: "VET"  
 
+The Standard Assignable level from INL to **CFS ADC** is `A080`, any other level must be prior coordinated.
+
 #### Overfliers
 Any aircraft that will enter CFS ADC airspace, and not landing at YCFS, must be Heads-up coordinated prior to **5 mins** from the boundary.
 
 !!! example
-    <span class="hotline">**INL** -> **CFS ADC**</span>: "via CFS, XFC"  
+    <span class="hotline">**INL** -> **CFS ADC**</span>: "via CFS, XFC, Overflier"  
     <span class="hotline">**CFS ADC** -> **INL**</span>: "XFC, A040"
 
-### GOL/DOS/BUR / OK TCU and AMB TCU
+### GOL,DOS,BUR / OK TCU, AMB TCU
 #### Airspace
 By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas, and **AMB TCU** owns the airspace within the **R625A-D** restricted areas, unless stated otherwise by ad-hoc release or NOTAM.
 
@@ -157,4 +157,4 @@ All aircraft transiting from GOL/DOS/BUR to **OK TCU** and **AMB TCU** must be h
     <span class="hotline">**AMB TCU** -> **GOL**</span>: "PUMA11, A080"  
 
 ### INL/SDY/KPL / TSN(FLD/HWE) (Oceanic)
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Voice coordinate estimate and level prior to **15 mins** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
