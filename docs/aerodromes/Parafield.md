@@ -40,11 +40,10 @@ Circuits to be flown at `A010`
 | 26R  | Right  | -     |
 
 ## VFR Inbound Procedures
-
 | VFR Approach Point | RWYs 03 | RWYs 21 | RWYs 08 | RWYs 26 |
 | ----------------| --------- | ---------- | ----- | ----- |
-| Outer Harbour   | Join base (or downwind) RWY 21R | Join base (or downwind) RWY 03L | Join final RWY 08L| Join downwind RWY 26R | 
-| Dam Wall | Join downwind RWY 03R | Join 3NM final RWY 21L| Join downwind RWY 08L | Join final RWY 26R |
+| OHB   | Join base (or downwind) RWY 21R | Join base (or downwind) RWY 03L | Join final RWY 08L| Join downwind RWY 26R | 
+| DMW | Join downwind RWY 03R | Join 3NM final RWY 21L| Join downwind RWY 08L | Join final RWY 26R |
 
 !!! note
     Visually monitor all aircraft to ensure tracking South of Bolivar Strobe, to ensure aircraft remain outside of Edinburgh CTR. 
@@ -54,7 +53,6 @@ Circuits to be flown at `A010`
 
 ## ATIS
 ### Operational Info
-
 ATIS broadcast **BY DAY** shall follow the format:   
 `RWY 21R (OR 03L) FOR ARRS & DEPS WEST, RWY 21L (OR 03R) ARRS & DEPS EAST`  
 OR   
@@ -64,42 +62,29 @@ ATIS broadcast **BY NIGHT** shall follow the format:
 `RWY 21R (OR 03L) FOR ALL OPERATIONS`  
 
 ### Approach Expectation
-
 The APCH field should include `EXP INST APCH` when:   
   - the ceiling is at or below `A020`; or  
   - visibility is less than 5000m  
 
 ## Coordination
-### PF SMC / AD TCU
-#### Taxi Call
-For aircraft planned via a CTA departure into Adelaide's class C airspace, **PF SMC** will coordinate a clearance for the aircraft with the relevant Adelaide TCU position.  
-Whilst the aircraft is taxiing, **PF SMC** will perform TAXI coordination with Adelaide TCU, who will issue an airways clearance for Parafield Tower to relay to the aircraft.  Aircraft planned above `A030` will be cleared initially to `A030`.
-  
-!!! example
-    <span class="coldline">**PF SMC** -> **AD TCU**</span>: "Taxis, XMM for YSBK, 03L”  
-    <span class="coldline">**AD TCU** -> **PF SMC**</span>: “XMM, cleared to YSBK via AD, flight planned route, PF1 Departure, climb via SID A030, squawk 1427”  
-    <span class="coldline">**PF SMC** -> **AD TCU**</span>: “Cleared to YSBK via AD, flight planned route, PF1 Departure, climb via SID A030, squawk 1427, XMM”  
-
-### AD TCU / PF ADC
-
-#### Next Call
-When aircraft planned via a CTA departure are ready for takeoff and expected to depart imminently, **PF ADC** shall seek release of the aircraft through a 'Next' call.
+### Departures
+When the aircraft is ready for departure, PF ADC will coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
 
 !!! example
-    <span class="hotline">**PF ADC** -> **AD TCU**</span>: "Next, XMM, 03L"  
-    <span class="hotline">**AD TCU** -> **PF ADC**</span>: "XMM, Heading 020, unrestricted"  
-    <span class="hotline">**PF ADC** -> **AD TCU**</span>: "Heading 020, unrestricted, XMM"
+    <span class="hotline">**PF ADC** -> **AAW**</span>: "Next, XMM, 03L"  
+    <span class="hotline">**AAW** -> **PF ADC**</span>: "XMM, Heading 020, unrestricted"  
+    <span class="hotline">**PF ADC** -> **AAW**</span>: "Heading 020, XMM"
 
 The Standard Assignable level from PF ADC to AD TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
-#### Arrivals
-AD TCU will coordinate with PF ADC for incoming IFR arrivals on either Visual Tracking or RNP approaches.  
-If tracking visually, AD TCU must coordinate the level assignment with the estimate for aircraft arriving directly from Class C.  
-PF ADC must not alter an aircraft's tracking until the aircraft is within **3NM** of the aerodrome.
+### Arrivals
+AD TCU will heads-up coordinate arrivals/overfliers from Class C to PF ADC.  
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to PF ADC, unless PF ADC nominates a restriction.  
+VFR aircraft require a level readback.
 
-#### Visual Tracking
+
 !!! example
-    <span class="coldline">**AD TCU** -> **PF ADC**</span>: "Estimate, UJE via PAL time 02."  
-    <span class="coldline">**PF ADC** -> **AD TCU**</span>: "UJE"
+    <span class="hotline">**AAW** -> **PF ADC**</span>: "via PAL, YTS"  
+    <span class="hotline">**PF ADC** -> **AAW**</span>: "YTS, A010"
 
-#### IAP Tracking
-Reserved.
+!!! tip
+    Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D. You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.

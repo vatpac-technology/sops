@@ -14,13 +14,11 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
-
-Bindook also assumes responsiblity of:  
-a) The airspace within 45nm of SY DME above `FL280`  
-b) The airspace within the lateral limits of the CB TCU above `FL245`, except for the region south west which is assumed by Benalla (BLA)
+BIK assumes responsibility of the airspace within 45nm of SY DME above `FL280`.  
+GUN BIK assumes responsibility of the airspace within the lateral limits of the CB TCU above `FL245`, except for the region to the south west, which is assumed by ELW(BLA).
 
 !!! note
-    Bindook does not assume the CB TCU in the absence of a CB TCU controller. Assumption of the CB TCU is the responsibility of Benalla (BLA). Controllers may choose to verbally coordinate the release of the CB TCU to either sector/subsector.
+    BIK does not assume the CB TCU in the absence of a CB TCU controller. Assumption of the CB TCU is the responsibility of ELW(BLA). Controllers may choose to verbally coordinate the release of the CB TCU to either sector/subsector.
 
 <figure markdown>
 ![Bindook Airspace](../assets/bik.png){ width="700" }
@@ -29,7 +27,7 @@ b) The airspace within the lateral limits of the CB TCU above `FL245`, except fo
 
 ## Sector Responsibilities
 ### Bindook (BIK)
-BIK will provide final sequencing actions and descent into YSSY.  The BIK sector is also responsible for issuing runway assignment to aircraft cleared via the ODALE STAR.  Subsectors of BIK and YWE will issue STAR clearance to these aircraft with no runway assignment, allowing the BIK sector to perform final sequencing actions for YSSY and assign the runway on first contact.
+BIK will provide final sequencing actions and descent into YSSY. The BIK sector is also responsible for issuing runway assignment to aircraft cleared via the ODALE STAR. Subsectors of BIK and YWE will issue STAR clearance to these aircraft with no runway assignment, allowing the BIK sector to perform final sequencing actions for YSSY and assign the runway on first contact.
 
 !!! example
     **QLK43:** "Melbourne Centre, QLK43, maintaining F190"  
@@ -42,6 +40,8 @@ If no subsectors are online, it is advisable to continue this practice, issuing 
 
 For aircraft overflying the SY TMA, place *'O/FLY'* in the LABEL DATA field.
 
+For Sequencing purposes, ODALE and RIVET must be considered to be the same STAR. Practically, this means BIK must sequence at least a 2 minute gap between all YSSY arrivals, whether they are arriving via the same feeder fix or not.
+
 ### Wollongong (WOL)
 WOL is reponsible for issuing STAR clearances, initial descent, and sequencing actions for aircraft inbound to YSCB. WOL is also responsible for issuing STAR clearance *(but not runway assignment)* to aircraft processed via the ODALE STAR into YSSY which depart from an aerodrome within the subsector. The BIK controller will issue runway assignment to these aircraft on first contact.
 
@@ -51,19 +51,20 @@ WOL is reponsible for issuing STAR clearances, initial descent, and sequencing a
     **WOL:** "RXA6116, identified, cleared to YSSY via ATGOD flight plan route, ODALE7 arrival, climb F160"
     
 ### Gundagai (GUN)
-GUN is reponsible for issuing STAR clearances and initial descent for aircraft inbound to YSSY via RIVET, and STAR clearances *(but not runway assignment)* for aircraft inbound via ODALE.  The BIK controller will issue runway assignment to aircraft cleared the ODALE STAR on first contact.  
+GUN is reponsible for issuing STAR clearances and initial descent for aircraft inbound to YSSY via RIVET, and STAR clearances *(but not runway assignment)* for aircraft inbound via ODALE. The BIK controller will issue runway assignment to aircraft cleared the ODALE STAR on first contact.  
 
 !!! example
     *VOZ655 (operated by a SAAB 340) has departed YSCB for YSSY and been handed off from CB TCU to GUN*  
     **VOZ655:** "Melbourne Centre, VOZ655, climbing F130"  
     **GUN:** "VOZ655, Melbourne Centre, cleared ODALE7 arrival, climb F130"
 
+Jet aircraft for YSSY shall be assigned the **RIVET** STAR.  
+Non-jet aircraft for YSSY shall be assigned the **ODALE** STAR.
     
-GUN is also responsible for initial sequencing actions into YSSY. Aircraft cruising above `F250` should be assigned *no lower* than `F250` and handed to BIK for further descent.  Aircraft cruising below `F250` should be transferred to BIK at their cruise level.
+GUN is also responsible for initial sequencing actions into YSSY. Aircraft cruising above `F250` should be assigned *no lower* than `F250` and handed to BIK for further descent. Aircraft cruising below `F250` should be transferred to BIK at their cruise level.
 
 ## Coordination
 ### BIK/WOL / SY TCU
-
 The Standard assignable level from BIK to SY TCU is:  
 `A100` for aircraft tracking via RIVET, and assigned the RIVET STAR  
 `A090` for aircraft tracking via ODALE, and assigned the ODALE STAR  
@@ -75,7 +76,6 @@ The Standard Assignable level from SY TCU to WOL is the lower of `F280` or the `
 Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
 
 ### WOL/GUN / CB TCU
-
 The Standard assignable level from WOL to CB TCU is `F120`, and assigned the RAZZI STAR, BUNGO STAR, or AVBEG STAR STAR.  
 
 All other aircraft must be voice coordinated to CB TCU prior to **20nm** from the boundary.
@@ -86,17 +86,11 @@ All other aircraft must be voice coordinated to CB TCU prior to **20nm** from th
 The Standard Assignable level from CB TCU to GUN is the lower of `F240` or the `RFL`, and tracking via AVBEG, AKMIR, or CULIN.
 
 ### BIK (All) / ENR
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
-
-That being said, it is *advised* that BIK give **Heads-up Coordination** to the relevant sector, prior to **20nm** from the boundary, for **any aircraft not on the Q29 or V169 airways**. 
-
-### WOL / TSN (Oceanic)
-
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Voice coordinate estimate and level prior to **15 mins** to boundary
+That being said, it is *advised* that BIK give **Heads-up Coordination** to the relevant sector, prior to **50nm** from the boundary, for **any aircraft not on the Q29 or V169 airways**. 
 
 ### BIK/WOL/GUN Internal
-
 Changes to the CFL are permitted up to the boundary for aircraft transiting BIK/GUN/WOL airspace internally. It is *advised* that BIK/WOL/GUN give **Heads-up Coordination** to the relevant sector, prior to **20nm** from the boundary, for **any aircraft not on the Q29, Y59, W113, or V169 airways**. 
 
 ### WOL / NW TCU
@@ -114,3 +108,6 @@ All aircraft transiting from WOL to **NW TCU** must be heads-up coordinated prio
 !!! example
     <span class="hotline">**WOL** -> **NW TCU**</span>: "via CB, SKJ, with your concurrence, will be assigned descent to A090"  
     <span class="hotline">**NW TCU** -> **WOL**</span>: "SKJ, concur A090"  
+
+## WOL / TSN (Oceanic)
+As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.

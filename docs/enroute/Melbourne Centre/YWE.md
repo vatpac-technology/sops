@@ -49,8 +49,7 @@ KAT is responsible for issuing STAR Clearances for YSCB.  KAT is also responsibl
 
 ## Coordination
 
-### YWE/WON / ML TCU
-
+### YWE,WON / ML TCU
 The Standard assignable level from YWE and WON to ML TCU is `A090`, and assigned the ARBEY #, PORTS #, WAREN #, or WENDY # STAR.
 
 All other aircraft must be voice coordinated to ML TCU prior to **20nm** from the boundary.
@@ -59,31 +58,27 @@ The Standard Assignable level from ML TCU to YWE/WON is `F240`, and tracking via
 
 Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
 ### YWE (All) / ENR
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
-
-That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** prior to **20nm** from the boundary in the following scenarios:  
+That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** prior to **50nm** from the boundary in the following scenarios:  
 - YWE to ELW/BLA for all aircraft  
 - WON to ELW/BLA for all aircraft  
 - GTH to BLA for all aircraft  
 - KAT to BIK/GUN for aircraft **not** planned via MAKKA  
-- MUN to TBD for aircraft **not** on H345 airway*
 
 !!! tip
     **MUN** should aim to handoff aircraft as soon as possible to **TBD**, so they can issue STAR clearance and commence sequencing. Remember, As per [Standard coordination procedures](../../../controller-skills/coordination/#handoffs), the Receiving sector may turn the aircraft 45° left or right and climb/descend to any level. So if required, nominate a restriction.
 
 ### YWE/WON/MUN/OXL/GTH/KAT Internal
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
-
-That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** in the following scenarios:  
+That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** prior to **50nm** in the following scenarios:  
 - MUN to YWE for aircraft **not** on the Y12 or H119 airway (Changes permitted up to boundary for sequencing/descent purposes)  
 - OXL to YWE for aircraft **not** tracking via CANTY (Changes permitted up to boundary for sequencing/descent purposes)  
 - WON to YWE for all aircraft  
 - YWE to WON for all aircraft  
 
 ### KAT / SY TCU
-
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-tcu), all aircraft must be **Heads-up coordinated** prior to **20nm** from the boundary.  
 
 The Standard Assignable level from SY TCU to KAT is the lower of `F280` or the `RFL`, and tracking via KADOM.

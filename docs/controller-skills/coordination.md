@@ -61,7 +61,13 @@ Once this coordination is completed, the aircraft's level and route is **locked 
 Certain routes, areas, levels, airspace, etc, will have voiceless coordination agreements, which is where Heads-Up Coordination is not required. These routes may also have change parameters, where no changes are permitted within a certain distance of the sector boundary without prior coordination.
 
 ### Boundary
-Where an aircraft will deviate laterally within 2.5nm, or vertically within 500ft of another sector's airspace, boundary coordination must be completed so they are aware of the aircraft, and can nominate any restrictions. The format is as follows:
+Boundary coordination is required when an aircraft may deviate within ***half the applicable standard*** of another sector's airspace.  
+Ie: Within:  
+**500ft** vertically; or  
+**2.5nm** laterally for **ENR**; or  
+**1.5nm** laterally for **TCU/ADC**.
+
+Boundary coordination must be completed so they are aware of the aircraft, and can nominate any restrictions. The format is as follows:
 
 Controlling Sector -> Boundary Sector: "For Ident, (Position), (Callsign), (Details as required)"  
 Boundary Sector -> Controlling Sector: "(Callsign), (Restriction)"
@@ -101,7 +107,8 @@ Source: [Annotations](../../controller-skills/annotations)
 | **NVR** | No Vertical Restrictions | Additional coordination must be done for any **lateral** changes |
 | **NLR** | No Lateral Restrictions | Additional coordination must be done for any **level** changes |
 | **C(lvl)** | Cleared level (lvl) | Additional coordination must be done for any **lateral or level** changes |
-| **NRR** | No Restrictions or Requirements | **Any and all** lateral and level changes approved |
+| **NR** | No Restrictions | **Any and all** lateral and level changes approved |
+| **NRR** | No Restrictions or Requirements | **Any and all** lateral and level changes approved, and No Frequency Requirements |
 
 *Offering NFR*
 !!! example
@@ -132,23 +139,22 @@ Coordination must be done on a **point-to-point** basis. Meaning, you can only c
 
 Ensure no coordination is ambiguous in its meaning. Not all coordination can be straight out of the phraseology books, and the reality is, not everyone controlling the airspace is going to be 100% proficient and by the books. When using "plain english", ensure there is no ambiguity, and the message is fully understood by both parties.
 ### ENR/TCU -> Class D TWR
-Voice coordinate Sequence prior to **5 mins** from the boundary.
+Heads-up coordinate arrivals/overfliers prior to **5 mins** from the boundary.
 #### Format
 - *"via (Route/Procedure)"*
 - Callsign
 - Level (if not Standard Assignable)
-- Sequence Number (if Sequence of more than 1)
-!!! note
-    Aircraft estimating the field within **10 minutes** of each other are considered to be in the same sequence.
+- Runway (if not active runway)
+
 ### Class D TWR -> ENR/TCU
-Voice coordinate 'Next' call for all CTA departures.
+Voice coordinate 'Next' call **within 2 minutes of takeoff** for all CTA departures.
 #### Format
 - *"Next"*
 - Callsign
 - Level (if not Standard Assignable)
 
 ### Radar TWR -> TCU
-Voice coordinate all departures **within 2 minutes of takeoff** unless permitted by local Auto Release rules.
+Voice coordinate 'Next' call **within 2 minutes of takeoff** unless overridden by local Auto Release rules.
 
 #### Format
 - *"Next"*
@@ -170,15 +176,17 @@ If due to weather, overflying aircraft, runway config changes, etc. Auto Release
 ### ENR -> TCU
 **Voiceless** for aircraft landing at main airport (eg YMML in ML TCU), assigned a STAR, and standard assignable level.  
 
-Voice coordinate all other aircraft by **20nm** to boundary.
+Heads-up coordinate all other aircraft by **20nm** to boundary.
 ### TCU -> ENR
-**Voiceless** for aircraft assigned lower of standard assignable level or RFL, and tracking via SID terminus.
+**Voiceless** for aircraft assigned lower of standard assignable level or RFL, and tracking via a Procedural SID terminus.
+
+Heads-up coordinate all other aircraft by the boundary.
 ### ENR -> Oceanic
-Voice coordinate prior to **15 mins** to boundary.
+Heads-up coordinate prior to **15 mins** to boundary.
 ### Oceanic -> ENR
-Voice coordinate prior to **15 mins** to boundary.
+Heads-up coordinate prior to **15 mins** to boundary.
 ### Oceanic -> Oceanic
-Voice coordinate prior to **30 mins** to boundary (**15 mins** to Australia and New Zealand units).
+Heads-up coordinate prior to **30 mins** to boundary (**15 mins** to Australia and New Zealand units).
 
 #### Format
 Coordination between **Australian** units shall be done in the [Standard Heads-up format](#heads-up).
@@ -196,7 +204,7 @@ Coordination to **International** units shall be done in the following format:
     <span class="coldline">**IND** -> **FIMM CTR**</span>: "Estimate, QFA63, IBMAT time 33, F360"  
     <span class="coldline">**FIMM CTR** -> **IND**</span>: "QFA63, F360"
 ### ENR -> ENR
-**Voiceless**, no changes to route or CFL within **20nm** to boundary.
+**Voiceless**, no changes to route or CFL within **50nm** to boundary.
 
 !!! note
     Except as amended by Local Instructions.
@@ -207,11 +215,11 @@ Receiving a handoff means you are permitted to turn an aircraft **45 degrees lef
     <span class="hotline">**YWE** -> **TBD**</span>: "ABC, my restriction is DEF, calls you now"  
     <span class="hotline">**TBD** -> **YWE**</span>: "ABC, restriction is DEF, calls me now"
 
-Upon receipt of a handoff, once the aircraft is established **2.5nm** within your airspace, you are free to turn the aircraft as much as you like. If you need to turn them more than 45 degrees earlier than that, simply ask!
+Upon receipt of a handoff, once the aircraft is established **half the applicable lateral standard** (2.5nm for ENR, 1.5nm for ADC/TCU) within your airspace, you are free to turn the aircraft as much as you like. If you need to turn them more than 45 degrees earlier than that, simply ask!
 
 !!! example
     <span class="hotline">**KPL** -> **RKA**</span>: "ZYX, do you have any restrictions?"  
     <span class="hotline">**RKA** -> **KPL**</span>: "ZYX, no restrictions"  
-    KPL will place *"RKA\NR"* in the label until 2.5nm clear of their airspace, to record that the coordination has been completed.
+    KPL will place *"RKA NR"* in the label until 2.5nm clear of their airspace, to record that the coordination has been completed.
 
 For more information, refer to individual local instructions.

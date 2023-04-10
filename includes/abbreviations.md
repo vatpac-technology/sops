@@ -5,6 +5,7 @@
 *[RNAV]: Area Navigation
 *[GNSS]: Global Navigation Satellite System
 *[RNP]: Required Navigation Performance
+*[DGA]: DME or GNSS Arrival
 *[ANR]: Air Navigation Register   
 *[ATS]: Air Traffic Services
 *[TMA]: Terminal Maneuvering Area
@@ -170,3 +171,70 @@
 *[SAR]: Search and Rescue
 *[SVY]: Aerial Survey
 *[BCTA]: Bottom of Controlled Airspace
+*[PAL]: Port Adelaide
+*[TWRN]: Two R N
+*[DSN]: Doncaster Shopping Town
+*[ADWD]: Adventure World
+*[TVT]: TV Towers
+*[FREM]: Fremantle Golf Course
+*[YGB]: Yangebup Lake
+*[FDL]: Forestdale Lake
+*[BOAT]: Boatyard
+*[POWR]: Powerhouse
+*[OAKF]: Oakford
+*[RUSS]: Russell
+*[CNB]: Canning Bridge
+*[SHOP]: Armadale Shops
+*[BTO]: Brighton
+*[BAW]: Baywest
+*[CARR]: Carrum
+*[GMH]: GMH (General Motors Holden)
+*[ACE]: Academy
+*[CWST]: Choppers West
+*[CNTH]: Choppers North
+*[CSTH]: Choppers South
+*[PSP]: Prospect Reservoir
+*[EDT]: Edmonton
+*[CGF]: Cape Grafton
+*[ADI]: Admiralty Island
+*[BRY]: Bringelly
+*[MEG]: Menangle
+*[PIC]: Picton
+*[THK]: The Oaks
+*[MYF]: Mayfield
+*[KAO]: Kalkallo
+*[YYN]: Yan Yean Reservoir
+*[APL]: Albert Park Lake
+*[SNP]: Station Pier
+*[WES]: West Gate Bridge
+*[MCG]: Melbourne Cricket Ground
+*[MVC]: Moonee Valley Racecourse
+*[FGN]: Flemington
+*[CBV]: Craigbourne Reservoir
+*[CPA]: Campania
+*[RCH]: Richmond
+*[RADT]: Radio Telescope
+*[SORL]: Sorell
+*[DLY]: Dunalley
+*[DRP]: Droughty Point
+*[LAUD]: Lauderdale
+*[CREM]: Cremorne
+*[BOWB]: Bowen Bridge
+*[SWT]: Sunbury Water Tank
+*[OHB]: Outer Harbor
+*[DMW]: Dam Wall
+*[CTE]: Cottesloe
+*[PCTY]: Perth City
+*[HKE]: Herdsman Lake
+*[JIBN]: Jibbon Point
+*[CUL]: Cronulla
+*[BTJ]: Brighton Jetty
+*[HNLY]: Henley Jetty
+*[GRB]: Georges River Bridge
+*[GON]: Goodna
+*[PKR]: Park Ridge
+*[TAR]: Target
+*[CBRG]: Centenary Bridge
+*[WTBG]: Walter Taylor Bridge
+*[KCFF]: Kingscliff
+*[DNGR]: Point Danger

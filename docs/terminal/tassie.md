@@ -15,7 +15,9 @@
     Hobart Approach **must** extend to Launceston Approach and vice versa, callsigns remain the same.
 
 ## Airspace
-The TAS TCU has an upper limit of `F245` within the following area:
+The Vertical limits of the TAS TCU are `SFC` to `F245`.  
+HB ADC own the Class D airspace within HB CTR `SFC` to `A010`.  
+LT ADC own the Class D airspace within LT CTR `SFC` to `A010`.  
 
 <figure markdown>
 ![TAS TCU](img/TASTCU.png){ width="700" }
@@ -65,13 +67,13 @@ For Non-Jets: The lower of `A045` or the `RFL`.
 #### Arrivals
 HBA will coordinate all YMHB arrivals to HB ADC prior to **5 mins** from the boundary. This coordination shall be as per [Standard Heads-up format](../../controller-skills/coordination/#heads-up), with the addition of:
 
-- Runway, if other than duty runway
-- Approach type, unless specifically nominated on the ATIS
+- Runway, if other than duty runway  
+- Approach type, unless specifically nominated on the ATIS  
 - IFR Circuit joining instructions, if not on Straight-in instrument approach
 
 !!! example
-    <span class="coldline">**HB TCU** -> **HB ADC**</span>: "via BUSKA, QJE1789, for the ILS”  
-    <span class="coldline">**HB ADC** -> **HB TCU**</span>: "QJE1789"
+    <span class="hotline">**HB TCU** -> **HB ADC**</span>: "via BUSKA, QJE1789, for the ILS”  
+    <span class="hotline">**HB ADC** -> **HB TCU**</span>: "QJE1789, ILS"
 
 ### LT ADC / LTA
 #### Airspace
@@ -80,7 +82,7 @@ LT ADC owns the Class D airspace in the LT CTR `SFC` to `A010`. LTA owns the Cla
 LT ADC will give a "Next" call for:
 
 - VFR Departures  
-- Aircraft using a runway not on the ATIS
+- Aircraft using a runway not on the ATIS  
 - Aircraft not assigned a Procedural SID and the Standard Assignable level
 
 The Standard Assignable level from LT ADC to LTA is:  
@@ -89,10 +91,10 @@ For Non-Jets: The lower of `A045` or the `RFL`.
 #### Arrivals
 LTA will coordinate all YMLT arrivals to LT ADC prior to **5 mins** from the boundary. This coordination shall be as per [Standard Heads-up format](../../controller-skills/coordination/#heads-up), with the addition of:
 
-- Runway, if other than duty runway
-- Approach type, unless specifically nominated on the ATIS
+- Runway, if other than duty runway  
+- Approach type, unless specifically nominated on the ATIS  
 - IFR Circuit joining instructions, if not on Straight-in instrument approach
 
 !!! example
-    <span class="coldline">**LT TCU** -> **LT ADC**</span>: "via IRSOM, JST416, for the DGA, will join left downwind 32L”  
-    <span class="coldline">**LT ADC** -> **LT TCU**</span>: "JST416"
+    <span class="hotline">**LT TCU** -> **LT ADC**</span>: "via IRSOM, JST416, for the DGA, will join left downwind 32L”  
+    <span class="hotline">**LT ADC** -> **LT TCU**</span>: "JST416"

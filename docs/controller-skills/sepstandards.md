@@ -17,7 +17,7 @@ title: Separation Standards
 | `F410` - `F600` | 2000ft |
 | Supersonic Aircraft | 3000ft |
 
-### TCU
+### TCU/ADC
 
 **Lateral** - 3NM
 
