@@ -94,6 +94,12 @@ This permits controllers to assign aircraft either the Alpha or Victor STAR and 
 | 16A/27D    | 16 FOR ARR, RWY 27 FOR DEPARTURES  |
 | 09A/16D    | 09 FOR ARR, RWY 16 FOR DEPARTURES  |
 
+### Operational Info
+When using runway mode 09A/16D, the ATIS OPR INFO shall include:  
+`SIMUL INDEP CROSSING RWY OPS IN PROG`
+
+This allows for both Runway 09 and Runway 16 to operate independently of each other, with aircraft departing Runway 16 from Taxiway Echo.
+
 ## Coordination
 ### ML ADC / ML TCU
 #### Auto Release
