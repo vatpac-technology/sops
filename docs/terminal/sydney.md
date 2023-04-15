@@ -109,15 +109,6 @@ SFW/SFE may provide distance to touchdown, when transferring an aircraft to towe
 !!! example
     "QFA490, 8 miles to touchdown, contact tower 120.5"
 
-### Instrument Approach
-
-Aim to vector aircraft to the following Intercept points during instrument PROPS (GLS or ILS approach) unless sufficient separation can be established between parallel approaches:
-
-| Runway | Distance from Threshold | Level  |
-| --| ----------------| --------- |
-|RWY 16R/34L| 10nm   | `A030`     |
-|RWY 16L/34R| 15nm or further | `A040` |
-
 ### Independent Visual Approach
 
 When conducting IVAs, aircraft shall not be transferred to **SY ADC** until established on final.
