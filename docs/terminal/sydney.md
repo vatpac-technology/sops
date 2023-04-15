@@ -109,6 +109,12 @@ SFW/SFE may provide distance to touchdown, when transferring an aircraft to towe
 !!! example
     "QFA490, 8 miles to touchdown, contact tower 120.5"
 
+### Instrument Approach
+
+Aircraft joining parallel instrument approaches must remain separated from aircraft on the adjacent approach until they are established. This usually involves keeping aircraft vertically separated and may require aircraft to intercept the localiser/final approach course and maintain their assigned level, only allowing descent on the approach once they are established.  
+
+Two aircraft established on adjacent parallel approaches require `1nm` lateral separation as opposed to the 3nm standard required in the TMA generally.
+
 ### Independent Visual Approach
 
 When conducting IVAs, aircraft shall not be transferred to **SY ADC** until established on final.
