@@ -56,6 +56,9 @@ If winds are too great, single runway operations may be necessary (eg, Runway 16
 !!! information
     "Departures NE" means departures via MNG, NONIX and DOSEL. Runway 34 for departure may also be more suitable during this runway mode for heavy aircraft (due to the length of runway 27), and aircraft taxiing from the southern apron.
 
+!!! note
+    See [Runway Mode Formatting](#runway-mode-formatting) for details on how to format each runway mode in the ATIS.
+
 #### SID Selection
 Jet Aircraft planned via **MNG**, **NONIX**, **DOSEL**, **CORRS**, **KEPPA**, **NEVIS**, **SUNTI**, **ESDIG**, or **CRENA**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
@@ -110,7 +113,7 @@ This allows for both Runway 09 and Runway 16 to operate independently of each ot
     a) Departing from a runway nominated on the ATIS; and  
     b) Assigned `A050`; and  
     c) Assigned a **Procedural** SID; or  
-    d) Assigned a [Standard Assignable Heading](#standard-assignable-departure-headings)
+    d) Assigned the **ML (RADAR) SID** and a [Standard Assignable Heading](#standard-assignable-departure-headings)
 
 All other aircraft require a 'Next' call to ML TCU.
 
