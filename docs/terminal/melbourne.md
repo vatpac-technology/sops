@@ -148,8 +148,8 @@ Due to the low level of CTA surrounding YMMB, it is best practice to give airway
     **AAC:** "Squawk 4301, wilco, AAC" 
 
     **AAC:** "AAC, ready runway 35L"  
-    **ML TCU:** "AAC, Cleared to YBLT via SAMIG, flight planned route, make visual left turn DCT SAMIG, climb to A040"  
-    **AAC:** "Cleared to YBLT via SAMIG, flight planned route, make visual left turn DCT SAMIG, climb to A040, AAC"
+    **ML TCU:** "AAC, cleared to YBLT via SAMIG, flight planned route, climb to A040"  
+    **AAC:** "Cleared to YBLT via SAMIG, flight planned route, climb to A040, AAC"
 
 ## Airspace Division
 The divisions of the airspace between **MAE**, **MDN**, and **MDS** change based on the Runway Mode.
