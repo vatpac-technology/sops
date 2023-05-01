@@ -58,8 +58,8 @@ GUN is reponsible for issuing STAR clearances and initial descent for aircraft i
     **VOZ655:** "Melbourne Centre, VOZ655, climbing F130"  
     **GUN:** "VOZ655, Melbourne Centre, cleared ODALE7 arrival, climb F130"
 
-Jet aircraft for YSSY shall be assigned the **RIVET** STAR.  
-Non-jet aircraft for YSSY shall be assigned the **ODALE** STAR.
+Jet aircraft for YSSY should be assigned the **RIVET** STAR.  
+Non-jet aircraft for YSSY should be assigned the **ODALE** STAR.
     
 GUN is also responsible for initial sequencing actions into YSSY. Aircraft cruising above `F250` should be assigned *no lower* than `F250` and handed to BIK for further descent. Aircraft cruising below `F250` should be transferred to BIK at their cruise level.
 

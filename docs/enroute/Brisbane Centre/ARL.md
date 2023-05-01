@@ -28,8 +28,8 @@ When **CFS ADC** is offline, CFS CTR (Class D `SFC` to `A045`) reverts to Class 
 ## Sector Responsibilities
 ### Armidale (ARL) / Manning (MNN)
 ARL and MNN are responsible for initial sequencing, issuing STAR Clearances, and issuing initial descent for aircraft bound for YSSY, via BOREE and MEPIL respectively.  
-Jet aircraft for YSSY shall be assigned the **BOREE** STAR.  
-Non-jet aircraft for YSSY shall be assigned the **MEPIL** STAR.
+Jet aircraft for YSSY should be assigned the **BOREE** STAR.  
+Non-jet aircraft for YSSY should be assigned the **MEPIL** STAR.
 
 For Sequencing purposes, MEPIL and BOREE must be considered to be the same STAR. Practically, this means ARL must sequence at least a 2 minute gap between all YSSY arrivals, whether they are arriving via the same feeder fix or not.
 ### Cessnock (CNK) / Maitland (MLD)
