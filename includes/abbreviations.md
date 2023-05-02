@@ -238,3 +238,4 @@
 *[WTBG]: Walter Taylor Bridge
 *[KCFF]: Kingscliff
 *[DNGR]: Point Danger
+*[IAS]: Indicated Airspeed
