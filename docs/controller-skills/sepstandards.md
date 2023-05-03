@@ -112,14 +112,14 @@ This technique is useful for situations such as:<ul><li>VFR aircraft manoeuvring
 #### 5 min
 | Conditions | |
 | ------------- | ------------------ |
-| a) Both aircraft report reaching the cruising level;<br>b) If the following aircraft reaches that level first, apply another form of separation immediately; and<br>c) CLIAS and cruising IAS of the following aircraft is at least 10 kt slower and not more than 90% of the CLIAS and cruising IAS or Mach number of the leading aircraft. | <figure markdown>
+| a) Both aircraft report reaching the cruising level;<br>b) If the following aircraft reaches that level first, apply another form of separation immediately; and<br>c) climb and cruising IAS of the following aircraft is at least 10 kt slower and not more than 90% of the climb and cruising IAS or Mach number of the leading aircraft. | <figure markdown>
 ![5 min Departure Standard Diagram](img/dep4a.png){ width="600" }
 </figure> |
 
 #### 10 min
 | Conditions | |
 | ------------- | ------------------ |
-| a) Both aircraft report reaching the cruising level;<br>b) If the following aircraft reaches cruising level first, apply another form of separation immediately; and<br>c) CLIAS of the following aircraft is less than or equal to the CLIAS of the leading aircraft. | <figure markdown>
+| a) Both aircraft report reaching the cruising level;<br>b) If the following aircraft reaches cruising level first, apply another form of separation immediately; and<br>c) climb IAS of the following aircraft is less than or equal to the climb IAS of the leading aircraft. | <figure markdown>
 ![10 min Departure Standard Diagram](img/dep7a.png){ width="600" }
 </figure> |
 
