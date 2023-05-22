@@ -51,12 +51,12 @@ The Standard Assignable level from SY TCU to ARL(All) is the lower of `F280` or 
 Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
 
 ### ARL (All) / ENR
-As per [Standard coordination procedures](../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 ### ARL/MDE/CNK/MNN/MLD/OCN Internal
-As per [Standard coordination procedures](../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-That being said, it is *advised* that ARL(All) gives **Heads-up Coordination** in the following scenarios:   
+That being said, due to their small sizes and frequent random-track traffic, it is *advised* that ARL(All) gives **Heads-up Coordination** in the following scenarios:   
 - MNN to ARL for all aircraft  
 - ARL to MNN for all aircraft  
 - CNK to MLD for all aircraft  
@@ -146,4 +146,4 @@ To put it bluntly, the R574 Restricted Area is quite large.
 It also occupies a lot of airspace that would commonly be used by YSSY arrivals and departures. If YWLM military operations are taking ownership of this airspace, it is good practice to negotiate an airspace release, whether that be a lateral or vertical portion of airspace (or a combination), to enable them to facilitate YSSY arrivals and departures with minimal impact.
 
 ### OCN/MNN / TSN/HWE (Oceanic)
-As per [Standard coordination procedures](../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
