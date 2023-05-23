@@ -62,16 +62,18 @@ Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runwa
 ### Sequencing into YSSY
 Sequencing arrivals from the west into YSSY is a joint responsibility of GUN and BIK. Initial sequencing actions should be performed by GUN, with fine tuning and any holding required issued by BIK.
 
-Aircraft from the south/west are *generally* assigned 16R/34L and aircraft from the north/east assigned 16L/34R to simplify the sequencing required.  However, some heavy aircraft from the north/east may operationally require the longer runway, so consider assigning an aircraft on the ODALE/RIVET STAR 16L/34R to free up a slot on the other runway as necessary. Similarly, it may be beneficial for the sequence to assign an arrival to runway 16L/34R to avoid unnecessary delays for the main runway.
+Aircraft from the south/west shall be assigned **runway 16R/34L** during PROPS. However, some situations may warrant the use of the alternate runway (16L/34R), such as heavy aircraft operationally requiring the longer runway from the north or large volumes of traffic requiring the use of both runways to minimise delay. In this case, coordination must be conducted with Brisbane Centre or Sydney Flow (if operating) to ensure that the sequence is built in an efficient and orderly way.
 
-!!! note
-    Consider traffic inbound from the north/east when assigning runway 16L/34R, as Brisbane Centre will preference that runway for arrivals from their airspace.
+!!! example
+    <span class="hotline">**BIK** -> **ARL**</span>: "Southwest of Sydney, VOZ421, with your concurrence will be assigned runway 34R for sequencing"  
+    <span class="hotline">**ARL** -> **BIK**</span>: "Concur, VOZ421 runway 34R, required landing time 22 due sequence from the north"  
+    <span class="hotline">**BIK** -> **ARL**</span>: "Runway 34R, landing time 22, VOZ421"
 
 Jet aircraft for YSSY shall be assigned the **RIVET** STAR.  
 Non-jet aircraft for YSSY shall be assigned the **ODALE** STAR.
 
 !!! tip
-    Whilst the preference is to keep jet/non-jet aircraft assigned the default STAR as above, there are situations where the sequence may be improved by assigning the adjacent STAR (e.g. a non-jet assigned the RIVET STAR).  
+    Whilst the preference is to keep jet/non-jet aircraft assigned the default STAR as above, there are situations where the sequence may be improved by assigning the adjacent STAR (e.g. a non-jet assigned the RIVET STAR). This is most common when assigning the alternate runway to an arrival.   
     
     Either **SY TCU** or **BIK** may propose utilising the adjacent STAR where two aircraft with significantly different cruise/descent speeds will be required to overtake or pass abeam each other to achieve a sequenced landing time, or if assigned different runways. This technique can allow aircraft to be processed for different runways independently with minimal delay by using the built-in separation afforded by the STAR height requirements.  
 

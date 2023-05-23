@@ -58,16 +58,18 @@ Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runwa
 ### Sequencing into YSSY
 Sequencing arrivals from the north/east into YSSY is a joint responsibility of the subsectors of ARL. Initial sequencing actions for aircraft from the north should be performed by ARL and MNN, with fine tuning and any holding required issued by CNK. 
 
-Aircraft from the north/east are *generally* assigned 16L/34R and aircraft from the south/west assigned 16R/34L to simplify the sequencing required.  However, some heavy aircraft from the north/east may operationally require the longer runway. In this case, coordination may be required with Melbourne Centre or Sydney Flow (if operating) to ensure that the sequence is built in an efficient and orderly way. Similarly, it may be beneficial for the sequence to assign an arrival to runway 16R/34L to avoid unnecessary delays for the other runway.
+Aircraft from the north/east shall be assigned **runway 16L/34R** during PROPS. However, some situations may warrant the use of the main runway (16R/34L), such as heavy aircraft operationally requiring the longer runway or large volumes of traffic requiring the use of both runways to minimise delay. In this case, coordination must be conducted with Melbourne Centre or Sydney Flow (if operating) to ensure that the sequence is built in an efficient and orderly way.
 
-!!! note
-    Consider traffic inbound from the south/west when assigning runway 16R/34L, as Melbourne Centre will preference that runway for arrivals from their airspace.
+!!! example
+    <span class="hotline">**ARL** -> **BIK**</span>: "North of Sydney, CPA21, with your concurrence will be assigned runway 34L due operational requirement"  
+    <span class="hotline">**BIK** -> **ARL**</span>: "Concur, CPA21 runway 34L, required landing time 43 due sequence from the west"  
+    <span class="hotline">**ARL** -> **BIK**</span>: "Runway 34L, landing time 43, CPA21"
 
 Jet aircraft for YSSY shall be assigned the **BOREE** STAR.  
 Non-jet aircraft for YSSY shall be assigned the **MEPIL** STAR.
 
 !!! tip
-    Whilst the preference is to keep jet/non-jet aircraft assigned the default STAR as above, there are situations where the sequence may be improved by assigning the adjacent STAR (e.g. a jet assigned the MEPIL STAR).  
+    Whilst the preference is to keep jet/non-jet aircraft assigned the default STAR as above, there are situations where the sequence may be improved by assigning the adjacent STAR (e.g. a jet assigned the MEPIL STAR). This is most common when assigning the alternate runway to an arrival.  
     
     Either **SY TCU** or **ARL** may propose utilising the adjacent STAR where two aircraft with significantly different cruise/descent speeds will be required to overtake or pass abeam each other to achieve a sequenced landing time, or if assigned different runways. This technique can allow aircraft to be processed for different runways independently with minimal delay by using the built-in separation afforded by the STAR height requirements.  
 
