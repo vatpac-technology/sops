@@ -27,17 +27,52 @@ When **CFS ADC** is offline, CFS CTR (Class D `SFC` to `A045`) reverts to Class 
 
 ## Sector Responsibilities
 ### Armidale (ARL) / Manning (MNN)
-ARL and MNN are responsible for initial sequencing, issuing STAR Clearances, and issuing initial descent for aircraft bound for YSSY, via BOREE and MEPIL respectively.  
+ARL and MNN are responsible for initial sequencing, issuing STAR Clearances, and issuing initial descent for aircraft bound for YSSY, via BOREE and MEPIL respectively. Aircraft cruising above `F250` should be assigned *no lower* than `F250` and handed to CNK for further descent. Aircraft cruising below `F250` should be transferred to CNK at their cruise level.
+
+Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway and STAR selection notes.
+
+ARL is also responsible for aircraft operating into/out of YSTW from the south/east when TW ADC is operating.
+
+!!! note
+    ARL and MDE share a joint responsibility to build the final sequence of arrivals into YSTW when the tower is open. Coordination with MDE should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
+
+### Cessnock (CNK) 
+CNK is responsible for final sequencing and descent for aircraft bound for YSSY, via BOREE and MEPIL.
+
+Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway and STAR selection notes.
+
+### Maitland (MLD)
+MLD is responsible for handling northbound departures from YSSY and arrivals into YWLM from the south.
+
+### Mudgee (MDE)
+MDE is responsible for aircraft operating into/out of YSTW from the north/west when TW ADC is operating.
+
+!!! note
+    ARL and MDE share a joint responsibility to build the final sequence of arrivals into YSTW when the tower is open. Coordination with ARL should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
+
+### Ocean (OCN)
+OCN is responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YSSY via MARLN.
+
+Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway selection notes.
+
+### Sequencing into YSSY
+Sequencing arrivals from the north/east into YSSY is a joint responsibility of the subsectors of ARL. Initial sequencing actions should be performed by ARL and MNN, with fine tuning and any holding required issued by CNK.
+
+Aircraft from the north/east are *generally* assigned 16L/34R and aircraft from the south/west assigned 16R/34L to simplify the sequencing required.  However, some heavy aircraft from the north/east may operationally require the longer runway. In this case, coordination may be required with Melbourne Centre or Sydney Flow (if operating) to ensure that the sequence is built in an efficient and orderly way. Similarly, it may be beneficial for the sequence to assign an arrival to runway 16R/34L to avoid unnecessary delays for the other runway.
+
+!!! note
+    Consider traffic inbound from the south/west when assigning runway 16R/34L, as Melbourne Centre will preference that runway for arrivals from their airspace.
+
 Jet aircraft for YSSY shall be assigned the **BOREE** STAR.  
 Non-jet aircraft for YSSY shall be assigned the **MEPIL** STAR.
 
-For Sequencing purposes, MEPIL and BOREE must be considered to be the same STAR. Practically, this means ARL must sequence at least a 2 minute gap between all YSSY arrivals, whether they are arriving via the same feeder fix or not.
-### Cessnock (CNK) / Maitland (MLD)
-CNK and MLD are responsible for final sequencing for aircraft bound for YSSY, via BOREE and MEPIL respectively.
-### Mudgee (MDE)
-Just keeping them separated!
-### Ocean (OCN)
-OCN is responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YSSY via MARLN.
+!!! tip
+    Whilst the preference is to keep jet/non-jet aircraft assigned the default STAR as above, there are situations where the sequence may be improved by assigning the adjacent STAR (e.g. a jet assigned the MEPIL STAR).  
+    
+    Either **SY TCU** or **ARL** may propose utilising the adjacent STAR where two aircraft with significantly different cruise/descent speeds will be required to overtake or pass abeam each other to achieve a sequenced landing time, or if assigned different runways. This technique can allow aircraft to be processed for different runways independently with minimal delay by using the built-in separation afforded by the STAR height requirements.  
+
+    In this case, coordination should be conducted to ensure that both controllers agree and no additional conflicts are created as a result (particularly with aircraft inbound from the south/west).
+
 ## Coordination
 ### ARL (All) / SY TCU
 The Standard Assignable level from ARL(All) to SY TCU is:  
