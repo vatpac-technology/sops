@@ -21,7 +21,7 @@
 * [Additional requirements](#airspace-structural-arrangements) must be met prior to opening SRI as a stand-alone position.
 
 ## Airspace
-The Vertical limits of the SY TCU are `SFC` to `F280`.  
+The Vertical limits of the SY TCU are `SFC` to `F285`.  
 SY TCU is responsible for the Sydney TMA, except:  
 
 - SY CTR `SFC` to `A005` as outlined [here](../../aerodromes/sydney/#airspace)

@@ -14,7 +14,7 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
-BIK assumes responsibility of the airspace within 45nm of SY DME above `FL280`.  
+BIK assumes responsibility of the airspace within 45nm of SY DME above `FL285`.  
 GUN BIK assumes responsibility of the airspace within the lateral limits of the CB TCU above `FL245`, except for the region to the south west, which is assumed by ELW(BLA).
 
 !!! note
