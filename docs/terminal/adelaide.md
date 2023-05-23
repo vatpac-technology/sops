@@ -40,7 +40,7 @@ The TCU controller will coordinate these aircraft with ADC prior to issuing airw
 | Southbound | HNLY |
 
 <figure markdown>
-![Clearance Limits](img/adclearancelimits.png){ width="500" }
+![Clearance Limits](../aerodromes/img/adclearancelimits.png){ width="500" }
   <figcaption>Clearance Limits (red) and Approach/Departure Path (green)</figcaption>
 </figure>
 
