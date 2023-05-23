@@ -56,7 +56,7 @@ OCN is responsible for sequencing, issuing STAR Clearances, and issuing descent 
 Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway selection notes.
 
 ### Sequencing into YSSY
-Sequencing arrivals from the north/east into YSSY is a joint responsibility of the subsectors of ARL. Initial sequencing actions should be performed by ARL and MNN, with fine tuning and any holding required issued by CNK.
+Sequencing arrivals from the north/east into YSSY is a joint responsibility of the subsectors of ARL. Initial sequencing actions for aircraft from the north should be performed by ARL and MNN, with fine tuning and any holding required issued by CNK. 
 
 Aircraft from the north/east are *generally* assigned 16L/34R and aircraft from the south/west assigned 16R/34L to simplify the sequencing required.  However, some heavy aircraft from the north/east may operationally require the longer runway. In this case, coordination may be required with Melbourne Centre or Sydney Flow (if operating) to ensure that the sequence is built in an efficient and orderly way. Similarly, it may be beneficial for the sequence to assign an arrival to runway 16R/34L to avoid unnecessary delays for the other runway.
 
