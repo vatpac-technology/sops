@@ -54,9 +54,9 @@ SRI is responsible for the provision of FIS in Class G airspace within the SY TM
 
 ## Arrival Procedures
 ### STAR and Runway Assignment
-Enroute sequencing of arrivals into YSSY is a joint responsibility of ARL and BIK.
+Sequencing of arrivals into YSSY is a joint responsibility of ARL and BIK, with input from SY TCU.
 
-Aircraft from the south/west are *generally* assigned 16R/34L and aircraft from the north/east assigned 16L/34R to simplify the sequencing required.  However, some heavy aircraft from the north/east may operationally require the longer runway. Similarly, it may be beneficial for the sequence to assign an arrival to an alternate runway to avoid unnecessary delays.
+Aircraft from the south/west are be assigned 16R/34L and aircraft from the north/east assigned 16L/34R.  However, some heavy aircraft from the north/east may operationally require the longer runway. Similarly, it may be beneficial for the sequence to assign an arrival to an alternate runway to avoid unnecessary delays.
 
 Jet aircraft for YSSY shall be assigned the **RIVET**, **BOREE**, or **MARLN** STARs.  
 Non-jet aircraft for YSSY shall be assigned the **ODALE**, **MEPIL**, or **MARLN** STARs.
@@ -66,7 +66,7 @@ Whilst the preference is to keep aircraft assigned the default STAR & runway as 
 !!! note
     Before reassigning an aircraft to an alternate runway, consider arrivals inbound from all directions to ensure that no additional conflict is created.
 
-Approach controllers can use the built-in separation afforded by the STAR height requirements to process aircraft on adjacent STARs (e.g. RIVET and ODALE, or BOREE and MEPIL), allowing aircraft to pass abeam or overtake each other, as dictated by the overall sequence.
+Approach controllers can use the built-in separation afforded by the STAR height requirements to process aircraft on adjacent STARs (e.g. RIVET and ODALE, or BOREE and MEPIL), allowing aircraft to pass abeam or overtake each other, as dictated by the overall sequence. See [Level Assignment](#level-assignment) below for details on maintaining separation using the STAR height requirements.
 
 !!! example
     During a busy Milk Run Monday, a large volume of traffic is approaching YSSY from the southwest, with no arrivals from the north or east. To prevent unnecessarily delaying inbound aircraft by processing them for a single runway, coordinate with **BIK** to request certain aircraft are tactically assigned runway 16L/34R, to improve the overall efficiency of the sequence.  
