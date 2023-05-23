@@ -35,12 +35,9 @@ BIK will provide final sequencing actions and descent into YSSY. The BIK sector 
 
 If no subsectors are online, it is advisable to continue this practice, issuing STAR clearance with airways clearance or on first contact (see the WOL & GUN notes below) and leaving runway assignment until the aircraft enters the BIK sector.
 
-!!! tip
-    Aircraft from the south/west are *generally* assigned 16R/34L and aircraft from the north/east assigned 16L/34R to simplify the sequencing required.  However, some heavy aircraft from the north/east may operationally require the longer runway, so consider assigning an aircraft on the ODALE STAR 16L/34R to free up a slot on the other runway.
-
 For aircraft overflying the SY TMA, place *'O/FLY'* in the LABEL DATA field.
 
-For Sequencing purposes, ODALE and RIVET must be considered to be the same STAR. Practically, this means BIK must sequence at least a 2 minute gap between all YSSY arrivals, whether they are arriving via the same feeder fix or not.
+Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway and STAR selection notes.
 
 ### Wollongong (WOL)
 WOL is reponsible for issuing STAR clearances, initial descent, and sequencing actions for aircraft inbound to YSCB. WOL is also responsible for issuing STAR clearance *(but not runway assignment)* to aircraft processed via the ODALE STAR into YSSY which depart from an aerodrome within the subsector. The BIK controller will issue runway assignment to these aircraft on first contact.
@@ -57,11 +54,28 @@ GUN is reponsible for issuing STAR clearances and initial descent for aircraft i
     *VOZ655 (operated by a SAAB 340) has departed YSCB for YSSY and been handed off from CB TCU to GUN*  
     **VOZ655:** "Melbourne Centre, VOZ655, climbing F130"  
     **GUN:** "VOZ655, Melbourne Centre, cleared ODALE7 arrival, climb F130"
+    
+GUN is also responsible for initial sequencing actions into YSSY. Aircraft cruising above `F250` should be assigned *no lower* than `F250` and handed to BIK for further descent. Aircraft cruising below `F250` should be transferred to BIK at their cruise level.
+
+Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway and STAR selection notes.
+
+### Sequencing into YSSY
+Sequencing arrivals from the west into YSSY is a joint responsibility of GUN and BIK. Initial sequencing actions should be performed by GUN, with fine tuning and any holding required issued by BIK.
+
+Aircraft from the south/west are *generally* assigned 16R/34L and aircraft from the north/east assigned 16L/34R to simplify the sequencing required.  However, some heavy aircraft from the north/east may operationally require the longer runway, so consider assigning an aircraft on the ODALE/RIVET STAR 16L/34R to free up a slot on the other runway as necessary. Similarly, it may be beneficial for the sequence to assign an arrival to runway 16L/34R to avoid unnecessary delays for the main runway.
+
+!!! note
+    Consider traffic inbound from the north/east when assigning runway 16L/34R, as Brisbane Centre will preference that runway for arrivals from their airspace.
 
 Jet aircraft for YSSY shall be assigned the **RIVET** STAR.  
 Non-jet aircraft for YSSY shall be assigned the **ODALE** STAR.
+
+!!! tip
+    Whilst the preference is to keep jet/non-jet aircraft assigned the default STAR as above, there are situations where the sequence may be improved by assigning the adjacent STAR (e.g. a non-jet assigned the RIVET STAR).  
     
-GUN is also responsible for initial sequencing actions into YSSY. Aircraft cruising above `F250` should be assigned *no lower* than `F250` and handed to BIK for further descent. Aircraft cruising below `F250` should be transferred to BIK at their cruise level.
+    Either **SY TCU** or **BIK** may propose utilising the adjacent STAR where two aircraft with significantly different cruise/descent speeds will be required to overtake or pass abeam each other to achieve a sequenced landing time, or if assigned different runways. This technique can allow aircraft to be processed for different runways independently with minimal delay by using the built-in separation afforded by the STAR height requirements.  
+
+    In this case, coordination should be conducted to ensure that both controllers agree and no additional conflicts are created as a result (particularly with aircraft inbound from the north/east).
 
 ## Coordination
 ### BIK/WOL / SY TCU
