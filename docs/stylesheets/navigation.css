@@ -30,6 +30,9 @@
   color: var(--md-primary-fg-color);
   height: -webkit-fill-available;
 }
+.md-nav__link[data-md-state=blur]:not(.md-nav__link--active) {
+  color: inherit;
+}
 
 /*Announcement Bar*/
 .md-banner {
