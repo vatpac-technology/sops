@@ -21,7 +21,7 @@
 * [Additional requirements](#airspace-structural-arrangements) must be met prior to opening SRI as a stand-alone position.
 
 ## Airspace
-The Vertical limits of the SY TCU are `SFC` to `F280`.  
+The Vertical limits of the SY TCU are `SFC` to `F285`.  
 SY TCU is responsible for the Sydney TMA, except:  
 
 - SY CTR `SFC` to `A005` as outlined [here](../../aerodromes/sydney/#airspace)
@@ -53,6 +53,26 @@ SRI is responsible for the provision of FIS in Class G airspace within the SY TM
     During a busy event, Sydney Departures is experiencing a high workload and wishes to delegate the SRI role to another TMA controller who isn't as busy.  SAN's sector is quiet, so they elect to perform the role.
 
 ## Arrival Procedures
+### STAR and Runway Assignment
+Sequencing of arrivals into YSSY is a joint responsibility of ARL and BIK, with input from SY TCU.
+
+Aircraft from the south/west are assigned 16R/34L and aircraft from the north/east assigned 16L/34R.  However, some heavy aircraft from the north/east may operationally require the longer runway. Similarly, it may be beneficial for the sequence to assign an arrival to an alternate runway to avoid unnecessary delays.
+
+Jet aircraft for YSSY shall be assigned the **RIVET**, **BOREE**, or **MARLN** STARs.  
+Non-jet aircraft for YSSY shall be assigned the **ODALE**, **MEPIL**, or **MARLN** STARs.
+
+Whilst the preference is to keep aircraft assigned the default STAR & runway as above, there are situations where the sequence may be improved by assigning the adjacent STAR or an alternate runway. It is a joint responsibility of **SY TCU** and the surrounding enroute controllers to consider these STAR/runway changes when reviewing the inbound sequence. If a change is recommended, coordination should be conducted with the enroute controller to request that an aircraft be reassigned. Where aircraft will be passing in close proximity (even if assigned different runways), consider the use of the adjacent STAR, to maintain a separation standard during the arrival.
+
+!!! note
+    Before reassigning an aircraft to an alternate runway, consider arrivals inbound from all directions to ensure that no additional conflict is created.
+
+Approach controllers can use the built-in separation afforded by the STAR height requirements to process aircraft on adjacent STARs (e.g. RIVET and ODALE, or BOREE and MEPIL), allowing aircraft to pass abeam or overtake each other, as dictated by the overall sequence. See [Level Assignment](#level-assignment) below for details on maintaining separation using the STAR height requirements.
+
+!!! example
+    During a busy Milk Run Monday, a large volume of traffic is approaching YSSY from the southwest, with no arrivals from the north or east. To prevent unnecessarily delaying inbound aircraft by processing them for a single runway, coordinate with **BIK** to request certain aircraft are tactically assigned runway 16L/34R, to improve the overall efficiency of the sequence.  
+
+    Where aircraft are moved to the alternate runway, consider requesting that they are also assigned the alternate STAR to an aircraft approaching at a similar time on the main runway (i.e. a jet aircraft is moved to runway 34R and cleared the ODALE STAR for separation with a jet aircraft nearby assigned runway 34L via the RIVET STAR).
+
 ### Level Assignment
 !!! note
     Inbound aircraft will be handed from Enroute to Approach assigned the [standard assignable level](#arrivals).  This section refers to further descent issued by the Approach controller.

@@ -27,17 +27,54 @@ When **CFS ADC** is offline, CFS CTR (Class D `SFC` to `A045`) reverts to Class 
 
 ## Sector Responsibilities
 ### Armidale (ARL) / Manning (MNN)
-ARL and MNN are responsible for initial sequencing, issuing STAR Clearances, and issuing initial descent for aircraft bound for YSSY, via BOREE and MEPIL respectively.  
+ARL and MNN are responsible for initial sequencing, issuing STAR Clearances, and issuing initial descent for aircraft bound for YSSY, via BOREE and MEPIL respectively. Aircraft cruising above `F250` should be assigned *no lower* than `F250` and handed to CNK for further descent. Aircraft cruising below `F250` should be transferred to CNK at their cruise level.
+
+Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway and STAR selection notes.
+
+ARL is also responsible for aircraft operating into/out of YSTW from the south/east when TW ADC is operating.
+
+!!! note
+    ARL and MDE share a joint responsibility to build the final sequence of arrivals into YSTW when the tower is open. Coordination with MDE should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
+
+### Cessnock (CNK) 
+CNK is responsible for final sequencing and descent for aircraft bound for YSSY, via BOREE and MEPIL.
+
+Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway and STAR selection notes.
+
+### Maitland (MLD)
+MLD is responsible for handling northbound departures from YSSY and arrivals into YWLM from the south.
+
+### Mudgee (MDE)
+MDE is responsible for aircraft operating into/out of YSTW from the north/west when TW ADC is operating.
+
+!!! note
+    ARL and MDE share a joint responsibility to build the final sequence of arrivals into YSTW when the tower is open. Coordination with ARL should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
+
+### Ocean (OCN)
+OCN is responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YSSY via MARLN.
+
+Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway selection notes.
+
+### Sequencing into YSSY
+Sequencing arrivals from the north/east into YSSY is a joint responsibility of the subsectors of ARL. Initial sequencing actions for aircraft from the north should be performed by ARL and MNN, with fine tuning and any holding required issued by CNK. 
+
+Aircraft from the north/east shall be assigned **runway 16L/34R** during PROPS. However, some situations may warrant the use of the main runway (16R/34L), such as heavy aircraft operationally requiring the longer runway or large volumes of traffic requiring the use of both runways to minimise delay. In this case, coordination must be conducted with Melbourne Centre or Sydney Flow (if operating) to ensure that the sequence is built in an efficient and orderly way.
+
+!!! example
+    <span class="hotline">**ARL** -> **BIK**</span>: "North of Sydney, CPA21, with your concurrence will be assigned runway 34L due operational requirement"  
+    <span class="hotline">**BIK** -> **ARL**</span>: "Concur, CPA21 runway 34L, required landing time 43 due sequence from the west"  
+    <span class="hotline">**ARL** -> **BIK**</span>: "Runway 34L, landing time 43, CPA21"
+
 Jet aircraft for YSSY shall be assigned the **BOREE** STAR.  
 Non-jet aircraft for YSSY shall be assigned the **MEPIL** STAR.
 
-For Sequencing purposes, MEPIL and BOREE must be considered to be the same STAR. Practically, this means ARL must sequence at least a 2 minute gap between all YSSY arrivals, whether they are arriving via the same feeder fix or not.
-### Cessnock (CNK) / Maitland (MLD)
-CNK and MLD are responsible for final sequencing for aircraft bound for YSSY, via BOREE and MEPIL respectively.
-### Mudgee (MDE)
-Just keeping them separated!
-### Ocean (OCN)
-OCN is responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YSSY via MARLN.
+!!! tip
+    Whilst the preference is to keep jet/non-jet aircraft assigned the default STAR as above, there are situations where the sequence may be improved by assigning the adjacent STAR (e.g. a jet assigned the MEPIL STAR). This is most common when assigning the alternate runway to an arrival.  
+    
+    Either **SY TCU** or **ARL** may propose utilising the adjacent STAR where two aircraft with significantly different cruise/descent speeds will be required to overtake or pass abeam each other to achieve a sequenced landing time, or if assigned different runways. This technique can allow aircraft to be processed for different runways independently with minimal delay by using the built-in separation afforded by the STAR height requirements.  
+
+    In this case, coordination should be conducted to ensure that both controllers agree and no additional conflicts are created as a result (particularly with aircraft inbound from the south/west).
+
 ## Coordination
 ### ARL (All) / SY TCU
 The Standard Assignable level from ARL(All) to SY TCU is:  
@@ -51,12 +88,12 @@ The Standard Assignable level from SY TCU to ARL(All) is the lower of `F280` or 
 Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
 
 ### ARL (All) / ENR
-As per [Standard coordination procedures](../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 ### ARL/MDE/CNK/MNN/MLD/OCN Internal
-As per [Standard coordination procedures](../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-That being said, it is *advised* that ARL(All) gives **Heads-up Coordination** in the following scenarios:   
+That being said, due to their small sizes and frequent random-track traffic, it is *advised* that ARL(All) gives **Heads-up Coordination** in the following scenarios:   
 - MNN to ARL for all aircraft  
 - ARL to MNN for all aircraft  
 - CNK to MLD for all aircraft  
@@ -146,4 +183,4 @@ To put it bluntly, the R574 Restricted Area is quite large.
 It also occupies a lot of airspace that would commonly be used by YSSY arrivals and departures. If YWLM military operations are taking ownership of this airspace, it is good practice to negotiate an airspace release, whether that be a lateral or vertical portion of airspace (or a combination), to enable them to facilitate YSSY arrivals and departures with minimal impact.
 
 ### OCN/MNN / TSN/HWE (Oceanic)
-As per [Standard coordination procedures](../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
