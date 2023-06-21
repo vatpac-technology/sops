@@ -7,9 +7,9 @@
 ## Positions
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| Essendon ADC      | Essendon Tower   | 125.100          | EN_TWR                                   |
-| Essendon SMC      | Essendon Tower   | 121.900          | EN_TWR                                   |
-| Essendon ATIS     |                | 119.800         | YMEN_ATIS                                |
+| Essendon ADC      | Essendon Tower   | 125.100         | EN_TWR                                   |
+| Essendon SMC      | Essendon Ground  | 121.900         | EN_GND                                   |
+| Essendon ATIS     |                  | 119.800         | YMEN_ATIS                                |
 
 ## Airspace
 EN ADC is responsible for the Class C airspace in the "Coffin" `SFC` to `A015`, and in the "South East Quadrant" `SFC` to `A020`.
@@ -52,7 +52,7 @@ ML TCU shall clear aircraft for approach via the appropriate arrival gate:
 ### VFR
 VFR arrivals from Class G shall be cleared (at not above `A015`) via:
 
-| Direction | VFR Approach Point | RWY 17, 26 | RWY 36 |
+| Direction | VFR Approach Point | RWY 17, 26 | RWY 35 |
 |----------| ------------------------ | ----------| ----------|
 | North | KAO | DCT | DCT |
 | North East | YYN     | DCT | DCT |
