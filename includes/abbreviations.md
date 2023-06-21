@@ -239,3 +239,4 @@
 *[KCFF]: Kingscliff
 *[DNGR]: Point Danger
 *[IAS]: Indicated Airspeed
+*[PNL]: Port Noarlunga
