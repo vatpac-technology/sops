@@ -8,7 +8,7 @@
 
 | Name               | ID      | Callsign       | Frequency        | Login Identifier              |
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
-| **Brisbane Approach North**    |**BAN**| **Brisbane Approach**   | **124.400**         | **BN_APP**                                   |
+| **Brisbane Approach North**    |**BAN**| **Brisbane Approach**   | **124.700**         | **BN_APP**                                   |
 | Brisbane Approach South†   |BAS| Brisbane Approach   | 125.600          | BN-S_APP                                 |
 | Brisbane Departures North†    |BDN| Brisbane Departures  | 133.450         | BN_DEP          |
 | Brisbane Departures South†   |BDS| Brisbane Departures | 118.450          | BN-S_DEP         |
