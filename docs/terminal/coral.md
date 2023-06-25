@@ -12,13 +12,12 @@
 | Rockhampton Approach  | RKA | Coral Approach   | 123.750        | RK_APP                 |
 
 ## Airspace
-The Vertical limits of the COR TCU are `SFC` to `F150`.  
+The Coral TCU includes the airpsace `SFC` to `F150` within the Mackay and Rockhampton keyholes (shown below).  
 MK ADC own the Class D airspace within MK CTR `SFC` to `A010`.  
 RK ADC own the Class D airspace within RK CTR `SFC` to `A010`.  
 
 ## Extending
-!!! Note
-    MKA may extend to RKA and vice versa, callsigns remain the same.
+MKA may extend to RKA and vice versa, callsigns remain the same. See [Controller Skills](../controller-skills/extending.md) for details.
 
 !!! tip
     When setting up vatSys while providing coverage to RKA and MKA, it is recommended that you have seperate air displays open for MKA and RKA.
