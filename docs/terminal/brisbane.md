@@ -19,7 +19,7 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
-The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, where it is `SFC` to `A065` in the North West, and `SFC` to `F115` in the South East.
+The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, where it is `SFC` to `A075` in the North West, and `SFC` to `F125` in the South East.
 
 AF CTR reverts to Class G when **AF ADC** is offline, and is administered by the relevant BN TCU controller.  
   
