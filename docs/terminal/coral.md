@@ -12,7 +12,7 @@
 | Rockhampton Approach  | RKA | Coral Approach   | 123.750        | RK_APP                 |
 
 ## Airspace
-The Coral TCU includes the airpsace `SFC` to `F150` within the Mackay and Rockhampton keyholes (shown below).  
+The Coral TCU includes the airspace `SFC` to `F150` within the Mackay and Rockhampton keyholes (shown below).  
 MK ADC own the Class D airspace within MK CTR `SFC` to `A010`.  
 RK ADC own the Class D airspace within RK CTR `SFC` to `A010`.  
 
