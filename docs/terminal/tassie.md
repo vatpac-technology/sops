@@ -12,22 +12,22 @@
 | Launceston Approach  | LTA | Launy Approach   | 123.800        | LT_APP                 |
 
 !!! Note
-    Hobart Approach **must** extend to Launceston Approach and vice versa, callsigns remain the same.
+    HBA may elect to extend to LTA and vice versa, callsigns remain the same. See [Controller Skills](../controller-skills/extending.md) for details.
 
 ## Airspace
-The Vertical limits of the TAS TCU are `SFC` to `F245`.  
-HB ADC own the Class D airspace within HB CTR `SFC` to `A010`.  
-LT ADC own the Class D airspace within LT CTR `SFC` to `A010`.  
+**LTA** owns the airspace `SFC` to `F245` within a 30nm radius of the LT VOR. LT ADC owns the Class D airspace within LT CTR `SFC` to `A015` when open.  
+
+**HBA** owns the airspace `SFC` to `F245` within the remainder of the Tasmania TMA (shown below). HB ADC owns the Class D airspace within HB CTR `SFC` to `A015` (north of runway centreline) and `A025` (south of runway centreline) when open. 
 
 <figure markdown>
 ![TAS TCU](img/TASTCU.png){ width="700" }
 </figure>
 
 ## Hobart
-All aircraft should be kept on SIDs and STARs. If due to operational requirements or routing, an aircraft is unable to accept the SID or STAR, Voice Coordination with HUO will be required.
+All aircraft should be kept on SIDs and STARs. If due to operational requirements or routing, an aircraft is unable to accept the SID or STAR, voice coordination with HUO will be required.
 
 ## Launceston
-Visual approaches are preferred into Launceston. If due to operational requirements, an aircraft is unable to accept a visual approach, Coordination with **LT ADC** may be required.  
+Visual approaches are preferred into Launceston. If due to operational requirements, an aircraft is unable to accept a visual approach, coordination with **LT ADC** may be required.  
 
 Runway 32L is regularly the duty runway due to prevailing winds. To assist traffic flow in and out of the TCU, ATC will instruct aircraft to track for runway 32L via `IRSOM, NODAS, MLTSC` which keeps the aircraft within CTA and away from the departures stream.
 
@@ -45,14 +45,15 @@ Any aircraft not meeting the above criteria must be prior coordinated to HUO.
 
 #### Arrivals
 The Standard assignable level from HUO to HBA/LTA is:  
-`A090` for YMLT arrivals, tracking IRSOM DCT LT, or NUNPA DCT LT.  
+`A090` for YMLT arrivals, tracking `IRSOM DCT LT`, or `NUNPA DCT LT`.  
 `F130` for YMHB arrivals, and assigned the IPLET STAR or MORGO STAR.
 
 All other aircraft must be voice coordinated to HBA/LTA.
 
 ### HB ADC / HBA
 #### Airspace
-HB ADC owns the Class D airspace in the HB CTR `SFC` to `A010`. HBA owns the Class D and C airspace above `A010`.
+HB ADC owns the Class D airspace in the HB CTR `SFC` to `A015` north of the runway centreline and `A025` south of the runway centreline. HBA owns the Class D and C airspace above these levels.
+
 #### Departures
 HB ADC will give a "Next" call for:
 
@@ -77,7 +78,8 @@ HBA will coordinate all YMHB arrivals to HB ADC prior to **5 mins** from the bou
 
 ### LT ADC / LTA
 #### Airspace
-LT ADC owns the Class D airspace in the LT CTR `SFC` to `A010`. LTA owns the Class D and C airspace above `A010`.
+LT ADC owns the Class D airspace in the LT CTR `SFC` to `A015`. LTA owns the Class D and C airspace above `A015`.
+
 #### Departures
 LT ADC will give a "Next" call for:
 

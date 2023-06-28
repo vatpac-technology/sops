@@ -15,27 +15,17 @@
 </figure>
 
 ## Responsibilities
-Whilst the **HBA** controller is expected to provide a [top-down service](../../../aerodromes/Hobart) to YMHB when **HB ADC** is offline, this is not expected of a HUO controller when both **HBA** and **HB ADC** are offline. If electing not to provide a top-down service to YMHB, the HB CTR Class D `SFC` to `A015` reverts to Class G.  
-Whilst the **LTA** controller is expected to provide a [top-down service](../../../aerodromes/Launceston) to YMLT when **LT ADC** is offline, this is not expected of a HUO controller when both **LTA** and **LT ADC** are offline. If electing not to provide a top-down service to YMLT, the LT CTR Class D `SFC` to `A015` reverts to Class G.  
+HUO is reponsible for issuing STAR clearances, sequencing, and descent for aircraft bound for YMLT and YMHB.
 
-HUO is reponsible for issuing STAR clearances, initial descent, and sequencing for aircraft bound for YMLT and YMHB.
-## HB/LT ADC Offline
-When **HB ADC** or **LT ADC** is offline, the relevant CTR (Class D `SFC` to `A015`) airspace reverts to Class G, and is administered by HUO. Alternatively, HUO may provide a top-down service if they wish.
+### Top Down Extension
+When **HBA** and/or **LTA** are offline, the class C and D airspace `SFC` to `A085` in the relevant TMA is reclassified as class G.
 
-If not providing a top-down service, due to the low level of CTA at these aerodromes, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
+HUO may choose to operate either YMHB or YMLT (or both) aerodromes top down, including the terminal airspace within the Tasmania TMA. Due to limited surveillence coverage and the complex airspace setup, **extending top down to one or both aerodromes is not compulsory.**
 
-Departures shall be cleared via a SID.
+If HUO chooses to operate top down to either aerodrome, they must administer all relevant airspace within the appropriate TMA, including the class D CTR.
 
-!!! example
-    **JST718:** "Melbourne Centre, JST718, A320, IFR, Taxiing YMHB for YSSY, Runway 12"  
-    **HUO:** "JST718, Melbourne Centre, Squawk 3601, No Reported IFR Traffic, Call me Ready at the Holding Point for Airways Clearance"  
-    **JST718:** "Squawk 3601, Wilco, JST718"  
-      
-    **JST718:** "JST718, Ready Runway 12, Request clearance"  
-    **HUO:** "JST718, Cleared to YSSY via LATUM, flight planned route. Runway 12, LATUM2 Departure. Climb via SID to A080"  
-    **JST718:** "Cleared to YSSY via LATUM, flight planned route. Runway 12, LATUM2 Departure. Climb via SID to A080, JST718"  
-
-YMHB arrivals shall still be assigned the relevant STAR for their requested arrival runway.
+!!! important
+    Ensure you are familiar with the aerodrome procedures for [Launceston](../../aerodromes/Launceston.md) and [Hobart](../../aerodromes/Hobart.md) before extending top down, and are aware of the limited surveillence coverage available in the lower levels of the TMA.
 
 ## Coordination
 ### HUO / TAS TCU
@@ -46,6 +36,10 @@ The Standard assignable level from HUO to TAS TCU TCU is:
 All other aircraft must be voice coordinated to HBA/LTA prior to **20nm** from the boundary.
 
 The Standard Assignable level from HBA and LTA to HUO is the lower of `F240` or the `RFL`, and tracking via a SID terminus.
+
+!!! note
+    LTA owns the terminal airspace within a 30nm radius of LT VOR. HBA owns the remainder of the TCU.
+
 ### HUO / ENR
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
