@@ -166,6 +166,6 @@ The aerodrome controllers 'own' the pavement on all runways and any taxiways or 
 Areas outside of the manoeuvring area are beyond the jurisdiction of the aerodrome controllers. However, since these aerodromes exist in a CTR (with controlled airspace down to the surface), a clearance is required to operate in the airspace itself. ATC is not able to issue explicit takeoff and landing clearances (as they don't own the ground on which the aircraft wishes to takeoff/land), so issue a requirement to report airborne or on the ground.
 
 !!! example
-    **SY ADC**: "HSZ, hotel 2, report on the ground"  
+    **SY ADC**: "HSZ, hotel 6, report on the ground"  
 
     **SY ADC**: "HWD, report airborne"
