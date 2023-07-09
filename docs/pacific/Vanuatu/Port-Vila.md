@@ -1,5 +1,5 @@
 ---
-  title: Vanuatu
+  title: Port Vila
 ---
 
 --8<-- "includes/abbreviations.md"
