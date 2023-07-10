@@ -1,5 +1,5 @@
 ---
-  title: Vanuatu
+  title: Port Vila
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -18,7 +18,7 @@ Port Vila Class D CTA exists:
 - Within a 20 NM-radius circle centred on the Port Vila/Bauerfield ARP from surface to 3500 FT (base of TMA).  
 - Within a 50 NM-radius circle centred on the Port Vila/Bauerfield ARP from 3500 FT (top of CTR) to 9500 FT (base of CTA).  
 
-During Port Vila hours of watch, **Port Vila Tower** provides ATS for the Port Vila TMA.
+During Port Vila hours of watch, **Port Vila Tower** provides ATS for the entire Port Vila TMA. 
 
 !!! note
     Outside of hours of watch, Port Vila Class D CTR is reclassified Class G and **Nadi Oceanic** provides ATS for the entire Sector.  
@@ -36,7 +36,7 @@ Clear IFR arrivals via visual approach by day and in VMC. Otherwise, clear IFR a
 
 ## Enroute
 
-Due to airspace and aerodrome limitations, you will need to hold aircraft at the initial approach fix until the preceding arrival has landed or separation is achieved with respect to the preceding depature.
+Reserved.
 
 ## Coordination
 
