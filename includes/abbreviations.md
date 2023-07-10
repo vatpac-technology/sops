@@ -50,6 +50,8 @@
 *[FF]: Feeder Fix
 *[NAVCAP]: Navigation Capability
 *[TFMS]: The Flow Management System
+*[TAF]: Terminal Area Forecast
+*[DAP]: Departure and Approach Procedures (AIP)
 *[AAW]: Adelaide Approach West
 *[AAE]: Adelaide Approach East
 *[BAC]: Brisbane (Gold Coast) Approach
