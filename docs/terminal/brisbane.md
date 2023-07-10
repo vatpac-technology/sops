@@ -8,7 +8,7 @@
 
 | Name               | ID      | Callsign       | Frequency        | Login Identifier              |
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
-| **Brisbane Approach North**    |**BAN**| **Brisbane Approach**   | **124.400**         | **BN_APP**                                   |
+| **Brisbane Approach North**    |**BAN**| **Brisbane Approach**   | **124.700**         | **BN_APP**                                   |
 | Brisbane Approach South†   |BAS| Brisbane Approach   | 125.600          | BN-S_APP                                 |
 | Brisbane Departures North†    |BDN| Brisbane Departures  | 133.450         | BN_DEP          |
 | Brisbane Departures South†   |BDS| Brisbane Departures | 118.450          | BN-S_DEP         |
@@ -19,7 +19,7 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
-The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, where it is `SFC` to `A065` in the North West, and `SFC` to `F115` in the South East.
+The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, where it is `SFC` to `A075` in the North West, and `SFC` to `F125` in the South East.
 
 AF CTR reverts to Class G when **AF ADC** is offline, and is administered by the relevant BN TCU controller.  
   
@@ -64,19 +64,19 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, **BAC*
 
 ### 01 PROPS
 <figure markdown>
-![01 PROPS TCU Structure](img/BN01PROPSannotated.png){ width="700" }
+![01 PROPS TCU Structure](img/bn01propsannotated.png){ width="700" }
   <figcaption>01 PROPS TCU Structure</figcaption>
 </figure>
 
 ### 19 PROPS
 <figure markdown>
-![19 PROPS TCU Structure](img/BN19PROPSannotated.png){ width="700" }
+![19 PROPS TCU Structure](img/bn19propsannotated.png){ width="700" }
   <figcaption>19 PROPS TCU Structure</figcaption>
 </figure>
 
 ### SODPROPS
 <figure markdown>
-![SODPROPS TCU Structure](img/BNSODPROPSannotated.png){ width="700" }
+![SODPROPS TCU Structure](img/bnsodpropsannotated.png){ width="700" }
   <figcaption>SODPROPS TCU Structure</figcaption>
 </figure>
 
