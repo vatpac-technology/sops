@@ -18,7 +18,7 @@ Port Vila Class D CTA exists:
 - Within a 20 NM-radius circle centred on the Port Vila/Bauerfield ARP from surface to 3500 FT (base of TMA).  
 - Within a 50 NM-radius circle centred on the Port Vila/Bauerfield ARP from 3500 FT (top of CTR) to 9500 FT (base of CTA).  
 
-During Port Vila hours of watch, **Port Vila Tower** provides ATS for the entire Port Vila Sector. 
+During Port Vila hours of watch, **Port Vila Tower** provides ATS for the Port Vila TMA.
 
 !!! note
     Outside of hours of watch, Port Vila Class D CTR is reclassified Class G and **Nadi Oceanic** provides ATS for the entire Sector.  
