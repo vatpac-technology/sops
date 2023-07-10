@@ -37,7 +37,7 @@ The controller in charge of the ATIS must nominate an approach expectation to al
 
 Visual approaches should be nominated on the ATIS when the current meteorological conditions (cloud base and visibility) allow for them. You may nominate visual approaches when:
 
-- There are no clouds within 500ft of the MSA (as found on any DAP chart), and
+- There are no clouds within 500ft of the appropriate MSA sector from which the approach will be commenced (as found on any DAP chart), and
 - The visibility is greater than 5000m
 
 <figure markdown>
@@ -51,7 +51,7 @@ If the cloud base or visibility does not allow for visual approaches, an instrum
     See [ATIS Abbreviations](./atis.md) for a full list of abbreviations which can be used in the ATIS.
 
 ## Runway Changes
-Whilst runway changes have a minimal impact on aerodrome controllers, they can drastically increase the workload for TMA controllers and have large flow on effects for enroute controllers. All runway changes should (where possible) be carefully planned and communicated, to ensure all surrounding sectors are aware of the impending change.
+Whilst runway changes have minimal impact on aerodrome controllers, they can drastically increase the workload for TMA controllers and have large flow on effects for enroute controllers. All runway changes should (where possible) be carefully planned and communicated, to ensure all surrounding sectors are aware of the impending change.
 
 !!! important
     Runway changes involve all types of controllers (from Delivery to Enroute), so a large amount of coordination is required. All coordination should be done on a **point-to-point** basis, so remember to pass on any relevant details to any controllers above/around you as necessary.
@@ -64,13 +64,15 @@ The aerodrome controller in charge of the ATIS should frequently check the METAR
 Discuss the event with the overlying TMA controller/s and nominate a time from which the new runway configuration will be used. It can be helpful to identify the last arrival who will use the current runway mode, so that both Tower and Approach have a definite change point. Once this coordination has been completed, update the ATIS and include an expectation of a runway change in the `OPR INFO` field. This should include the expected time of change and the new runway mode to be used.
 
 !!! example
-    <span class="hotline">**SY ADC** -> **SAN**</span>: "The tailwind component is starting to increase a bit and TAF indicates the wind's going to keep swinging around. Thoughts on changing to runway 34s from time 30?"  
+    <span class="hotline">**SY ADC** -> **SAN**</span>: "The tailwind component is starting to increase a bit and the TAF indicates the wind's going to keep swinging around. Thoughts on changing to runway 34s from time 30?"  
     <span class="hotline">**SAN** -> **SY ADC**</span>: "There's a gap in the sequence in about 20 minutes, lets make it time 45. Last arrival in the runway 16 direction will be QFA553."  
     <span class="hotline">**SY ADC** -> **SAN**</span>: "Copy, changing to 34s at time 45, last arrival runway 16s QFA553."
 
     **ATIS**: `FM TIME 0445 EXP RWY 34L AND R FOR ARRS AND DEPS`
 
 Once QFA553 lands, the runway change can occur. It is good practice to cancel autorelease during this period, to avoid any surprise departures.
+
+After being notified by ADC, TMA controllers should coordinate the impending change with Enroute, who will amend any STAR clearances for aircraft projected to land after the nominated time. Enroute controllers should also consider adding a gap of a few minutes to the sequence at the nominated runway change time, to allow the TMA controller to 'finish' the sequence onto the current runway before aircraft begin approaching the new runway (which may be the reciprocal end).
 
 ### Immediate Change
 Sometimes, prior notice is not available to plan a runway change and an immediate change is required. **Changes of this nature will have a severe impact on surrounding controllers if the traffic levels are high, and should be avoided at all costs.**
