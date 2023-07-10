@@ -6,6 +6,8 @@
 
 ## Phraseology
 
+Reserved.
+
 ## Altimetry
 
 ### Transition Altitude 

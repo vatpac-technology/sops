@@ -12,8 +12,6 @@ Within the Nadi FIR, the transition altitude is 11,000 ft.
 
 ### Transition Level
 
-### Transition Level
-
 | QNH (hPa)               | Transition Level |
 | -------------------| ---------------- | 
 | 980 Or Less | FL 140 | 

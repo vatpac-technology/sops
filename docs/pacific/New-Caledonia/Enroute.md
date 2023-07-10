@@ -6,6 +6,8 @@
 
 ## Positions
 
+| Name                    | Login     | Callsign         | Frequency |
+| ----------------------- | --------- | ---------------- | --------- |
 | Noumea Control| 	NWWW_CTR| 	Tontouta Control	| 128.200| 
 
 ## Airspace
