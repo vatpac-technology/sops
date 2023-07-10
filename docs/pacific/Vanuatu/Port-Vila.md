@@ -36,7 +36,7 @@ Clear IFR arrivals via visual approach by day and in VMC. Otherwise, clear IFR a
 
 ## Enroute
 
-Due to airspace and aerodrome limitations, you will need to hold aircraft at the initial approach fix until the preceding arrival has landed or separation is achieved with respect to the preceding depature.
+Reserved.
 
 ## Coordination
 
