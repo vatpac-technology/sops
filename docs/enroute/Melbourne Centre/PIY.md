@@ -42,7 +42,7 @@ HYD is responsible for assigning and issuing arrival clearance to aircraft inbou
 JAR is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via `SOLUS`.
 
 !!! note
-    Controllers should be aware there may be limited ADS-B coverage around Albany (YABA). Expect some areas of Class E airspace to be outside surveillance coverage. [Procedural Standards](../../../controller-skills/sepstandards/#procedural) may need to be used in these cases.
+    Controllers should be aware there may be limited ADS-B coverage around Albany (YABA). Expect some areas of Class E airspace to be outside surveillance coverage. [Procedural Standards](../../../separation-standards/procedural) may need to be used in these cases.
 
 ## Coordination
 ### PIY(All) / PH TCU

@@ -30,7 +30,7 @@ ISA is responsible for **ARA**, **STR**, **WEG**, and **CVN** when they are offl
     As per [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), BN-ISA_CTR is only permitted to extend to adjacent **YBBB** sectors.
 
 ## Sector Responsibilities
-ISA and its subsectors are purely Classes A, E and G of airspace. [Standard seperation procedures](../../../controller-skills/sepstandards/#enroute) apply.
+ISA and its subsectors are purely Classes A, E and G of airspace. [Standard separation procedures](../../../separation-standards) apply.
 ## Coordination
 
 ### ISA (All) / ENR
