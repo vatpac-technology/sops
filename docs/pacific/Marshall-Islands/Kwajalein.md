@@ -8,8 +8,9 @@
 
 | Name                    | Login     | Callsign         | Frequency |
 | ----------------------- | --------- | ---------------- | --------- |
+| Kwajalein Approach	| PKWA_APP	| Kwaj Approach	| 126.200| 
 | Bucholz SMC	| PKWA_GND	| Bucholz Ground	| 121.900| 
 | Bucholz Tower	| PKWA_TWR	| Bucholz Tower	| 118.800| 
 | Bucholz ATIS	| PKWA_ATIS| 	|  	119.500| 
-| Kwajalein Approach	| PKWA_APP	| Kwaj Approach	| 126.200| 
+
 
