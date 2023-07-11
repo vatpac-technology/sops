@@ -64,7 +64,10 @@ When using the SODPROPS mode, pass traffic information to aircraft that are depa
     **BN ADC:** "DEF, Traffic is ABC, an A320, departing from the opposite direction parallel runway to the South-West. Runway 19R, Cleared to Land"  
     **DEF:** "Cleared to Land Runway 19R, DEF"  
 
-## Parallel Runway Operations - Runway Selection
+## Parallel Runway Operations
+Refer to [Parallel Runway Separation Standards](../../separation-standards/parallelapps) for more information
+
+### Runway Selection
 Aircraft shall be assigned the following runways for departure when PROPS are in progress:
 
 | Aircraft tracking | Runway  |
@@ -81,7 +84,7 @@ Aircraft shall be assigned the following runways for departure when PROPS are in
 !!! tip
     Runway 01L/19R opened in 2020. Some pilots on VATSIM may have old simulators/scenery, in which case they will only have Runway 01R/19L available. Endeavour to be accommodating of pilots' requests in this instance.
 
-## SID Selection
+### SID Selection
 
 Jet Aircraft planned via **BIXAD**, **GUMKI**, **SCOTT**, **SANEG**, or **WACKO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
