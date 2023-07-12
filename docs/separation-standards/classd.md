@@ -5,7 +5,7 @@ title: Class D Tower
 --8<-- "includes/abbreviations.md"
 
 ## Airspace
-Remember that in [Class D Airspace](../../controller-skills/classofairspace), IFR aircraft are separated from IFR and SVFR, and SVFR is separated from SVFR when not VMC. **No separation** is provided for VFR aircraft, even though it is controlled airspace. The Tower Controller provides more of a *"Segregation"* service (ie, providing reasonable opportunity for the aircraft to separate themselves), as well as providing traffic information.
+Remember that in [Class D Airspace](../../controller-skills/classofairspace), IFR aircraft are separated from IFR and SVFR, and SVFR is separated from SVFR when visibility is not VMC. **No separation** is provided for VFR aircraft, even though it is controlled airspace. The Tower Controller provides more of a *"Segregation"* service (ie, providing reasonable opportunity for the aircraft to separate themselves), as well as providing traffic information.
 
 <figure markdown>
 ![Class D Tower Airspace Diagram](img/classDtwrdiagram.png){ width="800" }
