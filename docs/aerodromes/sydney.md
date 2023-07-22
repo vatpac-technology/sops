@@ -144,12 +144,13 @@ When using the SODPROPS mode, pass traffic information to aircraft that are depa
     **SY ADC:** "VOZ954, traffic is an A320 departing from the opposite direction parallel runway to the southeast, runway 34L, cleared to land"  
     **VOZ954:** "Runway 34L, cleared to land, VOZ954"  
 ## Parallel Runway Operations
+Refer to [Parallel Runway Separation Standards](../../separation-standards/parallelapps) for more information
 
-#### Go-arounds / Missed Approaches
+### Go-arounds / Missed Approaches
 When operating under PROPS, go around headings shall diverge from the extended centreline of the parallel runway by at least 30°. Aircraft cleared the ILS or IVA may follow the published missed approach in order to meet this requirement.  
 Go arounds / missed approaches shall be coordinated with the SY TCU as per the standard procedure.
 
-#### Runway Selection
+### Runway Selection
 Unless operationally required, aircraft shall be assigned the following runways for departure when PROPS are in progress:
 
 | Aircraft tracking | Runway  |
