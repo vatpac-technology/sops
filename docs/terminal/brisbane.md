@@ -12,7 +12,6 @@
 | Brisbane Approach South†   |BAS| Brisbane Approach   | 125.600          | BN-S_APP                                 |
 | Brisbane Departures North†    |BDN| Brisbane Departures  | 133.450         | BN_DEP          |
 | Brisbane Departures South†   |BDS| Brisbane Departures | 118.450          | BN-S_DEP         |
-| Brisbane Finals† |BMN| Brisbane Finals   | 119.250          | BN-F_APP                               |
 | Gold Coast Approach† |BAC| Brisbane Approach  | 123.500          | BN-C_APP       |
 | Brisbane Flow†        |BFL|                |          | BN-FLW_CTR                               |
 
@@ -26,7 +25,9 @@ AF CTR reverts to Class G when **AF ADC** is offline, and is administered by the
 ### Airspace Structural Arrangements
 Pursuant to Section 3 of the [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), **“North”**/**”West”** positions shall assume the airspace of corresponding **“South”**/**”East”** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
 
-## Parallel Runway Operations - Runway Selection
+## Parallel Runway Operations
+Refer to [Parallel Runway Separation Standards](../../separation-standards/parallelapps) for more information
+### Runway Selection
 Aircraft shall be assigned the following runways for arrival when PROPS are in progress:
 
 | Aircraft tracking | Runway  |
@@ -43,6 +44,9 @@ Aircraft shall be assigned the following runways for arrival when PROPS are in p
 | From the NORTH and WEST | 01L/19R |
 | From the SOUTH and EAST | 01R/19L |
 
+### Independent Visual Approach Phraseology at Night
+*"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (altitude) UNTIL ESTABLISHED ON THE VASIS (or PAPI) (or GLIDEPATH)"*
+
 ## AF ADC Offline
 Due to the low level of CTA (`A015`) in the AF CTR when **AF ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
@@ -56,8 +60,7 @@ Due to the low level of CTA (`A015`) in the AF CTR when **AF ADC** is offline, i
     **ABC**: "Cleared to YBSU via BN, Flight Planned Route. Make Visual right turn DCT BN, Climb to A030, ABC"
 
 ## Airspace Division
-
-The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, **BAC** and **BMN** change based on the Runway Mode.
+The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **BAC** change based on the Runway Mode.
 
 !!! note
     The following diagrams do not include non BN TCU areas of responsibility such as AF CTR or CG ADC
@@ -85,7 +88,7 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, **BAC*
 #### Departures
 The Standard Assignable level for YBBN departures from BN TCU to **INL(All)** is the lower of `F180` or the `RFL`, and tracking via a **Procedural** SID terminus.  
 The Standard Assignable level for YBCG departures from BN TCU to **GOL/SDY** is the lower of `F120` or the `RFL`, and tracking via **APAGI**.  
-The Standard Assignable level for YBCG departures from BN TCU to **NSA/BUR/DOS** is the lower of `F180` or the `RFL`and tracking via a **Procedural** SID terminus.  
+The Standard Assignable level for YBCG departures from BN TCU to **NSA/BUR/DOS** is the lower of `F180` or the `RFL`, and tracking via a **Procedural** SID terminus.  
 The Standard Assignable level for YBSU arrivals from BN TCU to **NSA** is `F130`, and tracking via **ITIDE**.  
 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.

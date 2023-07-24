@@ -8,7 +8,7 @@ Coordination is an underutilised tool in VATPAC airspace, primarily due to how d
 
 Coordination requirements are often very location-specific, however this page outlines the general guidelines to coordination, which are supplemented by Local Instructions.
 
-[MATS Chapter 6](https://www.airservicesaustralia.com/mats/docs/nos-saf-2000.pdf) goes in to much more detail about coordination principles, phraseology, and situations. It is well above the level required for VATSIM, but feel free to read up on it if you want to extend your learning.
+[MATS Chapter 6](https://www.airservicesaustralia.com/mats/docs/nos-saf-2000.pdf){target=new} goes in to much more detail about coordination principles, phraseology, and situations. It is well above the level required for VATSIM, but feel free to read up on it if you want to extend your learning.
 
 ## Coordination in vatSys
 Coordination is performed using the VSCS window in vatSys.  Once logged onto a relevant position, controllers have the option of opening **hotlines** and **coldlines** to surrounding positions.  
@@ -16,7 +16,7 @@ Coordination is performed using the VSCS window in vatSys.  Once logged onto a r
 A hotline is opened by pressing the yellow button titled with the sector you wish to communicate with, which creates an instant connection between positions with no need for the other controller to accept the call.  A coldline is opened by pressing the blue button titled with the sector you wish to communicate with, which notifies the other position and requires them to accept the call before communications can begin.
 
 !!! tip
-    For more in depth information, refer to the [vatSys website](https://virtualairtrafficsystem.com/docs/vscs/).
+    For more in depth information, refer to the [vatSys website](https://virtualairtrafficsystem.com/docs/vscs/){target=new}.
 
 Coordination notes are included for most positions, using the following format: 
 !!! note "" 

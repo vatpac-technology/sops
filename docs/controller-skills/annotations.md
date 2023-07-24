@@ -103,7 +103,7 @@ Here is a complete list of standard annotations controllers should be entering i
 | Distance left or right of track | (distance) [LOT/ROT] | 30 LOT |
 | Enter lateral conflict | ELC/(time/position) | ELC/15 |
 | Leaves lateral conflict | LLC/(time)(position) | LLC/190SY |
-| Clearance limit | F/(position) | F/ELW |
+| Clearance limit | F/(position) | F/YMAV |
 | Sight and pass | S+P/(callsign) | S+P/EDM |
 | Sight and follow | S+F/(callsign) | S+F/VOZ882 |
 | Calculated time of passing | TP(time) | TP0835 |
