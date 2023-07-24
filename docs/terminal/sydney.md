@@ -146,7 +146,7 @@ When conducting IVAs, aircraft shall not be transferred to **SY ADC** until esta
     **BNZ444:** "120.5, BNZ444"
 
 #### Phraseology at Night
-*"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (altitude) UNTIL ESTABLISHED ON THE VASIS (or PAPI) (or GLIDEPATH)"*
+*"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (altitude) UNTIL ESTABLISHED ON THE PAPI (or GLIDEPATH)"*
 
 ## Sydney Harbour Scenic Flights
 Flights may be cleared for one of two standard scenic flight routes at `A015`, **Harbour Scenic One** or **Harbour Scenic Two**, which are described below. Pilot preference should be accommodated where traffic permits.

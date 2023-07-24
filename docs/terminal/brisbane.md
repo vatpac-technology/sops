@@ -45,7 +45,7 @@ Aircraft shall be assigned the following runways for arrival when PROPS are in p
 | From the SOUTH and EAST | 01R/19L |
 
 ### Independent Visual Approach Phraseology at Night
-*"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (altitude) UNTIL ESTABLISHED ON THE VASIS (or PAPI) (or GLIDEPATH)"*
+*"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (altitude) UNTIL ESTABLISHED ON THE PAPI (or GLIDEPATH)"*
 
 ## AF ADC Offline
 Due to the low level of CTA (`A015`) in the AF CTR when **AF ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
