@@ -14,7 +14,6 @@ MAESTRO is a semi-automatic system, and will manage a small number of arrivals g
 MAESTRO is not a very useful tool in the TMA, however it allows the TCU controllers to have situation awareness on the flow of inbound aircraft from enroute sectors.
 
 ## Limitations
-
 VATPAC's implementation of MAESTRO, whilst good enough for VATSIM, has a number of limitations compared to the real world system.
 
 It will not:  
@@ -23,12 +22,11 @@ It will not:
 - provide for dependent or semi-dependent runway modes (when multiple runways are used for arrivals) such as  
     - Parallel runway operations at Brisbane and Sydney.  
     - LAHSO at Melbourne (34/27).  
-- provide any wake turbulence seperation.
+- provide any wake turbulence separation.
 
 ## How it works
 
 ### The Basics
-
 A Feeder Fix (FF) is a common waypoint that aircraft will 'merge' to from a certain direction, commonly (but not always) the first waypoint on a STAR.
 
 A runway must be specific in MAESTRO. A runway will have a minimum arrival rate (preset and not configurable), usually between 120 and 180 seconds (can be more or less). This is the minimum time between arrivals.
@@ -40,7 +38,6 @@ From these times, MAESTRO will use this minimum arrival rate to generate a seque
 If 2 aircraft have an estimated landing time that is too close, one aircraft will be delayed and have a new schedule arrival time. This new landing time will also be reflected in a delay at the feeder fix, which is how the enroute controllers sequence the aircraft (either by speed, vectors, holding, or other means).
 
 ### The Ladder
-
 The "ladder" is referring to the display of aircraft in the MAESTRO system, with their position on the ladder their landing or feeder fix time (depending on the viewing mode). This is essentially a "time ladder".
 
 If you are in the "sector" view, you will see aircraft on the ladder at their feeder fix schedules time of arrival (FF STA). Note, you will only see the relevent feeder fixes for the sectors that you have selected.
@@ -58,7 +55,6 @@ Each line on the ladder shows information about arriving aircraft. From the cent
 - Total delay
 
 ## Aircraft Stability
-
 An aircraft will begin in the MAESTRO ladder when their ETA is within 60 minutes from the FF. They will be classified as `unstable`, and show as yellow on the ladder.
 
 Unstable aircraft will be re-sequenced every 15 seconds. You should not apply any delaying action to an aircraft that is unstable, as their position in the sequence is not yet confirmed. Early delays could result in that aircraft receiving further (un-needed) delays from MAESTRO.
@@ -74,7 +70,6 @@ SuperStable aircraft will not be delayed for any reason other than congestion in
 If the flow controller decides on a different sequence to MAESTRO, then they may manually enter a landing time in the system, this will `freeze` the aircraft and they will show light blue on the ladder. A frozen aircraft will not be delayed for any reason, unless determined by the flow controller.
 
 ### Interactive Options
-
 The flow controller can interact with aircraft on the ladder if they have delegated themselves as the flow controller.
 
 The best view for the flow controller is the runway view. From this view they can:
