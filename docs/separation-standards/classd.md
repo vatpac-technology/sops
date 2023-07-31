@@ -15,8 +15,10 @@ Remember that in [Class D Airspace](../../controller-skills/classofairspace), IF
 ## Procedural Separation
 At [Tamworth](../../aerodromes/tamworth), [Coffs Harbour](../../aerodromes/Coffs), [Hamilton Island](../../aerodromes/Hammo), and [Sunshine Coast](../../aerodromes/sunshinecoast) Towers, surveillance coverage cannot be guaranteed at all levels. Therefore, [Procedural Separation](../procedural) must be implemented prior to losing surveillance identification of an aircraft, if [Visual Separation](../visual) cannot be assured below the height at which surveillance coverage will be lost. For more information, refer to Local Instructions.
 
-## 45° Segregated Flight Paths
-### Straight-in
+## Lateral
+
+### 45° Segregated Flight Paths
+#### Straight-in
 - Can be applied between departures and arrivals when the departing aircraft's flight path and the arrival aircraft's flight path are at least 45° clear of each other, and, for a straight-in approach, the arriving aircraft is at least **5nm** from the arrival runway threshold
 
 <figure markdown>
@@ -24,7 +26,7 @@ At [Tamworth](../../aerodromes/tamworth), [Coffs Harbour](../../aerodromes/Coffs
   <figcaption>Segregated Flight Paths - Straight-in</figcaption>
 </figure>
 
-### Visual, DME/GNSS, Circle to land
+#### Visual, DME/GNSS, Circle to land
 - Can be applied between departures and arrivals when the departing aircraft's flight path and the arrival aircraft's flight path are at least 45° clear of each other, and, for a Visual, DME/GNSS or Circle to land approach, the arriving aircraft is at least **10nm** from the airfield
 
 <figure markdown>

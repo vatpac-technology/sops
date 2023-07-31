@@ -96,6 +96,7 @@ All aircraft should be assigned no lower than `A060` until clear of the active r
 
 Be mindful of departures from YSBK which may also impact aircraft on downwind for RWY 16R at YSSY.  Do not assign lower than `A040` until the aircraft is north/east of the BK CTR and clear of any departing traffic (who are assigned `A030` by default).
 ## Parallel Runway Operations
+Refer to [Parallel Runway Separation Standards](../../separation-standards/parallelapps) for more information
 
 ### Runway Selection
 Unless operationally required, aircraft shall be assigned the following runways for arrival when PROPS are in progress:
@@ -130,13 +131,11 @@ SFW/SFE may provide distance to touchdown, when transferring an aircraft to towe
     "QFA490, 8 miles to touchdown, contact tower 120.5"
 
 ### Instrument Approach
-
 Aircraft joining parallel instrument approaches must remain separated from aircraft on the adjacent approach until they are established. This usually involves keeping aircraft vertically separated and may require aircraft to intercept the localiser/final approach course and maintain their assigned level, only allowing descent on the approach once they are established.  
 
 Two aircraft established on adjacent parallel approaches require `1nm` lateral separation as opposed to the 3nm standard required in the TMA generally.
 
 ### Independent Visual Approach
-
 When conducting IVAs, aircraft shall not be transferred to **SY ADC** until established on final.
 
 !!! example
@@ -145,6 +144,9 @@ When conducting IVAs, aircraft shall not be transferred to **SY ADC** until esta
       
     **SFW:** "BNZ444, Contact Sydney Tower 120.5"  
     **BNZ444:** "120.5, BNZ444"
+
+#### Phraseology at Night
+*"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (altitude) UNTIL ESTABLISHED ON THE PAPI (or GLIDEPATH)"*
 
 ## Sydney Harbour Scenic Flights
 Flights may be cleared for one of two standard scenic flight routes at `A015`, **Harbour Scenic One** or **Harbour Scenic Two**, which are described below. Pilot preference should be accommodated where traffic permits.
