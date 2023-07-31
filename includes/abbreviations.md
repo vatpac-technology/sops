@@ -59,7 +59,6 @@
 *[BAS]: Brisbane Approach South
 *[BDN]: Brisbane Departures North
 *[BDS]: Brisbane Departures South
-*[BMN]: Brisbane Finals
 *[CSA]: Cairns Approach
 *[CSD]: Cairns Departures
 *[CBW]: Canberra Approach West
