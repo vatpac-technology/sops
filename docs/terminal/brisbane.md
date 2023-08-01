@@ -67,19 +67,19 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **
 
 ### 01 PROPS
 <figure markdown>
-![01 PROPS TCU Structure](img/bn01propsannotated.png){ width="700" }
+![01 PROPS TCU Structure](img/bn01props.png){ width="700" }
   <figcaption>01 PROPS TCU Structure</figcaption>
 </figure>
 
 ### 19 PROPS
 <figure markdown>
-![19 PROPS TCU Structure](img/bn19propsannotated.png){ width="700" }
+![19 PROPS TCU Structure](img/bn19props.png){ width="700" }
   <figcaption>19 PROPS TCU Structure</figcaption>
 </figure>
 
 ### SODPROPS
 <figure markdown>
-![SODPROPS TCU Structure](img/bnsodpropsannotated.png){ width="700" }
+![SODPROPS TCU Structure](img/bnsodprops.png){ width="700" }
   <figcaption>SODPROPS TCU Structure</figcaption>
 </figure>
 
