@@ -64,10 +64,20 @@ The circuit direction changes depending on tower opening hours and runway being 
 
 Circuits to be flown at `A010`
 
+## Multi Engine Aircraft
+When runway 06L is operational, all multi engine aircraft are to be given full length for departure.
+This means holding short on runway 12/30 opposed to the normal B1.
+The same applies for 24R, all multi engine are to be given B6. Single engine should be given B5.
+
 ## IFR Inbound Procedures
 Aircraft arriving from the Perth Class C in VMC will track via CNB. These aircraft will contract **JT ADC** approaching CNB and will be issued circuit joining instructions.  
 Aircraft in IMC will track inbound via an instrument approach.  
 **PH TCU** will coordinate all IFR arrivals in accordance with coordination procedures.
+
+## IFR Outbound Procedures
+Aircraft departing will call **PH TCU** for clearance. They will assign Squawk code, SID and initial altitude.
+It is **JT ADC** role to assign runway, as per ATIS.
+**JT ADC** will coordinate all IFR departures in accordance with coordination procedures.
 
 ## Helicopter Operations
 ### General

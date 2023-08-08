@@ -106,6 +106,10 @@ All aircraft transiting between internal PH TCU boundaries must be heads-up coor
 
 ### PH TCU / JT ADC
 
+### Clearance
+It is the responsibility of **PH TCU** to provide clearance to IFR aircraft on the ground at Jandakot.
+Clearance should contain squawk code, initial altitude (normally `A015`) and SID. It is **JT ADC** responsibility to assign runway.
+
 ### Next Call
 When the aircraft is ready for departure, JT ADC will coordinate with the relevant PH TCU controller above them for permission to release the aircraft into their CTA.
 
@@ -114,7 +118,7 @@ When the aircraft is ready for departure, JT ADC will coordinate with the releva
     <span class="hotline">**PH TCU** -> **JT ADC**</span>: "FD420, Unrestricted"  
     <span class="hotline">**JT ADC** -> **PH TCU**</span>: "FD420"  
 
-The Standard Assignable level from JT ADC to PH TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
+The Standard Assignable level from JT ADC to PH TCU is the lower of `A015` or the `RFL`, any other level must be prior coordinated.
 
 ### Arrivals/Overfliers
 PH TCU will heads-up coordinate arrivals/overfliers from Class C to JT ADC prior to **5 mins** from the boundary.  
