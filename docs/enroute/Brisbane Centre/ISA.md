@@ -31,6 +31,19 @@ ISA is responsible for **ARA**, **STR**, **WEG**, and **CVN** when they are offl
 
 ## Sector Responsibilities
 ISA and its subsectors are purely Classes A, E and G of airspace. [Standard separation procedures](../../../separation-standards) apply.
+
+## STAR Clearance Expectation
+### Handoff
+Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| CVN | INL(KPL) | YBBN, YBCG | Jets only |
+| CVN | INL(DOS) | YBBN | |
+| ARA | TRT | YPDN | |
+| ARA, ISA | KEN(BAR, KEN) | YBCS | |
+| ISA | KEN(TBP) | YBTL | |
+
 ## Coordination
 
 ### ISA (All) / ENR

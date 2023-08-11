@@ -34,14 +34,44 @@ Whilst the **RKA** controller is expected to provide a [top-down service](../../
 </figure>
 
 ## Sector Responsibilities
-### Inverell (INL) / Downs (DOS) / Straddy (SDY) / Burnett (BUR)
-INL, DOS, SDY and BUR are responsible for initial sequencing, issuing STAR Clearances, and issuing initial descent for aircraft bound for YBBN and YBCG.
+
+### Inverell (INL)
+INL is responsible for initial sequencing, issuing STAR Clearances, and issuing initial descent for aircraft bound for YBBN and YBCG.
+### Downs (DOS) / Straddy (SDY)
+DOS and SDY are responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YBBN and YBCG.
+### Burnett (BUR)
+BUR is responsible for final sequencing, issuing descent, and issuing STAR Clearances for Non-jets bound for YBBN and YBCG.
 ### Gold Coast (GOL)
 GOL is responsible for final sequencing for aircraft bound for YBBN, YBCG, and issuing of STAR Clearances and descent for YBSU.
 ### Noosa (NSA)
 NSA is responsible for facilitating YBSU traffic.
 ### Keppel (KPL)
-KPL is responsible for issuing STAR Clearances and descent for YBSU.
+KPL is responsible for issuing STAR Clearances (Jets only) and initial descent for aircraft bound for YBSU, YBBN and YBCG.
+
+## STAR Clearance Expectation
+### Handoff
+Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| INL | ARL | YSSY | |
+| INL | GOL | YBSU | |
+| KPL | BUR | YBBN, YBCG | Non-jets only |
+| NSA | KPL | YBRK, YBMK | |
+| KPL | KEN(SWY) | YBTL | |
+
+### First Contact
+Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| ARL/MNN/MDE | INL, DOS | YBBN, YBCG | |
+| KEN(SWY), ISA(CVN) | KPL | YBBN, YBCG | Jets only |
+| ISA(CVN) | DOS | YBBN, YBCG | |
+| TSN(HWE, FLD) | SDY | YBBN, YBCG | |
+| KPL | BUR | YBBN, YBCG | Non-jets only |
+| INL | GOL | YBSU | |
+| NSA | KPL | YBRK, YBMK | |
 
 ## Coordination
 ### INL(All) / BN TCU

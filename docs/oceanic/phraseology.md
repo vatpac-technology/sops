@@ -63,6 +63,18 @@ Aircraft using time compression must be assigned the following levels for separa
 | 2x   | FL390     | FL380 |
 | 4x | FL410 | FL400 |
 
+## STAR Clearance Expectation
+
+### Handoff
+Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| IND | PIY(LEA) | YPPH | |
+| TSN/HWE | ARL(OCN) | YSSY | |
+| TSN(HWE, FLD) | INL(SDY) | YBBN, YBCG | |
+| TSN | HUO | YMHB | |
+
 ## Coordination
 As per [Standard Coordination Rules](../../controller-skills/coordination), all aircraft must be voice coordinated prior to an airspace boundary.  
 
