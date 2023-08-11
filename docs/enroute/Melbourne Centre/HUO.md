@@ -17,6 +17,21 @@
 ## Responsibilities
 HUO is reponsible for issuing STAR clearances, sequencing, and descent for aircraft bound for YMLT and YMHB.
 
+## STAR Clearance Expectation
+### Handoff
+Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| HUO | YWE(WON) | YMML | |
+
+### First Contact
+Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| YWE(WON), ELW(SNO) | HUO | YMHB | |
+
 ### Top Down Extension
 When **HBA** and/or **LTA** are offline, the class C and D airspace `SFC` to `A085` in the relevant TMA is reclassified as class G.
 

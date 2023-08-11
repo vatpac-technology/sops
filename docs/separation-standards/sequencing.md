@@ -19,7 +19,7 @@ Speed Control is simply slowing aircraft down and speeding aircraft up as requir
 
 !!! tip
     Prior to implementing speed control, get yourself the best possible picture of what the pilots are doing. Asking questions like:  
-    *"QFA123, report planned cruise Mach number"  
+    "QFA123, report planned cruise Mach number"  
     "VOZ456, report speed on descent"  
     "QJE1781, report top of descent point"*  
     to give you maximum awareness of the traffic picture, and help plan restrictions, sequences, etc.
@@ -42,7 +42,12 @@ For information only, the following approximate time gains and losses achieved b
 | 180  |  | +3 MIN |
 
 !!! tip
-    Refer to [Annotations](../../controller-skills/annotations/#sequencing) for info regarding Label data pertaining to speed control sequencing.
+    Refer to [Annotations](../../controller-skills/annotations/#speed-control) for info regarding Label data pertaining to speed control sequencing.
+
+### Relative speeds
+When using speed control for aircraft on *climb* with similar climb profiles, using the **same speed** as an instruction to both pilots is a good rule of thumb to ensure the speeds will open at all times (Eg, Lead aircraft: 280kts or Greater, Following aircraft: 280kts or Less). 
+
+When using speed control for aircraft on *descent* with similar descent profiles, giving the following aircraft **20KIAS less** than the following aircraft is a good rule of thumb to maintain the current distance between the aircraft (Eg, Lead aircraft: Maintain 300kts, Following aircraft: Maintain 280kts).
 ## Descending early
 Levels can also be used to help facilitate sequencing where required. Aircraft will naturally have a slower ground speed at lower levels, so to assist with any delaying action, you can give the instruction:
 *"BNZ148, for sequencing, descend now to F130"*

@@ -27,6 +27,14 @@ OLW is responsible for **POT**, **PAR**, **NEW**, **MEK**, **MTK** and **MZI** w
 ## Sector Responsibilities
 OLW is responsible for issuing descent and ascertaining arrival intentions for aircraft bound for YPKA.
 
+## STAR Clearance Expectation
+### Handoff
+Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| MEK, MTK, MZI | PIY(GVE, HYD) | YPPH, YPEA | Jets only |
+
 ## Coordination
 
 ### OLW(All) / ENR

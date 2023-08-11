@@ -12,6 +12,14 @@
 | Melbourne ACD         | Melbourne Delivery| 127.200          | ML_DEL                                   |
 | Melbourne ATIS        |                | 118.000         | YMML_ATIS                                |
 
+## Standard Taxi Routes
+
+Except when the traffic situation warrants, taxi clearances shall conform to the following diagram:
+<figure markdown>
+![YMML Standard Taxi Routes](img/ymmlstdtaxi.png){ width="700" }
+  <figcaption>YMML Standard Taxi Routes</figcaption>
+</figure>
+
 ## Airspace
 ML ADC is not responsible for any airspace by default.
 
