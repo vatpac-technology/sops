@@ -55,6 +55,12 @@ The Standard Assignable level from HBA and LTA to HUO is the lower of `F240` or 
 !!! note
     LTA owns the terminal airspace within a 30nm radius of LT VOR. HBA owns the remainder of the TCU.
 
+When LTA and HBA are split, YMHB arrivals via MORGO will often clip LTA airspace on descent. Ensure that [Boundary Coordination](../../../controller-skills/coordination/#boundary) is completed to LTA for all YMHB arrivals, or a temporary arrangement is met.
+
+!!! example
+    <span class="hotline">**HUO** -> **LTA**</span>: "I have multiple arrivals via MORGO for YMHB, are you able to hold an ident on the IRSOM-LAXOT-MORGO track, your separation with YMHB inbounds?"  
+    <span class="hotline">**LTA** -> **HUO**</span>: "Concur, I'll hold an ident on the IRSOM-LAXOT-MORGO track, my separation with YMHB inbounds"  
+
 ### HUO / ENR
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 

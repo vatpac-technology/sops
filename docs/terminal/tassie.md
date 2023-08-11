@@ -50,6 +50,12 @@ The Standard assignable level from HUO to HBA/LTA is:
 
 All other aircraft must be voice coordinated to HBA/LTA.
 
+When LTA and HBA are split, YMHB arrivals via MORGO will often clip LTA airspace on descent. HUO may elect to initiate a temporary arrangement to reduce coordination.
+
+!!! example
+    <span class="hotline">**HUO** -> **LTA**</span>: "I have multiple arrivals via MORGO for YMHB, are you able to hold an ident on the IRSOM-LAXOT-MORGO track, your separation with YMHB inbounds?"  
+    <span class="hotline">**LTA** -> **HUO**</span>: "Concur, I'll hold an ident on the IRSOM-LAXOT-MORGO track, my separation with YMHB inbounds"  
+
 ### HB ADC / HBA
 #### Airspace
 HB ADC owns the Class D airspace in the HB CTR `SFC` to `A015` north of the runway centreline and `A025` south of the runway centreline. HBA owns the Class D and C airspace above these levels.
