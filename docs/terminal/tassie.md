@@ -23,11 +23,19 @@
 ![TAS TCU](img/TASTCU.png){ width="700" }
 </figure>
 
-## Hobart
+### LTA Release to HUO
+The Airspace on and west of the IRSOM-MORGO track `F125`-`F245` is permanently released from LTA to HUO, unless coordinated otherwise.
+
+<figure markdown>
+![LTA Release](../img/ltarls.png){ width="500" }
+  <figcaption>LTA Release</figcaption>
+</figure>
+
+## YMHB
 All aircraft should be kept on SIDs and STARs. If due to operational requirements or routing, an aircraft is unable to accept the SID or STAR, voice coordination with HUO will be required.
 
-## Launceston
-Visual approaches are preferred into Launceston. If due to operational requirements, an aircraft is unable to accept a visual approach, coordination with **LT ADC** may be required.  
+## YMLT
+Visual approaches are preferred into YMLT. If due to operational requirements, an aircraft is unable to accept a visual approach, coordination with **LT ADC** may be required.  
 
 Runway 32L is regularly the duty runway due to prevailing winds. To assist traffic flow in and out of the TCU, ATC will instruct aircraft to track for runway 32L via `IRSOM, NODAS, MLTSC` which keeps the aircraft within CTA and away from the departures stream.
 
@@ -49,12 +57,6 @@ The Standard assignable level from HUO to HBA/LTA is:
 `F130` for YMHB arrivals, and assigned the IPLET STAR or MORGO STAR.
 
 All other aircraft must be voice coordinated to HBA/LTA.
-
-When LTA and HBA are split, YMHB arrivals via MORGO will often clip LTA airspace on descent. HUO may elect to initiate a temporary arrangement to reduce coordination.
-
-!!! example
-    <span class="hotline">**HUO** -> **LTA**</span>: "I have multiple arrivals via MORGO for YMHB, are you able to hold an ident on the IRSOM-LAXOT-MORGO track, your separation with YMHB inbounds?"  
-    <span class="hotline">**LTA** -> **HUO**</span>: "Concur, I'll hold an ident on the IRSOM-LAXOT-MORGO track, my separation with YMHB inbounds"  
 
 ### HB ADC / HBA
 #### Airspace
