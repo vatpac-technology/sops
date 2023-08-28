@@ -16,25 +16,7 @@
 | **Sydney ACD**         | **Sydney Delivery**| **133.800**          | **SY_DEL**                                   |
 | Sydney ATIS        |                | 126.250          | YSSY_ATIS                                |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
-## Maneuvering Area Responsibility
-<figure markdown>
-![YSSY Maneuvering Area](img/yssy_maneuvring_area.png){ width="500" }
-  <figcaption>Maneuvering Area</figcaption>
-</figure>
-
-## Standard Taxi Routes
-
-Except when the traffic situation warrants, taxi clearances shall conform to the following diagram:
-<figure markdown>
-![YSSY Taxi Route](img/yssy_taxi_routes.png){ width="500" }
-  <figcaption>Standard Taxi Routes</figcaption>
-</figure>
-
-!!! note
-    For aircraft taxiing northbound on B, consider instructing them to hold short of taxiway B8 when 34L or 16R are in use for arrivals, in order to separate from aircraft using the B7 & B9 rapid exits.
-
-Intersection departures are not permitted for Jet aircraft on runway 34L as per `ERSA FAC YSSY`.
+† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies
 
 ## Airspace
 SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005` as shown below.
