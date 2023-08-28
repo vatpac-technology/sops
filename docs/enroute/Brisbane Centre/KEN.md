@@ -32,6 +32,33 @@ Whilst the **MKA** controller is expected to provide a [top-down service](../../
 
 ## Sector Responsibilities
 All Subsectors are responsible for issuing STAR Clearances for YBMK, YBTL and YBCS on first contact.
+
+## STAR Clearance Expectation
+### Handoff
+Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| TBP | SWY | YBRK | |
+| KEN | TBP | YBMK | |
+| SWY | TBP | YBCS | |
+| BAR | KEN | YBTL | |
+| SWY | INL(KPL) | YBBN, YBCG | Jets only |
+| SWY | INL(KPL) | YBSU | |
+
+### First Contact
+Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| INL(KPL) | SWY | YBTL | |
+| ISA | TBP | YBTL | |
+| ARA/ISA | BAR, KEN | YBCS | |
+| TBP | SWY | YBRK | |
+| KEN | TBP | YBMK | |
+| SWY | TBP | YBCS | |
+| BAR | KEN | YBTL | |
+
 ## Coordination
 ### KEN/BAR / CS TCU
 The Standard Assignable level from KEN/BAR to CS TCU is `A070` and assigned the relevant STAR. 

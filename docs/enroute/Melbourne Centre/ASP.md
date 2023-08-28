@@ -31,6 +31,17 @@ When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME
 !!! Warning
     As per [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), ML-ASP_CTR is only permitted to extend to adjacent **YMMM** sectors.
 
+## STAR Clearance Expectation
+### Handoff
+Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| FOR, WRA, BKE | TBD(AUG) | YPAD, YPED | Jets only |
+| BKE | TBD | YPAD, YPED | |
+| ESP | PIY(HYD) | YPPH, YPEA | Jets only |
+| BKE | YWE(KAT) | YSSY | |
+
 ## Coordination
 ### ASP (All) / ENR
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
@@ -49,11 +60,11 @@ Departures from YBAS in to ASP Class C will be coordinated when ready for depart
 
 The Standard Assignable level from **AS ADC** to ASP is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
 #### Arrivals
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enrtcu-class-d-twr). ASP must coordinate the sequence prior to **5 mins** from the boundary
+YBAS arrivals shall be heads-up coordinated to **AS ADC** from ASP prior to **5 mins** from the boundary.
 
 !!! example
-    <span class="coldline">**ASP** -> **AS ADC**</span>: "New Sequence of 2. Via SADEL, QFA1956, Number 1. Via HERMA, FD867, Number 2”  
-    <span class="coldline">**AS ADC** -> **ASP**</span>: "QFA1956, Number 1. FD867, Number 2"  
+    <span class="hotline">**ASP** -> **AS ADC**</span>: "Via SADEL, QFA1956”  
+    <span class="hotline">**AS ADC** -> **ASP**</span>: "QFA1956"  
 
 The Standard Assignable level from ASP to **AS ADC** is `A080`, any other level must be prior coordinated.
 

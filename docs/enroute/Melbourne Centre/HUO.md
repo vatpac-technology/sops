@@ -17,6 +17,21 @@
 ## Responsibilities
 HUO is reponsible for issuing STAR clearances, sequencing, and descent for aircraft bound for YMLT and YMHB.
 
+## STAR Clearance Expectation
+### Handoff
+Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| HUO | YWE(WON) | YMML | |
+
+### First Contact
+Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| YWE(WON), ELW(SNO) | HUO | YMHB | |
+
 ### Top Down Extension
 When **HBA** and/or **LTA** are offline, the class C and D airspace `SFC` to `A085` in the relevant TMA is reclassified as class G.
 
@@ -37,8 +52,13 @@ All other aircraft must be voice coordinated to HBA/LTA prior to **20nm** from t
 
 The Standard Assignable level from HBA and LTA to HUO is the lower of `F240` or the `RFL`, and tracking via a SID terminus.
 
-!!! note
-    LTA owns the terminal airspace within a 30nm radius of LT VOR. HBA owns the remainder of the TCU.
+#### LTA Release
+The Airspace on and west of the IRSOM-MORGO track `F125`-`F245` is permanently released from LTA to HUO, unless coordinated otherwise. [Boundary Coordination](../../../controller-skills/coordination/#boundary) is not required to LTA for aircraft on this track assigned at or above `F130`.
+
+<figure markdown>
+![LTA Release](../assets/ltarls.png){ width="500" }
+  <figcaption>LTA Release</figcaption>
+</figure>
 
 ### HUO / ENR
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.

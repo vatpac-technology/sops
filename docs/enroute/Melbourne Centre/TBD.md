@@ -20,7 +20,31 @@
 </figure>
 
 ## Sector Responsibilities
-TBD and AUG are responsible for Sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YPAD.
+TBD and AUG are responsible for Sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YPAD and YPED.
+
+### YPAD STARs
+Aircraft tracking via OJJAY and MARGO (ie *J251 WHA H84 MARGO*) from the North for Runway 23 shall be assigned:  
+**RAYNA** STAR with the **OJJAY** transition  
+**not**  
+**SALTY** STAR with the **MARGO** transition
+
+vatSys will not necessarily select the correct STAR by default when entering the runway, so ensure the correct STAR is selected.
+
+## STAR Clearance Expectation
+### Handoff
+Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| TBD | YWE(MUN) | YMML, YMAV | |
+
+### First Contact
+Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| YWE(MUN), ASP(BKE) | TBD | YPAD, YPED| |
+| ASP(All) | AUG | YPAD, YPED| Jets only |
 
 ## Coordination
 
