@@ -40,12 +40,30 @@ OXL is responsible for issuing STAR Clearances for aircraft arriving at YMML. OX
 Just keeping them separated!
 
 ### Katoomba (KAT)
-KAT is responsible for issuing STAR Clearances for YSCB.  KAT is also responsible for issuing STAR clearance *(but not runway assignment)* to aircraft processed via the ODALE STAR into YSSY. The BIK controller will issue runway assignment to these aircraft on first contact.
+KAT is responsible for issuing STAR Clearances for YSCB and YSSY.
 
-!!! example
-    *PE211 has departed YBTH for YSSY and is making a departure call*  
-    **PE211:** "PE211, 3nm south of Bathurst, passing 5800ft, climbing F120, estimate REVKI 22"  
-    **KAT:** "PE211, identified, cleared to YSSY via REVKI flight plan route, ODALE7 arrival, climb F120"
+## STAR Clearance Expectation
+### Handoff
+Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| MUN | TBD | YPAD, YPED | |
+| GTH | OXL | YMML, YMAV | |
+| OXL | ELW(BLA) | YSCB | |
+| GTH | BIK(GUN) | YSSY | |
+| WON | HUO | YMHB | |
+
+### First Contact
+Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| TBD | MUN | YMML, YMAV | |
+| ASP(BKE), GTH | OXL | YMML, YMAV | |
+| HUO | WON | YMML | 
+| ASP(BKE) | KAT | YSSY | |
+| ARL(MDE) | KAT | YSCB | |
 
 ## Coordination
 
