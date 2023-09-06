@@ -73,7 +73,7 @@ Jet Aircraft planned via **MNG**, **NONIX**, **DOSEL**, **CORRS**, **KEPPA**, **
 !!! example
     Jet Aircraft planned via DOSEL, assigned runway 27, shall be given the DOSEL SID.
 
-Jet aircraft planned via **MNG**, **NONIX**, **DOSEL**, **KEPPA**, or **NEVIS**, using Runway 16 for departure **Off Mode**, shall be assigned the **KAGMU** SID.
+Jet aircraft planned via **MNG**, **NONIX**, **DOSEL**, **KEPPA**, or **NEVIS**, using Runway 16 for departure **Off Mode**, shall be assigned the **ISPEG** SID.
 
 !!! definition
     **Off Mode:** Aircraft departing from a runway not prescribed as active for departures on the ATIS. For example, a heavy aircraft that operationally requires Runway 16 for departure during the 16A/27D Mode.
