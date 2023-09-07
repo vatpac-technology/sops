@@ -75,6 +75,24 @@ Non-jet aircraft for YSSY shall be assigned the **MEPIL** STAR.
 
     In this case, coordination should be conducted to ensure that both controllers agree and no additional conflicts are created as a result (particularly with aircraft inbound from the south/west).
 
+## STAR Clearance Expectation
+### Handoff
+Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| MNN | INL | YBBN, YBCG | |
+| MDE | YWE(KAT) | YSCB | |
+| MNN | ARL | YSSY | |
+
+### First Contact
+Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| INL, MNN | ARL | YSSY | |
+| TSN/HWE | OCN | YSSY | |
+
 ## Coordination
 ### ARL (All) / SY TCU
 The Standard Assignable level from ARL(All) to SY TCU is:  

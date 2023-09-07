@@ -24,11 +24,47 @@ When **AY ADC** is offline, AY CTR (Class D and C `SFC` to `A085`) reverts to Cl
 
 ## Sector Responsibilities
 ### Eildon Weir (ELW)
-ELW is responsible for the final sequencing actions in to YMML.
+ELW is responsible for the final sequencing actions in to YMML, and issuing STAR clearances to Non-jets bound for YMML and YMAV.
 ### Benalla (BLA)
-BLA is reponsible for issuing STAR clearances and initial descent for aircraft bound for YMML, YMAV, and YSCB. BLA is also responsible for sequencing in to YSCB, and initial sequencing in to YMML.
+BLA is reponsible for issuing STAR clearances and initial descent for aircraft bound for YMML (Jets only), YMAV (Jets only), and YSCB. BLA is also responsible for sequencing in to YSCB, and initial sequencing in to YMML.
+
+#### YSCB STARs
+When Runway 35 is in use at YSCB, by default, vatSys will select the POLLI STAR with the **ARRAN** transition. Aircraft that have planned via EBONY and ARRAN (ie, aircraft on the Y59 airway) need to be assigned the POLLI STAR with the **EBONY** transition. This can be manually overridden in the aircraft's flight plan as shown below:
+
+<figure markdown>
+![POLLI STAR with ARRAN transition](../assets/pollibefore.png){ width="500" }
+  <figcaption>POLLI STAR with ARRAN transition</figcaption>
+</figure>
+
+<figure markdown>
+![POLLI STAR with EBONY transition](../assets/polliafter.png){ width="500" }
+  <figcaption>POLLI STAR with EBONY transition</figcaption>
+</figure>
+
 ### Snowy (SNO)
 SNO is reponsible for issuing STAR clearances and initial descent for aircraft bound for YSCB.
+
+## STAR Clearance Expectation
+### Handoff
+Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| BLA | BIK(GUN) | YSSY | |
+| ELW | BLA | YSCB | |
+| SNO | HUO | YMHB | |
+| BLA | ELW | YMML | Non-Jets only |
+
+### First Contact
+Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| YWE(OXL,GTH) | BLA | YSCB | |
+| BIK(WOL) | BLA | YMML, YMAV | Jets Only |
+| ELW | BLA | YSCB | |
+| BLA | ELW | YMML | Non-Jets only |
+
 ## Coordination
 ### BLA / CB TCU
 The Standard assignable level from BLA to CB TCU is `F130`, and assigned the POLLI STAR or MANDA STAR.  

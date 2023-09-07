@@ -27,33 +27,17 @@ GUN BIK assumes responsibility of the airspace within the lateral limits of the 
 
 ## Sector Responsibilities
 ### Bindook (BIK)
-BIK will provide final sequencing actions and descent into YSSY. The BIK sector is also responsible for issuing runway assignment to aircraft cleared via the ODALE STAR. Subsectors of BIK and YWE will issue STAR clearance to these aircraft with no runway assignment, allowing the BIK sector to perform final sequencing actions for YSSY and assign the runway on first contact.
-
-!!! example
-    **QLK43:** "Melbourne Centre, QLK43, maintaining F190"  
-    **BIK:** "QLK43, Melbourne Centre, runway 34L"
-
-If no subsectors are online, it is advisable to continue this practice, issuing STAR clearance with airways clearance or on first contact (see the WOL & GUN notes below) and leaving runway assignment until the aircraft enters the BIK sector.
+BIK will provide final sequencing actions and descent into YSSY.
 
 For aircraft overflying the SY TMA, place *'O/FLY'* in the LABEL DATA field.
 
 Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway and STAR selection notes.
 
 ### Wollongong (WOL)
-WOL is reponsible for issuing STAR clearances, initial descent, and sequencing actions for aircraft inbound to YSCB. WOL is also responsible for issuing STAR clearance *(but not runway assignment)* to aircraft processed via the ODALE STAR into YSSY which depart from an aerodrome within the subsector. The BIK controller will issue runway assignment to these aircraft on first contact.
-
-!!! example
-    *RXA6116 has departed YMRY for YSSY and is making a departure call*  
-    **RXA6116:** "RXA6116, 4nm northwest of Moruya, passing A038, climbing F160, estimate ATGOD on the hour"  
-    **WOL:** "RXA6116, identified, cleared to YSSY via ATGOD flight plan route, ODALE7 arrival, climb F160"
+WOL is reponsible for issuing STAR clearances, initial descent, and sequencing actions for aircraft inbound to YSCB. WOL is also responsible for issuing STAR clearance to Non-jet aircraft for YSSY which depart from an aerodrome within the subsector.
     
 ### Gundagai (GUN)
-GUN is reponsible for issuing STAR clearances and initial descent for aircraft inbound to YSSY via RIVET, and STAR clearances *(but not runway assignment)* for aircraft inbound via ODALE. The BIK controller will issue runway assignment to aircraft cleared the ODALE STAR on first contact.  
-
-!!! example
-    *VOZ655 (operated by a SAAB 340) has departed YSCB for YSSY and been handed off from CB TCU to GUN*  
-    **VOZ655:** "Melbourne Centre, VOZ655, climbing F130"  
-    **GUN:** "VOZ655, Melbourne Centre, cleared ODALE7 arrival, climb F130"
+GUN is reponsible for issuing STAR clearances and initial descent for aircraft inbound to YSSY. 
     
 GUN is also responsible for initial sequencing actions into YSSY. Aircraft cruising above `F250` should be assigned *no lower* than `F250` and handed to BIK for further descent. Aircraft cruising below `F250` should be transferred to BIK at their cruise level.
 
@@ -78,6 +62,22 @@ Non-jet aircraft for YSSY shall be assigned the **ODALE** STAR.
     Either **SY TCU** or **BIK** may propose utilising the adjacent STAR where two aircraft with significantly different cruise/descent speeds will be required to overtake or pass abeam each other to achieve a sequenced landing time, or if assigned different runways. This technique can allow aircraft to be processed for different runways independently with minimal delay by using the built-in separation afforded by the STAR height requirements.  
 
     In this case, coordination should be conducted to ensure that both controllers agree and no additional conflicts are created as a result (particularly with aircraft inbound from the north/east).
+
+## STAR Clearance Expectation
+### Handoff
+Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| WOL | ELW(BLA) | YMML, YMAV | Jets only |
+| WOL | GUN | YSSY | |
+
+### First Contact
+Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| ELW(BLA), YWE(GTH), WOL | GUN | YSSY | |
 
 ## Coordination
 ### BIK/WOL / SY TCU

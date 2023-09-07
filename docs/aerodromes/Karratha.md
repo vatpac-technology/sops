@@ -10,7 +10,7 @@
 | ---- | -------- | --------- | ---------------- |
 | Karratha SMC | Karratha Ground | 123.550 | KA_GND |
 | Karratha ADC | Karratha Tower | 127.350 | KA_TWR |
-| Karratha ATIS | N/A | 128.350 | YBAS_ATIS |
+| Karratha ATIS | N/A | 134.550 | YPKA_ATIS |
 
 ## Airspace
 <figure markdown>
