@@ -59,7 +59,6 @@
 *[BAS]: Brisbane Approach South
 *[BDN]: Brisbane Departures North
 *[BDS]: Brisbane Departures South
-*[BMN]: Brisbane Finals
 *[CSA]: Cairns Approach
 *[CSD]: Cairns Departures
 *[CBW]: Canberra Approach West
@@ -132,7 +131,7 @@
 *[GUN]: Melbourne (Gundagai) Centre
 *[HYD]: Melbourne (Hyden) Centre
 *[JAR]: Melbourne (Jarrah) Centre
-*[KAT]: Melbourne (Katomba) Centre
+*[KAT]: Melbourne (Katoomba) Centre
 *[LEA]: Melbourne (Leeman) Centre
 *[MEK]: Melbourne (Meekatharra) Centre
 *[MZI]: Melbourne (Menzies) Centre

@@ -60,10 +60,6 @@ All circuits are to be conducted to the east of Runway 03/21 (right-hand circuit
 ### Scenic Flights
 When traffic permits, VFR scenic flights over Perth are cleared via VICTOR 65 route (CTE-PCTY-HKE).
 
-### Separation
-#### 2400m Reduced Runway Separation Minima
-By day, ATC may use 2400m runway separation between aircraft arriving to Runway 03/21. Both aircraft may occupy the runway during application of the [standard](../../controller-skills/sepstandards/#2400m-reduced-runway-separation-minima).
-
 ### ATIS Notification of Departure Runway
 When both Runway 03 and Runway 06 are nominated as departure runways, broadcast the following:
 

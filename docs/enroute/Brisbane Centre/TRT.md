@@ -23,6 +23,21 @@ TRT is responsible for **KIY** when they are offline.
 TRT is responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YPDN.  
 KIY is responsible for issuing descent and ascertaining arrival intentions for aircraft bound for YBRM.
 
+## STAR Clearance Expectation
+### Handoff
+Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| STR, KIY | TRT | YPDN | |
+
+### First Contact
+Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| STR, KIY, ISA(ARA) | TRT | YPDN | |
+
 ## Coordination
 
 ### TRT/KIY / ENR

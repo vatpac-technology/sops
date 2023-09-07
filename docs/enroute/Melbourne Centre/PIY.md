@@ -24,25 +24,50 @@
 
 ## Sector Responsibilities
 ### Pingelly (PIY)
-PIY will provide final sequencing actions to ensure aircraft comply with their FF times prior to entering the Perth TCU. PIY shall assign the standard assignable altitude in accordance with the table above. 
+PIY will provide final sequencing actions to ensure aircraft comply with their FF times prior to entering the Perth TCU. PIY is also responsible for issuing STAR Clearances for aircraft bound for YPJT, and Non-jets bound for YPPH and YPEA.  
 For aircraft overflying the PH TCU place `O/FLY` in the LABEL DATA field.
 
 ### Leeman (LEA)
-LEA is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via `WAVES`.
+LEA is responsible for assigning and issuing STAR clearance to aircraft inbound to Perth via `WAVES`.
 
 !!! note
     Controllers should be aware that VHF coverage near the LEA/IND border may be limited. Controllers should strive to issue HF frequencies and transfer of communications instruction prior to 160 NM PH DME.
 ### Grove (GVE)
-GVE is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via `JULIM` and `CONNI`. 
+GVE is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `JULIM` and `CONNI`. 
 
 ### Hyden (HYD)
-HYD is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via `BEVLY`, `DAYLR` and `GRENE`.
+HYD is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `BEVLY`, `DAYLR` and `GRENE`.
+
+### Cross (CRS) / Geraldton (GEL)
+Just keeping them separated!
 
 ### Jarrah (JAR)
 JAR is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via `SOLUS`.
 
 !!! note
-    Controllers should be aware there may be limited ADS-B coverage around Albany (YABA). Expect some areas of Class E airspace to be outside surveillance coverage. [Procedural Standards](../../../controller-skills/sepstandards/#procedural) may need to be used in these cases.
+    Controllers should be aware there may be limited ADS-B coverage around Albany (YABA). Expect some areas of Class E airspace to be outside surveillance coverage. [Procedural Standards](../../../separation-standards/procedural) may need to be used in these cases.
+
+## STAR Clearance Expectation
+
+### Handoff
+Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| GVE, CRS, HYD | PIY | YPPH, YPEA | Non-jets only |
+| GVE, CRS, HYD | PIY | YPJT | |
+| GEL | LEA | YPPH | |
+
+### First Contact
+Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| OLW(MEK, MTK, MZI) | GVE, HYD | YPPH, YPEA | Jets only |
+| ASP(ESP) | HYD | YPPH, YPEA | Jets only |
+| GVE, CRS, HYD | PIY | YPPH, YPEA | Non-jets only |
+| GVE, CRS, HYD | PIY | YPJT | |
+| GEL, IND | LEA | YPPH | |
 
 ## Coordination
 ### PIY(All) / PH TCU
