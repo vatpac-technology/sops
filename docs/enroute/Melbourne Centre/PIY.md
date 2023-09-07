@@ -70,7 +70,7 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | GEL, IND | LEA | YPPH | |
 
 ## Coordination
-### PIY(All) / PH TCU
+### PH TCU
 The Standard Assignable level from PIY(All) to PH TCU is `A090` and assigned the relevant STAR. 
 
 All other aircraft must be voice coordinated to PH TCU prior to **20nm** from the boundary.
@@ -79,10 +79,10 @@ The Standard Assignable level from PH TCU to PIY(All) is the lower of `F180` or 
 
 Refer to [Perth TCU Airspace Division](../../../terminal/perth/#airspace-division) for information on airspace divisions when **PHD** is online.
 
-### PIY(All) / ENR
+### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-### PIY/LEA/GVE/HYD/JAR Internal
+### PIY Internal
 Changes to CFL are permitted up to the boundary from GVE, CRS and HYD to PIY.
 
 All else is Voiceless, no changes to route or CFL within **20nm** to boundary.
@@ -90,5 +90,5 @@ All else is Voiceless, no changes to route or CFL within **20nm** to boundary.
 That being said, it is *advised* that PIY(All) gives **Heads-up Coordination** prior to **20nm** in the following scenarios:  
 - JAR to PIY for all aircraft  
 - LEA to PIY for all aircraft  
-### PIY(All) / IND (Oceanic)
+### IND (Oceanic)
 As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.

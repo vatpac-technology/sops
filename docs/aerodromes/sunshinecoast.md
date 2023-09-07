@@ -59,7 +59,7 @@ NSA will heads-up coordinate arrivals/overfliers from Class C to SU ADC. Aircraf
     <span class="coldline">**SU ADC** -> **NSA**</span>: "QJE1756"  
 
 The Standard Assignable level from INL(NSA/BUR) to SU ADC is `A060`, any other level must be prior coordinated.
-### BN TCU / SU ADC
+### BN TCU
 BN TCU Class G shares a tiny border with SU ADC, however there are no SIDs, STARs, or airways through this gap. The only possible way for an aircraft to directly enter BN TCU's airspace from SU ADC's jurisdiction, is in to Class G, and as such, no coordination is required to BN TCU.
 
 <figure markdown>

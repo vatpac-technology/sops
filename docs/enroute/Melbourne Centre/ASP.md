@@ -43,13 +43,13 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | BKE | YWE(KAT) | YSSY | |
 
 ## Coordination
-### ASP (All) / ENR
+### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-### ASP/ASW/WAR/FOR/WRA/BKE/ESP Internal
+### ASP Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-### ASP / AS ADC
+### AS ADC
 #### Departures
 Departures from YBAS in to ASP Class C will be coordinated when ready for departure.
 
@@ -75,5 +75,5 @@ Any aircraft that will enter AS ADC airspace, and not landing at YBAS, must be H
     <span class="hotline">**ASP** -> **AS ADC**</span>: "via AS, JDS"  
     <span class="hotline">**AS ADC** -> **ASP**</span>: "JDS, A060"
 
-### FOR / IND(INS) (Oceanic)
+### IND(INS) (Oceanic)
 As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.

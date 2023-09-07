@@ -65,7 +65,7 @@ The divisions of the airspace between **PHA**, and **PHD** change based on the R
 
 ## Coordination
 
-### PH TCU / ENR
+### Enroute
 #### Departures
 Voiceless coordination is in place from PH TCU to PIY (and subsectors) for aircraft assigned the lower of `F180` or the `RFL`, and tracking via a Procedural SID terminus.
 
@@ -78,7 +78,7 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 #### Arrivals
 The Standard assignable level from ENR to PH TCU is `A090`. All other levels must be prior coordinated
 
-### PH ADC / PH TCU
+### PH TCU
 #### Auto Release
 
 "Next" Coordination is a procedure where the PH ADC controller gives a heads-up to the PH TCU controller about an impending departure. The PH TCU controller will respond by assigning a heading to the aircraft, for the PH ADC controller to pass on with their takeoff clearance.
@@ -104,7 +104,7 @@ All aircraft transiting between internal PH TCU boundaries must be heads-up coor
     <span class="hotline">**PHA** -> **PHD**</span>: "via PH, FD123"  
     <span class="hotline">**PHD** -> **PHA**</span>: "FD123, A090"   
 
-### PH TCU / JT ADC
+### JT ADC
 
 ### Next Call
 When the aircraft is ready for departure, JT ADC will coordinate with the relevant PH TCU controller above them for permission to release the aircraft into their CTA.
@@ -125,6 +125,6 @@ VFR aircraft require a level readback.
     <span class="hotline">**PH TCU** -> **JT ADC**</span>: "via RNAV-Z RWY 06L, FD416, circling to land RWY 24R"  
     <span class="hotline">**JT ADC** -> **PH TCU**</span>: "FD416, RNAV-Z RWY 06L with a circle to land RWY 24R"  
 
-### PH TCU / PEA ADC
+### PEA ADC
 Reserved.
 

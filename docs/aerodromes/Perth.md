@@ -66,8 +66,7 @@ When both Runway 03 and Runway 06 are nominated as departure runways, broadcast 
 `RWY 03 FOR DEP VIA OTLED, AVNEX, MANDU, SOLUS AND KEELS. RWY 06 FOR ALL OTHER DEP.`
 
 ## Coordination
-### PH ADC / PH TCU
-#### Auto Release
+### Auto Release
 'Next' coordination is **not** required for aircraft that are:   
     a) Departing from a runway nominated on the ATIS; and  
     b) Assigned the standard assignable level; and  
@@ -87,10 +86,10 @@ The PH TCU controller can suspend/resume Auto Release at any time, with the conc
 
 The Standard Assignable level from PH ADC to PH TCU is the lower of `A050` or the `RFL`
 
-#### Departures Controller
+### Departures Controller
 Refer to [Perth TCU Airspace Division](../../terminal/perth/#airspace-division) for information on airspace divisions when **PHD** is online.
 
-### PH ACD / PH TCU
+### ACD to PH TCU
 The controller assuming responsibility of ACD shall give heads-up coordination to the relevant PH TCU controller prior to the issue of the following clearances:  
 a) VFR Departures  
 b) Aircraft using a runway not on the ATIS
