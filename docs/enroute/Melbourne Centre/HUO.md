@@ -43,7 +43,7 @@ If HUO chooses to operate top down to either aerodrome, they must administer all
     Ensure you are familiar with the aerodrome procedures for [Launceston](../../aerodromes/Launceston.md) and [Hobart](../../aerodromes/Hobart.md) before extending top down, and are aware of the limited surveillence coverage available in the lower levels of the TMA.
 
 ## Coordination
-### HUO / TAS TCU
+### TAS TCU
 The Standard assignable level from HUO to TAS TCU TCU is:  
 `A090` for YMLT arrivals, tracking IRSOM DCT LT, or NUNPA DCT LT.  
 `F130` for YMHB arrivals, and assigned the IPLET STAR or MORGO STAR.
@@ -60,8 +60,8 @@ The Airspace on and west of the IRSOM-MORGO track `F125`-`F245` is permanently r
   <figcaption>LTA Release</figcaption>
 </figure>
 
-### HUO / ENR
+### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-### HUO / TSN,IND(INS) (Oceanic)
+### TSN,IND(INS) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.

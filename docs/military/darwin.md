@@ -83,7 +83,7 @@ For non-RNAV approved IFR aircraft with a wake turbulence category of light, iss
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 ## Coordination
-### DN TCU / ENR
+### Enroute
 #### Departures
 Voiceless coordination is in place from DN TCU to TRT for aircraft:  
 Planned at or above `F180`: `Assigned F180`  
@@ -98,7 +98,7 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 #### Arrivals
 The Standard assignable level from TRT to DN TCU is `A100`, and assigned a STAR. All other aircraft must be prior coordinated
 
-### DN TCU / DN ADC
+### DN ADC
 #### Auto Release
 
 "Next" Coordination is a procedure where the **DN ADC** controller gives a heads-up to the DN TCU controller about an impending departure. The DN TCU controller will respond by assigning a heading to the aircraft, for the **DN ADC** controller to pass on with their takeoff clearance.

@@ -84,7 +84,7 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **
 </figure>
 
 ## Coordination
-### BN TCU / ENR
+### Enroute
 #### Departures
 The Standard Assignable level for YBBN departures from BN TCU to **INL(All)** is the lower of `F180` or the `RFL`, and tracking via a **Procedural** SID terminus.  
 The Standard Assignable level for YBCG departures from BN TCU to **GOL/SDY** is the lower of `F120` or the `RFL`, and tracking via **APAGI**.  
@@ -104,7 +104,7 @@ The Standard assignable level from INL(All) to BN TCU is:
 
 All other aircraft must be voice coordinated to BN TCU.
 
-### BN TCU / BN ADC
+### BN ADC
 #### Auto Release
 'Next' coordination is **not** required from BN ADC for aircraft that are:   
   a) Departing from a runway nominated on the ATIS (except during SODPROPS*); and  
@@ -120,7 +120,7 @@ The Standard Assignable level from BN ADC to BN TCU is:
 For Jets: `A060`  
 For Non-Jets: The lower of `A040` or the `RFL`
 
-### BN TCU / CG ADC
+### CG ADC
 #### Auto Release
 'Next' coordination is **not** required fro CG ADC for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  
@@ -138,7 +138,7 @@ The Standard Assignable level from CG ADC to BN TCU is:
 For Jets: `A060`  
 For Non-Jets: The lower of `A060` or the `RFL`
 
-### BN TCU / AF ADC
+### AF ADC
 ### Departures
 When aircraft planned via a CTA departure are ready for takeoff and expected to depart imminently, **AF ADC** shall seek release of the aircraft through a 'Next' call.
 
@@ -158,7 +158,7 @@ VFR aircraft require a level readback.
     <span class="hotline">**BN TCU** -> **AF ADC**</span>: "via TVT for the visual approach, UJE"  
     <span class="hotline">**AF ADC** -> **BN TCU**</span>: "UJE, visual approach"
 
-### BN TCU / AMB TCU
+### AMB TCU
 
 #### Departures
 Departures from YAMB in to BN TCU Class C will be coordinated at taxi, and will be requesting a level.
@@ -176,7 +176,7 @@ All aircraft transiting from BN TCU to **AMB TCU** must be heads-up coordinated 
     <span class="hotline">**AMB TCU** -> **BN TCU**</span>: "STAL13, A050"  
     <span class="hotline">**BN TCU** -> **AMB TCU**</span>: "A050, STAL13"  
 
-### BN TCU / SU ADC
+### SU ADC
 BN TCU Class G shares a tiny border with **SU ADC**, however there are no SIDs, STARs, or airways through this gap. The only possible way for an aircraft to directly enter SU ADC airspace from BN TCU's jurisdiction, is from Class G, and as such, no coordination is required to **SU ADC**. However, ensure the aircraft is transferred to the ADC at least **10nm** prior to the boundary, to facilitate their airways clearance.
 
 <figure markdown>

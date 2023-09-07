@@ -40,13 +40,13 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 
 ## Coordination
 
-### TRT/KIY / ENR
+### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-### TRT/KIY Internal
+### TRT Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-### TRT / DN TCU
+### DN TCU
 The Standard Assignable level from TRT to DN TCU is `A100` and assigned the relevant STAR. 
 
 All other aircraft must be voice coordinated to DN TCU prior to **20nm** from the boundary.
@@ -55,7 +55,7 @@ The Standard Assignable level from DN TCU to TRT is the lower of `F180` or the `
 
 Refer to [Darwin TCU Airspace Division](../../../military/darwin/#tcu) for information on airspace divisions when **DAW** is online.
 
-### KIY / BRM ADC
+### BRM ADC
 #### Departures
 Departures from YBRM in to KIY CTA will be coordinated when ready for departure.  
 
@@ -81,9 +81,9 @@ Any aircraft that will enter BRM ADC airspace, and not landing at YBRM, must be 
     <span class="hotline">**KIY** -> **BRM ADC**</span>: "via CIN, NQC"  
     <span class="hotline">**BRM ADC** -> **SWY**</span>: "NQC, A045"
 
-## KIY / IND(INE) (Oceanic)
+### IND(INE) (Oceanic)
 As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
-### TRT/KIY / International (WAAF)
+### International (WAAF)
 Coordination to International units must be done prior to **15 mins** from the boundary in the following format:
 
 - *"Estimate"*

@@ -24,7 +24,7 @@ The Vertical limits of the CB TCU are `SFC` to `F245`.
 </figure>
 
 ## Coordination
-### CB TCU / ENR
+### Enroute
 #### Departures
 Voiceless coordination is in place from CB TCU to ENR for aircraft assigned the lower of `F240` or the `RFL`, and tracking via a Procedural SID terminus.
 
@@ -37,7 +37,7 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 #### Arrivals
 The Standard assignable level from ENR to CB TCU is `F130`. All other levels must be prior coordinated
 
-### CB TCU / CB ADC
+### CB ADC
 #### Auto Release
 'Next' coordination is **not** required to CB TCU for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  

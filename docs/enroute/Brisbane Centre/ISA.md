@@ -46,15 +46,15 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 ## Coordination
 
-### ISA (All) / ENR
+### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-### ISA/ARA/STR/WEG/CVN Internal
+### ISA Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
-### ARA / COL (Oceanic)
+### TSN(COL) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
 
-### ARA / International (WAAF & AYPM)
+### International (WAAF & AYPM)
 Coordination to International units must be done prior to **15 mins** from the boundary in the following format:
 
 - *"Estimate"*
