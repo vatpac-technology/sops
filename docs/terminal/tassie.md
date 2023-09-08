@@ -46,6 +46,9 @@ Runway 32L is regularly the duty runway due to prevailing winds. To assist traff
 
 These routes keep arrivals within CTA and away from the departure stream(s).
 
+!!! note
+    Clearing aircraft to track via one of the above does **not** constitute a voiceless coordination route between LTA and LT ADC. Aircraft should still be heads-up coordinated to LT ADC prior to **5 minutes** to the boundary, unless coordinated otherwise.
+
 ## Coordination
 
 ### TAS TCU / ENR
