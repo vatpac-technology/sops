@@ -299,7 +299,7 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
 </figure>
 
 ## Coordination
-### SY TCU / ENR
+### Enroute
 #### Departures
 Voiceless coordination is in place from SY TCU to all surrounding ENR sectors (**ARL** (and subsectors) to the North and East, **YWE** (and subsectors) to the West, **BIK** (and subsectors) to the South) for aircraft assigned:  
 - The lower of `F280` or the `RFL`, and tracking via a Procedural SID terminus, **with the exception of**:  
@@ -374,7 +374,7 @@ It is vital that Approach controllers ensure all arriving aircraft are establish
 ##### MARLN Corridor
 Aircraft are permitted to cross the MARLN corridor at or above `A060` without coordination with APP. DEP is responsible for separation with respect to aircraft in the corridor.
 
-#### SDN / SFW, SAN
+#### Between SDN and SFW/SAN
 If aircraft are cleared off runway 11 at YSBK into CTA, coordination is required from SDN (who will be receiving the aircraft from BK ADC) with SFW or SAN (depending on YSSY runway config) as the aircraft will pass closer than 1.5nm from the sector boundary.  
 Refer to [Sydney TCU Airspace Division](#airspace-division) for more information.
 
@@ -382,7 +382,7 @@ Refer to [Sydney TCU Airspace Division](#airspace-division) for more information
     <span class="hotline">**SDN** -> **SFW**</span>: “Request left turn out of Bankstown”  
     <span class="hotline">**SFW** -> **SDN**</span>: "Approved" *(no callsigns need be used here)*  
 
-#### SRI / APP, DEP, DIR
+#### Between SRI and APP/DEP/DIR
 ##### Entering CTA
 Heads-up coordination is required for **all aircraft** entering SY TCU Class C from SRI Class G. Heads-up coordination must be completed prior to handoff, however, best practice is to complete the coordination as soon as possible, ie, as soon as the aircraft enters SRI airspace, or as soon as it becomes identified after departure from an aerodrome within 45nm SY.
 
@@ -434,7 +434,7 @@ Heads-up coordination is not required from a SY TCU position to SRI for aircraft
     **CYF:** "Sydney Centre, CYF, maintaining 5,000ft"  
     **SRI:** "CYF, Sydney Centre, no reported IFR traffic, area QNH 1024"
 
-### SY TCU / SY ADC
+### SY ADC
 #### Auto Release
 Auto Release is used for virtually all fixed-wing departures at Sydney. Unlike some other aerodromes, aircraft cleared via the **SY (RADAR) SID** do not need to be 'Next' coordinated, provided they are assigned the standard assignable level and a standard assignable heading from the table below.
 
@@ -466,7 +466,7 @@ Any aircraft that don't meet these criteria must be coordinated to SY TCU with a
     <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Heading 030, ADA4"
 
 The SY TCU controller can suspend/resume Auto Release at any time, with the concurrence of **SY ADC**.
-### SY TCU / BK ADC
+### BK ADC
 #### Departures
 Aircraft departing YSBK in to SY TCU Class C will be coordinated from **BK ADC** when ready for takeoff.
 
@@ -489,7 +489,7 @@ VFR aircraft require a level readback.
 !!! tip
     Ensure the aircraft's FDR is up-to-date in order to give **BK ADC** maximum situational awareness of the traffic picture. (eg. if the aircraft is doing the RNP approach, ensure the FDR has been rerouted via the appropriate points)
 
-### SRI / CN ADC
+### CN ADC
 
 #### Departures
 CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a ready call, SY TCU will issue a traffic statement.
@@ -519,5 +519,5 @@ SY TCU will **NOT** clear the aircraft for the approach.
 
 **CN ADC** must issue an airways clearance to these aircraft on first contact.
 
-### SY TCU / RIC ADC
+### RIC ADC
 Reserved.

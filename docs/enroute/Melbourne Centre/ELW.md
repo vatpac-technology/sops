@@ -66,14 +66,14 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | BLA | ELW | YMML | Non-Jets only |
 
 ## Coordination
-### BLA / CB TCU
+### CB TCU
 The Standard assignable level from BLA to CB TCU is `F130`, and assigned the POLLI STAR or MANDA STAR.  
 
 All other aircraft must be voice coordinated to CB TCU prior to **20nm** from the boundary.
 
 The Standard Assignable level from CB TCU to BLA is the lower of `F240` or the `RFL`, and tracking via HOWLY, WG, NONUP, TANTA, or DUBUS.
 
-### ELW / ML TCU
+### ML TCU
 The Standard assignable level from ELW to ML TCU is `A090`, and assigned the LIZZI STAR or BOYSE STAR.  
 
 All other aircraft must be voice coordinated to ML TCU prior to **20nm** from the boundary.
@@ -81,7 +81,7 @@ All other aircraft must be voice coordinated to ML TCU prior to **20nm** from th
 The Standard Assignable level from ML TCU to ELW is the lower of `F240` or the `RFL`, and tracking via MNG, NONIX, or DOSEL.
 
 Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
-### ELW (All) / ENR
+### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 That being said, it is *advised* that ELW give **Heads-up Coordination** prior to **50nm** from the boundary in the following scenarios:  
@@ -93,7 +93,7 @@ That being said, it is *advised* that ELW give **Heads-up Coordination** prior t
 !!! tip
     **BLA** should aim to handoff aircraft as soon as possible to **GUN**, so they can issue STAR clearance and commence sequencing. Remember, As per [Standard coordination procedures](../../../controller-skills/coordination/#handoffs), the Receiving sector may turn the aircraft 45° left or right and climb/descend to any level. So if required, nominate a restriction.
 
-### ELW/BLA/SNO Internal
+### ELW Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 That being said, it is *advised* that ELW/BLA/SNO give **Heads-up Coordination** prior to **20nm** from the boundary in the following scenarios:  
@@ -101,7 +101,7 @@ That being said, it is *advised* that ELW/BLA/SNO give **Heads-up Coordination**
 - BLA to ELW for aircraft **not** on the Q29 or V169 airway (Changes permitted up to boundary for sequencing/descent purposes)  
 - SNO to BLA for all aircraft
 
-### ELW(All) / ESL TCU
+### ESL TCU
 #### Airspace
 By default, **ESL TCU** owns the airspace within 30nm ESL, `SFC` to `F200`, unless stated otherwise by ad-hoc release or NOTAM.
 #### Departures
@@ -119,7 +119,7 @@ All aircraft transiting from ELW(All) to **ESL TCU** must be heads-up coordinate
     <span class="coldline">**ELW** -> **ESL TCU**</span>: "via MNG, BFRT21, will be assigned F220, BLA and myself have no restrictions on descent"  
     <span class="coldline">**ESL TCU** -> **ELW**</span>: "BFRT21, F220"  
 
-### BLA / AY ADC
+### AY ADC
 #### Airspace
 **AY ADC** own the Class D airspace up to `A045`. BLA own the Class C steps in the "AY keyhole" between `A045` and `A085`.
 #### Departures
@@ -148,5 +148,5 @@ Any aircraft that will enter AY ADC airspace, and not landing at YMAY, must be H
     <span class="hotline">**BLA** -> **AY ADC**</span>: "via AY, NGJ"  
     <span class="hotline">**AY ADC** -> **BLA**</span>: "NGJ, A040"
 
-### SNO / TSN (Oceanic)
+### TSN (Oceanic)
 As per [Standard coordination procedures](../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.

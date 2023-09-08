@@ -37,7 +37,7 @@ All other IFR aircraft shall be assigned the **Radar SID**.
 | 36     | Right |
 
 ## Coordination
-### AV ADC / ML TCU
+### ML TCU
 #### Departures
 'Next' coordination is **not** required to ML TCU for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; or  
@@ -71,5 +71,5 @@ Any Runway change must be prior coordinated to the relevant [TCU Controller](#TC
 #### TCU Controller
 When **MDN** and/or **MDS** are online, the relevant TCU controller is whoever is responsible for **MDS**.
 
-### AV ADC / YWE,WON
+### YWE/WON
 AV ADC only borders YWE/WON Class G airspace, and as such, no coordination is required between AV ADC and YWE/WON.

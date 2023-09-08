@@ -60,7 +60,7 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | BAR | KEN | YBTL | |
 
 ## Coordination
-### KEN/BAR / CS TCU
+### CS TCU
 The Standard Assignable level from KEN/BAR to CS TCU is `A070` and assigned the relevant STAR. 
 
 All other aircraft must be voice coordinated to CS TCU prior to **20nm** from the boundary.
@@ -69,10 +69,10 @@ The Standard Assignable level from CS TCU to KEN/BAR is the lower of `F180` or t
 
 Refer to [Cairns TCU Airspace Division](../../../terminal/cairns/#airspace-division) for information on airspace divisions when **CS2** is online.
 
-### TBP / TL TCU
+### TL TCU
 Reserved.
 
-### SWY / MKA
+### MKA
 The Standard assignable level from SWY to **MKA** is `A070`, and assigned the DAGSI STAR or WELKE STAR.
 
 All other aircraft must be voice coordinated to **MKA** prior to **20nm** from the boundary.
@@ -85,15 +85,15 @@ When **MKA** is online, they own up to `F150` in the **shaded** are shown below:
   <figcaption>Mackay TCU Airspace</figcaption>
 </figure>
 
-### KEN (All) / ENR
+### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-### KEN/BAR/TBP/SWY Internal
+### KEN Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 TBP may make changes to CFL up to the boundary with KEN for the purposes of issuing descent for YBCS.
 
-### SWY / HM ADC
+### HM ADC
 #### Departures
 Departures from YBHM in to SWY Class C will be coordinated when ready for departure.  
 
@@ -119,7 +119,7 @@ Any aircraft that will enter HM ADC airspace, and not landing at YBHM, must be H
     <span class="hotline">**SWY** -> **HM ADC**</span>: "via OVRON, KNV, Overfleir"  
     <span class="hotline">**HM ADC** -> **SWY**</span>: "KNV, A030"
 
-### TBP/SWY / TSN(FLD) (Oceanic)
+### TSN(FLD) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
 
 <figure markdown>

@@ -48,15 +48,15 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 
 ## Coordination
 
-### TBD,AUG / AD TCU
+### AD TCU
 The Standard assignable level from TBD/AUG to AD TCU is `A090`, and assigned a STAR.
 
 All other aircraft must be voice coordinated to AD TCU prior to **20nm** from the boundary.
 
 The Standard Assignable level from AD TCU to TBD/AUG is the lower of `F240` or the `RFL`, and tracking via a SID terminus.
 
-### TBD,AUG / ENR
+### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-### TBD/AUG Internal
+### TBD Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **50nm** to boundary.

@@ -109,7 +109,7 @@ The following speeds apply from the Feeder Fix:
 
 ## Coordination
 
-### CS ADC / CS TCU
+### CS ADC
 #### Departures
 'Next' coordination is **not** required for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  
@@ -131,7 +131,12 @@ b) Approach must limit departure headings to the following:
 | 15          | 030°  | 030°  |
 | 33          | - | 330°  |
 
-### CS ACD / CS TCU
+#### Between CS FLW and CS ADC
+FLW must advise ADC of any sequence changes within 36 Miles CS.  
+FLW must advise ADC of aircraft sequenced for Runway 30.  
+All requests for non-duty runway arrivals must be approved by ADC.
+
+### CS ACD
 The controller assuming responsibility of **CS ACD** shall give heads-up coordination to the relevant CS TCU controller prior to the issue of the following clearances:  
 a) VFR Departures  
 b) Aircraft using a runway not on the ATIS
@@ -144,12 +149,7 @@ b) Aircraft using a runway not on the ATIS
     **CS ACD**: "ABC, Cleared for a Northbound VFR Coastal departure, A035, Squawk 3601"  
     **ABC**: "Cleared for a Northbound VFR Coastal departure, A035, 3601, ABC"
 
-### CS FLW / CS ADC
-FLW must advise ADC of any sequence changes within 36 Miles CS.  
-FLW must advise ADC of aircraft sequenced for Runway 30.  
-All requests for non-duty runway arrivals must be approved by ADC.
-
-### CS TCU / ENR
+### Enroute
 #### Departures
 Voiceless coordination is in place for any route (including SID and random direct tracks) to SWIFT, provided that the aircraft is:
 - Assigned the standard assignable level;  
@@ -168,6 +168,3 @@ Any aircraft **not** meeting the above criteria, must be **Heads-up** Coordinate
 Standard assignable levels from ENR to CS TCU are as follows:  
 055° clockwise to 355° inbound CS: `A070` or the `RFL`  
 355° clockwise to 055°: `A090` or the `RFL`   
-## Class G arrivals
-
-Aircraft entering CS TCU from Class G shall be coordinated. CS TCU will issue airways clearance, therefore transfer of communications should be effected such that CS TCU will have sufficient time to issue such Clearance.

@@ -189,7 +189,7 @@ The divisions of the airspace between **MAE**, **MDN**, and **MDS** change based
 
 ## Coordination
 
-### ML TCU / ENR
+### Enroute
 #### Departures
 Voiceless coordination is in place from ML TCU to all surrounding ENR sectors (**ELW** to the East, **YWE**/**WON** all other directions) for aircraft assigned the lower of `F240` or the `RFL`, and tracking via a Procedural SID terminus.
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
@@ -201,7 +201,7 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 #### Arrivals
 The Standard assignable level from ENR to ML TCU is `A090`. All other levels must be prior coordinated
 
-### ML TCU / ML ADC
+### ML ADC
 #### Auto Release
 !!! important
     Melbourne utilises auto release for all **Procedural** SIDs and the **ML (RADAR)** SID provided aircraft are assigned the Standard Assignable Level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
@@ -233,7 +233,7 @@ The following Standard Assignable Headings may be used for aircraft assigned the
 
 **When Runway 09 is in use for arrivals, all Runway 16 departures shall be assigned heading 160.
 
-### ML TCU / EN ADC
+### EN ADC
 
 #### Start Clearance
 When an aircraft requests start clearance, the EN SMC controller shall coordinate with ML TCU to obtain the start clearance.
@@ -263,7 +263,7 @@ VFR aircraft require a level readback.
 
 When “The Coffin” is released, ML TCU is required to coordinate any use of Runway 27 to EN ADC prior to use.
 
-### ML TCU / AV ADC
+### AV ADC
 #### Departures
 'Next' coordination is **not** required from AV ADC for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; or  
@@ -285,7 +285,7 @@ VFR aircraft will have their control services terminated upon leaving controlled
     <span class="hotline">**MDS** -> **AV ADC**</span>: "via TEMPL for the ILS-Y 18, JST631"  
     <span class="hotline">**AV ADC** -> **MDS**</span>: "JST631, ILS-Y 18"  
 
-### ML TCU / MB ADC
+### MB ADC
 #### Departures
 Departures in to ML TCU Class C airspace require a "Next" call, where ML TCU will provide the cleared level. There is no standard assignable level.
 

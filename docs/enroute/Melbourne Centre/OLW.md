@@ -37,13 +37,13 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 ## Coordination
 
-### OLW(All) / ENR
+### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-### OLW/POT/PAR/NEW/MEK/MTK/MZI Internal
+### OLW Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-### OLW / KA ADC
+### KA ADC
 #### Departures
 Departures from YPKA in to OLW CTA will be coordinated when ready for departure.  
 
@@ -69,5 +69,5 @@ Any aircraft that will enter KA ADC airspace, and not landing at YPKA, must be H
     <span class="hotline">**OLW** -> **KA ADC**</span>: "via BORAT, QQK"  
     <span class="hotline">**KA ADC** -> **OLW**</span>: "QQK, A030"
 
-## OLW(All) / IND,INE (Oceanic)
+### IND,INE (Oceanic)
 As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
