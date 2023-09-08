@@ -69,7 +69,7 @@ Due to the low level of CTA at YPPF, it is best practice to give airways clearan
     **ABC**: "Assigned right 360, wilco, ABC"
 
 ## Coordination
-### AD TCU / ENR
+### Enroute
 #### Departures
 Voiceless coordination is in place from AD TCU to TBD/AUG for aircraft assigned the lower of `F240` or the `RFL`, and tracking via a Procedural SID terminus.
 
@@ -82,7 +82,7 @@ Any aircraft not meeting the above criteria must be prior coordinated to TBD/AUG
 #### Arrivals
 The Standard assignable level from TBD/AUG to AD TCU is `A090`, and assigned a STAR. All other aircraft must be prior coordinated
 
-### AD TCU / AD ADC
+### AD ADC
 #### Auto Release
 'Next' coordination is **not** required to from AD ADC for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  
@@ -103,7 +103,7 @@ All aircraft transiting between internal AD TCU boundaries must be heads-up coor
 
 Boundary coordination is not required between AAW and AAE for aircraft arriving or departing tracking via the 05/23 extended centreline.
 
-### AD TCU / PF ADC
+### PF ADC
 #### Departures
 When the aircraft is ready for departure, PF ADC will coordinate with AD TCU for permission to release the aircraft into CTA.
 
@@ -122,7 +122,7 @@ VFR aircraft require a level readback.
     <span class="hotline">**AAW** -> **PF ADC**</span>: "via PAL, YTS"  
     <span class="hotline">**PF ADC** -> **AAW**</span>: "YTS, A010"
 
-### AD TCU / EDN ADC
+### EDN ADC
 #### Departures
 
 Aircraft departing YPED in to AD TCU Class C will be coordinated from **EDN ADC** at Taxi.

@@ -232,8 +232,7 @@ When SODPROPS are in operation, the ATIS OPR INFO shall include:
         ![IVAs on the ATIS](img/yssy_atis_example.png)
     </figure>
 ## Coordination
-### SY ADC / SY TCU
-#### Auto Release
+### Auto Release
 !!! important
     YSSY utilises auto release for all **Procedural** SIDs (except **ABBEY** SID during SODPROPS), and the **SY (RADAR)** SID provided aircraft are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
@@ -265,10 +264,10 @@ The Standard Assignable level from SY ADC to SY TCU is:
 For Jets: `A050`  
 For Non-Jets: The lower of `A030` or the `RFL`
 
-#### Departures Controller
+### Departures Controller
 Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for information on airspace divisions when **SDN** and/or **SDS** are online.
 
-#### Standard Assignable Departure Headings
+### Standard Assignable Departure Headings
 Aircraft that have been cleared the **SY (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required to the SY TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
 
 | Runway | Jet | Non-Jet 
@@ -283,11 +282,11 @@ Aircraft that have been cleared the **SY (RADAR) SID** must receive an assigned 
 !!! tip
     If strong winds are present at altitude, TWR/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
 
-### SY ADC / SY SMC
+### Between ADC and SMC
 #### Inactive Runway Releases
 **SY ADC** has responsibility of all runways, requiring **SY SMC** to coordinate with **SY ADC** to allow aircraft to cross runways whilst taxiing. **SY SMC** may request, or **SY ADC** may elect, to release certain runways to the **SY SMC** controller, so they may let aircraft cross the runway without coordination (for example, releasing runway 07/25 to **SY SMC** whilst PROPS are in progress.) This release may also be cancelled at the controller's discretion.
 
-### SY ACD / SY TCU
+### ACD to SY TCU
 The controller assuming responsibility of **SY ACD** shall give heads-up coordination to the relevant SY TCU controller prior to the issue of the following clearances:  
 a) VFR Departures  
 b) Aircraft using a runway not on the ATIS 

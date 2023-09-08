@@ -132,7 +132,7 @@ ACFT planning to enter the CS CTR between: *Mt Gorton*, CGF and Upolo Cay at `A0
 
 ## Coordination
 
-### CS ADC / CS TCU
+### CS TCU
 #### Auto Release
 'Next' coordination is **not** required for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  
@@ -151,7 +151,7 @@ All other aircraft require a 'Next' call to CS TCU.
 
 The Standard Assignable level from CS ADC to CS TCU is the lower of `A060` or the `RFL`.
 
-### CS ACD / CS TCU
+#### ACD to CS TCU
 The controller assuming responsibility of **CS ACD** shall give heads-up coordination to the relevant CS TCU controller prior to the issue of the following clearances:  
 a) VFR Departures  
 b) Aircraft using a runway not on the ATIS
@@ -164,6 +164,6 @@ b) Aircraft using a runway not on the ATIS
     **CS ACD**: "ABC, Cleared for a Northbound VFR Coastal departure, A035, Squawk 3601"  
     **ABC**: "Cleared for a Northbound VFR Coastal departure, A035, 3601, ABC"  
 
-### CS FLW / CS ADC
+### CS FLW
 FLW must advise ADC of any sequence changes within 36 Miles CS.  
 All requests for non-duty runway arrivals must be approved by ADC.

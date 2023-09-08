@@ -41,7 +41,7 @@ Runway 32L is regularly the duty runway due to prevailing winds. To assist traff
 
 ## Coordination
 
-### TAS TCU / ENR
+### Enroute
 #### Departures
 The Standard Assignable level from HBA/LTA to HUO is the lower of `F240` or the `RFL`, and tracking via a SID terminus.
 
@@ -58,7 +58,7 @@ The Standard assignable level from HUO to HBA/LTA is:
 
 All other aircraft must be voice coordinated to HBA/LTA.
 
-### HB ADC / HBA
+### HBA
 #### Airspace
 HB ADC owns the Class D airspace in the HB CTR `SFC` to `A015` north of the runway centreline and `A025` south of the runway centreline. HBA owns the Class D and C airspace above these levels.
 
@@ -84,7 +84,7 @@ HBA will coordinate all YMHB arrivals to HB ADC prior to **5 mins** from the bou
     <span class="hotline">**HB TCU** -> **HB ADC**</span>: "via BUSKA, QJE1789, for the ILS”  
     <span class="hotline">**HB ADC** -> **HB TCU**</span>: "QJE1789, ILS"
 
-### LT ADC / LTA
+### LTA
 #### Airspace
 LT ADC owns the Class D airspace in the LT CTR `SFC` to `A015`. LTA owns the Class D and C airspace above `A015`.
 
