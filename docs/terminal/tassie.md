@@ -37,7 +37,17 @@ All aircraft should be kept on SIDs and STARs. If due to operational requirement
 ## YMLT
 Visual approaches are preferred into YMLT. If due to operational requirements, an aircraft is unable to accept a visual approach, coordination with **LT ADC** may be required.  
 
-Runway 32L is regularly the duty runway due to prevailing winds. To assist traffic flow in and out of the TCU, ATC will instruct aircraft to track for runway 32L via `IRSOM, NODAS, MLTSC` which keeps the aircraft within CTA and away from the departures stream.
+Runway 32L is regularly the duty runway due to prevailing winds. To assist traffic flow in and out of the TCU, ATC will instruct aircraft to track for runway 32L via one of the following routes:
+
+| Via              | Routing      |
+| ------------------ | --------------|
+| IRSOM  | NODAS MLTSC |
+| NUNPA  | ELREL MLTSA |
+
+These routes keep arrivals within CTA and away from the departure stream(s).
+
+!!! note
+    Clearing aircraft to track via one of the above routes does **not** constitute a voiceless coordination route between LTA and LT ADC. Aircraft should still be heads-up coordinated to LT ADC prior to **5 minutes** to the boundary, unless coordinated otherwise.
 
 ## Coordination
 
