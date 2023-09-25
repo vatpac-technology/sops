@@ -38,12 +38,23 @@ With the Northeast Plan active, departures via `AVNEX`, `OTLED`, `MANDU`, `SOLUS
 ## Scenic Flights
 VFR aircraft may plan to conduct scenic flights within CTA in the PH TMA. A number of VFR routes exist to facilitate this, including:
 
-| Name | Route |
-| --- | --- |
-| Victor 65 | `CTE-PCTY-HKE` |
-| Victor 66 | `TLMI-HRR-CDM` |
+| Name | Route | Preferred Altitude |
+| --- | --- | --- |
+| Victor 65 | `CTE-PCTY-HKE` | At or below `A015` |
+| Victor 66 | `TLMI-HRR-CDM` | At or below `A035` |
+
+Other levels are available at the discretion of the TCU controller but coordination may be required if adjacent TMA sectors are online. See [TCU Internal](#ph-tcu-internal) for coordination requirements.
 
 Aircraft wishing to conduct a scenic flight over the Perth CBD should be cleared via the Victor 65 route. **No lateral separation standard exists between Victor 65 and the extended centreline of runway 06/24**, so controllers must ensure that an alternative form of separation assurance exists.
+
+!!! example
+    **VH-CYF:** "Perth Approach, CYF, Cessna 172, overhead FREM, 1,500ft, received Bravo, request Victor 65"  
+    **PHA:** "CYF, squawk 0542, remain clear of class C airspace"  
+    **VH-CYF:** "Squawk 0542, remain OCTA, CYF"  
+
+    *When clearance (reference traffic into/out of YPPH) is available:*  
+    **PHA:** "CYF, cleared Victor 65, maintain 1,500ft"  
+    **VH-CYF:** "Cleared Victor 65, maintain 1,500ft, CYF"
 
 Aircraft departing YPPH and intending to conduct the Victor 65 route will be coordinated by **PH ACD**. See [Airways Clearances](#airways-clearances).
 
@@ -104,7 +115,7 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
     <span class="hotline">**PIY** -> **PH TCU**</span>: "PFY9916, concur F130"  
 
 #### Arrivals
-The Standard assignable level from ENR to PH TCU is `A090`. All other levels must be prior coordinated
+The Standard assignable level from ENR to PH TCU is `A090`. All other levels must be prior coordinated.
 
 ### PH ADC
 #### Auto Release
@@ -130,23 +141,25 @@ a) VFR Departures
 b) Aircraft using a runway not on the ATIS
 
 !!! example
-    **ABC**: "Perth Delivery, ABC, request Victor 65 scenic."  
-    **PH ACD**: "ABC, Perth Delivery, standby"  
-
-    <span class="coldline">**PH ACD** -> **PH TCU**</span>: "ABC, requesting Victor 65 scenic"  
-    <span class="coldline">**PH TCU** -> **PH ACD**</span>: "ABC, cleared Victor 65 scenic, not above 1,500ft"  
-    <span class="coldline">**PH ACD** -> **PH TCU**</span>: "Cleared Victor 65 scenic not above 1,500ft, ABC"   
-     
-    **PH ACD**: "ABC, cleared victor 65 scenic not above 1,500ft, squawk 0442"  
-    **ABC**: "Cleared for a victor 65 scenic, not above 1,500ft, squawk 0442, ABC"  
+    <span class="coldline">**PH ACD** -> **PH TCU**</span>: "ABC, requesting Victor 65"  
+    <span class="coldline">**PH TCU** -> **PH ACD**</span>: "ABC, cleared Victor 65, 1,500ft"  
+    <span class="coldline">**PH ACD** -> **PH TCU**</span>: "Cleared Victor 65, 1,500ft, ABC"
 
 ### PH TCU Internal
+Voiceless coordination is in place for all aircraft processed by the Victor 65 and 66 routes in accordance with the table below.
 
-All aircraft transiting between internal PH TCU boundaries must be heads-up coordinated.
+| Route | Non-Coordination Levels | Label Data |
+| --- | --- | --- |
+| Victor 65 | At or below `A015` | `V65` |
+| Victor 66 | At or below `A035` | `V66` |
+
+Other levels are available at the discretion of the TCU controller but coordination may be required if adjacent TMA sectors are online.
+
+All other aircraft transiting between internal PH TCU boundaries must be heads-up coordinated.
 
 !!! example
     <span class="hotline">**PHA** -> **PHD**</span>: "via PH, FD123"  
-    <span class="hotline">**PHD** -> **PHA**</span>: "FD123, A090"   
+    <span class="hotline">**PHD** -> **PHA**</span>: "FD123, A090"    
 
 ### JT ADC
 
