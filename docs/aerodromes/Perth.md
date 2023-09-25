@@ -32,13 +32,15 @@ With the Southwest Plan active, departures should be assigned either runway 21 o
 | GRENE | 24 |
 | SOLUS | 24 |
 
+The ATIS shall notify `EXPECT ILS APCH`.
+
 ### Northeast Plan
 With the Northeast Plan active, departures via `AVNEX`, `OTLED`, `MANDU`, `SOLUS`, and `KEELS` shall be assigned runway 03. All other departures shall be assigned runway 06. All arrivals will be processed to runway 03.
 
 When both Runway 03 and Runway 06 are nominated as departure runways, broadcast the following: `RWY 03 FOR DEP VIA OTLED, AVNEX, MANDU, SOLUS AND KEELS. RWY 06 FOR ALL OTHER DEP.`
 
-In the following conditions, ATIS shall notify `EXPECT ILS APPROACH`:
-    - By night; and/or
+In the following conditions, ATIS shall notify `EXPECT ILS APCH`:  
+    - By night; and/or  
     - Cloud base of `A032` or below
 
 ## Circuit Training
