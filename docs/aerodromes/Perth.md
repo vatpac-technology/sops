@@ -96,5 +96,5 @@ b) Aircraft using a runway not on the ATIS
     <span class="coldline">**PH TCU** -> **PH ACD**</span>: "ABC, cleared Victor 65, 1,500ft"  
     <span class="coldline">**PH ACD** -> **PH TCU**</span>: "Cleared Victor 65, 1,500ft, ABC"   
      
-    **PH ACD**: "ABC, cleared victor 65, climb 1,500ft, squawk 0442"  
-    **ABC**: "Cleared for a victor 65, climb 1,500ft, squawk 0442, ABC"  
+    **PH ACD**: "ABC, cleared Victor 65, climb to 1,500ft, squawk 0442"  
+    **ABC**: "Cleared Victor 65, climb to 1,500ft, squawk 0442, ABC"  
