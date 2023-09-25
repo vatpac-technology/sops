@@ -21,49 +21,41 @@ PH ADC is not responsible for any airspace by default.
 ## Runway Selection
 
 ### Southwest Plan
-- Any combination of Runway 21 and/or 24.
-- The ATIS shall notify `EXPECT ILS APPROACH`
+With the Southwest Plan active, departures should be assigned either runway 21 or 24 (depending on parking position and operational requirements). Arrivals will be processed to either runway 21 or 24 based on their feeder fix, as per the table below:
 
-
-**Runway Assignment**
-
-| Feeder Fix | Runway |
-| ---------- | ------ |
+| Feeder Fix | Assigned Runway |
+| --- | --- |
 | JULIM | 21 |
 | CONNI | 21 |
 | WAVES | 21 |
-| BEVLY | 24, 21 (if operationally required) | 
+| BEVLY | 24 (or 21 if operationally required) |
 | GRENE | 24 |
 | SOLUS | 24 |
 
 ### Northeast Plan
-- Runway 03 for arrivals.
-- Runway 03 for departures via:  
-    - AVNEX
-    - OTLED
-    - MANDU
-    - SOLUS
-    - KEELS
-- Runway 06 for all other departures.
+With the Northeast Plan active, departures via `AVNEX`, `OTLED`, `MANDU`, `SOLUS`, and `KEELS` shall be assigned runway 03. All other departures shall be assigned runway 06. All arrivals will be processed to runway 03.
 
-- In the following conditions, ATIS shall notify `EXPECT ILS APPROACH`
+When both Runway 03 and Runway 06 are nominated as departure runways, broadcast the following: `RWY 03 FOR DEP VIA OTLED, AVNEX, MANDU, SOLUS AND KEELS. RWY 06 FOR ALL OTHER DEP.`
+
+In the following conditions, ATIS shall notify `EXPECT ILS APPROACH`:
     - By night; and/or
     - Cloud base of `A032` or below
 
-## Miscellaneous
-
-### Circuit Training
+## Circuit Training
 Circuit training traffic shall be issued SSR code and clearance to operate within circuit area not above `A015`. Circuit training is typically conducted on Runway 03/21.
 
 All circuits are to be conducted to the east of Runway 03/21 (right-hand circuit Runway 03).
 
-### Scenic Flights
-When traffic permits, VFR scenic flights over Perth are cleared via VICTOR 65 route (CTE-PCTY-HKE).
+## Helicopter Operations
+There are no helipad facilities at YPPH. Helicopters should be issued an airways clearance in accordance with the fixed-wing operation applicable to their flight rules (i.e. SID for IFR helicopters, VFR departure via appropriate VFR route if necessary for VFR helicopters). Helicopters should be cleared to takeoff/land from runways or taxiways, as deemed appropriate by ADC. The point of takeoff/landing must be specified by ADC.
 
-### ATIS Notification of Departure Runway
-When both Runway 03 and Runway 06 are nominated as departure runways, broadcast the following:
+!!! example
+    **PH ADC:** "YOE, taxiway Romeo, cleared to land"  
 
-`RWY 03 FOR DEP VIA OTLED, AVNEX, MANDU, SOLUS AND KEELS. RWY 06 FOR ALL OTHER DEP.`
+    **PH ADC:** "HWD, runway 21, cleared for takeoff"
+
+## Scenic Flights
+When traffic permits, VFR scenic flights over Perth are cleared via VICTOR 65 route (`CTE-PCTY-HKE`). Coordination with PH TCU is required prior to issuing this clearance, see [ACD to PH TCU](#acd-to-ph-tcu).
 
 ## Coordination
 ### Auto Release
@@ -84,7 +76,7 @@ All other aircraft require a 'Next' call to PH TCU.
 
 The PH TCU controller can suspend/resume Auto Release at any time, with the concurrence of **PH ADC**.
 
-The Standard Assignable level from PH ADC to PH TCU is the lower of `A050` or the `RFL`
+The Standard Assignable level from PH ADC to PH TCU is the lower of `A050` or the `RFL`.
 
 ### Departures Controller
 Refer to [Perth TCU Airspace Division](../../terminal/perth/#airspace-division) for information on airspace divisions when **PHD** is online.
@@ -95,12 +87,12 @@ a) VFR Departures
 b) Aircraft using a runway not on the ATIS
 
 !!! example
-    **ABC**: "Perth Delivery, ABC, Requesting a Victor 65 scenic."  
-    **PH ACD**: "ABC, Perth Delivery, Standby"  
+    **ABC**: "Perth Delivery, ABC, request Victor 65 scenic."  
+    **PH ACD**: "ABC, Perth Delivery, standby"  
 
-    <span class="coldline">**PH ACD** -> **PH TCU**</span>: "ABC, Requesting Victor 65 scenic"  
-    <span class="coldline">**PH TCU** -> **PH ACD**</span>: "ABC, Cleared Victor 65 scenic"  
-    <span class="coldline">**PH ACD** -> **PH TCU**</span>: "Cleared Victor 65 scenic, ABC"   
+    <span class="coldline">**PH ACD** -> **PH TCU**</span>: "ABC, requesting Victor 65 scenic"  
+    <span class="coldline">**PH TCU** -> **PH ACD**</span>: "ABC, cleared Victor 65 scenic, not above 1,500ft"  
+    <span class="coldline">**PH ACD** -> **PH TCU**</span>: "Cleared Victor 65 scenic not above 1,500ft, ABC"   
      
-    **PH ACD**: "ABC, Cleared for a victor 65 scenic"  
-    **ABC**: "Cleared for a victor 65 scenic, ABC"  
+    **PH ACD**: "ABC, cleared victor 65 scenic not above 1,500ft, squawk 0442"  
+    **ABC**: "Cleared for a victor 65 scenic, not above 1,500ft, squawk 0442, ABC"  
