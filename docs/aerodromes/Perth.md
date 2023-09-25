@@ -21,7 +21,7 @@ PH ADC is not responsible for any airspace by default.
 ## Runway Selection
 
 ### Southwest Plan
-With the Southwest Plan active, departures should be assigned either runway 21 or 24 (depending on parking position and operational requirements). Arrivals will be processed to either runway 21 or 24 based on their feeder fix, as per the table below:
+With the Southwest Plan active, all departures shall be assigned runway 21. Arrivals will be processed to either runway 21 or 24 based on their feeder fix, as per the table below:
 
 | Feeder Fix | Assigned Runway |
 | --- | --- |
