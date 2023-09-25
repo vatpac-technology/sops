@@ -13,11 +13,23 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
-The Vertical limits of the PH TCU are `SFC` to `F245`.     
-PH TCU is responsible for the Perth TCU, except:      
-R155A & B when **PEA TCU** is online from `A020` to `F160`. When R155A is active to `F160`, PH TCU airspace above R155A shall be released to **PEA TCU**  
+The PH TCU is responsible for the airspace within 36 DME of the PH VOR, `SFC` to `F245`. 
+
+When **PEA TCU** is online R155A & B is released to them from `A020` to `F160`.  When R155A is active to `F160`, PH TCU airspace above R155A shall be released to **PEA TCU**.
 
 JT CTR reverts to Class G when **JT ADC** is offline, and is administered by the relevant PH TCU controller.      
+
+## Scenic Flights
+VFR aircraft may plan to conduct scenic flights within CTA in the PH TMA. A number of VFR routes exist to facilitate this, including:
+
+| Name | Route |
+| --- | --- |
+| Victor 65 | `CTE-PCTY-HKE` |
+| Victor 66 | `TLMI-HRR-CDM` |
+
+Aircraft wishing to conduct a scenic flight over the Perth CBD should be cleared via the Victor 65 route. **No lateral separation standard exists between Victor 65 and the extended centreline of runway 06/24**, so controllers must ensure that an alternative form of separation assurance exists.
+
+Aircraft departing YPPH and intending to conduct the Victor 65 route will be coordinated by **PH ACD**. See [Airways Clearances](#airways-clearances).
 
 ## Arrival Procedures
 ### YPJT Arrivals
@@ -78,7 +90,7 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 #### Arrivals
 The Standard assignable level from ENR to PH TCU is `A090`. All other levels must be prior coordinated
 
-### PH TCU
+### PH ADC
 #### Auto Release
 
 "Next" Coordination is a procedure where the PH ADC controller gives a heads-up to the PH TCU controller about an impending departure. The PH TCU controller will respond by assigning a heading to the aircraft, for the PH ADC controller to pass on with their takeoff clearance.
@@ -88,13 +100,29 @@ The Standard assignable level from ENR to PH TCU is `A090`. All other levels mus
     <span class="hotline">**PH TCU** -> **PH ADC**</span>: "ABC, Heading 010, unrestricted"  
     <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Heading 010, unrestricted, ABC"
 
+"Next" Coordination to PH TCU is not required for aircraft assigned a **Procedural SID** and the Standard Assignable Level.
+
 "Next" Coordination to PH TCU is additionally required for:   
     a) Aircraft on a non-standard level.  
     b) Aircraft departing from a runway not nominated in the ATIS.  
 
 The PH TCU controller can suspend/resume Auto Release at any time, with the concurrence of PH ADC.
 
-"Next" Coordination to PH TCU is not required for aircraft assigned a **Procedural SID** and the Standard Assignable Level.
+#### Airways Clearances
+The controller assuming responsibility of ACD shall give heads-up coordination to the relevant PH TCU controller prior to the issue of the following clearances:  
+a) VFR Departures  
+b) Aircraft using a runway not on the ATIS
+
+!!! example
+    **ABC**: "Perth Delivery, ABC, request Victor 65 scenic."  
+    **PH ACD**: "ABC, Perth Delivery, standby"  
+
+    <span class="coldline">**PH ACD** -> **PH TCU**</span>: "ABC, requesting Victor 65 scenic"  
+    <span class="coldline">**PH TCU** -> **PH ACD**</span>: "ABC, cleared Victor 65 scenic, not above 1,500ft"  
+    <span class="coldline">**PH ACD** -> **PH TCU**</span>: "Cleared Victor 65 scenic not above 1,500ft, ABC"   
+     
+    **PH ACD**: "ABC, cleared victor 65 scenic not above 1,500ft, squawk 0442"  
+    **ABC**: "Cleared for a victor 65 scenic, not above 1,500ft, squawk 0442, ABC"  
 
 ### PH TCU Internal
 
