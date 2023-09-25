@@ -27,6 +27,8 @@ OLW is responsible for **POT**, **PAR**, **NEW**, **MEK**, **MTK** and **MZI** w
 ## Sector Responsibilities
 OLW is responsible for issuing descent and ascertaining arrival intentions for aircraft bound for YPKA.
 
+Regardless of the status of KA ADC, OLW operates the Karratha Class E airspace `A055` and above. When KA ADC is offline, the Class D airspace below `A055` is reclassified Class G.
+
 ## STAR Clearance Expectation
 ### Handoff
 Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
