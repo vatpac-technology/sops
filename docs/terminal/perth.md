@@ -19,6 +19,22 @@ When **PEA TCU** is online R155A & B is released to them from `A020` to `F160`. 
 
 JT CTR reverts to Class G when **JT ADC** is offline, and is administered by the relevant PH TCU controller.      
 
+## Runway Modes
+### Southwest Plan
+With the Southwest Plan active, all departures shall be assigned runway 21 by **PH ACD**. Arrivals shall be processed to either runway 21 or 24 based on their feeder fix, as per the table below:
+
+| Feeder Fix | Assigned Runway |
+| --- | --- |
+| JULIM | 21 |
+| CONNI | 21 |
+| WAVES | 21 |
+| BEVLY | 24 (or 21 if operationally required) |
+| GRENE | 24 |
+| SOLUS | 24 |
+
+### Northeast Plan
+With the Northeast Plan active, departures via `AVNEX`, `OTLED`, `MANDU`, `SOLUS`, and `KEELS` shall be assigned runway 03 by **PH ACD**. All other departures shall be assigned runway 06. All arrivals shall be processed to runway 03.
+
 ## Scenic Flights
 VFR aircraft may plan to conduct scenic flights within CTA in the PH TMA. A number of VFR routes exist to facilitate this, including:
 

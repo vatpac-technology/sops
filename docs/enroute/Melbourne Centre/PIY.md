@@ -24,28 +24,46 @@
 
 ## Sector Responsibilities
 ### Pingelly (PIY)
-PIY will provide final sequencing actions to ensure aircraft comply with their FF times prior to entering the Perth TCU. PIY is also responsible for issuing STAR Clearances for aircraft bound for YPJT, and Non-jets bound for YPPH and YPEA.  
+PIY will provide final sequencing actions to ensure aircraft comply with their FF times prior to entering the Perth TCU. PIY is also responsible for issuing STAR Clearances for aircraft bound for YPJT, and Non-jets bound for YPPH and YPEA. See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
+
 For aircraft overflying the PH TCU place `O/FLY` in the LABEL DATA field.
 
 ### Leeman (LEA)
-LEA is responsible for assigning and issuing STAR clearance to aircraft inbound to Perth via `WAVES`.
+LEA is responsible for assigning and issuing STAR clearance to aircraft inbound to Perth via `WAVES`. See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
 
 !!! note
     Controllers should be aware that VHF coverage near the LEA/IND border may be limited. Controllers should strive to issue HF frequencies and transfer of communications instruction prior to 160 NM PH DME.
+
 ### Grove (GVE)
-GVE is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `JULIM` and `CONNI`. 
+GVE is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `JULIM` and `CONNI`.  See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
 
 ### Hyden (HYD)
-HYD is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `BEVLY`, `DAYLR` and `GRENE`.
+HYD is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `BEVLY`, `DAYLR` and `GRENE`. See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
 
 ### Cross (CRS) / Geraldton (GEL)
 Just keeping them separated!
 
 ### Jarrah (JAR)
-JAR is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via `SOLUS`.
+JAR is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via `SOLUS`. See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
 
 !!! note
     Controllers should be aware there may be limited ADS-B coverage around Albany (YABA). Expect some areas of Class E airspace to be outside surveillance coverage. [Procedural Standards](../../../separation-standards/procedural) may need to be used in these cases.
+
+### Perth Runway Modes
+#### Southwest Plan
+With the Southwest Plan active, arrivals shall be processed to either runway 21 or 24 based on their feeder fix, as per the table below:
+
+| Feeder Fix | Assigned Runway |
+| --- | --- |
+| JULIM | 21 |
+| CONNI | 21 |
+| WAVES | 21 |
+| BEVLY | 24 (or 21 if operationally required) |
+| GRENE | 24 |
+| SOLUS | 24 |
+
+#### Northeast Plan
+With the Northeast Plan active (runways 03 and 06 in use), all arrivals shall be processed to runway 03.
 
 ## STAR Clearance Expectation
 
