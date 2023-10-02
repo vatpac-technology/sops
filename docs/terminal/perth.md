@@ -13,11 +13,50 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
-The Vertical limits of the PH TCU are `SFC` to `F245`.     
-PH TCU is responsible for the Perth TCU, except:      
-R155A & B when **PEA TCU** is online from `A020` to `F160`. When R155A is active to `F160`, PH TCU airspace above R155A shall be released to **PEA TCU**  
+The PH TCU is responsible for the airspace within 36 DME of the PH VOR, `SFC` to `F245`. 
+
+When **PEA TCU** is online R155A & B is released to them from `A020` to `F160`.  When R155A is active to `F160`, PH TCU airspace above R155A shall be released to **PEA TCU**.
 
 JT CTR reverts to Class G when **JT ADC** is offline, and is administered by the relevant PH TCU controller.      
+
+## Runway Modes
+### Southwest Plan
+With the Southwest Plan active, all departures shall be assigned runway 21 by **PH ACD**. Arrivals shall be processed to either runway 21 or 24 based on their feeder fix, as per the table below:
+
+| Feeder Fix | Assigned Runway |
+| --- | --- |
+| JULIM | 21 |
+| CONNI | 21 |
+| WAVES | 21 |
+| BEVLY | 24 (or 21 if operationally required) |
+| GRENE | 24 |
+| SOLUS | 24 |
+
+### Northeast Plan
+With the Northeast Plan active, departures via `AVNEX`, `OTLED`, `MANDU`, `SOLUS`, and `KEELS` shall be assigned runway 03 by **PH ACD**. All other departures shall be assigned runway 06. All arrivals shall be processed to runway 03.
+
+## Scenic Flights
+VFR aircraft may plan to conduct scenic flights within CTA in the PH TMA. A number of VFR routes exist to facilitate this, including:
+
+| Name | Route | Preferred Altitude |
+| --- | --- | --- |
+| Victor 65 | `CTE-PCTY-HKE` | At or below `A015` |
+| Victor 66 | `TLMI-HRR-CDM` | At or below `A035` |
+
+Other levels are available at the discretion of the TCU controller but coordination may be required if adjacent TMA sectors are online. See [TCU Internal](#ph-tcu-internal) for coordination requirements.
+
+Aircraft wishing to conduct a scenic flight over the Perth CBD should be cleared via the Victor 65 route. **No lateral separation standard exists between Victor 65 and the extended centreline of runway 06/24**, so controllers must ensure that an alternative form of separation assurance exists.
+
+!!! example
+    **VH-CYF:** "Perth Approach, CYF, Cessna 172, overhead FREM, 1,500ft, received Bravo, request Victor 65"  
+    **PHA:** "CYF, squawk 0542, remain clear of class C airspace"  
+    **VH-CYF:** "Squawk 0542, remain OCTA, CYF"  
+
+    *When clearance (reference traffic into/out of YPPH) is available:*  
+    **PHA:** "CYF, cleared Victor 65, maintain 1,500ft"  
+    **VH-CYF:** "Cleared Victor 65, maintain 1,500ft, CYF"
+
+Aircraft departing YPPH and intending to conduct the Victor 65 route will be coordinated by **PH ACD**. See [Airways Clearances](#airways-clearances).
 
 ## Arrival Procedures
 ### YPJT Arrivals
@@ -76,9 +115,9 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
     <span class="hotline">**PIY** -> **PH TCU**</span>: "PFY9916, concur F130"  
 
 #### Arrivals
-The Standard assignable level from ENR to PH TCU is `A090`. All other levels must be prior coordinated
+The Standard assignable level from ENR to PH TCU is `A090`. All other levels must be prior coordinated.
 
-### PH TCU
+### PH ADC
 #### Auto Release
 
 "Next" Coordination is a procedure where the PH ADC controller gives a heads-up to the PH TCU controller about an impending departure. The PH TCU controller will respond by assigning a heading to the aircraft, for the PH ADC controller to pass on with their takeoff clearance.
@@ -88,21 +127,39 @@ The Standard assignable level from ENR to PH TCU is `A090`. All other levels mus
     <span class="hotline">**PH TCU** -> **PH ADC**</span>: "ABC, Heading 010, unrestricted"  
     <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Heading 010, unrestricted, ABC"
 
+"Next" Coordination to PH TCU is not required for aircraft assigned a **Procedural SID** and the Standard Assignable Level.
+
 "Next" Coordination to PH TCU is additionally required for:   
     a) Aircraft on a non-standard level.  
     b) Aircraft departing from a runway not nominated in the ATIS.  
 
 The PH TCU controller can suspend/resume Auto Release at any time, with the concurrence of PH ADC.
 
-"Next" Coordination to PH TCU is not required for aircraft assigned a **Procedural SID** and the Standard Assignable Level.
+#### Airways Clearances
+The controller assuming responsibility of ACD shall give heads-up coordination to the relevant PH TCU controller prior to the issue of the following clearances:  
+a) VFR Departures  
+b) Aircraft using a runway not on the ATIS
+
+!!! example
+    <span class="coldline">**PH ACD** -> **PH TCU**</span>: "ABC, requesting Victor 65"  
+    <span class="coldline">**PH TCU** -> **PH ACD**</span>: "ABC, cleared Victor 65, 1,500ft"  
+    <span class="coldline">**PH ACD** -> **PH TCU**</span>: "Cleared Victor 65, 1,500ft, ABC"
 
 ### PH TCU Internal
+Voiceless coordination is in place for all aircraft processed by the Victor 65 and 66 routes in accordance with the table below.
 
-All aircraft transiting between internal PH TCU boundaries must be heads-up coordinated.
+| Route | Non-Coordination Levels | Label Data |
+| --- | --- | --- |
+| Victor 65 | At or below `A015` | `V65` |
+| Victor 66 | At or below `A035` | `V66` |
+
+Other levels are available at the discretion of the TCU controller but coordination may be required if adjacent TMA sectors are online.
+
+All other aircraft transiting between internal PH TCU boundaries must be heads-up coordinated.
 
 !!! example
     <span class="hotline">**PHA** -> **PHD**</span>: "via PH, FD123"  
-    <span class="hotline">**PHD** -> **PHA**</span>: "FD123, A090"   
+    <span class="hotline">**PHD** -> **PHA**</span>: "FD123, A090"    
 
 ### JT ADC
 
