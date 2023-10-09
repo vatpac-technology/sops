@@ -52,8 +52,8 @@ Coordinate the aircraft with ADC, including the use of the appropriate clearance
     <span class="hotline">**TCU** -> **ADC**</span>: "South of PNL, CEY, for coastal northbound, 500ft, clearance limit BTJ"  
     <span class="hotline">**ADC** -> **TCU**</span>: "CEY"  
 
-    **AD TCU:** "CEY, identified, cleared coastal offshore northbound, not above 500ft"  
-    **CEY:** "Cleared coastal offshore northbound, not above 500ft, CEY"  
+    **AD TCU:** "CEY, identified, cleared coastal offshore northbound, not above 500ft, clearance limit BTJ"  
+    **CEY:** "Cleared coastal offshore northbound, not above 500ft, clearance limit BTJ, CEY"  
 
     *Before CEY reaches BTJ:*  
     **AD TCU:** "CEY, contact Adelaide Tower, 120.5"  
