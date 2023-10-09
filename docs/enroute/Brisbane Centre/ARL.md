@@ -75,6 +75,12 @@ Non-jet aircraft for YSSY shall be assigned the **MEPIL** STAR.
 
     In this case, coordination should be conducted to ensure that both controllers agree and no additional conflicts are created as a result (particularly with aircraft inbound from the south/west).
 
+!!! example
+    **BIK:** "RXA6417, amended tracking and STAR available"  
+    **RXA6417:** "RXA6417, go ahead"  
+    **BIK:** "RXA6417, recleared direct BOREE for the BOREE3A arrival, runway 34L, maintain FL180"  
+    **RXA6417:** "Recleared direct BOREE for the BOREE3A arrival, runway 34L, maintain FL180, RXA6417"
+
 ## STAR Clearance Expectation
 ### Handoff
 Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
@@ -121,6 +127,8 @@ That being said, due to their small sizes and frequent random-track traffic, it 
 #### Airspace
 When **TW ADC** is online, **ARL** owns the Class C airspace from `A065` upwards. **TW ADC** owns the Class D airspace `SFC` to `A045` and Class C airspace `A045` to `A065`.
 
+When **TW ADC** is closed, the Class C airspace `A085` and below is reclassified Class G.
+
 #### Departures
 Departures from YSTW in to ARL/MDE Class C will be coordinated when ready for departure.
 
@@ -142,7 +150,7 @@ The Standard Assignable level from ARL/MDE to **TW ADC** is `A080`, any other le
 
 ### CFS ADC
 #### Airspace
-When **CFS ADC** is online, **INL** and **MNN** owns the Class C airspace from A045 upwards, and **CFS ADC** owns the Class D airspace SFC-A045.
+**INL** and **MNN** own the Class C airspace from **A045** upwards, and **CFS ADC** (when online) owns the Class D airspace **SFC-A045**.
 
 #### Departures
 Departures from YCFS in to MNN Class C will be coordinated when ready for departure.
@@ -172,7 +180,10 @@ Any aircraft that will enter CFS ADC airspace, and not landing at YCFS, must be 
 
 ### WLM TCU
 #### Airspace
-By default, **WLM TCU** owns the airspace within the **R578A-G** restricted areas, unless stated otherwise by ad-hoc release or NOTAM. It is the responsibility of the **WLM TCU** controller to inform ARL(All) of what airspace they are assuming.
+By default, **WLM TCU** (when online) owns the airspace within the **R578A-G** restricted areas, unless stated otherwise by ad-hoc release or NOTAM. It is the responsibility of the **WLM TCU** controller to inform ARL(All) of what airspace they are assuming.
+
+When WLM TCU is offline, **ARL** administers the Class E airspace (generally **A085** and above, or **A045** and above in some airspace steps) and the military Class C airspace is reclassified as Class G.
+
 #### Departures
 Departures from **WLM TCU** in to ARL(All) Class C will be heads-up coordinated.
 
