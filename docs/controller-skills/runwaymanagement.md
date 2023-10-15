@@ -61,7 +61,7 @@ Whilst runway changes have minimal impact on aerodrome controllers, they can dra
 ### Planned Configuration Change
 The aerodrome controller in charge of the ATIS should frequently check the METAR/TAF to identify trends and any anticipated wind shifts. If a change of runway is expected (e.g. with the forecast passing of a front), controllers should anticipate this change.
 
-Discuss the event with the overlying TMA controller/s and nominate a time from which the new runway configuration will be used. It can be helpful to identify the last arrival who will use the current runway mode, so that both Tower and Approach have a definite change point. Once this coordination has been completed, update the ATIS and include an expectation of a runway change in the `OPR INFO` field. This should include the expected time of change and the new runway mode to be used.
+Discuss the event with the overlying TMA controller/s and nominate a time from which the new runway configuration will be used. It can be helpful to identify the last arrival who will use the current runway mode, so that both Tower and Approach have a definite change point. Once this coordination has been completed, update the ATIS and include an expectation of a runway change in the `OPR INFO` field. This should include the expected time of change and the new runway mode to be used. The TMA controller should coordinate with Enroute, who will amend any STAR clearances for aircraft projected to land after the nominated time.
 
 !!! example
     <span class="hotline">**SY ADC** -> **SAN**</span>: "The tailwind component is starting to increase a bit and the TAF indicates the wind's going to keep swinging around. Thoughts on changing to runway 34s from time 30?"  
@@ -72,12 +72,41 @@ Discuss the event with the overlying TMA controller/s and nominate a time from w
 
 Once QFA553 lands, the runway change can occur. It is good practice to cancel autorelease during this period, to avoid any surprise departures.
 
-After being notified by ADC, TMA controllers should coordinate the impending change with Enroute, who will amend any STAR clearances for aircraft projected to land after the nominated time. Enroute controllers should also consider adding a gap of a few minutes to the sequence at the nominated runway change time, to allow the TMA controller to 'finish' the sequence onto the current runway before aircraft begin approaching the new runway (which may be the reciprocal end).
-
 ### Immediate Change
 Sometimes, prior notice is not available to plan a runway change and an immediate change is required. **Changes of this nature will have a severe impact on surrounding controllers if the traffic levels are high, and should be avoided at all costs.**
 
 If an immediate change is required, the first port of call should be to contact the TMA controller and advise of the situation. Nominate the last aircraft to land using the current runway mode and hold all departures until the runway change has occurred. It is good practice to cancel autorelease during this period, to avoid any surprise departures as the TMA controller sequences any remaining aircraft for the new runway.
+
+### Actions for Each Position
+#### Tower
+Once a need to change configurations has been identified, Tower controllers should:  
+
+- Discuss with TMA controllers to nominate the time of change and identify last arrival to use the current runway config  
+- Update the ATIS  
+- Coordinate with ACD to ensure aircraft departing after the runway change are assigned an appropriate runway and SID  
+- Continue departing aircraft as normal until the last arrival lands
+
+!!! note
+    Ensure that the aircraft identified as the last arrival is the last aircraft (arrival or departure) to use the runway in that direction.  
+
+#### Approach
+In response to coordination from Tower, or on making their own assessment of the conditions, Approach controllers should:  
+
+- Nominate last arrival to use the current runway config and record in tag (`LAST`) if they own the tag
+- Nominate the first arrival to use the new runway config and record in tag (`FIRST`) if they own the tag
+- Coordinate with Enroute to advise of change
+- Not allow an aircraft to approach within **10nm** of the reciprocal runway end until the last arrival has landed on the old runway. This is to consider the go around case.
+
+#### Enroute
+In response to coordination from the TCU, Enroute controllers should:
+
+- Record the last and first arrivals in the tag if they own applicable tags (using `LAST` and `FIRST` respectively)
+- Build a **5 minute** gap in the sequence between the last arrival to use the current config and the first arrival to use the new config
+- Reassign STAR clearances to any aircraft projected to land after the change as required
+- Continue issuing STAR clearances to subsequent aircraft using the new runway config
+
+!!! tip
+    There is often a need to delay aircraft to achieve the required 5 minute gap between last and first arrivals, so utilise all available resources to minimise the flow on delay to other aircraft, such as evenly spreading traffic across parallel runways if able.
 
 ## Runway Separation Standards
 ### Takeoff Clearances
