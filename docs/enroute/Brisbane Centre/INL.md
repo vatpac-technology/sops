@@ -93,9 +93,9 @@ Refer to [Brisbane TCU Airspace Division](../../../terminal/brisbane/operations/
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 ### INL Internal
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
-That being said, it is *advised* that INL(All) give **Heads-up Coordination** to the relevant sector prior to **50nm** from the boundary in the following scenarios:  
+That being said, it is *advised* that INL(All) give **Heads-up Coordination** to the relevant sector prior to **20nm** from the boundary in the following scenarios:  
 - INL to DOS for all aircraft  
 - DOS to BUR, NSA, GOL and INL for all aircraft  
 - SDY to NSA, GOL and INL for all aircraft  
