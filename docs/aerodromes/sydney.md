@@ -205,10 +205,17 @@ Unless operationally required, aircraft shall be assigned the following runways 
 | via KADOM   | 16R/34L      |
 | via WOL | 16R/34L |
 | via RIC| 16R/34L |
+| via PEGSU| 16R/34L |
 | via ENTRA | 16L/34R |
+| via KAMBA | 16L/34R |
 | Other aircraft: |
 | To the NORTH and EAST | 16L/34R |
 | To the SOUTH and WEST | 16R/34L |
+
+!!! note
+    During times of heavy traffic, crossing domestic departures over Runway 34L can cause delays. In these situations, it may be beneficial for ACD to balance the load between Runways 34L and 34R for domestic jet departures via WOL. Non-jets departures via WOL should still be processed on 34L. The same principle may be applied to the Runway 16 direction when the 16R holding points are becoming congested and a large amount of heavy, international aircraft are planned to depart during a given window.  
+
+    Where the traffic levels are normal, preference should be given to departing aircraft in accordance with the runway selection table above.
 
 #### SID Selection
 Jet Aircraft planned via **KADOM**, **WOL**, **RIC**, or **ENTRA**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
