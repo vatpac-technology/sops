@@ -27,6 +27,7 @@ This page lists some of the most commonly used callsigns in Australia.
 | HND | HINTERLAND |
 | JTE  | JETEX |
 | JST | JETSTAR |
+| NV  | NAVAIR |
 | NWK  | NETLINK |
 | PE | PELICAN |
 | PFY  | PELFLIGHT |
@@ -114,12 +115,12 @@ This page lists some of the most commonly used callsigns in Australia.
 | BDOG  | BIRDOG              | Coordination of Firebombing Aircraft   |
 | BMBR  | BOMBER        | Fire Bombing    |
 | ENRG  | ENERGY           | Powerline and pipeline survey and construction    |
+| FBIR  | FIREBIRD             | General Fire Support Tasks (light rotary)    |
 | FPL  | FEDPOL              | Federal Police    |
 | FPLR  | FEDPOL RED    | Federal Police (Priority)    |
-| FYRA  | FIREAIR              | Night-time NVIS firefighting operations    |
-| FBIR  | FIREBIRD             | General Fire Support Tasks (light rotary)    |
 | FSCN  | FIRESCAN             | Remote Sensing Fire Operations    |
-| SPTR  | FIRESPOTTER              | Fire Intelligence Gathering    |
+| FYRA  | FIREAIR              | Night-time NVIS firefighting operations    |
+| HM  | HEMS        | Helicopter Emergency Medical Service    |
 | HLTK  | HELITAK             | General Fire Support Tasks (medium rotary)    |
 | GLDR  | GLIDER             | Gliding operations   |
 | LIFE  | LIFESAVER              | Lifesaver Operations    |
@@ -129,6 +130,7 @@ This page lists some of the most commonly used callsigns in Australia.
 | POL | POLAIR | Police   |
 | POLR  | POLAIR RED         | Police (Priority)   |
 | RSCU  | RESCUE             | Rescue Mission   |
+| SPTR  | FIRESPOTTER              | Fire Intelligence Gathering    |
 | SVY  | SURVEY                | Aerial Survey (mapping, geographical, etc.)  |
 
 ## Military
