@@ -26,7 +26,7 @@ MKA may extend to RKA and vice versa, callsigns remain the same. See [Controller
     </figure>
 ## Coordination
 
-### COR TCU / ENR
+### Enroute
 #### Departures
 Voiceless coordination is in place from MKA/RKA to ENR for aircraft:  
 
@@ -42,7 +42,7 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 The Standard assignable level from INL(KPL) to RKA is `A070`, and assigned a STAR. All other aircraft must be prior coordinated.  
 The Standard assignable level from KEN(SWY) to MKA is `A070`, and assigned a STAR. All other aircraft must be prior coordinated
 
-### COR TCU / ADC
+### MK/RK ADC
 #### Auto Release
 "Next" Coordination to TCU is required for all deps not assigned a SID.
 

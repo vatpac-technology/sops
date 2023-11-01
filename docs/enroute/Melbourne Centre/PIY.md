@@ -24,28 +24,46 @@
 
 ## Sector Responsibilities
 ### Pingelly (PIY)
-PIY will provide final sequencing actions to ensure aircraft comply with their FF times prior to entering the Perth TCU. PIY is also responsible for issuing STAR Clearances for aircraft bound for YPJT, and Non-jets bound for YPPH and YPEA.  
+PIY will provide final sequencing actions to ensure aircraft comply with their FF times prior to entering the Perth TCU. PIY is also responsible for issuing STAR Clearances for aircraft bound for YPJT, and Non-jets bound for YPPH and YPEA. See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
+
 For aircraft overflying the PH TCU place `O/FLY` in the LABEL DATA field.
 
 ### Leeman (LEA)
-LEA is responsible for assigning and issuing STAR clearance to aircraft inbound to Perth via `WAVES`.
+LEA is responsible for assigning and issuing STAR clearance to aircraft inbound to Perth via `WAVES`. See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
 
 !!! note
     Controllers should be aware that VHF coverage near the LEA/IND border may be limited. Controllers should strive to issue HF frequencies and transfer of communications instruction prior to 160 NM PH DME.
+
 ### Grove (GVE)
-GVE is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `JULIM` and `CONNI`. 
+GVE is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `JULIM` and `CONNI`.  See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
 
 ### Hyden (HYD)
-HYD is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `BEVLY`, `DAYLR` and `GRENE`.
+HYD is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `BEVLY`, `DAYLR` and `GRENE`. See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
 
 ### Cross (CRS) / Geraldton (GEL)
 Just keeping them separated!
 
 ### Jarrah (JAR)
-JAR is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via `SOLUS`.
+JAR is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via `SOLUS`. See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
 
 !!! note
     Controllers should be aware there may be limited ADS-B coverage around Albany (YABA). Expect some areas of Class E airspace to be outside surveillance coverage. [Procedural Standards](../../../separation-standards/procedural) may need to be used in these cases.
+
+### Perth Runway Modes
+#### Southwest Plan
+With the Southwest Plan active, arrivals shall be processed to either runway 21 or 24 based on their feeder fix, as per the table below:
+
+| Feeder Fix | Assigned Runway |
+| --- | --- |
+| JULIM | 21 |
+| CONNI | 21 |
+| WAVES | 21 |
+| BEVLY | 24 (or 21 if operationally required) |
+| GRENE | 24 |
+| SOLUS | 24 |
+
+#### Northeast Plan
+With the Northeast Plan active (runways 03 and 06 in use), all arrivals shall be processed to runway 03.
 
 ## STAR Clearance Expectation
 
@@ -70,7 +88,7 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | GEL, IND | LEA | YPPH | |
 
 ## Coordination
-### PIY(All) / PH TCU
+### PH TCU
 The Standard Assignable level from PIY(All) to PH TCU is `A090` and assigned the relevant STAR. 
 
 All other aircraft must be voice coordinated to PH TCU prior to **20nm** from the boundary.
@@ -79,10 +97,10 @@ The Standard Assignable level from PH TCU to PIY(All) is the lower of `F180` or 
 
 Refer to [Perth TCU Airspace Division](../../../terminal/perth/#airspace-division) for information on airspace divisions when **PHD** is online.
 
-### PIY(All) / ENR
+### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-### PIY/LEA/GVE/HYD/JAR Internal
+### PIY Internal
 Changes to CFL are permitted up to the boundary from GVE, CRS and HYD to PIY.
 
 All else is Voiceless, no changes to route or CFL within **20nm** to boundary.
@@ -90,5 +108,5 @@ All else is Voiceless, no changes to route or CFL within **20nm** to boundary.
 That being said, it is *advised* that PIY(All) gives **Heads-up Coordination** prior to **20nm** in the following scenarios:  
 - JAR to PIY for all aircraft  
 - LEA to PIY for all aircraft  
-### PIY(All) / IND (Oceanic)
+### IND (Oceanic)
 As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.

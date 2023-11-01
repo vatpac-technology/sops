@@ -16,7 +16,7 @@
 | **Sydney ACD**         | **Sydney Delivery**| **133.800**          | **SY_DEL**                                   |
 | Sydney ATIS        |                | 126.250          | YSSY_ATIS                                |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies
+† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)  
 
 ## Airspace
 SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005` as shown below.
@@ -27,6 +27,8 @@ SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005` as 
 </figure>
 
 ### Helicopter Operations
+Refer to [Heliport Responsibility](#heliport-responsibility) to determine which ADC position (when both are online) is responsible for managing helicopter arrivals and departures.
+
 #### Departures
 VFR helicopters are generally processed via one of Sydney's Helicopter Routes. IFR helicopters should conform to fixed wing ops and be processed via the **SY (RADAR) SID** from an appropriate runway, unless a visual departure is acceptable.
 
@@ -133,7 +135,27 @@ Aircraft landing on runway 16L/34R are expected to vacate the runway and taxi vi
 !!! example
     **SY ADC**: "JAL52, taxi Tango, Lima, on Lima contact Ground 121.7"
 
+### Transferring Between SMCs
+When both SMC positions are online and an aircraft is to be passed from one to the other (e.g. an aircraft taxis from the domestic terminal for runway 34L), they should be instructed to hold short of runway 16R/34L and to contact the next SMC frequency.
+
+!!! example
+    **SMC East**: "JST412, cross runway 25, taxi Lima, hold short runway 34L, on Lima contact ground 126.5"  
+    **JST412**: "Cross runway 25, taxi Lima, hold short runway 34L, contact ground 126.5, JST412"  
+
+    **JST412**: "Sydney Ground, JST412, holding short runway 34L"  
+    **SMC West**: "JST412, cross runway 34L, taxi holding point Alpha Six"  
+    **JST412**: "Cross runway 34L, taxi holding point Alpha Six, JST412"
+
+Generally, aircraft shall cross runway 16R/34L in the following directions at the following locations:
+
+| Location | Direction of Taxi |
+| --- | --- |
+| Taxiway Golf | Eastbound |
+| Runway 25 | Westbound |
+| Taxiway Lima | As required |
+
 ## Runway Modes
+### Preferred Runway Modes
 Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
 | Priority - Mode | Arrivals  | Departures |
@@ -156,6 +178,7 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 !!! tip
     Take in to account an aircraft's weight when runways 16L/34R or 07/25 are in use. Heavier aircraft may operationally require the longer Runway 16R/34L, or pilots may prefer a departure from 16R instead of 16L so they have a shorter taxi. If in doubt, ask the pilot and try to be accommodating of these requests.
 
+### SODROPS
 When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time.
 
 !!! example
@@ -163,6 +186,10 @@ When using the SODPROPS mode, pass traffic information to aircraft that are depa
     **JST521:** "Runway 16L, cleared for takeoff, JST521"  
     **SY ADC:** "VOZ954, traffic is an A320 departing from the opposite direction parallel runway to the southeast, runway 34L, cleared to land"  
     **VOZ954:** "Runway 34L, cleared to land, VOZ954"  
+
+### Heliport Responsibility
+When runway 25 is in use, the responsibility for management of the helicopter area falls to **ADC West**. When runway 25 is not in use, **ADC East** (if online) takes responsibility for the heliport.
+
 ## Parallel Runway Operations
 Refer to [Parallel Runway Separation Standards](../../separation-standards/parallelapps) for more information
 
@@ -178,10 +205,17 @@ Unless operationally required, aircraft shall be assigned the following runways 
 | via KADOM   | 16R/34L      |
 | via WOL | 16R/34L |
 | via RIC| 16R/34L |
+| via PEGSU| 16R/34L |
 | via ENTRA | 16L/34R |
+| via KAMBA | 16L/34R |
 | Other aircraft: |
 | To the NORTH and EAST | 16L/34R |
 | To the SOUTH and WEST | 16R/34L |
+
+!!! note
+    During times of heavy traffic, crossing domestic departures over Runway 34L can cause delays. In these situations, it may be beneficial for ACD to balance the load between Runways 34L and 34R for domestic jet departures via WOL. Non-jets departures via WOL should still be processed on 34L. The same principle may be applied to the Runway 16 direction when the 16R holding points are becoming congested and a large amount of heavy, international aircraft are planned to depart during a given window.  
+
+    Where the traffic levels are normal, preference should be given to departing aircraft in accordance with the runway selection table above.
 
 #### SID Selection
 Jet Aircraft planned via **KADOM**, **WOL**, **RIC**, or **ENTRA**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
@@ -231,9 +265,44 @@ When SODPROPS are in operation, the ATIS OPR INFO shall include:
     <figure markdown>
         ![IVAs on the ATIS](img/yssy_atis_example.png)
     </figure>
+
+## Sydney Coordinator
+Sydney Coordinator is activated when required to reduce frequency congestion on SMC and to ensure compliance with pre-determined slot times as necessary. The position is rarely used on VATSIM and is only beneficial with the large amounts of traffic only seen during annual events like WorldFlight. When Coordinator is online, all departures are first directed to them prior to contacting SMC.
+
+!!! important
+    Sydney Coordinator is a non-standard position which may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies).
+
+!!! example
+    **VOZ543**: "Sydney Delivery, VOZ543, PDC read back"  
+    **SY ACD**: "VOZ543, go ahead the read back"  
+    **VOZ543**: "ENTRA5 departure, squawk 1336, bay 33, VOZ543"  
+    **SY ACD**: "VOZ543, contact Coordinator 127.6 for pushback"  
+    **VOZ543**: "127.6 for push, VOZ543"
+
+When aircraft contact Coordinator, the controller should check that it is suitable for them to be directed to SMC, then instruct them to **monitor** that frequency. This means that the pilot will switch to the appropriate frequency and wait for that controller to call them.
+
+!!! example
+    **VOZ543**: "Sydney Coordinator, VOZ543, bay 33, request pushback"  
+    **SY COORD**: "VOZ543, monitor ground 121.7"  
+    **VOZ543**: "Monitor 121.7, VOZ543"
+
+    **SY SMC**: "VOZ543, Sydney Ground, pushback approved"  
+    **VOZ543**: "Pushback approved, VOZ543"
+
+!!! important
+    As aircraft will monitor the SMC frequency, it is up to SMC to initiate contact when Coordinator is online. It is important that Coordinator informs SMC of each aircraft as they are instructed to monitor their frequency. It is up to each controller to determine their preferred way of performing this coordination.
+
+
+If a delay is required prior to transferring an aircraft to SMC, provide an estimated delay value to the pilot.
+
+!!! example
+    **VOZ543**: "Sydney Coordinator, QFA1, bay 22, request pushback"  
+    **SY COORD**: "QFA1, expect a 10 minute delay, remain this frequency."
+
+When Coordinator is online, the ATIS shall include `WHEN READY FOR PUSH BACK OR TAXI CTC COORDINATOR 127.6` in the OPR INFO field.
+
 ## Coordination
-### SY ADC / SY TCU
-#### Auto Release
+### Auto Release
 !!! important
     YSSY utilises auto release for all **Procedural** SIDs (except **ABBEY** SID during SODPROPS), and the **SY (RADAR)** SID provided aircraft are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
@@ -265,10 +334,10 @@ The Standard Assignable level from SY ADC to SY TCU is:
 For Jets: `A050`  
 For Non-Jets: The lower of `A030` or the `RFL`
 
-#### Departures Controller
+### Departures Controller
 Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for information on airspace divisions when **SDN** and/or **SDS** are online.
 
-#### Standard Assignable Departure Headings
+### Standard Assignable Departure Headings
 Aircraft that have been cleared the **SY (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required to the SY TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
 
 | Runway | Jet | Non-Jet 
@@ -283,11 +352,11 @@ Aircraft that have been cleared the **SY (RADAR) SID** must receive an assigned 
 !!! tip
     If strong winds are present at altitude, TWR/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
 
-### SY ADC / SY SMC
+### Between ADC and SMC
 #### Inactive Runway Releases
 **SY ADC** has responsibility of all runways, requiring **SY SMC** to coordinate with **SY ADC** to allow aircraft to cross runways whilst taxiing. **SY SMC** may request, or **SY ADC** may elect, to release certain runways to the **SY SMC** controller, so they may let aircraft cross the runway without coordination (for example, releasing runway 07/25 to **SY SMC** whilst PROPS are in progress.) This release may also be cancelled at the controller's discretion.
 
-### SY ACD / SY TCU
+### ACD to SY TCU
 The controller assuming responsibility of **SY ACD** shall give heads-up coordination to the relevant SY TCU controller prior to the issue of the following clearances:  
 a) VFR Departures  
 b) Aircraft using a runway not on the ATIS 

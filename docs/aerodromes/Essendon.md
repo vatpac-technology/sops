@@ -106,10 +106,9 @@ EN ADC is responsible for facilitating aircraft requesting city orbits. They sha
 YMEN ATIS identifiers only uses letters `A` through to `M`, due to nearby YMML using letters `N` through `Y` 
 
 ## Coordination
-### EN SMC / ML TCU
+### ML TCU
+#### SMC to ML TCU
 When an aircraft requests start clearance, the EN SMC controller shall coordinate with ML TCU to obtain the start clearance.
-
-### EN ADC / ML TCU
 
 #### Departures
 Essendon departures that will not enter ML TCU Class C airspace are not required to be coordinated.
@@ -123,7 +122,7 @@ All aircraft departing into Class C must be coordinated to ML TCU with a "Next" 
 
 The Standard Assignable level from EN ADC to ML TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
 
-### Arrivals/Overfliers
+#### Arrivals/Overfliers
 ML TCU will heads-up coordinate arrivals/overfliers from Class C to EN ADC.  
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to EN ADC, unless EN ADC nominates a restriction.  
 VFR aircraft require a level readback.
@@ -140,7 +139,7 @@ When “The Coffin” is released, ML TCU is required to coordinate any use of R
 #### Runway Change
 Any Runway change must be prior coordinated to **ML TCU**
 
-### ML ADC / EN ADC
+### ML ADC
 EN ADC must advise ML ADC when “The Coffin” is activated or deactivated.
 
 EN ADC must advise ML ADC, for traffic awareness, when an ad hoc airspace release to EN ADC will cause an aircraft to pass within 3 NM of any runway at ML.

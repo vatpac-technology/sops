@@ -63,6 +63,12 @@ Non-jet aircraft for YSSY shall be assigned the **ODALE** STAR.
 
     In this case, coordination should be conducted to ensure that both controllers agree and no additional conflicts are created as a result (particularly with aircraft inbound from the north/east).
 
+!!! example
+    **BIK:** "JST421, amended tracking and STAR available"  
+    **JST421:** "JST421, go ahead"  
+    **BIK:** "JST421, recleared direct AKMIR thence WELSH, ODALE, for the ODALE7 arrival, runway 34R, maintain FL350"  
+    **JST421:** "Recleared direct AKMIR, WELSH, ODALE, for the ODALE7 arrival, runway 34R, maintain FL350, JST421"
+
 ## STAR Clearance Expectation
 ### Handoff
 Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
@@ -80,7 +86,7 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | ELW(BLA), YWE(GTH), WOL | GUN | YSSY | |
 
 ## Coordination
-### BIK/WOL / SY TCU
+### SY TCU
 The Standard assignable level from BIK to SY TCU is:  
 `A100` for aircraft tracking via RIVET, and assigned the RIVET STAR  
 `A090` for aircraft tracking via ODALE, and assigned the ODALE STAR  
@@ -91,7 +97,7 @@ The Standard Assignable level from SY TCU to WOL is the lower of `F280` or the `
 
 Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
 
-### WOL/GUN / CB TCU
+### CB TCU
 The Standard assignable level from WOL to CB TCU is `F120`, and assigned the RAZZI STAR, BUNGO STAR, or AVBEG STAR STAR.  
 
 All other aircraft must be voice coordinated to CB TCU prior to **20nm** from the boundary.
@@ -101,15 +107,15 @@ All other aircraft must be voice coordinated to CB TCU prior to **20nm** from th
 
 The Standard Assignable level from CB TCU to GUN is the lower of `F240` or the `RFL`, and tracking via AVBEG, AKMIR, or CULIN.
 
-### BIK (All) / ENR
+### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 That being said, it is *advised* that BIK give **Heads-up Coordination** to the relevant sector, prior to **50nm** from the boundary, for **any aircraft not on the Q29 or V169 airways**. 
 
-### BIK/WOL/GUN Internal
+### BIK Internal
 Changes to the CFL are permitted up to the boundary for aircraft transiting BIK/GUN/WOL airspace internally. It is *advised* that BIK/WOL/GUN give **Heads-up Coordination** to the relevant sector, prior to **20nm** from the boundary, for **any aircraft not on the Q29, Y59, W113, or V169 airways**. 
 
-### WOL / NW TCU
+### NW TCU
 #### Departures
 Departures from YSNW in to WOL Class C will be coordinated at taxi, and will be requesting a level.
 
@@ -125,5 +131,5 @@ All aircraft transiting from WOL to **NW TCU** must be heads-up coordinated prio
     <span class="hotline">**WOL** -> **NW TCU**</span>: "via CB, SKJ, with your concurrence, will be assigned descent to A090"  
     <span class="hotline">**NW TCU** -> **WOL**</span>: "SKJ, concur A090"  
 
-## WOL / TSN (Oceanic)
+### TSN (Oceanic)
 As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.

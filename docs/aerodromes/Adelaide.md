@@ -29,9 +29,9 @@ AD ADC is not responsible for any airspace by default.
     E.g. an aircraft taxiing from the terminal to runway 05 could be instructed to taxi "*via Alpha, cross runway 30, Foxtrot, to holding point Foxtrot Six runway 05*".
 
 ## Scenic Coastal Flights
-VFR aircraft may transit the control zone tracking coastal north or southbound, generally between `A005` and `A015`. **AD ADC** is responsible for ensuring these aircraft remain separated from aircraft arriving/departing at YPAD.  
+VFR aircraft may transit the control zone tracking coastal north or southbound, generally at `A005`. **AD TCU** is responsible for ensuring these aircraft remain separated from aircraft arriving/departing at YPAD and will likely delegate this responsibility to **ADC**, who may employ visual separation or other tools to ensure separation is maintained.  
 
-The TCU controller will coordinate these aircraft with ADC prior to issuing airways clearance.  ADC should consider any possible conflict from arriving or departing aircraft at YPAD (including the missed approach to runway 23), and impose a clearance limit on coastal aircraft where conflict exists.  The clearance limits in the table below will ensure that coastal aircraft remain clear of the runway 05 approach path and runway 23 departure/missed approach path. 
+The TCU controller will coordinate these aircraft with ADC prior to issuing airways clearance, including the intended clearance limit. On receipt of this coordination, ADC should consider any possible conflict from arriving or departing aircraft at YPAD (including the missed approach to runway 23).  The clearance limits in the table below will ensure that coastal aircraft remain clear of the runway 05 approach path and runway 23 departure/missed approach path. 
 
 | Direction of Travel | Clearance Limit |
 | --- | --- |
@@ -45,22 +45,23 @@ The TCU controller will coordinate these aircraft with ADC prior to issuing airw
 
 !!! example
     *CNY is a VFR Cessna 172 tracking coastal northbound, approaching PNL. They have contacted AD TCU for clearance.*    
-    <span class="hotline">**TCU** -> **ADC**</span>: "South of PNL, CNY, for coastal northbound, 1500ft"  
-    <span class="hotline">**ADC** -> **TCU**</span>: "CNY clearance limit BTJ"  
-    <span class="hotline">**TCU** -> **ADC**</span>: "Clearance limit BTJ, CNY"
+    <span class="hotline">**TCU** -> **ADC**</span>: "South of PNL, CNY, for coastal northbound, 500ft, clearance limit BTJ"  
+    <span class="hotline">**ADC** -> **TCU**</span>: "CNY"
 
-The TCU will issue airways clearance, then transfer the aircraft to ADC.  If a delay is expected at the clearance limit, instruct the aircraft to hold there.  Once the conflict is no longer a threat, cancel the clearance limit and issue onwards clearance tracking coastal north/southbound at the desired level.
+If a delay is expected at the clearance limit, instruct the aircraft to hold there.
 
 !!! example 
-    **CNY:** "Adelaide Tower, CNY"  
+    **CNY:** "Adelaide Tower, CNY, maintaining not above 500ft"  
     **AD ADC:** "CNY, Adelaide Tower, hold at the clearance limit, expect onwards clearance in 5 minutes due inbound traffic"  
     **CNY:** "Hold at the clearance limit, CNY"  
 
-    *Once conflict with YPAD traffic no longer exists:*  
-    **AD ADC:** "CNY, cancel clearance limit, track coastal northbound, 1500ft"  
-    **CNY:** "Cancel clearance limit, track coastal northbound, 1500ft, CNY"
+Once the conflict is no longer a threat (or if no holding was required in the first place), cancel the clearance limit and issue onwards clearance tracking coastal north/southbound at the desired level.
 
-If the aircraft will be exiting the CTR back into class C CTA, instruct them to contact **AD TCU**. Otherwise, as they approach the lateral limit of the CTR, cancel their identification & control services and issue frequency change approval.
+!!! example 
+    **AD ADC:** "CNY, cancel clearance limit, track coastal offshore northbound, not above 500ft"  
+    **CNY:** "Cancel clearance limit, track coastal offshore northbound, not above 500ft, CNY"
+
+Once the aircraft is clear of potential conflict with YPAD (i.e. north of HNLY or south of BTJ), transfer them back to AD TCU.
 
 ## Runway Modes
 Single runway operations using Runway 05 or 23 (whichever is more favoured by the winds) are preferred at YPAD. However, when strong winds favour Runway 12 or 30, Non-Jets (Runway 12/30 is too short for most jets) would benefit from having that runway available to them as well. As a general rule of thumb, if the Crosswind on Runway 05/23 exceeds **20kts**, the more favourable of Runway 12 or 30 shall be in use as well as the more favourable of Runway 05 or 23.

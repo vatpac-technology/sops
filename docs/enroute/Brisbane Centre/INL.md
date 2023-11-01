@@ -74,7 +74,7 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | NSA | KPL | YBRK, YBMK | |
 
 ## Coordination
-### INL(All) / BN TCU
+### BN TCU
 
 The Standard assignable level from INL(All) to BN TCU is:  
 `A090` for YBBN arrivals, and assigned a STAR  
@@ -88,11 +88,11 @@ The Standard Assignable level for YBCG departures from BN TCU to **NSA/BUR/DOS**
 The Standard Assignable level for YBSU arrivals from BN TCU to **NSA** is `F130`, and tracking via ITIDE.  
 
 Refer to [Brisbane TCU Airspace Division](../../../terminal/brisbane/operations/#airspace-division) for information on airspace divisions when **BAS**, **BDN** and/or **BDS** are online.
-### INL (All) / ENR
+### Enroute
 
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-### INL/DOS/GOL/SDY/BUR/NSA/KPL Internal
+### INL Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 That being said, it is *advised* that INL(All) give **Heads-up Coordination** to the relevant sector prior to **20nm** from the boundary in the following scenarios:  
@@ -100,7 +100,7 @@ That being said, it is *advised* that INL(All) give **Heads-up Coordination** to
 - DOS to BUR, NSA, GOL and INL for all aircraft  
 - SDY to NSA, GOL and INL for all aircraft  
 
-### NSA / SU ADC
+### SU ADC
 #### Airspace
 When **SU ADC** is online, **NSA** owns the Class C airspace from `A045` upwards. **SU ADC** owns the Class D airspace `SFC` to `A045`.
 
@@ -131,13 +131,13 @@ Any aircraft that will enter SU ADC airspace, and not landing at YBSU, must be H
     <span class="hotline">**NSA** -> **SU ADC**</span>: "via HOLIS, CXB, Overflier"  
     <span class="hotline">**SU ADC** -> **NSA**</span>: "CXB, A025"
 
-### KPL / RKA
+### RKA
 The Standard assignable level from KPL to **RKA** is `A070`, and assigned the ABVAS STAR or DADBO STAR.
 
 All other aircraft must be voice coordinated to **RKA** prior to **20nm** from the boundary.
 
 The Standard Assignable level from **RKA** to KPL is `F150`, and tracking via BUDGI or TARES.
-### INL / CFS ADC
+### CFS ADC
 #### Airspace
 When **CFS ADC** is online, **INL** and **MNN** owns the Class C airspace from `A045` upwards, and **CFS ADC** owns the Class D airspace `SFC` to `A045`.
 
@@ -167,7 +167,7 @@ Any aircraft that will enter CFS ADC airspace, and not landing at YCFS, must be 
     <span class="hotline">**INL** -> **CFS ADC**</span>: "via CFS, XFC, Overflier"  
     <span class="hotline">**CFS ADC** -> **INL**</span>: "XFC, A040"
 
-### GOL,DOS,BUR / OK TCU, AMB TCU
+### OK TCU / AMB TCU
 #### Airspace
 By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas, and **AMB TCU** owns the airspace within the **R625A-D** restricted areas, unless stated otherwise by ad-hoc release or NOTAM.
 
@@ -186,5 +186,5 @@ All aircraft transiting from GOL/DOS/BUR to **OK TCU** and **AMB TCU** must be h
     <span class="hotline">**GOL** -> **AMB TCU**</span>: "via HUUGO, PUMA11, will be assigned A080"  
     <span class="hotline">**AMB TCU** -> **GOL**</span>: "PUMA11, A080"  
 
-### INL/SDY/KPL / TSN(FLD/HWE) (Oceanic)
+### TSN(FLD/HWE) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.

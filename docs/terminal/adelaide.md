@@ -30,9 +30,9 @@ EDN CTR reverts to Class G when **EDN ADC** is offline, and is administered by t
 </figure>
 
 ## Scenic Coastal Flights
-VFR aircraft may transit the control zone tracking coastal north or southbound, generally between `A005` and `A015`. **AD ADC** is responsible for ensuring these aircraft remain separated from aircraft arriving/departing at YPAD.  
+VFR aircraft may transit the control zone tracking coastal north or southbound, generally at `A005`. **AD TCU** is responsible for ensuring these aircraft remain separated from aircraft arriving/departing at YPAD and may delegate this responsibility to **AD ADC**.  
 
-The TCU controller will coordinate these aircraft with ADC prior to issuing airways clearance.  ADC should consider any possible conflict from arriving or departing aircraft at YPAD (including the missed approach to runway 23), and impose a clearance limit on coastal aircraft where conflict exists.  The clearance limits in the table below will ensure that coastal aircraft remain clear of the runway 05 approach path and runway 23 departure/missed approach path. 
+Coordinate the aircraft with ADC, including the use of the appropriate clearance limit in the table below, then issue airways clearance. Before the aircraft reaches the clearance limit, transfer them to ADC who will manage their transit of the extended runway centreline.  The clearance limits in the table below will ensure that coastal aircraft remain clear of the runway 05 approach path and runway 23 departure/missed approach path. 
 
 | Direction of Travel | Clearance Limit |
 | --- | --- |
@@ -45,14 +45,21 @@ The TCU controller will coordinate these aircraft with ADC prior to issuing airw
 </figure>
 
 !!! example
-    *CNY is a VFR Cessna 172 tracking coastal northbound, approaching PNL. They have contacted AD TCU for clearance.*    
-    <span class="hotline">**TCU** -> **ADC**</span>: "South of PNL, CNY, for coastal northbound, 1500ft"  
-    <span class="hotline">**ADC** -> **TCU**</span>: "CNY clearance limit BTJ"  
-    <span class="hotline">**TCU** -> **ADC**</span>: "Clearance limit BTJ, CNY"
+    **CEY:** "Adelaide Approach, CEY, Cessna 172, 4nm south of PNL, 1,000ft, received charlie, request coastal northbound"  
+    **AD TCU:** "CEY, Adelaide Approach, squawk 0542, remain clear of class C airspace"  
+    **CEY:** "Squawk 0542, remain OCTA, CEY"  
 
-The TCU will issue airways clearance, then transfer the aircraft to ADC.
+    <span class="hotline">**TCU** -> **ADC**</span>: "South of PNL, CEY, for coastal northbound, 500ft, clearance limit BTJ"  
+    <span class="hotline">**ADC** -> **TCU**</span>: "CEY"  
 
-AD TCU may instead elect to facilitate the Coastal transit on their frequency, and with their separation, however this is more challenging, as it requires the use of a 3nm standard, and cancellation of auto-release. ADC has the ability to use visual separation standards to simplify things, and keep aircraft in conflict on the same frequency, so this is often the best solution.
+    **AD TCU:** "CEY, identified, cleared coastal offshore northbound, not above 500ft, clearance limit BTJ"  
+    **CEY:** "Cleared coastal offshore northbound, not above 500ft, clearance limit BTJ, CEY"  
+
+    *Before CEY reaches BTJ:*  
+    **AD TCU:** "CEY, contact Adelaide Tower, 120.5"  
+    **CEY:** "120.5, CEY"
+
+Once the aircraft has transited the extended runway centreline and is clear of potential conflict with YPAD, ADC will transfer them back to the TCU.
 
 ## PF ADC Offline
 Due to the low level of CTA at YPPF, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
@@ -69,7 +76,7 @@ Due to the low level of CTA at YPPF, it is best practice to give airways clearan
     **ABC**: "Assigned right 360, wilco, ABC"
 
 ## Coordination
-### AD TCU / ENR
+### Enroute
 #### Departures
 Voiceless coordination is in place from AD TCU to TBD/AUG for aircraft assigned the lower of `F240` or the `RFL`, and tracking via a Procedural SID terminus.
 
@@ -82,7 +89,7 @@ Any aircraft not meeting the above criteria must be prior coordinated to TBD/AUG
 #### Arrivals
 The Standard assignable level from TBD/AUG to AD TCU is `A090`, and assigned a STAR. All other aircraft must be prior coordinated
 
-### AD TCU / AD ADC
+### AD ADC
 #### Auto Release
 'Next' coordination is **not** required to from AD ADC for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  
@@ -103,7 +110,7 @@ All aircraft transiting between internal AD TCU boundaries must be heads-up coor
 
 Boundary coordination is not required between AAW and AAE for aircraft arriving or departing tracking via the 05/23 extended centreline.
 
-### AD TCU / PF ADC
+### PF ADC
 #### Departures
 When the aircraft is ready for departure, PF ADC will coordinate with AD TCU for permission to release the aircraft into CTA.
 
@@ -122,7 +129,7 @@ VFR aircraft require a level readback.
     <span class="hotline">**AAW** -> **PF ADC**</span>: "via PAL, YTS"  
     <span class="hotline">**PF ADC** -> **AAW**</span>: "YTS, A010"
 
-### AD TCU / EDN ADC
+### EDN ADC
 #### Departures
 
 Aircraft departing YPED in to AD TCU Class C will be coordinated from **EDN ADC** at Taxi.
