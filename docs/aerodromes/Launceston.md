@@ -26,9 +26,22 @@ LT ADC is responsible for the Class D airspace in the LT CTR `SFC` to `A015`.
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
 ## SID Selection
-Aircraft planned via **IRSOM**, **ONAGI**, **NUNPA**, **MOTRA**, **IRONS**, **MORGO**, **KAREN**, **TASUM**, or **NOLAN**, shall be assigned the appropriate **Procedural SID**.
 
-Aircraft **not** planned via any of the above waypoints, shall be recleared via the most appropriate one, and assigned the **Procedural SID**.
+### Runway 14R Operations
+
+Aircraft planned via **IRSOM**, **IRONS**, **MORGO**, **KAREN**, or **TASUM**, shall be assigned the relevant **Procedural SID**.
+
+Aircraft planned via **MOTRA**, **ONAGI**, **NOLAN** or **NUNPA** shall be assigned the relevant **Bravo Procedural SID**, or if traffic permits the relevant **Alpha Procedural SID**.
+
+On pilot request, ADC may assign non-jet departures via **IRSOM**, **MORGO** or **ONAGI** the relevant **Charlie Procedural SID**.
+
+Aircraft **not** planned via any of the above waypoints or unable to accept a **Procedural SID**, shall be assigned the **LT (RADAR) SID**.
+
+### Runway 32L Operations
+
+Aircraft planned via **IRSOM**, **ONAGI**, **NUNPA**, **MOTRA**, **IRONS**, **MORGO**, **KAREN**, **TASUM**, or **NOLAN**, shall be assigned the relevant **Procedural SID**.
+
+Aircraft **not** planned via any of the above waypoints, shall be recleared via the most appropriate one, and assigned the relevant **Procedural SID**.
 
 Aircraft unable to accept a SID, or that cannot practically accept amended routing via the above points, shall be assigned a visual departure.
 
@@ -49,7 +62,7 @@ Aircraft unable to accept a SID, or that cannot practically accept amended routi
 'Next' coordination is not required to LTA for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  
   b) Assigned the standard assignable level; and  
-  c) Assigned a SID
+  c) Assigned a **Procedural SID**
 
 All other aircraft require a 'Next' call to LTA.
 

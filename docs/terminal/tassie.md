@@ -101,7 +101,6 @@ LT ADC owns the Class D airspace in the LT CTR `SFC` to `A015`. LTA owns the Cla
 #### Departures
 LT ADC will give a "Next" call for:
 
-- VFR Departures  
 - Aircraft using a runway not on the ATIS  
 - Aircraft not assigned a Procedural SID and the Standard Assignable level
 
