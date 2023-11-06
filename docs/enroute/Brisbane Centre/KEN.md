@@ -70,7 +70,11 @@ The Standard Assignable level from CS TCU to KEN/BAR is the lower of `F180` or t
 Refer to [Cairns TCU Airspace Division](../../../terminal/cairns/#airspace-division) for information on airspace divisions when **CS2** is online.
 
 ### TL TCU
-Reserved.
+The Standard Assignable level from TBP to TL TCU is `A100` and assigned the relevant STAR.
+
+All other aircraft must be voice coordinated to TL TCU prior to **20nm** from the boundary.
+
+The Standard Assignable level from TL TCU to TBP is the lower of `F180` or the `RFL`
 
 ### MKA
 The Standard assignable level from SWY to **MKA** is `A070`, and assigned the DAGSI STAR or WELKE STAR.
