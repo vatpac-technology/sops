@@ -455,8 +455,9 @@ Auto Release is used for virtually all fixed-wing departures at Sydney. Unlike s
 
 Auto Release shall also be used for aircraft that are:     
 - Departing from a runway nominated on the ATIS; and  
-- Issued a Procedural SID; and   
-- Assigned the standard assignable level.
+- Assigned the standard assignable level; and  
+- Assigned a Procedural SID; or  
+- Assigned a Radar SID with a Standard Assignable Heading
 
 Any aircraft that don't meet these criteria must be coordinated to SY TCU with a "Next" Call.
 
@@ -466,6 +467,11 @@ Any aircraft that don't meet these criteria must be coordinated to SY TCU with a
     <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Heading 030, ADA4"
 
 The SY TCU controller can suspend/resume Auto Release at any time, with the concurrence of **SY ADC**.
+
+The Standard Assignable level from SY ADC to SY TCU is:  
+For Jets: `A050`  
+For Non-Jets: The lower of `A030` or the `RFL`
+
 ### BK ADC
 #### Departures
 Aircraft departing YSBK in to SY TCU Class C will be coordinated from **BK ADC** when ready for takeoff.
