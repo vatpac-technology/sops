@@ -42,6 +42,9 @@ WLM APP can negotiate further airspace releases from surrounding ENR sectors of 
 - R587B (`F125`-`F600`)  
 - R596 (`SFC`-`F120`)
 
+!!! note
+    It is the responsibility of the WLM TCU controller to negotiate any airspace releases with ARL(All).
+
 ### Classification
 All airspace owned by WLM TCU when online is reclassified to **Class C**.
 
