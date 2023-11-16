@@ -49,6 +49,10 @@ The Standard assignable level from ENR to CB TCU is `F130`. All other levels mus
     <span class="hotline">**CB TCU** -> **CB ADC**</span>: "ABC, Track Extended Centreline, unrestricted"  
     <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Track Extended Centreline, ABC"
 
+The Standard Assignable level from CB ADC to CB TCU is:  
+For IFR aircraft: `A100`  
+For VFR aircraft: The lower of `A040` or the `RFL`
+
 ### CB TCU Internal
 All aircraft transiting between internal CB TCU boundaries must be heads-up coordinated.
 
