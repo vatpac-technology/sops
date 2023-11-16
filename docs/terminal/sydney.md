@@ -481,7 +481,7 @@ Aircraft departing YSBK in to SY TCU Class C will be coordinated from **BK ADC**
     <span class="hotline">**SY TCU** -> **BK ADC**</span>: "TFX12, Unrestricted"  
     <span class="hotline">**BK ADC** -> **SY TCU**</span>: "TFX12"  
 
-    **BK ADC** will then clear the aircraft to takeoff , and instruct them to contact SY TCU passing `A020`.
+    **BK ADC** will then clear the aircraft to takeoff , and instruct them to contact SY TCU passing `A015`.
 
 #### Arrivals
 SY TCU will heads-up coordinate arrivals/overfliers from Class C to BK ADC prior to **5 mins** from the boundary.  
