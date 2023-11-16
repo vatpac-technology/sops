@@ -63,6 +63,12 @@ Non-jet aircraft for YSSY shall be assigned the **ODALE** STAR.
 
     In this case, coordination should be conducted to ensure that both controllers agree and no additional conflicts are created as a result (particularly with aircraft inbound from the north/east).
 
+!!! example
+    **BIK:** "JST421, amended tracking and STAR available"  
+    **JST421:** "JST421, go ahead"  
+    **BIK:** "JST421, recleared direct AKMIR thence WELSH, ODALE, for the ODALE7 arrival, runway 34R, maintain FL350"  
+    **JST421:** "Recleared direct AKMIR, WELSH, ODALE, for the ODALE7 arrival, runway 34R, maintain FL350, JST421"
+
 ## STAR Clearance Expectation
 ### Handoff
 Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
