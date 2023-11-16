@@ -492,6 +492,8 @@ VFR aircraft require a level readback.
     <span class="hotline">**SY TCU** -> **BK ADC**</span>: "via GRB, UJN"  
     <span class="hotline">**BK ADC** -> **SY TCU**</span>: "UJN, A010"
 
+The Standard Assignable level from BK ADC to SY TCU is the lower of `A030` or the `RFL`.
+
 !!! tip
     Ensure the aircraft's FDR is up-to-date in order to give **BK ADC** maximum situational awareness of the traffic picture. (eg. if the aircraft is doing the RNP approach, ensure the FDR has been rerouted via the appropriate points)
 
