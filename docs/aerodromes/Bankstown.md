@@ -129,6 +129,8 @@ When the aircraft is ready for departure, Tower will coordinate with the relevan
 
 The Standard Assignable level from BK ADC to SY TCU is `A030`, any other level must be prior coordinated.
 
+Aircraft shall be instructed to contact SY TCU passing `A015`.
+
 ### Arrivals/Overfliers
 SY TCU will heads-up coordinate arrivals/overfliers from Class C to BK ADC.  
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to BK ADC, unless BK ADC nominates a restriction.  
