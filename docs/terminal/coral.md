@@ -44,7 +44,7 @@ The Standard assignable level from KEN(SWY) to MKA is `A070`, and assigned a STA
 
 ### MK/RK ADC
 #### Auto Release
-"Next" Coordination to TCU is required for all deps not assigned a SID.
+"Next" Coordination to TCU is required for all departures not assigned a SID.
 
 "Next" Coordination is a procedure where the **ADC** controller gives a heads-up to the TCU controller about an impending departure not on a SID. The TCU controller will respond by assigning a visual heading to the aircraft, for the **ADC** controller to pass on with their takeoff clearance.
 
@@ -57,6 +57,8 @@ The TCU controller can suspend/resume Auto Release at any time, with the concurr
 
 !!! Note
     "Next" Coordination to TCU is not required for aircraft assigned a **Procedural SID** and the Standard Assignable Level.
+
+The Standard Assignable level from MK/RK ADC to MKA/RKA is the lower of `A060` or the `RFL`.
 
 The controller assuming responsibility of **SMC** shall give heads-up coordination to TCU controller prior to the issue of the following clearances:  
 

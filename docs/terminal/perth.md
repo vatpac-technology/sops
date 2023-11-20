@@ -135,6 +135,8 @@ The Standard assignable level from ENR to PH TCU is `A090`. All other levels mus
 
 The PH TCU controller can suspend/resume Auto Release at any time, with the concurrence of PH ADC.
 
+The Standard Assignable level from PH ADC to PH TCU is the lower of `A050` or the `RFL`.
+
 #### Airways Clearances
 The controller assuming responsibility of ACD shall give heads-up coordination to the relevant PH TCU controller prior to the issue of the following clearances:  
 a) VFR Departures  

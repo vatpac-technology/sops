@@ -276,6 +276,9 @@ Any aircraft that don't meet these criteria will be coordinated to ML TCU with a
     <span class="hotline">**AV ADC** -> **MDS**</span>: "Next, UJI, Runway 18"  
     <span class="hotline">**MDS** -> **AV ADC**</span>: "UJI, left 030, unrestricted"  
     <span class="hotline">**AV ADC** -> **MDS**</span>: "Left 030, UJI"
+
+The Standard Assignable level from AV ADC to ML TCU is the lower of `A040` or the `RFL`.
+
 #### Arrivals
 ML TCU will heads-up coordinate arrivals/overfliers from CTA to AV ADC prior to **5 mins** from the boundary.  
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to AV ADC, unless AV ADC nominates a restriction.  

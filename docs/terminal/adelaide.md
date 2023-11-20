@@ -101,6 +101,10 @@ The Standard assignable level from TBD/AUG to AD TCU is `A090`, and assigned a S
     <span class="hotline">**AD TCU** -> **AD ADC**</span>: "ABC, Track Extended Centreline, unrestricted"  
     <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Track Extended Centreline, ABC"
 
+The Standard Assignable level from AD ADC to AD TCU is:  
+For Jets: `A050`  
+For Non-Jets: The lower of `A040` or the `RFL`
+
 ### AD TCU Internal
 All aircraft transiting between internal AD TCU boundaries must be heads-up coordinated.
 
