@@ -127,7 +127,9 @@ When the aircraft is ready for departure, Tower will coordinate with the relevan
     <span class="hotline">**SY TCU** -> **BK ADC**</span>: "UJN, unrestricted"  
     <span class="hotline">**BK ADC** -> **SY TCU**</span>: "UJN"
 
-The Standard Assignable level from BK ADC to SY TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
+The Standard Assignable level from BK ADC to SY TCU is `A030`, any other level must be prior coordinated.
+
+Aircraft shall be instructed to contact SY TCU passing `A015`.
 
 ### Arrivals/Overfliers
 SY TCU will heads-up coordinate arrivals/overfliers from Class C to BK ADC.  

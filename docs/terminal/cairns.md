@@ -121,6 +121,8 @@ The following speeds apply from the Feeder Fix:
     <span class="hotline">**CS TCU** -> **CS ADC**</span>: "ABC, Heading 030, Unrestricted"  
     <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Heading 030, Unrestriced, ABC"
 
+The Standard Assignable level from CS ADC to CS TCU is the lower of `A060` or the `RFL`.
+
 #### Missed Approach
 When weather conditions prevent the application of visual separation between a departure and a missed approach by tower:  
 a) ADC must advise TCU  
