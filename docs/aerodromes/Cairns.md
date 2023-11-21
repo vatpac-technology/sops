@@ -67,7 +67,7 @@ d) Aircraft departing to the Western VFR Corridor from all arriving aircrafton o
 ### IFR Departures
 IFR aircraft shall be processed via one of the following SIDs:
 
-a) RWY 15, Jets via SWIFT: SWIFT SID. Non-Jets via NONUM: NONUM SID  
+a) RWY 15, Jets via AKROM: AKROM SID. Non-Jets via NONUM: NONUM SID  
 b) RWY 33, All Jets: EAZEE SID, Radar Transition  
 c) All others: CS (RADAR) SID  
 

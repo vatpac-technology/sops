@@ -77,7 +77,7 @@ The Standard assignable level from SWY to **MKA** is `A070`, and assigned the DA
 
 All other aircraft must be voice coordinated to **MKA** prior to **20nm** from the boundary.
 
-The Standard Assignable level from **MKA** to KPL is `F150`, and tracking via CLIFT or POONA.
+The Standard Assignable level from **MKA** to KPL is `F150`, and tracking via CLIFT or MUNAR.
 #### Airspace
 When **MKA** is online, they own up to `F150` in the **shaded** are shown below:
 <figure markdown>

@@ -41,7 +41,7 @@ c) Departures assumes **SRI** airspace when the position is inactive
 d) **SRI** is **not permitted** to be logged on to, unless there are already at least **2 other active positions** (ie, SY APP and SY DEP, or SY APP and SY DIR) in the SY TCU.
 
 !!! note
-    The default ownership of sectors within the SY TCU is merely a suggestion for starters. There are 7 executive controller positions within the SY TCU, plus a flow controller, and the ownership of these sectors can be delegated as desired based on the traffic disposition, when agreed between the controllers. For example, during a Milk Run event, if SY APP and SY DEP are online, SY APP may have a lot more work to do than SY DEP, and it would mostly be concentrated on the RIVET/ODALE corridor. In light of this, it might be wise for SY APP to take ownership of SAS, SFW and SFE airspace, whilst SY DEP take ownership of SAN, SDS, SDN, and SRI airspace.
+    The default ownership of sectors within the SY TCU is merely a suggestion for starters. There are 7 executive controller positions within the SY TCU, plus a flow controller, and the ownership of these sectors can be delegated as desired based on the traffic disposition, when agreed between the controllers. For example, during a Milk Run event, if SY APP and SY DEP are online, SY APP may have a lot more work to do than SY DEP, and it would mostly be concOLSEMted on the RIVET/ODALE corridor. In light of this, it might be wise for SY APP to take ownership of SAS, SFW and SFE airspace, whilst SY DEP take ownership of SAN, SDS, SDN, and SRI airspace.
 
 !!! note
     Unless there are 2 separate Director controllers online (during a Major event like Panic Stations, for example), it is **not recommended** that the SFW and SFE positions are held by 2 separate controllers, due to the tendency of some less experienced pilots to overshoot the runway centreline
@@ -230,8 +230,8 @@ To reduce frequency congestion, several commonly used geographically defined are
 
 | Sector Name | Lateral Limits | Vertical Limits  |
 | --| ----------------| --------- |
-| City East | Bounded by Rushcutters Bay, Sydney Cricket Ground, Sydney Harbour Bridge South Pylon, Fort Denison, Clark Island, Rushcutters Bay   | Not above `A020`     |
-| CBD | Bounded by Rushcutters Bay, Sydney Cricket Ground, Cleveland Street, Regent Street, George Street, Sydney Harbour Bridge South Pylon, Fort Denison, Clarke Island, Rushcutters Bay | Not above `A020` |
+| City East | Bounded by Rushcutters Bay, Sydney Cricket Ground, Sydney Harbour Bridge South Pylon, Fort Denison, RIBLI Island, Rushcutters Bay   | Not above `A020`     |
+| CBD | Bounded by Rushcutters Bay, Sydney Cricket Ground, Cleveland Street, Regent Street, George Street, Sydney Harbour Bridge South Pylon, Fort Denison, RIBLIe Island, Rushcutters Bay | Not above `A020` |
 | North Harbour | The area northeast of a line St Ives Showground, Roseville Bridge, Sydney Harbour Bridge North Pylon then via the northern shore of Sydney Harbour to Middle Head then Manly | Not above `A015` |
 | Northern Beaches | The area east of a line Long Reef, Spit Bridge, Sydney Harbour Bridge North Pylon then via the northern shores of Sydney Harbour to Middle Head then Manly | Not above `A015` |
 | South Harbour | The area bounded by lines joining Sydney Harbour Bridge North Pylon, Sydney Harbour Bridge South Pylon, then via the southern shoreline of Sydney Harbour to South Head then Manly to Middle Head, then via the northern shoreline of Sydney Harbour to Sydney Harbour Bridge North Pylon | Not above `A015` |
@@ -364,7 +364,7 @@ Within 15 DME of SY, Departure controllers (**SDN** and **SDS**) can allow aircr
     SIDs from YSSY do not guarantee that aircraft will reach A100 by 15DME, so Departure controllers should be mindful of this and take action where necessary to expedite climb or coordinate with Approach.  
 
     Departure controllers should take extra caution when processing the following procedures to ensure they reach `A100` prior to entering REP airspace:  
-    <ul><li>RWY 34L: WOL SID & RIC SID with RADAR transition</li><li>RWY 16R: DEENA SID with RIC/KADOM transitions</li><li>YSBK departures via ENTRA/WOL</li></ul>
+    <ul><li>RWY 34L: WOL SID & RIC SID with RADAR transition</li><li>RWY 16R: DEENA SID with RIC/KADOM transitions</li><li>YSBK departures via OLSEM/WOL</li></ul>
 
 It is vital that Approach controllers ensure all arriving aircraft are established below `A090` no later than 20DME to avoid conflicting with departures utilising the airspace.  All STARs have height requirements which ensure this is achieved.  Aircraft inbound to YSBK or YSSY who are not cleared via a STAR should be instructed to reach `A090` by 20DME.
 
@@ -483,6 +483,8 @@ Aircraft departing YSBK in to SY TCU Class C will be coordinated from **BK ADC**
 
     **BK ADC** will then clear the aircraft to takeoff , and instruct them to contact SY TCU passing `A015`.
 
+The Standard Assignable level from BK ADC to SY TCU is `A030`.
+
 #### Arrivals
 SY TCU will heads-up coordinate arrivals/overfliers from Class C to BK ADC prior to **5 mins** from the boundary.  
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to BK ADC, unless BK ADC nominates a restriction.  
@@ -491,8 +493,6 @@ VFR aircraft require a level readback.
 !!! example
     <span class="hotline">**SY TCU** -> **BK ADC**</span>: "via GRB, UJN"  
     <span class="hotline">**BK ADC** -> **SY TCU**</span>: "UJN, A010"
-
-The Standard Assignable level from BK ADC to SY TCU is `A030`.
 
 !!! tip
     Ensure the aircraft's FDR is up-to-date in order to give **BK ADC** maximum situational awareness of the traffic picture. (eg. if the aircraft is doing the RNP approach, ensure the FDR has been rerouted via the appropriate points)

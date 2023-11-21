@@ -29,13 +29,13 @@ PIY will provide final sequencing actions to ensure aircraft comply with their F
 For aircraft overflying the PH TCU place `O/FLY` in the LABEL DATA field.
 
 ### Leeman (LEA)
-LEA is responsible for assigning and issuing STAR clearance to aircraft inbound to Perth via `WAVES`. See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
+LEA is responsible for assigning and issuing STAR clearance to aircraft inbound to Perth via `IPMOR`. See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
 
 !!! note
     Controllers should be aware that VHF coverage near the LEA/IND border may be limited. Controllers should strive to issue HF frequencies and transfer of communications instruction prior to 160 NM PH DME.
 
 ### Grove (GVE)
-GVE is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `JULIM` and `CONNI`.  See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
+GVE is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `JULIM` and `SAPKO`.  See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
 
 ### Hyden (HYD)
 HYD is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `BEVLY`, `DAYLR` and `GRENE`. See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
@@ -56,8 +56,8 @@ With the Southwest Plan active, arrivals shall be processed to either runway 21 
 | Feeder Fix | Assigned Runway |
 | --- | --- |
 | JULIM | 21 |
-| CONNI | 21 |
-| WAVES | 21 |
+| SAPKO | 21 |
+| IPMOR | 21 |
 | BEVLY | 24 (or 21 if operationally required) |
 | GRENE | 24 |
 | SOLUS | 24 |
