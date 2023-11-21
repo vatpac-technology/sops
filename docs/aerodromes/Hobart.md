@@ -29,9 +29,9 @@ South of the Runway Centreline: `SFC` to `A025`
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
 ## SID Selection
-Jet Aircraft planned via **CLARK**, **LATUM**, or **LAVOP**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
+Jet Aircraft planned via **RIBLI**, **LATUM**, or **LAVOP**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
 
-Non-Jet Aircraft planned via **CLARK**, **KANLI**, or **LAVOP**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
+Non-Jet Aircraft planned via **RIBLI**, **KANLI**, or **LAVOP**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
 
 Other aircraft shall be assigned an appropriate **Procedural SID** or a visual departure.
 
