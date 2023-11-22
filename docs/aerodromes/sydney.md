@@ -315,7 +315,7 @@ Sydney Coordinator is activated when required to reduce frequency congestion on 
 !!! example
     **VOZ543**: "Sydney Delivery, VOZ543, PDC read back"  
     **SY ACD**: "VOZ543, go ahead the read back"  
-    **VOZ543**: "OLSEM5 departure, squawk 1336, bay 33, VOZ543"  
+    **VOZ543**: "OLSEM1 departure, squawk 1336, bay 33, VOZ543"  
     **SY ACD**: "VOZ543, contact Coordinator 127.6 for pushback"  
     **VOZ543**: "127.6 for push, VOZ543"
 
