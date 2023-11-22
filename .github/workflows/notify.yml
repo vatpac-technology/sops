@@ -1,0 +1,21 @@
+name: Send Discord Notification
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - closed
+
+jobs:
+  if_merged:
+    if: ${{ (github.event.pull_request.merged == true) && (contains(github.event.pull_request.labels.*.name, 'notify')) }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Discord Notification
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        uses: Ilshidur/action-discord@master
+        with:
+          args: '## {{ EVENT_PAYLOAD.pull_request.title }}\n{{ EVENT_PAYLOAD.pull_request.body }}'
+  
