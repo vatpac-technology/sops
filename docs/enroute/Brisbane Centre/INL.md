@@ -44,7 +44,7 @@ BUR is responsible for final sequencing, issuing descent, and issuing STAR Clear
 ### Gold Coast (GOL)
 GOL is responsible for final sequencing for aircraft bound for YBBN, YBCG, and issuing of STAR Clearances and descent for YBSU.
 ### Noosa (NSA)
-NSA is responsible for facilitating YBSU traffic.
+NSA is responsible for facilitating YBSU traffic, including operating the Class C airspace `A045` and above.
 ### Keppel (KPL)
 KPL is responsible for issuing STAR Clearances (Jets only) and initial descent for aircraft bound for YBSU, YBBN and YBCG.
 
@@ -102,7 +102,7 @@ That being said, it is *advised* that INL(All) give **Heads-up Coordination** to
 
 ### SU ADC
 #### Airspace
-When **SU ADC** is online, **NSA** owns the Class C airspace from `A045` upwards. **SU ADC** owns the Class D airspace `SFC` to `A045`.
+**SU ADC** owns the Class D airspace `SFC` to `A045`. **NSA** owns the Class C airspace from `A045` upwards and operates it regardless of whether SU ADC is online or offline.
 
 #### Departures
 Departures from YBSU in to NSA Class C will be coordinated when ready for departure.
