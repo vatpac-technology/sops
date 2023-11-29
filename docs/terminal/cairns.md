@@ -53,7 +53,7 @@ Departing aircraft shall be transferred to TCU after ADC no longer has separatio
 
 IFR aircraft shall be processed via one of the following SIDs:
 
-a) RWY 15, Jets via SWIFT: SWIFT SID. Non-Jets via NONUM: NONUM SID  
+a) RWY 15, Jets via AKROM: AKROM SID. Non-Jets via NONUM: NONUM SID  
 b) RWY 33, All Jets: EAZEE SID, Radar Transition  
 c) All others: CS (RADAR) SID  
 
@@ -153,7 +153,7 @@ b) Aircraft using a runway not on the ATIS
 
 ### Enroute
 #### Departures
-Voiceless coordination is in place for any route (including SID and random direct tracks) to SWIFT, provided that the aircraft is:
+Voiceless coordination is in place for any route (including SID and random direct tracks) to AKROM, provided that the aircraft is:
 - Assigned the standard assignable level;  
 - Departed Cairns; and  
 - Is a Jet aircraft 

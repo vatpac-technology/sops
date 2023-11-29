@@ -206,38 +206,78 @@ Unless operationally required, aircraft shall be assigned the following runways 
 | via WOL | 16R/34L |
 | via RIC| 16R/34L |
 | via PEGSU| 16R/34L |
-| via ENTRA | 16L/34R |
+| via OLSEM | 16L/34R |
 | via KAMBA | 16L/34R |
 | Other aircraft: |
 | To the NORTH and EAST | 16L/34R |
 | To the SOUTH and WEST | 16R/34L |
 
 !!! note
-    During times of heavy traffic, crossing domestic departures over Runway 34L can cause delays. In these situations, it may be beneficial for ACD to balance the load between Runways 34L and 34R for domestic jet departures via WOL. Non-jets departures via WOL should still be processed on 34L. The same principle may be applied to the Runway 16 direction when the 16R holding points are becoming congested and a large amount of heavy, international aircraft are planned to depart during a given window.  
+    During times of heavy traffic, crossing domestic departures over Runway 34L can cause delays. In these situations, it may be beneficial for ACD to balance the load between Runways 34L and 34R for domestic jet departures via WOL. Non-jet departures via WOL should still be processed on 34L. The same principle may be applied to the Runway 16 direction when the 16R holding points are becoming congested and a large amount of heavy, international aircraft are planned to depart during a given window.  
 
     Where the traffic levels are normal, preference should be given to departing aircraft in accordance with the runway selection table above.
 
-#### SID Selection
-Jet Aircraft planned via **KADOM**, **WOL**, **RIC**, or **ENTRA**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
-
-!!! example
-    Jet Aircraft planned via ENTRA, assigned runway 16L, shall be given KEVIN SID, ENTRA transition.
-
-Jet Aircraft **not** planned via **KADOM**, **WOL**, **RIC**, or **ENTRA**, and **not** using Runway 25, shall be assigned the **Procedural SID** appropriate to their runway, with the **RADAR** transition.
-
-!!! example
-    Jet Aircraft planned via EVONN, assigned runway 34R, shall be given MARUB SID, RADAR transition.
-
-!!! note
-    Heavier aircraft on long-haul flights may not be able to achieve the Climb Gradient required of the Procedural SIDs. In this instance, they shall be assigned the **SY (RADAR) SID**, as it has a shallower minimum Climb Gradient. If in doubt, ask the pilot.
-
-All other aircraft (non-jet aircraft, aircraft requiring a shallow climb gradient, and all aircraft using runway 25) shall be assigned the **SY (RADAR) SID**.
-
-!!! example
-    Non-Jet Aircraft planned via PEGSU, assigned runway 16R, shall be given the SY (RADAR) SID.
+## SID Selection
 
 !!! tip
     A radar SID (e.g. **SY (RADAR) SID**) is distinct from a procedural SID with a RADAR transition (eg, **RIC SID, RADAR transition**). A radar SID can be identified in the [DAPs](https://www.airservicesaustralia.com/aip/current/dap/AeroProcChartsTOC.htm) as having a *"(RADAR)"* at the end of the name.
+
+### Runway 07
+
+| Type  | Via  | SID     |
+| ------| ---- | --------|
+| Jet  | OLSEM<br>WOL | **FISHA** SID, Relevant Transition |
+| Jet  | All others | **FISHA** SID, RADAR Transition |
+| Non-Jet| All       | **RADAR** SID |
+
+### Runway 16L
+
+| Type  | Via  | SID     |
+| ------| ---- | --------|
+| Jet  | OLSEM<br>NOBAR<br>DIPSO<br>EVONN<br>CAWLY<br>OPTIC | **KEVIN** SID, Relevant Transition |
+| Jet  | WOL | **ABBEY** SID, WOL Transition |
+| Jet  | All others | **KEVIN** SID, RADAR Transition |
+| Non-Jet | All | **RADAR** SID |
+
+### Runway 16R
+
+| Type  | Via  | SID     |
+| ------| ---- | --------|
+| Jet  | RIC<br>KADOM<br>WOL | **KAMPI** SID, Relevant Transition |
+| Jet  | All others | **KAMPI** SID, RADAR Transition |
+| Non-Jet | All | **RADAR** SID |
+
+!!! note
+    Some aircraft will be unable to meet Climb Gradient Requirements on the **KAMPI** SID (6.7% to EXUGI), but still able to meet the requirements of the **DEENA** SID (4.7% to 1000ft). As above, the pilot will advise their capabilities. Aircraft that can accept the **DEENA** SID shall be assigned it as preference to the **RADAR** SID
+
+### Runway 25
+
+| Type  | Via  | SID     |
+| ------| ---- | --------|
+| All  | All | **RADAR** SID |
+
+### Runway 34L
+
+| Type  | Via  | SID     |
+| ------| ---- | --------|
+| Jet  | WOL | **WOL** SID |
+| Jet  | KADOM | **KADOM** SID |
+| Jet  | RIC | **RIC** SID, RIC Transition |
+| Jet  | All others | **RIC** SID, RADAR Transition |
+| Non-Jet | All | **RADAR** SID |
+
+### Runway 34R
+
+| Type  | Via  | SID     |
+| ------| ---- | --------|
+| Jet  | OLSEM | **OLSEM** SID |
+| Jet  | WOL | **MARUB** SID, WOL Transition |
+| Jet  | All others | **MARUB** SID, RADAR Transition |
+| Non-Jet | All | **RADAR** SID |
+
+### Climb Gradient Requirements
+Climb Gradient Requirements apply to all Procedural SIDs. It is the pilot's responsibility to advise if they are unable to meet these requirements. Pilots that advise this can be assigned a **RADAR** SID instead.
+
 ## ATIS
 #### Approach Types
 
@@ -275,7 +315,7 @@ Sydney Coordinator is activated when required to reduce frequency congestion on 
 !!! example
     **VOZ543**: "Sydney Delivery, VOZ543, PDC read back"  
     **SY ACD**: "VOZ543, go ahead the read back"  
-    **VOZ543**: "ENTRA5 departure, squawk 1336, bay 33, VOZ543"  
+    **VOZ543**: "OLSEM1 departure, squawk 1336, bay 33, VOZ543"  
     **SY ACD**: "VOZ543, contact Coordinator 127.6 for pushback"  
     **VOZ543**: "127.6 for push, VOZ543"
 

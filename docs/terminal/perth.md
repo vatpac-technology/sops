@@ -26,14 +26,14 @@ With the Southwest Plan active, all departures shall be assigned runway 21 by **
 | Feeder Fix | Assigned Runway |
 | --- | --- |
 | JULIM | 21 |
-| CONNI | 21 |
-| WAVES | 21 |
+| SAPKO | 21 |
+| IPMOR | 21 |
 | BEVLY | 24 (or 21 if operationally required) |
 | GRENE | 24 |
 | SOLUS | 24 |
 
 ### Northeast Plan
-With the Northeast Plan active, departures via `AVNEX`, `OTLED`, `MANDU`, `SOLUS`, and `KEELS` shall be assigned runway 03 by **PH ACD**. All other departures shall be assigned runway 06. All arrivals shall be processed to runway 03.
+With the Northeast Plan active, departures via `AVNEX`, `OTLED`, `MANDU`, `SOLUS`, and `OPEGA` shall be assigned runway 03 by **PH ACD**. All other departures shall be assigned runway 06. All arrivals shall be processed to runway 03.
 
 ## Scenic Flights
 VFR aircraft may plan to conduct scenic flights within CTA in the PH TMA. A number of VFR routes exist to facilitate this, including:
@@ -64,7 +64,7 @@ IFR RNAV equipped arrivals to Jandakot planned via a fix listed shall be cleared
 
 | Perth Active Runway | 03/06 | 21/24 |
 | ------------------- | ----- | ----- |
-| **North**<br>JULIM (Jet)<br>CONNI (Non-Jet) | <br>JT 2G / WOORA | <br>DCT JT |
+| **North**<br>JULIM (Jet)<br>SAPKO (Non-Jet) | <br>JT 2G / WOORA | <br>DCT JT |
 | **East**<br>BEVLY (Jet)<br>GRENE (Non-Jet)<br>HAMTN (Non-Jet) | <br>JT 2G / BEVLY<br>JT 2G / GRENE<br>JT 2W / HAMTN | <br>JT 2R / BEVLY<br>JT 2R / GRENE<br>N/A 
 
 ### YPEA Arrivals
