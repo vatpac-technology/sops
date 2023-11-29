@@ -26,7 +26,13 @@ LT ADC is responsible for the Class D airspace in the LT CTR `SFC` to `A015`.
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
 ## SID Selection
-Aircraft planned via **IRSOM**, **ONAGI**, **NUNPA**, **MOTRA**, **IRONS**, **MORGO**, **KAREN**, **TASUM**, or **NOLAN**, shall be assigned the appropriate **Procedural SID**.
+Aircraft planned via **MIKIS**, **TASUM**, or **VEKLO** shall be assigned the relevant Procedural SID.
+
+Aircraft planned via **IRSOM**, **ONAGI**, **VIMAP**, **NUNPA**, **MOTRA**, or **MORGO** shall be assigned the relevant **ALPHA** Procedural SID.
+
+Aircraft planned via **ONAGI**, **VIMAP**, **NUNPA**, or **MOTRA** may be assigned the relevant **BRAVO** Procedural SID *on pilot request*.
+
+**Non-Jet** Aircraft planned via **IRSOM**, **ONAGI**, or **MORGO** may be assigned the relevant **CHARLIE** Procedural SID *on pilot request*.
 
 Aircraft **not** planned via any of the above waypoints, shall be recleared via the most appropriate one, and assigned the **Procedural SID**.
 
