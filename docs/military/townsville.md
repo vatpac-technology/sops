@@ -16,7 +16,7 @@
 
 ## Airspace
 ### TCU
-TL TCU owns the Class C and G airspace within 36 DME TL from `SFC` - `FL180`
+TL TCU owns the Class C and G airspace within 36 DME TL from `SFC` to `FL180`
 
 <figure markdown>
 ![TL TCU/ADC Airspace Structure](img/tltcu.png){ width="2000" }
@@ -24,7 +24,7 @@ TL TCU owns the Class C and G airspace within 36 DME TL from `SFC` - `FL180`
 </figure>
 
 ### ADC
-TL ADC owns the Class C arispace in the TL CTR (Extends to 7NM of the thresholds of 01 and 19.) from `SFC` - `A015`. This airsapce is designed to facilitate Helicopter Traffic and Ciruit Traffic.
+TL ADC owns the Class C arispace in the TL CTR (Extends to 7NM of the thresholds of 01 and 19.) from `SFC` to `A015`. This airsapce is designed to facilitate Helicopter Traffic and Ciruit Traffic.
 
 ### Surveillance
 TL ADC is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels in the TL ADC arispace. 
@@ -46,18 +46,14 @@ For non-RNAV approved IFR aircraft with a wake turbulence category of light, iss
 ## Coordination
 ### Enroute
 #### Departures
-Voiceless coordination is in place from TL TCU to KEN(TBP) for aircraft:  
-Planned at or above `F180`: `Assigned F180`  
-Planned below `F180`: `Assigned the RFL`
-
-Any aircraft not meeting the above criteria must be prior coordinated to ENR.
+The Standard assignable level from TL TCU to TBP is the lower of `FL180` or the `RFL`. All other aircraft must be voice coordinated. 
 
 !!! example
-    <span class="hotline">**TL TCU** -> **TBP**</span>: "JST729, with your concurrence, will be assigned F160, for my separation with QLK327D"  
-    <span class="hotline">**TBP** -> **TL TCU**</span>: "JST729, concur F160"  
+    <span class="hotline">**TL TCU** -> **TBP**</span>: "JST729, with your concurrence, will be assigned `FL160`, for my separation with QLK327D"  
+    <span class="hotline">**TBP** -> **TL TCU**</span>: "JST729, concur `FL160`"  
 
 #### Arrivals
-The Standard assignable level from KEN(TBP) to TL TCU is `A100`, and assigned a STAR. All other aircraftm us be prior coordinated.
+The Standard assignable level from KEN(TBP) to TL TCU is `A100`, and assigned a STAR. All other aircraft must be voice coordinated.
 
 ### TL ADC
 #### Auto Release
@@ -71,7 +67,7 @@ All other aircraft require a "Next" call to TL TCU.
 !!! example
     <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Next, DNGO05, runway 19"  
     <span class="hotline">**DN TCU** -> **DN ADC**</span>: "DNGO05, Assigned Heading Left 150, unrestricted"  
-    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Assigned Heading Left 150, unrestricted, DNGO05"  
+    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Assigned Heading Left 150, DNGO05"  
 
 ### Miscellaneous
 ### Circuit Operations
