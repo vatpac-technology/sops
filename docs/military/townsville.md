@@ -16,7 +16,7 @@
 
 ## Airspace
 ### TCU
-TL TCU owns the Class C and G airspace within 36 DME TL from `SFC` to `FL180`
+TL TCU owns the Class C and G airspace within 36 DME TL from `SFC` to `F180`
 
 <figure markdown>
 ![TL TCU/ADC Airspace Structure](img/tltcu.png){ width="2000" }
@@ -25,10 +25,6 @@ TL TCU owns the Class C and G airspace within 36 DME TL from `SFC` to `FL180`
 
 ### ADC
 TL ADC owns the Class C arispace in the TL CTR (Extends to 7NM of the thresholds of 01 and 19.) from `SFC` to `A015`. This airsapce is designed to facilitate Helicopter Traffic and Ciruit Traffic.
-
-### Surveillance
-TL ADC is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels in the TL ADC arispace. 
-For simulations purposes,  visual separation is assumed to exist belwo the cloud base, and whtin 7NM of the areodrome. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
 
 ## Aerodrome
 ### Runway Operations
@@ -43,35 +39,9 @@ For non-RNAV approved IFR aircraft with a wake turbulence category of light, iss
 !!! note
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
-## Coordination
-### Enroute
-#### Departures
-The Standard assignable level from TL TCU to TBP is the lower of `FL180` or the `RFL`. All other aircraft must be voice coordinated. 
-
-!!! example
-    <span class="hotline">**TL TCU** -> **TBP**</span>: "JST729, with your concurrence, will be assigned `FL160`, for my separation with QLK327D"  
-    <span class="hotline">**TBP** -> **TL TCU**</span>: "JST729, concur `FL160`"  
-
-#### Arrivals
-The Standard assignable level from KEN(TBP) to TL TCU is `A100`, and assigned a STAR. All other aircraft must be voice coordinated.
-
-### TL ADC
-#### Auto Release
-"Next" coordination is **not** required to TL TCU for aircraft that are:  
-a) Departing from a runway nominated on the ATIS; and  
-b) Assigned the standard assignable level; and  
-c) Assigned a Procedural SID  
-
-All other aircraft require a "Next" call to TL TCU.
-
-!!! example
-    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Next, DNGO05, runway 19"  
-    <span class="hotline">**DN TCU** -> **DN ADC**</span>: "DNGO05, Assigned Heading Left 150, unrestricted"  
-    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Assigned Heading Left 150, DNGO05"  
-
-### Miscellaneous
+## Miscellaneous
 ### Circuit Operations
-VFR aircraft operating inside TL ADCs airspace shall be assinged A010.
+VFR aircraft conducting circuits inside TL ADCs airspace shall be at or below `A015`. Higher circuit altitude may be given if voice coordinated with TL TCU.
 
 ### Circuit Direction
 | Runway | Direction |
@@ -83,3 +53,29 @@ VFR aircraft operating inside TL ADCs airspace shall be assinged A010.
 
 ### Helicopter Procedures
 Procedures relating to Helicopters can be found in the Airforce AIP AD2 SUPPS Section for Townsville. (7.5 - 7.9)
+
+## Coordination
+### Enroute
+#### Departures
+The Standard assignable level from TL TCU to TBP is the lower of `F180` or the `RFL`. All other aircraft must be voice coordinated. 
+
+!!! example
+    <span class="hotline">**TL TCU** -> **TBP**</span>: "JST729, with your concurrence, will be assigned `F160`, for my separation with QLK327D"  
+    <span class="hotline">**TBP** -> **TL TCU**</span>: "JST729, concur `F160`"  
+
+#### Arrivals
+The Standard assignable level from KEN(TBP) to TL TCU is `A100`, and assigned a STAR. All other aircraft must be voice coordinated.
+
+### TL ADC
+#### Auto Release
+"Next" coordination is **not** required to TL TCU for aircraft that are:  
+a) Departing from a runway nominated on the ATIS; and  
+b) Assigned the standard assignable level (`F180`); and  
+c) Assigned a Procedural SID  
+
+All other aircraft require a "Next" call to TL TCU.
+
+!!! example
+    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Next, DNGO05, runway 19"  
+    <span class="hotline">**DN TCU** -> **DN ADC**</span>: "DNGO05, Assigned Heading Left 150, unrestricted"  
+    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Assigned Heading Left 150, DNGO05"  
