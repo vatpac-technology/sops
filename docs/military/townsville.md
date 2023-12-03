@@ -53,6 +53,7 @@ VFR aircraft conducting circuits inside TL ADCs airspace shall be at or below `A
 
 ### Helicopter Procedures
 Procedures relating to Helicopters can be found in the Airforce AIP AD2 SUPPS Section for Townsville. (7.5 - 7.9)
+[YBTL AD2 SUPPS Page](https://ais-af.airforce.gov.au/sites/default/files/current-ad2/2309%20Townsville%20FIHA%20AD2%20SUPP.pdf){target=new}
 
 ## Coordination
 ### Enroute
