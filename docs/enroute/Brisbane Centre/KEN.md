@@ -74,7 +74,7 @@ The Standard assignable level from TBP to **TL TCU** is `A100`, and assigned the
 
 All other aircraft must be voice coordinated to TL TCU prior to **20nm** from the boundary.
 
-The Standard assignable level from TL TCU to TBP is the lower of `L180` or the `RFL`
+The Standard assignable level from TL TCU to TBP is the lower of `F180` or the `RFL`
 
 
 ### MKA
