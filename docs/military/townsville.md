@@ -68,10 +68,7 @@ The Standard assignable level from KEN(TBP) to TL TCU is `A100`, and assigned a 
 
 ### TL ADC
 #### Auto Release
-"Next" coordination is **not** required to TL TCU for aircraft that are:  
-a) Departing from a runway nominated on the ATIS; and  
-b) Assigned the standard assignable level (`F180`); and  
-c) Assigned a Procedural SID  
+The Standard Assignable level from TL ADC to TL TCU is the lower of `F180` or the RFL.
 
 All other aircraft require a "Next" call to TL TCU.
 
