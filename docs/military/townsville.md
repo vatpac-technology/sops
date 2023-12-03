@@ -64,7 +64,7 @@ The Standard assignable level from TL TCU to TBP is the lower of `F180` or the `
     <span class="hotline">**TBP** -> **TL TCU**</span>: "JST729, concur `F160`"  
 
 #### Arrivals
-The Standard assignable level from KEN(TBP) to TL TCU is `A100`, and assigned a STAR. All other aircraft must be voice coordinated.
+The Standard assignable level from TBP to TL TCU is `A100`, and assigned a STAR. All other aircraft must be voice coordinated.
 
 ### TL ADC
 #### Auto Release
