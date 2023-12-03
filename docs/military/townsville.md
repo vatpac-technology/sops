@@ -67,10 +67,14 @@ The Standard assignable level from TL TCU to TBP is the lower of `F180` or the `
 The Standard assignable level from TBP to TL TCU is `A100`, and assigned a STAR. All other aircraft must be voice coordinated.
 
 ### TL ADC
-#### Auto Release
-The Standard Assignable level from TL ADC to TL TCU is the lower of `F180` or the RFL.
+#### Auto Release  
 
-All other aircraft require a "Next" call to TL TCU.
+'Next' coordination is **not** required to from TL TCU for aircraft that are:  
+a) Departing from a runway nominated in the ATIS; and  
+b) Assigned the standard assignable level;  
+c) Assigned a **Procedural** SID  
+
+The Standard Assignable level from TL ADC to TL TCU is the lower of `F180` or the RFL.
 
 !!! example
     <span class="hotline">**TL ADC** -> **TL TCU**</span>: "Next, DNGO05, runway 19"  
