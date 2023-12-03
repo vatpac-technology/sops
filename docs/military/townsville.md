@@ -69,7 +69,7 @@ The Standard assignable level from TBP to TL TCU is `A100`, and assigned a STAR.
 ### TL ADC
 #### Auto Release  
 
-'Next' coordination is **not** required to from TL TCU for aircraft that are:  
+'Next' coordination is **not** required from TL TCU for aircraft that are:  
 a) Departing from a runway nominated in the ATIS; and  
 b) Assigned the standard assignable level;  
 c) Assigned a **Procedural** SID  
