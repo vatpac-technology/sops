@@ -28,7 +28,7 @@ By default, WLM TCU owns the airspace within the WLM MIL CTR `SFC` to `F125`. Th
     It is the responsibility of the WLM TCU controller to negotiate any airspace releases with ARL(All).
 
 ### Tower
-When WLM ADC is online, they own the within the WLM MIL CTR A (`SFC`-`A050`). This may be amended/released as required between WLM ADC and WLM TCU.
+When WLM ADC is online, they own the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be amended/released as required between WLM ADC and WLM TCU.
 
 <figure markdown>
 ![WLM ADC Airspace](img/wlmadc.png){ width="700" }

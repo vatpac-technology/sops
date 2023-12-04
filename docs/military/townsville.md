@@ -29,7 +29,7 @@ TL ADC owns the Class C airspace in the TL CTR (Extends to 7NM from the threshol
 ## Aerodrome
 ### Runway Operations
 Runway 01/19 are the primary runways at Townsville. 
-Runway 07/25 is often used in conjunction with 01 for VFR arrivals and Helicopter Traffic. 
+Runway 07/25 may be used in conjunction with 01/19 for VFR arrivals and Helicopter Traffic. 
 
 ### NON-RNAV Departures
 For non-RNAV approved IFR aircaft with a wake turbulence category of medium or greater, issue a RADAR SID.
