@@ -98,7 +98,7 @@ The Standard Assignable level from SY TCU to WOL is the lower of `F280` or the `
 Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
 
 ### CB TCU
-The Standard assignable level from WOL to CB TCU is `F120`, and assigned the RAZZI STAR, BUNGO STAR, or AVBEG STAR STAR.  
+The Standard assignable level from WOL to CB TCU is `F130`, and assigned the RAZZI STAR, BUNGO STAR, or AVBEG STAR STAR.  
 
 All other aircraft must be voice coordinated to CB TCU prior to **20nm** from the boundary.
 

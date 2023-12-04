@@ -28,7 +28,7 @@ Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more info
 ## SID Selection
 Aircraft planned via **MIKIS**, **TASUM**, or **VEKLO** shall be assigned the relevant Procedural SID.
 
-Aircraft planned via **IRSOM** **MORGO**, **ONAGI**, **VIMAP**, **NUNPA**, or **MOTRA**, departing Runway 32L, shall be assigned the relevant **ALPHA** Procedural SID.
+Aircraft planned via **IRSOM**, **MORGO**, **ONAGI**, **VIMAP**, **NUNPA**, or **MOTRA**, departing Runway 32L, shall be assigned the relevant **ALPHA** Procedural SID.
 
 Aircraft planned via **ONAGI**, **VIMAP**, **NUNPA**, or **MOTRA**, departing Runway 14R, shall be assigned the relevant **BRAVO** Procedural SID.
 
