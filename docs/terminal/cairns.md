@@ -111,7 +111,7 @@ The following speeds apply from the Feeder Fix:
 
 ### CS ADC
 #### Departures
-'Next' coordination is **not** required for aircraft that are:   
+'Next' coordination is **not** required from CS ADC for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  
   b) Assigned the standard assignable level; and  
   c) Assigned a **Procedural** SID

@@ -24,16 +24,16 @@ TL TCU owns the Class C and G airspace within 36 DME TL from `SFC` to `F180`
 </figure>
 
 ### ADC
-TL ADC owns the Class C arispace in the TL CTR (Extends to 7NM of the thresholds of 01 and 19.) from `SFC` to `A015`. This airsapce is designed to facilitate Helicopter Traffic and Ciruit Traffic.
+TL ADC owns the Class C airspace in the TL CTR (Extends to 7NM from the thresholds of Runway 01/19) from `SFC` to `A015`. This airsapce is designed to facilitate Helicopter Traffic and Ciruit Traffic.
 
 ## Aerodrome
 ### Runway Operations
-Runways 01 and 19 are the primary runways at Townsville. 
-Runway 07 is often used in conjunction with 01 for VFR arrivals and Helicopter Traffic. 
+Runway 01/19 are the primary runways at Townsville. 
+Runway 07/25 is often used in conjunction with 01 for VFR arrivals and Helicopter Traffic. 
 
 ### NON-RNAV Departures
 For non-RNAV approved IFR aircaft with a wake turbulence category of medium or greater, issue a RADAR SID.
-For non-RNAV approved IFR aircraft with a wake turbulence category of light, issue a visual departure or Radar SID
+For non-RNAV approved IFR aircraft with a wake turbulence category of light, issue a visual departure or RADAR SID
 
 ## Charts
 !!! note
@@ -69,7 +69,6 @@ The Standard assignable level from TBP to TL TCU is `A100`, and assigned a STAR.
 
 ### TL ADC
 #### Auto Release  
-
 'Next' coordination is **not** required from TL ADC to TL TCU for aircraft that are:  
 a) Departing from a runway nominated in the ATIS; and  
 b) Assigned the standard assignable level;  
@@ -80,4 +79,4 @@ c) Assigned a **Procedural** SID
     <span class="hotline">**TL TCU** -> **TL ADC**</span>: "DNGO05, Assigned Heading Left 150, unrestricted"  
     <span class="hotline">**TL ADC** -> **TL TCU**</span>: "Assigned Heading Left 150, DNGO05"  
 
-    The Standard Assignable level from TL ADC to TL TCU is the lower of `F180` or the RFL.
+The Standard Assignable level from TL ADC to TL TCU is the lower of `F180` or the RFL.

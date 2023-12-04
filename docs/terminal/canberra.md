@@ -39,7 +39,7 @@ The Standard assignable level from ENR to CB TCU is `F130`. All other levels mus
 
 ### CB ADC
 #### Auto Release
-'Next' coordination is **not** required to CB TCU for aircraft that are:   
+'Next' coordination is **not** required from CB ADC for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  
   b) Assigned the standard assignable level; and  
   c) Assigned a **Procedural** SID
