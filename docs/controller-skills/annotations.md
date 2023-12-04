@@ -26,6 +26,7 @@ Here is a complete list of standard annotations controllers should be entering i
 | Place-brearing-distance locations | Position expressed as a bearing and distance from a datum.<br />(place)(bearing)(distance) | SY335045<br />*ie: SY DME, R335, 45 NM* |
 | Amended route | When assigned a route that differs to that planned | AR |
 | Assigned Heading | H(heading) | H350 |
+| Track Extended Centreline | | TEC |
 
 ## Requests, Requirements and Restrictions
 | Information | Meaning and Usage | Example |
@@ -93,6 +94,8 @@ Here is a complete list of standard annotations controllers should be entering i
 | QNH issued (en route traffic is altimeter setting region) | Q(final 2-digit value) | Q15 |
 | No level restrictions on STAR | | NHR |
 | No STAR (or cancel STAR) | | NS |
+| Aircraft has reported Visual | | V |
+| Aircraft has reported Runway in Sight | | R |
 
 ## Less commonly used
 

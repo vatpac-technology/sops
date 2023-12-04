@@ -73,6 +73,9 @@ Approach controllers can use the built-in separation afforded by the STAR height
 
     Where aircraft are moved to the alternate runway, consider requesting that they are also assigned the alternate STAR to an aircraft approaching at a similar time on the main runway (i.e. a jet aircraft is moved to runway 34R and cleared the ODALE STAR for separation with a jet aircraft nearby assigned runway 34L via the RIVET STAR).
 
+#### YWLM STARs
+SY TCU is responsible for issuing STARs to aircraft inbound to YWLM via **EKIPU** and **OVLUX**. Aircraft shall be assigned the **EKIPU** or **OVLUX** STAR (as appropriate) by default, unless coordinated otherwise (eg. via the **IVTAG** STAR).
+
 ### Level Assignment
 !!! note
     Inbound aircraft will be handed from Enroute to Approach assigned the [standard assignable level](#arrivals).  This section refers to further descent issued by the Approach controller.
@@ -303,7 +306,7 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
 #### Departures
 Voiceless coordination is in place from SY TCU to all surrounding ENR sectors (**ARL** (and subsectors) to the North and East, **YWE** (and subsectors) to the West, **BIK** (and subsectors) to the South) for aircraft assigned:  
 - The lower of `F280` or the `RFL`, and tracking via a Procedural SID terminus, **with the exception of**:  
-- Aircraft with ADES YWLM, which will be assigned the lower of `F130` or the `RFL`.
+- Aircraft with ADES YWLM, which will be assigned the lower of `F130` or the `RFL`, and assigned a STAR.
 
 Aircraft must be tracking from **SDN** or **SDS** airspace (see [Airspace Division](../../terminal/sydney/#airspace-division)).
 
@@ -313,10 +316,14 @@ Any aircraft tracking from **SAS** or **SAN** airspace, or **not** assigned the 
     <span class="hotline">**SY TCU** -> **ARL**</span>: "JST789, with your concurrence, will be assigned F240, for my separation with ANZ12"  
     <span class="hotline">**ARL** -> **SY TCU**</span>: "JST789, concur F240"
 
+!!! note
+    YWLM arrivals are handed off to ARL(MLD), not directly to WLM TCU, unless coordinated as such
+
 #### Arrivals
 Standard assignable levels from ENR to SY TCU are as follows:  
 via RIVET, BOREE, or MARLN: `A100`  
 All other routes: `A090`  
+
 ### SY TCU Internal
 #### APP / DIR
 Voiceless coordination is in place between APP and DIR, with the following conditions:
@@ -453,13 +460,13 @@ Auto Release is used for virtually all fixed-wing departures at Sydney. Unlike s
 !!! tip
     If strong winds are present at altitude, TWR/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
 
-Auto Release shall also be used for aircraft that are:     
+Auto Release shall also be used from SY ADC for aircraft that are:     
 - Departing from a runway nominated on the ATIS; and  
 - Assigned the standard assignable level; and  
 - Assigned a Procedural SID; or  
 - Assigned a Radar SID with a Standard Assignable Heading
 
-Any aircraft that don't meet these criteria must be coordinated to SY TCU with a "Next" Call.
+Any aircraft that don't meet these criteria must be coordinated by SY ADC with a "Next" Call.
 
 !!! example
     <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Next, ADA4, runway 34R"  
