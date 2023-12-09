@@ -73,11 +73,10 @@ All other aircraft must be voice coordinated to HBA/LTA.
 HB ADC owns the Class D airspace in the HB CTR `SFC` to `A015` north of the runway centreline and `A025` south of the runway centreline. HBA owns the Class D and C airspace above these levels.
 
 #### Departures
-HB ADC will give a "Next" call for:
-
-- VFR Departures  
-- Aircraft using a runway not on the ATIS
-- Aircraft not assigned a Procedural SID and the Standard Assignable level
+'Next' coordination is **not** required from HB ADC for aircraft that are:   
+  a) Departing from a runway nominated on the ATIS; and  
+  b) Assigned the standard assignable level; and  
+  c) Assigned a **Procedural** SID
 
 The Standard Assignable level from HB ADC to HBA is:  
 For Jets: `A080`  
@@ -91,23 +90,23 @@ HBA will coordinate all YMHB arrivals to HB ADC prior to **5 mins** from the bou
 - IFR Circuit joining instructions, if not on Straight-in instrument approach
 
 !!! example
-    <span class="hotline">**HB TCU** -> **HB ADC**</span>: "via BUSKA, QJE1789, for the ILS”  
-    <span class="hotline">**HB ADC** -> **HB TCU**</span>: "QJE1789, ILS"
+    <span class="hotline">**HBA** -> **HB ADC**</span>: "via BUSKA, QJE1789, for the ILS”  
+    <span class="hotline">**HB ADC** -> **HBA**</span>: "QJE1789, ILS"
 
 ### LTA
 #### Airspace
 LT ADC owns the Class D airspace in the LT CTR `SFC` to `A015`. LTA owns the Class D and C airspace above `A015`.
 
 #### Departures
-LT ADC will give a "Next" call for:
-
-- VFR Departures  
-- Aircraft using a runway not on the ATIS  
-- Aircraft not assigned a Procedural SID and the Standard Assignable level
+'Next' coordination is **not** required from LT ADC for aircraft that are:   
+  a) Departing from a runway nominated on the ATIS; and  
+  b) Assigned the standard assignable level; and  
+  c) Assigned a **Procedural** SID
 
 The Standard Assignable level from LT ADC to LTA is:  
 For Jets: `A080`  
 For Non-Jets: The lower of `A045` or the `RFL`.
+
 #### Arrivals
 LTA will coordinate all YMLT arrivals to LT ADC prior to **5 mins** from the boundary. This coordination shall be as per [Standard Heads-up format](../../controller-skills/coordination/#heads-up), with the addition of:
 
@@ -116,5 +115,5 @@ LTA will coordinate all YMLT arrivals to LT ADC prior to **5 mins** from the bou
 - IFR Circuit joining instructions, if not on Straight-in instrument approach
 
 !!! example
-    <span class="hotline">**LT TCU** -> **LT ADC**</span>: "via IRSOM, JST416, for the DGA, will join left downwind 32L”  
-    <span class="hotline">**LT ADC** -> **LT TCU**</span>: "JST416"
+    <span class="hotline">**LTA** -> **LT ADC**</span>: "via IRSOM, JST416, for the DGA, will join left downwind 32L”  
+    <span class="hotline">**LT ADC** -> **LTA**</span>: "JST416"

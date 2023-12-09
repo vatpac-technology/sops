@@ -16,100 +16,64 @@
 
 ## Airspace
 ### Default
-By default, WLM APP owns all of the R578 Restricted Areas, detailed below:
-
-- R578A (`A050`-`F125`)  
-- R578B (`SFC`-`F125`)  
-- R578C (`A045`-`F125`)  
-- R578D (`A025`-`F125`)  
-- R578E (`SFC`-`A100`)  
-- R578F (`A045`-`A085`)  
-- R578G (`A035`-`A085`)
+By default, WLM TCU owns the airspace within the WLM MIL CTR `SFC` to `F125`. This may be amended by NOTAM.
 
 #### Diagram
 <figure markdown>
-![Default WLM TCU Upper Limits](img/wlmapp.png){ width="700" }
-  <figcaption>Default WLM TCU Upper Limits</figcaption>
+![WLM TCU Airspace](img/wlmtcu.png){ width="700" }
+  <figcaption>WLM TCU Airspace</figcaption>
 </figure>
-
-### Optional, as required
-WLM APP can negotiate further airspace releases from surrounding ENR sectors of the following Restricted Areas:
-
-- R580 (`A045`-`F125`)  
-- R583A (`SFC`-`F125`)  
-- R583B (`SFC`-`A100`)  
-- R587A (`F125`-`F600`)  
-- R587B (`F125`-`F600`)  
-- R596 (`SFC`-`F120`)
 
 !!! note
     It is the responsibility of the WLM TCU controller to negotiate any airspace releases with ARL(All).
 
-### Classification
-All airspace owned by WLM TCU when online is reclassified to **Class C**.
-
 ### Tower
-When WLM ADC is online, the airspace below the R578A restricted area is owned by WLM ADC (`SFC`-`A050`), and is **Class C**.
+When WLM ADC is online, they own the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be amended/released as required between WLM ADC and WLM TCU.
 
 <figure markdown>
-![WLM ADC Airspace](img/wlmtwr.png){ width="700" }
+![WLM ADC Airspace](img/wlmadc.png){ width="700" }
   <figcaption>WLM ADC Airspace</figcaption>
 </figure>
-
-### Surveillance
-WLM ADC is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels in the WLM ADC airspace.  
-For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm of the aerodrome. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
 
 ## Charts
 !!! note
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 ## Coordination
-### WLM TCU / ARL(All)
+### ARL(All)
 
 #### Airspace
-Due to the variable nature of the WLM TCU airspace, WLM APP shall coordinate to the relevant ENR exactly what airspace is being released, upon either ARL(All) or WLM APP logging on.
+Any airspace releases from the default setup must be coordinated and agreed upon with ARL. It is also good practice to remind them of any airspace releases that may be active due to NOTAMs.
 
 #### Departures
-Due to the nature of WLM TCU operations, and the proximity to busy YSSY airspace, all departures shall be heads-up coordinated to ARL(All) prior to **10nm** from the boundary. Practically, this will need to be completed as soon as possible, ie, as soon as the aircraft becomes identified on departure.
+Voiceless coordination is in place from WLM TCU to ARL(All) for aircraft assigned the lower of `F120` or the `RFL`, and tracking via a Procedural SID terminus.
+
+Any aircraft not meeting the above criteria must be prior coordinated to ARL(All).
 
 !!! example
-    <span class="coldline">**WLM TCU** -> **MNN**</span>: "via OMBUP, UTY1105, will be assigned F120"  
-    <span class="coldline">**MNN** -> **WLM TCU**</span>: "UTY1105, F120"  
+    <span class="hotline">**WLM TCU** -> **MLD**</span>: "QJE1597, request DCT OMGAB"  
+    <span class="hotline">**MLD** -> **WLM TCU**</span>: "QJE1597, concur DCT OMGAB"  
+
 #### Arrivals/Overfliers
-All aircraft transiting from CNK/MND/MNN to **WLM TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **WLM TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the CNK/MND/MNN and **WLM TCU** controller agree on.
+The Standard assignable level from ARL(All) to WLM TCU is `A090`, and assigned a STAR. All other aircraft must be prior coordinated.
+
+### TCU/ADC
+#### Departures
+'Next' coordination is **not** required from WLM ADC to WLM TCU for aircraft that are:  
+a) Departing from a runway nominated in the ATIS; and  
+b) Assigned the standard assignable level;  
+c) Assigned a **Procedural** SID  
 
 !!! example
-    <span class="coldline">**MNN** -> **WLM TCU**</span>: "via SANAD, JST458, will be assigned F130"  
-    <span class="coldline">**WLM TCU** -> **MNN**</span>: "JST458, F130"  
+    <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "Next, MVP"  
+    <span class="hotline">**WLM TCU** -> **WLM ADC**</span>: "MVP, Left Heading 010, Unrestricted"  
+    <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "Left Heading 010, MVP"  
 
-!!! tip
-    To keep it simple and safe, coordinate departures at the Highest Assignable level within your airspace (eg, with standard WLM TCU configuration, F120 to the East, A090 to the North West, A080 to the South West). You may coordinate other levels with ARL(All) if required for separation purposes.
+The Standard Assignable level from WLM ADC to WLM TCU is the lower of `F120` or the `RFL`.
 
-### WLM TCU / WLM ADC
-### Departures
-A 'Next' call is made for all aircraft when they are next to depart. WLM ADC must inform WLM TCU if the aircraft does not depart within **2 minutes** of the next call.
-
-!!! example
-    <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "Next, JST471"  
-    <span class="hotline">**WLM TCU** -> **WLM ADC**</span>: "JST471"
-
-The Standard Assignable level from WLM ADC to WLM TCU is the lower of `A050` or the `RFL`, and assigned a SID. Any other aircraft must be heads-up coordinated in full.
-
-!!! example
-    <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "Next, DPOT27"  
-    <span class="hotline">**WLM TCU** -> **WLM ADC**</span>: "DPOT27, A080"  
-    <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "A080, DPOT27"
-
-### Arrivals/Overfliers
-WLM TCU must heads-up coordinate all arrivals and overfliers to WLM ADC prior to handoff. Practically, this needs to be done as soon as possible, ie, as soon as WLM TCU receives coordination on the aircraft.
+#### Arrivals/Overfliers
+Voiceless coordination is in place from WLM TCU to WLM ADC for arrivals cleared for an approach on to a runway nominated on the ATIS. All other aircraft and all overfliers must be heads-up coordinated as soon as practical.
 
 !!! example
     <span class="hotline">**WLM TCU** -> **WLM ADC**</span>: "via WLM, ZULU, Close formation of 5, do you have any restrictions or requirements?”  
-    <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "ZULU, no frequency requirements, A040"  
-
-Aircraft with ADES YWLM shall be cleared for the approach prior to handoff.
-
-!!! example
-    <span class="hotline">**WLM TCU** -> **WLM ADC**</span>: "via BLAFF for the ILS RWY 12, VOZ1593”  
-    <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "VOZ1593"  
+    <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "ZULU, no restrictions or requirements, A040"  

@@ -91,7 +91,7 @@ The Standard assignable level from TBD/AUG to AD TCU is `A090`, and assigned a S
 
 ### AD ADC
 #### Auto Release
-'Next' coordination is **not** required to from AD ADC for aircraft that are:   
+'Next' coordination is **not** required from AD ADC for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  
   b) Assigned the standard assignable level; and  
   c) Assigned a **Procedural** SID

@@ -127,9 +127,9 @@ The Standard assignable level from ENR to PH TCU is `A090`. All other levels mus
     <span class="hotline">**PH TCU** -> **PH ADC**</span>: "ABC, Heading 010, unrestricted"  
     <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Heading 010, unrestricted, ABC"
 
-"Next" Coordination to PH TCU is not required for aircraft assigned a **Procedural SID** and the Standard Assignable Level.
+"Next" Coordination from PH ADC is not required for aircraft assigned a **Procedural SID** and the Standard Assignable Level.
 
-"Next" Coordination to PH TCU is additionally required for:   
+"Next" Coordination from PH ADC is additionally required for:   
     a) Aircraft on a non-standard level.  
     b) Aircraft departing from a runway not nominated in the ATIS.  
 
