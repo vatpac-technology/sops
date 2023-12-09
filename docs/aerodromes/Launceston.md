@@ -28,9 +28,9 @@ Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more info
 ## SID Selection
 Aircraft planned via **MIKIS**, **TASUM**, or **VEKLO** shall be assigned the relevant Procedural SID.
 
-Aircraft planned via **IRSOM**, **ONAGI**, **VIMAP**, **NUNPA**, **MOTRA**, or **MORGO** shall be assigned the relevant **ALPHA** Procedural SID.
+Aircraft planned via **IRSOM**, **MORGO**, **ONAGI**, **VIMAP**, **NUNPA**, or **MOTRA**, departing Runway 32L, shall be assigned the relevant **ALPHA** Procedural SID.
 
-Aircraft planned via **ONAGI**, **VIMAP**, **NUNPA**, or **MOTRA** may be assigned the relevant **BRAVO** Procedural SID *on pilot request*.
+Aircraft planned via **ONAGI**, **VIMAP**, **NUNPA**, or **MOTRA**, departing Runway 14R, shall be assigned the relevant **BRAVO** Procedural SID.
 
 **Non-Jet** Aircraft planned via **IRSOM**, **ONAGI**, or **MORGO** may be assigned the relevant **CHARLIE** Procedural SID *on pilot request*.
 
@@ -76,6 +76,7 @@ b) Aircraft using a runway not on the ATIS
 The Standard Assignable level from LT ADC to LTA is:  
 For Jets: `A080`  
 For Non-Jets: The lower of `A045` or the `RFL`.
+
 ### Arrivals/Overfliers
 LTA will heads-up coordinate arrivals/overfliers from Class C to LT ADC.  
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to LT ADC, unless LT ADC nominates a restriction.  
