@@ -17,5 +17,5 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         uses: Ilshidur/action-discord@master
         with:
-          args: '## {{ EVENT_PAYLOAD.pull_request.title }}\n{{ EVENT_PAYLOAD.pull_request.body }}'
+          args: "## {{ EVENT_PAYLOAD.pull_request.title }}\n{{ EVENT_PAYLOAD.pull_request.body }}"
   
