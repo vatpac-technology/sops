@@ -17,17 +17,20 @@
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 ## Airspace
-OLW is responsible for **POT**, **PAR**, **NEW**, **MEK**, **MTK** and **MZI** when they are offline.  
 
 <figure markdown>
 ![Onslow Airspace](../assets/olw.png){ width="700" }
   <figcaption>Onslow Airspace</figcaption>
 </figure>
 
+OLW is responsible for **POT**, **PAR**, **NEW**, **MEK**, **MTK** and **MZI** when they are offline.  
+
+### Reclassifications
+#### KA CTR
+When **KA ADC** is offline, KA CTR (Class D `SFC` to `A055`) reverts to Class G, and is administered by OLW. Alternatively, OLW may provide a [top-down approach service](../../../terminal/canberra) if they wish.
+
 ## Sector Responsibilities
 OLW is responsible for issuing descent and ascertaining arrival intentions for aircraft bound for YPKA.
-
-Regardless of the status of KA ADC, OLW operates the Karratha Class E airspace `A055` and above. When KA ADC is offline, the Class D airspace below `A055` is reclassified Class G.
 
 ## STAR Clearance Expectation
 ### Handoff

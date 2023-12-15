@@ -17,7 +17,11 @@
 ## Airspace
 The Vertical limits of the AD TCU are `SFC` to `F245`.
 
-PF CTR reverts to Class G when **PF ADC** is offline, and is administered by the relevant AD TCU controller.    
+### Reclassifications
+#### PF CTR
+PF CTR reverts to Class G when **PF ADC** is offline, and is administered by the relevant AD TCU controller.
+
+#### EDN CTR
 EDN CTR reverts to Class G when **EDN ADC** is offline, and is administered by the relevant AD TCU controller.  
 
 ### Airspace Division
