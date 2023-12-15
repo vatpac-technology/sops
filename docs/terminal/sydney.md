@@ -31,6 +31,8 @@ SY TCU is responsible for the Sydney TMA, except:
 #### BK CTR
 BK CTR reverts to Class G when **BK ADC** is offline, and is administered by the relevant SY TCU controller.
 
+See also: [BK ADC Offline](#bk-adc-offline).
+
 #### CN CTR
 CN CTR reverts to Class G when **CN ADC** is offline, and is administered by the relevant SY TCU controller.
 

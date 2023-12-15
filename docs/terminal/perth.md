@@ -19,7 +19,9 @@ When **PEA TCU** is online R155A & B is released to them from `A020` to `F160`. 
 
 ### Reclassifications
 #### JT CTR
-JT CTR reverts to Class G when **JT ADC** is offline, and is administered by the relevant PH TCU controller.      
+JT CTR reverts to Class G when **JT ADC** is offline, and is administered by the relevant PH TCU controller.
+
+See also: [JT ADC Offline](#jtpea-adc-offline).
 
 ## Runway Modes
 ### Southwest Plan
