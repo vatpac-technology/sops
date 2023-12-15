@@ -1,5 +1,5 @@
 ---
-  title: Edinburgh Tower
+  title: Nowra (YSNW)
 ---
 
 --8<-- "includes/abbreviations.md"

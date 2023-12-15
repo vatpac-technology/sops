@@ -16,19 +16,25 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
-KEN is responsible for **BAR**, **TBP**, and **SWY** when they are offline.  
-SWY is responsible for the [MK TCU](../../../terminal/coral) when **MKA** is offline.  
-BAR is responsible for the [CS TCU](../../../terminal/cairns) when **CS TCU** is offline.  
-
-When **TL TCU** is offline, TL CTR (Class C `SFC` to `A085`) reverts to Class G, and is administered by TBP. Alternatively, TBP may provide a [top-down approach service](../../../military/townsville) if they wish.  
-When **HM ADC** is offline, HM CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by SWY. Alternatively, SWY may provide a [top-down procedural service](../../../aerodromes/Hammo) if they wish (not recommended).  
-
-Whilst the **MKA** controller is expected to provide a [top-down service](../../../aerodromes/Mackay) to YBMK when **MK ADC** is offline, this is not expected of a SWY controller when both **MKA** and **MK ADC** are offline. If electing not to provide a top-down service to YBMK, the RK CTR Class D is reclassified to Class G `SFC` to `A007`, and Class E `A007` to `A045`.
 
 <figure markdown>
 ![Kennedy Airspace](../assets/ken.png){ width="700" }
   <figcaption>Kennedy Airspace</figcaption>
 </figure>
+
+KEN is responsible for **BAR**, **TBP**, and **SWY** when they are offline.  
+SWY is responsible for the [MK TCU](../../../terminal/coral) when **MKA** is offline.  
+BAR is responsible for the [CS TCU](../../../terminal/cairns) when **CS TCU** is offline.  
+
+### Reclassifications
+#### TL CTR
+When **TL TCU** is offline, TL CTR (Class C `SFC` to `A085`) reverts to Class G, and is administered by TBP. Alternatively, TBP may provide a [top-down approach service](../../../military/townsville) if they wish.
+
+#### HM CTR
+When **HM ADC** is offline, HM CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by SWY. Alternatively, SWY may provide a [top-down procedural service](../../../aerodromes/Hammo) if they wish (not recommended).  
+
+#### MK CTR
+Whilst the **MKA** controller is expected to provide a [top-down service](../../../aerodromes/Mackay) to YBMK when **MK ADC** is offline, this is not expected of a SWY controller when both **MKA** and **MK ADC** are offline. If electing not to provide a top-down service to YBMK, the RK CTR Class D is reclassified to Class G `SFC` to `A007`, and Class E `A007` to `A045`.
 
 ## Sector Responsibilities
 All Subsectors are responsible for issuing STAR Clearances for YBMK, YBTL and YBCS on first contact.

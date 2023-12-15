@@ -12,12 +12,13 @@
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 ## Airspace
-TRT is responsible for **KIY** when they are offline.  
 
 <figure markdown>
 ![Territory Airspace](../assets/trt.png){ width="700" }
   <figcaption>Territory Airspace</figcaption>
 </figure>
+
+TRT is responsible for **KIY** when they are offline.  
 
 ## Sector Responsibilities
 TRT is responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YPDN.  

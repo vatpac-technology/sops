@@ -36,7 +36,7 @@ Aircraft planned via **ONAGI**, **VIMAP**, **NUNPA**, or **MOTRA**, departing Ru
 
 Aircraft **not** planned via any of the above waypoints, shall be recleared via the most appropriate one, and assigned the **Procedural SID**.
 
-Aircraft unable to accept a SID, or that cannot practically accept amended routing via the above points, shall be assigned a visual departure.
+Aircraft unable to accept a SID, or that cannot practically accept amended routing via the above points, shall be assigned the **RADARnSID**.
 
 ## VFR Operations
 

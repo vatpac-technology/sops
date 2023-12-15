@@ -9,10 +9,23 @@
 | ---- | -------- | --------- | -------- |
 | Huon | Melbourne Centre | 122.600 | ML-HUO_CTR |
 
+## Airspace
+
 <figure markdown>
 ![Huon Airspace](../assets/huo.png){ width="700" }
   <figcaption>Huon Airspace</figcaption>
 </figure>
+
+### Reclassifications
+#### TAS TCU
+When **HBA** and/or **LTA** are offline, the class C and D airspace `SFC` to `A085` in the relevant TMA is reclassified as class G.
+
+HUO may choose to operate either YMHB or YMLT (or both) aerodromes top down, including the terminal airspace within the Tasmania TMA. Due to limited surveillence coverage and the complex airspace setup, **extending top down to one or both aerodromes is not compulsory.**
+
+If HUO chooses to operate top down to either aerodrome, they must administer all relevant airspace within the appropriate TMA, including the class D CTR.
+
+!!! important
+    Ensure you are familiar with the aerodrome procedures for [Launceston](../../aerodromes/Launceston.md) and [Hobart](../../aerodromes/Hobart.md) before extending top down, and are aware of the limited surveillence coverage available in the lower levels of the TMA.
 
 ## Responsibilities
 HUO is reponsible for issuing STAR clearances, sequencing, and descent for aircraft bound for YMLT and YMHB.
@@ -31,16 +44,6 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
 | YWE(WON), ELW(SNO) | HUO | YMHB | |
-
-### Top Down Extension
-When **HBA** and/or **LTA** are offline, the class C and D airspace `SFC` to `A085` in the relevant TMA is reclassified as class G.
-
-HUO may choose to operate either YMHB or YMLT (or both) aerodromes top down, including the terminal airspace within the Tasmania TMA. Due to limited surveillence coverage and the complex airspace setup, **extending top down to one or both aerodromes is not compulsory.**
-
-If HUO chooses to operate top down to either aerodrome, they must administer all relevant airspace within the appropriate TMA, including the class D CTR.
-
-!!! important
-    Ensure you are familiar with the aerodrome procedures for [Launceston](../../aerodromes/Launceston.md) and [Hobart](../../aerodromes/Hobart.md) before extending top down, and are aware of the limited surveillence coverage available in the lower levels of the TMA.
 
 ## Coordination
 ### TAS TCU

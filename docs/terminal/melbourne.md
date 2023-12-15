@@ -30,8 +30,14 @@ c) The Coffin, when **EN ADC** is online, and the airspace has been released to 
 !!! note
     The released airspace of the Sunbury Corridor and South East Quadrant is only from the lower level of CTA. ML TCU still owns the Class G airspace beneath it.
 
-MB CTR reverts to Class G when **MB ADC** is offline, and is administered by the relevant ML TCU controller.    
-EN CTR reverts to Class G when **EN ADC** is offline, and is administered by the relevant ML TCU controller.  
+### Reclassifications
+#### MB CTR
+MB CTR reverts to Class G when **MB ADC** is offline, and is administered by the relevant ML TCU controller.
+
+#### EN CTR
+EN CTR reverts to Class G when **EN ADC** is offline, and is administered by the relevant ML TCU controller.
+
+#### AV CTR
 AV CTR Class D `SFC` to `A007` reverts to Class G and `A007` to `A025` to Class E when **AV ADC** is offline, and is administered by the relevant ML TCU controller.  
 
 ## Departure Procedures
