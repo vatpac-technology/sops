@@ -14,16 +14,17 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
-BIK assumes responsibility of the airspace within 45nm of SY DME above `FL285`.  
-GUN BIK assumes responsibility of the airspace within the lateral limits of the CB TCU above `FL245`, except for the region to the south west, which is assumed by ELW(BLA).
-
-!!! note
-    BIK does not assume the CB TCU in the absence of a CB TCU controller. Assumption of the CB TCU is the responsibility of ELW(BLA). Controllers may choose to verbally coordinate the release of the CB TCU to either sector/subsector.
 
 <figure markdown>
 ![Bindook Airspace](../assets/bik.png){ width="700" }
   <figcaption>Bindook Airspace</figcaption>
 </figure>
+
+BIK assumes responsibility of the airspace within 45nm of SY DME above `FL285`.  
+GUN assumes responsibility of the airspace within the lateral limits of the CB TCU above `FL245`, except for the region to the south west, which is assumed by ELW(BLA).
+
+!!! note
+    BIK does not assume the CB TCU in the absence of a CB TCU controller. Assumption of the CB TCU is the responsibility of ELW(BLA). Controllers may choose to verbally coordinate the release of the CB TCU to either sector/subsector.
 
 ## Sector Responsibilities
 ### Bindook (BIK)

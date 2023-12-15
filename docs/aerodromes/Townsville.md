@@ -1,5 +1,5 @@
 ---
-  title: Townsville TCU
+  title: Townsville (YBTL)
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -8,23 +8,16 @@
 
 | Name               | Callsign       | Frequency        | Login Identifier              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
-| Townsville Approach    | Townsville Approach   | 126.800         | TL_APP                                   |
 | Townsville ADC    | Townsville Tower  | 118.300         | TL_TWR        |
 | Townsville SMC    | Townsville Ground  | 121.800         | TL_GND        |
 | Townsville ACD    | Townsville Delivery  | 128.100         | TL_DEL       |
 | Townsville ATIS    |   | 133.500         | YBTL_ATIS       |
 
+!!! note
+    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
+
 ## Airspace
-### TCU
-TL TCU owns the Class C and G airspace within 36 DME TL from `SFC` to `F180`
-
-<figure markdown>
-![TL TCU/ADC Airspace Structure](img/tltcu.png){ width="2000" }
-  <figcaption>TL ADC/TCU Airspace Structure</figcaption>
-</figure>
-
-### ADC
-TL ADC owns the Class C airspace in the TL CTR (Extends to 7NM from the thresholds of Runway 01/19) from `SFC` to `A015`. This airsapce is designed to facilitate Helicopter Traffic and Ciruit Traffic.
+TL ADC owns the Class C airspace in the TL CTR (Extends to 7NM from the thresholds of Runway 01/19) from `SFC` to `A015`. This airspace is designed to facilitate Helicopter Traffic and Ciruit Traffic.
 
 ## Aerodrome
 ### Runway Operations
@@ -56,19 +49,7 @@ Procedures relating to Helicopters can be found in the Airforce AIP AD2 SUPPS Se
 [YBTL AD2 SUPPS Page](https://ais-af.airforce.gov.au/sites/default/files/current-ad2/2309%20Townsville%20FIHA%20AD2%20SUPP.pdf){target=new}
 
 ## Coordination
-### Enroute
-#### Departures
-The Standard assignable level from TL TCU to TBP is the lower of `F180` or the `RFL`. All other aircraft must be voice coordinated. 
-
-!!! example
-    <span class="hotline">**TL TCU** -> **TBP**</span>: "JST729, with your concurrence, will be assigned `F160`, for my separation with QLK327D"  
-    <span class="hotline">**TBP** -> **TL TCU**</span>: "JST729, concur `F160`"  
-
-#### Arrivals
-The Standard assignable level from TBP to TL TCU is `A100`, and assigned a STAR. All other aircraft must be voice coordinated.
-
-### TL ADC
-#### Auto Release  
+### Auto Release  
 'Next' coordination is **not** required from TL ADC to TL TCU for aircraft that are:  
 a) Departing from a runway nominated in the ATIS; and  
 b) Assigned the standard assignable level;  

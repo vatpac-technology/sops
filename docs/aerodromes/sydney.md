@@ -178,7 +178,7 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 !!! tip
     Take in to account an aircraft's weight when runways 16L/34R or 07/25 are in use. Heavier aircraft may operationally require the longer Runway 16R/34L, or pilots may prefer a departure from 16R instead of 16L so they have a shorter taxi. If in doubt, ask the pilot and try to be accommodating of these requests.
 
-### SODROPS
+### SODPROPS
 When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time.
 
 !!! example
@@ -359,6 +359,7 @@ All other aircraft require a 'Next' call to SY TCU.
     b) Departures to YSBK  
     c) After a go around, the next departure from that runway  
     d) Jets departing 16L via WOL
+    e) All aircraft during the Curfew Runway Mode
 
 !!! example
     <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Next, MHQ, Runway 34R"  
