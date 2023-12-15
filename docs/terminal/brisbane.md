@@ -22,10 +22,14 @@ The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, w
 
 ### Reclassifications
 #### AF CTR
-AF CTR reverts to Class G when **AF ADC** is offline, and is administered by the relevant BN TCU controller.  
+AF CTR reverts to Class G when **AF ADC** is offline, and is administered by the relevant BN TCU controller.
+
+See also: [AF ADC Offline](#af-adc-offline).
 
 #### CG CTR
-If BN TCU elects not to provide top-down to YBCG, The CG CTR Class C airspace `SFC` to `A035` reverts to Class G when **CG ADC** is offline, and is administered by the relevant BN TCU controller.  
+If BN TCU elects not to provide top-down to YBCG, The CG CTR Class C airspace `SFC` to `A035` reverts to Class G when **CG ADC** is offline, and is administered by the relevant BN TCU controller.
+
+See also: [CG ADC Offline](#cg-adc-offline).
   
 ### Airspace Structural Arrangements
 Pursuant to Section 3 of the [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), **“North”**/**”West”** positions shall assume the airspace of corresponding **“South”**/**”East”** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
@@ -63,6 +67,18 @@ Due to the low level of CTA (`A015`) in the AF CTR when **AF ADC** is offline, i
     **ABC**: "ABC, Ready Runway 28R, Request clearance"  
     **BN TCU**: "ABC, Cleared to YBSU via BN, Flight Planned Route. Make Visual right turn DCT BN, Climb to A030"  
     **ABC**: "Cleared to YBSU via BN, Flight Planned Route. Make Visual right turn DCT BN, Climb to A030, ABC"
+
+## CG ADC Offline
+Due to the low level of CTA (`A035`) in the CG CTR when **CG ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
+
+!!! example
+    **JST446**: "Brisbane Approach, JST446, A320, IFR, Taxiing YBCG for YSSY, Runway 214"   
+    **BN TCU**: "JST446, Brisbane Approach, Squawk 3601, No Reported IFR Traffic, Report Ready at the Holding Point for Airways Clearance"  
+    **JST446**: "Squawk 3601, Wilco, JST446"  
+
+    **JST446**: "JST446, Ready Runway 14, Request clearance"  
+    **BN TCU**: "JST446, Cleared to YSSY via APAGI, Flight Planned Route. Climb to A060"  
+    **JST446**: "Cleared to YSSY via APAGI, Flight Planned Route. Climb to A060, JST446"
 
 ## Airspace Division
 The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **BAC** change based on the Runway Mode.
