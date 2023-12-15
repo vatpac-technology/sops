@@ -1,5 +1,5 @@
 ---
-title: Military Operations
+title: Military/Restricted Operations
 ---
 
 --8<-- "includes/abbreviations.md"
