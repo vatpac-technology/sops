@@ -9,10 +9,6 @@
 | Name               | Callsign       | Frequency        | Login Identifier              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
 | Williamtown Approach    | Willy Approach   | 135.700         | WLM_APP                                   |
-| Williamtown ADC    | Willy Tower  | 118.300         | WLM_TWR        |
-| Williamtown SMC    | Willy Ground  | 121.800         | WLM_GND        |
-| Williamtown ACD    | Willy Delivery  | 130.350         | WLM_DEL       |
-| Williamtown ATIS    |   | 134.450         | YWLM_ATIS       |
 
 ## Airspace
 ### Default
@@ -27,7 +23,7 @@ By default, WLM TCU owns the airspace within the WLM MIL CTR `SFC` to `F125`. Th
 !!! note
     It is the responsibility of the WLM TCU controller to negotiate any airspace releases with ARL(All).
 
-### Tower
+### ADC
 When WLM ADC is online, they own the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be amended/released as required between WLM ADC and WLM TCU.
 
 <figure markdown>

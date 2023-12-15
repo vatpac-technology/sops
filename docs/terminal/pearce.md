@@ -1,5 +1,5 @@
 ---
-  title: Pearce TCU / Gingin Tower
+  title: Pearce TCU
 ---
 
 --8<-- "includes/abbreviations.md"

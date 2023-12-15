@@ -26,8 +26,15 @@ SY TCU is responsible for the Sydney TMA, except:
 
 - SY CTR `SFC` to `A005` as outlined [here](../../aerodromes/sydney/#airspace)
 - R470 Restricted Area, when RIC ADC is online (or as negotiated)  
-- BK CTR reverts to Class G when **BK ADC** is offline, and is administered by the relevant SY TCU controller.    
-- CN CTR reverts to Class G when **CN ADC** is offline, and is administered by the relevant SY TCU controller.  
+
+### Reclassifications
+#### BK CTR
+BK CTR reverts to Class G when **BK ADC** is offline, and is administered by the relevant SY TCU controller.
+
+See also: [BK ADC Offline](#bk-adc-offline).
+
+#### CN CTR
+CN CTR reverts to Class G when **CN ADC** is offline, and is administered by the relevant SY TCU controller.
 
 ### Airspace Structural Arrangements
 Pursuant to Section 3 of the [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), the following rules apply, in the order presented, to these controller positions, except **SFL**:  

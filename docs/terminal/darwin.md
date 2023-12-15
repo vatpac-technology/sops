@@ -10,10 +10,6 @@
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
 | **Darwin Approach East**    |**DAE**| **Darwin Approach**  | **125.200**         | **DN_APP**          |
 | Darwin Approach West†   |DAW| Darwin Approach   | 134.100         | DN-W_APP                                  |
-| **Darwin ADC**    | | **Darwin Tower**  | **133.100**         | **DN_TWR**        |
-| **Darwin SMC**   ||  **Darwin Ground**  | **121.800**         | **DN_GND**        |
-| **Darwin ACD**    | | **Darwin Delivery**  | **126.800**         | **DN_DEL**       |
-| Darwin ATIS    |   | | 128.250         | YPDN_ATIS       |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies){target=new}
 ## Airspace
@@ -51,26 +47,16 @@ DN ADC is permitted to use Surveillance standards for separation. Surveillance c
 For simulation purposes, visual separation is assumed to exist below the cloud base, and within 7nm of the aerodrome. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
 
 ## Aerodrome
-### Standard Taxi Routes
-Aircraft transiting to or from the Southern and Northern GA should follow the following standardised taxi routes:  
-a) Outbound via V1  
-b) Inbound via Y1  
-
-Traffic permitting, aircraft above 136,000kg MTOW shall be entered/exited for RWY 11/29 from taxiways B2, C3, D or E2 and backtracked as required.  
-
-Taxiway V has a passing bay, located adjacent to the ARFF section. The passing bay is the preferred location for engine run-ups, no longer than 3 minutes  
 
 ### Runway Modes
+Runway selection shall be coordinated by DN ADC. In any case, a change of runway mode shall not be broadcast on the ATIS until DAW accepts the change.  
 
-Runway selection shall be coordinated with DAW. In any case, a change of runway mode shall not be broadcast on the ATIS until DAW accepts the change.  
-Darwin utilises Land and Hold Short Operations (LAHSO) to achieve an expeditious flow of traffic.
+The Runway Mode options available are:
 
-If conditions are suitable, LAHSO runway configurations are preferred:
-
-a) Runway 29 and Runway 36 (LAHSO);  
-b) Runway 29 and Runway 18 (LAHSO);  
+a) Runway 29 and Runway 36;  
+b) Runway 29 and Runway 18;  
 c) Runway 29 only;  
-d) Runway 11 and Runway 36 (LAHSO);  
+d) Runway 11 and Runway 36;  
 e) Runway 11 and Runway 18;  
 f) Runway 11 only.  
 
@@ -81,6 +67,21 @@ For non-RNAV approved IFR aircraft with a wake turbulence category of light, iss
 ## Charts
 !!! note
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
+
+## Miscellaneous
+
+### IFR Training Area
+IFR aircraft requiring an area for training shall be cleared to operate in the North Eastern Training Area (NETA)  
+The NETA is defined as the area between DN 360R–060R from 15NM–30NM DN DME.  
+Aircraft are to be cleared to the NETA via the 030R outbound. Vertical limits are to be specified by DAW prior to issuing airways clearance  
+
+### Designated Fuel Dumping Area
+Other than in an emergency, the designated fuel jettison area is:  
+a) Over water in the Beagle Gulf  
+b) Between the 320 and 020 TACAN radials  
+c) `A060` or above  
+### Robertson Barracks
+Darwin TCU is not responsible for traffic or separation services within the A005 step to the east of Darwin. This step is designed for low-level VFR MIL helos to transit in/out of Robertson Barracks without the need for communication with Darwin TCU.
 
 ## Coordination
 ### Enroute
@@ -100,7 +101,6 @@ The Standard assignable level from TRT to DN TCU is `A100`, and assigned a STAR.
 
 ### DN ADC
 #### Auto Release
-
 "Next" Coordination is a procedure where the **DN ADC** controller gives a heads-up to the DN TCU controller about an impending departure. The DN TCU controller will respond by assigning a heading to the aircraft, for the **DN ADC** controller to pass on with their takeoff clearance.
 
 
@@ -151,14 +151,12 @@ Tower may depart aircraft that conform with the above conditions within the auto
     Tower shall provide visual separation between aircraft in the auto-release wedge and subsequent departures until the preceding departure has been maneuvered by TCU
 
 #### IFR Level Assignment
-
 Issue `F180` or `RFL`; whichever is lower, to aircraft cleared via an RNAV SID or aircraft with a wake turbulence category of medium or greater.  
 Issue `F180` or `RFL`; whichever is lower, to jet aircraft not cleared via an RNAV SID regardless of wake turbulence category.  
 Issue `A030` or `RFL`; whichever is lower, to aircraft not cleared via an RNAV SID with a wake turbulence category of light.  
 
 
 ### DN TCU Internal
-
 Heads-up coordination is not required between DAW and DAE for:
 
 - Departures on a Procedural SID and assigned `F180`  
@@ -169,25 +167,3 @@ All other aircraft must be heads-up coordinated prior to the airspace boundary
 !!! example
     <span class="hotline">**DAW** -> **DAE**</span>: "via DN, CFH23"  
     <span class="hotline">**DAE** -> **DAW**</span>: "CFH23, A090"   
-
-## Miscellaneous
-### Circuit Operations
-VFR aircraft that will operate only in ADCs airspace shall be assigned SSR code 0100  
-
-Circuit altitude will depend on the type of aircraft. Assign circuit altitudes for the following aircraft types:  
-a) MIL Jet: `A020`  
-b) Jet: `A015`  
-c) Non-jet: `A010`  
-d) Helo: `A010`  
-### IFR Training Area
-IFR aircraft requiring an area for training shall be cleared to operate in the North Eastern Training Area (NETA)  
-The NETA is defined as the area between DN 360R–060R from 15NM–30NM DN DME.  
-Aircraft are to be cleared to the NETA via the 030R outbound. Vertical limits are to be specified by DAW prior to issuing airways clearance  
-
-### Designated Fuel Dumping Area
-Other than in an emergency, the designated fuel jettison area is:  
-a) Over water in the Beagle Gulf  
-b) Between the 320 and 020 TACAN radials  
-c) `A060` or above  
-### Robertson Barracks
-Darwin TCU is not responsible for traffic or separation services within the A005 step to the east of Darwin. This step is designed for low-level VFR MIL helos to transit in/out of Robertson Barracks without the need for communication with Darwin TCU.

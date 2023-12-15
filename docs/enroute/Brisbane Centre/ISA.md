@@ -17,12 +17,13 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
-ISA is responsible for **ARA**, **STR**, **WEG**, and **CVN** when they are offline.  
 
 <figure markdown>
 ![Mt Isa Airspace](../assets/isa.png){ width="700" }
   <figcaption>Mt Isa Airspace</figcaption>
 </figure>
+
+ISA is responsible for **ARA**, **STR**, **WEG**, and **CVN** when they are offline.  
 
 ## Extending
 
