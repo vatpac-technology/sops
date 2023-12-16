@@ -4,7 +4,7 @@
 
 --8<-- "includes/abbreviations.md"
 
-## YAMB Positions
+## Positions
 
 | Name               | Callsign       | Frequency        | Login Identifier              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
@@ -24,28 +24,28 @@ AM ADC owns the Class C airspace in the AM CTR within 10nm of the YAMB ARP from 
 
 ### SID Selection
 Aircraft planned via **BN**, **JEDDA**, **MESED**, **BOBOP**, **TATEN**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
-Aircraft who are not planned via those points or who are negative RNAV may be assigned a RADAR sid or a visual departure. 
+Aircraft who are not planned via those points or who are negative RNAV may be assigned a RADAR SID or a visual departure. 
 
-#### Coded Departures
-Visual Departures are commonly requested which are often in the form of a coded departure (e.g. BYRON7 departure), which can be found in the AD2 Sups Page for Amberley. These coded departures provide a corridor with altitude constraints to join the Military Training Areas east of Brisbane avoiding civilian traffic inbound to Brisbane. 
+#### Coded Departures (Fast Jets)
+Visual Departures are commonly requested which are often in the form of a coded departure (e.g. BYRON7 departure), which can be found in the AD2 Sups Page for YAMB. These coded departures provide a corridor with altitude constraints to join the Military Training Areas east of Brisbane avoiding civilian traffic inbound to Brisbane. 
 
-Aircraft will make a visual departure in the circuit direction and fly overhead Amberley to begin tracking for their initial waypoint.
+Aircraft will make a visual departure in the circuit direction and fly overhead YAMB to begin tracking for their initial waypoint.
 
 !!! example
-    WOLF03 was assiged the BYRON7 departure with their intial clearance. 
+    WOLF03 was assiged the BYRON7 departure with their initial clearance. 
     **AM ADC**: "WOLF03, make left turn, reach `F190` by COWIE, cleared for takeoff"  
     **WOLF03**: "Make left turn, reach `F190` by COWIE, cleared for takeoff, WOLF03"  
 
-| Departure | Waypoint | Constraint |
-| --------- | ---------| ----------|
-| Northern1 | BINUP  | `F190` |
-| Central1 | BINUP | `F190` |
-| Byron7 | COWIE | `F190` |
+| Departure | Initial Constraint | Route |
+| --------- | ----------| --------- |
+| Northern 1 | `F190` at BINUP | BINUP MURJO BOBED LESKO MOSSI/ADNUK (Transition) |
+| Central 1 | `F190` at BINUP | BINUP MURJO BOBED VIRGE |
+| Byron 7 | `F190` at BINUP | COWIE KIWEE ZANET LOTMA SEMAJ |
 
 Typically pilots will request a specific departure when obtaining their airways clearance.
 
 ### Runway Operations
-Runways 15/33 are the primary runways at Amberley. 
+Runways 15/33 are the primary runways at YAMB. 
 
 ## Charts
 !!! note
@@ -53,7 +53,7 @@ Runways 15/33 are the primary runways at Amberley.
 
 ## Miscellaneous
 ### Circuit Operations
-The Circuit Area Airspace is allocated to be within 5nm of the Amberley ARP from `SFC` to `A015`. Aircraft can be instructed to extend outside of this airspace by ATC for traffic management.
+The Circuit Area Airspace is allocated to be within 5nm of the YAMB ARP from `SFC` to `A015`. Aircraft can be instructed to extend outside of this airspace by ATC for traffic management.
 
 ### Circuit Direction
 | Runway | Direction |
@@ -76,6 +76,6 @@ The Circuit Area Airspace is allocated to be within 5nm of the Amberley ARP from
     <span class="hotline">**AM ADC** -> **AM TCU**</span>: "Assigned Heading Heading Right 030, ASY01"  
 
 ### Level Assignment
-The Standard Assignable level is the lower of `F180` or `RFL` to aircraft departing on a RADAR or PROCEDURAL Sid. 
+The Standard Assignable level is the lower of `F180` or `RFL` to aircraft departing on a RADAR or Procedural SID. 
 
 Aircraft flying via a visual coded departure shall be cleared directly to their transit altitude to the restricted airspace of `F260`.
