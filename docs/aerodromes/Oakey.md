@@ -13,7 +13,7 @@
 
 ## Airspace
 
-OK ADC owns the airspace within 5 DME of the OK VOR from `SFC` to `A025`. This airspace is the circuit area.
+OK ADC owns the airspace within 5 DME of the OK VOR from `SFC` to `A025`. This airspace is designed to facilitate circuit traffic.
 
 ## Charts
 !!! note
@@ -39,9 +39,12 @@ The standard circuit direction is to the north of the field.
 ## Coordination
 ### OK TCU
 
-'Next' coordination is required from OK ADC to OK TCU for all aircraft.
+'Next' coordination is required from OK ADC to OK TCU for all aircraft not remaining in the circuit. 
 
 !!! example
     <span class="hotline">**OK ADC** -> **OK TCU**</span>: "Next, MRCH01, runway 32"  
     <span class="hotline">**OK TCU** -> **OK ADC**</span>: "MRCH01, Make Right Turn, unrestricted"  
     <span class="hotline">**OK ADC** -> **OK TCU**</span>: "Make Right Turn, MRCH01"  
+
+### Level Assignment
+The Standard Assignable level from **OK ADC** to **OK TCU** is the lower of `F120` or the `RFL`.

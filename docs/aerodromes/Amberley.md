@@ -17,7 +17,7 @@
 
 ## Airspace
 
-AM ADC owns the Class C airspace in the AM CTR within 10nm of the YAMB ARP from `SFC` to `A015`. This airspace is primarily used for military circuits and initial and pitch approaches.
+AM ADC owns the Class C airspace **in the AM CTR** within 10nm of the YAMB ARP from `SFC` to `A015`. This airspace is primarily used for military circuits and initial and pitch approaches.
 
 
 ## YAMB Aerodrome
@@ -32,6 +32,10 @@ Visual Departures are commonly requested which are often in the form of a coded 
 Aircraft will make a visual departure in the circuit direction and fly overhead YAMB to begin tracking for their initial waypoint.
 
 !!! example
+    CRNG21 plans to enter R637 via the gate Mossi for Military Training.
+    **AM ADC**: "CRNG21, Cleared to YAMB via MOSSI, Flight Planned Route. Runway 15, Northern 1 Departure. Climb to `F190`. Squawk 3601, Departure Frequency 126.20"  
+
+!!! example
     WOLF03 was assiged the BYRON7 departure with their initial clearance. 
     **AM ADC**: "WOLF03, make left turn, reach `F190` by COWIE, cleared for takeoff"  
     **WOLF03**: "Make left turn, reach `F190` by COWIE, cleared for takeoff, WOLF03"  
@@ -42,7 +46,12 @@ Aircraft will make a visual departure in the circuit direction and fly overhead 
 | Central 1 | `F190` at BINUP | BINUP MURJO BOBED VIRGE |
 | Byron 7 | `F190` at BINUP | COWIE KIWEE ZANET LOTMA SEMAJ |
 
-Typically pilots will request a specific departure when obtaining their airways clearance.
+!!! note
+    Charts for the Coded Departures may be in YAMB AD2 Supplements 6.2.25.11 available here: [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
+
+!!! note
+    Since the Coded Departures are not SIDs, AM ACD needs to write the name of the coded departure in the Global Ops Field of the strip.
+
 
 ### Runway Operations
 Runways 15/33 are the primary runways at YAMB. 
@@ -63,12 +72,10 @@ The Circuit Area Airspace is allocated to be within 5nm of the YAMB ARP from `SF
 | 04     | Left |
 | 22     | Left |
 
-
-
 ## Coordination
-### Auto Release  
+### AMB TCU
 
-'Next' coordination is required from AM ADC to AM TCU for aircraft due to the busy ad-hoc nature of the airspace.
+'Next' coordination is required from AM ADC to AM TCU for all aircraft.
 
 !!! example
     <span class="hotline">**AM ADC** -> **AM TCU**</span>: "Next, ASY01, runway 33"  
@@ -76,6 +83,6 @@ The Circuit Area Airspace is allocated to be within 5nm of the YAMB ARP from `SF
     <span class="hotline">**AM ADC** -> **AM TCU**</span>: "Assigned Heading Heading Right 030, ASY01"  
 
 ### Level Assignment
-The Standard Assignable level is the lower of `F180` or `RFL` to aircraft departing on a RADAR or Procedural SID. 
-
-Aircraft flying via a visual coded departure shall be cleared directly to their transit altitude to the restricted airspace of `F260`.
+The Standard Assignable Level from  **AM ADC** to **AM TCU** is:  
+a) The Lower of `F180` or `RFL` for Aircraft assigned via Procedural or RNAV SID.  
+b) `F190` for Aircraft assigned a Coded Departure.
