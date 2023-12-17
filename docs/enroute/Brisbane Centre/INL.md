@@ -179,12 +179,16 @@ Any aircraft that will enter CFS ADC airspace, and not landing at YCFS, must be 
 By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas, and **AMB TCU** owns the airspace within the **R625A-D** restricted areas, unless stated otherwise by ad-hoc release or NOTAM.
 
 #### Departures
-Departures from YBOK and YAMB in to GOL/DOS/BUR Class C will be coordinated at taxi, and will be requesting a level.
+All aircraft from AM/OK TCU to INL(All) require Heads-up coordination prior to the boundary, however as soon as practical (when is the aircraft becomes airborne) is prefered.
 
 !!! example
-    <span class="coldline">**OK TCU** -> **DOS**</span>: "Taxi, VLAN48 for YBOK via MATVI, Requesting F140"  
-    <span class="coldline">**DOS** -> **OK TCU**</span>: "VLAN48, F140"  
-    <span class="coldline">**OK TCU** -> **DOS**</span>: "F140, VLAN48"  
+    <span class="hotline">**AM TCU** -> **BN TCU**</span>: "via BN, DRGN02"  
+    <span class="hotline">**BN TCU** -> **AM TCU**</span>: "DRGN02, `F180`"  
+
+!!! example
+    BUCK03 is assigned the BYRON 7 coded departure. 
+    <span class="hotline">**AM TCU** -> **NSA**</span>: "via COWIE, BUCK3."  
+    <span class="hotline">**NSA** -> **AM TCU**</span>: "BUCK03, `F190`"  
 
 #### Arrivals/Overfliers
 All aircraft transiting from GOL/DOS/BUR to **OK TCU** and **AMB TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **OK TCU** and **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the GOL/DOS/BUR and **WLM TCU** controller agree on.
