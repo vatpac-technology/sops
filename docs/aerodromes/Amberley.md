@@ -32,7 +32,7 @@ Visual Departures are commonly requested which are often in the form of a coded 
 Aircraft will make a visual departure in the circuit direction and fly overhead YAMB to begin tracking for their initial waypoint.
 
 !!! example
-    CRNG21 plans to enter R637 via the gate Mossi for Military Training.
+    CRNG21 plans to enter R637 via the gate MOSSI for Military Training.
     **AM ADC**: "CRNG21, Cleared to YAMB via MOSSI, Flight Planned Route. Runway 15, Northern 1 Departure. Climb to `F190`. Squawk 3601, Departure Frequency 126.20"  
 
 !!! example
@@ -73,7 +73,7 @@ The Circuit Area Airspace is allocated to be within 5nm of the YAMB ARP from `SF
 | 22     | Left |
 
 ## Coordination
-### AMB TCU
+### AM TCU
 
 'Next' coordination is required from AM ADC to AM TCU for all aircraft.
 

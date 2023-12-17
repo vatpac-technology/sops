@@ -14,6 +14,7 @@
 | Amberley TCU   | Amberley Approach   | 126.200        | AM_APP                                   |
 | Oakey TCU   | Oakey Approach | 125.400        | OK_APP                                   |
 
+AM APP is expected to extend to OK APP when they are offline. No frequency cross coupling is required. 
 
 
 ## Airspace
@@ -111,7 +112,6 @@ Aircraft will make a visual departure in the circuit direction and fly overhead 
 #### Departures
 All aircraft from AM/OK TCU to INL(All) and BN TCU require Heads-up coordination prior to the boundary, however, as soon as practical (when is the aircraft becomes airborne) is prefered.
 
-#### Level Assignment
 The Standard Assignable Level from  **AM ADC** to **AM TCU** is:  
 a) The Lower of `F180` or `RFL` for Aircraft assigned via Procedural or RNAV SID.  
 b) `F190` for Aircraft assigned a Coded Departure.
@@ -124,11 +124,11 @@ The Standard Assignable from **OK ADC** to **OK TCU** is the lower of `F120` or 
 
 !!! example
     BUCK03 is assigned the BYRON 7 coded departure. 
-    <span class="hotline">**AM TCU** -> **NSA**</span>: "BUCK03, with your concurrence assigned `F190`, Byron 7 departure."  
+    <span class="hotline">**AM TCU** -> **NSA**</span>: "via COWIE, BUCK3."  
     <span class="hotline">**NSA** -> **AM TCU**</span>: "BUCK03, `F190`"  
 
 #### Arrivals/Overlfies
-All aircraft transiting from GOL/DOS/BUR and **BN TCU** to **AM TCU** and **OK TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the GOL/DOS/BUR and **AM TCU**/**OK TCU** controller agree on.
+All aircraft transiting from GOL/DOS/BUR to **AM TCU** and **OK TCU** must be heads-up coordinated prior to **20nm** from the boundary and aircraft from **BN TCU** to **AM TCU** only prior to the boundary. Operations within **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the GOL/DOS/BUR and **AM TCU**/**OK TCU** controller agree on.
 
 !!! example
     <span class="hotline">**GOL** -> **AMB TCU**</span>: "via HUUGO, PUMA11, will be assigned A090"  
