@@ -51,7 +51,7 @@ AM ADC owns the Class C airspace in the AM CTR within 10nm of the YAMB ARP from 
 
 ### OK TCU
 #### Restricted Areas
-By Default YBOK owns all of the R625 Restricted Areas, detailed below:
+By Default OK TCU owns all of the R625 Restricted Areas, detailed below:
 
 - R654A (`SFC`-`A065`)  
 - R6545B (`SFC`-`A065`)  
@@ -66,7 +66,7 @@ By Default YBOK owns all of the R625 Restricted Areas, detailed below:
 </figure>
 
 ### OK ADC
-OK ADC owns the CLass C airspace within 5 DME of the OK VOR from `SFC` to `A025`. This airspace is the circuit area.
+OK ADC owns the Class C airspace within 5 DME of the OK VOR from `SFC` to `A025`. This airspace is designed to facilitate circuit traffic.
 
 
 ## YAMB Aerodrome
@@ -90,13 +90,15 @@ Aircraft will make a visual departure in the circuit direction and fly overhead 
 !!! note
     Charts for the Coded Departures may be in YAMB AD2 Supplements 6.2.25.11 available here: [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
+!!!
+    Since the Coded Departures are not SIDs, AM ACD needs to write the name of the coded departure in the Global Ops Field of the strip.
 
 ## Charts
 !!! note
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
-## YAMB Coordination
-### AMB ADC
+## Coordination
+### AM/OK ADC
 
 'Next' coordination is required from AM ADC to AM TCU for all aircraft.
 
@@ -105,26 +107,29 @@ Aircraft will make a visual departure in the circuit direction and fly overhead 
     <span class="hotline">**AM TCU** -> **AM ADC**</span>: "ASY01, Assigned Heading Right 030, unrestricted"  
     <span class="hotline">**AM ADC** -> **AM TCU**</span>: "Assigned Heading Heading Right 030, ASY01"  
 
-### Enroute
+### INL / BN TCU
 #### Departures
-Departing aircraft require heads up coordiantion to INL(All) as soon as practical (aircraft becomes airborne in most cases). Note since there are no assignable level assign the most pracitcal (ie. `F180` due airspace celling or coordinate higher for high performance jets).
+All aircraft from AM/OK TCU to INL(All) and BN TCU require Heads-up coordination prior to the boundary, however, as soon as practical (when is the aircraft becomes airborne) is prefered.
+
+#### Level Assignment
+The Standard Assignable Level from  **AM ADC** to **AM TCU** is:  
+a) The Lower of `F180` or `RFL` for Aircraft assigned via Procedural or RNAV SID.  
+b) `F190` for Aircraft assigned a Coded Departure.
+
+The Standard Assignable from **OK ADC** to **OK TCU** is the lower of `F120` or `RFL`.
 
 !!! example
-    <span class="hotline">**AM TCU** -> **DOS**</span>: "DRGN02, with your concurrence assigned `F180`"  
-    <span class="hotline">**DOS** -> **AM TCU**</span>: "DRGN02, `F180`"  
+    <span class="hotline">**AM TCU** -> **BN TCU**</span>: "via BN, DRGN02"  
+    <span class="hotline">**BN TCU** -> **AM TCU**</span>: "DRGN02, `F180`"  
 
 !!! example
     BUCK03 is assigned the BYRON 7 coded departure. 
-    <span class="hotline">**AM TCU** -> **DOS**</span>: "BUCK03, with your concurrence assigned `F260`, Byron 7 departure."  
-    <span class="hotline">**DOS** -> **AM TCU**</span>: "BUCK03, `F260`"  
+    <span class="hotline">**AM TCU** -> **NSA**</span>: "BUCK03, with your concurrence assigned `F190`, Byron 7 departure."  
+    <span class="hotline">**NSA** -> **AM TCU**</span>: "BUCK03, `F190`"  
 
 #### Arrivals/Overlfies
-All aircraft transiting from GOL/DOS/BUR to **AM TCU** and **OK TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the GOL/DOS/BUR and **AM TCU**/**OK TCU** controller agree on.
+All aircraft transiting from GOL/DOS/BUR and **BN TCU** to **AM TCU** and **OK TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the GOL/DOS/BUR and **AM TCU**/**OK TCU** controller agree on.
 
 !!! example
     <span class="hotline">**GOL** -> **AMB TCU**</span>: "via HUUGO, PUMA11, will be assigned A090"  
     <span class="hotline">**AMB TCU** -> **GOL**</span>: "PUMA11, A090"  
-
-## YBOK Coordination
-Next coordination is required from **OK ADC** to **OK TCU**.
-Heads up coordination is also required for arrivals and departures between **OK TCU** and **DOS(INL)**
