@@ -20,7 +20,7 @@ AM APP is expected to extend to OK APP when they are offline. No frequency cross
 ## Airspace
 ### AM TCU
 #### Restricted Areas
-By Default YAMB owns all of the R625 Restricted Areas, detailed below:
+By default, AM APP owns all of the R625 Restricted Areas, as detailed below:
 
 - R625A (`A015`-`A085`)  
 - R625B (`A025`-`A085`)  
@@ -52,7 +52,7 @@ AM ADC owns the Class C airspace in the AM CTR within 10nm of the YAMB ARP from 
 
 ### OK TCU
 #### Restricted Areas
-By Default OK TCU owns all of the R625 Restricted Areas, detailed below:
+By Default OK APP owns all of the R625 Restricted Areas, detailed below:
 
 - R654A (`SFC`-`A065`)  
 - R6545B (`SFC`-`A065`)  
@@ -72,7 +72,7 @@ OK ADC owns the Class C airspace within 5 DME of the OK VOR from `SFC` to `A025`
 
 ## YAMB Aerodrome
 ### Coded Departures (Fast Jets)
-Visual Departures are commonly requested which are often in the form of a coded departure (e.g. BYRON7 departure), which can be found in the AD2 Sups Page for Amberley. These coded departures provide a corridor with altitude constraints to join the Military Training Areas east of Brisbane avoiding civilian traffic inbound to Brisbane. 
+Visual Departures are commonly requested by high performance military jets, and often processed in the form of a coded departure (e.g. BYRON7 departure), which can be found in the AD2 Sups Page for Amberley. These coded departures provide a corridor with altitude constraints to join the Military Training Areas east of Brisbane avoiding civilian traffic inbound to Brisbane. 
 
 
 Aircraft will make a visual departure in the circuit direction and fly overhead YAMB to begin tracking for their initial waypoint.
@@ -91,8 +91,8 @@ Aircraft will make a visual departure in the circuit direction and fly overhead 
 !!! note
     Charts for the Coded Departures may be in YAMB AD2 Supplements 6.2.25.11 available here: [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
-!!!
-    Since the Coded Departures are not SIDs, AM ACD needs to write the name of the coded departure in the Global Ops Field of the strip.
+!!! note
+    AM ACD will record the name of the coded departure in the Global Ops Field of the FDR and amend the flight plan route with all necessary tracking points.
 
 ## Charts
 !!! note
@@ -128,8 +128,8 @@ The Standard Assignable from **OK ADC** to **OK TCU** is the lower of `F120` or 
     <span class="hotline">**NSA** -> **AM TCU**</span>: "BUCK03, `F190`"  
 
 #### Arrivals/Overlfies
-All aircraft transiting from GOL/DOS/BUR to **AM TCU** and **OK TCU** must be heads-up coordinated prior to **20nm** from the boundary and aircraft from **BN TCU** to **AM TCU** only prior to the boundary. Operations within **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the GOL/DOS/BUR and **AM TCU**/**OK TCU** controller agree on.
+All aircraft transiting from GOL/DOS/BUR to **AM TCU** and **OK TCU** must be heads-up coordinated prior to **20nm** from the boundary and aircraft from **BN TCU** to **AM TCU** only prior to the boundary. Operations within **AM TCU** are fairly ad-hoc, so there are no standard assignable levels. GOL/DOS/BUR and **AM TCU**/**OK TCU** controller must agree on a suitable level during coordination.
 
 !!! example
-    <span class="hotline">**GOL** -> **AMB TCU**</span>: "via HUUGO, PUMA11, will be assigned A090"  
-    <span class="hotline">**AMB TCU** -> **GOL**</span>: "PUMA11, A090"  
+    <span class="hotline">**GOL** -> **AM TCU**</span>: "via HUUGO, PUMA11, will be assigned A090"  
+    <span class="hotline">**AM TCU** -> **GOL**</span>: "PUMA11, A090"  
