@@ -179,14 +179,9 @@ Any aircraft that will enter CFS ADC airspace, and not landing at YCFS, must be 
 By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas, and **AM TCU** owns the airspace within the **R625A-D** restricted areas, unless stated otherwise by ad-hoc release or NOTAM.
 
 #### Departures
-All aircraft from AM/OK TCU to INL(All) require Heads-up coordination prior to the boundary, however as soon as practical (when is the aircraft becomes airborne) is prefered.
+All aircraft from AM/OK TCU to INL(All) require Heads-up coordination prior to the boundary. Expect this coordination to be completed a short time after the aircraft becomes airborne (pending controller workload).
 
-!!! example
-    <span class="hotline">**AM TCU** -> **BN TCU**</span>: "via BN, DRGN02"  
-    <span class="hotline">**BN TCU** -> **AM TCU**</span>: "DRGN02, `F180`"  
-
-!!! example
-    BUCK03 is assigned the BYRON 7 coded departure. 
+!!! example 
     <span class="hotline">**AM TCU** -> **NSA**</span>: "via COWIE, BUCK03."  
     <span class="hotline">**NSA** -> **AM TCU**</span>: "BUCK03, `F190`"  
 
