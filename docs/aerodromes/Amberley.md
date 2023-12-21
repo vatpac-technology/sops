@@ -1,5 +1,5 @@
 ---
-  title: Amberley (YBAF)
+  title: Amberley (YAMB)
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -27,13 +27,13 @@ Aircraft planned via **BN**, **JEDDA**, **MESED**, **BOBOP**, **TATEN**, shall b
 Aircraft who are not planned via those points or who are negative RNAV may be assigned a RADAR SID or a visual departure. 
 
 #### Coded Departures (Fast Jets)
-Visual Departures are commonly requested which are often in the form of a coded departure (e.g. BYRON7 departure), which can be found in the AD2 Sups Page for YAMB. These coded departures provide a corridor with altitude constraints to join the Military Training Areas east of Brisbane avoiding civilian traffic inbound to Brisbane. 
+Visual Departures are commonly requested by high performance military jets and often processed in the form of a coded departure (e.g. BYRON7 departure), which can be found in the AD2 Sups Page for YAMB. These coded departures provide a corridor with altitude constraints to join the Military Training Areas east of Brisbane, avoiding civilian traffic inbound to Brisbane. 
 
-Aircraft will make a visual departure in the circuit direction and fly overhead YAMB to begin tracking for their initial waypoint.
+Aircraft will depart the circuit visually and track overhead YAMB to begin tracking for their initial waypoint.
 
 !!! example
     CRNG21 plans to enter R637 via the gate MOSSI for Military Training.
-    **AM ADC**: "CRNG21, Cleared to YAMB via MOSSI, Flight Planned Route. Runway 15, Northern 1 Departure. Climb to `F190`. Squawk 3601, Departure Frequency 126.20"  
+    **AM ADC**: "CRNG21, cleared to YAMB via MOSSI, flight planned route. Runway 15, Northern 1 Departure. Climb to `F190`. Squawk 3601, Departure Frequency 126.20"  
 
 !!! example
     WOLF03 was assiged the BYRON7 departure with their initial clearance. 
@@ -50,7 +50,7 @@ Aircraft will make a visual departure in the circuit direction and fly overhead 
     Charts for the Coded Departures may be in YAMB AD2 Supplements 6.2.25.11 available here: [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 !!! note
-    Since the Coded Departures are not SIDs, AM ACD needs to write the name of the coded departure in the Global Ops Field of the strip.
+    Since the Coded Departures are not SIDs, AM ACD needs to write the name of the coded departure in the Global Ops Field of the FDR and amend the flight plan route to include all relevant tracking points.
 
 
 ### Runway Operations
