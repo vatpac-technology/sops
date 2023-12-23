@@ -87,7 +87,7 @@ Departing aircraft should **not** be issued a takeoff clearance (as the helipads
     **RSCU209**: "Cleared to Bankstown via AKMIR flight planned route, climb A090, squawk 3762, pass behind the A320 and maintain own separation, RSCU209"  
 
     *Remember to pass traffic information to both aircraft.*  
-    **CB ADC**: "JST619, traffic is a helicopter becoming airborne from Canberra Hospital, approximately 5nm southwest of the field, maintaining own separation with you"  
+    **CB ADC**: "JST619, traffic is a helicopter becoming airborne from Canberra Hospital, approximately 5nm southwest of the field, maintaining own separation with you, runway 35, cleared to land"  
 
 #### Arriving Aircraft
 Helicopters arriving to the pads will generally be coordinated by the TMA controller and should be cleared via a visual approach (when available) and instructed to report on the ground. Do **not** issue a landing clearance to these aircraft (as the helipads are outside the manoeuvring area). It may be necessary to instruct these helicopters to track via amended visual points or sight and pass other aircraft.
