@@ -81,8 +81,8 @@ Departing aircraft should **not** be issued a takeoff clearance (as the helipads
 !!! example
     *RSCU209 is an IFR AW139 helicopter intending to depart Canberra Hospital (YXCB) for Bankstown (YSBK) at `A090` (inside Class C CTA).*  
     **RSCU209**: "Canberra Tower, helicopter RSCU209, on the pad at Canberra Hospital, for Bankstown, received Juliet, ready"  
-    **CB ADC**: "RSCU209, Canberra Tower, report sighting a Jetstar A320 on a 3nm final runway 35"  
-    **RSCU209**: "Traffic sighted, RSCU209"  
+    **CB ADC**: "RSCU209, Canberra Tower, report sighting a Jetstar A320 on a 3nm final runway 35 and advise able to maintain own separation with that aircraft"  
+    **RSCU209**: "Traffic sighted and affirm, RSCU209"  
     **CB ADC**: "RSCU209, pass behind the A320, maintain own separation, caution wake turbulence, cleared to Bankstown via AKMIR, flight planned route, climb A090, squawk 3762"  
     **RSCU209**: "Cleared to Bankstown via AKMIR flight planned route, climb A090, squawk 3762, pass behind the A320 and maintain own separation, RSCU209"  
 
@@ -94,8 +94,8 @@ Helicopters arriving to the pads will generally be coordinated by the TMA contro
 
 !!! example
     **RSCU203**: "Canberra Tower, gday, RSCU203"  
-    **CB ADC**: "RSCU203, Canberra Tower, report sighting a Qantas 737 lining up on runway 17"  
-    **RSCU203**: "Traffic sighted, RSCU203"  
+    **CB ADC**: "RSCU203, Canberra Tower, report sighting a Qantas 737 lining up on runway 17 and advise able to maintain own separation with that aircraft"  
+    **RSCU203**: "Traffic sighted and affirm, RSCU203"  
     **CB ADC**: "RSCU203, that aircraft will be departing upwind, maintain own separation, cleared visual approach, report on the ground"  
     **RSCU203**: "Maintain own separation, cleared visual approach, RSCU203"  
 
