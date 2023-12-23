@@ -146,7 +146,7 @@ All other aircraft must be voice coordinated to **RKA** prior to **20nm** from t
 The Standard Assignable level from **RKA** to KPL is `F150`, and tracking via BUDGI or TARES.
 ### CFS ADC
 #### Airspace
-When **CFS ADC** is online, **INL** and **MNN** owns the Class C airspace from `A045` upwards, and **CFS ADC** owns the Class D airspace `SFC` to `A045`.
+**INL** and **MNN** owns the Class C airspace above CFS from `A045` upwards. **CFS ADC** owns the Class D airspace `SFC` to `A045` when open.
 
 #### Departures
 Departures from YCFS in to INL Class C will be coordinated when ready for departure.
