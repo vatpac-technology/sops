@@ -53,6 +53,19 @@ The Standard Assignable level from CB ADC to CB TCU is:
 For IFR aircraft: `A100`  
 For VFR aircraft: The lower of `A040` or the `RFL`
 
+#### Helipads in the CB CTR
+The Canberra CTR contains the Southcare Helicopter Base (YXSB) as well as two hospitals (Calvary Hospital and Canberra Hospital). Helicopters inbound to these helipads should be coordinated with **CB ADC** who can use a visual separation techniques as required. ADC and the TMA controller should work together to determine the most appropriate clearance limit (if required due traffic) for the helicopter, before frequency transfer is issued. ADC will issue a visual approach clearance when it is available.
+
+!!! example
+    *RSCU201 is an IFR AW139 helicopter tracking from the east for Southcare Base (YXSB).*  
+    <span class="hotline">**CBE** -> **CB ADC**</span>: "To the east, RSCU201, for Southcare Base, are you able to separate with the arrival path to runway 35?"  
+    <span class="hotline">**CB ADC** -> **CBE**</span>: "Affirm, RSCU201 clearance limit Queanbeyan"  
+    <span class="hotline">**CBE** -> **CB ADC**</span>: "Clearance limit Queanbeyan, RSCU201"  
+
+    **CBE**: "RSCU201, clearance limit Queanbeyan, contact Tower 118.7"
+
+Departing helicopters may transit the CTR to Class G (under the direction of ADC) or be coordinated with the TCU to determine the availability of an airways clearance in CTA.
+
 ### CB TCU Internal
 All aircraft transiting between internal CB TCU boundaries must be heads-up coordinated.
 

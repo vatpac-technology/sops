@@ -46,6 +46,7 @@ The circuit direction is not specified in the airways clearance, but with a take
 
 Military jet training circuits are conducted at `A035`, unless otherwise requested by the pilot. ADC shall notify the TCU of the beginning and end of the sortie.
 
+### City Scenic Flights
 City Scenic Flights are available by day and to the west of the aerodrome. Aircraft on these routes shall be cleared at `A045`.
 
 | Runway              | City Flight One      | City Flight Two       |
@@ -62,6 +63,44 @@ City Scenic Flights are available by day and to the west of the aerodrome. Aircr
 ![City Flight Two](img/CBCTY2.png){ width="500" }
   <figcaption>City Flight Two</figcaption>
 </figure>
+
+### Helicopter Operations
+The Canberra CTR contains the Southcare Helicopter Base (YXSB) as well as two hospitals (Calvary Hospital and Canberra Hospital). Helicopters operating to and from these pads require a clearance from **CB ADC**.
+
+#### Departing Aircraft
+Helicopters departing the pads require an airways clearance to do so, either taking the form of a clearance to transit the zone to the Class G airspace adjacent to the CTR (if the pilot has no intention to enter CTA) or as a normal airways clearance for a departure into the surrounding CTA. Ensure that no conflict exists with arriving or departing traffic and consider delegating separation responsibility to the VFR aircraft if required. It may also be required to coordination with the TMA controller to ensure no additional conflict exists in their sector.
+
+Departing aircraft should **not** be issued a takeoff clearance (as the helipads are outside the manoeuvring area). Instead, instruct aircraft to 'report airborne'.
+
+!!! example
+    *RSCU201 is a VFR AW139 helicopter intending to depart Southcare Base (YXSB) to the northwest at `A035` (below the base of the Class C steps).*  
+    **RSCU201**: "Canberra Tower, helicopter RSCU201, Southcase Base, for departure to the northwest, A035, received Juliet, ready"  
+    **CB ADC**: "RSCU201, Canberra Tower, transit approved not above A035, report OCTA"  
+    **RSCU201**: "Transit approved, not above A035, RSCU201"
+
+!!! example
+    *RSCU209 is an IFR AW139 helicopter intending to depart Canberra Hospital (YXCB) for Bankstown (YSBK) at `A090` (inside Class C CTA).*  
+    **RSCU209**: "Canberra Tower, helicopter RSCU209, on the pad at Canberra Hospital, for Bankstown, received Juliet, ready"  
+    **CB ADC**: "RSCU209, Canberra Tower, report sighting a Jetstar A320 on a 3nm final runway 35 and advise able to maintain own separation with that aircraft"  
+    **RSCU209**: "Traffic sighted and affirm, RSCU209"  
+    **CB ADC**: "RSCU209, pass behind the A320, maintain own separation, caution wake turbulence, cleared to Bankstown via AKMIR, flight planned route, climb A090, squawk 3762"  
+    **RSCU209**: "Cleared to Bankstown via AKMIR flight planned route, climb A090, squawk 3762, pass behind the A320 and maintain own separation, RSCU209"  
+
+    *Remember to pass traffic information to both aircraft.*  
+    **CB ADC**: "JST619, traffic is a helicopter becoming airborne from Canberra Hospital, approximately 5nm southwest of the field, maintaining own separation with you, runway 35, cleared to land"  
+
+#### Arriving Aircraft
+Helicopters arriving to the pads will generally be coordinated by the TMA controller and should be cleared via a visual approach (when available) and instructed to report on the ground. Do **not** issue a landing clearance to these aircraft (as the helipads are outside the manoeuvring area). It may be necessary to instruct these helicopters to track via amended visual points or sight and pass other aircraft.
+
+!!! example
+    **RSCU203**: "Canberra Tower, gday, RSCU203"  
+    **CB ADC**: "RSCU203, Canberra Tower, report sighting a Qantas 737 lining up on runway 17 and advise able to maintain own separation with that aircraft"  
+    **RSCU203**: "Traffic sighted and affirm, RSCU203"  
+    **CB ADC**: "RSCU203, that aircraft will be departing upwind, maintain own separation, cleared visual approach, report on the ground"  
+    **RSCU203**: "Maintain own separation, cleared visual approach, RSCU203"  
+
+    *Remember to pass traffic information to both aircraft.*  
+    **CB ADC**: "QFA714, traffic is a helicopter 1nm south of the field tracking for Calvary Hospital, opposite direction to you and maintaining own separation, runway 17, cleared for takeoff"
 
 ## Coordination
 ### Auto Release

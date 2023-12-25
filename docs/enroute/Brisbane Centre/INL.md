@@ -35,6 +35,8 @@ When **SU ADC** is offline, SU CTR (Class D `SFC` to `A045`) reverts to Class G,
 #### CFS CTR
 When **CFS ADC** is offline, CFS CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by MNN and INL. Alternatively, INL may provide a [top-down procedural service](../../../aerodromes/Coffs) if they wish (not recommended), and this must be coordinated to ARL(MNN).
 
+Due to the low ceiling of CTA, when CFS ADC is offline, INL shall instruct aircraft departing into CTA to report lined up on the runway and issue an airways clearance (traffic pending) at that time.
+
 #### RK CTR
 Whilst the **RKA** controller is expected to provide a [top-down service](../../../aerodromes/Rockhampton) to YBRK when **RK ADC** is offline, this is not expected of a GOL controller when both **RKA** and **RK ADC** are offline. If electing not to provide a top-down service to YBRK, the RK CTR Class D is reclassified to Class G `SFC` to `A007`, and Class E `A007` to `A045`.
 
@@ -146,7 +148,7 @@ All other aircraft must be voice coordinated to **RKA** prior to **20nm** from t
 The Standard Assignable level from **RKA** to KPL is `F150`, and tracking via BUDGI or TARES.
 ### CFS ADC
 #### Airspace
-When **CFS ADC** is online, **INL** and **MNN** owns the Class C airspace from `A045` upwards, and **CFS ADC** owns the Class D airspace `SFC` to `A045`.
+**INL** and **MNN** owns the Class C airspace above CFS from `A045` upwards. **CFS ADC** owns the Class D airspace `SFC` to `A045` when open.
 
 #### Departures
 Departures from YCFS in to INL Class C will be coordinated when ready for departure.
