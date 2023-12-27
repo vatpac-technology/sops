@@ -8,7 +8,7 @@
 
 | Name               | Callsign       | Frequency        | Login Identifier              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
-| Williamtown Approach    | Willy Approach   | 135.700         | WLM_APP                                   |
+| Williamtown Approach    | Willy Approach   | 133.300         | WLM_APP                                   |
 
 ## Airspace
 ### Default
