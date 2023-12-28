@@ -32,6 +32,7 @@ ISA is responsible for **ARA**, **STR**, **WEG**, and **CVN** when they are offl
 
 ## Sector Responsibilities
 ISA and its subsectors are purely Classes A, E and G of airspace. [Standard separation procedures](../../../separation-standards) apply.
+ARA is responsible for sequencing and issuing descent to aircraft bound for YBSG.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -49,6 +50,14 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
+
+### SG TCU
+
+The Standard assignable level from ARA to SG TCU is `F130`, tracking via WP VOR.
+
+All other aircraft must be voice coordinated to SG TCU prior to **20nm** from the boundary.
+
+The Standard Assignable level from SG TCU to ARA is `F240`, and tracking via their planned route.
 
 ### ISA Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.

@@ -23,7 +23,7 @@ WR TWR is permitted to use Surveillance standards for separation. Surveillance c
 For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
 
 ## Coordination
-### WR ADC / ASP(WRA)
+### WRA
 
 A 'next' call is made for all aircraft when they are next to depart. WR ADC must inform ASP(WRA) if the aircraft does not depart within **2 minutes** of the next call.
 
@@ -33,8 +33,8 @@ The Standard Assignable Level from  **WR ADC** to **ASP(WRA)** is the Lower of `
 ASP(WRA) will heads-up coordinate all arrivals/overfliers to WR ADC
 
 !!! example
-    <span class="hotline">**ASP(WRA)** -> **WR ADC**</span>: "Via WRA DCT, PSDN100”  
-    <span class="hotline">**WR ADC** -> **ASP(WRA)**</span>: "PSDN100"  
+    <span class="hotline">**WRA** -> **WR ADC**</span>: "Via WRA DCT, PSDN100”  
+    <span class="hotline">**WR ADC** -> **WRA**</span>: "PSDN100"  
 
 The Standard Assignable level from ASP(WRA) to WR ADC is `F120`, any other level must be prior coordinated.
 

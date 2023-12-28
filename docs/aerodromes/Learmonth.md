@@ -20,13 +20,18 @@ LM ADC owns the Class C airspace **within the LM CTR** from `SFC` to `A015`.
 
 | Runway | Direction |
 | ------ | ----------|
-| 29     | Right  |
-| 11     | Left |
+| 36     | Right  |
+| 18     | Left |
 
 ## Coordination
-### LM ADC / LM TCU
+### LM TCU
 
 'Next' coordination is required from LM ADC to LM TCU for all aircraft.
 
-The Standard Assignable Level from  **LM ADC** to **LM TCU** is the Lower of `F130` or the `RFL`.
+!!! example
+    <span class="hotline">**LM ADC** -> **LM TCU**</span>: "Next, QFA1601, runway 36"  
+    <span class="hotline">**LM TCU** -> **LM ADC**</span>: "QFA1601, Right heading 060 Visual, unrestricted"
+    <span class="hotline">**LM ADC** -> **LM TCU**</span>: "Right heading 060 Visual, QFA1601"  
+
+The Standard Assignable Level from  **LM ADC** to **LM TCU** is the Lower of `F270` or the `RFL`.
 
