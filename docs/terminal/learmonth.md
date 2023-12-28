@@ -27,21 +27,25 @@ The above Restricted Areas are classified as Class C when LM APP is active.
     See [VATPAC NOTAMs](https://vatpac.org/publications/notam){target=new} for active NOTAMs which may affect military operations.
 
 ## Coordination
-### LM TCU / LM ADC
+### LM ADC
 
 'Next' coordination is required from LM ADC to LM TCU for all aircraft.
 
-### LM TCU / OLW 
+!!! example
+    <span class="hotline">**LM ADC** -> **LM TCU**</span>: "Next, QFA1601, runway 36"  
+    <span class="hotline">**LM TCU** -> **LM ADC**</span>: "QFA1601, Right heading 060 Visual, unrestricted"  
+
+### OLW 
 #### Departures
 Voiceless coordination is in place from LM TCU to OLW for aircraft:  
-Planned at or above `F280`: `Assigned F280`  
+Planned at or above `F280`: `Assigned F270`  
 Planned below `F280`: `Assigned the RFL`  
 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
 !!! example
     <span class="hotline">**LM TCU** -> **OLW**</span>: "QFA1601, with your concurrence, will be assigned F160, for my separation with JTE654"  
-    <span class="hotline">**OLW** -> **LM TCU**</span>: "PFY1234, concur F160"  
+    <span class="hotline">**OLW** -> **LM TCU**</span>: "QFA1601, concur F160"  
 
 #### Arrivals
 The Standard assignable level from OLW to LM TCU is `F130`, and tracking via LM VOR. All other aircraft must be prior coordinated.

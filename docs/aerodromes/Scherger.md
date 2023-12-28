@@ -20,13 +20,18 @@ SG ADC owns the Class C airspace **within the SG CTR** from `SFC` to `A015`.
 
 | Runway | Direction |
 | ------ | ----------|
-| 29     | Right  |
-| 11     | Left |
+| 30     | Right  |
+| 12     | Left |
 
 ## Coordination
-### SG ADC / SG TCU
+### SG TCU
 
 'Next' coordination is required from SG ADC to SG TCU for all aircraft.
+
+!!! example
+    <span class="hotline">**SG ADC** -> **SG TCU**</span>: "Next, ASY219, runway 30"  
+    <span class="hotline">**SG TCU** -> **SG ADC**</span>: "ASY219, Left heading 270 Visual, unrestricted"
+    <span class="hotline">**SG ADC** -> **SG TCU**</span>: "Left heading 270 Visual, ASY219"  
 
 The Standard Assignable Level from  **SG ADC** to **SG TCU** is the Lower of `F240` or the `RFL`.
 
