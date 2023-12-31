@@ -85,7 +85,7 @@ Any aircraft that will enter BRM ADC airspace, and not landing at YBRM, must be 
 
 ### CIN TCU
 
-The Standard assignable level from TRT(KIY) to CIN TCU is `F130`, tracking via CIN VOR or DBY NDB.
+The Standard assignable level from TRT(KIY) to CIN TCU is `F130`, tracking via CIN VOR.
 
 All other aircraft must be voice coordinated to CIN TCU prior to **20nm** from the boundary.
 
