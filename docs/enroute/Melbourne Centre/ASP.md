@@ -87,7 +87,7 @@ Departures from YPWR in to WRA CTA will be coordinated when ready for departure.
     <span class="hotline">**WRA** -> **WR ADC**</span>: "ASY404, Unrestricted"  
     <span class="hotline">**WR ADC** -> **WRA**</span>: "Unrestricted, ASY404" 
 
-The Standard Assignable level from **WR ADC** to ASP is the lower of `F130` or the `RFL`, any other level must be prior coordinated.
+The Standard Assignable level from **WR ADC** to WRA is the lower of `F130` or the `RFL`, any other level must be prior coordinated.
 
 #### Arrivals/Overfliers
 YPWR arrivals shall be heads-up coordinated to **WR ADC** from WRA prior to **5 mins** from the boundary.
