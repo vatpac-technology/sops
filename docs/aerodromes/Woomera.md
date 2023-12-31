@@ -19,11 +19,11 @@ Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more info
 
 ## Surveillance
 
-WR TWR is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels within R222F.  
+WR ADC is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels within R222F.  
 For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
 
 ## Coordination
-### WRA
+### ASP(WRA)
 
 A 'next' call is made for all aircraft when they are next to depart. WR ADC must inform ASP(WRA) if the aircraft does not depart within **2 minutes** of the next call.
 

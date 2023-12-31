@@ -38,8 +38,8 @@ The above Restricted Areas are classified as Class C when LM APP is active.
 ### OLW 
 #### Departures
 Voiceless coordination is in place from LM TCU to OLW for aircraft:  
-Planned at or above `F280`: `Assigned F270`  
-Planned below `F280`: `Assigned the RFL`  
+Planned at or above `F270`: `Assigned F270`  
+Planned below `F270`: `Assigned the RFL`  
 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 

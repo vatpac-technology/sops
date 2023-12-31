@@ -33,11 +33,11 @@ The above Restricted Areas are classified as Class C when CIN APP is active.
     <span class="hotline">**SG ADC** -> **SG TCU**</span>: "Next, ASY404, runway 29"  
     <span class="hotline">**SG TCU** -> **SG ADC**</span>: "ASY404, Left heading 260, unrestricted"  
 
-### KIY
+### TRT(KIY)
 #### Departures
 Voiceless coordination is in place from CIN TCU to KIY for aircraft:  
-Planned at or above `F200`: `Assigned F200`  
-Planned below `F200`: `Assigned the RFL`  
+Planned at or above `F190`: `Assigned F190`  
+Planned below `F190`: `Assigned the RFL`  
 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 

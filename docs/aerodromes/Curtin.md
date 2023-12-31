@@ -30,9 +30,9 @@ CIN ADC owns the Class C airspace **within the CIN CTR** from `SFC` to `A015`.
 'Next' coordination is required from CIN ADC to CIN TCU for all aircraft.
 
 !!! example
-    <span class="hotline">**SG ADC** -> **SG TCU**</span>: "Next, ASY404, runway 29"  
-    <span class="hotline">**SG TCU** -> **SG ADC**</span>: "ASY404, Left heading 260, unrestricted"
-    <span class="hotline">**SG ADC** -> **SG TCU**</span>: "Left heading 260, ASY404"  
+    <span class="hotline">**CIN ADC** -> **CIN TCU**</span>: "Next, ASY404, runway 29"  
+    <span class="hotline">**CIN TCU** -> **CIN ADC**</span>: "ASY404, Left heading 260, unrestricted"
+    <span class="hotline">**CIN ADC** -> **CIN TCU**</span>: "Left heading 260, ASY404"  
 
 
 The Standard Assignable Level from  **CIN ADC** to **CIN TCU** is the Lower of `F190` or the `RFL`.
