@@ -38,6 +38,9 @@ Aircraft **not** planned via any of the above waypoints, shall be recleared via 
 
 Aircraft unable to accept a SID, or that cannot practically accept amended routing via the above points, shall be assigned the **RADAR SID**.
 
+## ATIS
+YMLT ATIS identifiers range from `A` to `M`, as YMHB uses `N` through `Y`.
+
 ## VFR Operations
 
 ### Circuit Direction
