@@ -13,7 +13,10 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
-The PH TCU is responsible for the airspace within 36 DME of the PH VOR, `SFC` to `F245`. 
+The PH TCU is responsible for the airspace within 36 DME of the PH VOR, `SFC` to `F245`.  
+
+!!! note
+    A significant portion of the TMA airspace south of the PH VOR (roughly 20 DME onwards) is classified Class E with a lower limit of `F125`. RPT aircraft frequently enter/exit the TMA via this airspace, see [Departure Procedures](#departure-procedures) for more info.
 
 When **PEA TCU** is online R155A & B is released to them from `A020` to `F160`. When R155A is active to `F160`, PH TCU airspace above R155A shall be released to **PEA TCU**.
 
@@ -24,6 +27,8 @@ JT CTR reverts to Class G when **JT ADC** is offline, and is administered by the
 See also: [JT ADC Offline](#jtpea-adc-offline).
 
 ## Runway Modes
+Generally, YPPH operates on either the Southwest or Northeast runway plan, as below. Where strong winds dictate the use of only a single runway, this shall be nominated in the ATIS.
+
 ### Southwest Plan
 With the Southwest Plan active, all departures shall be assigned runway 21 by **PH ACD**. Arrivals shall be processed to either runway 21 or 24 based on their feeder fix, as per the table below:
 
@@ -72,7 +77,6 @@ IFR RNAV equipped arrivals to Jandakot planned via a fix listed shall be cleared
 | **East**<br>BEVLY (Jet)<br>GRENE (Non-Jet)<br>HAMTN (Non-Jet) | <br>JT 2G / BEVLY<br>JT 2G / GRENE<br>JT 2W / HAMTN | <br>JT 2R / BEVLY<br>JT 2R / GRENE<br>N/A 
 
 ### YPEA Arrivals
-
 Reserved
 
 ## JT/PEA ADC Offline
@@ -80,15 +84,21 @@ Due to the low level of CTA at these aerodromes, it is best practice to give air
 
 !!! example
     **AAC**: "Perth Approach, AAC, PC12, POB 8, IFR, Taxiing YPJT for YPKG, Runway 06L"  
-    **PH TCU**: "AAC, Perth Approach, Squawk 3601, No Reported IFR Traffic, Report Ready at the Holding Point for Airways Clearance"  
+    **PHA**: "AAC, Perth Approach, Squawk 3601, No Reported IFR Traffic, Report Ready at the Holding Point for Airways Clearance"  
     **AAC**: "Squawk 3601, Wilco, AAC"   
 
     **AAC**: "AAC, Ready Runway 06L, Request clearance"  
-    **PH TCU**: "AAC, Cleared to YPKG via PH, Flight Planned Route. Make Visual Right turn DCT PH, Climb to A040"  
+    **PHA**: "AAC, Cleared to YPKG via PH, Flight Planned Route. Make Visual Right turn DCT PH, Climb to A040"  
     **AAC**: "Cleared to YPKG via PH, Flight Planned Route. Make Visual Right turn DCT PH, Climb to A040, AAC"
 
-## Airspace Division
+## Departure Procedures
+Aircraft departing the TMA to the south planned at `F130` or above will likely leave and re-enter CTA on climb. These aircraft should be instructed to leave and re-enter on climb to the standard assignable level (or other level as appropriate).
 
+!!! example
+    **PHD**: "RXA2125, leave and re-enter controlled airspace on climb to F180, no reported IFR traffic"  
+    **RXA2125**: "Leave and re-enter controlled airspace on climb to F180, RXA2125"
+
+## Airspace Division
 The divisions of the airspace between **PHA**, and **PHD** change based on the Runway Mode.
 
 !!! note
