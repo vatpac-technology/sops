@@ -35,6 +35,9 @@ Non-Jet Aircraft planned via **RIBLI**, **KANLI**, or **LAVOP**, shall be assign
 
 Other aircraft shall be assigned an appropriate **Procedural SID** or a visual departure.
 
+## ATIS
+YMHB ATIS identifiers range from `N` to `Y`, as YMLT uses `A` through `M`. 
+
 ## Cambridge (YCBG)
 Due to it's close proximity, HB ADC & SMC are responsible for clearances into and out of Cambridge (YCBG), which sits inside the Hobart Class D control zone.
 
