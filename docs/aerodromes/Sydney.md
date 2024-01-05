@@ -113,7 +113,7 @@ Except when the traffic situation warrants, taxi clearances shall conform to the
 !!! tip
     For aircraft taxiing northbound on B, consider instructing them to hold short of taxiway B8 when 34L or 16R are in use for arrivals, in order to separate from aircraft using the B7 & B9 rapid exits.
 
-Intersection departures are not permitted for Jet aircraft on runway 34L as per `ERSA FAC YSSY`.
+`ERSA FAC YSSY` noise abatement procedures require jet aircraft to depart runway 34L from full length only. This should be simulated where practical but intersection departures should be offered to jet aircraft on request where available.
 
 ### Runway 16L/34R
 When both ADC and SMC are online, SMC shall issue aircraft departing on runway 16L/34R with a taxi limit in accordance with the table below. When runway 34R is in use, ADC shall issue further taxi to the holding point, considering any conflict with arriving aircraft taxiing via `U1` and `L`.
