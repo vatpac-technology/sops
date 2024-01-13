@@ -8,16 +8,16 @@
 
 | Name               | Callsign       | Frequency        | Login Identifier              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
-| Amberley ADC    | Amberley Tower  | 118.300         | AM_TWR        |
-| Amberley SMC    | Amberley Ground  | 129.350      | AM_GND        |
-| Amberley ACD    | Amberley Delivery  | 134.600         | AM_DEL       |
+| Amberley ADC    | Amberley Tower  | 118.300         | AMB_TWR        |
+| Amberley SMC    | Amberley Ground  | 129.350      | AMB_GND        |
+| Amberley ACD    | Amberley Delivery  | 134.600         | AMB_DEL       |
 | Amberley ATIS    |   | 123.300         | YAMB_ATIS       |
 
 
 
 ## Airspace
 
-AM ADC owns the Class C airspace **in the AM CTR** within 10nm of the YAMB ARP from `SFC` to `A015`. This airspace is primarily used for military circuits and initial and pitch approaches.
+AMB ADC owns the Class C airspace **in the AMB CTR** within 10nm of the YAMB ARP from `SFC` to `A015`. This airspace is primarily used for military circuits and initial and pitch approaches.
 
 
 ## YAMB Aerodrome
@@ -33,11 +33,11 @@ Aircraft will depart the circuit visually and track overhead YAMB to begin track
 
 !!! example
     CRNG21 plans to enter R637 via the gate MOSSI for Military Training.
-    **AM ADC**: "CRNG21, cleared to YAMB via MOSSI, flight planned route. Runway 15, Northern 1 Departure. Climb to `F190`. Squawk 3601, Departure Frequency 126.20"  
+    **AMB ADC**: "CRNG21, cleared to YAMB via MOSSI, flight planned route. Runway 15, Northern 1 Departure. Climb to `F190`. Squawk 3601, Departure Frequency 126.20"  
 
 !!! example
     WOLF03 was assiged the BYRON7 departure with their initial clearance. 
-    **AM ADC**: "WOLF03, make left turn, reach `F190` by COWIE, cleared for takeoff"  
+    **AMB ADC**: "WOLF03, make left turn, reach `F190` by COWIE, cleared for takeoff"  
     **WOLF03**: "Make left turn, reach `F190` by COWIE, cleared for takeoff, WOLF03"  
 
 | Departure | Initial Constraint | Route |
@@ -50,7 +50,7 @@ Aircraft will depart the circuit visually and track overhead YAMB to begin track
     Charts for the Coded Departures may be in YAMB AD2 Supplements 6.2.25.11 available here: [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 !!! note
-    Since the Coded Departures are not SIDs, AM ACD needs to write the name of the coded departure in the Global Ops Field of the FDR and amend the flight plan route to include all relevant tracking points.
+    Since the Coded Departures are not SIDs, AMB ACD needs to write the name of the coded departure in the Global Ops Field of the FDR and amend the flight plan route to include all relevant tracking points.
 
 
 ### Runway Operations
@@ -73,16 +73,16 @@ The Circuit Area Airspace is allocated to be within 5nm of the YAMB ARP from `SF
 | 22     | Left |
 
 ## Coordination
-### AM TCU
+### AMB TCU
 
-'Next' coordination is required from AM ADC to AM TCU for all aircraft.
+'Next' coordination is required from AMB ADC to AMB TCU for all aircraft.
 
 !!! example
-    <span class="hotline">**AM ADC** -> **AM TCU**</span>: "Next, ASY01, runway 33"  
-    <span class="hotline">**AM TCU** -> **AM ADC**</span>: "ASY01, Assigned Heading Right 030, unrestricted"  
-    <span class="hotline">**AM ADC** -> **AM TCU**</span>: "Assigned Heading Heading Right 030, ASY01"  
+    <span class="hotline">**AMB ADC** -> **AMB TCU**</span>: "Next, ASY01, runway 33"  
+    <span class="hotline">**AMB TCU** -> **AMB ADC**</span>: "ASY01, Assigned Heading Right 030, unrestricted"  
+    <span class="hotline">**AMB ADC** -> **AMB TCU**</span>: "Assigned Heading Heading Right 030, ASY01"  
 
 ### Level Assignment
-The Standard Assignable Level from  **AM ADC** to **AM TCU** is:  
+The Standard Assignable Level from  **AMB ADC** to **AMB TCU** is:  
 a) The Lower of `F180` or `RFL` for Aircraft assigned via Procedural or RNAV SID.  
 b) `F190` for Aircraft assigned a Coded Departure.
