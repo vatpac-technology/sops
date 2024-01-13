@@ -121,7 +121,7 @@ This page lists some of the most commonly used callsigns in Australia.
 | FPLR  | FEDPOL RED    | Federal Police (Priority)    |
 | FSCN  | FIRESCAN             | Remote Sensing Fire Operations    |
 | FYRA  | FIREAIR              | Night-time NVIS firefighting operations    |
-| HM  | HM        | Helicopter Emergency Medical Service    |
+| HM  | HEMS        | Helicopter Emergency Medical Service    |
 | HLTK  | HELITAK             | General Fire Support Tasks (medium rotary)    |
 | GLDR  | GLIDER             | Gliding operations   |
 | LIFE  | LIFESAVER              | Lifesaver Operations    |
