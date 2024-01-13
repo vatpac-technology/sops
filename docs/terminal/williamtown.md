@@ -8,14 +8,16 @@
 
 | Name               | Callsign       | Frequency        | Login Identifier              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
-| **Williamtown Approach (High)**    | **Willy Approach**   | **133.300**         | **WLM_APP**                                   |
-| Williamtown Approach (Low)†    | Willy Approach   | 135.700         | WLM-L_APP                                   |
+| **Williamtown Approach (High)**    | **Williamtown Approach**   | **133.300**         | **WLM_APP**                                   |
+| Williamtown Approach (Low)†    | Williamtown Approach   | 135.700         | WLM-L_APP                                   |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies).  
 
 ## Airspace
 ### Default
 By default, WLM TCU owns the airspace within the WLM MIL CTR `SFC` to `F125`. This may be amended by NOTAM.
+
+When WLM TCU is active above `F125` by ad-hoc release or NOTAM, WLM-L_APP owns the airspace `SFC` to `F125`, while WLM APP owns the rest of WLM TCU airspace above `F125`. This may be adjusted as required with coordination.
 
 #### Diagram
 <figure markdown>

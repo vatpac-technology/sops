@@ -11,7 +11,6 @@
 | Scherger TCU   | Scherger Approach   | 124.200        | SG_APP                                   |
 
 ## Airspace
-
 The limits of the SG TCU are `SFC` to `F245` within 40 NM of the YBSG ARP. This may be amended by NOTAM.
 
 By default, SG APP owns the following Restricted Areas, as detailed below:
@@ -28,12 +27,11 @@ The above Restricted Areas are classified as Class C when SG APP is active.
 
 ## Coordination
 ### SG ADC
-
 'Next' coordination is required from SG ADC to SG TCU for all aircraft.
 
 !!! example
     <span class="hotline">**SG ADC** -> **SG TCU**</span>: "Next, ASY219, runway 30"  
-    <span class="hotline">**SG TCU** -> **SG ADC**</span>: "ASY219, Left heading 270 Visual, unrestricted"  
+    <span class="hotline">**SG TCU** -> **SG ADC**</span>: "ASY219, unrestricted"  
 
 ### ISA(ARA)
 #### Departures

@@ -23,18 +23,7 @@ TW ADC is responsible for the Class D airspace in the TW CTR, as well as the Cla
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
 ## Surveillance
-TW ADC is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be not available below `A034` in the TW CTR.  
-For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
-
-TW ADC must establish a [Procedural Standard](../../controller-skills/classdtwr/#standards) prior to losing surveillance identification of an aircraft.
-
-!!! caution
-    A procedural and/or visual standard **must** be put in place for all aircraft below `A034`.
-
-## Instrument Approaches
-Only one aircraft is permitted to conduct an instrument approach at any time, due to limited surveillance coverage. TW ADC must ensure that all aircraft are procedurally separated from any portion of an instrument approach and missed approach that is conducted below `A034`.  
-
-If required, TW ADC can pass amended tracking/level instructions to an aircraft for a missed approach for separation purposes, as long as the aircraft can be issued **uninterrupted climb** to the LSALT/MSA once identified.
+Surveillance coverage can be expected to be not available below `A034` in the TW CTR. Although TW ADC is **not permitted** to use surveillance for separation, ARL/MDE may assist by establishing surveillance separation standards via coordination
 
 ## Local Lateral Separation Points
 

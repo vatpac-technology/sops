@@ -11,7 +11,6 @@
 | Learmonth TCU   | Learmonth Approach   | 120.500        | LM_APP                                   |
 
 ## Airspace
-
 The limits of the LM TCU are `SFC` to `F280` within 40 DME LM. This may be amended by NOTAM.
 
 By default, LM APP owns the following Restricted Areas, as detailed below:
@@ -28,7 +27,6 @@ The above Restricted Areas are classified as Class C when LM APP is active.
 
 ## Coordination
 ### LM ADC
-
 'Next' coordination is required from LM ADC to LM TCU for all aircraft.
 
 !!! example

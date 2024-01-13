@@ -11,7 +11,6 @@
 | Curtin TCU   | Curtin Approach   | 121.000        | CIN_APP                                   |
 
 ## Airspace
-
 The limits of the CIN TCU are `SFC` to `F200` within 25 DME CIN. This may be amended by NOTAM.
 
 By default, CIN APP owns the following Restricted Areas, as detailed below:
@@ -25,13 +24,13 @@ The above Restricted Areas are classified as Class C when CIN APP is active.
     See [VATPAC NOTAMs](https://vatpac.org/publications/notam){target=new} for active NOTAMs which may affect military operations.
 
 ## Coordination
-### CIN ADC
-
+### CIN ADC 
 'Next' coordination is required from CIN ADC to CIN TCU for all aircraft.
 
 !!! example
-    <span class="hotline">**SG ADC** -> **SG TCU**</span>: "Next, ASY404, runway 29"  
-    <span class="hotline">**SG TCU** -> **SG ADC**</span>: "ASY404, Left heading 260, unrestricted"  
+    <span class="hotline">**CIN ADC** -> **CIN TCU**</span>: "Next, ASY404, runway 29"  
+    <span class="hotline">**CIN TCU** -> **CIN ADC**</span>: "ASY404, unrestricted"  
+    <span class="hotline">**CIN ADC** -> **CIN TCU**</span>: "ASY404"  
 
 ### TRT(KIY)
 #### Departures

@@ -14,10 +14,12 @@
 | Curtin ATIS    |   | 134.800         | YCIN_ATIS       |
 
 ## Airspace
+CIN ADC owns the Class C airspace **within the CIN CTR** from `SFC` to `A035`.
 
-CIN ADC owns the Class C airspace **within the CIN CTR** from `SFC` to `A015`.
+## Surveillance
+Surveillance coverage can be expected to be available at all levels in the CIN CTR. Although CIN ADC is **not permitted** to use surveillance for separation, CIN TCU or TRT(KIY) may assist by establishing surveillance separation standards via coordination
 
-### Circuit Direction
+## Circuit Direction
 
 | Runway | Direction |
 | ------ | ----------|
@@ -26,16 +28,17 @@ CIN ADC owns the Class C airspace **within the CIN CTR** from `SFC` to `A015`.
 
 ## Coordination
 ### CIN TCU
-
 'Next' coordination is required from CIN ADC to CIN TCU for all aircraft.
 
 !!! example
     <span class="hotline">**CIN ADC** -> **CIN TCU**</span>: "Next, ASY404, runway 29"  
-    <span class="hotline">**CIN TCU** -> **CIN ADC**</span>: "ASY404, Left heading 260, unrestricted"
-    <span class="hotline">**CIN ADC** -> **CIN TCU**</span>: "Left heading 260, ASY404"  
-
+    <span class="hotline">**CIN TCU** -> **CIN ADC**</span>: "ASY404, unrestricted"  
+    <span class="hotline">**CIN ADC** -> **CIN TCU**</span>: "ASY404"  
 
 The Standard Assignable Level from  **CIN ADC** to **CIN TCU** is the Lower of `F190` or the `RFL`.
+
+### TRT(KIY)
+When CIN TCU is offline, coordination is not required between CIN ADC and TRT(KIY). Aircraft entering TRT(KIY) airspace shall be handed off, and instructed to contact TRT(KIY) for onwards clearance.
 
 ## Charts
 !!! note

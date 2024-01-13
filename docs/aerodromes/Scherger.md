@@ -13,11 +13,12 @@
 | Scherger ATIS    |   | 134.800         | YBSG_ATIS       |
 
 ## Airspace
+SG ADC owns the Class C airspace **within the SG CTR** from `SFC` to `A040`.
 
-SG ADC owns the Class C airspace **within the SG CTR** from `SFC` to `A015`.
+## Surveillance
+Surveillance coverage can be expected to be available at all levels in the SG CTR. Although SG ADC is **not permitted** to use surveillance for separation, SG TCU or ISA(ARA) may assist by establishing surveillance separation standards via coordination
 
-### Circuit Direction
-
+## Circuit Direction
 | Runway | Direction |
 | ------ | ----------|
 | 30     | Right  |
@@ -25,17 +26,18 @@ SG ADC owns the Class C airspace **within the SG CTR** from `SFC` to `A015`.
 
 ## Coordination
 ### SG TCU
-
 'Next' coordination is required from SG ADC to SG TCU for all aircraft.
 
 !!! example
     <span class="hotline">**SG ADC** -> **SG TCU**</span>: "Next, ASY219, runway 30"  
-    <span class="hotline">**SG TCU** -> **SG ADC**</span>: "ASY219, Left heading 270 Visual, unrestricted"
-    <span class="hotline">**SG ADC** -> **SG TCU**</span>: "Left heading 270 Visual, ASY219"  
+    <span class="hotline">**SG TCU** -> **SG ADC**</span>: "ASY219, unrestricted"  
+    <span class="hotline">**SG ADC** -> **SG TCU**</span>: "ASY219"  
 
-The Standard Assignable Level from  **SG ADC** to **SG TCU** is the Lower of `F240` or the `RFL`.
+The Standard Assignable Level from  **SG ADC** to **SG TCU** is the lower of `F240` or the `RFL`.
+
+### ISA(ARA)
+When SG TCU is offline, coordination is not required between SG ADC and ISA(ARA). Aircraft entering ISA(ARA) airspace shall be handed off, and instructed to contact ISA(ARA) for onwards clearance.
 
 ## Charts
 !!! note
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
-

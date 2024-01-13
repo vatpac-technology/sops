@@ -76,12 +76,14 @@ Any aircraft that will enter KA ADC airspace, and not landing at YPKA, must be H
     <span class="hotline">**KA ADC** -> **OLW**</span>: "QQK, A030"
 
 ### LM TCU
-
 The Standard assignable level from OLW to LM TCU is `F130`, tracking via LM VOR.
 
 All other aircraft must be voice coordinated to LM TCU prior to **20nm** from the boundary.
 
 The Standard Assignable level from LM TCU to OLW is `F240`, and tracking via their planned route.
+
+#### LM ADC
+When LM TCU is offline, coordination is not required between OLW and LM ADC. Aircraft entering LM ADC airspace shall be handed off, and instructed to contact LM ADC for onwards clearance.
 
 ### IND,INE (Oceanic)
 As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
