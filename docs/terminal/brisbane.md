@@ -179,19 +179,19 @@ VFR aircraft require a level readback.
     <span class="hotline">**BN TCU** -> **AF ADC**</span>: "via TVT for the visual approach, UJE"  
     <span class="hotline">**AF ADC** -> **BN TCU**</span>: "UJE, visual approach"
 
-### AM TCU
-All aircraft transiting from **BN TCU** to **AM TCU** and vice versa must be heads-up coordinated prior to the boundary. 
+### AMB TCU
+All aircraft transiting from **BN TCU** to **AMB TCU** and vice versa must be heads-up coordinated prior to the boundary. 
 
 !!! example
-    <span class="hotline">**AM TCU** -> **BN TCU**</span>: "via BN, DRGN02"  
-    <span class="hotline">**BN TCU** -> **AM TCU**</span>: "DRGN02, `F140`"  
+    <span class="hotline">**AMB TCU** -> **BN TCU**</span>: "via BN, DRGN02"  
+    <span class="hotline">**BN TCU** -> **AMB TCU**</span>: "DRGN02, `F140`"  
 
-For aircraft arriving into AM TCU there is no standard assignable level and simply is what ever the controllers agree upon.
+For aircraft arriving into AMB TCU there is no standard assignable level and simply is what ever the controllers agree upon.
 
 !!! example
-    <span class="hotline">**BN TCU** -> **AM TCU**</span>: "via WACKO, STAL13, what level can I assign?"  
-    <span class="hotline">**AM TCU** -> **BN TCU**</span>: "STAL13, `A090`"  
-    <span class="hotline">**BN TCU** -> **AM TCU**</span>: "`A090`, STAL13"  
+    <span class="hotline">**BN TCU** -> **AMB TCU**</span>: "via WACKO, STAL13, what level can I assign?"  
+    <span class="hotline">**AMB TCU** -> **BN TCU**</span>: "STAL13, `A090`"  
+    <span class="hotline">**BN TCU** -> **AMB TCU**</span>: "`A090`, STAL13"  
 
 ### SU ADC
 BN TCU Class G shares a tiny border with **SU ADC**, however there are no SIDs, STARs, or airways through this gap. The only possible way for an aircraft to directly enter SU ADC airspace from BN TCU's jurisdiction, is from Class G, and as such, no coordination is required to **SU ADC**. However, ensure the aircraft is transferred to the ADC at least **10nm** prior to the boundary, to facilitate their airways clearance.

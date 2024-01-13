@@ -26,6 +26,8 @@
 
 **AS ADC** is responsible for the Class D airspace `SFC` to `A045`, as well as the Class C airspace `A045` to `A065`, within the AS CTR.
 
+### Reclassifications
+
 When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME AS reverts to Class G, and AS CTR (Class C `F125` to `F245`) within 80 DME AS reverts to Class E, and both are administered by ASP. Alternatively, ASP may provide a [top-down procedural service](../../../aerodromes/Alice) if they wish.
 
 ## Extending
@@ -75,6 +77,26 @@ Any aircraft that will enter AS ADC airspace, and not landing at YBAS, must be H
 !!! example
     <span class="hotline">**ASP** -> **AS ADC**</span>: "via AS, JDS"  
     <span class="hotline">**AS ADC** -> **ASP**</span>: "JDS, A060"
+
+### WR ADC
+
+Departures from YPWR in to WRA CTA will be coordinated when ready for departure.
+
+!!! example
+    <span class="hotline">**WR ADC** -> **WRA**</span>: "Next, ASY404"  
+    <span class="hotline">**WRA** -> **WR ADC**</span>: "ASY404, Unrestricted"  
+    <span class="hotline">**WR ADC** -> **WRA**</span>: "Unrestricted, ASY404" 
+
+The Standard Assignable level from **WR ADC** to WRA is the lower of `F130` or the `RFL`, any other level must be prior coordinated.
+
+#### Arrivals/Overfliers
+YPWR arrivals shall be heads-up coordinated to **WR ADC** from WRA prior to **5 mins** from the boundary.
+
+!!! example
+    <span class="hotline">**WRA** -> **WR ADC**</span>: "Via WR, ASY219”  
+    <span class="hotline">**WR ADC** -> **WRA**</span>: "ASY219"  
+
+The Standard Assignable level from ASP to **WR ADC** is `F120`, any other level must be prior coordinated.
 
 ### IND(INS) (Oceanic)
 As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.

@@ -8,7 +8,11 @@
 
 | Name               | ID      | Callsign       | Frequency        | Login Identifier              |
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
-| Tontouta Approach South|NWWWA| Tontouta Approach  | 128.300         | NWWW_APP          |
+| **Tontouta Approach South**|**NWWWA**| **Tontouta Approach**  | **128.300**         | **NWWW_APP**          |
+| Tontouta Approach (TMA 1.1)†|NWWWT| Tontouta Approach  | 119.700         | NWWW-T_APP          |
+
+
+† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies){target=new}
 
 ## Airspace
 
