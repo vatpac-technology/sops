@@ -12,8 +12,15 @@ Remember that in [Class D Airspace](../../controller-skills/classofairspace), IF
   <figcaption>Class D Tower Airspace Diagram</figcaption>
 </figure>
 
-## Procedural Separation
-At [Tamworth](../../aerodromes/tamworth), [Coffs Harbour](../../aerodromes/Coffs), [Hamilton Island](../../aerodromes/Hammo), and [Sunshine Coast](../../aerodromes/sunshinecoast) Towers, surveillance coverage cannot be guaranteed at all levels. Therefore, [Procedural Separation](../procedural) must be implemented prior to losing surveillance identification of an aircraft, if [Visual Separation](../visual) cannot be assured below the height at which surveillance coverage will be lost. For more information, refer to Local Instructions.
+## Surveillance
+Although Surveillance standards cannot be used for separation at Class D Towers, overlying TCU/Enroute controllers can use their surveillance standards to help Class D towers achieve separation, when procedural separation is a bit awkward or impractical.
+
+!!! example
+    <span class="hotline">**AY ADC** -> **BLA**</span>: "Can you advise when QLK208D is 5nm clear of DSB?"  
+    <span class="hotline">**BLA** -> **AY ADC**</span>: "Affirm, will do"  
+    ...  
+    <span class="hotline">**BLA** -> **AY ADC**</span>: "QLK208D, 5nm clear of DSB"  
+    <span class="hotline">**AY ADC** -> **BLA**</span>: "QLK208D, 5nm clear of DSB, thanks"
 
 ## Lateral
 

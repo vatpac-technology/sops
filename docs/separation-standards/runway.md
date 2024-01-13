@@ -79,13 +79,10 @@ title: Runway
 
 | Lead Aircraft | Following Aircraft | Time (min) | Distance (nm)|
 | ------------- | ------------------ | ---------- | ---------- |
-| Super (A380) | Super | - | - |
-|  | Heavy | 2 | 6 |
+| Super (A388/A225) | Heavy | 2 | 6 |
 |  | Medium | 3 | 7 |
 |  | Light | 3 | 8 |
 | Heavy | Heavy | - | 4 |
 |  | Medium | 2 | 5 |
 |  | Light | 2 | 6 |
-| Medium | Heavy | - | - |
-|  | Medium | - | - |
-|  | Light | 2 | 5 |
+| Medium | Light | 2 | 5 |

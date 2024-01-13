@@ -123,7 +123,6 @@ Departures from YSNW in to WOL Class C will be coordinated at taxi, and will be 
 !!! example
     <span class="coldline">**NW TCU** -> **WOL**</span>: "Taxi, PSDN18 for YMCO via URBOB, Requesting F130"  
     <span class="coldline">**WOL** -> **NW TCU**</span>: "PSDN18, F130"  
-    <span class="coldline">**NW TCU** -> **WOL**</span>: "F130, PSDN18"  
 
 #### Arrivals/Overfliers
 All aircraft transiting from WOL to **NW TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **NW TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the WOL and **NW TCU** controller agree on.

@@ -15,10 +15,11 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies){target=new}
 
 ## Airspace
-
 The vertical limits of the Tontouta TCU are `SFC` to `F245`.
 
 When NWWM ADC is offline, the NWWM CTR (`SFC` to `A015`) reverts to Class G and is administered by the relevant TCU controller.
+
+When NWWWT is online, the TCU is split down the NWWW 11/29 Extended Centreline, with NWWWA owning the northern portion, and NWWWT owning the southern portion.
 
 ## Coordination
 ### NWWW TCU / ENR

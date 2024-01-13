@@ -103,20 +103,19 @@ The Standard Assignable level from SY TCU to KAT is the lower of `F280` or the `
 
 Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
 
-### ESL TCU
+### ES TCU
 #### Airspace
-By default, **ESL TCU** owns the airspace within 30nm ESL, `SFC` to `F200`, unless stated otherwise by ad-hoc release or NOTAM.
+By default, **ES TCU** owns the airspace within 30nm ESL, `SFC` to `F200`, unless stated otherwise by ad-hoc release or NOTAM.
 #### Departures
-Departures from YMES in to WON Class C will be coordinated at taxi, and will be requesting a level.
+Departures from **ES TCU** in to WON CTA will be coordinated at taxi, and will be requesting a level.
 
 !!! example
-    <span class="coldline">**ESL TCU** -> **WON**</span>: "Taxi, ALDN16 for YFLI DCT, Requesting F230"  
-    <span class="coldline">**WON** -> **ESL TCU**</span>: "ALDN16, F230"  
-    <span class="coldline">**ESL TCU** -> **WON**</span>: "F230, ALDN16"  
+    <span class="coldline">**ES TCU** -> **WON**</span>: "Taxi, ALDN16 for YFLI DCT, Requesting F230"  
+    <span class="coldline">**WON** -> **ES TCU**</span>: "ALDN16, F230"  
 
 #### Arrivals/Overfliers
-All aircraft transiting from WON to **ESL TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **ESL TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the WON and **ESL TCU** controller agree on.
+All aircraft transiting from WON to **ES TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **ES TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the WON and **ES TCU** controller agree on.
 
 !!! example
-    <span class="hotline">**WON** -> **ESL TCU**</span>: "via ANTLA, BFRT23, will be assigned F220, I have no restrictions on descent"  
-    <span class="hotline">**ESL TCU** -> **WON**</span>: "BFRT23, F220"  
+    <span class="hotline">**WON** -> **ES TCU**</span>: "via ANTLA, BFRT23, will be assigned F220, I have no restrictions on descent"  
+    <span class="hotline">**ES TCU** -> **WON**</span>: "BFRT23, F220"  

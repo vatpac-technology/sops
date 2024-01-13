@@ -185,7 +185,7 @@ The Standard Assignable level from MNN to **CFS ADC** is `A080`, any other level
 Any aircraft that will enter CFS ADC airspace, and not landing at YCFS, must be Heads-up coordinated prior to **5 mins** from the boundary.
 
 !!! example
-    <span class="hotline">**MNN** -> **CFS ADC**</span>: "via CFS, GNP, Overflier"  
+    <span class="hotline">**MNN** -> **CFS ADC**</span>: "via CFS, GNP"  
     <span class="hotline">**CFS ADC** -> **MNN**</span>: "GNP, A030"
 
 ### WLM TCU

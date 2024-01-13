@@ -137,7 +137,7 @@ The Standard Assignable level from NSA to **SU ADC** is `A060`, any other level 
 Any aircraft that will enter SU ADC airspace, and not landing at YBSU, must be Heads-up coordinated prior to **5 mins** from the boundary.
 
 !!! example
-    <span class="hotline">**NSA** -> **SU ADC**</span>: "via HOLIS, CXB, Overflier"  
+    <span class="hotline">**NSA** -> **SU ADC**</span>: "via HOLIS, CXB"  
     <span class="hotline">**SU ADC** -> **NSA**</span>: "CXB, A025"
 
 ### RKA

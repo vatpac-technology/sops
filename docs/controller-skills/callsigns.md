@@ -23,7 +23,7 @@ This page lists some of the most commonly used callsigns in Australia.
 | BNZ | BONZA |
 | CFH  | CAREFLIGHT |
 | FD | FLYDOC |
-| HM | HEMS |
+| HM | HM |
 | HND | HINTERLAND |
 | JTE  | JETEX |
 | JST | JETSTAR |
@@ -64,6 +64,7 @@ This page lists some of the most commonly used callsigns in Australia.
 | AZG | SILK WEST | Azerbaijan |
 | BAV | BAMBOO | Vietnam |
 | BAW | SPEEDBIRD | United Kingdom |
+| BTK | BATIK | Indonesia |
 | CBJ | CAPITAL JET | China |
 | CCA | AIR CHINA | China |
 | CEB | CEBU | Philippines |
@@ -73,7 +74,7 @@ This page lists some of the most commonly used callsigns in Australia.
 | CSN | CHINA SOUTHERN | China |
 | CXA | XIAMEN AIR | China |
 | DAL | DELTA | United States |
-| DLH | Lufthansa | Germany |
+| DLH | LUFTHANSA | Germany |
 | ETD | ETIHAD | United Arab Emirates |
 | FJI | FIJI | Fiji |
 | GCR | BOHAI | China |
@@ -120,7 +121,7 @@ This page lists some of the most commonly used callsigns in Australia.
 | FPLR  | FEDPOL RED    | Federal Police (Priority)    |
 | FSCN  | FIRESCAN             | Remote Sensing Fire Operations    |
 | FYRA  | FIREAIR              | Night-time NVIS firefighting operations    |
-| HM  | HEMS        | Helicopter Emergency Medical Service    |
+| HM  | HM        | Helicopter Emergency Medical Service    |
 | HLTK  | HELITAK             | General Fire Support Tasks (medium rotary)    |
 | GLDR  | GLIDER             | Gliding operations   |
 | LIFE  | LIFESAVER              | Lifesaver Operations    |
