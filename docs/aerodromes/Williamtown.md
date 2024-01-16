@@ -8,9 +8,9 @@
 
 | Name               | Callsign       | Frequency        | Login Identifier              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
-| Williamtown ADC    | Williamtown Tower  | 118.300         | WLM_TWR        |
-| Williamtown SMC    | Williamtown Ground  | 121.800         | WLM_GND        |
-| Williamtown ACD    | Williamtown Delivery  | 130.350         | WLM_DEL       |
+| Williamtown ADC    | Willy Tower  | 118.300         | WLM_TWR        |
+| Williamtown SMC    | Willy Ground  | 121.800         | WLM_GND        |
+| Williamtown ACD    | Willy Delivery  | 130.350         | WLM_DEL       |
 | Williamtown ATIS    |   | 134.450         | YWLM_ATIS       |
 
 ## Airspace
