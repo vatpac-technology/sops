@@ -499,6 +499,10 @@ Aircraft departing YSBK in to SY TCU Class C will be coordinated from **BK ADC**
 
 The Standard Assignable level from BK ADC to SY TCU is `A030`.
 
+##### Untowered Departures
+
+See [BK ADC Offline](#bk-adc-offline) for guidance on managing departures when BK is untowered.
+
 #### Arrivals
 SY TCU will heads-up coordinate arrivals/overfliers from Class C to BK ADC prior to **5 mins** from the boundary.  
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to BK ADC, unless BK ADC nominates a restriction.  
@@ -510,6 +514,11 @@ VFR aircraft require a level readback.
 
 !!! tip
     Ensure the aircraft's FDR is up-to-date in order to give **BK ADC** maximum situational awareness of the traffic picture. (eg. if the aircraft is doing the RNP approach, ensure the FDR has been rerouted via the appropriate points)
+
+
+#### BK ADC Untowered Operations
+
+
 
 ### CN ADC
 
