@@ -8,8 +8,8 @@
 
 | Name               | Callsign       | Frequency        | Login Identifier              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
-| **Williamtown Approach (High)**    | **Williamtown Approach**   | **133.300**         | **WLM_APP**                                   |
-| Williamtown Approach (Low)†    | Williamtown Approach   | 135.700         | WLM-L_APP                                   |
+| **Williamtown Approach (High)**    | **Willy Approach**   | **133.300**         | **WLM_APP**                                   |
+| Williamtown Approach (Low)†    | Willy Approach   | 135.700         | WLM-L_APP                                   |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies).  
 
