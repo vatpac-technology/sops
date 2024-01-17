@@ -8,13 +8,18 @@
 
 | Name               | ID      | Callsign       | Frequency        | Login Identifier              |
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
-| Tontouta Approach South|NWWWA| Tontouta Approach  | 128.300         | NWWW_APP          |
+| **Tontouta Approach South**|**NWWWA**| **Tontouta Approach**  | **128.300**         | **NWWW_APP**          |
+| Tontouta Approach (TMA 1.1)†|NWWWT| Tontouta Approach  | 119.700         | NWWW-T_APP          |
+
+
+† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies){target=new}
 
 ## Airspace
-
 The vertical limits of the Tontouta TCU are `SFC` to `F245`.
 
 When NWWM ADC is offline, the NWWM CTR (`SFC` to `A015`) reverts to Class G and is administered by the relevant TCU controller.
+
+When NWWWT is online, the TCU is split down the NWWW 11/29 Extended Centreline, with NWWWA owning the northern portion, and NWWWT owning the southern portion.
 
 ## Coordination
 ### NWWW TCU / ENR

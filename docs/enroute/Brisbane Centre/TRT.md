@@ -23,6 +23,7 @@ TRT is responsible for **KIY** when they are offline.
 ## Sector Responsibilities
 TRT is responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YPDN.  
 KIY is responsible for issuing descent and ascertaining arrival intentions for aircraft bound for YBRM.
+KIY is also responsible for sequencing and issuing descent to aircraft bound for YCIN.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -81,6 +82,16 @@ Any aircraft that will enter BRM ADC airspace, and not landing at YBRM, must be 
 !!! example
     <span class="hotline">**KIY** -> **BRM ADC**</span>: "via CIN, NQC"  
     <span class="hotline">**BRM ADC** -> **SWY**</span>: "NQC, A045"
+
+### CIN TCU
+The Standard assignable level from TRT(KIY) to CIN TCU is `F130`, tracking via CIN VOR.
+
+All other aircraft must be voice coordinated to CIN TCU prior to **20nm** from the boundary.
+
+The Standard Assignable level from CIN TCU to TRT(KIY) is `F190`, and tracking via their planned route.
+
+#### CIN ADC
+When CIN TCU is offline, coordination is not required between TRT(KIY) and CIN ADC. Aircraft entering CIN ADC airspace shall be handed off, and instructed to contact CIN ADC for onwards clearance.
 
 ### IND(INE) (Oceanic)
 As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.

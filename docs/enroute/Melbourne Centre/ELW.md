@@ -106,23 +106,22 @@ That being said, it is *advised* that ELW/BLA/SNO give **Heads-up Coordination**
 - BLA to ELW for aircraft **not** on the Q29 or V169 airway (Changes permitted up to boundary for sequencing/descent purposes)  
 - SNO to BLA for all aircraft
 
-### ESL TCU
+### ES TCU
 #### Airspace
-By default, **ESL TCU** owns the airspace within 30nm ESL, `SFC` to `F200`, unless stated otherwise by ad-hoc release or NOTAM.
+By default, **ES TCU** owns the airspace within 30nm ESL, `SFC` to `F200`, unless stated otherwise by ad-hoc release or NOTAM.
 #### Departures
-Departures from YMES in to ELW(All) Class C will be coordinated at taxi, and will be requesting a level.
+Departures from **ES TCU** in to ELW(All) CTA will be coordinated at taxi, and will be requesting a level.
 
 !!! example
-    <span class="coldline">**ESL TCU** -> **SNO**</span>: "Taxi, ALDN14 for YSWG via VALDU, Requesting F210"  
-    <span class="coldline">**SNO** -> **ESL TCU**</span>: "ALDN14, F210"  
-    <span class="coldline">**ESL TCU** -> **SNO**</span>: "F210, ALDN14"  
+    <span class="coldline">**ES TCU** -> **SNO**</span>: "Taxi, ALDN14 for YSWG via VALDU, Requesting F210"  
+    <span class="coldline">**SNO** -> **ES TCU**</span>: "ALDN14, F210"  
 
 #### Arrivals/Overfliers
-All aircraft transiting from ELW(All) to **ESL TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **ESL TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the ELW(All) and **ESL TCU** controller agree on.
+All aircraft transiting from ELW(All) to **ES TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **ES TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the ELW(All) and **ES TCU** controller agree on.
 
 !!! example
-    <span class="coldline">**ELW** -> **ESL TCU**</span>: "via MNG, BFRT21, will be assigned F220, BLA and myself have no restrictions on descent"  
-    <span class="coldline">**ESL TCU** -> **ELW**</span>: "BFRT21, F220"  
+    <span class="coldline">**ELW** -> **ES TCU**</span>: "via MNG, BFRT21, will be assigned F220, BLA and myself have no restrictions on descent"  
+    <span class="coldline">**ES TCU** -> **ELW**</span>: "BFRT21, F220"  
 
 ### AY ADC
 #### Airspace
@@ -142,7 +141,7 @@ YMAY arrivals shall be heads-up coordinated to **AY ADC** from BLA prior to **5 
 
 !!! example
     <span class="hotline">**BLA** -> **AY ADC**</span>: "via VEGRU1 arrival, QLK38"  
-    <span class="hotline">**AY ADC** -> **BLA**</span>: "QLK38" 
+    <span class="hotline">**AY ADC** -> **BLA**</span>: "QLK38, VEGRU1 arrival" 
 
 The Standard Assignable level from BLA to **AY ADC** is `A080`.
 

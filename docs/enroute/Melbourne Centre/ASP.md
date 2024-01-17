@@ -26,6 +26,8 @@
 
 **AS ADC** is responsible for the Class D airspace `SFC` to `A045`, as well as the Class C airspace `A045` to `A065`, within the AS CTR.
 
+### Reclassifications
+
 When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME AS reverts to Class G, and AS CTR (Class C `F125` to `F245`) within 80 DME AS reverts to Class E, and both are administered by ASP. Alternatively, ASP may provide a [top-down procedural service](../../../aerodromes/Alice) if they wish.
 
 ## Extending
@@ -75,6 +77,9 @@ Any aircraft that will enter AS ADC airspace, and not landing at YBAS, must be H
 !!! example
     <span class="hotline">**ASP** -> **AS ADC**</span>: "via AS, JDS"  
     <span class="hotline">**AS ADC** -> **ASP**</span>: "JDS, A060"
+
+### WR ADC
+Coordination is not required between ASP(WRA) and WR ADC. Aircraft entering WR ADC airspace shall be handed off, and instructed to contact WR ADC for onwards clearance.
 
 ### IND(INS) (Oceanic)
 As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
