@@ -23,18 +23,7 @@ HM ADC is responsible for the Class D airspace in the HM CTR, `SFC` to `A045`.
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
 ## Surveillance
-HM ADC is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be not available below `A031` in the HM CTR.  
-For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
-
-HM ADC must establish a [Procedural Standard](../../controller-skills/classdtwr/#standards) prior to losing surveillance identification of an aircraft.
-
-!!! caution
-    A procedural and/or visual standard **must** be put in place for all aircraft below `A031`.
-
-## Instrument Approaches
-Only one aircraft is permitted to conduct an instrument approach at any time, due to limited surveillance coverage. HM ADC must ensure that all aircraft are procedurally separated from any portion of an instrument approach and missed approach that is conducted below `A031`.  
-
-If required, HM ADC can pass amended tracking/level instructions to an aircraft for a missed approach for separation purposes, as long as the aircraft can be issued **uninterrupted climb** to the LSALT/MSA once identified.
+Surveillance coverage can be expected to be not available below `A031` in the HM CTR. Although HM ADC is **not permitted** to use surveillance for separation, KEN(SWY) may assist by establishing surveillance separation standards via coordination
 
 ## Coordination
 ### Departures

@@ -4,23 +4,20 @@
 
 --8<-- "includes/abbreviations.md"
 
-
---8<-- "includes/abbreviations.md"
-
 ## Positions
 
 | Name               | Callsign       | Frequency        | Login Identifier              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
-| Amberley TCU   | Amberley Approach   | 126.200        | AM_APP                                   |
+| Amberley TCU   | Amberley Approach   | 126.200        | AMB_APP                                   |
 | Oakey TCU   | Oakey Approach | 125.400        | OK_APP                                   |
 
-AM APP is expected to extend to OK APP when they are offline. No frequency cross coupling is required. 
+AMB APP is expected to extend to OK APP when they are offline. No frequency cross coupling is required. 
 
 
 ## Airspace
-### AM TCU
+### AMB TCU
 #### Restricted Areas
-By default, AM APP owns all of the R625 Restricted Areas, as detailed below:
+By default, AMB APP owns all of the R625 Restricted Areas, as detailed below:
 
 - R625A (`A015`-`A085`)  
 - R625B (`A025`-`A085`)  
@@ -28,7 +25,7 @@ By default, AM APP owns all of the R625 Restricted Areas, as detailed below:
 - R625D (`A085`-`F210`)  
 
 ### Optional, as required
-AM APP can negotiate further airspace releases from surrounding ENR sectors to facilitate planned military operations of the following Restricted Areas:
+AMB APP can negotiate further airspace releases from surrounding ENR sectors to facilitate planned military operations of the following Restricted Areas:
 
 - R650A (`A050`-`A100`)  
 - R650B (`A050`-`F600`)  
@@ -43,12 +40,12 @@ AM APP can negotiate further airspace releases from surrounding ENR sectors to f
 #### Diagram
 
 <figure markdown>
-![AM TCU Airspace Diagram](img/amtcu.png){ width="952" }
-  <figcaption>AM TCU Airspace Diagram</figcaption>
+![AMB TCU Airspace Diagram](img/amtcu.png){ width="952" }
+  <figcaption>AMB TCU Airspace Diagram</figcaption>
 </figure>
 
-### AM ADC
-AM ADC owns the Class C airspace in the AM CTR within 10nm of the YAMB ARP from `SFC` to `A015`. 
+### AMB ADC
+AMB ADC owns the Class C airspace in the AM CTR within 10nm of the YAMB ARP from `SFC` to `A015`. 
 
 ### OK TCU
 #### Restricted Areas
@@ -79,7 +76,7 @@ Aircraft will make a visual departure in the circuit direction and fly overhead 
 
 !!! example
     WOLF03 was assiged the BYRON7 departure with their intial clearance.  
-    **AM ADC**: "WOLF03, make left turn, reach `F190` by COWIE, cleared for takeoff"  
+    **AMB ADC**: "WOLF03, make left turn, reach `F190` by COWIE, cleared for takeoff"  
     **WOLF03**: "Make left turn, reach `F190` by COWIE, cleared for takeoff, WOLF03"  
 
 | Departure | Initial Constraint | Route |
@@ -92,7 +89,7 @@ Aircraft will make a visual departure in the circuit direction and fly overhead 
     Charts for the Coded Departures may be in YAMB AD2 Supplements 6.2.25.11 available here: [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 !!! note
-    AM ACD will record the name of the coded departure in the Global Ops Field of the FDR and amend the flight plan route with all necessary tracking points.
+    AMB ACD will record the name of the coded departure in the Global Ops Field of the FDR and amend the flight plan route with all necessary tracking points.
 
 ## Charts
 !!! note
@@ -101,35 +98,35 @@ Aircraft will make a visual departure in the circuit direction and fly overhead 
 ## Coordination
 ### AM/OK ADC
 
-'Next' coordination is required from AM ADC to AM TCU for all aircraft.
+'Next' coordination is required from AMB ADC to AMB TCU for all aircraft.
 
 !!! example
-    <span class="hotline">**AM ADC** -> **AM TCU**</span>: "Next, ASY01, runway 33"  
-    <span class="hotline">**AM TCU** -> **AM ADC**</span>: "ASY01, Assigned Heading Right 030, unrestricted"  
-    <span class="hotline">**AM ADC** -> **AM TCU**</span>: "Assigned Heading Heading Right 030, ASY01"  
+    <span class="hotline">**AMB ADC** -> **AMB TCU**</span>: "Next, ASY01, runway 33"  
+    <span class="hotline">**AMB TCU** -> **AMB ADC**</span>: "ASY01, Assigned Heading Right 030, unrestricted"  
+    <span class="hotline">**AMB ADC** -> **AMB TCU**</span>: "Assigned Heading Heading Right 030, ASY01"  
 
 ### INL / BN TCU
 #### Departures
-All aircraft from AM/OK TCU to INL(All) and BN TCU require Heads-up coordination prior to the boundary, however, as soon as practical (when is the aircraft becomes airborne) is prefered.
+All aircraft from AMB/OK TCU to INL(All) and BN TCU require Heads-up coordination prior to the boundary, however, as soon as practical (when is the aircraft becomes airborne) is prefered.
 
-The Standard Assignable Level from  **AM ADC** to **AM TCU** is:  
+The Standard Assignable Level from  **AMB ADC** to **AMB TCU** is:  
 a) The Lower of `F180` or `RFL` for Aircraft assigned via Procedural or RNAV SID.  
 b) `F190` for Aircraft assigned a Coded Departure.
 
 The Standard Assignable from **OK ADC** to **OK TCU** is the lower of `F120` or `RFL`.
 
 !!! example
-    <span class="hotline">**AM TCU** -> **BN TCU**</span>: "via BN, DRGN02"  
-    <span class="hotline">**BN TCU** -> **AM TCU**</span>: "DRGN02, `F180`"  
+    <span class="hotline">**AMB TCU** -> **BN TCU**</span>: "via BN, DRGN02"  
+    <span class="hotline">**BN TCU** -> **AMB TCU**</span>: "DRGN02, `F180`"  
 
 !!! example
     BUCK03 is assigned the BYRON 7 coded departure. 
-    <span class="hotline">**AM TCU** -> **NSA**</span>: "via COWIE, BUCK3."  
-    <span class="hotline">**NSA** -> **AM TCU**</span>: "BUCK03, `F190`"  
+    <span class="hotline">**AMB TCU** -> **NSA**</span>: "via COWIE, BUCK3."  
+    <span class="hotline">**NSA** -> **AMB TCU**</span>: "BUCK03, `F190`"  
 
 #### Arrivals/Overlfies
-All aircraft transiting from GOL/DOS/BUR to **AM TCU** and **OK TCU** must be heads-up coordinated prior to **20nm** from the boundary and aircraft from **BN TCU** to **AM TCU** only prior to the boundary. Operations within **AM TCU** are fairly ad-hoc, so there are no standard assignable levels. GOL/DOS/BUR and **AM TCU**/**OK TCU** controller must agree on a suitable level during coordination.
+All aircraft transiting from GOL/DOS/BUR to **AMB TCU** and **OK TCU** must be heads-up coordinated prior to **20nm** from the boundary and aircraft from **BN TCU** to **AMB TCU** only prior to the boundary. Operations within **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels. GOL/DOS/BUR and **AMB TCU**/**OK TCU** controller must agree on a suitable level during coordination.
 
 !!! example
-    <span class="hotline">**GOL** -> **AM TCU**</span>: "via HUUGO, PUMA11, will be assigned A090"  
-    <span class="hotline">**AM TCU** -> **GOL**</span>: "PUMA11, A090"  
+    <span class="hotline">**GOL** -> **AMB TCU**</span>: "via HUUGO, PUMA11, will be assigned A090"  
+    <span class="hotline">**AMB TCU** -> **GOL**</span>: "PUMA11, A090"  

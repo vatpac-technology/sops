@@ -20,9 +20,6 @@ MK ADC is responsible for the Class D airspace in the MK CTR `SFC` to `A010`.
 
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
-## Surveillance
-MK ADC is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels in the MK CTR.  
-For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
 ## Coordination
 ### Departures
 A 'next' call is made for all aircraft when they are next to depart. MK ADC must inform KEN(SWY) if the aircraft does not depart within **2 minutes** of the next call.

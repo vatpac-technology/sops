@@ -34,17 +34,17 @@ ML ADC is not responsible for any airspace by default.
 Due to the close proximity of the airspace to the arrival and departure paths at YMML, controllers should be aware of surrounding traffic before issuing a clearance to helicopters.
 
 !!! example
-    **HEMS3:** "Melbourne Tower, HEMS3, approaching SWT, A020, for YMEN via the Sunbury Corridor, request clearance"  
-    **ML ADC:** "HEMS3, cleared to YMEN, track Sunbury Corridor, not above A020"  
-    **HEMS3:** "Cleared to YMEN, track Sunbury Corridor, not above A020, HEMS3"
+    **HM3:** "Melbourne Tower, HM3, approaching SWT, A020, for YMEN via the Sunbury Corridor, request clearance"  
+    **ML ADC:** "HM3, cleared to YMEN, track Sunbury Corridor, not above A020"  
+    **HM3:** "Cleared to YMEN, track Sunbury Corridor, not above A020, HM3"
 
 If necessary, consider issuing a clearance limit for separation or instruct helicopters to report sighting and to maintain own separation with other aircraft.  Alternatively, tower controllers can simulate visual separation provided no risk of collision exists and both aircraft remain in sight of the controller at all times. 
 
 !!! example
-    **ML ADC:** "HEMS3, report sighting a Jetstar A320, 4nm final runway 16"  
-    **HEMS3:** "Traffic sighted, HEMS3"  
-    **ML ADC:** "HEMS3, pass behind that aircraft, maintain own separation, caution wake turbulence"  
-    **HEMS3:** "Pass behind the A320, maintain own separation, HEMS3"
+    **ML ADC:** "HM3, report sighting a Jetstar A320, 4nm final runway 16"  
+    **HM3:** "Traffic sighted, HM3"  
+    **ML ADC:** "HM3, pass behind that aircraft, maintain own separation, caution wake turbulence"  
+    **HM3:** "Pass behind the A320, maintain own separation, HM3"
 
 Remember to pass traffic information to both aircraft.
 
