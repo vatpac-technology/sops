@@ -20,8 +20,14 @@
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
 ## Surveillance
-AY ADC is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels in the AY CTR.  
-For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm of the aerodrome. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
+Surveillance coverage can be expected to be available at all levels in the AY CTR. Although AY ADC is **not permitted** to use surveillance for separation, ELW(BLA) may assist by establishing surveillance separation standards via coordination
+
+!!! example
+    <span class="hotline">**AY ADC** -> **BLA**</span>: "Can you advise when QLK206D is 5nm clear of DSB?"  
+    <span class="hotline">**BLA** -> **AY ADC**</span>: "Wilco"  
+    
+    <span class="hotline">**BLA** -> **AY ADC**</span>: "QLK206D 5nm clear of DSB"  
+    <span class="hotline">**AY ADC** -> **BLA**</span>: "QLK206D 5nm clear of DSB, thanks"
 
 ## Coordination
 ### Departures

@@ -123,7 +123,7 @@ ACFT planning to enter the CS CTR between: *Mt Gorton*, CGF and Upolo Cay at `A0
 
 ## ATIS
 ### Approach Types
-**Approach Expectation shall be `Expect Instrument Approach` when:**
+**Approach Expectation shall be `EXP INST APCH` when:**
 
 | Time           | Runway 15     | Runway 33                             |
 | ------| -------------- | -------------------------------------|
