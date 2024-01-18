@@ -20,8 +20,8 @@
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
 ## Surveillance
-BRM ADC is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels in the BRM CTR.  
-For simulation purposes, visual separation is assumed to exist below the cloud base, and within 5nm. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
+Surveillance coverage can be expected to be available at all levels in the BRM CTR. Although BRM ADC is **not permitted** to use surveillance for separation, TRT(KIY) may assist by establishing surveillance separation standards via coordination
+
 ## Coordination
 ### Departures
 A 'next' call is made for all aircraft when they are next to depart. BRM ADC must inform TRT(KIY) if the aircraft does not depart within **2 minutes** of the next call.

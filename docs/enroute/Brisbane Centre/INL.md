@@ -137,7 +137,7 @@ The Standard Assignable level from NSA to **SU ADC** is `A060`, any other level 
 Any aircraft that will enter SU ADC airspace, and not landing at YBSU, must be Heads-up coordinated prior to **5 mins** from the boundary.
 
 !!! example
-    <span class="hotline">**NSA** -> **SU ADC**</span>: "via HOLIS, CXB, Overflier"  
+    <span class="hotline">**NSA** -> **SU ADC**</span>: "via HOLIS, CXB"  
     <span class="hotline">**SU ADC** -> **NSA**</span>: "CXB, A025"
 
 ### RKA
@@ -176,24 +176,24 @@ Any aircraft that will enter CFS ADC airspace, and not landing at YCFS, must be 
     <span class="hotline">**INL** -> **CFS ADC**</span>: "via CFS, XFC, Overflier"  
     <span class="hotline">**CFS ADC** -> **INL**</span>: "XFC, A040"
 
-### OK TCU / AM TCU
+### OK TCU / AMB TCU
 #### Airspace
-By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas, and **AM TCU** owns the airspace within the **R625A-D** restricted areas, unless stated otherwise by ad-hoc release or NOTAM.
+By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas, and **AMB TCU** owns the airspace within the **R625A-D** restricted areas, unless stated otherwise by ad-hoc release or NOTAM.
 
 #### Departures
-All aircraft from AM/OK TCU to INL(All) require Heads-up coordination prior to the boundary. Expect this coordination to be completed a short time after the aircraft becomes airborne (pending controller workload).
+All aircraft from AMB/OK TCU to INL(All) require Heads-up coordination prior to the boundary. Expect this coordination to be completed a short time after the aircraft becomes airborne (pending controller workload).
 
 !!! example 
-    <span class="hotline">**AM TCU** -> **NSA**</span>: "via COWIE, BUCK03."  
-    <span class="hotline">**NSA** -> **AM TCU**</span>: "BUCK03, `F190`"  
+    <span class="hotline">**AMB TCU** -> **NSA**</span>: "via COWIE, BUCK03."  
+    <span class="hotline">**NSA** -> **AMB TCU**</span>: "BUCK03, `F190`"  
 
 #### Arrivals/Overfliers
-All aircraft transiting from INL(All) to **OK TCU** and **AM TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **OK TCU** and **AM TCU** are fairly ad-hoc, so there are no standard assignable levels. ENR and TCU controllers should coordinate to determine the most suitable level.
+All aircraft transiting from INL(All) to **OK TCU** and **AMB TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **OK TCU** and **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels. ENR and TCU controllers should coordinate to determine the most suitable level.
 
 !!! example
-    <span class="hotline">**GOL** -> **AM TCU**</span>: "via HUUGO, STAL13, what level can I assign?"  
-    <span class="hotline">**AM TCU** -> **GOL**</span>: "STAL13, `A090`"  
-    <span class="hotline">**GOL** -> **AM TCU**</span>: "`A090`, STAL13"   
+    <span class="hotline">**GOL** -> **AMB TCU**</span>: "via HUUGO, STAL13, what level can I assign?"  
+    <span class="hotline">**AMB TCU** -> **GOL**</span>: "STAL13, `A090`"  
+    <span class="hotline">**GOL** -> **AMB TCU**</span>: "`A090`, STAL13"   
 
 ### TSN(FLD/HWE) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.

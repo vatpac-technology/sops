@@ -99,7 +99,7 @@ The Standard Assignable level from SY TCU to WOL is the lower of `F280` or the `
 Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
 
 ### CB TCU
-The Standard assignable level from WOL to CB TCU is `F130`, and assigned the RAZZI STAR, BUNGO STAR, or AVBEG STAR STAR.  
+The Standard assignable level from WOL to CB TCU is `F130`, and assigned the RAZZI STAR, BUNGO STAR, or AVBEG STAR.  
 
 All other aircraft must be voice coordinated to CB TCU prior to **20nm** from the boundary.
 
@@ -123,7 +123,6 @@ Departures from YSNW in to WOL Class C will be coordinated at taxi, and will be 
 !!! example
     <span class="coldline">**NW TCU** -> **WOL**</span>: "Taxi, PSDN18 for YMCO via URBOB, Requesting F130"  
     <span class="coldline">**WOL** -> **NW TCU**</span>: "PSDN18, F130"  
-    <span class="coldline">**NW TCU** -> **WOL**</span>: "F130, PSDN18"  
 
 #### Arrivals/Overfliers
 All aircraft transiting from WOL to **NW TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **NW TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the WOL and **NW TCU** controller agree on.

@@ -21,20 +21,11 @@
 Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
 
 ## Surveillance
-SU ADC is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be not available below `A012` in the SU CTR.  
-For simulation purposes, visual separation is assumed to exist below the cloud base, and within the `SFC` to `A045` Class D step (7nm from RWY thresholds). Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
+Surveillance coverage can be expected to be not available below `A012` in the SU CTR. Although SU ADC is **not permitted** to use surveillance for separation, INL(NSA) may assist by establishing surveillance separation standards via coordination
 
-SU ADC must establish a [Procedural Standard](../../controller-skills/classdtwr/#standards) prior to losing surveillance identification of an aircraft.
-
-!!! caution
-    A procedural and/or visual standard **must** be put in place for all aircraft below `A012`.
-
-## Instrument Approaches
-Only one aircraft is permitted to conduct an instrument approach at any time, due to limited surveillance coverage. SU ADC must ensure that all aircraft are procedurally separated from any portion of an instrument approach and missed approach that is conducted below `A012`.  
-
-If required, SU ADC can pass amended tracking/level instructions to an aircraft for a missed approach for separation purposes, as long as the aircraft can be issued **uninterrupted climb** to the LSALT/MSA once identified.
 ## Runway Configuration
 Pilots with old simulators/scenery may not have the newer Runway 13/31 config (replacing the old 18/36 config). If a pilot reports this to be the case, try to facilitate their flight as best as possible, whilst giving them lower priority to other traffic. Coordinate as you deem necessary with adjacent units.
+
 ## SID Selection
 Jet Aircraft planned via **MOOLO** or **TAPET**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint, unless the pilot indicates they are unable to accept a Procedural SID.
 

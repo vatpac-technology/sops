@@ -127,7 +127,7 @@ The Standard Assignable level from KEN(SWY) to HM ADC is `A060`, any other level
 Any aircraft that will enter HM ADC airspace, and not landing at YBHM, must be Heads-up coordinated prior to **5 mins** from the boundary.
 
 !!! example
-    <span class="hotline">**SWY** -> **HM ADC**</span>: "via OVRON, KNV, Overfleir"  
+    <span class="hotline">**SWY** -> **HM ADC**</span>: "via OVRON, KNV"  
     <span class="hotline">**HM ADC** -> **SWY**</span>: "KNV, A030"
 
 ### TSN(FLD) (Oceanic)
