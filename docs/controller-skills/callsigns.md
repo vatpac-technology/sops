@@ -42,7 +42,7 @@ This page lists some of the most commonly used callsigns in Australia.
 | SND  | SNOWBIRD |
 | TGG | TIGGOZ |
 | TFR  | TOLL FREIGHT |
-| TFX  | TOLL EXPRESS |
+| TFX  | TEAM AIR |
 | UTY | UNITY |
 | VOZ  | VELOCITY |
 | WP  | WESTPAC |
