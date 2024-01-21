@@ -67,7 +67,7 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
 
 ### International (WAAF & AYPM)
-Coordination to International units must be done prior to **15 mins** from the boundary in the following format:
+Coordination to International units must be done prior to **30 mins** from the boundary in the following format:
 
 - *"Estimate"*
 - Callsign

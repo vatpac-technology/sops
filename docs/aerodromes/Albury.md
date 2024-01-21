@@ -22,13 +22,6 @@ Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more info
 ## Surveillance
 Surveillance coverage can be expected to be available at all levels in the AY CTR. Although AY ADC is **not permitted** to use surveillance for separation, ELW(BLA) may assist by establishing surveillance separation standards via coordination
 
-!!! example
-    <span class="hotline">**AY ADC** -> **BLA**</span>: "Can you advise when QLK206D is 5nm clear of DSB?"  
-    <span class="hotline">**BLA** -> **AY ADC**</span>: "Wilco"  
-    
-    <span class="hotline">**BLA** -> **AY ADC**</span>: "QLK206D 5nm clear of DSB"  
-    <span class="hotline">**AY ADC** -> **BLA**</span>: "QLK206D 5nm clear of DSB, thanks"
-
 ## Coordination
 ### Departures
 A 'Next' call is made for all aircraft when they are next to depart. AY ADC must inform ELW(BLA) if the aircraft does not depart within **2 minutes** of the next call.

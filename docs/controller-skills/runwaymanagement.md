@@ -29,7 +29,13 @@ Most major aerodrome SOP pages include guidance on preferred runway modes, which
 !!! example
     The [Sydney Aerodrome SOPs](../aerodromes/sydney.md#runway-modes) dictate that the preferred runway mode is SODROPS (runway 34L for arrivals, runway 16L for departures), however a note below indicates the reduced capacity achievable with this mode and recommends PROPS where traffic levels are expected to be high.
 
-### Traffic Flow
+#### Non-Standard Runway Modes
+The usage of non-standard runway modes is **strongly not recommended**, unless approved by a Senior Controller for use in major events. Non-Standard runway modes can cause unintended conflicts in TCU and Enroute airspace that may only slightly reduce an ADC controller's workload, but *dramatically* increase that of the affected TCU or Enroute controller.
+
+!!! example
+    At YMML, one of the Preferred Runway Modes is 16A27D. If ADC were to add 16 as a departure runway (16AD27D), this may allow them to get more aircraft to depart. However, Subsequent departures from Runway 16, then via 27, both assigned a DOSEL SID, would be pointed directly at each other in TCU airspace, with no separation assurance. This creates a high workload environment for the TCU controller.
+
+#### Traffic Flow
 Where the published SOPs don't include guidance on preferred runway modes, or the situation you are faced with differs from those catered for by the SOPs, consider how you can maximise runway efficiency to handle the current traffic scenario. Remember to be mindful of the impact of the current wind & weather conditions, and any operational pressure the chosen configuration might have on any surrounding controllers.
 
 ## Approach Types
@@ -78,7 +84,7 @@ Sometimes, prior notice is not available to plan a runway change and an immediat
 If an immediate change is required, the first port of call should be to contact the TMA controller and advise of the situation. Nominate the last aircraft to land using the current runway mode and hold all departures until the runway change has occurred. It is good practice to cancel autorelease during this period, to avoid any surprise departures as the TMA controller sequences any remaining aircraft for the new runway.
 
 ### Actions for Each Position
-#### Tower
+#### ADC
 Once a need to change configurations has been identified, Tower controllers should:  
 
 - Discuss with TMA controllers to nominate the time of change and identify last arrival to use the current runway config  
@@ -89,7 +95,7 @@ Once a need to change configurations has been identified, Tower controllers shou
 !!! note
     Ensure that the aircraft identified as the last arrival is the last aircraft (arrival or departure) to use the runway in that direction.  
 
-#### Approach
+#### TCU
 In response to coordination from Tower, or on making their own assessment of the conditions, Approach controllers should:  
 
 - Nominate last arrival to use the current runway config and record in tag (`LAST`) if they own the tag
@@ -109,78 +115,10 @@ In response to coordination from the TCU, Enroute controllers should:
     There is often a need to delay aircraft to achieve the required 5 minute gap between last and first arrivals, so utilise all available resources to minimise the flow on delay to other aircraft, such as evenly spreading traffic across parallel runways if able.
 
 ## Runway Separation Standards
-### Takeoff Clearances
-A takeoff clearance must not be issued until:
-
-- a landing aircraft has taxied clear of the runway
-- a preceeding departing aircraft is airborne and either:
-    - commenced a turn, or
-    - passed the upwind end of the runway, or
-    - reached a point at least 1,800m along the runway
-- an aircraft operating on a crossing runway has passed through the intersection
-
-<figure markdown>
-![Departure Runway Separation](img/rwysepdep.jpg){ width="500" }
-  <figcaption>Departure Runway Separation</figcaption>
-</figure>
-
-### Landing Clearances
-A landing clearance must not be issued until:
-
-- a preceeding landing aircraft has taxied clear of the runway
-- a departing aircraft is airborne and:
-    - commenced a turn, or
-    - passed the point on the runway where the arriving aircraft is expected to complete its landing roll, and there is sufficient distance to enable the landing aircraft to manoeuvre in the event of a go around
-
-<figure markdown>
-![Arrival Runway Separation](img/rwyseparr.jpg){ width="500" }
-  <figcaption>Arrival Runway Separation</figcaption>
-</figure>
+Refer to [Runway Separation Standards](../../separation-standards/runway/)
 
 ### Wake Turbulence
-Whilst wake turbulence is often not considered in the virtual world, some advanced flight simulators are developing wake turbulence models to apply between successive departures. As a result, Tower controllers should provide the following time-based separation between successive departures:
-
-<table>
-    <thead>
-        <tr>
-            <th>Lead Aircraft</th>
-            <th>Following Aircraft</th>
-            <th>Time (min)</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td rowspan="3" style="vertical-align: middle;">Super</td>
-            <td>Heavy</td>
-            <td>2</td>
-        </tr>
-        <tr>
-            <td>Medium</td>
-            <td>3</td>
-        </tr>
-        <tr>
-            <td>Light</td>
-            <td>3</td>
-        </tr>
-        <tr>
-            <td rowspan="2" style="vertical-align: middle;">Heavy</td>
-            <td>Medium</td>
-            <td>2</td>
-        </tr>
-        <tr>
-            <td>Light</td>
-            <td>2</td>
-        </tr>
-        <tr>
-            <td>Medium</td>
-            <td>Light</td>
-            <td>2</td>
-        </tr>
-    </tbody>
-</table>
-
-!!! tip
-    Wake is only generated from the moment of rotation during the takeoff roll, to the moment of touchdown on landing. As a result, timing should commence when the lead aircraft rotates (or is visibily airborne when using vatSys), and no wake turbulence separation is required between an arrival and a departure.
+Refer to [Wake Turbulence Separation Standards](../../separation-standards/runway/#wake-turbulence)
 
 ## Helicopter Operations
 There is often confusion about how to handle helicopter operations at a controlled aerodrome. In reality, their operation is quite simple and no different to fixed wing aircraft.
