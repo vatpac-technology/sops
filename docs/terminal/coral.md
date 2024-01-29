@@ -43,6 +43,11 @@ The Standard assignable level from INL(KPL) to RKA is `A070`, and assigned a STA
 The Standard assignable level from KEN(SWY) to MKA is `A070`, and assigned a STAR. All other aircraft must be prior coordinated
 
 ### MK/RK ADC
+#### Airspace
+MK ADC is responsible for the Class D airspace in the MK CTR `SFC` to `A010`.
+
+RK ADC is responsible for the Class D airspace in the RK CTR `SFC` to `A010`.
+
 #### Auto Release
 'Next' coordination is **not** required from MK/RK ADC for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  

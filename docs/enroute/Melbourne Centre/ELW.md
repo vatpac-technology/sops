@@ -107,25 +107,12 @@ That being said, it is *advised* that ELW/BLA/SNO give **Heads-up Coordination**
 - SNO to BLA for all aircraft
 
 ### ES TCU
-#### Airspace
-By default, **ES TCU** owns the airspace within 30nm ESL, `SFC` to `F200`, unless stated otherwise by ad-hoc release or NOTAM.
-#### Departures
-Departures from **ES TCU** in to ELW(All) CTA will be coordinated at taxi, and will be requesting a level.
-
-!!! example
-    <span class="coldline">**ES TCU** -> **SNO**</span>: "Taxi, ALDN14 for YSWG via VALDU, Requesting F210"  
-    <span class="coldline">**SNO** -> **ES TCU**</span>: "ALDN14, F210"  
-
-#### Arrivals/Overfliers
-All aircraft transiting from ELW(All) to **ES TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **ES TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the ELW(All) and **ES TCU** controller agree on.
-
-!!! example
-    <span class="coldline">**ELW** -> **ES TCU**</span>: "via MNG, BFRT21, will be assigned F220, BLA and myself have no restrictions on descent"  
-    <span class="coldline">**ES TCU** -> **ELW**</span>: "BFRT21, F220"  
+Reserved.
 
 ### AY ADC
 #### Airspace
-**AY ADC** own the Class D airspace up to `A045`. BLA own the Class C steps in the "AY keyhole" between `A045` and `A085`.
+AY ADC is responsible for the Class D airspace in the AY CTR `SFC` to `A045`.
+
 #### Departures
 Departures from YMAY in to BLA Class C will be coordinated when ready for departure.
 
@@ -144,13 +131,6 @@ YMAY arrivals shall be heads-up coordinated to **AY ADC** from BLA prior to **5 
     <span class="hotline">**AY ADC** -> **BLA**</span>: "QLK38, VEGRU1 arrival" 
 
 The Standard Assignable level from BLA to **AY ADC** is `A080`.
-
-#### Overfliers
-Any aircraft that will enter AY ADC airspace, and not landing at YMAY, must be Heads-up coordinated prior to **5 mins** from the boundary.
-
-!!! example
-    <span class="hotline">**BLA** -> **AY ADC**</span>: "via AY, NGJ"  
-    <span class="hotline">**AY ADC** -> **BLA**</span>: "NGJ, A040"
 
 ### TSN (Oceanic)
 As per [Standard coordination procedures](../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.

@@ -65,7 +65,7 @@ After the estimated time of passing, aircraft may not climb or descend through t
 
 ### Distance
 #### Distance Reports
-Distance standards cannot be applied using the Bearing-Range Line Tool, since the position displayed on the scope is just an estimation of where the aircraft is.  
+Distance standards **cannot** be applied using the Bearing-Range Line Tool, since the position displayed on the scope is just an estimation of where the aircraft is.  
 Instead, it must be done using actual reports from the aircraft.  
 
 The lead aircraft must be tracking directly to/from the aid. Always ask the lead aircraft for their distance report prior to the following aircraft.  

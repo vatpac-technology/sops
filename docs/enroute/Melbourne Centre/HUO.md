@@ -25,7 +25,7 @@ HUO may choose to operate either YMHB or YMLT (or both) aerodromes top down, inc
 If HUO chooses to operate top down to either aerodrome, they must administer all relevant airspace within the appropriate TMA, including the class D CTR.
 
 !!! important
-    Ensure you are familiar with the aerodrome procedures for [Launceston](../../aerodromes/Launceston.md) and [Hobart](../../aerodromes/Hobart.md) before extending top down, and are aware of the limited surveillence coverage available in the lower levels of the TMA.
+    Ensure you are familiar with the aerodrome procedures for [Launceston](../../../aerodromes/Launceston) and [Hobart](../../../aerodromes/Hobart) before extending top down, and are aware of the limited surveillence coverage available in the lower levels of the TMA.
 
 ## Responsibilities
 HUO is reponsible for issuing STAR clearances, sequencing, and descent for aircraft bound for YMLT and YMHB.

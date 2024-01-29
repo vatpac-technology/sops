@@ -42,7 +42,7 @@ Reserved.
 
 **All routes require Coordination**
 
-Refer to [Class D Tower Skills](../../controller-skills/classdtwr) for more information.
+Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
 ### Standard Assignable Level
 Climbing to Nadi Oceanic: `FL240`  

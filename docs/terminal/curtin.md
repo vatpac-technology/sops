@@ -13,7 +13,7 @@
 ## Airspace
 The limits of the CIN TCU are `SFC` to `F200` within 25 DME CIN. This may be amended by NOTAM.
 
-By default, CIN APP owns the following Restricted Areas, as detailed below:
+By default, CIN APP owns the Class C airspace within the CIN MIL CTR `A015`-`A035`, as well as the following Restricted Areas, as detailed below:
 
 - R801A (Partial) (`SFC`-`A035`)  
 - R802A (`A035`-`F200`)  
@@ -24,7 +24,11 @@ The above Restricted Areas are classified as Class C when CIN APP is active.
     See [VATPAC NOTAMs](https://vatpac.org/publications/notam){target=new} for active NOTAMs which may affect military operations.
 
 ## Coordination
-### CIN ADC 
+### ADC
+#### Airspace
+CIN ADC owns the Class C airspace within the CIN MIL CTR from `SFC` to `A015`.
+
+#### Departures
 'Next' coordination is required from CIN ADC to CIN TCU for all aircraft.
 
 !!! example

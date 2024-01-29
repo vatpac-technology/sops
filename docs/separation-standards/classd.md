@@ -23,7 +23,6 @@ Although Surveillance standards cannot be used for separation at Class D Towers,
     <span class="hotline">**AY ADC** -> **BLA**</span>: "QLK208D, 5nm clear of DSB, thanks"
 
 ## Lateral
-
 ### 45° Segregated Flight Paths
 #### Straight-in
 - Can be applied between departures and arrivals when the departing aircraft's flight path and the arrival aircraft's flight path are at least 45° clear of each other, and, for a straight-in approach, the arriving aircraft is at least **5nm** from the arrival runway threshold
@@ -42,7 +41,6 @@ Although Surveillance standards cannot be used for separation at Class D Towers,
 </figure>
 
 ## Vertical
-
 ### 1000ft
 - Between any aircraft
 

@@ -38,7 +38,10 @@ The Standard assignable level from TL TCU to TBP is the lower of `F180` or the `
 #### Arrivals
 The Standard assignable level from TBP to TL TCU is `A100`, and assigned a STAR. All other aircraft must be voice coordinated.
 
-### TL ADC
+### ADC
+#### Airspace
+TL ADC owns the Class C airspace in the TL CTR from `SFC` to `A015`.
+
 #### Auto Release  
 'Next' coordination is **not** required from TL ADC to TL TCU for aircraft that are:  
 a) Departing from a runway nominated in the ATIS; and  

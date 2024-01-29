@@ -13,7 +13,7 @@
 ## Airspace
 The limits of the LM TCU are `SFC` to `F280` within 40 DME LM. This may be amended by NOTAM.
 
-By default, LM APP owns the following Restricted Areas, as detailed below:
+By default, LM APP owns the Class C airspace within the LM MIL CTR `A015`-`A025`, as well as the following Restricted Areas, as detailed below:
 
 - R859A (`A045`-`A100`)  
 - R859B (`A100`-`F280`)  
@@ -26,7 +26,11 @@ The above Restricted Areas are classified as Class C when LM APP is active.
     See [VATPAC NOTAMs](https://vatpac.org/publications/notam){target=new} for active NOTAMs which may affect military operations.
 
 ## Coordination
-### LM ADC
+### ADC
+#### Airspace
+LM ADC owns the Class C airspace within the LM CTR from `SFC` to `A015`.
+
+#### Departures
 'Next' coordination is required from LM ADC to LM TCU for all aircraft.
 
 !!! example
