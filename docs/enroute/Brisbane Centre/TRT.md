@@ -58,6 +58,9 @@ The Standard Assignable level from DN TCU to TRT is the lower of `F180` or the `
 Refer to [Darwin TCU Airspace Division](../../../military/darwin/#tcu) for information on airspace divisions when **DAW** is online.
 
 ### BRM ADC
+#### Airspace
+BRM ADC is responsible for the Class D airspace `SFC` to `A055`, as well as the Class E airspace `1200ft AGL` to `A055`, within the BRM CTR.
+
 #### Departures
 Departures from YBRM in to KIY CTA will be coordinated when ready for departure.  
 
@@ -75,13 +78,6 @@ YBRM arrivals shall be heads-up coordinated to **BRM ADC** from TRT prior to **5
     <span class="hotline">**BRM ADC** -> **TRT**</span>: "FD621"  
 
 The Standard Assignable level from TRT(KIY) to BRM ADC is `A060`, any other level must be prior coordinated.
-
-#### Overfliers
-Any aircraft that will enter BRM ADC airspace, and not landing at YBRM, must be Heads-up coordinated prior to **5 mins** from the boundary.
-
-!!! example
-    <span class="hotline">**KIY** -> **BRM ADC**</span>: "via CIN, NQC"  
-    <span class="hotline">**BRM ADC** -> **SWY**</span>: "NQC, A045"
 
 ### CIN TCU
 The Standard assignable level from TRT(KIY) to CIN TCU is `F130`, tracking via CIN VOR.

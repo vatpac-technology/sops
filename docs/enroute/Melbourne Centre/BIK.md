@@ -88,15 +88,20 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 
 ## Coordination
 ### SY TCU
+#### Airspace
+SY TCU is responsible for the airspace within a 45nm radius of TESAT, `SFC` to `F285`.
+
+Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
+
+#### Arrivals/Overfliers
 The Standard assignable level from BIK to SY TCU is:  
 `A100` for aircraft tracking via RIVET, and assigned the RIVET STAR  
 `A090` for aircraft tracking via ODALE, and assigned the ODALE STAR  
 
 All other aircraft must be voice coordinated to SY TCU prior to **20nm** from the boundary.
 
+#### Departures
 The Standard Assignable level from SY TCU to WOL is the lower of `F280` or the `RFL`, and tracking via WOL NDB.
-
-Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
 
 ### CB TCU
 The Standard assignable level from WOL to CB TCU is `F130`, and assigned the RAZZI STAR, BUNGO STAR, or AVBEG STAR.  

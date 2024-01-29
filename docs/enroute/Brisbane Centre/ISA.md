@@ -52,14 +52,21 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 ### SG TCU
+#### Airspace
+The limits of the SG TCU are `SFC` to `F245` within 40 NM of the YBSG ARP. This may be amended by NOTAM.
+
+#### Arrivals/Overfliers
 The Standard assignable level from ARA to SG TCU is `F130`, tracking via WP VOR.
 
 All other aircraft must be voice coordinated to SG TCU prior to **20nm** from the boundary.
 
+#### Departures
 The Standard Assignable level from SG TCU to ARA is `F240`, and tracking via their planned route.
 
 #### SG ADC
 When SG TCU is offline, coordination is not required between ISA(ARA) and SG ADC. Aircraft entering SG ADC airspace shall be handed off, and instructed to contact SG ADC for onwards clearance.
+
+SG ADC owns the Class C airspace within the SG CTR from `SFC` to `A015`.
 
 ### ISA Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.

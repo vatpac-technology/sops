@@ -37,7 +37,10 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 #### Arrivals
 The Standard assignable level from ENR to CB TCU is `F130`. All other levels must be prior coordinated
 
-### CB ADC
+### ADC
+#### Airspace
+CB ADC is responsible for the Class C Airspace within the CB CTR `SFC` to `A035`.
+
 #### Auto Release
 'Next' coordination is **not** required from CB ADC for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  

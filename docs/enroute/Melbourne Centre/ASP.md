@@ -53,13 +53,16 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 ### AS ADC
+#### Airspace
+AS ADC is responsible for the Class D airspace `SFC` to `A045`, as well as the Class C airspace `A045` to `A065`, within the AS CTR.
+
 #### Departures
 Departures from YBAS in to ASP Class C will be coordinated when ready for departure.
 
 !!! example
     <span class="hotline">**AS ADC** -> **ASP**</span>: "Next, QFA797"  
     <span class="hotline">**ASP** -> **AS ADC**</span>: "QFA797, Unrestricted"  
-    <span class="hotline">**AS ADC** -> **ASP**</span>: "Unrestricted, QFA797"  
+    <span class="hotline">**AS ADC** -> **ASP**</span>: "QFA797"  
 
 The Standard Assignable level from **AS ADC** to ASP is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
 #### Arrivals
@@ -71,14 +74,9 @@ YBAS arrivals shall be heads-up coordinated to **AS ADC** from ASP prior to **5 
 
 The Standard Assignable level from ASP to **AS ADC** is `A080`, any other level must be prior coordinated.
 
-#### Overfliers
-Any aircraft that will enter AS ADC airspace, and not landing at YBAS, must be Heads-up coordinated prior to **5 mins** from the boundary.
-
-!!! example
-    <span class="hotline">**ASP** -> **AS ADC**</span>: "via AS, JDS"  
-    <span class="hotline">**AS ADC** -> **ASP**</span>: "JDS, A060"
-
 ### WR ADC
+By default, WR ADC owns the **R222F** Restricted Area. This airspace has vertical limits of `SFC` to `F120`. When WR ADC is active, this airspace is classified as Class D.
+
 Coordination is not required between ASP(WRA) and WR ADC. Aircraft entering WR ADC airspace shall be handed off, and instructed to contact WR ADC for onwards clearance.
 
 ### IND(INS) (Oceanic)

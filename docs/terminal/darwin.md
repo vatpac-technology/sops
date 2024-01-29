@@ -99,7 +99,10 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 #### Arrivals
 The Standard assignable level from TRT to DN TCU is `A100`, and assigned a STAR. All other aircraft must be prior coordinated
 
-### DN ADC
+### ADC
+#### Airspace
+DN ADC owns the airspace within the DN CTR `SFC`–`A010`.
+
 #### Auto Release
 "Next" Coordination is a procedure where the **DN ADC** controller gives a heads-up to the DN TCU controller about an impending departure. The DN TCU controller will respond by assigning a heading to the aircraft, for the **DN ADC** controller to pass on with their takeoff clearance.
 

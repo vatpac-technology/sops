@@ -111,15 +111,20 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 
 ## Coordination
 ### SY TCU
+#### Airspace
+SY TCU is responsible for the airspace within a 45nm radius of TESAT, `SFC` to `F285`.
+
+Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
+
+#### Arrivals/Overfliers
 The Standard Assignable level from ARL(All) to SY TCU is:  
 `A100` for aircraft tracking via BOREE or MARLN, and assigned the relevant STAR  
 `A090` for aircraft tracking via MEPIL, and assigned the MEPIL STAR  
 
 All other aircraft must be voice coordinated to SY TCU prior to **20nm** from the boundary.
 
+#### Departures
 The Standard Assignable level from SY TCU to ARL(All) is the lower of `F280` or the `RFL`, and tracking via a SID terminus.
-
-Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
@@ -135,9 +140,7 @@ That being said, due to their small sizes and frequent random-track traffic, it 
 
 ### TW ADC
 #### Airspace
-When **TW ADC** is online, **ARL** owns the Class C airspace from `A065` upwards. **TW ADC** owns the Class D airspace `SFC` to `A045` and Class C airspace `A045` to `A065`.
-
-When **TW ADC** is closed, the Class C airspace `A085` and below is reclassified Class G.
+TW ADC is responsible for the Class D airspace in the TW CTR `SFC` to `A045`, as well as the Class C airspace between `A045` and `A065`.
 
 #### Departures
 Departures from YSTW in to ARL/MDE Class C will be coordinated when ready for departure.
@@ -160,7 +163,7 @@ The Standard Assignable level from ARL/MDE to **TW ADC** is `A080`, any other le
 
 ### CFS ADC
 #### Airspace
-**INL** and **MNN** own the Class C airspace from **A045** upwards, and **CFS ADC** (when online) owns the Class D airspace **SFC-A045**.
+CFS ADC is responsible for the Class D airspace in the CFS CTR `SFC` to `A045`.
 
 #### Departures
 Departures from YCFS in to MNN Class C will be coordinated when ready for departure.
@@ -180,13 +183,6 @@ YCFS arrivals shall be heads-up coordinated to **CFS ADC** from MNN prior to **5
     <span class="hotline">**CFS ADC** -> **MNN**</span>: "RXA6438"  
 
 The Standard Assignable level from MNN to **CFS ADC** is `A080`, any other level must be prior coordinated.
-
-#### Overfliers
-Any aircraft that will enter CFS ADC airspace, and not landing at YCFS, must be Heads-up coordinated prior to **5 mins** from the boundary.
-
-!!! example
-    <span class="hotline">**MNN** -> **CFS ADC**</span>: "via CFS, GNP"  
-    <span class="hotline">**CFS ADC** -> **MNN**</span>: "GNP, A030"
 
 ### WLM TCU
 #### Airspace
