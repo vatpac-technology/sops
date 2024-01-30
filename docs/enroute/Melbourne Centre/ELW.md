@@ -72,20 +72,31 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 
 ## Coordination
 ### CB TCU
+#### Airspace
+The Vertical limits of the CB TCU are `SFC` to `F245`.
+
+#### Arrivals/Overfliers
 The Standard assignable level from BLA to CB TCU is `F130`, and assigned the POLLI STAR or MANDA STAR.  
 
 All other aircraft must be voice coordinated to CB TCU prior to **20nm** from the boundary.
 
+#### Departures
 The Standard Assignable level from CB TCU to BLA is the lower of `F240` or the `RFL`, and tracking via HOWLY, WG, NONUP, TANTA, or DUBUS.
 
 ### ML TCU
+#### Airspace
+The Vertical limits of the ML TCU are `SFC` to `F245`.
+
+Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
+
+#### Arrivals/Overfliers
 The Standard assignable level from ELW to ML TCU is `A090`, and assigned the LIZZI STAR or BOYSE STAR.  
 
 All other aircraft must be voice coordinated to ML TCU prior to **20nm** from the boundary.
 
+#### Departures
 The Standard Assignable level from ML TCU to ELW is the lower of `F240` or the `RFL`, and tracking via MNG, NONIX, or DOSEL.
 
-Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 

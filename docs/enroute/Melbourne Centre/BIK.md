@@ -104,6 +104,10 @@ All other aircraft must be voice coordinated to SY TCU prior to **20nm** from th
 The Standard Assignable level from SY TCU to WOL is the lower of `F280` or the `RFL`, and tracking via WOL NDB.
 
 ### CB TCU
+#### Airspace
+The Vertical limits of the CB TCU are `SFC` to `F245`.
+
+#### Arrivals/Overfliers
 The Standard assignable level from WOL to CB TCU is `F130`, and assigned the RAZZI STAR, BUNGO STAR, or AVBEG STAR.  
 
 All other aircraft must be voice coordinated to CB TCU prior to **20nm** from the boundary.
@@ -111,6 +115,7 @@ All other aircraft must be voice coordinated to CB TCU prior to **20nm** from th
 !!! note
     These coordination requirements apply to aircraft entering the CB TCU, even if the airspace is owned by ELW/BLA
 
+#### Departures
 The Standard Assignable level from CB TCU to GUN is the lower of `F240` or the `RFL`, and tracking via AVBEG, AKMIR, or CULIN.
 
 ### Enroute
@@ -122,19 +127,7 @@ That being said, it is *advised* that BIK give **Heads-up Coordination** to the 
 Changes to the CFL are permitted up to the boundary for aircraft transiting BIK/GUN/WOL airspace internally. It is *advised* that BIK/WOL/GUN give **Heads-up Coordination** to the relevant sector, prior to **20nm** from the boundary, for **any aircraft not on the Q29, Y59, W113, or V169 airways**. 
 
 ### NW TCU
-#### Departures
-Departures from YSNW in to WOL Class C will be coordinated at taxi, and will be requesting a level.
-
-!!! example
-    <span class="coldline">**NW TCU** -> **WOL**</span>: "Taxi, PSDN18 for YMCO via URBOB, Requesting F130"  
-    <span class="coldline">**WOL** -> **NW TCU**</span>: "PSDN18, F130"  
-
-#### Arrivals/Overfliers
-All aircraft transiting from WOL to **NW TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **NW TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the WOL and **NW TCU** controller agree on.
-
-!!! example
-    <span class="hotline">**WOL** -> **NW TCU**</span>: "via CB, SKJ, with your concurrence, will be assigned descent to A090"  
-    <span class="hotline">**NW TCU** -> **WOL**</span>: "SKJ, concur A090"  
+Reserved.
 
 ### TSN (Oceanic)
 As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
