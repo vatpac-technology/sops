@@ -68,13 +68,19 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 ## Coordination
 
 ### ML TCU
+#### Airspace
+The Vertical limits of the ML TCU are `SFC` to `F245`.
+
+Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
+
+#### Arrivals/Overfliers
 The Standard assignable level from YWE and WON to ML TCU is `A090`, and assigned the ARBEY #, PORTS #, WAREN #, or WENDY # STAR.
 
 All other aircraft must be voice coordinated to ML TCU prior to **20nm** from the boundary.
 
+#### Departures
 The Standard Assignable level from ML TCU to YWE/WON is `F240`, and tracking via CRENA, ESDIG, NEVIS, CORRS, KEPPA, or SUNTI.
 
-Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
@@ -97,11 +103,16 @@ That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** p
 - YWE to WON for all aircraft  
 
 ### SY TCU
+#### Airspace
+SY TCU is responsible for the airspace within a 45nm radius of TESAT, `SFC` to `F285`.
+
+Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
+
+#### Arrivals/Overfliers
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-tcu), all aircraft must be **Heads-up coordinated** prior to **20nm** from the boundary.  
 
+#### Departures
 The Standard Assignable level from SY TCU to KAT is the lower of `F280` or the `RFL`, and tracking via KADOM.
-
-Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
 
 ### ES TCU
 Reserved.

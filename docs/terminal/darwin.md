@@ -14,12 +14,11 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies){target=new}
 ## Airspace
 ### TCU
-
 DN TCU owns the airspace within a 40NM radius of the DN DME from `SFC`–`FL180`  
 
 DN TCU is also responsible for Active Restricted Area R264 A-K and R230 A-F  
 
-DAW may request DN TCU (`SFC`–`FL240`) from TRT to facilitate military transits to/from R264 A-K and R230 A-F  
+DAW may request DN TCU (`SFC`–`F240`) from TRT to facilitate military transits to/from R264 A-K and R230 A-F  
 
 When both DN TCU positions are opened, DN TCU is split east and west along the runway 18/36 extended centreline. DAW owns the airspace to the west of the line and DAE owns the airspace to the east of the line  
 
