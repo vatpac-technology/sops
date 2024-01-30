@@ -80,13 +80,17 @@ All other aircraft must be voice coordinated to CS TCU prior to **20nm** from th
 #### Departures
 The Standard Assignable level from CS TCU to KEN/BAR is the lower of `F180` or the `RFL`
 
-### TL TCU  
+### TL TCU
+#### Airspace
+TL TCU owns the Class C and G airspace within 36 DME TL from `SFC` to `F180`
+
+#### Arrivals/Overfliers
 The Standard assignable level from TBP to **TL TCU** is `A100`, and assigned the relevant STAR.
 
 All other aircraft must be voice coordinated to TL TCU prior to **20nm** from the boundary.
 
+#### Departures
 The Standard assignable level from TL TCU to TBP is the lower of `F180` or the `RFL`
-
 
 ### MKA
 #### Airspace
