@@ -206,7 +206,7 @@ Coordination to **International** units shall be done in the following format:
 ### ENR -> ENR
 **Voiceless**, no changes to route or CFL within **50nm** to boundary.
 
-!!! note
+!!! exception
     Except as amended by Local Instructions.
 
 ### OCTA Coordination

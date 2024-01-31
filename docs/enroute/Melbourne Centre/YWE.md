@@ -68,13 +68,19 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 ## Coordination
 
 ### ML TCU
+#### Airspace
+The Vertical limits of the ML TCU are `SFC` to `F245`.
+
+Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
+
+#### Arrivals/Overfliers
 The Standard assignable level from YWE and WON to ML TCU is `A090`, and assigned the ARBEY #, PORTS #, WAREN #, or WENDY # STAR.
 
 All other aircraft must be voice coordinated to ML TCU prior to **20nm** from the boundary.
 
+#### Departures
 The Standard Assignable level from ML TCU to YWE/WON is `F240`, and tracking via CRENA, ESDIG, NEVIS, CORRS, KEPPA, or SUNTI.
 
-Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
@@ -97,25 +103,16 @@ That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** p
 - YWE to WON for all aircraft  
 
 ### SY TCU
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-tcu), all aircraft must be **Heads-up coordinated** prior to **20nm** from the boundary.  
-
-The Standard Assignable level from SY TCU to KAT is the lower of `F280` or the `RFL`, and tracking via KADOM.
-
-Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
-
-### ES TCU
 #### Airspace
-By default, **ES TCU** owns the airspace within 30nm ESL, `SFC` to `F200`, unless stated otherwise by ad-hoc release or NOTAM.
-#### Departures
-Departures from **ES TCU** in to WON CTA will be coordinated at taxi, and will be requesting a level.
+SY TCU is responsible for the airspace within a 45nm radius of TESAT, `SFC` to `F285`.
 
-!!! example
-    <span class="coldline">**ES TCU** -> **WON**</span>: "Taxi, ALDN16 for YFLI DCT, Requesting F230"  
-    <span class="coldline">**WON** -> **ES TCU**</span>: "ALDN16, F230"  
+Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
 
 #### Arrivals/Overfliers
-All aircraft transiting from WON to **ES TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **ES TCU** are fairly ad-hoc, so there are no standard assignable levels, simply whatever the WON and **ES TCU** controller agree on.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-tcu), all aircraft must be **Heads-up coordinated** prior to **20nm** from the boundary.  
 
-!!! example
-    <span class="hotline">**WON** -> **ES TCU**</span>: "via ANTLA, BFRT23, will be assigned F220, I have no restrictions on descent"  
-    <span class="hotline">**ES TCU** -> **WON**</span>: "BFRT23, F220"  
+#### Departures
+The Standard Assignable level from SY TCU to KAT is the lower of `F280` or the `RFL`, and tracking via KADOM.
+
+### ES TCU
+Reserved.

@@ -449,6 +449,9 @@ Heads-up coordination is not required from a SY TCU position to SRI for aircraft
     **SRI:** "CYF, Sydney Centre, no reported IFR traffic, area QNH 1024"
 
 ### SY ADC
+#### Airspace
+SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005`.
+
 #### Auto Release
 Auto Release is used for virtually all fixed-wing departures at Sydney. Unlike some other aerodromes, aircraft cleared via the **SY (RADAR) SID** do not need to be 'Next' coordinated, provided they are assigned the standard assignable level and a standard assignable heading from the table below.
 
@@ -487,6 +490,9 @@ For Jets: `A050`
 For Non-Jets: The lower of `A030` or the `RFL`
 
 ### BK ADC
+#### Airspace
+BK ADC is responsible for the Class D airspace in the BK CTR `SFC` to `A015`.
+
 #### Departures
 Aircraft departing YSBK in to SY TCU Class C will be coordinated from **BK ADC** when ready for takeoff.
 
@@ -512,6 +518,8 @@ VFR aircraft require a level readback.
     Ensure the aircraft's FDR is up-to-date in order to give **BK ADC** maximum situational awareness of the traffic picture. (eg. if the aircraft is doing the RNP approach, ensure the FDR has been rerouted via the appropriate points)
 
 ### CN ADC
+#### Airspace
+CN ADC is responsible for the Class D airspace in the CN CTR `SFC` to `A020`.
 
 #### Departures
 CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a ready call, SY TCU will issue a traffic statement.
@@ -530,7 +538,7 @@ CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a
     Note: Because aircraft enter Class G after departure, an airways clearance need not be issued by CN ADC. This will be done on first contact with Sydney TCU.
     Therefore, a *next* call & *departure instructions* are not required. You must however, pass the above (ready) coordination & obtain a traffic statement.
 
-#### Arrivals/Overfliers
+#### Arrivals
 SY TCU must heads-up coordinate inbound IFR aircraft prior to **5 mins** from the boundary. CN ADC is responsible for issuing a clearance into the CN CTR and for coordination with SY TCU in the event of a missed approach (or on completion of airwork if applicable).
 
 SY TCU will **NOT** clear the aircraft for the approach.

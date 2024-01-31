@@ -133,19 +133,20 @@ The Standard assignable level from ENR to PH TCU is `A090`. All other levels mus
 
 ### PH ADC
 #### Auto Release
+'Next' coordination is **not** required for aircraft that are:   
+    a) Departing from a runway nominated on the ATIS; and  
+    b) Assigned the standard assignable level; and  
+    c) Assigned a **Procedural SID**
 
-"Next" Coordination is a procedure where the PH ADC controller gives a heads-up to the PH TCU controller about an impending departure. The PH TCU controller will respond by assigning a heading to the aircraft, for the PH ADC controller to pass on with their takeoff clearance.
+All other aircraft require a 'Next' call to PH TCU.
 
 !!! example
     <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Next, ABC, runway 03"  
     <span class="hotline">**PH TCU** -> **PH ADC**</span>: "ABC, Heading 010, unrestricted"  
-    <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Heading 010, unrestricted, ABC"
+    <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Heading 010, ABC"  
 
-"Next" Coordination from PH ADC is not required for aircraft assigned a **Procedural SID** and the Standard Assignable Level.
-
-"Next" Coordination from PH ADC is additionally required for:   
-    a) Aircraft on a non-standard level.  
-    b) Aircraft departing from a runway not nominated in the ATIS.  
+    **PH ADC**: "ABC, Assigned heading left 010, Runway 03, Cleared for Takeoff"  
+    **ABC**: "Left heading 010, Runway 010, Cleared for Takeoff, ABC"
 
 The PH TCU controller can suspend/resume Auto Release at any time, with the concurrence of PH ADC.
 
@@ -178,8 +179,10 @@ All other aircraft transiting between internal PH TCU boundaries must be heads-u
     <span class="hotline">**PHD** -> **PHA**</span>: "FD123, A090"    
 
 ### JT ADC
+#### Airspace
+JT ADC is responsible for the Class D airspace in the JT CTR `SFC` to `A015`.
 
-### Next Call
+#### Departures
 When the aircraft is ready for departure, JT ADC will coordinate with the relevant PH TCU controller above them for permission to release the aircraft into their CTA.
 
 !!! example
@@ -189,7 +192,7 @@ When the aircraft is ready for departure, JT ADC will coordinate with the releva
 
 The Standard Assignable level from JT ADC to PH TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
 
-### Arrivals/Overfliers
+#### Arrivals/Overfliers
 PH TCU will heads-up coordinate arrivals/overfliers from Class C to JT ADC prior to **5 mins** from the boundary.  
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to JT ADC, unless JT ADC nominates a restriction.  
 VFR aircraft require a level readback.

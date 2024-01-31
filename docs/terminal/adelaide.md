@@ -46,7 +46,7 @@ Coordinate the aircraft with ADC, including the use of the appropriate clearance
 | Southbound | HNLY |
 
 <figure markdown>
-![Clearance Limits](../aerodromes/img/adclearancelimits.png){ width="500" }
+![Clearance Limits](img/adclearancelimits.png){ width="500" }
   <figcaption>Clearance Limits (red) and Approach/Departure Path (green)</figcaption>
 </figure>
 
@@ -121,6 +121,9 @@ All aircraft transiting between internal AD TCU boundaries must be heads-up coor
 Boundary coordination is not required between AAW and AAE for aircraft arriving or departing tracking via the 05/23 extended centreline.
 
 ### PF ADC
+#### Airspace
+PF ADC is responsible for the Class D airspace in the PF CTR `SFC` to `A015`.
+
 #### Departures
 When the aircraft is ready for departure, PF ADC will coordinate with AD TCU for permission to release the aircraft into CTA.
 
@@ -130,6 +133,7 @@ When the aircraft is ready for departure, PF ADC will coordinate with AD TCU for
     <span class="hotline">**PF ADC** -> **AAW**</span>: "Heading 020, XMM"
 
 The Standard Assignable level from PF ADC to AD TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
+
 #### Arrivals/Overfliers
 AD TCU will heads-up coordinate arrivals/overfliers from Class C to PF ADC prior to **5 mins** from the boundary.  
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to PF ADC, unless PF ADC nominates a restriction.  
@@ -141,7 +145,6 @@ VFR aircraft require a level readback.
 
 ### EDN ADC
 #### Departures
-
 Aircraft departing YPED in to AD TCU Class C will be coordinated from **EDN ADC** at Taxi.
 
 !!! example

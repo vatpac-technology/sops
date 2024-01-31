@@ -58,7 +58,10 @@ Any aircraft not meeting the above criteria must be prior coordinated to ARL(All
 #### Arrivals/Overfliers
 The Standard assignable level from ARL(All) to WLM TCU is `A090`, and assigned a STAR. All other aircraft must be prior coordinated.
 
-### TCU/ADC
+### ADC
+#### Airspace
+WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be amended/released as required between WLM ADC and WLM TCU.
+
 #### Departures
 'Next' coordination is **not** required from WLM ADC to WLM TCU for aircraft that are:  
 a) Departing from a runway nominated in the ATIS; and  

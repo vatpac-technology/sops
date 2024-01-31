@@ -89,16 +89,21 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 
 ## Coordination
 ### PH TCU
-The Standard Assignable level from PIY(All) to PH TCU is `A090` and assigned the relevant STAR. 
-
-All other aircraft must be voice coordinated to PH TCU prior to **20nm** from the boundary.
-
-The Standard Assignable level from PH TCU to PIY(All) is the lower of `F180` or the `RFL`.
+#### Airspace
+The PH TCU is responsible for the airspace within 36 DME of the PH VOR, `SFC` to `F245`. 
 
 Refer to [Perth TCU Airspace Division](../../../terminal/perth/#airspace-division) for information on airspace divisions when **PHD** is online.
 
 !!! note
     A significant portion of the TMA airspace south of the PH VOR (roughly 20 DME onwards) is classified Class E with a lower limit of `F125`. Aircraft arriving from this direction from `F130` and above shall be instructed to leave and re-enter controlled airspace on descent to the standard assignable level (or other appropriate altitude).
+
+#### Arrivals/Overfliers
+The Standard Assignable level from PIY(All) to PH TCU is `A090` and assigned the relevant STAR. 
+
+All other aircraft must be voice coordinated to PH TCU prior to **20nm** from the boundary.
+
+#### Departures
+The Standard Assignable level from PH TCU to PIY(All) is the lower of `F180` or the `RFL`.
 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
@@ -111,5 +116,6 @@ All else is Voiceless, no changes to route or CFL within **20nm** to boundary.
 That being said, it is *advised* that PIY(All) gives **Heads-up Coordination** prior to **20nm** in the following scenarios:  
 - JAR to PIY for all aircraft  
 - LEA to PIY for all aircraft  
+
 ### IND (Oceanic)
 As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
