@@ -14,12 +14,11 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies){target=new}
 ## Airspace
 ### TCU
-
 DN TCU owns the airspace within a 40NM radius of the DN DME from `SFC`–`FL180`  
 
 DN TCU is also responsible for Active Restricted Area R264 A-K and R230 A-F  
 
-DAW may request DN TCU (`SFC`–`FL240`) from TRT to facilitate military transits to/from R264 A-K and R230 A-F  
+DAW may request DN TCU (`SFC`–`F240`) from TRT to facilitate military transits to/from R264 A-K and R230 A-F  
 
 When both DN TCU positions are opened, DN TCU is split east and west along the runway 18/36 extended centreline. DAW owns the airspace to the west of the line and DAE owns the airspace to the east of the line  
 
@@ -99,7 +98,10 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 #### Arrivals
 The Standard assignable level from TRT to DN TCU is `A100`, and assigned a STAR. All other aircraft must be prior coordinated
 
-### DN ADC
+### ADC
+#### Airspace
+DN ADC owns the airspace within the DN CTR `SFC`–`A010`.
+
 #### Auto Release
 "Next" Coordination is a procedure where the **DN ADC** controller gives a heads-up to the DN TCU controller about an impending departure. The DN TCU controller will respond by assigning a heading to the aircraft, for the **DN ADC** controller to pass on with their takeoff clearance.
 

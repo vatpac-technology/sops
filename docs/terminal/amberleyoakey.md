@@ -97,7 +97,12 @@ Aircraft will make a visual departure in the circuit direction and fly overhead 
 
 ## Coordination
 ### AM/OK ADC
+#### Airspace
+AMB ADC owns the Class C airspace **in the AMB CTR** within 10nm of the YAMB ARP from `SFC` to `A015`.
 
+OK ADC owns the airspace within 5 DME of the OK VOR from `SFC` to `A025`.
+
+#### Departures
 'Next' coordination is required from AMB ADC to AMB TCU for all aircraft.
 
 !!! example

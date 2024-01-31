@@ -109,7 +109,10 @@ The following speeds apply from the Feeder Fix:
 
 ## Coordination
 
-### CS ADC
+### ADC
+### Airspace
+CS ADC is responsible for the Class C Airspace within the CS CTR `SFC` to `A010`.
+
 #### Departures
 'Next' coordination is **not** required from CS ADC for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  

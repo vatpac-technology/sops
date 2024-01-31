@@ -40,8 +40,6 @@ Due to the low ceiling of CTA, when CFS ADC is offline, INL shall instruct aircr
 #### RK CTR
 Whilst the **RKA** controller is expected to provide a [top-down service](../../../aerodromes/Rockhampton) to YBRK when **RK ADC** is offline, this is not expected of a GOL controller when both **RKA** and **RK ADC** are offline. If electing not to provide a top-down service to YBRK, the RK CTR Class D is reclassified to Class G `SFC` to `A007`, and Class E `A007` to `A045`.
 
-
-
 ## Sector Responsibilities
 
 ### Inverell (INL)
@@ -84,21 +82,25 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 
 ## Coordination
 ### BN TCU
+#### Airspace
+The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, where it is `SFC` to `A075` in the North West, and `SFC` to `F125` in the South East.
 
+Refer to [Brisbane TCU Airspace Division](../../../terminal/brisbane/operations/#airspace-division) for information on airspace divisions when **BAS**, **BDN** and/or **BDS** are online.
+
+#### Arrivals/Overfliers
 The Standard assignable level from INL(All) to BN TCU is:  
 `A090` for YBBN arrivals, and assigned a STAR  
 `F130` for YBCG arrivals via BERNI, and assigned a STAR  
 
 All other aircraft must be voice coordinated to BN TCU prior to **20nm** from the boundary.
 
+#### Departures
 The Standard Assignable level for YBBN departures from BN TCU to **INL(All)** is the lower of `F180` or the `RFL`.  
 The Standard Assignable level for YBCG departures from BN TCU to **GOL/SDY** is the lower of `F120` or the `RFL`, and tracking via APAGI.  
 The Standard Assignable level for YBCG departures from BN TCU to **NSA/BUR/DOS** is the lower of `F180` or the `RFL`.  
 The Standard Assignable level for YBSU arrivals from BN TCU to **NSA** is `F130`, and tracking via ITIDE.  
 
-Refer to [Brisbane TCU Airspace Division](../../../terminal/brisbane/operations/#airspace-division) for information on airspace divisions when **BAS**, **BDN** and/or **BDS** are online.
 ### Enroute
-
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 ### INL Internal
@@ -111,7 +113,7 @@ That being said, it is *advised* that INL(All) give **Heads-up Coordination** to
 
 ### SU ADC
 #### Airspace
-**SU ADC** owns the Class D airspace `SFC` to `A045`. **NSA** owns the Class C airspace from `A045` upwards and operates it regardless of whether SU ADC is online or offline.
+SU ADC is responsible for the Class D airspace in the SU CTR `SFC` to `A045`.
 
 #### Departures
 Departures from YBSU in to NSA Class C will be coordinated when ready for departure.
@@ -133,22 +135,21 @@ YBSU arrivals shall be coordinated to **SU ADC** from NSA prior to **5 mins** fr
 
 The Standard Assignable level from NSA to **SU ADC** is `A060`, any other level must be prior coordinated.
 
-#### Overfliers
-Any aircraft that will enter SU ADC airspace, and not landing at YBSU, must be Heads-up coordinated prior to **5 mins** from the boundary.
-
-!!! example
-    <span class="hotline">**NSA** -> **SU ADC**</span>: "via HOLIS, CXB"  
-    <span class="hotline">**SU ADC** -> **NSA**</span>: "CXB, A025"
-
 ### RKA
+#### Airspace
+RKA is responsible for the airspace within the 'RK keyhole' `SFC` to `F150`.
+
+#### Arrivals/Overfliers
 The Standard assignable level from KPL to **RKA** is `A070`, and assigned the ABVAS STAR or DADBO STAR.
 
 All other aircraft must be voice coordinated to **RKA** prior to **20nm** from the boundary.
 
+#### Departures
 The Standard Assignable level from **RKA** to KPL is `F150`, and tracking via BUDGI or TARES.
+
 ### CFS ADC
 #### Airspace
-**INL** and **MNN** owns the Class C airspace above CFS from `A045` upwards. **CFS ADC** owns the Class D airspace `SFC` to `A045` when open.
+CFS ADC is responsible for the Class D airspace in the CFS CTR `SFC` to `A045`.
 
 #### Departures
 Departures from YCFS in to INL Class C will be coordinated when ready for departure.
@@ -168,13 +169,6 @@ YCFS arrivals shall be coordinated to **CFS ADC** from INL prior to **5 mins** f
     <span class="hotline">**CFS ADC** -> **INL**</span>: "VET"  
 
 The Standard Assignable level from INL to **CFS ADC** is `A080`, any other level must be prior coordinated.
-
-#### Overfliers
-Any aircraft that will enter CFS ADC airspace, and not landing at YCFS, must be Heads-up coordinated prior to **5 mins** from the boundary.
-
-!!! example
-    <span class="hotline">**INL** -> **CFS ADC**</span>: "via CFS, XFC, Overflier"  
-    <span class="hotline">**CFS ADC** -> **INL**</span>: "XFC, A040"
 
 ### OK TCU / AMB TCU
 #### Airspace

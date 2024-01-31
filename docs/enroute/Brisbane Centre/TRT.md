@@ -49,15 +49,27 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 ### DN TCU
+#### Airspace
+DN TCU owns the airspace within a 40NM radius of the DN DME from `SFC`–`FL180`  
+
+DN TCU is also responsible for Active Restricted Area R264 A-K and R230 A-F  
+
+DAW may request DN TCU (`SFC`–`F240`) from TRT to facilitate military transits to/from R264 A-K and R230 A-F  
+
+Refer to [Darwin TCU Airspace Division](../../../terminal/darwin/#tcu) for information on airspace divisions when **DAW** is online.
+
+#### Arrivals/Overfliers
 The Standard Assignable level from TRT to DN TCU is `A100` and assigned the relevant STAR. 
 
 All other aircraft must be voice coordinated to DN TCU prior to **20nm** from the boundary.
 
+#### Departures
 The Standard Assignable level from DN TCU to TRT is the lower of `F180` or the `RFL`
 
-Refer to [Darwin TCU Airspace Division](../../../military/darwin/#tcu) for information on airspace divisions when **DAW** is online.
-
 ### BRM ADC
+#### Airspace
+BRM ADC is responsible for the Class D airspace `SFC` to `A055`, as well as the Class E airspace `1200ft AGL` to `A055`, within the BRM CTR.
+
 #### Departures
 Departures from YBRM in to KIY CTA will be coordinated when ready for departure.  
 
@@ -76,22 +88,22 @@ YBRM arrivals shall be heads-up coordinated to **BRM ADC** from TRT prior to **5
 
 The Standard Assignable level from TRT(KIY) to BRM ADC is `A060`, any other level must be prior coordinated.
 
-#### Overfliers
-Any aircraft that will enter BRM ADC airspace, and not landing at YBRM, must be Heads-up coordinated prior to **5 mins** from the boundary.
-
-!!! example
-    <span class="hotline">**KIY** -> **BRM ADC**</span>: "via CIN, NQC"  
-    <span class="hotline">**BRM ADC** -> **SWY**</span>: "NQC, A045"
-
 ### CIN TCU
+#### Airspace
+The limits of the CIN TCU are `SFC` to `F200` within 25 DME CIN. This may be amended by NOTAM.
+
+#### Arrivals/Overfliers
 The Standard assignable level from TRT(KIY) to CIN TCU is `F130`, tracking via CIN VOR.
 
 All other aircraft must be voice coordinated to CIN TCU prior to **20nm** from the boundary.
 
+#### Departures
 The Standard Assignable level from CIN TCU to TRT(KIY) is `F190`, and tracking via their planned route.
 
 #### CIN ADC
 When CIN TCU is offline, coordination is not required between TRT(KIY) and CIN ADC. Aircraft entering CIN ADC airspace shall be handed off, and instructed to contact CIN ADC for onwards clearance.
+
+CIN ADC owns the Class C airspace within the CIN MIL CTR from `SFC` to `A015`.
 
 ### IND(INE) (Oceanic)
 As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.

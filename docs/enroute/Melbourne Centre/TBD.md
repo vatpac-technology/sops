@@ -49,10 +49,17 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 ## Coordination
 
 ### AD TCU
+#### Airspace
+The Vertical limits of the AD TCU are `SFC` to `F245`.
+
+Refer to [Adelaide TCU Airspace Division](../../../terminal/adelaide/#airspace-division) for information on airspace divisions when **AAE** is online.
+
+#### Arrivals/Overfliers
 The Standard assignable level from TBD/AUG to AD TCU is `A090`, and assigned a STAR.
 
 All other aircraft must be voice coordinated to AD TCU prior to **20nm** from the boundary.
 
+#### Departures
 The Standard Assignable level from AD TCU to TBD/AUG is the lower of `F240` or the `RFL`, and tracking via a SID terminus.
 
 ### Enroute

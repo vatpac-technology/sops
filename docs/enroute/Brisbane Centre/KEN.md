@@ -67,28 +67,43 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 
 ## Coordination
 ### CS TCU
+#### Airspace
+The Vertical limits of the CS TCU are `SFC` to `F180`.  
+
+Refer to [Cairns TCU Airspace Division](../../../terminal/cairns/#airspace-division) for information on airspace divisions when **CS2** is online.
+
+#### Arrivals/Overfliers
 The Standard Assignable level from KEN/BAR to CS TCU is `A070` and assigned the relevant STAR. 
 
 All other aircraft must be voice coordinated to CS TCU prior to **20nm** from the boundary.
 
+#### Departures
 The Standard Assignable level from CS TCU to KEN/BAR is the lower of `F180` or the `RFL`
 
-Refer to [Cairns TCU Airspace Division](../../../terminal/cairns/#airspace-division) for information on airspace divisions when **CS2** is online.
+### TL TCU
+#### Airspace
+TL TCU owns the Class C and G airspace within 36 DME TL from `SFC` to `F180`
 
-### TL TCU  
+#### Arrivals/Overfliers
 The Standard assignable level from TBP to **TL TCU** is `A100`, and assigned the relevant STAR.
 
 All other aircraft must be voice coordinated to TL TCU prior to **20nm** from the boundary.
 
+#### Departures
 The Standard assignable level from TL TCU to TBP is the lower of `F180` or the `RFL`
 
-
 ### MKA
+#### Airspace
+MKA is responsible for the airspace within the 'MK keyhole' `SFC` to `F150`.
+
+#### Arrivals
 The Standard assignable level from SWY to **MKA** is `A070`, and assigned the DAGSI STAR or WELKE STAR.
 
 All other aircraft must be voice coordinated to **MKA** prior to **20nm** from the boundary.
 
+#### Departures
 The Standard Assignable level from **MKA** to KPL is `F150`, and tracking via CLIFT or MUNAR.
+
 #### Airspace
 When **MKA** is online, they own up to `F150` in the **shaded** are shown below:
 <figure markdown>
@@ -105,6 +120,9 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 TBP may make changes to CFL up to the boundary with KEN for the purposes of issuing descent for YBCS.
 
 ### HM ADC
+#### Airspace
+HM ADC is responsible for the Class D airspace in the HM CTR `SFC` to `A045`.
+
 #### Departures
 Departures from YBHM in to SWY Class C will be coordinated when ready for departure.  
 
@@ -122,13 +140,6 @@ YBHM arrivals shall be heads-up coordinated to **JM ADC** from SWY prior to **5 
     <span class="hotline">**HM ADC** -> **SWY**</span>: "JST848, RNP U RWY 32"  
 
 The Standard Assignable level from KEN(SWY) to HM ADC is `A060`, any other level must be prior coordinated.
-
-#### Overfliers
-Any aircraft that will enter HM ADC airspace, and not landing at YBHM, must be Heads-up coordinated prior to **5 mins** from the boundary.
-
-!!! example
-    <span class="hotline">**SWY** -> **HM ADC**</span>: "via OVRON, KNV"  
-    <span class="hotline">**HM ADC** -> **SWY**</span>: "KNV, A030"
 
 ### TSN(FLD) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.

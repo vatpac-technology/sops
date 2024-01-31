@@ -142,6 +142,9 @@ For Jets: `A060`
 For Non-Jets: The lower of `A040` or the `RFL`
 
 ### CG ADC
+#### Airspace
+CG ADC is responsible for the Class C Airspace within the CG CTR `SFC` to `A015`.
+
 #### Auto Release
 'Next' coordination is **not** required fro CG ADC for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  

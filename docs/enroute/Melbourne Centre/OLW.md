@@ -50,6 +50,9 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 ### KA ADC
+#### Airspace
+KA ADC is responsible for the Class D airspace in the KA CTR `SFC` to `A055`.
+
 #### Departures
 Departures from YPKA in to OLW CTA will be coordinated when ready for departure.  
 
@@ -68,22 +71,22 @@ YPKA arrivals shall be heads-up coordinated to **KA ADC** from OLW prior to **5 
 
 The Standard Assignable level from OLW to KA ADC is `A060`, any other level must be prior coordinated.
 
-#### Overfliers
-Any aircraft that will enter KA ADC airspace, and not landing at YPKA, must be Heads-up coordinated prior to **5 mins** from the boundary.
-
-!!! example
-    <span class="hotline">**OLW** -> **KA ADC**</span>: "via BORAT, QQK"  
-    <span class="hotline">**KA ADC** -> **OLW**</span>: "QQK, A030"
-
 ### LM TCU
+#### Airspace
+The limits of the LM TCU are `SFC` to `F280` within 40 DME LM. This may be amended by NOTAM.
+
+#### Arrivals/Overfliers
 The Standard assignable level from OLW to LM TCU is `F130`, tracking via LM VOR.
 
 All other aircraft must be voice coordinated to LM TCU prior to **20nm** from the boundary.
 
+#### Departures
 The Standard Assignable level from LM TCU to OLW is `F240`, and tracking via their planned route.
 
 #### LM ADC
 When LM TCU is offline, coordination is not required between OLW and LM ADC. Aircraft entering LM ADC airspace shall be handed off, and instructed to contact LM ADC for onwards clearance.
+
+LM ADC owns the Class C airspace within the LM CTR from `SFC` to `A015`.
 
 ### IND,INE (Oceanic)
 As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
