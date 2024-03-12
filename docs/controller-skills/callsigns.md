@@ -23,7 +23,6 @@ This page lists some of the most commonly used callsigns in Australia.
 | BNZ | BONZA |
 | CFH  | CAREFLIGHT |
 | FD | FLYDOC |
-| HM | HM |
 | HND | HINTERLAND |
 | JTE  | JETEX |
 | JST | JETSTAR |

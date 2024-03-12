@@ -4,7 +4,7 @@ title: Extending
 
 --8<-- "includes/abbreviations.md"
 
-As per [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), Enroute controllers are permitted to *extend* to any adjacent sector, with the exception of:
+As per [VATPAC Air Traffic Services Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), Enroute controllers are permitted to *extend* to any adjacent sector, with the exception of:
 
 - ASP, which can only extend to adjacent YMMM (Melbourne Centre) sectors.
 - ISA, which can only extend to adjacent YBBB (Brisbane Centre) sectors.

@@ -11,9 +11,9 @@
 | **Melbourne Approach East**    |**MAE**| **Melbourne Approach**   | **132.000**         | **ML_APP**                                   |
 | Melbourne Departures North†    |MDN| Melbourne Departures  | 118.900         | ML_DEP          |
 | Melbourne Departures South†   |MDS| Melbourne Departures | 129.400          | ML-S_DEP         |
-| Melbourne Flow†        |MFL|                |          | ML-FLW_CTR                               |
+| Melbourne Flow†        |MFL|                |          | ML_FMP                             |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies){target=new}
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ## Airspace
 The Vertical limits of the ML TCU are `SFC` to `F245`.  
@@ -35,11 +35,6 @@ c) The Coffin, when **EN ADC** is online, and the airspace has been released to 
 MB CTR reverts to Class G when **MB ADC** is offline, and is administered by the relevant ML TCU controller.
 
 See also: [MB ADC Offline](#mb-adc-offline).
-
-#### EN CTR
-EN CTR reverts to Class G when **EN ADC** is offline, and is administered by the relevant ML TCU controller.
-
-See also: [EN ADC Offline](#en-adc-offline).
 
 #### AV CTR
 AV CTR Class D `SFC` to `A007` reverts to Class G and `A007` to `A025` to Class E when **AV ADC** is offline, and is administered by the relevant ML TCU controller.

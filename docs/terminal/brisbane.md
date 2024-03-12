@@ -13,9 +13,9 @@
 | Brisbane Departures North†    |BDN| Brisbane Departures  | 133.450         | BN_DEP          |
 | Brisbane Departures South†   |BDS| Brisbane Departures | 118.450          | BN-S_DEP         |
 | Gold Coast Approach† |BAC| Brisbane Approach  | 123.500          | BN-C_APP       |
-| Brisbane Flow†        |BFL|                |          | BN-FLW_CTR                               |
+| Brisbane Flow†        |BFL|                |          | BN_FMP                              |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
 The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, where it is `SFC` to `A075` in the North West, and `SFC` to `F125` in the South East.
@@ -32,7 +32,7 @@ If BN TCU elects not to provide top-down to YBCG, The CG CTR Class C airspace `S
 See also: [CG ADC Offline](#cg-adc-offline).
   
 ### Airspace Structural Arrangements
-Pursuant to Section 3 of the [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), **“North”**/**”West”** positions shall assume the airspace of corresponding **“South”**/**”East”** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
+Pursuant to Section 3 of the [VATPAC Air Traffic Services Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), **“North”**/**”West”** positions shall assume the airspace of corresponding **“South”**/**”East”** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
 
 ## Parallel Runway Operations
 Refer to [Parallel Runway Separation Standards](../../separation-standards/parallelapps) for more information
