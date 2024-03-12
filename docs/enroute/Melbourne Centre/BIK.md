@@ -11,7 +11,7 @@
 | Wollongong† | Melbourne Centre | 125.000 | ML-WOL_CTR |
 | Gundagai† | Melbourne Centre | 128.400 | ML-GUN_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
 

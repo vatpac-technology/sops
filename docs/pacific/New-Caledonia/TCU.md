@@ -12,7 +12,7 @@
 | Tontouta Approach (TMA 1.1)†|NWWWT| Tontouta Approach  | 119.700         | NWWW-T_APP          |
 
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies){target=new}
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ## Airspace
 The vertical limits of the Tontouta TCU are `SFC` to `F245`.

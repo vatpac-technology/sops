@@ -14,7 +14,7 @@
 | Warrego† | Brisbane Centre | 132.450 | BN-WEG_CTR |
 | Carnarvon† | Brisbane Centre | 133.800 | BN-CVN_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
 
@@ -28,7 +28,7 @@ ISA is responsible for **ARA**, **STR**, **WEG**, and **CVN** when they are offl
 ## Extending
 
 !!! Warning
-    As per [VATPAC Ratings and Controller Positions Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), BN-ISA_CTR is only permitted to extend to adjacent **YBBB** sectors.
+    As per [VATPAC Air Traffic Services Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), BN-ISA_CTR is only permitted to extend to adjacent **YBBB** sectors.
 
 ## Sector Responsibilities
 ISA and its subsectors are purely Classes A, E and G of airspace. [Standard separation procedures](../../../separation-standards) apply.

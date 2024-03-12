@@ -10,8 +10,9 @@
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
 | **Canberra Approach East**    |**CBE**| **Canberra Approach**   | **124.500**         | **CB_APP**     |
 | Canberra Approach West†   |CBW| Canberra Approach   | 125.900          | CB-W_APP    |
+| Canberra Flow†        |  |                |          | CB_FMP                              |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
 The Vertical limits of the CB TCU are `SFC` to `F245`.

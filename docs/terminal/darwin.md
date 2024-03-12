@@ -11,7 +11,8 @@
 | **Darwin Approach East**    |**DAE**| **Darwin Approach**  | **125.200**         | **DN_APP**          |
 | Darwin Approach West†   |DAW| Darwin Approach   | 134.100         | DN-W_APP                                  |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies){target=new}
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+
 ## Airspace
 ### TCU
 DN TCU owns the airspace within a 40NM radius of the DN DME from `SFC`–`FL180`  
