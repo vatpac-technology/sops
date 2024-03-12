@@ -15,7 +15,7 @@
 | Noosa† | Brisbane Centre | 124.100 | BN-NSA_CTR |
 | Keppel† | Brisbane Centre | 125.900 | BN-KPL_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
 

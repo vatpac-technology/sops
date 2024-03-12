@@ -10,7 +10,7 @@
 | **Tailem Bend** | **Melbourne Centre** | **123.050** | **ML-TBD_CTR** |
 | Augusta† | Melbourne Centre | 127.050 | ML-AUG_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
 

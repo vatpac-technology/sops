@@ -57,7 +57,7 @@ NTTT - Tahiti Oceanic
 | Indian East† | Brisbane Radio | 123.650 | ML-INE_FSS |
 | Indian South† | Brisbane Radio | 123.200 | ML-INS_FSS |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
 
 COL, FLD, and HWE can be split off from TSN. INE and INS can be split off from IND.
     
