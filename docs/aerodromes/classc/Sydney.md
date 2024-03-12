@@ -16,7 +16,7 @@
 | **Sydney ACD**         | **Sydney Delivery**| **133.800**          | **SY_DEL**                                   |
 | Sydney ATIS        |                | 126.250          | YSSY_ATIS                                |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)  
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)  
 
 ## Airspace
 SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005` as shown below.
@@ -307,7 +307,7 @@ When SODPROPS are in operation, the ATIS OPR INFO shall include:
 Sydney Coordinator is activated when required to reduce frequency congestion on SMC and to ensure compliance with pre-determined slot times as necessary. The position is rarely used on VATSIM and is only beneficial with the large amounts of traffic only seen during annual events like WorldFlight. When Coordinator is online, all departures are first directed to them prior to contacting SMC.
 
 !!! important
-    Sydney Coordinator is a non-standard position which may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies).
+    Sydney Coordinator is a non-standard position which may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies).
 
 !!! example
     **VOZ543**: "Sydney Delivery, VOZ543, PDC read back"  

@@ -15,7 +15,7 @@
 | Grove† | Melbourne Centre | 133.800 | ML-GVE_CTR |
 | Geraldton† | Melbourne Centre | 134.200 | ML-GEL_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
 ## Airspace
 <figure markdown>
 ![Pingelly Airspace](../assets/piy.png){ width="700" }

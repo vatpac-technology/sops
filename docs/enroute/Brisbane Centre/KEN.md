@@ -13,7 +13,7 @@
 | Tabletop† | Brisbane Centre | 120.550 | BN-TBP_CTR |
 | Swampy† | Brisbane Centre | 133.200 | BN-SWY_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Ratings and Controller Positions Policy](https://vatpac.org/publications/policies)
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
 
 ## Airspace
 
