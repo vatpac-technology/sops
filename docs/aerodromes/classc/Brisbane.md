@@ -22,6 +22,7 @@
 BN ADC is not responsible for any airspace by default.
 
 ## Maneuvering Area Responsibility
+There are three SMC positions at Brisbane which are responsible for various parts of the maneuvering area, as shown below.
 
 <figure markdown>
 ![YBBN Maneuvering Area North](img/ybbn_maneuvring_area_north.png){ width="500" }
@@ -34,15 +35,31 @@ BN ADC is not responsible for any airspace by default.
 </figure>
 
 ## Standard Taxi Routes
-
 Taxiway A is to be used in the same direction as the duty runway. Taxiway B is to be used in the opposite direction to the duty runway.
 
 Taxiway Y is to be used in a westerly direction and Taxiway Z in an easterly direction.
+
+!!! tip
+    Aircraft vacating runway 19R may conflict with aircraft taxiing outbound via taxiway Yankee as they turn onto taxiway Sierra. Consider instructing departing aircraft to hold short of Sierra until the conflict can be resolved.  
+    
+    A similar conflict may exist between aircraft taxiing inbound via taxiway Zulu and aircraft taxiing outbound for runway 19L. Consider instructing inbound aircraft to hold short of taxiway Y1, allowing the use of Y1 and Charlie in case of a queue for holding point A3.
 
 <figure markdown>
 ![YBBN Taxi Route](img/ybbn_taxi_routes.png){ width="500" }
   <figcaption>Standard Taxi Routes</figcaption>
 </figure>
+
+### SMC Frequency Change Instructions
+To minimise conflict in the next SMC area of responsibility, aircraft should be instructed to hold short of predetermined taxiways and instructed to contact the next SMC controller (for international aircraft or less-experienced pilots) or allowed to transfer to the next frequency independently (for domestic aircraft).
+
+| Originating SMC | Receiving SMC  | Taxi Instruction |
+| ----------------| --------- | ---------- |
+| SMC Domestic | SMC North | Hold short W |
+| SMC North | SMC Domestic | Hold short B4 |
+| SMC Domestic | SMC South | Hold short B7 |
+| SMC South | SMC Domestic | Hold short B6 |
+
+When aircraft wish to cross runway 01R/19L and taxi to/from eastern General Aviation Maintenance Area via taxiway H3, they should be instructed to hold short of the runway and contact the next SMC.
 
 ## Runway Modes
 Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
