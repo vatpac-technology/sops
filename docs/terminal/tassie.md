@@ -27,7 +27,7 @@
 The Airspace on and west of the IRSOM-MORGO track `F125`-`F245` is permanently released from LTA to HUO, unless coordinated otherwise.
 
 <figure markdown>
-![LTA Release](../img/ltarls.png){ width="500" }
+![LTA Release](img/ltarls.png){ width="500" }
   <figcaption>LTA Release</figcaption>
 </figure>
 
