@@ -241,3 +241,10 @@
 *[DNGR]: Point Danger
 *[IAS]: Indicated Airspeed
 *[PNL]: Port Noarlunga
+*[SFL]: Sydney Flow
+*[MFL]: Melbourne Flow
+*[AFL]: Adelaide Flow
+*[BFL]: Brisbane Flow
+*[CSF]: Cairns Flow
+*[CBF]: Canberra Flow
+*[PFL]: Perth Flow
