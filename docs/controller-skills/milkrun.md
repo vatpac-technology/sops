@@ -41,8 +41,11 @@ In order to protect common Runway Exit Taxiways, Consider instructing aircraft t
 
 #### YSSY
 In order to protect common Runway Exit Taxiways, Consider instructing aircraft taxiing:  
-- Northbound on Taxiway `B`, to Hold Short of Taxiway `B9` *(34 in use)*, or Taxiway `B7` *(16 in use)*  
+- Northbound on Taxiway `B`, to Hold Short of Taxiway `B8`  
 - Southbound on Taxiway `A`, to Hold Short of Taxiway `A2` *(34 in use)*, or Taxiway `A4` *(16 in use)*
+
+!!! note
+    Utilising these hold short instructions also opens up the availability of taxiways `J` and `Y` as alternative taxi routes on the International terminal side
 
 ## ADC
 ### Runway Modes
@@ -85,6 +88,9 @@ ADC should be aiming for **90 second** spacing between subsequent departures in 
 ### Line Up
 It is best practice for ADC to line-up aircraft on the runway as soon as possible, ie, as soon as the landing aircraft has passed them, or as soon as the departing aircraft has started to roll. This minimises time spent waiting for aircraft to taxi in to position, and potentially cause gaps in the sequence and/or go-arounds.
 
+!!! suggestion
+    Appending the phrase "Be ready immediate" to the end of a line up instruction can ensure the pilot has all checklists completed, and is ready to commence takeoff roll as soon as the clearance is given. This reduces airborne delays, and potential go-around situations
+
 ## TMA
 In theory, aircraft should already be nicely sequenced when they enter your airspace, however, this is not always the case. There can also be additional aircraft that come in from other directions that need to be added to the sequence, which can make things challenging.
 
@@ -124,6 +130,13 @@ Depending on the Runway Mode, additional portions of airspace may be released be
 ![SDN West Release](img/16sdnrls.png){ width="700" }
   <figcaption>SDN West Release</figcaption>
 </figure>
+
+### Go-arounds
+When there is a go-around in the middle of a bumper-to-bumper sequence, a fair bit of work needs to be done. Obviously there is the additional work of having to vector the aircraft that has gone around back for an approach, but also trying to find a gap for them in the sequence, where none such gap currently exists. This is an important time to use coordination, and get the Enroute controller to create one for you.
+
+!!! example
+    <span class="hotline">**MAE** -> **ELW**</span>: "We've had a Go around. Additional 2 minute delay for all aircraft in this sequence please."  
+    <span class="hotline">**ELW** -> **MAE**</span>: "Copy, additional 2 minute delay for all aircraft in this sequence."  
 
 ## Enroute
 ### Early Handoffs
@@ -216,6 +229,7 @@ It may already be too late! And to make matters worse, if you wait too long to a
 Regular Coordination with your peers is critical to the efficient operation of a Milk Run. Not only from a control perspective (eg, asking for an early handoff, requesting an amended route, suggested heading for separation between TMA/ENR, etc), but also from a more long-term event management perspective. If things are getting too busy in your airspace, or are about to get very busy, you may elect to:  
 - Ask the ADC controller for additional departure spacing  
 - Temporarily Stop departures  
-- Ask the adjacent Enroute controller for additional spacing
+- Ask the adjacent Enroute controller for additional spacing  
+- (As the TMA Controller) Ask the Enroute controller for an additional **2 minute delay for all aircraft**, due to a **go-around**
 
-It is also important to not accept aircraft that are in conflict! If the TMA controller is trying to handoff three aircraft pointed at each other at the same level, give them a call on the Hotline, and ask them to fix it before handing off to you. Of course you may offer/suggest a solution, but it should not be your conflict to solve.
+It is also important to not accept aircraft that are in conflict! If the TMA controller is trying to handoff two aircraft pointed at each other at the same level, give them a call on the Hotline, and ask them to fix it before handing off to you. Of course you may offer/suggest a solution, but it should not be your conflict to solve.
