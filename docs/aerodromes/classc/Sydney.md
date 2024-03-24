@@ -209,7 +209,6 @@ Unless operationally required, aircraft shall be assigned the following runways 
 | via OLSEM | 16L/34R |
 | Other aircraft: |
 | To the NORTH and EAST | 16L/34R |
-| Jets To the SOUTH WEST | 16R/**34R** |
 | Non-Jets To the SOUTH WEST | 16R/34L |
 | To the WEST | 16R/34L |
 
