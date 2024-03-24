@@ -209,8 +209,7 @@ Unless operationally required, aircraft shall be assigned the following runways 
 | via OLSEM | 16L/34R |
 | Other aircraft: |
 | To the NORTH and EAST | 16L/34R |
-| Non-Jets To the SOUTH WEST | 16R/34L |
-| To the WEST | 16R/34L |
+| To the SOUTH and WEST | 16R/34L |
 
 !!! note
     During times of heavy traffic, it may be beneficial for ACD to balance the load between Runways 34L and 34R for domestic jet departures via WOL. Non-jet departures via WOL should still be processed on 34L. The same principle may be applied to the Runway 16 direction when the 16R holding points are becoming congested and a large amount of heavy, international aircraft are planned to depart during a given window.  
