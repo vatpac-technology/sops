@@ -203,17 +203,16 @@ Unless operationally required, aircraft shall be assigned the following runways 
 | Aircraft tracking | Runway  |
 | ----------------| --------- |
 | via KADOM   | 16R/34L      |
-| via WOL | 16R/34L |
-| via RIC| 16R/34L |
-| via PEGSU| 16R/34L |
+| Jets via WOL | 16R/**34R** |
+| Non-Jets via WOL | 16R/34L |
+| via RIC | 16R/34L |
 | via OLSEM | 16L/34R |
-| via KAMBA | 16L/34R |
 | Other aircraft: |
 | To the NORTH and EAST | 16L/34R |
 | To the SOUTH and WEST | 16R/34L |
 
 !!! note
-    During times of heavy traffic, crossing domestic departures over Runway 34L can cause delays. In these situations, it may be beneficial for ACD to balance the load between Runways 34L and 34R for domestic jet departures via WOL. Non-jet departures via WOL should still be processed on 34L. The same principle may be applied to the Runway 16 direction when the 16R holding points are becoming congested and a large amount of heavy, international aircraft are planned to depart during a given window.  
+    During times of heavy traffic, it may be beneficial for ACD to balance the load between Runways 34L and 34R for domestic jet departures via WOL. Non-jet departures via WOL should still be processed on 34L. The same principle may be applied to the Runway 16 direction when the 16R holding points are becoming congested and a large amount of heavy, international aircraft are planned to depart during a given window.  
 
     Where the traffic levels are normal, preference should be given to departing aircraft in accordance with the runway selection table above.
 
@@ -276,7 +275,7 @@ Unless operationally required, aircraft shall be assigned the following runways 
 Climb Gradient Requirements apply to all Procedural SIDs. It is the pilot's responsibility to advise if they are unable to meet these requirements. Pilots that advise this can be assigned a **RADAR** SID instead.
 
 ## ATIS
-#### Approach Types
+### Approach Types
 
 | Cloud Base             | Visibility     | Approach                             |
 | -----------------------| -------------- | -------------------------------------|
@@ -287,7 +286,7 @@ Climb Gradient Requirements apply to all Procedural SIDs. It is the pilot's resp
 When Independent Visual Approaches are run during PROPS, the APCH field must also include:  
 `DO NOT PASS THRU ASSIGNED RWY CL`
 
-#### Operational Info
+### Operational Info
 
 When parallel runways are used for departures but inbound traffic levels don't necessitate independent approaches (low traffic levels), the ATIS OPR INFO shall include:  
 `INDEP PARL DEPS IN PROG`  
