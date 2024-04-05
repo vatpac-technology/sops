@@ -21,6 +21,7 @@ DN TCU is also responsible for Active Restricted Area R264 A-K and R230 A-F
 
 DAW may request DN TCU (`SFC`–`F240`) from TRT to facilitate military transits to/from R264 A-K and R230 A-F  
 
+### Airspace Division
 When both DN TCU positions are opened, DN TCU is split east and west along the runway 18/36 extended centreline. DAW owns the airspace to the west of the line and DAE owns the airspace to the east of the line  
 
 <figure markdown>
@@ -29,7 +30,6 @@ When both DN TCU positions are opened, DN TCU is split east and west along the r
 </figure>
 
 ### ADC
-
 ADC owns the airspace within the DN CTR (`SFC`–`A010`). This airspace is designed to facilitate the processing of helicopter scenic flights and low-level helicopter circuits.  
 The CTR extends 7NM from the thresholds of runways 11 and 29 but does not including the Robertson Barracks transit zone.  
 
