@@ -26,6 +26,24 @@ JT CTR reverts to Class G when **JT ADC** is offline, and is administered by the
 
 See also: [JT ADC Offline](#jtpea-adc-offline).
 
+### Airspace Division
+The divisions of the airspace between **PHA**, and **PHD** change based on the Runway Mode.
+
+!!! note
+    The following diagrams do not include non PH TCU areas of responsibility such as JT CTR or PEA APP
+
+#### 03/06
+<figure markdown>
+![03/06 TCU Structure](img/PH0306annotated.png){ width="700" }
+  <figcaption>03/06 TCU Structure</figcaption>
+</figure>
+
+#### 21/24
+<figure markdown>
+![21/24 TCU Structure](img/PH2124annotated.png){ width="700" }
+  <figcaption>21/24 TCU Structure</figcaption>
+</figure>
+
 ## Runway Modes
 Generally, YPPH operates on either the Southwest or Northeast runway plan, as below. Where strong winds dictate the use of only a single runway, this shall be nominated in the ATIS.
 
@@ -97,24 +115,6 @@ Aircraft departing the TMA to the south planned at `F130` or above will likely l
 !!! example
     **PHD**: "RXA2125, leave and re-enter controlled airspace on climb to F180, no reported IFR traffic"  
     **RXA2125**: "Leave and re-enter controlled airspace on climb to F180, RXA2125"
-
-## Airspace Division
-The divisions of the airspace between **PHA**, and **PHD** change based on the Runway Mode.
-
-!!! note
-    The following diagrams do not include non PH TCU areas of responsibility such as JT CTR or PEA APP
-
-### 03/06
-<figure markdown>
-![03/06 TCU Structure](img/PH0306annotated.png){ width="700" }
-  <figcaption>03/06 TCU Structure</figcaption>
-</figure>
-
-### 21/24
-<figure markdown>
-![21/24 TCU Structure](img/PH2124annotated.png){ width="700" }
-  <figcaption>21/24 TCU Structure</figcaption>
-</figure>
 
 ## Coordination
 
