@@ -17,18 +17,6 @@
 
 ## Airspace
 The Vertical limits of the ML TCU are `SFC` to `F245`.  
-ML TCU is responsible for the Melbourne TCU, except:    
-a) The Sunbury Corridor, when **ML ADC** is online  
-b) The South East Quadrant, when **EN ADC** is online  
-c) The Coffin, when **EN ADC** is online, and the airspace has been released to **EN ADC**  
-
-<figure markdown>
-![Melbourne TCU Airspace Administration](img/MLTCUairspace.png){ width="500" }
-  <figcaption>Melbourne TCU Airspace Administration</figcaption>
-</figure>
-
-!!! note
-    The released airspace of the Sunbury Corridor and South East Quadrant is only from the lower level of CTA. ML TCU still owns the Class G airspace beneath it.
 
 ### Reclassifications
 #### MB CTR
@@ -40,6 +28,42 @@ See also: [MB ADC Offline](#mb-adc-offline).
 AV CTR Class D `SFC` to `A007` reverts to Class G and `A007` to `A025` to Class E when **AV ADC** is offline, and is administered by the relevant ML TCU controller.
 
 See also: [AV ADC Offline](#av-adc-offline).
+
+### Airspace Division
+The divisions of the airspace between **MAE**, **MDN**, and **MDS** change based on the Runway Mode.
+
+!!! note
+    The following diagrams do not include non ML TCU areas of responsibility such as MB CTR or AV ADC
+
+#### 09
+<figure markdown>
+![09 TCU Structure](img/ML09annotated.png){ width="700" }
+  <figcaption>09 TCU Structure</figcaption>
+</figure>
+
+#### 09A16D
+<figure markdown>
+![09A16D TCU Structure](img/ML09A16Dannotated.png){ width="700" }
+  <figcaption>09A16D TCU Structure</figcaption>
+</figure>
+
+#### 16 / 16A27D
+<figure markdown>
+![16 / 16A27D TCU Structure](img/ML16annotated.png){ width="700" }
+  <figcaption>16 / 16A27D TCU Structure</figcaption>
+</figure>
+
+#### 27 / 27AD34D
+<figure markdown>
+![27 / 27AD34D TCU Structure](img/ML27annotated.png){ width="700" }
+  <figcaption>27 / 27AD34D TCU Structure</figcaption>
+</figure>
+
+#### 34
+<figure markdown>
+![34 TCU Structure](img/ML34annotated.png){ width="700" }
+  <figcaption>34 TCU Structure</figcaption>
+</figure>
 
 ## Departure Procedures
 ### ML (RADAR) SID
@@ -158,42 +182,6 @@ Due to the low level of CTA surrounding YMMB, it is best practice to give airway
     **ML TCU:** "AAC, cleared to YBLT via SAMIG, flight planned route, climb to A040"  
     **AAC:** "Cleared to YBLT via SAMIG, flight planned route, climb to A040, AAC"
 
-## Airspace Division
-The divisions of the airspace between **MAE**, **MDN**, and **MDS** change based on the Runway Mode.
-
-!!! note
-    The following diagrams do not include non ML TCU areas of responsibility such as MB CTR or AV ADC
-
-### 09
-<figure markdown>
-![09 TCU Structure](img/ML09annotated.png){ width="700" }
-  <figcaption>09 TCU Structure</figcaption>
-</figure>
-
-### 09A16D
-<figure markdown>
-![09A16D TCU Structure](img/ML09A16Dannotated.png){ width="700" }
-  <figcaption>09A16D TCU Structure</figcaption>
-</figure>
-
-### 16 / 16A27D
-<figure markdown>
-![16 / 16A27D TCU Structure](img/ML16annotated.png){ width="700" }
-  <figcaption>16 / 16A27D TCU Structure</figcaption>
-</figure>
-
-### 27 / 27AD34D
-<figure markdown>
-![27 / 27AD34D TCU Structure](img/ML27annotated.png){ width="700" }
-  <figcaption>27 / 27AD34D TCU Structure</figcaption>
-</figure>
-
-### 34
-<figure markdown>
-![34 TCU Structure](img/ML34annotated.png){ width="700" }
-  <figcaption>34 TCU Structure</figcaption>
-</figure>
-
 ## Coordination
 
 ### Enroute
@@ -242,7 +230,12 @@ The following Standard Assignable Headings may be used for aircraft assigned the
 
 ### EN ADC
 #### Airspace
-EN ADC is responsible for the Class C airspace in the "Coffin" `SFC` to `A015`, and in the "South East Quadrant" `SFC` to `A020`.
+EN ADC is responsible for the Class C airspace shown below, `SFC` to `A020`.
+
+<figure markdown>
+![EN ADC Airspace](img/enadc.png){ width="700" }
+  <figcaption>EN ADC Airspace</figcaption>
+</figure>
 
 #### Start Clearance
 When an aircraft requests start clearance, the EN SMC controller shall coordinate with ML TCU to obtain the start clearance.

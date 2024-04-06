@@ -24,6 +24,7 @@ MKA may extend to RKA and vice versa, callsigns remain the same. See [Controller
     <figure markdown>
     ![Coral Combined Airspace](img/coraltcusetup.png){ width="1000" }
     </figure>
+
 ## Coordination
 
 ### Enroute

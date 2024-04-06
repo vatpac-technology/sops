@@ -23,35 +23,6 @@ Except when the traffic situation warrants, taxi clearances shall conform to the
 ## Airspace
 ML ADC is not responsible for any airspace by default.
 
-### Sunbury Corridor
-**ML ADC** may request a release of the Sunbury Corridor from ML TCU, to facilitate movements of Day VFR Helicopters.
-
-<figure markdown>
-![Melbourne TCU Airspace Administration](img/MLTCUairspace.png){ width="500" }
-  <figcaption>Melbourne TCU Airspace Administration</figcaption>
-</figure>
-
-Due to the close proximity of the airspace to the arrival and departure paths at YMML, controllers should be aware of surrounding traffic before issuing a clearance to helicopters.
-
-!!! example
-    **HM3:** "Melbourne Tower, HM3, approaching SWT, A020, for YMEN via the Sunbury Corridor, request clearance"  
-    **ML ADC:** "HM3, cleared to YMEN, track Sunbury Corridor, not above A020"  
-    **HM3:** "Cleared to YMEN, track Sunbury Corridor, not above A020, HM3"
-
-If necessary, consider issuing a clearance limit for separation or instruct helicopters to report sighting and to maintain own separation with other aircraft.  Alternatively, tower controllers can simulate visual separation provided no risk of collision exists and both aircraft remain in sight of the controller at all times. 
-
-!!! example
-    **ML ADC:** "HM3, report sighting a Jetstar A320, 4nm final runway 16"  
-    **HM3:** "Traffic sighted, HM3"  
-    **ML ADC:** "HM3, pass behind that aircraft, maintain own separation, caution wake turbulence"  
-    **HM3:** "Pass behind the A320, maintain own separation, HM3"
-
-Remember to pass traffic information to both aircraft.
-
-!!! example
-    **ML ADC:** "JST515, traffic is a helicopter, 2nm northwest of the field, tracking for Essendon and maintaining own separation with you, runway 16, cleared to land"  
-    **JST515:** "Runway 16, cleared to land, JST515"
-
 ## Runway Modes
 If winds are too great, single runway operations may be necessary (eg, Runway 16 for Arrivals and Departures). However, pending wind limitations (Crosswind <20kts, Tailwind <5kts), the following runway modes are to be used
 
@@ -125,6 +96,42 @@ Whilst this is used to reduce frequency congestion on SMC in the real world, coo
 
 In light of this, the use of this operational info should be avoided.
 
+## Miscellaneous
+### Sunbury Corridor
+Day VFR Helicopters may request clearance via the **Sunbury Corridor**. It is defined as the corridor 1nm either side of a track from SWT - PWLC - 16/27 Intersection at YMML.
+
+<figure markdown>
+![Sunbury Corridor](img/sunburycorridor.png){ width="700" }
+  <figcaption>Sunbury Corridor</figcaption>
+</figure>
+
+Boundary Coordination must be completed to ML TCU for clearances in this airspace
+
+!!! example
+    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "For Ident, HM3, Sunbury Corridor, not above A020"  
+    <span class="hotline">**ML TCU** -> **ML ADC**</span>: "HM3, No Restrictions"  
+
+Due to the close proximity of the airspace to the arrival and departure paths at YMML, controllers should be aware of surrounding traffic before issuing a clearance to helicopters.
+
+!!! example
+    **HM3:** "Melbourne Tower, HM3, approaching SWT, A020, for YMEN via the Sunbury Corridor, request clearance"  
+    **ML ADC:** "HM3, cleared to YMEN, track Sunbury Corridor, not above A020"  
+    **HM3:** "Cleared to YMEN, track Sunbury Corridor, not above A020, HM3"
+
+If necessary, consider issuing a clearance limit for separation or instruct helicopters to report sighting and to maintain own separation with other aircraft.  Alternatively, tower controllers can simulate visual separation provided no risk of collision exists and both aircraft remain in sight of the controller at all times. 
+
+!!! example
+    **ML ADC:** "HM3, report sighting a Jetstar A320, 4nm final runway 16"  
+    **HM3:** "Traffic sighted, HM3"  
+    **ML ADC:** "HM3, pass behind that aircraft, maintain own separation, caution wake turbulence"  
+    **HM3:** "Pass behind the A320, maintain own separation, HM3"
+
+Remember to pass traffic information to both aircraft.
+
+!!! example
+    **ML ADC:** "JST515, traffic is a helicopter, 2nm northwest of the field, tracking for Essendon and maintaining own separation with you, runway 16, cleared to land"  
+    **JST515:** "Runway 16, cleared to land, JST515"
+
 ## Coordination
 ### Auto Release
 !!! important
@@ -172,3 +179,11 @@ Any runway change must be prior coordinated to **MAE** and **EN ADC**.
 
 ### Departures Controller
 Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
+
+### EN ADC
+EN ADC is responsible for separation with all YMML traffic, and will coordinate any aircraft operating in EN ADC airspace that cannot be visually or laterally separated with YMML traffic.
+
+!!! example 
+    <span class="hotline">**EN ADC** -> **ML ADC**</span>: "Boundary Ident, OXG, Published Missed Approach from the ILS 26"  
+    <span class="hotline">**ML ADC** -> **EN ADC**</span>: "OXG, My restriction is QFA451 on a 10nm final RWY 34. Your separation"  
+    <span class="hotline">**EN ADC** -> **ML ADC**</span>: "My separation with QFA451, OXG"

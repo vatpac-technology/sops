@@ -34,6 +34,30 @@ See also: [CG ADC Offline](#cg-adc-offline).
 ### Airspace Structural Arrangements
 Pursuant to Section 3 of the [VATPAC Air Traffic Services Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), **“North”**/**”West”** positions shall assume the airspace of corresponding **“South”**/**”East”** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
 
+### Airspace Division
+The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **BAC** change based on the Runway Mode.
+
+!!! note
+    The following diagrams do not include non BN TCU areas of responsibility such as AF CTR or CG ADC
+
+#### 01 PROPS
+<figure markdown>
+![01 PROPS TCU Structure](img/bn01props.png){ width="700" }
+  <figcaption>01 PROPS TCU Structure</figcaption>
+</figure>
+
+#### 19 PROPS
+<figure markdown>
+![19 PROPS TCU Structure](img/bn19props.png){ width="700" }
+  <figcaption>19 PROPS TCU Structure</figcaption>
+</figure>
+
+#### SODPROPS
+<figure markdown>
+![SODPROPS TCU Structure](img/bnsodprops.png){ width="700" }
+  <figcaption>SODPROPS TCU Structure</figcaption>
+</figure>
+
 ## Parallel Runway Operations
 Refer to [Parallel Runway Separation Standards](../../separation-standards/parallelapps) for more information
 ### Runway Selection
@@ -79,30 +103,6 @@ Due to the low level of CTA (`A035`) in the CG CTR when **CG ADC** is offline, i
     **JST446**: "JST446, Ready Runway 14, Request clearance"  
     **BN TCU**: "JST446, Cleared to YSSY via APAGI, Flight Planned Route. Climb to A060"  
     **JST446**: "Cleared to YSSY via APAGI, Flight Planned Route. Climb to A060, JST446"
-
-## Airspace Division
-The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **BAC** change based on the Runway Mode.
-
-!!! note
-    The following diagrams do not include non BN TCU areas of responsibility such as AF CTR or CG ADC
-
-### 01 PROPS
-<figure markdown>
-![01 PROPS TCU Structure](img/bn01props.png){ width="700" }
-  <figcaption>01 PROPS TCU Structure</figcaption>
-</figure>
-
-### 19 PROPS
-<figure markdown>
-![19 PROPS TCU Structure](img/bn19props.png){ width="700" }
-  <figcaption>19 PROPS TCU Structure</figcaption>
-</figure>
-
-### SODPROPS
-<figure markdown>
-![SODPROPS TCU Structure](img/bnsodprops.png){ width="700" }
-  <figcaption>SODPROPS TCU Structure</figcaption>
-</figure>
 
 ## Coordination
 ### Enroute
