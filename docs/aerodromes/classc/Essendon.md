@@ -82,6 +82,8 @@ Some important points to note are that:
 EN ADC must assume that **any runway** at YMML may be used for arrival, departure, or a missed approach, **at any time**.  
 When the cloud base is below **A020**, or the Visibility is below **5000m**, all aircraft operating within **3nm** of the 09/27 or 16/34 extended centreline must be [boundary coordinated](../../../controller-skills/coordination/#boundary) to ML ADC, as prescribed in [Coordination](#ml-adc)
 
+If ML ADC nominates a restriction, and EN ADC determines they **cannot** maintain visual or lateral separation with the YMML traffic, EN ADC must delay the aircraft in their airspace until the separation can be assured. 
+
 ## Miscellaneous
 Traffic in EN ADC airspace shall squawk 0100 unless a discrete code is required.
 
