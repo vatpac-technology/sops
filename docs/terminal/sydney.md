@@ -59,6 +59,48 @@ SRI is responsible for the provision of FIS in Class G airspace within the SY TM
 !!! example
     During a busy event, Sydney Departures is experiencing a high workload and wishes to delegate the SRI role to another TMA controller who isn't as busy.  SAN's sector is quiet, so they elect to perform the role.
 
+### Airspace Division
+The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW** and **SFE** change based on the Runway Mode.
+
+!!! note
+    The following diagrams do not include non SY TCU areas of responsibility such as BK CTR or CN CTR
+
+#### Side Profile
+<figure markdown>
+![SY TCU Side Profile](img/syside.png){ width="700" }
+  <figcaption>SY TCU Side Profile</figcaption>
+</figure>
+
+#### 07
+<figure markdown>
+![07 TCU Structure](img/sy07.png){ width="700" }
+  <figcaption>07 TCU Structure</figcaption>
+</figure>
+
+#### 16 PROPS
+<figure markdown>
+![16 PROPS TCU Structure](img/sy16PROPS.png){ width="700" }
+  <figcaption>16 PROPS TCU Structure</figcaption>
+</figure>
+
+#### 25
+<figure markdown>
+![25 TCU Structure](img/sy25.png){ width="700" }
+  <figcaption>25 TCU Structure</figcaption>
+</figure>
+
+#### 34 PROPS
+<figure markdown>
+![34 PROPS TCU Structure](img/sy34PROPS.png){ width="700" }
+  <figcaption>34 PROPS TCU Structure</figcaption>
+</figure>
+
+#### SODPROPS
+<figure markdown>
+![SODPROPS TCU Structure](img/sySODPROPS.png){ width="700" }
+  <figcaption>SODPROPS TCU Structure</figcaption>
+</figure>
+
 ## Arrival Procedures
 ### STAR and Runway Assignment
 Sequencing of arrivals into YSSY is a joint responsibility of ARL and BIK, with input from SY TCU.
@@ -265,48 +307,6 @@ Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, i
     **ABC**: "LOA, ready Runway 11C"  
     **SY TCU**: "LOA, cleared to YSHL via ANKUB, flight planned route, Bankstown 8 Departure, climb via SID A030"  
     **LOA**: "Cleared to YSHL via ANKUB, flight planned route, Bankstown 8 Departure, climb via SID A030, LOA"
-
-## Airspace Division
-The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW** and **SFE** change based on the Runway Mode.
-
-!!! note
-    The following diagrams do not include non SY TCU areas of responsibility such as BK CTR or CN CTR
-
-### Side Profile
-<figure markdown>
-![SY TCU Side Profile](img/syside.png){ width="700" }
-  <figcaption>SY TCU Side Profile</figcaption>
-</figure>
-
-### 07
-<figure markdown>
-![07 TCU Structure](img/sy07.png){ width="700" }
-  <figcaption>07 TCU Structure</figcaption>
-</figure>
-
-### 16 PROPS
-<figure markdown>
-![16 PROPS TCU Structure](img/sy16PROPS.png){ width="700" }
-  <figcaption>16 PROPS TCU Structure</figcaption>
-</figure>
-
-### 25
-<figure markdown>
-![25 TCU Structure](img/sy25.png){ width="700" }
-  <figcaption>25 TCU Structure</figcaption>
-</figure>
-
-### 34 PROPS
-<figure markdown>
-![34 PROPS TCU Structure](img/sy34PROPS.png){ width="700" }
-  <figcaption>34 PROPS TCU Structure</figcaption>
-</figure>
-
-### SODPROPS
-<figure markdown>
-![SODPROPS TCU Structure](img/sySODPROPS.png){ width="700" }
-  <figcaption>SODPROPS TCU Structure</figcaption>
-</figure>
 
 ## Coordination
 ### Enroute

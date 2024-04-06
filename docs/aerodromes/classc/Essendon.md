@@ -12,18 +12,16 @@
 | Essendon ATIS     |                  | 119.800         | YMEN_ATIS                                |
 
 ## Airspace
-EN ADC is responsible for the Class C airspace in the "Coffin" `SFC` to `A015`, and in the "South East Quadrant" `SFC` to `A020`.
+EN ADC is responsible for the Class C airspace shown below, `SFC` to `A020`.
 
 <figure markdown>
-![EN ADC Airspace](img/ENTWR.png){ width="500" }
-</figure>
-
-<figure markdown>
-![EN ADC ML Airspace](img/MLTCUairspace.png){ width="500" }
+![EN ADC Airspace](img/enadc.png){ width="700" }
 </figure>
 
 ## Runway Selection
 Consideration of the Melbourne duty runway(s) should be made when nominating runways. The effect of Melbourne traffic on a runway selection takes priority over compliance with DAP Noise Abatement Procedures.
+
+The 26A17D runway mode is most optimal for facilitating separation with YMML traffic.
 
 ## Departures
 IFR flights shall be cleared via:  
@@ -75,16 +73,16 @@ VFR arrivals from Class G shall be cleared (at not above `A015`) via:
 Circuits are to be flown at `A015`
 
 ## Separation
+EN ADC is responsible for **all separation** with YMML Traffic, including arrivals to RWY34 via the MONTY-SHEED track, and all potential arrivals, departures, and missed approach paths.  
+Some important points to note are that:  
+- Aircraft operating on or south of the 08/26 Centreline are separated with YMML 09/27 Traffic at all times  
+- Aircraft operating on or east of the 17/35 Centreline are **only** visually separated with YMML 16/34 Traffic in **Day VMC**  
+- Aircraft conducting the ILS 26 Published Missed Approach are **only** visually separated with YMML 16/34 Traffic in **Day VMC**
 
-### Separation with SHEED Track
-By day only, ML TCU may require EN ADC to separate aircraft from the MONTY – SHEED track for RWY 34 ML during the Next call. EN ADC shall separate by restricting the departure to `A015` until clear of the MONTY – SHEED track.
+EN ADC must assume that **any runway** at YMML may be used for arrival, departure, or a missed approach, **at any time**.  
+When the cloud base is below **A020**, or the Visibility is below **5000m**, all aircraft operating within **3nm** of the 09/27 or 16/34 extended centreline must be [boundary coordinated](../../../controller-skills/coordination/#boundary) to ML ADC, as prescribed in [Coordination](#ml-adc)
 
-### Additional EN ADC separation requirements
-EN TWR shall separate traffic in EN airspace with:  
-a) ML RWY 27 Arrivals and ML RWY 09 Departures on or north of ML RWY 09 / 27 centreline;  
-b) ML RWY 34 arrivals and ML RWY 16 Departures on or west of ML RWY 16 / 34 centreline;  
-c) ML RWY 34 arrivals from overhead EN;  
-d) EN arrivals from ML TCU inbound via Arrival Gates or as coordinated.  
+If ML ADC nominates a restriction, and EN ADC determines they **cannot** maintain visual or lateral separation with the YMML traffic, EN ADC must delay the aircraft in their airspace until the separation can be assured. 
 
 ## Miscellaneous
 Traffic in EN ADC airspace shall squawk 0100 unless a discrete code is required.
@@ -95,7 +93,7 @@ EN ADC is responsible for facilitating aircraft requesting city orbits. They sha
 `A022` by night
 
 !!! example
-    **EOG**: "Essendon Tower, EOG, approaching Williamstown, A015, Requesting 1 left-hand city orbit, in receipt of L"  
+    **EOG**: "Essendon Tower, EOG, approaching WMS, A015, Requesting 1 left-hand city orbit, in receipt of L"  
     **EN ADC**: "EOG, Essendon Tower, cleared 1 left-hand city orbit A015"  
     **EOG**: "Cleared 1 left-hand city orbit A015, EOG"  
     *When orbit is complete and aircraft is leaving CTA laterally:*  
@@ -140,6 +138,9 @@ When “The Coffin” is released, ML TCU is required to coordinate any use of R
 Any Runway change must be prior coordinated to **ML TCU**
 
 ### ML ADC
-EN ADC must advise ML ADC when “The Coffin” is activated or deactivated.
+EN ADC is responsible for separation with all YMML traffic, and must coordinate any aircraft operating in EN ADC airspace that cannot be visually or laterally separated with the 09/27 or 16/34 Extended Centrelines at YMML.
 
-EN ADC must advise ML ADC, for traffic awareness, when an ad hoc airspace release to EN ADC will cause an aircraft to pass within 3 NM of any runway at ML.
+!!! example 
+    <span class="hotline">**EN ADC** -> **ML ADC**</span>: "Boundary Ident, OXG, Published Missed Approach from the ILS 26"  
+    <span class="hotline">**ML ADC** -> **EN ADC**</span>: "OXG, My restriction is QFA451 on a 10nm final RWY 34. Your separation"  
+    <span class="hotline">**EN ADC** -> **ML ADC**</span>: "My separation with QFA451, OXG"
