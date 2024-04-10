@@ -96,24 +96,9 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
 | IND | PIY(LEA) | YPPH | |
-| TSN/HWE | ARL(OCN) | YSSY | |
-| TSN(HWE, FLD) | INL(SDY) | YBBN, YBCG | |
+| TSN | ARL(OCN) | YSSY | |
+| FLD | INL(SDY) | YBBN, YBCG, YBSU | |
 | TSN | HUO | YMHB | |
 
 ## Coordination
-As per [Standard Coordination Rules](../../controller-skills/coordination), all aircraft must be voice coordinated prior to an airspace boundary.  
-
-Coordination with domestic sectors must be completed at least **15 minutes** prior to the boundary.  Coordination with other oceanic sectors must be completed at least **30 minutes** prior to the boundary.
-
-!!! note
-    The sector boundary between Australian and New Zealand oceanic sectors is treated as a domestic sector for the purposes of coordination, so aircraft must be coordinated at least **15 minutes** prior to the boundary.
-
-!!! example
-    <span class="coldline">**TSN** -> **NZZO_FSS**</span>: "Estimate, ANZ52, EGATO 0243, F370"  
-    <span class="coldline">**NZZO_FSS** -> **TSN**</span>: "ANZ52, F370"
-
-Any change or request regarding an aircraft which has already been coordinated with the sector must be further coordinated before being issued.  
-
-!!! example
-    <span class="hotline">**IND** -> **OLW**</span>: "Via AKALU, QFA122, requesting F310 due weather"  
-    <span class="hotline">**OLW** -> **IND**</span>: "QFA122, Concur F310"  
+As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
