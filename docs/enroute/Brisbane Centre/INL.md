@@ -75,7 +75,7 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | ARL/MNN/MDE | INL, DOS | YBBN, YBCG | |
 | KEN(SWY), ISA(CVN) | KPL | YBBN, YBCG | Jets only |
 | ISA(CVN) | DOS | YBBN, YBCG | |
-| TSN(HWE, FLD) | SDY | YBBN, YBCG | |
+| HWE, FLD | SDY | YBBN, YBCG, YBSU | |
 | KPL | BUR | YBBN, YBCG | Non-jets only |
 | INL | GOL | YBSU | |
 | NSA | KPL | YBRK, YBMK | |
@@ -189,5 +189,5 @@ All aircraft transiting from INL(All) to **OK TCU** and **AMB TCU** must be head
     <span class="hotline">**AMB TCU** -> **GOL**</span>: "STAL13, `A090`"  
     <span class="hotline">**GOL** -> **AMB TCU**</span>: "`A090`, STAL13"   
 
-### TSN(FLD/HWE) (Oceanic)
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
+### FLD (Oceanic)
+As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.

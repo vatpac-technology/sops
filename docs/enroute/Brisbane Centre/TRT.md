@@ -106,9 +106,10 @@ When CIN TCU is offline, coordination is not required between TRT(KIY) and CIN A
 CIN ADC owns the Class C airspace within the CIN MIL CTR from `SFC` to `A015`.
 
 ### IND(INE) (Oceanic)
-As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+
 ### International (WAAF)
-Coordination to International units must be done prior to **15 mins** from the boundary in the following format:
+Coordination to International units must be done prior to **30 mins** from the boundary in the following format:
 
 - *"Estimate"*
 - Callsign

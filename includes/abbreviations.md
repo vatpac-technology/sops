@@ -115,7 +115,7 @@
 *[WEG]: Brisbane (Warrego) Centre
 *[COL]: Brisbane (Coral) Radio
 *[FLD]: Brisbane (Flinders) Radio
-*[HWE]: Brisbane (Howe) Radio
+*[HWE]: Brisbane (Howe) Centre
 *[INE]: Brisbane (Indian East) Radio
 *[INS]: Brisbane (Indian South) Radio
 *[ASW]: Melbourne (Alice Springs West) Centre
@@ -251,3 +251,21 @@
 *[PWLC]: Powerline Crossing
 *[LUY]: Latrobe University
 *[WMS]: Williamstown
+*[YBBB]: Brisbane FIR
+*[YMMM]: Melbourne FIR
+*[NFFF]: Nadi FIR
+*[AGGG]: Honiara FIR
+*[ANAU]: Nauru FIR
+*[NZZO]: Auckland FIR
+*[NZCM]: McMurdo FIR
+*[KZAK]: Oakland FIR
+*[NTTT]: Tahiti FIR
+*[WAAF]: Ujung Pandang FIR
+*[WIIF]: Jakarta FIR
+*[VCCF]: Colombo FIR
+*[VRMF]: Male FIR
+*[FIMM]: Mauritius FIR
+*[FAJO]: Johannesburg FIR
+*[AYPM]: Port Moresby FIR
+*[NWWW]: Noumea FIR
+*[NVVV]: Port Vila FIR

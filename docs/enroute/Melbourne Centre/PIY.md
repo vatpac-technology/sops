@@ -118,4 +118,4 @@ That being said, it is *advised* that PIY(All) gives **Heads-up Coordination** p
 - LEA to PIY for all aircraft  
 
 ### IND (Oceanic)
-As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
