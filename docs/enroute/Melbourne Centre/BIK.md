@@ -130,4 +130,4 @@ Changes to the CFL are permitted up to the boundary for aircraft transiting BIK/
 Reserved.
 
 ### TSN (Oceanic)
-As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.

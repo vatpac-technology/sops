@@ -28,7 +28,7 @@ ISA is responsible for **ARA**, **STR**, **WEG**, and **CVN** when they are offl
 ## Extending
 
 !!! Warning
-    As per [VATPAC Air Traffic Services Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), BN-ISA_CTR is only permitted to extend to adjacent **YBBB** sectors.
+    BN-ISA_CTR is only permitted to extend to adjacent **YBBB** sectors.
 
 ## Sector Responsibilities
 ISA and its subsectors are purely Classes A, E and G of airspace. [Standard separation procedures](../../../separation-standards) apply.
@@ -70,10 +70,14 @@ SG ADC owns the Class C airspace within the SG CTR from `SFC` to `A015`.
 
 ### ISA Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
-### TSN(COL) (Oceanic)
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
 
-### International (WAAF & AYPM)
+### FLD(COL) (Oceanic)
+As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+
+### International (AYPM)
+As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+
+### International (WAAF)
 Coordination to International units must be done prior to **30 mins** from the boundary in the following format:
 
 - *"Estimate"*

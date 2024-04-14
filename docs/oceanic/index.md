@@ -34,6 +34,7 @@ NTTT - Tahiti Oceanic
 | ----------------- | --------------- | ----------------- | ----------- | 
 | KZAK - Oakland Oceanic |  San Francisco Radio | 11.282 (129.400)  |  ZAK_FSS |
 | YBBB - Brisbane Oceanic (Tasman)  | Brisbane Radio | 17.904 (124.650)  |  BN-TSN_FSS |
+| YBBB - Brisbane Oceanic (Flinders)  | Brisbane Radio | 17.904 (132.850)  |  BN-FLD_FSS |
 | YMMM - Melbourne Oceanic (Indian Ocean) |  Brisbane Radio | 5.634 (129.250)  |  ML-IND_FSS |
 | NZZO - Auckland Oceanic  |  Auckland Radio |  8.867 (129.000) |  NZZO_FSS |
 | NZCM - McMurdo Oceanic  |  McMurdo Radio |  9.032 (128.700) |  NZCM_FSS |
@@ -52,14 +53,12 @@ NTTT - Tahiti Oceanic
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | Coral† | Brisbane Radio | 133.150 | BN-COL_FSS |
-| Flinders† | Brisbane Radio | 132.850 | BN-FLD_FSS |
-| Howe† | Brisbane Radio | 124.950 | BN-HWE_FSS |
 | Indian East† | Brisbane Radio | 123.650 | ML-INE_FSS |
 | Indian South† | Brisbane Radio | 123.200 | ML-INS_FSS |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
 
-COL, FLD, and HWE can be split off from TSN. INE and INS can be split off from IND.
+COL can be split off from FLD. INE and INS can be split off from IND.
     
 ## Recency Requirements
 

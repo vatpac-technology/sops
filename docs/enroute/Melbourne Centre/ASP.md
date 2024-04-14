@@ -32,7 +32,7 @@ When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME
 
 ## Extending
 !!! Warning
-    As per [VATPAC Air Traffic Services Policy](https://cdn.vatpac.org/documents/policy/Controller+Positions+and+Ratings+Policy+v5.2.pdf), ML-ASP_CTR is only permitted to extend to adjacent **YMMM** sectors.
+    ML-ASP_CTR is only permitted to extend to adjacent **YMMM** sectors.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -80,4 +80,4 @@ By default, WR ADC owns the **R222F** Restricted Area. This airspace has vertica
 Coordination is not required between ASP(WRA) and WR ADC. Aircraft entering WR ADC airspace shall be handed off, and instructed to contact WR ADC for onwards clearance.
 
 ### IND(INS) (Oceanic)
-As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.

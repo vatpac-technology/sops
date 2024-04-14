@@ -141,10 +141,5 @@ YBHM arrivals shall be heads-up coordinated to **JM ADC** from SWY prior to **5 
 
 The Standard Assignable level from KEN(SWY) to HM ADC is `A060`, any other level must be prior coordinated.
 
-### TSN(FLD) (Oceanic)
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
-
-<figure markdown>
-![Kennedy Airspace](../assets/KENENR.png){ width="700" }
-  <figcaption>Kennedy Airspace</figcaption>
-</figure>
+### FLD (Oceanic)
+As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.

@@ -12,12 +12,6 @@ Here is a complete list of standard annotations controllers should be entering i
 | Four-figure time group | Expected or actual time of occurrences | 0955 |
 | Two-figure time group | Expected or actual time of occurrences <br /> *Note: Use when there is no possibility of confusion.* | 55 |
 
-## Flight Rules
-| Information | Meaning and Usage | Example |
-| ----------- | ----------------- | ------- |
-| Instrument Flight Rules | | I |
-| Visual Flight Rules | | V |
-
 ## Route and Positions
 | Information | Meaning and Usage | Example |
 | ----------- | ----------------- | ------- |

@@ -73,5 +73,5 @@ The Standard Assignable level from HBA and LTA to HUO is the lower of `F240` or 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-### TSN,IND(INS) (Oceanic)
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
+### TSN/IND(INS) (Oceanic)
+As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
