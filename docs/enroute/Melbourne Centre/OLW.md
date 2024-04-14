@@ -89,4 +89,4 @@ When LM TCU is offline, coordination is not required between OLW and LM ADC. Air
 LM ADC owns the Class C airspace within the LM CTR from `SFC` to `A015`.
 
 ### IND,INE (Oceanic)
-As per [Standard Coordination Procedures](../../../controller-skills/coordination/#enr-oceanic), Heads-up coordinate prior to **15 mins** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
