@@ -12,6 +12,14 @@
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
 
+### CPDLC
+
+The Primary Communication Method for TBD is Voice.
+
+[CPDLC](../../controller-skills/cpdlc.md) may be used in lieu when applicable.
+
+The CPDLC Station Code is `YTBD`.
+
 ## Airspace
 
 <figure markdown>

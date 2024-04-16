@@ -9,6 +9,14 @@
 | ---- | -------- | --------- | -------- |
 | Howe | Brisbane Centre | 124.950 | BN-HWE_CTR |
 
+### CPDLC
+
+The Primary Communication Method for HWE is [CPDLC](../../controller-skills/cpdlc.md).
+
+The CPDLC Station Code is `YHWE`.
+
+Voice may be used in lieu when applicable.
+
 ## Airspace
 
 <figure markdown>

@@ -9,6 +9,14 @@
 | ---- | -------- | --------- | -------- |
 | Huon | Melbourne Centre | 122.600 | ML-HUO_CTR |
 
+### CPDLC
+
+The Primary Communication Method for HUO is Voice.
+
+[CPDLC](../../controller-skills/cpdlc.md) may be used in lieu when applicable.
+
+The CPDLC Station Code is `YHUO`.
+
 ## Airspace
 
 <figure markdown>
