@@ -16,6 +16,15 @@
 | Geraldton† | Melbourne Centre | 134.200 | ML-GEL_CTR |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
+
+### CPDLC
+
+The Primary Communication Method for PIY is [CPDLC](../../controller-skills/cpdlc.md).
+
+The CPDLC Station Code is `YPIY`.
+
+Voice may be used in lieu when applicable.
+
 ## Airspace
 <figure markdown>
 ![Pingelly Airspace](../assets/piy.png){ width="700" }

@@ -16,6 +16,15 @@
 | Menzies† | Melbourne Centre | 134.300 | ML-MZI_CTR |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
+
+### CPDLC
+
+The Primary Communication Method for OLW is [CPDLC](../../controller-skills/cpdlc.md).
+
+The CPDLC Station Code is `YOLW`.
+
+Voice may be used in lieu when applicable.
+
 ## Airspace
 
 <figure markdown>
