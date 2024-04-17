@@ -24,6 +24,9 @@ The Primary Communication Method for ARL is Voice.
 
 The CPDLC Station Code is `YARL`.
 
+!!! tip
+        Even though ARL's Primary Communication Method is Voice, CPDLC should be used for Overfliers.
+
 ## Airspace
 
 <figure markdown>
