@@ -6,6 +6,9 @@ title: Milk Run Monday
 
 Milk Run Monday is a very busy event, that tests the limits of controllers at it's busiest. It is important to understand some processes that makes the event run as smooth as possible for all pilot and controllers involved. The information on this page is extracted from various Local Instructions and Controller Skills pages, collated to give all of the most relevant information to controlling the Milk Run event.
 
+<details markdown="1">
+<summary>ACD</summary>
+
 ## ACD
 The job of the ACD controller during Milk Run is a fairly straight-forward one, however there are a couple of things to be mindful of.
 
@@ -13,6 +16,11 @@ Ensure that all flight plans are correct, nothing like `DOSEL DCT RIVET`, `GPS D
 
 ### 16 Off Mode Departures at YMML
 A Reminder that [Off Mode Departures from Runway 16](../../aerodromes/classc/Melbourne/#off-mode-departures) to the North East and North West during the 16A27D Runway Mode must be assigned the **ISPEG** SID, **NOT** the DOSEL SID. The **ISPEG** SID deconflicts concurrent 16 and 27 departures, whereas the DOSEL SID does not.
+
+</details>
+
+<details markdown="1">
+<summary>SMC</summary>
 
 ## SMC
 ### Standard Taxi Routes
@@ -46,6 +54,11 @@ In order to protect common Runway Exit Taxiways, Consider instructing aircraft t
 
 !!! note
     Utilising these hold short instructions also opens up the availability of taxiways `J` and `Y` as alternative taxi routes on the International terminal side
+
+</details>
+
+<details markdown="1">
+<summary>ADC</summary>
 
 ## ADC
 ### Runway Modes
@@ -90,6 +103,11 @@ It is best practice for ADC to line-up aircraft on the runway as soon as possibl
 
 !!! suggestion
     Appending the phrase "Be ready immediate" to the end of a line up instruction can ensure the pilot has all checklists completed, and is ready to commence takeoff roll as soon as the clearance is given. This reduces airborne delays, and potential go-around situations
+
+</details>
+
+<details markdown="1">
+<summary>TMA</summary>
 
 ## TMA
 In theory, aircraft should already be nicely sequenced when they enter your airspace, however, this is not always the case. There can also be additional aircraft that come in from other directions that need to be added to the sequence, which can make things challenging.
@@ -137,6 +155,11 @@ When there is a go-around in the middle of a bumper-to-bumper sequence, a fair b
 !!! example
     <span class="hotline">**MAE** -> **ELW**</span>: "We've had a Go around. Additional 2 minute delay for all aircraft in this sequence please."  
     <span class="hotline">**ELW** -> **MAE**</span>: "Copy, additional 2 minute delay for all aircraft in this sequence."  
+
+</details>
+
+<details markdown="1">
+<summary>Enroute</summary>
 
 ## Enroute
 ### Early Handoffs
@@ -198,6 +221,11 @@ Although this action may be beneficial to the arrival flow for both Enroute and 
 
 In order to reduce this coordination, GUN/BIK and SFL/SAS may organise blanket coordination to allow this rerouting at the discretion of the GUN/BIK controller.
 
+</details>
+
+<details markdown="1">
+<summary>Workload Management</summary>
+
 ## Workload Management
 ### Splitting
 Never ever ever ever ever (ever) deny an offer to split up your sector! It could be someone offering to take:  
@@ -233,3 +261,5 @@ Regular Coordination with your peers is critical to the efficient operation of a
 - (As the TMA Controller) Ask the Enroute controller for an additional **2 minute delay for all aircraft**, due to a **go-around**
 
 It is also important to not accept aircraft that are in conflict! If the TMA controller is trying to handoff two aircraft pointed at each other at the same level, give them a call on the Hotline, and ask them to fix it before handing off to you. Of course you may offer/suggest a solution, but it should not be your conflict to solve.
+
+</details>

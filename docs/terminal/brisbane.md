@@ -15,7 +15,7 @@
 | Gold Coast Approach† |BAC| Brisbane Approach  | 123.500          | BN-C_APP       |
 | Brisbane Flow†        |BFL|                |          | BN_FMP                              |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ## Airspace
 The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, where it is `SFC` to `A075` in the North West, and `SFC` to `F125` in the South East.

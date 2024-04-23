@@ -24,6 +24,11 @@
   color: var(--md-primary-fg-color);
   height: -webkit-fill-available;
 }
+.md-tabs__item--active {
+  border-bottom: 1.5px solid #b5b6b3;
+  color: #344767;
+  height: -webkit-fill-available;
+}
 
 .md-tabs__link:hover {
   border-bottom: 1.5px solid #3447679f;
