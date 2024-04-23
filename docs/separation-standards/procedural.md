@@ -29,6 +29,11 @@ title: Procedural
 ![10 min Departure Standard Diagram](img/dep7a.png){ width="600" }
 </figure> |
 
+</details>
+
+<details markdown="1">
+<summary>Arrivals</summary>
+
 ## Arrivals
 ### 10nm
 | Conditions | |
