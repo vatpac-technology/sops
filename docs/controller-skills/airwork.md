@@ -16,6 +16,9 @@ Airwork can be conducted in any defined area specified by the pilot or ATC. This
     **KIY**: "PPB, No Reported IFR Traffic"  
     **PPB**: "PPB"
 
+<details markdown="1">
+<summary>Remarks</summary>
+
 ### Remarks
 An aircraft's Flight Plan Remarks can be the first sign that airwork will be occurring. It can help you as a controller start your planning nice and early, and stay ahead of the game. If the pilot has left detailed remarks, it also means you can spend less time on the frequency asking them what they're doing.
 #### STS/ (Status) field
@@ -45,6 +48,11 @@ A pilot intending to conduct Parachute Operations overhead Rockingham
 
 `RMK/SVY OPS WI MAP 420`  
 A pilot intending to conduct Aerial Survey Operations as per Map 420
+
+</details>
+
+<details markdown="1">
+<summary>General Operations</summary>
 
 ### General Operations
 
@@ -90,6 +98,11 @@ Not often that a "Checklist" is required in an ATC environment, but when Airwork
 
     Confirm an ops normal time if required
 
+</details>
+
+<details markdown="1">
+<summary>Search and Rescue (SAR) Operations</summary>
+
 ### Search and Rescue (SAR) Operations
 SAR Operations are conducted more or less as a standard airwork procedure. Handle the aircraft as any other normal aircraft transiting your airspace, with the airwork procedures shown above.
 
@@ -99,6 +112,11 @@ SAR Operations are most commonly flown in a circular area (eg Radius from a Fix,
     **DDU**: "DDU, Requesting Traffic for Search and Rescue operations for the next 90 minutes, within a 10nm Radius of 23 52 South, 136 01 East, Not above A060"  
     **ASP**: "DDU, No Reported IFR Traffic. Call Ops Normal time on the hour"  
     **DDU**: "Ops Normal on the hour, DDU"  
+
+</details>
+
+<details markdown="1">
+<summary>Practice Instrument Approaches</summary>
 
 ### Practice Instrument Approaches
 A Practice Instrument Approach is simply an aircraft conducting an Instrument Approach with no intention of a full-stop landing. This is pretty straight-forward outside controlled airspace, as the pilot will often just request a traffic statement for a given radius from a fix. In controlled airspace, however, there can be quite a few things to consider.
@@ -161,6 +179,11 @@ Conduct Coordination to any affected adjacent units as required
     **AAE**: "YNJ, Cleared VOR-A Approach, make Sector Entry. At the minima, Fly Published Missed Approach"  
     **YNJ**: "Cleared VOR-A Approach, make Sector Entry. At the minima, Fly Published Missed Approach, YNJ"
 
+</details>
+
+<details markdown="1">
+<summary>Aerial Surveys</summary>
+
 ### Aerial Surveys
 <figure markdown>
 ![Aerial Survey Example](img/svy.jpg){ width="800" }
@@ -215,6 +238,11 @@ Then when ready, clear the aircraft for the survey work
 
 !!! tip
     Continue to ask the pilot questions in order to know exactly what they are doing. For separation assurance with the departing YMML traffic, you could ask *"Confirm you will be able to remain outside 40 DME ML?"*. You could ask the pilot what kind of turn they will be making at the completion of each run. You could also instruct the pilot to maintain a heading on the completion of a run for separation purposes.
+
+</details>
+
+<details markdown="1">
+<summary>Parachute Operations</summary>
 
 ### Parachute Operations
 Pilots on the network may choose to simulate Parachute Operations (PJE).  
@@ -315,3 +343,5 @@ Most procedures are the same for IFR aircraft, just remember that the situation 
 
 #### OCTA Operations
 VFR PJE aircraft operating wholly within Class G or Class E airspace are still required to make broadcasts on frequency, and they are entitled to a traffic statement for Drop and Descent.
+
+</details>

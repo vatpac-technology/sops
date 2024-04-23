@@ -12,7 +12,7 @@
 | Adelaide Approach East†    |AAE| Adelaide Departures  | 118.200         | AD_DEP          |
 | Adelaide Flow†        |AFL|                |          | AD_FMP                              |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ## Airspace
 The Vertical limits of the AD TCU are `SFC` to `F245`.

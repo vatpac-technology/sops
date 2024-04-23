@@ -269,3 +269,5 @@
 *[AYPM]: Port Moresby FIR
 *[NWWW]: Noumea FIR
 *[NVVV]: Port Vila FIR
+*[MX]: Maximum Speed
+*[CSR]: Cancel Speed Restrictions

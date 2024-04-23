@@ -4,6 +4,9 @@
 
 --8<-- "includes/abbreviations.md"
 
+<details markdown="1">
+<summary>Positions</summary>
+
 ## Positions
 
 | Name               | ID      | Callsign       | Frequency        | Login Identifier              |
@@ -17,8 +20,13 @@
 | Sydney Radar†* |SRI| Sydney Centre  | 124.550          | SY-C_DEP                               |
 | Sydney Flow†        |SFL|                |          | SY_FMP                              |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies).  
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}  
 * [Additional requirements](#airspace-structural-arrangements) must be met prior to opening SRI as a stand-alone position.
+
+</details>
+
+<details markdown="1">
+<summary>Airspace</summary>
 
 ## Airspace
 The Vertical limits of the SY TCU are `SFC` to `F285`.  
@@ -28,6 +36,7 @@ SY TCU is responsible for the Sydney TMA, except:
 - R470 Restricted Area, when RIC ADC is online (or as negotiated)  
 
 ### Reclassifications
+
 #### BK CTR
 BK CTR reverts to Class G when **BK ADC** is offline, and is administered by the relevant SY TCU controller.
 
@@ -100,6 +109,10 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
 ![SODPROPS TCU Structure](img/sySODPROPS.png){ width="700" }
   <figcaption>SODPROPS TCU Structure</figcaption>
 </figure>
+</details>
+
+<details markdown="1">
+<summary>Arrival Procedures</summary>
 
 ## Arrival Procedures
 ### STAR and Runway Assignment
@@ -147,6 +160,11 @@ All aircraft should be assigned no lower than `A060` until clear of the active r
     For an aircraft inbound from the north on the BOREE3A arrival to runway 34R, assign no lower than `A080` until any adjacent aircraft are maintaing `A060`, then `A070` until the aircraft are laterally clear.  The arrival should then be assigned `A060` until south of the field.
 
 Be mindful of departures from YSBK which may also impact aircraft on downwind for RWY 16R at YSSY.  Do not assign lower than `A040` until the aircraft is north/east of the BK CTR and clear of any departing traffic (who are assigned `A030` by default).
+</details>
+
+<details markdown="1">
+<summary>Parallel Runway Operations</summary>
+
 ## Parallel Runway Operations
 Refer to [Parallel Runway Separation Standards](../../separation-standards/parallelapps) for more information
 
@@ -199,6 +217,10 @@ When conducting IVAs, aircraft shall not be transferred to **SY ADC** until esta
 
 #### Phraseology at Night
 *"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (altitude) UNTIL ESTABLISHED ON THE PAPI (or GLIDEPATH)"*
+</details>
+
+<details markdown="1">
+<summary>Sydney Harbour Scenic Flights</summary>
 
 ## Sydney Harbour Scenic Flights
 Flights may be cleared for one of two standard scenic flight routes at `A015`, **Harbour Scenic One** or **Harbour Scenic Two**, which are described below. Pilot preference should be accommodated where traffic permits.
@@ -230,6 +252,10 @@ These can be displayed on vatSys using the `SY_VFR` map.
 
 !!! note
     Remember that VFR aircraft are **not** separated from other VFR aircraft in class C airspace.  If other VFR aircraft are operating over the harbour, you are not required to provide a separation standard between them, however you must pass traffic information to both aircraft.
+</details>
+
+<details markdown="1">
+<summary>Helicopter Operations</summary>
 
 ## Helicopter Operations
 ### Inbound/Outbound Routes
@@ -295,6 +321,10 @@ Helicopters should be identified and then provided the clearance where traffic p
     **HWD:** "Sydney Departures gday, helicopter HWD, passing 800ft on the Harbour Bridge 5 outbound, request South Harbour Sector"  
     **SY TCU:** "HWD, Departures, identified, onwards clearance South Harbour Sector"  
     **HWD:** "Onwards clearance South Harbour Sector, HWD"
+</details>
+
+<details markdown="1">
+<summary>BK ADC Offline</summary>
 
 ## BK ADC Offline
 Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
@@ -307,6 +337,52 @@ Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, i
     **ABC**: "LOA, ready Runway 11C"  
     **SY TCU**: "LOA, cleared to YSHL via ANKUB, flight planned route, Bankstown 8 Departure, climb via SID A030"  
     **LOA**: "Cleared to YSHL via ANKUB, flight planned route, Bankstown 8 Departure, climb via SID A030, LOA"
+
+</details>
+
+<details markdown="1">
+<summary>Flow</summary>
+
+## Flow
+The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**, which can be used to plan sequencing actions within the TCU.
+
+It is based on a few key assumptions:  
+- Nil wind  
+- Aircraft for the *opposite* parallel runway (eg, RIVET > 16L/34R) will overfly the field, then join a mid-field downwind  
+- All aircraft are tracking via the ILS Initial Approach fix
+
+### Jets
+
+| Feeder Fix | 07  | 16L | 16R | 25  | 34L | 34R |
+| ---------- | --- | --- | --- | --- | --- | --- |
+| BOREE      | 16  | 11 | 11 | 15  | 17  | 17  |
+| MEPIL†     | -   | 9  | -   | -   | -   | 15  |
+| MARLN      | 16  | 17  | 20  | 13 | 18  | 14  |
+| RIVET      | 11 | 19  | 17  | 17  | 15  | 19  |
+| ODALE†     | -   | 16  | -   | -   | -   | 17  |
+
+- IAF to Threshold is **4 minutes**  
+- Add **1 minute** for aircraft assigned a reduced speed
+- †MEPIL and ODALE STARs only available to Jets for 16L/34R
+- Subtract **1 minute** for MX or CSR
+
+### Non-Jets
+
+| Feeder Fix | 07  | 16L | 16R | 25  | 34L | 34R |
+| ---------- | --- | --- | --- | --- | --- | --- |
+| MEPIL      | 15  | 10^ | 10^ | 13  | 20  | 19  |
+| MARLN      | 17  | 20  | 22  | 13  | 20  | 19  |
+| ODALE      | 10^ | 19  | 17  | 16  | 16  | 19  |
+
+- IAF to Threshold is **4 minutes** for Runway 07/25. **5 minutes** all other Runways.  
+- Subtract **2 minutes** for **DH8D**, Except ^
+- ^ Subtract **1 minute** for **DH8D**
+- Subtract **1 minute** for MX
+
+</details>
+
+<details markdown="1">
+<summary>Coordination</summary>
 
 ## Coordination
 ### Enroute
@@ -551,3 +627,5 @@ SY TCU will **NOT** clear the aircraft for the approach.
 
 ### RIC ADC
 Reserved.
+
+</details>
