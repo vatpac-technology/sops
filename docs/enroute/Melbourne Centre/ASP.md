@@ -15,7 +15,7 @@
 | Bourke† | Melbourne Centre | 128.200 | ML-BKE_CTR |
 | Esperance† | Melbourne Centre | 123.950 | ML-ESP_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ## Airspace
 

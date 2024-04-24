@@ -10,7 +10,7 @@
 | Perth Departures†  |PHD| Perth Departures  | 118.700 | PH_DEP |
 | Perth Flow† | PFL |   |    | PH_FMP  |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ## Airspace
 The PH TCU is responsible for the airspace within 36 DME of the PH VOR, `SFC` to `F245`.  
