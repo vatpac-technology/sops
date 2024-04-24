@@ -12,7 +12,7 @@
 | Cairns Approach†    |CS2| Cairns Departures  | 126.100         | CS_DEP          |
 | Cairns Flow†        |CSF|                |          | CS_FMP                              |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ## Airspace
 The Vertical limits of the CS TCU are `SFC` to `F180`.  

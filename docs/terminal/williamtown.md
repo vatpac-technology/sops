@@ -11,7 +11,7 @@
 | **Williamtown Approach (High)**    | **Willy Approach**   | **133.300**         | **WLM_APP**                                   |
 | Williamtown Approach (Low)†    | Willy Approach   | 135.700         | WLM-L_APP                                   |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies).  
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new} 
 
 ## Airspace
 ### Default
