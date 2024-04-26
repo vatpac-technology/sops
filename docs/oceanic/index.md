@@ -19,9 +19,10 @@ NZZO - Auckland Oceanic
 NZCM - McMurdo Oceanic  
 KZAK - Oakland Oceanic  
 NTTT - Tahiti Oceanic  
+RJTG - Fukuoka Oceanic
 
 !!! information
-    Auckland, McMurdo and Tahiti Oceanic are owned and operated by VATNZ, and Oakland Oceanic is owned and operated by VATUSA.  
+    Auckland, McMurdo and Tahiti Oceanic are owned and operated by VATNZ, Fukuoka Oceanic is owned and operated by VATJPN, and Oakland Oceanic is owned and operated by the Oakland ARTCC.  
     Under the agreement, a controller holding an oceanic endorsement may control positions within any of these FIRs.
 
 <figure markdown>
@@ -40,13 +41,14 @@ NTTT - Tahiti Oceanic
 | NZCM - McMurdo Oceanic  |  McMurdo Radio |  9.032 (128.700) |  NZCM_FSS |
 | NFFF - Nadi Oceanic  | Nadi Radio  |  8.846 (123.600) |  NFFF_FSS |
 | NTTT - Tahiti Oceanic  |  Tahiti Radio | 9.116 (125.500) |  NTTT_FSS |
+| RJTG -  Fukuoka Oceanic |  Toyko | 2.932 (126.700) |  RJTG_FSS |
 
 
 !!! Note 
     KZAK oceanic positions may be further subdivided by the shift supervisor, in which case the subsector shall add a numeral to the callsign. For example, ZAK_1_FSS. It is discouraged to only control a portion of KZAK in non-event periods. For more information on KZAK procedures, head to their SOP [here.](https://oakartcc.org/web/viewer.html?file=/controllers/file/e8a98e09-1c16-11ec-9430-2a32edb55910){target=new}
 
 !!! note
-    The AGGG and ANAU FIRs do not have their own distinct positions or frequencies, they are part of the COL subsector in the TSN group.
+    The AGGG and ANAU FIRs do not have their own distinct positions or frequencies, they are part of the COL subsector in the FLD group.
 
 #### Non-Standard Positions
 
