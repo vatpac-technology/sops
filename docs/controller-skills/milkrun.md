@@ -20,7 +20,7 @@ The job of the ACD controller during Milk Run is a fairly straight-forward one, 
 Ensure that all flight plans are correct, nothing like `DOSEL DCT RIVET`, `GPS DIRECT`, or anything else unusual like that, just stick to the pre-approved Jet and Non-Jet routes. This helps reduce workload on Enroute controllers down the line.
 
 ### 16 Off Mode Departures at YMML
-A Reminder that [Off Mode Departures from Runway 16](../../aerodromes/classc/Melbourne/#off-mode-departures) to the North East and North West during the 16A27D Runway Mode must be assigned the **ISPEG** SID, **NOT** the DOSEL SID. The **ISPEG** SID deconflicts concurrent 16 and 27 departures, whereas the DOSEL SID does not.
+A Reminder that [Off Mode Departures from Runway 16](../../aerodromes/classc/Melbourne/#off-mode-departures) to the North East and West during the 16A27D Runway Mode must be assigned the **ISPEG** SID, **NOT** the DOSEL SID. The **ISPEG** SID deconflicts concurrent 16 and 27 departures, whereas the DOSEL SID does not.
 
 </details>
 
