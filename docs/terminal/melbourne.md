@@ -288,6 +288,8 @@ When “The Coffin” is released, ML TCU is required to coordinate any use of R
 #### Airspace
 AV ADC is responsible for the Class D Airspace within the AV CTR `SFC` to `A025`.
 
+Refer to [Reclassifications](#av-ctr) for operations when AV ADC is offline.
+
 #### Departures
 'Next' coordination is **not** required from AV ADC for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; or  
@@ -315,6 +317,8 @@ VFR aircraft will have their control services terminated upon leaving controlled
 ### MB ADC
 #### Airspace
 MB ADC is responsible for the Class D airspace in the MB CTR `SFC` to `A025`.
+
+Refer to [Reclassifications](#mb-ctr) for operations when MB ADC is offline.
 
 #### Departures
 Departures in to ML TCU Class C airspace require a "Next" call, where ML TCU will provide the cleared level. There is no standard assignable level.

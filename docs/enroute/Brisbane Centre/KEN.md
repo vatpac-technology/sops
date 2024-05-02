@@ -93,7 +93,9 @@ All other aircraft going to KEN CTA will be **Heads-up** Coordinated by CS TCU.
 
 ### TL TCU
 #### Airspace
-TL TCU owns the Class C and G airspace within 36 DME TL from `SFC` to `F180`
+TL TCU owns the Class C and G airspace within 36 DME TL from `SFC` to `F180`.
+
+Refer to [Reclassifications](#tl-ctr) for operations when TL TCU is offline.
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:
@@ -110,11 +112,13 @@ Voiceless for all aircraft:
 - Tracking via a Procedural SID terminus; and  
 - Assigned the lower of `F180` or the `RFL`
 
-All other aircraft going to TRT CTA will be **Heads-up** Coordinated by TL TCU.
+All other aircraft going to TBP CTA will be **Heads-up** Coordinated by TL TCU.
 
 ### MKA
 #### Airspace
 MKA is responsible for the airspace within the 'MK keyhole' `SFC` to `F150`.
+
+Refer to [Reclassifications](#mk-ctr) for operations when MKA is offline.
 
 #### Arrivals
 Voiceless for all aircraft:
@@ -151,6 +155,8 @@ TBP may make changes to CFL up to the boundary with KEN for the purposes of issu
 ### HM ADC
 #### Airspace
 HM ADC is responsible for the Class D airspace in the HM CTR `SFC` to `A045`.
+
+Refer to [Reclassifications](#hm-ctr) for operations when HM ADC is offline.
 
 #### Departures
 Departures from YBHM in to SWY Class C will be coordinated when ready for departure.  

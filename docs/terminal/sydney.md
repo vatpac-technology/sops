@@ -582,6 +582,8 @@ For Non-Jets: The lower of `A030` or the `RFL`
 #### Airspace
 BK ADC is responsible for the Class D airspace in the BK CTR `SFC` to `A015`.
 
+Refer to [Reclassifications](#bk-ctr) for operations when BK ADC is offline.
+
 #### Departures
 Aircraft departing YSBK in to SY TCU Class C will be coordinated from **BK ADC** when ready for takeoff.
 
@@ -609,6 +611,8 @@ VFR aircraft require a level readback.
 ### CN ADC
 #### Airspace
 CN ADC is responsible for the Class D airspace in the CN CTR `SFC` to `A020`.
+
+Refer to [Reclassifications](#cn-ctr) for operations when CN ADC is offline.
 
 #### Departures
 CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a ready call, SY TCU will issue a traffic statement.

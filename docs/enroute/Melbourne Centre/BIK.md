@@ -26,6 +26,10 @@ GUN assumes responsibility of the airspace within the lateral limits of the CB T
 !!! note
     BIK does not assume the CB TCU in the absence of a CB TCU controller. Assumption of the CB TCU is the responsibility of ELW(BLA). Controllers may choose to verbally coordinate the release of the CB TCU to either sector/subsector.
 
+### Reclassifications
+#### CB CTR
+When **CB TCU** is offline, CB TCU (Class C `SFC` to `A085`) reverts to Class G, and is administered by ELW(BLA).
+
 ## Sector Responsibilities
 ### Bindook (BIK)
 BIK will provide final sequencing actions and descent into YSSY.
@@ -116,6 +120,8 @@ All other aircraft going to BIK CTA will be **Heads-up** Coordinated by SY TCU.
 The Vertical limits of the CB TCU are `SFC` to `F245`.
 
 Refer to [Canberra TCU Airspace Division](../../../terminal/canberra/#airspace-division) for information on airspace divisions when **CBW** is online.
+
+Refer to [Reclassifications](#cb-ctr) for operations when CB TCU is offline.
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:

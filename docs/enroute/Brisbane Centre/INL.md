@@ -167,6 +167,8 @@ That being said, it is *advised* that INL(All) give **Heads-up Coordination** to
 #### Airspace
 SU ADC is responsible for the Class D airspace in the SU CTR `SFC` to `A045`.
 
+Refer to [Reclassifications](#su-ctr) for operations when SU ADC is offline.
+
 #### Departures
 Departures from YBSU in to NSA Class C will be coordinated when ready for departure.
 
@@ -191,6 +193,8 @@ The Standard Assignable level from NSA to **SU ADC** is `A060`, any other level 
 #### Airspace
 RKA is responsible for the airspace within the 'RK keyhole' `SFC` to `F150`.
 
+Refer to [Reclassifications](#rk-ctr) for operations when RKA is offline.
+
 #### Arrivals/Overfliers
 Voiceless for all aircraft:
 
@@ -211,6 +215,8 @@ All other aircraft going to KPL CTA will be **Heads-up** Coordinated by RKA.
 ### CFS ADC
 #### Airspace
 CFS ADC is responsible for the Class D airspace in the CFS CTR `SFC` to `A045`.
+
+Refer to [Reclassifications](#cfs-ctr) for operations when CFS ADC is offline.
 
 #### Departures
 Departures from YCFS in to INL Class C will be coordinated when ready for departure.
