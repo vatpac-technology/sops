@@ -53,6 +53,8 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 #### Airspace
 KA ADC is responsible for the Class D airspace in the KA CTR `SFC` to `A055`.
 
+Refer to [Reclassifications](#ka-ctr) for operations when KA ADC is offline.
+
 #### Departures
 Departures from YPKA in to OLW CTA will be coordinated when ready for departure.  
 

@@ -120,16 +120,25 @@ Aircraft departing the TMA to the south planned at `F130` or above will likely l
 
 ### Enroute
 #### Departures
-Voiceless coordination is in place from PH TCU to PIY (and subsectors) for aircraft assigned the lower of `F180` or the `RFL`, and tracking via a Procedural SID terminus.
+Voiceless for all aircraft:
+ 
+- Tracking via a Procedural SID terminus; and  
+- Assigned the lower of `F180` or the `RFL`
 
-Any aircraft not meeting the above criteria must be prior coordinated to ENR.
+All other aircraft going to PIY CTA must be **Heads-up** Coordinated by PH TCU prior to the boundary.
 
 !!! example
     <span class="hotline">**PH TCU** -> **PIY**</span>: "PFY9916, with your concurrence, will be assigned F130, for my separation with JTE654"  
     <span class="hotline">**PIY** -> **PH TCU**</span>: "PFY9916, concur F130"  
 
 #### Arrivals
-The Standard assignable level from ENR to PH TCU is `A090`. All other levels must be prior coordinated.
+Voiceless for all aircraft:
+
+- With ADES **YPPH**; and  
+- Assigned a STAR; and  
+- Assigned `A090`
+
+All other aircraft coming from PIY CTA will be **Heads-up** Coordinated to PH TCU.
 
 ### PH ADC
 #### Auto Release
@@ -181,6 +190,8 @@ All other aircraft transiting between internal PH TCU boundaries must be heads-u
 ### JT ADC
 #### Airspace
 JT ADC is responsible for the Class D airspace in the JT CTR `SFC` to `A015`.
+
+Refer to [Reclassifications](#jt-ctr) for operations when JT ADC is offline.
 
 #### Departures
 When the aircraft is ready for departure, JT ADC will coordinate with the relevant PH TCU controller above them for permission to release the aircraft into their CTA.

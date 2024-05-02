@@ -66,7 +66,7 @@ VFR aircraft will not be coordinated, and will need to receive their airways cle
     Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D. You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.
 
 #### Runway Change
-Any Runway change must be prior coordinated to the relevant [TCU Controller](#TCU-Controller).
+Any Runway change must be prior coordinated to the relevant [TCU Controller](#tcu-controller).
 
 #### TCU Controller
 When **MDN** and/or **MDS** are online, the relevant TCU controller is whoever is responsible for **MDS**.

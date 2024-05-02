@@ -27,16 +27,25 @@ The Vertical limits of the CB TCU are `SFC` to `F245`.
 ## Coordination
 ### Enroute
 #### Departures
-Voiceless coordination is in place from CB TCU to ENR for aircraft assigned the lower of `F240` or the `RFL`, and tracking via a Procedural SID terminus.
+Voiceless for all aircraft:
+ 
+- Tracking via a Procedural SID terminus; and  
+- Assigned the lower of `F240` or the `RFL`
 
-Any aircraft not meeting the above criteria must be prior coordinated to ENR.
+All other aircraft going to ELW/BIK CTA must be **Heads-up** Coordinated by CB TCU prior to the boundary.
 
 !!! example
     <span class="hotline">**CB TCU** -> **GUN**</span>: "EVY113, with your concurrence, will be assigned F180, for my separation with QLK165D"  
     <span class="hotline">**GUN** -> **CB TCU**</span>: "EVY113, concur F180"  
 
 #### Arrivals
-The Standard assignable level from ENR to CB TCU is `F130`. All other levels must be prior coordinated
+Voiceless for all aircraft:
+
+- With ADES **YSCB**; and  
+- Assigned a STAR; and  
+- Assigned `F130`
+
+All other aircraft coming from ELW/BIK CTA will be **Heads-up** Coordinated to CB TCU prior to **20nm** from the boundary.
 
 ### ADC
 #### Airspace

@@ -67,7 +67,7 @@ The divisions of the airspace between **MAE**, **MDN**, and **MDS** change based
 
 ## Departure Procedures
 ### ML (RADAR) SID
-The **ML (RADAR) SID** is used for all non-jet IFR departures (and certain jet aircraft) from YMML.  Unlike at other aerodromes, **ML ADC** does *not* need to coordinate these departures with a 'Next' call, provided they are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-headings).
+The **ML (RADAR) SID** is used for all non-jet IFR departures (and certain jet aircraft) from YMML.  Unlike at other aerodromes, **ML ADC** does *not* need to coordinate these departures with a 'Next' call, provided they are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
 ## Arrival Procedures
 ### Level Assignment
@@ -186,28 +186,46 @@ Due to the low level of CTA surrounding YMMB, it is best practice to give airway
 
 ### Enroute
 #### Departures
-Voiceless coordination is in place from ML TCU to all surrounding ENR sectors (**ELW** to the East, **YWE**/**WON** all other directions) for aircraft assigned the lower of `F240` or the `RFL`, and tracking via a Procedural SID terminus.
-Any aircraft not meeting the above criteria must be prior coordinated to ENR.
+Voiceless to all surrounding Enroute sectors for all aircraft:
+ 
+- Tracking via a Procedural SID terminus; and  
+- Assigned the lower of `F240` or the `RFL`
+
+All other aircraft going to Enroute CTA must be **Heads-up** Coordinated by ML TCU prior to the boundary.
 
 !!! example
     <span class="hotline">**ML TCU** -> **YWE**</span>: "QFA420, with your concurrence, will be assigned F190, for my separation with QLK52D"  
     <span class="hotline">**YWE** -> **ML TCU**</span>: "QFA420, concur F190"  
 
 #### Arrivals
-The Standard assignable level from ENR to ML TCU is `A090`. All other levels must be prior coordinated
+Voiceless for all aircraft:
+
+- With ADES **YMML**; and  
+- Assigned a STAR; and  
+- Assigned `A090`
+
+All other aircraft coming from Enroute CTA will be **Heads-up** Coordinated to ML TCU.
 
 ### ML ADC
 #### Auto Release
 !!! important
     Melbourne utilises auto release for all **Procedural** SIDs and the **ML (RADAR)** SID provided aircraft are assigned the Standard Assignable Level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
-'Next' coordination is **not** required from ML ADC for aircraft that are:   
-    a) Departing from a runway nominated on the ATIS; and  
-    b) Assigned `A050`; and  
-    c) Assigned a **Procedural** SID; or  
-    d) Assigned a [Standard Assignable Heading](#standard-assignable-departure-headings)
+'Next' coordination is **not** required for aircraft that are:  
 
-Any aircraft that don't meet these criteria must be coordinated to ML TCU with a "Next" Call.  
+- Assigned a **Procedural** SID  
+    - Departing from a runway nominated on the ATIS; and  
+    - Assigned `A050`  
+- Assigned the **ML (RADAR)** SID  
+    - Departing from a runway nominated on the ATIS; and  
+    - Assigned `A050`; and  
+    - Assigned a [Standard Assignable Heading](#standard-assignable-departure-headings)  
+- Assigned the **ISPEG** SID  
+    - Departing from Runway 16 during the 16A27D Runway Mode; and  
+    - Assigned `A050`; and  
+    - Tracking via **MNG**, **NONIX**, **DOSEL**, **KEPPA**, **NEVIS** or **ESDIG**
+
+Any aircraft that don't meet these criteria will be coordinated to ML TCU with a "Next" Call.  
 
 !!! example
     <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, CYF, runway 34"  
@@ -270,6 +288,8 @@ When “The Coffin” is released, ML TCU is required to coordinate any use of R
 #### Airspace
 AV ADC is responsible for the Class D Airspace within the AV CTR `SFC` to `A025`.
 
+Refer to [Reclassifications](#av-ctr) for operations when AV ADC is offline.
+
 #### Departures
 'Next' coordination is **not** required from AV ADC for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; or  
@@ -297,6 +317,8 @@ VFR aircraft will have their control services terminated upon leaving controlled
 ### MB ADC
 #### Airspace
 MB ADC is responsible for the Class D airspace in the MB CTR `SFC` to `A025`.
+
+Refer to [Reclassifications](#mb-ctr) for operations when MB ADC is offline.
 
 #### Departures
 Departures in to ML TCU Class C airspace require a "Next" call, where ML TCU will provide the cleared level. There is no standard assignable level.

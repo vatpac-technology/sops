@@ -114,17 +114,25 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 #### Airspace
 SY TCU is responsible for the airspace within a 45nm radius of TESAT, `SFC` to `F285`.
 
-Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
+Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
 
 #### Arrivals/Overfliers
-The Standard Assignable level from ARL(All) to SY TCU is:  
-`A100` for aircraft tracking via BOREE or MARLN, and assigned the relevant STAR  
-`A090` for aircraft tracking via MEPIL, and assigned the MEPIL STAR  
+Voiceless for all aircraft:
 
-All other aircraft must be voice coordinated to SY TCU prior to **20nm** from the boundary.
+- With ADES **YSSY**; and  
+- Assigned a STAR; and  
+- Tracking via **MARLN** or **BOREE**, assigned `A100`; or  
+- Tracking via **MEPIL**, assigned `A090`
+
+All other aircraft coming from ARL CTA must be **Heads-up** Coordinated to SY TCU prior to **20nm** from the boundary.
 
 #### Departures
-The Standard Assignable level from SY TCU to ARL(All) is the lower of `F280` or the `RFL`, and tracking via a SID terminus.
+Voiceless for all aircraft:
+
+- Tracking via a Procedural SID terminus; and  
+- Assigned the lower of `F280` or the `RFL`
+
+All other aircraft going to ARL CTA will be **Heads-up** Coordinated by SY TCU.
 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
@@ -133,6 +141,7 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 That being said, due to their small sizes and frequent random-track traffic, it is *advised* that ARL(All) gives **Heads-up Coordination** in the following scenarios:   
+
 - MNN to ARL for all aircraft  
 - ARL to MNN for all aircraft  
 - CNK to MLD for all aircraft  
@@ -141,6 +150,8 @@ That being said, due to their small sizes and frequent random-track traffic, it 
 ### TW ADC
 #### Airspace
 TW ADC is responsible for the Class D airspace in the TW CTR `SFC` to `A045`, as well as the Class C airspace between `A045` and `A065`.
+
+Refer to [Reclassifications](#tw-ctr) for operations when TW ADC is offline.
 
 #### Departures
 Departures from YSTW in to ARL/MDE Class C will be coordinated when ready for departure.
@@ -165,6 +176,8 @@ The Standard Assignable level from ARL/MDE to **TW ADC** is `A080`, any other le
 #### Airspace
 CFS ADC is responsible for the Class D airspace in the CFS CTR `SFC` to `A045`.
 
+Refer to [Reclassifications](#cfs-ctr) for operations when CFS ADC is offline.
+
 #### Departures
 Departures from YCFS in to MNN Class C will be coordinated when ready for departure.
 
@@ -188,17 +201,28 @@ The Standard Assignable level from MNN to **CFS ADC** is `A080`, any other level
 #### Airspace
 By default, **WLM TCU** (when online) owns the airspace within the WLM MIL CTR `SFC` to `F125`, unless stated otherwise by ad-hoc release or NOTAM. It is the responsibility of the **WLM TCU** controller to inform ARL(All) of what airspace they are assuming.
 
-Refer to [Airspace](#airspace) for operations when WLM TCU is offline.
+Refer to [Reclassifications](#wlm-ctr) for operations when WLM TCU is offline.
 
 #### Departures
-Voiceless coordination is in place from WLM TCU to ARL(All) for aircraft assigned the lower of `F120` or the `RFL`, and tracking via a Procedural SID terminus.
+Voiceless for all aircraft:
+
+- Tracking via a Procedural SID terminus; and  
+- Assigned the lower of `F120` or the `RFL`
+
+All other aircraft going to ARL CTA will be **Heads-up** Coordinated by WLM TCU.
 
 !!! example
     <span class="hotline">**WLM TCU** -> **MLD**</span>: "QJE1597, request DCT OMGAB"  
     <span class="hotline">**MLD** -> **WLM TCU**</span>: "QJE1597, concur DCT OMGAB"  
 
 #### Arrivals/Overfliers
-The Standard assignable level from ARL(All) to WLM TCU is `A090`, and assigned a STAR. All other aircraft must be prior coordinated.
+Voiceless for all aircraft:
+
+- With ADES **YWLM**; and  
+- Assigned a STAR; and  
+- Assigned `A090`
+
+All other aircraft coming from ARL CTA must be **Heads-up** Coordinated to WLM TCU prior to **20nm** from the boundary.
 
 !!! example
     <span class="hotline">**CNK** -> **WLM TCU**</span>: "QFA1968, request DCT UPTEB"  

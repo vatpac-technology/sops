@@ -74,12 +74,21 @@ The Vertical limits of the ML TCU are `SFC` to `F245`.
 Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
 
 #### Arrivals/Overfliers
-The Standard assignable level from YWE and WON to ML TCU is `A090`, and assigned the ARBEY #, PORTS #, WAREN #, or WENDY # STAR.
+Voiceless for all aircraft:
 
-All other aircraft must be voice coordinated to ML TCU prior to **20nm** from the boundary.
+- With ADES **YMML**; and  
+- Assigned a STAR; and  
+- Assigned `A090`
+
+All other aircraft coming from YWE/WON CTA must be **Heads-up** Coordinated to ML TCU prior to **20nm** from the boundary.
 
 #### Departures
-The Standard Assignable level from ML TCU to YWE/WON is `F240`, and tracking via CRENA, ESDIG, NEVIS, CORRS, KEPPA, or SUNTI.
+Voiceless to all surrounding Enroute sectors for all aircraft:
+ 
+- Tracking via a Procedural SID terminus; and  
+- Assigned the lower of `F240` or the `RFL`
+
+All other aircraft going to YWE/WON CTA will be **Heads-up** Coordinated by ML TCU.
 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
@@ -106,13 +115,18 @@ That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** p
 #### Airspace
 SY TCU is responsible for the airspace within a 45nm radius of TESAT, `SFC` to `F285`.
 
-Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
+Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
 
 #### Arrivals/Overfliers
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-tcu), all aircraft must be **Heads-up coordinated** prior to **20nm** from the boundary.  
 
 #### Departures
-The Standard Assignable level from SY TCU to KAT is the lower of `F280` or the `RFL`, and tracking via KADOM.
+Voiceless for all aircraft:
+
+- Assigned the lower of `F280` or the `RFL`; and  
+- Tracking via **KADOM**
+
+All other aircraft going to KAT CTA will be **Heads-up** Coordinated.
 
 ### ES TCU
 Reserved.

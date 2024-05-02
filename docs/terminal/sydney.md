@@ -4,7 +4,7 @@
 
 --8<-- "includes/abbreviations.md"
 
-<details markdown="1">
+<details open markdown="1">
 <summary>Positions</summary>
 
 ## Positions
@@ -63,7 +63,7 @@ d) **SRI** is **not permitted** to be logged on to, unless there are already at 
     Unless there are 2 separate Director controllers online (during a Major event like Panic Stations, for example), it is **not recommended** that the SFW and SFE positions are held by 2 separate controllers, due to the tendency of some less experienced pilots to overshoot the runway centreline
 
 ### Sydney Radar (SRI)
-SRI is responsible for the provision of FIS in Class G airspace within the SY TMA.  It is a role normally performed by DEPs but can be delegated to any TMA controller.  The position is designed to reduce the workload of the other TMA positions by identifying and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller.  [Explicit coordation requirements](#sri-app-dep-dir) exist between SRI and other TCU positions, and there are [certain rules](#airspace-structural-arrangements) surrounding the opening of SRI as a stand-alone position.  
+SRI is responsible for the provision of FIS in Class G airspace within the SY TMA.  It is a role normally performed by DEPs but can be delegated to any TMA controller.  The position is designed to reduce the workload of the other TMA positions by identifying and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller.  [Explicit coordation requirements](#between-sri-and-appdepdir) exist between SRI and other TCU positions, and there are [certain rules](#airspace-structural-arrangements) surrounding the opening of SRI as a stand-alone position.  
 
 !!! example
     During a busy event, Sydney Departures is experiencing a high workload and wishes to delegate the SRI role to another TMA controller who isn't as busy.  SAN's sector is quiet, so they elect to perform the role.
@@ -128,7 +128,7 @@ Whilst the preference is to keep aircraft assigned the default STAR & runway as 
 !!! note
     Before reassigning an aircraft to an alternate runway, consider arrivals inbound from all directions to ensure that no additional conflict is created.
 
-Approach controllers can use the built-in separation afforded by the STAR height requirements to process aircraft on adjacent STARs (e.g. RIVET and ODALE, or BOREE and MEPIL), allowing aircraft to pass abeam or overtake each other, as dictated by the overall sequence. See [Level Assignment](#level-assignment) below for details on maintaining separation using the STAR height requirements.
+Approach controllers can use the built-in separation afforded by the STAR level restrictions to process aircraft on adjacent STARs (e.g. RIVET and ODALE, or BOREE and MEPIL), allowing aircraft to pass abeam or overtake each other, as dictated by the overall sequence. See [Level Assignment](#level-assignment) below for details on maintaining separation using the STAR level restrictions.
 
 !!! example
     During a busy Milk Run Monday, a large volume of traffic is approaching YSSY from the southwest, with no arrivals from the north or east. To prevent unnecessarily delaying inbound aircraft by processing them for a single runway, coordinate with **BIK** to request certain aircraft are tactically assigned runway 16L/34R, to improve the overall efficiency of the sequence.  
@@ -387,25 +387,38 @@ It is based on a few key assumptions:
 ## Coordination
 ### Enroute
 #### Departures
-Voiceless coordination is in place from SY TCU to all surrounding ENR sectors (**ARL** (and subsectors) to the North and East, **YWE** (and subsectors) to the West, **BIK** (and subsectors) to the South) for aircraft assigned:  
-- The lower of `F280` or the `RFL`, and tracking via a Procedural SID terminus, **with the exception of**:  
-- Aircraft with ADES YWLM, which will be assigned the lower of `F130` or the `RFL`, and assigned a STAR.
+Voiceless to all surrounding Enroute sectors for all aircraft:
 
-Aircraft must be tracking from **SDN** or **SDS** airspace (see [Airspace Division](../../terminal/sydney/#airspace-division)).
+- Assigned the lower of `F280` or the `RFL`; and  
+- Tracking from **SDN** or **SDS** [airspace](#airspace-division); and  
+- Tracking via a Procedural SID terminus
 
-Any aircraft tracking from **SAS** or **SAN** airspace, or **not** assigned the standard assignable level, must be **Heads-up** Coordinated to the relevant ENR sector as soon as practical.
+All other aircraft going to Enroute CTA must be **Heads-up** Coordinated to the relevant sector as soon as practical.
 
 !!! example
     <span class="hotline">**SY TCU** -> **ARL**</span>: "JST789, with your concurrence, will be assigned F240, for my separation with ANZ12"  
     <span class="hotline">**ARL** -> **SY TCU**</span>: "JST789, concur F240"
 
+##### YWLM Arrivals
+Additionally, Voiceless Coordination exists to ARL(All) for aircraft:
+
+- With ADES **YWLM**; and  
+- Assigned a STAR; and  
+- Tracking from **SDN** or **SDS** [airspace](#airspace-division); and  
+- Assigned the lower of `F130` or the `RFL`
+
 !!! note
     YWLM arrivals are handed off to ARL(MLD), not directly to WLM TCU, unless coordinated as such
 
 #### Arrivals
-Standard assignable levels from ENR to SY TCU are as follows:  
-via RIVET, BOREE, or MARLN: `A100`  
-All other routes: `A090`  
+Voiceless for all aircraft:
+
+- With ADES **YSSY**; and  
+- Assigned a STAR; and  
+- Tracking via **MARLN**, **RIVET**, or **BOREE**, assigned `A100`; or  
+- Tracking via **MEPIL** or **ODALE**, assigned `A090`
+
+All other aircraft coming from Enroute CTA will be **Heads-up** Coordinated to SY TCU prior to **20nm** from the boundary.
 
 ### SY TCU Internal
 #### APP / DIR
@@ -569,6 +582,8 @@ For Non-Jets: The lower of `A030` or the `RFL`
 #### Airspace
 BK ADC is responsible for the Class D airspace in the BK CTR `SFC` to `A015`.
 
+Refer to [Reclassifications](#bk-ctr) for operations when BK ADC is offline.
+
 #### Departures
 Aircraft departing YSBK in to SY TCU Class C will be coordinated from **BK ADC** when ready for takeoff.
 
@@ -596,6 +611,8 @@ VFR aircraft require a level readback.
 ### CN ADC
 #### Airspace
 CN ADC is responsible for the Class D airspace in the CN CTR `SFC` to `A020`.
+
+Refer to [Reclassifications](#cn-ctr) for operations when CN ADC is offline.
 
 #### Departures
 CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a ready call, SY TCU will issue a traffic statement.

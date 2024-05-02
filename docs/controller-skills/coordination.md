@@ -177,6 +177,7 @@ If due to weather, overflying aircraft, runway config changes, etc. Auto Release
 **Voiceless** for aircraft landing at main airport (eg YMML in ML TCU), assigned a STAR, and standard assignable level.  
 
 Heads-up coordinate all other aircraft by **20nm** to boundary.
+
 ### TCU -> ENR
 **Voiceless** for aircraft assigned lower of standard assignable level or RFL, and tracking via a Procedural SID terminus.
 
