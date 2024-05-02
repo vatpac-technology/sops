@@ -26,7 +26,8 @@ RJTG - Fukuoka Oceanic
     Under the agreement, a controller holding an oceanic endorsement may control positions within any of these FIRs.
 
 <figure markdown>
-![POCA](assets/POCA.png){ width="500" }
+![Pacific Oceanic Agreement Units](assets/oceanicmap.png){width="700"}
+    <figcaption>Pacific Oceanic Agreement Units</figcaption>
 </figure>
 
 ### Control Positions
@@ -45,7 +46,7 @@ RJTG - Fukuoka Oceanic
 
 
 !!! Note 
-    KZAK oceanic positions may be further subdivided by the shift supervisor, in which case the subsector shall add a numeral to the callsign. For example, ZAK_1_FSS. It is discouraged to only control a portion of KZAK in non-event periods. For more information on KZAK procedures, head to their SOP [here.](https://oakartcc.org/web/viewer.html?file=/controllers/file/e8a98e09-1c16-11ec-9430-2a32edb55910){target=new}
+    KZAK oceanic positions may be further subdivided by the shift supervisor, in which case the subsector shall add a numeral to the callsign. For example, ZAK_1_FSS. It is discouraged to only control a portion of KZAK in non-event periods. For more information on KZAK procedures, head to their SOPs [here.](https://oakartcc.org/web/viewer.html?file=/controllers/file/e8a98e09-1c16-11ec-9430-2a32edb55910){target=new}
 
 !!! note
     The AGGG and ANAU FIRs do not have their own distinct positions or frequencies, they are part of the COL subsector in the FLD group.

@@ -156,20 +156,24 @@ b) Aircraft using a runway not on the ATIS
 
 ### Enroute
 #### Departures
-Voiceless coordination is in place for any route (including SID and random direct tracks) to AKROM, provided that the aircraft is:
-- Assigned the standard assignable level;  
-- Departed Cairns; and  
-- Is a Jet aircraft 
+Voiceless for all aircraft:
 
-The Standard assignable level from CS TCU to ENR is the lower of `F180` or the `RFL`.
+- Tracking via a Procedural SID terminus; and  
+- Assigned the lower of `F180` or the `RFL`
 
-Any aircraft **not** meeting the above criteria, must be **Heads-up** Coordinated to ENR.
+All other aircraft going to KEN CTA must be **Heads-up** Coordinated by CS TCU prior to the boundary.
 
 !!! example
     <span class="hotline">**CS TCU** -> **KEN**</span>: "JST789, with your concurrence, will be assigned F160, for my separation with ANZ12"  
     <span class="hotline">**KEN** -> **CS TCU**</span>: "JST789, concur F160"  
 
 #### Arrivals
-Standard assignable levels from ENR to CS TCU are as follows:  
-055° clockwise to 355° inbound CS: `A070` or the `RFL`  
-355° clockwise to 055°: `A090` or the `RFL`   
+Voiceless for all aircraft:
+
+- With ADES **YBCS**; and  
+- Assigned a STAR; and  
+- Assigned the Standard Assignable level of:  
+  - Radials 055° clockwise through to 355°: `A070`  
+  - Radials 355° clockwise to 055°: `A090`
+
+All other aircraft coming from KEN CTA will be **Heads-up** Coordinated to CS TCU.

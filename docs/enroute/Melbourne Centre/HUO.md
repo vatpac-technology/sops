@@ -61,14 +61,24 @@ The Airspace on and west of the IRSOM-MORGO track `F125`-`F245` is permanently r
 </figure>
 
 #### Arrivals/Overfliers
-The Standard assignable level from HUO to TAS TCU is:  
-`A090` for YMLT arrivals, tracking IRSOM DCT LT, or NUNPA DCT LT.  
-`F130` for YMHB arrivals, and assigned the IPLET STAR or MORGO STAR.
+Voiceless for all aircraft:
 
-All other aircraft must be voice coordinated to HBA/LTA prior to **20nm** from the boundary.
+- With ADES **YMLT** 
+  - Tracking from **IRSOM** or **NUNPA** DCT **LT**; and  
+  - Assigned `A090`  
+- With ADES **YMHB** 
+  - Assigned the **IPLET** or **MORGO** STAR; and  
+  - Assigned `F130`  
+
+All other aircraft coming from HUO CTA must be **Heads-up** Coordinated to TAS TCU prior to **20nm** from the boundary.
 
 #### Departures
-The Standard Assignable level from HBA and LTA to HUO is the lower of `F240` or the `RFL`, and tracking via a SID terminus.
+Voiceless for all aircraft:
+
+- Assigned the lower of `F240` or the `RFL`; and  
+- Tracking via a Procedural SID terminus
+
+All other aircraft going to HUO CTA will be **Heads-up** Coordinated by TAS TCU.
 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.

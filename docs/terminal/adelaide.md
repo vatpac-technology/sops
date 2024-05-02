@@ -84,16 +84,25 @@ Due to the low level of CTA at YPPF, it is best practice to give airways clearan
 ## Coordination
 ### Enroute
 #### Departures
-Voiceless coordination is in place from AD TCU to TBD/AUG for aircraft assigned the lower of `F240` or the `RFL`, and tracking via a Procedural SID terminus.
+Voiceless for all aircraft:
+ 
+- Tracking via a Procedural SID terminus; and  
+- Assigned the lower of `F240` or the `RFL`
 
-Any aircraft not meeting the above criteria must be prior coordinated to TBD/AUG.
+All other aircraft going to TBD CTA must be **Heads-up** Coordinated by AD TCU prior to the boundary.
 
 !!! example
     <span class="hotline">**AD TCU** -> **TBD**</span>: "PFY1234, request DCT LOLLS"  
     <span class="hotline">**TBD** -> **AD TCU**</span>: "PFY1234, concur DCT LOLLS"  
 
 #### Arrivals
-The Standard assignable level from TBD/AUG to AD TCU is `A090`, and assigned a STAR. All other aircraft must be prior coordinated
+Voiceless for all aircraft:
+
+- With ADES **YPAD**; and  
+- Assigned a STAR; and  
+- Assigned `A090`
+
+All other aircraft coming from TBD CTA will be **Heads-up** Coordinated to AD TCU.
 
 ### AD ADC
 #### Auto Release

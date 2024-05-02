@@ -48,7 +48,7 @@ Jet Aircraft planned via **MNG**, **NONIX**, **DOSEL**, **CORRS**, **KEPPA**, **
 During the 16A27D Runway Mode, some aircraft may operationally require Runway 16 for departure.  
 Aircraft departing Runway 16 and assigned the Standard Assignable Heading would conflict with departures from Runway 27, so the **ISPEG** SID must be used instead.
 
-Jet aircraft planned via **MNG**, **NONIX**, **DOSEL**, **KEPPA**, or **NEVIS**, using Runway 16 for departure **Off Mode**, shall be assigned the **ISPEG** SID.
+Jet aircraft via **MNG**, **NONIX**, **DOSEL**, **KEPPA**, **NEVIS** or **ESDIG**, using Runway 16 for departure **Off Mode**, shall be assigned the **ISPEG** SID.
 
 !!! definition
     **Off Mode:** Aircraft departing from a runway not prescribed as active for departures on the ATIS. For example, a heavy aircraft that operationally requires Runway 16 for departure during the 16A/27D Mode.
@@ -137,12 +137,19 @@ Remember to pass traffic information to both aircraft.
 !!! important
     Melbourne utilises auto release for all **Procedural** SIDs and the **ML (RADAR)** SID provided aircraft are assigned the Standard Assignable Level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
-'Next' coordination is **not** required for aircraft that are:   
-    a) Departing from a runway nominated on the ATIS; and  
-    b) Assigned `A050`; and  
-    c) Assigned a **Procedural** SID; or  
-    d) Assigned the **ISPEG** SID for **Off Mode** Runway 16 departures; or  
-    e) Assigned the **ML (RADAR) SID** and a [Standard Assignable Heading](#standard-assignable-departure-headings)
+'Next' coordination is **not** required for aircraft that are:  
+
+- Assigned a **Procedural** SID  
+    - Departing from a runway nominated on the ATIS; and  
+    - Assigned `A050`  
+- Assigned the **ML (RADAR)** SID  
+    - Departing from a runway nominated on the ATIS; and  
+    - Assigned `A050`; and  
+    - Assigned a [Standard Assignable Heading](#standard-assignable-departure-headings)  
+- Assigned the **ISPEG** SID  
+    - Departing from Runway 16 during the 16A27D Runway Mode; and  
+    - Assigned `A050`; and  
+    - Tracking via **MNG**, **NONIX**, **DOSEL**, **KEPPA**, **NEVIS** or **ESDIG**
 
 All other aircraft require a 'Next' call to ML TCU.
 
