@@ -16,7 +16,7 @@
 NWWM ADC is responsible for the Class D Airspace within the NWWM CTR `SFC` to `A015`.
 
 ## Coordination
-### NWWM ADC / NWWW TCU
+### NWWW TCU
 #### Departures
 All aircraft departing into NWWW TCU Class D airspace must be 'Next' coordinated to NWWW TCU.
 

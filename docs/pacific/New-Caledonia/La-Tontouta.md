@@ -39,7 +39,7 @@ If **Runway 11** is in use for arrivals and the cloud base is above `A030` but b
 `ACFT ON THE ALPHA STAR EXP ILS APCH` 
 
 ## Coordination
-### NWWW ADC / NWWW TCU
+### NWWW TCU
 #### Auto Release
 
 'Next' coordination is **not** required to from NWWW ADC for aircraft that are:

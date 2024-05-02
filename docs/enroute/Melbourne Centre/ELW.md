@@ -75,13 +75,24 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 #### Airspace
 The Vertical limits of the CB TCU are `SFC` to `F245`.
 
-#### Arrivals/Overfliers
-The Standard assignable level from BLA to CB TCU is `F130`, and assigned the POLLI STAR or MANDA STAR.  
+Refer to [Canberra TCU Airspace Division](../../../terminal/canberra/#airspace-division) for information on airspace divisions when **CBW** is online.
 
-All other aircraft must be voice coordinated to CB TCU prior to **20nm** from the boundary.
+#### Arrivals/Overfliers
+Voiceless for all aircraft:
+
+- With ADES **YSCB**; and  
+- Assigned a STAR; and  
+- Assigned `F130`
+
+All other aircraft coming from BLA CTA must be **Heads-up** Coordinated to CB TCU prior to **20nm** from the boundary.
 
 #### Departures
-The Standard Assignable level from CB TCU to BLA is the lower of `F240` or the `RFL`, and tracking via HOWLY, WG, NONUP, TANTA, or DUBUS.
+Voiceless for all aircraft:
+ 
+- Tracking via a Procedural SID terminus; and  
+- Assigned the lower of `F240` or the `RFL`
+
+All other aircraft going to BLA CTA will be **Heads-up** Coordinated by CB TCU.
 
 ### ML TCU
 #### Airspace
@@ -90,12 +101,21 @@ The Vertical limits of the ML TCU are `SFC` to `F245`.
 Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
 
 #### Arrivals/Overfliers
-The Standard assignable level from ELW to ML TCU is `A090`, and assigned the LIZZI STAR or BOYSE STAR.  
+Voiceless for all aircraft:
 
-All other aircraft must be voice coordinated to ML TCU prior to **20nm** from the boundary.
+- With ADES **YMML**; and  
+- Assigned a STAR; and  
+- Assigned `A090`
+
+All other aircraft coming from ELW CTA must be **Heads-up** Coordinated to ML TCU prior to **20nm** from the boundary.
 
 #### Departures
-The Standard Assignable level from ML TCU to ELW is the lower of `F240` or the `RFL`, and tracking via MNG, NONIX, or DOSEL.
+Voiceless for all aircraft:
+
+- Tracking via **MNG**, **NONIX**, or **DOSEL**; and  
+- Assigned the lower of `F240` or the `RFL`
+
+All other aircraft going to ELW CTA will be **Heads-up** Coordinated by ML TCU.
 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.

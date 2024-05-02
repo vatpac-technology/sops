@@ -52,6 +52,10 @@
 *[TFMS]: The Flow Management System
 *[TAF]: Terminal Area Forecast
 *[DAP]: Departure and Approach Procedures (AIP)
+*[FIS]: Flight Information Service
+*[SIS]: Surveillance Information Service (Flight Following)
+*[ARP]: Aerodrome Reference Point
+*[SVFR]: Special VFR
 *[AAW]: Adelaide Approach West
 *[AAE]: Adelaide Approach East
 *[BAC]: Brisbane (Gold Coast) Approach
@@ -146,10 +150,13 @@
 *[WOL]: Melbourne (Wollongong) Centre
 *[WON]: Melbourne (Wonthaggi) Centre
 *[WRA]: Melbourne (Woomera) Centre
-*[SVFR]: Special VFR
-*[FIS]: Flight Information Service
-*[SIS]: Surveillance Information Service (Flight Following)
-*[ARP]: Aerodrome Reference Point
+*[SFL]: Sydney Flow
+*[MFL]: Melbourne Flow
+*[AFL]: Adelaide Flow
+*[BFL]: Brisbane Flow
+*[CSF]: Cairns Flow
+*[CBF]: Canberra Flow
+*[PFL]: Perth Flow
 *[GGO]: Goonoo Goonoo Station
 *[WBH]: Wallabadah
 *[NUN]: Nundle
@@ -241,13 +248,6 @@
 *[DNGR]: Point Danger
 *[IAS]: Indicated Airspeed
 *[PNL]: Port Noarlunga
-*[SFL]: Sydney Flow
-*[MFL]: Melbourne Flow
-*[AFL]: Adelaide Flow
-*[BFL]: Brisbane Flow
-*[CSF]: Cairns Flow
-*[CBF]: Canberra Flow
-*[PFL]: Perth Flow
 *[PWLC]: Powerline Crossing
 *[LUY]: Latrobe University
 *[WMS]: Williamstown
@@ -269,5 +269,6 @@
 *[AYPM]: Port Moresby FIR
 *[NWWW]: Noumea FIR
 *[NVVV]: Port Vila FIR
+*[RJTG]: Fukuoka FIR
 *[MX]: Maximum Speed
 *[CSR]: Cancel Speed Restrictions

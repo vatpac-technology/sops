@@ -91,32 +91,51 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 #### Airspace
 SY TCU is responsible for the airspace within a 45nm radius of TESAT, `SFC` to `F285`.
 
-Refer to [Sydney TCU Airspace Division](../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
+Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
 
 #### Arrivals/Overfliers
-The Standard assignable level from BIK to SY TCU is:  
-`A100` for aircraft tracking via RIVET, and assigned the RIVET STAR  
-`A090` for aircraft tracking via ODALE, and assigned the ODALE STAR  
+Voiceless for all aircraft:
 
-All other aircraft must be voice coordinated to SY TCU prior to **20nm** from the boundary.
+- With ADES **YSSY**; and  
+- Assigned a STAR; and  
+- Tracking via **RIVET**, assigned `A100`; or  
+- Tracking via **ODALE**, assigned `A090`
+
+All other aircraft coming from BIK CTA must be **Heads-up** Coordinated to SY TCU prior to **20nm** from the boundary.
 
 #### Departures
-The Standard Assignable level from SY TCU to WOL is the lower of `F280` or the `RFL`, and tracking via WOL NDB.
+Voiceless for all aircraft:
+
+- Tracking via the WOL NDB; and  
+- Assigned the lower of `F280` or the `RFL`
+
+All other aircraft going to BIK CTA will be **Heads-up** Coordinated by SY TCU.
 
 ### CB TCU
 #### Airspace
 The Vertical limits of the CB TCU are `SFC` to `F245`.
 
-#### Arrivals/Overfliers
-The Standard assignable level from WOL to CB TCU is `F130`, and assigned the RAZZI STAR, BUNGO STAR, or AVBEG STAR.  
+Refer to [Canberra TCU Airspace Division](../../../terminal/canberra/#airspace-division) for information on airspace divisions when **CBW** is online.
 
-All other aircraft must be voice coordinated to CB TCU prior to **20nm** from the boundary.
+#### Arrivals/Overfliers
+Voiceless for all aircraft:
+
+- With ADES **YSCB**; and  
+- Assigned a STAR; and  
+- Assigned `F130`
+
+All other aircraft coming from BIK CTA must be **Heads-up** Coordinated to CB TCU prior to **20nm** from the boundary.
 
 !!! note
     These coordination requirements apply to aircraft entering the CB TCU, even if the airspace is owned by ELW/BLA
 
 #### Departures
-The Standard Assignable level from CB TCU to GUN is the lower of `F240` or the `RFL`, and tracking via AVBEG, AKMIR, or CULIN.
+Voiceless for all aircraft:
+ 
+- Tracking via **AVBEG**, **AKMIR**, or **CULIN**; and  
+- Assigned the lower of `F240` or the `RFL`
+
+All other aircraft going to BIK CTA will be **Heads-up** Coordinated by CB TCU.
 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.

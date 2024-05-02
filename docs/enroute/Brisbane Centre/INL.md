@@ -38,7 +38,7 @@ When **CFS ADC** is offline, CFS CTR (Class D `SFC` to `A045`) reverts to Class 
 Due to the low ceiling of CTA, when CFS ADC is offline, INL shall instruct aircraft departing into CTA to report lined up on the runway and issue an airways clearance (traffic pending) at that time.
 
 #### RK CTR
-Whilst the **RKA** controller is expected to provide a [top-down service](../../../aerodromes/Rockhampton) to YBRK when **RK ADC** is offline, this is not expected of a GOL controller when both **RKA** and **RK ADC** are offline. If electing not to provide a top-down service to YBRK, the RK CTR Class D is reclassified to Class G `SFC` to `A007`, and Class E `A007` to `A045`.
+Whilst the **RKA** controller is expected to provide a [top-down service](../../../aerodromes/Rockhampton) to YBRK when **RK ADC** is offline, this is not expected of a KPL controller when both **RKA** and **RK ADC** are offline. If electing not to provide a top-down service to YBRK, the RK CTR Class D is reclassified to Class G `SFC` to `A007`, and Class E `A007` to `A045`.
 
 ## Sector Responsibilities
 
@@ -54,6 +54,14 @@ GOL is responsible for final sequencing for aircraft bound for YBBN, YBCG, and i
 NSA is responsible for facilitating YBSU traffic, including operating the Class C airspace `A045` and above.
 ### Keppel (KPL)
 KPL is responsible for issuing STAR Clearances (Jets only) and initial descent for aircraft bound for YBSU, YBBN and YBCG.
+
+### Sequencing in to YBBN
+Aircraft assigned the **same runway** inbound via:  
+
+- BLAKA and GOMOL  
+- SMOKA and MORBI
+
+Must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes **apart at their respective Feeder fixes.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -80,25 +88,68 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | INL | GOL | YBSU | |
 | NSA | KPL | YBRK, YBMK | |
 
+## STAR Assignment
+### PROPS
+When operating a PROPS Runway Mode, Aircraft shall be assigned the appropriate 'ALPHA' STAR (or other STAR on pilot request), with the following runway selection:
+
+| FF | Runway |
+| ---- | -------- |
+| BLAKA | 01R/19L |
+| GOMOL | 01R/19L |
+| UGTUG | 01R/**19R** |
+| TEBOT | 01R/**19R** |
+| MORBI | 01L/19R |
+| SMOKA | 01L/19R |
+| WOODY | 01L/19R |
+| ENLIP | 01L/**19L** |
+| Other aircraft: |
+| From the NORTH and WEST | 01L/19R |
+| From the SOUTH and EAST | 01R/19L |
+
+These standard runway assignments may be modified strategically by the BAS or BFL controller.
+
+!!! example
+    If during an event, the vast majority of traffic is coming from **BLAKA** and **GOMOL** feeder fixes, BAS/BFL may elect to assign 19L to **BLAKA** arrivals and 19R to **GOMOL** arrivals, to keep them strategically spearated in the TCU.
+
+    <span class="hotline">**BFL** -> **INL**</span>: "All arrivals via GOMOL to be assigned 19R until further notice"  
+    <span class="hotline">**INL** -> **BFL**</span>: "Roger, Arrivals via GOMOL to be assigned 19R" 
+
+### SODPROPS
+When operating the SODPROPS Runway Mode, aircraft via **ENLIP**, **BLAKA**, **GOMOL** and **UGTUG**, shall be assigned the **ISPON** STAR with the appropriate transition. Aircraft via other Feeder fixes may be assigned the standard STAR.
+
 ## Coordination
 ### BN TCU
 #### Airspace
 The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, where it is `SFC` to `A075` in the North West, and `SFC` to `F125` in the South East.
 
-Refer to [Brisbane TCU Airspace Division](../../../terminal/brisbane/operations/#airspace-division) for information on airspace divisions when **BAS**, **BDN** and/or **BDS** are online.
+Refer to [Brisbane TCU Airspace Division](../../../terminal/brisbane/#airspace-division) for information on airspace divisions when **BAS**, **BDN** and/or **BDS** are online.
 
 #### Arrivals/Overfliers
-The Standard assignable level from INL(All) to BN TCU is:  
-`A090` for YBBN arrivals, and assigned a STAR  
-`F130` for YBCG arrivals via BERNI, and assigned a STAR  
+Voiceless for all aircraft:
 
-All other aircraft must be voice coordinated to BN TCU prior to **20nm** from the boundary.
+- With ADES **YBBN** or **YBCG**; and  
+- Assigned a STAR; and  
+- Assigned `A090` for **YBBN** arrivals; or  
+- Assigned `F130` for **YBCG** arrivals
+
+Additionally, Voiceless coordination may be used for **YBCG** arrivals tracking via **BN** and assigned `F190`.
+
+All other aircraft coming from INL CTA must be **Heads-up** Coordinated to BN TCU prior to **20nm** from the boundary.
 
 #### Departures
-The Standard Assignable level for YBBN departures from BN TCU to **INL(All)** is the lower of `F180` or the `RFL`.  
-The Standard Assignable level for YBCG departures from BN TCU to **GOL/SDY** is the lower of `F120` or the `RFL`, and tracking via APAGI.  
-The Standard Assignable level for YBCG departures from BN TCU to **NSA/BUR/DOS** is the lower of `F180` or the `RFL`.  
-The Standard Assignable level for YBSU arrivals from BN TCU to **NSA** is `F130`, and tracking via ITIDE.  
+Voiceless for aircraft:
+
+- With ADEP **YBBN**  
+    - Tracking via a Procedural SID terminus; and  
+    - Assigned the lower of `F180` or the `RFL`  
+- With ADEP **YBCG**  
+    - Tracking via **APAGI** and assigned the lower of `F120` or the `RFL`; or  
+    - Tracking via **BN** and assigned the lower of `F180` or the `RFL`  
+- With ADES **YBSU**  
+    - Assigned the **ITIDE** STAR; and  
+    - Assigned `F130`
+    
+All other aircraft going to INL CTA will be **Heads-up** Coordinated by BN TCU.
 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
@@ -106,7 +157,8 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 ### INL Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
-That being said, it is *advised* that INL(All) give **Heads-up Coordination** to the relevant sector prior to **20nm** from the boundary in the following scenarios:  
+That being said, it is *advised* that INL(All) give **Heads-up Coordination** to the relevant sector prior to **20nm** from the boundary in the following scenarios:
+
 - INL to DOS for all aircraft  
 - DOS to BUR, NSA, GOL and INL for all aircraft  
 - SDY to NSA, GOL and INL for all aircraft  
@@ -140,12 +192,21 @@ The Standard Assignable level from NSA to **SU ADC** is `A060`, any other level 
 RKA is responsible for the airspace within the 'RK keyhole' `SFC` to `F150`.
 
 #### Arrivals/Overfliers
-The Standard assignable level from KPL to **RKA** is `A070`, and assigned the ABVAS STAR or DADBO STAR.
+Voiceless for all aircraft:
 
-All other aircraft must be voice coordinated to **RKA** prior to **20nm** from the boundary.
+- With ADES **YBRK**; and  
+- Assigned the **ABVAS** or **DADBO** STAR; and  
+- Assigned `A070`
+
+All other aircraft coming from KPL CTA must be **Heads-up** Coordinated to RKA prior to **20nm** from the boundary.
 
 #### Departures
-The Standard Assignable level from **RKA** to KPL is `F150`, and tracking via BUDGI or TARES.
+Voiceless for all aircraft:
+
+- Tracking via **BUDGI** or **TARES**; and  
+- Assigned the lower of `F150` or the `RFL`
+
+All other aircraft going to KPL CTA will be **Heads-up** Coordinated by RKA.
 
 ### CFS ADC
 #### Airspace

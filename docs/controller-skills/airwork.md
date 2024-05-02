@@ -4,6 +4,9 @@ title: Airwork / Special Operations
 
 --8<-- "includes/abbreviations.md"
 
+<details open markdown="1">
+<summary>Airwork</summary>
+
 ## Airwork
 Airwork is essentially defined as an aerial operation that doesn't involve simply going from A to B. They can complicate things from an air traffic control perspective, because it's not necessarily as clear exactly what the aircraft is about to do just from looking at their label. In order to facilitate separation and the orderly flow of traffic whilst Airwork is taking place, there are a few procedures to follow.
 
@@ -15,6 +18,8 @@ Airwork can be conducted in any defined area specified by the pilot or ATC. This
     **PPB**: "PPB, will be conducting Airwork within a 20nm radius of YPKU, not above A040, for the next 20 minutes. Will call Ops Normal time 30"  
     **KIY**: "PPB, No Reported IFR Traffic"  
     **PPB**: "PPB"
+
+</details>
 
 <details markdown="1">
 <summary>Remarks</summary>
