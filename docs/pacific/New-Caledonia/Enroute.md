@@ -10,12 +10,15 @@
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
 | Tontouta Approach North|NWWW| Tontouta Control  | 128.200         | NWWW_CTR          |
 
+!!! note
+    Charts can be found on the [French AIS page](https://www.sia.aviation-civile.gouv.fr/){target=new}, available under AIP > eAIP PAC N.
+
 ## Airspace
 ### NFFF Release
 When NWWW is online, NFFF Class A airspace `F245`-`UNL` within the New Caledonia sector is released from NFFF to NWWW, unless coordinated otherwise.
 
 ## Coordination
-### NWWW / NWWW TCU
+### NWWW TCU
 #### Arrivals
 Voiceless coordination is in place from NWWW/NFFF to NWWW TCU given the arrival has been assigned the standard assignable level and depending on the duty runway:
 
@@ -33,17 +36,11 @@ Voiceless coordination is in place from NWWW TCU to NWWW/NFFF for aircraft assig
 
 The standard assignable level from NWWW TCU to NWWW is `F240`.
 
-### NWWW / NVVV
+### NVVV
+Voiceless, no changes to route or CFL within **20nm** to boundary.
 
-Voiceless, no changes to route or CFL within 20nm to boundary.
+### FLD
+As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
 
-### NWWW / TSN
-
-Heads up coordinate prior to 30 mins to the boundary.
-
-### NWWW / NFFF
-
-Heads up coordinate prior to 15 mins to the boundary.
-
-!!! note
-    Charts can be found on the [French AIS page](https://www.sia.aviation-civile.gouv.fr/){target=new}, available under AIP > eAIP PAC N.
+### NFFF
+As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.

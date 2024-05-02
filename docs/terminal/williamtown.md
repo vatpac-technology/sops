@@ -47,16 +47,25 @@ When WLM ADC is online, they own the airspace within the WLM MIL CTR A (`SFC`-`A
 Any airspace releases from the default setup must be coordinated and agreed upon with ARL. It is also good practice to remind them of any airspace releases that may be active due to NOTAMs.
 
 #### Departures
-Voiceless coordination is in place from WLM TCU to ARL(All) for aircraft assigned the lower of `F120` or the `RFL`, and tracking via a Procedural SID terminus.
+Voiceless for all aircraft:
 
-Any aircraft not meeting the above criteria must be prior coordinated to ARL(All).
+- Tracking via a Procedural SID terminus; and  
+- Assigned the lower of `F120` or the `RFL`
+
+All other aircraft going to ARL CTA must be **Heads-up** Coordinated by WLM TCU prior to the boundary.
 
 !!! example
     <span class="hotline">**WLM TCU** -> **MLD**</span>: "QJE1597, request DCT OMGAB"  
     <span class="hotline">**MLD** -> **WLM TCU**</span>: "QJE1597, concur DCT OMGAB"  
 
 #### Arrivals/Overfliers
-The Standard assignable level from ARL(All) to WLM TCU is `A090`, and assigned a STAR. All other aircraft must be prior coordinated.
+Voiceless for all aircraft:
+
+- With ADES **YWLM**; and  
+- Assigned a STAR; and  
+- Assigned `A090`
+
+All other aircraft coming from ARL CTA will be **Heads-up** Coordinated to WLM TCU.
 
 ### ADC
 #### Airspace

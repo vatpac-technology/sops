@@ -55,12 +55,21 @@ The Vertical limits of the AD TCU are `SFC` to `F245`.
 Refer to [Adelaide TCU Airspace Division](../../../terminal/adelaide/#airspace-division) for information on airspace divisions when **AAE** is online.
 
 #### Arrivals/Overfliers
-The Standard assignable level from TBD/AUG to AD TCU is `A090`, and assigned a STAR.
+Voiceless for all aircraft:
 
-All other aircraft must be voice coordinated to AD TCU prior to **20nm** from the boundary.
+- With ADES **YPAD**; and  
+- Assigned a STAR; and  
+- Assigned `A090`
+
+All other aircraft coming from TBD CTA must be **Heads-up** Coordinated to AD TCU prior to **20nm** from the boundary.
 
 #### Departures
-The Standard Assignable level from AD TCU to TBD/AUG is the lower of `F240` or the `RFL`, and tracking via a SID terminus.
+Voiceless for all aircraft:
+ 
+- Tracking via a Procedural SID terminus; and  
+- Assigned the lower of `F240` or the `RFL`
+
+All other aircraft going to TBD CTA will be **Heads-up** Coordinated by AD TCU.
 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr){target=new}, Voiceless, no changes to route or CFL within **50nm** to boundary.

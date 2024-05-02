@@ -98,12 +98,21 @@ Refer to [Perth TCU Airspace Division](../../../terminal/perth/#airspace-divisio
     A significant portion of the TMA airspace south of the PH VOR (roughly 20 DME onwards) is classified Class E with a lower limit of `F125`. Aircraft arriving from this direction from `F130` and above shall be instructed to leave and re-enter controlled airspace on descent to the standard assignable level (or other appropriate altitude).
 
 #### Arrivals/Overfliers
-The Standard Assignable level from PIY(All) to PH TCU is `A090` and assigned the relevant STAR. 
+Voiceless for all aircraft:
 
-All other aircraft must be voice coordinated to PH TCU prior to **20nm** from the boundary.
+- With ADES **YPPH**; and  
+- Assigned a STAR; and  
+- Assigned `A090`
+
+All other aircraft coming from PIY CTA must be **Heads-up** Coordinated to PH TCU prior to **20nm** from the boundary.
 
 #### Departures
-The Standard Assignable level from PH TCU to PIY(All) is the lower of `F180` or the `RFL`.
+Voiceless for all aircraft:
+ 
+- Tracking via a Procedural SID terminus; and  
+- Assigned the lower of `F180` or the `RFL`
+
+All other aircraft going to PIY CTA will be **Heads-up** Coordinated by PH TCU.
 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.

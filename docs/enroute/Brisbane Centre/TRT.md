@@ -50,21 +50,30 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 ### DN TCU
 #### Airspace
-DN TCU owns the airspace within a 40NM radius of the DN DME from `SFC`–`FL180`  
+DN TCU owns the airspace within a 40NM radius of the DN DME from `SFC`–`F180`  
 
 DN TCU is also responsible for Active Restricted Area R264 A-K and R230 A-F  
 
 DAW may request DN TCU (`SFC`–`F240`) from TRT to facilitate military transits to/from R264 A-K and R230 A-F  
 
-Refer to [Darwin TCU Airspace Division](../../../terminal/darwin/#tcu) for information on airspace divisions when **DAW** is online.
+Refer to [Darwin TCU Airspace Division](../../../terminal/darwin/#airspace-division) for information on airspace divisions when **DAW** is online.
 
 #### Arrivals/Overfliers
-The Standard Assignable level from TRT to DN TCU is `A100` and assigned the relevant STAR. 
+Voiceless for all aircraft:
 
-All other aircraft must be voice coordinated to DN TCU prior to **20nm** from the boundary.
+- With ADES **YPDN**; and  
+- Assigned a STAR; and  
+- Assigned `A100`
+
+All other aircraft coming from TRT CTA must be **Heads-up** Coordinated to DN TCU prior to **20nm** from the boundary.
 
 #### Departures
-The Standard Assignable level from DN TCU to TRT is the lower of `F180` or the `RFL`
+Voiceless for all aircraft:
+
+- Tracking via a Procedural SID terminus; and  
+- Assigned the lower of `F180` or the `RFL`
+
+All other aircraft going to TRT CTA will be **Heads-up** Coordinated by DN TCU.
 
 ### BRM ADC
 #### Airspace
@@ -79,6 +88,7 @@ Departures from YBRM in to KIY CTA will be coordinated when ready for departure.
     <span class="hotline">**BRM ADC** -> **KIY**</span>: "Unrestricted, ANO333"  
 
 The Standard Assignable level from BRM ADC to TRT(KIY) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
+
 #### Arrivals
 YBRM arrivals shall be heads-up coordinated to **BRM ADC** from TRT prior to **5 mins** from the boundary.
 

@@ -4,7 +4,12 @@ title: Milk Run Monday
 
 --8<-- "includes/abbreviations.md"
 
+<details open markdown="1">
+<summary>Milk Run</summary>
+
 Milk Run Monday is a very busy event, that tests the limits of controllers at it's busiest. It is important to understand some processes that makes the event run as smooth as possible for all pilot and controllers involved. The information on this page is extracted from various Local Instructions and Controller Skills pages, collated to give all of the most relevant information to controlling the Milk Run event.
+
+</details>
 
 <details markdown="1">
 <summary>ACD</summary>
@@ -15,7 +20,7 @@ The job of the ACD controller during Milk Run is a fairly straight-forward one, 
 Ensure that all flight plans are correct, nothing like `DOSEL DCT RIVET`, `GPS DIRECT`, or anything else unusual like that, just stick to the pre-approved Jet and Non-Jet routes. This helps reduce workload on Enroute controllers down the line.
 
 ### 16 Off Mode Departures at YMML
-A Reminder that [Off Mode Departures from Runway 16](../../aerodromes/classc/Melbourne/#off-mode-departures) to the North East and North West during the 16A27D Runway Mode must be assigned the **ISPEG** SID, **NOT** the DOSEL SID. The **ISPEG** SID deconflicts concurrent 16 and 27 departures, whereas the DOSEL SID does not.
+A Reminder that [Off Mode Departures from Runway 16](../../aerodromes/classc/Melbourne/#off-mode-departures) to the North East and West during the 16A27D Runway Mode must be assigned the **ISPEG** SID, **NOT** the DOSEL SID. The **ISPEG** SID deconflicts concurrent 16 and 27 departures, whereas the DOSEL SID does not.
 
 </details>
 

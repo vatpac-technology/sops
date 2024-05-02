@@ -4,7 +4,12 @@ title: vatSys Setup
 
 --8<-- "includes/abbreviations.md"
 
-Although much of the detailed setup is up to personal preference, the following setttings are **strongly** recommended to help best execute the appropriate role.
+<details open markdown="1">
+<summary>Setup</summary>
+
+Although much of the detailed setup is up to personal preference, the following settings are **strongly** recommended to help best execute the appropriate role.
+
+</details>
 
 <details markdown="1">
 <summary>Enroute</summary>
