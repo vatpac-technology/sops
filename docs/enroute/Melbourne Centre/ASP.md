@@ -56,6 +56,8 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 #### Airspace
 AS ADC is responsible for the Class D airspace `SFC` to `A045`, as well as the Class C airspace `A045` to `A065`, within the AS CTR.
 
+Refer to [Reclassifications](#as-ctr) for operations when AS ADC is offline.
+
 #### Departures
 Departures from YBAS in to ASP Class C will be coordinated when ready for departure.
 

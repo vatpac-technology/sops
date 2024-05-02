@@ -133,6 +133,8 @@ Boundary coordination is not required between AAW and AAE for aircraft arriving 
 #### Airspace
 PF ADC is responsible for the Class D airspace in the PF CTR `SFC` to `A015`.
 
+Refer to [Reclassifications](#pf-ctr) for operations when PF ADC is offline.
+
 #### Departures
 When the aircraft is ready for departure, PF ADC will coordinate with AD TCU for permission to release the aircraft into CTA.
 

@@ -52,6 +52,8 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 
 **HBA** owns the airspace `SFC` to `F245` within the remainder of the Tasmania TMA (shown below). HB ADC owns the Class D airspace within HB CTR `SFC` to `A015` (north of runway centreline) and `A025` (south of runway centreline) when open. 
 
+Refer to [Reclassifications](#tas-tcu) for operations when HBA and/or LTA are offline.
+
 ##### LTA Release
 The Airspace on and west of the IRSOM-MORGO track `F125`-`F245` is permanently released from LTA to HUO, unless coordinated otherwise. [Boundary Coordination](../../../controller-skills/coordination/#boundary) is not required to LTA for aircraft on this track assigned at or above `F130`.
 

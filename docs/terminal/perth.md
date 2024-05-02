@@ -191,6 +191,8 @@ All other aircraft transiting between internal PH TCU boundaries must be heads-u
 #### Airspace
 JT ADC is responsible for the Class D airspace in the JT CTR `SFC` to `A015`.
 
+Refer to [Reclassifications](#jt-ctr) for operations when JT ADC is offline.
+
 #### Departures
 When the aircraft is ready for departure, JT ADC will coordinate with the relevant PH TCU controller above them for permission to release the aircraft into their CTA.
 

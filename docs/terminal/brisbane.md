@@ -168,6 +168,8 @@ For Non-Jets: The lower of `A040` or the `RFL`
 #### Airspace
 CG ADC is responsible for the Class C Airspace within the CG CTR `SFC` to `A015`.
 
+Refer to [Reclassifications](#cg-ctr) for operations when CG ADC is offline.
+
 #### Auto Release
 'Next' coordination is **not** required from CG ADC for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  
@@ -186,6 +188,11 @@ For Jets: `A060`
 For Non-Jets: The lower of `A060` or the `RFL`
 
 ### AF ADC
+#### Airspace
+AF ADC is responsible for the Class D Airspace within the AF CTR `SFC` to `A015`.
+
+Refer to [Reclassifications](#af-ctr) for operations when AF ADC is offline.
+
 ### Departures
 When aircraft planned via a CTA departure are ready for takeoff and expected to depart imminently, **AF ADC** shall seek release of the aircraft through a 'Next' call.
 
