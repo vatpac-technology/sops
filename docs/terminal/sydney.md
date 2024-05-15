@@ -559,13 +559,20 @@ Auto Release is used for virtually all fixed-wing departures at Sydney. Unlike s
 !!! tip
     If strong winds are present at altitude, TWR/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
 
-Auto Release shall also be used from SY ADC for aircraft that are:     
-- Departing from a runway nominated on the ATIS; and  
-- Assigned the standard assignable level; and  
-- Assigned a Procedural SID; or  
-- Assigned a Radar SID with a Standard Assignable Heading
+'Next' coordination is **not** required for aircraft that are:   
+    a) Departing from a runway nominated on the ATIS; and   
+    b) Assigned the Standard assignable level; and  
+    c) Assigned a **Procedural SID** (except **ABBEY** SID); or  
+    d) Assigned a Standard Assignable Heading
 
-Any aircraft that don't meet these criteria must be coordinated by SY ADC with a "Next" Call.
+All other aircraft require a 'Next' call from SY ADC.
+
+'Next' coordination is additionally required for:  
+    a) Visual departures  
+    b) Departures to YSBK  
+    c) After a go around, the next departure from that runway  
+    d) Jets departing 16L via WOL  
+    e) All aircraft during the Curfew Runway Mode
 
 !!! example
     <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Next, ADA4, runway 34R"  
