@@ -9,7 +9,7 @@
 | Name               | ID      | Callsign       | Frequency        | Login Identifier              |
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
 | **Cairns Approach**    |**CS1**| **Cairns Approach**   | **118.400**         | **CS_APP**          |
-| Cairns Approach†    |CS2| Cairns Departures  | 126.100         | CS_DEP          |
+| Cairns Approach†    |CS2| Cairns Approach  | 126.100         | CS-W_APP          |
 | Cairns Flow†        |CSF|                |          | CS_FMP                              |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
