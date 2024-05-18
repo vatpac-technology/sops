@@ -92,11 +92,11 @@ The times assume there is *Nil wind*.
 | ---------- | --- | ------- | ----- | --- |
 | ALEXI      | 14  | 13      | -     | -   |
 | DRINA      | -   | -       | 14    | 13  |
-| BLACK      | 15  | 14      | 12^   | -   |
-| KLAVA      | 15  | 14      | 13    | 12  |
+| BLACK      | 16  | 15      | 12^   | -   |
+| KLAVA      | 16  | 15      | 13    | 12  |
 | ERITH      | -   | -       | 13    | 12  |
-| MARGO      | 13  | 12      | 14    | 12  |
-| RIKAB      | 13  | 12^     | 16    | 14  |
+| MARGO      | 14  | 13      | 15    | 13  |
+| RIKAB      | 13  | 12^     | 17    | 15  |
 
 - **GULLY** - Threshold is **5 minutes**  
 - **PADSI** - Threshold is **3.5 minutes**  
@@ -119,15 +119,15 @@ For Non-Jets tracking via the *full Jet STARs*, see [table above](#jets)
 
 | Feeder Fix | 05  | 12  | 23  | 30  |
 | ---------- | --- | --- | --- | --- |
-| ALEXI      | 11  | 13  | 11  | 10  |
-| DRINA      | 13  | 15  | 13  | 12  |
-| BLACK      | 15  | 14  | 12  | 12  |
-| RUSSL      | 16  | 14  | 13  | 14  |
-| KLAVA      | 14  | 12  | 12  | 15  |
+| ALEXI      | 12  | 14  | 12  | 11  |
+| DRINA      | 14  | 17  | 14  | 13  |
+| BLACK      | 16  | 15  | 13  | 13  |
+| RUSSL      | 17  | 15  | 14  | 13  |
+| KLAVA      | 15  | 13  | 13  | 16  |
 | ERITH      | -   | -   | -   | -   |
-| MARGO      | 12  | 11  | 12  | 14  |
-| RIKAB      | 12  | 12  | 14  | 15  |
-| ELROX      | 10  | 11  | 13  | 12  |
+| MARGO      | 13  | 12  | 13  | 15  |
+| RIKAB      | 13  | 13  | 15  | 16  |
+| ELROX      | 11  | 11  | 14  | 13  |
 
 - **5nm final** - Threshold is **2 minutes**  
 - Subtract **1 minute** for MX  
