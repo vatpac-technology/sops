@@ -11,6 +11,7 @@
 | Kimberley† | Brisbane Centre | 133.400 | BN-KIY_CTR |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
+
 ## Airspace
 
 <figure markdown>
@@ -19,6 +20,10 @@
 </figure>
 
 TRT is responsible for **KIY** when they are offline.  
+
+### Reclassifications
+#### BRM CTR
+When **BRM ADC** is offline, BRM CTR (Class D/E `SFC` to `A055`) reverts to Class G, and is administered by KIY. Alternatively, KIY may provide a [top-down procedural service](../../../aerodromes/Karratha) if they wish.
 
 ## Sector Responsibilities
 TRT is responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YPDN.  
@@ -85,7 +90,7 @@ Departures from YBRM in to KIY CTA will be coordinated when ready for departure.
 !!! example
     <span class="hotline">**BRM ADC** -> **KIY**</span>: "Next, ANO333"  
     <span class="hotline">**KIY** -> **BRM ADC**</span>: "ANO333, Unrestricted"  
-    <span class="hotline">**BRM ADC** -> **KIY**</span>: "Unrestricted, ANO333"  
+    <span class="hotline">**BRM ADC** -> **KIY**</span>: "ANO333"  
 
 The Standard Assignable level from BRM ADC to TRT(KIY) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
 
@@ -114,6 +119,9 @@ The Standard Assignable level from CIN TCU to TRT(KIY) is `F190`, and tracking v
 When CIN TCU is offline, coordination is not required between TRT(KIY) and CIN ADC. Aircraft entering CIN ADC airspace shall be handed off, and instructed to contact CIN ADC for onwards clearance.
 
 CIN ADC owns the Class C airspace within the CIN MIL CTR from `SFC` to `A015`.
+
+### TN TCU
+Reserved.
 
 ### IND(INE) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
