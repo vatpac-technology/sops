@@ -52,7 +52,7 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 #### Airspace
 The Vertical limits of the AD TCU are `SFC` to `F245`.
 
-Refer to [Adelaide TCU Airspace Division](../../../terminal/adelaide/#airspace-division) for information on airspace divisions when **AAE** is online.
+Refer to [Adelaide TCU Airspace Division](../../../terminal/adelaide/#airspace-division) for information on airspace divisions when **AAW** is online.
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:

@@ -87,8 +87,8 @@ HB ADC owns the Class D airspace in the HB CTR `SFC` to `A015` north of the runw
   c) Assigned a **Procedural** SID
 
 The Standard Assignable level from HB ADC to HBA is:  
-For Jets: `A080`  
-For Non-Jets: The lower of `A045` or the `RFL`.
+For IFR Aircraft: `A080`  
+For VFR Aircraft: The lower of `A045` or the `RFL`.
 
 #### Arrivals
 HBA will coordinate all YMHB arrivals to HB ADC prior to **5 mins** from the boundary. This coordination shall be as per [Standard Heads-up format](../../controller-skills/coordination/#heads-up), with the addition of:
@@ -112,8 +112,8 @@ LT ADC owns the Class D airspace in the LT CTR `SFC` to `A015`. LTA owns the Cla
   c) Assigned a **Procedural** SID
 
 The Standard Assignable level from LT ADC to LTA is:  
-For Jets: `A080`  
-For Non-Jets: The lower of `A045` or the `RFL`.
+For IFR Aircraft: `A080`  
+For VFR Aircraft: The lower of `A045` or the `RFL`.
 
 #### Arrivals
 LTA will coordinate all YMLT arrivals to LT ADC prior to **5 mins** from the boundary. This coordination shall be as per [Standard Heads-up format](../../controller-skills/coordination/#heads-up), with the addition of:

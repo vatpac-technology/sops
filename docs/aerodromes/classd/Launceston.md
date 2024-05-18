@@ -72,16 +72,16 @@ All other aircraft require a 'Next' call to LTA.
 
 The LTA controller can suspend/resume Auto Release at any time, with the concurrence of **LT ADC**.
 
-The controller assuming responsibility of **LT ACD** shall give heads-up coordination to LTA controller prior to the issue of the following clearances:  
+LT ADC shall give heads-up coordination to LTA controller prior to the issue of the following clearances:  
 a) VFR Departures  
 b) Aircraft using a runway not on the ATIS  
 
 The Standard Assignable level from LT ADC to LTA is:  
-For Jets: `A080`  
-For Non-Jets: The lower of `A045` or the `RFL`.
+For IFR Aircraft: `A080`  
+For VFR Aircraft: The lower of `A045` or the `RFL`.
 
 ### Arrivals/Overfliers
-LTA will heads-up coordinate arrivals/overfliers from Class C to LT ADC.  
+LTA will heads-up coordinate arrivals/overfliers from LTA CTA to LT ADC.  
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to LT ADC, unless LT ADC nominates a restriction.  
 VFR aircraft require a level readback.
 
