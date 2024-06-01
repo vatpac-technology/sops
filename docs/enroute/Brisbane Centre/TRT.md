@@ -23,7 +23,7 @@ TRT is responsible for **KIY** when they are offline.
 
 ### Reclassifications
 #### BRM CTR
-When **BRM ADC** is offline, BRM CTR (Class D/E `SFC` to `A055`) reverts to Class G, and is administered by KIY. Alternatively, KIY may provide a [top-down procedural service](../../../aerodromes/Karratha) if they wish.
+When **BRM ADC** is offline, BRM CTR (Class D/E `SFC` to `A055`) reverts to Class G, and is administered by KIY. Alternatively, KIY may provide a [top-down procedural service](../../../aerodromes/Broome) if they wish.
 
 ## Sector Responsibilities
 TRT is responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YPDN.  

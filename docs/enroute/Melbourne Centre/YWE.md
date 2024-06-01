@@ -64,6 +64,7 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | HUO | WON | YMML | 
 | ASP(BKE) | KAT | YSSY | |
 | ARL(MDE) | KAT | YSCB | |
+| ELW(SNO) | WON | YMML | |
 
 ## Coordination
 

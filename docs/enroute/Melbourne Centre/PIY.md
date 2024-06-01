@@ -38,7 +38,7 @@ LEA is responsible for assigning and issuing STAR clearance to aircraft inbound 
 GVE is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `JULIM` and `SAPKO`.  See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
 
 ### Hyden (HYD)
-HYD is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `BEVLY`, `DAYLR` and `GRENE`. See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
+HYD is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `KABLI`, `DAYLR` and `GRENE`. See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
 
 ### Cross (CRS) / Geraldton (GEL)
 Just keeping them separated!
@@ -58,7 +58,7 @@ With the Southwest Plan active, arrivals shall be processed to either runway 21 
 | JULIM | 21 |
 | SAPKO | 21 |
 | IPMOR | 21 |
-| BEVLY | 24 (or 21 if operationally required) |
+| KABLI | 24 (or 21 if operationally required) |
 | GRENE | 24 |
 | SOLUS | 24 |
 

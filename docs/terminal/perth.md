@@ -55,7 +55,7 @@ With the Southwest Plan active, all departures shall be assigned runway 21 by **
 | JULIM | 21 |
 | SAPKO | 21 |
 | IPMOR | 21 |
-| BEVLY | 24 (or 21 if operationally required) |
+| KABLI | 24 (or 21 if operationally required) |
 | GRENE | 24 |
 | SOLUS | 24 |
 
@@ -92,7 +92,7 @@ IFR RNAV equipped arrivals to Jandakot planned via a fix listed shall be cleared
 | Perth Active Runway | 03/06 | 21/24 |
 | ------------------- | ----- | ----- |
 | **North**<br>JULIM (Jet)<br>SAPKO (Non-Jet) | <br>JT 2G / WOORA | <br>DCT JT |
-| **East**<br>BEVLY (Jet)<br>GRENE (Non-Jet)<br>HAMTN (Non-Jet) | <br>JT 2G / BEVLY<br>JT 2G / GRENE<br>JT 2W / HAMTN | <br>JT 2R / BEVLY<br>JT 2R / GRENE<br>N/A 
+| **East**<br>KABLI (Jet)<br>GRENE (Non-Jet)<br>MALUP (Non-Jet) | <br>JT 2G / KABLI<br>JT 2G / GRENE<br>JT 2W / MALUP | <br>JT 2R / KABLI<br>JT 2R / GRENE<br>N/A 
 
 ### YPEA Arrivals
 Reserved
