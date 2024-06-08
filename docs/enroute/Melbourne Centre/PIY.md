@@ -68,24 +68,15 @@ With the Northeast Plan active (runways 03 and 06 in use), all arrivals shall be
 ## YPJT Arrivals
 To facilitate smooth movement of traffic in the Perth TCU, IFR Arrivals to YPJT shall be assigned a STAR in accordance with the *YPPH Runway Mode*:
 
-### YPPH 03/06 Runway Mode
+| Feeder Fix | 03/06 | 21/24 |
+| ------------------- | ----- | ----- |
+| WOORA | Golf | WOORA PH JT (No STAR) |
+| LAVEX | Golf | Romeo |
+| KABLI (Jet) | Golf | Romeo | 
+| MALUP (Non-Jet) | Whiskey | Romeo (via KABLI) | 
 
-| Feeder Fix | STAR |
-| --- | --- |
-| MALUP/KABLI | Whiskey |
-| LAVEX | Golf |
-| WOORA | Golf |
-
-### YPPH 21/24 Runway Mode
-
-| Feeder Fix | STAR |
-| --- | --- |
-| MALUP/KABLI | Romeo |
-| LAVEX | Romeo |
-| WOORA | Golf |
-
-### Coordination Requirements
-Note that assigning a STAR to YPJT Arrivals still does not meet [voiceless coordination requirements](#arrivalsoverfliers) to PH TCU. All YPJT Arrivals must be **heads-up coordinated**, including those assigned a STAR.
+!!! note
+    Assigning a STAR to YPJT Arrivals still does not meet [voiceless coordination requirements](#arrivalsoverfliers) to PH TCU. All YPJT Arrivals must be **heads-up coordinated**, including those assigned a STAR.
 
 ## STAR Clearance Expectation
 
