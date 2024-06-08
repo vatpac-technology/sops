@@ -85,18 +85,6 @@ Aircraft wishing to conduct a scenic flight over the Perth CBD should be cleared
 
 Aircraft departing YPPH and intending to conduct the Victor 65 route will be coordinated by **PH ACD**. See [Airways Clearances](#airways-clearances).
 
-## Arrival Procedures
-### YPJT Arrivals
-IFR RNAV equipped arrivals to Jandakot planned via a fix listed shall be cleared via STAR dependent on Perth active runway:
-
-| Perth Active Runway | 03/06 | 21/24 |
-| ------------------- | ----- | ----- |
-| **North**<br>JULIM (Jet)<br>SAPKO (Non-Jet) | <br>JT 2G / WOORA | <br>DCT JT |
-| **East**<br>KABLI (Jet)<br>LAVEX (Non-Jet)<br>MALUP (Non-Jet) | <br>JT 2G / KABLI<br>JT 2G / LAVEX<br>JT 2W / MALUP | <br>JT 2R / KABLI<br>JT 2R / LAVEX<br>N/A 
-
-### YPEA Arrivals
-Reserved
-
 ## JT/PEA ADC Offline
 Due to the low level of CTA at these aerodromes, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
