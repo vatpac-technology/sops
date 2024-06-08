@@ -29,7 +29,7 @@ With the Southwest Plan active, all departures shall be assigned runway 21. Arri
 | SAPKO | 21 |
 | IPMOR | 21 |
 | KABLI | 24 (or 21 if operationally required) |
-| GRENE | 24 |
+| LAVEX | 24 |
 | SOLUS | 24 |
 
 The ATIS shall notify `EXPECT ILS APCH`.
