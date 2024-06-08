@@ -38,7 +38,7 @@ LEA is responsible for assigning and issuing STAR clearance to aircraft inbound 
 GVE is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `JULIM` and `SAPKO`.  See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
 
 ### Hyden (HYD)
-HYD is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `KABLI`, `DAYLR` and `GRENE`. See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
+HYD is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `KABLI`/`MALUP`, `DAYLR` and `LAVEX`. See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
 
 ### Cross (CRS) / Geraldton (GEL)
 Just keeping them separated!
@@ -49,8 +49,8 @@ JAR is responsible for assigning and issuing arrival clearance to aircraft inbou
 !!! note
     Controllers should be aware there may be limited ADS-B coverage around Albany (YABA). Expect some areas of Class E airspace to be outside surveillance coverage. [Procedural Standards](../../../separation-standards/procedural) may need to be used in these cases.
 
-### Perth Runway Modes
-#### Southwest Plan
+## YPPH Runway Modes
+### Southwest Plan
 With the Southwest Plan active, arrivals shall be processed to either runway 21 or 24 based on their feeder fix, as per the table below:
 
 | Feeder Fix | Assigned Runway |
@@ -59,11 +59,33 @@ With the Southwest Plan active, arrivals shall be processed to either runway 21 
 | SAPKO | 21 |
 | IPMOR | 21 |
 | KABLI | 24 (or 21 if operationally required) |
-| GRENE | 24 |
+| LAVEX | 24 |
 | SOLUS | 24 |
 
-#### Northeast Plan
+### Northeast Plan
 With the Northeast Plan active (runways 03 and 06 in use), all arrivals shall be processed to runway 03.
+
+## YPJT Arrivals
+To facilitate smooth movement of traffic in the Perth TCU, IFR Arrivals to YPJT shall be assigned a STAR in accordance with the *YPPH Runway Mode*:
+
+### YPPH 03/06 Runway Mode
+
+| Feeder Fix | STAR |
+| --- | --- |
+| MALUP/KABLI | Whiskey |
+| LAVEX | Golf |
+| WOORA | Golf |
+
+### YPPH 21/24 Runway Mode
+
+| Feeder Fix | STAR |
+| --- | --- |
+| MALUP/KABLI | Romeo |
+| LAVEX | Romeo |
+| WOORA | Golf |
+
+### Coordination Requirements
+Note that assigning a STAR to YPJT Arrivals still does not meet [voiceless coordination requirements](#arrivalsoverfliers) to PH TCU. All YPJT Arrivals must be **heads-up coordinated**, including those assigned a STAR.
 
 ## STAR Clearance Expectation
 

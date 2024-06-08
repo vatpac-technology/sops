@@ -21,6 +21,7 @@ Here is a complete list of standard annotations controllers should be entering i
 | Amended route | When assigned a route that differs to that planned | AR |
 | Assigned Heading | H(heading) | H350 |
 | Track Extended Centreline | | TEC |
+| Maintain runway heading | Surveillance environment only | MR |
 
 ## Requests, Requirements and Restrictions
 | Information | Meaning and Usage | Example |
@@ -64,35 +65,41 @@ Here is a complete list of standard annotations controllers should be entering i
 | Cruise and descent speed | (speed on cruise)/(speed on descent) | M80/300 |
 | Mach reduction on cruise | MR(difference) | MR04 |
 | Mach reduction on cruise and descent speed | MR(difference)/(descent speed) | MR04/240 |
-| Descend at minimum speed | | MIN |
-| Descend at maximum speed | Also cancels STAR speed restrictions | MX |
-| Cancel speed restrictions (250K below 10,000ft AMSL) | | CSR |
+| Maintain minimum speed | | MIN |
+| Maintain maximum speed | Also cancels all speed restrictions | MX |
+| Cancel all speed restrictions | | CSR |
 
-## Sequencing
+## Sequencing/Flow
 | Information | Meaning and Usage | Example |
 | ----------- | ----------------- | ------- |
-| Feeder fix time | F(time) | F37 |
-| Estimated landing time | L(time) | L58 |
+| Feeder fix time, and 250kts from FF | F(time) | F37 |
+| 250kts from FF | F | F |
+| Issued instruction | (instruction)< | F< |
+| Projected landing time | L(time) | L06 |
+| Projected landing time with delay | L(time)/(time after delay) | L06/09 |
+| Stream to Follow (10nm / 2mins) | F/(Callsign) | F/QFA462 |
 | Hold at position | H/(position) | H/SHARK |
 | Hold at position with stack departure time | H/(position)/(time) | H/CANTY/33 |
+| Descend at minimum speed | | MIN |
+| Descend at maximum speed | Also cancels all speed restrictions | MX |
+| Cancel all speed restrictions  | | CSR |
 
 ## Miscellaneous
 | Information | Meaning and Usage | Example |
 | ----------- | ----------------- | ------- |
 | Surveillance Information Service | Aircraft receiving service (Flight Following) | SIS |
 | Coordinated Item | C(information) | C380 |
-| Information/instruction in yet to be issued | Record information on reciept from other unit followed by a period.<br />Remove period once action is completed | MX. |
+| Information/instruction in yet to be issued | Outstanding instruction/action, followed by a period.<br />Remove period once action is completed | MX. |
 | Clearance issued to an aircraft prior to 10 NM from the lateral CTA boundary | | > |
 | No IFR Traffic | | NIT |
 | Cancel SARWATCH | IFR aircraft cancelled SARWATCH prior to circuit area or destination ETA | CSW |
 | QNH issued (en route traffic is altimeter setting region) | Q(final 2-digit value) | Q15 |
-| No level restrictions on STAR | | NHR |
+| Cancel SID/STAR level restrictions | | NHR |
 | No STAR (or cancel STAR) | | NS |
 | Aircraft has reported Visual | | V |
 | Aircraft has reported Runway in Sight | | R |
 
 ## Less commonly used
-
 | Information | Meaning and Usage | Example |
 | ----------- | ----------------- | ------- |
 | Not before | NB(time) | NB1035 |
@@ -105,7 +112,6 @@ Here is a complete list of standard annotations controllers should be entering i
 | Sight and follow | S+F/(callsign) | S+F/VOZ882 |
 | Calculated time of passing | TP(time) | TP0835 |
 | At | | @ |
-| Information is checked and correct | An aircraft has acknowledged information; or<br />Action has been taken or requirement has been met<br /><(information) | <F42 |
 | VFR-on-top | | VT |
 | Arriving at procedural tower aerodrome | Include estimate for destination navaid, track in, assigned level (if not standard assignable) and sequence number. <br /> L(time) (track) (level) (number) | L49 038 120 3 |
 | Hold at normal position with stack departure time | H/(time) | H/06 |
@@ -113,7 +119,6 @@ Here is a complete list of standard annotations controllers should be entering i
 | Passive LAHSO only | | PL |
 | Negative LAHSO | | XX |
 | Hold at normal position | | H |
-| Stream to follow |  F/(preceding aircraft) | F/QLK41D |
 | Stream to follow by distance | F/(preceding aircraft)+(distance) | F/TFD+18 |
 | Visual departure | | VSD |
 | Expected approach time | EAT(time) | EAT23 |
@@ -125,7 +130,6 @@ Here is a complete list of standard annotations controllers should be entering i
 | Climb straight ahead | Non-surveillance environment | CSA |
 | Left turn | L(heading) | L240 |
 | Right turn | R(heading) | R020 |
-| Maintain runway heading | Surveillance environment only | MR |
 | Aircraft level | Two- or three-figure group <br />Record levels of 1000ft or higher as multiples of 100ft<br />Record levels less than 1000ft as a two-didget group beginning with zero. | FL177<br />A01 (100ft) |
 | Above Ground Level | (level)AGL | 200AGL |
 | Maintain initial level | Departure Instructions <br /> M(level) | M80 |
