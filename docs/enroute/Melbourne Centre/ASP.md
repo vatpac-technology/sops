@@ -34,6 +34,17 @@ When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME
 !!! Warning
     ML-ASP_CTR is only permitted to extend to adjacent **YMMM** sectors.
 
+## Surveillance Coverage
+Limited surveillance coverage exists in the FOR sector greater than **250nm** from ADSB stations. [Procedural Standards](../../../separation-standards/procedural/) must be implemented **prior** to losing surveillance coverage
+
+The **Orange** shaded areas will have limited surveillance coverage **Below F330**.  
+The **Red** shaded areas will have limited surveillance coverage at **All Levels**.
+
+<figure markdown>
+![Forest Surveillance Coverage](../assets/aspsurv.png){ width="700" }
+  <figcaption>Forest Surveillance Coverage</figcaption>
+</figure>
+
 ## STAR Clearance Expectation
 ### Handoff
 Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
