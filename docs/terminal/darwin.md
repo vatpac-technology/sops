@@ -86,18 +86,25 @@ Darwin TCU is not responsible for traffic or separation services within the A005
 ## Coordination
 ### Enroute
 #### Departures
-Voiceless coordination is in place from DN TCU to TRT for aircraft:  
-Planned at or above `F180`: `Assigned F180`  
-Planned below `F180`: `Assigned the RFL`  
+Voiceless for all aircraft:
 
-Any aircraft not meeting the above criteria must be prior coordinated to ENR.
+- Tracking via a Procedural SID terminus; and  
+- Assigned the lower of `F180` or the `RFL`
+
+All other aircraft going to TRT CTA must be **Heads-up** Coordinated by DN TCU prior to the boundary.
 
 !!! example
     <span class="hotline">**DN TCU** -> **TRT**</span>: "PFY1234, with your concurrence, will be assigned F160, for my separation with JTE654"  
     <span class="hotline">**TRT** -> **DN TCU**</span>: "PFY1234, concur F160"  
 
 #### Arrivals
-The Standard assignable level from TRT to DN TCU is `A100`, and assigned a STAR. All other aircraft must be prior coordinated
+Voiceless for all aircraft:
+
+- With ADES **YPDN**; and  
+- Assigned a STAR; and  
+- Assigned `A100`
+
+All other aircraft coming from TRT CTA will be **Heads-up** Coordinated to DN TCU.
 
 ### ADC
 #### Airspace

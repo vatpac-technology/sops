@@ -345,16 +345,16 @@ When Coordinator is online, the ATIS shall include `WHEN READY FOR PUSH BACK OR 
 'Next' coordination is **not** required for aircraft that are:   
     a) Departing from a runway nominated on the ATIS; and   
     b) Assigned the Standard assignable level; and  
-    c) Assigned a **Procedural SID** (except **ABBEY** SID during SODPROPS); or  
+    c) Assigned a **Procedural SID** (except **ABBEY** SID); or  
     d) Assigned a [Standard Assignable Heading](#standard-assignable-departure-headings)
 
 All other aircraft require a 'Next' call to SY TCU.
 
-"Next" coordination is additionally required for:  
+'Next' coordination is additionally required for:  
     a) Visual departures  
     b) Departures to YSBK  
     c) After a go around, the next departure from that runway  
-    d) Jets departing 16L via WOL
+    d) Jets departing 16L via WOL  
     e) All aircraft during the Curfew Runway Mode
 
 !!! example

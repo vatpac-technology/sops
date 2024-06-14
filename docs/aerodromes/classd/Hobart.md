@@ -143,13 +143,14 @@ The HBA controller can suspend/resume Auto Release at any time, with the concurr
 !!! Note
     "Next" Coordination to HBA is not required for aircraft assigned a **Procedural SID** and the Standard Assignable Level.
 
-The controller assuming responsibility of **HB ACD** shall give heads-up coordination to HBA controller prior to the issue of the following clearances:  
+**HB SMC** shall give heads-up coordination to HBA controller prior to the issue of the following clearances:  
 a) VFR Departures  
 b) Aircraft using a runway not on the ATIS
 
 The Standard Assignable level from HB ADC to HBA is:  
-For Jets: `A080`  
-For Non-Jets: The lower of `A045` or the `RFL`.
+For IFR Aircraft: `A080`  
+For VFR Aircraft: The lower of `A045` or the `RFL`.
+
 ### Arrivals/Overfliers
 HBA will heads-up coordinate arrivals/overfliers from Class C to HB ADC.  
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to HB ADC, unless HB ADC nominates a restriction.  

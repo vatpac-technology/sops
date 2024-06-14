@@ -4,7 +4,15 @@ title: vatSys Setup
 
 --8<-- "includes/abbreviations.md"
 
-Although much of the detailed setup is up to personal preference, the following setttings are **strongly** recommended to help best execute the appropriate role.
+<details open markdown="1">
+<summary>Setup</summary>
+
+Although much of the detailed setup is up to personal preference, the following settings are **strongly** recommended to help best execute the appropriate role.
+
+</details>
+
+<details markdown="1">
+<summary>Enroute</summary>
 
 ## Enroute
 ### Display
@@ -39,6 +47,11 @@ Extended Labels: **ON**
 **TFMS** (if airport is busy, eg during events)  
 **AIS DISPLAY** for major airports in your airspace
 
+</details>
+
+<details markdown="1">
+<summary>TCU</summary>
+
 ## TCU
 ### Display
 ATC List: **ON**
@@ -71,6 +84,11 @@ Extended Labels: **OFF** (Toggled on for aircraft not arriving at main airport)
 **TFMS** (if airport is busy, eg during events)  
 **AIS DISPLAY** for major airports in your airspace
 
+</details>
+
+<details markdown="1">
+<summary>Tower</summary>
+
 ## Tower
 ### Display
 ATC List: **ON**
@@ -101,3 +119,5 @@ FPASD: **ON**
 Extended Labels: **OFF** (Toggled on for aircraft not arriving at main airport)  
 ### Info
 **AIS DISPLAY**
+
+</details>

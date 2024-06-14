@@ -29,14 +29,25 @@ TL ADC owns the Class C airspace in the TL CTR (Extends to 7NM from the threshol
 ## Coordination
 ### Enroute
 #### Departures
-The Standard assignable level from TL TCU to TBP is the lower of `F180` or the `RFL`. All other aircraft must be voice coordinated. 
+Voiceless for all aircraft:
+
+- Tracking via a Procedural SID terminus; and  
+- Assigned the lower of `F180` or the `RFL`
+
+All other aircraft going to TBP CTA must be **Heads-up** Coordinated by TL TCU prior to the boundary.
 
 !!! example
     <span class="hotline">**TL TCU** -> **TBP**</span>: "JST729, with your concurrence, will be assigned `F160`, for my separation with QLK327D"  
     <span class="hotline">**TBP** -> **TL TCU**</span>: "JST729, concur `F160`"  
 
 #### Arrivals
-The Standard assignable level from TBP to TL TCU is `A100`, and assigned a STAR. All other aircraft must be voice coordinated.
+Voiceless for all aircraft:
+
+- With ADES **YBTL**; and  
+- Assigned a STAR; and  
+- Assigned `A100`
+
+All other aircraft coming from TBP CTA will be **Heads-up** Coordinated to TL TCU.
 
 ### ADC
 #### Airspace

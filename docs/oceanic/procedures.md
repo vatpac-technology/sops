@@ -43,10 +43,10 @@ Given the background noise level experienced on HF radio frequencies, flight cre
 Controllers must check each aircraft’s flight plan for a discrete SELCAL code. If aircraft have nominated a discrete code (for example `QR-AC`), then a SELCAL Check shall be completed.
 
 !!! Example
-    **TSN**: "QFA43 good afternoon, Brisbane accepts primary guard 128.6, secondary 122.1, standby SELCAL check."  
+    **TSN**: "ANZ254, standby SELCAL check."  
     *The aircraft awaits the SELCAL check before replying.*  
-    **QFA43**: "SELCAL check OK, secondary 122.1, QFA43."  
-    **TSN**: "QFA43, request your estimate VIROG."  
+    **ANZ254**: "SELCAL check OK, ANZ254."  
+    **TSN**: "ANZ254, report estimate BOTGU."  
 
 After the SELCAL check has been completed, controllers must preface all communications to that aircraft with a SELCAL prompt.
 

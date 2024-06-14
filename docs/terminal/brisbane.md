@@ -15,7 +15,7 @@
 | Gold Coast Approach† |BAC| Brisbane Approach  | 123.500          | BN-C_APP       |
 | Brisbane Flow†        |BFL|                |          | BN_FMP                              |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ## Airspace
 The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, where it is `SFC` to `A075` in the North West, and `SFC` to `F125` in the South East.
@@ -60,22 +60,31 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **
 
 ## Parallel Runway Operations
 Refer to [Parallel Runway Separation Standards](../../separation-standards/parallelapps) for more information
+
 ### Runway Selection
 Aircraft shall be assigned the following runways for arrival when PROPS are in progress:
 
-| Aircraft tracking | Runway  |
-| ----------------| --------- |
-| via BLAKA   | 01R/19L     |
-| via ENLIP | 01L/19R |
-| via GOMOL | 01R/19L |
-| via MORBI | 01L/19R |
-| via SMOKA | 01L/19R |
-| via TEBOT | 01R/19L |
-| via UGTUG | 01R/19L |
-| via WOODY | 01L/19R |
+| FF | Runway |
+| ---- | -------- |
+| BLAKA | 01R/19L |
+| GOMOL | 01R/19L |
+| UGTUG | 01R/**19R** |
+| TEBOT | 01R/**19R** |
+| MORBI | 01L/19R |
+| SMOKA | 01L/19R |
+| WOODY | 01L/19R |
+| ENLIP | 01L/**19L** |
 | Other aircraft: |
 | From the NORTH and WEST | 01L/19R |
 | From the SOUTH and EAST | 01R/19L |
+
+These standard runway assignments may be modified strategically by the BAS or BFL controller.
+
+!!! example
+    If during an event, the vast majority of traffic is coming from **BLAKA** and **GOMOL** feeder fixes, BAS/BFL may elect to assign 19L to **BLAKA** arrivals and 19R to **GOMOL** arrivals, to keep them separated at all times.
+
+    <span class="hotline">**BFL** -> **INL**</span>: "All arrivals via GOMOL to be assigned 19R until further notice"  
+    <span class="hotline">**INL** -> **BFL**</span>: "Roger, Arrivals via GOMOL to be assigned 19R" 
 
 ### Independent Visual Approach Phraseology at Night
 *"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (altitude) UNTIL ESTABLISHED ON THE PAPI (or GLIDEPATH)"*
@@ -107,30 +116,44 @@ Due to the low level of CTA (`A035`) in the CG CTR when **CG ADC** is offline, i
 ## Coordination
 ### Enroute
 #### Departures
-The Standard Assignable level for YBBN departures from BN TCU to **INL(All)** is the lower of `F180` or the `RFL`, and tracking via a **Procedural** SID terminus.  
-The Standard Assignable level for YBCG departures from BN TCU to **GOL/SDY** is the lower of `F120` or the `RFL`, and tracking via **APAGI**.  
-The Standard Assignable level for YBCG departures from BN TCU to **NSA/BUR/DOS** is the lower of `F180` or the `RFL`, and tracking via a **Procedural** SID terminus.  
-The Standard Assignable level for YBSU arrivals from BN TCU to **NSA** is `F130`, and tracking via **ITIDE**.  
+Voiceless for aircraft:
 
-Any aircraft not meeting the above criteria must be prior coordinated to ENR.
+- With ADEP **YBBN**  
+    - Tracking via a Procedural SID terminus; and  
+    - Assigned the lower of `F180` or the `RFL`  
+- With ADEP **YBCG**  
+    - Tracking via **APAGI** and assigned the lower of `F120` or the `RFL`; or    
+    - Tracking via **BN** and assigned the lower of `F180` or the `RFL`  
+- With ADES **YBSU**  
+    - Assigned the **ITIDE** STAR; and  
+    - Assigned `F130`
+
+All other aircraft going to INL CTA must be **Heads-up** Coordinated by BN TCU prior to the boundary. This includes YBCG departures to the North that clip INL(GOL) airspace before re-entering BN TCU airspace
 
 !!! example
-    <span class="hotline">**BN TCU** -> **INL**</span>: "via GOMOL, BNZ123, with your concurrence, will be assigned F150, for my separation with ZYX"  
-    <span class="hotline">**INL** -> **BN TCU**</span>: "BNZ123, concur F150"  
+    <span class="hotline">**BAC** -> **GOL**</span>: "Departing YBCG, X4C, do you have any Restrictions or Requirements?"  
+    <span class="hotline">**GOL** -> **BAC**</span>: "X4C, No Restrictions or Requirements"  
 
 #### Arrivals
-The Standard assignable level from INL(All) to BN TCU is:  
-`A090` for YBBN arrivals, and assigned a STAR  
-`F130` for YBCG arrivals via BERNI, and assigned a STAR  
+Voiceless for all aircraft:
 
-All other aircraft must be voice coordinated to BN TCU.
+- With ADES **YBBN** or **YBCG**; and  
+- Assigned a STAR; and  
+- Assigned `A090` for **YBBN** arrivals; or  
+- Assigned `F130` for **YBCG** arrivals
+
+Additionally, Voiceless coordination may be used for **YBCG** arrivals tracking via **BN** and assigned `F190`.
+
+All other aircraft coming from INL CTA will be **Heads-up** Coordinated to BN TCU.
 
 ### BN ADC
 #### Auto Release
 'Next' coordination is **not** required from BN ADC for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS (except during SODPROPS*); and  
+  a) Departing from a runway nominated on the ATIS (except during SODPROPS^); and  
   b) Assigned the standard assignable level; and  
   c) Assigned a **Procedural** SID  
+
+^Auto Release is not available during SODPROPS runway mode. All aircraft will be coordinated from BN ADC to BN TCU.
 
 !!! example
     <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Next, ABC, runway 19L"  
@@ -145,8 +168,10 @@ For Non-Jets: The lower of `A040` or the `RFL`
 #### Airspace
 CG ADC is responsible for the Class C Airspace within the CG CTR `SFC` to `A015`.
 
+Refer to [Reclassifications](#cg-ctr) for operations when CG ADC is offline.
+
 #### Auto Release
-'Next' coordination is **not** required fro CG ADC for aircraft that are:   
+'Next' coordination is **not** required from CG ADC for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  
   b) Assigned the standard assignable level; and  
   c) Assigned a **Procedural** SID
@@ -163,6 +188,11 @@ For Jets: `A060`
 For Non-Jets: The lower of `A060` or the `RFL`
 
 ### AF ADC
+#### Airspace
+AF ADC is responsible for the Class D Airspace within the AF CTR `SFC` to `A015`.
+
+Refer to [Reclassifications](#af-ctr) for operations when AF ADC is offline.
+
 ### Departures
 When aircraft planned via a CTA departure are ready for takeoff and expected to depart imminently, **AF ADC** shall seek release of the aircraft through a 'Next' call.
 

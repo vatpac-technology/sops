@@ -131,11 +131,11 @@ The ATIS shall always have `EXP INST APCH` as the approach type. Visual Approach
 ## Coordination
 ### Auto Release
 'Next' coordination is **not** required to BN TCU for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS (except during SODPROPS*); and  
+  a) Departing from a runway nominated on the ATIS (except during SODPROPS^); and  
   b) Assigned the standard assignable level; and  
   c) Assigned a **Procedural** SID  
 
-*Auto Release is not available during SODPROPS runway mode. All aircraft must be coordinated from BN ADC to BN TCU.
+^Auto Release is not available during SODPROPS runway mode. All aircraft must be coordinated from BN ADC to BN TCU.
 
 All other aircraft require a 'Next' call to BN TCU.
 
