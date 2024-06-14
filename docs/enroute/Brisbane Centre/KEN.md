@@ -23,6 +23,9 @@ The Primary Communication Method for KEN is Voice.
 
 The CPDLC Station Code is `YKEN`.
 
+!!! tip
+        Even though KEN's Primary Communication Method is Voice, CPDLC should be used for Overfliers.
+
 ## Airspace
 
 <figure markdown>

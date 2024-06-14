@@ -21,6 +21,9 @@ The Primary Communication Method for BIK is Voice.
 
 The CPDLC Station Code is `YBIK`.
 
+!!! tip
+        Even though BIK's Primary Communication Method is Voice, CPDLC should be used for Overfliers.
+
 ## Airspace
 
 <figure markdown>
