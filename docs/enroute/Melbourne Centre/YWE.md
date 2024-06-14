@@ -25,7 +25,7 @@ The Primary Communication Method for YWE is Voice.
 The CPDLC Station Code is `YYWE`.
 
 !!! tip
-        Even though YWE's Primary Communication Method is Voice, CPDLC should be used for Overfliers.
+        Even though YWE's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
 ## Airspace
 
