@@ -18,7 +18,7 @@ The Primary Communication Method for HUO is Voice.
 The CPDLC Station Code is `YHUO`.
 
 !!! tip
-        Even though HUO's Primary Communication Method is Voice, CPDLC should be used for Overfliers.
+        Even though HUO's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
 ## Airspace
 

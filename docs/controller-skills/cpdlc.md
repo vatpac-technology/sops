@@ -96,7 +96,7 @@ Some major Enroute positions do not use CPDLC as a primary means of communicatio
 | ELW | YELW | Voice |
 | HUO | YHUO | Voice |
 | OLW | YOLW | **CPDLC** |
-| PIY | YPIY | **CPDLC** |
+| PIY | YPIY | Voice |
 | TBD | YTBD | Voice |
 | YWE | YYWE | Voice |
 | TSN | YTSN | **CPDLC** |

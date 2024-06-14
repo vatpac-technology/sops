@@ -20,6 +20,9 @@ The Primary Communication Method for TRT is Voice.
 
 The CPDLC Station Code is `YTRT`.
 
+!!! tip
+        Even though TRT's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+
 ## Airspace
 
 <figure markdown>
