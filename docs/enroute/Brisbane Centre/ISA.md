@@ -14,7 +14,7 @@
 | Warrego† | Brisbane Centre | 132.450 | BN-WEG_CTR |
 | Carnarvon† | Brisbane Centre | 133.800 | BN-CVN_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ### CPDLC
 

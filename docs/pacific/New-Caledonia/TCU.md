@@ -22,7 +22,7 @@ When NWWM ADC is offline, the NWWM CTR (`SFC` to `A015`) reverts to Class G and 
 When NWWWT is online, the TCU is split down the NWWW 11/29 Extended Centreline, with NWWWA owning the northern portion, and NWWWT owning the southern portion.
 
 ## Coordination
-### NWWW TCU / ENR
+### Enroute
 
 #### Departures
 
@@ -41,7 +41,7 @@ Voiceless coordination is in place from NWWW/NFFF to NWWW TCU given the arrival 
 
 All other aircraft must be prior coordinated.
 
-### NWWW TCU / NWWW ADC
+### NWWW ADC
 #### Auto Release
 
 'Next' coordination is **not** required to from NWWW ADC for aircraft that are:
@@ -50,7 +50,7 @@ All other aircraft must be prior coordinated.
 - Assigned the standard assignable level; and  
 - Assigned a **Procedural** SID
 
-### NWWW TCU / NWWM ADC
+### NWWM ADC
 #### Departures
 
 When the aircraft is ready for departure, NWWM ADC will coordinate with NWWW TCU for permission to release the aircraft into CTA.

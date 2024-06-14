@@ -29,19 +29,32 @@ MKA may extend to RKA and vice versa, callsigns remain the same. See [Controller
 
 ### Enroute
 #### Departures
-Voiceless coordination is in place from MKA/RKA to ENR for aircraft:  
+Voiceless for all aircraft:
 
-**Departing All Ports** - Assigned the lower of `F150` or `RFL`  
+- With ADEP **YBMK**  
+  - Tracking via **CLIFT** or **MUNAR**; and  
+  - Assigned the lower of `F150` or the `RFL`  
+- With ADEP **YBRK**  
+  - Tracking via **BUDGI** or **TARES**; and  
+  - Assigned the lower of `F150` or the `RFL`
 
-Any aircraft not meeting the above criteria must be prior coordinated to ENR.
+All other aircraft going to SWY/KPL CTA must be **Heads-up** Coordinated by MKA/RKA.
 
 !!! example
     <span class="hotline">**RKA** -> **KPL**</span>: "QFA114, with your concurrence, will be assigned F130, for my separation with ZYX"  
     <span class="hotline">**KPL** -> **RKA**</span>: "QFA114, concur F130"  
 
 #### Arrivals
-The Standard assignable level from INL(KPL) to RKA is `A070`, and assigned a STAR. All other aircraft must be prior coordinated.  
-The Standard assignable level from KEN(SWY) to MKA is `A070`, and assigned a STAR. All other aircraft must be prior coordinated
+Voiceless for all aircraft:
+
+- With ADES **YBMK**    
+  - Assigned the **DAGSI** or **WELKE** STAR; and  
+  - Assigned `A070`  
+- With ADES **YBRK**; and  
+  - Assigned the **ABVAS** or **DADBO** STAR; and  
+  - Assigned `A070`
+
+All other aircraft coming from SWY/KPL CTA will be **Heads-up** Coordinated to MKA/RKA.
 
 ### MK/RK ADC
 #### Airspace
