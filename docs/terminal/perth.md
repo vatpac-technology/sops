@@ -55,8 +55,8 @@ With the Southwest Plan active, all departures shall be assigned runway 21 by **
 | JULIM | 21 |
 | SAPKO | 21 |
 | IPMOR | 21 |
-| BEVLY | 24 (or 21 if operationally required) |
-| GRENE | 24 |
+| KABLI | 24 (or 21 if operationally required) |
+| LAVEX | 24 |
 | SOLUS | 24 |
 
 ### Northeast Plan
@@ -84,18 +84,6 @@ Aircraft wishing to conduct a scenic flight over the Perth CBD should be cleared
     **VH-CYF:** "Cleared Victor 65, maintain 1,500ft, CYF"
 
 Aircraft departing YPPH and intending to conduct the Victor 65 route will be coordinated by **PH ACD**. See [Airways Clearances](#airways-clearances).
-
-## Arrival Procedures
-### YPJT Arrivals
-IFR RNAV equipped arrivals to Jandakot planned via a fix listed shall be cleared via STAR dependent on Perth active runway:
-
-| Perth Active Runway | 03/06 | 21/24 |
-| ------------------- | ----- | ----- |
-| **North**<br>JULIM (Jet)<br>SAPKO (Non-Jet) | <br>JT 2G / WOORA | <br>DCT JT |
-| **East**<br>BEVLY (Jet)<br>GRENE (Non-Jet)<br>HAMTN (Non-Jet) | <br>JT 2G / BEVLY<br>JT 2G / GRENE<br>JT 2W / HAMTN | <br>JT 2R / BEVLY<br>JT 2R / GRENE<br>N/A 
-
-### YPEA Arrivals
-Reserved
 
 ## JT/PEA ADC Offline
 Due to the low level of CTA at these aerodromes, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
