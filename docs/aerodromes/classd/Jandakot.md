@@ -27,7 +27,7 @@ JT ADC is responsible for the Class D airspace in the JT CTR `SFC` to `A015`.
 </figure>
 
 ## Fixed-Wing Operations
-### VFR Inbound Procedures
+### VFR Arrivals
 VFR aircraft will report inbound at BOAT, POWR, OAKF or RUSS at `A015`. JT ADC will instruct aircraft to maintain `A015` or remain outside the control zone (workload permitting). Aircraft will then report again at ADWD when inbound from BOAT or POWR, or FDL when inbound from OAKF or RUSS. They should then be instructed to join the circuit as below:
 
 | VFR Approach Point | RWYs 06  | RWYs 24 | RWY 12 | RWY 30 |
@@ -40,7 +40,7 @@ All aircraft will arrive on runway 06L/24R or 12/30.
 !!! note
     Circuit joining instructions given without an assigned altitude imply clearance to conduct the visual approach. There is no need to clear these aircraft for a visual approach.
 
-### VFR Outbound Procedures
+### VFR Departures
 VFR aircraft should report ready to **JT ADC** with their departure intentions.  A takeoff clearance constitutes a clearance to depart the zone by extending the pilot's requested leg of the circuit.  Aircraft departing the zone into class G airspace will transfer to area frequency upon leaving the zone, **no explicit frequency transfer is given to these aircraft**.
 
 Aircraft departing a leg of the circuit will climb to and maintain the following levels until clear of the zone:  
@@ -49,6 +49,18 @@ All runways: `A010`
 VFR aircraft will depart via set outbound departure routes. Aircraft will track extended circuit legs to the departure point. These departure points include: YGB, FREM via *Fiona Stanley Hospital*, and SHOP.
 
 Departures via FREM and YGB will depart on runway 06L/24R. Runway 06R/24L is used for circuit traffic and departures via SHOP.
+
+### IFR Arrivals
+**PH TCU** will coordinate all IFR arrivals in accordance with coordination procedures.
+
+### IFR Departures
+All IFR Departures must be assigned the most appropriate SID in accordance with the aircraft's direction of flight.
+
+| Direction | SID   |
+| -------| ----- |
+| South/West    | TONEG  |
+| North/North-west    | ISPET |
+| East/North-east    | SCARP |
 
 ### Circuits
 The circuit direction changes depending on tower opening hours and runway being used.
@@ -64,18 +76,12 @@ The circuit direction changes depending on tower opening hours and runway being 
 
 Circuits to be flown at `A010`
 
-## IFR Inbound Procedures
-Aircraft arriving from the Perth Class C in VMC will track via CNB. These aircraft will contract **JT ADC** approaching CNB and will be issued circuit joining instructions.  
-Aircraft in IMC will track inbound via an instrument approach.  
-**PH TCU** will coordinate all IFR arrivals in accordance with coordination procedures.
-
 ## Helicopter Operations
 ### General
 Unless otherwise depicted in the `ERSA FAC YPJT`, all helicopters must comply with fixed wing procedures.
 
 ### Circuits
 Circuits are conducted within the lateral confines of the fixed-wing circuit at `A008`, in the same direction as the current runway config.  The termination point of the circuit is the Main Pad.
-
 
 ## ATIS
 ### Runway Nomination

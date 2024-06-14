@@ -83,10 +83,10 @@ This allows aircraft on the Victor STAR from the west to join a visual right bas
 Between the hours of 1330-2030 UTC (1230-1930 UTC HDS), AD ADC may elect to simulate Curfew operations, ie: **Runway 05 for arrivals, Runway 23 for departures**. When this is in operation, the ATIS shall include `CURFEW IN OPERATION UNTIL (time) ZULU`.
 
 ## SID Selection
-Jet Aircraft planned via **PANKI**, **BENDO**, **GILES**, **HAWKY**, **ORBUN**. or **SEDAN**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
+Jet Aircraft planned via **AVDEN**, **BENDO**, **GILES**, **AREPA**, **ORBUN**. or **UPROT**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
 !!! example
-    Jet Aircraft planned via PANKI, assigned runway 23, shall be given the PANKI SID.
+    Jet Aircraft planned via AVDEN, assigned runway 23, shall be given the AVDEN SID.
 
 a) Non-Jet Aircraft; or  
 b) Aircraft using Runway 12/30; or  
@@ -125,14 +125,14 @@ When **AAE** is online, the AD TCU airspace is split down the 05/23 Runway Centr
 | Tracking via            | Departure Runway      | Departures Controller        |
 | ------------------ | -------------- | ---------------- |
 | VILAD   | 05/23/12   | AAE         |
-| SEDAN    | 05/23/12   | AAE         |
-| PANKI    | 05/23/12   | AAE         |
+| UPROT    | 05/23/12   | AAE         |
+| AVDEN    | 05/23/12   | AAE         |
 | BENDO     | 05/23/12 | AAE          | 
 | ALBUT    | 05/23/12  | AAE          | 
 | EEMUE    | 05/23/30  | AAW          | 
 | GILES   | 05/23/30  | AAW          | 
 | YORKE    | 05/23/30  | AAW          | 
-| HAWKY    | 05/23/30  | AAW          | 
+| AREPA    | 05/23/30  | AAW          | 
 | HOLIT    | 05/23/30  | AAW          | 
 | ORBUN    | 05/23/30  | AAW          | 
 | All   | 12  | AAE          | 

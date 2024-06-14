@@ -37,7 +37,7 @@ MUN is responsible for issuing STAR Clearances for aircraft arriving at YMML. MU
 OXL is responsible for issuing STAR Clearances for aircraft arriving at YMML. OXL will also initiate sequencing as required for aircraft arriving at YMML.
 
 ### Griffith (GTH)
-Just keeping them separated!
+GTH is responsible for issuing STAR Clearances for YSSY.
 
 ### Katoomba (KAT)
 KAT is responsible for issuing STAR Clearances for YSCB and YSSY.
@@ -52,6 +52,7 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | GTH | OXL | YMML, YMAV | |
 | OXL | ELW(BLA) | YSCB | |
 | GTH | BIK(GUN) | YSSY | |
+| OXL | GTH | YSSY | |
 | WON | HUO | YMHB | |
 
 ### First Contact
@@ -61,8 +62,9 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | ---- | -------- | --------- | --------- |
 | TBD | MUN | YMML, YMAV | |
 | ASP(BKE), GTH | OXL | YMML, YMAV | |
-| HUO | WON | YMML | 
-| ASP(BKE) | KAT | YSSY | |
+| HUO, ELW(SNO) | WON | YMML | 
+| ASP(BKE) | GTH, KAT | YSSY | |
+| OXL | GTH | YSSY | |
 | ARL(MDE) | KAT | YSCB | |
 
 ## Coordination

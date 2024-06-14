@@ -24,33 +24,33 @@
 
 ## Sector Responsibilities
 ### Pingelly (PIY)
-PIY will provide final sequencing actions to ensure aircraft comply with their FF times prior to entering the Perth TCU. PIY is also responsible for issuing STAR Clearances for aircraft bound for YPJT, and Non-jets bound for YPPH and YPEA. See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
+PIY will provide final sequencing actions to ensure aircraft comply with their FF times prior to entering the Perth TCU. PIY is also responsible for issuing STAR Clearances for aircraft bound for YPJT, and Non-jets bound for YPPH and YPEA. See [Perth Runway Modes](#ypph-runway-modes) for runway assignment.
 
 For aircraft overflying the PH TCU place `O/FLY` in the LABEL DATA field.
 
 ### Leeman (LEA)
-LEA is responsible for assigning and issuing STAR clearance to aircraft inbound to Perth via `IPMOR`. See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
+LEA is responsible for assigning and issuing STAR clearance to aircraft inbound to Perth via `IPMOR`. See [Perth Runway Modes](#ypph-runway-modes) for runway assignment.
 
 !!! note
     Controllers should be aware that VHF coverage near the LEA/IND border may be limited. Controllers should strive to issue HF frequencies and transfer of communications instruction prior to 160 NM PH DME.
 
 ### Grove (GVE)
-GVE is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `JULIM` and `SAPKO`.  See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
+GVE is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `JULIM` and `SAPKO`.  See [Perth Runway Modes](#ypph-runway-modes) for runway assignment.
 
 ### Hyden (HYD)
-HYD is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `BEVLY`, `DAYLR` and `GRENE`. See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
+HYD is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `KABLI`/`MALUP`, `DAYLR` and `LAVEX`. See [Perth Runway Modes](#ypph-runway-modes) for runway assignment.
 
 ### Cross (CRS) / Geraldton (GEL)
 Just keeping them separated!
 
 ### Jarrah (JAR)
-JAR is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via `SOLUS`. See [Perth Runway Modes](#perth-runway-modes) for runway assignment.
+JAR is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via `SOLUS`. See [Perth Runway Modes](#ypph-runway-modes) for runway assignment.
 
 !!! note
     Controllers should be aware there may be limited ADS-B coverage around Albany (YABA). Expect some areas of Class E airspace to be outside surveillance coverage. [Procedural Standards](../../../separation-standards/procedural) may need to be used in these cases.
 
-### Perth Runway Modes
-#### Southwest Plan
+## YPPH Runway Modes
+### Southwest Plan
 With the Southwest Plan active, arrivals shall be processed to either runway 21 or 24 based on their feeder fix, as per the table below:
 
 | Feeder Fix | Assigned Runway |
@@ -58,12 +58,25 @@ With the Southwest Plan active, arrivals shall be processed to either runway 21 
 | JULIM | 21 |
 | SAPKO | 21 |
 | IPMOR | 21 |
-| BEVLY | 24 (or 21 if operationally required) |
-| GRENE | 24 |
+| KABLI | 24 (or 21 if operationally required) |
+| LAVEX | 24 |
 | SOLUS | 24 |
 
-#### Northeast Plan
+### Northeast Plan
 With the Northeast Plan active (runways 03 and 06 in use), all arrivals shall be processed to runway 03.
+
+## YPJT Arrivals
+To facilitate smooth movement of traffic in the Perth TCU, IFR Arrivals to YPJT shall be assigned a STAR in accordance with the *YPPH Runway Mode*:
+
+| Feeder Fix | 03/06 | 21/24 |
+| ------------------- | ----- | ----- |
+| WOORA | Golf | WOORA PH JT (No STAR) |
+| LAVEX | Golf | Romeo |
+| KABLI (Jet) | Golf | Romeo | 
+| MALUP (Non-Jet) | Whiskey | Romeo (via KABLI) | 
+
+!!! note
+    Assigning a STAR to YPJT Arrivals still does not meet [voiceless coordination requirements](#arrivalsoverfliers) to PH TCU. All YPJT Arrivals must be **heads-up coordinated**, including those assigned a STAR.
 
 ## STAR Clearance Expectation
 
