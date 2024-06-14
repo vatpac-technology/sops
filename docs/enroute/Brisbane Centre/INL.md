@@ -25,6 +25,9 @@ The Primary Communication Method for INL is Voice.
 
 The CPDLC Station Code is `YINL`.
 
+!!! tip
+        Even though INL's Primary Communication Method is Voice, CPDLC should be used for Overfliers.
+
 
 ## Airspace
 
