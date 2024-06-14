@@ -14,14 +14,11 @@
 
 ### CPDLC
 
-The Primary Communication Method for TRT is Voice.
+The Primary Communication Method for ISA is [CPDLC](../../controller-skills/cpdlc.md).
 
-[CPDLC](../../controller-skills/cpdlc.md) may be used in lieu when applicable.
+The CPDLC Station Code is `YISA`.
 
-The CPDLC Station Code is `YTRT`.
-
-!!! tip
-        Even though TRT's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+Voice may be used in lieu when applicable.
 
 ## Airspace
 
