@@ -16,10 +16,9 @@ PDC's utilising vatACARS are initiated by the pilot however the standalone VATSY
 
 ## Setup
 
-The vatACARS client can be downloaded by clicking [here](https://vatpac.org/).  
-To install the vatACARS client, drop the folder into your vatSys\bin\Plugins folder.
+The vatACARS client can be downloaded by clicking [here](https://vatacars.com/).  
 
-The vatACARS client requires controllers to have a [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html) account and logon code.
+The vatACARS client requires controllers to have a [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html) account and logon code, plus a [vatACARS Token](https://vatacars.com/me).
 
 If the client is installed correctly there will be an *ACARS* drop-down box available.
 
@@ -37,10 +36,11 @@ After logging onto the network the controller should open the *Setup* window, fi
 ![vatACARS Setup](../controller-skills/img/vatacarslogon.png){ width="700" }
 </figure>
 
-**Station Code:** Must be the identifier of the airport which is being controlled.   
-**Logon Code:** Must be your [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html) Code.
+**Station Code:** Must be the identifier of the airport which is being controlled.          
+**vatACARS Token:** Must be your unique vatACARS Token, found [Here](https://vatacars.com/me).          
+**Logon Code:** Must be your [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html) Code.            
 
-Controllers should endeavour to note in their controller remarks section that PDC's are available.
+Controllers **MUST** note in their controller remarks section that PDC's are available in the format below.
 
 <figure markdown>
 ![vatACARS Continfo](../controller-skills/img/vatacarscontinfo2.png){ width="700" }
@@ -69,10 +69,11 @@ After logging onto the network the controller should open the *Setup* window, fi
 ![vatACARS Setup](../controller-skills/img/vatacarslogon.png){ width="700" }
 </figure>
 
-**Station Code:** Must be the identifier of which Enroute/Oceanic Sector is being controlled.   
-**Logon Code:** Must be your [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html) Code.
+**Station Code:** Must be the identifier of the airport which is being controlled.          
+**vatACARS Token:** Must be your unique vatACARS Token, found [Here](https://vatacars.com/me).          
+**Logon Code:** Must be your [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html) Code.            
 
-Controllers should endeavour to note in their controller remarks section that CPDLC is available.
+Controllers **MUST** note in their controller remarks section that CPDLC is available in the format below.
 
 <figure markdown>
 ![vatACARS Continfo](../controller-skills/img/vatacarscontinfo.png){ width="700" }
@@ -140,9 +141,11 @@ Left clicking the number next to the text box will change the line of text forwa
 
 #### ENR/OCN
 
-When transferring between Enroute or Oceanic sectors, ATC will send the pilot a CPDLC Message *'Contact [ATC UNIT] [FREQUENCY]'*.         
-After the pilot responds with *'Wilco'*, the controller **MUST** send the pilot an additional CPDLC message with ***'HANDOVER [ATC UNIT]'***.       
-The **ATC UNIT** option **MUST** be the Station Code of the next ATC Unit. Doing this will automatically transfer the aircraft from one controller to another + Transfer the pilot's CPDLC client to speak with the new ATC Unit. 
+When transferring between Enroute or Oceanic sectors, ATC will right click on the aircraft which will bring up a handover window. The controller should select the next ATC unit the aircraft is going, this will transfer the aircraft through CPDLC to the next ATC unit.
+
+<figure markdown>
+![vatACARS Setup](../controller-skills/img/vatacarshandoff.png){ width="700" }
+</figure>
 
 #### ENR/TCU
 
@@ -150,4 +153,8 @@ Standard Voice frequency transfers must be used for aircraft below `F245` and be
 
 ### Terminating CPDLC
 
-If CPDLC is no longer available or required, the controller will send the CPDLC message *'Logoff'*. This will automatically terminate the pilot's CPDLC client's connection. 
+If CPDLC is no longer available or required, ATC will right click on the aircraft which will bring up a logoff window. By clicking *'LOGOFF'* the aircraft will be sent a Logoff message.
+
+<figure markdown>
+![vatACARS Setup](../controller-skills/img/vatacarshandoff.png){ width="700" }
+</figure>
