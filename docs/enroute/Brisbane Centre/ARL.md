@@ -15,6 +15,18 @@
 | Ocean† | Brisbane Centre | 128.600 | BN-OCN_CTR |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
+
+### CPDLC
+
+The Primary Communication Method for ARL is Voice.
+
+[CPDLC](../../controller-skills/cpdlc.md) may be used in lieu when applicable.
+
+The CPDLC Station Code is `YARL`.
+
+!!! tip
+        Even though ARL's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+
 ## Airspace
 
 <figure markdown>

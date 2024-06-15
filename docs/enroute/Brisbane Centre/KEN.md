@@ -15,6 +15,17 @@
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
 
+### CPDLC
+
+The Primary Communication Method for KEN is Voice.
+
+[CPDLC](../../controller-skills/cpdlc.md) may be used in lieu when applicable.
+
+The CPDLC Station Code is `YKEN`.
+
+!!! tip
+        Even though KEN's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+
 ## Airspace
 
 <figure markdown>

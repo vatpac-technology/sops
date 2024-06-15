@@ -17,6 +17,14 @@
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
+### CPDLC
+
+The Primary Communication Method for ASP is [CPDLC](../../controller-skills/cpdlc.md).
+
+The CPDLC Station Code is `YASP`.
+
+Voice may be used in lieu when applicable.
+
 ## Airspace
 
 <figure markdown>
