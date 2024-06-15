@@ -36,7 +36,7 @@ After logging onto the network the controller should open the *Setup* window, fi
 ![vatACARS Setup](../controller-skills/img/vatacarslogon.png){ width="700" }
 </figure>
 
-**Station Code:** Must be the identifier of the airport which is being controlled.          
+**Station Code:** Must be the identifier of the position which is being controlled.          
 **vatACARS Token:** Must be your unique vatACARS Token, found [Here](https://vatacars.com/me).          
 **Logon Code:** Must be your [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html) Code.            
 
@@ -69,7 +69,7 @@ After logging onto the network the controller should open the *Setup* window, fi
 ![vatACARS Setup](../controller-skills/img/vatacarslogon.png){ width="700" }
 </figure>
 
-**Station Code:** Must be the identifier of the airport which is being controlled.          
+**Station Code:** Must be the identifier of the position which is being controlled.          
 **vatACARS Token:** Must be your unique vatACARS Token, found [Here](https://vatacars.com/me).          
 **Logon Code:** Must be your [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html) Code.            
 
