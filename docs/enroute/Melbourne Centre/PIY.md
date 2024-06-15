@@ -16,6 +16,18 @@
 | Geraldton† | Melbourne Centre | 134.200 | ML-GEL_CTR |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
+
+### CPDLC
+
+The Primary Communication Method for ELW is Voice.
+
+[CPDLC](../../controller-skills/cpdlc.md) may be used in lieu when applicable.
+
+The CPDLC Station Code is `YPIY`.
+
+!!! tip
+        Even though PIY's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+
 ## Airspace
 <figure markdown>
 ![Pingelly Airspace](../assets/piy.png){ width="700" }
