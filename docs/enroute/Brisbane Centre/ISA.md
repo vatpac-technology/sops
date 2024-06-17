@@ -8,7 +8,7 @@
 
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
-| **Isa** | **Brisbane Centre** | **125.200** | **BN-ISA_CTR** |
+| **Isa** | **Brisbane Centre** | **125.700** | **BN-ISA_CTR** |
 | Arafura† | Brisbane Centre | 133.700 | BN-ARA_CTR |
 | Sturt† | Brisbane Centre | 134.400 | BN-STR_CTR |
 | Warrego† | Brisbane Centre | 132.450 | BN-WEG_CTR |
