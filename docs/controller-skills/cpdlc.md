@@ -7,7 +7,7 @@ title: CPDLC
 In the real world, CPDLC operations are generally used by aircraft within airspaces in Class A airspace above `F245`.
 
 CPDLC Functionality may also be used by pilots to request a PDC.    
-PDC's utilising vatACARS are initiated by the pilot however the standalone VATSYS functionality can be used in lieu of vatACARS without a pilot initated request.
+PDC's utilising vatACARS are initiated by the pilot, however, the standalone vatSys functionality can be used in lieu of vatACARS without a pilot initated request.
 
 !!! Note
     **CPDLC in it's enroute capacity should only be used by Enroute (C1) controllers or above.**
@@ -20,7 +20,7 @@ The vatACARS client can be downloaded by clicking [here](https://vatacars.com/).
 
 The vatACARS client requires controllers to have a [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html) account and logon code, plus a [vatACARS Token](https://vatacars.com/me).
 
-If the client is installed correctly there will be an *ACARS* drop-down box available.
+If the client is installed correctly, there will be an *ACARS* drop-down box available.
 
 <figure markdown>
 ![vatACARS Dropdown](../controller-skills/img/vatacarsbar.png){ width="700" }
@@ -30,13 +30,13 @@ If the client is installed correctly there will be an *ACARS* drop-down box avai
 
 To utilise vatACARS for issuing PDC's, the controller must be logged into a VATPAC TCU, ADC, SMC or ACD position.
 
-After logging onto the network the controller should open the *Setup* window, fill in the relevent details and click *Save & Connect*
+After logging onto the network, the controller should open the *Setup* window, fill in the relevent details, and click *Save & Connect*
 
 <figure markdown>
 ![vatACARS Setup](../controller-skills/img/vatacarslogon.png){ width="700" }
 </figure>
 
-**Station Code:** Must be the identifier of the airport which is being controlled.          
+**Station Code:** Must be the identifier of the position which is being controlled.          
 **vatACARS Token:** Must be your unique vatACARS Token, found [Here](https://vatacars.com/me).          
 **Logon Code:** Must be your [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html) Code.            
 
@@ -59,17 +59,17 @@ Once the aircraft has recieved their PDC, the pilot will usually respond with *'
 
 ## Enroute
 
-To utilise CPDLC the controller must be logged into a VATPAC Enroute or Oceanic Position.
+To utilise CPDLC, the controller must be logged into a VATPAC Enroute or Oceanic Position.
 
-**CPDLC (Expect for PDC's) must not be used below `F245`.**
+**CPDLC (Except for PDC's) must not be used below `F245`.**
 
-After logging onto the network the controller should open the *Setup* window, fill in the relevent details and click *Save & Connect*
+After logging onto the network, the controller should open the *Setup* window, fill in the relevent details and click *Save & Connect*
 
 <figure markdown>
 ![vatACARS Setup](../controller-skills/img/vatacarslogon.png){ width="700" }
 </figure>
 
-**Station Code:** Must be the identifier of the airport which is being controlled.          
+**Station Code:** Must be the identifier of the position which is being controlled.          
 **vatACARS Token:** Must be your unique vatACARS Token, found [Here](https://vatacars.com/me).          
 **Logon Code:** Must be your [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html) Code.            
 
@@ -79,7 +79,7 @@ Controllers **MUST** note in their controller remarks section that CPDLC is avai
 ![vatACARS Continfo](../controller-skills/img/vatacarscontinfo.png){ width="700" }
 </figure>
 
-Some major Enroute positions do not use CPDLC as a primary means of communication, however controllers may use CPDLC in lieu of voice when applicable.
+Some major Enroute positions do not use CPDLC as a primary means of communication, however, controllers may use CPDLC in lieu of voice when applicable.
 
 ### Station Codes
 
@@ -112,7 +112,7 @@ Some major Enroute positions do not use CPDLC as a primary means of communicatio
 ### Accepting an Aircraft
 
 Once connected and with CPDLC enabled, pilots will connect to the vatACARS plugin via their aircraft's CPDLC system. The controller will normally recieve a *'Logon Request'* message through vatACARS.         
-The controller should left click their callsign to respond to this initial message and respond with a *'Accept Logon'*  to show the pilot that they have successfully connected. 
+The controller should left click their callsign to respond to this initial message, and respond with a *'Accept Logon'*  to show the pilot that they have successfully connected. 
 
 <figure markdown>
 ![vatACARS Setup](../controller-skills/img/vatacarsdispatch.png){ width="700" }
