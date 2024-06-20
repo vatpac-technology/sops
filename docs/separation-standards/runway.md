@@ -76,13 +76,4 @@ title: Runway
 - Landing aircraft may not cross the runway threshold until a preceding departing or landing aircraft on an intersecting runway has either crossed the intersection or stopped short
 
 ## Wake Turbulence
-
-| Lead Aircraft | Following Aircraft | Time (min) | Distance (nm)|
-| ------------- | ------------------ | ---------- | ---------- |
-| Super (A388/A225) | Heavy | 2 | 6 |
-|  | Medium | 3 | 7 |
-|  | Light | 3 | 8 |
-| Heavy | Heavy | - | 4 |
-|  | Medium | 2 | 5 |
-|  | Light | 2 | 6 |
-| Medium | Light | 2 | 5 |
+Refer to [Wake Turbulence Separation Standards](../waketurb)

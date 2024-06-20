@@ -39,17 +39,4 @@ title: Surveillance
 - When at least one aircraft is supersonic
 
 ## Wake Turbulence
-
-| Lead Aircraft | Following Aircraft | Distance (NM) |
-| ------------- | ------------------ | ------------- |
-| Super (A380) | Super | - | 
-|  | Heavy | 6* |
-|  | Medium | 7* |
-|  | Light | 8* |
-| Heavy | Heavy | 4 |
-|  | Medium | 5 |
-|  | Light | 6* |
-| Medium | Heavy | - |
-|  | Medium | - |
-|  | Light | 5 |
-|  |  | * = Relevant to Enroute |
+Refer to [Wake Turbulence Separation Standards](../waketurb)
