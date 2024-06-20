@@ -280,8 +280,8 @@ Climb Gradient Requirements apply to all Procedural SIDs. It is the pilot's resp
 | Cloud Base             | Visibility     | Approach                             |
 | -----------------------| -------------- | -------------------------------------|
 | >3000FT                | >5000M         | `EXP INDEP VISUAL APCH` |
-| Between 2000FT & 3000FT| >5000M         | `EXP INST APCH THEN INDEP VISUAL APCH WHEN VISUAL`|
-| Below 2000FT **or**    | <5000M         | `EXP INST APCH`                |
+| Between 2000FT & 3000FT| >5000M         | `EXP INSTR APCH THEN INDEP VISUAL APCH WHEN VISUAL`|
+| Below 2000FT **or**    | <5000M         | `EXP INSTR APCH`                |
 
 When Independent Visual Approaches are run during PROPS, the APCH field must also include:  
 `DO NOT PASS THRU ASSIGNED RWY CL`
