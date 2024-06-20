@@ -56,6 +56,7 @@
 *[SIS]: Surveillance Information Service (Flight Following)
 *[ARP]: Aerodrome Reference Point
 *[SVFR]: Special VFR
+*[MTOW]: Maximum Takeoff Weight
 *[AAW]: Adelaide Approach West
 *[AAE]: Adelaide Approach East
 *[BAC]: Brisbane (Gold Coast) Approach
