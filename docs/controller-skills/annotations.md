@@ -89,8 +89,8 @@ Here is a complete list of standard annotations controllers should be entering i
 | ----------- | ----------------- | ------- |
 | Surveillance Information Service | Aircraft receiving service (Flight Following) | SIS |
 | Coordinated Item | C(information) | C380 |
-| Information/instruction in yet to be issued | Outstanding instruction/action, followed by a period.<br />Remove period once action is completed | MX. |
-| Clearance issued to an aircraft prior to 10 NM from the lateral CTA boundary | | > |
+| Information/instruction yet to be issued | Outstanding instruction/action, followed by a period.<br />Remove period once action is completed | MX. |
+| Clearance issued to an aircraft prior to 10nm from the lateral CTA boundary | | > |
 | No IFR Traffic | | NIT |
 | Cancel SARWATCH | IFR aircraft cancelled SARWATCH prior to circuit area or destination ETA | CSW |
 | QNH issued (en route traffic is altimeter setting region) | Q(final 2-digit value) | Q15 |
