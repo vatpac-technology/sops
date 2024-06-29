@@ -1,5 +1,6 @@
 mkdocs
 mkdocs-material
+mkdocs-material-extensions
 mkdocs-awesome-pages-plugin
 mkdocs-git-revision-date-localized-plugin
 mkdocs-redirects
