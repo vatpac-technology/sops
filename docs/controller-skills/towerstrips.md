@@ -43,7 +43,7 @@ Selecting a track on the Ground Radar or ASD will select the relevant strip in O
 
     This is to prevent incidental placement onto the runway.
 
-#### Control Bar
+#### Control Bar 
 
 The bottom of the window holds the Control Bar. This panel contains the server connection status, aerodrome selected and ATIS code among other elements.
 
