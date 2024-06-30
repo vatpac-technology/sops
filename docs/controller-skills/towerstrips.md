@@ -26,6 +26,8 @@ After logging onto the network, open the plugin from the dropdown menu, and sele
 ![Select Aerodrome](../controller-skills/img/ozstripsaerodromeselect.png){ width="700" }
 </figure>
 
+A connection attempt will be made, and after roughly 10 seconds if it is successful, the *CONN STAT* field in the Control Bar will turn green.
+
 ### Stripboard
 
 <figure markdown>
@@ -48,6 +50,15 @@ Selecting a track on the Ground Radar or ASD will select the relevant strip in O
 The bottom of the window holds the Control Bar. This panel contains the server connection status, aerodrome selected and ATIS code among other elements.
 
 The *INHIBIT* and *FOR STP* button respectively remove and add selected aircraft from the strip board as required. 
+
+The *XX CROSS XX* adds a red highlight to the strip, marking its intentions to cross an active runway, rather than depart from it.
+
+The *PDC* button opens the default vatSys PDC editor. 
+
+!!! Note
+    **Currently, PDCs through OzStrips can only be sent via Private Message, not through Hoppies.**
+    
+    To send a PDC through vatAcars, you'll be required to dispatch it manually.
 
 ### Strips
 
@@ -83,3 +94,24 @@ The background colour of the strip corresponds to its status as an arrival or a 
 ### Queueing and Reordering
 
 A strip can be placed into the queue by selecting the strip and then pressing "Add to Queue". Strips can be moved vertically by pressing the keyboard arrow keys while a strip is selected.
+
+## Workload Management
+
+While use of OzStrips can aid situational awareness, it is important to use it in such a manner that it doesn't negatively impact your productivity.
+
+### Cocking Strips
+
+Left clicking on the strip's EOBT will highlight and cock the strip, making it stand out. It is recommended to mark strips this way, if there is an outstanding request.
+
+### Queue Management
+
+When multiple aircraft have outstanding requests, it is recommended you 'queue up' the strip, by placing it below the queue bar. This can be done quickly by selecting the strip then pressing "Add to Queue".
+
+When an aircraft is in a queue, make sure the aircraft's bay location represents its current state. 
+
+!!! Example
+    An aircraft in a queue for an airways clearance, would remain in the *Preactive* bay, below the queue bar, not in the *Cleared* bay.
+
+### HMI
+
+It is important that you communicate instructions concurrently while you move strips in OzStrips. Don't move strips before you do the action or obtain a readback, incase you get interrupted.
