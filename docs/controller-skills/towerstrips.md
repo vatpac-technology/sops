@@ -20,7 +20,7 @@ If the client is installed correctly, there will be an *OzStrips* option in the 
 
 ## Usage
 
-After logging onto the network, open the plugin from the dropdown menu, and select the desired aerodrome, or type the ICAO code into the field.
+After logging onto the network, open the plugin from the dropdown menu, and select the desired aerodrome, or type the ICAO code into the text field.
 
 <figure markdown>
 ![Select Aerodrome](../controller-skills/img/ozstripsaerodromeselect.png){ width="700" }
@@ -41,7 +41,7 @@ Strips can be moved in between strip bays by clicking on their callsign, and cli
 Selecting a track on the Ground Radar or ASD will select the relevant strip in OzStrips, and vice versa.
 
 !!! Note
-    **Strips can not be *SID triggered* from Holding Point to Runway**
+    **Strips can not be *SID triggered* from Holding Point to Runway.**
 
     This is to prevent incidental placement onto the runway.
 
@@ -88,8 +88,8 @@ The background colour of the strip corresponds to its status as an arrival or a 
 | 16 | Requested Level | Open flightplan |
 | 17 | Cleared Level | Change |
 | 18 | Takeoff Timer | Start / Reset |
-| 19 | Global Ops Data | Change |
-| 20 | Local Remarks | Change |
+| 19 | vatSys Global Ops Data | Change |
+| 20 | OzStrips Remarks | Change |
 
 ### Queueing and Reordering
 
@@ -97,11 +97,14 @@ A strip can be placed into the queue by selecting the strip and then pressing "A
 
 ## Workload Management
 
-While use of OzStrips can aid situational awareness, it is important to use it in such a manner that it doesn't negatively impact your productivity.
+While the use of OzStrips can aid situational awareness, it is ideal to be used in such a manner that it doesn't negatively impact your productivity.
+
+!!! Tip
+    It is important that you communicate instructions concurrently while you move strips in OzStrips. Don't move strips before you do the action or obtain a readback, incase you get interrupted.
 
 ### Cocking Strips
 
-Left clicking on the strip's EOBT will highlight and cock the strip, making it stand out. It is recommended to mark strips this way, if there is an outstanding request.
+Left clicking on the strip's EOBT will highlight and cock the strip, making it stand out. It is recommended to mark strips this way if there is an outstanding request.
 
 ### Queue Management
 
@@ -111,7 +114,3 @@ When an aircraft is in a queue, make sure the aircraft's bay location represents
 
 !!! Example
     An aircraft in a queue for an airways clearance, would remain in the *Preactive* bay, below the queue bar, not in the *Cleared* bay.
-
-### HMI
-
-It is important that you communicate instructions concurrently while you move strips in OzStrips. Don't move strips before you do the action or obtain a readback, incase you get interrupted.
