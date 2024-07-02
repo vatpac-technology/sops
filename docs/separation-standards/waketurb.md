@@ -34,7 +34,7 @@ aircraft on a crossing runway
 
 | Lead Aircraft | Following Aircraft | Time (min) | Distance (nm)|
 | ------------- | ------------------ | ---------- | ---------- |
-| Super (A388/A225) | Heavy | 2 | 6 |
+| Super | Heavy | 2 | 6 |
 |  | Medium | 3 | 7 |
 |  | Light | 3 | 8 |
 | Heavy | Heavy | - | 4 |
@@ -50,7 +50,7 @@ Apply to departing aircraft from a non-full-length intersection when:
 
 | Lead Aircraft | Following Aircraft | Time (min) |
 | ------------- | ------------------ | ---------- |
-| Super (A388/A225) | Heavy | 4 |
+| Super | Heavy | 4 |
 |  | Medium | 4 |
 |  | Light | 4 |
 | Heavy | Medium | 3 |
@@ -66,7 +66,7 @@ Apply to arriving aircraft when:
 
 | Lead Aircraft | Following Aircraft | Time (min) | Distance (nm)|
 | ------------- | ------------------ | ---------- | ---------- |
-| Super (A388/A225) | Heavy | 3 | 6 |
+| Super | Heavy | 3 | 6 |
 |  | Medium | 3 | 7 |
 |  | Light | 4 | 8 |
 | Heavy | Heavy | - | 4 |
@@ -79,14 +79,11 @@ Apply to aircraft operating **directly behind** and within **760m laterally** of
 
 | Lead Aircraft | Following Aircraft | Distance (NM) |
 | ------------- | ------------------ | ------------- |
-| Super (A380) | Super | - | 
-|  | Heavy | 6* |
+| Super | Heavy | 6* | 
 |  | Medium | 7* |
 |  | Light | 8* |
 | Heavy | Heavy | 4 |
 |  | Medium | 5 |
 |  | Light | 6* |
-| Medium | Heavy | - |
-|  | Medium | - |
-|  | Light | 5 |
+| Medium | Light | 5 |
 |  |  | * = Relevant to Enroute |
