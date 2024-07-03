@@ -11,7 +11,7 @@
 
 ### CPDLC
 
-The Primary Communication Method for HWE is [CPDLC](../../controller-skills/cpdlc.md).
+The Primary Communication Method for HWE is [CPDLC](../../../client/cpdlc).
 
 The CPDLC Station Code is `YHWE`.
 

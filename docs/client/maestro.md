@@ -86,3 +86,5 @@ The flow controller can also make changes from the sector view, but this is not 
 
 From the desequenced view (DESQ), the flow controller can view aircraft that could not be automatically fit into the sequenced, and find a place for them to be slotted in. this may require additional delaying of aircraft behind (ideally only stable aircraft, as per above).
 
+## Arrivals List
+Maestro serves effectively the same purpose as the Arrivals List window. During busy events, it should be coordinated which tool shall be used for Sequencing. More information about the use of the Arrivals List can be found [here](../../controller-skills/sequencing/#arrivals-list)

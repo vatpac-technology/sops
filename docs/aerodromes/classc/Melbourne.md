@@ -88,13 +88,9 @@ When using runway mode 09A/16D, the ATIS OPR INFO shall include:
 
 This allows for both Runway 09 and Runway 16 to operate independently of each other, with aircraft departing Runway 16 from Taxiway Echo.
 
-#### Pushback Request on ACD
-The Real-world YMML ATIS will at times include an operational info line:  
+#### ACD Pushback Requests
+When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) procedure, the OPR INFO shall include:  
 `ALL DEPARTURES MUST REQUEST PUSH BACK ON 127.2`  
-
-Whilst this is used to reduce frequency congestion on SMC in the real world, coordination limitations in the VATSIM environment mean that this procedure serves no benefit to the SMC and ACD controllers (Instead of SMC having to answer a pushback request from an aircraft, SMC still has to answer a coordination line from ACD regarding an aircraft requesting pushback).
-
-In light of this, the use of this operational info should be avoided.
 
 ## Miscellaneous
 ### Sunbury Corridor
@@ -131,6 +127,23 @@ Remember to pass traffic information to both aircraft.
 !!! example
     **ML ADC:** "JST515, traffic is a helicopter, 2nm northwest of the field, tracking for Essendon and maintaining own separation with you, runway 16, cleared to land"  
     **JST515:** "Runway 16, cleared to land, JST515"
+
+## Workload Management
+During busy events, such as [Milk Run Monday](../../../controller-skills/milkrun), the **SMC** controller may end up with a much higher workload than the **ACD** controller. Additionally, delays may need to be implemented for aircraft requesting pushback, so as to not overload the taxiways and holding points.
+
+### Pushback Requests on ACD
+To mitigate this, pushback requests may be done on **ACD** frequency, to balance the workload. A few steps must be followed to properly execute this procedure.
+
+1. **SMC** and **ACD** coordinate to implement the procedure, due to high **SMC** workload.
+2. **SMC** coordinates with **ADC** in order to have the [ATIS](#acd-pushback-requests) updated.
+3. When **ACD** has finished issuing an airways clearance, they will **remind** pilots to *"Contact me when ready for pushback"*.
+4. When a pilot requests pushback, **ACD** will instruct them to **Monitor** *(not contact)* Ground on 121.7.
+5. **ACD** will move the strip in to the **Queue** section of the **Cleared** bay in [OzStrips](../../../client/towerstrips/), to denote they are awaiting pushback approval.
+6. Eventually, **SMC** will have adequate space on the aprons, taxiways, and holding point, as well as time to make assessments.
+7. **SMC** will scan the [Cleared Queue bay](../../../client/towerstrips/#stripboard) for the next aircraft in line, and call them to approve their pushback.
+
+!!! reminder
+    The **bottom** aircraft represents the **front** of the queue
 
 ## Coordination
 ### Auto Release
