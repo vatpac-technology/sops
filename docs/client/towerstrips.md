@@ -6,10 +6,9 @@ title: Tower Strips
 
 In the real world, aerodrome controllers use strips to provide a visual representation of aerodrome activity, beyond what looking out the window or at a radar screen can provide.
 
-Within vatSys, this can be emulated using the OzStrips plugin. Strip state is shared between controllers operating at the same aerodrome.
+Within vatSys, this can be emulated using the [OzStrips plugin](https://maxrumsey.xyz/OzStrips/){target=new}. Strip state is shared between controllers operating at the same aerodrome.
 
 ## Setup
-
 The OzStrips plugin can be downloaded using the [vatSys Plugin Manager](https://github.com/badvectors/PluginManager){target=new}.  
 
 If the client is installed correctly, there will be an *OzStrips* option in the Window dropdown menu.
@@ -19,7 +18,6 @@ If the client is installed correctly, there will be an *OzStrips* option in the 
 </figure>
 
 ## Usage
-
 After logging onto the network, open the plugin from the dropdown menu, and select the desired aerodrome, or type the ICAO code into the text field.
 
 <figure markdown>
@@ -46,7 +44,6 @@ Selecting a track on the Ground Radar or ASD will select the relevant strip in O
     This is to prevent incidental placement onto the runway.
 
 #### Control Bar 
-
 The bottom of the window holds the Control Bar. This panel contains the server connection status, aerodrome selected and ATIS code among other elements.
 
 The *INHIBIT* and *FOR STP* button respectively remove and add selected aircraft from the strip board as required. 
@@ -61,7 +58,6 @@ The *PDC* button opens the default vatSys PDC editor.
     To send a PDC through vatAcars, you'll be required to dispatch it manually.
 
 ### Strips
-
 The background colour of the strip corresponds to its status as an arrival or a departure. Departing aircraft have a blue strip, while arrivals have a yellow strip.
 
 <figure markdown>
@@ -92,22 +88,18 @@ The background colour of the strip corresponds to its status as an arrival or a 
 | 20 | OzStrips Remarks | Change |
 
 ### Queueing and Reordering
-
 A strip can be placed into the queue by selecting the strip and then pressing "Add to Queue". Strips can be moved vertically by pressing the keyboard arrow keys while a strip is selected.
 
 ## Workload Management
-
 While the use of OzStrips can aid situational awareness, it is ideal to be used in such a manner that it doesn't negatively impact your productivity.
 
 !!! Tip
     It is important that you communicate instructions concurrently while you move strips in OzStrips. Don't move strips before you do the action or obtain a readback, incase you get interrupted.
 
 ### Cocking Strips
-
 Left clicking on the strip's EOBT will highlight and cock the strip, making it stand out. It is recommended to mark strips this way if there is an outstanding request.
 
 ### Queue Management
-
 When multiple aircraft have outstanding requests, it is recommended you 'queue up' the strip, by placing it below the queue bar. This can be done quickly by selecting the strip then pressing "Add to Queue".
 
 When an aircraft is in a queue, make sure the aircraft's bay location represents its current state. 
