@@ -144,11 +144,11 @@ To mitigate this, pushback requests may be done on **ACD** frequency, to balance
 
 !!! example
     <span class="hotline">**ML SMC** -> **ML ACD**</span>: "It's getting quite busy. Happy to implement Pushback requests on your frequency?"  
-    <span class="hotline">**ML ACD** -> **ML SMC**</span>: "Understood, affirm. I'll talk to Tower"  
-    <span class="hotline">**ML SMC** -> **ML ACD**</span>: "Thanks"  
+    <span class="hotline">**ML ACD** -> **ML SMC**</span>: "Understood, affirm"  
+    <span class="hotline">**ML SMC** -> **ML ACD**</span>: "Thanks, I'll talk to Tower"  
 
-    <span class="hotline">**ML ACD** -> **ML ADC**</span>: "Can we please get `ALL DEPARTURES MUST REQUEST PUSH BACK ON 127.2` on the ATIS?"  
-    <span class="hotline">**ML ADC** -> **ML ACD**</span>: "Wilco"  
+    <span class="hotline">**ML SMC** -> **ML ADC**</span>: "Can we please get `ALL DEPARTURES MUST REQUEST PUSH BACK ON 127.2` on the ATIS?"  
+    <span class="hotline">**ML ADC** -> **ML SMC**</span>: "Wilco"  
 
     **QFA401:** "Melbourne Delivery, QFA401, Request Clearance"  
     **ML ACD:** "QFA401, Melbourne Delivery. Cleared to..."  
