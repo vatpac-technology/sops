@@ -127,19 +127,19 @@ Post landing at a Helicopter Spot, helicopters shall not vacate the Spot until i
 
 
 ## Coordination
-NWU TCU
+NWA TCU
 
-'Next' coordination is required from NWU ADC to NWU TCU for all aircraft.
+'Next' coordination is required from NWA ADC to NWA TCU for all aircraft.
 
 
 !!! example
-    <span class="hotline">**NWU ADC** -> **NWU TCU**</span>: "Next, ASY01, runway 33"  
-    <span class="hotline">**NWU TCU** -> **NWU ADC**</span>: "ASY01, Assigned Heading Right 030, unrestricted"  
-    <span class="hotline">**NWU ADC** -> **NWU TCU**</span>: "Assigned Heading Heading Right 030, ASY01" 
+    <span class="hotline">**NWA ADC** -> **NWA TCU**</span>: "Next, ASY01, runway 33"  
+    <span class="hotline">**NWA TCU** -> **NWA ADC**</span>: "ASY01, Assigned Heading Right 030, unrestricted"  
+    <span class="hotline">**NWA ADC** -> **NWA TCU**</span>: "Assigned Heading Heading Right 030, ASY01" 
 
 ### Level Assignment
 
-The Standard Assignable Level from **NWU ADC** to **NWU TCU** is:
+The Standard Assignable Level from **NWA ADC** to **NWA TCU** is:
 
 a) The Lower of F180 or RFL for Aircraft assigned via Procedural or RNAV SID.
 
