@@ -133,7 +133,7 @@ NWA TCU
 
 
 !!! example
-    <span class="hotline">**NWA ADC** -> **NWA TCU**</span>: "Next, ASY01, runway 33"  
+    <span class="hotline">**NWA ADC** -> **NWA TCU**</span>: "Next, ASY01, runway 08"  
     <span class="hotline">**NWA TCU** -> **NWA ADC**</span>: "ASY01, Assigned Heading Right 030, unrestricted"  
     <span class="hotline">**NWA ADC** -> **NWA TCU**</span>: "Assigned Heading Heading Right 030, ASY01" 
 
