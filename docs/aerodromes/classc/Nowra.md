@@ -18,19 +18,19 @@
 
 ### TMA Ownership
 
-The Terminal Control Area (TMA) owns the airspace within zone R421 up to FL125 and optionally R420F extends from FL125 to FL300.
-This airspace is designed to facilitate the processing of military aircraft and low-level helicopter operations.
+The Terminal Control Area (TMA) owns the airspace within R421 up to FL125; optionally R420F extends from FL125 to FL300.
+This airspace is for facilitating military aircraft and low-level helicopter operations.
 
 ### Activation of Restricted Areas
 
 When a controller logs in as Nowra ADC (NW ADC) or TMA:
 
-1. **Announce Activation**: When logging in as NW ADC or TMA, announce that R421 and other applicable PRDs are active.
-2. **Activate Surrounding Areas**: Ensure surrounding controllers activate the restricted areas to get the outlines visible.
+1. **Announce Activation**: Announce that R421 and other applicable PRDs are active.
+2. **Activate Surrounding Areas**: Notify surround controllers to activate the restricted areas to get the outlines visible.
 3. **Issue Clearances**: Treat restricted areas like R421 as Class C/D airspace and issue clearances accordingly.
 4. **Service Levels**:
-    - Official aircraft: Class D service. (Military)
-    - Unofficial aircraft: Class C service. (Non Military)
+    - Official aircraft: Class D service. (eg Military)
+    - Unofficial aircraft: Class C service. (eg Non Military)
 
 ### Airspace Details
 
