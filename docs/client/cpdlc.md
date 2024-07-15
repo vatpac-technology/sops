@@ -30,6 +30,9 @@ If the client is installed correctly, there will be an *ACARS* drop-down box ava
 
 To utilise vatACARS for issuing PDC's, the controller must be logged into a VATPAC TCU, ADC, SMC or ACD position.
 
+!!! Note
+    If multiple controllers are present at one airport, the controller responsible for the ACD position will manage PDCs through vatACARS.
+
 After logging onto the VATSIM network, the controller should open the *Setup* window, fill in the relevent details, and click *Connect*
 
 <figure markdown>
