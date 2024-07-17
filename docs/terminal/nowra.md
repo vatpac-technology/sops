@@ -29,9 +29,7 @@ When a controller logs in as Nowra TMA for R421:
 1. **Announce Activation**: Announce that R421 and other applicable PRDs are active.
 2. **Activate Surrounding Areas**: Notify surround controllers to activate the restricted areas to get the outlines visible.
 3. **Issue Clearances**: Treat restricted areas like R421 as Class C/D airspace and issue clearances accordingly.
-4. **Service Levels**: Apart from official events Class C only and for events:
-    - Official aircraft: Class D service. (eg Military)
-    - Unofficial aircraft: Class C service. (eg Non Military)
+4. **Service Level**: Class C while R421 is active.
 
 To activate R420:
 1. Get an airspace release from BIK. Voiceless coord of all aircraft on published air routes via the NWA TACAN above `F125`.
