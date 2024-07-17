@@ -38,7 +38,7 @@ e) Runway 03 and Runway 26;
 
 ## Miscellaneous
 ### Circuit Procedures
-Circuit operations at Nowra occur within the CIRA, a `5NM` radius of NW TACAN, from the surface to `A020`.
+Circuit operations at Nowra occur within the CIRA, a `5NM` radius of NW TACAN, from the `SFC` to `A020`.
 
 - Fixed wing: `A020`
 - Rotary wing: `A012`
