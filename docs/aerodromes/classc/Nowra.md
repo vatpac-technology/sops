@@ -8,50 +8,14 @@
 
 | Name               | ID      | Callsign       | Frequency        | Login Identifier              |
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
-| Nowra TMA    | | Nowra Approach | 123.500          |NW_APP        |
 | Nowra ADC    | | Nowra Tower  | 118.850         | NW_TWR        |
 | Nowra SMC   ||  Nowra Ground  | 135.850         | NW_GND        |
 | Nowra ACD    | | Nowra Delivery  | 128.350         | NW_DEL       |
 | Nowra ATIS    |   | | 125.65         | YSNW_ATIS       |
 
+
 ## Airspace
-
-### TMA Ownership
-
-The Terminal Control Area (TMA) owns the airspace within R421 up to FL125; optionally R420F extends from FL125 to FL300.
-This airspace is for facilitating military aircraft and low-level helicopter operations.
-
-### Activation of Restricted Areas
-
-When a controller logs in as Nowra ADC (NW ADC) or TMA:
-
-1. **Announce Activation**: Announce that R421 and other applicable PRDs are active.
-2. **Activate Surrounding Areas**: Notify surround controllers to activate the restricted areas to get the outlines visible.
-3. **Issue Clearances**: Treat restricted areas like R421 as Class C/D airspace and issue clearances accordingly.
-4. **Service Levels**:
-    - Official aircraft: Class D service. (eg Military)
-    - Unofficial aircraft: Class C service. (eg Non Military)
-
-### Airspace Details
-
-<figure markdown>
-![NW ADC Airspace](img/nwadc.png){ width="700" }
-<figcaption>NW ADC Airspace</figcaption>
-</figure>
-
-
-- **R421**: Extends up to FL125 and is used for military and low-level helicopter operations.
-- **R420F**: Extends from FL125 to FL300.
-
-## VFR corridor (DAY ONLY)
-<figure markdown>
-![NW VFR CRD](img/nwvfc.png){ width="700" }
-<figcaption>NW VFR CRD</figcaption>
-</figure>
-- All VFR aircraft passing through R421 must request clearance and be assigned a squawk code.
-- If clearance is not immediately available, instruct the aircraft to remain in Class G airspace.
-- VFR traffic must not pass through the corridor above 2000FT AMSL.
-- Separation must be maintained between IFR and VFR traffic including providing necessary traffic advisories.
+NWA ADC owns the Class C airspace in the NWA CTR (Extends to 7NM from the thresholds of Runway 01/19) from `SFC` to `A020`. This airspace is designed to facilitate Helicopter Traffic and Ciruit Traffic.
 
 ## Aerodrome
 
@@ -74,11 +38,11 @@ e) Runway 03 and Runway 26;
 
 ## Miscellaneous
 ### Circuit Procedures
-Circuit operations at Nowra occur within the CIRA, a `5NM` radius of Nowra, from the surface to `2000ft`.
+Circuit operations at Nowra occur within the CIRA, a `5NM` radius of Nowra, from the surface to `A020`.
 
-- Fixed wing: `2000ft`
-- Rotary wing: `1200ft`
-- Flight Deck Procedural Trainer: not above `700ft`
+- Fixed wing: `A020`
+- Rotary wing: `A012`
+- Flight Deck Procedural Trainer: not above `A007`
 
 ### Circuit Direction
 | Runway | Direction |
@@ -93,6 +57,8 @@ Circuit operations at Nowra occur within the CIRA, a `5NM` radius of Nowra, from
 ### Helicopter Spots
 
 The following helicopter spots are designated on various taxiways at Nowra aerodrome to facilitate visual helicopter arrivals and departures day and night.
+
+IFR traffic must depart from the active duty runway.
 
 These spots are physically marked with bidirectional numbers in addition to the standard “H” marking:
 
@@ -131,19 +97,22 @@ NWA TCU
 
 'Next' coordination is required from NWA ADC to NWA TCU for all aircraft.
 
+Helicopter departing from helicopter spots will be treated as if departing from that duty runway.
 
 !!! example
     <span class="hotline">**NWA ADC** -> **NWA TCU**</span>: "Next, ASY01, runway 08"  
-    <span class="hotline">**NWA TCU** -> **NWA ADC**</span>: "ASY01, Assigned Heading Right 030, unrestricted"  
-    <span class="hotline">**NWA ADC** -> **NWA TCU**</span>: "Assigned Heading Heading Right 030, ASY01" 
+    <span class="hotline">**NWA TCU** -> **NWA ADC**</span>: "ASY01, Assigned Heading Left 030, unrestricted"  
+    <span class="hotline">**NWA ADC** -> **NWA TCU**</span>: "Assigned Heading Heading Left 030, ASY01" 
+
 
 ### Level Assignment
 
 The Standard Assignable Level from **NWA ADC** to **NWA TCU** is:
 
-a) The Lower of F180 or RFL for Aircraft assigned via Procedural or RNAV SID.
+a) The Lower of F130 or RFL for Aircraft assigned via Procedural or RNAV SID.
 
 ### IFR Level Assignment
-Issue `F180` or `RFL`; whichever is lower, to aircraft cleared via an RNAV SID or aircraft with a wake turbulence category of medium or greater.  
-Issue `F180` or `RFL`; whichever is lower, to jet aircraft not cleared via an RNAV SID regardless of wake turbulence category.  
+Issue `F130` or `RFL`; whichever is lower, to aircraft cleared via an RNAV SID or aircraft with a wake turbulence category of medium or greater.  
+Issue `F130` or `RFL`; whichever is lower, to jet aircraft not cleared via an RNAV SID regardless of wake turbulence category.  
 Issue `A030` or `RFL`; whichever is lower, to aircraft not cleared via an RNAV SID with a wake turbulence category of light.  
+Issue `A025` or `RFL`; whichever is lower, to VFR traffic.
