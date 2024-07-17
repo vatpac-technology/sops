@@ -15,7 +15,7 @@
 
 
 ## Airspace
-NWA ADC owns the Class C airspace from `SFC` to `A020`, 5nm from the NW TACAN. This airspace is designed to facilitate Helicopter Traffic and Ciruit Traffic.
+NW ADC owns the Class C airspace from `SFC` to `A020`, 5nm from the NWA TACAN. This airspace is designed to facilitate Helicopter Traffic and Ciruit Traffic.
 
 ## Aerodrome
 
@@ -24,13 +24,12 @@ NWA ADC owns the Class C airspace from `SFC` to `A020`, 5nm from the NW TACAN. T
 1. **Ground Taxiing for Wheeled Helicopters**
     - Where practicable, wheeled helicopters are encouraged to “ground taxi” on prepared surfaces to minimize rotor wash and its effects.
 
-### The Runway Mode options available are:
+### Runway Modes
 
 a) Runway 21 and Runway 08;  
 b) Runway 21 and Runway 26;  
-c) Runway 21 only;  
-d) Runway 03 and Runway 08;  
-e) Runway 03 and Runway 26;   
+c) Runway 03 and Runway 08;  
+d) Runway 03 and Runway 26;   
 
 ## Charts
 !!! note
@@ -38,7 +37,8 @@ e) Runway 03 and Runway 26;
 
 ## Miscellaneous
 ### Circuit Procedures
-Circuit operations at Nowra occur within the CIRA, a `5NM` radius of NW TACAN, from the `SFC` to `A020`.
+
+Circuit operations at Nowra occur within the circuit area (CIRA), a `5NM` radius of NWA TACAN, from the `SFC` to `A020`.
 
 - Fixed wing: `A020`
 - Rotary wing: `A012`
@@ -93,19 +93,19 @@ Post landing at a Helicopter Spot, helicopters shall not vacate the Spot until i
 
 
 ## Coordination
-NWA TCU
+NW TCU
 
-'Next' coordination is required from NWA ADC to NWA TCU for all aircraft.
+'Next' coordination is required from NW ADC to NW TCU for all aircraft.
 
 Helicopter departing from helicopter spots will be treated as if departing from that duty runway.
 
 !!! example
-    <span class="hotline">**NWA ADC** -> **NWA TCU**</span>: "Next, ASY01, runway 08"  
-    <span class="hotline">**NWA TCU** -> **NWA ADC**</span>: "ASY01, Assigned Heading Left 030, unrestricted"  
-    <span class="hotline">**NWA ADC** -> **NWA TCU**</span>: "Assigned Heading Heading Left 030, ASY01" 
+    <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Next, ASY01, runway 08"  
+    <span class="hotline">**NW TCU** -> **NW ADC**</span>: "ASY01, Assigned Heading Left 030, unrestricted"  
+    <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Assigned Heading Heading Left 030, ASY01" 
 
 
 ### Level Assignment
-The Standard Assignable Level from **NWA ADC** to **NWA TCU** is:
+The Standard Assignable Level from **NW ADC** to **NW TCU** is:
 
 Issue `F120` or `RFL`; whichever is lower.  
