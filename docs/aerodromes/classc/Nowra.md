@@ -15,7 +15,7 @@
 
 
 ## Airspace
-NWA ADC owns the Class C airspace from `SFC` to `A015`, 5nm from the NW TACAN. This airspace is designed to facilitate Helicopter Traffic and Ciruit Traffic.
+NWA ADC owns the Class C airspace from `SFC` to `A020`, 5nm from the NW TACAN. This airspace is designed to facilitate Helicopter Traffic and Ciruit Traffic.
 
 ## Aerodrome
 
@@ -38,7 +38,7 @@ e) Runway 03 and Runway 26;
 
 ## Miscellaneous
 ### Circuit Procedures
-Circuit operations at Nowra occur within the CIRA, a `5NM` radius of Nowra, from the surface to `A020`.
+Circuit operations at Nowra occur within the CIRA, a `5NM` radius of NW TACAN, from the surface to `A020`.
 
 - Fixed wing: `A020`
 - Rotary wing: `A012`
@@ -108,7 +108,4 @@ Helicopter departing from helicopter spots will be treated as if departing from 
 ### Level Assignment
 The Standard Assignable Level from **NWA ADC** to **NWA TCU** is:
 
-Issue `F130` or `RFL`; whichever is lower, to aircraft cleared via an SID or aircraft with a wake turbulence category of medium or greater.  
-Issue `F130` or `RFL`; whichever is lower, to jet aircraft not cleared via an SID regardless of wake turbulence category.  
-Issue `A030` or `RFL`; whichever is lower, to aircraft not cleared via an SID with a wake turbulence category of light.  
-Issue `A025` or `RFL`; whichever is lower, to VFR traffic.
+Issue `F120` or `RFL`; whichever is lower.  
