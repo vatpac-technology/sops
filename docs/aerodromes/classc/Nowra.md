@@ -106,13 +106,9 @@ Helicopter departing from helicopter spots will be treated as if departing from 
 
 
 ### Level Assignment
-
 The Standard Assignable Level from **NWA ADC** to **NWA TCU** is:
 
-a) The Lower of F130 or RFL for Aircraft assigned via Procedural or RNAV SID.
-
-### IFR Level Assignment
-Issue `F130` or `RFL`; whichever is lower, to aircraft cleared via an RNAV SID or aircraft with a wake turbulence category of medium or greater.  
-Issue `F130` or `RFL`; whichever is lower, to jet aircraft not cleared via an RNAV SID regardless of wake turbulence category.  
-Issue `A030` or `RFL`; whichever is lower, to aircraft not cleared via an RNAV SID with a wake turbulence category of light.  
+Issue `F130` or `RFL`; whichever is lower, to aircraft cleared via an SID or aircraft with a wake turbulence category of medium or greater.  
+Issue `F130` or `RFL`; whichever is lower, to jet aircraft not cleared via an SID regardless of wake turbulence category.  
+Issue `A030` or `RFL`; whichever is lower, to aircraft not cleared via an SID with a wake turbulence category of light.  
 Issue `A025` or `RFL`; whichever is lower, to VFR traffic.
