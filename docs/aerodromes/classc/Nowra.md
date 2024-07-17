@@ -15,7 +15,7 @@
 
 
 ## Airspace
-NWA ADC owns the Class C airspace in the NWA CTR (Extends to 7NM from the thresholds of Runway 01/19) from `SFC` to `A020`. This airspace is designed to facilitate Helicopter Traffic and Ciruit Traffic.
+NWA ADC owns the Class C airspace from `SFC` to `A015`, 5nm from the NW TACAN. This airspace is designed to facilitate Helicopter Traffic and Ciruit Traffic.
 
 ## Aerodrome
 
