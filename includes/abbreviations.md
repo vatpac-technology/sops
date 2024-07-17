@@ -273,3 +273,4 @@
 *[RJTG]: Fukuoka FIR
 *[MX]: Maximum Speed
 *[CSR]: Cancel Speed Restrictions
+*[COBT]: Calculated Off Blocks Time
