@@ -88,13 +88,9 @@ When using runway mode 09A/16D, the ATIS OPR INFO shall include:
 
 This allows for both Runway 09 and Runway 16 to operate independently of each other, with aircraft departing Runway 16 from Taxiway Echo.
 
-#### Pushback Request on ACD
-The Real-world YMML ATIS will at times include an operational info line:  
+#### ACD Pushback Requests
+When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) procedure, the OPR INFO shall include:  
 `ALL DEPARTURES MUST REQUEST PUSH BACK ON 127.2`  
-
-Whilst this is used to reduce frequency congestion on SMC in the real world, coordination limitations in the VATSIM environment mean that this procedure serves no benefit to the SMC and ACD controllers (Instead of SMC having to answer a pushback request from an aircraft, SMC still has to answer a coordination line from ACD regarding an aircraft requesting pushback).
-
-In light of this, the use of this operational info should be avoided.
 
 ## Miscellaneous
 ### Sunbury Corridor
@@ -131,6 +127,59 @@ Remember to pass traffic information to both aircraft.
 !!! example
     **ML ADC:** "JST515, traffic is a helicopter, 2nm northwest of the field, tracking for Essendon and maintaining own separation with you, runway 16, cleared to land"  
     **JST515:** "Runway 16, cleared to land, JST515"
+
+## Workload Management
+During busy events, such as [Milk Run Monday](../../../controller-skills/milkrun), the **SMC** controller may end up with a much higher workload than the **ACD** controller. Additionally, delays may need to be implemented for aircraft requesting pushback, so as to not overload the taxiways and holding points.
+
+### Pushback Requests on ACD
+To mitigate this, pushback requests may be done on **ACD** frequency, to balance the workload. A few steps must be followed to properly execute this procedure.
+
+1. **SMC** and **ACD** coordinate to implement the procedure, due to high **SMC** workload.
+2. **SMC** coordinates with **ADC** in order to have the [ATIS](#acd-pushback-requests) updated.
+3. When **ACD** has finished issuing an airways clearance, they will **remind** pilots to *"Contact me when ready for pushback"*.
+4. When a pilot requests pushback, **ACD** will instruct them to **Monitor** *(not contact)* Ground on 121.7, and advise their position in the queue.
+5. **ACD** will move the strip in to the **Queue** section of the **Cleared** bay^ in [OzStrips](../../../client/towerstrips/), to denote they are awaiting pushback approval†.
+6. Eventually, **SMC** will have adequate space on the aprons, taxiways, and holding point, as well as time to make assessments.
+7. **SMC** will scan the [Cleared Queue bay](../../../client/towerstrips/#stripboard) for the next aircraft in line, and call them to approve their pushback.
+
+!!! example
+    <span class="hotline">**ML SMC** -> **ML ACD**</span>: "It's getting quite busy. Happy to implement Pushback requests on your frequency?"  
+    <span class="hotline">**ML ACD** -> **ML SMC**</span>: "Understood, affirm"  
+    <span class="hotline">**ML SMC** -> **ML ACD**</span>: "Thanks, I'll talk to Tower"  
+
+    <span class="hotline">**ML SMC** -> **ML ADC**</span>: "Can we please get `ALL DEPARTURES MUST REQUEST PUSH BACK ON 127.2` on the ATIS?"  
+    <span class="hotline">**ML ADC** -> **ML SMC**</span>: "Wilco"  
+
+    **QFA401:** "Melbourne Delivery, QFA401, Request Clearance"  
+    **ML ACD:** "QFA401, Melbourne Delivery. Cleared to..."  
+    **QFA401:** "Cleared to... we are bay B27, QFA401"  
+    **ML ACD:** "QFA401, Contact me when ready for pushback"  
+    ...  
+    **QFA401:** "Request Pushback"  
+    **ML ACD:** "QFA401, Monitor Ground 121.7, Number 5. They will call you when pushback is available"  
+    **QFA401:** "Monitor 121.7, QFA401"  
+    *ML SMC will move QFA401's strip to the* ***Cleared Queue*** *bay*  
+    *QFA401 will change frequency, but* ***not contact*** *ML SMC*  
+    ...  
+    **ML SMC:** "QFA401, Melbourne Ground, push approved"  
+
+#### Queue Management
+Remember that the **bottom** aircraft represents the **front** of the queue.
+
+^ Additionally, the strips must remain in the strip bay of their **current state**, even if they are in a queue. For example, if they have received an airways clearance and are in the queue for pushback, they must remain in the **Cleared** bay, **not** the Pushback bay.
+
+<figure markdown>
+![Cleared Queue Bay](img/clrqbay.png){ width="500" }
+  <figcaption>Cleared Queue Bay</figcaption>
+</figure>
+
+#### COBT Slot Times
+† Aircraft that are compliant with their booked slot time should be moved to the **front** of the queue
+
+<figure markdown>
+![COBT Slot Time](img/slottime.png){ width="200" }
+  <figcaption>COBT Slot Time</figcaption>
+</figure>
 
 ## Coordination
 ### Auto Release

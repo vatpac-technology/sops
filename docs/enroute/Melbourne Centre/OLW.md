@@ -19,7 +19,7 @@
 
 ### CPDLC
 
-The Primary Communication Method for OLW is [CPDLC](../../controller-skills/cpdlc.md).
+The Primary Communication Method for OLW is [CPDLC](../../../client/cpdlc).
 
 The CPDLC Station Code is `YOLW`.
 

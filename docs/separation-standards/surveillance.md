@@ -16,8 +16,20 @@ title: Surveillance
 !!! note
     The 3nm standard may be used by Enroute controllers providing top-down to a TCU, ***only if*** a seperate air display is used for the TCU position. Otherwise, 5nm standard must be used in the TCU
 
-## Vertical
+## Sequencing
+### Enroute to TCU
+Enroute must aim to have **2 minute** spacing between two arrivals at the same Feeder Fix for the **same runway**.
 
+This distance may be reduced to an absolute minimum of **10nm**.
+
+This includes aircraft inbound through nearby Feeder Fixes (eg: *LIZZI* and *BOYSE* at YMML) when specified by Local Instructions.
+
+### TCU to ADC
+TCU must aim to have **2-3 minute** spacing between two arrivals for the **same runway**.
+
+This distance may be reduced to an absolute minimum of **5nm**.
+
+## Vertical
 ### 500ft
 - Between an IFR and VFR aircraft where;  
     - Both aircraft have `Light` Wake Turbulence Category; and  
@@ -39,17 +51,4 @@ title: Surveillance
 - When at least one aircraft is supersonic
 
 ## Wake Turbulence
-
-| Lead Aircraft | Following Aircraft | Distance (NM) |
-| ------------- | ------------------ | ------------- |
-| Super (A380) | Super | - | 
-|  | Heavy | 6* |
-|  | Medium | 7* |
-|  | Light | 8* |
-| Heavy | Heavy | 4 |
-|  | Medium | 5 |
-|  | Light | 6* |
-| Medium | Heavy | - |
-|  | Medium | - |
-|  | Light | 5 |
-|  |  | * = Relevant to Enroute |
+Refer to [Wake Turbulence Separation Standards](../waketurb)
