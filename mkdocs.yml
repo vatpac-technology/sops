@@ -86,6 +86,10 @@ plugins:
         'aerodromes/Sunshinecoast.md': 'aerodromes/procedural/Sunshinecoast.md'
         'aerodromes/Tamworth.md': 'aerodromes/procedural/Tamworth.md'
         'aerodromes/Woomera.md': 'aerodromes/procedural/Woomera.md'
+        'controller-skills/annotations.md': 'client/annotations.md'
+        'controller-skills/cpdlc.md': 'client/cpdlc.md'
+        'controller-skills/maestro.md': 'client/maestro.md'
+        'controller-skills/vatsys.md': 'client/vatsys.md'
 
 # Styling Front-end
 extra_css:

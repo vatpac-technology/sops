@@ -19,7 +19,7 @@
 
 ### CPDLC
 
-The Primary Communication Method for ASP is [CPDLC](../../controller-skills/cpdlc.md).
+The Primary Communication Method for ASP is [CPDLC](../../../client/cpdlc).
 
 The CPDLC Station Code is `YASP`.
 
