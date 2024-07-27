@@ -298,7 +298,7 @@ When Independent Visual Approaches are run during PROPS, the APCH field must als
 > 
 > the ATIS OPR INFO shall include `INDEP PARL DEPS IN PROG`.
 > 
-> !!! Important
+> !!! Note
     This permits independent departures (two simultaneous departures on parallel runways) but NOT independent approaches (two simultaneous arrivals on parallel runways without perscribed separation minima).
 
 ⠀  
@@ -313,7 +313,7 @@ When Independent Visual Approaches are run during PROPS, the APCH field must als
 
 > When weather conditions are very poor (such as during thunderstorms), the use of independent approaches and departures are prohibited and the ATIS OPR INFO shall include `PARL RWY OPS IN PROGRESS`.
 > 
-> !!! Important
+> !!! Note
     This means that Sydney ADC cannot depart two aircraft simultaneously on parallel runways.
 
 ⠀  
