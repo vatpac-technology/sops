@@ -11,7 +11,7 @@ Grid LSALTs are calculated for an area of 1 degree of latitude x 1 degree of lon
 Route LSALTs are valid for RNP2-approved aircraft tracking via an airway, as shown on the relevant chart.
 
 ## Charts
-Grid LSALTs and Route LSALTs can be found on [TAC and ERC Low charts](https://www.airservicesaustralia.com/aip/aip.asp), as shown below
+Grid LSALTs and Route LSALTs can be found on [TAC and ERC Low charts](https://www.airservicesaustralia.com/aip/aip.asp){target=new}, as shown below
 
 <figure markdown>
 ![Grid and Route LSALTs](img/lsalt.png){ width="800" }

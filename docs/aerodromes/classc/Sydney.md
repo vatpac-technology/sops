@@ -16,7 +16,7 @@
 | **Sydney ACD**         | **Sydney Delivery**| **133.800**          | **SY_DEL**                                   |
 | Sydney ATIS        |                | 126.250          | YSSY_ATIS                                |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)  
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ## Airspace
 SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005` as shown below.
@@ -219,7 +219,7 @@ Unless operationally required, aircraft shall be assigned the following runways 
 ## SID Selection
 
 !!! tip
-    A radar SID (e.g. **SY (RADAR) SID**) is distinct from a procedural SID with a RADAR transition (eg, **RIC SID, RADAR transition**). A radar SID can be identified in the [DAPs](https://www.airservicesaustralia.com/aip/current/dap/AeroProcChartsTOC.htm) as having a *"(RADAR)"* at the end of the name.
+    A radar SID (e.g. **SY (RADAR) SID**) is distinct from a procedural SID with a RADAR transition (eg, **RIC SID, RADAR transition**). A radar SID can be identified in the [DAPs](https://www.airservicesaustralia.com/aip/aip.asp){target=new} as having a *"(RADAR)"* at the end of the name.
 
 ### Runway 07
 
@@ -306,7 +306,7 @@ When SODPROPS are in operation, the ATIS OPR INFO shall include:
 Sydney Coordinator is activated when required to reduce frequency congestion on SMC and to ensure compliance with pre-determined slot times as necessary. The position is rarely used on VATSIM and is only beneficial with the large amounts of traffic only seen during annual events like WorldFlight. When Coordinator is online, all departures are first directed to them prior to contacting SMC.
 
 !!! important
-    Sydney Coordinator is a non-standard position which may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies).
+    Sydney Coordinator is a non-standard position which may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.
 
 !!! example
     **VOZ543**: "Sydney Delivery, VOZ543, PDC read back"  

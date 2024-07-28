@@ -16,7 +16,7 @@
 | **Brisbane ACD**         | **Brisbane Delivery**| **118.850**          | **BN_DEL**                                   |
 | Brisbane ATIS        |                | 126.250          | YBBN_ATIS                                |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ## Airspace
 BN ADC is not responsible for any airspace by default.

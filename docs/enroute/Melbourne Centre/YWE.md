@@ -14,7 +14,7 @@
 | Griffith† | Melbourne Centre | 122.750 | ML-GTH_CTR |
 | Katoomba† | Melbourne Centre | 133.500 | ML-KAT_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ### CPDLC
 

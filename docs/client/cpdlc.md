@@ -16,9 +16,9 @@ PDC's utilising vatACARS are initiated by the pilot, however, the standalone vat
 
 ## Setup
 
-The vatACARS client can be downloaded by clicking [here](https://vatacars.com/).  
+The vatACARS client can be downloaded by clicking [here](https://vatacars.com/){target=new}.  
 
-The vatACARS client requires controllers to have a [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html) account and logon code, plus a [vatACARS Token](https://vatacars.com/me).
+The vatACARS client requires controllers to have a [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html){target=new} account and logon code, plus a [vatACARS Token](https://vatacars.com/me){target=new}.
 
 If the client is installed correctly, there will be an *ACARS* drop-down box available.
 
@@ -40,8 +40,8 @@ After logging onto the VATSIM network, the controller should open the *Setup* wi
 </figure>
 
 **Station Code:** Must be the identifier of the position which is being controlled.          
-**vatACARS Token:** Must be your unique vatACARS Token, found [Here](https://vatacars.com/me).          
-**Logon Code:** Must be your [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html) Code.            
+**vatACARS Token:** Must be your unique vatACARS Token, found [here](https://vatacars.com/me){target=new}.          
+**Logon Code:** Must be your [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html){target=new} Code.            
 
 Controllers **MUST** note in their controller remarks section that PDC's are available in the format below.
 
@@ -72,8 +72,8 @@ After logging onto the VATSIM network, the controller should open the *Setup* wi
 </figure>
 
 **Station Code:** Must be the identifier of the position which is being controlled.          
-**vatACARS Token:** Must be your unique vatACARS Token, found [Here](https://vatacars.com/me).          
-**Logon Code:** Must be your [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html) Code.            
+**vatACARS Token:** Must be your unique vatACARS Token, found [here](https://vatacars.com/me){target=new}.          
+**Logon Code:** Must be your [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html){target=new} Code.            
 
 Controllers **MUST** note in their controller remarks section that CPDLC is available in the format below.
 
