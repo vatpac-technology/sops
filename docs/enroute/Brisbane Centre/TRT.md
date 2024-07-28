@@ -10,7 +10,7 @@
 | **Territory** | **Brisbane Centre** | **133.200** | **BN-TRT_CTR** |
 | Kimberley† | Brisbane Centre | 133.400 | BN-KIY_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ### CPDLC
 

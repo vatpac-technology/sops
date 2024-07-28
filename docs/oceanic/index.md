@@ -59,7 +59,7 @@ RJTG - Fukuoka Oceanic
 | Indian East† | Brisbane Radio | 123.650 | ML-INE_FSS |
 | Indian South† | Brisbane Radio | 123.200 | ML-INS_FSS |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 COL can be split off from FLD. INE and INS can be split off from IND.
     

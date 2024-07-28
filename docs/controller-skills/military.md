@@ -13,7 +13,7 @@ Australian airspace is covered in Restricted Areas. Put simply, these are areas 
 </figure>
 
 ### Vertical Limits
-The Restricted Areas cover various altitudes, and these can be seen either in the Restricted Areas window in vatSys, the [ERSA](https://www.airservicesaustralia.com/aip/current/ersa/PRD__01DEC2022.pdf){target=new}, or by referencing VTC, VNC, ERC and TAC charts.
+The Restricted Areas cover various altitudes, and these can be seen either in the Restricted Areas window in vatSys, the [ERSA](https://www.airservicesaustralia.com/aip/aip.asp){target=new}, or by referencing VTC, VNC, ERC and TAC charts.
 
 ### Separation
 It is the pilots responsibility to remain clear of Restricted Areas, however, that does not mean they always do!

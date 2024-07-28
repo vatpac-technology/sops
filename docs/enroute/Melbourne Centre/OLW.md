@@ -15,7 +15,7 @@
 | Mount† | Melbourne Centre | 133.700 | ML-MTK_CTR |
 | Menzies† | Melbourne Centre | 134.300 | ML-MZI_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies)
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ### CPDLC
 
