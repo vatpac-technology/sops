@@ -34,7 +34,7 @@ For aircraft unfamiliar with the restricted area, provide *suggested* headings t
 You must separate all aircraft in controlled airspace by *half the applicable lateral standard* from a Restricted Area (ie, **1.5nm** for TCU, **2.5nm** for Enroute). Aircraft operating at the vertical limits of Restricted Areas are considered to be separated from it.
 
 ### Activation times
-Some Restricted Areas are not always active. Some may be active only on certain days, or certain hours of the day. More info can be found in the [ERSA](https://www.airservicesaustralia.com/aip/current/ersa/PRD__01DEC2022.pdf){target=new}, or on the Restricted Areas window in vatSys
+Some Restricted Areas are not always active. Some may be active only on certain days, or certain hours of the day. More info can be found in the [ERSA](https://www.airservicesaustralia.com/aip/aip.asp){target=new}, or on the Restricted Areas window in vatSys
 
 #### NOTAM
 Some Restricted Areas will be activated by NOTAM, most commonly for use by RAAF Virtual. These are available on the [VATPAC NOTAMs Page](https://vatpac.org/publications/notam){target=new}. These Restricted Areas will automatically become active on vatSys with AIRAC updates, so they are visually displayed on the screen.
