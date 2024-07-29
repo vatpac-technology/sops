@@ -14,7 +14,7 @@
 
 ## Airspace
 
-AYPY ADC is responsible for the Class D Airspace within the AYPY CTR `SFC` to `A020`.
+AYPY ADC is responsible for the Class C Airspace within the AYPY CTR `SFC` to `A020`.
 
 ## SID Selection
 Aircraft planned via **GUNKI**, **LOTGU**, **NUPTA**, **ODOGA**, **RUVKI**, **STARF**, **TOMOM** or **UNSAM** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint, unless the pilot indicates they are unable to accept a Procedural SID.
