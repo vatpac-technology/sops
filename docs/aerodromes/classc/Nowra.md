@@ -79,7 +79,7 @@ Aerodrome and instrument approach charts are available in the AIP, or otherwise 
 
 ## Coordination
 ### Auto Release
-'Next' coordination is required from NW ADC to NW TCU for all aircraft.
+Auto release is not utilised at Nowra. 'Next' coordination is required from NW ADC to NW TCU for all aircraft.
 
 !!! example
     <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Next, ASY01, runway 08"  
@@ -96,4 +96,4 @@ Helicopters departing from helicopter spots will be treated as if departing from
 
 
 ### Level Assignment
-The Standard Assignable Level from **NW ADC** to **NW TCU** is `F120` or `RFL`, whichever is lower.
+The Standard Assignable Level from **NW ADC** to **NW TCU** is `A050` or `RFL`, whichever is lower. NW TCU will endeavour to assign a higher level for high performance aircraft during Next coordination.
