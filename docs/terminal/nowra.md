@@ -68,13 +68,11 @@ All other aircraft coming from BIK(WOL) CTA will be **Heads-up** Coordinated to 
 NW ADC owns the Class C airspace from `SFC` to `A020`, within a 5nm radius of the NWA TACAN. This airspace is designed to facilitate helicopter and circuit traffic.
 
 #### Auto Release
-'Next' coordination is required from NW ADC to NW TCU for all aircraft.
+Auto release is not utilised at Nowra. 'Next' coordination is required from NW ADC to NW TCU for all aircraft.
+
+The Standard Assignable Level from **NW ADC** to **NW TCU** is `A050` or `RFL`, whichever is lower. Where possible, assign a higher level for high performance aircraft during Next coordination.
 
 !!! example
-    <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Next, ASY01, runway 08"  
-    <span class="hotline">**NW TCU** -> **NW ADC**</span>: "ASY01, Assigned Heading Left 030, unrestricted"  
-    <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Assigned Heading Heading Left 030, ASY01" 
-
-
-To Do
-- BIK section (coord, reclassification when closed, activation process and airspace release)
+    <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Next, BUCK03, runway 08"  
+    <span class="hotline">**NW TCU** -> **NW ADC**</span>: "BUCK03, Assigned Heading Left 030, A100"  
+    <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Assigned Heading Heading Left 030, A100, BUCK03"
