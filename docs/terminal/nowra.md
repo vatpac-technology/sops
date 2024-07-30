@@ -13,8 +13,8 @@
 NW TCU owns the airspace within R421, `SFC` to `F125`. Where traffic levels (primarily preplanned military operations) warrant, NW TCU may request a release of R420F from `F125` to `F300` from BIK, if online.
 
 <figure markdown>
-![NW ADC Airspace](img/nwadc.png){ width="700" }
-<figcaption>NW ADC Airspace</figcaption>
+![NW TMA](img/nwtcu.png){ width="700" }
+<figcaption>NW TMA</figcaption>
 </figure>
 
 ## Logon Process
@@ -37,8 +37,8 @@ Where it is deemed operationally beneficial to activate R420F, this should be re
 A lane of entry exists allowing VFR aircraft to transit the TMA in a north-south orientiation. A clearance is required to operate along the lane. Where the adjacent M440A/B airspace is activated, alternate tracking is required to remain clear. Aircraft should generally be cleared along the lane at an altitude not exceeding `A020`.
 
 <figure markdown>
-![NW VFR CRD](img/nwvfc.png){ width="700" }
-<figcaption>NW VFR CRD</figcaption>
+![VFR Lane of Entry](img/nwvfc.png){ width="700" }
+<figcaption>VFR Lane of Entry</figcaption>
 </figure>
 
 ## Charts
