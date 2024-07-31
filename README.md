@@ -4,7 +4,7 @@ The VATPAC SOPs site is an open-source collaborative project allowing members of
 
 ## Contributing
 
-Contribution guidelines can be found within the project under [Assist Us](https://vatpac-technology.github.io/sops/assist-us/){target=new}. 
+Contribution guidelines can be found within the project under [Assist Us](https://vatpac-technology.github.io/sops/assist-us/). 
 
 **Before contributing** you should liaise with the VATPAC ATS Team to ascertain whether that particular SOP is needed. There is a fine-line between enabling a realistic service, and making our SOPs easy to navigate and understand.  
 
