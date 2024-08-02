@@ -58,7 +58,7 @@ All other aircraft going to BIK(WOL) CTA must be **Heads-up** Coordinated by NW 
 Voiceless for aircraft:
 
 - With ADES **YSNW**; and   
-- Tracking direct to the NWA TACAN or YSWN; and  
+- Tracking direct to the NWA TACAN or YSNW; and  
 - Assigned `F130`
 
 All other aircraft coming from BIK(WOL) CTA will be **Heads-up** Coordinated to NW TCU.
