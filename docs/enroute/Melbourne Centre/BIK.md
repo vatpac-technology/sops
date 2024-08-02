@@ -22,7 +22,7 @@ The Primary Communication Method for BIK is Voice.
 The CPDLC Station Code is `YBIK`.
 
 !!! tip
-        Even though BIK's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+    Even though BIK's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
 ## Airspace
 
@@ -181,7 +181,7 @@ Refer to [Nowra Airspace Releases](#nowra-airspace-releases) for operations with
 Voiceless for all aircraft:
 
 - With ADES **YSNW**; and   
-- Tracking direct to the NWA TACAN or YSWN; and  
+- Tracking direct to the NWA TACAN or YSNW; and  
 - Assigned `F130`
 
 All other aircraft coming from BIK(WOL) CTA must be **Heads-up** Coordinated to NW TCU prior to **20nm** from the boundary.
