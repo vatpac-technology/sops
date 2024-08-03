@@ -70,9 +70,9 @@ NW ADC owns the Class C airspace from `SFC` to `A020`, within a 5nm radius of th
 #### Auto Release
 Auto release is not utilised at Nowra. 'Next' coordination is required from NW ADC to NW TCU for all aircraft.
 
-The Standard Assignable Level from **NW ADC** to **NW TCU** is `A050` or `RFL`, whichever is lower. Where possible, assign a higher level for high performance aircraft during Next coordination.
+The Standard Assignable Level from **NW ADC** to **NW TCU** is `F120` or `RFL`, whichever is lower.
 
 !!! example
     <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Next, BUCK03, runway 08"  
-    <span class="hotline">**NW TCU** -> **NW ADC**</span>: "BUCK03, Assigned Heading Left 030, A100"  
-    <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Assigned Heading Heading Left 030, A100, BUCK03"
+    <span class="hotline">**NW TCU** -> **NW ADC**</span>: "BUCK03, Assigned Heading Left 030, unrestricted"  
+    <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Assigned Heading Heading Left 030, BUCK03"

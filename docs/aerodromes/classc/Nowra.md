@@ -96,4 +96,4 @@ Helicopters departing from helicopter spots will be treated as if departing from
 
 
 ### Level Assignment
-The Standard Assignable Level from **NW ADC** to **NW TCU** is `A050` or `RFL`, whichever is lower. NW TCU will endeavour to assign a higher level for high performance aircraft during Next coordination.
+The Standard Assignable Level from **NW ADC** to **NW TCU** is `F120` or `RFL`, whichever is lower.
