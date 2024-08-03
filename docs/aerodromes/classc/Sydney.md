@@ -311,10 +311,10 @@ When Independent Visual Approaches are run during PROPS, the APCH field must als
 
 ⠀  
 
-> When weather conditions are very poor (such as during thunderstorms), the use of independent approaches and departures are prohibited and the ATIS OPR INFO shall include `PARL RWY OPS IN PROGRESS`.
+> When thunderstorms or heavy rain constitute visibility of 500m or less, the use of independent approaches and departures are prohibited and the ATIS OPR INFO shall include `PARL RWY OPS IN PROGRESS`.
 > 
 > !!! Note
-    This means that Sydney ADC cannot depart two aircraft simultaneously on parallel runways.
+    This means that Sydney ADC cannot depart two aircraft simultaneously on parallel runways and must ensure at least 3nm seperate between parallel departures.
 
 ⠀  
 
@@ -364,7 +364,8 @@ A few steps must be followed during the operation of coordinator:
     ...   
     **SY SMC:** "VOZ543, Sydney Ground, pushback approved."
 
-If a delay is required prior to transferring an aircraft to SMC, provide an estimated delay value to the pilot.
+!!! note
+    If a delay is required prior to transferring an aircraft to SMC, provide an estimated delay value to the pilot.
 
 !!! example
     **VOZ543:** "Sydney Coordinator, VOZ543, bay 33, request pushback"  
