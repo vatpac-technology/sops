@@ -49,6 +49,15 @@ During the 16A27D Runway Mode, some aircraft may operationally require Runway 16
 Aircraft departing Runway 16 and assigned the Standard Assignable Heading would conflict with departures from Runway 27, so the **ISPEG** SID must be used instead.
 
 Jet aircraft via **MNG**, **NONIX**, **DOSEL**, **KEPPA**, **NEVIS** or **ESDIG**, using Runway 16 for departure **Off Mode**, shall be assigned the **ISPEG** SID.
+Aircraft not planned via these waypoints should be assigned the sid that terminates on their first waypoint unless they are unable a procedural departure.
+
+<figure markdown>
+![IPSEG1 SID](img/IPSEG1SID.png){ width="700" }
+  <figcaption>Runway 16 and 27 departure conflicts visualised with the IPSEG1 SID</figcaption>
+</figure>
+
+!!! note
+    The IPSEG1 SID does not resolve all conflicts. Departures via SUNTI and CORRS need to be handled tactically by ML TCU.
 
 !!! definition
     **Off Mode:** Aircraft departing from a runway not prescribed as active for departures on the ATIS. For example, a heavy aircraft that operationally requires Runway 16 for departure during the 16A/27D Mode.
