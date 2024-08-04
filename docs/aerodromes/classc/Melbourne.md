@@ -52,7 +52,7 @@ Jet aircraft via **MNG**, **NONIX**, **DOSEL**, **KEPPA**, **NEVIS** or **ESDIG*
 Aircraft not planned via these waypoints should be assigned the sid that terminates on their first waypoint unless they are unable a procedural departure.
 
 <figure markdown>
-![ISPEG1 SID](img/IPSEG1SID.png){ width="700" }
+![ISPEG1 SID](img/ISPEG1SID.png){ width="700" }
   <figcaption>Runway 16 and 27 departure conflicts visualised with the ISPEG1 SID</figcaption>
 </figure>
 
