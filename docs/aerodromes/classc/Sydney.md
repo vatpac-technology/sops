@@ -283,19 +283,41 @@ Climb Gradient Requirements apply to all Procedural SIDs. It is the pilot's resp
 | Between 2000FT & 3000FT| >5000M         | `EXP INSTR APCH THEN INDEP VISUAL APCH WHEN VISUAL`|
 | Below 2000FT **or**    | <5000M         | `EXP INSTR APCH`                |
 
-When Independent Visual Approaches are run during PROPS, the APCH field must also include:  
-`DO NOT PASS THRU ASSIGNED RWY CL`
+!!! Important
+    Independent Visual Approaches (IVAs) may only be run during Parallel Runway Operations (PROPS). During single runway operations, regular visual approaches (blank ATIS 'APCH' field) should be used instead.
+
+When Independent Visual Approaches are run during PROPS, the APCH field must also include `DO NOT PASS THRU ASSIGNED RWY CL`.
 
 ### Operational Info
 
-When parallel runways are used for departures but inbound traffic levels don't necessitate independent approaches (low traffic levels), the ATIS OPR INFO shall include:  
-`INDEP PARL DEPS IN PROG`  
+> For the following approach types:
+> 
+> - `EXP INSTR APCH`
+> 
+> - `EXP INSTR APCH THEN INDEP VISUAL APCH WHEN VISUAL`
+> 
+> the ATIS OPR INFO shall include `INDEP PARL DEPS IN PROG`.
+> 
+> !!! Note
+    This permits independent departures (two simultaneous departures on parallel runways) but NOT independent approaches (two simultaneous arrivals on parallel runways without perscribed separation minima).
 
-When parallel runways are used for departures and the arrival sequence requires independent approaches (high traffic levels), the ATIS OPR INFO shall include:  
-`INDEP PARL APPROACHES AND DEPS IN PROG`   
+⠀  
 
-When SODPROPS are in operation, the ATIS OPR INFO shall include:  
-`SIMUL OPP DIR PARL RWY OPS IN PROG`  
+> For the following approach type,
+> 
+> - `EXP INDEP VISUAL APCH`
+> 
+> the ATIS OPR INFO shall include `INDEP PARL APPROACHES AND DEPS IN PROG`.
+
+⠀  
+
+> When SODPROPS are in operation, the ATIS OPR INFO shall include `SIMUL OPP DIR PARL RWY OPS IN PROG`.
+
+⠀  
+
+> When [Coordinator](#sydney-coordinator) is online, the ATIS OPR INFO shall include `WHEN READY FOR PUSH BACK OR TAXI CTC COORDINATOR 127.6`.
+> 
+> When [Coordinator](#sydney-coordinator) is online and start approval is required, the ATIS OPR INFO shall include `START APPROVAL RQ. WHEN READY FOR PUSH BACK OR ENGINE START, CTC SYDNEY COORDINATOR ON FREQ 127.6, FOR START TIME`.
 
 !!! example
     <figure markdown>
@@ -303,39 +325,67 @@ When SODPROPS are in operation, the ATIS OPR INFO shall include:
     </figure>
 
 ## Sydney Coordinator
-Sydney Coordinator is activated when required to reduce frequency congestion on SMC and to ensure compliance with pre-determined slot times as necessary. The position is rarely used on VATSIM and is only beneficial with the large amounts of traffic only seen during annual events like WorldFlight. When Coordinator is online, all departures are first directed to them prior to contacting SMC.
+Sydney Coordinator is activated to reduce frequency congestion on SMC and ensure compliance with pre-determined slot times. The position is rarely used on VATSIM and is only beneficial with the large amounts of traffic seen during annual events like WorldFlight. When Coordinator is online, all departures are first directed to them prior to monitoring SMC.
 
 !!! important
     Sydney Coordinator is a non-standard position which may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.
 
-!!! example
-    **VOZ543**: "Sydney Delivery, VOZ543, PDC read back"  
-    **SY ACD**: "VOZ543, go ahead the read back"  
-    **VOZ543**: "OLSEM1 departure, squawk 1336, bay 33, VOZ543"  
-    **SY ACD**: "VOZ543, contact Coordinator 127.6 for pushback"  
-    **VOZ543**: "127.6 for push, VOZ543"
+!!! tip
+    The responsibilities of Sydney Coordinator may also be delegated to **ACD** when there is high SMC workload however no seperate Coordinator controller available (as per NOTAM YSSY 220).
 
-When aircraft contact Coordinator, the controller should check that it is suitable for them to be directed to SMC, then instruct them to **monitor** that frequency. This means that the pilot will switch to the appropriate frequency and wait for that controller to call them.
+A few steps must be followed during the operation of coordinator:
 
-!!! example
-    **VOZ543**: "Sydney Coordinator, VOZ543, bay 33, request pushback"  
-    **SY COORD**: "VOZ543, monitor ground 121.7"  
-    **VOZ543**: "Monitor 121.7, VOZ543"
-
-    **SY SMC**: "VOZ543, Sydney Ground, pushback approved"  
-    **VOZ543**: "Pushback approved, VOZ543"
-
-!!! important
-    As aircraft will monitor the SMC frequency, it is up to SMC to initiate contact when Coordinator is online. It is important that Coordinator informs SMC of each aircraft as they are instructed to monitor their frequency. It is up to each controller to determine their preferred way of performing this coordination.
-
-
-If a delay is required prior to transferring an aircraft to SMC, provide an estimated delay value to the pilot.
+1. **SMC** and **COORD** coordinate to implement the procedure.
+2. **SMC** coordinates with **ADC** in order to have the [ATIS](#operational-info) updated to include `WHEN READY FOR PUSH BACK OR TAXI CTC COORDINATOR 127.6`.
+3. When **ACD** has finished issuing an airways clearance, they will **handoff** pilots to Coordinator *"contact Coordinator 127.6 for pushback"* OR **remind** pilots to *"contact me when ready for pushback"* (during combined ACD and COORD).
+4. When a pilot requests pushback, **COORD** will assess their priority based on apron congestion and number of aircraft at the holding point.
+5. **COORD** will either instruct them to **Monitor** *(not contact)* SMC, or remain on the Coordinator frequency for a pushback delay (as per the below phraseology).
+6. Once the aircraft is monitoring SMC, **COORD** will move the strip to the **Queue** section of the **Cleared** bay^ in [OzStrips](../../../client/towerstrips/), to denote they are awaiting pushback approval†.
+7. Eventually, **SMC** will have adequate space on the aprons, taxiways, and holding point, as well as time to make assessments.
+8. **SMC** will scan the [Cleared Queue bay](../../../client/towerstrips/#stripboard) for the next aircraft in line, and call them to approve their pushback.
 
 !!! example
-    **VOZ543**: "Sydney Coordinator, QFA1, bay 22, request pushback"  
-    **SY COORD**: "QFA1, expect a 10 minute delay, remain this frequency."
+    **VOZ543:** "Sydney Delivery, VOZ543, PDC read back"  
+    **SY ACD:** "VOZ543, go ahead the read back"  
+    **VOZ543:** "OLSEM1 departure, squawk 1336, bay 33, VOZ543"  
+    **SY ACD:** "VOZ543, contact Coordinator 127.6 for pushback"  
+    **VOZ543:** "127.6 for push, VOZ543"  
+    ...   
+    **VOZ543:** "Sydney Coordinator, VOZ543, bay 33, request pushback"  
+    **SY COORD:** "VOZ543, monitor ground 121.7"  
+    **VOZ543:** "Monitor 121.7, VOZ543"  
+    ...   
+    **SY SMC:** "VOZ543, Sydney Ground, pushback approved."
 
-When Coordinator is online, the ATIS shall include `WHEN READY FOR PUSH BACK OR TAXI CTC COORDINATOR 127.6` in the OPR INFO field.
+!!! note
+    If a delay is required prior to transferring an aircraft to SMC, provide an estimated delay value to the pilot.
+
+!!! example
+    **VOZ543:** "Sydney Coordinator, VOZ543, bay 33, request pushback"  
+    **SY COORD:** "VOZ543, estimated delay 10 minutes, remain this frequency."
+
+#### Start Approval
+When delays for taxi are excessive (e.g. 15–30 minutes), it may be necessary to include the following ATIS OPR INFO: `START APPROVAL RQ. WHEN READY FOR PUSH BACK OR ENGINE START, CTC SYDNEY COORDINATOR ON FREQ 127.6, FOR START TIME`.
+
+This will ensure aircraft don't start their engines before a 30 minute wait, thereby burning considerable fuel and potentially disrupting the latter parts of the flight (e.g. the aircraft may not have enough fuel for lengthy en-route sequencing or holds).
+
+#### Queue Management
+Remember that the **bottom** aircraft represents the **front** of the queue.
+
+^ Additionally, the strips must remain in the strip bay of their **current state**, even if they are in a queue. For example, if they have received an airways clearance and are in the queue for pushback, they must remain in the **Cleared** bay, **not** the Pushback bay.
+
+<figure markdown>
+![Cleared Queue Bay](img/clrqbay.png){ width="500" }
+  <figcaption>Cleared Queue Bay</figcaption>
+</figure>
+
+#### COBT Slot Times
+† Aircraft that are compliant with their booked slot time should be moved to the **front** of the queue
+
+<figure markdown>
+![COBT Slot Time](img/slottime.png){ width="200" }
+  <figcaption>COBT Slot Time</figcaption>
+</figure>
 
 ## Coordination
 ### Auto Release
