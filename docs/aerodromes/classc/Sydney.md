@@ -311,13 +311,6 @@ When Independent Visual Approaches are run during PROPS, the APCH field must als
 
 ⠀  
 
-> When thunderstorms or heavy rain constitute visibility of 500m or less, the use of independent approaches and departures are prohibited and the ATIS OPR INFO shall include `PARL RWY OPS IN PROGRESS`.
-> 
-> !!! Note
-    This means that Sydney ADC cannot depart two aircraft simultaneously on parallel runways and must ensure at least 3nm seperate between parallel departures.
-
-⠀  
-
 > When SODPROPS are in operation, the ATIS OPR INFO shall include `SIMUL OPP DIR PARL RWY OPS IN PROG`.
 
 ⠀  
