@@ -122,6 +122,10 @@ DN ADC owns the airspace within the DN CTR `SFC`–`A010`.
 
 All departures from 18/36 require departure coordination with **DN TCU**
 
+#### IFR Departures
+The Standard Assignable level from **DN ADC** to **DN TCU** is the lower of `F180` or the `RFL`.  
+If the aircraft is **not** planned via an RNAV SID and has a light wake turbulance cateogry, they are to be assigned the lower of `A030` or the `RFL`.
+
 #### VFR Departures
 `A020` or the planned level; whichever is lower, to all VFR aircraft.  
 
@@ -159,13 +163,7 @@ Tower may depart aircraft that conform with the above conditions within the auto
 
 !!! tip
     Tower shall provide visual separation between aircraft in the auto-release wedge and subsequent departures until the preceding departure has been maneuvered by TCU
-
-#### IFR Level Assignment
-Issue `F180` or `RFL`; whichever is lower, to aircraft cleared via an RNAV SID or aircraft with a wake turbulence category of medium or greater.  
-Issue `F180` or `RFL`; whichever is lower, to jet aircraft not cleared via an RNAV SID regardless of wake turbulence category.  
-Issue `A030` or `RFL`; whichever is lower, to aircraft not cleared via an RNAV SID with a wake turbulence category of light.  
-
-
+ 
 ### DN TCU Internal
 Heads-up coordination is not required between DAW and DAE for:
 
