@@ -28,12 +28,12 @@ If winds are too great, single runway operations may be necessary (eg, Runway 16
 
 | Mode | Arrivals  | Departures |
 | ----------------| --------- | ---------- |
-| 27AD/34D   | 27       | 34 (Departures NE), 27 (All other deps)        |
+| 27AD/34D   | 27       | 34 (Via MNG, NONIX, DOSEL and BOGES), 27 (All other deps)        |
 | 16A/27D    | 16 | 27  |
 | 09A/16D    | 09 | 16  |
 
 !!! information
-    "Departures NE" means departures via MNG, NONIX and DOSEL. Runway 34 for departure may also be more suitable during this runway mode for heavy aircraft (due to the length of runway 27), and aircraft taxiing from the southern apron.
+    When utilising the 27AD/34D runway mode, heavy aircraft may require Runway 34 for departure (Due to the length of Runway 27). It may also be more operationally efficient to assign Runway 34 to aircraft taxiing from the southern apron.
 
 !!! note
     See [Runway Mode Formatting](#runway-mode-formatting) for details on how to format each runway mode in the ATIS.
@@ -45,12 +45,10 @@ Jet Aircraft planned via **MNG**, **NONIX**, **DOSEL**, **CORRS**, **KEPPA**, **
     Jet Aircraft planned via DOSEL, assigned runway 27, shall be given the DOSEL SID.
 
 #### Off Mode Departures
-During the 16A27D Runway Mode, some aircraft may operationally require Runway 16 for departure.  
-Aircraft departing Runway 16 and assigned the Standard Assignable Heading would conflict with departures from Runway 27, so the **ISPEG** SID must be used instead.
+!!! definition
+    **Off Mode:** Aircraft departing from a runway not prescribed as active for departures on the ATIS. For example, a heavy aircraft that operationally requires Runway 16 for departure during the 16A/27D Mode.
 
-Jet aircraft via **MNG**, **NONIX**, **DOSEL**, **KEPPA**, **NEVIS** or **ESDIG**, using Runway 16 for departure **Off Mode**, shall be assigned the **ISPEG** SID.
-Aircraft not planned via these waypoints should be assigned the sid that terminates on their first waypoint unless they are unable a procedural departure.
-
+For jet aircraft departing Runway 16 **Off Mode** via **MNG**, **NONIX**, **DOSEL**, **KEPPA**, **NEVIS**, or **ESDIG**, the **ISPEG SID** must be assigned. **Off Mode** departures to the south-east shall be assigned the relevant **Procedural SID**.
 <figure markdown>
 ![ISPEG1 SID](img/ISPEG1SID.png){ width="700" }
   <figcaption>Runway 16 and 27 departure conflicts visualised with the ISPEG1 SID</figcaption>
@@ -58,9 +56,6 @@ Aircraft not planned via these waypoints should be assigned the sid that termina
 
 !!! note
     The ISPEG1 SID does not resolve all conflicts. Departures via SUNTI and CORRS need to be handled tactically by ML TCU.
-
-!!! definition
-    **Off Mode:** Aircraft departing from a runway not prescribed as active for departures on the ATIS. For example, a heavy aircraft that operationally requires Runway 16 for departure during the 16A/27D Mode.
 
 #### RADAR SID
 a) Jet aircraft departing **Off Mode** that don't meet the above critera; or  
@@ -86,9 +81,9 @@ This permits controllers to assign aircraft either the Alpha or Victor STAR and 
 ### Runway Mode formatting
 | Mode | ATIS Runway information |
 | ----------------| --------- |
-| 27AD/34D   | 27 FOR ARR, RWY 34 FOR DEPARTURES N E, RWY 27 FOR ALL OTHER DEPARTURES        |
-| 16A/27D    | 16 FOR ARR, RWY 27 FOR DEPARTURES  |
-| 09A/16D    | 09 FOR ARR, RWY 16 FOR DEPARTURES  |
+| 27AD/34D   | 27 FOR ARR, RWY 34 FOR DEPS VIA MNG, NONIX, DOSEL AND BOGES, RWY 27 FOR ALL OTHER DEPS |
+| 16A/27D    | 16 FOR ARR, RWY 27 FOR DEP |
+| 09A/16D    | 09 FOR ARR, RWY 16 FOR DEP |
 
 ### Operational Info
 #### Independent Crossing Runway Operations
