@@ -33,7 +33,7 @@ If winds are too great, single runway operations may be necessary (eg, Runway 16
 | 09A/16D    | 09 | 16  |
 
 !!! information
-    When utilising the 27AD/34D runway mode, heavy aircraft may require Runway 34 for departure (Due to the length of Runway 27). It may also be more operationally efficient to assign Runway 34 to aircraft taxiing from the southern apron.
+    When utilising the 27AD/34D runway mode, Heavy Aircraft may require Runway 34 for departure due to the shorter length of Runway 27. Assigning Runway 34 to aircraft from the southern apron can also improve aerodrome efficiency due to the reduced taxi distance.
 
 !!! note
     See [Runway Mode Formatting](#runway-mode-formatting) for details on how to format each runway mode in the ATIS.
