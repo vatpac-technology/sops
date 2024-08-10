@@ -26,7 +26,7 @@ The Primary Communication Method for ELW is Voice.
 The CPDLC Station Code is `YPIY`.
 
 !!! tip
-        Even though PIY's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+    Even though PIY's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
 ## Airspace
 <figure markdown>
