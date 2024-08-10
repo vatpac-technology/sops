@@ -40,7 +40,7 @@ A 'next' call is made for all aircraft when they are next to depart. SU ADC must
     <span class="hotline">**NSA** -> **SU ADC**</span>: "BNZ133, Unrestricted"  
     <span class="hotline">**SU ADC** -> **NSA**</span>: "BNZ133"
 
-The Standard Assignable level from SU ADC to INL(NSA/BUR) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
+The Standard Assignable level from SU ADC to INL(NSA/BUR) is the lower of `A040` or the `RFL`, any other level must be prior coordinated.
 
 ### Arrivals/Overfliers
 NSA will heads-up coordinate arrivals/overfliers from Class C to SU ADC. Aircraft will be cleared for the coordinated approach prior to handoff to SU ADC, unless SU ADC nominates a restriction.
