@@ -20,7 +20,7 @@
 | Sydney Radar†* |SRI| Sydney Centre  | 124.550          | SY-C_DEP                               |
 | Sydney Flow†        |SFL|                |          | SY_FMP                              |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}  
 * [Additional requirements](#airspace-structural-arrangements) must be met prior to opening SRI as a stand-alone position.
 
 </details>
