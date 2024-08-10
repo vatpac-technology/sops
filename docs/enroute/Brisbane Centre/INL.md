@@ -189,7 +189,7 @@ Departures from YBSU in to NSA Class C will be coordinated when ready for depart
     <span class="hotline">**NSA** -> **SU ADC**</span>: "BNZ123, Unrestricted"  
     <span class="hotline">**SU ADC** -> **NSA**</span>: "BNZ123"
 
-The Standard Assignable level from **SU ADC** to NSA is the lower of `A050` or the `RFL`.
+The Standard Assignable level from **SU ADC** to NSA is the lower of `A040` or the `RFL`.
 
 #### Arrivals
 NSA must ensure all YBSU arrivals have been assigned a STAR, unless the pilot is unable to accept one.  
