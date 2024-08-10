@@ -185,11 +185,18 @@ Refer to [Reclassifications](#su-ctr) for operations when SU ADC is offline.
 Departures from YBSU in to NSA Class C will be coordinated when ready for departure.
 
 !!! example
-    <span class="hotline">**SU ADC** -> **NSA**</span>: "Next, BNZ123"  
-    <span class="hotline">**NSA** -> **SU ADC**</span>: "BNZ123, Unrestricted"  
+    <span class="hotline">**SU ADC** -> **NSA**</span>: "Next, BNZ123, runway 31"  
+    <span class="hotline">**NSA** -> **SU ADC**</span>: "BNZ123, unrestricted"  
     <span class="hotline">**SU ADC** -> **NSA**</span>: "BNZ123"
 
-The Standard Assignable level from **SU ADC** to NSA is the lower of `A040` or the `RFL`.
+The Standard Assignable level from **SU ADC** to INL(NSA/BUR) is the lower of `A040` or the `RFL`.
+
+Where possible (and no possible conflict exists), a higher level shall be assigned by INL(NSA/BUR) for high performance aircraft during next coordination.
+
+!!! example
+    <span class="hotline">**SU ADC** -> **NSA**</span>: "Next, VOZ924, runway 31"  
+    <span class="hotline">**NSA** -> **SU ADC**</span>: "VOZ924, F120"  
+    <span class="hotline">**SU ADC** -> **NSA**</span>: "F120, VOZ924"
 
 #### Arrivals
 NSA must ensure all YBSU arrivals have been assigned a STAR, unless the pilot is unable to accept one.  
