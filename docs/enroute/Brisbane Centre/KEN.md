@@ -48,7 +48,35 @@ When **HM ADC** is offline, HM CTR (Class D `SFC` to `A045`) reverts to Class G,
 Whilst the **MKA** controller is expected to provide a [top-down service](../../../aerodromes/Mackay) to YBMK when **MK ADC** is offline, this is not expected of a SWY controller when both **MKA** and **MK ADC** are offline. If electing not to provide a top-down service to YBMK, the RK CTR Class D is reclassified to Class G `SFC` to `A007`, and Class E `A007` to `A045`.
 
 ## Sector Responsibilities
-All Subsectors are responsible for issuing STAR Clearances for YBMK, YBTL and YBCS on first contact.
+All subsectors are responsible for issuing STAR Clearances for YBMK, YBTL and YBCS on first contact.
+
+### Cairns STAR Clearance
+Cairns has specific visual approach procedures for use when VMC exists below `A030` in the terminal area. As such, **light & medium category aircraft (B737/A320 and below)**, tracking via the following waypoints, shall be issued the relevant Victor STAR.
+
+Heavy aircraft, and any aircraft not meeting the criteria below, must be issued the Instrument STAR.
+
+!!! note
+    Due to the complex nature of the visual procedures, it may be helpful to ask inexperienced pilots if they are familiar with the Creek Corridor (runway 15) or are able to accept a visual circuit (runway 33), and otherwise issue the Instrument STAR.
+
+#### Runway 15
+| Waypoint | STAR |
+| -------- | ---- |
+| UPOLO | UPOLO Victor STAR |
+| NONUM | NONUM Victor STAR |
+| ZANEY | KASPI Victor STAR |
+| LOCKA | KASPI Victor STAR |
+| AVDAN | KASPI Victor STAR |
+| OVLET | KASPI Victor STAR |
+| ANDOP | KASPI Victor STAR |
+| PUNIT | KASPI Victor STAR |
+
+#### Runway 33
+| Waypoint | STAR |
+| -------- | ---- |
+| ZANEY | KEEWI Victor STAR |
+| LOCKA | KEEWI Victor STAR |
+| AVDAN | KEEWI Victor STAR |
+| OVLET | KEEWI Victor STAR |
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -75,6 +103,8 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | KEN | TBP | YBMK | |
 | SWY | TBP | YBCS | |
 | BAR | KEN | YBTL | |
+
+See [Cairns STAR Clearance](#cairns-star-clearance) for instructions on issuing STAR clearances.
 
 ## Coordination
 ### CS TCU
