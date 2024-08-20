@@ -34,6 +34,9 @@ When weather conditions are suitable, ADC shall visually separate aircraft opera
 !!! Note 
     ADC shall advise TCU when this separation cannot be applied.
 
+### Departures in IMC
+When instrument approaches are in use to runway 15, and visual separation is not possible due to the weather conditions (i.e. VMC does not exist below `A030`), do not issue a takeoff clearance to an aircraft if another arriving aircraft is established on less than a 7nm final. This prevents a loss of separation between the two aircraft.
+
 ## Arrivals
 ### Runway 15
 When visual approaches are in use, expect light & medium category aircraft (B737/A320 and below) to track via the Creek Corridor, to join an approx 2nm final. These aircraft will be cleared for a visual approach by **CS TCU**. See the Cairns DAP Noise Abatement Procedures chart for more information.
@@ -67,6 +70,44 @@ c) All others: CS (RADAR) SID
     Non-jet aircraft may be issued a Visual Departure if conditions are suitable.
 
 ## VFR Operations
+### The Pier Helipad
+VFR helicopters transit from the Reef to a floating pontoon helipad on the southeastern shore of the CBD, approximately 2nm from the runway 33 threshold. This helipad is referred to as 'The Pier'. 
+
+<figure markdown>
+![The Pier](img/thepier.png){ width="400" }
+  <figcaption>The Pier (red dot)</figcaption>
+</figure>
+
+Prior to issuing clearance to these helicopters, ensure that no conflict exists with other arriving/departing traffic, particularly aircraft departing from runway 15 or arriving on runway 33. Visual separation may be applied between these aircraft if appropriate.
+
+Arriving helicopters should be cleared direct to The Pier, not above `A005` and instructed to report on the ground.
+
+!!! example
+    *YZM is a VFR R44 tracking from Upolo Cay to False Cape, inbound to The Pier.*  
+    **VH-YZM**: "Cairns Tower, helicopter YZM, 5nm northeast of False Cape, A005, for The Pier, received Hotel"  
+    **CS ADC**: "YZM, Cairns Tower, cleared direct to The Pier, not above A005, report on the ground"  
+    **VH-YZM**: "Cleared direct The Pier, not above A005, YZM"  
+
+    **VH-YZM**: "YZM on the pier"  
+    **CS ADC**: "YZM"
+
+Departing helicopters should be cleared direct to their nominated tracking point not above `A005`, and instructed to report airborne.
+
+!!! example
+    *VTB is a VFR Bell 505 on The Pier, intending to track to Cairns Airport for a landing on the southern pads. A 737 is about to depart from runway 15.*  
+    **VH-VTB**: "Cairns Tower, helicopter VTB, at The Pier, for the southern pads, received India"  
+    **CS ADC**: "VTB, Cairns Tower, short delay for clearance"  
+    **VH-VTB**: "VTB"    
+    
+    **CS ADC**: "VTB, cleared direct to the control tower, not above A005, report airborne"  
+    **VH-VTB**: "Cleared direct to the control tower, not above A005, VTB" 
+
+    **VH-VTB**: "VTB, airborne"  
+    **CS ADC**: "VTB, track southern pads, report on the ground"  
+    **VH-VTB**: "Track southern pads, VTB"  
+
+    **VH-VTB**: "VTB, on the pad"  
+    **CS ADC**: "VTB"  
 
 ### Western VFR Corridor
 The Western VFR Corridor conflicts with the extended centreline to the north of the aerodrome. Clearances for aircraft entering the CTR must be worded so as to leave no possibility for misinterpretation by the pilot.
@@ -89,6 +130,8 @@ Aircraft planning to enter the CS CTR between *Mt Gorton*, CGF and Upolo Cay at 
     **CS ADC**: "NDR, enter the CTR tracking for a Right Base runway 33, maintain A005."
 
 ### Circuit Direction
+The circuit height is `A010`. If an aircraft requires a higher circuit altitude, an airspace release must be requested from CS TCU.
+
 | Runway | Direction |
 | ----------------- | ---------------|
 | 15                | Left  |
