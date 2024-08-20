@@ -34,18 +34,6 @@ When weather conditions are suitable, ADC shall visually separate aircraft opera
 !!! Note 
     ADC shall advise TCU when this separation cannot be applied.
 
-
-                        ### Reciprocal Runway Operations (DELETE)
-                        Prior to issuing departure instructions and until the departing aircraft is airborne and another method of separation is applied, TCU shall ensure that the arriving aircraft is:  
-                        a) assigned a level above and vertically separated from the assigned level of the departure and be at a distance which permits uninterrupted profile descent without loss of radar separation;  
-                        b) be confined to a square base leg to join not less than a 10 mile final; or  
-                        c) confined to a procedurally separated clearance  
-
-                        The above does not apply if tower accepts responsibility for separation.
-
-                        !!! Note
-                            The ADC may not accept responsibility for separation when a jet aircraft is departing Runway 33.
-
 ## Arrivals
 ### Runway 15
 When visual approaches are in use, expect light & medium category aircraft (B737/A320 and below) to track via the Creek Corridor, to join an approx 2nm final. These aircraft will be cleared for a visual approach by **CS TCU**. See the Cairns DAP Noise Abatement Procedures chart for more information.
