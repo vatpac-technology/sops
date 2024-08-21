@@ -47,10 +47,10 @@ When visual approaches are in use, expect light & medium category aircraft (B737
 ADC must assess any conflict with aircraft in the CTR and clear the inbound aircraft for a visual approach when suitable. Due to the small amount of airspace available, it is vital that ADC maintains separation assurance between inbound aircraft and those operating in the CTR, to avoid a delay in issuing the visual approach clearance.
 
 !!! example 
-    <span class="hotline">**TCU** -> **ADC**</span>: "Via right base, RXA5418, will be assigned A020"  
-    <span class="hotline">**ADC** -> **TCU**</span>: "A020, RXA5418"  
+    <span class="hotline">**TCU** -> **ADC**</span>: "Via right base, RXA5418, will be assigned A020 visual"  
+    <span class="hotline">**ADC** -> **TCU**</span>: "A020 visual, RXA5418"  
 
-    **RXA5418**: "Cairns Tower, RXA5418, descending to A020"  
+    **RXA5418**: "Cairns Tower, RXA5418, descending to A020 visual"  
     **CS ADC**: "RXA5418, Cairns Tower, cleared visual approach"  
     **RXA5418**: "Cleared visual approach, RXA5418"  
     
