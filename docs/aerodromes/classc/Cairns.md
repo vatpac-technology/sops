@@ -29,7 +29,7 @@ The preferred runway direction is Runway 15.
 ## Separation
 
 ### ADC Separation Responsibility
-When weather conditions are suitable, ADC shall visually separate aircraft operating in the circuit from aircraft on the extended runway centreline, within 5nm. ADC shall also separate aircraft operating on (or departing to join) the Western VFR Corridor, within the CTR. 
+When weather conditions are suitable, ADC shall visually separate aircraft operating in the circuit from aircraft on the extended runway centreline when within 5nm. ADC shall also separate aircraft operating on (or departing to join) the Western VFR Corridor while within the CTR. 
 
 !!! Note 
     ADC shall advise TCU when this separation cannot be applied.
