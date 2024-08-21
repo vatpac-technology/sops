@@ -110,7 +110,7 @@ Departing helicopters should be cleared direct to their nominated tracking point
     **CS ADC**: "VTB"  
 
 ### Western VFR Corridor
-The Western VFR Corridor conflicts with the extended centreline to the north of the aerodrome. Clearances for aircraft entering the CTR must be worded so as to leave no possibility for misinterpretation by the pilot.
+The Western VFR Corridor conflicts with the extended centreline to the north of the aerodrome. Clearances for aircraft entering the CTR must use clear and unambiguous phraseology to eliminate any potential for confusion by the pilot.
 
 !!! Example
     **NDR**: "Cairns Tower, NDR, EDT, A015, for the Western VFR Corridor, Request Clearance"  
