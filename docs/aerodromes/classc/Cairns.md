@@ -42,9 +42,9 @@ When instrument approaches are in use to runway 15, and visual separation is not
 When visual approaches are in use, expect light & medium category aircraft (B737/A320 and below) to track via the Creek Corridor, to join an approx 2nm final. These aircraft will be cleared for a visual approach by **CS TCU**. See the Cairns DAP Noise Abatement Procedures chart for more information.
 
 ### Runway 33
-When visual approaches are in use, expect light & medium category aircraft (B737/A320 and below) to track via a straight in visual approach, or track via a visual right base. Aircraft inside CTA tracking for a right base to runway 33 will pass overhead the CTR, so CS TCU **will not** clear them for a visual approach. These aircraft will be coordinated by CS TCU.
+When visual approaches are in use, expect light & medium category aircraft (B737/A320 and below) to track either via a straight in visual approach or via a visual right base. Aircraft inside CTA tracking for a right base to runway 33 will pass overhead the CTR, so CS TCU **will not** clear them for a visual approach. These aircraft will be coordinated by CS TCU.
 
-ADC must assess any conflict with aircraft in the CTR and clear the inbound aircraft for a visual approach when suitable. Due to the small amount of airspace available, it is vital that ADC maintains separation assurance between inbound aircraft and those operating in the CTR, to avoid a delay in issuing the visual approach clearance.
+ADC must assess any potential conflicts with aircraft in the CTR and clear the inbound aircraft for a visual approach when able. Given the limited airspace available, it is crucial that ADC maintains separation assurance between inbound aircraft and those operating in the CTR, to avoid a delay in issuing the visual approach clearance.
 
 !!! example 
     <span class="hotline">**TCU** -> **ADC**</span>: "Via right base, RXA5418, will be assigned A020 visual"  
