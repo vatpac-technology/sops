@@ -29,7 +29,7 @@ The preferred runway direction is Runway 15.
 ## Separation
 
 ### ADC Separation Responsibility
-When weather conditions are suitable, ADC shall visually separate aircraft operating in the circuit from aircraft on the extended runway centreline, within 5nm. ADC shall also separate aircraft operating on (or departing to join) the Western VFR Corridor, within the CTR. 
+When weather conditions are suitable, ADC shall visually separate aircraft operating in the circuit from aircraft on the extended runway centreline when within 5nm. ADC shall also separate aircraft operating on (or departing to join) the Western VFR Corridor while within the CTR. 
 
 !!! Note 
     ADC shall advise TCU when this separation cannot be applied.
@@ -110,7 +110,7 @@ Departing helicopters should be cleared direct to their nominated tracking point
     **CS ADC**: "VTB"  
 
 ### Western VFR Corridor
-The Western VFR Corridor conflicts with the extended centreline to the north of the aerodrome. Clearances for aircraft entering the CTR must be worded so as to leave no possibility for misinterpretation by the pilot.
+The Western VFR Corridor conflicts with the extended centreline to the north of the aerodrome. Clearances for aircraft entering the CTR must use clear and unambiguous phraseology to eliminate any potential for confusion by the pilot.
 
 !!! Example
     **NDR**: "Cairns Tower, NDR, EDT, A015, for the Western VFR Corridor, Request Clearance"  
