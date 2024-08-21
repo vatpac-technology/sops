@@ -274,3 +274,23 @@
 *[MX]: Maximum Speed
 *[CSR]: Cancel Speed Restrictions
 *[COBT]: Calculated Off Blocks Time
+*[Hi-Key]: The point at which a aircraft starts a practice forced landing or flameout practice
+*[EVA]: Expect Visual Approach
+*[TRA]: Temporary Reserved Airspace
+*[VSA]: Visual Straight-In Approach
+*[IP]: Initial Point
+*[TAC]: Tactical Air Navigation System (TACAN)
+*[TACAN]: Tactical Air Navigation System
+*[LSALT]: Lowest Safe Altitude
+*[FPR]: Flight Planned Route
+*[CIRA]: Circuit Area
+*[ESL]: East Sale
+*[WSL]: West Sale
+*[RAAF]: Royal Australian Air Force
+*[TERMA]: Terminal Area Radar and Military Airspace
+*[MNG]: Mangalore
+*[LTV]: Latrobe Valley
+*[AY]: Albury
+*[AV]: Avalon
+*[EN]: Essendon
+*[MB]: Moorabbin
