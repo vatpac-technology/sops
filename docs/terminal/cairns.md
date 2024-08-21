@@ -85,15 +85,15 @@ Aircraft for runway 15 will be cleared via the Victor STAR by enroute, which ter
 #### Visual Base Runway 33
 Aircraft for runway 33 may be cleared for a visual approach tracking via the STAR or localiser, or navigating visually through the valley to the south of the aerodrome. 
 
-Aircraft cleared via the KEEWI Victor STAR or otherwise approaching from the north shall be instructed to track for a visual right base and, once clear of departing traffic, assigned `A020`. These aircraft will pass over the top of the CS CTR (owned by ADC), so further descent is not available. CS TCU must coordinate with ADC, then transfer them to ADC, who will issue visual approach clearance.
+Aircraft cleared via the KEEWI Victor STAR or otherwise approaching from the north shall be instructed to track for a visual right base and, once clear of departing traffic, assigned `A020 visual`. These aircraft will pass over the top of the CS CTR (owned by ADC), so further descent is not available. CS TCU must coordinate with ADC, then transfer them to ADC, who will issue visual approach clearance.
 
 !!! example
     *JCI is tracking inbound from the north at `A050` and has reported visual.*  
-    <span class="hotline">**TCU** -> **ADC**</span>: "Via right base, JCI, will be assigned A020"  
-    <span class="hotline">**ADC** -> **TCU**</span>: "A020, JCI" 
+    <span class="hotline">**TCU** -> **ADC**</span>: "Via right base, JCI, will be assigned A020 visual"  
+    <span class="hotline">**ADC** -> **TCU**</span>: "A020 visual, JCI" 
 
-    **CS TCU**: "JCI, track for a right base runway 33, descend to A020"  
-    **VH-JCI**: "Track for right base runway 33, descend A020, JCI"  
+    **CS TCU**: "JCI, track for a right base runway 33, descend to A020 visual"  
+    **VH-JCI**: "Track for right base runway 33, descend A020 visual, JCI"  
     **CS TCU**: "JCI, contact Cairns Tower on 124.9"  
     **VH-JCI**: "124.9, JCI"
 
