@@ -37,6 +37,7 @@ theme:
 plugins:
   - search:
       lang: en
+  - glightbox    
   - awesome-pages
   - git-revision-date-localized:
       type: date
