@@ -29,6 +29,9 @@ AV CTR Class D `SFC` to `A007` reverts to Class G and `A007` to `A025` to Class 
 
 See also: [AV ADC Offline](#av-adc-offline).
 
+!!! tip
+    When AV ADC is not online, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+
 ### Airspace Division
 The divisions of the airspace between **MAE**, **MDN**, and **MDS** change based on the Runway Mode.
 
@@ -94,6 +97,9 @@ VFR YMEN Arrivals from ML TCU shall be cleared via any of the following arrival 
 - WES
 
 ## EN ADC Offline
+!!! tip
+    When EN ADC is offline, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+
 ### Arrivals
 The class C airspace surrounding YMEN extends to `SFC`.  This means that aircraft conducting approaches will remain inside controlled airspace until they land (and in the event of a go around).  These aircraft should be cleared for an appropriate approach, advised of any traffic taxiing at YMEN, and instructed to *'report clear of the runway'*.  The missed approach path must be protected until the aircraft reports clear.
 
