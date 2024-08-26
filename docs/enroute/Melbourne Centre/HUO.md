@@ -18,7 +18,7 @@ The Primary Communication Method for HUO is Voice.
 The CPDLC Station Code is `YHUO`.
 
 !!! tip
-        Even though HUO's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+    Even though HUO's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
 ## Airspace
 
@@ -37,6 +37,9 @@ If HUO chooses to operate top down to either aerodrome, they must administer all
 
 !!! important
     Ensure you are familiar with the aerodrome procedures for [Launceston](../../../aerodromes/Launceston) and [Hobart](../../../aerodromes/Hobart) before extending top down, and are aware of the limited surveillence coverage available in the lower levels of the TMA.
+
+!!! tip
+    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for each aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
 
 ## Responsibilities
 HUO is reponsible for issuing STAR clearances, sequencing, and descent for aircraft bound for YMLT and YMHB.
