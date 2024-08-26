@@ -50,6 +50,14 @@ Whilst the **MKA** controller is expected to provide a [top-down service](../../
 ## Sector Responsibilities
 All Subsectors are responsible for issuing STAR Clearances for YBMK, YBTL and YBCS on first contact.
 
+#### Sequencing in to YBCS
+Aircraft assigned the **same runway** inbound via:
+
+- ANDOP and PUNIT  
+- OVLET, AVDAN and LOCKA
+
+Must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
+
 ## STAR Clearance Expectation
 ### Handoff
 Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
