@@ -103,6 +103,9 @@ Non-jet aircraft for YSSY shall be assigned the **MEPIL** STAR.
     **BIK:** "RXA6417, recleared direct BOREE for the BOREE3A arrival, runway 34L, maintain FL180"  
     **RXA6417:** "Recleared direct BOREE for the BOREE3A arrival, runway 34L, maintain FL180, RXA6417"
 
+#### Adjacent Feeder Fixes
+Aircraft assigned the **same runway** inbound via **BOREE** and **MEPIL**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
+
 ## STAR Clearance Expectation
 ### Handoff
 Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
