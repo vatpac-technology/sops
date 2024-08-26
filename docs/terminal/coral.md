@@ -25,6 +25,9 @@ MKA may extend to RKA and vice versa, callsigns remain the same. See [Controller
     ![Coral Combined Airspace](img/coraltcusetup.png){ width="1000" }
     </figure>
 
+!!! tip
+    If choosing *not* to extend to the adjacent TMA, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+
 ## Coordination
 
 ### Enroute
