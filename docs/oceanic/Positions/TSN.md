@@ -35,6 +35,9 @@ HWE is a non-standard subsector that sits within TSN. Unlike TSN, it operates as
 
 Due to limitations in VHF/HF coupling, HWE **cannot** extend to adjacent HF units.
 
+#### Sector Ownership
+Due to limitations in vatSys, TSN cannot relinquish sector ownership of the HWE sector when HWE is online. Tracks inbound to HWE airspace will appear as Blue Announced tracks to both TSN and HWE.
+
 #### Surveillance Coverage
 Limited surveillance coverage exists for aircraft in CTA greater than **250nm** from LHI. [Procedural Standards](../../../separation-standards/procedural/) must be implemented **prior** to losing surveillance coverage
 
