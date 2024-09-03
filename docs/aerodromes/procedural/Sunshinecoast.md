@@ -36,11 +36,16 @@ All other aircraft may be assigned a visual departure, or a standard IFR departu
 A 'next' call is made for all aircraft when they are next to depart. SU ADC must inform INL(NSA/BUR) if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
-    <span class="hotline">**SU ADC** -> **NSA**</span>: "Next, BNZ133"  
-    <span class="hotline">**NSA** -> **SU ADC**</span>: "BNZ133, Unrestricted"  
+    <span class="hotline">**SU ADC** -> **NSA**</span>: "Next, BNZ133, runway 31"  
+    <span class="hotline">**NSA** -> **SU ADC**</span>: "BNZ133, unrestricted"  
     <span class="hotline">**SU ADC** -> **NSA**</span>: "BNZ133"
 
-The Standard Assignable level from SU ADC to INL(NSA/BUR) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
+The Standard Assignable level from SU ADC to INL(NSA/BUR) is the lower of `A040` or the `RFL`, any other level must be prior coordinated.
+
+Where operationally possible, INL(NSA/BUR) will assign a higher level to high performance aircraft during next coordination. This level assignment should be communicated to the aircraft during the takeoff clearance or when they provide a departure report after takeoff.
+
+!!! example
+    **SU ADC**: "VOZ924, climb to FL120, runway 31, cleared for takeoff"
 
 ### Arrivals/Overfliers
 NSA will heads-up coordinate arrivals/overfliers from Class C to SU ADC. Aircraft will be cleared for the coordinated approach prior to handoff to SU ADC, unless SU ADC nominates a restriction.

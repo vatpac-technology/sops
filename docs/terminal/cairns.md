@@ -15,11 +15,13 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ## Airspace
-The Vertical limits of the CS TCU are `SFC` to `F180`.  
-CS2 is responsible for Class G airspace within the Cairns TMA.
+The vertical limits of the CS TCU are `SFC` to `F180`. **CS ADC** is responsible for the airspace within the CS CTR from `SFC` to `A010`.
+
+!!! note
+    Due to terrain shielding, radar coverage may be limited below `A025` southwest of the aerodrome.
 
 ### Airspace Division
-The divisions of the airspace between **CS1** and **CS2** change based on the Runway Mode.
+The divisions of the airspace between **CS1** and **CS2** change based on the runway mode. In either case, CS2 is responsible for the Class G airspace within the Cairns TMA.
 
 #### Runway 15
 <figure markdown>
@@ -31,20 +33,6 @@ The divisions of the airspace between **CS1** and **CS2** change based on the Ru
 <figure markdown>
 ![33 TCU Structure](img/cs33annotated.png){ width="700" }
   <figcaption>33 TCU Structure</figcaption>
-</figure>
-
-!!! note
-    Due to terrain shielding, Radar Coverage may be limited below `A025` southwest of the Aerodrome
-
-### Trinity Release
-
-During **Daytime Hours Only** CS ADC assumes the resposibility of the Trinity Airspace
-
-Departing aircraft shall be transferred to TCU after ADC no longer has separation requirements.  
-
-<figure markdown>
-![Trinity Release](img/TRI.jpg){ width="700" }
-  <figcaption>Trinity Airspace Release</figcaption>
 </figure>
 
 ## Departure Procedures
@@ -60,15 +48,16 @@ c) All others: CS (RADAR) SID
 !!! Note
     Non-jet aircraft may be issued a Visual Departure.
 
-### Assignable Heading Range
+### Standard Assignable Headings
+Any aircraft departing via the **radar SID** shall be issued an assigned heading from the table below.
 
-| Runway | Heading |
-| ----------------- | ---------------|
-| 15                | 350° to 030°   |
-| 33                | 330° to 070° |
+| Runway | VMC below A030 | Otherwise |
+| ----------------- | --------------- | -------- |
+| 15                | 350° to 030°   | 030° |
+| 33                | 330° to 070° | 330° |
 
 ### Minimum IMC Levels
-Lowest assignable level in IMC for assigned heading is:
+The lowest assignable levels in IMC for the following assigned headings are:
 
 | Runway | Jet | Non-Jet|
 | ------ | -------- | -------|
@@ -81,70 +70,69 @@ Lowest assignable level in IMC for assigned heading is:
 </figure>
 
 ## Arrival Procedures
-### Level Assignment
-Inbound aircraft will be handed from Enroute to Approach assigned the [standard assignable level](#arrivals).  This section refers to further descent issued by the Approach controller.
+### Visual Approaches
+When VMC exists below `A030`, aircraft of light & medium weight categories (B737/A320 and below) may be processed via a visual approach to either runway 15 or 33. 
+
+#### Creek Corridor
+Aircraft for runway 15 will be cleared via the Victor STAR by enroute, which terminates on the Creek Corridor visual procedure (see YBCS DAP Noise Abatement Procedures chart). These aircraft should be cleared for a visual approach *"via the Creek Corridor"* and transferred to ADC prior to reaching the coastline.
+
+!!! example
+    *RXA5474 is tracking via the NONUM Victor STAR for runway 15.*  
+    **RXA5474**: "RXA5474, visual"  
+    **CS TCU**: "RXA5474, cleared visual approaching tracking via the Creek Corridor"  
+    **RXA5474**: "Cleared visual approach via the Creek Corridor, RXA5474"
+
+#### Visual Base Runway 33
+Aircraft for runway 33 may be cleared for a visual approach tracking via the STAR or localiser, or navigating visually through the valley to the south of the aerodrome. 
+
+Aircraft cleared via the KEEWI Victor STAR or otherwise approaching from the north shall be instructed to track for a visual right base and, once clear of departing traffic, assigned `A020 visual`. These aircraft will pass over the top of the CS CTR (owned by ADC), so further descent is not available. CS TCU must coordinate with ADC, then transfer them to ADC, who will issue visual approach clearance.
+
+!!! example
+    *JCI is tracking inbound from the north at `A050` and has reported visual.*  
+    <span class="hotline">**TCU** -> **ADC**</span>: "Via right base, JCI, will be assigned A020 visual"  
+    <span class="hotline">**ADC** -> **TCU**</span>: "A020 visual, JCI" 
+
+    **CS TCU**: "JCI, track for a right base runway 33, descend to A020 visual"  
+    **VH-JCI**: "Track for right base runway 33, descend A020 visual, JCI"  
+    **CS TCU**: "JCI, contact Cairns Tower on 124.9"  
+    **VH-JCI**: "124.9, JCI"
 
 ### Flow Control
+It is the responsibility of Flow to sequence all Cairns inbound traffic requiring the runway. This includes aircraft arriving through the Class G airspace, unless ADC agrees to take the aircraft un-sequenced.  
 
-It is the responsibility of the Flow to sequence all Cairns inbound traffic requiring the Runway. This includes aircraft arriving through the Class G airspace and released to ADC, unless ADC agrees to take the aircraft un-sequenced.  
-The minimum Flow spacing to the same runway shall be 3 minutes. Sight-and-follow or Flow spacing of less than **3 minutes** must be approved by ADC.  
-TCU shall ensure changes to the sequence inside 36 Miles CS are coordinated with ADC. This responsibility may be delegated to Flow.  
+The minimum flow spacing to the same runway shall be 3 minutes. Sight-and-follow or flow spacing of less than **3 minutes** must be approved by ADC. TCU shall ensure changes to the sequence inside 36nm of CS are coordinated with ADC. This responsibility may be delegated to Flow.  
   
 Flow instructions shall be based on Feeder Fix times. The following points are the FF to be used:  
-        a) KONDA, CABRA, LAKED, DREWS, LOCKA, ZANEY, BARIA, FISHY, NORMA, BULOK  
-        b) 40 Miles CS for all other tracks.  
-          
-The following speeds apply from the Feeder Fix:  
-        a) Jets – Maintain 250 KT  
-        b) Others – Resume Normal Speed  
-        c) As directed by Flow – Maintain ... KT  
-### Approach Types
-
-**Approach Expectation shall be `Expect Instrument Approach` when:**
-
-| Time           | Runway 15     | Runway 33                             |
-| ------| -------------- | -------------------------------------|
-| Day   | Conditions do not meet requirements for CS 360-R Creek Corridor Procedure – NAP2 (VMC conditions do not exist below `A030`)        | Conditions do not meet the requirements for KEEWI arrival visual procedure (VMC conditions do not exist below `A030`) |
-| Night | All conditions        | All conditions |
+- KONDA, CABRA, LAKED, DREWS, LOCKA, ZANEY, BARIA, FISHY, NORMA, BULOK  
+- 40 Miles CS for all other tracks.
 
 ## Coordination
-
 ### ADC
 ### Airspace
 CS ADC is responsible for the Class C Airspace within the CS CTR `SFC` to `A010`.
 
 #### Departures
 'Next' coordination is **not** required from CS ADC for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a **Procedural** SID
+- Departing from a runway nominated on the ATIS; and  
+- Assigned the standard assignable level; and  
+- Assigned a **Procedural** SID
 
 !!! example
-    <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Next, ABC, runway 15"  
-    <span class="hotline">**CS TCU** -> **CS ADC**</span>: "ABC, Heading 030, Unrestricted"  
-    <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Heading 030, Unrestriced, ABC"
+    <span class="hotline">**ADC** -> **TCU**</span>: "Next, RXA5417, runway 15"  
+    <span class="hotline">**TCU** -> **ADC**</span>: "RXA5417, heading 030, rnrestricted"  
+    <span class="hotline">**ADC** -> **TCU**</span>: "Heading 030, RXA5417"
+
+See [Standard Assignable Headings](#standard-assignable-headings) for the range of assignable headings available to aircraft on the **radar SID**.
 
 The Standard Assignable level from CS ADC to CS TCU is the lower of `A060` or the `RFL`.
 
-#### Missed Approach
-When weather conditions prevent the application of visual separation between a departure and a missed approach by tower:  
-a) ADC must advise TCU  
-b) Approach must limit departure headings to the following:  
+#### Arrivals
+Aircraft tracking via a visual right base to runway 33 must be coordinated with ADC (see [Visual Base Runway 33](#visual-base-runway-33)). All other arriving aircraft do not require coordination.
 
-| Runway | Jet | Non-Jet
-| ----------- | ------ | ---------|
-| 15          | 030°  | 030°  |
-| 33          | - | 330°  |
-
-#### Between CS FLW and CS ADC
-FLW must advise ADC of any sequence changes within 36 Miles CS.  
-FLW must advise ADC of aircraft sequenced for Runway 30.  
-All requests for non-duty runway arrivals must be approved by ADC.
-
-### CS ACD
+### ACD
 The controller assuming responsibility of **CS ACD** shall give heads-up coordination to the relevant CS TCU controller prior to the issue of the following clearances:  
-a) VFR Departures  
-b) Aircraft using a runway not on the ATIS
+- VFR Departures  
+- Aircraft using a runway not on the ATIS
 
 !!! example
     <span class="coldline">**CS ACD** -> **CS TCU**</span>: "ABC, Requesting clearance for a Northbound VFR Coastal departure at A035"  

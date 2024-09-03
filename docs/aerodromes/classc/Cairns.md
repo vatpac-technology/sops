@@ -13,54 +13,49 @@
 | Cairns ATIS        |                | 131.100          | YBCS_ATIS                                |
 
 ## Airspace
-CS ADC is responsible for the Class C Airspace within the CS CTR `SFC` to `A010`.
+CS ADC is responsible for the Class C airspace within the CS CTR `SFC` to `A010`.
+
+!!! important
+    CS ADC is responsible for issuing visual approach clearances to some aircraft tracking for runway 33 in CTA, as well as initial airways clearances for VFR aircraft entering the CTR from class G. See [Runway 33 Arrival Procedures](#runway-33) for more information.
 
 <figure markdown>
 ![CS ADC Airspace](img/csadc.png){ width="700" }
   <figcaption>CS ADC Airspace</figcaption>
 </figure>
 
-
-### Trinity Release
-During **Daytime Hours Only**, CS ADC may request the *Trinity Release* from CS TCU, consisting of the airspace displayed below.
-
-The Trinity Release may be used to facilitate low-level VFR and helicopter movements in CTA east of the 15/33 centreline.
-
-Departing aircraft shall be transferred to TCU after ADC no longer has separation requirements.  
-
-<figure markdown>
-![Trinity Release](img/TRI.jpg){ width="700" }
-  <figcaption>Trinity Airspace Release</figcaption>
-</figure>
-
-## Taxiway Restrictions
-Taxiways A2 and A between A2 and A3 are not available to Aircraft above 7,000 kilograms. Taxiway A4 is not available to Aircraft above 90,000 kilograms. Taxiway Y is not available to aircraft above 10,000 kilograms.
-
 ## Runway Selection
-The preferred Runway direction is Runway 15 
+The preferred runway direction is Runway 15.
 
 ## Separation
 
-### Reciprocal Runway Operations
-Prior to issuing departure instructions and until the departing aircraft is airborne and another method of separation is applied, TCU shall ensure that the arriving aircraft is:  
-a) assigned a level above and vertically separated from the assigned level of the departure and be at a distance which permits uninterrupted profile descent without loss of radar separation;  
-b) be confined to a square base leg to join not less than a 10 mile final; or  
-c) confined to a procedurally separated clearance  
-
-The above does not apply if tower accepts responsibility for separation.
-
-!!! Note
-    The ADC may not accept responsibility for separation when a jet aircraft is departing Runway 33.
-
 ### ADC Separation Responsibility
-When weather conditions are suitable, ADC shall visually separate:  
-a) Left downwind with straight-in final for Runway 15 within 5 Miles;  
-b) Right downwind with final for runway 33 within 5 Miles:  
-c) Right circuit for Runway 33  
-d) Aircraft departing to the Western VFR Corridor from all arriving aircrafton or east of the extended centreline until the aircraft is established in the Corridor.
+When weather conditions are suitable, ADC shall visually separate aircraft operating in the circuit from aircraft on the extended runway centreline when within 5nm. ADC shall also separate aircraft operating on (or departing to join) the Western VFR Corridor while within the CTR. 
 
 !!! Note 
-    ADC shall advise TCU when this separation cannot be applied
+    ADC shall advise TCU when this separation cannot be applied.
+
+### Departures in IMC
+When instrument approaches are in use to runway 15, and visual separation is not possible due to the weather conditions (i.e. VMC does not exist below `A030`), do not issue a takeoff clearance to an aircraft if another arriving aircraft is established on less than a 7nm final. This prevents a loss of separation between the two aircraft.
+
+## Arrivals
+### Runway 15
+When visual approaches are in use, expect light & medium category aircraft (B737/A320 and below) to track via the Creek Corridor, to join an approx 2nm final. These aircraft will be cleared for a visual approach by **CS TCU**. See the Cairns DAP Noise Abatement Procedures chart for more information.
+
+### Runway 33
+When visual approaches are in use, expect light & medium category aircraft (B737/A320 and below) to track either via a straight in visual approach or via a visual right base. Aircraft inside CTA tracking for a right base to runway 33 will pass overhead the CTR, so CS TCU **will not** clear them for a visual approach. These aircraft will be coordinated by CS TCU.
+
+ADC must assess any potential conflicts with aircraft in the CTR and clear the inbound aircraft for a visual approach when able. Given the limited airspace available, it is crucial that ADC maintains separation assurance between inbound aircraft and those operating in the CTR, to avoid a delay in issuing the visual approach clearance.
+
+!!! example 
+    <span class="hotline">**TCU** -> **ADC**</span>: "Via right base, RXA5418, will be assigned A020 visual"  
+    <span class="hotline">**ADC** -> **TCU**</span>: "A020 visual, RXA5418"  
+
+    **RXA5418**: "Cairns Tower, RXA5418, descending to A020 visual"  
+    **CS ADC**: "RXA5418, Cairns Tower, cleared visual approach"  
+    **RXA5418**: "Cleared visual approach, RXA5418"  
+    
+    **CS ADC**: "RXA5418, runway 33, cleared to land"  
+    **RXA5418**: "Runway 33, cleared to land, RXA5418"
 
 ## Departures
 
@@ -72,63 +67,91 @@ b) RWY 33, All Jets: EAZEE SID, Radar Transition
 c) All others: CS (RADAR) SID  
 
 !!! Note
-    Non-jet aircraft may be issued a Visual Departure.
-
-### Assignable Heading Range
-| Runway | Heading |
-| ----------------- | ---------------|
-| 15                | 350° to 030°   |
-| 33                | 330° to 070° |
-
-### Minimum IMC Levels
-Lowest assignable level in IMC for assigned heading is:
-
-| Runway | Jet | Non-Jet|
-| ------ | -------- | -------|
-| 15     | `A030` | `A020`, between 350° to 030° |
-| 33     | `A040`, between 330° to 009°.  `A030`, all other headings | `A040`, between 330° to 009°.  `A020`, between 010° to 060°.  `A024`, between 061° to 070° |
-
-<figure markdown>
-![Min IMC Levels](img/IMCminlvl.png){ width="700" }
-  <figcaption>Minimum IMC Levels</figcaption>
-</figure>
+    Non-jet aircraft may be issued a Visual Departure if conditions are suitable.
 
 ## VFR Operations
+### The Pier Helipad
+VFR helicopters transit from the Reef to a floating pontoon helipad on the southeastern shore of the CBD, approximately 2nm from the runway 33 threshold. This helipad is referred to as 'The Pier'. 
+
+<figure markdown>
+![The Pier](img/thepier.png){ width="400" }
+  <figcaption>The Pier (red dot)</figcaption>
+</figure>
+
+Prior to issuing clearance to these helicopters, ensure that no conflict exists with other arriving/departing traffic, particularly aircraft departing from runway 15 or arriving on runway 33. Visual separation may be applied between these aircraft if appropriate.
+
+Arriving helicopters should be cleared direct to The Pier, not above `A005` and instructed to report on the ground.
+
+!!! example
+    *YZM is a VFR R44 tracking from Upolo Cay to False Cape, inbound to The Pier.*  
+    **VH-YZM**: "Cairns Tower, helicopter YZM, 5nm northeast of False Cape, A005, for The Pier, received Hotel"  
+    **CS ADC**: "YZM, Cairns Tower, cleared direct to The Pier, not above A005, report on the ground"  
+    **VH-YZM**: "Cleared direct The Pier, not above A005, YZM"  
+
+    **VH-YZM**: "YZM on the pier"  
+    **CS ADC**: "YZM"
+
+Departing helicopters should be cleared direct to their nominated tracking point not above `A005`, and instructed to report airborne.
+
+!!! example
+    *VTB is a VFR Bell 505 on The Pier, intending to track to Cairns Airport for a landing on the southern pads. A 737 is about to depart from runway 15.*  
+    **VH-VTB**: "Cairns Tower, helicopter VTB, at The Pier, for the southern pads, received India"  
+    **CS ADC**: "VTB, Cairns Tower, short delay for clearance"  
+    **VH-VTB**: "VTB"    
+    
+    **CS ADC**: "VTB, cleared direct to the control tower, not above A005, report airborne"  
+    **VH-VTB**: "Cleared direct to the control tower, not above A005, VTB" 
+
+    **VH-VTB**: "VTB, airborne"  
+    **CS ADC**: "VTB, track southern pads, report on the ground"  
+    **VH-VTB**: "Track southern pads, VTB"  
+
+    **VH-VTB**: "VTB, on the pad"  
+    **CS ADC**: "VTB"  
 
 ### Western VFR Corridor
-Clearances for aircraft entering the CTR must be worded so as to leave no possibility for misinterpretation by the pilot.
+The Western VFR Corridor conflicts with the extended centreline to the north of the aerodrome. Clearances for aircraft entering the CTR must use clear and unambiguous phraseology to eliminate any potential for confusion by the pilot.
 
 !!! Example
     **NDR**: "Cairns Tower, NDR, EDT, A015, for the Western VFR Corridor, Request Clearance"  
     **CS ADC**: "NDR, enter the CTR tracking via the Western VFR corridor at A015. Remain on the corridor until advised."
 
-If a clearance limit is associated with the clearance, then it must be reiterated to the pilot to remain “on or west of the VFR Corridor”
+If a clearance limit is associated with the clearance, then it must be reiterated to the pilot to remain “on or west of the VFR Corridor”.
 
 !!! Example
     **NDR**: "Cairns Tower, NDR, EDT, A015, for the Western VFR Corridor, Request Clearance"  
     **CS ADC**: "NDR, enter the CTR tracking via the Western VFR Corridor at A015. Clearance limit is ADI, Remain on or west of the Western VFR Corridor at all times."
 
 ### Inbound
-ACFT planning to enter the CS CTR between: *Mt Gorton*, CGF and Upolo Cay at `A005`, must contact CS ADC for airways clearance
+Aircraft planning to enter the CS CTR between *Mt Gorton*, CGF and Upolo Cay at `A005`, must contact CS ADC for airways clearance.
 
 !!! Example
     **NDR**: "Cairns Tower, NDR, Cape Grafton, A005, Inbound, Information Alpha, Request Clearance"  
-    **CS ADC**: "NDR, enter the CTR tracking for a Right Base runway 33, A005."
+    **CS ADC**: "NDR, enter the CTR tracking for a Right Base runway 33, maintain A005."
 
 ### Circuit Direction
+The circuit height is `A010`. If an aircraft requires a higher circuit altitude, an airspace release must be requested from CS TCU.
+
 | Runway | Direction |
 | ----------------- | ---------------|
 | 15                | Left  |
 | 33                | Right |
 
 ## ATIS
-### Approach Types
-**Approach Expectation shall be `EXP INST APCH` when:**
+### Approach Expectation
 
-| Time           | Runway 15     | Runway 33                             |
-| ------| -------------- | -------------------------------------|
-| Day   | Conditions do not meet requirements for CS 360-R Creek Corridor Procedure – NAP2 (VMC conditions do not exist below `A030`)        | Conditions do not meet the requirements for KEEWI arrival visual procedure (VMC conditions do not exist below `A030`) |
-| Night | All conditions        | All conditions |
+The ATIS approach expectation shall be `EXPECT INSTRUMENT APPROACH` when:
+
+| Time | Condition |
+| ------| ------- |
+| Day   | VMC conditions do not exist below `A030` |
+| Night | All conditions |
+
+!!! note
+    This procedure allows aircraft to track via the Creek Corridor (see YBCS DAP Noise Abatement Procedures) for runway 15, or via a visual right base (commenced from vectors or the KEEWI Victor STAR), when VMC exists below `A030`.
+
+## Taxiway Restrictions
+Taxiways A2 and A between A2 and A3 are not available to aircraft above 7,000 kilograms. Taxiway A4 is not available to aircraft above 90,000 kilograms. Taxiway Y is not available to aircraft above 10,000 kilograms.
 
 ## Coordination
 
@@ -150,6 +173,9 @@ All other aircraft require a 'Next' call to CS TCU.
     **HND151**: "Left heading 030, Runway 15, Cleared for Takeoff, HNT151"
 
 The Standard Assignable level from CS ADC to CS TCU is the lower of `A060` or the `RFL`.
+
+#### Arrivals
+Aircraft tracking via a visual right base to runway 33 will be coordinated by CS TCU (see [Runway 33](#runway-33)). All other arriving aircraft do not require coordination.
 
 #### ACD to CS TCU
 The controller assuming responsibility of **CS ACD** shall give heads-up coordination to the relevant CS TCU controller prior to the issue of the following clearances:  
