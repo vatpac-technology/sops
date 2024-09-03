@@ -59,8 +59,8 @@ Whilst the **MKA** controller is expected to provide a [top-down service](../../
 ## Sector Responsibilities
 All subsectors are responsible for issuing STAR Clearances for YBMK, YBTL and YBCS on first contact.
 
-### Cairns STAR Clearance
-Cairns has specific visual approach procedures for use when VMC exists below `A030` in the terminal area. As such, **light & medium category aircraft (B737/A320 and below)**, tracking via the following waypoints, shall be issued the relevant Victor STAR.
+### YBCS STAR Clearances
+YBCS has specific visual approach procedures for use when VMC exists below `A030` in the terminal area. As such, **light & medium category aircraft (B737/A320 and below)**, tracking via the following waypoints, shall be issued the relevant Victor STAR.
 
 Heavy aircraft, and any aircraft not meeting the criteria below, must be issued the Instrument STAR.
 
@@ -120,6 +120,7 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | KEN | TBP | YBMK | |
 | SWY | TBP | YBCS | |
 | BAR | KEN | YBTL | |
+| TSN(All) | KEN(All) | YBCS, YBTL | |
 
 See [Cairns STAR Clearance](#cairns-star-clearance) for instructions on issuing STAR clearances.
 
@@ -234,5 +235,5 @@ YBHM arrivals shall be heads-up coordinated to **JM ADC** from SWY prior to **5 
 
 The Standard Assignable level from KEN(SWY) to HM ADC is `A060`, any other level must be prior coordinated.
 
-### FLD (Oceanic)
+### TSN(FLD) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.

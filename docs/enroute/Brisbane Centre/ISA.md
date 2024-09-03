@@ -79,21 +79,14 @@ SG ADC owns the Class C airspace within the SG CTR from `SFC` to `A015`.
 ### ISA Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-### FLD(COL) (Oceanic)
+### TSN(COL) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
 
 ### International (AYPM)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
 
 ### International (WAAF)
-Coordination to International units must be done prior to **30 mins** from the boundary in the following format:
-
-- *"Estimate"*
-- Callsign
-- Boundary Point
-- Estimate
-- Level
-- *"On climb"*/*"On descent*" (if applicable)
+As per [Standard coordination procedures](../../../controller-skills/coordination/#other-units), Heads-up Coordination required for all aircraft prior to **30 mins** from boundary.
 
 !!! example
     <span class="coldline">**ARA** -> **WAAF CTR**</span>: "Estimate, CEB40, TOREX time 59, F360"  

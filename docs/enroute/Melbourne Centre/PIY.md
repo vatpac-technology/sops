@@ -114,6 +114,7 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | GVE, CRS, HYD | PIY | YPPH, YPEA | Non-jets only |
 | GVE, CRS, HYD | PIY | YPJT | |
 | GEL, IND | LEA | YPPH | |
+| IND | GEL, LEA, JAR | YPPH | |
 
 ## Coordination
 ### PH TCU
