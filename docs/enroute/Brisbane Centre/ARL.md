@@ -249,5 +249,5 @@ All other aircraft coming from ARL CTA must be **Heads-up** Coordinated to WLM T
     <span class="hotline">**CNK** -> **WLM TCU**</span>: "QFA1968, request DCT UPTEB"  
     <span class="hotline">**WLM TCU** -> **CNK**</span>: "QFA1968, concur DCT UPTEB"  
 
-### TSN (Oceanic)
+### TSN/HWE (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
