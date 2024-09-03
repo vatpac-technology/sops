@@ -61,6 +61,9 @@ JAR is responsible for assigning and issuing arrival clearance to aircraft inbou
 !!! note
     Controllers should be aware there may be limited ADS-B coverage around Albany (YABA). Expect some areas of Class E airspace to be outside surveillance coverage. [Procedural Standards](../../../separation-standards/procedural) may need to be used in these cases.
 
+### Sequencing in to YPPH
+Aircraft assigned the **same runway** inbound via **JULIM** and **SAPKO**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
+
 ## YPPH Runway Modes
 ### Southwest Plan
 With the Southwest Plan active, arrivals shall be processed to either runway 21 or 24 based on their feeder fix, as per the table below:
