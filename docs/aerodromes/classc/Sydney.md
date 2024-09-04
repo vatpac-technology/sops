@@ -242,8 +242,8 @@ Unless operationally required, aircraft shall be assigned the following runways 
 
 | Type  | Via  | SID     |
 | ------| ---- | --------|
-| Jet  | RIC<br>KADOM<br>WOL | **KAMPI** SID, Relevant Transition |
-| Jet  | All others | **KAMPI** SID, RADAR Transition |
+| Jet  | RIC<br>KADOM<br>WOL | **GROOK** SID, Relevant Transition |
+| Jet  | All others | **GROOK** SID, RADAR Transition |
 | Non-Jet | All | **RADAR** SID |
 
 ### Runway 25
