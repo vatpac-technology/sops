@@ -4,6 +4,11 @@
 
 --8<-- "includes/abbreviations.md"
 
+## Separation
+Pacific Oceanic Units operate almost exclusively as **Non-Surveillance Procedural** Sectors.
+
+Refer to [Procedural Separation Standards](../../separation-standards/procedural/) for more information.
+
 ## Transition Altitudes
 
 | Name  | 	Transition Altitude  | 	Transition Level   |
@@ -88,17 +93,13 @@ Aircraft using time compression must be assigned the following levels for separa
 !!! important
     Aircraft at normal speed **always** have priority over aircraft using Time Compression.
 
-## STAR Clearance Expectation
-
-### Handoff
-Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
-
-| Transferring Sector | Receiving Sector | ADES | Notes |
-| ---- | -------- | --------- | --------- |
-| IND | PIY(LEA) | YPPH | |
-| TSN | ARL(OCN) | YSSY | |
-| FLD | INL(SDY) | YBBN, YBCG, YBSU | |
-| TSN | HUO | YMHB | |
-
 ## Coordination
-As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+### Between Pacific Oceanic Units
+As per [Standard coordination procedures](../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+
+### To Other Units
+As per [Standard coordination procedures](../../controller-skills/coordination/#other-units), Heads-up Coordination required for all aircraft prior to **30 mins** from boundary.
+
+!!! example
+    <span class="coldline">**IND** -> **FAJO FSS**</span>: "Estimate, SAA281, XEKOT time 44, F360"  
+    <span class="coldline">**FAJO FSS** -> **IND**</span>: "SAA281, F360"

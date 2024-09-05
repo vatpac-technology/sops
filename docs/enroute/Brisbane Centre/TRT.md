@@ -138,14 +138,7 @@ Reserved.
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
 
 ### International (WAAF)
-Coordination to International units must be done prior to **30 mins** from the boundary in the following format:
-
-- *"Estimate"*
-- Callsign
-- Boundary Point
-- Estimate
-- Level
-- *"On climb"*/*"On descent*" (if applicable)
+As per [Standard coordination procedures](../../../controller-skills/coordination/#other-units), Heads-up Coordination required for all aircraft prior to **30 mins** from boundary.
 
 !!! example
     <span class="coldline">**TRT** -> **WAAF CTR**</span>: "Estimate, SIA236, KIKEM time 21, F320"  
