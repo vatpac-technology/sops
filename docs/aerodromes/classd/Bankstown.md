@@ -45,6 +45,9 @@ Aircraft departing a leg of the circuit will climb to and maintain the following
 RWY 29 direction: `A010`  
 RWY 11 direction: `A015`
 
+## Departures into CTA
+Aircraft planned into the overlying Class C airspace shall be issued an airways clearance by **BK ADC** and assigned `A030`. These aircraft must be Next coordinated to the relevant TCU controller, who will assess the current traffic picture and provide a release when able. During times of peak TMA traffic, there may be extensive delays for departure and pilots may elect to depart directly into class G. See [Departure Coordination](#departures) for coordination requirements.
+
 ### Circuits
 The circuit direction changes depending on time of day and runway being used.
 
