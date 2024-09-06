@@ -10,8 +10,8 @@
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Sydney ADC West**    | **Sydney Tower**   | **120.500**          | **SY_TWR**                                   |
 | Sydney ADC East†   | Sydney Tower   | 124.700          | SY-E_TWR                                 |
-| **Sydney SMC West**    | **Sydney Ground**  | **126.500**          | **SY_GND**                                   |
-| Sydney SMC East†   | Sydney Ground  | 121.700          | SY-E_GND                                 |
+| **Sydney SMC East**    | **Sydney Ground**  | **121.700**          | **SY_GND**                                   |
+| Sydney SMC West†   | Sydney Ground  | 126.500          | SY-W_GND                                 |
 | Sydney Coordinator† | Sydney Coordinator   | 127.600          | SY-C_GND                                |
 | **Sydney ACD**         | **Sydney Delivery**| **133.800**          | **SY_DEL**                                   |
 | Sydney ATIS        |                | 126.250          | YSSY_ATIS                                |
