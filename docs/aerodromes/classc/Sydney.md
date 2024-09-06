@@ -289,35 +289,20 @@ Climb Gradient Requirements apply to all Procedural SIDs. It is the pilot's resp
 When Independent Visual Approaches are run during PROPS, the APCH field must also include `DO NOT PASS THRU ASSIGNED RWY CL`.
 
 ### Operational Info
+The Operational Information field should be updated based on the runway mode and approach type in use, as per the table below:
 
-> For the following approach types:
-> 
-> - `EXP INSTR APCH`
-> 
-> - `EXP INSTR APCH THEN INDEP VISUAL APCH WHEN VISUAL`
-> 
-> the ATIS OPR INFO shall include `INDEP PARL DEPS IN PROG`.
-> 
-> !!! Note
-    This permits independent departures (two simultaneous departures on parallel runways) but NOT independent approaches (two simultaneous arrivals on parallel runways without perscribed separation minima).
+| Condition | OPR INFO Field |
+| ---------- | -------------- |
+| `EXP INSTR APCH`, or<br>`EXP INSTR APCH THEN INDEP VISUAL APCH WHEN VISUAL` | `INDEP PARL DEPS IN PROG` |
+| `EXP INDEP VISUAL APCH` | `INDEP PARL APPROACHES AND DEPS IN PROG` |
+| SODROPS | `SIMUL OPP DIR PARL RWY OPS IN PROG` |
 
-⠀  
+!!! Note
+    `INDEP PARL DEPS IN PROG` permits independent departures (two simultaneous departures on parallel runways) but NOT independent approaches (two simultaneous arrivals on parallel runways without perscribed separation minima).  
 
-> For the following approach type,
-> 
-> - `EXP INDEP VISUAL APCH`
-> 
-> the ATIS OPR INFO shall include `INDEP PARL APPROACHES AND DEPS IN PROG`.
+When [Coordinator](#sydney-coordinator) is online, the ATIS OPR INFO shall include `WHEN READY FOR PUSH BACK OR TAXI CTC COORDINATOR 127.6`.
 
-⠀  
-
-> When SODPROPS are in operation, the ATIS OPR INFO shall include `SIMUL OPP DIR PARL RWY OPS IN PROG`.
-
-⠀  
-
-> When [Coordinator](#sydney-coordinator) is online, the ATIS OPR INFO shall include `WHEN READY FOR PUSH BACK OR TAXI CTC COORDINATOR 127.6`.
-> 
-> When [Coordinator](#sydney-coordinator) is online and start approval is required, the ATIS OPR INFO shall include `START APPROVAL RQ. WHEN READY FOR PUSH BACK OR ENGINE START, CTC SYDNEY COORDINATOR ON FREQ 127.6, FOR START TIME`.
+When [Coordinator](#sydney-coordinator) is online and start approval is required, the ATIS OPR INFO shall include `START APPROVAL RQ. WHEN READY FOR PUSH BACK OR ENGINE START, CTC SYDNEY COORDINATOR ON FREQ 127.6, FOR START TIME`.
 
 !!! example
     <figure markdown>
