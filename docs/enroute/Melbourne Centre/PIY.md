@@ -19,7 +19,7 @@
 
 ### CPDLC
 
-The Primary Communication Method for ELW is Voice.
+The Primary Communication Method for PIY is Voice.
 
 [CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
 

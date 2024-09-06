@@ -52,10 +52,10 @@ Voiceless for all aircraft:
 
 - With ADES **YBMK**    
   - Assigned the **DAGSI** or **WELKE** STAR; and  
-  - Assigned `A070`  
+  - Assigned `A090`  
 - With ADES **YBRK**; and  
   - Assigned the **ABVAS** or **DADBO** STAR; and  
-  - Assigned `A070`
+  - Assigned `A090`
 
 All other aircraft coming from SWY/KPL CTA will be **Heads-up** Coordinated to MKA/RKA.
 

@@ -55,7 +55,7 @@ The crosswind Runways 17/35 may be used at the same time as the main runways.
 
 ### Preferred RWY 14 Approach (All Hours) - Noise Abatement
 The preferred approach for Jet aircraft above 5,700KG MTOW (unless due weather or critical operations requirements) is as follows:  
-<ol><li>RNAV-W (RNP) RWY 14</li><li>RNAV-Y (RNP) RWY 14</li><li>RNAV-Z (GNSS) RWY 14</li><li>VISUAL APCH RWY 14</li><li>ILS RWY 14</li></ol>
+<ol><li>RNP W RWY 14</li><li>RNP Y RWY 14</li><li>RNP Z RWY 14</li><li>VISUAL APCH RWY 14</li><li>ILS RWY 14</li></ol>
 
 ### Circuit Direction
 Circuits are to be conducted at `A010`.  
@@ -75,11 +75,8 @@ Aircraft tracking northbound should contact ADC approaching Cudgen Lake for clea
 Aircraft requiring to transit the CTR coastal will be subject to delays depending on traffic in the Gold Coast CTR.  
 
 ## Helicopter Operations
-Local helicopter operations are conducted on the Western Grass which is the area contained by blue gable markers north of the VOR and west of the runway intersection. This is marked on the aerodrome chart as “HELO OPS”.
-!!! note
-    Western Grass is outside of the maneuvering area and is not controlled by ATC – no take-off or landing clearances shall be provided for this area.
-
-The HLS (Helipad) is located between the GA Apron and Taxiway Golf. 
+Local helicopter operations are conducted on the Western Grass which is the area contained by blue gable markers north of the VOR and west of the runway intersection. This is marked on the aerodrome chart as “HELO OPS”.  
+The HLS (Helipad) is located between the GA Apron and Taxiway Golf.  
 Circuits from the Western Grass are to be made in the same direction as the duty runway.
 
 ## Coordination
