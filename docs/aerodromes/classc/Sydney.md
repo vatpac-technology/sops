@@ -333,6 +333,9 @@ To operate with Coordinator open:
 
 The decision whether or not to send an aircraft to SMC or hold them on the Coordinator frequency should be made in accordance with the [Queue Management](#queue-management) techniques.
 
+!!! tip
+    Remember that the **bottom** aircraft represents the **front** of the queue.
+
 !!! important
     If SMC needs to reduce the pushback rate due to congestion at the holding points or excessive workload, **Coordinator** should be informed without delay, and instructed to hold all departures on their frequency. This will stop aircraft being told to monitor the SMC frequency. Remember to cancel this requirement when congestion eases.
 
@@ -365,9 +368,6 @@ To reduce SMC workload, Coordinator should not allow more than **three** aircraf
 </figure>
 
 When SMC moves an aircraft from the **Cleared Queue** to the **Pushback bay**, Coordinator should instruct the next aircraft in line to monitor the SMC frequency.
-
-!!! tip
-    Remember that the **bottom** aircraft represents the **front** of the queue.
 
 !!! important
     Strips must remain in the strip bay of their **current state**, even if they are in a queue. For example, if they have received an airways clearance and are in the queue for pushback, they must remain in the **Cleared** bay, **not** the Pushback bay.
