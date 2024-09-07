@@ -125,12 +125,12 @@ When the crosswind component exceeds 15 knots, the OPR INFO field must include:
 ### Departures
 When the aircraft is ready for departure, Tower will coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
 
+The Standard Assignable level from BK ADC to SY TCU is `A030`, any other level must be prior coordinated.
+
 !!! example
     <span class="hotline">**BK ADC** -> **SY TCU**</span>: "Next, UJN, runway 29C"  
     <span class="hotline">**SY TCU** -> **BK ADC**</span>: "UJN, unrestricted"  
     <span class="hotline">**BK ADC** -> **SY TCU**</span>: "UJN"
-
-The Standard Assignable level from BK ADC to SY TCU is `A030`, any other level must be prior coordinated.
 
 Aircraft shall be instructed to contact SY TCU passing `A015`.
 
