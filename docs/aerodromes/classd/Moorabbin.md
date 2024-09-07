@@ -62,6 +62,8 @@ Circuits are to be flown at `A010`.
 ### Departures
 Autorelease is not in effect at YMMB and all departures into the overlying Class C airspace require a 'Next' call. They must not be issued a takeoff clearance until a release has been obtained.
 
+The standard assignable level for departures into CTA is `A050` or `RFL` if lower.
+
 !!! example
     <span class="hotline">**MB ADC** -> **MDS**</span>: "Next, SGE"  
     <span class="hotline">**MDS** -> **MB ADC**</span>: "SGE, unrestricted"

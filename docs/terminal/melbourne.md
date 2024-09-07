@@ -327,7 +327,7 @@ MB ADC is responsible for the Class D airspace in the MB CTR `SFC` to `A025`.
 Refer to [Reclassifications](#mb-ctr) for operations when MB ADC is offline.
 
 #### Departures
-**MB ADC** will issue airways clearances for all departures planned into the overlying Class C airspace. These aircraft will be assigned `A050` or the `RFL` if lower.
+**MB ADC** will issue airways clearances for all departures planned into the overlying Class C airspace. The Standard Assignable level from MB ADC to ML TCU is `A050` or `RFL` if lower.
 
 Autorelease is not in effect at YMMB and all departures into Class C airspace require a 'Next' call. Consider the current traffic picture and provide a release when able.
 
