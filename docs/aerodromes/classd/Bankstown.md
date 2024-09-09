@@ -61,16 +61,16 @@ Circuits to be flown at `A010`
 
 ## Helicopter Operations
 ### General
-These procedures apply during hours of daylight only.  During hours of darkness, all helicopters must revert to fixed-wing operations.  
+These procedures apply during hours of daylight only. During hours of darkness, all helicopters must revert to fixed-wing operations.  
 
-The Main Pad (abeam taxiway Mike) is treated like a runway and requires a takeoff/landing clearance.  Helicopters are permitted to become airborne from a limited number of other locations on the aerodrome, such as taxiway November Two, and should be instructed to *"report airborne"* or *"report on the ground"*.
+The Main Pad (abeam taxiway Mike) is treated like a runway and requires a takeoff/landing clearance. Helicopters are permitted to become airborne from a limited number of other locations on the aerodrome, such as taxiway November Two, and should be instructed to *"report airborne"* or *"report on the ground"*.
 
 ### Reporting Points
 Three helicopter reporting points help keep helicopters separated from other traffic.  
 
 CWST: Michels Patisserie located 1.2nm west of CNTH on the water pipeline  
 CNTH: Northern end of Regents Park Railway Station, roughly 300 metres north of the water pipeline  
-CSTH:  Intersection of two creeks enclosing a sewage treatment works 2.1nm south of the aerodrome reference point
+CSTH: Intersection of two creeks enclosing a sewage treatment works 2.1nm south of the aerodrome reference point
 ### Inbound Procedures
 Helicopters should track inbound at `A007` via one of the normal inbound points (PSP or TWRN) or via *Olympic Park* and report to **BK ADC** at that point. In response, **BK ADC** should instruct the aircraft to track as below:
 
@@ -96,20 +96,20 @@ Helicopters shall report ready to **BK ADC** with their departure intentions. In
     **BK ADC:** "YZD, Bankstown Tower, depart Choppers North, main pad, cleared for takeoff"
 
 !!! note
-    Helicopters tracking via CSTH will pass over the runway complex midfield at `A005` to join downwind.  Be mindful of aircraft in the fixed-wing circuit and pass traffic information to both aircraft prior to the helicopter becoming airborne.  
+    Helicopters tracking via CSTH will pass over the runway complex midfield at `A005` to join downwind. Be mindful of aircraft in the fixed-wing circuit and pass traffic information to both aircraft prior to the helicopter becoming airborne.  
 
     Example:  
     *"XEL, traffic is a helicopter overflying the aerodrome to the south at A005, runway left, cleared touch and go"*  
     *"YZD, traffic is a Cherokee turning final for runway left, depart Choppers South, main pad, cleared for takeoff"*
 ### Circuits
-Circuits are conducted within the lateral confines of the fixed-wing circuit at `A007`, in the same direction as the current runway config.  The termination point of the circuit is the Main Pad.
+Circuits are conducted within the lateral confines of the fixed-wing circuit at `A007`, in the same direction as the current runway config. The termination point of the circuit is the Main Pad.
 
 !!! example
     **BK ADC:** "SUA, main pad, cleared stop and go"
 
 ## ATIS
 ### Runway Nomination
-The ATIS must indicate the current runway config and nominate what each parallel runway is being used for.  The northern runway (11L/29R) is primarily used for VFR arrivals and departures, the southern runway (11R/29L) for circuit training, and the centre runway for IFR arrivals/departures and VFR overflow.  
+The ATIS must indicate the current runway config and nominate what each parallel runway is being used for. The northern runway (11L/29R) is primarily used for VFR arrivals and departures, the southern runway (11R/29L) for circuit training, and the centre runway for IFR arrivals/departures and VFR overflow.  
 
 This should be reflected on the ATIS as below:  
 `RWY 11L FOR ARRIVALS AND DEPARTURES; RWY 11R FOR CIRCUIT TRAINING; RWY 11C IN USE`
