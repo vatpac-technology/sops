@@ -66,7 +66,7 @@ These procedures apply during hours of daylight only.  During hours of darkness,
 The Main Pad (abeam taxiway Mike) is treated like a runway and requires a takeoff/landing clearance.  Helicopters are permitted to become airborne from a limited number of other locations on the aerodrome, such as taxiway November Two, and should be instructed to *"report airborne"* or *"report on the ground"*.
 
 ### Reporting Points
-Three helicopter reporting points help keep helicopters segregated from other traffic.  
+Three helicopter reporting points help keep helicopters separated from other traffic.  
 
 CWST: Michels Patisserie located 1.2nm west of CNTH on the water pipeline  
 CNTH: Northern end of Regents Park Railway Station, roughly 300 metres north of the water pipeline  
