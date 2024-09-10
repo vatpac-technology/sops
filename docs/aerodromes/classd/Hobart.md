@@ -11,11 +11,6 @@
 | Hobart SMC    | Hobart Ground  | 121.700     | HB_GND                  |
 | Hobart ATIS       |                | 128.450          | YMHB_ATIS                                |
 
-## Maneuvering Area Responsibility
-<figure markdown>
-![YMHB Maneuvering Area](img/ymhb_maneuvring_area.png){ width="500" }
-</figure>
-
 ## Airspace
 HB ADC is responsible for the Class D airspace in the HB CTR:  
 North of the Runway Centreline: `SFC` to `A015`  

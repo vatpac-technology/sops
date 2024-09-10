@@ -45,7 +45,7 @@ Taxiway Y is to be used in a westerly direction and Taxiway Z in an easterly dir
     A similar conflict may exist between aircraft taxiing inbound via taxiway Zulu and aircraft taxiing outbound for runway 19L. Consider instructing inbound aircraft to hold short of taxiway Y1, allowing the use of Y1 and Charlie in case of a queue for holding point A3.
 
 <figure markdown>
-![YBBN Taxi Route](img/ybbn_taxi_routes.png){ width="500" }
+![YBBN Taxi Route](img/ybbnstdtaxi.png){ width="500" }
   <figcaption>Standard Taxi Routes</figcaption>
 </figure>
 

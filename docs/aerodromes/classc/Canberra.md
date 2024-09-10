@@ -55,13 +55,8 @@ City Scenic Flights are available by day and to the west of the aerodrome. Aircr
 | South (clockwise)  | CHARLIE ONE  | CHARLIE TWO          | 
 
 <figure markdown>
-![City Flight One](img/CBCTY1.png){ width="500" }
-  <figcaption>City Flight One</figcaption>
-</figure>
-
-<figure markdown>
-![City Flight Two](img/CBCTY2.png){ width="500" }
-  <figcaption>City Flight Two</figcaption>
+![City Scenic Flights](img/cbcty.png){ width="500" }
+  <figcaption>City Scenic Flights</figcaption>
 </figure>
 
 ### Helicopter Operations
