@@ -184,7 +184,7 @@ Voiceless for all aircraft:
 
 - With ADES **YBMK**; and  
 - Assigned the **DAGSI** or **WELKE** STAR; and  
-- Assigned `A070`
+- Assigned `A090`
 
 All other aircraft coming from SWY CTA must be **Heads-up** Coordinated to MKA prior to **20nm** from the boundary.
 

@@ -59,8 +59,8 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | FLD | KEN(All) | YBCS, YBTL | |
 
 ## Coordination
-### Enroute
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
+### Domestic Enroute
+As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
 
 ### TSN Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.

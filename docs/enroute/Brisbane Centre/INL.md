@@ -228,7 +228,7 @@ Voiceless for all aircraft:
 
 - With ADES **YBRK**; and  
 - Assigned the **ABVAS** or **DADBO** STAR; and  
-- Assigned `A070`
+- Assigned `A090`
 
 All other aircraft coming from KPL CTA must be **Heads-up** Coordinated to RKA prior to **20nm** from the boundary.
 

@@ -17,11 +17,7 @@
 AD ADC is not responsible for any airspace by default.
 
 ## Maneuvering Area Responsibility
-
-<figure markdown>
-![YPAD Maneuvering Area](img/ypad_maneuvring_area.png){ width="500" }
-  <figcaption>YPAD Maneuvering Area</figcaption>
-</figure>
+**ADC** is responsible for the **E2** and **D2** taxiways
 
 !!! note
     Where an aircraft will be taxiing via multiple taxiways of the same lettering (e.g. A6, then A5, then A4, etc), refer to the taxiway by only the letter.  

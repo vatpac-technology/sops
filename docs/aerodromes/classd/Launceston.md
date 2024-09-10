@@ -11,11 +11,6 @@
 | Launceston ADC    | Launy Tower   | 118.700    | LT_TWR                         |
 | Launceston ATIS       |                | 134.750          | YMLT_ATIS                                |
 
-### Maneuvering Area Responsibility
-<figure markdown>
-![YMLT Maneuvering Area](img/ymlt_maneuvring_area.png){ width="500" }
-</figure>
-
 ## Airspace
 LT ADC is responsible for the Class D airspace in the LT CTR `SFC` to `A015`.
 
