@@ -4,7 +4,7 @@ title: CPDLC
 
 --8<-- "includes/abbreviations.md"
 
-In the real world, CPDLC (Controller-Pilot Datalink Communications) is generally used by aircraft within Class A airspace above `F245`.
+In the real world, CPDLC is generally used by aircraft within Class A airspace above `F245`.
 
 CPDLC may also be used by pilots to request a PDC.    
 PDCs utilising vatACARS are solicited by the pilot, however, the standalone vatSys functionality can be used in lieu of vatACARS without a pilot-initated request.
