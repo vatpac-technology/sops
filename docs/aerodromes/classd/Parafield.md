@@ -11,12 +11,6 @@
 | Parafield SMC   | Parafield Ground  | 119.900          | PF_GND                       |
 | Parafield ATIS        |                | 120.900          | YPPF_ATIS                                |
 
-
-<figure markdown>
-![YPPF Maneuvering Area](img/yppf_maneuvring_area.png){ width="500" }
-  <figcaption>Maneuvering Area</figcaption>
-</figure>
-
 ## Airspace
 PF ADC is responsible for the Class D airspace in the PF CTR `SFC` to `A015`.
 

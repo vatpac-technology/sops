@@ -99,7 +99,7 @@ Helipad 1 is controlled by **SY ADC** and treated like a runway (landing clearan
 
 ## Maneuvering Area Responsibility
 <figure markdown>
-![YSSY Maneuvering Area](img/yssy_maneuvring_area.png){ width="500" }
+![YSSY Maneuvering Area](img/yssymaown.png){ width="500" }
   <figcaption>Maneuvering Area</figcaption>
 </figure>
 

@@ -4,12 +4,21 @@ title: Military/Restricted Operations
 
 --8<-- "includes/abbreviations.md"
 
-## Restricted Areas
-Australian airspace is covered in Restricted Areas. Put simply, these are areas where aircraft are not allowed to go. They are shown in vatSys in yellow as below:
+## Special Use Airspace (SUA)
+SUAs, formerly known as Restricted Areas (RAs), are scattered all over Australian airspace. In real life, they can be used for many different purposes, including, but not limited to:
+
+- Military Activity (Most common)
+- Live Firing
+- Airshows
+- Operationally Restricted Airspace
+- Radiation Hazards
+- Rocket Launches
+
+Although the majority of these things don't pose any hazards in the online environment, activations of SUAs should still be simulated on VATSIM, and aircraft should be kept clear of them.
 
 <figure markdown>
-![Restricted Areas on vatSys](img/ra.png){ width="800" }
-  <figcaption>Restricted Areas on vatSys</figcaption>
+![SUAs on vatSys](img/ra.png){ width="800" }
+  <figcaption>SUAs on vatSys</figcaption>
 </figure>
 
 ### Vertical Limits
@@ -36,21 +45,28 @@ You must separate all aircraft in controlled airspace by *half the applicable la
 ### Activation times
 Some Restricted Areas are not always active. Some may be active only on certain days, or certain hours of the day. More info can be found in the [ERSA](https://www.airservicesaustralia.com/aip/aip.asp){target=new}, or on the Restricted Areas window in vatSys
 
-#### NOTAM
+### NOTAM
 Some Restricted Areas will be activated by NOTAM, most commonly for use by RAAF Virtual. These are available on the [VATPAC NOTAMs Page](https://vatpac.org/publications/notam){target=new}. These Restricted Areas will automatically become active on vatSys with AIRAC updates, so they are visually displayed on the screen.
 
-###### Example
+##### Example
 <figure markdown>
 ![Example Restricted Area Activation NOTAM](img/vsoanotam.png){ width="800" }
   <figcaption>Example Restricted Area Activation NOTAM</figcaption>
 </figure>
 
-#### Aircraft operating inside Restricted Area
+### Aircraft operating inside Restricted Area
 Military aircraft are permitted to operate within their designated Restricted Area as per the relevant NOTAM. Even if this Restricted Area is inside your airspace, you have no control authority over it.
 
 !!! example
     **ARA**: "DRGN379, shortly entering R604 Restricted Area, identification and control services terminated, frequency change approved. Contact me prior to leaving for airways clearance"  
     **DRGN379**: "Wilco, DRGN379"
+
+### ATC Activated Military Airspace
+Most Military TCUs and Tower positions, when online, control airspace that correspond to certain Restricted Area Activations. These are prescribed in the Local Instructions.
+
+These Restricted Areas may be activated in vatSys, and the controllers of these positions may inform other surrounding controllers of their activations, so they may use the Resitricted Areas on the screen to visually assess the airspace and separation required for traffic.
+
+Unless otherwise stated in Local Instructions, Restricted Areas activated for control by Military TCUs and Towers, will become **Class C** airspace.
 
 ## Formation Flights
 Reserved.

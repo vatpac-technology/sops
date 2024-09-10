@@ -19,6 +19,11 @@ The following page applies to Parallel Runway Operations at [YSSY](../../termina
     - **1.5nm** at [YBBN](../../terminal/brisbane/#parallel-runway-operations)  
     - **1nm** at [YSSY](../../terminal/sydney/#parallel-runway-operations)
 
+<figure markdown>
+![Diagonal Separation Diagram](img/diagonalsep.png){ width="700" }
+  <figcaption>Diagonal Separation Diagram</figcaption>
+</figure>
+
 ## Independent Visual Approaches
 - When vectoring an aircraft to intercept the final course, ensure that the final vector permits the aircraft to intercept at an angle not greater than 30 degrees.
 

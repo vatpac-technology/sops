@@ -294,3 +294,5 @@
 *[AV]: Avalon
 *[EN]: Essendon
 *[MB]: Moorabbin
+*[SUA]: Special Use Airspace
+*[CPDLC]: Controller-Pilot Datalink Communications

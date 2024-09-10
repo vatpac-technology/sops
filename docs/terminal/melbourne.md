@@ -149,11 +149,6 @@ Due to the low level of CTA above Avalon, aircraft conducting approaches will co
     **JST607:** "JST607, clear of the runway, Avalon, cancel SARWATCH"  
     **ML TCU:** "JST607, Avalon SARWATCH terminated"
 
-<figure markdown>
-![Approximate Airspace Split](img/YMAV_approach.png)
-  <figcaption>Approximate Airspace Vertical Split (not to scale)</figcaption>
-</figure>
-
 ### Departures
 Departing aircraft will require an airways clearance on the ground, due to the low level of CTA. Aircraft should report taxiing to the TCU controller, who will issue a squawk code and traffic statement. These aircraft should be instructed to report at the holding point, where airways clearance will be issued.
 
