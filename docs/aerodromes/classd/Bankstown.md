@@ -11,11 +11,6 @@
 | Bankstown SMC   | Bankstown Ground   | 119.900         | BK_GND                       |
 | Bankstown ATIS        |                | 120.900          | YSBK_ATIS                                |
 
-<figure markdown>
-![YSBK Maneuvering Area](img/ysbk_maneuvring_area.png){ width="500" }
-  <figcaption>Maneuvering Area</figcaption>
-</figure>
-
 ## Airspace
 BK ADC is responsible for the Class D airspace in the BK CTR `SFC` to `A015`.
 

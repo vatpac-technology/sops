@@ -11,22 +11,22 @@ title: Procedural
 ### 2 min
 | Conditions | |
 | ------------- | ------------------ |
-| a) The aircraft are climbing to vertically separated levels;<br>b) Both aircraft report reaching the cruising level;<br>c) If the following aircraft is climbing to a lower level than the preceding aircraft, and reaches that level first, apply another form of separation immediately; and<br>d) climb and cruising IAS of the following aircraft is at least 10 kt slower and not more than 90% of the climb and cruising IAS or Mach number of the leading aircraft. | <figure markdown>
+| a) The aircraft are climbing to vertically separated levels;<br>b) Both aircraft report reaching the cruising level;<br>c) If the following aircraft is climbing to a lower level than the preceding aircraft, and reaches that level first, apply another form of separation immediately; and<br>d) climb and cruising IAS of the following aircraft is at least **10 kt slower** and not more than **90%** of the climb and cruising IAS or Mach number of the leading aircraft. | <figure markdown>
 ![2 min Departure Standard Diagram](img/dep2min.png){ width="600" }
 </figure> |
 
 ### 5 min
 | Conditions | |
 | ------------- | ------------------ |
-| a) Both aircraft report reaching the cruising level;<br>b) If the following aircraft reaches that level first, apply another form of separation immediately; and<br>c) climb and cruising IAS of the following aircraft is at least 10 kt slower and not more than 90% of the climb and cruising IAS or Mach number of the leading aircraft. | <figure markdown>
-![5 min Departure Standard Diagram](img/dep4a.png){ width="600" }
+| a) Both aircraft report reaching the cruising level;<br>b) If the following aircraft reaches that level first, apply another form of separation immediately; and<br>c) climb and cruising IAS of the following aircraft is at least **10 kt slower** and not more than **90%** of the climb and cruising IAS or Mach number of the leading aircraft. | <figure markdown>
+![5 min Departure Standard Diagram](img/dep5min.png){ width="600" }
 </figure> |
 
 ### 10 min
 | Conditions | |
 | ------------- | ------------------ |
 | a) Both aircraft report reaching the cruising level;<br>b) If the following aircraft reaches cruising level first, apply another form of separation immediately; and<br>c) climb IAS of the following aircraft is less than or equal to the climb IAS of the leading aircraft. | <figure markdown>
-![10 min Departure Standard Diagram](img/dep7a.png){ width="600" }
+![10 min Departure Standard Diagram](img/dep10min.png){ width="600" }
 </figure> |
 
 </details>
@@ -38,8 +38,8 @@ title: Procedural
 ### 10nm
 | Conditions | |
 | ------------- | ------------------ |
-| a) Both aircraft are inbound and the leading aircraft is within 20 NM of a controlled aerodrome with DME or a published waypoint; and<br>b) The aircraft are assigned vertically separated levels. | <figure markdown>
-![10nm Arrival Standard Diagram](img/d5.png){ width="600" }
+| a) Both aircraft are **inbound**, and the leading aircraft is within **20nm** of a controlled aerodrome; and<br>b) The aircraft are assigned vertically separated levels. | <figure markdown>
+![10nm Arrival Standard Diagram](img/arr10nm.png){ width="600" }
 </figure> |
 
 </details>
@@ -79,9 +79,9 @@ After the estimated time of passing, aircraft may not climb or descend through t
 ### Distance
 #### Distance Reports
 Distance standards **cannot** be applied using the Bearing-Range Line Tool, since the position displayed on the scope is just an estimation of where the aircraft is.  
-Instead, it must be done using actual reports from the aircraft.  
+Instead, it must be done using actual reports from the aircraft, using **GNSS** or **DME**.  
 
-The lead aircraft must be tracking directly to/from the aid. Always ask the lead aircraft for their distance report prior to the following aircraft.  
+The lead aircraft must be tracking directly to/from the aid. **Always** ask the *lead* aircraft for their distance report **prior** to the *following* aircraft.  
 
 Distance checks must be conducted as per the following table:
 
@@ -97,29 +97,29 @@ Distance checks must be conducted as per the following table:
 | Conditions | |
 | ------------- | ------------------ |
 | | <figure markdown>
-![20nm Distance Standard Diagram](img/d2.png){ width="600" }
+![20nm Distance Standard Diagram](img/20nmlong.png){ width="600" }
 </figure> |
 
 #### Reciprocal track
 ##### 5nm Definite Passing
 | Conditions | |
 | ------------- | ------------------ |
-| Reports indicate that the aircraft have passed and the distance is opening | <figure markdown>
-![10nm Definite Passing Standard Diagram](img/d8b.png){ width="600" }
+| Distance Reports (using GNSS or DME) indicate that the aircraft have passed and the distance is opening | <figure markdown>
+![10nm Definite Passing Standard Diagram](img/5nmlong.png){ width="600" }
 </figure> |
 
 ##### Sight and Pass
 | Conditions | |
 | ------------- | ------------------ |
 | a) Both aircraft report sighting and passing the other by day (and in Oceanic airspace by night);<br>b) Both aircraft are above A100; and<br>c) You ensure there is no possibility of incorrect identification by either aircraft. | <figure markdown>
-![Sight and Pass Standard Diagram](img/snp.png){ width="600" }
+![Sight and Pass Standard Diagram](img/sandp.png){ width="600" }
 </figure> |
 
 ##### Opposite sides of visual fix
 | Conditions | |
 | ------------- | ------------------ |
 | a) Both aircraft report passing the same visual fix; and<br>b) The visual fix must be a prominent topographical feature within 10,000 FT of the levels of each aircraft | <figure markdown>
-![Opposite sides of visual fix Standard Diagram](img/t7b.png){ width="600" }
+![Opposite sides of visual fix Standard Diagram](img/visualfix.png){ width="600" }
 </figure> |
 
 </details>
