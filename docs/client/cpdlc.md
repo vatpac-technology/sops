@@ -16,7 +16,7 @@ PDCs utilising vatACARS are solicited by the pilot, however, the standalone vatS
 
 ## Setup
 
-The vatACARS client can be downloaded [here](https://vatacars.com/).  
+The vatACARS client can be downloaded [here](https://vatacars.com/){target=new}.  
 
 The vatACARS client requires controllers to have a [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html) account and logon code, plus a [vatACARS Token](https://vatacars.com/me).
 
