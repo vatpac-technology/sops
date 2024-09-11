@@ -138,13 +138,10 @@ During busy events, such as [Milk Run Monday](../../../controller-skills/milkrun
 ### Pushback Requests on ACD
 To mitigate this, pushback requests may be done on **ACD** frequency, to balance the workload. A few steps must be followed to properly execute this procedure.
 
+To commence the procedure:
+
 1. **SMC** and **ACD** coordinate to implement the procedure, due to high **SMC** workload.
 2. **SMC** coordinates with **ADC** in order to have the [ATIS](#acd-pushback-requests) updated.
-3. When **ACD** has finished issuing an airways clearance, they will **remind** pilots to *"Contact me when ready for pushback"*.
-4. When a pilot requests pushback, **ACD** will instruct them to **Monitor** *(not contact)* Ground on 121.7, and advise their position in the queue.
-5. **ACD** will move the strip in to the **Queue** section of the **Cleared** bay^ in [OzStrips](../../../client/towerstrips/), to denote they are awaiting pushback approval†.
-6. Eventually, **SMC** will have adequate space on the aprons, taxiways, and holding point, as well as time to make assessments.
-7. **SMC** will scan the [Cleared Queue bay](../../../client/towerstrips/#stripboard) for the next aircraft in line, and call them to approve their pushback.
 
 !!! example
     <span class="hotline">**ML SMC** -> **ML ACD**</span>: "It's getting quite busy. Happy to implement Pushback requests on your frequency?"  
@@ -154,31 +151,56 @@ To mitigate this, pushback requests may be done on **ACD** frequency, to balance
     <span class="hotline">**ML SMC** -> **ML ADC**</span>: "Can we please get `ALL DEPARTURES MUST REQUEST PUSH BACK ON 127.2` on the ATIS?"  
     <span class="hotline">**ML ADC** -> **ML SMC**</span>: "Wilco"  
 
-    **QFA401:** "Melbourne Delivery, QFA401, Request Clearance"  
-    **ML ACD:** "QFA401, Melbourne Delivery. Cleared to..."  
-    **QFA401:** "Cleared to... we are bay B27, QFA401"  
-    **ML ACD:** "QFA401, Contact me when ready for pushback"  
-    ...  
-    **QFA401:** "Request Pushback"  
-    **ML ACD:** "QFA401, Monitor Ground 121.7, Number 5. They will call you when pushback is available"  
-    **QFA401:** "Monitor 121.7, QFA401"  
-    *ML SMC will move QFA401's strip to the* ***Cleared Queue*** *bay*  
-    *QFA401 will change frequency, but* ***not contact*** *ML SMC*  
-    ...  
-    **ML SMC:** "QFA401, Melbourne Ground, push approved"  
+To operate with pushback requests on ACD:
+
+1. When **ACD** has finished issuing an airways clearance, they will **remind** pilots to *"Contact me when ready for pushback"*.
+2. When a pilot requests pushback, **ACD** will assess their priority based on apron congestion and number of aircraft in the queue (see [Queue Management](#queue-management)).  
+3. **ACD** will either instruct them to **monitor** *(not contact)* SMC, or remain on the ACD frequency if a delay is required.  
+4. If an aircraft is instructed to monitor SMC, **ACD** will move the strip to the **Queue** section of the **Cleared** bay in [OzStrips](../../../client/towerstrips/), to denote they are awaiting pushback approval.  
+5. When **SMC** has adequate space on the aprons, taxiways, and holding point, they will issue pushback/taxi to the next aircraft in line by scanning the [Cleared Queue bay](../../../client/towerstrips/#stripboard).
+
+The decision whether or not to send an aircraft to SMC or hold them on the Coordinator frequency should be made in accordance with the [Queue Management](#queue-management) techniques.
+
+!!! important
+    If SMC needs to reduce the pushback rate due to congestion at the holding points or excessive workload, **ACD** should be informed without delay, and instructed to hold all departures on their frequency. This will stop aircraft being told to monitor the SMC frequency. Remember to cancel this requirement when congestion eases.
+
+!!! example
+    **VOZ543:** "Melbourne Delivery, VOZ543, PDC read back"  
+    **ML ACD:** "VOZ543, go ahead the read back"  
+    **VOZ543:** "DOSEL1 departure, squawk 1336, bay E8, VOZ543"  
+    **ML ACD:** "VOZ543, contact me when ready for pushback"  
+    **VOZ543:** "Wilco, VOZ543"  
+    ...   
+    **VOZ543:** "Melbourne Delivery, VOZ543, bay E8, request pushback"  
+    **ML ACD:** "VOZ543, monitor ground 121.7"  
+    **VOZ543:** "Monitor 121.7, VOZ543"  
+    ...   
+    **ML SMC:** "VOZ543, Melbourne Ground, pushback approved."
+
+If a delay is required prior to transferring an aircraft to SMC, provide an estimated delay value to the pilot or advise them of their position in the queue.
+
+!!! tip
+    Remember that the **bottom** aircraft represents the **front** of the queue.
+
+!!! example
+    **VOZ543:** "Melbourne Delivery, VOZ543, bay E8, request pushback"  
+    **ML ACD:** "VOZ543, estimated delay 10 minutes, remain this frequency."
 
 #### Queue Management
-Remember that the **bottom** aircraft represents the **front** of the queue.
-
-^ Additionally, the strips must remain in the strip bay of their **current state**, even if they are in a queue. For example, if they have received an airways clearance and are in the queue for pushback, they must remain in the **Cleared** bay, **not** the Pushback bay.
+To reduce SMC workload, ACD should not allow more than **three** aircraft to be awaiting pushback or taxi on the SMC frequency. When three aircraft are already queued on the SMC frequency, any additional aircraft should be told to remain on the ACD frequency and informed of their position in the queue or approximate delay (if known). It may be helpful to cock these strips and move them to the bottom of the bay, creating a queue of aircraft waiting for frequency transfer.
 
 <figure markdown>
-![Cleared Queue Bay](img/clrqbay.png){ width="500" }
-  <figcaption>Cleared Queue Bay</figcaption>
+![Coordinator Ops with OzStrips](img/coordinator-ozstrips.png){ width="700" }
+  <figcaption>Coordinator Ops with OzStrips<br><small>Three aircraft are monitoring SMC (below the Queue bar), and QLK150D and VOZ845 have both requested push/taxi but are being held on the Coordinator frequency. QLK150D is closer to the bottom, so will be next to be told to monitor SMC.</small></figcaption>
 </figure>
 
+When SMC moves an aircraft from the **Cleared Queue** to the **Pushback bay**, Coordinator should instruct the next aircraft in line to monitor the SMC frequency.
+
+!!! important
+    Strips must remain in the strip bay of their **current state**, even if they are in a queue. For example, if they have received an airways clearance and are in the queue for pushback, they must remain in the **Cleared** bay, **not** the Pushback bay.
+
 #### COBT Slot Times
-† Aircraft that are compliant with their booked slot time should be moved to the **front** of the queue
+During busy events, VATPAC may utilise prebooked slots to manage traffic congestion. Aircraft which are compliant with their booked slot time should be prioritised over aircraft who are non-compliant or do not have a slot.
 
 <figure markdown>
 ![COBT Slot Time](img/slottime.png){ width="200" }
