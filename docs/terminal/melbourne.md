@@ -322,12 +322,13 @@ MB ADC is responsible for the Class D airspace in the MB CTR `SFC` to `A025`.
 Refer to [Reclassifications](#mb-ctr) for operations when MB ADC is offline.
 
 #### Departures
-Departures in to ML TCU Class C airspace require a "Next" call, where ML TCU will provide the cleared level. There is no standard assignable level.
+**MB ADC** will issue airways clearances for all departures planned into the overlying Class C airspace. The Standard Assignable level from MB ADC to ML TCU is `A050` or `RFL` if lower.
+
+Autorelease is not in effect at YMMB and all departures into Class C airspace require a 'Next' call. Consider the current traffic picture and provide a release when able.
 
 !!! example
     <span class="hotline">**MB ADC** -> **MDS**</span>: "Next, SGE"  
-    <span class="hotline">**MDS** -> **MB ADC**</span>: "SGE, A060"  
-    <span class="hotline">**MB ADC** -> **MDS**</span>: "A060, SGE"
+    <span class="hotline">**MDS** -> **MB ADC**</span>: "SGE, unrestricted"
 
 #### Arrivals/Overfliers
 ML TCU will heads-up coordinate arrivals/overfliers from Class C to MB ADC prior to **5 mins** from the boundary.  

@@ -40,6 +40,9 @@ Aircraft departing a leg of the circuit will climb to and maintain the following
 RWY 29 direction: `A010`  
 RWY 11 direction: `A015`
 
+## Departures into CTA
+Aircraft planned into the overlying Class C airspace shall be issued an airways clearance by **BK ADC** and assigned `A030`. These aircraft must be Next coordinated to the relevant TCU controller, who will assess the current traffic picture and provide a release when able. During times of peak TMA traffic, there may be extensive delays for departure and pilots may elect to depart directly into class G. See [Departure Coordination](#departures) for coordination requirements.
+
 ### Circuits
 The circuit direction changes depending on time of day and runway being used.
 
@@ -117,12 +120,12 @@ When the crosswind component exceeds 15 knots, the OPR INFO field must include:
 ### Departures
 When the aircraft is ready for departure, Tower will coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
 
+The Standard Assignable level from BK ADC to SY TCU is `A030`, any other level must be prior coordinated.
+
 !!! example
     <span class="hotline">**BK ADC** -> **SY TCU**</span>: "Next, UJN, runway 29C"  
     <span class="hotline">**SY TCU** -> **BK ADC**</span>: "UJN, unrestricted"  
     <span class="hotline">**BK ADC** -> **SY TCU**</span>: "UJN"
-
-The Standard Assignable level from BK ADC to SY TCU is `A030`, any other level must be prior coordinated.
 
 Aircraft shall be instructed to contact SY TCU passing `A015`.
 
