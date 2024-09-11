@@ -106,6 +106,9 @@ The times assume there is *Nil wind*.
     - Add **2 minutes** (Except ^)
     - Add only **1 minute** for ^
 
+!!! note
+    The adjustments above are **cumulative**. For example, an aircraft with a **MX** on the **16M STAR**, would have **3 minutes** subtracted in total
+
 ### Non-Jets
 
 This table assumes that aircraft will be assigned:
@@ -132,6 +135,9 @@ For Non-Jets tracking via the *full Jet STARs*, see [table above](#jets)
 - **5nm final** - Threshold is **2 minutes**  
 - Subtract **1 minute** for MX  
 - Subtract **1 minute** for **DH8D**
+
+!!! note
+    The adjustments above are **cumulative**. For example, a **DH8D** with a **MX**, would have **2 minutes** subtracted in total
 
 ## Coordination
 ### Enroute
