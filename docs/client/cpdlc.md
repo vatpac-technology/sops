@@ -158,7 +158,7 @@ Standard Voice frequency transfers must be used for aircraft below `F245` and be
 
 ### Terminating CPDLC
 
-If CPDLC is no longer available or required, ATC should right-click on the aircraft and select *'LOGOFF'* to the aircraft a CPDLC logoff message.
+If CPDLC is no longer available or required, ATC should right-click on the aircraft and select *'LOGOFF'* to send the aircraft a CPDLC logoff message.
 
 <figure markdown>
 ![vatACARS Setup](../controller-skills/img/vatacarshandoff.png){ width="700" }
