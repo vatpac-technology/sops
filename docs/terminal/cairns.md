@@ -79,7 +79,7 @@ Aircraft for runway 15 will be cleared via the Victor STAR by enroute, which ter
 !!! example
     *RXA5474 is tracking via the NONUM Victor STAR for runway 15.*  
     **RXA5474**: "RXA5474, visual"  
-    **CS TCU**: "RXA5474, cleared visual approaching tracking via the Creek Corridor"  
+    **CS TCU**: "RXA5474, cleared visual approach tracking via the Creek Corridor"  
     **RXA5474**: "Cleared visual approach via the Creek Corridor, RXA5474"
 
 #### Visual Base Runway 33
@@ -119,7 +119,7 @@ CS ADC is responsible for the Class C Airspace within the CS CTR `SFC` to `A010`
 
 !!! example
     <span class="hotline">**ADC** -> **TCU**</span>: "Next, RXA5417, runway 15"  
-    <span class="hotline">**TCU** -> **ADC**</span>: "RXA5417, heading 030, rnrestricted"  
+    <span class="hotline">**TCU** -> **ADC**</span>: "RXA5417, heading 030, unrestricted"  
     <span class="hotline">**ADC** -> **TCU**</span>: "Heading 030, RXA5417"
 
 See [Standard Assignable Headings](#standard-assignable-headings) for the range of assignable headings available to aircraft on the **radar SID**.
