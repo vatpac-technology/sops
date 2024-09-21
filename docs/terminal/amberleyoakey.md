@@ -9,7 +9,7 @@
 | Name               | Callsign       | Frequency        | Login ID              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
 | **Amberley TCU**   | **Amberley Approach**   | **126.200**        | **AMB_APP**                                   |
-| Oakey TCU   | Oakey Approach | 125.400        | OK_APP                                   |
+| **Oakey TCU**   | **Oakey Approach** | **125.400**        | **OK_APP**                                   |
 
 AMB APP is expected to extend to OK APP when they are offline. No frequency cross coupling is required. 
 
