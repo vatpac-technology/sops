@@ -5,7 +5,7 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login Identifier                         |
+| Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Canberra ADC**    | **Canberra Tower**   | **118.700**          | **CB_TWR**                                   |
 | **Canberra SMC**    | **Canberra Ground**  | **121.700**          | **CB_GND**                                   |

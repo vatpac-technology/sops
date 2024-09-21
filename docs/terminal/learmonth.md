@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login Identifier              |
+| Name               | Callsign       | Frequency        | Login ID              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
-| Learmonth TCU   | Learmonth Approach   | 120.500        | LM_APP                                   |
+| **Learmonth TCU**   | **Learmonth Approach**   | **120.500**        | **LM_APP**                                   |
 
 ## Airspace
 The limits of the LM TCU are `SFC` to `F280` within 40 DME LM. This may be amended by NOTAM.

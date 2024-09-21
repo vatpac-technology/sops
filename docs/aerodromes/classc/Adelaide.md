@@ -6,7 +6,7 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login Identifier                         |
+| Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Adelaide ADC**    | **Adelaide Tower**   | **120.500**          | **AD_TWR**                                   |
 | **Adelaide SMC**    | **Adelaide Ground**  | **121.700**          | **AD_GND**                                   |

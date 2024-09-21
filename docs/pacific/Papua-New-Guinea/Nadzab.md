@@ -6,8 +6,8 @@
 
 ## Positions
 
-| Name                    | Login     | Callsign         | Frequency |
+| Name                    | Callsign         | Frequency | Login ID    |
 | ----------------------- | --------- | ---------------- | --------- |
-| Nadzab (Lae) Approach	| AYNZ_APP| 	Nadzab Approach| 	118.600| 
-| Nadzab (Lae) Tower	| AYNZ_TWR| 	Nadzab Tower	| 121.700| 
-| Nadzab (Lae) ATIS| 	AYNZ_ATIS	| |  	128.600| 
+| **Nadzab (Lae) Approach**	| **Nadzab Approach** | **118.600** | **AYNZ_APP** | 
+| **Nadzab (Lae) ADC**	| **Nadzab Tower**	| **121.700** | **AYNZ_TWR** | 
+| Nadzab (Lae) ATIS | | 128.600 | AYNZ_ATIS	| 

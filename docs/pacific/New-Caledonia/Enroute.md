@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name               | ID      | Callsign       | Frequency        | Login Identifier              |
-| ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
-| Tontouta Approach North|NWWW| Tontouta Control  | 128.200         | NWWW_CTR          |
+| Name               | Callsign       | Frequency        | Login ID              |
+| ------------------ | --------------| -------------- | ---------------- | -----------|
+| **Tontouta Approach North** | **Tontouta Control**  | **128.200**     | **NWWW_CTR**     |
 
 !!! note
     Charts can be found on the [French AIS page](https://www.sia.aviation-civile.gouv.fr/){target=new}, available under AIP > eAIP PAC N.

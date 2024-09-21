@@ -5,7 +5,7 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login Identifier                         |
+| Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Gold Coast ADC** | **Gold Coast Tower**   | **118.700**       | **CG_TWR**                       |
 | **Gold Coast SMC** | **Gold Coast Ground**  | **121.800**       | **CG_GND**                       |

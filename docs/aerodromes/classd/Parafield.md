@@ -5,7 +5,7 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login Identifier                         |
+| Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Parafield ADC**  | **Parafield Tower**  | **118.700**          | **PF_TWR**                        |
 | **Parafield SMC**  | **Parafield Ground** | **119.900**          | **PF_GND**                       |

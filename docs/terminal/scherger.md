@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login Identifier              |
+| Name               | Callsign       | Frequency        | Login ID              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
-| Scherger TCU   | Scherger Approach   | 124.200        | SG_APP                                   |
+| **Scherger TCU**   | **Scherger Approach**   | **124.200**        | **SG_APP**                                   |
 
 ## Airspace
 The limits of the SG TCU are `SFC` to `F245` within 40 NM of the YBSG ARP. This may be amended by NOTAM.
