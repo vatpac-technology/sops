@@ -6,7 +6,7 @@
 
 ## Positions
 
-| Name | Callsign | Frequency | Login Identifier |
+| Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | ---------------- |
 | **Rockhampton ADC** | **Rocky Tower** | **118.100** | **RK_TWR** |
 | **Rockhampton SMC** | **Rocky Ground** | **121.800** | **RK_GND** |

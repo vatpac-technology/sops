@@ -6,7 +6,7 @@
 
 ## Positions
 
-| Name                    | Login     | Callsign         | Frequency |
+| Name                    | Callsign         | Frequency | Login ID    |
 | ----------------------- | --------- | ---------------- | --------- |
-| Madang Tower| 	AYMD_TWR	| Madang Tower| 	118.100| 
-| Madang ATIS	| AYMD_ATIS	 | | 	127.800
+| **Madang ADC** | **Madang Tower** | **118.100** | **AYMD_TWR**	| 
+| Madang ATIS	| | 127.800 | AYMD_ATIS |

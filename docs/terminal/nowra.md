@@ -5,7 +5,7 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | ID      | Callsign       | Frequency        | Login Identifier              |
+| Name               | ID      | Callsign       | Frequency        | Login ID              |
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
 | **Nowra TMA**    | **NWA** | **Nowra Approach** | **123.500**          | **NW_APP**        |
 

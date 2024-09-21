@@ -6,7 +6,7 @@
 
 ## Positions
 
-| Name                    | Login     | Callsign         | Frequency |
+| Name                    | Callsign         | Frequency | Login ID    |
 | ----------------------- | --------- | ---------------- | --------- |
-| Goroka Tower| 	AYGA_TWR| 	Goroka Tower	| 118.700| 
-| Goroka ATIS	| AYGA_ATIS	 | | 	134.000| 
+| **Goroka ADC** | **Goroka Tower**	| **118.700** | **AYGA_TWR** | 
+| Goroka ATIS	| | 134.000 | AYGA_ATIS	 | 

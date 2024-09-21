@@ -6,10 +6,10 @@
 
 ## Positions
 
-| Name               | ID      | Callsign       | Frequency        | Login Identifier              |
+| Name               | ID      | Callsign       | Frequency        | Login ID              |
 | ------------------ | --------------| -------------- | ---------------- | ---------------------|
-| Hobart Approach  | HBA | Hobart Approach  | 125.550       | HB_APP    |
-| Launceston Approach  | LTA | Launy Approach   | 123.800        | LT_APP                 |
+| **Hobart Approach**  | **HBA** | **Hobart Approach**  | **125.550**       | **HB_APP**    |
+| **Launceston Approach**  | **LTA** | **Launy Approach**   | **123.800**        | **LT_APP**                 |
 
 !!! Note
     HBA may elect to extend to LTA and vice versa, callsigns remain the same. See [Controller Skills](../controller-skills/extending.md) for details.

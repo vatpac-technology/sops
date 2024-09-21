@@ -6,7 +6,7 @@
 
 ## Positions
 
-| Name                    | Login     | Callsign         | Frequency |
+| Name                    | Callsign         | Frequency | Login ID    |
 | ----------------------- | --------- | ---------------- | --------- |
-| Mt Hagen Tower| 	AYMH_TWR	| Hagen Tower	| 120.500| 
-| Mt Hagen ATIS	| AYMH_ATIS	 | | 	128.400
+| **Mt Hagen ADC** | **Hagen Tower**	| **120.500** | **AYMH_TWR**	| 
+| Mt Hagen ATIS	| | 	128.400 | AYMH_ATIS	 |

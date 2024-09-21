@@ -6,7 +6,7 @@
 
 ## Positions
 
-| Name              | Callsign       | Frequency        | Login Identifier              |
+| Name              | Callsign       | Frequency        | Login ID              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
 | **Darwin ADC**    | **Darwin Tower**  | **133.100**         | **DN_TWR**        |
 | **Darwin SMC**   |  **Darwin Ground**  | **121.800**         | **DN_GND**        |

@@ -6,7 +6,7 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login Identifier              |
+| Name               | Callsign       | Frequency        | Login ID              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
 | **Oakey ADC**    | **Oakey Tower**  | **120.100**         | **OK_TWR**        |
 | **Oakey SMC**    | **Oakey Ground**  | **121.900**      | **OK_GND**        |

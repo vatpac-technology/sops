@@ -5,7 +5,7 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login Identifier                         |
+| Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Melbourne ADC**    | **Melbourne Tower**   | **120.500**          | **ML_TWR**                                   |
 | **Melbourne SMC**    | **Melbourne Ground**  | **121.700**          | **ML_GND**                                   |

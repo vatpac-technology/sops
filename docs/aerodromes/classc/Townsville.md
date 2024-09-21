@@ -6,7 +6,7 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login Identifier              |
+| Name               | Callsign       | Frequency        | Login ID              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
 | **Townsville ADC**    | **Townsville Tower**  | **118.300**         | **TL_TWR**        |
 | **Townsville SMC**    | **Townsville Ground**  | **121.800**         | **TL_GND**        |

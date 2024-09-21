@@ -5,7 +5,7 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name              | Callsign       | Frequency        | Login Identifier                         |
+| Name              | Callsign       | Frequency        | Login ID                         |
 | ----------------- | -------------- | ---------------- | ---------------------------------------- |
 | **Hobart ADC**    | **Hobart Tower**   | **118.100**     | **HB_TWR**                            |
 | **Hobart SMC**    | **Hobart Ground**  | **121.700**     | **HB_GND**                  |

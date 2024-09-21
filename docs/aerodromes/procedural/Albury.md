@@ -5,11 +5,11 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name | Callsign | Frequency | Login Identifier |
+| Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | ---------------- |
 | **Albury ADC** | **Albury Tower** | **123.250** | **AY_TWR** |
 | **Albury SMC** | **Albury Ground** | **121.800** | **AY_GND** |
-| Albury ATIS | N/A | 133.850 | YMAY_ATIS |
+| Albury ATIS |  | 133.850 | YMAY_ATIS |
 
 ## Airspace
 <figure markdown>

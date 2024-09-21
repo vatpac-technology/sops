@@ -6,7 +6,7 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login Identifier              |
+| Name               | Callsign       | Frequency        | Login ID              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
 | **Woomera ADC**    | **Woomera Tower**  | **118.300**         | **WR_TWR**        |
 | Woomera ATIS    |   | 118.100         | YPWR_ATIS       |
