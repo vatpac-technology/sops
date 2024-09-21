@@ -7,8 +7,8 @@
 ## Positions
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| Bankstown ADC  | Bankstown Tower  | 132.800         | BK_TWR                        |
-| Bankstown SMC   | Bankstown Ground   | 119.900         | BK_GND                       |
+| **Bankstown ADC**  | **Bankstown Tower**  | **132.800**         | **BK_TWR**                        |
+| **Bankstown SMC**   | **Bankstown Ground**   | **119.900**         | **BK_GND**                       |
 | Bankstown ATIS        |                | 120.900          | YSBK_ATIS                                |
 
 ## Airspace

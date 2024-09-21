@@ -7,8 +7,8 @@
 ## Positions
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| Canberra ADC    | Canberra Tower   | 118.700          | CB_TWR                                   |
-| Canberra SMC    | Canberra Ground  | 121.700          | CB_GND                                   |
+| **Canberra ADC**    | **Canberra Tower**   | **118.700**          | **CB_TWR**                                   |
+| **Canberra SMC**    | **Canberra Ground**  | **121.700**          | **CB_GND**                                   |
 | Canberra ATIS        |                | 127.450         | YSCB_ATIS                                |
 
 ## Airspace

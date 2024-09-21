@@ -8,7 +8,7 @@
 
 | Name | Callsign | Frequency | Login Identifier |
 | ---- | -------- | --------- | ---------------- |
-| Hamilton Island ADC | Hamilton Tower | 118.700 | HM_TWR |
+| **Hamilton Island ADC** | **Hamilton Tower** | **118.700** | **HM_TWR** |
 | Hamilton Island ATIS | N/A | 128.350 | YBHM_ATIS |
 
 ## Airspace

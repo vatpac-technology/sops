@@ -7,7 +7,7 @@
 ## Positions
 | Name | Callsign | Frequency | Login Identifier |
 | ---- | -------- | --------- | ---------------- |
-| Alice Springs ADC | Alice Tower | 118.300 | AS_TWR |
+| **Alice Springs ADC** | **Alice Tower** | **118.300** | **AS_TWR** |
 | Alice Springs ATIS | N/A | 123.000 | YBAS_ATIS |
 
 ## Airspace

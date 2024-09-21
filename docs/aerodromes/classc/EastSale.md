@@ -8,9 +8,9 @@
 
 | Name               | Callsign           | Frequency        | Login Identifier             |
 | ------------------ | --------------     | ---------------- | -----------------------------|
-| East Sale ADC      | East Sale Tower    | 118.300          | ES_TWR                       |
-| East Sale SMC      | East Sale Ground   | 127.250          | ES_GND                       |
-| East Sale ACD      | East Sale Delivery | 134.100          | ES_DEL                       |
+| **East Sale ADC**      | **East Sale Tower**    | **118.300**          | **ES_TWR**                       |
+| **East Sale SMC**      | **East Sale Ground**   | **127.250**          | **ES_GND**                       |
+| **East Sale ACD**      | **East Sale Delivery** | **134.100**          | **ES_DEL**                       |
 | East Sale ATIS     |                    | 125.40           | YMES_ATIS                    |
 
 ## Airspace
