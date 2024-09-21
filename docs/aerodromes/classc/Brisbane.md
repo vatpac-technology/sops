@@ -8,7 +8,7 @@
 
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Brisbane ADC**    | **Brisbane Tower**   | **120.500**          | **BN_TWR**                                   |
+| **Brisbane ADC East**    | **Brisbane Tower**   | **120.500**          | **BN_TWR**                                   |
 | Brisbane ADC West†   | Brisbane Tower   | 118.000          | BN-W_TWR                                 |
 | **Brisbane SMC Domestic**    | **Brisbane Ground**  | **121.700**          | **BN_GND**                                   |
 | Brisbane SMC South†   | Brisbane Ground  | 122.250          | BN-S_GND                                 |

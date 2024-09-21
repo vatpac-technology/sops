@@ -8,8 +8,8 @@
 
 | Name | Callsign | Frequency | Login Identifier |
 | ---- | -------- | --------- | ---------------- |
-| Karratha SMC | Karratha Ground | 123.550 | KA_GND |
-| Karratha ADC | Karratha Tower | 127.350 | KA_TWR |
+| **Karratha ADC** | **Karratha Tower** | **127.350** | **KA_TWR** |
+| **Karratha SMC** | **Karratha Ground** | **123.550** | **KA_GND** |
 | Karratha ATIS | N/A | 134.550 | YPKA_ATIS |
 
 ## Airspace

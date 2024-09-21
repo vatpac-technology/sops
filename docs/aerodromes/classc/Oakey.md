@@ -8,8 +8,8 @@
 
 | Name               | Callsign       | Frequency        | Login Identifier              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
-| Oakey ADC    | Oakey Tower  | 120.100         | OK_TWR        |
-| Oakey SMC    | Oakey Ground  | 121.900      | OK_GND        |
+| **Oakey ADC**    | **Oakey Tower**  | **120.100**         | **OK_TWR**        |
+| **Oakey SMC**    | **Oakey Ground**  | **121.900**      | **OK_GND**        |
 | Oakey ATIS   |               | 124.300      | YBOK_ATIS     |
 
 ## Airspace

@@ -7,7 +7,7 @@
 ## Positions
 | Name | Callsign | Frequency | Login Identifier |
 | ---- | -------- | --------- | ---------------- |
-| Coffs Harbour ADC | Coffs Tower | 118.200 | CFS_TWR |
+| **Coffs Harbour ADC** | **Coffs Tower** | **118.200** | **CFS_TWR** |
 | Coffs Harbour ATIS | N/A | 130.300 | YCFS_ATIS |
 
 ## Airspace

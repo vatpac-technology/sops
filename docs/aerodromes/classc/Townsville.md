@@ -8,9 +8,9 @@
 
 | Name               | Callsign       | Frequency        | Login Identifier              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
-| Townsville ADC    | Townsville Tower  | 118.300         | TL_TWR        |
-| Townsville SMC    | Townsville Ground  | 121.800         | TL_GND        |
-| Townsville ACD    | Townsville Delivery  | 128.100         | TL_DEL       |
+| **Townsville ADC**    | **Townsville Tower**  | **118.300**         | **TL_TWR**        |
+| **Townsville SMC**    | **Townsville Ground**  | **121.800**         | **TL_GND**        |
+| **Townsville ACD**    | **Townsville Delivery**  | **128.100**         | **TL_DEL**       |
 | Townsville ATIS    |   | 133.500         | YBTL_ATIS       |
 
 !!! note

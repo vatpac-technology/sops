@@ -8,8 +8,8 @@
 
 | Name | Callsign | Frequency | Login Identifier |
 | ---- | -------- | --------- | ---------------- |
-| Tamworth ADC | Tamworth Tower | 119.400 | TW_TWR |
-| Tamworth SMC | Tamworth Ground | 121.900 | TW_GND |
+| **Tamworth ADC** | **Tamworth Tower** | **119.400** | **TW_TWR** |
+| **Tamworth SMC** | **Tamworth Ground** | **121.900** | **TW_GND** |
 | Tamworth ATIS | N/A | 123.800 | YSTW_ATIS |
 
 ## Airspace

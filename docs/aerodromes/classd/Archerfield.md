@@ -7,8 +7,8 @@
 ## Positions
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| Archerfield ADC  | Archer Tower  | 118.100        | AF_TWR                        |
-| Archerfield SMC   | Archer Ground  | 129.300         | AF_GND                       |
+| **Archerfield ADC**  | **Archer Tower**  | **118.100**        | **AF_TWR**                        |
+| **Archerfield SMC**   | **Archer Ground**  | **129.300**         | **AF_GND**                       |
 | Archerfield ATIS        |                | 120.900          | YBAF_ATIS                                |
 
 ## Airspace

@@ -8,8 +8,8 @@
 
 | Name               | Callsign       | Frequency        | Login Identifier              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
-| Scherger ADC    | Scherger Tower  | 118.300         | SG_TWR        |
-| Scherger SMC    | Scherger Ground  | 126.200      | SG_GND        |
+| **Scherger ADC**    | **Scherger Tower**  | **118.300**         | **SG_TWR**        |
+| **Scherger SMC**    | **Scherger Ground**  | **126.200**      | **SG_GND**        |
 | Scherger ATIS    |   | 134.800         | YBSG_ATIS       |
 
 ## Airspace

@@ -7,8 +7,8 @@
 ## Positions
 | Name | Callsign | Frequency | Login Identifier |
 | ---- | -------- | --------- | ---------------- |
-| Broome ADC | Broome Tower | 126.000 | BRM_TWR |
-| Broome SMC | Broome Ground | 121.700 | BRM_GND |
+| **Broome ADC** | **Broome Tower** | **126.000** | **BRM_TWR** |
+| **Broome SMC** | **Broome Ground** | **121.700** | **BRM_GND** |
 | Broome ATIS | N/A | 128.200 | YBRM_ATIS |
 
 ## Airspace

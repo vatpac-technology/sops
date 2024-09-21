@@ -7,9 +7,9 @@
 ## Positions
 | Name               | Callsign       | Frequency        | Login Identifier                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| Gold Coast ADC | Gold Coast Tower   | 118.700       | CG_TWR                       |
-| Gold Coast SMC | Gold Coast Ground  | 121.800       | CG_GND                       |
-| Gold Coast ACD | Gold Coast Delivery | 128.750       | CG_DEL                       |
+| **Gold Coast ADC** | **Gold Coast Tower**   | **118.700**       | **CG_TWR**                       |
+| **Gold Coast SMC** | **Gold Coast Ground**  | **121.800**       | **CG_GND**                       |
+| **Gold Coast ACD** | **Gold Coast Delivery** | **128.750**       | **CG_DEL**                       |
 | Gold Coast ATIS    |                        | 134.500          | YBCG_ATIS                        |
 
 ## Airspace
