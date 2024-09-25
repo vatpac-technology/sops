@@ -217,8 +217,13 @@ The times assume there is *Nil wind*. The data is for **Jets**, although there a
 #### Departures
 Voiceless to all surrounding Enroute sectors for all aircraft:
  
-- Tracking via a Procedural SID terminus; and  
-- Assigned the lower of `F240` or the `RFL`
+- Assigned the lower of `F240` or the `RFL`; and
+- Tracking via any of the following:
+    - a Procedural SID terminus
+    - **MENOG**
+    - **DOTPA**
+    - **OMKON**
+    - **AV**
 
 All other aircraft going to Enroute CTA must be **Heads-up** Coordinated by ML TCU prior to the boundary.
 

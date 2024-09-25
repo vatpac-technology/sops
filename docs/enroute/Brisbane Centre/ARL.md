@@ -150,8 +150,11 @@ All other aircraft coming from ARL CTA must be **Heads-up** Coordinated to SY TC
 #### Departures
 Voiceless for all aircraft:
 
-- Tracking via a Procedural SID terminus; and  
-- Assigned the lower of `F280` or the `RFL`
+- Assigned the lower of `F280` or the `RFL`; and
+- Tracking from **SDN** or **SDS** [airspace](#airspace-division); and
+- Tracking via any of the following:
+    - a Procedural SID terminus
+    - **KAMBA**
 
 All other aircraft going to ARL CTA will be **Heads-up** Coordinated by SY TCU.
 

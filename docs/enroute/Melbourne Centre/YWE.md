@@ -98,8 +98,13 @@ All other aircraft coming from YWE/WON CTA must be **Heads-up** Coordinated to M
 #### Departures
 Voiceless to all surrounding Enroute sectors for all aircraft:
  
-- Tracking via a Procedural SID terminus; and  
-- Assigned the lower of `F240` or the `RFL`
+- Assigned the lower of `F240` or the `RFL`; and
+- Tracking via any of the following:
+    - a Procedural SID terminus
+    - **MENOG**
+    - **DOTPA**
+    - **OMKON**
+    - **AV**
 
 All other aircraft going to YWE/WON CTA will be **Heads-up** Coordinated by ML TCU.
 
