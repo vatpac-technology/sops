@@ -389,9 +389,12 @@ It is based on a few key assumptions:
 #### Departures
 Voiceless to all surrounding Enroute sectors for all aircraft:
 
-- Assigned the lower of `F280` or the `RFL`; and  
-- Tracking from **SDN** or **SDS** [airspace](#airspace-division); and  
-- Tracking via a Procedural SID terminus
+- Assigned the lower of `F280` or the `RFL`; and
+- Tracking from **SDN** or **SDS** [airspace](#airspace-division); and
+- Tracking via any of the following:
+    - a Procedural SID terminus
+    - **KAMBA**
+    - **PEGSU**
 
 All other aircraft going to Enroute CTA must be **Heads-up** Coordinated to the relevant sector as soon as practical.
 
