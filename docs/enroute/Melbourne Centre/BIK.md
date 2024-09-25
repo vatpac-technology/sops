@@ -144,8 +144,8 @@ All other aircraft coming from BIK CTA must be **Heads-up** Coordinated to SY TC
 #### Departures
 Voiceless for all aircraft:
 
-- Tracking via the WOL NDB; and  
-- Assigned the lower of `F280` or the `RFL`
+- Assigned the lower of `F280` or the `RFL`; and  
+- Tracking via **WOL NDB** or **PEGSU**
 
 All other aircraft going to BIK CTA will be **Heads-up** Coordinated by SY TCU.
 
