@@ -5,10 +5,10 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name | Callsign | Frequency | Login Identifier |
+| Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | ---------------- |
-| Mackay ADC | Mackay Tower | 124.500 | MK_TWR |
-| Mackay SMC | Mackay Ground | 121.700 | MK_GND |
+| **Mackay ADC** | **Mackay Tower** | **124.500** | **MK_TWR** |
+| **Mackay SMC** | **Mackay Ground** | **121.700** | **MK_GND** |
 | Mackay ATIS |    | 128.000 | YBMK_ATIS |
 
 ## Airspace

@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name              | Callsign       | Frequency        | Login Identifier                         |
+| Name              | Callsign       | Frequency        | Login ID                         |
 | ----------------- | -------------- | ---------------- | ---------------------------------------- |
-| Launceston ADC    | Launy Tower   | 118.700    | LT_TWR                         |
+| **Launceston ADC**    | **Launy Tower**   | **118.700**    | **LT_TWR**                         |
 | Launceston ATIS       |                | 134.750          | YMLT_ATIS                                |
 
 ## Airspace

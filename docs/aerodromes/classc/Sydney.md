@@ -6,7 +6,7 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login Identifier                         |
+| Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Sydney ADC West**    | **Sydney Tower**   | **120.500**          | **SY_TWR**                                   |
 | Sydney ADC East†   | Sydney Tower   | 124.700          | SY-E_TWR                                 |

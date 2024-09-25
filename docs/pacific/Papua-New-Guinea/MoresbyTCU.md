@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name                    | Login     | Callsign         | Frequency |
+| Name                    | Callsign         | Frequency | Login ID    |
 | ----------------------- | --------- | ---------------- | --------- |
-| Port Moresby Approach| 	AYPY_APP	| Jacksons Radar	| 125.800| 
+| **Port Moresby Approach** | **Jacksons Radar**	| **125.800** | **AYPY_APP**	| 
 
 ## Airspace
 The vertical limits of the Port Moresby TCU are `SFC` to `A150`.

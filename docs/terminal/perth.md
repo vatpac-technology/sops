@@ -4,7 +4,7 @@
 
 --8<-- "includes/abbreviations.md"
 
-| Name | ID | Callsign | Frequency | Login Identifier |
+| Name | ID | Callsign | Frequency | Login ID |
 | -----| -- | -------- | --------- | ---------------- |
 | **Perth Approach** |**PHA**| **Perth Approach**  | **123.600** | **PH_APP**| 
 | Perth Departures†  |PHD| Perth Departures  | 118.700 | PH_DEP |

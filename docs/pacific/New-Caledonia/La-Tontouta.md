@@ -6,11 +6,11 @@
 
 ## Positions
 
-| Name                    | Login    | Callsign         | Frequency |
+| Name                    | Callsign         | Frequency | Login ID   |
 | ----------------------- | --------- | ---------------- | --------- |
-| Tontouta ADC| 	NWWW_TWR| Tontouta Tower| 	118.100|
-| Tontouta SMC| NWWW_GND | Tontouta Ground| 121.700 |
-| Tontouta ATIS| 	NWWW_ATIS	| | 126.200|
+| **Tontouta ADC** | **Tontouta Tower** | **118.100** | **NWWW_TWR** |
+| **Tontouta SMC** | **Tontouta Ground** | **121.700** | **NWWW_GND** |
+| Tontouta ATIS | | 126.200 | NWWW_ATIS	|
 
 ## Airspace
 

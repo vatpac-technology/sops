@@ -5,11 +5,11 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login Identifier                         |
+| Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| Cairns ADC    | Cairns Tower   | 124.900          |  CS_TWR                 |
-| Cairns SMC    | Cairns Ground   | 121.700          |  CS_GND               |
-| Cairns ACD    | Cairns Delivery   | 128.750          |  CS_DEL                  |
+| **Cairns ADC**    | **Cairns Tower**   | **124.900**          |  **CS_TWR**                 |
+| **Cairns SMC**    | **Cairns Ground**   | **121.700**          |  **CS_GND**               |
+| **Cairns ACD**    | **Cairns Delivery**   | **128.750**          |  **CS_DEL**                  |
 | Cairns ATIS        |                | 131.100          | YBCS_ATIS                                |
 
 ## Airspace

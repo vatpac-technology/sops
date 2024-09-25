@@ -6,11 +6,11 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login Identifier                         |
+| Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| Adelaide ADC    | Adelaide Tower   | 120.500          | AD_TWR                                   |
-| Adelaide SMC    | Adelaide Ground  | 121.700          | AD_GND                                   |
-| Adelaide ACD         | Adelaide Delivery| 126.100          | AD_DEL                                   |
+| **Adelaide ADC**    | **Adelaide Tower**   | **120.500**          | **AD_TWR**                                   |
+| **Adelaide SMC**    | **Adelaide Ground**  | **121.700**          | **AD_GND**                                   |
+| **Adelaide ACD**         | **Adelaide Delivery** | **126.100**          | **AD_DEL**                                   |
 | Adelaide ATIS        |                | 134.500         | YPAD_ATIS                                |
 
 ## Airspace

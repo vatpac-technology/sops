@@ -6,11 +6,11 @@
 
 ## Positions
 
-| Name | Callsign | Frequency | Login Identifier |
+| Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | ---------------- |
-| Karratha SMC | Karratha Ground | 123.550 | KA_GND |
-| Karratha ADC | Karratha Tower | 127.350 | KA_TWR |
-| Karratha ATIS | N/A | 134.550 | YPKA_ATIS |
+| **Karratha ADC** | **Karratha Tower** | **127.350** | **KA_TWR** |
+| **Karratha SMC** | **Karratha Ground** | **123.550** | **KA_GND** |
+| Karratha ATIS |  | 134.550 | YPKA_ATIS |
 
 ## Airspace
 <figure markdown>

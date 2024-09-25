@@ -5,10 +5,10 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login Identifier                         |
+| Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| Moorabbin ADC  | Moorabbin Tower  | 118.100         | MB_TWR                        |
-| Moorabbin SMC   | Moorabbin Ground   | 134.250          | MB_GND                       |
+| **Moorabbin ADC**  | **Moorabbin Tower**  | **118.100**         | **MB_TWR**                        |
+| **Moorabbin SMC**   | **Moorabbin Ground**   | **134.250**          | **MB_GND**                       |
 | Moorabbin ATIS        |                | 120.900          | YMMB_ATIS                               |
 
 ## Airspace

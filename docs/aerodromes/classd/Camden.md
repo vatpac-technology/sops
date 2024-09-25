@@ -6,10 +6,10 @@
 
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login Identifier                         |
+| Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| Camden ADC | Camden Tower | 120.100          | CN_TWR                        |
-| Camden SMC  | Camden Ground   | 121.900          | CN_GND                      |
+| **Camden ADC** | **Camden Tower** | **120.100**          | **CN_TWR**                        |
+| **Camden SMC**  | **Camden Ground**   | **121.900**          | **CN_GND**                      |
 | Camden ATIS        |                | 125.100          | YSCN_ATIS                                |
 
 ## Airspace

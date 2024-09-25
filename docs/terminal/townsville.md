@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login Identifier              |
+| Name               | Callsign       | Frequency        | Login ID              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
-| Townsville Approach    | Townsville Approach   | 126.800         | TL_APP                                   |
+| **Townsville Approach**    | **Townsville Approach**   | **126.800**         | **TL_APP**                                   |
 
 ## Airspace
 ### TCU

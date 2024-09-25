@@ -7,7 +7,7 @@
 
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
-| Huon | Melbourne Centre | 122.600 | ML-HUO_CTR |
+| **Huon** | **Melbourne Centre** | **122.600** | **ML-HUO_CTR** |
 
 ### CPDLC
 
