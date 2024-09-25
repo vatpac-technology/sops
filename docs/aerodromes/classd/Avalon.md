@@ -5,9 +5,9 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login Identifier                         |
+| Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| Avalon ADC      | Avalon Tower   | 120.100          | AV_TWR                                   |
+| **Avalon ADC**      | **Avalon Tower**   | **120.100**          | **AV_TWR**                                   |
 | Avalon ATIS     |                | 118.200         | YMAV_ATIS                                |
 
 ## Airspace

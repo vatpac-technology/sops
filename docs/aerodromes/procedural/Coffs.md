@@ -5,10 +5,10 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name | Callsign | Frequency | Login Identifier |
+| Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | ---------------- |
-| Coffs Harbour ADC | Coffs Tower | 118.200 | CFS_TWR |
-| Coffs Harbour ATIS | N/A | 130.300 | YCFS_ATIS |
+| **Coffs Harbour ADC** | **Coffs Tower** | **118.200** | **CFS_TWR** |
+| Coffs Harbour ATIS |  | 130.300 | YCFS_ATIS |
 
 ## Airspace
 <figure markdown>

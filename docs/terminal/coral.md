@@ -6,10 +6,10 @@
 
 ## Positions
 
-| Name               | ID      | Callsign       | Frequency        | Login Identifier              |
+| Name               | ID      | Callsign       | Frequency        | Login ID              |
 | ------------------ | --------------| -------------- | ---------------- | ---------------------|
-| Mackay Approach  | MKA | Coral Approach  | 125.650       | MK_APP    |
-| Rockhampton Approach  | RKA | Coral Approach   | 123.750        | RK_APP                 |
+| **Mackay Approach**  | **MKA** | **Coral Approach**  | **125.650**       | **MK_APP**    |
+| **Rockhampton Approach**  | **RKA** | **Coral Approach**   | **123.750**        | **RK_APP**                 |
 
 ## Airspace
 The Coral TCU includes the airspace `SFC` to `F150` within the Mackay and Rockhampton keyholes (shown below).  

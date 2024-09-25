@@ -6,11 +6,11 @@
 
 ## Positions
 
-| Name                    | Login     | Callsign         | Frequency |
+| Name                    | Callsign         | Frequency | Login ID    |
 | ----------------------- | --------- | ---------------- | --------- |
-| Port Vila Centre	| NVVV_CTR	| Vila Centre| 	120.700| 
-| Port Vila Tower	| NVVV_TWR	| Vila Tower	| 118.300| 
-| Port Villa ATIS	| NVVV_ATIS	 	| | 126.400| 
+| **Port Vila Centre**	| **Vila Centre**| 	**120.700** | **NVVV_CTR**	| 
+| **Port Vila ADC**	| **Vila Tower**	| **118.300** | **NVVV_TWR**	| 
+| Port Villa ATIS	| | 126.400 | NVVV_ATIS	 	| 
 
 
 Port Vila Class D CTA exists:  

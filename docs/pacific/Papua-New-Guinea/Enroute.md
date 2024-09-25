@@ -6,6 +6,6 @@
 
 ## Positions
 
-| Name                    | Login     | Callsign         | Frequency |
+| Name                    | Callsign         | Frequency | Login ID    |
 | ----------------------- | --------- | ---------------- | --------- |
-| Port Moresby Centre| 	AYPM_CTR| 	Moresby Control| 	123.400| 
+| **Port Moresby Centre** | **Moresby Control** | **123.400** | **AYPM_CTR** |

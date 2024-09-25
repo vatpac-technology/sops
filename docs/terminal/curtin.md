@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login Identifier              |
+| Name               | Callsign       | Frequency        | Login ID              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
-| Curtin TCU   | Curtin Approach   | 121.000        | CIN_APP                                   |
+| **Curtin TCU**   | **Curtin Approach**   | **121.000**        | **CIN_APP**                                   |
 
 ## Airspace
 The limits of the CIN TCU are `SFC` to `F200` within 25 DME CIN. This may be amended by NOTAM.

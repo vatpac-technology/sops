@@ -6,12 +6,12 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login Identifier              |
+| Name               | Callsign       | Frequency        | Login ID              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
-| Nowra ADC    | Nowra Tower  | 118.850         | NW_TWR        |
-| Nowra SMC   | Nowra Ground  | 135.850         | NW_GND        |
-| Nowra ACD    | Nowra Delivery  | 128.350         | NW_DEL       |
-| Nowra ATIS    | | 125.65         | YSNW_ATIS       |
+| **Nowra ADC**    | **Nowra Tower**  | **118.850**         | **NW_TWR**        |
+| **Nowra SMC**   | **Nowra Ground**  | **135.850**        | **NW_GND**        |
+| **Nowra ACD**    | **Nowra Delivery**  | **128.350**         | **NW_DEL**       |
+| Nowra ATIS    |  | 125.65         | YSNW_ATIS       |
 
 
 ## Airspace

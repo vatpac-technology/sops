@@ -6,11 +6,11 @@
 
 ## Positions
 
-| Name                    | Login     | Callsign         | Frequency |
+| Name                    | Callsign         | Frequency | Login     |
 | ----------------------- | --------- | ---------------- | --------- |
-| Port Moresby Tower| 	AYPY_TWR	| Jacksons Tower	| 118.100| 
-| Port Moresby SMC| 	AYPY_GND| 	Jacksons Ground	| 121.700| 
-| Port Moresby ATIS|	AYPY_ATIS	| |  	128.000| 
+| **Port Moresby ADC** | **Jacksons Tower**	| **118.100** | **AYPY_TWR**	| 
+| **Port Moresby SMC** | **Jacksons Ground**	| **121.700** | **AYPY_GND** | 
+| Port Moresby ATIS | |  	128.000 | AYPY_ATIS	| 
 
 ## Airspace
 

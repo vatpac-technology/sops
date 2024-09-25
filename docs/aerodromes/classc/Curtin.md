@@ -6,11 +6,11 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login Identifier              |
+| Name               | Callsign       | Frequency        | Login ID              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
-| Curtin ADC    | Curtin Tower  | 118.300         | CIN_TWR        |
-| Curtin SMC    | Curtin Ground  | 126.200      | CIN_GND        |
-| Curtin ACD    | Curtin Delivery  | 136.800         | CIN_DEL       |
+| **Curtin ADC**    | **Curtin Tower**  | **118.300**         | **CIN_TWR**        |
+| **Curtin SMC**    | **Curtin Ground**  | **126.200**      | **CIN_GND**        |
+| **Curtin ACD**    | **Curtin Delivery**  | **136.800**         | **CIN_DEL**       |
 | Curtin ATIS    |   | 134.800         | YCIN_ATIS       |
 
 ## Airspace
