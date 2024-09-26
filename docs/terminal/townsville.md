@@ -45,7 +45,7 @@ Voiceless for all aircraft:
 
 - With ADES **YBTL**; and  
 - Assigned a STAR; and  
-- Assigned `A100`
+- Assigned `A090`
 
 All other aircraft coming from TBP CTA will be **Heads-up** Coordinated to TL TCU.
 
