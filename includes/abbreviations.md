@@ -108,6 +108,8 @@
 *[GOL]: Brisbane (Gold Coast) Centre
 *[KPL]: Brisbane (Keppel) Centre
 *[KIY]: Brisbane (Kimberley) Centre
+*[ASH]: Brisbane (Ashmore) Centre
+*[TRS]: Brisbane (Territory South) Centre
 *[MLD]: Brisbane (Maitland) Centre
 *[MNN]: Brisbane (Manning) Centre
 *[MDE]: Brisbane (Mudgee) Centre
