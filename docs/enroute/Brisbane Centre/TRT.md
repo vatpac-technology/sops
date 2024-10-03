@@ -7,8 +7,10 @@
 ## Positions
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
-| **Territory** | **Brisbane Centre** | **133.200** | **BN-TRT_CTR** |
-| Kimberley† | Brisbane Centre | 133.400 | BN-KIY_CTR |
+| **Territory North** | **Brisbane Centre** | **123.850** | **BN-TRT_CTR** |
+| Territory South† | Brisbane Centre | 133.200 | BN-TRS_CTR |
+| Ashmore† | Brisbane Centre | 133.400 | BN-ASH_CTR |
+| Kimberley† | Brisbane Centre | 132.100 | BN-KIY_CTR |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
@@ -27,19 +29,19 @@ Voice may be used in lieu when applicable.
   <figcaption>Territory Airspace</figcaption>
 </figure>
 
-TRT is responsible for **KIY** when they are offline.  
+TRT is responsible for **TRS**, **ASH**, and **KIY**,  when they are offline.  
 
 ### Reclassifications
 #### BRM CTR
-When **BRM ADC** is offline, BRM CTR (Class D/E `SFC` to `A055`) reverts to Class G, and is administered by KIY. Alternatively, KIY may provide a [top-down procedural service](../../../aerodromes/Broome) if they wish.
+When **BRM ADC** is offline, BRM CTR (Class D/E `SFC` to `A055`) reverts to Class G, and is administered by ASH. Alternatively, ASH may provide a [top-down procedural service](../../../aerodromes/Broome) if they wish.
 
 !!! tip
     If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
 
 ## Sector Responsibilities
-TRT is responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YPDN.  
-KIY is responsible for issuing descent and ascertaining arrival intentions for aircraft bound for YBRM.
-KIY is also responsible for sequencing and issuing descent to aircraft bound for YCIN.
+TRT and TRS are responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YPDN.  
+ASH is responsible for issuing descent and ascertaining arrival intentions for aircraft bound for YBRM.
+ASH is also responsible for sequencing and issuing descent to aircraft bound for YCIN.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -47,14 +49,14 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| STR, KIY | TRT | YPDN | |
+| ASH, KIY | TRT, TRS | YPDN | |
 
 ### First Contact
 Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| STR, KIY, ISA(ARA) | TRT | YPDN | |
+| KIY, ASH, ISA(ARA/STR) | TRT, TRS | YPDN | |
 
 ## Coordination
 
@@ -96,14 +98,14 @@ All other aircraft going to TRT CTA will be **Heads-up** Coordinated by DN TCU.
 BRM ADC is responsible for the Class D airspace `SFC` to `A055`, as well as the Class E airspace `1200ft AGL` to `A055`, within the BRM CTR.
 
 #### Departures
-Departures from YBRM in to KIY CTA will be coordinated when ready for departure.  
+Departures from YBRM in to ASH CTA will be coordinated when ready for departure.  
 
 !!! example
-    <span class="hotline">**BRM ADC** -> **KIY**</span>: "Next, ANO333"  
-    <span class="hotline">**KIY** -> **BRM ADC**</span>: "ANO333, Unrestricted"  
-    <span class="hotline">**BRM ADC** -> **KIY**</span>: "ANO333"  
+    <span class="hotline">**BRM ADC** -> **ASH**</span>: "Next, ANO333"  
+    <span class="hotline">**ASH** -> **BRM ADC**</span>: "ANO333, Unrestricted"  
+    <span class="hotline">**BRM ADC** -> **ASH**</span>: "ANO333"  
 
-The Standard Assignable level from BRM ADC to TRT(KIY) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
+The Standard Assignable level from BRM ADC to TRT(ASH) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
 
 #### Arrivals
 YBRM arrivals shall be heads-up coordinated to **BRM ADC** from TRT prior to **5 mins** from the boundary.
@@ -112,22 +114,22 @@ YBRM arrivals shall be heads-up coordinated to **BRM ADC** from TRT prior to **5
     <span class="hotline">**TRT** -> **BRM ADC**</span>: "Via SAFIR, FD621”  
     <span class="hotline">**BRM ADC** -> **TRT**</span>: "FD621"  
 
-The Standard Assignable level from TRT(KIY) to BRM ADC is `A060`, any other level must be prior coordinated.
+The Standard Assignable level from TRT(ASH) to BRM ADC is `A060`, any other level must be prior coordinated.
 
 ### CIN TCU
 #### Airspace
 The limits of the CIN TCU are `SFC` to `F200` within 25 DME CIN. This may be amended by NOTAM.
 
 #### Arrivals/Overfliers
-The Standard assignable level from TRT(KIY) to CIN TCU is `F130`, tracking via CIN VOR.
+The Standard assignable level from TRT(ASH) to CIN TCU is `F130`, tracking via CIN VOR.
 
 All other aircraft must be voice coordinated to CIN TCU prior to **20nm** from the boundary.
 
 #### Departures
-The Standard Assignable level from CIN TCU to TRT(KIY) is `F190`, and tracking via their planned route.
+The Standard Assignable level from CIN TCU to TRT(ASH) is `F190`, and tracking via their planned route.
 
 #### CIN ADC
-When CIN TCU is offline, coordination is not required between TRT(KIY) and CIN ADC. Aircraft entering CIN ADC airspace shall be handed off, and instructed to contact CIN ADC for onwards clearance.
+When CIN TCU is offline, coordination is not required between TRT(ASH) and CIN ADC. Aircraft entering CIN ADC airspace shall be handed off, and instructed to contact CIN ADC for onwards clearance.
 
 CIN ADC owns the Class C airspace within the CIN MIL CTR from `SFC` to `A015`.
 
