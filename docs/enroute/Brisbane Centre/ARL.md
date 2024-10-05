@@ -151,7 +151,7 @@ All other aircraft coming from ARL CTA must be **Heads-up** Coordinated to SY TC
 Voiceless for all aircraft:
 
 - Assigned the lower of `F280` or the `RFL`; and
-- Tracking from **SDN** or **SDS** [airspace](#airspace-division); and
+- Tracking from **SDN** or **SDS** [airspace](../../../terminal/sydney/#airspace-division); and
 - Tracking via any of the following:
     - a Procedural SID terminus
     - **KAMBA**
