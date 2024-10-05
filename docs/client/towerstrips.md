@@ -161,6 +161,11 @@ Right mouse click on the yellow SID highlight to open the Reroute menu. From her
 - add bars for positions
 - add example screenshot at SY
 
+<figure markdown>
+![Handling Multiple Positions](../controller-skills/img/ozstripsworkflowbars.png){ width="800" }
+    <figcaption>An example of the SMC layout with custom bars to differentiate between SMC positions</figcaption>
+</figure>
+
 ## Workload Management
 While the use of OzStrips can aid situational awareness, it is ideal to be used in such a manner that it doesn't negatively impact your productivity.
 
