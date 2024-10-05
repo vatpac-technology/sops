@@ -115,6 +115,7 @@ If multiple aircraft request clearance at once, [queue](#queue-management) the s
 
 <figure markdown>
 ![ACD Workflow](../controller-skills/img/ozstripsworkflowacd.png){ width="800" }
+    <figcaption>An example of the ACD layout and workflow</figcaption>
 </figure>
 
 #### Flight Plan Errors
@@ -122,12 +123,14 @@ OzStrips will flag any potentially invalid routes and incorrect hemispherical le
 
 <figure markdown>
 ![Invalid Level](../controller-skills/img/ozstripsbadlevel.png){ width="600" }
+    <figcaption>A potentially invalid level, shown by the red background on the CFL box</figcaption>
 </figure>
 
 Right mouse click on the yellow SID highlight to open the Reroute menu. From here, controllers can select a more compliant route. The [VATPAC Tools](https://vatpac.org/membership-hub/tools){target=new} page can be helpful to double check these routes.
 
 <figure markdown>
 ![Invalid Route](../controller-skills/img/ozstripsbadroute.png){ width="600" }
+    <figcaption>A potentially invalid route, shown by the yellow background on the SID box</figcaption>
 </figure>
 
 ### Coordinator
@@ -138,6 +141,7 @@ Right mouse click on the yellow SID highlight to open the Reroute menu. From her
 
 <figure markdown>
 ![SMC Workflow](../controller-skills/img/ozstripsworkflowsmc.png){ width="800" }
+    <figcaption>An example of the SMC layout and workflow</figcaption>
 </figure>
 
 ### Tower
@@ -150,6 +154,7 @@ Right mouse click on the yellow SID highlight to open the Reroute menu. From her
 
 <figure markdown>
 ![ADC Workflow](../controller-skills/img/ozstripsworkflowadc.png){ width="800" }
+    <figcaption>An example of the ADC layout and workflow</figcaption>
 </figure>
 
 ### Handling Multiple Positions
