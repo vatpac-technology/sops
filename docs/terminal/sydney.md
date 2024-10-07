@@ -397,6 +397,9 @@ Voiceless to all surrounding Enroute sectors for all aircraft:
   <figcaption>SY TCU Voiceless Coordination Corridors</figcaption>
 </figure>
 
+!!! note
+    This means that aircraft can be tracking via **any point** along an aircraft's flight planned route (eg, **LEECE** or **BANDA**), as long as they enter Enroute airspace in the *green shaded corridor*
+
 All other aircraft going to Enroute CTA must be **Heads-up** Coordinated to the relevant sector as soon as practical.
 
 !!! example
