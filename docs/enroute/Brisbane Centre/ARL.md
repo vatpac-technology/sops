@@ -165,7 +165,7 @@ Additionally, Voiceless Coordination exists from SY TCU for aircraft:
 
 - With ADES **YWLM**; and  
 - Assigned a STAR; and  
-- Tracking from **SDN** or **SDS** [airspace](#airspace-division); and  
+- Tracking from **SDN** or **SDS** [airspace](../../../terminal/sydney/#airspace-division); and  
 - Assigned the lower of `F130` or the `RFL`
 
 !!! note
