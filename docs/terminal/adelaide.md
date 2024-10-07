@@ -107,7 +107,7 @@ The times assume there is *Nil wind*.
     - Add only **1 minute** for ^
 
 !!! note
-    The adjustments above are **cumulative**. For example, an aircraft with a **MX** on the **16M STAR**, would have **3 minutes** subtracted in total
+    The adjustments above are **cumulative**. For example, an **Non-Jet** aircraft assigned a **reduced speed**, would have **3 minutes** added in total
 
 ### Non-Jets
 
@@ -146,6 +146,9 @@ Voiceless for all aircraft:
  
 - Tracking via a Procedural SID terminus; and  
 - Assigned the lower of `F240` or the `RFL`
+
+!!! note
+    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
 
 All other aircraft going to TBD CTA must be **Heads-up** Coordinated by AD TCU prior to the boundary.
 

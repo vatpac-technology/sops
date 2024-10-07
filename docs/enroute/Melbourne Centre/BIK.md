@@ -144,8 +144,13 @@ All other aircraft coming from BIK CTA must be **Heads-up** Coordinated to SY TC
 #### Departures
 Voiceless for all aircraft:
 
-- Assigned the lower of `F280` or the `RFL`; and  
-- Tracking via **WOL NDB** or **PEGSU**
+- Assigned the lower of `F280` or the `RFL`; and
+- that enter BIK airspace via any of the *Green Shaded Corridors* below
+
+<figure markdown>
+![SY TCU Voiceless Coordination Corridors](../assets/sytcucoordgate.png){ width="700" }
+  <figcaption>SY TCU Voiceless Coordination Corridors</figcaption>
+</figure>
 
 All other aircraft going to BIK CTA will be **Heads-up** Coordinated by SY TCU.
 

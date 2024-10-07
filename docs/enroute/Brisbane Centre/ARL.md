@@ -151,12 +151,25 @@ All other aircraft coming from ARL CTA must be **Heads-up** Coordinated to SY TC
 Voiceless for all aircraft:
 
 - Assigned the lower of `F280` or the `RFL`; and
-- Tracking from **SDN** or **SDS** [airspace](#airspace-division); and
-- Tracking via any of the following:
-    - a Procedural SID terminus
-    - **KAMBA**
+- that enter ARL airspace via any of the *Green Shaded Corridors* below, excluding [YWLM Arrivals](#ywlm-arrivals)
+
+<figure markdown>
+![SY TCU Voiceless Coordination Corridors](../assets/sytcucoordgate.png){ width="700" }
+  <figcaption>SY TCU Voiceless Coordination Corridors</figcaption>
+</figure>
 
 All other aircraft going to ARL CTA will be **Heads-up** Coordinated by SY TCU.
+
+##### YWLM Arrivals
+Additionally, Voiceless Coordination exists from SY TCU for aircraft:
+
+- With ADES **YWLM**; and  
+- Assigned a STAR; and  
+- Tracking from **SDN** or **SDS** [airspace](#airspace-division); and  
+- Assigned the lower of `F130` or the `RFL`
+
+!!! note
+    YWLM arrivals are handed off to MLD, not directly to WLM TCU, unless coordinated as such
 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
