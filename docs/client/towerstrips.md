@@ -177,6 +177,9 @@ When an aircraft arrives at their nominated parking position, [inhibit](#control
 #### Runway Crossings
 For aircraft who need to cross an active runway, first coordinate with ADC, then select the strip and use the [XX CROSS XX](#control-bar) button to highlight it as a runway crossing. ADC will place the `XXX CROSSING XXX` [bar](#control-bar) in the **Runway Bay** to prevent inadvertent takeoff or landing clearances from being issued. Once the aircraft is clear, remove the crossing highlight.
 
+!!! tip
+    You can quickly toggle the crossing highlight by selecting an aircraft and pressing `X`.
+
 <figure markdown>
 ![Runway Crossing](../controller-skills/img/ozstripsrunwaycrossing.png){ width="700" }
     <figcaption>BAW15 instructed to cross runway 27, with the **Runway Bay** blocked out</figcaption>
@@ -224,6 +227,9 @@ After the aircraft vacates the runway, move the strip to the **Taxi Bay**.
 
 #### Runway Crossings
 Aircraft who need to cross an active runway will be coordinated by SMC. When approval is given for the runway crossing, place the `XXX CROSSING XXX` [bar](#control-bar) in the **Runway Bay** to prevent inadvertent takeoff or landing clearances from being issued. SMC will highlight the aircraft's strip to denote it as a runway crossing. Once the aircraft is clear, remove the bar.
+
+!!! tip
+    You can quickly add a Crossing bar to the **Runway Bay** by pressing `ALT + X`. To remove the bar, select it, then press `BACKSPACE`.
 
 <figure markdown>
 ![Runway Crossing](../controller-skills/img/ozstripsrunwaycrossing.png){ width="700" }

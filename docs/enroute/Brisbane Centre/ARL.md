@@ -254,3 +254,8 @@ All other aircraft coming from ARL CTA must be **Heads-up** Coordinated to WLM T
 
 ### TSN/HWE (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+
+Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
+
+!!! example
+    **ARL**: "QFA121, identification terminated, report position to Brisbane Radio, 126.45"
