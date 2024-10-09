@@ -322,13 +322,14 @@ To open Coordinator:
 
 1. **SMC** and **COORD** coordinate to implement the procedure.
 2. **SMC** coordinates with **ADC** in order to have the [ATIS](#operational-info) updated to include `WHEN READY FOR PUSH BACK OR TAXI CTC COORDINATOR 127.6`.
+3. **ACD** places the `MONITOR GROUND` bar in the **Cleared Bay** in [OzStrips](../../client/towerstrips.md#coordinator).
 
 To operate with Coordinator open:  
 
 1. When **ACD** has finished issuing an airways clearance, they will **handoff** pilots to Coordinator using *"contact Coordinator 127.6 for pushback"* OR **remind** pilots to *"contact me when ready for pushback"* (during combined ACD and COORD).  
 2. When a pilot requests pushback, **COORD** will assess their priority based on apron congestion and number of aircraft in the queue (see [Queue Management](#queue-management)).  
 3. **COORD** will either instruct them to **monitor** *(not contact)* SMC, or remain on the Coordinator frequency if a delay is required.  
-4. If an aircraft is instructed to monitor SMC, **COORD** will move the strip to the **Queue** section of the **Cleared** bay in [OzStrips](../../../client/towerstrips/), to denote they are awaiting pushback approval.  
+4. If an aircraft is instructed to monitor SMC, **COORD** will move the strip below the **Monitor Ground** bar in the **Queue** section of the **Cleared Bay** in [OzStrips](../../client/towerstrips.md#coordinator), to denote they are awaiting pushback approval.  
 5. When **SMC** has adequate space on the aprons, taxiways, and holding point, they will issue pushback/taxi to the next aircraft in line by scanning the [Cleared Queue bay](../../../client/towerstrips/#stripboard).
 
 The decision whether or not to send an aircraft to SMC or hold them on the Coordinator frequency should be made in accordance with the [Queue Management](#queue-management) techniques.
@@ -360,17 +361,17 @@ If a delay is required prior to transferring an aircraft to SMC, provide an esti
     **SY COORD:** "VOZ543, estimated delay 10 minutes, remain this frequency."
 
 #### Queue Management
-To reduce SMC workload, Coordinator should not allow more than **three** aircraft to be awaiting pushback or taxi on the SMC frequency. When three aircraft are already queued on the SMC frequency, any additional aircraft should be told to remain on the Coordinator frequency and informed of their position in the queue or approximate delay (if known). It may be helpful to cock these strips and move them to the bottom of the bay, creating a queue of aircraft waiting for frequency transfer.
+To reduce SMC workload, ACD should not allow more than **three** aircraft to be awaiting pushback or taxi on the SMC frequency. When three aircraft are already queued on the SMC frequency, any additional aircraft should be told to remain on the ACD frequency and informed of their position in the queue or approximate delay (if known). These aircraft should be placed in the **Cleared Bay Queue**, above the **Monitor Ground** bar.
 
 <figure markdown>
-![Coordinator Ops with OzStrips](img/coordinator-ozstrips.png){ width="700" }
-  <figcaption>Coordinator Ops with OzStrips<br><small>Three aircraft are monitoring SMC (below the Queue bar), and QLK150D and VOZ845 have both requested push/taxi but are being held on the Coordinator frequency. QLK150D is closer to the bottom, so will be next to be told to monitor SMC.</small></figcaption>
+![Coordinator Ops with OzStrips](../../controller-skills/img/ozstripscoordinator.png){ width="800" }
+  <figcaption>Coordinator Ops with OzStrips<br><small>Three aircraft are monitoring SMC (below the Queue bar), and QFA121 and RXA6416 have both requested push/taxi but are being held on the Coordinator frequency. QFA121 is closer to the bottom, so will be next to be told to monitor SMC.</small></figcaption>
 </figure>
 
-When SMC moves an aircraft from the **Cleared Queue** to the **Pushback bay**, Coordinator should instruct the next aircraft in line to monitor the SMC frequency.
+When SMC moves an aircraft from below the **Monitor Ground** bar to the **Pushback Bay**, Coordinator should instruct the next aircraft in line to monitor the SMC frequency (and move the strip appropriately).
 
 !!! important
-    Strips must remain in the strip bay of their **current state**, even if they are in a queue. For example, if they have received an airways clearance and are in the queue for pushback, they must remain in the **Cleared** bay, **not** the Pushback bay.
+    Strips must remain in the strip bay of their **current state**, even if they are in a queue. For example, if they have received an airways clearance and are in the queue for pushback, they must remain in the **Cleared Bay**, **not** the Pushback Bay.
 
 #### Start Approval
 When delays for taxi are excessive (e.g. 15–30 minutes), it may be necessary to include the following ATIS OPR INFO: `START APPROVAL RQ. WHEN READY FOR PUSH BACK OR ENGINE START, CTC SYDNEY COORDINATOR ON FREQ 127.6, FOR START TIME`. This will ensure aircraft don't end up burning considerable amounts of fuel and potentially disrupting the latter parts of the flight (with insufficient fuel for lengthy en-route sequencing or holds).

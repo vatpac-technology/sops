@@ -122,7 +122,7 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | BAR | KEN | YBTL | |
 | TSN(All) | KEN(All) | YBCS, YBTL | |
 
-See [Cairns STAR Clearance](#cairns-star-clearance) for instructions on issuing STAR clearances.
+See [Cairns STAR Clearance](#ybcs-star-clearances) for instructions on issuing STAR clearances.
 
 ## Coordination
 ### CS TCU
