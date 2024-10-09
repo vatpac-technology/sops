@@ -27,7 +27,7 @@ Surveillance coverage can be expected to be available at all levels in the KA CT
 
 ## Coordination
 ### Departures
-A 'next' call is made for all aircraft when they are next to depart. KA ADC must inform OLW if the aircraft does not depart within **2 minutes** of the next call.
+A 'next' call is made for all aircraft entering OLW CTA when they are next to depart. KA ADC must inform OLW if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
     <span class="hotline">**KA ADC** -> **OLW**</span>: "Next, NWK694"  

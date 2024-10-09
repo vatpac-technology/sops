@@ -53,7 +53,8 @@ YMLT ATIS identifiers range from `A` to `M`, as YMHB uses `N` through `Y`.
 'Next' coordination is not required to LTA for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  
   b) Assigned the standard assignable level; and  
-  c) Assigned a SID
+  c) Assigned a SID; or  
+  d) Not entering LTA CTA
 
 All other aircraft require a 'Next' call to LTA.
 

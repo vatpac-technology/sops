@@ -32,6 +32,9 @@ Voiceless for all aircraft:
 - Tracking via a Procedural SID terminus; and  
 - Assigned the lower of `F240` or the `RFL`
 
+!!! note
+    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+
 All other aircraft going to ELW/BIK CTA must be **Heads-up** Coordinated by CB TCU prior to the boundary.
 
 !!! example

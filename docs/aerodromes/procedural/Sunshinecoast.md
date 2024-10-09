@@ -33,7 +33,7 @@ All other aircraft may be assigned a visual departure, or a standard IFR departu
 
 ## Coordination
 ### Departures
-A 'next' call is made for all aircraft when they are next to depart. SU ADC must inform INL(NSA/BUR) if the aircraft does not depart within **2 minutes** of the next call.
+A 'next' call is made for all aircraft entering INL(NSA/BUR) CTA when they are next to depart. SU ADC must inform INL(NSA/BUR) if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
     <span class="hotline">**SU ADC** -> **NSA**</span>: "Next, BNZ133, runway 31"  

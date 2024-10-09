@@ -26,7 +26,7 @@ Surveillance coverage can be expected to be available at all levels in the AY CT
 
 ## Coordination
 ### Departures
-A 'Next' call is made for all aircraft when they are next to depart. AY ADC must inform ELW(BLA) if the aircraft does not depart within **2 minutes** of the next call.
+A 'Next' call is made for all aircraft entering ELW(BLA) CTA when they are next to depart. AY ADC must inform ELW(BLA) if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
     <span class="hotline">**AY ADC** -> **BLA**</span>: "Next, AM324"  

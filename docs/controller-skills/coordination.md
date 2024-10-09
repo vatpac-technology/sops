@@ -181,6 +181,9 @@ Heads-up coordinate all other aircraft by **20nm** to boundary.
 ### TCU -> ENR
 **Voiceless** for aircraft assigned lower of standard assignable level or RFL, and tracking via a Procedural SID terminus.
 
+!!! note
+    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+
 Heads-up coordinate all other aircraft by the boundary.
 
 ### ENR -> ENR

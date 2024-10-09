@@ -122,7 +122,7 @@ Due to the low level of CTA (`A035`) in the CG CTR when **CG ADC** is offline, i
 Voiceless for aircraft:
 
 - With ADEP **YBBN**  
-    - Tracking via a Procedural SID terminus; and  
+    - Tracking via a Procedural SID terminus^; and  
     - Assigned the lower of `F180` or the `RFL`  
 - With ADEP **YBCG**  
     - Tracking via **APAGI** and assigned the lower of `F120` or the `RFL`; or    
@@ -130,6 +130,9 @@ Voiceless for aircraft:
 - With ADES **YBSU**  
     - Assigned the **ITIDE** STAR; and  
     - Assigned `F130`
+
+!!! note
+    ^Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
 
 All other aircraft going to INL CTA must be **Heads-up** Coordinated by BN TCU prior to the boundary. This includes YBCG departures to the North that clip INL(GOL) airspace before re-entering BN TCU airspace
 

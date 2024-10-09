@@ -26,7 +26,7 @@ Surveillance coverage can be expected to be available at all levels in the BRM C
 
 ## Coordination
 ### Departures
-A 'next' call is made for all aircraft when they are next to depart. BRM ADC must inform TRT(ASH) if the aircraft does not depart within **2 minutes** of the next call.
+A 'next' call is made for all aircraft entering TRT(ASH) CTA when they are next to depart. BRM ADC must inform TRT(ASH) if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
     <span class="hotline">**BRM ADC** -> **ASH**</span>: "Next, NWK1653"  
