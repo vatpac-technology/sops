@@ -82,6 +82,11 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 ### TSN(COL) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
 
+Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
+
+!!! example
+    **ISA**: "QFA121, identification terminated, report position to Brisbane Radio, 126.45"
+
 ### International (AYPM)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
 

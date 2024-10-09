@@ -65,5 +65,21 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 ### TSN Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
 
+!!! important
+    Aircraft separated by a surveillance separation standard must be re-established at an applicable procedural standard prior to handoff to a procedural enroute sector. 
+
+Aircraft leaving HWE in it's surveillance configuration must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
+
+!!! example
+    **HWE**: "UAE845, identification terminated, report position to Brisbane Radio, 124.65"
+
 ### Pacific Oceanic + AYPM
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+
+!!! important
+    Aircraft separated by a surveillance separation standard must be re-established at an applicable procedural standard prior to handoff to a procedural enroute sector. Aircraft entering VATNZ airspace on the same track must be either vertically separated or laterally separated by a 10 minute longitudinal standard prior to handoff.
+
+Aircraft leaving HWE in it's surveillance configuration must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
+
+!!! example
+    **HWE**: "QFA121, identification terminated, report position to Auckland Radio, 129.0"
