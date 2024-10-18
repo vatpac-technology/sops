@@ -105,3 +105,8 @@ Coordination is not required between ASP(WRA) and WR ADC. Aircraft entering WR A
 
 ### IND(INS) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+
+Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
+
+!!! example
+    **ASP**: "QFA121, identification terminated, report position to Brisbane Radio, 129.25"
