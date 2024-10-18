@@ -40,9 +40,10 @@ All other IFR aircraft shall be assigned the **Radar SID**.
 ### ML TCU
 #### Departures
 'Next' coordination is **not** required to ML TCU for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; or  
-  b) Assigned the standard assignable level; or  
-  c) Assigned a **Procedural** SID
+  a) Departing from a runway nominated on the ATIS; and  
+  b) Assigned the standard assignable level; and  
+  c) Assigned a **Procedural** SID; or  
+  d) Not entering ML TCU CTA
 
 All other aircraft require a 'Next' call to ML TCU.
 
@@ -54,7 +55,7 @@ All other aircraft require a 'Next' call to ML TCU.
 The Standard Assignable level from AV ADC to ML TCU is the lower of `A040` or the `RFL`.
 
 #### Arrivals/Overfliers
-ML TCU will heads-up coordinate arrivals/overfliers from Class C to AV ADC.  
+ML TCU will heads-up coordinate arrivals/overfliers from CTA to AV ADC.  
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to AV ADC, unless AV ADC nominates a restriction.  
 VFR aircraft will not be coordinated, and will need to receive their airways clearance from AV ADC.
 

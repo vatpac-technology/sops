@@ -225,6 +225,9 @@ Voiceless to all surrounding Enroute sectors for all aircraft:
     - **OMKON**
     - **AV**
 
+!!! note
+    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+
 All other aircraft going to Enroute CTA must be **Heads-up** Coordinated by ML TCU prior to the boundary.
 
 !!! example

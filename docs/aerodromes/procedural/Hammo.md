@@ -27,7 +27,7 @@ Surveillance coverage can be expected to be not available below `A031` in the HM
 
 ## Coordination
 ### Departures
-A 'next' call is made for all aircraft when they are next to depart. HM ADC must inform KEN(SWY) if the aircraft does not depart within **2 minutes** of the next call.
+A 'next' call is made for all aircraft entering KEN(SWY) CTA when they are next to depart. HM ADC must inform KEN(SWY) if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
     <span class="hotline">**HM ADC** -> **SWY**</span>: "Next, QFA797"  
@@ -35,6 +35,7 @@ A 'next' call is made for all aircraft when they are next to depart. HM ADC must
     <span class="hotline">**HM ADC** -> **SWY**</span>: "QFA797"
 
 The Standard Assignable level from HM ADC to KEN(SWY) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
+
 ### Arrivals/Overfliers
 KEN(SWY) will heads-up coordinate all arrivals/overfliers to HM ADC
 
