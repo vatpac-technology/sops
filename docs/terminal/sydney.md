@@ -390,17 +390,21 @@ It is based on a few key assumptions:
 Voiceless to all surrounding Enroute sectors for all aircraft:
 
 - Assigned the lower of `F280` or the `RFL`; and
-- Tracking from **SDN** or **SDS** [airspace](#airspace-division); and
-- Tracking via any of the following:
-    - a Procedural SID terminus
-    - **KAMBA**
-    - **PEGSU**
+- that enter Enroute airspace via any of the *Green Shaded Corridors* below, excluding [YWLM Arrivals](#ywlm-arrivals)
+
+<figure markdown>
+![SY TCU Voiceless Coordination Corridors](img/sytcucoordgate.png){ width="700" }
+  <figcaption>SY TCU Voiceless Coordination Corridors</figcaption>
+</figure>
+
+!!! note
+    This means that aircraft can be tracking via **any point** along an aircraft's flight planned route (eg, **LEECE** or **BANDA**), as long as they enter Enroute airspace in the *green shaded corridor*
 
 All other aircraft going to Enroute CTA must be **Heads-up** Coordinated to the relevant sector as soon as practical.
 
 !!! example
-    <span class="hotline">**SY TCU** -> **ARL**</span>: "JST789, with your concurrence, will be assigned F240, for my separation with ANZ12"  
-    <span class="hotline">**ARL** -> **SY TCU**</span>: "JST789, concur F240"
+    <span class="hotline">**SY TCU** -> **ARL**</span>: "DAL40, with your concurrence, will be right of route, DCT GUTIV"  
+    <span class="hotline">**ARL** -> **SY TCU**</span>: "DAL40, concur right of route DCT GUTIV"
 
 ##### YWLM Arrivals
 Additionally, Voiceless Coordination exists to ARL(All) for aircraft:

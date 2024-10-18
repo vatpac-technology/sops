@@ -121,7 +121,8 @@ Clearances for aircraft entering the CTR must be worded so as to leave no possib
 'Next' coordination is **not** required to HBA for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  
   b) Assigned the standard assignable level; and  
-  c) Assigned a SID
+  c) Assigned a SID; or  
+  d) Not entering HBA CTA
 
 All other aircraft require a 'Next' call to HBA.
 

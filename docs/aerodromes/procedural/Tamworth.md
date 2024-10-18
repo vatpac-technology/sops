@@ -73,7 +73,7 @@ Circuits are to be flown in the direction coinciding with the Runway designator 
 
 ## Coordination
 ### Departures
-A 'next' call is made for all aircraft when they are next to depart. TW ADC must inform ARL/MDE if the aircraft does not depart within **2 minutes** of the next call.
+A 'next' call is made for all aircraft entering ARL/MDE CTA when they are next to depart. TW ADC must inform ARL/MDE if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
     <span class="hotline">**TW ADC** -> **ARL**</span>: "Next, QLK5D"  
