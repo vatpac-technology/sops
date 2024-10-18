@@ -1,5 +1,5 @@
 ---
-  title: 1. Sydney (YSSY)
+  title: 7. Sydney (YSSY) Arrivals
 ---
 
 --8<-- "includes/abbreviations.md"
