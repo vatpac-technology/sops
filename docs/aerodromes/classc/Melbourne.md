@@ -160,7 +160,7 @@ To operate with pushback requests on ACD:
 4. If an aircraft is instructed to monitor SMC, **ACD** will move the strip below the **Monitor Ground** bar in the **Queue** section of the **Cleared Bay** in [OzStrips](../../client/towerstrips.md#coordinator), to denote they are awaiting pushback approval.  
 5. When **SMC** has adequate space on the aprons, taxiways, and holding point, they will issue pushback/taxi to the next aircraft in line by scanning the [Cleared Queue bay](../../../client/towerstrips/#stripboard).
 
-The decision whether or not to send an aircraft to SMC or hold them on the Coordinator frequency should be made in accordance with the [Queue Management](#queue-management) techniques.
+The decision whether or not to send an aircraft to SMC or hold them on the ACD frequency should be made in accordance with the [Queue Management](#queue-management) techniques.
 
 !!! important
     If SMC needs to reduce the pushback rate due to congestion at the holding points or excessive workload, **ACD** should be informed without delay, and instructed to hold all departures on their frequency. This will stop aircraft being told to monitor the SMC frequency. Remember to cancel this requirement when congestion eases.
@@ -191,8 +191,8 @@ If a delay is required prior to transferring an aircraft to SMC, provide an esti
 To reduce SMC workload, ACD should not allow more than **three** aircraft to be awaiting pushback or taxi on the SMC frequency. When three aircraft are already queued on the SMC frequency, any additional aircraft should be told to remain on the ACD frequency and informed of their position in the queue or approximate delay (if known). These aircraft should be placed in the **Cleared Bay Queue**, above the **Monitor Ground** bar.
 
 <figure markdown>
-![Coordinator Ops with OzStrips](../../controller-skills/img/ozstripscoordinator.png){ width="800" }
-  <figcaption>Coordinator Ops with OzStrips<br><small>Three aircraft are monitoring SMC (below the Queue bar), and QFA121 and RXA6416 have both requested push/taxi but are being held on the ACD frequency. QFA121 is closer to the bottom, so will be next to be told to monitor SMC.</small></figcaption>
+![ACD Ops with OzStrips](../../controller-skills/img/ozstripscoordinator.png){ width="800" }
+  <figcaption>Pushback Requests on ACD Ops with OzStrips<br><small>Three aircraft are monitoring SMC (below the Queue bar), and QFA121 and RXA6416 have both requested push/taxi but are being held on the ACD frequency. QFA121 is closer to the bottom, so will be next to be told to monitor SMC.</small></figcaption>
 </figure>
 
 When SMC moves an aircraft from below the **Monitor Ground** bar to the **Pushback Bay**, ACD should instruct the next aircraft in line to monitor the SMC frequency (and move the strip appropriately).
