@@ -129,11 +129,16 @@ OzStrips will flag any potentially invalid routes and incorrect hemispherical le
     <figcaption>A potentially invalid level, shown by the red background on the CFL box</figcaption>
 </figure>
 
-Right mouse click on the yellow SID highlight to open the Reroute menu. From here, controllers can select a more compliant route. The [VATPAC Tools](https://vatpac.org/membership-hub/tools){target=new} page can be helpful to double check these routes.
+Right mouse click on the yellow first waypoint box to open the Reroute menu. From here, controllers can select a more compliant route. The [VATPAC Tools](https://vatpac.org/membership-hub/tools){target=new} page can be helpful to double check these routes.
 
 <figure markdown>
 ![Invalid Route](../controller-skills/img/ozstripsbadroute.png){ width="450" }
-    <figcaption>A potentially invalid route, shown by the yellow background on the SID box</figcaption>
+    <figcaption>A potentially invalid route, shown by the yellow background on the first waypoint box</figcaption>
+</figure>
+
+<figure markdown>
+![SID assigned to VFR Aircraft](../controller-skills/img/ozstripsvfrsid.png){ width="450" }
+    <figcaption>A VFR aircraft assigned a SID, shown by the yellow background on the SID box</figcaption>
 </figure>
 
 ### Coordinator
