@@ -30,7 +30,7 @@ Departures from 16L/34R will be assigned the **SY3** SID with a heading of **H12
 ## Coordination
 ### SY ADC
 #### Auto Release
-Predominantly as per [SY TCU Local Instructions](../../../terminal/sydney/#sy-adc), with the exception of:
+Standard as per [SY TCU Local Instructions](../../../terminal/sydney/#sy-adc), with the exception of:
 
 - 16L/34R Departure SID: **SY3** RADAR
 - 16L/34R Standard Assignable Departure Heading: **H120**

@@ -16,7 +16,7 @@ KAT will take responsibility for the BIK and GUN subsectors. No additional frequ
 Some aircraft will be handed off to KAT south of route on **H260**. When it's suitable, KAT must clear these aircraft DCT **BORLI**.
 
 ### Griffith (GTH), Oxley (OXL)
-GTH and OXL will be responsible for ensuring the separation of aircraft in the Enroute phase of flight. No sequencing actions are required
+GTH and OXL will be responsible for ensuring the separation of aircraft in the Enroute phase of flight. No sequencing actions are required.
 
 !!! caution
     GTH should look out for aircraft converging at **BORLI** at the same time and level. Use vertical separation wherever possible.
@@ -35,7 +35,7 @@ Runway 05 Arrivals shall be issued the **Zulu** STAR.
 **All aircraft** must be instructed to cross **BLACK** at **250 knots**, then *published STAR speeds*.
 
 !!! note
-    This instruction is not required for aircraft that have a clear gap in front of them in the sequence (>30nm)
+    This instruction is not required for aircraft that have a clear gap in front of them in the sequence (>30nm).
 
 Minimum distance between arrivals at handoff to AAE is **10nm** (with no significant closing speed). It is important to try not to exceed **15nm**, due to the large number of arrivals.
 
@@ -50,7 +50,7 @@ Voiceless for all aircraft:
 All other aircraft going to KAT CTA will be **Heads-up** Coordinated.
 
 ### TBD to AAE
-Standard as per [TBD Local Instructions](../../../enroute/Melbourne Centre/TBD/#arrivalsoverfliers)
+Standard as per [TBD Local Instructions](../../../enroute/Melbourne Centre/TBD/#arrivalsoverfliers).
 
 ### Between TBD and AFL
 AFL will construct the sequence via the [Arrivals List Window](../../../controller-skills/sequencing/#arrivals-list).
