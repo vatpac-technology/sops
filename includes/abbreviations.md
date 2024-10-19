@@ -131,7 +131,8 @@
 *[BKE]: Melbourne (Bourke) Centre
 *[CRS]: Melbourne (Cross) Centre
 *[ESP]: Melbourne (Esperance) Centre
-*[FOR]: Melbourne (Forest) Centre
+*[FOR]: Melbourne (Forrest) Centre
+*[FOW]: Melbourne (Forrest West) Centre
 *[GEL]: Melbourne (Geraldton) Centre
 *[GTH]: Melbourne (Griffith) Centre
 *[GVE]: Melbourne (Grove) Centre
@@ -298,3 +299,5 @@
 *[MB]: Moorabbin
 *[SUA]: Special Use Airspace
 *[CPDLC]: Controller-Pilot Datalink Communications
+*[LDA]: Landing Distance Available
+*[TORA]: Takeoff Run Available

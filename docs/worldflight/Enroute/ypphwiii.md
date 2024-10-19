@@ -36,3 +36,9 @@ Voiceless for all aircraft:
 - Tracking via **AVNEX** or **ESDEG**
 
 All other aircraft going to LEA CTA will be **Heads-up** Coordinated.
+
+### INE to WIIF CTR
+As per [Standard IND coordination procedures](../../../oceanic/Positions/IND/#international-non-pacific), Heads-up Coordination required for all aircraft prior to **30 mins** from boundary.
+
+!!! tip
+    It may be prudent (especially if they are using vatSys) to set up a Voiceless Coordination Agreement with WIIF CTR, in order to reduce workload for both controllers.
