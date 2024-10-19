@@ -65,7 +65,7 @@ TBD will instruct all arrivals to cross **BLACK** at **250 knots**, then *publis
 ## Coordination
 ### AD ADC
 #### Auto Release
-Predominantly as per [AD TCU Local Instructions](../../../terminal/adelaide/#ad-adc), with the exception of auto-release being available for **12/30 Departures** assigned the following *Standard Assignable Departure Headings*:
+Standard as per [AD TCU Local Instructions](../../../terminal/adelaide/#ad-adc), with the exception of auto-release being available for **12/30 Departures** assigned the following *Standard Assignable Departure Headings*:
 
 | Runway Mode | Runway 12/30 Assigned Heading |
 | ---------- | --- |

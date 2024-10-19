@@ -64,7 +64,7 @@ PIY will instruct all arrivals to cross **KABLI** at **250 knots**, then *publis
 ## Coordination
 ### PH ADC
 #### Auto Release
-Standard as per [PH TCU Local Instructions](../../../terminal/perth/#ph-adc), with the exception of auto-release being available for **03 Departures** assigned **Runway Heading** during the the [03A06D Runway Mode](#03a06d)
+Standard as per [PH TCU Local Instructions](../../../terminal/perth/#ph-adc), with the exception of auto-release being available for **06 Departures** assigned **Runway Heading** during the the [03A06D Runway Mode](#03a06d)
 
 ### PHD to LEA
 Voiceless for all aircraft:
