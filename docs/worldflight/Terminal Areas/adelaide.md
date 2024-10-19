@@ -43,7 +43,23 @@ Not all aircraft will be able to accept 12/30 for Departure. AAW/AAE must vector
 Aircraft **north** of the GILES SID will be cleared DCT **LESON**.  
 Aircraft **south** of the GILES SID will be cleared DCT **LONLY**.
 
-## Speeds
+## Flow
+AFL will formulate the sequence in accordance with the [AD TCU Flow Table](../../../terminal/adelaide/#flow). Ensure that event traffic gets priority over non-event traffic.
+
+AFL will construct the sequence via the [Arrivals List Window](../../../controller-skills/sequencing/#arrivals-list).
+
+Appropriate annotations for the Arrivals List Window can be found [here](../../../client/annotations/#sequencingflow).
+
+### Wake Turbulence Separation
+Due to the tight sequence, there are times that [Wake Turbulence Separation](../../../separation-standards/waketurb/#airspace) cannot practically be applied.
+
+When a following aircraft is of a *lighter* [Wake Turbulence Category](../../../separation-standards/waketurb/#categories) than the preceding aircraft, a traffic statement and wake turbulence **caution** shall be issued.
+
+!!! example
+    **AAE:** "JST762, Traffic is BAW47C, a 747 4nm ahead. Caution Wake Turbulence"  
+    **JST762:** "JST762"
+
+### Speeds
 TBD will instruct all arrivals to cross **BLACK** at **250 knots**, then *published STAR speeds*.
 
 ## Coordination
@@ -66,7 +82,7 @@ Voiceless coordination is in use from AAE to AAW for aircraft:
 - Assigned the lower of `F240` or the `RFL`; and  
 - Assigned a *Heading* clear of 05/23 Arrivals/Departures
 
-### AUG
+### AAW to AUG
 Voiceless for all aircraft:
 
 - Assigned the lower of `F240` or the `RFL`; and  
@@ -76,16 +92,12 @@ Voiceless for all aircraft:
 
 All other aircraft going to AUG CTA will be **Heads-up** Coordinated.
 
-### TBD
+### TBD to AAE
 Standard as per [AD TCU Local Instructions](../../../terminal/adelaide/#arrivals)
 
 TBD has *no Restrictions or Requirements* on YPAD departures tracking DCT **LONLY**
 
 #### Between TBD and AFL
-AFL will construct the sequence via the [Arrivals List Window](../../../controller-skills/sequencing/#arrivals-list).
-
-Appropriate annotations for the Arrivals List Window can be found [here](../../../client/annotations/#sequencingflow).
-
 AFL must **voice coordinate** any changes to instructions after TBD has put a `<` on it.
 
 TBD must **voice coordinate** any requests for *Track Shortening*, *CSR*, or *Victor/Xray STARs*, to AFL.
