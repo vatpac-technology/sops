@@ -68,6 +68,8 @@
 *[CSD]: Cairns Departures
 *[CBW]: Canberra Approach West
 *[CBE]: Canberra Approach East
+*[DAW]: Darwin Approach West
+*[DAE]: Darwin Approach East
 *[HBA]: Hobart Approach
 *[LTA]: Launceston Approach
 *[MKA]: Mackay Approach

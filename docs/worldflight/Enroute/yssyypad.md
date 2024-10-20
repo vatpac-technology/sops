@@ -28,8 +28,8 @@ MUN will be responsible for starting to form the sequence in to YPAD, by applyin
 TBD will be responsible for issuing STAR clearances in to YPAD, and providing the final sequence to handoff to AAE.
 
 #### STARs
-Runway 23 Arrivals shall be issued the **Alpha** STAR.  
-Runway 05 Arrivals shall be issued the **Zulu** STAR.
+Runway 23 Arrivals shall be issued the **BLACK3A** STAR.  
+Runway 05 Arrivals shall be issued the **BLACK3Z** STAR.
 
 #### Sequencing
 **All aircraft** must be instructed to cross **BLACK** at **250 knots**, then *published STAR speeds*.
