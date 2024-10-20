@@ -64,7 +64,7 @@ When 23 is in use for Arrivals, The ATIS OPR INFO shall include:
 `EXP CLR VIA PDC. ADVISE ON FIRST CONTACT WITH DELIVERY IF YOU REQUIRE RUNWAY 23`
 
 ## Coordination
-### AD ADC
+### AD TCU
 #### Auto Release
 Standard as per [YPAD Local Instructions](../../../aerodromes/classc/Adelaide/#auto-release), with the exception of auto-release being available for **12/30 Departures** assigned the following *Standard Assignable Departure Headings*:
 
