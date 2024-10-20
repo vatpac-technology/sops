@@ -105,7 +105,7 @@ Ensure that a minimum of **90 second** spacing is applied between subsequent dep
 
 ## ATIS
 The ATIS OPR INFO shall include:  
-`EXP CLR VIA PDC`
+`EXP CLR VIA PDC, ALL ACFT EXP INTERSECTION DEPARTURE`
 
 During 24A21D, the ATIS OPR INFO shall include:  
 `SIMUL INDEP CROSSING RWY OPS IN PROG`
@@ -114,6 +114,6 @@ During 03A06D, the ATIS OPR INFO shall include:
 `LAHSO IN PROG. RWY 03 LANDING DISTANCE AVBL 2355 METRES`
 
 ## Coordination
-### PH ADC
+### PH TCU
 #### Auto Release
 Standard as per [PH TCU Local Instructions](../../../terminal/perth/#ph-adc), with the exception of auto-release being available for **06 Departures** assigned **Runway Heading** during the the [03A06D Runway Mode](#03a06d)
