@@ -55,7 +55,7 @@ When less than **three** strips are present below a particular `MONITOR GROUND` 
     <figcaption>An example of the Coordinator layout</figcaption>
 </figure>
 
-If three strips are already present below a respective bar, any subsequent aircraft who request pushback must be instructed to remain on the Coordinator frequency, and an estimated delay given if known.
+If three strips are already present below a respective bar, any subsequent aircraft who request pushback must be instructed to remain on the Coordinator frequency, and an estimated delay given if known. Place these strips in the **Cleared Bay Queue**, but above the respective `MONITOR GROUND` bars. The bottom-most strip is always at the front of any queue.
 
 !!! example
     **QFA452**: "Sydney Coordinator, Qantas 452, bay 5, request pushback"  
@@ -68,6 +68,9 @@ If three strips are already present below a respective bar, any subsequent aircr
     Ensure aircraft are [squawking mode C and the correct code](../../client/towerstrips.md#strips) before instructing them to monitor ground.
 
 ## Surface Movement Control (SMC)
+### OzStrips
+With two SMC controllers online, utilise [strip bay bars](../../client/towerstrips.md#multiple-adcsmc-positions) to keep the **Taxi** and **Holding Point** strip bays organised.
+
 ### Departures
 With Coordinator online, aircraft will request pushback on the Coordinator frequency and be told to monitor the applicable SMC frequency when appropriate. These pilots will be waiting for you to initiate contact with them.
 
@@ -83,9 +86,11 @@ With runways 34L/R in use for departures, SMC East should consider instructing a
 
 During PROPS, maximum use of runway 07/25 should be utilised to enable an east/westbound split between taxiway Golf and the runway.
 
-SMC West should protect the Alpha 2 rapid exit and utilise taxiways Yankee and Juilet as a second path for aircraft when Golf and Alpha are already occupied.
+SMC West should protect the Alpha 2 rapid exit and utilise taxiways Yankee and Juilet as a second path for aircraft when Golf and Alpha are already occupied. Be careful taxiing outbound aircraft south of Juliet while an aircraft is landing on runway 34L, as they will plan to vacate via Alpha 2.
 
 ## Tower Control (ADC)
+### OzStrips
+With two SMC controllers online, utilise [strip bay bars](../../client/towerstrips.md#multiple-adcsmc-positions) to keep the **Holding Point** and **Runway** strip bays organised.
 
 ### Departure Spacing
 While PROPS are in use, subsequent departures from the same runway must be spaced by **3 minutes**, to assist with arrival flow in to YPAD.
