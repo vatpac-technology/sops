@@ -10,8 +10,8 @@ Ensure **all flight plans** are checked for compliance with the approved WF Rout
 
 `DCT DN Y25 RUPEG DCT IGOPO B598 ESKIM DCT GUMBU DCT PY DCT`
 
-### WF Teams
-[WF Teams](../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
+### WorldFlight Teams
+[WorldFlight Teams](../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
 
 ### SID Selection
 All aircraft shall be issued the **RUPEG2** SID.  
