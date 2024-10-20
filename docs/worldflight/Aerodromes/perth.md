@@ -37,8 +37,8 @@ Ensure **all flight plans** are checked for compliance with the approved WF Rout
 
 `DCT PH Y15 ESDEG Q587 IGLUT T58 SAPDA A585 IPKON IPKO2G`
 
-### WF Teams
-[WF Teams](../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
+### WorldFlight Teams
+[WorldFlight Teams](../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
 
 ### Runway Operation Compliance
 All Medium and Light aircraft are *assumed* to be compliant with both Runway Mode operations.

@@ -19,8 +19,8 @@ Ensure **all flight plans** are checked for compliance with the approved WF Rout
 
 `DCT AD Q33 ESP Q158 PH DCT`
 
-### WF Teams
-[WF Teams](../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
+### WorldFlight Teams
+[WorldFlight Teams](../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
 
 ### Runway Selection
 Aircraft that are unable to accept Runway 12/30 due to operational requirements shall be assigned Runway 05/23 (as appropriate based on Runway Mode).
