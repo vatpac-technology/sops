@@ -30,11 +30,44 @@ Non-Standard SIDs are in use for Runway 16L and 34R.
 |  34L  | KADOM1 | - |
 |  16L/34R  | SY3 | H120 |
 
+### PDCs
+PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact Coordinator when ready for pushback or taxi.
+
 ## Coordinator
+Coordinator operations shall be conducted in accordance with the Sydney Aerodrome [Coordinator](../../aerodromes/classc/Sydney.md#sydney-coordinator) procedures, using the OzStrips plugin.
+
+!!! important
+    Official WorldFlight teams should be afforded priority when requesting pushback or taxi (if no pushback required), and placed ahead of other non-official aircraft.
 
 ### OzStrips
+All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../client/towerstrips.md#recommended-workflow) for OzStrips.
+
+Coordinator must place a `MONITOR GROUND EAST` & `MONITOR GROUND EAST` bar in the **Cleared Bay Queue** and queue any aircraft who request pushback or taxi (if no pushback required) in the Cleared Bay.
+
+<figure markdown>
+![Coordinator Bars](../img/coordinatorbars.png){ width="500" }
+</figure>
+
+When less than **three** strips are present below a particular `MONITOR GROUND` bar, Coordinator may instruct the bottom most aircraft in the queue to monitor that SMC frequency.
+
+<figure markdown>
+![Coordinator Strips](../img/coordinatorstrips.png){ width="500" }
+</figure>
+
+If three strips are already present below a respective bar, any successive aircraft who request pushback must be instructed to remain on the Coordinator frequency, and an estimated delay given if known.
+
+!!! example
+    **QFA452**: "Sydney Coordinator, Qantas 452, bay 5, request pushback"  
+    **SY COORD**: "Qantas 452, Sydney Coordinator, monitor ground 121.7"  
+    ...  
+    **VOZ318**: "Sydney Coordinator, Velocity 318, bay 39, request pushback"  
+    **SY COORD**: "Velocity 318, Coordinator, remain this frequency, approximate 5 minute delay due traffic congestion"
 
 ## Surface Movement Control (SMC)
+### Separation Assurance
+- hold short of L (western)
+- hold short of B10 (eastern)
+- careful of G
 
 ## Tower Control (ADC)
 
@@ -43,7 +76,7 @@ While PROPS are in use, subsequent departures from the same runway must be space
 
 ## ATIS
 The ATIS OPR INFO shall include:  
-`EXP CLR VIA PDC`
+`EXP CLR VIA PDC, ALL ACFT EXP INTERSECTION DEPARTURE`
 
 ## Coordination
 ### SY ADC
