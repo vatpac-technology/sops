@@ -61,6 +61,9 @@ When a following aircraft is of a *lighter* [Wake Turbulence Category](../../../
 ### Speeds
 PIY will instruct all arrivals to cross **KABLI** at **250 knots**, then *published STAR speeds*.
 
+### Runway 21 vs Runway 24 Arrivals
+The **KABLI1A** STAR is approximately **2 minutes** *longer* on Runway 21 vs Runway 24. Take this in to account when building the sequence.
+
 ## Coordination
 ### PH ADC
 #### Auto Release

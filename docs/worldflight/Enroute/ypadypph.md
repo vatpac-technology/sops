@@ -25,7 +25,7 @@ HYD will be responsible for issuing STAR clearances in to YPPH, and finalising t
 HYD may vector in to CRS or JAR airspace if required for sequencing.
 
 #### STARs
-All aircraft shall be issued the **Alpha** STAR.  
+All aircraft shall be issued the **KABLI1A** STAR.  
 
 ### Pingelly (PIY)
 PIY will be responsible for finessing the sequence in to YPPH if required.
@@ -66,6 +66,11 @@ Voiceless for all aircraft:
 - South of **GILES**, DCT **LONLY**
 
 All other aircraft going to AUG CTA will be **Heads-up** Coordinated.
+
+### HYD to PIY
+Changes to Route and CFL are **permitted** within **50nm** of the boundary, without coordination, for sequencing purposes.  
+Aircraft must be tracking via **MALUP** or **KABLI**, with the exception of:  
+**Runway 21** Arrivals may be assigned a Heading **North** of the **MALUP-KABLI** track, without coordination.
 
 ### PIY to PHA
 Standard as per [PIY Local Instructions](../../../enroute/Melbourne Centre/PIY/#arrivalsoverfliers), with the exception of:
