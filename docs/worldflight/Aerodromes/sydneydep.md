@@ -115,7 +115,7 @@ The ATIS OPR INFO shall include:
 `EXP CLR VIA PDC, ALL ACFT EXP INTERSECTION DEPARTURE`
 
 ## Coordination
-### SY ADC
+### SY TCU
 #### Auto Release
 Standard as per [YSSY Local Instructions](../../../aerodromes/classc/Sydney/#auto-release), with the exception of auto-release being available for the following:
 
