@@ -40,6 +40,9 @@ Runway 12/30 Departures will be assigned the **AD4** RADAR SID, with the followi
 | 05A30D      | H230 |
 | 05A12D      | H060 |
 
+### PDCs
+PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
+
 ## Surface Movement Control (SMC)
 ### Runway 30 Departures
 Aircraft taxiing from the Main Terminal to Runway 30 shall be instructed to taxi via the grass to the North and East of Runway 05/23
