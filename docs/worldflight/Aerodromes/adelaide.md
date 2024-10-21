@@ -152,6 +152,6 @@ Standard as per [YPAD Local Instructions](../../../aerodromes/classc/Adelaide/#a
 | Runway Mode | Runway 12/30 Assigned Heading |
 | ---------- | --- |
 | 23A30D      | Runway Heading |
-| 23A12D      | H180 |
 | 05A30D      | H230 |
 | 05A12D      | H060 |
+| 23A12D      | H180 |
