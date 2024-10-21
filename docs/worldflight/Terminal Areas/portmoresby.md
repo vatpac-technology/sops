@@ -29,7 +29,7 @@ All arrivals on Runway 14 will be cleared for the **ILS** Approach.
 All arrivals on Runway 32 will be cleared for the **ILS** Approach.
 
 ## Terrain
-**Very high terrain** exists to the North-East of the field, with the MVA up to **F155**. Use *caution* when vectoring, and ensure that terrain separation is maintained at **all times**.
+**Very high terrain** exists to the North-East of the field, with the MVA up to `F155`. Use *caution* when vectoring, and ensure that terrain separation is maintained at **all times**.
 
 !!! tip
     The *biggest risk* to terrain separation is vectoring **Runway 14 Arrivals** (Potential conflict areas are shaded in **Red** below). Avoid vectoring to the *East* of the Extended Centreline, and do not assign below `A060` until aircraft are within **30nm** of the field.
