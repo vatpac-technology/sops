@@ -4,6 +4,13 @@
 
 --8<-- "includes/abbreviations.md"
 
+## Positions
+An additional Non-Standard position for AYPY DEP will be used
+
+| Name               | ID      | Callsign       | Frequency        | Login ID              |
+| ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
+| Port Moresby Departures        | AYPY DEP | Jacksons Departures               | 124.100 | AYPY_DEP                              |
+
 ## Airspace Division
 Non-Standard airspace division will be in use.
 
