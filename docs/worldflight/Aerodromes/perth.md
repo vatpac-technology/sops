@@ -11,6 +11,8 @@
 |  1 | 24A21D | [Simultaneous Independent Crossing Runway Operations](#24a21d) |
 |  2  | 03A06D | [Land and Hold Short Operations](#03a06d) |
 
+*Single Runway* Operations shall be **avoided** at all costs.
+
 ### 24A21D
 Simultaneous Independent Crossing Runway Operations will be in use, allowing aircraft to depart from Runway 21 without conflicting with Runway 24 arrivals.
 
@@ -58,12 +60,7 @@ Aircraft that operationally require longer than Intersection **P** on Runway 21 
 </figure>
 
 ### SID Selection
-Non-Standard SIDs are in use for Runway 06.
-
-| Runway | SID | Assigned Heading |
-| ---------- | --- | --- |
-|  03/21  | AVNEX5 | - |
-|  06  | PH7 | Runway Heading |
+Departures from Runway 06 will be assigned the **PH7** SID.
 
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
@@ -97,15 +94,27 @@ Full Length Departures have **equal priority** to aircraft that are compliant wi
 !!! tip
     Ensure the OzStrips queue bay is used actively to keep track of the queue.
 
+### Runway 06 Departures
+Departures from Runway 06 will be assigned the **PH7** SID, with an Assigned Heading of **Runway Heading**.
+
 ### Runway 03 Arrivals
 Instruct **all** Runway 03 Arrivals to vacate **right**, even if they are for the Western Apron.
 
 ### Departure Spacing
 Ensure that a minimum of **90 second** spacing is applied between subsequent departures from the same runway.
 
+### Wake Turbulence Separation
+Due to the tight sequence, there are times that [Wake Turbulence Separation](../../../separation-standards/waketurb/#runways) cannot practically be applied.
+
+When a following aircraft is of a *lighter* [Wake Turbulence Category](../../../separation-standards/waketurb/#categories) than the preceding aircraft, a traffic statement and wake turbulence **caution** shall be issued.
+
+!!! example
+    **PH ADC:** "EVY30, 777 has just landed on the crossing runway. Caution Wake Turbulence. Runway 24, Cleared to Land"  
+    **EVY30:** "Cleared to Land Runway 24, EVY30"
+
 ## ATIS
 The ATIS OPR INFO shall include:  
-`EXP CLR VIA PDC, ALL ACFT EXP INTERSECTION DEPARTURE`
+`EXP CLR VIA PDC`
 
 During 24A21D, the ATIS OPR INFO shall include:  
 `SIMUL INDEP CROSSING RWY OPS IN PROG`

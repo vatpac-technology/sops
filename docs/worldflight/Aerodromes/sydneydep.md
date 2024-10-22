@@ -24,11 +24,11 @@ By default, assign aircraft the departure runway that corresponds to their depar
 ### SID Selection
 Non-Standard SIDs are in use for Runway 16L and 34R.
 
-| Runway | SID | Assigned Heading |
-| ---------- | --- | --- |
-|  16R  | GROOK1KADOM | - |
-|  34L  | KADOM1 | - |
-|  16L/34R  | SY3 | H120 |
+| Runway | SID |
+| ---------- | --- |
+|  16R  | GROOK1KADOM |
+|  34L  | KADOM1 |
+|  16L/34R  | SY3 |
 
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact Coordinator when ready for pushback or taxi.
@@ -67,6 +67,13 @@ If three strips are already present below a respective bar, any subsequent aircr
 !!! important
     Ensure aircraft are [squawking mode C and the correct code](../../client/towerstrips.md#strips) before instructing them to monitor ground.
 
+### Delay Expectation
+Aircraft can expect **extensive** delays for Pushback during the event, possibly *multiple hours*. Try to keep pilots informed of their delay expectation, either by providing a figure in minutes, or a position in the queue.
+
+!!! example
+    **JST764**: "Sydney Coordinator, JST764, bay 55, request pushback"  
+    **SY COORD**: "JST764, Coordinator, remain this frequency, number 62 in the queue"
+
 ## Surface Movement Control (SMC)
 ### OzStrips
 With two SMC controllers online, utilise [strip bay bars](../../client/towerstrips.md#multiple-adcsmc-positions) to keep the **Taxi** and **Holding Point** strip bays organised.
@@ -96,6 +103,9 @@ With two SMC controllers online, utilise [strip bay bars](../../client/towerstri
 While PROPS are in use, subsequent departures from the same runway must be spaced by **3 minutes**, to assist with arrival flow in to YPAD.
 
 If a single runway is in use for departures, subsequent departures must be spaced by **90 seconds**.
+
+### SY3 Assigned Heading
+Runway 16L/34R Departures will be assigned the **SY3** RADAR SID, with an Assigned Heading of **H120**.
 
 ### Runway Vacating Instructions
 To avoid creating conflict for SMC, ADC shall instruct all arriving aircraft to vacate via the following exits when issued a landing clearance:

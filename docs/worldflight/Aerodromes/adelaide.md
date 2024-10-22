@@ -28,6 +28,9 @@ Ensure **all flight plans** are checked for compliance with the approved WF Rout
 
 `DCT AD Q33 ESP Q158 PH DCT`
 
+### SMC Frequency
+Upon readback of an airways clearance or PDC, instruct aircraft to contact Adelaide (North) Ground (if they are online) on **126.550** when ready for pushback.
+
 ### WorldFlight Teams
 [WorldFlight Teams](../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
 
@@ -37,14 +40,7 @@ Aircraft that are unable to accept Runway 12/30 due to operational requirements 
 ### SID Selection
 Runway 05/23 Departures will be assigned the standard **GILES5** SID.
 
-Runway 12/30 Departures will be assigned the **AD4** RADAR SID, with the following Assigned Heading:
-
-| Runway Mode | Runway 12/30 Assigned Heading |
-| ---------- | --- |
-| 23A30D      | Runway Heading |
-| 05A30D      | H230 |
-| 05A12D      | H060 |
-| 23A12D      | H180 |
+Runway 12/30 Departures will be assigned the **AD4** RADAR SID.
 
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
@@ -55,6 +51,16 @@ PDCs will be in use by default, to avoid frequency congestion. ACD shall send a 
 ![YPAD SMC Areas of Responsibility](../img/ypadsmcown.png){ width="700" }
   <figcaption>YPAD SMC Areas of Responsibility</figcaption>
 </figure>
+
+### Pushback Delays
+SMC North will be responsible for delaying aircraft's pushback requests, in order to avoid overloading the taxiways.
+
+If there are more than **5** aircraft in the queue at the Holding Point for *any runway*, do not approve any more pushback requests.
+
+#### OzStrips
+All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../client/towerstrips.md#recommended-workflow) for OzStrips.
+
+Ensure the Queue function is used to actively to keep track of the order of requests.
 
 ### Eastern Terminal Taxi Routes
 During **all** Runway Modes, aircraft shall be instructed to taxi in the following area in a **counter-clockwise** pattern. Aircraft shall be instructed to **pushback** facing **South-West** (Tail Right).
@@ -124,7 +130,26 @@ Runway 23 Departures *(Operational Requirement)* from the Western Terminal will 
 ### Departure Spacing
 Ensure that a minimum of **90 second** spacing is applied between subsequent departures from the same runway.
 
-### Runway Vacation Directions
+### AD4 Assigned Heading
+Runway 12/30 Departures will be assigned the **AD4** RADAR SID, with the following Assigned Heading:
+
+| Runway Mode | Runway 12/30 Assigned Heading |
+| ---------- | --- |
+| 23A30D      | Runway Heading |
+| 05A30D      | H230 |
+| 05A12D      | H060 |
+| 23A12D      | H180 |
+
+### Wake Turbulence Separation
+Due to the tight sequence, there are times that [Wake Turbulence Separation](../../../separation-standards/waketurb/#runways) cannot practically be applied.
+
+When a following aircraft is of a *lighter* [Wake Turbulence Category](../../../separation-standards/waketurb/#categories) than the preceding aircraft, a traffic statement and wake turbulence **caution** shall be issued.
+
+!!! example
+    **AD ADC:** "QFA887, A330 has just departed on the crossing runway. Caution Wake Turbulence. Runway 30, Cleared for Takeoff"  
+    **QFA887:** "Cleared for Takeoff Runway 30, QFA887"
+
+### Runway Vacating Instructions
 #### 23A30D
 Landing aircraft will be instructed to vacate **right** (any exit).
 
