@@ -52,6 +52,14 @@ PDCs will be in use by default, to avoid frequency congestion. ACD shall send a 
   <figcaption>YPAD SMC Areas of Responsibility</figcaption>
 </figure>
 
+**Do not** give taxi instructions **beyond** your area of responsibility. Instruct aircraft to hold short of taxiways where responsibility changes to the next controller.
+
+!!! example
+    **AD SMC:** "QFA7448, Taxi via F2, A, Hold Short of K"  
+    **QFA7448:** "Taxi via F2, A, Hold Short of K, QFA7448"   
+    When QFA7448 is approaching K:  
+    **AD SMC:** "QFA7448, Contact Ground 126.550"  
+
 ### Pushback Delays
 SMC North will be responsible for delaying aircraft's pushback requests, in order to avoid overloading the taxiways.
 
