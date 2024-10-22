@@ -18,8 +18,15 @@
 ## Airspace
 PH ADC is not responsible for any airspace by default.
 
-## Runway Selection
+## Maneuvering Area Responsibility
+The division of responsibility between ADC, SMC West, and SMC East is shown below.
 
+<figure markdown>
+![YPPH Maneuvering Area Responsibility](img/ypphsmc.png){ width="700" }
+  <figcaption>YPPH Maneuvering Area Responsibility</figcaption>
+</figure>
+
+## Runway Selection
 ### Southwest Plan
 With the Southwest Plan active, all departures shall be assigned runway 21. Arrivals will be processed to either runway 21 or 24 based on their feeder fix, as per the table below:
 
@@ -32,14 +39,14 @@ With the Southwest Plan active, all departures shall be assigned runway 21. Arri
 | LAVEX | 24 |
 | SOLUS | 24 |
 
-The ATIS shall notify `EXPECT ILS APCH`.
+The ATIS shall notify `EXP ILS APCH`.
 
 ### Northeast Plan
 With the Northeast Plan active, departures via `AVNEX`, `OTLED`, `OLMAM`, `SOLUS`, and `OPEGA` shall be assigned runway 03. All other departures shall be assigned runway 06. All arrivals will be processed to runway 03.
 
 When both Runway 03 and Runway 06 are nominated as departure runways, broadcast the following: `RWY 03 FOR DEP VIA OTLED, AVNEX, OLMAM, SOLUS AND OPEGA. RWY 06 FOR ALL OTHER DEP.`
 
-In the following conditions, ATIS shall notify `EXPECT ILS APCH`:  
+In the following conditions, ATIS shall notify `EXP ILS APCH`:  
     - By night; and/or  
     - Cloud base of `A032` or below
 

@@ -19,6 +19,11 @@ AD ADC is not responsible for any airspace by default.
 ## Maneuvering Area Responsibility
 **ADC** is responsible for the **E2** and **D2** taxiways
 
+<figure markdown>
+![YPAD Maneuvering Area Responsibility](img/ypadsmcown.png){ width="500" }
+  <figcaption>YPAD Maneuvering Area Responsibility</figcaption>
+</figure>
+
 !!! note
     Where an aircraft will be taxiing via multiple taxiways of the same lettering (e.g. A6, then A5, then A4, etc), refer to the taxiway by only the letter.  
 
@@ -70,10 +75,15 @@ Single runway operations using Runway 05 or 23 (whichever is more favoured by th
     Where low traffic levels and relevant meteorological conditions permit, non-jet arrivals from the west may be offered runway 12.
 
 ### Runway 23 Arrivals
-With **Runway 23** in use for arrivals and the cloud base above `A024` but below `A043`, the ATIS APCH field shall include:  
-`ACFT FM THE EAST AND JET ACFT FM THE WEST EXP INSTR APCH`  
 
-This allows aircraft on the Victor STAR from the west to join a visual right base without the need to conduct an instrument approach, while keeping aircraft from the east clear of the higher terrain near the Adelaide Hills.
+| Cloud Base            | ATIS APCH field      |
+| ------------------ | -------------- |
+| At or above `A043`   | (Blank)  |
+| Between `A024` and `A042`   | `ACFT FM THE EAST AND JET ACFT FM THE WEST EXP INSTR APCH`†  |
+| Between `A007` and `A023`  | `EXP INSTR APCH`  |
+| At or below `A006`  | `EXP ILS APCH`  |
+
+†This allows aircraft on the Victor STAR from the west to join a visual right base without the need to conduct an instrument approach, while keeping aircraft from the east clear of the higher terrain near the Adelaide Hills.
 
 ### Curfew Mode
 Between the hours of 1330-2030 UTC (1230-1930 UTC HDS), AD ADC may elect to simulate Curfew operations, ie: **Runway 05 for arrivals, Runway 23 for departures**. When this is in operation, the ATIS shall include `CURFEW IN OPERATION UNTIL (time) ZULU`.
