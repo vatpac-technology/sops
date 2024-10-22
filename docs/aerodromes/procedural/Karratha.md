@@ -22,6 +22,14 @@ KA ADC is responsible for the Class D airspace in the KA CTR `SFC` to `A055`.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
+## Maneuvering Area Responsibility
+**ADC** is responsible for all taxiways between **F** and the Runway.
+
+<figure markdown>
+![YPKA Maneuvering Area Responsibility](img/ypkasmc.png){ width="700" }
+  <figcaption>YPKA Maneuvering Area Responsibility</figcaption>
+</figure>
+
 ## Surveillance
 Surveillance coverage can be expected to be available at all levels in the KA CTR. Although KA ADC is **not permitted** to use surveillance for separation, OLW may assist by establishing surveillance separation standards via coordination
 
