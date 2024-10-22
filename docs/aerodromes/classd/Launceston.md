@@ -41,12 +41,8 @@ YMLT ATIS identifiers range from `A` to `M`, as YMHB uses `N` through `Y`.
 ### Circuit Direction
 | Runway | Day | Night |
 | ------ | ------ | ----|
-| 14L     | Left  | - |
 | 14R    | Right | Right |
 | 32L     | Left  | Left |
-| 32R     | Right | - |
-| 18     | Left  | - |
-| 36     | Left  | - |
 
 ## Coordination
 ### Departures
