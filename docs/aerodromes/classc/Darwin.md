@@ -68,9 +68,9 @@ d) Helo: `A010`
 
 
 !!! example
-    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Next, ABC, runway 18"  
-    <span class="hotline">**DN TCU** -> **DN ADC**</span>: "ABC, Track Extended Centreline, unrestricted"  
-    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Track Extended Centreline, unrestricted, ABC"  
+    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Next, EOC, runway 18"  
+    <span class="hotline">**DN TCU** -> **DN ADC**</span>: "EOC, Track Extended Centreline, unrestricted"  
+    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Track Extended Centreline, EOC"  
 
 
 All departures from 18/36 require departure coordination with **DN TCU**
