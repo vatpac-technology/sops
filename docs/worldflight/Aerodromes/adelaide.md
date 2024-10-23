@@ -188,3 +188,7 @@ Standard as per [YPAD Local Instructions](../../../aerodromes/classc/Adelaide/#a
 | 05A30D      | H230 |
 | 05A12D      | H060 |
 | 23A12D      | H180 |
+
+#### Departures Controller
+Departures from Runway 05, 23, and 30 shall be handed off to AAW.  
+Departures from Runway 12 shall be handed off to AAE.

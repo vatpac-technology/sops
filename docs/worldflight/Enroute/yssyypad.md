@@ -52,7 +52,7 @@ All other aircraft going to KAT CTA will be **Heads-up** Coordinated.
 ### TBD to AAE
 Standard as per [TBD Local Instructions](../../../enroute/Melbourne Centre/TBD/#arrivalsoverfliers).
 
-### Between TBD and AFL
+#### Between TBD and AFL
 AFL will construct the sequence via the [Arrivals List Window](../../../controller-skills/sequencing/#arrivals-list).
 
 Appropriate annotations for the Arrivals List Window can be found [here](../../../client/annotations/#sequencingflow).

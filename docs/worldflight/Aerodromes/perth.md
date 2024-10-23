@@ -42,33 +42,39 @@ Ensure **all flight plans** are checked for compliance with the approved WF Rout
 ### WorldFlight Teams
 [WorldFlight Teams](../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
 
-### Runway Operation Compliance
-All Medium and Light aircraft are *assumed* to be compliant with both Runway Mode operations.
+### 03A06D
+All Medium and Light aircraft are *assumed* to be able to accept Runway 06 for Departure.
 
-Heavy and Super aircraft must be **queried** if they are able to accept:
+Heavy and Super aircraft must be **queried** if they are able to accept Runway 06 for Departure.
 
-- During 03A06D, Runway 06; or
-- During 24A21D, Runway 21 from Intersection **P**
+!!! note
+    *Requests* for Runway 03 cannot be facilitated. The aircraft must **operationally require** longer than *2163m TORA* to receive it.
 
-Aircraft that operationally require Runway 03 shall be assigned it.
-
-Aircraft that operationally require longer than Intersection **P** on Runway 21 shall have `FL` (Full Length) entered in their scratchpad (Can be accessed via the Flight Plan Window).
-
-<figure markdown>
-![Label Data Entry via Flight Plan Window](../img/labeldataentry.png){ width="500" }
-  <figcaption>Label Data Entry via Flight Plan Window</figcaption>
-</figure>
+Aircraft that *operationally require* Runway 03 shall be assigned it.
 
 ### SID Selection
-Departures from Runway 06 will be assigned the **PH7** SID.
+Departures from Runway 06 will be assigned the **PH7** SID.  
+Departures from Runway 03 and 21 will be assigned the standard **AVNEX5** SID.
 
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
 
 ## Surface Movement Control (SMC)
+### Pushback Delays
+SMC East and West will be responsible for delaying aircraft's pushback requests, in order to avoid overloading the taxiways.
+
+If there are more than **5** aircraft in the queue at the Holding Point for *any runway*, do not approve any more pushback requests.
+
+#### OzStrips
+All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../client/towerstrips.md#recommended-workflow) for OzStrips.
+
+Ensure the Queue function is used to actively to keep track of the order of requests.
 
 ### Runway 21 Departures
-By default, all aircraft will be assigned Intersection **P** for departure.
+By default, all aircraft will be assigned Intersection **P** for departure. Verify with **Heavy** and **Super** aircraft when they request taxi if they can accept Intersection **P**.
+
+!!! note
+    *Requests* for the full length runway cannot be facilitated. The aircraft must **operationally require** longer than *2000m TORA* to receive it.
 
 Aircraft from the Western Apron shall be taxied via **D** and **N**.
 
