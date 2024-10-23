@@ -38,7 +38,7 @@ Ensure the Queue function is used to actively to keep track of the order of requ
 Due to the taxiway layout at YPDN, some aircraft may need to taxi via temporary grass taxiways, as shown below:
 
 <figure markdown>
-![YPDN Grass Taxi Routes](../img/ypdnsmcbase.png){ width="700" }
+![YPDN Grass Taxi Routes](../img/ypdngrass.png){ width="700" }
   <figcaption>YPDN Grass Taxi Routes</figcaption>
 </figure>
 
