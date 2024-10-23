@@ -96,7 +96,7 @@ In order to balance workload effectively, it is recommended to distribute respon
 - BFL on its own
 
 ## Flow
-BFL will formulate the sequence in accordance with the [BN TCU Flow Table](../../../terminal/brisbane/#flow). Ensure that event traffic gets priority over non-event traffic.
+BFL will formulate the sequence in accordance with the [Flow Times](#times) below. Ensure that event traffic gets priority over non-event traffic.
 
 BFL will construct the sequence via the [Arrivals List Window](../../../controller-skills/sequencing/#arrivals-list).
 
