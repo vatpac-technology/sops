@@ -42,13 +42,7 @@ b) ADC may deny requests for circuits if IFR traffic may be unduly delayed
   <figcaption>DN ADC Airspace</figcaption>
 </figure>
 
-### Surveillance
-DN ADC is permitted to use Surveillance standards for separation. Surveillance coverage can be expected to be available at all levels in the DN ADC airspace.  
-For simulation purposes, visual separation is assumed to exist below the cloud base, and within 7nm of the aerodrome. Visual separation can still be used to separate from aircraft on an instrument approach, below the cloud base.
-
-## Aerodrome
-
-### Runway Modes
+## Runway Modes
 Runway selection shall be coordinated by DN ADC. In any case, a change of runway mode shall not be broadcast on the ATIS until DAW accepts the change.  
 
 The Runway Mode options available are:
@@ -59,10 +53,6 @@ c) Runway 29 only;
 d) Runway 11 and Runway 36;  
 e) Runway 11 and Runway 18;  
 f) Runway 11 only.  
-
-#### Non-RNAV Departures
-For non-RNAV approved IFR aircraft with a wake turbulence category of medium or greater, issue a Radar SID  
-For non-RNAV approved IFR aircraft with a wake turbulence category of light, issue a visual departure or Radar SID  
 
 ## Charts
 !!! note
@@ -80,8 +70,30 @@ Other than in an emergency, the designated fuel jettison area is:
 a) Over water in the Beagle Gulf  
 b) Between the 320 and 020 TACAN radials  
 c) `A060` or above  
+
 ### Robertson Barracks
 Darwin TCU is not responsible for traffic or separation services within the A005 step to the east of Darwin. This step is designed for low-level VFR MIL helos to transit in/out of Robertson Barracks without the need for communication with Darwin TCU.
+
+### YPDN VFR Departures
+`A020` or the planned level; whichever is lower, to all VFR aircraft.  
+
+VFR aircraft are required to track via one of the published VFR Routes.  
+
+VFR routes shall be assigned based on the destination radial from Darwin.  
+
+Assign VFR routes in accordance with the following radial chart:  
+
+|Outbound Radial |Assigned VFR Route|
+|---|---|
+|360 – 040 |VFR Route 1|
+|041 – 084 |VFR Route 2|
+|085 – 124 |VFR Route 3|
+|125 – 180 |VFR Route 4|
+|181 – 224 |VFR Route 5|
+|225 – 359| Direct|
+
+!!! tip
+    If a VFR aircraft has not planned via a VFR route as above, use the phraseology: “ABC, cleared amended route VFR route 1, maintain A020, squawk 4512”
 
 ## Coordination
 ### Enroute
@@ -114,58 +126,18 @@ All other aircraft coming from TRT CTA will be **Heads-up** Coordinated to DN TC
 DN ADC owns the airspace within the DN CTR `SFC`–`A010`.
 
 #### Auto Release
-"Next" Coordination is a procedure where the **DN ADC** controller gives a heads-up to the DN TCU controller about an impending departure. The DN TCU controller will respond by assigning a heading to the aircraft, for the **DN ADC** controller to pass on with their takeoff clearance.
-
+Auto-Release is **not available** at YPDN. All Departures will be coordinated when ready for departure.
 
 !!! example
-    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Next, ABC, runway 18"  
-    <span class="hotline">**DN TCU** -> **DN ADC**</span>: "ABC, Track Extended Centreline, unrestricted"  
-    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Track Extended Centreline, unrestricted, ABC"  
+    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Next, EOC, runway 18"  
+    <span class="hotline">**DN TCU** -> **DN ADC**</span>: "EOC, Track Extended Centreline, unrestricted"  
+    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Track Extended Centreline, EOC"  
 
+The Standard Assignable level from **DN ADC** to **DN TCU** is:
 
-All departures from 18/36 require departure coordination with **DN TCU**
-
-#### IFR Departures
-The Standard Assignable level from **DN ADC** to **DN TCU** is the lower of `F180` or the `RFL`.  
-If the aircraft is **not** planned via an RNAV SID and has a light wake turbulance cateogry, they are to be assigned the lower of `A030` or the `RFL`.
-
-#### VFR Departures
-`A020` or the planned level; whichever is lower, to all VFR aircraft.  
-
-VFR aircraft are required to track via one of the published VFR Routes.  
-
-VFR routes shall be assigned based on the destination radial from Darwin.  
-
-Assign VFR routes in accordance with the following radial chart:  
-
-|Outbound Radial |Assigned VFR Route|
-|---|---|
-|360 – 040 |VFR Route 1|
-|041 – 084 |VFR Route 2|
-|085 – 124 |VFR Route 3|
-|125 – 180 |VFR Route 4|
-|181 – 224 |VFR Route 5|
-|225 – 359| Direct|
-
-!!! tip
-    If a VFR aircraft has not planned via a VFR route as above, use the phraseology: “ABC, cleared amended route VFR route 1, maintain A020, squawk 4512”
-
-#### Auto-Release Wedge
-
-The Darwin auto-release wedges extend from the departure end runway threshold, 30 degrees splayed from the centreline, to 7nm  
-
-Auto-release at Darwin is only available for VFR aircraft and low-level IFR aircraft.
-
-Tower may depart aircraft that conform with the above conditions within the auto-release wedge using the following headings:
-
-|Departure Type| Runway 11| Runway 29|
-|---|---|----|
-|VFR |H070V, H106V or H140V| H260V, H286V or H320V|
-|IFR (Visual Dep)| H070V, H106V, or H140V |H260V, H286V or H320V|
-|IFR (Radar)| H070, H106 or H140 |H260, H286 or H320|
-
-!!! tip
-    Tower shall provide visual separation between aircraft in the auto-release wedge and subsequent departures until the preceding departure has been maneuvered by TCU
+- For IFR aircraft assigned a Procedural SID: the lower of `F180` or the `RFL`.  
+- For IFR aircraft **not** assigned a Procedural SID: the lower of `A030` or the `RFL`.  
+- For VFR aircraft: the lower of `A020` or the `RFL`.
  
 ### DN TCU Internal
 Heads-up coordination is not required between DAW and DAE for:
