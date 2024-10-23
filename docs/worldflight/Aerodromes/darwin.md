@@ -4,6 +4,9 @@
 
 --8<-- "includes/abbreviations.md"
 
+## Runway Modes
+Single runway operations on either **runway 11 or 29** will be in use for all aircraft. Runway 18/36 will not be available for arrivals and departures, due to it's use as a taxiway for some aircraft.
+
 ## Airways Clearance Delivery (ACD)
 ### Flight Plan Compliance
 Ensure **all flight plans** are checked for compliance with the approved WF Route:
@@ -20,7 +23,6 @@ All aircraft shall be issued the **RUPEG2** SID.
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
 
 ## Surface Movement Control (SMC)
-
 ### Pushback Delays
 SMC will be responsible for delaying aircraft's pushback requests, in order to avoid overloading the taxiways.
 
@@ -31,21 +33,24 @@ All aerodrome controllers must be familiar with the VATPAC [recommended workflow
 
 Ensure the Queue function is used to actively to keep track of the order of requests.
 
-### Grass Taxiing
-Due to limitations in the taxiway layout at YPDN, aircraft taxiing outbound from the civil (northern) aprons for runway 29 will need to be taxied via Grass Routes, as shown below.
+### Taxi Routes
+#### Grass Taxiing
+Due to the taxiway layout at YPDN, some aircraft may need to taxi via temporary grass taxiways, as shown below:
 
 <figure markdown>
 ![YPDN Grass Taxi Routes](../img/ypdnsmcbase.png){ width="700" }
   <figcaption>YPDN Grass Taxi Routes</figcaption>
 </figure>
 
-### Taxi Routes
-#### TODO
+#### Runway 11
+Aircraft from the RPT apron should taxi outbound via **B2** and **Z** to holding point **C4**. Aircraft from the southwestern apron should taxi outbound via **C2** to holding point **A1**. **C3** *should not* be used as a holding point.
 
-Options:
+Aircraft vacating runway 11 to the left (north) should be instructed to taxi via the **northern grass** and **E2** to the bay. Aircraft vacating to the right (south) should be instructed to taxi via **A**, **runway 18**, and **C1** to the southwestern apron. Alternatively, they may park at the *BRA* or *FRA* aprons.
 
-- 11D18A/11D36A (simultaneous crossing ops)
-- 18D29A/36D29A (LAHSO)
+#### Runway 29
+Aircraft from the RPT apron should taxi outbound via **E2** and the **northern grass**. Aircraft from the southwestern apron should taxi outbound via **C1**, **runway 36**, and **A** to holding point **A6**.
+
+Aircraft vacating runway 29 to the right (north) should be instructed to taxi via **Z** (if required) and **B2** to the bay. Aircraft vacating to the left (south) will be instructed by ADC to vacate at **C3** or **A1**. They should be instructed to taxi via **A1** (if required) and **C2** to the southwestern apron.
 
 ## Tower Control (ADC)
 ### Departure Spacing
@@ -61,26 +66,27 @@ When a following aircraft is of a *lighter* [Wake Turbulence Category](../../../
     **QFA887:** "Cleared for Takeoff Runway 29, QFA887"
 
 ### Runway Vacating Instructions
-#### TODO
+ADC should assess traffic congestion on both the north and south sides of the aerodrome, and direct pilots to vacate towards the least congested side.
+
+#### Runway 11
+Aircraft intended for the northern aprons should be instructed to vacate at either **E2** or via the **northern grass** if they miss it. Aircraft intended for the southwestern apron should be instructed to vacate on any taxiway to the right.
+
+!!! example
+    **DN ADC**: "QFA25, vacate to the right, runway 11, cleared to land"
+
+#### Runway 29
+Aircraft intended for the northern aprons should be instructed to vacate at either **B2** or **runway 36**. This way, any pilots who miss the crossing runway can still vacate via **C4**. Aircraft intended for the southwestern apron should be instructed to vacate at either **C3** or **A1**.
+
+!!! important
+    It is **vital** that aircraft do not vacate left (south) prior to runway 36, as this will cause significant conflict with the outbound taxi route and likely to lead to the aircraft being required to disconnect. If an aircraft slows down rapidly, consider instructing them to vacate to the right via **B2** or reminding them to keep their speed up and roll through to vacate at **C3**.
 
 ## ATIS
 The ATIS OPR INFO shall include:  
 `EXP CLR VIA PDC`
 
-During 11D18A and 11D36A, the ATIS OPR INFO shall include:  
-`SIMUL INDEP CROSSING RWY OPS IN PROG`
-
-During 36D29A, the ATIS OPR INFO shall include:  
-`LAHSO IN PROG. RWY 36 LANDING DISTANCE AVBL XXXX METRES`
-
 ## Coordination
-### AD TCU
+### DN TCU
 #### Auto Release
-Standard as per [YPAD Local Instructions](../../../aerodromes/classc/Adelaide/#auto-release), with the exception of auto-release being available for **12/30 Departures** assigned the following *Standard Assignable Departure Headings*:
+Auto release is available for all IFR aircraft departing from runway 11/29, assigned `F180` or `RFL` if lower.
 
-| Runway Mode | Runway 12/30 Assigned Heading |
-| ---------- | --- |
-| 23A30D      | Runway Heading |
-| 05A30D      | H230 |
-| 05A12D      | H060 |
-| 23A12D      | H180 |
+VFR departures shall be processed as per standard [Darwin coordination rules](../../aerodromes/classc/Darwin.md#auto-release).

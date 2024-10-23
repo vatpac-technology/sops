@@ -17,7 +17,9 @@ Level Restrictions at **LEMUX** (SID) and **EPDAM** (STAR) keep arrivals and dep
 ## Coordination
 ### DN ADC
 #### Auto Release
-Standard as per [DN TCU Local Instructions](../../../terminal/darwin/#auto-release).
+Auto release is available for all IFR aircraft departing from runway 11/29, assigned `F180` or `RFL` if lower.
+
+VFR departures shall be processed as per standard [Darwin coordination rules](../../terminal/darwin.md#auto-release).
 
 ### DN TCU Internal
 Arrivals/Departures on **Runway 29** will transit both DAW and DAE airspace.
