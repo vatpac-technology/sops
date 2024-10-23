@@ -102,6 +102,7 @@
 *[TBD]: Melbourne (Tailem Bend) Centre
 *[YWE]: Melbourne (Yarrowee) Centre
 *[ARA]: Brisbane (Arafura) Centre
+*[ARW]: Brisbane (Arafura West) Centre
 *[BAR]: Brisbane (Barra) Centre
 *[BUR]: Brisbane (Burnett) Centre
 *[CVN]: Brisbane (Carnarvon) Centre

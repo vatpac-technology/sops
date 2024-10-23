@@ -9,7 +9,8 @@ An additional Non-Standard position for AYPY DEP will be used
 
 | Name               | ID      | Callsign       | Frequency        | Login ID              |
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
-| Port Moresby Departures        | AYPY DEP | Jacksons Departures               | 124.100 | AYPY_DEP                              |
+| Port Moresby Approach       | AYPY APP | Jacksons Radar              | 125.800 | AYPY_APP                              |
+| Port Moresby Departures        | AYPY DEP | Jacksons Radar               | 124.100 | AYPY_DEP                              |
 
 ## Airspace Division
 Non-Standard airspace division will be in use.
