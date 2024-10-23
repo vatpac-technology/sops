@@ -8,6 +8,8 @@
 ### Territory (TRT)
 TRT is responsible for issuing STAR Clearances and all sequencing actions in to YPDN.
 
+TRT will be responsible for the TRT subsector **only**.
+
 #### STARs
 All aircraft shall be issued the **ANUPA1A** STAR.  
 

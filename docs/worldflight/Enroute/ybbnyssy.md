@@ -39,7 +39,7 @@ ARL will be responsible for the ARL and MNN subsectors **only**.
 CNK will be responsible for finessing the sequence in to YSSY if required.
 
 #### Sequencing
-**All aircraft** must be instructed to cross **BOREE** and **MEPIL** at **250 knots**, then *published STAR speeds*.
+**All aircraft** must be instructed to cross **BOREE** or **MEPIL** at **250 knots**, then *published STAR speeds*.
 
 !!! note
     This instruction is not required for aircraft that have a clear gap in front of them in the sequence (>30nm).
@@ -77,7 +77,7 @@ SFL will **voice coordinate** to ARL/CNK any aircraft that must be rerouted via 
 
 !!! example
     <span class="hotline">**SFL** -> **ARL**</span>: "ANZ361 via OLTIN for 34R please"  
-    <span class="hotline">**ARL** -> **SFL**</span>: "ANZ361 via OLTIN for 34, will be"  
+    <span class="hotline">**ARL** -> **SFL**</span>: "ANZ361 via OLTIN for 34R, will be"  
 
 ARL/CNK must **voice coordinate** any requests for *Track Shortening* or *CSR* to SFL.
 

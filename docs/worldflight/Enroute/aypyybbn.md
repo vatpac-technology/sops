@@ -8,16 +8,21 @@
 ### Port Moresby (AYPM) CTR
 AYPM CTR will be responsible for ensuring the separation of aircraft in the Enroute phase of flight. No sequencing actions are required.
 
-Aircraft shall be handed off directly to KEN(BAR). ARA is skipped.
+Aircraft shall be handed off directly to TBP. ARA is skipped.
+
+!!! note
+    AYPM CTR will have better VHF coverage than TBP on aircraft until approximately **100nm South** of **VIPAM**. It is *advisable* to delay handing off aircraft to TBP until approximately that point.
 
 ### Arafura (ARA)
 ARA has *no Restrictions or Requirements* on AYPY-YBBN aircraft.
 
-### Kennedy (KEN) (and all subsectors)
-KEN and its subsectors will be responsible for ensuring the separation of aircraft in the Enroute phase of flight. No sequencing actions are required.
+### Tabletop (TBP)
+TBP will be responsible for ensuring the separation of aircraft in the Enroute phase of flight. No sequencing actions are required.
 
-#### Swampy (SWY)
-Once aircraft are in SWY, KEN(SWY) may start to apply *speed control* to manage the sequence
+TBP may prime the KEN frequency (120.15) in order to get better VHF range on aircraft coming from AYPM CTR. Advise the AYPM CTR controller if you want handoffs on the KEN frequency instead of TBP.
+
+### Swampy (SWY)
+SWY will be responsible for starting to form the sequence in to YBBN, by applying *speed control* in the cruise.
 
 ### Keppel (KPL)
 KPL will be responsible for issuing STAR clearances in to YBBN, and finalising the sequence using *speed control* and *vectors* in to YBBN.
@@ -31,7 +36,7 @@ BUR will be responsible for finessing the sequence in to YBBN if required.
 BUR will take responsibility for the DOS subsector, to facilitate **ENLIP** arrivals. No additional frequencies will need to be primed to BUR.
 
 #### Sequencing
-**All aircraft** must be instructed to cross **SMOKA** AND **ENLIP** at **250 knots**, then *published STAR speeds*.
+**All aircraft** must be instructed to cross **SMOKA** or **ENLIP** at **250 knots**, then *published STAR speeds*.
 
 !!! note
     This instruction is not required for aircraft that have a clear gap in front of them in the sequence (>30nm).
