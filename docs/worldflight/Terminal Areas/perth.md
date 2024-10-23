@@ -43,11 +43,22 @@ The **dashed green** line represents the *suggested vectors* for [06 departures]
 </figure>
 
 ## Flow
-PFL will formulate the sequence in accordance with the [PH TCU Flow Table](../../../terminal/perth/#flow). Ensure that event traffic gets priority over non-event traffic.
+PFL will formulate the sequence in accordance with the [Flow Times](#times) below. Ensure that event traffic gets priority over non-event traffic.
 
 PFL will construct the sequence via the [Arrivals List Window](../../../controller-skills/sequencing/#arrivals-list).
 
 Appropriate annotations for the Arrivals List Window can be found [here](../../../client/annotations/#sequencingflow).
+
+### Times
+The times below indicate the number of minutes from **KABLI** to the Runway Threshold on the Alpha STAR.
+
+| Runway | Time |
+| ---------- | --- |
+| 03      | 16|
+| 21      | 16 |
+| 24     | 14 |
+
+Subtract **1 minute** if assigned MX or CSR.
 
 ### Wake Turbulence Separation
 Due to the tight sequence, there are times that [Wake Turbulence Separation](../../../separation-standards/waketurb/#airspace) cannot practically be applied.
@@ -87,7 +98,7 @@ Standard as per [PH TCU Local Instructions](../../../terminal/perth/#arrivals), 
   <figcaption>PIY to PHA 24A21D</figcaption>
 </figure>
 
-### Between PIY/HYD and PFL
+#### Between PIY/HYD and PFL
 PFL will construct the sequence via the [Arrivals List Window](../../../controller-skills/sequencing/#arrivals-list).
 
 Appropriate annotations for the Arrivals List Window can be found [here](../../../client/annotations/#sequencingflow).

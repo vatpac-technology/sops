@@ -38,16 +38,16 @@ The **dashed green** lines represents the *suggested vectors* for Departures.
   <figcaption>19 PROPS Airspace Division</figcaption>
 </figure>
 
-19R will be the primary runway for arrivals.  
-19L will be the primary runway for departures.
-
-#### 19R Departures
-Departures from Runway 19R will be assigned the **BN4** SID with an assigned heading of **H210**.  
-Aircraft may be cleared DCT **SANEG** when clear of 19L Departures.
+19L will be the primary runway for arrivals.  
+19R will be the primary runway for departures.
 
 #### 19L Departures
 Departures from Runway 19L will be assigned the **BN4** SID with an assigned heading of **H160**.  
 Aircraft may be handed off to GOL on this heading.
+
+#### 19R Departures
+Departures from Runway 19R will be assigned the **BN4** SID with an assigned heading of **H210**.  
+Aircraft may be cleared DCT **SANEG** when clear of 19L Departures.
 
 ### Approach Expectation
 All arrivals will be cleared for the Approach type indicated on the ATIS.
@@ -102,6 +102,18 @@ BFL will construct the sequence via the [Arrivals List Window](../../../controll
 
 Appropriate annotations for the Arrivals List Window can be found [here](../../../client/annotations/#sequencingflow).
 
+### Times
+The times below indicate the number of minutes from the Feeder Fix to the Runway Threshold on the appropriate STAR.
+
+| FF | Runway | Time |
+| ---------- | --- | --- |
+| SMOKA      | 01L | 16 |
+| SMOKA      | 19L | 14 |
+| ENLIP    | 01R | 11 |
+| ENLIP    | 19R | 16 |
+
+Subtract **1 minute** if assigned MX or CSR.
+
 ### Speeds
 BUR will instruct all arrivals to cross **SMOKA** and **ENLIP** at **250 knots**, then *published STAR speeds*.
 
@@ -136,13 +148,19 @@ Voiceless for all aircraft:
 | STAR | Runway | DCT Tracking available |
 | ---------- | --- | --- |
 | SMOKA1A      | 01L | None |
-| SMOKA1A      | 19R | None |
+| SMOKA1A      | 19L | None |
 | ENLIP2A      | 01R | DCT **MULNI** |
-| ENLIP2X      | 19L | DCT **DRAIN** |
+| ENLIP2X      | 19R | DCT **DRAIN** |
 
 All other aircraft coming from BUR/DOS CTA will be **Heads-up** Coordinated to BN TCU prior to **20nm** from the boundary.
 
 #### Between BUR/KPL and BFL
 BFL must **voice coordinate** any changes to instructions after BUR/KPL has put a `<` on it.
+
+BFL must **voice coordinate** to KPL/BUR any aircraft that must be rerouted via **ENLIP** for **01R/19R**.
+
+!!! example
+    <span class="hotline">**BFL** -> **KPL**</span>: "PAA001 via ENLIP for 01R please"  
+    <span class="hotline">**KPL** -> **BFL**</span>: "PAA001 via ENLIP for 01R, will be"  
 
 BUR/KPL must **voice coordinate** any requests for *Track Shortening*, *CSR*, or *Different STARs*, to BFL.

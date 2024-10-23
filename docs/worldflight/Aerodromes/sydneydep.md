@@ -131,3 +131,7 @@ Standard as per [YSSY Local Instructions](../../../aerodromes/classc/Sydney/#aut
 
 - 16L/34R Departure SID: **SY3** RADAR
 - 16L/34R Standard Assignable Departure Heading: **H120**
+
+#### Departures Controller
+Departures from Runway 16R and 34L shall be handed off to SDN.  
+Departures from Runway 16L and 34R shall be handed off to SDS.
