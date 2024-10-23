@@ -9,7 +9,7 @@ An additional Non-Standard position for AD SMC will be used
 
 | Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| Adelaide SMC (North)    | Adelaide Ground  | 126.550          | **AD-N_GND**                                   |
+| Adelaide SMC (West)    | Adelaide Ground  | 126.550          | **AD-W_GND**                                   |
 
 ## Runway Modes
 
@@ -29,7 +29,7 @@ Ensure **all flight plans** are checked for compliance with the approved WF Rout
 `DCT AD Q33 ESP Q158 PH DCT`
 
 ### SMC Frequency
-Upon readback of an airways clearance or PDC, instruct aircraft to contact Adelaide (North) Ground (if they are online) on **126.550** when ready for pushback.
+Upon readback of an airways clearance or PDC, instruct aircraft to contact Adelaide Ground on **121.700** when ready for pushback.
 
 ### WorldFlight Teams
 [WorldFlight Teams](../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
@@ -58,10 +58,10 @@ PDCs will be in use by default, to avoid frequency congestion. ACD shall send a 
     **AD SMC:** "QFA7448, Taxi via F2, A, Hold Short of K"  
     **QFA7448:** "Taxi via F2, A, Hold Short of K, QFA7448"   
     When QFA7448 is approaching K:  
-    **AD SMC:** "QFA7448, Contact Ground 126.550"  
+    **AD SMC:** "QFA7448, Contact Ground 121.7"  
 
 ### Pushback Delays
-SMC North will be responsible for delaying aircraft's pushback requests, in order to avoid overloading the taxiways.
+SMC will be responsible for delaying aircraft's pushback requests, in order to avoid overloading the taxiways.
 
 If there are more than **5** aircraft in the queue at the Holding Point for *any runway*, do not approve any more pushback requests.
 
@@ -161,8 +161,14 @@ When a following aircraft is of a *lighter* [Wake Turbulence Category](../../../
 #### 23A30D
 Landing aircraft will be instructed to vacate **right** (any exit).
 
+!!! example
+    Instruct aircraft that are observed vacating at **D2** to *remain this frequency*, as ADC owns the taxiway.
+
 #### 05A30D
 Landing aircraft will be instructed to vacate **left** (any exit).
+
+!!! example
+    Instruct aircraft that are observed vacating at **D2** to *remain this frequency*, as ADC owns the taxiway.
 
 #### 05A12D
 Landing aircraft will be instructed to vacate **right** via *Southern Grass* or **D2**.
