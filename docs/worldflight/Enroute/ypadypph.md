@@ -82,7 +82,7 @@ Standard as per [PIY Local Instructions](../../../enroute/Melbourne Centre/PIY/#
   <figcaption>PIY to PHA 24A21D</figcaption>
 </figure>
 
-### Between PIY/HYD and PFL
+#### Between PIY/HYD and PFL
 PFL will construct the sequence via the [Arrivals List Window](../../../controller-skills/sequencing/#arrivals-list).
 
 Appropriate annotations for the Arrivals List Window can be found [here](../../../client/annotations/#sequencingflow).

@@ -87,11 +87,13 @@ Standard as per [SY TCU Local Instructions](../../../terminal/sydney/#app-dir).
 ### CNK to SAS/SAN
 Standard as per [SY TCU Local Instructions](../../../terminal/sydney/#arrivals).
 
-### Between ARL/CNK and SFL
-SFL will construct the sequence via the [Arrivals List Window](../../../controller-skills/sequencing/#arrivals-list).
-
-Appropriate annotations for the Arrivals List Window can be found [here](../../../client/annotations/#sequencingflow).
-
+#### Between ARL/CNK and SFL
 SFL must **voice coordinate** any changes to instructions after ARL/CNK has put a `<` on it.
+
+SFL must **voice coordinate** to ARL/CNK any aircraft that must be rerouted via **OLTIN YAKKA MEPIL** for **16L/34R**.
+
+!!! example
+    <span class="hotline">**SFL** -> **ARL**</span>: "ANZ361 via OLTIN for 34R please"  
+    <span class="hotline">**ARL** -> **SFL**</span>: "ANZ361 via OLTIN for 34, will be"  
 
 ARL/CNK must **voice coordinate** any requests for *Track Shortening* or *CSR* to SFL.

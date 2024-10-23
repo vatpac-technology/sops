@@ -20,8 +20,30 @@ All aircraft shall be issued the **LOTGU1** SID.
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
 
 ## Surface Movement Control (SMC)
+Runway 14R/32L will be used for taxiing. The Runway is released to SMC by default.
+
+Standard taxi directions are shown below.
+
+<figure markdown>
+![AYPY Standard Taxi Routes](../img/aypysmc.png){ width="700" }
+  <figcaption>AYPY Standard Taxi Routes</figcaption>
+</figure>
 
 ## Tower Control (ADC)
+### Runway 14R/32L Release
+Runway 14R/32L will be used for taxiing. The Runway is released to SMC by default.
+
+### Departure Spacing
+Ensure that a minimum of **90 second** spacing is applied between subsequent departures from the same runway.
+
+### Wake Turbulence Separation
+Due to the tight sequence, there are times that [Wake Turbulence Separation](../../../separation-standards/waketurb/#runways) cannot practically be applied.
+
+When a following aircraft is of a *lighter* [Wake Turbulence Category](../../../separation-standards/waketurb/#categories) than the preceding aircraft, a traffic statement and wake turbulence **caution** shall be issued.
+
+!!! example
+    **AYPY ADC:** "ANG3, 747 has just landed. Caution Wake Turbulence. Runway 32L, Cleared for Takeoff"  
+    **ANG3:** "Cleared for Takeoff Runway 32L, ANG3"
 
 ## Coordination
 #### Auto Release

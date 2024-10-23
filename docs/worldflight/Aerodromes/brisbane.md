@@ -22,6 +22,16 @@ Ensure **all flight plans** are checked for compliance with the approved WF Rout
 ### WorldFlight Teams
 [WorldFlight Teams](../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
 
+### Runway Selection
+Runway **01R/19R** will be the primary runway for departures.
+
+**Heavy** and **Super** aircraft **must** be assigned Runway **01R/19R**.
+
+**Medium** and **Light** aircraft *may* be assigned Runway **01L/19L** at the discretion of the ACD controller to balance departing traffic.
+
+!!! note
+    Be mindful that 01L/19L Departures will incur additional delays, due to it being the primary arrival runway.
+
 ### SID Selection
 
 | Runway | SID |
@@ -35,6 +45,15 @@ Ensure **all flight plans** are checked for compliance with the approved WF Rout
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
 
 ## Surface Movement Control (SMC)
+### Pushback Delays
+SMC Domestic and South will be responsible for delaying aircraft's pushback requests, in order to avoid overloading the taxiways.
+
+If there are more than **5** aircraft in the queue at the Holding Point for *any runway*, do not approve any more pushback requests.
+
+#### OzStrips
+All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../client/towerstrips.md#recommended-workflow) for OzStrips.
+
+Ensure the Queue function is used to actively to keep track of the order of requests.
 
 ## Tower Control (ADC)
 ### Departure Spacing
@@ -63,12 +82,12 @@ Runway 01L, 19L and 19R Departures will be assigned the **BN4** RADAR SID, with 
 
 | Cloud Base / Visibility             | Approach                             |
 | -----------------------| -------------------------------------|
-| >1700FT **and** >5000m               | `EXP INDEP VISUAL APCH. DO NOT PASS THRU ASSIGNED RWY CL` |
+| >1700FT **and** >5000m  | `EXP INDEP VISUAL APCH. DO NOT PASS THRU ASSIGNED RWY CL` |
 | <1700FT **or** <5000m    | `EXP INSTR APCH`                |
 
 ### OPR INFO
 The ATIS OPR INFO shall include:  
-`EXP CLR VIA PDC`
+`EXP CLR VIA PDC. INDEPENDENT PARL APPROACHES AND DEPS IN PROGRESS`
 
 ## Coordination
 ### BDN/BDS
@@ -82,5 +101,6 @@ Avilable for aircraft assigned:
 | 19L  | BN4 | H160 |
 | 19R  | BN4 | H210 |
 
+#### Departures Controller
 Departures from Runway 01L and 19L shall be handed off to BDN.  
 Departures from Runway 01R and 19R shall be handed off to BDS.

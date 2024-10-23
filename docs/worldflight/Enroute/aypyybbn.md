@@ -39,7 +39,7 @@ BUR will take responsibility for the DOS subsector, to facilitate **ENLIP** arri
 Minimum distance between arrivals at handoff to BAN/BAS is **10nm** (with no significant closing speed).
 
 ## STAR Clearances
-All aircraft shall be issued the **SMOKA1A** STAR for Runway **01L/19R** by default.  
+All aircraft shall be issued the **SMOKA1A** STAR for Runway **01L/19L** by default.  
 
 ### ENLIP Reclearance
 To aid with distributing the arrival sequence, KPL may reclear aircraft DCT to **ENLIP** for the following ENLIP STAR:
@@ -47,7 +47,7 @@ To aid with distributing the arrival sequence, KPL may reclear aircraft DCT to *
 | Runway | STAR |
 | ---------- | --- |
 | 01R      | ENLIP2A |
-| 19L      | ENLIP2X† |
+| 19R      | ENLIP2X† |
 
 †Aircraft on the **Xray** STAR will still expect an *Independent Visual Approach* from that STAR, unless the ATIS indicates otherwise.
 
@@ -56,7 +56,7 @@ Arrivals may, when suitable for the *sequence*, and clear of *01L/19R traffic*, 
 | Runway | DCT |
 | ---------- | --- |
 | 01R      | MULNI |
-| 19L      | DRAIN |
+| 19R      | DRAIN |
 
 ## Coordination
 ### AYPY DEP to AYPM CTR
@@ -88,8 +88,26 @@ Voiceless for all aircraft:
 | STAR | Runway | DCT Tracking available |
 | ---------- | --- | --- |
 | SMOKA1A      | 01L | None |
-| SMOKA1A      | 19R | None |
+| SMOKA1A      | 19L | None |
 | ENLIP2A      | 01R | DCT **MULNI** |
-| ENLIP2X      | 19L | DCT **DRAIN** |
+| ENLIP2X      | 19R | DCT **DRAIN** |
 
 All other aircraft coming from BUR/DOS CTA must be **Heads-up** Coordinated to BN TCU prior to **20nm** from the boundary.
+
+#### Between KPL/BUR and BFL
+BFL will construct the sequence via the [Arrivals List Window](../../../controller-skills/sequencing/#arrivals-list).
+
+Appropriate annotations for the Arrivals List Window can be found [here](../../../client/annotations/#sequencingflow).
+
+BFL must **voice coordinate** any changes to instructions after KPL/BUR has put a `<` on it.
+
+BFL will **voice coordinate** to KPL/BUR any aircraft that must be rerouted via **ENLIP** for **01R/19R**.
+
+!!! example
+    <span class="hotline">**BFL** -> **KPL**</span>: "PAA001 via ENLIP for 01R please"  
+    <span class="hotline">**KPL** -> **BFL**</span>: "PAA001 via ENLIP for 01R, will be"  
+
+KPL/BUR must **voice coordinate** any requests for *Track Shortening* or *CSR* to BFL.
+
+!!! tip
+    If in your judgement, the request won't be available due to the sequence, there is no need to voice coordinate the requests. Just deny them.
