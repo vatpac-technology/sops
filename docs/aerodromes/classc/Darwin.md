@@ -89,9 +89,9 @@ Assign VFR routes in accordance with the following radial chart:
 Auto-Release is **not available** at YPDN. All Departures will be coordinated when ready for departure.
 
 !!! example
-    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Next, ABC, runway 18"  
-    <span class="hotline">**DN TCU** -> **DN ADC**</span>: "ABC, Track Extended Centreline, unrestricted"  
-    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Track Extended Centreline, unrestricted, ABC"  
+    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Next, EOC, runway 18"  
+    <span class="hotline">**DN TCU** -> **DN ADC**</span>: "EOC, Track Extended Centreline, unrestricted"  
+    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Track Extended Centreline, EOC"  
 
 The Standard Assignable level from **DN ADC** to **DN TCU** is:
 
