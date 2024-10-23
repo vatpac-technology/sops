@@ -8,8 +8,10 @@
 ### Gold Coast (GOL)
 GOL is responsible for reclearing certain aircraft via **OLTIN YAKKA MEPIL**.
 
-**All** aircraft that GOL receives from BDS/BDN on a heading *east* of **SANEG** shall be recleared via this amended tracking.  
-Additionally, GOL may reclear more aircraft on the standard route, in order to keep a 50/50 balance between **BOREE** and **MEPIL** arrivals in to **YSSY**.
+**All** aircraft that GOL receives from BDS/BDN on a heading *east* of **SANEG** shall be recleared via this amended tracking.
+
+Additionally, GOL may reclear more aircraft from the standard route to the amended **OLTIN YAKKA MEPIL** tracking, in order to keep a 50/50 balance between **BOREE** and **MEPIL** arrivals in to **YSSY**.  
+**Do not** reclear **Heavy** or **Super** aircraft via **MEPIL**. Leave them on planned route.
 
 ### Inverell (INL)
 INL will be responsible for starting to form the sequence in to YSSY, by applying *speed control* in the cruise.
@@ -64,12 +66,18 @@ Standard as per [ARL Local Instructions](../../../enroute/Brisbane Centre/ARL/#a
 **BOREE** Arrivals will be handed off to SAS.  
 **MEPIL** Arrivals will be handed off to SAN.  
 
-### Between ARL/CNK and SFL
+#### Between ARL/CNK and SFL
 SFL will construct the sequence via the [Arrivals List Window](../../../controller-skills/sequencing/#arrivals-list).
 
 Appropriate annotations for the Arrivals List Window can be found [here](../../../client/annotations/#sequencingflow).
 
 SFL must **voice coordinate** any changes to instructions after ARL/CNK has put a `<` on it.
+
+SFL will **voice coordinate** to ARL/CNK any aircraft that must be rerouted via **OLTIN YAKKA MEPIL** for **16L/34R**.
+
+!!! example
+    <span class="hotline">**SFL** -> **ARL**</span>: "ANZ361 via OLTIN for 34R please"  
+    <span class="hotline">**ARL** -> **SFL**</span>: "ANZ361 via OLTIN for 34, will be"  
 
 ARL/CNK must **voice coordinate** any requests for *Track Shortening* or *CSR* to SFL.
 
