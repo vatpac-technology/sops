@@ -26,7 +26,7 @@ PDCs will be in use by default, to avoid frequency congestion. ACD shall send a 
 ### Pushback Delays
 SMC will be responsible for delaying aircraft's pushback requests, in order to avoid overloading the taxiways.
 
-If there are more than **5** aircraft in the queue at the Holding Point for *any runway*, do not approve any more pushback requests.
+If there are more than **5** aircraft in the queue at any Holding Point, do not approve any more pushback requests. Instead, use the queue function to keep track of who is awaiting push.
 
 #### OzStrips
 All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../client/towerstrips.md#recommended-workflow) for OzStrips.
