@@ -4,6 +4,13 @@
 
 --8<-- "includes/abbreviations.md"
 
+## Positions
+FOW is an additional non-standard sector for the event (Split from FOR).
+
+| Name | Callsign | Frequency | Login ID |
+| ---- | -------- | --------- | -------- |
+| Forrest West | Melbourne Centre | 131.700 | ML-FOW_CTR |
+
 ## Sector Responsibilities
 ### Tailem Bend (TBD)
 TBD has *no Restrictions or Requirements* on YPAD departures tracking DCT **LONLY**.
