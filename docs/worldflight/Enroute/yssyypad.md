@@ -27,6 +27,8 @@ MUN will be responsible for starting to form the sequence in to YPAD, by applyin
 ### Tailem Bend (TBD)
 TBD will be responsible for issuing STAR clearances in to YPAD, and providing the final sequence to handoff to AAE.
 
+TBD will be responsible for the TBD subsector **only**.
+
 #### STARs
 Runway 23 Arrivals shall be issued the **BLACK3A** STAR.  
 Runway 05 Arrivals shall be issued the **BLACK3Z** STAR.
