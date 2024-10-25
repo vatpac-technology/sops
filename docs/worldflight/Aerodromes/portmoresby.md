@@ -47,7 +47,7 @@ When a following aircraft is of a *lighter* [Wake Turbulence Category](../../../
 
 ## ATIS
 The ATIS OPR INFO shall include:  
-`EXP CLR VIA PDC, ALL ACFT EXP INTERSECTION DEPARTURE`
+`EXP CLR VIA PDC`
 
 ## Coordination
 #### Auto Release
