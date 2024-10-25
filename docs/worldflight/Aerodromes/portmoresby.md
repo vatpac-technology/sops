@@ -45,6 +45,16 @@ When a following aircraft is of a *lighter* [Wake Turbulence Category](../../../
     **AYPY ADC:** "ANG3, 747 has just departed. Caution Wake Turbulence. Runway 32L, Cleared for Takeoff"  
     **ANG3:** "Cleared for Takeoff Runway 32L, ANG3"
 
+### Runway Vacating Instructions
+To minimise runway occupancy, it is essential that aircraft vacate the runway without delay. ADC shall instruct all arriving aircraft to vacate via the following exits when issued a landing clearance:
+
+| Landing Runway | Exit |
+| -------------- | ---- |
+| 14L | M |
+| 32R | F |
+
+If aircraft miss these exits, they should be instructed to vacate via **A** (landing 32R) or via **the grass** (landing 14L) without delay.
+
 ## ATIS
 The ATIS OPR INFO shall include:  
 `EXP CLR VIA PDC`
