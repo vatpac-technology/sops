@@ -23,6 +23,8 @@ PDCs will be in use by default, to avoid frequency congestion. ACD shall send a 
 ### Runway 14R/32L
 Runway 14R/32L will be used for taxiing. The Runway is released to SMC by default.
 
+*Southern Grass* Taxiway shall be used for Runway 32R departures queuing. It may also be used for Runway 14L Arrivals vacating.
+
 Standard taxi directions are shown below.
 
 <figure markdown>
