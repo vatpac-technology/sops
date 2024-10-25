@@ -42,8 +42,12 @@ Due to the tight sequence, there are times that [Wake Turbulence Separation](../
 When a following aircraft is of a *lighter* [Wake Turbulence Category](../../../separation-standards/waketurb/#categories) than the preceding aircraft, a traffic statement and wake turbulence **caution** shall be issued.
 
 !!! example
-    **AYPY ADC:** "ANG3, 747 has just landed. Caution Wake Turbulence. Runway 32L, Cleared for Takeoff"  
+    **AYPY ADC:** "ANG3, 747 has just departed. Caution Wake Turbulence. Runway 32L, Cleared for Takeoff"  
     **ANG3:** "Cleared for Takeoff Runway 32L, ANG3"
+
+## ATIS
+The ATIS OPR INFO shall include:  
+`EXP CLR VIA PDC, ALL ACFT EXP INTERSECTION DEPARTURE`
 
 ## Coordination
 #### Auto Release

@@ -115,7 +115,7 @@ Due to the tight sequence, there are times that [Wake Turbulence Separation](../
 When a following aircraft is of a *lighter* [Wake Turbulence Category](../../../separation-standards/waketurb/#categories) than the preceding aircraft, a traffic statement and wake turbulence **caution** shall be issued.
 
 !!! example
-    **PH ADC:** "EVY30, 777 has just landed on the crossing runway. Caution Wake Turbulence. Runway 24, Cleared to Land"  
+    **PH ADC:** "EVY30, 777 has just departed from the crossing runway. Caution Wake Turbulence. Runway 24, Cleared to Land"  
     **EVY30:** "Cleared to Land Runway 24, EVY30"
 
 ## ATIS
