@@ -20,6 +20,7 @@ All aircraft shall be issued the **LOTGU1** SID.
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
 
 ## Surface Movement Control (SMC)
+### Runway 14R/32L
 Runway 14R/32L will be used for taxiing. The Runway is released to SMC by default.
 
 Standard taxi directions are shown below.
@@ -28,6 +29,16 @@ Standard taxi directions are shown below.
 ![AYPY Standard Taxi Routes](../img/aypysmc.png){ width="700" }
   <figcaption>AYPY Standard Taxi Routes</figcaption>
 </figure>
+
+### Pushback Delays
+SMC will be responsible for delaying aircraft's pushback requests, in order to avoid overloading the taxiways.
+
+If there are more than **5** aircraft in the queue at the Holding Point for the departure runway, do not approve any more pushback requests.
+
+#### OzStrips
+All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../client/towerstrips.md#recommended-workflow) for OzStrips.
+
+Ensure the Queue function is used to actively to keep track of the order of requests.
 
 ## Tower Control (ADC)
 ### Runway 14R/32L Release
