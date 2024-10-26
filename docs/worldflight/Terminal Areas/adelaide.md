@@ -50,6 +50,24 @@ AFL will construct the sequence via the [Arrivals List Window](../../../controll
 
 Appropriate annotations for the Arrivals List Window can be found [here](../../../client/annotations/#sequencingflow).
 
+### Runway 30 Spacing
+When Runway 30 is in use for arrivals, arrivals shall be spaced out in a **+2/+2/+1** pattern.
+
+| Number | Runway | Gap (mins) | Example Landing Time |
+| ---------- | --- | --- | --- |
+| 1      | 30 | | L00 |
+| 2      | 05/23 | +2 | L02 |
+| 3      | 05/23 | +2 | L04 |
+| 4      | 30 | +1 | L05 |
+| 5      | 05/23 | +2 | L07 |
+| 6      | 05/23 | +2 | L09 |
+| 7      | 30 | +1 | L10 |
+
+That is, two arrivals in to Runway 05/23 spaced out by 2 minutes each, followed by 1 arrival in to Runway 30 spaced out by 1 minute, and repeated.
+
+#### Times
+**DRINA** to Runway 30 Threshold via **PADEL** is **12 minutes**. Subtract **1 minute** if assigned MX or CSR.
+
 ### Wake Turbulence Separation
 Due to the tight sequence, there are times that [Wake Turbulence Separation](../../../separation-standards/waketurb/#airspace) cannot practically be applied.
 
@@ -60,7 +78,7 @@ When a following aircraft is of a *lighter* [Wake Turbulence Category](../../../
     **JST762:** "JST762"
 
 ### Speeds
-TBD will instruct all arrivals to cross **BLACK** at **250 knots**, then *published STAR speeds*.
+TBD will instruct all arrivals to cross **BLACK**/**DRINA** at **250 knots**, then *published STAR speeds*.
 
 ## Coordination
 ### AD ADC
