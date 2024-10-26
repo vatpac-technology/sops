@@ -4,6 +4,13 @@
 
 --8<-- "includes/abbreviations.md"
 
+## Positions
+An additional Non-Standard position for Sydney ACD will be used
+
+| Name               | ID      | Callsign       | Frequency        | Login ID              |
+| ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
+| [Sydney (Assistant) Delivery](#dual-acd-controller-operations)     | SY-C_DEL | N/A             | N/A | SY-C_DEL                              |
+
 ## Runway Modes
 **16 PROPS** and **34 PROPS** are the *preferred* Runway Modes, with equal preference.
 
@@ -17,6 +24,38 @@ Ensure **all flight plans** are checked for compliance with the approved WF Rout
 
 ### WorldFlight Teams
 [WorldFlight Teams](../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
+
+### Strip Setup
+By default, vatSys strips will be set to show in *Alphabetical* Order.  
+This must be changed to be ordered by **Time**, as shown below.
+
+<figure markdown>
+![Strips Menu](../img/strip1.png){ width="500" }
+    <figcaption>Strips Menu</figcaption>
+</figure>
+
+<figure markdown>
+![Change to Time](../img/strip2.png){ width="500" }
+    <figcaption>Change to Time</figcaption>
+</figure>
+
+### Dual ACD Controller Operations
+YSSY will have a non-standard second ACD Controller.
+
+#### SY-C_DEL
+**SY-C_DEL** will be responsible for:
+
+- Checking [Flight Plan compliance](#flight-plan-compliance)
+- Entering Flight Data (Setting [Runway](#runway-selection), [SID](#sid-selection) and [CFL](../../../aerodromes/classc/Sydney/#auto-release))
+- Sending [PDCs](#pdcs)
+
+SY-C_DEL has *no frequency*, and will not talk to aircraft by voice.
+
+#### SY_DEL
+**SY_DEL** will be responsible for:
+
+- Handling [PDC](#pdcs) Readbacks
+- All the tasks of [SY-C_DEL](#sy-c_del) for aircraft that call for clearance
 
 ### Runway Selection
 By default, assign aircraft the departure runway that corresponds to their departure apron (ie, **16L/34R** on *East* Apron, **16R/34L** on *West* Apron).

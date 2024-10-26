@@ -10,8 +10,8 @@ Standard airspace division will be in use as per [AD TCU Local Instructions](../
 ## Runway Modes
 Depending on wind limitations, there are four possible Runway Modes in use at YPAD:
 
-- 23A30D
-- 23A12D
+- 23A30AD
+- 23A12AD
 - 05A30D
 - 05A12D
 
@@ -69,8 +69,8 @@ Standard as per [AD TCU Local Instructions](../../../terminal/adelaide/#ad-adc),
 
 | Runway Mode | Runway 12/30 Assigned Heading |
 | ---------- | --- |
-| 23A30D      | Runway Heading |
-| 23A12D      | H180 |
+| 23A30AD      | Runway Heading |
+| 23A12AD      | H180 |
 | 05A30D      | H230 |
 | 05A12D      | H060 |
 
@@ -93,7 +93,13 @@ Voiceless for all aircraft:
 All other aircraft going to AUG CTA will be **Heads-up** Coordinated.
 
 ### TBD to AAE
-Standard as per [AD TCU Local Instructions](../../../terminal/adelaide/#arrivals)
+Voiceless for all aircraft:
+
+- With ADES **YPAD**; and  
+- Assigned `A090`; and
+- Assigned the **BLACK3A/23** STAR; or
+- Assigned the **BLACK3Z/05** STAR; or
+- Tracking DCT **PADEL**
 
 TBD has *no Restrictions or Requirements* on YPAD departures tracking DCT **LONLY**
 

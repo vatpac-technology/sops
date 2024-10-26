@@ -15,8 +15,8 @@ An additional Non-Standard position for AD SMC will be used
 
 | Priority | Mode |
 | ---------- | --- |
-|  1 | 23A30D |
-|  2  | 05A30D |
+|  1 | 23A30AD |
+|  2  | 05A30AD |
 |  3 | 05A12D |
 |  4  | 23A12D |
 
@@ -33,6 +33,20 @@ Upon readback of an airways clearance or PDC, instruct aircraft to contact Adela
 
 ### WorldFlight Teams
 [WorldFlight Teams](../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
+
+### Strip Setup
+By default, vatSys strips will be set to show in *Alphabetical* Order.  
+This must be changed to be ordered by **Time**, as shown below.
+
+<figure markdown>
+![Strips Menu](../img/strip1.png){ width="500" }
+    <figcaption>Strips Menu</figcaption>
+</figure>
+
+<figure markdown>
+![Change to Time](../img/strip2.png){ width="500" }
+    <figcaption>Change to Time</figcaption>
+</figure>
 
 ### Runway Selection
 Aircraft that are unable to accept Runway 12/30 due to operational requirements shall be assigned Runway 05/23 (as appropriate based on Runway Mode).
@@ -88,26 +102,26 @@ Due to limitations in the taxiway layout at YPAD, some aircraft will need to be 
 
 ### Taxi Routes
 
-#### 23A30D
+#### 23A30AD
 Aircraft shall taxi around the aerodrome in a **Clockwise** pattern.  
 Runway 23 Arrivals will vacate **right**, and taxi via **F**, **A**, **B1** to the apron.  
 Runway 30 Departures will taxi via *Eastern Grass*.  
 Runway 23 Departures *(Operational Requirement)* will queue to the South West on **T**, then North East on **A**.
 
 <figure markdown>
-![23A30D SMC Diagram](../img/23A30DSMC.png){ width="700" }
-  <figcaption>23A30D SMC Diagram</figcaption>
+![23A30AD SMC Diagram](../img/23A30DSMC.png){ width="700" }
+  <figcaption>23A30AD SMC Diagram</figcaption>
 </figure>
 
-#### 05A30D
+#### 05A30AD
 Aircraft shall taxi around the aerodrome in a **Clockwise** pattern.  
 Runway 05 Arrivals will vacate **left**, and taxi via **A**, **B1** to the apron.  
 Runway 30 Departures will taxi via *Eastern Grass*.  
 Runway 05 Departures *(Operational Requirement)* will taxi via *Eastern Grass* and *Southern Grass*.
 
 <figure markdown>
-![05A30D SMC Diagram](../img/05A30DSMC.png){ width="700" }
-  <figcaption>05A30D SMC Diagram</figcaption>
+![05A30AD SMC Diagram](../img/05A30DSMC.png){ width="700" }
+  <figcaption>05A30AD SMC Diagram</figcaption>
 </figure>
 
 #### 05A12D
@@ -143,8 +157,8 @@ Runway 12/30 Departures will be assigned the **AD4** RADAR SID, with the followi
 
 | Runway Mode | Runway 12/30 Assigned Heading |
 | ---------- | --- |
-| 23A30D      | Runway Heading |
-| 05A30D      | H230 |
+| 23A30AD      | Runway Heading |
+| 05A30AD      | H230 |
 | 05A12D      | H060 |
 | 23A12D      | H180 |
 
@@ -157,17 +171,30 @@ When a following aircraft is of a *lighter* [Wake Turbulence Category](../../../
     **AD ADC:** "QFA887, A330 has just departed on the crossing runway. Caution Wake Turbulence. Runway 30, Cleared for Takeoff"  
     **QFA887:** "Cleared for Takeoff Runway 30, QFA887"
 
+### Managing Runway 30 Arrivals
+When Runway 30 and 05/23 is in use for arrivals at YPAD, ADC must manage the speeds of aircraft on final to ensure they will not conflict on landing.
+
+Use two BRLs anchored on the runway intersection point to monitor distances and speeds. Leave the BRLs there and change them from aircraft to aircraft as the sequence continues.
+
+Aim for a minimum of **2nm** separation at the instersection.
+
+<figure markdown>
+![Dual BRL at Intersection](../img/ypaddualbrl.png){ width="500" }
+  <figcaption>Dual BRL at Intersection</figcaption>
+</figure>
+
 ### Runway Vacating Instructions
-#### 23A30D
+#### 23A30AD
 Landing aircraft will be instructed to vacate **right** (any exit).
 
-!!! example
+!!! note
     Instruct aircraft that are observed vacating at **D2** to *remain this frequency*, as ADC owns the taxiway.
 
-#### 05A30D
-Landing aircraft will be instructed to vacate **left** (any exit).
+#### 05A30AD
+Runway 05 Arrivals will be instructed to vacate **left** (any exit).  
+Runway 30 Arrivals will be instructed to vacate **right** (any exit).
 
-!!! example
+!!! note
     Instruct aircraft that are observed vacating at **D2** to *remain this frequency*, as ADC owns the taxiway.
 
 #### 05A12D
@@ -190,8 +217,8 @@ Standard as per [YPAD Local Instructions](../../../aerodromes/classc/Adelaide/#a
 
 | Runway Mode | Runway 12/30 Assigned Heading |
 | ---------- | --- |
-| 23A30D      | Runway Heading |
-| 05A30D      | H230 |
+| 23A30AD      | Runway Heading |
+| 05A30AD      | H230 |
 | 05A12D      | H060 |
 | 23A12D      | H180 |
 

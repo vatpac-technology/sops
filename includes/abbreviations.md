@@ -102,7 +102,7 @@
 *[TBD]: Melbourne (Tailem Bend) Centre
 *[YWE]: Melbourne (Yarrowee) Centre
 *[ARA]: Brisbane (Arafura) Centre
-*[ARW]: Brisbane (Arafura West) Centre
+*[ARE]: Brisbane (Arafura East) Centre
 *[BAR]: Brisbane (Barra) Centre
 *[BUR]: Brisbane (Burnett) Centre
 *[CVN]: Brisbane (Carnarvon) Centre
@@ -274,6 +274,7 @@
 *[FIMM]: Mauritius FIR
 *[FAJO]: Johannesburg FIR
 *[AYPM]: Port Moresby FIR
+*[AYPE]: Port Moresby (East) FIR
 *[NWWW]: Noumea FIR
 *[NVVV]: Port Vila FIR
 *[RJTG]: Fukuoka FIR
