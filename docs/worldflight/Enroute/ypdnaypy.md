@@ -9,13 +9,15 @@ ARW is an additional non-standard sector for the event (Split from ARA).
 
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
-| Arafura West | Brisbane Centre | 127.600 | BN-ARW_CTR |
+| Arafura East | Brisbane Centre | 127.600 | BN-ARE_CTR |
+
+AYPE CTR will also be a non-standard split-off from AYPM CTR. They will manage AYPY departures (Not involved in this leg).
 
 ## Sector Responsibilities
-### Territory South (TRS) and Arafura West (ARW)
+### Territory South (TRS) and Arafura (ARA)
 TRS and ARW will be responsible for ensuring the separation of aircraft in the Enroute phase of flight. No sequencing actions are required.
 
-### Arafura (ARA)
+### Arafura East (ARE)
 ARA will be responsible for starting to form the sequence in to AYPY, by applying *speed control* in the cruise.
 
 ### Port Moresby (AYPM) CTR

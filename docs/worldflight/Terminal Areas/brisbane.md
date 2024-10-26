@@ -74,7 +74,7 @@ Runway 19R Arrivals will be assigned the **Xray** STAR. The preferred approach t
 - Aircraft that **cannot** accept the RNP X Approach, will be cleared **LUVNA** DCT **SABKO** for the **ILS** Approach.
 
 ## Sector Distribution
-In order to balance workload effectively, it is recommended to distribute responsibility for the Brisbane TCU sectors accordingly:
+In order to balance workload effectively, it is recommended to distribute responsibility for the Brisbane TCU sectors accordingly (BAC not included):
 
 ### Two Controllers Online
 

@@ -4,22 +4,32 @@
 
 --8<-- "includes/abbreviations.md"
 
-## Sector Responsibilities
-### Port Moresby (AYPM) CTR
-AYPM CTR will be responsible for ensuring the separation of aircraft in the Enroute phase of flight. No sequencing actions are required.
+## Positions
+An additional Non-Standard position for AYPM CTR will be used
 
-Aircraft shall be handed off directly to TBP. ARA is skipped.
+| Name               | ID      | Callsign       | Frequency        | Login ID              |
+| ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
+| Port Moresby Centre       | AYPM CTR | Moresby Centre             | 123.400 | AYPM_CTR                              |
+| Port Moresby (East) Centre       | AYPE CTR | Moresby Centre             | 125.600 | AYPE_CTR                              |
+
+## Sector Responsibilities
+### Port Moresby (AYPE) CTR
+AYPE CTR will be responsible for ensuring the separation of aircraft in the Enroute phase of flight. No sequencing actions are required.
+
+Aircraft shall be handed off directly to TBP. ARE is skipped.
 
 !!! note
-    AYPM CTR will have better VHF coverage than TBP on aircraft until approximately **100nm South** of **VIPAM**. It is *advisable* to delay handing off aircraft to TBP until approximately that point.
+    AYPE CTR will have better VHF coverage than TBP on aircraft until approximately **100nm South** of **VIPAM**. It is *advisable* to delay handing off aircraft to TBP until approximately that point.
 
-### Arafura (ARA)
-ARA has *no Restrictions or Requirements* on AYPY-YBBN aircraft.
+### Arafura East (ARE)
+ARE has *no Restrictions or Requirements* on AYPY-YBBN aircraft.
 
 ### Tabletop (TBP)
 TBP will be responsible for ensuring the separation of aircraft in the Enroute phase of flight. No sequencing actions are required.
 
 TBP may prime the KEN frequency (120.15) in order to get better VHF range on aircraft coming from AYPM CTR. Advise the AYPM CTR controller if you want handoffs on the KEN frequency instead of TBP.
+
+See here for [WF Teams Requesting amended destination YBCG](#wf-teams-via-ybcg)
 
 ### Swampy (SWY)
 SWY will be responsible for starting to form the sequence in to YBBN, by applying *speed control* in the cruise.

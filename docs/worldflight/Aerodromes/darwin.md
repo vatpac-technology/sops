@@ -16,6 +16,20 @@ Ensure **all flight plans** are checked for compliance with the approved WF Rout
 ### WorldFlight Teams
 [WorldFlight Teams](../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
 
+### Strip Setup
+By default, vatSys strips will be set to show in *Alphabetical* Order.  
+This must be changed to be ordered by **Time**, as shown below.
+
+<figure markdown>
+![Strips Menu](../img/strip1.png){ width="500" }
+    <figcaption>Strips Menu</figcaption>
+</figure>
+
+<figure markdown>
+![Change to Time](../img/strip2.png){ width="500" }
+    <figcaption>Change to Time</figcaption>
+</figure>
+
 ### SID Selection
 All aircraft shall be issued the **RUPEG2** SID.  
 
