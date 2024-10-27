@@ -55,6 +55,10 @@ Runway **01R/19R** will be the primary runway for departures.
 | 19L  | BN4 |
 | 19R  | BN4 |
 
+### Departure Frequency
+Departures from Runway 01L and 19L shall be given the BDN frequency (133.45).  
+Departures from Runway 01R and 19R shall be given the BDS frequency (118.45).
+
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
 
@@ -106,7 +110,7 @@ The ATIS OPR INFO shall include:
 ## Coordination
 ### BDN/BDS
 #### Auto Release
-Avilable for aircraft assigned:
+Available for aircraft assigned `A060`, and:
 
 | Runway | SID | Assigned Heading |
 | ---------- | --- | --- |

@@ -16,7 +16,7 @@ An additional Non-Standard position for AYPY DEP will be used
 Non-Standard airspace division will be in use.
 
 The **red** line represents the STAR to the arrival runway.  
-The **green** line represents the SID to **LOTGU**.  
+The **green** line represents the SID to **NUPTA**.  
 
 ### 14
 
@@ -57,13 +57,13 @@ AYPM CTR will instruct all arrivals to cross **GUMBU** at **250 knots**, then *p
 Available for aircraft assigned:
 
 - A Runway nominated on the ATIS; and
-- The **LOTGU1** SID; and
+- The **NUPTA1** SID; and
 - `A080`
 
 ### AYPY DEP to AYPM CTR
 Voiceless for all aircraft:
 
 - Assigned the lower of `F240` or the `RFL`; and  
-- Tracking via **LOTGU**
+- Tracking via **NUPTAU**
 
 All other aircraft going to AYPM CTR CTA will be **Heads-up** Coordinated.

@@ -31,7 +31,11 @@ This must be changed to be ordered by **Time**, as shown below.
 </figure>
 
 ### SID Selection
-All aircraft shall be issued the **RUPEG2** SID.  
+Runway 11 Departures shall be issued the **RUPEG2** SID.  
+Runway 29 Departures shall be issued the **DN7** RADAR SID.  
+
+### Departure Frequency
+Regardless of Runway in use, Departure frequency shall be DAE (**125.2**).
 
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
@@ -70,6 +74,9 @@ Aircraft vacating runway 29 to the right (north) should be instructed to taxi vi
 ### Departure Spacing
 Ensure that a minimum of **90 second** spacing is applied between subsequent departures from the same runway.
 
+### DN7 Assigned Heading
+Departures from Runway 29 will be assigned the **DN7** SID with an assigned heading of **H130**.
+
 ### Wake Turbulence Separation
 Due to the tight sequence, there are times that [Wake Turbulence Separation](../../../separation-standards/waketurb/#runways) cannot practically be applied.
 
@@ -101,6 +108,13 @@ The ATIS OPR INFO shall include:
 ## Coordination
 ### DN TCU
 #### Auto Release
-Auto release is available for all IFR aircraft departing from runway 11/29, assigned `F180` or `RFL` if lower.
+Available for aircraft assigned `F180`, and:
 
-VFR departures shall be processed as per standard [Darwin coordination rules](../../aerodromes/classc/Darwin.md#auto-release).
+| Runway | SID | Assigned Heading |
+| ---------- | --- | --- |
+| 11  | RUPEG2 | - |
+| 29  | DN7 | H130 |
+
+#### Departures Controller
+All departures shall be handed off to DAE.  
+DAW has *No Restrictions or Requirements* on Runway 29 Departures.
