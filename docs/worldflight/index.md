@@ -9,21 +9,21 @@ Official WorldFlight teams should be afforded priority at all stages of flight. 
 
 The list of callsigns is below:
 
-| Callsign | Aircraft Type |
-| -------- | ------------- |
-| QFA25 | B744 |
-| BAW47C | B744 |
-| ASY121 | A332 |
-| GTI1471 | B744 |
-| ANZ361 | B738 |
-| ANZ362 | B738 |
-| NPT11W | B738 |
-| UAL1120 | B738 |
-| UAL8317 | B772 |
-| JHL44 | A320 |
-| DAL209 | B738 |
-| EXS25N | B738 |
-| PAA001 | B744 |
+| Team Name | Callsign | Aircraft Type |
+| --------- | -------- | ------------- |
+| WorldFlight AU | QFA25 | B744 |
+| Simfest UK | BAW47C | B744 |
+| Simflite AU | ASY121 | A332 |
+| WorldFlight Perth | GTI1471 | B744 |
+| Hamilton | ANZ361 | B738 |
+| San Diego | ANZ362 | B738 |
+| Velocity UK | NPT11W | B738 |
+| Virginia | UAL1120 | B738 |
+| Wings4Hope | UAL8317 | B772 |
+| Team JeeHell | JHL44 | A320 |
+| WorldFlight USA | DAL209 | B738 |
+| Ness Aviation | EXS25N | B738 |
+| Team SharedFlight | PAA001 | B744 |
 
 ## Route
 <figure markdown>
