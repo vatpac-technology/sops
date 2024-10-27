@@ -12,9 +12,7 @@ An additional Non-Standard position for Sydney ACD will be used
 | [Sydney (Assistant) Delivery](#dual-acd-controller-operations)     | SY-C_DEL | N/A             | N/A | SY-C_DEL                              |
 
 ## Runway Modes
-**16 PROPS** and **34 PROPS** are the *preferred* Runway Modes, with equal preference.
-
-If winds dictate that 07/25 Single Runway operations are required, this is acceptable (but not preferred), as a single runway is in use for arrivals at YPAD.
+**16 PROPS** and **34 PROPS** are the available Runway Modes, with equal preference. Any other Runway Mode may **only** be used with approval from the Events Coordinator.
 
 ## Airways Clearance Delivery (ACD)
 ### Flight Plan Compliance

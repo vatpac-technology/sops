@@ -14,9 +14,6 @@ Runway mode changes will be extremely difficult, so ensure an appropriate mode i
 ## Airways Clearance Delivery (ACD)
 The ACD role will perform as normal. Expect a handful of departures who want to maximise the ATC coverage. Normal departure procedures apply for all aircraft.
 
-## Coordinator
-The Coordinator position is unlikely to be required due to the inbound nature of the event. If Coordinator is opened, ensure that the VATPAC [recommended workflow](../../client/towerstrips.md#recommended-workflow) is followed.
-
 ## Surface Movement Control (SMC)
 ### OzStrips
 With two SMC controllers online, utilise [strip bay bars](../../client/towerstrips.md#multiple-adcsmc-positions) to keep the **Taxi** and **Holding Point** strip bays organised.
