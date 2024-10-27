@@ -7,31 +7,32 @@
 ## Airspace Division
 Standard airspace division will be in use as per [DN TCU Local Instructions](../../../terminal/darwin/#airspace-division).
 
+## Runway 29 Departures
+Departures from Runway 29 will call DAE on an assigned heading of **H130**. These aircraft can be cleared DCT **RUPEG** when suitable.
+
 ## Flow
 ### Speeds
 TRT will instruct all arrivals to cross **ANUPA** at **250 knots**, then *published STAR speeds*.
 
-## SID/STAR Level Restrictions
-Level Restrictions at **LEMUX** (SID) and **EPDAM** (STAR) keep arrivals and departures separated. Monitor aircraft closely for compliance with Level Restrictions, and provide reminders if you deem it necessary.
-
 ## Coordination
 ### DN ADC
 #### Auto Release
-Auto release is available for all IFR aircraft departing from runway 11/29, assigned `F180` or `RFL` if lower.
+Available for aircraft assigned `F180`, and:
 
-VFR departures shall be processed as per standard [Darwin coordination rules](../../terminal/darwin.md#auto-release).
+| Runway | SID | Assigned Heading |
+| ---------- | --- | --- |
+| 11  | RUPEG2 | - |
+| 29  | DN7 | H130 |
 
 ### DN TCU Internal
 Arrivals/Departures on **Runway 29** will transit both DAW and DAE airspace.
 
-Voiceless coordination is in use from DAW to DAE for:
+Voiceless coordination is in use from DAW to DAE for arrivals:
 
-- Arrivals  
-    - Assigned `A100`; and  
-    - Assigned the **ANUPA1A** STAR
-- Departures  
-    - Assigned the lower of `F180` or the `RFL`; and  
-    - Assigned the **RUPEG2** SID
+  - Assigned `A100`; and  
+  - Assigned the **ANUPA1A** STAR
+
+DAW has *No Restrictions or Requirements* on Runway 29 Departures.
 
 ### DAE to TRS
 Voiceless for all aircraft:

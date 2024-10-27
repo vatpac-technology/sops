@@ -69,6 +69,10 @@ Non-Standard SIDs are in use for Runway 16L and 34R.
 |  34L  | KADOM1 |
 |  16L/34R  | SY3 |
 
+### Departure Frequency
+Departures from Runway 16R and 34L shall be given the SDN frequency (123.0).  
+Departures from Runway 16L and 34R shall be given the SDS frequency (129.7).
+
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact Coordinator when ready for pushback or taxi.
 

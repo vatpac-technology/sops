@@ -29,8 +29,6 @@ TBP will be responsible for ensuring the separation of aircraft in the Enroute p
 
 TBP may prime the KEN frequency (120.15) in order to get better VHF range on aircraft coming from AYPM CTR. Advise the AYPM CTR controller if you want handoffs on the KEN frequency instead of TBP.
 
-See here for [WF Teams Requesting amended destination YBCG](#wf-teams-via-ybcg)
-
 ### Swampy (SWY)
 SWY will be responsible for starting to form the sequence in to YBBN, by applying *speed control* in the cruise.
 
@@ -78,7 +76,7 @@ Arrivals may, when suitable for the *sequence*, and clear of *01L/19R traffic*, 
 Voiceless for all aircraft:
 
 - Assigned the lower of `F240` or the `RFL`; and  
-- Tracking via **LOTGU**
+- Tracking via **NUPTA**
 
 All other aircraft going to AYPM CTR CTA will be **Heads-up** Coordinated.
 

@@ -56,6 +56,10 @@ Runway 05/23 Departures will be assigned the standard **GILES5** SID.
 
 Runway 12/30 Departures will be assigned the **AD4** RADAR SID.
 
+### Departure Frequency
+Departures from Runway 05, 23, and 30 shall be given the AAW frequency (124.2).  
+Departures from Runway 12 shall be given the AAE frequency (118.2).
+
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
 

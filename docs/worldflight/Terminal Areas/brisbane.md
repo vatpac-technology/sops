@@ -120,7 +120,7 @@ BUR will instruct all arrivals to cross **SMOKA** and **ENLIP** at **250 knots**
 ## Coordination
 ### BN ADC
 #### Auto Release
-Avilable for aircraft assigned:
+Available for aircraft assigned `A060`, and:
 
 | Runway | SID | Assigned Heading |
 | ---------- | --- | --- |
