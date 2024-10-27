@@ -143,9 +143,9 @@ SMC West should protect the Alpha 2 rapid exit and utilise taxiways Yankee and J
 With two SMC controllers online, utilise [strip bay bars](../../client/towerstrips.md#multiple-adcsmc-positions) to keep the **Holding Point** and **Runway** strip bays organised.
 
 ### Departure Spacing
-While PROPS are in use, subsequent departures from the same runway must be spaced by **3 minutes**, to assist with arrival flow in to YPAD.
+While PROPS are in use, subsequent departures from the same runway **must** be spaced by **3 minutes**, to assist with arrival flow in to YPAD.
 
-If a single runway is in use for departures, subsequent departures must be spaced by **90 seconds**.
+If a single runway is in use for departures, subsequent departures **must** be spaced by **90 seconds**.
 
 ### SY3 Assigned Heading
 Runway 16L/34R Departures will be assigned the **SY3** RADAR SID, with an Assigned Heading of **H120**.
