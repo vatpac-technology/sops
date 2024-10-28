@@ -68,6 +68,8 @@
 *[CSD]: Cairns Departures
 *[CBW]: Canberra Approach West
 *[CBE]: Canberra Approach East
+*[DAW]: Darwin Approach West
+*[DAE]: Darwin Approach East
 *[HBA]: Hobart Approach
 *[LTA]: Launceston Approach
 *[MKA]: Mackay Approach
@@ -100,6 +102,7 @@
 *[TBD]: Melbourne (Tailem Bend) Centre
 *[YWE]: Melbourne (Yarrowee) Centre
 *[ARA]: Brisbane (Arafura) Centre
+*[ARE]: Brisbane (Arafura East) Centre
 *[BAR]: Brisbane (Barra) Centre
 *[BUR]: Brisbane (Burnett) Centre
 *[CVN]: Brisbane (Carnarvon) Centre
@@ -131,7 +134,8 @@
 *[BKE]: Melbourne (Bourke) Centre
 *[CRS]: Melbourne (Cross) Centre
 *[ESP]: Melbourne (Esperance) Centre
-*[FOR]: Melbourne (Forest) Centre
+*[FOR]: Melbourne (Forrest) Centre
+*[FOW]: Melbourne (Forrest West) Centre
 *[GEL]: Melbourne (Geraldton) Centre
 *[GTH]: Melbourne (Griffith) Centre
 *[GVE]: Melbourne (Grove) Centre
@@ -270,6 +274,7 @@
 *[FIMM]: Mauritius FIR
 *[FAJO]: Johannesburg FIR
 *[AYPM]: Port Moresby FIR
+*[AYPE]: Port Moresby (East) FIR
 *[NWWW]: Noumea FIR
 *[NVVV]: Port Vila FIR
 *[RJTG]: Fukuoka FIR
@@ -298,3 +303,5 @@
 *[MB]: Moorabbin
 *[SUA]: Special Use Airspace
 *[CPDLC]: Controller-Pilot Datalink Communications
+*[LDA]: Landing Distance Available
+*[TORA]: Takeoff Run Available
