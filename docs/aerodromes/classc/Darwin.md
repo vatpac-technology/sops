@@ -85,7 +85,7 @@ Assign VFR routes in accordance with the following radial chart:
     If a VFR aircraft has not planned via a VFR route as above, use the phraseology: “ABC, cleared amended route VFR route 1, maintain A020, squawk 4512”
 
 ## Coordination
-### Departures
+### DN TCU
 Auto-Release is **not available** at YPDN. All Departures will be coordinated when ready for departure.
 
 !!! example
