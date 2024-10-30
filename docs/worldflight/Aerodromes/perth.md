@@ -11,7 +11,7 @@
 |  1 | 24A21D | [Simultaneous Independent Crossing Runway Operations](#24a21d) |
 |  2  | 03A06D | [Land and Hold Short Operations](#03a06d) |
 
-*Single Runway* Operations shall be **avoided** at all costs.
+Any other Runway Mode may **only** be used with approval from the Events Coordinator.
 
 ### 24A21D
 Simultaneous Independent Crossing Runway Operations will be in use, allowing aircraft to depart from Runway 21 without conflicting with Runway 24 arrivals.
@@ -38,6 +38,13 @@ Aircraft that are unable to Land and Hold Short of Runway 06 will have `XX` ente
 Ensure **all flight plans** are checked for compliance with the approved WF Route:
 
 `DCT PH Y15 ESDEG Q587 IGLUT T58 SAPDA A585 IPKON IPKO2G`
+
+**OzStrips** will flag any *non-compliant* WF route.
+
+If an aircraft has filed an *incorrect* route and you need to give an amended clearance, this amendment must be specified by **individual private message**, prior to the PDC.
+
+!!! example
+    **PH ACD:** *"AMENDED ROUTE CLEARANCE. CLEARED TO WIII VIA AVNEX Y15 ESDEG Q587 IGLUT T58 SAPDA A585 IPKON IPKO2G. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
 
 ### WorldFlight Teams
 [WorldFlight Teams](../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
@@ -84,15 +91,43 @@ All aerodrome controllers must be familiar with the VATPAC [recommended workflow
 
 Ensure the Queue function is used to actively to keep track of the order of requests.
 
+### A388 Operations
+#### Taxi Routes
+[YPPH Aerodrome Ground Movement Chart](https://www.airservicesaustralia.com/aip/current/dap/PPHAG01-178_05SEP2024.pdf){target=new} specifies taxi routes for A388 aircraft. These must be **disregarded** for the event, and standard taxiways must be used for A388 aircraft to facilitate orderly flow of traffic.
+
+#### Parking
+There are only 3 stands suitable for A388 parking (refer to [YPPH Apron Chart](https://www.airservicesaustralia.com/aip/current/dap/PPHAP05-180_05SEP2024.pdf){target=new}). If these are all occupied, A388 aircraft must be instructed to park off-apron on grass.
+
 ### Runway 21 Departures
 By default, all aircraft will be assigned Intersection **P** for departure. Verify with **Heavy** and **Super** aircraft when they request taxi if they can accept Intersection **P**.
 
 !!! note
     *Requests* for the full length runway cannot be facilitated. The aircraft must **operationally require** longer than *2000m TORA* to receive it.
 
+Aircraft that cannot accept Intersection **P** for departure will be assigned a **full length** departure.
+
+#### Maneuvering Area Responsibility
 Aircraft from the Western Apron shall be taxied via **D** and **N**.
 
-Aircraft that cannot accept Intersection **P** for departure will be assigned a **full length** departure.
+As per the [YPPH Aerodrome SOPs](../../../aerodromes/classc/Perth/#maneuvering-area-responsibility), ADC is responsible for the taxiways between the thresholds of Runway 21 and 24.
+
+Instead of SMC coordinating runway crossings with ADC, aircraft taxiing via **N** and **C** shall be instructed to **contact ADC** at Holding Point **D**, where ADC will give them taxi instructions on their frequency. No coordination is required between SMC and ADC for this.
+
+!!! example
+    **PH SMC:** "DAL209, Taxi Holding point D, Runway 21. Expect Holding Point P for departure."  
+    **DAL209:** "Taxi Holding Point D, Runway 21, DAL209"  
+    *(at Holding Point)*  
+    **PH SMC:** "DAL209, Contact Tower 127.4 for further taxi"  
+    **DAL209:** "127.4, DAL209"  
+    **DAL209:** "Perth Tower, DAL209"  
+    **PH ADC:** "DAL209, Perth Tower. Cross Runway 21, Taxi via N, C, Hold Short of Runway 24."  
+    **DAL209:** "Cross Runway 21, Taxi via N, C, Hold Short of Runway 24. DAL209"  
+    ...  
+    **PH ADC:** "DAL209, Cross Runway 24. Hold Short of P."  
+    **DAL209:** "Cross Runway 24. Hold Short of P. DAL209"  
+    *(When clear of Runway 24)*  
+    **PH ADC:** "DAL209, Contact Ground 122.2 for further taxi"  
+    **DAL209:** "122.2, DAL209"  
 
 ### Runway 06 Departures
 Ensure that all aircraft queue for Runway 06 to the South East, via **A** and **V**.
@@ -107,18 +142,51 @@ This will avoid blocking up the Western Apron, and ensure aircraft have room to 
 ### Runway 03 Arrivals
 Aircraft for the Western Apron will be instructed to vacate **right**. These aircraft shall be taxied via **C**, **W** and **B** to remain clear of aircraft taxiing for departure.
 
+Aircraft for the Western Apron shall be taxied via **C** and **N** as per the [process above](#maneuvering-area-responsibility).
+
 ## Tower Control (ADC)
-### Runway 21 Full Length Departures
+### Runway 21 Departures
 Full Length Departures have **equal priority** to aircraft that are compliant with Simultaneous Independent Crossing Runway Operations. However, Full Length departures may incur additional delays while being separated from Runway 24 Arrivals.
 
 !!! tip
     Ensure the OzStrips queue bay is used actively to keep track of the queue.
+
+#### Maneuvering Area Responsibility
+Aircraft from the Western Apron shall be taxied via **D** and **N**.
+
+As per the [YPPH Aerodrome SOPs](../../../aerodromes/classc/Perth/#maneuvering-area-responsibility), ADC is responsible for the taxiways between the thresholds of Runway 21 and 24.
+
+Instead of SMC coordinating runway crossings with ADC, aircraft taxiing via **N** and **C** shall be instructed to **contact ADC** at Holding Point **D**, where ADC will give them taxi instructions on their frequency. No coordination is required between SMC and ADC for this.
+
+!!! example
+    **PH SMC:** "DAL209, Taxi Holding point D, Runway 21. Expect Holding Point P for departure."  
+    **DAL209:** "Taxi Holding Point D, Runway 21, DAL209"  
+    *(at Holding Point)*  
+    **PH SMC:** "DAL209, Contact Tower 127.4 for further taxi"  
+    **DAL209:** "127.4, DAL209"  
+    **DAL209:** "Perth Tower, DAL209"  
+    **PH ADC:** "DAL209, Perth Tower. Cross Runway 21, Taxi via N, C, Hold Short of Runway 24."  
+    **DAL209:** "Cross Runway 21, Taxi via N, C, Hold Short of Runway 24. DAL209"  
+    ...  
+    **PH ADC:** "DAL209, Cross Runway 24. Hold Short of P."  
+    **DAL209:** "Cross Runway 24. Hold Short of P. DAL209"  
+    *(When clear of Runway 24)*  
+    **PH ADC:** "DAL209, Contact Ground 122.2 for further taxi"  
+    **DAL209:** "122.2, DAL209"  
+
+When transferring aircraft southbound on Taxiway **C** to **SMC East**, instruct them to hold short of Taxiway **P**.
 
 ### Runway 06 Departures
 Departures from Runway 06 will be assigned the **PH7** SID, with an Assigned Heading of **Runway Heading**.
 
 ### Runway 03 Arrivals
 Instruct **all** Runway 03 Arrivals to vacate **right**, even if they are for the Western Apron.
+
+Ensure that aircraft that are observed to be vacating via **N** or right on **W**, are told to remain on ADC frequency.
+
+Aircraft for the Western Apron shall be taxied via **C** and **N** as per the [process above](#maneuvering-area-responsibility_1).
+
+When transferring aircraft westbound on Taxiway **D** to **SMC West**, instruct them to hold short of Taxiway **A**.
 
 ### Departure Spacing
 Ensure that a minimum of **90 second** spacing is applied between subsequent departures from the same runway.
@@ -140,7 +208,7 @@ During 24A21D, the ATIS OPR INFO shall include:
 `SIMUL INDEP CROSSING RWY OPS IN PROG`
 
 During 03A06D, the ATIS OPR INFO shall include:  
-`LAHSO IN PROG. RWY 03 LANDING DISTANCE AVBL 2355 METRES`
+`LAHSO IN PROG. RWY 03 LDA 2355 METRES`
 
 ## Coordination
 ### PH TCU
