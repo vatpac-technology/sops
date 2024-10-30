@@ -13,13 +13,13 @@ An additional Non-Standard position for AYPM CTR will be used
 | Port Moresby (East) Centre       | AYPE CTR | Moresby Centre             | 125.600 | AYPE_CTR                              |
 
 ## Sector Responsibilities
-### Port Moresby (AYPE) CTR
+### Port Moresby East (AYPE) CTR
 AYPE CTR will be responsible for ensuring the separation of aircraft in the Enroute phase of flight. No sequencing actions are required.
 
 Aircraft shall be handed off directly to TBP. ARE is skipped.
 
 !!! note
-    AYPE CTR will have better VHF coverage than TBP on aircraft until approximately **100nm South** of **VIPAM**. It is *advisable* to delay handing off aircraft to TBP until approximately that point.
+    AYPE CTR will have better VHF coverage than TBP on aircraft until approximately **100nm South** of **APISO**. It is *advisable* to delay handing off aircraft to TBP until approximately that point.
 
 ### Arafura East (ARE)
 ARE has *no Restrictions or Requirements* on AYPY-YBBN aircraft.
@@ -27,7 +27,7 @@ ARE has *no Restrictions or Requirements* on AYPY-YBBN aircraft.
 ### Tabletop (TBP)
 TBP will be responsible for ensuring the separation of aircraft in the Enroute phase of flight. No sequencing actions are required.
 
-TBP may prime the KEN frequency (120.15) in order to get better VHF range on aircraft coming from AYPM CTR. Advise the AYPM CTR controller if you want handoffs on the KEN frequency instead of TBP.
+TBP may prime the KEN frequency (120.15) in order to get better VHF range on aircraft coming from AYPE CTR. Advise the AYPE CTR controller if you want handoffs on the KEN frequency instead of TBP.
 
 ### Swampy (SWY)
 SWY will be responsible for starting to form the sequence in to YBBN, by applying *speed control* in the cruise.
@@ -72,13 +72,13 @@ Arrivals may, when suitable for the *sequence*, and clear of *01L/19R traffic*, 
 | 19R      | DRAIN |
 
 ## Coordination
-### AYPY DEP to AYPM CTR
+### AYPY DEP to AYPE CTR
 Voiceless for all aircraft:
 
 - Assigned the lower of `F240` or the `RFL`; and  
 - Tracking via **NUPTA**
 
-All other aircraft going to AYPM CTR CTA will be **Heads-up** Coordinated.
+All other aircraft going to AYPE CTR CTA will be **Heads-up** Coordinated.
 
 ### KPL to BUR
 Changes to Route and CFL are **permitted** within **50nm** of the boundary, without coordination, for sequencing purposes.  

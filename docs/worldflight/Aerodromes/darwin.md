@@ -5,13 +5,20 @@
 --8<-- "includes/abbreviations.md"
 
 ## Runway Modes
-Single runway operations on either **runway 11 or 29** will be in use for all aircraft. Runway 18/36 will not be available for arrivals and departures, due to it's use as a taxiway for some aircraft.
+Single runway operations on either **runway 11 or 29** will be in use for all aircraft. Runway 18/36 will not be available for arrivals and departures, due to its use as a taxiway for some aircraft.
 
 ## Airways Clearance Delivery (ACD)
 ### Flight Plan Compliance
 Ensure **all flight plans** are checked for compliance with the approved WF Route:
 
 `DCT DN Y25 RUPEG DCT IGOPO B598 ESKIM DCT GUMBU DCT PY DCT`
+
+**OzStrips** will flag any *non-compliant* WF route.
+
+If an aircraft has filed an *incorrect* route and you need to give an amended clearance, this amendment must be specified by **individual private message**, prior to the PDC.
+
+!!! example
+    **DN ACD:** *"AMENDED ROUTE CLEARANCE. CLEARED TO AYPY VIA RUPEG DCT IGOPO B598 ESKIM DCT GUMBU DCT PY DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
 
 ### WorldFlight Teams
 [WorldFlight Teams](../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
@@ -51,6 +58,9 @@ All aerodrome controllers must be familiar with the VATPAC [recommended workflow
 
 Ensure the Queue function is used to actively to keep track of the order of requests.
 
+### A388 Parking
+There is only 1 stand suitable for A388 parking (refer to [YPDN Apron Chart](https://www.airservicesaustralia.com/aip/current/dap/PDNAP01-180_05SEP2024.pdf){target=new}). If this is occupied, A388 aircraft must be instructed to park off-apron on grass.
+
 ### Taxi Routes
 #### Grass Taxiing
 Due to the taxiway layout at YPDN, some aircraft may need to taxi via temporary grass taxiways, as shown below:
@@ -83,8 +93,8 @@ Due to the tight sequence, there are times that [Wake Turbulence Separation](../
 When a following aircraft is of a *lighter* [Wake Turbulence Category](../../../separation-standards/waketurb/#categories) than the preceding aircraft, a traffic statement and wake turbulence **caution** shall be issued.
 
 !!! example
-    **DN ADC:** "QFA887, A330 has just departed on the crossing runway. Caution Wake Turbulence. Runway 29, Cleared for Takeoff"  
-    **QFA887:** "Cleared for Takeoff Runway 29, QFA887"
+    **DN ADC:** "BNZ1193, A380 has just departed ahead. Caution Wake Turbulence. Runway 29, Cleared for Takeoff"  
+    **BNZ1193:** "Cleared for Takeoff Runway 29, BNZ1193"
 
 ### Runway Vacating Instructions
 ADC should assess traffic congestion on both the north and south sides of the aerodrome, and direct pilots to vacate towards the least congested side.

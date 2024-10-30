@@ -19,6 +19,13 @@ Ensure **all flight plans** are checked for compliance with the approved WF Rout
 
 `DCT BN H91 IGDAM H652 TESAT DCT`
 
+**OzStrips** will flag any *non-compliant* WF route.
+
+If an aircraft has filed an *incorrect* route and you need to give an amended clearance, this amendment must be specified by **individual private message**, prior to the PDC.
+
+!!! example
+    **BN ACD:** *"AMENDED ROUTE CLEARANCE. CLEARED TO YSSY VIA SANEG H91 IGDAM H652 TESAT DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
+
 ### WorldFlight Teams
 [WorldFlight Teams](../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
 
@@ -72,6 +79,9 @@ If there are more than **5** aircraft in the queue at the Holding Point for *any
 All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../client/towerstrips.md#recommended-workflow) for OzStrips.
 
 Ensure the Queue function is used to actively to keep track of the order of requests.
+
+### A388 Parking
+There are only 6 stands suitable for A388 parking (refer to [YBBN Apron Chart](https://www.airservicesaustralia.com/aip/current/dap/BBNAP05-162_05SEP2024.pdf){target=new}). If these are all occupied, A388 aircraft must be instructed to park off-apron on grass.
 
 ## Tower Control (ADC)
 ### Departure Spacing

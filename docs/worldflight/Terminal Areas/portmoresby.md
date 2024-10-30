@@ -60,10 +60,10 @@ Available for aircraft assigned:
 - The **NUPTA1** SID; and
 - `A080`
 
-### AYPY DEP to AYPM CTR
+### AYPY DEP to AYPE CTR
 Voiceless for all aircraft:
 
 - Assigned the lower of `F240` or the `RFL`; and  
-- Tracking via **NUPTAU**
+- Tracking via **NUPTA**
 
-All other aircraft going to AYPM CTR CTA will be **Heads-up** Coordinated.
+All other aircraft going to AYPE CTR CTA will be **Heads-up** Coordinated.
