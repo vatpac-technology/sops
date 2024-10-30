@@ -5,7 +5,7 @@
 --8<-- "includes/abbreviations.md"
 
 ## Runway Modes
-Single runway operations on either **runway 11 or 29** will be in use for all aircraft. Runway 18/36 will not be available for arrivals and departures, due to it's use as a taxiway for some aircraft.
+Single runway operations on either **runway 11 or 29** will be in use for all aircraft. Runway 18/36 will not be available for arrivals and departures, due to its use as a taxiway for some aircraft.
 
 ## Airways Clearance Delivery (ACD)
 ### Flight Plan Compliance
@@ -13,8 +13,23 @@ Ensure **all flight plans** are checked for compliance with the approved WF Rout
 
 `DCT DN Y25 RUPEG DCT IGOPO B598 ESKIM DCT GUMBU DCT PY DCT`
 
+**OzStrips** will flag any *non-compliant* WF route.
+
+If an aircraft has filed an *incorrect* route and you need to give an amended clearance, this amendment must be specified by **individual private message**, prior to the PDC.
+
+!!! example
+    **DN ACD:** *"AMENDED ROUTE CLEARANCE. CLEARED TO AYPY VIA RUPEG DCT IGOPO B598 ESKIM DCT GUMBU DCT PY DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
+
 ### WorldFlight Teams
 [WorldFlight Teams](../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
+
+!!! tip
+    The [vatSys Events Plugin](https://github.com/badvectors/EventsPlugin){target=new} will also highlight WF Teams, as shown below. Click on the link to install it, or alternatively, use the [Plugin Manager](https://github.com/badvectors/PluginManager){target=new}
+
+    <figure markdown>
+    ![WF Team Highlight with Events Plugin](../img/wfteam.png){ width="400" }
+    <figcaption>WF Team Highlight with Events Plugin</figcaption>
+    </figure>
 
 ### Strip Setup
 By default, vatSys strips will be set to show in *Alphabetical* Order.  
@@ -40,6 +55,8 @@ Regardless of Runway in use, Departure frequency shall be DAE (**125.2**).
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
 
+Work through the OzStrips Preactive bay from *top to bottom* when sending PDCs.
+
 ## Surface Movement Control (SMC)
 ### Pushback Delays
 SMC will be responsible for delaying aircraft's pushback requests, in order to avoid overloading the taxiways.
@@ -50,6 +67,11 @@ If there are more than **5** aircraft in the queue at any Holding Point, do not 
 All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../client/towerstrips.md#recommended-workflow) for OzStrips.
 
 Ensure the Queue function is used to actively to keep track of the order of requests.
+
+A Custom `PDC SENT` bar should be created in the Preactive window, to keep track of who has and hasn't received a PDC.
+
+### A388 Parking
+There is only 1 stand suitable for A388 parking (refer to [YPDN Apron Chart](https://www.airservicesaustralia.com/aip/current/dap/PDNAP01-180_05SEP2024.pdf){target=new}). If this is occupied, A388 aircraft must be instructed to park off-apron on grass.
 
 ### Taxi Routes
 #### Grass Taxiing
@@ -83,8 +105,8 @@ Due to the tight sequence, there are times that [Wake Turbulence Separation](../
 When a following aircraft is of a *lighter* [Wake Turbulence Category](../../../separation-standards/waketurb/#categories) than the preceding aircraft, a traffic statement and wake turbulence **caution** shall be issued.
 
 !!! example
-    **DN ADC:** "QFA887, A330 has just departed on the crossing runway. Caution Wake Turbulence. Runway 29, Cleared for Takeoff"  
-    **QFA887:** "Cleared for Takeoff Runway 29, QFA887"
+    **DN ADC:** "BNZ1193, A380 has just departed ahead. Caution Wake Turbulence. Runway 29, Cleared for Takeoff"  
+    **BNZ1193:** "Cleared for Takeoff Runway 29, BNZ1193"
 
 ### Runway Vacating Instructions
 ADC should assess traffic congestion on both the north and south sides of the aerodrome, and direct pilots to vacate towards the least congested side.

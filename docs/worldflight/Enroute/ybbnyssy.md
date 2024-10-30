@@ -39,7 +39,7 @@ ARL will be responsible for the ARL and MNN subsectors **only**.
 CNK will be responsible for finessing the sequence in to YSSY if required.
 
 #### Sequencing
-**All aircraft** must be instructed to cross **BOREE** or **MEPIL** at **250 knots**, then *published STAR speeds*.
+**All aircraft** must be instructed to cross **BOREE** or **YAKKA** at **250 knots**, then *published STAR speeds*.
 
 !!! note
     This instruction is not required for aircraft that have a clear gap in front of them in the sequence (>30nm).

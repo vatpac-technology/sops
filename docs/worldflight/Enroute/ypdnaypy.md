@@ -5,7 +5,7 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-ARW is an additional non-standard sector for the event (Split from ARA).
+ARE is an additional non-standard sector for the event (Split from ARA).
 
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
@@ -15,13 +15,13 @@ AYPE CTR will also be a non-standard split-off from AYPM CTR. They will manage A
 
 ## Sector Responsibilities
 ### Territory South (TRS) and Arafura (ARA)
-TRS and ARW will be responsible for ensuring the separation of aircraft in the Enroute phase of flight. No sequencing actions are required.
+TRS and ARA will be responsible for ensuring the separation of aircraft in the Enroute phase of flight. No sequencing actions are required.
 
 ### Arafura East (ARE)
-ARA will be responsible for starting to form the sequence in to AYPY, by applying *speed control* in the cruise.
+ARE will be responsible for starting to form the sequence in to AYPY, by applying *speed control* in the cruise.
 
 ### Port Moresby (AYPM) CTR
-AYPM CTR will be responsible for issuing STAR Clearances and the final sequencing in to AYPY
+AYPM CTR will be responsible for issuing STAR Clearances and the final sequencing in to AYPY.
 
 #### STARs
 All aircraft shall be issued the **GUMBU1** STAR.  

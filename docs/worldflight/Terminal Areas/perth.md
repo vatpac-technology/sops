@@ -26,7 +26,9 @@ The **solid green** line represents the SID to **AVNEX**.
 ### 03A06D
 Enroute will enter `XX` in the scratchpad for arrivals that are *unable* to Land and Hold Short of **Runway 06**.
 
-Departures that *operationally require* **Runway 03** will be assigned the **PH7** SID with *Runway Heading*. PHD shall clear these aircraft DCT **ESDEG** when practical.
+Departures from **Runway 06** will depart on *Runway Heading*, and may be cleared DCT **ESDEG** when practical.
+
+Departures that *operationally require* **Runway 03** will be assigned the **AVNEX5** SID.
 
 All arrivals on Runway 03 will be cleared for the **ILS** Approach.
 

@@ -36,7 +36,7 @@ All arrivals will be cleared for the Approach type indicated on the ATIS.
 #### Independent Visual Approaches
 IVAs can be expected to be in use for WorldFlight, to facilitate the high volume of traffic for both runways.
 
-Aircraft must report both **visual**, *and* **runway in sight** in order to be cleared for an IVA.
+Aircraft must report both **visual**, *and* **runway in sight** in order to be cleared for an IVA (Runway in Sight implies Visual).
 
 !!! tip
     The [Label Data Annotations](../../../client/annotations/#miscellaneous) for these are `V` and `R`, respectively
@@ -78,7 +78,7 @@ SFL will construct the sequence via the [Arrivals List Window](../../../controll
 Appropriate annotations for the Arrivals List Window can be found [here](../../../client/annotations/#sequencingflow).
 
 ### Speeds
-CNK will instruct all arrivals to cross **BOREE** and **MEPIL** at **250 knots**, then *published STAR speeds*.
+CNK will instruct all arrivals to cross **BOREE** and **YAKKA** at **250 knots**, then *published STAR speeds*.
 
 ## Coordination
 ### APP to DIR

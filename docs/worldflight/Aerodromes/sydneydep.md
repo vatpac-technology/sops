@@ -18,10 +18,25 @@ An additional Non-Standard position for Sydney ACD will be used
 ### Flight Plan Compliance
 Ensure **all flight plans** are checked for compliance with the approved WF Route:
 
-`DCT TESAT A576 KADOM H44 BORLI W451 MIA H309 AD DCT`
+`DCT TESAT A576 KADOM H44 MAXEM Q60 BLACK H309 AD DCT`
+
+**OzStrips** will flag any *non-compliant* WF route.
+
+If an aircraft has filed an *incorrect* route and you need to give an amended clearance, this amendment must be specified by **individual private message**, prior to the PDC.
+
+!!! example
+    **SY-C_DEL:** *"AMENDED ROUTE CLEARANCE. CLEARED TO YPAD VIA KADOM H44 MAXEM Q60 BLACK H309 AD DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
 
 ### WorldFlight Teams
 [WorldFlight Teams](../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
+
+!!! tip
+    The [vatSys Events Plugin](https://github.com/badvectors/EventsPlugin){target=new} will also highlight WF Teams, as shown below. Click on the link to install it, or alternatively, use the [Plugin Manager](https://github.com/badvectors/PluginManager){target=new}
+
+    <figure markdown>
+    ![WF Team Highlight with Events Plugin](../img/wfteam.png){ width="400" }
+    <figcaption>WF Team Highlight with Events Plugin</figcaption>
+    </figure>
 
 ### Strip Setup
 By default, vatSys strips will be set to show in *Alphabetical* Order.  
@@ -37,6 +52,8 @@ This must be changed to be ordered by **Time**, as shown below.
     <figcaption>Change to Time</figcaption>
 </figure>
 
+By default, the OzStrips Preactive bay will already be ordered by when the aircraft connected to VATSIM, from top to bottom.
+
 ### Dual ACD Controller Operations
 YSSY will have a non-standard second ACD Controller.
 
@@ -48,6 +65,8 @@ YSSY will have a non-standard second ACD Controller.
 - Sending [PDCs](#pdcs)
 
 SY-C_DEL has *no frequency*, and will not talk to aircraft by voice.
+
+Work through the OzStrips Preactive bay from *top to bottom* when sending PDCs.
 
 #### SY_DEL
 **SY_DEL** will be responsible for:
@@ -91,6 +110,8 @@ Coordinator must place a `MONITOR GROUND EAST` & `MONITOR GROUND WEST` bar in th
 
 When less than **three** strips are present below a particular `MONITOR GROUND` bar, Coordinator may instruct the bottom most aircraft in the queue to monitor that SMC frequency.
 
+A Custom `PDC SENT` bar should be created in the Preactive window, to keep track of who has and hasn't received a PDC.
+
 <figure markdown>
 ![Coordinator Strips](../img/coordinatorstrips.png){ width="500" }
     <figcaption>An example of the Coordinator layout</figcaption>
@@ -126,6 +147,9 @@ When workload (and holding point congestion) allows, issue pushback to the **bot
 
 !!! important
     It is preferable to hold aircraft on the bay (where they aren't blocking taxiways or burning their holding fuel) when congestion leads to blocked holding points. Issue pushback with enough lead time to prevent large gaps in the departure sequence.
+
+### A388 Taxi Routes
+[YSSY Aerodrome Ground Movement Chart](https://www.airservicesaustralia.com/aip/current/dap/SSYAG01-175_05SEP2024.pdf){target=new} specifies taxi routes for A388 aircraft. These must be **disregarded** for the event, and standard taxiways must be used for A388 aircraft to facilitate orderly flow of traffic.
 
 ### Separation Assurance
 Both SMC positions must be careful to ensure separation is assured at all times, particularly through the complex taxiway intersections at Sydney.
