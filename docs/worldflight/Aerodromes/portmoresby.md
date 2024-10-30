@@ -15,10 +15,25 @@ An additional Non-Standard position for AYPY ACD will be used
 ### Flight Plan Compliance
 Ensure **all flight plans** are checked for compliance with the approved WF Route:
 
-`DCT PY DCT LOTGU DCT VIPAM B220 KELPI Y89 BESBO Y177 BN DCT`
+`DCT PY DCT NUPTA DCT APISO B462 MK V153 MUNAR Y61 RUROX Y177 BN DCT`
+
+**OzStrips** will flag any *non-compliant* WF route.
+
+If an aircraft has filed an *incorrect* route and you need to give an amended clearance, this amendment must be specified by **individual private message**, prior to the PDC.
+
+!!! example
+    **AYPY ACD:** *"AMENDED ROUTE CLEARANCE. CLEARED TO YBBN VIA NUPTA DCT APISO B462 MK V153 MUNAR Y61 RUROX Y177 BN DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
 
 ### WorldFlight Teams
 [WorldFlight Teams](../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
+
+!!! tip
+    The [vatSys Events Plugin](https://github.com/badvectors/EventsPlugin){target=new} will also highlight WF Teams, as shown below. Click on the link to install it, or alternatively, use the [Plugin Manager](https://github.com/badvectors/PluginManager){target=new}
+
+    <figure markdown>
+    ![WF Team Highlight with Events Plugin](../img/wfteam.png){ width="400" }
+    <figcaption>WF Team Highlight with Events Plugin</figcaption>
+    </figure>
 
 ### Strip Setup
 By default, vatSys strips will be set to show in *Alphabetical* Order.  
@@ -35,10 +50,12 @@ This must be changed to be ordered by **Time**, as shown below.
 </figure>
 
 ### SID Selection
-All aircraft shall be issued the **LOTGU1** SID.  
+All aircraft shall be issued the **NUPTA1** SID.  
 
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
+
+Work through the OzStrips Preactive bay from *top to bottom* when sending PDCs.
 
 ## Surface Movement Control (SMC)
 ### Runway 14R/32L
@@ -62,6 +79,11 @@ If there are more than **5** aircraft in the queue at the Holding Point for the 
 All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../client/towerstrips.md#recommended-workflow) for OzStrips.
 
 Ensure the Queue function is used to actively to keep track of the order of requests.
+
+A Custom `PDC SENT` bar should be created in the Preactive window, to keep track of who has and hasn't received a PDC.
+
+### A388 Parking
+AYPY does not have any gates suitable for A388 parking. A388s must be instructed to park off-apron on the grass, to ensure they do not block any parking spots or taxiways.
 
 ## Tower Control (ADC)
 ### Runway 14R/32L Release
@@ -98,5 +120,5 @@ The ATIS OPR INFO shall include:
 Available for aircraft assigned:
 
 - A Runway nominated on the ATIS; and
-- The **LOTGU1** SID; and
+- The **NUPTA1** SID; and
 - `A080`

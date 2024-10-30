@@ -80,7 +80,7 @@ Voiceless for all aircraft:
 - Assigned `A090`; and
 - Assigned the **BLACK3A/23** STAR; or
 - Assigned the **BLACK3Z/05** STAR; or
-- Tracking DCT **PADEL**
+- Tracking **DRINA** DCT **PADEL**
 
 #### Between TBD and AFL
 AFL will construct the sequence via the [Arrivals List Window](../../../controller-skills/sequencing/#arrivals-list).

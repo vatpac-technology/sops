@@ -20,7 +20,7 @@ An additional Non-Standard position for AD SMC will be used
 |  3 | 05A12D |
 |  4  | 23A12D |
 
-*Single Runway* Operations shall be **avoided** at all costs.
+Any other Runway Mode may **only** be used with approval from the Events Coordinator.
 
 ## Airways Clearance Delivery (ACD)
 ### Flight Plan Compliance
@@ -28,11 +28,26 @@ Ensure **all flight plans** are checked for compliance with the approved WF Rout
 
 `DCT AD Q33 ESP Q158 PH DCT`
 
+**OzStrips** will flag any *non-compliant* WF route.
+
+If an aircraft has filed an *incorrect* route and you need to give an amended clearance, this amendment must be specified by **individual private message**, prior to the PDC.
+
+!!! example
+    **AD ACD:** *"AMENDED ROUTE CLEARANCE. CLEARED TO YPPH VIA GILES Q33 ESP Q158 PH DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
+
 ### SMC Frequency
 Upon readback of an airways clearance or PDC, instruct aircraft to contact Adelaide Ground on **121.700** when ready for pushback.
 
 ### WorldFlight Teams
 [WorldFlight Teams](../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
+
+!!! tip
+    The [vatSys Events Plugin](https://github.com/badvectors/EventsPlugin){target=new} will also highlight WF Teams, as shown below. Click on the link to install it, or alternatively, use the [Plugin Manager](https://github.com/badvectors/PluginManager){target=new}
+
+    <figure markdown>
+    ![WF Team Highlight with Events Plugin](../img/wfteam.png){ width="400" }
+    <figcaption>WF Team Highlight with Events Plugin</figcaption>
+    </figure>
 
 ### Strip Setup
 By default, vatSys strips will be set to show in *Alphabetical* Order.  
@@ -48,6 +63,8 @@ This must be changed to be ordered by **Time**, as shown below.
     <figcaption>Change to Time</figcaption>
 </figure>
 
+By default, the OzStrips Preactive bay will already be ordered by when the aircraft connected to VATSIM, from top to bottom.
+
 ### Runway Selection
 Aircraft that are unable to accept Runway 12/30 due to operational requirements shall be assigned Runway 05/23 (as appropriate based on Runway Mode).
 
@@ -62,6 +79,8 @@ Departures from Runway 12 shall be given the AAE frequency (118.2).
 
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
+
+Work through the OzStrips Preactive bay from *top to bottom* when sending PDCs.
 
 ## Surface Movement Control (SMC)
 ### Areas of Responsibility
@@ -87,6 +106,11 @@ If there are more than **5** aircraft in the queue at the Holding Point for *any
 All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../client/towerstrips.md#recommended-workflow) for OzStrips.
 
 Ensure the Queue function is used to actively to keep track of the order of requests.
+
+A Custom `PDC SENT` bar should be created in the Preactive window, to keep track of who has and hasn't received a PDC.
+
+### A388 Parking
+YPAD does not have any gates suitable for A388 parking. A388s must be instructed to park off-apron on the grass, to ensure they do not block any parking spots or taxiways.
 
 ### Eastern Terminal Taxi Routes
 During **all** Runway Modes, aircraft shall be instructed to taxi in the following area in a **counter-clockwise** pattern. Aircraft shall be instructed to **pushback** facing **South-West** (Tail Right).
