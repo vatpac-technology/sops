@@ -250,7 +250,7 @@ Never ever ever ever ever (ever) deny an offer to split up your sector! It could
 - **BLA** from **ELW**  
 - **WOL** from **BIK**  
 - **SY_DEP** from **SY_APP**  
-- **SY-E_GND** from **SY_GND**  
+- **SY-W_GND** from **SY_GND**  
 The event gets busy every week, and denying offers to split takes away from the potential pool of controllers to help the event run smoothly. It is better to have a bit of a quieter half an hour, then be ready for the busy rush, than it is to have a decent amount of traffic for half an hour, and get completely snowed under after that.
 
 #### Prioritisation
