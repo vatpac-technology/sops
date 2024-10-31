@@ -25,13 +25,8 @@ BN ADC is not responsible for any airspace by default.
 There are three SMC positions at Brisbane which are responsible for various parts of the maneuvering area, as shown below.
 
 <figure markdown>
-![YBBN Maneuvering Area North](img/ybbn_maneuvring_area_north.png){ width="500" }
-  <figcaption>YBBN Maneuvering Area North</figcaption>
-</figure>
-
-<figure markdown>
-![YBBN Maneuvering Area South](img/ybbn_maneuvring_area_south.png){ width="500" }
-  <figcaption>YBBN Maneuvering Area South</figcaption>
+![YBBN Maneuvering Area Responsibility](img/ybbnsmc.png){ width="500" }
+  <figcaption>YBBN Maneuvering Area Responsibility</figcaption>
 </figure>
 
 ## Standard Taxi Routes
