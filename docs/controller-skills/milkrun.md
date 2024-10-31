@@ -233,6 +233,12 @@ Although this action may be beneficial to the arrival flow for both Enroute and 
 
 In order to reduce this coordination, GUN/BIK and SFL/SAS may organise blanket coordination to allow this rerouting at the discretion of the GUN/BIK controller.
 
+<video style="max-width: 100%;" controls>
+  <source src="https://vatpac-home.s3.ap-southeast-2.amazonaws.com/ODALE_Reroute_112233f1d1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<p><figcaption style="text-align: center;">Demonstration of the ODALE Reroute</figcaption></p>
+
 </details>
 
 <details markdown="1">
