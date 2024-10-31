@@ -11,8 +11,8 @@ Standard airspace division will be in use as per [AD TCU Local Instructions](../
 Depending on wind limitations, there are four possible Runway Modes in use at YPAD:
 
 - 23A30AD
-- 23A12AD
-- 05A30D
+- 23A12D
+- 05A30AD
 - 05A12D
 
 The **red** line represents the STAR to the arrival runway.  
@@ -26,7 +26,8 @@ The **dashed green** line represents the *suggested vectors* for [12/30 departur
   <figcaption>05 Arrival/Departure Routes</figcaption>
 </figure>
 
-All arrivals on Runway 05 will be cleared for the **RNP Z** Approach.
+All arrivals on Runway 05 will be cleared for the **RNP Z** Approach.  
+All arrivals on Runway 30 will be cleared for the **RNP** Approach. Visual approach may be availale on request, weather permitting.
 
 ### 23
 
@@ -35,7 +36,8 @@ All arrivals on Runway 05 will be cleared for the **RNP Z** Approach.
   <figcaption>23 Arrival/Departure Routes</figcaption>
 </figure>
 
-All arrivals on Runway 23 will be cleared for the **ILS** Approach.
+All arrivals on Runway 23 will be cleared for the **ILS** Approach.  
+All arrivals on Runway 30 will be cleared for the **RNP** Approach. Visual approach may be availale on request, weather permitting.
 
 ### 12/30 Departures
 Not all aircraft will be able to accept 12/30 for Departure. AAW/AAE must vector 12/30 Departures clear of the 05/23 Arrivals and Departures.
@@ -88,8 +90,8 @@ Standard as per [AD TCU Local Instructions](../../../terminal/adelaide/#ad-adc),
 | Runway Mode | Runway 12/30 Assigned Heading |
 | ---------- | --- |
 | 23A30AD      | Runway Heading |
-| 23A12AD      | H180 |
-| 05A30D      | H230 |
+| 23A12D      | H180 |
+| 05A30AD      | H230 |
 | 05A12D      | H060 |
 
 ### AD TCU Internal
