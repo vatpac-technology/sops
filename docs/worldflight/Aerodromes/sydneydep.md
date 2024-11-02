@@ -14,6 +14,9 @@ An additional Non-Standard position for Sydney ACD will be used
 ## Runway Modes
 **16 PROPS** and **34 PROPS** are the available Runway Modes, with equal preference. Any other Runway Mode may **only** be used with approval from the Events Coordinator.
 
+## Workload Management
+Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../client/towerstrips.md#recommended-workflow). 
+
 ## Airways Clearance Delivery (ACD)
 ### Flight Plan Compliance
 Ensure **all flight plans** are checked for compliance with the approved WF Route:
@@ -91,7 +94,10 @@ Departures from Runway 16R and 34L shall be given the SDN frequency (123.0).
 Departures from Runway 16L and 34R shall be given the SDS frequency (129.7).
 
 ### PDCs
-PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact Coordinator when ready for pushback or taxi.
+PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect, prioritising those who connected first. Upon successful readback of the PDC, ACD shall direct the pilot to contact Coordinator when ready for pushback or taxi.
+
+!!! tip
+    OzStrips displays strips in the Preactive bay ordered by connection time. Aircraft who connected first are shown down the bottom of the bay.
 
 ## Coordinator
 Coordinator operations shall be conducted in accordance with the Sydney Aerodrome [Coordinator](../../aerodromes/classc/Sydney.md#sydney-coordinator) procedures, using the OzStrips plugin.
