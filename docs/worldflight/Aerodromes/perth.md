@@ -88,7 +88,7 @@ Departures from Runway 03 and 21 will be assigned the standard **AVNEX5** SID.
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
 
-Work through the OzStrips Preactive bay from *top to bottom* when sending PDCs.
+Work through the OzStrips Preactive bay from *bottom to top* when sending PDCs.
 
 ## Surface Movement Control (SMC)
 ### Pushback Delays

@@ -77,7 +77,7 @@ Departures from Runway 01R and 19R shall be given the BDS frequency (118.45).
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
 
-Work through the OzStrips Preactive bay from *top to bottom* when sending PDCs.
+Work through the OzStrips Preactive bay from *bottom to top* when sending PDCs.
 
 ## Surface Movement Control (SMC)
 ### Pushback Delays
