@@ -22,6 +22,9 @@ An additional Non-Standard position for AD SMC will be used
 
 *Single Runway* Operations shall be **avoided** at all costs.
 
+## Workload Management
+Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../client/towerstrips.md#recommended-workflow).
+
 ## Airways Clearance Delivery (ACD)
 ### Flight Plan Compliance
 Ensure **all flight plans** are checked for compliance with the approved WF Route:
@@ -61,7 +64,10 @@ Departures from Runway 05, 23, and 30 shall be given the AAW frequency (124.2).
 Departures from Runway 12 shall be given the AAE frequency (118.2).
 
 ### PDCs
-PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
+PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect, prioritising those who connected first. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
+
+!!! tip
+    OzStrips displays strips in the Preactive bay ordered by connection time. Aircraft who connected first are shown down the bottom of the bay.
 
 ## Surface Movement Control (SMC)
 ### Areas of Responsibility
