@@ -17,11 +17,6 @@ An additional Non-Standard position for Sydney ACD will be used
 ## Workload Management
 Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../client/towerstrips.md#recommended-workflow). 
 
-### Ground Stop
-A ground stop will be in place for all event-aircraft departing Sydney from time 2000z until the listed departure time on the Events site. This helps to organise the flow of traffic and prevent aircraft from bypassing flow control measures which are put in place to allow our controllers to handle the extraordinary number of aircraft passing through each sector.
-
-Aircraft arriving at Sydney or departing to other destinations will be unaffected by the ground stop.
-
 ## Airways Clearance Delivery (ACD)
 ### Flight Plan Compliance
 Ensure **all flight plans** are checked for compliance with the approved WF Route:
