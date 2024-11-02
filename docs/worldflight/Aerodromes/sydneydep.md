@@ -55,7 +55,7 @@ This must be changed to be ordered by **Time**, as shown below.
     <figcaption>Change to Time</figcaption>
 </figure>
 
-By default, the OzStrips Preactive bay will already be ordered by when the aircraft connected to VATSIM, from top to bottom.
+By default, the OzStrips Preactive bay will already be ordered by when the aircraft connected to VATSIM, from bottom to top.
 
 ### Dual ACD Controller Operations
 YSSY will have a non-standard second ACD Controller.
@@ -69,7 +69,7 @@ YSSY will have a non-standard second ACD Controller.
 
 SY-C_DEL has *no frequency*, and will not talk to aircraft by voice.
 
-Work through the OzStrips Preactive bay from *top to bottom* when sending PDCs.
+Work through the OzStrips Preactive bay from *bottom to top* when sending PDCs.
 
 #### SY_DEL
 **SY_DEL** will be responsible for:

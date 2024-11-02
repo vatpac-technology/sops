@@ -66,7 +66,7 @@ This must be changed to be ordered by **Time**, as shown below.
     <figcaption>Change to Time</figcaption>
 </figure>
 
-By default, the OzStrips Preactive bay will already be ordered by when the aircraft connected to VATSIM, from top to bottom.
+By default, the OzStrips Preactive bay will already be ordered by when the aircraft connected to VATSIM, from bottom to top.
 
 ### Runway Selection
 Aircraft that are unable to accept Runway 12/30 due to operational requirements shall be assigned Runway 05/23 (as appropriate based on Runway Mode).
@@ -86,7 +86,7 @@ PDCs will be in use by default, to avoid frequency congestion. ACD shall send a 
 !!! tip
     OzStrips displays strips in the Preactive bay ordered by connection time. Aircraft who connected first are shown down the bottom of the bay.
 
-Work through the OzStrips Preactive bay from *top to bottom* when sending PDCs.
+Work through the OzStrips Preactive bay from *bottom to top* when sending PDCs.
 
 ## Surface Movement Control (SMC)
 ### Areas of Responsibility
