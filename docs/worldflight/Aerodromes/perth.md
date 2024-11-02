@@ -13,6 +13,9 @@
 
 Any other Runway Mode may **only** be used with approval from the Events Coordinator.
 
+## Workload Management
+Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../client/towerstrips.md#recommended-workflow).
+
 ### 24A21D
 Simultaneous Independent Crossing Runway Operations will be in use, allowing aircraft to depart from Runway 21 without conflicting with Runway 24 arrivals.
 
@@ -86,7 +89,10 @@ Departures from Runway 06 will be assigned the **PH7** SID.
 Departures from Runway 03 and 21 will be assigned the standard **AVNEX5** SID.
 
 ### PDCs
-PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
+PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect, prioritising those who connected first. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
+
+!!! tip
+    OzStrips displays strips in the Preactive bay ordered by connection time. Aircraft who connected first are shown down the bottom of the bay.
 
 Work through the OzStrips Preactive bay from *top to bottom* when sending PDCs.
 
