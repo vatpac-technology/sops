@@ -14,6 +14,14 @@ An additional Non-Standard position for Sydney ACD will be used
 ## Runway Modes
 **16 PROPS** and **34 PROPS** are the available Runway Modes, with equal preference. Any other Runway Mode may **only** be used with approval from the Events Coordinator.
 
+## Workload Management
+Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../client/towerstrips.md#recommended-workflow). 
+
+### Ground Stop
+A ground stop will be in place for all event-aircraft departing Sydney from time 2000z until the listed departure time on the Events site. This helps to organise the flow of traffic and prevent aircraft from bypassing flow control measures which are put in place to allow our controllers to handle the extraordinary number of aircraft passing through each sector.
+
+Aircraft arriving at Sydney or departing to other destinations will be unaffected by the ground stop.
+
 ## Airways Clearance Delivery (ACD)
 ### Flight Plan Compliance
 Ensure **all flight plans** are checked for compliance with the approved WF Route:
@@ -72,7 +80,10 @@ Departures from Runway 16R and 34L shall be given the SDN frequency (123.0).
 Departures from Runway 16L and 34R shall be given the SDS frequency (129.7).
 
 ### PDCs
-PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect. Upon successful readback of the PDC, ACD shall direct the pilot to contact Coordinator when ready for pushback or taxi.
+PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect, prioritising those who connected first. Upon successful readback of the PDC, ACD shall direct the pilot to contact Coordinator when ready for pushback or taxi.
+
+!!! tip
+    OzStrips displays strips in the Preactive bay ordered by connection time. Aircraft who connected first are shown down the bottom of the bay.
 
 ## Coordinator
 Coordinator operations shall be conducted in accordance with the Sydney Aerodrome [Coordinator](../../aerodromes/classc/Sydney.md#sydney-coordinator) procedures, using the OzStrips plugin.
