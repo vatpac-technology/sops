@@ -298,7 +298,6 @@ The Operational Information field should be updated based on the runway mode and
 | SODROPS | `SIMUL OPP DIR PARL RWY OPS IN PROG` |
 | Curfew Mode Operations | `CURFEW RWY NOMINATION. CURFEW IN OPERATION UNTIL TIME 1900.` |
 
-
 !!! Note
     `INDEP PARL DEPS IN PROG` permits independent departures (two simultaneous departures on parallel runways) but NOT independent approaches (two simultaneous arrivals on parallel runways without perscribed separation minima).  
 
