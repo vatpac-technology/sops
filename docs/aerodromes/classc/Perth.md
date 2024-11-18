@@ -19,12 +19,8 @@
 PH ADC is not responsible for any airspace by default.
 
 ## Maneuvering Area Responsibility
-The division of responsibility between ADC, SMC West, and SMC East is shown below.
-
-<figure markdown>
-![YPPH Maneuvering Area Responsibility](img/ypphsmc.png){ width="700" }
-  <figcaption>YPPH Maneuvering Area Responsibility</figcaption>
-</figure>
+The area of responsibility between SMC West and East is divided by Runway 03/21.  
+Everything West of the Runway belongs to SMC West, everything East of the Runway belongs to SMC East.
 
 ## Runway Selection
 ### Southwest Plan
