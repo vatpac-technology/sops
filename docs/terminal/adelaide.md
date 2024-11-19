@@ -92,7 +92,7 @@ The times assume there is *Nil wind*.
 | ---------- | --- | ------- | ----- | --- |
 | ALEXI      | 14  | 13      | -     | -   |
 | DRINA      | -   | -       | 14    | 13  |
-| BLACK      | 16  | 15      | 12^   | -   |
+| KAKLU      | 16  | 15      | 12^   | -   |
 | KLAVA      | 16  | 15      | 13    | 12  |
 | ERITH      | -   | -       | 13    | 12  |
 | MARGO      | 14  | 13      | 15    | 13  |
@@ -124,7 +124,7 @@ For Non-Jets tracking via the *full Jet STARs*, see [table above](#jets)
 | ---------- | --- | --- | --- | --- |
 | ALEXI      | 12  | 14  | 12  | 11  |
 | DRINA      | 14  | 17  | 14  | 13  |
-| BLACK      | 16  | 15  | 13  | 13  |
+| KAKLU      | 16  | 15  | 13  | 13  |
 | RUSSL      | 17  | 15  | 14  | 13  |
 | KLAVA      | 15  | 13  | 13  | 16  |
 | ERITH      | -   | -   | -   | -   |
