@@ -91,7 +91,6 @@ plugins:
         'controller-skills/cpdlc.md': 'client/cpdlc.md'
         'controller-skills/maestro.md': 'client/maestro.md'
         'controller-skills/vatsys.md': 'client/vatsys.md'
-        'controller-skills/milkrun.md': 'events/milkrun.md/'
 
 # Styling Front-end
 extra_css:

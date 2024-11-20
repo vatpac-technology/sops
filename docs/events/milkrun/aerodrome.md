@@ -12,8 +12,8 @@ Ensure that all flight plans are correct, nothing like `DOSEL DCT RIVET`, `GPS D
 ### 16 Off Mode Departures at YMML
 A Reminder that [Off Mode Departures from Runway 16](../../../aerodromes/classc/Melbourne/#off-mode-departures) to the North East and West during the 16A27D Runway Mode must be assigned the **ISPEG** SID, **NOT** the DOSEL SID. The **ISPEG** SID deconflicts concurrent 16 and 27 departures, whereas the DOSEL SID does not.
 
-### ACD Pushback Requests
-Refer to [Pushback Requests on ACD](#pushback-requests-on-acd)
+### ACD/Coordinator Pushback Requests
+Specific procedures apply to the use of [Pushback Requests on ACD](../../aerodromes/classc/Melbourne.md#pushback-requests-on-acd) at YMML and [Coordinator](../../aerodromes/classc/Sydney.md#sydney-coordinator) at YSSY. Ensure that all relevant controllers are following these procedures accurately.
 
 ## SMC
 ### Standard Taxi Routes
@@ -43,13 +43,13 @@ In order to protect common Runway Exit Taxiways, Consider instructing aircraft t
 #### YSSY
 In order to protect common Runway Exit Taxiways, Consider instructing aircraft taxiing:  
 - Northbound on Taxiway `B`, to Hold Short of Taxiway `B8`  
-- Southbound on Taxiway `A`, to Hold Short of Taxiway `A2` *(34 in use)*, or Taxiway `A4` *(16 in use)*
+- Southbound on Taxiway `A`, to Hold Short of `Runway 25` *(34 in use)*, or avoid Taxiway `A` if an aircraft is landing on Runway 16R and will be vacating to the right *(16 in use)*
 
 !!! note
     Utilising these hold short instructions also opens up the availability of taxiways `J` and `Y` as alternative taxi routes on the International terminal side
 
-### ACD Pushback Requests
-Refer to [Pushback Requests on ACD](#pushback-requests-on-acd)
+### ACD/Coordinator Pushback Requests
+Specific procedures apply to the use of [Pushback Requests on ACD](../../aerodromes/classc/Melbourne.md#pushback-requests-on-acd) at YMML and [Coordinator](../../aerodromes/classc/Sydney.md#sydney-coordinator) at YSSY. Ensure that all relevant controllers are following these procedures accurately.
 
 ## ADC
 ### Runway Modes
