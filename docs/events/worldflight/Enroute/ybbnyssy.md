@@ -30,8 +30,8 @@ ARL will be responsible for the ARL and MNN subsectors **only**.
 
 | Fix | Runway | STAR |
 | ---------- | --- | --- |
-| BOREE      | 16R | BOREE3P |
-| BOREE      | 34L | BOREE3A |
+| BOREE      | 16R | BOREE4P |
+| BOREE      | 34L | BOREE4A |
 | MEPIL      | 16L | MEPIL3 |
 | MEPIL      | 34R | MEPIL3 |
 
