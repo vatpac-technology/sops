@@ -37,7 +37,7 @@ Non-Standard airspace division will be in use.
 
 The **red** line represents the STAR to the arrival runway.  
 The **solid green** line represents the SID to **AVNEX**.  
-The **dashed green** line represents the *suggested vectors* for [06 departures](#06-departures).
+The **dashed green** line represents the *suggested vectors* for 06 departures.
 
 <figure markdown>
 ![03A06D Airspace Division](../../img/0306.png){ width="700" }
