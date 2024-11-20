@@ -80,14 +80,22 @@ When using the SODPROPS mode, pass traffic information to aircraft that are depa
 Refer to [Parallel Runway Separation Standards](../../../separation-standards/parallelapps) for more information
 
 ### Runway Selection
-During PROPS, aircraft tracking via *any* of the following shall be assigned Runway **01L/19R** for departure:
 
-- **BIXAD**
-- **AKOBA**
-- **BUGNU**
-- **ITIDE**
-
-*All other* aircraft shall be assigned Runway **01R/19L** for departure.
+| Aircraft tracking | Runway  |
+| ----------------| --------- |
+| via ITIDE | 01L/19R |
+| via BIXAD | 01L/19R |
+| via BUGNU | 01L/19R |
+| via AKOBA | 01L/19R |
+| via WACKO | **01R**/19R |
+| via SAMVI | 01L/19R |
+| via SANEG | 01R/19L |
+| via LAGOB | 01R/19L |
+| via SCOTT | 01R/19L |
+| via GUMKI | 01R/19L |
+| Other aircraft: |
+| To the NORTH WEST | 01L/19R |
+| All other directions | 01R/19L |
 
 ## SID Selection
 Jet Aircraft planned via **BIXAD**, **GUMKI**, **SCOTT**, **SANEG**, or **WACKO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus^, unless the pilot indicates they are unable to accept a Procedural SID.
@@ -119,7 +127,8 @@ The ATIS shall always have `EXP INST APCH` as the approach type. Visual Approach
 
 - Departing from a runway nominated on the ATIS (except during SODPROPS^); and  
 - Assigned the standard assignable level; and  
-- Assigned a **Procedural** SID  
+- Assigned a **Procedural** SID; or
+- Assigned the **Radar** SID with a [Standard Assignable Heading](#standard-assignable-departure-headings)
 
 ^Auto Release is not available during SODPROPS runway mode. All aircraft must be coordinated from BN ADC to BN TCU.
 
@@ -141,3 +150,16 @@ For Non-Jets: The lower of `A040` or the `RFL`
 
 ### Departures Controller
 Refer to [Brisbane TCU Airspace Division](../../../terminal/brisbane/#airspace-division) for information on airspace divisions when **BDN** and/or **BDS** are online.
+
+### Standard Assignable Departure Headings
+Aircraft that have been cleared the **BN (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required (excluding during SODPROPS) to the BN TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
+
+| Runway | Assigned Heading 
+| ----------------- | -------------- |
+| 01L | H340 |
+| 01R | H120 |
+| 19L | H110 |
+| 19R | H270 |
+
+!!! tip
+    If strong winds are present at altitude, ADC/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.

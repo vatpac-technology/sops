@@ -436,7 +436,7 @@ Aircraft that have been cleared the **SY (RADAR) SID** must receive an assigned 
 | 34R                | 030, 070          | 350 |
 
 !!! tip
-    If strong winds are present at altitude, TWR/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
+    If strong winds are present at altitude, ADC/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
 
 ### Between ADC and SMC
 #### Inactive Runway Releases
