@@ -38,6 +38,10 @@ When **BRM ADC** is offline, BRM CTR (Class D/E `SFC` to `A055`) reverts to Clas
 !!! tip
     If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
 
+## Extending
+!!! Warning
+    Due to the large geographical area covered by this sector and it's neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
+    
 ## Sector Responsibilities
 TRT and TRS are responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YPDN.  
 ASH is responsible for issuing descent and ascertaining arrival intentions for aircraft bound for YBRM.
