@@ -4,10 +4,7 @@ title: Extending
 
 --8<-- "includes/abbreviations.md"
 
-As per [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, Enroute controllers are permitted to *extend* to any adjacent sector, with the exception of:
-
-- ASP, which can only extend to adjacent YMMM (Melbourne Centre) sectors.
-- ISA, which can only extend to adjacent YBBB (Brisbane Centre) sectors.
+As per [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, Enroute controllers are permitted to *extend* to any adjacent sector. Controllers must ensure that when extending, they update their visibility points and have sufficient visibility coverage to cover the **entirety** of all sectors under their jurisdiction. If this is not possible (due to range limitations), that sector **must not be extended**. 
 
 TCU controllers operating the **Coral** or **Tasmania** TMAs may elect to extend to the adjacent TMA (e.g. HBA extend to LTA) at their discretion.
 
@@ -34,13 +31,13 @@ If you find yourself barely having any time to think in between radio calls, **r
 If the frequency is constantly getting stepped on by multiple aircraft, **relinquish some airspace**.  
 
 !!! tip
-    Stay vigilant for aircraft in your airspace taxiing without calling up. Many aerodromes have Radar/ADSB on the ground, and this can be used in conjunction with the ground radar to check for aircraft movements. If you zoom right in to a Radar/ADSB return on the ground, and it has a velocity vector, time to send a contact me!
+    Stay vigilant for aircraft in your airspace taxiing without calling up. Many aerodromes have Radar/ADSB on the ground, and this can be used in conjunction with the ground radar to check for aircraft movements. If you zoom right in to a Radar/ADSB return on the ground at an aerodrome you are top down to, and it has a velocity vector, time to send a contact me!
 
 ## Remarks
 When extending, include in your remarks, *"Extending to (Sector) (frequency), (Sector) (frequency), etc.* This will have the benefit of:  
 - Helping pilots be aware of whether or not they are in your airspace, so they are less likely to start taxiing without a clearance or traffic statement  
 - Helping pilots know which frequency to use  
-- If entered in this format, display on Volanta the extensions on the ATC map.
+- If entered in this format, display the extensions on certain VATSIM traffic coverage apps.
 
 !!! example
     Melbourne Centre  
