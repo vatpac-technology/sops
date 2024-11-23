@@ -34,9 +34,8 @@ Voice may be used in lieu when applicable.
 ISA is responsible for **ARA**, **STR**, **WEG**, and **CVN** when they are offline.  
 
 ## Extending
-
 !!! Warning
-    BN-ISA_CTR is only permitted to extend to adjacent **YBBB** sectors.
+    Due to the large geographical area covered by this sector and it's neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
 
 ## Sector Responsibilities
 ISA and its subsectors are purely Classes A, E and G of airspace. [Standard separation procedures](../../../separation-standards) apply.
