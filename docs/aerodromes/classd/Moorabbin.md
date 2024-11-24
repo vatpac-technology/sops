@@ -117,7 +117,7 @@ Aircraft who will transit Class G airspace on climb into CTA will be **cleared t
 
 ### Arrivals/Overfliers
 
-= ML TCU will heads-up coordinate arrivals/overfliers from Class C to MB ADC.  
+- ML TCU will heads-up coordinate arrivals/overfliers from Class C to MB ADC.  
 - **IFR arrivals** will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to MB ADC, unless MB ADC nominates a restriction.  
 - **VFR arrivals** will not be coordinated, and will need to receive their airways clearance from MB ADC.
 
