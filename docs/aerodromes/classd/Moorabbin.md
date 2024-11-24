@@ -145,7 +145,7 @@ Helicopter circuits are conducted from designated areas based on the active runw
 - Circuit operations are **parallel to the duty runway** and inside the fixed-wing circuit.
 
 **Radio Procedure**:
-- Pilots will report “AIRBORNE” before each circuit, or if departing additionally they will include their intentions. Aircraft are expected to remain under 300 feet until you acknowledge.
+- Pilots will report “AIRBORNE” before each circuit, or if departing additionally they will include their intentions. Aircraft are expected to remain under `A001` until you acknowledge.
 - Reply with simply the aircraft callsign for a leg of the circuits, or departure instructions. Hold the aircraft if they will conflict with other traffic.
 - On completion of circuit training, the pilot will nominate their landing HLS during the airborne call and report downwind before transitioning to the arrival procedure.
 
@@ -153,7 +153,7 @@ Helicopter circuits are conducted from designated areas based on the active runw
     **RJB**:: "MB Gnd, RJB, At the southern apron, with information november, request circuits"
     **MB SMC**: "RJB, cleared for circuit, Eastern Grass, report airborne"      
     **RJB**: "Cleared for circuits, Eastern Grass, RJB"  
-    *(After departure)*  
+    *(Before departure)*  
     **RJB**: "Moorabbin Tower, RJB, airborne"  
     **MB ADC**: "RJB"
 
@@ -197,7 +197,7 @@ Day VFR helicopter departures must remain at `A007`. Helicopters must nominate a
 !!! example
     A helicopter, RJB, is looking to join the circuits from the west at Cerberus, with runway 17L/R active.
     **RJB**: "MB Twr, RJB, Heli R44, Cerberus 700, inbound, with november, for circuits"
-    **MB ADC**: "RJB, MB Twr, maintain 700, report overhead tower"
+    **MB ADC**: "RJB, MB Twr, report overhead tower"
     **RJB**: "RJB overhead"
-    **MB ADC**: "RJB, descend and maintain 700, join downwind runway 17R"
-    **RJB**: "Descend and main 700, join downwind runway, 17R"
+    **MB ADC**: "RJB, join downwind runway 17R"
+    **RJB**: "join downwind runway, 17R"
