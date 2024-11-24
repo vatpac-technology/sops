@@ -163,7 +163,7 @@ Night operations must comply with fixed wing circuits and altitudes.
 ### Departures
 
 Day VFR helicopter departures must remain at `A007`. Helicopters must nominate a aiming point or HLS on first contact with MB SMC.
-
+28t
 1. **Aiming Points**:
    - Direct helicopters departing from the **Southern Aiming Point** to hold short of **TWY A**.
    - Direct helicopters departing from the **Northern Aiming Point** to hold short of **TWY G**.
@@ -185,8 +185,8 @@ Day VFR helicopter departures must remain at `A007`. Helicopters must nominate a
 - ML TCU will heads-up coordinate arrivals/overfliers from Class C to MB ADC.  
 
 - **From the East**:
-    - Helicopters arriving from the east should be instructed to fly a close base leg and pass over the duty threshold at **not below `A005`**.
-    - For duty runways **13** or **17**, helicopters arriving for the northern or main aprons may be instructed to overfly the duty threshold at **not below `A005`** for a short right circuit.
+    - Helicopters arriving from the east should be instructed to fly a close base leg and pass over the duty threshold at **not below `A003`**.
+    - For duty runways **13** or **17**, helicopters arriving for the northern or main aprons may be instructed to overfly the duty threshold at **not below `A003`** for a short right circuit.
     - For **circuits**, helicopters arriving may directly join a leg of the circuit.
 
 - **From the West**:
@@ -196,8 +196,8 @@ Day VFR helicopter departures must remain at `A007`. Helicopters must nominate a
 
 !!! example
     A helicopter, RJB, is looking to join the circuits from the west at Cerberus, with runway 17L/R active.
-    **RJB**: "MB Twr, RJB, Heli R44, Cerberus 1500, inbound, with Mike, for circuits"
-    **MB ADC**: "RJB, MB Twr, maintain 1500, report overhead tower"
+    **RJB**: "MB Twr, RJB, Heli R44, Cerberus 700, inbound, with Mike, for circuits"
+    **MB ADC**: "RJB, MB Twr, maintain 700, report overhead tower"
     **RJB**: "RJB overhead"
     **MB ADC**: "RJB, descend and maintain 700, join downwind runway 17R"
     **RJB**: "Descend and main 700, join downwind runway, 17R"
