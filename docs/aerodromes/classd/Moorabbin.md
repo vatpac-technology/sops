@@ -150,7 +150,7 @@ Helicopter circuits are conducted from designated areas based on the active runw
 - On completion of circuit training, the pilot will nominate their landing HLS during the airborne call and report downwind before transitioning to the arrival procedure.
 
 !!! example
-    **RJB**:: "MB Gnd, RJB, At the southern apron, with information mike, request circuits"
+    **RJB**:: "MB Gnd, RJB, At the southern apron, with information november, request circuits"
     **MB SMC**: "RJB, cleared for circuit, Eastern Grass, report airborne"      
     **RJB**: "Cleared for circuits, Eastern Grass, RJB"  
     *(After departure)*  
@@ -196,7 +196,7 @@ Day VFR helicopter departures must remain at `A007`. Helicopters must nominate a
 
 !!! example
     A helicopter, RJB, is looking to join the circuits from the west at Cerberus, with runway 17L/R active.
-    **RJB**: "MB Twr, RJB, Heli R44, Cerberus 700, inbound, with Mike, for circuits"
+    **RJB**: "MB Twr, RJB, Heli R44, Cerberus 700, inbound, with november, for circuits"
     **MB ADC**: "RJB, MB Twr, maintain 700, report overhead tower"
     **RJB**: "RJB overhead"
     **MB ADC**: "RJB, descend and maintain 700, join downwind runway 17R"
