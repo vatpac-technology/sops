@@ -163,7 +163,7 @@ Night operations must comply with fixed wing circuits and altitudes.
 ### Departures
 
 Day VFR helicopter departures must remain at `A007`. Helicopters must nominate a aiming point or HLS on first contact with MB SMC.
-28t
+
 1. **Aiming Points**:
    - Direct helicopters departing from the **Southern Aiming Point** to hold short of **TWY A**.
    - Direct helicopters departing from the **Northern Aiming Point** to hold short of **TWY G**.
