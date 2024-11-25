@@ -82,8 +82,11 @@ Helicopter circuits are conducted from designated areas based on the active runw
 <figcaption>Eastern Grass and Western Triangle</figcaption>
 </figure>
 
-- **RWY 17/35**: Circuits are conducted from the **Eastern Grass**.
-- **RWY 13/31**: Circuits are conducted from the **Western Triangle**.
+- **RWY 17/35**: Circuits are conducted from the **Eastern Grass**, which encompasses all areas east of runway 35R.
+- **RWY 13/31**: Circuits are conducted from the **Western Triangle**, which extends:
+    - From TWY A to the boundary fence,
+    - Up to the centerline of TWY A4,
+    - Then across to the edge of TWY B and runs parallel to TWY B to the boundary fence.
 - Circuit operations are **parallel to the duty runway** and inside the fixed-wing circuit.
 
 **Radio Procedure**:
