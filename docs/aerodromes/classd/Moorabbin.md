@@ -41,11 +41,11 @@ Runway 04/22 may only be used operationally. Consideration must be given to it's
 ## VFR Inbound Procedures
 
 Aircraft should report at the standard VFR entry points:  
-- **BTO** (to the west)  
-- **BAW** (to the north)  
-- **CARR** (to the southeast)  
-- **GMH** (to the east)  
-- **ACE** (to the south)  
+- **BTO** (to the north)  
+- **BAW** (to the west)  
+- **CARR** (to the southwest)  
+- **GMH** (to the southeast)  
+- **ACE** (to the northeast)  
 - **SHOAL** (to the southwest)
 
 | Entry Point | RWY 13 | RWY 17 | RWY 31 | RWY 35 |
@@ -151,7 +151,7 @@ Day VFR helicopter departures must remain at `A007`. Helicopters must nominate a
     **RJB**: "RJB overhead the tower"
     **MB ADC**: "RJB, join downwind runway 17R"
     **RJB**: "Join downwind runway, 17R"
-    
+
 ## Coordination
 
 ### Departures
