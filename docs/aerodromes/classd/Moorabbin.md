@@ -90,6 +90,7 @@ Helicopter circuits are conducted from designated areas based on the active runw
 - Circuit operations are **parallel to the duty runway** and inside the fixed-wing circuit.
 
 **Radio Procedure**:
+
 - Pilots will report “AIRBORNE” before each circuit, or if departing additionally they will include their intentions. Aircraft are expected to remain under `A001` until you acknowledge.
 - Acknowledge the aircraft's callsign or provide additional departure instructions. Hold the aircraft if they will conflict with other traffic.
 - On completion of circuit training, the pilot will nominate their landing HLS during the airborne call and report downwind before transitioning to the arrival procedure.
