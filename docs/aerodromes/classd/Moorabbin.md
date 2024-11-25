@@ -12,8 +12,6 @@
 | **Moorabbin SMC**  | **Moorabbin Ground** | **134.250** | **MB_GND**   |
 | Moorabbin ATIS     |                      | 120.900     | YMMB_ATIS    |
 
----
-
 ## Airspace
 MB ADC is responsible for the Class D airspace in the MB CTR from `SFC` to `A025`.
 
@@ -24,8 +22,6 @@ MB ADC is responsible for the Class D airspace in the MB CTR from `SFC` to `A025
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
----
-
 ## Runway Modes
 
 Preferred runway modes are as follows (in order of preference):
@@ -35,8 +31,6 @@ Preferred runway modes are as follows (in order of preference):
 3. Runways 13/31 (equal preference)
 
 Runway 04/22 may only be used operationally. Consideration must be given to it's limited length.
-
----
 
 ## VFR Inbound Procedures
 
