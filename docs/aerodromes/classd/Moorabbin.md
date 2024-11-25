@@ -195,9 +195,11 @@ Day VFR helicopter departures must remain at `A007`. Helicopters must nominate a
     - For **circuits** have the aircraft fly overhead the tower and report. Instruct the aircraft to join a leg of the circuit.
 
 !!! example
-    A helicopter, RJB, is looking to join the circuits from the west at Cerberus, with runway 17L/R active.
-    **RJB**: "MB Twr, RJB, Heli R44, Cerberus 700, inbound, with november, for circuits"
-    **MB ADC**: "RJB, MB Twr, report overhead tower"
-    **RJB**: "RJB overhead"
+    VH-RJB, an R44 helicopter, is looking to join the circuit from the west at Cerberus, with runway 17L/R active.  
+    **RJB**: "Moorabbin Tower, Helicopter RJB, Cerberus, A007, inbound, with november, for circuits"  
+    **MB ADC**: "RJB, Moorabbin Tower, report overhead the tower"  
+    **RJB**: "Wilco, RJB"  
+    
+    **RJB**: "RJB overhead the tower"
     **MB ADC**: "RJB, join downwind runway 17R"
-    **RJB**: "join downwind runway, 17R"
+    **RJB**: "Join downwind runway, 17R"
