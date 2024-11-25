@@ -34,9 +34,7 @@ Preferred runway modes are as follows (in order of preference):
 2. Runway 17L/17R  
 3. Runways 13/31 (equal preference)
 
-Crosswind operations are limited to **10KT**, and tailwind use is discouraged unless required.
-
-Runway 04/22 may only be used operationally and is **not available for circuit training**. Consideration must be given to it's limited length.
+Runway 04/22 may only be used operationally. Consideration must be given to it's limited length.
 
 ---
 
@@ -61,21 +59,6 @@ Aircraft should report at the standard VFR entry points:
 
 CTR Entry Altitude: `A010`.
 
----
-
-## Departures into CTA
-
-The overlying Class C airspace extends down to `A025` to the north and `A045` to the south.
-
-- Aircraft departing into Class C must be cleared to `A050` or `RFL` (if lower) by **MB ADC**.  
-- Coordination with TCU for release is required before issuing a takeoff clearance.  
-- VFR aircraft departing into Class G must advise intentions with their "Ready" call and will be cleared accordingly.
-- During times of peak TMA traffic, there may be extensive delays for departures and pilots may elect to depart directly into class G.
-
-See [Departure Coordination](#departures) for coordination requirements.
-
----
-
 ## Circuits
 
 ### Fixed wing
@@ -92,41 +75,6 @@ Circuit altitude: `A010`.
 | 17R     | Right                 | N/A                     |
 | 35L     | Left                  | N/A                     |
 | 35R     | Right                 | Right                   |
-
-## Coordination
-
-### Departures
-
-- Autorelease is not in effect. Coordination for "Next" is required required for departures into overlaying Class C. They must not be issued a takeoff clearance until a release has been obtained.
-- Standard assignable level: `A050` (or `RFL` if lower).  
-!!! example
-    <span class="hotline">**MB ADC** -> **MDS**</span>: "Next, SGE"  
-    <span class="hotline">**MDS** -> **MB ADC**</span>: "SGE, unrestricted"
-
-Aircraft departing directly into Class C airspace should be instructed to report passing A025 and transferred to the TCU at that point.
-
-!!! example 
-    **SGE**: "SGE, A025"  
-    **MB ADC**: "SGE, contact Melbourne Departures on 129.4" 
-
-Aircraft who will transit Class G airspace on climb into CTA will be **cleared to leave and re-enter controlled airspace** on climb to their assigned level.
-
-!!! example
-    **MB ADC**: "SGE, cleared to leave and re-enter controlled airspace climbing to A050, no reported IFR traffic. Contact Melbourne Departures on 129.4"  
-    **SGE**: "Cleared to leave and re-enter controlled airspace climbing to A050, Departures 129.4, SGE"
-
-### Arrivals/Overfliers
-
-- ML TCU will heads-up coordinate arrivals/overfliers from Class C to MB ADC.  
-- **IFR arrivals** will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to MB ADC, unless MB ADC nominates a restriction.  
-- **VFR arrivals** will not be coordinated, and will need to receive their airways clearance from MB ADC.
-
-!!! example
-    <span class="hotline">**MDS** -> **MB ADC**</span>: "To the west, PLE, for the NDB-A"  
-    <span class="hotline">**MB ADC** -> **MDS**</span>: "PLE, NDB-A"
-
-!!! tip
-    Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D. Use other separation methods, such as holding a departure on the ground, if separation is required with these aircraft.
 
 ## Helicopters
 
@@ -203,3 +151,38 @@ Day VFR helicopter departures must remain at `A007`. Helicopters must nominate a
     **RJB**: "RJB overhead the tower"
     **MB ADC**: "RJB, join downwind runway 17R"
     **RJB**: "Join downwind runway, 17R"
+    
+## Coordination
+
+### Departures
+
+- Autorelease is not in effect. Coordination for "Next" is required required for departures into overlaying Class C. They must not be issued a takeoff clearance until a release has been obtained.
+- Standard assignable level: `A050` (or `RFL` if lower).  
+!!! example
+    <span class="hotline">**MB ADC** -> **MDS**</span>: "Next, SGE"  
+    <span class="hotline">**MDS** -> **MB ADC**</span>: "SGE, unrestricted"
+
+Aircraft departing directly into Class C airspace should be instructed to report passing A025 and transferred to the TCU at that point.
+
+!!! example 
+    **SGE**: "SGE, A025"  
+    **MB ADC**: "SGE, contact Melbourne Departures on 129.4" 
+
+Aircraft who will transit Class G airspace on climb into CTA will be **cleared to leave and re-enter controlled airspace** on climb to their assigned level.
+
+!!! example
+    **MB ADC**: "SGE, cleared to leave and re-enter controlled airspace climbing to A050, no reported IFR traffic. Contact Melbourne Departures on 129.4"  
+    **SGE**: "Cleared to leave and re-enter controlled airspace climbing to A050, Departures 129.4, SGE"
+
+### Arrivals/Overfliers
+
+- ML TCU will heads-up coordinate arrivals/overfliers from Class C to MB ADC.  
+- **IFR arrivals** will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to MB ADC, unless MB ADC nominates a restriction.  
+- **VFR arrivals** will not be coordinated, and will need to receive their airways clearance from MB ADC.
+
+!!! example
+    <span class="hotline">**MDS** -> **MB ADC**</span>: "To the west, PLE, for the NDB-A"  
+    <span class="hotline">**MB ADC** -> **MDS**</span>: "PLE, NDB-A"
+
+!!! tip
+    Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D. Use other separation methods, such as holding a departure on the ground, if separation is required with these aircraft.
