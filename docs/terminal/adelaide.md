@@ -90,15 +90,15 @@ The times assume there is *Nil wind*.
 
 | Feeder Fix | 05Z | 05V/W/X | 23A/Z | 23V |
 | ---------- | --- | ------- | ----- | --- |
-| ALEXI      | 14  | 13      | -     | -   |
+| INTOG      | 14  | 13      | -     | -   |
 | DRINA      | -   | -       | 14    | 13  |
-| BLACK      | 16  | 15      | 12^   | -   |
+| KAKLU      | 16  | 15      | 12^   | -   |
 | KLAVA      | 16  | 15      | 13    | 12  |
 | ERITH      | -   | -       | 13    | 12  |
 | MARGO      | 14  | 13      | 15    | 13  |
-| RIKAB      | 13  | 12^     | 17    | 15  |
+| ATNAR      | 13  | 12^     | 17    | 15  |
 
-- **GULLY** - Threshold is **5 minutes**  
+- **VIRAT** - Threshold is **5 minutes**  
 - **PADSI** - Threshold is **3.5 minutes**  
 - Add **1 minute** for aircraft assigned a reduced speed, Except ^  
 - Subtract **1 minute** for MX or CSR
@@ -113,7 +113,7 @@ The times assume there is *Nil wind*.
 
 This table assumes that aircraft will be assigned:
 
-- The appropriate *Non-Jet STAR* (**ATPIP**, **ELROX**, **GULFS**, **PAMMY**, **RUSSL**, **SURGN**), or if none is available:
+- The appropriate *Non-Jet STAR* (**ATPIP**, **ELROX**, **GULFS**, **PAMMY**, **BEVSO**, **SURGN**), or if none is available:
 - *No STAR*
 
 Thence track via a **5nm final** for the assigned runway.
@@ -122,14 +122,14 @@ For Non-Jets tracking via the *full Jet STARs*, see [table above](#jets)
 
 | Feeder Fix | 05  | 12  | 23  | 30  |
 | ---------- | --- | --- | --- | --- |
-| ALEXI      | 12  | 14  | 12  | 11  |
+| INTOG      | 12  | 14  | 12  | 11  |
 | DRINA      | 14  | 17  | 14  | 13  |
-| BLACK      | 16  | 15  | 13  | 13  |
-| RUSSL      | 17  | 15  | 14  | 13  |
+| KAKLU      | 16  | 15  | 13  | 13  |
+| BEVSO      | 17  | 15  | 14  | 13  |
 | KLAVA      | 15  | 13  | 13  | 16  |
 | ERITH      | -   | -   | -   | -   |
 | MARGO      | 13  | 12  | 13  | 15  |
-| RIKAB      | 13  | 13  | 15  | 16  |
+| ATNAR      | 13  | 13  | 15  | 16  |
 | ELROX      | 11  | 11  | 14  | 13  |
 
 - **5nm final** - Threshold is **2 minutes**  
@@ -220,7 +220,7 @@ VFR aircraft require a level readback.
 Aircraft departing YPED in to AD TCU Class C will be coordinated from **EDN ADC** at Taxi.
 
 !!! example
-    <span class="coldline">**EDN ADC** -> **AD TCU**</span>: "Taxi, BLKT11 for YMES, via GULLY"  
+    <span class="coldline">**EDN ADC** -> **AD TCU**</span>: "Taxi, BLKT11 for YMES, via VIRAT"  
     <span class="coldline">**AD TCU** -> **EDN ADC**</span>: "BLKT11"  
 
 When the aircraft is ready for takeoff, **EDN ADC** will give a "Next" call, where AD TCU will provide the cleared level.

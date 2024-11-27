@@ -80,55 +80,55 @@ When using the SODPROPS mode, pass traffic information to aircraft that are depa
 Refer to [Parallel Runway Separation Standards](../../../separation-standards/parallelapps) for more information
 
 ### Runway Selection
-Aircraft shall be assigned the following runways for departure when PROPS are in progress:
 
 | Aircraft tracking | Runway  |
 | ----------------| --------- |
-| via BIXAD   | 01L/19R     |
-| via GUMKI | 01R/19L |
-| via SCOTT | 01R/19L |
+| via ITIDE | 01L/19R |
+| via BIXAD | 01L/19R |
+| via BUGNU | 01L/19R |
+| via AKOBA | 01L/19R |
+| via WACKO | **01R**/19R |
+| via SAMVI | 01L/19R |
 | via SANEG | 01R/19L |
-| via WACKO | 01L/19R |
+| via LAGOB | 01R/19L |
+| via SCOTT | 01R/19L |
+| via GUMKI | 01R/19L |
 | Other aircraft: |
-| To the NORTH and WEST | 01L/19R |
-| To the SOUTH and EAST | 01R/19L |
+| To the NORTH WEST | 01L/19R |
+| All other directions | 01R/19L |
 
-!!! tip
-    Runway 01L/19R opened in 2020. Some pilots on VATSIM may have old simulators/scenery, in which case they will only have Runway 01R/19L available. Endeavour to be accommodating of pilots' requests in this instance.
-
-### SID Selection
-Jet Aircraft planned via **BIXAD**, **GUMKI**, **SCOTT**, **SANEG**, or **WACKO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
+## SID Selection
+Jet Aircraft planned via **BIXAD**, **GUMKI**, **SCOTT**, **SANEG**, or **WACKO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus^, unless the pilot indicates they are unable to accept a Procedural SID.
 
 !!! example
     Jet Aircraft planned via SCOTT, assigned runway 19L, shall be assigned the SCOTT SID.
 
+!!! exception
+    ^Jet Aircraft with ADES **YBSU** may plan via **ITIDE**, and be assigned the **Radar SID**. Amended routing is *not required*.
+
 Non-Jet aircraft, and aircraft that cannot accept a Procedural SID, shall be assigned the **Radar SID**.
 
 !!! example
-    Non-Jet Aircraft planned via WACKO, assigned runway 01L, shall be assigned the BN (RADAR) SID.
-
-#### SODPROPS
-During the SODPROPS runway mode, Jet departures from Runway 01R shall be assigned the **ASISO** Procedural SID in lieu of other Procedural SIDs available that terminate at the appropriate waypoint.
-
-!!! example
-    Jet Aircraft planned via SCOTT, assigned runway 01R, shall be assigned the ASISO SID, SCOTT Transition.
+    Non-Jet Aircraft planned via WACKO, assigned runway 01R, shall be assigned the BN (RADAR) SID.
 
 ## ATIS
 #### Operational Info
-
 When parallel runways are used for departures, the ATIS OPR INFO shall include:  
 `INDEPENDENT PARALLEL DEPARTURES IN PROGRESS`  
 When SODPROPS are in operation, the ATIS OPR INFO shall include:  
 `SIMULTANEOUS OPPOSITE DIRECTION PARALLEL RUNWAY OPERATIONS IN PROGRESS`
+
 #### Approach Types
 The ATIS shall always have `EXP INST APCH` as the approach type. Visual Approaches are permitted on request, as long as a separation standard exists between the aircraft and any aircraft arriving on the parallel runway during PROPS, or departing from the parallel runway during SODPROPS.
 
 ## Coordination
 ### Auto Release
-'Next' coordination is **not** required to BN TCU for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS (except during SODPROPS^); and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a **Procedural** SID  
+'Next' coordination is **not** required to BN TCU for aircraft that are:
+
+- Departing from a runway nominated on the ATIS (except during SODPROPS^); and  
+- Assigned the standard assignable level; and  
+- Assigned a **Procedural** SID; or
+- Assigned the **Radar** SID with a [Standard Assignable Heading](#standard-assignable-departure-headings)
 
 ^Auto Release is not available during SODPROPS runway mode. All aircraft must be coordinated from BN ADC to BN TCU.
 
@@ -150,3 +150,16 @@ For Non-Jets: The lower of `A040` or the `RFL`
 
 ### Departures Controller
 Refer to [Brisbane TCU Airspace Division](../../../terminal/brisbane/#airspace-division) for information on airspace divisions when **BDN** and/or **BDS** are online.
+
+### Standard Assignable Departure Headings
+Aircraft that have been cleared the **BN (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required (excluding during SODPROPS) to the BN TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
+
+| Runway | Assigned Heading 
+| ----------------- | -------------- |
+| 01L | H340 |
+| 01R | H120 |
+| 19L | H110 |
+| 19R | H270 |
+
+!!! tip
+    If strong winds are present at altitude, ADC/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
