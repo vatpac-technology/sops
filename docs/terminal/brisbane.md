@@ -155,9 +155,11 @@ All other aircraft coming from INL CTA will be **Heads-up** Coordinated to BN TC
 ### BN ADC
 #### Auto Release
 'Next' coordination is **not** required from BN ADC for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS (except during SODPROPS^); and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a **Procedural** SID  
+
+- Departing from a runway nominated on the ATIS (except during SODPROPS^); and  
+- Assigned the standard assignable level; and  
+- Assigned a **Procedural** SID; or
+- Assigned the **Radar** SID with a [Standard Assignable Heading](#standard-assignable-departure-headings)
 
 ^Auto Release is not available during SODPROPS runway mode. All aircraft will be coordinated from BN ADC to BN TCU.
 
@@ -169,6 +171,19 @@ All other aircraft coming from INL CTA will be **Heads-up** Coordinated to BN TC
 The Standard Assignable level from BN ADC to BN TCU is:  
 For Jets: `A060`  
 For Non-Jets: The lower of `A040` or the `RFL`
+
+#### Standard Assignable Departure Headings
+Aircraft that have been cleared the **BN (RADAR) SID** will receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required (excluding during SODPROPS) from the BN ADC controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
+
+| Runway | Assigned Heading 
+| ----------------- | -------------- |
+| 01L | H340 |
+| 01R | H120 |
+| 19L | H110 |
+| 19R | H270 |
+
+!!! tip
+    If strong winds are present at altitude, ADC/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
 
 ### CG ADC
 #### Airspace

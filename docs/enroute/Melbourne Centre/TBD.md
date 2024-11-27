@@ -45,7 +45,7 @@ Must be considered to be on the **same STAR** for sequencing purposes. That is, 
 Aircraft tracking via OJJAY and MARGO (ie *J251 WHA H84 MARGO*) from the North for Runway 23 shall be assigned:  
 **RAYNA** STAR with the **OJJAY** transition  
 **not**  
-**SALTY** STAR with the **MARGO** transition
+**BUGSU** STAR with the **MARGO** transition
 
 vatSys will not necessarily select the correct STAR by default when entering the runway, so ensure the correct STAR is selected.
 
