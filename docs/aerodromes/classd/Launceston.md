@@ -23,11 +23,11 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 ## SID Selection
 Aircraft planned via **MIKIS**, **TASUM**, or **VEKLO** shall be assigned the relevant Procedural SID.
 
-Aircraft planned via **IRSOM**, **MORGO**, **ONAGI**, **VIMAP**, **NUNPA**, or **MOTRA**, departing Runway 32L, shall be assigned the relevant **ALPHA** Procedural SID.
+Aircraft planned via **IRSOM**, **MORGO**, **FLIKI**, **VIMAP**, **NUNPA**, or **MOTRA**, departing Runway 32L, shall be assigned the relevant **ALPHA** Procedural SID.
 
-Aircraft planned via **ONAGI**, **VIMAP**, **NUNPA**, or **MOTRA**, departing Runway 14R, shall be assigned the relevant **BRAVO** Procedural SID.
+Aircraft planned via **FLIKI**, **VIMAP**, **NUNPA**, or **MOTRA**, departing Runway 14R, shall be assigned the relevant **BRAVO** Procedural SID.
 
-**Non-Jet** Aircraft planned via **IRSOM**, **ONAGI**, or **MORGO** may be assigned the relevant **CHARLIE** Procedural SID *on pilot request*.
+**Non-Jet** Aircraft planned via **IRSOM**, **FLIKI**, or **MORGO** may be assigned the relevant **CHARLIE** Procedural SID *on pilot request*.
 
 Aircraft **not** planned via any of the above waypoints, shall be recleared via the most appropriate one, and assigned the **Procedural SID**.
 

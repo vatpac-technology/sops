@@ -570,7 +570,7 @@ Auto Release is used for virtually all fixed-wing departures at Sydney. Unlike s
     a) Departing from a runway nominated on the ATIS; and   
     b) Assigned the Standard assignable level; and  
     c) Assigned a **Procedural SID** (except **ABBEY** SID); or  
-    d) Assigned a Standard Assignable Heading
+    d) Assigned the **Radar** SID with a Standard Assignable Heading
 
 All other aircraft require a 'Next' call from SY ADC.
 
