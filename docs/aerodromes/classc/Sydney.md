@@ -105,6 +105,7 @@ Helipad 1 is controlled by **SY ADC** and treated like a runway (landing clearan
 
 ## Standard Taxi Routes
 Except when the traffic situation warrants, taxi clearances shall conform to the following diagram:
+
 <figure markdown>
 ![YSSY Taxi Route](img/yssy_taxi_routes.png){ width="500" }
   <figcaption>Standard Taxi Routes</figcaption>
@@ -396,7 +397,7 @@ During busy events, VATPAC may utilise prebooked slots to manage traffic congest
     a) Departing from a runway nominated on the ATIS; and   
     b) Assigned the Standard assignable level; and  
     c) Assigned a **Procedural SID** (except **ABBEY** SID); or  
-    d) Assigned a [Standard Assignable Heading](#standard-assignable-departure-headings)
+    d) Assigned the **Radar** SID with a [Standard Assignable Heading](#standard-assignable-departure-headings)
 
 All other aircraft require a 'Next' call to SY TCU.
 
