@@ -114,6 +114,8 @@ extra:
 
 # Additional Markdown Extensions to use bundled icon sets
 markdown_extensions:
+  - toc:
+      toc_class: custom-toc
   - meta # Add front matter to a document
   - admonition # Makes things pretty
   - pymdownx.superfences # Nestled code
