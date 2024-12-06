@@ -324,9 +324,10 @@ Helicopters should be identified and then provided the clearance where traffic p
 </details>
 
 <details markdown="1">
-<summary>BK ADC Offline</summary>
+<summary>Offline Towers</summary>
 
-## BK ADC Offline
+## Offline Towers
+### BK ADC Offline
 Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
 !!! example
