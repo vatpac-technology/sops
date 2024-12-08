@@ -85,7 +85,8 @@ Aircraft wishing to conduct a scenic flight over the Perth CBD should be cleared
 
 Aircraft departing YPPH and intending to conduct the Victor 65 route will be coordinated by **PH ACD**. See [Airways Clearances](#airways-clearances).
 
-## JT/PEA ADC Offline
+## Offline Towers
+### JT/PEA ADC Offline
 Due to the low level of CTA at these aerodromes, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
 !!! example
@@ -97,7 +98,7 @@ Due to the low level of CTA at these aerodromes, it is best practice to give air
     **PHA**: "AAC, Cleared to YPKG via PH, Flight Planned Route. Make Visual Right turn DCT PH, Climb to A040"  
     **AAC**: "Cleared to YPKG via PH, Flight Planned Route. Make Visual Right turn DCT PH, Climb to A040, AAC"
 
-## Departure Procedures
+### Departure Procedures
 Aircraft departing the TMA to the south planned at `F130` or above will likely leave and re-enter CTA on climb. These aircraft should be instructed to leave and re-enter on climb to the standard assignable level (or other level as appropriate).
 
 !!! example
@@ -105,7 +106,6 @@ Aircraft departing the TMA to the south planned at `F130` or above will likely l
     **RXA2125**: "Leave and re-enter controlled airspace on climb to F180, RXA2125"
 
 ## Coordination
-
 ### Enroute
 #### Departures
 Voiceless for all aircraft:
