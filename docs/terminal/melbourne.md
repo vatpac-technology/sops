@@ -96,11 +96,12 @@ VFR YMEN Arrivals from ML TCU shall be cleared via any of the following arrival 
 - SNP
 - WES
 
-## EN ADC Offline
+## Offline Towers
+### EN ADC Offline
 !!! tip
     When EN ADC is offline, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
 
-### Arrivals
+#### Arrivals
 The class C airspace surrounding YMEN extends to `SFC`.  This means that aircraft conducting approaches will remain inside controlled airspace until they land (and in the event of a go around).  These aircraft should be cleared for an appropriate approach, advised of any traffic taxiing at YMEN, and instructed to *'report clear of the runway'*.  The missed approach path must be protected until the aircraft reports clear.
 
 !!! example
@@ -110,7 +111,7 @@ The class C airspace surrounding YMEN extends to `SFC`.  This means that aircraf
     **SH490:** "SH490, clear of the runway, Essendon, cancel SARWATCH"  
     **ML TCU:** "SH490, Essendon SARWATCH terminated"
 
-### Departures
+#### Departures
 Essendon has unique procedures due to its position in the ML CTR, with controlled airspace to the ground.  Departing aircraft will request airways clearance and engine start while on the bay and ML TCU will provide current weather conditions, expected runway for departure, and clearance. On completion of the readback, aircraft should be instructed to *'report taxiing to runway XX'*.
 
 !!! example
@@ -135,8 +136,8 @@ Once the aircraft is ready for departure and no conflict exists in your airspace
     **ML TCU**: "FDK, make right turn, report airborne"  
     **FDK**: "Make right turn, FDK"
 
-## AV ADC Offline
-### Arrivals
+### AV ADC Offline
+#### Arrivals
 Due to the low level of CTA above Avalon, aircraft conducting approaches will commence the approach inside controlled airspace and leave CTA on descent.  If the aircraft goes around, they will re-enter controlled airspace.  These aircraft should be cleared to leave controlled airspace descending via an appropriate approach and instructed to *'report clear of the runway'*.  The missed approach path must be protected until the aircraft reports clear.
 
 !!! note
@@ -149,7 +150,7 @@ Due to the low level of CTA above Avalon, aircraft conducting approaches will co
     **JST607:** "JST607, clear of the runway, Avalon, cancel SARWATCH"  
     **ML TCU:** "JST607, Avalon SARWATCH terminated"
 
-### Departures
+#### Departures
 Departing aircraft will require an airways clearance on the ground, due to the low level of CTA. Aircraft should report taxiing to the TCU controller, who will issue a squawk code and traffic statement. These aircraft should be instructed to report at the holding point, where airways clearance will be issued.
 
 !!! example
@@ -163,15 +164,15 @@ Departing aircraft will require an airways clearance on the ground, due to the l
     **ML TCU**: "AM318, assigned heading left 020, report airborne"  
     **AM318**: "Assigned left 020, wilco, AM318"
 
-## MB ADC Offline
-### Arrivals
+### MB ADC Offline
+#### Arrivals
 IFR aircraft cruising inside CTA will generally commence an instrument approach from within controlled airspace and leave CTA on descent.  The missed approach procedure will keep these aircraft outside controlled airspace, so does not need to be protected by the TCU controller.  Clear these aircraft to leave CTA descending via an appropriate approach.
 
 !!! example
     **ML TCU:** "OFX, Leave controlled airspace descending via the RNP Runway 17L approach, no reported IFR traffic"  
     **OFX:** "Leave controlled airspace descending via the RNP Runway 17L approach, OFX"
 
-### Departures
+#### Departures
 Due to the low level of CTA surrounding YMMB, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
 !!! example

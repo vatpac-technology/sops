@@ -216,7 +216,11 @@ When conducting IVAs, aircraft shall not be transferred to **SY ADC** until esta
     **BNZ444:** "120.5, BNZ444"
 
 #### Phraseology at Night
-*"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (altitude) UNTIL ESTABLISHED ON THE PAPI (or GLIDEPATH)"*
+*"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (MVA) UNTIL ESTABLISHED ON THE PAPI (or GLIDEPATH)"*
+
+!!! example
+    **SFE:** “ANZ361, Turn right heading 330, join final Runway 34R, from that heading Cleared Independent Visual Approach Runway 34R, not below 1500 until established on the PAPI”    
+
 </details>
 
 <details markdown="1">
@@ -324,9 +328,10 @@ Helicopters should be identified and then provided the clearance where traffic p
 </details>
 
 <details markdown="1">
-<summary>BK ADC Offline</summary>
+<summary>Offline Towers</summary>
 
-## BK ADC Offline
+## Offline Towers
+### BK ADC Offline
 Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
 !!! example
@@ -570,7 +575,7 @@ Auto Release is used for virtually all fixed-wing departures at Sydney. Unlike s
     a) Departing from a runway nominated on the ATIS; and   
     b) Assigned the Standard assignable level; and  
     c) Assigned a **Procedural SID** (except **ABBEY** SID); or  
-    d) Assigned a Standard Assignable Heading
+    d) Assigned the **Radar** SID with a Standard Assignable Heading
 
 All other aircraft require a 'Next' call from SY ADC.
 

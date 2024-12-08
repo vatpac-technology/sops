@@ -67,7 +67,8 @@ Coordinate the aircraft with ADC, including the use of the appropriate clearance
 
 Once the aircraft has transited the extended runway centreline and is clear of potential conflict with YPAD, ADC will transfer them back to the TCU.
 
-## PF ADC Offline
+## Offline Towers
+### PF ADC Offline
 Due to the low level of CTA at YPPF, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
 !!! example
