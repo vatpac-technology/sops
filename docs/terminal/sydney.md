@@ -216,7 +216,11 @@ When conducting IVAs, aircraft shall not be transferred to **SY ADC** until esta
     **BNZ444:** "120.5, BNZ444"
 
 #### Phraseology at Night
-*"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (altitude) UNTIL ESTABLISHED ON THE PAPI (or GLIDEPATH)"*
+*"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (MVA) UNTIL ESTABLISHED ON THE PAPI (or GLIDEPATH)"*
+
+!!! example
+    **SFE:** “ANZ361, Turn right heading 330, join final Runway 34R, from that heading Cleared Independent Visual Approach Runway 34R, not below 1500 until established on the PAPI”    
+
 </details>
 
 <details markdown="1">

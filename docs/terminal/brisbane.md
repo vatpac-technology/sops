@@ -92,6 +92,9 @@ These standard runway assignments may be modified strategically by the BAS or BF
 ### Independent Visual Approach Phraseology at Night
 *"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (altitude) UNTIL ESTABLISHED ON THE PAPI (or GLIDEPATH)"*
 
+!!! example
+    **BAS:** “QFA660, Turn left heading 040, join final Runway 01L, from that heading Cleared Independent Visual Approach Runway 01L, not below 2400 until established on the PAPI”    
+
 ## Offline Towers
 ### AF ADC Offline
 Due to the low level of CTA (`A015`) in the AF CTR when **AF ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
