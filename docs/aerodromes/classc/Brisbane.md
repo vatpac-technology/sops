@@ -30,7 +30,7 @@ There are three SMC positions at Brisbane which are responsible for various part
 </figure>
 
 ## Helicopter Operations
-Brisbane has one helipad located within the general aviation apron, most rescue helicopters are based within the airline maintenance hangars and will depart from the **H2 taxiway** to save time when operating.
+Brisbane has one helipad located within the general aviation apron, most rescue helicopters are based within the general aviation maintenance area and will depart from the **H2 taxiway** to save time when operating.
 
 #### Waypoints
 VFR and IFR helicopters are normally processed via two visual waypoints north and south of the field, when in VMC conditions. IFR helicopters in IMC conditions may conform to fixed wing ops and be processed via the BN (RADAR) SID from an appropriate runway, unless a visual departure is acceptable. These waypoints are used for **departures** and **arrivals**, depending on weather and traffic conditions.
