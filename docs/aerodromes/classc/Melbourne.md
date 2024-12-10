@@ -133,7 +133,7 @@ Remember to pass traffic information to both aircraft.
     **JST515:** "Runway 16, cleared to land, JST515"
 
 ## Workload Management
-During busy events, such as [Milk Run Monday](../../../controller-skills/milkrun), the **SMC** controller may end up with a much higher workload than the **ACD** controller. Additionally, delays may need to be implemented for aircraft requesting pushback, so as to not overload the taxiways and holding points.
+During busy events, such as [Milk Run Monday](../../../events/milkrun/), the **SMC** controller may end up with a much higher workload than the **ACD** controller. Additionally, delays may need to be implemented for aircraft requesting pushback, so as to not overload the taxiways and holding points.
 
 ### Pushback Requests on ACD
 To mitigate this, pushback requests may be done on **ACD** frequency, to balance the workload. A few steps must be followed to properly execute this procedure.
