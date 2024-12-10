@@ -64,7 +64,7 @@ Taxiway H2 is inside the maneuvering area and therefore owned by **BN SMC-N**, t
 
 #### Arrivals
 
-IFR helicopters operating within in IMC conditions may conform to fixed wing ops and be processed via an instrument approach for a appropriate duty runway. Standard fixed wing phraseology shall be used during these conditions.
+IFR helicopters operating within IMC conditions may conform to fixed wing ops and be processed via an instrument approach for a appropriate duty runway. Standard fixed wing phraseology shall be used during these conditions.
 
 !!! example
     **RSCU533:** "Brisbane Tower, helicopter RSCU533"  
