@@ -52,7 +52,7 @@ Refer to [Maneuvering Area Responsibility](#maneuvering-area-responsibility) to 
     **BN ACD:** "RSCU533, Brisbane Delivery, cleared to YXHE via BLHS, climb 2500, squawk 1256, departure frequency 124.7"  
     **RSCU533:** "Cleared to YXHE via BLHS, climb 2500, squawk 1256, departures 124.7, RSCU533"
 
-Taxiway H2 is inside the maneuvering area and therefore owned by **BN SMC-N**, treated like a runway requiring a takeoff and landing clearance BN ADC. Helicopters landing on other surfaces outside the maneuvering areas should be instructed to *"report on the ground"* so the controllers knows when they are no longer active in their airspace. 
+Taxiway H2 is inside the maneuvering area and therefore owned by **BN SMC-N**, treated like a runway requiring a takeoff and landing clearance by BN ADC. Helicopters departing on other surfaces outside the maneuvering areas should be instructed to *"report airborne"* so the controllers knows when they are active in their airspace. 
 
 !!! example
     **RSCU533:** "Brisbane Tower, helicopter RSCU533, H2 ready"  
@@ -90,7 +90,7 @@ Traffic information must be issued to both aircraft.
     **BN ADC:** "RSCU533, H2 cleared to land"   
     **RSCU533:** "Cleared to land H2, RSCU533"
 
-Taxiway H2 is inside the maneuvering area and therefore owned by **BN SMC-N**, treated like a runway requiring a takeoff and landing clearance BN ADC. Helicopters landing on other surfaces outside the maneuvering areas should be instructed to *"report on the ground"* so the controllers knows when they are no longer active in their airspace.
+Taxiway H2 is inside the maneuvering area and therefore owned by **BN SMC-N**, treated like a runway requiring a takeoff and landing clearance by BN ADC. Helicopters landing on other surfaces outside the maneuvering areas should be instructed to *"report on the ground"* so the controllers knows when they are no longer active in their airspace.
 
 !!! example
     **RSCU533:** "RSCU533, on the ground H2"  
