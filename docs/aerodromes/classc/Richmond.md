@@ -16,7 +16,7 @@
 
 ## Airspace
 
-RIC ADC owns the Class C airspace **in the RIC CTR** within 10nm of the YSRI ARP from `SFC` to `A045`. This airspace is primarily used for military circuits and initial and pitch approaches, and airdrops.
+RIC ADC owns the Class C airspace **in the RIC CTR** within 10nm of the YSRI ARP from `SFC` to `A045`. This airspace is primarily used for military circuits, initial and pitch approaches and airdrops.
 
 ## Charts
 !!! note
