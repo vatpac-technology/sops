@@ -8,13 +8,12 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Bindook** | **Melbourne Centre** | **129.800** | **ML-BIK_CTR** |
-| Wollongong† | Melbourne Centre | 125.000 | ML-WOL_CTR |
 | Gundagai† | Melbourne Centre | 128.400 | ML-GUN_CTR |
+| Katoomba† | Melbourne Centre | 133.500 | ML-KAT_CTR |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ### CPDLC
-
 The Primary Communication Method for BIK is Voice.
 
 [CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
@@ -31,32 +30,15 @@ The CPDLC Station Code is `YBIK`.
   <figcaption>Bindook Airspace</figcaption>
 </figure>
 
-BIK assumes responsibility of the airspace within 45nm of SY DME above `FL285`.  
-GUN assumes responsibility of the airspace within the lateral limits of the CB TCU above `FL245`, except for the region to the south west, which is assumed by ELW(BLA).
+BIK assumes responsibility of the airspace within 45nm of SY DME above `F285`.  
+GUN assumes responsibility of the airspace to the North-West of the CB TCU above `F245`.
 
 !!! note
-    BIK does not assume the CB TCU in the absence of a CB TCU controller. Assumption of the CB TCU is the responsibility of ELW(BLA). Controllers may choose to verbally coordinate the release of the CB TCU to either sector/subsector.
+    GUN does not assume the CB TCU in the absence of a CB TCU controller. Assumption of the CB TCU is the responsibility of WOL. Controllers may choose to verbally coordinate the release of the CB TCU to either sector/subsector.
 
 ### Reclassifications
 #### CB TCU
-When **CB TCU** is offline, CB TCU (Class C `SFC` to `A085`) reverts to Class G, and is administered by ELW(BLA).
-
-### Nowra Airspace Releases
-When **NW TCU** is online, R421 is activated and administered by the TCU controller from `SFC` to `F125`. 
-
-!!! tip
-    Display the lateral limits of the NW TCU by activating R421 in the Restricted Areas window.
-
-During times of high traffic, NW TCU may request the release of R420F up to `F300`.
-
-!!! example
-    <span class="hotline">**NW TCU** -> **WOL**</span>: "There's a preplanned military exercise about to commence, request release of R420F up to F300"  
-    <span class="hotline">**WOL** -> **NW TCU**</span>: "R420F released to you F125 to F300"  
-    <span class="hotline">**NW TCU** -> **WOL**</span>: "R420F released F125 to F300" 
-
-With R420F released to NW TCU, transiting aircraft will need to be coordinated or rerouted. Every effort will be made to accommodate these aircraft on track, but if NW TCU can't accommodate them, they must be vertically or laterally rerouted to avoid the restricted area. NW TCU will communicate this requirement.
-
-See [Nowra Airspace](../../terminal/nowra.md#airspace) for more details about the lateral boundaries of the Nowra restricted areas.
+When **CB TCU** is offline, CB TCU (Class C `SFC` to `A085`) reverts to Class G, and is administered by WOL.
 
 ## Sector Responsibilities
 ### Bindook (BIK)
@@ -65,9 +47,6 @@ BIK will provide final sequencing actions and descent into YSSY.
 For aircraft overflying the SY TMA, place *'O/FLY'* in the LABEL DATA field.
 
 Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway and STAR selection notes.
-
-### Wollongong (WOL)
-WOL is reponsible for issuing STAR clearances, initial descent, and sequencing actions for aircraft inbound to YSCB. WOL is also responsible for issuing STAR clearance to Non-jet aircraft for YSSY which depart from an aerodrome within the subsector.
     
 ### Gundagai (GUN)
 GUN is reponsible for issuing STAR clearances and initial descent for aircraft inbound to YSSY. 
@@ -75,6 +54,9 @@ GUN is reponsible for issuing STAR clearances and initial descent for aircraft i
 GUN is also responsible for initial sequencing actions into YSSY. Aircraft cruising above `F250` should be assigned *no lower* than `F250` and handed to BIK for further descent. Aircraft cruising below `F250` should be transferred to BIK at their cruise level.
 
 Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway and STAR selection notes.
+
+### Katoomba (KAT)
+KAT is responsible for issuing STAR Clearances for YSCB and YSSY.
 
 ### Sequencing into YSSY
 Sequencing arrivals from the west into YSSY is a joint responsibility of GUN and BIK. Initial sequencing actions should be performed by GUN, with fine tuning and any holding required issued by BIK.
@@ -105,18 +87,7 @@ Non-jet aircraft for YSSY shall be assigned the **ODALE** STAR.
 #### Adjacent Feeder Fixes
 Aircraft assigned the **same runway** inbound via **RIVET** and **ODALE**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
-### Sequencing into YSCB
-Aircraft assigned the **same runway** inbound via **LEECE** and **BUNGO**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
-
 ## STAR Clearance Expectation
-### Handoff
-Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
-
-| Transferring Sector | Receiving Sector | ADES | Notes |
-| ---- | -------- | --------- | --------- |
-| WOL | ELW(BLA) | YMML, YMAV | Jets only |
-| WOL | GUN | YSSY | |
-
 ### First Contact
 Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
 
@@ -139,20 +110,20 @@ Voiceless for all aircraft:
 - Tracking via **RIVET**, assigned `A100`; or  
 - Tracking via **ODALE**, assigned `A090`
 
-All other aircraft coming from BIK CTA must be **Heads-up** Coordinated to SY TCU prior to **20nm** from the boundary.
+All other aircraft coming from BIK/KAT CTA must be **Heads-up** Coordinated to SY TCU prior to **20nm** from the boundary.
 
 #### Departures
 Voiceless for all aircraft:
 
 - Assigned the lower of `F280` or the `RFL`; and
-- that enter BIK airspace via any of the *Green Shaded Corridors* below
+- that enter BIK/KAT airspace via any of the *Green Shaded Corridors* below
 
 <figure markdown>
 ![SY TCU Voiceless Coordination Corridors](../assets/sytcucoordgate.png){ width="700" }
   <figcaption>SY TCU Voiceless Coordination Corridors</figcaption>
 </figure>
 
-All other aircraft going to BIK CTA will be **Heads-up** Coordinated by SY TCU.
+All other aircraft going to BIK/KAT CTA will be **Heads-up** Coordinated by SY TCU.
 
 ### CB TCU
 #### Airspace
@@ -166,13 +137,13 @@ Refer to [Reclassifications](#cb-tcu) for operations when CB TCU is offline.
 Voiceless for all aircraft:
 
 - With ADES **YSCB**; and  
-- Assigned a STAR; and  
+- Assigned the **AVBEG** STAR; and  
 - Assigned `F130`
 
-All other aircraft coming from BIK CTA must be **Heads-up** Coordinated to CB TCU prior to **20nm** from the boundary.
+All other aircraft coming from GUN CTA must be **Heads-up** Coordinated to CB TCU prior to **20nm** from the boundary.
 
 !!! note
-    These coordination requirements apply to aircraft entering the CB TCU, even if the airspace is owned by ELW/BLA
+    These coordination requirements apply to aircraft entering the CB TCU, even if the airspace is owned by WOL
 
 #### Departures
 Voiceless for all aircraft:
@@ -180,46 +151,12 @@ Voiceless for all aircraft:
 - Tracking via **AVBEG**, **AKMIR**, or **CULIN**; and  
 - Assigned the lower of `F240` or the `RFL`
 
-All other aircraft going to BIK CTA will be **Heads-up** Coordinated by CB TCU.
-
-### NW TCU
-#### Airspace
-The vertical limits of the NW TCU are `SFC` to `F125`, and up to `F300` in R420F when activated.
-
-Refer to [Nowra Airspace Releases](#nowra-airspace-releases) for operations with R421 and/or R420F released.
-
-#### Arrivals/Overfliers
-Voiceless for all aircraft:
-
-- With ADES **YSNW**; and   
-- Tracking direct to the NWA TACAN or YSNW; and  
-- Assigned `F130`
-
-All other aircraft coming from BIK(WOL) CTA must be **Heads-up** Coordinated to NW TCU prior to **20nm** from the boundary.
-
-!!! note
-    With R420F released to NW TCU, the majority of aircraft tracking via the NWA TACAN will need to be heads up coordinated as per above.
-
-#### Departures
-Voiceless for all aircraft:
- 
-- Tracking via a published airway; and  
-- Assigned the lower of `F120` or the `RFL`
-
-All other aircraft going to BIK(WOL) CTA will be **Heads-up** Coordinated by NW TCU.
+All other aircraft going to GUN CTA will be **Heads-up** Coordinated by CB TCU.
 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-That being said, it is *advised* that BIK give **Heads-up Coordination** to the relevant sector, prior to **50nm** from the boundary, for **any aircraft not on the Q29 or V169 airways**. 
-
-#### TSN (Oceanic)
-As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
-
-Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
-
-!!! example
-    **BIK**: "QFA121, identification terminated, report position to Brisbane Radio, 124.65"
-
 ### BIK Internal
-Changes to the CFL are permitted up to the boundary for aircraft transiting BIK/GUN/WOL airspace internally. It is *advised* that BIK/WOL/GUN give **Heads-up Coordination** to the relevant sector, prior to **20nm** from the boundary, for **any aircraft not on the Q29, Y59, W113, or V169 airways**. 
+Changes to the CFL are permitted up to the boundary for aircraft transiting BIK/GUN airspace internally. It is *advised* that BIK/GUN give **Heads-up Coordination** to the relevant sector, prior to **20nm** from the boundary, for **any aircraft not on the Y59 or W113 airways**. 
+
+It is also advised that KAT give Heads-up Coordination to BIK/GUN for aircraft **not** planned via MAKKA, prior to **20nm** from boundary.

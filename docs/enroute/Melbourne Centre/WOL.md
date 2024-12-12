@@ -60,6 +60,9 @@ WOL is reponsible for issuing STAR clearances, initial descent, and sequencing a
 ### Snowy (SNO)
 SNO is reponsible for issuing STAR clearances and initial descent for aircraft bound for YSCB.
 
+### Sequencing into YSCB
+Aircraft assigned the **same runway** inbound via **LEECE** and **BUNGO**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
+
 ## STAR Clearance Expectation
 ### Handoff
 Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
@@ -67,12 +70,9 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
 | WOL | ELW(BLA) | YMML, YMAV | Jets only |
-| WOL | GUN | YSSY | |
+| WOL | BIK(GUN) | YSSY | |
 | SNO | HUO(WON) | YMML | 
 | SNO | HUO | YMHB | |
-
-### First Contact
-No STAR Clearances are issued on first contact by WOL or SNO.
 
 ## Coordination
 ### SY TCU
@@ -158,5 +158,3 @@ Aircraft must have their identification terminated and be instructed to make a p
 
 ### WOL Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
-
-That being said, it is *advised* that WOL/SNO give **Heads-up Coordination** to the relevant sector, prior to **20nm** from the boundary, for **any aircraft not on the Q29 or V169 airways**. 

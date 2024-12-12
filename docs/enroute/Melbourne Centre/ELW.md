@@ -81,7 +81,7 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
 | YWE(OXL,GTH) | BLA | YSCB | |
-| BIK(WOL) | BLA | YMML, YMAV | Jets Only |
+| WOL | BLA | YMML, YMAV | Jets Only |
 | ELW | BLA | YSCB | |
 | BLA | ELW | YMML | Non-Jets only |
 
@@ -142,8 +142,8 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 That being said, it is *advised* that ELW give **Heads-up Coordination** prior to **50nm** from the boundary in the following scenarios:  
 - BLA to BIK(GUN) for aircraft **not** on the Y59 or W817 airway*  
-- ELW to YWE and WON for all aircraft  
-- BLA to YWE(All) and BIK(WOL) for all aircraft  
+- ELW to YWE and HUO(WON) for all aircraft  
+- BLA to YWE(OXL/GTH) and WOL for all aircraft  
 
 !!! tip
     **BLA** should aim to handoff aircraft as soon as possible to **GUN**, so they can issue STAR clearance and commence sequencing. Remember, As per [Standard coordination procedures](../../../controller-skills/coordination/#handoffs), the Receiving sector may turn the aircraft 45° left or right and climb/descend to any level. So if required, nominate a restriction.

@@ -68,13 +68,11 @@ INL is responsible for initial sequencing, issuing STAR Clearances, and issuing 
 ### Downs (DOS) / Straddy (SDY)
 DOS and SDY are responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YBBN and YBCG.
 ### Burnett (BUR)
-BUR is responsible for final sequencing, issuing descent, and issuing STAR Clearances for Non-jets bound for YBBN and YBCG.
+BUR is responsible for final sequencing, issuing descent, and issuing STAR Clearances (for Non-jets) bound for YBBN and YBCG.
 ### Gold Coast (GOL)
 GOL is responsible for final sequencing for aircraft bound for YBBN, YBCG, and issuing of STAR Clearances and descent for YBSU.
 ### Noosa (NSA)
 NSA is responsible for facilitating YBSU traffic, including operating the Class C airspace `A045` and above.
-### Keppel (KPL)
-KPL is responsible for issuing STAR Clearances (Jets only) and initial descent for aircraft bound for YBSU, YBBN and YBCG.
 
 ### Sequencing in to YBBN
 Aircraft assigned the **same runway** inbound via:  
