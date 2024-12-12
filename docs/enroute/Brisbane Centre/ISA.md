@@ -12,12 +12,10 @@
 | Arafura† | Brisbane Centre | 133.700 | BN-ARA_CTR |
 | Sturt† | Brisbane Centre | 134.400 | BN-STR_CTR |
 | Warrego† | Brisbane Centre | 132.450 | BN-WEG_CTR |
-| Carnarvon† | Brisbane Centre | 133.800 | BN-CVN_CTR |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ### CPDLC
-
 The Primary Communication Method for ISA is [CPDLC](../../../client/cpdlc).
 
 The CPDLC Station Code is `YISA`.
@@ -31,7 +29,7 @@ Voice may be used in lieu when applicable.
   <figcaption>Mt Isa Airspace</figcaption>
 </figure>
 
-ISA is responsible for **ARA**, **STR**, **WEG**, and **CVN** when they are offline.  
+ISA is responsible for **ARA**, **STR**, and **WEG** when they are offline.  
 
 ## Extending
 !!! Warning
@@ -47,8 +45,6 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| CVN | INL(KPL) | YBBN, YBCG | Jets only |
-| CVN | INL(DOS) | YBBN | |
 | ARA | TRT | YPDN | |
 | ARA, ISA | KEN(BAR, KEN) | YBCS | |
 | ISA | KEN(TBP) | YBTL | |
@@ -77,14 +73,6 @@ SG ADC owns the Class C airspace within the SG CTR from `SFC` to `A015`.
 
 ### ISA Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
-
-### TSN(COL) (Oceanic)
-As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
-
-Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
-
-!!! example
-    **ISA**: "QFA121, identification terminated, report position to Brisbane Radio, 126.45"
 
 ### International (AYPM)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.

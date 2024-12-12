@@ -1,5 +1,5 @@
 ---
-  title: Yarrowee (YWE)
+  title: Mungo (MUN)
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -7,28 +7,27 @@
 
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
-| **Yarrowee** | **Melbourne Centre** | **134.325** | **ML-YWE_CTR** |
-| Mungo† | Melbourne Centre | 132.600 | ML-MUN_CTR |
+| **Mungo** | **Melbourne Centre** | **132.600** | **ML-MUN_CTR** |
+| Yarrowee† | Melbourne Centre | 134.325 | ML-YWE_CTR |
 | Oxley† | Melbourne Centre | 128.500 | ML-OXL_CTR |
 | Griffith† | Melbourne Centre | 122.750 | ML-GTH_CTR |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ### CPDLC
-
-The Primary Communication Method for YWE is Voice.
+The Primary Communication Method for MUN is Voice.
 
 [CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
 
-The CPDLC Station Code is `YYWE`.
+The CPDLC Station Code is `YMUN`.
 
 !!! tip
-    Even though YWE's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+    Even though MUN's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
 ## Airspace
 
 <figure markdown>
-![Yarrowee Airspace](../assets/ywe.png){ width="700" }
+![Mungo Airspace](../assets/ywe.png){ width="700" }
   <figcaption>Yarrowee Airspace</figcaption>
 </figure>
 
@@ -100,7 +99,7 @@ All other aircraft going to YWE CTA will be **Heads-up** Coordinated by ML TCU.
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** prior to **50nm** from the boundary in the following scenarios:  
+That being said, it is *advised* that MUN(All) gives **Heads-up Coordination** prior to **50nm** from the boundary in the following scenarios:  
 - YWE to ELW/BLA for all aircraft  
 - GTH to ELW(BLA) for all aircraft  
 - YWE to HUO(WON) for all aircraft  
@@ -108,9 +107,9 @@ That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** p
 !!! tip
     **MUN** should aim to handoff aircraft as soon as possible to **TBD**, so they can issue STAR clearance and commence sequencing. Remember, As per [Standard coordination procedures](../../../controller-skills/coordination/#handoffs), the Receiving sector may turn the aircraft 45° left or right and climb/descend to any level. So if required, nominate a restriction.
 
-### YWE Internal
+### MUN Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-That being said, it is *advised* that YWE(All) gives **Heads-up Coordination** prior to **50nm** in the following scenarios:  
+That being said, it is *advised* that MUN(All) gives **Heads-up Coordination** prior to **50nm** in the following scenarios:  
 - MUN to YWE for aircraft **not** on the Y12 or H119 airway (Changes permitted up to boundary for sequencing/descent purposes)  
 - OXL to YWE for aircraft **not** tracking via CANTY (Changes permitted up to boundary for sequencing/descent purposes)  

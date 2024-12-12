@@ -1,5 +1,5 @@
 ---
-  title: Pingelly (PIY)
+  title: Hyden (HYD)
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -7,9 +7,9 @@
 
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
-| **Pingelly** | Melbourne Centre | 133.900 | ML-PIY_CTR |
+| **Hyden** | **Melbourne Centre** | **118.200** | **ML-HYD_CTR** |
+| Pingelly† | Melbourne Centre | 133.900 | ML-PIY_CTR |
 | Cross† | Melbourne Centre | 135.800 | ML-CRS_CTR |
-| Hyden† | Melbourne Centre | 118.200 | ML-HYD_CTR |
 | Jarrah† | Melbourne Centre | 120.300 | ML-JAR_CTR |
 | Leeman† | Melbourne Centre | 122.400 | ML-LEA_CTR |
 | Grove† | Melbourne Centre | 133.800 | ML-GVE_CTR |
@@ -18,19 +18,18 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ### CPDLC
-
-The Primary Communication Method for PIY is Voice.
+The Primary Communication Method for HYD is Voice.
 
 [CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
 
-The CPDLC Station Code is `YPIY`.
+The CPDLC Station Code is `YHYD`.
 
 !!! tip
-    Even though PIY's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+    Even though HYD's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
 ## Airspace
 <figure markdown>
-![Pingelly Airspace](../assets/piy.png){ width="700" }
+![Hyden Airspace](../assets/piy.png){ width="700" }
   <figcaption>Pingelly Airspace</figcaption>
 </figure>
 
@@ -146,12 +145,12 @@ All other aircraft going to PIY CTA will be **Heads-up** Coordinated by PH TCU.
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-### PIY Internal
+### HYD Internal
 Changes to CFL are permitted up to the boundary from GVE, CRS and HYD to PIY.
 
 All else is Voiceless, no changes to route or CFL within **20nm** to boundary.
 
-That being said, it is *advised* that PIY(All) gives **Heads-up Coordination** prior to **20nm** in the following scenarios:  
+That being said, it is *advised* that HYD(All) gives **Heads-up Coordination** prior to **20nm** in the following scenarios:  
 - JAR to PIY for all aircraft  
 - LEA to PIY for all aircraft  
 
@@ -161,4 +160,4 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
 
 !!! example
-    **PIY**: "QFA121, identification terminated, report position to Brisbane Radio, 129.25"
+    **LEA**: "QFA121, identification terminated, report position to Brisbane Radio, 129.25"

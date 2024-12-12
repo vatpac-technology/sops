@@ -1,5 +1,5 @@
 ---
-  title: Bindook (BIK)
+  title: Gundagai (GUN)
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -7,26 +7,26 @@
 
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
-| **Bindook** | **Melbourne Centre** | **129.800** | **ML-BIK_CTR** |
-| Gundagai† | Melbourne Centre | 128.400 | ML-GUN_CTR |
+| **Gundagai** | **Melbourne Centre** | **128.400** | **ML-GUN_CTR** |
+| Bindook† | Melbourne Centre | 129.800 | ML-BIK_CTR |
 | Katoomba† | Melbourne Centre | 133.500 | ML-KAT_CTR |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ### CPDLC
-The Primary Communication Method for BIK is Voice.
+The Primary Communication Method for GUN is Voice.
 
 [CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
 
-The CPDLC Station Code is `YBIK`.
+The CPDLC Station Code is `YGUN`.
 
 !!! tip
-    Even though BIK's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+    Even though GUN's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
 ## Airspace
 
 <figure markdown>
-![Bindook Airspace](../assets/bik.png){ width="700" }
+![Gundagai Airspace](../assets/bik.png){ width="700" }
   <figcaption>Bindook Airspace</figcaption>
 </figure>
 
@@ -64,9 +64,9 @@ Sequencing arrivals from the west into YSSY is a joint responsibility of GUN and
 Aircraft from the south/west shall be assigned **runway 16R/34L** during PROPS. However, some situations may warrant the use of the alternate runway (16L/34R), such as heavy aircraft operationally requiring the longer runway from the north or large volumes of traffic requiring the use of both runways to minimise delay. In this case, coordination must be conducted with Brisbane Centre or Sydney Flow (if operating) to ensure that the sequence is built in an efficient and orderly way.
 
 !!! example
-    <span class="hotline">**BIK** -> **ARL**</span>: "Southwest of Sydney, VOZ421, with your concurrence will be assigned runway 34R for sequencing"  
-    <span class="hotline">**ARL** -> **BIK**</span>: "Concur, VOZ421 runway 34R, required landing time 22 due sequence from the north"  
-    <span class="hotline">**BIK** -> **ARL**</span>: "Runway 34R, landing time 22, VOZ421"
+    <span class="hotline">**GUN** -> **ARL**</span>: "Southwest of Sydney, VOZ421, with your concurrence will be assigned runway 34R for sequencing"  
+    <span class="hotline">**ARL** -> **GUN**</span>: "Concur, VOZ421 runway 34R, required landing time 22 due sequence from the north"  
+    <span class="hotline">**GUN** -> **ARL**</span>: "Runway 34R, landing time 22, VOZ421"
 
 Jet aircraft for YSSY shall be assigned the **RIVET** STAR.  
 Non-jet aircraft for YSSY shall be assigned the **ODALE** STAR.
@@ -74,14 +74,14 @@ Non-jet aircraft for YSSY shall be assigned the **ODALE** STAR.
 !!! tip
     Whilst the preference is to keep jet/non-jet aircraft assigned the default STAR as above, there are situations where the sequence may be improved by assigning the adjacent STAR (e.g. a non-jet assigned the RIVET STAR). This is most common when assigning the alternate runway to an arrival.   
     
-    Either **SY TCU** or **BIK** may propose utilising the adjacent STAR where two aircraft with significantly different cruise/descent speeds will be required to overtake or pass abeam each other to achieve a sequenced landing time, or if assigned different runways. This technique can allow aircraft to be processed for different runways independently with minimal delay by using the built-in separation afforded by the STAR height requirements.  
+    Either **SY TCU** or **GUN** may propose utilising the adjacent STAR where two aircraft with significantly different cruise/descent speeds will be required to overtake or pass abeam each other to achieve a sequenced landing time, or if assigned different runways. This technique can allow aircraft to be processed for different runways independently with minimal delay by using the built-in separation afforded by the STAR height requirements.  
 
     In this case, coordination should be conducted to ensure that both controllers agree and no additional conflicts are created as a result (particularly with aircraft inbound from the north/east).
 
 !!! example
-    **BIK:** "JST421, amended tracking and STAR available"  
+    **GUN:** "JST421, amended tracking and STAR available"  
     **JST421:** "JST421, go ahead"  
-    **BIK:** "JST421, recleared direct AKMIR thence WELSH, ODALE, for the ODALE7 arrival, runway 34R, maintain FL350"  
+    **GUN:** "JST421, recleared direct AKMIR thence WELSH, ODALE, for the ODALE7 arrival, runway 34R, maintain FL350"  
     **JST421:** "Recleared direct AKMIR, WELSH, ODALE, for the ODALE7 arrival, runway 34R, maintain FL350, JST421"
 
 #### Adjacent Feeder Fixes
@@ -156,7 +156,7 @@ All other aircraft going to GUN CTA will be **Heads-up** Coordinated by CB TCU.
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-### BIK Internal
+### GUN Internal
 Changes to the CFL are permitted up to the boundary for aircraft transiting BIK/GUN airspace internally. It is *advised* that BIK/GUN give **Heads-up Coordination** to the relevant sector, prior to **20nm** from the boundary, for **any aircraft not on the Y59 or W113 airways**. 
 
 It is also advised that KAT give Heads-up Coordination to BIK/GUN for aircraft **not** planned via MAKKA, prior to **20nm** from boundary.

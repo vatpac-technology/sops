@@ -1,5 +1,5 @@
 ---
-  title: Eildon Weir (ELW)
+  title: Benalla (BLA)
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -7,25 +7,25 @@
 
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
-| **Eildon Weir** | **Melbourne Centre** | **123.750** | **ML-ELW_CTR** |
-| Benalla† | Melbourne Centre | 132.200 | ML-BLA_CTR |
+| **Benalla** | **Melbourne Centre** | **132.200** | **ML-BLA_CTR** |
+| Eildon Weir† | Melbourne Centre | 123.750 | ML-ELW_CTR |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ### CPDLC
-The Primary Communication Method for ELW is Voice.
+The Primary Communication Method for BLA is Voice.
 
 [CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
 
-The CPDLC Station Code is `YELW`.
+The CPDLC Station Code is `YBLA`.
 
 !!! tip
-    Even though ELW's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+    Even though BLA's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
 ## Airspace
 
 <figure markdown>
-![Eildon Weir Airspace](../assets/elw.png){ width="700" }
+![Benalla Airspace](../assets/elw.png){ width="700" }
   <figcaption>Eildon Weir Airspace</figcaption>
 </figure>
 
@@ -140,7 +140,7 @@ All other aircraft going to ELW CTA will be **Heads-up** Coordinated by ML TCU.
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-That being said, it is *advised* that ELW give **Heads-up Coordination** prior to **50nm** from the boundary in the following scenarios:  
+That being said, it is *advised* that BLA give **Heads-up Coordination** prior to **50nm** from the boundary in the following scenarios:  
 - BLA to BIK(GUN) for aircraft **not** on the Y59 or W817 airway*  
 - ELW to YWE and HUO(WON) for all aircraft  
 - BLA to YWE(OXL/GTH) and WOL for all aircraft  
@@ -148,7 +148,7 @@ That being said, it is *advised* that ELW give **Heads-up Coordination** prior t
 !!! tip
     **BLA** should aim to handoff aircraft as soon as possible to **GUN**, so they can issue STAR clearance and commence sequencing. Remember, As per [Standard coordination procedures](../../../controller-skills/coordination/#handoffs), the Receiving sector may turn the aircraft 45° left or right and climb/descend to any level. So if required, nominate a restriction.
 
-### ELW Internal
+### BLA Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
 That being said, it is *advised* that ELW/BLA give **Heads-up Coordination** prior to **20nm** from the boundary in the following scenarios:  

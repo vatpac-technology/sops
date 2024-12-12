@@ -106,7 +106,6 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | ISA | TBP | YBTL | |
 | WIL | BAR | YBCS | |
 | ARA/ISA | BAR, KEN | YBCS | |
-| TBP | KPL(SWY) | YBRK, YBMK | |
 | KPL(SWY) | TBP | YBCS | |
 | BAR | KEN | YBTL | |
 | TSN(All) | KEN(All) | YBCS, YBTL | |
@@ -177,3 +176,6 @@ Aircraft must have their identification terminated and be instructed to make a p
 
 !!! example
     **ISA**: "QFA121, identification terminated, report position to Brisbane Radio, 126.45"
+
+### International (AYPM)
+As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.

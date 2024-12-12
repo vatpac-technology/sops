@@ -13,12 +13,10 @@
 | Straddy† | Brisbane Centre | 134.300 | BN-SDY_CTR |
 | Burnett† | Brisbane Centre | 123.000 | BN-BUR_CTR |
 | Noosa† | Brisbane Centre | 124.100 | BN-NSA_CTR |
-| Keppel† | Brisbane Centre | 125.900 | BN-KPL_CTR |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ### CPDLC
-
 The Primary Communication Method for INL is Voice.
 
 [CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
@@ -28,7 +26,6 @@ The CPDLC Station Code is `YINL`.
 !!! tip
     Even though INL's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
-
 ## Airspace
 
 <figure markdown>
@@ -37,8 +34,7 @@ The CPDLC Station Code is `YINL`.
 </figure>
 
 GOL is responsible for the [BN TCU](../../../terminal/brisbane) when **BN TCU** is offline.  
-KPL is responsible for the [RK TCU](../../../terminal/coral) when **RKA** is offline.  
-INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, **NSA**, and **KPL** when they are offline.  
+INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, and **NSA** when they are offline.  
 
 ### Reclassifications
 #### SU CTR
@@ -55,22 +51,19 @@ Due to the low ceiling of CTA, when CFS ADC is offline, INL shall instruct aircr
 !!! tip
     If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
 
-#### RK CTR
-Whilst the **RKA** controller is expected to provide a [top-down service](../../../aerodromes/Rockhampton) to YBRK when **RK ADC** is offline, this is not expected of a KPL controller when both **RKA** and **RK ADC** are offline. If electing not to provide a top-down service to YBRK, the RK CTR Class D is reclassified to Class G `SFC` to `A007`, and Class E `A007` to `A045`.
-
-!!! tip
-    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
-
 ## Sector Responsibilities
-
 ### Inverell (INL)
 INL is responsible for initial sequencing, issuing STAR Clearances, and issuing initial descent for aircraft bound for YBBN and YBCG.
+
 ### Downs (DOS) / Straddy (SDY)
 DOS and SDY are responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YBBN and YBCG.
+
 ### Burnett (BUR)
 BUR is responsible for final sequencing, issuing descent, and issuing STAR Clearances (for Non-jets) bound for YBBN and YBCG.
+
 ### Gold Coast (GOL)
 GOL is responsible for final sequencing for aircraft bound for YBBN, YBCG, and issuing of STAR Clearances and descent for YBSU.
+
 ### Noosa (NSA)
 NSA is responsible for facilitating YBSU traffic, including operating the Class C airspace `A045` and above.
 
@@ -90,9 +83,7 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | ---- | -------- | --------- | --------- |
 | INL | ARL | YSSY | |
 | INL | GOL | YBSU | |
-| KPL | BUR | YBBN, YBCG | Non-jets only |
 | NSA | KPL | YBRK, YBMK | |
-| KPL | KEN(SWY) | YBTL | |
 
 ### First Contact
 Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
@@ -100,8 +91,7 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
 | ARL/MNN/MDE | INL, DOS | YBBN, YBCG | |
-| KEN(SWY), ISA(CVN) | KPL | YBBN, YBCG | Jets only |
-| ISA(CVN) | DOS | YBBN, YBCG | |
+| KPL(CVN) | DOS | YBBN, YBCG | |
 | TSN(All) | SDY | YBBN, YBCG, YBSU | |
 | KPL | BUR | YBBN, YBCG | Non-jets only |
 | INL | GOL | YBSU | |
@@ -214,29 +204,6 @@ YBSU arrivals shall be coordinated to **SU ADC** from NSA prior to **5 mins** fr
     <span class="hotline">**SU ADC** -> **NSA**</span>: "JST731"
 
 The Standard Assignable level from NSA to **SU ADC** is `A060`, any other level must be prior coordinated.
-
-### RKA
-#### Airspace
-RKA is responsible for the airspace within the 'RK keyhole' `SFC` to `F150`.
-
-Refer to [Reclassifications](#rk-ctr) for operations when RKA is offline.
-
-#### Arrivals/Overfliers
-Voiceless for all aircraft:
-
-- With ADES **YBRK**; and  
-- Assigned the **ABVAS** or **DADBO** STAR; and  
-- Assigned `A090`
-
-All other aircraft coming from KPL CTA must be **Heads-up** Coordinated to RKA prior to **20nm** from the boundary.
-
-#### Departures
-Voiceless for all aircraft:
-
-- Tracking via **BUDGI** or **TARES**; and  
-- Assigned the lower of `F150` or the `RFL`
-
-All other aircraft going to KPL CTA will be **Heads-up** Coordinated by RKA.
 
 ### CFS ADC
 #### Airspace
