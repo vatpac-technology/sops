@@ -9,12 +9,10 @@
 | ---- | -------- | --------- | -------- |
 | **Eildon Weir** | **Melbourne Centre** | **123.750** | **ML-ELW_CTR** |
 | Benalla† | Melbourne Centre | 132.200 | ML-BLA_CTR |
-| Snowy† | Melbourne Centre | 124.000 | ML-SNO_CTR |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ### CPDLC
-
 The Primary Communication Method for ELW is Voice.
 
 [CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
@@ -33,10 +31,10 @@ The CPDLC Station Code is `YELW`.
 
 ### Reclassifications
 #### CB CTR
-When **CB TCU** is offline, CB TCU (Class C `SFC` to `A085`) reverts to Class G, and is administered by BLA. Alternatively, BLA may provide a [top-down approach service](../../../terminal/canberra) if they wish.
+When **CB TCU** is offline, CB TCU (Class C `SFC` to `A085`) reverts to Class G, and is administered by WOL.
 
-!!! tip
-    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+!!! note
+    BLA does not assume the CB TCU in the absence of a CB TCU controller. Assumption of the CB TCU is the responsibility of WOL. Controllers may choose to verbally coordinate the release of the CB TCU to either sector/subsector.
 
 #### AY CTR
 When **AY ADC** is offline, AY CTR (Class D and C `SFC` to `A085`) reverts to Class G, and is administered by BLA. Alternatively, BLA may provide a [top-down procedural service](../../../aerodromes/Albury) if they wish.
@@ -47,6 +45,7 @@ When **AY ADC** is offline, AY CTR (Class D and C `SFC` to `A085`) reverts to Cl
 ## Sector Responsibilities
 ### Eildon Weir (ELW)
 ELW is responsible for the final sequencing actions in to YMML, and issuing STAR clearances to Non-jets bound for YMML and YMAV.
+
 ### Benalla (BLA)
 BLA is reponsible for issuing STAR clearances and initial descent for aircraft bound for YMML (Jets only), YMAV (Jets only), and YSCB. BLA is also responsible for sequencing in to YSCB, and initial sequencing in to YMML.
 
@@ -63,9 +62,6 @@ When Runway 35 is in use at YSCB, by default, vatSys will select the POLLI STAR 
   <figcaption>POLLI STAR with EBONY transition</figcaption>
 </figure>
 
-### Snowy (SNO)
-SNO is reponsible for issuing STAR clearances and initial descent for aircraft bound for YSCB.
-
 ### Sequencing in to YMML
 Aircraft assigned the **same runway** inbound via **LIZZI** and **BOYSE**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
@@ -77,9 +73,7 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | ---- | -------- | --------- | --------- |
 | BLA | BIK(GUN) | YSSY | |
 | ELW | BLA | YSCB | |
-| SNO | HUO | YMHB | |
 | BLA | ELW | YMML | Non-Jets only |
-| SNO | YWE(WON) | YMML | |
 
 ### First Contact
 Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
@@ -108,6 +102,9 @@ Voiceless for all aircraft:
 - Assigned `F130`
 
 All other aircraft coming from BLA CTA must be **Heads-up** Coordinated to CB TCU prior to **20nm** from the boundary.
+
+!!! note
+    These coordination requirements apply to aircraft entering the CB TCU, even if the airspace is owned by WOL
 
 #### Departures
 Voiceless for all aircraft:
@@ -147,7 +144,6 @@ That being said, it is *advised* that ELW give **Heads-up Coordination** prior t
 - BLA to BIK(GUN) for aircraft **not** on the Y59 or W817 airway*  
 - ELW to YWE and WON for all aircraft  
 - BLA to YWE(All) and BIK(WOL) for all aircraft  
-- SNO to BIK(WOL) for all aircraft
 
 !!! tip
     **BLA** should aim to handoff aircraft as soon as possible to **GUN**, so they can issue STAR clearance and commence sequencing. Remember, As per [Standard coordination procedures](../../../controller-skills/coordination/#handoffs), the Receiving sector may turn the aircraft 45° left or right and climb/descend to any level. So if required, nominate a restriction.
@@ -155,10 +151,9 @@ That being said, it is *advised* that ELW give **Heads-up Coordination** prior t
 ### ELW Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
 
-That being said, it is *advised* that ELW/BLA/SNO give **Heads-up Coordination** prior to **20nm** from the boundary in the following scenarios:  
+That being said, it is *advised* that ELW/BLA give **Heads-up Coordination** prior to **20nm** from the boundary in the following scenarios:  
 - ELW to BLA for aircraft **not** on the Y59, H66, or W569 airway (Changes permitted up to boundary for sequencing/descent purposes)  
 - BLA to ELW for aircraft **not** on the Q29 or V169 airway (Changes permitted up to boundary for sequencing/descent purposes)  
-- SNO to BLA for all aircraft
 
 ### ES TCU
 Reserved.
@@ -187,11 +182,3 @@ YMAY arrivals shall be heads-up coordinated to **AY ADC** from BLA prior to **5 
     <span class="hotline">**AY ADC** -> **BLA**</span>: "QLK38, VEGRU1 arrival" 
 
 The Standard Assignable level from BLA to **AY ADC** is `A080`.
-
-### TSN (Oceanic)
-As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
-
-Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
-
-!!! example
-    **ELW**: "QFA121, identification terminated, report position to Brisbane Radio, 124.65"
