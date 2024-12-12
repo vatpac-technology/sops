@@ -55,11 +55,13 @@ Some Restricted Areas will be activated by NOTAM, most commonly for use by RAAF 
 </figure>
 
 ### Aircraft operating inside Restricted Area
-Military aircraft are permitted to operate within their designated Restricted Area as per the relevant NOTAM. Even if this Restricted Area is inside your airspace, you have no control authority over it.
+Military aircraft are permitted to operate within their designated Restricted Area as per the relevant NOTAM. Even if this Restricted Area is inside your airspace, you have no control authority over it. If a AWEC aircraft is up and certified, you transfer all traffic to that aircraft. The AWEC aircraft will control up to the lateral boundries of the restricted airspace. AWEC aircraft will hand off departing traffic back to your control authority at 10NMs from the boundary.
 
 !!! example
     **ARA**: "DRGN379, shortly entering R604 Restricted Area, identification and control services terminated, frequency change approved. Contact me prior to leaving for airways clearance"  
     **DRGN379**: "Wilco, DRGN379"
+    **ARA**: "ASY101, shortly entering M550 Restricted Area, contact WGTL47 on 130.500, frequency change approved"
+    **ASY1101**: "Wilco, ASY101"
 
 ### ATC Activated Military Airspace
 Most Military TCUs and Tower positions, when online, control airspace that correspond to certain Restricted Area Activations. These are prescribed in the Local Instructions.
@@ -69,10 +71,33 @@ These Restricted Areas may be activated in vatSys, and the controllers of these 
 Unless otherwise stated in Local Instructions, Restricted Areas activated for control by Military TCUs and Towers, will become **Class C** airspace.
 
 ## Formation Flights
-Reserved.
+A standard military formation consits of a proximity of no more than 1 mile laterally or longitudinally and within 100 feet vertically from the flight leader is maintained by each wingman. As such you treat both aircraft as one and ensure only the leader is on mode C. Futhermore per FIHA, Military AIrcraft are given discrete sqwaks in the 5000's and 6000's.
+
+!!! example
+    **VIPR11**: "Viper Flight Checking in"
+    **ARA**: "Viper flight, sqawk 5000, confirm flight lead is mode C" 
 
 ## Military Authority Assumes Responsibility for Separation of Military Aircraft (MARSA)
-Reserved.
+MARSA is a procedure which authorises pilots of military aircraft to assume
+responsibility for separation between their aircraft and other nominated military aircraft (or military contract
+civil aircraft) within Australian controlled airspace. 
+
+MARSA is to be asssigned and terminated on pilots request and or when standard seperation has been apllied.
+
+!!! example
+    **MAPL01**: "Request MARSA"
+    **DRGN50**: "Request MARSA"
+    **ARA**: "Mantain Block FL270-290, MARSA MAPL01"
+    **ARA**: "Mantain Block FL270-290, MARSA DRGN50"
+    **MAPL01**: "Request MARSA Seperation"
+    **ARA**: "MAPL01 Climb FL330, MARSA Terminated"
+    **ARA**: "DRGN50 Climb FL310, MARSA Terminated"
 
 ## NOCOM Operations
-Reserved.
+NOCOM Procedures are when Military Aircraft are not making rountine radio traffic to Civil ATC. NOCOM Procedures state that ATC Approavl is required when Military Aircraft are in controlled airspace. Military Aircraft under NOCOM procedures fall under multiple categories:
+Flights on "Area Freq" when OCTA
+Flights that are "Radio Silent"
+Flights that are in SUA
+Flights that are on nominated route segments, except for short position reports when possible.
+
+Note: Military aircraft normally operate NOCOM in military Restricted Areas and Class G airspace only
