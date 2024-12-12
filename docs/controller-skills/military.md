@@ -55,7 +55,9 @@ Some Restricted Areas will be activated by NOTAM, most commonly for use by RAAF 
 </figure>
 
 ### Aircraft operating inside Restricted Area
-Military aircraft are permitted to operate within their designated Restricted Area as per the relevant NOTAM. Even if this Restricted Area is inside your airspace, you have no control authority over it. If a AWEC aircraft is up and certified, you transfer all traffic to that aircraft. The AWEC aircraft will control up to the lateral boundries of the restricted airspace. AWEC aircraft will hand off departing traffic back to your control authority at 10NMs from the boundary.
+Military aircraft are permitted to operate within their designated Restricted Area as per the relevant NOTAM. Even if this Restricted Area is inside your airspace, you have no control authority over it. If an AWEC aircraft is up and certified, you transfer all traffic to that aircraft. The AWEC aircraft will control up to the lateral boundries of the restricted airspace. AWEC aircraft will hand off departing traffic back to your control authority at 10NMs from the boundary.
+
+Airborne Early Warning & Control aircraft (AWEC) controls the tactical airspace, providing and supporting intellegence to fighter aircraft, supporting aircraft, surface combatants and land-based elements.
 
 !!! example
     **ARA**: "DRGN379, shortly entering R604 Restricted Area, identification and control services terminated, frequency change approved. Contact me prior to leaving for airways clearance"  
@@ -71,11 +73,13 @@ These Restricted Areas may be activated in vatSys, and the controllers of these 
 Unless otherwise stated in Local Instructions, Restricted Areas activated for control by Military TCUs and Towers, will become **Class C** airspace.
 
 ## Formation Flights
-A standard military formation consits of a proximity of no more than 1 mile laterally or longitudinally and within 100 feet vertically from the flight leader is maintained by each wingman. As such you treat both aircraft as one and ensure only the leader is on mode C. Futhermore per FIHA, Military AIrcraft are given discrete sqwaks in the 5000's and 6000's.
+A standard military formation consits of a proximity of no more than 1 mile laterally or longitudinally and within 100 feet vertically from the flight leader is maintained by each wingman. As such you treat both aircraft as one and ensure only the leader is on mode C. Futhermore per FIHA (Flight Information Handbook Australia), Military AIrcraft are given discrete sqwaks in the 5000's and 6000's.
 
+!!! note
+  RAAF FIHA AD2 Sup and Termas can be found here (https://ais-af.airforce.gov.au/australian-aip)
 !!! example
-    **VIPR11**: "Viper Flight Checking in"
-    **ARA**: "Viper flight, sqawk 5000, confirm flight lead is mode C" 
+    **VIPR**: "VIPER, Checking in"
+    **ARA**:  "VIPER, squawk 5000, confirm flight lead is mode C" 
 
 ## Military Authority Assumes Responsibility for Separation of Military Aircraft (MARSA)
 MARSA is a procedure which authorises pilots of military aircraft to assume
@@ -89,12 +93,12 @@ MARSA is to be asssigned and terminated on pilots request and or when standard s
     **DRGN50**: "Request MARSA"
     **ARA**: "Mantain Block FL270-290, MARSA MAPL01"
     **ARA**: "Mantain Block FL270-290, MARSA DRGN50"
-    **MAPL01**: "Request MARSA Seperation"
-    **ARA**: "MAPL01 Climb FL330, MARSA Terminated"
-    **ARA**: "DRGN50 Climb FL310, MARSA Terminated"
+    **MAPL01**: "Request descent to F260 and termination of MARSA"
+    **ARA**: "MAPL01, Descend to F260, MARSA DRGN50"
+    **ARA**: "MAPL01 and DRGN50, MARSA terminated"
 
 ## NOCOM Operations
-NOCOM Procedures are when Military Aircraft are not making rountine radio traffic to Civil ATC. NOCOM Procedures state that ATC Approavl is required when Military Aircraft are in controlled airspace. Military Aircraft under NOCOM procedures fall under multiple categories:
+NOCOM Procedures are when Military Aircraft are not making routine radio traffic to Civil ATC. NOCOM Procedures state that ATC Approval is required when Military Aircraft are in controlled airspace. Military Aircraft under NOCOM procedures fall under multiple categories:
 Flights on "Area Freq" when OCTA
 Flights that are "Radio Silent"
 Flights that are in SUA
