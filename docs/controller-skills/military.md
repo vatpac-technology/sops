@@ -73,13 +73,24 @@ These Restricted Areas may be activated in vatSys, and the controllers of these 
 Unless otherwise stated in Local Instructions, Restricted Areas activated for control by Military TCUs and Towers, will become **Class C** airspace.
 
 ## Formation Flights
-A standard military formation consits of a proximity of no more than 1 mile laterally or longitudinally and within 100 feet vertically from the flight leader is maintained by each wingman. As such you treat both aircraft as one and ensure only the leader is on mode C. Futhermore per FIHA (Flight Information Handbook Australia), Military AIrcraft are given discrete sqwaks in the 5000's and 6000's.
+### Standard Formation
+A **Standard formation** is defined by more than one aircraft, separated by no more than **1nm** laterally/longitudinally, and no more than **100 feet** vertically, from the lead aircraft. All aircraft in the formation are treated as *one*. Ensure only the leader is squawking Mode C.
 
 !!! note
-  RAAF FIHA AD2 Sup and Termas can be found here (https://ais-af.airforce.gov.au/australian-aip)
+  RAAF FIHA AD2 Supps and TERMAs can be found here (https://ais-af.airforce.gov.au/australian-aip)
+
 !!! example
-    **VIPR**: "VIPER, Checking in"
-    **ARA**:  "VIPER, squawk 5000, confirm flight lead is mode C" 
+    **VIPR**: "Viper 1, 2, 3, 4, Brisbane Centre, Viper, Maintaining F280"
+    **ARA**:  "Viper, Brisbane Centre" 
+
+### Close Formation
+Reserved.
+
+### Block Formation
+Reserved.
+
+### In-Trail Formation
+Reserved.
 
 ## Military Authority Assumes Responsibility for Separation of Military Aircraft (MARSA)
 MARSA is a procedure which authorises pilots of military aircraft to assume
