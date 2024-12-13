@@ -26,7 +26,7 @@ Ensure **all flight plans** are checked for compliance with the approved WF Rout
 
 If an aircraft has filed an *incorrect* route and you need to give an amended clearance, this amendment must be specified by **individual private message**, prior to the PDC.
 
-!!! example
+!!! phraseology
     **BN ACD:** *"AMENDED ROUTE CLEARANCE. CLEARED TO YSSY VIA SANEG H91 IGDAM H652 TESAT DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
 
 ### WorldFlight Teams

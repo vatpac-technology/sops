@@ -39,7 +39,7 @@ This technique is useful for situations such as:
 - Allowing aircraft to conduct airwork in a position which would normally conflict with other aircraft
 - Providing track shortening or expedited clearances where a delay would normally occur due to other aircraft
 
-!!! example
+!!! phraseology
     *RSCU203 is a VFR helicopter who wishes to depart from Royal Prince Alfred Hospital, which sits directly under the YSSY RWY 16L approach path.*  
     **SY ADC:** "RSCU203, report sighting a Jetstar A320 on a 6nm final RWY 16L"  
     **RSCU203:** "Traffic sighted, RSCU203"  

@@ -30,10 +30,10 @@ It is the pilots responsibility to remain clear of Restricted Areas, however, th
 #### OCTA
 Outside controlled airspace, it is the responsibility of the controller to provide Safety Alerts on aircraft that will shortly enter, or have already entered, active restricted areas.
 
-!!! example
+!!! phraseology
     **CBW**: "Safety Alert, VFR aircraft overhead Cotter tracking southbound 2500, you will shortly be entering R430 restricted area, clearance not available, suggest immediate left turn to avoid"
 
-!!! example
+!!! phraseology
     **CNK**: "VFR aircraft overhead YCNK 3500 tracking westbound, confirm you will be remaining clear of the R564 restricted area?"  
     To which they will almost always reply with either *"Affirm"* or *"Huh?"*
 
@@ -57,7 +57,7 @@ Some Restricted Areas will be activated by NOTAM, most commonly for use by RAAF 
 ### Aircraft operating inside Restricted Area
 Military aircraft are permitted to operate within their designated Restricted Area as per the relevant NOTAM. Even if this Restricted Area is inside your airspace, you have no control authority over it.
 
-!!! example
+!!! phraseology
     **ARA**: "DRGN379, shortly entering R604 Restricted Area, identification and control services terminated, frequency change approved. Contact me prior to leaving for airways clearance"  
     **DRGN379**: "Wilco, DRGN379"
 
