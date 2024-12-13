@@ -50,7 +50,7 @@ Radio calls should take the following format:
 **STATION NAME**: "Message"
 ```
 
-!!! phraseology
+!!! example
     **VOZ1545**: "VOZ1545, request descent"  
     **HUO**: "VOZ1545, descend to FL130" 
 
@@ -73,7 +73,7 @@ As a general rule of thumb, hotlines should be used in all circumstances, except
 - Oceanic coordination  
 - Airways clearance requests from ACD to overlying TCU/ENR position (e.g. Sydney Delivery requesting clearance to YSBK on behalf of an aircraft)
 
-!!! phraseology
+!!! example
     <span class="coldline">**NW TCU** -> **WOL**</span>: "Taxi, PSDN18 for YMCO via URBOB, Requesting F130"  
     <span class="coldline">**WOL** -> **NW TCU**</span>: "PSDN18, F130"  
     <span class="coldline">**NW TCU** -> **WOL**</span>: "F130, PSDN18" 
