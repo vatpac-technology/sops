@@ -46,7 +46,7 @@ You must separate all aircraft in controlled airspace by *half the applicable la
 Some Restricted Areas are not always active. Some may be active only on certain days, or certain hours of the day. More info can be found in the [ERSA](https://www.airservicesaustralia.com/aip/aip.asp){target=new}, or on the Restricted Areas window in vatSys
 
 ### NOTAM
-Some Restricted Areas will be activated by NOTAM, most commonly for use by RAAF Virtual. These are available on the [VATPAC NOTAMs Page](https://vatpac.org/publications/notam){target=new}. These Restricted Areas will automatically become active on vatSys with AIRAC updates, so they are visually displayed on the screen.
+Some Restricted Areas will be activated by NOTAM, most commonly for use by [RAAF Virtual](https://www.raafvirtual.org/){target=new}. These are available on the [VATPAC NOTAMs Page](https://vatpac.org/publications/notam){target=new}. These Restricted Areas will automatically become active on vatSys with AIRAC updates, so they are visually displayed on the screen.
 
 ##### Example
 <figure markdown>
@@ -55,15 +55,15 @@ Some Restricted Areas will be activated by NOTAM, most commonly for use by RAAF 
 </figure>
 
 ### Aircraft operating inside Restricted Area
-Military aircraft are permitted to operate within their designated Restricted Area as per the relevant NOTAM. Even if this Restricted Area is inside your airspace, you have no control authority over it. If an AWEC aircraft is up and certified, you transfer all traffic to that aircraft. The AWEC aircraft will control up to the lateral boundries of the restricted airspace. AWEC aircraft will hand off departing traffic back to your control authority at 10NMs from the boundary.
+Military aircraft are permitted to operate within their designated Restricted Area as per the relevant NOTAM. Even if this Restricted Area is inside civil airspace, Civil ATC has no control authority over it. If an AEWC aircraft is active and certified, all traffic must be transferred to that aircraft. The AEWC aircraft will control up to the lateral boundries of the restricted airspace. AEWC aircraft will hand off departing traffic back to your control authority at **10nm** from the boundary.
 
-Airborne Early Warning & Control aircraft (AWEC) controls the tactical airspace, providing and supporting intellegence to fighter aircraft, supporting aircraft, surface combatants and land-based elements.
+Airborne Early Warning & Control aircraft (AEWC) controls the tactical airspace, providing and supporting intellegence to fighter aircraft, supporting aircraft, surface combatants and land-based elements.
 
 !!! example
     **ARA**: "DRGN379, shortly entering R604 Restricted Area, identification and control services terminated, frequency change approved. Contact me prior to leaving for airways clearance"  
-    **DRGN379**: "Wilco, DRGN379"
-    **ARA**: "ASY101, shortly entering M550 Restricted Area, contact WGTL47 on 130.500, frequency change approved"
-    **ASY1101**: "Wilco, ASY101"
+    **DRGN379**: "Wilco, DRGN379"  
+    **ARA**: "ASY101, shortly entering M550 Restricted Area, contact WGTL47 on 130.5, frequency change approved"  
+    **ASY101**: "Contact WGTL47 on 130.5, ASY101"
 
 ### ATC Activated Military Airspace
 Most Military TCUs and Tower positions, when online, control airspace that correspond to certain Restricted Area Activations. These are prescribed in the Local Instructions.
@@ -77,10 +77,10 @@ Unless otherwise stated in Local Instructions, Restricted Areas activated for co
 A **Standard formation** is defined by more than one aircraft, separated by no more than **1nm** laterally/longitudinally, and no more than **100 feet** vertically, from the lead aircraft. All aircraft in the formation are treated as *one*. Ensure only the leader is squawking Mode C.
 
 !!! note
-  RAAF FIHA AD2 Supps and TERMAs can be found here (https://ais-af.airforce.gov.au/australian-aip)
+    RAAF FIHA AD2 Supps and TERMAs can be found [here](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 !!! example
-    **VIPR**: "Viper 1, 2, 3, 4, Brisbane Centre, Viper, Maintaining F280"
+    **VIPR**: "Viper 1, 2, 3, 4, Brisbane Centre, Viper, Maintaining F280"  
     **ARA**:  "Viper, Brisbane Centre" 
 
 ### Close Formation
@@ -92,27 +92,32 @@ Reserved.
 ### In-Trail Formation
 Reserved.
 
-## Military Authority Assumes Responsibility for Separation of Military Aircraft (MARSA)
-MARSA is a procedure which authorises pilots of military aircraft to assume
-responsibility for separation between their aircraft and other nominated military aircraft (or military contract
-civil aircraft) within Australian controlled airspace. 
+## MARSA Operations
+**Military Authority Assumes Responsibility for Separation of Military Aircraft** (MARSA) is a procedure which authorises pilots of military aircraft to assume responsibility for separation between their aircraft and other nominated military aircraft (or military contract civil aircraft) within Australian controlled airspace. 
 
-MARSA is to be asssigned and terminated on pilots request and or when standard seperation has been apllied.
+!!! important
+    MARSA **cannot** be initiated by ATC, it **must** be initiated by the pilot(s).
+
+MARSA is to be assigned and terminated on pilots request, and when standard seperation can been applied.
 
 !!! example
-    **MAPL01**: "Request MARSA"
-    **DRGN50**: "Request MARSA"
-    **ARA**: "Mantain Block FL270-290, MARSA MAPL01"
-    **ARA**: "Mantain Block FL270-290, MARSA DRGN50"
-    **MAPL01**: "Request descent to F260 and termination of MARSA"
-    **ARA**: "MAPL01, Descend to F260, MARSA DRGN50"
+    *MAPL01 is Maintaining F260. DRGN50 is maintaining Block F270-290 above them.*  
+    **MAPL01**: "Request Climb to Block F270-F290, MARSA DRGN50"  
+    **ARA**: "MAPL01, Climb to and maintain Block F270-290, MARSA DRGN50"  
+    **ARA**: "DRGN50, Maintain Block F270-290, MARSA MAPL01"  
+    ...  
+    **MAPL01**: "Request descent to F260 and termination of MARSA"  
+    **ARA**: "MAPL01, Descend to F260, MARSA DRGN50"  
+    *(After MAPL01 is maintaining F260)*  
     **ARA**: "MAPL01 and DRGN50, MARSA terminated"
 
 ## NOCOM Operations
-NOCOM Procedures are when Military Aircraft are not making routine radio traffic to Civil ATC. NOCOM Procedures state that ATC Approval is required when Military Aircraft are in controlled airspace. Military Aircraft under NOCOM procedures fall under multiple categories:
-Flights on "Area Freq" when OCTA
-Flights that are "Radio Silent"
-Flights that are in SUA
-Flights that are on nominated route segments, except for short position reports when possible.
+**Non-Continuous Communication** (NOCOM) Procedures are when Military Aircraft discontinue two-way radio communications with Civil ATC. NOCOM Procedures state that ATC Approval is required when Military Aircraft are in controlled airspace. Military Aircraft under NOCOM procedures fall under multiple categories:
 
-Note: Military aircraft normally operate NOCOM in military Restricted Areas and Class G airspace only
+- Flights on "Area Freq" when OCTA
+- Flights that are "Radio Silent"
+- Flights that are in SUA
+- Flights that are on nominated route segments, except for short position reports when possible.
+
+!!! note
+    Military aircraft normally operate NOCOM in military Restricted Areas and Class G airspace only. **Do not** permit NOCOM operations in Civil CTA.
