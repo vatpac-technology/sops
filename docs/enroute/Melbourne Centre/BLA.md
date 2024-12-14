@@ -71,16 +71,16 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| BLA | BIK(GUN) | YSSY | |
+| BLA | GUN | YSSY | |
 | ELW | BLA | YSCB | |
-| BLA | ELW | YMML | Non-Jets only |
+| ELW | ELW | YMML | Non-Jets only |
 
 ### First Contact
 Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| YWE(OXL,GTH) | BLA | YSCB | |
+| MUN(OXL,GTH) | BLA | YSCB | |
 | WOL | BLA | YMML, YMAV | Jets Only |
 | ELW | BLA | YSCB | |
 | BLA | ELW | YMML | Non-Jets only |
@@ -141,7 +141,7 @@ All other aircraft going to ELW CTA will be **Heads-up** Coordinated by ML TCU.
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 That being said, it is *advised* that BLA give **Heads-up Coordination** prior to **50nm** from the boundary in the following scenarios:  
-- BLA to BIK(GUN) for aircraft **not** on the Y59 or W817 airway*  
+- BLA to GUN for aircraft **not** on the Y59 or W817 airway*  
 - ELW to YWE and HUO(WON) for all aircraft  
 - BLA to YWE(OXL/GTH) and WOL for all aircraft  
 

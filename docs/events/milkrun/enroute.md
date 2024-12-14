@@ -27,7 +27,7 @@ If applying speed control to multiple aircraft in a sequence, there are some han
 - If the lead aircraft is going **20kt IAS faster** than the following aircraft, the distance between them will **hold steady**
 
 ### Responsibilities
-**GUN** and **BIK** are responsible for Sequencing in to **YSSY**. **ELW** and **BLA** are responsible for sequencing in to **YMML**. Although it may seem helpful for other sectors to start to apply speed control to assist with the sequence, sometimes this may hinder natural overtakes from occurring, and create bigger gaps in the sequence, making the job harder for the next controller. It also may not take in to consideration aircraft inbound to the arrival airport from other directions, or that the next controller can create multiple arrival streams.
+**GUN** and **BIK** are responsible for Sequencing in to **YSSY**. **BLA** and **BLA** are responsible for sequencing in to **YMML**. Although it may seem helpful for other sectors to start to apply speed control to assist with the sequence, sometimes this may hinder natural overtakes from occurring, and create bigger gaps in the sequence, making the job harder for the next controller. It also may not take in to consideration aircraft inbound to the arrival airport from other directions, or that the next controller can create multiple arrival streams.
 
 Best practice is to just focus on providing separation between aircraft (whether that be vertically, laterally, or longitudinally), and only start to apply sequencing techniques once the aircraft reaches the airspace of the responsible sector.
 
@@ -36,7 +36,7 @@ Best practice is to just focus on providing separation between aircraft (whether
 Although the standard runway assignment for arrivals via RIVET is the Western Parallel Runway, eventually, the airspace will get busy enough to warrant distributing arrivals between both the Western and Eastern runways.
 
 #### Amended routing via ODALE
-In order to segregate aircraft inbound to different parallel runways, [Amended routing via ODALE](../../enroute/Melbourne Centre/BIK/#sequencing-into-yssy) should be used for aircraft assigned the Eastern parallel runway (16L/34R). This keeps aircraft segregated in to two distinct arrival streams, and allows a higher volume of arrivals.
+In order to segregate aircraft inbound to different parallel runways, [Amended routing via ODALE](../../enroute/Melbourne Centre/GUN/#sequencing-into-yssy) should be used for aircraft assigned the Eastern parallel runway (16L/34R). This keeps aircraft segregated in to two distinct arrival streams, and allows a higher volume of arrivals.
 
 Aircraft can be rerouted on first contact via AKMIR, ODALE, then assigned the ODALE7 arrival for 16L/34R.
 
@@ -55,7 +55,7 @@ Aircraft can be rerouted on first contact via AKMIR, ODALE, then assigned the OD
   <figcaption>Final routing with Assigned STAR</figcaption>
 </figure>
 
-Although this action may be beneficial to the arrival flow for both Enroute and Approach, it goes against the [Standard runway and STAR assignment](../../enroute/Melbourne Centre/BIK/#sequencing-into-yssy) for YSSY Arrivals from the South-west, so must still be coordinated to SAS or SFL (if online)
+Although this action may be beneficial to the arrival flow for both Enroute and Approach, it goes against the [Standard runway and STAR assignment](../../enroute/Melbourne Centre/GUN/#sequencing-into-yssy) for YSSY Arrivals from the South-west, so must still be coordinated to SAS or SFL (if online)
 
 !!! example
     <span class="hotline">**GUN** -> **SFL**</span>: "QFA494 will be via ODALE for 34R"  

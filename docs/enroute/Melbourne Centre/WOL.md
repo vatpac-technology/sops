@@ -69,7 +69,7 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| WOL | ELW(BLA) | YMML, YMAV | Jets only |
+| WOL | BLA | YMML, YMAV | Jets only |
 | WOL | BIK(GUN) | YSSY | |
 | SNO | HUO(WON) | YMML | 
 | SNO | HUO | YMHB | |

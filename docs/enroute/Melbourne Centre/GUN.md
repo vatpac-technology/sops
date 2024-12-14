@@ -93,7 +93,7 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| ELW(BLA), YWE(GTH), WOL | GUN | YSSY | |
+| BLA, MUN(GTH), WOL | GUN | YSSY | |
 
 ## Coordination
 ### SY TCU

@@ -23,24 +23,24 @@ HM ADC is responsible for the Class D airspace in the HM CTR `SFC` to `A045`.
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
 ## Surveillance
-Surveillance coverage can be expected to be not available below `A031` in the HM CTR. Although HM ADC is **not permitted** to use surveillance for separation, KEN(SWY) may assist by establishing surveillance separation standards via coordination
+Surveillance coverage can be expected to be not available below `A031` in the HM CTR. Although HM ADC is **not permitted** to use surveillance for separation, KPL(SWY) may assist by establishing surveillance separation standards via coordination
 
 ## Coordination
 ### Departures
-A 'next' call is made for all aircraft entering KEN(SWY) CTA when they are next to depart. HM ADC must inform KEN(SWY) if the aircraft does not depart within **2 minutes** of the next call.
+A 'next' call is made for all aircraft entering KPL(SWY) CTA when they are next to depart. HM ADC must inform KPL(SWY) if the aircraft does not depart within **2 minutes** of the next call.
 
 !!! example
     <span class="hotline">**HM ADC** -> **SWY**</span>: "Next, QFA797"  
     <span class="hotline">**SWY** -> **HM ADC**</span>: "QFA797, Unrestricted"  
     <span class="hotline">**HM ADC** -> **SWY**</span>: "QFA797"
 
-The Standard Assignable level from HM ADC to KEN(SWY) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
+The Standard Assignable level from HM ADC to KPL(SWY) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
 
 ### Arrivals/Overfliers
-KEN(SWY) will heads-up coordinate all arrivals/overfliers to HM ADC
+KPL(SWY) will heads-up coordinate all arrivals/overfliers to HM ADC
 
 !!! example
     <span class="hotline">**SWY** -> **HM ADC**</span>: "Via OPOSI for the RNP-U RWY 32, JST848”  
     <span class="hotline">**HM ADC** -> **SWY**</span>: "JST848"  
 
-The Standard Assignable level from KEN(SWY) to HM ADC is `A060`, any other level must be prior coordinated.
+The Standard Assignable level from KPL(SWY) to HM ADC is `A060`, any other level must be prior coordinated.

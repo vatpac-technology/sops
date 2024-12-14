@@ -173,7 +173,7 @@ YBHM arrivals shall be heads-up coordinated to **JM ADC** from SWY prior to **5 
     <span class="hotline">**SWY** -> **HM ADC**</span>: "Via OPOSI for RNP U RWY 32, JST848”  
     <span class="hotline">**HM ADC** -> **SWY**</span>: "JST848, RNP U RWY 32"  
 
-The Standard Assignable level from KEN(SWY) to HM ADC is `A060`, any other level must be prior coordinated.
+The Standard Assignable level from KPL(SWY) to HM ADC is `A060`, any other level must be prior coordinated.
 
 ### TSN(FLD) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.

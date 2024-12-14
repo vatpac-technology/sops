@@ -15,7 +15,7 @@ AV ADC is responsible for the Class D Airspace within the AV CTR `SFC` to `A025`
 ML TCU is responsible for the Class E Airspace to the North, South, and Above the AV CTR.  
 ML TCU is repsonsible for the Class G Airspace to the East of the AV CTR, and to the West of the AV CTR within 30 DME ML.  
 YWE is responsible for the Class G Airspace to the West of the AV CTR outside 30 DME ML.  
-YWE(WON) is responsible for the Class G Airspace to the South East of the AV CTR outside 30 DME ML.
+HUO(WON) is responsible for the Class G Airspace to the South East of the AV CTR outside 30 DME ML.
 
 <figure markdown>
 ![AV ADC Airspace](img/avctr.png){ width="500" }

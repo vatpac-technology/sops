@@ -52,8 +52,8 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | ---- | -------- | --------- | --------- |
 | MUN | TBD | YPAD, YPED | |
 | GTH | OXL | YMML, YMAV | |
-| OXL | ELW(BLA) | YSCB | |
-| GTH | BIK(GUN) | YSSY | |
+| OXL | BLA | YSCB | |
+| GTH | GUN | YSSY | |
 | OXL | GTH | YSSY | |
 
 
@@ -64,9 +64,9 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | ---- | -------- | --------- | --------- |
 | TBD | MUN | YMML, YMAV | |
 | ASP(BKE), GTH | OXL | YMML, YMAV | |
-| ASP(BKE) | GTH, BIK(KAT) | YSSY | |
+| ASP(BKE) | GTH, GUN(KAT) | YSSY | |
 | OXL | GTH | YSSY | |
-| ARL(MDE) | BIK(KAT) | YSCB | |
+| ARL(MDE) | GUN(KAT) | YSCB | |
 
 ## Coordination
 ### ML TCU
@@ -101,7 +101,7 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 That being said, it is *advised* that MUN(All) gives **Heads-up Coordination** prior to **50nm** from the boundary in the following scenarios:  
 - YWE to ELW/BLA for all aircraft  
-- GTH to ELW(BLA) for all aircraft  
+- GTH to BLA for all aircraft  
 - YWE to HUO(WON) for all aircraft  
 
 !!! tip

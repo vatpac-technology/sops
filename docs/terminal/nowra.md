@@ -10,7 +10,7 @@
 | **Nowra TMA**    | **NWA** | **Nowra Approach** | **123.500**          | **NW_APP**        |
 
 ## Airspace
-NW TCU owns the airspace within R421, `SFC` to `F125`. Where traffic levels (primarily preplanned military operations) warrant, NW TCU may request a release of R420F from `F125` to `F300` from BIK(WOL), if online.
+NW TCU owns the airspace within R421, `SFC` to `F125`. Where traffic levels (primarily preplanned military operations) warrant, NW TCU may request a release of R420F from `F125` to `F300` from WOL, if online.
 
 <figure markdown>
 ![NW TMA](img/nwtcu.png){ width="700" }
@@ -28,7 +28,7 @@ Where it is deemed operationally beneficial to activate R420F, this should be re
     <span class="hotline">**WOL** -> **NW TCU**</span>: "R420F released to you F125 to F300"  
     <span class="hotline">**NW TCU** -> **WOL**</span>: "R420F released F125 to F300"   
 
-As per [Coordination](#enroute), with R420F active, all transiting aircraft will be coordinated by BIK(WOL). Where possible, facilitate the transit of these aircraft. In exceptional circumstances where the level of military aircraft movements prohibit transiting civil aircraft, inform BIK(WOL) that no transiting aircraft can be accommodated, and that they will need to be rerouted to remain clear of the TCU.
+As per [Coordination](#enroute), with R420F active, all transiting aircraft will be coordinated by WOL. Where possible, facilitate the transit of these aircraft. In exceptional circumstances where the level of military aircraft movements prohibit transiting civil aircraft, inform WOL that no transiting aircraft can be accommodated, and that they will need to be rerouted to remain clear of the TCU.
 
 !!! important
     Activating R420F increases the workload of the overlying enroute controller by altering the airspace normally available to them for civil aircraft. Only activate this airspace if operationally necessary, primarily for preplanned military exercises.
@@ -52,7 +52,7 @@ Voiceless for aircraft:
 - Tracking via a published airway; and  
 - Assigned the lower of `F120` or the `RFL`
 
-All other aircraft going to BIK(WOL) CTA must be **Heads-up** Coordinated by NW TCU prior to the boundary. 
+All other aircraft going to WOL CTA must be **Heads-up** Coordinated by NW TCU prior to the boundary. 
 
 #### Arrivals
 Voiceless for aircraft:
@@ -61,7 +61,7 @@ Voiceless for aircraft:
 - Tracking direct to the NWA TACAN or YSNW; and  
 - Assigned `F130`
 
-All other aircraft coming from BIK(WOL) CTA will be **Heads-up** Coordinated to NW TCU.
+All other aircraft coming from WOL CTA will be **Heads-up** Coordinated to NW TCU.
 
 ### NW ADC
 #### Airspace

@@ -43,16 +43,16 @@ Controlling Sector -> Receiving Sector: "(Position), (Callsign)"
 Receiving Sector -> Controlling Sector: "(Callsign), (Level)"
 
 !!! example
-    <span class="hotline">**ELW** -> **BIK**</span>: "via CB, VOZ1234"  
-    <span class="hotline">**BIK** -> **ELW**</span>: "VOZ1234, F350"  
+    <span class="hotline">**BLA** -> **GUN**</span>: "via CB, VOZ1234"  
+    <span class="hotline">**GUN** -> **BLA**</span>: "VOZ1234, F350"  
 
 If the level that will be assigned at transfer of jurisdiction is different from the current CFL, the Controlling Sector will use the phrase "Will be assigned (level)".
 
 Once this coordination is completed, the aircraft's level and route is **locked in**. Any further changes must be recoordinated.
 
 !!! example
-    <span class="hotline">**ELW** -> **BIK**</span>: "VOZ1234, requesting DCT RIVET"  
-    <span class="hotline">**BIK** -> **ELW**</span>: "VOZ1234, concur DCT RIVET"  
+    <span class="hotline">**BLA** -> **GUN**</span>: "VOZ1234, requesting DCT RIVET"  
+    <span class="hotline">**GUN** -> **BLA**</span>: "VOZ1234, concur DCT RIVET"  
 
 !!! tip
     In situations where Heads-Up Coordination is required, the best time to do it is when the aircraft first calls you. There's no need to wait until half a mile before when its due, if you can get it done sooner.
@@ -73,8 +73,8 @@ Controlling Sector -> Boundary Sector: "For Ident, (Position), (Callsign), (Deta
 Boundary Sector -> Controlling Sector: "(Callsign), (Restriction)"
 
 !!! example
-    <span class="hotline">**BIK** -> **CBE**</span>: "For Ident, overhead CB, QFA12, do you have any restrictions on descent?"  
-    <span class="hotline">**CBE** -> **BIK**</span>: "QFA12, No restrictions on descent"  
+    <span class="hotline">**GUN** -> **CBE**</span>: "For Ident, overhead CB, QFA12, do you have any restrictions on descent?"  
+    <span class="hotline">**CBE** -> **GUN**</span>: "QFA12, No restrictions on descent"  
 
 The Boundary Sector may omit the restriction and readback the callsign only. This will be taken as the Boundary Sector having **no vertical or lateral restrictions**.
 
@@ -113,12 +113,12 @@ Source: [Annotations](../../controller-skills/annotations)
 *Offering NFR*
 !!! example
     *ABC tracking MNG W663 VINOP*  
-    <span class="hotline">**ELW** -> **YWE**</span>: "via MNG, ABC, if you have no restrictions or requirements, my onwards with OXL"  
-    <span class="hotline">**YWE** -> **ELW**</span>: "ABC, I have no restrictions or requirements, your onwards with OXL"  
-    ELW will put *"YWE NRR"* in the label data  
-    <span class="hotline">**ELW** -> **OXL**</span>: "via MNG, ABC, YWE has no restrictions or requirements"  
+    <span class="hotline">**BLA** -> **YWE**</span>: "via MNG, ABC, if you have no restrictions or requirements, my onwards with OXL"  
+    <span class="hotline">**YWE** -> **BLA**</span>: "ABC, I have no restrictions or requirements, your onwards with OXL"  
+    BLA will put *"YWE NRR"* in the label data  
+    <span class="hotline">**BLA** -> **OXL**</span>: "via MNG, ABC, YWE has no restrictions or requirements"  
     <span class="hotline">**OXL** -> **YWE**</span>: "ABC, F190"  
-    ELW will handoff the aircraft directly to OXL
+    BLA will handoff the aircraft directly to OXL
 
 *Initiating NFR*
 !!! example
@@ -135,7 +135,7 @@ Source: [Annotations](../../controller-skills/annotations)
 
 ## Rules
 ### General
-Coordination must be done on a **point-to-point** basis. Meaning, you can only coordinate with the sector which the aircraft is coming from, or going to, no skipping! This is important to remember, for example, if you are controlling ELW, and you would like to pass an amended route to someone on the ground at YMML. Whilst that may be no issue for ELW, ML SMC and ML ADC, it might not work for ML APP. ML APP would be the sector which the aircraft is coming from, so ELW must talk to them, and it is the responsibility of ML APP to work backwards down the line on a point-to-point basis.
+Coordination must be done on a **point-to-point** basis. Meaning, you can only coordinate with the sector which the aircraft is coming from, or going to, no skipping! This is important to remember, for example, if you are controlling BLA, and you would like to pass an amended route to someone on the ground at YMML. Whilst that may be no issue for BLA, ML SMC and ML ADC, it might not work for ML APP. ML APP would be the sector which the aircraft is coming from, so BLA must talk to them, and it is the responsibility of ML APP to work backwards down the line on a point-to-point basis.
 
 Ensure no coordination is ambiguous in its meaning. Not all coordination can be straight out of the phraseology books, and the reality is, not everyone controlling the airspace is going to be 100% proficient and by the books. When using "plain english", ensure there is no ambiguity, and the message is fully understood by both parties.
 ### ENR/TCU -> Class D TWR
@@ -243,8 +243,8 @@ For any aircraft transiting **to or from** Uncontrolled airspace (ie: Class G, V
 Receiving a handoff means you are permitted to turn an aircraft **45 degrees left or right**, and **climb/descend it to any level** without coordination. Do not handoff an aircraft to another sector if a turn of 45 degrees or a change of level would cause a conflict with any of your own aircraft. Or alternatively, you can nominate a restriction prior to handoff.
 
 !!! example
-    <span class="hotline">**YWE** -> **TBD**</span>: "ABC, my restriction is DEF, calls you now"  
-    <span class="hotline">**TBD** -> **YWE**</span>: "ABC, restriction is DEF, calls me now"
+    <span class="hotline">**MUN** -> **TBD**</span>: "ABC, my restriction is DEF, calls you now"  
+    <span class="hotline">**TBD** -> **MUN**</span>: "ABC, restriction is DEF, calls me now"
 
 Upon receipt of a handoff, once the aircraft is established **half the applicable lateral standard** (2.5nm for ENR, 1.5nm for ADC/TCU) within your airspace, you are free to turn the aircraft as much as you like. If you need to turn them more than 45 degrees earlier than that, simply ask!
 

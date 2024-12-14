@@ -67,7 +67,7 @@ If an aircraft is to be conducting airwork that does not require them to talk to
 !!! example
     Time is 0648Z  
     **OBF**: "OBF will be conducting Airwork within a 20nm radius of YBLT Not above A050 for the next 60 minutes"  
-    **YWE**: "OBF, No Reported IFR Traffic, Call Ops Normal time 30."  
+    **MUN**: "OBF, No Reported IFR Traffic, Call Ops Normal time 30."  
     **OBF**: "Ops Normal time 30, OBF"
 
 You can then set the timer on the aircraft, by right clicking on the ACID in the Label, and entering the agreed upon time.
