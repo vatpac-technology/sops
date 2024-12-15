@@ -73,7 +73,7 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | ---- | -------- | --------- | --------- |
 | BLA | GUN | YSSY | |
 | ELW | BLA | YSCB | |
-| ELW | ELW | YMML | Non-Jets only |
+| BLA | ELW | YMML | Non-Jets only |
 
 ### First Contact
 Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:

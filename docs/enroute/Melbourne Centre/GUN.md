@@ -94,13 +94,15 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
 | BLA, MUN(GTH), WOL | GUN | YSSY | |
+| ASP(BKE) | KAT | YSSY | |
+| ARL(MDE) | KAT | YSCB | |
 
 ## Coordination
 ### SY TCU
 #### Airspace
 SY TCU is responsible for the airspace within a 45nm radius of TESAT, `SFC` to `F285`.
 
-Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAS**, **SDN**, **SDS** and/or **SRI** are online.
+Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAN**, **SDN**, **SDS** and/or **SRI** are online.
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:
