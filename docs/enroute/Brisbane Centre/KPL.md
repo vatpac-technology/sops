@@ -26,7 +26,7 @@ The CPDLC Station Code is `YKPL`.
 ## Airspace
 
 <figure markdown>
-![Keppel Airspace](../assets/inl.png){ width="700" }
+![Keppel Airspace](../assets/kpl.png){ width="700" }
   <figcaption>Keppel Airspace</figcaption>
 </figure>
 

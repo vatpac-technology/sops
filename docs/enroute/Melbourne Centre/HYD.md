@@ -29,7 +29,7 @@ The CPDLC Station Code is `YHYD`.
 
 ## Airspace
 <figure markdown>
-![Hyden Airspace](../assets/piy.png){ width="700" }
+![Hyden Airspace](../assets/hyd.png){ width="700" }
   <figcaption>Pingelly Airspace</figcaption>
 </figure>
 

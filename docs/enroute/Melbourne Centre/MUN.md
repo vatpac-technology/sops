@@ -27,7 +27,7 @@ The CPDLC Station Code is `YMUN`.
 ## Airspace
 
 <figure markdown>
-![Mungo Airspace](../assets/ywe.png){ width="700" }
+![Mungo Airspace](../assets/mun.png){ width="700" }
   <figcaption>Yarrowee Airspace</figcaption>
 </figure>
 

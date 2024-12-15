@@ -25,7 +25,7 @@ The CPDLC Station Code is `YWOL`.
 ## Airspace
 
 <figure markdown>
-![Bindook Airspace](../assets/bik.png){ width="700" }
+![Wollongong Airspace](../assets/wol.png){ width="500" }
   <figcaption>Bindook Airspace</figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
 | WOL | BLA | YMML, YMAV | Jets only |
-| WOL | BIK(GUN) | YSSY | |
+| WOL | GUN | YSSY | |
 | SNO | HUO(WON) | YMML | 
 | SNO | HUO | YMHB | |
 

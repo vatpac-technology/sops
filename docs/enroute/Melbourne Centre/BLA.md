@@ -25,7 +25,7 @@ The CPDLC Station Code is `YBLA`.
 ## Airspace
 
 <figure markdown>
-![Benalla Airspace](../assets/elw.png){ width="700" }
+![Benalla Airspace](../assets/bla.png){ width="700" }
   <figcaption>Eildon Weir Airspace</figcaption>
 </figure>
 
@@ -142,8 +142,8 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 That being said, it is *advised* that BLA give **Heads-up Coordination** prior to **50nm** from the boundary in the following scenarios:  
 - BLA to GUN for aircraft **not** on the Y59 or W817 airway*  
-- ELW to YWE and HUO(WON) for all aircraft  
-- BLA to YWE(OXL/GTH) and WOL for all aircraft  
+- ELW to MUN(YWE) and HUO(WON) for all aircraft  
+- BLA to MUN(OXL/GTH) and WOL for all aircraft  
 
 !!! tip
     **BLA** should aim to handoff aircraft as soon as possible to **GUN**, so they can issue STAR clearance and commence sequencing. Remember, As per [Standard coordination procedures](../../../controller-skills/coordination/#handoffs), the Receiving sector may turn the aircraft 45° left or right and climb/descend to any level. So if required, nominate a restriction.

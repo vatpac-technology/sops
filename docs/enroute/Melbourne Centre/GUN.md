@@ -26,7 +26,7 @@ The CPDLC Station Code is `YGUN`.
 ## Airspace
 
 <figure markdown>
-![Gundagai Airspace](../assets/bik.png){ width="700" }
+![Gundagai Airspace](../assets/gun.png){ width="700" }
   <figcaption>Bindook Airspace</figcaption>
 </figure>
 
