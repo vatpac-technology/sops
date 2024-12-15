@@ -91,7 +91,7 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | INL(NSA) | KPL | YBRK, YBMK | |
 | KEN(TBP) | SWY | YBRK, YBMK | |
 | SWY, CVN | KPL | YBBN, YBCG | Jets only |
-| CVN | DOS | YBBN, YBCG | |
+| CVN | INL(DOS) | YBBN, YBCG | |
 
 ## Coordination
 ### Enroute

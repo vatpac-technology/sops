@@ -95,7 +95,6 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | TSN(All) | SDY | YBBN, YBCG, YBSU | |
 | KPL | BUR | YBBN, YBCG | Non-jets only |
 | INL | GOL | YBSU | |
-| NSA | KPL | YBRK, YBMK | |
 
 ## STAR Assignment
 ### PROPS
