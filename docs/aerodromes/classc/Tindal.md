@@ -22,7 +22,7 @@ Aircraft planned via **DN**, **LAREB**, **GREGA**, **DOSAM**, **MILIV**,**MIGAX*
 Aircraft who are not planned via those points or who are negative RNAV may be assigned a RADAR SID or a visual departure.
 
 #### Gate Departures (All Military Aircraft)
-There are 11 gates to facilate departues and arrivals from the TDL Training Airspace, based on the TDL Tacan. YOu can clear them to track direct to the cleared gate or allow them to intercept the outbound radial by 10 DME. 
+There are 11 gates to facilate departues and arrivals from the TDL Training Airspace, based on the TDL TACAN. You can clear them to track direct to the cleared gate or allow them to intercept the outbound radial by 10 DME. 
 BIAK (BIA) 320/30
 TOP GATE (TOP) 300/30
 MOROTAI (MOR) 270/30
@@ -47,7 +47,7 @@ WEDGE 3 (W3) 200/16
 The Circuit Area Airspace is allocated to be within 5nm of the YPTN ARP from `SFC` to `A025`. Aircraft can be instructed to extend outside of this airspace by ATC for traffic management. 
 
 !!! note
-    If a Fast Jet is in the pattern, all other aircraft are required to be seperated by 1000ft as such the min circuit hieght becomes 2500ft when Fast Jet are in the pattern.
+    If a Fast Jet is in the pattern, all other aircraft are required to be seperated by 1000ft as such the min circuit height becomes 2500ft when Fast Jet are in the pattern.
 
 ### Circuit Direction
 | Runway | Direction |
