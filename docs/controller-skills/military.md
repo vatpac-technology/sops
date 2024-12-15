@@ -30,10 +30,10 @@ It is the pilots responsibility to remain clear of Restricted Areas, however, th
 #### OCTA
 Outside controlled airspace, it is the responsibility of the controller to provide Safety Alerts on aircraft that will shortly enter, or have already entered, active restricted areas.
 
-!!! example
+!!! phraseology
     **CBW**: "Safety Alert, VFR aircraft overhead Cotter tracking southbound 2500, you will shortly be entering R430 restricted area, clearance not available, suggest immediate left turn to avoid"
 
-!!! example
+!!! phraseology
     **CNK**: "VFR aircraft overhead YCNK 3500 tracking westbound, confirm you will be remaining clear of the R564 restricted area?"  
     To which they will almost always reply with either *"Affirm"* or *"Huh?"*
 
@@ -55,15 +55,11 @@ Some Restricted Areas will be activated by NOTAM, most commonly for use by [RAAF
 </figure>
 
 ### Aircraft operating inside Restricted Area
-Military aircraft are permitted to operate within their designated Restricted Area as per the relevant NOTAM. Even if this Restricted Area is inside civil airspace, Civil ATC has no control authority over it. If an AEWC aircraft is active and certified, all traffic must be transferred to that aircraft. The AEWC aircraft will control up to the lateral boundries of the restricted airspace. AEWC aircraft will hand off departing traffic back to your control authority at **10nm** from the boundary.
+Military aircraft are permitted to operate within their designated Restricted Area as per the relevant NOTAM. Even if this Restricted Area is inside civil airspace, Civil ATC has no control authority over it.
 
-Airborne Early Warning & Control aircraft (AEWC) controls the tactical airspace, providing and supporting intellegence to fighter aircraft, supporting aircraft, surface combatants and land-based elements.
-
-!!! example
+!!! phraseology
     **ARA**: "DRGN379, shortly entering R604 Restricted Area, identification and control services terminated, frequency change approved. Contact me prior to leaving for airways clearance"  
     **DRGN379**: "Wilco, DRGN379"  
-    **ARA**: "ASY101, shortly entering M550 Restricted Area, contact WGTL47 on 130.5, frequency change approved"  
-    **ASY101**: "Contact WGTL47 on 130.5, ASY101"
 
 ### ATC Activated Military Airspace
 Most Military TCUs and Tower positions, when online, control airspace that correspond to certain Restricted Area Activations. These are prescribed in the Local Instructions.
@@ -79,7 +75,7 @@ A **Standard formation** is defined by more than one aircraft, separated by no m
 !!! note
     RAAF FIHA AD2 Supps and TERMAs can be found [here](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
-!!! example
+!!! phraseology
     **VIPR**: "Viper 1, 2, 3, 4, Brisbane Centre, Viper, Maintaining F280"  
     **ARA**:  "Viper, Brisbane Centre" 
 
@@ -95,12 +91,12 @@ Reserved.
 ## MARSA Operations
 **Military Authority Assumes Responsibility for Separation of Military Aircraft** (MARSA) is a procedure which authorises pilots of military aircraft to assume responsibility for separation between their aircraft and other nominated military aircraft (or military contract civil aircraft) within Australian controlled airspace. 
 
-!!! important
+!!! warning "Important"
     MARSA **cannot** be initiated by ATC, it **must** be initiated by the pilot(s).
 
 MARSA is to be assigned and terminated on pilots request, and when standard seperation can been applied.
 
-!!! example
+!!! phraseology
     *MAPL01 is Maintaining F260. DRGN50 is maintaining Block F270-290 above them.*  
     **MAPL01**: "Request Climb to Block F270-F290, MARSA DRGN50"  
     **ARA**: "MAPL01, Climb to and maintain Block F270-290, MARSA DRGN50"  
