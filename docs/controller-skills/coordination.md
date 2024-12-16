@@ -42,7 +42,7 @@ Heads-up Coordination is the act of giving the next sector a "heads-up" about an
 Controlling Sector -> Receiving Sector: "(Position), (Callsign)"  
 Receiving Sector -> Controlling Sector: "(Callsign), (Level)"
 
-!!! example
+!!! phraseologY
     <span class="hotline">**BLA** -> **GUN**</span>: "via CB, VOZ1234"  
     <span class="hotline">**GUN** -> **BLA**</span>: "VOZ1234, F350"  
 
@@ -50,7 +50,7 @@ If the level that will be assigned at transfer of jurisdiction is different from
 
 Once this coordination is completed, the aircraft's level and route is **locked in**. Any further changes must be recoordinated.
 
-!!! example
+!!! phraseologY
     <span class="hotline">**BLA** -> **GUN**</span>: "VOZ1234, requesting DCT RIVET"  
     <span class="hotline">**GUN** -> **BLA**</span>: "VOZ1234, concur DCT RIVET"  
 
@@ -72,7 +72,7 @@ Boundary coordination must be completed so they are aware of the aircraft, and c
 Controlling Sector -> Boundary Sector: "For Ident, (Position), (Callsign), (Details as required)"  
 Boundary Sector -> Controlling Sector: "(Callsign), (Restriction)"
 
-!!! example
+!!! phraseologY
     <span class="hotline">**GUN** -> **CBE**</span>: "For Ident, overhead CB, QFA12, do you have any restrictions on descent?"  
     <span class="hotline">**CBE** -> **GUN**</span>: "QFA12, No restrictions on descent"  
 
@@ -242,7 +242,7 @@ For any aircraft transiting **to or from** Uncontrolled airspace (ie: Class G, V
 ## Handoffs
 Receiving a handoff means you are permitted to turn an aircraft **45 degrees left or right**, and **climb/descend it to any level** without coordination. Do not handoff an aircraft to another sector if a turn of 45 degrees or a change of level would cause a conflict with any of your own aircraft. Or alternatively, you can nominate a restriction prior to handoff.
 
-!!! example
+!!! phraseologY
     <span class="hotline">**MUN** -> **TBD**</span>: "ABC, my restriction is DEF, calls you now"  
     <span class="hotline">**TBD** -> **MUN**</span>: "ABC, restriction is DEF, calls me now"
 

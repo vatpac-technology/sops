@@ -159,7 +159,7 @@ Refer to [Reclassifications](#hm-ctr) for operations when HM ADC is offline.
 #### Departures
 Departures from YBHM in to SWY Class C will be coordinated when ready for departure.  
 
-!!! example
+!!! phraseology
     <span class="hotline">**HM ADC** -> **SWY**</span>: "Next, QFA797"  
     <span class="hotline">**SWY** -> **HM ADC**</span>: "QFA797, Unrestricted"  
     <span class="hotline">**HM ADC** -> **SWY**</span>: "QFA797"  
@@ -169,7 +169,7 @@ The Standard Assignable level from HM ADC to SWY is the lower of `A050` or the `
 #### Arrivals
 YBHM arrivals shall be heads-up coordinated to **JM ADC** from SWY prior to **5 mins** from the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**SWY** -> **HM ADC**</span>: "Via OPOSI for RNP U RWY 32, JST848”  
     <span class="hotline">**HM ADC** -> **SWY**</span>: "JST848, RNP U RWY 32"  
 
@@ -180,5 +180,5 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
 
-!!! example
+!!! phraseology
     **INL**: "QFA121, identification terminated, report position to Brisbane Radio, 126.45"

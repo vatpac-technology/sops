@@ -44,7 +44,7 @@ When **NW TCU** is online, R421 is activated and administered by the TCU control
 
 During times of high traffic, NW TCU may request the release of R420F up to `F300`.
 
-!!! example
+!!! phraseology
     <span class="hotline">**NW TCU** -> **WOL**</span>: "There's a preplanned military exercise about to commence, request release of R420F up to F300"  
     <span class="hotline">**WOL** -> **NW TCU**</span>: "R420F released to you F125 to F300"  
     <span class="hotline">**NW TCU** -> **WOL**</span>: "R420F released F125 to F300" 
@@ -153,7 +153,7 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
 
-!!! example
+!!! phraseology
     **SNO**: "QFA121, identification terminated, report position to Brisbane Radio, 124.65"
 
 ### WOL Internal
