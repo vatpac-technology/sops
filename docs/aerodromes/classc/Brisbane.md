@@ -90,12 +90,14 @@ Traffic information must be issued to both aircraft.
     **BN ADC:** "RSCU533, H2 cleared to land"   
     **RSCU533:** "Cleared to land H2, RSCU533"
 
-Taxiway H2 is inside the maneuvering area and therefore owned by **BN SMC-N**, treated like a runway requiring a takeoff and landing clearance by BN ADC. Helicopters landing on other surfaces outside the maneuvering areas should be instructed to *"report on the ground"* so the controllers knows when they are no longer active in their airspace.
+Both taxiway **H2** and **F4** are inside the maneuvering area and treated like a runway, requiring a takeoff and landing clearance by BN ADC. Helicopters landing on other surfaces outside the maneuvering areas should be instructed to *"report on the ground"* so the controller knows when they are no longer active in their airspace.
 
 !!! example
-    **RSCU533:** "RSCU533, on the ground H2"  
-    **BN ADC:** "RSCU533, contact Ground 124.05"  
-    **RSCU533:** "contact Ground 124.05, RSCU533"  
+    **BN ADC:** "RSCU533, report on the ground"  
+    **RSCU533:** "RSCU533, wilco"   
+    
+    **RSCU533:** "RSCU533, on the ground"  
+    **BN ADC:** "RSCU533"
 
 ## Standard Taxi Routes
 Taxiway A is to be used in the same direction as the duty runway. Taxiway B is to be used in the opposite direction to the duty runway.
