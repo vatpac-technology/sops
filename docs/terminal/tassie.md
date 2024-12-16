@@ -60,7 +60,7 @@ Voiceless for all aircraft:
 
 All other aircraft going to HUO CTA must be **Heads-up** Coordinated by TAS TCU prior to the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**LTA** -> **HUO**</span>: "via IRSOM, QFA114, with your concurrence, will be assigned F150, for my separation with ZYX"  
     <span class="hotline">**HUO** -> **LTA**</span>: "QFA114, concur F150"
 
@@ -97,7 +97,7 @@ HBA will coordinate all YMHB arrivals to HB ADC prior to **5 mins** from the bou
 - Approach type, unless specifically nominated on the ATIS  
 - IFR Circuit joining instructions, if not on Straight-in instrument approach
 
-!!! example
+!!! phraseology
     <span class="hotline">**HBA** -> **HB ADC**</span>: "via BUSKA, QJE1789, for the ILS”  
     <span class="hotline">**HB ADC** -> **HBA**</span>: "QJE1789, ILS"
 
@@ -122,6 +122,6 @@ LTA will coordinate all YMLT arrivals to LT ADC prior to **5 mins** from the bou
 - Approach type, unless specifically nominated on the ATIS  
 - IFR Circuit joining instructions, if not on Straight-in instrument approach
 
-!!! example
+!!! phraseology
     <span class="hotline">**LTA** -> **LT ADC**</span>: "via IRSOM, JST416, for the DGA, will join left downwind 32L”  
     <span class="hotline">**LT ADC** -> **LTA**</span>: "JST416"
