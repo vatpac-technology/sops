@@ -46,7 +46,7 @@ Visual Departures are commonly requested by high performance military jets and o
 
 !!! example
     MAPL03 was assiged the CLASSIC 1 departure with their initial clearance. 
-    **WLM ADC**: "WOLF03, make left turn, reach `F125` by Gate 3 , cleared for takeoff"  
+    **WLM ADC**: "MAPL03, make left turn, reach `F125` by Gate 3 , cleared for takeoff"  
     **MAPL03**: "Make left turn, reach `F125` by Gate 3, cleared for takeoff, MAPL03"  
 
 !!! note
