@@ -55,7 +55,7 @@ a) Departing from a runway nominated in the ATIS; and
 b) Assigned the standard assignable level;  
 c) Assigned a **Procedural** SID  
 
-!!! example
+!!! phraseology
     <span class="hotline">**TL ADC** -> **TL TCU**</span>: "Next, DNGO05, runway 19"  
     <span class="hotline">**TL TCU** -> **TL ADC**</span>: "DNGO05, Assigned Heading Left 150, unrestricted"  
     <span class="hotline">**TL ADC** -> **TL TCU**</span>: "Assigned Heading Left 150, DNGO05"  

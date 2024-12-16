@@ -28,7 +28,7 @@ Surveillance coverage can be expected to be available at all levels in the BRM C
 ### Departures
 A 'next' call is made for all aircraft entering TRT(ASH) CTA when they are next to depart. BRM ADC must inform TRT(ASH) if the aircraft does not depart within **2 minutes** of the next call.
 
-!!! example
+!!! phraseology
     <span class="hotline">**BRM ADC** -> **ASH**</span>: "Next, NWK1653"  
     <span class="hotline">**ASH** -> **BRM ADC**</span>: "NWK1653, Unrestricted"  
     <span class="hotline">**BRM ADC** -> **ASH**</span>: "NWK1653"
@@ -38,7 +38,7 @@ The Standard Assignable level from BRM ADC to TRT(ASH) is the lower of `A050` or
 ### Arrivals/Overfliers
 TRT(ASH) will heads-up coordinate all arrivals/overfliers to BRM ADC
 
-!!! example
+!!! phraseology
     <span class="hotline">**ASH** -> **BRM ADC**</span>: "Via CIN, ANO332”  
     <span class="hotline">**BRM ADC** -> **ASH**</span>: "ANO332"  
 
