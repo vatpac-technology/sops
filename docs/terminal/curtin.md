@@ -31,7 +31,7 @@ CIN ADC owns the Class C airspace within the CIN MIL CTR from `SFC` to `A015`.
 #### Departures
 'Next' coordination is required from CIN ADC to CIN TCU for all aircraft.
 
-!!! example
+!!! phraseology
     <span class="hotline">**CIN ADC** -> **CIN TCU**</span>: "Next, ASY404, runway 29"  
     <span class="hotline">**CIN TCU** -> **CIN ADC**</span>: "ASY404, unrestricted"  
     <span class="hotline">**CIN ADC** -> **CIN TCU**</span>: "ASY404"  
@@ -44,7 +44,7 @@ Planned below `F190`: `Assigned the RFL`
 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
-!!! example
+!!! phraseology
     <span class="hotline">**CIN TCU** -> **ASH**</span>: "ASY404, with your concurrence, will be assigned F180, for my separation with JTE654"  
     <span class="hotline">**ASH** -> **CIN TCU**</span>: "ASY404, concur F160"  
 

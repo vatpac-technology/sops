@@ -21,7 +21,7 @@ KZAK - Oakland Oceanic
 NTTT - Tahiti Oceanic  
 RJTG - Fukuoka Oceanic
 
-!!! information
+!!! info
     Auckland, McMurdo and Tahiti Oceanic are owned and operated by VATNZ, Fukuoka Oceanic is owned and operated by VATJPN, and Oakland Oceanic is owned and operated by the Oakland ARTCC.  
     Under the agreement, a controller holding an oceanic endorsement may control positions within any of these FIRs.
 

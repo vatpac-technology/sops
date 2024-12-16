@@ -57,3 +57,23 @@
 .md-typeset .block > summary::before {
   height: 0rem;
 }
+
+:root {
+  --md-admonition-icon--phraseology: url('../assets/headset.svg'); /* Path to your custom SVG */
+}
+
+.md-typeset .admonition.phraseology {
+  border-color: #90EE90; /* Light green border */
+  background-color: #FFFFFF; /* White background for the text */
+}
+
+.md-typeset .phraseology > .admonition-title {
+  background-color: #D3F8D3; /* Lighter green background for the title */
+  border-color: #90EE90; /* Light green border for title */
+}
+
+.md-typeset .phraseology > .admonition-title::before {
+  background-color: black; /* Set the icon color to black */
+  -webkit-mask-image: var(--md-admonition-icon--phraseology); /* Custom SVG for icon */
+  mask-image: var(--md-admonition-icon--phraseology); /* Custom SVG for icon */
+}
