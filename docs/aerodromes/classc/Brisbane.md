@@ -64,7 +64,7 @@ Both taxiway **H2** and **F4** are inside the maneuvering area and treated like 
 
 #### Arrivals
 
-IFR helicopters operating within IMC conditions may conform to fixed wing ops and be processed via an instrument approach for a appropriate duty runway. Standard fixed wing phraseology shall be used during these conditions.
+Where VMC does not exist, IFR helicopters may conform to fixed wing ops and be processed via an instrument approach for an appropriate duty runway. Standard fixed wing phraseology shall be used during these conditions.
 
 !!! example
     **RSCU533:** "Brisbane Tower, helicopter RSCU533"  
