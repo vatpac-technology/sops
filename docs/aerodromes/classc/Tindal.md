@@ -35,6 +35,11 @@ WEDGE 1 (W1) 285/16
 WEDGE 2 (W2) 260/12
 WEDGE 3 (W3) 200/16
 
+<figure markdown>
+![YPTN GATES](YPTN GATES.jpg){width="700"}
+  <figcaption>YPTN GATES</figcaption>
+</figure>
+
 !!! example 
   CLAS35 plans to enter the R225 area via the MOROTAI Gate for Military Training.
   **TN ADC** "CLAS35, cleared to YPTN via MOROTAI, flight planned route. Runway 14, Intercept the outbound radial by 10 DME. Climb to `F190`. Squawk 6001, Departure Frequency 120.95"   
