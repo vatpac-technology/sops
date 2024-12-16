@@ -36,7 +36,7 @@ Brisbane has one helipad located on taxiway **F4**. Most rescue helicopters are 
 VFR and IFR helicopters are normally processed via two visual waypoints north and south of the field, when in VMC conditions. IFR helicopters in IMC conditions may conform to fixed wing ops and be processed via the BN (RADAR) SID from an appropriate runway, unless a visual departure is acceptable. These waypoints are used for **departures** and **arrivals**, depending on weather and traffic conditions.
 
 
-| Direction               | Waypoint       | Name        |
+| Direction of Flight  | Inbound/Outbound Tracking Point | Name        |
 | ------------------ | -------------- | ---------------- |
 | North      | BLHS   | Bald Hills          |
 | South      | MBHM   | Manly Boat Harbour          |
