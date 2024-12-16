@@ -32,10 +32,10 @@ Aircraft planned via **ANKUB**, **KADOM** or **MUDGI** shall be assigned the **P
 Runways 10/28 is the primary runway at YSRI. 
 
 ## VFR Procedures
-All aircraft outbound and inbound, or transiting the field maintain `A015`.  
+All VFR aircraft outbound and inbound, or transiting the field maintain `A015`.  
 Aircraft transiting the RIC CTR track via the northbound or southbound VFR route.  
-Aircraft tracking northbound contact RIC ADC at Nepean Bridge (NPBR) for clearance.  
-Aircraft tracking southbound contact RIC ADC at Kurmond (KRMD) for clearance.  
+Aircraft transiting northbound contact RIC ADC at Nepean Bridge (NPBR) for clearance.  
+Aircraft transiting southbound contact RIC ADC at Kurmond (KRMD) for clearance.  
 
 !!! tip
     You can find details of the transit route (including reporting points and altitudes) in the [`ERSA FAC YSRI`](https://www.airservicesaustralia.com/aip/current/ersa/FAC_YSRI_28NOV2024.pdf){target=new}.
