@@ -72,12 +72,22 @@ Unless otherwise stated in Local Instructions, Restricted Areas activated for co
 ### Standard Formation
 A **Standard formation** is defined by more than one aircraft, separated by no more than **1nm** laterally/longitudinally, and no more than **100 feet** vertically, from the lead aircraft. All aircraft in the formation are treated as *one*. Ensure only the leader is squawking Mode C.
 
+An additional **1nm** must be applied to any lateral separation standards for aircraft in a Standard Formation (Surveillance standards, for example, become *6nm* for Enroute, *4nm* for ADC/TCU).
+
 !!! note
     RAAF FIHA AD2 Supps and TERMAs can be found [here](https://ais-af.airforce.gov.au/australian-aip){target=new}
+
+When Military formations make initial contact with a new sector, they will commonly "check in" with all of the members of the formation, to ensure they've all made the frequency transfer. This involves all the individual members of the formation saying their own number in order on the first call. Formations are most commonly referred to by their base radio telephony callsign, without any numbers (eg, VIPR, BLKT, WGTL).
 
 !!! phraseology
     **VIPR**: "Viper 1, 2, 3, 4, Brisbane Centre, Viper, Maintaining F280"  
     **ARA**:  "Viper, Brisbane Centre" 
+
+Any subsequent calls will only be made by the leader, representing the entire formation.
+
+!!! phraseology
+    **ARA**: "Viper, Climb to F340"  
+    **VIPR**:  "Climb to F340, Viper" 
 
 ### Close Formation
 Reserved.
