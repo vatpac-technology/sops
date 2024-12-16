@@ -84,7 +84,7 @@ Traffic information must be issued to both aircraft.
 
 !!! example
     **BN ADC:** "UTY7241 traffic is a rescue helicopter north of the field overhead Bald Hills, they will maintain own separation and pass behind you on approach, runway 01L, cleared to land"   
-    **UTY7241:** "Copied rescue helicopter, runway 01L cleared to land, UTY7241"
+    **UTY7241:** "Runway 01L cleared to land, UTY7241"
 
 !!! example
     **BN ADC:** "RSCU533, H2 cleared to land"   
