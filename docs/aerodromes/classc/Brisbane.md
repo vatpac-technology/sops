@@ -48,11 +48,11 @@ VFR and IFR helicopters are normally processed via two visual waypoints north an
 Refer to [Maneuvering Area Responsibility](#maneuvering-area-responsibility) to determine which SMC or ADC position (when non-standard positions are online) is responsible for managing helicopter arrivals and departures.
 
 !!! example
-    **RSCU533:** "Brisbane Delivery, helicopter RSCU533, medivac for YXHE, request clearance"  
-    **BN ACD:** "RSCU533, Brisbane Delivery, cleared to YXHE via BLHS, climb 2500, squawk 1256, departure frequency 124.7"  
-    **RSCU533:** "Cleared to YXHE via BLHS, climb 2500, squawk 1256, departures 124.7, RSCU533"
+    **RSCU533:** "Brisbane Delivery, helicopter RSCU533, MEDEVAC, for YXHE, request clearance"  
+    **BN ACD:** "RSCU533, Brisbane Delivery, cleared to YXHE via amended BLHS, YXHE, climb A025, squawk 1256, departure frequency 124.7"  
+    **RSCU533:** "Cleared to YXHE via amended BLHS, YXHE, climb A025, squawk 1256, departures 124.7, RSCU533"
 
-Taxiway H2 is inside the maneuvering area and therefore owned by **BN SMC-N**, treated like a runway requiring a takeoff and landing clearance by BN ADC. Helicopters departing on other surfaces outside the maneuvering areas should be instructed to *"report airborne"* so the controllers knows when they are active in their airspace. 
+Both taxiway **H2** and **F4** are inside the maneuvering area and treated like a runway, requiring a takeoff and landing clearance from BN ADC. Helicopters departing on other surfaces outside the maneuvering areas should be instructed to *"report airborne"* so the controllers knows when they are active in their airspace. 
 
 !!! example
     **RSCU533:** "Brisbane Tower, helicopter RSCU533, H2 ready"  
