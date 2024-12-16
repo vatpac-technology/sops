@@ -25,7 +25,7 @@ Coordination notes are included for most positions, using the following format:
 
 As a receiving controller, answer a coordination call by stating the name of **your** position.  If you are busy at the time, finish your current radio call and then state your position to indicate that you are ready to receive the message.
 
-!!! example
+!!! phraseology
     *BIK calls SAN with a hotline to discuss an arrival*  
     <span class="hotline">**BIK** -> **SAN**</span>: \***DING**\*  
     <span class="hotline">**SAN** -> **BIK**</span>: "Sydney Approach"  
@@ -78,7 +78,7 @@ Boundary Sector -> Controlling Sector: "(Callsign), (Restriction)"
 
 The Boundary Sector may omit the restriction and readback the callsign only. This will be taken as the Boundary Sector having **no vertical or lateral restrictions**.
 
-!!! example
+!!! phraseology
     <span class="hotline">**INL** -> **BAS**</span>: "For Ident, West of BLAKA, ABC"  
     <span class="hotline">**BAS** -> **INL**</span>: "ABC"
 
@@ -111,7 +111,7 @@ Source: [Annotations](../../controller-skills/annotations)
 | **NRR** | No Restrictions or Requirements | **Any and all** lateral and level changes approved, and No Frequency Requirements |
 
 *Offering NFR*
-!!! example
+!!! phraseology
     *ABC tracking MNG W663 VINOP*  
     <span class="hotline">**BLA** -> **YWE**</span>: "via MNG, ABC, if you have no restrictions or requirements, my onwards with OXL"  
     <span class="hotline">**YWE** -> **BLA**</span>: "ABC, I have no restrictions or requirements, your onwards with OXL"  
@@ -121,7 +121,7 @@ Source: [Annotations](../../controller-skills/annotations)
     BLA will handoff the aircraft directly to OXL
 
 *Initiating NFR*
-!!! example
+!!! phraseology
     *DEF tracking EML-LEMER-RK*  
     <span class="hotline">**SWY** -> **CVN**</span>: "via LEMER, DEF, I have no vertical restrictions or frequency requirements, your onwards with KPL"  
     <span class="hotline">**CVN** -> **SWY**</span>: "DEF, my onwards with KPL"  
@@ -163,7 +163,7 @@ Voice coordinate 'Next' call **within 2 minutes of takeoff** unless overridden b
 
 If Auto Release is suspended by the TCU controller, respond by advising of any aircraft with a takeoff clearance.
 
-!!! example
+!!! phraseology
     <span class="hotline">**TCU** -> **ADC**</span>: "Cancel auto release until time 45"  
     <span class="hotline">**ADC** -> **TCU**</span>: "Cancel auto release until time 45, QLK108D released"  
     <span class="hotline">**TCU** -> **ADC**</span>: "QLK108D"
@@ -232,7 +232,7 @@ Coordination to **International** units shall be done in the following format:
 - Level
 - *"On climb"*/*"On descent*" (if applicable)
 
-!!! example
+!!! phraseology
     <span class="coldline">**IND** -> **FIMM CTR**</span>: "Estimate, QFA63, IBMAT time 33, F360"  
     <span class="coldline">**FIMM CTR** -> **IND**</span>: "QFA63, F360"
 
@@ -248,7 +248,7 @@ Receiving a handoff means you are permitted to turn an aircraft **45 degrees lef
 
 Upon receipt of a handoff, once the aircraft is established **half the applicable lateral standard** (2.5nm for ENR, 1.5nm for ADC/TCU) within your airspace, you are free to turn the aircraft as much as you like. If you need to turn them more than 45 degrees earlier than that, simply ask!
 
-!!! example
+!!! phraseology
     <span class="hotline">**KPL** -> **RKA**</span>: "ZYX, do you have any restrictions?"  
     <span class="hotline">**RKA** -> **KPL**</span>: "ZYX, no restrictions"  
     KPL will place *"RKA NR"* in the label until 2.5nm clear of their airspace, to record that the coordination has been completed.

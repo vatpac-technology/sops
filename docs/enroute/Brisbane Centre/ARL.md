@@ -88,7 +88,7 @@ Sequencing arrivals from the north/east into YSSY is a joint responsibility of t
 
 Aircraft from the north/east shall be assigned **runway 16L/34R** during PROPS. However, some situations may warrant the use of the main runway (16R/34L), such as heavy aircraft operationally requiring the longer runway or large volumes of traffic requiring the use of both runways to minimise delay. In this case, coordination must be conducted with Melbourne Centre or Sydney Flow (if operating) to ensure that the sequence is built in an efficient and orderly way.
 
-!!! example
+!!! phraseology
     <span class="hotline">**ARL** -> **BIK**</span>: "North of Sydney, CPA21, with your concurrence will be assigned runway 34L due operational requirement"  
     <span class="hotline">**BIK** -> **ARL**</span>: "Concur, CPA21 runway 34L, required landing time 43 due sequence from the west"  
     <span class="hotline">**ARL** -> **BIK**</span>: "Runway 34L, landing time 43, CPA21"
@@ -193,7 +193,7 @@ Refer to [Reclassifications](#tw-ctr) for operations when TW ADC is offline.
 #### Departures
 Departures from YSTW in to ARL/MDE Class C will be coordinated when ready for departure.
 
-!!! example
+!!! phraseology
     <span class="hotline">**TW ADC** -> **MDE**</span>: "Next, SKV"  
     <span class="hotline">**MDE** -> **TW ADC**</span>: "SKV, Unrestricted"  
     <span class="hotline">**TW ADC** -> **MDE**</span>: "SKV"  
@@ -203,7 +203,7 @@ The Standard Assignable level from **TW ADC** to ARL/MDE is the lower of `A070` 
 #### Arrivals
 YSTW arrivals shall be heads-up coordinated to **TW ADC** from ARL/MDE prior to **5 mins** from the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**ARL** -> **TW ADC**</span>: "QLK6D, via MATLA DCT STWWD"  
     <span class="hotline">**TW ADC** -> **ARL**</span>: "QLK6D"  
 
@@ -218,7 +218,7 @@ Refer to [Reclassifications](#cfs-ctr) for operations when CFS ADC is offline.
 #### Departures
 Departures from YCFS in to MNN Class C will be coordinated when ready for departure.
 
-!!! example
+!!! phraseology
     <span class="hotline">**CFS ADC** -> **MNN**</span>: "Next, CFH21"  
     <span class="hotline">**MNN** -> **CFS ADC**</span>: "CFH21, Unrestricted"  
     <span class="hotline">**CFS ADC** -> **MNN**</span>: "CFH21"  
@@ -228,7 +228,7 @@ The Standard Assignable level from **CFS ADC** to MNN is the lower of `A070` or 
 #### Arrivals
 YCFS arrivals shall be heads-up coordinated to **CFS ADC** from MNN prior to **5 mins** from the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**MNN** -> **CFS ADC**</span>: "Via KADSI, RXA6438"  
     <span class="hotline">**CFS ADC** -> **MNN**</span>: "RXA6438"  
 
@@ -248,7 +248,7 @@ Voiceless for all aircraft:
 
 All other aircraft going to ARL CTA will be **Heads-up** Coordinated by WLM TCU.
 
-!!! example
+!!! phraseology
     <span class="hotline">**WLM TCU** -> **MLD**</span>: "QJE1597, request DCT OMGAB"  
     <span class="hotline">**MLD** -> **WLM TCU**</span>: "QJE1597, concur DCT OMGAB"  
 
@@ -261,7 +261,7 @@ Voiceless for all aircraft:
 
 All other aircraft coming from ARL CTA must be **Heads-up** Coordinated to WLM TCU prior to **20nm** from the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**CNK** -> **WLM TCU**</span>: "QFA1968, request DCT UPTEB"  
     <span class="hotline">**WLM TCU** -> **CNK**</span>: "QFA1968, concur DCT UPTEB"  
 
@@ -270,5 +270,5 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
 
-!!! example
+!!! phraseology
     **ARL**: "QFA121, identification terminated, report position to Brisbane Radio, 126.45"

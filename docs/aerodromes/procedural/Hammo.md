@@ -29,7 +29,7 @@ Surveillance coverage can be expected to be not available below `A031` in the HM
 ### Departures
 A 'next' call is made for all aircraft entering KPL(SWY) CTA when they are next to depart. HM ADC must inform KPL(SWY) if the aircraft does not depart within **2 minutes** of the next call.
 
-!!! example
+!!! phraseology
     <span class="hotline">**HM ADC** -> **SWY**</span>: "Next, QFA797"  
     <span class="hotline">**SWY** -> **HM ADC**</span>: "QFA797, Unrestricted"  
     <span class="hotline">**HM ADC** -> **SWY**</span>: "QFA797"
@@ -39,7 +39,7 @@ The Standard Assignable level from HM ADC to KPL(SWY) is the lower of `A050` or 
 ### Arrivals/Overfliers
 KPL(SWY) will heads-up coordinate all arrivals/overfliers to HM ADC
 
-!!! example
+!!! phraseology
     <span class="hotline">**SWY** -> **HM ADC**</span>: "Via OPOSI for the RNP-U RWY 32, JST848”  
     <span class="hotline">**HM ADC** -> **SWY**</span>: "JST848"  
 

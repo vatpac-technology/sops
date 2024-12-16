@@ -33,7 +33,7 @@ LM ADC owns the Class C airspace within the LM CTR from `SFC` to `A015`.
 #### Departures
 'Next' coordination is required from LM ADC to LM TCU for all aircraft.
 
-!!! example
+!!! phraseology
     <span class="hotline">**LM ADC** -> **LM TCU**</span>: "Next, QFA1601, runway 36"  
     <span class="hotline">**LM TCU** -> **LM ADC**</span>: "QFA1601, Right heading 060 Visual, unrestricted"  
 
@@ -45,7 +45,7 @@ Planned below `F270`: `Assigned the RFL`
 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
-!!! example
+!!! phraseology
     <span class="hotline">**LM TCU** -> **OLW**</span>: "QFA1601, with your concurrence, will be assigned F160, for my separation with JTE654"  
     <span class="hotline">**OLW** -> **LM TCU**</span>: "QFA1601, concur F160"  
 

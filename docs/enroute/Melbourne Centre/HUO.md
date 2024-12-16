@@ -37,7 +37,7 @@ HUO may choose to operate either YMHB or YMLT (or both) aerodromes top down, inc
 
 If HUO chooses to operate top down to either aerodrome, they must administer all relevant airspace within the appropriate TMA, including the class D CTR.
 
-!!! important
+!!! warning "Important"
     Ensure you are familiar with the aerodrome procedures for [Launceston](../../../aerodromes/Launceston) and [Hobart](../../../aerodromes/Hobart) before extending top down, and are aware of the limited surveillence coverage available in the lower levels of the TMA.
 
 !!! tip
@@ -142,8 +142,13 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
 
+<<<<<<< HEAD
 !!! example
     **HUO**: "QFA121, identification terminated, report position to Brisbane Radio, 129.25"
 
 ### ES TCU
 Reserved.
+=======
+!!! phraseology
+    **HUO**: "QFA121, identification terminated, report position to Brisbane Radio, 129.25"
+>>>>>>> origin/main

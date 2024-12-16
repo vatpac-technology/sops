@@ -32,7 +32,7 @@ Voice may be used in lieu when applicable.
 ISA is responsible for **ARA**, **STR**, and **WEG** when they are offline.  
 
 ## Extending
-!!! Warning
+!!! warning "Important"
     Due to the large geographical area covered by this sector and it's neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
 
 ## Sector Responsibilities
@@ -80,6 +80,6 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 ### International (WAAF)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#other-units), Heads-up Coordination required for all aircraft prior to **30 mins** from boundary.
 
-!!! example
+!!! phraseology
     <span class="coldline">**ARA** -> **WAAF CTR**</span>: "Estimate, CEB40, TOREX time 59, F360"  
     <span class="coldline">**WAAF CTR** -> **ARA**</span>: "CEB40, F360"
