@@ -26,6 +26,7 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 Surveillance coverage can be expected to be not available below `A034` in the TW CTR. Although TW ADC is **not permitted** to use surveillance for separation, ARL/MDE may assist by establishing surveillance separation standards via coordination
 
 ## Local Lateral Separation Points
+The positions in each table header below are procedurally separated from each other, provided the conditions in each table row are met. At least one condition must be met in each column.
 
 | South and East of<br>New England Highway - Manilla Rd | vs | 040 Radial |
 | ----------- | ----------------- | ----------------- |
@@ -57,7 +58,9 @@ Surveillance coverage can be expected to be not available below `A034` in the TW
 | LLC West of **GWT** | | |
 | LLC North of<br>**DGN - NEM - Tamworth City<br>- MAL via Manilla Rd** | | |
 
-## Runway Operations
+## Runway Modes
+Equal preference is shared between runways 12L/R and 30L/R.
+
 Runway 12R/30L shall be used for:
 
 - All single-engine VFR arrivals and departures from the 160 Radial through West to the 295 Radial
@@ -65,11 +68,18 @@ Runway 12R/30L shall be used for:
 - Departures via GST or GWT
 - Single-engine circuit training
 
-Runway 12L/30R shall be used for all other operations.  
-`ERSA FAC YSTW`
+Runway 12L/30R shall be used for all other operations. 
+
+### Simultaneous Parallel Runway Ops
+During day VMC only, simultaneous parallel runway operations may be used between runways 12L/R or 30L/R. The [ATIS](#operational-info) must be updated to reflect this mode. Controllers must closely monitor the base and final legs of the circuit to ensure pilots do not pass through their assigned runway centreline.
 
 ## Circuits
 Circuits are to be flown in the direction coinciding with the Runway designator (Left/Right) at `A024`.
+
+## ATIS
+### Operational Info
+When parallel runway operations are in use, the ATIS OPR INFO field shall include:  
+`SIMUL PARL RWY OPS IN USE. EXP TRAFFIC ON FINAL AND OPP BASE OF THE PARL RWY`
 
 ## Coordination
 ### Departures
