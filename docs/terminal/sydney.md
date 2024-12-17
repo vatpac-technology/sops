@@ -36,7 +36,6 @@ SY TCU is responsible for the Sydney TMA, except:
 - R470 Restricted Area, when RIC ADC is online (or as negotiated)  
 
 ### Reclassifications
-
 #### BK CTR
 BK CTR reverts to Class G when **BK ADC** is offline, and is administered by the relevant SY TCU controller.
 
@@ -44,6 +43,14 @@ See also: [BK ADC Offline](#bk-adc-offline).
 
 #### CN CTR
 CN CTR reverts to Class G when **CN ADC** is offline, and is administered by the relevant SY TCU controller.
+
+#### RI CTR
+RI ADC being online will activate the **R470** Restricted Area, which is reclassified as **Class C** when active.
+
+Control authority of the **R470** Restricted Area when active is as follows:
+
+- RI ADC `SFC`-`A015`
+- SY TCU (SDN) `A015`-`A045`
 
 ### Airspace Structural Arrangements
 Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, the following rules apply, in the order presented, to these controller positions, except **SFL**:  
@@ -661,7 +668,14 @@ SY TCU will **NOT** clear the aircraft for the approach.
 
 **CN ADC** must issue an airways clearance to these aircraft on first contact.
 
-### RIC ADC
-Reserved.
+### RI ADC
+'Next' coordination is required from RI ADC to SY TCU for all aircraft.
+
+!!! example
+    <span class="hotline">**RI ADC** -> **SDN**</span>: "Next, TROJ57, runway 28"  
+    <span class="hotline">**SDN** -> **RI ADC**</span>: "TROJ57, unrestricted"  
+    <span class="hotline">**RI ADC** -> **SDN**</span>: "TROJ57"  
+
+The Standard Assignable Level from **RI ADC** to **SY TCU** is the lower of `A050` or `RFL`.  
 
 </details>

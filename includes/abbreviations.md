@@ -258,6 +258,8 @@
 *[PWLC]: Powerline Crossing
 *[LUY]: Latrobe University
 *[WMS]: Williamstown
+*[NPBR]: Nepean Bridge
+*[KRMD]: Kurmond
 *[YBBB]: Brisbane FIR
 *[YMMM]: Melbourne FIR
 *[NFFF]: Nadi FIR

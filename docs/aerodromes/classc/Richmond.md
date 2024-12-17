@@ -12,42 +12,43 @@
 | **Richmond SMC**    | **Richmond Ground**  | **128.250**      | **RI_GND**        |
 | Richmond ATIS    |   | 123.300         | YSRI_ATIS       |
 
-
-
 ## Airspace
+RI ADC being online will activate the **R470** Restricted Area, which is reclassified as **Class C** when active.
 
-RIC ADC owns the Class C airspace **in the RIC CTR** within 10nm of the YSRI ARP from `SFC` to `A045`. This airspace is primarily used for military circuits, initial and pitch approaches and airdrops.
+Control authority of the **R470** Restricted Area when active is as follows:
+
+- RI ADC `SFC`-`A015`
+- SY TCU (SDN) `A015`-`A045`
 
 ## Charts
 !!! note
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP Page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
-
-## YSRI Aerodrome
-
+## Aerodrome
 ### SID Selection
-Aircraft planned via **ANKUB**, **KADOM** or **MUDGI** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Aircraft who are not planned via those points or who are negative RNAV may be assigned a RADAR SID or a visual departure.
+vatSys does not have SIDs built-in for YSRI. Aircraft planned via **ANKUB**, **KADOM** or **MUDGI** may be assigned the SID that terminates at the appropriate waypoint, as long as ATC is familiar with the chart, and the pilot is able.
 
-### Runway Operations
-Runways 10/28 is the primary runway at YSRI. 
+Aircraft who are not planned via these points, or who are negative RNAV, may be assigned a visual departure.
 
 ## VFR Procedures
 All VFR aircraft outbound and inbound, or transiting the field maintain `A015`.  
 Aircraft transiting the RIC CTR track via the northbound or southbound VFR route.  
-Aircraft transiting northbound contact RIC ADC at Nepean Bridge (NPBR) for clearance.  
-Aircraft transiting southbound contact RIC ADC at Kurmond (KRMD) for clearance.  
+Aircraft transiting northbound contact RI ADC at NPBR for clearance.  
+Aircraft transiting southbound contact RI ADC at KRMD for clearance.  
 
 !!! tip
-    You can find details of the transit route (including reporting points and altitudes) in the [`ERSA FAC YSRI`](https://www.airservicesaustralia.com/aip/current/ersa/FAC_YSRI_28NOV2024.pdf){target=new}.
+    You can find details of the transit route (including reporting points and altitudes) in the [ERSA FAC YSRI and VTC](https://www.airservicesaustralia.com/aip/aip.asp){target=new}.
 
 ### Training Areas
-Richmond has 3 training areas surrounding the field used for  civil and military operations.
+There are three training areas located within **R470**, used for civil and military operations.
 
 | **Name**                 | **Identifier** | **Vertical Limits** | **Notes**                        |
 |-------------------------|---------------|---------------------|-----------------------------------|
-| Londonderry Training Area| LDD TA        | `SFC - A015`        | Contained within R470             |
-| Northern Training Area| NTA TA        | `SFC - A060`        | Contained within R470             |
-| Southern Training Area| STA TA        | `SFC - A040`        | Contained within R470             |
+| Londonderry Training Area | LDD TA        | `SFC - A015`        | Contained within R470             |
+| Northern Training Area | NTA TA        | `SFC - A060`        | Contained within R470             |
+| Southern Training Area | STA TA        | `SFC - A040`        | Contained within R470             |
+
+Refer to [YSRI FIHA AD2 SUPP](https://ais-af.airforce.gov.au/australian-aip){target=new} for charts and more info.
 
 ## Miscellaneous
 ### Circuit Operations
@@ -66,15 +67,12 @@ A start approval is required whenever parachute drops are conducted onto the Ric
 The standard inital points are 5nm downwind of the active runway, dead side, left pitch/circuit.
 
 ## Coordination
-### RIC TCU
-
-'Next' coordination is required from RIC ADC to SY TCU for all aircraft.
+### SY TCU
+'Next' coordination is required from RI ADC to SY TCU for all aircraft.
 
 !!! example
-    <span class="hotline">**RIC ADC** -> **SY TCU**</span>: "Next, TROJ57, runway 28"  
-    <span class="hotline">**SY TCU** -> **RIC ADC**</span>: "TROJ57, unrestricted"  
-    <span class="hotline">**RIC ADC** -> **SY TCU**</span>: "TROJ57"  
+    <span class="hotline">**RI ADC** -> **SDN**</span>: "Next, TROJ57, runway 28"  
+    <span class="hotline">**SDN** -> **RI ADC**</span>: "TROJ57, unrestricted"  
+    <span class="hotline">**RI ADC** -> **SDN**</span>: "TROJ57"  
 
-### Level Assignment
-The Standard Assignable Level from  **RIC ADC** to **SY TCU** is:  
-a) The Lower of `A050` or `RFL` for Aircraft assigned via Procedural or RNAV SID.  
+The Standard Assignable Level from **RI ADC** to **SY TCU** is the lower of `A050` or the `RFL`.  
