@@ -83,7 +83,7 @@ During times of peak fixed wing traffic, instruct helicopters to orbit in presen
 Traffic information must be issued to both aircraft.
 
 !!! example
-    **BN ADC:** "UTY7241 traffic is a rescue helicopter north of the field overhead Bald Hills, they will maintain own separation and pass behind you on approach, runway 01L, cleared to land"   
+    **BN ADC:** "UTY7241 traffic is a rescue helicopter north of the field overhead Bald Hills, they will maintain own separation and pass behind you on approach, Runway 01L, cleared to land"   
     **UTY7241:** "Runway 01L cleared to land, UTY7241"
 
 !!! example
