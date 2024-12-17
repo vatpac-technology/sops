@@ -51,19 +51,23 @@ This technique is useful for situations such as:
     **SY ADC:** "JST219, traffic is a helicopter becoming airborne from RPA, approximately 4nm final, maintaining own separation with you, runway 16L, cleared to land"
 
 ## Geographic Features
-Two aircraft are considered to be laterally separated where one or both are operating with visual reference to a fixed geographic feature, such as a coastline, river, large highway, etc. A 1nm buffer must be applied to one aircraft's tracking.
+Two aircraft are considered to be *laterally separated* where one or both are operating with visual reference to a fixed geographic feature, such as a coastline, river, large highway, etc.
+
+A **1nm** buffer must be applied to one aircraft's tracking.
 
 <figure markdown>
-![Both aircraft tracking visually](img/geovisual.png){ width="600" }
+![Both aircraft tracking visually](img/1nmgeosep.png){ width="600" }
   <figcaption>Both aircraft operating with visual reference to a common geographic feature</figcaption>
 </figure>
 
-The second aircraft may either operate with visual reference to the geographic feature or on another track (with any navigational tolerances applied). The 1nm buffer must be applied to either aircraft's track. 
+!!! example
+    **Aircraft A** operating **1nm East** of the Pacific Highway  
+    is *laterally separated* from  
+    **Aircraft B** operating *West* of the Pacific Highway.  
 
-<figure markdown>
-![One aircraft tracking visually](img/geoloc.png){ width="600" }
-  <figcaption>One aircraft established on the localiser, with a 1nm buffer applied in addition to the normal navigational tolerance</figcaption>
-</figure>
+    **Aircraft C** operating *North* of the Murray River  
+    **is not** laterally separated from  
+    **Aircraft D** operating *South* of the Murray River.
 
 !!! phraseology
     *RXA6418 (SAAB 340) is inbound to YCFS from the south and has reported visual. They are vertically separated from an outbound aircraft who is departing to the south.*  
@@ -71,7 +75,7 @@ The second aircraft may either operate with visual reference to the geographic f
     **RXA6418:** "Track to remain 1nm offshore, RXA6418"  
 
     **RXA6418:** "RXA6418, established 1nm offshore"  
-    *The aircraft are now laterally separated, allowing ADC to issue further descent.*  
+    *RXA6418 is now separated from aircraft operating over land, allowing ADC to issue further descent.*  
     **CFS ADC:** "RXA6418, descend to A050"  
     **RXA6418:** "Descend A050, RXA6418"  
 
