@@ -24,11 +24,22 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 Surveillance coverage can be expected to be not available below `A028` in the CFS CTR. Although CFS ADC is **not permitted** to use surveillance for separation, ARL(MNN) or INL may assist by establishing surveillance separation standards via coordination
 
 ## Local Lateral Separation Points
-The positions in each table header below are procedurally separated from each other, provided the conditions in each table row are met. At least one condition must be met in each column.
+Due to the convergence of inbound/outbound air routes approaching CFS, the [geographic feature separation standard](../../separation-standards/visual.md#geographic-features) may be useful to efficiently process opposite direction aircraft from the north or south.
 
-| East of the coastline | vs | West of the coastline |
-| ----------- | ----------------- | ----------------- |
-| LLC 1nm east of the coast | | LLC established over land |
+The coastline is a good reference for this standard. Due to high terrain close to the coast, it is recommended that the offshore aircraft be positioned at least 1nm from the geographical feature (the coast), allowing the aircraft over land to maintain adequate separation with terrain.
+
+!!! phraseology
+    *RXA6418 (SAAB 340) is inbound to YCFS from the south and has reported visual. QLK102D is outbound from YCFS, departing to the south.*  
+    **CFS ADC:** "RXA6418, track to remain 1nm offshore, report established"  
+    **RXA6418:** "Track to remain 1nm offshore, RXA6418"  
+
+    **RXA6418:** "RXA6418, established 1nm offshore"  
+    *The aircraft are now laterally separated, allowing ADC to issue further climb/descent as necessary.*  
+    **CFS ADC:** "RXA6418, descend to A050"  
+    **RXA6418:** "Descend A050, RXA6418"  
+
+    *Once both aircraft have passed and/or another separation standard is available (e.g. vertical separation), the geographic feature standard can be relaxed.*  
+    **CFS ADC:** "RXA6418, cancel the offshore requirement, track for downwind runway 21, cleared visual approach"
 
 ## Coordination
 ### Departures
