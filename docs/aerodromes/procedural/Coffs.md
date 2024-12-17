@@ -23,6 +23,13 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 ## Surveillance
 Surveillance coverage can be expected to be not available below `A028` in the CFS CTR. Although CFS ADC is **not permitted** to use surveillance for separation, ARL(MNN) or INL may assist by establishing surveillance separation standards via coordination
 
+## Local Lateral Separation Points
+The positions in each table header below are procedurally separated from each other, provided the conditions in each table row are met. At least one condition must be met in each column.
+
+| East of the coastline | vs | West of the coastline |
+| ----------- | ----------------- | ----------------- |
+| LLC 1nm east of the coast | | LLC established over land |
+
 ## Coordination
 ### Departures
 A 'next' call is made for all aircraft entering INL/ARL(MNN) CTA when they are next to depart. CFS ADC must inform INL/ARL(MNN) if the aircraft does not depart within **2 minutes** of the next call.
