@@ -168,7 +168,7 @@ Another common practice is to see controllers issue an intermediate descent to t
 
 This is **entirely unnecessary**, and just uses up additional talking time, and increases controller workload.
 
-!!! note
+!!! phraseology
     **ARL:** "QLK4D, When ready descend to F130"  
     ...  
     **ARL:** "QLK4D, Descend to A090, Area QNH 1013"  
