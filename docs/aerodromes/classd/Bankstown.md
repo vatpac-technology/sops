@@ -89,7 +89,7 @@ Helicopters should track outbound via one of the helicopter reporting points at 
 
 Helicopters shall report ready to **BK ADC** with their departure intentions. In response, **BK ADC** will clear the aircraft for takeoff and instruct them to track via the appropriate exit gate.
 
-!!! example
+!!! phraseology
     **YZD:** "Bankstown Tower, helicopter YZD, main pad, for Choppers North departure, ready"  
     **BK ADC:** "YZD, Bankstown Tower, depart Choppers North, main pad, cleared for takeoff"
 
@@ -102,7 +102,7 @@ Helicopters shall report ready to **BK ADC** with their departure intentions. In
 ### Circuits
 Circuits are conducted within the lateral confines of the fixed-wing circuit at `A007`, in the same direction as the current runway config. The termination point of the circuit is the Main Pad.
 
-!!! example
+!!! phraseology
     **BK ADC:** "SUA, main pad, cleared stop and go"
 
 ## ATIS
@@ -122,7 +122,7 @@ When the aircraft is ready for departure, Tower will coordinate with the relevan
 
 The Standard Assignable level from BK ADC to SY TCU is `A030`, any other level must be prior coordinated.
 
-!!! example
+!!! phraseology
     <span class="hotline">**BK ADC** -> **SY TCU**</span>: "Next, UJN, runway 29C"  
     <span class="hotline">**SY TCU** -> **BK ADC**</span>: "UJN, unrestricted"  
     <span class="hotline">**BK ADC** -> **SY TCU**</span>: "UJN"
@@ -134,7 +134,7 @@ SY TCU will heads-up coordinate arrivals/overfliers from Class C to BK ADC.
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to BK ADC, unless BK ADC nominates a restriction.  
 VFR aircraft require a level readback.
 
-!!! example
+!!! phraseology
     <span class="hotline">**SY TCU** -> **BK ADC**</span>: "via GRB, UJN"  
     <span class="hotline">**BK ADC** -> **SY TCU**</span>: "UJN, A010"
 
