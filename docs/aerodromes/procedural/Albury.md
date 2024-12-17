@@ -28,7 +28,7 @@ Surveillance coverage can be expected to be available at all levels in the AY CT
 ### Departures
 A 'Next' call is made for all aircraft entering ELW(BLA) CTA when they are next to depart. AY ADC must inform ELW(BLA) if the aircraft does not depart within **2 minutes** of the next call.
 
-!!! example
+!!! phraseology
     <span class="hotline">**AY ADC** -> **BLA**</span>: "Next, AM324"  
     <span class="hotline">**BLA** -> **AY ADC**</span>: "AM324, Unrestricted"  
     <span class="hotline">**AY ADC** -> **BLA**</span>: "AM324"
@@ -38,7 +38,7 @@ The Standard Assignable level from AY TWR to ELW(BLA) is the lower of `A070` or 
 ### Arrivals/Overfliers
 ELW(BLA) will heads-up coordinate all arrivals/overfliers to AY ADC
 
-!!! example
+!!! phraseology
     <span class="hotline">**BLA** -> **AY ADC**</span>: "Via ARRAN1 Arrival, RXA6783”  
     <span class="hotline">**AY ADC** -> **BLA**</span>: "RXA6783"  
 

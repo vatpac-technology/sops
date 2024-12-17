@@ -172,7 +172,7 @@ Refer to [Reclassifications](#ay-ctr) for operations when AY ADC is offline.
 #### Departures
 Departures from YMAY in to BLA Class C will be coordinated when ready for departure.
 
-!!! example
+!!! phraseology
     <span class="hotline">**AY ADC** -> **BLA**</span>: "Next, RXA6772"  
     <span class="hotline">**BLA** -> **AY ADC**</span>: "RXA6772, Unrestricted"  
     <span class="hotline">**AY ADC** -> **BLA**</span>: "RXA6772"  
@@ -182,7 +182,7 @@ The Standard Assignable level from **AY ADC** to BLA is the lower of `A070` or t
 #### Arrivals
 YMAY arrivals shall be heads-up coordinated to **AY ADC** from BLA prior to **5 mins** from the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**BLA** -> **AY ADC**</span>: "via VEGRU1 arrival, QLK38"  
     <span class="hotline">**AY ADC** -> **BLA**</span>: "QLK38, VEGRU1 arrival" 
 
@@ -193,5 +193,5 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
 
-!!! example
+!!! phraseology
     **ELW**: "QFA121, identification terminated, report position to Brisbane Radio, 124.65"
