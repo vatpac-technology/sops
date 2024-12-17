@@ -17,7 +17,7 @@
 
 PE ADC owns the Class C airspace **in the PE CTR** within 5nm of the YPEA ARP from `SFC` to `A035`. This airspace is primarily used for military circuits and initial and pitch approaches.
 
-### Sid Selection
+### SID Selection
 Aircraft planned via **WAMAL**, **GUNOK**, **ALKIMOS**, **MULLALOO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
 Aircraft who are not planned via those points or who are negative RNAV may be assigned a RADAR SID or a visual departure. 
 
@@ -32,7 +32,7 @@ b) `F130` for Aircraft assigned a Coded Departure.
 #### Miscellaneous
 
 ### Circuit Operations 
-The Circuit Area Airspace is allocated to be within 5nm of the YPEA ARP from `SFC` to `A032`. Aircraft can be instructed to extend outside of this airspace by ATC for traffic management. Hawks have circuit altitude of 1600 while both 2FTS and RSAF PC21s are assigned 1200ft.
+The Circuit Area Airspace is allocated to be within 5nm of the YPEA ARP from `SFC` to `A035'. Aircraft can be instructed to extend outside of this airspace by ATC for traffic management. Hawks have circuit altitude of A016 while both 2FTS and RSAF PC21s are assigned A012.
 
 !!! Note
   36L/18R is unsuitable for HAWK Aircraft
@@ -51,12 +51,12 @@ The Circuit Area Airspace is allocated to be within 5nm of the YPEA ARP from `SF
 
 | Runway | Direction Initial | Inital Altitude
 | ------ | ------------------|----------------|
-| 5      |  Any | 1000
-| 18L    | Left/Straight | 1500 | Right | 1000
-| 18R    | Left/Straight | 1500 | Right | 1000
-| 23     | Any | 1500
-| 36L    | Left | 1000 | Right | 1500
-| 36R    | Left | 1000 | Right | 1500
+| 5      |  Any | A010
+| 18L    | Left/Straight | A015 | Right | A010
+| 18R    | Left/Straight | A015 | Right | A010
+| 23     | Any | A015
+| 36L    | Left | A010 | Right | A015
+| 36R    | Left | A010 | Right | A015
 
 ## Coordination
 ### PE TCU
@@ -64,7 +64,7 @@ The Circuit Area Airspace is allocated to be within 5nm of the YPEA ARP from `SF
 'Next' coordination is required from PE ADC to PE TCU for all aircraft.
 
 !!! example
-    <span class="hotline">**PE ADC** -> **PE TCU**</span>: "Next, ASY01, runway 33"  
+    <span class="hotline">**PE ADC** -> **PE TCU**</span>: "Next, ASY01, runway 36R"  
     <span class="hotline">**PE TCU** -> **PE ADC**</span>: "ASY01, Assigned Heading Right 030, unrestricted"  
     <span class="hotline">**PE ADC** -> **PE TCU**</span>: "Assigned Heading Heading Right 030, ASY01"
 ## Charts
