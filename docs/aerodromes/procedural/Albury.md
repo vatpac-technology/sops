@@ -25,7 +25,7 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 Surveillance coverage can be expected to be available at all levels in the AY CTR. Although AY ADC is **not permitted** to use surveillance for separation, ELW(BLA) may assist by establishing surveillance separation standards via coordination
 
 ## Local Lateral Separation Points
-Due to the convergence of inbound/outbound air routes approaching AY, the [geographic feature separation standard](../../separation-standards/visual.md#geographic-features) may be useful to efficiently process opposite direction aircraft from the north or south.
+Due to the convergence of inbound/outbound air routes approaching AY, the [geographic feature separation standard](../../separation-standards/visual.md#geographic-features) may be useful to efficiently process opposite direction aircraft from the north.
 
 The **Hume Highway** is a good reference for this standard.
 
