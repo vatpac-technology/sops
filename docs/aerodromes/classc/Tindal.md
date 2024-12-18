@@ -14,7 +14,8 @@
 | Tindal ATIS    |   |  124.000        | YPTN_ATIS       |
 
 ## Airspace
-TN ADC owns the Class C airspace **in the TN CTR** within 10nm of the YPTN ARP from `SFC` to `A025`. This airspace is primarily used for military circuits and initial and pitch approaches.
+TN ADC is not responsible for any airspace by default.  
+In order to facilitate circuit operations, TN ADC may request a release of airspace within the TN MIL CTR from TN TCU, or take ownership of airspace within the TN MIL CTR if TN TCU is offline.
 
 ### SID Selection
 Aircraft planned via **DN**, **LAREB**, **GREGA**, **DOSAM**, **MILIV**, **MIGAX**, **DAPMA** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
@@ -59,7 +60,7 @@ Place/Bearing Distance points in the FDR can be used for this, with **TN** as th
 The Circuit Area Airspace is allocated to be within 5nm of the YPTN ARP from `SFC` to `A025`. Aircraft can be instructed to extend outside of this airspace by ATC for traffic management. 
 
 !!! note
-    If a Fast Jet is in the pattern, all other aircraft are required to be seperated by 1000ft as such the min circuit height becomes A025 when Fast Jet are in the pattern.
+    Do not mix Fast Jets with standard performance aircraft in the circuit, otherwise separation cannot be assured.
 
 #### Circuit Direction
 | Runway | Direction |
@@ -79,7 +80,6 @@ The intial point is at 2000ft on the extended centerline of Taxiway Alpha at 6.5
 
 ## Coordination
 ### TN TCU
-
 'Next' coordination is required from TN ADC to TN TCU for all aircraft.
 
 !!! phraseology
@@ -87,6 +87,9 @@ The intial point is at 2000ft on the extended centerline of Taxiway Alpha at 6.5
     <span class="hotline">**TN TCU** -> **TN ADC**</span>: "ASY01, Assigned Heading Right 030, unrestricted"  
     <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Assigned Heading Heading Right 030, ASY01"  
 
-#### Charts
+### TRT(TRS)
+When TN TCU is offline, coordination is not required between TN ADC and TRT(TRS). Aircraft entering TRT(TRS) airspace shall be handed off, and instructed to contact TRT(TRS) for onwards clearance.
+
+## Charts
 !!! note
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
