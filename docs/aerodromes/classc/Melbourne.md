@@ -32,7 +32,7 @@ If winds are too great, single runway operations may be necessary (eg, Runway 16
 | 16A/27D    | 16 | 27  |
 | 09A/16D    | 09 | 16  |
 
-!!! info
+!!! information
     When utilising the 27AD/34D runway mode, Heavy Aircraft may require Runway 34 for departure due to the shorter length of Runway 27. Assigning Runway 34 to aircraft from the southern apron can also improve aerodrome efficiency due to the reduced taxi distance.
 
 !!! note
@@ -45,7 +45,7 @@ Jet Aircraft planned via **MNG**, **NONIX**, **DOSEL**, **CORRS**, **KEPPA**, **
     Jet Aircraft planned via DOSEL, assigned runway 27, shall be given the DOSEL SID.
 
 #### Off Mode Departures
-!!! info "Definition"
+!!! definition
     **Off Mode:** Aircraft departing from a runway not prescribed as active for departures on the ATIS. For example, a heavy aircraft that operationally requires Runway 16 for departure during the 16A/27D Mode.
 
 For jet aircraft departing Runway 16 **Off Mode** via **MNG**, **NONIX**, **DOSEL**, **KEPPA**, **NEVIS**, or **ESDIG**, the **ISPEG SID** must be assigned. **Off Mode** departures to the south-east shall be assigned the relevant **Procedural SID**.
@@ -107,20 +107,20 @@ Day VFR Helicopters may request clearance via the **Sunbury Corridor**. It is de
 
 Boundary Coordination must be completed to ML TCU for clearances in this airspace
 
-!!! phraseology
+!!! example
     <span class="hotline">**ML ADC** -> **ML TCU**</span>: "For Ident, HM3, Sunbury Corridor, not above A020"  
     <span class="hotline">**ML TCU** -> **ML ADC**</span>: "HM3, No Restrictions"  
 
 Due to the close proximity of the airspace to the arrival and departure paths at YMML, controllers should be aware of surrounding traffic before issuing a clearance to helicopters.
 
-!!! phraseology
+!!! example
     **HM3:** "Melbourne Tower, HM3, approaching SWT, A020, for YMEN via the Sunbury Corridor, request clearance"  
     **ML ADC:** "HM3, cleared to YMEN, track Sunbury Corridor, not above A020"  
     **HM3:** "Cleared to YMEN, track Sunbury Corridor, not above A020, HM3"
 
 If necessary, consider issuing a clearance limit for separation or instruct helicopters to report sighting and to maintain own separation with other aircraft.  Alternatively, tower controllers can simulate visual separation provided no risk of collision exists and both aircraft remain in sight of the controller at all times. 
 
-!!! phraseology
+!!! example
     **ML ADC:** "HM3, report sighting a Jetstar A320, 4nm final runway 16"  
     **HM3:** "Traffic sighted, HM3"  
     **ML ADC:** "HM3, pass behind that aircraft, maintain own separation, caution wake turbulence"  
@@ -128,7 +128,7 @@ If necessary, consider issuing a clearance limit for separation or instruct heli
 
 Remember to pass traffic information to both aircraft.
 
-!!! phraseology
+!!! example
     **ML ADC:** "JST515, traffic is a helicopter, 2nm northwest of the field, tracking for Essendon and maintaining own separation with you, runway 16, cleared to land"  
     **JST515:** "Runway 16, cleared to land, JST515"
 
@@ -144,7 +144,7 @@ To commence the procedure:
 2. **SMC** coordinates with **ADC** in order to have the [ATIS](#acd-pushback-requests) updated.
 3. **ACD** places the `MONITOR GROUND` bar in the **Cleared Bay** in [OzStrips](../../client/towerstrips.md#coordinator).
 
-!!! phraseology
+!!! example
     <span class="hotline">**ML SMC** -> **ML ACD**</span>: "It's getting quite busy. Happy to implement Pushback requests on your frequency?"  
     <span class="hotline">**ML ACD** -> **ML SMC**</span>: "Understood, affirm"  
     <span class="hotline">**ML SMC** -> **ML ACD**</span>: "Thanks, I'll talk to Tower"  
@@ -162,10 +162,10 @@ To operate with pushback requests on ACD:
 
 The decision whether or not to send an aircraft to SMC or hold them on the ACD frequency should be made in accordance with the [Queue Management](#queue-management) techniques.
 
-!!! warning "Important"
+!!! important
     If SMC needs to reduce the pushback rate due to congestion at the holding points or excessive workload, **ACD** should be informed without delay, and instructed to hold all departures on their frequency. This will stop aircraft being told to monitor the SMC frequency. Remember to cancel this requirement when congestion eases.
 
-!!! phraseology
+!!! example
     **VOZ543:** "Melbourne Delivery, VOZ543, PDC read back"  
     **ML ACD:** "VOZ543, go ahead the read back"  
     **VOZ543:** "DOSEL1 departure, squawk 1336, bay E8, VOZ543"  
@@ -183,7 +183,7 @@ If a delay is required prior to transferring an aircraft to SMC, provide an esti
 !!! tip
     Remember that the **bottom** aircraft represents the **front** of the queue.
 
-!!! phraseology
+!!! example
     **VOZ543:** "Melbourne Delivery, VOZ543, bay E8, request pushback"  
     **ML ACD:** "VOZ543, estimated delay 10 minutes, remain this frequency."
 
@@ -197,7 +197,7 @@ To reduce SMC workload, ACD should not allow more than **three** aircraft to be 
 
 When SMC moves an aircraft from below the **Monitor Ground** bar to the **Pushback Bay**, ACD should instruct the next aircraft in line to monitor the SMC frequency (and move the strip appropriately).
 
-!!! warning "Important"
+!!! important
     Strips must remain in the strip bay of their **current state**, even if they are in a queue. For example, if they have received an airways clearance and are in the queue for pushback, they must remain in the **Cleared Bay**, **not** the Pushback Bay.
 
 #### COBT Slot Times
@@ -210,7 +210,7 @@ During busy events, VATPAC may utilise prebooked slots to manage traffic congest
 
 ## Coordination
 ### Auto Release
-!!! warning "Important"
+!!! important
     Melbourne utilises auto release for all **Procedural** SIDs and the **ML (RADAR)** SID provided aircraft are assigned the Standard Assignable Level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
 'Next' coordination is **not** required for aircraft that are:  
@@ -229,7 +229,7 @@ During busy events, VATPAC may utilise prebooked slots to manage traffic congest
 
 All other aircraft require a 'Next' call to ML TCU.
 
-!!! phraseology
+!!! example
     <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, JIA, runway 34"  
     <span class="hotline">**ML TCU** -> **ML ADC**</span>: "JIA, Track Extended Centreline, Unrestricted"  
     <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Track Extended Centreline, JIA"  
@@ -266,7 +266,7 @@ Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace
 ### EN ADC
 EN ADC is responsible for separation with all YMML traffic, and will coordinate any aircraft operating in EN ADC airspace that cannot be visually or laterally separated with YMML traffic.
 
-!!! phraseology 
+!!! example 
     <span class="hotline">**EN ADC** -> **ML ADC**</span>: "Boundary Ident, OXG, Published Missed Approach from the ILS 26"  
     <span class="hotline">**ML ADC** -> **EN ADC**</span>: "OXG, My restriction is QFA451 on a 10nm final RWY 34. Your separation"  
     <span class="hotline">**EN ADC** -> **ML ADC**</span>: "My separation with QFA451, OXG"

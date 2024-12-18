@@ -10,13 +10,13 @@ The most important job of the ELW/BLA controller is the sequencing for YMML. Lik
 This is most important for the BLA transfer to GUN, as GUN does not have a lot of airspace to complete the YSSY sequence.  
 BLA should aim to handoff aircraft to GUN approximately **50nm** to the boundary, unless there is a restriction (which is quite rare). Note that other aircraft going to GUN airspace (ie: Other aircraft on the YMML-YSSY route) are **not** considered a 'Restriction', as the GUN controller can already see them as Blue (Announced) on their display.
 
-!!! info "Reminder"
+!!! Reminder
     [Handoff Rules](../../../controller-skills/coordination/#handoffs) permit turns of up to **45 degrees left/right**, and **climb/descent to any level** after handoff. Keep this in mind when considering how early you can handoff aircraft to the next sector
 
 ## Arrival Sequencing
 Enroute controllers should be aiming for **2 minute** spacing at the feeder fix between subsequent arrivals. This can be reduced slightly to no less than **10nm**, unless **single runway operations** are in use.
 
-!!! info "Reminder"
+!!! Reminder
     At YMML, aircraft on the LIZZI and BOYSE STARs are considered to be on the same STAR for sequencing purposes. Ie, an aircraft via BOYSE must be sequenced 2 minutes behind an aircraft via LIZZI, and vice versa
 
 ### Speed Control
@@ -57,7 +57,7 @@ Aircraft can be rerouted on first contact via AKMIR, ODALE, then assigned the OD
 
 Although this action may be beneficial to the arrival flow for both Enroute and Approach, it goes against the [Standard runway and STAR assignment](../../enroute/Melbourne Centre/BIK/#sequencing-into-yssy) for YSSY Arrivals from the South-west, so must still be coordinated to SAS or SFL (if online)
 
-!!! phraseology
+!!! example
     <span class="hotline">**GUN** -> **SFL**</span>: "QFA494 will be via ODALE for 34R"  
     <span class="hotline">**SFL** -> **GUN**</span>: "QFA494 via ODALE, 34R, Roger"  
 

@@ -39,7 +39,7 @@ When **BRM ADC** is offline, BRM CTR (Class D/E `SFC` to `A055`) reverts to Clas
     If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
 
 ## Extending
-!!! warning "Important"
+!!! Warning
     Due to the large geographical area covered by this sector and it's neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
     
 ## Sector Responsibilities
@@ -104,7 +104,7 @@ BRM ADC is responsible for the Class D airspace `SFC` to `A055`, as well as the 
 #### Departures
 Departures from YBRM in to ASH CTA will be coordinated when ready for departure.  
 
-!!! phraseology
+!!! example
     <span class="hotline">**BRM ADC** -> **ASH**</span>: "Next, ANO333"  
     <span class="hotline">**ASH** -> **BRM ADC**</span>: "ANO333, Unrestricted"  
     <span class="hotline">**BRM ADC** -> **ASH**</span>: "ANO333"  
@@ -114,7 +114,7 @@ The Standard Assignable level from BRM ADC to TRT(ASH) is the lower of `A050` or
 #### Arrivals
 YBRM arrivals shall be heads-up coordinated to **BRM ADC** from TRT prior to **5 mins** from the boundary.
 
-!!! phraseology
+!!! example
     <span class="hotline">**TRT** -> **BRM ADC**</span>: "Via SAFIR, FD621”  
     <span class="hotline">**BRM ADC** -> **TRT**</span>: "FD621"  
 
@@ -145,12 +145,12 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
 
-!!! phraseology
+!!! example
     **ISA**: "QFA121, identification terminated, report position to Brisbane Radio, 129.25"
 
 ### International (WAAF)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#other-units), Heads-up Coordination required for all aircraft prior to **30 mins** from boundary.
 
-!!! phraseology
+!!! example
     <span class="coldline">**TRT** -> **WAAF CTR**</span>: "Estimate, SIA236, KIKEM time 21, F320"  
     <span class="coldline">**WAAF CTR** -> **TRT**</span>: "SIA236, F320"

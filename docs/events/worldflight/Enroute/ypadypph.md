@@ -18,7 +18,7 @@ TBD has *no Restrictions or Requirements* on YPAD departures tracking DCT **LONL
 ### Augusta (AUG), Forrest (FOR), Forrest West (FOW)
 AUG, FOR, and FOW will be responsible for ensuring the separation of aircraft in the Enroute phase of flight. No sequencing actions are required.
 
-!!! warning "Caution"
+!!! caution
     AUG and FOR should look out for aircraft converging at **LONLY** and **LESON** respectively, at the same time and level. Use vertical separation wherever possible.
 
 ### Esperance (ESP)

@@ -27,7 +27,7 @@ An IFR aircraft is permitted below LSALT when:
 - They are using a "Pilot-Calculated" LSALT
 - They are in the course of a normal departure/approach procedure
 
-!!! info
+!!! information
     Pilots can calculate their own LSALT from numerous different sources, such as aerodrome 25nm and 10nm MSAs, VOR/NDB/DR tracking tolerance splays, and others. Bottom line is, if a pilot says they are using a Pilot-Calculated LSALT, they have taken full responsibility for their own separation with terrain.
 
 ## Radar Terrain Clearance Chart (RTCC)
@@ -43,14 +43,14 @@ Aircraft can be cleared within CTA down to the level shown on the RTCC, and this
 ## Visual
 Once an aircraft has reported visual, LSALTs are no longer a factor. However, if clearing an aircraft to an altitude that is below Grid LSALT, Route LSALT, or MSA, the controller must append the word **"Visual"** to the clearance. This also applies to any assigned headings, or route clearances, when the aircraft is cleared to a level below LSALT.
 
-!!! phraseology
+!!! example
     **MAE**: "AM328, Report in-flight conditions"  
     **AM328**: "AM328, visual"  
     **MAE**: "AM328, Descend to A040 visual"  
     **AM328**: "Descend to A040 visual, AM328"  
 
 ## Examples
-!!! phraseology
+!!! example
     **ABC**: "Melbourne Centre, PA44, ABC, POB 2, IFR, Taxiing YSWG for YMCO, Runway 23"  
     **BLA**: "ABC, Melbourne Centre, Squawk 3601, No reported IFR Traffic"  
     **ABC**: "3601, ABC"  
@@ -59,7 +59,7 @@ Once an aircraft has reported visual, LSALTs are no longer a factor. However, if
     **BLA**: "ABC, no additional reported IFR traffic, expect that"  
     **ABC**: "ABC"  
 
-!!! phraseology
+!!! example
     **DEF**: "Brisbane Centre, PC12, DEF, POB 6, IFR, Taxiing YBUD for YROM, Runway 32"  
     **KPL**: "DEF, Brisbane Centre, Squawk 3601, No reported IFR Traffic"  
     **DEF**: "3601, DEF"  

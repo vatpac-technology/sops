@@ -14,16 +14,13 @@ theme:
   font:
     text: Maven Pro
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    - scheme: default
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       toggle:
         icon: material/weather-night
-        name: Switch to light mode
   features:
     - navigation.tabs
     - navigation.tabs.sticky

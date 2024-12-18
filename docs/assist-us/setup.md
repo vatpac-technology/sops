@@ -6,7 +6,7 @@
 
 We'll kick off by setting up your local development environment. 
 
-!!! warning "Important"
+!!! important
     If you have any questions about setting up your development environment for these SOPs, or you get stuck - feel free to reach out to the Operations Team.
 
 ## Requirements

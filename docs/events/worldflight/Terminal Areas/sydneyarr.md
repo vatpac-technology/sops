@@ -45,7 +45,7 @@ Ensure you familiarise yourself with the applicable [Separation Standards](../..
 
 Pass *Traffic Information* on aircraft that will come within **1nm** of each other on parallel approaches.
 
-!!! phraseology
+!!! example
     **SFW:** "NPT11W, Traffic is a 767 at your 10 o'clock for the parallel runway"
 
 ## Sector Distribution
@@ -92,7 +92,7 @@ SFL must **voice coordinate** any changes to instructions after ARL/CNK has put 
 
 SFL must **voice coordinate** to ARL/CNK any aircraft that must be rerouted via **OLTIN YAKKA MEPIL** for **16L/34R**.
 
-!!! phraseology
+!!! example
     <span class="hotline">**SFL** -> **ARL**</span>: "ANZ361 via OLTIN for 34R please"  
     <span class="hotline">**ARL** -> **SFL**</span>: "ANZ361 via OLTIN for 34, will be"  
 

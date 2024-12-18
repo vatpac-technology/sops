@@ -107,7 +107,7 @@ Unless a level has been "locked in" for an aircraft entering your airspace, for 
 
 Their CFL **cannot** be used for separation purposes. Certain aircraft may require additional time to plan restrictions, identify conflicts, etc (For example, as **ELW**, an aircraft cutting across the YMML departure/arrival path at F230), and this is where a **level check** may be useful. If you want to "lock in" a level for an aircraft coming from an adjacent sector, use the following phraseology:
 
-!!! phraseology
+!!! example
     **ELW** -> **YWE**: "Level Check, VOZ456, F360"  
     **YWE** -> **ELW**: "VOZ456, F360"  
 
@@ -115,7 +115,7 @@ Any changes to VOZ456's level would now need to be coordinated by YWE, so no sur
 
 Level checks are also useful for when you have identified a conflict, and you need to assign a **different level** to the one currently assigned by the controlling sector in order to assure separation.
 
-!!! phraseology
+!!! example
     **BIK** -> **SDS**: "JST123, Assigned F200 due crossing traffic"  
     **SDS** -> **BIK**: "JST123, F200"  
 
@@ -154,7 +154,7 @@ It is best to always assign the *lowest possible level* on descent when taking i
 
 This reduces controller workload by reducing the number of calls required to facilitate an aircraft's descent, and reduces the likelihood of an aircraft having their descent profile interrupted if you get distracted and/or busy.
 
-!!! phraseology
+!!! Example
     VOZ888 is tracking from Sydney to Melbourne via the Q29 airway to LIZZI for the LIZZI8A arrival runway 34. There are no conflicts on their route ahead, and the CTA LL is `A085`.
 
     "VOZ888, when ready, descend via the STAR to A090, QNH 1009."
@@ -168,7 +168,7 @@ Another common practice is to see controllers issue an intermediate descent to t
 
 This is **entirely unnecessary**, and just uses up additional talking time, and increases controller workload.
 
-!!! phraseology
+!!! note
     **ARL:** "QLK4D, When ready descend to F130"  
     ...  
     **ARL:** "QLK4D, Descend to A090, Area QNH 1013"  
@@ -182,12 +182,12 @@ This is **entirely unnecessary**, and just uses up additional talking time, and 
 #### STAR Level Restrictions
 Further transmissions can be saved in the busy TMA, with the use of *"Descend via STAR"* phraseology when CTA protection is in place, **only** where Level Restrictions exist on the STAR assuring aircraft remain inside CTA.
 
-!!! phraseology
+!!! Example
     RXA4652 is tracking via ODALE for the ODALE7 STAR to runway 34R. CTA LL is `A075`, but the STAR has built-in CTA protection (At or Above A080 at **KABLO**)
 
     "RXA4652, Sydney Approach, runway 34R, descend via the STAR to A060"
 
-!!! warning "Important"
+!!! Important
     **Only** use SID/STAR Level Restrictions to assure separation with CTA, Terrain, and Conflicts, when you are **very familiar** with the airspace.
     
     **VERY FEW SIDs/STARs DO THIS!**

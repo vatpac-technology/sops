@@ -69,7 +69,7 @@ Runway Modes should be selected for maximum aircraft movements, if the winds per
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- **16A27D**; or  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- **09A16D**
 
-!!! info "Reminder"
+!!! Reminder
     For dry runways, the crosswind limitation is 20kt, and the tailwind limitation is 5kt. For wet runways, no tailwind component is permitted. Remember these limitations in selecting the runway mode which is best optimised and works within these limitations
 
 #### Non-Standard Runway Modes
@@ -92,5 +92,5 @@ ADC should be aiming for **90 second** spacing between subsequent departures in 
 ### Line Up
 It is best practice for ADC to line-up aircraft on the runway as soon as possible, ie, as soon as the landing aircraft has passed them, or as soon as the departing aircraft has started to roll. This minimises time spent waiting for aircraft to taxi in to position, and potentially cause gaps in the sequence and/or go-arounds.
 
-!!! success "Suggestion"
+!!! suggestion
     Appending the phrase "Be ready immediate" to the end of a line up instruction can ensure the pilot has all checklists completed, and is ready to commence takeoff roll as soon as the clearance is given. This reduces airborne delays, and potential go-around situations

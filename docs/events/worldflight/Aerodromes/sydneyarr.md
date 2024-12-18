@@ -49,7 +49,7 @@ To avoid creating conflict for SMC, ADC shall instruct all arriving aircraft to 
 | 34L | A2 (left) or B9 (right) |
 | 34R | T2 or U1 |
 
-!!! phraseology
+!!! example
     **SY ADC**: "JST554, vacate via B9 to the right, runway 34L, cleared to land"
 
 ### Runway Efficiency
@@ -57,7 +57,7 @@ The success of the event will be decided by ADC's ability to minimise runway occ
 
 While runway crossings will be minimised, should a crossing be required, instruct a landing aircraft to report when they are assured of taking the assigned rapid exit. Once that assurance has been received, instruct SMC to cross the applicable aircraft (provided they are further upwind than the assured runway exit).
 
-!!! phraseology
+!!! example
     **SY ADC**: "QFA451, report when assured of vacating via B9 to the right, runway 34L, cleared to land"
 
 If any aircraft need to depart during the arrival window, ensure that maximum efficiency is achieved by instructing them to line up as soon as the landing aircraft has cleared the threshold. Avoid go arounds at all costs, and if necessary, delay the departing aircraft where a gap between two arrivals is too tight.

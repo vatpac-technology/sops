@@ -54,7 +54,7 @@ All circuits are to be conducted to the east of Runway 03/21 (right-hand circuit
 ## Helicopter Operations
 There are no helipad facilities at YPPH. Helicopters should be issued an airways clearance in accordance with the fixed-wing operation applicable to their flight rules (i.e. SID for IFR helicopters, VFR departure via appropriate VFR route if necessary for VFR helicopters). Helicopters should be cleared to takeoff/land from runways or taxiways, as deemed appropriate by ADC. The point of takeoff/landing must be specified by ADC.
 
-!!! phraseology
+!!! example
     **PH ADC:** "YOE, taxiway Romeo, cleared to land"  
 
     **PH ADC:** "HWD, runway 21, cleared for takeoff"
@@ -71,7 +71,7 @@ When traffic permits, VFR scenic flights over Perth are cleared via VICTOR 65 ro
 
 All other aircraft require a 'Next' call to PH TCU.
 
-!!! phraseology
+!!! example
     <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Next, ABC, runway 03"  
     <span class="hotline">**PH TCU** -> **PH ADC**</span>: "ABC, Heading 010, unrestricted"  
     <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Heading 010, ABC"  
@@ -91,7 +91,7 @@ The controller assuming responsibility of ACD shall give heads-up coordination t
 a) VFR Departures  
 b) Aircraft using a runway not on the ATIS
 
-!!! phraseology
+!!! example
     **ABC**: "Perth Delivery, ABC, request Victor 65"  
     **PH ACD**: "ABC, Perth Delivery, standby"  
 

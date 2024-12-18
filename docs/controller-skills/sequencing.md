@@ -143,7 +143,7 @@ Holding is the final delaying action, useful for when a delay of 6 minutes or mo
 
 Typically 1 standard holding pattern takes 6 minutes.
 
-!!! phraseology
+!!! example
     **YWE:** "BNZ135, hold at APPLE, maintain FL200."  
     **BNZ135:** "Hold at APPLE, maintain FL200, BNZ135"  
     ...  
@@ -152,7 +152,7 @@ Typically 1 standard holding pattern takes 6 minutes.
 
 Although the phraseology *"Hold at (waypoint)"* is standardised from the AIP `AIP GEN 3.4`, it could mean pilots who are not familiar with published holding patterns do not fly the hold you were expecting them to. In this case, use specific instructions which gives more detail about the holding pattern. This is also applicable to holding at fixes where there is no published hold.
 
-!!! phraseology
+!!! example
     **ELW:** "VOZ888, hold at NABBA, inbound track 224 degrees, left hand pattern, outbound time 2 minutes, maintain FL200."  
     **VOZ888:** "Hold at NABBA, inbound track 224 degrees, left hand pattern, outbound time 2 minutes, maintain FL200,VOZ888"  
     ...  

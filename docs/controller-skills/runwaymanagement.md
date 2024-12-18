@@ -59,7 +59,7 @@ If the cloud base or visibility does not allow for visual approaches, an instrum
 ## Runway Changes
 Whilst runway changes have minimal impact on aerodrome controllers, they can drastically increase the workload for TMA controllers and have large flow on effects for enroute controllers. All runway changes should (where possible) be carefully planned and communicated, to ensure all surrounding sectors are aware of the impending change.
 
-!!! warning "Important"
+!!! important
     Runway changes involve all types of controllers (from Delivery to Enroute), so a large amount of coordination is required. All coordination should be done on a **point-to-point** basis, so remember to pass on any relevant details to any controllers above/around you as necessary.
 
     E.g. ADC talks to TMA, then TMA talks to ENR, then ENR talks to any subsectors/surrounding sectors as required.
@@ -69,7 +69,7 @@ The aerodrome controller in charge of the ATIS should frequently check the METAR
 
 Discuss the event with the overlying TMA controller/s and nominate a time from which the new runway configuration will be used. It can be helpful to identify the last arrival who will use the current runway mode, so that both Tower and Approach have a definite change point. Once this coordination has been completed, update the ATIS and include an expectation of a runway change in the `OPR INFO` field. This should include the expected time of change and the new runway mode to be used. The TMA controller should coordinate with Enroute, who will amend any STAR clearances for aircraft projected to land after the nominated time.
 
-!!! phraseology
+!!! example
     <span class="hotline">**SY ADC** -> **SAN**</span>: "The tailwind component is starting to increase a bit and the TAF indicates the wind's going to keep swinging around. Thoughts on changing to runway 34s from time 30?"  
     <span class="hotline">**SAN** -> **SY ADC**</span>: "There's a gap in the sequence in about 20 minutes, lets make it time 45. Last arrival in the runway 16 direction will be QFA553."  
     <span class="hotline">**SY ADC** -> **SAN**</span>: "Copy, changing to 34s at time 45, last arrival runway 16s QFA553."
@@ -126,7 +126,7 @@ There is often confusion about how to handle helicopter operations at a controll
 ### Runways & Manoeuvring Area
 The aerodrome controllers 'own' the pavement on all runways and any taxiways or other areas defined as the 'manoeuvring area'. Aircraft require explicit takeoff and landing clearances to operate from these areas.
 
-!!! phraseology
+!!! example
     **SY ADC**: "RSCU209, runway 16L, cleared to land"
 
     **AD ADC**: "YOE, taxiway A2, cleared for takeoff"
@@ -134,7 +134,7 @@ The aerodrome controllers 'own' the pavement on all runways and any taxiways or 
 ### Other Locations
 Areas outside of the manoeuvring area are beyond the jurisdiction of the aerodrome controllers. However, since these aerodromes exist in a CTR (with controlled airspace down to the surface), a clearance is required to operate in the airspace itself. ATC is not able to issue explicit takeoff and landing clearances (as they don't own the ground on which the aircraft wishes to takeoff/land), so issue a requirement to report airborne or on the ground.
 
-!!! phraseology
+!!! example
     **SY ADC**: "HSZ, hotel 6, report on the ground"  
 
     **SY ADC**: "HWD, report airborne"

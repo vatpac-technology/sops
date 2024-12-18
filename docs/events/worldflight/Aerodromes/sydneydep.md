@@ -27,7 +27,7 @@ Ensure **all flight plans** are checked for compliance with the approved WF Rout
 
 If an aircraft has filed an *incorrect* route and you need to give an amended clearance, this amendment must be specified by **individual private message**, prior to the PDC.
 
-!!! phraseology
+!!! example
     **SY-C_DEL:** *"AMENDED ROUTE CLEARANCE. CLEARED TO YPAD VIA KADOM H44 MAXEM Q60 KAKLU H309 AD DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
 
 ### WorldFlight Teams
@@ -102,7 +102,7 @@ PDCs will be in use by default, to avoid frequency congestion. ACD shall send a 
 ## Coordinator
 Coordinator operations shall be conducted in accordance with the Sydney Aerodrome [Coordinator](../../../../aerodromes/classc/Sydney/#sydney-coordinator) procedures, using the OzStrips plugin.
 
-!!! warning "Important"
+!!! important
     Official WorldFlight teams should be afforded priority when requesting pushback or taxi (if no pushback required), and placed ahead of other non-official aircraft.
 
 ### OzStrips
@@ -125,20 +125,20 @@ A Custom `PDC SENT` bar should be created in the Preactive window, to keep track
 
 If three strips are already present below a respective bar, any subsequent aircraft who request pushback must be instructed to remain on the Coordinator frequency, and an estimated delay given if known. Place these strips in the **Cleared Bay Queue**, but above the respective `MONITOR GROUND` bars. The bottom-most strip is always at the front of any queue.
 
-!!! phraseology
+!!! example
     **QFA452**: "Sydney Coordinator, Qantas 452, bay 5, request pushback"  
     **SY COORD**: "Qantas 452, Sydney Coordinator, monitor ground 121.7"  
     ...  
     **VOZ318**: "Sydney Coordinator, Velocity 318, bay 39, request pushback"  
     **SY COORD**: "Velocity 318, Coordinator, remain this frequency, approximate 5 minute delay due traffic congestion"
 
-!!! warning "Important"
+!!! important
     Ensure aircraft are [squawking mode C and the correct code](../../../../client/towerstrips/#strips) before instructing them to monitor ground.
 
 ### Delay Expectation
 Aircraft can expect **extensive** delays for Pushback during the event, possibly *multiple hours*. Try to keep pilots informed of their delay expectation, either by providing a figure in minutes, or a position in the queue.
 
-!!! phraseology
+!!! example
     **JST764**: "Sydney Coordinator, JST764, bay 55, request pushback"  
     **SY COORD**: "JST764, Coordinator, remain this frequency, number 62 in the queue"
 
@@ -151,7 +151,7 @@ With Coordinator online, aircraft will request pushback on the Coordinator frequ
 
 When workload (and holding point congestion) allows, issue pushback to the **bottom most** aircraft below the `MONITOR GROUND EAST` or `MONITOR GROUND WEST` bar (as appropriate) and move the strip to the **Pushback Bay**.
 
-!!! warning "Important"
+!!! important
     It is preferable to hold aircraft on the bay (where they aren't blocking taxiways or burning their holding fuel) when congestion leads to blocked holding points. Issue pushback with enough lead time to prevent large gaps in the departure sequence.
 
 ### A388 Taxi Routes
@@ -188,7 +188,7 @@ To avoid creating conflict for SMC, ADC shall instruct all arriving aircraft to 
 | 34L | A2 (left) or B9 (right) |
 | 34R | T2 or U1 |
 
-!!! phraseology
+!!! example
     **SY ADC**: "JST554, vacate via B9 to the right, runway 34L, cleared to land"
 
 ## ATIS

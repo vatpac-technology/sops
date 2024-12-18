@@ -92,7 +92,7 @@ EN ADC is responsible for facilitating aircraft requesting city orbits. They sha
 `A015` by day  
 `A022` by night
 
-!!! phraseology
+!!! example
     **EOG**: "Essendon Tower, EOG, approaching WMS, A015, Requesting 1 left-hand city orbit, in receipt of L"  
     **EN ADC**: "EOG, Essendon Tower, cleared 1 left-hand city orbit A015"  
     **EOG**: "Cleared 1 left-hand city orbit A015, EOG"  
@@ -113,7 +113,7 @@ Essendon departures that will not enter ML TCU Class C airspace are not required
 
 All aircraft departing into Class C must be coordinated to ML TCU with a "Next" Call
 
-!!! phraseology
+!!! example
     <span class="hotline">**EN ADC** -> **ML TCU**</span>: "Next, FD318"  
     <span class="hotline">**ML TCU** -> **EN ADC**</span>: "FD318, heading 330, unrestricted"  
     <span class="hotline">**EN ADC** -> **ML TCU**</span>: "Heading 330, FD318"
@@ -125,7 +125,7 @@ ML TCU will heads-up coordinate arrivals/overfliers from Class C to EN ADC.
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to EN ADC, unless EN ADC nominates a restriction.  
 VFR aircraft require a level readback.
 
-!!! phraseology 
+!!! example 
     <span class="hotline">**ML TCU** -> **EN ADC**</span>: "via KAO, KHU"  
     <span class="hotline">**EN ADC** -> **ML TCU**</span>: "KHU, A015"
 
@@ -140,7 +140,7 @@ Any Runway change must be prior coordinated to **ML TCU**
 ### ML ADC
 EN ADC is responsible for separation with all YMML traffic, and must coordinate any aircraft operating in EN ADC airspace that cannot be visually or laterally separated with the 09/27 or 16/34 Extended Centrelines at YMML.
 
-!!! phraseology 
+!!! example 
     <span class="hotline">**EN ADC** -> **ML ADC**</span>: "Boundary Ident, OXG, Published Missed Approach from the ILS 26"  
     <span class="hotline">**ML ADC** -> **EN ADC**</span>: "OXG, My restriction is QFA451 on a 10nm final RWY 34. Your separation"  
     <span class="hotline">**EN ADC** -> **ML ADC**</span>: "My separation with QFA451, OXG"
