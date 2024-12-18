@@ -73,6 +73,8 @@ Runway 12L/30R shall be used for all other operations.
 ### Simultaneous Parallel Runway Ops
 During day VMC only, simultaneous parallel runway operations may be used between runways 12L/R or 30L/R. The [ATIS](#operational-info) must be updated to reflect this mode. Controllers must closely monitor the base and final legs of the circuit to ensure pilots do not pass through their assigned runway centreline.
 
+In the absense of day VMC, dependent parallel runway operations may be conducted, with an adequate separation standard in place between aircraft operating from adjacent runways.
+
 ## Circuits
 Circuits are to be flown in the direction coinciding with the Runway designator (Left/Right) at `A024`.
 
