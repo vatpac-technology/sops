@@ -64,19 +64,19 @@ Autorelease is not in effect at YMMB and all departures into the overlying Class
 
 The standard assignable level for departures into CTA is `A050` or `RFL` if lower.
 
-!!! phraseology
+!!! example
     <span class="hotline">**MB ADC** -> **MDS**</span>: "Next, SGE"  
     <span class="hotline">**MDS** -> **MB ADC**</span>: "SGE, unrestricted"
 
 Aircraft departing directly into Class C airspace should be instructed to report passing A025 and transferred to the TCU at that point.
 
-!!! phraseology 
+!!! example 
     **SGE**: "SGE, A025"  
     **MB ADC**: "SGE, contact Melbourne Departures on 129.4" 
 
 Aircraft who will transit Class G airspace on climb into CTA will be **cleared to leave and re-enter controlled airspace** on climb to their assigned level.
 
-!!! phraseology
+!!! example
     **MB ADC**: "SGE, cleared to leave and re-enter controlled airspace climbing to A050, no reported IFR traffic. Contact Melbourne Departures on 129.4"  
     **SGE**: "Cleared to leave and re-enter controlled airspace climbing to A050, Departures 129.4, SGE"
 
@@ -85,7 +85,7 @@ ML TCU will heads-up coordinate arrivals/overfliers from Class C to MB ADC.
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to MB ADC, unless MB ADC nominates a restriction.  
 VFR aircraft will not be coordinated, and will need to receive their airways clearance from MB ADC.
 
-!!! phraseology
+!!! example
     <span class="hotline">**MDS** -> **MB ADC**</span>: "To the west, PLE, for the NDB-A"  
     <span class="hotline">**MB ADC** -> **MDS**</span>: "PLE, NDB-A"
 

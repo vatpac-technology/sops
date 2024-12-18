@@ -8,7 +8,7 @@ In the real world, aerodrome controllers use strips to provide a visual represen
 
 Within vatSys, this can be emulated using the [OzStrips plugin](https://maxrumsey.xyz/OzStrips/){target=new}. Strip state is shared between controllers operating at the same aerodrome.
 
-!!! warning "Important"
+!!! important
     OzStrips can be an incredibly useful tool to reduce controller workload and improve the level of service offered to pilots, but it's use is not compulsory. Controllers should revert to the default vatSys strip bays if the use of OzStrips is becoming a hinderance to themselves or surrounding controllers.
 
 ## Setup
@@ -275,5 +275,5 @@ Aircraft at the bottom of the queue are first in line.
 
 When an aircraft is in a queue, make sure the strip's bay location represents its current state. 
 
-!!! example
+!!! Example
     An aircraft in a queue for an airways clearance, would remain in the *Preactive* bay, below the queue bar, not in the *Cleared* bay.

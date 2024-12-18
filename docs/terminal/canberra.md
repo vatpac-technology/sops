@@ -37,7 +37,7 @@ Voiceless for all aircraft:
 
 All other aircraft going to ELW/BIK CTA must be **Heads-up** Coordinated by CB TCU prior to the boundary.
 
-!!! phraseology
+!!! example
     <span class="hotline">**CB TCU** -> **GUN**</span>: "EVY113, with your concurrence, will be assigned F180, for my separation with QLK165D"  
     <span class="hotline">**GUN** -> **CB TCU**</span>: "EVY113, concur F180"  
 
@@ -60,7 +60,7 @@ CB ADC is responsible for the Class C Airspace within the CB CTR `SFC` to `A035`
   b) Assigned the standard assignable level; and  
   c) Assigned a **Procedural** SID
 
-!!! phraseology
+!!! example
     <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Next, ABC, runway 35"  
     <span class="hotline">**CB TCU** -> **CB ADC**</span>: "ABC, Track Extended Centreline, unrestricted"  
     <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Track Extended Centreline, ABC"
@@ -72,7 +72,7 @@ For VFR aircraft: The lower of `A040` or the `RFL`
 #### Helipads in the CB CTR
 The Canberra CTR contains the Southcare Helicopter Base (YXSB) as well as two hospitals (Calvary Hospital and Canberra Hospital). Helicopters inbound to these helipads should be coordinated with **CB ADC** who can use a visual separation techniques as required. ADC and the TMA controller should work together to determine the most appropriate clearance limit (if required due traffic) for the helicopter, before frequency transfer is issued. ADC will issue a visual approach clearance when it is available.
 
-!!! phraseology
+!!! example
     *RSCU201 is an IFR AW139 helicopter tracking from the east for Southcare Base (YXSB).*  
     <span class="hotline">**CBE** -> **CB ADC**</span>: "To the east, RSCU201, for Southcare Base, are you able to separate with the arrival path to runway 35?"  
     <span class="hotline">**CB ADC** -> **CBE**</span>: "Affirm, RSCU201 clearance limit Queanbeyan"  
@@ -85,7 +85,7 @@ Departing helicopters may transit the CTR to Class G (under the direction of ADC
 ### CB TCU Internal
 All aircraft transiting between internal CB TCU boundaries must be heads-up coordinated.
 
-!!! phraseology
+!!! example
     <span class="hotline">**CBW** -> **CBE**</span>: "via CB, FD123"  
     <span class="hotline">**CBE** -> **CBW**</span>: "FD123, A090"   
 

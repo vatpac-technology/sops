@@ -15,7 +15,7 @@ Remember that in [Class D Airspace](../../controller-skills/classofairspace), IF
 ## Surveillance
 Although Surveillance standards cannot be used for separation at Class D Towers, overlying TCU/Enroute controllers can use their surveillance standards to help Class D towers achieve separation, when procedural separation is a bit awkward or impractical.
 
-!!! phraseology
+!!! example
     <span class="hotline">**AY ADC** -> **BLA**</span>: "Can you advise when QLK208D is 5nm clear of DSB?"  
     <span class="hotline">**BLA** -> **AY ADC**</span>: "Affirm, will do"  
     ...  

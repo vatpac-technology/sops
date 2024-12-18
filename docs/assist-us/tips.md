@@ -22,7 +22,7 @@ Links that navigate a user through the SOPs site can follow the normal Markdown 
     [External Link](https://vatpac.org){target=new}
     ```
 
-!!! warning "Important"
+!!! warning
     All external links should use the `https` protocol.
 
 ### Buttons

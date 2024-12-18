@@ -35,7 +35,7 @@ The CPDLC Station Code is `YYWE`.
 </figure>
 
 ## Extending
-!!! warning "Important"
+!!! Warning
     Due to the large geographical area covered by this sector and it's neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
 
 ## Sector Responsibilities

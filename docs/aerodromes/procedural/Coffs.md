@@ -27,7 +27,7 @@ Surveillance coverage can be expected to be not available below `A028` in the CF
 ### Departures
 A 'next' call is made for all aircraft entering INL/ARL(MNN) CTA when they are next to depart. CFS ADC must inform INL/ARL(MNN) if the aircraft does not depart within **2 minutes** of the next call.
 
-!!! phraseology
+!!! example
     <span class="hotline">**CFS ADC** -> **MNN**</span>: "Next, QJE1573"  
     <span class="hotline">**MNN** -> **CFS ADC**</span>: "QJE1573, Unrestricted"  
     <span class="hotline">**CFS ADC** -> **MNN**</span>: "QJE1573"
@@ -37,7 +37,7 @@ The Standard Assignable level from CFS ADC to INL/ARL(MNN) is the lower of `A070
 ### Arrivals/Overfliers
 INL/ARL(MNN) will heads-up coordinate all arrivals/overfliers to CFS ADC.
 
-!!! phraseology
+!!! example
     <span class="hotline">**INL** -> **CFS ADC**</span>: "Via KADSI, RXA6416”  
     <span class="hotline">**CFS ADC** -> **INL**</span>: "RXA6416"  
 

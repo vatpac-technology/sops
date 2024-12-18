@@ -54,7 +54,7 @@ YMLT ATIS identifiers range from `A` to `M`, as YMHB uses `N` through `Y`.
 
 All other aircraft require a 'Next' call to LTA.
 
-!!! phraseology
+!!! example
     <span class="hotline">**LT ADC** -> **LTA**</span>: "Next, ABC, runway 14L"  
     <span class="hotline">**LTA** -> **LT ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
     <span class="hotline">**LT ADC** -> **LTA**</span>: "Heading 150 Visual, ABC"   
@@ -77,6 +77,6 @@ LTA will heads-up coordinate arrivals/overfliers from LTA CTA to LT ADC.
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to LT ADC, unless LT ADC nominates a restriction.  
 VFR aircraft require a level readback.
 
-!!! phraseology
+!!! example
     <span class="hotline">**LTA** -> **LT ADC**</span>: "via IRSOM for the DGA, TFW"  
     <span class="hotline">**LT ADC** -> **LTA**</span>: "TFW, DGA"  

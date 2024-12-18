@@ -28,7 +28,7 @@ Land and Hold Short Operations (LAHSO) will be in use, allowing aircraft to land
 
 Runway 03 LDA to Runway **06/24** Intersection is **2355m**.
 
-!!! phraseology
+!!! example
     **PH ADC:** "GTI1471, 737 departing on Crossing Runway. Hold Short Runway 06. Cleared to land Runway 03"  
     **GTI1471:** "Cleared to land Runway 03, GTI1471"  
     **PH ADC:** "QFA365, 747 landing on Crossing Runway will Hold Short. Runway 06, Cleared for takeoff"  
@@ -46,7 +46,7 @@ Ensure **all flight plans** are checked for compliance with the approved WF Rout
 
 If an aircraft has filed an *incorrect* route and you need to give an amended clearance, this amendment must be specified by **individual private message**, prior to the PDC.
 
-!!! phraseology
+!!! example
     **PH ACD:** *"AMENDED ROUTE CLEARANCE. CLEARED TO WIII VIA AVNEX Y15 ESDEG Q587 IGLUT T58 SAPDA A585 IPKON IPKO2G. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
 
 ### WorldFlight Teams
@@ -131,7 +131,7 @@ As per the [YPPH Aerodrome SOPs](../../../../../../aerodromes/classc/Perth/#mane
 
 Instead of SMC coordinating runway crossings with ADC, aircraft taxiing via **N** and **C** shall be instructed to **contact ADC** at Holding Point **D**, where ADC will give them taxi instructions on their frequency. No coordination is required between SMC and ADC for this.
 
-!!! phraseology
+!!! example
     **PH SMC:** "DAL209, Taxi Holding point D, Runway 21. Expect Holding Point P for departure."  
     **DAL209:** "Taxi Holding Point D, Runway 21, DAL209"  
     *(at Holding Point)*  
@@ -176,7 +176,7 @@ As per the [YPPH Aerodrome SOPs](../../../../../../aerodromes/classc/Perth/#mane
 
 Instead of SMC coordinating runway crossings with ADC, aircraft taxiing via **N** and **C** shall be instructed to **contact ADC** at Holding Point **D**, where ADC will give them taxi instructions on their frequency. No coordination is required between SMC and ADC for this.
 
-!!! phraseology
+!!! example
     **PH SMC:** "DAL209, Taxi Holding point D, Runway 21. Expect Holding Point P for departure."  
     **DAL209:** "Taxi Holding Point D, Runway 21, DAL209"  
     *(at Holding Point)*  
@@ -214,7 +214,7 @@ Due to the tight sequence, there are times that [Wake Turbulence Separation](../
 
 When a following aircraft is of a *lighter* [Wake Turbulence Category](../../../../../../separation-standards/waketurb/#categories) than the preceding aircraft, a traffic statement and wake turbulence **caution** shall be issued.
 
-!!! phraseology
+!!! example
     **PH ADC:** "EVY30, 777 has just departed from the crossing runway. Caution Wake Turbulence. Runway 24, Cleared to Land"  
     **EVY30:** "Cleared to Land Runway 24, EVY30"
 

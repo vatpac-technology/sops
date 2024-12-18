@@ -39,7 +39,7 @@ VFR aircraft that will operate only in ADCs airspace shall be assigned SSR code 
 
 Aircraft operating in the circuit area are to remain on the ADC frequency. The phrasing of the airways clearance is:
 
-!!! phraseology
+!!! example
     “ABC, cleared to operate in the circuit area, not above A030, squawk 0040”.
 
 The circuit direction is not specified in the airways clearance, but with a take-off or touch-and-go clearance.
@@ -67,13 +67,13 @@ Helicopters departing the pads require an airways clearance to do so, either tak
 
 Departing aircraft should **not** be issued a takeoff clearance (as the helipads are outside the manoeuvring area). Instead, instruct aircraft to 'report airborne'.
 
-!!! phraseology
+!!! example
     *RSCU201 is a VFR AW139 helicopter intending to depart Southcare Base (YXSB) to the northwest at `A035` (below the base of the Class C steps).*  
     **RSCU201**: "Canberra Tower, helicopter RSCU201, Southcase Base, for departure to the northwest, A035, received Juliet, ready"  
     **CB ADC**: "RSCU201, Canberra Tower, transit approved not above A035, report OCTA"  
     **RSCU201**: "Transit approved, not above A035, RSCU201"
 
-!!! phraseology
+!!! example
     *RSCU209 is an IFR AW139 helicopter intending to depart Canberra Hospital (YXCB) for Bankstown (YSBK) at `A090` (inside Class C CTA).*  
     **RSCU209**: "Canberra Tower, helicopter RSCU209, on the pad at Canberra Hospital, for Bankstown, received Juliet, ready"  
     **CB ADC**: "RSCU209, Canberra Tower, report sighting a Jetstar A320 on a 3nm final runway 35 and advise able to maintain own separation with that aircraft"  
@@ -87,7 +87,7 @@ Departing aircraft should **not** be issued a takeoff clearance (as the helipads
 #### Arriving Aircraft
 Helicopters arriving to the pads will generally be coordinated by the TMA controller and should be cleared via a visual approach (when available) and instructed to report on the ground. Do **not** issue a landing clearance to these aircraft (as the helipads are outside the manoeuvring area). It may be necessary to instruct these helicopters to track via amended visual points or sight and pass other aircraft.
 
-!!! phraseology
+!!! example
     **RSCU203**: "Canberra Tower, gday, RSCU203"  
     **CB ADC**: "RSCU203, Canberra Tower, report sighting a Qantas 737 lining up on runway 17 and advise able to maintain own separation with that aircraft"  
     **RSCU203**: "Traffic sighted and affirm, RSCU203"  
@@ -106,7 +106,7 @@ Helicopters arriving to the pads will generally be coordinated by the TMA contro
 
 All other aircraft require a 'Next' call to CB TCU.
 
-!!! phraseology
+!!! example
     <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Next, XEB, runway 35"  
     <span class="hotline">**CB TCU** -> **CB ADC**</span>: "XEB, heading 010, Unrestricted"  
     <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Heading 010, XEB"

@@ -31,11 +31,11 @@ Visual Departures are commonly requested by high performance military jets and o
 
 Aircraft will depart the circuit visually and track overhead YAMB to begin tracking for their initial waypoint.
 
-!!! phraseology
+!!! example
     CRNG21 plans to enter R637 via the gate MOSSI for Military Training.
     **AMB ADC**: "CRNG21, cleared to YAMB via MOSSI, flight planned route. Runway 15, Northern 1 Departure. Climb to `F190`. Squawk 3601, Departure Frequency 126.20"  
 
-!!! phraseology
+!!! example
     WOLF03 was assiged the BYRON7 departure with their initial clearance. 
     **AMB ADC**: "WOLF03, make left turn, reach `F190` by COWIE, cleared for takeoff"  
     **WOLF03**: "Make left turn, reach `F190` by COWIE, cleared for takeoff, WOLF03"  
@@ -77,7 +77,7 @@ The Circuit Area Airspace is allocated to be within 5nm of the YAMB ARP from `SF
 
 'Next' coordination is required from AMB ADC to AMB TCU for all aircraft.
 
-!!! phraseology
+!!! example
     <span class="hotline">**AMB ADC** -> **AMB TCU**</span>: "Next, ASY01, runway 33"  
     <span class="hotline">**AMB TCU** -> **AMB ADC**</span>: "ASY01, Assigned Heading Right 030, unrestricted"  
     <span class="hotline">**AMB ADC** -> **AMB TCU**</span>: "Assigned Heading Heading Right 030, ASY01"  

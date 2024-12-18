@@ -47,7 +47,7 @@ All other IFR aircraft shall be assigned the **Radar SID**.
 
 All other aircraft require a 'Next' call to ML TCU.
 
-!!! phraseology
+!!! example
     <span class="hotline">**AV ADC** -> **MDS**</span>: "Next, UJI, Runway 18"  
     <span class="hotline">**MDS** -> **AV ADC**</span>: "UJI, heading 030, unrestricted"  
     <span class="hotline">**AV ADC** -> **MDS**</span>: "Heading 030, UJI"
@@ -59,7 +59,7 @@ ML TCU will heads-up coordinate arrivals/overfliers from CTA to AV ADC.
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to AV ADC, unless AV ADC nominates a restriction.  
 VFR aircraft will not be coordinated, and will need to receive their airways clearance from AV ADC.
 
-!!! phraseology
+!!! example
     <span class="hotline">**MDS** -> **AV ADC**</span>: "via TEMPL for the ILS-Y 18, JST631"  
     <span class="hotline">**AV ADC** -> **MDS**</span>: "JST631, ILS-Y 18"  
 

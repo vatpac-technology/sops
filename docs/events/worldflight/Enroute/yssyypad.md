@@ -30,7 +30,7 @@ This tracking must **only** be issued to **Light** and **Medium** Wake Turbulenc
 ### Griffith (GTH), Oxley (OXL)
 GTH and OXL will be responsible for ensuring the separation of aircraft in the Enroute phase of flight. No sequencing actions are required.
 
-!!! warning "Caution"
+!!! caution
     GTH should look out for aircraft converging at **BORLI** at the same time and level. Use vertical separation wherever possible.
 
 If [Runway 30 is in use at YPAD](#runway-30-at-ypad), monitor the distribution of aircraft tracking on *Flight Planned Route* VS DCT **DRINA**.  

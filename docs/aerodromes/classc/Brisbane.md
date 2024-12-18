@@ -70,7 +70,7 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 
 When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time
 
-!!! phraseology
+!!! example
     **BN ADC:** "ABC, Traffic is DEF, a 737, on short final for the opposite direction parallel runway. Runway 01R, Cleared for Takeoff"  
     **ABC:** "Cleared for Takeoff Runway 01R, ABC"  
     **BN ADC:** "DEF, Traffic is ABC, an A320, departing from the opposite direction parallel runway to the South-West. Runway 19R, Cleared to Land"  
@@ -134,7 +134,7 @@ The ATIS shall always have `EXP INST APCH` as the approach type. Visual Approach
 
 All other aircraft require a 'Next' call to BN TCU.
 
-!!! phraseology
+!!! example
     <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Next, QLK404D, Runway 19L"  
     <span class="hotline">**BN TCU** -> **BN ADC**</span>: "QLK404D, heading 160, unrestricted"  
     <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Heading 160, QLK404D"   

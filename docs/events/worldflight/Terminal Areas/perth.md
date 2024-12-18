@@ -67,7 +67,7 @@ Due to the tight sequence, there are times that [Wake Turbulence Separation](../
 
 When a following aircraft is of a *lighter* [Wake Turbulence Category](../../../../../../separation-standards/waketurb/#categories) than the preceding aircraft, a traffic statement and wake turbulence **caution** shall be issued.
 
-!!! phraseology
+!!! example
     **PHA:** "VOZ721, Traffic is QFA25, a 747 4nm ahead. Caution Wake Turbulence"  
     **VOZ721:** "VOZ721"
 
