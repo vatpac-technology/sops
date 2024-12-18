@@ -33,7 +33,7 @@ Voice may be used in lieu when applicable.
 </figure>
 
 ## Extending
-!!! Warning
+!!! warning "Important"
     IND (and its subsectors) are **not permitted** to extend to any adjacent Domestic/International sectors
 
 ## STAR Clearance Expectation
@@ -57,6 +57,6 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 ### International Non-Pacific
 As per [Standard coordination procedures](../../../controller-skills/coordination/#other-units), Heads-up Coordination required for all aircraft prior to **30 mins** from boundary.
 
-!!! example
+!!! phraseology
     <span class="coldline">**IND** -> **FAJO FSS**</span>: "Estimate, SAA281, XEKOT time 44, F360"  
     <span class="coldline">**FAJO FSS** -> **IND**</span>: "SAA281, F360"
