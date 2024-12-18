@@ -4,7 +4,8 @@ title: Visual
 
 --8<-- "includes/abbreviations.md"
 
-## ATC Responsibility
+## Visual Separation
+### ATC Responsibility
 ADC controllers can conduct "pseudo-visual" separation between aircraft under the following conditions:
 
 - ADC controllers only  
@@ -22,7 +23,7 @@ This technique is useful for situations such as:
 - Processing VFR aircraft arriving or departing during a busy established sequence (e.g. helicopter operations at Sydney)
 - To assist the TCU controller in separating aircraft close to the airfield
 
-## Pilot Responsibility
+### Pilot Responsibility
 Pilots can be given responsibility to maintain own separation with other aircraft provided:
 
 - Both aircraft are operated at or below `A100`; and  
@@ -48,3 +49,35 @@ This technique is useful for situations such as:
     **SY ADC:** "RSCU203, maintain own separation with the Jetstar A320, caution wake turbulence, report airborne"  
     **RSCU203:** "Maintain own separation with the Jetstar A320, wilco, RSCU203"  
     **SY ADC:** "JST219, traffic is a helicopter becoming airborne from RPA, approximately 4nm final, maintaining own separation with you, runway 16L, cleared to land"
+
+## Geographic Features
+Two aircraft are considered to be *laterally separated* where both are operating with visual reference to a fixed geographic feature, such as a coastline, river, large highway, etc.
+
+A **1nm** buffer must be applied to one aircraft's tracking.
+
+<figure markdown>
+![Both aircraft tracking visually](img/1nmgeosep.png){ width="600" }
+  <figcaption>Both aircraft operating with visual reference to a common geographic feature</figcaption>
+</figure>
+
+!!! example
+    **Aircraft A** operating **1nm East** of the Pacific Highway  
+    is *laterally separated* from  
+    **Aircraft B** operating *West* of the Pacific Highway.  
+
+    **Aircraft C** operating *North* of the Murray River  
+    **is not** laterally separated from  
+    **Aircraft D** operating *South* of the Murray River.
+
+!!! phraseology
+    *RXA6418 is inbound to YCFS from the south and has reported visual. They are vertically separated from an outbound aircraft who is departing to the south.*  
+    **CFS ADC:** "RXA6418, track to remain 1nm offshore, report established"  
+    **RXA6418:** "Track to remain 1nm offshore, RXA6418"  
+
+    **RXA6418:** "RXA6418, established 1nm offshore"  
+    *RXA6418 is now separated from aircraft operating over land, allowing ADC to issue further descent.*  
+    **CFS ADC:** "RXA6418, descend to A050"  
+    **RXA6418:** "Descend A050, RXA6418"  
+
+    *Once both aircraft have passed and/or another separation standard is available (e.g. vertical separation), the geographic feature standard can be relaxed.*  
+    **CFS ADC:** "RXA6418, cancel the offshore requirement, track for downwind runway 21, cleared visual approach"
