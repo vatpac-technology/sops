@@ -12,7 +12,7 @@ Airwork is essentially defined as an aerial operation that doesn't involve simpl
 
 Airwork can be conducted in any defined area specified by the pilot or ATC. This can be a radius from a fix (eg within a 20nm Radius of YBMK), a Survey Area (eg Operating within [Map 420 Survey Area](#survey-map-example)), a defined polygon (eg Operating within an area between BNA-IDNER-VEGAH-TUCAB), a visual topographical feature (eg Operating within the Port Phillip Bay area), or any other area specified by Pilot or ATC.
 
-!!! example
+!!! phraseology
     **PPB**: "PPB, with Airwork Details"  
     **KIY**: "PPB"  
     **PPB**: "PPB, will be conducting Airwork within a 20nm radius of YPKU, not above A040, for the next 20 minutes. Will call Ops Normal time 30"  
@@ -64,7 +64,7 @@ A pilot intending to conduct Aerial Survey Operations as per Map 420
 #### Ops Normal time
 If an aircraft is to be conducting airwork that does not require them to talk to ATC for an extended period (30 mins or more), an "Ops Normal" time should be agreed upon. This is a time that the aircraft confirms they will "check-in" with ATC by, to confirm that they're still alive essentially. If the pilot does not volnteer an Ops Normal time, provide them with one that is on an even hour or half hour, anywhere from 30 mins to 60 mins from the current time.
 
-!!! example
+!!! phraseology
     Time is 0648Z  
     **OBF**: "OBF will be conducting Airwork within a 20nm radius of YBLT Not above A050 for the next 60 minutes"  
     **YWE**: "OBF, No Reported IFR Traffic, Call Ops Normal time 30."  
@@ -113,7 +113,7 @@ SAR Operations are conducted more or less as a standard airwork procedure. Handl
 
 SAR Operations are most commonly flown in a circular area (eg Radius from a Fix, or Radius from a Lat/Long), or a Straight line pattern (eg, back and forth on a line between 2 Fixes, or 2 Lat/Longs).
 
-!!! example
+!!! phraseology
     **DDU**: "DDU, Requesting Traffic for Search and Rescue operations for the next 90 minutes, within a 10nm Radius of 23 52 South, 136 01 East, Not above A060"  
     **ASP**: "DDU, No Reported IFR Traffic. Call Ops Normal time on the hour"  
     **DDU**: "Ops Normal on the hour, DDU"  
@@ -130,7 +130,7 @@ A Practice Instrument Approach is simply an aircraft conducting an Instrument Ap
     VFR aircraft are still allowed to do Instrument Approaches
 
 #### Initial Call
-!!! example
+!!! phraseology
     **YNJ**: "Adelaide Approach, YNJ, Requesting Practice YPPF VOR-A Approach"  
     **AAE**: "YNJ, Adelaide Approach, Standby"  
 
@@ -160,7 +160,7 @@ Then we continue our assessment. Assess for:
 
 A Sector Entry is a procedure pilots use to commence an approach. The type of turn made prior to the commencement of the approach differs based on which direction the aircraft is joing from. That is all we really need to know as a controller. No need to overcomplicate things as a controller, simply ask the following:
 
-!!! example
+!!! phraseology
     **AAE**: "YNJ, Will you be requiring a Sector Entry or Hold for the Approach?"  
     **YNJ**: "Affirm will require a Sector Entry, but no hold, YNJ"  
     **AAE**: "YNJ"
@@ -171,16 +171,16 @@ Label Data, Block Levels, and Text-on-Screen are all useful for Practice Instrum
 #### Coordination
 Conduct Coordination to any affected adjacent units as required
 
-!!! example
+!!! phraseology
     <span class="hotline">**AAE** -> **AAW**</span>: "via AD, YNJ, for a Practice VOR-A approach at YPPF, with your concurrence, I'll clear them for the approach, and will call you overhead AD. Your coord with AD ADC"  
     <span class="hotline">**AAW** -> **AAE**</span>: "YNJ calls me overhead AD with approach clearance, concurred. My onwards with AD ADC"
 
-!!! example
+!!! phraseology
     <span class="hotline">**AAW** -> **AD ADC**</span>: "Cancel Auto Release temporarily, I've got an aircraft doing the VOR-A for YPPF"  
     <span class="hotline">**AD ADC** -> **AAW**</span>: "Copied, Auto Release cancelled"
 
 #### Clearance (if required)
-!!! example
+!!! phraseology
     **AAE**: "YNJ, Cleared VOR-A Approach, make Sector Entry. At the minima, Fly Published Missed Approach"  
     **YNJ**: "Cleared VOR-A Approach, make Sector Entry. At the minima, Fly Published Missed Approach, YNJ"
 
@@ -206,7 +206,7 @@ Aerial Survey Work involves flying in a pattern similar to that shown above. Pil
 The numbers signify "Runs" that the survey aircraft can be cleared for. It is important to note, that the pilot may require to do these runs in a particular order and direction, and at a particular altitude. They also may have some flexibility. Ask the pilot questions if you need more information about how much freedom you have to move them where you want for separation purposes
 
 #### Initial Call
-!!! example
+!!! phraseology
     **MZI**: "Melbourne Centre, MZI, Conquest, POB 1, IFR, Taxis Runway 36 at YMNG for Survey Operations"  
     **ELW**: "MZI, Melbourne Centre, Squawk 3601, No Reported IFR Traffic"  
     **MZI**: "Squawk 3601, MZI"
@@ -224,20 +224,20 @@ Dropping Text-on-Screen of the letter "X" at the vertices of the rough area in w
 #### Coordination
 In this example, lets say the aircraft is intending to operate at F168. Boundary Coordination to ML TCU is not technically required, however, they have a voiceless coordination to you for aircraft assigned the DOSEL and NONIX SID, Climbing to F240. This would place YMML departures directly in conflict with the survey aircraft. A negotation should be made to assure separation between departures and the survey aircraft.
 
-!!! example
+!!! phraseology
     <span class="hotline">**ELW** -> **MDN**</span>: "For Ident, MZI, conducting Survey work between DOSEL and BOGES at F168. All departures via NONIX and DOSEL to have restriction to reach F180 by 30 miles ML, or assigned level at or below F150, until advised"  
     <span class="hotline">**MDN** -> **ELW**</span>: "Copied all departures to be assigned restriction to reach F180 by 30 miles ML, or F150 or lower, reference MZI"
 
 #### Clearance (if required)
 Start by clearing the aircraft to where they need to go
 
-!!! example
+!!! phraseology
     **ELW**: "MZI, Cleared directly to the start of Run 1, Climb to F168"  
     **MZI**: "Cleared directly to the start of Run 1, Climb to F168, MZI"
 
 Then when ready, clear the aircraft for the survey work
 
-!!! example
+!!! phraseology
     **ELW**: "MZI, Cleared for Runs 1 through 4, Report at the completion of each run"  
     **MZI**: "Cleared for Runs 1 through 4, Wilco, MZI"
 
@@ -261,7 +261,7 @@ There are lots of different variables at play when considering how to handle par
 #### Initial Call
 The exact nature of Parachute Operations can vary significantly at different drop zones around the country, so it's very important to ascertain the pilot's exact intentions prior to them entering controlled airspace.
 
-!!! example
+!!! phraseology
     **DJV**: "Sydney Departures, Caravan, DJV, Airborne YSHL for Parachute Operations overhead Flagstaff Point, Requesting F140"  
     **SDS**: "DJV, Sydney Departures, Standby"
 
@@ -269,7 +269,7 @@ The exact nature of Parachute Operations can vary significantly at different dro
 The aircraft may or may not have filed a flightplan. Search in the Preactive window or Flight Plan Window for their callsign. If you find a flight plan, activate it, and pass the aircraft their squawk code.  
 If there is no flight plan, simply create a Quicktag for the aircraft, and assign them the displayed code.
 
-!!! example
+!!! phraseology
     **SDS**: "DJV, Sydney Departures, Squawk 3601"  
     **DJV**: "Squawk 3601, DJV"
 
@@ -301,14 +301,14 @@ Many drop zones around the country have associated Danger Areas, that can be see
 #### Coordination
 Conduct Coordination to any affected adjacent units as required
 
-!!! example
+!!! phraseology
     <span class="hotline">**SDS** -> **SAS**</span>: "For Ident, DJV, conducting Parachute Operations at Flagstaff Point, do you have any restrictions or requirements?"  
     <span class="hotline">**SAS** -> **SDS**</span>: "DJV, no restrictions, no requirements"
 
 #### Clearance (if required)
 Best practice is to clear the aircraft to operate within a reasonably sized radius area of the drop zone, 5nm for example. If the pilot has special requests to add to the clearance, it is their responsibility to communicate it to you. 
 
-!!! example
+!!! phraseology
     **SDS**: "DJV, Cleared to operate within a 5nm radius of Flagstaff Point, Climb to F140. Report Ready for Drop and Descent"  
     **DJV**: "Cleared to operate within a 5nm radius of Flagstaff Point, Climb to F140, Wilco, DJV"
 
@@ -317,25 +317,25 @@ Ensure you maintain separation assurance with other aircraft in the area. There 
 #### Broadcasts
 Throughout the Parachute operations, you can expect the PJE aircraft to make multiple broadcasts on your frequency to traffic in the area. Unless the aircraft addresses you directly (eg *"Sydney Departures and traffic in the Wollongong area"*), there is no need to respond to these traffic broadcasts
 
-!!! example
+!!! phraseology
     **DJV**: "Traffic in the Wollongong city area, DJV is a Caravan, 5 minutes to Parachute drop from flight levels overhead Flagstaff Point, expect 6 canopies, Traffic Wollongong city area"
 
 #### Drop and Descent
-!!! example
+!!! phraseology
     **DJV**: "DJV, Broadcasts complete, Request Drop and Descent"  
 
 You are required to separate all aircraft from a **2nm Radius** of the Drop Zone (ie, the appropriate radar standard, 3nm for TCU, 5nm for Enroute, **Plus** 2nm Radius of the Drop Zone), once a drop clearance has been given. This is because you are no longer just separating from the aircraft, but the Parachutes themselves as well. Your responsibility for separating from the Parachutes terminates once the pilot reports the chutes are OCTA.
 
 Once again, when giving drop and descent clearance, consider giving an interim level, or a heading, if required for separation.
 
-!!! example
+!!! phraseology
     **SDS**: "DJV, Cleared to Drop and leave controlled airspace descending, not below the chutes, tracking DCT YSHL, No Reported IFR Traffic. Report chutes OCTA."  
     **DJV**: "Cleared to Drop and leave controlled airspace descending, not below the chutes, tracking DCT YSHL, Wilco, DJV."  
 
 !!! note
     *"Not below the chutes"* is so that you can separate from the last level vacated by the aircraft. If you do not instruct the aircraft to descend not below the chutes, then you would need to separate all the way from the drop height (in this case, F140) until the chutes are reported as OCTA.
 
-!!! example
+!!! phraseology
     **DJV**: "DJV, Chutes and aircraft OCTA."  
     **SDS**: "DJV, Identification terminated, Frequency change approved"  
     **DJV**: "DJV"
