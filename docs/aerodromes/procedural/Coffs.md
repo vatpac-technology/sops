@@ -29,12 +29,12 @@ Due to the convergence of inbound/outbound air routes approaching CFS, the [geog
 The coastline is a good reference for this standard. Due to high terrain close to the coast, it is recommended that the offshore aircraft be positioned at least 1nm from the geographical feature (the coast), allowing the aircraft over land to maintain adequate separation with terrain.
 
 !!! phraseology
-    *RXA6418 (SAAB 340) is inbound to YCFS from the south and has reported visual. QLK102D is outbound from YCFS, departing to the south.*  
+    *RXA6418 (SAAB 340) is inbound to YCFS from the south and has reported visual. They are vertically separated from an outbound aircraft departing YCFS to the south.*  
     **CFS ADC:** "RXA6418, track to remain 1nm offshore, report established"  
     **RXA6418:** "Track to remain 1nm offshore, RXA6418"  
 
     **RXA6418:** "RXA6418, established 1nm offshore"  
-    *The aircraft are now laterally separated, allowing ADC to issue further climb/descent as necessary.*  
+    *RXA6418 is now laterally separated from aircraft over land, allowing ADC to issue further descent.*  
     **CFS ADC:** "RXA6418, descend to A050"  
     **RXA6418:** "Descend A050, RXA6418"  
 
