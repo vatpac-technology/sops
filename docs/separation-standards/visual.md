@@ -70,7 +70,7 @@ A **1nm** buffer must be applied to one aircraft's tracking.
     **Aircraft D** operating *South* of the Murray River.
 
 !!! phraseology
-    *RXA6418 (SAAB 340) is inbound to YCFS from the south and has reported visual. They are vertically separated from an outbound aircraft who is departing to the south.*  
+    *RXA6418 is inbound to YCFS from the south and has reported visual. They are vertically separated from an outbound aircraft who is departing to the south.*  
     **CFS ADC:** "RXA6418, track to remain 1nm offshore, report established"  
     **RXA6418:** "Track to remain 1nm offshore, RXA6418"  
 
