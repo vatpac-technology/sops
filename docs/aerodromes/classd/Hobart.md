@@ -59,10 +59,10 @@ Takeoff clearances are not given. Aircraft will remain clear of the active runwa
 
 !!! phraseology
     **NDR:** "NDR, ready"  
-    **HB ADC:** "NDR, track via the KANLI3 departure, report airborne"  
-    **NDR:** "Track via the KANLI3 departure, wilco, NDR"
+    **HB ADC:** "NDR, report airborne"  
+    **NDR:** "Wilco, NDR"
 
-Where traffic necessitates a delay, instruct aircraft to remain on the ground until a suitable separation standard exists.
+Where a delay is required, withhold departure instructions until a suitable separation standard exists.
 
 !!! phraseology
     **NDR:** "NDR, ready"  
