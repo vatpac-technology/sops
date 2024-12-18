@@ -44,20 +44,20 @@ All IFR Aircraft departing Cambridge shall be assigned a **Visual Departure** or
 !!! note
     Both VFR and IFR aircraft require a clearance to operate in Class D airspace (even if this is an implied clearance to depart a leg of the circuit).  The examples below show an IFR aircraft departing.
 
-!!! Example
+!!! phraseology
     **NDR:** "Hobart Ground, NDR, for Devonport, Request Clearance"  
     **HB SMC:** "NDR, Cleared to Devonport via KANLI flight plan route, KANLI3 Departure, Climb via SID A045, Squawk 4432"
 
 When ready to taxi and prior to leaving the apron aircraft must contact **HB ADC**, advising intended runway for departure and receipt of YMHB ATIS, to obtain traffic information.
 
-!!! Example
+!!! phraseology
     **NDR:** "Hobart Tower, NDR, taxiing Cambridge Runway 32, received Hobart Information D"  
     **HB ADC:** "NDR, No reported IFR traffic, report ready"  
     **NDR:** "Wilco, NDR"
 
 Takeoff clearances are not given. Aircraft will remain clear of the active runway and report ready to HB ADC. Aircraft must not enter an active runway or become airborne until departure instructions have been issued.
 
-!!! Example
+!!! phraseology
     **NDR:** "NDR, Ready"  
     **HB ADC:** "NDR, track via the KANLI3 departure, report airborne"  
     **NDR:** "Track via the KANLI3 departure, wilco, NDR"
@@ -68,7 +68,7 @@ Inbound VFR aircraft should be instructed to join a leg of the circuit and clear
 
 As a landing clearance is not given, aircraft should instead be informed of any traffic operating on the aerodrome and instructed to report clear of the runway.
 
-!!! example
+!!! phraseology
     *UJA is an IFR Aero Commander who has been cleared the YMHB RNAV-Z RWY 30 approach by HB APP and handed off to HB ADC.*  
     **UJA:** "Hobart Tower, UJA"  
     **HB ADC:** "UJA, Hobart Tower, report visual"  
@@ -78,7 +78,7 @@ As a landing clearance is not given, aircraft should instead be informed of any 
     **HB ADC:** "UJA, track for final runway 30, no reported traffic, report clear of the runway"  
     **UJA:** "Track for final runway 30, wilco, UJA"
 
-!!! example
+!!! phraseology
     *KLR is a VFR Cherokee who is tracking inbound on the Victor East VFR route.*  
     **HB ADC:** "KLR, enter the control zone tracking via the Victor East, A015, clearance limit Sorell"  
     **KLR:** "Enter control zone tracking via the Victor East, A015, clearance limit Sorell, KLR"  
@@ -112,7 +112,7 @@ As a landing clearance is not given, aircraft should instead be informed of any 
 
 Clearances for aircraft entering the CTR must be worded so as to leave no possibility for misinterpretation by the pilot.
 
-!!! Example
+!!! phraseology
     **NDR:** "Hobart Tower, NDR, CPA, A015, on the Victor Northwest, received Romeo, request clearance"  
     **HB ADC:** "NDR, enter the CTR tracking via the Victor Northwest at A015."
 
@@ -126,7 +126,7 @@ Clearances for aircraft entering the CTR must be worded so as to leave no possib
 
 All other aircraft require a 'Next' call to HBA.
 
-!!! example
+!!! phraseology
     <span class="hotline">**HB ADC** -> **HBA**</span>: "Next, ABC, runway 12"  
     <span class="hotline">**HBA** -> **HB ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
     <span class="hotline">**HB ADC** -> **HBA**</span>: "Heading 150 Visual, ABC"  
@@ -152,6 +152,6 @@ HBA will heads-up coordinate arrivals/overfliers from Class C to HB ADC.
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to HB ADC, unless HB ADC nominates a restriction.  
 VFR aircraft require a level readback.
 
-!!! example
+!!! phraseology
     <span class="hotline">**HBA** -> **HB ADC**</span>: "via BAVUR for the RNAV-W RWY 12, QJE1551"  
     <span class="hotline">**HB ADC** -> **HBA**</span>: "QJE1551, RNP-W RWY 12"  
