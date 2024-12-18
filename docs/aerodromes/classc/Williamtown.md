@@ -51,22 +51,29 @@ Visual Departures are commonly requested by high performance military jets and o
 
 !!! note
     Since the Coded Departures are not SIDs, WLM ACD needs to write the name of the coded departure in the Global Ops Field of the FDR and amend the flight plan route to include all relevant tracking points.
+    The most often departure to the M550 area is via Gate 4.
 
 ### Gates for the SUA
 There are 8 gates to facilitate departures and arrivals into these Training Airspace, based on the WLM Tacan. 
 WLM Eastern Airspace
-G1 029/25
-G2 050/25
-G3 068/25 (Lighting Corrider Entry)
-G4 088/25
-G5 105/25
-G6 125/25
-G7 135/25
-G9 007/25
-WLM Western Airspace
-UKDIP 311/25 (Thunder Corridor Entry)
-SAWR (Salt Ash Weapons Range)
-OLVEP 033/10
+
+| Gate Name | Ident | Bearing (°M) | Distance (nm) | Restricted Area |
+| Gate 1 | G1 | 029 | 25 | R586 |
+| Gate 2 | G2 | 050 | 25 | R586 | 
+| Gate 3 | G3 | 068 | 25 | M550 |
+| Gate 4 | G4 | 088 | 25 | M550 |
+| Gate 5 | G5 | 105 | 25 | M550 |
+| Gate 6 | G6 | 125 | 25 | M550 |
+| Gate 7 | G7 | 135 | 25 | M550 |
+| Gate 9 | G9 | 007 | 25 | R585 |
+| UKDIP | UKDIP |311 | 25 | R560 |
+| OLVEP | OLVEP |033 | 25 | R596 |
+
+<figure markdown>
+![WLM Gates](){ width="700" }
+  <figcaption>WLM Gates</figcaption>
+</figure>
+
 
 ### Initial and Pitch Procedures 
 The Intial Points for RWY 12 is the SW tip of Grahamstown Dam, and RWY 30 is the coastline.
