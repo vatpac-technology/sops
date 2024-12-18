@@ -22,7 +22,7 @@ Aircraft planned via **DN**, **LAREB**, **GREGA**, **DOSAM**, **MILIV**, **MIGAX
 Aircraft who are not planned via those points or who are negative RNAV may be assigned a RADAR SID or a visual departure.
 
 #### Gate Departures (All Military Aircraft)
-There are 11 gates to facilate departues and arrivals from the TN Training Airspace, based on the TN TACAN. Aircraft can be cleared to track direct to the gate, or allow them to intercept the outbound radial by 10 DME. 
+There are 11 gates to facilate departues and arrivals from the TN Training Airspace, based on the TDL TACAN. Aircraft can be cleared to track direct to the gate, or allow them to intercept the outbound radial by 10 DME. 
 
 | Gate Name | Ident | Bearing (°M) | Distance (nm) | Restricted Area |
 | ------ | ----------| ----------| ----------| ----------|
@@ -86,6 +86,8 @@ The intial point is at A020 on the extended centerline of Taxiway Alpha at 6.5NM
     <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Next, ASY01, runway 32"  
     <span class="hotline">**TN TCU** -> **TN ADC**</span>: "ASY01, Assigned Heading Right 030, unrestricted"  
     <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Assigned Heading Heading Right 030, ASY01"  
+
+The Standard Assignable level from TN ADC to TN TCU is the lower of `F180` or the RFL.
 
 ### TRT(TRS)
 When TN TCU is offline, coordination is not required between TN ADC and TRT(TRS). Aircraft entering TRT(TRS) airspace shall be handed off, and instructed to contact TRT(TRS) for onwards clearance.
