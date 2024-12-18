@@ -51,7 +51,7 @@ This technique is useful for situations such as:
     **SY ADC:** "JST219, traffic is a helicopter becoming airborne from RPA, approximately 4nm final, maintaining own separation with you, runway 16L, cleared to land"
 
 ## Geographic Features
-Two aircraft are considered to be *laterally separated* where one or both are operating with visual reference to a fixed geographic feature, such as a coastline, river, large highway, etc.
+Two aircraft are considered to be *laterally separated* where both are operating with visual reference to a fixed geographic feature, such as a coastline, river, large highway, etc.
 
 A **1nm** buffer must be applied to one aircraft's tracking.
 
