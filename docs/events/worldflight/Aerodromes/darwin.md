@@ -20,7 +20,7 @@ Ensure **all flight plans** are checked for compliance with the approved WF Rout
 
 If an aircraft has filed an *incorrect* route and you need to give an amended clearance, this amendment must be specified by **individual private message**, prior to the PDC.
 
-!!! example
+!!! phraseology
     **DN ACD:** *"AMENDED ROUTE CLEARANCE. CLEARED TO AYPY VIA RUPEG DCT IGOPO B598 ESKIM DCT GUMBU DCT PY DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
 
 ### WorldFlight Teams
@@ -110,7 +110,7 @@ Due to the tight sequence, there are times that [Wake Turbulence Separation](../
 
 When a following aircraft is of a *lighter* [Wake Turbulence Category](../../../../../../separation-standards/waketurb/#categories) than the preceding aircraft, a traffic statement and wake turbulence **caution** shall be issued.
 
-!!! example
+!!! phraseology
     **DN ADC:** "BNZ1193, A380 has just departed ahead. Caution Wake Turbulence. Runway 29, Cleared for Takeoff"  
     **BNZ1193:** "Cleared for Takeoff Runway 29, BNZ1193"
 
@@ -120,13 +120,13 @@ ADC should assess traffic congestion on both the north and south sides of the ae
 #### Runway 11
 Aircraft intended for the northern aprons should be instructed to vacate at either **E2** or via the **northern grass** if they miss it. Aircraft intended for the southwestern apron should be instructed to vacate on any taxiway to the right.
 
-!!! example
+!!! phraseology
     **DN ADC**: "QFA25, vacate to the right, runway 11, cleared to land"
 
 #### Runway 29
 Aircraft intended for the northern aprons should be instructed to vacate at either **B2** or **runway 36**. This way, any pilots who miss the crossing runway can still vacate via **C4**. Aircraft intended for the southwestern apron should be instructed to vacate at either **C3** or **A1**.
 
-!!! important
+!!! warning "Important"
     It is **vital** that aircraft do not vacate left (south) prior to runway 36, as this will cause significant conflict with the outbound taxi route and likely to lead to the aircraft being required to disconnect. If an aircraft slows down rapidly, consider instructing them to vacate to the right via **B2** or reminding them to keep their speed up and roll through to vacate at **C3**.
 
 ## ATIS
