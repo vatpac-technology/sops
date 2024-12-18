@@ -61,7 +61,7 @@ The Circuit Area Airspace is allocated to be within 5nm of the YPTN ARP from `SF
 | 32     | Left |
 
 ### Intial and Pitch Operations 
-The intial point is at 2000ft on the extended centerline of Taxiway Alpha at 6.5NM for RWY 14, 5NM for RWY 32. Aircraft will be cleared for a left, straight or right intial.
+The intial point is at A020 on the extended centerline of Taxiway Alpha at 6.5NM for RWY 14, 5NM for RWY 32. Aircraft will be cleared for a left, straight or right intial.
 
 !!!
   **CLAS15**: "Request Intial and Pitch RWY 32"
