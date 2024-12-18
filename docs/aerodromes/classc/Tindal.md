@@ -59,7 +59,7 @@ Place/Bearing Distance points in the FDR can be used for this, with **TN** as th
 The Circuit Area Airspace is allocated to be within 5nm of the YPTN ARP from `SFC` to `A025`. Aircraft can be instructed to extend outside of this airspace by ATC for traffic management. 
 
 !!! note
-    If a Fast Jet is in the pattern, all other aircraft are required to be seperated by 1000ft as such the min circuit height becomes 2500ft when Fast Jet are in the pattern.
+    If a Fast Jet is in the pattern, all other aircraft are required to be seperated by 1000ft as such the min circuit height becomes A025 when Fast Jet are in the pattern.
 
 #### Circuit Direction
 | Runway | Direction |
@@ -86,7 +86,6 @@ The intial point is at 2000ft on the extended centerline of Taxiway Alpha at 6.5
     <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Next, ASY01, runway 32"  
     <span class="hotline">**TN TCU** -> **TN ADC**</span>: "ASY01, Assigned Heading Right 030, unrestricted"  
     <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Assigned Heading Heading Right 030, ASY01"  
-
 
 #### Charts
 !!! note
