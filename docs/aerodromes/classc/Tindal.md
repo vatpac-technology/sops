@@ -52,7 +52,7 @@ Since the Gate Departures are not SIDs, TN ACD needs to write the name of the co
 Place/Bearing Distance points in the FDR can be used for this, with **TN** as the reference point, in the format PPPPBBBDDD.
 
 !!! example 
-    MOROTAI = TN170030  
+    MOROTAI = TN270030  
     NADZAB = TN150030  
 
 ## Miscellaneous
@@ -87,7 +87,7 @@ The intial point is at A020 on the extended centerline of Taxiway Alpha at 6.5NM
     <span class="hotline">**TN TCU** -> **TN ADC**</span>: "ASY01, Assigned Heading Right 030, unrestricted"  
     <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Assigned Heading Heading Right 030, ASY01"  
 
-The Standard Assignable level from TN ADC to TN TCU is the lower of `F180` or the RFL.
+The Standard Assignable level from TN ADC to TN TCU is the lower of `F180` or the `RFL`.
 
 ### TRT(TRS)
 When TN TCU is offline, coordination is not required between TN ADC and TRT(TRS). Aircraft entering TRT(TRS) airspace shall be handed off, and instructed to contact TRT(TRS) for onwards clearance.

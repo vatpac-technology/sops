@@ -58,7 +58,7 @@ Arrivals can be cleared via the appropriate gate for their return to YPTN.
 Place/Bearing Distance points in the FDR can be used for routing via the gates, with **TN** as the reference point, in the format PPPPBBBDDD.
 
 !!! example 
-    MOROTAI = TN170030  
+    MOROTAI = TN270030  
     NADZAB = TN150030  
 
 ## Coordination
@@ -97,4 +97,4 @@ All other aircraft coming from TRT(TRS) CTA will be **Heads-up** Coordinated to 
     <span class="hotline">**TN TCU** -> **TN ADC**</span>: "ASY01, Assigned Heading Right 030, unrestricted"  
     <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Assigned Heading Heading Right 030, ASY01"  
 
-The Standard Assignable level from TN ADC to TN TCU is the lower of `F180` or the RFL.
+The Standard Assignable level from TN ADC to TN TCU is the lower of `F180` or the `RFL`.
