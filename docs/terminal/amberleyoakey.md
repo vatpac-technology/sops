@@ -72,24 +72,24 @@ OK ADC owns the Class C airspace within 5 DME of the OK VOR from `SFC` to `A025`
 Visual Departures are commonly requested by high performance military jets, and often processed in the form of a coded departure (e.g. BYRON7 departure), which can be found in the AD2 Sups Page for Amberley. These coded departures provide a corridor with altitude constraints to join the Military Training Areas east of Brisbane avoiding civilian traffic inbound to Brisbane. 
 
 
-Aircraft will make a visual departure in the circuit direction and fly overhead YAMB to begin tracking for their initial waypoint.
-
-!!! phraseology
-    WOLF03 was assiged the BYRON7 departure with their intial clearance.  
-    **AMB ADC**: "WOLF03, make left turn, reach `F190` by COWIE, cleared for takeoff"  
-    **WOLF03**: "Make left turn, reach `F190` by COWIE, cleared for takeoff, WOLF03"  
+Aircraft will make a visual departure in the circuit direction and fly overhead YAMB to begin tracking for their initial waypoint. 
 
 | Departure | Initial Constraint | Route |
 | --------- | ----------| --------- |
 | Northern 1 | `F190` at BINUP | BINUP MURJO BOBED LESKO MOSSI/ADNUK (Transition) |
 | Central 1 | `F190` at BINUP | BINUP MURJO BOBED VIRGE |
-| Byron 7 | `F190` at BINUP | COWIE KIWEE ZANET LOTMA SEMAJ |
+| Byron 7 | `F190` at COWIE | COWIE KIWEE ZANET LOTMA SEMAJ |
+
+!!! phraseology
+    WOLF03 was assiged the BYRON7 departure with their intial clearance.  
+    **AMB ADC**: "WOLF03, make left turn, reach `F190` by COWIE, cleared for takeoff"  
+    **WOLF03**: "Make left turn, reach `F190` by COWIE, cleared for takeoff, WOLF03"
 
 !!! note
+    AMB ACD will record the name of the coded departure in the Global Ops Field of the FDR and amend the flight plan route with all necessary tracking points. 
+
+!!! tip
     Charts for the Coded Departures may be in YAMB AD2 Supplements 6.2.25.11 available here: [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
-
-!!! note
-    AMB ACD will record the name of the coded departure in the Global Ops Field of the FDR and amend the flight plan route with all necessary tracking points.
 
 ## Charts
 !!! note
