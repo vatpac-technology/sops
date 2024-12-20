@@ -232,7 +232,9 @@ When the aircraft is ready for takeoff, **EDN ADC** will give a "Next" call, whe
     <span class="hotline">**EDN ADC** -> **AD TCU**</span>: "A050, BLKT11"
 
 #### Arrivals
-AD TCU Must coordinate the sequence information to **EDN ADC** prior to transfer of jurisdiction.
+AD TCU, Should assign the appropriate *STAR* (**AD**,**ATNAR**,,**BEVSO**,**KAKLU**,**KLAVA**)
+
+AD TCU Must coordinate the sequence information to **EDN ADC** prior to transfer of jurisdiction. 
 
 !!! phraseology
     <span class="coldline">**AD TCU** -> **EDN ADC**</span>: "New sequence of 2. MRNR21, via AD, Number 1. MRNR22, via AD, Number 2"  
