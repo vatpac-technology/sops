@@ -84,8 +84,8 @@ The intial point is at A020 on the extended centerline of Taxiway Alpha at 6.5NM
 
 !!! phraseology
     <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Next, ASY01, runway 32"  
-    <span class="hotline">**TN TCU** -> **TN ADC**</span>: "ASY01, Assigned Heading Right 030, unrestricted"  
-    <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Assigned Heading Heading Right 030, ASY01"  
+    <span class="hotline">**TN TCU** -> **TN ADC**</span>: "ASY01, Heading 030, unrestricted"  
+    <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Heading 030, ASY01"  
 
 The Standard Assignable level from TN ADC to TN TCU is the lower of `F180` or the `RFL`.
 
