@@ -24,6 +24,21 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 ## Surveillance
 Surveillance coverage can be expected to be available at all levels in the BRM CTR. Although BRM ADC is **not permitted** to use surveillance for separation, TRT(ASH) may assist by establishing surveillance separation standards via coordination
 
+## Local Lateral Separation Points
+Due to the convergence of inbound/outbound air routes approaching BRM, the [geographic feature separation standard](../../separation-standards/visual.md#geographic-features) may be useful to efficiently process opposite direction aircraft from the north or south.
+
+The **coastline** is a good reference for this standard.
+
+!!! phraseology
+    *FHG is outbound from YBRM for Port Headland (southwest) and has reported visual. An aircraft is inbound to YBRM from the same direction, tracking over land.*  
+    **BRM ADC:** "FHG, track to remain at least 1nm offshore, report established"  
+    **FHG:** "Track to remain at least 1nm offshore, FHG"  
+
+    **FHG:** "FHG, established 1nm offshore"  
+    *FHG is now laterally separated from aircraft over land*  
+    **BRM ADC:** "FHG, climb to A085"  
+    **FHG:** "Climb to A085, FHG"
+
 ## Coordination
 ### Departures
 A 'next' call is made for all aircraft entering TRT(ASH) CTA when they are next to depart. BRM ADC must inform TRT(ASH) if the aircraft does not depart within **2 minutes** of the next call.

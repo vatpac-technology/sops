@@ -154,7 +154,7 @@ It is best to always assign the *lowest possible level* on descent when taking i
 
 This reduces controller workload by reducing the number of calls required to facilitate an aircraft's descent, and reduces the likelihood of an aircraft having their descent profile interrupted if you get distracted and/or busy.
 
-!!! phraseology
+!!! example
     VOZ888 is tracking from Sydney to Melbourne via the Q29 airway to LIZZI for the LIZZI8A arrival runway 34. There are no conflicts on their route ahead, and the CTA LL is `A085`.
 
     "VOZ888, when ready, descend via the STAR to A090, QNH 1009."
@@ -168,7 +168,7 @@ Another common practice is to see controllers issue an intermediate descent to t
 
 This is **entirely unnecessary**, and just uses up additional talking time, and increases controller workload.
 
-!!! note
+!!! phraseology
     **ARL:** "QLK4D, When ready descend to F130"  
     ...  
     **ARL:** "QLK4D, Descend to A090, Area QNH 1013"  
@@ -182,7 +182,7 @@ This is **entirely unnecessary**, and just uses up additional talking time, and 
 #### STAR Level Restrictions
 Further transmissions can be saved in the busy TMA, with the use of *"Descend via STAR"* phraseology when CTA protection is in place, **only** where Level Restrictions exist on the STAR assuring aircraft remain inside CTA.
 
-!!! phraseology
+!!! example
     RXA4652 is tracking via ODALE for the ODALE7 STAR to runway 34R. CTA LL is `A075`, but the STAR has built-in CTA protection (At or Above A080 at **KABLO**)
 
     "RXA4652, Sydney Approach, runway 34R, descend via the STAR to A060"
