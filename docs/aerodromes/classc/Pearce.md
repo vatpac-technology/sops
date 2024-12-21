@@ -18,10 +18,11 @@
 PE ADC owns the Class C airspace **in the PE CTR** within 5nm of the YPEA ARP from `SFC` to `A035`. This airspace is primarily used for military circuits and initial and pitch approaches.
 
 ### SID Selection
-Aircraft planned via **WAMAL**, **GUNOK**, **ALKIMOS**, **MULLALOO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
-Aircraft who are not planned via those points or who are negative RNAV may be assigned a RADAR SID or a visual departure. 
+vatSys does not have SIDs built-in for YPEA. Aircraft planned via **WAMAL**, **GUNOK**, **ALKIMOS**, **MULLALOO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. as long as ATC is familiar with the chart, and the pilot is able. Aircraft who are not planned via those points or who are negative RNAV may be assigned a RADAR SID or a visual departure. 
 
 !!! Note
+  A Radar SID is preferred, however a Procedural SID may be issued on request. 
+
   Due to Civil Traffic Arriving from the North, the GUNOK SID will have an altitude assignment of A030.
 
   ### Level Assignment
