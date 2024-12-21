@@ -1,5 +1,5 @@
 ---
-  title: Port Moresby (AYPY)
+  title: Aerodrome
 ---
 
 --8<-- "includes/abbreviations.md"
