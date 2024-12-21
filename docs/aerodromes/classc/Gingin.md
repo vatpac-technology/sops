@@ -13,7 +13,7 @@
 ## Airsapce
  ADC owns the Class C airspace **in the PE CTR** within 5nm of the YPEA ARP from `SFC` to `A035`. This airspace is primarily used for military circuits and initial and pitch approaches.
 
-#### Miscellaneous
+## Miscellaneous
 
 ### Circuit Operations 
 The Circuit Area Airspace is allocated to be within 5nm of the YGIG ARP from `SFC` to `A035` exculding the area within 12TAC Pearce. Aircraft can be instructed to extend outside of this airspace by ATC for traffic management. Hawks have circuit altitude of A016 while both 2FTS and RSAF PC21s are assigned A012.
