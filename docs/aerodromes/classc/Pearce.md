@@ -29,7 +29,7 @@ The Standard Assignable Level from  **PE ADC** to **PE TCU** is:
 a) The Lower of `F130` or `RFL` for Aircraft assigned via Procedural or RNAV SID.  
 b) `F130` for Aircraft assigned a Coded Departure.
 
-#### Miscellaneous
+## Miscellaneous
 
 ### Circuit Operations 
 The Circuit Area Airspace is allocated to be within 5nm of the YPEA ARP from `SFC` to `A032`. Aircraft can be instructed to extend outside of this airspace by ATC for traffic management. Hawks have circuit altitude of A016 while both 2FTS and RSAF PC21s are assigned A012.
