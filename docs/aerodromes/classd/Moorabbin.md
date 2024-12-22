@@ -156,19 +156,19 @@ Day VFR helicopter departures must remain at `A007`. Helicopters must nominate a
 
 - Autorelease is not in effect. Coordination for "Next" is required required for departures into overlaying Class C. They must not be issued a takeoff clearance until a release has been obtained.
 - Standard assignable level: `A050` (or `RFL` if lower).  
-!!! example
+!!! phraseology
     <span class="hotline">**MB ADC** -> **MDS**</span>: "Next, SGE"  
     <span class="hotline">**MDS** -> **MB ADC**</span>: "SGE, unrestricted"
 
 Aircraft departing directly into Class C airspace should be instructed to report passing A025 and transferred to the TCU at that point.
 
-!!! example 
+!!! phraseology 
     **SGE**: "SGE, A025"  
     **MB ADC**: "SGE, contact Melbourne Departures on 129.4" 
 
 Aircraft who will transit Class G airspace on climb into CTA will be **cleared to leave and re-enter controlled airspace** on climb to their assigned level.
 
-!!! example
+!!! phraseology
     **MB ADC**: "SGE, cleared to leave and re-enter controlled airspace climbing to A050, no reported IFR traffic. Contact Melbourne Departures on 129.4"  
     **SGE**: "Cleared to leave and re-enter controlled airspace climbing to A050, Departures 129.4, SGE"
 
@@ -178,7 +178,7 @@ Aircraft who will transit Class G airspace on climb into CTA will be **cleared t
 - **IFR arrivals** will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to MB ADC, unless MB ADC nominates a restriction.  
 - **VFR arrivals** will not be coordinated, and will need to receive their airways clearance from MB ADC.
 
-!!! example
+!!! phraseology
     <span class="hotline">**MDS** -> **MB ADC**</span>: "To the west, PLE, for the NDB-A"  
     <span class="hotline">**MB ADC** -> **MDS**</span>: "PLE, NDB-A"
 

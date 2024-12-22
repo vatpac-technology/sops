@@ -15,11 +15,7 @@
 
 ## Airspace
 ### TCU
-DN TCU owns the airspace within a 40NM radius of the DN DME from `SFC`–`FL180`  
-
-DN TCU is also responsible for Active Restricted Area R264 A-K and R230 A-F  
-
-DAW may request DN TCU (`SFC`–`F240`) from TRT to facilitate military transits to/from R264 A-K and R230 A-F  
+DN TCU owns the airspace within a 40NM radius of the DN DME from `SFC`–`FL180`.
 
 ### Airspace Division
 When both DN TCU positions are opened, DN TCU is split east and west along the runway 18/36 extended centreline. DAW owns the airspace to the west of the line and DAE owns the airspace to the east of the line  
@@ -108,7 +104,7 @@ Voiceless for all aircraft:
 
 All other aircraft going to TRT CTA must be **Heads-up** Coordinated by DN TCU prior to the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**DN TCU** -> **TRT**</span>: "PFY1234, with your concurrence, will be assigned F160, for my separation with JTE654"  
     <span class="hotline">**TRT** -> **DN TCU**</span>: "PFY1234, concur F160"  
 
@@ -128,7 +124,7 @@ DN ADC owns the airspace within the DN CTR `SFC`–`A010`.
 #### Auto Release
 Auto-Release is **not available** at YPDN. All Departures will be coordinated when ready for departure.
 
-!!! example
+!!! phraseology
     <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Next, EOC, runway 18"  
     <span class="hotline">**DN TCU** -> **DN ADC**</span>: "EOC, Track Extended Centreline, unrestricted"  
     <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Track Extended Centreline, EOC"  
@@ -147,6 +143,6 @@ Heads-up coordination is not required between DAW and DAE for:
 
 All other aircraft must be heads-up coordinated prior to the airspace boundary  
 
-!!! example
+!!! phraseology
     <span class="hotline">**DAW** -> **DAE**</span>: "via DN, CFH23"  
     <span class="hotline">**DAE** -> **DAW**</span>: "CFH23, A090"   

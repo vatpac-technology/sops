@@ -19,12 +19,8 @@
 PH ADC is not responsible for any airspace by default.
 
 ## Maneuvering Area Responsibility
-The division of responsibility between ADC, SMC West, and SMC East is shown below.
-
-<figure markdown>
-![YPPH Maneuvering Area Responsibility](img/ypphsmc.png){ width="700" }
-  <figcaption>YPPH Maneuvering Area Responsibility</figcaption>
-</figure>
+The area of responsibility between SMC West and East is divided by Runway 03/21.  
+Everything West of the Runway belongs to SMC West, everything East of the Runway belongs to SMC East.
 
 ## Runway Selection
 ### Southwest Plan
@@ -58,7 +54,7 @@ All circuits are to be conducted to the east of Runway 03/21 (right-hand circuit
 ## Helicopter Operations
 There are no helipad facilities at YPPH. Helicopters should be issued an airways clearance in accordance with the fixed-wing operation applicable to their flight rules (i.e. SID for IFR helicopters, VFR departure via appropriate VFR route if necessary for VFR helicopters). Helicopters should be cleared to takeoff/land from runways or taxiways, as deemed appropriate by ADC. The point of takeoff/landing must be specified by ADC.
 
-!!! example
+!!! phraseology
     **PH ADC:** "YOE, taxiway Romeo, cleared to land"  
 
     **PH ADC:** "HWD, runway 21, cleared for takeoff"
@@ -75,7 +71,7 @@ When traffic permits, VFR scenic flights over Perth are cleared via VICTOR 65 ro
 
 All other aircraft require a 'Next' call to PH TCU.
 
-!!! example
+!!! phraseology
     <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Next, ABC, runway 03"  
     <span class="hotline">**PH TCU** -> **PH ADC**</span>: "ABC, Heading 010, unrestricted"  
     <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Heading 010, ABC"  
@@ -95,7 +91,7 @@ The controller assuming responsibility of ACD shall give heads-up coordination t
 a) VFR Departures  
 b) Aircraft using a runway not on the ATIS
 
-!!! example
+!!! phraseology
     **ABC**: "Perth Delivery, ABC, request Victor 65"  
     **PH ACD**: "ABC, Perth Delivery, standby"  
 
