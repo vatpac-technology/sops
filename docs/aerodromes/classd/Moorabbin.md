@@ -30,7 +30,7 @@ Preferred runway modes are as follows (in order of preference):
 2. Runway 17L/17R  
 3. Runways 13/31 (equal preference)
 
-Runway 04/22 may only be used operationally. Consideration must be given to it's limited length.
+Runway 04/22 is not nominated by default and is only available on request or when operationally required for emergencies. Requests for Runway 22 may be granted if traffic conditions allow. Runway 04 is less likely to be approved due the need to vacate onto an intersecting runway.
 
 ## VFR Inbound Procedures
 
