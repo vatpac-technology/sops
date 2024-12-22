@@ -69,6 +69,60 @@ The circuit direction changes depending on time of day and runway being used.
 
 Circuits are to be flown at `A010`.
 
+## Helicopter Operations
+Archerfield has three helipads located around the AD. Central Helipad on the southern side of Taxiway Foxtrot. Northern Helipad adjacent the north-eastern end of Runway 04R/22L, and the Queensland Government Air facility used by rescue helicopters north of Taxiway B5.
+
+!!! note
+    Both the **Northern** and **Southern** helipads are inside the maneuvering area and treated like a runway, requiring a takeoff and landing clearance from AF ADC. Helicopters operating on other surfaces outside the maneuvering areas should be instructed to *"report airborne"*  or *"report on the ground"* so the controllers knows when they are active / no longer active in their airspace. 
+
+### Circuits
+There are 3 designated helicopter training areas at Archerfield.
+
+**Area A**: North of taxiway B within the confines of the AD up to `A005`, clear of buildings, circuit direction and frequency as per ATIS. A maximum of 3 helicopters are permitted to operate circuits concurrently. Additionally, a maximum of 2 helicopters are permitted to operate on training in ground effect only.
+
+**Area B**: North and west of runway 04L within the confines of the AD up to `A005`, clear of buildings, circuit direction and frequency as per ATIS. A maximum of 3 helicopters are permitted to operate circuits concurrently. Additionally, a maximum of 2 helicopters are permitted to operate on training in ground effect only.
+
+**Area C**: South and east of taxiway D, inside the fixed wing circuit for runway 04R/22L, not above `A008`. Landings must be conducted north of taxiway B. Once established, the only radio communications are an airborne call before each circuit and a downwind call by pilots. Aircraft remain east of the control Tower; only 2 helicopters are permitted to operate concurrently in this area.
+
+<figure markdown> 
+  ![AF Helicopter Areas](img/ybaf_helicopter_area.png){ width="450" }
+  <figcaption>AF Helicopter Areas</figcaption>
+</figure>
+
+
+### Departures
+Helicopters comply with fixed wing outbound procedures. Departures shall be parallel to and clear of the duty runways. Departures with intended entry into BN CTR shall advise AF SMC on taxi with "Uni Departure". No heads-up coordination with BN TCU is required.
+
+!!! phraseology 
+    **TUY:** "Archer Tower, helicopter TUY, northen pad, for eastern departure, ready"  
+    **AF ADC:** "TUY, Archer Tower, northen pad, cleared for takeoff"  
+    **TUY:** "Cleared for takeoff, northen pad, TUY"  
+
+### Arrivals
+Helicopters comply with fixed wing inbound procedures. Pilots shall nominate the required HLS on first contact with AF ADC. Helicopters may be instructed to overfly the runway complex not below `A005` for a short circuit to the designated HLS.
+
+!!! phraseology 
+    **82Y:** "Archer Tower, helicopter 82Y, overhead UQLD A010, recieved F inbound northern pad"  
+    **AF ADC:** "82Y, Archer Tower, track direct northen pad, report 1 mile"  
+    **82Y:** "Track direct northern pad, 82Y"  
+
+    **82Y:** "82Y, 1 mile, northern pad"  
+    **AF ADC:** "82Y, cleared to land northern pad, no requirements with ground, taxi to parking"  
+    **82Y:** "Cleared to land northen pad, remaining your frequency, taxi to parking, 82Y"
+
+Helicopters inbound for the Queensland Government Air facility HLS shall be issued a standard fixed wing circuit instruction, complying to fixed wing operations unless another approach is operationally required.
+
+Helicopters inbound from the south via PKR for either the northen or southern helipad shall be instructed to *"cross 10L and 10R"* alongside any other tracking or traffic information.
+
+!!! phraseology 
+    **SMD:** "Archer Tower, helicopter SMD, overhead PKR A015, recieved G inbound southern pad"  
+    **AF ADC:** "SMD, Archer Tower, report Logan Motorway"  
+    **SMD:** "Report Logan Motorway, SMD"  
+
+    **SMD:** "SMD, Logan Motorway"  
+    **AF ADC:** "SMD, track direct southern pad, cross 10L and 10R"  
+    **SMD:** "Track direct southern pad, crossing 10L and 10R, SMD"
+
 ## ATIS
 ### Runway Nomination
 
