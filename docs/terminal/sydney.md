@@ -36,7 +36,6 @@ SY TCU is responsible for the Sydney TMA, except:
 - R470 Restricted Area, when RIC ADC is online (or as negotiated)  
 
 ### Reclassifications
-
 #### BK CTR
 BK CTR reverts to Class G when **BK ADC** is offline, and is administered by the relevant SY TCU controller.
 
@@ -44,6 +43,14 @@ See also: [BK ADC Offline](#bk-adc-offline).
 
 #### CN CTR
 CN CTR reverts to Class G when **CN ADC** is offline, and is administered by the relevant SY TCU controller.
+
+#### RI CTR
+RI ADC being online will activate the **R470** Restricted Area, which is reclassified as **Class C** when active.
+
+Control authority of the **R470** Restricted Area when active is as follows:
+
+- RI ADC `SFC`-`A015`
+- SY TCU (SDN) `A015`-`A045`
 
 ### Airspace Structural Arrangements
 Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, the following rules apply, in the order presented, to these controller positions, except **SFL**:  
@@ -157,7 +164,7 @@ All aircraft should be assigned no lower than `A060` until clear of the active r
     Remember that you will not receive "Next" Coordination on aircraft assigned Standard Assignable Levels (ie `A050` for Jets, `A030` for Non-Jets), meaning an aircraft could depart at any time without prior warning and climb to `A050`.
 
 !!! example
-    For an aircraft inbound from the north on the BOREE3A arrival to runway 34R, assign no lower than `A080` until any adjacent aircraft are maintaing `A060`, then `A070` until the aircraft are laterally clear.  The arrival should then be assigned `A060` until south of the field.
+    For an aircraft inbound from the north on the BOREE4A arrival to runway 34R, assign no lower than `A080` until any adjacent aircraft are maintaing `A060`, then `A070` until the aircraft are laterally clear.  The arrival should then be assigned `A060` until south of the field.
 
 Be mindful of departures from YSBK which may also impact aircraft on downwind for RWY 16R at YSSY.  Do not assign lower than `A040` until the aircraft is north/east of the BK CTR and clear of any departing traffic (who are assigned `A030` by default).
 </details>
@@ -192,12 +199,12 @@ SFW/SFE should provide aircraft an approximate 'miles to run' on first contact, 
 
 A typical downwind will take roughly 25 track miles from the normal point have handover from SAN/SAS to SFE/SFW.
 
-!!! example
+!!! phraseology
     "QLK402, Sydney Director, descend to A040, 25 miles to run"
 
 SFW/SFE may provide distance to touchdown, when transferring an aircraft to tower after the aircraft is established on their approach runway centreline (see below).
 
-!!! example
+!!! phraseology
     "QFA490, 8 miles to touchdown, contact tower 120.5"
 
 ### Instrument Approach
@@ -208,7 +215,7 @@ Two aircraft established on adjacent parallel approaches require `1nm` lateral s
 ### Independent Visual Approach
 When conducting IVAs, aircraft shall not be transferred to **SY ADC** until established on final.
 
-!!! example
+!!! phraseology
     **SFW:** “BNZ444, Turn left heading 360, join final Runway 34L, from that heading Cleared Independent Visual Approach”    
     **BNZ444:** "Left heading 360, join final Runway 34L, from that heading Cleared Independent Visual Approach, BNZ444"  
       
@@ -216,7 +223,11 @@ When conducting IVAs, aircraft shall not be transferred to **SY ADC** until esta
     **BNZ444:** "120.5, BNZ444"
 
 #### Phraseology at Night
-*"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (altitude) UNTIL ESTABLISHED ON THE PAPI (or GLIDEPATH)"*
+*"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (MVA) UNTIL ESTABLISHED ON THE PAPI (or GLIDEPATH)"*
+
+!!! phraseology
+    **SFE:** “ANZ361, Turn right heading 330, join final Runway 34R, from that heading Cleared Independent Visual Approach Runway 34R, not below 1500 until established on the PAPI”    
+
 </details>
 
 <details markdown="1">
@@ -227,15 +238,15 @@ Flights may be cleared for one of two standard scenic flight routes at `A015`, *
 
 Aircraft must track via Class G airspace to Long Reef and contact SY TCU prior to reaching Long Reef requesting a ‘Harbour Scenic’ clearance. Attempt to identify the aircraft, and if a clearance cannot be given immediately, instruct the pilot to remain in Class G airspace.
 
-!!! example
+!!! phraseology
     "LOI, squawk 0542, remain clear of Class C airspace"
 
 A **‘Harbour Scenic One’** (or **‘Two’**) clearance is used to authorise flight in the nominated route at `A015`. Sydney QNH must be issued with the clearance.
 
-!!! example
+!!! phraseology
     "LOI, identified, cleared Harbour Scenic One, Sydney QNH 1014"
 
-!!! caution
+!!! warning "Caution"
     The Harbour Scenic One procedure may cause conflict with departures from Runway 34R to the north. Before issuing a Harbour Scenic One clearance, assess the traffic situation on the ground at YSSY and determine whether a departure to the north of the harbour is likely in the next few minutes. If necessary, instruct the aircraft to remain OCTA and advise of the delay, or alternatively, issue the Harbour Scenic Two clearance.
 
 <figure markdown>
@@ -261,7 +272,7 @@ These can be displayed on vatSys using the `SY_VFR` map.
 ### Inbound/Outbound Routes
 Helicopters outbound from YSSY will make contact with the Departures controller established on a Helicopter Route.  Controllers need only identify the aircraft, as they will already be cleared to climb to a suitable level (generally not above `A010`) through their coded clearance.  Each clearance stipulates a point where identification and control services are automatically terminated, but controllers may explicitely cancel these services for new pilots who may not understand where they exit CTA.  
 
-!!! example
+!!! phraseology
     **YZD:** "Sydney Departures, helicopter YZD, passing A009 on the Barracks 5 Outbound"  
     **SY TCU:** "YZD, Departures, identified"
 
@@ -269,7 +280,7 @@ Helicopters tracking inbound to YSSY will generally do so via a Helicopter Route
 
 Controllers should identify the aircraft and then provide clearance if traffic permits.
 
-!!! example
+!!! phraseology
     **HSZ:** "Sydney Departures, helicopter HSZ, Sydney Heads, A010, received Delta, request Harbour Bridge 5 Inbound"  
     **SY TCU:** "HSZ, squawk 0552"  
 
@@ -292,7 +303,7 @@ The `BONDI 5` coded clearance is only available to helicopters, provided PRM app
 
 Helicopters should be identified and then cleared for the `BONDI 5 NORTHBOUND` or `BONDI 5 SOUTHBOUND`. Traffic information must be provided on any other helicopters operating on the route or any other aircraft in the area (e.g. aircraft in Victor One).  Sydney QNH should be provided if the aircraft didn't depart from YSSY recently.
 
-!!! example
+!!! phraseology
     **YOE:** "Sydney Approach, helicopter YOE, Jibbon Point, A005, received Whiskey, request Bondi 5 Northbound"  
     **SY TCU:** "YOE, Sydney Approach, squawk 0451"  
 
@@ -300,7 +311,7 @@ Helicopters should be identified and then cleared for the `BONDI 5 NORTHBOUND` o
 
 Once the aircraft exits CTA at Long Bay Headland (southbound) or Sydney Heads (northbound), cancel their identification and control services.  If the helicopter is likely to request a clearance via one of Sydney's Helicopter Routes, consider instructing them to remain on their assigned squawk code to assist with identification.
 
-!!! example
+!!! phraseology
     "YOE, clear of controlled airspace, identification and control service terminated, squawk 1200, frequency change approved"
 
 #### Sector Coded Clearances
@@ -317,19 +328,20 @@ To reduce frequency congestion, several commonly used geographically defined are
 
 Helicopters should be identified and then provided the clearance where traffic permits.  Helicopters established on a Helicopter Route should be issued an onwards clearance into the requested sector.
 
-!!! example
+!!! phraseology
     **HWD:** "Sydney Departures gday, helicopter HWD, passing 800ft on the Harbour Bridge 5 outbound, request South Harbour Sector"  
     **SY TCU:** "HWD, Departures, identified, onwards clearance South Harbour Sector"  
     **HWD:** "Onwards clearance South Harbour Sector, HWD"
 </details>
 
 <details markdown="1">
-<summary>BK ADC Offline</summary>
+<summary>Offline Towers</summary>
 
-## BK ADC Offline
+## Offline Towers
+### BK ADC Offline
 Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
-!!! example
+!!! phraseology
     **LOA**: "LOA, King Air, POB 10, IFR, taxing Bankstown for Shellharbour, Runway 11C"    
     **SY TCU**: "LOA, Sydney Approach, squawk 3601, no reported IFR traffic, report ready at the holding point for airways clearance"  
     **LOA**: "Squawk 3601, wilco, LOA"  
@@ -402,7 +414,7 @@ Voiceless to all surrounding Enroute sectors for all aircraft:
 
 All other aircraft going to Enroute CTA must be **Heads-up** Coordinated to the relevant sector as soon as practical.
 
-!!! example
+!!! phraseology
     <span class="hotline">**SY TCU** -> **ARL**</span>: "DAL40, with your concurrence, will be right of route, DCT GUTIV"  
     <span class="hotline">**ARL** -> **SY TCU**</span>: "DAL40, concur right of route DCT GUTIV"
 
@@ -451,7 +463,7 @@ Westbound: `A080`
 
 Any aircraft not meeting these requirements **must** be prior coordinated to DIR.
 
-!!! example
+!!! phraseology
     **QFA421:** "QFA421, request direct SOSIJ"  
     **SAS:** "QFA421, standby"  
 
@@ -462,7 +474,7 @@ Any aircraft not meeting these requirements **must** be prior coordinated to DIR
     **SAS:** "QFA421, cancel STAR, recleared direct SOSIJ, A060"  
     **QFA421:** "Cancel STAR, recleared direct SOSIJ, A060, QFA421"
 
-!!! example
+!!! phraseology
     <span class="hotline">**SAS** -> **SFW**</span>: "VOZ456, with your concurrence, will be assigned A070, for my separation with UJI"  
     <span class="hotline">**SFW** -> **SAS**</span>: "VOZ456, concur A070"
 
@@ -478,7 +490,7 @@ Within 15 DME of SY, Departure controllers (**SDN** and **SDS**) can allow aircr
 
 It is vital that Approach controllers ensure all arriving aircraft are established below `A090` no later than 20DME to avoid conflicting with departures utilising the airspace.  All STARs have height requirements which ensure this is achieved.  Aircraft inbound to YSBK or YSSY who are not cleared via a STAR should be instructed to reach `A090` by 20DME.
 
-!!! information
+!!! info
     Circumstances like excessive weather deviation may make the use of REP impractical.  Controllers should coordinate with other TMA positions and suspend REP in this case.
 
 ##### MARLN Corridor
@@ -488,7 +500,7 @@ Aircraft are permitted to cross the MARLN corridor at or above `A060` without co
 If aircraft are cleared off runway 11 at YSBK into CTA, coordination is required from SDN (who will be receiving the aircraft from BK ADC) with SFW or SAN (depending on YSSY runway config) as the aircraft will pass closer than 1.5nm from the sector boundary.  
 Refer to [Sydney TCU Airspace Division](#airspace-division) for more information.
 
-!!! Example
+!!! phraseology
     <span class="hotline">**SDN** -> **SFW**</span>: “Request left turn out of Bankstown”  
     <span class="hotline">**SFW** -> **SDN**</span>: "Approved" *(no callsigns need be used here)*  
 
@@ -504,7 +516,7 @@ Upon receipt of the heads-up coordination from SRI, the SY TCU controller has se
 - "Remain outside Class C airspace, expect XX minute delay" - *Useful if it's busy*
 - "I'll call you back" - *Useful if the SY TCU controller hasn't had time to assess the aircraft yet*
 
-!!! Example
+!!! phraseology
     <span class="hotline">**SRI** -> **SDS**</span>: “Departed YSHL, EQU”  
     <span class="hotline">**SDS** -> **SRI**</span>: "EQU, F170"  
     <span class="hotline">**SRI** -> **SDS**</span>: “F170, EQU”  
@@ -523,7 +535,7 @@ Heads-up coordination is not required from a SY TCU position to SRI for aircraft
 - Assigned 500ft above the BCTA as the CFL; and
 - Handed off to SRI
 
-!!! example
+!!! phraseology
     *FD214 is intending on leaving Class C airspace on descent into Bankstown.  The lower limit of CTA is `A045`.*  
     **SDS:** "FD214 descend to 5,000ft, contact Sydney Centre 124.55"  
     **FD214:** "Descend 5,000ft, 124.55, FD214"  
@@ -536,7 +548,7 @@ Heads-up coordination is not required from a SY TCU position to SRI for aircraft
 
 - Handed off to SRI upon termination of control services
 
-!!! example 
+!!! phraseology 
     *CYF is an IFR C172 leaving CTA to the north at `A050`.*  
     **SAN:** "CYF at 30DME SY, control service terminates, contact Sydney Centre 124.55"  
     **CYF:** "124.55, CYF"  
@@ -570,7 +582,7 @@ Auto Release is used for virtually all fixed-wing departures at Sydney. Unlike s
     a) Departing from a runway nominated on the ATIS; and   
     b) Assigned the Standard assignable level; and  
     c) Assigned a **Procedural SID** (except **ABBEY** SID); or  
-    d) Assigned a Standard Assignable Heading
+    d) Assigned the **Radar** SID with a Standard Assignable Heading
 
 All other aircraft require a 'Next' call from SY ADC.
 
@@ -581,7 +593,7 @@ All other aircraft require a 'Next' call from SY ADC.
     d) Jets departing 16L via WOL  
     e) All aircraft during the Curfew Runway Mode
 
-!!! example
+!!! phraseology
     <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Next, ADA4, runway 34R"  
     <span class="hotline">**SY TCU** -> **SY ADC**</span>: "ADA4, Heading 030, unrestricted"  
     <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Heading 030, ADA4"
@@ -601,7 +613,7 @@ Refer to [Reclassifications](#bk-ctr) for operations when BK ADC is offline.
 #### Departures
 Aircraft departing YSBK in to SY TCU Class C will be coordinated from **BK ADC** when ready for takeoff.
 
-!!! example
+!!! phraseology
     <span class="hotline">**BK ADC** -> **SY TCU**</span>: "Next, TFX12"  
     <span class="hotline">**SY TCU** -> **BK ADC**</span>: "TFX12, Unrestricted"  
     <span class="hotline">**BK ADC** -> **SY TCU**</span>: "TFX12"  
@@ -615,7 +627,7 @@ SY TCU will heads-up coordinate arrivals/overfliers from Class C to BK ADC prior
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to BK ADC, unless BK ADC nominates a restriction.  
 VFR aircraft require a level readback.
 
-!!! example
+!!! phraseology
     <span class="hotline">**SY TCU** -> **BK ADC**</span>: "via GRB, UJN"  
     <span class="hotline">**BK ADC** -> **SY TCU**</span>: "UJN, A010"
 
@@ -631,7 +643,7 @@ Refer to [Reclassifications](#cn-ctr) for operations when CN ADC is offline.
 #### Departures
 CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a ready call, SY TCU will issue a traffic statement.
 
-!!! example
+!!! phraseology
     <span class="hotline">**CN ADC** -> **SRI**</span>: "Ready, MHQ, Runway 06"  
     <span class="hotline">**SRI** -> **CN ADC**</span>: "MHQ, traffic is MEH, an IFR AC50, tracking SHL RAKSO SB2WI, A035, estimate RAKSO time 35" (or "No Reported IFR Traffic")  
     <span class="hotline">**CN ADC** -> **SRI**</span>: "Traffic is MEH tracking SHL RAKSO SB2WI A035, RAKSO at 35"  
@@ -650,13 +662,20 @@ SY TCU must heads-up coordinate inbound IFR aircraft prior to **5 mins** from th
 
 SY TCU will **NOT** clear the aircraft for the approach.
 
-!!! example
+!!! phraseology
     <span class="hotline">**SRI** -> **CN ADC**</span>: “via RNP W, HRP”  
     <span class="hotline">**CN ADC** -> **SRI**</span>: “HRP”   
 
 **CN ADC** must issue an airways clearance to these aircraft on first contact.
 
-### RIC ADC
-Reserved.
+### RI ADC
+'Next' coordination is required from RI ADC to SY TCU for all aircraft.
+
+!!! example
+    <span class="hotline">**RI ADC** -> **SDN**</span>: "Next, TROJ57, runway 28"  
+    <span class="hotline">**SDN** -> **RI ADC**</span>: "TROJ57, unrestricted"  
+    <span class="hotline">**RI ADC** -> **SDN**</span>: "TROJ57"  
+
+The Standard Assignable Level from **RI ADC** to **SY TCU** is the lower of `A050` or `RFL`.  
 
 </details>

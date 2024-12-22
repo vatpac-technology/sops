@@ -1,0 +1,7 @@
+title: Milk Run Monday
+nav:
+    - Overview: index.md
+    - Aerodrome Control: aerodrome.md
+    - Terminal Area Control: terminal.md
+    - Enroute Control: enroute.md
+    - Workload Management: workload.md
