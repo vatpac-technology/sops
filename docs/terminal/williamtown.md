@@ -78,11 +78,6 @@ Fast Jet Aircraft typically arrive back into Willy from Gate 6, at 'F125', as su
 **WLM TCU**: "MAPL45, cleared the stereo appraoch for RWY 12 via G6, once 9DME north of the tacan descend not below `A050`"
 **MAPL45**: "Once 9DME north, descend not below `A050`"
 
-<figure markdown>
-![WLM RWY12 STEREO APPROACH](img/WLM RWY12 Stereo Approach.png){ width="700" }
-  <figcaption>WLM RWY12 Stereo Approaches</figcaption>
-</figure>
-
 !!! Note 
    Stereo Approaches charts are found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
