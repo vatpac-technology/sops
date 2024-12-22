@@ -64,7 +64,7 @@ Ensure you familiarise yourself with the applicable [Separation Standards](../..
 
 Pass *Traffic Information* on aircraft that will come within **1.5nm** of each other on parallel approaches.
 
-!!! example
+!!! phraseology
     **BAN:** "UAL8317, Traffic is an A320 at your 2 o'clock for the parallel runway"
 
 #### 19R Arrivals
@@ -159,7 +159,7 @@ BFL must **voice coordinate** any changes to instructions after BUR/KPL has put 
 
 BFL must **voice coordinate** to KPL/BUR any aircraft that must be rerouted via **ENLIP** for **01R/19R**.
 
-!!! example
+!!! phraseology
     <span class="hotline">**BFL** -> **KPL**</span>: "PAA001 via ENLIP for 01R please"  
     <span class="hotline">**KPL** -> **BFL**</span>: "PAA001 via ENLIP for 01R, will be"  
 
