@@ -129,7 +129,7 @@ MARSA is to be assigned and terminated on pilots request, and when standard sepe
     Military aircraft normally operate NOCOM in military Restricted Areas and Class G airspace only. **Do not** permit NOCOM operations in Civil CTA.
 
 ## Stereo Approaches
-Stereo Approaches are the primary procedure for Fast Jet Aircraft (eg, **F18**, **HAWK**) to recover back to fast jet airbases such as YWLM and YPTN. The approach consists of Fast Jet tracking to an exit gate of the SUA, and then following each airports stereo procedure onto final in preparation for an initial and pitch, or instrument approach.
+Stereo Approaches are the primary procedure for Fast Jet Aircraft (eg, **F18**, **HAWK**,**PC21**) to recover back to fast jet airbases such as YWLM and YPTN. The approach consists of Fast Jet tracking to an exit gate of the SUA, and then following each airports stereo procedure onto final in preparation for an initial and pitch, or instrument approach.
 
 !!! note
     Stereo Approach's can be found in the RAAF Terma [here](https://ais-af.airforce.gov.au/australian-aip){target=new}
