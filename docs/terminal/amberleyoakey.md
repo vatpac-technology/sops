@@ -92,7 +92,7 @@ Aircraft will make a visual departure in the circuit direction and fly overhead 
     Charts for the Coded Departures may be in YAMB AD2 Supplements 6.2.25.11 available here: [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 ## Charts
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 ## Coordination
