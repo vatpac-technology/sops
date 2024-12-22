@@ -57,7 +57,7 @@ Aircraft will depart the circuit visually and track overhead YAMB to begin track
 Runways 15/33 are the primary runways at YAMB. 
 
 ## Charts
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 ## Miscellaneous
