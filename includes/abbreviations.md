@@ -247,7 +247,7 @@
 *[HNLY]: Henley Jetty
 *[GRB]: Georges River Bridge
 *[GON]: Goodna
-*[PKR]: Park Ridge
+*[PKR]: Park Ridge Water Tower
 *[TAR]: Target
 *[CBRG]: Centenary Bridge
 *[WTBG]: Walter Taylor Bridge
@@ -305,3 +305,6 @@
 *[CPDLC]: Controller-Pilot Datalink Communications
 *[LDA]: Landing Distance Available
 *[TORA]: Takeoff Run Available
+*[AD]: Aerodrome
+*[UQLD]: University of Queensland
+*[HLS]: Helicopter Landing Site
