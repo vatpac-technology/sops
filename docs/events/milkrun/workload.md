@@ -43,7 +43,7 @@ To mitigate this, pushback requests may be done on **ACD** frequency, to balance
 6. Eventually, **SMC** will have adequate space on the aprons, taxiways, and holding point, as well as time to make assessments.
 7. **SMC** will scan the [Cleared Queue bay](../../../client/towerstrips/#stripboard) for the next aircraft in line, and call them to approve their pushback.
 
-!!! example
+!!! phraseology
     <span class="hotline">**ML SMC** -> **ML ACD**</span>: "It's getting quite busy. Happy to implement Pushback requests on your frequency?"  
     <span class="hotline">**ML ACD** -> **ML SMC**</span>: "Understood, affirm"  
     <span class="hotline">**ML SMC** -> **ML ACD**</span>: "Thanks, I'll talk to Tower"  
