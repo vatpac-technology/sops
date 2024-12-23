@@ -106,7 +106,7 @@ Helicopters comply with fixed wing outbound procedures. Departures shall be para
 Helicopters comply with fixed wing inbound procedures. Pilots shall nominate the required HLS on first contact with AF ADC. Helicopters may be instructed to overfly the runway complex not below `A005` for a short circuit to the designated HLS.
 
 !!! phraseology 
-    **82Y:** "Archer Tower, helicopter 82Y, overhead UQLD A010, recieved F inbound northern pad"  
+    **82Y:** "Archer Tower, helicopter 82Y, UQLD A010, recieved Foxtrot, inbound northern pad"  
     **AF ADC:** "82Y, Archer Tower, track direct northen pad, report 1 mile"  
     **82Y:** "Track direct northern pad, 82Y"  
 
