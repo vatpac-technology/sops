@@ -52,7 +52,7 @@ For non-RNAV approved IFR aircraft with a wake turbulence category of medium or 
 For non-RNAV approved IFR aircraft with a wake turbulence category of light, issue a visual departure or Radar SID  
 
 ## Charts
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 ## Miscellaneous
@@ -88,7 +88,7 @@ Assign VFR routes in accordance with the following radial chart:
 ### DN TCU
 Auto-Release is **not available** at YPDN. All Departures will be coordinated when ready for departure.
 
-!!! example
+!!! phraseology
     <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Next, EOC, runway 18"  
     <span class="hotline">**DN TCU** -> **DN ADC**</span>: "EOC, Track Extended Centreline, unrestricted"  
     <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Track Extended Centreline, EOC"  

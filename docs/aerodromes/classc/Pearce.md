@@ -14,8 +14,10 @@
 | Pearce ATIS    |   | 136.400         | YPEA_ATIS       |
 
 ## Airsapce
+PE ADC owns the airspace within the Pearce CIRA (**5nm** Radius of YPEA ARP, located entirely within **R155A**) from `SFC` to `A035`. This airspace is primarily used for military circuits and initial and pitch approaches.
 
-PE ADC owns the Class C airspace **in the PE CTR** within 5nm of the YPEA ARP from `SFC` to `A035`. This airspace is primarily used for military circuits and initial and pitch approaches.
+### SID Selection
+All aircraft shall be assigned the **Radar** SID by default.
 
 ### SID Selection
 Aircraft planned via **WAMAL**, **GUNOK**, **ALKIMOS**, **MULLALOO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
@@ -31,16 +33,20 @@ b) `F130` for Aircraft assigned a Coded Departure.
 
 #### Miscellaneous
 
+## Miscellaneous
 ### Circuit Operations 
 The Circuit Area Airspace is allocated to be within 5nm of the YPEA ARP from `SFC` to `A035'. Aircraft can be instructed to extend outside of this airspace by ATC for traffic management. Hawks have circuit altitude of A016 while both 2FTS and RSAF PC21s are assigned A012.
 
-!!! Note
-  36L/18R is unsuitable for HAWK Aircraft
+HAWKs have circuit altitude of `A016`, while both 2FTS and RSAF PC21s are assigned `A012`.
+
+!!! note
+    36L/18R is unsuitable for HAWK Aircraft
 
 ### Circuit Direction
+
 | Runway | Direction |
 | ------ | ----------|
-| 5      | Left  |
+| 05      | Left  |
 | 18L    | Right |
 | 18R    | Right |
 | 23     | Right |
@@ -60,7 +66,6 @@ The Circuit Area Airspace is allocated to be within 5nm of the YPEA ARP from `SF
 
 ## Coordination
 ### PE TCU
-
 'Next' coordination is required from PE ADC to PE TCU for all aircraft.
 
 !!! example
@@ -68,5 +73,5 @@ The Circuit Area Airspace is allocated to be within 5nm of the YPEA ARP from `SF
     <span class="hotline">**PE TCU** -> **PE ADC**</span>: "ASY01, Assigned Heading Right 030, unrestricted"  
     <span class="hotline">**PE ADC** -> **PE TCU**</span>: "Assigned Heading Heading Right 030, ASY01"
 ## Charts
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}

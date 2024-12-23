@@ -160,5 +160,5 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
 
-!!! example
+!!! phraseology
     **PIY**: "QFA121, identification terminated, report position to Brisbane Radio, 129.25"
