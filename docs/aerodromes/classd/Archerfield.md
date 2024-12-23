@@ -75,7 +75,7 @@ Archerfield has three helipads located around the AD. Central Helipad on the sou
 !!! note
     Both the **Northern** and **Southern** helipads are inside the maneuvering area and treated like a runway, requiring a takeoff and landing clearance from AF ADC. Helicopters operating on other surfaces outside the maneuvering areas should be instructed to *"report airborne"*  or *"report on the ground"* so the controllers knows when they are active / no longer active in their airspace. 
 
-### Circuits
+### Areas
 There are 3 designated helicopter training areas at Archerfield.
 
 **Area A**: North of taxiway B within the confines of the AD up to `A005`, clear of buildings, circuit direction and frequency as per ATIS. A maximum of 3 helicopters are permitted to operate circuits concurrently. Additionally, a maximum of 2 helicopters are permitted to operate on training in ground effect only.
@@ -139,6 +139,12 @@ The ATIS must indicate the current runway config and nominate what each runway i
 The APCH field should include `EXP INST APCH` when:   
   - the ceiling is at or below `A029`; or  
   - visibility is less than 5000m  
+
+### Helicopter Area
+The ATIS must indicate the current active helicopter area, refer to [Helicopter Areas](#areas).
+
+!!! example  
+    OPR INFO: RWY 04, 22, AND TWY C AND D UAVBL. **HELICOPTER AREA A ACTIVE**  
 
 ## Coordination
 
