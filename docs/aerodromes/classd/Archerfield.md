@@ -70,23 +70,27 @@ The circuit direction changes depending on time of day and runway being used.
 Circuits are to be flown at `A010`.
 
 ## Helicopter Operations
-Archerfield has three helipads located around the AD. Central Helipad on the southern side of Taxiway Foxtrot. Northern Helipad adjacent the north-eastern end of Runway 04R/22L, and the Queensland Government Air facility used by rescue helicopters north of Taxiway B5.
+Archerfield has three helipads located around the aerodrome:
+
+- **Central Helipad**, on the southern side of Taxiway Foxtrot
+- **Northern Helipad**, adjacent the north-eastern end of Runway 04R/22L
+- The **Queensland Government Air facility** used by rescue helicopters, north of Taxiway B5
 
 !!! note
     Both the **Northern** and **Southern** helipads are inside the maneuvering area and treated like a runway, requiring a takeoff and landing clearance from AF ADC. Helicopters operating on other surfaces outside the maneuvering areas should be instructed to *"report airborne"*  or *"report on the ground"* so the controllers knows when they are active / no longer active in their airspace. 
 
-### Areas
-There are 3 designated helicopter training areas at Archerfield.
+### Training Areas
+There are 3 designated helicopter training areas at Archerfield:
 
-**Area A**: North of taxiway B within the confines of the AD up to `A005`, clear of buildings, circuit direction and frequency as per ATIS. A maximum of 3 helicopters are permitted to operate circuits concurrently. Additionally, a maximum of 2 helicopters are permitted to operate on training in ground effect only.
+**Area A**: North of Taxiway B within the confines of the aerodrome boundary, clear of all buildings, not above `A005`. Circuit direction and frequency as per ATIS. A maximum of 3 helicopters are permitted to operate circuits concurrently. Additionally, a maximum of 2 helicopters are permitted to operate in ground effect only.
 
-**Area B**: North and west of runway 04L within the confines of the AD up to `A005`, clear of buildings, circuit direction and frequency as per ATIS. A maximum of 3 helicopters are permitted to operate circuits concurrently. Additionally, a maximum of 2 helicopters are permitted to operate on training in ground effect only.
+**Area B**: North and west of Runway 04L within the confines of the aerodrome boundary, clear of all buildings, not above `A005`. Circuit direction and frequency as per ATIS. A maximum of 3 helicopters are permitted to operate circuits concurrently. Additionally, a maximum of 2 helicopters are permitted to operate in ground effect only.
 
-**Area C**: South and east of taxiway D, inside the fixed wing circuit for runway 04R/22L, not above `A008`. Landings must be conducted north of taxiway B. Once established, the only radio communications are an airborne call before each circuit and a downwind call by pilots. Aircraft remain east of the control Tower; only 2 helicopters are permitted to operate concurrently in this area.
+**Area C**: South and east of Taxiway D, inside the fixed wing circuit for runway 04R/22L, east of the control tower, not above `A008`. Landings must be conducted north of Taxiway B. Once established, the only radio communications are an airborne call before each circuit and a downwind call by pilots. A maximum of 2 helicoptesr are permitted to operate in this area concurrently.
 
 <figure markdown> 
-  ![AF Helicopter Areas](img/ybaf_helicopter_area.png){ width="450" }
-  <figcaption>AF Helicopter Areas</figcaption>
+  ![Archerfield Helicopter Training Areas](img/ybaf_helicopter_area.png){ width="450" }
+  <figcaption>Archerfield Helicopter Training Areas</figcaption>
 </figure>
 
 
@@ -115,7 +119,7 @@ Helicopters inbound for the Queensland Government Air facility HLS shall be issu
 Helicopters inbound from the south via PKR for either the northen or southern helipad shall be instructed to *"cross 10L and 10R"* alongside any other tracking or traffic information.
 
 !!! phraseology 
-    **SMD:** "Archer Tower, helicopter SMD, overhead PKR A015, recieved G inbound southern pad"  
+    **SMD:** "Archer Tower, helicopter SMD, PKR A015, recieved Golf, inbound southern pad"  
     **AF ADC:** "SMD, Archer Tower, report Logan Motorway"  
     **SMD:** "Report Logan Motorway, SMD"  
 
