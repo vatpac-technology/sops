@@ -7,7 +7,8 @@
 ## Positions
 
 | Name               | Callsign       | Frequency        | Login ID              |
-| **Pearce TCU**    | **Pearce Appraoch**  | **130.200** | **PE_APP**        |
+| **Pearce Approach**    | **Pearce Approach**  | **130.200** | **PE_APP**       |
+| **Pearce Departures**  | **Peaarce Departures** | **123.300** | **PE_DEP** |
 
 ## Airspace
 
