@@ -116,7 +116,7 @@ BFL must **voice coordinate** any changes to instructions after KPL/BUR has put 
 
 BFL will **voice coordinate** to KPL/BUR any aircraft that must be rerouted via **ENLIP** for **01R/19R**.
 
-!!! example
+!!! phraseology
     <span class="hotline">**BFL** -> **KPL**</span>: "PAA001 via ENLIP for 01R please"  
     <span class="hotline">**KPL** -> **BFL**</span>: "PAA001 via ENLIP for 01R, will be"  
 

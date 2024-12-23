@@ -43,7 +43,7 @@ Voiceless for all aircraft:
 
 All other aircraft going to SWY/KPL CTA must be **Heads-up** Coordinated by MKA/RKA.
 
-!!! example
+!!! phraseology
     <span class="hotline">**RKA** -> **KPL**</span>: "QFA114, with your concurrence, will be assigned F130, for my separation with ZYX"  
     <span class="hotline">**KPL** -> **RKA**</span>: "QFA114, concur F130"  
 
@@ -71,7 +71,7 @@ RK ADC is responsible for the Class D airspace in the RK CTR `SFC` to `A010`.
   b) Assigned the standard assignable level; and  
   c) Assigned a **Procedural** SID
 
-!!! example
+!!! phraseology
     <span class="hotline">**MK ADC** -> **MKA**</span>: "Next, ABC, runway 14"  
     <span class="hotline">**MKA** -> **MK ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
     <span class="hotline">**MK ADC** -> **MKA**</span>: "Heading 150 Visual unrestricted, ABC"
@@ -93,6 +93,6 @@ COR TCU will coordinate all YBMK and YBRK arrivals to ADC prior to **5 mins** fr
 - Approach type, unless specifically nominated on the ATIS  
 - IFR Circuit joining instructions, if not on Straight-in instrument approach
 
-!!! example
+!!! phraseology
     <span class="hotline">**RKA** -> **RK ADC**</span>: "via ABVAS, DJU, for the VOR-A”  
     <span class="hotline">**RK ADC** -> **RKA**</span>: "DJU, VOR-A"

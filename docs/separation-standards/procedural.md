@@ -57,7 +57,7 @@ Longitudinal separation shall only be applied between aircraft on same or recipr
 
 Longitudinal time separation must be established by using pilot estimates and ensuring that the time between two aircraft is equal or greater than the longitudinal time separation minimum.  
 
-!!! Example
+!!! phraseology
     "ABC, Cross ALPHA at time 1051 or later"  
     "DEF, Hold at BRAVO to leave BRAVO at time 2215 or later"
 
@@ -219,14 +219,14 @@ Using the time standard, aircraft are considered to have entered the conflict ar
 
 When aircraft **are** in lateral conflict, a vertical standard must be applied for that period.
 
-!!! example
+!!! phraseology
     "Climb to reach (vertically separated level) by (prior to entering lateral conflict)"  
     "Expect requested level at (time aircraft leaves lateral conflict)"  
 
 #### Distance Standard
 Use BRL to measure a distance to/from a waypoint that is outside of the conflict area, and use it to implement a vertical standard after exiting, or prior to entering the lateral conflict area
 
-!!! example
+!!! phraseology
     "Climb to reach (vertically separated level) by (GNSS distance outside entry of conflict area)"  
     "Report (GNSS distance outside exit of conflict area) for requested level"  
 
