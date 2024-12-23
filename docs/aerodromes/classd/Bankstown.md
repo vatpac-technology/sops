@@ -8,8 +8,22 @@
 | Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Bankstown ADC**  | **Bankstown Tower**  | **132.800**         | **BK_TWR**                        |
+| Bankstownd ADC 2†  | Bankstown Tower  | 123.600        | BK-2_TWR                        |
 | **Bankstown SMC**   | **Bankstown Ground**   | **119.900**         | **BK_GND**                       |
 | Bankstown ATIS        |                | 120.900          | YSBK_ATIS                                |
+
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+
+### Dual ADC Operations
+When Bankstown ADC 2 is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
+
+ADC 1 takes responsibility for the North Runways, Circuit and Airspace (Runway **11L/29R**, **11C/29C**).
+
+ADC 2 takes responsibility for the South Runway, Circuit and Airspace (Runway **11R/29L**).
+
+ADC 2 is **not permitted** online when *Single Runway* Operations are in use.
+
+Refer to the [ATIS section](#runway-nomination) for information on ATIS formatting when ADC 2 is online.
 
 ## Airspace
 BK ADC is responsible for the Class D airspace in the BK CTR `SFC` to `A015`.
@@ -20,6 +34,9 @@ BK ADC is responsible for the Class D airspace in the BK CTR `SFC` to `A015`.
 </figure>
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
+
+### Dual ADC Operations
+Airspace Ownership when ADC 2 is online, is split down the middle of the **11C/29C** and **11R/29L** extended centrelines.
 
 ## Fixed-Wing Operations
 ### VFR Inbound Procedures
@@ -69,6 +86,7 @@ Three helicopter reporting points help keep helicopters segregated from other tr
 CWST: Michels Patisserie located 1.2nm west of CNTH on the water pipeline  
 CNTH: Northern end of Regents Park Railway Station, roughly 300 metres north of the water pipeline  
 CSTH: Intersection of two creeks enclosing a sewage treatment works 2.1nm south of the aerodrome reference point
+
 ### Inbound Procedures
 Helicopters should track inbound at `A007` via one of the normal inbound points (PSP or TWRN) or via *Olympic Park* and report to **BK ADC** at that point. In response, **BK ADC** should instruct the aircraft to track as below:
 
@@ -84,6 +102,7 @@ Helicopters should track inbound at `A007` via one of the normal inbound points 
     Example:  
     *"LOI, traffic is a helicopter overflying the aerodrome to the north at A005, runway left, cleared touch and go"*  
     *"YZD, traffic is a Cherokee turning final for runway left, overfly midfield at A005, join downwind main pad"*
+
 ### Outbound Procedures
 Helicopters should track outbound via one of the helicopter reporting points at `A007`. Departures to the north must track via CWST when RWY 29s are in use and CNTH when RWY 11s are in use.
 
@@ -99,6 +118,7 @@ Helicopters shall report ready to **BK ADC** with their departure intentions. In
     Example:  
     *"XEL, traffic is a helicopter overflying the aerodrome to the south at A005, runway left, cleared touch and go"*  
     *"YZD, traffic is a Cherokee turning final for runway left, depart Choppers South, main pad, cleared for takeoff"*
+
 ### Circuits
 Circuits are conducted within the lateral confines of the fixed-wing circuit at `A007`, in the same direction as the current runway config. The termination point of the circuit is the Main Pad.
 
@@ -110,13 +130,15 @@ Circuits are conducted within the lateral confines of the fixed-wing circuit at 
 The ATIS must indicate the current runway config and nominate what each parallel runway is being used for. The northern runway (11L/29R) is primarily used for VFR arrivals and departures, the southern runway (11R/29L) for circuit training, and the centre runway for IFR arrivals/departures and VFR overflow.  
 
 This should be reflected on the ATIS as below:  
-`RWY 11L FOR ARRIVALS AND DEPARTURES; RWY 11R FOR CIRCUIT TRAINING; RWY 11C IN USE`
+
+- Single ADC: `RWY 11L/29R FOR ARRS AND DEPS. RWY 11R/29L FOR CCT TRAINING. RWY 11C/29C IN USE`
+- Dual ADC: `RWY 11L/29R FOR ARRS AND DEPS, FREQ 132.8. RWY 11R/29L FOR CCT TRAINING, FREQ 123.6. RWY 11C/29C IN USE`
+
 ### Operational Info
 When the crosswind component exceeds 15 knots, the OPR INFO field must include:  
 `CROSSWIND ALERT – DO NOT PASS THROUGH FINAL FOR YOUR ASSIGNED RUNWAY`
 
 ## Coordination
-
 ### Departures
 When the aircraft is ready for departure, Tower will coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
 
@@ -140,3 +162,13 @@ VFR aircraft require a level readback.
 
 !!! tip
     Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D. You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.
+
+#### ADC 2 Online
+When ADC 2 is online, SY TCU may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
+
+### BK ADC Internal
+BK ADC must heads-up coordinate **all aircraft** transiting from one ADC controller to the other.
+
+!!! phraseology
+    <span class="hotline">**BK ADC 2** -> **BK ADC**</span>: "via TWRN, EWY for an overhead join"  
+    <span class="hotline">**BK ADC** -> **BK ADC 2**</span>: "EWY, A015"
