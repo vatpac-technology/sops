@@ -17,9 +17,9 @@
 ### Dual ADC Operations
 When Parafield ADC 2 is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
 
-ADC 1 takes responsibility for the North/West Runway, Circuit and Airspace (Runway **08L/26R** and **03L/21R**).
+ADC 1 takes responsibility for the South/East Runway, Circuit and Airspace (Runway **08R/26L** and **03R/21L**).
 
-ADC 2 takes responsibility for the South/East Runway, Circuit and Airspace (Runway **08R/26L** and **03R/21L**).
+ADC 2 takes responsibility for the North/West Runway, Circuit and Airspace (Runway **08L/26R** and **03L/21R**).
 
 ADC 2 is **not permitted** online when *Single Runway* Operations are in use.
 
@@ -78,7 +78,7 @@ IFR Departures from YPPF shall be assigned **PF RADAR** SID when Runway 03/21 is
 | =2     | 26L & 26R |
 | 3     | Any Single Runway Operations |
 
-When 2 ADC controllers are online, the ATIS shall be formatted: `RWY 03L/08L/21R/26R FOR ARRS AND DEPS WEST, FREQ 118.7. RWY 03R/08R/21L/26L FOR ARRS AND DEPS EAST, FREQ 124.6`
+When 2 ADC controllers are online, the ATIS shall be formatted: `RWY 03R/08R/21L/26L FOR ARRS AND DEPS EAST, FREQ 118.7. RWY 03L/08L/21R/26R FOR ARRS AND DEPS WEST, FREQ 124.6`
 
 By Night, Only Runway **03L/21R** may be used.
 
@@ -117,5 +117,5 @@ When ADC 2 is online, AD TCU may not be familiar with which controller owns what
 PF ADC must heads-up coordinate **all aircraft** transiting from one ADC controller to the other.
 
 !!! phraseology
-    <span class="hotline">**PF ADC** -> **PF ADC 2**</span>: "via OHB, YNM for an overhead join"  
-    <span class="hotline">**PF ADC 2** -> **PF ADC**</span>: "YNM, A015"
+    <span class="hotline">**PF ADC 2** -> **PF ADC**</span>: "via OHB, YNM for an overhead join"  
+    <span class="hotline">**PF ADC** -> **PF ADC 2**</span>: "YNM, A015"
