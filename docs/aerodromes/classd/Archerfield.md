@@ -110,7 +110,7 @@ Helicopters comply with fixed wing inbound procedures. Pilots shall nominate the
     **AF ADC:** "82Y, cleared to land northern pad, no requirements with ground, taxi to parking"  
     **82Y:** "Cleared to land northen pad, remaining your frequency, taxi to parking, 82Y"
 
-Helicopters inbound for the Queensland Government Air facility HLS shall be issued a standard fixed wing circuit instruction, complying to fixed wing operations unless another approach is operationally required.
+Helicopters inbound for the Queensland Government Air facility HLS shall be issued a standard fixed wing circuit instruction for the applicable duty runway, complying to fixed wing operations unless another approach is operationally required.
 
 Helicopters inbound from the south via PKR for either the northen or southern helipad shall be instructed to *"cross 10L and 10R"* alongside any other tracking or traffic information.
 
