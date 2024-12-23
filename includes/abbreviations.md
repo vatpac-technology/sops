@@ -305,6 +305,5 @@
 *[CPDLC]: Controller-Pilot Datalink Communications
 *[LDA]: Landing Distance Available
 *[TORA]: Takeoff Run Available
-*[AD]: Aerodrome
 *[UQLD]: University of Queensland
 *[HLS]: Helicopter Landing Site
