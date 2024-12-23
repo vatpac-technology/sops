@@ -13,7 +13,7 @@ at any aerodrome, including major Class C aerodromes.
 At a Class C aerodrome, provide an explicit clearance to operate in the circuit
 area, alongside an altitude and a discrete squawk code.
 
-!!! example
+!!! phraseology
     *ABC is a VFR aircraft on the ground at Canberra that intends to conduct circuit training.*  
     **ABC:** "Canberra Ground, ABC, request clearance for circuits"  
     **CB SMC:** "ABC, Canberra Ground, cleared to operate in the circuit area not above A030, squawk 0040"  
@@ -23,7 +23,7 @@ area, alongside an altitude and a discrete squawk code.
 At a Class D aerodrome, a clearance to take-off is a clearance to operate within
 a Class D control zone, so an explicit airways clearance is not given.
 
-!!! example
+!!! phraseology
     *ABC is a VFR aircraft on the ground at Archerfield that intends to conduct circuit training.*  
     **ABC:** "Archer Ground, ABC, Cessna 172, information F, on the Eastern Apron, request taxi, for circuits"  
     **AF SMC:** "ABC, Archer Ground, taxi to holding point B1, runway 28R"  
@@ -35,7 +35,7 @@ a Class D control zone, so an explicit airways clearance is not given.
 
 For aircraft that are already airborne, provide circuit joining instructions on first contact.
 
-!!! example
+!!! phraseology
     *DEF is a VFR aircraft inbound to Canberra that intends to conduct circuit training.*  
     **DEF:** "Canberra Tower, DEF, overhead Hoskinstown, A040, information L, for circuits"  
     **CB ADC:** "DEF, Canberra Tower, join downwind runway 12, not above A030, squawk 2311"  
@@ -58,7 +58,7 @@ Circuit directions are usually provided in ERSA, but if any doubt exists or a
 non-standard circuit is in use, provide the circuit direction with the take-off
 clearance.
 
-!!! example
+!!! phraseology
     **AF ADC:** "ABC, runway 28R, cleared for take-off, make left circuit"  
     **ABC:** "Runway 28R, cleared for take-off, make left , ABC"
 
@@ -73,7 +73,7 @@ different requests a pilot may make at this point:
 3. a **full-stop landing**, where the aircraft makes a normal landing and exits the runway; or
 4. the **option**, which is the pilot asking for the option to make either of the above three manouvers at their own discretion, without any further clearance.
 
-!!! example
+!!! phraseology
     **ABC:** "ABC, downwind, touch and go"  
     **AF ADC:** "ABC, cleared touch and go"  
     **ABC:** "Cleared touch and go, ABC"
@@ -82,7 +82,7 @@ different requests a pilot may make at this point:
 Depending on the traffic situation, you may approve the pilots request, or else
 require that they make a full-stop landing.
 
-!!! example
+!!! phraseology
     **ABC:** "ABC, downwind, request the option"  
     **AF ADC:** "ABC, make full stop due to traffic, cleared to land"  
     **ABC:** "Cleared to land, ABC"
@@ -98,7 +98,7 @@ aircraft arriving at the aerodrome from elsewhere.
 **ADC** are not permitted to vector aircraft, but there are a number of other
 tools available to help segregate aircraft within the circuit.
 
-!!! warning
+!!! warning "Important"
     The use of these tools in no way diminishes the responsibility of VFR
     aircraft to see and avoid, nor does it relieve the controller of the
     responsibility to pass traffic information where applicable.
@@ -111,7 +111,7 @@ A straightforward way of accomplishing this with minimal added workload is to
 instruct the aircraft to "follow" the leading aircraft. In order to do this, the
 following aircraft **must** report having the leading aircraft in sight.
 
-!!! example
+!!! phraseology
     *ABC is downwind on runway 16L at Sydney while QFA1254 is established on a 3 mile final for the same runway.*  
     **ABC:** "ABC, downwind, touch and go"  
     **SY ADC:** "ABC, traffc is a 737 on a 3nm final, runway 16L, report sighting"  
@@ -128,7 +128,7 @@ following aircraft **must** report having the leading aircraft in sight.
 An **ADC** may issue an instruction for a pilot to make a complete 360 degree
 orbit, either left or right, to delay the aircraft in place.
 
-!!! example
+!!! phraseology
     *DEF, a Cessna 172, is on a left downwind on runway 30 at Canberra, while UEM, a Baron, is joining left base.*  
     **DEF:** "DEF, downwind, full-stop"  
     **CB ADC:** "DEF, make one right hand orbit"  
@@ -153,7 +153,7 @@ different performances for better traffic flow.
     You may approve a pilot request for a change of runway for an aircraft
     established on final.
 
-!!! example
+!!! phraseology
     *ABC is on a right downwind on runway 16R at Sydney. QLK1834 is on a 7 mile final for the same runway.*  
     **ABC:** "ABC, downwind, touch and go"  
     **SY ADC:** "ABC, change of runway, runway 16L, cleared touch and go, make left circuit"  

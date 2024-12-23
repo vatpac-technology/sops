@@ -25,7 +25,7 @@ All links that navigate a user away from the SOPs site should have `{target=new}
     [External Link](https://vatpac.org){target=new}
     ```
 
-!!! warning
+!!! warning "Important"
     All external links should use the `https` protocol.
 
 ## Sector Names
