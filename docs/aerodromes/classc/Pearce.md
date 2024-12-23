@@ -19,23 +19,11 @@ PE ADC owns the airspace within the Pearce CIRA (**5nm** Radius of YPEA ARP, loc
 ### SID Selection
 All aircraft shall be assigned the **Radar** SID by default.
 
-### SID Selection
-Aircraft planned via **WAMAL**, **GUNOK**, **ALKIMOS**, **MULLALOO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
-Aircraft who are not planned via those points or who are negative RNAV may be assigned a RADAR SID or a visual departure. 
-
-!!! Note
-  Due to Civil Traffic Arriving from the North, the GUNOK SID will have an altitude assignment of A030.
-
-  ### Level Assignment
-The Standard Assignable Level from  **PE ADC** to **PE TCU** is:  
-a) The Lower of `F130` or `RFL` for Aircraft assigned via Procedural or RNAV SID.  
-b) `F130` for Aircraft assigned a Coded Departure.
-
-#### Miscellaneous
+vatSys does not have Procedural SIDs built-in for YPEA. As long as ATC is familiar with the chart, and the pilot is able, aircraft may be assigned **Procedural SIDs** *on pilot request*.
 
 ## Miscellaneous
 ### Circuit Operations 
-The Circuit Area Airspace is allocated to be within 5nm of the YPEA ARP from `SFC` to `A035'. Aircraft can be instructed to extend outside of this airspace by ATC for traffic management. Hawks have circuit altitude of A016 while both 2FTS and RSAF PC21s are assigned A012.
+Aircraft can be instructed to extend outside of this airspace by ATC for traffic management, following coordination with the appropriate sectors.
 
 HAWKs have circuit altitude of `A016`, while both 2FTS and RSAF PC21s are assigned `A012`.
 
@@ -57,21 +45,28 @@ HAWKs have circuit altitude of `A016`, while both 2FTS and RSAF PC21s are assign
 
 | Runway | Direction Initial | Inital Altitude
 | ------ | ------------------|----------------|
-| 5      |  Any | A010
-| 18L    | Left/Straight | A015 | Right | A010
-| 18R    | Left/Straight | A015 | Right | A010
-| 23     | Any | A015
-| 36L    | Left | A010 | Right | A015
-| 36R    | Left | A010 | Right | A015
+| 05     | Any | A010 |
+| 18L    | Left/Straight<br>Right | A015<br>A010 |
+| 18R    | Left/Straight<br>Right | A015<br>A010 |
+| 23     | Any | A015 |
+| 36L    | Left<br>Right | A010<br>A015 |
+| 36R    | Left<br>Right | A010<br>A015 |
 
 ## Coordination
 ### PE TCU
 'Next' coordination is required from PE ADC to PE TCU for all aircraft.
 
-!!! example
-    <span class="hotline">**PE ADC** -> **PE TCU**</span>: "Next, ASY01, runway 36R"  
-    <span class="hotline">**PE TCU** -> **PE ADC**</span>: "ASY01, Assigned Heading Right 030, unrestricted"  
-    <span class="hotline">**PE ADC** -> **PE TCU**</span>: "Assigned Heading Heading Right 030, ASY01"
+!!! phraseology
+    <span class="hotline">**PE ADC** -> **PE TCU**</span>: "Next, ASY01, runway 36L"  
+    <span class="hotline">**PE TCU** -> **PE ADC**</span>: "ASY01, Heading 030, unrestricted"  
+    <span class="hotline">**PE ADC** -> **PE TCU**</span>: "Heading 030, ASY01"
+
+The Standard Assignable Level from **PE ADC** to **PE TCU** is:
+
+- `F130` for aircraft assigned a Procedural SID; except
+- `A030` for aircraft assigned the **GUNOK** SID; or
+- The lower of `F130` or `RFL` for all other aircraft
+
 ## Charts
 !!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
