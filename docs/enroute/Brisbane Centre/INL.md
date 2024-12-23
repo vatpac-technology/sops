@@ -129,7 +129,7 @@ When operating a PROPS Runway Mode, Aircraft shall be assigned the appropriate '
 
 These standard runway assignments may be modified strategically by the BAS or BFL controller.
 
-!!! example
+!!! phraseology
     If during an event, the vast majority of traffic is coming from **BLAKA** and **GOMOL** feeder fixes, BAS/BFL may elect to assign 19L to **BLAKA** arrivals and 19R to **GOMOL** arrivals, to keep them strategically spearated in the TCU.
 
     <span class="hotline">**BFL** -> **INL**</span>: "All arrivals via GOMOL to be assigned 19R until further notice"  
@@ -193,7 +193,7 @@ Refer to [Reclassifications](#su-ctr) for operations when SU ADC is offline.
 #### Departures
 Departures from YBSU in to NSA Class C will be coordinated when ready for departure.
 
-!!! example
+!!! phraseology
     <span class="hotline">**SU ADC** -> **NSA**</span>: "Next, BNZ123, runway 31"  
     <span class="hotline">**NSA** -> **SU ADC**</span>: "BNZ123, unrestricted"  
     <span class="hotline">**SU ADC** -> **NSA**</span>: "BNZ123"
@@ -202,7 +202,7 @@ The Standard Assignable level from **SU ADC** to INL(NSA/BUR) is the lower of `A
 
 Where possible (and no possible conflict exists), a higher level shall be assigned by INL(NSA/BUR) for high performance aircraft during next coordination.
 
-!!! example
+!!! phraseology
     <span class="hotline">**SU ADC** -> **NSA**</span>: "Next, VOZ924, runway 31"  
     <span class="hotline">**NSA** -> **SU ADC**</span>: "VOZ924, F120"  
     <span class="hotline">**SU ADC** -> **NSA**</span>: "F120, VOZ924"
@@ -211,7 +211,7 @@ Where possible (and no possible conflict exists), a higher level shall be assign
 NSA must ensure all YBSU arrivals have been assigned a STAR, unless the pilot is unable to accept one.  
 YBSU arrivals shall be coordinated to **SU ADC** from NSA prior to **5 mins** from the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**NSA** -> **SU ADC**</span>: "via ITIDE2W Arrival, JST731"  
     <span class="hotline">**SU ADC** -> **NSA**</span>: "JST731"
 
@@ -249,7 +249,7 @@ Refer to [Reclassifications](#cfs-ctr) for operations when CFS ADC is offline.
 #### Departures
 Departures from YCFS in to INL Class C will be coordinated when ready for departure.
 
-!!! example 
+!!! phraseology 
     <span class="hotline">**CFS ADC** -> **INL**</span>: "Next, BNZ185"  
     <span class="hotline">**INL** -> **CFS ADC**</span>: "BNZ185, Unrestricted"  
     <span class="hotline">**CFS ADC** -> **INL**</span>: "BNZ185"  
@@ -259,7 +259,7 @@ The Standard Assignable level from **CFS ADC** to INL is the lower of `A070` or 
 #### Arrivals
 YCFS arrivals shall be coordinated to **CFS ADC** from INL prior to **5 mins** from the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**INL** -> **CFS ADC**</span>: "via IDNER, VET"  
     <span class="hotline">**CFS ADC** -> **INL**</span>: "VET"  
 
@@ -272,14 +272,14 @@ By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas
 #### Departures
 All aircraft from AMB/OK TCU to INL(All) require Heads-up coordination prior to the boundary. Expect this coordination to be completed a short time after the aircraft becomes airborne (pending controller workload).
 
-!!! example 
+!!! phraseology 
     <span class="hotline">**AMB TCU** -> **NSA**</span>: "via COWIE, BUCK03."  
     <span class="hotline">**NSA** -> **AMB TCU**</span>: "BUCK03, `F190`"  
 
 #### Arrivals/Overfliers
 All aircraft transiting from INL(All) to **OK TCU** and **AMB TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **OK TCU** and **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels. ENR and TCU controllers should coordinate to determine the most suitable level.
 
-!!! example
+!!! phraseology
     <span class="hotline">**GOL** -> **AMB TCU**</span>: "via HUUGO, STAL13, what level can I assign?"  
     <span class="hotline">**AMB TCU** -> **GOL**</span>: "STAL13, `A090`"  
     <span class="hotline">**GOL** -> **AMB TCU**</span>: "`A090`, STAL13"   
@@ -289,5 +289,5 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
 
-!!! example
+!!! phraseology
     **INL**: "QFA121, identification terminated, report position to Brisbane Radio, 126.45"

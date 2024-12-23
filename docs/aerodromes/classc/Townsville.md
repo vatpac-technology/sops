@@ -13,7 +13,7 @@
 | **Townsville ACD**    | **Townsville Delivery**  | **128.100**         | **TL_DEL**       |
 | Townsville ATIS    |   | 133.500         | YBTL_ATIS       |
 
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 ## Airspace
@@ -29,7 +29,7 @@ For non-RNAV approved IFR aircaft with a wake turbulence category of medium or g
 For non-RNAV approved IFR aircraft with a wake turbulence category of light, issue a visual departure or RADAR SID
 
 ## Charts
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 ## Miscellaneous
@@ -55,7 +55,7 @@ a) Departing from a runway nominated in the ATIS; and
 b) Assigned the standard assignable level;  
 c) Assigned a **Procedural** SID  
 
-!!! example
+!!! phraseology
     <span class="hotline">**TL ADC** -> **TL TCU**</span>: "Next, DNGO05, runway 19"  
     <span class="hotline">**TL TCU** -> **TL ADC**</span>: "DNGO05, Assigned Heading Left 150, unrestricted"  
     <span class="hotline">**TL ADC** -> **TL TCU**</span>: "Assigned Heading Left 150, DNGO05"  

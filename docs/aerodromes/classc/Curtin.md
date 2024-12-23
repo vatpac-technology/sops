@@ -27,7 +27,7 @@ CIN ADC owns the Class C airspace within the CIN MIL CTR from `SFC` to `A015`.
 ### CIN TCU
 'Next' coordination is required from CIN ADC to CIN TCU for all aircraft.
 
-!!! example
+!!! phraseology
     <span class="hotline">**CIN ADC** -> **CIN TCU**</span>: "Next, ASY404, runway 29"  
     <span class="hotline">**CIN TCU** -> **CIN ADC**</span>: "ASY404, unrestricted"  
     <span class="hotline">**CIN ADC** -> **CIN TCU**</span>: "ASY404"  
@@ -38,5 +38,5 @@ The Standard Assignable Level from  **CIN ADC** to **CIN TCU** is the Lower of `
 When CIN TCU is offline, coordination is not required between CIN ADC and TRT(ASH). Aircraft entering TRT(ASH) airspace shall be handed off, and instructed to contact TRT(ASH) for onwards clearance.
 
 ## Charts
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}

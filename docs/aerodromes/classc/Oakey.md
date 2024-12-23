@@ -16,7 +16,7 @@
 OK ADC owns the airspace within 5 DME of the OK VOR from `SFC` to `A025`. This airspace is designed to facilitate circuit traffic.
 
 ## Charts
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 ## Miscellaneous
@@ -40,7 +40,7 @@ The standard circuit direction is to the north of the field.
 ### OK TCU
 'Next' coordination is required from OK ADC to OK TCU for all aircraft not remaining in the circuit. 
 
-!!! example
+!!! phraseology
     <span class="hotline">**OK ADC** -> **OK TCU**</span>: "Next, MRCH01, runway 32"  
     <span class="hotline">**OK TCU** -> **OK ADC**</span>: "MRCH01, Make Right Turn, unrestricted"  
     <span class="hotline">**OK ADC** -> **OK TCU**</span>: "Make Right Turn, MRCH01"  
