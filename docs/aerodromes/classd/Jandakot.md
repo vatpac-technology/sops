@@ -9,8 +9,22 @@
 | Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Jandakot ADC**  | **Jandakot Tower**  | **118.100**          | **JT_TWR**                        |
+| Jandakot ADC 2†  | Jandakot Tower  | 119.400        | JT-2_TWR                        |
 | **Jandakot SMC**  | **Jandakot Ground**   | **124.300**          | **JT_GND**                       |
 | Jandakot ATIS     |                | 128.650          | YPJT_ATIS                                |
+
+† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+
+### Dual ADC Operations
+When Jandakot ADC 2 is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
+
+ADC 1 takes responsibility for the North-West Runway, Circuit and Airspace (Runway **06L/24R**).
+
+ADC 2 takes responsibility for the South-East Runway, Circuit and Airspace (Runway **06R/24L**).
+
+ADC 2 is **not permitted** online when *Single Runway* Operations are in use.
+
+Refer to the [ATIS section](#runway-nomination) for information on ATIS formatting when ADC 2 is online.
 
 ## Airspace
 JT ADC is responsible for the Class D airspace in the JT CTR `SFC` to `A015`.
@@ -20,8 +34,11 @@ JT ADC is responsible for the Class D airspace in the JT CTR `SFC` to `A015`.
   <figcaption>JT ADC Airspace</figcaption>
 </figure>
 
-## Fixed-Wing Operations
-### VFR Arrivals
+### Dual ADC Operations
+Airspace Ownership when ADC 2 is online, is split down the middle of the **06L/24R** and **06R/24L** extended centrelines.
+
+## VFR Operations
+### Arrivals
 VFR aircraft will report inbound at BOAT, POWR, OAKF or RUSS at `A015`. JT ADC will instruct aircraft to maintain `A015` or remain outside the control zone (workload permitting). Aircraft will then report again at ADWD when inbound from BOAT or POWR, or FDL when inbound from OAKF or RUSS. They should then be instructed to join the circuit as below:
 
 | VFR Approach Point | RWYs 06  | RWYs 24 | RWY 12 | RWY 30 |
@@ -34,7 +51,7 @@ All aircraft will arrive on runway 06L/24R or 12/30.
 !!! note
     Circuit joining instructions given without an assigned altitude imply clearance to conduct the visual approach. There is no need to clear these aircraft for a visual approach.
 
-### VFR Departures
+### Departures
 VFR aircraft should report ready to **JT ADC** with their departure intentions.  A takeoff clearance constitutes a clearance to depart the zone by extending the pilot's requested leg of the circuit.  Aircraft departing the zone into class G airspace will transfer to area frequency upon leaving the zone, **no explicit frequency transfer is given to these aircraft**.
 
 Aircraft departing a leg of the circuit will climb to and maintain the following levels until clear of the zone:  
@@ -44,10 +61,11 @@ VFR aircraft will depart via set outbound departure routes. Aircraft will track 
 
 Departures via FREM and YGB will depart on runway 06L/24R. Runway 06R/24L is used for circuit traffic and departures via SHOP.
 
-### IFR Arrivals
+## IFR Operations
+### Arrivals
 **PH TCU** will coordinate all IFR arrivals in accordance with coordination procedures.
 
-### IFR Departures
+### Departures
 All IFR Departures must be assigned the most appropriate SID in accordance with the aircraft's direction of flight.
 
 | Direction | SID   |
@@ -56,17 +74,17 @@ All IFR Departures must be assigned the most appropriate SID in accordance with 
 | North/North-west    | ISPET |
 | East/North-east    | SCARP |
 
-### Circuits
+## Circuits
 The circuit direction changes depending on tower opening hours and runway being used.
 
-| Runway | Tower Open   | Tower Closed |
-| -------| ----- | ----- |
-| 06L    | Left  | Right |
-| 06R    | Right | -  |
-| 24L    | Left  | -   |
-| 24R    | Right | Left  |
-| 12     | Left  | Left  |
-| 30     | Left  | Left  |
+| Runway | Direction  |
+| -------| ----- |
+| 06L    | Left  |
+| 06R    | Right |
+| 24L    | Left  |
+| 24R    | Right |
+| 12     | Left  |
+| 30     | Left  |
 
 Circuits to be flown at `A010`
 
@@ -79,16 +97,19 @@ Circuits are conducted within the lateral confines of the fixed-wing circuit at 
 
 ## ATIS
 ### Runway Nomination
-The ATIS must indicate the current runway config and nominate what each parallel runway is being used for.  The northern runway (06L/24R) is primarily used for VFR arrivals and departures, the southern runway (06R/24L) for circuit training and departures via `SHOP`, and the cross runway (12/30) for arrivals/departures when weather is unsuitable for parallel rwunay operations.  
+The ATIS must indicate the current runway config and nominate what each parallel runway is being used for. The northern runway (**06L/24R**) is primarily used for VFR arrivals and departures, the southern runway (**06R/24L**) for circuit training and departures via `SHOP`. The cross runway (**12/30**) for all arrivals/departures when weather is unsuitable for parallel runway operations.  
 
 This should be reflected on the ATIS as below:  
-`RWY 06R FOR CIRCUITS AND DEPARTURES VIA ARMADALE SHOPS; RWY 06L FOR ARRIVALS AND ALL OTHER DEPARTURES`  
-`RWY 24L FOR CIRCUITS AND DEPARTURES VIA ARMADALE SHOPS; RWY 24R FOR ARRIVALS AND ALL OTHER DEPARTURES`
 
-When PH RWY 03 is in operation, the ATIS should include:
-`DUE PERTH DUTY RUNWAY 03, CAUTION WAKE TURBULANCE`
+- Single ADC: `RWY 06R/24L FOR CCTS AND DEPS VIA ARMADALE SHOPS. RWY 06L/24R FOR ARRS AND ALL OTHER DEPS`  
+- Dual ADC: `RWY 06R/24L FOR CCTS AND DEPS VIA ARMADALE SHOPS, FREQ 119.4. RWY 06L/24R FOR ARRS AND ALL OTHER DEPS, FREQ 118.1`  
+
+### Operational Info
+When PH RWY 03 is in operation, the ATIS OPR INFO shall include:
+`DUE YPPH DUTY RWY 03, CAUTION WAKE TURB`
+
 ## Coordination
-### Next Call
+### Departures
 When the aircraft is ready for departure, JT ADC will coordinate with the relevant PH TCU controller above them for permission to release the aircraft into their CTA.
 
 !!! phraseology
@@ -109,3 +130,13 @@ VFR aircraft require a level readback.
 
 !!! tip
     Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D.  You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.
+
+#### ADC 2 Online
+When ADC 2 is online, PH TCU may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
+
+### JT ADC Internal
+JT ADC must heads-up coordinate **all aircraft** transiting from one ADC controller to the other.
+
+!!! phraseology
+    <span class="hotline">**JT ADC 2** -> **JT ADC**</span>: "via FDL, TBN for an overfly"  
+    <span class="hotline">**JT ADC** -> **JT ADC 2**</span>: "TBN, A015"
