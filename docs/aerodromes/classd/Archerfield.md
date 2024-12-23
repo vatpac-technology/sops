@@ -77,7 +77,7 @@ Archerfield has three helipads located around the aerodrome:
 - The **Queensland Government Air facility** used by rescue helicopters, north of Taxiway B5
 
 !!! note
-    Both the **Northern** and **Southern** helipads are inside the maneuvering area and treated like a runway, requiring a takeoff and landing clearance from AF ADC. Helicopters operating on other surfaces outside the maneuvering areas should be instructed to *"report airborne"*  or *"report on the ground"* so the controllers knows when they are active / no longer active in their airspace. 
+    Both the **Northern** and **Central** helipads are inside the maneuvering area and treated like a runway, requiring a takeoff and landing clearance from AF ADC. Helicopters operating on other surfaces outside the maneuvering areas should be instructed to *"report airborne"*  or *"report on the ground"* so the controllers knows when they are active / no longer active in their airspace. 
 
 ### Training Areas
 There are 3 designated helicopter training areas at Archerfield:
@@ -116,16 +116,16 @@ Helicopters comply with fixed wing inbound procedures. Pilots shall nominate the
 
 Helicopters inbound for the Queensland Government Air facility HLS shall be issued a standard fixed wing circuit instruction for the applicable duty runway, complying to fixed wing operations unless another approach is operationally required.
 
-Helicopters inbound from the south via PKR for either the northen or southern helipad shall be instructed to *"cross 10L and 10R"* alongside any other tracking or traffic information.
+Helicopters inbound from the south via PKR for either the northen or central helipad shall be instructed to *"cross 10L and 10R"* alongside any other tracking or traffic information.
 
 !!! phraseology 
-    **SMD:** "Archer Tower, helicopter SMD, PKR A015, recieved Golf, inbound southern pad"  
+    **SMD:** "Archer Tower, helicopter SMD, PKR A015, recieved Golf, inbound central pad"  
     **AF ADC:** "SMD, Archer Tower, report Logan Motorway"  
     **SMD:** "Report Logan Motorway, SMD"  
 
     **SMD:** "SMD, Logan Motorway"  
-    **AF ADC:** "SMD, track direct southern pad, cross 10L and 10R"  
-    **SMD:** "Track direct southern pad, crossing 10L and 10R, SMD"
+    **AF ADC:** "SMD, track direct central pad, cross 10L and 10R"  
+    **SMD:** "Track direct central pad, crossing 10L and 10R, SMD"
 
 ## ATIS
 ### Runway Nomination
