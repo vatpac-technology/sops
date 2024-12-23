@@ -295,6 +295,9 @@
 *[WSL]: West Sale
 *[RAAF]: Royal Australian Air Force
 *[TERMA]: Terminal Area Radar and Military Airspace
+*[SWTA]: South Western Training Area
+*[MTWK]: Mount Walker
+*[CLVT]: Calvert
 *[MNG]: Mangalore
 *[LTV]: Latrobe Valley
 *[AY]: Albury
