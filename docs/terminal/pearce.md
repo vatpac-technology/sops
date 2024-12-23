@@ -7,24 +7,47 @@
 ## Positions
 
 | Name               | Callsign       | Frequency        | Login ID              |
+| ------------------ | --------------| -------------- | ---------------- |
 | **Pearce Approach**    | **Pearce Approach**  | **130.200** | **PE_APP**       |
-| **Pearce Departures**  | **Peaarce Departures** | **123.300** | **PE_DEP** |
 
 ## Airspace
-The PEA TMA's lateral boundaries are defined by a 20-nautical mile arc within R155A/M166 and the southern boundary of R153. Vertically, it extends from the 'SFC' to 'A050' feet within R155A/M166 and to NOTOAM within R153.
+The PE TCU is responsible for the airspace within **20 TACAN** of PEA (that is continained within **Pearce SUA**), `SFC` to `A050`. By default, PE TCU does not border any HYD CTA.
+
+This is all reclassified to **Class C** when PE TCU is online.
+
+!!! abstract "Reference"
+    A helpful diagram can be found in [Pearce FIHA AD2 Supp](https://ais-af.airforce.gov.au/australian-aip){target=new}, Section 2.2.2.
+
+### Additional Releases
+Additional airspace releases may be NOTAM'd, or coordinated between PE TCU, PH TCU and HYD, to facilitate Military Operations.
+
+!!! phraseology
+    <span class="hotline">**PE TCU** -> **PH TCU**</span>: "Request release of R155 Alpha and Bravo, SFC to F180, for Military Operations. My onwards with HYD"   
+    <span class="hotline">**PH TCU** -> **PE TCU**</span>: "R155 Alpha and Bravo, SFC to F180, Released to you. Your onwards with HYD"  
+
+    <span class="hotline">**PE TCU** -> **HYD**</span>: "Request release of R155 Alpha and Bravo, SFC to F180, for Military Operations. My onwards with PH TCU"   
+    <span class="hotline">**HYD** -> **PE TCU**</span>: "R155 Alpha and Bravo, SFC to F180, Released to you. Your onwards with PH TCU"  
 
 ## Coordination
-### PIY
-#### Airspace
-Any airspace releases from the default setup must be coordinated and agreed upon with PIY. It is also good practice to remind them of any airspace releases that may be active due to NOTAMs.
+### HYD
+#### Departures
+Voiceless for all aircraft:
+ 
+- Tracking via **AVNEX**; and  
+- Assigned the lower of `F180` or the `RFL`
 
-## Merlo Release
-Merlo Airspace is released to Pearce TMA when duty runways are RWY 36L/R. PEA TMA takes other the PTH airspace that lies within 9-10 TAC above R153, for 'SFC' to 'A040'. If Merlo Release is inactive, instrument approaches will be delayed or denied.
+All other aircraft going to HYD CTA must be **Heads-up** Coordinated by PE TCU, if coming from CTA (ie, only if PE TCU has assumed more airspace than the default setup).
 
-## Gnangara Release
-Gnangara Airspace is released to Pearace TMA when duty runways are RWY 36L/R or RWY 5 and Merlo Release is unaviliable. PEA TMA takes other the PTH airspace between 9-11 DME of Perth from 'SFC' to 'A010.'
+#### Arrivals/Overfliers
+If PE TCU has assumed additional airspace from the default, and as such, PE TCU CTA borders HYD CTA, then:
 
+Voiceless for all aircraft:
 
+- Tracking from **JULIM** or **SAPKO** DCT **PEA**; and 
+- Assigned `A090`
 
+All other arrivals/overfliers coming from HYD CTA will be **Heads-up** Coordinated to PE TCU prior to **20nm** from the boundary.
+
+## Charts
 !!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
