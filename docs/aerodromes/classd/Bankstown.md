@@ -8,7 +8,7 @@
 | Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Bankstown ADC**  | **Bankstown Tower**  | **132.800**         | **BK_TWR**                        |
-| Bankstownd ADC 2†  | Bankstown Tower  | 123.600        | BK-2_TWR                        |
+| Bankstown ADC 2†  | Bankstown Tower  | 123.600        | BK-2_TWR                        |
 | **Bankstown SMC**   | **Bankstown Ground**   | **119.900**         | **BK_GND**                       |
 | Bankstown ATIS        |                | 120.900          | YSBK_ATIS                                |
 
