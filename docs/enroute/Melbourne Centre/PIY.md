@@ -36,7 +36,7 @@ The CPDLC Station Code is `YPIY`.
 
 ## Sector Responsibilities
 ### Pingelly (PIY)
-PIY will provide final sequencing actions to ensure aircraft comply with their FF times prior to entering the Perth TCU. PIY is also responsible for issuing STAR Clearances for aircraft bound for YPJT, and Non-jets bound for YPPH and YPEA. See [Perth Runway Modes](#ypph-runway-modes) for runway assignment.
+PIY will provide final sequencing actions to ensure aircraft comply with their FF times prior to entering the Perth TCU. PIY is also responsible for issuing STAR Clearances for aircraft bound for YPJT and YPEA, and Non-jets bound for YPPH. See [Perth Runway Modes](#ypph-runway-modes) for runway assignment.
 
 For aircraft overflying the PH TCU place `O/FLY` in the LABEL DATA field.
 
@@ -187,14 +187,14 @@ Voiceless for all aircraft:
 - Tracking via **AVNEX**; and  
 - Assigned the lower of `F180` or the `RFL`
 
-All other aircraft going to HYD CTA will be **Heads-up** Coordinated by PE TCU, if coming from CTA (ie, only if PE TCU has assumed more airspace than the default setup).
+All other aircraft going to PIY CTA will be **Heads-up** Coordinated by PE TCU, if coming from CTA (ie, only if PE TCU has assumed more airspace than the default setup).
 
 #### Arrivals/Overfliers
-If PE TCU has assumed additional airspace from the default, and as such, PE TCU CTA borders HYD CTA, then:
+If PE TCU has assumed additional airspace from the default, and as such, PE TCU CTA borders PIY CTA, then:
 
 Voiceless for all aircraft:
 
 - Tracking from **JULIM** or **SAPKO** DCT **PEA**; and 
 - Assigned `A090`
 
-All other arrivals/overfliers coming from HYD CTA must be **Heads-up** Coordinated to PE TCU prior to **20nm** from the boundary.
+All other arrivals/overfliers coming from PIY CTA must be **Heads-up** Coordinated to PE TCU prior to **20nm** from the boundary.

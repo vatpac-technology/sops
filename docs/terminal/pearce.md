@@ -29,17 +29,17 @@ Additional airspace releases may be NOTAM'd, or coordinated between PE TCU, PH T
     <span class="hotline">**HYD** -> **PE TCU**</span>: "R155 Alpha and Bravo, SFC to F180, Released to you. Your onwards with PH TCU"  
 
 ## Coordination
-### HYD
+### PIY
 #### Departures
 Voiceless for all aircraft:
  
 - Tracking via **AVNEX**; and  
 - Assigned the lower of `F180` or the `RFL`
 
-All other aircraft going to HYD CTA must be **Heads-up** Coordinated by PE TCU, if coming from CTA (ie, only if PE TCU has assumed more airspace than the default setup).
+All other aircraft going to PIY CTA must be **Heads-up** Coordinated by PE TCU, if coming from CTA (ie, only if PE TCU has assumed more airspace than the default setup).
 
 #### Arrivals/Overfliers
-If PE TCU has assumed additional airspace from the default, and as such, PE TCU CTA borders HYD CTA, then:
+If PE TCU has assumed additional airspace from the default, and as such, PE TCU CTA borders PIY CTA, then:
 
 Voiceless for all aircraft:
 
@@ -47,6 +47,13 @@ Voiceless for all aircraft:
 - Assigned `A090`
 
 All other arrivals/overfliers coming from HYD CTA will be **Heads-up** Coordinated to PE TCU prior to **20nm** from the boundary.
+
+### PH TCU
+**All aircraft** transiting between PE TCU and PH TCU must be heads-up coordinated prior to the boundary.
+
+!!! phraseology
+    <span class="hotline">**PE TCU** -> **PH TCU**</span>: "Airborne YPEA, PHNX11"   
+    <span class="hotline">**PH TCU** -> **PE TCU**</span>: "PHNX11, F180"  
 
 ## Charts
 !!! abstract "Reference"
