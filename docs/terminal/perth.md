@@ -203,6 +203,10 @@ VFR aircraft require a level readback.
     <span class="hotline">**PH TCU** -> **JT ADC**</span>: "via RNAV-Z RWY 06L, FD416, circling to land RWY 24R"  
     <span class="hotline">**JT ADC** -> **PH TCU**</span>: "FD416, RNAV-Z RWY 06L with a circle to land RWY 24R"  
 
-### PEA ADC
-Reserved.
+### PE TCU
+**All aircraft** transiting between PE TCU and PH TCU must be heads-up coordinated prior to the boundary.
 
+!!! phraseology
+    <span class="hotline">**PH TCU** -> **PE TCU**</span>: "via PH, VIPR22, Requesting DCT PEA for ILS-Z 18L"   
+    <span class="hotline">**PE TCU** -> **PH TCU**</span>: "VIPR22, DCT PEA, A035"  
+    <span class="hotline">**PH TCU** -> **PE TCU**</span>: "A035, VIPR22"   

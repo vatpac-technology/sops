@@ -13,7 +13,7 @@
 | **Townsville ACD**    | **Townsville Delivery**  | **128.100**         | **TL_DEL**       |
 | Townsville ATIS    |   | 133.500         | YBTL_ATIS       |
 
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 ## Airspace
@@ -29,7 +29,7 @@ For non-RNAV approved IFR aircaft with a wake turbulence category of medium or g
 For non-RNAV approved IFR aircraft with a wake turbulence category of light, issue a visual departure or RADAR SID
 
 ## Charts
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 ## Miscellaneous
