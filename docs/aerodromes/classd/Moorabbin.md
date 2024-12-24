@@ -110,31 +110,33 @@ Night operations must comply with fixed wing circuits and altitudes.
 
 Day VFR helicopter departures must remain at or below `A007`. Helicopters must nominate a aiming point, eastern grass, western triangle or HLS on first contact with MB ADC.
 
-1. **Aiming Points**:
-   - Direct helicopters departing from the **Southern Aiming Point** to hold short of **TWY A**.
-   - Direct helicopters departing from the **Northern Aiming Point** to hold short of **TWY G**.
-
-2. **Departure Procedures**:
-    - Ensure departures remain clear of duty runways and provide instructions to:
-        - **Pass east of the tower**.
-        - **Track**:
-            - For **northbound departures**: Track north until clear of the tower.
-            - For **southbound departures**: Track south until clear of airport buildings.
+- **Aiming Points**:
+    - Direct helicopters departing from the **Southern Aiming Point** to hold short of **TWY A**.
+    - Direct helicopters departing from the **Northern Aiming Point** to hold short of **TWY G**.
 
 <figure markdown>
 ![Aiming Locations](img/mbhelidep.png){ width="700" }
 <figcaption>Aiming Locations</figcaption>
 </figure>
 
+- **Departure Procedures**:
+    - Ensure departures remain clear of duty runways and provide instructions to:
+        - **Pass east of the tower**.
+        - **Track**:
+            - For **northbound departures**: Track north until clear of the tower.
+            - For **southbound departures**: Track south until clear of airport buildings.
+
 !!! phraseology
     VH-RJB, an R44 helicopter, is looking to depart to the north towards essendon VFR. 17L/R is active.
+
     **RJB** "MB Twr, RJB, At the southern apron, with information november, request upwind departure via 17L aiming point"
-    **MB ADC**: "RJB, cleared air transit 17L aiming point, report airborne"
+    **MB ADC**: "RJB, cleared air transit 17L aiming point, remain east of the tower, report airborne"
     **RJB**: "RJB, Airborne"
+    
     **MB ADC**: "RJB, report established 17L aiming point"
     **RJB**: "RJB"
     **RJB**: "RJB, 17L aiming point, upwind departure to essendon"
-    **MB ADC**: "RJB, Cleared upwind departure, runway 17L, not above 700FT, remain east of the towrer and track north until clear of the tower"
+    **MB ADC**: "RJB, Cleared upwind departure, runway 17L, not above A007, remain east of the towrer and track north until clear of the tower"
 
 
 !!! tip
@@ -156,9 +158,9 @@ Day VFR helicopter departures must remain at or below `A007`. Helicopters must n
 
 !!! phraseology
     VH-RJB, an R44 helicopter, is looking to join the circuit from the west at Cerberus, with runway 17L/R active.  
-    **RJB**: "Moorabbin Tower, Helicopter RJB, Cerberus, A007, inbound, with november, for circuits"  
-    **MB ADC**: "RJB, Moorabbin Tower, report overhead the tower"  
-    **RJB**: "Wilco, RJB"  
+    **RJB**: "MB Tower, Helicopter R44 RJB, Cerberus, A007, inbound, with november, for circuits"  
+    **MB ADC**: "RJB, Moorabbin Tower, overfly the tower A007, report overhead the tower"  
+    **RJB**: "RJB"  
     **RJB**: "RJB overhead the tower"
     **MB ADC**: "RJB, join downwind runway 17R"
     **RJB**: "Join downwind runway, 17R"
