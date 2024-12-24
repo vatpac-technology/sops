@@ -95,9 +95,9 @@ Helicopter circuits are conducted from designated areas based on the active runw
 - Acknowledge the aircraft's callsign or provide additional departure instructions. Hold the aircraft if they will conflict with other traffic.
 - On completion of circuit training, the pilot will nominate their landing HLS during the airborne call and report downwind before transitioning to the arrival procedure.
 
-!!! example
-    **RJB**:: "MB Gnd, RJB, At the southern apron, with information november, request circuits"
-    **MB SMC**: "RJB, cleared for circuit, Eastern Grass, report airborne"      
+!!! phraseology
+    **RJB**: "MB Twr, RJB, At the southern apron, with information november, request circuits"
+    **MB ADC**: "RJB, cleared for circuit, Eastern Grass, report airborne"      
     **RJB**: "Cleared for circuits, Eastern Grass, RJB"  
     *(Before departure)*  
     **RJB**: "Moorabbin Tower, RJB, airborne"  
@@ -108,7 +108,7 @@ Night operations must comply with fixed wing circuits and altitudes.
 
 ### Departures
 
-Day VFR helicopter departures must remain at `A007`. Helicopters must nominate a aiming point or HLS on first contact with MB SMC.
+Day VFR helicopter departures must remain at or below `A007`. Helicopters must nominate a aiming point, eastern grass, western triangle or HLS on first contact with MB ADC.
 
 1. **Aiming Points**:
    - Direct helicopters departing from the **Southern Aiming Point** to hold short of **TWY A**.
@@ -126,6 +126,20 @@ Day VFR helicopter departures must remain at `A007`. Helicopters must nominate a
 <figcaption>Aiming Locations</figcaption>
 </figure>
 
+!!! phraseology
+    VH-RJB, an R44 helicopter, is looking to depart to the north towards essendon VFR. 17L/R is active.
+    **RJB** "MB Twr, RJB, At the southern apron, with information november, request upwind departure via 17L aiming point"
+    **MB ADC**: "RJB, cleared air transit 17L aiming point, report airborne"
+    **RJB**: "RJB, Airborne"
+    **MB ADC**: "RJB, report established 17L aiming point"
+    **RJB**: "RJB"
+    **RJB**: "RJB, 17L aiming point, upwind departure to essendon"
+    **MB ADC**: "RJB, Cleared upwind departure, runway 17L, not above 700FT, remain east of the towrer and track north until clear of the tower"
+
+
+!!! tip
+    Remember you can have helicopters report at key locations as memory aid. Remember helicopters during daylight hours can air transit direct to a location.
+
 ### Arrivals
 
 - ML TCU will heads-up coordinate arrivals/overfliers from Class C to MB ADC.  
@@ -140,12 +154,11 @@ Day VFR helicopter departures must remain at `A007`. Helicopters must nominate a
     - For **northerly approaches** full stop: Instruct helicopters to remain clear of duty runways, track east of the tower, and proceed to the northern or main aprons.
     - For **circuits** have the aircraft fly overhead the tower and report. Instruct the aircraft to join a leg of the circuit.
 
-!!! example
+!!! phraseology
     VH-RJB, an R44 helicopter, is looking to join the circuit from the west at Cerberus, with runway 17L/R active.  
     **RJB**: "Moorabbin Tower, Helicopter RJB, Cerberus, A007, inbound, with november, for circuits"  
     **MB ADC**: "RJB, Moorabbin Tower, report overhead the tower"  
     **RJB**: "Wilco, RJB"  
-    
     **RJB**: "RJB overhead the tower"
     **MB ADC**: "RJB, join downwind runway 17R"
     **RJB**: "Join downwind runway, 17R"
