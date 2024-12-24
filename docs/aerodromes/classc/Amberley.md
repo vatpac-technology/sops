@@ -72,6 +72,11 @@ Taxiway Alpha has been divided into portions for helicopter operations as follow
 | Between A1 and RWY 04/22     | Alpha South |
 | TWY Q and A Junction     | Holding Point Quebec |
 
+<figure markdown>
+![YAMB Helicopter Taxiway Alpha](img/yamb_heli_taxiwayalpha.png){ width="600" }
+  <figcaption>YAMB Helicopter Taxiway Alpha</figcaption>
+</figure>
+
 ### Helicopter Circuits
 
 To facilitate helicopter circuits, two areas have been established.
@@ -106,8 +111,6 @@ b) C-27J, light aircraft and helicopters not above `A010`.
 
 ### Civil Operations
 Civil and AAFC conduct flying operations within the South Western Training Area (SWTA). The SWTA is divided in half by the Rosewood-Mt Walker-Aratula Road, SWTA Alpha (north) and SWTA Bravo (south). Once established in the SWTA, aircraft will remain OCTA. Pilots may request to enter the CTA and climb above `A025` when operationally required.
-
-#### SWTA Routing
 
 Departures:
 
