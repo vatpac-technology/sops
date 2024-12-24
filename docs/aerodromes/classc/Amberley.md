@@ -128,7 +128,7 @@ Arrivals:
 
 !!! phraseology 
     **AMB ADC**: "ASTR203, cleared SWTA Alpha via MTWK, maintain 2500, squawk 7301"  
-    **ASTR203**: "Cleared SWTA Alpha via MTWK, maintain 2500, squawk 7301, ASTR204"    
+    **ASTR203**: "Cleared SWTA Alpha via MTWK, maintain 2500, squawk 7301, ASTR203"    
 
 ## Coordination
 ### AMB TCU
