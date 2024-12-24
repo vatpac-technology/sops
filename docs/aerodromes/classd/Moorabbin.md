@@ -26,20 +26,20 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 
 Preferred runway modes are as follows (in order of preference):
 
-1. Runway 35L/35R  
-2. Runway 17L/17R  
+1. Runway 35L/35R
+2. Runway 17L/17R
 3. Runways 13/31 (equal preference)
 
 Runway 04/22 is not nominated by default and is only available on request or when operationally required for emergencies. Requests for Runway 22 may be granted if traffic conditions allow. Runway 04 is less likely to be approved due the need to vacate onto an intersecting runway.
 
 ## VFR Inbound Procedures
 
-Aircraft should report at the standard VFR entry points:  
-- **BTO** (to the north)  
-- **BAW** (to the west)  
-- **CARR** (to the southwest)  
-- **GMH** (to the southeast)  
-- **ACE** (to the northeast)  
+Aircraft should report at the standard VFR entry points:
+- **BTO** (to the north)
+- **BAW** (to the west)
+- **CARR** (to the southwest)
+- **GMH** (to the southeast)
+- **ACE** (to the northeast)
 - **SHOAL** (to the southwest)
 
 | Entry Point | RWY 13 | RWY 17 | RWY 31 | RWY 35 |
@@ -91,16 +91,25 @@ Helicopter circuits are conducted from designated areas based on the active runw
 
 **Radio Procedure**:
 
+- Pilots established on the eastern grass or western triangle may operate up to `A001` for low-level airwork.
 - Pilots will report “AIRBORNE” before each circuit, or if departing additionally they will include their intentions. Aircraft are expected to remain under `A001` until you acknowledge.
 - Acknowledge the aircraft's callsign or provide additional departure instructions. Hold the aircraft if they will conflict with other traffic.
 - On completion of circuit training, the pilot will nominate their landing HLS during the airborne call and report downwind before transitioning to the arrival procedure.
 
+!!! tip
+    You can have a helicopter air transit rather than air taxi to the eastern grass or western triangle. Air taxi will typically follow established taxiways and normal taxi speeds.
+    Air transit allows more rapid movement at or below `A001` direct to locations on the aerodrome.
+
 !!! phraseology
+    *(Before entering the maneuvering  area)*
     **RJB**: "MB Twr, RJB, At the southern apron, with information november, request circuits"
-    **MB ADC**: "RJB, cleared for circuit, Eastern Grass, report airborne"      
-    **RJB**: "Cleared for circuits, Eastern Grass, RJB"  
-    *(Before departure)*  
-    **RJB**: "Moorabbin Tower, RJB, airborne"  
+    **MB ADC**: "RJB, air transit Eastern Grass, report airborne"
+    **RJB**: "air transit, Eastern Grass, RJB"
+    *(Becoming airborne to establish on the eastern grass)*
+    **RJB**: "MB Twr, RJB, airborne"
+    **MB ADC**: "RJB"
+    *(RJB becoming airborne for circuits, acknowledgement only is required)*
+    **RJB**: "RJB Airborne"
     **MB ADC**: "RJB"
 
 #### Night Circuits
@@ -120,31 +129,28 @@ Day VFR helicopter departures must remain at or below `A007`. Helicopters must n
 </figure>
 
 - **Departure Procedures**:
-    - Ensure departures remain clear of duty runways and provide instructions to:
-        - **Pass east of the tower**.
+    - Departures should remain clear of duty runways and:
         - **Track**:
             - For **northbound departures**: Track north until clear of the tower.
             - For **southbound departures**: Track south until clear of airport buildings.
 
 !!! phraseology
     VH-RJB, an R44 helicopter, is looking to depart to the north towards essendon VFR. 17L/R is active.
-
-    **RJB** "MB Twr, RJB, At the southern apron, with information november, request upwind departure via 17L aiming point"
+    **RJB** "MB Twr, RJB, At the southern apron, with information N, request upwind departure via 17L aiming point"
     **MB ADC**: "RJB, cleared air transit 17L aiming point, remain east of the tower, report airborne"
     **RJB**: "RJB, Airborne"
-    
+
     **MB ADC**: "RJB, report established 17L aiming point"
     **RJB**: "RJB"
     **RJB**: "RJB, 17L aiming point, upwind departure to essendon"
-    **MB ADC**: "RJB, Cleared upwind departure, runway 17L, not above A007, remain east of the towrer and track north until clear of the tower"
-
+    **MB ADC**: "RJB, Cleared upwind departure, runway 17L, not above A007"
 
 !!! tip
-    Remember you can have helicopters report at key locations as memory aid. Remember helicopters during daylight hours can air transit direct to a location.
+    Remember you can have helicopters report at key locations as memory aid.
 
 ### Arrivals
 
-- ML TCU will heads-up coordinate arrivals/overfliers from Class C to MB ADC.  
+- ML TCU will heads-up coordinate arrivals/overfliers from Class C to MB ADC.
 
 - **From the East**:
     - Helicopters arriving from the east should be instructed to fly a close base leg and pass over the duty threshold at **not below `A003`**.
@@ -157,10 +163,10 @@ Day VFR helicopter departures must remain at or below `A007`. Helicopters must n
     - For **circuits** have the aircraft fly overhead the tower and report. Instruct the aircraft to join a leg of the circuit.
 
 !!! phraseology
-    VH-RJB, an R44 helicopter, is looking to join the circuit from the west at Cerberus, with runway 17L/R active.  
-    **RJB**: "MB Tower, Helicopter R44 RJB, Cerberus, A007, inbound, with november, for circuits"  
-    **MB ADC**: "RJB, Moorabbin Tower, overfly the tower A007, report overhead the tower"  
-    **RJB**: "RJB"  
+    VH-RJB, an R44 helicopter, is looking to join the circuit from the west at Cerberus, with runway 17L/R active.
+    **RJB**: "MB Tower, Helicopter R44 RJB, Cerberus, A007, inbound, with november, for circuits"
+    **MB ADC**: "RJB, Moorabbin Tower, overfly the tower A007, report overhead the tower"
+    **RJB**: "RJB"
     **RJB**: "RJB overhead the tower"
     **MB ADC**: "RJB, join downwind runway 17R"
     **RJB**: "Join downwind runway, 17R"
@@ -170,31 +176,31 @@ Day VFR helicopter departures must remain at or below `A007`. Helicopters must n
 ### Departures
 
 - Autorelease is not in effect. Coordination for "Next" is required required for departures into overlaying Class C. They must not be issued a takeoff clearance until a release has been obtained.
-- Standard assignable level: `A050` (or `RFL` if lower).  
+- Standard assignable level: `A050` (or `RFL` if lower).
 !!! phraseology
-    <span class="hotline">**MB ADC** -> **MDS**</span>: "Next, SGE"  
+    <span class="hotline">**MB ADC** -> **MDS**</span>: "Next, SGE"
     <span class="hotline">**MDS** -> **MB ADC**</span>: "SGE, unrestricted"
 
 Aircraft departing directly into Class C airspace should be instructed to report passing A025 and transferred to the TCU at that point.
 
-!!! phraseology 
-    **SGE**: "SGE, A025"  
-    **MB ADC**: "SGE, contact Melbourne Departures on 129.4" 
+!!! phraseology
+    **SGE**: "SGE, A025"
+    **MB ADC**: "SGE, contact Melbourne Departures on 129.4"
 
 Aircraft who will transit Class G airspace on climb into CTA will be **cleared to leave and re-enter controlled airspace** on climb to their assigned level.
 
 !!! phraseology
-    **MB ADC**: "SGE, cleared to leave and re-enter controlled airspace climbing to A050, no reported IFR traffic. Contact Melbourne Departures on 129.4"  
+    **MB ADC**: "SGE, cleared to leave and re-enter controlled airspace climbing to A050, no reported IFR traffic. Contact Melbourne Departures on 129.4"
     **SGE**: "Cleared to leave and re-enter controlled airspace climbing to A050, Departures 129.4, SGE"
 
 ### Arrivals/Overfliers
 
-- ML TCU will heads-up coordinate arrivals/overfliers from Class C to MB ADC.  
-- **IFR arrivals** will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to MB ADC, unless MB ADC nominates a restriction.  
+- ML TCU will heads-up coordinate arrivals/overfliers from Class C to MB ADC.
+- **IFR arrivals** will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to MB ADC, unless MB ADC nominates a restriction.
 - **VFR arrivals** will not be coordinated, and will need to receive their airways clearance from MB ADC.
 
 !!! phraseology
-    <span class="hotline">**MDS** -> **MB ADC**</span>: "To the west, PLE, for the NDB-A"  
+    <span class="hotline">**MDS** -> **MB ADC**</span>: "To the west, PLE, for the NDB-A"
     <span class="hotline">**MB ADC** -> **MDS**</span>: "PLE, NDB-A"
 
 !!! tip
