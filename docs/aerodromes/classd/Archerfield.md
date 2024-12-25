@@ -148,7 +148,7 @@ The APCH field should include `EXP INST APCH` when:
 The ATIS must indicate the current active helicopter area, refer to [Helicopter Areas](#areas).
 
 !!! example  
-    OPR INFO: RWY 04, 22, AND TWY C AND D UAVBL. **HELICOPTER AREA A ACTIVE**  
+    OPR INFO: **HELICOPTER AREA A ACTIVE**  
 
 ## Coordination
 
