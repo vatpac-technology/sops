@@ -15,6 +15,8 @@ The vertical limits of the Port Moresby TCU are `SFC` to `A150`.
 
 Airspace `BCTA` to `A150` is classified as Class C. Airspace `SFC` to `BCTA` is considered Class F.
 
+Refer to the [PNG Local instructions](../) for more information about Class F operations.
+
 ## Coordination
 ### Enroute
 
