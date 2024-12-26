@@ -10,3 +10,13 @@
 | ----------------------- | --------- | ---------------- | --------- |
 | **Tokua (Rabul) ADC**	| **Tokua Tower** | **118.200** | **AYTK_TWR** | 
 | Tokua (Rabul) ATIS	| | 	128.000 | AYTK_ATIS	 | 
+
+## Airspace
+The Tokua ADC is responsible for the Class F airspace `SFC` to `A200` within the Tokua ATZ.
+
+<figure markdown>
+![AYTK ATZ Airspace](img/AYTK_Vatsys.PNG){ width="700" }
+</figure>
+
+Refer to the [PNG Local instructions](../) for more information about Class F/ATZ operations.
+
