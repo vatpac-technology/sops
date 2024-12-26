@@ -53,6 +53,9 @@ Within ATZs, ATC provides the following services:
 	- surface movement control;
 	- aerodrome circuit traffic regulation (in VMC, by day);
 	- traffic information; and
-	- SAR alerting
+	- SAR alerting.
 	
-ATC clearances are required only for taxi, take-off and landing. Clearance is not required to enter, leave or transit the ATZ.
+ATC clearances are required only for taxi, take-off and landing; clearance is not required to enter, leave or transit the ATZ.
+
+Aircraft will make contact with ATC when advising of engine starts, prior to taxi for departure, and when entering the ATZ boundary.
+
