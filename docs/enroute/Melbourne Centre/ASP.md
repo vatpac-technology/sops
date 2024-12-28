@@ -64,8 +64,8 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | ---- | -------- | --------- | --------- |
 | FOR, WRA, BKE | TBD(AUG) | YPAD, YPED | Jets only |
 | BKE | TBD | YPAD, YPED | |
-| ESP | PIY(HYD) | YPPH, YPEA | Jets only |
-| BKE | YWE(KAT, GTH) | YSSY | |
+| ESP | HYD | YPPH, YPEA | Jets only |
+| BKE | GUN(KAT), MUN(GTH) | YSSY | |
 
 ## Coordination
 ### Enroute
