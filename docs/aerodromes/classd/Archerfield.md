@@ -95,10 +95,10 @@ There are 3 designated helicopter training areas at Archerfield:
 
 
 ### Departures
-Helicopters comply with fixed wing outbound procedures. Departures shall be parallel to and clear of the duty runways. Departures with intended entry into BN CTR shall advise AF SMC on taxi with "Uni Departure". No heads-up coordination with BN TCU is required.
+Helicopters comply with fixed wing outbound procedures. Departures shall be parallel to and clear of the duty runways. Departures with intended entry into BN CTR northbound shall advise AF SMC on taxi with "Uni Departure". Aircraft on the "Uni Departure" depart via UQLD at `A010` thence contact BN TCU for airways clearance. No heads-up coordination with BN TCU is required.
 
 !!! phraseology 
-    **TUY:** "Archer Tower, helicopter TUY, northen pad, for eastern departure, ready"  
+    **TUY:** "Archer Tower, helicopter TUY, northen pad, for uni departure, ready"  
     **AF ADC:** "TUY, Archer Tower, northen pad, cleared for takeoff"  
     **TUY:** "Cleared for takeoff, northen pad, TUY"  
 
@@ -116,7 +116,7 @@ Helicopters comply with fixed wing inbound procedures. Pilots shall nominate the
 
 Helicopters inbound for the Queensland Government Air facility HLS shall be issued a standard fixed wing circuit instruction for the applicable duty runway, complying to fixed wing operations unless another approach is operationally required.
 
-Helicopters inbound from the south via PKR for either the northen or central helipad shall be instructed to *"cross 10L and 10R"* alongside any other tracking or traffic information.
+Helicopters inbound from the south via PKR for either the northen or central helipad shall be instructed to "cross 10L and 10R" alongside any other tracking or traffic information.
 
 !!! phraseology 
     **SMD:** "Archer Tower, helicopter SMD, PKR A015, recieved Golf, inbound central pad"  
@@ -145,7 +145,7 @@ The APCH field should include `EXP INST APCH` when:
   - visibility is less than 5000m  
 
 ### Helicopter Area
-The ATIS must indicate the current active helicopter area, refer to [Helicopter Areas](#areas).
+The ATIS must indicate the current active helicopter area, refer to [Training Areas](#training-areas).
 
 !!! example  
     OPR INFO: **HELICOPTER AREA A ACTIVE**  

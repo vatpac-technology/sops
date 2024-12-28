@@ -191,6 +191,7 @@
 *[DSN]: Doncaster Shopping Town
 *[ADWD]: Adventure World
 *[TVT]: TV Towers
+*[SBD]: Story Bridge
 *[FREM]: Fremantle Golf Course
 *[YGB]: Yangebup Lake
 *[FDL]: Forestdale Lake
