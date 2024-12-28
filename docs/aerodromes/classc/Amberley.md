@@ -85,7 +85,7 @@ To facilitate helicopter circuits, two areas have been established.
 Utilising the threshold RWY 22 as a HLS, remaining within 600 m of threshold RWY 22
 and east of a line parallel to RWY 15/33 intersecting threshold RWY 22  
 
-Choppers West
+**Choppers West**  
 Utilising the threshold RWY 04 as a HLS, remaining within 600 m of threshold RWY 04
 and west of a line parallel to RWY 15/33 intersecting threshold RWY 04.
 
