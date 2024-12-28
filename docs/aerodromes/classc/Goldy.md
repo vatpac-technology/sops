@@ -88,7 +88,7 @@ Circuits from the Western Grass are to be made in the same direction as the duty
 
 All other aircraft require a 'Next' call to CG TCU.
 
-!!! example
+!!! phraseology
     <span class="hotline">**CG ADC** -> **BAC**</span>: "Next, CBN, runway 14"  
     <span class="hotline">**BAC** -> **CG ADC**</span>: "CBN, heading 030, unrestricted"  
     <span class="hotline">**CG ADC** -> **BAC**</span>: "Heading 030, CBN"  
