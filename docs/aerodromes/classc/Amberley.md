@@ -81,7 +81,8 @@ Taxiway Alpha has been divided into portions for helicopter operations as follow
 
 To facilitate helicopter circuits, two areas have been established.
 
-Choppers East: Utilising the threshold RWY 22 as a HLS, remaining within 600 m of threshold RWY 22
+**Choppers East**:  
+Utilising the threshold RWY 22 as a HLS, remaining within 600 m of threshold RWY 22
 and east of a line parallel to RWY 15/33 intersecting threshold RWY 22  
 
 Choppers West
