@@ -147,5 +147,5 @@ a) The Lower of `F180` or `RFL` for Aircraft assigned via Procedural or RNAV SID
 b) `F190` for Aircraft assigned a Coded Departure.
 
 ## Charts
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
