@@ -90,7 +90,7 @@ Utilising the threshold RWY 04 as a HLS, remaining within 600 m of threshold RWY
 and west of a line parallel to RWY 15/33 intersecting threshold RWY 04.
 
 !!! note
-    The primary area for continous circuit operations is Choppers East. Due to the displaced distance of the threshold of runway 22 from runway 15/33.
+    The primary area for continuous circuit operations is **Choppers East**, due to the displaced distance of the threshold of runway 22 from runway 15/33.
 
 
 ## Miscellaneous
