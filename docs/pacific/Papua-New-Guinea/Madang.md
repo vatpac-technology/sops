@@ -11,7 +11,6 @@
 | **Madang ADC** | **Madang Tower** | **118.100** | **AYMD_TWR**	| 
 | Madang ATIS	| | 127.800 | AYMD_ATIS |
 
-
 ## Airspace
 The Madang ADC is responsible for the Class F airspace `SFC` to `A200` within the Madang ATZ.
 

@@ -5,13 +5,10 @@
 --8<-- "includes/abbreviations.md"
 
 ## Altimetry
-
 ### Transition Altitude 
-
 Within the Papua New Guinea FIR, the transition altitude is 20,000 ft (`A200`)
 
 ### Transition Level
-
 Within the Papua New Guinea FIR, the transition level is `F210`.
 
 
@@ -59,3 +56,6 @@ ATC clearances are required only for taxi, take-off and landing; clearance is no
 
 Aircraft will make contact with ATC when advising of engine starts, prior to taxi for departure, and when entering the ATZ boundary.
 
+## Charts
+!!! abstract "Reference"
+    Charts can be found on the [PNG AIP Flight Supplement](https://www.niuskypacific.com.pg/aip-flight-supplements/){target=new}.
