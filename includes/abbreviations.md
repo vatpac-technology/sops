@@ -300,6 +300,7 @@
 *[SWTA]: South Western Training Area
 *[MTWK]: Mount Walker
 *[CLVT]: Calvert
+*[AAFC]: Australian Air Force Cadets
 *[MNG]: Mangalore
 *[LTV]: Latrobe Valley
 *[AY]: Albury
