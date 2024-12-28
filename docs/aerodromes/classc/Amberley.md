@@ -52,7 +52,7 @@ Aircraft will depart the circuit visually and track overhead YAMB to begin track
 !!! note
     Since the Coded Departures are not SIDs, AMB ACD needs to write the name of the coded departure in the Global Ops Field of the FDR and amend the flight plan route to include all relevant tracking points.
 
-!!! note
+!!! abstract "Reference"
     Charts for the Coded Departures are available in: [YAMB FIHA AD2 Supp Section 6.2.25](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 
