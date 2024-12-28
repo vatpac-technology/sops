@@ -122,7 +122,7 @@ Due to the low level of CTA (`A035`) in the CG CTR when **CG ADC** is offline, i
 
 ## Helicopter Operations
 ### City Scenic Flights
-Helicopters conducting scenic flights around the city require access to the Brisbane CTA to operate. These flights typically involve low-level operations in proximity to controlled airspace and landmarks within the city area.
+Helicopters conducting scenic flights around the city require access to the Brisbane CTA to operate. These flights typically involve low-level operations inside controlled airspace and in proximity to landmarks within the city area.
 
 Aircraft must track via Class G airspace to UQLD and contact BN TCU prior to reaching UQLD requesting airways clearance. Attempt to identify the aircraft, and if a clearance cannot be given immediately, instruct the pilot to remain clear of Class C airspace.
 
