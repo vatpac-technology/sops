@@ -137,7 +137,7 @@ Aircraft must track via Class G airspace to UQLD and contact BN TCU prior to rea
 Due to the close proximity to Brisbane, traffic information of aircraft departing or arriving must be issued to helicopters operating in the zone.
 
 !!! phraseology 
-    **BN TCU**: "FHK, departing Brisbane is a Embraer E190 off 19R, 5 miles `A080`. report in sight."  
+    **BN TCU**: "FHK, departing Brisbane is a Embraer E190 off 19R, 5 miles `A008`. report in sight."  
     **FHK**: Traffic in sight, FHK"  
     **BN TCU**: "FHK, maintain own seperation with the E190"  
     **FHK**: "Maintain own seperation, FHK"
