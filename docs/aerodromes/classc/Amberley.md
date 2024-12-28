@@ -139,7 +139,7 @@ Arrivals:
 !!! example
     <span class="hotline">**AMB ADC** -> **AMB TCU**</span>: "Next, STAL56, runway 33"  
     <span class="hotline">**AMB TCU** -> **AMB ADC**</span>: "STAL56, Right heading 030, unrestricted"  
-    <span class="hotline">**AMB ADC** -> **AMB TCU**</span>: "Assigned Heading Heading Right 030, STAL56"  
+    <span class="hotline">**AMB ADC** -> **AMB TCU**</span>: "Right heading 030, STAL56"  
 
 ### Level Assignment
 The Standard Assignable Level from  **AMB ADC** to **AMB TCU** is:  
