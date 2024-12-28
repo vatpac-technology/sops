@@ -57,3 +57,38 @@
 .md-typeset .block > summary::before {
   height: 0rem;
 }
+
+/* Custom Phraseology Admonition */
+:root {
+  --md-admonition-icon--phraseology: url('../assets/headset.svg'); /* Path to your custom SVG */
+  --phraseology-light-bg: #D3F8D3; /* Light mode: light green */
+  --phraseology-dark-bg: #082515;  /* Dark mode: very dark green */
+}
+
+.md-typeset .admonition.phraseology {
+  border-color: #90EE90; /* Light green border */
+  background-color: var(--md-default-bg-color); /* White background for the text */
+}
+
+.md-typeset .phraseology > .admonition-title {
+  background-color: var(--phraseology-light-bg); /* Light green background for the title */
+  border-color: #90EE90; /* Light green border for title */
+}
+
+.md-typeset .phraseology > .admonition-title::before {
+  background-color: black; /* Set the icon color to black */
+  -webkit-mask-image: var(--md-admonition-icon--phraseology); /* Custom SVG for icon */
+  mask-image: var(--md-admonition-icon--phraseology); /* Custom SVG for icon */
+}
+
+/* Custom Phraseology Admonition - Dark Mode Adjustments */
+[data-md-color-scheme="slate"] {
+  .md-typeset .phraseology > .admonition-title {
+    background-color: var(--phraseology-dark-bg); /* Very dark green background */
+    color: var(--md-default-fg-color); /* Text color remains readable */
+  }
+
+  .md-typeset .phraseology > .admonition-title::before {
+    background-color: #90EE90; /* Set the icon color to black */
+  }
+}
