@@ -51,7 +51,7 @@ e) Runway 11 and Runway 18;
 f) Runway 11 only.  
 
 ## Charts
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 ## Miscellaneous

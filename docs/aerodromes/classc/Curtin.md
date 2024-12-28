@@ -38,5 +38,5 @@ The Standard Assignable Level from  **CIN ADC** to **CIN TCU** is the Lower of `
 When CIN TCU is offline, coordination is not required between CIN ADC and TRT(ASH). Aircraft entering TRT(ASH) airspace shall be handed off, and instructed to contact TRT(ASH) for onwards clearance.
 
 ## Charts
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
