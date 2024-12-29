@@ -5,17 +5,11 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login Identifier                         |
+| Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| Parafield ADC  | Parafield Tower  | 118.700          | PF_TWR                        |
-| Parafield SMC   | Parafield Ground  | 119.900          | PF_GND                       |
+| **Parafield ADC**  | **Parafield Tower**  | **118.700**          | **PF_TWR**                        |
+| **Parafield SMC**  | **Parafield Ground** | **119.900**          | **PF_GND**                       |
 | Parafield ATIS        |                | 120.900          | YPPF_ATIS                                |
-
-
-<figure markdown>
-![YPPF Maneuvering Area](img/yppf_maneuvring_area.png){ width="500" }
-  <figcaption>Maneuvering Area</figcaption>
-</figure>
 
 ## Airspace
 PF ADC is responsible for the Class D airspace in the PF CTR `SFC` to `A015`.
@@ -70,7 +64,7 @@ The APCH field should include `EXP INST APCH` when:
 ### Departures
 When the aircraft is ready for departure, PF ADC will coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
 
-!!! example
+!!! phraseology
     <span class="hotline">**PF ADC** -> **AAW**</span>: "Next, XMM, 03L"  
     <span class="hotline">**AAW** -> **PF ADC**</span>: "XMM, Heading 020, unrestricted"  
     <span class="hotline">**PF ADC** -> **AAW**</span>: "Heading 020, XMM"
@@ -82,7 +76,7 @@ IFR aircraft will be cleared for the coordinated approach (Instrument or Visual)
 VFR aircraft require a level readback.
 
 
-!!! example
+!!! phraseology
     <span class="hotline">**AAW** -> **PF ADC**</span>: "via PAL, YTS"  
     <span class="hotline">**PF ADC** -> **AAW**</span>: "YTS, A010"
 

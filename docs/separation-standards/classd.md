@@ -15,7 +15,7 @@ Remember that in [Class D Airspace](../../controller-skills/classofairspace), IF
 ## Surveillance
 Although Surveillance standards cannot be used for separation at Class D Towers, overlying TCU/Enroute controllers can use their surveillance standards to help Class D towers achieve separation, when procedural separation is a bit awkward or impractical.
 
-!!! example
+!!! phraseology
     <span class="hotline">**AY ADC** -> **BLA**</span>: "Can you advise when QLK208D is 5nm clear of DSB?"  
     <span class="hotline">**BLA** -> **AY ADC**</span>: "Affirm, will do"  
     ...  
@@ -28,16 +28,26 @@ Although Surveillance standards cannot be used for separation at Class D Towers,
 - Can be applied between departures and arrivals when the departing aircraft's flight path and the arrival aircraft's flight path are at least 45° clear of each other, and, for a straight-in approach, the arriving aircraft is at least **5nm** from the arrival runway threshold
 
 <figure markdown>
-![Segregated Flight Paths - Straight-in](img/sfpsi.png){ width="700" }
-  <figcaption>Segregated Flight Paths - Straight-in</figcaption>
+![Segregated Flight Paths - Straight-in (Prior to 5nm)](img/45segregatedfpsi1.png){ width="700" }
+  <figcaption>Segregated Flight Paths - Straight-in (Prior to 5nm)</figcaption>
+</figure>
+
+<figure markdown>
+![Segregated Flight Paths - Straight-in (After 5nm)](img/45segregatedfpsi2.png){ width="700" }
+  <figcaption>Segregated Flight Paths - Straight-in (After 5nm)</figcaption>
 </figure>
 
 #### Visual, DME/GNSS, Circle to land
 - Can be applied between departures and arrivals when the departing aircraft's flight path and the arrival aircraft's flight path are at least 45° clear of each other, and, for a Visual, DME/GNSS or Circle to land approach, the arriving aircraft is at least **10nm** from the airfield
 
 <figure markdown>
-![Segregated Flight Paths - Visual, DME/GNSS, Circle to land](img/sfpdga.png){ width="700" }
-  <figcaption>Segregated Flight Paths - Visual, DME/GNSS, Circle to land</figcaption>
+![Segregated Flight Paths - Visual, DME/GNSS, Circle to land (Prior to 10nm)](img/45segregatedfpcircle1.png){ width="700" }
+  <figcaption>Segregated Flight Paths - Visual, DME/GNSS, Circle to land (Prior to 10nm)</figcaption>
+</figure>
+
+<figure markdown>
+![Segregated Flight Paths - Visual, DME/GNSS, Circle to land (After 10nm)](img/45segregatedfpcircle2.png){ width="700" }
+  <figcaption>Segregated Flight Paths - Visual, DME/GNSS, Circle to land (After 10nm)</figcaption>
 </figure>
 
 ## Vertical

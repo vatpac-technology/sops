@@ -19,14 +19,14 @@
 
 ### CPDLC
 
-The Primary Communication Method for ELW is Voice.
+The Primary Communication Method for PIY is Voice.
 
 [CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
 
 The CPDLC Station Code is `YPIY`.
 
 !!! tip
-        Even though PIY's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+    Even though PIY's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
 ## Airspace
 <figure markdown>
@@ -60,6 +60,9 @@ JAR is responsible for assigning and issuing arrival clearance to aircraft inbou
 
 !!! note
     Controllers should be aware there may be limited ADS-B coverage around Albany (YABA). Expect some areas of Class E airspace to be outside surveillance coverage. [Procedural Standards](../../../separation-standards/procedural) may need to be used in these cases.
+
+### Sequencing in to YPPH
+Aircraft assigned the **same runway** inbound via **JULIM** and **SAPKO**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
 ## YPPH Runway Modes
 ### Southwest Plan
@@ -111,6 +114,7 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | GVE, CRS, HYD | PIY | YPPH, YPEA | Non-jets only |
 | GVE, CRS, HYD | PIY | YPJT | |
 | GEL, IND | LEA | YPPH | |
+| IND | GEL, LEA, JAR | YPPH | |
 
 ## Coordination
 ### PH TCU
@@ -153,3 +157,8 @@ That being said, it is *advised* that PIY(All) gives **Heads-up Coordination** p
 
 ### IND (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+
+Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
+
+!!! phraseology
+    **PIY**: "QFA121, identification terminated, report position to Brisbane Radio, 129.25"

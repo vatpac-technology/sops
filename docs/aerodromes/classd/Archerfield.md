@@ -5,16 +5,11 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login Identifier                         |
+| Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| Archerfield ADC  | Archer Tower  | 118.100        | AF_TWR                        |
-| Archerfield SMC   | Archer Ground  | 129.300         | AF_GND                       |
+| **Archerfield ADC**  | **Archer Tower**  | **118.100**        | **AF_TWR**                        |
+| **Archerfield SMC**   | **Archer Ground**  | **129.300**         | **AF_GND**                       |
 | Archerfield ATIS        |                | 120.900          | YBAF_ATIS                                |
-
-<figure markdown>
-![YSBK Maneuvering Area](img/YBAF_ManMapB.PNG){ width="500" }
-  <figcaption>Maneuvering Area</figcaption>
-</figure>
 
 ## Airspace
 AF ADC is responsible for the Class D airspace in the AF CTR `SFC` to `A015`.
@@ -53,7 +48,7 @@ VFR departures will depart the control zone at `A010`.
 
 Aircraft should advise planned Departure Procedure to **AF SMC** with TAXI call and **AF ADC** with READY call.
 
-!!! example
+!!! phraseology
     **VPF:** "Archer Ground, Cherokee VPF is on the Main Apron, solo, Western Departure, received information Alpha, request taxi"
 
     **VPF:** "Archer Tower, Cherokee VPF is B8, runway 10 Left for Western Departure, ready"
@@ -96,7 +91,7 @@ The APCH field should include `EXP INST APCH` when:
 ### Departures
 When aircraft planned via a CTA departure are ready for takeoff and expected to depart imminently, **AF ADC** shall seek release of the aircraft through a 'Next' call.
 
-!!! example
+!!! phraseology
     <span class="hotline">**AF ADC** -> **BN TCU**</span>: "Next, XMM, Runway 10L"  
     <span class="hotline">**BN TCU** -> **AF ADC**</span>: "XMM, Unrestricted"  
     <span class="hotline">**AF ADC** -> **BN TCU**</span>: "XMM"
@@ -109,7 +104,7 @@ IFR aircraft will be cleared for the coordinated approach (Instrument or Visual)
 VFR aircraft require a level readback.
 
 
-!!! example
+!!! phraseology
     <span class="hotline">**BN TCU** -> **AF ADC**</span>: "via TVT for the visual approach, UJE"  
     <span class="hotline">**AF ADC** -> **BN TCU**</span>: "UJE, visual approach"
 

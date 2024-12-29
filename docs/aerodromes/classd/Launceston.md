@@ -6,15 +6,10 @@
 
 ## Positions
 
-| Name              | Callsign       | Frequency        | Login Identifier                         |
+| Name              | Callsign       | Frequency        | Login ID                         |
 | ----------------- | -------------- | ---------------- | ---------------------------------------- |
-| Launceston ADC    | Launy Tower   | 118.700    | LT_TWR                         |
+| **Launceston ADC**    | **Launy Tower**   | **118.700**    | **LT_TWR**                         |
 | Launceston ATIS       |                | 134.750          | YMLT_ATIS                                |
-
-### Maneuvering Area Responsibility
-<figure markdown>
-![YMLT Maneuvering Area](img/ymlt_maneuvring_area.png){ width="500" }
-</figure>
 
 ## Airspace
 LT ADC is responsible for the Class D airspace in the LT CTR `SFC` to `A015`.
@@ -28,11 +23,11 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 ## SID Selection
 Aircraft planned via **MIKIS**, **TASUM**, or **VEKLO** shall be assigned the relevant Procedural SID.
 
-Aircraft planned via **IRSOM**, **MORGO**, **ONAGI**, **VIMAP**, **NUNPA**, or **MOTRA**, departing Runway 32L, shall be assigned the relevant **ALPHA** Procedural SID.
+Aircraft planned via **IRSOM**, **MORGO**, **FLIKI**, **VIMAP**, **NUNPA**, or **MOTRA**, departing Runway 32L, shall be assigned the relevant **ALPHA** Procedural SID.
 
-Aircraft planned via **ONAGI**, **VIMAP**, **NUNPA**, or **MOTRA**, departing Runway 14R, shall be assigned the relevant **BRAVO** Procedural SID.
+Aircraft planned via **FLIKI**, **VIMAP**, **NUNPA**, or **MOTRA**, departing Runway 14R, shall be assigned the relevant **BRAVO** Procedural SID.
 
-**Non-Jet** Aircraft planned via **IRSOM**, **ONAGI**, or **MORGO** may be assigned the relevant **CHARLIE** Procedural SID *on pilot request*.
+**Non-Jet** Aircraft planned via **IRSOM**, **FLIKI**, or **MORGO** may be assigned the relevant **CHARLIE** Procedural SID *on pilot request*.
 
 Aircraft **not** planned via any of the above waypoints, shall be recleared via the most appropriate one, and assigned the **Procedural SID**.
 
@@ -46,23 +41,20 @@ YMLT ATIS identifiers range from `A` to `M`, as YMHB uses `N` through `Y`.
 ### Circuit Direction
 | Runway | Day | Night |
 | ------ | ------ | ----|
-| 14L     | Left  | - |
 | 14R    | Right | Right |
 | 32L     | Left  | Left |
-| 32R     | Right | - |
-| 18     | Left  | - |
-| 36     | Left  | - |
 
 ## Coordination
 ### Departures
 'Next' coordination is not required to LTA for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  
   b) Assigned the standard assignable level; and  
-  c) Assigned a SID
+  c) Assigned a SID; or  
+  d) Not entering LTA CTA
 
 All other aircraft require a 'Next' call to LTA.
 
-!!! example
+!!! phraseology
     <span class="hotline">**LT ADC** -> **LTA**</span>: "Next, ABC, runway 14L"  
     <span class="hotline">**LTA** -> **LT ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
     <span class="hotline">**LT ADC** -> **LTA**</span>: "Heading 150 Visual, ABC"   
@@ -85,6 +77,6 @@ LTA will heads-up coordinate arrivals/overfliers from LTA CTA to LT ADC.
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to LT ADC, unless LT ADC nominates a restriction.  
 VFR aircraft require a level readback.
 
-!!! example
+!!! phraseology
     <span class="hotline">**LTA** -> **LT ADC**</span>: "via IRSOM for the DGA, TFW"  
     <span class="hotline">**LT ADC** -> **LTA**</span>: "TFW, DGA"  

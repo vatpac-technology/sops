@@ -6,10 +6,10 @@
 
 ## Positions
 
-| Name               | ID      | Callsign       | Frequency        | Login Identifier              |
+| Name               | ID      | Callsign       | Frequency        | Login ID              |
 | ------------------ | --------------| -------------- | ---------------- | ---------------------|
-| Mackay Approach  | MKA | Coral Approach  | 125.650       | MK_APP    |
-| Rockhampton Approach  | RKA | Coral Approach   | 123.750        | RK_APP                 |
+| **Mackay Approach**  | **MKA** | **Coral Approach**  | **125.650**       | **MK_APP**    |
+| **Rockhampton Approach**  | **RKA** | **Coral Approach**   | **123.750**        | **RK_APP**                 |
 
 ## Airspace
 The Coral TCU includes the airspace `SFC` to `F150` within the Mackay and Rockhampton keyholes (shown below).  
@@ -24,6 +24,9 @@ MKA may extend to RKA and vice versa, callsigns remain the same. See [Controller
     <figure markdown>
     ![Coral Combined Airspace](img/coraltcusetup.png){ width="1000" }
     </figure>
+
+!!! tip
+    If choosing *not* to extend to the adjacent TMA, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
 
 ## Coordination
 
@@ -40,7 +43,7 @@ Voiceless for all aircraft:
 
 All other aircraft going to SWY/KPL CTA must be **Heads-up** Coordinated by MKA/RKA.
 
-!!! example
+!!! phraseology
     <span class="hotline">**RKA** -> **KPL**</span>: "QFA114, with your concurrence, will be assigned F130, for my separation with ZYX"  
     <span class="hotline">**KPL** -> **RKA**</span>: "QFA114, concur F130"  
 
@@ -49,10 +52,10 @@ Voiceless for all aircraft:
 
 - With ADES **YBMK**    
   - Assigned the **DAGSI** or **WELKE** STAR; and  
-  - Assigned `A070`  
+  - Assigned `A090`  
 - With ADES **YBRK**; and  
   - Assigned the **ABVAS** or **DADBO** STAR; and  
-  - Assigned `A070`
+  - Assigned `A090`
 
 All other aircraft coming from SWY/KPL CTA will be **Heads-up** Coordinated to MKA/RKA.
 
@@ -68,7 +71,7 @@ RK ADC is responsible for the Class D airspace in the RK CTR `SFC` to `A010`.
   b) Assigned the standard assignable level; and  
   c) Assigned a **Procedural** SID
 
-!!! example
+!!! phraseology
     <span class="hotline">**MK ADC** -> **MKA**</span>: "Next, ABC, runway 14"  
     <span class="hotline">**MKA** -> **MK ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
     <span class="hotline">**MK ADC** -> **MKA**</span>: "Heading 150 Visual unrestricted, ABC"
@@ -90,6 +93,6 @@ COR TCU will coordinate all YBMK and YBRK arrivals to ADC prior to **5 mins** fr
 - Approach type, unless specifically nominated on the ATIS  
 - IFR Circuit joining instructions, if not on Straight-in instrument approach
 
-!!! example
+!!! phraseology
     <span class="hotline">**RKA** -> **RK ADC**</span>: "via ABVAS, DJU, for the VOR-A”  
     <span class="hotline">**RK ADC** -> **RKA**</span>: "DJU, VOR-A"

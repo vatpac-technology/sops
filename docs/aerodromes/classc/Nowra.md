@@ -6,12 +6,12 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login Identifier              |
+| Name               | Callsign       | Frequency        | Login ID              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
-| Nowra ADC    | Nowra Tower  | 118.850         | NW_TWR        |
-| Nowra SMC   | Nowra Ground  | 135.850         | NW_GND        |
-| Nowra ACD    | Nowra Delivery  | 128.350         | NW_DEL       |
-| Nowra ATIS    | | 125.65         | YSNW_ATIS       |
+| **Nowra ADC**    | **Nowra Tower**  | **118.850**         | **NW_TWR**        |
+| **Nowra SMC**   | **Nowra Ground**  | **135.850**        | **NW_GND**        |
+| **Nowra ACD**    | **Nowra Delivery**  | **128.350**         | **NW_DEL**       |
+| Nowra ATIS    |  | 125.65         | YSNW_ATIS       |
 
 
 ## Airspace
@@ -70,7 +70,7 @@ The following pre-defined helicopter spots can be used for this purpose. These s
 | Runway 03     | Spot 6 (B3), Spot 5 (B3)               | Spot 4 (B4), Spot 3 (B4)            |
 | Runway 21     | Spot 4 (B4), Spot 3 (B4)               | Spot 6 (B3), Spot 5 (B3)            |
 
-!!! example
+!!! phraseology
     **NW ADC**: "TAIP52, spot 2, cleared to land"  
     **TAIP52**: "Spot 2, cleared to land, TAIP52"
 
@@ -81,14 +81,14 @@ Aerodrome and instrument approach charts are available in the AIP, or otherwise 
 ### Auto Release
 Auto release is not utilised at Nowra. 'Next' coordination is required from NW ADC to NW TCU for all aircraft.
 
-!!! example
+!!! phraseology
     <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Next, ASY01, runway 08"  
     <span class="hotline">**NW TCU** -> **NW ADC**</span>: "ASY01, Assigned Heading Left 030, unrestricted"  
     <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Assigned Heading Heading Left 030, ASY01" 
 
 Helicopters departing from helicopter spots will be treated as if departing from the duty runway.
 
-!!! example
+!!! phraseology
     *PSDN14 is a VFR helicopter departing from spot 2 (in the direction of runway 08)*  
     <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Next, PSDN14, runway 08"  
     <span class="hotline">**NW TCU** -> **NW ADC**</span>: "PSDN14, right turn, unrestricted"  

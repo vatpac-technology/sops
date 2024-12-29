@@ -24,7 +24,7 @@ The Primary Communication Method for KEN is Voice.
 The CPDLC Station Code is `YKEN`.
 
 !!! tip
-        Even though KEN's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+    Even though KEN's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
 ## Airspace
 
@@ -41,14 +41,59 @@ BAR is responsible for the [CS TCU](../../../terminal/cairns) when **CS TCU** is
 #### TL CTR
 When **TL TCU** is offline, TL CTR (Class C `SFC` to `A085`) reverts to Class G, and is administered by TBP. Alternatively, TBP may provide a [top-down approach service](../../../military/townsville) if they wish.
 
+!!! tip
+    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+
 #### HM CTR
 When **HM ADC** is offline, HM CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by SWY. Alternatively, SWY may provide a [top-down procedural service](../../../aerodromes/Hammo) if they wish (not recommended).  
+
+!!! tip
+    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
 
 #### MK CTR
 Whilst the **MKA** controller is expected to provide a [top-down service](../../../aerodromes/Mackay) to YBMK when **MK ADC** is offline, this is not expected of a SWY controller when both **MKA** and **MK ADC** are offline. If electing not to provide a top-down service to YBMK, the RK CTR Class D is reclassified to Class G `SFC` to `A007`, and Class E `A007` to `A045`.
 
+!!! tip
+    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+
 ## Sector Responsibilities
-All Subsectors are responsible for issuing STAR Clearances for YBMK, YBTL and YBCS on first contact.
+All subsectors are responsible for issuing STAR Clearances for YBMK, YBTL and YBCS on first contact.
+
+### YBCS STAR Clearances
+YBCS has specific visual approach procedures for use when VMC exists below `A030` in the terminal area. As such, **light & medium category aircraft (B737/A320 and below)**, tracking via the following waypoints, shall be issued the relevant Victor STAR.
+
+Heavy aircraft, and any aircraft not meeting the criteria below, must be issued the Instrument STAR.
+
+!!! note
+    Due to the complex nature of the visual procedures, it may be helpful to ask inexperienced pilots if they are familiar with the Creek Corridor (runway 15) or are able to accept a visual circuit (runway 33), and otherwise issue the Instrument STAR.
+
+#### Runway 15
+| Waypoint | STAR |
+| -------- | ---- |
+| UPOLO | UPOLO Victor STAR |
+| NONUM | NONUM Victor STAR |
+| ZANEY | KASPI Victor STAR |
+| LOCKA | KASPI Victor STAR |
+| AVDAN | KASPI Victor STAR |
+| OVLET | KASPI Victor STAR |
+| ANDOP | KASPI Victor STAR |
+| PUNIT | KASPI Victor STAR |
+
+#### Runway 33
+| Waypoint | STAR |
+| -------- | ---- |
+| ZANEY | KEEWI Victor STAR |
+| LOCKA | KEEWI Victor STAR |
+| AVDAN | KEEWI Victor STAR |
+| OVLET | KEEWI Victor STAR |
+
+#### Sequencing in to YBCS
+Aircraft assigned the **same runway** inbound via:
+
+- ANDOP and PUNIT  
+- OVLET, AVDAN and LOCKA
+
+Must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -75,6 +120,9 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | KEN | TBP | YBMK | |
 | SWY | TBP | YBCS | |
 | BAR | KEN | YBTL | |
+| TSN(All) | KEN(All) | YBCS, YBTL | |
+
+See [Cairns STAR Clearance](#ybcs-star-clearances) for instructions on issuing STAR clearances.
 
 ## Coordination
 ### CS TCU
@@ -113,7 +161,7 @@ Voiceless for all aircraft:
 
 - With ADES **YBTL**; and  
 - Assigned a STAR; and  
-- Assigned `A100`
+- Assigned `A090`
 
 All other aircraft coming from TBP CTA must be **Heads-up** Coordinated to TL TCU prior to **20nm** from the boundary.
 
@@ -136,7 +184,7 @@ Voiceless for all aircraft:
 
 - With ADES **YBMK**; and  
 - Assigned the **DAGSI** or **WELKE** STAR; and  
-- Assigned `A070`
+- Assigned `A090`
 
 All other aircraft coming from SWY CTA must be **Heads-up** Coordinated to MKA prior to **20nm** from the boundary.
 
@@ -172,7 +220,7 @@ Refer to [Reclassifications](#hm-ctr) for operations when HM ADC is offline.
 #### Departures
 Departures from YBHM in to SWY Class C will be coordinated when ready for departure.  
 
-!!! example
+!!! phraseology
     <span class="hotline">**HM ADC** -> **SWY**</span>: "Next, QFA797"  
     <span class="hotline">**SWY** -> **HM ADC**</span>: "QFA797, Unrestricted"  
     <span class="hotline">**HM ADC** -> **SWY**</span>: "QFA797"  
@@ -181,11 +229,16 @@ The Standard Assignable level from HM ADC to SWY is the lower of `A050` or the `
 #### Arrivals
 YBHM arrivals shall be heads-up coordinated to **JM ADC** from SWY prior to **5 mins** from the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**SWY** -> **HM ADC**</span>: "Via OPOSI for RNP U RWY 32, JST848”  
     <span class="hotline">**HM ADC** -> **SWY**</span>: "JST848, RNP U RWY 32"  
 
 The Standard Assignable level from KEN(SWY) to HM ADC is `A060`, any other level must be prior coordinated.
 
-### FLD (Oceanic)
+### TSN(FLD) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+
+Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
+
+!!! phraseology
+    **ISA**: "QFA121, identification terminated, report position to Brisbane Radio, 126.45"

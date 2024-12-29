@@ -5,9 +5,9 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login Identifier                         |
+| Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| Avalon ADC      | Avalon Tower   | 120.100          | AV_TWR                                   |
+| **Avalon ADC**      | **Avalon Tower**   | **120.100**          | **AV_TWR**                                   |
 | Avalon ATIS     |                | 118.200         | YMAV_ATIS                                |
 
 ## Airspace
@@ -40,13 +40,14 @@ All other IFR aircraft shall be assigned the **Radar SID**.
 ### ML TCU
 #### Departures
 'Next' coordination is **not** required to ML TCU for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; or  
-  b) Assigned the standard assignable level; or  
-  c) Assigned a **Procedural** SID
+  a) Departing from a runway nominated on the ATIS; and  
+  b) Assigned the standard assignable level; and  
+  c) Assigned a **Procedural** SID; or  
+  d) Not entering ML TCU CTA
 
 All other aircraft require a 'Next' call to ML TCU.
 
-!!! example
+!!! phraseology
     <span class="hotline">**AV ADC** -> **MDS**</span>: "Next, UJI, Runway 18"  
     <span class="hotline">**MDS** -> **AV ADC**</span>: "UJI, heading 030, unrestricted"  
     <span class="hotline">**AV ADC** -> **MDS**</span>: "Heading 030, UJI"
@@ -54,11 +55,11 @@ All other aircraft require a 'Next' call to ML TCU.
 The Standard Assignable level from AV ADC to ML TCU is the lower of `A040` or the `RFL`.
 
 #### Arrivals/Overfliers
-ML TCU will heads-up coordinate arrivals/overfliers from Class C to AV ADC.  
+ML TCU will heads-up coordinate arrivals/overfliers from CTA to AV ADC.  
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to AV ADC, unless AV ADC nominates a restriction.  
 VFR aircraft will not be coordinated, and will need to receive their airways clearance from AV ADC.
 
-!!! example
+!!! phraseology
     <span class="hotline">**MDS** -> **AV ADC**</span>: "via TEMPL for the ILS-Y 18, JST631"  
     <span class="hotline">**AV ADC** -> **MDS**</span>: "JST631, ILS-Y 18"  
 

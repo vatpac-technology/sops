@@ -35,22 +35,27 @@
 
 /*Header Modifications*/
 .md-typeset h1 {
-  color: var(--md-primary-fg-color); 
+  color: var(--md-primary-fg-color);
 }
 h2 {
   color: var(--md-primary-fg-color);
-  /*text-transform: uppercase;*/
-  padding-bottom: 0.5em;
+  margin-bottom: -1.0em;
+  padding-bottom: -1.0em;
+  padding-top: 1.0em;
+  line-height: 1
 }
-h3 {
+h3, h4, h5, h6 {
   color: var(--md-primary-fg-color);
+  margin-bottom: -1.0em;
+  padding-bottom: -1.0em;
+  margin-top: -1.0em;
+  padding-top: -1.0em;
+  line-height: 1
 }
-h4 {
-  padding-top: 1em;
-  color: var(--md-primary-fg-color);
-}
-.md-typeset h5 {
-  color: var(--md-primary-fg-color);
+.md-typeset > p,
+.md-typeset > ul,
+.md-typeset > ol {
+    margin-top: 0em;
 }
 
 /* highlighting */

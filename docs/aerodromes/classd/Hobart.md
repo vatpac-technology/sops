@@ -5,16 +5,11 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name              | Callsign       | Frequency        | Login Identifier                         |
+| Name              | Callsign       | Frequency        | Login ID                         |
 | ----------------- | -------------- | ---------------- | ---------------------------------------- |
-| Hobart ADC    | Hobart Tower   | 118.100     | HB_TWR                            |
-| Hobart SMC    | Hobart Ground  | 121.700     | HB_GND                  |
+| **Hobart ADC**    | **Hobart Tower**   | **118.100**     | **HB_TWR**                            |
+| **Hobart SMC**    | **Hobart Ground**  | **121.700**     | **HB_GND**                  |
 | Hobart ATIS       |                | 128.450          | YMHB_ATIS                                |
-
-## Maneuvering Area Responsibility
-<figure markdown>
-![YMHB Maneuvering Area](img/ymhb_maneuvring_area.png){ width="500" }
-</figure>
 
 ## Airspace
 HB ADC is responsible for the Class D airspace in the HB CTR:  
@@ -42,39 +37,46 @@ YMHB ATIS identifiers range from `N` to `Y`, as YMLT uses `A` through `M`.
 Due to it's close proximity, HB ADC & SMC are responsible for clearances into and out of Cambridge (YCBG), which sits inside the Hobart Class D control zone.
 
 ### Departures
-Prior to leaving the apron, all outbound aircraft will establish communications with **HB SMC** for Airways Clearance.  
+Prior to leaving the apron, all outbound aircraft will establish communications with **HB SMC** for airways clearance.  
 
-All IFR Aircraft departing Cambridge shall be assigned a **Visual Departure** or one of Hobart's **Procedural SIDs**.
+All IFR aircraft departing Cambridge shall be assigned a **Visual Departure** or one of Hobart's **Procedural SIDs**.
 
 !!! note
     Both VFR and IFR aircraft require a clearance to operate in Class D airspace (even if this is an implied clearance to depart a leg of the circuit).  The examples below show an IFR aircraft departing.
 
-!!! Example
-    **NDR:** "Hobart Ground, NDR, for Devonport, Request Clearance"  
-    **HB SMC:** "NDR, Cleared to Devonport via KANLI flight plan route, KANLI3 Departure, Climb via SID A045, Squawk 4432"
+!!! phraseology
+    **NDR:** "Hobart Ground, NDR, for Devonport, request clearance"  
+    **HB SMC:** "NDR, cleared to Devonport via KANLI flight plan route, KANLI3 departure, climb via SID A045, squawk 4432"
 
 When ready to taxi and prior to leaving the apron aircraft must contact **HB ADC**, advising intended runway for departure and receipt of YMHB ATIS, to obtain traffic information.
 
-!!! Example
+!!! phraseology
     **NDR:** "Hobart Tower, NDR, taxiing Cambridge Runway 32, received Hobart Information D"  
-    **HB ADC:** "NDR, No reported IFR traffic, report ready"  
+    **HB ADC:** "NDR, no reported IFR traffic, report ready"  
     **NDR:** "Wilco, NDR"
 
 Takeoff clearances are not given. Aircraft will remain clear of the active runway and report ready to HB ADC. Aircraft must not enter an active runway or become airborne until departure instructions have been issued.
 
-!!! Example
-    **NDR:** "NDR, Ready"  
-    **HB ADC:** "NDR, track via the KANLI3 departure, report airborne"  
-    **NDR:** "Track via the KANLI3 departure, wilco, NDR"
+!!! phraseology
+    **NDR:** "NDR, ready"  
+    **HB ADC:** "NDR, report airborne"  
+    **NDR:** "Wilco, NDR"
+
+Where a delay is required, withhold departure instructions until a suitable separation standard exists.
+
+!!! phraseology
+    **NDR:** "NDR, ready"  
+    **HB ADC:** "NDR, short delay due to inbound traffic"  
+    **NDR:** "NDR"
 
 
 ### Arrivals
-Inbound VFR aircraft should be instructed to join a leg of the circuit and cleared for a visual approach (traffic permitting).  In IMC, IFR aircraft will fly one of Hobart's instrument approaches until visual, then break off to circle to land.
+Inbound aircraft who are tracking via the HBA CTA will be given an airways clearance by HBA and transferred to ADC. Any clearance limits will be coordinated by HBA. Aircraft entering the Hobart CTR directly from Class G will contact HB ADC directly for clearance. Aircraft should be instructed to join a leg of the circuit and cleared for a visual approach (traffic permitting).  In IMC, IFR aircraft will fly one of Hobart's instrument approaches until visual, then break off to circle to land.
 
 As a landing clearance is not given, aircraft should instead be informed of any traffic operating on the aerodrome and instructed to report clear of the runway.
 
-!!! example
-    *UJA is an IFR Aero Commander who has been cleared the YMHB RNAV-Z RWY 30 approach by HB APP and handed off to HB ADC.*  
+!!! phraseology
+    *UJA is an IFR Aero Commander who has been cleared the YMHB RNAV-Z RWY 30 approach by HBA and handed off to HB ADC.*  
     **UJA:** "Hobart Tower, UJA"  
     **HB ADC:** "UJA, Hobart Tower, report visual"  
     **UJA:** "Wilco, UJA"  
@@ -83,7 +85,7 @@ As a landing clearance is not given, aircraft should instead be informed of any 
     **HB ADC:** "UJA, track for final runway 30, no reported traffic, report clear of the runway"  
     **UJA:** "Track for final runway 30, wilco, UJA"
 
-!!! example
+!!! phraseology
     *KLR is a VFR Cherokee who is tracking inbound on the Victor East VFR route.*  
     **HB ADC:** "KLR, enter the control zone tracking via the Victor East, A015, clearance limit Sorell"  
     **KLR:** "Enter control zone tracking via the Victor East, A015, clearance limit Sorell, KLR"  
@@ -117,7 +119,7 @@ As a landing clearance is not given, aircraft should instead be informed of any 
 
 Clearances for aircraft entering the CTR must be worded so as to leave no possibility for misinterpretation by the pilot.
 
-!!! Example
+!!! phraseology
     **NDR:** "Hobart Tower, NDR, CPA, A015, on the Victor Northwest, received Romeo, request clearance"  
     **HB ADC:** "NDR, enter the CTR tracking via the Victor Northwest at A015."
 
@@ -126,11 +128,12 @@ Clearances for aircraft entering the CTR must be worded so as to leave no possib
 'Next' coordination is **not** required to HBA for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  
   b) Assigned the standard assignable level; and  
-  c) Assigned a SID
+  c) Assigned a SID; or  
+  d) Not entering HBA CTA
 
 All other aircraft require a 'Next' call to HBA.
 
-!!! example
+!!! phraseology
     <span class="hotline">**HB ADC** -> **HBA**</span>: "Next, ABC, runway 12"  
     <span class="hotline">**HBA** -> **HB ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
     <span class="hotline">**HB ADC** -> **HBA**</span>: "Heading 150 Visual, ABC"  
@@ -140,22 +143,23 @@ All other aircraft require a 'Next' call to HBA.
 
 The HBA controller can suspend/resume Auto Release at any time, with the concurrence of **HB ADC**.
 
-!!! Note
-    "Next" Coordination to HBA is not required for aircraft assigned a **Procedural SID** and the Standard Assignable Level.
-
-**HB SMC** shall give heads-up coordination to HBA controller prior to the issue of the following clearances:  
-a) VFR Departures  
-b) Aircraft using a runway not on the ATIS
+!!! note
+    All departures from YCBG who will enter the HBA CTA must be Next coordinated by ADC.
 
 The Standard Assignable level from HB ADC to HBA is:  
 For IFR Aircraft: `A080`  
 For VFR Aircraft: The lower of `A045` or the `RFL`.
+
+#### Airways Clearance
+**HB SMC** shall give heads-up coordination to HBA controller prior to the issue of the following clearances:  
+a) VFR Departures  
+b) Aircraft using a runway not on the ATIS
 
 ### Arrivals/Overfliers
 HBA will heads-up coordinate arrivals/overfliers from Class C to HB ADC.  
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to HB ADC, unless HB ADC nominates a restriction.  
 VFR aircraft require a level readback.
 
-!!! example
+!!! phraseology
     <span class="hotline">**HBA** -> **HB ADC**</span>: "via BAVUR for the RNAV-W RWY 12, QJE1551"  
     <span class="hotline">**HB ADC** -> **HBA**</span>: "QJE1551, RNP-W RWY 12"  

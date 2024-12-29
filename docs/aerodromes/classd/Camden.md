@@ -6,17 +6,11 @@
 
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login Identifier                         |
+| Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| Camden ADC | Camden Tower | 120.100          | CN_TWR                        |
-| Camden SMC  | Camden Ground   | 121.900          | CN_GND                      |
+| **Camden ADC** | **Camden Tower** | **120.100**          | **CN_TWR**                        |
+| **Camden SMC**  | **Camden Ground**   | **121.900**          | **CN_GND**                      |
 | Camden ATIS        |                | 125.100          | YSCN_ATIS                                |
-
-
-<figure markdown>
-![YSCN Maneuvering Area](img/YSCN_ManMap.PNG){ width="500" }
-<figcaption>Maneuvering Area</figcaption>
-</figure>
 
 ## Airspace
 CN ADC is responsible for the Class D airspace in the CN CTR `SFC` to `A020`.
@@ -37,7 +31,7 @@ Departing IFR aircraft will receive a frequency transfer.
 ### Depart On Climb
 Some aircraft may request to leave the CTR on climb above `A013`.  If there is no reported traffic above the zone and no conflicting traffic at `A018`, aircraft may be cleared to depart on climb.
 
-!!! example
+!!! phraseology
     **CN ADC:** "PCN, runway 06, cleared for takeoff"  
     **PCN:** "Runway 06, cleared for takeoff, PCN"  
 
@@ -60,7 +54,7 @@ VFR aircraft should track via one of the VFR inbound points and be instructed as
 When Aircraft are clear of conflicting traffic below, aircraft may *"cleared visual approach"*.
 
 When an aircraft reports at their specified report point (or on downwind), issue the aircraft its sequence in the circuit.
-!!! example
+!!! phraseology
     *"XEM, number 3 Runway 06, follow the C172 on base"*
 
 ### Instrument Approaches
@@ -89,7 +83,7 @@ The circuit direction changes depending on time of day and runway being used.
 Circuits are flown at `A013` (High Performance Aircraft: `A018`)
 
 When an aircraft reports on downwind, indicate their position in the sequence (and give a follow instruction if the sequence has changed since the last circuit).
-!!! example
+!!! phraseology
     **JKA:** "JKA, downwind, touch and go"  
     **CN ADC:** "JKA, number 2"
 
@@ -102,7 +96,7 @@ When there is more than SCT cloud on the YSCN METAR area below `A035`, the APCH 
 ### Departures
 CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a ready call, SY TCU will issue a traffic statement.
 
-!!! example
+!!! phraseology
     <span class="hotline">**CN ADC** -> **SRI**</span>: "Ready, MHQ, Runway 06"  
     <span class="hotline">**SRI** -> **CN ADC**</span>: "MHQ, traffic is MEH, an IFR AC50, tracking SHL RAKSO SB2WI, A035, estimate RAKSO time 35" (or "No Reported IFR Traffic")  
     <span class="hotline">**CN ADC** -> **SRI**</span>: "Traffic is MEH tracking SHL RAKSO SB2WI A035, RAKSO at 35"  
@@ -121,7 +115,7 @@ SY TCU will coordinate inbound IFR aircraft. CN ADC is responsible for issuing a
 
 SY TCU will **NOT** clear the aircraft for the approach.
 
-!!! example
+!!! phraseology
     <span class="hotline">**SRI** -> **CN ADC**</span>: “via RNP W, HRP”  
     <span class="hotline">**CN ADC** -> **SRI**</span>: “HRP”   
 

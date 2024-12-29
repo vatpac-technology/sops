@@ -21,7 +21,7 @@ The Primary Communication Method for TBD is Voice.
 The CPDLC Station Code is `YTBD`.
 
 !!! tip
-        Even though TBD's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+    Even though TBD's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
 ## Airspace
 
@@ -33,11 +33,19 @@ The CPDLC Station Code is `YTBD`.
 ## Sector Responsibilities
 TBD and AUG are responsible for Sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YPAD and YPED.
 
+### Sequencing in to YPAD
+Aircraft assigned the **same runway** inbound via:
+
+- MARGO and AGROS 
+- ERITH and KLAVA
+
+Must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
+
 ### YPAD STARs
 Aircraft tracking via OJJAY and MARGO (ie *J251 WHA H84 MARGO*) from the North for Runway 23 shall be assigned:  
 **RAYNA** STAR with the **OJJAY** transition  
 **not**  
-**SALTY** STAR with the **MARGO** transition
+**BUGSU** STAR with the **MARGO** transition
 
 vatSys will not necessarily select the correct STAR by default when entering the runway, so ensure the correct STAR is selected.
 

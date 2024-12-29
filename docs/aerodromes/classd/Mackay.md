@@ -5,10 +5,10 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name | Callsign | Frequency | Login Identifier |
+| Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | ---------------- |
-| Mackay ADC | Mackay Tower | 124.500 | MK_TWR |
-| Mackay SMC | Mackay Ground | 121.700 | MK_GND |
+| **Mackay ADC** | **Mackay Tower** | **124.500** | **MK_TWR** |
+| **Mackay SMC** | **Mackay Ground** | **121.700** | **MK_GND** |
 | Mackay ATIS |    | 128.000 | YBMK_ATIS |
 
 ## Airspace
@@ -26,9 +26,10 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 'Next' coordination is **not** required to MKA for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  
   b) Assigned the standard assignable level; and  
-  c) Assigned a **Procedural** SID
+  c) Assigned a **Procedural** SID; or  
+  d) Not entering MKA CTA
 
-!!! example
+!!! phraseology
     <span class="hotline">**MK ADC** -> **MKA**</span>: "Next, ABC, runway 14"  
     <span class="hotline">**MKA** -> **MK ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
     <span class="hotline">**MK ADC** -> **MKA**</span>: "Heading 150 Visual unrestricted, ABC"
@@ -48,6 +49,6 @@ MKA will heads-up coordinate arrivals/overfliers from Class C to MK ADC.
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to MK ADC, unless MK ADC nominates a restriction.  
 VFR aircraft require a level readback.
 
-!!! example
+!!! phraseology
     <span class="hotline">**MKA** -> **MK ADC**</span>: "Via BAVAM for the RNP RWY 32, VOZ1164”  
     <span class="hotline">**MK ADC** -> **MKA**</span>: "VOZ1164, RNP RWY 32"  

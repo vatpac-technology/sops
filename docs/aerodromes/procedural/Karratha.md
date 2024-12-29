@@ -6,11 +6,11 @@
 
 ## Positions
 
-| Name | Callsign | Frequency | Login Identifier |
+| Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | ---------------- |
-| Karratha SMC | Karratha Ground | 123.550 | KA_GND |
-| Karratha ADC | Karratha Tower | 127.350 | KA_TWR |
-| Karratha ATIS | N/A | 134.550 | YPKA_ATIS |
+| **Karratha ADC** | **Karratha Tower** | **127.350** | **KA_TWR** |
+| **Karratha SMC** | **Karratha Ground** | **123.550** | **KA_GND** |
+| Karratha ATIS |  | 134.550 | YPKA_ATIS |
 
 ## Airspace
 <figure markdown>
@@ -22,14 +22,22 @@ KA ADC is responsible for the Class D airspace in the KA CTR `SFC` to `A055`.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
+## Maneuvering Area Responsibility
+**ADC** is responsible for all taxiways between **F** and the Runway.
+
+<figure markdown>
+![YPKA Maneuvering Area Responsibility](img/ypkasmc.png){ width="700" }
+  <figcaption>YPKA Maneuvering Area Responsibility</figcaption>
+</figure>
+
 ## Surveillance
 Surveillance coverage can be expected to be available at all levels in the KA CTR. Although KA ADC is **not permitted** to use surveillance for separation, OLW may assist by establishing surveillance separation standards via coordination
 
 ## Coordination
 ### Departures
-A 'next' call is made for all aircraft when they are next to depart. KA ADC must inform OLW if the aircraft does not depart within **2 minutes** of the next call.
+A 'next' call is made for all aircraft entering OLW CTA when they are next to depart. KA ADC must inform OLW if the aircraft does not depart within **2 minutes** of the next call.
 
-!!! example
+!!! phraseology
     <span class="hotline">**KA ADC** -> **OLW**</span>: "Next, NWK694"  
     <span class="hotline">**OLW** -> **KA ADC**</span>: "NWK694, Unrestricted"  
     <span class="hotline">**KA ADC** -> **OLW**</span>: "NWK694"
@@ -39,7 +47,7 @@ The Standard Assignable level from KA ADC to OLW is the lower of `A050` or the `
 ### Arrivals/Overfliers
 OLW will heads-up coordinate all arrivals/overfliers to KA ADC
 
-!!! example
+!!! phraseology
     <span class="coldline">**OLW** -> **KA ADC**</span>: "Via PD, KPG, Overflier”  
     <span class="coldline">**KA ADC** -> **OLW**</span>: "KPG, A040"  
 

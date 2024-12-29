@@ -6,7 +6,7 @@
 
 ## Positions
 
-| Name               | ID      | Callsign             | Frequency        | Login Identifier    |
+| Name               | ID      | Callsign             | Frequency        | Login ID    |
 | ------------------ | ------- | ------------------- | ---------------- | ------------------- |
 | **East Sale TMA**  | **ESA** | **East Sale Approach** | **123.300**      | **ES_APP**          |
 
@@ -31,7 +31,7 @@ Release coordination with the overlying enroute controller is required.
 
 Given the specific nature of the East Sale TCU airspace, surrounding controllers may not be fully aware of its boundaries. Upon logging on as East Sale TCU, it is essential to announce the activation status of R360/M301.
 
-!!! example
+!!! phraseology
     <span class="hotline">**ESA** -> **ELW**</span>: "Request activation of R360 from SFC to F210"
 
 ## Circuit Procedures
@@ -95,7 +95,7 @@ Upon pilot request, clear aircraft to transit through the Longford Lane.
 
 *RCR is a VFR Archer 10 miles to the north west of McGauran beach*  
 
-!!! example
+!!! phraseology
     **RCR**: "East Sale Approach, RCR, Archer, 10 miles north west McGauran beach, 3500, request clearance Loch Sport"  
     **ES TCU**: "RCR, East Sale Approach, squawk 1234, remain outside charlie airspace"  
     **RCR**: "Remain OCTA, squawk 1234, RCR"  
@@ -200,7 +200,7 @@ When expect instrument approach is advertised on the ATIS:
 
 Auto release is not utilized at East Sale. 'Next' coordination is required from ES ADC to ES TCU for all aircraft.
 
-!!! Example
+!!! phraseology
     <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Next, ASY01, runway 09"     
     <span class="hotline">**ES TCU** -> **ES ADC**</span>: "ASY01, Assigned Heading Left 030, unrestricted"         
     <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Left Heading 030, ASY01" 
@@ -211,7 +211,7 @@ Helicopters departing from helicopter spots will be treated as if departing from
 
 *PSDN14 is a VFR helicopter departing from the threshold of RWY04 (in the direction of runway 27)*  
 
-!!! Example
+!!! phraseology
     <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Next, PSDN14, runway 09"    
     <span class="hotline">**ES TCU** -> **ES ADC**</span>: "PSDN14, Assigned Heading Left 010, unrestricted"  
     <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Left Heading 010, PSDN14"  

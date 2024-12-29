@@ -26,7 +26,7 @@ The Primary Communication Method for INL is Voice.
 The CPDLC Station Code is `YINL`.
 
 !!! tip
-        Even though INL's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+    Even though INL's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
 
 ## Airspace
@@ -44,13 +44,22 @@ INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, **NSA**, and **KPL** 
 #### SU CTR
 When **SU ADC** is offline, SU CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by NSA and BUR. Alternatively, NSA may provide a [top-down procedural service](../../../aerodromes/sunshinecoast) if they wish (not recommended), and this must be coordinated to BUR.
 
+!!! tip
+    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+
 #### CFS CTR
 When **CFS ADC** is offline, CFS CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by MNN and INL. Alternatively, INL may provide a [top-down procedural service](../../../aerodromes/Coffs) if they wish (not recommended), and this must be coordinated to ARL(MNN).
 
 Due to the low ceiling of CTA, when CFS ADC is offline, INL shall instruct aircraft departing into CTA to report lined up on the runway and issue an airways clearance (traffic pending) at that time.
 
+!!! tip
+    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+
 #### RK CTR
 Whilst the **RKA** controller is expected to provide a [top-down service](../../../aerodromes/Rockhampton) to YBRK when **RK ADC** is offline, this is not expected of a KPL controller when both **RKA** and **RK ADC** are offline. If electing not to provide a top-down service to YBRK, the RK CTR Class D is reclassified to Class G `SFC` to `A007`, and Class E `A007` to `A045`.
+
+!!! tip
+    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
 
 ## Sector Responsibilities
 
@@ -95,7 +104,7 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | ARL/MNN/MDE | INL, DOS | YBBN, YBCG | |
 | KEN(SWY), ISA(CVN) | KPL | YBBN, YBCG | Jets only |
 | ISA(CVN) | DOS | YBBN, YBCG | |
-| HWE, FLD | SDY | YBBN, YBCG, YBSU | |
+| TSN(All) | SDY | YBBN, YBCG, YBSU | |
 | KPL | BUR | YBBN, YBCG | Non-jets only |
 | INL | GOL | YBSU | |
 | NSA | KPL | YBRK, YBMK | |
@@ -120,7 +129,7 @@ When operating a PROPS Runway Mode, Aircraft shall be assigned the appropriate '
 
 These standard runway assignments may be modified strategically by the BAS or BFL controller.
 
-!!! example
+!!! phraseology
     If during an event, the vast majority of traffic is coming from **BLAKA** and **GOMOL** feeder fixes, BAS/BFL may elect to assign 19L to **BLAKA** arrivals and 19R to **GOMOL** arrivals, to keep them strategically spearated in the TCU.
 
     <span class="hotline">**BFL** -> **INL**</span>: "All arrivals via GOMOL to be assigned 19R until further notice"  
@@ -184,18 +193,25 @@ Refer to [Reclassifications](#su-ctr) for operations when SU ADC is offline.
 #### Departures
 Departures from YBSU in to NSA Class C will be coordinated when ready for departure.
 
-!!! example
-    <span class="hotline">**SU ADC** -> **NSA**</span>: "Next, BNZ123"  
-    <span class="hotline">**NSA** -> **SU ADC**</span>: "BNZ123, Unrestricted"  
+!!! phraseology
+    <span class="hotline">**SU ADC** -> **NSA**</span>: "Next, BNZ123, runway 31"  
+    <span class="hotline">**NSA** -> **SU ADC**</span>: "BNZ123, unrestricted"  
     <span class="hotline">**SU ADC** -> **NSA**</span>: "BNZ123"
 
-The Standard Assignable level from **SU ADC** to NSA is the lower of `A050` or the `RFL`.
+The Standard Assignable level from **SU ADC** to INL(NSA/BUR) is the lower of `A040` or the `RFL`.
+
+Where possible (and no possible conflict exists), a higher level shall be assigned by INL(NSA/BUR) for high performance aircraft during next coordination.
+
+!!! phraseology
+    <span class="hotline">**SU ADC** -> **NSA**</span>: "Next, VOZ924, runway 31"  
+    <span class="hotline">**NSA** -> **SU ADC**</span>: "VOZ924, F120"  
+    <span class="hotline">**SU ADC** -> **NSA**</span>: "F120, VOZ924"
 
 #### Arrivals
 NSA must ensure all YBSU arrivals have been assigned a STAR, unless the pilot is unable to accept one.  
 YBSU arrivals shall be coordinated to **SU ADC** from NSA prior to **5 mins** from the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**NSA** -> **SU ADC**</span>: "via ITIDE2W Arrival, JST731"  
     <span class="hotline">**SU ADC** -> **NSA**</span>: "JST731"
 
@@ -212,7 +228,7 @@ Voiceless for all aircraft:
 
 - With ADES **YBRK**; and  
 - Assigned the **ABVAS** or **DADBO** STAR; and  
-- Assigned `A070`
+- Assigned `A090`
 
 All other aircraft coming from KPL CTA must be **Heads-up** Coordinated to RKA prior to **20nm** from the boundary.
 
@@ -233,7 +249,7 @@ Refer to [Reclassifications](#cfs-ctr) for operations when CFS ADC is offline.
 #### Departures
 Departures from YCFS in to INL Class C will be coordinated when ready for departure.
 
-!!! example 
+!!! phraseology 
     <span class="hotline">**CFS ADC** -> **INL**</span>: "Next, BNZ185"  
     <span class="hotline">**INL** -> **CFS ADC**</span>: "BNZ185, Unrestricted"  
     <span class="hotline">**CFS ADC** -> **INL**</span>: "BNZ185"  
@@ -243,7 +259,7 @@ The Standard Assignable level from **CFS ADC** to INL is the lower of `A070` or 
 #### Arrivals
 YCFS arrivals shall be coordinated to **CFS ADC** from INL prior to **5 mins** from the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**INL** -> **CFS ADC**</span>: "via IDNER, VET"  
     <span class="hotline">**CFS ADC** -> **INL**</span>: "VET"  
 
@@ -256,17 +272,22 @@ By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas
 #### Departures
 All aircraft from AMB/OK TCU to INL(All) require Heads-up coordination prior to the boundary. Expect this coordination to be completed a short time after the aircraft becomes airborne (pending controller workload).
 
-!!! example 
+!!! phraseology 
     <span class="hotline">**AMB TCU** -> **NSA**</span>: "via COWIE, BUCK03."  
     <span class="hotline">**NSA** -> **AMB TCU**</span>: "BUCK03, `F190`"  
 
 #### Arrivals/Overfliers
 All aircraft transiting from INL(All) to **OK TCU** and **AMB TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **OK TCU** and **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels. ENR and TCU controllers should coordinate to determine the most suitable level.
 
-!!! example
+!!! phraseology
     <span class="hotline">**GOL** -> **AMB TCU**</span>: "via HUUGO, STAL13, what level can I assign?"  
     <span class="hotline">**AMB TCU** -> **GOL**</span>: "STAL13, `A090`"  
     <span class="hotline">**GOL** -> **AMB TCU**</span>: "`A090`, STAL13"   
 
-### FLD (Oceanic)
+### TSN(HWE/FLD) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+
+Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
+
+!!! phraseology
+    **INL**: "QFA121, identification terminated, report position to Brisbane Radio, 126.45"

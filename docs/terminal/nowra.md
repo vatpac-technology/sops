@@ -5,7 +5,7 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | ID      | Callsign       | Frequency        | Login Identifier              |
+| Name               | ID      | Callsign       | Frequency        | Login ID              |
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
 | **Nowra TMA**    | **NWA** | **Nowra Approach** | **123.500**          | **NW_APP**        |
 
@@ -23,14 +23,14 @@ Due to the temporary nature of the airspace, surrounding controllers may not be 
 ### Activating R420F
 Where it is deemed operationally beneficial to activate R420F, this should be requested from the overlying enroute controller.
 
-!!! example
+!!! phraseology
     <span class="hotline">**NW TCU** -> **WOL**</span>: "There's a preplanned military exercise about to commence, request release of R420F up to F300"  
     <span class="hotline">**WOL** -> **NW TCU**</span>: "R420F released to you F125 to F300"  
     <span class="hotline">**NW TCU** -> **WOL**</span>: "R420F released F125 to F300"   
 
 As per [Coordination](#enroute), with R420F active, all transiting aircraft will be coordinated by BIK(WOL). Where possible, facilitate the transit of these aircraft. In exceptional circumstances where the level of military aircraft movements prohibit transiting civil aircraft, inform BIK(WOL) that no transiting aircraft can be accommodated, and that they will need to be rerouted to remain clear of the TCU.
 
-!!! important
+!!! warning "Important"
     Activating R420F increases the workload of the overlying enroute controller by altering the airspace normally available to them for civil aircraft. Only activate this airspace if operationally necessary, primarily for preplanned military exercises.
 
 ## VFR Lane of Entry
@@ -72,7 +72,7 @@ Auto release is not utilised at Nowra. 'Next' coordination is required from NW A
 
 The Standard Assignable Level from **NW ADC** to **NW TCU** is `F120` or `RFL`, whichever is lower.
 
-!!! example
+!!! phraseology
     <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Next, BUCK03, runway 08"  
     <span class="hotline">**NW TCU** -> **NW ADC**</span>: "BUCK03, Assigned Heading Left 030, unrestricted"  
     <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Assigned Heading Heading Left 030, BUCK03"
