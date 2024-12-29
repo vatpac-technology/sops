@@ -53,16 +53,16 @@ If Parafield RWY 03L is active, it can infringe on the circuit deadside. VFR tra
 - Autorelease is not in effect. Coordination for "Next" is required required for departures. They must not be issued a takeoff clearance until a release has been obtained.
 - Standard assignable level: `A050` (or `RFL` if lower).
 !!! phraseology
-    <span class="hotline">**MB ADC** -> **MDS**</span>: "Next, SGE"
-    <span class="hotline">**MDS** -> **MB ADC**</span>: "SGE, unrestricted"
+    <span class="hotline">**ED ADC** -> **AD TCU**</span>: "Next, SGE"
+    <span class="hotline">**AD TCU** -> **ED ADC**</span>: "SGE, unrestricted"
 
 ### Arrivals/Overfliers
 
 AD TCU must coordinate the sequence information to EDN ADC.
 
 !!! phraseology
-    <span class="hotline">**MDS** -> **EDN ADC**</span>: "To the west, PLE, for the ILS-Z"
-    <span class="hotline">**MB ADC** -> **AD TCU**</span>: "PLE, ILS-Y"
+    <span class="hotline">**AD TCU** -> **ED ADC**</span>: "To the west, PLE, for the ILS-Z"
+    <span class="hotline">**ED ADC** -> **AD TCU**</span>: "PLE, ILS-Y"
 
 - AD TCU will heads-up coordinate arrivals/overfliers from Class C to EDN ADC.
 - **IFR arrivals** will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to ED ADC, unless ED ADC nominates a restriction.
