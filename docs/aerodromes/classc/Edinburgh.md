@@ -59,7 +59,7 @@ If Parafield RWY 03L is active, it can infringe on the circuit deadside. VFR tra
 
 ### Arrivals/Overfliers
 
-AD TCU must coordinate the sequence information to EDN ADC.
+AD TCU will Heads-up coordinate all arrivals/overfliers to ED ADC.
 
 !!! phraseology
     <span class="hotline">**AD TCU** -> **ED ADC**</span>: "To the west, PLE, for the ILS-Z"
