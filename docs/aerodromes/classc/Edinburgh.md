@@ -46,8 +46,12 @@ Aircraft can be instructed to extend outside of this airspace by ATC for traffic
 ### Initial and Pitch Procedures 
 Aircraft will be pitching to the west in order not to impede on Class G boundary, the intail point is 2NM for RWY36 and 4NM for RWY18 along the extended centreline of taxiway E.
 
+
 ## Helicopter Operations
 - **HLS Locations**: The HLS is located on TWY D immediately east of OLA 11. There are no SIDs associated with the HLS; aircraft requiring an instrument departure can expect to depart from the runway.
+<figure markdown>
+![ED HLS](img/ednhelicopterhls.png){ width="700" }
+</figure>
 
 ## Coordination
 ### Departures
