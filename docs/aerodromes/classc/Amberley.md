@@ -72,6 +72,11 @@ Taxiway Alpha has been divided into portions for helicopter operations as follow
 | Between A1 and RWY 04/22     | Alpha South |
 | TWY Q and A Junction     | Holding Point Quebec |
 
+!!! phraseology 
+    **CHOP41**: "Amberley Delivery, CHOP41, for winching ops within Alpha Centre, request clearance"  
+    **AMB ACD**: "CHOP41, Amberley Delivery, cleared to operate within Alpha Centre, not above A001, report ops complete"  
+    **CHOP41**: "Cleared for winching ops within Alpha Centre, not above A001, report ops complete"  
+
 <figure markdown>
 ![YAMB Helicopter Taxiway Alpha](img/yamb_heli_taxiwayalpha.png){ width="600" }
   <figcaption>YAMB Helicopter Taxiway Alpha</figcaption>
@@ -111,32 +116,41 @@ b) C-27J, light aircraft and helicopters not above `A010`.
 | 22     | Left |
 
 ### Civil Operations
-Civil and AAFC conduct flying operations within the South Western Training Area (SWTA). The SWTA is divided in half by the Rosewood-Mt Walker-Aratula Road, SWTA Alpha (north) and SWTA Bravo (south). Once established in the SWTA, aircraft will remain OCTA. Pilots may request to enter the CTA and climb above `A025` when operationally required.
+Civil and AAFC conduct flying operations within the South Western Training Area (SWTA). The SWTA is divided in half by the Rosewood-Mt Walker-Aratula Road, SWTA Alpha (north) and SWTA Bravo (south).
 
-Departures:
+**Departures**:
 
 | **Duty Runway** | **Routing** | **Altitude** |
 |-----------------|-----------|--------------|
 | 15              | MTWK      | `A025`         |
 | 33              | CLVT      | `A025`        |
 
-Arrivals:
+
+!!! phraseology 
+    **AMB ADC**: "ASTR203, cleared SWTA Alpha via MTWK, maintain 2500, squawk 7301"  
+    **ASTR203**: "Cleared SWTA Alpha via MTWK, maintain 2500, squawk 7301, ASTR203"    
+
+**Arrivals**:
 
 | **Duty Runway** | **Routing** | **Altitude**         |
 |-----------------|-----------|----------------------|
 | 15              | CLVT      | `A025` or `A015`        |
 | 33              | MTWK      | `A025` or `A015`       |
 
-!!! phraseology 
-    **AMB ADC**: "ASTR203, cleared SWTA Alpha via MTWK, maintain 2500, squawk 7301"  
-    **ASTR203**: "Cleared SWTA Alpha via MTWK, maintain 2500, squawk 7301, ASTR203"    
+!!! Note
+    Arrival routing is handled by AMB TCU, aircraft will be transferred to ADC once overhead the relevant VFR waypoint. ADC thence shall issue a standard fixed wing circuit instruction for the applicable duty runway.   
+
+!!! phraseology  
+    **ASTR203**: "Amberley Tower, ASTR203, MTWK A015, inbound recieved Hotel"     
+    **AMB ADC**: "ASTR203, Amberley Tower, join final Runway 33"  
+    **ASTR203**: "Join final Runway 33, ASTR203"   
 
 ## Coordination
 ### AMB TCU
 
 'Next' coordination is required from AMB ADC to AMB TCU for all aircraft.
 
-!!! example
+!!! phraseology
     <span class="hotline">**AMB ADC** -> **AMB TCU**</span>: "Next, STAL56, runway 33"  
     <span class="hotline">**AMB TCU** -> **AMB ADC**</span>: "STAL56, Right heading 030, unrestricted"  
     <span class="hotline">**AMB ADC** -> **AMB TCU**</span>: "Right heading 030, STAL56"  
