@@ -49,7 +49,7 @@ Aircraft should report at the standard VFR entry points:
 | CARR        | Join downwind 13R | Join downwind 17R | Join oblique base 31L | Join final 35L |
 | GMH         | Join downwind 13L | Join base 17L | Join oblique base 31R | Join base 35R |
 | ACE         | Join base 13L | Join oblique base 17L | Join base 31R | Join oblique downwind 35R |
-| SHOAL       | Join base 13L | Join base 17L | Join base 31R | Join base 35R |
+| SHOAL       | Join base 13R | Join base 17R | Join base 31L | Join base 35L |
 
 CTR Entry Altitude: `A010`.
 
