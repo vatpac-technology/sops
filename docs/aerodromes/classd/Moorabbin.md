@@ -74,9 +74,10 @@ Circuit altitude: `A010`.
 
 ### Circuits
 
+#### Day VFR Circuits
+
 Circuit altitude: `A007`.
 
-#### Day VFR Circuits
 Helicopter circuits are conducted from designated areas based on the active runway:
 
 - **RWY 17/35**: From the **Eastern Grass**, which encompasses all areas east of runway 35R.
