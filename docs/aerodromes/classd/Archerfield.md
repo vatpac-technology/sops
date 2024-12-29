@@ -48,7 +48,7 @@ VFR departures will depart the control zone at `A010`.
 
 Aircraft should advise planned Departure Procedure to **AF SMC** with TAXI call and **AF ADC** with READY call.
 
-!!! example
+!!! phraseology
     **VPF:** "Archer Ground, Cherokee VPF, Main Apron, for a Western Departure, received information Alpha, request taxi"
 
     **VPF:** "Archer Tower, Cherokee VPF, holding point B8, runway 10 Left, for Western Departure, ready"
@@ -158,7 +158,7 @@ The ATIS must indicate the current active helicopter area, refer to [Training Ar
 ### Departures
 When aircraft planned via a CTA departure are ready for takeoff and expected to depart imminently, **AF ADC** shall seek release of the aircraft through a 'Next' call.
 
-!!! example
+!!! phraseology
     <span class="hotline">**AF ADC** -> **BN TCU**</span>: "Next, XMM, Runway 10L"  
     <span class="hotline">**BN TCU** -> **AF ADC**</span>: "XMM, Unrestricted"  
     <span class="hotline">**AF ADC** -> **BN TCU**</span>: "XMM"
@@ -171,7 +171,7 @@ IFR aircraft will be cleared for the coordinated approach (Instrument or Visual)
 VFR aircraft require a level readback.
 
 
-!!! example
+!!! phraseology
     <span class="hotline">**BN TCU** -> **AF ADC**</span>: "via TVT for the visual approach, UJE"  
     <span class="hotline">**AF ADC** -> **BN TCU**</span>: "UJE, visual approach"
 
