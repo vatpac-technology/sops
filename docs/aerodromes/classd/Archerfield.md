@@ -49,9 +49,9 @@ VFR departures will depart the control zone at `A010`.
 Aircraft should advise planned Departure Procedure to **AF SMC** with TAXI call and **AF ADC** with READY call.
 
 !!! example
-    **VPF:** "Archer Ground, Cherokee VPF is on the Main Apron, solo, Western Departure, received information Alpha, request taxi"
+    **VPF:** "Archer Ground, Cherokee VPF, Main Apron, for a Western Departure, received information Alpha, request taxi"
 
-    **VPF:** "Archer Tower, Cherokee VPF is B8, runway 10 Left for Western Departure, ready"
+    **VPF:** "Archer Tower, Cherokee VPF, holding point B8, runway 10 Left, for Western Departure, ready"
 
 ## Circuits
 The circuit direction changes depending on time of day and runway being used.
@@ -95,15 +95,18 @@ There are 3 designated helicopter training areas at Archerfield:
 
 
 ### Departures
-Helicopters comply with fixed wing outbound procedures. Departures shall be parallel to and clear of the duty runways. Departures with intended entry into BN CTR northbound shall advise AF SMC on taxi with "Uni Departure". Aircraft on the "Uni Departure" depart via UQLD at `A010` thence contact BN TCU for airways clearance. No heads-up coordination with BN TCU is required.
+Helicopters depart the zone via any of the [designated outbound routes](#vfr-departure-procedures). Departures shall be parallel to and clear of the duty runways.   
+
+#### Uni Departure
+Departures with intended entry into BN CTR northbound shall depart the zone via the **Uni Departure**. Aircraft on the Uni Departure depart via UQLD at `A010`, then contact BN TCU for airways clearance. No heads-up coordination with BN TCU is required.
 
 !!! phraseology 
     **TUY:** "Archer Tower, helicopter TUY, northen pad, for uni departure, ready"  
     **AF ADC:** "TUY, Archer Tower, northen pad, cleared for takeoff"  
-    **TUY:** "Cleared for takeoff, northen pad, TUY"  
+    **TUY:** "Cleared for takeoff, northen pad, TUY"
 
 ### Arrivals
-Helicopters comply with fixed wing inbound procedures. Pilots shall nominate the required HLS on first contact with AF ADC. Helicopters may be instructed to overfly the runway complex not below `A005` for a short circuit to the designated HLS.
+Helicopters enter the zone from any of the [designated inbound reporting points](#vfr-arrival-procedures). Pilots shall nominate their desired HLS on first contact with AF ADC. If necessary, helicopters may be instructed to overfly the runway complex not below `A005` for a short circuit to the designated HLS.
 
 !!! phraseology 
     **82Y:** "Archer Tower, helicopter 82Y, UQLD A010, recieved Foxtrot, inbound northern pad"  
@@ -114,7 +117,7 @@ Helicopters comply with fixed wing inbound procedures. Pilots shall nominate the
     **AF ADC:** "82Y, cleared to land northern pad"  
     **82Y:** "Cleared to land northen pad, 82Y"
 
-Helicopters inbound for the Queensland Government Air facility HLS shall be issued a standard fixed wing circuit instruction for the applicable duty runway, complying to fixed wing operations unless another approach is operationally required.
+Helicopters inbound for the Queensland Government Air facility HLS shall be issued a standard fixed wing circuit instruction for the applicable duty runway, complying with fixed wing operations unless another approach is requested or desired.
 
 Helicopters inbound from the south via PKR for either the northen or central helipad shall be instructed to "cross 10L and 10R" alongside any other tracking or traffic information.
 

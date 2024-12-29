@@ -127,20 +127,23 @@ Helicopters conducting scenic flights around the city require access to the Bris
 Aircraft must track via Class G airspace to UQLD and contact BN TCU prior to reaching UQLD requesting airways clearance. Attempt to identify the aircraft, and if a clearance cannot be given immediately, instruct the pilot to remain clear of Class C airspace.
 
 !!! phraseology 
-    **FHK**: "Departures, helicopter FHK, 2 miles south UQLD `A010`, request airways clearance"  
+    **FHK**: "Departures, helicopter FHK, 2 miles south UQLD `A010`, for city scenic, request airways clearance"  
     **BN TCU**: "FHK, Departures, squawk 1562, remain outside Class C airspace"  
     **FHK**: "Squawk 1562, remain OCTA, FHK"  
 
-    **BN TCU**: "FHK, identified, cleared to enter CTA, remaining west of SBD below `A010`, Brisbane QNH 1026"  
-    **FHK**: "Cleared to enter CTA, remain west of SBD below `A010`, QNH 1026, FHK"
+    **BN TCU**: "FHK, identified, cleared to enter controlled airspace remaining west of SBD, not above `A010`, Brisbane QNH 1026"  
+    **FHK**: "Cleared to enter controlled airspace remaining west of SBD, not above `A010`, QNH 1026, FHK"
 
-Due to the close proximity to Brisbane, traffic information of aircraft departing or arriving must be issued to helicopters operating in the zone.
+Due to the close proximity to YBBN, it may be necessary to instruct helicopters to maintain visual separation with arriving or departing aircraft.
 
 !!! phraseology 
-    **BN TCU**: "FHK, departing Brisbane is a Embraer E190 off 19R, 5 miles `A080`. report in sight."  
+    **BN TCU**: "FHK, report sighting an Embraer E190 departing runway 19R, through `A008`."  
     **FHK**: Traffic in sight, FHK"  
     **BN TCU**: "FHK, maintain own seperation with the E190"  
-    **FHK**: "Maintain own seperation, FHK"
+    **FHK**: "Maintain own seperation, FHK"  
+
+    **BN TCU**: "QFA1864, traffic is a helicopter operating over the CBD not above `A010`, maintaining own separation with you"  
+    **QFA1864:** "QFA1864"
 
 Once the aircraft exits the CTA, cancel their identification and control services.
 
