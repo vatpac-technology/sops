@@ -6,10 +6,10 @@
 
 ## Positions
 
-| Name               | ID      | Callsign       | Frequency        | Login Identifier              |
+| Name               | ID      | Callsign       | Frequency        | Login ID              |
 | ------------------ | --------------| -------------- | ---------------- | ---------------------|
-| Hobart Approach  | HBA | Hobart Approach  | 125.550       | HB_APP    |
-| Launceston Approach  | LTA | Launy Approach   | 123.800        | LT_APP                 |
+| **Hobart Approach**  | **HBA** | **Hobart Approach**  | **125.550**       | **HB_APP**    |
+| **Launceston Approach**  | **LTA** | **Launy Approach**   | **123.800**        | **LT_APP**                 |
 
 !!! Note
     HBA may elect to extend to LTA and vice versa, callsigns remain the same. See [Controller Skills](../controller-skills/extending.md) for details.
@@ -49,6 +49,11 @@ These routes keep arrivals within CTA and away from the departure stream(s).
 !!! note
     Clearing aircraft to track via one of the above routes does **not** constitute a voiceless coordination route between LTA and LT ADC. Aircraft should still be heads-up coordinated to LT ADC prior to **5 minutes** to the boundary, unless coordinated otherwise.
 
+## YCBG
+Aircraft inbound to YCBG who will track via the HBA CTA should be issued an airways clearance by HBA, then passed to HB ADC when appropriate. HBA must coordinate any clearance limits issued to HB ADC. 
+
+Aircraft inbound to YCBG who will track directly from Class G airspace to the CTR should contact HB ADC for clearance.
+
 ## Coordination
 
 ### Enroute
@@ -60,7 +65,7 @@ Voiceless for all aircraft:
 
 All other aircraft going to HUO CTA must be **Heads-up** Coordinated by TAS TCU prior to the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**LTA** -> **HUO**</span>: "via IRSOM, QFA114, with your concurrence, will be assigned F150, for my separation with ZYX"  
     <span class="hotline">**HUO** -> **LTA**</span>: "QFA114, concur F150"
 
@@ -84,20 +89,29 @@ HB ADC owns the Class D airspace in the HB CTR `SFC` to `A015` north of the runw
 'Next' coordination is **not** required from HB ADC for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; and  
   b) Assigned the standard assignable level; and  
-  c) Assigned a **Procedural** SID
+  c) Assigned a **Procedural** SID; or  
+  d) Not entering HBA CTA
 
 The Standard Assignable level from HB ADC to HBA is:  
 For IFR Aircraft: `A080`  
 For VFR Aircraft: The lower of `A045` or the `RFL`.
 
+!!! note
+    All departures from YCBG who will enter the HBA CTA will be Next coordinated by ADC.
+
+##### Airways Clearance
+**HB SMC** shall give heads-up coordination to HBA controller prior to the issue of the following clearances:  
+a) VFR Departures  
+b) Aircraft using a runway not on the ATIS
+
 #### Arrivals
-HBA will coordinate all YMHB arrivals to HB ADC prior to **5 mins** from the boundary. This coordination shall be as per [Standard Heads-up format](../../controller-skills/coordination/#heads-up), with the addition of:
+HBA will coordinate all YMHB & YCBG arrivals to HB ADC prior to **5 mins** from the boundary. This coordination shall be as per [Standard Heads-up format](../../controller-skills/coordination/#heads-up), with the addition of:
 
 - Runway, if other than duty runway  
 - Approach type, unless specifically nominated on the ATIS  
-- IFR Circuit joining instructions, if not on Straight-in instrument approach
+- IFR circuit joining instructions, if not on straight-in instrument approach
 
-!!! example
+!!! phraseology
     <span class="hotline">**HBA** -> **HB ADC**</span>: "via BUSKA, QJE1789, for the ILS”  
     <span class="hotline">**HB ADC** -> **HBA**</span>: "QJE1789, ILS"
 
@@ -122,6 +136,6 @@ LTA will coordinate all YMLT arrivals to LT ADC prior to **5 mins** from the bou
 - Approach type, unless specifically nominated on the ATIS  
 - IFR Circuit joining instructions, if not on Straight-in instrument approach
 
-!!! example
+!!! phraseology
     <span class="hotline">**LTA** -> **LT ADC**</span>: "via IRSOM, JST416, for the DGA, will join left downwind 32L”  
     <span class="hotline">**LT ADC** -> **LTA**</span>: "JST416"

@@ -25,7 +25,7 @@ The Primary Communication Method for YWE is Voice.
 The CPDLC Station Code is `YYWE`.
 
 !!! tip
-        Even though YWE's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+    Even though YWE's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
 ## Airspace
 
@@ -33,6 +33,10 @@ The CPDLC Station Code is `YYWE`.
 ![Yarrowee Airspace](../assets/ywe.png){ width="700" }
   <figcaption>Yarrowee Airspace</figcaption>
 </figure>
+
+## Extending
+!!! warning "Important"
+    Due to the large geographical area covered by this sector and it's neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
 
 ## Sector Responsibilities
 ### Yarrowee (YWE)
@@ -98,8 +102,13 @@ All other aircraft coming from YWE/WON CTA must be **Heads-up** Coordinated to M
 #### Departures
 Voiceless to all surrounding Enroute sectors for all aircraft:
  
-- Tracking via a Procedural SID terminus; and  
-- Assigned the lower of `F240` or the `RFL`
+- Assigned the lower of `F240` or the `RFL`; and
+- Tracking via any of the following:
+    - a Procedural SID terminus
+    - **MENOG**
+    - **DOTPA**
+    - **OMKON**
+    - **AV**
 
 All other aircraft going to YWE/WON CTA will be **Heads-up** Coordinated by ML TCU.
 

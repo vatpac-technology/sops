@@ -6,7 +6,7 @@
 
 ## Positions
 
-| Name               | ID      | Callsign       | Frequency        | Login Identifier              |
+| Name               | ID      | Callsign       | Frequency        | Login ID              |
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
 | **Canberra Approach East**    |**CBE**| **Canberra Approach**   | **124.500**         | **CB_APP**     |
 | Canberra Approach West†   |CBW| Canberra Approach   | 125.900          | CB-W_APP    |
@@ -32,9 +32,12 @@ Voiceless for all aircraft:
 - Tracking via a Procedural SID terminus; and  
 - Assigned the lower of `F240` or the `RFL`
 
+!!! note
+    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+
 All other aircraft going to ELW/BIK CTA must be **Heads-up** Coordinated by CB TCU prior to the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**CB TCU** -> **GUN**</span>: "EVY113, with your concurrence, will be assigned F180, for my separation with QLK165D"  
     <span class="hotline">**GUN** -> **CB TCU**</span>: "EVY113, concur F180"  
 
@@ -57,7 +60,7 @@ CB ADC is responsible for the Class C Airspace within the CB CTR `SFC` to `A035`
   b) Assigned the standard assignable level; and  
   c) Assigned a **Procedural** SID
 
-!!! example
+!!! phraseology
     <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Next, ABC, runway 35"  
     <span class="hotline">**CB TCU** -> **CB ADC**</span>: "ABC, Track Extended Centreline, unrestricted"  
     <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Track Extended Centreline, ABC"
@@ -69,7 +72,7 @@ For VFR aircraft: The lower of `A040` or the `RFL`
 #### Helipads in the CB CTR
 The Canberra CTR contains the Southcare Helicopter Base (YXSB) as well as two hospitals (Calvary Hospital and Canberra Hospital). Helicopters inbound to these helipads should be coordinated with **CB ADC** who can use a visual separation techniques as required. ADC and the TMA controller should work together to determine the most appropriate clearance limit (if required due traffic) for the helicopter, before frequency transfer is issued. ADC will issue a visual approach clearance when it is available.
 
-!!! example
+!!! phraseology
     *RSCU201 is an IFR AW139 helicopter tracking from the east for Southcare Base (YXSB).*  
     <span class="hotline">**CBE** -> **CB ADC**</span>: "To the east, RSCU201, for Southcare Base, are you able to separate with the arrival path to runway 35?"  
     <span class="hotline">**CB ADC** -> **CBE**</span>: "Affirm, RSCU201 clearance limit Queanbeyan"  
@@ -82,7 +85,7 @@ Departing helicopters may transit the CTR to Class G (under the direction of ADC
 ### CB TCU Internal
 All aircraft transiting between internal CB TCU boundaries must be heads-up coordinated.
 
-!!! example
+!!! phraseology
     <span class="hotline">**CBW** -> **CBE**</span>: "via CB, FD123"  
     <span class="hotline">**CBE** -> **CBW**</span>: "FD123, A090"   
 

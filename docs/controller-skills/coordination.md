@@ -25,7 +25,7 @@ Coordination notes are included for most positions, using the following format:
 
 As a receiving controller, answer a coordination call by stating the name of **your** position.  If you are busy at the time, finish your current radio call and then state your position to indicate that you are ready to receive the message.
 
-!!! example
+!!! phraseology
     *BIK calls SAN with a hotline to discuss an arrival*  
     <span class="hotline">**BIK** -> **SAN**</span>: \***DING**\*  
     <span class="hotline">**SAN** -> **BIK**</span>: "Sydney Approach"  
@@ -42,7 +42,7 @@ Heads-up Coordination is the act of giving the next sector a "heads-up" about an
 Controlling Sector -> Receiving Sector: "(Position), (Callsign)"  
 Receiving Sector -> Controlling Sector: "(Callsign), (Level)"
 
-!!! example
+!!! phraseology
     <span class="hotline">**ELW** -> **BIK**</span>: "via CB, VOZ1234"  
     <span class="hotline">**BIK** -> **ELW**</span>: "VOZ1234, F350"  
 
@@ -50,7 +50,7 @@ If the level that will be assigned at transfer of jurisdiction is different from
 
 Once this coordination is completed, the aircraft's level and route is **locked in**. Any further changes must be recoordinated.
 
-!!! example
+!!! phraseology
     <span class="hotline">**ELW** -> **BIK**</span>: "VOZ1234, requesting DCT RIVET"  
     <span class="hotline">**BIK** -> **ELW**</span>: "VOZ1234, concur DCT RIVET"  
 
@@ -72,13 +72,13 @@ Boundary coordination must be completed so they are aware of the aircraft, and c
 Controlling Sector -> Boundary Sector: "For Ident, (Position), (Callsign), (Details as required)"  
 Boundary Sector -> Controlling Sector: "(Callsign), (Restriction)"
 
-!!! example
+!!! phraseology
     <span class="hotline">**BIK** -> **CBE**</span>: "For Ident, overhead CB, QFA12, do you have any restrictions on descent?"  
     <span class="hotline">**CBE** -> **BIK**</span>: "QFA12, No restrictions on descent"  
 
 The Boundary Sector may omit the restriction and readback the callsign only. This will be taken as the Boundary Sector having **no vertical or lateral restrictions**.
 
-!!! example
+!!! phraseology
     <span class="hotline">**INL** -> **BAS**</span>: "For Ident, West of BLAKA, ABC"  
     <span class="hotline">**BAS** -> **INL**</span>: "ABC"
 
@@ -111,7 +111,7 @@ Source: [Annotations](../../controller-skills/annotations)
 | **NRR** | No Restrictions or Requirements | **Any and all** lateral and level changes approved, and No Frequency Requirements |
 
 *Offering NFR*
-!!! example
+!!! phraseology
     *ABC tracking MNG W663 VINOP*  
     <span class="hotline">**ELW** -> **YWE**</span>: "via MNG, ABC, if you have no restrictions or requirements, my onwards with OXL"  
     <span class="hotline">**YWE** -> **ELW**</span>: "ABC, I have no restrictions or requirements, your onwards with OXL"  
@@ -121,7 +121,7 @@ Source: [Annotations](../../controller-skills/annotations)
     ELW will handoff the aircraft directly to OXL
 
 *Initiating NFR*
-!!! example
+!!! phraseology
     *DEF tracking EML-LEMER-RK*  
     <span class="hotline">**SWY** -> **CVN**</span>: "via LEMER, DEF, I have no vertical restrictions or frequency requirements, your onwards with KPL"  
     <span class="hotline">**CVN** -> **SWY**</span>: "DEF, my onwards with KPL"  
@@ -163,7 +163,7 @@ Voice coordinate 'Next' call **within 2 minutes of takeoff** unless overridden b
 
 If Auto Release is suspended by the TCU controller, respond by advising of any aircraft with a takeoff clearance.
 
-!!! example
+!!! phraseology
     <span class="hotline">**TCU** -> **ADC**</span>: "Cancel auto release until time 45"  
     <span class="hotline">**ADC** -> **TCU**</span>: "Cancel auto release until time 45, QLK108D released"  
     <span class="hotline">**TCU** -> **ADC**</span>: "QLK108D"
@@ -180,6 +180,9 @@ Heads-up coordinate all other aircraft by **20nm** to boundary.
 
 ### TCU -> ENR
 **Voiceless** for aircraft assigned lower of standard assignable level or RFL, and tracking via a Procedural SID terminus.
+
+!!! note
+    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
 
 Heads-up coordinate all other aircraft by the boundary.
 
@@ -229,7 +232,7 @@ Coordination to **International** units shall be done in the following format:
 - Level
 - *"On climb"*/*"On descent*" (if applicable)
 
-!!! example
+!!! phraseology
     <span class="coldline">**IND** -> **FIMM CTR**</span>: "Estimate, QFA63, IBMAT time 33, F360"  
     <span class="coldline">**FIMM CTR** -> **IND**</span>: "QFA63, F360"
 
@@ -239,13 +242,13 @@ For any aircraft transiting **to or from** Uncontrolled airspace (ie: Class G, V
 ## Handoffs
 Receiving a handoff means you are permitted to turn an aircraft **45 degrees left or right**, and **climb/descend it to any level** without coordination. Do not handoff an aircraft to another sector if a turn of 45 degrees or a change of level would cause a conflict with any of your own aircraft. Or alternatively, you can nominate a restriction prior to handoff.
 
-!!! example
+!!! phraseology
     <span class="hotline">**YWE** -> **TBD**</span>: "ABC, my restriction is DEF, calls you now"  
     <span class="hotline">**TBD** -> **YWE**</span>: "ABC, restriction is DEF, calls me now"
 
 Upon receipt of a handoff, once the aircraft is established **half the applicable lateral standard** (2.5nm for ENR, 1.5nm for ADC/TCU) within your airspace, you are free to turn the aircraft as much as you like. If you need to turn them more than 45 degrees earlier than that, simply ask!
 
-!!! example
+!!! phraseology
     <span class="hotline">**KPL** -> **RKA**</span>: "ZYX, do you have any restrictions?"  
     <span class="hotline">**RKA** -> **KPL**</span>: "ZYX, no restrictions"  
     KPL will place *"RKA NR"* in the label until 2.5nm clear of their airspace, to record that the coordination has been completed.

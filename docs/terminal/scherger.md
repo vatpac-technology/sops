@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login Identifier              |
+| Name               | Callsign       | Frequency        | Login ID              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
-| Scherger TCU   | Scherger Approach   | 124.200        | SG_APP                                   |
+| **Scherger TCU**   | **Scherger Approach**   | **124.200**        | **SG_APP**                                   |
 
 ## Airspace
 The limits of the SG TCU are `SFC` to `F245` within 40 NM of the YBSG ARP. This may be amended by NOTAM.
@@ -33,7 +33,7 @@ SG ADC owns the Class C airspace within the SG CTR from `SFC` to `A015`.
 #### Departures
 'Next' coordination is required from SG ADC to SG TCU for all aircraft.
 
-!!! example
+!!! phraseology
     <span class="hotline">**SG ADC** -> **SG TCU**</span>: "Next, ASY219, runway 30"  
     <span class="hotline">**SG TCU** -> **SG ADC**</span>: "ASY219, unrestricted"  
 
@@ -45,7 +45,7 @@ Planned below `F245`: `Assigned the RFL`
 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
-!!! example
+!!! phraseology
     <span class="hotline">**SG TCU** -> **ARA**</span>: "ASY219, with your concurrence, will be assigned F200, for my separation with ASY404"  
     <span class="hotline">**ARA** -> **SG TCU**</span>: "ASY219, concur F200"  
 

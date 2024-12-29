@@ -34,9 +34,8 @@ Voice may be used in lieu when applicable.
 ISA is responsible for **ARA**, **STR**, **WEG**, and **CVN** when they are offline.  
 
 ## Extending
-
-!!! Warning
-    BN-ISA_CTR is only permitted to extend to adjacent **YBBB** sectors.
+!!! warning "Important"
+    Due to the large geographical area covered by this sector and it's neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
 
 ## Sector Responsibilities
 ISA and its subsectors are purely Classes A, E and G of airspace. [Standard separation procedures](../../../separation-standards) apply.
@@ -79,22 +78,20 @@ SG ADC owns the Class C airspace within the SG CTR from `SFC` to `A015`.
 ### ISA Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-### FLD(COL) (Oceanic)
+### TSN(COL) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+
+Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
+
+!!! phraseology
+    **ISA**: "QFA121, identification terminated, report position to Brisbane Radio, 126.45"
 
 ### International (AYPM)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
 
 ### International (WAAF)
-Coordination to International units must be done prior to **30 mins** from the boundary in the following format:
+As per [Standard coordination procedures](../../../controller-skills/coordination/#other-units), Heads-up Coordination required for all aircraft prior to **30 mins** from boundary.
 
-- *"Estimate"*
-- Callsign
-- Boundary Point
-- Estimate
-- Level
-- *"On climb"*/*"On descent*" (if applicable)
-
-!!! example
+!!! phraseology
     <span class="coldline">**ARA** -> **WAAF CTR**</span>: "Estimate, CEB40, TOREX time 59, F360"  
     <span class="coldline">**WAAF CTR** -> **ARA**</span>: "CEB40, F360"

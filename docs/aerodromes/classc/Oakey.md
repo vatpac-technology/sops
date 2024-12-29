@@ -6,10 +6,10 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login Identifier              |
+| Name               | Callsign       | Frequency        | Login ID              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
-| Oakey ADC    | Oakey Tower  | 120.100         | OK_TWR        |
-| Oakey SMC    | Oakey Ground  | 121.900      | OK_GND        |
+| **Oakey ADC**    | **Oakey Tower**  | **120.100**         | **OK_TWR**        |
+| **Oakey SMC**    | **Oakey Ground**  | **121.900**      | **OK_GND**        |
 | Oakey ATIS   |               | 124.300      | YBOK_ATIS     |
 
 ## Airspace
@@ -40,7 +40,7 @@ The standard circuit direction is to the north of the field.
 ### OK TCU
 'Next' coordination is required from OK ADC to OK TCU for all aircraft not remaining in the circuit. 
 
-!!! example
+!!! phraseology
     <span class="hotline">**OK ADC** -> **OK TCU**</span>: "Next, MRCH01, runway 32"  
     <span class="hotline">**OK TCU** -> **OK ADC**</span>: "MRCH01, Make Right Turn, unrestricted"  
     <span class="hotline">**OK ADC** -> **OK TCU**</span>: "Make Right Turn, MRCH01"  

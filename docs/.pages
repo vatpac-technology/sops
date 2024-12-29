@@ -5,6 +5,7 @@ nav:
     - Enroute: enroute
     - Oceanic: oceanic
     - Pacific: pacific
+    - Events: events
     - Separation Standards: separation-standards
     - Client Usage: client
     - Controller Skills: controller-skills

@@ -6,10 +6,10 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login Identifier              |
+| Name               | Callsign       | Frequency        | Login ID              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
-| Learmonth ADC    | Learmonth Tower  | 118.300         | LM_TWR        |
-| Learmonth SMC    | Learmonth Ground  | 126.200      | LM_GND        |
+| **Learmonth ADC**    | **Learmonth Tower**  | **118.300**         | **LM_TWR**        |
+| **Learmonth SMC**    | **Learmonth Ground**  | **126.200**      | **LM_GND**        |
 | Learmonth ATIS    |   | 123.300         | YPLM_ATIS       |
 
 ## Airspace
@@ -26,7 +26,7 @@ LM ADC owns the Class C airspace within the LM CTR from `SFC` to `A015`.
 ### LM TCU
 'Next' coordination is required from LM ADC to LM TCU for all aircraft.
 
-!!! example
+!!! phraseology
     <span class="hotline">**LM ADC** -> **LM TCU**</span>: "Next, QFA1601, runway 36"  
     <span class="hotline">**LM TCU** -> **LM ADC**</span>: "QFA1601, Right heading 060 Visual, unrestricted"  
     <span class="hotline">**LM ADC** -> **LM TCU**</span>: "Right heading 060 Visual, QFA1601"  

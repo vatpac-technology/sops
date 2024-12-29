@@ -7,13 +7,14 @@
 ## Positions
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
-| **Territory** | **Brisbane Centre** | **133.200** | **BN-TRT_CTR** |
-| Kimberley† | Brisbane Centre | 133.400 | BN-KIY_CTR |
+| **Territory North** | **Brisbane Centre** | **123.850** | **BN-TRT_CTR** |
+| Territory South† | Brisbane Centre | 133.200 | BN-TRS_CTR |
+| Ashmore† | Brisbane Centre | 133.400 | BN-ASH_CTR |
+| Kimberley† | Brisbane Centre | 132.100 | BN-KIY_CTR |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ### CPDLC
-
 The Primary Communication Method for ISA is [CPDLC](../../../client/cpdlc).
 
 The CPDLC Station Code is `YISA`.
@@ -27,16 +28,36 @@ Voice may be used in lieu when applicable.
   <figcaption>Territory Airspace</figcaption>
 </figure>
 
-TRT is responsible for **KIY** when they are offline.  
+TRT is responsible for **TRS**, **ASH**, and **KIY**,  when they are offline.  
 
 ### Reclassifications
 #### BRM CTR
-When **BRM ADC** is offline, BRM CTR (Class D/E `SFC` to `A055`) reverts to Class G, and is administered by KIY. Alternatively, KIY may provide a [top-down procedural service](../../../aerodromes/Broome) if they wish.
+When **BRM ADC** is offline, BRM CTR (Class D/E `SFC` to `A055`) reverts to Class G, and is administered by ASH. Alternatively, ASH may provide a [top-down procedural service](../../../aerodromes/Broome) if they wish.
 
+!!! tip
+    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+
+#### TN TCU
+TN TCU being online will activate the following Airspace by default:
+
+- TN MIL CTR `SFC`-`A025`
+- R249A `A015`-`A025`
+- R249B `A025`-`F190`
+- R238 `A035`-`F190`
+
+All of which are reclassified as **Class C** when active, and TN APP has Control Authority of.
+
+!!! note
+    TN APP may negotiate with TRS for an increase to the upper limit of the Restricted Areas and their airspace, if required for military operations. This limit may also be changed by NOTAM.
+
+## Extending
+!!! warning "Important"
+    Due to the large geographical area covered by this sector and it's neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
+    
 ## Sector Responsibilities
-TRT is responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YPDN.  
-KIY is responsible for issuing descent and ascertaining arrival intentions for aircraft bound for YBRM.
-KIY is also responsible for sequencing and issuing descent to aircraft bound for YCIN.
+TRT and TRS are responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YPDN.  
+ASH is responsible for issuing descent and ascertaining arrival intentions for aircraft bound for YBRM.
+ASH is also responsible for sequencing and issuing descent to aircraft bound for YCIN.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -44,14 +65,14 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| STR, KIY | TRT | YPDN | |
+| ASH, KIY | TRT, TRS | YPDN | |
 
 ### First Contact
 Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| STR, KIY, ISA(ARA) | TRT | YPDN | |
+| KIY, ASH, ISA(ARA/STR) | TRT, TRS | YPDN | |
 
 ## Coordination
 
@@ -93,57 +114,80 @@ All other aircraft going to TRT CTA will be **Heads-up** Coordinated by DN TCU.
 BRM ADC is responsible for the Class D airspace `SFC` to `A055`, as well as the Class E airspace `1200ft AGL` to `A055`, within the BRM CTR.
 
 #### Departures
-Departures from YBRM in to KIY CTA will be coordinated when ready for departure.  
+Departures from YBRM in to ASH CTA will be coordinated when ready for departure.  
 
-!!! example
-    <span class="hotline">**BRM ADC** -> **KIY**</span>: "Next, ANO333"  
-    <span class="hotline">**KIY** -> **BRM ADC**</span>: "ANO333, Unrestricted"  
-    <span class="hotline">**BRM ADC** -> **KIY**</span>: "ANO333"  
+!!! phraseology
+    <span class="hotline">**BRM ADC** -> **ASH**</span>: "Next, ANO333"  
+    <span class="hotline">**ASH** -> **BRM ADC**</span>: "ANO333, Unrestricted"  
+    <span class="hotline">**BRM ADC** -> **ASH**</span>: "ANO333"  
 
-The Standard Assignable level from BRM ADC to TRT(KIY) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
+The Standard Assignable level from BRM ADC to TRT(ASH) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
 
 #### Arrivals
 YBRM arrivals shall be heads-up coordinated to **BRM ADC** from TRT prior to **5 mins** from the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**TRT** -> **BRM ADC**</span>: "Via SAFIR, FD621”  
     <span class="hotline">**BRM ADC** -> **TRT**</span>: "FD621"  
 
-The Standard Assignable level from TRT(KIY) to BRM ADC is `A060`, any other level must be prior coordinated.
+The Standard Assignable level from TRT(ASH) to BRM ADC is `A060`, any other level must be prior coordinated.
 
 ### CIN TCU
 #### Airspace
 The limits of the CIN TCU are `SFC` to `F200` within 25 DME CIN. This may be amended by NOTAM.
 
 #### Arrivals/Overfliers
-The Standard assignable level from TRT(KIY) to CIN TCU is `F130`, tracking via CIN VOR.
+The Standard assignable level from ASH to CIN TCU is `F130`, tracking via CIN VOR.
 
 All other aircraft must be voice coordinated to CIN TCU prior to **20nm** from the boundary.
 
 #### Departures
-The Standard Assignable level from CIN TCU to TRT(KIY) is `F190`, and tracking via their planned route.
+The Standard Assignable level from CIN TCU to ASH is `F190`, and tracking via their planned route.
 
 #### CIN ADC
-When CIN TCU is offline, coordination is not required between TRT(KIY) and CIN ADC. Aircraft entering CIN ADC airspace shall be handed off, and instructed to contact CIN ADC for onwards clearance.
+When CIN TCU is offline, coordination is not required between ASH and CIN ADC. Aircraft entering CIN ADC airspace shall be handed off, and instructed to contact CIN ADC for onwards clearance.
 
 CIN ADC owns the Class C airspace within the CIN MIL CTR from `SFC` to `A015`.
 
 ### TN TCU
-Reserved.
+#### Airspace
+Any airspace releases from the default setup must be coordinated and agreed upon with TRT(TRS). It is also good practice to remind them of any airspace releases that may be active due to NOTAMs.
+
+#### Departures
+Voiceless for all aircraft:
+
+- Tracking via a Procedural SID terminus; and  
+- Assigned the lower of `F180` or the `RFL`
+
+All other aircraft going to TRS CTA must be **Heads-up** Coordinated by TN TCU prior to the boundary.
+
+!!! phraseology
+    <span class="hotline">**TN TCU** -> **TRS**</span>: "DRGN48, request DCT BEBEX"  
+    <span class="hotline">**TRS** -> **TN TCU**</span>: "DRGN48, concur DCT BEBEX"  
+
+#### Arrivals/Overfliers
+Voiceless for all aircraft:
+
+- Tracking via **TN**; and  
+- Assigned the lower of `F130` or the `RFL`.
+
+All other aircraft coming from TRS CTA will be **Heads-up** Coordinated to TN TCU.
+
+!!! phraseology
+    <span class="hotline">**TRS** -> **TN TCU**</span>: "via NOLEK, FD858"  
+    <span class="hotline">**TN TCU** -> **TRS**</span>: "FD858, F150" 
 
 ### IND(INE) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
 
+Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
+
+!!! phraseology
+    **ISA**: "QFA121, identification terminated, report position to Brisbane Radio, 129.25"
+
 ### International (WAAF)
-Coordination to International units must be done prior to **30 mins** from the boundary in the following format:
+As per [Standard coordination procedures](../../../controller-skills/coordination/#other-units), Heads-up Coordination required for all aircraft prior to **30 mins** from boundary.
 
-- *"Estimate"*
-- Callsign
-- Boundary Point
-- Estimate
-- Level
-- *"On climb"*/*"On descent*" (if applicable)
-
-!!! example
+!!! phraseology
     <span class="coldline">**TRT** -> **WAAF CTR**</span>: "Estimate, SIA236, KIKEM time 21, F320"  
     <span class="coldline">**WAAF CTR** -> **TRT**</span>: "SIA236, F320"

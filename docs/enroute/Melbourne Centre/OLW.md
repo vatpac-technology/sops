@@ -38,6 +38,9 @@ OLW is responsible for **POT**, **PAR**, **NEW**, **MEK**, **MTK** and **MZI** w
 #### KA CTR
 When **KA ADC** is offline, KA CTR (Class D `SFC` to `A055`) reverts to Class G, and is administered by OLW. Alternatively, OLW may provide a [top-down procedural service](../../../aerodromes/Karratha) if they wish.
 
+!!! tip
+    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+
 ## Sector Responsibilities
 OLW is responsible for issuing descent and ascertaining arrival intentions for aircraft bound for YPKA.
 OLW is also responsible for sequencing and issuing descent to aircraft bound for YPLM.
@@ -67,7 +70,7 @@ Refer to [Reclassifications](#ka-ctr) for operations when KA ADC is offline.
 #### Departures
 Departures from YPKA in to OLW CTA will be coordinated when ready for departure.  
 
-!!! example
+!!! phraseology
     <span class="hotline">**KA ADC** -> **OLW**</span>: "Next, OHN"  
     <span class="hotline">**OLW** -> **KA ADC**</span>: "OHN, Unrestricted"  
     <span class="hotline">**KA ADC** -> **OLW**</span>: "OHN"  
@@ -76,7 +79,7 @@ The Standard Assignable level from KA ADC to OLW is the lower of `A050` or the `
 #### Arrivals
 YPKA arrivals shall be heads-up coordinated to **KA ADC** from OLW prior to **5 mins** from the boundary.
 
-!!! example
+!!! phraseology
     <span class="coldline">**OLW** -> **KA ADC**</span>: "Via MCNAB, QFA1214 for the RNP U RWY 26”  
     <span class="coldline">**KA ADC** -> **OLW**</span>: "QFA1214, RNP U RWY 26"  
 
@@ -101,3 +104,8 @@ LM ADC owns the Class C airspace within the LM CTR from `SFC` to `A015`.
 
 ### IND,INE (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+
+Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
+
+!!! phraseology
+    **OLW**: "QFA121, identification terminated, report position to Brisbane Radio, 129.25"

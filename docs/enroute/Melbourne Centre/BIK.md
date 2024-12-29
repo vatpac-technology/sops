@@ -49,7 +49,7 @@ When **NW TCU** is online, R421 is activated and administered by the TCU control
 
 During times of high traffic, NW TCU may request the release of R420F up to `F300`.
 
-!!! example
+!!! phraseology
     <span class="hotline">**NW TCU** -> **WOL**</span>: "There's a preplanned military exercise about to commence, request release of R420F up to F300"  
     <span class="hotline">**WOL** -> **NW TCU**</span>: "R420F released to you F125 to F300"  
     <span class="hotline">**NW TCU** -> **WOL**</span>: "R420F released F125 to F300" 
@@ -81,7 +81,7 @@ Sequencing arrivals from the west into YSSY is a joint responsibility of GUN and
 
 Aircraft from the south/west shall be assigned **runway 16R/34L** during PROPS. However, some situations may warrant the use of the alternate runway (16L/34R), such as heavy aircraft operationally requiring the longer runway from the north or large volumes of traffic requiring the use of both runways to minimise delay. In this case, coordination must be conducted with Brisbane Centre or Sydney Flow (if operating) to ensure that the sequence is built in an efficient and orderly way.
 
-!!! example
+!!! phraseology
     <span class="hotline">**BIK** -> **ARL**</span>: "Southwest of Sydney, VOZ421, with your concurrence will be assigned runway 34R for sequencing"  
     <span class="hotline">**ARL** -> **BIK**</span>: "Concur, VOZ421 runway 34R, required landing time 22 due sequence from the north"  
     <span class="hotline">**BIK** -> **ARL**</span>: "Runway 34R, landing time 22, VOZ421"
@@ -96,11 +96,17 @@ Non-jet aircraft for YSSY shall be assigned the **ODALE** STAR.
 
     In this case, coordination should be conducted to ensure that both controllers agree and no additional conflicts are created as a result (particularly with aircraft inbound from the north/east).
 
-!!! example
+!!! phraseology
     **BIK:** "JST421, amended tracking and STAR available"  
     **JST421:** "JST421, go ahead"  
     **BIK:** "JST421, recleared direct AKMIR thence WELSH, ODALE, for the ODALE7 arrival, runway 34R, maintain FL350"  
     **JST421:** "Recleared direct AKMIR, WELSH, ODALE, for the ODALE7 arrival, runway 34R, maintain FL350, JST421"
+
+#### Adjacent Feeder Fixes
+Aircraft assigned the **same runway** inbound via **RIVET** and **ODALE**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
+
+### Sequencing into YSCB
+Aircraft assigned the **same runway** inbound via **LEECE** and **BUNGO**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -138,8 +144,13 @@ All other aircraft coming from BIK CTA must be **Heads-up** Coordinated to SY TC
 #### Departures
 Voiceless for all aircraft:
 
-- Tracking via the WOL NDB; and  
-- Assigned the lower of `F280` or the `RFL`
+- Assigned the lower of `F280` or the `RFL`; and
+- that enter BIK airspace via any of the *Green Shaded Corridors* below
+
+<figure markdown>
+![SY TCU Voiceless Coordination Corridors](../assets/sytcucoordgate.png){ width="700" }
+  <figcaption>SY TCU Voiceless Coordination Corridors</figcaption>
+</figure>
 
 All other aircraft going to BIK CTA will be **Heads-up** Coordinated by SY TCU.
 
@@ -204,6 +215,11 @@ That being said, it is *advised* that BIK give **Heads-up Coordination** to the 
 
 #### TSN (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+
+Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
+
+!!! phraseology
+    **BIK**: "QFA121, identification terminated, report position to Brisbane Radio, 124.65"
 
 ### BIK Internal
 Changes to the CFL are permitted up to the boundary for aircraft transiting BIK/GUN/WOL airspace internally. It is *advised* that BIK/WOL/GUN give **Heads-up Coordination** to the relevant sector, prior to **20nm** from the boundary, for **any aircraft not on the Q29, Y59, W113, or V169 airways**. 

@@ -36,11 +36,14 @@ Voice may be used in lieu when applicable.
 
 ### Reclassifications
 #### AS CTR
-When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME AS reverts to Class G, and AS CTR (Class C `F125` to `F245`) within 80 DME AS reverts to Class E, and both are administered by ASP. Alternatively, ASP may provide a [top-down procedural service](../../../aerodromes/Alice) if they wish.
+When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME AS reverts to Class G, and AS CTA (Class C `F125` to `F245`) within 80 DME AS reverts to Class E, and both are administered by ASP. Alternatively, ASP may provide a [top-down procedural service](../../../aerodromes/Alice) if they wish.
+
+!!! tip
+    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
 
 ## Extending
-!!! Warning
-    ML-ASP_CTR is only permitted to extend to adjacent **YMMM** sectors.
+!!! warning "Important"
+    Due to the large geographical area covered by this sector and it's neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
 
 ## Surveillance Coverage
 Limited surveillance coverage exists in the FOR sector greater than **250nm** from ADSB stations. [Procedural Standards](../../../separation-standards/procedural/) must be implemented **prior** to losing surveillance coverage
@@ -80,7 +83,7 @@ Refer to [Reclassifications](#as-ctr) for operations when AS ADC is offline.
 #### Departures
 Departures from YBAS in to ASP Class C will be coordinated when ready for departure.
 
-!!! example
+!!! phraseology
     <span class="hotline">**AS ADC** -> **ASP**</span>: "Next, QFA797"  
     <span class="hotline">**ASP** -> **AS ADC**</span>: "QFA797, Unrestricted"  
     <span class="hotline">**AS ADC** -> **ASP**</span>: "QFA797"  
@@ -89,7 +92,7 @@ The Standard Assignable level from **AS ADC** to ASP is the lower of `A070` or t
 #### Arrivals
 YBAS arrivals shall be heads-up coordinated to **AS ADC** from ASP prior to **5 mins** from the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**ASP** -> **AS ADC**</span>: "Via SADEL, QFA1956”  
     <span class="hotline">**AS ADC** -> **ASP**</span>: "QFA1956"  
 
@@ -102,3 +105,8 @@ Coordination is not required between ASP(WRA) and WR ADC. Aircraft entering WR A
 
 ### IND(INS) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+
+Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
+
+!!! phraseology
+    **ASP**: "QFA121, identification terminated, report position to Brisbane Radio, 129.25"

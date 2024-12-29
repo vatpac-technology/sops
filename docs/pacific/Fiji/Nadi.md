@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name                    | Login     | Callsign         | Frequency |
+| Name                    | Callsign         | Frequency | Login ID    |
 | ----------------------- | --------- | ---------------- | --------- |
-| Nadi Approach	          | NFFN_APP  | Nadi Approach    | 119.100   | 
-| Nadi Tower	          | NFFN_TWR  | Nadi Tower	     | 118.100   | 
-| Nadi Ground	          | NFFN_GND  | Nadi Ground	     | 121.900   | 
-| Nadi ATIS	              | NFFN_ATIS |                  | 127.900   | 
+| **Nadi Approach**	          | **Nadi Approach**    | **119.100**   | **NFFN_APP**  | 
+| **Nadi ADC**	          | **Nadi Tower**	     | **118.100**   | **NFFN_TWR**  | 
+| **Nadi SMC**	          | **Nadi Ground**	     | **121.900**   | **NFFN_GND**  | 
+| Nadi ATIS	              |                  | 127.900   | NFFN_ATIS | 

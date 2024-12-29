@@ -6,7 +6,7 @@
 
 ## Positions
 
-| Name               | ID      | Callsign       | Frequency        | Login Identifier              |
+| Name               | ID      | Callsign       | Frequency        | Login ID              |
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
 | **Brisbane Approach North**    |**BAN**| **Brisbane Approach**   | **124.700**         | **BN_APP**                                   |
 | Brisbane Approach South†   |BAS| Brisbane Approach   | 125.600          | BN-S_APP                                 |
@@ -30,6 +30,9 @@ See also: [AF ADC Offline](#af-adc-offline).
 If BN TCU elects not to provide top-down to YBCG, The CG CTR Class C airspace `SFC` to `A035` reverts to Class G when **CG ADC** is offline, and is administered by the relevant BN TCU controller.
 
 See also: [CG ADC Offline](#cg-adc-offline).
+
+!!! tip
+    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
   
 ### Airspace Structural Arrangements
 Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, **“North”**/**”West”** positions shall assume the airspace of corresponding **“South”**/**”East”** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
@@ -80,19 +83,23 @@ Aircraft shall be assigned the following runways for arrival when PROPS are in p
 
 These standard runway assignments may be modified strategically by the BAS or BFL controller.
 
-!!! example
+!!! phraseology
     If during an event, the vast majority of traffic is coming from **BLAKA** and **GOMOL** feeder fixes, BAS/BFL may elect to assign 19L to **BLAKA** arrivals and 19R to **GOMOL** arrivals, to keep them separated at all times.
 
     <span class="hotline">**BFL** -> **INL**</span>: "All arrivals via GOMOL to be assigned 19R until further notice"  
     <span class="hotline">**INL** -> **BFL**</span>: "Roger, Arrivals via GOMOL to be assigned 19R" 
 
 ### Independent Visual Approach Phraseology at Night
-*"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (altitude) UNTIL ESTABLISHED ON THE PAPI (or GLIDEPATH)"*
+*"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (MVA) UNTIL ESTABLISHED ON THE PAPI (or GLIDEPATH)"*
 
-## AF ADC Offline
+!!! phraseology
+    **BAS:** “QFA660, Turn left heading 040, join final Runway 01L, from that heading Cleared Independent Visual Approach Runway 01L, not below 2400 until established on the PAPI”    
+
+## Offline Towers
+### AF ADC Offline
 Due to the low level of CTA (`A015`) in the AF CTR when **AF ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
-!!! example
+!!! phraseology
     **ABC**: "Brisbane Approach, ABC, PC12, POB 8, IFR, Taxiing YBAF for YBSU, Runway 28R"   
     **BN TCU**: "ABC, Brisbane Approach, Squawk 3601, No Reported IFR Traffic, Report Ready at the Holding Point for Airways Clearance"  
     **ABC**: "Squawk 3601, Wilco, ABC"  
@@ -101,10 +108,10 @@ Due to the low level of CTA (`A015`) in the AF CTR when **AF ADC** is offline, i
     **BN TCU**: "ABC, Cleared to YBSU via BN, Flight Planned Route. Make Visual right turn DCT BN, Climb to A030"  
     **ABC**: "Cleared to YBSU via BN, Flight Planned Route. Make Visual right turn DCT BN, Climb to A030, ABC"
 
-## CG ADC Offline
+### CG ADC Offline
 Due to the low level of CTA (`A035`) in the CG CTR when **CG ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
-!!! example
+!!! phraseology
     **JST446**: "Brisbane Approach, JST446, A320, IFR, Taxiing YBCG for YSSY, Runway 214"   
     **BN TCU**: "JST446, Brisbane Approach, Squawk 3601, No Reported IFR Traffic, Report Ready at the Holding Point for Airways Clearance"  
     **JST446**: "Squawk 3601, Wilco, JST446"  
@@ -119,7 +126,7 @@ Due to the low level of CTA (`A035`) in the CG CTR when **CG ADC** is offline, i
 Voiceless for aircraft:
 
 - With ADEP **YBBN**  
-    - Tracking via a Procedural SID terminus; and  
+    - Tracking via a Procedural SID terminus^; and  
     - Assigned the lower of `F180` or the `RFL`  
 - With ADEP **YBCG**  
     - Tracking via **APAGI** and assigned the lower of `F120` or the `RFL`; or    
@@ -128,9 +135,12 @@ Voiceless for aircraft:
     - Assigned the **ITIDE** STAR; and  
     - Assigned `F130`
 
+!!! note
+    ^Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+
 All other aircraft going to INL CTA must be **Heads-up** Coordinated by BN TCU prior to the boundary. This includes YBCG departures to the North that clip INL(GOL) airspace before re-entering BN TCU airspace
 
-!!! example
+!!! phraseology
     <span class="hotline">**BAC** -> **GOL**</span>: "Departing YBCG, X4C, do you have any Restrictions or Requirements?"  
     <span class="hotline">**GOL** -> **BAC**</span>: "X4C, No Restrictions or Requirements"  
 
@@ -149,13 +159,15 @@ All other aircraft coming from INL CTA will be **Heads-up** Coordinated to BN TC
 ### BN ADC
 #### Auto Release
 'Next' coordination is **not** required from BN ADC for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS (except during SODPROPS^); and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a **Procedural** SID  
+
+- Departing from a runway nominated on the ATIS (except during SODPROPS^); and  
+- Assigned the standard assignable level; and  
+- Assigned a **Procedural** SID; or
+- Assigned the **Radar** SID with a [Standard Assignable Heading](#standard-assignable-departure-headings)
 
 ^Auto Release is not available during SODPROPS runway mode. All aircraft will be coordinated from BN ADC to BN TCU.
 
-!!! example
+!!! phraseology
     <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Next, ABC, runway 19L"  
     <span class="hotline">**BN TCU** -> **BN ADC**</span>: "ABC, Heading 030, Unrestricted"  
     <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Heading 030, ABC"
@@ -163,6 +175,19 @@ All other aircraft coming from INL CTA will be **Heads-up** Coordinated to BN TC
 The Standard Assignable level from BN ADC to BN TCU is:  
 For Jets: `A060`  
 For Non-Jets: The lower of `A040` or the `RFL`
+
+#### Standard Assignable Departure Headings
+Aircraft that have been cleared the **BN (RADAR) SID** will receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required (excluding during SODPROPS) from the BN ADC controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
+
+| Runway | Assigned Heading 
+| ----------------- | -------------- |
+| 01L | H340 |
+| 01R | H120 |
+| 19L | H110 |
+| 19R | H270 |
+
+!!! tip
+    If strong winds are present at altitude, ADC/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
 
 ### CG ADC
 #### Airspace
@@ -176,7 +201,7 @@ Refer to [Reclassifications](#cg-ctr) for operations when CG ADC is offline.
   b) Assigned the standard assignable level; and  
   c) Assigned a **Procedural** SID
 
-!!! example
+!!! phraseology
     <span class="hotline">**CG ADC** -> **BAC**</span>: "Next, CBN, runway 14"  
     <span class="hotline">**BAC** -> **CG ADC**</span>: "CBN, heading 030, unrestricted"  
     <span class="hotline">**CG ADC** -> **BAC**</span>: "Heading 030, CBN"  
@@ -196,7 +221,7 @@ Refer to [Reclassifications](#af-ctr) for operations when AF ADC is offline.
 ### Departures
 When aircraft planned via a CTA departure are ready for takeoff and expected to depart imminently, **AF ADC** shall seek release of the aircraft through a 'Next' call.
 
-!!! example
+!!! phraseology
     <span class="hotline">**AF ADC** -> **BN TCU**</span>: "Next, XMM, Runway 10L"  
     <span class="hotline">**BN TCU** -> **AF ADC**</span>: "XMM, Unrestricted"  
     <span class="hotline">**AF ADC** -> **BN TCU**</span>: "XMM"
@@ -208,20 +233,20 @@ BN TCU will heads-up coordinate arrivals/overfliers from Class C to AF ADC prior
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to AF ADC, unless AF ADC nominates a restriction.  
 VFR aircraft require a level readback.
 
-!!! example
+!!! phraseology
     <span class="hotline">**BN TCU** -> **AF ADC**</span>: "via TVT for the visual approach, UJE"  
     <span class="hotline">**AF ADC** -> **BN TCU**</span>: "UJE, visual approach"
 
 ### AMB TCU
 All aircraft transiting from **BN TCU** to **AMB TCU** and vice versa must be heads-up coordinated prior to the boundary. 
 
-!!! example
+!!! phraseology
     <span class="hotline">**AMB TCU** -> **BN TCU**</span>: "via BN, DRGN02"  
     <span class="hotline">**BN TCU** -> **AMB TCU**</span>: "DRGN02, `F140`"  
 
 For aircraft arriving into AMB TCU there is no standard assignable level and simply is what ever the controllers agree upon.
 
-!!! example
+!!! phraseology
     <span class="hotline">**BN TCU** -> **AMB TCU**</span>: "via WACKO, STAL13, what level can I assign?"  
     <span class="hotline">**AMB TCU** -> **BN TCU**</span>: "STAL13, `A090`"  
     <span class="hotline">**BN TCU** -> **AMB TCU**</span>: "`A090`, STAL13"  
