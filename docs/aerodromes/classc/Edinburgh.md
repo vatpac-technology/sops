@@ -16,7 +16,7 @@
 ![EDN ADC Airspace](img/edncircuits.png){ width="700" }
 </figure>
 
-- **EDN ADC Airspace**: `SFC` to `A015` within the Edinburgh Control Zone (ED CTR).
+- **ED ADC Airspace**: `SFC` to `A015` within the Edinburgh Control Zone (ED CTR).
 
 ## Runway Modes
 Single runway operations only.
