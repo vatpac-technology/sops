@@ -46,6 +46,9 @@ If Parafield RWY 03L is active, it can infringe on the circuit deadside. VFR tra
 | 18     | Left      |
 | 36     | Left      |
 
+## Helicopter Operations
+- **HLS Locations**: The HLS is located on TWY D immediately east of OLA 11. There are no SIDs associated with the HLS; aircraft requiring an instrument departure can expect to depart from the runway.
+
 ## Coordination
 
 ### Departures
@@ -67,6 +70,3 @@ AD TCU will Heads-up coordinate all arrivals/overfliers to ED ADC.
 
 - **IFR arrivals** will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to ED ADC, unless ED ADC nominates a restriction.
 - **VFR arrivals** will be cleared for the coordinated visual approach prior to handoff to ED ADC, unless ED ADC nominates a restriction.
-
-## Helicopter Operations
-- **HLS Locations**: The HLS is located on TWY D immediately east of OLA 11. There are no SIDs associated with the HLS; aircraft requiring an instrument departure can expect to depart from the runway.
