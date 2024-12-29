@@ -74,7 +74,7 @@ Circuit altitude: `A010`.
 
 ### Circuits
 
-Circuit altitude: `A070`.
+Circuit altitude: `A007`.
 
 #### Day VFR Circuits
 Helicopter circuits are conducted from designated areas based on the active runway:
