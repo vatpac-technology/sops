@@ -137,7 +137,7 @@ Aircraft must track via Class G airspace to UQLD and contact BN TCU prior to rea
 Due to the close proximity to YBBN, it may be necessary to instruct helicopters to maintain visual separation with arriving or departing aircraft.
 
 !!! phraseology 
-    **BN TCU**: "FHK, report sighting an Embraer E190 departing runway 19R, through `A008`."  
+    **BN TCU**: "FHK, report sighting an Embraer E190 departing runway 19R, through `A008` on climb."  
     **FHK**: Traffic in sight, FHK"  
     **BN TCU**: "FHK, maintain own seperation with the E190"  
     **FHK**: "Maintain own seperation, FHK"  
