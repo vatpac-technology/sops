@@ -94,9 +94,9 @@ Aircraft will depart the circuit visually and track overhead YAMB to begin track
     Charts for the Coded Departures are available in: [YAMB FIHA AD2 Supp Section 6.2.25](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 ## Civil Operations
-Civil and AAFC conduct flying operations within the South Western Training Area (SWTA). The SWTA is divided in half by the Rosewood-Mt Walker-Aratula Road, SWTA Alpha (north) and SWTA Bravo (south). Once established in the SWTA, aircraft will remain OCTA. 
+Civil and AAFC conduct flying operations within the South Western Training Area (SWTA). The SWTA is divided in half by the Rosewood-Mt Walker-Aratula Road, SWTA Alpha (north) and SWTA Bravo (south). 
 
-Pilots may request to enter the CTA and climb above `A025` when operationally required.
+Once established in the SWTA, aircraft will remain OCTA. Pilots may request to enter the CTA and climb above `A025` when operationally required.
 
 **Departures**:
 
