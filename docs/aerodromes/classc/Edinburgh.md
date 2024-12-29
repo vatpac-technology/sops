@@ -55,6 +55,7 @@ If Parafield RWY 03L is active, it can infringe on the circuit deadside. VFR tra
 !!! phraseology
     <span class="hotline">**ED ADC** -> **AD TCU**</span>: "Next, SGE"
     <span class="hotline">**AD TCU** -> **ED ADC**</span>: "SGE, unrestricted"
+    <span class="hotline">**ED ADC** -> **AD TCU**</span>: "SGE"
 
 ### Arrivals/Overfliers
 
