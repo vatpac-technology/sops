@@ -94,12 +94,12 @@ Circuit operations are conducted parallel to the duty runway and inside the fixe
 
 **Radio Procedure**:
 
-- Helicopters established on the eastern grass or western triangle are not required clearance for low-level operations below `A001`.
-- Pilots will report airborne before each circuit, or if departing additionally they will include their intentions. Aircraft are expected to remain under `A001` until you acknowledge. 
-- Controllers will only be provided traffic information on initial circuits. ADC is not expected to positively control these take off or landings, or provide sequencing instructions.
-- Acknowledge the aircraft's callsign or provide additional departure instructions. Hold the aircraft if they will conflict with other traffic.
-- On completion of circuit training, the pilot will nominate their landing HLS during the airborne call and report downwind before transitioning to the arrival procedure.
-- Report any additional inbound helicopter circuit traffic to pilots already established on the eastern grass/western triangle or conducting circuits.
+- Helicopters established on the eastern grass or western triangle do not require clearance for low-level operations below `A001`.
+- Pilots must report airborne before each circuit. If departing, they must include intentions. Pilots must stay below `A001` until they are acknowledged.
+- Controllers provide traffic information only on initial circuits. ADC does not positively control these operations or provide sequencing.
+- Acknowledge the callsign or issue departure instructions. Hold aircraft if conflicting with other traffic.
+- After circuit training, pilots will nominate their landing HLS during the airborne call and report downwind before transitioning to the arrival procedure.
+- ADC may additionally notify pilots of additional inbound helicopter circuit traffic affecting the eastern grass or western triangle if workload allows.
 
 !!! tip
     Where traffic permits, helicopters may be instructed to air transit to their designated areas of operations, to expedite their repositioning.
