@@ -27,10 +27,10 @@ The Edinburgh Circuit Area (EDN CIRA) is active at all times when the Edinburgh 
 
 Circuit operations occur within the CTR bounded by the Gawler River to the north and the powerline running from the Gawler River (1.5NM south of the Gawler Township) to the south eastern boundary of the ED CTR. Vertical Limits `SFC` to `A020`
 
-If Parafield RWY 03L is active, it can infringe on the circuit deadside. VFR traffic in the ECA is instructed to remain on the west of the RWY centreline.
+If Parafield RWY 03L is active, it can infringe on the circuit deadside. VFR traffic in the EDN CIRA is instructed to remain on the west of the RWY centreline.
 
-**Example**:
-- **EDN ADC**: "CIVIL TRANSIT IN PROGRESS, DEAD-SIDE NOT AVAILABLE"
+!!! phraseology
+    **EDN ADC**: "CIVIL TRANSIT IN PROGRESS, DEAD-SIDE NOT AVAILABLE"
 
 ### Circuit Heights
 | Type    | Normal Altitude |
@@ -46,32 +46,27 @@ If Parafield RWY 03L is active, it can infringe on the circuit deadside. VFR tra
 | 18     | Left      |
 | 36     | Left      |
 
-## Departure Levels
+## Coordination
 
 ### Departures
-Aircraft can expect to depart to the north, regardless of the duty runway, to conform with Adelaide traffic.
 
-Aircraft will be cleared to an initial level of A040 at clearance delivery unless a lower level is requested. Adelaide Approach will clear aircraft to their planned height following departure.
+- Autorelease is not in effect. Coordination for "Next" is required required for departures. They must not be issued a takeoff clearance until a release has been obtained.
+- Standard assignable level: `A050` (or `RFL` if lower).
+!!! phraseology
+    <span class="hotline">**MB ADC** -> **MDS**</span>: "Next, SGE"
+    <span class="hotline">**MDS** -> **MB ADC**</span>: "SGE, unrestricted"
 
-Aircraft departing YPED into EDN TCU Class C airspace will be coordinated from EDN ADC at taxi.
+### Arrivals/Overfliers
 
-!!! example
-    <span class="hotline">**EDN ADC** -> **AD TCU**</span>: "Taxi, BLKT11 for YMES, via GULLY"    
-    <span class="hotline">**AD TCU** -> **EDN ADC**</span>: "BLKT11"
+AD TCU must coordinate the sequence information to EDN ADC.
 
-When the aircraft is ready for takeoff, EDN ADC will give a "Next" call, where AD TCU will provide the cleared level.
+!!! phraseology
+    <span class="hotline">**MDS** -> **EDN ADC**</span>: "To the west, PLE, for the ILS-Z"
+    <span class="hotline">**MB ADC** -> **AD TCU**</span>: "PLE, ILS-Y"
 
-!!! example
-    <span class="hotline">**EDN ADC** -> **AD TCU**</span>: "Next, BLKT11, runway 18"    
-    <span class="hotline">**AD TCU** -> **EDN ADC**</span>: "BLKT11, A050"    
-    <span class="hotline">**EDN ADC** -> **AD TCU**</span>: "A050, BLKT11"    
-
-### Arrivals
-AD TCU must coordinate the sequence information to EDN ADC prior to transfer of jurisdiction.
-
-!!! example
-    <span class="hotline">**AD TCU** -> **EDN ADC**</span>: "New sequence of 2. MRNR21, via AD, Number 1. MRNR22, via AD, Number 2"    
-    <span class="hotline">**EDN ADC** -> **AD TCU**</span>: "MRNR21, Number 1. MRNR22, Number 2"
+- AD TCU will heads-up coordinate arrivals/overfliers from Class C to EDN ADC.
+- **IFR arrivals** will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to ED ADC, unless ED ADC nominates a restriction.
+- **VFR arrivals** will be cleared for the coordinated visual approach prior to handoff to ED ADC, unless ED ADC nominates a restriction.
 
 ## Helicopter Operations
 - **HLS Locations**: The HLS is located on TWY D immediately east of OLA 11. There are no SIDs associated with the HLS; aircraft requiring an instrument departure can expect to depart from the runway.
