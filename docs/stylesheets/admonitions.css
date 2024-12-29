@@ -71,7 +71,7 @@
 }
 
 .md-typeset .admonition.phraseology p {
-  white-space: pre-wrap; /* Preserves newlines */
+  /*white-space: pre-wrap; /* Preserves newlines */
 }
 
 .md-typeset .phraseology > .admonition-title {
