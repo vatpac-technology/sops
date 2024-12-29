@@ -99,6 +99,7 @@ Circuit operations are conducted parallel to the duty runway and inside the fixe
 - Controllers will only be provided traffic information on initial circuits. ADC is not expected to positively control these take off or landings, or provide sequencing instructions.
 - Acknowledge the aircraft's callsign or provide additional departure instructions. Hold the aircraft if they will conflict with other traffic.
 - On completion of circuit training, the pilot will nominate their landing HLS during the airborne call and report downwind before transitioning to the arrival procedure.
+- Report any additional inbound helicopter circuit traffic to pilots already established on the eastern grass/western triangle or conducting circuits.
 
 !!! tip
     Where traffic permits, helicopters may be instructed to air transit to their designated areas of operations, to expedite their repositioning.
