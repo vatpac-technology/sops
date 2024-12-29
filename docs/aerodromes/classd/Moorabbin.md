@@ -77,43 +77,43 @@ Circuit altitude: `A010`.
 #### Day VFR Circuits
 Helicopter circuits are conducted from designated areas based on the active runway:
 
+- **RWY 17/35**: From the **Eastern Grass**, which encompasses all areas east of runway 35R.
+- **RWY 13/31**: From the **Western Triangle**, which extends:
+    - From TWY A to the boundary fence,
+    - Up to the centerline of TWY A4,
+    - Then across to the edge of TWY B and runs parallel to TWY B to the boundary fence.
+
 <figure markdown>
 ![Eastern Grass and Western Triangle](img/mbhelicircuitareas.png){ width="700" }
 <figcaption>Eastern Grass and Western Triangle</figcaption>
 </figure>
 
-- **RWY 17/35**: Circuits are conducted from the **Eastern Grass**, which encompasses all areas east of runway 35R.
-- **RWY 13/31**: Circuits are conducted from the **Western Triangle**, which extends:
-    - From TWY A to the boundary fence,
-    - Up to the centerline of TWY A4,
-    - Then across to the edge of TWY B and runs parallel to TWY B to the boundary fence.
-- Circuit operations are **parallel to the duty runway** and inside the fixed-wing circuit.
+Circuit operations are conducted parallel to the duty runway and inside the fixed-wing circuit.
 
 **Radio Procedure**:
 
 - Pilots established on the eastern grass or western triangle may operate up to `A001` for low-level airwork.
-- Pilots will report “AIRBORNE” before each circuit, or if departing additionally they will include their intentions. Aircraft are expected to remain under `A001` until you acknowledge.
+- Pilots will report airborne before each circuit, or if departing additionally they will include their intentions. Aircraft are expected to remain under `A001` until you acknowledge.
 - Acknowledge the aircraft's callsign or provide additional departure instructions. Hold the aircraft if they will conflict with other traffic.
 - On completion of circuit training, the pilot will nominate their landing HLS during the airborne call and report downwind before transitioning to the arrival procedure.
 
 !!! tip
-    You can have a helicopter air transit rather than air taxi to the eastern grass or western triangle. Air taxi will typically follow established taxiways and normal taxi speeds.
-    Air transit allows more rapid movement at or below `A001` direct to locations on the aerodrome.
+    Where traffic permits, helicopters may be instructed to air transit to their designated areas of operations, to expedite their repositioning.
 
 !!! phraseology
-    *(Before entering the maneuvering  area)*
-    **RJB**: "MB Twr, RJB, At the southern apron, with information november, request circuits"
-    **MB ADC**: "RJB, air transit Eastern Grass, report airborne"
-    **RJB**: "air transit, Eastern Grass, RJB"
-    *(Becoming airborne to establish on the eastern grass)*
-    **RJB**: "MB Twr, RJB, airborne"
+    **RJB**: "MB Twr, RJB, at the southern apron, with information november, request circuits"  
+    **MB ADC**: "RJB, air transit Eastern Grass, report airborne"  
+    **RJB**: "Air transit Eastern Grass, RJB"  
+
+    **RJB**: "MB Twr, RJB, airborne"  
     **MB ADC**: "RJB"
-    *(RJB becoming airborne for circuits, acknowledgement only is required)*
+
+    *RJB, established at the Eastern Grass, becomes airborne for circuits*
     **RJB**: "RJB Airborne"
     **MB ADC**: "RJB"
 
 #### Night Circuits
-Night operations must comply with fixed wing circuits and altitudes.
+Night operations must comply with fixed wing operations.
 
 ### Departures
 
