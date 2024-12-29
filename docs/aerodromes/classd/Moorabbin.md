@@ -74,6 +74,8 @@ Circuit altitude: `A010`.
 
 ### Circuits
 
+Circuit altitude: `A070`.
+
 #### Day VFR Circuits
 Helicopter circuits are conducted from designated areas based on the active runway:
 
@@ -94,6 +96,7 @@ Circuit operations are conducted parallel to the duty runway and inside the fixe
 
 - Pilots established on the eastern grass or western triangle may operate up to `A001` for low-level airwork.
 - Pilots will report airborne before each circuit, or if departing additionally they will include their intentions. Aircraft are expected to remain under `A001` until you acknowledge.
+= Controllers will only be provided traffic information on initial circuits. ADC is not expected to positively control these take off or landings, or provide sequencing instructions.
 - Acknowledge the aircraft's callsign or provide additional departure instructions. Hold the aircraft if they will conflict with other traffic.
 - On completion of circuit training, the pilot will nominate their landing HLS during the airborne call and report downwind before transitioning to the arrival procedure.
 
