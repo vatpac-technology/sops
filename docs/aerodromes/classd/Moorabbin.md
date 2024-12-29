@@ -42,14 +42,16 @@ Aircraft should report at the standard VFR entry points:
 - **ACE** (to the northeast)
 - **SHOAL** (to the southwest)
 
-| Entry Point | RWY 13 | RWY 17 | RWY 31 | RWY 35 |
-|-------------|--------|--------|--------|--------|
-| BTO         | Join final 13R | Join base 17R | Join downwind 31L | Join oblique downwind 35L |
-| BAW         | Join base 13R  | Join base 17R | Join oblique downwind 31L | Join base 35L |
-| CARR        | Join downwind 13R | Join downwind 17R | Join oblique base 31L | Join final 35L |
-| GMH         | Join downwind 13L | Join base 17L | Join oblique base 31R | Join base 35R |
-| ACE         | Join base 13L | Join oblique base 17L | Join base 31R | Join oblique downwind 35R |
-| SHOAL       | Join base 13R | Join base 17R | Join base 31L | Join base 35L |
+Circuit join instructions are determined case by case based on traffic management and pilot position. The most common joins are listed below:
+
+| Entry Point | RWY 13                          | RWY 17                          | RWY 31                          | RWY 35                          |
+|-------------|---------------------------------|----------------------------------|----------------------------------|----------------------------------|
+| BTO         | **Final 13R**                  | **Oblique Base 17R**            | **Downwind 31L**                | **Downwind** or **Oblique Downwind 35L** |
+| BAW         | **Base** or **Oblique Base 13R** | **Base** or **Oblique Downwind 17R** | **Oblique Downwind 31L**         | **Base 35L**                    |
+| CARR        | **Oblique Downwind 13R**       | **Downwind 17R**                | **Base 31L**                    | **Final 35L**                   |
+| GMH         | **Oblique Downwind** or **Downwind 13L** | **Base 17L**                   | **Oblique Base** or **Final 31R** | **Base 35R**                    |
+| ACE         | **Base 13L**                   | **Oblique Base** or **Final 17L** | **Oblique Downwind** or **Base 31R** | **Oblique Downwind 35R**        |
+| SHOAL       | **Oblique Downwind** or **Base 13R** | **Oblique Downwind 17R**       | **Base 31L**                    | **Oblique Base** or **Final 35L** |
 
 CTR Entry Altitude: `A010`.
 
