@@ -63,7 +63,7 @@ AD TCU will Heads-up coordinate all arrivals/overfliers to ED ADC.
 
 !!! phraseology
     <span class="hotline">**AD TCU** -> **ED ADC**</span>: "To the west, PLE, for the ILS-Z"
-    <span class="hotline">**ED ADC** -> **AD TCU**</span>: "PLE, ILS-Y"
+    <span class="hotline">**ED ADC** -> **AD TCU**</span>: "PLE, ILS-Z"
 
 - **IFR arrivals** will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to ED ADC, unless ED ADC nominates a restriction.
 - **VFR arrivals** will be cleared for the coordinated visual approach prior to handoff to ED ADC, unless ED ADC nominates a restriction.
