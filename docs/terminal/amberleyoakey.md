@@ -69,31 +69,64 @@ OK ADC owns the Class C airspace within 5 DME of the OK VOR from `SFC` to `A025`
 
 ## YAMB Aerodrome
 ### Coded Departures (Fast Jets)
-Visual Departures are commonly requested by high performance military jets, and often processed in the form of a coded departure (e.g. BYRON7 departure), which can be found in the AD2 Sups Page for Amberley. These coded departures provide a corridor with altitude constraints to join the Military Training Areas east of Brisbane avoiding civilian traffic inbound to Brisbane. 
+Visual Departures are commonly requested by high performance military jets and often processed in the form of a coded departure (e.g. BYRON1 departure), which can be found in the AD2 Sups Page for YAMB. These coded departures provide a corridor with altitude constraints to join the Military Training Areas east of Brisbane, avoiding civilian traffic inbound to Brisbane. 
 
+Aircraft will depart the circuit visually and track overhead YAMB to begin tracking for their initial waypoint.
 
-Aircraft will make a visual departure in the circuit direction and fly overhead YAMB to begin tracking for their initial waypoint. 
+!!! phraseology
+    WOLF03 was assiged the BYRON1 departure with their initial clearance.  
+    **AMB ADC**: "WOLF03, make left turn, reach `F190` by COWIE, cleared for takeoff"  
+    **WOLF03**: "Make left turn, reach `F190` by COWIE, cleared for takeoff, WOLF03"  
 
 | Departure | Initial Constraint | Route |
 | --------- | ----------| --------- |
-| Northern 1 | `F190` at BINUP | BINUP MURJO BOBED LESKO MOSSI/ADNUK (Transition) |
-| Central 1 | `F190` at BINUP | BINUP MURJO BOBED VIRGE |
-| Byron 7 | `F190` at COWIE | COWIE KIWEE ZANET LOTMA SEMAJ |
-
-!!! phraseology
-    WOLF03 was assiged the BYRON7 departure with their intial clearance.  
-    **AMB ADC**: "WOLF03, make left turn, reach `F190` by COWIE, cleared for takeoff"  
-    **WOLF03**: "Make left turn, reach `F190` by COWIE, cleared for takeoff, WOLF03"
+| Northern 3 | `F190` at BINUP | BINUP MURJO BOBED LESKO MOSSI/ADNUK (Transition) |
+| Northern 4 | `F200` at ANKED | ANKED JEZZA BOBED LESKO MOSSI/ADNUK (Transition) |
+| Central 3 | `F190` at BINUP | BINUP MURJO BOBED VIRGE |
+| Central 4 | `F200` at ANKED | ANKED JEZZA BOBED VIRGE |
+| Byron 1 | `F190` at COWIE | COWIE KIWEE ZANET LOTMA SEMAJ |
+| Byron 2 | `F200` at TUGUN | TUGUN LAGOB ZANET LOTMA SEMAJ |
 
 !!! note
-    AMB ACD will record the name of the coded departure in the Global Ops Field of the FDR and amend the flight plan route with all necessary tracking points. 
+    Since the Coded Departures are not SIDs, AMB ACD needs to write the name of the coded departure in the Global Ops Field of the FDR and amend the flight plan route to include all relevant tracking points.
 
-!!! tip
-    Charts for the Coded Departures may be in YAMB AD2 Supplements 6.2.25.11 available here: [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
+!!! abstract "Reference"
+    Charts for the Coded Departures are available in: [YAMB FIHA AD2 Supp Section 6.2.25](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
-## Charts
-!!! note
-    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
+## Civil Operations
+Civil and AAFC conduct flying operations within the South Western Training Area (SWTA). The SWTA is divided in half by the Rosewood-Mt Walker-Aratula Road, SWTA Alpha (north) and SWTA Bravo (south). Once established in the SWTA, aircraft will remain OCTA. 
+
+Pilots may request to enter the CTA and climb above `A025` when operationally required.
+
+**Departures**:
+
+| **Duty Runway** | **Routing** | **Altitude** |
+|-----------------|-----------|--------------|
+| 15              | MTWK      | `A025`         |
+| 33              | CLVT      | `A025`        |
+
+**Arrivals**:
+
+| **Duty Runway** | **Routing** | **Altitude**         |
+|-----------------|-----------|----------------------|
+| 15              | CLVT      | `A025` or `A015`        |
+| 33              | MTWK      | `A025` or `A015`       |
+
+!!! phraseology  
+    **AMB TCU**: "ASTR203, shortly entering SWTA, identification and control services terminated, frequency change approved. Contact me prior to leaving for airways clearance"  
+    **ASTR203**: "Wilco, ASTR203"  
+
+    **ASTR203**: "Amberley Approach, ASTR203, exciting SWTA, request airways clearance"  
+    **AMB TCU**: "ASTR203, Amberley Approach, identified, cleared to enter controlled airspace tracking direct MTWK, maintain A015, Amberley QNH 1016"  
+    **ASTR203**: "Cleared to enter controlled airspaace direct MTWK, maintain A015, QNH 1016, ASTR203"  
+
+Once aircraft are overhead the inbound VFR waypoint, transfer the aircraft to ADC.
+
+!!! phraseology  
+    **AMB TCU**: "ASTR203, at MTWK, contact Tower"  
+    **ASTR203**: "Wilco, ASTR203"  
+
+
 
 ## Coordination
 ### AM/OK ADC
@@ -106,9 +139,9 @@ OK ADC owns the airspace within 5 DME of the OK VOR from `SFC` to `A025`.
 'Next' coordination is required from AMB ADC to AMB TCU for all aircraft.
 
 !!! phraseology
-    <span class="hotline">**AMB ADC** -> **AMB TCU**</span>: "Next, ASY01, runway 33"  
-    <span class="hotline">**AMB TCU** -> **AMB ADC**</span>: "ASY01, Assigned Heading Right 030, unrestricted"  
-    <span class="hotline">**AMB ADC** -> **AMB TCU**</span>: "Assigned Heading Heading Right 030, ASY01"  
+    <span class="hotline">**AMB ADC** -> **AMB TCU**</span>: "Next, STAL56, runway 33"  
+    <span class="hotline">**AMB TCU** -> **AMB ADC**</span>: "STAL56, Right heading 030, unrestricted"  
+    <span class="hotline">**AMB ADC** -> **AMB TCU**</span>: "Right heading 030, STAL56"   
 
 ### INL / BN TCU
 #### Departures
@@ -125,13 +158,17 @@ The Standard Assignable from **OK ADC** to **OK TCU** is the lower of `F120` or 
     <span class="hotline">**BN TCU** -> **AMB TCU**</span>: "DRGN02, `F180`"  
 
 !!! phraseology
-    BUCK03 is assigned the BYRON 7 coded departure. 
+    BUCK03 is assigned the BYRON 1 coded departure.  
     <span class="hotline">**AMB TCU** -> **NSA**</span>: "via COWIE, BUCK3."  
-    <span class="hotline">**NSA** -> **AMB TCU**</span>: "BUCK03, `F190`"  
+    <span class="hotline">**NSA** -> **AMB TCU**</span>: "BUCK03, `F190`"   
 
-#### Arrivals/Overlfies
+#### Arrivals/Overflies
 All aircraft transiting from GOL/DOS/BUR to **AMB TCU** and **OK TCU** must be heads-up coordinated prior to **20nm** from the boundary and aircraft from **BN TCU** to **AMB TCU** only prior to the boundary. Operations within **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels. GOL/DOS/BUR and **AMB TCU**/**OK TCU** controller must agree on a suitable level during coordination.
 
 !!! phraseology
     <span class="hotline">**GOL** -> **AMB TCU**</span>: "via HUUGO, PUMA11, will be assigned A090"  
     <span class="hotline">**AMB TCU** -> **GOL**</span>: "PUMA11, A090"  
+
+## Charts
+!!! note
+    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
