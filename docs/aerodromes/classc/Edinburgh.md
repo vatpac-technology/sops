@@ -27,11 +27,6 @@ The Edinburgh Circuit Area (EDN CIRA) is active at all times when the Edinburgh 
 
 Circuit operations occur within the CTR bounded by the Gawler River to the north and the powerline running from the Gawler River (1.5NM south of the Gawler Township) to the south eastern boundary of the ED CTR. Vertical Limits `SFC` to `A020`
 
-If Parafield RWY 03L is active, it can infringe on the circuit deadside. VFR traffic in the EDN CIRA is instructed to remain on the west of the RWY centreline.
-
-!!! phraseology
-    **EDN ADC**: "CIVIL TRANSIT IN PROGRESS, DEAD-SIDE NOT AVAILABLE"
-
 ### Circuit Heights
 | Type    | Normal Altitude |
 | ------- | --------------- |
