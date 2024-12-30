@@ -47,6 +47,6 @@ Depending on the Runway Mode, additional portions of airspace may be released be
 ## Go-arounds
 When there is a go-around in the middle of a bumper-to-bumper sequence, a fair bit of work needs to be done. Obviously there is the additional work of having to vector the aircraft that has gone around back for an approach, but also trying to find a gap for them in the sequence, where none such gap currently exists. This is an important time to use coordination, and get the Enroute controller to create one for you.
 
-!!! example
+!!! phraseology
     <span class="hotline">**MAE** -> **ELW**</span>: "We've had a Go around. Additional 2 minute delay for all aircraft in this sequence please."  
     <span class="hotline">**ELW** -> **MAE**</span>: "Copy, additional 2 minute delay for all aircraft in this sequence."  

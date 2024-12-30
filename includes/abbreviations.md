@@ -258,6 +258,8 @@
 *[PWLC]: Powerline Crossing
 *[LUY]: Latrobe University
 *[WMS]: Williamstown
+*[NPBR]: Nepean Bridge
+*[KRMD]: Kurmond
 *[YBBB]: Brisbane FIR
 *[YMMM]: Melbourne FIR
 *[NFFF]: Nadi FIR
@@ -307,3 +309,6 @@
 *[TORA]: Takeoff Run Available
 *[BLHS]: Bald Hills
 *[MBHM]: Manly Boat Harbour
+*[MARSA]: Military Authority Assumes Responsibility for Separation of Military Aircraft
+*[NOCOM]: Non-Continuous Communication
+*[AEWC]: Airborne Early Warning and Control

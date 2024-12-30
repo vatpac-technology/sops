@@ -50,7 +50,7 @@ Coordinate the aircraft with ADC, including the use of the appropriate clearance
   <figcaption>Clearance Limits (red) and Approach/Departure Path (green)</figcaption>
 </figure>
 
-!!! example
+!!! phraseology
     **CEY:** "Adelaide Approach, CEY, Cessna 172, 4nm south of PNL, 1,000ft, received charlie, request coastal northbound"  
     **AD TCU:** "CEY, Adelaide Approach, squawk 0542, remain clear of class C airspace"  
     **CEY:** "Squawk 0542, remain OCTA, CEY"  
@@ -71,7 +71,7 @@ Once the aircraft has transited the extended runway centreline and is clear of p
 ### PF ADC Offline
 Due to the low level of CTA at YPPF, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
-!!! example
+!!! phraseology
     **ABC**: "Adelaide Approach, ABC, PC12, POB 8, IFR, taxiing YPPF for YPAG, Runway 21R"   
     **AD TCU**: "ABC, Adelaide Approach, Squawk 3601, no reported IFR traffic, report ready at the holding point for airways clearance"  
     **ABC**: "Squawk 3601, wilco, ABC"  
@@ -153,7 +153,7 @@ Voiceless for all aircraft:
 
 All other aircraft going to TBD CTA must be **Heads-up** Coordinated by AD TCU prior to the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**AD TCU** -> **TBD**</span>: "PFY1234, request DCT LOLLS"  
     <span class="hotline">**TBD** -> **AD TCU**</span>: "PFY1234, concur DCT LOLLS"  
 
@@ -173,7 +173,7 @@ All other aircraft coming from TBD CTA will be **Heads-up** Coordinated to AD TC
   b) Assigned the standard assignable level; and  
   c) Assigned a **Procedural** SID
 
-!!! example
+!!! phraseology
     <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Next, ABC, runway 05"  
     <span class="hotline">**AD TCU** -> **AD ADC**</span>: "ABC, Track Extended Centreline, unrestricted"  
     <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Track Extended Centreline, ABC"
@@ -185,7 +185,7 @@ For Non-Jets: The lower of `A040` or the `RFL`
 ### AD TCU Internal
 All aircraft transiting between internal AD TCU boundaries must be heads-up coordinated.
 
-!!! example
+!!! phraseology
     <span class="hotline">**AAW** -> **AAE**</span>: "via AD, FD123"  
     <span class="hotline">**AAE** -> **AAW**</span>: "FD123, A090"   
 
@@ -200,7 +200,7 @@ Refer to [Reclassifications](#pf-ctr) for operations when PF ADC is offline.
 #### Departures
 When the aircraft is ready for departure, PF ADC will coordinate with AD TCU for permission to release the aircraft into CTA.
 
-!!! example
+!!! phraseology
     <span class="hotline">**PF ADC** -> **AAW**</span>: "Next, XMM, 03L"  
     <span class="hotline">**AAW** -> **PF ADC**</span>: "XMM, Heading 020, unrestricted"  
     <span class="hotline">**PF ADC** -> **AAW**</span>: "Heading 020, XMM"
@@ -212,7 +212,7 @@ AD TCU will heads-up coordinate arrivals/overfliers from Class C to PF ADC prior
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to PF ADC, unless PF ADC nominates a restriction.  
 VFR aircraft require a level readback.
 
-!!! example
+!!! phraseology
     <span class="hotline">**AAW** -> **PF ADC**</span>: "via PAL, YTS"  
     <span class="hotline">**PF ADC** -> **AAW**</span>: "YTS, A010"
 
@@ -220,13 +220,13 @@ VFR aircraft require a level readback.
 #### Departures
 Aircraft departing YPED in to AD TCU Class C will be coordinated from **EDN ADC** at Taxi.
 
-!!! example
+!!! phraseology
     <span class="coldline">**EDN ADC** -> **AD TCU**</span>: "Taxi, BLKT11 for YMES, via VIRAT"  
     <span class="coldline">**AD TCU** -> **EDN ADC**</span>: "BLKT11"  
 
 When the aircraft is ready for takeoff, **EDN ADC** will give a "Next" call, where AD TCU will provide the cleared level.
 
-!!! example
+!!! phraseology
     <span class="hotline">**EDN ADC** -> **AD TCU**</span>: "Next, BLKT11, runway 18"  
     <span class="hotline">**AD TCU** -> **EDN ADC**</span>: "BLKT11, A050"  
     <span class="hotline">**EDN ADC** -> **AD TCU**</span>: "A050, BLKT11"
@@ -234,6 +234,6 @@ When the aircraft is ready for takeoff, **EDN ADC** will give a "Next" call, whe
 #### Arrivals
 AD TCU Must coordinate the sequence information to **EDN ADC** prior to transfer of jurisdiction.
 
-!!! example
+!!! phraseology
     <span class="coldline">**AD TCU** -> **EDN ADC**</span>: "New sequence of 2. MRNR21, via AD, Number 1. MRNR22, via AD, Number 2"  
     <span class="coldline">**EDN ADC** -> **AD TCU**</span>: "MRNR21, Number 1. MRNR22, Number 2"  
