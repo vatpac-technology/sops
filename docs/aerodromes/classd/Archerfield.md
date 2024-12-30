@@ -49,9 +49,9 @@ VFR departures will depart the control zone at `A010`.
 Aircraft should advise planned Departure Procedure to **AF SMC** with TAXI call and **AF ADC** with READY call.
 
 !!! phraseology
-    **VPF:** "Archer Ground, Cherokee VPF is on the Main Apron, solo, Western Departure, received information Alpha, request taxi"
+    **VPF:** "Archer Ground, Cherokee VPF, Main Apron, for a Western Departure, received information Alpha, request taxi"
 
-    **VPF:** "Archer Tower, Cherokee VPF is B8, runway 10 Left for Western Departure, ready"
+    **VPF:** "Archer Tower, Cherokee VPF, holding point B8, runway 10 Left, for Western Departure, ready"
 
 ## Circuits
 The circuit direction changes depending on time of day and runway being used.
@@ -69,6 +69,67 @@ The circuit direction changes depending on time of day and runway being used.
 
 Circuits are to be flown at `A010`.
 
+## Helicopter Operations
+Archerfield has three helipads located around the aerodrome:
+
+- **Central Helipad**, on the southern side of Taxiway Foxtrot
+- **Northern Helipad**, adjacent the north-eastern end of Runway 04R/22L
+- The **Queensland Government Air facility** used by rescue helicopters, north of Taxiway B5
+
+!!! note
+    Both the **Northern** and **Central** helipads are inside the maneuvering area and treated like a runway, requiring a takeoff and landing clearance from AF ADC. Helicopters operating on other surfaces outside the maneuvering areas should be instructed to *"report airborne"*  or *"report on the ground"* so the controllers knows when they are active / no longer active in their airspace. 
+
+### Training Areas
+There are 3 designated helicopter training areas at Archerfield:
+
+**Area A**: North of Taxiway B within the confines of the aerodrome boundary, clear of all buildings, not above `A005`. Circuit direction and frequency as per ATIS. A maximum of 3 helicopters are permitted to operate circuits concurrently. Additionally, a maximum of 2 helicopters are permitted to operate in ground effect only.
+
+**Area B**: North and west of Runway 04L within the confines of the aerodrome boundary, clear of all buildings, not above `A005`. Circuit direction and frequency as per ATIS. A maximum of 3 helicopters are permitted to operate circuits concurrently. Additionally, a maximum of 2 helicopters are permitted to operate in ground effect only.
+
+**Area C**: South and east of Taxiway D, inside the fixed wing circuit for runway 04R/22L, east of the control tower, not above `A008`. Landings must be conducted north of Taxiway B. Once established, the only radio communications are an airborne call before each circuit and a downwind call by pilots. A maximum of 2 helicoptesr are permitted to operate in this area concurrently.
+
+<figure markdown> 
+  ![Archerfield Helicopter Training Areas](img/ybaf_helicopter_area.png){ width="450" }
+  <figcaption>Archerfield Helicopter Training Areas</figcaption>
+</figure>
+
+
+### Departures
+Helicopters depart the zone via any of the [designated outbound routes](#vfr-departure-procedures). Departures shall be parallel to and clear of the duty runways.   
+
+#### Uni Departure
+Departures with intended entry into BN CTR northbound shall depart the zone via the **Uni Departure**. Aircraft on the Uni Departure depart via UQLD at `A010`, then contact BN TCU for airways clearance. No heads-up coordination with BN TCU is required.
+
+!!! phraseology 
+    **TUY:** "Archer Tower, helicopter TUY, northen pad, for uni departure, ready"  
+    **AF ADC:** "TUY, Archer Tower, northen pad, cleared for takeoff"  
+    **TUY:** "Cleared for takeoff, northen pad, TUY"
+
+### Arrivals
+Helicopters enter the zone from any of the [designated inbound reporting points](#vfr-arrival-procedures). Pilots shall nominate their desired HLS on first contact with AF ADC. If necessary, helicopters may be instructed to overfly the runway complex not below `A005` for a short circuit to the designated HLS.
+
+!!! phraseology 
+    **82Y:** "Archer Tower, helicopter 82Y, UQLD A010, recieved Foxtrot, inbound northern pad"  
+    **AF ADC:** "82Y, Archer Tower, track direct northen pad, report 1 mile"  
+    **82Y:** "Track direct northern pad, 82Y"  
+
+    **82Y:** "82Y, 1 mile, northern pad"  
+    **AF ADC:** "82Y, cleared to land northern pad"  
+    **82Y:** "Cleared to land northen pad, 82Y"
+
+Helicopters inbound for the Queensland Government Air facility HLS shall be issued a standard fixed wing circuit instruction for the applicable duty runway, complying with fixed wing operations unless another approach is requested or desired.
+
+Helicopters inbound from the south via PKR for either the northen or central helipad shall be instructed to "cross 10L and 10R" alongside any other tracking or traffic information.
+
+!!! phraseology 
+    **SMD:** "Archer Tower, helicopter SMD, PKR A015, recieved Golf, inbound central pad"  
+    **AF ADC:** "SMD, Archer Tower, report Logan Motorway"  
+    **SMD:** "Report Logan Motorway, SMD"  
+
+    **SMD:** "SMD, Logan Motorway"  
+    **AF ADC:** "SMD, track direct central pad, cross 10L and 10R"  
+    **SMD:** "Track direct central pad, crossing 10L and 10R, SMD"
+
 ## ATIS
 ### Runway Nomination
 
@@ -85,6 +146,12 @@ The ATIS must indicate the current runway config and nominate what each runway i
 The APCH field should include `EXP INST APCH` when:   
   - the ceiling is at or below `A029`; or  
   - visibility is less than 5000m  
+
+### Helicopter Area
+The ATIS must indicate the current active helicopter area, refer to [Training Areas](#training-areas).
+
+!!! example  
+    OPR INFO: **HELICOPTER AREA A ACTIVE**  
 
 ## Coordination
 

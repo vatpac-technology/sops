@@ -112,13 +112,45 @@ Due to the low level of CTA (`A015`) in the AF CTR when **AF ADC** is offline, i
 Due to the low level of CTA (`A035`) in the CG CTR when **CG ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
 !!! phraseology
-    **JST446**: "Brisbane Approach, JST446, A320, IFR, Taxiing YBCG for YSSY, Runway 214"   
-    **BN TCU**: "JST446, Brisbane Approach, Squawk 3601, No Reported IFR Traffic, Report Ready at the Holding Point for Airways Clearance"  
-    **JST446**: "Squawk 3601, Wilco, JST446"  
+    **JST446**: "Brisbane Approach, JST446, A320, IFR, taxiing YBCG for YSSY, runway 14"   
+    **BN TCU**: "JST446, Brisbane Approach, squawk 3601, no reported IFR traffic, report ready at the holding point for airways clearance"  
+    **JST446**: "Squawk 3601, wilco, JST446"  
 
-    **JST446**: "JST446, Ready Runway 14, Request clearance"  
-    **BN TCU**: "JST446, Cleared to YSSY via APAGI, Flight Planned Route. Climb to A060"  
-    **JST446**: "Cleared to YSSY via APAGI, Flight Planned Route. Climb to A060, JST446"
+    **JST446**: "JST446, ready runway 14, request clearance"  
+    **BN TCU**: "JST446, cleared to YSSY via APAGI, flight planned route, climb to A060"  
+    **JST446**: "Cleared to YSSY via APAGI, flight planned route, climb to A060, JST446"
+
+## Helicopter Operations
+### City Scenic Flights
+Helicopters conducting scenic flights around the city require access to the Brisbane CTA to operate. These flights typically involve low-level operations inside controlled airspace and in proximity to landmarks within the city area.
+
+Aircraft must track via Class G airspace to UQLD and contact BN TCU prior to reaching UQLD requesting airways clearance. Attempt to identify the aircraft, and if a clearance cannot be given immediately, instruct the pilot to remain clear of Class C airspace.
+
+!!! phraseology 
+    **FHK**: "Departures, helicopter FHK, 2 miles south UQLD `A010`, for city scenic, request airways clearance"  
+    **BN TCU**: "FHK, Departures, squawk 1562, remain outside Class C airspace"  
+    **FHK**: "Squawk 1562, remain OCTA, FHK"  
+
+    **BN TCU**: "FHK, identified, cleared to enter controlled airspace remaining west of SBD, not above `A010`, Brisbane QNH 1026"  
+    **FHK**: "Cleared to enter controlled airspace remaining west of SBD, not above `A010`, QNH 1026, FHK"
+
+Due to the close proximity to YBBN, it may be necessary to instruct helicopters to maintain visual separation with arriving or departing aircraft.
+
+!!! phraseology 
+    **BN TCU**: "FHK, report sighting an Embraer E190 departing runway 19R, through `A008` on climb."  
+    **FHK**: Traffic in sight, FHK"  
+    **BN TCU**: "FHK, maintain own seperation with the E190"  
+    **FHK**: "Maintain own seperation, FHK"  
+
+    **BN TCU**: "QFA1864, traffic is a helicopter operating over the CBD not above `A010`, maintaining own separation with you"  
+    **QFA1864:** "QFA1864"
+
+Once the aircraft exits the CTA, cancel their identification and control services.
+
+!!! phraseology 
+    **FHK**: "FHK, excited the zone"  
+    **BN TCU**: "FHK, identification and control service terminated, frequency change approved"  
+    **FHK**: "Frequency change approved, FHK"  
 
 ## Coordination
 ### Enroute

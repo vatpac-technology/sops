@@ -191,6 +191,7 @@
 *[DSN]: Doncaster Shopping Town
 *[ADWD]: Adventure World
 *[TVT]: TV Towers
+*[SBD]: Story Bridge
 *[FREM]: Fremantle Golf Course
 *[YGB]: Yangebup Lake
 *[FDL]: Forestdale Lake
@@ -247,7 +248,7 @@
 *[HNLY]: Henley Jetty
 *[GRB]: Georges River Bridge
 *[GON]: Goodna
-*[PKR]: Park Ridge
+*[PKR]: Park Ridge Water Tower
 *[TAR]: Target
 *[CBRG]: Centenary Bridge
 *[WTBG]: Walter Taylor Bridge
@@ -310,6 +311,8 @@
 *[CPDLC]: Controller-Pilot Datalink Communications
 *[LDA]: Landing Distance Available
 *[TORA]: Takeoff Run Available
+*[UQLD]: University of Queensland
+*[HLS]: Helicopter Landing Site
 *[MARSA]: Military Authority Assumes Responsibility for Separation of Military Aircraft
 *[NOCOM]: Non-Continuous Communication
 *[AEWC]: Airborne Early Warning and Control
