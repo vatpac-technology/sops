@@ -95,6 +95,38 @@ These standard runway assignments may be modified strategically by the BAS or BF
 !!! example
     **BAS:** “QFA660, Turn left heading 040, join final Runway 01L, from that heading Cleared Independent Visual Approach Runway 01L, not below 2400 until established on the PAPI”    
 
+## Helicopter Operations
+In VMC, helicopters inbound to or outbound from YBBN shall be processed via two visual waypoints (outlined below) positioned north and south of the field. Where VMC does not exist, IFR helicopters will conform to fixed wing ops.
+
+
+| Direction of Flight  | Inbound/Outbound Tracking Point |
+| ------------------ | -------------- |
+| North      | BLHS   |
+| South      | MBHM   |
+| East      | MBHM   |
+| West      | BLHS   |
+
+### Departures
+BN ADC will clear outbound helicopters via the [appropriate waypoint](#helicopter-operations) and transfer the aircraft to TCU. Where VMC does not exist, IFR helicopters will be assigned the **BN (RADAR) SID** and processed as per fixed wing ops.
+
+### Arrivals
+Helicopters arriving to YBBN during VMC shall be cleared by **BN TCU** via the appropriate [inbound waypoint](#helicopter-operations), with that waypoint issued as the clearance limit. TCU shall coordinate the arrival with ADC and transfer the aircraft approaching the clearance limit.
+
+!!! phraseology
+    **X6G**: "Brisbane Approach, helicopter X6G, 14nm north of Brisbane, A010, inbound, received Bravo, request clearance"  
+    **BN TCU**: "X6G, Brisbane Approach, remain outside Class C airspace, squawk 0445"  
+    **X6G**: "Remain OCTA, squawk 0445, X6G"  
+
+    <span class="hotline">**TCU** -> **ADC**</span>: "North, helicopter X6G, inbound at A010, clearance limit BLHS"  
+    <span class="hotline">**ADC** -> **TCU**</span>: "X6G"  
+
+    **BN TCU**: "X6G, identified, cleared to YBBN via BLHS, maintain A010, clearance limit BLHS"  
+    **X6G**: "Cleared to YBBN via BLHS, maintain A010, clearance limit BLHS, X6G"  
+
+    **BN TCU**: "X6G, contact Brisbane Tower, 120.5" 
+
+**BN ADC** will assess the traffic situation and clear the aircraft for a visual approach to their nominated landing site.
+
 ## Offline Towers
 ### AF ADC Offline
 Due to the low level of CTA (`A015`) in the AF CTR when **AF ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
