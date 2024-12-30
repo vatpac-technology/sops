@@ -110,6 +110,13 @@ VFR aircraft require a level readback.
 !!! tip
     Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D. You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.
 
+## Taxi Routes
+Taxiway Bravo crosses through the Undershoots of Runway 26L and 26R. As per YPPF Aerodrome Chart, a `Clearance is Required` to taxi through these areas, using the same phraseology as normal Runway Crossings.
+
+!!! phraseology 
+    **PF SMC:** "USP, On Bravo cross the undershoots of Runway 26L and 26R. Taxi to Holding Point B1, Runway 03L."
+    **USP:** "On Bravo cross undershoots of Runway 26L & 26R. Taxi to Holding Point B1 Runway 03L, USP."
+
 #### ADC 2 Online
 When ADC 2 is online, AD TCU may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
 
