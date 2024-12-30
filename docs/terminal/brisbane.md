@@ -112,13 +112,13 @@ Due to the low level of CTA (`A015`) in the AF CTR when **AF ADC** is offline, i
 Due to the low level of CTA (`A035`) in the CG CTR when **CG ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
 !!! phraseology
-    **JST446**: "Brisbane Approach, JST446, A320, IFR, Taxiing YBCG for YSSY, Runway 214"   
-    **BN TCU**: "JST446, Brisbane Approach, Squawk 3601, No Reported IFR Traffic, Report Ready at the Holding Point for Airways Clearance"  
-    **JST446**: "Squawk 3601, Wilco, JST446"  
+    **JST446**: "Brisbane Approach, JST446, A320, IFR, taxiing YBCG for YSSY, runway 14"   
+    **BN TCU**: "JST446, Brisbane Approach, squawk 3601, no reported IFR traffic, report ready at the holding point for airways clearance"  
+    **JST446**: "Squawk 3601, wilco, JST446"  
 
-    **JST446**: "JST446, Ready Runway 14, Request clearance"  
-    **BN TCU**: "JST446, Cleared to YSSY via APAGI, Flight Planned Route. Climb to A060"  
-    **JST446**: "Cleared to YSSY via APAGI, Flight Planned Route. Climb to A060, JST446"
+    **JST446**: "JST446, ready runway 14, request clearance"  
+    **BN TCU**: "JST446, cleared to YSSY via APAGI, flight planned route, climb to A060"  
+    **JST446**: "Cleared to YSSY via APAGI, flight planned route, climb to A060, JST446"
 
 ## Helicopter Operations
 ### City Scenic Flights
