@@ -81,8 +81,6 @@ Aircraft outbound from YAMB for the SWTA will exit the CTR at `A025` via the fol
 | 33              | CLVT      |
 | 04 or 22        | As required |
 
-Once the aircraft is clear of the zone, cancel their control service.
-
 ### Inbound Aircraft
 Inbound aircraft will contact AMB TCU when ready to return to YAMB. They shall be cleared via the following waypoints, at either `A015` or `A025` (as desired):
 
