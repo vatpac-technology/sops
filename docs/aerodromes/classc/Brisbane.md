@@ -179,7 +179,7 @@ If holding is required prior to arrival, helicopters shall be instructed to hold
     **X6G**: "Cancel clearance limit, track to and hold at the Brisbane Entertainment Centre, maintain A010, X6G"
 
     **BN ADC**: "X6G, report sighting, and able to maintain own separation with, a Qantas 737, 4nm final runway 19R"  
-    **X6G**: "Traffic sighted, X6G"  
+    **X6G**: "Traffic sighted, and we are able to maintain own separation. X6G"  
     **BN ADC**: "X6G, cancel hold, pass behind the 737, maintain own separation, caution wake turbulence, cleared visual approach F4"  
     **X6G**: "Cancel hold, pass behind the 737, maintain own separation, cleared visual approach F4, X6G"
 
