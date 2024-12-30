@@ -143,7 +143,7 @@ In VMC, all helicopters shall be processed via two visual waypoints (outlined be
 ### Departures
 Where a helicopter has not filed via the appropriate waypoint, they should be rerouted.
 
-!!! example
+!!! phraseology
     **RSCU533:** "Brisbane Delivery, helicopter RSCU533, MEDEVAC, for YXHE, request clearance"  
     **BN ACD:** "RSCU533, Brisbane Delivery, cleared to YXHE via amended BLHS, YXHE, climb A025, squawk 1256, departure frequency 124.7"  
     **RSCU533:** "Cleared to YXHE via amended BLHS, YXHE, climb A025, squawk 1256, departures 124.7, RSCU533"
