@@ -11,7 +11,7 @@ PIY has *no Restrictions or Requirements* on YPPH departures tracking DCT **ESDE
 ### Leeman (LEA)
 LEA will be responsible for ensuring the separation of aircraft in the Enroute phase of flight. No sequencing actions are required.
 
-!!! caution
+!!! warning "Caution"
     During the 03A06D Runway Mode at YPPH, LEA should look out for aircraft converging at **ESDEG** at the same time and level. Use vertical separation wherever possible.
 
 ### Geraldton (GEL), Meekatharra (MEK), Onslow (OLW)
@@ -19,7 +19,7 @@ GEL, MEK, and OLW will be responsible for ensuring the separation of aircraft in
 
 Aircraft shall have their **identification terminated** on handoff to INE, and instructed to give a **PAVNU** Position Report on first contact.
 
-!!! example
+!!! phraseology
     **OLW:** "BTK6081, at PAVNU, Identification terminates. Contact Brisbane Radio 123.65 with PAVNU Position Report"  
 
 ### Indian East (INE)

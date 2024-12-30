@@ -44,21 +44,21 @@ The TCU controller will coordinate these aircraft with ADC prior to issuing airw
   <figcaption>Clearance Limits (red) and Approach/Departure Path (green)</figcaption>
 </figure>
 
-!!! example
+!!! phraseology
     *CNY is a VFR Cessna 172 tracking coastal northbound, approaching PNL. They have contacted AD TCU for clearance.*    
     <span class="hotline">**TCU** -> **ADC**</span>: "South of PNL, CNY, for coastal northbound, 500ft, clearance limit BTJ"  
     <span class="hotline">**ADC** -> **TCU**</span>: "CNY"
 
 If a delay is expected at the clearance limit, instruct the aircraft to hold there.
 
-!!! example 
+!!! phraseology 
     **CNY:** "Adelaide Tower, CNY, maintaining not above 500ft"  
     **AD ADC:** "CNY, Adelaide Tower, hold at the clearance limit, expect onwards clearance in 5 minutes due inbound traffic"  
     **CNY:** "Hold at the clearance limit, CNY"  
 
 Once the conflict is no longer a threat (or if no holding was required in the first place), cancel the clearance limit and issue onwards clearance tracking coastal north/southbound at the desired level.
 
-!!! example 
+!!! phraseology 
     **AD ADC:** "CNY, cancel clearance limit, track coastal offshore northbound, not above 500ft"  
     **CNY:** "Cancel clearance limit, track coastal offshore northbound, not above 500ft, CNY"
 
@@ -111,7 +111,7 @@ Shall be assigned the **Radar SID**.
 
 All other aircraft require a 'Next' call to AD TCU.
 
-!!! example
+!!! phraseology
     <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Next, RXA4362, Runway 23"  
     <span class="hotline">**AD TCU** -> **AD ADC**</span>: "RXA4362, Track Extended Centreline, Unrestricted"  
     <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Track Extended Centreline, RXA4362"  

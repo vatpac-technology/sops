@@ -88,7 +88,7 @@ Assign VFR routes in accordance with the following radial chart:
 ### DN TCU
 Auto-Release is **not available** at YPDN. All Departures will be coordinated when ready for departure.
 
-!!! example
+!!! phraseology
     <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Next, EOC, runway 18"  
     <span class="hotline">**DN TCU** -> **DN ADC**</span>: "EOC, Track Extended Centreline, unrestricted"  
     <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Track Extended Centreline, EOC"  

@@ -36,19 +36,19 @@ SY ACD will issue airways clearance for a Helicopter Route through a coded clear
 !!! tip
     You can find details of each Helicopter Route (including applicable clearance limits) in the `ERSA FAC YSSY`.
 
-!!! example
+!!! phraseology
     **YOE:** "Sydney Delivery, helicopter YOE, for the Harbour Bridge 5 outbound, request clearance"  
     **SY ACD:** "YOE, Delivery, cleared Harbour Bridge 5 outbound, squawk 0215, departure frequency 123.0"  
     **YOE:** "Cleared Harbour Bridge 5 outbound, squawk 0215, departure frequency 123.0, YOE"
 
 Most helicopters will be capable of departing from their company helipad.  If reposition is required to Helipad 1 (the primary helipad), this must be approved by **SY ADC**.
-!!! example
+!!! phraseology
     **YOE:** "Sydney Tower, helicopter YOE, Hotel 7, request reposition Hotel 1"  
     **SY ADC:** "YOE, reposition approved"  
     **YOE:** "Reposition approved, YOE"
 
 Helipad 1 is controlled by **SY ADC** and treated like a runway (takeoff clearances required).  All other pads are outside Tower's jurisdiction and do not require a takeoff/landing clearance, however, approval must still be sought for helicopters to become airborne in the SY CTR.  This approval is communicated in the form of a requirement to *'report airborne'*.
-!!! example
+!!! phraseology
     **HWD:** "Sydney Tower, helicopter HWD, Hotel 7, for the Harbour Bridge 5 outbound, ready"  
     **SY ADC:** "HWD, Sydney Tower, report airborne"  
     **HWD:** "HWD"  
@@ -58,7 +58,7 @@ Helipad 1 is controlled by **SY ADC** and treated like a runway (takeoff clearan
     **HWD:** "Departures, HWD"
 
 Helicopter operations should be accommodated without unduly delaying fixed wing traffic to/from the aerodrome.  Where possible, visually separate helicopters and fixed wing aircraft, and when necessary, delegate responsibility for separation to the helicopter.
-!!! example
+!!! phraseology
     **SY ADC:** "HSZ, traffic is a 737 shortly rolling on runway 34R, report in sight"  
     **HSZ:** "Traffic sighted, HSZ"  
     **SY ADC:** "HSZ, maintain own separation, caution wake turbulence, report airborne"  
@@ -69,7 +69,7 @@ VFR helicopters are generally processed via by one of Sydney's Helicopter Routes
 
 SY TCU will clear helicopters for all inbound Helicopter Routes, with the exception of the `CAPE BANKS 5 INBOUND` and `WANDA 5 INBOUND`.  Tower controllers should assess the current traffic situation and issue clearances for these aircraft when available.  Each procedure is delivered as a coded clearance, which includes automatic altitude assignment, tracking, and a clearance limit designed to separate helicopters from fixed-wing aircraft.
 
-!!! example
+!!! phraseology
     **YZD:** "Sydney Tower, helicopter YZD, JIBN, A005, received Tango, request Cape Banks 5 Inbound"  
     **SY ADC:** "YZD, Sydney Tower, cleared Cape Banks 5 Inbound, report at the Container Terminal"  
     **YZD:** "Cleared Cape Banks 5 Inbound, YZD"  
@@ -82,7 +82,7 @@ SY TCU will clear helicopters for all inbound Helicopter Routes, with the except
     You can find details of each Helicopter Route (including applicable clearance limits) in the `YSSY ERSA FAC`.
 
 During times of peak fixed wing traffic, instruct helicopters to hold at their designated clearance limit on their Helicopter Route and maintain own separation on approach to the heliport.
-!!! example
+!!! phraseology
     **SY ADC:** "YOE, hold at the clearance limit, traffic is a 717 on a 4nm final to runway 25, report in sight"  
     **YOE:** "Hold at the clearance limit, traffic sighted, YOE"  
     **SY ADC:** "YOE, pass behind that aircraft, maintain own separation, caution wake turbulence, cleared visual approach, report on the ground"  
@@ -124,7 +124,7 @@ When both ADC and SMC are online, SMC shall issue aircraft departing on runway 1
 | Runway 16L | Holding point `B10` |
 | Runway 34R | Taxiway `S` |
 
-!!! example
+!!! phraseology
     **SY SMC:** "VOZ853, taxi Charlie, cross runway 25, hold short Sierra"  
     **VOZ853:** "Taxi Charlie, cross runway 25, hold short Sierra, VOZ853"  
 
@@ -133,13 +133,13 @@ When both ADC and SMC are online, SMC shall issue aircraft departing on runway 1
 
 Aircraft landing on runway 16L/34R are expected to vacate the runway and taxi via the standard taxi routes to join taxiway Lima. If pilots are unfamiliar with local procedures, they should be instructed by **ADC** to taxi accordingly. Where possible, outbound aircraft should give way to inbound aircraft to avoid creating congestion at the runway exits.
 
-!!! example
+!!! phraseology
     **SY ADC**: "JAL52, taxi Tango, Lima, on Lima contact Ground 121.7"
 
 ### Transferring Between SMCs
 When both SMC positions are online and an aircraft is to be passed from one to the other (e.g. an aircraft taxis from the domestic terminal for runway 34L), they should be instructed to hold short of runway 16R/34L and to contact the next SMC frequency.
 
-!!! example
+!!! phraseology
     **SMC East**: "JST412, cross runway 25, taxi Lima, hold short runway 34L, on Lima contact ground 126.5"  
     **JST412**: "Cross runway 25, taxi Lima, hold short runway 34L, contact ground 126.5, JST412"  
 
@@ -174,7 +174,7 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 *Permitted between the hours of 2300 and 0600 Local. If the pilot does not want to participate in curfew mode operations, the controller must accommodate this request.
 
 !!! note
-    In general, the SODPROPS, 16D/07A, and 25D/34A modes are most suitable for Noise Abatement. The PROPS modes are most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Milk Run Monday or Panic Stations.
+    In general, the SODPROPS, 16D/07A, and 25D/34A modes are most suitable for noise abatement. The PROPS modes are most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Milk Run Monday or Panic Stations.
 
 !!! tip
     Take in to account an aircraft's weight when runways 16L/34R or 07/25 are in use. Heavier aircraft may operationally require the longer Runway 16R/34L, or pilots may prefer a departure from 16R instead of 16L so they have a shorter taxi. If in doubt, ask the pilot and try to be accommodating of these requests.
@@ -182,14 +182,14 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 ### SODPROPS
 When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time.
 
-!!! example
+!!! phraseology
     **SY ADC:** "JST521, traffic is a 737 on a 3nm final for the opposite direction parallel runway, runway 16L, cleared for takeoff"  
     **JST521:** "Runway 16L, cleared for takeoff, JST521"  
     **SY ADC:** "VOZ954, traffic is an A320 departing from the opposite direction parallel runway to the southeast, runway 34L, cleared to land"  
     **VOZ954:** "Runway 34L, cleared to land, VOZ954"  
 
 ### Heliport Responsibility
-When runway 25 is in use, the responsibility for management of the helicopter area falls to **ADC West**. When runway 25 is not in use, **ADC East** (if online) takes responsibility for the heliport.
+When runway 07 or 25 is in use for either arrivals or departures, the responsibility for management of the helicopter area and associated arriving and departing helicopters falls to **ADC West**. During all other runway modes, **ADC East** (if online) takes responsibility for the heliport.
 
 ## Parallel Runway Operations
 Refer to [Parallel Runway Separation Standards](../../../separation-standards/parallelapps) for more information
@@ -235,7 +235,7 @@ Unless operationally required, aircraft shall be assigned the following runways 
 | Type  | Via  | SID     |
 | ------| ---- | --------|
 | Jet  | OLSEM<br>NOBAR<br>DIPSO<br>EVONN<br>CAWLY<br>OPTIC | **KEVIN** SID, Relevant Transition |
-| Jet  | WOL | **ABBEY** SID, WOL Transition |
+| Jet  | WOL | **ABBEY** SID |
 | Jet  | All others | **KEVIN** SID, RADAR Transition |
 | Non-Jet | All | **RADAR** SID |
 
@@ -284,7 +284,7 @@ Climb Gradient Requirements apply to all Procedural SIDs. It is the pilot's resp
 | Between 2000FT & 3000FT| >5000M         | `EXP INSTR APCH THEN INDEP VISUAL APCH WHEN VISUAL`|
 | Below 2000FT **or**    | <5000M         | `EXP INSTR APCH`                |
 
-!!! Important
+!!! warning "Important"
     Independent Visual Approaches (IVAs) may only be run during Parallel Runway Operations (PROPS). During single runway operations, regular visual approaches (blank ATIS 'APCH' field) should be used instead.
 
 When Independent Visual Approaches are run during PROPS, the APCH field must also include `DO NOT PASS THRU ASSIGNED RWY CL`.
@@ -314,7 +314,7 @@ When [Coordinator](#sydney-coordinator) is online and start approval is required
 ## Sydney Coordinator
 Sydney Coordinator is activated to reduce frequency congestion on SMC and ensure compliance with pre-determined slot times. The position is only beneficial with large amounts of traffic and when performed carefully and deliberately. When Coordinator is online, all departures are first directed to them prior to monitoring SMC, thus reducing one radio call per aircraft on the SMC frequency.
 
-!!! important
+!!! warning "Important"
     Sydney Coordinator is a non-standard position which may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.
 
 !!! tip
@@ -339,10 +339,10 @@ The decision whether or not to send an aircraft to SMC or hold them on the Coord
 !!! tip
     Remember that the **bottom** aircraft represents the **front** of the queue.
 
-!!! important
+!!! warning "Important"
     If SMC needs to reduce the pushback rate due to congestion at the holding points or excessive workload, **Coordinator** should be informed without delay, and instructed to hold all departures on their frequency. This will stop aircraft being told to monitor the SMC frequency. Remember to cancel this requirement when congestion eases.
 
-!!! example
+!!! phraseology
     **VOZ543:** "Sydney Delivery, VOZ543, PDC read back"  
     **SY ACD:** "VOZ543, go ahead the read back"  
     **VOZ543:** "Runway 34R, OLSEM1 departure, squawk 1336, bay 33, VOZ543"  
@@ -358,7 +358,7 @@ The decision whether or not to send an aircraft to SMC or hold them on the Coord
 
 If a delay is required prior to transferring an aircraft to SMC, provide an estimated delay value to the pilot or advise them of their position in the queue.
 
-!!! example
+!!! phraseology
     **VOZ543:** "Sydney Coordinator, VOZ543, bay 33, request pushback"  
     **SY COORD:** "VOZ543, estimated delay 10 minutes, remain this frequency."
 
@@ -372,7 +372,7 @@ To reduce SMC workload, ACD should not allow more than **three** aircraft to be 
 
 When SMC moves an aircraft from below the **Monitor Ground** bar to the **Pushback Bay**, Coordinator should instruct the next aircraft in line to monitor the SMC frequency (and move the strip appropriately).
 
-!!! important
+!!! warning "Important"
     Strips must remain in the strip bay of their **current state**, even if they are in a queue. For example, if they have received an airways clearance and are in the queue for pushback, they must remain in the **Cleared Bay**, **not** the Pushback Bay.
 
 #### Start Approval
@@ -390,7 +390,7 @@ During busy events, VATPAC may utilise prebooked slots to manage traffic congest
 
 ## Coordination
 ### Auto Release
-!!! important
+!!! warning "Important"
     YSSY utilises auto release for all **Procedural** SIDs (except **ABBEY** SID during SODPROPS), and the **SY (RADAR)** SID provided aircraft are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
 'Next' coordination is **not** required for aircraft that are:   
@@ -408,7 +408,7 @@ All other aircraft require a 'Next' call to SY TCU.
     d) Jets departing 16L via WOL  
     e) All aircraft during the Curfew Runway Mode
 
-!!! example
+!!! phraseology
     <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Next, MHQ, Runway 34R"  
     <span class="hotline">**SY TCU** -> **SY ADC**</span>: "MHQ, heading 030, unrestricted"  
     <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Heading 030, MHQ"  
@@ -449,7 +449,7 @@ The controller assuming responsibility of **SY ACD** shall give heads-up coordin
 a) VFR Departures  
 b) Aircraft using a runway not on the ATIS 
 
-!!! example
+!!! phraseology
     **TEK:** "Sydney Delivery, TEK, for YSHL via CUL, A025, request clearance"  
     **SY ACD:** "TEK, Sydney Delivery, standby"    
 
