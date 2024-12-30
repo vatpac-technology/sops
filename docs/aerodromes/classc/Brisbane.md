@@ -150,7 +150,7 @@ Where a helicopter has not filed via the appropriate waypoint, they should be re
 
 Both taxiway **H2** and **F4** are inside the maneuvering area and treated like a runway, requiring a takeoff and landing clearance from BN ADC. Helicopters departing on other surfaces outside the maneuvering areas should be instructed to *"report airborne"*. 
 
-!!! example
+!!! phraseology
     **RSCU533:** "Brisbane Tower, helicopter RSCU533, H2 ready"  
     **BN ADC:** "RSCU533, Brisbane Tower, H2 cleared for takeoff"  
     **RSCU533:** "H2 cleared for takeoff, RSCU533"
