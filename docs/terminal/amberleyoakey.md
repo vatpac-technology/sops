@@ -140,7 +140,7 @@ The Standard Assignable from **OK ADC** to **OK TCU** is the lower of `F120` or 
     <span class="hotline">**AMB TCU** -> **NSA**</span>: "via COWIE, BUCK3."  
     <span class="hotline">**NSA** -> **AMB TCU**</span>: "BUCK03, `F190`"   
 
-#### Arrivals/Overflies
+#### Arrivals/Overfliers
 All aircraft transiting from GOL/DOS/BUR to **AMB TCU** and **OK TCU** must be heads-up coordinated prior to **20nm** from the boundary and aircraft from **BN TCU** to **AMB TCU** only prior to the boundary. Operations within **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels. GOL/DOS/BUR and **AMB TCU**/**OK TCU** controller must agree on a suitable level during coordination.
 
 !!! phraseology
