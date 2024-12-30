@@ -97,7 +97,7 @@ Voiceless coordination is in place from WLM TCU to WLM ADC for arrivals cleared 
 
 ## Miscellaneous
 ### Stereo Approaches (Fast Jet Aircraft)
-Fast Jet Aircraft typically arrive back into Willy from Gate 6, at 'F125', as such you can assign them the stereo approach to arrive back into Willy.
+Fast Jet Aircraft typically arrive back into YWLM from Gate 6, at `F125`, as such you can assign them the stereo approach to arrive back into YWLM.
 
 !!! Example
 **MAPL45**: "WLM TCU, RTBing via G6 for RWY12"
