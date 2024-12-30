@@ -29,76 +29,6 @@ There are three SMC positions at Brisbane which are responsible for various part
   <figcaption>YBBN Maneuvering Area Responsibility</figcaption>
 </figure>
 
-## Helicopter Operations
-Brisbane has one helipad located on taxiway **F4**. Most rescue helicopters are based within the general aviation maintenance area and may operate from taxiway **H2**.
-
-#### Waypoints
-In VMC, all helicopters are normally processed via two visual waypoints (outlined below) positioned north and south of the field. Where VMC does not exist, IFR helicopters may conform to fixed wing ops and be processed via the **BN (RADAR) SID** from an appropriate runway, unless a visual departure is acceptable.
-
-
-| Direction of Flight  | Inbound/Outbound Tracking Point | Name        |
-| ------------------ | -------------- | ---------------- |
-| North      | BLHS   | Bald Hills          |
-| South      | MBHM   | Manly Boat Harbour          |
-| East      | MBHM   | Manly Boat Harbour          |
-| West      | BLHS   | Bald Hills          |
-
-#### Departures
-
-Refer to [Maneuvering Area Responsibility](#maneuvering-area-responsibility) to determine which SMC or ADC position (when non-standard positions are online) is responsible for managing helicopter arrivals and departures.
-
-!!! example
-    **RSCU533:** "Brisbane Delivery, helicopter RSCU533, MEDEVAC, for YXHE, request clearance"  
-    **BN ACD:** "RSCU533, Brisbane Delivery, cleared to YXHE via amended BLHS, YXHE, climb A025, squawk 1256, departure frequency 124.7"  
-    **RSCU533:** "Cleared to YXHE via amended BLHS, YXHE, climb A025, squawk 1256, departures 124.7, RSCU533"
-
-Both taxiway **H2** and **F4** are inside the maneuvering area and treated like a runway, requiring a takeoff and landing clearance from BN ADC. Helicopters departing on other surfaces outside the maneuvering areas should be instructed to *"report airborne"* so the controllers knows when they are active in their airspace. 
-
-!!! example
-    **RSCU533:** "Brisbane Tower, helicopter RSCU533, H2 ready"  
-    **BN ADC:** "RSCU533, Brisbane Tower, H2 cleared for takeoff"  
-    **RSCU533:** "H2 cleared for takeoff, RSCU533"
- 
-    **BN ADC:** "RSCU533, contact departures"  
-    **RSCU533:** "Departures, RSCU533"
-
-#### Arrivals
-
-Where VMC does not exist, IFR helicopters may conform to fixed wing ops and be processed via an instrument approach for an appropriate duty runway. Standard fixed wing phraseology shall be used during these conditions.
-
-!!! example
-    **RSCU533:** "Brisbane Tower, helicopter RSCU533"  
-    **BN ADC:** "RSCU533, Brisbane Tower, cleared visual approach H2"  
-    **RSCU533:** "Cleared visual approach H2, RSCU533"
-
-During times of peak fixed wing traffic, instruct helicopters to orbit in present position or overhead the VFR waypoint until advised, and maintain own separation on approach to the helipad.
-
-!!! example
-    **BN ADC:** "RSCU533, orbit overhead Bald Hills until advised, traffic is a Fokker 70 on 4nm final 01L, report in sight"   
-    **RSCU533:** "Orbit overhead Bald Hills, traffic in sight, RSCU533"  
-
-    **BN ADC:** "RSCU533, pass behind that aircraft, maintain own separation, caution wake turbulence, cleared visual approach H2"  
-    **RSCU533:** "Pass behind the Fokker 70, maintain own separation, cleared visual approach H2, RSCU553"
-
-Traffic information must be issued to both aircraft.
-
-!!! example
-    **BN ADC:** "UTY7241 traffic is a rescue helicopter north of the field overhead Bald Hills, they will maintain own separation and pass behind you on approach, Runway 01L, cleared to land"   
-    **UTY7241:** "Runway 01L cleared to land, UTY7241"
-
-!!! example
-    **BN ADC:** "RSCU533, H2 cleared to land"   
-    **RSCU533:** "Cleared to land H2, RSCU533"
-
-Both taxiway **H2** and **F4** are inside the maneuvering area and treated like a runway, requiring a takeoff and landing clearance by BN ADC. Helicopters landing on other surfaces outside the maneuvering areas should be instructed to *"report on the ground"* so the controller knows when they are no longer active in their airspace.
-
-!!! example
-    **BN ADC:** "RSCU533, report on the ground"  
-    **RSCU533:** "RSCU533, wilco"   
-    
-    **RSCU533:** "RSCU533, on the ground"  
-    **BN ADC:** "RSCU533"
-
 ## Standard Taxi Routes
 Taxiway A is to be used in the same direction as the duty runway. Taxiway B is to be used in the opposite direction to the duty runway.
 
@@ -182,14 +112,87 @@ Non-Jet aircraft, and aircraft that cannot accept a Procedural SID, shall be ass
     Non-Jet Aircraft planned via WACKO, assigned runway 01R, shall be assigned the BN (RADAR) SID.
 
 ## ATIS
-#### Operational Info
+### Operational Info
 When parallel runways are used for departures, the ATIS OPR INFO shall include:  
 `INDEPENDENT PARALLEL DEPARTURES IN PROGRESS`  
 When SODPROPS are in operation, the ATIS OPR INFO shall include:  
 `SIMULTANEOUS OPPOSITE DIRECTION PARALLEL RUNWAY OPERATIONS IN PROGRESS`
 
-#### Approach Types
+### Approach Types
 The ATIS shall always have `EXP INST APCH` as the approach type. Visual Approaches are permitted on request, as long as a separation standard exists between the aircraft and any aircraft arriving on the parallel runway during PROPS, or departing from the parallel runway during SODPROPS.
+
+## Helicopter Operations
+Brisbane has one helipad located on taxiway **F4**. Most rescue helicopters are based within the general aviation maintenance area and may operate from taxiway **H2**.
+
+ADC shall inform SMC of any inbound helicopters so that they may prevent other aircraft from taxiing on the HLS.
+
+!!! tip
+    Refer to [Maneuvering Area Responsibility](#maneuvering-area-responsibility) to determine which SMC or ADC position is responsible for managing helicopter arrivals and departures.
+
+### Waypoints
+In VMC, all helicopters shall be processed via two visual waypoints (outlined below) positioned north and south of the field. Where VMC does not exist, IFR helicopters will conform to fixed wing ops and be processed via the **BN (RADAR) SID** from an appropriate runway.
+
+
+| Direction of Flight  | Inbound/Outbound Tracking Point |
+| ------------------ | -------------- |
+| North      | BLHS   |
+| South      | MBHM   |
+| East      | MBHM   |
+| West      | BLHS   |
+
+### Departures
+Where a helicopter has not filed via the appropriate waypoint, they should be rerouted.
+
+!!! example
+    **RSCU533:** "Brisbane Delivery, helicopter RSCU533, MEDEVAC, for YXHE, request clearance"  
+    **BN ACD:** "RSCU533, Brisbane Delivery, cleared to YXHE via amended BLHS, YXHE, climb A025, squawk 1256, departure frequency 124.7"  
+    **RSCU533:** "Cleared to YXHE via amended BLHS, YXHE, climb A025, squawk 1256, departures 124.7, RSCU533"
+
+Both taxiway **H2** and **F4** are inside the maneuvering area and treated like a runway, requiring a takeoff and landing clearance from BN ADC. Helicopters departing on other surfaces outside the maneuvering areas should be instructed to *"report airborne"*. 
+
+!!! example
+    **RSCU533:** "Brisbane Tower, helicopter RSCU533, H2 ready"  
+    **BN ADC:** "RSCU533, Brisbane Tower, H2 cleared for takeoff"  
+    **RSCU533:** "H2 cleared for takeoff, RSCU533"
+ 
+    **BN ADC:** "RSCU533, contact departures"  
+    **RSCU533:** "Departures, RSCU533"
+
+### Arrivals
+Helicopters arriving to YBBN during VMC shall be cleared by **BN TCU** via the appropriate inbound waypoint, with that waypoint issued as the clearance limit. TCU shall coordinate the arrival with ADC and transfer the aircraft approaching the clearance limit.
+
+ADC shall assess the current traffic situation and, if necessary, instruct the pilot to hold and/or maintain own separation with any arriving or departing aircraft, then clear them for a visual approach to their nominated landing site. 
+
+If holding is required prior to arrival, helicopters shall be instructed to hold at the following positions:
+
+| Inbound Via | Holding Position |
+| ----------- | ---------------- |
+| BLHS        | Brisbane Entertainment Centre *(3nm northwest of runway 01L/19R)* |
+| MBHM        | MBHM             |
+
+!!! phraseology
+    <span class="hotline">**TCU** -> **ADC**</span>: "North, helicopter X6G, inbound at A010, clearance limit BLHS"  
+    <span class="hotline">**ADC** -> **TCU**</span>: "X6G"  
+
+    **X6G**: "Brisbane Tower, helicopter X6G, for taxiway F4"  
+    **BN ADC**: "X6G, Brisbane Tower, cancel clearance limit, track to and hold at the Brisbane Entertainment Centre, maintain A010"  
+    **X6G**: "Cancel clearance limit, track to and hold at the Brisbane Entertainment Centre, maintain A010, X6G"
+
+    **BN ADC**: "X6G, report sighting a Qantas 737, 4nm final runway 19R"  
+    **X6G**: "Traffic sighted, X6G"  
+    **BN ADC**: "X6G, cancel hold, pass behind the 737, maintain own separation, caution wake turbulence, cleared visual approach F4"  
+    **X6G**: "Cancel hold, pass behind the 737, maintain own separation, cleared visual approach F4, X6G"
+
+Remember to pass traffic information to both aircraft.
+
+!!! phraseology
+    **BN ADC**: "QFA1852, traffic is a helicopter, currently 3nm northwest of the field at A010, they'll pass behind you on approach to the F4 helipad and maintain own separation with you, runway 19R, cleared to land"
+
+Both taxiway **H2** and **F4** are inside the maneuvering area and treated like a runway, requiring a takeoff and landing clearance by BN ADC. Helicopters landing on other surfaces outside the maneuvering areas should be instructed to *"report on the ground"* so the controller knows when they are no longer active in their airspace.
+
+!!! phraseology
+    **BN ADC:** "X6G, taxiway F4, cleared to land"  
+    **X6G:** "Taxiway F4, cleared to land, X6G"
 
 ## Coordination
 ### Auto Release
