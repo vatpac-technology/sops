@@ -305,3 +305,5 @@
 *[CPDLC]: Controller-Pilot Datalink Communications
 *[LDA]: Landing Distance Available
 *[TORA]: Takeoff Run Available
+*[BLHS]: Bald Hills
+*[MBHM]: Manly Boat Harbour
