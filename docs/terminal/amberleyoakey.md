@@ -103,7 +103,7 @@ Transfer these aircraft to ADC approaching the boundary.
     **ASTR203**: "118.3, ASTR203"  
 
 ## Coordination
-### AM/OK ADC
+### AMB/OK ADC
 #### Airspace
 AMB ADC owns the Class C airspace **in the AMB CTR** within 10nm of the YAMB ARP from `SFC` to `A015`.
 
