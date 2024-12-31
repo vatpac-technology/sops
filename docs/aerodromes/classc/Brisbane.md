@@ -148,12 +148,12 @@ Where a helicopter has not filed via the appropriate waypoint, they should be re
     **BN ACD:** "RSCU533, Brisbane Delivery, cleared to YXHE via amended BLHS, YXHE, climb A025, squawk 1256, departure frequency 124.7"  
     **RSCU533:** "Cleared to YXHE via amended BLHS, YXHE, climb A025, squawk 1256, departures 124.7, RSCU533"
 
-Both taxiway **H2** and **F4** are inside the maneuvering area and treated like a runway, requiring a takeoff and landing clearance from BN ADC. Helicopters departing on other surfaces outside the maneuvering areas should be instructed to *"report airborne"*. 
+Both taxiways **H2** and **F4** are inside the maneuvering area and treated like a runway, requiring a takeoff and landing clearance from BN ADC. Helicopters departing on other surfaces outside the maneuvering areas should be instructed to *"report airborne"*. 
 
 !!! phraseology
-    **RSCU533:** "Brisbane Tower, helicopter RSCU533, H2 ready"  
-    **BN ADC:** "RSCU533, Brisbane Tower, H2 cleared for takeoff"  
-    **RSCU533:** "H2 cleared for takeoff, RSCU533"
+    **RSCU533:** "Brisbane Tower, helicopter RSCU533, Taxiway H2 ready"  
+    **BN ADC:** "RSCU533, Brisbane Tower, Taxiway H2 cleared for takeoff"  
+    **RSCU533:** "Taxiway H2 cleared for takeoff, RSCU533"
  
     **BN ADC:** "RSCU533, contact departures"  
     **RSCU533:** "Departures, RSCU533"
@@ -174,14 +174,14 @@ If holding is required prior to arrival, helicopters shall be instructed to hold
     <span class="hotline">**TCU** -> **ADC**</span>: "North, helicopter X6G, inbound at A010, clearance limit BLHS"  
     <span class="hotline">**ADC** -> **TCU**</span>: "X6G"  
 
-    **X6G**: "Brisbane Tower, helicopter X6G, for taxiway F4"  
+    **X6G**: "Brisbane Tower, helicopter X6G, for Taxiway F4"  
     **BN ADC**: "X6G, Brisbane Tower, cancel clearance limit, track to and hold at the Brisbane Entertainment Centre, maintain A010"  
     **X6G**: "Cancel clearance limit, track to and hold at the Brisbane Entertainment Centre, maintain A010, X6G"
 
     **BN ADC**: "X6G, report sighting, and able to maintain own separation with, a Qantas 737, 4nm final runway 19R"  
     **X6G**: "Traffic sighted, and we are able to maintain own separation. X6G"  
-    **BN ADC**: "X6G, cancel hold, pass behind the 737, maintain own separation, caution wake turbulence, cleared visual approach F4"  
-    **X6G**: "Cancel hold, pass behind the 737, maintain own separation, cleared visual approach F4, X6G"
+    **BN ADC**: "X6G, cancel hold, pass behind the 737, maintain own separation, caution wake turbulence, cleared visual approach Taxiway F4"  
+    **X6G**: "Cancel hold, pass behind the 737, maintain own separation, cleared visual approach Taxiway F4, X6G"
 
 Remember to pass traffic information to both aircraft.
 
@@ -191,7 +191,7 @@ Remember to pass traffic information to both aircraft.
 Both taxiway **H2** and **F4** are inside the maneuvering area and treated like a runway, requiring a takeoff and landing clearance by BN ADC. Helicopters landing on other surfaces outside the maneuvering areas should be instructed to *"report on the ground"* so the controller knows when they are no longer active in their airspace.
 
 !!! phraseology
-    **BN ADC:** "X6G, taxiway F4, cleared to land"  
+    **BN ADC:** "X6G, Taxiway F4, cleared to land"  
     **X6G:** "Taxiway F4, cleared to land, X6G"
 
 ## Coordination
