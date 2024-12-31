@@ -14,12 +14,10 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new} 
 
 ## Airspace
-### Default
-By default, WLM TCU owns the airspace within the WLM MIL CTR `SFC` to `F125`. This may be amended by NOTAM.
+WLM TCU owns the airspace within the WLM MIL CTR `SFC` to `F125`.
 
-When WLM TCU is active above `F125` by ad-hoc release or NOTAM, WLM-L_APP owns the airspace `SFC` to `F125`, while WLM APP owns the rest of WLM TCU airspace above `F125`. This may be adjusted as required with coordination.
+When WLM TCU is active above `F125` by ad-hoc release or NOTAM, **WLM-L_APP** owns the airspace `SFC` to `F125`, while **WLM APP** owns the rest of WLM TCU airspace above `F125`. This may be adjusted as required with coordination.
 
-#### Diagram
 <figure markdown>
 ![WLM TCU Airspace](img/wlmtcu.png){ width="700" }
   <figcaption>WLM TCU Airspace</figcaption>
@@ -29,12 +27,26 @@ When WLM TCU is active above `F125` by ad-hoc release or NOTAM, WLM-L_APP owns t
     It is the responsibility of the WLM TCU controller(s) to negotiate any airspace releases with ARL(All).
 
 ### ADC
-When WLM ADC is online, they own the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be amended/released as required between WLM ADC and WLM TCU.
+When WLM ADC is online, they own the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be amended/released as required between **WLM ADC** and **WLM TCU**.
 
 <figure markdown>
 ![WLM ADC Airspace](img/wlmadc.png){ width="700" }
   <figcaption>WLM ADC Airspace</figcaption>
 </figure>
+
+## Stereo Approaches (Fast Jet Aircraft)
+Fast jet aircraft typically transit from M550 to YWLM via Gate 6 at `F125`. When requested, or advised via ATIS, the stereo approach may be utilised to facilitate aircraft recovery.
+
+!!! tip
+    See [Controller Skills](../controller-skills/military.md#stereo-approaches) for more details about stereo approaches.
+
+!!! Example
+**MAPL45**: "WLM TCU, RTBing via G6 for RWY12"
+**WLM TCU**: "MAPL45, cleared the stereo appraoch for RWY 12 via G6, once 9DME north of the tacan descend not below `A050`"
+**MAPL45**: "Once 9DME north, descend not below `A050`"
+
+!!! note
+    Stereo approach charts are available in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}.
 
 ## Charts
 !!! note
@@ -93,16 +105,3 @@ Voiceless coordination is in place from WLM TCU to WLM ADC for arrivals cleared 
 !!! phraseology
     <span class="hotline">**WLM TCU** -> **WLM ADC**</span>: "via WLM, ZULU, Close formation of 5, do you have any restrictions or requirements?”  
     <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "ZULU, no restrictions or requirements, A040"  
-
-
-## Miscellaneous
-### Stereo Approaches (Fast Jet Aircraft)
-Fast Jet Aircraft typically arrive back into YWLM from Gate 6, at `F125`, as such you can assign them the stereo approach to arrive back into YWLM.
-
-!!! Example
-**MAPL45**: "WLM TCU, RTBing via G6 for RWY12"
-**WLM TCU**: "MAPL45, cleared the stereo appraoch for RWY 12 via G6, once 9DME north of the tacan descend not below `A050`"
-**MAPL45**: "Once 9DME north, descend not below `A050`"
-
-!!! Note 
-   Stereo Approaches charts are found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
