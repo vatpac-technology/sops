@@ -64,7 +64,7 @@ The APCH field should include `EXP INST APCH` when:
 ### Departures
 When the aircraft is ready for departure, PF ADC will coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
 
-!!! example
+!!! phraseology
     <span class="hotline">**PF ADC** -> **AAW**</span>: "Next, XMM, 03L"  
     <span class="hotline">**AAW** -> **PF ADC**</span>: "XMM, Heading 020, unrestricted"  
     <span class="hotline">**PF ADC** -> **AAW**</span>: "Heading 020, XMM"
@@ -76,7 +76,7 @@ IFR aircraft will be cleared for the coordinated approach (Instrument or Visual)
 VFR aircraft require a level readback.
 
 
-!!! example
+!!! phraseology
     <span class="hotline">**AAW** -> **PF ADC**</span>: "via PAL, YTS"  
     <span class="hotline">**PF ADC** -> **AAW**</span>: "YTS, A010"
 
