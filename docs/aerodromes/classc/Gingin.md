@@ -10,7 +10,7 @@
 | ------------------ | -------------- | ---------------- | --------------------------------------|
 | **Gingin ADC**    | **Gingin Tower**  | **118.500**    | **GIG_TWR**        |
 
-## Airsapce
+## Airspace
  ADC owns the Class C airspace **in the PE CTR** within 5nm of the YPEA ARP from `SFC` to `A035`. This airspace is primarily used for military circuits and initial and pitch approaches.
 
 ## Miscellaneous
@@ -22,7 +22,7 @@ The Circuit Area Airspace is allocated to be within 5nm of the YGIG ARP from `SF
 The Ciruits are preferred to be to the south of the field.
 
 ### Initial and Pitch Procedures 
-The intial points for Gingin are RWY 08 is the corner of the pine plantation and RWY 26 is the paddock divided by the creek. The intial point is 1500ft for both Hawks and PC21's.
+The intial points for Gingin are RWY 08 is the corner of the pine plantation and RWY 26 is the paddock divided by the creek. The intial altitude is `A015`.
 
 ## Coordination
 ### PE TCU
