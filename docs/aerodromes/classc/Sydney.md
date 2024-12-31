@@ -174,7 +174,7 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 *Permitted between the hours of 2300 and 0600 Local. If the pilot does not want to participate in curfew mode operations, the controller must accommodate this request.
 
 !!! note
-    In general, the SODPROPS, 16D/07A, and 25D/34A modes are most suitable for Noise Abatement. The PROPS modes are most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Milk Run Monday or Panic Stations.
+    In general, the SODPROPS, 16D/07A, and 25D/34A modes are most suitable for noise abatement. The PROPS modes are most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Milk Run Monday or Panic Stations.
 
 !!! tip
     Take in to account an aircraft's weight when runways 16L/34R or 07/25 are in use. Heavier aircraft may operationally require the longer Runway 16R/34L, or pilots may prefer a departure from 16R instead of 16L so they have a shorter taxi. If in doubt, ask the pilot and try to be accommodating of these requests.
@@ -189,7 +189,7 @@ When using the SODPROPS mode, pass traffic information to aircraft that are depa
     **VOZ954:** "Runway 34L, cleared to land, VOZ954"  
 
 ### Heliport Responsibility
-When runway 25 is in use, the responsibility for management of the helicopter area falls to **ADC West**. When runway 25 is not in use, **ADC East** (if online) takes responsibility for the heliport.
+When runway 07 or 25 is in use for either arrivals or departures, the responsibility for management of the helicopter area and associated arriving and departing helicopters falls to **ADC West**. During all other runway modes, **ADC East** (if online) takes responsibility for the heliport.
 
 ## Parallel Runway Operations
 Refer to [Parallel Runway Separation Standards](../../../separation-standards/parallelapps) for more information
