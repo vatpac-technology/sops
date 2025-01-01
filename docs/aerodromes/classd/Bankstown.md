@@ -74,7 +74,7 @@ Circuits to be flown at `A010`
 ## Adjacent Runways
 ### Proximity
 
-There is 66 metres between the centrelines of Runway **11R/29L** & **11C/29C**, and 66 metres between the centrelines of Runway **11C/29C** & **11L/29R**.
+There is 106 metres between the centrelines of Runway **11R/29L** & **11C/29C**, and 106 metres between the centrelines of Runway **11C/29C** & **11L/29R**.
 Due to the close proximity in critical stages of flight, there are additional considerations (below).
 
 ### Dependent Runway Operatiions (Departures Only)
