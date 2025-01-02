@@ -216,24 +216,23 @@ VFR aircraft require a level readback.
     <span class="hotline">**AAW** -> **PF ADC**</span>: "via PAL, YTS"  
     <span class="hotline">**PF ADC** -> **AAW**</span>: "YTS, A010"
 
-### EDN ADC
+### ED ADC
 #### Departures
-Aircraft departing YPED in to AD TCU Class C will be coordinated from **EDN ADC** at Taxi.
+'Next' coordination is required from ED ADC to AD TCU for all aircraft.
 
 !!! phraseology
-    <span class="coldline">**EDN ADC** -> **AD TCU**</span>: "Taxi, BLKT11 for YMES, via VIRAT"  
-    <span class="coldline">**AD TCU** -> **EDN ADC**</span>: "BLKT11"  
+    <span class="hotline">**ED ADC** -> **AD TCU**</span>: "Next, SGE"  
+    <span class="hotline">**AD TCU** -> **ED ADC**</span>: "SGE, unrestricted"  
+    <span class="hotline">**ED ADC** -> **AD TCU**</span>: "SGE"
 
-When the aircraft is ready for takeoff, **EDN ADC** will give a "Next" call, where AD TCU will provide the cleared level.
+The Standard Assignable level from ED ADC to AD TCU is the lower of `A050` or the `RFL`.
 
-!!! phraseology
-    <span class="hotline">**EDN ADC** -> **AD TCU**</span>: "Next, BLKT11, runway 18"  
-    <span class="hotline">**AD TCU** -> **EDN ADC**</span>: "BLKT11, A050"  
-    <span class="hotline">**EDN ADC** -> **AD TCU**</span>: "A050, BLKT11"
-
-#### Arrivals
-AD TCU Must coordinate the sequence information to **EDN ADC** prior to transfer of jurisdiction.
+#### Arrivals/Overfliers
+AD TCU must Heads-up coordinate all arrivals/overfliers to ED ADC.
 
 !!! phraseology
-    <span class="coldline">**AD TCU** -> **EDN ADC**</span>: "New sequence of 2. MRNR21, via AD, Number 1. MRNR22, via AD, Number 2"  
-    <span class="coldline">**EDN ADC** -> **AD TCU**</span>: "MRNR21, Number 1. MRNR22, Number 2"  
+    <span class="hotline">**AD TCU** -> **ED ADC**</span>: "To the west, PLE, for the ILS-Z"  
+    <span class="hotline">**ED ADC** -> **AD TCU**</span>: "PLE, ILS-Z"
+
+- **IFR arrivals** must be cleared for the coordinated approach (Instrument or Visual) prior to handoff to ED ADC, unless ED ADC nominates a restriction.  
+- **VFR arrivals** must be cleared for the coordinated visual approach prior to handoff to ED ADC, unless ED ADC nominates a restriction.
