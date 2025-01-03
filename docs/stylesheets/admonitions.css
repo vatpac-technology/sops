@@ -70,6 +70,10 @@
   background-color: var(--md-default-bg-color); /* White background for the text */
 }
 
+.md-typeset .admonition.phraseology p {
+  /*white-space: pre-wrap; /* Preserves newlines */
+}
+
 .md-typeset .phraseology > .admonition-title {
   background-color: var(--phraseology-light-bg); /* Light green background for the title */
   border-color: #90EE90; /* Light green border for title */
