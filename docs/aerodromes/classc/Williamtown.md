@@ -70,7 +70,7 @@ WLM Eastern Airspace
 | OLVEP | OLVEP |033 | 25 | R596 |
 
 <figure markdown>
-![WLM Gates](){ width="700" }
+![WLM Gates](img/WLMGATES.png){ width="700" }
   <figcaption>WLM Gates</figcaption>
 </figure>
 
