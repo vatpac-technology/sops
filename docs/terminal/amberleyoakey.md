@@ -64,14 +64,6 @@ Aircraft will depart the circuit visually and track overhead YAMB to begin track
 
 Aircraft will begin initial descent and tracking via the nominated coded clearance. The following altitude constraints and tracking points are implied by the coded clearance.
 
-<!---
-!!! phraseology
-    **CANN11**: "Amberley Approach, CANN11, descending `F270` visual, request visual approach, received Alpha" 
-    **AMB TCU**: "CANN11, Amberley Approach, cleared BYRON 2, descend `F200`, expect visual approach runway 33"   
-    **CANN11**: "Cleared BYRON2, descend `F200`, expect visuak approach, CANN11" 
--->
-
-
 | Departure | Initial Constraint | Route |
 | --------- | ----------| --------- |
 | Northern 4 | `F200` at ANKED | MOSSI/ANKED (Transition) LESKO BOBED JEZZA ANKED |
