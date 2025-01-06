@@ -31,33 +31,43 @@ Runways 15/33 are the primary runways at YAMB.
 IFR aircraft planned via **BN**, **JEDDA**, **MESED**, **BOBOP**, **TATEN**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
 Aircraft who are not planned via those points may be assigned the RADAR SID or a visual departure. 
 
-### Coded Departures (Fast Jets)
-Visual Departures are commonly requested by high performance military jets and often processed in the form of a coded departure (e.g. BYRON1 departure), which can be found in the AD2 Sups Page for YAMB. These coded departures provide a corridor with altitude constraints to join the Military Training Areas east of Brisbane, avoiding civilian traffic inbound to Brisbane. 
+## Coded Clearances (Fast Jets)
+Visual departures and arrivals are commonly requested by high performance military jets and often processed in the form of a coded clearance (e.g. BYRON1 departure), which can be found in the AD2 Sups Page for YAMB. These coded clearances provide a corridor with altitude constraints to and from the Military Training Areas east of Brisbane, avoiding civilian traffic inbound to Brisbane. 
+
+### Departures
+
+Aircraft will depart the circuit visually and track overhead YAMB to begin tracking for their initial waypoint. Aircraft cleared the Byron 1 must turn to the west on departure, and may set course for their inital waypoint within 10 TACAN Amberley, remaining within the laterial limits of the Amberley CTR in order to meet the inital constraint at COWIE. The following altitude constraints and tracking points are implied by the coded clearance.
+
+| Departure | Initial Constraint | Route |
+| --------- | ----------| --------- |
+| Northern 3 | `F190` at BINUP | BINUP MURJO BOBED LESKO MOSSI/ADNUK (Transition) |
+| Central 3 | `F190` at BINUP | BINUP MURJO BOBED VIRGE |
+| Byron 1 | `F190` at COWIE | COWIE KIWEE ZANET LOTMA SEMAJ |
 
 !!! phraseology
     *CRNG21 plans to enter R637 via the gate MOSSI for military training.*  
     **AMB ADC**: "CRNG21, cleared YAMB via MOSSI, flight planned route. Runway 15, Northern 3 Departure. Climb `F190`. Squawk 3601, Departure Frequency 126.20"   
 
-Aircraft will depart the circuit visually and track overhead YAMB to begin tracking for their initial waypoint. The following altitude constraints and tracking points are implied by the coded clearance.
-
-| Departure | Initial Constraint | Route |
-| --------- | ----------| --------- |
-| Northern 3 | `F190` at BINUP | BINUP MURJO BOBED LESKO MOSSI/ADNUK (Transition) |
-| Northern 4 | `F200` at ANKED | ANKED JEZZA BOBED LESKO MOSSI/ADNUK (Transition) |
-| Central 3 | `F190` at BINUP | BINUP MURJO BOBED VIRGE |
-| Central 4 | `F200` at ANKED | ANKED JEZZA BOBED VIRGE |
-| Byron 1 | `F190` at COWIE | COWIE KIWEE ZANET LOTMA SEMAJ |
-| Byron 2 | `F200` at TUGUN | TUGUN LAGOB ZANET LOTMA SEMAJ |
-
 !!! important
-    The Coded Departures are not present in vatSys, so AMB ACD must write the name of the coded departure in the Global Ops Field of the FDR and amend the flight plan route to include all relevant tracking points.
+    The Coded Clearances are not present in vatSys, so AMB ACD must write the name of the coded departure in the Global Ops Field of the FDR and amend the flight plan route to include all relevant tracking points.
 
 !!! phraseology
     **AMB ADC**: "WOLF03, make left turn, cleared for takeoff"  
     **WOLF03**: "Make left turn, cleared for takeoff, WOLF03"  
 
+### Arrivals
+
+Aircraft will begin initial descent and tracking via the nominated coded clearance. The following altitude constraints and tracking points are implied by the coded clearance.
+
+| Departure | Initial Constraint | Route |
+| --------- | ----------| --------- |
+| Northern 4 | `F200` at ANKED | MOSSI/ANKED (Transition) LESKO BOBED JEZZA ANKED |
+| Central 4 | `F200` at ANKED | VIRGE BOBED JEZZA ANKED |
+| Byron 2 | `F200` at TUGUN | SEMAJ LOTMA ZANET LAGOB TUGUN |
+
+
 !!! abstract "Reference"
-    The Coded Departures are detailed in: [YAMB FIHA AD2 Supp Section 6.2.25](https://ais-af.airforce.gov.au/australian-aip){target=new} 
+    The Coded Clearances are detailed in: [YAMB FIHA AD2 Supp Section 6.2.25](https://ais-af.airforce.gov.au/australian-aip){target=new} 
 
 ## Circuit Operations
 The Circuit Area Airspace is allocated to be within 5nm of the YAMB ARP from `SFC` to `A015`. Aircraft can be instructed to extend outside of this airspace by ATC for traffic management.

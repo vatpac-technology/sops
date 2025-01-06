@@ -47,24 +47,40 @@ AMB APP is expected to extend to OK APP (and vice versa) when they are offline. 
 
 
 ## YAMB Aerodrome
-### Coded Departures (Fast Jets)
-Visual Departures are commonly requested by high performance military jets and often processed in the form of a coded departure (e.g. BYRON1 departure), which can be found in the AD2 Sups Page for YAMB. These coded departures provide a corridor with altitude constraints to join the Military Training Areas east of Brisbane, avoiding civilian traffic inbound to Brisbane. 
+### Coded Clearances (Fast Jets)
+Visual departures and arrivals are commonly requested by high performance military jets and often processed in the form of a coded clearance (e.g. BYRON1 departure), which can be found in the AD2 Sups Page for YAMB. These coded clearances provide a corridor with altitude constraints to and from the Military Training Areas east of Brisbane, avoiding civilian traffic inbound to Brisbane. 
 
-Aircraft will depart the circuit visually and track overhead YAMB to begin tracking for their initial waypoint. The following altitude constraints and tracking points are implied by the coded clearance. 
+#### Departures
+
+Aircraft will depart the circuit visually and track overhead YAMB to begin tracking for their initial waypoint. Aircraft cleared the Byron 1 must turn to the west on departure, and may set course for their inital waypoint within 10 TACAN Amberley, remaining within the laterial limits of the Amberley CTR in order to meet the inital constraint at COWIE. The following altitude constraints and tracking points are implied by the coded clearance.
 
 | Departure | Initial Constraint | Route |
 | --------- | ----------| --------- |
 | Northern 3 | `F190` at BINUP | BINUP MURJO BOBED LESKO MOSSI/ADNUK (Transition) |
-| Northern 4 | `F200` at ANKED | ANKED JEZZA BOBED LESKO MOSSI/ADNUK (Transition) |
 | Central 3 | `F190` at BINUP | BINUP MURJO BOBED VIRGE |
-| Central 4 | `F200` at ANKED | ANKED JEZZA BOBED VIRGE |
-| Byron 1 | `F190` at COWIE | COWIE KIWEE ZANET LOTMA SEMAJ |
-| Byron 2 | `F200` at TUGUN | TUGUN LAGOB ZANET LOTMA SEMAJ |
+| Byron 1 | `F190` at COWIE | COWIE KIWEE ZANET LOTMA SEMAJ |   
 
-The Coded Departures are not present in vatSys, however ADC will write the cleared Coded Departure in the Global Ops Field and include the relevant tracking points in the aircraft's route.
+#### Arrivals
+
+Aircraft will begin initial descent and tracking via the nominated coded clearance. The following altitude constraints and tracking points are implied by the coded clearance.
+
+<!---
+!!! phraseology
+    **CANN11**: "Amberley Approach, CANN11, descending `F270` visual, request visual approach, received Alpha" 
+    **AMB TCU**: "CANN11, Amberley Approach, cleared BYRON 2, descend `F200`, expect visual approach runway 33"   
+    **CANN11**: "Cleared BYRON2, descend `F200`, expect visuak approach, CANN11" 
+-->
+
+
+| Departure | Initial Constraint | Route |
+| --------- | ----------| --------- |
+| Northern 4 | `F200` at ANKED | MOSSI/ANKED (Transition) LESKO BOBED JEZZA ANKED |
+| Central 4 | `F200` at ANKED | VIRGE BOBED JEZZA ANKED |
+| Byron 2 | `F200` at TUGUN | SEMAJ LOTMA ZANET LAGOB TUGUN |
+
 
 !!! abstract "Reference"
-    The Coded Departures are detailed in: [YAMB FIHA AD2 Supp Section 6.2.25](https://ais-af.airforce.gov.au/australian-aip){target=new}
+    The Coded Clearances are detailed in: [YAMB FIHA AD2 Supp Section 6.2.25](https://ais-af.airforce.gov.au/australian-aip){target=new} 
 
 ## Civil Training Area
 Civil operators (including Australian Air Force Cadets) conduct flying operations within the South Western Training Area (SWTA), located between the 10DME and 20DME arcs to the southwest of the AMB CTR. The SWTA is divided in half by the Rosewood-Mt Walker-Aratula Road into SWTA Alpha (north) and SWTA Bravo (south). The training area is classified Class G airspace but some pilots may request to climb into CTA to facilitate flight training (such as stall practice).
