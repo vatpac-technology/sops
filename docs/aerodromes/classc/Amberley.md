@@ -13,8 +13,6 @@
 | **Amberley ACD**    | **Amberley Delivery**  | **134.600**         | **AMB_DEL**       |
 | Amberley ATIS    |   | 123.300         | YAMB_ATIS       |
 
-
-
 ## Airspace
 AMB ADC owns the Class C airspace in the AMB CTR from `SFC` to `A015`.
 
@@ -32,7 +30,7 @@ IFR aircraft planned via **BN**, **JEDDA**, **MESED**, **BOBOP**, **TATEN**, sha
 Aircraft who are not planned via those points may be assigned the RADAR SID or a visual departure. 
 
 ## Coded Clearances (Fast Jets)
-Visual departures and arrivals are commonly requested by high performance military jets and often processed in the form of a coded clearance (e.g. BYRON1 departure), which can be found in the AD2 Sups Page for YAMB. These coded clearances provide a corridor with altitude constraints to and from the Military Training Areas east of Brisbane, avoiding civilian traffic inbound to Brisbane. 
+Visual departures and arrivals are commonly requested by high performance military jets and often processed in the form of a coded clearance (e.g. BYRON1 departure), which can be found in the [FIHA AD2 Supps](https://ais-af.airforce.gov.au/australian-aip){target=new} for YAMB. These coded clearances provide a corridor with altitude constraints to and from the Military Training Areas east of Brisbane, avoiding civilian traffic inbound to Brisbane. 
 
 ### Departures
 

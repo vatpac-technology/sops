@@ -13,7 +13,6 @@
 
 AMB APP is expected to extend to OK APP (and vice versa) when they are offline. No frequency cross coupling is required. 
 
-
 ## Airspace
 ### AMB TCU
 **AMB APP** owns the airspace contained within:
@@ -45,14 +44,12 @@ AMB APP is expected to extend to OK APP (and vice versa) when they are offline. 
 
 **OK ADC** owns the Class C airspace within 5 DME of the OK VOR from `SFC` to `A025`.
 
-
 ## YAMB Aerodrome
 ### Coded Clearances (Fast Jets)
-Visual departures and arrivals are commonly requested by high performance military jets and often processed in the form of a coded clearance (e.g. BYRON1 departure), which can be found in the AD2 Sups Page for YAMB. These coded clearances provide a corridor with altitude constraints to and from the Military Training Areas east of Brisbane, avoiding civilian traffic inbound to Brisbane. 
+Visual departures and arrivals are commonly requested by high performance military jets and often processed in the form of a coded clearance (e.g. BYRON1 departure), which can be found in the [FIHA AD2 Supps](https://ais-af.airforce.gov.au/australian-aip){target=new} for YAMB. These coded clearances provide a corridor with altitude constraints to and from the Military Training Areas east of YBBN, avoiding civilian traffic inbound to YBBN. 
 
 #### Departures
-
-Aircraft will depart the circuit visually and track overhead YAMB to begin tracking for their initial waypoint. Aircraft cleared the Byron 1 must turn to the west on departure, and may set course for their inital waypoint within 10 TACAN Amberley, remaining within the laterial limits of the Amberley CTR in order to meet the inital constraint at COWIE. The following altitude constraints and tracking points are implied by the coded clearance.
+Aircraft will depart the circuit visually and track overhead YAMB to begin tracking for their initial waypoint. Aircraft cleared the BYRON1 must turn to the west on departure, and may set course for their inital waypoint within 10 TACAN AMB, remaining within the lateral limits of the AMB CTR in order to meet the inital constraint at COWIE. The following altitude constraints and tracking points are implied by the coded clearance.
 
 | Departure | Initial Constraint | Route |
 | --------- | ----------| --------- |
@@ -61,7 +58,6 @@ Aircraft will depart the circuit visually and track overhead YAMB to begin track
 | Byron 1 | `F190` at COWIE | COWIE KIWEE ZANET LOTMA SEMAJ |   
 
 #### Arrivals
-
 Aircraft will begin initial descent and tracking via the nominated coded clearance. The following altitude constraints and tracking points are implied by the coded clearance.
 
 | Departure | Initial Constraint | Route |
@@ -69,7 +65,6 @@ Aircraft will begin initial descent and tracking via the nominated coded clearan
 | Northern 4 | `F200` at ANKED | MOSSI/ANKED (Transition) LESKO BOBED JEZZA ANKED |
 | Central 4 | `F200` at ANKED | VIRGE BOBED JEZZA ANKED |
 | Byron 2 | `F200` at TUGUN | SEMAJ LOTMA ZANET LAGOB TUGUN |
-
 
 !!! abstract "Reference"
     The Coded Clearances are detailed in: [YAMB FIHA AD2 Supp Section 6.2.25](https://ais-af.airforce.gov.au/australian-aip){target=new} 
@@ -154,5 +149,5 @@ All aircraft transiting from GOL/DOS/BUR to **AMB TCU** and **OK TCU** must be h
     <span class="hotline">**AMB TCU** -> **GOL**</span>: "PUMA11, A090"  
 
 ## Charts
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
