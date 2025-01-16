@@ -55,6 +55,30 @@ All other arrivals/overfliers coming from HYD CTA will be **Heads-up** Coordinat
     <span class="hotline">**PE TCU** -> **PH TCU**</span>: "Airborne YPEA, PHNX11"   
     <span class="hotline">**PH TCU** -> **PE TCU**</span>: "PHNX11, F180"  
 
+### PE ADC
+'Next' coordination is required from PE ADC to PE TCU for all aircraft.
+
+!!! phraseology
+    <span class="hotline">**PE ADC** -> **PE TCU**</span>: "Next, ASY01, runway 36L"  
+    <span class="hotline">**PE TCU** -> **PE ADC**</span>: "ASY01, Heading 030, unrestricted"  
+    <span class="hotline">**PE ADC** -> **PE TCU**</span>: "Heading 030, ASY01"
+
+The Standard Assignable Level from **PE ADC** to **PE TCU** is:
+
+- `F130` for aircraft assigned a Procedural SID; except
+- `A030` for aircraft assigned the **GUNOK** SID; or
+- The lower of `F130` or `RFL` for all other aircraft
+
+### GIG ADC
+'Next' coordination is required from GIG ADC to PE TCU for all aircraft.
+
+!!! example
+    <span class="hotline">**GIG ADC** -> **PE TCU**</span>: "Next, VIPR01, Runway 08"  
+    <span class="hotline">**PE TCU** -> **GIG ADC**</span>: "VIPR01, Assigned Heading Right 030, unrestricted"  
+    <span class="hotline">**PE ADC** -> **PE TCU**</span>: "Right Heading 030, VIPR01"
+
+The Standard Assignable Level from **GIG ADC** to **PE TCU** is the lower of `A050` or the `RFL`.
+
 ## Charts
 !!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}

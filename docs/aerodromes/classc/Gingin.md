@@ -11,13 +11,17 @@
 | **Gingin ADC**    | **Gingin Tower**  | **118.500**    | **GIG_TWR**        |
 
 ## Airspace
-ADC owns the Class C airspace **in the PE CTR** within **5nm** of the YGIG ARP, *excluding* the area south of **12 TACAN PEA**, from `SFC` to `A035`. This airspace is primarily used for military circuits and initial and pitch approaches.
+GIG ADC owns the airspace within the GIG CIRA, which is defined as within **5nm** of the YGIG ARP, *excluding* the area south of **12 TACAN PEA**, from `SFC` to `A035`.
+
+This airspace is primarily used for military circuits and initial and pitch approaches.
 
 Refer to the [YPEA FIHA AD2 Supp](https://ais-af.airforce.gov.au/australian-aip){target=new} for a diagram.
 
 ## Miscellaneous
 ### Circuit Operations 
-The Circuit Area Airspace is allocated to be within 5nm of the YGIG ARP from `SFC` to `A035` exculding the area within 12TAC Pearce. Aircraft can be instructed to extend outside of this airspace by ATC for traffic management. Hawks have circuit altitude of A016 while both 2FTS and RSAF PC21s are assigned A012.
+The CIRA airspace is allocated to be within 5nm of the YGIG ARP from `SFC` to `A035` exculding the area within 12TAC Pearce. Aircraft can be instructed to extend outside of this airspace by ATC for traffic management.
+
+The Circuit altitude is `A016` for Jets, and `A012` for Non-Jets.
 
 ### Circuit Direction
 The Ciruits are preferred to be to the south of the field.
@@ -33,6 +37,8 @@ The intial points for Gingin are RWY 08 is the corner of the pine plantation and
     <span class="hotline">**GIG ADC** -> **PE TCU**</span>: "Next, VIPR01, Runway 08"  
     <span class="hotline">**PE TCU** -> **GIG ADC**</span>: "VIPR01, Assigned Heading Right 030, unrestricted"  
     <span class="hotline">**PE ADC** -> **PE TCU**</span>: "Right Heading 030, VIPR01"
+
+The Standard Assignable Level from **GIG ADC** to **PE TCU** is the lower of `A050` or the `RFL`.
 
 ## Charts
 !!! abstract "Reference"
