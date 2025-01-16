@@ -51,5 +51,5 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 #### Arrivals
 The Standard assignable level from ASH to CIN TCU is `F130`, and tracking via CIN VOR. All other aircraft must be prior coordinated.
 
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
