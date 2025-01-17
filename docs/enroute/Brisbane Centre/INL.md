@@ -64,7 +64,7 @@ Whilst the **RKA** controller is expected to provide a [top-down service](../../
 ## Sector Responsibilities
 
 ### Inverell (INL)
-INL is responsible for initial sequencing, issuing STAR Clearances, and issuing initial descent for aircraft bound for YBBN and YBCG.
+INL is responsible for initial sequencing, issuing STAR Clearances, and issuing initial descent for aircraft bound for YBBN and YBCG. INL may also be required to process aircraft from offshore SUA to YAMB via a [coded clearance](#yamb-coded-clearances).
 ### Downs (DOS) / Straddy (SDY)
 DOS and SDY are responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YBBN and YBCG.
 ### Burnett (BUR)
@@ -72,7 +72,7 @@ BUR is responsible for final sequencing, issuing descent, and issuing STAR Clear
 ### Gold Coast (GOL)
 GOL is responsible for final sequencing for aircraft bound for YBBN, YBCG, and issuing of STAR Clearances and descent for YBSU.
 ### Noosa (NSA)
-NSA is responsible for facilitating YBSU traffic, including operating the Class C airspace `A045` and above.
+NSA is responsible for facilitating YBSU traffic, including operating the Class C airspace `A045` and above. NSA may also be required to process aircraft from offshore SUA to YAMB via a [coded clearance](#yamb-coded-clearances).
 ### Keppel (KPL)
 KPL is responsible for issuing STAR Clearances (Jets only) and initial descent for aircraft bound for YBSU, YBBN and YBCG.
 
@@ -137,6 +137,44 @@ These standard runway assignments may be modified strategically by the BAS or BF
 
 ### SODPROPS
 When operating the SODPROPS Runway Mode, aircraft via **ENLIP**, **BLAKA**, **GOMOL** and **UGTUG**, shall be assigned the **ISPON** STAR with the appropriate transition. Aircraft via other Feeder fixes may be assigned the standard STAR.
+
+## YAMB Coded Clearances
+Coded Clearances are available inbound and outbound from the AMB TMA to provided a standardised corridor for fast jet aircraft.
+
+<figure markdown>
+![YAMB Coded Clearances](img/yambcodedclearances.png){ width="700" }
+  <figcaption>YAMB Coded Clearances</figcaption>
+</figure>
+
+!!! tip
+    Descriptions of the coded clearances are available in the [FIHA AD2 Supps](https://ais-af.airforce.gov.au/australian-aip){target=new}.
+
+### Inbound
+Aircraft leaving offshore SUA or arriving to YAMB from the east shall be cleared via one of the following coded clearances:
+
+| Arrival | Level | Route |
+| --------- | ----------| --------- |
+| Northern 4 | `F200` | MOSSI LESKO BOBED JEZZA ANKED, or<br> ANKED LESKO BOBED JEZZA ANKED |
+| Central 4 | `F200` | VIRGE BOBED JEZZA ANKED |
+| Byron 2 | `F200` | SEMAJ LOTMA ZANET LAGOB TUGUN |
+
+!!! phraseology
+    *CRNG21 plans to depart M649 and return to YAMB.*  
+    **INL**: "CRNG21, cleared YAMB via VIRGE thence Central 4 arrival, maintain `F200`" 
+
+!!! important
+    The Coded Clearances are not present in vatSys, so INL/NSA must write the name of the coded departure in the Global Ops Field of the FDR and amend the flight plan route to include all relevant tracking points.
+
+### Outbound
+Fast jet aircraft departing YAMB to the east may be cleared for a coded clearance departure by AMB ACD. ACD will update the FDR route field with the respective tracking points and write the departure name in the Global Ops Field.
+
+The routes are shown below:
+
+| Departure | Level | Route |
+| --------- | ----------| --------- |
+| Northern 3 | `F190` | BINUP MURJO BOBED LESKO MOSSI, or<br>BINUP MURJO BOBED LESKO ADNUK |
+| Central 3 | `F190` | BINUP MURJO BOBED VIRGE |
+| Byron 1 | `F190` | COWIE KIWEE ZANET LOTMA SEMAJ | 
 
 ## Coordination
 ### BN TCU
