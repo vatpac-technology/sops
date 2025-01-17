@@ -44,30 +44,27 @@ AMB APP is expected to extend to OK APP (and vice versa) when they are offline. 
 
 **OK ADC** owns the Class C airspace within 5 DME of the OK VOR from `SFC` to `A025`.
 
-## YAMB Aerodrome
-### Coded Clearances (Fast Jets)
-Visual departures and arrivals are commonly requested by high performance military jets and often processed in the form of a coded clearance (e.g. BYRON1 departure), which can be found in the [FIHA AD2 Supps](https://ais-af.airforce.gov.au/australian-aip){target=new} for YAMB. These coded clearances provide a corridor with altitude constraints to and from the Military Training Areas east of YBBN, avoiding civilian traffic inbound to YBBN. 
+## Coded Clearances (Fast Jets)
+High performance military jet aircraft with planned operations in offshore SUA, or intending to depart to the east, will be assigned a Coded Clearance departure. These aircraft may arrive back to YAMB via the same corridor. These Coded Clearances provide a standardised corridor avoiding civilian traffic in the adjacent airspace. 
 
-#### Departures
-Aircraft will depart the circuit visually and track overhead YAMB to begin tracking for their initial waypoint. Aircraft cleared the BYRON1 must turn to the west on departure, and may set course for their inital waypoint within 10 TACAN AMB, remaining within the lateral limits of the AMB CTR in order to meet the inital constraint at COWIE. The following altitude constraints and tracking points are implied by the coded clearance.
+### Departures
+Aircraft will depart the circuit visually and track overhead YAMB to begin tracking for their initial waypoint. Aircraft cleared the BYRON1 must turn to the west on departure, and may set course for their inital waypoint within 10TAC AMB, remaining within the lateral limits of the AMB CTR in order to meet the inital constraint at `COWIE`.
 
-| Departure | Initial Constraint | Route |
-| --------- | ----------| --------- |
-| Northern 3 | `F190` at BINUP | BINUP MURJO BOBED LESKO MOSSI/ADNUK (Transition) |
-| Central 3 | `F190` at BINUP | BINUP MURJO BOBED VIRGE |
-| Byron 1 | `F190` at COWIE | COWIE KIWEE ZANET LOTMA SEMAJ |   
+AMB ACD will clear relevant departures via the appropriate coded clearance departure, update the FDR route field with the respective tracking points, and write the departure name in the Global Ops Field. 
 
-#### Arrivals
-Aircraft will begin initial descent and tracking via the nominated coded clearance. The following altitude constraints and tracking points are implied by the coded clearance.
+The routes are shown below:
 
 | Departure | Initial Constraint | Route |
 | --------- | ----------| --------- |
-| Northern 4 | `F200` at ANKED | MOSSI/ANKED (Transition) LESKO BOBED JEZZA ANKED |
-| Central 4 | `F200` at ANKED | VIRGE BOBED JEZZA ANKED |
-| Byron 2 | `F200` at TUGUN | SEMAJ LOTMA ZANET LAGOB TUGUN |
+| Northern 3 | `F190` by BINUP | BINUP MURJO BOBED LESKO MOSSI, or<br>BINUP MURJO BOBED LESKO ADNUK |
+| Central 3 | `F190` by BINUP | BINUP MURJO BOBED VIRGE |
+| Byron 1 | `F190` by COWIE | COWIE KIWEE ZANET LOTMA SEMAJ | 
 
-!!! abstract "Reference"
-    The Coded Clearances are detailed in: [YAMB FIHA AD2 Supp Section 6.2.25](https://ais-af.airforce.gov.au/australian-aip){target=new} 
+!!! important
+    Ensure that aircraft meet the `F190` requirement by the first waypoint to ensure separation assurance is maintained with civil aircraft in the adjacent airspace.
+
+### Arrivals
+Aircraft will be cleared for the coded clearance by **INL**/**NSA**, with the procedure terminating at the AM TMA airspace boundary.
 
 ## Civil Training Area
 Civil operators (including Australian Air Force Cadets) conduct flying operations within the South Western Training Area (SWTA), located between the 10DME and 20DME arcs to the southwest of the AMB CTR. The SWTA is divided in half by the Rosewood-Mt Walker-Aratula Road into SWTA Alpha (north) and SWTA Bravo (south). The training area is classified Class G airspace but some pilots may request to climb into CTA to facilitate flight training (such as stall practice).
