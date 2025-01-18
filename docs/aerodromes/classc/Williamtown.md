@@ -30,15 +30,14 @@ Visual Departures are commonly requested by high performance military jets and o
 
 | Tracking Gate | Departure | Initial Constraint | Route |
 | ----- | ---------| --------------- | ------------------------ |
-| G1-G2 | PEPPER 1 | `A080` at ERVEV | ERVEV G1/G2 (Transition) 
+| G1-G2 | PEPPER 1 | `A080` at ERVEV | ERVEV G1/G2 (Transition) |
 | G3-G7 | CLASSIC 1| `F125` at G3-G7 |
 | G9    | RADAR    | `F125` at G9    |
 | UKDIP | CLASSIC 1| `A090` at UKDIP |
 | OLVEP | CLASSIC 1| `F130` at OLVEP |
 
 !!! note
-    ACFT Departing RWY 12 for G3-7 are required to avoid SAWR on the Classic 1.  
-    ACFT Departing on Classic 1 will be issued a direction of turn during take off clearance, preferably to the south in order not to impede on the SAWR boundaries on the departure.
+    ACFT Departing RWY 12 for G3-7 are required to avoid SAWR on the CLASSIC 1. These aircraft should be instructed to make a turn to the south as part of their departure instructions issued with their takeoff clearance.
 
 !!! phraseology
     WGTL21 plans to enter M550 via Gate 4 for Military Training.  
@@ -53,8 +52,7 @@ Visual Departures are commonly requested by high performance military jets and o
     Since the Coded Departures are not SIDs, WLM ACD needs to write the name of the coded departure in the Global Ops Field of the FDR and amend the flight plan route to include all relevant tracking points.
 
 ### Gates for the SUA
-There are 8 gates to facilitate departures and arrivals into these Training Airspace, based on the WLM Tacan. 
-WLM Eastern Airspace
+There are 8 gates to facilitate departures and arrivals into surrounding training airspace, based on the WLM TACAN. 
 
 | Gate Name | Ident | Bearing (°M) | Distance (nm) | Restricted Area |
 | ----- | ---------| --------------- | -------- | ---------------- |
@@ -73,6 +71,11 @@ WLM Eastern Airspace
 ![WLM Gates](img/wlmgates.png){ width="700" }
   <figcaption>WLM Gates</figcaption>
 </figure>
+
+Aircraft cleared via a gate must have their flight plan amended to reflect the new tracking point.
+
+!!! example
+    An aircraft tracking via Gate 4 would have `WLM088025` added to their route.
 
 ### Initial and Pitch Procedures 
 The Intial Points for RWY 12 is the SW tip of Grahamstown Dam, and RWY 30 is the coastline.
