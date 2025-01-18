@@ -160,7 +160,7 @@ Aircraft leaving offshore SUA or arriving to YAMB from the east shall be cleared
 
 !!! phraseology
     *CRNG21 plans to depart M649 and return to YAMB.*  
-    **INL**: "CRNG21, cleared YAMB via VIRGE thence Central 4 arrival, maintain `F200`" 
+    **INL**: "CRNG21, cleared YAMB via VIRGE thence Central 4, maintain `F200`" 
 
 !!! important
     The Coded Clearances are not present in vatSys, so INL/NSA must write the name of the coded departure in the Global Ops Field of the FDR and amend the flight plan route to include all relevant tracking points.

@@ -32,6 +32,14 @@ Aircraft who are not planned via those points may be assigned the RADAR SID or a
 ## Coded Clearances (Fast Jets)
 High performance military jet aircraft with planned operations in offshore SUA, or intending to depart to the east, shall be assigned a Coded Clearance departure. These Coded Clearances provide a standardised corridor avoiding civilian traffic in the adjacent airspace. 
 
+<figure markdown>
+![YAMB Coded Clearances](img/yambcodedclearances.png){ width="700" }
+  <figcaption>YAMB Coded Clearances</figcaption>
+</figure>
+
+!!! tip
+    Descriptions of the coded clearances are available in the [FIHA AD2 Supps](https://ais-af.airforce.gov.au/australian-aip){target=new}.
+
 ### Departures
 Aircraft will depart the circuit visually and track overhead YAMB to begin tracking for their initial waypoint. Aircraft cleared the BYRON departure must turn to the west on departure, and may set course for their inital waypoint within 10TAC AMB, remaining within the laterial limits of the AMB CTR in order to meet the inital constraint at `COWIE`.
 
@@ -45,14 +53,14 @@ The following altitude constraints and tracking points are implied by the coded 
 
 !!! phraseology
     *CRNG21 plans to enter R637 via the gate MOSSI for military training.*  
-    **AMB ADC**: "CRNG21, cleared YAMB via MOSSI, flight planned route. Runway 15, Northern 3 Departure. Climb `F190`. Squawk 3601, Departure Frequency 126.20"   
+    **AMB ADC**: "CRNG21, cleared to YAMB via BINUP, thence Northern 3, MOSSI transition, flight planned route. Runway 15, visual departure, climb to `F190`, squawk 3601, departure frequency 126.2"   
 
 !!! important
     The Coded Clearances are not present in vatSys, so AMB ACD must write the name of the coded departure in the Global Ops Field of the FDR and amend the flight plan route to include all relevant tracking points.
 
 !!! phraseology
-    **AMB ADC**: "WOLF03, make left turn, cleared for takeoff"  
-    **WOLF03**: "Make left turn, cleared for takeoff, WOLF03"  
+    **AMB ADC**: "CRNG21, make left turn, cleared for takeoff"  
+    **CRNG21**: "Make left turn, cleared for takeoff, CRNG21"  
 
 ## Circuit Operations
 The Circuit Area Airspace is allocated to be within 5nm of the YAMB ARP from `SFC` to `A015`. Aircraft can be instructed to extend outside of this airspace by ATC for traffic management.
