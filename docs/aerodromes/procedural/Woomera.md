@@ -24,5 +24,5 @@ Surveillance coverage can be expected to be available at all levels in the WR CT
 Coordination is not required between WR ADC and ASP(WRA). Aircraft entering ASP(WRA) airspace shall be handed off, and instructed to contact ASP(WRA) for onwards clearance.
 
 ## Charts
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}

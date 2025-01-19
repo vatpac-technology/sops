@@ -75,5 +75,5 @@ AD TCU will Heads-up coordinate all arrivals/overfliers to ED ADC.
 - **VFR arrivals** will be cleared for the coordinated visual approach prior to handoff to ED ADC, unless ED ADC nominates a restriction.
 
 ## Charts
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
