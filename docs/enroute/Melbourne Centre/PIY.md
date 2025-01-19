@@ -36,7 +36,7 @@ The CPDLC Station Code is `YPIY`.
 
 ## Sector Responsibilities
 ### Pingelly (PIY)
-PIY will provide final sequencing actions to ensure aircraft comply with their FF times prior to entering the Perth TCU. PIY is also responsible for issuing STAR Clearances for aircraft bound for YPJT, and Non-jets bound for YPPH and YPEA. See [Perth Runway Modes](#ypph-runway-modes) for runway assignment.
+PIY will provide final sequencing actions to ensure aircraft comply with their FF times prior to entering the Perth TCU. PIY is also responsible for issuing STAR Clearances for aircraft bound for YPJT and YPEA, and Non-jets bound for YPPH. See [Perth Runway Modes](#ypph-runway-modes) for runway assignment.
 
 For aircraft overflying the PH TCU place `O/FLY` in the LABEL DATA field.
 
@@ -80,21 +80,21 @@ With the Southwest Plan active, arrivals shall be processed to either runway 21 
 ### Northeast Plan
 With the Northeast Plan active (runways 03 and 06 in use), all arrivals shall be processed to runway 03.
 
-## YPJT Arrivals
-To facilitate smooth movement of traffic in the Perth TCU, IFR Arrivals to YPJT shall be assigned a STAR in accordance with the *YPPH Runway Mode*:
+## YPJT/YPEA Arrivals
+To facilitate smooth movement of traffic in the Perth TCU, IFR Arrivals to YPJT and YPEA shall be assigned a STAR in accordance with the *YPPH Runway Mode*:
 
 | Feeder Fix | 03/06 | 21/24 |
 | ------------------- | ----- | ----- |
-| WOORA | Golf | WOORA PH JT (No STAR) |
+| JULIM | Golf (via WOORA) | **YPJT**: JULIM WOORA PH JT (No STAR)<br>**YPEA**: JULIM PEA (No STAR) |
+| SAPKO | Golf (via WOORA) | **YPJT**: SAPKO WOORA PH JT (No STAR)<br>**YPEA**: SAPKO PEA (No STAR) |
 | LAVEX | Golf | Romeo |
 | KABLI (Jet) | Golf | Romeo | 
 | MALUP (Non-Jet) | Whiskey | Romeo (via KABLI) | 
 
 !!! note
-    Assigning a STAR to YPJT Arrivals still does not meet [voiceless coordination requirements](#arrivalsoverfliers) to PH TCU. All YPJT Arrivals must be **heads-up coordinated**, including those assigned a STAR.
+    Assigning a STAR to YPJT Arrivals still does not meet [voiceless coordination requirements](#arrivalsoverfliers) to PH TCU or PE TCU. All YPJT/YPEA Arrivals must be **heads-up coordinated**, including those assigned a STAR.
 
 ## STAR Clearance Expectation
-
 ### Handoff
 Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
 
@@ -162,3 +162,39 @@ Aircraft must have their identification terminated and be instructed to make a p
 
 !!! phraseology
     **PIY**: "QFA121, identification terminated, report position to Brisbane Radio, 129.25"
+
+### PE TCU
+#### Airspace
+The PE TCU is responsible for the airspace within **20 TACAN** of PEA (that is continained within **Pearce SUA**), `SFC` to `A050`. By default, PE TCU does not border any HYD CTA.
+
+This is all reclassified to **Class C** when PE TCU is online.
+
+!!! abstract "Reference"
+    A helpful diagram can be found in [Pearce FIHA AD2 Supp](https://ais-af.airforce.gov.au/australian-aip){target=new}, Section 2.2.2.
+
+Additional airspace releases may be NOTAM'd, or coordinated between PE TCU, PH TCU and HYD, to facilitate Military Operations.
+
+!!! phraseology
+    <span class="hotline">**PE TCU** -> **PH TCU**</span>: "Request release of R155 Alpha and Bravo, SFC to F180, for Military Operations. My onwards with HYD"   
+    <span class="hotline">**PH TCU** -> **PE TCU**</span>: "R155 Alpha and Bravo, SFC to F180, Released to you. Your onwards with HYD"  
+
+    <span class="hotline">**PE TCU** -> **HYD**</span>: "Request release of R155 Alpha and Bravo, SFC to F180, for Military Operations. My onwards with PH TCU"   
+    <span class="hotline">**HYD** -> **PE TCU**</span>: "R155 Alpha and Bravo, SFC to F180, Released to you. Your onwards with PH TCU"  
+
+#### Departures
+Voiceless for all aircraft:
+ 
+- Tracking via **AVNEX**; and  
+- Assigned the lower of `F180` or the `RFL`
+
+All other aircraft going to PIY CTA will be **Heads-up** Coordinated by PE TCU, if coming from CTA (ie, only if PE TCU has assumed more airspace than the default setup).
+
+#### Arrivals/Overfliers
+If PE TCU has assumed additional airspace from the default, and as such, PE TCU CTA borders PIY CTA, then:
+
+Voiceless for all aircraft:
+
+- Tracking from **JULIM** or **SAPKO** DCT **PEA**; and 
+- Assigned `A090`
+
+All other arrivals/overfliers coming from PIY CTA must be **Heads-up** Coordinated to PE TCU prior to **20nm** from the boundary.
