@@ -81,7 +81,7 @@ SRI should monitor aircraft operating in the YSBK and YSCN training areas. VFR a
   <figcaption>Bankstown and Camden Training Areas</figcaption>
 </figure>
 
-If a conflict is imminent, SRI may pass directed traffic information to VFR aircraft, even if prior contact has not been established and the aircraft are not in receipt of Surveilience Information Service (SIS). IFR aircraft, or VFR aircraft recieving SIS, that pass near the Training Areas may be given directed traffic information for aircraft operating within the Training Areas, particularly those on the eastern side that may intend to exit tracking to Prospect Reservoir (PSP).
+If a conflict is imminent, SRI may pass safety alerts to VFR aircraft, even if prior contact has not been established and the aircraft are not in receipt of Surveillance Information Service (SIS). IFR aircraft, or VFR aircraft receiving SIS, that pass near the Training Areas may be given traffic information on known aircraft operating within the Training Areas, particularly those on the eastern side that may intend to exit tracking to Prospect Reservoir (PSP).
 
 ### Airspace Division
 The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW** and **SFE** change based on the Runway Mode.
