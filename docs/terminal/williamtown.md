@@ -14,12 +14,10 @@
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new} 
 
 ## Airspace
-### Default
 By default, WLM TCU owns the airspace within the WLM MIL CTR `SFC` to `F125`. This may be amended by NOTAM.
 
 When WLM TCU is active above `F125` by ad-hoc release or NOTAM, WLM-L_APP owns the airspace `SFC` to `F125`, while WLM APP owns the rest of WLM TCU airspace above `F125`. This may be adjusted as required with coordination.
 
-#### Diagram
 <figure markdown>
 ![WLM TCU Airspace](img/wlmtcu.png){ width="700" }
   <figcaption>WLM TCU Airspace</figcaption>
@@ -35,6 +33,56 @@ When WLM ADC is online, they own the airspace within the WLM MIL CTR A (`SFC`-`A
 ![WLM ADC Airspace](img/wlmadc.png){ width="700" }
   <figcaption>WLM ADC Airspace</figcaption>
 </figure>
+
+## Fast-Jet SIDs
+!!! important
+    These procedures are only available when the WLM TMA is extended above `F125` through NOTAM or prior coordination. ACD will ensure that the controller responsible for the WLM TMA has approved their use prior to issuing airways clearance.
+
+The [TERMA](https://ais-af.airforce.gov.au/australian-aip) contains two SIDs for use by fast-jet aircraft, allowing them to depart via any of the nominated [SUA gates](#sua-gates).
+
+!!! note
+    These SIDs are not present in vatSys, so WLM ACD will write the name of the SID in the Global Ops Field of the FDR and amend the flight plan route to include the relevant gate, as well as any RNAV tracking points on the procedure.
+
+Aircraft will be assigned a SID based on their cleared gate, as per below:
+
+| Tracking Gate | SID | Initial Constraint |
+| ----- | ---------| --------------- |
+| G1-G2 | PEPPER  | `A080` at ERVEV |
+| G3-G7 | CLASSIC | `F125` at G3-G7 |
+| G9    | WLM (RADAR)    | `F125` at G9 |
+| UKDIP | CLASSIC | `A090` at UKDIP |
+| OLVEP | CLASSIC | `F130` at OLVEP |
+
+See [coordination](#departures-1) for coordination requirements with ADC.
+
+### SUA Gates
+There are 8 gates to facilitate departures and arrivals into surrounding training airspace, based on the WLM TACAN. 
+
+| Gate Name | Ident | Bearing (°M) | Distance (nm) | Restricted Area |
+| ----- | ---------| --------------- | -------- | ---------------- |
+| Gate 1 | G1 | 029 | 25 | R586 |
+| Gate 2 | G2 | 050 | 25 | R586 | 
+| Gate 3 | G3 | 068 | 25 | M550 |
+| Gate 4 | G4 | 088 | 25 | M550 |
+| Gate 5 | G5 | 105 | 25 | M550 |
+| Gate 6 | G6 | 125 | 25 | M550 |
+| Gate 7 | G7 | 135 | 25 | M550 |
+| Gate 9 | G9 | 007 | 25 | R585 |
+| UKDIP | UKDIP | - | - | R560 |
+| OLVEP | OLVEP | - | - | R596 |
+
+<figure markdown>
+![WLM Gates](img/wlmgates.png){ width="700" }
+  <figcaption>WLM Gates</figcaption>
+</figure>
+
+Aircraft cleared via a gate must have their flight plan amended to reflect the new tracking point.
+
+!!! example
+    An aircraft tracking via Gate 4 would have `WLM088025` added to their route.
+
+## Initial and Pitch Procedures 
+The Intial Points for RWY 12 is the SW tip of Grahamstown Dam, and RWY 30 is the coastline.
 
 ## Charts
 !!! abstract "Reference"
@@ -78,14 +126,19 @@ WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be a
 'Next' coordination is **not** required from WLM ADC to WLM TCU for aircraft that are:  
 a) Departing from a runway nominated in the ATIS; and  
 b) Assigned the standard assignable level;  
-c) Assigned a **Procedural** SID  
+c) Assigned a **civil, procedural** SID   
 
 !!! phraseology
     <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "Next, MVP"  
     <span class="hotline">**WLM TCU** -> **WLM ADC**</span>: "MVP, Left Heading 010, Unrestricted"  
     <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "Left Heading 010, MVP"  
 
-The Standard Assignable level from WLM ADC to WLM TCU is the lower of `F120` or the `RFL`.
+The Standard Assignable level from WLM ADC to WLM TCU is:  
+a) the lower of `F120` or the `RFL`, for aircraft assigned a **civil** procedural or radar SID, or visual departure  
+b) `F125`, for aircraft assigned a fast-jet SID
+
+#### CLASSIC SID
+The **CLASSIC SID** provides multiple tracking paths which pilots will take based on their departure instructions. During Next coordination with ADC, **WLM TCU** shall nominate a turn direction which will be relayed to the pilot with their takeoff clearance.
 
 #### Arrivals/Overfliers
 Voiceless coordination is in place from WLM TCU to WLM ADC for arrivals cleared for an approach on to a runway nominated on the ATIS. All other aircraft and all overfliers must be heads-up coordinated as soon as practical.
