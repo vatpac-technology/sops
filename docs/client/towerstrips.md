@@ -274,7 +274,7 @@ When multiple ADC or SMC positions are online at a given aerodrome, place divide
 ## Workload Management
 While the use of OzStrips can aid situational awareness, it is ideal to be used in such a manner that it doesn't negatively impact your productivity.
 
-!!! important
+!!! warning "Important"
     Ensure that you communicate instructions concurrently while you move strips in OzStrips. Don't move strips before you do the action or obtain a readback, incase you get interrupted.
 
 ### Cocking Strips
