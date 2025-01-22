@@ -36,9 +36,7 @@ The divisions of the airspace between **CS1** and **CS2** change based on the ru
 </figure>
 
 ## Departure Procedures
-
 ### IFR Departures
-
 IFR aircraft shall be processed via one of the following SIDs:
 
 a) RWY 15, Jets via AKROM: AKROM SID. Non-Jets via NONUM: NONUM SID  
@@ -168,3 +166,12 @@ Voiceless for all aircraft:
   - Radials 355° clockwise to 055°: `A090`
 
 All other aircraft coming from KEN CTA will be **Heads-up** Coordinated to CS TCU.
+
+### CS TCU Internal
+All aircraft transiting between internal CS TCU boundaries must be heads-up coordinated.
+
+!!! phraseology
+    <span class="hotline">**CS1** -> **CS2**</span>: "via CS, ESQ"  
+    <span class="hotline">**CS2** -> **CS1**</span>: "ESQ, A025"   
+
+Boundary coordination is not required between CS1 and CS2 for aircraft arriving or departing tracking via the 15/33 extended centreline.
