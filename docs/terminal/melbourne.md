@@ -37,18 +37,18 @@ See also: [AV ADC Offline](#av-adc-offline).
 MAV is responsible for the Class D and E airspace in the AV CTR, `SFC`-`A045`.  
 They are responsible for the same portion of airspace when it is [reclassified](#av-ctr) due to AV ADC being offline.
 
-The Southern Wedge of MAV (shown below) is Class E `A015`-`A045`, and extends in to YWE(WON) airspace. YWE(WON) is responsible for the airspace **above and below** it, and it is **Class G**.
+MAV extends south outside of **30nm ML**, in to YWE(WON) airspace. The Southern portion of this extension (shown below) is Class E `A015`-`A045`, and YWE(WON) is responsible for the airspace **above and below** it.
 
 <figure markdown>
-![MAV Southern Wedge](img/mavsouth.png){ width="500" }
-  <figcaption>MAV Southern Wedge</figcaption>
+![MAV Airspace Side Profile](img/mavairspace1.png){ width="700" }
+  <figcaption>MAV Airspace Side Profile</figcaption>
 </figure>
 
 ### Airspace Division
 The divisions of the airspace between **MAE**, **MDN**, **MDS**, and **MAV** change based on the Runway Mode.
 
 !!! note
-    The following diagrams do not include non ML TCU areas of responsibility such as MB CTR or AV ADC
+    The following diagrams do not include non ML TCU areas of responsibility such as MB ADC or EN ADC
 
 #### 09
 <figure markdown>
@@ -172,8 +172,8 @@ Departing aircraft will require an airways clearance on the ground, due to the l
     **AM318**: "Squawk 3542, wilco, AM318"  
     
     **AM318**: "AM318, ready runway 18"  
-    **ML TCU**: "AM318, cleared to YMEN direct, AV5 departure, climb via SID to A040"  
-    **AM318**: "Cleared to YMEN direct, AV5 departure, climb via SID to A040, AM318"  
+    **ML TCU**: "AM318, cleared to YMEN direct. Enter controlled airspace on the AV5 departure, climb via SID to A040"  
+    **AM318**: "Cleared to YMEN direct. Enter controlled airspace on the AV5 departure, climb via SID to A040, AM318"  
     **ML TCU**: "AM318, assigned heading left 020, report airborne"  
     **AM318**: "Assigned left 020, wilco, AM318"
 
@@ -297,11 +297,34 @@ The following Standard Assignable Headings may be used for aircraft assigned the
 **When Runway 09 is in use for arrivals, all Runway 16 departures shall be assigned heading 160.
 
 ### ML TCU Internal
-All aircraft transiting between internal ML TCU boundaries must be heads-up coordinated.
+#### Arrivals
+Voiceless Coordination is in place for arrivals transiting between ML TCU positions, provided the aircraft is:
+
+- ADES **YMML**; and
+- Assigned a STAR; and
+- Descending via STAR to `A070`
+
+#### Departures
+Voiceless Coordination is in place for departures transiting between ML TCU positions, provided the aircraft is:
+
+- ADEP **YMML**; and
+- Assigned a SID; and
+- Climbing via SID to `A100` or higher
+
+#### Others (Heads-up)
+All other aircraft not meeting the Departures/Arrivals criteria that transit between internal ML TCU boundaries must be heads-up coordinated.
 
 !!! phraseology
     <span class="hotline">**MDS** -> **MAV**</span>: "via JAYBI, JST603"  
-    <span class="hotline">**MAV** -> **MAV**</span>: "JST603, A030"
+    <span class="hotline">**MAV** -> **MDS**</span>: "JST603, A030"
+
+##### YMAV Arrivals/Departures
+YMAV arrivals and departures **do not** meet the voiceless criteria between MDS and MAV. When MAV is conducting Heads-up Coordination to MDS on a YMAV departure, it is good practice for MDS to coordinate back a higher level (`F240` or the `RFL`, if no restrictions), so that the aircraft does not have interrupted climb
+
+!!! phraseology
+    <span class="hotline">**MAV** -> **MDS**</span>: "via JUSTY, JST616"  
+    <span class="hotline">**MDS** -> **MAV**</span>: "JST616, F240"  
+    <span class="hotline">**MAV** -> **MDS**</span>: "F240, JST616"
 
 ### EN ADC
 #### Airspace
