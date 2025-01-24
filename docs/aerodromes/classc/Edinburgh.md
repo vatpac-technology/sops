@@ -17,7 +17,7 @@
 ![ED ADC Airspace](img/edncircuits.png){ width="700" }
 </figure>
 
-- **ED ADC Airspace**: `SFC` to `A015` within the Edinburgh Control Zone (ED CTR). This airspace is primarily used for military circuits and initial and pitch approaches.
+- **ED ADC Airspace**: `SFC` to `A020` within the Edinburgh Control Zone (ED CTR). This airspace is primarily used for military circuits and initial and pitch approaches.
 
 ## Runway Modes
 Single runway operations only.
@@ -46,7 +46,6 @@ Aircraft can be instructed to extend outside of this airspace by ATC for traffic
 ### Initial and Pitch Procedures 
 Aircraft will be pitching to the west in order not to impede on Class G boundary, the intail point is 2NM for RWY36 and 4NM for RWY18 along the extended centreline of taxiway E.
 
-
 ## Helicopter Operations
 - **HLS Locations**: The HLS is located on TWY D immediately east of OLA 11. There are no SIDs associated with the HLS; aircraft requiring an instrument departure can expect to depart from the runway.
 <figure markdown>
@@ -62,7 +61,7 @@ Aircraft will be pitching to the west in order not to impede on Class G boundary
     <span class="hotline">**AD TCU** -> **ED ADC**</span>: "SGE, unrestricted"  
     <span class="hotline">**ED ADC** -> **AD TCU**</span>: "SGE"
 
-The Standard Assignable level from ED ADC to AD TCU is the lower of `A050` or the `RFL`.
+The Standard Assignable level from ED ADC to AD TCU is the lower of `A040` or the `RFL`.
 
 ### Arrivals/Overfliers
 AD TCU will Heads-up coordinate all arrivals/overfliers to ED ADC.
