@@ -18,6 +18,9 @@
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
+!!! note
+    For the purpose of the ATS Policy, Sydney Coordinator is considered a non-standard sector of Sydney SMC East. Approval must be sought from the controller operating **SMC East** prior to opening Coordinator.
+
 ## Airspace
 SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005` as shown below.
 

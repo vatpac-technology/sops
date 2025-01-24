@@ -34,16 +34,22 @@ A connection attempt will be made and if successful, the *CONN STAT* field in th
 Once connected to the relevant aerodrome, controllers should select the view mode which is most suitable for their position. Use the **View Mode** menu item to select a layout.
 
 <figure markdown>
-![View Mode](../controller-skills/img/ozstripsviewmode.png){ width="300" }
+![View Mode](../controller-skills/img/ozstripsviewmode.png){ width="250" }
 </figure>
 
-The size of each strip can be adjusted using the **View** menu item. Users with limited screen realestate may benefit from using a smaller strip size.
+The size of each strip can be adjusted using the **Strip Scale** slider, under **Help** > **Settings**. Users with limited screen realestate may benefit from using a smaller strip size.
+
+The plugin window will adjust to being resized, automatically collapsing into a two and single column layout, which is helpful for users with small screens.
 
 <figure markdown>
-![Strip Size](../controller-skills/img/ozstripsstripsize.png){ width="300" }
+![Single Column Layout](../controller-skills/img/ozstripsnarrow.png){ width="450" }
 </figure>
 
-Finally, the plugin window will adjust to being resized, automatically collapsing into a two and single column layout, which is helpful for users with small screens.
+By default, the height of each strip bay is fixed, however using the **Smart Resize** functionality, they can be set to a dynamic height based on the number of strips in each bay. This is helpful when using the plugin in a collapsed column layout or with limited screen height.
+
+<figure markdown>
+![Smart Resize Setting](../controller-skills/img/ozstripssmartresize.png){ width="500" }
+</figure>
 
 ## Stripboard
 <figure markdown>
@@ -52,12 +58,12 @@ Finally, the plugin window will adjust to being resized, automatically collapsin
 
 The stripboard is divided into multiple bays, each representing a stage in an aircraft's flight thread.
 
-Strips can be moved in between strip bays by clicking on their callsign, and clicking the bay where you want them to go, or by clicking on the green *SID Trigger*. A variety of keyboard shortcuts also exist.
+Strips can be moved in between strip bays by clicking on their callsign, and clicking the bay where you want them to go. Strips can be moved to the next bay by clicking on the SID box (referred to as *SID triggering*).
 
 Selecting a track on the Ground Radar or ASD will select the relevant strip in OzStrips, and vice versa.
 
 !!! Note
-    Strips can not be *SID triggered* from **Holding Point** to **Runway**, to prevent accidental placement onto the runway.
+    Strips can not be *SID triggered* from the **Holding Point Bay** to the **Runway Bay**, to prevent accidental placement onto the runway.
 
 ### Control Bar 
 The bottom of the window holds the Control Bar. This panel contains the server connection status, aerodrome selected and ATIS code among other elements. 
@@ -79,34 +85,40 @@ Each button has the following function:
 The background colour of the strip corresponds to its status as an arrival or a departure. Departing aircraft have a blue strip, while arrivals have a yellow strip.
 
 <figure markdown>
-![Strip](../controller-skills/img/ozstripstrip.png){ width="700" }
+![Strip](../controller-skills/img/ozstripstrip.png){ width="600" }
 </figure>
 
-| Number | Content | Action |
-|---------|-------------|--------------|
-| 1 | Bay Number | Change |
-| 2 | Filed Off Blocks Time | Cock Strip |
-| 3 | Aircraft Type | Open Flightplan |
-| 4 | Destination | Open Flightplan |
-| 5 | Route Indicator | Show Route |
-| 6 | Flight Rules | |
-| 7 | Correct SSR Code + Mode C Received | |
-| 8 | SSR Code | Autogenerate Code |
-| 9 | Wake Turbulence Category | |
-| 10 | Callsign | Select Strip |
-| 11 | Runway | Change |
-| 12 | Holding Point / Clearance Limit | Change |
-| 13 | SID | Move strip to next bay |
-| 14 | First Waypoint | Open flightplan |
-| 15 | Departure Heading | Change |
-| 16 | Requested Level | Open flightplan |
-| 17 | Cleared Level | Change |
-| 18 | Takeoff Timer | Start / Reset |
-| 19 | vatSys Global Ops Data | Change |
-| 20 | OzStrips Remarks | Change |
+| Number | Content | Left Click | Right Click |
+|---------|-------------|--------------| ----------- |
+| **1** | **Bay Number** | Change | |
+| **2** | **Filed Off Blocks Time** | Cock Strip | |
+| **3** | **Aircraft Type** | Open Flightplan | |
+| **4** | **Wake Turbulence Category** | | |
+| **5** | **Destination** | Open Flightplan | |
+| **6** | **Route Indicator** | Show Route | |
+| **7** | **Flight Rules** | | |
+| **8** | **Correct SSR Code + Mode C Received** | | |
+| **9** | **SSR Code** | Autogenerate Code | |
+| **10** | **Callsign** | Select Strip | |
+| **11** | **Runway** | Change | |
+| **12** | **Ready Flag** | Change | |
+| **13** | **Holding Point** | Change | |
+| **14** | **SID** | Move strip to next bay | |
+| **15** | **First Waypoint** | Open flightplan | Open Reroute Window |
+| **16** | **Requested Level** | Open flightplan | |
+| **17** | **Cleared Level** | Change | |
+| **18** | **vatSys Global Ops Field** | Change | |
+| **19** | **OzStrips Remarks** | Change | |
+| **20** | **Departure Heading** | Change | |
+| **21** | **Takeoff Timer** | Start / Reset | |
+
+<figure markdown>
+![Example Strip](../controller-skills/img/ozstripsexample.png){ width="600" }
+    <figcaption>An example strip</figcaption>
+</figure>
 
 ## Recommended Workflow
-Due to it's shared state, OzStrips works best if all controllers follow a standardised workflow. Controllers are highly encouraged to follow the workflow below.
+Due to it's shared state, OzStrips works best if all controllers follow a standardised workflow. Controllers are strongly encouraged to follow the workflow below.
 
 ### Delivery
 Format the strip of recently connected aircraft so that you can identify any problems with their filed flight plan before they request clearance. 
@@ -125,19 +137,19 @@ If multiple aircraft request clearance at once, [queue](#queue-management) the s
 OzStrips will flag any potentially invalid routes and incorrect hemispherical levels. Hover over a flag to learn more about the error.
 
 <figure markdown>
-![Invalid Level](../controller-skills/img/ozstripsbadlevel.png){ width="450" }
+![Invalid Level](../controller-skills/img/ozstripsbadlevel.png){ width="500" }
     <figcaption>A potentially invalid level, shown by the red background on the CFL box</figcaption>
 </figure>
 
 Right mouse click on the yellow first waypoint box to open the Reroute menu. From here, controllers can select a more compliant route. The [VATPAC Tools](https://vatpac.org/membership-hub/tools){target=new} page can be helpful to double check these routes.
 
 <figure markdown>
-![Invalid Route](../controller-skills/img/ozstripsbadroute.png){ width="450" }
+![Invalid Route](../controller-skills/img/ozstripsbadroute.png){ width="500" }
     <figcaption>A potentially invalid route, shown by the yellow background on the first waypoint box</figcaption>
 </figure>
 
 <figure markdown>
-![SID assigned to VFR Aircraft](../controller-skills/img/ozstripsvfrsid.png){ width="450" }
+![SID assigned to VFR Aircraft](../controller-skills/img/ozstripsvfrsid.png){ width="500" }
     <figcaption>A VFR aircraft assigned a SID, shown by the yellow background on the SID box</figcaption>
 </figure>
 
@@ -262,11 +274,14 @@ When multiple ADC or SMC positions are online at a given aerodrome, place divide
 ## Workload Management
 While the use of OzStrips can aid situational awareness, it is ideal to be used in such a manner that it doesn't negatively impact your productivity.
 
-!!! Tip
-    It is important that you communicate instructions concurrently while you move strips in OzStrips. Don't move strips before you do the action or obtain a readback, incase you get interrupted.
+!!! warning "Important"
+    Ensure that you communicate instructions concurrently while you move strips in OzStrips. Don't move strips before you do the action or obtain a readback, incase you get interrupted.
 
 ### Cocking Strips
 Left clicking on the strip's EOBT will highlight and cock the strip, making it stand out. It is recommended to mark strips this way if there is an outstanding request.
+
+!!! tip
+    With a strip selected, pressing `TAB` will cock or uncock it.
 
 ### Queue Management
 When multiple aircraft have outstanding requests, it is recommended you 'queue up' the strip, by placing it below the queue bar. This can be done quickly by selecting the strip then pressing "Add to Queue". Strips can be moved vertically by pressing the keyboard arrow keys while a strip is selected.
@@ -276,4 +291,4 @@ Aircraft at the bottom of the queue are first in line.
 When an aircraft is in a queue, make sure the strip's bay location represents its current state. 
 
 !!! example
-    An aircraft in a queue for an airways clearance, would remain in the *Preactive* bay, below the queue bar, not in the *Cleared* bay.
+    An aircraft in a queue for an airways clearance, would remain in the **Preactive Bay**, below the queue bar, not in the **Cleared Bay**.
