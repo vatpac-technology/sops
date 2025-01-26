@@ -225,7 +225,7 @@ VFR aircraft require a level readback.
     <span class="hotline">**AD TCU** -> **ED ADC**</span>: "SGE, unrestricted"  
     <span class="hotline">**ED ADC** -> **AD TCU**</span>: "SGE"
 
-The Standard Assignable level from ED ADC to AD TCU is the lower of `A050` or the `RFL`.
+The Standard Assignable level from ED ADC to AD TCU is the lower of `A040` or the `RFL`.
 
 #### Arrivals/Overfliers
 AD TCU must Heads-up coordinate all arrivals/overfliers to ED ADC.
