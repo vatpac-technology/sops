@@ -14,7 +14,7 @@
 | <span class="indented">Brisbane SMC South :material-information-outline:{ title="Non-standard position"}   | Brisbane Ground  | 122.250          | BN-S_GND                                 |
 | <span class="indented">Brisbane SMC North :material-information-outline:{ title="Non-standard position"}   | Brisbane Ground  | 124.050          | BN-N_GND                                 |
 | **Brisbane ACD**         | **Brisbane Delivery**| **118.850**          | **BN_DEL**                                   |
-| **Brisbane ATIS**        |                | 126.250          | YBBN_ATIS                                |
+| **Brisbane ATIS**        |                | **126.250**          | **YBBN_ATIS**                                |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
