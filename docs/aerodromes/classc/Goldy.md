@@ -69,15 +69,69 @@ Circuits are to be conducted at `A010`.
 
 ## VFR Procedures
 
-Aircraft transiting the Gold Coast CTR shall be cleared via the inland VFR route.  
-Aircraft tracking southbound should contact ADC at Robina Town Centre (ROT) for clearance.  
-Aircraft tracking northbound should contact ADC approaching Cudgen Lake for clearance.  
-Aircraft requiring to transit the CTR coastal will be subject to delays depending on traffic in the Gold Coast CTR.  
+Aircraft transiting the Gold Coast CTR will be subject to delays depending on traffic in the Gold Coast CTR.  Aircraft transiting shall be cleared overwater south/northbound, or during busy traffic periods cleared via the [Western VFR Route](#western-vfr-route). 
+
+Aircraft tracking southbound should contact ADC at Q1, or Robina Town Centre (ROT) for clearance.  
+
+Aircraft tracking northbound should contact ADC approaching Hastings Point (HASS) for clearance. 
+
+
+### Coastal Flights
+Surf Lifesaving Patrol and Scenic Tour operations conducting low-level coastal flights within the CG CTR shall be cleared overwater in the required direction of travel, not above `A002`.
+
+!!! phraseology
+    **LIFE46:** "Gold Coast Tower, helicopter LIFE46, abeam Q1, 3 POB, request clearance"  
+    **CG ADC:** "LIFE46, Gold Coast Tower, cleared overwater southbound, not above A002"  
+    **LIFE46:** "Cleared overwater southbound, not above A002, LIFE46"
+
+### Western VFR Route
+The Western VFR Route begins at Nerang and tracks inland, terminating at Burringbar. Aircraft following this route exit CTA at Stotts Island, where control services are terminated. This route serves as an alternative route for aircraft wishing to transit through Gold Coast CTR. Prior to entering the CTA, pilots must obtain clearance for the Western VFR Route.
+
+!!! phraseology
+    **WCS:** "Gold Coast Tower, WCS, overhead NEN, request Western VFR Route"  
+    **CG ADC:** "WCS, Gold Coast Tower, cleared Western VFR Route, not above A015, QNH 1013"  
+    **WCS:** "Cleared Western VFR Route, not above A015, QNH 1013, WCS"  
+
+    Once the aircraft exits the CTA, cancel their control services.
+
+    **WCS:** "WCS, excited the zone"  
+    **CG ADC:** "WCS, control services terminated, frequency change approved"   
+    **WCS:** "Frequency change approved, WCS"  
+
 
 ## Helicopter Operations
 Local helicopter operations are conducted on the Western Grass which is the area contained by blue gable markers north of the VOR and west of the runway intersection. This is marked on the aerodrome chart as “HELO OPS”.  
 The HLS (Helipad) is located between the GA Apron and Taxiway Golf.  
 Circuits from the Western Grass are to be made in the same direction as the duty runway.
+
+### Hospital Helipads
+Within the Gold Coast CTR, there are two main hospital helipads. Tweed Heads Hospital (YTWH), and Tweed Valley Hospital (YXTV).
+
+<figure markdown>
+![CG ADC Airspace](img/CG_ctr_heli.png){ width="700" }
+  <figcaption>CG ADC Airspace</figcaption>
+</figure>
+
+ADC shall assess the current traffic situation and, if necessary, instruct the pilot to hold and/or maintain own separation with any arriving or departing aircraft, then clear them for a visual approach to their inbound hospital.
+
+!!! phraseology
+    **WP1:** "Gold Coast Tower, helicopter WP1, 6 miles south, inbound Tweed Valley Hospital, recieved G"  
+    **CG ADC:** "WP1, Gold Coast Tower, track direct Tweed Valley Hospital not above A015"  
+    **WP1:** "Track direct Tweed Valley Hospital not above A015, WP1"
+
+    **CG ADC:** "WP1, cleared visual approach Tweed Valley Hospital, report on the ground"  
+    **WP1:** "Cleared visual approach Tweed Valley Hospital, report on the ground, WP1"  
+
+Aircraft departing from hospitals within the Gold Coast CTR must obtain clearance prior to becoming airborne. The Tweed Valley Hospital (YXTV) helipad, is located 6nm south beneath Runway 32 extended centerline, and may presents potential traffic conflicts. Aircraft will be subject to delays depending on traffic in the Gold Coast CTR.
+
+!!! phraseology
+    **RSCU533:** "Gold Coast Tower, helicopter RSCU533, Tweed Valley Hospital, ready for northen departure"  
+    **CG ADC:** "RSCU533, Gold Coast Tower, remain on the ground, expect clearance in 5 minutes due traffic"  
+    **RSCU533:** "Remain on the ground, RSCU533"
+
+    **CG ADC:** "RSCU533, track direct STOT, not above A015, report airborne"  
+    **RSCU533:** "Track direct STOT, not above A015 report airborne, RSCU533"  
+
 
 ## Coordination
 ### Auto Release
