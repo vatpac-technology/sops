@@ -9,7 +9,7 @@
 | ---- | -------- | --------- | ---------------- |
 | **Albury ADC** | **Albury Tower** | **123.250** | **AY_TWR** |
 | **Albury SMC** | **Albury Ground** | **121.800** | **AY_GND** |
-| Albury ATIS |  | 133.850 | YMAY_ATIS |
+| **Albury ATIS** |  | **133.850** | **YMAY_ATIS** |
 
 ## Airspace
 <figure markdown>
