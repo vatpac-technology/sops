@@ -206,6 +206,7 @@
 *[CARR]: Carrum
 *[GMH]: GMH (General Motors Holden)
 *[ACE]: Academy
+*[SHOL]: Shoal
 *[CWST]: Choppers West
 *[CNTH]: Choppers North
 *[CSTH]: Choppers South
