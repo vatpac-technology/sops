@@ -23,7 +23,6 @@ MB ADC is responsible for the Class D airspace in the MB CTR from `SFC` to `A025
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
 ## Runway Modes
-
 Preferred runway modes are as follows (in order of preference):
 
 1. Runway 35L/35R
@@ -33,32 +32,37 @@ Preferred runway modes are as follows (in order of preference):
 Runway 04/22 is not nominated by default and is only available on request or when operationally required for emergencies. Requests for Runway 22 may be granted if traffic conditions allow. Runway 04 is less likely to be approved due the need to vacate onto an intersecting runway.
 
 ## VFR Inbound Procedures
-
 Aircraft should report at the standard VFR entry points:
-- **BTO** (to the north)
-- **BAW** (to the west)
-- **CARR** (to the southwest)
-- **GMH** (to the southeast)
-- **ACE** (to the northeast)
-- **SHOAL** (to the southwest)
 
-Circuit join instructions are determined case by case based on traffic management and pilot position. The most common joins are listed below:
+| Direction from YMMB  | Entry Point |
+|-------------|----------------------|
+| North | BTO         |
+| North East | ACE         |
+| East | GMH        |
+| South | CARR         |
+| South West | SHOL         |
+| West | BAW       |
+
+### Circuit Joining Instructions
 
 | Entry Point | RWY 13                          | RWY 17                          | RWY 31                          | RWY 35                          |
 |-------------|---------------------------------|----------------------------------|----------------------------------|----------------------------------|
-| BTO         | **Final 13R**                  | **Oblique Base 17R**            | **Downwind 31L**                | **Downwind** or **Oblique Downwind 35L** |
-| BAW         | **Base** or **Oblique Base 13R** | **Base** or **Oblique Downwind 17R** | **Oblique Downwind 31L**         | **Base 35L**                    |
-| CARR        | **Oblique Downwind 13R**       | **Downwind 17R**                | **Base 31L**                    | **Final 35L**                   |
-| GMH         | **Oblique Downwind** or **Downwind 13L** | **Base 17L**                   | **Oblique Base** or **Final 31R** | **Base 35R**                    |
-| ACE         | **Base 13L**                   | **Oblique Base** or **Final 17L** | **Oblique Downwind** or **Base 31R** | **Oblique Downwind 35R**        |
-| SHOAL       | **Oblique Downwind** or **Base 13R** | **Oblique Downwind 17R**       | **Base 31L**                    | **Oblique Base** or **Final 35L** |
+| BTO         | *Final* **13R**                  | *Oblique Base* **17R**            | *Downwind* **31L**                | *Downwind* or *Oblique Downwind* **35L** |
+| ACE         | *Base* **13L**                   | *Oblique Base* or *Final* **17L** | *Oblique Downwind* or *Base* **31R** | *Oblique Downwind* **35R**        |
+| GMH         | *Oblique Downwind* or *Downwind* **13L** | *Base* **17L**                   | *Oblique Base* or *Final* **31R** | *Base* **35R**                    |
+| CARR        | *Oblique Downwind* **13R**       | *Downwind* **17R**                | *Base* *31L**                    | *Final* **35L**                   |
+| SHOL       | *Oblique Downwind* or *Base* **13R** | *Oblique Downwind* **17R**       | *Base* **31L**                    | *Oblique Base* or *Final* **35L** |
+| BAW         | *Base* or *Oblique Base* **13R** | *Base* or *Oblique Downwind* **17R** | *Oblique Downwind* **31L**         | *Base* **35L**                    |
 
-CTR Entry Altitude: `A010`.
+!!! phraseology
+    **EWZ**: "Moorabbin Tower, EWZ, C172, approaching CARR, A015, inbound in receipt of P"  
+    **MB ADC**: "EWZ, Moorabbin Tower, join downwind Runway 17R"  
+    **EWZ**: "Join downwind Runway 17R, EWZ"  
+
+VFR Pilots are expected to enter the MB CTR at `A010` as per ERSA. However, be aware that some pilots may not be familiar with this requirement.
 
 ## Circuits
-
 ### Fixed wing
-
 Circuit altitude: `A010`.
 
 | Runway  | Day Circuit Direction | Night Circuit Direction |
@@ -72,12 +76,9 @@ Circuit altitude: `A010`.
 | 35L     | Left                  | N/A                     |
 | 35R     | Right                 | Right                   |
 
-## Helicopters
-
+## Helicopter Operations
 ### Circuits
-
 #### Day VFR Circuits
-
 Circuit altitude: `A007`.
 
 Helicopter circuits are conducted from designated areas based on the active runway:
@@ -95,7 +96,7 @@ Helicopter circuits are conducted from designated areas based on the active runw
 
 Circuit operations are conducted parallel to the duty runway and inside the fixed-wing circuit.
 
-**Radio Procedure**:
+##### Process
 
 - Helicopters established on the eastern grass or western triangle do not require clearance for low-level operations below `A001`.
 - Pilots must report airborne before each circuit. If departing, they must include intentions. Pilots must stay below `A001` until they are acknowledged.
@@ -108,106 +109,44 @@ Circuit operations are conducted parallel to the duty runway and inside the fixe
     Where traffic permits, helicopters may be instructed to air transit to their designated areas of operations, to expedite their repositioning.
 
 !!! phraseology
-    **RJB**: "MB Twr, RJB, at the southern apron, with information november, request circuits"  
-    **MB ADC**: "RJB, air transit Eastern Grass, report airborne"  
+    **RJB**: "Moorabbin Tower, RJB, R44, at the southern apron, with information N, request circuits"  
+    **MB ADC**: "RJB, Moorabbin Tower, air transit Eastern Grass, report airborne"  
     **RJB**: "Air transit Eastern Grass, RJB"  
 
-    **RJB**: "MB Twr, RJB, airborne"  
+    **RJB**: "Moorabbin Tower, RJB, airborne"  
     **MB ADC**: "RJB"
 
-    *RJB, established at the Eastern Grass, becomes airborne for circuits*
-    **RJB**: "RJB Airborne"
+    *RJB, established at the Eastern Grass, becomes airborne for circuits*  
+    **RJB**: "RJB, Airborne"  
     **MB ADC**: "RJB"
 
 #### Night Circuits
 Night operations must comply with fixed wing operations.
 
-### Departures
-
-Day VFR helicopter departures must remain at or below `A007`. Helicopters must nominate a aiming point, eastern grass, western triangle or HLS on first contact with MB ADC.
-
-- **Aiming Points**:
-    - Direct helicopters departing from the **Southern Aiming Point** to hold short of **TWY A**.
-    - Direct helicopters departing from the **Northern Aiming Point** to hold short of **TWY G**.
-
-<figure markdown>
-![Aiming Locations](img/mbhelidep.png){ width="700" }
-<figcaption>Aiming Locations</figcaption>
-</figure>
-
-- **Departure Procedures**:
-    - Departures should remain clear of duty runways and:
-        - **Track**:
-            - For **northbound departures**: Track north until clear of the tower.
-            - For **southbound departures**: Track south until clear of airport buildings.
-
-!!! phraseology
-    VH-RJB, an R44 helicopter, is looking to depart to the north towards essendon VFR. 17L/R is active.
-    **RJB** "MB Twr, RJB, At the southern apron, with information N, request upwind departure via 17L aiming point"
-    **MB ADC**: "RJB, cleared air transit 17L aiming point, remain east of the tower, report airborne"
-    **RJB**: "RJB, Airborne"
-
-    **MB ADC**: "RJB, report established 17L aiming point"
-    **RJB**: "RJB"
-    **RJB**: "RJB, 17L aiming point, upwind departure to essendon"
-    **MB ADC**: "RJB, Cleared upwind departure, runway 17L, not above A007"
-
-!!! tip
-    Remember you can have helicopters report at key locations as memory aid.
-
-### Arrivals
-
-- ML TCU will heads-up coordinate arrivals/overfliers from Class C to MB ADC.
-
-- **From the East**:
-    - Helicopters arriving from the east should be instructed to fly a close base leg and pass over the duty threshold at **not below `A003`**.
-    - For duty runways **13** or **17**, helicopters arriving for the northern or main aprons may be instructed to overfly the duty threshold at **not below `A003`** for a short right circuit.
-    - For **circuits**, helicopters arriving may directly join a leg of the circuit.
-
-- **From the West**:
-    - For **southerly approaches** full stop: Instruct helicopters to remain clear of duty runways, track east of the tower, and proceed directly to the **Southern HLS** or southern aiming point.
-    - For **northerly approaches** full stop: Instruct helicopters to remain clear of duty runways, track east of the tower, and proceed to the northern or main aprons.
-    - For **circuits** have the aircraft fly overhead the tower and report. Instruct the aircraft to join a leg of the circuit.
-
-!!! phraseology
-    VH-RJB, an R44 helicopter, is looking to join the circuit from the west at Cerberus, with runway 17L/R active.
-    **RJB**: "MB Tower, Helicopter R44 RJB, Cerberus, A007, inbound, with november, for circuits"
-    **MB ADC**: "RJB, Moorabbin Tower, overfly the tower A007, report overhead the tower"
-    **RJB**: "RJB"
-    **RJB**: "RJB overhead the tower"
-    **MB ADC**: "RJB, join downwind runway 17R"
-    **RJB**: "Join downwind runway, 17R"
-
 ## Coordination
-
 ### Departures
+When the aircraft is ready for departure, MB ADC will coordinate with the relevant ML TCU controller above them for permission to release the aircraft into their CTA.
 
-- Autorelease is not in effect. Coordination for "Next" is required required for departures into overlaying Class C. They must not be issued a takeoff clearance until a release has been obtained.
-- Standard assignable level: `A050` (or `RFL` if lower).
 !!! phraseology
-    <span class="hotline">**MB ADC** -> **MDS**</span>: "Next, SGE"
+    <span class="hotline">**MB ADC** -> **MDS**</span>: "Next, SGE"  
     <span class="hotline">**MDS** -> **MB ADC**</span>: "SGE, unrestricted"
 
-Aircraft departing directly into Class C airspace should be instructed to report passing A025 and transferred to the TCU at that point.
+The Standard Assignable level from MB ADC to ML TCU is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
+
+Aircraft who will transit Class G airspace on climb into CTA must be **cleared to leave and re-enter controlled airspace** on climb to their assigned level.
 
 !!! phraseology
-    **SGE**: "SGE, A025"
-    **MB ADC**: "SGE, contact Melbourne Departures on 129.4"
-
-Aircraft who will transit Class G airspace on climb into CTA will be **cleared to leave and re-enter controlled airspace** on climb to their assigned level.
-
-!!! phraseology
-    **MB ADC**: "SGE, cleared to leave and re-enter controlled airspace climbing to A050, no reported IFR traffic. Contact Melbourne Departures on 129.4"
+    **MB ADC**: "SGE, cleared to leave and re-enter controlled airspace climbing to A050, no reported IFR traffic. Contact Melbourne Departures on 129.4"  
     **SGE**: "Cleared to leave and re-enter controlled airspace climbing to A050, Departures 129.4, SGE"
 
 ### Arrivals/Overfliers
+ML TCU will heads-up coordinate arrivals/overfliers from their Class C to MB ADC.
 
-- ML TCU will heads-up coordinate arrivals/overfliers from Class C to MB ADC.
 - **IFR arrivals** will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to MB ADC, unless MB ADC nominates a restriction.
 - **VFR arrivals** will not be coordinated, and will need to receive their airways clearance from MB ADC.
 
 !!! phraseology
-    <span class="hotline">**MDS** -> **MB ADC**</span>: "To the west, PLE, for the NDB-A"
+    <span class="hotline">**MDS** -> **MB ADC**</span>: "To the west, PLE, for the NDB-A"  
     <span class="hotline">**MB ADC** -> **MDS**</span>: "PLE, NDB-A"
 
 !!! tip
