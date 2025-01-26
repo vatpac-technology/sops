@@ -225,55 +225,55 @@ Unless operationally required, aircraft shall be assigned the following runways 
 !!! tip
     A radar SID (e.g. **SY (RADAR) SID**) is distinct from a procedural SID with a RADAR transition (eg, **RIC SID, RADAR transition**). A radar SID can be identified in the [DAPs](https://www.airservicesaustralia.com/aip/aip.asp){target=new} as having a *"(RADAR)"* at the end of the name.
 
-### Runway 07
+=== "Runway 07"
 
-| Type  | Via  | SID     |
-| ------| ---- | --------|
-| Jet  | OLSEM<br>WOL | **FISHA** SID, Relevant Transition |
-| Jet  | All others | **FISHA** SID, RADAR Transition |
-| Non-Jet| All       | **RADAR** SID |
+    | Type  | Via  | SID     |
+    | ------| ---- | --------|
+    | Jet  | OLSEM<br>WOL | **FISHA** SID, Relevant Transition |
+    | Jet  | All others | **FISHA** SID, RADAR Transition |
+    | Non-Jet| All       | **RADAR** SID |
 
-### Runway 16L
+=== "Runway 16L"
 
-| Type  | Via  | SID     |
-| ------| ---- | --------|
-| Jet  | OLSEM<br>NOBAR<br>DIPSO<br>EVONN<br>CAWLY<br>OPTIC | **KEVIN** SID, Relevant Transition |
-| Jet  | WOL | **ABBEY** SID |
-| Jet  | All others | **KEVIN** SID, RADAR Transition |
-| Non-Jet | All | **RADAR** SID |
+    | Type  | Via  | SID     |
+    | ------| ---- | --------|
+    | Jet  | OLSEM<br>NOBAR<br>DIPSO<br>EVONN<br>CAWLY<br>OPTIC | **KEVIN** SID, Relevant Transition |
+    | Jet  | WOL | **ABBEY** SID |
+    | Jet  | All others | **KEVIN** SID, RADAR Transition |
+    | Non-Jet | All | **RADAR** SID |
 
-### Runway 16R
+=== "Runway 16R"
 
-| Type  | Via  | SID     |
-| ------| ---- | --------|
-| Jet  | RIC<br>KADOM<br>WOL | **GROOK** SID, Relevant Transition |
-| Jet  | All others | **GROOK** SID, RADAR Transition |
-| Non-Jet | All | **RADAR** SID |
+    | Type  | Via  | SID     |
+    | ------| ---- | --------|
+    | Jet  | RIC<br>KADOM<br>WOL | **GROOK** SID, Relevant Transition |
+    | Jet  | All others | **GROOK** SID, RADAR Transition |
+    | Non-Jet | All | **RADAR** SID |
 
-### Runway 25
+=== "Runway 25"
 
-| Type  | Via  | SID     |
-| ------| ---- | --------|
-| All  | All | **RADAR** SID |
+    | Type  | Via  | SID     |
+    | ------| ---- | --------|
+    | All  | All | **RADAR** SID |
 
-### Runway 34L
+=== "Runway 34L"
 
-| Type  | Via  | SID     |
-| ------| ---- | --------|
-| Jet  | WOL | **WOL** SID |
-| Jet  | KADOM | **KADOM** SID |
-| Jet  | RIC | **RIC** SID, RIC Transition |
-| Jet  | All others | **RIC** SID, RADAR Transition |
-| Non-Jet | All | **RADAR** SID |
+    | Type  | Via  | SID     |
+    | ------| ---- | --------|
+    | Jet  | WOL | **WOL** SID |
+    | Jet  | KADOM | **KADOM** SID |
+    | Jet  | RIC | **RIC** SID, RIC Transition |
+    | Jet  | All others | **RIC** SID, RADAR Transition |
+    | Non-Jet | All | **RADAR** SID |
 
-### Runway 34R
+=== "Runway 34R"
 
-| Type  | Via  | SID     |
-| ------| ---- | --------|
-| Jet  | OLSEM | **OLSEM** SID |
-| Jet  | WOL | **MARUB** SID, WOL Transition |
-| Jet  | All others | **MARUB** SID, RADAR Transition |
-| Non-Jet | All | **RADAR** SID |
+    | Type  | Via  | SID     |
+    | ------| ---- | --------|
+    | Jet  | OLSEM | **OLSEM** SID |
+    | Jet  | WOL | **MARUB** SID, WOL Transition |
+    | Jet  | All others | **MARUB** SID, RADAR Transition |
+    | Non-Jet | All | **RADAR** SID |
 
 ### Climb Gradient Requirements
 Climb Gradient Requirements apply to all Procedural SIDs. It is the pilot's responsibility to advise if they are unable to meet these requirements. Pilots that advise this can be assigned a **RADAR** SID instead.

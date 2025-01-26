@@ -32,9 +32,12 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    - content.tabs.link
   favicon: assets/images/mini-logo.png
   icon:
     repo: fontawesome/brands/github
+    annotation: material/plus-circle
+    annotation: material/minus-circle
 
 # Plugins
 plugins:
