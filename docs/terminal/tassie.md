@@ -139,3 +139,10 @@ LTA will coordinate all YMLT arrivals to LT ADC prior to **5 mins** from the bou
 !!! phraseology
     <span class="hotline">**LTA** -> **LT ADC**</span>: "via IRSOM, JST416, for the DGA, will join left downwind 32L”  
     <span class="hotline">**LT ADC** -> **LTA**</span>: "JST416"
+
+### LTA/HBA Internal
+All aircraft transiting between internal TAS TCU boundaries must be heads-up coordinated.
+
+!!! phraseology
+    <span class="hotline">**HBA** -> **LTA**</span>: "via LATUM, AM773"  
+    <span class="hotline">**LTA** -> **HBA**</span>: "AM773, F130"
