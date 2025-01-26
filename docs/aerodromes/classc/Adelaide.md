@@ -11,7 +11,7 @@
 | **Adelaide ADC**    | **Adelaide Tower**   | **120.500**          | **AD_TWR**                                   |
 | **Adelaide SMC**    | **Adelaide Ground**  | **121.700**          | **AD_GND**                                   |
 | **Adelaide ACD**         | **Adelaide Delivery** | **126.100**          | **AD_DEL**                                   |
-| Adelaide ATIS        |                | 134.500         | YPAD_ATIS                                |
+| **Adelaide ATIS**        |                | 134.500         | YPAD_ATIS                                |
 
 ## Airspace
 AD ADC is not responsible for any airspace by default.
