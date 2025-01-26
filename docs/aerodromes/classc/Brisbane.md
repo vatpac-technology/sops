@@ -9,14 +9,16 @@
 | Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Brisbane ADC East**    | **Brisbane Tower**   | **120.500**          | **BN_TWR**                                   |
-| Brisbane ADC West†   | Brisbane Tower   | 118.000          | BN-W_TWR                                 |
+| <span class="indented">Brisbane ADC West :material-information-outline:{ title="Non-standard position"}   | Brisbane Tower   | 118.000          | BN-W_TWR                                 |
 | **Brisbane SMC Domestic**    | **Brisbane Ground**  | **121.700**          | **BN_GND**                                   |
-| Brisbane SMC South†   | Brisbane Ground  | 122.250          | BN-S_GND                                 |
-| Brisbane SMC North†   | Brisbane Ground  | 124.050          | BN-N_GND                                 |
+| <span class="indented">Brisbane SMC South :material-information-outline:{ title="Non-standard position"}   | Brisbane Ground  | 122.250          | BN-S_GND                                 |
+| <span class="indented">Brisbane SMC North :material-information-outline:{ title="Non-standard position"}   | Brisbane Ground  | 124.050          | BN-N_GND                                 |
 | **Brisbane ACD**         | **Brisbane Delivery**| **118.850**          | **BN_DEL**                                   |
 | Brisbane ATIS        |                | 126.250          | YBBN_ATIS                                |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the parent sector prior to opening a Non-Standard Position.
 
 ## Airspace
 BN ADC is not responsible for any airspace by default.

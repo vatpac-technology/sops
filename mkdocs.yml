@@ -32,6 +32,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    - content.tooltips
   favicon: assets/images/mini-logo.png
   icon:
     repo: fontawesome/brands/github
