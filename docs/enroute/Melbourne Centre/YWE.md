@@ -90,6 +90,12 @@ The Vertical limits of the ML TCU are `SFC` to `F245`.
 
 Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
 
+!!! note
+    ML TCU is responsible for a small wedge of **Class E** airspace (`A015`-`A045`) that sticks out in to WON, just south of YMAV, as shown below  
+    ![ML TCU Wedge](../assets/mavsouth.png){ width="500" }
+    <figcaption>ML TCU Wedge</figcaption>
+    </figure>
+
 #### Arrivals/Overfliers
 Voiceless for all aircraft:
 
