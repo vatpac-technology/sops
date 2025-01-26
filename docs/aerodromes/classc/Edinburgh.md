@@ -10,7 +10,7 @@
 | ------------------- | ---------------------- | -------------- | -------------------- |
 | **Edinburgh ADC**   | **Edinburgh Tower**    | **118.300**    | **ED_TWR**           |
 | **Edinburgh SMC**   | **Edinburgh Ground**   | **134.100**    | **ED_GND**           |
-| **Edinburgh ATIS**      |                        | 126.250        | YPED_ATIS            |
+| **Edinburgh ATIS**      |                        | **126.250**        | **YPED_ATIS**            |
 
 ## Airspace
 <figure markdown>

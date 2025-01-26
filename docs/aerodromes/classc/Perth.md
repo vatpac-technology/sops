@@ -11,7 +11,7 @@
 | **Perth SMC West** | **Perth Ground** | **121.700** | **PH_GND** |
 | <span class="indented">Perth SMC East :material-information-outline:{ title="Non-standard position"} | Perth Ground | 122.200 | PH-E_GND |
 | **Perth ACD** | **Perth Delivery** | **118.550** | **PH_DEL** |
-| **Perth ATIS** |  | 123.800 | YPPH_ATIS |
+| **Perth ATIS** |  | **123.800** | **YPPH_ATIS** |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
