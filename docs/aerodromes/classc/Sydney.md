@@ -14,7 +14,7 @@
 | <span class="indented">Sydney SMC West :material-information-outline:{ title="Non-standard position"}   | Sydney Ground  | 126.500          | SY-W_GND                                 |
 | <span class="indented">Sydney Coordinator :material-information-outline:{ title="Non-standard position"} | Sydney Coordinator   | 127.600          | SY-C_GND                                |
 | **Sydney ACD**         | **Sydney Delivery**| **133.800**          | **SY_DEL**                                   |
-| **Sydney ATIS**        |                | 126.250          | YSSY_ATIS                                |
+| **Sydney ATIS**        |                | **126.250**          | **YSSY_ATIS**                                |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  

@@ -11,7 +11,7 @@
 | **Amberley ADC**    | **Amberley Tower**  | **118.300**         | **AMB_TWR**        |
 | **Amberley SMC**    | **Amberley Ground**  | **129.350**      | **AMB_GND**        |
 | **Amberley ACD**    | **Amberley Delivery**  | **134.600**         | **AMB_DEL**       |
-| **Amberley ATIS**    |   | 123.300         | YAMB_ATIS       |
+| **Amberley ATIS**    |   | **123.300**         | **YAMB_ATIS**       |
 
 ## Airspace
 AMB ADC owns the Class C airspace in the AMB CTR from `SFC` to `A015`.

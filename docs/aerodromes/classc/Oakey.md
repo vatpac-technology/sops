@@ -10,7 +10,7 @@
 | ------------------ | -------------- | ---------------- | --------------------------------------|
 | **Oakey ADC**    | **Oakey Tower**  | **120.100**         | **OK_TWR**        |
 | **Oakey SMC**    | **Oakey Ground**  | **121.900**      | **OK_GND**        |
-| **Oakey ATIS**   |               | 124.300      | YBOK_ATIS     |
+| **Oakey ATIS**   |               | **124.300**      | **YBOK_ATIS**     |
 
 ## Airspace
 OK ADC owns the airspace within 5 DME of the OK VOR from `SFC` to `A025`. This airspace is designed to facilitate circuit traffic.

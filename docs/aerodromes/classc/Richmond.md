@@ -10,7 +10,7 @@
 | ------------------ | -------------- | ---------------- | --------------------------------------|
 | **Richmond ADC**    | **Richmond Tower**  | **135.500**         | **RI_TWR**        |
 | **Richmond SMC**    | **Richmond Ground**  | **128.250**      | **RI_GND**        |
-| **Richmond ATIS**    |   | 123.300         | YSRI_ATIS       |
+| **Richmond ATIS**    |   | **123.300**         | **YSRI_ATIS**       |
 
 ## Airspace
 RI ADC being online will activate the **R470** Restricted Area, which is reclassified as **Class C** when active.
