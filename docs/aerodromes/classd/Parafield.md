@@ -36,7 +36,7 @@ Circuits to be flown at `A010`
 ## VFR Inbound Procedures
 | VFR Approach Point | RWYs 03 | RWYs 21 | RWYs 08 | RWYs 26 |
 | ----------------| --------- | ---------- | ----- | ----- |
-| OHB   | Join base (or downwind) RWY 21R | Join base (or downwind) RWY 03L | Join final RWY 08L| Join downwind RWY 26R | 
+| OHB   | Join base (or downwind) RWY 03L | Join base (or downwind) RWY 21R | Join final RWY 08L| Join downwind RWY 26R | 
 | DMW | Join downwind RWY 03R | Join 3NM final RWY 21L| Join downwind RWY 08L | Join final RWY 26R |
 
 !!! note

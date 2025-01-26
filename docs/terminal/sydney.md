@@ -75,6 +75,21 @@ SRI is responsible for the provision of FIS in Class G airspace within the SY TM
 !!! example
     During a busy event, Sydney Departures is experiencing a high workload and wishes to delegate the SRI role to another TMA controller who isn't as busy.  SAN's sector is quiet, so they elect to perform the role.
 
+#### Training Areas
+SRI should monitor aircraft operating in the YSBK and YSCN training areas. VFR aircraft are not required to contact SRI for entry, however should monitor the SRI frequency when operating in the training areas.
+
+| Training Area  | Danger Area Code   |
+| ------| --------------|
+| YSBK   | D556B |
+| YSCN   | D552 |
+
+<figure markdown>
+![Bankstown and Camden Training Areas](img/SYtrainingareas.PNG){ width="700" }
+  <figcaption>Bankstown and Camden Training Areas</figcaption>
+</figure>
+
+If a conflict is imminent, SRI may pass safety alerts to VFR aircraft, even if prior contact has not been established and the aircraft are not in receipt of Surveillance Information Service (SIS). IFR aircraft, or VFR aircraft receiving SIS, that pass near the Training Areas may be given traffic information on known aircraft operating within the Training Areas, particularly those on the eastern side that may intend to exit tracking to Prospect Reservoir (PSP).
+
 ### Airspace Division
 The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW** and **SFE** change based on the Runway Mode.
 

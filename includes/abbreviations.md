@@ -77,6 +77,7 @@
 *[MAE]: Melbourne Approach East
 *[MDN]: Melbourne Departures North
 *[MDS]: Melbourne Departures South
+*[MAV]: Melbourne (Avalon) Approach
 *[PHA]: Perth Approach
 *[PHD]: Perth Departures
 *[SAN]: Sydney Approach North
@@ -298,6 +299,9 @@
 *[WSL]: West Sale
 *[RAAF]: Royal Australian Air Force
 *[TERMA]: Terminal Area Radar and Military Airspace
+*[SWTA]: South Western Training Area
+*[MTWK]: Mount Walker
+*[CLVT]: Calvert
 *[MNG]: Mangalore
 *[LTV]: Latrobe Valley
 *[AY]: Albury
@@ -310,6 +314,8 @@
 *[TORA]: Takeoff Run Available
 *[UQLD]: University of Queensland
 *[HLS]: Helicopter Landing Site
+*[BLHS]: Bald Hills
+*[MBHM]: Manly Boat Harbour
 *[MARSA]: Military Authority Assumes Responsibility for Separation of Military Aircraft
 *[NOCOM]: Non-Continuous Communication
 *[AEWC]: Airborne Early Warning and Control
