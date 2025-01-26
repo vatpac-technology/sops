@@ -8,7 +8,7 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | ---------------- |
 | **Alice Springs ADC** | **Alice Tower** | **118.300** | **AS_TWR** |
-| Alice Springs ATIS |  | 123.000 | YBAS_ATIS |
+| **Alice Springs ATIS** |  | **123.000** | **YBAS_ATIS** |
 
 ## Airspace
 AS ADC is responsible for the Class D airspace `SFC` to `A045`, as well as the Class C airspace `A045` to `A065`, within the AS CTR.

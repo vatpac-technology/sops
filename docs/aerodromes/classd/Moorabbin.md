@@ -10,7 +10,7 @@
 |--------------------|----------------------|-------------|--------------|
 | **Moorabbin ADC**  | **Moorabbin Tower**  | **118.100** | **MB_TWR**   |
 | **Moorabbin SMC**  | **Moorabbin Ground** | **134.250** | **MB_GND**   |
-| Moorabbin ATIS     |                      | 120.900     | YMMB_ATIS    |
+| **Moorabbin ATIS**     |                      | **120.900**     | **YMMB_ATIS**    |
 
 ## Airspace
 MB ADC is responsible for the Class D airspace in the MB CTR from `SFC` to `A025`.

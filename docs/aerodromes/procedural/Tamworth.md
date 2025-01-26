@@ -10,7 +10,7 @@
 | ---- | -------- | --------- | ---------------- |
 | **Tamworth ADC** | **Tamworth Tower** | **119.400** | **TW_TWR** |
 | **Tamworth SMC** | **Tamworth Ground** | **121.900** | **TW_GND** |
-| Tamworth ATIS |  | 123.800 | YSTW_ATIS |
+| **Tamworth ATIS** |  | **123.800** | **YSTW_ATIS** |
 
 ## Airspace
 <figure markdown>

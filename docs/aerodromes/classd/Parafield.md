@@ -9,7 +9,7 @@
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Parafield ADC**  | **Parafield Tower**  | **118.700**          | **PF_TWR**                        |
 | **Parafield SMC**  | **Parafield Ground** | **119.900**          | **PF_GND**                       |
-| Parafield ATIS        |                | 120.900          | YPPF_ATIS                                |
+| **Parafield ATIS**        |                | **120.900**          | **YPPF_ATIS**                                |
 
 ## Airspace
 PF ADC is responsible for the Class D airspace in the PF CTR `SFC` to `A015`.

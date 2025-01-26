@@ -10,7 +10,7 @@
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Camden ADC** | **Camden Tower** | **120.100**          | **CN_TWR**                        |
 | **Camden SMC**  | **Camden Ground**   | **121.900**          | **CN_GND**                      |
-| Camden ATIS        |                | 125.100          | YSCN_ATIS                                |
+| **Camden ATIS**        |                | **125.100**          | **YSCN_ATIS**                                |
 
 ## Airspace
 CN ADC is responsible for the Class D airspace in the CN CTR `SFC` to `A020`.
