@@ -11,7 +11,7 @@
 | **Townsville ADC**    | **Townsville Tower**  | **118.300**         | **TL_TWR**        |
 | **Townsville SMC**    | **Townsville Ground**  | **121.800**         | **TL_GND**        |
 | **Townsville ACD**    | **Townsville Delivery**  | **128.100**         | **TL_DEL**       |
-| Townsville ATIS    |   | 133.500         | YBTL_ATIS       |
+| **Townsville ATIS**    |   | 133.500         | YBTL_ATIS       |
 
 !!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}

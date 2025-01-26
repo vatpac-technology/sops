@@ -9,10 +9,12 @@
 | Name               | ID      | Callsign       | Frequency        | Login ID              |
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
 | **Canberra Approach East**    |**CBE**| **Canberra Approach**   | **124.500**         | **CB_APP**     |
-| Canberra Approach West†   |CBW| Canberra Approach   | 125.900          | CB-W_APP    |
-| Canberra Flow†        |CBF|                |          | CB_FMP                              |
+| <span class="indented">Canberra Approach West :material-information-outline:{ title="Non-standard position"}   |CBW| Canberra Approach   | 125.900          | CB-W_APP    |
+| <span class="indented">Canberra Flow :material-information-outline:{ title="Non-standard position"}        |CBF|                |          | CB_FMP                              |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
 The Vertical limits of the CB TCU are `SFC` to `F245`.

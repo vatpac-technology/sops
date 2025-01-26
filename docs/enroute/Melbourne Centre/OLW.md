@@ -8,14 +8,16 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Onslow** | **Melbourne Centre** | **134.000** | **ML-OLW_CTR** |
-| Port† | Melbourne Centre | 127.000 | ML-POT_CTR |
-| Paraburdoo† | Melbourne Centre | 133.500 | ML-PAR_CTR |
-| Newman† | Melbourne Centre | 125.400 | ML-NEW_CTR |
-| Meekatharra† | Melbourne Centre | 132.000 | ML-MEK_CTR |
-| Mount† | Melbourne Centre | 133.700 | ML-MTK_CTR |
-| Menzies† | Melbourne Centre | 134.300 | ML-MZI_CTR |
+| <span class="indented">Port :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 127.000 | ML-POT_CTR |
+| <span class="indented">Paraburdoo :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 133.500 | ML-PAR_CTR |
+| <span class="indented">Newman :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 125.400 | ML-NEW_CTR |
+| <span class="indented">Meekatharra :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 132.000 | ML-MEK_CTR |
+| <span class="indented">Mount :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 133.700 | ML-MTK_CTR |
+| <span class="indented">Menzies :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 134.300 | ML-MZI_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
 

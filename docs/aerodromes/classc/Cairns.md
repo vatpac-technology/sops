@@ -10,7 +10,7 @@
 | **Cairns ADC**    | **Cairns Tower**   | **124.900**          |  **CS_TWR**                 |
 | **Cairns SMC**    | **Cairns Ground**   | **121.700**          |  **CS_GND**               |
 | **Cairns ACD**    | **Cairns Delivery**   | **128.750**          |  **CS_DEL**                  |
-| Cairns ATIS        |                | 131.100          | YBCS_ATIS                                |
+| **Cairns ATIS**        |                | 131.100          | YBCS_ATIS                                |
 
 ## Airspace
 CS ADC is responsible for the Class C airspace within the CS CTR `SFC` to `A010`.
