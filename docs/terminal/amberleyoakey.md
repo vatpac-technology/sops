@@ -13,7 +13,6 @@
 
 AMB APP is expected to extend to OK APP (and vice versa) when they are offline. No frequency cross coupling is required. 
 
-
 ## Airspace
 ### AMB TCU
 **AMB APP** owns the airspace contained within:
@@ -45,26 +44,30 @@ AMB APP is expected to extend to OK APP (and vice versa) when they are offline. 
 
 **OK ADC** owns the Class C airspace within 5 DME of the OK VOR from `SFC` to `A025`.
 
+## Coded Clearances (Fast Jets)
+High performance military jet aircraft with planned operations in offshore SUA, or intending to depart to the east, will be assigned a Coded Clearance departure. These aircraft may arrive back to YAMB via the same corridor. These Coded Clearances provide a standardised corridor avoiding civilian traffic in the adjacent airspace. 
 
-## YAMB Aerodrome
-### Coded Departures (Fast Jets)
-Visual Departures are commonly requested by high performance military jets and often processed in the form of a coded departure (e.g. BYRON1 departure), which can be found in the AD2 Sups Page for YAMB. These coded departures provide a corridor with altitude constraints to join the Military Training Areas east of Brisbane, avoiding civilian traffic inbound to Brisbane. 
+!!! tip
+    Descriptions of the coded clearances are available in the [FIHA AD2 Supps](https://ais-af.airforce.gov.au/australian-aip){target=new}.
 
-Aircraft will depart the circuit visually and track overhead YAMB to begin tracking for their initial waypoint. The following altitude constraints and tracking points are implied by the coded clearance. 
+### Departures
+Aircraft will depart the circuit visually and track overhead YAMB to begin tracking for their initial waypoint. Aircraft cleared the BYRON1 must turn to the west on departure, and may set course for their inital waypoint within 10TAC AMB, remaining within the lateral limits of the AMB CTR in order to meet the inital constraint at `COWIE`.
+
+AMB ACD will clear relevant departures via the appropriate coded clearance departure, update the FDR route field with the respective tracking points, and write the departure name in the Global Ops Field. 
+
+The routes are shown below:
 
 | Departure | Initial Constraint | Route |
 | --------- | ----------| --------- |
-| Northern 3 | `F190` at BINUP | BINUP MURJO BOBED LESKO MOSSI/ADNUK (Transition) |
-| Northern 4 | `F200` at ANKED | ANKED JEZZA BOBED LESKO MOSSI/ADNUK (Transition) |
-| Central 3 | `F190` at BINUP | BINUP MURJO BOBED VIRGE |
-| Central 4 | `F200` at ANKED | ANKED JEZZA BOBED VIRGE |
-| Byron 1 | `F190` at COWIE | COWIE KIWEE ZANET LOTMA SEMAJ |
-| Byron 2 | `F200` at TUGUN | TUGUN LAGOB ZANET LOTMA SEMAJ |
+| Northern 3 | `F190` by BINUP | BINUP MURJO BOBED LESKO MOSSI, or<br>BINUP MURJO BOBED LESKO ADNUK |
+| Central 3 | `F190` by BINUP | BINUP MURJO BOBED VIRGE |
+| Byron 1 | `F190` by COWIE | COWIE KIWEE ZANET LOTMA SEMAJ | 
 
-The Coded Departures are not present in vatSys, however ADC will write the cleared Coded Departure in the Global Ops Field and include the relevant tracking points in the aircraft's route.
+!!! important
+    Ensure that aircraft meet the `F190` requirement by the first waypoint to ensure separation assurance is maintained with civil aircraft in the adjacent airspace.
 
-!!! abstract "Reference"
-    The Coded Departures are detailed in: [YAMB FIHA AD2 Supp Section 6.2.25](https://ais-af.airforce.gov.au/australian-aip){target=new}
+### Arrivals
+Aircraft will be cleared for the coded clearance by **INL**/**NSA**, with the procedure terminating at the AM TMA airspace boundary.
 
 ## Civil Training Area
 Civil operators (including Australian Air Force Cadets) conduct flying operations within the South Western Training Area (SWTA), located between the 10DME and 20DME arcs to the southwest of the AMB CTR. The SWTA is divided in half by the Rosewood-Mt Walker-Aratula Road into SWTA Alpha (north) and SWTA Bravo (south). The training area is classified Class G airspace but some pilots may request to climb into CTA to facilitate flight training (such as stall practice).
@@ -146,5 +149,5 @@ All aircraft transiting from GOL/DOS/BUR to **AMB TCU** and **OK TCU** must be h
     <span class="hotline">**AMB TCU** -> **GOL**</span>: "PUMA11, A090"  
 
 ## Charts
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
