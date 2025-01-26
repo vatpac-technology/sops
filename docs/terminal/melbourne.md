@@ -11,12 +11,13 @@
 | **Melbourne Approach East**    |**MAE**| **Melbourne Approach**   | **132.000**         | **ML_APP**                                   |
 | Melbourne Departures North†    |MDN| Melbourne Departures  | 118.900         | ML_DEP          |
 | Melbourne Departures South†   |MDS| Melbourne Departures | 129.400          | ML-S_DEP         |
+| Melbourne (Avalon) Approach†   |MAV| Avalon Approach | 133.550          | AV_APP         |
 | Melbourne Flow†        |MFL|                |          | ML_FMP                             |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
 ## Airspace
-The Vertical limits of the ML TCU are `SFC` to `F245`.  
+The Vertical limits of the ML TCU are `SFC` to `F245`.
 
 ### Reclassifications
 #### MB CTR
@@ -32,54 +33,66 @@ See also: [AV ADC Offline](#av-adc-offline).
 !!! tip
     When AV ADC is not online, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
 
+### Avalon Approach (MAV)
+MAV is responsible for the Class D and E airspace in the AV CTR, `SFC`-`A045`.  
+They are responsible for the same portion of airspace when it is [reclassified](#av-ctr) due to AV ADC being offline.
+
+MAV extends south outside of **30nm ML**, in to YWE(WON) airspace. The Southern portion of this extension (shown below) is Class E `A015`-`A045`, and YWE(WON) is responsible for the airspace **above and below** it.
+
+<figure markdown>
+![MAV Airspace Side Profile](img/mavairspace1.png){ width="700" }
+  <figcaption>MAV Airspace Side Profile</figcaption>
+</figure>
+
 ### Airspace Division
-The divisions of the airspace between **MAE**, **MDN**, and **MDS** change based on the Runway Mode.
+The divisions of the airspace between **MAE**, **MDN**, **MDS**, and **MAV** change based on the Runway Mode.
 
 !!! note
-    The following diagrams do not include non ML TCU areas of responsibility such as MB CTR or AV ADC
+    The following diagrams do not include non ML TCU areas of responsibility such as MB ADC or EN ADC
 
 #### 09
 <figure markdown>
-![09 TCU Structure](img/ML09annotated.png){ width="700" }
+![09 TCU Structure](img/ml09.png){ width="700" }
   <figcaption>09 TCU Structure</figcaption>
 </figure>
 
 #### 09A16D
 <figure markdown>
-![09A16D TCU Structure](img/ML09A16Dannotated.png){ width="700" }
+![09A16D TCU Structure](img/ml09a16d.png){ width="700" }
   <figcaption>09A16D TCU Structure</figcaption>
 </figure>
 
 #### 16 / 16A27D
 <figure markdown>
-![16 / 16A27D TCU Structure](img/ML16annotated.png){ width="700" }
+![16 / 16A27D TCU Structure](img/ml16.png){ width="700" }
   <figcaption>16 / 16A27D TCU Structure</figcaption>
 </figure>
 
 #### 27 / 27AD34D
 <figure markdown>
-![27 / 27AD34D TCU Structure](img/ML27annotated.png){ width="700" }
+![27 / 27AD34D TCU Structure](img/ml27.png){ width="700" }
   <figcaption>27 / 27AD34D TCU Structure</figcaption>
 </figure>
 
 #### 34
 <figure markdown>
-![34 TCU Structure](img/ML34annotated.png){ width="700" }
+![34 TCU Structure](img/ml34.png){ width="700" }
   <figcaption>34 TCU Structure</figcaption>
 </figure>
 
 ## Departure Procedures
 ### ML (RADAR) SID
-The **ML (RADAR) SID** is used for all non-jet IFR departures (and certain jet aircraft) from YMML.  Unlike at other aerodromes, **ML ADC** does *not* need to coordinate these departures with a 'Next' call, provided they are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
+The **ML (RADAR) SID** is used for all non-jet IFR departures (and certain jet aircraft) from YMML. Unlike at other aerodromes, **ML ADC** does *not* need to coordinate these departures with a 'Next' call, provided they are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
 ## Arrival Procedures
 ### Level Assignment
 When assigning levels on descent to aircraft, remember that you will not receive "Next" Coordination on aircraft assigned Standard Assignable Levels (`A050` for most aircraft), meaning an aircraft could depart at any time without prior warning and climb to `A050`. To maintain separation assurance between arrivals and departures, do not assign below `A060` to arriving aircraft until they are clear of the active runway's departure path.
 
-!!! phraseology
+!!! example
     With RWY 34 in use for arrivals and RWY 27 in use for departures, aircraft inbound on the ARBEY STAR should be assigned no lower than `A060` until established south of the RWY 27 departure track.
 
 To avoid conflicting with published departure procedures, aircraft not cleared via a STAR should be issued a requirement to reach `A090` by 20DME.
+
 ### YMEN Arrivals
 IFR YMEN Arrivals shall be cleared via the following arrival gates:  
 Runway 26: `MONTY`  
@@ -102,7 +115,7 @@ VFR YMEN Arrivals from ML TCU shall be cleared via any of the following arrival 
     When EN ADC is offline, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
 
 #### Arrivals
-The class C airspace surrounding YMEN extends to `SFC`.  This means that aircraft conducting approaches will remain inside controlled airspace until they land (and in the event of a go around).  These aircraft should be cleared for an appropriate approach, advised of any traffic taxiing at YMEN, and instructed to *'report clear of the runway'*.  The missed approach path must be protected until the aircraft reports clear.
+The class C airspace surrounding YMEN extends to `SFC`. This means that aircraft conducting approaches will remain inside controlled airspace until they land (and in the event of a go around). These aircraft should be cleared for an appropriate approach, advised of any traffic taxiing at YMEN, and instructed to *'report clear of the runway'*. The missed approach path must be protected until the aircraft reports clear.
 
 !!! phraseology
     **ML TCU:** "SH490, cleared ILS Runway 26 approach, traffic taxiing for the holding point is UJA, an Aero Commander, report clear of the runway"  
@@ -112,10 +125,10 @@ The class C airspace surrounding YMEN extends to `SFC`.  This means that aircraf
     **ML TCU:** "SH490, Essendon SARWATCH terminated"
 
 #### Departures
-Essendon has unique procedures due to its position in the ML CTR, with controlled airspace to the ground.  Departing aircraft will request airways clearance and engine start while on the bay and ML TCU will provide current weather conditions, expected runway for departure, and clearance. On completion of the readback, aircraft should be instructed to *'report taxiing to runway XX'*.
+Essendon has unique procedures due to its position in the ML CTR, with controlled airspace to the ground. Departing aircraft will request airways clearance and engine start while on the bay and ML TCU will provide current weather conditions, expected runway for departure, and clearance. On completion of the readback, aircraft should be instructed to *'report taxiing to runway XX'*.
 
 !!! phraseology
-    **FDK**: "Melbourne Approach, FDK, YMEN for YSHT, request clearance and engine start"    
+    **FDK**: "Melbourne Approach, FDK, YMEN for YSHT, request clearance and engine start"  
     **ML TCU**: "FDK, Melbourne Approach, wind 290 degrees 4 knots, QNH 1017, cleared to YSHT via MNG, flight planned route, visual departure, climb to A040, squawk 4423, expect runway 35"  
     **FDK**: "QNH 1017, cleared to YSHT via MNG, flight planned route, visual departure, climb to A040, squawk 4423, FDK"  
     **ML TCU**: "FDK, start approved, report taxiing for runway 35"  
@@ -127,7 +140,7 @@ When the aircraft reports taxiing, issue a traffic statement and instruct them t
     **ML TCU**: "FDK, traffic is CBN, a Cherokee, 5nm final runway 35, report at the holding point for departure instructions"  
     **FDK**: "Copy CBN, wilco, FDK"
 
-Once the aircraft is ready for departure and no conflict exists in your airspace, issue any relevant departure instructions (assigned heading, visual turns, etc).  If a departure is not yet available, instruct the pilot to hold on the ground and indicate the reason for the delay.
+Once the aircraft is ready for departure and no conflict exists in your airspace, issue any relevant departure instructions (assigned heading, visual turns, etc). If a departure is not yet available, instruct the pilot to hold on the ground and indicate the reason for the delay.
 !!! phraseology
     **FDK**: "FDK, ready runway 35"  
     **ML TCU**: "FDK, hold at the holding point, short delay due inbound aircraft"  
@@ -138,10 +151,10 @@ Once the aircraft is ready for departure and no conflict exists in your airspace
 
 ### AV ADC Offline
 #### Arrivals
-Due to the low level of CTA above Avalon, aircraft conducting approaches will commence the approach inside controlled airspace and leave CTA on descent.  If the aircraft goes around, they will re-enter controlled airspace.  These aircraft should be cleared to leave controlled airspace descending via an appropriate approach and instructed to *'report clear of the runway'*.  The missed approach path must be protected until the aircraft reports clear.
+Due to the low level of CTA above Avalon, aircraft conducting approaches will commence the approach inside controlled airspace and leave CTA on descent. If the aircraft goes around, they will re-enter controlled airspace. These aircraft should be cleared to leave controlled airspace descending via an appropriate approach and instructed to *'report clear of the runway'*. The missed approach path must be protected until the aircraft reports clear.
 
 !!! note
-    A clearance to conduct an instrument approach constitutes a clearance to carry out the published missed approach.  As a result, there is no need to issue a clearance to re-enter controlled airspace in the event the aircraft goes around.
+    A clearance to conduct an instrument approach constitutes a clearance to carry out the published missed approach. As a result, there is no need to issue a clearance to re-enter controlled airspace in the event the aircraft goes around.
 
 !!! phraseology
     **ML TCU:** "JST607, leave controlled airspace descending via the ILS Runway 18 approach, no reported IFR traffic, report clear of the runway"  
@@ -159,14 +172,14 @@ Departing aircraft will require an airways clearance on the ground, due to the l
     **AM318**: "Squawk 3542, wilco, AM318"  
     
     **AM318**: "AM318, ready runway 18"  
-    **ML TCU**: "AM318, cleared to YMEN direct, AV5 departure, climb via SID to A040"  
-    **AM318**: "Cleared to YMEN direct, AV5 departure, climb via SID to A040, AM318"  
+    **ML TCU**: "AM318, cleared to YMEN direct. Enter controlled airspace on the AV5 departure, climb via SID to A040"  
+    **AM318**: "Cleared to YMEN direct. Enter controlled airspace on the AV5 departure, climb via SID to A040, AM318"  
     **ML TCU**: "AM318, assigned heading left 020, report airborne"  
     **AM318**: "Assigned left 020, wilco, AM318"
 
 ### MB ADC Offline
 #### Arrivals
-IFR aircraft cruising inside CTA will generally commence an instrument approach from within controlled airspace and leave CTA on descent.  The missed approach procedure will keep these aircraft outside controlled airspace, so does not need to be protected by the TCU controller.  Clear these aircraft to leave CTA descending via an appropriate approach.
+IFR aircraft cruising inside CTA will generally commence an instrument approach from within controlled airspace and leave CTA on descent. The missed approach procedure will keep these aircraft outside controlled airspace, so does not need to be protected by the TCU controller. Clear these aircraft to leave CTA descending via an appropriate approach.
 
 !!! phraseology
     **ML TCU:** "OFX, Leave controlled airspace descending via the RNP Runway 17L approach, no reported IFR traffic"  
@@ -213,7 +226,6 @@ The times assume there is *Nil wind*. The data is for **Jets**, although there a
     The adjustments above are **cumulative**. For example, an aircraft with a **MX** on the **16M STAR**, would have **3 minutes** subtracted in total
 
 ## Coordination
-
 ### Enroute
 #### Departures
 Voiceless to all surrounding Enroute sectors for all aircraft:
@@ -284,6 +296,36 @@ The following Standard Assignable Headings may be used for aircraft assigned the
 
 **When Runway 09 is in use for arrivals, all Runway 16 departures shall be assigned heading 160.
 
+### ML TCU Internal
+#### Arrivals
+Voiceless Coordination is in place for arrivals transiting between ML TCU positions, provided the aircraft is:
+
+- ADES **YMML**; and
+- Assigned a STAR; and
+- Descending via STAR to `A070`
+
+#### Departures
+Voiceless Coordination is in place for departures transiting between ML TCU positions, provided the aircraft is:
+
+- ADEP **YMML**; and
+- Assigned a SID; and
+- Climbing via SID to `A100` or higher
+
+#### Others (Heads-up)
+All other aircraft not meeting the Departures/Arrivals criteria that transit between internal ML TCU boundaries must be heads-up coordinated.
+
+!!! phraseology
+    <span class="hotline">**MDS** -> **MAV**</span>: "via JAYBI, JST603"  
+    <span class="hotline">**MAV** -> **MDS**</span>: "JST603, A030"
+
+##### YMAV Arrivals/Departures
+YMAV arrivals and departures **do not** meet the voiceless criteria between MDS and MAV. When MAV is conducting Heads-up Coordination to MDS on a YMAV departure, it is good practice for MDS to coordinate back a higher level (`F240` or the `RFL`, if no restrictions), so that the aircraft does not have interrupted climb
+
+!!! phraseology
+    <span class="hotline">**MAV** -> **MDS**</span>: "via JUSTY, JST616"  
+    <span class="hotline">**MDS** -> **MAV**</span>: "JST616, F240"  
+    <span class="hotline">**MAV** -> **MDS**</span>: "F240, JST616"
+
 ### EN ADC
 #### Airspace
 EN ADC is responsible for the Class C airspace shown below, `SFC` to `A020`.
@@ -323,11 +365,6 @@ VFR aircraft require a level readback.
 When “The Coffin” is released, ML TCU is required to coordinate any use of Runway 27 to EN ADC prior to use.
 
 ### AV ADC
-#### Airspace
-AV ADC is responsible for the Class D Airspace within the AV CTR `SFC` to `A025`.
-
-Refer to [Reclassifications](#av-ctr) for operations when AV ADC is offline.
-
 #### Departures
 'Next' coordination is **not** required from AV ADC for aircraft that are:   
   a) Departing from a runway nominated on the ATIS; or  
@@ -337,20 +374,14 @@ Refer to [Reclassifications](#av-ctr) for operations when AV ADC is offline.
 Any aircraft that don't meet these criteria will be coordinated to ML TCU with a "Next" Call
 
 !!! phraseology
-    <span class="hotline">**AV ADC** -> **MDS**</span>: "Next, UJI, Runway 18"  
-    <span class="hotline">**MDS** -> **AV ADC**</span>: "UJI, left 030, unrestricted"  
-    <span class="hotline">**AV ADC** -> **MDS**</span>: "Left 030, UJI"
+    <span class="hotline">**AV ADC** -> **MAV**</span>: "Next, UJI, Runway 18"  
+    <span class="hotline">**MAV** -> **AV ADC**</span>: "UJI, left 030, unrestricted"  
+    <span class="hotline">**AV ADC** -> **MAV**</span>: "Left 030, UJI"
 
 The Standard Assignable level from AV ADC to ML TCU is the lower of `A040` or the `RFL`.
 
 #### Arrivals
-ML TCU will heads-up coordinate arrivals/overfliers from CTA to AV ADC prior to **5 mins** from the boundary.  
-IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to AV ADC, unless AV ADC nominates a restriction.  
-VFR aircraft will have their control services terminated upon leaving controlled airspace, and instructed to contact AV ADC for onwards clearance.
-
-!!! phraseology
-    <span class="hotline">**MDS** -> **AV ADC**</span>: "via TEMPL for the ILS-Y 18, JST631"  
-    <span class="hotline">**AV ADC** -> **MDS**</span>: "JST631, ILS-Y 18"  
+Heads-up Coordination is not required to AV ADC for YMAV arrivals, due to MAV owning the surrounding airspace. Aircraft shall be instructed to contact AV ADC on final, as per Class C Tower handoffs.
 
 ### MB ADC
 #### Airspace

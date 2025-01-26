@@ -30,13 +30,21 @@ Most major aerodrome SOP pages include guidance on preferred runway modes, which
     The [Sydney Aerodrome SOPs](../../aerodromes/Sydney/#runway-modes) dictate that the preferred runway mode is SODROPS (runway 34L for arrivals, runway 16L for departures), however a note below indicates the reduced capacity achievable with this mode and recommends PROPS where traffic levels are expected to be high.
 
 #### Non-Standard Runway Modes
-The usage of non-standard runway modes is **strongly not recommended**, unless approved by a Senior Controller for use in major events. Non-Standard runway modes can cause unintended conflicts in TCU and Enroute airspace that may only slightly reduce an ADC controller's workload, but *dramatically* increase that of the affected TCU or Enroute controller.
+The usage of non-standard runway modes is **strongly discouraged**, unless approved by a Senior Controller for use in major events. Non-Standard runway modes can cause unintended conflicts in TCU and Enroute airspace that may only slightly reduce an ADC controller's workload, but *dramatically* increase that of the affected TCU or Enroute controller.
 
 !!! example
-    At YMML, one of the Preferred Runway Modes is 16A27D. If ADC were to add 16 as a departure runway (16AD27D), this may allow them to get more aircraft to depart. However, Subsequent departures from Runway 16, then via 27, both assigned a DOSEL SID, would be pointed directly at each other in TCU airspace, with no separation assurance. This creates a high workload environment for the TCU controller.
+    At YMML, one of the Preferred Runway Modes is 16A27D. If ADC were to add 16 as a departure runway (16AD27D), this may allow them to get more aircraft to depart. However, subsequent departures from Runway 16, then via 27, both assigned a DOSEL SID, would be pointed directly at each other in TCU airspace, with no separation assurance. This creates a high workload environment for the TCU controller.
 
 #### Traffic Flow
 Where the published SOPs don't include guidance on preferred runway modes, or the situation you are faced with differs from those catered for by the SOPs, consider how you can maximise runway efficiency to handle the current traffic scenario. Remember to be mindful of the impact of the current wind & weather conditions, and any operational pressure the chosen configuration might have on any surrounding controllers.
+
+#### Pilot Requests
+Where a pilot requests to use a runway not nominated on the ATIS, try to be accommodating without delaying or disadvantaging other aircraft. Most commercial aircraft have crosswind and tailwind component limits much higher than those which limit runway selection by a controller, so a pilot may wish to depart with a tailwind or crosswind to minimise airborne tracking. In a similar manner, pilots may wish to depart from alternate runways (such as runway 16R at YSSY, instead of runway 16L) to reduce their taxi time.
+
+During periods of low traffic volume, there is likely to be little consequence to other airspace users, however during busy periods, these requests are likely to significantly increase the workload of yourself or surrounding controllers, and may not be available. However, pilots will greatly appreciate any effort you can put into accommodating their reasonable requests.
+
+!!! note
+    If a pilot is warned about a potential hazard (such as a strong tailwind) and is still happy to accept the runway assignment, you may allow them to depart from, or arrive to, a runway not specified on the ATIS.
 
 ## Approach Types
 The controller in charge of the ATIS must nominate an approach expectation to allow pilots to prepare themselves and their aircraft as required. Since this decision largely affects the TMA controller, it is a good idea to discuss this with them.
