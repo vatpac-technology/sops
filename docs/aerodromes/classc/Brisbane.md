@@ -18,7 +18,7 @@
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
-    Approval must be sought from the parent sector prior to opening a Non-Standard Position.
+    Approval must be sought from the **parent position** prior to opening a Non-Standard Position.
 
 ## Airspace
 BN ADC is not responsible for any airspace by default.
