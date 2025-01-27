@@ -9,7 +9,7 @@
 | Name               | Callsign       | Frequency        | Login ID              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
 | **Woomera ADC**    | **Woomera Tower**  | **118.300**         | **WR_TWR**        |
-| Woomera ATIS    |   | 118.100         | YPWR_ATIS       |
+| **Woomera ATIS**    |   | **118.100**         | **YPWR_ATIS**       |
 
 ## Airspace
 By default, WR ADC owns the **R222F** Restricted Area. This airspace has vertical limits of `SFC` to `F120`. When WR ADC is active, this airspace is classified as Class D.

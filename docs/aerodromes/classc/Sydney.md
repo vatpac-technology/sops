@@ -9,17 +9,16 @@
 | Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Sydney ADC West**    | **Sydney Tower**   | **120.500**          | **SY_TWR**                                   |
-| Sydney ADC East†   | Sydney Tower   | 124.700          | SY-E_TWR                                 |
+| <span class="indented">Sydney ADC East :material-information-outline:{ title="Non-standard position"}   | Sydney Tower   | 124.700          | SY-E_TWR                                 |
 | **Sydney SMC East**    | **Sydney Ground**  | **121.700**          | **SY_GND**                                   |
-| Sydney SMC West†   | Sydney Ground  | 126.500          | SY-W_GND                                 |
-| Sydney Coordinator† | Sydney Coordinator   | 127.600          | SY-C_GND                                |
+| <span class="indented">Sydney SMC West :material-information-outline:{ title="Non-standard position"}   | Sydney Ground  | 126.500          | SY-W_GND                                 |
+| <span class="indented">Sydney Coordinator :material-information-outline:{ title="Non-standard position"} | Sydney Coordinator   | 127.600          | SY-C_GND                                |
 | **Sydney ACD**         | **Sydney Delivery**| **133.800**          | **SY_DEL**                                   |
-| Sydney ATIS        |                | 126.250          | YSSY_ATIS                                |
+| **Sydney ATIS**        |                | **126.250**          | **YSSY_ATIS**                                |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
-
-!!! note
-    For the purpose of the ATS Policy, Sydney Coordinator is considered a non-standard sector of Sydney SMC East. Approval must be sought from the controller operating **SMC East** prior to opening Coordinator.
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
 SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005` as shown below.

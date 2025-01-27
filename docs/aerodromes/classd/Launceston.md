@@ -9,7 +9,7 @@
 | Name              | Callsign       | Frequency        | Login ID                         |
 | ----------------- | -------------- | ---------------- | ---------------------------------------- |
 | **Launceston ADC**    | **Launy Tower**   | **118.700**    | **LT_TWR**                         |
-| Launceston ATIS       |                | 134.750          | YMLT_ATIS                                |
+| **Launceston ATIS**       |                | **134.750**          | **YMLT_ATIS**                                |
 
 ## Airspace
 LT ADC is responsible for the Class D airspace in the LT CTR `SFC` to `A015`.

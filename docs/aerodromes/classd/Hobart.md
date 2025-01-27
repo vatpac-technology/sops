@@ -9,7 +9,7 @@
 | ----------------- | -------------- | ---------------- | ---------------------------------------- |
 | **Hobart ADC**    | **Hobart Tower**   | **118.100**     | **HB_TWR**                            |
 | **Hobart SMC**    | **Hobart Ground**  | **121.700**     | **HB_GND**                  |
-| Hobart ATIS       |                | 128.450          | YMHB_ATIS                                |
+| **Hobart ATIS**       |                | **128.450**          | **YMHB_ATIS**                                |
 
 ## Airspace
 HB ADC is responsible for the Class D airspace in the HB CTR:  

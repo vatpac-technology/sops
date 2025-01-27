@@ -8,10 +8,12 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Eildon Weir** | **Melbourne Centre** | **123.750** | **ML-ELW_CTR** |
-| Benalla† | Melbourne Centre | 132.200 | ML-BLA_CTR |
-| Snowy† | Melbourne Centre | 124.000 | ML-SNO_CTR |
+| <span class="indented">Benalla :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 132.200 | ML-BLA_CTR |
+| <span class="indented">Snowy :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 124.000 | ML-SNO_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
 
