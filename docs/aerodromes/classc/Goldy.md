@@ -165,8 +165,8 @@ Both hospital helipads are outside the maneuvering area and do not require a tak
     **CG ADC:** "RSCU588, Gold Coast Tower, remain on the ground, expect clearance in 3 minutes due traffic"  
     **RSCU588:** "Remain on the ground, RSCU588"
 
-    **CG ADC:** "RSCU533, Cleared to YBBN via STOT, flight planned route. Not above A015, report airborne"  
-    **RSCU533:** "Cleared to YBBN via STOT, flight planned route. Not above A015, wilco, RSCU533"  
+    **CG ADC:** "RSCU588, Cleared to YBBN via STOT, flight planned route. Not above A015, report airborne"  
+    **RSCU588:** "Cleared to YBBN via STOT, flight planned route. Not above A015, wilco, RSCU588"  
 
 ## Coordination
 ### Auto Release
