@@ -89,58 +89,58 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
 The times assume there is *Nil wind*.
 
-### Jets
+=== "Jets"
 
-| Feeder Fix | 05Z | 05V/W/X | 23A/Z | 23V |
-| ---------- | --- | ------- | ----- | --- |
-| INTOG      | 14  | 13      | -     | -   |
-| DRINA      | -   | -       | 14    | 13  |
-| KAKLU      | 16  | 15      | 12^   | -   |
-| KLAVA      | 16  | 15      | 13    | 12  |
-| ERITH      | -   | -       | 13    | 12  |
-| MARGO      | 14  | 13      | 15    | 13  |
-| ATNAR      | 13  | 12^     | 17    | 15  |
+    This table assumes that aircraft will be assigned the appropriate *Jet STAR*.
 
-- **VIRAT** - Threshold is **5 minutes**  
-- **PADSI** - Threshold is **3.5 minutes**  
-- Add **1 minute** for aircraft assigned a reduced speed, Except ^  
-- Subtract **1 minute** for MX or CSR
-- For **Non-Jets** (except **DH8D**) tracking via Jet STAR;
-    - Add **2 minutes** (Except ^)
-    - Add only **1 minute** for ^
+    | Feeder Fix | 05Z | 05V/W/X | 23A/Z | 23V |
+    | ---------- | --- | ------- | ----- | --- |
+    | INTOG      | 14  | 13      | -     | -   |
+    | DRINA      | -   | -       | 14    | 13  |
+    | KAKLU      | 16  | 15      | 12^   | -   |
+    | KLAVA      | 16  | 15      | 13    | 12  |
+    | ERITH      | -   | -       | 13    | 12  |
+    | MARGO      | 14  | 13      | 15    | 13  |
+    | ATNAR      | 13  | 12^     | 17    | 15  |
 
-!!! note
-    The adjustments above are **cumulative**. For example, an **Non-Jet** aircraft assigned a **reduced speed**, would have **3 minutes** added in total
+    - **VIRAT** - Threshold is **5 minutes**  
+    - **PADSI** - Threshold is **3.5 minutes**  
+    - Add **1 minute** for aircraft assigned a reduced speed, Except ^  
+    - Subtract **1 minute** for MX or CSR
+    - For **Non-Jets** (except **DH8D**) tracking via Jet STAR;
+        - Add **2 minutes** (Except ^)
+        - Add only **1 minute** for ^
 
-### Non-Jets
+    !!! note
+        The adjustments above are **cumulative**. For example, an **Non-Jet** aircraft assigned a **reduced speed**, would have **3 minutes** added in total
 
-This table assumes that aircraft will be assigned:
+=== "Non-Jets"
 
-- The appropriate *Non-Jet STAR* (**ATPIP**, **ELROX**, **GULFS**, **PAMMY**, **BEVSO**, **SURGN**), or if none is available:
-- *No STAR*
+    This table assumes that aircraft will be assigned:
 
-Thence track via a **5nm final** for the assigned runway.
+    - The appropriate *Non-Jet STAR* (**ATPIP**, **ELROX**, **GULFS**, **PAMMY**, **BEVSO**, **SURGN**), or if none is available:
+    - *No STAR*, thence track via a **5nm final** for the assigned runway.
 
-For Non-Jets tracking via the *full Jet STARs*, see [table above](#jets)
+    For Non-Jets tracking via the *full Jet STARs*, refer to the **Jets** tab
 
-| Feeder Fix | 05  | 12  | 23  | 30  |
-| ---------- | --- | --- | --- | --- |
-| INTOG      | 12  | 14  | 12  | 11  |
-| DRINA      | 14  | 17  | 14  | 13  |
-| KAKLU      | 16  | 15  | 13  | 13  |
-| BEVSO      | 17  | 15  | 14  | 13  |
-| KLAVA      | 15  | 13  | 13  | 16  |
-| ERITH      | -   | -   | -   | -   |
-| MARGO      | 13  | 12  | 13  | 15  |
-| ATNAR      | 13  | 13  | 15  | 16  |
-| ELROX      | 11  | 11  | 14  | 13  |
+    | Feeder Fix | 05  | 12  | 23  | 30  |
+    | ---------- | --- | --- | --- | --- |
+    | INTOG      | 12  | 14  | 12  | 11  |
+    | DRINA      | 14  | 17  | 14  | 13  |
+    | KAKLU      | 16  | 15  | 13  | 13  |
+    | BEVSO      | 17  | 15  | 14  | 13  |
+    | KLAVA      | 15  | 13  | 13  | 16  |
+    | ERITH      | -   | -   | -   | -   |
+    | MARGO      | 13  | 12  | 13  | 15  |
+    | ATNAR      | 13  | 13  | 15  | 16  |
+    | ELROX      | 11  | 11  | 14  | 13  |
 
-- **5nm final** - Threshold is **2 minutes**  
-- Subtract **1 minute** for MX  
-- Subtract **1 minute** for **DH8D**
+    - **5nm final** - Threshold is **2 minutes**  
+    - Subtract **1 minute** for MX  
+    - Subtract **1 minute** for **DH8D**
 
-!!! note
-    The adjustments above are **cumulative**. For example, a **DH8D** with a **MX**, would have **2 minutes** subtracted in total
+    !!! note
+        The adjustments above are **cumulative**. For example, a **DH8D** with a **MX**, would have **2 minutes** subtracted in total
 
 ## Coordination
 ### Enroute
