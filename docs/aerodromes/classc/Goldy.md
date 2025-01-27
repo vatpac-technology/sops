@@ -69,18 +69,56 @@ Circuits are to be conducted at `A010`.
 
 ## VFR Procedures
 
-Aircraft transiting the Gold Coast CTR will be subject to delays depending on traffic in the Gold Coast CTR.  Aircraft transiting shall be cleared overwater south/northbound, or during busy traffic periods cleared via the [Western VFR Route](#western-vfr-route). 
+Aircraft transiting the Gold Coast CTR will be subject to delays depending on traffic in the Gold Coast CTR. Aircraft transiting shall be cleared overwater north/southbound not above `A015`, or during busy traffic periods cleared via the [Western VFR Route](#western-vfr-route). 
 
-Aircraft tracking southbound should contact ADC at Q1, or Robina Town Centre (ROT) for clearance.  
+### Arrivals
+Aircraft tracking southbound should contact ADC at Q1, or Robina Town Centre (ROT) for clearance.
+
+!!! phraseology
+    **OMU:** "Gold Coast Tower, OMU, abeam Q1, recieved F, inbound fullstop, request clearance"  
+    **CG ADC:** "OMU, Gold Coast Tower, cleared overwater southbound, not above A015"  
+    **OMU:** "Cleared overwater southbound, not above A015, OMU"
+
+Alternatively, if jet aircraft are inbound at the same time and not enough spacing exists, aircraft inbound via Q1 should be cleared via amended Robina Town Centre for shorter delays, or "clearance not available, remain outside class Charlie airspace" when delays are expected to be extensive.
+
+!!! phraseology
+    **BTA:** "Gold Coast Tower, BTA, abeam Q1, recieved C, inbound fullstop, request clearance"  
+    **CG ADC:** "BTA, Gold Coast Tower, cleared amended ROT, Gold Coast, maintain A015"  
+    **BTA:** "Cleared amended ROT, Gold Coast, maintain A015, BTA"  
+
+    **CG ADC:** "BTA, traffic is a A320, 1 mile north of BLGH, report sighting"  
+    **BTA:** "Traffic in sight, BTA"  
+    **CG ADC:** "BTA, maneuver to the follow the A320, cleared visual approach runway 14"  
+    **BTA:** "Maneuver to follow the A320, cleared visual approach runway 14, BTA"  
 
 Aircraft tracking northbound should contact ADC approaching Hastings Point (HASS) for clearance. 
 
+!!! phraseology
+    **JCZ:** "Gold Coast Tower, JCZ, HASS, A015, inbound fullstop, request clearance"  
+    **CG ADC:** "JCZ, Gold Coast Tower, cleared overwater northbound, not above A015, clearance limit CIS"  
+    **JCZ:** "Cleared overwater northbound, not above A015, clearance limit CIS, JCZ"
+
+    **CG ADC:** "JCZ, cancel clearance limit, report DNGR"  
+    **JCZ:** "Cancel clearance limit, report DNGR, JCZ"  
+
+    **JCZ:** "JCZ, DNGR"  
+    **CG ADC:** "JCZ, from DNGR, cleared visual approach, left base runway 14"   
+    **JCZ:** "From DNGR, cleared visual approach, left base runway 14, JCZ"  
+
+### Departures
+
+Aircraft leaving the Gold Coast CTR shall have their control services terminated and have any important traffic information passed along.
+
+!!! phraseology
+    *NWZ is shortly leaving CTA tracking via Robina Town Centre*  
+    **CG ADC:** "NWZ, control services terminated, frequency change approved"   
+    **NWZ:** "Frequency change approved, NWZ"  
 
 ### Coastal Flights
 Surf Lifesaving Patrol and Scenic Tour operations conducting low-level coastal flights within the CG CTR shall be cleared overwater in the required direction of travel, not above `A002`.
 
 !!! phraseology
-    **LIFE46:** "Gold Coast Tower, helicopter LIFE46, abeam Q1, 3 POB, request clearance"  
+    **LIFE46:** "Gold Coast Tower, helicopter LIFE46, Q1, 3 POB, request clearance"  
     **CG ADC:** "LIFE46, Gold Coast Tower, cleared overwater southbound, not above A002"  
     **LIFE46:** "Cleared overwater southbound, not above A002, LIFE46"
 
@@ -96,7 +134,12 @@ The Western VFR Route begins at Nerang and tracks inland, terminating at Burring
 
     **WCS:** "WCS, excited the zone"  
     **CG ADC:** "WCS, control services terminated, frequency change approved"   
-    **WCS:** "Frequency change approved, WCS"  
+    **WCS:** "Frequency change approved, WCS" 
+
+!!! tip
+    You can find details of the Western VFR Route in the [Gold Coast VTC](https://www.airservicesaustralia.com/aip/aip.asp){target=new}.
+
+ 
 
 
 ## Helicopter Operations
@@ -112,21 +155,30 @@ Within the Gold Coast CTR, there are two main hospital helipads. Tweed Heads Hos
   <figcaption>CG ADC Airspace</figcaption>
 </figure>
 
+#### Arrivals
+
 ADC shall assess the current traffic situation and, if necessary, instruct the pilot to hold and/or maintain own separation with any arriving or departing aircraft, then clear them for a visual approach to their inbound hospital.
 
 !!! phraseology
     **WP1:** "Gold Coast Tower, helicopter WP1, 6 miles south, inbound Tweed Valley Hospital, recieved G"  
     **CG ADC:** "WP1, Gold Coast Tower, track direct Tweed Valley Hospital not above A015"  
-    **WP1:** "Track direct Tweed Valley Hospital not above A015, WP1"
+    **WP1:** "Track direct Tweed Valley Hospital not above A015, WP1"  
 
+Both hospital helipads are outside the maneuvering area and do not require a landing clearance from CG ADC. Helicopters arriving to these helipads should be instructed to "report on the ground" so the controller knows when they are no longer active in their airspace.
+
+!!! phraseology
     **CG ADC:** "WP1, cleared visual approach Tweed Valley Hospital, report on the ground"  
     **WP1:** "Cleared visual approach Tweed Valley Hospital, report on the ground, WP1"  
 
+#### Departures
+
 Aircraft departing from hospitals within the Gold Coast CTR must obtain clearance prior to becoming airborne. The Tweed Valley Hospital (YXTV) helipad, is located 6nm south beneath Runway 32 extended centerline, and may presents potential traffic conflicts. Aircraft will be subject to delays depending on traffic in the Gold Coast CTR.
+
+Both hospital helipads are outside the maneuvering area and do not require a takeoff clearance from GC ADC, however a clearance to become airborne is required. Helicopters departing from these helipads should be instructed to "report airborne".
 
 !!! phraseology
     **RSCU533:** "Gold Coast Tower, helicopter RSCU533, Tweed Valley Hospital, ready for northen departure"  
-    **CG ADC:** "RSCU533, Gold Coast Tower, remain on the ground, expect clearance in 5 minutes due traffic"  
+    **CG ADC:** "RSCU533, Gold Coast Tower, remain on the ground, expect clearance in 3 minutes due traffic"  
     **RSCU533:** "Remain on the ground, RSCU533"
 
     **CG ADC:** "RSCU533, track direct STOT, not above A015, report airborne"  

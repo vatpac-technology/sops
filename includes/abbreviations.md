@@ -318,3 +318,8 @@
 *[AEWC]: Airborne Early Warning and Control
 *[NEN]: Nerang
 *[STOT]: Stotts Island
+*[HASS]: Hastings Point
+*[CIS]: Cook Island
+*[DNGR]: Point Danger
+*[BLGH]: Burleigh Heads
+*[ROT]: Robina Town Centre
