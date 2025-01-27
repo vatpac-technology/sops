@@ -9,12 +9,14 @@
 | Name               | ID      | Callsign       | Frequency        | Login ID              |
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
 | **Melbourne Approach East**    |**MAE**| **Melbourne Approach**   | **132.000**         | **ML_APP**                                   |
-| Melbourne Departures North†    |MDN| Melbourne Departures  | 118.900         | ML_DEP          |
-| Melbourne Departures South†   |MDS| Melbourne Departures | 129.400          | ML-S_DEP         |
-| Melbourne (Avalon) Approach†   |MAV| Avalon Approach | 133.550          | AV_APP         |
-| Melbourne Flow†        |MFL|                |          | ML_FMP                             |
+| <span class="indented">Melbourne Departures North :material-information-outline:{ title="Non-standard position"}    |MDN| Melbourne Departures  | 118.900         | ML_DEP          |
+| <span class="indented">Melbourne Departures South :material-information-outline:{ title="Non-standard position"}   |MDS| Melbourne Departures | 129.400          | ML-S_DEP         |
+| <span class="indented">Melbourne (Avalon) Approach :material-information-outline:{ title="Non-standard position"}   |MAV| Avalon Approach | 133.550          | AV_APP         |
+| <span class="indented">Melbourne Flow :material-information-outline:{ title="Non-standard position"}        |MFL|                |          | ML_FMP                             |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
 The Vertical limits of the ML TCU are `SFC` to `F245`.
@@ -37,18 +39,18 @@ See also: [AV ADC Offline](#av-adc-offline).
 MAV is responsible for the Class D and E airspace in the AV CTR, `SFC`-`A045`.  
 They are responsible for the same portion of airspace when it is [reclassified](#av-ctr) due to AV ADC being offline.
 
-The Southern Wedge of MAV (shown below) is Class E `A015`-`A045`, and extends in to YWE(WON) airspace. YWE(WON) is responsible for the airspace **above and below** it, and it is **Class G**.
+MAV extends south outside of **30nm ML**, in to YWE(WON) airspace. The Southern portion of this extension (shown below) is Class E `A015`-`A045`, and YWE(WON) is responsible for the airspace **above and below** it.
 
 <figure markdown>
-![MAV Southern Wedge](img/mavsouth.png){ width="500" }
-  <figcaption>MAV Southern Wedge</figcaption>
+![MAV Airspace Side Profile](img/mavairspace1.png){ width="700" }
+  <figcaption>MAV Airspace Side Profile</figcaption>
 </figure>
 
 ### Airspace Division
 The divisions of the airspace between **MAE**, **MDN**, **MDS**, and **MAV** change based on the Runway Mode.
 
 !!! note
-    The following diagrams do not include non ML TCU areas of responsibility such as MB CTR or AV ADC
+    The following diagrams do not include non ML TCU areas of responsibility such as MB ADC or EN ADC
 
 #### 09
 <figure markdown>
@@ -88,7 +90,7 @@ The **ML (RADAR) SID** is used for all non-jet IFR departures (and certain jet a
 ### Level Assignment
 When assigning levels on descent to aircraft, remember that you will not receive "Next" Coordination on aircraft assigned Standard Assignable Levels (`A050` for most aircraft), meaning an aircraft could depart at any time without prior warning and climb to `A050`. To maintain separation assurance between arrivals and departures, do not assign below `A060` to arriving aircraft until they are clear of the active runway's departure path.
 
-!!! phraseology
+!!! example
     With RWY 34 in use for arrivals and RWY 27 in use for departures, aircraft inbound on the ARBEY STAR should be assigned no lower than `A060` until established south of the RWY 27 departure track.
 
 To avoid conflicting with published departure procedures, aircraft not cleared via a STAR should be issued a requirement to reach `A090` by 20DME.
@@ -172,8 +174,8 @@ Departing aircraft will require an airways clearance on the ground, due to the l
     **AM318**: "Squawk 3542, wilco, AM318"  
     
     **AM318**: "AM318, ready runway 18"  
-    **ML TCU**: "AM318, cleared to YMEN direct, AV5 departure, climb via SID to A040"  
-    **AM318**: "Cleared to YMEN direct, AV5 departure, climb via SID to A040, AM318"  
+    **ML TCU**: "AM318, cleared to YMEN direct. Enter controlled airspace on the AV5 departure, climb via SID to A040"  
+    **AM318**: "Cleared to YMEN direct. Enter controlled airspace on the AV5 departure, climb via SID to A040, AM318"  
     **ML TCU**: "AM318, assigned heading left 020, report airborne"  
     **AM318**: "Assigned left 020, wilco, AM318"
 
@@ -297,11 +299,34 @@ The following Standard Assignable Headings may be used for aircraft assigned the
 **When Runway 09 is in use for arrivals, all Runway 16 departures shall be assigned heading 160.
 
 ### ML TCU Internal
-All aircraft transiting between internal ML TCU boundaries must be heads-up coordinated.
+#### Arrivals
+Voiceless Coordination is in place for arrivals transiting between ML TCU positions, provided the aircraft is:
+
+- ADES **YMML**; and
+- Assigned a STAR; and
+- Descending via STAR to `A070`
+
+#### Departures
+Voiceless Coordination is in place for departures transiting between ML TCU positions, provided the aircraft is:
+
+- ADEP **YMML**; and
+- Assigned a SID; and
+- Climbing via SID to `A100` or higher
+
+#### Others (Heads-up)
+All other aircraft not meeting the Departures/Arrivals criteria that transit between internal ML TCU boundaries must be heads-up coordinated.
 
 !!! phraseology
     <span class="hotline">**MDS** -> **MAV**</span>: "via JAYBI, JST603"  
-    <span class="hotline">**MAV** -> **MAV**</span>: "JST603, A030"
+    <span class="hotline">**MAV** -> **MDS**</span>: "JST603, A030"
+
+##### YMAV Arrivals/Departures
+YMAV arrivals and departures **do not** meet the voiceless criteria between MDS and MAV. When MAV is conducting Heads-up Coordination to MDS on a YMAV departure, it is good practice for MDS to coordinate back a higher level (`F240` or the `RFL`, if no restrictions), so that the aircraft does not have interrupted climb
+
+!!! phraseology
+    <span class="hotline">**MAV** -> **MDS**</span>: "via JUSTY, JST616"  
+    <span class="hotline">**MDS** -> **MAV**</span>: "JST616, F240"  
+    <span class="hotline">**MAV** -> **MDS**</span>: "F240, JST616"
 
 ### EN ADC
 #### Airspace

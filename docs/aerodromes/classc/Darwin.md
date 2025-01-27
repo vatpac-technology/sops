@@ -11,7 +11,7 @@
 | **Darwin ADC**    | **Darwin Tower**  | **133.100**         | **DN_TWR**        |
 | **Darwin SMC**   |  **Darwin Ground**  | **121.800**         | **DN_GND**        |
 | **Darwin ACD**    | **Darwin Delivery**  | **126.800**         | **DN_DEL**       |
-| Darwin ATIS    |   | 128.250         | YPDN_ATIS       |
+| **Darwin ATIS**    |   | **128.250**         | **YPDN_ATIS**       |
 
 ## Airspace
 ADC owns the airspace within the DN CTR (`SFC`–`A010`). This airspace is designed to facilitate the processing of helicopter scenic flights and low-level helicopter circuits.  

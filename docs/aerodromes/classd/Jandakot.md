@@ -10,7 +10,7 @@
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Jandakot ADC**  | **Jandakot Tower**  | **118.100**          | **JT_TWR**                        |
 | **Jandakot SMC**  | **Jandakot Ground**   | **124.300**          | **JT_GND**                       |
-| Jandakot ATIS     |                | 128.650          | YPJT_ATIS                                |
+| **Jandakot ATIS**     |                | **128.650**          | **YPJT_ATIS**                                |
 
 ## Airspace
 JT ADC is responsible for the Class D airspace in the JT CTR `SFC` to `A015`.

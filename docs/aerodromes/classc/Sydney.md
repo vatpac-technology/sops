@@ -9,14 +9,16 @@
 | Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Sydney ADC West**    | **Sydney Tower**   | **120.500**          | **SY_TWR**                                   |
-| Sydney ADC East†   | Sydney Tower   | 124.700          | SY-E_TWR                                 |
+| <span class="indented">Sydney ADC East :material-information-outline:{ title="Non-standard position"}   | Sydney Tower   | 124.700          | SY-E_TWR                                 |
 | **Sydney SMC East**    | **Sydney Ground**  | **121.700**          | **SY_GND**                                   |
-| Sydney SMC West†   | Sydney Ground  | 126.500          | SY-W_GND                                 |
-| Sydney Coordinator† | Sydney Coordinator   | 127.600          | SY-C_GND                                |
+| <span class="indented">Sydney SMC West :material-information-outline:{ title="Non-standard position"}   | Sydney Ground  | 126.500          | SY-W_GND                                 |
+| <span class="indented">Sydney Coordinator :material-information-outline:{ title="Non-standard position"} | Sydney Coordinator   | 127.600          | SY-C_GND                                |
 | **Sydney ACD**         | **Sydney Delivery**| **133.800**          | **SY_DEL**                                   |
-| Sydney ATIS        |                | 126.250          | YSSY_ATIS                                |
+| **Sydney ATIS**        |                | **126.250**          | **YSSY_ATIS**                                |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
 SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005` as shown below.
@@ -222,55 +224,55 @@ Unless operationally required, aircraft shall be assigned the following runways 
 !!! tip
     A radar SID (e.g. **SY (RADAR) SID**) is distinct from a procedural SID with a RADAR transition (eg, **RIC SID, RADAR transition**). A radar SID can be identified in the [DAPs](https://www.airservicesaustralia.com/aip/aip.asp){target=new} as having a *"(RADAR)"* at the end of the name.
 
-### Runway 07
+=== "Runway 07"
 
-| Type  | Via  | SID     |
-| ------| ---- | --------|
-| Jet  | OLSEM<br>WOL | **FISHA** SID, Relevant Transition |
-| Jet  | All others | **FISHA** SID, RADAR Transition |
-| Non-Jet| All       | **RADAR** SID |
+    | Type  | Via  | SID     |
+    | ------| ---- | --------|
+    | Jet  | OLSEM<br>WOL | **FISHA** SID, Relevant Transition |
+    | Jet  | All others | **FISHA** SID, RADAR Transition |
+    | Non-Jet| All       | **RADAR** SID |
 
-### Runway 16L
+=== "Runway 16L"
 
-| Type  | Via  | SID     |
-| ------| ---- | --------|
-| Jet  | OLSEM<br>NOBAR<br>DIPSO<br>EVONN<br>CAWLY<br>OPTIC | **KEVIN** SID, Relevant Transition |
-| Jet  | WOL | **ABBEY** SID |
-| Jet  | All others | **KEVIN** SID, RADAR Transition |
-| Non-Jet | All | **RADAR** SID |
+    | Type  | Via  | SID     |
+    | ------| ---- | --------|
+    | Jet  | OLSEM<br>NOBAR<br>DIPSO<br>EVONN<br>CAWLY<br>OPTIC | **KEVIN** SID, Relevant Transition |
+    | Jet  | WOL | **ABBEY** SID |
+    | Jet  | All others | **KEVIN** SID, RADAR Transition |
+    | Non-Jet | All | **RADAR** SID |
 
-### Runway 16R
+=== "Runway 16R"
 
-| Type  | Via  | SID     |
-| ------| ---- | --------|
-| Jet  | RIC<br>KADOM<br>WOL | **GROOK** SID, Relevant Transition |
-| Jet  | All others | **GROOK** SID, RADAR Transition |
-| Non-Jet | All | **RADAR** SID |
+    | Type  | Via  | SID     |
+    | ------| ---- | --------|
+    | Jet  | RIC<br>KADOM<br>WOL | **GROOK** SID, Relevant Transition |
+    | Jet  | All others | **GROOK** SID, RADAR Transition |
+    | Non-Jet | All | **RADAR** SID |
 
-### Runway 25
+=== "Runway 25"
 
-| Type  | Via  | SID     |
-| ------| ---- | --------|
-| All  | All | **RADAR** SID |
+    | Type  | Via  | SID     |
+    | ------| ---- | --------|
+    | All  | All | **RADAR** SID |
 
-### Runway 34L
+=== "Runway 34L"
 
-| Type  | Via  | SID     |
-| ------| ---- | --------|
-| Jet  | WOL | **WOL** SID |
-| Jet  | KADOM | **KADOM** SID |
-| Jet  | RIC | **RIC** SID, RIC Transition |
-| Jet  | All others | **RIC** SID, RADAR Transition |
-| Non-Jet | All | **RADAR** SID |
+    | Type  | Via  | SID     |
+    | ------| ---- | --------|
+    | Jet  | WOL | **WOL** SID |
+    | Jet  | KADOM | **KADOM** SID |
+    | Jet  | RIC | **RIC** SID, RIC Transition |
+    | Jet  | All others | **RIC** SID, RADAR Transition |
+    | Non-Jet | All | **RADAR** SID |
 
-### Runway 34R
+=== "Runway 34R"
 
-| Type  | Via  | SID     |
-| ------| ---- | --------|
-| Jet  | OLSEM | **OLSEM** SID |
-| Jet  | WOL | **MARUB** SID, WOL Transition |
-| Jet  | All others | **MARUB** SID, RADAR Transition |
-| Non-Jet | All | **RADAR** SID |
+    | Type  | Via  | SID     |
+    | ------| ---- | --------|
+    | Jet  | OLSEM | **OLSEM** SID |
+    | Jet  | WOL | **MARUB** SID, WOL Transition |
+    | Jet  | All others | **MARUB** SID, RADAR Transition |
+    | Non-Jet | All | **RADAR** SID |
 
 ### Climb Gradient Requirements
 Climb Gradient Requirements apply to all Procedural SIDs. It is the pilot's responsibility to advise if they are unable to meet these requirements. Pilots that advise this can be assigned a **RADAR** SID instead.

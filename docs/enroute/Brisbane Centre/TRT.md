@@ -8,11 +8,13 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Territory North** | **Brisbane Centre** | **123.850** | **BN-TRT_CTR** |
-| Territory South† | Brisbane Centre | 133.200 | BN-TRS_CTR |
-| Ashmore† | Brisbane Centre | 133.400 | BN-ASH_CTR |
-| Kimberley† | Brisbane Centre | 132.100 | BN-KIY_CTR |
+| <span class="indented">Territory South :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 133.200 | BN-TRS_CTR |
+| <span class="indented">Ashmore :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 133.400 | BN-ASH_CTR |
+| <span class="indented">Kimberley :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 132.100 | BN-KIY_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
 The Primary Communication Method for ISA is [CPDLC](../../../client/cpdlc).

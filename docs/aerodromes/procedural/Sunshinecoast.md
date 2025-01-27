@@ -10,7 +10,7 @@
 | ---- | -------- | --------- | ---------------- |
 | **Sunshine Coast ADC** | **Sunshine Coast Tower** | **124.400** | **SU_TWR** |
 | **Sunshine Coast SMC** | **Sunshine Coast Ground** | **121.100** | **SU_GND** |
-| Sunshine Coast ATIS |  | 119.800 | YBSU_ATIS |
+| **Sunshine Coast ATIS** |  | **119.800** | **YBSU_ATIS** |
 
 ## Airspace
 <figure markdown>

@@ -8,10 +8,12 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Bindook** | **Melbourne Centre** | **129.800** | **ML-BIK_CTR** |
-| Wollongong† | Melbourne Centre | 125.000 | ML-WOL_CTR |
-| Gundagai† | Melbourne Centre | 128.400 | ML-GUN_CTR |
+| <span class="indented">Wollongong :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 125.000 | ML-WOL_CTR |
+| <span class="indented">Gundagai :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 128.400 | ML-GUN_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
 

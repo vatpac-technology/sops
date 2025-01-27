@@ -11,6 +11,9 @@
 | **Mackay Approach**  | **MKA** | **Coral Approach**  | **125.650**       | **MK_APP**    |
 | **Rockhampton Approach**  | **RKA** | **Coral Approach**   | **123.750**        | **RK_APP**                 |
 
+!!! Note
+    MKA may elect to extend to RKA and vice versa, callsigns remain the same. See [Controller Skills](../controller-skills/extending.md) for details.
+
 ## Airspace
 The Coral TCU includes the airspace `SFC` to `F150` within the Mackay and Rockhampton keyholes (shown below).  
 MK ADC own the Class D airspace within MK CTR `SFC` to `A010`.  

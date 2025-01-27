@@ -9,13 +9,15 @@
 | Name               | ID      | Callsign       | Frequency        | Login ID              |
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
 | **Brisbane Approach North**    |**BAN**| **Brisbane Approach**   | **124.700**         | **BN_APP**                                   |
-| Brisbane Approach South†   |BAS| Brisbane Approach   | 125.600          | BN-S_APP                                 |
-| Brisbane Departures North†    |BDN| Brisbane Departures  | 133.450         | BN_DEP          |
-| Brisbane Departures South†   |BDS| Brisbane Departures | 118.450          | BN-S_DEP         |
-| Gold Coast Approach† |BAC| Brisbane Approach  | 123.500          | BN-C_APP       |
-| Brisbane Flow†        |BFL|                |          | BN_FMP                              |
+| <span class="indented">Brisbane Approach South :material-information-outline:{ title="Non-standard position"}   |BAS| Brisbane Approach   | 125.600          | BN-S_APP                                 |
+| <span class="indented">Brisbane Departures North :material-information-outline:{ title="Non-standard position"}    |BDN| Brisbane Departures  | 133.450         | BN_DEP          |
+| <span class="indented">Brisbane Departures South :material-information-outline:{ title="Non-standard position"}   |BDS| Brisbane Departures | 118.450          | BN-S_DEP         |
+| <span class="indented">Gold Coast Approach :material-information-outline:{ title="Non-standard position"} |BAC| Brisbane Approach  | 123.500          | BN-C_APP       |
+| <span class="indented">Brisbane Flow :material-information-outline:{ title="Non-standard position"}        |BFL|                |          | BN_FMP                              |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
 The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, where it is `SFC` to `A075` in the North West, and `SFC` to `F125` in the South East.
@@ -220,6 +222,28 @@ Aircraft that have been cleared the **BN (RADAR) SID** will receive an assigned 
 
 !!! tip
     If strong winds are present at altitude, ADC/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
+
+### BN TCU Internal
+#### Arrivals
+Voiceless Coordination is in place for arrivals transiting between BN TCU positions, provided the aircraft is:
+
+- ADES **YBBN** or **YBCG**; and
+- Assigned a STAR; and
+- Descending via STAR to `A080`
+
+#### Departures
+Voiceless Coordination is in place for departures transiting between BN TCU positions, provided the aircraft is:
+
+- ADEP **YBBN** or **YBCG**; and
+- Assigned a SID; and
+- Climbing via SID to `A100` or higher
+
+#### Others (Heads-up)
+All other aircraft not meeting the Departures/Arrivals criteria that transit between internal BN TCU boundaries must be heads-up coordinated.
+
+!!! phraseology
+    <span class="hotline">**BDS** -> **BAS**</span>: "via MAKRU, QFA904"  
+    <span class="hotline">**BAS** -> **BDS**</span>: "QFA904, A050"
 
 ### CG ADC
 #### Airspace

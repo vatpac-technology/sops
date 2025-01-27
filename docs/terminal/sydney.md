@@ -12,16 +12,19 @@
 | Name               | ID      | Callsign       | Frequency        | Login ID              |
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
 | **Sydney Approach North**    |**SAN**| **Sydney Approach**   | **124.400**         | **SY_APP**                                   |
-| Sydney Approach South†   |SAS| Sydney Approach   | 128.300          | SY-S_APP                                 |
-| Sydney Departures North†    |SDN| Sydney Departures  | 123.000         | SY_DEP          |
-| Sydney Departures South†   |SDS| Sydney Departures | 129.700          | SY-S_DEP         |
-| Sydney Director West† |SFW| Sydney Director   | 126.100          | SY-D_APP                               |
-| Sydney Director East† |SFE| Sydney Director   | 125.300          | SY-DE_APP                               |
-| Sydney Radar†* |SRI| Sydney Centre  | 124.550          | SY-C_DEP                               |
-| Sydney Flow†        |SFL|                |          | SY_FMP                              |
+| <span class="indented">Sydney Approach South :material-information-outline:{ title="Non-standard position"}   |SAS| Sydney Approach   | 128.300          | SY-S_APP                                 |
+| <span class="indented">Sydney Departures North :material-information-outline:{ title="Non-standard position"}    |SDN| Sydney Departures  | 123.000         | SY_DEP          |
+| <span class="indented">Sydney Departures South :material-information-outline:{ title="Non-standard position"}   |SDS| Sydney Departures | 129.700          | SY-S_DEP         |
+| <span class="indented">Sydney Director West :material-information-outline:{ title="Non-standard position"} |SFW| Sydney Director   | 126.100          | SY-D_APP                               |
+| <span class="indented">Sydney Director East :material-information-outline:{ title="Non-standard position"} |SFE| Sydney Director   | 125.300          | SY-DE_APP                               |
+| <span class="indented">Sydney Radar :material-information-outline:{ title="Non-standard position"} :octicons-checklist-24:{ title="Non-standard position"} |SRI| Sydney Centre  | 124.550          | SY-C_DEP                               |
+| <span class="indented">Sydney Flow :material-information-outline:{ title="Non-standard position"}        |SFL|                |          | SY_FMP                              |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}  
-* [Additional requirements](#airspace-structural-arrangements) must be met prior to opening SRI as a stand-alone position.
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
+
+    :octicons-checklist-24: [Additional requirements](#airspace-structural-arrangements) must be met prior to opening SRI as a stand-alone position.
 
 </details>
 
@@ -373,38 +376,39 @@ Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, i
 ## Flow
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**, which can be used to plan sequencing actions within the TCU.
 
-It is based on a few key assumptions:  
+It is based on a few key assumptions:
+
 - Nil wind  
-- Aircraft for the *opposite* parallel runway (eg, RIVET > 16L/34R) will overfly the field, then join a mid-field downwind  
+- Aircraft for the *opposite* parallel runway (eg, ODALE > 16L/34R) will overfly the field, then join a mid-field downwind  
 - All aircraft are tracking via the ILS Initial Approach fix
 
-### Jets
+=== "Jets"
 
-| Feeder Fix | 07  | 16L | 16R | 25  | 34L | 34R |
-| ---------- | --- | --- | --- | --- | --- | --- |
-| BOREE      | 16  | 11 | 11 | 15  | 17  | 17  |
-| MEPIL†     | -   | 9  | -   | -   | -   | 15  |
-| MARLN      | 16  | 17  | 20  | 13 | 18  | 14  |
-| RIVET      | 11 | 19  | 17  | 17  | 15  | 19  |
-| ODALE†     | -   | 16  | -   | -   | -   | 17  |
+    | Feeder Fix | 07  | 16L | 16R | 25  | 34L | 34R |
+    | ---------- | --- | --- | --- | --- | --- | --- |
+    | BOREE      | 16  | 11 | 11 | 15  | 17  | 17  |
+    | MEPIL†     | -   | 9  | -   | -   | -   | 15  |
+    | MARLN      | 16  | 17  | 20  | 13 | 18  | 14  |
+    | RIVET      | 11 | 19  | 17  | 17  | 15  | 19  |
+    | ODALE†     | -   | 16  | -   | -   | -   | 17  |
 
-- IAF to Threshold is **4 minutes**  
-- Add **1 minute** for aircraft assigned a reduced speed
-- †MEPIL and ODALE STARs only available to Jets for 16L/34R
-- Subtract **1 minute** for MX or CSR
+    - IAF to Threshold is **4 minutes**  
+    - Add **1 minute** for aircraft assigned a reduced speed
+    - †MEPIL and ODALE STARs only available to Jets for 16L/34R
+    - Subtract **1 minute** for MX or CSR
 
-### Non-Jets
+=== "Non-Jets"
 
-| Feeder Fix | 07  | 16L | 16R | 25  | 34L | 34R |
-| ---------- | --- | --- | --- | --- | --- | --- |
-| MEPIL      | 15  | 10^ | 10^ | 13  | 20  | 19  |
-| MARLN      | 17  | 20  | 22  | 13  | 20  | 19  |
-| ODALE      | 10^ | 19  | 17  | 16  | 16  | 19  |
+    | Feeder Fix | 07  | 16L | 16R | 25  | 34L | 34R |
+    | ---------- | --- | --- | --- | --- | --- | --- |
+    | MEPIL      | 15  | 10^ | 10^ | 13  | 20  | 19  |
+    | MARLN      | 17  | 20  | 22  | 13  | 20  | 19  |
+    | ODALE      | 10^ | 19  | 17  | 16  | 16  | 19  |
 
-- IAF to Threshold is **4 minutes** for Runway 07/25. **5 minutes** all other Runways.  
-- Subtract **2 minutes** for **DH8D**, Except ^
-- ^ Subtract **1 minute** for **DH8D**
-- Subtract **1 minute** for MX
+    - IAF to Threshold is **4 minutes** for Runway 07/25. **5 minutes** all other Runways.  
+    - Subtract **2 minutes** for **DH8D**, Except ^
+    - ^ Subtract **1 minute** for **DH8D**
+    - Subtract **1 minute** for MX
 
 </details>
 

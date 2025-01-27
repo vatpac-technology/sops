@@ -9,10 +9,11 @@
 | Name               | ID      | Callsign       | Frequency        | Login ID              |
 | ------------------ | --------------| -------------- | ---------------- | -------------------|
 | **Tontouta Approach South** | **NWWWA** | **Tontouta Approach**  | **128.300**         | **NWWW_APP**          |
-| **Tontouta Approach†** | **NWWWT** | **Tontouta Approach**  | **119.700**         | **NWWW-T_APP**          |
+| <span class="indented">Tontouta Approach :material-information-outline:{ title="Non-standard position"} | NWWWT | Tontouta Approach  | 119.700         | NWWW-T_APP          |
 
-
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
 The vertical limits of the Tontouta TCU are `SFC` to `F245`.

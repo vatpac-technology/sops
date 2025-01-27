@@ -9,10 +9,12 @@
 | Name               | ID      | Callsign       | Frequency        | Login ID              |
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
 | **Adelaide Approach East**    |**AAE**| **Adelaide Approach**   | **118.200**         | **AD_APP**                                   |
-| Adelaide Approach West†    |AAW| Adelaide Approach  | 124.200         | AD-W_APP          |
-| Adelaide Flow†        |AFL|                |          | AD_FMP                              |
+| <span class="indented">Adelaide Approach West :material-information-outline:{ title="Non-standard position"}    |AAW| Adelaide Approach  | 124.200         | AD-W_APP          |
+| <span class="indented">Adelaide Flow :material-information-outline:{ title="Non-standard position"}        |AFL|                |          | AD_FMP                              |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
 The Vertical limits of the AD TCU are `SFC` to `F245`.
@@ -87,58 +89,58 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
 The times assume there is *Nil wind*.
 
-### Jets
+=== "Jets"
 
-| Feeder Fix | 05Z | 05V/W/X | 23A/Z | 23V |
-| ---------- | --- | ------- | ----- | --- |
-| INTOG      | 14  | 13      | -     | -   |
-| DRINA      | -   | -       | 14    | 13  |
-| KAKLU      | 16  | 15      | 12^   | -   |
-| KLAVA      | 16  | 15      | 13    | 12  |
-| ERITH      | -   | -       | 13    | 12  |
-| MARGO      | 14  | 13      | 15    | 13  |
-| ATNAR      | 13  | 12^     | 17    | 15  |
+    This table assumes that aircraft will be assigned the appropriate *Jet STAR*.
 
-- **VIRAT** - Threshold is **5 minutes**  
-- **PADSI** - Threshold is **3.5 minutes**  
-- Add **1 minute** for aircraft assigned a reduced speed, Except ^  
-- Subtract **1 minute** for MX or CSR
-- For **Non-Jets** (except **DH8D**) tracking via Jet STAR;
-    - Add **2 minutes** (Except ^)
-    - Add only **1 minute** for ^
+    | Feeder Fix | 05Z | 05V/W/X | 23A/Z | 23V |
+    | ---------- | --- | ------- | ----- | --- |
+    | INTOG      | 14  | 13      | -     | -   |
+    | DRINA      | -   | -       | 14    | 13  |
+    | KAKLU      | 16  | 15      | 12^   | -   |
+    | KLAVA      | 16  | 15      | 13    | 12  |
+    | ERITH      | -   | -       | 13    | 12  |
+    | MARGO      | 14  | 13      | 15    | 13  |
+    | ATNAR      | 13  | 12^     | 17    | 15  |
 
-!!! note
-    The adjustments above are **cumulative**. For example, an **Non-Jet** aircraft assigned a **reduced speed**, would have **3 minutes** added in total
+    - **VIRAT** - Threshold is **5 minutes**  
+    - **PADSI** - Threshold is **3.5 minutes**  
+    - Add **1 minute** for aircraft assigned a reduced speed, Except ^  
+    - Subtract **1 minute** for MX or CSR
+    - For **Non-Jets** (except **DH8D**) tracking via Jet STAR;
+        - Add **2 minutes** (Except ^)
+        - Add only **1 minute** for ^
 
-### Non-Jets
+    !!! note
+        The adjustments above are **cumulative**. For example, an **Non-Jet** aircraft assigned a **reduced speed**, would have **3 minutes** added in total
 
-This table assumes that aircraft will be assigned:
+=== "Non-Jets"
 
-- The appropriate *Non-Jet STAR* (**ATPIP**, **ELROX**, **GULFS**, **PAMMY**, **BEVSO**, **SURGN**), or if none is available:
-- *No STAR*
+    This table assumes that aircraft will be assigned:
 
-Thence track via a **5nm final** for the assigned runway.
+    - The appropriate *Non-Jet STAR* (**ATPIP**, **ELROX**, **GULFS**, **PAMMY**, **BEVSO**, **SURGN**), or if none is available:
+    - *No STAR*, thence track via a **5nm final** for the assigned runway.
 
-For Non-Jets tracking via the *full Jet STARs*, see [table above](#jets)
+    For Non-Jets tracking via the *full Jet STARs*, refer to the **Jets** tab
 
-| Feeder Fix | 05  | 12  | 23  | 30  |
-| ---------- | --- | --- | --- | --- |
-| INTOG      | 12  | 14  | 12  | 11  |
-| DRINA      | 14  | 17  | 14  | 13  |
-| KAKLU      | 16  | 15  | 13  | 13  |
-| BEVSO      | 17  | 15  | 14  | 13  |
-| KLAVA      | 15  | 13  | 13  | 16  |
-| ERITH      | -   | -   | -   | -   |
-| MARGO      | 13  | 12  | 13  | 15  |
-| ATNAR      | 13  | 13  | 15  | 16  |
-| ELROX      | 11  | 11  | 14  | 13  |
+    | Feeder Fix | 05  | 12  | 23  | 30  |
+    | ---------- | --- | --- | --- | --- |
+    | INTOG      | 12  | 14  | 12  | 11  |
+    | DRINA      | 14  | 17  | 14  | 13  |
+    | KAKLU      | 16  | 15  | 13  | 13  |
+    | BEVSO      | 17  | 15  | 14  | 13  |
+    | KLAVA      | 15  | 13  | 13  | 16  |
+    | ERITH      | -   | -   | -   | -   |
+    | MARGO      | 13  | 12  | 13  | 15  |
+    | ATNAR      | 13  | 13  | 15  | 16  |
+    | ELROX      | 11  | 11  | 14  | 13  |
 
-- **5nm final** - Threshold is **2 minutes**  
-- Subtract **1 minute** for MX  
-- Subtract **1 minute** for **DH8D**
+    - **5nm final** - Threshold is **2 minutes**  
+    - Subtract **1 minute** for MX  
+    - Subtract **1 minute** for **DH8D**
 
-!!! note
-    The adjustments above are **cumulative**. For example, a **DH8D** with a **MX**, would have **2 minutes** subtracted in total
+    !!! note
+        The adjustments above are **cumulative**. For example, a **DH8D** with a **MX**, would have **2 minutes** subtracted in total
 
 ## Coordination
 ### Enroute
@@ -216,24 +218,23 @@ VFR aircraft require a level readback.
     <span class="hotline">**AAW** -> **PF ADC**</span>: "via PAL, YTS"  
     <span class="hotline">**PF ADC** -> **AAW**</span>: "YTS, A010"
 
-### EDN ADC
+### ED ADC
 #### Departures
-Aircraft departing YPED in to AD TCU Class C will be coordinated from **EDN ADC** at Taxi.
+'Next' coordination is required from ED ADC to AD TCU for all aircraft.
 
 !!! phraseology
-    <span class="coldline">**EDN ADC** -> **AD TCU**</span>: "Taxi, BLKT11 for YMES, via VIRAT"  
-    <span class="coldline">**AD TCU** -> **EDN ADC**</span>: "BLKT11"  
+    <span class="hotline">**ED ADC** -> **AD TCU**</span>: "Next, SGE"  
+    <span class="hotline">**AD TCU** -> **ED ADC**</span>: "SGE, unrestricted"  
+    <span class="hotline">**ED ADC** -> **AD TCU**</span>: "SGE"
 
-When the aircraft is ready for takeoff, **EDN ADC** will give a "Next" call, where AD TCU will provide the cleared level.
+The Standard Assignable level from ED ADC to AD TCU is the lower of `A040` or the `RFL`.
 
-!!! phraseology
-    <span class="hotline">**EDN ADC** -> **AD TCU**</span>: "Next, BLKT11, runway 18"  
-    <span class="hotline">**AD TCU** -> **EDN ADC**</span>: "BLKT11, A050"  
-    <span class="hotline">**EDN ADC** -> **AD TCU**</span>: "A050, BLKT11"
-
-#### Arrivals
-AD TCU Must coordinate the sequence information to **EDN ADC** prior to transfer of jurisdiction.
+#### Arrivals/Overfliers
+AD TCU must Heads-up coordinate all arrivals/overfliers to ED ADC.
 
 !!! phraseology
-    <span class="coldline">**AD TCU** -> **EDN ADC**</span>: "New sequence of 2. MRNR21, via AD, Number 1. MRNR22, via AD, Number 2"  
-    <span class="coldline">**EDN ADC** -> **AD TCU**</span>: "MRNR21, Number 1. MRNR22, Number 2"  
+    <span class="hotline">**AD TCU** -> **ED ADC**</span>: "To the west, PLE, for the ILS-Z"  
+    <span class="hotline">**ED ADC** -> **AD TCU**</span>: "PLE, ILS-Z"
+
+- **IFR arrivals** must be cleared for the coordinated approach (Instrument or Visual) prior to handoff to ED ADC, unless ED ADC nominates a restriction.  
+- **VFR arrivals** must be cleared for the coordinated visual approach prior to handoff to ED ADC, unless ED ADC nominates a restriction.
