@@ -177,9 +177,9 @@ Aircraft departing from hospitals within the Gold Coast CTR must obtain clearanc
 Both hospital helipads are outside the maneuvering area and do not require a takeoff clearance from GC ADC, however a clearance to become airborne is required. Helicopters departing from these helipads should be instructed to "report airborne".
 
 !!! phraseology
-    **RSCU533:** "Gold Coast Tower, helicopter RSCU533, Tweed Valley Hospital, ready for northen departure"  
-    **CG ADC:** "RSCU533, Gold Coast Tower, remain on the ground, expect clearance in 3 minutes due traffic"  
-    **RSCU533:** "Remain on the ground, RSCU533"
+    **RSCU588:** "Gold Coast Tower, helicopter RSCU588, Tweed Valley Hospital, ready for northen departure"  
+    **CG ADC:** "RSCU588, Gold Coast Tower, remain on the ground, expect clearance in 3 minutes due traffic"  
+    **RSCU588:** "Remain on the ground, RSCU588"
 
     **CG ADC:** "RSCU533, track direct STOT, not above A015, report airborne"  
     **RSCU533:** "Track direct STOT, not above A015 report airborne, RSCU533"  
