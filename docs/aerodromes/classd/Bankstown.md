@@ -9,7 +9,7 @@
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Bankstown ADC**  | **Bankstown Tower**  | **132.800**         | **BK_TWR**                        |
 | **Bankstown SMC**   | **Bankstown Ground**   | **119.900**         | **BK_GND**                       |
-| Bankstown ATIS        |                | 120.900          | YSBK_ATIS                                |
+| **Bankstown ATIS**        |                | **120.900**          | **YSBK_ATIS**                                |
 
 ## Airspace
 BK ADC is responsible for the Class D airspace in the BK CTR `SFC` to `A015`.

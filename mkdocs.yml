@@ -32,6 +32,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    - content.tooltips
     - content.tabs.link
   favicon: assets/images/mini-logo.png
   icon:

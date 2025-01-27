@@ -8,14 +8,16 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Alice Springs** | **Melbourne Centre** | **128.850** | **ML-ASP_CTR** |
-| Alice Springs West† | Melbourne Centre | 131.800 | ML-ASW_CTR |
-| Warburton† | Melbourne Centre | 124.900 | ML-WAR_CTR |
-| Forest† | Melbourne Centre | 132.700 | ML-FOR_CTR |
-| Woomera† | Melbourne Centre | 132.900 | ML-WRA_CTR |
-| Bourke† | Melbourne Centre | 128.200 | ML-BKE_CTR |
-| Esperance† | Melbourne Centre | 123.950 | ML-ESP_CTR |
+| <span class="indented">Alice Springs West :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 131.800 | ML-ASW_CTR |
+| <span class="indented">Warburton :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 124.900 | ML-WAR_CTR |
+| <span class="indented">Forest :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 132.700 | ML-FOR_CTR |
+| <span class="indented">Woomera :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 132.900 | ML-WRA_CTR |
+| <span class="indented">Bourke :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 128.200 | ML-BKE_CTR |
+| <span class="indented">Esperance :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 123.950 | ML-ESP_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
 

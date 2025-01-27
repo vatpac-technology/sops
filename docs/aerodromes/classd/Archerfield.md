@@ -9,7 +9,7 @@
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Archerfield ADC**  | **Archer Tower**  | **118.100**        | **AF_TWR**                        |
 | **Archerfield SMC**   | **Archer Ground**  | **129.300**         | **AF_GND**                       |
-| Archerfield ATIS        |                | 120.900          | YBAF_ATIS                                |
+| **Archerfield ATIS**        |                | **120.900**          | **YBAF_ATIS**                                |
 
 ## Airspace
 AF ADC is responsible for the Class D airspace in the AF CTR `SFC` to `A015`.

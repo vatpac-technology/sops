@@ -8,14 +8,16 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Inverell** | **Brisbane Centre** | **134.200** | **BN-INL_CTR** |
-| Downs† | Brisbane Centre | 135.600 | BN-DOS_CTR |
-| Gold Coast† | Brisbane Centre | 130.400 | BN-GOL_CTR |
-| Straddy† | Brisbane Centre | 134.300 | BN-SDY_CTR |
-| Burnett† | Brisbane Centre | 123.000 | BN-BUR_CTR |
-| Noosa† | Brisbane Centre | 124.100 | BN-NSA_CTR |
-| Keppel† | Brisbane Centre | 125.900 | BN-KPL_CTR |
+| <span class="indented">Downs :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 135.600 | BN-DOS_CTR |
+| <span class="indented">Gold Coast :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 130.400 | BN-GOL_CTR |
+| <span class="indented">Straddy :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 134.300 | BN-SDY_CTR |
+| <span class="indented">Burnett :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 123.000 | BN-BUR_CTR |
+| <span class="indented">Noosa :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 124.100 | BN-NSA_CTR |
+| <span class="indented">Keppel :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 125.900 | BN-KPL_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
 

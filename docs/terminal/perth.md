@@ -7,10 +7,12 @@
 | Name | ID | Callsign | Frequency | Login ID |
 | -----| -- | -------- | --------- | ---------------- |
 | **Perth Approach** |**PHA**| **Perth Approach**  | **123.600** | **PH_APP**| 
-| Perth Departures†  |PHD| Perth Departures  | 118.700 | PH_DEP |
-| Perth Flow† | PFL |   |    | PH_FMP  |
+| <span class="indented">Perth Departures :material-information-outline:{ title="Non-standard position"}  |PHD| Perth Departures  | 118.700 | PH_DEP |
+| <span class="indented">Perth Flow :material-information-outline:{ title="Non-standard position"} | PFL |   |    | PH_FMP  |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
 The PH TCU is responsible for the airspace within 36 DME of the PH VOR, `SFC` to `F245`.  

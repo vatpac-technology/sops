@@ -8,14 +8,16 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Pingelly** | Melbourne Centre | 133.900 | ML-PIY_CTR |
-| Cross† | Melbourne Centre | 135.800 | ML-CRS_CTR |
-| Hyden† | Melbourne Centre | 118.200 | ML-HYD_CTR |
-| Jarrah† | Melbourne Centre | 120.300 | ML-JAR_CTR |
-| Leeman† | Melbourne Centre | 122.400 | ML-LEA_CTR |
-| Grove† | Melbourne Centre | 133.800 | ML-GVE_CTR |
-| Geraldton† | Melbourne Centre | 134.200 | ML-GEL_CTR |
+| <span class="indented">Cross :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 135.800 | ML-CRS_CTR |
+| <span class="indented">Hyden :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 118.200 | ML-HYD_CTR |
+| <span class="indented">Jarrah :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 120.300 | ML-JAR_CTR |
+| <span class="indented">Leeman :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 122.400 | ML-LEA_CTR |
+| <span class="indented">Grove :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 133.800 | ML-GVE_CTR |
+| <span class="indented">Geraldton :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 134.200 | ML-GEL_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
 
