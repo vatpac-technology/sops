@@ -9,7 +9,7 @@
 | Name               | ID      | Callsign       | Frequency        | Login ID              |
 | ------------------ | --------------| -------------- | ---------------- | -------------------|
 | **Tontouta Approach South** | **NWWWA** | **Tontouta Approach**  | **128.300**         | **NWWW_APP**          |
-| Tontouta Approach† | NWWWT | Tontouta Approach  | 119.700         | NWWW-T_APP          |
+| **Tontouta Approach†** | **NWWWT** | **Tontouta Approach**  | **119.700**         | **NWWW-T_APP**          |
 
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}

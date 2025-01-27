@@ -10,7 +10,7 @@
 | ----------------------- | --------- | ---------------- | --------- |
 | **Port Moresby ADC** | **Jacksons Tower**	| **118.100** | **AYPY_TWR**	| 
 | **Port Moresby SMC** | **Jacksons Ground**	| **121.700** | **AYPY_GND** | 
-| Port Moresby ATIS | |  	128.000 | AYPY_ATIS	| 
+| **Port Moresby ATIS** | |  	**128.000** | **AYPY_ATIS**	| 
 
 ## Airspace
 AYPY ADC is responsible for the Class C Airspace within the AYPY CTR `SFC` to `A020`.
