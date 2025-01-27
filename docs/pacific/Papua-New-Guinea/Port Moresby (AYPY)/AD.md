@@ -15,6 +15,11 @@
 ## Airspace
 AYPY ADC is responsible for the Class C Airspace within the AYPY CTR `SFC` to `A020`.
 
+<figure markdown>
+![Port Moresby ADC Airspace](../img/AYPY_ADC.png){ width="700" }
+    <figcaption>Port Moresby ADC Airspace</figcaption>
+</figure>
+
 ## SID Selection
 Aircraft planned via **GUNKI**, **LOTGU**, **NUPTA**, **ODOGA**, **RUVKI**, **STARF**, **TOMOM** or **UNSAM** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint, unless the pilot indicates they are unable to accept a Procedural SID.
 
