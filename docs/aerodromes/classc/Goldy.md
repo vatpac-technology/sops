@@ -67,55 +67,83 @@ Circuits are to be conducted at `A010`.
 | 35 | Right    | 
 
 ## VFR Procedures
-Aircraft transiting the Gold Coast CTR will be subject to delays depending on traffic in the Gold Coast CTR. Aircraft transiting shall be cleared overwater north/southbound not above `A015`, or during busy traffic periods cleared via the [Western VFR Route](#western-vfr-route). 
+VFR aircraft often transit the CG CTR via the coast. This conflicts with arrivals and departures to both runway 14 and 32, and should be accommodated where traffic permits. During busy traffic periods, transit aircraft shall be cleared via the [Western VFR Route](#western-vfr-route). 
 
 ### Arrivals
-Aircraft tracking southbound should contact ADC at Q1 or ROT for clearance.
+#### From the North
+Aircraft approaching from the north will generally contact ADC at Q1 or ROT for clearance. They should be instructed to track coastal southbound, then join final runway 14 or downwind runway 32.
 
 !!! phraseology
-    **OMU:** "Gold Coast Tower, OMU, abeam Q1, recieved F, inbound fullstop, request clearance"  
+    **OMU:** "Gold Coast Tower, Cessna 172 OMU, abeam Q1, recieved F, inbound, request clearance"  
     **CG ADC:** "OMU, Gold Coast Tower, cleared overwater southbound, not above A015"  
     **OMU:** "Cleared overwater southbound, not above A015, OMU"
 
-Alternatively, if jet aircraft are inbound at the same time and not enough spacing exists, aircraft inbound via Q1 should be cleared via amended ROT for shorter delays, or *"clearance not available, remain outside class Charlie airspace"* when delays are expected to be extensive.
+    **CG ADC:** "OMU, track for final runway 14, cleared visual approach"  
+    **OMU:** "Track for final runway 14, cleared visual approach, OMU"
+
+Where insufficient spacing exists with IFR aircraft, instruct VFR aircraft to expect a clearance via ROTC, which will offset them from the extended runway centreline. 
+
+!!! note
+    The Class C lower limit overhead ROTC is `A015`.
 
 !!! phraseology
-    **BTA:** "Gold Coast Tower, BTA, abeam Q1, recieved C, inbound fullstop, request clearance"  
-    **CG ADC:** "BTA, Gold Coast Tower, cleared amended ROT, YBCG, maintain A015"  
-    **BTA:** "Cleared amended ROT, YBCG, maintain A015, BTA"  
+    **BTA:** "Gold Coast Tower, Sling BTA, abeam Q1, recieved C, inbound, received P, request clearance"  
+    **CG ADC:** "BTA, Gold Coast Tower, remain outside controlled airspace, expect a clearance tracking via ROTC, report approaching ROTC."  
+    **BTA:** "Remain outside controlled airspace, wilco, BTA"  
 
-    **CG ADC:** "BTA, traffic is a A320, 1 mile north of BLGH, report sighting"  
-    **BTA:** "Traffic in sight, BTA"  
-    **CG ADC:** "BTA, maneuver to the follow the A320, cleared visual approach runway 14"  
-    **BTA:** "Maneuver to follow the A320, cleared visual approach runway 14, BTA"  
+    **CG ADC:** "BTA, traffic is an A320, 1 mile north of BLGH, report sighting and able to maintain own separation"  
+    **BTA:** "Traffic in sight, we're able to maintain own separation, BTA"  
+    **CG ADC:** "BTA, follow the A320, maintain own separation, track for final runway 14, cleared visual approach"  
+    **BTA:** "Follow the A320, maintain own separation, track for final runway 14, cleared visual approach BTA"  
 
-Aircraft tracking northbound should contact ADC approaching HASS for clearance. 
+#### From the South
+Aircraft approaching from the south will generally contact ADC approaching HASS for clearance. They should be instructed to join the circuit for the duty runway.
 
 !!! phraseology
-    **JCZ:** "Gold Coast Tower, JCZ, HASS, A015, inbound fullstop, request clearance"  
+    **FTQ:** "Gold Coast Tower, Cherokee FTQ, HASS, A015, inbound, received H, request clearance"  
+    **CG ADC:** "FTQ, Gold Coast Tower, join final runway 32, cleared visual approach"  
+    **FTQ:** "Join final runway 32, cleared visual approach, FTQ"
+
+Where insufficient spacing exists with IFR aircraft, instruct VFR aircraft to remain OCTA and report again at CGD (for runway 32) or to track northbound overwater with a clearance limit of CIS (for runway 14). Once clear of conflict, aircraft may join final for runway 32 or downwind/base for runway 14.
+
+!!! phraseology
+    **JCZ:** "Gold Coast Tower, Cessna 172 JCZ, HASS, A015, inbound, received M, request clearance"  
     **CG ADC:** "JCZ, Gold Coast Tower, cleared overwater northbound, not above A015, clearance limit CIS"  
     **JCZ:** "Cleared overwater northbound, not above A015, clearance limit CIS, JCZ"
 
-    **CG ADC:** "JCZ, cancel clearance limit, report DNGR"  
-    **JCZ:** "Cancel clearance limit, report DNGR, JCZ"  
+    **CG ADC:** "JCZ, cancel clearance limit, track coastal northbound, report DNGR"  
+    **JCZ:** "Cancel clearance limit, track coastal northbound, JCZ"  
 
     **JCZ:** "JCZ, DNGR"  
-    **CG ADC:** "JCZ, cleared visual approach, left base runway 14"   
-    **JCZ:** "Cleared visual approach, left base runway 14, JCZ"  
+    **CG ADC:** "JCZ, join left base runway 14, cleared visual approach"   
+    **JCZ:** "Join left base runway 14, cleared visual approach, JCZ" 
 
-### Coastal Flights
+!!! phraseology
+    **LKU:** "Gold Coast Tower, Cherokee LKU, HASS, A015, inbound, received B, request clearance"  
+    **CG ADC:** "LKU, Gold Coast Tower, remain outside controlled airspace, report again at CGD"  
+    **LKU:** "Remain OCTA, LKU"  
+
+    **LKU:** "LKU, CDG"  
+    **CG ADC:** "LKU, expect clearance in three minutes due inbound traffic, report sighting and able to maintain own separation with a 737, currently on a 12nm final runway 32"  
+    **LKU:** "Wilco, LKU"  
+
+    **LKU:** "LKU, traffic sighted, we can maintain own separation"  
+    **CG ADC:** "LKU, follow the 737, maintain own separation, join final runway 32, cleared visual approach"  
+    **LKU:** "Follow the 737, maintain own separation, join final runway 32, cleared visual approach, LKU"
+
+### Low-Level Coastal Flights
 Surf Lifesaving Patrol and Scenic Tour operations conducting low-level coastal flights within the CG CTR shall be cleared overwater in the required direction of travel, not above `A002`.
 
 !!! phraseology
-    **LIFE46:** "Gold Coast Tower, helicopter LIFE46, Q1, 3 POB, request clearance"  
+    **LIFE46:** "Gold Coast Tower, helicopter LIFE46, Q1, 3 POB, for low level coastal operations, received G, request clearance"  
     **CG ADC:** "LIFE46, Gold Coast Tower, cleared overwater southbound, not above A002"  
     **LIFE46:** "Cleared overwater southbound, not above A002, LIFE46"
 
 ### Western VFR Route
-The Western VFR Route begins at NEN and tracks inland, terminating at Burringbar. Aircraft following this route exit CTA at STOT, where control services are terminated. This route serves as an alternative route for aircraft wishing to transit through Gold Coast CTR. Prior to entering the CTA, pilots must obtain clearance for the Western VFR Route.
+The Western VFR Route begins at NEN and tracks inland, terminating at Burringbar. It should generally be flown at `A015` (higher levels will require clearance from TCU). This route serves as an alternative route for aircraft wishing to transit through Gold Coast CTR and is laterally separated (by the 3nm radar standard) from both runway approach paths. Note that southern portion of the route is **not** laterally separated from the runway 14 departure paths.
 
 !!! phraseology
-    **WCS:** "Gold Coast Tower, WCS, overhead NEN, request Western VFR Route"  
+    **WCS:** "Gold Coast Tower, helicopter WCS, NEN, A015, for Western VFR Route, received F, request clearance"  
     **CG ADC:** "WCS, Gold Coast Tower, cleared Western VFR Route, not above A015, QNH 1013"  
     **WCS:** "Cleared Western VFR Route, not above A015, QNH 1013, WCS"  
 
@@ -126,7 +154,7 @@ The Western VFR Route begins at NEN and tracks inland, terminating at Burringbar
     **WCS:** "Frequency change approved, WCS" 
 
 !!! tip
-    You can find details of the Western VFR Route in the [Gold Coast VTC](https://www.airservicesaustralia.com/aip/aip.asp){target=new}.
+    You can find details of the Western VFR Route on the [Gold Coast VTC](https://www.airservicesaustralia.com/aip/aip.asp){target=new}.
 
 ## Helicopter Operations
 Local helicopter operations are conducted on the Western Grass which is the area contained by blue gable markers north of the VOR and west of the runway intersection. This is marked on the aerodrome chart as “HELO OPS”.  
