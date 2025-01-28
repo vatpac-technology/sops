@@ -322,5 +322,5 @@
 *[CIS]: Cook Island
 *[DNGR]: Point Danger
 *[BLGH]: Burleigh Heads
-*[ROT]: Robina Town Centre
-*[Q1]: Quebec One
+*[ROTC]: Robina Town Centre
+*[CGD]: Cudgen Headland
