@@ -100,7 +100,7 @@ Aircraft tracking northbound should contact ADC approaching HASS for clearance.
     **JCZ:** "Cancel clearance limit, report DNGR, JCZ"  
 
     **JCZ:** "JCZ, DNGR"  
-    **CG ADC:** "JCZ, from DNGR, cleared visual approach, left base runway 14"   
+    **CG ADC:** "JCZ, cleared visual approach, left base runway 14"   
     **JCZ:** "From DNGR, cleared visual approach, left base runway 14, JCZ"  
 
 ### Coastal Flights
