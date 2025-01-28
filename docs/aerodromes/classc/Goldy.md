@@ -101,7 +101,7 @@ Aircraft tracking northbound should contact ADC approaching HASS for clearance.
 
     **JCZ:** "JCZ, DNGR"  
     **CG ADC:** "JCZ, cleared visual approach, left base runway 14"   
-    **JCZ:** "From DNGR, cleared visual approach, left base runway 14, JCZ"  
+    **JCZ:** "Cleared visual approach, left base runway 14, JCZ"  
 
 ### Coastal Flights
 Surf Lifesaving Patrol and Scenic Tour operations conducting low-level coastal flights within the CG CTR shall be cleared overwater in the required direction of travel, not above `A002`.
