@@ -121,7 +121,7 @@ Where insufficient spacing exists with IFR aircraft, instruct VFR aircraft to re
 !!! phraseology
     **LKU:** "Gold Coast Tower, Cherokee LKU, HASS, A015, inbound, received B, request clearance"  
     **CG ADC:** "LKU, Gold Coast Tower, remain outside Class C airspace, report again at CGD"  
-    **LKU:** "Remain OCTA, LKU"  
+    **LKU:** "Remain outside Class C airspace, LKU"  
 
     **LKU:** "LKU, CDG"  
     **CG ADC:** "LKU, expect clearance in three minutes due inbound traffic, report sighting and able to maintain own separation with a 737, currently on a 12nm final runway 32"  
