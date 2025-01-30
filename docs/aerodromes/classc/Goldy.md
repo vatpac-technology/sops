@@ -88,7 +88,7 @@ Where insufficient spacing exists with IFR aircraft, instruct VFR aircraft to ex
 
 !!! phraseology
     **BTA:** "Gold Coast Tower, Sling BTA, abeam Q1, inbound, received P, request clearance"  
-    **CG ADC:** "BTA, Gold Coast Tower, remain outside controlled airspace, expect a clearance tracking via ROTC, report approaching ROTC."  
+    **CG ADC:** "BTA, Gold Coast Tower, remain outside Class C airspace, expect a clearance tracking via ROTC, report approaching ROTC."  
     **BTA:** "Remain outside controlled airspace, wilco, BTA"  
 
     **CG ADC:** "BTA, traffic is an A320, 1 mile north of BLGH, report sighting and able to maintain own separation"  
