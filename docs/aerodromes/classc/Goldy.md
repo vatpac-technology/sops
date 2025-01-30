@@ -149,7 +149,7 @@ The Western VFR Route begins at NEN and tracks inland, terminating at Burringbar
 
     Once the aircraft exits the CTA, cancel their control services.
 
-    **WCS:** "WCS, excited the zone"  
+    **WCS:** "WCS, clear of Class C airspace"  
     **CG ADC:** "WCS, control services terminated, frequency change approved"   
     **WCS:** "Frequency change approved, WCS" 
 
