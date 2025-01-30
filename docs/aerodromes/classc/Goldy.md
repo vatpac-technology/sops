@@ -173,7 +173,7 @@ Within the Gold Coast CTR, there are two main hospital helipads. Tweed Heads Hos
 ADC shall assess the current traffic situation and, if necessary, instruct the pilot to hold and/or maintain own separation with any arriving or departing aircraft, then clear them for a visual approach to their inbound hospital.
 
 !!! phraseology
-    **WP1:** "Gold Coast Tower, helicopter WP1, 6 miles south, inbound YXTV, recieved G"  
+    **WP1:** "Gold Coast Tower, helicopter WP1, 6 miles south, inbound YXTV, received G"  
     **CG ADC:** "WP1, Gold Coast Tower, cleared to YXTV direct, not above A015"  
     **WP1:** "Cleared to YXTV direct, not above A015, WP1"  
 
