@@ -87,7 +87,7 @@ Where insufficient spacing exists with IFR aircraft, instruct VFR aircraft to ex
     The Class C lower limit overhead ROTC is `A015`.
 
 !!! phraseology
-    **BTA:** "Gold Coast Tower, Sling BTA, abeam Q1, recieved C, inbound, received P, request clearance"  
+    **BTA:** "Gold Coast Tower, Sling BTA, abeam Q1, inbound, received P, request clearance"  
     **CG ADC:** "BTA, Gold Coast Tower, remain outside controlled airspace, expect a clearance tracking via ROTC, report approaching ROTC."  
     **BTA:** "Remain outside controlled airspace, wilco, BTA"  
 
