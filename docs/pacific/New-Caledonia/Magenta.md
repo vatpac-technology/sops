@@ -9,7 +9,7 @@
 | Name                    | Callsign         | Frequency | Login ID    |
 | ----------------------- | --------- | ---------------- | --------- |
 | **Magenta ADC** | **Magenta Tower** | **118.300**| **NWWM_TWR** | 
-| Magenta ATIS |  | 126.600 | NWWM_ATIS	| 
+| **Magenta ATIS** |  | **126.600** | **NWWM_ATIS**	| 
 
 ## Airspace
 NWWM ADC is responsible for the Class D Airspace within the NWWM CTR `SFC` to `A015`.
