@@ -317,4 +317,4 @@
 *[MARSA]: Military Authority Assumes Responsibility for Separation of Military Aircraft
 *[NOCOM]: Non-Continuous Communication
 *[AEWC]: Airborne Early Warning and Control
-*[ATZ]: Aerodrome traffic zone
+*[ATZ]: Aerodrome Traffic Zone
