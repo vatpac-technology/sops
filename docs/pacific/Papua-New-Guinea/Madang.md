@@ -18,7 +18,7 @@ The Madang ADC is responsible for the Class F airspace `SFC` to `A200` within th
 ![Madang ATZ Airspace](img/AYMD_Vatsys.PNG){ width="700" }
 </figure>
 
-Refer to the [PNG Local instructions](../) for more information about Class F / ATZ operations.
+Refer to the [PNG Local instructions](../) for more information about Class F/ATZ operations.
 
 ### Circuit Direction
 | Runway | Direction |
