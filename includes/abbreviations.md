@@ -317,3 +317,11 @@
 *[MARSA]: Military Authority Assumes Responsibility for Separation of Military Aircraft
 *[NOCOM]: Non-Continuous Communication
 *[AEWC]: Airborne Early Warning and Control
+*[NEN]: Nerang
+*[STOT]: Stotts Island
+*[HASS]: Hastings Point
+*[CIS]: Cook Island
+*[DNGR]: Point Danger
+*[BLGH]: Burleigh Heads
+*[ROTC]: Robina Town Centre
+*[CGD]: Cudgen Headland
