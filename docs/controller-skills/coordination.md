@@ -26,11 +26,11 @@ Coordination notes are included for most positions, using the following format:
 As a receiving controller, answer a coordination call by stating the name of **your** position.  If you are busy at the time, finish your current radio call and then state your position to indicate that you are ready to receive the message.
 
 !!! phraseology
-    *BIK calls SAN with a hotline to discuss an arrival*  
-    <span class="hotline">**BIK** -> **SAN**</span>: \***DING**\*  
-    <span class="hotline">**SAN** -> **BIK**</span>: "Sydney Approach"  
-    <span class="hotline">**BIK** -> **SAN**</span>: "Via RIVET, QFA541, request heading 030 due weather"  
-    <span class="hotline">**SAN** -> **BIK**</span>: "QFA541, Concur heading 030"
+    *GUN calls SAN with a hotline to discuss an arrival*  
+    <span class="hotline">**GUN** -> **SAN**</span>: \***DING**\*  
+    <span class="hotline">**SAN** -> **GUN**</span>: "Sydney Approach"  
+    <span class="hotline">**GUN** -> **SAN**</span>: "Via RIVET, QFA541, request heading 030 due weather"  
+    <span class="hotline">**SAN** -> **GUN**</span>: "QFA541, Concur heading 030"
 
 !!! tip
     Remember that coordination items must be read back in the same way a pilot must read back an instruction from ATC.
@@ -43,16 +43,16 @@ Controlling Sector -> Receiving Sector: "(Position), (Callsign)"
 Receiving Sector -> Controlling Sector: "(Callsign), (Level)"
 
 !!! phraseology
-    <span class="hotline">**ELW** -> **BIK**</span>: "via CB, VOZ1234"  
-    <span class="hotline">**BIK** -> **ELW**</span>: "VOZ1234, F350"  
+    <span class="hotline">**BLA** -> **GUN**</span>: "via CB, VOZ1234"  
+    <span class="hotline">**GUN** -> **BLA**</span>: "VOZ1234, F350"  
 
 If the level that will be assigned at transfer of jurisdiction is different from the current CFL, the Controlling Sector will use the phrase "Will be assigned (level)".
 
 Once this coordination is completed, the aircraft's level and route is **locked in**. Any further changes must be recoordinated.
 
 !!! phraseology
-    <span class="hotline">**ELW** -> **BIK**</span>: "VOZ1234, requesting DCT RIVET"  
-    <span class="hotline">**BIK** -> **ELW**</span>: "VOZ1234, concur DCT RIVET"  
+    <span class="hotline">**BLA** -> **GUN**</span>: "VOZ1234, requesting DCT RIVET"  
+    <span class="hotline">**GUN** -> **BLA**</span>: "VOZ1234, concur DCT RIVET"  
 
 !!! tip
     In situations where Heads-Up Coordination is required, the best time to do it is when the aircraft first calls you. There's no need to wait until half a mile before when its due, if you can get it done sooner.
@@ -73,8 +73,8 @@ Controlling Sector -> Boundary Sector: "For Ident, (Position), (Callsign), (Deta
 Boundary Sector -> Controlling Sector: "(Callsign), (Restriction)"
 
 !!! phraseology
-    <span class="hotline">**BIK** -> **CBE**</span>: "For Ident, overhead CB, QFA12, do you have any restrictions on descent?"  
-    <span class="hotline">**CBE** -> **BIK**</span>: "QFA12, No restrictions on descent"  
+    <span class="hotline">**GUN** -> **CBE**</span>: "For Ident, overhead CB, QFA12, do you have any restrictions on descent?"  
+    <span class="hotline">**CBE** -> **GUN**</span>: "QFA12, No restrictions on descent"  
 
 The Boundary Sector may omit the restriction and readback the callsign only. This will be taken as the Boundary Sector having **no vertical or lateral restrictions**.
 
@@ -113,12 +113,12 @@ Source: [Annotations](../../controller-skills/annotations)
 *Offering NFR*
 !!! phraseology
     *ABC tracking MNG W663 VINOP*  
-    <span class="hotline">**ELW** -> **YWE**</span>: "via MNG, ABC, if you have no restrictions or requirements, my onwards with OXL"  
-    <span class="hotline">**YWE** -> **ELW**</span>: "ABC, I have no restrictions or requirements, your onwards with OXL"  
-    ELW will put *"YWE NRR"* in the label data  
-    <span class="hotline">**ELW** -> **OXL**</span>: "via MNG, ABC, YWE has no restrictions or requirements"  
+    <span class="hotline">**BLA** -> **YWE**</span>: "via MNG, ABC, if you have no restrictions or requirements, my onwards with OXL"  
+    <span class="hotline">**YWE** -> **BLA**</span>: "ABC, I have no restrictions or requirements, your onwards with OXL"  
+    BLA will put *"YWE NRR"* in the label data  
+    <span class="hotline">**BLA** -> **OXL**</span>: "via MNG, ABC, YWE has no restrictions or requirements"  
     <span class="hotline">**OXL** -> **YWE**</span>: "ABC, F190"  
-    ELW will handoff the aircraft directly to OXL
+    BLA will handoff the aircraft directly to OXL
 
 *Initiating NFR*
 !!! phraseology
@@ -135,7 +135,7 @@ Source: [Annotations](../../controller-skills/annotations)
 
 ## Rules
 ### General
-Coordination must be done on a **point-to-point** basis. Meaning, you can only coordinate with the sector which the aircraft is coming from, or going to, no skipping! This is important to remember, for example, if you are controlling ELW, and you would like to pass an amended route to someone on the ground at YMML. Whilst that may be no issue for ELW, ML SMC and ML ADC, it might not work for ML APP. ML APP would be the sector which the aircraft is coming from, so ELW must talk to them, and it is the responsibility of ML APP to work backwards down the line on a point-to-point basis.
+Coordination must be done on a **point-to-point** basis. Meaning, you can only coordinate with the sector which the aircraft is coming from, or going to, no skipping! This is important to remember, for example, if you are controlling BLA, and you would like to pass an amended route to someone on the ground at YMML. Whilst that may be no issue for BLA, ML SMC and ML ADC, it might not work for ML APP. ML APP would be the sector which the aircraft is coming from, so BLA must talk to them, and it is the responsibility of ML APP to work backwards down the line on a point-to-point basis.
 
 Ensure no coordination is ambiguous in its meaning. Not all coordination can be straight out of the phraseology books, and the reality is, not everyone controlling the airspace is going to be 100% proficient and by the books. When using "plain english", ensure there is no ambiguity, and the message is fully understood by both parties.
 ### ENR/TCU -> Class D TWR
