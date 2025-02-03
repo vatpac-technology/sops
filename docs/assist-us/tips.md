@@ -40,6 +40,9 @@ Images also use the default markdown syntax, but can have some additional proper
 
 You can also add multiple properties together, with a space between the attributes.
 
+!!! warning "Important"
+    All images should be optimised for the web. This can be done easily using a service like [tinify](https://tinypng.com){ target=new }.
+
 #### Image Captions
 
 Where confusion can arise from the placement or relevance of an image, you can opt to use a caption. Unfortunately these are not natively supported by Markdown, but you can opt to use HTML.
@@ -64,6 +67,11 @@ Admonitions are enabled and are very handy for delivering extra information that
 
 
 You can see a list of [all admonition blocks here](https://squidfunk.github.io/mkdocs-material/reference/admonitions/){target=new}.
+
+!!! warning "Important"
+    To fit the styling of the site, do not use the default `!!! important` admonition. All **Important** blocks should be formatted as a *Warning* block, with a custom title.
+
+    `!!! warning "Important"`
 
 !!! note
     Never use collapsible blocks - if it needs the additional information drawn to it, it should be displayed all the time.
