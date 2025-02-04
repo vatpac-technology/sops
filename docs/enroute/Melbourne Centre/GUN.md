@@ -29,7 +29,7 @@ The CPDLC Station Code is `YGUN`.
 
 <figure markdown>
 ![Gundagai Airspace](../assets/gun.png){ width="700" }
-  <figcaption>Bindook Airspace</figcaption>
+  <figcaption>Gundagai Airspace</figcaption>
 </figure>
 
 BIK assumes responsibility of the airspace within 45nm of SY DME above `F285`.  
