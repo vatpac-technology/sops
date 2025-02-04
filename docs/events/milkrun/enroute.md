@@ -38,7 +38,7 @@ Although the standard runway assignment for arrivals via RIVET is the Western Pa
 #### Amended routing via ODALE
 In order to segregate aircraft inbound to different parallel runways, [Amended routing via ODALE](../../enroute/Melbourne Centre/GUN/#sequencing-into-yssy) should be used for aircraft assigned the Eastern parallel runway (16L/34R). This keeps aircraft segregated in to two distinct arrival streams, and allows a higher volume of arrivals.
 
-Aircraft can be rerouted on first contact via AKMIR, ODALE, then assigned the ODALE7 arrival for 16L/34R.
+Aircraft can be rerouted on first contact via AKMIR, ODALE, then assigned the **ODALE STAR** for 16L/34R.
 
 <figure markdown>
 ![Original Flight Planned Route](../img/odale1.png){ width="700" }
