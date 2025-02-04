@@ -50,7 +50,7 @@ If HUO chooses to operate top down to either aerodrome, they must administer all
 HUO is reponsible for issuing STAR clearances, sequencing, and descent for aircraft bound for YMLT and YMHB.
 
 ### Wonthaggi (WON)
-WON is responsible for issuing STAR Clearances for aircraft arriving at YMML. WON will also initiate sequencing as required for aircraft arriving at YMML.
+WON is responsible for issuing STAR Clearances, sequencing, and descent for aircraft arriving at YMML.
 
 ## STAR Clearance Expectation
 ### Handoff
