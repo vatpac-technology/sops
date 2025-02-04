@@ -26,11 +26,11 @@ Coordination notes are included for most positions, using the following format:
 As a receiving controller, answer a coordination call by stating the name of **your** position.  If you are busy at the time, finish your current radio call and then state your position to indicate that you are ready to receive the message.
 
 !!! phraseology
-    *GUN calls SAN with a hotline to discuss an arrival*  
-    <span class="hotline">**GUN** -> **SAN**</span>: \***DING**\*  
-    <span class="hotline">**SAN** -> **GUN**</span>: "Sydney Approach"  
-    <span class="hotline">**GUN** -> **SAN**</span>: "Via RIVET, QFA541, request heading 030 due weather"  
-    <span class="hotline">**SAN** -> **GUN**</span>: "QFA541, Concur heading 030"
+    *GUN calls SAS with a hotline to discuss an arrival*  
+    <span class="hotline">**GUN** -> **SAS**</span>: \***DING**\*  
+    <span class="hotline">**SAS** -> **GUN**</span>: "Sydney Approach"  
+    <span class="hotline">**GUN** -> **SAS**</span>: "Via RIVET, QFA541, request heading 030 due weather"  
+    <span class="hotline">**SAS** -> **GUN**</span>: "QFA541, Concur heading 030"
 
 !!! tip
     Remember that coordination items must be read back in the same way a pilot must read back an instruction from ATC.
