@@ -41,6 +41,6 @@ When extending, include in your remarks, *"Extending to (Sector) (frequency), (S
 
 !!! example
     Melbourne Centre  
-    Extending to HUO 122.6, MUN 134.325, GUN 129.8.  
+    Extending to HUO 122.6, MUN 132.6, GUN 128.4  
     Charts - vats.im/pac/charts  
     ATC feedback - helpdesk.vatpac.org
