@@ -90,7 +90,7 @@ The background colour of the strip corresponds to its status as an arrival or a 
 
 | Number | Content | Left Click | Right Click |
 |---------|-------------|--------------| ----------- |
-| **1** | **Bay Number** | Change | |
+| **1** | **Bay Number** | Edit Bay Number | |
 | **2** | **Filed Off Blocks Time** | Cock Strip | |
 | **3** | **Aircraft Type** | Open Flightplan | |
 | **4** | **Wake Turbulence Category** | | |
@@ -100,16 +100,16 @@ The background colour of the strip corresponds to its status as an arrival or a 
 | **8** | **Correct SSR Code + Mode C Received** | | |
 | **9** | **SSR Code** | Autogenerate Code | |
 | **10** | **Callsign** | Select Strip | |
-| **11** | **Runway** | Change | |
-| **12** | **Ready Flag** | Change | |
-| **13** | **Holding Point** | Change | |
-| **14** | **SID** | Move strip to next bay | |
+| **11** | **Runway** | Change Runway | |
+| **12** | **Ready Flag** | Toggle Ready Flag | |
+| **13** | **Holding Point** | Edit Holding Point | |
+| **14** | **SID** | Move strip to next bay | Change SID |
 | **15** | **First Waypoint** | Open flightplan | Open Reroute Window |
 | **16** | **Requested Level** | Open flightplan | |
-| **17** | **Cleared Level** | Change | |
-| **18** | **vatSys Global Ops Field** | Change | |
-| **19** | **OzStrips Remarks** | Change | |
-| **20** | **Departure Heading** | Change | |
+| **17** | **Cleared Level** | Change CFL | |
+| **18** | **vatSys Global Ops Field** | Edit | |
+| **19** | **OzStrips Remarks** | Edit | |
+| **20** | **Departure Heading** | Edit Departure Heading | |
 | **21** | **Takeoff Timer** | Start / Reset | |
 
 <figure markdown>

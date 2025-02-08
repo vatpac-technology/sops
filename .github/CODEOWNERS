@@ -1,0 +1,4 @@
+# Require PR reviews from designated codeowners
+# Currently, the @vatpac-technology/sop-maintainers team owns all files
+
+*  @vatpac-technology/sop-maintainers

@@ -318,3 +318,11 @@
 *[NOCOM]: Non-Continuous Communication
 *[AEWC]: Airborne Early Warning and Control
 *[ATZ]: Aerodrome Traffic Zone
+*[NEN]: Nerang
+*[STOT]: Stotts Island
+*[HASS]: Hastings Point
+*[CIS]: Cook Island
+*[DNGR]: Point Danger
+*[BLGH]: Burleigh Heads
+*[ROTC]: Robina Town Centre
+*[CGD]: Cudgen Headland
