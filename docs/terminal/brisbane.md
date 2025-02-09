@@ -95,6 +95,31 @@ These standard runway assignments may be modified strategically by the BAS or BF
 !!! phraseology
     **BAS:** “QFA660, Turn left heading 040, join final Runway 01L, from that heading Cleared Independent Visual Approach Runway 01L, not below 2400 until established on the PAPI”    
 
+## Offline Towers
+### AF ADC Offline
+Due to the low level of CTA (`A015`) in the AF CTR when **AF ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
+
+!!! phraseology
+    **ABC**: "Brisbane Approach, ABC, PC12, POB 8, IFR, Taxiing YBAF for YBSU, Runway 28R"   
+    **BN TCU**: "ABC, Brisbane Approach, Squawk 3601, No Reported IFR Traffic, Report Ready at the Holding Point for Airways Clearance"  
+    **ABC**: "Squawk 3601, Wilco, ABC"  
+
+    **ABC**: "ABC, Ready Runway 28R, Request clearance"  
+    **BN TCU**: "ABC, Cleared to YBSU via BN, Flight Planned Route. Make Visual right turn DCT BN, Climb to A030"  
+    **ABC**: "Cleared to YBSU via BN, Flight Planned Route. Make Visual right turn DCT BN, Climb to A030, ABC"
+
+### CG ADC Offline
+Due to the low level of CTA (`A035`) in the CG CTR when **CG ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
+
+!!! phraseology
+    **JST446**: "Brisbane Approach, JST446, A320, IFR, taxiing YBCG for YSSY, runway 14"   
+    **BN TCU**: "JST446, Brisbane Approach, squawk 3601, no reported IFR traffic, report ready at the holding point for airways clearance"  
+    **JST446**: "Squawk 3601, wilco, JST446"  
+
+    **JST446**: "JST446, ready runway 14, request clearance"  
+    **BN TCU**: "JST446, cleared to YSSY via APAGI, flight planned route, climb to A060"  
+    **JST446**: "Cleared to YSSY via APAGI, flight planned route, climb to A060, JST446"
+
 ## Helicopter Operations
 In VMC, helicopters inbound to or outbound from YBBN shall be processed via two visual waypoints (outlined below) positioned north and south of the field. Where VMC does not exist, IFR helicopters will conform to fixed wing ops.
 
@@ -127,32 +152,6 @@ Helicopters arriving to YBBN during VMC shall be cleared by **BN TCU** via the a
 
 **BN ADC** will assess the traffic situation and clear the aircraft for a visual approach to their nominated landing site.
 
-## Offline Towers
-### AF ADC Offline
-Due to the low level of CTA (`A015`) in the AF CTR when **AF ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
-
-!!! phraseology
-    **ABC**: "Brisbane Approach, ABC, PC12, POB 8, IFR, Taxiing YBAF for YBSU, Runway 28R"   
-    **BN TCU**: "ABC, Brisbane Approach, Squawk 3601, No Reported IFR Traffic, Report Ready at the Holding Point for Airways Clearance"  
-    **ABC**: "Squawk 3601, Wilco, ABC"  
-
-    **ABC**: "ABC, Ready Runway 28R, Request clearance"  
-    **BN TCU**: "ABC, Cleared to YBSU via BN, Flight Planned Route. Make Visual right turn DCT BN, Climb to A030"  
-    **ABC**: "Cleared to YBSU via BN, Flight Planned Route. Make Visual right turn DCT BN, Climb to A030, ABC"
-
-### CG ADC Offline
-Due to the low level of CTA (`A035`) in the CG CTR when **CG ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
-
-!!! phraseology
-    **JST446**: "Brisbane Approach, JST446, A320, IFR, taxiing YBCG for YSSY, runway 14"   
-    **BN TCU**: "JST446, Brisbane Approach, squawk 3601, no reported IFR traffic, report ready at the holding point for airways clearance"  
-    **JST446**: "Squawk 3601, wilco, JST446"  
-
-    **JST446**: "JST446, ready runway 14, request clearance"  
-    **BN TCU**: "JST446, cleared to YSSY via APAGI, flight planned route, climb to A060"  
-    **JST446**: "Cleared to YSSY via APAGI, flight planned route, climb to A060, JST446"
-
-## Helicopter Operations
 ### City Scenic Flights
 Helicopters conducting scenic flights around the city require access to the Brisbane CTA to operate. These flights typically involve low-level operations inside controlled airspace and in proximity to landmarks within the city area.
 
