@@ -278,7 +278,7 @@ Unless operationally required, aircraft shall be assigned the following runways 
     Some jet aircraft may require the use of the **RADAR** SID and will communicate this requirement when requesting airways clearance (see [Climb Gradient Requirements](#climb-gradient-requirements)).
 
 ### Climb Gradient Requirements
-Climb gradient requirements apply to all Procedural SIDs. It is the pilot's responsibility to advise if they are unable to meet these requirements. Pilots that advise this can be assigned a **RADAR** SID instead, regardless of aircraft type.
+Climb gradient requirements apply to all Procedural SIDs. It is the pilot's responsibility to advise if they are unable to meet these requirements. Pilots that advise this shall be assigned the **RADAR** SID instead, regardless of aircraft type.
 
 ## ATIS
 ### Approach Types
