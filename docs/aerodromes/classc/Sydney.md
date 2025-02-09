@@ -230,7 +230,7 @@ Unless operationally required, aircraft shall be assigned the following runways 
     | ------| ---- | --------|
     | Jet  | OLSEM<br>WOL | **FISHA** SID, Relevant Transition |
     | Jet  | All others | **FISHA** SID, RADAR Transition |
-    | All | All       | **RADAR** SID |
+    | Non-Jet and Jet on request | All       | **RADAR** SID |
 
 === "Runway 16L"
 
@@ -239,7 +239,7 @@ Unless operationally required, aircraft shall be assigned the following runways 
     | Jet  | OLSEM<br>NOBAR<br>DIPSO<br>EVONN<br>CAWLY<br>OPTIC | **KEVIN** SID, Relevant Transition |
     | Jet  | WOL | **ABBEY** SID |
     | Jet  | All others | **KEVIN** SID, RADAR Transition |
-    | All | All | **RADAR** SID |
+    | Non-Jet and Jet on request | All | **RADAR** SID |
 
 === "Runway 16R"
 
@@ -247,7 +247,7 @@ Unless operationally required, aircraft shall be assigned the following runways 
     | ------| ---- | --------|
     | Jet  | RIC<br>KADOM<br>WOL | **GROOK** SID, Relevant Transition |
     | Jet  | All others | **GROOK** SID, RADAR Transition |
-    | All | All | **RADAR** SID |
+    | Non-Jet and Jet on request | All | **RADAR** SID |
 
 === "Runway 25"
 
@@ -263,7 +263,7 @@ Unless operationally required, aircraft shall be assigned the following runways 
     | Jet  | KADOM | **KADOM** SID |
     | Jet  | RIC | **RIC** SID, RIC Transition |
     | Jet  | All others | **RIC** SID, RADAR Transition |
-    | All | All | **RADAR** SID |
+    | Non-Jet and Jet on request | All | **RADAR** SID |
 
 === "Runway 34R"
 
@@ -272,7 +272,7 @@ Unless operationally required, aircraft shall be assigned the following runways 
     | Jet  | OLSEM | **OLSEM** SID |
     | Jet  | WOL | **MARUB** SID, WOL Transition |
     | Jet  | All others | **MARUB** SID, RADAR Transition |
-    | All | All | **RADAR** SID |
+    | Non-Jet and Jet on request | All | **RADAR** SID |
 
 ### Climb Gradient Requirements
 Climb Gradient Requirements apply to all Procedural SIDs. It is the pilot's responsibility to advise if they are unable to meet these requirements. Pilots that advise this can be assigned a **RADAR** SID instead.
