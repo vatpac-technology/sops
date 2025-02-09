@@ -39,9 +39,9 @@ VFR aircraft should track via a VFR inbound point at `A015` and be instructed as
 | Planned Departure Tracks | "Intentions"   | Tracking Requirement | 
 | ---------------      | ---------      | ----------           | 
 | BTN 310 & 019 DEG    | Northern Departure | Track via WTBG | 
-| BTN 020 & 099 DEG    | Eastern Departure  | Track via Gateway Motorway and Pacific Motorway Intersection   *(Not available when Rwy 22 active EXC if departing into Class C)* | 
-| BTN 100 & 204 DEG    | Southern Departure | Track 135 DEG from Archerfield |
-| BTN 205 & 309 DEG    | Western Departure  | DEP AF CTR on a track between 220 & 309. Acft must nominate outbound DEP track with TAXI call |
+| BTN 020 & 099 DEG    | Eastern Departure  | Track via Gateway Motorway and Pacific Motorway Intersection<br>*(Not available when Rwy 22 active unless departing into Class C)* | 
+| BTN 100 & 204 DEG    | Southern Departure | Track 135 until clear of the zone |
+| BTN 205 & 309 DEG    | Western Departure  | Track between 220 & 309 until clear of the zone<br>*(Acft must nominate outbound DEP track with TAXI call)* |
 | Other                |                    | As approved by ATC
 
 VFR departures will depart the control zone at `A010`.
@@ -77,22 +77,26 @@ Archerfield has three helipads located around the aerodrome:
 - The **Queensland Government Air facility** used by rescue helicopters, north of Taxiway B5
 
 !!! note
-    Both the **Northern** and **Central** helipads are inside the maneuvering area and treated like a runway, requiring a takeoff and landing clearance from AF ADC. Helicopters operating on other surfaces outside the maneuvering areas should be instructed to *"report airborne"*  or *"report on the ground"* so the controllers knows when they are active / no longer active in their airspace. 
+    Both the **Northern** and **Central** helipads are inside the maneuvering area and treated like a runway, requiring a takeoff and landing clearance from AF ADC. Helicopters operating on other surfaces outside the maneuvering areas should be instructed to *"report airborne"*  or *"report on the ground"* so the controllers knows when they are active/no longer active in their airspace. 
 
 ### Training Areas
-There are 3 designated helicopter training areas at Archerfield:
+There are 3 designated helicopter training areas which can be used for training operations in ground effect and circuits. The active helicopter training area shall be nominated on the [ATIS](#helicopter-area).
 
-**Area A**: North of Taxiway B within the confines of the aerodrome boundary, clear of all buildings, not above `A005`. Circuit direction and frequency as per ATIS. A maximum of 3 helicopters are permitted to operate circuits concurrently. Additionally, a maximum of 2 helicopters are permitted to operate in ground effect only.
-
-**Area B**: North and west of Runway 04L within the confines of the aerodrome boundary, clear of all buildings, not above `A005`. Circuit direction and frequency as per ATIS. A maximum of 3 helicopters are permitted to operate circuits concurrently. Additionally, a maximum of 2 helicopters are permitted to operate in ground effect only.
-
-**Area C**: South and east of Taxiway D, inside the fixed wing circuit for runway 04R/22L, east of the control tower, not above `A008`. Landings must be conducted north of Taxiway B. Once established, the only radio communications are an airborne call before each circuit and a downwind call by pilots. A maximum of 2 helicoptesr are permitted to operate in this area concurrently.
+| Name | Lateral Boundary | Vertical Limit | Capacity |
+| ---- | -------- | -------------- | -------- |
+| Area A | North of Taxiway B within the confines of the aerodrome boundary, clear of all buildings | Not above `A005` | 3 helicopters in the circuit area, and additionally<br>2 helicopters in ground effect |
+| Area B | North and west of Runway 04L within the confines of the aerodrome boundary, clear of all buildings | Not above `A005` | 3 helicopters in the circuit area, and additionally<br>2 helicopters in ground effect |
+| Area C | South and east of Taxiway D, inside the fixed wing circuit for Runway 04R/22L, east of the control tower<br>*All landings to be conducted north of Taxiway B* | Not above `A008` | 2 helicopters |
 
 <figure markdown> 
   ![Archerfield Helicopter Training Areas](img/ybaf_helicopter_area.png){ width="450" }
   <figcaption>Archerfield Helicopter Training Areas</figcaption>
 </figure>
 
+With **Runways 28 or 10** in use, **Area A** shall be designated as the active helicopter area. With **Runways 04 or 22** in use, **Area C** shall be designated.
+
+!!! tip
+    With **Runways 28 or 10** in use and a large number of helicopters operating in **Area A**, it may be beneficial to instead utilise both **Areas B & C** concurrently.
 
 ### Departures
 Helicopters depart the zone via any of the [designated outbound routes](#vfr-departure-procedures). Departures shall be parallel to and clear of the duty runways.   
