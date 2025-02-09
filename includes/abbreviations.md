@@ -290,7 +290,6 @@
 *[TRA]: Temporary Reserved Airspace
 *[VSA]: Visual Straight-In Approach
 *[IP]: Initial Point
-*[TAC]: Tactical Air Navigation System (TACAN)
 *[TACAN]: Tactical Air Navigation System
 *[LSALT]: Lowest Safe Altitude
 *[FPR]: Flight Planned Route
