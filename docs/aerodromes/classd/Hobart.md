@@ -46,7 +46,7 @@ All IFR Aircraft departing Cambridge shall be assigned a **Visual Departure** or
 
 !!! Example
     **NDR:** "Hobart Ground, NDR, for Devonport, Request Clearance"  
-    **HB SMC:** "NDR, Cleared to Devonport via KANLI flight plan route, KANLI3 Departure, Climb via SID A045, Squawk 4432"
+    **HB SMC:** "NDR, Cleared to Devonport via KANLI flight plan route, KANLI3 Departure, Climb via SID to A045, Squawk 4432"
 
 When ready to taxi and prior to leaving the apron aircraft must contact **HB ADC**, advising intended runway for departure and receipt of YMHB ATIS, to obtain traffic information.
 

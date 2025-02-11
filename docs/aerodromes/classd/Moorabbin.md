@@ -77,8 +77,8 @@ Aircraft departing directly into Class C airspace should be instructed to report
 Aircraft who will transit Class G airspace on climb into CTA will be **cleared to leave and re-enter controlled airspace** on climb to their assigned level.
 
 !!! example
-    **MB ADC**: "SGE, cleared to leave and re-enter controlled airspace climbing to A050, no reported IFR traffic. Contact Melbourne Departures on 129.4"  
-    **SGE**: "Cleared to leave and re-enter controlled airspace climbing to A050, Departures 129.4, SGE"
+    **MB ADC**: "SGE, leave and re-enter controlled airspace climbing to A050, no reported IFR traffic. Contact Melbourne Departures on 129.4"  
+    **SGE**: "Leave and re-enter controlled airspace climbing to A050, Departures 129.4, SGE"
 
 ### Arrivals/Overfliers
 ML TCU will heads-up coordinate arrivals/overfliers from Class C to MB ADC.  
