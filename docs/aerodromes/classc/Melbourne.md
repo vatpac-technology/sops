@@ -167,7 +167,7 @@ The decision whether or not to send an aircraft to SMC or hold them on the ACD f
 
 !!! example
     **VOZ543:** "Melbourne Delivery, VOZ543, PDC read back"  
-    **ML ACD:** "VOZ543, go ahead the read back"  
+    **ML ACD:** "VOZ543, Melbourne Delivery"  
     **VOZ543:** "DOSEL1 departure, squawk 1336, bay E8, VOZ543"  
     **ML ACD:** "VOZ543, contact me when ready for pushback"  
     **VOZ543:** "Wilco, VOZ543"  
