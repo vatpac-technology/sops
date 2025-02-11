@@ -350,8 +350,8 @@ Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, i
     **LOA**: "Squawk 3601, wilco, LOA"  
 
     **ABC**: "LOA, ready Runway 11C"  
-    **SY TCU**: "LOA, cleared to YSHL via ANKUB, flight planned route, Bankstown 8 Departure, climb via SID to A030"  
-    **LOA**: "Cleared to YSHL via ANKUB, flight planned route, Bankstown 8 Departure, climb via SID to A030, LOA"
+    **SY TCU**: "LOA, cleared to YSHL via ANKUB, flight planned route, BK9 departure, climb via SID to A030"  
+    **LOA**: "Cleared to YSHL via ANKUB, flight planned route, BK9 departure, climb via SID to A030, LOA"
 
 </details>
 
