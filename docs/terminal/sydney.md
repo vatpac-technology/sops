@@ -553,7 +553,7 @@ Heads-up coordination is not required from a SY TCU position to SRI for aircraft
 
 !!! example 
     *CYF is an IFR C172 leaving CTA to the north at `A050`.*  
-    **SAN:** "CYF at 30DME SY, control services terminated, contact Sydney Centre 124.55"  
+    **SAN:** "CYF at 30DME SY, control service terminates, contact Sydney Centre 124.55"  
     **CYF:** "124.55, CYF"  
 
     **CYF:** "Sydney Centre, CYF, maintaining A050"  
