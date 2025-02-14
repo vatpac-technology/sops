@@ -113,8 +113,8 @@ LAHSO is the operation of two crossing runways used for arrivals and departures.
 !!! phraseology
     ***Traffic Landing RWY 34***
 
-    **ML ADC:** "QFA1289, traffic is a Jetstar A320, landing on the crossing runway, hold short runway 27, runway 34 cleared to land."
-    <br>**QFA1289:** "Hold short runway 27, runway 34 cleared to land QFA1289"
+    **ML ADC:** "QFA1289, traffic is a Jetstar A320 landing on the crossing runway, hold short runway 27, cleared to land runway 34."
+    <br>**QFA1289:** "Hold short runway 27, cleared to land runway 34, QFA1289"
 
     ***Traffic Landing RWY 27***
 
