@@ -54,12 +54,12 @@ LAHSO is the operation of two crossing runways used for arrivals and departures.
 !!! phraseology
     ***Traffic Landing RWY 36***
 
-    **DN ADC:** "YZU, traffic is an E120, landing on the crossing runway, hold short runway 29, runway 36 cleared to land."
-    <br>**YZU:** "Hold short runway 29, runway 36 cleared to land YZU"
+    **DN ADC:** "YZU, traffic is an E120 landing on the crossing runway, hold short runway 29, cleared to land runway 36."
+    <br>**YZU:** "Hold short runway 29, cleared to land runway 36, YZU"
 
     ***Traffic Landing RWY 29***
 
-    **DN ADC:** "ANO407, traffic is a Seminole landing on the crossing runway, will hold short. Runway 29, cleared to land"
+    **DN ADC:** "ANO407, traffic is a Seminole landing on the crossing runway, will hold short. Runway 29 cleared to land"
     <br>**ANO407:** "Runway 29 cleared to land, AN407"
 
 #### Operational Info
