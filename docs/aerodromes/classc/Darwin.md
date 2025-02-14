@@ -47,6 +47,31 @@ d) Runway 11 and Runway 36;
 e) Runway 11 and Runway 18;  
 f) Runway 11 only.  
 
+## LAHSO
+
+LAHSO is the operation of two crossing runways used for arrivals and departures. Tower should give aircraft traffic information about the secondary aircraft landing on the crossing runway. Darwin utilises LAHSO in the runway format of 36A/29AD
+
+!!! phraseology
+    ***Traffic Landing RWY 36***
+
+    **DN ADC:** "YZU, traffic is an E120, landing on the crossing runway, hold short runway 29, runway 36 cleared to land."
+    <br>**YZU:** "Hold short runway 29, runway 36 cleared to land YZU"
+
+    ***Traffic Landing RWY 29***
+
+    **DN ADC:** "ANO407, traffic is a Seminole landing on the crossing runway, will hold short. Runway 29, cleared to land"
+    <br>**ANO407:** "Runway 29 cleared to land, AN407"
+
+#### Operational Info
+When using runway mode 36A/29AD, the ATIS OPR INFO shall include:
+`LAND AND HOLD SHORT OPERATIONS IN PROGRESS`
+
+This allows for the operation of two crossing runways to be used for arrivals, which in turn doubles the arrival capacity of the aerodrome.
+
+!!!note
+    **Due to the complexity of this procedure, LAHSO may only be operated under the approval of VATPAC Staff or C3 rated controllers**
+
+
 ## Non-RNAV Departures
 For non-RNAV approved IFR aircraft with a wake turbulence category of medium or greater, issue a Radar SID  
 For non-RNAV approved IFR aircraft with a wake turbulence category of light, issue a visual departure or Radar SID  
