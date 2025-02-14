@@ -31,6 +31,7 @@ If winds are too great, single runway operations may be necessary (eg, Runway 16
 | 27AD/34D   | 27       | 34 (Via MNG, NONIX, DOSEL and BOGES), 27 (All other deps)        |
 | 16A/27D    | 16 | 27  |
 | 09A/16D    | 09 | 16  |
+| 34A/27AD   | 34 & 27 | 27 |
 
 !!! info
     When utilising the 27AD/34D runway mode, Heavy Aircraft may require Runway 34 for departure due to the shorter length of Runway 27. Assigning Runway 34 to aircraft from the southern apron can also improve aerodrome efficiency due to the reduced taxi distance.
@@ -84,6 +85,7 @@ This permits controllers to assign aircraft either the Alpha or Victor STAR and 
 | 27AD/34D   | 27 FOR ARR, RWY 34 FOR DEPS VIA MNG, NONIX, DOSEL AND BOGES, RWY 27 FOR ALL OTHER DEPS |
 | 16A/27D    | 16 FOR ARR, RWY 27 FOR DEP |
 | 09A/16D    | 09 FOR ARR, RWY 16 FOR DEP |
+| 34A/27AD   | 34 FOR ARR, RWY 27 FOR ARR AND DEP |
 
 ### Operational Info
 #### Independent Crossing Runway Operations
@@ -92,9 +94,36 @@ When using runway mode 09A/16D, the ATIS OPR INFO shall include:
 
 This allows for both Runway 09 and Runway 16 to operate independently of each other, with aircraft departing Runway 16 from Taxiway Echo.
 
+#### LAHSO Procedures
+When using runway mode 34A/27AD, the ATIS OPR INFO shall include:
+`LAND AND HOLD SHORT OPERATIONS IN PROGRESS`
+
+This allows for the operation of two crossing runways to be used for arrivals, which in turn doubles the arrival capacity of the aerodrome.
+
+!!! note
+    LAHSO is a complex procedure, and cannot be operated unless authorized by VATPAC Staff. See [LAHSO](#lahso) for more details on this procedure.
+
 #### ACD Pushback Requests
 When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) procedure, the OPR INFO shall include:  
 `ALL DEPARTURES MUST REQUEST PUSH BACK ON 127.2`  
+
+## LAHSO
+LAHSO is the operation of two crossing runways used for arrivals and departures. Tower should give aircraft traffic information about the secondary aircraft landing on the crossing runway. Melbourne utilises LAHSO in the runway format of 34A27AD
+
+!!! phraseology
+    ***Traffic Landing RWY 34***
+
+    **ML ADC:** "QFA1289, traffic is a Jetstar A320, landing on the crossing runway, hold short runway 27, runway 34 cleared to land."
+    <br>**QFA1289:** "Hold short runway 27, runway 34 cleared to land QFA1289"
+
+    ***Traffic Landing RWY 27***
+
+    **ML ADC:** "JST712, traffic is a Qantas 737 landing on the crossing runway, will hold short. Runway 27, cleared to land"
+    <br>**JST712:** "Runway 27 cleared to land, JST712"
+
+
+!!!note
+    **Due to the complexity of this procedure, LAHSO may only be operated under the approval of VATPAC Staff or C3 rated controllers**
 
 ## Miscellaneous
 ### Sunbury Corridor
