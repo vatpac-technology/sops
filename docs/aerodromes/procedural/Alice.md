@@ -8,7 +8,7 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | ---------------- |
 | **Alice Springs ADC** | **Alice Tower** | **118.300** | **AS_TWR** |
-| Alice Springs ATIS |  | 123.000 | YBAS_ATIS |
+| **Alice Springs ATIS** |  | **123.000** | **YBAS_ATIS** |
 
 ## Airspace
 AS ADC is responsible for the Class D airspace `SFC` to `A045`, as well as the Class C airspace `A045` to `A065`, within the AS CTR.
@@ -27,7 +27,7 @@ Surveillance coverage can be expected to be available at all levels in the AS CT
 ### Departures
 Departures from YBAS in to ASP Class C will be coordinated when ready for departure.
 
-!!! example
+!!! phraseology
     <span class="hotline">**AS ADC** -> **ASP**</span>: "Next, QFA797"  
     <span class="hotline">**ASP** -> **AS ADC**</span>: "QFA797, Unrestricted"  
     <span class="hotline">**AS ADC** -> **ASP**</span>: "QFA797"
@@ -37,7 +37,7 @@ The Standard Assignable level from AS ADC to ASP is the lower of `A070` or the `
 ### Arrivals/Overfliers
 ASP will heads-up coordinate all arrivals/overfliers to AS ADC
 
-!!! example
+!!! phraseology
     <span class="hotline">**ASP** -> **AS ADC**</span>: "Via SADEL, QFA1956”  
     <span class="hotline">**AS ADC** -> **ASP**</span>: "QFA1956"  
 

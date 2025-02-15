@@ -30,13 +30,21 @@ Most major aerodrome SOP pages include guidance on preferred runway modes, which
     The [Sydney Aerodrome SOPs](../../aerodromes/Sydney/#runway-modes) dictate that the preferred runway mode is SODROPS (runway 34L for arrivals, runway 16L for departures), however a note below indicates the reduced capacity achievable with this mode and recommends PROPS where traffic levels are expected to be high.
 
 #### Non-Standard Runway Modes
-The usage of non-standard runway modes is **strongly not recommended**, unless approved by a Senior Controller for use in major events. Non-Standard runway modes can cause unintended conflicts in TCU and Enroute airspace that may only slightly reduce an ADC controller's workload, but *dramatically* increase that of the affected TCU or Enroute controller.
+The usage of non-standard runway modes is **strongly discouraged**, unless approved by a Senior Controller for use in major events. Non-Standard runway modes can cause unintended conflicts in TCU and Enroute airspace that may only slightly reduce an ADC controller's workload, but *dramatically* increase that of the affected TCU or Enroute controller.
 
 !!! example
-    At YMML, one of the Preferred Runway Modes is 16A27D. If ADC were to add 16 as a departure runway (16AD27D), this may allow them to get more aircraft to depart. However, Subsequent departures from Runway 16, then via 27, both assigned a DOSEL SID, would be pointed directly at each other in TCU airspace, with no separation assurance. This creates a high workload environment for the TCU controller.
+    At YMML, one of the Preferred Runway Modes is 16A27D. If ADC were to add 16 as a departure runway (16AD27D), this may allow them to get more aircraft to depart. However, subsequent departures from Runway 16, then via 27, both assigned a DOSEL SID, would be pointed directly at each other in TCU airspace, with no separation assurance. This creates a high workload environment for the TCU controller.
 
 #### Traffic Flow
 Where the published SOPs don't include guidance on preferred runway modes, or the situation you are faced with differs from those catered for by the SOPs, consider how you can maximise runway efficiency to handle the current traffic scenario. Remember to be mindful of the impact of the current wind & weather conditions, and any operational pressure the chosen configuration might have on any surrounding controllers.
+
+#### Pilot Requests
+Where a pilot requests to use a runway not nominated on the ATIS, try to be accommodating without delaying or disadvantaging other aircraft. Most commercial aircraft have crosswind and tailwind component limits much higher than those which limit runway selection by a controller, so a pilot may wish to depart with a tailwind or crosswind to minimise airborne tracking. In a similar manner, pilots may wish to depart from alternate runways (such as runway 16R at YSSY, instead of runway 16L) to reduce their taxi time.
+
+During periods of low traffic volume, there is likely to be little consequence to other airspace users, however during busy periods, these requests are likely to significantly increase the workload of yourself or surrounding controllers, and may not be available. However, pilots will greatly appreciate any effort you can put into accommodating their reasonable requests.
+
+!!! note
+    If a pilot is warned about a potential hazard (such as a strong tailwind) and is still happy to accept the runway assignment, you may allow them to depart from, or arrive to, a runway not specified on the ATIS.
 
 ## Approach Types
 The controller in charge of the ATIS must nominate an approach expectation to allow pilots to prepare themselves and their aircraft as required. Since this decision largely affects the TMA controller, it is a good idea to discuss this with them.
@@ -59,7 +67,7 @@ If the cloud base or visibility does not allow for visual approaches, an instrum
 ## Runway Changes
 Whilst runway changes have minimal impact on aerodrome controllers, they can drastically increase the workload for TMA controllers and have large flow on effects for enroute controllers. All runway changes should (where possible) be carefully planned and communicated, to ensure all surrounding sectors are aware of the impending change.
 
-!!! important
+!!! warning "Important"
     Runway changes involve all types of controllers (from Delivery to Enroute), so a large amount of coordination is required. All coordination should be done on a **point-to-point** basis, so remember to pass on any relevant details to any controllers above/around you as necessary.
 
     E.g. ADC talks to TMA, then TMA talks to ENR, then ENR talks to any subsectors/surrounding sectors as required.
@@ -69,7 +77,7 @@ The aerodrome controller in charge of the ATIS should frequently check the METAR
 
 Discuss the event with the overlying TMA controller/s and nominate a time from which the new runway configuration will be used. It can be helpful to identify the last arrival who will use the current runway mode, so that both Tower and Approach have a definite change point. Once this coordination has been completed, update the ATIS and include an expectation of a runway change in the `OPR INFO` field. This should include the expected time of change and the new runway mode to be used. The TMA controller should coordinate with Enroute, who will amend any STAR clearances for aircraft projected to land after the nominated time.
 
-!!! example
+!!! phraseology
     <span class="hotline">**SY ADC** -> **SAN**</span>: "The tailwind component is starting to increase a bit and the TAF indicates the wind's going to keep swinging around. Thoughts on changing to runway 34s from time 30?"  
     <span class="hotline">**SAN** -> **SY ADC**</span>: "There's a gap in the sequence in about 20 minutes, lets make it time 45. Last arrival in the runway 16 direction will be QFA553."  
     <span class="hotline">**SY ADC** -> **SAN**</span>: "Copy, changing to 34s at time 45, last arrival runway 16s QFA553."
@@ -126,7 +134,7 @@ There is often confusion about how to handle helicopter operations at a controll
 ### Runways & Manoeuvring Area
 The aerodrome controllers 'own' the pavement on all runways and any taxiways or other areas defined as the 'manoeuvring area'. Aircraft require explicit takeoff and landing clearances to operate from these areas.
 
-!!! example
+!!! phraseology
     **SY ADC**: "RSCU209, runway 16L, cleared to land"
 
     **AD ADC**: "YOE, taxiway A2, cleared for takeoff"
@@ -134,7 +142,7 @@ The aerodrome controllers 'own' the pavement on all runways and any taxiways or 
 ### Other Locations
 Areas outside of the manoeuvring area are beyond the jurisdiction of the aerodrome controllers. However, since these aerodromes exist in a CTR (with controlled airspace down to the surface), a clearance is required to operate in the airspace itself. ATC is not able to issue explicit takeoff and landing clearances (as they don't own the ground on which the aircraft wishes to takeoff/land), so issue a requirement to report airborne or on the ground.
 
-!!! example
+!!! phraseology
     **SY ADC**: "HSZ, hotel 6, report on the ground"  
 
     **SY ADC**: "HWD, report airborne"

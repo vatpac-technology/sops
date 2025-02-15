@@ -8,13 +8,15 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Yarrowee** | **Melbourne Centre** | **134.325** | **ML-YWE_CTR** |
-| Wonthaggi† | Melbourne Centre | 135.300 | ML-WON_CTR |
-| Mungo† | Melbourne Centre | 132.600 | ML-MUN_CTR |
-| Oxley† | Melbourne Centre | 128.500 | ML-OXL_CTR |
-| Griffith† | Melbourne Centre | 122.750 | ML-GTH_CTR |
-| Katoomba† | Melbourne Centre | 133.500 | ML-KAT_CTR |
+| <span class="indented">Wonthaggi :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 135.300 | ML-WON_CTR |
+| <span class="indented">Mungo :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 132.600 | ML-MUN_CTR |
+| <span class="indented">Oxley :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 128.500 | ML-OXL_CTR |
+| <span class="indented">Griffith :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 122.750 | ML-GTH_CTR |
+| <span class="indented">Katoomba :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 133.500 | ML-KAT_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
 
@@ -33,6 +35,10 @@ The CPDLC Station Code is `YYWE`.
 ![Yarrowee Airspace](../assets/ywe.png){ width="700" }
   <figcaption>Yarrowee Airspace</figcaption>
 </figure>
+
+## Extending
+!!! warning "Important"
+    Due to the large geographical area covered by this sector and it's neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
 
 ## Sector Responsibilities
 ### Yarrowee (YWE)
@@ -85,6 +91,12 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 The Vertical limits of the ML TCU are `SFC` to `F245`.
 
 Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
+
+!!! note
+    ML TCU is responsible for a small wedge of **Class E** airspace (`A015`-`A045`) that sticks out in to WON, just south of YMAV, as shown below  
+    ![ML TCU Wedge](../assets/mavsouth.png){ width="500" }
+    <figcaption>ML TCU Wedge</figcaption>
+    </figure>
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:

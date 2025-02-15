@@ -11,7 +11,7 @@
 | **East Sale ADC**      | **East Sale Tower**    | **118.300**          | **ES_TWR**                       |
 | **East Sale SMC**      | **East Sale Ground**   | **127.250**          | **ES_GND**                       |
 | **East Sale ACD**      | **East Sale Delivery** | **134.100**          | **ES_DEL**                       |
-| East Sale ATIS     |                    | 125.40           | YMES_ATIS                    |
+| **East Sale ATIS**     |                    | **125.40**           | **YMES_ATIS**                    |
 
 ## Airspace
 ES ADC owns no airspace. Release may be available from ES APP for circuits.
@@ -127,7 +127,7 @@ Lanes are defined by GNSS waypoints situated at 12, 35, and 50 NM from YMES AD.
 
 Aircraft departing ESL military airspace may be instructed to track via a lane at or below `F160`.
 
-!!! example
+!!! phraseology
     **BRCT21** is departing East Sale via the Eastern Lane at FL110 to Orbost (YORB). The departure clearance would be issued as follows:
     **ES SMC** -> **BRCT21**: "BRCT21 CLEARED TO YORB, VIA EASTERN LANE, FPR, FL110, SQUAWK 1234, DEPARTURES 123.3"
 
@@ -142,14 +142,14 @@ Aircraft departing ESL military airspace may be instructed to track via a lane a
 ### Auto Release
 Auto release is not utilised at East Sale. 'Next' coordination is required from ES ADC to ES TCU for all aircraft.
 
-!!! example
+!!! phraseology
     <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Next, ASY01, runway 09"  
     <span class="hotline">**ES TCU** -> **ES ADC**</span>: "ASY01, Assigned Heading Left 030, unrestricted"  
     <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Left Heading 030, ASY01" 
 
 Helicopters departing from helicopter spots will be treated as if departing from the duty runway.
 
-!!! example
+!!! phraseology
     *PSDN14 is a VFR helicopter departing from the threshold of RWY04 (in the direction of runway 27)*  
     <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Next, PSDN14, runway 27"  
     <span class="hotline">**ES TCU** -> **ES ADC**</span>: "PSDN14, right turn, unrestricted"  

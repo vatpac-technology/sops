@@ -22,7 +22,7 @@ Links that navigate a user through the SOPs site can follow the normal Markdown 
     [External Link](https://vatpac.org){target=new}
     ```
 
-!!! warning
+!!! warning "Important"
     All external links should use the `https` protocol.
 
 ### Buttons
@@ -39,6 +39,9 @@ Images also use the default markdown syntax, but can have some additional proper
   - `width="xxx"`: Changes the width of an image, where `xxx` is the width in pixels.
 
 You can also add multiple properties together, with a space between the attributes.
+
+!!! warning "Important"
+    All images should be optimised for the web. This can be done easily using a service like [tinify](https://tinypng.com){ target=new }.
 
 #### Image Captions
 
@@ -64,6 +67,11 @@ Admonitions are enabled and are very handy for delivering extra information that
 
 
 You can see a list of [all admonition blocks here](https://squidfunk.github.io/mkdocs-material/reference/admonitions/){target=new}.
+
+!!! warning "Important"
+    To fit the styling of the site, do not use the default `!!! important` admonition. All **Important** blocks should be formatted as a *Warning* block, with a custom title.
+
+    `!!! warning "Important"`
 
 !!! note
     Never use collapsible blocks - if it needs the additional information drawn to it, it should be displayed all the time.

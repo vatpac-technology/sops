@@ -8,13 +8,15 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Tasman** | **Brisbane Radio** | **124.650 (17.904)** | **BN-TSN_FSS** |
-| Coral† | Brisbane Radio | 133.150 (6.556) | BN-COL_FSS |
-| Flinders† | Brisbane Radio | 133.150 (13.318) | BN-FLD_FSS |
-| *Howe†^* | *Brisbane Centre* | *124.950* | *BN-HWE_CTR* |
-
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+| <span class="indented">Coral :material-information-outline:{ title="Non-standard position"} | Brisbane Radio | 133.150 (6.556) | BN-COL_FSS |
+| <span class="indented">Flinders :material-information-outline:{ title="Non-standard position"} | Brisbane Radio | 133.150 (13.318) | BN-FLD_FSS |
+| <span class="indented">*Howe :material-information-outline:{ title="Non-standard position"}^* | *Brisbane Centre* | *124.950* | *BN-HWE_CTR* |
 
 ^ Refer to [Howe](#howe-hwe)
+
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
 The Primary Communication Method for TSN is [CPDLC](../../../client/cpdlc).
@@ -45,7 +47,7 @@ Limited surveillance coverage exists for aircraft in CTA greater than **250nm** 
 The COL subsector includes the AGGG and ANAU FIRs. These FIRs **do not** have their own positions, and **cannot** be split off from COL.
 
 ## Extending
-!!! Warning
+!!! warning "Important"
     TSN (and its subsectors) are **not permitted** to extend to any adjacent Domestic/International sectors
 
 ## STAR Clearance Expectation
@@ -65,21 +67,21 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 ### TSN Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
 
-!!! important
+!!! warning "Important"
     Aircraft separated by a surveillance separation standard must be re-established at an applicable procedural standard prior to handoff to a procedural enroute sector. 
 
 Aircraft leaving HWE in it's surveillance configuration must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
 
-!!! example
+!!! phraseology
     **HWE**: "UAE845, identification terminated, report position to Brisbane Radio, 124.65"
 
 ### Pacific Oceanic + AYPM
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
 
-!!! important
+!!! warning "Important"
     Aircraft separated by a surveillance separation standard must be re-established at an applicable procedural standard prior to handoff to a procedural enroute sector. Aircraft entering VATNZ airspace on the same track must be either vertically separated or laterally separated by a 10 minute longitudinal standard prior to handoff.
 
 Aircraft leaving HWE in it's surveillance configuration must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
 
-!!! example
+!!! phraseology
     **HWE**: "QFA121, identification terminated, report position to Auckland Radio, 129.0"

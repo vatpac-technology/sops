@@ -9,10 +9,12 @@
 | Name               | ID      | Callsign       | Frequency        | Login ID              |
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
 | **Cairns Approach 1**    |**CS1**| **Cairns Approach**   | **118.400**         | **CS_APP**          |
-| Cairns Approach 2†    |CS2| Cairns Approach  | 126.100         | CS-W_APP          |
-| Cairns Flow†        |CSF|                |          | CS_FMP                              |
+| <span class="indented">Cairns Approach 2 :material-information-outline:{ title="Non-standard position"}    |CS2| Cairns Approach  | 126.100         | CS-W_APP          |
+| <span class="indented">Cairns Flow :material-information-outline:{ title="Non-standard position"}        |CSF|                |          | CS_FMP                              |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
 The vertical limits of the CS TCU are `SFC` to `F180`. **CS ADC** is responsible for the airspace within the CS CTR from `SFC` to `A010`.
@@ -36,9 +38,7 @@ The divisions of the airspace between **CS1** and **CS2** change based on the ru
 </figure>
 
 ## Departure Procedures
-
 ### IFR Departures
-
 IFR aircraft shall be processed via one of the following SIDs:
 
 a) RWY 15, Jets via AKROM: AKROM SID. Non-Jets via NONUM: NONUM SID  
@@ -76,7 +76,7 @@ When VMC exists below `A030`, aircraft of light & medium weight categories (B737
 #### Creek Corridor
 Aircraft for runway 15 will be cleared via the Victor STAR by enroute, which terminates on the Creek Corridor visual procedure (see YBCS DAP Noise Abatement Procedures chart). These aircraft should be cleared for a visual approach *"via the Creek Corridor"* and transferred to ADC prior to reaching the coastline.
 
-!!! example
+!!! phraseology
     *RXA5474 is tracking via the NONUM Victor STAR for runway 15.*  
     **RXA5474**: "RXA5474, visual"  
     **CS TCU**: "RXA5474, cleared visual approach tracking via the Creek Corridor"  
@@ -87,7 +87,7 @@ Aircraft for runway 33 may be cleared for a visual approach tracking via the STA
 
 Aircraft cleared via the KEEWI Victor STAR or otherwise approaching from the north shall be instructed to track for a visual right base and, once clear of departing traffic, assigned `A020 visual`. These aircraft will pass over the top of the CS CTR (owned by ADC), so further descent is not available. CS TCU must coordinate with ADC, then transfer them to ADC, who will issue visual approach clearance.
 
-!!! example
+!!! phraseology
     *JCI is tracking inbound from the north at `A050` and has reported visual.*  
     <span class="hotline">**TCU** -> **ADC**</span>: "Via right base, JCI, will be assigned A020 visual"  
     <span class="hotline">**ADC** -> **TCU**</span>: "A020 visual, JCI" 
@@ -117,7 +117,7 @@ CS ADC is responsible for the Class C Airspace within the CS CTR `SFC` to `A010`
 - Assigned the standard assignable level; and  
 - Assigned a **Procedural** SID
 
-!!! example
+!!! phraseology
     <span class="hotline">**ADC** -> **TCU**</span>: "Next, RXA5417, runway 15"  
     <span class="hotline">**TCU** -> **ADC**</span>: "RXA5417, heading 030, unrestricted"  
     <span class="hotline">**ADC** -> **TCU**</span>: "Heading 030, RXA5417"
@@ -134,7 +134,7 @@ The controller assuming responsibility of **CS ACD** shall give heads-up coordin
 - VFR Departures  
 - Aircraft using a runway not on the ATIS
 
-!!! example
+!!! phraseology
     <span class="coldline">**CS ACD** -> **CS TCU**</span>: "ABC, Requesting clearance for a Northbound VFR Coastal departure at A035"  
     <span class="coldline">**CS TCU** -> **CS ACD**</span>: "ABC, Cleared for a Northbound VFR Coastal departure, A035"  
     <span class="coldline">**CS ACD** -> **CS TCU**</span>: "Cleared for a Northbound VFR Coastal departure, A035, ABC"  
@@ -154,7 +154,7 @@ Voiceless for all aircraft:
 
 All other aircraft going to KEN CTA must be **Heads-up** Coordinated by CS TCU prior to the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**CS TCU** -> **KEN**</span>: "JST789, with your concurrence, will be assigned F160, for my separation with ANZ12"  
     <span class="hotline">**KEN** -> **CS TCU**</span>: "JST789, concur F160"  
 
@@ -168,3 +168,12 @@ Voiceless for all aircraft:
   - Radials 355° clockwise to 055°: `A090`
 
 All other aircraft coming from KEN CTA will be **Heads-up** Coordinated to CS TCU.
+
+### CS TCU Internal
+All aircraft transiting between internal CS TCU boundaries must be heads-up coordinated.
+
+!!! phraseology
+    <span class="hotline">**CS1** -> **CS2**</span>: "via CS, ESQ"  
+    <span class="hotline">**CS2** -> **CS1**</span>: "ESQ, A025"   
+
+Boundary coordination is not required between CS1 and CS2 for aircraft arriving or departing tracking via the 15/33 extended centreline.

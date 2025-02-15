@@ -10,7 +10,7 @@
 | ---- | -------- | --------- | ---------------- |
 | **Rockhampton ADC** | **Rocky Tower** | **118.100** | **RK_TWR** |
 | **Rockhampton SMC** | **Rocky Ground** | **121.800** | **RK_GND** |
-| Rockhampton ATIS |    | 128.500 | YBRK_ATIS |
+| **Rockhampton ATIS** |    | **128.500** | **YBRK_ATIS** |
 
 ## Airspace
 RK ADC is responsible for the Class D airspace in the RK CTR `SFC` to `A010`.
@@ -30,7 +30,7 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
   c) Assigned a **Procedural** SID; or  
   d) Not entering RKA CTA
 
-!!! example
+!!! phraseology
     <span class="hotline">**RK ADC** -> **RKA**</span>: "Next, VJE"  
     <span class="hotline">**RKA** -> **RK ADC**</span>: "VJE, Track Extended Centreline, Unrestricted"  
     <span class="hotline">**RK ADC** -> **RKA**</span>: "Track Extended Centreline, VJE"
@@ -50,6 +50,6 @@ RKA will heads-up coordinate arrivals/overfliers from Class C to RK ADC.
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to RK ADC, unless RK ADC nominates a restriction.  
 VFR aircraft require a level readback.
 
-!!! example
+!!! phraseology
     <span class="hotline">**RKA** -> **RK ADC**</span>: "Via SARUS for the visual approach, VJN”  
     <span class="hotline">**RK ADC** -> **RKA**</span>: "VJN, visual approach"  

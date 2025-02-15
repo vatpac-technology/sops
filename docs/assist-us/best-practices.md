@@ -25,7 +25,7 @@ All links that navigate a user away from the SOPs site should have `{target=new}
     [External Link](https://vatpac.org){target=new}
     ```
 
-!!! warning
+!!! warning "Important"
     All external links should use the `https` protocol.
 
 ## Sector Names
@@ -44,18 +44,18 @@ Describe any altitudes in the format of `Axxx` (for altitudes below 10,000ft) or
 It is recommended to include an example highlighting any unique or lesser-known radio calls which apply to a procedure, and to indicate any coordination requirements associated with a position.  
 
 ### Radio Calls
-Radio calls should take the following format:  
+Radio calls should be wrapped in a **Phraseology** admonition and take the following format:  
 
 ``` md
 **STATION NAME**: "Message"
 ```
 
-!!! example
+!!! phraseology
     **VOZ1545**: "VOZ1545, request descent"  
     **HUO**: "VOZ1545, descend to FL130" 
 
 ### Coordination
-Coordination examples should take the following format:  
+Coordination examples should generally be wrapped in a **Phraseology** admonition and take the following format:  
 
 ``` md
 **INITIATING SECTOR** -> **RECEIVING SECTOR**: "Message"
@@ -73,7 +73,7 @@ As a general rule of thumb, hotlines should be used in all circumstances, except
 - Oceanic coordination  
 - Airways clearance requests from ACD to overlying TCU/ENR position (e.g. Sydney Delivery requesting clearance to YSBK on behalf of an aircraft)
 
-!!! example
+!!! phraseology
     <span class="coldline">**NW TCU** -> **WOL**</span>: "Taxi, PSDN18 for YMCO via URBOB, Requesting F130"  
     <span class="coldline">**WOL** -> **NW TCU**</span>: "PSDN18, F130"  
     <span class="coldline">**NW TCU** -> **WOL**</span>: "F130, PSDN18" 
