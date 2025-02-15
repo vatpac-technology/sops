@@ -230,7 +230,7 @@ Unless operationally required, aircraft shall be assigned the following runways 
     | ------| ---- | --------|
     | Jet  | OLSEM<br>WOL | **FISHA** SID, Relevant Transition |
     | Jet  | All others | **FISHA** SID, RADAR Transition |
-    | Non-Jet| All       | **RADAR** SID |
+    | Non-Jet | All       | **RADAR** SID |
 
 === "Runway 16L"
 
@@ -274,8 +274,11 @@ Unless operationally required, aircraft shall be assigned the following runways 
     | Jet  | All others | **MARUB** SID, RADAR Transition |
     | Non-Jet | All | **RADAR** SID |
 
+!!! warning "Important"
+    Some jet aircraft may require the use of the **RADAR** SID and will communicate this requirement when requesting airways clearance (see [Climb Gradient Requirements](#climb-gradient-requirements)).
+
 ### Climb Gradient Requirements
-Climb Gradient Requirements apply to all Procedural SIDs. It is the pilot's responsibility to advise if they are unable to meet these requirements. Pilots that advise this can be assigned a **RADAR** SID instead.
+Climb gradient requirements apply to all Procedural SIDs. It is the pilot's responsibility to advise if they are unable to meet these requirements. Pilots that advise this shall be assigned the **RADAR** SID instead, regardless of aircraft type.
 
 ## ATIS
 ### Approach Types
