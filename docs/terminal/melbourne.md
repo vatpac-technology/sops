@@ -111,6 +111,12 @@ VFR YMEN Arrivals from ML TCU shall be cleared via any of the following arrival 
 - SNP
 - WES
 
+### LAHSO
+With LAHSO in use, ADC will visually separate all relevant aircraft during their final approach and in the event of a go around. TCU controllers shall ensure that simultaneous arrivals are laterally segregated where possible, so that their flightpaths do not conflict in the event of a go around.
+
+!!! note
+    Due to its operational complexity, LAHSO **must be authorised by a member of the VATPAC ATS or Events Staff Team or a C3-rated controller**.
+
 ## Offline Towers
 ### EN ADC Offline
 !!! tip
