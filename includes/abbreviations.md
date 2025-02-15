@@ -77,6 +77,7 @@
 *[MAE]: Melbourne Approach East
 *[MDN]: Melbourne Departures North
 *[MDS]: Melbourne Departures South
+*[MAV]: Melbourne (Avalon) Approach
 *[PHA]: Perth Approach
 *[PHD]: Perth Departures
 *[SAN]: Sydney Approach North
@@ -205,6 +206,7 @@
 *[CARR]: Carrum
 *[GMH]: GMH (General Motors Holden)
 *[ACE]: Academy
+*[SHOL]: Shoal
 *[CWST]: Choppers West
 *[CNTH]: Choppers North
 *[CSTH]: Choppers South
@@ -258,6 +260,8 @@
 *[PWLC]: Powerline Crossing
 *[LUY]: Latrobe University
 *[WMS]: Williamstown
+*[NPBR]: Nepean Bridge
+*[KRMD]: Kurmond
 *[YBBB]: Brisbane FIR
 *[YMMM]: Melbourne FIR
 *[NFFF]: Nadi FIR
@@ -295,6 +299,9 @@
 *[WSL]: West Sale
 *[RAAF]: Royal Australian Air Force
 *[TERMA]: Terminal Area Radar and Military Airspace
+*[SWTA]: South Western Training Area
+*[MTWK]: Mount Walker
+*[CLVT]: Calvert
 *[MNG]: Mangalore
 *[LTV]: Latrobe Valley
 *[AY]: Albury
@@ -305,3 +312,16 @@
 *[CPDLC]: Controller-Pilot Datalink Communications
 *[LDA]: Landing Distance Available
 *[TORA]: Takeoff Run Available
+*[BLHS]: Bald Hills
+*[MBHM]: Manly Boat Harbour
+*[MARSA]: Military Authority Assumes Responsibility for Separation of Military Aircraft
+*[NOCOM]: Non-Continuous Communication
+*[AEWC]: Airborne Early Warning and Control
+*[NEN]: Nerang
+*[STOT]: Stotts Island
+*[HASS]: Hastings Point
+*[CIS]: Cook Island
+*[DNGR]: Point Danger
+*[BLGH]: Burleigh Heads
+*[ROTC]: Robina Town Centre
+*[CGD]: Cudgen Headland

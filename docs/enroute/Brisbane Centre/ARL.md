@@ -8,13 +8,15 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Armidale** | **Brisbane Centre** | **130.900** | **BN-ARL_CTR** |
-| Mudgee† | Brisbane Centre | 133.000 | BN-MDE_CTR |
-| Cessnock† | Brisbane Centre | 123.400 | BN-CNK_CTR |
-| Manning† | Brisbane Centre | 130.100 | BN-MNN_CTR |
-| Maitland† | Brisbane Centre | 132.350 | BN-MLD_CTR |
-| Ocean† | Brisbane Centre | 128.600 | BN-OCN_CTR |
+| <span class="indented">Mudgee :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 133.000 | BN-MDE_CTR |
+| <span class="indented">Cessnock :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 123.400 | BN-CNK_CTR |
+| <span class="indented">Manning :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 130.100 | BN-MNN_CTR |
+| <span class="indented">Maitland :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 132.350 | BN-MLD_CTR |
+| <span class="indented">Ocean :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 128.600 | BN-OCN_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
 
@@ -88,7 +90,7 @@ Sequencing arrivals from the north/east into YSSY is a joint responsibility of t
 
 Aircraft from the north/east shall be assigned **runway 16L/34R** during PROPS. However, some situations may warrant the use of the main runway (16R/34L), such as heavy aircraft operationally requiring the longer runway or large volumes of traffic requiring the use of both runways to minimise delay. In this case, coordination must be conducted with Melbourne Centre or Sydney Flow (if operating) to ensure that the sequence is built in an efficient and orderly way.
 
-!!! example
+!!! phraseology
     <span class="hotline">**ARL** -> **BIK**</span>: "North of Sydney, CPA21, with your concurrence will be assigned runway 34L due operational requirement"  
     <span class="hotline">**BIK** -> **ARL**</span>: "Concur, CPA21 runway 34L, required landing time 43 due sequence from the west"  
     <span class="hotline">**ARL** -> **BIK**</span>: "Runway 34L, landing time 43, CPA21"
@@ -103,11 +105,11 @@ Non-jet aircraft for YSSY shall be assigned the **MEPIL** STAR.
 
     In this case, coordination should be conducted to ensure that both controllers agree and no additional conflicts are created as a result (particularly with aircraft inbound from the south/west).
 
-!!! example
-    **BIK:** "RXA6417, amended tracking and STAR available"  
+!!! phraseology
+    **ARL:** "RXA6417, amended tracking and STAR available"  
     **RXA6417:** "RXA6417, go ahead"  
-    **BIK:** "RXA6417, recleared direct BOREE for the BOREE3A arrival, runway 34L, maintain F180"  
-    **RXA6417:** "Recleared direct BOREE for the BOREE3A arrival, runway 34L, maintain F180, RXA6417"
+    **ARL:** "RXA6417, recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain FL180"  
+    **RXA6417:** "Recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain FL180, RXA6417"
 
 #### Adjacent Feeder Fixes
 Aircraft assigned the **same runway** inbound via **BOREE** and **MEPIL**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
@@ -193,7 +195,7 @@ Refer to [Reclassifications](#tw-ctr) for operations when TW ADC is offline.
 #### Departures
 Departures from YSTW in to ARL/MDE Class C will be coordinated when ready for departure.
 
-!!! example
+!!! phraseology
     <span class="hotline">**TW ADC** -> **MDE**</span>: "Next, SKV"  
     <span class="hotline">**MDE** -> **TW ADC**</span>: "SKV, Unrestricted"  
     <span class="hotline">**TW ADC** -> **MDE**</span>: "SKV"  
@@ -203,7 +205,7 @@ The Standard Assignable level from **TW ADC** to ARL/MDE is the lower of `A070` 
 #### Arrivals
 YSTW arrivals shall be heads-up coordinated to **TW ADC** from ARL/MDE prior to **5 mins** from the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**ARL** -> **TW ADC**</span>: "QLK6D, via MATLA DCT STWWD"  
     <span class="hotline">**TW ADC** -> **ARL**</span>: "QLK6D"  
 
@@ -218,7 +220,7 @@ Refer to [Reclassifications](#cfs-ctr) for operations when CFS ADC is offline.
 #### Departures
 Departures from YCFS in to MNN Class C will be coordinated when ready for departure.
 
-!!! example
+!!! phraseology
     <span class="hotline">**CFS ADC** -> **MNN**</span>: "Next, CFH21"  
     <span class="hotline">**MNN** -> **CFS ADC**</span>: "CFH21, Unrestricted"  
     <span class="hotline">**CFS ADC** -> **MNN**</span>: "CFH21"  
@@ -228,7 +230,7 @@ The Standard Assignable level from **CFS ADC** to MNN is the lower of `A070` or 
 #### Arrivals
 YCFS arrivals shall be heads-up coordinated to **CFS ADC** from MNN prior to **5 mins** from the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**MNN** -> **CFS ADC**</span>: "Via KADSI, RXA6438"  
     <span class="hotline">**CFS ADC** -> **MNN**</span>: "RXA6438"  
 
@@ -248,7 +250,7 @@ Voiceless for all aircraft:
 
 All other aircraft going to ARL CTA will be **Heads-up** Coordinated by WLM TCU.
 
-!!! example
+!!! phraseology
     <span class="hotline">**WLM TCU** -> **MLD**</span>: "QJE1597, request DCT OMGAB"  
     <span class="hotline">**MLD** -> **WLM TCU**</span>: "QJE1597, concur DCT OMGAB"  
 
@@ -261,7 +263,7 @@ Voiceless for all aircraft:
 
 All other aircraft coming from ARL CTA must be **Heads-up** Coordinated to WLM TCU prior to **20nm** from the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**CNK** -> **WLM TCU**</span>: "QFA1968, request DCT UPTEB"  
     <span class="hotline">**WLM TCU** -> **CNK**</span>: "QFA1968, concur DCT UPTEB"  
 
@@ -270,5 +272,5 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
 
-!!! example
+!!! phraseology
     **ARL**: "QFA121, identification terminated, report position to Brisbane Radio, 126.45"

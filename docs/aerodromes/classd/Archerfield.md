@@ -9,7 +9,7 @@
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Archerfield ADC**  | **Archer Tower**  | **118.100**        | **AF_TWR**                        |
 | **Archerfield SMC**   | **Archer Ground**  | **129.300**         | **AF_GND**                       |
-| Archerfield ATIS        |                | 120.900          | YBAF_ATIS                                |
+| **Archerfield ATIS**        |                | **120.900**          | **YBAF_ATIS**                                |
 
 ## Airspace
 AF ADC is responsible for the Class D airspace in the AF CTR `SFC` to `A015`.
@@ -28,7 +28,7 @@ VFR aircraft should track via a VFR inbound point at `A015` and be instructed as
 | ----------------   | --------- | ------------- | --------- | ---------- |
 | TVT    |  *"Join Base RWY 04L, report CBRG"* | *"Join Base RWY 22R, report CBRG"* | *"Join Final RWY 10L, report CBRG"* | *"Join Downwind RWY 28R, maintain A015, report CBRG"* |
 | GON    |  *"Join Final RWY 04L"*                             | *"Join Downwind RWY 22R, maintain A015"*                          | *"Join Final RWY 10R"* | *"Join Downwind RWY 28L, maintain A015"*        |
-| PKR   |  *"Join Base RWY 04R, report Logan Bridge"*     | *"Join Base RWY 22L, report Logan Bridge"*     | *"Join Base RWY 10R, report Logan Bridge"*  | *"Join Base 28L, report Logan Bridge"*         |
+| PKR   |  *"Join Base RWY 04R, report Logan Motorway"*     | *"Join Base RWY 22L, report Logan Motorway"*     | *"Join Base RWY 10R, report Logan Motorway"*  | *"Join Base 28L, report Logan Motorway"*         |
 | TAR       |  *"Join Base RWY 04R"*                              | *"Join Base RWY 22L"*                              | *"Join Downwind RWY 10R, maintain A015"*       | *"Join Final RWY 28L"*        |
 
 !!! note
@@ -48,7 +48,7 @@ VFR departures will depart the control zone at `A010`.
 
 Aircraft should advise planned Departure Procedure to **AF SMC** with TAXI call and **AF ADC** with READY call.
 
-!!! example
+!!! phraseology
     **VPF:** "Archer Ground, Cherokee VPF is on the Main Apron, solo, Western Departure, received information Alpha, request taxi"
 
     **VPF:** "Archer Tower, Cherokee VPF is B8, runway 10 Left for Western Departure, ready"
@@ -91,7 +91,7 @@ The APCH field should include `EXP INST APCH` when:
 ### Departures
 When aircraft planned via a CTA departure are ready for takeoff and expected to depart imminently, **AF ADC** shall seek release of the aircraft through a 'Next' call.
 
-!!! example
+!!! phraseology
     <span class="hotline">**AF ADC** -> **BN TCU**</span>: "Next, XMM, Runway 10L"  
     <span class="hotline">**BN TCU** -> **AF ADC**</span>: "XMM, Unrestricted"  
     <span class="hotline">**AF ADC** -> **BN TCU**</span>: "XMM"
@@ -104,7 +104,7 @@ IFR aircraft will be cleared for the coordinated approach (Instrument or Visual)
 VFR aircraft require a level readback.
 
 
-!!! example
+!!! phraseology
     <span class="hotline">**BN TCU** -> **AF ADC**</span>: "via TVT for the visual approach, UJE"  
     <span class="hotline">**AF ADC** -> **BN TCU**</span>: "UJE, visual approach"
 

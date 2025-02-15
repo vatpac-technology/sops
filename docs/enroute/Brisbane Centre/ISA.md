@@ -9,12 +9,14 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Isa** | **Brisbane Centre** | **125.700** | **BN-ISA_CTR** |
-| Arafura† | Brisbane Centre | 133.700 | BN-ARA_CTR |
-| Sturt† | Brisbane Centre | 134.400 | BN-STR_CTR |
-| Warrego† | Brisbane Centre | 132.450 | BN-WEG_CTR |
-| Carnarvon† | Brisbane Centre | 133.800 | BN-CVN_CTR |
+| <span class="indented">Arafura :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 133.700 | BN-ARA_CTR |
+| <span class="indented">Sturt :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 134.400 | BN-STR_CTR |
+| <span class="indented">Warrego :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 132.450 | BN-WEG_CTR |
+| <span class="indented">Carnarvon :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 133.800 | BN-CVN_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
 
@@ -34,9 +36,8 @@ Voice may be used in lieu when applicable.
 ISA is responsible for **ARA**, **STR**, **WEG**, and **CVN** when they are offline.  
 
 ## Extending
-
-!!! Warning
-    BN-ISA_CTR is only permitted to extend to adjacent **YBBB** sectors.
+!!! warning "Important"
+    Due to the large geographical area covered by this sector and it's neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
 
 ## Sector Responsibilities
 ISA and its subsectors are purely Classes A, E and G of airspace. [Standard separation procedures](../../../separation-standards) apply.
@@ -84,7 +85,7 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
 
-!!! example
+!!! phraseology
     **ISA**: "QFA121, identification terminated, report position to Brisbane Radio, 126.45"
 
 ### International (AYPM)
@@ -93,6 +94,6 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 ### International (WAAF)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#other-units), Heads-up Coordination required for all aircraft prior to **30 mins** from boundary.
 
-!!! example
+!!! phraseology
     <span class="coldline">**ARA** -> **WAAF CTR**</span>: "Estimate, CEB40, TOREX time 59, F360"  
     <span class="coldline">**WAAF CTR** -> **ARA**</span>: "CEB40, F360"

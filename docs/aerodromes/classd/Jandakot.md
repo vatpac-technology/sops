@@ -10,7 +10,7 @@
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Jandakot ADC**  | **Jandakot Tower**  | **118.100**          | **JT_TWR**                        |
 | **Jandakot SMC**  | **Jandakot Ground**   | **124.300**          | **JT_GND**                       |
-| Jandakot ATIS     |                | 128.650          | YPJT_ATIS                                |
+| **Jandakot ATIS**     |                | **128.650**          | **YPJT_ATIS**                                |
 
 ## Airspace
 JT ADC is responsible for the Class D airspace in the JT CTR `SFC` to `A015`.
@@ -91,7 +91,7 @@ When PH RWY 03 is in operation, the ATIS should include:
 ### Next Call
 When the aircraft is ready for departure, JT ADC will coordinate with the relevant PH TCU controller above them for permission to release the aircraft into their CTA.
 
-!!! example
+!!! phraseology
     <span class="hotline">**JT ADC** -> **PH TCU**</span>: "Next, FD420, runway 24R"  
     <span class="hotline">**PH TCU** -> **JT ADC**</span>: "FD420, Unrestricted"  
     <span class="hotline">**JT ADC** -> **PH TCU**</span>: "FD420"  
@@ -103,7 +103,7 @@ PH TCU will heads-up coordinate arrivals/overfliers from Class C to JT ADC.
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to JT ADC, unless JT ADC nominates a restriction.  
 VFR aircraft require a level readback.
 
-!!! example
+!!! phraseology
     <span class="hotline">**PH TCU** -> **JT ADC**</span>: "via RNAV-Z RWY 06L, FD416, circling to land RWY 24R"  
     <span class="hotline">**JT ADC** -> **PH TCU**</span>: "FD416, RNAV-Z RWY 06L with a circle to land RWY 24R"  
 

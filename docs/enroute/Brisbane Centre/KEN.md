@@ -9,11 +9,13 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Kennedy** | **Brisbane Centre** | **120.150** | **BN-KEN_CTR** |
-| Barra† | Brisbane Centre | 123.800 | BN-BAR_CTR |
-| Tabletop† | Brisbane Centre | 120.550 | BN-TBP_CTR |
-| Swampy† | Brisbane Centre | 133.200 | BN-SWY_CTR |
+| <span class="indented">Barra :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 123.800 | BN-BAR_CTR |
+| <span class="indented">Tabletop :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 120.550 | BN-TBP_CTR |
+| <span class="indented">Swampy :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 133.200 | BN-SWY_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
 
@@ -220,7 +222,7 @@ Refer to [Reclassifications](#hm-ctr) for operations when HM ADC is offline.
 #### Departures
 Departures from YBHM in to SWY Class C will be coordinated when ready for departure.  
 
-!!! example
+!!! phraseology
     <span class="hotline">**HM ADC** -> **SWY**</span>: "Next, QFA797"  
     <span class="hotline">**SWY** -> **HM ADC**</span>: "QFA797, Unrestricted"  
     <span class="hotline">**HM ADC** -> **SWY**</span>: "QFA797"  
@@ -229,7 +231,7 @@ The Standard Assignable level from HM ADC to SWY is the lower of `A050` or the `
 #### Arrivals
 YBHM arrivals shall be heads-up coordinated to **JM ADC** from SWY prior to **5 mins** from the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**SWY** -> **HM ADC**</span>: "Via OPOSI for RNP U RWY 32, JST848”  
     <span class="hotline">**HM ADC** -> **SWY**</span>: "JST848, RNP U RWY 32"  
 
@@ -240,5 +242,5 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
 
-!!! example
+!!! phraseology
     **ISA**: "QFA121, identification terminated, report position to Brisbane Radio, 126.45"

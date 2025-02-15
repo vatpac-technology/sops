@@ -8,10 +8,12 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Eildon Weir** | **Melbourne Centre** | **123.750** | **ML-ELW_CTR** |
-| Benalla† | Melbourne Centre | 132.200 | ML-BLA_CTR |
-| Snowy† | Melbourne Centre | 124.000 | ML-SNO_CTR |
+| <span class="indented">Benalla :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 132.200 | ML-BLA_CTR |
+| <span class="indented">Snowy :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 124.000 | ML-SNO_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
 
@@ -172,7 +174,7 @@ Refer to [Reclassifications](#ay-ctr) for operations when AY ADC is offline.
 #### Departures
 Departures from YMAY in to BLA Class C will be coordinated when ready for departure.
 
-!!! example
+!!! phraseology
     <span class="hotline">**AY ADC** -> **BLA**</span>: "Next, RXA6772"  
     <span class="hotline">**BLA** -> **AY ADC**</span>: "RXA6772, Unrestricted"  
     <span class="hotline">**AY ADC** -> **BLA**</span>: "RXA6772"  
@@ -182,7 +184,7 @@ The Standard Assignable level from **AY ADC** to BLA is the lower of `A070` or t
 #### Arrivals
 YMAY arrivals shall be heads-up coordinated to **AY ADC** from BLA prior to **5 mins** from the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**BLA** -> **AY ADC**</span>: "via VEGRU1 arrival, QLK38"  
     <span class="hotline">**AY ADC** -> **BLA**</span>: "QLK38, VEGRU1 arrival" 
 
@@ -193,5 +195,5 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
 
-!!! example
+!!! phraseology
     **ELW**: "QFA121, identification terminated, report position to Brisbane Radio, 124.65"

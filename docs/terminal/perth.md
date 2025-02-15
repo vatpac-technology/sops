@@ -7,10 +7,12 @@
 | Name | ID | Callsign | Frequency | Login ID |
 | -----| -- | -------- | --------- | ---------------- |
 | **Perth Approach** |**PHA**| **Perth Approach**  | **123.600** | **PH_APP**| 
-| Perth Departures†  |PHD| Perth Departures  | 118.700 | PH_DEP |
-| Perth Flow† | PFL |   |    | PH_FMP  |
+| <span class="indented">Perth Departures :material-information-outline:{ title="Non-standard position"}  |PHD| Perth Departures  | 118.700 | PH_DEP |
+| <span class="indented">Perth Flow :material-information-outline:{ title="Non-standard position"} | PFL |   |    | PH_FMP  |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
 The PH TCU is responsible for the airspace within 36 DME of the PH VOR, `SFC` to `F245`.  
@@ -74,7 +76,7 @@ Other levels are available at the discretion of the TCU controller but coordinat
 
 Aircraft wishing to conduct a scenic flight over the Perth CBD should be cleared via the Victor 65 route. **No lateral separation standard exists between Victor 65 and the extended centreline of runway 06/24**, so controllers must ensure that an alternative form of separation assurance exists.
 
-!!! example
+!!! phraseology
     **VH-CYF:** "Perth Approach, CYF, Cessna 172, overhead FREM, A015, received Bravo, request Victor 65"  
     **PHA:** "CYF, squawk 0542, remain clear of class C airspace"  
     **VH-CYF:** "Squawk 0542, remain OCTA, CYF"  
@@ -85,10 +87,11 @@ Aircraft wishing to conduct a scenic flight over the Perth CBD should be cleared
 
 Aircraft departing YPPH and intending to conduct the Victor 65 route will be coordinated by **PH ACD**. See [Airways Clearances](#airways-clearances).
 
-## JT/PEA ADC Offline
+## Offline Towers
+### JT/PEA ADC Offline
 Due to the low level of CTA at these aerodromes, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
-!!! example
+!!! phraseology
     **AAC**: "Perth Approach, AAC, PC12, POB 8, IFR, Taxiing YPJT for YPKG, Runway 06L"  
     **PHA**: "AAC, Perth Approach, Squawk 3601, No Reported IFR Traffic, Report Ready at the Holding Point for Airways Clearance"  
     **AAC**: "Squawk 3601, Wilco, AAC"   
@@ -97,15 +100,14 @@ Due to the low level of CTA at these aerodromes, it is best practice to give air
     **PHA**: "AAC, Cleared to YPKG via PH, Flight Planned Route. Make Visual Right turn DCT PH, Climb to A040"  
     **AAC**: "Cleared to YPKG via PH, Flight Planned Route. Make Visual Right turn DCT PH, Climb to A040, AAC"
 
-## Departure Procedures
+### Departure Procedures
 Aircraft departing the TMA to the south planned at `F130` or above will likely leave and re-enter CTA on climb. These aircraft should be instructed to leave and re-enter on climb to the standard assignable level (or other level as appropriate).
 
-!!! example
+!!! phraseology
     **PHD**: "RXA2125, leave and re-enter controlled airspace on climb to F180, no reported IFR traffic"  
     **RXA2125**: "Leave and re-enter controlled airspace on climb to F180, RXA2125"
 
 ## Coordination
-
 ### Enroute
 #### Departures
 Voiceless for all aircraft:
@@ -118,7 +120,7 @@ Voiceless for all aircraft:
 
 All other aircraft going to PIY CTA must be **Heads-up** Coordinated by PH TCU prior to the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**PH TCU** -> **PIY**</span>: "PFY9916, with your concurrence, will be assigned F130, for my separation with JTE654"  
     <span class="hotline">**PIY** -> **PH TCU**</span>: "PFY9916, concur F130"  
 
@@ -140,7 +142,7 @@ All other aircraft coming from PIY CTA will be **Heads-up** Coordinated to PH TC
 
 All other aircraft require a 'Next' call to PH TCU.
 
-!!! example
+!!! phraseology
     <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Next, ABC, runway 03"  
     <span class="hotline">**PH TCU** -> **PH ADC**</span>: "ABC, Heading 010, unrestricted"  
     <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Heading 010, ABC"  
@@ -157,7 +159,7 @@ The controller assuming responsibility of ACD shall give heads-up coordination t
 a) VFR Departures  
 b) Aircraft using a runway not on the ATIS
 
-!!! example
+!!! phraseology
     <span class="coldline">**PH ACD** -> **PH TCU**</span>: "ABC, requesting Victor 65"  
     <span class="coldline">**PH TCU** -> **PH ACD**</span>: "ABC, cleared Victor 65, 1,500ft"  
     <span class="coldline">**PH ACD** -> **PH TCU**</span>: "Cleared Victor 65, 1,500ft, ABC"
@@ -174,7 +176,7 @@ Other levels are available at the discretion of the TCU controller but coordinat
 
 All other aircraft transiting between internal PH TCU boundaries must be heads-up coordinated.
 
-!!! example
+!!! phraseology
     <span class="hotline">**PHA** -> **PHD**</span>: "via PH, FD123"  
     <span class="hotline">**PHD** -> **PHA**</span>: "FD123, A090"    
 
@@ -187,7 +189,7 @@ Refer to [Reclassifications](#jt-ctr) for operations when JT ADC is offline.
 #### Departures
 When the aircraft is ready for departure, JT ADC will coordinate with the relevant PH TCU controller above them for permission to release the aircraft into their CTA.
 
-!!! example
+!!! phraseology
     <span class="hotline">**JT ADC** -> **PH TCU**</span>: "Next, FD420, runway 24R"  
     <span class="hotline">**PH TCU** -> **JT ADC**</span>: "FD420, Unrestricted"  
     <span class="hotline">**JT ADC** -> **PH TCU**</span>: "FD420"  
@@ -199,10 +201,14 @@ PH TCU will heads-up coordinate arrivals/overfliers from Class C to JT ADC prior
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to JT ADC, unless JT ADC nominates a restriction.  
 VFR aircraft require a level readback.
 
-!!! example
+!!! phraseology
     <span class="hotline">**PH TCU** -> **JT ADC**</span>: "via RNAV-Z RWY 06L, FD416, circling to land RWY 24R"  
     <span class="hotline">**JT ADC** -> **PH TCU**</span>: "FD416, RNAV-Z RWY 06L with a circle to land RWY 24R"  
 
-### PEA ADC
-Reserved.
+### PE TCU
+**All aircraft** transiting between PE TCU and PH TCU must be heads-up coordinated prior to the boundary.
 
+!!! phraseology
+    <span class="hotline">**PH TCU** -> **PE TCU**</span>: "via PH, VIPR22, Requesting DCT PEA for ILS-Z 18L"   
+    <span class="hotline">**PE TCU** -> **PH TCU**</span>: "VIPR22, DCT PEA, A035"  
+    <span class="hotline">**PH TCU** -> **PE TCU**</span>: "A035, VIPR22"   

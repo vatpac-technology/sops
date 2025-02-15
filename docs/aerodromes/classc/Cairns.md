@@ -10,12 +10,12 @@
 | **Cairns ADC**    | **Cairns Tower**   | **124.900**          |  **CS_TWR**                 |
 | **Cairns SMC**    | **Cairns Ground**   | **121.700**          |  **CS_GND**               |
 | **Cairns ACD**    | **Cairns Delivery**   | **128.750**          |  **CS_DEL**                  |
-| Cairns ATIS        |                | 131.100          | YBCS_ATIS                                |
+| **Cairns ATIS**        |                | **131.100**          | **YBCS_ATIS**                                |
 
 ## Airspace
 CS ADC is responsible for the Class C airspace within the CS CTR `SFC` to `A010`.
 
-!!! important
+!!! warning "Important"
     CS ADC is responsible for issuing visual approach clearances to some aircraft tracking for runway 33 in CTA, as well as initial airways clearances for VFR aircraft entering the CTR from class G. See [Runway 33 Arrival Procedures](#runway-33) for more information.
 
 <figure markdown>
@@ -46,7 +46,7 @@ When visual approaches are in use, expect light & medium category aircraft (B737
 
 ADC must assess any potential conflicts with aircraft in the CTR and clear the inbound aircraft for a visual approach when able. Given the limited airspace available, it is crucial that ADC maintains separation assurance between inbound aircraft and those operating in the CTR, to avoid a delay in issuing the visual approach clearance.
 
-!!! example 
+!!! phraseology 
     <span class="hotline">**TCU** -> **ADC**</span>: "Via right base, RXA5418, will be assigned A020 visual"  
     <span class="hotline">**ADC** -> **TCU**</span>: "A020 visual, RXA5418"  
 
@@ -82,7 +82,7 @@ Prior to issuing clearance to these helicopters, ensure that no conflict exists 
 
 Arriving helicopters should be cleared direct to The Pier, not above `A005` and instructed to report on the ground.
 
-!!! example
+!!! phraseology
     *YZM is a VFR R44 tracking from Upolo Cay to False Cape, inbound to The Pier.*  
     **VH-YZM**: "Cairns Tower, helicopter YZM, 5nm northeast of False Cape, A005, for The Pier, received Hotel"  
     **CS ADC**: "YZM, Cairns Tower, cleared direct to The Pier, not above A005, report on the ground"  
@@ -93,7 +93,7 @@ Arriving helicopters should be cleared direct to The Pier, not above `A005` and 
 
 Departing helicopters should be cleared direct to their nominated tracking point not above `A005`, and instructed to report airborne.
 
-!!! example
+!!! phraseology
     *VTB is a VFR Bell 505 on The Pier, intending to track to Cairns Airport for a landing on the southern pads. A 737 is about to depart from runway 15.*  
     **VH-VTB**: "Cairns Tower, helicopter VTB, at The Pier, for the southern pads, received India"  
     **CS ADC**: "VTB, Cairns Tower, short delay for clearance"  
@@ -112,20 +112,20 @@ Departing helicopters should be cleared direct to their nominated tracking point
 ### Western VFR Corridor
 The Western VFR Corridor conflicts with the extended centreline to the north of the aerodrome. Clearances for aircraft entering the CTR must use clear and unambiguous phraseology to eliminate any potential for confusion by the pilot.
 
-!!! Example
+!!! phraseology
     **NDR**: "Cairns Tower, NDR, EDT, A015, for the Western VFR Corridor, Request Clearance"  
     **CS ADC**: "NDR, enter the CTR tracking via the Western VFR corridor at A015. Remain on the corridor until advised."
 
 If a clearance limit is associated with the clearance, then it must be reiterated to the pilot to remain “on or west of the VFR Corridor”.
 
-!!! Example
+!!! phraseology
     **NDR**: "Cairns Tower, NDR, EDT, A015, for the Western VFR Corridor, Request Clearance"  
     **CS ADC**: "NDR, enter the CTR tracking via the Western VFR Corridor at A015. Clearance limit is ADI, Remain on or west of the Western VFR Corridor at all times."
 
 ### Inbound
 Aircraft planning to enter the CS CTR between *Mt Gorton*, CGF and Upolo Cay at `A005`, must contact CS ADC for airways clearance.
 
-!!! Example
+!!! phraseology
     **NDR**: "Cairns Tower, NDR, Cape Grafton, A005, Inbound, Information Alpha, Request Clearance"  
     **CS ADC**: "NDR, enter the CTR tracking for a Right Base runway 33, maintain A005."
 
@@ -164,7 +164,7 @@ Taxiways A2 and A between A2 and A3 are not available to aircraft above 7,000 ki
 
 All other aircraft require a 'Next' call to CS TCU.
 
-!!! example
+!!! phraseology
     <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Next, HND151"  
     <span class="hotline">**CS TCU** -> **CS ADC**</span>: "HND151, Heading 030, unrestricted"  
     <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Heading 030, HND151"   
@@ -182,7 +182,7 @@ The controller assuming responsibility of **CS ACD** shall give heads-up coordin
 a) VFR Departures  
 b) Aircraft using a runway not on the ATIS
 
-!!! example
+!!! phraseology
     <span class="coldline">**CS ACD** -> **CS TCU**</span>: "ABC, Requesting clearance for a Northbound VFR Coastal departure at A035"  
     <span class="coldline">**CS TCU** -> **CS ACD**</span>: "ABC, Cleared for a Northbound VFR Coastal departure, A035"  
     <span class="coldline">**CS ACD** -> **CS TCU**</span>: "Cleared for a Northbound VFR Coastal departure, A035, ABC"   
