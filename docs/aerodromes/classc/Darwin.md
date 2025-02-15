@@ -48,29 +48,43 @@ e) Runway 11 and Runway 18;
 f) Runway 11 only.  
 
 ## LAHSO
+!!! warning "Important"
+    Due to its operational complexity, LAHSO **must be authorised by a member of the VATPAC ATS or Events Staff Team or a C3-rated controller**.
 
-LAHSO is the operation of two crossing runways used for arrivals and departures. Tower should give aircraft traffic information about the secondary aircraft landing on the crossing runway. Darwin utilises LAHSO in the runway format of 36A/29AD
+    Very little benefit is achieved by running LAHSO without a flow controller and it is almost exclusively reserved for our busiest events.
+
+LAHSO is the independent operation of two crossing runways for arrivals and departures. Whilst arrivals to each runway are considered independent, they will still be flowed to provide some degree of lateral segregation. ADC must maintain a visual separation standard between both aircraft during their approach and in the event of a go around.
+
+ADC must provide traffic information to both aircraft where a LAHSO standard has been applied between them. Additionally, the active LAHSO aircraft (the aircraft landing with a requirement to not pass the crossing runway) must be explicitely instructed to hold short of the crossing runway. Passive aircraft (the aircraft with full use of their assigned runway) must be informed that the active aircraft will hold short.
+
+### Weather Conditions
+LAHSO may only be used where the weather conditions meet the following minimum requirements:
+
+| Element | Criteria |
+| ------- | -------- |
+| Cloud Ceiling | `A030` or higher |
+| Visibility | 8km or greater |
+| Surface Condition | Dry |
+| Windshear | None Reported |
+
+Two simultaneous landings may be conducted by both day and night. A simultaneous takeoff and landing may only be conducted by day.
+
+### Runway Mode
+The only approved LAHSO mode at YPDN is **36A/29AD**. Runway 36 is considered the active runway, while runway 29 is considered the passive runway.
 
 !!! phraseology
-    ***Traffic Landing RWY 36***
+    **DN ADC:** "YZU, traffic is an E120 landing on the crossing runway, hold short runway 29, cleared to land runway 36."  
+    **YZU:** "Hold short runway 29, cleared to land runway 36, YZU"
 
-    **DN ADC:** "YZU, traffic is an E120 landing on the crossing runway, hold short runway 29, cleared to land runway 36."
-    <br>**YZU:** "Hold short runway 29, cleared to land runway 36, YZU"
+    **DN ADC:** "ANO407, traffic is a Seminole landing on the crossing runway, will hold short. Runway 29 cleared to land"  
+    **ANO407:** "Runway 29 cleared to land, AN407"
 
-    ***Traffic Landing RWY 29***
+### Go arounds
+To prepare for a go around of one or both aircraft, ADC shall monitor both flight paths and provide speed adjustments where necessary to ensure that in the event of a go around, the aircraft remain clear of each other. ADC must maintain a visual separation standard between both aircraft until a radar standard (3nm or 1000ft) is available, then the aircraft may be transferred to the TCU controller.
 
-    **DN ADC:** "ANO407, traffic is a Seminole landing on the crossing runway, will hold short. Runway 29 cleared to land"
-    <br>**ANO407:** "Runway 29 cleared to land, AN407"
-
-#### Operational Info
-When using runway mode 36A/29AD, the ATIS OPR INFO shall include:
+## ATIS
+When LAHSO is in use, the ATIS OPR INFO shall include:  
 `LAND AND HOLD SHORT OPERATIONS IN PROGRESS`
-
-This allows for the operation of two crossing runways to be used for arrivals, which in turn doubles the arrival capacity of the aerodrome.
-
-!!!note
-    **Due to the complexity of this procedure, LAHSO may only be operated under the approval of VATPAC Staff or C3 rated controllers**
-
 
 ## Non-RNAV Departures
 For non-RNAV approved IFR aircraft with a wake turbulence category of medium or greater, issue a Radar SID  

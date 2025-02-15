@@ -52,6 +52,12 @@ d) Runway 11 and Runway 36;
 e) Runway 11 and Runway 18;  
 f) Runway 11 only.  
 
+## LAHSO
+With LAHSO in use, ADC will visually separate all relevant aircraft during their final approach and in the event of a go around. TCU controllers shall ensure that simultaneous arrivals are laterally segregated where possible, so that their flightpaths do not conflict in the event of a go around.
+
+!!! note
+    Due to its operational complexity, LAHSO **must be authorised by a member of the VATPAC ATS or Events Staff Team or a C3-rated controller**.
+
 ## Charts
 !!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
