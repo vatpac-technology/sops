@@ -71,6 +71,12 @@ SNO is reponsible for issuing STAR clearances and initial descent for aircraft b
 ### Sequencing in to YMML
 Aircraft assigned the **same runway** inbound via **LIZZI** and **BOYSE**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
+#### LAHSO
+!!! warning "Important"
+    Due to its operational complexity, LAHSO **must be authorised by a member of the VATPAC ATS or Events Staff Team or a C3-rated controller**.
+
+In accordance with the authorisation requirements above, YMML may utilise LAHSO during exceptionally busy events. Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../controller-skills/runwaymanagement.md#lahso) for more information.
+
 ## STAR Clearance Expectation
 ### Handoff
 Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:

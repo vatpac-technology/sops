@@ -184,8 +184,9 @@ With LAHSO in use, ADC will visually separate all relevant aircraft during their
 Where possible, simultaneous arrivals should be avoid flying conflicting flight paths which may lead to close proximity during a go around of one or both aircraft.
 
 ### Enroute
-To Do
+Enroute controllers should assertain whether each aircraft is capable of participating in LAHSO as soon as possible, and advise Flow of any aircraft who are unable.
 
-- sequencing
-- unable active aircraft
-- add section similar to that in the ML/DN TCU pages, to each relevant enroute page
+In the real world, LAHSO participation is complicated but, generally, most Australian operators participate. On VATSIM, pilot competency may preclude an understanding of the procedure. If in doubt, assume an aircraft is **negative active LAHSO**.
+
+### Flow
+LAHSO enables the flow controller to utilise both runways independently for arrivals. However, where possible, aircraft on each adjacent runway should be staggered by **1 minute** to minimise the chance of a conflicting flight path in the event of a go around. The TCU and aerodrome controllers will likely use speed control to make small changes to the spacing of arriving aircraft during their final approach.
