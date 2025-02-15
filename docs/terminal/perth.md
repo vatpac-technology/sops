@@ -77,13 +77,13 @@ Other levels are available at the discretion of the TCU controller but coordinat
 Aircraft wishing to conduct a scenic flight over the Perth CBD should be cleared via the Victor 65 route. **No lateral separation standard exists between Victor 65 and the extended centreline of runway 06/24**, so controllers must ensure that an alternative form of separation assurance exists.
 
 !!! phraseology
-    **VH-CYF:** "Perth Approach, CYF, Cessna 172, overhead FREM, 1,500ft, received Bravo, request Victor 65"  
+    **VH-CYF:** "Perth Approach, CYF, Cessna 172, overhead FREM, A015, received Bravo, request Victor 65"  
     **PHA:** "CYF, squawk 0542, remain clear of class C airspace"  
     **VH-CYF:** "Squawk 0542, remain OCTA, CYF"  
 
     *When clearance (reference traffic into/out of YPPH) is available:*  
-    **PHA:** "CYF, cleared Victor 65, maintain 1,500ft"  
-    **VH-CYF:** "Cleared Victor 65, maintain 1,500ft, CYF"
+    **PHA:** "CYF, cleared Victor 65, maintain A015"  
+    **VH-CYF:** "Cleared Victor 65, maintain A015, CYF"
 
 Aircraft departing YPPH and intending to conduct the Victor 65 route will be coordinated by **PH ACD**. See [Airways Clearances](#airways-clearances).
 
