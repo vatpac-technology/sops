@@ -74,9 +74,7 @@ Shall be assigned the **Radar SID**.
 
     Very little benefit is achieved by running LAHSO without a flow controller and it is almost exclusively reserved for our busiest events.
 
-LAHSO is the independent operation of two crossing runways for arrivals and departures. Whilst arrivals to each runway are considered independent, they will still be flowed to provide some degree of lateral segregation. ADC must maintain a visual separation standard between both aircraft during their approach and in the event of a go around.
-
-ADC must provide traffic information to both aircraft where a LAHSO standard has been applied between them. Additionally, the active LAHSO aircraft (the aircraft landing with a requirement to not pass the crossing runway) must be explicitely instructed to hold short of the crossing runway. Passive aircraft (the aircraft with full use of their assigned runway) must be informed that the active aircraft will hold short.
+Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../controller-skills/runwaymanagement.md#lahso) for more information.
 
 ### Weather Conditions
 LAHSO may only be used where the weather conditions meet the following minimum requirements:
@@ -92,16 +90,6 @@ Two simultaneous landings may be conducted by both day and night. A simultaneous
 
 ### Runway Mode
 The only approved LAHSO mode at YMML is **34A/27AD**. Runway 34 is considered the active runway, while runway 27 is considered the passive runway.
-
-!!! phraseology
-    **ML ADC:** "YZU, traffic is a 737 departing on the crossing runway, hold short runway 27, cleared to land runway 34."  
-    **RXA3866:** "Hold short runway 27, cleared to land runway 34, RXA3866"
-
-    **ML ADC:** "QFA421, traffic is a SAAB 340 landing on the crossing runway, will hold short. Runway 27 cleared for takeoff"  
-    **QFA421:** "Runway 27 cleared for takeoff, QFA421"
-
-### Go arounds
-To prepare for a go around of one or both aircraft, ADC shall monitor both flight paths and provide speed adjustments where necessary to ensure that in the event of a go around, the aircraft remain clear of each other. ADC must maintain a visual separation standard between both aircraft until a radar standard (3nm or 1000ft) is available, then the aircraft may be transferred to the TCU controller.
 
 ## ATIS
 ### ATIS Identifier
@@ -129,7 +117,7 @@ When using runway mode 09A/16D, the ATIS OPR INFO shall include:
 This allows for both Runway 09 and Runway 16 to operate independently of each other, with aircraft departing Runway 16 from Taxiway Echo.
 
 #### LAHSO
-When [LAHSO](#lahso-1) is in use, the ATIS OPR INFO shall include:  
+When [LAHSO](#lahso) is in use, the ATIS OPR INFO shall include:  
 `LAND AND HOLD SHORT OPERATIONS IN PROGRESS`
 
 #### ACD Pushback Requests
