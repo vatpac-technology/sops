@@ -127,3 +127,16 @@ MARSA is to be assigned and terminated on pilots request, and when standard sepe
 
 !!! note
     Military aircraft normally operate NOCOM in military Restricted Areas and Class G airspace only. **Do not** permit NOCOM operations in Civil CTA.
+
+
+## Initial and Pitch 
+The intial and Pitch is a military approach to enter the pattern. Military aircraft approach on runway heading (the INITIAL) then fly overhead the runway and then make a tight turn onto downwind (the PITCH). To deconflict traffic, military aircraft can be advised to: Pitch Short (abeam the threshold), Pitch (midfield) or Pitch Long (abeam the departure threshold). 
+!!! note
+    Military Aircraft will be doing this approach at high speeds ranging from 240 to 350kts.
+    All airports have different altitude and approach points as such check for the specfic airports sops.
+
+!!! phraseology
+    *VIPR47 is approaching RWY 27 at East Sale via an initial and pitch.*
+**VIPR47**: "Request straight initial RWY 27"
+**ARA**: "VIPR47, cleared straight inital RWY 27 descend A015, Pitch Long"
+
