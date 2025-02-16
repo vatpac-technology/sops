@@ -138,5 +138,5 @@ The intial and Pitch is a military approach to enter the pattern. Military aircr
 !!! phraseology
     *VIPR47 is approaching RWY 27 at East Sale via an initial and pitch.*
 **VIPR47**: "Request straight initial RWY 27"
-**ARA**: "VIPR47, cleared straight inital RWY 27 descend A015, Pitch Long"
+**ARA**: "VIPR47, cleared straight inital RWY 27 descend 'A015', Pitch Long"
 
