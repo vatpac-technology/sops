@@ -4,7 +4,7 @@ title: Coordination
 
 --8<-- "includes/abbreviations.md"
 
-Coordination is an underutilised tool in VATPAC airspace, primarily due to how difficult it was to do it back in the Euroscope and VRC days. Now, (almost) all controllers are using vatSys, and voice coordination can be done in seconds with the touch of a button, using the Hotlines and Coldlines. Coordination helps controllers stay aware of aircraft that are about to enter their jurisdiction, and ensure they will operate in a predictable manner, which allows for easier planning of sequencing and separation.
+Coordination is an underutilised tool in VATPAC airspace, primarily due to how difficult it was to do it back in the Euroscope and VRC days. Now, all controllers are using vatSys and voice coordination can be done in seconds with the touch of a button. Coordination helps controllers stay aware of aircraft that are about to enter their jurisdiction and ensure they will operate in a predictable manner, which allows for easier planning of sequencing and separation.
 
 Coordination requirements are often very location-specific, however this page outlines the general guidelines to coordination, which are supplemented by Local Instructions.
 
@@ -23,7 +23,8 @@ Coordination notes are included for most positions, using the following format:
     `Hotline`:  <span class="hotline">**ORIGINATING SECTOR** -> **RECEIVING SECTOR**</span>: "Message"  
     `Coldline`:  <span class="coldline">**ORIGINATING SECTOR** -> **RECEIVING SECTOR**</span>: "Message"  
 
-As a receiving controller, answer a coordination call by stating the name of **your** position.  If you are busy at the time, finish your current radio call and then state your position to indicate that you are ready to receive the message.
+## General Phraseology
+As a receiving controller, answer a coordination call by stating the name of **your** position.
 
 !!! phraseology
     *BIK calls SAN with a hotline to discuss an arrival*  
@@ -32,15 +33,36 @@ As a receiving controller, answer a coordination call by stating the name of **y
     <span class="hotline">**BIK** -> **SAN**</span>: "Via RIVET, QFA541, request heading 030 due weather"  
     <span class="hotline">**SAN** -> **BIK**</span>: "QFA541, Concur heading 030"
 
-!!! tip
-    Remember that coordination items must be read back in the same way a pilot must read back an instruction from ATC.
+If you are busy at the time, tell the other controller to *standby*. If you anticipate a long delay, tell the controller that you'll call them back.
+
+!!! phraseology
+    *ELW calls MAE with a hotline but MAE is awaiting a readback from an aircraft*  
+    <span class="hotline">**ELW** -> **MAE**</span>: \***DING**\*  
+    <span class="hotline">**MAE** -> **ELW**</span>: "Standby"  
+    *When MAE is ready*  
+    <span class="hotline">**MAE** -> **ELW**</span>: "Go ahead, Centre"  
+
+Each controller must verbalise the instruction, clearance, or change once. Generally, with one controller requesting a change, the approving controller will confirm it, completing the conversation.
+
+!!! phraseology
+    <span class="hotline">**ELW** -> **MAE**</span>: "Via LIZZI, JST414, assigned FL120 for my separation with VOZ92"  
+    <span class="hotline">**MAE** -> **ELW**</span>: "FL120, JST414"
+
+In situations where additional changes have been discussed (and as such, both controllers have not yet verbalised them), a readback is required.
+
+!!! phraseology
+    <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Next, LKU, runway 15"  
+    <span class="hotline">**CS TCU** -> **CS ADC**</span>: "LKU, runway 15, left turn, unrestricted"  
+    <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Left turn, LKU"
 
 ## Types of Coordination
 ### Heads-up
 Heads-up Coordination is the act of giving the next sector a "heads-up" about an aircraft about to enter their airspace. The format is as follows:
 
-Controlling Sector -> Receiving Sector: "(Position), (Callsign)"  
-Receiving Sector -> Controlling Sector: "(Callsign), (Level)"
+!!! note "" 
+    <span class="hotline">**Controlling Sector** -> **Receiving Sector**</span>: "(Position), (Callsign)"  
+    <span class="hotline">**Receiving Sector** -> **Controlling Sector**</span>: "(Callsign), (Level)"
+
 
 !!! phraseology
     <span class="hotline">**ELW** -> **BIK**</span>: "via CB, VOZ1234"  
@@ -69,8 +91,9 @@ Ie: Within:
 
 Boundary coordination must be completed so they are aware of the aircraft, and can nominate any restrictions. The format is as follows:
 
-Controlling Sector -> Boundary Sector: "For Ident, (Position), (Callsign), (Details as required)"  
-Boundary Sector -> Controlling Sector: "(Callsign), (Restriction)"
+!!! note "" 
+    <span class="hotline">**Controlling Sector** -> **Boundary Sector**</span>: "For Ident, (Position), (Callsign), (Details as required)"  
+    <span class="hotline">**Boundary Sector** -> **Controlling Sector**</span>: "(Callsign), (Restriction)"
 
 !!! phraseology
     <span class="hotline">**BIK** -> **CBE**</span>: "For Ident, overhead CB, QFA12, do you have any restrictions on descent?"  
@@ -81,6 +104,33 @@ The Boundary Sector may omit the restriction and readback the callsign only. Thi
 !!! phraseology
     <span class="hotline">**INL** -> **BAS**</span>: "For Ident, West of BLAKA, ABC"  
     <span class="hotline">**BAS** -> **INL**</span>: "ABC"
+
+### Next
+Next coordination is performed between ADC and TCU controllers to discuss the next aircraft to depart. As a general rule, all departing aircraft require Next coordination, unless stipulated by local SOPs through the use of autorelease.
+
+The format is as follows:
+
+!!! note "" 
+    <span class="hotline">**ADC** -> **TCU**</span>: "Next, (Callsign), (Runway)"  
+    <span class="hotline">**TCU** -> **ADC**</span>: "(Callsign), (Runway), (Lateral and/or Vertical Instructions)
+
+Aircraft assigned a procedural SID will generally not be issued with lateral instructions. Aircraft assigned a radar SID or visual departure must be provided with an assigned heading or other lateral departure instructions.
+
+An amended level may be instructed, or the term **unrestricted** used to indicate that no *additional* vertical restrictions apply. This permits the aircraft to climb to their cleared level (as issued with their airways clearance).
+
+!!! note
+    The term '*unrestricted*' is not a readback item.
+
+!!! phraseology
+    *LKU is conducting a visual departure from YBCS*  
+    <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Next, LKU, runway 15"  
+    <span class="hotline">**CS TCU** -> **CS ADC**</span>: "LKU, runway 15, left turn, unrestricted"  
+    <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Left turn, LKU"
+    
+    *QFA442 is assigned a procedural SID from YMML with autorelease cancelled*  
+    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, QFA442, runway 16"  
+    <span class="hotline">**ML TCU** -> **ML ADC**</span>: "QFA442, unrestricted"  
+
 
 ## The C-Prompt (Coordination Prompt)
 Display the "C-Prompt" when all coordination for an aircraft is complete, or voice coordination is not required for an aircraft (eg subject to voiceless coordination).
