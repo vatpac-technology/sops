@@ -130,13 +130,16 @@ MARSA is to be assigned and terminated on pilots request, and when standard sepe
 
 
 ## Initial and Pitch 
-The intial and Pitch is a military approach to enter the pattern. Military aircraft approach on runway heading (the INITIAL) then fly overhead the runway and then make a tight turn onto downwind (the PITCH). To deconflict traffic, military aircraft can be advised to: Pitch Short (abeam the threshold), Pitch (midfield) or Pitch Long (abeam the departure threshold). 
+The Intial and Pitch is a military approach to the circuit area. Military aircraft approach on the extended runway centreline at high speed (the **initial**) then make a tight turn onto downwind (the **pitch**). To deconflict traffic, aircraft can be instructed to: 
+- Pitch short (abeam the threshold)
+- Pitch (midfield)
+- Pitch long (abeam the departure threshold)
+
 !!! note
-    Military Aircraft will be doing this approach at high speeds ranging from 240 to 350kts.
-    All airports have different altitude and approach points as such check for the specfic airports sops.
+   Refer to each aerodrome's SOPs for location-specific altitude and approach points.
 
 !!! phraseology
-    *VIPR47 is approaching RWY 27 at East Sale via an initial and pitch.*
-**VIPR47**: "Request straight initial RWY 27"
-**ARA**: "VIPR47, cleared straight inital RWY 27 descend 'A015', Pitch Long"
+
+**VIPR47**: "Request straight initial Runway 27"
+**ESA**: "VIPR47, cleared straight inital Runway 27, descend 'A015', pitch long"
 
