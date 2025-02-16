@@ -55,7 +55,18 @@ In situations where additional changes have been discussed (and as such, both co
     <span class="hotline">**CS TCU** -> **CS ADC**</span>: "LKU, runway 15, left turn, unrestricted"  
     <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Left turn, LKU"
 
+### Point-to-Point
+Coordination must be done on a **point-to-point** basis, meaning you can only coordinate with the sector which the aircraft is coming from, or going to, no skipping! 
+
+!!! example
+    You are controlling ELW and you would like to pass an amended route to someone on the ground at YMML. Whilst that may be no issue for ML SMC and ML ADC, it might not work for ML APP. ML APP would be the sector which the aircraft is coming from, so ELW must talk to them, and it is the responsibility of ML APP to work backwards down the line on a point-to-point basis.
+
+Ensure no coordination is ambiguous in its meaning. Not all coordination can be straight out of the phraseology books and the reality is, not everyone controlling the airspace is going to be 100% proficient and by the books. When using "plain english", ensure there is no ambiguity, and the message is fully understood by both parties.
+
 ## Types of Coordination
+### Voiceless
+Certain routes, areas, levels, airspace, etc, will have voiceless coordination agreements, which is where Heads-Up Coordination is not required. These routes may also have change parameters, where no changes are permitted within a certain distance of the sector boundary without prior coordination.
+
 ### Heads-up
 Heads-up Coordination is the act of giving the next sector a "heads-up" about an aircraft about to enter their airspace. The format is as follows:
 
@@ -65,29 +76,31 @@ Heads-up Coordination is the act of giving the next sector a "heads-up" about an
 
 
 !!! phraseology
-    <span class="hotline">**ELW** -> **BIK**</span>: "via CB, VOZ1234"  
-    <span class="hotline">**BIK** -> **ELW**</span>: "VOZ1234, F350"  
+    <span class="hotline">**SNO** -> **GUN**</span>: "Via CB, VOZ1531"  
+    <span class="hotline">**GUN** -> **SNO**</span>: "VOZ1531, F350"  
 
-If the level that will be assigned at transfer of jurisdiction is different from the current CFL, the Controlling Sector will use the phrase "Will be assigned (level)".
+If the level that will be assigned at transfer of jurisdiction is different from the current CFL, the Controlling Sector will use the phrase "*will be assigned (level)*".
 
-Once this coordination is completed, the aircraft's level and route is **locked in**. Any further changes must be recoordinated.
+If the Receiving Sector requires a change of level, they'll reply with the amended level.
 
 !!! phraseology
-    <span class="hotline">**ELW** -> **BIK**</span>: "VOZ1234, requesting DCT RIVET"  
-    <span class="hotline">**BIK** -> **ELW**</span>: "VOZ1234, concur DCT RIVET"  
+    <span class="hotline">**SNO** -> **GUN**</span>: "Via CB, VOZ1531"  
+    <span class="hotline">**GUN** -> **SNO**</span>: "VOZ1531, F330 due traffic"  
+    <span class="hotline">**SNO** -> **GUN**</span>: "F330, VOZ1531"
+
+Once this coordination is completed, the aircraft's level and route is **locked in**. Any further changes must be recoordinated. 
 
 !!! tip
     In situations where Heads-Up Coordination is required, the best time to do it is when the aircraft first calls you. There's no need to wait until half a mile before when its due, if you can get it done sooner.
 
-### Voiceless
-Certain routes, areas, levels, airspace, etc, will have voiceless coordination agreements, which is where Heads-Up Coordination is not required. These routes may also have change parameters, where no changes are permitted within a certain distance of the sector boundary without prior coordination.
-
 ### Boundary
 Boundary coordination is required when an aircraft may deviate within ***half the applicable standard*** of another sector's airspace.  
-Ie: Within:  
-**500ft** vertically; or  
-**2.5nm** laterally for **ENR**; or  
-**1.5nm** laterally for **TCU/ADC**.
+
+Ie: within:  
+
+- **500ft** vertically; or  
+- **2.5nm** laterally for **ENR**; or  
+- **1.5nm** laterally for **TCU/ADC**
 
 Boundary coordination must be completed so they are aware of the aircraft, and can nominate any restrictions. The format is as follows:
 
@@ -97,13 +110,13 @@ Boundary coordination must be completed so they are aware of the aircraft, and c
 
 !!! phraseology
     <span class="hotline">**BIK** -> **CBE**</span>: "For Ident, overhead CB, QFA12, do you have any restrictions on descent?"  
-    <span class="hotline">**CBE** -> **BIK**</span>: "QFA12, No restrictions on descent"  
+    <span class="hotline">**CBE** -> **BIK**</span>: "QFA12, no restrictions on descent"  
 
 The Boundary Sector may omit the restriction and readback the callsign only. This will be taken as the Boundary Sector having **no vertical or lateral restrictions**.
 
 !!! phraseology
-    <span class="hotline">**INL** -> **BAS**</span>: "For Ident, West of BLAKA, ABC"  
-    <span class="hotline">**BAS** -> **INL**</span>: "ABC"
+    <span class="hotline">**INL** -> **BAS**</span>: "For Ident, west of BLAKA, FD516"  
+    <span class="hotline">**BAS** -> **INL**</span>: "FD516"
 
 ### Next
 Next coordination is performed between ADC and TCU controllers to discuss the next aircraft to depart. As a general rule, all departing aircraft require Next coordination, unless stipulated by local SOPs through the use of autorelease.
@@ -112,7 +125,7 @@ The format is as follows:
 
 !!! note "" 
     <span class="hotline">**ADC** -> **TCU**</span>: "Next, (Callsign), (Runway)"  
-    <span class="hotline">**TCU** -> **ADC**</span>: "(Callsign), (Runway), (Lateral and/or Vertical Instructions)
+    <span class="hotline">**TCU** -> **ADC**</span>: "(Callsign), (Runway), (Lateral and/or Vertical Instructions)"
 
 Aircraft assigned a procedural SID will generally not be issued with lateral instructions. Aircraft assigned a radar SID or visual departure must be provided with an assigned heading or other lateral departure instructions.
 
@@ -131,9 +144,24 @@ An amended level may be instructed, or the term **unrestricted** used to indicat
     <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, QFA442, runway 16"  
     <span class="hotline">**ML TCU** -> **ML ADC**</span>: "QFA442, unrestricted"  
 
+### Airways Clearance
+The local procedures of some aerodromes require ACD to coordinate with the TCU prior to issuing airways clearance to certain aircraft. This coordination allows the TCU controller to assess the current & projected traffic levels, and current position staffing, and determine whether clearance is available.
+
+The format is as follows:
+
+!!! note ""
+    <span class="hotline">**ACD** -> **TCU**</span>: "(Callsign) requests clearance to (Destination), (Any Other Relevant Details)"  
+    <span class="hotline">**TCU** -> **ACD**</span>: "(Callsign), clearance approved"
+
+!!! phraseology
+    <span class="hotline">**SY ACD** -> **SY TCU**</span>: "FD213 requests clearance to Bankstown"  
+    <span class="hotline">**SY TCU** -> **SY ACD**</span>: "FD213, clearance approved"
+
+If a change of level or tracking is required, the TCU controller shall provide this change during this exchange.
+
 
 ## The C-Prompt (Coordination Prompt)
-Display the "C-Prompt" when all coordination for an aircraft is complete, or voice coordination is not required for an aircraft (eg subject to voiceless coordination).
+Display the "C-Prompt" when all coordination for an aircraft is complete, or voice coordination is not required for an aircraft (ie. subject to voiceless coordination).
 
 The "C-Prompt" can be displayed by middle clicking the area just above the aircraft's callsign in the label.
 
@@ -145,7 +173,7 @@ The "C-Prompt" can be displayed by middle clicking the area just above the aircr
 Remove the "C-Prompt" once jurisdiction of the aircraft has been handed off, and the new frequency has been correctly read back.
 
 ## No Frequency Requirements (NFR)
-Occasionally, aircraft may clip small parts of a sector's airspace on their planned route. If an aircraft only enters someone's airspace for a small distance, there is usually no need for them to talk to that controller. In this instance, A controller may coordinate an aircraft to have "No Frequency Requirements" with another controller, or vice versa. This shall also be supplemented by the nomination of a restriction, or lack thereof. See below:
+Occasionally, aircraft may clip small parts of a sector's airspace on their planned route. If an aircraft only enters someone's airspace for a small distance, there is usually no need for them to talk to that controller. In this instance, a controller may coordinate an aircraft to have "No Frequency Requirements" with another controller, or vice versa. This shall also be supplemented by the nomination of a restriction, or lack thereof. See below:
 
 Source: [Annotations](../../controller-skills/annotations)
 
@@ -183,112 +211,6 @@ Source: [Annotations](../../controller-skills/annotations)
 !!! note
     It is important to remember that this coordination is still a negotiation. You are free to reject any proposition that doesn't work for you and your traffic picture. And if there is a particular restriction to nominate, it is always best to take the aircraft on frequency.
 
-## Rules
-### General
-Coordination must be done on a **point-to-point** basis. Meaning, you can only coordinate with the sector which the aircraft is coming from, or going to, no skipping! This is important to remember, for example, if you are controlling ELW, and you would like to pass an amended route to someone on the ground at YMML. Whilst that may be no issue for ELW, ML SMC and ML ADC, it might not work for ML APP. ML APP would be the sector which the aircraft is coming from, so ELW must talk to them, and it is the responsibility of ML APP to work backwards down the line on a point-to-point basis.
-
-Ensure no coordination is ambiguous in its meaning. Not all coordination can be straight out of the phraseology books, and the reality is, not everyone controlling the airspace is going to be 100% proficient and by the books. When using "plain english", ensure there is no ambiguity, and the message is fully understood by both parties.
-### ENR/TCU -> Class D TWR
-Heads-up coordinate arrivals/overfliers prior to **5 mins** from the boundary.
-#### Format
-- *"via (Route/Procedure)"*
-- Callsign
-- Level (if not Standard Assignable)
-- Runway (if not active runway)
-
-### Class D TWR -> ENR/TCU
-Voice coordinate 'Next' call **within 2 minutes of takeoff** for all CTA departures.
-#### Format
-- *"Next"*
-- Callsign
-- Level (if not Standard Assignable)
-
-### Radar TWR -> TCU
-Voice coordinate 'Next' call **within 2 minutes of takeoff** unless overridden by local Auto Release rules.
-
-#### Format
-- *"Next"*
-- Callsign
-- Runway
-
-If Auto Release is suspended by the TCU controller, respond by advising of any aircraft with a takeoff clearance.
-
-!!! phraseology
-    <span class="hotline">**TCU** -> **ADC**</span>: "Cancel auto release until time 45"  
-    <span class="hotline">**ADC** -> **TCU**</span>: "Cancel auto release until time 45, QLK108D released"  
-    <span class="hotline">**TCU** -> **ADC**</span>: "QLK108D"
-
-### TCU -> Radar TWR
-Radar TWRs will voice coordinate all departures unless permitted by local Auto Release rules. Respond with any lateral departure instructions (if required by SID or departure procedure) and any additional vertical restrictions, or "unrestricted". 
-
-If due to weather, overflying aircraft, runway config changes, etc. Auto Release needs to be cancelled, advise this to the ADC controller.  They will respond with any aircraft who have a takeoff clearance.
-
-### ENR -> TCU
-**Voiceless** for aircraft landing at main airport (eg YMML in ML TCU), assigned a STAR, and standard assignable level.  
-
-Heads-up coordinate all other aircraft by **20nm** to boundary.
-
-### TCU -> ENR
-**Voiceless** for aircraft assigned lower of standard assignable level or RFL, and tracking via a Procedural SID terminus.
-
-!!! note
-    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
-
-Heads-up coordinate all other aircraft by the boundary.
-
-### ENR -> ENR
-**Voiceless**, no changes to route or CFL within **50nm** to boundary.
-
-!!! exception
-    Except as amended by Local Instructions.
-
-### To/from Oceanic/International Units
-
-#### Pacific Units
-For aircraft going between the following FIRs in Oceanic Airspace only:  
-- YBBB  
-- YMMM  
-- NFFF  
-- AGGG  
-- ANAU  
-- NZZO  
-- NZCM  
-- KZAK  
-- NTTT  
-- AYPM  
-- NWWW  
-- NVVV
-
-**Voiceless**, no changes to route or CFL within **15 mins** of boundary.
-
-#### Other Units
-For aircraft going to the following FIRs:  
-- WAAF  
-- WIIF  
-- VCCF  
-- VRMF  
-- FIMM  
-- FAJO
-
-Heads-up coordinate prior to **30 mins** to boundary.
-
-##### Format
-Coordination to **International** units shall be done in the following format:
-
-- *"Estimate"*
-- Callsign
-- Boundary Point
-- Estimate
-- Level
-- *"On climb"*/*"On descent*" (if applicable)
-
-!!! phraseology
-    <span class="coldline">**IND** -> **FIMM CTR**</span>: "Estimate, QFA63, IBMAT time 33, F360"  
-    <span class="coldline">**FIMM CTR** -> **IND**</span>: "QFA63, F360"
-
-### OCTA Coordination
-For any aircraft transiting **to or from** Uncontrolled airspace (ie: Class G, VFR Class E), heads-up coordination is **not required**. However, a **5 minute** change parameter applies to any aircraft that change level, route, or taxi within **5 minutes** of the next sector's airspace.
-
 ## Handoffs
 Receiving a handoff means you are permitted to turn an aircraft **45 degrees left or right**, and **climb/descend it to any level** without coordination. Do not handoff an aircraft to another sector if a turn of 45 degrees or a change of level would cause a conflict with any of your own aircraft. Or alternatively, you can nominate a restriction prior to handoff.
 
@@ -304,3 +226,96 @@ Upon receipt of a handoff, once the aircraft is established **half the applicabl
     KPL will place *"RKA NR"* in the label until 2.5nm clear of their airspace, to record that the coordination has been completed.
 
 For more information, refer to individual local instructions.
+
+## Rules
+### Class D Towers
+#### ENR/TCU -> Class D TWR
+[Heads-up](#heads-up) coordinate arrivals/overfliers prior to **5 mins** from the boundary.
+
+!!! note ""
+    "Via (Route/Procedure), (Callsign), (Level - *if not standard assignable*), (Runway - *if not duty runway*)"
+
+#### Class D TWR -> ENR/TCU
+[Next](#next) call **within 2 minutes of takeoff** for all **CTA** departures.
+
+### Radar Towers
+#### Radar TWR -> TCU
+[Next](#next) call **within 2 minutes of takeoff** unless overridden by local autorelease rules.
+
+If Auto Release is suspended by the TCU controller, respond by advising of any aircraft with a takeoff clearance.
+
+!!! phraseology
+    <span class="hotline">**TCU** -> **ADC**</span>: "Cancel autorelease"  
+    <span class="hotline">**ADC** -> **TCU**</span>: "Cancel autorelease, QLK108D released"  
+    <span class="hotline">**TCU** -> **ADC**</span>: "QLK108D"
+
+#### TCU -> Radar TWR
+Radar TWRs will [Next](#next) coordinate all departures unless permitted by local autorelease rules. Respond with any lateral departure instructions (if required by SID or departure procedure) and any additional vertical restrictions, or "unrestricted". 
+
+If due to weather, overflying aircraft, runway config changes, etc. autorelease needs to be cancelled, advise this to the ADC controller.  They will respond with any aircraft who have a takeoff clearance.
+
+!!! phraseology
+    <span class="hotline">**TCU** -> **ADC**</span>: "Cancel autorelease"  
+    <span class="hotline">**ADC** -> **TCU**</span>: "Cancel autorelease, QLK108D released"  
+    <span class="hotline">**TCU** -> **ADC**</span>: "QLK108D"
+
+### TCUs
+#### ENR -> TCU
+**Voiceless** for aircraft landing at main airport (eg YMML in ML TCU), assigned a STAR, and standard assignable level, unless overridden by local procedure.  
+
+Heads-up coordinate all other aircraft by **20nm** to boundary.
+
+#### TCU -> ENR
+**Voiceless** for aircraft assigned lower of standard assignable level or RFL, and tracking via a Procedural SID terminus, unless overridden by local procedure.
+
+!!! note
+    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+
+Heads-up coordinate all other aircraft by the boundary.
+
+### Enroute
+#### ENR -> ENR
+**Voiceless**, no changes to route or CFL within **50nm** of the boundary, unless overridden by local procedure.
+
+#### To/from Oceanic/International Units
+##### Pacific Units
+For aircraft going between the following FIRs in Oceanic Airspace only:  
+
+- YBBB  
+- YMMM  
+- NFFF  
+- AGGG  
+- ANAU  
+- NZZO  
+- NZCM  
+- KZAK  
+- NTTT  
+- AYPM  
+- NWWW  
+- NVVV
+
+**Voiceless**, no changes to route or CFL within **15 mins** of boundary.
+
+##### Other Units
+For aircraft going to the following FIRs:  
+
+- WAAF  
+- WIIF  
+- VCCF  
+- VRMF  
+- FIMM  
+- FAJO
+
+Heads-up coordinate prior to **30 mins** to boundary.
+
+Voice coordination to **International** units shall be done in the following format:
+
+!!! note ""
+    "Estimate, (Callsign), (Boundary Point) (Estimate), (Level), on climb/descent *if applicable*"
+
+!!! phraseology
+    <span class="coldline">**IND** -> **FIMM CTR**</span>: "Estimate, QFA63, IBMAT time 33, F360"  
+    <span class="coldline">**FIMM CTR** -> **IND**</span>: "QFA63, F360"
+
+### OCTA Coordination
+For any aircraft transiting **to or from** uncontrolled airspace (ie: Class G, VFR Class E), heads-up coordination is **not required**. However, a **5 minute** change parameter applies to any aircraft that change level, route, or taxi within **5 minutes** of the next sector's airspace.
