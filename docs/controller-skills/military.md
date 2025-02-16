@@ -130,10 +130,9 @@ MARSA is to be assigned and terminated on pilots request, and when standard sepe
 
 
 ## Initial and Pitch 
-The Intial and Pitch is a military approach to the circuit area. Military aircraft approach on the extended runway centreline at high speed (the **initial**) then make a tight turn onto downwind (the **pitch**). To deconflict traffic, aircraft can be instructed to: 
-- Pitch short (abeam the threshold)
-- Pitch (midfield)
-- Pitch long (abeam the departure threshold)
+The Intial and Pitch is a military approach to the circuit area. Military aircraft approach on the deadside, parallel to the extended runway centreline at high speed (the **initial**), then make a tight turn onto downwind (the **pitch**). To deconflict traffic, aircraft can be instructed to: 
+- Pitch short (abeam the landing threshold)
+- Pitch long (abeam the upwind threshold)
 
 !!! note
    Refer to each aerodrome's SOPs for location-specific altitude and approach points.
