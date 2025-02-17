@@ -30,19 +30,19 @@ All other IFR aircraft shall be assigned the **Radar SID**.
 ## Coordination
 ### ML TCU
 #### Departures
-'Next' coordination is **not** required to ML TCU for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a **Procedural** SID
+[Next](../../controller-skills/coordination.md#next) coordination is **not** required to ML TCU for aircraft that are:  
+
+- Departing from a runway nominated on the ATIS; and  
+- Assigned the standard assignable level; and  
+- Assigned a **Procedural** SID
 
 All other aircraft require a 'Next' call to ML TCU.
 
-!!! phraseology
-    <span class="hotline">**AV ADC** -> **MAV**</span>: "Next, UJI, Runway 18"  
-    <span class="hotline">**MAV** -> **AV ADC**</span>: "UJI, heading 030, unrestricted"  
-    <span class="hotline">**AV ADC** -> **MAV**</span>: "Heading 030, UJI"
+The Standard Assignable level from **AV ADC** to **ML TCU** is:
 
-The Standard Assignable level from AV ADC to ML TCU is the lower of `A040` or the `RFL`.
+| Aircraft | Level |
+| ----- | -------| 
+| All | The lower of `A040` and `RFL` |
 
 #### Runway Change
 Any Runway change must be prior coordinated to the relevant [TCU Controller](#tcu-controller).

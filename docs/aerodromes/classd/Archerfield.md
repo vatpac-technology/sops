@@ -87,16 +87,14 @@ The APCH field should include `EXP INST APCH` when:
   - visibility is less than 5000m  
 
 ## Coordination
-
 ### Departures
-When aircraft planned via a CTA departure are ready for takeoff and expected to depart imminently, **AF ADC** shall seek release of the aircraft through a 'Next' call.
+[Next](../../controller-skills/coordination.md#next) coordination is required from AF ADC to BN TCU for all aircraft **entering BN TCU CTA**.
 
-!!! phraseology
-    <span class="hotline">**AF ADC** -> **BN TCU**</span>: "Next, XMM, Runway 10L"  
-    <span class="hotline">**BN TCU** -> **AF ADC**</span>: "XMM, Unrestricted"  
-    <span class="hotline">**AF ADC** -> **BN TCU**</span>: "XMM"
+The Standard Assignable level from **AF ADC** to **BN TCU** is:
 
-The Standard Assignable level from AF ADC to BN TCU is the lower of `A040` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| ------- | ----- |
+| All | The lower of `A040` and `RFL` |
 
 ### Arrivals/Overfliers
 BN TCU will heads-up coordinate arrivals/overfliers from Class C to AF ADC.  
