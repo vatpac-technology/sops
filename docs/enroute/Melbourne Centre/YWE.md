@@ -159,4 +159,19 @@ Voiceless for all aircraft:
 All other aircraft going to KAT CTA will be **Heads-up** Coordinated.
 
 ### ES TCU
-Reserved.
+### Enroute
+#### Departures
+Voiceless for all aircraft:
+
+- Tracking via a Procedural SID terminus; and  
+- Assigned the lower of `F200` or the `RFL`
+
+All other aircraft going to YWE CTA must be **Heads-up** Coordinated by ES TCU prior to the boundary. 
+
+#### Arrivals
+Voiceless for all aircraft:
+
+- With ADES **YMES**; and
+- Assigned `A100`
+
+All other aircraft coming from YWE CTA will be **Heads-up** Coordinated to ES TCU.
