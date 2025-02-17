@@ -132,7 +132,7 @@ Remember to pass traffic information to both aircraft.
     **JST515:** "Runway 16, cleared to land, JST515"
 
 ## Pushback Disconnect Points
-In the real world, YMML utilises designated disconnect points to allow predictable pushback paths from various bays. On VATSIM, this is difficult to simulate, given the limited access to pushback maps and the additional plugins required to facilitate a pushback in this way.
+In the real world, YMML utilises Towbar Disconnect Points (TDPs) to allow predictable pushback paths from various bays. On VATSIM, this is difficult to simulate, given the limited access to pushback maps and the additional plugins required to facilitate a pushback in this way.
 
 !!! warning "Important"
     Disconnect points should only be issued with a pushback instruction on **pilot request** or after confirming that **both the pilot & controller** are competent in their use.
