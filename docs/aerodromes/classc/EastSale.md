@@ -118,7 +118,7 @@ Lanes extend from `SFC` or the base of restricted airspace to `F160`. Aircraft d
 
 !!! phraseology
     *BRCT21 is departing East Sale via the Eastern Lane at FL110 to YORB*  
-    **ES SMC** -> **BRCT21**: "BRCT21 cleared to YORB via Eastern Lane, flight plan route, climb to FL110, squawk 5072, departure frequency 123.3"
+    **ES SMC** -> **BRCT21**: "BRCT21 cleared to YORB via Eastern Lane, flight plan route, climb to F110, squawk 5072, departure frequency 123.3"
 
 ## Coordination
 ### Auto Release
