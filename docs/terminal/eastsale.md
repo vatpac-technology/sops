@@ -8,7 +8,7 @@
 
 | Name               | ID      | Callsign             | Frequency        | Login ID    |
 | ------------------ | ------- | ------------------- | ---------------- | ------------------- |
-| **East Sale TMA**  | **ESA** | **East Sale Approach** | **123.300**      | **ES_APP**          |
+| **East Sale TMA**  | **ESA** | **Sale Approach** | **123.300**      | **ES_APP**          |
 
 ## Airspace
 
