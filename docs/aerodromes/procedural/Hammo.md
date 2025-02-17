@@ -39,7 +39,7 @@ The Standard Assignable level from **HM ADC** to **KEN(SWY)** is:
 KEN(SWY) will heads-up coordinate all arrivals/overfliers to HM ADC
 
 !!! phraseology
-    <span class="hotline">**SWY** -> **HM ADC**</span>: "Via OPOSI for the RNP-U RWY 32, JST848”  
-    <span class="hotline">**HM ADC** -> **SWY**</span>: "JST848"  
+    <span class="hotline">**SWY** -> **HM ADC**</span>: "Via OPOSI for the RNP-U, JST848”  
+    <span class="hotline">**HM ADC** -> **SWY**</span>: "JST848, A060"  
 
 The Standard Assignable level from KEN(SWY) to HM ADC is `A060`, any other level must be prior coordinated.
