@@ -163,7 +163,21 @@ That being said, it is *advised* that ELW/BLA/SNO give **Heads-up Coordination**
 - SNO to BLA for all aircraft
 
 ### ES TCU
-Reserved.
+#### Departures
+Voiceless for all aircraft:
+
+- Tracking via a Procedural SID terminus; and  
+- Assigned the lower of `F200` or the `RFL`
+
+All other aircraft going to ELW CTA must be **Heads-up** Coordinated by ES TCU prior to the boundary. 
+
+#### Arrivals
+Voiceless for all aircraft:
+
+- With ADES **YMES**; and
+- Assigned `A100`
+
+All other aircraft coming from ELW CTA will be **Heads-up** Coordinated to ES TCU.
 
 ### AY ADC
 #### Airspace
