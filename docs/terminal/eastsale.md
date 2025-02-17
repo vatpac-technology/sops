@@ -8,7 +8,7 @@
 
 | Name               | ID      | Callsign             | Frequency        | Login ID    |
 | ------------------ | ------- | ------------------- | ---------------- | ------------------- |
-| **East Sale TMA**  | **ESA** | **East Sale Approach** | **123.300**      | **ES_APP**          |
+| **East Sale TMA**  | **ESA** | **Sale Approach** | **123.300**      | **ES_APP**          |
 
 ## Airspace
 
@@ -201,9 +201,9 @@ When expect instrument approach is advertised on the ATIS:
 Auto release is not utilized at East Sale. 'Next' coordination is required from ES ADC to ES TCU for all aircraft.
 
 !!! phraseology
-    <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Next, ASY01, runway 09"     
-    <span class="hotline">**ES TCU** -> **ES ADC**</span>: "ASY01, Assigned Heading Left 030, unrestricted"         
-    <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Left Heading 030, ASY01" 
+    <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Next, VIPR47, runway 09"     
+    <span class="hotline">**ES TCU** -> **ES ADC**</span>: "VIPR47, Assigned Heading Left 030, unrestricted"         
+    <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Left Heading 030, VIPR47" 
 
 ### Helicopter Operations Coordination
 
