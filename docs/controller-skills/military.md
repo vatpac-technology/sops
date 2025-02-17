@@ -142,5 +142,5 @@ The Intial and Pitch is a military approach to the circuit area. Military aircra
 !!! phraseology
 
 **VIPR47**: "Request Visual Approach via Left Initial Runway 27"
-**ESA**: "VIPR47, Cleared Visual Approach via Left Initial Runway 27,pitch long"
+**ESA**: "VIPR47, Cleared Visual Approach via Left Initial Runway 27, pitch long"
 
