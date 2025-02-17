@@ -119,7 +119,7 @@ The Boundary Sector may omit the restriction and readback the callsign only. Thi
     <span class="hotline">**BAS** -> **INL**</span>: "FD516"
 
 ### Next
-Next coordination is performed between ADC and TCU controllers to discuss the next aircraft to depart. As a general rule, all departing aircraft require Next coordination, unless stipulated by local SOPs through the use of autorelease.
+Next coordination is performed between ADC and TCU controllers to discuss the next aircraft to depart. As a general rule, all departing aircraft require Next coordination, unless stipulated by local SOPs through the use of Auto Release. Auto Release can be cancelled at any time through mutual agreement of the ADC and TCU controllers.
 
 The format is as follows:
 
@@ -127,7 +127,14 @@ The format is as follows:
     <span class="hotline">**ADC** -> **TCU**</span>: "Next, (Callsign), (Runway)"  
     <span class="hotline">**TCU** -> **ADC**</span>: "(Callsign), (Runway), (Lateral and/or Vertical Instructions)"
 
-Aircraft assigned a procedural SID will generally not be issued with lateral instructions. Aircraft assigned a radar SID or visual departure must be provided with an assigned heading or other lateral departure instructions.
+Aircraft assigned a procedural SID will generally not be issued with lateral instructions. Aircraft assigned a radar SID or visual departure must be provided with an assigned heading or other lateral departure instructions, with examples shown below:
+
+| Instruction | Meaning |
+| ----------- | ------- |
+| Left/right turn | Make a visual left/right turn to establish on the planned outbound track |
+| Left 180 | At the SID turn height, or at a safe altitude (if visual departure), fly heading 180 |
+| Left 180 visual | As above, but with a pilot requirement to maintain visual separation with the ground/water and any obstacles |
+| Extended runway centreline | Track the extended runway centreline (accounting for drift) |
 
 An amended level may be instructed, or the term **unrestricted** used to indicate that no *additional* vertical restrictions apply. This permits the aircraft to climb to their cleared level (as issued with their airways clearance).
 
@@ -140,7 +147,7 @@ An amended level may be instructed, or the term **unrestricted** used to indicat
     <span class="hotline">**CS TCU** -> **CS ADC**</span>: "LKU, runway 15, left turn, unrestricted"  
     <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Left turn, LKU"
     
-    *QFA442 is assigned a procedural SID from YMML with autorelease cancelled*  
+    *QFA442 is assigned a procedural SID from YMML with Auto Release cancelled*  
     <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, QFA442, runway 16"  
     <span class="hotline">**ML TCU** -> **ML ADC**</span>: "QFA442, unrestricted"  
 
@@ -240,23 +247,23 @@ For more information, refer to individual local instructions.
 
 ### Radar Towers
 #### Radar TWR -> TCU
-[Next](#next) call **within 2 minutes of takeoff** unless overridden by local autorelease rules.
+[Next](#next) call **within 2 minutes of takeoff** unless overridden by local Auto Release rules.
 
 If Auto Release is suspended by the TCU controller, respond by advising of any aircraft with a takeoff clearance.
 
 !!! phraseology
-    <span class="hotline">**TCU** -> **ADC**</span>: "Cancel autorelease"  
-    <span class="hotline">**ADC** -> **TCU**</span>: "Cancel autorelease, QLK108D released"  
+    <span class="hotline">**TCU** -> **ADC**</span>: "Cancel Auto Release"  
+    <span class="hotline">**ADC** -> **TCU**</span>: "Cancel Auto Release, QLK108D released"  
     <span class="hotline">**TCU** -> **ADC**</span>: "QLK108D"
 
 #### TCU -> Radar TWR
-Radar TWRs will [Next](#next) coordinate all departures unless permitted by local autorelease rules. Respond with any lateral departure instructions (if required by SID or departure procedure) and any additional vertical restrictions, or "unrestricted". 
+Radar TWRs will [Next](#next) coordinate all departures unless permitted by local Auto Release rules. Respond with any lateral departure instructions (if required by SID or departure procedure) and any additional vertical restrictions, or "unrestricted". 
 
-If due to weather, overflying aircraft, runway config changes, etc. autorelease needs to be cancelled, advise this to the ADC controller.  They will respond with any aircraft who have a takeoff clearance.
+If due to weather, overflying aircraft, runway config changes, etc. Auto Release needs to be cancelled, advise this to the ADC controller.  They will respond with any aircraft who have a takeoff clearance.
 
 !!! phraseology
-    <span class="hotline">**TCU** -> **ADC**</span>: "Cancel autorelease"  
-    <span class="hotline">**ADC** -> **TCU**</span>: "Cancel autorelease, QLK108D released"  
+    <span class="hotline">**TCU** -> **ADC**</span>: "Cancel Auto Release"  
+    <span class="hotline">**ADC** -> **TCU**</span>: "Cancel Auto Release, QLK108D released"  
     <span class="hotline">**TCU** -> **ADC**</span>: "QLK108D"
 
 ### TCUs
