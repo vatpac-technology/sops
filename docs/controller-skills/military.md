@@ -134,11 +134,13 @@ The Intial and Pitch is a military approach to the circuit area. Military aircra
 - Pitch short (abeam the landing threshold)
 - Pitch long (abeam the upwind threshold)
 
+
+
 !!! note
    Refer to each aerodrome's SOPs for location-specific altitude and approach points.
 
 !!! phraseology
 
-**VIPR47**: "Request straight initial Runway 27"
-**ESA**: "VIPR47, cleared straight inital Runway 27, descend 'A015', pitch long"
+**VIPR47**: "Request Visual Approach via Left Initial Runway 27"
+**ESA**: "VIPR47, Cleared Visual Approach via Left Initial Runway 27,pitch long"
 
