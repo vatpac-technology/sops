@@ -1,8 +1,6 @@
 # Project Information
 site_name: VATPAC Standard Operating Procedures
 site_url: https://sops.vatpac.org
-repo_url: https://github.com/vatpac-technology/sops
-repo_name: vatpac-technology/sops
 edit_uri: "" #removes edit button and icon
 copyright: ""
 
