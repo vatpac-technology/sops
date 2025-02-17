@@ -41,14 +41,13 @@ The **Hume Highway** is a good reference for this standard.
 
 ## Coordination
 ### Departures
-A 'Next' call is made for all aircraft entering ELW(BLA) CTA when they are next to depart. AY ADC must inform ELW(BLA) if the aircraft does not depart within **2 minutes** of the next call.
+[Next](../../controller-skills/coordination.md#next) coordination is required from AY ADC to BLA for all aircraft **entering BLA CTA**.
 
-!!! phraseology
-    <span class="hotline">**AY ADC** -> **BLA**</span>: "Next, AM324"  
-    <span class="hotline">**BLA** -> **AY ADC**</span>: "AM324, Unrestricted"  
-    <span class="hotline">**AY ADC** -> **BLA**</span>: "AM324"
+The Standard Assignable level from **AY ADC** to **BLA** is:
 
-The Standard Assignable level from AY TWR to ELW(BLA) is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A070` and `RFL` |
 
 ### Arrivals/Overfliers
 ELW(BLA) will heads-up coordinate all arrivals/overfliers to AY ADC

@@ -43,14 +43,13 @@ The **coastline** is a good reference for this standard. Due to high terrain clo
 
 ## Coordination
 ### Departures
-A 'next' call is made for all aircraft entering INL/ARL(MNN) CTA when they are next to depart. CFS ADC must inform INL/ARL(MNN) if the aircraft does not depart within **2 minutes** of the next call.
+[Next](../../controller-skills/coordination.md#next) coordination is required from CFS ADC to INL/ARL(MNN) for all aircraft **entering INL/ARL(MNN) CTA**.
 
-!!! phraseology
-    <span class="hotline">**CFS ADC** -> **MNN**</span>: "Next, QJE1573"  
-    <span class="hotline">**MNN** -> **CFS ADC**</span>: "QJE1573, Unrestricted"  
-    <span class="hotline">**CFS ADC** -> **MNN**</span>: "QJE1573"
+The Standard Assignable level from **CFS ADC** to **INL/ARL(MNN)** is:
 
-The Standard Assignable level from CFS ADC to INL/ARL(MNN) is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A070` and `RFL` |
 
 ### Arrivals/Overfliers
 INL/ARL(MNN) will heads-up coordinate all arrivals/overfliers to CFS ADC.
