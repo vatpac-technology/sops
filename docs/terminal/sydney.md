@@ -579,6 +579,12 @@ Heads-up coordination is not required from a SY TCU position to SRI for aircraft
 #### Airspace
 SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005`.
 
+#### ACD to SY TCU
+The controller assuming responsibility of **SY ACD** shall give [heads-up](../controller-skills/coordination.md#airways-clearance) coordination to the relevant SY TCU controller prior to the issue of the following clearances: 
+
+- VFR departures, other than helicopters assigned a helicopter route coded clearance  
+- Aircraft using a runway not on the ATIS
+
 #### Auto Release
 Auto Release is used for virtually all fixed-wing departures at Sydney. Unlike some other aerodromes, aircraft cleared via the **SY (RADAR) SID** do not need to be 'Next' coordinated, provided they are assigned the standard assignable level and a standard assignable heading from the table below.
 
@@ -597,31 +603,29 @@ Auto Release is used for virtually all fixed-wing departures at Sydney. Unlike s
 !!! tip
     If strong winds are present at altitude, TWR/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
 
-'Next' coordination is **not** required for aircraft that are:   
-    a) Departing from a runway nominated on the ATIS; and   
-    b) Assigned the Standard assignable level; and  
-    c) Assigned a **Procedural SID** (except **ABBEY** SID); or  
-    d) Assigned the **Radar** SID with a Standard Assignable Heading
+[Next](../controller-skills/coordination.md#next) coordination is **not** required for aircraft that are:   
 
-All other aircraft require a 'Next' call from SY ADC.
+- Departing from a runway nominated on the ATIS; and   
+- Assigned the Standard assignable level; and  
+- Assigned a **Procedural SID** (except **ABBEY** SID); or  
+- Assigned the **Radar** SID with a Standard Assignable Heading
+
+All other aircraft require a 'Next' call to SY TCU.
 
 'Next' coordination is additionally required for:  
-    a) Visual departures  
-    b) Departures to YSBK  
-    c) After a go around, the next departure from that runway  
-    d) Jets departing 16L via WOL  
-    e) All aircraft during the Curfew Runway Mode
 
-!!! phraseology
-    <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Next, ADA4, runway 34R"  
-    <span class="hotline">**SY TCU** -> **SY ADC**</span>: "ADA4, Heading 030, unrestricted"  
-    <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Heading 030, ADA4"
+- Visual departures  
+- Departures to YSBK  
+- After a go around, the next departure from that runway  
+- Jets departing 16L via WOL  
+- All aircraft during the Curfew Runway Mode
 
-The SY TCU controller can suspend/resume Auto Release at any time, with the concurrence of **SY ADC**.
+The Standard Assignable level from SY ADC to SY TCU is: 
 
-The Standard Assignable level from SY ADC to SY TCU is:  
-For Jets: `A050`  
-For Non-Jets: The lower of `A030` or the `RFL`
+| Aircraft | Level |
+| -------- | ----- |
+| Jets | `A050` |
+| Non-Jets | The lower of `A030` and `RFL` |
 
 ### BK ADC
 #### Airspace
@@ -630,16 +634,13 @@ BK ADC is responsible for the Class D airspace in the BK CTR `SFC` to `A015`.
 Refer to [Reclassifications](#bk-ctr) for operations when BK ADC is offline.
 
 #### Departures
-Aircraft departing YSBK in to SY TCU Class C will be coordinated from **BK ADC** when ready for takeoff.
+[Next](../controller-skills/coordination.md#next) coordination is required from BK ADC to SY TCU for all aircraft **entering SY TCU CTA**.
 
-!!! phraseology
-    <span class="hotline">**BK ADC** -> **SY TCU**</span>: "Next, TFX12"  
-    <span class="hotline">**SY TCU** -> **BK ADC**</span>: "TFX12, Unrestricted"  
-    <span class="hotline">**BK ADC** -> **SY TCU**</span>: "TFX12"  
+The Standard Assignable level from **BK ADC** to **SY TCU** is:
 
-    **BK ADC** will then clear the aircraft to takeoff , and instruct them to contact SY TCU passing `A015`.
-
-The Standard Assignable level from BK ADC to SY TCU is `A030`.
+| Aircraft | Level |
+| --- | -----|
+| All | `A030` |
 
 #### Arrivals
 SY TCU will heads-up coordinate arrivals/overfliers from Class C to BK ADC prior to **5 mins** from the boundary.  

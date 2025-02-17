@@ -135,34 +135,25 @@ All other aircraft coming from PIY CTA will be **Heads-up** Coordinated to PH TC
 
 ### PH ADC
 #### Auto Release
-'Next' coordination is **not** required for aircraft that are:   
-    a) Departing from a runway nominated on the ATIS; and  
-    b) Assigned the standard assignable level; and  
-    c) Assigned a **Procedural SID**
+[Next](../controller-skills/coordination.md#next) coordination is **not** required for aircraft that are:   
+
+- Departing from a runway nominated on the ATIS; and  
+- Assigned the standard assignable level; and  
+- Assigned a **Procedural SID**
 
 All other aircraft require a 'Next' call to PH TCU.
 
-!!! phraseology
-    <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Next, ABC, runway 03"  
-    <span class="hotline">**PH TCU** -> **PH ADC**</span>: "ABC, Heading 010, unrestricted"  
-    <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Heading 010, ABC"  
+The Standard Assignable level from PH ADC to PH TCU is:
 
-    **PH ADC**: "ABC, Assigned heading left 010, Runway 03, Cleared for Takeoff"  
-    **ABC**: "Left heading 010, Runway 010, Cleared for Takeoff, ABC"
-
-The PH TCU controller can suspend/resume Auto Release at any time, with the concurrence of PH ADC.
-
-The Standard Assignable level from PH ADC to PH TCU is the lower of `A050` or the `RFL`.
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `A050` and `RFL` |
 
 #### Airways Clearances
-The controller assuming responsibility of ACD shall give heads-up coordination to the relevant PH TCU controller prior to the issue of the following clearances:  
-a) VFR Departures  
-b) Aircraft using a runway not on the ATIS
+The controller assuming responsibility of ACD shall give [heads-up](../controller-skills/coordination.md#airways-clearance) coordination to the relevant PH TCU controller prior to the issue of the following clearances:  
 
-!!! phraseology
-    <span class="coldline">**PH ACD** -> **PH TCU**</span>: "ABC, requesting Victor 65"  
-    <span class="coldline">**PH TCU** -> **PH ACD**</span>: "ABC, cleared Victor 65, 1,500ft"  
-    <span class="coldline">**PH ACD** -> **PH TCU**</span>: "Cleared Victor 65, 1,500ft, ABC"
+- VFR departures into PH TCU CTA
+- Aircraft using a runway not on the ATIS 
 
 ### PH TCU Internal
 Voiceless coordination is in place for all aircraft processed by the Victor 65 and 66 routes in accordance with the table below.
