@@ -117,7 +117,7 @@ Lanes are defined by GNSS waypoints situated at 12, 35, and 50 NM from YMES AD.
 Lanes extend from `SFC` or the base of restricted airspace to `F160`. Aircraft departing ESL military airspace may be instructed to track via a lane at or below `F160`.
 
 !!! phraseology
-    *BRCT21 is departing East Sale via the Eastern Lane at FL110 to YORB*
+    *BRCT21 is departing East Sale via the Eastern Lane at FL110 to YORB*  
     **ES SMC** -> **BRCT21**: "BRCT21 cleared to YORB via Eastern Lane, flight plan route, climb to FL110, squawk 5072, departure frequency 123.3"
 
 ## Coordination
