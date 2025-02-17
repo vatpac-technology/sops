@@ -96,8 +96,7 @@ This allows for both Runway 09 and Runway 16 to operate independently of each ot
 When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) procedure, the OPR INFO shall include:  
 `ALL DEPARTURES MUST REQUEST PUSH BACK ON 127.2`  
 
-## Miscellaneous
-### Sunbury Corridor
+## Sunbury Corridor
 Day VFR Helicopters may request clearance via the **Sunbury Corridor**. It is defined as the corridor 1nm either side of a track from SWT - PWLC - 16/27 Intersection at YMML.
 
 <figure markdown>
@@ -131,6 +130,12 @@ Remember to pass traffic information to both aircraft.
 !!! phraseology
     **ML ADC:** "JST515, traffic is a helicopter, 2nm northwest of the field, tracking for Essendon and maintaining own separation with you, runway 16, cleared to land"  
     **JST515:** "Runway 16, cleared to land, JST515"
+
+## Pushback Disconnect Points
+In the real world, YMML utilises designated disconnect points to allow predictable pushback paths from various bays. On VATSIM, this is difficult to simulate, given the limited access to pushback maps and the additional plugins required to facilitate a pushback in this way.
+
+!!! warning "Important"
+    Disconnect points should only be issued with a pushback instruction on **pilot request** or after confirming that **both the pilot & controller** are competent in their use.
 
 ## Workload Management
 During busy events, such as [Milk Run Monday](../../../events/milkrun/), the **SMC** controller may end up with a much higher workload than the **ACD** controller. Additionally, delays may need to be implemented for aircraft requesting pushback, so as to not overload the taxiways and holding points.
