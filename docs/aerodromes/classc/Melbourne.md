@@ -213,7 +213,7 @@ During busy events, VATPAC may utilise prebooked slots to manage traffic congest
 !!! warning "Important"
     Melbourne utilises auto release for all **Procedural** SIDs and the **ML (RADAR)** SID provided aircraft are assigned the Standard Assignable Level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
-'Next' coordination is **not** required for aircraft that are:  
+[Next](../../controller-skills/coordination.md#next) coordination is **not** required for aircraft that are:  
 
 - Assigned a **Procedural** SID  
     - Departing from a runway nominated on the ATIS; and  
@@ -229,17 +229,11 @@ During busy events, VATPAC may utilise prebooked slots to manage traffic congest
 
 All other aircraft require a 'Next' call to ML TCU.
 
-!!! phraseology
-    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, JIA, runway 34"  
-    <span class="hotline">**ML TCU** -> **ML ADC**</span>: "JIA, Track Extended Centreline, Unrestricted"  
-    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Track Extended Centreline, JIA"  
+The Standard Assignable level from ML ADC to ML TCU is:
 
-    **ML ADC**: "JIA, Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff"  
-    **JIA**: "Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff, JIA"
-
-The ML TCU controller can suspend/resume Auto Release at any time, with the concurrence of **ML ADC**.
-
-The Standard Assignable level from ML ADC to ML TCU is the lower of `A050` or the `RFL`.
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `A050` and `RFL` |
 
 ### Standard Assignable Departure Headings
 Aircraft that have been cleared the **ML (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance.
@@ -267,6 +261,6 @@ Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace
 EN ADC is responsible for separation with all YMML traffic, and will coordinate any aircraft operating in EN ADC airspace that cannot be visually or laterally separated with YMML traffic.
 
 !!! phraseology 
-    <span class="hotline">**EN ADC** -> **ML ADC**</span>: "Boundary Ident, OXG, Published Missed Approach from the ILS 26"  
-    <span class="hotline">**ML ADC** -> **EN ADC**</span>: "OXG, My restriction is QFA451 on a 10nm final RWY 34. Your separation"  
+    <span class="hotline">**EN ADC** -> **ML ADC**</span>: "For Ident, OXG, published missed approach from the ILS 26"  
+    <span class="hotline">**ML ADC** -> **EN ADC**</span>: "OXG, my restriction is QFA451 on a 10nm final RWY 34, your separation"  
     <span class="hotline">**EN ADC** -> **ML ADC**</span>: "My separation with QFA451, OXG"

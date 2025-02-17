@@ -80,14 +80,13 @@ The intial point is at A020 on the extended centerline of Taxiway Alpha at 6.5NM
 
 ## Coordination
 ### TN TCU
-'Next' coordination is required from TN ADC to TN TCU for all aircraft.
+[Next](../../controller-skills/coordination.md#next) coordination is required from TN ADC to TN TCU for all aircraft.
 
-!!! phraseology
-    <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Next, ASY01, runway 32"  
-    <span class="hotline">**TN TCU** -> **TN ADC**</span>: "ASY01, Heading 030, unrestricted"  
-    <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Heading 030, ASY01"  
+The Standard Assignable level from TN ADC to TN TCU is:
 
-The Standard Assignable level from TN ADC to TN TCU is the lower of `F180` or the `RFL`.
+| Aircraft | Level |
+| ----- | ---- |
+| All | The lower of `F180` and `RFL` |
 
 ### TRT(TRS)
 When TN TCU is offline, coordination is not required between TN ADC and TRT(TRS). Aircraft entering TRT(TRS) airspace shall be handed off, and instructed to contact TRT(TRS) for onwards clearance.

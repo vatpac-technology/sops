@@ -50,14 +50,14 @@ Procedures relating to Helicopters can be found in the Airforce AIP AD2 SUPPS Se
 
 ## Coordination
 ### Auto Release  
-'Next' coordination is **not** required from TL ADC to TL TCU for aircraft that are:  
-a) Departing from a runway nominated in the ATIS; and  
-b) Assigned the standard assignable level;  
-c) Assigned a **Procedural** SID  
+[Next](../../controller-skills/coordination.md#next) coordination is **not** required from TL ADC to TL TCU for aircraft that are:  
 
-!!! phraseology
-    <span class="hotline">**TL ADC** -> **TL TCU**</span>: "Next, DNGO05, runway 19"  
-    <span class="hotline">**TL TCU** -> **TL ADC**</span>: "DNGO05, Assigned Heading Left 150, unrestricted"  
-    <span class="hotline">**TL ADC** -> **TL TCU**</span>: "Assigned Heading Left 150, DNGO05"  
+- Departing from a runway nominated in the ATIS; and  
+- Assigned the standard assignable level; and 
+- Assigned a **Procedural** SID 
 
-The Standard Assignable level from TL ADC to TL TCU is the lower of `F180` or the RFL.
+The Standard Assignable level from TL ADC to TL TCU is:
+
+| Aircraft | Level |
+| ------ | ------- |
+| All | The lower of `F180` and `RFL` |

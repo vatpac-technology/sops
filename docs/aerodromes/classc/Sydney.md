@@ -395,34 +395,29 @@ During busy events, VATPAC may utilise prebooked slots to manage traffic congest
 !!! warning "Important"
     YSSY utilises auto release for all **Procedural** SIDs (except **ABBEY** SID during SODPROPS), and the **SY (RADAR)** SID provided aircraft are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
-'Next' coordination is **not** required for aircraft that are:   
-    a) Departing from a runway nominated on the ATIS; and   
-    b) Assigned the Standard assignable level; and  
-    c) Assigned a **Procedural SID** (except **ABBEY** SID); or  
-    d) Assigned the **Radar** SID with a [Standard Assignable Heading](#standard-assignable-departure-headings)
+[Next](../../controller-skills/coordination.md#next) coordination is **not** required for aircraft that are:   
+
+- Departing from a runway nominated on the ATIS; and   
+- Assigned the Standard assignable level; and  
+- Assigned a **Procedural SID** (except **ABBEY** SID); or  
+- Assigned the **Radar** SID with a [Standard Assignable Heading](#standard-assignable-departure-headings)
 
 All other aircraft require a 'Next' call to SY TCU.
 
 'Next' coordination is additionally required for:  
-    a) Visual departures  
-    b) Departures to YSBK  
-    c) After a go around, the next departure from that runway  
-    d) Jets departing 16L via WOL  
-    e) All aircraft during the Curfew Runway Mode
 
-!!! phraseology
-    <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Next, MHQ, Runway 34R"  
-    <span class="hotline">**SY TCU** -> **SY ADC**</span>: "MHQ, heading 030, unrestricted"  
-    <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Heading 030, MHQ"  
+- Visual departures  
+- Departures to YSBK  
+- After a go around, the next departure from that runway  
+- Jets departing 16L via WOL  
+- All aircraft during the Curfew Runway Mode
 
-    **SY ADC**: "MHQ, Assigned heading right 030, Runway 34R, Cleared for Takeoff"  
-    **MHQ**: "Right heading 030, Runway 34R, Cleared for Takeoff, MHQ"
+The Standard Assignable level from SY ADC to SY TCU is: 
 
-The SY TCU controller can suspend/resume Auto Release at any time, with the concurrence of **SY ADC**.
-
-The Standard Assignable level from SY ADC to SY TCU is:  
-For Jets: `A050`  
-For Non-Jets: The lower of `A030` or the `RFL`
+| Aircraft | Level |
+| -------- | ----- |
+| Jets | `A050` |
+| Non-Jets | The lower of `A030` and `RFL` |
 
 ### Departures Controller
 Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SDN** and/or **SDS** are online.
@@ -447,17 +442,7 @@ Aircraft that have been cleared the **SY (RADAR) SID** must receive an assigned 
 **SY ADC** has responsibility of all runways, requiring **SY SMC** to coordinate with **SY ADC** to allow aircraft to cross runways whilst taxiing. **SY SMC** may request, or **SY ADC** may elect, to release certain runways to the **SY SMC** controller, so they may let aircraft cross the runway without coordination (for example, releasing runway 07/25 to **SY SMC** whilst PROPS are in progress.) This release may also be cancelled at the controller's discretion.
 
 ### ACD to SY TCU
-The controller assuming responsibility of **SY ACD** shall give heads-up coordination to the relevant SY TCU controller prior to the issue of the following clearances:  
-a) VFR Departures  
-b) Aircraft using a runway not on the ATIS 
+The controller assuming responsibility of **SY ACD** shall give [heads-up](../../controller-skills/coordination.md#airways-clearance) coordination to the relevant SY TCU controller prior to the issue of the following clearances: 
 
-!!! phraseology
-    **TEK:** "Sydney Delivery, TEK, for YSHL via CUL, A025, request clearance"  
-    **SY ACD:** "TEK, Sydney Delivery, standby"    
-
-    <span class="coldline">**SY ACD** -> **SY TCU**</span>: "TEK, requesting clearance for YSHL via CUL, A025"  
-    <span class="coldline">**SY TCU** -> **SY ACD**</span>: "TEK, cleared to YSHL via CUL, A025"  
-    <span class="coldline">**SY ACD** -> **SY TCU**</span>: "Cleared to YSHL via CUL, A025, TEK"   
-
-    **SY ACD:** "TEK, cleared to YSHL via CUL, climb A025, squawk 0552, departure frequency 123.0"  
-    **TEK:** "Cleared to YSHL via CUL, climb A025, squawk 0552, departure frequency 123.0, TEK"  
+- VFR departures, other than helicopters assigned a helicopter route coded clearance  
+- Aircraft using a runway not on the ATIS

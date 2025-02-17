@@ -54,18 +54,15 @@ HAWKs have circuit altitude of `A016`, while both 2FTS and RSAF PC21s are assign
 
 ## Coordination
 ### PE TCU
-'Next' coordination is required from PE ADC to PE TCU for all aircraft.
-
-!!! phraseology
-    <span class="hotline">**PE ADC** -> **PE TCU**</span>: "Next, ASY01, runway 36L"  
-    <span class="hotline">**PE TCU** -> **PE ADC**</span>: "ASY01, Heading 030, unrestricted"  
-    <span class="hotline">**PE ADC** -> **PE TCU**</span>: "Heading 030, ASY01"
+[Next](../../controller-skills/coordination.md#next) coordination is required from PE ADC to PE TCU for all aircraft.
 
 The Standard Assignable Level from **PE ADC** to **PE TCU** is:
 
-- `F130` for aircraft assigned a Procedural SID; except
-- `A030` for aircraft assigned the **GUNOK** SID; or
-- The lower of `F130` or `RFL` for all other aircraft
+| Departure Procedure | Level |
+| ------------------- | ----- |
+| **GUNOK** SID | `A030` |
+| A **Procedural** SID | `F130` |
+| All others | The lower of `F130` and `RFL` |
 
 ## Charts
 !!! abstract "Reference"

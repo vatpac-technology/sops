@@ -99,26 +99,20 @@ Helicopters arriving to the pads will generally be coordinated by the TMA contro
 
 ## Coordination
 ### Auto Release
-'Next' coordination is not required to CB TCU for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a **Procedural** SID
+[Next](../../controller-skills/coordination.md#next) coordination is not required to CB TCU for aircraft that are:   
+  
+  - Departing from a runway nominated on the ATIS; and  
+  - Assigned the standard assignable level; and  
+  - Assigned a **Procedural** SID
 
 All other aircraft require a 'Next' call to CB TCU.
 
-!!! phraseology
-    <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Next, XEB, runway 35"  
-    <span class="hotline">**CB TCU** -> **CB ADC**</span>: "XEB, heading 010, Unrestricted"  
-    <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Heading 010, XEB"
-
-    **CB ADC**: "XEB, Assigned heading Right 010, Runway 35, Cleared for Takeoff"  
-    **XEB**: "Right heading 010, Runway 35, Cleared for Takeoff, XEB"
-
-The CB TCU controller can suspend/resume Auto Release at any time, with the concurrence of **CB ADC**.
-
 The Standard Assignable level from CB ADC to CB TCU is:  
-For IFR aircraft: `A100`  
-For VFR aircraft: The lower of `A040` or the `RFL`
+
+| Flight Rules | Level |
+| ------------ | ----- |
+| IFR | `A100` |
+| VFR | The lower of `A040` and `RFL` |
 
 ### Runway Change
 Any Runway change must be prior coordinated to **CB TCU**.
