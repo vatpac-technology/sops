@@ -25,7 +25,7 @@ SG ADC owns the Class C airspace within the SG CTR from `SFC` to `A015`.
 ### SG TCU
 [Next](../../controller-skills/coordination.md#next) coordination is required from SG ADC to SG TCU for all aircraft.
 
-The Standard Assignable Level from  **SG ADC** to **SG TCU** is:
+The Standard Assignable Level from **SG ADC** to **SG TCU** is:
 
 | Aircraft | Level |
 | ------- | ------- |
