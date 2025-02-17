@@ -60,17 +60,16 @@ For non-RNAV approved IFR aircraft with a wake turbulence category of light, iss
 VFR aircraft that will operate only in ADCs airspace shall be assigned SSR code 0100  
 
 Circuit altitude will depend on the type of aircraft. Assign circuit altitudes for the following aircraft types:  
-a) MIL Jet: `A020`  
-b) Jet: `A015`  
-c) Non-jet: `A010`  
-d) Helo: `A010`  
+
+| Aircraft | Altitude |
+| ----- | ---- |
+| Military Jet | `A020` |
+| Other Jet | `A015` |
+| Non-Jet | `A010` |
+| Helicopter | `A010` | 
 
 ### VFR Departures
-VFR aircraft are required to track via one of the published VFR Routes.  
-
-VFR routes shall be assigned based on the destination radial from Darwin.  
-
-Assign VFR routes in accordance with the following radial chart:  
+VFR aircraft are required to track via one of the published VFR Routes (as shown on the Darwin VTC). VFR routes shall be assigned based on the destination radial from Darwin, as per below:  
 
 |Outbound Radial |Assigned VFR Route|
 |---|---|
@@ -82,7 +81,7 @@ Assign VFR routes in accordance with the following radial chart:
 |225 – 359| Direct|
 
 !!! tip
-    If a VFR aircraft has not planned via a VFR route as above, use the phraseology: “ABC, cleared amended route VFR route 1, maintain A020, squawk 4512”
+    If a VFR aircraft has not planned via a VFR route as above, use the phraseology: “*ABC, cleared amended route VFR route 1, climb to A020, squawk 4512*”
 
 ## Coordination
 ### DN TCU

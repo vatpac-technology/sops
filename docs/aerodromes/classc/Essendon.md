@@ -119,15 +119,14 @@ The Standard Assignable level from ED ADC to AD TCU is:
 
 #### Arrivals/Overfliers
 ML TCU will heads-up coordinate arrivals/overfliers from Class C to EN ADC.  
-IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to EN ADC, unless EN ADC nominates a restriction.  
-VFR aircraft require a level readback.
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to EN ADC, unless EN ADC nominates a restriction.
 
 !!! phraseology 
     <span class="hotline">**ML TCU** -> **EN ADC**</span>: "via KAO, KHU"  
     <span class="hotline">**EN ADC** -> **ML TCU**</span>: "KHU, A015"
 
 !!! Note
-    For aircraft not tracking via an Arrival Gate (ML TCU shall clear aircraft for approach via the appropriate arrival gate:), ML TCU is required to coordinate descent of aircraft into EN ADC airspace.
+    For aircraft not tracking via an Arrival Gate, ML TCU is required to coordinate descent of aircraft into EN ADC airspace.
 
 When “The Coffin” is released, ML TCU is required to coordinate any use of Runway 27 prior to use.
 

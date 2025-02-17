@@ -24,6 +24,7 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 ### Departures
 #### Auto Release
 [Next](../../controller-skills/coordination.md#next) coordination is **not** required to MKA for aircraft that are:   
+
 - Departing from a runway nominated on the ATIS; and  
 - Assigned the standard assignable level; and  
 - Assigned a **Procedural** SID; or  

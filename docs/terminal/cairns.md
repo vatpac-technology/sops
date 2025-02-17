@@ -108,39 +108,31 @@ Flow instructions shall be based on Feeder Fix times. The following points are t
 
 ## Coordination
 ### ADC
-### Airspace
-CS ADC is responsible for the Class C Airspace within the CS CTR `SFC` to `A010`.
-
 #### Departures
-'Next' coordination is **not** required from CS ADC for aircraft that are:   
-- Departing from a runway nominated on the ATIS; and  
-- Assigned the standard assignable level; and  
-- Assigned a **Procedural** SID
+[Next](../controller-skills/coordination.md#next) coordination is **not** required for aircraft that are:   
 
-!!! phraseology
-    <span class="hotline">**ADC** -> **TCU**</span>: "Next, RXA5417, runway 15"  
-    <span class="hotline">**TCU** -> **ADC**</span>: "RXA5417, heading 030, unrestricted"  
-    <span class="hotline">**ADC** -> **TCU**</span>: "Heading 030, RXA5417"
+  - Departing from a runway nominated on the ATIS; and  
+  - Assigned the standard assignable level; and  
+  - Assigned a **Procedural** SID
+
+All other aircraft require a 'Next' call to CS TCU.
+
+The Standard Assignable level from CS ADC to CS TCU is:
+
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `A060` and `RFL` |
 
 See [Standard Assignable Headings](#standard-assignable-headings) for the range of assignable headings available to aircraft on the **radar SID**.
-
-The Standard Assignable level from CS ADC to CS TCU is the lower of `A060` or the `RFL`.
 
 #### Arrivals
 Aircraft tracking via a visual right base to runway 33 must be coordinated with ADC (see [Visual Base Runway 33](#visual-base-runway-33)). All other arriving aircraft do not require coordination.
 
 ### ACD
-The controller assuming responsibility of **CS ACD** shall give heads-up coordination to the relevant CS TCU controller prior to the issue of the following clearances:  
-- VFR Departures  
+The controller assuming responsibility of **CS ACD** shall give [heads-up](../controller-skills/coordination.md#airways-clearance) coordination to the relevant CS TCU controller prior to the issue of the following clearances:  
+
+- VFR departures entering CS TCU CTA
 - Aircraft using a runway not on the ATIS
-
-!!! phraseology
-    <span class="coldline">**CS ACD** -> **CS TCU**</span>: "ABC, Requesting clearance for a Northbound VFR Coastal departure at A035"  
-    <span class="coldline">**CS TCU** -> **CS ACD**</span>: "ABC, Cleared for a Northbound VFR Coastal departure, A035"  
-    <span class="coldline">**CS ACD** -> **CS TCU**</span>: "Cleared for a Northbound VFR Coastal departure, A035, ABC"  
-
-    **CS ACD**: "ABC, Cleared for a Northbound VFR Coastal departure, A035, Squawk 3601"  
-    **ABC**: "Cleared for a Northbound VFR Coastal departure, A035, 3601, ABC"
 
 ### Enroute
 #### Departures

@@ -85,5 +85,6 @@ Refer to [Perth TCU Airspace Division](../../../terminal/perth/#airspace-divisio
 
 ### ACD to PH TCU
 The controller assuming responsibility of ACD shall give [heads-up](../../controller-skills/coordination.md#airways-clearance) coordination to the relevant PH TCU controller prior to the issue of the following clearances:  
+
 - VFR departures into PH TCU CTA
 - Aircraft using a runway not on the ATIS 

@@ -90,11 +90,10 @@ Voiceless for all aircraft:
 All other aircraft coming from TRT(TRS) CTA will be **Heads-up** Coordinated to TN TCU.
 
 ### TN ADC
-'Next' coordination is required from TN ADC to TN TCU for all aircraft.
+[Next](../controller-skills/coordination.md#next) coordination is required from TN ADC to TN TCU for all aircraft.
 
-!!! phraseology
-    <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Next, ASY01, runway 32"  
-    <span class="hotline">**TN TCU** -> **TN ADC**</span>: "ASY01, Heading 030, unrestricted"  
-    <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Heading 030, ASY01"  
+The Standard Assignable level from TN ADC to TN TCU is:
 
-The Standard Assignable level from TN ADC to TN TCU is the lower of `F180` or the `RFL`.
+| Aircraft | Level |
+| ----- | ---- |
+| All | The lower of `F180` and `RFL` |

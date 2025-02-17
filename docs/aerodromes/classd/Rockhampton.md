@@ -40,7 +40,7 @@ The Standard Assignable level from **MK/RK ADC** to **MKA/RKA** is:
 #### MK/RK SMC
 The controller assuming responsibility of **SMC** shall give heads-up coordination to **RKA** controller prior to the issue of the following clearances:  
 
-- VFR Departures  
+- VFR departures entering RKA CTA
 - Aircraft using a runway not on the ATIS
 
 ### Arrivals/Overfliers
