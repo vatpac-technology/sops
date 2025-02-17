@@ -135,7 +135,7 @@ Remember to pass traffic information to both aircraft.
 In the real world, YMML utilises Towbar Disconnect Points (TDPs) to allow predictable pushback paths from various bays. On VATSIM, this is difficult to simulate, given the limited access to pushback maps and the additional plugins required to facilitate a pushback in this way.
 
 !!! warning "Important"
-    Disconnect points should only be issued with a pushback instruction on **pilot request** or after confirming that **both the pilot & controller** are competent in their use.
+   In the real world, disconnect points are rarely assigned by the SMC controller, as each bay has a standard disconnect point. As such, disconnect points should only be assigned where there is benefit to traffic flow on the apron, after confirming that **both the pilot & controller** are competent in their use, or on **pilot request**.
 
 ## Workload Management
 During busy events, such as [Milk Run Monday](../../../events/milkrun/), the **SMC** controller may end up with a much higher workload than the **ACD** controller. Additionally, delays may need to be implemented for aircraft requesting pushback, so as to not overload the taxiways and holding points.
