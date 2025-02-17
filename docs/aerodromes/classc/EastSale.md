@@ -17,17 +17,16 @@
 ES ADC owns no airspace. Release may be available from ES APP for circuits.
 
 ## Flight Category
-- **Resuming VFR**:
-  - Recovering military aircraft must automatically revert to VFR at the following points:
-    - At the initial point when recovering via military stream landing pattern (initial and pitch).
-    - At Hi-Key.
-    - Following a touch and go, go-around, or visual overshoot when a local IFR aircraft has indicated an intention to join the circuit.
+Recovering military aircraft must automatically revert to VFR at the following points:
+
+- At the initial point when recovering via military stream landing pattern (initial and pitch)
+- At Hi-Key
+- Following a touch and go, go-around, or visual overshoot when a local IFR aircraft has indicated an intention to join the circuit
 
 ## Runway Modes
 Single runway operations only.
 
 ## Circuit Procedures
-
 The East Sale Circuit Area (ESL CIRA) is active at all times when R360A is active.
 
 Circuit operations occur within a `5NM` radius of ESL ARP, at the following altitudes:
@@ -70,18 +69,14 @@ Circuit operations occur within a `5NM` radius of ESL ARP, at the following alti
 | 04     | Right     |
 | 27     | Right     |
 
-### Circuit Saturation
-ATC should declare the circuit saturated when aircraft exceeds the below table.
-When the circuit is saturated further circuits will be unavailable until numbers are within tolerance of the table.
-This number may be reduced by ATC due to complexity of operations and prevailing weather in order to ensure safety.
+No more than the following aircraft shall be permitted to operate in the circuit area at any one time:
 
-| Time   | ESL Day | ESL Night | WSL Day | WSL Night |
+| | ESL Day | ESL Night | WSL Day | WSL Night |
 | ------ | ------- | --------- | ------- | --------- |
-| Day    | 6       | 5         | 5       | 5         |
+| Aircraft Count    | 6       | 5         | 5       | 5         |
 
 ## Low Approach
-- By day, pilots of local aircraft may request a low approach.
-- Pilots are responsible for ensuring that no collision risk exists and that there is suitable spacing to continue the approach and for the potential/subsequent go-around.
+By day, pilots of local aircraft may request a low approach. Pilots are responsible for ensuring that no collision risk exists and that there is suitable spacing to continue the approach and for the potential/subsequent go-around.
 
 ## Standard Taxi Routes
 | Runway     | Outbound Route                   | Inbound Route                   |
@@ -92,23 +87,22 @@ This number may be reduced by ATC due to complexity of operations and prevailing
 | Runway 04  | J                                | D2                              |
 
 <figure markdown>
-![ESL TAXI INBOUND](img/esl_taxi_inbound.png){ width="700" }
-<figcaption>ESL TAXI INBOUND</figcaption>
+![Inbound Taxi Routes](img/esl_taxi_inbound.png){ width="700" }
+<figcaption>Inbound Taxi Routes</figcaption>
 </figure>
 
 <figure markdown>
-![ESL TAXI OUTBOUND](img/esl_taxi_outbound.png){ width="700" }
-<figcaption>ESL TAXI OUTBOUND</figcaption>
+![Outbound Taxi Routes](img/esl_taxi_outbound.png){ width="700" }
+<figcaption>Outbound Taxi Routes</figcaption>
 </figure>
 
 ## Helicopter Operations
-- **Helicopter Circuits**:  
-  - When RWY09/27 is being used for fixed-wing circuit training, it is preferred that helicopters utilise threshold runway 04 (runway 09/27 direction) for landing and take-off to increase segregation between final approach and upwind segments.
-  - When helicopters require use of TWY A (Pad Alpha) for circuit training, base turns should be sequenced to avoid conflict during the final approach segment.
+### Circuits  
+When RWY09/27 is being used for fixed-wing circuit training, it is preferred that helicopters utilise the threshold of runway 04 (runway 09/27 direction) for landing and take-off to increase segregation between final approach and upwind segments. When helicopters require use of TWY A (Pad Alpha) for circuit training, base turns should be sequenced to avoid conflict during the final approach segment.
 
 ## Lanes
-The 16 individual training areas within the ESL military airspace are separated by 4 outbound lanes.
-These lanes are used by aircraft transiting to/from exterior training areas or for entry and exit of ESL military airspace.
+The 16 individual training areas within the ESL military airspace are separated by 4 outbound lanes. These lanes are used by aircraft transiting to/from exterior training areas or for entry and exit of ESL military airspace.
+
 Lanes are defined by GNSS waypoints situated at 12, 35, and 50 NM from YMES AD.
 
 ### Outbound Lanes
@@ -120,32 +114,22 @@ Lanes are defined by GNSS waypoints situated at 12, 35, and 50 NM from YMES AD.
 | Southern       | SABAX              | LUTUK              | NOLOX              | 180     |
 | Western        | DUGAD              | LERKO              | DUNNE              | 270     |
 
-- **Vertical Dimensions**:  
-  Lanes extend from `SFC` or the base of restricted airspace to `F160`.
-
-#### Example Departure Clearance via Lane
-
-Aircraft departing ESL military airspace may be instructed to track via a lane at or below `F160`.
+Lanes extend from `SFC` or the base of restricted airspace to `F160`. Aircraft departing ESL military airspace may be instructed to track via a lane at or below `F160`.
 
 !!! phraseology
-    **BRCT21** is departing East Sale via the Eastern Lane at FL110 to Orbost (YORB). The departure clearance would be issued as follows:
-    **ES SMC** -> **BRCT21**: "BRCT21 CLEARED TO YORB, VIA EASTERN LANE, FPR, FL110, SQUAWK 1234, DEPARTURES 123.3"
-
-**If BRCT21 was departing at or above FL160**, then departure clearance is as normal.
-
-## Level Assignment
-- `F160` or `RFL` whichever is lower for fixed-wing aircraft.
-- `A040` or `RFL` whichever is lower for rotary-wing aircraft.
+    *BRCT21 is departing East Sale via the Eastern Lane at FL110 to YORB*
+    **ES SMC** -> **BRCT21**: "BRCT21 cleared to YORB via Eastern Lane, flight plan route, climb to FL110, squawk 5072, departure frequency 123.3"
 
 ## Coordination
-
 ### Auto Release
-Auto release is not utilised at East Sale. 'Next' coordination is required from ES ADC to ES TCU for all aircraft.
+[Next](../../controller-skills/coordination.md#next) coordination is required from ES ADC to ES TCU for all aircraft.
 
-!!! phraseology
-    <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Next, ASY01, runway 09"  
-    <span class="hotline">**ES TCU** -> **ES ADC**</span>: "ASY01, Assigned Heading Left 030, unrestricted"  
-    <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Left Heading 030, ASY01" 
+The Standard Assignable Level from  **ES ADC** to **ES TCU** is:
+
+| Aircraft | Level |
+| -------- | ----- |
+| Fixed-wing | The lower of `F160` and `RFL` |
+| Rotary-wing | The lower of `A040` and `RFL` |
 
 Helicopters departing from helicopter spots will be treated as if departing from the duty runway.
 

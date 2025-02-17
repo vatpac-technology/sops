@@ -23,14 +23,13 @@ SG ADC owns the Class C airspace within the SG CTR from `SFC` to `A015`.
 
 ## Coordination
 ### SG TCU
-'Next' coordination is required from SG ADC to SG TCU for all aircraft.
+[Next](../../controller-skills/coordination.md#next) coordination is required from SG ADC to SG TCU for all aircraft.
 
-!!! phraseology
-    <span class="hotline">**SG ADC** -> **SG TCU**</span>: "Next, ASY219, runway 30"  
-    <span class="hotline">**SG TCU** -> **SG ADC**</span>: "ASY219, unrestricted"  
-    <span class="hotline">**SG ADC** -> **SG TCU**</span>: "ASY219"  
+The Standard Assignable Level from  **SG ADC** to **SG TCU** is:
 
-The Standard Assignable Level from  **SG ADC** to **SG TCU** is the lower of `F240` or the `RFL`.
+| Aircraft | Level |
+| ------- | ------- |
+| All | The lower of `F240` and `RFL` |
 
 ### ISA(ARA)
 When SG TCU is offline, coordination is not required between SG ADC and ISA(ARA). Aircraft entering ISA(ARA) airspace shall be handed off, and instructed to contact ISA(ARA) for onwards clearance.

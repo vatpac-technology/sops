@@ -86,15 +86,12 @@ Assign VFR routes in accordance with the following radial chart:
 
 ## Coordination
 ### DN TCU
-Auto-Release is **not available** at YPDN. All Departures will be coordinated when ready for departure.
+[Next](../../controller-skills/coordination.md#next) coordination is required from DN ADC to DN TCU for all aircraft.
 
-!!! phraseology
-    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Next, EOC, runway 18"  
-    <span class="hotline">**DN TCU** -> **DN ADC**</span>: "EOC, Track Extended Centreline, unrestricted"  
-    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Track Extended Centreline, EOC"  
+The Standard Assignable Level from  **DN ADC** to **DN TCU** is:
 
-The Standard Assignable level from **DN ADC** to **DN TCU** is:
-
-- For IFR aircraft assigned a Procedural SID: the lower of `F180` or the `RFL`.  
-- For IFR aircraft **not** assigned a Procedural SID: the lower of `A030` or the `RFL`.  
-- For VFR aircraft: the lower of `A020` or the `RFL`.
+| Aircraft | Level |
+| -------- | ----- |
+| IFR aircraft assigned a **Procedural** SID | The lower of `F180` and `RFL` |
+| IFR aircraft **not** assigned a **Procedural** SID | The lower of `A030` and `RFL` |
+| VFR aircraft | The lower of `A020` and `RFL` |
