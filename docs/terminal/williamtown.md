@@ -41,9 +41,9 @@ Fast jet aircraft typically transit from M550 to YWLM via Gate 6 at `F125`. When
     See [Controller Skills](../controller-skills/military.md#stereo-approaches) for more details about stereo approaches.
 
 !!! Example
-**MAPL45**: "WLM TCU, RTBing via G6 for RWY12"
-**WLM TCU**: "MAPL45, cleared the stereo appraoch for RWY 12 via G6, once 9DME north of the tacan descend not below `A050`"
-**MAPL45**: "Once 9DME north, descend not below `A050`"
+**MAPL45**: "Willy Approach, MAPL45, RTBing via G6, runway 12" 
+**WLM TCU**: "MAPL45, Willy Approach, cleared stereo approach runway 12, via G6, once 9DME north of the TACAN, descend not below 'A050'"  
+**MAPL45**: "Cleared stereo approach runway 12, via G6, once 9DME north of the TACAN, descend not below A050, MAPL45"
 
 !!! note
     Stereo approach charts are available in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}.
