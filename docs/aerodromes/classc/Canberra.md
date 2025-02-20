@@ -78,8 +78,8 @@ Departing aircraft should **not** be issued a takeoff clearance (as the helipads
     **RSCU209**: "Canberra Tower, helicopter RSCU209, on the pad at Canberra Hospital, for Bankstown, received Juliet, ready"  
     **CB ADC**: "RSCU209, Canberra Tower, report sighting a Jetstar A320 on a 3nm final runway 35 and advise able to maintain own separation with that aircraft"  
     **RSCU209**: "Traffic sighted and affirm, RSCU209"  
-    **CB ADC**: "RSCU209, pass behind the A320, maintain own separation, caution wake turbulence, cleared to Bankstown via AKMIR, flight planned route, climb A090, squawk 3762"  
-    **RSCU209**: "Cleared to Bankstown via AKMIR flight planned route, climb A090, squawk 3762, pass behind the A320 and maintain own separation, RSCU209"  
+    **CB ADC**: "RSCU209, pass behind the A320, maintain own separation, caution wake turbulence, cleared to Bankstown via AKMIR, flight planned route, climb to A090, squawk 3762"  
+    **RSCU209**: "Cleared to Bankstown via AKMIR flight planned route, climb to A090, squawk 3762, pass behind the A320 and maintain own separation, RSCU209"  
 
     *Remember to pass traffic information to both aircraft.*  
     **CB ADC**: "JST619, traffic is a helicopter becoming airborne from Canberra Hospital, approximately 5nm southwest of the field, maintaining own separation with you, runway 35, cleared to land"  
