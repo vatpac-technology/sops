@@ -330,7 +330,7 @@ Helicopters should be identified and then cleared for the `BONDI 5 NORTHBOUND` o
 Once the aircraft exits CTA at Long Bay Headland (southbound) or Sydney Heads (northbound), cancel their identification and control services.  If the helicopter is likely to request a clearance via one of Sydney's Helicopter Routes, consider instructing them to remain on their assigned squawk code to assist with identification.
 
 !!! phraseology
-    "YOE, clear of controlled airspace, identification and control service terminated, squawk 1200, frequency change approved"
+    "YOE, clear of controlled airspace, identification and control services terminated, squawk 1200, frequency change approved"
 
 #### Sector Coded Clearances
 To reduce frequency congestion, several commonly used geographically defined areas are designated with lateral and vertical limits and provided upon request via a coded clearance to helicopter aircraft.
@@ -365,8 +365,8 @@ Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, i
     **LOA**: "Squawk 3601, wilco, LOA"  
 
     **ABC**: "LOA, ready Runway 11C"  
-    **SY TCU**: "LOA, cleared to YSHL via ANKUB, flight planned route, Bankstown 8 Departure, climb via SID A030"  
-    **LOA**: "Cleared to YSHL via ANKUB, flight planned route, Bankstown 8 Departure, climb via SID A030, LOA"
+    **SY TCU**: "LOA, cleared to YSHL via ANKUB, flight planned route, BK9 departure, climb via SID to A030"  
+    **LOA**: "Cleared to YSHL via ANKUB, flight planned route, BK9 departure, climb via SID to A030, LOA"
 
 </details>
 
@@ -556,10 +556,10 @@ Heads-up coordination is not required from a SY TCU position to SRI for aircraft
 
 !!! phraseology
     *FD214 is intending on leaving Class C airspace on descent into Bankstown.  The lower limit of CTA is `A045`.*  
-    **SDS:** "FD214 descend to 5,000ft, contact Sydney Centre 124.55"  
-    **FD214:** "Descend 5,000ft, 124.55, FD214"  
+    **SDS:** "FD214 descend to A050, contact Sydney Centre 124.55"  
+    **FD214:** "Descend A050, 124.55, FD214"  
 
-    **FD214:** "Sydney Centre, FD214, descending 5,000ft"  
+    **FD214:** "Sydney Centre, FD214, descending A050"  
     **SRI:** "FD214, Sydney Centre, leave controlled airspace descending, no reported IFR traffic"  
     **FD214:** "Leave controlled airspace descending, FD214"
 
@@ -572,7 +572,7 @@ Heads-up coordination is not required from a SY TCU position to SRI for aircraft
     **SAN:** "CYF at 30DME SY, control service terminates, contact Sydney Centre 124.55"  
     **CYF:** "124.55, CYF"  
 
-    **CYF:** "Sydney Centre, CYF, maintaining 5,000ft"  
+    **CYF:** "Sydney Centre, CYF, maintaining A050"  
     **SRI:** "CYF, Sydney Centre, no reported IFR traffic, area QNH 1024"
 
 ### SY ADC
