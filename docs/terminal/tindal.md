@@ -61,6 +61,20 @@ Place/Bearing Distance points in the FDR can be used for routing via the gates, 
     MOROTAI = TN270030  
     NADZAB = TN150030  
 
+## Stereo Approaches (Fast Jet Aircraft)
+Fast jet aircraft typically transit from the SUA to YPTN at `F170`. When requested, or advised via ATIS, the stereo approach may be utilised to facilitate aircraft recovery.
+
+!!! tip
+    See [Controller Skills](../controller-skills/military.md#stereo-approaches) for more details about stereo approaches.
+
+!!! Example
+**CLAS45**: "TN TCU, RTBing via BOM for RWY32"
+**WLM TCU**: "CLAS45, cleared the stereo appraoch for RWY 32 via BOM, descend not below `A050`"
+**CLA45**: "Descend not below `A050`"
+
+!!! note
+    Stereo approach charts are available in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}.
+
 ## Coordination
 ### TRT(TRS)
 #### Airspace
