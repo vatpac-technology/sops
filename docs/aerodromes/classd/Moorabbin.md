@@ -136,8 +136,8 @@ The Standard Assignable level from **MB ADC** to **ML TCU** is:
 Aircraft who will transit Class G airspace on climb into CTA must be **cleared to leave and re-enter controlled airspace** on climb to their assigned level.
 
 !!! phraseology
-    **MB ADC**: "SGE, cleared to leave and re-enter controlled airspace climbing to A050, no reported IFR traffic. Contact Melbourne Departures on 129.4"  
-    **SGE**: "Cleared to leave and re-enter controlled airspace climbing to A050, Departures 129.4, SGE"
+    **MB ADC**: "SGE, leave and re-enter controlled airspace climbing to A050, no reported IFR traffic. Contact Melbourne Departures on 129.4"  
+    **SGE**: "Leave and re-enter controlled airspace climbing to A050, departures 129.4, SGE"
 
 ### Arrivals/Overfliers
 ML TCU will heads-up coordinate arrivals/overfliers from their Class C to MB ADC.

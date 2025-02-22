@@ -46,7 +46,7 @@ All IFR aircraft departing Cambridge shall be assigned a **Visual Departure** or
 
 !!! phraseology
     **NDR:** "Hobart Ground, NDR, for Devonport, request clearance"  
-    **HB SMC:** "NDR, cleared to Devonport via KANLI flight plan route, KANLI3 departure, climb via SID A045, squawk 4432"
+    **HB SMC:** "NDR, cleared to Devonport via KANLI flight plan route, KANLI3 departure, climb via SID to A045, squawk 4432"
 
 !!! warning "Important"
     As the assigned SID is applicable to a different departure aerodrome, it will not auto-populate in vatSys. HB SMC must write the name of the SID in the Global Ops Field of the FDR and amend the flight plan route to include all relevant tracking points.

@@ -27,7 +27,7 @@ The Circuit altitude is `A016` for Jets, and `A012` for Non-Jets.
 The Ciruits are preferred to be to the south of the field.
 
 ### Initial and Pitch Procedures 
-The intial points for Gingin are RWY 08 is the corner of the pine plantation and RWY 26 is the paddock divided by the creek. The intial altitude is `A015`.
+The initial points for Gingin are RWY 08 is the corner of the pine plantation and RWY 26 is the paddock divided by the creek. The initial altitude is `A015`.
 
 ## Coordination
 ### PE TCU

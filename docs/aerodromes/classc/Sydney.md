@@ -127,27 +127,27 @@ When both ADC and SMC are online, SMC shall issue aircraft departing on runway 1
 | Runway 34R | Taxiway `S` |
 
 !!! phraseology
-    **SY SMC:** "VOZ853, taxi Charlie, cross runway 25, hold short Sierra"  
-    **VOZ853:** "Taxi Charlie, cross runway 25, hold short Sierra, VOZ853"  
+    **SY SMC:** "VOZ853, taxi via Charlie, cross runway 25, hold short Sierra"  
+    **VOZ853:** "Taxi via Charlie, cross runway 25, hold short Sierra, VOZ853"  
 
     **VOZ853:** "Sydney Tower, VOZ853, holding short Sierra, ready"  
-    **SY ADC:** "VOZ853, Sydney Tower, give way to the inbound Jetstar A320, taxi holding point Tango Six, runway 34R"
+    **SY ADC:** "VOZ853, Sydney Tower, give way to the inbound Jetstar A320, taxi to holding point Tango Six, runway 34R"
 
 Aircraft landing on runway 16L/34R are expected to vacate the runway and taxi via the standard taxi routes to join taxiway Lima. If pilots are unfamiliar with local procedures, they should be instructed by **ADC** to taxi accordingly. Where possible, outbound aircraft should give way to inbound aircraft to avoid creating congestion at the runway exits.
 
 !!! phraseology
-    **SY ADC**: "JAL52, taxi Tango, Lima, on Lima contact Ground 121.7"
+    **SY ADC**: "JAL52, taxi via Tango, Lima, on Lima contact Ground 121.7"
 
 ### Transferring Between SMCs
 When both SMC positions are online and an aircraft is to be passed from one to the other (e.g. an aircraft taxis from the domestic terminal for runway 34L), they should be instructed to hold short of runway 16R/34L and to contact the next SMC frequency.
 
 !!! phraseology
-    **SMC East**: "JST412, cross runway 25, taxi Lima, hold short runway 34L, on Lima contact ground 126.5"  
-    **JST412**: "Cross runway 25, taxi Lima, hold short runway 34L, contact ground 126.5, JST412"  
+    **SMC East**: "JST412, cross runway 25, taxi via Lima, hold short runway 34L, on Lima contact ground 126.5"  
+    **JST412**: "Cross runway 25, taxi via Lima, hold short runway 34L, contact ground 126.5, JST412"
 
     **JST412**: "Sydney Ground, JST412, holding short runway 34L"  
-    **SMC West**: "JST412, cross runway 34L, taxi holding point Alpha Six"  
-    **JST412**: "Cross runway 34L, taxi holding point Alpha Six, JST412"
+    **SMC West**: "JST412, cross runway 34L, taxi to holding point Alpha Six"  
+    **JST412**: "Cross runway 34L, taxi to holding point Alpha Six, JST412"
 
 Generally, aircraft shall cross runway 16R/34L in the following directions at the following locations:
 
@@ -230,7 +230,7 @@ Unless operationally required, aircraft shall be assigned the following runways 
     | ------| ---- | --------|
     | Jet  | OLSEM<br>WOL | **FISHA** SID, Relevant Transition |
     | Jet  | All others | **FISHA** SID, RADAR Transition |
-    | Non-Jet| All       | **RADAR** SID |
+    | Non-Jet | All       | **RADAR** SID |
 
 === "Runway 16L"
 
@@ -274,8 +274,11 @@ Unless operationally required, aircraft shall be assigned the following runways 
     | Jet  | All others | **MARUB** SID, RADAR Transition |
     | Non-Jet | All | **RADAR** SID |
 
+!!! warning "Important"
+    Some jet aircraft may require the use of the **RADAR** SID and will communicate this requirement when requesting airways clearance (see [Climb Gradient Requirements](#climb-gradient-requirements)).
+
 ### Climb Gradient Requirements
-Climb Gradient Requirements apply to all Procedural SIDs. It is the pilot's responsibility to advise if they are unable to meet these requirements. Pilots that advise this can be assigned a **RADAR** SID instead.
+Climb gradient requirements apply to all Procedural SIDs. It is the pilot's responsibility to advise if they are unable to meet these requirements. Pilots that advise this shall be assigned the **RADAR** SID instead, regardless of aircraft type.
 
 ## ATIS
 ### Approach Types
@@ -346,7 +349,7 @@ The decision whether or not to send an aircraft to SMC or hold them on the Coord
 
 !!! phraseology
     **VOZ543:** "Sydney Delivery, VOZ543, PDC read back"  
-    **SY ACD:** "VOZ543, go ahead the read back"  
+    **SY ACD:** "VOZ543, Sydney Delivery"  
     **VOZ543:** "Runway 34R, OLSEM1 departure, squawk 1336, bay 33, VOZ543"  
     **SY ACD:** "VOZ543, contact Coordinator 127.6 for pushback"  
     **VOZ543:** "127.6 for push, VOZ543"  

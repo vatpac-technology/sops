@@ -27,11 +27,11 @@ Coordination notes are included for most positions, using the following format:
 As a receiving controller, answer a coordination call by stating the name of **your** position.
 
 !!! phraseology
-    *BIK calls SAN with a hotline to discuss an arrival*  
-    <span class="hotline">**BIK** -> **SAN**</span>: \***DING**\*  
-    <span class="hotline">**SAN** -> **BIK**</span>: "Sydney Approach"  
-    <span class="hotline">**BIK** -> **SAN**</span>: "Via RIVET, QFA541, request heading 030 due weather"  
-    <span class="hotline">**SAN** -> **BIK**</span>: "QFA541, Concur heading 030"
+    *GUN calls SAS with a hotline to discuss an arrival*  
+    <span class="hotline">**GUN** -> **SAS**</span>: \***DING**\*  
+    <span class="hotline">**SAS** -> **GUN**</span>: "Sydney Approach"  
+    <span class="hotline">**GUN** -> **SAS**</span>: "Via RIVET, QFA541, request heading 030 due weather"  
+    <span class="hotline">**SAS** -> **GUN**</span>: "QFA541, Concur heading 030"
 
 If you are busy at the time, tell the other controller to *standby*. If you anticipate a long delay, tell the controller that you'll call them back.
 
@@ -76,8 +76,8 @@ Heads-up Coordination is the act of giving the next sector a "heads-up" about an
 
 
 !!! phraseology
-    <span class="hotline">**SNO** -> **GUN**</span>: "Via CB, VOZ1531"  
-    <span class="hotline">**GUN** -> **SNO**</span>: "VOZ1531, F350"  
+    <span class="hotline">**BLA** -> **GUN**</span>: "via CB, VOZ1234"  
+    <span class="hotline">**GUN** -> **BLA**</span>: "VOZ1234, F350"  
 
 If the level that will be assigned at transfer of jurisdiction is different from the current CFL, the Controlling Sector will use the phrase "*will be assigned (level)*".
 
@@ -109,8 +109,8 @@ Boundary coordination must be completed so they are aware of the aircraft, and c
     <span class="hotline">**Boundary Sector** -> **Controlling Sector**</span>: "(Callsign), (Restriction)"
 
 !!! phraseology
-    <span class="hotline">**BIK** -> **CBE**</span>: "For Ident, overhead CB, QFA12, do you have any restrictions on descent?"  
-    <span class="hotline">**CBE** -> **BIK**</span>: "QFA12, no restrictions on descent"  
+    <span class="hotline">**GUN** -> **CBE**</span>: "For Ident, overhead CB, QFA12, do you have any restrictions on descent?"  
+    <span class="hotline">**CBE** -> **GUN**</span>: "QFA12, No restrictions on descent"  
 
 The Boundary Sector may omit the restriction and readback the callsign only. This will be taken as the Boundary Sector having **no vertical or lateral restrictions**.
 
@@ -198,12 +198,12 @@ Source: [Annotations](../../controller-skills/annotations)
 *Offering NFR*
 !!! phraseology
     *ABC tracking MNG W663 VINOP*  
-    <span class="hotline">**ELW** -> **YWE**</span>: "via MNG, ABC, if you have no restrictions or requirements, my onwards with OXL"  
-    <span class="hotline">**YWE** -> **ELW**</span>: "ABC, I have no restrictions or requirements, your onwards with OXL"  
-    ELW will put *"YWE NRR"* in the label data  
-    <span class="hotline">**ELW** -> **OXL**</span>: "via MNG, ABC, YWE has no restrictions or requirements"  
+    <span class="hotline">**BLA** -> **YWE**</span>: "via MNG, ABC, if you have no restrictions or requirements, my onwards with OXL"  
+    <span class="hotline">**YWE** -> **BLA**</span>: "ABC, I have no restrictions or requirements, your onwards with OXL"  
+    BLA will put *"YWE NRR"* in the label data  
+    <span class="hotline">**BLA** -> **OXL**</span>: "via MNG, ABC, YWE has no restrictions or requirements"  
     <span class="hotline">**OXL** -> **YWE**</span>: "ABC, F190"  
-    ELW will handoff the aircraft directly to OXL
+    BLA will handoff the aircraft directly to OXL
 
 *Initiating NFR*
 !!! phraseology
