@@ -164,7 +164,21 @@ That being said, it is *advised* that ELW/BLA give **Heads-up Coordination** pri
 - BLA to ELW for aircraft **not** on the Q29 or V169 airway (Changes permitted up to boundary for sequencing/descent purposes)  
 
 ### ES TCU
-Reserved.
+#### Departures
+Voiceless for all aircraft:
+
+- Tracking via a Procedural SID terminus; and  
+- Assigned the lower of `F200` or the `RFL`
+
+All other aircraft going to ELW CTA must be **Heads-up** Coordinated by ES TCU prior to the boundary. 
+
+#### Arrivals
+Voiceless for all aircraft:
+
+- With ADES **YMES**; and
+- Assigned `A100`
+
+All other aircraft coming from ELW CTA will be **Heads-up** Coordinated to ES TCU.
 
 ### AY ADC
 #### Airspace
@@ -173,14 +187,13 @@ AY ADC is responsible for the Class D airspace in the AY CTR `SFC` to `A045`.
 Refer to [Reclassifications](#ay-ctr) for operations when AY ADC is offline.
 
 #### Departures
-Departures from YMAY in to BLA Class C will be coordinated when ready for departure.
+[Next](../../controller-skills/coordination.md#next) coordination is required from AY ADC to BLA for all aircraft **entering BLA CTA**.
 
-!!! phraseology
-    <span class="hotline">**AY ADC** -> **BLA**</span>: "Next, RXA6772"  
-    <span class="hotline">**BLA** -> **AY ADC**</span>: "RXA6772, Unrestricted"  
-    <span class="hotline">**AY ADC** -> **BLA**</span>: "RXA6772"  
+The Standard Assignable level from **AY ADC** to **BLA** is:
 
-The Standard Assignable level from **AY ADC** to BLA is the lower of `A070` or the `RFL`.
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A070` and `RFL` |
 
 #### Arrivals
 YMAY arrivals shall be heads-up coordinated to **AY ADC** from BLA prior to **5 mins** from the boundary.

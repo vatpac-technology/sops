@@ -63,30 +63,24 @@ Voiceless for all aircraft:
 All other aircraft coming from SWY/KPL CTA will be **Heads-up** Coordinated to MKA/RKA.
 
 ### MK/RK ADC
-#### Airspace
-MK ADC is responsible for the Class D airspace in the MK CTR `SFC` to `A010`.
-
-RK ADC is responsible for the Class D airspace in the RK CTR `SFC` to `A010`.
-
 #### Auto Release
-'Next' coordination is **not** required from MK/RK ADC for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a **Procedural** SID
+[Next](../controller-skills/coordination.md#next) coordination is **not** required to MKA/RKA for aircraft that are:  
 
-!!! phraseology
-    <span class="hotline">**MK ADC** -> **MKA**</span>: "Next, ABC, runway 14"  
-    <span class="hotline">**MKA** -> **MK ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
-    <span class="hotline">**MK ADC** -> **MKA**</span>: "Heading 150 Visual unrestricted, ABC"
+- Departing from a runway nominated on the ATIS; and  
+- Assigned the standard assignable level; and  
+- Assigned a **Procedural** SID; or  
+- Not entering MKA/RKA CTA
 
-The TCU controller can suspend/resume Auto Release at any time, with the concurrence of **ADC**.
+The Standard Assignable level from **MK/RK ADC** to **MKA/RKA** is:
 
-The Standard Assignable level from MK/RK ADC to MKA/RKA is the lower of `A060` or the `RFL`.
+| Aircraft | Level |
+| ------ | ----- |
+| All | The lower of `A060` and `RFL` |
 
 #### MK/RK SMC
-The controller assuming responsibility of **SMC** shall give heads-up coordination to TCU controller prior to the issue of the following clearances:  
+The controller assuming responsibility of **SMC** shall give [Heads-up](../controller-skills/coordination.md#heads-up) coordination to TCU controller prior to the issue of the following clearances:  
 
-- VFR Departures  
+- VFR departures entering MKA/RKA CTA
 - Aircraft using a runway not on the ATIS
 
 #### Arrivals

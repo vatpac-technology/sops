@@ -13,11 +13,11 @@
 | **Edinburgh ATIS**      |                        | **126.250**        | **YPED_ATIS**            |
 
 ## Airspace
+ED ADC is responsible for the airspace within the Edinburgh CTR, `SFC` to `A020`.
+
 <figure markdown>
 ![ED ADC Airspace](img/edncircuits.png){ width="700" }
 </figure>
-
-- **ED ADC Airspace**: `SFC` to `A020` within the Edinburgh Control Zone (ED CTR). This airspace is primarily used for military circuits and initial and pitch approaches.
 
 ## Runway Modes
 Single runway operations only.
@@ -46,21 +46,21 @@ Aircraft can be instructed to extend outside of this airspace by ATC for traffic
 Aircraft will be pitching to the west in order not to impede on Class G boundary, the intail point is 2NM for RWY36 and 4NM for RWY18 along the extended centreline of taxiway E.
 
 ## Helicopter Operations
-- **HLS Locations**: The HLS is located on TWY D immediately east of OLA 11. There are no SIDs associated with the HLS; aircraft requiring an instrument departure can expect to depart from the runway.
+The HLS is located on TWY D immediately east of OLA 11. There are no SIDs associated with the HLS; aircraft requiring an instrument departure can expect to depart from the runway.
+
 <figure markdown>
 ![ED HLS](img/ednhelicopterhls.png){ width="700" }
 </figure>
 
 ## Coordination
 ### Departures
-'Next' coordination is required from ED ADC to AD TCU for all aircraft.
+[Next](../../controller-skills/coordination.md#next) coordination is required from ED ADC to AD TCU for all aircraft.
 
-!!! phraseology
-    <span class="hotline">**ED ADC** -> **AD TCU**</span>: "Next, SGE"  
-    <span class="hotline">**AD TCU** -> **ED ADC**</span>: "SGE, unrestricted"  
-    <span class="hotline">**ED ADC** -> **AD TCU**</span>: "SGE"
+The Standard Assignable level from **ED ADC** to **AD TCU** is:
 
-The Standard Assignable level from ED ADC to AD TCU is the lower of `A040` or the `RFL`.
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `A040` and `RFL` |
 
 ### Arrivals/Overfliers
 AD TCU will Heads-up coordinate all arrivals/overfliers to ED ADC.
@@ -69,8 +69,7 @@ AD TCU will Heads-up coordinate all arrivals/overfliers to ED ADC.
     <span class="hotline">**AD TCU** -> **ED ADC**</span>: "To the west, PLE, for the ILS-Z"  
     <span class="hotline">**ED ADC** -> **AD TCU**</span>: "PLE, ILS-Z"
 
-- **IFR arrivals** will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to ED ADC, unless ED ADC nominates a restriction.  
-- **VFR arrivals** will be cleared for the coordinated visual approach prior to handoff to ED ADC, unless ED ADC nominates a restriction.
+Inbound aircraft will be cleared for an instrument or visual approach prior to handoff to ED ADC, unless ADC nominates a restriction.
 
 ## Charts
 !!! abstract "Reference"

@@ -105,44 +105,30 @@ Transfer these aircraft to ADC approaching the boundary.
 
 ## Coordination
 ### AMB/OK ADC
-#### Airspace
-AMB ADC owns the Class C airspace **in the AMB CTR** within 10nm of the YAMB ARP from `SFC` to `A015`.
-
-OK ADC owns the airspace within 5 DME of the OK VOR from `SFC` to `A025`.
-
 #### Departures
-'Next' coordination is required from AMB ADC to AMB TCU for all aircraft.
+[Next](../controller-skills/coordination.md#next) coordination is required from AMB ADC to AMB TCU for all aircraft.
 
 The Standard Assignable Level from  **AMB ADC** to **AMB TCU** is:  
-a) The Lower of `F180` or `RFL` for Aircraft assigned via Procedural or RNAV SID.  
-b) `F190` for Aircraft assigned a Coded Departure.
 
-!!! phraseology
-    <span class="hotline">**AMB ADC** -> **AMB TCU**</span>: "Next, STAL56, runway 33"  
-    <span class="hotline">**AMB TCU** -> **AMB ADC**</span>: "STAL56, unrestricted"  
-    <span class="hotline">**AMB ADC** -> **AMB TCU**</span>: "STAL56"   
+| Assigned Departure | Level |
+| ------------------ | ----- |
+| Procedural SID | The lower of `F180` and `RFL` |
+| Coded Departure | `F190` |
+
+[Next](../controller-skills/coordination.md#next) coordination is required from OK ADC to OK TCU for all aircraft.
+
+The Standard Assignable level from **OK ADC** to **OK TCU** is:
+
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `F120` and `RFL` |
 
 ### INL / BN TCU
 #### Departures
-All aircraft from AMB/OK TCU to INL(All) and BN TCU require Heads-up coordination prior to the boundary, however, as soon as practical (when is the aircraft becomes airborne) is prefered.
-
-The Standard Assignable Level from  **AMB ADC** to **AMB TCU** is:  
-a) The Lower of `F180` or `RFL` for Aircraft assigned via Procedural or RNAV SID.  
-b) `F190` for Aircraft assigned a Coded Departure.
-
-The Standard Assignable from **OK ADC** to **OK TCU** is the lower of `F120` or `RFL`.
-
-!!! phraseology
-    <span class="hotline">**AMB TCU** -> **BN TCU**</span>: "via BN, DRGN02"  
-    <span class="hotline">**BN TCU** -> **AMB TCU**</span>: "DRGN02, `F180`"  
-
-!!! phraseology
-    BUCK03 is assigned the BYRON 1 coded departure.  
-    <span class="hotline">**AMB TCU** -> **NSA**</span>: "via COWIE, BUCK3."  
-    <span class="hotline">**NSA** -> **AMB TCU**</span>: "BUCK03, `F190`"   
+All aircraft from AMB/OK TCU to INL(All) and BN TCU require [Heads-up](../controller-skills/coordination.md#heads-up) coordination prior to the boundary, however, as soon as practical (when is the aircraft becomes airborne) is preferred. 
 
 #### Arrivals/Overfliers
-All aircraft transiting from GOL/DOS/BUR to **AMB TCU** and **OK TCU** must be heads-up coordinated prior to **20nm** from the boundary and aircraft from **BN TCU** to **AMB TCU** only prior to the boundary. Operations within **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels. GOL/DOS/BUR and **AMB TCU**/**OK TCU** controller must agree on a suitable level during coordination.
+All aircraft transiting from GOL/DOS/BUR to **AMB TCU** and **OK TCU** must be [Heads-up](../controller-skills/coordination.md#heads-up) coordinated prior to **20nm** from the boundary and aircraft from **BN TCU** to **AMB TCU** only prior to the boundary. Operations within **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels. GOL/DOS/BUR and **AMB TCU**/**OK TCU** controller must agree on a suitable level during coordination.
 
 !!! phraseology
     <span class="hotline">**GOL** -> **AMB TCU**</span>: "via HUUGO, PUMA11, will be assigned A090"  

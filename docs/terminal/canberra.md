@@ -19,6 +19,9 @@
 ## Airspace
 The Vertical limits of the CB TCU are `SFC` to `F245`.
 
+### CB ADC
+**CB ADC** is responsible for the Class C Airspace within the CB CTR `SFC` to `A035`.
+
 ### Airspace Division
 
 <figure markdown>
@@ -53,23 +56,21 @@ Voiceless for all aircraft:
 All other aircraft coming from BLA/GUN CTA will be **Heads-up** Coordinated to CB TCU prior to **20nm** from the boundary.
 
 ### ADC
-#### Airspace
-CB ADC is responsible for the Class C Airspace within the CB CTR `SFC` to `A035`.
+#### Departures
+[Next](../controller-skills/coordination.md#next) coordination is not required to CB TCU for aircraft that are:   
+  
+  - Departing from a runway nominated on the ATIS; and  
+  - Assigned the standard assignable level; and  
+  - Assigned a **Procedural** SID
 
-#### Auto Release
-'Next' coordination is **not** required from CB ADC for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a **Procedural** SID
-
-!!! phraseology
-    <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Next, ABC, runway 35"  
-    <span class="hotline">**CB TCU** -> **CB ADC**</span>: "ABC, Track Extended Centreline, unrestricted"  
-    <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Track Extended Centreline, ABC"
+All other aircraft require a 'Next' call to CB TCU.
 
 The Standard Assignable level from CB ADC to CB TCU is:  
-For IFR aircraft: `A100`  
-For VFR aircraft: The lower of `A040` or the `RFL`
+
+| Flight Rules | Level |
+| ------------ | ----- |
+| IFR | `A100` |
+| VFR | The lower of `A040` and `RFL` |
 
 #### Helipads in the CB CTR
 The Canberra CTR contains the Southcare Helicopter Base (YXSB) as well as two hospitals (Calvary Hospital and Canberra Hospital). Helicopters inbound to these helipads should be coordinated with **CB ADC** who can use a visual separation techniques as required. ADC and the TMA controller should work together to determine the most appropriate clearance limit (if required due traffic) for the helicopter, before frequency transfer is issued. ADC will issue a visual approach clearance when it is available.

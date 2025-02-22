@@ -104,26 +104,20 @@ Shall be assigned the **Radar SID**.
 
 ## Coordination
 ### Auto Release
-'Next' coordination is **not** required to AD TCU for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a **Procedural** SID
+[Next](../../controller-skills/coordination.md#next) coordination is **not** required to AD TCU for aircraft that are:   
 
-All other aircraft require a 'Next' call to AD TCU.
+  - Departing from a runway nominated on the ATIS; and  
+  - Assigned the standard assignable level; and  
+  - Assigned a **Procedural** SID
 
-!!! phraseology
-    <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Next, RXA4362, Runway 23"  
-    <span class="hotline">**AD TCU** -> **AD ADC**</span>: "RXA4362, Track Extended Centreline, Unrestricted"  
-    <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Track Extended Centreline, RXA4362"  
-    
-    **AD ADC**: "RXA4362, Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff"  
-    **RXA4362**: "Track Extended Centreline 222 degrees, Runway 23, Cleared for Takeoff, RXA4362"
-
-The AD TCU controller can suspend/resume Auto Release at any time, with the concurrence of **AD ADC**.
+All other aircraft require a Next call to AD TCU.
 
 The Standard Assignable level from AD ADC to AD TCU is:  
-For Jets: `A050`  
-For Non-Jets: The lower of `A040` or the `RFL`
+
+| Aircraft | Level |
+| -------- | ----- |
+| Jets | `A050` |
+| Non-Jets | The lower of `A040` and `RFL` |
 
 ### Departures Controller
 When **AAE** is online, the AD TCU airspace is split down the 05/23 Runway Centreline. As such, departing aircraft shall be instructed to contact the departures controller corresponding to the direction of turn of the aircraft after departure
