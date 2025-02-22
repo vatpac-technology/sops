@@ -130,14 +130,14 @@ MARSA is to be assigned and terminated on pilots request, and when standard sepe
 
 
 ## Initial and Pitch 
-The Intial and Pitch is a military approach to the circuit area. Military aircraft approach on the deadside, parallel to the extended runway centreline at high speed (the **initial**), then make a tight turn onto downwind (the **pitch**). To deconflict traffic, aircraft can be instructed to: 
-- Pitch short (abeam the landing threshold)
-- Pitch long (abeam the upwind threshold)
-
-
+The Intial and Pitch is a military visual approach to the circuit area. Military aircraft approach on the deadside, parallel to the extended runway centreline at high speed (the **initial**), then make a tight turn onto downwind (the **pitch**). Aircraft should be cleared for a visual approach via the relevant initial point by the **TCU controller** and transferred to ADC when appropriate.
 
 !!! note
    Refer to each aerodrome's SOPs for location-specific altitude and approach points.
+
+The initial can be commenced from a straight in position (straight initial) or a position left or right of the straight in position (left and right initial).
+
+<DIAGRAM>
 
 !!! phraseology
 **VIPR47**: "Request Visual Approach via Left Initial Runway 27"
@@ -151,3 +151,8 @@ The Intial and Pitch is a military approach to the circuit area. Military aircra
 **VIPR47**: "VIPR47, Base 3 Greens"
 **ADC**: "VIPR47, runway 27, cleared to land"
 **VIPR47**: "Runway 27, Cleared to Land, VIPR47"
+
+By default, aircraft will pitch at the midfield point (about half way down the runway). However, if necessary, instruct aircraft to move their pitch point, which has the same effect as instructing a civil aircraft to extend their downwind leg or make a close circuit.
+
+- Pitch short (abeam the landing threshold)
+- Pitch long (abeam the upwind threshold)
