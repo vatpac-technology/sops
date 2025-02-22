@@ -53,7 +53,7 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| MEK, MTK, MZI | PIY(GVE, HYD) | YPPH, YPEA | Jets only |
+| MEK, MTK, MZI | HYD/GVE | YPPH, YPEA | Jets only |
 
 ## Coordination
 
