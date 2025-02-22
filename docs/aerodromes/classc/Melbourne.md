@@ -31,6 +31,7 @@ If winds are too great, single runway operations may be necessary (eg, Runway 16
 | 27AD/34D   | 27       | 34 (Via MNG, NONIX, DOSEL and BOGES), 27 (All other deps)        |
 | 16A/27D    | 16 | 27  |
 | 09A/16D    | 09 | 16  |
+| 34A/27AD   | 34 & 27 | 27 |
 
 !!! info
     When utilising the 27AD/34D runway mode, Heavy Aircraft may require Runway 34 for departure due to the shorter length of Runway 27. Assigning Runway 34 to aircraft from the southern apron can also improve aerodrome efficiency due to the reduced taxi distance.
@@ -67,8 +68,30 @@ Shall be assigned the **Radar SID**.
 !!! example
     Non-Jet Aircraft planned via DOSEL, assigned runway 34, shall be given the ML (RADAR) SID.
 
-## ATIS
+## LAHSO
+!!! warning "Important"
+    Due to its operational complexity, LAHSO **must be authorised by a member of the VATPAC ATS or Events Staff Team or a C3-rated controller**.
 
+    Very little benefit is achieved by running LAHSO without a flow controller and it is almost exclusively reserved for our busiest events.
+
+Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../controller-skills/runwaymanagement.md#lahso) for more information.
+
+### Weather Conditions
+LAHSO may only be used where the weather conditions meet the following minimum requirements:
+
+| Element | Criteria |
+| ------- | -------- |
+| Cloud Ceiling | `A045` or higher |
+| Visibility | 8km or greater |
+| Surface Condition | Dry |
+| Windshear | None Reported |
+
+Two simultaneous landings may be conducted by both day and night. A simultaneous takeoff and landing may only be conducted by day.
+
+### Runway Mode
+The only approved LAHSO mode at YMML is **34A/27AD**. Runway 34 is considered the active runway, while runway 27 is considered the passive runway.
+
+## ATIS
 ### ATIS Identifier
 YMML ATIS identifiers only uses letters `N` through to `Y`, due to nearby YMEN using letters `A` through `M`.  
 
@@ -84,6 +107,7 @@ This permits controllers to assign aircraft either the Alpha or Victor STAR and 
 | 27AD/34D   | 27 FOR ARR, RWY 34 FOR DEPS VIA MNG, NONIX, DOSEL AND BOGES, RWY 27 FOR ALL OTHER DEPS |
 | 16A/27D    | 16 FOR ARR, RWY 27 FOR DEP |
 | 09A/16D    | 09 FOR ARR, RWY 16 FOR DEP |
+| 34A/27AD   | 34 FOR ARR, RWY 27 FOR ARR AND DEP |
 
 ### Operational Info
 #### Independent Crossing Runway Operations
@@ -92,12 +116,15 @@ When using runway mode 09A/16D, the ATIS OPR INFO shall include:
 
 This allows for both Runway 09 and Runway 16 to operate independently of each other, with aircraft departing Runway 16 from Taxiway Echo.
 
+#### LAHSO
+When [LAHSO](#lahso) is in use, the ATIS OPR INFO shall include:  
+`LAND AND HOLD SHORT OPERATIONS IN PROGRESS`
+
 #### ACD Pushback Requests
 When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) procedure, the OPR INFO shall include:  
 `ALL DEPARTURES MUST REQUEST PUSH BACK ON 127.2`  
 
-## Miscellaneous
-### Sunbury Corridor
+## Sunbury Corridor
 Day VFR Helicopters may request clearance via the **Sunbury Corridor**. It is defined as the corridor 1nm either side of a track from SWT - PWLC - 16/27 Intersection at YMML.
 
 <figure markdown>

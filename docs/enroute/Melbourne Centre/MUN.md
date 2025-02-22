@@ -70,6 +70,12 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | OXL | GTH | YSSY | |
 | ARL(MDE) | GUN(KAT) | YSCB | |
 
+### LAHSO
+!!! warning "Important"
+    Due to its operational complexity, LAHSO **must be authorised by a member of the VATPAC ATS or Events Staff Team or a C3-rated controller**.
+
+In accordance with the authorisation requirements above, YMML may utilise LAHSO during exceptionally busy events. Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../controller-skills/runwaymanagement.md#lahso) for more information.
+
 ## Coordination
 ### ML TCU
 #### Airspace

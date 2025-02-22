@@ -47,6 +47,33 @@ d) Runway 11 and Runway 36;
 e) Runway 11 and Runway 18;  
 f) Runway 11 only.  
 
+## LAHSO
+!!! warning "Important"
+    Due to its operational complexity, LAHSO **must be authorised by a member of the VATPAC ATS or Events Staff Team or a C3-rated controller**.
+
+    Very little benefit is achieved by running LAHSO without a flow controller and it is almost exclusively reserved for our busiest events.
+
+Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../controller-skills/runwaymanagement.md#lahso) for more information.
+
+### Weather Conditions
+LAHSO may only be used where the weather conditions meet the following minimum requirements:
+
+| Element | Criteria |
+| ------- | -------- |
+| Cloud Ceiling | `A030` or higher |
+| Visibility | 8km or greater |
+| Surface Condition | Dry |
+| Windshear | None Reported |
+
+Two simultaneous landings may be conducted by both day and night. A simultaneous takeoff and landing may only be conducted by day.
+
+### Runway Mode
+The only approved LAHSO mode at YPDN is **36A/29AD**. Runway 36 is considered the active runway, while runway 29 is considered the passive runway.
+
+## ATIS
+When LAHSO is in use, the ATIS OPR INFO shall include:  
+`LAND AND HOLD SHORT OPERATIONS IN PROGRESS`
+
 ## Non-RNAV Departures
 For non-RNAV approved IFR aircraft with a wake turbulence category of medium or greater, issue a Radar SID  
 For non-RNAV approved IFR aircraft with a wake turbulence category of light, issue a visual departure or Radar SID  

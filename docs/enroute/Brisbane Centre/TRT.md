@@ -76,6 +76,12 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | ---- | -------- | --------- | --------- |
 | KIY, ASH, ISA(ARA/STR) | TRT, TRS | YPDN | |
 
+### LAHSO
+!!! warning "Important"
+    Due to its operational complexity, LAHSO **must be authorised by a member of the VATPAC ATS or Events Staff Team or a C3-rated controller**.
+
+In accordance with the authorisation requirements above, YPDN may utilise LAHSO during exceptionally busy events. Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../controller-skills/runwaymanagement.md#lahso) for more information.
+
 ## Coordination
 
 ### Enroute
