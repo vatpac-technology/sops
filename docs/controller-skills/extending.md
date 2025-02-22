@@ -21,7 +21,7 @@ Here are tips to help manage frequencies when extending:
     - An aircraft on the TBD frequency would have `TBD` in the label.
     - An aircraft on the ARL frequency would have `ARL` in the label.
 - *Optional:* When transferring an aircraft to its final frequency in your airspace, you can remove the frequency designator from the label
-- *Optional:* Prior to handing off an aircraft to another ENR sector that is extending to at least 2 sectors that the aircraft will fly through, put the frequency designator of the frequency you are telling the aircraft to call in the label. eg, controlling **ELW**, transferring aircraft bound for YPAD to **YWE**, who is also extending to **TBD**: Put `YWE` in label prior to handoff.
+- *Optional:* Prior to handing off an aircraft to another ENR sector that is extending to at least 2 sectors that the aircraft will fly through, put the frequency designator of the frequency you are telling the aircraft to call in the label. eg, controlling **BLA**, transferring aircraft bound for YPAD to **MUN**, who is also extending to **TBD**: Put `MUN` in label prior to handoff.
 
 ## Workload
 Extending to adjacent sectors **must** be done with traffic levels and complexity in mind. It is very easy to start controlling to several adjacent sectors when traffic is calm, then it slowly builds up without you noticing, and all of a sudden everyone is receiving a sub-par service. A great way to see this coming is from your **Preactive** and **Announced** strip windows. The more full they are, the busier you'll be in the next 10-60 minutes.
@@ -41,6 +41,6 @@ When extending, include in your remarks, *"Extending to (Sector) (frequency), (S
 
 !!! example
     Melbourne Centre  
-    Extending to HUO 122.6, YWE 134.325, BIK 129.8.  
+    Extending to HUO 122.6, MUN 132.6, GUN 128.4  
     Charts - vats.im/pac/charts  
     ATC feedback - helpdesk.vatpac.org
