@@ -59,7 +59,7 @@ Once connected with CPDLC enabled, pilots will connect to the vatACARS plugin vi
 Pilots must still read back their SID, squawk, and bay number on the frequency, even if they have acknowledged receipt of the PDC through vatACARS with the *'Roger'* response.
 
 !!! Note
-    If providing a top-down service as an enroute station, pilots requesting a PDC via CPDLC will be required to connect to your Enroute Station Code; E.g. YISA, YBIK, etc
+    If providing a top-down service as an enroute station, pilots requesting a PDC via CPDLC will be required to connect to your Enroute Station Code; E.g. YISA, YGUN, etc
 
 ## Enroute
 
@@ -96,13 +96,13 @@ Some major enroute positions do not use CPDLC as a primary means of communicatio
 | KEN | YKEN | Voice |
 | TRT | YTRT | **CPDLC** |
 | ASP | YASP | **CPDLC** |
-| BIK | YBIK | Voice |
-| ELW | YELW | Voice |
+| GUN | YGUN | Voice |
+| BLA | YBLA | Voice |
 | HUO | YHUO | Voice |
 | OLW | YOLW | **CPDLC** |
-| PIY | YPIY | Voice |
+| HYD | YHYD | Voice |
 | TBD | YTBD | Voice |
-| YWE | YYWE | Voice |
+| MUN | YMUN | Voice |
 | TSN | YTSN | **CPDLC** |
 | FLD | YFLD | **CPDLC** |
 | IND | YIND | **CPDLC** |

@@ -17,9 +17,9 @@
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
-The Primary Communication Method for ISA is [CPDLC](../../../client/cpdlc).
+The Primary Communication Method for TRT is [CPDLC](../../../client/cpdlc).
 
-The CPDLC Station Code is `YISA`.
+The CPDLC Station Code is `YTRT`.
 
 Voice may be used in lieu when applicable.
 

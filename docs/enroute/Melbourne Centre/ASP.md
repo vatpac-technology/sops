@@ -20,7 +20,6 @@
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
-
 The Primary Communication Method for ASP is [CPDLC](../../../client/cpdlc).
 
 The CPDLC Station Code is `YASP`.
@@ -66,8 +65,8 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | ---- | -------- | --------- | --------- |
 | FOR, WRA, BKE | TBD(AUG) | YPAD, YPED | Jets only |
 | BKE | TBD | YPAD, YPED | |
-| ESP | PIY(HYD) | YPPH, YPEA | Jets only |
-| BKE | YWE(KAT, GTH) | YSSY | |
+| ESP | HYD | YPPH, YPEA | Jets only |
+| BKE | GUN(KAT), MUN(GTH) | YSSY | |
 
 ## Coordination
 ### Enroute

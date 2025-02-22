@@ -96,6 +96,10 @@ plugins:
         'controller-skills/cpdlc.md': 'client/cpdlc.md'
         'controller-skills/maestro.md': 'client/maestro.md'
         'controller-skills/vatsys.md': 'client/vatsys.md'
+        'enroute/Melbourne Centre/BIK.md': 'enroute/Melbourne Centre/GUN.md'
+        'enroute/Melbourne Centre/YWE.md': 'enroute/Melbourne Centre/MUN.md'
+        'enroute/Melbourne Centre/ELW.md': 'enroute/Melbourne Centre/BLA.md'
+        'enroute/Melbourne Centre/PIY.md': 'enroute/Melbourne Centre/HYD.md'
 
 # Styling Front-end
 extra_css:

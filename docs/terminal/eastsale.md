@@ -12,7 +12,7 @@
 
 ## Airspace
 
-ES TCU is responsible for the restricted airspace within R360, from the base of CTA to `F210`. Typically, sectors R360A through R360F are active. The enroute controllers manage the airspace beneath the active R360 sectors, with YWE controlling the southern section and ELW controlling the northern section. Coordination with both enroute controllers is needed if online.
+ES TCU is responsible for the restricted airspace within R360, from the base of CTA to `F210`. Typically, sectors R360A through R360F are active. The enroute controllers manage the airspace beneath the active R360 sectors, with HUO(WON) controlling the southern section and BLA controlling the northern section. Coordination with both enroute controllers is needed if online.
 
 R393 is reserved and is activated only for special events.
 
@@ -28,7 +28,7 @@ If operationally necessary, ES TCU may also request the activation of M301 airsp
 Given the specific nature of the East Sale TCU airspace, surrounding controllers may not be fully aware of its boundaries. Upon logging on as East Sale TCU, it is essential to announce the activation status of R360/M301.
 
 !!! phraseology
-    <span class="hotline">**ESA** -> **ELW**</span>: "Request activation of R360 from BCTA to F210"
+    <span class="hotline">**ESA** -> **BLA**</span>: "Request activation of R360 from SFC to F210"
 
 ## Circuit Procedures
 
