@@ -27,17 +27,17 @@ WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be a
 
 ## Coordination
 ### Departures
-'Next' coordination is **not** required from WLM ADC to WLM TCU for aircraft that are:  
-a) Departing from a runway nominated in the ATIS; and  
-b) Assigned the standard assignable level;  
-c) Assigned a **Procedural** SID  
+[Next](../../controller-skills/coordination.md#next) coordination is **not** required from WLM ADC to WLM TCU for aircraft that are:  
 
-!!! phraseology
-    <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "Next, MVP"  
-    <span class="hotline">**WLM TCU** -> **WLM ADC**</span>: "MVP, Left Heading 010, Unrestricted"  
-    <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "Left Heading 010, MVP"  
+- Departing from a runway nominated in the ATIS; and  
+- Assigned the standard assignable level; and 
+- Assigned a **Procedural** SID
 
-The Standard Assignable level from WLM ADC to WLM TCU is the lower of `F120` or the `RFL`.
+The Standard Assignable level from WLM ADC to WLM TCU is:
+
+| Aircraft | Level |
+| ------- | ----- |
+| All | The lower of `F120` and `RFL` |
 
 ### Arrivals/Overfliers
 Voiceless coordination is in place from WLM TCU to WLM ADC for arrivals cleared for an approach on to a runway nominated on the ATIS. All other aircraft and all overfliers must be heads-up coordinated as soon as practical.

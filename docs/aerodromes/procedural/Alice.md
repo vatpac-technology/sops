@@ -31,14 +31,13 @@ Surveillance coverage can be expected to be available at all levels in the AS CT
 
 ## Coordination
 ### Departures
-Departures from YBAS in to ASP Class C will be coordinated when ready for departure.
+[Next](../../controller-skills/coordination.md#next) coordination is required from AS ADC to ASP for all aircraft **entering ASP CTA**.
 
-!!! phraseology
-    <span class="hotline">**AS ADC** -> **ASP**</span>: "Next, QFA797"  
-    <span class="hotline">**ASP** -> **AS ADC**</span>: "QFA797, Unrestricted"  
-    <span class="hotline">**AS ADC** -> **ASP**</span>: "QFA797"
+The Standard Assignable level from **AS ADC** to **ASP** is:
 
-The Standard Assignable level from AS ADC to ASP is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A070` and `RFL` |
 
 ### Arrivals/Overfliers
 ASP will heads-up coordinate all arrivals/overfliers to AS ADC

@@ -269,7 +269,7 @@ All other aircraft coming from Enroute CTA will be **Heads-up** Coordinated to M
 !!! warning "Important"
     Melbourne utilises auto release for all **Procedural** SIDs and the **ML (RADAR)** SID provided aircraft are assigned the Standard Assignable Level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
-'Next' coordination is **not** required for aircraft that are:  
+[Next](../controller-skills/coordination.md#next) coordination is **not** required for aircraft that are:  
 
 - Assigned a **Procedural** SID  
     - Departing from a runway nominated on the ATIS; and  
@@ -283,12 +283,13 @@ All other aircraft coming from Enroute CTA will be **Heads-up** Coordinated to M
     - Assigned `A050`; and  
     - Tracking via **MNG**, **NONIX**, **DOSEL**, **KEPPA**, **NEVIS** or **ESDIG**
 
-Any aircraft that don't meet these criteria will be coordinated to ML TCU with a "Next" Call.  
+All other aircraft require a 'Next' call to ML TCU.
 
-!!! phraseology
-    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, CYF, runway 34"  
-    <span class="hotline">**ML TCU** -> **ML ADC**</span>: "CYF, track extended centreline, unrestricted"  
-    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Track extended centreline, CYF"
+The Standard Assignable level from **ML ADC** to **ML TCU** is:
+
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `A050` and `RFL` |
 
 ##### Standard Assignable Departure Headings
 The following Standard Assignable Headings may be used for aircraft assigned the ML (RADAR) SID, depending on their direction of travel.
@@ -347,46 +348,42 @@ EN ADC is responsible for the Class C airspace shown below, `SFC` to `A020`.
 When an aircraft requests start clearance, the EN SMC controller shall coordinate with ML TCU to obtain the start clearance.
 
 #### Departures
-Essendon departures that will not enter ML TCU Class C airspace are not required to be coordinated.
+[Next](../controller-skills/coordination.md#next) coordination is required from ED ADC to AD TCU for all aircraft **entering ML TCU CTA**.
 
-All aircraft departing into Class C must be coordinated to ML TCU with a "Next" Call
+The Standard Assignable level from ED ADC to AD TCU is:
 
-!!! phraseology
-    <span class="hotline">**EN ADC** -> **ML TCU**</span>: "Next, FD318"  
-    <span class="hotline">**ML TCU** -> **EN ADC**</span>: "FD318, heading 330, unrestricted"  
-    <span class="hotline">**EN ADC** -> **ML TCU**</span>: "Heading 330, FD318"
-
-The Standard Assignable level from EN ADC to ML TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `A030` and `RFL` |
 
 #### Arrivals/Overfliers
 ML TCU will heads-up coordinate arrivals/overfliers from Class C to EN ADC prior to **5 mins** from the boundary.  
-IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to EN ADC, unless EN ADC nominates a restriction.  
-VFR aircraft require a level readback.
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to EN ADC, unless EN ADC nominates a restriction.
 
 !!! phraseology 
     <span class="hotline">**ML TCU** -> **EN ADC**</span>: "via KAO, KHU"  
     <span class="hotline">**EN ADC** -> **ML TCU**</span>: "KHU, A015"
 
 !!! Note
-    For aircraft not tracking via an Arrival Gate (ML TCU shall clear aircraft for approach via the appropriate arrival gate:), ML TCU is required to coordinate descent of aircraft into EN ADC airspace.
+    For aircraft not tracking via an Arrival Gate, ML TCU is required to coordinate descent of aircraft into EN ADC airspace.
 
 When “The Coffin” is released, ML TCU is required to coordinate any use of Runway 27 to EN ADC prior to use.
 
 ### AV ADC
 #### Departures
-'Next' coordination is **not** required from AV ADC for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; or  
-  b) Assigned the standard assignable level; or  
-  c) Assigned a **Procedural** SID
+[Next](../controller-skills/coordination.md#next) coordination is **not** required to ML TCU for aircraft that are:  
 
-Any aircraft that don't meet these criteria will be coordinated to ML TCU with a "Next" Call
+- Departing from a runway nominated on the ATIS; and  
+- Assigned the standard assignable level; and  
+- Assigned a **Procedural** SID
 
-!!! phraseology
-    <span class="hotline">**AV ADC** -> **MAV**</span>: "Next, UJI, Runway 18"  
-    <span class="hotline">**MAV** -> **AV ADC**</span>: "UJI, left 030, unrestricted"  
-    <span class="hotline">**AV ADC** -> **MAV**</span>: "Left 030, UJI"
+All other aircraft require a 'Next' call to ML TCU.
 
-The Standard Assignable level from AV ADC to ML TCU is the lower of `A040` or the `RFL`.
+The Standard Assignable level from **AV ADC** to **ML TCU** is:
+
+| Aircraft | Level |
+| ----- | -------| 
+| All | The lower of `A040` and `RFL` |
 
 #### Arrivals
 Heads-up Coordination is not required to AV ADC for YMAV arrivals, due to MAV owning the surrounding airspace. Aircraft shall be instructed to contact AV ADC on final, as per Class C Tower handoffs.
@@ -398,13 +395,15 @@ MB ADC is responsible for the Class D airspace in the MB CTR `SFC` to `A025`.
 Refer to [Reclassifications](#mb-ctr) for operations when MB ADC is offline.
 
 #### Departures
-**MB ADC** will issue airways clearances for all departures planned into the overlying Class C airspace. The Standard Assignable level from MB ADC to ML TCU is `A050` or `RFL` if lower.
+**MB ADC** will issue airways clearances for all departures planned into the overlying Class C airspace. Aircraft who will transit Class G airspace on climb into CTA will be cleared to leave and re-enter controlled airspace by **MB ADC**.
 
-Autorelease is not in effect at YMMB and all departures into Class C airspace require a 'Next' call. Consider the current traffic picture and provide a release when able.
+[Next](../controller-skills/coordination.md#next) coordination is required from MB ADC to ML TCU for all aircraft **entering ML TCU CTA**.
 
-!!! phraseology
-    <span class="hotline">**MB ADC** -> **MDS**</span>: "Next, SGE"  
-    <span class="hotline">**MDS** -> **MB ADC**</span>: "SGE, unrestricted"
+The Standard Assignable level from **MB ADC** to **ML TCU** is:
+
+| Aircraft | Level |
+| ----- | ---- |
+| All | The lower of `A050` and `RFL` |
 
 #### Arrivals/Overfliers
 ML TCU will heads-up coordinate arrivals/overfliers from Class C to MB ADC prior to **5 mins** from the boundary.  

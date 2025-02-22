@@ -223,23 +223,23 @@ All other aircraft coming from INL CTA will be **Heads-up** Coordinated to BN TC
 
 ### BN ADC
 #### Auto Release
-'Next' coordination is **not** required from BN ADC for aircraft that are:   
+[Next](../controller-skills/coordination.md#next) coordination is **not** required to BN TCU for aircraft that are:
 
 - Departing from a runway nominated on the ATIS (except during SODPROPS^); and  
 - Assigned the standard assignable level; and  
 - Assigned a **Procedural** SID; or
 - Assigned the **Radar** SID with a [Standard Assignable Heading](#standard-assignable-departure-headings)
 
-^Auto Release is not available during SODPROPS runway mode. All aircraft will be coordinated from BN ADC to BN TCU.
+^*Auto Release is not available during SODPROPS runway mode. All aircraft must be coordinated from BN ADC to BN TCU.*
 
-!!! phraseology
-    <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Next, ABC, runway 19L"  
-    <span class="hotline">**BN TCU** -> **BN ADC**</span>: "ABC, Heading 030, Unrestricted"  
-    <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Heading 030, ABC"
+All other aircraft require a 'Next' call to BN TCU.
 
 The Standard Assignable level from BN ADC to BN TCU is:  
-For Jets: `A060`  
-For Non-Jets: The lower of `A040` or the `RFL`
+
+| Aircraft | Level |
+| -------- | ----- |
+| Jets | `A060` |
+| Non-Jets | The lower of `A040` and `RFL` |
 
 #### Standard Assignable Departure Headings
 Aircraft that have been cleared the **BN (RADAR) SID** will receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required (excluding during SODPROPS) from the BN ADC controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
@@ -283,21 +283,20 @@ CG ADC is responsible for the Class C Airspace within the CG CTR `SFC` to `A015`
 Refer to [Reclassifications](#cg-ctr) for operations when CG ADC is offline.
 
 #### Auto Release
-'Next' coordination is **not** required from CG ADC for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a **Procedural** SID
+[Next](../controller-skills/coordination.md#next) coordination is **not** required to BN TCU for aircraft that are:   
+  
+  - Departing from a runway nominated on the ATIS; and  
+  - Assigned the standard assignable level; and  
+  - Assigned a **Procedural** SID
 
-!!! phraseology
-    <span class="hotline">**CG ADC** -> **BAC**</span>: "Next, CBN, runway 14"  
-    <span class="hotline">**BAC** -> **CG ADC**</span>: "CBN, heading 030, unrestricted"  
-    <span class="hotline">**CG ADC** -> **BAC**</span>: "Heading 030, CBN"  
-
-The BN TCU controller can suspend/resume Auto Release at any time, with the concurrence of **CG ADC**.
+All other aircraft require a 'Next' call to CG TCU.
 
 The Standard Assignable level from CG ADC to BN TCU is:  
-For Jets: `A060`  
-For Non-Jets: The lower of `A060` or the `RFL`
+
+| Aircraft | Level |
+| -------- | ----- |
+| Jets | `A060` |
+| Non-Jets | The lower of `A060` and `RFL` |
 
 ### AF ADC
 #### Airspace
@@ -306,14 +305,13 @@ AF ADC is responsible for the Class D Airspace within the AF CTR `SFC` to `A015`
 Refer to [Reclassifications](#af-ctr) for operations when AF ADC is offline.
 
 ### Departures
-When aircraft planned via a CTA departure are ready for takeoff and expected to depart imminently, **AF ADC** shall seek release of the aircraft through a 'Next' call.
+[Next](../controller-skills/coordination.md#next) coordination is required from AF ADC to BN TCU for all aircraft **entering BN TCU CTA**.
 
-!!! phraseology
-    <span class="hotline">**AF ADC** -> **BN TCU**</span>: "Next, XMM, Runway 10L"  
-    <span class="hotline">**BN TCU** -> **AF ADC**</span>: "XMM, Unrestricted"  
-    <span class="hotline">**AF ADC** -> **BN TCU**</span>: "XMM"
+The Standard Assignable level from **AF ADC** to **BN TCU** is:
 
-The Standard Assignable level from AF ADC to BN TCU is the lower of `A040` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| ------- | ----- |
+| All | The lower of `A040` and `RFL` |
 
 ### Arrivals/Overfliers
 BN TCU will heads-up coordinate arrivals/overfliers from Class C to AF ADC prior to **5 mins** from the boundary.  
@@ -325,13 +323,13 @@ VFR aircraft require a level readback.
     <span class="hotline">**AF ADC** -> **BN TCU**</span>: "UJE, visual approach"
 
 ### AMB TCU
-All aircraft transiting from **BN TCU** to **AMB TCU** and vice versa must be heads-up coordinated prior to the boundary. 
+All aircraft transiting from **BN TCU** to **AMB TCU** and vice versa must be [Heads-up](../controller-skills/coordination.md#heads-up) coordinated prior to the boundary. 
 
 !!! phraseology
     <span class="hotline">**AMB TCU** -> **BN TCU**</span>: "via BN, DRGN02"  
     <span class="hotline">**BN TCU** -> **AMB TCU**</span>: "DRGN02, `F140`"  
 
-For aircraft arriving into AMB TCU there is no standard assignable level and simply is what ever the controllers agree upon.
+For aircraft arriving into AMB TCU there is no standard assignable level.
 
 !!! phraseology
     <span class="hotline">**BN TCU** -> **AMB TCU**</span>: "via WACKO, STAL13, what level can I assign?"  

@@ -238,21 +238,15 @@ SU ADC is responsible for the Class D airspace in the SU CTR `SFC` to `A045`.
 Refer to [Reclassifications](#su-ctr) for operations when SU ADC is offline.
 
 #### Departures
-Departures from YBSU in to NSA Class C will be coordinated when ready for departure.
+[Next](../../controller-skills/coordination.md#next) coordination is required from SU ADC to INL(NSA/BUR) for all aircraft **entering INL(NSA/BUR) CTA**.
 
-!!! phraseology
-    <span class="hotline">**SU ADC** -> **NSA**</span>: "Next, BNZ123, runway 31"  
-    <span class="hotline">**NSA** -> **SU ADC**</span>: "BNZ123, unrestricted"  
-    <span class="hotline">**SU ADC** -> **NSA**</span>: "BNZ123"
+The Standard Assignable level from **SU ADC** to **INL(NSA/BUR)** is:
 
-The Standard Assignable level from **SU ADC** to INL(NSA/BUR) is the lower of `A040` or the `RFL`.
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A040` and `RFL` |
 
 Where possible (and no possible conflict exists), a higher level shall be assigned by INL(NSA/BUR) for high performance aircraft during next coordination.
-
-!!! phraseology
-    <span class="hotline">**SU ADC** -> **NSA**</span>: "Next, VOZ924, runway 31"  
-    <span class="hotline">**NSA** -> **SU ADC**</span>: "VOZ924, F120"  
-    <span class="hotline">**SU ADC** -> **NSA**</span>: "F120, VOZ924"
 
 #### Arrivals
 NSA must ensure all YBSU arrivals have been assigned a STAR, unless the pilot is unable to accept one.  
@@ -294,14 +288,15 @@ CFS ADC is responsible for the Class D airspace in the CFS CTR `SFC` to `A045`.
 Refer to [Reclassifications](#cfs-ctr) for operations when CFS ADC is offline.
 
 #### Departures
-Departures from YCFS in to INL Class C will be coordinated when ready for departure.
+[Next](../../controller-skills/coordination.md#next) coordination is required from CFS ADC to INL for all aircraft **entering INL CTA**.
 
-!!! phraseology 
-    <span class="hotline">**CFS ADC** -> **INL**</span>: "Next, BNZ185"  
-    <span class="hotline">**INL** -> **CFS ADC**</span>: "BNZ185, Unrestricted"  
-    <span class="hotline">**CFS ADC** -> **INL**</span>: "BNZ185"  
+The Standard Assignable level from **CFS ADC** to **INL** is:
 
-The Standard Assignable level from **CFS ADC** to INL is the lower of `A070` or the `RFL`.
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A070` and `RFL` |
+
+Where possible (and no possible conflict exists), a higher level shall be assigned by for high performance aircraft during next coordination.
 
 #### Arrivals
 YCFS arrivals shall be coordinated to **CFS ADC** from INL prior to **5 mins** from the boundary.

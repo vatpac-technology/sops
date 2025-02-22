@@ -89,14 +89,13 @@ When PH RWY 03 is in operation, the ATIS should include:
 `DUE PERTH DUTY RUNWAY 03, CAUTION WAKE TURBULANCE`
 ## Coordination
 ### Next Call
-When the aircraft is ready for departure, JT ADC will coordinate with the relevant PH TCU controller above them for permission to release the aircraft into their CTA.
+[Next](../../controller-skills/coordination.md#next) coordination is required from JT ADC to PH TCU for all aircraft **entering PH TCU CTA**. 
 
-!!! phraseology
-    <span class="hotline">**JT ADC** -> **PH TCU**</span>: "Next, FD420, runway 24R"  
-    <span class="hotline">**PH TCU** -> **JT ADC**</span>: "FD420, Unrestricted"  
-    <span class="hotline">**JT ADC** -> **PH TCU**</span>: "FD420"  
+The Standard Assignable level from **JT ADC** to **PH TCU** is:
 
-The Standard Assignable level from JT ADC to PH TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| ------ | ----- |
+| All | The lower of `A030` and `RFL` |
 
 ### Arrivals/Overfliers
 PH TCU will heads-up coordinate arrivals/overfliers from Class C to JT ADC.  
