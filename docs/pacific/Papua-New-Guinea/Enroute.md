@@ -56,7 +56,7 @@ IFR arrivals shall be heads-up coordinated to the ADC from AYPM prior to **5 min
     <span class="hotline">**AYPM CTR** -> **AYMD ADC**</span>: "Via KARKAR arrival, RQS”  
     <span class="hotline">**AYMD ADC** -> **AYPM**</span>: "RQS"  
 
-as per [Standard coordination procedures](../../controller-skills/coordination/#octa-coordination), coordination between AYPM CTR and ADC is **not required** for VFR arrivals. However, a **5 minute** change parameter applies to any aircraft that change level, route, or taxi within **5 minutes** of the next sector's airspace.
+As per [Standard coordination procedures](../../controller-skills/coordination/#octa-coordination), coordination between AYPM CTR and ADC is **not required** for VFR arrivals. However, a **5 minute** change parameter applies to any aircraft that change level, route, or taxi within **5 minutes** of the next sector's airspace.
 
 ### International (ARA)
 As per [Standard coordination procedures](../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
