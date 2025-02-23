@@ -107,7 +107,7 @@ Arriving aircraft will be directed to contact ADC prior to entering the ATZ. Air
      **AYGA_TWR**: "LMZ, winds light and variable, runway 35L, cleared to land."
 
 #### Coordination
-##### Departures
+##### Departures and Arrivals
 As per [Standard coordination procedures](../../controller-skills/coordination/#octa-coordination), coordination between ADC and AYPM CTR is **not required**. However, a **5 minute** change parameter applies to any aircraft that change level, route, or taxi within **5 minutes** of the next sector's airspace.
 
 ##### Overflyers
@@ -122,15 +122,6 @@ IFR aircraft may either be handed off to the ADC frequency by AYPM CTR, or held 
     <span class="hotline">**AYPM CTR** -> **AYMH ADC**</span>: "via LEMER, DEF, overflying at `A180`."  
     <span class="hotline">**AYMH ADC** -> **AYPM CTR**</span>: "DEF, No reported traffic, no frequency requirements."  
     AYPM CTR will put *"AYMH NFR"* in the label data, and the aircraft will remain on the ENR frequency.
-
-##### Arrivals
-IFR arrivals shall be heads-up coordinated to the ADC from AYPM prior to **5 mins** from the ATZ boundary.
-
-!!! phraseology
-    <span class="hotline">**AYPM CTR** -> **AYMD ADC**</span>: "Via KARKAR arrival, RQS”  
-    <span class="hotline">**AYMD ADC** -> **AYPM**</span>: "RQS"  
-
-As per [Standard coordination procedures](../../controller-skills/coordination/#octa-coordination), coordination between AYPM CTR and ADC is **not required** for VFR arrivals. However, a **5 minute** change parameter applies to any aircraft that change level, route, or taxi within **5 minutes** of the next sector's airspace.
 
 ## Charts
 !!! abstract "Reference"
