@@ -78,8 +78,8 @@ Departing aircraft should **not** be issued a takeoff clearance (as the helipads
     **RSCU209**: "Canberra Tower, helicopter RSCU209, on the pad at Canberra Hospital, for Bankstown, received Juliet, ready"  
     **CB ADC**: "RSCU209, Canberra Tower, report sighting a Jetstar A320 on a 3nm final runway 35 and advise able to maintain own separation with that aircraft"  
     **RSCU209**: "Traffic sighted and affirm, RSCU209"  
-    **CB ADC**: "RSCU209, pass behind the A320, maintain own separation, caution wake turbulence, cleared to Bankstown via AKMIR, flight planned route, climb A090, squawk 3762"  
-    **RSCU209**: "Cleared to Bankstown via AKMIR flight planned route, climb A090, squawk 3762, pass behind the A320 and maintain own separation, RSCU209"  
+    **CB ADC**: "RSCU209, pass behind the A320, maintain own separation, caution wake turbulence, cleared to Bankstown via AKMIR, flight planned route, climb to A090, squawk 3762"  
+    **RSCU209**: "Cleared to Bankstown via AKMIR flight planned route, climb to A090, squawk 3762, pass behind the A320 and maintain own separation, RSCU209"  
 
     *Remember to pass traffic information to both aircraft.*  
     **CB ADC**: "JST619, traffic is a helicopter becoming airborne from Canberra Hospital, approximately 5nm southwest of the field, maintaining own separation with you, runway 35, cleared to land"  
@@ -99,26 +99,20 @@ Helicopters arriving to the pads will generally be coordinated by the TMA contro
 
 ## Coordination
 ### Auto Release
-'Next' coordination is not required to CB TCU for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a **Procedural** SID
+[Next](../../controller-skills/coordination.md#next) coordination is not required to CB TCU for aircraft that are:   
+  
+  - Departing from a runway nominated on the ATIS; and  
+  - Assigned the standard assignable level; and  
+  - Assigned a **Procedural** SID
 
 All other aircraft require a 'Next' call to CB TCU.
 
-!!! phraseology
-    <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Next, XEB, runway 35"  
-    <span class="hotline">**CB TCU** -> **CB ADC**</span>: "XEB, heading 010, Unrestricted"  
-    <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Heading 010, XEB"
-
-    **CB ADC**: "XEB, Assigned heading Right 010, Runway 35, Cleared for Takeoff"  
-    **XEB**: "Right heading 010, Runway 35, Cleared for Takeoff, XEB"
-
-The CB TCU controller can suspend/resume Auto Release at any time, with the concurrence of **CB ADC**.
-
 The Standard Assignable level from CB ADC to CB TCU is:  
-For IFR aircraft: `A100`  
-For VFR aircraft: The lower of `A040` or the `RFL`
+
+| Flight Rules | Level |
+| ------------ | ----- |
+| IFR | `A100` |
+| VFR | The lower of `A040` and `RFL` |
 
 ### Runway Change
 Any Runway change must be prior coordinated to **CB TCU**.

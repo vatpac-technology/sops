@@ -44,7 +44,7 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| IND | PIY(All) | YPPH | |
+| IND | HYD(All) | YPPH | |
 
 ## Coordination
 ### Domestic Enroute

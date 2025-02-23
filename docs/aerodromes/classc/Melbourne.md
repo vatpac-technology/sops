@@ -31,6 +31,7 @@ If winds are too great, single runway operations may be necessary (eg, Runway 16
 | 27AD/34D   | 27       | 34 (Via MNG, NONIX, DOSEL and BOGES), 27 (All other deps)        |
 | 16A/27D    | 16 | 27  |
 | 09A/16D    | 09 | 16  |
+| 34A/27AD   | 34 & 27 | 27 |
 
 !!! info
     When utilising the 27AD/34D runway mode, Heavy Aircraft may require Runway 34 for departure due to the shorter length of Runway 27. Assigning Runway 34 to aircraft from the southern apron can also improve aerodrome efficiency due to the reduced taxi distance.
@@ -67,8 +68,30 @@ Shall be assigned the **Radar SID**.
 !!! example
     Non-Jet Aircraft planned via DOSEL, assigned runway 34, shall be given the ML (RADAR) SID.
 
-## ATIS
+## LAHSO
+!!! warning "Important"
+    Due to its operational complexity, LAHSO **must be authorised by a member of the VATPAC ATS or Events Staff Team or a C3-rated controller**.
 
+    Very little benefit is achieved by running LAHSO without a flow controller and it is almost exclusively reserved for our busiest events.
+
+Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../controller-skills/runwaymanagement.md#lahso) for more information.
+
+### Weather Conditions
+LAHSO may only be used where the weather conditions meet the following minimum requirements:
+
+| Element | Criteria |
+| ------- | -------- |
+| Cloud Ceiling | `A045` or higher |
+| Visibility | 8km or greater |
+| Surface Condition | Dry |
+| Windshear | None Reported |
+
+Two simultaneous landings may be conducted by both day and night. A simultaneous takeoff and landing may only be conducted by day.
+
+### Runway Mode
+The only approved LAHSO mode at YMML is **34A/27AD**. Runway 34 is considered the active runway, while runway 27 is considered the passive runway.
+
+## ATIS
 ### ATIS Identifier
 YMML ATIS identifiers only uses letters `N` through to `Y`, due to nearby YMEN using letters `A` through `M`.  
 
@@ -84,6 +107,7 @@ This permits controllers to assign aircraft either the Alpha or Victor STAR and 
 | 27AD/34D   | 27 FOR ARR, RWY 34 FOR DEPS VIA MNG, NONIX, DOSEL AND BOGES, RWY 27 FOR ALL OTHER DEPS |
 | 16A/27D    | 16 FOR ARR, RWY 27 FOR DEP |
 | 09A/16D    | 09 FOR ARR, RWY 16 FOR DEP |
+| 34A/27AD   | 34 FOR ARR, RWY 27 FOR ARR AND DEP |
 
 ### Operational Info
 #### Independent Crossing Runway Operations
@@ -92,12 +116,15 @@ When using runway mode 09A/16D, the ATIS OPR INFO shall include:
 
 This allows for both Runway 09 and Runway 16 to operate independently of each other, with aircraft departing Runway 16 from Taxiway Echo.
 
+#### LAHSO
+When [LAHSO](#lahso) is in use, the ATIS OPR INFO shall include:  
+`LAND AND HOLD SHORT OPERATIONS IN PROGRESS`
+
 #### ACD Pushback Requests
 When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) procedure, the OPR INFO shall include:  
 `ALL DEPARTURES MUST REQUEST PUSH BACK ON 127.2`  
 
-## Miscellaneous
-### Sunbury Corridor
+## Sunbury Corridor
 Day VFR Helicopters may request clearance via the **Sunbury Corridor**. It is defined as the corridor 1nm either side of a track from SWT - PWLC - 16/27 Intersection at YMML.
 
 <figure markdown>
@@ -131,6 +158,12 @@ Remember to pass traffic information to both aircraft.
 !!! phraseology
     **ML ADC:** "JST515, traffic is a helicopter, 2nm northwest of the field, tracking for Essendon and maintaining own separation with you, runway 16, cleared to land"  
     **JST515:** "Runway 16, cleared to land, JST515"
+
+## Pushback Disconnect Points
+In the real world, YMML utilises Towbar Disconnect Points (TDPs) to allow predictable pushback paths from various bays. On VATSIM, this is difficult to simulate, given the limited access to pushback maps and the additional plugins required to facilitate a pushback in this way.
+
+!!! warning "Important"
+   In the real world, disconnect points are rarely assigned by the SMC controller, as each bay has a standard disconnect point. As such, disconnect points should only be assigned where there is benefit to traffic flow on the apron, after confirming that **both the pilot & controller** are competent in their use, or on **pilot request**.
 
 ## Workload Management
 During busy events, such as [Milk Run Monday](../../../events/milkrun/), the **SMC** controller may end up with a much higher workload than the **ACD** controller. Additionally, delays may need to be implemented for aircraft requesting pushback, so as to not overload the taxiways and holding points.
@@ -167,7 +200,7 @@ The decision whether or not to send an aircraft to SMC or hold them on the ACD f
 
 !!! phraseology
     **VOZ543:** "Melbourne Delivery, VOZ543, PDC read back"  
-    **ML ACD:** "VOZ543, go ahead the read back"  
+    **ML ACD:** "VOZ543, Melbourne Delivery"  
     **VOZ543:** "DOSEL1 departure, squawk 1336, bay E8, VOZ543"  
     **ML ACD:** "VOZ543, contact me when ready for pushback"  
     **VOZ543:** "Wilco, VOZ543"  
@@ -213,7 +246,7 @@ During busy events, VATPAC may utilise prebooked slots to manage traffic congest
 !!! warning "Important"
     Melbourne utilises auto release for all **Procedural** SIDs and the **ML (RADAR)** SID provided aircraft are assigned the Standard Assignable Level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
-'Next' coordination is **not** required for aircraft that are:  
+[Next](../../controller-skills/coordination.md#next) coordination is **not** required for aircraft that are:  
 
 - Assigned a **Procedural** SID  
     - Departing from a runway nominated on the ATIS; and  
@@ -229,17 +262,11 @@ During busy events, VATPAC may utilise prebooked slots to manage traffic congest
 
 All other aircraft require a 'Next' call to ML TCU.
 
-!!! phraseology
-    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, JIA, runway 34"  
-    <span class="hotline">**ML TCU** -> **ML ADC**</span>: "JIA, Track Extended Centreline, Unrestricted"  
-    <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Track Extended Centreline, JIA"  
+The Standard Assignable level from **ML ADC** to **ML TCU** is:
 
-    **ML ADC**: "JIA, Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff"  
-    **JIA**: "Track Extended Centreline 340 degrees, Runway 34, Cleared for Takeoff, JIA"
-
-The ML TCU controller can suspend/resume Auto Release at any time, with the concurrence of **ML ADC**.
-
-The Standard Assignable level from ML ADC to ML TCU is the lower of `A050` or the `RFL`.
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `A050` and `RFL` |
 
 ### Standard Assignable Departure Headings
 Aircraft that have been cleared the **ML (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance.
@@ -267,6 +294,6 @@ Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace
 EN ADC is responsible for separation with all YMML traffic, and will coordinate any aircraft operating in EN ADC airspace that cannot be visually or laterally separated with YMML traffic.
 
 !!! phraseology 
-    <span class="hotline">**EN ADC** -> **ML ADC**</span>: "Boundary Ident, OXG, Published Missed Approach from the ILS 26"  
-    <span class="hotline">**ML ADC** -> **EN ADC**</span>: "OXG, My restriction is QFA451 on a 10nm final RWY 34. Your separation"  
+    <span class="hotline">**EN ADC** -> **ML ADC**</span>: "For Ident, OXG, published missed approach from the ILS 26"  
+    <span class="hotline">**ML ADC** -> **EN ADC**</span>: "OXG, my restriction is QFA451 on a 10nm final RWY 34, your separation"  
     <span class="hotline">**EN ADC** -> **ML ADC**</span>: "My separation with QFA451, OXG"

@@ -20,7 +20,6 @@
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
-
 The Primary Communication Method for ASP is [CPDLC](../../../client/cpdlc).
 
 The CPDLC Station Code is `YASP`.
@@ -66,8 +65,8 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | ---- | -------- | --------- | --------- |
 | FOR, WRA, BKE | TBD(AUG) | YPAD, YPED | Jets only |
 | BKE | TBD | YPAD, YPED | |
-| ESP | PIY(HYD) | YPPH, YPEA | Jets only |
-| BKE | YWE(KAT, GTH) | YSSY | |
+| ESP | HYD | YPPH, YPEA | Jets only |
+| BKE | GUN(KAT), MUN(GTH) | YSSY | |
 
 ## Coordination
 ### Enroute
@@ -83,14 +82,14 @@ AS ADC is responsible for the Class D airspace `SFC` to `A045`, as well as the C
 Refer to [Reclassifications](#as-ctr) for operations when AS ADC is offline.
 
 #### Departures
-Departures from YBAS in to ASP Class C will be coordinated when ready for departure.
+[Next](../../controller-skills/coordination.md#next) coordination is required from AS ADC to ASP for all aircraft **entering ASP CTA**.
 
-!!! phraseology
-    <span class="hotline">**AS ADC** -> **ASP**</span>: "Next, QFA797"  
-    <span class="hotline">**ASP** -> **AS ADC**</span>: "QFA797, Unrestricted"  
-    <span class="hotline">**AS ADC** -> **ASP**</span>: "QFA797"  
+The Standard Assignable level from **AS ADC** to **ASP** is:
 
-The Standard Assignable level from **AS ADC** to ASP is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A070` and `RFL` |
+
 #### Arrivals
 YBAS arrivals shall be heads-up coordinated to **AS ADC** from ASP prior to **5 mins** from the boundary.
 

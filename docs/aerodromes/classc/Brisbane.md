@@ -198,30 +198,23 @@ Both taxiway **H2** and **F4** are inside the maneuvering area and treated like 
 
 ## Coordination
 ### Auto Release
-'Next' coordination is **not** required to BN TCU for aircraft that are:
+[Next](../../controller-skills/coordination.md#next) coordination is **not** required to BN TCU for aircraft that are:
 
 - Departing from a runway nominated on the ATIS (except during SODPROPS^); and  
 - Assigned the standard assignable level; and  
 - Assigned a **Procedural** SID; or
 - Assigned the **Radar** SID with a [Standard Assignable Heading](#standard-assignable-departure-headings)
 
-^Auto Release is not available during SODPROPS runway mode. All aircraft must be coordinated from BN ADC to BN TCU.
+^*Auto Release is not available during SODPROPS runway mode. All aircraft must be coordinated from BN ADC to BN TCU.*
 
 All other aircraft require a 'Next' call to BN TCU.
 
-!!! phraseology
-    <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Next, QLK404D, Runway 19L"  
-    <span class="hotline">**BN TCU** -> **BN ADC**</span>: "QLK404D, heading 160, unrestricted"  
-    <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Heading 160, QLK404D"   
-
-    **BN ADC**: "QLK404D, Assigned heading Left 160, Runway 19L, Cleared for Takeoff"  
-    **QLK404D**: "Left heading 160, Runway 19L, Cleared for Takeoff, QLK404D"
-
-The BN TCU controller can suspend/resume Auto Release at any time, with the concurrence of **BN ADC**.
-
 The Standard Assignable level from BN ADC to BN TCU is:  
-For Jets: `A060`  
-For Non-Jets: The lower of `A040` or the `RFL`
+
+| Aircraft | Level |
+| -------- | ----- |
+| Jets | `A060` |
+| Non-Jets | The lower of `A040` and `RFL` |
 
 ### Departures Controller
 Refer to [Brisbane TCU Airspace Division](../../../terminal/brisbane/#airspace-division) for information on airspace divisions when **BDN** and/or **BDS** are online.

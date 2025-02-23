@@ -125,19 +125,19 @@ Night operations must comply with fixed wing operations.
 
 ## Coordination
 ### Departures
-When the aircraft is ready for departure, MB ADC will coordinate with the relevant ML TCU controller above them for permission to release the aircraft into their CTA.
+[Next](../../controller-skills/coordination.md#next) coordination is required from MB ADC to ML TCU for all aircraft **entering ML TCU CTA**.
 
-!!! phraseology
-    <span class="hotline">**MB ADC** -> **MDS**</span>: "Next, SGE"  
-    <span class="hotline">**MDS** -> **MB ADC**</span>: "SGE, unrestricted"
+The Standard Assignable level from **MB ADC** to **ML TCU** is:
 
-The Standard Assignable level from MB ADC to ML TCU is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| ----- | ---- |
+| All | The lower of `A050` and `RFL` |
 
 Aircraft who will transit Class G airspace on climb into CTA must be **cleared to leave and re-enter controlled airspace** on climb to their assigned level.
 
 !!! phraseology
-    **MB ADC**: "SGE, cleared to leave and re-enter controlled airspace climbing to A050, no reported IFR traffic. Contact Melbourne Departures on 129.4"  
-    **SGE**: "Cleared to leave and re-enter controlled airspace climbing to A050, Departures 129.4, SGE"
+    **MB ADC**: "SGE, leave and re-enter controlled airspace climbing to A050, no reported IFR traffic. Contact Melbourne Departures on 129.4"  
+    **SGE**: "Leave and re-enter controlled airspace climbing to A050, departures 129.4, SGE"
 
 ### Arrivals/Overfliers
 ML TCU will heads-up coordinate arrivals/overfliers from their Class C to MB ADC.
