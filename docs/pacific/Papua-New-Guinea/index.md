@@ -79,7 +79,7 @@ Aircraft will make contact with ATC when advising of engine starts and prior to 
     **ABC**: "Madang Tower, ABC Cessna 172, IFR for AYHK, request taxi."  
     **AYMD_TWR**: "ABC, Madang Tower. Traffic is XYZ, a Cessna Caravan inbound from Goroka operating not above `A090`, estimating circuit time 15. Taxi to holding point D runway 25."  
     **ABC***: "Taxi to holding point D, runway 25, ABC."
-	
+	...
     **ABC**: "ABC, Ready."  
     **AYMD_TWR**: "ABC, make right turn, cleared for takeoff."  
     **ABC**: "Make right turn, cleared for takeoff, ABC."
@@ -102,9 +102,35 @@ Arriving aircraft will be directed to contact ADC prior to entering the ATZ. Air
     **LMN**: "Goroka Tower, ABC is overhead YGASI tracking 350, `A100` descending via RNAV-Z arrival, estimating YGASG time 45."  
     **AYGA_TWR**: "LMN, Goroka Tower, hello. No reported traffic, report overhead YGASG."  
     **LMN***: "Report overhead YGASG, LMN."  
-    	
+    	...
      **LMN**: "Overhead YGASG, LMN."  
      **AYGA_TWR**: "LMZ, winds light and variable, runway 35L, cleared to land."
+
+#### Coordination
+##### Departures
+As per [Standard coordination procedures](../../controller-skills/coordination/#octa-coordination), coordination between ADC and AYPM CTR is **not required**. However, a **5 minute** change parameter applies to any aircraft that change level, route, or taxi within **5 minutes** of the next sector's airspace.
+
+##### Overflyers
+As per [Standard coordination procedures](../../controller-skills/coordination/#octa-coordination), coordination between ADC and AYPM CTR is **not required**. However, a **5 minute** change parameter applies to any aircraft that change level, route, or taxi within **5 minutes** of the next sector's airspace.
+
+Overflying VFR aircraft are expected to monitor the local ADC frequency, but can contact the ADC when they deem it necessary due to a perceived conflict.
+
+IFR aircraft may either be handed off to the ADC frequency by AYPM CTR, or held on the AYPM CTR frequency following coordination if there is no relevant traffic.
+
+!!! phraseology
+    *DEF tracking YABAL H409 PAPTI*  
+    <span class="hotline">**AYPM CTR** -> **AYMH ADC**</span>: "via LEMER, DEF, overflying at `A180`."  
+    <span class="hotline">**AYMH ADC** -> **AYPM CTR**</span>: "DEF, No reported traffic, no frequency requirements."  
+    AYPM CTR will put *"AYMH NFR"* in the label data, and the aircraft will remain on the ENR frequency.
+
+##### Arrivals
+IFR arrivals shall be heads-up coordinated to the ADC from AYPM prior to **5 mins** from the ATZ boundary.
+
+!!! phraseology
+    <span class="hotline">**AYPM CTR** -> **AYMD ADC**</span>: "Via KARKAR arrival, RQS”  
+    <span class="hotline">**AYMD ADC** -> **AYPM**</span>: "RQS"  
+
+as per [Standard coordination procedures](../../controller-skills/coordination/#octa-coordination), coordination between AYPM CTR and ADC is **not required** for VFR arrivals. However, a **5 minute** change parameter applies to any aircraft that change level, route, or taxi within **5 minutes** of the next sector's airspace.
 
 ## Charts
 !!! abstract "Reference"
