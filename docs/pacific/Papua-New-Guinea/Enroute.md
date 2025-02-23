@@ -25,7 +25,7 @@ Refer to the [PNG Local instructions](../) for more information about Class F op
 #### Departures
 Voiceless coordination is in place from AYPY TCU to AYPM CTR for aircraft assigned the lower of `A150` or the `RFL` and tracking via a procedural SID terminus.
 
-Any aircraft not meeting the above requirements must be prior coordinated to AYPM.
+Any aircraft not meeting the above requirements must be prior coordinated to AYPM CTR.
 
 #### Arrivals
 Voiceless coordination is in place from AYPM CTR to AYPY TCU given the arrival has been assigned the standard assignable level of `A140` and assigned a STAR.
