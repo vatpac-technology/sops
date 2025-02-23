@@ -113,7 +113,7 @@ As per [Standard coordination procedures](../../controller-skills/coordination/#
 ##### Overflyers
 As per [Standard coordination procedures](../../controller-skills/coordination/#octa-coordination), coordination between ADC and AYPM CTR is **not required**. However, a **5 minute** change parameter applies to any aircraft that change level, route, or taxi within **5 minutes** of the next sector's airspace.
 
-Overflying VFR aircraft are expected to monitor the local ADC frequency, but can contact the ADC when they deem it necessary due to a perceived conflict.
+Overflying VFR aircraft are expected to monitor the local ADC frequency, but should contact the ADC when they deem it necessary due to a perceived conflict.
 
 IFR aircraft may either be handed off to the ADC frequency by AYPM CTR, or held on the AYPM CTR frequency following coordination if there is no relevant traffic.
 
