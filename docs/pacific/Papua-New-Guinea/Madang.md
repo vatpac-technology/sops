@@ -12,7 +12,7 @@
 | **Madang ATIS**	| | **127.800** | **AYMD_ATIS** |
 
 ## Airspace
-The Madang ADC is responsible for the Class F airspace `SFC` to `A200` within the Madang ATZ.
+ADC is responsible for the **Madang ATZ**; consisting of Class F airspace `SFC` to `A200` within a **25nm** Radius of AYMD ARP.
 
 <figure markdown>
 ![Madang ATZ Airspace](img/AYMD_Vatsys.PNG){ width="700" }

@@ -12,7 +12,7 @@
 | **Tokua (Rabul) ATIS**	| | 	**128.000** | **AYTK_ATIS**	 | 
 
 ## Airspace
-The Tokua ADC is responsible for the Class F airspace `SFC` to `A200` within the Tokua ATZ.
+ADC is responsible for the **Tokua ATZ**; consisting of Class F airspace `SFC` to `A200` within a **25nm** Radius of AYTK ARP.
 
 <figure markdown>
 ![AYTK ATZ Airspace](img/AYTK_Vatsys.PNG){ width="700" }

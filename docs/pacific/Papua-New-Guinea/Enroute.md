@@ -36,7 +36,7 @@ All other aircraft must be prior coordinated.
 #### Departures and Arrivals
 As per [Standard coordination procedures](../../controller-skills/coordination/#octa-coordination), coordination between ADC and AYPM CTR is **not required**. However, a **5 minute** change parameter applies to any aircraft that change level, route, or taxi within **5 minutes** of the next sector's airspace.
 
-#### Overflyers
+#### Overfliers
 As per [Standard coordination procedures](../../controller-skills/coordination/#octa-coordination), coordination between ADC and AYPM CTR is **not required**. However, a **5 minute** change parameter applies to any aircraft that change level, route, or taxi within **5 minutes** of the next sector's airspace.
 
 Overflying VFR aircraft are expected to monitor the local ADC frequency, but should contact the ADC when they deem it necessary due to a perceived conflict.

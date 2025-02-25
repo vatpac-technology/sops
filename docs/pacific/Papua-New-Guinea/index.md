@@ -11,7 +11,6 @@ Within the Papua New Guinea FIR, the transition altitude is 20,000 ft (`A200`).
 ### Transition Level
 Within the Papua New Guinea FIR, the transition level is `F210`.
 
-
 ## Classes of Airspace
 The airspace classification structure within the AYPM FIR differs from other VATPAC regions, most notably the use of Class F airspace for uncontrolled airspace. `PNG AIP ENR 1.4`
 
@@ -57,11 +56,11 @@ Within an ATZ, the local ADC will provide:
 - runway separation service (ie, landing and take-off clearances);
 - surface movement control (ie, taxi instructions);
 - aerodrome circuit traffic regulation (in VMC, by day); and
-- traffic information.
+- flight information service (ie, meteorological and traffic information)
 
 ATC clearances are required only for taxi, take-off, and landing at the primary aerodome. Clearance is not required to enter, leave, or transit the ATZ, however the Class F requirement for continuous two-way communication remains.
 
-The ADC does not provide a separation service between any airbourne aircraft within the ATZ, IFR or VFR. Instead, the ADC will manage departing and arriving traffic by nominating:
+The ADC does not provide a separation service between any airborne aircraft within the ATZ, IFR or VFR. Instead, the ADC will manage departing and arriving traffic by nominating:
 
 - tracking after departure;
 - turn after take-off;
@@ -77,9 +76,9 @@ Aircraft will make contact with ATC when advising of engine starts and prior to 
 
 !!! phraseology
     **ABC**: "Madang Tower, ABC Cessna 172, IFR for AYHK, request taxi."  
-    **AYMD_TWR**: "ABC, Madang Tower. Traffic is XYZ, a Cessna Caravan inbound from Goroka operating not above `A090`, estimating circuit time 15. Taxi to holding point D runway 25."  
-    **ABC***: "Taxi to holding point D, runway 25, ABC."
-	...
+    **AYMD_TWR**: "ABC, Madang Tower. Traffic is XYZ, a Cessna Caravan inbound from Goroka operating not above A090, estimating circuit time 15. Taxi to holding point D runway 25."  
+    **ABC**: "Taxi to holding point D, runway 25, ABC."  
+	...  
     **ABC**: "ABC, Ready."  
     **AYMD_TWR**: "ABC, make right turn, cleared for takeoff."  
     **ABC**: "Make right turn, cleared for takeoff, ABC."
@@ -102,7 +101,7 @@ Arriving aircraft will be directed to contact ADC prior to entering the ATZ. Air
     **LMN**: "Goroka Tower, ABC is overhead YGASI tracking 350, `A100` descending via RNAV-Z arrival, estimating YGASG time 45."  
     **AYGA_TWR**: "LMN, Goroka Tower, hello. No reported traffic, report overhead YGASG."  
     **LMN***: "Report overhead YGASG, LMN."  
-    	...
+    ...  
      **LMN**: "Overhead YGASG, LMN."  
      **AYGA_TWR**: "LMZ, winds light and variable, runway 35L, cleared to land."
 
@@ -110,7 +109,7 @@ Arriving aircraft will be directed to contact ADC prior to entering the ATZ. Air
 ##### Departures and Arrivals
 As per [Standard coordination procedures](../../controller-skills/coordination/#octa-coordination), coordination between ADC and AYPM CTR is **not required**. However, a **5 minute** change parameter applies to any aircraft that change level, route, or taxi within **5 minutes** of the next sector's airspace.
 
-##### Overflyers
+##### Overfliers
 As per [Standard coordination procedures](../../controller-skills/coordination/#octa-coordination), coordination between ADC and AYPM CTR is **not required**. However, a **5 minute** change parameter applies to any aircraft that change level, route, or taxi within **5 minutes** of the next sector's airspace.
 
 Overflying VFR aircraft are expected to monitor the local ADC frequency, but should contact the ADC when they deem it necessary due to a perceived conflict.
@@ -119,9 +118,9 @@ IFR aircraft may either be handed off to the ADC frequency by AYPM CTR, or held 
 
 !!! phraseology
     *DEF tracking YABAL H409 PAPTI*  
-    <span class="hotline">**AYPM CTR** -> **AYMH ADC**</span>: "via LEMER, DEF, overflying at `A180`."  
-    <span class="hotline">**AYMH ADC** -> **AYPM CTR**</span>: "DEF, No reported traffic, no frequency requirements."  
-    AYPM CTR will put *"AYMH NFR"* in the label data, and the aircraft will remain on the ENR frequency.
+    <span class="hotline">**AYPM CTR** -> **AYMH ADC**</span>: "via LEMER, DEF, any traffic or frequency requirements?."  
+    <span class="hotline">**AYMH ADC** -> **AYPM CTR**</span>: "DEF, No reported IFR traffic, no frequency requirements."  
+    AYPM CTR will put *"AYMH NFR NIT"* in the label data, and the aircraft will remain on the ENR frequency.
 
 ## Charts
 !!! abstract "Reference"

@@ -12,7 +12,7 @@
 | **Goroka ATIS**	| | **134.000** | **AYGA_ATIS**	 | 
 
 ## Airspace
-The Goroka ADC is responsible for the Class F airspace `SFC` to `A200` within the Goroka ATZ.
+ADC is responsible for the **Goroka ATZ**; consisting of Class F airspace `SFC` to `A200`.
 
 <figure markdown>
 ![Goroka ATZ Airspace](img/AYGA_Vatsys.PNG){ width="700" }

@@ -12,7 +12,7 @@
 | **Mt Hagen ATIS**	| | 	**128.400** | **AYMH_ATIS**	 |
 
 ## Airspace
-The Mt Hagen ADC is responsible for the Class F airspace `SFC` to `A200` within the Mt Hagen ATZ.
+ADC is responsible for the **Mt Hagen ATZ**; consisting of Class F airspace `SFC` to `A200`.
 
 <figure markdown>
 ![Mt Hagen ATZ Airspace](img/AYMH_Vatsys.PNG){ width="700" }
