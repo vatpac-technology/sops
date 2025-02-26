@@ -9,10 +9,12 @@
 | Name               | ID      | Callsign       | Frequency        | Login ID              |
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
 | **Cairns Approach 1**    |**CS1**| **Cairns Approach**   | **118.400**         | **CS_APP**          |
-| Cairns Approach 2†    |CS2| Cairns Approach  | 126.100         | CS-W_APP          |
-| Cairns Flow†        |CSF|                |          | CS_FMP                              |
+| <span class="indented">Cairns Approach 2 :material-information-outline:{ title="Non-standard position"}    |CS2| Cairns Approach  | 126.100         | CS-W_APP          |
+| <span class="indented">Cairns Flow :material-information-outline:{ title="Non-standard position"}        |CSF|                |          | CS_FMP                              |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
 The vertical limits of the CS TCU are `SFC` to `F180`. **CS ADC** is responsible for the airspace within the CS CTR from `SFC` to `A010`.
@@ -36,9 +38,7 @@ The divisions of the airspace between **CS1** and **CS2** change based on the ru
 </figure>
 
 ## Departure Procedures
-
 ### IFR Departures
-
 IFR aircraft shall be processed via one of the following SIDs:
 
 a) RWY 15, Jets via AKROM: AKROM SID. Non-Jets via NONUM: NONUM SID  
@@ -108,39 +108,31 @@ Flow instructions shall be based on Feeder Fix times. The following points are t
 
 ## Coordination
 ### ADC
-### Airspace
-CS ADC is responsible for the Class C Airspace within the CS CTR `SFC` to `A010`.
-
 #### Departures
-'Next' coordination is **not** required from CS ADC for aircraft that are:   
-- Departing from a runway nominated on the ATIS; and  
-- Assigned the standard assignable level; and  
-- Assigned a **Procedural** SID
+[Next](../controller-skills/coordination.md#next) coordination is **not** required for aircraft that are:   
 
-!!! phraseology
-    <span class="hotline">**ADC** -> **TCU**</span>: "Next, RXA5417, runway 15"  
-    <span class="hotline">**TCU** -> **ADC**</span>: "RXA5417, heading 030, unrestricted"  
-    <span class="hotline">**ADC** -> **TCU**</span>: "Heading 030, RXA5417"
+  - Departing from a runway nominated on the ATIS; and  
+  - Assigned the standard assignable level; and  
+  - Assigned a **Procedural** SID
+
+All other aircraft require a 'Next' call to CS TCU.
+
+The Standard Assignable level from CS ADC to CS TCU is:
+
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `A060` and `RFL` |
 
 See [Standard Assignable Headings](#standard-assignable-headings) for the range of assignable headings available to aircraft on the **radar SID**.
-
-The Standard Assignable level from CS ADC to CS TCU is the lower of `A060` or the `RFL`.
 
 #### Arrivals
 Aircraft tracking via a visual right base to runway 33 must be coordinated with ADC (see [Visual Base Runway 33](#visual-base-runway-33)). All other arriving aircraft do not require coordination.
 
 ### ACD
-The controller assuming responsibility of **CS ACD** shall give heads-up coordination to the relevant CS TCU controller prior to the issue of the following clearances:  
-- VFR Departures  
+The controller assuming responsibility of **CS ACD** shall give [heads-up](../controller-skills/coordination.md#airways-clearance) coordination to the relevant CS TCU controller prior to the issue of the following clearances:  
+
+- VFR departures entering CS TCU CTA
 - Aircraft using a runway not on the ATIS
-
-!!! phraseology
-    <span class="coldline">**CS ACD** -> **CS TCU**</span>: "ABC, Requesting clearance for a Northbound VFR Coastal departure at A035"  
-    <span class="coldline">**CS TCU** -> **CS ACD**</span>: "ABC, Cleared for a Northbound VFR Coastal departure, A035"  
-    <span class="coldline">**CS ACD** -> **CS TCU**</span>: "Cleared for a Northbound VFR Coastal departure, A035, ABC"  
-
-    **CS ACD**: "ABC, Cleared for a Northbound VFR Coastal departure, A035, Squawk 3601"  
-    **ABC**: "Cleared for a Northbound VFR Coastal departure, A035, 3601, ABC"
 
 ### Enroute
 #### Departures
@@ -168,3 +160,12 @@ Voiceless for all aircraft:
   - Radials 355° clockwise to 055°: `A090`
 
 All other aircraft coming from KEN CTA will be **Heads-up** Coordinated to CS TCU.
+
+### CS TCU Internal
+All aircraft transiting between internal CS TCU boundaries must be heads-up coordinated.
+
+!!! phraseology
+    <span class="hotline">**CS1** -> **CS2**</span>: "via CS, ESQ"  
+    <span class="hotline">**CS2** -> **CS1**</span>: "ESQ, A025"   
+
+Boundary coordination is not required between CS1 and CS2 for aircraft arriving or departing tracking via the 15/33 extended centreline.

@@ -5,12 +5,13 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login ID                         |
-| ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Moorabbin ADC**  | **Moorabbin Tower**  | **118.100**         | **MB_TWR**                        |
+
+| Name               | Callsign             | Frequency   | Login ID     |
+|--------------------|----------------------|-------------|--------------|
+| **Moorabbin ADC**  | **Moorabbin Tower**  | **118.100** | **MB_TWR**   |
 | Moorabbin ADC 2†  | Moorabbin Tower  | 123.000        | MB-2_TWR                        |
-| **Moorabbin SMC**   | **Moorabbin Ground**   | **134.250**          | **MB_GND**                       |
-| Moorabbin ATIS        |                | 120.900          | YMMB_ATIS                               |
+| **Moorabbin SMC**  | **Moorabbin Ground** | **134.250** | **MB_GND**   |
+| **Moorabbin ATIS**     |                      | **120.900**     | **YMMB_ATIS**    |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
@@ -26,7 +27,7 @@ ADC 2 is **not permitted** online when *Single Runway* Operations are in use.
 Refer to the [ATIS section](#runway-nomination) for information on ATIS formatting when ADC 2 is online.
 
 ## Airspace
-MB ADC is responsible for the Class D airspace in the MB CTR `SFC` to `A025`.
+MB ADC is responsible for the Class D airspace in the MB CTR from `SFC` to `A025`.
 
 <figure markdown>
 ![MB ADC Airspace](img/mbairspace.png){ width="1000" }
@@ -38,74 +39,128 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 ### Dual ADC Operations
 Airspace Ownership when ADC 2 is online, is split down the middle of the two active extended centrelines.
 
-## VFR Operations
-### Arrivals
+## Runway Modes
+Preferred runway modes are as follows (in order of preference):
 
-| VFR Approach Point | RWY 13  | RWY 17 | RWY 31  | RWY 35 |
-| ----------------| --------- | ---------- | --------- | ---------- |
-| BTO | Join final 13R | Join base 17R | Join downwind 31L | Join oblique downwind 35L |
-| BAW  | Join base 13R | Join base 17R | Join oblique downwind 31L | Join base 35L |
-| CARR | Join downwind 13R | Join downwind 17R | Join oblique base 31L | Join final 35L |
-| GMH  | Join downwind 13L | Join base 17L | Join oblique base 31R | Join base 35R |
-| ACE  | Join base 13L | Join oblique base 17L | Join base 31R | Join oblique downwind 35R |
+1. Runway 35L/35R
+2. Runway 17L/17R
+3. Runways 13/31 (equal preference)
 
-## Departures into CTA
-The overlying Class C airspace extends down to `A025` to the north and `A045` to the south. Aircraft planned into the overlying Class C airspace shall be issued an airways clearance by **MB ADC** and assigned `A050` or `RFL` if lower. These aircraft must be Next coordinated to the relevant TCU controller, who will assess the current traffic picture and provide a release when able. During times of peak TMA traffic, there may be extensive delays for departure and pilots may elect to depart directly into class G. See [Departure Coordination](#departures) for coordination requirements.
+Runway 04/22 is not nominated by default and is only available on request or when operationally required for emergencies. Requests for Runway 22 may be granted if traffic conditions allow. Runway 04 is less likely to be approved due the need to vacate onto an intersecting runway.
+
+## VFR Inbound Procedures
+Aircraft should report at the standard VFR entry points:
+
+| Direction from YMMB  | Entry Point |
+|-------------|----------------------|
+| North | BTO         |
+| North East | ACE         |
+| East | GMH        |
+| South | CARR         |
+| South West | SHOL         |
+| West | BAW       |
+
+### Circuit Joining Instructions
+
+| Entry Point | RWY 13                          | RWY 17                          | RWY 31                          | RWY 35                          |
+|-------------|---------------------------------|----------------------------------|----------------------------------|----------------------------------|
+| BTO         | *Final* **13R**                  | *Oblique Base* **17R**            | *Downwind* **31L**                | *Downwind* or *Oblique Downwind* **35L** |
+| ACE         | *Base* **13L**                   | *Oblique Base* or *Final* **17L** | *Oblique Downwind* or *Base* **31R** | *Oblique Downwind* **35R**        |
+| GMH         | *Oblique Downwind* or *Downwind* **13L** | *Base* **17L**                   | *Oblique Base* or *Final* **31R** | *Base* **35R**                    |
+| CARR        | *Oblique Downwind* **13R**       | *Downwind* **17R**                | *Base* *31L**                    | *Final* **35L**                   |
+| SHOL       | *Oblique Downwind* or *Base* **13R** | *Oblique Downwind* **17R**       | *Base* **31L**                    | *Oblique Base* or *Final* **35L** |
+| BAW         | *Base* or *Oblique Base* **13R** | *Base* or *Oblique Downwind* **17R** | *Oblique Downwind* **31L**         | *Base* **35L**                    |
+
+!!! phraseology
+    **EWZ**: "Moorabbin Tower, EWZ, C172, approaching CARR, A015, inbound in receipt of P"  
+    **MB ADC**: "EWZ, Moorabbin Tower, join downwind Runway 17R"  
+    **EWZ**: "Join downwind Runway 17R, EWZ"  
+
+VFR Pilots are expected to enter the MB CTR at `A010` as per ERSA. However, be aware that some pilots may not be familiar with this requirement.
 
 ## Circuits
-Circuits are to be flown at `A010`.
+### Fixed wing
+Circuit altitude: `A010`.
 
-| Runway | Day | Night |
-| ------ | ------ | ----|
-| 13L     | Left  | Left |
-| 13R     | Right | - |
-| 31L     | Left  | - |
-| 31R     | Right  | Right |
-| 17L     | Left  | Left |
-| 17R     | Right | - |
-| 35L     | Left  | - |
-| 35R     | Right  | Right |
+| Runway  | Day Circuit Direction | Night Circuit Direction |
+|---------|------------------------|--------------------------|
+| 13L     | Left                  | Left                    |
+| 13R     | Right                 | N/A                     |
+| 31L     | Left                  | N/A                     |
+| 31R     | Right                 | Right                   |
+| 17L     | Left                  | Left                    |
+| 17R     | Right                 | N/A                     |
+| 35L     | Left                  | N/A                     |
+| 35R     | Right                 | Right                   |
 
-## ATIS
-### Runway Nomination
+## Helicopter Operations
+### Circuits
+#### Day VFR Circuits
+Circuit altitude: `A007`.
 
-| Priority | Runway Mode |
-| ------ | ------ |
-| =1     | 17L & 17R |
-| =1     | 35L & 35R |
-| =2     | 13L & 13R |
-| =2     | 31L & 31R |
-| 3     | Single Runway Operations (13/17/31/35) |
-| 4     | Single Runway Operations (04/22) |
+Helicopter circuits are conducted from designated areas based on the active runway:
 
-When 2 ADC controllers are online, the ATIS shall be formatted: `RWY 13L/17L/31R/35R FOR ARRS AND DEPS EAST, FREQ 118.1. RWY 13R/17R/31L/35L FOR ARRS AND DEPS WEST, FREQ 123.0`
+- **RWY 17/35**: From the **Eastern Grass**, which encompasses all areas east of runway 35R.
+- **RWY 13/31**: From the **Western Triangle**, which extends:
+    - From TWY A to the boundary fence,
+    - Up to the centerline of TWY A4,
+    - Then across to the edge of TWY B and runs parallel to TWY B to the boundary fence.
+
+<figure markdown>
+![Eastern Grass and Western Triangle](img/mbhelicircuitareas.png){ width="700" }
+<figcaption>Eastern Grass and Western Triangle</figcaption>
+</figure>
+
+Circuit operations are conducted parallel to the duty runway and inside the fixed-wing circuit.
+
+##### Process
+
+- Helicopters established on the eastern grass or western triangle do not require clearance for low-level operations below `A001`.
+- Pilots must report airborne before each circuit. If departing, they must include intentions. Pilots must stay below `A001` until they are acknowledged.
+- Controllers provide traffic information only on initial circuits. ADC does not positively control these operations or provide sequencing.
+- Acknowledge the callsign or issue departure instructions. Hold aircraft if conflicting with other traffic.
+- After circuit training, pilots will nominate their landing HLS during the airborne call and report downwind before transitioning to the arrival procedure.
+- ADC may additionally notify pilots of additional inbound helicopter circuit traffic affecting the eastern grass or western triangle if workload allows.
+
+!!! tip
+    Where traffic permits, helicopters may be instructed to air transit to their designated areas of operations, to expedite their repositioning.
+
+!!! phraseology
+    **RJB**: "Moorabbin Tower, RJB, R44, at the southern apron, with information N, request circuits"  
+    **MB ADC**: "RJB, Moorabbin Tower, air transit Eastern Grass, report airborne"  
+    **RJB**: "Air transit Eastern Grass, RJB"  
+
+    **RJB**: "Moorabbin Tower, RJB, airborne"  
+    **MB ADC**: "RJB"
+
+    *RJB, established at the Eastern Grass, becomes airborne for circuits*  
+    **RJB**: "RJB, Airborne"  
+    **MB ADC**: "RJB"
+
+#### Night Circuits
+Night operations must comply with fixed wing operations.
 
 ## Coordination
 ### Departures
-Autorelease is not in effect at YMMB and all departures into the overlying Class C airspace require a 'Next' call. They must not be issued a takeoff clearance until a release has been obtained.
+[Next](../../controller-skills/coordination.md#next) coordination is required from MB ADC to ML TCU for all aircraft **entering ML TCU CTA**.
 
-The standard assignable level for departures into CTA is `A050` or `RFL` if lower.
+The Standard Assignable level from **MB ADC** to **ML TCU** is:
 
-!!! phraseology
-    <span class="hotline">**MB ADC** -> **MDS**</span>: "Next, SGE"  
-    <span class="hotline">**MDS** -> **MB ADC**</span>: "SGE, unrestricted"
+| Aircraft | Level |
+| ----- | ---- |
+| All | The lower of `A050` and `RFL` |
 
-Aircraft departing directly into Class C airspace should be instructed to report passing A025 and transferred to the TCU at that point.
-
-!!! phraseology 
-    **SGE**: "SGE, A025"  
-    **MB ADC**: "SGE, contact Melbourne Departures on 129.4" 
-
-Aircraft who will transit Class G airspace on climb into CTA will be **cleared to leave and re-enter controlled airspace** on climb to their assigned level.
+Aircraft who will transit Class G airspace on climb into CTA must be **cleared to leave and re-enter controlled airspace** on climb to their assigned level.
 
 !!! phraseology
-    **MB ADC**: "SGE, cleared to leave and re-enter controlled airspace climbing to A050, no reported IFR traffic. Contact Melbourne Departures on 129.4"  
-    **SGE**: "Cleared to leave and re-enter controlled airspace climbing to A050, Departures 129.4, SGE"
+    **MB ADC**: "SGE, leave and re-enter controlled airspace climbing to A050, no reported IFR traffic. Contact Melbourne Departures on 129.4"  
+    **SGE**: "Leave and re-enter controlled airspace climbing to A050, departures 129.4, SGE"
 
 ### Arrivals/Overfliers
-ML TCU will heads-up coordinate arrivals/overfliers from Class C to MB ADC.  
-IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to MB ADC, unless MB ADC nominates a restriction.  
-VFR aircraft will not be coordinated, and will need to receive their airways clearance from MB ADC.
+ML TCU will heads-up coordinate arrivals/overfliers from their Class C to MB ADC.
+
+- **IFR arrivals** will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to MB ADC, unless MB ADC nominates a restriction.
+- **VFR arrivals** will not be coordinated, and will need to receive their airways clearance from MB ADC.
 
 !!! phraseology
     <span class="hotline">**MDS** -> **MB ADC**</span>: "To the west, PLE, for the NDB-A"  

@@ -9,11 +9,13 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Kennedy** | **Brisbane Centre** | **120.150** | **BN-KEN_CTR** |
-| Barra† | Brisbane Centre | 123.800 | BN-BAR_CTR |
-| Tabletop† | Brisbane Centre | 120.550 | BN-TBP_CTR |
-| Swampy† | Brisbane Centre | 133.200 | BN-SWY_CTR |
+| <span class="indented">Barra :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 123.800 | BN-BAR_CTR |
+| <span class="indented">Tabletop :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 120.550 | BN-TBP_CTR |
+| <span class="indented">Swampy :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 133.200 | BN-SWY_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
 
@@ -218,20 +220,22 @@ HM ADC is responsible for the Class D airspace in the HM CTR `SFC` to `A045`.
 Refer to [Reclassifications](#hm-ctr) for operations when HM ADC is offline.
 
 #### Departures
-Departures from YBHM in to SWY Class C will be coordinated when ready for departure.  
+[Next](../../controller-skills/coordination.md#next) coordination is required from HM ADC to KEN(SWY) for all aircraft **entering KEN(SWY) CTA**.
 
-!!! phraseology
-    <span class="hotline">**HM ADC** -> **SWY**</span>: "Next, QFA797"  
-    <span class="hotline">**SWY** -> **HM ADC**</span>: "QFA797, Unrestricted"  
-    <span class="hotline">**HM ADC** -> **SWY**</span>: "QFA797"  
+The Standard Assignable level from **HM ADC** to **KEN(SWY)** is:
 
-The Standard Assignable level from HM ADC to SWY is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A050` and `RFL` |
+
+Where possible (and no possible conflict exists), a higher level shall be assigned by ARL(MNN) for high performance aircraft during next coordination.
+
 #### Arrivals
 YBHM arrivals shall be heads-up coordinated to **JM ADC** from SWY prior to **5 mins** from the boundary.
 
 !!! phraseology
-    <span class="hotline">**SWY** -> **HM ADC**</span>: "Via OPOSI for RNP U RWY 32, JST848”  
-    <span class="hotline">**HM ADC** -> **SWY**</span>: "JST848, RNP U RWY 32"  
+    <span class="hotline">**SWY** -> **HM ADC**</span>: "Via OPOSI for RNP-U, JST848”  
+    <span class="hotline">**HM ADC** -> **SWY**</span>: "JST848, A060"  
 
 The Standard Assignable level from KEN(SWY) to HM ADC is `A060`, any other level must be prior coordinated.
 

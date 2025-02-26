@@ -11,7 +11,7 @@
 | **Tindal ADC**    | **Tindal Tower**  | **119.700**         | **TN_TWR**        |
 | **Tindal SMC**    | **Tindal Ground**  | **135.850**        | **TN_GND**        |
 | **Tindal ACD**    | **Tindal Delivery**  | **128.100**      | **TN_DEL**       |
-| Tindal ATIS    |   |  124.000        | YPTN_ATIS       |
+| **Tindal ATIS**    |   |  **124.000**        | **YPTN_ATIS**       |
 
 ## Airspace
 TN ADC is not responsible for any airspace by default.  
@@ -80,18 +80,17 @@ The intial point is at A020 on the extended centerline of Taxiway Alpha at 6.5NM
 
 ## Coordination
 ### TN TCU
-'Next' coordination is required from TN ADC to TN TCU for all aircraft.
+[Next](../../controller-skills/coordination.md#next) coordination is required from TN ADC to TN TCU for all aircraft.
 
-!!! phraseology
-    <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Next, ASY01, runway 32"  
-    <span class="hotline">**TN TCU** -> **TN ADC**</span>: "ASY01, Heading 030, unrestricted"  
-    <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Heading 030, ASY01"  
+The Standard Assignable level from TN ADC to TN TCU is:
 
-The Standard Assignable level from TN ADC to TN TCU is the lower of `F180` or the `RFL`.
+| Aircraft | Level |
+| ----- | ---- |
+| All | The lower of `F180` and `RFL` |
 
 ### TRT(TRS)
 When TN TCU is offline, coordination is not required between TN ADC and TRT(TRS). Aircraft entering TRT(TRS) airspace shall be handed off, and instructed to contact TRT(TRS) for onwards clearance.
 
 ## Charts
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}

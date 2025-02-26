@@ -9,7 +9,7 @@
 | ---- | -------- | --------- | ---------------- |
 | **Broome ADC** | **Broome Tower** | **126.000** | **BRM_TWR** |
 | **Broome SMC** | **Broome Ground** | **121.700** | **BRM_GND** |
-| Broome ATIS |  | 128.200 | YBRM_ATIS |
+| **Broome ATIS** |  | **128.200** | **YBRM_ATIS** |
 
 ## Airspace
 <figure markdown>
@@ -41,14 +41,13 @@ The **coastline** is a good reference for this standard.
 
 ## Coordination
 ### Departures
-A 'next' call is made for all aircraft entering TRT(ASH) CTA when they are next to depart. BRM ADC must inform TRT(ASH) if the aircraft does not depart within **2 minutes** of the next call.
+[Next](../../controller-skills/coordination.md#next) coordination is required from BRM ADC to TRT(ASH) for all aircraft **entering TRT(ASH) CTA**.
 
-!!! phraseology
-    <span class="hotline">**BRM ADC** -> **ASH**</span>: "Next, NWK1653"  
-    <span class="hotline">**ASH** -> **BRM ADC**</span>: "NWK1653, Unrestricted"  
-    <span class="hotline">**BRM ADC** -> **ASH**</span>: "NWK1653"
+The Standard Assignable level from **BRM ADC** to **TRT(ASH)** is:
 
-The Standard Assignable level from BRM ADC to TRT(ASH) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A050` and `RFL` |
 
 ### Arrivals/Overfliers
 TRT(ASH) will heads-up coordinate all arrivals/overfliers to BRM ADC

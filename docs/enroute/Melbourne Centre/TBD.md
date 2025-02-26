@@ -8,9 +8,11 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Tailem Bend** | **Melbourne Centre** | **123.050** | **ML-TBD_CTR** |
-| Augusta† | Melbourne Centre | 127.050 | ML-AUG_CTR |
+| <span class="indented">Augusta :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 127.050 | ML-AUG_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
 
@@ -55,14 +57,14 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| TBD | YWE(MUN) | YMML, YMAV | |
+| TBD | MUN | YMML, YMAV | |
 
 ### First Contact
 Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| YWE(MUN), ASP(BKE) | TBD | YPAD, YPED| |
+| MUN, ASP(BKE) | TBD | YPAD, YPED| |
 | ASP(All) | AUG | YPAD, YPED| Jets only |
 
 ## Coordination

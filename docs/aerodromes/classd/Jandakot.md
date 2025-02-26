@@ -11,7 +11,7 @@
 | **Jandakot ADC**  | **Jandakot Tower**  | **118.100**          | **JT_TWR**                        |
 | Jandakot ADC 2†  | Jandakot Tower  | 119.400        | JT-2_TWR                        |
 | **Jandakot SMC**  | **Jandakot Ground**   | **124.300**          | **JT_GND**                       |
-| Jandakot ATIS     |                | 128.650          | YPJT_ATIS                                |
+| **Jandakot ATIS**     |                | **128.650**          | **YPJT_ATIS**                                |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
@@ -110,14 +110,13 @@ When PH RWY 03 is in operation, the ATIS OPR INFO shall include:
 
 ## Coordination
 ### Departures
-When the aircraft is ready for departure, JT ADC will coordinate with the relevant PH TCU controller above them for permission to release the aircraft into their CTA.
+[Next](../../controller-skills/coordination.md#next) coordination is required from JT ADC to PH TCU for all aircraft **entering PH TCU CTA**. 
 
-!!! phraseology
-    <span class="hotline">**JT ADC** -> **PH TCU**</span>: "Next, FD420, runway 24R"  
-    <span class="hotline">**PH TCU** -> **JT ADC**</span>: "FD420, Unrestricted"  
-    <span class="hotline">**JT ADC** -> **PH TCU**</span>: "FD420"  
+The Standard Assignable level from **JT ADC** to **PH TCU** is:
 
-The Standard Assignable level from JT ADC to PH TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| ------ | ----- |
+| All | The lower of `A030` and `RFL` |
 
 ### Arrivals/Overfliers
 PH TCU will heads-up coordinate arrivals/overfliers from Class C to JT ADC.  

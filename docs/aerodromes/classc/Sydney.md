@@ -9,14 +9,16 @@
 | Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Sydney ADC West**    | **Sydney Tower**   | **120.500**          | **SY_TWR**                                   |
-| Sydney ADC East†   | Sydney Tower   | 124.700          | SY-E_TWR                                 |
+| <span class="indented">Sydney ADC East :material-information-outline:{ title="Non-standard position"}   | Sydney Tower   | 124.700          | SY-E_TWR                                 |
 | **Sydney SMC East**    | **Sydney Ground**  | **121.700**          | **SY_GND**                                   |
-| Sydney SMC West†   | Sydney Ground  | 126.500          | SY-W_GND                                 |
-| Sydney Coordinator† | Sydney Coordinator   | 127.600          | SY-C_GND                                |
+| <span class="indented">Sydney SMC West :material-information-outline:{ title="Non-standard position"}   | Sydney Ground  | 126.500          | SY-W_GND                                 |
+| <span class="indented">Sydney Coordinator :material-information-outline:{ title="Non-standard position"} | Sydney Coordinator   | 127.600          | SY-C_GND                                |
 | **Sydney ACD**         | **Sydney Delivery**| **133.800**          | **SY_DEL**                                   |
-| Sydney ATIS        |                | 126.250          | YSSY_ATIS                                |
+| **Sydney ATIS**        |                | **126.250**          | **YSSY_ATIS**                                |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
 SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005` as shown below.
@@ -125,27 +127,27 @@ When both ADC and SMC are online, SMC shall issue aircraft departing on runway 1
 | Runway 34R | Taxiway `S` |
 
 !!! phraseology
-    **SY SMC:** "VOZ853, taxi Charlie, cross runway 25, hold short Sierra"  
-    **VOZ853:** "Taxi Charlie, cross runway 25, hold short Sierra, VOZ853"  
+    **SY SMC:** "VOZ853, taxi via Charlie, cross runway 25, hold short Sierra"  
+    **VOZ853:** "Taxi via Charlie, cross runway 25, hold short Sierra, VOZ853"  
 
     **VOZ853:** "Sydney Tower, VOZ853, holding short Sierra, ready"  
-    **SY ADC:** "VOZ853, Sydney Tower, give way to the inbound Jetstar A320, taxi holding point Tango Six, runway 34R"
+    **SY ADC:** "VOZ853, Sydney Tower, give way to the inbound Jetstar A320, taxi to holding point Tango Six, runway 34R"
 
 Aircraft landing on runway 16L/34R are expected to vacate the runway and taxi via the standard taxi routes to join taxiway Lima. If pilots are unfamiliar with local procedures, they should be instructed by **ADC** to taxi accordingly. Where possible, outbound aircraft should give way to inbound aircraft to avoid creating congestion at the runway exits.
 
 !!! phraseology
-    **SY ADC**: "JAL52, taxi Tango, Lima, on Lima contact Ground 121.7"
+    **SY ADC**: "JAL52, taxi via Tango, Lima, on Lima contact Ground 121.7"
 
 ### Transferring Between SMCs
 When both SMC positions are online and an aircraft is to be passed from one to the other (e.g. an aircraft taxis from the domestic terminal for runway 34L), they should be instructed to hold short of runway 16R/34L and to contact the next SMC frequency.
 
 !!! phraseology
-    **SMC East**: "JST412, cross runway 25, taxi Lima, hold short runway 34L, on Lima contact ground 126.5"  
-    **JST412**: "Cross runway 25, taxi Lima, hold short runway 34L, contact ground 126.5, JST412"  
+    **SMC East**: "JST412, cross runway 25, taxi via Lima, hold short runway 34L, on Lima contact ground 126.5"  
+    **JST412**: "Cross runway 25, taxi via Lima, hold short runway 34L, contact ground 126.5, JST412"
 
     **JST412**: "Sydney Ground, JST412, holding short runway 34L"  
-    **SMC West**: "JST412, cross runway 34L, taxi holding point Alpha Six"  
-    **JST412**: "Cross runway 34L, taxi holding point Alpha Six, JST412"
+    **SMC West**: "JST412, cross runway 34L, taxi to holding point Alpha Six"  
+    **JST412**: "Cross runway 34L, taxi to holding point Alpha Six, JST412"
 
 Generally, aircraft shall cross runway 16R/34L in the following directions at the following locations:
 
@@ -174,7 +176,7 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 *Permitted between the hours of 2300 and 0600 Local. If the pilot does not want to participate in curfew mode operations, the controller must accommodate this request.
 
 !!! note
-    In general, the SODPROPS, 16D/07A, and 25D/34A modes are most suitable for Noise Abatement. The PROPS modes are most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Milk Run Monday or Panic Stations.
+    In general, the SODPROPS, 16D/07A, and 25D/34A modes are most suitable for noise abatement. The PROPS modes are most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Milk Run Monday or Panic Stations.
 
 !!! tip
     Take in to account an aircraft's weight when runways 16L/34R or 07/25 are in use. Heavier aircraft may operationally require the longer Runway 16R/34L, or pilots may prefer a departure from 16R instead of 16L so they have a shorter taxi. If in doubt, ask the pilot and try to be accommodating of these requests.
@@ -189,7 +191,7 @@ When using the SODPROPS mode, pass traffic information to aircraft that are depa
     **VOZ954:** "Runway 34L, cleared to land, VOZ954"  
 
 ### Heliport Responsibility
-When runway 25 is in use, the responsibility for management of the helicopter area falls to **ADC West**. When runway 25 is not in use, **ADC East** (if online) takes responsibility for the heliport.
+When runway 07 or 25 is in use for either arrivals or departures, the responsibility for management of the helicopter area and associated arriving and departing helicopters falls to **ADC West**. During all other runway modes, **ADC East** (if online) takes responsibility for the heliport.
 
 ## Parallel Runway Operations
 Refer to [Parallel Runway Separation Standards](../../../separation-standards/parallelapps) for more information
@@ -222,58 +224,61 @@ Unless operationally required, aircraft shall be assigned the following runways 
 !!! tip
     A radar SID (e.g. **SY (RADAR) SID**) is distinct from a procedural SID with a RADAR transition (eg, **RIC SID, RADAR transition**). A radar SID can be identified in the [DAPs](https://www.airservicesaustralia.com/aip/aip.asp){target=new} as having a *"(RADAR)"* at the end of the name.
 
-### Runway 07
+=== "Runway 07"
 
-| Type  | Via  | SID     |
-| ------| ---- | --------|
-| Jet  | OLSEM<br>WOL | **FISHA** SID, Relevant Transition |
-| Jet  | All others | **FISHA** SID, RADAR Transition |
-| Non-Jet| All       | **RADAR** SID |
+    | Type  | Via  | SID     |
+    | ------| ---- | --------|
+    | Jet  | OLSEM<br>WOL | **FISHA** SID, Relevant Transition |
+    | Jet  | All others | **FISHA** SID, RADAR Transition |
+    | Non-Jet | All       | **RADAR** SID |
 
-### Runway 16L
+=== "Runway 16L"
 
-| Type  | Via  | SID     |
-| ------| ---- | --------|
-| Jet  | OLSEM<br>NOBAR<br>DIPSO<br>EVONN<br>CAWLY<br>OPTIC | **KEVIN** SID, Relevant Transition |
-| Jet  | WOL | **ABBEY** SID |
-| Jet  | All others | **KEVIN** SID, RADAR Transition |
-| Non-Jet | All | **RADAR** SID |
+    | Type  | Via  | SID     |
+    | ------| ---- | --------|
+    | Jet  | OLSEM<br>NOBAR<br>DIPSO<br>EVONN<br>CAWLY<br>OPTIC | **KEVIN** SID, Relevant Transition |
+    | Jet  | WOL | **ABBEY** SID |
+    | Jet  | All others | **KEVIN** SID, RADAR Transition |
+    | Non-Jet | All | **RADAR** SID |
 
-### Runway 16R
+=== "Runway 16R"
 
-| Type  | Via  | SID     |
-| ------| ---- | --------|
-| Jet  | RIC<br>KADOM<br>WOL | **GROOK** SID, Relevant Transition |
-| Jet  | All others | **GROOK** SID, RADAR Transition |
-| Non-Jet | All | **RADAR** SID |
+    | Type  | Via  | SID     |
+    | ------| ---- | --------|
+    | Jet  | RIC<br>KADOM<br>WOL | **GROOK** SID, Relevant Transition |
+    | Jet  | All others | **GROOK** SID, RADAR Transition |
+    | Non-Jet | All | **RADAR** SID |
 
-### Runway 25
+=== "Runway 25"
 
-| Type  | Via  | SID     |
-| ------| ---- | --------|
-| All  | All | **RADAR** SID |
+    | Type  | Via  | SID     |
+    | ------| ---- | --------|
+    | All  | All | **RADAR** SID |
 
-### Runway 34L
+=== "Runway 34L"
 
-| Type  | Via  | SID     |
-| ------| ---- | --------|
-| Jet  | WOL | **WOL** SID |
-| Jet  | KADOM | **KADOM** SID |
-| Jet  | RIC | **RIC** SID, RIC Transition |
-| Jet  | All others | **RIC** SID, RADAR Transition |
-| Non-Jet | All | **RADAR** SID |
+    | Type  | Via  | SID     |
+    | ------| ---- | --------|
+    | Jet  | WOL | **WOL** SID |
+    | Jet  | KADOM | **KADOM** SID |
+    | Jet  | RIC | **RIC** SID, RIC Transition |
+    | Jet  | All others | **RIC** SID, RADAR Transition |
+    | Non-Jet | All | **RADAR** SID |
 
-### Runway 34R
+=== "Runway 34R"
 
-| Type  | Via  | SID     |
-| ------| ---- | --------|
-| Jet  | OLSEM | **OLSEM** SID |
-| Jet  | WOL | **MARUB** SID, WOL Transition |
-| Jet  | All others | **MARUB** SID, RADAR Transition |
-| Non-Jet | All | **RADAR** SID |
+    | Type  | Via  | SID     |
+    | ------| ---- | --------|
+    | Jet  | OLSEM | **OLSEM** SID |
+    | Jet  | WOL | **MARUB** SID, WOL Transition |
+    | Jet  | All others | **MARUB** SID, RADAR Transition |
+    | Non-Jet | All | **RADAR** SID |
+
+!!! warning "Important"
+    Some jet aircraft may require the use of the **RADAR** SID and will communicate this requirement when requesting airways clearance (see [Climb Gradient Requirements](#climb-gradient-requirements)).
 
 ### Climb Gradient Requirements
-Climb Gradient Requirements apply to all Procedural SIDs. It is the pilot's responsibility to advise if they are unable to meet these requirements. Pilots that advise this can be assigned a **RADAR** SID instead.
+Climb gradient requirements apply to all Procedural SIDs. It is the pilot's responsibility to advise if they are unable to meet these requirements. Pilots that advise this shall be assigned the **RADAR** SID instead, regardless of aircraft type.
 
 ## ATIS
 ### Approach Types
@@ -344,7 +349,7 @@ The decision whether or not to send an aircraft to SMC or hold them on the Coord
 
 !!! phraseology
     **VOZ543:** "Sydney Delivery, VOZ543, PDC read back"  
-    **SY ACD:** "VOZ543, go ahead the read back"  
+    **SY ACD:** "VOZ543, Sydney Delivery"  
     **VOZ543:** "Runway 34R, OLSEM1 departure, squawk 1336, bay 33, VOZ543"  
     **SY ACD:** "VOZ543, contact Coordinator 127.6 for pushback"  
     **VOZ543:** "127.6 for push, VOZ543"  
@@ -393,34 +398,29 @@ During busy events, VATPAC may utilise prebooked slots to manage traffic congest
 !!! warning "Important"
     YSSY utilises auto release for all **Procedural** SIDs (except **ABBEY** SID during SODPROPS), and the **SY (RADAR)** SID provided aircraft are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
-'Next' coordination is **not** required for aircraft that are:   
-    a) Departing from a runway nominated on the ATIS; and   
-    b) Assigned the Standard assignable level; and  
-    c) Assigned a **Procedural SID** (except **ABBEY** SID); or  
-    d) Assigned the **Radar** SID with a [Standard Assignable Heading](#standard-assignable-departure-headings)
+[Next](../../controller-skills/coordination.md#next) coordination is **not** required for aircraft that are:   
+
+- Departing from a runway nominated on the ATIS; and   
+- Assigned the Standard assignable level; and  
+- Assigned a **Procedural SID** (except **ABBEY** SID); or  
+- Assigned the **Radar** SID with a [Standard Assignable Heading](#standard-assignable-departure-headings)
 
 All other aircraft require a 'Next' call to SY TCU.
 
 'Next' coordination is additionally required for:  
-    a) Visual departures  
-    b) Departures to YSBK  
-    c) After a go around, the next departure from that runway  
-    d) Jets departing 16L via WOL  
-    e) All aircraft during the Curfew Runway Mode
 
-!!! phraseology
-    <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Next, MHQ, Runway 34R"  
-    <span class="hotline">**SY TCU** -> **SY ADC**</span>: "MHQ, heading 030, unrestricted"  
-    <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Heading 030, MHQ"  
+- Visual departures  
+- Departures to YSBK  
+- After a go around, the next departure from that runway  
+- Jets departing 16L via WOL  
+- All aircraft during the Curfew Runway Mode
 
-    **SY ADC**: "MHQ, Assigned heading right 030, Runway 34R, Cleared for Takeoff"  
-    **MHQ**: "Right heading 030, Runway 34R, Cleared for Takeoff, MHQ"
+The Standard Assignable level from SY ADC to SY TCU is: 
 
-The SY TCU controller can suspend/resume Auto Release at any time, with the concurrence of **SY ADC**.
-
-The Standard Assignable level from SY ADC to SY TCU is:  
-For Jets: `A050`  
-For Non-Jets: The lower of `A030` or the `RFL`
+| Aircraft | Level |
+| -------- | ----- |
+| Jets | `A050` |
+| Non-Jets | The lower of `A030` and `RFL` |
 
 ### Departures Controller
 Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SDN** and/or **SDS** are online.
@@ -445,17 +445,7 @@ Aircraft that have been cleared the **SY (RADAR) SID** must receive an assigned 
 **SY ADC** has responsibility of all runways, requiring **SY SMC** to coordinate with **SY ADC** to allow aircraft to cross runways whilst taxiing. **SY SMC** may request, or **SY ADC** may elect, to release certain runways to the **SY SMC** controller, so they may let aircraft cross the runway without coordination (for example, releasing runway 07/25 to **SY SMC** whilst PROPS are in progress.) This release may also be cancelled at the controller's discretion.
 
 ### ACD to SY TCU
-The controller assuming responsibility of **SY ACD** shall give heads-up coordination to the relevant SY TCU controller prior to the issue of the following clearances:  
-a) VFR Departures  
-b) Aircraft using a runway not on the ATIS 
+The controller assuming responsibility of **SY ACD** shall give [heads-up](../../controller-skills/coordination.md#airways-clearance) coordination to the relevant SY TCU controller prior to the issue of the following clearances: 
 
-!!! phraseology
-    **TEK:** "Sydney Delivery, TEK, for YSHL via CUL, A025, request clearance"  
-    **SY ACD:** "TEK, Sydney Delivery, standby"    
-
-    <span class="coldline">**SY ACD** -> **SY TCU**</span>: "TEK, requesting clearance for YSHL via CUL, A025"  
-    <span class="coldline">**SY TCU** -> **SY ACD**</span>: "TEK, cleared to YSHL via CUL, A025"  
-    <span class="coldline">**SY ACD** -> **SY TCU**</span>: "Cleared to YSHL via CUL, A025, TEK"   
-
-    **SY ACD:** "TEK, cleared to YSHL via CUL, climb A025, squawk 0552, departure frequency 123.0"  
-    **TEK:** "Cleared to YSHL via CUL, climb A025, squawk 0552, departure frequency 123.0, TEK"  
+- VFR departures, other than helicopters assigned a helicopter route coded clearance  
+- Aircraft using a runway not on the ATIS
