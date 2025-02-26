@@ -73,12 +73,10 @@ Circuits to be flown at `A010`
 
 ## Adjacent Runways
 ### Proximity
-
 There is 106 metres between the centrelines of Runway **11R/29L** & **11C/29C**, and 106 metres between the centrelines of Runway **11C/29C** & **11L/29R**.
 Due to the close proximity in critical stages of flight, there are additional considerations (below).
 
 ### Dependent Runway Operatiions (Departures Only)
-
 At Bankstown, all Runways are considered Independent unless a Multi-Engined OR Jet aircraft departs from an adjacent Runway. 
 In this instance, runways are treated as dependent *for departures ONLY*. Controllers should apply the same Runway standard across all dependant Runways. Arriving aircraft are exempt from this clause.
 
@@ -92,7 +90,6 @@ Example C; A PC12 (Single Engine) is ready Runway 29C. There aircraft is a singl
 Example D; A Seminole (Multi-Engine) is cleared a Touch & Go on Runway 11R. Any aircraft departing from the adjacent Runway (11C) must have a Runway separation standard applied.
 
 ### Opposite Bases (Arrivals Only)
-
 DO NOT allow aircraft to turn final simultaneously AND in close proximity.
 Controllers should allow at least one aircraft to become established on final prior to the second commencing their turn to final, and MUST pass mutual traffic.
 
@@ -100,7 +97,6 @@ Controllers should allow at least one aircraft to become established on final pr
     **BK ADC:** "FWC, Traffic is a King Air, late right base assigned the middle runway"
 
 ### Holding Aircraft Between Runways
-
 As per YSBK ERSA, all aircraft should remain on Tower frequency when between Runways.
 The largest aircraft that can safely hold between Runways is a BE20 (King Air). All larger aircraft are considered to be occupying the runway behind until clear of all active Runways. 
 All helicopters are considered to be larger than a King Air for the purpose of this clause.
