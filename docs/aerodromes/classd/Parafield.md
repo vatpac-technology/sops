@@ -10,7 +10,7 @@
 | **Parafield ADC**  | **Parafield Tower**  | **118.700**          | **PF_TWR**                        |
 | Parafield ADC 2†  | Parafield Tower  | 124.600        | PF-2_TWR                        |
 | **Parafield SMC**  | **Parafield Ground** | **119.900**          | **PF_GND**                       |
-| Parafield ATIS        |                | 120.900          | YPPF_ATIS                                |
+| **Parafield ATIS**        |                | **120.900**          | **YPPF_ATIS**                                |
 
 † *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
 
@@ -89,14 +89,13 @@ The APCH field should include `EXP INST APCH` when:
 
 ## Coordination
 ### Departures
-When the aircraft is ready for departure, PF ADC will coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
+[Next](../../controller-skills/coordination.md#next) coordination is required from PF ADC to AD TCU for all aircraft **entering AD TCU CTA**.
 
-!!! phraseology
-    <span class="hotline">**PF ADC** -> **AAW**</span>: "Next, XMM, 03L"  
-    <span class="hotline">**AAW** -> **PF ADC**</span>: "XMM, Heading 020, unrestricted"  
-    <span class="hotline">**PF ADC** -> **AAW**</span>: "Heading 020, XMM"
+The Standard Assignable level from **PF ADC** to **AD TCU** is:
 
-The Standard Assignable level from PF ADC to AD TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| ----- | ---- |
+| All | The lower of `A030` and `RFL` |
 
 ### Arrivals
 AD TCU will heads-up coordinate arrivals/overfliers from Class C to PF ADC.  

@@ -86,23 +86,30 @@ All other aircraft coming from HUO CTA will be **Heads-up** Coordinated to TAS T
 HB ADC owns the Class D airspace in the HB CTR `SFC` to `A015` north of the runway centreline and `A025` south of the runway centreline. HBA owns the Class D and C airspace above these levels.
 
 #### Departures
-'Next' coordination is **not** required from HB ADC for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a **Procedural** SID; or  
-  d) Not entering HBA CTA
+[Next](../controller-skills/coordination.md#next) coordination is **not** required to HBA for aircraft that are:   
 
-The Standard Assignable level from HB ADC to HBA is:  
-For IFR Aircraft: `A080`  
-For VFR Aircraft: The lower of `A045` or the `RFL`.
+- Departing from a runway nominated on the ATIS; and  
+- Assigned the standard assignable level; and  
+- Assigned a SID; or  
+- Not entering HBA CTA
+
+All other aircraft require a 'Next' call to HBA.
 
 !!! note
     All departures from YCBG who will enter the HBA CTA will be Next coordinated by ADC.
 
+The Standard Assignable level from **HB ADC** to **HBA** is:  
+
+| Flight Rules | Level |
+| ----- | ----- |
+| IFR | `A080` |
+| VFR | The lower of `A045` and `RFL` |
+
 ##### Airways Clearance
-**HB SMC** shall give heads-up coordination to HBA controller prior to the issue of the following clearances:  
-a) VFR Departures  
-b) Aircraft using a runway not on the ATIS
+**HB SMC** shall give [heads-up](../controller-skills/coordination.md#airways-clearance) coordination to HBA controller prior to the issue of the following clearances:
+
+- VFR departures entering HBA CTA
+- Aircraft using a runway not on the ATIS
 
 #### Arrivals
 HBA will coordinate all YMHB & YCBG arrivals to HB ADC prior to **5 mins** from the boundary. This coordination shall be as per [Standard Heads-up format](../../controller-skills/coordination/#heads-up), with the addition of:
@@ -120,14 +127,26 @@ HBA will coordinate all YMHB & YCBG arrivals to HB ADC prior to **5 mins** from 
 LT ADC owns the Class D airspace in the LT CTR `SFC` to `A015`. LTA owns the Class D and C airspace above `A015`.
 
 #### Departures
-'Next' coordination is **not** required from LT ADC for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a **Procedural** SID
+[Next](../controller-skills/coordination.md#next) coordination is not required to LTA for aircraft that are:   
 
-The Standard Assignable level from LT ADC to LTA is:  
-For IFR Aircraft: `A080`  
-For VFR Aircraft: The lower of `A045` or the `RFL`.
+- Departing from a runway nominated on the ATIS; and  
+-Assigned the standard assignable level; and  
+-Assigned a SID; or  
+-Not entering LTA CTA
+
+All other aircraft require a 'Next' call to LTA. 
+
+The Standard Assignable level from **LT ADC** to **LTA** is:  
+
+| Flight Rules | Level |
+| ------- | ------ |
+| IFR | `A080` |
+| VFR | The lower of `A045` and `RFL` |
+
+LT ADC shall give [heads-up](../controller-skills/coordination.md#airways-clearance) coordination to LTA controller prior to the issue of the following clearances:  
+
+- VFR departures entering LTA CTA
+- Aircraft using a runway not on the ATIS 
 
 #### Arrivals
 LTA will coordinate all YMLT arrivals to LT ADC prior to **5 mins** from the boundary. This coordination shall be as per [Standard Heads-up format](../../controller-skills/coordination/#heads-up), with the addition of:
@@ -139,3 +158,10 @@ LTA will coordinate all YMLT arrivals to LT ADC prior to **5 mins** from the bou
 !!! phraseology
     <span class="hotline">**LTA** -> **LT ADC**</span>: "via IRSOM, JST416, for the DGA, will join left downwind 32L”  
     <span class="hotline">**LT ADC** -> **LTA**</span>: "JST416"
+
+### LTA/HBA Internal
+All aircraft transiting between internal TAS TCU boundaries must be heads-up coordinated.
+
+!!! phraseology
+    <span class="hotline">**HBA** -> **LTA**</span>: "via LATUM, AM773"  
+    <span class="hotline">**LTA** -> **HBA**</span>: "AM773, F130"

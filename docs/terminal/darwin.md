@@ -9,9 +9,11 @@
 | Name               | ID      | Callsign       | Frequency        | Login ID              |
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
 | **Darwin Approach East**    |**DAE**| **Darwin Approach**  | **125.200**         | **DN_APP**          |
-| Darwin Approach West†   |DAW| Darwin Approach   | 134.100         | DN-W_APP                                  |
+| <span class="indented">Darwin Approach West :material-information-outline:{ title="Non-standard position"}   |DAW| Darwin Approach   | 134.100         | DN-W_APP                                  |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
 ### TCU
@@ -29,9 +31,7 @@ When both DN TCU positions are opened, DN TCU is split east and west along the r
 ADC owns the airspace within the DN CTR (`SFC`–`A010`). This airspace is designed to facilitate the processing of helicopter scenic flights and low-level helicopter circuits.  
 The CTR extends 7NM from the thresholds of runways 11 and 29 but does not including the Robertson Barracks transit zone.  
 
-ADC may request DN TCU (`SFC`–`A020`) from DN TCU to facilitate fixed-wing circuit operations:  
-a) Fixed-wing circuit operations are typically conducted at Delissaville (YDLV) due to high traffic density at Darwin  
-b) ADC may deny requests for circuits if IFR traffic may be unduly delayed  
+ADC may request DN TCU (`SFC`–`A020`) from DN TCU to facilitate fixed-wing circuit operations. Fixed-wing circuit operations are typically conducted at Delissaville (YDLV) due to high traffic density at Darwin.
 
 <figure markdown>
 ![DN ADC Airspace](img/dnadc.png){ width="700" }
@@ -50,8 +50,14 @@ d) Runway 11 and Runway 36;
 e) Runway 11 and Runway 18;  
 f) Runway 11 only.  
 
+## LAHSO
+!!! warning "Important"
+    Due to its operational complexity, LAHSO **must be authorised by a member of the VATPAC ATS or Events Staff Team or a C3-rated controller**.
+
+Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../controller-skills/runwaymanagement.md#lahso) for more information.
+
 ## Charts
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 ## Miscellaneous
@@ -62,34 +68,17 @@ The NETA is defined as the area between DN 360R–060R from 15NM–30NM DN DME.
 Aircraft are to be cleared to the NETA via the 030R outbound. Vertical limits are to be specified by DAW prior to issuing airways clearance  
 
 ### Designated Fuel Dumping Area
-Other than in an emergency, the designated fuel jettison area is:  
-a) Over water in the Beagle Gulf  
-b) Between the 320 and 020 TACAN radials  
-c) `A060` or above  
+Other than in an emergency, the designated fuel jettison area is:
+
+- Over water in the Beagle Gulf  
+- Between the 320 and 020 TACAN radials  
+- `A060` or above  
 
 ### Robertson Barracks
 Darwin TCU is not responsible for traffic or separation services within the A005 step to the east of Darwin. This step is designed for low-level VFR MIL helos to transit in/out of Robertson Barracks without the need for communication with Darwin TCU.
 
 ### YPDN VFR Departures
-`A020` or the planned level; whichever is lower, to all VFR aircraft.  
-
-VFR aircraft are required to track via one of the published VFR Routes.  
-
-VFR routes shall be assigned based on the destination radial from Darwin.  
-
-Assign VFR routes in accordance with the following radial chart:  
-
-|Outbound Radial |Assigned VFR Route|
-|---|---|
-|360 – 040 |VFR Route 1|
-|041 – 084 |VFR Route 2|
-|085 – 124 |VFR Route 3|
-|125 – 180 |VFR Route 4|
-|181 – 224 |VFR Route 5|
-|225 – 359| Direct|
-
-!!! tip
-    If a VFR aircraft has not planned via a VFR route as above, use the phraseology: “ABC, cleared amended route VFR route 1, maintain A020, squawk 4512”
+VFR aircraft generally track via designated VFR routes, as shown on the Darwin VTC.
 
 ## Coordination
 ### Enroute
@@ -118,22 +107,16 @@ Voiceless for all aircraft:
 All other aircraft coming from TRT CTA will be **Heads-up** Coordinated to DN TCU.
 
 ### ADC
-#### Airspace
-DN ADC owns the airspace within the DN CTR `SFC`–`A010`.
-
 #### Auto Release
-Auto-Release is **not available** at YPDN. All Departures will be coordinated when ready for departure.
+[Next](../controller-skills/coordination.md#next) coordination is required from DN ADC to DN TCU for all aircraft.
 
-!!! phraseology
-    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Next, EOC, runway 18"  
-    <span class="hotline">**DN TCU** -> **DN ADC**</span>: "EOC, Track Extended Centreline, unrestricted"  
-    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Track Extended Centreline, EOC"  
+The Standard Assignable Level from  **DN ADC** to **DN TCU** is:
 
-The Standard Assignable level from **DN ADC** to **DN TCU** is:
-
-- For IFR aircraft assigned a Procedural SID: the lower of `F180` or the `RFL`.  
-- For IFR aircraft **not** assigned a Procedural SID: the lower of `A030` or the `RFL`.  
-- For VFR aircraft: the lower of `A020` or the `RFL`.
+| Aircraft | Level |
+| -------- | ----- |
+| IFR aircraft assigned a **Procedural** SID | The lower of `F180` and `RFL` |
+| IFR aircraft **not** assigned a **Procedural** SID | The lower of `A030` and `RFL` |
+| VFR aircraft | The lower of `A020` and `RFL` |
  
 ### DN TCU Internal
 Heads-up coordination is not required between DAW and DAE for:
