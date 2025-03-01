@@ -140,6 +140,20 @@ Circuit operations are conducted parallel to the duty runway and inside the fixe
 #### Night Circuits
 Night operations must comply with fixed wing operations.
 
+## ATIS
+### Runway Nomination
+
+| Priority | Runway Mode |
+| ------ | ------ |
+| =1     | 17L & 17R |
+| =1     | 35L & 35R |
+| =2     | 13L & 13R |
+| =2     | 31L & 31R |
+| 3     | Single Runway Operations (13/17/31/35) |
+| 4     | Single Runway Operations (04/22) |
+
+When 2 ADC controllers are online, the ATIS shall be formatted: `RWY 13L/17L/31R/35R FOR ARRS AND DEPS EAST, FREQ 118.1. RWY 13R/17R/31L/35L FOR ARRS AND DEPS WEST, FREQ 123.0`
+
 ## Coordination
 ### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from MB ADC to ML TCU for all aircraft **entering ML TCU CTA**.
