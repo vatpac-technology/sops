@@ -154,6 +154,15 @@ Helicopters inbound from the south via PKR for either the northen or central hel
 
 ## ATIS
 ### Runway Nomination
+
+| Priority | Runway Mode |
+| ------ | ------ |
+| =1     | 10L & 10R |
+| =1     | 28L & 28R |
+| =2     | 04L & 04R |
+| =2     | 22L & 22R |
+| 3      | Any Single Runway Operations |
+
 The ATIS must indicate the current runway config and nominate what each runway is being used for. This should be reflected on the ATIS as below:
 
 | Runway | RWY Field  |
