@@ -23,7 +23,7 @@ TL TCU owns the Class C and G airspace within 36 DME TL from `SFC` to `F180`
 TL ADC owns the Class C airspace in the TL CTR (Extends to 7NM from the thresholds of Runway 01/19) from `SFC` to `A015`. This airspace is designed to facilitate Helicopter Traffic and Ciruit Traffic.
 
 ## Charts
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 ## Coordination
@@ -54,14 +54,14 @@ All other aircraft coming from TBP CTA will be **Heads-up** Coordinated to TL TC
 TL ADC owns the Class C airspace in the TL CTR from `SFC` to `A015`.
 
 #### Auto Release  
-'Next' coordination is **not** required from TL ADC to TL TCU for aircraft that are:  
-a) Departing from a runway nominated in the ATIS; and  
-b) Assigned the standard assignable level;  
-c) Assigned a **Procedural** SID  
+[Next](../controller-skills/coordination.md#next) coordination is **not** required from TL ADC to TL TCU for aircraft that are:  
 
-!!! phraseology
-    <span class="hotline">**TL ADC** -> **TL TCU**</span>: "Next, DNGO05, runway 19"  
-    <span class="hotline">**TL TCU** -> **TL ADC**</span>: "DNGO05, Assigned Heading Left 150, unrestricted"  
-    <span class="hotline">**TL ADC** -> **TL TCU**</span>: "Assigned Heading Left 150, DNGO05"  
+- Departing from a runway nominated in the ATIS; and  
+- Assigned the standard assignable level; and 
+- Assigned a **Procedural** SID 
 
-The Standard Assignable level from TL ADC to TL TCU is the lower of `F180` or the RFL.
+The Standard Assignable level from TL ADC to TL TCU is:
+
+| Aircraft | Level |
+| ------ | ------- |
+| All | The lower of `F180` and `RFL` |

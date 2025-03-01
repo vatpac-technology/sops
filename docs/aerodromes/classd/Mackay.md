@@ -9,7 +9,7 @@
 | ---- | -------- | --------- | ---------------- |
 | **Mackay ADC** | **Mackay Tower** | **124.500** | **MK_TWR** |
 | **Mackay SMC** | **Mackay Ground** | **121.700** | **MK_GND** |
-| Mackay ATIS |    | 128.000 | YBMK_ATIS |
+| **Mackay ATIS** |    | **128.000** | **YBMK_ATIS** |
 
 ## Airspace
 MK ADC is responsible for the Class D airspace in the MK CTR `SFC` to `A010`.
@@ -23,25 +23,23 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 ## Coordination
 ### Departures
 #### Auto Release
-'Next' coordination is **not** required to MKA for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a **Procedural** SID; or  
-  d) Not entering MKA CTA
+[Next](../../controller-skills/coordination.md#next) coordination is **not** required to MKA for aircraft that are:   
 
-!!! phraseology
-    <span class="hotline">**MK ADC** -> **MKA**</span>: "Next, ABC, runway 14"  
-    <span class="hotline">**MKA** -> **MK ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
-    <span class="hotline">**MK ADC** -> **MKA**</span>: "Heading 150 Visual unrestricted, ABC"
+- Departing from a runway nominated on the ATIS; and  
+- Assigned the standard assignable level; and  
+- Assigned a **Procedural** SID; or  
+- Not entering MKA CTA
 
-The TCU controller can suspend/resume Auto Release at any time, with the concurrence of **MKA**.
+The Standard Assignable level from **MK ADC** to **MKA** is:
 
-The Standard Assignable level from MKADC to MKA is the lower of `A060` or the `RFL`.
+| Aircraft | Level |
+| ------ | ----- |
+| All | The lower of `A060` and `RFL` |
 
 #### SMC
-The controller assuming responsibility of **SMC** shall give heads-up coordination to **MKA** prior to the issue of the following clearances:  
+The controller assuming responsibility of **SMC** shall give [heads-up](../../controller-skills/coordination.md#airways-clearance) coordination to **MKA** prior to the issue of the following clearances:  
 
-- VFR Departures  
+- VFR departures entering MKA CTA
 - Aircraft using a runway not on the ATIS
 
 ### Arrivals/Overfliers

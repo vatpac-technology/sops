@@ -10,7 +10,7 @@
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Camden ADC** | **Camden Tower** | **120.100**          | **CN_TWR**                        |
 | **Camden SMC**  | **Camden Ground**   | **121.900**          | **CN_GND**                      |
-| Camden ATIS        |                | 125.100          | YSCN_ATIS                                |
+| **Camden ATIS**        |                | **125.100**          | **YSCN_ATIS**                                |
 
 ## Airspace
 CN ADC is responsible for the Class D airspace in the CN CTR `SFC` to `A020`.
@@ -107,8 +107,8 @@ CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a
     **CN ADC:** "MHQ, contact Sydney Centre on 124.55"  
 
 !!! note
-    Note: Because aircraft enter Class G after departure, an airways clearance need not be issued by CN ADC. This will be done on first contact with Sydney TCU.
-    Therefore, a *next* call & *departure instructions* are not required. You must however, pass the above (ready) coordination & obtain a traffic statement.
+    Note: Because aircraft enter Class G after departure, an airways clearance should not be issued by CN ADC. This will be done on first contact with Sydney TCU.
+    Therefore, *departure instructions* are not required. You must however, pass the above (ready) coordination & obtain a traffic statement.
 
 ### Arrivals/Overfliers
 SY TCU will coordinate inbound IFR aircraft. CN ADC is responsible for issuing a clearance into the CN CTR and for coordination with SY TCU in the event of a missed approach (or on completion of airwork if applicable).

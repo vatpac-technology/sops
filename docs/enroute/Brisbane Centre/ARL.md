@@ -8,13 +8,15 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Armidale** | **Brisbane Centre** | **130.900** | **BN-ARL_CTR** |
-| Mudgee† | Brisbane Centre | 133.000 | BN-MDE_CTR |
-| Cessnock† | Brisbane Centre | 123.400 | BN-CNK_CTR |
-| Manning† | Brisbane Centre | 130.100 | BN-MNN_CTR |
-| Maitland† | Brisbane Centre | 132.350 | BN-MLD_CTR |
-| Ocean† | Brisbane Centre | 128.600 | BN-OCN_CTR |
+| <span class="indented">Mudgee :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 133.000 | BN-MDE_CTR |
+| <span class="indented">Cessnock :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 123.400 | BN-CNK_CTR |
+| <span class="indented">Manning :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 130.100 | BN-MNN_CTR |
+| <span class="indented">Maitland :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 132.350 | BN-MLD_CTR |
+| <span class="indented">Ocean :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 128.600 | BN-OCN_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
 
@@ -104,9 +106,9 @@ Non-jet aircraft for YSSY shall be assigned the **MEPIL** STAR.
     In this case, coordination should be conducted to ensure that both controllers agree and no additional conflicts are created as a result (particularly with aircraft inbound from the south/west).
 
 !!! phraseology
-    **BIK:** "RXA6417, amended tracking and STAR available"  
+    **ARL:** "RXA6417, amended tracking and STAR available"  
     **RXA6417:** "RXA6417, go ahead"  
-    **BIK:** "RXA6417, recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain FL180"  
+    **ARL:** "RXA6417, recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain FL180"  
     **RXA6417:** "Recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain FL180, RXA6417"
 
 #### Adjacent Feeder Fixes
@@ -191,14 +193,13 @@ TW ADC is responsible for the Class D airspace in the TW CTR `SFC` to `A045`, as
 Refer to [Reclassifications](#tw-ctr) for operations when TW ADC is offline.
 
 #### Departures
-Departures from YSTW in to ARL/MDE Class C will be coordinated when ready for departure.
+[Next](../../controller-skills/coordination.md#next) coordination is required from TW ADC to ARL/MDE for all aircraft **entering ARL/MDE CTA**.
 
-!!! phraseology
-    <span class="hotline">**TW ADC** -> **MDE**</span>: "Next, SKV"  
-    <span class="hotline">**MDE** -> **TW ADC**</span>: "SKV, Unrestricted"  
-    <span class="hotline">**TW ADC** -> **MDE**</span>: "SKV"  
+The Standard Assignable level from **TW ADC** to **ARL/MDE** is:
 
-The Standard Assignable level from **TW ADC** to ARL/MDE is the lower of `A070` or the `RFL`.
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A070` and `RFL` |
 
 #### Arrivals
 YSTW arrivals shall be heads-up coordinated to **TW ADC** from ARL/MDE prior to **5 mins** from the boundary.
@@ -216,14 +217,15 @@ CFS ADC is responsible for the Class D airspace in the CFS CTR `SFC` to `A045`.
 Refer to [Reclassifications](#cfs-ctr) for operations when CFS ADC is offline.
 
 #### Departures
-Departures from YCFS in to MNN Class C will be coordinated when ready for departure.
+[Next](../../controller-skills/coordination.md#next) coordination is required from CFS ADC to ARL(MNN) for all aircraft **entering ARL(MNN) CTA**.
 
-!!! phraseology
-    <span class="hotline">**CFS ADC** -> **MNN**</span>: "Next, CFH21"  
-    <span class="hotline">**MNN** -> **CFS ADC**</span>: "CFH21, Unrestricted"  
-    <span class="hotline">**CFS ADC** -> **MNN**</span>: "CFH21"  
+The Standard Assignable level from **CFS ADC** to **ARL(MNN)** is:
 
-The Standard Assignable level from **CFS ADC** to MNN is the lower of `A070` or the `RFL`.
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A070` and `RFL` |
+
+Where possible (and no possible conflict exists), a higher level shall be assigned by ARL(MNN) for high performance aircraft during next coordination.
 
 #### Arrivals
 YCFS arrivals shall be heads-up coordinated to **CFS ADC** from MNN prior to **5 mins** from the boundary.

@@ -23,24 +23,23 @@ The above Restricted Areas are classified as Class C when CIN APP is active.
 !!! note
     See [VATPAC NOTAMs](https://vatpac.org/publications/notam){target=new} for active NOTAMs which may affect military operations.
 
-## Coordination
 ### ADC
-#### Airspace
 CIN ADC owns the Class C airspace within the CIN MIL CTR from `SFC` to `A015`.
 
+## Coordination
+### ADC
 #### Departures
-'Next' coordination is required from CIN ADC to CIN TCU for all aircraft.
+[Next](../controller-skills/coordination.md#next) coordination is required from CIN ADC to CIN TCU for all aircraft.
 
-!!! phraseology
-    <span class="hotline">**CIN ADC** -> **CIN TCU**</span>: "Next, ASY404, runway 29"  
-    <span class="hotline">**CIN TCU** -> **CIN ADC**</span>: "ASY404, unrestricted"  
-    <span class="hotline">**CIN ADC** -> **CIN TCU**</span>: "ASY404"  
+The Standard Assignable Level from  **CIN ADC** to **CIN TCU** is:
+
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `F190` and `RFL` |
 
 ### TRT(ASH)
 #### Departures
-Voiceless coordination is in place from CIN TCU to ASH for aircraft:  
-Planned at or above `F190`: `Assigned F190`  
-Planned below `F190`: `Assigned the RFL`  
+Voiceless coordination is in place from CIN TCU to ASH for aircraft assigned the lower of `F190` and `RFL`. 
 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
@@ -51,5 +50,5 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 #### Arrivals
 The Standard assignable level from ASH to CIN TCU is `F130`, and tracking via CIN VOR. All other aircraft must be prior coordinated.
 
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}

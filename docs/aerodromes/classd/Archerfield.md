@@ -9,7 +9,7 @@
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Archerfield ADC**  | **Archer Tower**  | **118.100**        | **AF_TWR**                        |
 | **Archerfield SMC**   | **Archer Ground**  | **129.300**         | **AF_GND**                       |
-| Archerfield ATIS        |                | 120.900          | YBAF_ATIS                                |
+| **Archerfield ATIS**        |                | **120.900**          | **YBAF_ATIS**                                |
 
 ## Airspace
 AF ADC is responsible for the Class D airspace in the AF CTR `SFC` to `A015`.
@@ -28,7 +28,7 @@ VFR aircraft should track via a VFR inbound point at `A015` and be instructed as
 | ----------------   | --------- | ------------- | --------- | ---------- |
 | TVT    |  *"Join Base RWY 04L, report CBRG"* | *"Join Base RWY 22R, report CBRG"* | *"Join Final RWY 10L, report CBRG"* | *"Join Downwind RWY 28R, maintain A015, report CBRG"* |
 | GON    |  *"Join Final RWY 04L"*                             | *"Join Downwind RWY 22R, maintain A015"*                          | *"Join Final RWY 10R"* | *"Join Downwind RWY 28L, maintain A015"*        |
-| PKR   |  *"Join Base RWY 04R, report Logan Bridge"*     | *"Join Base RWY 22L, report Logan Bridge"*     | *"Join Base RWY 10R, report Logan Bridge"*  | *"Join Base 28L, report Logan Bridge"*         |
+| PKR   |  *"Join Base RWY 04R, report Logan Motorway"*     | *"Join Base RWY 22L, report Logan Motorway"*     | *"Join Base RWY 10R, report Logan Motorway"*  | *"Join Base 28L, report Logan Motorway"*         |
 | TAR       |  *"Join Base RWY 04R"*                              | *"Join Base RWY 22L"*                              | *"Join Downwind RWY 10R, maintain A015"*       | *"Join Final RWY 28L"*        |
 
 !!! note
@@ -39,9 +39,9 @@ VFR aircraft should track via a VFR inbound point at `A015` and be instructed as
 | Planned Departure Tracks | "Intentions"   | Tracking Requirement | 
 | ---------------      | ---------      | ----------           | 
 | BTN 310 & 019 DEG    | Northern Departure | Track via WTBG | 
-| BTN 020 & 099 DEG    | Eastern Departure  | Track via Gateway Motorway and Pacific Motorway Intersection   *(Not available when Rwy 22 active EXC if departing into Class C)* | 
-| BTN 100 & 204 DEG    | Southern Departure | Track 135 DEG from Archerfield |
-| BTN 205 & 309 DEG    | Western Departure  | DEP AF CTR on a track between 220 & 309. Acft must nominate outbound DEP track with TAXI call |
+| BTN 020 & 099 DEG    | Eastern Departure  | Track via Gateway Motorway and Pacific Motorway Intersection<br>*(Not available when Rwy 22 active unless departing into Class C)* | 
+| BTN 100 & 204 DEG    | Southern Departure | Track 135 until clear of the zone |
+| BTN 205 & 309 DEG    | Western Departure  | Track between 220 & 309 until clear of the zone<br>*(Acft must nominate outbound DEP track with TAXI call)* |
 | Other                |                    | As approved by ATC
 
 VFR departures will depart the control zone at `A010`.
@@ -49,9 +49,9 @@ VFR departures will depart the control zone at `A010`.
 Aircraft should advise planned Departure Procedure to **AF SMC** with TAXI call and **AF ADC** with READY call.
 
 !!! phraseology
-    **VPF:** "Archer Ground, Cherokee VPF is on the Main Apron, solo, Western Departure, received information Alpha, request taxi"
+    **VPF:** "Archer Ground, Cherokee VPF, Main Apron, for a Western Departure, received information Alpha, request taxi"
 
-    **VPF:** "Archer Tower, Cherokee VPF is B8, runway 10 Left for Western Departure, ready"
+    **VPF:** "Archer Tower, Cherokee VPF, holding point B8, runway 10 Left, for Western Departure, ready"
 
 ## Circuits
 The circuit direction changes depending on time of day and runway being used.
@@ -68,6 +68,71 @@ The circuit direction changes depending on time of day and runway being used.
 | 28L             | Left  | -  |
 
 Circuits are to be flown at `A010`.
+
+## Helicopter Operations
+Archerfield has three helipads located around the aerodrome:
+
+- **Central Helipad**, on the southern side of Taxiway Foxtrot
+- **Northern Helipad**, adjacent the north-eastern end of Runway 04R/22L
+- The **Queensland Government Air facility** used by rescue helicopters, north of Taxiway B5
+
+!!! note
+    Both the **Northern** and **Central** helipads are inside the maneuvering area and treated like a runway, requiring a takeoff and landing clearance from AF ADC. Helicopters operating on other surfaces outside the maneuvering areas should be instructed to *"report airborne"*  or *"report on the ground"* so the controllers knows when they are active/no longer active in their airspace. 
+
+### Training Areas
+There are 3 designated helicopter training areas which can be used for training operations in ground effect and circuits. The active helicopter training area shall be nominated on the [ATIS](#helicopter-area).
+
+| Name | Lateral Boundary | Vertical Limit | Capacity |
+| ---- | -------- | -------------- | -------- |
+| Area A | North of Taxiway B within the confines of the aerodrome boundary, clear of all buildings | Not above `A005` | 3 helicopters in the circuit area, and additionally<br>2 helicopters in ground effect |
+| Area B | North and west of Runway 04L within the confines of the aerodrome boundary, clear of all buildings | Not above `A005` | 3 helicopters in the circuit area, and additionally<br>2 helicopters in ground effect |
+| Area C | South and east of Taxiway D, inside the fixed wing circuit for Runway 04R/22L, east of the control tower<br>*All landings to be conducted north of Taxiway B* | Not above `A008` | 2 helicopters |
+
+<figure markdown> 
+  ![Archerfield Helicopter Training Areas](img/ybaf_helicopter_area.png){ width="450" }
+  <figcaption>Archerfield Helicopter Training Areas</figcaption>
+</figure>
+
+With **Runways 28 or 10** in use, **Area A** shall be designated as the active helicopter area. With **Runways 04 or 22** in use, **Area C** shall be designated.
+
+!!! tip
+    With **Runways 28 or 10** in use and a large number of helicopters operating in **Area A**, it may be beneficial to instead utilise both **Areas B & C** concurrently.
+
+### Departures
+Helicopters depart the zone via any of the [designated outbound routes](#vfr-departure-procedures). Departures shall be parallel to and clear of the duty runways.   
+
+#### Uni Departure
+Departures with intended entry into BN CTR northbound shall depart the zone via the **Uni Departure**. Aircraft on the Uni Departure depart via UQLD at `A010`, then contact BN TCU for airways clearance. No heads-up coordination with BN TCU is required.
+
+!!! phraseology 
+    **TUY:** "Archer Tower, helicopter TUY, northen pad, for uni departure, ready"  
+    **AF ADC:** "TUY, Archer Tower, northen pad, cleared for takeoff"  
+    **TUY:** "Cleared for takeoff, northen pad, TUY"
+
+### Arrivals
+Helicopters enter the zone from any of the [designated inbound reporting points](#vfr-arrival-procedures). Pilots shall nominate their desired HLS on first contact with AF ADC. If necessary, helicopters may be instructed to overfly the runway complex not below `A005` for a short circuit to the designated HLS.
+
+!!! phraseology 
+    **82Y:** "Archer Tower, helicopter 82Y, UQLD A010, recieved Foxtrot, inbound northern pad"  
+    **AF ADC:** "82Y, Archer Tower, track direct northen pad, report 1 mile"  
+    **82Y:** "Track direct northern pad, 82Y"  
+
+    **82Y:** "82Y, 1 mile, northern pad"  
+    **AF ADC:** "82Y, cleared to land northern pad"  
+    **82Y:** "Cleared to land northen pad, 82Y"
+
+Helicopters inbound for the Queensland Government Air facility HLS shall be issued a standard fixed wing circuit instruction for the applicable duty runway, complying with fixed wing operations unless another approach is requested or desired.
+
+Helicopters inbound from the south via PKR for either the northen or central helipad shall be instructed to "cross 10L and 10R" alongside any other tracking or traffic information.
+
+!!! phraseology 
+    **SMD:** "Archer Tower, helicopter SMD, PKR A015, recieved Golf, inbound central pad"  
+    **AF ADC:** "SMD, Archer Tower, report Logan Motorway"  
+    **SMD:** "Report Logan Motorway, SMD"  
+
+    **SMD:** "SMD, Logan Motorway"  
+    **AF ADC:** "SMD, track direct central pad, cross 10L and 10R"  
+    **SMD:** "Track direct central pad, crossing 10L and 10R, SMD"
 
 ## ATIS
 ### Runway Nomination
@@ -86,17 +151,21 @@ The APCH field should include `EXP INST APCH` when:
   - the ceiling is at or below `A029`; or  
   - visibility is less than 5000m  
 
+### Helicopter Area
+The ATIS must indicate the current active helicopter area, refer to [Training Areas](#training-areas).
+
+!!! example  
+    OPR INFO: **HELICOPTER AREA A ACTIVE**  
+
 ## Coordination
-
 ### Departures
-When aircraft planned via a CTA departure are ready for takeoff and expected to depart imminently, **AF ADC** shall seek release of the aircraft through a 'Next' call.
+[Next](../../controller-skills/coordination.md#next) coordination is required from AF ADC to BN TCU for all aircraft **entering BN TCU CTA**.
 
-!!! phraseology
-    <span class="hotline">**AF ADC** -> **BN TCU**</span>: "Next, XMM, Runway 10L"  
-    <span class="hotline">**BN TCU** -> **AF ADC**</span>: "XMM, Unrestricted"  
-    <span class="hotline">**AF ADC** -> **BN TCU**</span>: "XMM"
+The Standard Assignable level from **AF ADC** to **BN TCU** is:
 
-The Standard Assignable level from AF ADC to BN TCU is the lower of `A040` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| ------- | ----- |
+| All | The lower of `A040` and `RFL` |
 
 ### Arrivals/Overfliers
 BN TCU will heads-up coordinate arrivals/overfliers from Class C to AF ADC.  

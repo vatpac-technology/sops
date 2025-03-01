@@ -9,7 +9,7 @@
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Parafield ADC**  | **Parafield Tower**  | **118.700**          | **PF_TWR**                        |
 | **Parafield SMC**  | **Parafield Ground** | **119.900**          | **PF_GND**                       |
-| Parafield ATIS        |                | 120.900          | YPPF_ATIS                                |
+| **Parafield ATIS**        |                | **120.900**          | **YPPF_ATIS**                                |
 
 ## Airspace
 PF ADC is responsible for the Class D airspace in the PF CTR `SFC` to `A015`.
@@ -36,7 +36,7 @@ Circuits to be flown at `A010`
 ## VFR Inbound Procedures
 | VFR Approach Point | RWYs 03 | RWYs 21 | RWYs 08 | RWYs 26 |
 | ----------------| --------- | ---------- | ----- | ----- |
-| OHB   | Join base (or downwind) RWY 21R | Join base (or downwind) RWY 03L | Join final RWY 08L| Join downwind RWY 26R | 
+| OHB   | Join base (or downwind) RWY 03L | Join base (or downwind) RWY 21R | Join final RWY 08L| Join downwind RWY 26R | 
 | DMW | Join downwind RWY 03R | Join 3NM final RWY 21L| Join downwind RWY 08L | Join final RWY 26R |
 
 !!! note
@@ -62,14 +62,14 @@ The APCH field should include `EXP INST APCH` when:
 
 ## Coordination
 ### Departures
-When the aircraft is ready for departure, PF ADC will coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
+[Next](../../controller-skills/coordination.md#next) coordination is required from PF ADC to AD TCU for all aircraft **entering AD TCU CTA**.
 
-!!! phraseology
-    <span class="hotline">**PF ADC** -> **AAW**</span>: "Next, XMM, 03L"  
-    <span class="hotline">**AAW** -> **PF ADC**</span>: "XMM, Heading 020, unrestricted"  
-    <span class="hotline">**PF ADC** -> **AAW**</span>: "Heading 020, XMM"
+The Standard Assignable level from **PF ADC** to **AD TCU** is:
 
-The Standard Assignable level from PF ADC to AD TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| ----- | ---- |
+| All | The lower of `A030` and `RFL` |
+
 ### Arrivals
 AD TCU will heads-up coordinate arrivals/overfliers from Class C to PF ADC.  
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to PF ADC, unless PF ADC nominates a restriction.  

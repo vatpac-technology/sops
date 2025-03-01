@@ -11,7 +11,7 @@
 | **Nowra ADC**    | **Nowra Tower**  | **118.850**         | **NW_TWR**        |
 | **Nowra SMC**   | **Nowra Ground**  | **135.850**        | **NW_GND**        |
 | **Nowra ACD**    | **Nowra Delivery**  | **128.350**         | **NW_DEL**       |
-| Nowra ATIS    |  | 125.65         | YSNW_ATIS       |
+| **Nowra ATIS**    |  | **125.65**         | **YSNW_ATIS**       |
 
 
 ## Airspace
@@ -79,12 +79,13 @@ Aerodrome and instrument approach charts are available in the AIP, or otherwise 
 
 ## Coordination
 ### Auto Release
-Auto release is not utilised at Nowra. 'Next' coordination is required from NW ADC to NW TCU for all aircraft.
+[Next](../../controller-skills/coordination.md#next) coordination is required from NW ADC to NW TCU for all aircraft.
 
-!!! phraseology
-    <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Next, ASY01, runway 08"  
-    <span class="hotline">**NW TCU** -> **NW ADC**</span>: "ASY01, Assigned Heading Left 030, unrestricted"  
-    <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Assigned Heading Heading Left 030, ASY01" 
+The Standard Assignable level from **NW ADC** to **NW TCU** is:
+
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `F120` and `RFL` | 
 
 Helicopters departing from helicopter spots will be treated as if departing from the duty runway.
 
@@ -92,8 +93,4 @@ Helicopters departing from helicopter spots will be treated as if departing from
     *PSDN14 is a VFR helicopter departing from spot 2 (in the direction of runway 08)*  
     <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Next, PSDN14, runway 08"  
     <span class="hotline">**NW TCU** -> **NW ADC**</span>: "PSDN14, right turn, unrestricted"  
-    <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Right turn, PSDN14" 
-
-
-### Level Assignment
-The Standard Assignable Level from **NW ADC** to **NW TCU** is `F120` or `RFL`, whichever is lower.
+    <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Right turn, PSDN14"

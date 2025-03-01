@@ -31,17 +31,17 @@ The above Restricted Areas are classified as Class C when LM APP is active.
 LM ADC owns the Class C airspace within the LM CTR from `SFC` to `A015`.
 
 #### Departures
-'Next' coordination is required from LM ADC to LM TCU for all aircraft.
+[Next](../controller-skills/coordination.md#next) coordination is required from LM ADC to LM TCU for all aircraft.
 
-!!! phraseology
-    <span class="hotline">**LM ADC** -> **LM TCU**</span>: "Next, QFA1601, runway 36"  
-    <span class="hotline">**LM TCU** -> **LM ADC**</span>: "QFA1601, Right heading 060 Visual, unrestricted"  
+The Standard Assignable Level from  **LM ADC** to **LM TCU** is:
+
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `F270` and `RFL` | 
 
 ### OLW 
 #### Departures
-Voiceless coordination is in place from LM TCU to OLW for aircraft:  
-Planned at or above `F270`: `Assigned F270`  
-Planned below `F270`: `Assigned the RFL`  
+Voiceless coordination is in place from LM TCU to OLW for aircraft assigned the lower of `F270` and `RFL`.
 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
@@ -52,6 +52,6 @@ Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 #### Arrivals
 The Standard assignable level from OLW to LM TCU is `F130`, and tracking via LM VOR. All other aircraft must be prior coordinated.
 
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 

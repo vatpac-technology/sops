@@ -9,7 +9,7 @@
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Bankstown ADC**  | **Bankstown Tower**  | **132.800**         | **BK_TWR**                        |
 | **Bankstown SMC**   | **Bankstown Ground**   | **119.900**         | **BK_GND**                       |
-| Bankstown ATIS        |                | 120.900          | YSBK_ATIS                                |
+| **Bankstown ATIS**        |                | **120.900**          | **YSBK_ATIS**                                |
 
 ## Airspace
 BK ADC is responsible for the Class D airspace in the BK CTR `SFC` to `A015`.
@@ -116,16 +116,14 @@ When the crosswind component exceeds 15 knots, the OPR INFO field must include:
 `CROSSWIND ALERT – DO NOT PASS THROUGH FINAL FOR YOUR ASSIGNED RUNWAY`
 
 ## Coordination
-
 ### Departures
-When the aircraft is ready for departure, Tower will coordinate with the relevant Class C sector above them for permission to release the aircraft into their CTA.
+[Next](../../controller-skills/coordination.md#next) coordination is required from BK ADC to SY TCU for all aircraft **entering SY TCU CTA**.
 
-The Standard Assignable level from BK ADC to SY TCU is `A030`, any other level must be prior coordinated.
+The Standard Assignable level from **BK ADC** to **SY TCU** is:
 
-!!! phraseology
-    <span class="hotline">**BK ADC** -> **SY TCU**</span>: "Next, UJN, runway 29C"  
-    <span class="hotline">**SY TCU** -> **BK ADC**</span>: "UJN, unrestricted"  
-    <span class="hotline">**BK ADC** -> **SY TCU**</span>: "UJN"
+| Aircraft | Level |
+| --- | -----|
+| All | `A030` |
 
 Aircraft shall be instructed to contact SY TCU passing `A015`.
 

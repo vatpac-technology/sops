@@ -1,5 +1,5 @@
 ---
-  title: Pingelly (PIY)
+  title: Hyden (HYD)
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -7,30 +7,31 @@
 
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
-| **Pingelly** | Melbourne Centre | 133.900 | ML-PIY_CTR |
-| Cross† | Melbourne Centre | 135.800 | ML-CRS_CTR |
-| Hyden† | Melbourne Centre | 118.200 | ML-HYD_CTR |
-| Jarrah† | Melbourne Centre | 120.300 | ML-JAR_CTR |
-| Leeman† | Melbourne Centre | 122.400 | ML-LEA_CTR |
-| Grove† | Melbourne Centre | 133.800 | ML-GVE_CTR |
-| Geraldton† | Melbourne Centre | 134.200 | ML-GEL_CTR |
+| **Hyden** | **Melbourne Centre** | **118.200** | **ML-HYD_CTR** |
+| <span class="indented">Pingelly :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 133.900 | ML-PIY_CTR |
+| <span class="indented">Cross :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 135.800 | ML-CRS_CTR |
+| <span class="indented">Jarrah :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 120.300 | ML-JAR_CTR |
+| <span class="indented">Leeman :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 122.400 | ML-LEA_CTR |
+| <span class="indented">Grove :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 133.800 | ML-GVE_CTR |
+| <span class="indented">Geraldton :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 134.200 | ML-GEL_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
-
-The Primary Communication Method for PIY is Voice.
+The Primary Communication Method for HYD is Voice.
 
 [CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
 
-The CPDLC Station Code is `YPIY`.
+The CPDLC Station Code is `YHYD`.
 
 !!! tip
-    Even though PIY's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+    Even though HYD's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
 ## Airspace
 <figure markdown>
-![Pingelly Airspace](../assets/piy.png){ width="700" }
+![Hyden Airspace](../assets/hyd.png){ width="700" }
   <figcaption>Pingelly Airspace</figcaption>
 </figure>
 
@@ -146,12 +147,12 @@ All other aircraft going to PIY CTA will be **Heads-up** Coordinated by PH TCU.
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-### PIY Internal
+### HYD Internal
 Changes to CFL are permitted up to the boundary from GVE, CRS and HYD to PIY.
 
 All else is Voiceless, no changes to route or CFL within **20nm** to boundary.
 
-That being said, it is *advised* that PIY(All) gives **Heads-up Coordination** prior to **20nm** in the following scenarios:  
+That being said, it is *advised* that HYD(All) gives **Heads-up Coordination** prior to **20nm** in the following scenarios:  
 - JAR to PIY for all aircraft  
 - LEA to PIY for all aircraft  
 
@@ -161,4 +162,40 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
 
 !!! phraseology
-    **PIY**: "QFA121, identification terminated, report position to Brisbane Radio, 129.25"
+    **LEA**: "QFA121, identification terminated, report position to Brisbane Radio, 129.25"
+
+### PE TCU
+#### Airspace
+The PE TCU is responsible for the airspace within **20 TACAN** of PEA (that is continained within **Pearce SUA**), `SFC` to `A050`. By default, PE TCU does not border any HYD CTA.
+
+This is all reclassified to **Class C** when PE TCU is online.
+
+!!! abstract "Reference"
+    A helpful diagram can be found in [Pearce FIHA AD2 Supp](https://ais-af.airforce.gov.au/australian-aip){target=new}, Section 2.2.2.
+
+Additional airspace releases may be NOTAM'd, or coordinated between PE TCU, PH TCU and HYD, to facilitate Military Operations.
+
+!!! phraseology
+    <span class="hotline">**PE TCU** -> **PH TCU**</span>: "Request release of R155 Alpha and Bravo, SFC to F180, for Military Operations. My onwards with HYD"   
+    <span class="hotline">**PH TCU** -> **PE TCU**</span>: "R155 Alpha and Bravo, SFC to F180, Released to you. Your onwards with HYD"  
+
+    <span class="hotline">**PE TCU** -> **HYD**</span>: "Request release of R155 Alpha and Bravo, SFC to F180, for Military Operations. My onwards with PH TCU"   
+    <span class="hotline">**HYD** -> **PE TCU**</span>: "R155 Alpha and Bravo, SFC to F180, Released to you. Your onwards with PH TCU"  
+
+#### Departures
+Voiceless for all aircraft:
+
+- Tracking via **AVNEX**; and  
+- Assigned the lower of `F180` or the `RFL`
+
+All other aircraft going to PIY CTA will be **Heads-up** Coordinated by PE TCU, if coming from CTA (ie, only if PE TCU has assumed more airspace than the default setup).
+
+#### Arrivals/Overfliers
+If PE TCU has assumed additional airspace from the default, and as such, PE TCU CTA borders PIY CTA, then:
+
+Voiceless for all aircraft:
+
+- Tracking from **JULIM** or **SAPKO** DCT **PEA**; and 
+- Assigned `A090`
+
+All other arrivals/overfliers coming from PIY CTA must be **Heads-up** Coordinated to PE TCU prior to **20nm** from the boundary.

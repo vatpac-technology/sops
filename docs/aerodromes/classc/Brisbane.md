@@ -9,14 +9,16 @@
 | Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Brisbane ADC East**    | **Brisbane Tower**   | **120.500**          | **BN_TWR**                                   |
-| Brisbane ADC West†   | Brisbane Tower   | 118.000          | BN-W_TWR                                 |
+| <span class="indented">Brisbane ADC West :material-information-outline:{ title="Non-standard position"}   | Brisbane Tower   | 118.000          | BN-W_TWR                                 |
 | **Brisbane SMC Domestic**    | **Brisbane Ground**  | **121.700**          | **BN_GND**                                   |
-| Brisbane SMC South†   | Brisbane Ground  | 122.250          | BN-S_GND                                 |
-| Brisbane SMC North†   | Brisbane Ground  | 124.050          | BN-N_GND                                 |
+| <span class="indented">Brisbane SMC South :material-information-outline:{ title="Non-standard position"}   | Brisbane Ground  | 122.250          | BN-S_GND                                 |
+| <span class="indented">Brisbane SMC North :material-information-outline:{ title="Non-standard position"}   | Brisbane Ground  | 124.050          | BN-N_GND                                 |
 | **Brisbane ACD**         | **Brisbane Delivery**| **118.850**          | **BN_DEL**                                   |
-| Brisbane ATIS        |                | 126.250          | YBBN_ATIS                                |
+| **Brisbane ATIS**        |                | **126.250**          | **YBBN_ATIS**                                |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
 BN ADC is not responsible for any airspace by default.
@@ -196,30 +198,23 @@ Both taxiway **H2** and **F4** are inside the maneuvering area and treated like 
 
 ## Coordination
 ### Auto Release
-'Next' coordination is **not** required to BN TCU for aircraft that are:
+[Next](../../controller-skills/coordination.md#next) coordination is **not** required to BN TCU for aircraft that are:
 
 - Departing from a runway nominated on the ATIS (except during SODPROPS^); and  
 - Assigned the standard assignable level; and  
 - Assigned a **Procedural** SID; or
 - Assigned the **Radar** SID with a [Standard Assignable Heading](#standard-assignable-departure-headings)
 
-^Auto Release is not available during SODPROPS runway mode. All aircraft must be coordinated from BN ADC to BN TCU.
+^*Auto Release is not available during SODPROPS runway mode. All aircraft must be coordinated from BN ADC to BN TCU.*
 
 All other aircraft require a 'Next' call to BN TCU.
 
-!!! phraseology
-    <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Next, QLK404D, Runway 19L"  
-    <span class="hotline">**BN TCU** -> **BN ADC**</span>: "QLK404D, heading 160, unrestricted"  
-    <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Heading 160, QLK404D"   
-
-    **BN ADC**: "QLK404D, Assigned heading Left 160, Runway 19L, Cleared for Takeoff"  
-    **QLK404D**: "Left heading 160, Runway 19L, Cleared for Takeoff, QLK404D"
-
-The BN TCU controller can suspend/resume Auto Release at any time, with the concurrence of **BN ADC**.
-
 The Standard Assignable level from BN ADC to BN TCU is:  
-For Jets: `A060`  
-For Non-Jets: The lower of `A040` or the `RFL`
+
+| Aircraft | Level |
+| -------- | ----- |
+| Jets | `A060` |
+| Non-Jets | The lower of `A040` and `RFL` |
 
 ### Departures Controller
 Refer to [Brisbane TCU Airspace Division](../../../terminal/brisbane/#airspace-division) for information on airspace divisions when **BDN** and/or **BDS** are online.

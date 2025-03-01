@@ -9,12 +9,14 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Isa** | **Brisbane Centre** | **125.700** | **BN-ISA_CTR** |
-| Arafura† | Brisbane Centre | 133.700 | BN-ARA_CTR |
-| Sturt† | Brisbane Centre | 134.400 | BN-STR_CTR |
-| Warrego† | Brisbane Centre | 132.450 | BN-WEG_CTR |
-| Carnarvon† | Brisbane Centre | 133.800 | BN-CVN_CTR |
+| <span class="indented">Arafura :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 133.700 | BN-ARA_CTR |
+| <span class="indented">Sturt :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 134.400 | BN-STR_CTR |
+| <span class="indented">Warrego :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 132.450 | BN-WEG_CTR |
+| <span class="indented">Carnarvon :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 133.800 | BN-CVN_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
 

@@ -10,7 +10,7 @@
 | ---- | -------- | --------- | ---------------- |
 | **Tamworth ADC** | **Tamworth Tower** | **119.400** | **TW_TWR** |
 | **Tamworth SMC** | **Tamworth Ground** | **121.900** | **TW_GND** |
-| Tamworth ATIS |  | 123.800 | YSTW_ATIS |
+| **Tamworth ATIS** |  | **123.800** | **YSTW_ATIS** |
 
 ## Airspace
 <figure markdown>
@@ -85,14 +85,13 @@ When parallel runway operations are in use, the ATIS OPR INFO field shall includ
 
 ## Coordination
 ### Departures
-A 'next' call is made for all aircraft entering ARL/MDE CTA when they are next to depart. TW ADC must inform ARL/MDE if the aircraft does not depart within **2 minutes** of the next call.
+[Next](../../controller-skills/coordination.md#next) coordination is required from TW ADC to ARL/MDE for all aircraft **entering ARL/MDE CTA**.
 
-!!! phraseology
-    <span class="hotline">**TW ADC** -> **ARL**</span>: "Next, QLK5D"  
-    <span class="hotline">**ARL** -> **TW ADC**</span>: "QLK5D, Unrestricted"  
-    <span class="hotline">**TW ADC** -> **ARL**</span>: "QLK5D"
+The Standard Assignable level from **TW ADC** to **ARL/MDE** is:
 
-The Standard Assignable level from TW ADC to ARL/MDE is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A070` and `RFL` |
 
 ### Arrivals/Overfliers
 ARL/MDE will heads-up coordinate all arrivals/overfliers to TW ADC

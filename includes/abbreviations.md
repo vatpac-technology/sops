@@ -77,6 +77,7 @@
 *[MAE]: Melbourne Approach East
 *[MDN]: Melbourne Departures North
 *[MDS]: Melbourne Departures South
+*[MAV]: Melbourne (Avalon) Approach
 *[PHA]: Perth Approach
 *[PHD]: Perth Departures
 *[SAN]: Sydney Approach North
@@ -191,6 +192,7 @@
 *[DSN]: Doncaster Shopping Town
 *[ADWD]: Adventure World
 *[TVT]: TV Towers
+*[SBD]: Story Bridge
 *[FREM]: Fremantle Golf Course
 *[YGB]: Yangebup Lake
 *[FDL]: Forestdale Lake
@@ -205,6 +207,7 @@
 *[CARR]: Carrum
 *[GMH]: GMH (General Motors Holden)
 *[ACE]: Academy
+*[SHOL]: Shoal
 *[CWST]: Choppers West
 *[CNTH]: Choppers North
 *[CSTH]: Choppers South
@@ -247,7 +250,7 @@
 *[HNLY]: Henley Jetty
 *[GRB]: Georges River Bridge
 *[GON]: Goodna
-*[PKR]: Park Ridge
+*[PKR]: Park Ridge Water Tower
 *[TAR]: Target
 *[CBRG]: Centenary Bridge
 *[WTBG]: Walter Taylor Bridge
@@ -310,8 +313,18 @@
 *[CPDLC]: Controller-Pilot Datalink Communications
 *[LDA]: Landing Distance Available
 *[TORA]: Takeoff Run Available
+*[UQLD]: University of Queensland
+*[HLS]: Helicopter Landing Site
 *[BLHS]: Bald Hills
 *[MBHM]: Manly Boat Harbour
 *[MARSA]: Military Authority Assumes Responsibility for Separation of Military Aircraft
 *[NOCOM]: Non-Continuous Communication
 *[AEWC]: Airborne Early Warning and Control
+*[NEN]: Nerang
+*[STOT]: Stotts Island
+*[HASS]: Hastings Point
+*[CIS]: Cook Island
+*[DNGR]: Point Danger
+*[BLGH]: Burleigh Heads
+*[ROTC]: Robina Town Centre
+*[CGD]: Cudgen Headland

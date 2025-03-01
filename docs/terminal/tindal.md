@@ -24,7 +24,7 @@ All of which are reclassified as **Class C** when active, and TN APP has Control
     TN APP may increase the upper limit of the Restricted Areas and their airspace. This must be either published by NOTAM, or negotiated with TRT(TRS) if online.
 
 ## Charts
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 ## Arrival/Departure Gates
@@ -104,11 +104,10 @@ Voiceless for all aircraft:
 All other aircraft coming from TRT(TRS) CTA will be **Heads-up** Coordinated to TN TCU.
 
 ### TN ADC
-'Next' coordination is required from TN ADC to TN TCU for all aircraft.
+[Next](../controller-skills/coordination.md#next) coordination is required from TN ADC to TN TCU for all aircraft.
 
-!!! phraseology
-    <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Next, ASY01, runway 32"  
-    <span class="hotline">**TN TCU** -> **TN ADC**</span>: "ASY01, Assigned Heading Right 030, unrestricted"  
-    <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Assigned Heading Heading Right 030, ASY01"  
+The Standard Assignable level from TN ADC to TN TCU is:
 
-The Standard Assignable level from TN ADC to TN TCU is the lower of `F180` or the `RFL`.
+| Aircraft | Level |
+| ----- | ---- |
+| All | The lower of `F180` and `RFL` |
