@@ -8,8 +8,8 @@
 
 | Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Jandakot ADC North**  | **Jandakot Tower**  | **118.100**          | **JT_TWR**                        |
-| <span class="indented">Jandakot ADC East :material-information-outline:{ title="Non-standard position"}  | Jandakot Tower  | 119.400        | JT-E_TWR                        |
+| **Jandakot ADC West**  | **Jandakot Tower**  | **118.100**          | **JT_TWR**                        |
+| <span class="indented">Jandakot ADC (Circuit) :material-information-outline:{ title="Non-standard position"}  | Jandakot Tower  | 119.400        | JT-C_TWR                        |
 | **Jandakot SMC**  | **Jandakot Ground**   | **124.300**          | **JT_GND**                       |
 | **Jandakot ATIS**     |                | **128.650**          | **YPJT_ATIS**                                |
 
@@ -18,13 +18,13 @@
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### Dual ADC Operations
-When Jandakot ADC East is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
+When Jandakot ADC (Circuit) is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
 
-ADC West takes responsibility for the North-West Runway, Circuit and Airspace (Runway **06L/24R**).
+ADC West takes responsibility for the North-West Runway, Circuit and Airspace (Runway **06L/24R**), and the entire **JT CTR** at `A015`.
 
-ADC East takes responsibility for the South-East Runway, Circuit and Airspace (Runway **06R/24L**).
+ADC (Circuit) takes responsibility for the South-East Runway, Circuit and Airspace (Runway **06R/24L**) at or below `A010`.
 
-ADC East is **not permitted** online when *Single Runway* Operations are in use.
+ADC (Circuit) is **not permitted** online when *Single Runway* Operations are in use.
 
 Refer to the [ATIS section](#runway-nomination) for information on ATIS formatting when ADC East is online.
 
@@ -37,7 +37,10 @@ JT ADC is responsible for the Class D airspace in the JT CTR `SFC` to `A015`.
 </figure>
 
 ### Dual ADC Operations
-Airspace Ownership when ADC East is online, is split down the middle of the **06L/24R** and **06R/24L** extended centrelines.
+Airspace Ownership when ADC East is online, is:
+
+- At `A015`; owned entirely by ADC West
+- At or below `A010`; split between ADC Circuit/West down the middle of the **06L/24R** and **06R/24L** extended centrelines.
 
 ## VFR Operations
 ### Arrivals
@@ -132,12 +135,12 @@ VFR aircraft require a level readback.
 !!! tip
     Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D.  You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.
 
-#### ADC East Online
-When ADC East is online, PH TCU may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
+#### ADC (Circuit) Online
+When ADC (Circuit) is online, PH TCU may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
 
 ### JT ADC Internal
 JT ADC must heads-up coordinate **all aircraft** transiting from one ADC controller to the other.
 
 !!! phraseology
-    <span class="hotline">**JT ADC E** -> **JT ADC W**</span>: "via FDL, TBN for an overfly"  
-    <span class="hotline">**JT ADC W** -> **JT ADC E**</span>: "TBN, A015"
+    <span class="hotline">**JT ADC C** -> **JT ADC W**</span>: "via FDL, TBN for an overfly"  
+    <span class="hotline">**JT ADC W** -> **JT ADC C**</span>: "TBN, A015"
