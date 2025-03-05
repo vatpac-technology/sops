@@ -7,23 +7,25 @@
 ## Positions
 | Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Archerfield ADC**  | **Archer Tower**  | **118.100**        | **AF_TWR**                        |
-| Archerfield ADC 2†  | Archer Tower  | 123.600        | AF-2_TWR                        |
+| **Archerfield ADC South**  | **Archer Tower**  | **118.100**        | **AF_TWR**                        |
+| <span class="indented">Archerfield ADC North :material-information-outline:{ title="Non-standard position"}  | Archer Tower  | 123.600        | AF-N_TWR                        |
 | **Archerfield SMC**   | **Archer Ground**  | **129.300**         | **AF_GND**                       |
 | **Archerfield ATIS**        |                | **120.900**          | **YBAF_ATIS**                                |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### Dual ADC Operations
-When Archerfield ADC 2 is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
+When Archerfield ADC North is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
 
-ADC 1 takes responsibility for the South/East Runway, Circuit and Airspace (Runway **10R, 28L, 04R, 22L**).
+ADC South takes responsibility for the South/East Runway, Circuit and Airspace (Runway **10R, 28L, 04R, 22L**).
 
-ADC 2 takes responsibility for the North/West Runway, Circuit and Airspace (Runway **10L, 28R, 04L, 22R**).
+ADC North takes responsibility for the North/West Runway, Circuit and Airspace (Runway **10L, 28R, 04L, 22R**).
 
-ADC 2 is **not permitted** online when *Single Runway* Operations are in use.
+ADC North is **not permitted** online when *Single Runway* Operations are in use.
 
-Refer to the [ATIS section](#dual-adc-operations_2) for information on ATIS formatting when ADC 2 is online.
+Refer to the [ATIS section](#dual-adc-operations_2) for information on ATIS formatting when ADC North is online.
 
 ## Airspace
 AF ADC is responsible for the Class D airspace in the AF CTR `SFC` to `A015`.
@@ -36,7 +38,7 @@ AF ADC is responsible for the Class D airspace in the AF CTR `SFC` to `A015`.
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
 ### Dual ADC Operations
-Airspace Ownership when ADC 2 is online, is split down the middle of the two active extended centrelines.
+Airspace Ownership when ADC North is online, is split down the middle of the two active extended centrelines.
 
 ## VFR Procedures
 ### Arrivals
@@ -213,12 +215,12 @@ VFR aircraft require a level readback.
 !!! tip
     Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D. You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.
 
-#### ADC 2 Online
-When ADC 2 is online, BN TCU may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
+#### ADC North Online
+When ADC North is online, BN TCU may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
 
 ### AF ADC Internal
 AF ADC must heads-up coordinate **all aircraft** transiting from one ADC controller to the other.
 
 !!! phraseology
-    <span class="hotline">**AF ADC** -> **AF ADC 2**</span>: "via TAR, TQC for an overhead join"  
-    <span class="hotline">**AF ADC 2** -> **AF ADC**</span>: "TQC, A015"
+    <span class="hotline">**AF ADC S** -> **AF ADC N**</span>: "via TAR, TQC for an overhead join"  
+    <span class="hotline">**AF ADC N** -> **AF ADC S**</span>: "TQC, A015"

@@ -8,23 +8,25 @@
 
 | Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Jandakot ADC**  | **Jandakot Tower**  | **118.100**          | **JT_TWR**                        |
-| Jandakot ADC 2†  | Jandakot Tower  | 119.400        | JT-2_TWR                        |
+| **Jandakot ADC North**  | **Jandakot Tower**  | **118.100**          | **JT_TWR**                        |
+| <span class="indented">Jandakot ADC East :material-information-outline:{ title="Non-standard position"}  | Jandakot Tower  | 119.400        | JT-E_TWR                        |
 | **Jandakot SMC**  | **Jandakot Ground**   | **124.300**          | **JT_GND**                       |
 | **Jandakot ATIS**     |                | **128.650**          | **YPJT_ATIS**                                |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### Dual ADC Operations
-When Jandakot ADC 2 is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
+When Jandakot ADC East is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
 
-ADC 1 takes responsibility for the North-West Runway, Circuit and Airspace (Runway **06L/24R**).
+ADC West takes responsibility for the North-West Runway, Circuit and Airspace (Runway **06L/24R**).
 
-ADC 2 takes responsibility for the South-East Runway, Circuit and Airspace (Runway **06R/24L**).
+ADC East takes responsibility for the South-East Runway, Circuit and Airspace (Runway **06R/24L**).
 
-ADC 2 is **not permitted** online when *Single Runway* Operations are in use.
+ADC East is **not permitted** online when *Single Runway* Operations are in use.
 
-Refer to the [ATIS section](#runway-nomination) for information on ATIS formatting when ADC 2 is online.
+Refer to the [ATIS section](#runway-nomination) for information on ATIS formatting when ADC East is online.
 
 ## Airspace
 JT ADC is responsible for the Class D airspace in the JT CTR `SFC` to `A015`.
@@ -35,7 +37,7 @@ JT ADC is responsible for the Class D airspace in the JT CTR `SFC` to `A015`.
 </figure>
 
 ### Dual ADC Operations
-Airspace Ownership when ADC 2 is online, is split down the middle of the **06L/24R** and **06R/24L** extended centrelines.
+Airspace Ownership when ADC East is online, is split down the middle of the **06L/24R** and **06R/24L** extended centrelines.
 
 ## VFR Operations
 ### Arrivals
@@ -130,12 +132,12 @@ VFR aircraft require a level readback.
 !!! tip
     Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D.  You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.
 
-#### ADC 2 Online
-When ADC 2 is online, PH TCU may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
+#### ADC East Online
+When ADC East is online, PH TCU may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
 
 ### JT ADC Internal
 JT ADC must heads-up coordinate **all aircraft** transiting from one ADC controller to the other.
 
 !!! phraseology
-    <span class="hotline">**JT ADC 2** -> **JT ADC**</span>: "via FDL, TBN for an overfly"  
-    <span class="hotline">**JT ADC** -> **JT ADC 2**</span>: "TBN, A015"
+    <span class="hotline">**JT ADC E** -> **JT ADC W**</span>: "via FDL, TBN for an overfly"  
+    <span class="hotline">**JT ADC W** -> **JT ADC E**</span>: "TBN, A015"

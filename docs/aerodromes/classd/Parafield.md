@@ -7,23 +7,25 @@
 ## Positions
 | Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Parafield ADC**  | **Parafield Tower**  | **118.700**          | **PF_TWR**                        |
-| Parafield ADC 2†  | Parafield Tower  | 124.600        | PF-2_TWR                        |
+| **Parafield ADC East**  | **Parafield Tower**  | **118.700**          | **PF_TWR**                        |
+| <span class="indented">Parafield ADC West :material-information-outline:{ title="Non-standard position"}  | Parafield Tower  | 124.600        | PF-W_TWR                        |
 | **Parafield SMC**  | **Parafield Ground** | **119.900**          | **PF_GND**                       |
 | **Parafield ATIS**        |                | **120.900**          | **YPPF_ATIS**                                |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### Dual ADC Operations
-When Parafield ADC 2 is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
+When Parafield ADC West is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
 
-ADC 1 takes responsibility for the South/East Runway, Circuit and Airspace (Runway **08R/26L** and **03R/21L**).
+ADC East takes responsibility for the South/East Runway, Circuit and Airspace (Runway **08R/26L** and **03R/21L**).
 
-ADC 2 takes responsibility for the North/West Runway, Circuit and Airspace (Runway **08L/26R** and **03L/21R**).
+ADC West takes responsibility for the North/West Runway, Circuit and Airspace (Runway **08L/26R** and **03L/21R**).
 
-ADC 2 is **not permitted** online when *Single Runway* Operations are in use.
+ADC West is **not permitted** online when *Single Runway* Operations are in use.
 
-Refer to the [ATIS section](#runway-nomination) for information on ATIS formatting when ADC 2 is online.
+Refer to the [ATIS section](#runway-nomination) for information on ATIS formatting when ADC West is online.
 
 ## Airspace
 PF ADC is responsible for the Class D airspace in the PF CTR `SFC` to `A015`.
@@ -34,7 +36,7 @@ PF ADC is responsible for the Class D airspace in the PF CTR `SFC` to `A015`.
 </figure>
 
 ### Dual ADC Operations
-Airspace Ownership when ADC 2 is online, is split down the middle of the two active extended centrelines.
+Airspace Ownership when ADC West is online, is split down the middle of the two active extended centrelines.
 
 ## Circuits
 Circuits to be flown at `A010`
@@ -116,12 +118,12 @@ Taxiway Bravo crosses through the Undershoots of Runway 26L and 26R. As per YPPF
     **PF SMC:** "USP, On Bravo cross the undershoots of Runway 26L and 26R. Taxi to Holding Point B1, Runway 03L."
     **USP:** "On Bravo cross undershoots of Runway 26L & 26R. Taxi to Holding Point B1 Runway 03L, USP."
 
-#### ADC 2 Online
-When ADC 2 is online, AD TCU may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
+#### ADC West Online
+When ADC West is online, AD TCU may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
 
 ### PF ADC Internal
 PF ADC must heads-up coordinate **all aircraft** transiting from one ADC controller to the other.
 
 !!! phraseology
-    <span class="hotline">**PF ADC 2** -> **PF ADC**</span>: "via OHB, YNM for an overhead join"  
-    <span class="hotline">**PF ADC** -> **PF ADC 2**</span>: "YNM, A015"
+    <span class="hotline">**PF ADC W** -> **PF ADC E**</span>: "via OHB, YNM for an overhead join"  
+    <span class="hotline">**PF ADC E** -> **PF ADC W**</span>: "YNM, A015"
