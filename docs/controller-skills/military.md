@@ -141,7 +141,7 @@ The Intial and Pitch is a military approach to the circuit area. Military aircra
 ![Initial & Pitch Diagram](img/Initial_and_Pitch_Diagram.png){ width="800" }
   <figcaption>Initial & Pitch Diagram</figcaption>
 </figure>
->>>>>>> Stashed changes
+
 
 !!! note
    Refer to each aerodrome's SOPs for location-specific altitude and approach points.
