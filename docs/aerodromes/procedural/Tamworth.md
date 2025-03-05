@@ -9,11 +9,13 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | ---------------- |
 | **Tamworth ADC** | **Tamworth Tower** | **119.400** | **TW_TWR** |
-| Tamworth ADC (South)†  | Tamworth Tower  | 118.250        | TW-S_TWR                        |
+| <span class="indented">Tamworth ADC South :material-information-outline:{ title="Non-standard position"}  | Tamworth Tower  | 118.250        | TW-S_TWR                        |
 | **Tamworth SMC** | **Tamworth Ground** | **121.900** | **TW_GND** |
 | **Tamworth ATIS** |  | **123.800** | **YSTW_ATIS** |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### Dual ADC Operations
 When Tamworth ADC South is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.

@@ -8,23 +8,25 @@
 
 | Name               | Callsign             | Frequency   | Login ID     |
 |--------------------|----------------------|-------------|--------------|
-| **Moorabbin ADC**  | **Moorabbin Tower**  | **118.100** | **MB_TWR**   |
-| Moorabbin ADC 2†  | Moorabbin Tower  | 123.000        | MB-2_TWR                        |
+| **Moorabbin ADC East**  | **Moorabbin Tower**  | **118.100** | **MB_TWR**   |
+| <span class="indented">Moorabbin ADC West :material-information-outline:{ title="Non-standard position"}  | Moorabbin Tower  | 123.000        | MB-W_TWR                        |
 | **Moorabbin SMC**  | **Moorabbin Ground** | **134.250** | **MB_GND**   |
 | **Moorabbin ATIS**     |                      | **120.900**     | **YMMB_ATIS**    |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### Dual ADC Operations
-When Moorabbin ADC 2 is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
+When Moorabbin ADC West is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
 
-ADC 1 takes responsibility for the East Runway, Circuit and Airspace (Runway **17L/35R** and **13L/31R**).
+ADC East takes responsibility for the East Runway, Circuit and Airspace (Runway **17L/35R** and **13L/31R**).
 
-ADC 2 takes responsibility for the West Runway, Circuit and Airspace (Runway **17R/35L** and **13R/31L**).
+ADC West takes responsibility for the West Runway, Circuit and Airspace (Runway **17R/35L** and **13R/31L**).
 
-ADC 2 is **not permitted** online when *Single Runway* Operations are in use.
+ADC West is **not permitted** online when *Single Runway* Operations are in use.
 
-Refer to the [ATIS section](#runway-nomination) for information on ATIS formatting when ADC 2 is online.
+Refer to the [ATIS section](#runway-nomination) for information on ATIS formatting when ADC West is online.
 
 ## Airspace
 MB ADC is responsible for the Class D airspace in the MB CTR from `SFC` to `A025`.
@@ -37,7 +39,7 @@ MB ADC is responsible for the Class D airspace in the MB CTR from `SFC` to `A025
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
 ### Dual ADC Operations
-Airspace Ownership when ADC 2 is online, is split down the middle of the two active extended centrelines.
+Airspace Ownership when ADC West is online, is split down the middle of the two active extended centrelines.
 
 ## Runway Modes
 Preferred runway modes are as follows (in order of preference):
@@ -183,12 +185,12 @@ ML TCU will heads-up coordinate arrivals/overfliers from their Class C to MB ADC
 !!! tip
     Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D. Use other separation methods, such as holding a departure on the ground, if separation is required with these aircraft.
 
-#### ADC 2 Online
-When ADC 2 is online, ML TCU may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
+#### ADC West Online
+When ADC West is online, ML TCU may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
 
 ### MB ADC Internal
 MB ADC must heads-up coordinate **all aircraft** transiting from one ADC controller to the other.
 
 !!! phraseology
-    <span class="hotline">**MB ADC 2** -> **MB ADC**</span>: "via CARR, EWX for an overfly"  
-    <span class="hotline">**MB ADC** -> **MB ADC 2**</span>: "EWX, A015"
+    <span class="hotline">**MB ADC W** -> **MB ADC E**</span>: "via CARR, EWX for an overfly"  
+    <span class="hotline">**MB ADC E** -> **MB ADC W**</span>: "EWX, A015"

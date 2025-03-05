@@ -7,23 +7,25 @@
 ## Positions
 | Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Bankstown ADC**  | **Bankstown Tower**  | **132.800**         | **BK_TWR**                        |
-| Bankstown ADC 2†  | Bankstown Tower  | 123.600        | BK-2_TWR                        |
+| **Bankstown ADC North**  | **Bankstown Tower**  | **132.800**         | **BK_TWR**                        |
+| <span class="indented">Bankstown ADC (Circuit) :material-information-outline:{ title="Non-standard position"}  | Bankstown Tower  | 123.600        | BK-C_TWR                        |
 | **Bankstown SMC**   | **Bankstown Ground**   | **119.900**         | **BK_GND**                       |
 | **Bankstown ATIS**        |                | **120.900**          | **YSBK_ATIS**                                |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### Dual ADC Operations
-When Bankstown ADC 2 is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
+When Bankstown ADC (Circuit) is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
 
-ADC 1 takes responsibility for the Northern Runways, Circuit and Airspace (Runway **11L/29R**, **11C/29C**), and Southern Airspace at **at A015**.
+ADC North takes responsibility for the Northern Runways, Circuit and Airspace (Runway **11L/29R**, **11C/29C**), and Southern Airspace at **at A015**.
 
-ADC 2 takes responsibility for the Southern Runway, Circuit and Airspace (Runway **11R/29L**), **not above A010**
+ADC (Circuit) takes responsibility for the Southern Runway, Circuit and Airspace (Runway **11R/29L**), **not above A010**
 
-ADC 2 is **not permitted** online when *Single Runway* Operations are in use.
+ADC (Circuit) is **not permitted** online when *Single Runway* Operations are in use.
 
-Refer to the [ATIS section](#runway-nomination) for information on ATIS formatting when ADC 2 is online.
+Refer to the [ATIS section](#runway-nomination) for information on ATIS formatting when ADC (Circuit) is online.
 
 ## Airspace
 BK ADC is responsible for the Class D airspace in the BK CTR `SFC` to `A015`.
@@ -189,18 +191,18 @@ VFR aircraft require a level readback.
 !!! tip
     Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D. You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.
 
-#### ADC 2 Online
-When ADC 2 is online, SY TCU may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
+#### ADC (Circuit) Online
+When ADC (Circuit) is online, SY TCU may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
 
 ### BK ADC Internal
 BK ADC must heads-up coordinate **all aircraft** transiting from one ADC controller to the other.
 
 !!! phraseology
-    <span class="hotline">**BK ADC 2** -> **BK ADC**</span>: "via TWRN, EWY for an overhead join"  
-    <span class="hotline">**BK ADC** -> **BK ADC 2**</span>: "EWY, A015"
+    <span class="hotline">**BK ADC C** -> **BK ADC N**</span>: "via TWRN, EWY for an overhead join"  
+    <span class="hotline">**BK ADC N** -> **BK ADC C**</span>: "EWY, A015"
 
 BK ADC must coordinate **all helicopter traffic** via CSTH. Coordination must take place prior to Take-Off clearance bring issued (departures) OR before issuing a clearance beyond CSTH (arrivals). When responding to coordination, ADC2 should pass aircraft type and position of any aircraft likely to affect the crossing midfield at A005.
 
 !!! phraseology
-    <span class="hotline">**BK ADC** -> **BK ADC 2**</span>: "Choppers South Inbound/Outbound"  
-    <span class="hotline">**BK ADC 2** -> **BK ADC**</span>: "Roger, Traffic is a Cherokee late downwind"
+    <span class="hotline">**BK ADC N** -> **BK ADC C**</span>: "Choppers South Inbound/Outbound"  
+    <span class="hotline">**BK ADC C** -> **BK ADC N**</span>: "Roger, Traffic is a Cherokee late downwind"
