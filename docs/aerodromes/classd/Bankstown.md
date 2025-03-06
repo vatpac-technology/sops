@@ -78,7 +78,7 @@ Circuits to be flown at `A010`
 There is 106 metres between the centrelines of Runway **11R/29L** & **11C/29C**, and 106 metres between the centrelines of Runway **11C/29C** & **11L/29R**.
 Due to the close proximity in critical stages of flight, there are additional considerations (below).
 
-### Dependent Runway Operatiions (Departures Only)
+### Dependent Runway Operations (Departures Only)
 At Bankstown, all Runways are considered Independent unless a Multi-Engined OR Jet aircraft departs from an adjacent Runway. 
 In this instance, runways are treated as dependent *for departures ONLY*. Controllers should apply the same Runway standard across all dependant Runways. Arriving aircraft are exempt from this clause.
 
@@ -86,7 +86,7 @@ Definitions;
 Independent: Runways can operate simultaneously without restriction.
 Dependent: Runways are operated with restrictions, often one at a time.
 
-Example A; A King Air (Multi-Engine) is ready to depart Runway 29R. A Cherokee is departing Runway 29L. Runways are not adjacent, and are therefore independent of eachother.
+Example A; A King Air (Multi-Engine) is ready to depart Runway 29R. A Cherokee is departing Runway 29L. Runways are not adjacent, and are therefore independent of each other.
 Example B; A Citation (Jet) is ready Runway 11C. Both Runways 11L & 11R are adjacent, and a Runway Separation Standard should be applied across ALL three Runways. Note: Arriving Aircraft are exempt.
 Example C; A PC12 (Single Engine) is ready Runway 29C. There aircraft is a single-engined aircraft and the Runways are treated independently from one another.
 Example D; A Seminole (Multi-Engine) is cleared a Touch & Go on Runway 11R. Any aircraft departing from the adjacent Runway (11C) must have a Runway separation standard applied.
