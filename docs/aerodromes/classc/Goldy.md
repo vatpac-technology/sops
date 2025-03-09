@@ -206,16 +206,6 @@ Both hospital helipads are outside the maneuvering area and do not require a tak
 
 All other aircraft require a 'Next' call to CG TCU.
 
-!!! phraseology
-    <span class="hotline">**CG ADC** -> **BAC**</span>: "Next, CBN, runway 14"  
-    <span class="hotline">**BAC** -> **CG ADC**</span>: "CBN, heading 030, unrestricted"  
-    <span class="hotline">**CG ADC** -> **BAC**</span>: "Heading 030, CBN"  
-
-    **CG ADC**: "CBN, Assigned heading left 030, Runway 14, Cleared for Takeoff"  
-    **CBN**: "Left heading 030, Runway 14, Cleared for Takeoff, CBN"
-
-The BN TCU controller can suspend/resume Auto Release at any time, with the concurrence of **CG ADC**.
-
 The Standard Assignable level from CG ADC to BN TCU is:  
 
 | Aircraft | Level |
