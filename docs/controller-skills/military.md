@@ -127,3 +127,13 @@ MARSA is to be assigned and terminated on pilots request, and when standard sepe
 
 !!! note
     Military aircraft normally operate NOCOM in military Restricted Areas and Class G airspace only. **Do not** permit NOCOM operations in Civil CTA.
+
+## Stereo Approaches
+Stereo Approaches are the primary procedure for fighter & strike aircraft (e.g. F18, HAWK, PC21) recovering back to airbases after operations in SUA. Aircraft track from specified SUA exit gates where they join the procedure, tracking along charted TACAN arcs/radials which position them for an initial and pitch or instrument approach.
+
+Stereo approaches should generally be used during high military traffic levels and nominated on the appropriate aerodrome ATIS.
+
+Stereo Approach charts can be found in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}
+
+## Initial and Pitch Procedures
+Reserved.
