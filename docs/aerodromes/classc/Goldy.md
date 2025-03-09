@@ -34,7 +34,7 @@ Radar SID aircraft shall be cleared subject to the following conditions for nois
 |  **North**   |   Left turn and then over water until `A030`    | Right turn and then over water until `A030` |
 |  **East**   |   Left turn and then over water until `A030`      | Right turn and then over water until `A030` |
 |  **South** Jets   |   Minor right turn then over water until 5 DME   |    Over water until south of KCFF (CG130/7 NM) and `A050`    |
-|  **South** Non-Jets  |    Left turn and then over water until `A030`     | Right turn and then over water until `A030`  |
+|  **South** Non-Jets  |    Left turn and then over water until `A030`     | Right turn and then over water until `A030`  | 
 
 ## Arrivals
 Arriving aircraft that are operating at or below `A015` may contact ADC for inbound clearance. These aircraft shall be assigned a discrete SSR code but shall not be radar identified.  
