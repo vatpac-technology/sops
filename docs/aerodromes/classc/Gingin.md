@@ -31,14 +31,13 @@ The initial points for Gingin are RWY 08 is the corner of the pine plantation an
 
 ## Coordination
 ### PE TCU
-'Next' coordination is required from GIG ADC to PE TCU for all aircraft.
+[Next](../../controller-skills/coordination.md#next) coordination is required from GIG ADC to PE TCU for all aircraft.
 
-!!! example
-    <span class="hotline">**GIG ADC** -> **PE TCU**</span>: "Next, VIPR01, Runway 08"  
-    <span class="hotline">**PE TCU** -> **GIG ADC**</span>: "VIPR01, Assigned Heading Right 030, unrestricted"  
-    <span class="hotline">**PE ADC** -> **PE TCU**</span>: "Right Heading 030, VIPR01"
+The Standard Assignable Level from **GIG ADC** to **PE TCU** is:
 
-The Standard Assignable Level from **GIG ADC** to **PE TCU** is the lower of `A050` or the `RFL`.
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `A050` and `RFL` |
 
 ## Charts
 !!! abstract "Reference"

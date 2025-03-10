@@ -47,6 +47,33 @@ d) Runway 11 and Runway 36;
 e) Runway 11 and Runway 18;  
 f) Runway 11 only.  
 
+## LAHSO
+!!! warning "Important"
+    Due to its operational complexity, LAHSO **must be authorised by a member of the VATPAC ATS or Events Staff Team or a C3-rated controller**.
+
+    Very little benefit is achieved by running LAHSO without a flow controller and it is almost exclusively reserved for our busiest events.
+
+Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../controller-skills/runwaymanagement.md#lahso) for more information.
+
+### Weather Conditions
+LAHSO may only be used where the weather conditions meet the following minimum requirements:
+
+| Element | Criteria |
+| ------- | -------- |
+| Cloud Ceiling | `A030` or higher |
+| Visibility | 8km or greater |
+| Surface Condition | Dry |
+| Windshear | None Reported |
+
+Two simultaneous landings may be conducted by both day and night. A simultaneous takeoff and landing may only be conducted by day.
+
+### Runway Mode
+The only approved LAHSO mode at YPDN is **36A/29AD**. Runway 36 is considered the active runway, while runway 29 is considered the passive runway.
+
+## ATIS
+When LAHSO is in use, the ATIS OPR INFO shall include:  
+`LAND AND HOLD SHORT OPERATIONS IN PROGRESS`
+
 ## Non-RNAV Departures
 For non-RNAV approved IFR aircraft with a wake turbulence category of medium or greater, issue a Radar SID  
 For non-RNAV approved IFR aircraft with a wake turbulence category of light, issue a visual departure or Radar SID  
@@ -60,17 +87,16 @@ For non-RNAV approved IFR aircraft with a wake turbulence category of light, iss
 VFR aircraft that will operate only in ADCs airspace shall be assigned SSR code 0100  
 
 Circuit altitude will depend on the type of aircraft. Assign circuit altitudes for the following aircraft types:  
-a) MIL Jet: `A020`  
-b) Jet: `A015`  
-c) Non-jet: `A010`  
-d) Helo: `A010`  
+
+| Aircraft | Altitude |
+| ----- | ---- |
+| Military Jet | `A020` |
+| Other Jet | `A015` |
+| Non-Jet | `A010` |
+| Helicopter | `A010` | 
 
 ### VFR Departures
-VFR aircraft are required to track via one of the published VFR Routes.  
-
-VFR routes shall be assigned based on the destination radial from Darwin.  
-
-Assign VFR routes in accordance with the following radial chart:  
+VFR aircraft are required to track via one of the published VFR Routes (as shown on the Darwin VTC). VFR routes shall be assigned based on the destination radial from Darwin, as per below:  
 
 |Outbound Radial |Assigned VFR Route|
 |---|---|
@@ -82,19 +108,16 @@ Assign VFR routes in accordance with the following radial chart:
 |225 – 359| Direct|
 
 !!! tip
-    If a VFR aircraft has not planned via a VFR route as above, use the phraseology: “ABC, cleared amended route VFR route 1, maintain A020, squawk 4512”
+    If a VFR aircraft has not planned via a VFR route as above, use the phraseology: “*ABC, cleared amended route VFR route 1, climb to A020, squawk 4512*”
 
 ## Coordination
 ### DN TCU
-Auto-Release is **not available** at YPDN. All Departures will be coordinated when ready for departure.
+[Next](../../controller-skills/coordination.md#next) coordination is required from DN ADC to DN TCU for all aircraft.
 
-!!! phraseology
-    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Next, EOC, runway 18"  
-    <span class="hotline">**DN TCU** -> **DN ADC**</span>: "EOC, Track Extended Centreline, unrestricted"  
-    <span class="hotline">**DN ADC** -> **DN TCU**</span>: "Track Extended Centreline, EOC"  
+The Standard Assignable Level from  **DN ADC** to **DN TCU** is:
 
-The Standard Assignable level from **DN ADC** to **DN TCU** is:
-
-- For IFR aircraft assigned a Procedural SID: the lower of `F180` or the `RFL`.  
-- For IFR aircraft **not** assigned a Procedural SID: the lower of `A030` or the `RFL`.  
-- For VFR aircraft: the lower of `A020` or the `RFL`.
+| Aircraft | Level |
+| -------- | ----- |
+| IFR aircraft assigned a **Procedural** SID | The lower of `F180` and `RFL` |
+| IFR aircraft **not** assigned a **Procedural** SID | The lower of `A030` and `RFL` |
+| VFR aircraft | The lower of `A020` and `RFL` |

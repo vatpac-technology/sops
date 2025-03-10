@@ -167,16 +167,14 @@ Circuits are flown at `A010`, in the same circuit direction as the duty runway.
 
 ## Coordination
 ### AMB TCU
-'Next' coordination is required from AMB ADC to AMB TCU for all aircraft.
-
-!!! phraseology
-    <span class="hotline">**AMB ADC** -> **AMB TCU**</span>: "Next, STAL56, runway 33"  
-    <span class="hotline">**AMB TCU** -> **AMB ADC**</span>: "STAL56, unrestricted"  
-    <span class="hotline">**AMB ADC** -> **AMB TCU**</span>: "STAL56"  
+[Next](../../controller-skills/coordination.md#next) coordination is required from AMB ADC to AMB TCU for all aircraft.
 
 The Standard Assignable Level from  **AMB ADC** to **AMB TCU** is:  
-a) The Lower of `F180` or `RFL` for Aircraft assigned via Procedural or RNAV SID.  
-b) `F190` for Aircraft assigned a Coded Departure.
+
+| Assigned Departure | Level |
+| ------------------ | ----- |
+| Procedural SID | The lower of `F180` and `RFL` |
+| Coded Departure | `F190` |
 
 ## Charts
 !!! abstract "Reference"

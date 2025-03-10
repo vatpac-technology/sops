@@ -193,14 +193,13 @@ TW ADC is responsible for the Class D airspace in the TW CTR `SFC` to `A045`, as
 Refer to [Reclassifications](#tw-ctr) for operations when TW ADC is offline.
 
 #### Departures
-Departures from YSTW in to ARL/MDE Class C will be coordinated when ready for departure.
+[Next](../../controller-skills/coordination.md#next) coordination is required from TW ADC to ARL/MDE for all aircraft **entering ARL/MDE CTA**.
 
-!!! phraseology
-    <span class="hotline">**TW ADC** -> **MDE**</span>: "Next, SKV"  
-    <span class="hotline">**MDE** -> **TW ADC**</span>: "SKV, Unrestricted"  
-    <span class="hotline">**TW ADC** -> **MDE**</span>: "SKV"  
+The Standard Assignable level from **TW ADC** to **ARL/MDE** is:
 
-The Standard Assignable level from **TW ADC** to ARL/MDE is the lower of `A070` or the `RFL`.
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A070` and `RFL` |
 
 #### Arrivals
 YSTW arrivals shall be heads-up coordinated to **TW ADC** from ARL/MDE prior to **5 mins** from the boundary.
@@ -218,14 +217,15 @@ CFS ADC is responsible for the Class D airspace in the CFS CTR `SFC` to `A045`.
 Refer to [Reclassifications](#cfs-ctr) for operations when CFS ADC is offline.
 
 #### Departures
-Departures from YCFS in to MNN Class C will be coordinated when ready for departure.
+[Next](../../controller-skills/coordination.md#next) coordination is required from CFS ADC to ARL(MNN) for all aircraft **entering ARL(MNN) CTA**.
 
-!!! phraseology
-    <span class="hotline">**CFS ADC** -> **MNN**</span>: "Next, CFH21"  
-    <span class="hotline">**MNN** -> **CFS ADC**</span>: "CFH21, Unrestricted"  
-    <span class="hotline">**CFS ADC** -> **MNN**</span>: "CFH21"  
+The Standard Assignable level from **CFS ADC** to **ARL(MNN)** is:
 
-The Standard Assignable level from **CFS ADC** to MNN is the lower of `A070` or the `RFL`.
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A070` and `RFL` |
+
+Where possible (and no possible conflict exists), a higher level shall be assigned by ARL(MNN) for high performance aircraft during next coordination.
 
 #### Arrivals
 YCFS arrivals shall be heads-up coordinated to **CFS ADC** from MNN prior to **5 mins** from the boundary.

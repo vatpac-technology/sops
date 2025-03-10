@@ -8,18 +8,15 @@
 
 | Name               | ID      | Callsign             | Frequency        | Login ID    |
 | ------------------ | ------- | ------------------- | ---------------- | ------------------- |
-| **East Sale TMA**  | **ESA** | **East Sale Approach** | **123.300**      | **ES_APP**          |
+| **East Sale TMA**  | **ESA** | **Sale Approach** | **123.300**      | **ES_APP**          |
 
 ## Airspace
 
-ES TCU controls the airspace within R360. Typically, sectors R360A through R360F are active. The enroute controllers manage the airspace beneath the active R360 sectors, with YWE controlling the southern section and ELW controlling the northern section.
-Coordination with both enroute controllers is needed if online.
+ES TCU is responsible for the restricted airspace within R360, from the base of CTA to `F210`. Typically, sectors R360A through R360F are active. The enroute controllers manage the airspace beneath the active R360 sectors, with HUO(WON) controlling the southern section and BLA controlling the northern section. Coordination with both enroute controllers is needed if online.
 
-R393 is a reserved and is activated only for special events.
+R393 is reserved and is activated only for special events.
 
 If operationally necessary, ES TCU may also request the activation of M301 airspace segments for military exercises up to `F450`.
-
-Release coordination with the overlying enroute controller is required.
 
 <figure markdown>
 ![ESL TMA](img/esltcu.png){ width="700" }
@@ -28,11 +25,10 @@ Release coordination with the overlying enroute controller is required.
 
 
 ## Logon Process
-
 Given the specific nature of the East Sale TCU airspace, surrounding controllers may not be fully aware of its boundaries. Upon logging on as East Sale TCU, it is essential to announce the activation status of R360/M301.
 
 !!! phraseology
-    <span class="hotline">**ESA** -> **ELW**</span>: "Request activation of R360 from SFC to F210"
+    <span class="hotline">**ESA** -> **BLA**</span>: "Request activation of R360 from SFC to F210"
 
 ## Circuit Procedures
 
@@ -163,20 +159,19 @@ The training areas around East Sale are crucial for military operations. Each ar
 Aircraft arriving from any Training Area (TA) will remain in the TA until direct entry into an IAP is possible. ATC should anticipate the sequence to allow for efficient tracking and sequencing.
 
 ### Visual Approach
-
 When expect visual approach is advertised on the ATIS:
 
-- Maintain `A070`.
-- Track to intercept an inbound lane prior to exiting the TRA (20 NM).
-- Sequence aircraft for a Visual Approach via Initial Point (IP) for the duty runway.
+- Aircraft shall be instructed to maintain `A070`
+- Track to intercept an inbound lane prior to exiting the TRA (20 NM)
+- Sequence aircraft for a Visual Approach via Initial Point (IP) for the duty runway
 
 ### Instrument 
 
 When expect instrument approach is advertised on the ATIS:
 
-- Maintain `A070`.
-- Track to intercept an inbound lane prior to exiting the TRA (20 NM).
-- Sequence aircraft for an Instrument Approach Procedure in accordance with the table below.
+- Aircraft shall be instructed to maintain `A070`
+- Track to intercept an inbound lane prior to exiting the TRA (20 NM)
+- Sequence aircraft for an Instrument Approach Procedure in accordance with the table below
 
 | Runway   | Lane          | IAP   | IAF    | LSALT   |
 | -------- | ------------- | ----- | ------ | ------- |
@@ -195,29 +190,42 @@ When expect instrument approach is advertised on the ATIS:
 
 
 ## Coordination
+### Enroute
+#### Departures
+Voiceless for all aircraft:
+
+- Tracking via a Procedural SID terminus; and  
+- Assigned the lower of `F200` or the `RFL`
+
+All other aircraft going to ELW/YWE CTA must be **Heads-up** Coordinated by ES TCU prior to the boundary. 
+
+#### Arrivals
+Voiceless for all aircraft:
+
+- With ADES **YMES**; and
+- Assigned `A100`
+
+All other aircraft coming from ELW/YWE CTA will be **Heads-up** Coordinated to ES TCU.
 
 ### Auto Release
+[Next](../controller-skills/coordination.md#next) coordination is required from ES ADC to ES TCU for all aircraft.
 
-Auto release is not utilized at East Sale. 'Next' coordination is required from ES ADC to ES TCU for all aircraft.
+The Standard Assignable Level from  **ES ADC** to **ES TCU** is:
 
-!!! phraseology
-    <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Next, ASY01, runway 09"     
-    <span class="hotline">**ES TCU** -> **ES ADC**</span>: "ASY01, Assigned Heading Left 030, unrestricted"         
-    <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Left Heading 030, ASY01" 
-
-### Helicopter Operations Coordination
+| Aircraft | Level |
+| -------- | ----- |
+| Fixed-wing | The lower of `F160` and `RFL` |
+| Rotary-wing | The lower of `A040` and `RFL` |
 
 Helicopters departing from helicopter spots will be treated as if departing from the duty runway.
 
-*PSDN14 is a VFR helicopter departing from the threshold of RWY04 (in the direction of runway 27)*  
-
 !!! phraseology
-    <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Next, PSDN14, runway 09"    
-    <span class="hotline">**ES TCU** -> **ES ADC**</span>: "PSDN14, Assigned Heading Left 010, unrestricted"  
-    <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Left Heading 010, PSDN14"  
+    *PSDN14 is a VFR helicopter departing from the threshold of RWY04 (in the direction of runway 27)*  
+    <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Next, PSDN14, runway 27"  
+    <span class="hotline">**ES TCU** -> **ES ADC**</span>: "PSDN14, right turn, unrestricted"  
+    <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Right turn, PSDN14" 
 
 ### Transfer to Tower
-
 Transfer to tower frequency at the following points:
 
 - **Visual approach:** 10NM
@@ -229,5 +237,4 @@ Transfer to tower frequency at the following points:
   - **DME:** 10NM
 
 ## Charts
-
 Aerodrome and instrument approach charts are available in the AIP. Additionally, refer to the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip).

@@ -34,7 +34,7 @@ Radar SID aircraft shall be cleared subject to the following conditions for nois
 |  **North**   |   Left turn and then over water until `A030`    | Right turn and then over water until `A030` |
 |  **East**   |   Left turn and then over water until `A030`      | Right turn and then over water until `A030` |
 |  **South** Jets   |   Minor right turn then over water until 5 DME   |    Over water until south of KCFF (CG130/7 NM) and `A050`    |
-|  **South** Non-Jets  |    Left turn and then over water until `A030`     | Right turn and then over water until `A030`  |
+|  **South** Non-Jets  |    Left turn and then over water until `A030`     | Right turn and then over water until `A030`  | 
 
 ## Arrivals
 Arriving aircraft that are operating at or below `A015` may contact ADC for inbound clearance. These aircraft shall be assigned a discrete SSR code but shall not be radar identified.  
@@ -198,26 +198,20 @@ Both hospital helipads are outside the maneuvering area and do not require a tak
 
 ## Coordination
 ### Auto Release
-'Next' coordination is **not** required to BN TCU for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a **Procedural** SID
+[Next](../../controller-skills/coordination.md#next) coordination is **not** required to BN TCU for aircraft that are:   
+  
+  - Departing from a runway nominated on the ATIS; and  
+  - Assigned the standard assignable level; and  
+  - Assigned a **Procedural** SID
 
 All other aircraft require a 'Next' call to CG TCU.
 
-!!! phraseology
-    <span class="hotline">**CG ADC** -> **BAC**</span>: "Next, CBN, runway 14"  
-    <span class="hotline">**BAC** -> **CG ADC**</span>: "CBN, heading 030, unrestricted"  
-    <span class="hotline">**CG ADC** -> **BAC**</span>: "Heading 030, CBN"  
-
-    **CG ADC**: "CBN, Assigned heading left 030, Runway 14, Cleared for Takeoff"  
-    **CBN**: "Left heading 030, Runway 14, Cleared for Takeoff, CBN"
-
-The BN TCU controller can suspend/resume Auto Release at any time, with the concurrence of **CG ADC**.
-
 The Standard Assignable level from CG ADC to BN TCU is:  
-For Jets: `A060`  
-For Non-Jets: The lower of `A060` or the `RFL`
+
+| Aircraft | Level |
+| -------- | ----- |
+| Jets | `A060` |
+| Non-Jets | The lower of `A060` and `RFL` |
 
 ### Start Clearance
 A start clearance is required for aircraft planned to YBBN. Start clearance must be coordinated with BN TCU.

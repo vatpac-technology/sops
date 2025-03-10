@@ -170,19 +170,20 @@ All other aircraft coming from TBD CTA will be **Heads-up** Coordinated to AD TC
 
 ### AD ADC
 #### Auto Release
-'Next' coordination is **not** required from AD ADC for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a **Procedural** SID
+[Next](../controller-skills/coordination.md#next) coordination is **not** required to AD TCU for aircraft that are:   
 
-!!! phraseology
-    <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Next, ABC, runway 05"  
-    <span class="hotline">**AD TCU** -> **AD ADC**</span>: "ABC, Track Extended Centreline, unrestricted"  
-    <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Track Extended Centreline, ABC"
+  - Departing from a runway nominated on the ATIS; and  
+  - Assigned the standard assignable level; and  
+  - Assigned a **Procedural** SID
+
+All other aircraft require a Next call to AD TCU.
 
 The Standard Assignable level from AD ADC to AD TCU is:  
-For Jets: `A050`  
-For Non-Jets: The lower of `A040` or the `RFL`
+
+| Aircraft | Level |
+| -------- | ----- |
+| Jets | `A050` |
+| Non-Jets | The lower of `A040` and `RFL` |
 
 ### AD TCU Internal
 All aircraft transiting between internal AD TCU boundaries must be heads-up coordinated.
@@ -200,14 +201,13 @@ PF ADC is responsible for the Class D airspace in the PF CTR `SFC` to `A015`.
 Refer to [Reclassifications](#pf-ctr) for operations when PF ADC is offline.
 
 #### Departures
-When the aircraft is ready for departure, PF ADC will coordinate with AD TCU for permission to release the aircraft into CTA.
+[Next](../controller-skills/coordination.md#next) coordination is required from PF ADC to AD TCU for all aircraft **entering AD TCU CTA**.
 
-!!! phraseology
-    <span class="hotline">**PF ADC** -> **AAW**</span>: "Next, XMM, 03L"  
-    <span class="hotline">**AAW** -> **PF ADC**</span>: "XMM, Heading 020, unrestricted"  
-    <span class="hotline">**PF ADC** -> **AAW**</span>: "Heading 020, XMM"
+The Standard Assignable level from **PF ADC** to **AD TCU** is:
 
-The Standard Assignable level from PF ADC to AD TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| ----- | ---- |
+| All | The lower of `A030` and `RFL` |
 
 #### Arrivals/Overfliers
 AD TCU will heads-up coordinate arrivals/overfliers from Class C to PF ADC prior to **5 mins** from the boundary.  
@@ -220,21 +220,19 @@ VFR aircraft require a level readback.
 
 ### ED ADC
 #### Departures
-'Next' coordination is required from ED ADC to AD TCU for all aircraft.
+[Next](../controller-skills/coordination.md#next) coordination is required from ED ADC to AD TCU for all aircraft.
 
-!!! phraseology
-    <span class="hotline">**ED ADC** -> **AD TCU**</span>: "Next, SGE"  
-    <span class="hotline">**AD TCU** -> **ED ADC**</span>: "SGE, unrestricted"  
-    <span class="hotline">**ED ADC** -> **AD TCU**</span>: "SGE"
+The Standard Assignable level from **ED ADC** to **AD TCU** is:
 
-The Standard Assignable level from ED ADC to AD TCU is the lower of `A040` or the `RFL`.
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `A040` and `RFL` |
 
 #### Arrivals/Overfliers
-AD TCU must Heads-up coordinate all arrivals/overfliers to ED ADC.
+AD TCU must [Heads-up](../controller-skills/coordination.md#heads-up) coordinate all arrivals/overfliers to ED ADC.
 
 !!! phraseology
     <span class="hotline">**AD TCU** -> **ED ADC**</span>: "To the west, PLE, for the ILS-Z"  
     <span class="hotline">**ED ADC** -> **AD TCU**</span>: "PLE, ILS-Z"
 
-- **IFR arrivals** must be cleared for the coordinated approach (Instrument or Visual) prior to handoff to ED ADC, unless ED ADC nominates a restriction.  
-- **VFR arrivals** must be cleared for the coordinated visual approach prior to handoff to ED ADC, unless ED ADC nominates a restriction.
+Inbound aircraft must be cleared for an instrument or visual approach prior to handoff to ED ADC, unless ADC nominates a restriction.

@@ -48,6 +48,9 @@ All IFR aircraft departing Cambridge shall be assigned a **Visual Departure** or
     **NDR:** "Hobart Ground, NDR, for Devonport, request clearance"  
     **HB SMC:** "NDR, cleared to Devonport via KANLI flight plan route, KANLI3 departure, climb via SID to A045, squawk 4432"
 
+!!! warning "Important"
+    As the assigned SID is applicable to a different departure aerodrome, it will not auto-populate in vatSys. HB SMC must write the name of the SID in the Global Ops Field of the FDR and amend the flight plan route to include all relevant tracking points.
+
 When ready to taxi and prior to leaving the apron aircraft must contact **HB ADC**, advising intended runway for departure and receipt of YMHB ATIS, to obtain traffic information.
 
 !!! phraseology
@@ -125,35 +128,30 @@ Clearances for aircraft entering the CTR must be worded so as to leave no possib
 
 ## Coordination
 ### Departures
-'Next' coordination is **not** required to HBA for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a SID; or  
-  d) Not entering HBA CTA
+[Next](../../controller-skills/coordination.md#next) coordination is **not** required to HBA for aircraft that are:   
+
+- Departing from a runway nominated on the ATIS; and  
+- Assigned the standard assignable level; and  
+- Assigned a SID; or  
+- Not entering HBA CTA
 
 All other aircraft require a 'Next' call to HBA.
-
-!!! phraseology
-    <span class="hotline">**HB ADC** -> **HBA**</span>: "Next, ABC, runway 12"  
-    <span class="hotline">**HBA** -> **HB ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
-    <span class="hotline">**HB ADC** -> **HBA**</span>: "Heading 150 Visual, ABC"  
-
-    **HB ADC**: "ABC, Assigned heading right 150 Visual, Runway 12, Cleared for Takeoff"  
-    **ABC**: "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"
-
-The HBA controller can suspend/resume Auto Release at any time, with the concurrence of **HB ADC**.
 
 !!! note
     All departures from YCBG who will enter the HBA CTA must be Next coordinated by ADC.
 
-The Standard Assignable level from HB ADC to HBA is:  
-For IFR Aircraft: `A080`  
-For VFR Aircraft: The lower of `A045` or the `RFL`.
+The Standard Assignable level from **HB ADC** to **HBA** is:  
+
+| Flight Rules | Level |
+| ----- | ----- |
+| IFR | `A080` |
+| VFR | The lower of `A045` and `RFL` |
 
 #### Airways Clearance
-**HB SMC** shall give heads-up coordination to HBA controller prior to the issue of the following clearances:  
-a) VFR Departures  
-b) Aircraft using a runway not on the ATIS
+**HB SMC** shall give [heads-up](../../controller-skills/coordination.md#airways-clearance) coordination to HBA controller prior to the issue of the following clearances:
+
+- VFR departures entering HBA CTA
+- Aircraft using a runway not on the ATIS
 
 ### Arrivals/Overfliers
 HBA will heads-up coordinate arrivals/overfliers from Class C to HB ADC.  
