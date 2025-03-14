@@ -28,7 +28,7 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 
 ## VFR Routes
 
-Alice Springs has 10 VFR routes that follow prominent geographic features and highways. These established routes begin at various reporting points, providing entry to the CIRA. VFR Routes 8 and 9 provide separation from R215 Pine Gap, `SFC` to `A180`.
+Alice Springs has 10 VFR routes that follow prominent geographic features and highways. These established routes begin at various reporting points, providing entry to the CIRA. VFR Routes 8 and 9 provide separation from R215 Pine Gap.
 
 <figure markdown>
 ![YBAS VFR Routes](img/YBAS_VFR_ROUTES.png){ width="650" }
