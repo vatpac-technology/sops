@@ -216,4 +216,4 @@ Taxiways considered as part of the maneuvering area and are to be treated like a
 
 It is common for aircraft to taxi and hold short of the controlled movement area prior to requesting departure clearance or taxi instructions.
 
-More information can be found at this link: https://www.casa.gov.au/bankstown-manoeuvring-area-map&ved=2ahUKEwi0h_fG_46MAxVkUaQEHQkQO28QFnoECAwQAQ&usg=AOvVaw3Im1Lcspy-MyOdbEmiHXl2
+More information can be found at this link: https://www.casa.gov.au/bankstown-manoeuvring-area-map
