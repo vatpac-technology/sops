@@ -10,7 +10,7 @@
 | ----------------------- | --------- | ---------------- | --------- |
 | **Port Vila Centre**	| **Vila Centre**| 	**120.700** | **NVVV_CTR**	| 
 | **Port Vila ADC**	| **Vila Tower**	| **118.300** | **NVVV_TWR**	| 
-| Port Villa ATIS	| | 126.400 | NVVV_ATIS	 	| 
+| **Port Vila ATIS**	| | **126.400** | **NVVV_ATIS**	 	| 
 
 
 Port Vila Class D CTA exists:  
