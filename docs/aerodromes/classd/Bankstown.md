@@ -206,3 +206,14 @@ BK ADC must coordinate **all helicopter traffic** via CSTH. Coordination must ta
 !!! phraseology
     <span class="hotline">**BK ADC N** -> **BK ADC C**</span>: "Choppers South Inbound/Outbound"  
     <span class="hotline">**BK ADC C** -> **BK ADC N**</span>: "Roger, Traffic is a Cherokee late downwind"
+
+## SMC
+### Maneuvering Area
+Taxiways considered as part of the maneuvering area and are to be treated like an apron area:
+
+- L, K, N, M, P, H & J North of 11L/29R
+- F, G & taxiway E (South of taxiway B)
+
+It is common for aircraft to taxi and hold short of the controlled movement area prior to requesting departure clearance or taxi instructions.
+
+More information can be found at this link: https://www.casa.gov.au/bankstown-manoeuvring-area-map&ved=2ahUKEwi0h_fG_46MAxVkUaQEHQkQO28QFnoECAwQAQ&usg=AOvVaw3Im1Lcspy-MyOdbEmiHXl2
