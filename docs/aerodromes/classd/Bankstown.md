@@ -94,7 +94,7 @@ In this instance, runways are treated as dependent *for departures ONLY*. Contro
 !!! example "Examples"
     - A King Air (Multi-Engine) is ready to depart Runway 29R. A Cherokee is departing Runway 29L. Runways are not adjacent, and are therefore independent of each other.
     - A Citation (Jet) is ready Runway 11C. Both Runways 11L & 11R are adjacent, and a Runway Separation Standard should be applied across ALL three Runways. Note: Arriving Aircraft are exempt.
-    - A PC12 (Single Engine) is ready Runway 29C. There aircraft is a single-engined aircraft and the Runways are treated independently from one another.
+    - A PC12 (Single Engine) is ready Runway 29C. This aircraft is a single-engined aircraft and the Runways are treated independently from one another.
     - A Seminole (Multi-Engine) is cleared a Touch & Go on Runway 11R. Any aircraft departing from the adjacent Runway (11C) must have a Runway separation standard applied.
 
 ### Opposite Bases (Arrivals Only)
