@@ -120,7 +120,7 @@ The Standard Assignable level from AD ADC to AD TCU is:
 | Non-Jets | The lower of `A040` and `RFL` |
 
 ### Departures Controller
-When **AAE** is online, the AD TCU airspace is split down the 05/23 Runway Centreline. As such, departing aircraft shall be instructed to contact the departures controller corresponding to the direction of turn of the aircraft after departure
+When **AAW** is online, the AD TCU airspace is split down the 05/23 Runway Centreline. As such, departing aircraft shall be instructed to contact the departures controller corresponding to the direction of turn of the aircraft after departure
 
 | Tracking via            | Departure Runway      | Departures Controller        |
 | ------------------ | -------------- | ---------------- |
