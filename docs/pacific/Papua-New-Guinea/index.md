@@ -23,7 +23,7 @@ The airspace classification structure within the AYPM FIR differs from other VAT
 | **D** | | _Not used within the AYPM FIR._
 | **E** | | _Not used within the AYPM FIR._
 | **F** | IFR | Nil | FIS<br>IFR/IFR Traffic info,<br>IFR/VFR Traffic info |  **250KT IAS** below **10,000FT AMSL** | Continuous two-way | No |
-| | VFR | Nil | FIS<br>VFR/VFR Traffic info on request | As Above | Continuous two-way | No |
+| | VFR | Nil | FIS<br>VFR/VFR Traffic info | As Above | Continuous two-way | No |
 | **G** | | _Not used within the AYPM FIR._
 
 ### Class F operations
