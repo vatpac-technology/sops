@@ -1,13 +1,12 @@
 name: ci
 
 on:
-  push:
+  pull_request:
     branches: [ main ]
 
 jobs:
-  deploy:
-    name: Deploy MkDocs to GitHub Pages (on main)
-    if: github.ref == 'refs/heads/main'
+  validate:
+    name: Validate MkDocs Build (on PR)
     runs-on: ubuntu-latest
 
     steps:
@@ -25,5 +24,5 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Deploy to GitHub Pages
-        run: mkdocs gh-deploy --force
+      - name: Build docs (fail if broken)
+        run: mkdocs build --strict
