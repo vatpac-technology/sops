@@ -17,9 +17,9 @@
 
 ## Airspace
 ### Default
-By default, WLM TCU owns the airspace within the WLM MIL CTR `SFC` to `F125`. This may be amended by NOTAM.
+By default, the lower TMA sector is SFC to F125. The upper sector should only be activated by NOTAM or in an adhoc capacity to cater for a particular military event or exercise. In these situations, the controller should negotiate an upper limit which works for both parties.
 
-When WLM TCU is active above `F125` by ad-hoc release or NOTAM, WLM-L_APP owns the airspace `SFC` to `F125`, while WLM APP owns the rest of WLM TCU airspace above `F125`. This may be adjusted as required with coordination.
+When WLM TCU is active above F125 by ad-hoc release to cater for a military event or NOTAM, WLM-L_APP owns the airspace SFC to F125, while WLM APP owns the rest of WLM TCU airspace above F125 to a level adjusted to the needs of both parties and or required for coordination.
 
 #### Diagram
 <figure markdown>
