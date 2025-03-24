@@ -15,19 +15,6 @@ jobs:
         with:
           lfs: false
 
-      - name: Restore Git LFS cache
-        uses: actions/cache@v4
-        with:
-          path: .git/lfs
-          key: lfs-cache-${{ runner.os }}-${{ hashFiles('.gitattributes') }}
-          restore-keys: |
-            lfs-cache-${{ runner.os }}-
-
-      - name: Pull LFS files (excluding resources/)
-        run: |
-            git lfs install 
-            git lfs pull --include="*" --exclude="resources/**"
-
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
