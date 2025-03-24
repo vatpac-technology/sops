@@ -238,7 +238,7 @@ The Standard Assignable level from MNN to **CFS ADC** is `A080`, any other level
 
 ### WLM TCU
 #### Airspace
-By default, **WLM TCU** (when online) owns the airspace within the WLM MIL CTR `SFC` to `F125`, unless stated otherwise by ad-hoc release or NOTAM. It is the responsibility of the **WLM TCU** controller to inform ARL(All) of what airspace they are assuming.
+By default, **WLM TCU** (when online) owns the airspace within the WLM MIL CTR `SFC` to `F125`, unless stated otherwise by ad-hoc release or NOTAM. The upper sector should only be activated by NOTAM or in an adhoc capacity to cater for a particular military event or exercise. In these situations, the controller should negotiate an upper limit which works for both parties. Futher it is the responsibility of the **WLM TCU** controller to inform ARL(All) of what airspace they are assuming.
 
 Refer to [Reclassifications](#wlm-ctr) for operations when WLM TCU is offline.
 
