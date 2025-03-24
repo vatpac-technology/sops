@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo (no LFS auto-fetch)
+      - name: Checkout repo
         uses: actions/checkout@v4
         with:
           lfs: false
