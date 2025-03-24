@@ -1,17 +1,48 @@
-name: ci 
+name: ci
+
 on:
   push:
-    branches: 
-      - main
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
 jobs:
-  deploy:
+  validate:
+    name: Validate MkDocs Build (on PR)
+    if: github.event_name == 'pull_request' || github.ref != 'refs/heads/main'
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
         with:
           lfs: true
+
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - run: pip install -r requirements.txt
-      - run: mkdocs gh-deploy --force
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build docs (fail if broken)
+        run: mkdocs build --strict
+
+  deploy:
+    name: Deploy MkDocs to GitHub Pages (on main)
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
