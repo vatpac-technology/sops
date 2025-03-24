@@ -16,12 +16,10 @@
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
-### Default
-By default, the lower TMA sector is SFC to F125. The upper sector should only be activated by NOTAM or in an adhoc capacity to cater for a particular military event or exercise. In these situations, the controller should negotiate an upper limit which works for both parties.
+By default, WLM TCU owns the airspace from `SFC` to `F125`. In exceptional circumstances, such as specific military exercises or events, an additional TCU controller may log on, splitting the TCU vertically. In these situations, the controller should negotiate an upper limit with ARL(All) which works for both parties.
 
-When WLM TCU is active above F125 by ad-hoc release to cater for a military event or NOTAM, WLM-L_APP owns the airspace SFC to F125, while WLM APP owns the rest of WLM TCU airspace above F125 to a level adjusted to the needs of both parties and or required for coordination.
+When WLM TCU is active above `F125` by ad-hoc release, **WLM-L_APP** owns the airspace from `SFC` to `F125`, while **WLM APP** owns the rest of WLM TMA airspace above `F125`.
 
-#### Diagram
 <figure markdown>
 ![WLM TCU Airspace](img/wlmtcu.png){ width="700" }
   <figcaption>WLM TCU Airspace</figcaption>
