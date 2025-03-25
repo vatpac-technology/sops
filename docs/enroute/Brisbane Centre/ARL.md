@@ -238,7 +238,9 @@ The Standard Assignable level from MNN to **CFS ADC** is `A080`, any other level
 
 ### WLM TCU
 #### Airspace
-By default, **WLM TCU** (when online) owns the airspace within the WLM MIL CTR `SFC` to `F125`, unless stated otherwise by ad-hoc release or NOTAM. It is the responsibility of the **WLM TCU** controller to inform ARL(All) of what airspace they are assuming.
+By default, WLM TCU owns the airspace from `SFC` to `F125`. In exceptional circumstances, such as specific military exercises or events, an additional TCU controller may log on, splitting the TCU vertically. In these situations, the controller will negotiate an upper limit with ARL(All) which works for both parties.
+
+When WLM TCU is active above `F125` by ad-hoc release, **WLM-L_APP** owns the airspace from `SFC` to `F125`, while **WLM_APP** owns the rest of WLM TMA above `F125`.
 
 Refer to [Reclassifications](#wlm-ctr) for operations when WLM TCU is offline.
 
