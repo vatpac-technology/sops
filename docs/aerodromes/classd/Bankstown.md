@@ -37,6 +37,12 @@ BK ADC is responsible for the Class D airspace in the BK CTR `SFC` to `A015`.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
+## Manoeuvring Area
+All apron areas and associated taxiways are *outside* the manoeuvring area. Each run up bay is inside the manoeuvring area and taxi instructions are required to proceed to them.
+
+!!! tip
+    The Manoeuvring Area chart can be found on the [CASA Website](https://www.casa.gov.au/bankstown-manoeuvring-area-map).
+
 ## Fixed-Wing Operations
 ### VFR Inbound Procedures
 VFR aircraft will report inbound at PSP or TWRN. They should be instructed to join the circuit as below:
@@ -56,7 +62,7 @@ Aircraft departing a leg of the circuit will climb to and maintain the following
 RWY 29 direction: `A010`  
 RWY 11 direction: `A015`
 
-## Departures into CTA
+### Departures into CTA
 Aircraft planned into the overlying Class C airspace shall be issued an airways clearance by **BK ADC** and assigned `A030`. These aircraft must be Next coordinated to the relevant TCU controller, who will assess the current traffic picture and provide a release when able. During times of peak TMA traffic, there may be extensive delays for departure and pilots may elect to depart directly into class G. See [Departure Coordination](#departures) for coordination requirements.
 
 ### Circuits
@@ -82,14 +88,14 @@ Due to the close proximity in critical stages of flight, there are additional co
 At Bankstown, all Runways are considered Independent unless a Multi-Engined OR Jet aircraft departs from an adjacent Runway. 
 In this instance, runways are treated as dependent *for departures ONLY*. Controllers should apply the same Runway standard across all dependant Runways. Arriving aircraft are exempt from this clause.
 
-Definitions;
-Independent: Runways can operate simultaneously without restriction.
-Dependent: Runways are operated with restrictions, often one at a time.
+**Independent**: Runways can operate simultaneously without restriction.  
+**Dependent**: Runways are operated with restrictions, often one at a time.
 
-Example A; A King Air (Multi-Engine) is ready to depart Runway 29R. A Cherokee is departing Runway 29L. Runways are not adjacent, and are therefore independent of each other.
-Example B; A Citation (Jet) is ready Runway 11C. Both Runways 11L & 11R are adjacent, and a Runway Separation Standard should be applied across ALL three Runways. Note: Arriving Aircraft are exempt.
-Example C; A PC12 (Single Engine) is ready Runway 29C. There aircraft is a single-engined aircraft and the Runways are treated independently from one another.
-Example D; A Seminole (Multi-Engine) is cleared a Touch & Go on Runway 11R. Any aircraft departing from the adjacent Runway (11C) must have a Runway separation standard applied.
+!!! example "Examples"
+    - A King Air (Multi-Engine) is ready to depart Runway 29R. A Cherokee is departing Runway 29L. Runways are not adjacent, and are therefore independent of each other.
+    - A Citation (Jet) is ready Runway 11C. Both Runways 11L & 11R are adjacent, and a Runway Separation Standard should be applied across ALL three Runways. Note: Arriving Aircraft are exempt.
+    - A PC12 (Single Engine) is ready Runway 29C. This aircraft is a single-engined aircraft and the Runways are treated independently from one another.
+    - A Seminole (Multi-Engine) is cleared a Touch & Go on Runway 11R. Any aircraft departing from the adjacent Runway (11C) must have a Runway separation standard applied.
 
 ### Opposite Bases (Arrivals Only)
 DO NOT allow aircraft to turn final simultaneously AND in close proximity.
@@ -112,9 +118,9 @@ The Main Pad (abeam taxiway Mike) is treated like a runway and requires a takeof
 ### Reporting Points
 Three helicopter reporting points help keep helicopters segregated from other traffic.  
 
-CWST: Michels Patisserie located 1.2nm west of CNTH on the water pipeline  
-CNTH: Northern end of Regents Park Railway Station, roughly 300 metres north of the water pipeline  
-CSTH: Intersection of two creeks enclosing a sewage treatment works 2.1nm south of the aerodrome reference point
+- **CWST**: Michels Patisserie located 1.2nm west of CNTH on the water pipeline  
+- **CNTH**: Northern end of Regents Park Railway Station, roughly 300 metres north of the water pipeline  
+- **CSTH**: Intersection of two creeks enclosing a sewage treatment works 2.1nm south of the aerodrome reference point
 
 ### Inbound Procedures
 Helicopters should track inbound at `A007` via one of the normal inbound points (PSP or TWRN) or via *Olympic Park* and report to **BK ADC** at that point. In response, **BK ADC** should instruct the aircraft to track as below:
@@ -156,12 +162,20 @@ Circuits are conducted within the lateral confines of the fixed-wing circuit at 
 
 ## ATIS
 ### Runway Nomination
-The ATIS must indicate the current runway config and nominate what each parallel runway is being used for. The northern runway (11L/29R) is primarily used for VFR arrivals and departures, the southern runway (11R/29L) for circuit training, and the centre runway for IFR arrivals/departures and VFR overflow.  
+The ATIS must indicate the current runway config and nominate what each parallel runway is being used for. 
+
+| Runway | Use |
+| ------ | --- |
+| Northern Runway (11L/29R) | VFR arrivals/departures |
+| Southern Runway (11R/29L) | Circuit training |
+| Centre Runway (11C/29C) | IFR arrivals/departures and VFR overflow |
 
 This should be reflected on the ATIS as below:  
 
-- Single ADC: `RWY 11L/29R FOR ARRS AND DEPS. RWY 11R/29L FOR CCT TRAINING. RWY 11C/29C IN USE`
-- Dual ADC: `RWY 11L/29R FOR ARRS AND DEPS, FREQ 132.8. RWY 11R/29L FOR CCT TRAINING, FREQ 123.6. RWY 11C/29C IN USE`
+| Controllers | ATIS RWY Field |
+| ----------- | -------------- |
+| Single ADC | `RWY 11L/29R FOR ARRS AND DEPS. RWY 11R/29L FOR CCT TRAINING. RWY 11C/29C IN USE` |
+| Dual ADC | `RWY 11L/29R FOR ARRS AND DEPS, FREQ 132.8. RWY 11R/29L FOR CCT TRAINING, FREQ 123.6. RWY 11C/29C IN USE` |
 
 ### Operational Info
 When the crosswind component exceeds 15 knots, the OPR INFO field must include:  

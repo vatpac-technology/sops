@@ -10,7 +10,7 @@
 | ----------------------- | --------- | ---------------- | --------- |
 | **Tontouta ADC** | **Tontouta Tower** | **118.100** | **NWWW_TWR** |
 | **Tontouta SMC** | **Tontouta Ground** | **121.700** | **NWWW_GND** |
-| Tontouta ATIS | | 126.200 | NWWW_ATIS	|
+| **Tontouta ATIS** | | **126.200** | **NWWW_ATIS**	|
 
 ## Airspace
 

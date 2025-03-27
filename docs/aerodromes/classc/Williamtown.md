@@ -44,4 +44,9 @@ Voiceless coordination is in place from WLM TCU to WLM ADC for arrivals cleared 
 
 !!! phraseology
     <span class="hotline">**WLM TCU** -> **WLM ADC**</span>: "via WLM, ZULU, Close formation of 5, do you have any restrictions or requirements?”  
-    <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "ZULU, no restrictions or requirements, A040"  
+    <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "ZULU, no restrictions or requirements, `A040`"  
+
+### Departures Controller
+Where a single TCU controller is operating the WLM TMA, the departures controller shall be **WLM_APP** (frequency 133.300).
+
+Where the non-standard **WLM-L_APP** sector is online, they shall be the departures controller (frequency 135.700).
