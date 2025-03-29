@@ -350,7 +350,7 @@ When an aircraft requests start clearance, the EN SMC controller shall coordinat
 #### Departures
 [Next](../controller-skills/coordination.md#next) coordination is required from ED ADC to AD TCU for all aircraft **entering AD TCU CTA**.
 
-The Standard Assignable level from ED ADC to AD TCU is:
+The Standard Assignable level from EN ADC to AD TCU is:
 
 | Aircraft | Level |
 | -------- | ----- |
