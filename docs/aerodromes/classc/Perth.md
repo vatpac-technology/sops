@@ -26,27 +26,13 @@ Everything West of the Runway belongs to SMC West, everything East of the Runway
 
 ## Runway Selection
 ### Southwest Plan
-With the Southwest Plan active, all departures shall be assigned runway 21. Arrivals will be processed to either runway 21 or 24 based on their feeder fix, as per the table below:
-
-| Feeder Fix | Assigned Runway |
-| --- | --- |
-| JULIM | 21 |
-| SAPKO | 21 |
-| IPMOR | 21 |
-| KABLI | 24 (or 21 if operationally required) |
-| LAVEX | 24 |
-| SOLUS | 24 |
-
-The ATIS shall notify `EXP ILS APCH`.
+With the Southwest Plan active, all departures shall be assigned runway 21. Arrivals will be processed to either runway 21 or 24.
 
 ### Northeast Plan
 With the Northeast Plan active, departures via `AVNEX`, `OTLED`, `OLMAM`, `SOLUS`, and `OPEGA` shall be assigned runway 03. All other departures shall be assigned runway 06. All arrivals will be processed to runway 03.
 
-When both Runway 03 and Runway 06 are nominated as departure runways, broadcast the following: `RWY 03 FOR DEP VIA OTLED, AVNEX, OLMAM, SOLUS AND OPEGA. RWY 06 FOR ALL OTHER DEP.`
-
-In the following conditions, ATIS shall notify `EXP ILS APCH`:  
-    - By night; and/or  
-    - Cloud base of `A032` or below
+### Single Runway Ops
+Where excessive crosswind components exist on a runway in the southwest or northeast runway modes, nominate the most into wind runway as a single runway mode.
 
 ## Circuit Training
 Circuit training traffic shall be issued SSR code and clearance to operate within circuit area not above `A015`. Circuit training is typically conducted on Runway 03/21.
@@ -63,6 +49,19 @@ There are no helipad facilities at YPPH. Helicopters should be issued an airways
 
 ## Scenic Flights
 When traffic permits, VFR scenic flights over Perth are cleared via VICTOR 65 route (`CTE-PCTY-HKE`). Coordination with PH TCU is required prior to issuing this clearance, see [ACD to PH TCU](#acd-to-ph-tcu).
+
+## ATIS
+### Approach Type
+With the [Southwest Plan](#southwest-plan) active, the ATIS shall notify `EXP ILS APCH`.
+
+With the [Northeast Plan](#northeast-plan) active, the ATIS shall notify `EXP ILS APCH` only in the following conditions:
+
+- By night; and/or  
+- Cloud base of `A032` or below
+
+### Runway Nomination
+When both Runway 03 and Runway 06 are nominated as departure runways, the `RWY` field shall contain:  
+`RWY 03 FOR DEP VIA OTLED, AVNEX, OLMAM, SOLUS AND OPEGA. RWY 06 FOR ALL OTHER DEP.`
 
 ## Coordination
 ### Auto Release
