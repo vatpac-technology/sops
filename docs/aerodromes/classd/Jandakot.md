@@ -68,7 +68,9 @@ All aircraft will arrive on runway **06L/24R** or **12/30**.
     Circuit joining instructions given without an assigned altitude imply clearance to conduct the visual approach. There is no need to clear these aircraft for a visual approach.
 
 ### Departures
-VFR aircraft shall generally depart the zone on an extended circuit leg at `A010`.
+VFR aircraft shall generally depart the zone on an extended circuit leg at `A010`, except for those tracking via `FREM`.
+
+Aircraft departing via `FREM` shall track from the circuit to *Fiona Stanley Hospital*, then climb to `A015` and track to `FREM`.
 
 !!! note
     A takeoff clearance constitutes a clearance to depart the zone by extending the pilot's requested leg of the circuit.  Aircraft departing the zone into class G airspace will transfer to area frequency upon leaving the zone, **no explicit frequency transfer is given to these aircraft**.
