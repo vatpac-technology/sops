@@ -85,8 +85,8 @@ Aircraft wishing to conduct a scenic flight over the Perth CBD should be cleared
     **VH-CYF:** "Squawk 0542, remain OCTA, CYF"  
 
     *When clearance (reference traffic into/out of YPPH) is available:*  
-    **PHA:** "CYF, cleared Victor 65, maintain A015"  
-    **VH-CYF:** "Cleared Victor 65, maintain A015, CYF"
+    **PHA:** "CYF, cleared Victor 65, maintain A015, QNH 1012"  
+    **VH-CYF:** "Cleared Victor 65, maintain A015, QNH 1012, CYF"
 
 Aircraft departing YPPH and intending to conduct the Victor 65 route will be coordinated by **PH ACD**. See [Airways Clearances](#airways-clearances).
 
