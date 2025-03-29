@@ -1,0 +1,23 @@
+# -------------------------------------
+# Text-based files (treat as normal text for diffing, etc.)
+
+# Documentation and content files
+*.md text
+*.txt text
+*.rst text
+*.html text
+*.css text
+*.js text
+*.yaml text
+*.yml text
+*.json text
+*.xml text
+
+# Python code (if used for custom MkDocs plugins or builds)
+*.py text eol=lf
+
+# Cross-platform line ending consistency
+* text=auto
+
+# prevent CRLF issues on shell scripts
+*.sh text eol=lf

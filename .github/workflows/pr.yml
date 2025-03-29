@@ -1,0 +1,27 @@
+name: Pull Request
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    name: Validate MkDocs Build (on PR)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          lfs: false
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Validate MkDocs build
+        run: mkdocs build --strict
