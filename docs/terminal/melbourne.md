@@ -348,7 +348,7 @@ EN ADC is responsible for the Class C airspace shown below, `SFC` to `A020`.
 When an aircraft requests start clearance, the EN SMC controller shall coordinate with ML TCU to obtain the start clearance.
 
 #### Departures
-[Next](../controller-skills/coordination.md#next) coordination is required from ED ADC to AD TCU for all aircraft **entering AD TCU CTA**.
+[Next](../controller-skills/coordination.md#next) coordination is required from EN ADC to ML TCU for all aircraft **entering ML TCU CTA**.
 
 The Standard Assignable level from EN ADC to AD TCU is:
 
