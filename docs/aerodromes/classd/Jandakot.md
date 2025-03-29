@@ -42,29 +42,36 @@ Airspace Ownership when ADC East is online, is:
 - At `A015`; owned entirely by ADC West
 - At or below `A010`; split between ADC Circuit/West down the middle of the **06L/24R** and **06R/24L** extended centrelines.
 
+## Runway Modes
+### Parallel Runway Ops
+During parallel runway operations, the northern runway (**06L/24R**) shall be used for VFR arrivals and departures and the southern runway (**06R/24L**) for circuit training and departures via `SHOP`. 
+
+The [ATIS](#runway-nomination) shall be updated to reflect the use of each runway.
+
+### Single Runway Ops
+Where excessive crosswind exists on the parallel runways, Runway 12 or 30 shall be used for all operations.
+
 ## VFR Operations
 ### Arrivals
-VFR aircraft will report inbound at BOAT, POWR, OAKF or RUSS at `A015`. JT ADC will instruct aircraft to maintain `A015` or remain outside the control zone (workload permitting). Aircraft will then report again at ADWD when inbound from BOAT or POWR, or FDL when inbound from OAKF or RUSS. They should then be instructed to join the circuit as below:
+VFR aircraft will report inbound at `BOAT`, `POWR`, `OAKF` or `RUSS` at `A015`. JT ADC shall instruct aircraft to maintain `A015` and report again at `ADWD` when inbound from `BOAT` or `POWR`, or `FDL` when inbound from `OAKF` or `RUSS`.
+
+Aircraft should then be instructed to join the circuit as below:
 
 | VFR Approach Point | RWYs 06  | RWYs 24 | RWY 12 | RWY 30 |
 | ----------------| --------- | ---------- | ---------- | --------- |
-| ADWD   | *"Join base runway 06L"* | *"Join right downwind runway 24R, maintain A015"*, until the aircraft are clear of RWY 24R departures via *Fiona Stanley Hospital* and FREM, then *"Cleared Visual Approach"*  | *"Join final runway 12"* | *"Join downwind ruwnay 30, maintain A015"*, until the aircraft is clear of RWY 30 departures via YGB, then *"Cleared Visual Approach"* |
+| ADWD   | *"Join base runway 06L"* | *"Join right downwind runway 24R, maintain A015"*, until the aircraft are clear of RWY 24R departures via *Fiona Stanley Hospital* and `FREM`, then *"Cleared Visual Approach"*  | *"Join final runway 12"* | *"Join downwind ruwnay 30, maintain A015"*, until the aircraft is clear of RWY 30 departures via `YGB`, then *"Cleared Visual Approach"* |
 | FDL  | *"Join downwind runway 06L, maintain A015"*. Aircraft should fly overhead the airfield between the control tower and the upwind end of the runway and join the circuit. Once established in the circuit, *"Cleared visual approach"* | *"Join right downwind runway 24R, maintain A015"*. Aircraft should fly overhead the airfield between the control tower and the upwind end of the runway and join the circuit. Once established in the circuit, *"Cleared visual approach"* | *"Join right downwind runway 12"* | *"Join final runway 30"* |
 
-All aircraft will arrive on runway 06L/24R or 12/30.
+All aircraft will arrive on runway **06L/24R** or **12/30**.
 
 !!! note
     Circuit joining instructions given without an assigned altitude imply clearance to conduct the visual approach. There is no need to clear these aircraft for a visual approach.
 
 ### Departures
-VFR aircraft should report ready to **JT ADC** with their departure intentions.  A takeoff clearance constitutes a clearance to depart the zone by extending the pilot's requested leg of the circuit.  Aircraft departing the zone into class G airspace will transfer to area frequency upon leaving the zone, **no explicit frequency transfer is given to these aircraft**.
+VFR aircraft shall generally depart the zone on an extended circuit leg at `A010`.
 
-Aircraft departing a leg of the circuit will climb to and maintain the following levels until clear of the zone:  
-All runways: `A010`  
-
-VFR aircraft will depart via set outbound departure routes. Aircraft will track extended circuit legs to the departure point. These departure points include: YGB, FREM via *Fiona Stanley Hospital*, and SHOP.
-
-Departures via FREM and YGB will depart on runway 06L/24R. Runway 06R/24L is used for circuit traffic and departures via SHOP.
+!!! note
+    A takeoff clearance constitutes a clearance to depart the zone by extending the pilot's requested leg of the circuit.  Aircraft departing the zone into class G airspace will transfer to area frequency upon leaving the zone, **no explicit frequency transfer is given to these aircraft**.
 
 ## IFR Operations
 ### Arrivals
@@ -80,7 +87,7 @@ All IFR Departures must be assigned the most appropriate SID in accordance with 
 | East/North-east    | SCARP |
 
 ## Circuits
-The circuit direction changes depending on tower opening hours and runway being used.
+Circuits shall be flown at `A010`.
 
 | Runway | Direction  |
 | -------| ----- |
@@ -91,8 +98,6 @@ The circuit direction changes depending on tower opening hours and runway being 
 | 12     | Left  |
 | 30     | Left  |
 
-Circuits to be flown at `A010`
-
 ## Helicopter Operations
 ### General
 Unless otherwise depicted in the `ERSA FAC YPJT`, all helicopters must comply with fixed wing procedures.
@@ -102,15 +107,15 @@ Circuits are conducted within the lateral confines of the fixed-wing circuit at 
 
 ## ATIS
 ### Runway Nomination
-The ATIS must indicate the current runway config and nominate what each parallel runway is being used for. The northern runway (**06L/24R**) is primarily used for VFR arrivals and departures, the southern runway (**06R/24L**) for circuit training and departures via `SHOP`. The cross runway (**12/30**) for all arrivals/departures when weather is unsuitable for parallel runway operations.  
+Where multiple runways are in use, the ATIS `RWY` field shall indicate:
 
-This should be reflected on the ATIS as below:  
-
-- Single ADC: `RWY 06R/24L FOR CCTS AND DEPS VIA ARMADALE SHOPS. RWY 06L/24R FOR ARRS AND ALL OTHER DEPS`  
-- Dual ADC: `RWY 06R/24L FOR CCTS AND DEPS VIA ARMADALE SHOPS, FREQ 119.4. RWY 06L/24R FOR ARRS AND ALL OTHER DEPS, FREQ 118.1`  
+| ADC Configuration | RWY Field |
+| ----- | ---- |
+| Single ADC | `RWY 06R/24L FOR CCTS AND DEPS VIA ARMADALE SHOPS. RWY 06L/24R FOR ARRS AND ALL OTHER DEPS` |  
+| Dual ADC | `RWY 06R/24L FOR CCTS AND DEPS VIA ARMADALE SHOPS, FREQ 119.4. RWY 06L/24R FOR ARRS AND ALL OTHER DEPS, FREQ 118.1` |
 
 ### Operational Info
-When PH RWY 03 is in operation, the ATIS OPR INFO shall include:
+When YPPH RWY 03 is in use, the `OPR INFO` shall include:  
 `DUE YPPH DUTY RWY 03, CAUTION WAKE TURB`
 
 ## Coordination
