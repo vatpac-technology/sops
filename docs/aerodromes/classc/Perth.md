@@ -56,7 +56,7 @@ With the [Southwest Plan](#southwest-plan) active, the ATIS shall notify `EXP IL
 
 With the [Northeast Plan](#northeast-plan) active, the ATIS shall notify `EXP ILS APCH` only in the following conditions:
 
-- By night; and/or  
+- By night; or  
 - Cloud base of `A032` or below
 
 ### Runway Nomination

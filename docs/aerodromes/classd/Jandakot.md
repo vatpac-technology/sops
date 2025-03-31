@@ -44,7 +44,7 @@ Airspace Ownership when ADC East is online, is:
 
 ## Runway Modes
 ### Parallel Runway Ops
-During parallel runway operations, the northern runway (**06L/24R**) shall be used for VFR arrivals and departures and the southern runway (**06R/24L**) for circuit training and departures via `SHOP`. 
+During parallel runway operations, the northern runway (**06L/24R**) shall be used for VFR arrivals and departures and the southern runway (**06R/24L**) for circuit training and departures via SHOP. 
 
 The [ATIS](#runway-nomination) shall be updated to reflect the use of each runway.
 
@@ -53,13 +53,13 @@ Where excessive crosswind exists on the parallel runways, Runway 12 or 30 shall 
 
 ## VFR Operations
 ### Arrivals
-VFR aircraft will report inbound at `BOAT`, `POWR`, `OAKF` or `RUSS` at `A015`. JT ADC shall instruct aircraft to maintain `A015` and report again at `ADWD` when inbound from `BOAT` or `POWR`, or `FDL` when inbound from `OAKF` or `RUSS`.
+VFR aircraft will report inbound at BOAT, POWR, OAKF or RUSS at `A015`. JT ADC shall instruct aircraft to maintain `A015` and report again at ADWD when inbound from BOAT or POWR, or FDL when inbound from OAKF or RUSS.
 
 Aircraft should then be instructed to join the circuit as below:
 
 | VFR Approach Point | RWYs 06  | RWYs 24 | RWY 12 | RWY 30 |
 | ----------------| --------- | ---------- | ---------- | --------- |
-| ADWD   | *"Join base runway 06L"* | *"Join right downwind runway 24R, maintain A015"*, until the aircraft are clear of RWY 24R departures via *Fiona Stanley Hospital* and `FREM`, then *"Cleared Visual Approach"*  | *"Join final runway 12"* | *"Join downwind ruwnay 30, maintain A015"*, until the aircraft is clear of RWY 30 departures via `YGB`, then *"Cleared Visual Approach"* |
+| ADWD   | *"Join base runway 06L"* | *"Join right downwind runway 24R, maintain A015"*, until the aircraft are clear of RWY 24R departures via *Fiona Stanley Hospital* and FREM, then *"Cleared Visual Approach"*  | *"Join final runway 12"* | *"Join downwind ruwnay 30, maintain A015"*, until the aircraft is clear of RWY 30 departures via YGB, then *"Cleared Visual Approach"* |
 | FDL  | *"Join downwind runway 06L, maintain A015"*. Aircraft should fly overhead the airfield between the control tower and the upwind end of the runway and join the circuit. Once established in the circuit, *"Cleared visual approach"* | *"Join right downwind runway 24R, maintain A015"*. Aircraft should fly overhead the airfield between the control tower and the upwind end of the runway and join the circuit. Once established in the circuit, *"Cleared visual approach"* | *"Join right downwind runway 12"* | *"Join final runway 30"* |
 
 All aircraft will arrive on runway **06L/24R** or **12/30**.
@@ -68,9 +68,9 @@ All aircraft will arrive on runway **06L/24R** or **12/30**.
     Circuit joining instructions given without an assigned altitude imply clearance to conduct the visual approach. There is no need to clear these aircraft for a visual approach.
 
 ### Departures
-VFR aircraft shall generally depart the zone on an extended circuit leg at `A010`, except for those tracking via `FREM`.
+VFR aircraft shall generally depart the zone on an extended circuit leg at `A010`, except for those tracking via FREM.
 
-Aircraft departing via `FREM` shall track from the circuit to *Fiona Stanley Hospital*, then climb to `A015` and track to `FREM`.
+Aircraft departing via FREM shall track from the circuit to *Fiona Stanley Hospital*, then climb to `A015` and track to FREM.
 
 !!! note
     A takeoff clearance constitutes a clearance to depart the zone by extending the pilot's requested leg of the circuit.  Aircraft departing the zone into class G airspace will transfer to area frequency upon leaving the zone, **no explicit frequency transfer is given to these aircraft**.
