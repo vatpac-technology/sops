@@ -12,7 +12,7 @@
 
 ## Airspace
 <figure markdown>
-![AYPM Airspace](../img/aypm.png){ width="700" }
+![AYPM Airspace](img/aypm.png){ width="700" }
   <figcaption>AYPM Airspace</figcaption>
 </figure>
 
