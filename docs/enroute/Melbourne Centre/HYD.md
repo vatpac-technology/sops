@@ -66,6 +66,8 @@ JAR is responsible for assigning and issuing arrival clearance to aircraft inbou
 Aircraft assigned the **same runway** inbound via **JULIM** and **SAPKO**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
 ## YPPH Runway Modes
+Generally, YPPH operates on either the Southwest or Northeast runway plan, as below. Where strong winds dictate the use of only a single runway, this will be nominated in the ATIS.
+
 ### Southwest Plan
 With the Southwest Plan active, arrivals shall be processed to either runway 21 or 24 based on their feeder fix, as per the table below:
 
@@ -74,9 +76,12 @@ With the Southwest Plan active, arrivals shall be processed to either runway 21 
 | JULIM | 21 |
 | SAPKO | 21 |
 | IPMOR | 21 |
-| KABLI | 24 (or 21 if operationally required) |
+| KABLI | 24 |
 | LAVEX | 24 |
 | SOLUS | 24 |
+
+!!! note
+    Where an aircraft operationally requires runway 21, they shall be assigned that runway regardless of feeder fix.
 
 ### Northeast Plan
 With the Northeast Plan active (runways 03 and 06 in use), all arrivals shall be processed to runway 03.
