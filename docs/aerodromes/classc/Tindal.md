@@ -69,7 +69,7 @@ The Circuit Area Airspace is allocated to be within 5nm of the YPTN ARP from `SF
 | 32     | Left |
 
 ### Initial and Pitch Operations 
-The initial point is at `A020` on the extended centerline of Taxiway Alpha at 6.5NM for RWY 14, 5NM for RWY 32. Aircraft will be cleared for a left, straight or right initial.
+The [initial](../../controller-skills/military/#initial-and-pitch) point is at `A020` on the extended centerline of Taxiway Alpha at 6.5NM for RWY 14, 5NM for RWY 32. Aircraft will be cleared for a left, straight or right initial.
 
 ## Coordination
 ### TN TCU
