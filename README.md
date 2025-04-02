@@ -1,25 +1,30 @@
-# VATPAC SOPs
+# VATPAC SOPs  
 
-The VATPAC SOPs site is an open-source collaborative project allowing members of the VATPAC community to work together to create high-quality SOPs.
+The VATPAC SOPs site is an open-source, collaborative project that enables the VATPAC community to develop and maintain high-quality Standard Operating Procedures (SOPs).  
 
-## Contributing
+## Contributing  
 
-Contribution guidelines can be found within the project under [the Contribute tab](https://vatpac-technology.github.io/sops/assist-us/). 
+Before contributing, you should consult the VATPAC Air Traffic Services (ATS) Team to confirm whether the SOP you intend to create or modify is necessary. There is a balance between enhancing realism and keeping SOPs clear and accessible.  
 
-**Before contributing** you should liaise with the VATPAC ATS Team to ascertain whether that particular SOP is needed. There is a fine-line between enabling a realistic service, and making our SOPs easy to navigate and understand.  
+Contribution guidelines are available under [the Contribute tab](https://vatpac-technology.github.io/sops/assist-us/).  
 
-## Build and Deployment
+### Recommended Process  
 
-This project uses some basic CI to automatically push the latest commits to the `main` branch to GitHub Pages. 
+To avoid unnecessary work, contributors should first raise an issue describing the proposed change or new SOP. This allows for discussion and ensures alignment with operational needs before development begins.  
 
-Because of this, all changes should be made as a Pull Request. This also ensures - 
-  * That everybody has visibility of what you're working on, and can provide commit-by-commit commenting and review.
-  * A much better method of version control, as most PR's will be squashed and merged into `main`.
+## Build and Deployment  
 
-## Project Control
+This project uses basic Continuous Integration (CI) to automatically deploy updates from the `main` branch to GitHub Pages.  
 
-The owner for this project is the ATS Director. Members of the ATS Team are also able to review PR's.
+All changes must be submitted as a Pull Request (PR), ensuring:  
 
-### Approval Process
+- **Transparency** – Allows others to provide feedback and review changes commit by commit.  
+- **Improved version control** – Most PRs will be squashed and merged into `main`.  
 
-Members of the ATS Department may review any contributed PRs and request changes or sign off on the work. Merging will not be completed until sufficient approvals have been given by members of the **SOPs Maintainers** group (comprised of senior ATS personnel).
+## Project Governance  
+
+### Approval Process  
+
+The VATPAC ATS Team is responsible for reviewing all submitted PRs. Changes will not be merged until they receive sufficient approval from the **SOPs Maintainers** group, which consists of senior ATS personnel.  
+
+Ideally, before submitting a PR, contributors should create an issue outlining the proposed change. This helps prevent unnecessary work and ensures that all modifications align with operational requirements.  
