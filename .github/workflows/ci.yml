@@ -7,7 +7,6 @@ on:
 jobs:
   deploy:
     name: Deploy MkDocs to GitHub Pages (on main)
-    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
 
     steps:
