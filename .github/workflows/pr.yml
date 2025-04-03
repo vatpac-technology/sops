@@ -1,27 +1,27 @@
-name: ci
+name: Pull Request
 
 on:
-  push:
+  pull_request:
     branches: [ main ]
 
 jobs:
-  deploy:
-    name: Deploy MkDocs to GitHub Pages (on main)
+  validate:
+    name: Validate MkDocs Build (on PR)
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-        name: Checkout Code
+      - name: Checkout repo
+        uses: actions/checkout@v4
         with:
+          lfs: false
           fetch-depth: 0
 
       - uses: actions/setup-python@v5
-        name: Setup Python
         with:
           python-version: 3.x
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Deploy to GitHub Pages
-        run: mkdocs gh-deploy --force --strict
+      - name: Validate MkDocs build
+        run: mkdocs build --strict
