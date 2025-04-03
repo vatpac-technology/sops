@@ -47,7 +47,7 @@ The divisions of the airspace between **PHA**, and **PHD** change based on the R
 </figure>
 
 ## Runway Modes
-Generally, YPPH operates on either the Southwest or Northeast runway plan, as below. Where strong winds dictate the use of only a single runway, this shall be nominated in the ATIS.
+Generally, YPPH operates on either the Southwest or Northeast runway plan, as below. Where strong winds dictate the use of only a single runway, this will be nominated in the ATIS.
 
 ### Southwest Plan
 With the Southwest Plan active, all departures shall be assigned runway 21 by **PH ACD**. Arrivals shall be processed to either runway 21 or 24 based on their feeder fix, as per the table below:
@@ -57,9 +57,12 @@ With the Southwest Plan active, all departures shall be assigned runway 21 by **
 | JULIM | 21 |
 | SAPKO | 21 |
 | IPMOR | 21 |
-| KABLI | 24 (or 21 if operationally required) |
+| KABLI | 24 |
 | LAVEX | 24 |
 | SOLUS | 24 |
+
+!!! note
+    Where an aircraft operationally requires runway 21, they shall be assigned that runway regardless of feeder fix.
 
 ### Northeast Plan
 With the Northeast Plan active, departures via `AVNEX`, `OTLED`, `OLMAM`, `SOLUS`, and `OPEGA` shall be assigned runway 03 by **PH ACD**. All other departures shall be assigned runway 06. All arrivals shall be processed to runway 03.
@@ -82,8 +85,8 @@ Aircraft wishing to conduct a scenic flight over the Perth CBD should be cleared
     **VH-CYF:** "Squawk 0542, remain OCTA, CYF"  
 
     *When clearance (reference traffic into/out of YPPH) is available:*  
-    **PHA:** "CYF, cleared Victor 65, maintain A015"  
-    **VH-CYF:** "Cleared Victor 65, maintain A015, CYF"
+    **PHA:** "CYF, cleared Victor 65, maintain A015, QNH 1012"  
+    **VH-CYF:** "Cleared Victor 65, maintain A015, QNH 1012, CYF"
 
 Aircraft departing YPPH and intending to conduct the Victor 65 route will be coordinated by **PH ACD**. See [Airways Clearances](#airways-clearances).
 
