@@ -69,8 +69,8 @@ Fast jet aircraft typically transit from the SUA to YPTN at `F170`. When request
 
 !!! Example
 **CLAS45**: "Tindal Approach, CLAS45, RTBing via BOM, runway 32"
-**TN TCU**: "CLAS45, Tindal Approach, cleared stereo approach runway 32, via BOM, descend not below 'A050'"  
-**CLAS45**: "Cleared stereo approach runway 32, descend not below 'A050', CLAS45"
+**TN TCU**: "CLAS45, Tindal Approach, cleared stereo approach runway 32, via BOM, descend not below `A050`"  
+**CLAS45**: "Cleared stereo approach runway 32, descend not below `A050`, CLAS45"
 
 !!! note
     Stereo approach charts are available in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}.
