@@ -124,6 +124,7 @@
 *[SWY]: Brisbane (Swampy) Centre
 *[TBP]: Brisbane (Tabletop) Centre
 *[WEG]: Brisbane (Warrego) Centre
+*[WIL]: Brisbane (Willis) Centre
 *[COL]: Brisbane (Coral) Radio
 *[FLD]: Brisbane (Flinders) Radio
 *[HWE]: Brisbane (Howe) Centre

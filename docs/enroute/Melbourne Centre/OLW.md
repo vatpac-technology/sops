@@ -44,8 +44,11 @@ When **KA ADC** is offline, KA CTR (Class D `SFC` to `A055`) reverts to Class G,
     If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
 
 ## Sector Responsibilities
-OLW is responsible for issuing descent and ascertaining arrival intentions for aircraft bound for YPKA.
-OLW is also responsible for sequencing and issuing descent to aircraft bound for YPLM.
+### YPKA Arrivals
+OLW is responsible for issuing descent.
+
+### YPLM Arrivals
+OLW is responsible for issuing descent.
 
 ## STAR Clearance Expectation
 ### Handoff
