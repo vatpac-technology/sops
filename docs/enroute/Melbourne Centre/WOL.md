@@ -8,7 +8,7 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Wollongong** | **Melbourne Centre** | **125.000** | **ML-WOL_CTR** |
-| <span class="indented">Snowy :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 120.750 | ML-SNO_CTR |
+| <span class="indented">Snowy :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 124.000 | ML-SNO_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
