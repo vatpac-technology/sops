@@ -15,7 +15,6 @@
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
-
 The Primary Communication Method for TBD is Voice.
 
 [CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
@@ -33,7 +32,16 @@ The CPDLC Station Code is `YTBD`.
 </figure>
 
 ## Sector Responsibilities
-TBD and AUG are responsible for Sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YPAD and YPED.
+### YPAD Arrivals
+TBD and AUG are responsible for sequencing, issuing STAR Clearances, and issuing descent.
+
+Refer to the [Sequencing into YPAD](#sequencing-into-ypad) notes below regarding adjacent Feeder Fixes.
+
+### YPPF Arrivals
+TBD and AUG are responsible for issuing descent and ascertaining arrival intentions.
+
+### YPED Arrivals
+TBD and AUG are responsible for issuing STAR Clearances, descent, and ascertaining arrival intentions.
 
 ### Sequencing in to YPAD
 Aircraft assigned the **same runway** inbound via:
@@ -68,7 +76,6 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | ASP(All) | AUG | YPAD, YPED| Jets only |
 
 ## Coordination
-
 ### AD TCU
 #### Airspace
 The Vertical limits of the AD TCU are `SFC` to `F245`.

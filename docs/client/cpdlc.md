@@ -92,6 +92,7 @@ Some major enroute positions do not use CPDLC as a primary means of communicatio
 | ARL | YARL | Voice |
 | HWE | YHWE | **CPDLC** |
 | INL | YINL | Voice |
+| KPL | YKPL| Voice |
 | ISA | YISA | **CPDLC** |
 | KEN | YKEN | Voice |
 | TRT | YTRT | **CPDLC** |
