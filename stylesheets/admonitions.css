@@ -1,0 +1,96 @@
+/*Additional Modifications*/
+.md-typeset .admonition {
+  border-left: .2rem solid #3A7CA5;
+  border-color: #3A7CA5;
+}
+/*Admonition Question Variant*/
+/*Upper Section*/
+.md-typeset .question>.admonition-title, .md-typeset .question>summary,
+.md-typeset .faq>.admonition-title, .md-typeset .faq>summary,
+.md-typeset .help>.admonition-title, .md-typeset .help>summary {
+  border-color: #00C2CB;
+  background-color: rgba(0,184,212,.1);
+  font-size: 0.8rem;
+}
+.md-typeset .question>.admonition-title::before, .md-typeset .question>summary::before,
+.md-typeset .faq>.admonition-title::before, .md-typeset .faq>summary::before,
+.md-typeset .help>.admonition-title::before, .md-typeset .help>summary::before {
+  background-color: #00C2CB;
+  top: 0.5rem;
+}
+.md-typeset summary::after {
+  top: 0.5rem;
+}
+/*Lower Section*/
+.md-typeset .admonition.question, .md-typeset details.question,
+.md-typeset .admonition.faq, .md-typeset details.faq,
+.md-typeset .admonition.help, .md-typeset details.help {
+  border-color: #00C2CB;
+  font-size: 0.8rem;
+}
+
+.md-typeset .admonition.information {
+  border-color: #448aff;
+}
+
+/* for aligning image left or right with control over which text flows around */
+.md-typeset .admonition.block,
+.md-typeset details.block {
+   border-color: var(--md-default-bg-color);
+   background-color: var(--md-default-bg-color);
+   box-shadow: none;
+   font-size: .8rem;
+   margin: 0.5em 0;
+   padding: 0 .3rem;
+}
+.md-typeset .block > .admonition-title,
+.md-typeset .block > summary {
+  background-color: var(--md-default-bg-color);
+  border-color: var(--md-default-bg-color);
+  border-left: .2rem solid #448aff;
+  font-weight: 700;
+  margin: 0 -.6rem 0 -.8rem;
+  padding: 0 0 0 0.4rem;
+  position: relative;
+}
+.md-typeset .block > .admonition-title::before,
+.md-typeset .block > summary::before {
+  height: 0rem;
+}
+
+/* Custom Phraseology Admonition */
+:root {
+  --md-admonition-icon--phraseology: url('../assets/headset.svg'); /* Path to your custom SVG */
+  --phraseology-light-bg: #D3F8D3; /* Light mode: light green */
+  --phraseology-dark-bg: #082515;  /* Dark mode: very dark green */
+}
+
+.md-typeset .admonition.phraseology {
+  border-color: #90EE90; /* Light green border */
+  background-color: var(--md-default-bg-color); /* White background for the text */
+}
+
+/* Removed empty ruleset for .md-typeset .admonition.phraseology p */
+
+.md-typeset .phraseology > .admonition-title {
+  background-color: var(--phraseology-light-bg); /* Light green background for the title */
+  border-color: #90EE90; /* Light green border for title */
+}
+
+.md-typeset .phraseology > .admonition-title::before {
+  background-color: black; /* Set the icon color to black */
+  -webkit-mask-image: var(--md-admonition-icon--phraseology); /* Custom SVG for icon */
+  mask-image: var(--md-admonition-icon--phraseology); /* Custom SVG for icon */
+}
+
+/* Custom Phraseology Admonition - Dark Mode Adjustments */
+[data-md-color-scheme="slate"] {
+  .md-typeset .phraseology > .admonition-title {
+    background-color: var(--phraseology-dark-bg); /* Very dark green background */
+    color: var(--md-default-fg-color); /* Text color remains readable */
+  }
+
+  .md-typeset .phraseology > .admonition-title::before {
+    background-color: #90EE90; /* Set the icon color to black */
+  }
+}
