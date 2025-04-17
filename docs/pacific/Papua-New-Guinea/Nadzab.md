@@ -10,4 +10,4 @@
 | ----------------------- | --------- | ---------------- | --------- |
 | **Nadzab (Lae) Approach**	| **Nadzab Approach** | **118.600** | **AYNZ_APP** | 
 | **Nadzab (Lae) ADC**	| **Nadzab Tower**	| **121.700** | **AYNZ_TWR** | 
-| **Nadzab (Lae) ATIS** | | **128.600** | **AYNZ_ATIS**	| 
+| **Nadzab (Lae) ATIS** | | **128.100** | **AYNZ_ATIS**	| 

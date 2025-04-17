@@ -9,7 +9,7 @@
 | Name                    | Callsign         | Frequency | Login ID    |
 | ----------------------- | --------- | ---------------- | --------- |
 | **Tokua (Rabul) ADC**	| **Tokua Tower** | **118.200** | **AYTK_TWR** | 
-| **Tokua (Rabul) ATIS**	| | 	**128.000** | **AYTK_ATIS**	 | 
+| **Tokua (Rabul) ATIS**	| | 	**128.300** | **AYTK_ATIS**	 | 
 
 ## Airspace
 ADC is responsible for the **Tokua ATZ**; consisting of Class F airspace `SFC` to `A200` within a **25nm** Radius of AYTK ARP.
