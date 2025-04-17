@@ -28,7 +28,7 @@ The CPDLC Station Code is `YBLA`.
 
 <figure markdown>
 ![Benalla Airspace](../assets/bla.png){ width="700" }
-  <figcaption>Eildon Weir Airspace</figcaption>
+  <figcaption>Benalla Airspace</figcaption>
 </figure>
 
 ### Reclassifications
