@@ -165,6 +165,17 @@
 *[CSF]: Cairns Flow
 *[CBF]: Canberra Flow
 *[PFL]: Perth Flow
+*[AYPYA]: Jacksons Radar
+*[AYNZA]: Nadzab Approach
+*[NWWWA]: Tontouta Approach
+*[NWWWT]: Tontouta Approach (Terminal)
+*[NFFNA]: Nadi Approach
+*[NFNAA]: Nausori Approach
+*[AYNZ]: Nadzab
+*[AYGA]: Goroka
+*[AYMD]: Madang
+*[AYMH]: Mt Hagen
+*[AYTK]: Tokua
 *[GGO]: Goonoo Goonoo Station
 *[WBH]: Wallabadah
 *[NUN]: Nundle
