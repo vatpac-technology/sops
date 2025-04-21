@@ -51,11 +51,17 @@ Aircraft arriving via a **Visual**, **VOR/DME/NDB** approach will follow the Cir
 !!! note
 	The missed approach path for all approaches involves a sharp turn to the south to avoid high terrain to the east of the airport. Take care to ensure positive separation between these aircraft and arrivals from the east.
 
+## VFR Operations
+### Training Area
+A local training area is established `SFC` to `A040` east of the airport between the Teouma River, the town of Forari, and the coast.
 
-<!--- To do -->
+<figure markdown>
+![Port Vila Local Training Area (approx)](img/NVVV_trainingarea.png){ width="700" }
+</figure>
 
-<!--## VFR Operations
- Ops Normal Calls?? -->
+Aircraft on the **VOR** approach to Runway 29 will penetrate the training area on descent, and are **not** vertically separated with aircraft operating in the local training area. When the VOR approach to Runway 29 is in use, aircraft in the training area must advised to keep clear of the extended runway centreline.
+
+<!--Ops Normal Calls?? -->
 
 ## Helicopter Operations
 There are no specific helicopter movement areas at Port Vila. Helicopters will use aircraft movement areas for all operations.
