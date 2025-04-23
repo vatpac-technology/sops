@@ -11,7 +11,7 @@
 | **Kennedy** | **Brisbane Centre** | **120.150** | **BN-KEN_CTR** |
 | <span class="indented">Barra :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 123.800 | BN-BAR_CTR |
 | <span class="indented">Tabletop :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 120.550 | BN-TBP_CTR |
-| <span class="indented">Willis :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 121.300 | BN-WIL_CTR |
+| <span class="indented">Willis :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 127.600 | BN-WIL_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
