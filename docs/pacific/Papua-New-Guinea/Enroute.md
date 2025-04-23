@@ -47,7 +47,7 @@ IFR aircraft may either be handed off to the ADC frequency by AYPM CTR, or held 
     <span class="hotline">**AYMH ADC** -> **AYPM CTR**</span>: "DEF, No reported traffic, no frequency requirements."  
     AYPM CTR will put *"AYMH NFR"* in the label data, and the aircraft will remain on the ENR frequency.
 
-### International (ARA)
+### International (ISA(ARA)/KEN(WIL))
 As per [Standard coordination procedures](../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
     
 ### Pacific Oceanic (TSN(COL)/KZAK)
