@@ -1,0 +1,67 @@
+--8<-- "includes/abbreviations.md"
+
+## Positions
+
+| Name | ID | Callsign | Frequency | Login ID |
+| ---- | --- | -------- | --------- | -------- |
+| **Nadzab Approach** | **AYNZA** | **Nadzab Approach** | **118.600** | **AYNZ_APP** | 
+
+## Airspace
+
+## Airspace
+AYNZA is responsible for the Class C Airspace within the AYNZ TMA `A060` to `F245`.
+
+<figure markdown>
+![Nadzab TMA Airspace](../img/AYNZ_TMA.png){ width="700" }
+    <figcaption>Nadzab TMA Airspace</figcaption>
+</figure>
+Airspace `SFC` to `BCTA` is classified as Class F. Refer to the [PNG Local instructions](../) for more information about Class F operations.
+
+## Separation
+### Surveillance
+Surveillance coverage can be expected to be available at all levels in the AYNZ TMA. Although AYNZA is **not permitted** to use surveillance for separation, AYPM may assist by establishing surveillance separation standards via coordination.
+
+## Coordination
+### AYNZ ADC
+[Next](../controller-skills/coordination.md#next) coordination is required from AYNZ ADC to AYNZA for all aircraft.
+   
+### Enroute
+#### Auto Release
+'Next' coordination is **not** required from AYPY ADC for aircraft that are:
+
+- Departing from a runway nominated on the ATIS; and  
+- Assigned the standard assignable level; and  
+- Assigned a **Procedural** SID
+
+#### Departures
+All aircraft going to AYPM CTA must be **Heads-up** Coordinated by AYNZA prior to the boundary.
+
+The Standard Assignable level from **AYNZA** to **AYPM** is:
+
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `F240` and `RFL` |
+
+#### Arrivals
+AYPM will **heads-up** coordinate all arrivals/overfliers to AYNZA.
+
+!!! phraseology
+    <span class="hotline">**AYPM** -> **AYNZA**</span>: "Via WESTERN GPS Arrival, TOK8409.”  
+    <span class="hotline">**AYNZA** -> **AYPM**</span>: "TOK8409."
+	
+The Standard Assignable level from AYPM to AYNZA is `F250`. Any other level must be prior coordinated.
+	
+### AYNZ ADC
+#### Departures
+[Next](../controller-skills/coordination.md#next) coordination is required from AYNZ ADC to AYNZA for all aircraft.
+   
+##### Arrivals
+AYNZA will **heads-up** coordinate all arrivals/overfliers to AYNZ ADC.
+
+!!! phraseology
+    <span class="hotline">**AYNZA** -> **AYNZ ADC**</span>: "Via LARID for the RNAV, PXB.”  
+    <span class="hotline">**AYNZ ADC** -> **AYNZA**</span>: "PXB." 
+
+## Charts
+!!! abstract "Reference"
+    Charts can be found on the [PNG AIP Flight Supplement](https://www.niuskypacific.com.pg/aip-flight-supplements/){target=new}.
