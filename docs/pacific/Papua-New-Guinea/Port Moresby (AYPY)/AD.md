@@ -25,7 +25,7 @@ AYPY ADC is responsible for the Class C Airspace within the AYPY CTR `SFC` to `A
 **ADC** is responsible for Taxiways **M**, **F**, and **A** beyond the Runway 14R/32L holding points. **ADC** is also responsible for the engine runup bay (the decommissioned section of Runway 14R/32L between Taxiways **L** and **A1**). 
 
 <figure markdown>
-![AYPY Maneuvering Area Responsibility](img/aypysmcmar.png){ width="500" }
+![AYPY Maneuvering Area Responsibility](../img/aypysmcmar.png){ width="500" }
   <figcaption>AYPY Maneuvering Area Responsibility</figcaption>
 </figure>
 
@@ -79,9 +79,10 @@ In all other conditions, **Runway 32R** shall be used for arrivals and departure
 
 ### Special Runway Operations
 #### Parallel Runway Operations
-Simultaneous parallel runway operations, including PROPS and SODROPS, are not authorised at AYPY.
+Simultaneous parallel runway operations, including PROPS and SODROPS, are not authorised at AYPY. Departures on parallel runways should be sequenced so that no aircraft is departing simultaneously with a departure or missed approach on the other runway.
 
-Departures on parallel runways should be sequenced so that no aircraft is departing simultaneously with a departure or missed approach on the other runway.
+!!! warning "Important"
+    Separation between traffic on parallel runways is not ensured by SIDs or approach procedures. Aircraft performing a missed approach, or departing Runway **14L/32R** via some SIDs, will turn and cross the extended Runway **14R/32L** centreline.
 
 #### Runway 14R/32L
 Runway 14R/32L is the shorter of the two parallel runways and is restricted to aircraft below 23,000KG MTOW. The runway is unlit, and cannot be used at night.
