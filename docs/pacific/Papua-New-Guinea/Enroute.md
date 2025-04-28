@@ -43,9 +43,9 @@ IFR aircraft may either be handed off to the ADC frequency by AYPM CTR, or held 
 
 !!! phraseology
     *DEF tracking YABAL H409 PAPTI*  
-    <span class="hotline">**AYPM CTR** -> **AYMH ADC**</span>: "via LEMER, DEF, overflying at `A180`."  
-    <span class="hotline">**AYMH ADC** -> **AYPM CTR**</span>: "DEF, No reported traffic, no frequency requirements."  
-    AYPM CTR will put *"AYMH NFR"* in the label data, and the aircraft will remain on the ENR frequency.
+    <span class="hotline">**AYPM CTR** -> **AYMH ADC**</span>: "via LEMER, DEF, any traffic or frequency requirements?."  
+    <span class="hotline">**AYMH ADC** -> **AYPM CTR**</span>: "DEF, No reported IFR traffic, no frequency requirements."  
+    AYPM CTR will put *"AYMH NFR NIT"* in the label data, and the aircraft will remain on the ENR frequency.
 
 ### International (ARA)
 As per [Standard coordination procedures](../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
