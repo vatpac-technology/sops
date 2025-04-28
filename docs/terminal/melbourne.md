@@ -250,6 +250,60 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 - Time from Runways 09A/16A IAF to threshold is 4 minutes  
 - Time from Runways 27A/34A IAF to threshold is 3.5 minutes  
 
+### Calculator
+The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
+
+=== "Landing Time"
+    <form id="flowCalculator" autocomplete="off">
+        <div class="row">
+            <div class="form-group">
+                <label>FF ETA:</label>
+                <input type="number" placeholder="FF ETA" min="0" max="59" step="1" id="flowCalculatorFFETA" />
+            </div>
+            <div class="form-group">
+                <label>Runway:</label>
+                <select>
+                    <option>09</option>
+                    <option>16</option>
+                    <option>27</option>
+                    <option>34</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>STAR:</label>
+                <select>
+                    <option>ARBEY STAR</option>
+                    <option>LIZZI A STAR</option>
+                    <option>LIZZI V STAR</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Aircraft:</label>
+                <select>
+                    <option>Jet</option>
+                    <option>DH8D</option>
+                    <option>Non-Jet</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Speed:</label>
+                <select>
+                    <option>Normal Speed</option>
+                    <option>MX/CSR</option>
+                    <option>Reduced Speed</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <label>Landing Time: <span style="color: var(--md-code-hl-string-color)">58</span></label>
+        </div>
+    </form>
+
+=== "Feeder Fix Time"
+    Placeholder
+
+<script src="../../javascripts/flowCalculator.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
+
 ## Coordination
 ### Enroute
 #### Departures
