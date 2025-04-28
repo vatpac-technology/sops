@@ -378,9 +378,9 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
 === "Jets"
 
-    | Feeder Fix | 07  | 16L | 16R | 25  | 34L | 34R |
+    | STAR       | 07  | 16L | 16R | 25  | 34L | 34R |
     | ---------- | --- | --- | --- | --- | --- | --- |
-    | BOREE      | 16  | 11 | 11 | 15  | 17  | 17  |
+    | BOREE     | 16  | 11 | 11 | 15  | 17  | 17  |
     | MEPIL     | -   | 9  | -   | -   | -   | 15  |
     | MARLN      | 16  | 17  | 20  | 13 | 18  | 14  |
     | RIVET      | 11 | 19  | 17  | 17  | 15  | 19  |
@@ -388,10 +388,12 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
 === "Non-Jets"
 
-    | Feeder Fix | 07  | 16L | 16R | 25  | 34L | 34R |
+    | STAR       | 07  | 16L | 16R | 25  | 34L | 34R |
     | ---------- | --- | --- | --- | --- | --- | --- |
+    | BOREE      | | | | | |
     | MEPIL      | 15  | 10^ | 10^ | 13  | 20  | 19  |
     | MARLN      | 17  | 20  | 22  | 13  | 20  | 19  |
+    | RIVET      | | | | | |
     | ODALE      | 10^ | 19  | 17  | 16  | 16  | 19  |
 
 
@@ -407,6 +409,8 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 - Nil wind
 - Aircraft for the *opposite* parallel runway (eg, ODALE to 16L/34R) will overfly the field, then join a mid-field downwind  
 - All aircraft are tracking via the ILS Initial Approach fix
+- The feeder fix for the MEPIL STAR is YAKKA
+- The feeder fix for the ODALE STAR is WELSH
 - Time from IAF to threshold is 4 minutes for jet aircraft  
 - Time from Runways 07/25 IAF to threshold is 4 minutes for non-jet aircraft
 - Time from all other runways IAF to threshold is 5 minutes for non-jet aircraft
