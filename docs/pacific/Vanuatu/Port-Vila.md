@@ -24,7 +24,7 @@ Port Vila ADC is responsible for:
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
 !!! warning "Important"
-    NVVV ADC's airspace exceeds the default visibilty range for the TWR position in VatSys. When logging on to this position, ensure ytour visibility range is set to **50nm**.
+    NVVV ADC's airspace exceeds the default visibilty range for the TWR position in VatSys. When logging on to this position, ensure your visibility range is set to **50nm**.
 
 <!---## Maneuvering Area Responsibility
 ## Standard Taxi Routes
