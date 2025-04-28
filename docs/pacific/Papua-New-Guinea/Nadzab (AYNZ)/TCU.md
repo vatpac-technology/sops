@@ -7,8 +7,6 @@
 | **Nadzab Approach** | **AYNZA** | **Nadzab Approach** | **118.600** | **AYNZ_APP** | 
 
 ## Airspace
-
-## Airspace
 AYNZA is responsible for the Class C Airspace within the AYNZ TMA `A060` to `F245`.
 
 <figure markdown>
@@ -17,22 +15,23 @@ AYNZA is responsible for the Class C Airspace within the AYNZ TMA `A060` to `F24
 </figure>
 Airspace `SFC` to `BCTA` is classified as Class F. Refer to the [PNG Local instructions](../) for more information about Class F operations.
 
+<!--- ### Reclassifications
+### Airspace Division
+### Special Positions --->
+
 ## Separation
 ### Surveillance
 Surveillance coverage can be expected to be available at all levels in the AYNZ TMA. Although AYNZA is **not permitted** to use surveillance for separation, AYPM may assist by establishing surveillance separation standards via coordination.
 
-## Coordination
-### AYNZ ADC
-[Next](../controller-skills/coordination.md#next) coordination is required from AYNZ ADC to AYNZA for all aircraft.
-   
+<!--- ##Local Procedures
+##  Departure/Arrival Procedures
+## Tower Offline Procedures
+## Runway Modes
+## Helicopter operations
+## Flow --->
+
+## Coordination  
 ### Enroute
-#### Auto Release
-'Next' coordination is **not** required from AYPY ADC for aircraft that are:
-
-- Departing from a runway nominated on the ATIS; and  
-- Assigned the standard assignable level; and  
-- Assigned a **Procedural** SID
-
 #### Departures
 All aircraft going to AYPM CTA must be **Heads-up** Coordinated by AYNZA prior to the boundary.
 
@@ -53,7 +52,13 @@ The Standard Assignable level from AYPM to AYNZA is `F250`. Any other level must
 	
 ### AYNZ ADC
 #### Departures
-[Next](../controller-skills/coordination.md#next) coordination is required from AYNZ ADC to AYNZA for all aircraft.
+[Next](../controller-skills/coordination.md#next) coordination is required from AYNZ ADC to AYNZA for all aircraft **entering AYNZA CTA**.
+
+The Standard Assignable level from **AYNZ ADC** to **AYNZA** is:
+
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A050` and `RFL` |
    
 ##### Arrivals
 AYNZA will **heads-up** coordinate all arrivals/overfliers to AYNZ ADC.

@@ -34,7 +34,13 @@ Surveillance coverage can be expected to be available at all levels in the AYNZ 
 
 ## Coordination
 ### Departures
-[Next](../controller-skills/coordination.md#next) coordination is required from AYNZ ADC to AYNZA for all aircraft.
+[Next](../controller-skills/coordination.md#next) coordination is required from AYNZ ADC to AYNZA for all aircraft **entering AYNZA CTA**.
+
+The Standard Assignable level from **AYNZ ADC** to **AYNZA** is:
+
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A050` and `RFL` |
    
 #### Arrivals
 AYNZA will **heads-up** coordinate all arrivals/overfliers to AYNZ ADC.
