@@ -70,7 +70,7 @@ Shall be assigned the **Radar SID**.
 
 ## LAHSO
 !!! warning "Important"
-    Due to its operational complexity, LAHSO **must be authorised by a member of the VATPAC ATS or Events Staff Team or a C3-rated controller**.
+    Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
 
     Very little benefit is achieved by running LAHSO without a flow controller and it is almost exclusively reserved for our busiest events.
 
