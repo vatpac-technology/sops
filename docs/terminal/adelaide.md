@@ -85,14 +85,10 @@ Due to the low level of CTA at YPPF, it is best practice to give airways clearan
     **ABC**: "Assigned right 360, wilco, ABC"
 
 ## Flow
-The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**, which can be used to plan sequencing actions within the TCU.
-
-The times assume there is *Nil wind*.
+The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
 === "Jets"
-
-    This table assumes that aircraft will be assigned the appropriate *Jet STAR*.
-
+                       
     | Feeder Fix | 05Z | 05V/W/X | 23A/Z | 23V |
     | ---------- | --- | ------- | ----- | --- |
     | INTOG      | 14  | 13      | -     | -   |
@@ -103,25 +99,9 @@ The times assume there is *Nil wind*.
     | MARGO      | 14  | 13      | 15    | 13  |
     | ATNAR      | 13  | 12^     | 17    | 15  |
 
-    - **VIRAT** - Threshold is **5 minutes**  
-    - **PADSI** - Threshold is **3.5 minutes**  
-    - Add **1 minute** for aircraft assigned a reduced speed, Except ^  
-    - Subtract **1 minute** for MX or CSR
-    - For **Non-Jets** (except **DH8D**) tracking via Jet STAR;
-        - Add **2 minutes** (Except ^)
-        - Add only **1 minute** for ^
-
-    !!! note
-        The adjustments above are **cumulative**. For example, an **Non-Jet** aircraft assigned a **reduced speed**, would have **3 minutes** added in total
-
 === "Non-Jets"
 
-    This table assumes that aircraft will be assigned:
-
-    - The appropriate *Non-Jet STAR* (**ATPIP**, **ELROX**, **GULFS**, **PAMMY**, **BEVSO**, **SURGN**), or if none is available:
-    - *No STAR*, thence track via a **5nm final** for the assigned runway.
-
-    For Non-Jets tracking via the *full Jet STARs*, refer to the **Jets** tab
+    For Non-Jets tracking via the *full Jet STARs*, refer to the **Jets** tab & applicable correction
 
     | Feeder Fix | 05  | 12  | 23  | 30  |
     | ---------- | --- | --- | --- | --- |
@@ -135,12 +115,21 @@ The times assume there is *Nil wind*.
     | ATNAR      | 13  | 13  | 15  | 16  |
     | ELROX      | 11  | 11  | 14  | 13  |
 
-    - **5nm final** - Threshold is **2 minutes**  
-    - Subtract **1 minute** for MX  
-    - Subtract **1 minute** for **DH8D**
+### Corrections
+| Situation | Correction |
+| ----- | ----- |
+| Assigned MX or CSR | -1 min |
+| Assigned a reduced speed | +1 min, *except ^* | 
+| DH8D aircraft on Non-Jet procedure | -1 min |
+| Non-Jet aircraft (excluding DH8D) on Jet STAR | +2 min, *except ^, where +1 min correction applies* |
 
-    !!! note
-        The adjustments above are **cumulative**. For example, a **DH8D** with a **MX**, would have **2 minutes** subtracted in total
+### Assumptions
+- Nil wind
+- Jet aircraft will be assigned the appropriate jet STAR
+- Non-jet aircraft will be assigned the appropriate non-jet STAR, or if none is available, tracking via a 5nm final
+- Time from VIRAT to threshold is 5 minutes for jet aircraft 
+- Time from PADSI to threshold is 3.5 minutes for jet aircraft
+- Time from a 5nm final to threshold is 2 minutes for non-jet aircraft
 
 ## Coordination
 ### Enroute

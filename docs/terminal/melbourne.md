@@ -206,32 +206,49 @@ Due to the low level of CTA surrounding YMMB, it is best practice to give airway
     **AAC:** "Cleared to YBLT via SAMIG, flight planned route, climb to A040, AAC"
 
 ## Flow
-The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**, which can be used to plan sequencing actions within the TCU.
+The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
-The times assume there is *Nil wind*. The data is for **Jets**, although there are **Non-Jet** adjustments listed below.
+=== "Jets & DH8D"
 
-| Feeder Fix | 09  | 16  | 27  | 34  |
-| ---------- | --- | --- | --- | --- |
-| BOYSE†     | 16  | 13  | 11  | 14  |
-| LIZZI      | 15  | 12  | 10^ | 13  |
-| WAREN      | 16  | 13  | 9^  | 10^ |
-| PORTS      | 11^ | -   | -   | 7^  |
-| WENDY      | 11^ | 17  | 15  | 12  |
-| ARBEY      | 11^ | 9^  | 12  | 13  |
+    | STAR | RWY 09 | RWY 16 | RWY 27 | RWY 34 |
+    | ---------- | ---| -- | -- | ---|
+    | ARBEY      | 11^ | 9^  | 12 | 13 |
+    | BOYSE A    | 16 | 13 | 11 | 14 |
+    | BOYSE V    | -  | -  | -  | 13 |
+    | LIZZI A    | 15 | 12 | 10^ | 13 |
+    | LIZZI V    | -  | -  | -  | 12 |
+    | WAREN A/V  | 16 | 13 | 9^  | 10^ |
+    | WAREN M    | -  | 11 | -  | -  |
+    | PORTS      | 11 | -  | -  | 7^  |
+    | WENDY A    | 11^ | 17 | 15 | 12 |
+    | WENDY P    | -  | 15 | -  | -  |
 
-- †BOYSE STAR only available to Non-Jets  
-- 09A/16A IAF - Threshold is **4 minutes**  
-- 27A/34A IAF - Threshold is **3.5 minutes**  
-- Add **1 minute** for aircraft assigned a reduced speed, Except ^  
-- For **Non-Jets** (except **DH8D**);
-    - Add **2 minutes** (Except ^)
-    - Add only **1 minute** for ^
-- Subtract **1 minute** for MX or CSR  
-- Subtract **1 minute** for aircraft on the Runway 34 **Victor** STAR  
-- Subtract **2 minutes** for aircraft on the Runway 16 **Mike/Papa** STARs  
+=== "Non-Jets"
 
-!!! note
-    The adjustments above are **cumulative**. For example, an aircraft with a **MX** on the **16M STAR**, would have **3 minutes** subtracted in total
+    | STAR | RWY 09 | RWY 16 | RWY 27 | RWY 34 |
+    | ---------- | ---| -- | -- | -- |
+    | ARBEY      | 12^ | 10^ | 14 | 15 |
+    | BOYSE A    | 18 | 15 | 13 | 16 |
+    | BOYSE V    | -  | -  | -  | 15 |
+    | LIZZI A    | 17 | 14 | 11^ | 15 |
+    | LIZZI V    | -  | -  | -  | 14 |
+    | WAREN A/V  | 18 | 15 | 10^ | 11^ |
+    | WAREN M    | -  | 13 | -  | -  |
+    | PORTS      | 12 | -  | -  | 8^  |
+    | WENDY A    | 12^ | 19 | 17 | 14 |
+    | WENDY P    | -  | 17 | -  | -  |
+
+### Corrections
+
+| Situation | Correction |
+| ----- | ----- |
+| Assigned MX or CSR | -1 min |
+| Assigned a reduced speed | +1 min, *except ^* | 
+
+### Assumptions
+- Nil wind
+- Time from Runways 09A/16A IAF to threshold is 4 minutes  
+- Time from Runways 27A/34A IAF to threshold is 3.5 minutes  
 
 ## Coordination
 ### Enroute

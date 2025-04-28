@@ -374,28 +374,17 @@ Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, i
 <summary>Flow</summary>
 
 ## Flow
-The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**, which can be used to plan sequencing actions within the TCU.
-
-It is based on a few key assumptions:
-
-- Nil wind  
-- Aircraft for the *opposite* parallel runway (eg, ODALE > 16L/34R) will overfly the field, then join a mid-field downwind  
-- All aircraft are tracking via the ILS Initial Approach fix
+The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
 === "Jets"
 
     | Feeder Fix | 07  | 16L | 16R | 25  | 34L | 34R |
     | ---------- | --- | --- | --- | --- | --- | --- |
     | BOREE      | 16  | 11 | 11 | 15  | 17  | 17  |
-    | MEPIL†     | -   | 9  | -   | -   | -   | 15  |
+    | MEPIL     | -   | 9  | -   | -   | -   | 15  |
     | MARLN      | 16  | 17  | 20  | 13 | 18  | 14  |
     | RIVET      | 11 | 19  | 17  | 17  | 15  | 19  |
-    | ODALE†     | -   | 16  | -   | -   | -   | 17  |
-
-    - IAF to Threshold is **4 minutes**  
-    - Add **1 minute** for aircraft assigned a reduced speed
-    - †MEPIL and ODALE STARs only available to Jets for 16L/34R
-    - Subtract **1 minute** for MX or CSR
+    | ODALE     | -   | 16  | -   | -   | -   | 17  |
 
 === "Non-Jets"
 
@@ -405,10 +394,22 @@ It is based on a few key assumptions:
     | MARLN      | 17  | 20  | 22  | 13  | 20  | 19  |
     | ODALE      | 10^ | 19  | 17  | 16  | 16  | 19  |
 
-    - IAF to Threshold is **4 minutes** for Runway 07/25. **5 minutes** all other Runways.  
-    - Subtract **2 minutes** for **DH8D**, Except ^
-    - ^ Subtract **1 minute** for **DH8D**
-    - Subtract **1 minute** for MX
+
+### Corrections
+
+| Situation | Correction |
+| ----- | ----- |
+| Assigned MX or CSR | -1 min |
+| Assigned a reduced speed | +1 min | 
+| DH8D Aircraft | -2 min from Non-Jet table, *except ^, where -1 min correction applies* | 
+
+### Assumptions
+- Nil wind
+- Aircraft for the *opposite* parallel runway (eg, ODALE to 16L/34R) will overfly the field, then join a mid-field downwind  
+- All aircraft are tracking via the ILS Initial Approach fix
+- Time from IAF to threshold is 4 minutes for jet aircraft  
+- Time from Runways 07/25 IAF to threshold is 4 minutes for non-jet aircraft
+- Time from all other runways IAF to threshold is 5 minutes for non-jet aircraft
 
 </details>
 
