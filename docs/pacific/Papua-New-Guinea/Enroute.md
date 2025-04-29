@@ -25,7 +25,7 @@ Airspace `SFC` to `BCTA` is considered Class F.
 Refer to the [PNG Local instructions](../) for more information about Class F operations.
 
 ### Reclassifications
-#### AYNZ CTR
+#### AYNZ ADC
 When **AYNZ ADC** is offline, AYNZ CTR (Class C `SFC` to `A060`) is reclassified as Class F, and is administed by AYPM. Alternatively, AYPM may provide a [top-down procedural service](../Nadzab) if they wish.
 
 #### Class F Aerodromes
@@ -50,10 +50,15 @@ AYPM is responsible for issuing STAR clearances for all aicraft inbound to AYPY.
 <!--- ## STAR Clearance Expectation--->
 ## Coordination
 ### AYPY TCU
-#### Departures
-Voiceless coordination is in place from AYPYA to AYPM for aircraft assigned the lower of `A150` or the `RFL` and tracking via a procedural SID terminus.
+#### Airspace
+The vertical limits of the AYPY TCU are `SFC`–`A150`.
 
-Any aircraft not meeting the above requirements must be prior coordinated to AYPM.
+#### Departures
+Voiceless for aircraft:
+- Tracking via a Procedural SID terminus^; and
+- Assigned the lower of `A150` or the `RFL`.
+
+All other aircraft going to AYPM CTA must be **Heads-up** Coordinated by AYPYA prior to the boundary.
 
 #### Arrivals
 Voiceless coordination for all aircraft:
@@ -64,7 +69,28 @@ Voiceless coordination for all aircraft:
 All other aircraft coming from AYPM CTA must be **Heads-up** coordinated to AYPYA.
 
 ### AYNZ TCU
-*To Do*
+#### Airspace
+The vertical limits of the AYNZ TCU are `SFC`–`F245`. AYNZ ADC is responsible for the Class C Airspace within the AYNZ CTR `SFC` to `A060`.
+
+Refer to [Reclassifications](#aynz-adc) for operations when AYNZ ADC is offline.
+
+#### Departures
+All aircraft going to AYPM CTA must be **Heads-up** Coordinated by AYNZA prior to the boundary.
+
+The Standard Assignable Level from **AYNZA** to **AYPM** is:
+
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `F240` and `RFL` |
+
+#### Arrivals
+AYPM will **heads-up** coordinate all arrivals/overfliers to AYNZA.
+
+!!! phraseology
+    <span class="hotline">**AYPM** -> **AYNZA**</span>: "Via WESTERN GPS Arrival, TOK8409.”  
+    <span class="hotline">**AYNZA** -> **AYPM**</span>: "TOK8409."
+	
+The Standard Assignable level from AYPM to AYNZA is `F250`. Any other level must be prior coordinated.
 
 ### Class F Aerodromes
 #### Departures and Arrivals

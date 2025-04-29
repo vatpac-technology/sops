@@ -3,7 +3,7 @@
 ## Positions
 
 | Name | ID | Callsign | Frequency | Login ID |
-| ---- | --- | -------- | --------- | -------- |
+| ---- | ---- | ------ | --------- | -------- |
 | **Nadzab Approach** | **AYNZA** | **Nadzab Approach** | **118.600** | **AYNZ_APP** | 
 
 ## Airspace
@@ -13,32 +13,34 @@ AYNZA is responsible for the Class C Airspace within the AYNZ TMA `A060` to `F24
 ![Nadzab TMA Airspace](../img/AYNZ_TMA.png){ width="700" }
     <figcaption>Nadzab TMA Airspace</figcaption>
 </figure>
-Airspace `SFC` to `BCTA` is classified as Class F. Refer to the [PNG Local instructions](../) for more information about Class F operations.
-
+Airspace `SFC` to `BCTA` is considered Class F. Refer to the [PNG Local instructions](../) for more information about Class F operations.
 <!--- ### Reclassifications
 ### Airspace Division
 ### Special Positions --->
-
 ## Separation
 ### Surveillance
 Surveillance coverage can be expected to be available at all levels in the AYNZ TMA. Although AYNZA is **not permitted** to use surveillance for separation, AYPM may assist by establishing surveillance separation standards via coordination.
 
-<!--- ##Local Procedures
-##  Departure/Arrival Procedures
+## Local Procedures
+### Approach Selection
+In **VMC by day**, all aircraft shall be assigned a visual approach.
+
+In all other situations:
+- IFR aircraft shall be assigned either the **RNAV** or the **VOR/DME** approach.
+<!--- ##  Departure/Arrival Procedures
 ## Tower Offline Procedures
 ## Runway Modes
-## Helicopter operations
+## Helicopter Operations
 ## Flow --->
-
 ## Coordination  
 ### Enroute
 #### Departures
 All aircraft going to AYPM CTA must be **Heads-up** Coordinated by AYNZA prior to the boundary.
 
-The Standard Assignable level from **AYNZA** to **AYPM** is:
+The Standard Assignable Level from **AYNZA** to **AYPM** is:
 
 | Aircraft | Level |
-| ---- | ---- |
+| -------- | ----- |
 | All | The lower of `F240` and `RFL` |
 
 #### Arrivals
@@ -52,16 +54,18 @@ The Standard Assignable level from AYPM to AYNZA is `F250`. Any other level must
 	
 ### AYNZ ADC
 #### Departures
-[Next](../controller-skills/coordination.md#next) coordination is required from AYNZ ADC to AYNZA for all aircraft **entering AYNZA CTA**.
+[Next](../../../controller-skills/coordination.md#next) coordination is required from AYNZ ADC to AYNZA for all aircraft **entering AYNZA CTA**.
 
-The Standard Assignable level from **AYNZ ADC** to **AYNZA** is:
+The Standard Assignable Level from **AYNZ ADC** to **AYNZA** is:
 
 | Aircraft | Level |
-| ---- | ---- |
+| -------- | ---- |
 | All | The lower of `A050` and `RFL` |
    
 ##### Arrivals
 AYNZA will **heads-up** coordinate all arrivals/overfliers to AYNZ ADC.
+- Aircraft on an instrument approach will be cleared for the approach prior to handoff to AYNZ ADC, unless AYNZ ADC nominates a restriction.
+- Aircraft on a visual approach will be coordinated, but will receive their approach clearance and circuit joining instructions from AYNZ ADC.
 
 !!! phraseology
     <span class="hotline">**AYNZA** -> **AYNZ ADC**</span>: "Via LARID for the RNAV, PXB.”  
