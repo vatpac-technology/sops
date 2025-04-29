@@ -415,6 +415,16 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 - Time from Runways 07/25 IAF to threshold is 4 minutes for non-jet aircraft
 - Time from all other runways IAF to threshold is 5 minutes for non-jet aircraft
 
+### Calculator
+<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
+The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
+
+=== "Landing Time"
+    <div id="flowCalculatorLandingTime"></div>
+
+=== "Feeder Fix Time"
+    <div id="flowCalculatorFeederFixTime"></div>
+
 </details>
 
 <details markdown="1">
