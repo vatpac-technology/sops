@@ -1,0 +1,223 @@
+/* Theme Adaptation */
+
+/*Primary Thematic Colors*/
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #344767;
+  --md-accent-fg-color:         #344767;
+  --md-footer-fg-color:         #344767;
+  --md-card-a:  rgba(241, 245, 249, 0.5);
+  --md-card-a-hover: rgba(241, 245, 249, 1);
+  --md-default-table-header-text: #fff;
+  --md-top: var(--md-default-bg-color);
+  --md-typeset-link: rgb(104, 148, 230);
+  --md-typeset-link-hover: #448aff;
+  --md-typeset-a-color: rgb(104, 148, 230);
+  --hotline: #fff820a1;
+  --coldline: #35b9ff66;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #0f172a;
+  --md-accent-fg-color:         #344767;
+  --md-primary-fg-color: #fff;
+  --md-card-a: #1b253b;
+  --md-card-a-hover: #293858;
+  --md-default-table-header-text: #fff;
+  --md-top: #1b253b;
+  --md-typeset-link: rgb(104, 148, 230);
+  --md-typeset-link-hover: #448aff;
+  --md-typeset-a-color: rgb(104, 148, 230);
+  --hotline: #b7b10291;
+  --coldline: #16aeff6e;
+}
+
+/*Header Modifications*/
+.md-typeset h1 {
+  color: var(--md-primary-fg-color);
+}
+h2 {
+  color: var(--md-primary-fg-color);
+  margin-bottom: -1.0em;
+  padding-bottom: -1.0em;
+  padding-top: 1.0em;
+  line-height: 1
+}
+h3 {
+  color: var(--md-primary-fg-color);
+  margin-bottom: -1.0em;
+  padding-bottom: -1.0em;
+  margin-top: -1.0em;
+  padding-top: -1.0em;
+  line-height: 1
+}
+h4 {
+  color: var(--md-primary-fg-color);
+  margin-bottom: -1.0em;
+  padding-bottom: -1.0em;
+  margin-top: -1.0em;
+  padding-top: -1.0em;
+  line-height: 1
+}
+h5 {
+  color: var(--md-primary-fg-color);
+  margin-bottom: -1.0em;
+  padding-bottom: -1.0em;
+  margin-top: -1.0em;
+  padding-top: -1.0em;
+  line-height: 1
+}
+h6 {
+  color: var(--md-primary-fg-color);
+  margin-bottom: -1.0em;
+  padding-bottom: -1.0em;
+  margin-top: -1.0em;
+  padding-top: -1.0em;
+  line-height: 1
+}
+
+.md-typeset > p,
+.md-typeset > ul,
+.md-typeset > ol {
+    margin-top: 0em;
+}
+
+/* highlighting */
+.md-typeset mark { /* ==text== */
+    background-color: #06b6d4;
+    color: white;
+    text-decoration: none;
+}
+/*.md-typeset ins {  !* ^^text^^ *!*/
+/*    background-color: #594a47;*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*}*/
+.md-typeset del {  /* ~~text~~ */
+    background-color: #271b2b;
+    color: white;
+    text-decoration: none;
+}
+.md-typeset code {
+    background-color: #7a7a7a82;
+    border-radius: 0.25rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-size: .90em;
+    padding: 0 .2941176471em;
+    word-break: break-word;
+}
+.md-typeset a {
+  color: var(--md-typeset-link)
+}
+.md-typeset a:hover {
+  color: var(--md-typeset-link-hover)
+}
+
+/*Standardize Font Awesome CSS Styling*/
+.discord {
+  font-size: 20px;
+}
+.github {
+  font-size: 20px;
+}
+/*Table Styling*/
+.md-typeset table:not([class]) th {
+  font-weight: bold;
+  background-color: #344767;
+  color: var(--md-default-table-header-text);
+}
+/* reduced table row height */
+.md-typeset table:not([class]) td {
+  border-top: .05rem solid var(--md-default-fg-color--lightest);
+  padding: .2375em 1.25em;
+  vertical-align: top;
+}
+/* Tasklist */
+ .md-typeset [type=checkbox]:checked+.task-list-indicator:before {
+    background-color: #81C3D7;
+}
+/* Coord Examples */
+.hotline {
+  background-color: var(--hotline);
+}
+.coldline {
+  background-color: var(--coldline);
+}
+.indented {
+  display: block;
+  margin-left: 1em; /* Adjust the value for more or less indentation */
+}
+
+.md-typeset h3 { margin-left: var(--l3-indent); }
+.md-typeset h4 { margin-left: var(--l4-indent); }
+.md-typeset h5 { margin-left: var(--l5-indent); }
+.md-typeset h6 { margin-left: var(--l6-indent); }
+
+/* Indent body elements likely to follow headers */
+.md-typeset h2 ~ p,
+.md-typeset h2 ~ ul,
+.md-typeset h2 ~ ol,
+.md-typeset h2 ~ pre,
+.md-typeset h2 ~ blockquote {
+  margin-left: calc(var(--l2-indent) + 1em) !important;
+}
+
+.md-typeset h3 ~ p,
+.md-typeset h3 ~ ul,
+.md-typeset h3 ~ ol,
+.md-typeset h3 ~ pre,
+.md-typeset h3 ~ blockquote {
+  margin-left: calc(var(--l3-indent) + 1em) !important;
+}
+
+.md-typeset h4 ~ p,
+.md-typeset h4 ~ ul,
+.md-typeset h4 ~ ol,
+.md-typeset h4 ~ pre,
+.md-typeset h4 ~ blockquote {
+  margin-left: calc(var(--l4-indent) + 1em) !important;
+}
+
+.md-typeset h5 ~ p,
+.md-typeset h5 ~ ul,
+.md-typeset h5 ~ ol,
+.md-typeset h5 ~ pre,
+.md-typeset h5 ~ blockquote {
+  margin-left: calc(var(--l5-indent) + 1em) !important;
+}
+
+.md-typeset h6 ~ p,
+.md-typeset h6 ~ ul,
+.md-typeset h6 ~ ol,
+.md-typeset h6 ~ pre,
+.md-typeset h6 ~ blockquote {
+  margin-left: calc(var(--l6-indent) + 1em) !important;
+}
+
+.md-typeset h2 ~ .admonition {
+  margin-left: calc(var(--l2-indent) + 2em) !important;
+}
+
+.md-typeset h3 ~ .admonition {
+  margin-left: calc(var(--l3-indent) + 2em) !important;
+}
+
+.md-typeset h4 ~ .admonition {
+  margin-left: calc(var(--l4-indent) + 2em) !important;
+}
+
+.md-typeset h5 ~ .admonition {
+  margin-left: calc(var(--l5-indent) + 2em) !important;
+}
+
+.md-typeset h6 ~ .admonition {
+  margin-left: calc(var(--l6-indent) + 2em) !important;
+}
+
+.md-typeset {
+  --l2-indent: 0em;
+  --l3-indent: 1em;
+  --l4-indent: 2em;
+  --l5-indent: 3em;
+  --l6-indent: 4em;
+}
