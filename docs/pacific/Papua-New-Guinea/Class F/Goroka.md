@@ -33,11 +33,11 @@ Refer to the [PNG Local instructions](../) for more information about Class F/AT
 ## Helicopter Operations
 --->
 ## Runway Modes
-Due to high terrain to the north of the airport, the only authorised runway mode involve reciprocal runway operations on Runway **17R/35L**
+Due to high terrain to the north of the airport, the only authorised runway mode is reciprocal runway operations on Runway **17R/35L**
 
 | Mode | Arrivals | Departures |
 | ---- | -------- | ---------- |
-| 1 - 14D/35A | **35L** | **14R** |
+| 1 - 17D/35A | **35L** | **14R** |
 
 Runway **17L/35R** is predominantly used as a taxiway, though AYGA ADC can allow ad-hoc take-offs and landings on *pilot request*.
 
