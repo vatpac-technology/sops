@@ -51,7 +51,7 @@ This means that when departing from an uncontrolled aerodrome, both IFR and VFR 
     Class F airspace is not common, and many pilots will be unfamiliar with the continuous two-way communication requirement for VFR aircraft. Wherever possible, be patient and help these pilots through the required position reports.
 	
 ### Aerodrome Traffic Zones
-Aerodrome Traffic Zones (ATZ) are established within the Class F airspace around [Goroka (AYGA)](Goroka.md) , [Madang (AYMD)](Madang.md), [Mount Hagen (AYMH)](Mt-Hagen.md), and [Tokua (AYTK)](Tokua.md). ATZs extend vertically from `SFC`-`A200` and can extend laterally between 15nm and 25nm from the ARP, depending on the aerodrome.
+Aerodrome Traffic Zones (ATZ) are established within the Class F airspace around [Goroka (AYGA)](class-f/Goroka.md) , [Madang (AYMD)](class-f/Madang.md), [Mount Hagen (AYMH)](class-f/Mt-Hagen.md), and [Tokua (AYTK)](class-f/Tokua.md). ATZs extend vertically from `SFC`-`A200` and can extend laterally between 15nm and 25nm from the ARP, depending on the aerodrome.
 
 <figure markdown>
 ![Example ATZ Airspace](img/ATZ_airspace.png){ width="700" }
