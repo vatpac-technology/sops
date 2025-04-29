@@ -5,11 +5,20 @@
 --8<-- "includes/abbreviations.md"
 
 ## Altimetry
-### Transition Altitude 
-Within the Papua New Guinea FIR, the transition altitude is 20,000 ft (`A200`).
+### Transition Altitude
+Within the AYPM FIR the transition altitude is 20,000 ft (`A200`).
 
 ### Transition Level
-Within the Papua New Guinea FIR, the transition level is `F210`.
+Within the AYPM FIR the transition level is `F210`.
+
+| QNH (hPa) | Transition Level |
+| --------- | ---------------- |
+| Greater than 1013 | `F210` |
+| 1013—980 | `F220` | 
+| Less than 980 | `F230` | 
+
+### Cruising Levels
+Within the AYPM FIR pilots, both VFR and IFR aircraft operate at thousand foot increments of cruising levels.
 
 ## Classes of Airspace
 The airspace classification structure within the AYPM FIR differs from other VATPAC regions, most notably the use of Class F airspace for uncontrolled airspace. `PNG AIP ENR 1.4`
