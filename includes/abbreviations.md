@@ -57,6 +57,7 @@
 *[ARP]: Aerodrome Reference Point
 *[SVFR]: Special VFR
 *[MTOW]: Maximum Takeoff Weight
+*[SDC]: Standard Departure Clearance
 *[AAW]: Adelaide Approach West
 *[AAE]: Adelaide Approach East
 *[BAC]: Brisbane (Gold Coast) Approach
