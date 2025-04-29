@@ -6,7 +6,7 @@
 
 ## Airspace
 <figure markdown>
-![Pacific Oceanic Agreement Units](assets/oceanicmap.png){width="700"}
+![Pacific Sectors within VATPAC](assets/pacificairspace.png){width="700"}
     <figcaption>Pacific Sectors within VATPAC</figcaption>
 </figure>
 
