@@ -9,7 +9,7 @@
 | ---- | -------- | --------- | -------- |
 | **Tasman** | **Brisbane Radio** | **124.650 (17.904)** | **BN-TSN_FSS** |
 | <span class="indented">Coral :material-information-outline:{ title="Non-standard position"} | Brisbane Radio | 133.150 (6.556) | BN-COL_FSS |
-| <span class="indented">Flinders :material-information-outline:{ title="Non-standard position"} | Brisbane Radio | 133.150 (13.318) | BN-FLD_FSS |
+| <span class="indented">Flinders :material-information-outline:{ title="Non-standard position"} | Brisbane Radio | 132.850 (13.318) | BN-FLD_FSS |
 | <span class="indented">*Howe :material-information-outline:{ title="Non-standard position"}^* | *Brisbane Centre* | *124.950* | *BN-HWE_CTR* |
 
 ^ Refer to [Howe](#howe-hwe)
