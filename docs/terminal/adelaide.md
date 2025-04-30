@@ -127,6 +127,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 - Nil wind
 - Jet aircraft will be assigned the appropriate jet STAR
 - Non-jet aircraft will be assigned the appropriate non-jet STAR, or if none is available, tracking via a 5nm final
+- The feeder fix for the ATPIP STAR is INTOG
 - Time from VIRAT to threshold is 5 minutes for jet aircraft 
 - Time from PADSI to threshold is 3.5 minutes for jet aircraft
 - Time from a 5nm final to threshold is 2 minutes for non-jet aircraft
