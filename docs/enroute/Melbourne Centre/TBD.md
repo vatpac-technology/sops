@@ -44,12 +44,12 @@ Aircraft assigned the **same runway** inbound via:
 Must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
 ### YPAD STARs
-Aircraft tracking via OJJAY and MARGO (ie *J251 WHA H84 MARGO*) from the North for Runway 23 shall be assigned:  
-**RAYNA** STAR with the **OJJAY** transition  
-**not**  
-**BUGSU** STAR with the **MARGO** transition
+- Aircraft tracking via OJJAY and MARGO (ie *J251 WHA H84 MARGO*) from the North for Runway 23 shall be assigned the **RAYNA** STAR with the **OJJAY** transition (not the **BUGSU** STAR with the **MARGO** transition)  
 
-vatSys will not necessarily select the correct STAR by default when entering the runway, so ensure the correct STAR is selected.
+*vatSys will not necessarily select the correct STAR by default when entering the runway, so ensure the correct STAR is selected.*
+
+- With visual approaches in use, non-jet aircraft should be assigned the relevant Victor STAR by default
+- With both runway 12 and 05/23 in use for arrivals, non-jet aircraft should be assigned whichever runway results in the fewest track miles by default
 
 ## STAR Clearance Expectation
 ### Handoff

@@ -86,9 +86,11 @@ Due to the low level of CTA at YPPF, it is best practice to give airways clearan
 
 ## Flow
 ### Local Knowledge
-- Non-jet aircraft from the west may be issued the PAMMY Victor STAR to reduce track miles
-- In lieu of a STAR, aircraft may be instructed to join the circuit in VMC, to reduce track miles
-- Aircraft up to B737/A320 from the east or west may be issued RWY 30 or 12 (respectively) to reduce track miles
+- With visual approaches in use, non-jets should be issued the relevant Victor STAR. Additional track miles may be obtained by issuing an Alpha STAR
+- In lieu of a STAR, aircraft may be issued No Star and instructed to join the circuit in VMC, to reduce track miles
+- With RWY 12 in use for arrivals, non-jets should be assigned RWY 12 by default. Additional track miles may be obtained by assigning RWY 05/23
+- Otherwise, non-jet aircraft from the west may be issued RWY 12 (or RWY 30 from the east on pilot request) to reduce track miles
+- A competent pilot may be issued the appropriate Victor/Xray/Whiskey STAR in lieu of the Alpha STAR to reduce track miles
 
 ### Flow Tables
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
