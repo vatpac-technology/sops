@@ -101,7 +101,7 @@ function CreateFormElements(containerID) {
             
             formContent = `<div class="row">
             <div class="form-group">
-                <label>FF ETA:</label>
+                <label>Feeder Fix ETA:</label>
                 <input id="${elementIDPrefix}FFETA" type="number" placeholder="FF ETA" min="0" max="59" step="1" placeholder="00" />
             </div>`;
             resultsRow = `<div class="row"><label style="font-size: 125%;">Landing Time: <span id="${elementIDPrefix}Result" style="color: var(--md-code-hl-string-color)"></span></label></div>`;
