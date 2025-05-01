@@ -55,6 +55,7 @@ The vertical limits of the AYPY TCU are `SFC`–`A150`.
 
 #### Departures
 Voiceless for aircraft:
+
 - Tracking via a Procedural SID terminus^; and
 - Assigned the lower of `A150` or the `RFL`.
 
@@ -62,6 +63,7 @@ All other aircraft going to AYPM CTA must be **Heads-up** Coordinated by AYPYA p
 
 #### Arrivals
 Voiceless coordination for all aircraft:
+
 - With ADES **AYPY**; and  
 - Assigned a STAR; and  
 - Assigned `A140`

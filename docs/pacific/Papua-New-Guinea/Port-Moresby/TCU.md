@@ -24,7 +24,7 @@ Airspace `SFC` to `BCTA` is considered Class F. Refer to the [PNG Local instruct
 ### Special Positions
 ## Separation
 ### Responsibility -->
-## Local Procedures (eg Scenic Coastals, Special Military Procedures)
+## Local Procedures
 ### Daugo Training Area
 The AYD901 (Daugo) Danger Area is in the south-west AYPY CTR, `SFC` to `A040`, and is used for flight training and practice approaches.
 
@@ -48,6 +48,7 @@ Simultaneous parallel runway operations, including PROPS and SODROPS, are not au
 ### Enroute
 #### Departures
 Voiceless for aircraft:
+
 - Tracking via a Procedural SID terminus^; and
 - Assigned the lower of `A150` or the `RFL`.
 
@@ -58,6 +59,7 @@ All other aircraft going to AYPM CTA must be **Heads-up** Coordinated by AYPYA p
 
 #### Arrivals
 Voiceless coordination for all aircraft:
+
 - With ADES **AYPY**; and  
 - Assigned a STAR; and  
 - Assigned `A140`.

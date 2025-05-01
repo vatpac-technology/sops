@@ -16,6 +16,8 @@
   <figcaption>NVVV Centre Airspace</figcaption>
 </figure>
 
+The vertical limits of the NVVV Sector of the Nadi FIR are `SFC` to `F245`.
+
 <!--- ## Reclassifications - No reclassification, NVVV must top-down --->
 <!--- ## Special Positions
 ## Extending --->
@@ -57,10 +59,12 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 ### Nadi Oceanic
 #### Departures
 Voiceless for all aircraft:
+
 - Assigned the lower of `F240` or the `RFL`.
 
 #### Arrivals
 Voiceless for all aircraft:
+
 - With ADES **NVVV**; and
 - Assigned `F250`.
 
