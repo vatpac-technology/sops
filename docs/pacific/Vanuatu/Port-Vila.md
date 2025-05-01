@@ -14,8 +14,9 @@
 
 ## Airspace
 Port Vila ADC is responsible for:
-	- The Class D airspace within the NVVV CTR, defined as `SFC` to `A035` within **20nm** of the NVVV ARP, and
-	- The Class D airspace within the NVVV TMA, defined as  `A035` to `A095` within **50nm** of the NVVV ARP.
+
+- The Class D airspace within the NVVV CTR, defined as `SFC` to `A035` within **20nm** of the NVVV ARP, and
+- The Class D airspace within the NVVV TMA, defined as  `A035` to `A095` within **50nm** of the NVVV ARP.
 	
 <figure markdown>
 ![NVVV TWR Airspace](img/NVVVTWR.png){ width="700" }
@@ -35,6 +36,7 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 In **VMC by day**, all aircraft shall be assigned a visual approach.
 
 In all other situations:
+
 - IFR aircraft arriving Runway 29 shall be assigned either the **VOR/DME** or the **RNAV** approach.
 - IFR aircraft arriving Runway 11 shall be assigned the **VOR/DME/NDB** approach, or the **RNAV** approach if conditions preclude any other alternative.
 
@@ -77,6 +79,7 @@ There are no specific helicopter movement areas at Port Vila. Helicopters will u
 In **VMC by day**, all aircraft shall be assigned a visual departure. 
 
 In all other situations:
+
 - IFR aircraft departing Runway 29 shall be assigned the **NORTH**, **SOUTH**, or **EAST** departure, according to their direction of travel.
 - IFR aircraft departing Runway 11 shall be assigned either the **SOUTH** or **VOR** departure, according to their direction of travel.
 

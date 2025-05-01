@@ -9,7 +9,6 @@
 Within the AYPM FIR the transition altitude is 20,000 ft (`A200`).
 
 ### Transition Level
-Within the AYPM FIR the transition level is `F210`.
 
 | QNH (hPa) | Transition Level |
 | --------- | ---------------- |
