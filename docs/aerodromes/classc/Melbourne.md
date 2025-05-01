@@ -169,7 +169,7 @@ In the real world, YMML utilises Towbar Disconnect Points (TDPs) to allow predic
 During busy events, such as [Milk Run Monday](../../../events/milkrun/), the **SMC** controller may end up with a much higher workload than the **ACD** controller. Additionally, delays may need to be implemented for aircraft requesting pushback, so as to not overload the taxiways and holding points.
 
 ### Departure Queueing
-Where excessive queueing is taking place at the holding points, minimise its effect on the surrounding taxiways by strategically positioning outbound aircraft to keep the main aterial taxiways clear.
+Where excessive queueing is taking place at the holding points, minimise its effect on the surrounding taxiways by strategically positioning outbound aircraft to keep the main arterial taxiways clear.
 
 Particular attention should be paid to departures for runways 27 and 34. Taxiway E may be used to keep runway 27 departures clear of the inbound path to the northern aprons. Taxiway V may be used to keep runway 34 departures (via the J intersection) clear of Taxiway A, allowing aircraft to transit to all aprons or taxi for a full length departure.
 
