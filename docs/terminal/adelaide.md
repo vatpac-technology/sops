@@ -85,6 +85,12 @@ Due to the low level of CTA at YPPF, it is best practice to give airways clearan
     **ABC**: "Assigned right 360, wilco, ABC"
 
 ## Flow
+### Local Knowledge
+- Non-jet aircraft from the west may be issued the PAMMY Victor STAR to reduce track miles
+- In lieu of a STAR, aircraft may be instructed to join the circuit in VMC, to reduce track miles
+- Aircraft up to B737/A320 from the east or west may be issued RWY 30 or 12 (respectively) to reduce track miles
+
+### Flow Tables
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
 === "Jets"
@@ -115,7 +121,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | ATNAR      | 13  | 13  | 15  | 16  |
     | ELROX      | 11  | 11  | 14  | 13  |
 
-### Corrections
+#### Corrections
 | Situation | Correction |
 | ----- | ----- |
 | Assigned MX or CSR | -1 min |
@@ -123,14 +129,11 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 | DH8D aircraft on Non-Jet procedure | -1 min |
 | Non-Jet aircraft (excluding DH8D) on Jet STAR | +2 min, *except ^, where +1 min correction applies* |
 
-### Assumptions
+#### Assumptions
 - Nil wind
+- The feeder fix for the ATPIP STAR is INTOG
 - Jet aircraft will be assigned the appropriate jet STAR
 - Non-jet aircraft will be assigned the appropriate non-jet STAR, or if none is available, tracking via a 5nm final
-- The feeder fix for the ATPIP STAR is INTOG
-- Time from VIRAT to threshold is 5 minutes for jet aircraft 
-- Time from PADSI to threshold is 3.5 minutes for jet aircraft
-- Time from a 5nm final to threshold is 2 minutes for non-jet aircraft
 
 ## Coordination
 ### Enroute

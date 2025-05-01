@@ -374,6 +374,11 @@ Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, i
 <summary>Flow</summary>
 
 ## Flow
+### Local Knowledge
+- Aircraft can be processed via the adjacent STAR for the parallel runway (e.g. jet aircraft via the ODALE STAR for RWY 34R), to reduce overall delay where multiple aircraft approach from the same direction
+- Aircraft via AKMIR (to the west) and MARLN (to the east) often make large track direction changes prior to entering the TMA. Direct tracking onto the STAR may be offered to reduce track miles
+
+### Flow Tables
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
 === "Jets"
@@ -397,7 +402,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | ODALE      | 10^ | 19  | 17  | 16  | 16  | 19  |
 
 
-### Corrections
+#### Corrections
 
 | Situation | Correction |
 | ----- | ----- |
@@ -405,15 +410,12 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 | Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
 | DH8D Aircraft | -2 min from Non-Jet table, *except ^, where -1 min correction applies* | 
 
-### Assumptions
+#### Assumptions
 - Nil wind
-- Aircraft for the *opposite* parallel runway (eg, ODALE to 16L/34R) will overfly the field, then join a mid-field downwind  
-- All aircraft are tracking via the ILS Initial Approach fix
 - The feeder fix for the MEPIL STAR is YAKKA
 - The feeder fix for the ODALE STAR is WELSH
-- Time from IAF to threshold is 4 minutes for jet aircraft  
-- Time from Runways 07/25 IAF to threshold is 4 minutes for non-jet aircraft
-- Time from all other runways IAF to threshold is 5 minutes for non-jet aircraft
+- Aircraft for the *opposite* parallel runway (eg, ODALE to 16L/34R) will overfly the field, then join a mid-field downwind  
+- All aircraft are tracking via the ILS Initial Approach fix
 
 ### Calculator
 <script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>

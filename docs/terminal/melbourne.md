@@ -206,6 +206,12 @@ Due to the low level of CTA surrounding YMMB, it is best practice to give airway
     **AAC:** "Cleared to YBLT via SAMIG, flight planned route, climb to A040, AAC"
 
 ## Flow
+### Local Knowledge
+- Aircraft from the south may be issued the PORTS STAR in lieu of the WAREN STAR to reduce track miles to runways 09 and 34
+- In lieu of a STAR, aircraft from the west may be radar vectored via a right circuit to runway 16 to reduce track miles
+- Aircraft from the northeast may be issued RWY 27 or direct to the IAF of the RNP-M RWY 16 to reduce track miles
+
+### Flow Tables
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
 === "Jets & DH8D"
@@ -238,17 +244,15 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | WENDY A    | 12^ | 19 | 17 | 14 |
     | WENDY P    | -  | 17 | -  | -  |
 
-### Corrections
+#### Corrections
 
 | Situation | Correction |
 | ----- | ----- |
 | Assigned a reduced speed | +1 min, *except ^* | 
 | Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
 
-### Assumptions
+#### Assumptions
 - Nil wind
-- Time from Runways 09A/16A IAF to threshold is 4 minutes  
-- Time from Runways 27A/34A IAF to threshold is 3.5 minutes  
 
 ### Calculator
 <script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>

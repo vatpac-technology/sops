@@ -30,6 +30,11 @@ The Vertical limits of the CB TCU are `SFC` to `F245`.
 </figure>
 
 ## Flow
+### Local Knowledge
+- By Day VMC, aircraft from the NE can be issued the BUNGO/LEECE Victor STAR to reduce track miles
+- In lieu of a STAR, non-jet aircraft may be processed direct to the IAF of the RNP RWY 30 to reduce track miles
+
+### Flow Tables
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
 === "Jets"
@@ -60,13 +65,13 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | POLLI A | - | - | 13^ |
     | POLLI X | - | - | 12^ |
 
-### Corrections
+#### Corrections
 | Situation | Correction |
 | ----- | ----- |
 | Assigned a reduced speed | +1 min, *except ^* | 
 | Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
 
-### Assumptions
+#### Assumptions
 - Nil wind
 - The feeder fix for the MANDA STAR is MANDA (regardless of transition)
 - The feeder fix for the POLLI STAR is POLLI (regardless of transition)
