@@ -15,7 +15,6 @@ export const flowData = {
                     "Non-Jet": 12
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 0
                 }
             },
@@ -25,7 +24,6 @@ export const flowData = {
                     "Non-Jet": 18
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -35,7 +33,6 @@ export const flowData = {
                     "Non-Jet": 17
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -45,7 +42,6 @@ export const flowData = {
                     "Non-Jet": 18
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -55,7 +51,6 @@ export const flowData = {
                     "Non-Jet": 12
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -65,7 +60,6 @@ export const flowData = {
                     "Non-Jet": 12
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 0
                 }
             }          
@@ -77,7 +71,6 @@ export const flowData = {
                     "Non-Jet": 10
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 0
                 }
             },
@@ -87,7 +80,6 @@ export const flowData = {
                     "Non-Jet": 15
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -97,7 +89,6 @@ export const flowData = {
                     "Non-Jet": 14
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -107,7 +98,6 @@ export const flowData = {
                     "Non-Jet": 15
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -117,7 +107,6 @@ export const flowData = {
                     "Non-Jet": 13
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -127,7 +116,6 @@ export const flowData = {
                     "Non-Jet": 19
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -137,7 +125,6 @@ export const flowData = {
                     "Non-Jet": 17
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             }
@@ -149,7 +136,6 @@ export const flowData = {
                     "Non-Jet": 14
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -159,7 +145,6 @@ export const flowData = {
                     "Non-Jet": 13
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -169,7 +154,6 @@ export const flowData = {
                     "Non-Jet": 11
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 0
                 }
             },
@@ -179,7 +163,6 @@ export const flowData = {
                     "Non-Jet": 10
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 0
                 }
             },
@@ -189,7 +172,6 @@ export const flowData = {
                     "Non-Jet": 17
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             }
@@ -201,7 +183,6 @@ export const flowData = {
                     "Non-Jet": 15
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -211,7 +192,6 @@ export const flowData = {
                     "Non-Jet": 16
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -221,7 +201,6 @@ export const flowData = {
                     "Non-Jet": 15
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -231,7 +210,6 @@ export const flowData = {
                     "Non-Jet": 15
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -241,7 +219,6 @@ export const flowData = {
                     "Non-Jet": 14
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -251,7 +228,6 @@ export const flowData = {
                     "Non-Jet": 11
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 0
                 }
             },
@@ -261,7 +237,6 @@ export const flowData = {
                     "Non-Jet": 8
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 0
                 }
             },
@@ -271,7 +246,6 @@ export const flowData = {
                     "Non-Jet": 14
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             }
@@ -285,7 +259,6 @@ export const flowData = {
                     "Jet": 16
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -295,7 +268,6 @@ export const flowData = {
                     "DH8D": 13
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -306,7 +278,6 @@ export const flowData = {
                     "DH8D": 15
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -315,7 +286,6 @@ export const flowData = {
                     "Jet": 11
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -325,7 +295,6 @@ export const flowData = {
                     "DH8D": 9
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             }
@@ -336,7 +305,6 @@ export const flowData = {
                     "Jet": 11
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -347,7 +315,6 @@ export const flowData = {
                     "DH8D": 9
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -358,7 +325,6 @@ export const flowData = {
                     "DH8D": 18
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -367,7 +333,6 @@ export const flowData = {
                     "Jet": 19
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -378,7 +343,6 @@ export const flowData = {
                     "DH8D": 17
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             }
@@ -389,7 +353,6 @@ export const flowData = {
                     "Jet": 11
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -399,7 +362,6 @@ export const flowData = {
                     "DH8D": 9
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -410,7 +372,6 @@ export const flowData = {
                     "DH8D": 20
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -419,7 +380,6 @@ export const flowData = {
                     "Jet": 17
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -429,7 +389,6 @@ export const flowData = {
                     "DH8D": 15
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             }
@@ -440,7 +399,6 @@ export const flowData = {
                     "Jet": 15
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -450,7 +408,6 @@ export const flowData = {
                     "DH8D": 11
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -461,7 +418,6 @@ export const flowData = {
                     "DH8D": 11
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -470,7 +426,6 @@ export const flowData = {
                     "Jet": 17
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -480,7 +435,6 @@ export const flowData = {
                     "DH8D": 14
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             }
@@ -491,7 +445,6 @@ export const flowData = {
                     "Jet": 17
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -501,7 +454,6 @@ export const flowData = {
                     "DH8D": 18
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -512,7 +464,6 @@ export const flowData = {
                     "DH8D": 18
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -521,7 +472,6 @@ export const flowData = {
                     "Jet": 15
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -531,7 +481,6 @@ export const flowData = {
                     "DH8D": 14
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             }
@@ -542,7 +491,6 @@ export const flowData = {
                     "Jet": 17
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -553,7 +501,6 @@ export const flowData = {
                     "DH8D": 17
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -564,7 +511,6 @@ export const flowData = {
                     "DH8D": 17
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -573,7 +519,6 @@ export const flowData = {
                     "Jet": 19
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             },
@@ -584,24 +529,167 @@ export const flowData = {
                     "DH8D": 17
                 },
                 "corrections": {
-                    "MX/CSR": -1,
                     "Reduced Speed": 1
                 }
             }
         }
     },
-    "adelaide": {
-        "05": {
-
-        },
-        "12": {
-
-        },
-        "23": {
-
+    "canberra": {
+        "17": {
+            "AVBEG STAR": {
+                "aircraft": {
+                    "Jet": 8,
+                    "Non-Jet": 9
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "BUNGO A STAR": {
+                "aircraft": {
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "LEECE A STAR": {
+                "aircraft": {
+                    "Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "LEECE Y STAR": {
+                "aircraft": {
+                    "Jet": 12
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "MANDA A STAR": {
+                "aircraft": {
+                    "Jet": 12,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "MANDA X STAR": {
+                "aircraft": {
+                    "Jet": 11,
+                    "Non-Jet": 12
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
         },
         "30": {
-
+            "BUNGO V STAR": {
+                "aircraft": {
+                    "Non-Jet": 12
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            }
+        },
+        "35": {
+            "AVBEG STAR": {
+                "aircraft": {
+                    "Jet": 16,
+                    "Non-Jet": 18
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "LEECE A STAR": {
+                "aircraft": {
+                    "Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "LEECE V STAR": {
+                "aircraft": {
+                    "Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "LEECE W STAR": {
+                "aircraft": {
+                    "Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "LEECE Y STAR": {
+                "aircraft": {
+                    "Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "BUNGO A STAR": {
+                "aircraft": {
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "BUNGO V STAR": {
+                "aircraft": {
+                    "Non-Jet": 16
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "BUNGO W STAR": {
+                "aircraft": {
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "BUNGO Y STAR": {
+                "aircraft": {
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "POLLI A STAR": {
+                "aircraft": {
+                    "Jet": 11,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "POLLI X STAR": {
+                "aircraft": {
+                    "Jet": 11,
+                    "Non-Jet": 12
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            }
         }
     }
 };

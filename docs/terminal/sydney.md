@@ -401,8 +401,8 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
 | Situation | Correction |
 | ----- | ----- |
-| Assigned MX or CSR | -1 min |
 | Assigned a reduced speed | +1 min | 
+| Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
 | DH8D Aircraft | -2 min from Non-Jet table, *except ^, where -1 min correction applies* | 
 
 ### Assumptions
