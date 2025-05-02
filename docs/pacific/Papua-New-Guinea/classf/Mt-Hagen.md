@@ -15,7 +15,7 @@
 AYMH ADC is responsible for the **Mt Hagen ATZ**; consisting of Class F airspace `SFC` to `A200`.
 
 <figure markdown>
-![Mt Hagen ATZ Airspace](img/AYMH_Vatsys.PNG){ width="700" }
+![Mt Hagen ATZ Airspace](../img/AYMH_Vatsys.PNG){ width="700" }
 </figure>
 
 Refer to the [PNG Local instructions](../) for more information about Class F/ATZ operations.

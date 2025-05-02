@@ -9,7 +9,6 @@
 Within the AYPM FIR the transition altitude is 20,000 ft (`A200`).
 
 ### Transition Level
-Within the AYPM FIR the transition level is `F210`.
 
 | QNH (hPa) | Transition Level |
 | --------- | ---------------- |
@@ -51,7 +50,7 @@ This means that when departing from an uncontrolled aerodrome, both IFR and VFR 
     Class F airspace is not common, and many pilots will be unfamiliar with the continuous two-way communication requirement for VFR aircraft. Wherever possible, be patient and help these pilots through the required position reports.
 	
 ### Aerodrome Traffic Zones
-Aerodrome Traffic Zones (ATZ) are established within the Class F airspace around [Goroka (AYGA)](Goroka.md) , [Madang (AYMD)](Madang.md), [Mount Hagen (AYMH)](Mt-Hagen.md), and [Tokua (AYTK)](Tokua.md). ATZs extend vertically from `SFC`-`A200` and can extend laterally between 15nm and 25nm from the ARP, depending on the aerodrome.
+Aerodrome Traffic Zones (ATZ) are established within the Class F airspace around [Goroka (AYGA)](classf/Goroka.md) , [Madang (AYMD)](classf/Madang.md), [Mount Hagen (AYMH)](classf/Mt-Hagen.md), and [Tokua (AYTK)](classf/Tokua.md). ATZs extend vertically from `SFC`-`A200` and can extend laterally between 15nm and 25nm from the ARP, depending on the aerodrome.
 
 <figure markdown>
 ![Example ATZ Airspace](img/ATZ_airspace.png){ width="700" }

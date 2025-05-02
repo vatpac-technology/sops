@@ -1,11 +1,15 @@
+---
+  title: Aerodrome
+---
+
 --8<-- "includes/abbreviations.md"
 
 ## Positions
 
-| Name | ID | Callsign | Frequency | Login ID |
-| ---- | --- | ------- | --------- | -------- |
-| **Nadzab ADC**  |	| **Nadzab Tower**	| **121.700** | **AYNZ_TWR** | 
-| **Nadzab ATIS** | | **128.100** | **AYNZ_ATIS** | 
+| Name | Callsign | Frequency | Login ID |
+| ---- | ------- | --------- | -------- |
+| **Nadzab ADC**  | **Nadzab Tower** | **121.700** | **AYNZ_TWR** | 
+| **Nadzab ATIS** | **128.100** | **AYNZ_ATIS** | 
 
 ## Airspace
 AYNZ ADC is responsible for the Class C Airspace within the AYNZ CTR `SFC` to `A060`.
@@ -55,6 +59,7 @@ A list of the Standard Departure Clearances is available in the [AIP Flight Supp
 There are no SIDs at AYNZ. In **VMC by day**, all aircraft shall be assigned a **visual departure**. 
 
 Otherwise:
+
 - IFR aircraft departing via **MUDIX** shall be assigned the **GOROKA 1** or **GOROKA 2** **DME departure**.
 - IFR aircraft departing via **LARID** shall be assigned the **LAE** **DME departure**.
 - IFR aircraft not departing via **MUDIX** or **LARID** should be assigned an [SDC](#standard-departure-clearances) and/or sector **DME departure**.

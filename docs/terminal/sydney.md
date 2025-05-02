@@ -268,13 +268,8 @@ A **‘Harbour Scenic One’** (or **‘Two’**) clearance is used to authorise
     The Harbour Scenic One procedure may cause conflict with departures from Runway 34R to the north. Before issuing a Harbour Scenic One clearance, assess the traffic situation on the ground at YSSY and determine whether a departure to the north of the harbour is likely in the next few minutes. If necessary, instruct the aircraft to remain OCTA and advise of the delay, or alternatively, issue the Harbour Scenic Two clearance.
 
 <figure markdown>
-![Sydney Harbour Scenic One](img/SYhs1.jpg){ width="400" }
-  <figcaption>Sydney Harbour Scenic One</figcaption>
-</figure>
-
-<figure markdown>
-![Sydney Harbour Scenic Two](img/SYhs2.jpg){ width="400" }
-  <figcaption>Sydney Harbour Scenic Two</figcaption>
+![Sydney Harbour Scenic Routes](img/sy_harbourbridge_vatsys.png){ width="400" }
+  <figcaption>Sydney Harbour Scenic One *(in pink)* and Two *(in green)*</figcaption>
 </figure>
 
 These can be displayed on vatSys using the `SY_VFR` map.  
