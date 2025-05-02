@@ -118,7 +118,7 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | INL | GOL | YBSU | |
 | NSA | KPL | YBRK, YBMK | |
 
-## STAR Assignment
+## YBBN STAR Assignment
 ### PROPS
 When operating a PROPS Runway Mode, Aircraft shall be assigned the appropriate 'ALPHA' STAR (or other STAR on pilot request), with the following runway selection:
 

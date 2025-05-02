@@ -86,11 +86,15 @@ Due to the low level of CTA at YPPF, it is best practice to give airways clearan
 
 ## Flow
 ### Local Knowledge
-- With visual approaches in use, non-jets should be issued the relevant Victor STAR. Additional track miles may be obtained by issuing an Alpha STAR
-- In lieu of a STAR, aircraft may be issued No Star and instructed to join the circuit in VMC, to reduce track miles
-- With RWY 12 in use for arrivals, non-jets should be assigned RWY 12 by default. Additional track miles may be obtained by assigning RWY 05/23
-- Otherwise, non-jet aircraft from the west may be issued RWY 12 (or RWY 30 from the east on pilot request) to reduce track miles
-- A competent pilot may be issued the appropriate Victor/Xray/Whiskey STAR in lieu of the Alpha STAR to reduce track miles
+- With **Visual approaches** in use, Non-Jets should be issued the relevant **Non-Jet Victor STAR**.
+    - If **delays** are required, additional track miles may be obtained by issuing the relevant **Alpha/Zulu STAR**.
+- Where no **Non-Jet Victor STAR** is available (eg, via **DRINA** or **KLAVA**), Non-Jets may be issued **No Star**, and instructed to join the circuit in VMC, to reduce track miles.
+- With **RWY 12** in use for arrivals, non-jets from the West should be assigned RWY 12 by default. Additional track miles may be obtained by assigning RWY 05/23.
+- Otherwise, non-jet aircraft from the west may be issued RWY 12 (or RWY 30 from the east on pilot request) to reduce track miles.
+- A competent pilot may be issued the appropriate Victor/Xray/Whiskey STAR in lieu of the Alpha STAR to reduce track miles.
+
+!!! tip
+    When flowing using the Arrivals List Window, AFL may use the abbreviations listed in the [TBD page](../../enroute/Melbourne%20Centre/TBD/#ypad-star-assignment) to prescribe certain STARs and Runways.
 
 ### Flow Tables
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
