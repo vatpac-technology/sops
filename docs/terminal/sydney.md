@@ -376,34 +376,33 @@ Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, i
 ### Flow Tables
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
-=== "Jets"
+=== "Jets & DH8D"
 
     | STAR       | 07  | 16L | 16R | 25  | 34L | 34R |
     | ---------- | --- | --- | --- | --- | --- | --- |
-    | BOREE     | 16  | 11 | 11 | 15  | 17  | 17  |
-    | MEPIL     | -   | 9  | -   | -   | -   | 15  |
-    | MARLN      | 16  | 17  | 20  | 13 | 18  | 14  |
-    | RIVET      | 11 | 19  | 17  | 17  | 15  | 19  |
-    | ODALE     | -   | 16  | -   | -   | -   | 17  |
+    | BOREE A/P  | 15  | 11^ | 11^ | 14  | 17  | 17  |
+    | MEPIL      | 15  | 12^ | 11^ | 15  | 18  | 18  |
+    | MARLN      | 16  | 17  | 17  | 12^ | 18  | 15  |
+    | RIVET      | 11^ | 18  | 15  | 16  | 15  | 18  |
+    | ODALE      | 11^ | 18  | 16  | 17  | 16  | 18  |
 
 === "Non-Jets"
 
     | STAR       | 07  | 16L | 16R | 25  | 34L | 34R |
     | ---------- | --- | --- | --- | --- | --- | --- |
-    | BOREE      | | | | | |
-    | MEPIL      | 15  | 10^ | 10^ | 13  | 20  | 19  |
-    | MARLN      | 17  | 20  | 22  | 13  | 20  | 19  |
-    | RIVET      | | | | | |
-    | ODALE      | 10^ | 19  | 17  | 16  | 16  | 19  |
+    | BOREE A/P  | 17  | 12^ | 12^ | 16  | 20  | 20  |
+    | MEPIL      | 17  | 13^ | 13^ | 16  | 20  | 20  |
+    | MARLN      | 18  | 19  | 20  | 13^ | 20  | 17  |
+    | RIVET      | 12^ | 20  | 17  | 18  | 17  | 20  |
+    | ODALE      | 13^ | 21  | 18  | 19  | 18  | 20  |
 
 
 #### Corrections
 
 | Situation | Correction |
 | ----- | ----- |
-| Assigned a reduced speed | +1 min | 
+| Assigned a reduced speed | +1 min, *except ^* | 
 | Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
-| DH8D Aircraft | -2 min from Non-Jet table, *except ^, where -1 min correction applies* | 
 
 #### Assumptions
 - Nil wind

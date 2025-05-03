@@ -251,12 +251,12 @@ export const flowData = {
             }
         }
     },
-
     "sydney": {
         "07": {
-            "BOREE STAR": {
+            "BOREE A/P STAR": {
                 "aircraft": {
-                    "Jet": 16
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
                 },
                 "corrections": {
                     "Reduced Speed": 1
@@ -264,8 +264,8 @@ export const flowData = {
             },
             "MEPIL STAR": {
                 "aircraft": {
-                    "Non-Jet": 15,
-                    "DH8D": 13
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
                 },
                 "corrections": {
                     "Reduced Speed": 1
@@ -273,9 +273,8 @@ export const flowData = {
             },
             "MARLN STAR": {
                 "aircraft": {
-                    "Jet": 16,
-                    "Non-Jet": 17,
-                    "DH8D": 15
+                    "Jet & DH8D": 16,
+                    "Non-Jet": 18
                 },
                 "corrections": {
                     "Reduced Speed": 1
@@ -283,46 +282,46 @@ export const flowData = {
             },
             "RIVET STAR": {
                 "aircraft": {
-                    "Jet": 11
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 12
                 },
                 "corrections": {
-                    "Reduced Speed": 1
+                    "Reduced Speed": 0
                 }
             },
             "ODALE STAR": {
                 "aircraft": {
-                    "Non-Jet": 10,
-                    "DH8D": 9
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 13
                 },
                 "corrections": {
-                    "Reduced Speed": 1
+                    "Reduced Speed": 0
                 }
             }
         },
         "16L": {
-            "BOREE STAR": {
+            "BOREE A/P STAR": {
                 "aircraft": {
-                    "Jet": 11
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 12
                 },
                 "corrections": {
-                    "Reduced Speed": 1
+                    "Reduced Speed": 0
                 }
             },
             "MEPIL STAR": {
                 "aircraft": {
-                    "Jet": 9,
-                    "Non-Jet": 10,
-                    "DH8D": 9
+                    "Jet & DH8D": 12,
+                    "Non-Jet": 13
                 },
                 "corrections": {
-                    "Reduced Speed": 1
+                    "Reduced Speed": 0
                 }
             },
             "MARLN STAR": {
                 "aircraft": {
-                    "Jet": 17,
-                    "Non-Jet": 20,
-                    "DH8D": 18
+                    "Jet & DH8D": 17,
+                    "Non-Jet": 19
                 },
                 "corrections": {
                     "Reduced Speed": 1
@@ -330,7 +329,8 @@ export const flowData = {
             },
             "RIVET STAR": {
                 "aircraft": {
-                    "Jet": 19
+                    "Jet & DH8D": 18,
+                    "Non-Jet": 20
                 },
                 "corrections": {
                     "Reduced Speed": 1
@@ -338,9 +338,8 @@ export const flowData = {
             },
             "ODALE STAR": {
                 "aircraft": {
-                    "Jet": 16,
-                    "Non-Jet": 19,
-                    "DH8D": 17
+                    "Jet & DH8D": 18,
+                    "Non-Jet": 21
                 },
                 "corrections": {
                     "Reduced Speed": 1
@@ -348,28 +347,28 @@ export const flowData = {
             }
         },
         "16R": {
-            "BOREE STAR": {
+            "BOREE A/P STAR": {
                 "aircraft": {
-                    "Jet": 11
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 12
                 },
                 "corrections": {
-                    "Reduced Speed": 1
+                    "Reduced Speed": 0
                 }
             },
             "MEPIL STAR": {
                 "aircraft": {
-                    "Non-Jet": 10,
-                    "DH8D": 9
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 13
                 },
                 "corrections": {
-                    "Reduced Speed": 1
+                    "Reduced Speed": 0
                 }
             },
             "MARLN STAR": {
                 "aircraft": {
-                    "Jet": 20,
-                    "Non-Jet": 22,
-                    "DH8D": 20
+                    "Jet & DH8D": 17,
+                    "Non-Jet": 20
                 },
                 "corrections": {
                     "Reduced Speed": 1
@@ -377,7 +376,8 @@ export const flowData = {
             },
             "RIVET STAR": {
                 "aircraft": {
-                    "Jet": 17
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
                 },
                 "corrections": {
                     "Reduced Speed": 1
@@ -385,8 +385,8 @@ export const flowData = {
             },
             "ODALE STAR": {
                 "aircraft": {
-                    "Non-Jet": 17,
-                    "DH8D": 15
+                    "Jet & DH8D": 16,
+                    "Non-Jet": 18
                 },
                 "corrections": {
                     "Reduced Speed": 1
@@ -394,9 +394,10 @@ export const flowData = {
             }
         },
         "25": {
-            "BOREE STAR": {
+            "BOREE A/P STAR": {
                 "aircraft": {
-                    "Jet": 15
+                    "Jet & DH8D": 14,
+                    "Non-Jet": 16
                 },
                 "corrections": {
                     "Reduced Speed": 1
@@ -404,8 +405,8 @@ export const flowData = {
             },
             "MEPIL STAR": {
                 "aircraft": {
-                    "Non-Jet": 13,
-                    "DH8D": 11
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 16
                 },
                 "corrections": {
                     "Reduced Speed": 1
@@ -413,17 +414,17 @@ export const flowData = {
             },
             "MARLN STAR": {
                 "aircraft": {
-                    "Jet": 13,
-                    "Non-Jet": 13,
-                    "DH8D": 11
+                    "Jet & DH8D": 12,
+                    "Non-Jet": 13
                 },
                 "corrections": {
-                    "Reduced Speed": 1
+                    "Reduced Speed": 0
                 }
             },
             "RIVET STAR": {
                 "aircraft": {
-                    "Jet": 17
+                    "Jet & DH8D": 16,
+                    "Non-Jet": 18
                 },
                 "corrections": {
                     "Reduced Speed": 1
@@ -431,8 +432,8 @@ export const flowData = {
             },
             "ODALE STAR": {
                 "aircraft": {
-                    "Non-Jet": 16,
-                    "DH8D": 14
+                    "Jet & DH8D": 17,
+                    "Non-Jet": 19
                 },
                 "corrections": {
                     "Reduced Speed": 1
@@ -440,9 +441,10 @@ export const flowData = {
             }
         },
         "34L": {
-            "BOREE STAR": {
+            "BOREE A/P STAR": {
                 "aircraft": {
-                    "Jet": 17
+                    "Jet & DH8D": 17,
+                    "Non-Jet": 20
                 },
                 "corrections": {
                     "Reduced Speed": 1
@@ -450,8 +452,8 @@ export const flowData = {
             },
             "MEPIL STAR": {
                 "aircraft": {
-                    "Non-Jet": 20,
-                    "DH8D": 18
+                    "Jet & DH8D": 18,
+                    "Non-Jet": 20
                 },
                 "corrections": {
                     "Reduced Speed": 1
@@ -459,9 +461,8 @@ export const flowData = {
             },
             "MARLN STAR": {
                 "aircraft": {
-                    "Jet": 18,
-                    "Non-Jet": 20,
-                    "DH8D": 18
+                    "Jet & DH8D": 18,
+                    "Non-Jet": 20
                 },
                 "corrections": {
                     "Reduced Speed": 1
@@ -469,7 +470,8 @@ export const flowData = {
             },
             "RIVET STAR": {
                 "aircraft": {
-                    "Jet": 15
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
                 },
                 "corrections": {
                     "Reduced Speed": 1
@@ -477,8 +479,8 @@ export const flowData = {
             },
             "ODALE STAR": {
                 "aircraft": {
-                    "Non-Jet": 16,
-                    "DH8D": 14
+                    "Jet & DH8D": 16,
+                    "Non-Jet": 18
                 },
                 "corrections": {
                     "Reduced Speed": 1
@@ -486,9 +488,10 @@ export const flowData = {
             }
         },
         "34R": {
-            "BOREE STAR": {
+            "BOREE A/P STAR": {
                 "aircraft": {
-                    "Jet": 17
+                    "Jet & DH8D": 17,
+                    "Non-Jet": 20
                 },
                 "corrections": {
                     "Reduced Speed": 1
@@ -496,9 +499,8 @@ export const flowData = {
             },
             "MEPIL STAR": {
                 "aircraft": {
-                    "Jet": 15,
-                    "Non-Jet": 19,
-                    "DH8D": 17
+                    "Jet & DH8D": 18,
+                    "Non-Jet": 20
                 },
                 "corrections": {
                     "Reduced Speed": 1
@@ -506,9 +508,8 @@ export const flowData = {
             },
             "MARLN STAR": {
                 "aircraft": {
-                    "Jet": 14,
-                    "Non-Jet": 19,
-                    "DH8D": 17
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
                 },
                 "corrections": {
                     "Reduced Speed": 1
@@ -516,7 +517,8 @@ export const flowData = {
             },
             "RIVET STAR": {
                 "aircraft": {
-                    "Jet": 19
+                    "Jet & DH8D": 18,
+                    "Non-Jet": 20
                 },
                 "corrections": {
                     "Reduced Speed": 1
@@ -524,9 +526,8 @@ export const flowData = {
             },
             "ODALE STAR": {
                 "aircraft": {
-                    "Jet": 17,
-                    "Non-Jet": 19,
-                    "DH8D": 17
+                    "Jet & DH8D": 18,
+                    "Non-Jet": 20
                 },
                 "corrections": {
                     "Reduced Speed": 1
