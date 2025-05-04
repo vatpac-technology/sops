@@ -9,7 +9,7 @@
 
         "<aerodrome name>": {
             "<runway title>": {
-                "<STAR name>": {
+                "<arrival name>": {
                     "aircraft": {
                         "<aircraft title>": <feeder fix to runway time in minutes>
                     },
