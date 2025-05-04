@@ -4,6 +4,19 @@
     This script stores the data source for the Flow Calculator logic. Only make edits to this script, do not touch the flowControllerLogic.js script.
 
     To add a new aerodrome, add it to the flowData array below. Copy/paste the ### Calculator UI section from a terminal page like Melbourne or Sydney onto the target markdown page and ensure that the flowControllerLogic.js script is referenced correctly. The script will automatically detect the aerodrome and create the form inside the divs.
+
+    The flowData object is structured as follows:
+
+        "<aerodrome name>": {
+            "<runway title>": {
+                "<STAR name>": {
+                    "aircraft": {
+                        "<aircraft title>": <feeder fix to runway time in minutes>
+                    },
+                    "corrections": {
+                        "<speed title>": <delay in minutes (positive for extra delay, negative for less delay)>
+                    }
+                }
 */
 
 export const flowData = {
