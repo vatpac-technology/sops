@@ -4,9 +4,6 @@
 
 --8<-- "includes/abbreviations.md"
 
-<details open markdown="1">
-<summary>Positions</summary>
-
 ## Positions
 
 | Name               | ID      | Callsign       | Frequency        | Login ID              |
@@ -25,11 +22,6 @@
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
     :octicons-checklist-24: [Additional requirements](#airspace-structural-arrangements) must be met prior to opening SRI as a stand-alone position.
-
-</details>
-
-<details markdown="1">
-<summary>Airspace</summary>
 
 ## Airspace
 The Vertical limits of the SY TCU are `SFC` to `F285`.  
@@ -134,10 +126,6 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
 ![SODPROPS TCU Structure](img/sySODPROPS.png){ width="700" }
   <figcaption>SODPROPS TCU Structure</figcaption>
 </figure>
-</details>
-
-<details markdown="1">
-<summary>Arrival Procedures</summary>
 
 ## Arrival Procedures
 ### STAR and Runway Assignment
@@ -185,10 +173,6 @@ All aircraft should be assigned no lower than `A060` until clear of the active r
     For an aircraft inbound from the north on the BOREE STAR to runway 34R, assign no lower than `A080` until any adjacent aircraft are maintaing `A060`, then `A070` until the aircraft are laterally clear.  The arrival should then be assigned `A060` until south of the field.
 
 Be mindful of departures from YSBK which may also impact aircraft on downwind for RWY 16R at YSSY.  Do not assign lower than `A040` until the aircraft is north/east of the BK CTR and clear of any departing traffic (who are assigned `A030` by default).
-</details>
-
-<details markdown="1">
-<summary>Parallel Runway Operations</summary>
 
 ## Parallel Runway Operations
 Refer to [Parallel Runway Separation Standards](../../separation-standards/parallelapps) for more information
@@ -246,11 +230,6 @@ When conducting IVAs, aircraft shall not be transferred to **SY ADC** until esta
 !!! phraseology
     **SFE:** “ANZ361, Turn right heading 330, join final Runway 34R, from that heading Cleared Independent Visual Approach Runway 34R, not below 1500 until established on the PAPI”    
 
-</details>
-
-<details markdown="1">
-<summary>Sydney Harbour Scenic Flights</summary>
-
 ## Sydney Harbour Scenic Flights
 Flights may be cleared for one of two standard scenic flight routes at `A015`, **Harbour Scenic One** or **Harbour Scenic Two**, which are described below. Pilot preference should be accommodated where traffic permits.
 
@@ -276,10 +255,6 @@ These can be displayed on vatSys using the `SY_VFR` map.
 
 !!! note
     Remember that VFR aircraft are **not** separated from other VFR aircraft in class C airspace.  If other VFR aircraft are operating over the harbour, you are not required to provide a separation standard between them, however you must pass traffic information to both aircraft.
-</details>
-
-<details markdown="1">
-<summary>Helicopter Operations</summary>
 
 ## Helicopter Operations
 ### Inbound/Outbound Routes
@@ -359,11 +334,6 @@ Helicopters departing from a hospital in ADC's jurisdiction and intending to ent
     <span class="hotline">**SY TCU** -> **SY ADC**</span>: "RSCU209, A030"  
     <span class="hotline">**SY ADC** -> **SY TCU**</span>: "A030, RSCU209" 
 
-</details>
-
-<details markdown="1">
-<summary>Offline Towers</summary>
-
 ## Offline Towers
 ### BK ADC Offline
 Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
@@ -376,11 +346,6 @@ Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, i
     **ABC**: "LOA, ready Runway 11C"  
     **SY TCU**: "LOA, cleared to YSHL via ANKUB, flight planned route, BK9 departure, climb via SID to A030"  
     **LOA**: "Cleared to YSHL via ANKUB, flight planned route, BK9 departure, climb via SID to A030, LOA"
-
-</details>
-
-<details markdown="1">
-<summary>Flow</summary>
 
 ## Flow
 ### Local Knowledge
@@ -434,11 +399,6 @@ The following calculator will generate a landing time from a feeder fix ETA, or 
 
 === "Feeder Fix Time"
     <div id="flowCalculatorFeederFixTime"></div>
-
-</details>
-
-<details markdown="1">
-<summary>Coordination</summary>
 
 ## Coordination
 ### Enroute
@@ -722,5 +682,3 @@ SY TCU will **NOT** clear the aircraft for the approach.
     <span class="hotline">**RI ADC** -> **SDN**</span>: "TROJ57"  
 
 The Standard Assignable Level from **RI ADC** to **SY TCU** is the lower of `A050` or `RFL`.  
-
-</details>
