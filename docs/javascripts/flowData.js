@@ -804,5 +804,65 @@ export const flowData = {
                 }
             }
         }
+    },
+    "YMLT": {
+        "14R": {
+            "IRSOM MLTNE": {
+                "aircraft": {
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 12
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "MIMIM MLTNG": {
+                "aircraft": {
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "LATUM MLTND": {
+                "aircraft": {
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            }
+        },
+        "32L": {
+            "IRSOM NODAS MLTSC": {
+                "aircraft": {
+                    "Jet & DH8D": 16,
+                    "Non-Jet": 18
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "MIMIM ELREL MLTSA": {
+                "aircraft": {
+                    "Jet & DH8D": 19,
+                    "Non-Jet": 11
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "LATUM MLTSB": {
+                "aircraft": {
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 12
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            }
+        }
     }
 };

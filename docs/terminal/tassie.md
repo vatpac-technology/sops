@@ -34,11 +34,32 @@ The Airspace on and west of the IRSOM-MORGO track `F125`-`F245` is permanently r
 ## YMHB
 All aircraft should be kept on SIDs and STARs. If due to operational requirements or routing, an aircraft is unable to accept the SID or STAR, voice coordination with HUO will be required.
 
-### Flow
-#### Local Knowledge
+## YMLT
+Visual approaches are preferred into YMLT. If due to operational requirements, an aircraft is unable to accept a visual approach, coordination with **LT ADC** may be required.  
+
+Runway 32L is regularly the duty runway due to prevailing winds. To assist traffic flow in and out of the TCU, ATC will instruct aircraft to track for runway 32L via one of the following routes:
+
+| Via              | Routing      |
+| ------------------ | --------------|
+| IRSOM  | NODAS MLTSC |
+| NUNPA  | ELREL MLTSA |
+
+These routes keep arrivals within CTA and away from the departure stream(s).
+
+!!! note
+    Clearing aircraft to track via one of the above routes does **not** constitute a voiceless coordination route between LTA and LT ADC. Aircraft should still be heads-up coordinated to LT ADC prior to **5 minutes** to the boundary, unless coordinated otherwise.
+
+## YCBG
+Aircraft inbound to YCBG who will track via the HBA CTA should be issued an airways clearance by HBA, then passed to HB ADC when appropriate. HBA must coordinate any clearance limits issued to HB ADC. 
+
+Aircraft inbound to YCBG who will track directly from Class G airspace to the CTR should contact HB ADC for clearance.
+
+## Flow
+### Local Knowledge
 - IFR aircraft inbound to YCBG must be flowed as if they were arriving at YMHB, unless they can accept a visual approach and remain clear of the inbound tracks to YMHB
 
-#### Flow Tables
+### Flow Tables
+#### YMHB
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
 === "Jets & DH8D"
@@ -63,17 +84,42 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | MORGO V      | - | 16  |
     | MORGO W      | - | 16  |
 
-##### Corrections
+#### YMLT
+The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
+
+=== "Jets & DH8D"
+
+    | Tracking | RWY 14R | RWY 32L |
+    | ---------- | ---| -- |
+    | IRSOM MLTNE        | 11^ | - |
+    | IRSOM NODAS MLTSC  | - | 16 |
+    | MIMIM MLTNG        | 15 | - |
+    | MIMIM ELREL MLTSA  | - | 19  |
+    | LATUM MLTND        | 15 | - |
+    | LATUM MLTSB        | - | 11^  |
+
+=== "Non-Jets"
+
+    | Tracking | RWY 14R | RWY 32L |
+    | ---------- | ---| -- |
+    | IRSOM MLTNE        | 12^ | - |
+    | IRSOM NODAS MLTSC  | - | 18 |
+    | MIMIM MLTNG        | 17 | - |
+    | MIMIM ELREL MLTSA  | - | 21  |
+    | LATUM MLTND        | 17 | - |
+    | LATUM MLTSB        | - | 12^  |
+
+#### Corrections
 
 | Situation | Correction |
 | ----- | ----- |
 | Assigned a reduced speed | +1 min, *except ^* | 
 | Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
 
-##### Assumptions
+#### Assumptions
 - Nil wind
 
-#### Calculator
+### YMHB Calculator
 <script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
 The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
 
@@ -83,25 +129,15 @@ The following calculator will generate a landing time from a feeder fix ETA, or 
 === "Feeder Fix Time"
     <div class="flowCalculatorFeederFixTime" data-aerodrome="YMHB"></div>
 
-## YMLT
-Visual approaches are preferred into YMLT. If due to operational requirements, an aircraft is unable to accept a visual approach, coordination with **LT ADC** may be required.  
+### YMLT Calculator
+<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
+The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
 
-Runway 32L is regularly the duty runway due to prevailing winds. To assist traffic flow in and out of the TCU, ATC will instruct aircraft to track for runway 32L via one of the following routes:
+=== "Landing Time"
+    <div class="flowCalculatorLandingTime" data-aerodrome="YMLT"></div>
 
-| Via              | Routing      |
-| ------------------ | --------------|
-| IRSOM  | NODAS MLTSC |
-| NUNPA  | ELREL MLTSA |
-
-These routes keep arrivals within CTA and away from the departure stream(s).
-
-!!! note
-    Clearing aircraft to track via one of the above routes does **not** constitute a voiceless coordination route between LTA and LT ADC. Aircraft should still be heads-up coordinated to LT ADC prior to **5 minutes** to the boundary, unless coordinated otherwise.
-
-## YCBG
-Aircraft inbound to YCBG who will track via the HBA CTA should be issued an airways clearance by HBA, then passed to HB ADC when appropriate. HBA must coordinate any clearance limits issued to HB ADC. 
-
-Aircraft inbound to YCBG who will track directly from Class G airspace to the CTR should contact HB ADC for clearance.
+=== "Feeder Fix Time"
+    <div class="flowCalculatorFeederFixTime" data-aerodrome="YMLT"></div>
 
 ## Coordination
 
