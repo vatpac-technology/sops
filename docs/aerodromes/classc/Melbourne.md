@@ -20,6 +20,16 @@ Except when the traffic situation warrants, taxi clearances shall conform to the
   <figcaption>YMML Standard Taxi Routes</figcaption>
 </figure>
 
+### Taxiway Construction
+In the real world, an additional taxiway parallel to runway 27 has been built, named taxiway D. This is allowing for taxiway E to be removed and reconstructed in a slightly different position.
+
+The majority of simulators do not have scenery which reflects this construction, however X-Plane (and possibly some other niche scenery packages) do. Controllers should continue to give taxi instructions in accordance with the ground map in vatSys, but they should be prepared to accommodate pilots using a variety of scenery packages.
+
+<figure markdown>
+![Taxiway D Construction](img/ymmltaxiwayd.png){width="550"}
+    <figcaption>Taxiway D Construction</figcaption>
+</figure>
+
 ## Airspace
 ML ADC is not responsible for any airspace by default.
 
