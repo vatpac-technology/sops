@@ -259,10 +259,10 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
 
 === "Landing Time"
-    <div id="flowCalculatorLandingTime"></div>
+    <div class="flowCalculatorLandingTime" data-aerodrome="YMML"></div>
 
 === "Feeder Fix Time"
-    <div id="flowCalculatorFeederFixTime"></div>
+    <div class="flowCalculatorFeederFixTime" data-aerodrome="YMML"></div>
 
 
 ## Coordination
