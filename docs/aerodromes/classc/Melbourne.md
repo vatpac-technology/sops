@@ -21,14 +21,22 @@ Except when the traffic situation warrants, taxi clearances shall conform to the
 </figure>
 
 ### Taxiway Construction
-In the real world, an additional taxiway parallel to runway 27 has been built, named taxiway D. This is allowing for taxiway E to be removed and reconstructed in a slightly different position.
-
-The majority of simulators do not have scenery which reflects this construction, however X-Plane (and possibly some other niche scenery packages) do. Controllers should continue to give taxi instructions in accordance with the ground map in vatSys, but they should be prepared to accommodate pilots using a variety of scenery packages.
+In the real world, a number of projects are shaping the layout of YMML. Simulator scenery packages are often slow to respond to these changes and different pilots may have different aerodrome layouts available to them. Controllers should continue to give taxi instructions in accordance with the ground map in vatSys, but they should be prepared to accommodate pilots using a variety of scenery packages.
 
 <figure markdown>
-![Taxiway D Construction](img/ymmltaxiwayd.png){width="550"}
-    <figcaption>Taxiway D Construction</figcaption>
+![Taxiway Works](img/ymmltaxiwayworks.png){width="700"}
+    <figcaption>Taxiway Works</figcaption>
 </figure>
+
+#### Taxiway D/E
+An additional taxiway parallel to runway 27 has been built, named taxiway D. This is allowing for taxiway E to be removed and reconstructed in a slightly different position.
+
+The majority of simulators do not have scenery which reflects this construction, however X-Plane (and possibly some other niche scenery packages) do.
+
+#### Taxiway Y Apron Taxi Lanes
+The apron off taxiway Y has been amended to include two separate taxi lanes, capable of facilitating simultaneous pushbacks from aircraft at Pier F and Pier G.
+
+The majority of simulators will still have the old apron layout with a single taxi lane between the two piers. Controllers should be wary of the potential for collision if simultanous pushback approval is given to aircraft in this area.
 
 ## Airspace
 ML ADC is not responsible for any airspace by default.
