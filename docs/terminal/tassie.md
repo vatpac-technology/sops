@@ -34,6 +34,55 @@ The Airspace on and west of the IRSOM-MORGO track `F125`-`F245` is permanently r
 ## YMHB
 All aircraft should be kept on SIDs and STARs. If due to operational requirements or routing, an aircraft is unable to accept the SID or STAR, voice coordination with HUO will be required.
 
+### Flow
+#### Local Knowledge
+- IFR aircraft inbound to YCBG must be flowed as if they were arriving at YMHB, unless they can accept a visual approach and remain clear of the inbound tracks to YMHB
+
+#### Flow Tables
+The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
+
+=== "Jets & DH8D"
+
+    | STAR | RWY 12 | RWY 30 |
+    | ---------- | ---| -- |
+    | IPLET A      | 12^ | 12^  |
+    | IPLET V      | 10^ | 10^  |
+    | IPLET W      | 10^ | 10^  |
+    | MORGO A      | 12^ | 15  |
+    | MORGO V      | - | 14  |
+    | MORGO W      | - | 14  |
+
+=== "Non-Jets"
+
+    | STAR | RWY 12 | RWY 30 |
+    | ---------- | ---| -- |
+    | IPLET A      | 13^ | 13^  |
+    | IPLET V      | 11^ | 11^  |
+    | IPLET W      | 11^ | 12^  |
+    | MORGO A      | 13^ | 17  |
+    | MORGO V      | - | 16  |
+    | MORGO W      | - | 16  |
+
+##### Corrections
+
+| Situation | Correction |
+| ----- | ----- |
+| Assigned a reduced speed | +1 min, *except ^* | 
+| Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
+
+##### Assumptions
+- Nil wind
+
+#### Calculator
+<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
+The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
+
+=== "Landing Time"
+    <div class="flowCalculatorLandingTime" data-aerodrome="YMHB"></div>
+
+=== "Feeder Fix Time"
+    <div class="flowCalculatorFeederFixTime" data-aerodrome="YMHB"></div>
+
 ## YMLT
 Visual approaches are preferred into YMLT. If due to operational requirements, an aircraft is unable to accept a visual approach, coordination with **LT ADC** may be required.  
 

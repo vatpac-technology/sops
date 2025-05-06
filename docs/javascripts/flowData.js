@@ -1,13 +1,13 @@
 /*
-    Notes:
-
+    # Notes
     This script stores the data source for the Flow Calculator logic. Only make edits to this script, do not touch the flowControllerLogic.js script.
 
-    To add a new aerodrome, add it to the flowData array below. Copy/paste the ### Calculator UI section from a terminal page like Melbourne or Sydney onto the target markdown page and ensure that the flowControllerLogic.js script is referenced correctly. The script will automatically detect the aerodrome and create the form inside the divs.
+    # Adding a New Aerodrome
+    To add a new aerodrome, add it to the flowData array below. Copy/paste the ### Calculator UI section from a terminal page like Melbourne or Sydney onto the target markdown page and ensure that the flowControllerLogic.js script is referenced correctly. Update the 'data-aerodrome' attribute in the HTML to match the new aerodrome ICAO code.
 
     The flowData object is structured as follows:
 
-        "<aerodrome name>": {
+        "<aerodrome ICAO>": {
             "<runway title>": {
                 "<arrival name>": {
                     "aircraft": {
@@ -17,10 +17,13 @@
                         "<speed title>": <delay in minutes (positive for extra delay, negative for less delay)>
                     }
                 }
+
+    # Limitations
+    - Only one calculator of each type (i.e. Landing Time and Feeder Fix Time) can be rendered on each page for a given aerodrome (multiple calculators can be rendered for different aerodromes on the same page)
 */
 
 export const flowData = {
-    "melbourne": {
+    "YMML": {
         "09": {
             "ARBEY STAR": {
                 "aircraft": {
@@ -264,7 +267,7 @@ export const flowData = {
             }
         }
     },
-    "sydney": {
+    "YSSY": {
         "07": {
             "BOREE A/P STAR": {
                 "aircraft": {
@@ -548,7 +551,7 @@ export const flowData = {
             }
         }
     },
-    "canberra": {
+    "YSCB": {
         "17": {
             "AVBEG STAR": {
                 "aircraft": {
@@ -702,6 +705,102 @@ export const flowData = {
                 },
                 "corrections": {
                     "Reduced Speed": 0
+                }
+            }
+        }
+    },
+    "YMHB": {
+        "12": {
+            "IPLET A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 12,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "IPLET V STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 10,
+                    "Non-Jet": 11
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "IPLET W STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 10,
+                    "Non-Jet": 11
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "MORGO A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 12,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            }
+        },
+        "30": {
+            "IPLET A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 12,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "IPLET V STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 10,
+                    "Non-Jet": 11
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "IPLET W STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 10,
+                    "Non-Jet": 12
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "MORGO A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "MORGO V STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 14,
+                    "Non-Jet": 16
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "MORGO W STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 14,
+                    "Non-Jet": 16
+                },
+                "corrections": {
+                    "Reduced Speed": 1
                 }
             }
         }
