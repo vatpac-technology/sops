@@ -187,11 +187,13 @@ Once the aircraft exits the CTA, cancel their identification and control service
 
 ## Flow
 ### Local Knowledge
-- Aircraft from the south may be split between the GOMOL/BLAKA and ENLIP STARs, and assigned different runways, to reduce overall delay (most effective during 01 PROPS)
-- Aircraft may be issued the appropriate Xray or Victor STAR to reduce track miles
-- Aircraft from the north for RWY 01R may be issued the SMOKA M STAR to reduce track miles
+- Aircraft inbound to YBBN from the south may be split between the GOMOL/BLAKA and ENLIP STARs, and assigned different runways, to reduce overall delay (most effective during 01 PROPS)
+- Aircraft inbound to YBBN may be issued the appropriate Xray or Victor STAR to reduce track miles
+- Aircraft inbound to YBBN from the north for RWY 01R may be issued the SMOKA M STAR to reduce track miles
+- Aircraft inbound to YBCG may be assigned the Yankee or Victor STAR to reduce track miles
 
 ### Flow Tables
+#### YBBN
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
 === "Jets & DH8D"
@@ -242,6 +244,33 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | WOODY A  | 16      | 15      | 17      | 16      |
     | WOODY V  | 13^     | -       | -       | 14^     |
 
+#### YBCG
+The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
+
+=== "Jets & DH8D"
+
+    | Arrival | RWY 14 | RWY 32 |
+    | ------- | ------ | ------ |
+    | BERNI A STAR | 15  | 11^  |
+    | BERNI V STAR | 14  | 12^  |
+    | BERNI Y STAR | 14  | - |
+    | LAMSI A STAR | 13  | 11^  |
+    | LAMSI Y STAR | 12^  | 10^  |
+    | BN Y177 IDRIL CG2SA | -  | 16  |
+    | BN Y177 IDRIL CG2NC | 12^ | - |
+
+=== "Non-Jets"
+
+    | Arrival | RWY 14 | RWY 32 |
+    | ------- | ------ | ------ |
+    | BERNI A STAR | 17  | 13^  |
+    | BERNI V STAR | 16  | 13^  |
+    | BERNI Y STAR | 16  | - |
+    | LAMSI A STAR | 15  | 13^  |
+    | LAMSI Y STAR | 14^  | 12^  |
+    | BN Y177 IDRIL CG2SA | -  | 18  |
+    | BN Y177 IDRIL CG2NC | 13^ | - |
+
 #### Corrections
 
 | Situation | Correction |
@@ -251,8 +280,10 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
 #### Assumptions
 - Nil wind
+- Aircraft inbound to YBCG from the north will track from IDRIL to the IAF for their assigned approach
+- Aircraft inbound to YBCG on a STAR ending at FIKUL or KEGAN will conduct the RNP Z approach
 
-### Calculator
+### YBBN Calculator
 <script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
 The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
 
@@ -261,6 +292,16 @@ The following calculator will generate a landing time from a feeder fix ETA, or 
 
 === "Feeder Fix Time"
     <div class="flowCalculatorFeederFixTime" data-aerodrome="YBBN"></div>
+
+### YBCG Calculator
+<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
+The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
+
+=== "Landing Time"
+    <div class="flowCalculatorLandingTime" data-aerodrome="YBCG"></div>
+
+=== "Feeder Fix Time"
+    <div class="flowCalculatorFeederFixTime" data-aerodrome="YBCG"></div>
 
 ## Coordination
 ### Enroute
