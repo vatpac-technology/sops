@@ -1465,5 +1465,110 @@ export const flowData = {
                 }
             }
         }
+    },
+    "YPDN": {
+        "11": {
+            "ANUPA A/X STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 12,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "GATOR A/X STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 17,
+                    "Non-Jet": 19
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "VEGPU A/X STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 13,
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "VEGPU W STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "WANGI A/X STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "WANGI W STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 14,
+                    "Non-Jet": 16
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            }
+        },
+        "29": {
+            "ANUPA A/X STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 18,
+                    "Non-Jet": 21
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "GATOR A/X STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 13,
+                    "Non-Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "VEGPU A/X STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 8,
+                    "Non-Jet": 9
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "WANGI A/X STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 17,
+                    "Non-Jet": 19
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "WANGI W STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            }
+        }
     }
 };
