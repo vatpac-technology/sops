@@ -864,5 +864,501 @@ export const flowData = {
                 }
             }
         }
+    },
+    "YBBN": {
+        "01L": {
+            "BLAKA A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 13,
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "ENLIP A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "GOMOL A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 14,
+                    "Non-Jet": 16
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "MORBI A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 16,
+                    "Non-Jet": 18
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "MORBI V STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 13,
+                    "Non-Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "SMOKA A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "SMOKA X STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 13,
+                    "Non-Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "TEBOT A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 18,
+                    "Non-Jet": 20
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "UGTUG A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "WOODY A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 14,
+                    "Non-Jet": 16
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "WOODY V STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            }
+        },
+        "01R": {
+            "BLAKA A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 13,
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "BLAKA X STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 12,
+                    "Non-Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "ENLIP A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "GOMOL A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 14,
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "GOMOL V STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 13,
+                    "Non-Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "GOMOL X STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 12,
+                    "Non-Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "MORBI A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "SMOKA A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 14,
+                    "Non-Jet": 16
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "SMOKA M STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 12,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "TEBOT A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 18,
+                    "Non-Jet": 21
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "TEBOT X STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "UGTUG A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "UGTUG X STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 13,
+                    "Non-Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "WOODY A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 13,
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            }
+        },
+        "19L": {
+            "BLAKA A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 19,
+                    "Non-Jet": 22
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "BLAKA X STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 16,
+                    "Non-Jet": 18
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "ENLIP A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 20,
+                    "Non-Jet": 23
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "ENLIP X STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 16,
+                    "Non-Jet": 19
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "GOMOL A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 18,
+                    "Non-Jet": 21
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "GOMOL V STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "GOMOL X STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 16,
+                    "Non-Jet": 18
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "MORBI A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 13,
+                    "Non-Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "SMOKA A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 13,
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "TEBOT A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 12
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "UGTUG A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 13,
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "UGTUG X STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 12,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "WOODY A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            }
+        },
+        "19R": {
+            "BLAKA A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 21,
+                    "Non-Jet": 24
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "ENLIP A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 18,
+                    "Non-Jet": 20
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "ENLIP X STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 16,
+                    "Non-Jet": 18
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "GOMOL A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 20,
+                    "Non-Jet": 23
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "ISPON A (ENLIP trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 20,
+                    "Non-Jet": 23
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "ISPON A (BLAKA trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 19,
+                    "Non-Jet": 22
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "ISPON A (GOMOL trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 19,
+                    "Non-Jet": 21
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "ISPON A (UGTUG trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 14,
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "MORBI A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 12,
+                    "Non-Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "MORBI V STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 12
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "SMOKA A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 13,
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "SMOKA X STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "TEBOT A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "UGTUG A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 14,
+                    "Non-Jet": 16
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "WOODY A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 16
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "WOODY V STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 12,
+                    "Non-Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            }
+        }
     }
 };
