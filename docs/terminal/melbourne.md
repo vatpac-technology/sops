@@ -210,6 +210,7 @@ Due to the low level of CTA surrounding YMMB, it is best practice to give airway
 - Aircraft from the south may be issued the PORTS STAR in lieu of the WAREN STAR to reduce track miles to runways 09 and 34
 - In lieu of a STAR, aircraft from the west may be radar vectored via a right circuit to runway 16 to reduce track miles
 - Aircraft from the northeast may be issued RWY 27 or direct to the IAF of the RNP-M RWY 16 to reduce track miles
+- LAHSO runway mode will increase arrival rate (see [activation prerequisites](#lahso) for specific LAHSO approvals required)
 
 ### Flow Tables
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.

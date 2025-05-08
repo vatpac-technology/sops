@@ -1570,5 +1570,408 @@ export const flowData = {
                 }
             }
         }
+    },
+    "YPPH": {
+        "03": {
+            "DAYLR A STAR": {
+                "aircraft": {
+                    "DH8D": 12,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "DAYLR V STAR": {
+                "aircraft": {
+                    "DH8D": 10,
+                    "Non-Jet": 12
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "DAYLR X STAR": {
+                "aircraft": {
+                    "DH8D": 10,
+                    "Non-Jet": 11
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "IPMOR A STAR": {
+                "aircraft": {
+                    "Jet": 17,
+                    "DH8D": 17,
+                    "Non-Jet": 19
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "JULIM A STAR": {
+                "aircraft": {
+                    "Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "JULIM V STAR": {
+                "aircraft": {
+                    "Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "JULIM X STAR": {
+                "aircraft": {
+                    "Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "KABLI A STAR": {
+                "aircraft": {
+                    "Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "KABLI V STAR": {
+                "aircraft": {
+                    "Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "KABLI X STAR": {
+                "aircraft": {
+                    "Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "LAVEX A STAR": {
+                "aircraft": {
+                    "DH8D": 16,
+                    "Non-Jet": 18
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "LAVEX V STAR": {
+                "aircraft": {
+                    "DH8D": 14,
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "LAVEX X STAR": {
+                "aircraft": {
+                    "DH8D": 13,
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "SAPKO A STAR": {
+                "aircraft": {
+                    "DH8D": 18,
+                    "Non-Jet": 20
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "SAPKO V STAR": {
+                "aircraft": {
+                    "DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "SAPKO X STAR": {
+                "aircraft": {
+                    "DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "SOLUS A STAR": {
+                "aircraft": {
+                    "Jet": 11,
+                    "DH8D": 11,
+                    "Non-Jet": 12
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "SOLUS V STAR": {
+                "aircraft": {
+                    "Jet": 10,
+                    "DH8D": 10,
+                    "Non-Jet": 12
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "SOLUS X STAR": {
+                "aircraft": {
+                    "Jet": 10,
+                    "DH8D": 10,
+                    "Non-Jet": 11
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            }
+        },
+        "06": {
+            "DAYLR A STAR": {
+                "aircraft": {
+                    "DH8D": 13,
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "DAYLR V STAR": {
+                "aircraft": {
+                    "DH8D": 11,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "IPMOR A STAR": {
+                "aircraft": {
+                    "Jet": 14,
+                    "DH8D": 14,
+                    "Non-Jet": 16
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "JULIM A STAR": {
+                "aircraft": {
+                    "Jet": 19
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "JULIM V STAR": {
+                "aircraft": {
+                    "Jet": 16
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "KABLI A STAR": {
+                "aircraft": {
+                    "Jet": 16
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "KABLI V STAR": {
+                "aircraft": {
+                    "Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "LAVEX A STAR": {
+                "aircraft": {
+                    "DH8D": 17,
+                    "Non-Jet": 20
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "LAVEX V STAR": {
+                "aircraft": {
+                    "DH8D": 14,
+                    "Non-Jet": 16
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "SAPKO A STAR": {
+                "aircraft": {
+                    "DH8D": 19,
+                    "Non-Jet": 22
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "SAPKO V STAR": {
+                "aircraft": {
+                    "DH8D": 16,
+                    "Non-Jet": 18
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "SOLUS A STAR": {
+                "aircraft": {
+                    "Jet": 12,
+                    "DH8D": 12,
+                    "Non-Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "SOLUS V STAR": {
+                "aircraft": {
+                    "Jet": 11,
+                    "DH8D": 11,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            }
+        },
+        "21": {
+            "IPMOR A STAR": {
+                "aircraft": {
+                    "Jet": 15,
+                    "DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "JULIM A STAR": {
+                "aircraft": {
+                    "Jet": 10
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "KABLI A STAR": {
+                "aircraft": {
+                    "Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "LAVEX A STAR": {
+                "aircraft": {
+                    "DH8D": 14,
+                    "Non-Jet": 16
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "SAPKO A STAR": {
+                "aircraft": {
+                    "DH8D": 10,
+                    "Non-Jet": 11
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "SOLUS A STAR": {
+                "aircraft": {
+                    "Jet": 14,
+                    "DH8D": 14,
+                    "Non-Jet": 16
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            }
+        },
+        "24": {
+            "IPMOR A STAR": {
+                "aircraft": {
+                    "Jet": 17,
+                    "DH8D": 17,
+                    "Non-Jet": 20
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "JULIM A STAR": {
+                "aircraft": {
+                    "Jet": 10
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "KABLI A STAR": {
+                "aircraft": {
+                    "Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "LAVEX A STAR": {
+                "aircraft": {
+                    "DH8D": 13,
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "SAPKO A STAR": {
+                "aircraft": {
+                    "DH8D": 10,
+                    "Non-Jet": 11
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "SOLUS A STAR": {
+                "aircraft": {
+                    "Jet": 12,
+                    "DH8D": 12,
+                    "Non-Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            }
+        }
     }
 };

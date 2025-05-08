@@ -110,6 +110,89 @@ Aircraft departing the TMA to the south planned at `F130` or above will likely l
     **PHD**: "RXA2125, leave and re-enter controlled airspace on climb to F180, no reported IFR traffic"  
     **RXA2125**: "Leave and re-enter controlled airspace on climb to F180, RXA2125"
 
+## Flow
+### Local Knowledge
+- Aircraft can be assigned the Xray or Victor STAR to reduce track miles
+- Aircraft for RWY 21 can be radar vectored to the opposite side arc IAF to increase track miles in the TMA
+
+### Flow Tables
+The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
+
+=== "Jets"
+
+    | STAR       | RWY 03 | RWY 06 | RWY 21 | RWY 24 |
+    | ---------- | ------ | ------ | ------ | ------ |
+    | IPMOR A    | 17     | 14     | 15     | 17     |
+    | JULIM A    | 17     | 19     | 10^    | 10^    |
+    | JULIM V    | 15     | 16     | -      | -      |
+    | JULIM X    | 15     | -      | -      | -      |
+    | KABLI A    | 15     | 16     | 15     | 15     |
+    | KABLI V    | 13     | 14     | -      | -      |
+    | KABLI X    | 13     | -      | -      | -      |
+    | SOLUS A    | 11^    | 12     | 14     | 12^    |
+    | SOLUS V    | 10^    | 11^    | -      | -      |
+    | SOLUS X    | 10^    | -      | -      | -      |
+
+=== "DH8D"
+
+    | STAR       | RWY 03 | RWY 06 | RWY 21 | RWY 24 |
+    | ---------- | ------ | ------ | ------ | ------ |
+    | DAYLR A    | 12^    | 13     | -      | -      |
+    | DAYLR V    | 10^    | 11^    | -      | -      |
+    | DAYLR X    | 10^    | -      | -      | -      |
+    | IPMOR A    | 17     | 14     | 15     | 17     |
+    | LAVEX A    | 16     | 17     | 14     | 13     |
+    | LAVEX V    | 14     | 14     | -      | -      |
+    | LAVEX X    | 13     | -      | -      | -      |
+    | SAPKO A    | 18     | 19     | 10^    | 10^    |
+    | SAPKO V    | 15     | 16     | -      | -      |
+    | SAPKO X    | 15     | -      | -      | -      |
+    | SOLUS A    | 11^    | 12     | 14     | 12^    |
+    | SOLUS V    | 10^    | 11^    | -      | -      |
+    | SOLUS X    | 10^    | -      | -      | -      |
+
+=== "Non-Jets"
+
+    | STAR       | RWY 03 | RWY 06 | RWY 21 | RWY 24 |
+    | ---------- | ------ | ------ | ------ | ------ |
+    | DAYLR A    | 13^    | 15     | -      | -      |
+    | DAYLR V    | 12^    | 13^    | -      | -      |
+    | DAYLR X    | 11^    | -      | -      | -      |
+    | IPMOR A    | 19     | 16     | 17     | 20     |
+    | LAVEX A    | 18     | 20     | 16     | 15     |
+    | LAVEX V    | 15     | 16     | -      | -      |
+    | LAVEX X    | 15     | -      | -      | -      |
+    | SAPKO A    | 20     | 22     | 11^    | 11^    |
+    | SAPKO V    | 17     | 18     | -      | -      |
+    | SAPKO X    | 17     | -      | -      | -      |
+    | SOLUS A    | 12^    | 14     | 16     | 14^    |
+    | SOLUS V    | 12^    | 13^    | -      | -      |
+    | SOLUS X    | 11^    | -      | -      | -      |
+
+#### Corrections
+
+| Situation | Correction |
+| ----- | ----- |
+| Assigned a reduced speed | +1 min, *except ^* | 
+| Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
+
+#### Assumptions
+- Nil wind
+- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except as below
+- The feeder fix for the IPMOR STAR is KAGMI
+- Aircraft on the SOLUS STAR to RWY 21/24 will be vectored from MOCUR to the IAF for ILS
+- Aircraft on the IPMOR STAR to RWY 24 will be vectored from WOOFY to the IAF for the ILS
+
+### Calculator
+<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
+The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
+
+=== "Landing Time"
+    <div class="flowCalculatorLandingTime" data-aerodrome="YPPH"></div>
+
+=== "Feeder Fix Time"
+    <div class="flowCalculatorFeederFixTime" data-aerodrome="YPPH"></div>
+
 ## Coordination
 ### Enroute
 #### Departures
