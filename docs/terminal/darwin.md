@@ -120,6 +120,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
 #### Assumptions
 - Nil wind
+- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except as below
 - The feeder fix for the ANUPA STAR is SUDAG
 
 ### Calculator

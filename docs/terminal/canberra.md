@@ -73,8 +73,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
 #### Assumptions
 - Nil wind
-- The feeder fix for the MANDA STAR is MANDA (regardless of transition)
-- The feeder fix for the POLLI STAR is POLLI (regardless of transition)
+- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, regardless of transition
 
 ### Calculator
 <script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
