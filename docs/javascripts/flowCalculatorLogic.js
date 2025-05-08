@@ -9,15 +9,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // Create landing time calculators
     for (let i = 0; i < landingTimeCalculators.length; i++) {
         // Determine which aerodrome to use
-        let aerodrome = null;
-        for (const key in flowData) {
-            if (landingTimeCalculators[i].getAttribute('data-aerodrome') === key) {
-                aerodrome = key;
-            }
-        }
+        const aerodrome = landingTimeCalculators[i].getAttribute('data-aerodrome');
 
         // Create form elements
-        if (aerodrome !== null) {
+        if (flowData[aerodrome]) {
             CreateFormElements(aerodrome, landingTimeCalculators[i]);
 
             // Add event listeners
@@ -286,9 +281,10 @@ function CalculateLandingTime(aerodrome) {
         if(selectedSpeed != "Normal Speed") {
             landingTime += flowData[aerodrome][selectedRunway][selectedArrival]["corrections"][selectedSpeed];
         }
-        if(landingTime < 0) {
+        while(landingTime < 0) {
             landingTime += 60;
-        } else if(landingTime > 59) {
+        }
+        while(landingTime > 59) {
             landingTime -= 60;
         }
 
@@ -300,7 +296,7 @@ function CalculateLandingTime(aerodrome) {
         }
     } catch (error) {
         console.error("Error calculating landing time:", error);
-        document.getElementById('flowCalculatorLandingTimeResult').textContent = "Error";
+        resultSpan.textContent = "Error";
     }
 }
 
@@ -327,9 +323,10 @@ function CalculateFeederFixTime(aerodrome) {
         if(selectedSpeed != "Normal Speed") {
             feederFixTime -= flowData[aerodrome][selectedRunway][selectedArrival]["corrections"][selectedSpeed];
         }
-        if(feederFixTime < 0) {
+        while(feederFixTime < 0) {
             feederFixTime += 60;
-        } else if(feederFixTime > 59) {
+        }
+        while(feederFixTime > 59) {
             feederFixTime -= 60;
         }
 
@@ -341,6 +338,6 @@ function CalculateFeederFixTime(aerodrome) {
         }
     } catch (error) {
         console.error("Error calculating feeder fix time:", error);
-        document.getElementById('flowCalculatorFeederFixTimeResult').textContent = "Error";
+        resultSpan.textContent = "Error";
     }
 }
