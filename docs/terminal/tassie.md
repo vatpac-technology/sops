@@ -66,23 +66,23 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
     | STAR | RWY 12 | RWY 30 |
     | ---------- | ---| -- |
-    | IPLET A      | 12^ | 12^  |
-    | IPLET V      | 10^ | 10^  |
-    | IPLET W      | 10^ | 10^  |
-    | MORGO A      | 12^ | 15  |
-    | MORGO V      | - | 14  |
-    | MORGO W      | - | 14  |
+    | **IPLET A**      | 12^ | 12^  |
+    | **IPLET V**      | 10^ | 10^  |
+    | **IPLET W**      | 10^ | 10^  |
+    | **MORGO A**      | 12^ | 15  |
+    | **MORGO V**      | - | 14  |
+    | **MORGO W**      | - | 14  |
 
 === "Non-Jets"
 
     | STAR | RWY 12 | RWY 30 |
     | ---------- | ---| -- |
-    | IPLET A      | 13^ | 13^  |
-    | IPLET V      | 11^ | 11^  |
-    | IPLET W      | 11^ | 12^  |
-    | MORGO A      | 13^ | 17  |
-    | MORGO V      | - | 16  |
-    | MORGO W      | - | 16  |
+    | **IPLET A**      | 13^ | 13^  |
+    | **IPLET V**      | 11^ | 11^  |
+    | **IPLET W**      | 11^ | 12^  |
+    | **MORGO A**      | 13^ | 17  |
+    | **MORGO V**      | - | 16  |
+    | **MORGO W**      | - | 16  |
 
 #### YMLT
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.

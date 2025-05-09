@@ -93,23 +93,23 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
     | STAR       | RWY 11 | RWY 29 |
     | ---------- | ------ | ------ |
-    | ANUPA A/X  | 12^    | 18     |
-    | GATOR A/X  | 17     | 13     |
-    | VEGPU A/X  | 13     | 8^     |
-    | VEGPU W    | 11^    | -      |
-    | WANGI A/X  | 15     | 17     |
-    | WANGI W    | 14     | 15     |
+    | **ANUPA A/X**  | 12^    | 18     |
+    | **GATOR A/X**  | 17     | 13     |
+    | **VEGPU A/X**  | 13     | 8^     |
+    | **VEGPU W**    | 11^    | -      |
+    | **WANGI A/X**  | 15     | 17     |
+    | **WANGI W**    | 14     | 15     |
 
 === "Non-Jets"
 
     | STAR       | RWY 11 | RWY 29 |
     | ---------- | ------ | ------ |
-    | ANUPA A/X  | 13^    | 21     |
-    | GATOR A/X  | 19     | 14     |
-    | VEGPU A/X  | 15     | 9^     |
-    | VEGPU W    | 13^    | -      |
-    | WANGI A/X  | 17     | 19     |
-    | WANGI W    | 16     | 17     |
+    | **ANUPA A/X**  | 13^    | 21     |
+    | **GATOR A/X**  | 19     | 14     |
+    | **VEGPU A/X**  | 15     | 9^     |
+    | **VEGPU W**    | 13^    | -      |
+    | **WANGI A/X**  | 17     | 19     |
+    | **WANGI W**    | 16     | 17     |
 
 #### Corrections
 

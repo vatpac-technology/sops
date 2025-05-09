@@ -103,13 +103,13 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
                        
     | Feeder Fix | 05Z | 05V/W/X | 23A/Z | 23V |
     | ---------- | --- | ------- | ----- | --- |
-    | INTOG      | 14  | 13      | -     | -   |
-    | DRINA      | -   | -       | 14    | 13  |
-    | KAKLU      | 16  | 15      | 12^   | -   |
-    | KLAVA      | 16  | 15      | 13    | 12  |
-    | ERITH      | -   | -       | 13    | 12  |
-    | MARGO      | 14  | 13      | 15    | 13  |
-    | ATNAR      | 13  | 12^     | 17    | 15  |
+    | **INTOG**      | 14  | 13      | -     | -   |
+    | **DRINA**      | -   | -       | 14    | 13  |
+    | **KAKLU**      | 16  | 15      | 12^   | -   |
+    | **KLAVA**      | 16  | 15      | 13    | 12  |
+    | **ERITH**      | -   | -       | 13    | 12  |
+    | **MARGO**      | 14  | 13      | 15    | 13  |
+    | **ATNAR**      | 13  | 12^     | 17    | 15  |
 
 === "Non-Jets"
 
@@ -117,15 +117,15 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
     | Feeder Fix | 05  | 12  | 23  | 30  |
     | ---------- | --- | --- | --- | --- |
-    | INTOG      | 12  | 14  | 12  | 11  |
-    | DRINA      | 14  | 17  | 14  | 13  |
-    | KAKLU      | 16  | 15  | 13  | 13  |
-    | BEVSO      | 17  | 15  | 14  | 13  |
-    | KLAVA      | 15  | 13  | 13  | 16  |
-    | ERITH      | -   | -   | -   | -   |
-    | MARGO      | 13  | 12  | 13  | 15  |
-    | ATNAR      | 13  | 13  | 15  | 16  |
-    | ELROX      | 11  | 11  | 14  | 13  |
+    | **INTOG**      | 12  | 14  | 12  | 11  |
+    | **DRINA**      | 14  | 17  | 14  | 13  |
+    | **KAKLU**      | 16  | 15  | 13  | 13  |
+    | **BEVSO**      | 17  | 15  | 14  | 13  |
+    | **KLAVA**      | 15  | 13  | 13  | 16  |
+    | **ERITH**      | -   | -   | -   | -   |
+    | **MARGO**      | 13  | 12  | 13  | 15  |
+    | **ATNAR**      | 13  | 13  | 15  | 16  |
+    | **ELROX**      | 11  | 11  | 14  | 13  |
 
 #### Corrections
 | Situation | Correction |

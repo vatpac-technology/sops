@@ -41,29 +41,29 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
                        
     | STAR    | RWY 17 | RWY 35 |
     | ------- | ------ | ------ |
-    | AVBEG   | 8^ | 16 |
-    | LEECE A | 13 | 15 |
-    | LEECE V | - | 13 |
-    | LEECE W | - | 14 |
-    | LEECE Y | 12^ | 13 |
-    | MANDA A | 12^ | - |
-    | MANDA X | 11^ | - |
-    | POLLI A | - | 11^ |
-    | POLLI X | - | 11^ |
+    | **AVBEG**   | 8^ | 16 |
+    | **LEECE A** | 13 | 15 |
+    | **LEECE V** | - | 13 |
+    | **LEECE W** | - | 14 |
+    | **LEECE Y** | 12^ | 13 |
+    | **MANDA A** | 12^ | - |
+    | **MANDA X** | 11^ | - |
+    | **POLLI A** | - | 11^ |
+    | **POLLI X** | - | 11^ |
 
 === "Non-Jets"
 
     | STAR    | RWY 17 | RWY 30 | RWY 35 |
     | ------- | ------ | ------ | ------ |
-    | AVBEG   | 9^ | - | 18 |
-    | BUNGO A | 13^ | - | 17 |
-    | BUNGO V | - | 12^ | 16^ |
-    | BUNGO W | - | - | 17 |
-    | BUNGO Y | - | - | 15 |
-    | MANDA A | 13^ | - | - |
-    | MANDA X | 12^ | - | - |
-    | POLLI A | - | - | 13^ |
-    | POLLI X | - | - | 12^ |
+    | **AVBEG**   | 9^ | - | 18 |
+    | **BUNGO A** | 13^ | - | 17 |
+    | **BUNGO V** | - | 12^ | 16^ |
+    | **BUNGO W** | - | - | 17 |
+    | **BUNGO Y** | - | - | 15 |
+    | **MANDA A** | 13^ | - | - |
+    | **MANDA X** | 12^ | - | - |
+    | **POLLI A** | - | - | 13^ |
+    | **POLLI X** | - | - | 12^ |
 
 #### Corrections
 | Situation | Correction |

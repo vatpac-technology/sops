@@ -200,49 +200,49 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
     | STAR     | RWY 01L | RWY 01R | RWY 19L | RWY 19R |
     | -------- | ------- | ------- | ------- | ------- |
-    | BLAKA A  | 13      | 13      | 19      | 21      |
-    | BLAKA X  | -       | 12      | 16      | -       |
-    | ENLIP A  | 11^     | 11^     | 20      | 18      |
-    | ENLIP X  | -       | -       | 16      | 16      |
-    | GOMOL A  | 14      | 14      | 18      | 20      |
-    | GOMOL V  | -       | 13      | 15      | -       |
-    | GOMOL X  | -       | 12      | 16      | -       |
-    | ISPON<br>*(ENLIP trans)*<br>*(BLAKA trans)*<br>*(GOMOL trans)*<br>*(UGTUG trans)* | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>20<br>19<br>19<br>14  |
-    | MORBI A  | 16      | 15      | 13      | 12      |
-    | MORBI V  | 13      | -       | -       | 11^     |
-    | SMOKA A  | 15      | 14      | 13      | 13      |
-    | SMOKA M  | -       | 12^     | -       | -       |
-    | SMOKA X  | 13      | -       | -       | 11^     |
-    | TEBOT A  | 18      | 18      | 11^     | 11^     |
-    | TEBOT X  | -       | 15      | -       | -       |
-    | UGTUG A  | 15      | 15      | 13      | 14      |
-    | UGTUG X  | -       | 13      | 12^     | -       |
-    | WOODY A  | 14      | 13      | 15      | 15      |
-    | WOODY V  | 11^     | -       | -       | 12^     |
+    | **BLAKA A**  | 13      | 13      | 19      | 21      |
+    | **BLAKA X**  | -       | 12      | 16      | -       |
+    | **ENLIP A**  | 11^     | 11^     | 20      | 18      |
+    | **ENLIP X**  | -       | -       | 16      | 16      |
+    | **GOMOL A**  | 14      | 14      | 18      | 20      |
+    | **GOMOL V**  | -       | 13      | 15      | -       |
+    | **GOMOL X**  | -       | 12      | 16      | -       |
+    | **ISPON**<br>*(ENLIP transition)*<br>*(BLAKA transition)*<br>*(GOMOL transition)*<br>*(UGTUG transition)* | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>20<br>19<br>19<br>14  |
+    | **MORBI A**  | 16      | 15      | 13      | 12      |
+    | **MORBI V**  | 13      | -       | -       | 11^     |
+    | **SMOKA A**  | 15      | 14      | 13      | 13      |
+    | **SMOKA M**  | -       | 12^     | -       | -       |
+    | **SMOKA X**  | 13      | -       | -       | 11^     |
+    | **TEBOT A**  | 18      | 18      | 11^     | 11^     |
+    | **TEBOT X**  | -       | 15      | -       | -       |
+    | **UGTUG A**  | 15      | 15      | 13      | 14      |
+    | **UGTUG X**  | -       | 13      | 12^     | -       |
+    | **WOODY A**  | 14      | 13      | 15      | 15      |
+    | **WOODY V**  | 11^     | -       | -       | 12^     |
 
 === "Non-Jets"
 
     | STAR     | RWY 01L | RWY 01R | RWY 19L | RWY 19R |
     | -------- | ------- | ------- | ------- | ------- |
-    | BLAKA A  | 15      | 15      | 22      | 24      |
-    | BLAKA X  | -       | 14      | 18      | -       |
-    | ENLIP A  | 13^     | 13^     | 23      | 20      |
-    | ENLIP X  | -       | -       | 19      | 18      |
-    | GOMOL A  | 16      | 15      | 21      | 23      |
-    | GOMOL V  | -       | 14      | 17      | -       |
-    | GOMOL X  | -       | 14      | 18      | -       |
-    | ISPON<br>*(ENLIP trans)*<br>*(BLAKA trans)*<br>*(GOMOL trans)*<br>*(UGTUG trans)* | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>23<br>22<br>21<br>15  |
-    | MORBI A  | 18      | 17      | 14      | 14      |
-    | MORBI V  | 14      | -       | -       | 12^     |
-    | SMOKA A  | 17      | 16      | 15      | 15      |
-    | SMOKA M  | -       | 13^     | -       | -       |
-    | SMOKA X  | 14      | -       | -       | 13^     |
-    | TEBOT A  | 20      | 21      | 12^     | 13^     |
-    | TEBOT X  | -       | 17      | -       | -       |
-    | UGTUG A  | 17      | 17      | 15      | 16      |
-    | UGTUG X  | -       | 14      | 13^     | -       |
-    | WOODY A  | 16      | 15      | 17      | 16      |
-    | WOODY V  | 13^     | -       | -       | 14^     |
+    | **BLAKA A**  | 15      | 15      | 22      | 24      |
+    | **BLAKA X**  | -       | 14      | 18      | -       |
+    | **ENLIP A**  | 13^     | 13^     | 23      | 20      |
+    | **ENLIP X**  | -       | -       | 19      | 18      |
+    | **GOMOL A**  | 16      | 15      | 21      | 23      |
+    | **GOMOL V**  | -       | 14      | 17      | -       |
+    | **GOMOL X**  | -       | 14      | 18      | -       |
+    | **ISPON**<br>*(ENLIP transition)*<br>*(BLAKA transition)*<br>*(GOMOL transition)*<br>*(UGTUG transition)* | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>23<br>22<br>21<br>15  |
+    | **MORBI A**  | 18      | 17      | 14      | 14      |
+    | **MORBI V**  | 14      | -       | -       | 12^     |
+    | **SMOKA A**  | 17      | 16      | 15      | 15      |
+    | **SMOKA M**  | -       | 13^     | -       | -       |
+    | **SMOKA X**  | 14      | -       | -       | 13^     |
+    | **TEBOT A**  | 20      | 21      | 12^     | 13^     |
+    | **TEBOT X**  | -       | 17      | -       | -       |
+    | **UGTUG A**  | 17      | 17      | 15      | 16      |
+    | **UGTUG X**  | -       | 14      | 13^     | -       |
+    | **WOODY A**  | 16      | 15      | 17      | 16      |
+    | **WOODY V**  | 13^     | -       | -       | 14^     |
 
 #### YBCG
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
@@ -251,25 +251,25 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
     | Arrival | RWY 14 | RWY 32 |
     | ------- | ------ | ------ |
-    | BERNI A STAR | 15  | 11^  |
-    | BERNI V STAR | 14  | 12^  |
-    | BERNI Y STAR | 14  | - |
-    | LAMSI A STAR | 13  | 11^  |
-    | LAMSI Y STAR | 12^  | 10^  |
-    | BN Y177 IDRIL CG2SA | -  | 16  |
-    | BN Y177 IDRIL CG2NC | 12^ | - |
+    | **BERNI A STAR** | 15  | 11^  |
+    | **BERNI V STAR** | 14  | 12^  |
+    | **BERNI Y STAR** | 14  | - |
+    | **LAMSI A STAR** | 13  | 11^  |
+    | **LAMSI Y STAR** | 12^  | 10^  |
+    | **BN Y177 IDRIL CG2SA** | -  | 16  |
+    | **BN Y177 IDRIL CG2NC** | 12^ | - |
 
 === "Non-Jets"
 
     | Arrival | RWY 14 | RWY 32 |
     | ------- | ------ | ------ |
-    | BERNI A STAR | 17  | 13^  |
-    | BERNI V STAR | 16  | 13^  |
-    | BERNI Y STAR | 16  | - |
-    | LAMSI A STAR | 15  | 13^  |
-    | LAMSI Y STAR | 14^  | 12^  |
-    | BN Y177 IDRIL CG2SA | -  | 18  |
-    | BN Y177 IDRIL CG2NC | 13^ | - |
+    | **BERNI A STAR** | 17  | 13^  |
+    | **BERNI V STAR** | 16  | 13^  |
+    | **BERNI Y STAR** | 16  | - |
+    | **LAMSI A STAR** | 15  | 13^  |
+    | **LAMSI Y STAR** | 14^  | 12^  |
+    | **BN Y177 IDRIL CG2SA** | -  | 18  |
+    | **BN Y177 IDRIL CG2NC** | 13^ | - |
 
 #### Corrections
 

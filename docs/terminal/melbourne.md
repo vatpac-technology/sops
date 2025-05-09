@@ -219,31 +219,31 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
     | STAR | RWY 09 | RWY 16 | RWY 27 | RWY 34 |
     | ---------- | ---| -- | -- | ---|
-    | ARBEY      | 11^ | 9^  | 12 | 13 |
-    | BOYSE A    | 16 | 13 | 11 | 14 |
-    | BOYSE V    | -  | -  | -  | 13 |
-    | LIZZI A    | 15 | 12 | 10^ | 13 |
-    | LIZZI V    | -  | -  | -  | 12 |
-    | WAREN A/V  | 16 | 13 | 9^  | 10^ |
-    | WAREN M    | -  | 11 | -  | -  |
-    | PORTS      | 11 | -  | -  | 7^  |
-    | WENDY A    | 11^ | 17 | 15 | 12 |
-    | WENDY P    | -  | 15 | -  | -  |
+    | **ARBEY**      | 11^ | 9^  | 12 | 13 |
+    | **BOYSE A**    | 16 | 13 | 11 | 14 |
+    | **BOYSE V**    | -  | -  | -  | 13 |
+    | **LIZZI A**    | 15 | 12 | 10^ | 13 |
+    | **LIZZI V**    | -  | -  | -  | 12 |
+    | **WAREN A/V**  | 16 | 13 | 9^  | 10^ |
+    | **WAREN M**    | -  | 11 | -  | -  |
+    | **PORTS**      | 11 | -  | -  | 7^  |
+    | **WENDY A**    | 11^ | 17 | 15 | 12 |
+    | **WENDY P**    | -  | 15 | -  | -  |
 
 === "Non-Jets"
 
     | STAR | RWY 09 | RWY 16 | RWY 27 | RWY 34 |
     | ---------- | ---| -- | -- | -- |
-    | ARBEY      | 12^ | 10^ | 14 | 15 |
-    | BOYSE A    | 18 | 15 | 13 | 16 |
-    | BOYSE V    | -  | -  | -  | 15 |
-    | LIZZI A    | 17 | 14 | 11^ | 15 |
-    | LIZZI V    | -  | -  | -  | 14 |
-    | WAREN A/V  | 18 | 15 | 10^ | 11^ |
-    | WAREN M    | -  | 13 | -  | -  |
-    | PORTS      | 12 | -  | -  | 8^  |
-    | WENDY A    | 12^ | 19 | 17 | 14 |
-    | WENDY P    | -  | 17 | -  | -  |
+    | **ARBEY**      | 12^ | 10^ | 14 | 15 |
+    | **BOYSE A**    | 18 | 15 | 13 | 16 |
+    | **BOYSE V**    | -  | -  | -  | 15 |
+    | **LIZZI A**    | 17 | 14 | 11^ | 15 |
+    | **LIZZI V**    | -  | -  | -  | 14 |
+    | **WAREN A/V**  | 18 | 15 | 10^ | 11^ |
+    | **WAREN M**    | -  | 13 | -  | -  |
+    | **PORTS**      | 12 | -  | -  | 8^  |
+    | **WENDY A**    | 12^ | 19 | 17 | 14 |
+    | **WENDY P**    | -  | 17 | -  | -  |
 
 #### Corrections
 
