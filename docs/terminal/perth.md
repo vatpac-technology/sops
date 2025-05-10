@@ -179,7 +179,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 #### Assumptions
 - Nil wind
 - The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except:
-    - The feeder fix for the IPMOR STAR is KAGMI
+    - The feeder fix for the IPMOR STAR is **KAGMI**
 - Aircraft on the SOLUS STAR to RWY 21/24 will be vectored from MOCUR to the IAF for ILS
 - Aircraft on the IPMOR STAR to RWY 24 will be vectored from WOOFY to the IAF for the ILS
 
