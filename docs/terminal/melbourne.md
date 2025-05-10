@@ -218,7 +218,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 === "Jets & DH8D"
 
     | STAR | RWY 09 | RWY 16 | RWY 27 | RWY 34 |
-    | ---------- | ---| -- | -- | ---|
+    | ---------- | :---: | :--: | :--: | :---: |
     | **ARBEY**      | 11^ | 9^  | 12 | 13 |
     | **BOYSE A**    | 16 | 13 | 11 | 14 |
     | **BOYSE V**    | -  | -  | -  | 13 |
@@ -233,7 +233,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 === "Non-Jets"
 
     | STAR | RWY 09 | RWY 16 | RWY 27 | RWY 34 |
-    | ---------- | ---| -- | -- | -- |
+    | ---------- | :---: | :--: | :--: | :---: |
     | **ARBEY**      | 12^ | 10^ | 14 | 15 |
     | **BOYSE A**    | 18 | 15 | 13 | 16 |
     | **BOYSE V**    | -  | -  | -  | 15 |
@@ -329,11 +329,11 @@ The Standard Assignable level from **ML ADC** to **ML TCU** is:
 The following Standard Assignable Headings may be used for aircraft assigned the ML (RADAR) SID, depending on their direction of travel.
 
 | Runway | W | NE | SE | S |
-| ---- | ---- | ---- | ---- | ---- |
-| 09* | - | - | - | - |
-| 16** | 290 | 290 | 160 | 260 |
-| 27 | 320 | 290 | 260 | 260 |
-| 34 | 340 | 340 | 340 | 260 |
+| ---- | :----: | :----: | :----: | :----: |
+| RWY 09* | - | - | - | - |
+| RWY 16** | H290 | H290 | H160 | H260 |
+| RWY 27 | H320 | H290 | H260 | H260 |
+| RWY 34 | H340 | H340 | H340 | H260 |
 
 *When Runway 09 is in use for departures, ML TCU shall nominate a heading to ML ADC for use as a standard assignable heading.
 

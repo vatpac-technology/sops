@@ -40,7 +40,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 === "Jets"
                        
     | STAR    | RWY 17 | RWY 35 |
-    | ------- | ------ | ------ |
+    | ------- | :------: | :------: |
     | **AVBEG**   | 8^ | 16 |
     | **LEECE A** | 13 | 15 |
     | **LEECE V** | - | 13 |
@@ -54,7 +54,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 === "Non-Jets"
 
     | STAR    | RWY 17 | RWY 30 | RWY 35 |
-    | ------- | ------ | ------ | ------ |
+    | ------- | :------: | :------: | :------: |
     | **AVBEG**   | 9^ | - | 18 |
     | **BUNGO A** | 13^ | - | 17 |
     | **BUNGO V** | - | 12^ | 16^ |

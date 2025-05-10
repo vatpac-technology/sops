@@ -102,7 +102,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 === "Jets"
                        
     | Feeder Fix | 05Z | 05V/W/X | 23A/Z | 23V |
-    | ---------- | --- | ------- | ----- | --- |
+    | ---------- | :---: | :-------: | :-----: | :---: |
     | **INTOG**      | 14  | 13      | -     | -   |
     | **DRINA**      | -   | -       | 14    | 13  |
     | **KAKLU**      | 16  | 15      | 12^   | -   |
@@ -116,7 +116,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     For Non-Jets tracking via the *full Jet STARs*, refer to the **Jets** tab & applicable correction
 
     | Feeder Fix | 05  | 12  | 23  | 30  |
-    | ---------- | --- | --- | --- | --- |
+    | ---------- | :---: | :---: | :---: | :---: |
     | **INTOG**      | 12  | 14  | 12  | 11  |
     | **DRINA**      | 14  | 17  | 14  | 13  |
     | **KAKLU**      | 16  | 15  | 13  | 13  |

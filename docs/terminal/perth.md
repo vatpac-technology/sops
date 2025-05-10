@@ -121,7 +121,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 === "Jets"
 
     | STAR       | RWY 03 | RWY 06 | RWY 21 | RWY 24 |
-    | ---------- | ------ | ------ | ------ | ------ |
+    | ---------- | :-----: | :-----: | :-----: | :-----: |
     | **IPMOR A**    | 17     | 14     | 15     | 17     |
     | **JULIM A**    | 17     | 19     | 10^    | 10^    |
     | **JULIM V**    | 15     | 16     | -      | -      |
@@ -136,7 +136,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 === "DH8D"
 
     | STAR       | RWY 03 | RWY 06 | RWY 21 | RWY 24 |
-    | ---------- | ------ | ------ | ------ | ------ |
+    | ---------- | :-----: | :-----: | :-----: | :-----: |
     | **DAYLR A**    | 12^    | 13     | -      | -      |
     | **DAYLR V**    | 10^    | 11^    | -      | -      |
     | **DAYLR X**    | 10^    | -      | -      | -      |
@@ -154,7 +154,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 === "Non-Jets"
 
     | STAR       | RWY 03 | RWY 06 | RWY 21 | RWY 24 |
-    | ---------- | ------ | ------ | ------ | ------ |
+    | ---------- | :-----: | :-----: | :-----: | :-----: |
     | **DAYLR A**    | 13^    | 15     | -      | -      |
     | **DAYLR V**    | 12^    | 13^    | -      | -      |
     | **DAYLR X**    | 11^    | -      | -      | -      |

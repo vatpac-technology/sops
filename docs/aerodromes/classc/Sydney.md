@@ -475,14 +475,17 @@ Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-divis
 ### Standard Assignable Departure Headings
 Aircraft that have been cleared the **SY (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required to the SY TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
 
-| Runway | Jet | Non-Jet 
-| ----------------- | -------------- | ---------------- |
-| 07                | 070         | 020, 110       |
-| 16L                | 125          | 125 (RWY 25 in use), 090 (RWY 25 not in use) |
-| 16R               | 170         | 210         |
-| 25                | 300, 240          | 020, 210, 240 |
-| 34L                | 290          | 230 |
-| 34R                | 030, 070          | 350 |
+| Runway     | Jet         | Non-Jet                                        |
+| ---------- | :---------: | :--------------------------------------------: |
+| RWY 07     | 070         | H020, H110                                     |
+| RWY 16L    | 125         | H125 (RWY 25 in use), H090 (RWY 25 not in use) |
+| RWY 16R    | 170         | H210                                           |
+| RWY 25     | 300, 240    | H020, H210, H240                               |
+| RWY 34L    | 290         | H230                                           |
+| RWY 34R    | 030, 070    | H350                                           |
+
+!!! note
+    Where multiple standard assignable headings are available, assign the heading most suitable for the aircraft's direction of flight.
 
 !!! tip
     If strong winds are present at altitude, ADC/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.

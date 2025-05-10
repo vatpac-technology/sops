@@ -92,7 +92,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 === "Jets & DH8D"
 
     | STAR       | RWY 11 | RWY 29 |
-    | ---------- | ------ | ------ |
+    | ---------- | :------: | :------: |
     | **ANUPA A/X**  | 12^    | 18     |
     | **GATOR A/X**  | 17     | 13     |
     | **VEGPU A/X**  | 13     | 8^     |
@@ -103,7 +103,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 === "Non-Jets"
 
     | STAR       | RWY 11 | RWY 29 |
-    | ---------- | ------ | ------ |
+    | ---------- | :------: | :------: |
     | **ANUPA A/X**  | 13^    | 21     |
     | **GATOR A/X**  | 19     | 14     |
     | **VEGPU A/X**  | 15     | 9^     |

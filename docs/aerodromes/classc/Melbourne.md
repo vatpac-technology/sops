@@ -302,11 +302,11 @@ Aircraft that have been cleared the **ML (RADAR) SID** must receive an assigned 
 The following Standard Assignable Headings may be used for aircraft assigned the ML (RADAR) SID, depending on their direction of travel.
 
 | Runway | W | NE | SE | S |
-| ---- | ---- | ---- | ---- | ---- |
-| 09* | - | - | - | - |
-| 16** | 290 | 290 | 160 | 260 |
-| 27 | 320 | 290 | 260 | 260 |
-| 34 | 340 | 340 | 340 | 260 |
+| ---- | :----: | :----: | :----: | :----: |
+| RWY 09* | - | - | - | - |
+| RWY 16** | H290 | H290 | H160 | H260 |
+| RWY 27 | H320 | H290 | H260 | H260 |
+| RWY 34 | H340 | H340 | H340 | H260 |
 
 *When Runway 09 is in use for departures, ML TCU shall nominate a heading to ML ADC for use as a standard assignable heading.
 
