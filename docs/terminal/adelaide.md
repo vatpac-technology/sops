@@ -137,7 +137,8 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
 #### Assumptions
 - Nil wind
-- The feeder fix for the ATPIP STAR is INTOG
+- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except:
+    - The feeder fix for the ATPIP STAR is INTOG
 - Jet aircraft will be assigned the appropriate jet STAR
 - Non-jet aircraft will be assigned the appropriate non-jet STAR, or if none is available, tracking via a 5nm final
 

@@ -207,7 +207,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **GOMOL A**  | 14      | 14      | 18      | 20      |
     | **GOMOL V**  | -       | 13      | 15      | -       |
     | **GOMOL X**  | -       | 12      | 16      | -       |
-    | **ISPON**<br>*(ENLIP transition)*<br>*(BLAKA transition)*<br>*(GOMOL transition)*<br>*(UGTUG transition)* | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>20<br>19<br>19<br>14  |
+    | **ISPON**<br>*ENLIP transition*<br>*BLAKA transition*<br>*GOMOL transition*<br>*UGTUG transition* | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>20<br>19<br>19<br>14  |
     | **MORBI A**  | 16      | 15      | 13      | 12      |
     | **MORBI V**  | 13      | -       | -       | 11^     |
     | **SMOKA A**  | 15      | 14      | 13      | 13      |
@@ -231,7 +231,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **GOMOL A**  | 16      | 15      | 21      | 23      |
     | **GOMOL V**  | -       | 14      | 17      | -       |
     | **GOMOL X**  | -       | 14      | 18      | -       |
-    | **ISPON**<br>*(ENLIP transition)*<br>*(BLAKA transition)*<br>*(GOMOL transition)*<br>*(UGTUG transition)* | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>23<br>22<br>21<br>15  |
+    | **ISPON**<br>*ENLIP transition*<br>*BLAKA transition*<br>*GOMOL transition*<br>*UGTUG transition* | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>23<br>22<br>21<br>15  |
     | **MORBI A**  | 18      | 17      | 14      | 14      |
     | **MORBI V**  | 14      | -       | -       | 12^     |
     | **SMOKA A**  | 17      | 16      | 15      | 15      |

@@ -140,7 +140,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **DAYLR A**    | 12^    | 13     | -      | -      |
     | **DAYLR V**    | 10^    | 11^    | -      | -      |
     | **DAYLR X**    | 10^    | -      | -      | -      |
-    | **IPMOR A**    | 17     | 14     | 15     | 17     |
+    | **IPMOR A**<br>*Feeder Fix: KAGMI*    | <br>17     | <br>14     | <br>15     | <br>17     |
     | **LAVEX A**    | 16     | 17     | 14     | 13     |
     | **LAVEX V**    | 14     | 14     | -      | -      |
     | **LAVEX X**    | 13     | -      | -      | -      |
@@ -158,7 +158,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **DAYLR A**    | 13^    | 15     | -      | -      |
     | **DAYLR V**    | 12^    | 13^    | -      | -      |
     | **DAYLR X**    | 11^    | -      | -      | -      |
-    | **IPMOR A**    | 19     | 16     | 17     | 20     |
+    | **IPMOR A**<br>*Feeder Fix: KAGMI*    | <br>19     | <br>16     | <br>17     | <br>20     |
     | **LAVEX A**    | 18     | 20     | 16     | 15     |
     | **LAVEX V**    | 15     | 16     | -      | -      |
     | **LAVEX X**    | 15     | -      | -      | -      |
@@ -178,8 +178,8 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
 #### Assumptions
 - Nil wind
-- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except as below
-- The feeder fix for the IPMOR STAR is KAGMI
+- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except:
+    - The feeder fix for the IPMOR STAR is KAGMI
 - Aircraft on the SOLUS STAR to RWY 21/24 will be vectored from MOCUR to the IAF for ILS
 - Aircraft on the IPMOR STAR to RWY 24 will be vectored from WOOFY to the IAF for the ILS
 

@@ -360,20 +360,20 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | STAR       | RWY 07  | RWY 16L | RWY 16R | RWY 25  | RWY 34L | RWY 34R |
     | ---------- | :---: | :---: | :---: | :---: | :---: | :---: |
     | **BOREE A/P**  | 15  | 11^ | 11^ | 14  | 17  | 17  |
-    | **MEPIL**      | 15  | 12^ | 11^ | 15  | 18  | 18  |
+    | **MEPIL**<br>*Feeder Fix: YAKKA*      | <br>15  | <br>12^ | <br>11^ | <br>15  | <br>18  | <br>18  |
     | **MARLN**      | 16  | 17  | 17  | 12^ | 18  | 15  |
     | **RIVET**      | 11^ | 18  | 15  | 16  | 15  | 18  |
-    | **ODALE**      | 11^ | 18  | 16  | 17  | 16  | 18  |
+    | **ODALE**<br>*Feeder Fix: AKMIR*      | <br>11^ | <br>18  | <br>16  | <br>17  | <br>16  | <br>18  |
 
 === "Non-Jets"
 
     | STAR       | RWY 07  | RWY 16L | RWY 16R | RWY 25  | RWY 34L | RWY 34R |
     | ---------- | :---: | :---: | :---: | :---: | :---: | :---: |
     | **BOREE A/P**  | 17  | 12^ | 12^ | 16  | 20  | 20  |
-    | **MEPIL**      | 17  | 13^ | 13^ | 16  | 20  | 20  |
+    | **MEPIL**<br>*Feeder Fix: YAKKA*      | <br>17  | <br>13^ | <br>13^ | <br>16  | <br>20  | <br>20  |
     | **MARLN**      | 18  | 19  | 20  | 13^ | 20  | 17  |
     | **RIVET**      | 12^ | 20  | 17  | 18  | 17  | 20  |
-    | **ODALE**      | 13^ | 21  | 18  | 19  | 18  | 20  |
+    | **ODALE**<br>*Feeder Fix: AKMIR*      | <br>13^ | <br>21  | <br>18  | <br>19  | <br>18  | <br>20  |
 
 
 #### Corrections
@@ -385,9 +385,9 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
 #### Assumptions
 - Nil wind
-- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except as below
-- The feeder fix for the MEPIL STAR is YAKKA
-- The feeder fix for the ODALE STAR is WELSH
+- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except:
+    - The feeder fix for the MEPIL STAR is YAKKA
+    - The feeder fix for the ODALE STAR is WELSH
 - Aircraft for the *opposite* parallel runway (eg, ODALE to 16L/34R) will overfly the field, then join a mid-field downwind  
 - All aircraft are tracking via the ILS Initial Approach fix
 

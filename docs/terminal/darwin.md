@@ -93,7 +93,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
     | STAR       | RWY 11 | RWY 29 |
     | ---------- | :------: | :------: |
-    | **ANUPA A/X**  | 12^    | 18     |
+    | **ANUPA A/X**<br>*Feeder Fix: SUDAG*  | <br>12^    | <br>18     |
     | **GATOR A/X**  | 17     | 13     |
     | **VEGPU A/X**  | 13     | 8^     |
     | **VEGPU W**    | 11^    | -      |
@@ -104,7 +104,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
     | STAR       | RWY 11 | RWY 29 |
     | ---------- | :------: | :------: |
-    | **ANUPA A/X**  | 13^    | 21     |
+    | **ANUPA A/X**<br>*Feeder Fix: SUDAG*  | <br>13^    | <br>21     |
     | **GATOR A/X**  | 19     | 14     |
     | **VEGPU A/X**  | 15     | 9^     |
     | **VEGPU W**    | 13^    | -      |
@@ -120,8 +120,8 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
 #### Assumptions
 - Nil wind
-- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except as below
-- The feeder fix for the ANUPA STAR is SUDAG
+- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except:
+    - The feeder fix for the ANUPA STAR is SUDAG
 
 ### Calculator
 <script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
