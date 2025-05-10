@@ -278,7 +278,7 @@ export const flowData = {
                     "Reduced Speed": 1
                 }
             },
-            "MEPIL STAR": {
+            "MEPIL (YAKKA FF) STAR": {
                 "aircraft": {
                     "Jet & DH8D": 15,
                     "Non-Jet": 17
@@ -305,7 +305,7 @@ export const flowData = {
                     "Reduced Speed": 0
                 }
             },
-            "ODALE STAR": {
+            "ODALE (WELSH FF) STAR": {
                 "aircraft": {
                     "Jet & DH8D": 11,
                     "Non-Jet": 13
@@ -325,7 +325,7 @@ export const flowData = {
                     "Reduced Speed": 0
                 }
             },
-            "MEPIL STAR": {
+            "MEPIL (YAKKA FF) STAR": {
                 "aircraft": {
                     "Jet & DH8D": 12,
                     "Non-Jet": 13
@@ -352,7 +352,7 @@ export const flowData = {
                     "Reduced Speed": 1
                 }
             },
-            "ODALE STAR": {
+            "ODALE (WELSH FF) STAR": {
                 "aircraft": {
                     "Jet & DH8D": 18,
                     "Non-Jet": 21
@@ -372,7 +372,7 @@ export const flowData = {
                     "Reduced Speed": 0
                 }
             },
-            "MEPIL STAR": {
+            "MEPIL (YAKKA FF) STAR": {
                 "aircraft": {
                     "Jet & DH8D": 11,
                     "Non-Jet": 13
@@ -399,7 +399,7 @@ export const flowData = {
                     "Reduced Speed": 1
                 }
             },
-            "ODALE STAR": {
+            "ODALE (WELSH FF) STAR": {
                 "aircraft": {
                     "Jet & DH8D": 16,
                     "Non-Jet": 18
@@ -419,7 +419,7 @@ export const flowData = {
                     "Reduced Speed": 1
                 }
             },
-            "MEPIL STAR": {
+            "MEPIL (YAKKA FF) STAR": {
                 "aircraft": {
                     "Jet & DH8D": 15,
                     "Non-Jet": 16
@@ -446,7 +446,7 @@ export const flowData = {
                     "Reduced Speed": 1
                 }
             },
-            "ODALE STAR": {
+            "ODALE (WELSH FF) STAR": {
                 "aircraft": {
                     "Jet & DH8D": 17,
                     "Non-Jet": 19
@@ -466,7 +466,7 @@ export const flowData = {
                     "Reduced Speed": 1
                 }
             },
-            "MEPIL STAR": {
+            "MEPIL (YAKKA FF) STAR": {
                 "aircraft": {
                     "Jet & DH8D": 18,
                     "Non-Jet": 20
@@ -493,7 +493,7 @@ export const flowData = {
                     "Reduced Speed": 1
                 }
             },
-            "ODALE STAR": {
+            "ODALE (WELSH FF) STAR": {
                 "aircraft": {
                     "Jet & DH8D": 16,
                     "Non-Jet": 18
@@ -513,7 +513,7 @@ export const flowData = {
                     "Reduced Speed": 1
                 }
             },
-            "MEPIL STAR": {
+            "MEPIL (YAKKA FF) STAR": {
                 "aircraft": {
                     "Jet & DH8D": 18,
                     "Non-Jet": 20
@@ -540,7 +540,7 @@ export const flowData = {
                     "Reduced Speed": 1
                 }
             },
-            "ODALE STAR": {
+            "ODALE (WELSH FF) STAR": {
                 "aircraft": {
                     "Jet & DH8D": 18,
                     "Non-Jet": 20
@@ -1468,7 +1468,7 @@ export const flowData = {
     },
     "YPDN": {
         "11": {
-            "ANUPA A/X STAR": {
+            "ANUPA A/X (SUDAG FF) STAR": {
                 "aircraft": {
                     "Jet & DH8D": 12,
                     "Non-Jet": 13
@@ -1524,7 +1524,7 @@ export const flowData = {
             }
         },
         "29": {
-            "ANUPA A/X STAR": {
+            "ANUPA A/X (SUDAG FF) STAR": {
                 "aircraft": {
                     "Jet & DH8D": 18,
                     "Non-Jet": 21
@@ -1600,7 +1600,7 @@ export const flowData = {
                     "Reduced Speed": 0
                 }
             },
-            "IPMOR A STAR": {
+            "IPMOR A (KAGMI FF) STAR": {
                 "aircraft": {
                     "Jet": 17,
                     "DH8D": 17,
@@ -1762,7 +1762,7 @@ export const flowData = {
                     "Reduced Speed": 0
                 }
             },
-            "IPMOR A STAR": {
+            "IPMOR A (KAGMI FF) STAR": {
                 "aircraft": {
                     "Jet": 14,
                     "DH8D": 14,
@@ -1862,7 +1862,7 @@ export const flowData = {
             }
         },
         "21": {
-            "IPMOR A STAR": {
+            "IPMOR A (KAGMI FF) STAR": {
                 "aircraft": {
                     "Jet": 15,
                     "DH8D": 15,
@@ -1918,7 +1918,7 @@ export const flowData = {
             }
         },
         "24": {
-            "IPMOR A STAR": {
+            "IPMOR A (KAGMI FF) STAR": {
                 "aircraft": {
                     "Jet": 17,
                     "DH8D": 17,
@@ -1972,6 +1972,408 @@ export const flowData = {
                     "Reduced Speed": 0
                 }
             }
+        }
+    },
+    "YBCS": {
+        "15": {
+            "CODIE A (ANDOP trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 14,
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "CODIE A (AVDAN trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 12,
+                    "Non-Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "CODIE A (LOCKA trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 13,
+                    "Non-Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "CODIE A (OVLET trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 13,
+                    "Non-Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "CODIE A (PUNIT trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 14,
+                    "Non-Jet": 16
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "CODIE A (ZANEY trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 14,
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "KASPI B/V (ANDOP trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "KASPI B/V (AVDAN trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 13,
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "KASPI B/V (LOCKA trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 12,
+                    "Non-Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "KASPI B/V (OVLET trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 14,
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "KASPI B/V (PUNIT trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "KASPI B/V (ZANEY trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 12,
+                    "Non-Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "NONUM A (MUSEY FF) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 21,
+                    "Non-Jet": 24
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "NONUM A (NORMA FF) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 24,
+                    "Non-Jet": 28
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "NONUM V (MUSEY FF) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 21,
+                    "Non-Jet": 24
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "NONUM V (NORMA FF) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 24,
+                    "Non-Jet": 27
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "NONUM W (MUSEY FF) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 21,
+                    "Non-Jet": 23
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "NONUM W (NORMA FF) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 24,
+                    "Non-Jet": 27
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "UPOLO A (BARIA FF) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 16,
+                    "Non-Jet": 18
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "UPOLO V (BARIA FF) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "UPOLO W (BARIA FF) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+        },
+        "33": {
+            "HENDO A (ANDOP trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 21,
+                    "Non-Jet": 24
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "HENDO A (BARIA trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 12,
+                    "Non-Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "HENDO A (ISNER trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 12,
+                    "Non-Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "HENDO A (NORMA trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 14,
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "HENDO A (OVLET trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 22,
+                    "Non-Jet": 25
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "HENDO A (PUNIT trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 20,
+                    "Non-Jet": 23
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "HENDO A (VEKBI trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 24,
+                    "Non-Jet": 27
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "KEEWI A (AVDAN trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 23,
+                    "Non-Jet": 26
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "KEEWI A (LOCKA trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 22,
+                    "Non-Jet": 26
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "KEEWI A (ZANEY trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 22,
+                    "Non-Jet": 25
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "KEEWI V (AVDAN trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 16,
+                    "Non-Jet": 18
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "KEEWI V (LOCKA trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "KEEWI V (OVLET trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 16,
+                    "Non-Jet": 18
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "KEEWI V (ZANEY trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 14,
+                    "Non-Jet": 16
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "KEEWI X (AVDAN trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 18,
+                    "Non-Jet": 21
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "KEEWI X (LOCKA trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 17,
+                    "Non-Jet": 20
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "KEEWI X (OVLET trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 19,
+                    "Non-Jet": 21
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "KEEWI X (ZANEY trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 17,
+                    "Non-Jet": 19
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "TOTTY W (ANDOP trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 19,
+                    "Non-Jet": 22
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "TOTTY W (ISNER trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 13,
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "TOTTY W (NORMA trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 13,
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "TOTTY W (PUNIT trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 19,
+                    "Non-Jet": 21
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "TOTTY W (VEKBI trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 22,
+                    "Non-Jet": 25
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
         }
     }
 };
