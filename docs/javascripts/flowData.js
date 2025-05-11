@@ -2498,5 +2498,182 @@ export const flowData = {
                 }
             }
         }
+    },
+    "YWLM": {
+        "12": {
+            "ASUVA STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "EKIPU STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 12,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "LAXUM A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 9,
+                    "Non-Jet": 10
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "LAXUM B STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 12
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "LAXUM R STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 8,
+                    "Non-Jet": 9
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "LAXUM V STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 8,
+                    "Non-Jet": 9
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "OVLUX STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "PUDUT STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 9,
+                    "Non-Jet": 10
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            }
+        },
+        "30": {
+            "ASUVA STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 7,
+                    "Non-Jet": 8
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "EKIPU STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 12
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "IVTAG R/V (EKIPU trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 8,
+                    "Non-Jet": 9
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "IVTAG R/V (OVLUX trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 8,
+                    "Non-Jet": 9
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "IVTAG R/V (PUDUT trans) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 9,
+                    "Non-Jet": 10
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "LAXUM A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "LAXUM B STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 18,
+                    "Non-Jet": 21
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "LAXUM R STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 12
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "LAXUM V STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "OVLUX STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "PUDUT STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 12,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            }
+        }
     }
 };

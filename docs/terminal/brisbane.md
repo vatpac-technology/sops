@@ -280,7 +280,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
 #### Assumptions
 - Nil wind
-- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR
+- The feeder fix for all STARs is the assigned STAR transition waypoint (if applicable), otherwise the waypoint coinciding with the STAR title
 - Aircraft inbound to YBCG from the north will track from IDRIL to the IAF for their assigned approach
 - Aircraft inbound to YBCG on a STAR ending at FIKUL or KEGAN will conduct the RNP Z approach
 

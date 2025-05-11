@@ -122,7 +122,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
     | STAR       | RWY 03 | RWY 06 | RWY 21 | RWY 24 |
     | ---------- | :-----: | :-----: | :-----: | :-----: |
-    | **IPMOR A**    | 17     | 14     | 15     | 17     |
+    | **IPMOR A**<br>*Feeder Fix: KAGMI*    | <br>17     | <br>14     | <br>15     | <br>17     |
     | **JULIM A**    | 17     | 19     | 10^    | 10^    |
     | **JULIM V**    | 15     | 16     | -      | -      |
     | **JULIM X**    | 15     | -      | -      | -      |
