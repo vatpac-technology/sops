@@ -2375,5 +2375,128 @@ export const flowData = {
                 }
             },
         }
+    },
+    "YBTL": {
+        "01": {
+            "IBUXI A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 16,
+                    "Non-Jet": 19
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "IGIKI A (36 DME TL FF) STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 14,
+                    "Non-Jet": 16
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "POROB A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 13,
+                    "Non-Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "POROB P STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 12
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "VOMPA A STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 10,
+                    "Non-Jet": 11
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "VOMPA P STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 10,
+                    "Non-Jet": 11
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            }
+        },
+        "19": {
+            "IBUXI Z STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 12
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "POROB B STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 13,
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "POROB P STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 11,
+                    "Non-Jet": 13
+                },
+                "corrections": {
+                    "Reduced Speed": 0
+                }
+            },
+            "POROB Z STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 13,
+                    "Non-Jet": 14
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "VOMPA B STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 17
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "VOMPA P STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 13,
+                    "Non-Jet": 15
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            },
+            "VOMPA Z STAR": {
+                "aircraft": {
+                    "Jet & DH8D": 15,
+                    "Non-Jet": 16
+                },
+                "corrections": {
+                    "Reduced Speed": 1
+                }
+            }
+        }
     }
 };
