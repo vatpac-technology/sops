@@ -191,7 +191,7 @@ Conduct Coordination to any affected adjacent units as required
 
 ### Aerial Surveys
 <figure markdown>
-![Aerial Survey Example](img/svy.jpg){ width="800" }
+![Aerial Survey Example](img/survey_ops_example.jpg){ width="800" }
   <figcaption>Aerial Survey Example</figcaption>
 </figure>
 
