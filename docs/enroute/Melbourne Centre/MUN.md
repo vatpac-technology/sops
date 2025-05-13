@@ -52,8 +52,8 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 
 | Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
 | ---- | ---- | ---- |
-| ARBEY | CANTY | 4 min |
-| WENDY | WENDY | - |
+| ARBEY | APPLE<br>CANTY | 4 min<br>4 min |
+| Others | Feeder Fix | - |
 
 !!! tip
     Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector. 
