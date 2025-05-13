@@ -226,7 +226,7 @@ h6 {
 form.flowCalculator {
   margin: 0 auto;
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   padding: 15px;
   background-color: var(--md-card-a);
   border-radius: 8px;
@@ -242,13 +242,7 @@ form.flowCalculator div.row {
 
 form.flowCalculator div.form-group {
     flex: 1 1 25%;
-    min-width: 50px;
-}
-
-@media (max-width: 600px) {
-    form.flowCalculator div.form-group {
-        flex: 1 1 100%;
-    }
+    min-width: 210px;
 }
 
 form.flowCalculator label {
