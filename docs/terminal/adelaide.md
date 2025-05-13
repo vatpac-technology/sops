@@ -37,6 +37,20 @@ EDN CTR reverts to Class G when **EDN ADC** is offline, and is administered by t
   <figcaption>AD TCU Structure</figcaption>
 </figure>
 
+## Arrival Procedures
+### Jets
+Jet aircraft will be assigned the relevant Alpha or Zulu STAR to Runway 23 or 05.
+
+### Non-Jets
+Non-Jet aircraft will be processed via a combination of:
+
+- Non-jet Victor STARs for VSA
+- Alpha/Whiskey/Xray/Yankee/Zulu STARs for IAP
+- No STAR, expecting vectors or direct tracking for VSA or IAP
+
+!!! tip
+    Refer to the [TBD page](../enroute/Melbourne%20Centre/TBD.md#ypad-star-assignment) for more details on the ATIS conditions and feeder fix combinations which will determine how each aircraft is processed.
+
 ## Scenic Coastal Flights
 VFR aircraft may transit the control zone tracking coastal north or southbound, generally at `A005`. **AD TCU** is responsible for ensuring these aircraft remain separated from aircraft arriving/departing at YPAD and may delegate this responsibility to **AD ADC**.  
 
