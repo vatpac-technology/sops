@@ -8,15 +8,16 @@
     The flowData object is structured as follows:
 
         "<aerodrome ICAO>": {
-            "<runway title>": {
-                "<arrival name>": {
-                    "aircraft": {
-                        "<aircraft title>": <feeder fix to runway time in minutes>
-                    },
-                    "corrections": {
-                        "<speed title>": <delay in minutes (positive for extra delay, negative for less delay)>
+            "<aircraft title>": {
+                "<runway title>": {
+                    "<arrival title>": {
+                        "<feeder fix title>": {
+                            "<speed title>": <feeder fix to runway time in minutes>
+                        }
                     }
                 }
+            }
+        }
 
     # Limitations
     - Only one calculator of each type (i.e. Landing Time and Feeder Fix Time) can be rendered on each page for a given aerodrome (multiple calculators can be rendered for different aerodromes on the same page)
@@ -24,2654 +25,3419 @@
 
 export const flowData = {
     "YMML": {
-        "09": {
-            "ARBEY STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 12
+        "Jet & DH8D": {
+            "16": {
+                "ARBEY STAR": {
+                    "ARBEY": {
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "BOYSE A STAR": {
+                    "BOYSE": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "LIZZI A STAR": {
+                    "LIZZI": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
+                },
+                "WAREN A/V STAR": {
+                    "WAREN": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "WAREN M STAR": {
+                    "WAREN": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 12
+                    }
+                },
+                "WENDY A STAR": {
+                    "WENDY": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "WENDY P STAR": {
+                    "WENDY": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 }
             },
-            "BOYSE A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 16,
-                    "Non-Jet": 18
+            "27": {
+                "ARBEY STAR": {
+                    "ARBEY": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "BOYSE A STAR": {
+                    "BOYSE": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 12
+                    }
+                },
+                "LIZZI A STAR": {
+                    "LIZZI": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                },
+                "WAREN A/V STAR": {
+                    "WAREN": {
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
+                    }
+                },
+                "WENDY A STAR": {
+                    "WENDY": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 }
             },
-            "LIZZI A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
+            "34": {
+                "ARBEY STAR": {
+                    "ARBEY": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "BOYSE A STAR": {
+                    "BOYSE": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "BOYSE V STAR": {
+                    "BOYSE": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "LIZZI A STAR": {
+                    "LIZZI": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "LIZZI V STAR": {
+                    "LIZZI": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
+                },
+                "WAREN A/V STAR": {
+                    "WAREN": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                },
+                "PORTS STAR": {
+                    "PORTS": {
+                        "Normal Speed": 7,
+                        "Reduced Speed": 7
+                    }
+                },
+                "WENDY A STAR": {
+                    "WENDY": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
                 }
             },
-            "WAREN A/V STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 16,
-                    "Non-Jet": 18
+            "09": {
+                "ARBEY STAR": {
+                    "ARBEY": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "PORTS STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 12
+                "BOYSE A STAR": {
+                    "BOYSE": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "WENDY A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 12
+                "LIZZI A STAR": {
+                    "LIZZI": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            }          
-        },
-        "16": {
-            "ARBEY STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 9,
-                    "Non-Jet": 10
+                "WAREN A/V STAR": {
+                    "WAREN": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "BOYSE A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 15
+                "PORTS STAR": {
+                    "PORTS": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 12
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "LIZZI A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 14
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "WAREN A/V STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 15
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "WAREN M STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 13
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "WENDY A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 17,
-                    "Non-Jet": 19
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "WENDY P STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
-                },
-                "corrections": {
-                    "Reduced Speed": 1
+                "WENDY A STAR": {
+                    "WENDY": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 }
             }
         },
-        "27": {
-            "ARBEY STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 14
+        "Non-Jet": {
+            "16": {
+                "ARBEY STAR": {
+                    "ARBEY": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "BOYSE A STAR": {
+                    "BOYSE": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "LIZZI A STAR": {
+                    "LIZZI": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "WAREN A/V STAR": {
+                    "WAREN": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "WAREN M STAR": {
+                    "WAREN": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "WENDY A STAR": {
+                    "WENDY": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    }
+                },
+                "WENDY P STAR": {
+                    "WENDY": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 }
             },
-            "BOYSE A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 13
+            "27": {
+                "ARBEY STAR": {
+                    "ARBEY": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "BOYSE A STAR": {
+                    "BOYSE": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "LIZZI A STAR": {
+                    "LIZZI": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "WAREN A/V STAR": {
+                    "WAREN": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                },
+                "WENDY A STAR": {
+                    "WENDY": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 }
             },
-            "LIZZI A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 10,
-                    "Non-Jet": 11
+            "34": {
+                "ARBEY STAR": {
+                    "ARBEY": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "BOYSE A STAR": {
+                    "BOYSE": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "BOYSE V STAR": {
+                    "BOYSE": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "LIZZI A STAR": {
+                    "LIZZI": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "LIZZI V STAR": {
+                    "LIZZI": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "WAREN A/V STAR": {
+                    "WAREN": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "PORTS STAR": {
+                    "PORTS": {
+                        "Normal Speed": 8,
+                        "Reduced Speed": 8
+                    }
+                },
+                "WENDY A STAR": {
+                    "WENDY": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
                 }
             },
-            "WAREN A/V STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 9,
-                    "Non-Jet": 10
+            "09": {
+                "ARBEY STAR": {
+                    "ARBEY": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "WENDY A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
+                "BOYSE A STAR": {
+                    "BOYSE": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            }
-        },
-        "34": {
-            "ARBEY STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 15
+                "LIZZI A STAR": {
+                    "LIZZI": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "BOYSE A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 14,
-                    "Non-Jet": 16
+                "WAREN A/V STAR": {
+                    "WAREN": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "BOYSE V STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 15
+                "PORTS STAR": {
+                    "PORTS": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "LIZZI A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 15
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "LIZZI V STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 14
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "WAREN A/V STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 10,
-                    "Non-Jet": 11
-                },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "PORTS STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 7,
-                    "Non-Jet": 8
-                },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "WENDY A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 14
-                },
-                "corrections": {
-                    "Reduced Speed": 1
+                "WENDY A STAR": {
+                    "WENDY": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 }
             }
         }
     },
     "YSSY": {
-        "07": {
-            "BOREE A/P STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
+        "Jet & DH8D": {
+            "25": {
+                "BOREE A/P STAR": {
+                    "BOREE": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "MEPIL STAR": {
+                    "YAKKA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "MARLN STAR": {
+                    "MARLN": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "RIVET STAR": {
+                    "RIVET": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "ODALE STAR": {
+                    "WELSH": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 }
             },
-            "MEPIL (YAKKA FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
+            "07": {
+                "BOREE A/P STAR": {
+                    "BOREE": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "MEPIL STAR": {
+                    "YAKKA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "MARLN STAR": {
+                    "MARLN": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "RIVET STAR": {
+                    "RIVET": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "ODALE STAR": {
+                    "WELSH": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 }
             },
-            "MARLN STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 16,
-                    "Non-Jet": 18
+            "16L": {
+                "BOREE A/P STAR": {
+                    "BOREE": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "MEPIL STAR": {
+                    "YAKKA": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "MARLN STAR": {
+                    "MARLN": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "RIVET STAR": {
+                    "RIVET": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                },
+                "ODALE STAR": {
+                    "WELSH": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
                 }
             },
-            "RIVET STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 12
+            "16R": {
+                "BOREE A/P STAR": {
+                    "BOREE": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "MEPIL STAR": {
+                    "YAKKA": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "MARLN STAR": {
+                    "MARLN": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "RIVET STAR": {
+                    "RIVET": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "ODALE STAR": {
+                    "WELSH": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
                 }
             },
-            "ODALE (WELSH FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 13
+            "34L": {
+                "BOREE A/P STAR": {
+                    "BOREE": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "MEPIL STAR": {
+                    "YAKKA": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                },
+                "MARLN STAR": {
+                    "MARLN": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                },
+                "RIVET STAR": {
+                    "RIVET": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "ODALE STAR": {
+                    "WELSH": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                }
+            },
+            "34R": {
+                "BOREE A/P STAR": {
+                    "BOREE": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "MEPIL STAR": {
+                    "YAKKA": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                },
+                "MARLN STAR": {
+                    "MARLN": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "RIVET STAR": {
+                    "RIVET": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                },
+                "ODALE STAR": {
+                    "WELSH": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
                 }
             }
         },
-        "16L": {
-            "BOREE A/P STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 12
+        "Non-Jet": {
+            "25": {
+                "BOREE A/P STAR": {
+                    "BOREE": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "MEPIL STAR": {
+                    "YAKKA": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "MARLN STAR": {
+                    "MARLN": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "RIVET STAR": {
+                    "RIVET": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                },
+                "ODALE STAR": {
+                    "WELSH": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    }
                 }
             },
-            "MEPIL (YAKKA FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 13
+            "07": {
+                "BOREE A/P STAR": {
+                    "BOREE": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "MEPIL STAR": {
+                    "YAKKA": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "MARLN STAR": {
+                    "MARLN": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                },
+                "RIVET STAR": {
+                    "RIVET": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "ODALE STAR": {
+                    "WELSH": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
                 }
             },
-            "MARLN STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 17,
-                    "Non-Jet": 19
+            "16L": {
+                "BOREE A/P STAR": {
+                    "BOREE": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "MEPIL STAR": {
+                    "YAKKA": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "MARLN STAR": {
+                    "MARLN": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    }
+                },
+                "RIVET STAR": {
+                    "RIVET": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    }
+                },
+                "ODALE STAR": {
+                    "WELSH": {
+                        "Normal Speed": 21,
+                        "Reduced Speed": 22
+                    }
                 }
             },
-            "RIVET STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 18,
-                    "Non-Jet": 20
+            "16R": {
+                "BOREE A/P STAR": {
+                    "BOREE": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "MEPIL STAR": {
+                    "YAKKA": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "MARLN STAR": {
+                    "MARLN": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    }
+                },
+                "RIVET STAR": {
+                    "RIVET": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "ODALE STAR": {
+                    "WELSH": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
                 }
             },
-            "ODALE (WELSH FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 18,
-                    "Non-Jet": 21
+            "34L": {
+                "BOREE A/P STAR": {
+                    "BOREE": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            }
-        },
-        "16R": {
-            "BOREE A/P STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 12
+                "MEPIL STAR": {
+                    "YAKKA": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "MEPIL (YAKKA FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 13
+                "MARLN STAR": {
+                    "MARLN": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "MARLN STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 17,
-                    "Non-Jet": 20
+                "RIVET STAR": {
+                    "RIVET": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "ODALE STAR": {
+                    "WELSH": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
                 }
             },
-            "RIVET STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
+            "34R": {
+                "BOREE A/P STAR": {
+                    "BOREE": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "ODALE (WELSH FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 16,
-                    "Non-Jet": 18
+                "MEPIL STAR": {
+                    "YAKKA": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            }
-        },
-        "25": {
-            "BOREE A/P STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 14,
-                    "Non-Jet": 16
+                "MARLN STAR": {
+                    "MARLN": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "MEPIL (YAKKA FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 16
+                "RIVET STAR": {
+                    "RIVET": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "MARLN STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 13
-                },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "RIVET STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 16,
-                    "Non-Jet": 18
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "ODALE (WELSH FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 17,
-                    "Non-Jet": 19
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            }
-        },
-        "34L": {
-            "BOREE A/P STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 17,
-                    "Non-Jet": 20
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "MEPIL (YAKKA FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 18,
-                    "Non-Jet": 20
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "MARLN STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 18,
-                    "Non-Jet": 20
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "RIVET STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "ODALE (WELSH FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 16,
-                    "Non-Jet": 18
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            }
-        },
-        "34R": {
-            "BOREE A/P STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 17,
-                    "Non-Jet": 20
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "MEPIL (YAKKA FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 18,
-                    "Non-Jet": 20
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "MARLN STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "RIVET STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 18,
-                    "Non-Jet": 20
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "ODALE (WELSH FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 18,
-                    "Non-Jet": 20
-                },
-                "corrections": {
-                    "Reduced Speed": 1
+                "ODALE STAR": {
+                    "WELSH": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    }
                 }
             }
         }
     },
     "YSCB": {
-        "17": {
-            "AVBEG STAR": {
-                "aircraft": {
-                    "Jet": 8,
-                    "Non-Jet": 9
+        "Jet": {
+            "17": {
+                "AVBEG STAR": {
+                    "AVBEG": {
+                        "Normal Speed": 8,
+                        "Reduced Speed": 8
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "LEECE A STAR": {
+                    "LEECE": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "LEECE Y STAR": {
+                    "LEECE": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "MANDA A STAR": {
+                    "MANDA": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "MANDA X STAR": {
+                    "MANDA": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 }
             },
-            "BUNGO A STAR": {
-                "aircraft": {
-                    "Non-Jet": 13
+            "35": {
+                "AVBEG STAR": {
+                    "AVBEG": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "LEECE A STAR": {
-                "aircraft": {
-                    "Jet": 13
+                "LEECE A STAR": {
+                    "LEECE": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "LEECE Y STAR": {
-                "aircraft": {
-                    "Jet": 12
+                "LEECE V STAR": {
+                    "LEECE": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "MANDA A STAR": {
-                "aircraft": {
-                    "Jet": 12,
-                    "Non-Jet": 13
+                "LEECE W STAR": {
+                    "LEECE": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "MANDA X STAR": {
-                "aircraft": {
-                    "Jet": 11,
-                    "Non-Jet": 12
+                "LEECE Y STAR": {
+                    "LEECE": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-        },
-        "30": {
-            "BUNGO V STAR": {
-                "aircraft": {
-                    "Non-Jet": 12
+                "POLLI A STAR": {
+                    "POLLI": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "POLLI X STAR": {
+                    "POLLI": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 }
             }
         },
-        "35": {
-            "AVBEG STAR": {
-                "aircraft": {
-                    "Jet": 16,
-                    "Non-Jet": 18
+        "Non-Jet": {
+            "17": {
+                "AVBEG STAR": {
+                    "AVBEG": {
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "BUNGO A STAR": {
+                    "BUNGO": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "MANDA A STAR": {
+                    "MANDA": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "MANDA X STAR": {
+                    "MANDA": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 }
             },
-            "LEECE A STAR": {
-                "aircraft": {
-                    "Jet": 15
-                },
-                "corrections": {
-                    "Reduced Speed": 1
+            "30": {
+                "BUNGO V STAR": {
+                    "BUNGO": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 }
             },
-            "LEECE V STAR": {
-                "aircraft": {
-                    "Jet": 15
+            "35": {
+                "AVBEG STAR": {
+                    "AVBEG": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "LEECE W STAR": {
-                "aircraft": {
-                    "Jet": 14
+                "BUNGO A STAR": {
+                    "BUNGO": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "LEECE Y STAR": {
-                "aircraft": {
-                    "Jet": 13
+                "BUNGO V STAR": {
+                    "BUNGO": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 16
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "BUNGO A STAR": {
-                "aircraft": {
-                    "Non-Jet": 17
+                "BUNGO W STAR": {
+                    "BUNGO": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "BUNGO V STAR": {
-                "aircraft": {
-                    "Non-Jet": 16
+                "BUNGO Y STAR": {
+                    "BUNGO": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "BUNGO W STAR": {
-                "aircraft": {
-                    "Non-Jet": 17
+                "POLLI A STAR": {
+                    "POLLI": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "BUNGO Y STAR": {
-                "aircraft": {
-                    "Non-Jet": 15
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "POLLI A STAR": {
-                "aircraft": {
-                    "Jet": 11,
-                    "Non-Jet": 13
-                },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "POLLI X STAR": {
-                "aircraft": {
-                    "Jet": 11,
-                    "Non-Jet": 12
-                },
-                "corrections": {
-                    "Reduced Speed": 0
+                "POLLI X STAR": {
+                    "POLLI": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 }
             }
         }
     },
     "YMHB": {
-        "12": {
-            "IPLET A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 13
+        "Jet & DH8D": {
+            "12": {
+                "IPLET A STAR": {
+                    "IPLET": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "IPLET V STAR": {
+                    "IPLET": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                },
+                "IPLET W STAR": {
+                    "IPLET": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                },
+                "MORGO A STAR": {
+                    "MORGO": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 }
             },
-            "IPLET V STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 10,
-                    "Non-Jet": 11
+            "30": {
+                "IPLET A STAR": {
+                    "IPLET": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "IPLET W STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 10,
-                    "Non-Jet": 11
+                "IPLET V STAR": {
+                    "IPLET": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "MORGO A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 13
+                "IPLET W STAR": {
+                    "IPLET": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "MORGO A STAR": {
+                    "MORGO": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "MORGO V STAR": {
+                    "MORGO": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "MORGO W STAR": {
+                    "MORGO": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
                 }
             }
         },
-        "30": {
-            "IPLET A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 13
+        "Non-Jet": {
+            "12": {
+                "IPLET A STAR": {
+                    "IPLET": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "IPLET V STAR": {
+                    "IPLET": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "IPLET W STAR": {
+                    "IPLET": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "MORGO A STAR": {
+                    "MORGO": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
                 }
             },
-            "IPLET V STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 10,
-                    "Non-Jet": 11
+            "30": {
+                "IPLET A STAR": {
+                    "IPLET": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "IPLET W STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 10,
-                    "Non-Jet": 12
+                "IPLET V STAR": {
+                    "IPLET": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "MORGO A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
+                "IPLET W STAR": {
+                    "IPLET": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "MORGO V STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 14,
-                    "Non-Jet": 16
+                "MORGO A STAR": {
+                    "MORGO": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "MORGO W STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 14,
-                    "Non-Jet": 16
+                "MORGO V STAR": {
+                    "MORGO": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "MORGO W STAR": {
+                    "MORGO": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
                 }
             }
         }
     },
     "YMLT": {
-        "14R": {
-            "IRSOM MLTNE": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 12
+        "Jet & DH8D": {
+            "14R": {
+                "IRSOM MLTNE": {
+                    "IRSOM": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "MIMIM MLTNG": {
+                    "MIMIM": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "LATUM MLTND": {
+                    "LATUM": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 }
             },
-            "MIMIM MLTNG": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
+            "32L": {
+                "IRSOM NODAS MLTSC": {
+                    "IRSOM": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 16
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "LATUM MLTND": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
+                "MIMIM ELREL MLTSA": {
+                    "MIMIM": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "LATUM MLTSB": {
+                    "LATUM": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 }
             }
         },
-        "32L": {
-            "IRSOM NODAS MLTSC": {
-                "aircraft": {
-                    "Jet & DH8D": 16,
-                    "Non-Jet": 18
+        "Non-Jet": {
+            "14R": {
+                "IRSOM MLTNE": {
+                    "IRSOM": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "MIMIM MLTNG": {
+                    "MIMIM": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "LATUM MLTND": {
+                    "LATUM": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 }
             },
-            "MIMIM ELREL MLTSA": {
-                "aircraft": {
-                    "Jet & DH8D": 19,
-                    "Non-Jet": 11
+            "32L": {
+                "IRSOM NODAS MLTSC": {
+                    "IRSOM": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 18
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "LATUM MLTSB": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 12
+                "MIMIM ELREL MLTSA": {
+                    "MIMIM": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 12
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "LATUM MLTSB": {
+                    "LATUM": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 }
             }
         }
     },
     "YBBN": {
-        "01L": {
-            "BLAKA A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 15
+        "Jet & DH8D": {
+            "01L": {
+                "BLAKA A STAR": {
+                    "BLAKA": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "ENLIP A STAR": {
+                    "ENLIP": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "GOMOL A STAR": {
+                    "GOMOL": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "MORBI A STAR": {
+                    "MORBI": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "MORBI V STAR": {
+                    "MORBI": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "SMOKA A STAR": {
+                    "SMOKA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "SMOKA X STAR": {
+                    "SMOKA": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "TEBOT A STAR": {
+                    "TEBOT": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                },
+                "UGTUG A STAR": {
+                    "UGTUG": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "WOODY A STAR": {
+                    "WOODY": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "WOODY V STAR": {
+                    "WOODY": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 }
             },
-            "ENLIP A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 13
+            "01R": {
+                "BLAKA A STAR": {
+                    "BLAKA": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "BLAKA X STAR": {
+                    "BLAKA": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
+                },
+                "ENLIP A STAR": {
+                    "ENLIP": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "GOMOL A STAR": {
+                    "GOMOL": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "GOMOL V STAR": {
+                    "GOMOL": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "GOMOL X STAR": {
+                    "GOMOL": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
+                },
+                "MORBI A STAR": {
+                    "MORBI": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "SMOKA A STAR": {
+                    "SMOKA": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "SMOKA M STAR": {
+                    "SMOKA": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "TEBOT A STAR": {
+                    "TEBOT": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                },
+                "TEBOT X STAR": {
+                    "TEBOT": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "UGTUG A STAR": {
+                    "UGTUG": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "UGTUG X STAR": {
+                    "UGTUG": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "WOODY A STAR": {
+                    "WOODY": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
                 }
             },
-            "GOMOL A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 14,
-                    "Non-Jet": 16
+            "19L": {
+                "BLAKA A STAR": {
+                    "BLAKA": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "BLAKA X STAR": {
+                    "BLAKA": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "ENLIP A STAR": {
+                    "ENLIP": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    }
+                },
+                "ENLIP X STAR": {
+                    "ENLIP": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "GOMOL A STAR": {
+                    "GOMOL": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                },
+                "GOMOL V STAR": {
+                    "GOMOL": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "GOMOL X STAR": {
+                    "GOMOL": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "MORBI A STAR": {
+                    "MORBI": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "SMOKA A STAR": {
+                    "SMOKA": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "TEBOT A STAR": {
+                    "TEBOT": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "UGTUG A STAR": {
+                    "UGTUG": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "UGTUG X STAR": {
+                    "UGTUG": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "WOODY A STAR": {
+                    "WOODY": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 }
             },
-            "MORBI A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 16,
-                    "Non-Jet": 18
+            "19R": {
+                "BLAKA A STAR": {
+                    "BLAKA": {
+                        "Normal Speed": 21,
+                        "Reduced Speed": 22
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "MORBI V STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 14
+                "ENLIP A STAR": {
+                    "ENLIP": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "SMOKA A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
+                "ENLIP X STAR": {
+                    "ENLIP": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "SMOKA X STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 14
+                "GOMOL A STAR": {
+                    "GOMOL": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "TEBOT A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 18,
-                    "Non-Jet": 20
+                "ISPON A STAR": {
+                    "ENLIP": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    },
+                    "BLAKA": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    },
+                    "GOMOL": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    },
+                    "UGTUG": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "UGTUG A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
+                "MORBI A STAR": {
+                    "MORBI": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "WOODY A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 14,
-                    "Non-Jet": 16
+                "MORBI V STAR": {
+                    "MORBI": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "WOODY V STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 13
+                "SMOKA A STAR": {
+                    "SMOKA": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "SMOKA X STAR": {
+                    "SMOKA": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "TEBOT A STAR": {
+                    "TEBOT": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "UGTUG A STAR": {
+                    "UGTUG": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "WOODY A STAR": {
+                    "WOODY": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "WOODY V STAR": {
+                    "WOODY": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 }
             }
         },
-        "01R": {
-            "BLAKA A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 15
+        "Non-Jet": {
+            "01L": {
+                "BLAKA A STAR": {
+                    "BLAKA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "ENLIP A STAR": {
+                    "ENLIP": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "GOMOL A STAR": {
+                    "GOMOL": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "MORBI A STAR": {
+                    "MORBI": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                },
+                "MORBI V STAR": {
+                    "MORBI": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "SMOKA A STAR": {
+                    "SMOKA": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "SMOKA X STAR": {
+                    "SMOKA": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "TEBOT A STAR": {
+                    "TEBOT": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    }
+                },
+                "UGTUG A STAR": {
+                    "UGTUG": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "WOODY A STAR": {
+                    "WOODY": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "WOODY V STAR": {
+                    "WOODY": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
                 }
             },
-            "BLAKA X STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 14
+            "01R": {
+                "BLAKA A STAR": {
+                    "BLAKA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "BLAKA X STAR": {
+                    "BLAKA": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "ENLIP A STAR": {
+                    "ENLIP": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "GOMOL A STAR": {
+                    "GOMOL": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "GOMOL V STAR": {
+                    "GOMOL": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "GOMOL X STAR": {
+                    "GOMOL": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "MORBI A STAR": {
+                    "MORBI": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "SMOKA A STAR": {
+                    "SMOKA": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "SMOKA M STAR": {
+                    "SMOKA": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "TEBOT A STAR": {
+                    "TEBOT": {
+                        "Normal Speed": 21,
+                        "Reduced Speed": 22
+                    }
+                },
+                "TEBOT X STAR": {
+                    "TEBOT": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "UGTUG A STAR": {
+                    "UGTUG": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "UGTUG X STAR": {
+                    "UGTUG": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "WOODY A STAR": {
+                    "WOODY": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 }
             },
-            "ENLIP A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 13
+            "19L": {
+                "BLAKA A STAR": {
+                    "BLAKA": {
+                        "Normal Speed": 22,
+                        "Reduced Speed": 23
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "BLAKA X STAR": {
+                    "BLAKA": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                },
+                "ENLIP A STAR": {
+                    "ENLIP": {
+                        "Normal Speed": 23,
+                        "Reduced Speed": 24
+                    }
+                },
+                "ENLIP X STAR": {
+                    "ENLIP": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    }
+                },
+                "GOMOL A STAR": {
+                    "GOMOL": {
+                        "Normal Speed": 21,
+                        "Reduced Speed": 22
+                    }
+                },
+                "GOMOL V STAR": {
+                    "GOMOL": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "GOMOL X STAR": {
+                    "GOMOL": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                },
+                "MORBI A STAR": {
+                    "MORBI": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "SMOKA A STAR": {
+                    "SMOKA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "TEBOT A STAR": {
+                    "TEBOT": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "UGTUG A STAR": {
+                    "UGTUG": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "UGTUG X STAR": {
+                    "UGTUG": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "WOODY A STAR": {
+                    "WOODY": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 }
             },
-            "GOMOL A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 14,
-                    "Non-Jet": 15
+            "19R": {
+                "BLAKA A STAR": {
+                    "BLAKA": {
+                        "Normal Speed": 24,
+                        "Reduced Speed": 25
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "GOMOL V STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 14
+                "ENLIP A STAR": {
+                    "ENLIP": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "GOMOL X STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 14
+                "ENLIP X STAR": {
+                    "ENLIP": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "MORBI A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
+                "GOMOL A STAR": {
+                    "GOMOL": {
+                        "Normal Speed": 23,
+                        "Reduced Speed": 24
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "SMOKA A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 14,
-                    "Non-Jet": 16
+                "ISPON A STAR": {
+                    "ENLIP": {
+                        "Normal Speed": 23,
+                        "Reduced Speed": 24
+                    },
+                    "BLAKA": {
+                        "Normal Speed": 22,
+                        "Reduced Speed": 23
+                    },
+                    "GOMOL": {
+                        "Normal Speed": 21,
+                        "Reduced Speed": 22
+                    },
+                    "UGTUG": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "SMOKA M STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 13
+                "MORBI A STAR": {
+                    "MORBI": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "TEBOT A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 18,
-                    "Non-Jet": 21
+                "MORBI V STAR": {
+                    "MORBI": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "TEBOT X STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
+                "SMOKA A STAR": {
+                    "SMOKA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "UGTUG A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
+                "SMOKA X STAR": {
+                    "SMOKA": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "UGTUG X STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 14
+                "TEBOT A STAR": {
+                    "TEBOT": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "WOODY A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 15
+                "UGTUG A STAR": {
+                    "UGTUG": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            }
-        },
-        "19L": {
-            "BLAKA A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 19,
-                    "Non-Jet": 22
+                "WOODY A STAR": {
+                    "WOODY": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "BLAKA X STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 16,
-                    "Non-Jet": 18
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "ENLIP A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 20,
-                    "Non-Jet": 23
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "ENLIP X STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 16,
-                    "Non-Jet": 19
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "GOMOL A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 18,
-                    "Non-Jet": 21
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "GOMOL V STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "GOMOL X STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 16,
-                    "Non-Jet": 18
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "MORBI A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 14
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "SMOKA A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 15
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "TEBOT A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 12
-                },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "UGTUG A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 15
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "UGTUG X STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 13
-                },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "WOODY A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            }
-        },
-        "19R": {
-            "BLAKA A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 21,
-                    "Non-Jet": 24
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "ENLIP A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 18,
-                    "Non-Jet": 20
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "ENLIP X STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 16,
-                    "Non-Jet": 18
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "GOMOL A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 20,
-                    "Non-Jet": 23
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "ISPON A (ENLIP trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 20,
-                    "Non-Jet": 23
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "ISPON A (BLAKA trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 19,
-                    "Non-Jet": 22
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "ISPON A (GOMOL trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 19,
-                    "Non-Jet": 21
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "ISPON A (UGTUG trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 14,
-                    "Non-Jet": 15
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "MORBI A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 14
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "MORBI V STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 12
-                },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "SMOKA A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 15
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "SMOKA X STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 13
-                },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "TEBOT A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 13
-                },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "UGTUG A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 14,
-                    "Non-Jet": 16
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "WOODY A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 16
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "WOODY V STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 14
-                },
-                "corrections": {
-                    "Reduced Speed": 0
+                "WOODY V STAR": {
+                    "WOODY": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 14
+                    }
                 }
             }
         }
     },
     "YBCG": {
-        "14": {
-            "BERNI A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
+        "Jet & DH8D": {
+            "14": {
+                "BERNI A STAR": {
+                    "BERNI": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "BERNI V STAR": {
+                    "BERNI": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "BERNI Y STAR": {
+                    "BERNI": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "LAMSI A STAR": {
+                    "LAMSI": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "LAMSI Y STAR": {
+                    "LAMSI": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "BN Y177 IDRIL CG2NC": {
+                    "BN": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
                 }
             },
-            "BERNI V STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 14,
-                    "Non-Jet": 16
+            "32": {
+                "BERNI A STAR": {
+                    "BERNI": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "BERNI Y STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 14,
-                    "Non-Jet": 16
+                "BERNI V STAR": {
+                    "BERNI": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "LAMSI A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 14,
-                    "Non-Jet": 15
+                "LAMSI A STAR": {
+                    "LAMSI": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "LAMSI Y STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 14
+                "LAMSI Y STAR": {
+                    "LAMSI": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "BN Y177 IDRIL CG2NC": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 13
-                },
-                "corrections": {
-                    "Reduced Speed": 1
+                "BN Y177 IDRIL CG2SA": {
+                    "BN": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
                 }
             }
         },
-        "32": {
-            "BERNI A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 13
+        "Non-Jet": {
+            "14": {
+                "BERNI A STAR": {
+                    "BERNI": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "BERNI V STAR": {
+                    "BERNI": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "BERNI Y STAR": {
+                    "BERNI": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "LAMSI A STAR": {
+                    "LAMSI": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "LAMSI Y STAR": {
+                    "LAMSI": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 14
+                    }
+                },
+                "BN Y177 IDRIL CG2NC": {
+                    "BN": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
                 }
             },
-            "BERNI V STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 13
+            "32": {
+                "BERNI A STAR": {
+                    "BERNI": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "LAMSI A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 13
+                "BERNI V STAR": {
+                    "BERNI": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "LAMSI Y STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 10,
-                    "Non-Jet": 12
+                "LAMSI A STAR": {
+                    "LAMSI": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "BN Y177 IDRIL CG2SA": {
-                "aircraft": {
-                    "Jet & DH8D": 16,
-                    "Non-Jet": 18
+                "LAMSI Y STAR": {
+                    "LAMSI": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "BN Y177 IDRIL CG2SA": {
+                    "BN": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
                 }
             }
         }
     },
     "YPDN": {
-        "11": {
-            "ANUPA A/X (SUDAG FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 13
+        "Jet & DH8D": {
+            "11": {
+                "ANUPA A/X STAR": {
+                    "SUDAG": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "GATOR A/X STAR": {
+                    "GATOR": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "VEGPU A/X STAR": {
+                    "VEGPU": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "VEGPU W STAR": {
+                    "VEGPU": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "WANGI A/X STAR": {
+                    "WANGI": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "WANGI W STAR": {
+                    "WANGI": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
                 }
             },
-            "GATOR A/X STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 17,
-                    "Non-Jet": 19
+            "29": {
+                "ANUPA A/X STAR": {
+                    "SUDAG": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "VEGPU A/X STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 15
+                "GATOR A/X STAR": {
+                    "GATOR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "VEGPU W STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 13
+                "VEGPU A/X STAR": {
+                    "VEGPU": {
+                        "Normal Speed": 8,
+                        "Reduced Speed": 8
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "WANGI A/X STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
+                "WANGI A/X STAR": {
+                    "WANGI": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "WANGI W STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 14,
-                    "Non-Jet": 16
-                },
-                "corrections": {
-                    "Reduced Speed": 1
+                "WANGI W STAR": {
+                    "WANGI": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 }
             }
         },
-        "29": {
-            "ANUPA A/X (SUDAG FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 18,
-                    "Non-Jet": 21
+        "Non-Jet": {
+            "11": {
+                "ANUPA A/X STAR": {
+                    "SUDAG": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "GATOR A/X STAR": {
+                    "GATOR": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    }
+                },
+                "VEGPU A/X STAR": {
+                    "VEGPU": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "VEGPU W STAR": {
+                    "VEGPU": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "WANGI A/X STAR": {
+                    "WANGI": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "WANGI W STAR": {
+                    "WANGI": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
                 }
             },
-            "GATOR A/X STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 14
+            "29": {
+                "ANUPA A/X STAR": {
+                    "SUDAG": {
+                        "Normal Speed": 21,
+                        "Reduced Speed": 22
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "VEGPU A/X STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 8,
-                    "Non-Jet": 9
+                "GATOR A/X STAR": {
+                    "GATOR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "WANGI A/X STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 17,
-                    "Non-Jet": 19
+                "VEGPU A/X STAR": {
+                    "VEGPU": {
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "WANGI W STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
+                "WANGI A/X STAR": {
+                    "WANGI": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "WANGI W STAR": {
+                    "WANGI": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 }
             }
         }
     },
     "YPPH": {
-        "03": {
-            "DAYLR A STAR": {
-                "aircraft": {
-                    "DH8D": 12,
-                    "Non-Jet": 13
+        "Jet": {
+            "21": {
+                "IPMOR A STAR": {
+                    "KAGMI": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "JULIM A STAR": {
+                    "JULIM": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                },
+                "KABLI A STAR": {
+                    "KABLI": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "SOLUS A STAR": {
+                    "SOLUS": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
                 }
             },
-            "DAYLR V STAR": {
-                "aircraft": {
-                    "DH8D": 10,
-                    "Non-Jet": 12
+            "24": {
+                "IPMOR A STAR": {
+                    "KAGMI": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "JULIM A STAR": {
+                    "JULIM": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                },
+                "KABLI A STAR": {
+                    "KABLI": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "SOLUS A STAR": {
+                    "SOLUS": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 }
             },
-            "DAYLR X STAR": {
-                "aircraft": {
-                    "DH8D": 10,
-                    "Non-Jet": 11
+            "03": {
+                "IPMOR A STAR": {
+                    "KAGMI": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "JULIM A STAR": {
+                    "JULIM": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "JULIM V STAR": {
+                    "JULIM": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "JULIM X STAR": {
+                    "JULIM": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "KABLI A STAR": {
+                    "KABLI": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "KABLI V STAR": {
+                    "KABLI": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "KABLI X STAR": {
+                    "KABLI": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "SOLUS A STAR": {
+                    "SOLUS": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "SOLUS V STAR": {
+                    "SOLUS": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                },
+                "SOLUS X STAR": {
+                    "SOLUS": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
                 }
             },
-            "IPMOR A (KAGMI FF) STAR": {
-                "aircraft": {
-                    "Jet": 17,
-                    "DH8D": 17,
-                    "Non-Jet": 19
+            "06": {
+                "IPMOR A STAR": {
+                    "KAGMI": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "JULIM A STAR": {
-                "aircraft": {
-                    "Jet": 17
+                "JULIM A STAR": {
+                    "JULIM": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "JULIM V STAR": {
-                "aircraft": {
-                    "Jet": 15
+                "JULIM V STAR": {
+                    "JULIM": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "JULIM X STAR": {
-                "aircraft": {
-                    "Jet": 15
+                "KABLI A STAR": {
+                    "KABLI": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "KABLI A STAR": {
-                "aircraft": {
-                    "Jet": 15
+                "KABLI V STAR": {
+                    "KABLI": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "KABLI V STAR": {
-                "aircraft": {
-                    "Jet": 13
+                "SOLUS A STAR": {
+                    "SOLUS": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "KABLI X STAR": {
-                "aircraft": {
-                    "Jet": 13
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "LAVEX A STAR": {
-                "aircraft": {
-                    "DH8D": 16,
-                    "Non-Jet": 18
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "LAVEX V STAR": {
-                "aircraft": {
-                    "DH8D": 14,
-                    "Non-Jet": 15
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "LAVEX X STAR": {
-                "aircraft": {
-                    "DH8D": 13,
-                    "Non-Jet": 15
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "SAPKO A STAR": {
-                "aircraft": {
-                    "DH8D": 18,
-                    "Non-Jet": 20
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "SAPKO V STAR": {
-                "aircraft": {
-                    "DH8D": 15,
-                    "Non-Jet": 17
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "SAPKO X STAR": {
-                "aircraft": {
-                    "DH8D": 15,
-                    "Non-Jet": 17
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "SOLUS A STAR": {
-                "aircraft": {
-                    "Jet": 11,
-                    "DH8D": 11,
-                    "Non-Jet": 12
-                },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "SOLUS V STAR": {
-                "aircraft": {
-                    "Jet": 10,
-                    "DH8D": 10,
-                    "Non-Jet": 12
-                },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "SOLUS X STAR": {
-                "aircraft": {
-                    "Jet": 10,
-                    "DH8D": 10,
-                    "Non-Jet": 11
-                },
-                "corrections": {
-                    "Reduced Speed": 0
+                "SOLUS V STAR": {
+                    "SOLUS": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 }
             }
         },
-        "06": {
-            "DAYLR A STAR": {
-                "aircraft": {
-                    "DH8D": 13,
-                    "Non-Jet": 15
+        "DH8D": {
+            "21": {
+                "IPMOR A STAR": {
+                    "KAGMI": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "LAVEX A STAR": {
+                    "LAVEX": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "SAPKO A STAR": {
+                    "SAPKO": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                },
+                "SOLUS A STAR": {
+                    "SOLUS": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
                 }
             },
-            "DAYLR V STAR": {
-                "aircraft": {
-                    "DH8D": 11,
-                    "Non-Jet": 13
+            "24": {
+                "IPMOR A STAR": {
+                    "KAGMI": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "LAVEX A STAR": {
+                    "LAVEX": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "SAPKO A STAR": {
+                    "SAPKO": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                },
+                "SOLUS A STAR": {
+                    "SOLUS": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 }
             },
-            "IPMOR A (KAGMI FF) STAR": {
-                "aircraft": {
-                    "Jet": 14,
-                    "DH8D": 14,
-                    "Non-Jet": 16
+            "03": {
+                "DAYLR A STAR": {
+                    "DAYLR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "DAYLR V STAR": {
+                    "DAYLR": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                },
+                "DAYLR X STAR": {
+                    "DAYLR": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                },
+                "IPMOR A STAR": {
+                    "KAGMI": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "LAVEX A STAR": {
+                    "LAVEX": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "LAVEX V STAR": {
+                    "LAVEX": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "LAVEX X STAR": {
+                    "LAVEX": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "SAPKO A STAR": {
+                    "SAPKO": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                },
+                "SAPKO V STAR": {
+                    "SAPKO": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "SAPKO X STAR": {
+                    "SAPKO": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "SOLUS A STAR": {
+                    "SOLUS": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "SOLUS V STAR": {
+                    "SOLUS": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                },
+                "SOLUS X STAR": {
+                    "SOLUS": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
                 }
             },
-            "JULIM A STAR": {
-                "aircraft": {
-                    "Jet": 19
+            "06": {
+                "DAYLR A STAR": {
+                    "DAYLR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "JULIM V STAR": {
-                "aircraft": {
-                    "Jet": 16
+                "DAYLR V STAR": {
+                    "DAYLR": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "KABLI A STAR": {
-                "aircraft": {
-                    "Jet": 16
+                "IPMOR A STAR": {
+                    "KAGMI": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "KABLI V STAR": {
-                "aircraft": {
-                    "Jet": 14
+                "LAVEX A STAR": {
+                    "LAVEX": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "LAVEX A STAR": {
-                "aircraft": {
-                    "DH8D": 17,
-                    "Non-Jet": 20
+                "LAVEX V STAR": {
+                    "LAVEX": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "LAVEX V STAR": {
-                "aircraft": {
-                    "DH8D": 14,
-                    "Non-Jet": 16
+                "SAPKO A STAR": {
+                    "SAPKO": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "SAPKO A STAR": {
-                "aircraft": {
-                    "DH8D": 19,
-                    "Non-Jet": 22
+                "SAPKO V STAR": {
+                    "SAPKO": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "SAPKO V STAR": {
-                "aircraft": {
-                    "DH8D": 16,
-                    "Non-Jet": 18
+                "SOLUS A STAR": {
+                    "SOLUS": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "SOLUS A STAR": {
-                "aircraft": {
-                    "Jet": 12,
-                    "DH8D": 12,
-                    "Non-Jet": 14
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "SOLUS V STAR": {
-                "aircraft": {
-                    "Jet": 11,
-                    "DH8D": 11,
-                    "Non-Jet": 13
-                },
-                "corrections": {
-                    "Reduced Speed": 0
+                "SOLUS V STAR": {
+                    "SOLUS": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 }
             }
         },
-        "21": {
-            "IPMOR A (KAGMI FF) STAR": {
-                "aircraft": {
-                    "Jet": 15,
-                    "DH8D": 15,
-                    "Non-Jet": 17
+        "Non-Jet": {
+            "21": {
+                "IPMOR A STAR": {
+                    "KAGMI": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "LAVEX A STAR": {
+                    "LAVEX": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "SAPKO A STAR": {
+                    "SAPKO": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "SOLUS A STAR": {
+                    "SOLUS": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
                 }
             },
-            "JULIM A STAR": {
-                "aircraft": {
-                    "Jet": 10
+            "24": {
+                "IPMOR A STAR": {
+                    "KAGMI": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "LAVEX A STAR": {
+                    "LAVEX": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "SAPKO A STAR": {
+                    "SAPKO": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "SOLUS A STAR": {
+                    "SOLUS": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 14
+                    }
                 }
             },
-            "KABLI A STAR": {
-                "aircraft": {
-                    "Jet": 15
+            "03": {
+                "DAYLR A STAR": {
+                    "DAYLR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "DAYLR V STAR": {
+                    "DAYLR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "DAYLR X STAR": {
+                    "DAYLR": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "IPMOR A STAR": {
+                    "KAGMI": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    }
+                },
+                "LAVEX A STAR": {
+                    "LAVEX": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                },
+                "LAVEX V STAR": {
+                    "LAVEX": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "LAVEX X STAR": {
+                    "LAVEX": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "SAPKO A STAR": {
+                    "SAPKO": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    }
+                },
+                "SAPKO V STAR": {
+                    "SAPKO": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "SAPKO X STAR": {
+                    "SAPKO": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "SOLUS A STAR": {
+                    "SOLUS": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "SOLUS V STAR": {
+                    "SOLUS": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "SOLUS X STAR": {
+                    "SOLUS": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 }
             },
-            "LAVEX A STAR": {
-                "aircraft": {
-                    "DH8D": 14,
-                    "Non-Jet": 16
+            "06": {
+                "DAYLR A STAR": {
+                    "DAYLR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "SAPKO A STAR": {
-                "aircraft": {
-                    "DH8D": 10,
-                    "Non-Jet": 11
+                "DAYLR V STAR": {
+                    "DAYLR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "SOLUS A STAR": {
-                "aircraft": {
-                    "Jet": 14,
-                    "DH8D": 14,
-                    "Non-Jet": 16
+                "IPMOR A STAR": {
+                    "KAGMI": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            }
-        },
-        "24": {
-            "IPMOR A (KAGMI FF) STAR": {
-                "aircraft": {
-                    "Jet": 17,
-                    "DH8D": 17,
-                    "Non-Jet": 20
+                "LAVEX A STAR": {
+                    "LAVEX": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "JULIM A STAR": {
-                "aircraft": {
-                    "Jet": 10
+                "LAVEX V STAR": {
+                    "LAVEX": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "KABLI A STAR": {
-                "aircraft": {
-                    "Jet": 15
+                "SAPKO A STAR": {
+                    "SAPKO": {
+                        "Normal Speed": 22,
+                        "Reduced Speed": 23
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "LAVEX A STAR": {
-                "aircraft": {
-                    "DH8D": 13,
-                    "Non-Jet": 15
+                "SAPKO V STAR": {
+                    "SAPKO": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "SAPKO A STAR": {
-                "aircraft": {
-                    "DH8D": 10,
-                    "Non-Jet": 11
+                "SOLUS A STAR": {
+                    "SOLUS": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "SOLUS A STAR": {
-                "aircraft": {
-                    "Jet": 12,
-                    "DH8D": 12,
-                    "Non-Jet": 14
-                },
-                "corrections": {
-                    "Reduced Speed": 0
+                "SOLUS V STAR": {
+                    "SOLUS": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
                 }
             }
         }
     },
     "YBCS": {
-        "15": {
-            "CODIE A (ANDOP trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 14,
-                    "Non-Jet": 15
+        "Jet & DH8D": {
+            "15": {
+                "CODIE A STAR": {
+                    "ANDOP": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "AVDAN": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    },
+                    "LOCKA": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    },
+                    "OVLET": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    },
+                    "PUNIT": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "ZANEY": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "KASPI B/V STAR": {
+                    "ANDOP": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "AVDAN": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    },
+                    "LOCKA": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    },
+                    "OVLET": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "PUNIT": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "ZANEY": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
+                },
+                "NONUM A STAR": {
+                    "MUSEY": {
+                        "Normal Speed": 21,
+                        "Reduced Speed": 22
+                    },
+                    "NORMA": {
+                        "Normal Speed": 24,
+                        "Reduced Speed": 25
+                    }
+                },
+                "NONUM V STAR": {
+                    "MUSEY": {
+                        "Normal Speed": 21,
+                        "Reduced Speed": 22
+                    },
+                    "NORMA": {
+                        "Normal Speed": 24,
+                        "Reduced Speed": 25
+                    }
+                },
+                "NONUM W STAR": {
+                    "MUSEY": {
+                        "Normal Speed": 21,
+                        "Reduced Speed": 22
+                    },
+                    "NORMA": {
+                        "Normal Speed": 24,
+                        "Reduced Speed": 25
+                    }
+                },
+                "UPOLO A STAR": {
+                    "BARIA": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "UPOLO V STAR": {
+                    "BARIA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "UPOLO W STAR": {
+                    "BARIA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 }
             },
-            "CODIE A (AVDAN trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 14
+            "33": {
+                "HENDO A STAR": {
+                    "ANDOP": {
+                        "Normal Speed": 21,
+                        "Reduced Speed": 22
+                    },
+                    "BARIA": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    },
+                    "ISNER": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    },
+                    "NORMA": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "OVLET": {
+                        "Normal Speed": 22,
+                        "Reduced Speed": 23
+                    },
+                    "PUNIT": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    },
+                    "VEKBI": {
+                        "Normal Speed": 24,
+                        "Reduced Speed": 25
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "CODIE A (LOCKA trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 14
+                "KEEWI A STAR": {
+                    "AVDAN": {
+                        "Normal Speed": 23,
+                        "Reduced Speed": 24
+                    },
+                    "LOCKA": {
+                        "Normal Speed": 22,
+                        "Reduced Speed": 23
+                    },
+                    "ZANEY": {
+                        "Normal Speed": 22,
+                        "Reduced Speed": 23
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "CODIE A (OVLET trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 14
+                "KEEWI V STAR": {
+                    "AVDAN": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    },
+                    "LOCKA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "OVLET": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    },
+                    "ZANEY": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "CODIE A (PUNIT trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 14,
-                    "Non-Jet": 16
+                "KEEWI X STAR": {
+                    "AVDAN": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    },
+                    "LOCKA": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    },
+                    "OVLET": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    },
+                    "ZANEY": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "CODIE A (ZANEY trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 14,
-                    "Non-Jet": 15
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "KASPI B/V (ANDOP trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "KASPI B/V (AVDAN trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 15
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "KASPI B/V (LOCKA trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 14
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "KASPI B/V (OVLET trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 14,
-                    "Non-Jet": 15
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "KASPI B/V (PUNIT trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "KASPI B/V (ZANEY trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 14
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "NONUM A (MUSEY FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 21,
-                    "Non-Jet": 24
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "NONUM A (NORMA FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 24,
-                    "Non-Jet": 28
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "NONUM V (MUSEY FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 21,
-                    "Non-Jet": 24
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "NONUM V (NORMA FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 24,
-                    "Non-Jet": 27
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "NONUM W (MUSEY FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 21,
-                    "Non-Jet": 23
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "NONUM W (NORMA FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 24,
-                    "Non-Jet": 27
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "UPOLO A (BARIA FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 16,
-                    "Non-Jet": 18
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "UPOLO V (BARIA FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "UPOLO W (BARIA FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-        },
-        "33": {
-            "HENDO A (ANDOP trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 21,
-                    "Non-Jet": 24
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "HENDO A (BARIA trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 14
-                },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "HENDO A (ISNER trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 14
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "HENDO A (NORMA trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 14,
-                    "Non-Jet": 15
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "HENDO A (OVLET trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 22,
-                    "Non-Jet": 25
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "HENDO A (PUNIT trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 20,
-                    "Non-Jet": 23
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "HENDO A (VEKBI trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 24,
-                    "Non-Jet": 27
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "KEEWI A (AVDAN trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 23,
-                    "Non-Jet": 26
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "KEEWI A (LOCKA trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 22,
-                    "Non-Jet": 26
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "KEEWI A (ZANEY trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 22,
-                    "Non-Jet": 25
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "KEEWI V (AVDAN trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 16,
-                    "Non-Jet": 18
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "KEEWI V (LOCKA trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "KEEWI V (OVLET trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 16,
-                    "Non-Jet": 18
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "KEEWI V (ZANEY trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 14,
-                    "Non-Jet": 16
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "KEEWI X (AVDAN trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 18,
-                    "Non-Jet": 21
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "KEEWI X (LOCKA trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 17,
-                    "Non-Jet": 20
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "KEEWI X (OVLET trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 19,
-                    "Non-Jet": 21
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "KEEWI X (ZANEY trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 17,
-                    "Non-Jet": 19
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "TOTTY W (ANDOP trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 19,
-                    "Non-Jet": 22
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "TOTTY W (ISNER trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 15
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "TOTTY W (NORMA trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 15
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "TOTTY W (PUNIT trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 19,
-                    "Non-Jet": 21
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "TOTTY W (VEKBI trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 22,
-                    "Non-Jet": 25
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-        }
-    },
-    "YBTL": {
-        "01": {
-            "IBUXI A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 16,
-                    "Non-Jet": 19
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "IGIKI A (36 DME TL FF) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 14,
-                    "Non-Jet": 16
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "POROB A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 14
-                },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "POROB P STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 12
-                },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "VOMPA A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 10,
-                    "Non-Jet": 11
-                },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "VOMPA P STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 10,
-                    "Non-Jet": 11
-                },
-                "corrections": {
-                    "Reduced Speed": 0
+                "TOTTY W STAR": {
+                    "ANDOP": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    },
+                    "ISNER": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    },
+                    "NORMA": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    },
+                    "PUNIT": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    },
+                    "VEKBI": {
+                        "Normal Speed": 22,
+                        "Reduced Speed": 23
+                    }
                 }
             }
         },
-        "19": {
-            "IBUXI Z STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 12
+        "Non-Jet": {
+            "15": {
+                "CODIE A STAR": {
+                    "ANDOP": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "AVDAN": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "LOCKA": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "OVLET": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "PUNIT": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    },
+                    "ZANEY": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "KASPI B/V STAR": {
+                    "ANDOP": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    },
+                    "AVDAN": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "LOCKA": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "OVLET": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "PUNIT": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    },
+                    "ZANEY": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "NONUM A STAR": {
+                    "MUSEY": {
+                        "Normal Speed": 24,
+                        "Reduced Speed": 25
+                    },
+                    "NORMA": {
+                        "Normal Speed": 28,
+                        "Reduced Speed": 29
+                    }
+                },
+                "NONUM V STAR": {
+                    "MUSEY": {
+                        "Normal Speed": 24,
+                        "Reduced Speed": 25
+                    },
+                    "NORMA": {
+                        "Normal Speed": 27,
+                        "Reduced Speed": 28
+                    }
+                },
+                "NONUM W STAR": {
+                    "MUSEY": {
+                        "Normal Speed": 23,
+                        "Reduced Speed": 24
+                    },
+                    "NORMA": {
+                        "Normal Speed": 27,
+                        "Reduced Speed": 28
+                    }
+                },
+                "UPOLO A STAR": {
+                    "BARIA": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                },
+                "UPOLO V STAR": {
+                    "BARIA": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "UPOLO W STAR": {
+                    "BARIA": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 }
             },
-            "POROB B STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 15
+            "33": {
+                "HENDO A STAR": {
+                    "ANDOP": {
+                        "Normal Speed": 24,
+                        "Reduced Speed": 25
+                    },
+                    "BARIA": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 14
+                    },
+                    "ISNER": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "NORMA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "OVLET": {
+                        "Normal Speed": 25,
+                        "Reduced Speed": 26
+                    },
+                    "PUNIT": {
+                        "Normal Speed": 23,
+                        "Reduced Speed": 24
+                    },
+                    "VEKBI": {
+                        "Normal Speed": 27,
+                        "Reduced Speed": 28
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "KEEWI A STAR": {
+                    "AVDAN": {
+                        "Normal Speed": 26,
+                        "Reduced Speed": 27
+                    },
+                    "LOCKA": {
+                        "Normal Speed": 26,
+                        "Reduced Speed": 27
+                    },
+                    "ZANEY": {
+                        "Normal Speed": 25,
+                        "Reduced Speed": 26
+                    }
+                },
+                "KEEWI V STAR": {
+                    "AVDAN": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    },
+                    "LOCKA": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    },
+                    "OVLET": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    },
+                    "ZANEY": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "KEEWI X STAR": {
+                    "AVDAN": {
+                        "Normal Speed": 21,
+                        "Reduced Speed": 22
+                    },
+                    "LOCKA": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    },
+                    "OVLET": {
+                        "Normal Speed": 21,
+                        "Reduced Speed": 22
+                    },
+                    "ZANEY": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    }
+                },
+                "TOTTY W STAR": {
+                    "ANDOP": {
+                        "Normal Speed": 22,
+                        "Reduced Speed": 23
+                    },
+                    "ISNER": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "NORMA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "PUNIT": {
+                        "Normal Speed": 21,
+                        "Reduced Speed": 22
+                    },
+                    "VEKBI": {
+                        "Normal Speed": 25,
+                        "Reduced Speed": 26
+                    }
+                }
+            }
+        }
+    },
+    "YBTL": {
+        "Jet & DH8D": {
+            "19": {
+                "IBUXI Z STAR": {
+                    "IBUXI": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "POROB B STAR": {
+                    "POROB": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "POROB P STAR": {
+                    "POROB": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "POROB Z STAR": {
+                    "POROB": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "VOMPA B STAR": {
+                    "VOMPA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "VOMPA P STAR": {
+                    "VOMPA": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "VOMPA Z STAR": {
+                    "VOMPA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 }
             },
-            "POROB P STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 13
+            "01": {
+                "IBUXI A STAR": {
+                    "IBUXI": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "IGIKI A STAR": {
+                    "36 DME TL": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "POROB A STAR": {
+                    "POROB": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "POROB P STAR": {
+                    "POROB": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "VOMPA A STAR": {
+                    "VOMPA": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                },
+                "VOMPA P STAR": {
+                    "VOMPA": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                }
+            }
+        },
+        "Non-Jet": {
+            "19": {
+                "IBUXI Z STAR": {
+                    "IBUXI": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "POROB B STAR": {
+                    "POROB": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "POROB P STAR": {
+                    "POROB": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "POROB Z STAR": {
+                    "POROB": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "VOMPA B STAR": {
+                    "VOMPA": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "VOMPA P STAR": {
+                    "VOMPA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "VOMPA Z STAR": {
+                    "VOMPA": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
                 }
             },
-            "POROB Z STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 14
+            "01": {
+                "IBUXI A STAR": {
+                    "IBUXI": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "VOMPA B STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
+                "IGIKI A STAR": {
+                    "36 DME TL": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "VOMPA P STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 13,
-                    "Non-Jet": 15
+                "POROB A STAR": {
+                    "POROB": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "VOMPA Z STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 16
+                "POROB P STAR": {
+                    "POROB": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "VOMPA A STAR": {
+                    "VOMPA": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "VOMPA P STAR": {
+                    "VOMPA": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 }
             }
         }
     },
     "YWLM": {
-        "12": {
-            "ASUVA STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
+        "Jet & DH8D": {
+            "12": {
+                "ASUVA STAR": {
+                    "ASUVA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
+                "EKIPU STAR": {
+                    "EKIPU": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "LAXUM A STAR": {
+                    "LAXUM": {
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
+                    }
+                },
+                "LAXUM B STAR": {
+                    "LAXUM": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "LAXUM R STAR": {
+                    "LAXUM": {
+                        "Normal Speed": 8,
+                        "Reduced Speed": 8
+                    }
+                },
+                "LAXUM V STAR": {
+                    "LAXUM": {
+                        "Normal Speed": 8,
+                        "Reduced Speed": 8
+                    }
+                },
+                "OVLUX STAR": {
+                    "OVLUX": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "PUDUT STAR": {
+                    "PUDUT": {
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
+                    }
                 }
             },
-            "EKIPU STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 13
+            "30": {
+                "ASUVA STAR": {
+                    "ASUVA": {
+                        "Normal Speed": 7,
+                        "Reduced Speed": 7
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "LAXUM A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 9,
-                    "Non-Jet": 10
+                "EKIPU STAR": {
+                    "EKIPU": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "LAXUM B STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 12
+                "IVTAG R/V STAR": {
+                    "EKIPU": {
+                        "Normal Speed": 8,
+                        "Reduced Speed": 8
+                    },
+                    "OVLUX": {
+                        "Normal Speed": 8,
+                        "Reduced Speed": 8
+                    },
+                    "PUDUT": {
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "LAXUM R STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 8,
-                    "Non-Jet": 9
+                "LAXUM A STAR": {
+                    "LAXUM": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "LAXUM V STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 8,
-                    "Non-Jet": 9
+                "LAXUM B STAR": {
+                    "LAXUM": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "OVLUX STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 13
+                "LAXUM R STAR": {
+                    "LAXUM": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "PUDUT STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 9,
-                    "Non-Jet": 10
+                "LAXUM V STAR": {
+                    "LAXUM": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "OVLUX STAR": {
+                    "OVLUX": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "PUDUT STAR": {
+                    "PUDUT": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 }
             }
         },
-        "30": {
-            "ASUVA STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 7,
-                    "Non-Jet": 8
+        "Non-Jet": {
+            "12": {
+                "ASUVA STAR": {
+                    "ASUVA": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
+                "EKIPU STAR": {
+                    "EKIPU": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "LAXUM A STAR": {
+                    "LAXUM": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                },
+                "LAXUM B STAR": {
+                    "LAXUM": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "LAXUM R STAR": {
+                    "LAXUM": {
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
+                    }
+                },
+                "LAXUM V STAR": {
+                    "LAXUM": {
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
+                    }
+                },
+                "OVLUX STAR": {
+                    "OVLUX": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "PUDUT STAR": {
+                    "PUDUT": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
                 }
             },
-            "EKIPU STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 12
+            "30": {
+                "ASUVA STAR": {
+                    "ASUVA": {
+                        "Normal Speed": 8,
+                        "Reduced Speed": 8
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "IVTAG R/V (EKIPU trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 8,
-                    "Non-Jet": 9
+                "EKIPU STAR": {
+                    "EKIPU": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "IVTAG R/V (OVLUX trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 8,
-                    "Non-Jet": 9
+                "IVTAG R/V STAR": {
+                    "EKIPU": {
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
+                    },
+                    "OVLUX": {
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
+                    },
+                    "PUDUT": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "IVTAG R/V (PUDUT trans) STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 9,
-                    "Non-Jet": 10
+                "LAXUM A STAR": {
+                    "LAXUM": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "LAXUM A STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 15,
-                    "Non-Jet": 17
+                "LAXUM B STAR": {
+                    "LAXUM": {
+                        "Normal Speed": 21,
+                        "Reduced Speed": 22
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "LAXUM B STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 18,
-                    "Non-Jet": 21
+                "LAXUM R STAR": {
+                    "LAXUM": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 1
-                }
-            },
-            "LAXUM R STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 12
+                "LAXUM V STAR": {
+                    "LAXUM": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "LAXUM V STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 13
+                "OVLUX STAR": {
+                    "OVLUX": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
                 },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "OVLUX STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 11,
-                    "Non-Jet": 13
-                },
-                "corrections": {
-                    "Reduced Speed": 0
-                }
-            },
-            "PUDUT STAR": {
-                "aircraft": {
-                    "Jet & DH8D": 12,
-                    "Non-Jet": 13
-                },
-                "corrections": {
-                    "Reduced Speed": 0
+                "PUDUT STAR": {
+                    "PUDUT": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
                 }
             }
         }
