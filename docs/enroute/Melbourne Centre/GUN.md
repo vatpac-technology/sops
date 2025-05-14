@@ -44,13 +44,19 @@ When **CB TCU** is offline, CB TCU (Class C `SFC` to `A085`) reverts to Class G,
 
 ## Sector Responsibilities
 ### Bindook (BIK)
-BIK will provide final sequencing actions and descent into YSSY.
-
-For aircraft overflying the SY TMA, place *'O/FLY'* in the LABEL DATA field.
+#### YSSY Arrivals
+BIK is responsible for final sequencing actions and final descent.
 
 Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway and STAR selection notes.
+
+#### YSBK Arrivals
+ELW is responsible for issuing final descent, and ascertaining arrival intentions.
+
+#### Overfliers
+For aircraft overflying the SY TMA, place *'O/FLY'* in the LABEL DATA field.
     
 ### Gundagai (GUN)
+#### YSSY Arrivals
 GUN is reponsible for issuing STAR clearances and initial descent for aircraft inbound to YSSY. 
     
 GUN is also responsible for initial sequencing actions into YSSY. Aircraft cruising above `F250` should be assigned *no lower* than `F250` and handed to BIK for further descent. Aircraft cruising below `F250` should be transferred to BIK at their cruise level.
@@ -58,7 +64,13 @@ GUN is also responsible for initial sequencing actions into YSSY. Aircraft cruis
 Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway and STAR selection notes.
 
 ### Katoomba (KAT)
-KAT is responsible for issuing STAR Clearances for YSCB and YSSY.
+#### YSSY Arrivals
+KAT is responsible for issuing STAR Clearances.
+
+Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway and STAR selection notes.
+
+#### YSCB Arrivals
+KAT is responsible for issuing STAR Clearances.
 
 ### Sequencing into YSSY
 Sequencing arrivals from the west into YSSY is a joint responsibility of GUN and BIK. Initial sequencing actions should be performed by GUN, with fine tuning and any holding required issued by BIK.
@@ -90,13 +102,21 @@ Non-jet aircraft for YSSY shall be assigned the **ODALE** STAR.
 Aircraft assigned the **same runway** inbound via **RIVET** and **ODALE**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
 ## STAR Clearance Expectation
+### Handoff
+Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| GUN | BLA | YMML, YMAV | |
+
 ### First Contact
 Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| BLA, MUN(GTH), WOL | GUN | YSSY | |
-| ASP(BKE) | KAT | YSSY | |
+| BLA, WOL | GUN | YSSY | |
+| ASP(BKE), MUN(GTH) | KAT | YSSY | Jets only |
+| MUN(GTH) | GUN | YSSY | Non-Jets only |
 | ARL(MDE) | KAT | YSCB | |
 
 ## Coordination
