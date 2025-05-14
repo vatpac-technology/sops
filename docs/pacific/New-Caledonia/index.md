@@ -105,10 +105,10 @@ IFR aircraft that cannot accept a Procedural SID must be assigned an **omnidirec
 
 #### VFR Operations
 ##### Waypoints
-VFR waypoints in and around CTR in New Caleondia are given one or two letter codes that are used for reference in communications. The SOPs page for each airport contain a list of relevant waypoints and their names in English and French, for reference.
+VFR waypoints in and around CTR in New Caledonia are given one or two letter codes that are used for reference in communications. The SOPs page for each airport contain a list of relevant waypoints and their names in English and French, for reference.
 
 <figure markdown>
-![New Caledonia VFR Waypoints](img/new_caledonia_vfr_waypoints.png){ width="700" }
+![New Caledonia VFR Waypoints](img/new_caledonia_vfr_points.png){ width="700" }
   <figcaption>VFR Waypoints in New Caledonia</figcaption>
 </figure>
 
