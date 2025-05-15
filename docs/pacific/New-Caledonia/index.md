@@ -50,6 +50,7 @@ Some of the callsigns used in New Caledonia may be unfamiliar to controllers use
 | ICAO | Callsign |
 | ---- | -------- |
 | ACI | AIRCALIN |
+| CTM | COTAM |
 | FAF | FRENCH AIR FORCE |
 | FDO | FRENCH CUSTOM |
 | FMY | FRENCH ARMY |
