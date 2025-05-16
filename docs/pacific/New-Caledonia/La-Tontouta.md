@@ -88,6 +88,7 @@ At night, VFR aircraft are prohibited from performing a visual approach when arr
 The preferred runway mode is reciprocal runway operations on **Runway 11/29**.
 
 | Mode | Arrivals | Departures |
+| ---- | -------- | ---------- |
 | 1 - 29D11A | **11** | **29** |
 | 2 - 11AD | **11** | **11** |
 | 3 - 29AD | **29** | **29** |
