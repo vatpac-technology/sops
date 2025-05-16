@@ -74,6 +74,10 @@ All other aircraft coming from AYPM CTA must be **Heads-up** coordinated to AYPY
 - Assigned the standard assignable level; and  
 - Assigned a **Procedural** SID.
 
+All other aircraft require a 'Next' call to AYPYA.
+
+The standard assignable level from AYPY ADC to AYPYA is the lower of `A050` or the `RFL`.
+
 #### Overfliers
 AYPYA will heads-up coordinate arrivals/overfliers from AYPYA to AYPY ADC prior to **5 mins** from the boundary.
 VFR aircraft require a level readback.  

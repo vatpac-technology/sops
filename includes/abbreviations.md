@@ -308,6 +308,7 @@
 *[LSALT]: Lowest Safe Altitude
 *[FPR]: Flight Planned Route
 *[CIRA]: Circuit Area
+*[VPT]: Visual manoeuvre with prescribed track
 *[ESL]: East Sale
 *[WSL]: West Sale
 *[RAAF]: Royal Australian Air Force

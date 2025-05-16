@@ -40,6 +40,7 @@ In all other situations:
 - IFR aircraft arriving Runway 29 shall be assigned either the **VOR/DME** or the **RNAV** approach.
 - IFR aircraft arriving Runway 11 shall be assigned the **VOR/DME/NDB** approach, or the **RNAV** approach if conditions preclude any other alternative.
 
+**RNAV-equipped** IFR aircraft can be assigned the **RNAV-U AR** approach at any time, **upon request**.
 
 ### Runway 11
 Approaches into Rwy 11 are offset due to terrain.
@@ -82,6 +83,8 @@ In all other situations:
 
 - IFR aircraft departing Runway 29 shall be assigned the **NORTH**, **SOUTH**, or **EAST** departure, according to their direction of travel.
 - IFR aircraft departing Runway 11 shall be assigned either the **SOUTH** or **VOR** departure, according to their direction of travel.
+
+**RNAV-equipped** IFR aircraft can also be assigned the **EMTEM** or **MELE** Procedural SID at any time, **upon request**.
 
 <!--- ## ATIS --->
 ## Coordination

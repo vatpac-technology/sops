@@ -28,6 +28,9 @@ Refer to the [PNG Local instructions](../) for more information about Class F op
 #### AYNZ ADC
 When **AYNZ ADC** is offline, AYNZ CTR (Class C `SFC` to `A060`) is reclassified as Class F, and is administed by AYPM. Alternatively, AYPM may provide a [top-down procedural service](../Nadzab) if they wish.
 
+!!! tip
+    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+
 #### Class F Aerodromes
 When **AYGA ADC**, **AYMD ADC**, **AYMH ADC**, **AYTK ADC** are offline, the [ATZ](../#aerodrome-traffic-zones)'s of their respective aerodromes are inactive. The airspace remains Class F.
 <!--- ## Extending --->

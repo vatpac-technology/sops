@@ -26,6 +26,7 @@ Surveillance coverage can be expected to be available at all levels in the AYNZ 
 In **VMC by day**, all aircraft shall be assigned a visual approach.
 
 In all other situations:
+
 - IFR aircraft shall be assigned either the **RNAV** or the **VOR/DME** approach.
 <!--- ##  Departure/Arrival Procedures
 ## Tower Offline Procedures
@@ -64,6 +65,7 @@ The Standard Assignable Level from **AYNZ ADC** to **AYNZA** is:
    
 ##### Arrivals
 AYNZA will **heads-up** coordinate all arrivals/overfliers to AYNZ ADC.
+
 - Aircraft on an instrument approach will be cleared for the approach prior to handoff to AYNZ ADC, unless AYNZ ADC nominates a restriction.
 - Aircraft on a visual approach will be coordinated, but will receive their approach clearance and circuit joining instructions from AYNZ ADC.
 
