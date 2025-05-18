@@ -2677,32 +2677,44 @@ export const flowData = {
                 },
                 "NONUM A STAR": {
                     "MUSEY": {
-                        "Normal Speed": 21,
-                        "Reduced Speed": 22
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
                     },
                     "NORMA": {
-                        "Normal Speed": 24,
-                        "Reduced Speed": 25
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    },
+                    "NONUM": {
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
                     }
                 },
                 "NONUM V STAR": {
                     "MUSEY": {
-                        "Normal Speed": 21,
-                        "Reduced Speed": 22
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
                     },
                     "NORMA": {
-                        "Normal Speed": 24,
-                        "Reduced Speed": 25
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    },
+                    "NONUM": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
                     }
                 },
                 "NONUM W STAR": {
                     "MUSEY": {
-                        "Normal Speed": 21,
-                        "Reduced Speed": 22
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
                     },
                     "NORMA": {
-                        "Normal Speed": 24,
-                        "Reduced Speed": 25
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    },
+                    "NONUM": {
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
                     }
                 },
                 "UPOLO A STAR": {
@@ -2885,32 +2897,44 @@ export const flowData = {
                 },
                 "NONUM A STAR": {
                     "MUSEY": {
-                        "Normal Speed": 24,
-                        "Reduced Speed": 25
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
                     },
                     "NORMA": {
-                        "Normal Speed": 28,
-                        "Reduced Speed": 29
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    },
+                    "NONUM": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
                     }
                 },
                 "NONUM V STAR": {
                     "MUSEY": {
-                        "Normal Speed": 24,
-                        "Reduced Speed": 25
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
                     },
                     "NORMA": {
-                        "Normal Speed": 27,
-                        "Reduced Speed": 28
+                        "Normal Speed": 23,
+                        "Reduced Speed": 24
+                    },
+                    "NONUM": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
                     }
                 },
                 "NONUM W STAR": {
                     "MUSEY": {
-                        "Normal Speed": 23,
-                        "Reduced Speed": 24
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
                     },
                     "NORMA": {
-                        "Normal Speed": 27,
-                        "Reduced Speed": 28
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    },
+                    "NONUM": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
                     }
                 },
                 "UPOLO A STAR": {
