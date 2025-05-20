@@ -27,4 +27,4 @@ The Honiara FIR does not have any local ATS. All ATS above `F245` is provided by
   <figcaption>AGGG airspace diagram</figcaption>
 </figure
 
-Airspace below `F245` is classified as Class G. Traffic in these areas must monitor the advisory frequency.
+Airspace below `F245` is classified as Class G.

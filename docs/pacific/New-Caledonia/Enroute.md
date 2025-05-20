@@ -41,11 +41,9 @@ The CPDLC Station Code is `NWWWC`.
 
 ## Runway Modes
 
-## Surveillance Coverage--->
+## Surveillance Coverage
 
 ## STAR Clearances
-NWWW_CTR is responsible for issuing STAR clearances for all aicraft inbound to NWWW and NWWM. Aircraft shall be given STAR Clearance after first being advised "STAR CLEARANCE AVAILABLE".
-<!--
 ## Star Clearance Expectation
 --->
 ## Coordination
