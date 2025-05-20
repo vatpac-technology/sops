@@ -54,7 +54,7 @@ VFR departures should advise their planned departure point and requested alitude
 
 !!! phraseology  
     **FOXYZ:** "Tontouta Ground, FOXYZ, Cessna 152, parking P2, information A, request taxi VFR to Koumac, via WA."  
-    **NWWW SMC:** "FOXYZ, Tontouta Ground, squawk 7001, expect to exit control zone via WA. Taxi holding point C, Runway 29. Report ready for departure.
+    **NWWW SMC:** "FOXYZ, Tontouta Ground, squawk 7001, expect to exit control zone via WA. Taxi holding point C, Runway 29. Report ready for departure.  
     **FOXYZ:** "Squawk 7001, expect WA exit. Taxi holding point C, Runway 29. FOXYZ"
 
 ### Arrivals
@@ -184,7 +184,7 @@ Aircraft transiting directly from ADC to ADC must be **heads-up** coordinated pr
     <span class="hotline">**NWWM ADC** -> **NWWW ADC**</span>: "FOABC, `A010`"  
 
 #### Boundary
-Aircraft operating within **1.5nm** of the boundary between the ADC's must be **[boundary coordinated](../../../controller-skills/coordination/#boundary**.
+Aircraft operating within **1.5nm** of the boundary between the ADC's must be [boundary coordinated](../../../controller-skills/coordination/#boundary).
 
 !!! phraseology
     <span class="hotline">**NWWM ADC** -> **NWWW ADC**</span>: "For Ident, east of TINDU, TPC307"  

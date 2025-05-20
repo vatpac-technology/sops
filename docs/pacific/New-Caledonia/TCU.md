@@ -14,7 +14,9 @@
 	In New Caledonia, French aviation rules and ATS terminology apply, which can differ significantly from that of other VATPAC areas. Ensure you have reviewed the [Phraseology](../#phraseology) section of the New Caledonia Local Instructions.
 
 ## Airspace
-The vertical limits of the NWWW TCU are `SFC` to `F245`. **NWWW ADC** is responsible for the airspace within the NWWW CTR from `SFC` to `A015`. **NWWM ADC** is responsible for the airspace within the NWWM CTR from `SFC` to `A015`.
+The vertical limits of the NWWW TCU are `SFC` to `F245`.  
+**NWWW ADC** is responsible for the airspace within the NWWW CTR from `SFC` to `A015`.  
+**NWWM ADC** is responsible for the airspace within the NWWM CTR from `SFC` to `A015`.
  
 <figure markdown>
 ![NWWW TCU Structure](img/nwww_tcu.png){ width="700" }
@@ -64,6 +66,7 @@ All other aircraft going to NWWW CTA will be **Heads-up** Coordinated by NWWWA.
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:
+
 - With ADES **NWWW**; and
 - Assigned `A100`; and
 - Assigned a STAR (if **Runway 11** is in use); or
