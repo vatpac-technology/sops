@@ -53,13 +53,13 @@ The vertical limits of the NWWW TCU are `SFC` to `F245`.
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:
+
 - With ADES **NWWW**; and
 - Assigned `A100`; and
 - Assigned a STAR (if **Runway 11** is in use); or
 - Tracking to **LTO VOR** (if **Runway 29** is in use).
 
 All other aircraft coming from NWWW_CTR CTA must be **Heads-up** Coordinated to NWWWA prior to **20nm** from the boundary.
-
 
 #### Departures
 Voiceless for all aircraft:

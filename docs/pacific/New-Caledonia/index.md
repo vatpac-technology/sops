@@ -72,18 +72,18 @@ All aircraft will use their full callsign on first contact, and the abbreviated 
 | Registration | Full Callsign | Abbreviated Form |
 | ------------ | ------------- | ---------------- |
 | F-OABC | FOABC | FBC |
-| VH-X8N | VHLMN | V8N |
+| VH-X8N | VHX8N | V8N |
 | N98765 | N98765 | N65 |
 
 ### Altitude
 When referring to an altitude below the transition level, the word 'FEET' is included.
 
 !!! phraseology
-    **NWWWA:** "VBC, descend 7000 feet"
+    **NWWWA:** "VBC, descend 7000 feet"  
 	**VHABC:** "Descend 7000 feet, VBC"
 
 !!! phraseology
-    **NWWW CTR:** "N45, climb 11000 feet"
+    **NWWW CTR:** "N45, climb 11000 feet"  
 	**N12345:** "Climb 11000 feet, N45"
 
 ### ACD/SMC Phraseology Differences
@@ -94,7 +94,7 @@ The structure of the airways clearance is broadly similar to Australian phraseol
 
 !!! phraseology  
     **QFA92:** "Tontouta Ground, QFA92, Boeing 737-800, gate P2, request clearance to Sydney, information F on board."  
-    **NWWW SMC:** "QFA92, Tontouta Ground, Cleared to Sydney via flight planned route, POXAK3E departure, runway 11, inital climb 6000 feet, squawk 1234.
+    **NWWW SMC:** "QFA92, Tontouta Ground, Cleared to Sydney via flight planned route, POXAK3E departure, runway 11, inital climb 6000 feet, squawk 1234.  
     **QFA92:** "Cleared to Sydney via flight planned route, POXAK3E departure, runway 11, initial climb 6000 feet, squawk 1234, QFA92."  
     **NWWW SMC:** "QFA92, correct, report ready for push and start."
 
@@ -118,10 +118,10 @@ VFR Departures will be told to expect to depart the CTR via a VFR waypoint when 
 
 !!! phraseology  
     **FOXYZ:** "Tontouta Ground, FOXYZ, Cessna 152, parking P2, information A, request taxi VFR to Koumac, via WA."  
-    **NWWW SMC:** "FOXYZ, Tontouta Ground, squawk 7001, expect to exit control zone via WA. Taxi holding point C, Runway 29. Report ready for departure.
+    **NWWW SMC:** "FOXYZ, Tontouta Ground, squawk 7001, expect to exit control zone via WA. Taxi holding point C, Runway 29. Report ready for departure.  
     **FOXYZ:** "Squawk 7001, expect WA exit. Taxi holding point C, Runway 29. FOXYZ"
 
-!! note
+!!! note
 	Both NWWW and NWWM sit within Class D airspace. As in [Australian airspace](../../controller-skills/circuitoperations/#clearance), a clearance to takeoff is a clearance to operate within a Class D control zone, so an explicit airways clearance is not given.
 
 ### ADC Phraseology Differences
@@ -135,17 +135,17 @@ When departing from an intermediate taxiway intersection, the taxiway identifier
 Aicraft must be cleared to line-up before being given take off clearance. This can be achieved through separate transmissions, or by being issued together.
 
 !!! phraseology 
-    **NWWM ADC:** "TPC117, backtrack runway 35, line up and wait."
-	**TPC117:** "Backtrack Runway 35, line up and wait, TPC117."
-	*...*
-	**NWWM ADC:** "TPC117, Runway 35, cleared for takeoff."
+    **NWWM ADC:** "TPC117, backtrack runway 35, line up and wait."  
+	**TPC117:** "Backtrack Runway 35, line up and wait, TPC117."  
+	*...*  
+	**NWWM ADC:** "TPC117, Runway 35, cleared for takeoff."  
 	**TPC117:** "Cleared for takeoff Runway 35, TPC117."
 	
 !!! phraseology 
-    **NWWW ADC:** "TPC915, line up runway 29, intersection C, cleared for takeoff."
+    **NWWW ADC:** "TPC915, line up runway 29, intersection C, cleared for takeoff."  
 	**TPC915:** "Lining up runway 29, intersection C and taking off, TPC117."
 	
-!! note
+!!! note
 	French pilots may also readback an instruction in verb form ie, "lining up and waiting", or "taking off". This phraseology is accepted in the New Caledonia sector.
 
 ## Charts

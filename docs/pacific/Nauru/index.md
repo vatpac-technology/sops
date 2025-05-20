@@ -25,6 +25,6 @@ The Nauru FIR does not have any local ATS. All ATS above `F245` is provided by [
 <figure markdown>
 ![ANAU Airspace diagram](img/ANAU_airspace.png){ width="700" }
   <figcaption>ANAU airspace diagram</figcaption>
-</figure
+</figure>
 
 Airspace below `F245` is classified as Class G.
