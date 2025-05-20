@@ -100,7 +100,7 @@ Due to the low level of CTA at YPPF, it is best practice to give airways clearan
 
 ## Flow
 ### Local Knowledge
-- With **Visual approaches** in use, Non-Jets should be issued the relevant **Non-Jet Victor STAR**.
+- With **Visual approaches** in use, Non-Jets should be issued the relevant **Non-Jet STAR**.
     - If **delays** are required, additional track miles may be obtained by issuing the relevant **Alpha/Zulu STAR**.
 - Where no **Non-Jet Victor STAR** is available (eg, via **DRINA** or **KLAVA**), Non-Jets may be issued **No Star**, and instructed to join the circuit in VMC, to reduce track miles.
 - With **RWY 12** in use for arrivals, non-jets from the West should be assigned RWY 12 by default. Additional track miles may be obtained by assigning RWY 05/23.
@@ -153,8 +153,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 - Nil wind
 - The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except:
     - The feeder fix for the ATPIP STAR is INTOG
-- Jet aircraft will be assigned the appropriate jet STAR
-- Non-jet aircraft will be assigned the appropriate non-jet STAR, or if none is available, tracking via a 5nm final
+- Aircraft issued a *Circuit Join* will be vectored/cleared to a 5nm final or a downwind join of the circuit
 
 ## Coordination
 ### Enroute
