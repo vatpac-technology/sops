@@ -130,7 +130,7 @@ Departing helicopters require an airways clearance to either transit the CTR int
     **LIFE21**: "Maintain own separation with the 737, cleared to transit to Victor 1, not above A005, LIFE21"
 
     *Remember to pass traffic information to both aircraft.*  
-    **SY ADC**: "QFA843, traffic is a helicopter becoming airborne a hospital approximately 3nm east of the field, maintaining own separation with you, runway 25, cleared to land"
+    **SY ADC**: "QFA843, traffic is a helicopter becoming airborne at a hospital approximately 3nm east of the field, maintaining own separation with you, runway 25, cleared to land"
 
 Helicopters intending to enter SY TCU CTA must be first coordinated with SY TCU. Once the aircraft reports airborne and is clear of any conflicts in ADC's airspace, they should be transferred to the TCU.
 
