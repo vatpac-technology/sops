@@ -17,7 +17,6 @@
 ## Airspace
 NWWM ADC is responsible for:
 
-- The Class D Airspace within the NWWM CTR Part 1 (the outer boundary) from `A007` to `A015`, and
 - The Class D Airspace within the NWWM CTR Part 2 (the inner boundary) from `SFC` to `A015`.
 
 <figure markdown>
@@ -155,28 +154,6 @@ VFR aircraft require a level readback.
 !!! phraseology
     <span class="hotline">**NWWWA** -> **NWWM ADC**</span>: "Via the LU1N Arrival, TPC220 for the VPT”  
     <span class="hotline">**NWWM ADC** -> **NWWWA**</span>: "TPC220, VPT"  
-
-### NWWM ADC
-NWWM ADC Class D Airspace adjoins the NWWW ADC Class D Airspace. Both ADC positions are jointly responsible for separation with traffic in the adjacent ADC airspace.
-
-<figure markdown>
-![NWWW ADC/NWWM ADC border](img/nwww-nwwm_border.png){ width="700" }
-  <figcaption>The NWWW ADC/NWWM ADC border. (Not pictured - airspace above `A015`)</figcaption>
-</figure>
-
-#### Transiting aircraft
-Aircraft transiting directly from ADC to ADC must be **heads-up** coordinated prior to **5 mins** from the boundary. VFR aircraft require a level readback.
-
-!!! phraseology
-    <span class="hotline">**NWWW ADC** -> **NWWM ADC**</span>: "via SH, FOABC, `A010`"  
-    <span class="hotline">**NWWM ADC** -> **NWWW ADC**</span>: "FOABC, `A010`"  
-
-#### Boundary
-Aircraft operating within **1.5nm** of the boundary between the ADC's must be [boundary coordinated](../../../controller-skills/coordination/#boundary**).
-
-!!! phraseology
-    <span class="hotline">**NWWM ADC** -> **NWWW ADC**</span>: "For Ident, east of TINDU, TPC307"  
-    <span class="hotline">**NWWW ADC** -> **NWWM ADC**</span>: "TPC307"
 
 ## Charts
 !!! abstract "Reference"
