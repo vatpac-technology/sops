@@ -399,7 +399,7 @@ IFR aircraft will be cleared for the coordinated approach (Instrument or Visual)
 !!! Note
     For aircraft not tracking via an Arrival Gate, ML TCU is required to coordinate descent of aircraft into EN ADC airspace.
 
-When “The Coffin” is released, ML TCU is required to coordinate any use of Runway 27 to EN ADC prior to use.
+When "The Coffin" is released, ML TCU is required to coordinate any use of Runway 27 to EN ADC prior to use.
 
 ### AV ADC
 #### Departures

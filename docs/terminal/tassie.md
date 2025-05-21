@@ -201,7 +201,7 @@ HBA will coordinate all YMHB & YCBG arrivals to HB ADC prior to **5 mins** from 
 - IFR circuit joining instructions, if not on straight-in instrument approach
 
 !!! phraseology
-    <span class="hotline">**HBA** -> **HB ADC**</span>: "via BUSKA, QJE1789, for the ILS”  
+    <span class="hotline">**HBA** -> **HB ADC**</span>: "via BUSKA, QJE1789, for the ILS"  
     <span class="hotline">**HB ADC** -> **HBA**</span>: "QJE1789, ILS"
 
 ### LTA
@@ -238,7 +238,7 @@ LTA will coordinate all YMLT arrivals to LT ADC prior to **5 mins** from the bou
 - IFR Circuit joining instructions, if not on Straight-in instrument approach
 
 !!! phraseology
-    <span class="hotline">**LTA** -> **LT ADC**</span>: "via IRSOM, JST416, for the DGA, will join left downwind 32L”  
+    <span class="hotline">**LTA** -> **LT ADC**</span>: "via IRSOM, JST416, for the DGA, will join left downwind 32L"  
     <span class="hotline">**LT ADC** -> **LTA**</span>: "JST416"
 
 ### LTA/HBA Internal

@@ -17,7 +17,7 @@
 
 ## Airspace
 ### TCU
-DN TCU owns the airspace within a 40NM radius of the DN DME from `SFC`–`FL180`.
+DN TCU owns the airspace within a 40NM radius of the DN DME from `SFC`-`FL180`.
 
 ### Airspace Division
 When both DN TCU positions are opened, DN TCU is split east and west along the runway 18/36 extended centreline. DAW owns the airspace to the west of the line and DAE owns the airspace to the east of the line  
@@ -28,10 +28,10 @@ When both DN TCU positions are opened, DN TCU is split east and west along the r
 </figure>
 
 ### ADC
-ADC owns the airspace within the DN CTR (`SFC`–`A010`). This airspace is designed to facilitate the processing of helicopter scenic flights and low-level helicopter circuits.  
+ADC owns the airspace within the DN CTR (`SFC`-`A010`). This airspace is designed to facilitate the processing of helicopter scenic flights and low-level helicopter circuits.  
 The CTR extends 7NM from the thresholds of runways 11 and 29 but does not including the Robertson Barracks transit zone.  
 
-ADC may request DN TCU (`SFC`–`A020`) from DN TCU to facilitate fixed-wing circuit operations. Fixed-wing circuit operations are typically conducted at Delissaville (YDLV) due to high traffic density at Darwin.
+ADC may request DN TCU (`SFC`-`A020`) from DN TCU to facilitate fixed-wing circuit operations. Fixed-wing circuit operations are typically conducted at Delissaville (YDLV) due to high traffic density at Darwin.
 
 <figure markdown>
 ![DN ADC Airspace](img/dnadc.png){ width="700" }
@@ -64,7 +64,7 @@ Detailed procedures exist to ensure that controllers are aware of their responsi
 
 ### IFR Training Area
 IFR aircraft requiring an area for training shall be cleared to operate in the North Eastern Training Area (NETA)  
-The NETA is defined as the area between DN 360R–060R from 15NM–30NM DN DME.  
+The NETA is defined as the area between DN 360R-060R from 15NM-30NM DN DME.  
 Aircraft are to be cleared to the NETA via the 030R outbound. Vertical limits are to be specified by DAW prior to issuing airways clearance  
 
 ### Designated Fuel Dumping Area
