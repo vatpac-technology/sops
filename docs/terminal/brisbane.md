@@ -197,7 +197,6 @@ Once the aircraft exits the CTA, cancel their identification and control service
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
 === "Jets & DH8D"
-
     | STAR     | RWY 01L | RWY 01R | RWY 19L | RWY 19R |
     | -------- | ------- | ------- | ------- | ------- |
     | **BLAKA A**  | 13      | 13      | 19      | 21      |
@@ -221,7 +220,6 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **WOODY V**  | 11^     | -       | -       | 12^     |
 
 === "Non-Jets"
-
     | STAR     | RWY 01L | RWY 01R | RWY 19L | RWY 19R |
     | -------- | ------- | ------- | ------- | ------- |
     | **BLAKA A**  | 15      | 15      | 22      | 24      |
@@ -248,7 +246,6 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
 === "Jets & DH8D"
-
     | Arrival | RWY 14 | RWY 32 |
     | ------- | ------ | ------ |
     | **BERNI A STAR** | 15  | 11^  |
@@ -260,7 +257,6 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **BN Y177 IDRIL CG2NC** | 12^ | - |
 
 === "Non-Jets"
-
     | Arrival | RWY 14 | RWY 32 |
     | ------- | ------ | ------ |
     | **BERNI A STAR** | 17  | 13^  |

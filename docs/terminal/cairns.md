@@ -108,7 +108,6 @@ Aircraft cleared via the KEEWI Victor STAR or otherwise approaching from the nor
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
 === "RWY 15"
-
     | STAR       | Jets & DH8D | Non-Jets |
     | ---------- | :------: | :------: |
     | **CODIE A**<br>*ANDOP transition*<br>*AVDAN transition*<br>*LOCKA transition*<br>*OVLET transition*<br>*PUNIT transition*<br>*ZANEY transition*    | <br>14<br>12<br>13<br>13<br>14<br>14     | <br>15<br>14<br>14<br>14<br>16<br>15     |
@@ -121,7 +120,6 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **UPOLO W**<br>*Feeder Fix: BARIA*    | <br>15 | <br>17 |
 
 === "RWY 33"
-
     | STAR       | Jets & DH8D | Non-Jets |
     | ---------- | :------: | :------: |
     | **HENDO A**<br>*ANDOP transition*<br>*BARIA transition*<br>*ISNER transition*<br>*NORMA transition*<br>*OVLET transition*<br>*PUNIT transition*<br>*VEKBI transition*    | <br>21<br>12^<br>12<br>14<br>22<br>20<br>24     | <br>24<br>14^<br>14<br>15<br>25<br>23<br>27     |

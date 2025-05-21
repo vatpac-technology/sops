@@ -37,8 +37,7 @@ The Vertical limits of the CB TCU are `SFC` to `F245`.
 ### Flow Tables
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
-=== "Jets"
-                       
+=== "Jets"               
     | STAR    | RWY 17 | RWY 35 |
     | ------- | :------: | :------: |
     | **AVBEG**   | 8^ | 16 |
@@ -52,7 +51,6 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **POLLI X** | - | 11^ |
 
 === "Non-Jets"
-
     | STAR    | RWY 17 | RWY 30 | RWY 35 |
     | ------- | :------: | :------: | :------: |
     | **AVBEG**   | 9^ | - | 18 |

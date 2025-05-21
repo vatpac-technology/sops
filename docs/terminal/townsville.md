@@ -36,7 +36,6 @@ TL ADC owns the Class C airspace in the TL CTR (Extends to 7NM from the threshol
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
 === "Jets & DH8D"
-
     | STAR         | RWY 01 | RWY 19 |
     | ------------ | :----: | :----: |
     | **IBUXI A**  | 16     | -      |
@@ -52,7 +51,6 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **VOMPA Z**  | -      | 15     |
 
 === "Non-Jets"
-
     | STAR         | RWY 01 | RWY 19 |
     | ------------ | :----: | :----: |
     | **IBUXI A**  | 19     | -      |

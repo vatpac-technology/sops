@@ -49,7 +49,6 @@ When WLM ADC is online, they own the airspace within the WLM MIL CTR A (`SFC`-`A
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
 === "Jets & DH8D"
-
     | STAR         | RWY 12 | RWY 30 |
     | ------------ | :----: | :----: |
     | **ASUVA**    | 15     | 7^     |
@@ -63,7 +62,6 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **PUDUT**    | 9^     | 12^    |
 
 === "Non-Jets"
-
     | STAR         | RWY 12 | RWY 30 |
     | ------------ | :----: | :----: |
     | **ASUVA**    | 17     | 8^     |

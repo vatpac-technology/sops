@@ -63,7 +63,6 @@ Aircraft inbound to YCBG who will track directly from Class G airspace to the CT
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
 === "Jets & DH8D"
-
     | STAR | RWY 12 | RWY 30 |
     | ---------- | ---| -- |
     | **IPLET A**      | 12^ | 12^  |
@@ -74,7 +73,6 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **MORGO W**      | - | 14  |
 
 === "Non-Jets"
-
     | STAR | RWY 12 | RWY 30 |
     | ---------- | ---| -- |
     | **IPLET A**      | 13^ | 13^  |
@@ -88,26 +86,24 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
 === "Jets & DH8D"
-
     | Tracking | RWY 14R | RWY 32L |
     | ---------- | ---| -- |
-    | IRSOM MLTNE        | 11^ | - |
-    | IRSOM NODAS MLTSC  | - | 16 |
-    | MIMIM MLTNG        | 15 | - |
-    | MIMIM ELREL MLTSA  | - | 19  |
-    | LATUM MLTND        | 15 | - |
-    | LATUM MLTSB        | - | 11^  |
+    | **IRSOM MLTNE**        | 11^ | - |
+    | **IRSOM NODAS MLTSC**  | - | 16 |
+    | **MIMIM MLTNG**        | 15 | - |
+    | **MIMIM ELREL MLTSA**  | - | 19  |
+    | **LATUM MLTND**        | 15 | - |
+    | **LATUM MLTSB**        | - | 11^  |
 
 === "Non-Jets"
-
     | Tracking | RWY 14R | RWY 32L |
     | ---------- | ---| -- |
-    | IRSOM MLTNE        | 12^ | - |
-    | IRSOM NODAS MLTSC  | - | 18 |
-    | MIMIM MLTNG        | 17 | - |
-    | MIMIM ELREL MLTSA  | - | 21  |
-    | LATUM MLTND        | 17 | - |
-    | LATUM MLTSB        | - | 12^  |
+    | **IRSOM MLTNE**        | 12^ | - |
+    | **IRSOM NODAS MLTSC**  | - | 18 |
+    | **MIMIM MLTNG**        | 17 | - |
+    | **MIMIM ELREL MLTSA**  | - | 21  |
+    | **LATUM MLTND**        | 17 | - |
+    | **LATUM MLTSB**        | - | 12^  |
 
 #### Corrections
 

@@ -216,7 +216,6 @@ Due to the low level of CTA surrounding YMMB, it is best practice to give airway
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
 === "Jets & DH8D"
-
     | STAR | RWY 09 | RWY 16 | RWY 27 | RWY 34 |
     | ---------- | :---: | :--: | :--: | :---: |
     | **ARBEY**      | 11^ | 9^  | 12 | 13 |
@@ -231,7 +230,6 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **WENDY P**    | -  | 15 | -  | -  |
 
 === "Non-Jets"
-
     | STAR | RWY 09 | RWY 16 | RWY 27 | RWY 34 |
     | ---------- | :---: | :--: | :--: | :---: |
     | **ARBEY**      | 12^ | 10^ | 14 | 15 |

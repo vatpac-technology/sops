@@ -90,7 +90,6 @@ VFR aircraft generally track via designated VFR routes, as shown on the Darwin V
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
 === "Jets & DH8D"
-
     | STAR       | RWY 11 | RWY 29 |
     | ---------- | :------: | :------: |
     | **ANUPA A/X**<br>*Feeder Fix: SUDAG*  | <br>12^    | <br>18     |
@@ -101,7 +100,6 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **WANGI W**    | 14     | 15     |
 
 === "Non-Jets"
-
     | STAR       | RWY 11 | RWY 29 |
     | ---------- | :------: | :------: |
     | **ANUPA A/X**<br>*Feeder Fix: SUDAG*  | <br>13^    | <br>21     |

@@ -356,7 +356,6 @@ Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, i
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
 === "Jets & DH8D"
-
     | STAR       | RWY 07  | RWY 16L | RWY 16R | RWY 25  | RWY 34L | RWY 34R |
     | ---------- | :---: | :---: | :---: | :---: | :---: | :---: |
     | **BOREE A/P**  | 15  | 11^ | 11^ | 14  | 17  | 17  |
@@ -366,7 +365,6 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **ODALE**<br>*Feeder Fix: AKMIR*      | <br>11^ | <br>18  | <br>16  | <br>17  | <br>16  | <br>18  |
 
 === "Non-Jets"
-
     | STAR       | RWY 07  | RWY 16L | RWY 16R | RWY 25  | RWY 34L | RWY 34R |
     | ---------- | :---: | :---: | :---: | :---: | :---: | :---: |
     | **BOREE A/P**  | 17  | 12^ | 12^ | 16  | 20  | 20  |

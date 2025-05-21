@@ -119,7 +119,6 @@ Aircraft departing the TMA to the south planned at `F130` or above will likely l
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
 === "Jets"
-
     | STAR       | RWY 03 | RWY 06 | RWY 21 | RWY 24 |
     | ---------- | :-----: | :-----: | :-----: | :-----: |
     | **IPMOR A**<br>*Feeder Fix: KAGMI*    | <br>17     | <br>14     | <br>15     | <br>17     |
@@ -134,7 +133,6 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **SOLUS X**    | 10^    | -      | -      | -      |
 
 === "DH8D"
-
     | STAR       | RWY 03 | RWY 06 | RWY 21 | RWY 24 |
     | ---------- | :-----: | :-----: | :-----: | :-----: |
     | **DAYLR A**    | 12^    | 13     | -      | -      |
@@ -152,7 +150,6 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **SOLUS X**    | 10^    | -      | -      | -      |
 
 === "Non-Jets"
-
     | STAR       | RWY 03 | RWY 06 | RWY 21 | RWY 24 |
     | ---------- | :-----: | :-----: | :-----: | :-----: |
     | **DAYLR A**    | 13^    | 15     | -      | -      |
