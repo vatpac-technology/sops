@@ -52,7 +52,7 @@ Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac
 
 a) **"South"**/**"West"** positions shall assume the airspace of corresponding **"North"**/**"East"** positions when the latter are inactive (e.g. **SAS** assumes **SAN** airspace, **SFW** assumes **SFE** airspace)  
 
-b) Approach assumes Director/Departure airspace “on-side” when the latter positions are inactive (e.g. with **SAS** and **SAN** online only, **SAS** assumes **SDS** and **SFW**)  
+b) Approach assumes Director/Departure airspace "on-side" when the latter positions are inactive (e.g. with **SAS** and **SAN** online only, **SAS** assumes **SDS** and **SFW**)  
 
 c) Departures assumes **SRI** airspace when the position is inactive  
 
@@ -218,7 +218,7 @@ Two aircraft established on adjacent parallel approaches require `1nm` lateral s
 When conducting IVAs, aircraft shall not be transferred to **SY ADC** until established on final.
 
 !!! phraseology
-    **SFW:** “BNZ444, Turn left heading 360, join final Runway 34L, from that heading Cleared Independent Visual Approach”    
+    **SFW:** "BNZ444, Turn left heading 360, join final Runway 34L, from that heading Cleared Independent Visual Approach"    
     **BNZ444:** "Left heading 360, join final Runway 34L, from that heading Cleared Independent Visual Approach, BNZ444"  
       
     **SFW:** "BNZ444, Contact Sydney Tower 120.5"  
@@ -228,7 +228,7 @@ When conducting IVAs, aircraft shall not be transferred to **SY ADC** until esta
 *"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (MVA) UNTIL ESTABLISHED ON THE PAPI (or GLIDEPATH)"*
 
 !!! phraseology
-    **SFE:** “ANZ361, Turn right heading 330, join final Runway 34R, from that heading Cleared Independent Visual Approach Runway 34R, not below 1500 until established on the PAPI”    
+    **SFE:** "ANZ361, Turn right heading 330, join final Runway 34R, from that heading Cleared Independent Visual Approach Runway 34R, not below 1500 until established on the PAPI"    
 
 ## Sydney Harbour Scenic Flights
 Flights may be cleared for one of two standard scenic flight routes at `A015`, **Harbour Scenic One** or **Harbour Scenic Two**, which are described below. Pilot preference should be accommodated where traffic permits.
@@ -504,7 +504,7 @@ If aircraft are cleared off runway 11 at YSBK into CTA, coordination is required
 Refer to [Sydney TCU Airspace Division](#airspace-division) for more information.
 
 !!! phraseology
-    <span class="hotline">**SDN** -> **SFW**</span>: “Request left turn out of Bankstown”  
+    <span class="hotline">**SDN** -> **SFW**</span>: "Request left turn out of Bankstown"  
     <span class="hotline">**SFW** -> **SDN**</span>: "Approved" *(no callsigns need be used here)*  
 
 #### Between SRI and APP/DEP/DIR
@@ -520,9 +520,9 @@ Upon receipt of the heads-up coordination from SRI, the SY TCU controller has se
 - "I'll call you back" - *Useful if the SY TCU controller hasn't had time to assess the aircraft yet*
 
 !!! phraseology
-    <span class="hotline">**SRI** -> **SDS**</span>: “Departed YSHL, EQU”  
+    <span class="hotline">**SRI** -> **SDS**</span>: "Departed YSHL, EQU"  
     <span class="hotline">**SDS** -> **SRI**</span>: "EQU, F170"  
-    <span class="hotline">**SRI** -> **SDS**</span>: “F170, EQU”  
+    <span class="hotline">**SRI** -> **SDS**</span>: "F170, EQU"  
     
     **SRI:** "EQU, Cleared to YWLM via TESAT, flight planned route. Climb to F170"  
     **EQU:** "Cleared to YWLM via TESAT, flight planned route. Climb to F170, EQU"  
@@ -664,8 +664,8 @@ SY TCU must heads-up coordinate inbound IFR aircraft prior to **5 mins** from th
 SY TCU will **NOT** clear the aircraft for the approach.
 
 !!! phraseology
-    <span class="hotline">**SRI** -> **CN ADC**</span>: “via RNP W, HRP”  
-    <span class="hotline">**CN ADC** -> **SRI**</span>: “HRP”   
+    <span class="hotline">**SRI** -> **CN ADC**</span>: "via RNP W, HRP"  
+    <span class="hotline">**CN ADC** -> **SRI**</span>: "HRP"   
 
 **CN ADC** must issue an airways clearance to these aircraft on first contact.
 
