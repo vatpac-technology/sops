@@ -50,7 +50,7 @@ BIK is responsible for final sequencing actions and final descent.
 Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway and STAR selection notes.
 
 #### YSBK Arrivals
-ELW is responsible for issuing final descent, and ascertaining arrival intentions.
+BIK is responsible for issuing final descent, and ascertaining arrival intentions.
 
 #### Overfliers
 For aircraft overflying the SY TMA, place *'O/FLY'* in the LABEL DATA field.
