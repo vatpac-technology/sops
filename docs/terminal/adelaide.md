@@ -51,6 +51,8 @@ Non-Jet aircraft will be processed via a combination of:
 !!! tip
     Refer to the [TBD page](../enroute/Melbourne%20Centre/TBD.md#ypad-star-assignment) for more details on the ATIS conditions and feeder fix combinations which will determine how each aircraft is processed.
 
+Non-jet aircraft processed via direct tracking for a VSA should be vectored or cleared as necessary to join a circuit leg (generally final or downwind).
+
 ## Scenic Coastal Flights
 VFR aircraft may transit the control zone tracking coastal north or southbound, generally at `A005`. **AD TCU** is responsible for ensuring these aircraft remain separated from aircraft arriving/departing at YPAD and may delegate this responsibility to **AD ADC**.  
 
