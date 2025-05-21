@@ -3465,5 +3465,1099 @@ export const flowData = {
                 }
             }
         }
+    },
+    "YPAD": {
+        "Jet": {
+            "05": {
+                "ATNAR Z STAR": {
+                    "ATNAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "ATNAR V/W STAR": {
+                    "ATNAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "BUGSU Z STAR": {
+                    "AGROS": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    },
+                    "MARGO": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "BUGSU V/W STAR": {
+                    "AGROS": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "MARGO": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "INTOG V/X/Z STAR": {
+                    "INTOG": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "KAKLU Z STAR": {
+                    "KAKLU": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "KAKLU V/X STAR": {
+                    "KAKLU": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                }
+            },
+            "23": {
+                "ATNAR A/Z STAR": {
+                    "ATNAR": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "ATNAR V STAR": {
+                    "ATNAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "BUGSU A/Z STAR": {
+                    "AGROS": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    },
+                    "MARGO": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "BUGSU V STAR": {
+                    "AGROS": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "MARGO": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "DRINA A/Z STAR": {
+                    "DRINA": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "DRINA V STAR": {
+                    "DRINA": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "KAKLU A/Z STAR": {
+                    "KAKLU": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "RAYNA Z STAR": {
+                    "ERITH": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "RAYNA V STAR": {
+                    "ERITH": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
+                }
+            }
+        },
+        "DH8D": {
+            "05": {
+                "ATNAR Z STAR": {
+                    "ATNAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "ATNAR V/W STAR": {
+                    "ATNAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "ATPIP STAR - Circuit Join": {
+                    "INTOG": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "BEVSO STAR - Circuit Join": {
+                    "BEVSO": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "BEVSO STAR - IAP": {
+                    "BEVSO": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "BUGSU Z STAR": {
+                    "AGROS": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    },
+                    "MARGO": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "BUGSU V/W STAR": {
+                    "AGROS": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "MARGO": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "ELROX V STAR": {
+                    "ELROX": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                },
+                "GULFS V STAR": {
+                    "ATNAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "INTOG V/X/Z STAR": {
+                    "INTOG": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "KAKLU Z STAR": {
+                    "KAKLU": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "KAKLU V/X STAR": {
+                    "KAKLU": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "PAMMY V STAR": {
+                    "AGROS": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    },
+                    "MARGO": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "SURGN STAR - Circuit Join": {
+                    "KAKLU": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "No STAR - Circuit Join": {
+                    "AGROS": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    },
+                    "ATNAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    },
+                    "DRINA": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    },
+                    "MARGO": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "No STAR - Direct to IAF": {
+                    "ELROX": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                }
+            },
+            "12": {
+                "ATPIP STAR - Circuit Join": {
+                    "INTOG": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "ATPIP STAR - IAP": {
+                    "INTOG": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "BEVSO STAR - Circuit Join": {
+                    "BEVSO": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "BEVSO STAR - IAP": {
+                    "BEVSO": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "ELROX V STAR": {
+                    "ELROX": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                },
+                "GULFS V STAR": {
+                    "ATNAR": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "PAMMY V STAR": {
+                    "AGROS": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    },
+                    "MARGO": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                },
+                "SURGN STAR - Circuit Join": {
+                    "KAKLU": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "SURGN STAR - IAP": {
+                    "KAKLU": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 15
+                    }
+                },
+                "No STAR - Circuit Join": {
+                    "AGROS": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    },
+                    "ATNAR": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    },
+                    "DRINA": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    },
+                    "MARGO": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                },
+                "No STAR - Direct to IAF": {
+                    "AGROS": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    },
+                    "ATNAR": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    },
+                    "ELROX": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    },
+                    "MARGO": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                }
+            },
+            "23": {
+                "ATNAR A/Z STAR": {
+                    "ATNAR": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "ATNAR V STAR": {
+                    "ATNAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "ATPIP STAR - Circuit Join": {
+                    "INTOG": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "BEVSO STAR - Circuit Join": {
+                    "BEVSO": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
+                },
+                "BEVSO STAR - IAP": {
+                    "BEVSO": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
+                },
+                "BUGSU A/Z STAR": {
+                    "AGROS": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    },
+                    "MARGO": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "BUGSU V STAR": {
+                    "AGROS": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "MARGO": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "DRINA A/Z STAR": {
+                    "DRINA": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "DRINA V STAR": {
+                    "DRINA": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "ELROX V STAR": {
+                    "ELROX": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "GULFS V STAR": {
+                    "ATNAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "KAKLU A/Z STAR": {
+                    "KAKLU": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "PAMMY V STAR": {
+                    "AGROS": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    },
+                    "MARGO": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "RAYNA Z STAR": {
+                    "ERITH": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "RAYNA V STAR": {
+                    "ERITH": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
+                },
+                "SURGN STAR - Circuit Join": {
+                    "KAKLU": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "No STAR - Circuit Join": {
+                    "AGROS": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    },
+                    "ATNAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    },
+                    "DRINA": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    },
+                    "MARGO": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "No STAR - Direct to IAF": {
+                    "ELROX": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                }
+            },
+            "30": {
+                "ATPIP STAR - Circuit Join": {
+                    "INTOG": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
+                },
+                "ATPIP STAR - IAP": {
+                    "INTOG": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "BEVSO STAR - Circuit Join": {
+                    "BEVSO": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "BEVSO STAR - IAP": {
+                    "BEVSO": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "SURGN STAR - Circuit Join": {
+                    "KAKLU": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "SURGN STAR - IAP": {
+                    "KAKLU": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "No STAR - Circuit Join": {
+                    "AGROS": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    },
+                    "ATNAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    },
+                    "DRINA": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    },
+                    "ELROX": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    },
+                    "MARGO": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "No STAR - Direct to IAF": {
+                    "AGROS": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    },
+                    "ATNAR": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    },
+                    "ELROX": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "MARGO": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                }
+            }
+        },
+        "Non-Jet": {
+            "05": {
+                "ATNAR Z STAR": {
+                    "ATNAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "ATNAR V/W STAR": {
+                    "ATNAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 14
+                    }
+                },
+                "ATPIP STAR - Circuit Join": {
+                    "INTOG": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "BEVSO STAR - Circuit Join": {
+                    "BEVSO": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "BEVSO STAR - IAP": {
+                    "BEVSO": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    }
+                },
+                "BUGSU Z STAR": {
+                    "AGROS": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    },
+                    "MARGO": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "BUGSU V/W STAR": {
+                    "AGROS": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    },
+                    "MARGO": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "ELROX V STAR": {
+                    "ELROX": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "GULFS V STAR": {
+                    "ATNAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "INTOG V/X STAR": {
+                    "INTOG": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "INTOG Z STAR": {
+                    "INTOG": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "KAKLU Z STAR": {
+                    "KAKLU": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                },
+                "KAKLU V/X STAR": {
+                    "KAKLU": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "PAMMY V STAR": {
+                    "AGROS": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "MARGO": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "SURGN STAR - Circuit Join": {
+                    "KAKLU": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "No STAR - Circuit Join": {
+                    "AGROS": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "ATNAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    },
+                    "DRINA": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "MARGO": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "No STAR - Direct to IAF": {
+                    "ELROX": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                }
+            },
+            "12": {
+                "ATPIP STAR - Circuit Join": {
+                    "INTOG": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "ATPIP STAR - IAP": {
+                    "INTOG": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    }
+                },
+                "BEVSO STAR - Circuit Join": {
+                    "BEVSO": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "BEVSO STAR - IAP": {
+                    "BEVSO": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "ELROX V STAR": {
+                    "ELROX": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "GULFS V STAR": {
+                    "ATNAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "PAMMY V STAR": {
+                    "AGROS": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    },
+                    "MARGO": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "SURGN STAR - Circuit Join": {
+                    "KAKLU": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "SURGN STAR - IAP": {
+                    "KAKLU": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "No STAR - Circuit Join": {
+                    "AGROS": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    },
+                    "ATNAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    },
+                    "DRINA": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 14
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    },
+                    "MARGO": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "No STAR - Direct to IAF": {
+                    "AGROS": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    },
+                    "ATNAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    },
+                    "ELROX": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    },
+                    "MARGO": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                }
+            },
+            "23": {
+                "ATNAR A/Z STAR": {
+                    "ATNAR": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    }
+                },
+                "ATNAR V STAR": {
+                    "ATNAR": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "ATPIP STAR - Circuit Join": {
+                    "INTOG": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "BEVSO STAR - Circuit Join": {
+                    "BEVSO": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "BEVSO STAR - IAP": {
+                    "BEVSO": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "BUGSU A/Z STAR": {
+                    "AGROS": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    },
+                    "MARGO": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "BUGSU V STAR": {
+                    "AGROS": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    },
+                    "MARGO": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "DRINA A/Z STAR": {
+                    "DRINA": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "DRINA V STAR": {
+                    "DRINA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "ELROX V STAR": {
+                    "ELROX": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "GULFS V STAR": {
+                    "ATNAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "KAKLU A/Z STAR": {
+                    "KAKLU": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "PAMMY V STAR": {
+                    "AGROS": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    },
+                    "MARGO": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "RAYNA Z STAR": {
+                    "ERITH": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "RAYNA V STAR": {
+                    "ERITH": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "SURGN STAR - Circuit Join": {
+                    "KAKLU": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "No STAR - Circuit Join": {
+                    "AGROS": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "ATNAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "DRINA": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    },
+                    "MARGO": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "No STAR - Direct to IAF": {
+                    "ELROX": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                }
+            },
+            "30": {
+                "ATPIP STAR - Circuit Join": {
+                    "INTOG": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "ATPIP STAR - IAP": {
+                    "INTOG": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "BEVSO STAR - Circuit Join": {
+                    "BEVSO": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "BEVSO STAR - IAP": {
+                    "BEVSO": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                },
+                "SURGN STAR - Circuit Join": {
+                    "KAKLU": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "SURGN STAR - IAP": {
+                    "KAKLU": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "No STAR - Circuit Join": {
+                    "AGROS": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 14
+                    },
+                    "ATNAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 14
+                    },
+                    "DRINA": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    },
+                    "ELROX": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    },
+                    "KLAVA": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "MARGO": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "No STAR - Direct to IAF": {
+                    "AGROS": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    },
+                    "ATNAR": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    },
+                    "ELROX": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    },
+                    "MARGO": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    }
+                }
+            }
+        }
     }
 };

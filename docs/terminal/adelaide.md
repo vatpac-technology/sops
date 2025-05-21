@@ -113,47 +113,98 @@ Due to the low level of CTA at YPPF, it is best practice to give airways clearan
 ### Flow Tables
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
-=== "Jets"
-                       
-    | Feeder Fix | 05Z | 05V/W/X | 23A/Z | 23V |
-    | ---------- | :---: | :-------: | :-----: | :---: |
-    | **INTOG**      | 14  | 13      | -     | -   |
-    | **DRINA**      | -   | -       | 14    | 13  |
-    | **KAKLU**      | 16  | 15      | 12^   | -   |
-    | **KLAVA**      | 16  | 15      | 13    | 12  |
-    | **ERITH**      | -   | -       | 13    | 12  |
-    | **MARGO**      | 14  | 13      | 15    | 13  |
-    | **ATNAR**      | 13  | 12^     | 17    | 15  |
+=== "Jets"                       
+    | STAR          | RWY 05 | RWY 23 |
+    | ------------- | :----: | :----: |
+    | **ATNAR A/Z** | 13     | 16     |
+    | **ATNAR V**   | 12^    | 14     |
+    | **ATNAR W**   | 12^    | -      |
+    | **BUGSU A/Z**<br>*AGROS transition*<br>*KLAVA transition*<br>*MARGO transition* | <br>15<br>16<br>14     | <br>16<br>17<br>15     |
+    | **BUGSU V**<br>*AGROS transition*<br>*KLAVA transition*<br>*MARGO transition* | <br>14<br>15<br>13     | <br>14<br>15<br>13     |
+    | **BUGSU W**<br>*AGROS transition*<br>*KLAVA transition*<br>*MARGO transition* | <br>14<br>15<br>13     | <br>-<br>-<br>-     |
+    | **DRINA A/Z** | -      | 14     |
+    | **DRINA V**   | -      | 13     |
+    | **INTOG V/X/Z** | 14     | -      |
+    | **KAKLU A/Z** | 16     | 12^    |
+    | **KAKLU V/X** | 15     | -      |
+    | **RAYNA A/Z**<br>*Feeder Fix: ERITH*<br>*Feeder Fix: KLAVA* | <br>-<br>- | <br>13<br>13 | 
+    | **RAYNA V**<br>*Feeder Fix: ERITH*<br>*Feeder Fix: KLAVA* | <br>-<br>- | <br>12<br>12 | 
+
+=== "DH8D"
+    | Arrival            | RWY 05 | RWY 12 | RWY 23 | RWY 30 |
+    | ------------------ | :----: | :----: | :----: | :----: |
+    | **ATNAR A/Z STAR** | 13     | -      | 16     | -      |
+    | **ATNAR V STAR**   | 12^    | -      | 14     | -      |
+    | **ATNAR W STAR**   | 12^    | -      | -      | -      |
+    | **ATPIP STAR**<br>*Feeder Fix: INTOG - Circuit Join*<br>*Feeder Fix: INTOG - IAP*  | <br>13<br>- | <br>13<br>17 | <br>15<br>- | <br>12<br>13 |
+    | **BEVSO STAR**<br>*Circuit Join*<br>*IAP*  | <br>13<br>17 | <br>13<br>15 | <br>12<br>12 | <br>13<br>16 |
+    | **BUGSU A/Z STAR**<br>*AGROS transition*<br>*KLAVA transition*<br>*MARGO transition* | <br>15<br>16<br>14     | <br>-<br>-<br>- | <br>16<br>17<br>15     | <br>-<br>-<br>- |
+    | **BUGSU V STAR**<br>*AGROS transition*<br>*KLAVA transition*<br>*MARGO transition* | <br>14<br>15<br>13     | <br>-<br>-<br>- | <br>14<br>15<br>13     | <br>-<br>-<br>- |
+    | **BUGSU W STAR**<br>*AGROS transition*<br>*KLAVA transition*<br>*MARGO transition* | <br>14<br>15<br>13     | <br>-<br>-<br>-     | <br>-<br>-<br>-     | <br>-<br>-<br>-     |
+    | **DRINA A/Z STAR** | -      | -      | 14     | -      |
+    | **DRINA V STAR**   | -      | -      | 13     | -      |
+    | **ELROX V STAR**   | 10^    | 10^    | 12^    | -      |
+    | **GULFS V STAR**<br>*Feeder Fix: ATNAR*   | <br>12^ | <br>11^ | <br>12 | <br>- |
+    | **INTOG V/X/Z STAR** | 14     | -      | -      | -      |
+    | **KAKLU A/Z STAR** | 16     | -      | 12^    | -      |
+    | **KAKLU V/X STAR** | 15     | -      | -      | -      |
+    | **PAMMY V STAR**<br>*AGROS transition*<br>*MARGO transition*  | <br>12<br>12\^ | <br>11\^<br>10\^ | <br>12\^<br>11\^ | <br>- <br>-|
+    | **RAYNA A/Z STAR**<br>*Feeder Fix: ERITH*<br>*Feeder Fix: KLAVA* | <br>-<br>- | <br>-<br>- | <br>13<br>13 | <br>-<br>- |
+    | **RAYNA V STAR**<br>*Feeder Fix: ERITH*<br>*Feeder Fix: KLAVA* | <br>-<br>- | <br>-<br>- | <br>12<br>12 | <br>-<br>- | 
+    | **SURGN STAR**<br>*Feeder Fix: KAKLU - Circuit Join*<br>*Feeder Fix: KAKLU - IAP* | <br>12\^<br>- | <br>12\^<br>15 | <br>11\^<br>- | <br>12\^<br>13 |
+    | **No STAR - Circuit Join**<br>*Feeder Fix: AGROS*<br>*Feeder Fix: ATNAR*<br>*Feeder Fix: DRINA*<br>*Feeder Fix: ELROX*<br>*Feeder Fix: KLAVA*<br>*Feeder Fix: MARGO*  | <br>12<br>12\^<br>13<br>-<br>16<br>12\^ | <br>11\^<br>11\^<br>12\^<br>-<br>12\^<br>10\^ | <br>12<br>13<br>12<br>-<br>12\^<br>12\^ | <br>12\^<br>12\^<br>11\^<br>11\^<br>13<br>11\^ |
+    | **No STAR - Direct to IAF**<br>*Feeder Fix: AGROS*<br>*Feeder Fix: ATNAR*<br>*Feeder Fix: ELROX*<br>*Feeder Fix: MARGO* | <br>-<br>-<br>10\^<br>- | <br>11\^<br>11\^<br>11\^<br>11\^ | <br>-<br>-<br>16<br>- | <br>17<br>17<br>14<br>16 |
 
 === "Non-Jets"
+    | Arrival            | RWY 05 | RWY 12 | RWY 23 | RWY 30 |
+    | ------------------ | :----: | :----: | :----: | :----: |
+    | **ATNAR A/Z STAR** | 14     | -      | 19     | -      |
+    | **ATNAR V STAR**   | 14^    | -      | 16     | -      |
+    | **ATNAR W STAR**   | 14^    | -      | -      | -      |
+    | **ATPIP STAR**<br>*Feeder Fix: INTOG - Circuit Join*<br>*Feeder Fix: INTOG - IAP*  | <br>15<br>- | <br>14<br>19 | <br>15<br>- | <br>14<br>14 |
+    | **BEVSO STAR**<br>*Circuit Join*<br>*IAP*  | <br>15<br>19 | <br>15<br>17 | <br>14<br>14 | <br>15<br>18 |
+    | **BUGSU A/Z STAR**<br>*AGROS transition*<br>*KLAVA transition*<br>*MARGO transition* | <br>16<br>18<br>15     | <br>-<br>-<br>- | <br>18<br>19<br>17     | <br>-<br>-<br>- |
+    | **BUGSU V STAR**<br>*AGROS transition*<br>*KLAVA transition*<br>*MARGO transition* | <br>16<br>17<br>15     | <br>-<br>-<br>- | <br>15<br>17<br>14     | <br>-<br>-<br>- |
+    | **BUGSU W STAR**<br>*AGROS transition*<br>*KLAVA transition*<br>*MARGO transition* | <br>16<br>17<br>15     | <br>-<br>-<br>-     | <br>-<br>-<br>-     | <br>-<br>-<br>-     |
+    | **DRINA A/Z STAR** | -      | -      | 16     | -      |
+    | **DRINA V STAR**   | -      | -      | 15     | -      |
+    | **ELROX V STAR**   | 11^    | 12^    | 13^    | -      |
+    | **GULFS V STAR**<br>*Feeder Fix: ATNAR*   | <br>13^ | <br>13^ | <br>14 | <br>- |
+    | **INTOG V/X STAR** | 15     | -      | -      | -      |
+    | **INTOG Z STAR**   | 16     | -      | -      | -      |
+    | **KAKLU A/Z STAR** | 18     | -      | 13^    | -      |
+    | **KAKLU V/X STAR** | 17     | -      | -      | -      |
+    | **PAMMY V STAR**<br>*AGROS transition*<br>*MARGO transition*  | <br>14<br>13\^ | <br>13\^<br>12\^ | <br>13\^<br>12\^ | <br>- <br>-|
+    | **RAYNA A/Z STAR**<br>*Feeder Fix: ERITH*<br>*Feeder Fix: KLAVA* | <br>-<br>- | <br>-<br>- | <br>14<br>14 | <br>-<br>- |
+    | **RAYNA V STAR**<br>*Feeder Fix: ERITH*<br>*Feeder Fix: KLAVA* | <br>-<br>- | <br>-<br>- | <br>14<br>14 | <br>-<br>- | 
+    | **SURGN STAR**<br>*Feeder Fix: KAKLU - Circuit Join*<br>*Feeder Fix: KAKLU - IAP* | <br>13\^<br>- | <br>13\^<br>17 | <br>13\^<br>- | <br>13\^<br>14 |
+    | **No STAR - Circuit Join**<br>*Feeder Fix: AGROS*<br>*Feeder Fix: ATNAR*<br>*Feeder Fix: DRINA*<br>*Feeder Fix: ELROX*<br>*Feeder Fix: KLAVA*<br>*Feeder Fix: MARGO*  | <br>14<br>13\^<br>14<br>-<br>15<br>13\^ | <br>13\^<br>13\^<br>14\^<br>-<br>13\^<br>12\^ | <br>14<br>15<br>14<br>-<br>13\^<br>13\^ | <br>14\^<br>14\^<br>13\^<br>13\^<br>15<br>13\^ |
+    | **No STAR - Direct to IAF**<br>*Feeder Fix: AGROS*<br>*Feeder Fix: ATNAR*<br>*Feeder Fix: ELROX*<br>*Feeder Fix: MARGO* | <br>-<br>-<br>11\^<br>- | <br>13\^<br>13\^<br>12\^<br>12\^ | <br>-<br>-<br>18<br>- | <br>20<br>20<br>16<br>19 |
 
-    For Non-Jets tracking via the *full Jet STARs*, refer to the **Jets** tab & applicable correction
-
-    | Feeder Fix | 05  | 12  | 23  | 30  |
-    | ---------- | :---: | :---: | :---: | :---: |
-    | **INTOG**      | 12  | 14  | 12  | 11  |
-    | **DRINA**      | 14  | 17  | 14  | 13  |
-    | **KAKLU**      | 16  | 15  | 13  | 13  |
-    | **BEVSO**      | 17  | 15  | 14  | 13  |
-    | **KLAVA**      | 15  | 13  | 13  | 16  |
-    | **ERITH**      | -   | -   | -   | -   |
-    | **MARGO**      | 13  | 12  | 13  | 15  |
-    | **ATNAR**      | 13  | 13  | 15  | 16  |
-    | **ELROX**      | 11  | 11  | 14  | 13  |
 
 #### Corrections
 | Situation | Correction |
 | ----- | ----- |
-| Assigned MX or CSR | -1 min |
 | Assigned a reduced speed | +1 min, *except ^* | 
-| DH8D aircraft on Non-Jet procedure | -1 min |
-| Non-Jet aircraft (excluding DH8D) on Jet STAR | +2 min, *except ^, where +1 min correction applies* |
+| Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
 
 #### Assumptions
 - Nil wind
 - The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except:
-    - The feeder fix for the ATPIP STAR is INTOG
+    - The feeder fix for the ATPIP STAR is **INTOG**
 - Aircraft issued a *Circuit Join* will be vectored/cleared to a 5nm final or a downwind join of the circuit
+- Non-jet aircraft issued the ATPIP, BEVSO, or SURGN STARs will be processed for either a circuit join or IAP (as dictated by the flow table comment)
+- Aircraft via INTOG for the RWY 23 IAP will be rerouted via DRINA for the DRINA STAR
+
+### Calculator
+<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
+The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
+
+=== "Landing Time"
+    <div class="flowCalculatorLandingTime" data-aerodrome="YPAD"></div>
+
+=== "Feeder Fix Time"
+    <div class="flowCalculatorFeederFixTime" data-aerodrome="YPAD"></div>
 
 ## Coordination
 ### Enroute
