@@ -69,7 +69,6 @@ Non-Jets shall be assigned the STAR in accordance with the following table:
 | KAKLU      |   R23    |   R05    |
 | BEVSO      |   R23    |   R12    |
 | KLAVA      | No STAR<br>Expect Runway 23 | No STAR<br>Expect Runway 05 |
-| ERITH      |    -     |    -     |
 | MARGO      |   R12    |   R12    |
 | ATNAR      |   R12    |   R12    |
 | ELROX      |   R12    |   R05    |
@@ -88,7 +87,6 @@ Non-Jets shall be assigned the STAR in accordance with the following table:
 | KAKLU      |   23A    |   23A    |
 | BEVSO      | No STAR<br>Expect Instrument Approach<br>Runway 23 | No STAR<br>Expect Instrument Approach<br>Runway 23 |
 | KLAVA      | No STAR<br>Expect Runway 23 | No STAR<br>Expect Runway 23 |
-| ERITH      |    -     |    -     |
 | MARGO      |   R12    |   R23    |
 | ATNAR      |   R12    |   R23    |
 | ELROX      |   R12    |   R23    |
@@ -105,7 +103,6 @@ Non-Jets shall be assigned the STAR in accordance with the following table:
 | KAKLU      |   23A    |   05Z    |
 | BEVSO      | No STAR<br>Expect Instrument Approach<br>Runway 23 | No STAR<br>Expect Instrument Approach<br>Runway 12 |
 | KLAVA      |   23A    |    05Z   |
-| ERITH      |    -     |    -     |
 | MARGO      | No STAR<br>Expect Instrument Approach<br>Runway 12 | No STAR<br>Expect Instrument Approach<br>Runway 12 |
 | ATNAR      | No STAR<br>Expect Instrument Approach<br>Runway 12 | No STAR<br>Expect Instrument Approach<br>Runway 12 |
 | ELROX      | No STAR<br>Expect Instrument Approach<br>Runway 12 | No STAR<br>Expect Instrument Approach<br>Runway 05 |
