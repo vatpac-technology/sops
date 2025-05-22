@@ -32,7 +32,16 @@ The CPDLC Station Code is `YTBD`.
 </figure>
 
 ## Sector Responsibilities
-TBD and AUG are responsible for Sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YPAD and YPED.
+### YPAD Arrivals
+TBD and AUG are responsible for sequencing, issuing STAR Clearances, and issuing descent.
+
+Refer to the [Sequencing into YPAD](#sequencing-into-ypad) notes below regarding adjacent Feeder Fixes.
+
+### YPPF Arrivals
+TBD and AUG are responsible for issuing descent and ascertaining arrival intentions.
+
+### YPED Arrivals
+TBD and AUG are responsible for issuing STAR Clearances, descent, and ascertaining arrival intentions.
 
 ### Sequencing in to YPAD
 Aircraft assigned the **same runway** inbound via:

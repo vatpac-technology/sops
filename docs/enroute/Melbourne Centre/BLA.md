@@ -46,12 +46,28 @@ When **AY ADC** is offline, AY CTR (Class D and C `SFC` to `A085`) reverts to Cl
 
 ## Sector Responsibilities
 ### Eildon Weir (ELW)
-ELW is responsible for the final sequencing actions in to YMML, and issuing STAR clearances to Non-jets bound for YMML and YMAV.
+#### YMML Arrivals
+ELW is responsible for the final sequencing actions, final descent, and issuing STAR clearances to Non-jets.
+
+Refer to the [Sequencing into YMML](#sequencing-into-ymml) notes below regarding adjacent Feeder Fixes.
+
+#### YMAV Arrivals
+ELW is responsible for issuing final descent, and STAR clearances to Non-jets.
+
+#### YMEN Arrivals
+ELW is responsible for issuing final descent, and ascertaining arrival intentions.
 
 ### Benalla (BLA)
-BLA is reponsible for issuing STAR clearances and initial descent for aircraft bound for YMML (Jets only), YMAV (Jets only), and YSCB. BLA is also responsible for sequencing in to YSCB, and initial sequencing in to YMML.
+#### YMML Arrivals
+BLA is reponsible for issuing STAR clearances, initial sequencing, and initial descent to not below `F250` for Jets.
 
-#### YSCB STARs
+#### YMAV Arrivals
+BLA is reponsible for issuing STAR clearances, initial sequencing, and initial descent to not below `F250` for Jets.
+
+#### YSCB Arrivals
+BLA is responsible for issuing STAR clearances, sequencing, and descent.
+
+##### STARs
 When Runway 35 is in use at YSCB, by default, vatSys will select the POLLI STAR with the **ARRAN** transition. Aircraft that have planned via EBONY and ARRAN (ie, aircraft on the Y59 airway) need to be assigned the POLLI STAR with the **EBONY** transition. This can be manually overridden in the aircraft's flight plan as shown below:
 
 <figure markdown>
@@ -176,7 +192,7 @@ That being said, it is *advised* that BLA give **Heads-up Coordination** prior t
     **BLA** should aim to handoff aircraft as soon as possible to **GUN**, so they can issue STAR clearance and commence sequencing. Remember, As per [Standard coordination procedures](../../../controller-skills/coordination/#handoffs), the Receiving sector may turn the aircraft 45° left or right and climb/descend to any level. So if required, nominate a restriction.
 
 ### BLA Internal
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** (reduced from 50nm) to boundary.
 
 That being said, it is *advised* that ELW/BLA give **Heads-up Coordination** prior to **20nm** from the boundary in the following scenarios:  
 - ELW to BLA for aircraft **not** on the Y59, H66, or W569 airway (Changes permitted up to boundary for sequencing/descent purposes)  
