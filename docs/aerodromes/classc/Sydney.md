@@ -135,7 +135,7 @@ Departing helicopters require an airways clearance to either transit the CTR int
 Helicopters intending to enter SY TCU CTA must be first coordinated with SY TCU. Once the aircraft reports airborne and is clear of any conflicts in ADC's airspace, they should be transferred to the TCU.
 
 !!! phraseology
-    *RSCU209 is a VFR AW139 helicopter outbound from St George Hospital (YXSG) for Orange (YORG) at A045.*  
+    *RSCU209 is an IFR AW139 helicopter outbound from St George Hospital (YXSG) for Orange (YORG) at A045.*  
     **RSCU209**: "Sydney Tower, helicopter RSCU209, St George Hospital, for Orange, ready, request clearance"  
     **SY ADC**: "RSCU209, standby"  
 
