@@ -221,3 +221,42 @@ h6 {
   --l5-indent: 3em;
   --l6-indent: 4em;
 }
+
+/* Flow Calculator */
+form.flowCalculator {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  padding: 15px;
+  background-color: var(--md-card-a);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form.flowCalculator div.row {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 1em;
+    gap: 1em;
+}
+
+form.flowCalculator div.form-group {
+    flex: 1 1 25%;
+    min-width: 210px;
+}
+
+form.flowCalculator label {
+    display: block;
+    margin-top: 0.5em;
+    font-weight: 600;
+    color: var(--md-primary-fg-color);
+}
+
+form.flowCalculator input, select {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 0.5em;
+    font-family: inherit;
+}
