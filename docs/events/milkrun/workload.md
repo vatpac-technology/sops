@@ -39,7 +39,7 @@ To mitigate this, pushback requests may be done on **ACD** frequency, to balance
 2. **SMC** coordinates with **ADC** in order to have the [ATIS](../../../aerodromes/classc/melbourne/#acd-pushback-requests) updated.
 3. When **ACD** has finished issuing an airways clearance, they will **remind** pilots to *"Contact me when ready for pushback"*.
 4. When a pilot requests pushback, **ACD** will instruct them to **Monitor** *(not contact)* Ground on 121.7, and advise their position in the queue.
-5. **ACD** will move the strip in to the **Queue** section of the **Cleared** bay^ in [OzStrips](../../../client/towerstrips/), to denote they are awaiting pushback approval†.
+5. **ACD** will move the strip in to the **Queue** section of the **Cleared** bay in [OzStrips](../../../client/towerstrips/), to denote they are awaiting pushback approval.
 6. Eventually, **SMC** will have adequate space on the aprons, taxiways, and holding point, as well as time to make assessments.
 7. **SMC** will scan the [Cleared Queue bay](../../../client/towerstrips/#stripboard) for the next aircraft in line, and call them to approve their pushback.
 
@@ -67,7 +67,7 @@ To mitigate this, pushback requests may be done on **ACD** frequency, to balance
 ### Queue Management
 Remember that the **bottom** aircraft represents the **front** of the queue.
 
-^ Additionally, the strips must remain in the strip bay of their **current state**, even if they are in a queue. For example, if they have received an airways clearance and are in the queue for pushback, they must remain in the **Cleared** bay, **not** the Pushback bay.
+Additionally, the strips must remain in the strip bay of their **current state**, even if they are in a queue. For example, if they have received an airways clearance and are in the queue for pushback, they must remain in the **Cleared** bay, **not** the Pushback bay.
 
 <figure markdown>
 ![Cleared Queue Bay](../img/clrqbay.png){ width="500" }
@@ -75,7 +75,7 @@ Remember that the **bottom** aircraft represents the **front** of the queue.
 </figure>
 
 ### COBT Slot Times
-† Aircraft that are compliant with their booked slot time should be moved to the **front** of the queue
+Aircraft that are compliant with their booked slot time should be moved to the **front** of the queue
 
 <figure markdown>
 ![COBT Slot Time](../img/slottime.png){ width="200" }
