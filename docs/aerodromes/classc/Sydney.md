@@ -29,7 +29,6 @@ SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005` as 
 </figure>
 
 ### Helicopter Operations
-Refer to [Heliport Responsibility](#heliport-responsibility) to determine which ADC position (when both are online) is responsible for managing helicopter arrivals and departures.
 
 VFR helicopters are generally processed via one of Sydney's Helicopter Routes. There are both inbound and outbound routes. The helicopter routes are coded clearances. 
 Inbound coded clearances contain the route, altitudes, a clearance limit, freqencies and at which waypoint to self-transfer to tower. 
@@ -37,6 +36,7 @@ Outbound coded clearances contain the route and altitude to be flown. Outbound r
 
 The routes are shown here: 
 ********************* INSERT THE DIAGRAM *****************
+Refer to [Heliport Responsibility](#heliport-responsibility) to determine which ADC position (when both are online) is responsible for managing helicopter arrivals and departures.
 
 #### Departures
 IFR helicopters should conform to fixed wing ops and be processed via the **SY (RADAR) SID** from an appropriate runway, unless a visual departure is acceptable.
