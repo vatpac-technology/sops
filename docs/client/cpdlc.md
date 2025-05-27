@@ -18,8 +18,6 @@ PDCs utilising vatACARS are solicited by the pilot, however, the standalone vatS
 
 The vatACARS client can be downloaded by clicking [here](https://vatacars.com/){target=new}.  
 
-The vatACARS client requires controllers to have a [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html){target=new} account and logon code, plus a [vatACARS Token](https://vatacars.com/me){target=new}.
-
 If the client is installed correctly, there will be an *ACARS* drop-down box available in vatSys.
 
 <figure markdown>
@@ -46,7 +44,6 @@ The controller should then open the vatACARS *Setup* window, fill in the releven
 </figure>
 
 **Station Code:** Must be the identifier of the position which is being controlled.          
-**vatACARS Token:** Must be your unique vatACARS Token, found [here](https://vatacars.com/me){target=new}.          
 **Logon Code:** Must be your [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html){target=new} Code.            
 
 Once connected with CPDLC enabled, pilots will connect to the vatACARS plugin via their aircraft's CPDLC system. The controller will normally receive a *'Request PDC'* message through vatACARS. The controller should left-click the received message to issue the PDC. A self-explanatory window will appear; fill in the *DEP FREQ* and, if required, *FREE TEXT* field and send this back to the aircraft. Note that the pilot's strip **MUST** be filled out in order to issue a PDC through vatACARS. Once the aircraft has received their PDC, the pilot will usually respond with *'Roger'* or similar to show they have received the clearance.
@@ -80,7 +77,6 @@ The controller should then open the vatACARS *Setup* window, fill in the releven
 </figure>
 
 **Station Code:** Must be the identifier of the position which is being controlled.          
-**vatACARS Token:** Must be your unique vatACARS Token, found [here](https://vatacars.com/me){target=new}.          
 **Logon Code:** Must be your [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html){target=new} Code.            
 
 Some major enroute positions do not use CPDLC as a primary means of communication, however, controllers may use CPDLC in lieu of voice when applicable.
@@ -147,7 +143,7 @@ Left-clicking the number next to the text box cycles forward through up to five 
 
 #### ENR/OCN
 
-When transferring between enroute or oceanic sectors, ATC should right click on the aircraft which will bring up a handover window. The controller should select the next ATC unit to transfer the aircraft.
+When transferring between enroute or oceanic sectors, ATC should right click on the aircraft which will bring up a handover window. If the next controller also has CPDLC in their controller info with a station code, they will appear automatically in your station list for transfer.
 
 <figure markdown>
 ![vatACARS Setup](../controller-skills/img/vatacarshandoff.png){ width="700" }
