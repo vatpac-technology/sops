@@ -40,7 +40,7 @@ After logging onto the VATSIM network, controllers **MUST** note in their contro
 The controller should then open the vatACARS *Setup* window, fill in the relevent details, and click *Connect*.
 
 <figure markdown>
-![vatACARS Setup](../controller-skills/img/vatacarslogon.png){ width="700" }
+![vatACARS Setup](../controller-skills/img/vatacarslogonnew.png){ width="700" }
 </figure>
 
 **Station Code:** Must be the identifier of the position which is being controlled.          
