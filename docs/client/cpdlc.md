@@ -143,7 +143,7 @@ Left-clicking the number next to the text box cycles forward through up to five 
 
 #### ENR/OCN
 
-When transferring between enroute or oceanic sectors, ATC should right click on the aircraft which will bring up a handover window. If the next controller also has CPDLC in their controller info with a station code, they will appear automatically in your station list for transfer.
+When transferring between enroute or oceanic sectors, ATC should right click on the aircraft which will bring up a handover window. The controller should select the next ATC unit to transfer the aircraft.
 
 <figure markdown>
 ![vatACARS Setup](../controller-skills/img/vatacarshandoff.png){ width="700" }
