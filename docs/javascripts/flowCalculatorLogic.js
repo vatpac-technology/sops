@@ -3,8 +3,9 @@
 import { flowData } from './flowData.js';
 
 document.addEventListener('DOMContentLoaded', function() {  
-    //console.log(transformFlowData(flowData));
+    //console.log(swapArrivalAndWaypoint(flowData));
     //return;
+
     const landingTimeCalculators = document.getElementsByClassName("flowCalculatorLandingTime");
     const feederFixTimeCalculators = document.getElementsByClassName("flowCalculatorFeederFixTime");
 
@@ -22,8 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const ffETAInput = document.getElementById(elementIDPrefix + "FFETA");
             const aircraftSelect = document.getElementById(elementIDPrefix + "Aircraft");
             const runwaySelect = document.getElementById(elementIDPrefix + "Runway");
-            const arrivalSelect = document.getElementById(elementIDPrefix + "Arrival");
             const feederFixSelect = document.getElementById(elementIDPrefix + "FeederFix");
+            const arrivalSelect = document.getElementById(elementIDPrefix + "Arrival");
             const speedSelect = document.getElementById(elementIDPrefix + "Speed");
 
             ffETAInput.addEventListener("input", function() {
@@ -31,24 +32,24 @@ document.addEventListener('DOMContentLoaded', function() {
             });
             aircraftSelect.addEventListener("change", function() {
                 runwaySelect.innerHTML = GenerateRunwayOptions(aerodrome, aircraftSelect.value, runwaySelect.value);
-                arrivalSelect.innerHTML = GenerateArrivalOptions(aerodrome, aircraftSelect.value, runwaySelect.value, arrivalSelect.value);
-                feederFixSelect.innerHTML = GenerateFeederFixOptions(aerodrome, aircraftSelect.value, runwaySelect.value, arrivalSelect.value, feederFixSelect.value);
-                speedSelect.innerHTML = GenerateSpeedOptions(aerodrome, aircraftSelect.value, runwaySelect.value, arrivalSelect.value, feederFixSelect.value, speedSelect.value);
+                feederFixSelect.innerHTML = GenerateFeederFixOptions(aerodrome, aircraftSelect.value, runwaySelect.value, feederFixSelect.value);
+                arrivalSelect.innerHTML = GenerateArrivalOptions(aerodrome, aircraftSelect.value, runwaySelect.value, feederFixSelect.value, arrivalSelect.value);
+                speedSelect.innerHTML = GenerateSpeedOptions(aerodrome, aircraftSelect.value, runwaySelect.value, feederFixSelect.value, arrivalSelect.value, speedSelect.value);
                 CalculateLandingTime(aerodrome);
             });
             runwaySelect.addEventListener("change", function() {
-                arrivalSelect.innerHTML = GenerateArrivalOptions(aerodrome, aircraftSelect.value, runwaySelect.value, arrivalSelect.value);
-                feederFixSelect.innerHTML = GenerateFeederFixOptions(aerodrome, aircraftSelect.value, runwaySelect.value, arrivalSelect.value, feederFixSelect.value);
-                speedSelect.innerHTML = GenerateSpeedOptions(aerodrome, aircraftSelect.value, runwaySelect.value, arrivalSelect.value, feederFixSelect.value, speedSelect.value);
-                CalculateLandingTime(aerodrome);
-            });
-            arrivalSelect.addEventListener("change", function() {
-                feederFixSelect.innerHTML = GenerateFeederFixOptions(aerodrome, aircraftSelect.value, runwaySelect.value, arrivalSelect.value, feederFixSelect.value);
-                speedSelect.innerHTML = GenerateSpeedOptions(aerodrome, aircraftSelect.value, runwaySelect.value, arrivalSelect.value, feederFixSelect.value, speedSelect.value);
+                feederFixSelect.innerHTML = GenerateFeederFixOptions(aerodrome, aircraftSelect.value, runwaySelect.value, feederFixSelect.value);
+                arrivalSelect.innerHTML = GenerateArrivalOptions(aerodrome, aircraftSelect.value, runwaySelect.value, feederFixSelect.value, arrivalSelect.value);
+                speedSelect.innerHTML = GenerateSpeedOptions(aerodrome, aircraftSelect.value, runwaySelect.value, feederFixSelect.value, arrivalSelect.value, speedSelect.value);
                 CalculateLandingTime(aerodrome);
             });
             feederFixSelect.addEventListener("change", function() {
-                speedSelect.innerHTML = GenerateSpeedOptions(aerodrome, aircraftSelect.value, runwaySelect.value, arrivalSelect.value, feederFixSelect.value, speedSelect.value);
+                arrivalSelect.innerHTML = GenerateArrivalOptions(aerodrome, aircraftSelect.value, runwaySelect.value, feederFixSelect.value, arrivalSelect.value);
+                speedSelect.innerHTML = GenerateSpeedOptions(aerodrome, aircraftSelect.value, runwaySelect.value, feederFixSelect.value, arrivalSelect.value, speedSelect.value);
+                CalculateLandingTime(aerodrome);
+            });
+            arrivalSelect.addEventListener("change", function() {
+                speedSelect.innerHTML = GenerateSpeedOptions(aerodrome, aircraftSelect.value, runwaySelect.value, feederFixSelect.value, arrivalSelect.value, speedSelect.value);
                 CalculateLandingTime(aerodrome);
             });
             speedSelect.addEventListener("change", function() {
@@ -71,8 +72,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const landingTimeInput = document.getElementById(elementIDPrefix + "LandingTime");
             const aircraftSelect = document.getElementById(elementIDPrefix + "Aircraft");
             const runwaySelect = document.getElementById(elementIDPrefix + "Runway");
-            const arrivalSelect = document.getElementById(elementIDPrefix + "Arrival");
             const feederFixSelect = document.getElementById(elementIDPrefix + "FeederFix");
+            const arrivalSelect = document.getElementById(elementIDPrefix + "Arrival");
             const speedSelect = document.getElementById(elementIDPrefix + "Speed");
 
             landingTimeInput.addEventListener("input", function() {
@@ -80,24 +81,24 @@ document.addEventListener('DOMContentLoaded', function() {
             });
             aircraftSelect.addEventListener("change", function() {
                 runwaySelect.innerHTML = GenerateRunwayOptions(aerodrome, aircraftSelect.value, runwaySelect.value);
-                arrivalSelect.innerHTML = GenerateArrivalOptions(aerodrome, aircraftSelect.value, runwaySelect.value, arrivalSelect.value);
-                feederFixSelect.innerHTML = GenerateFeederFixOptions(aerodrome, aircraftSelect.value, runwaySelect.value, arrivalSelect.value, feederFixSelect.value);
-                speedSelect.innerHTML = GenerateSpeedOptions(aerodrome, aircraftSelect.value, runwaySelect.value, arrivalSelect.value, feederFixSelect.value, speedSelect.value);
+                feederFixSelect.innerHTML = GenerateFeederFixOptions(aerodrome, aircraftSelect.value, runwaySelect.value, feederFixSelect.value);
+                arrivalSelect.innerHTML = GenerateArrivalOptions(aerodrome, aircraftSelect.value, runwaySelect.value, feederFixSelect.value, arrivalSelect.value);
+                speedSelect.innerHTML = GenerateSpeedOptions(aerodrome, aircraftSelect.value, runwaySelect.value, feederFixSelect.value, arrivalSelect.value, speedSelect.value);
                 CalculateFeederFixTime(aerodrome);
             });
             runwaySelect.addEventListener("change", function() {
-                arrivalSelect.innerHTML = GenerateArrivalOptions(aerodrome, aircraftSelect.value, runwaySelect.value, arrivalSelect.value);
-                feederFixSelect.innerHTML = GenerateFeederFixOptions(aerodrome, aircraftSelect.value, runwaySelect.value, arrivalSelect.value, feederFixSelect.value);
-                speedSelect.innerHTML = GenerateSpeedOptions(aerodrome, aircraftSelect.value, runwaySelect.value, arrivalSelect.value, feederFixSelect.value, speedSelect.value);
-                CalculateFeederFixTime(aerodrome);
-            });
-            arrivalSelect.addEventListener("change", function() {
-                feederFixSelect.innerHTML = GenerateFeederFixOptions(aerodrome, aircraftSelect.value, runwaySelect.value, arrivalSelect.value, feederFixSelect.value);
-                speedSelect.innerHTML = GenerateSpeedOptions(aerodrome, aircraftSelect.value, runwaySelect.value, arrivalSelect.value, feederFixSelect.value, speedSelect.value);
+                feederFixSelect.innerHTML = GenerateFeederFixOptions(aerodrome, aircraftSelect.value, runwaySelect.value, feederFixSelect.value);
+                arrivalSelect.innerHTML = GenerateArrivalOptions(aerodrome, aircraftSelect.value, runwaySelect.value, feederFixSelect.value, arrivalSelect.value);
+                speedSelect.innerHTML = GenerateSpeedOptions(aerodrome, aircraftSelect.value, runwaySelect.value, feederFixSelect.value, arrivalSelect.value, speedSelect.value);
                 CalculateFeederFixTime(aerodrome);
             });
             feederFixSelect.addEventListener("change", function() {
-                speedSelect.innerHTML = GenerateSpeedOptions(aerodrome, aircraftSelect.value, runwaySelect.value, arrivalSelect.value, feederFixSelect.value, speedSelect.value);
+                arrivalSelect.innerHTML = GenerateArrivalOptions(aerodrome, aircraftSelect.value, runwaySelect.value, feederFixSelect.value, arrivalSelect.value);
+                speedSelect.innerHTML = GenerateSpeedOptions(aerodrome, aircraftSelect.value, runwaySelect.value, feederFixSelect.value, arrivalSelect.value, speedSelect.value);
+                CalculateFeederFixTime(aerodrome);
+            });
+            arrivalSelect.addEventListener("change", function() {
+                speedSelect.innerHTML = GenerateSpeedOptions(aerodrome, aircraftSelect.value, runwaySelect.value, feederFixSelect.value, arrivalSelect.value, speedSelect.value);
                 CalculateFeederFixTime(aerodrome);
             });
             speedSelect.addEventListener("change", function() {
@@ -114,8 +115,8 @@ function CreateFormElements(aerodrome, containerElement) {
 
     const prefillAircraft = RetrieveAircraftTypes(aerodrome)[0];
     const prefillRunway = RetrieveRunways(aerodrome, prefillAircraft)[0];
-    const prefillArrival = RetrieveArrivals(aerodrome, prefillAircraft, prefillRunway)[0];
-    const prefillFeederFix = RetrieveFeederFixes(aerodrome, prefillAircraft, prefillRunway, prefillArrival)[0];
+    const prefillFeederFix = RetrieveFeederFixes(aerodrome, prefillAircraft, prefillRunway)[0];
+    const prefillArrival = RetrieveArrivals(aerodrome, prefillAircraft, prefillRunway, prefillFeederFix)[0];
 
     try {
         // Initial inputs
@@ -157,21 +158,21 @@ function CreateFormElements(aerodrome, containerElement) {
         formContent += `</select>
             </div>`;
 
-        // Arrivals
-        formContent += `<div class="form-group">
-                <label>Arrival:</label>
-                <select id="${elementIDPrefix}Arrival">`;
-
-        formContent += GenerateArrivalOptions(aerodrome, prefillAircraft, prefillRunway, null);
-        formContent += `</select>
-            </div>`;
-
         // Feeder Fixes
         formContent += `<div class="form-group">
                 <label>Feeder Fix:</label>
                 <select id="${elementIDPrefix}FeederFix">`;
 
-        formContent += GenerateFeederFixOptions(aerodrome, prefillAircraft, prefillRunway, prefillArrival, null);
+        formContent += GenerateFeederFixOptions(aerodrome, prefillAircraft, prefillRunway, null);
+        formContent += `</select>
+            </div>`;
+
+        // Arrivals
+        formContent += `<div class="form-group">
+                <label>Arrival:</label>
+                <select id="${elementIDPrefix}Arrival">`;
+
+        formContent += GenerateArrivalOptions(aerodrome, prefillAircraft, prefillRunway, prefillFeederFix, null);
         formContent += `</select>
             </div>`;
 
@@ -180,7 +181,7 @@ function CreateFormElements(aerodrome, containerElement) {
                 <label>Speed:</label>
                 <select id="${elementIDPrefix}Speed">`;
                     
-        formContent += GenerateSpeedOptions(aerodrome, prefillAircraft, prefillRunway, prefillArrival, prefillFeederFix, null);
+        formContent += GenerateSpeedOptions(aerodrome, prefillAircraft, prefillRunway, prefillFeederFix, prefillArrival, null);
         formContent += `</select>
             </div>`;
 
@@ -242,42 +243,18 @@ function GenerateRunwayOptions(aerodrome, selectedAircraft, previousValue) {
     return runwayOptions;
 }
 
-function RetrieveArrivals(aerodrome, selectedAircraft, selectedRunway) {
-    // Returns an array of arrivals for the selected aircraft and runway, sorted alphabetically
-    let arrivals = Object.keys(flowData[aerodrome][selectedAircraft][selectedRunway]);
-    let sortedArrivals = arrivals.sort((a, b) => a.localeCompare(b));
-
-    return sortedArrivals;
-}
-
-function GenerateArrivalOptions(aerodrome, selectedAircraft, selectedRunway, previousValue) {
-    // Returns a string of HTML options for the arrivals select element
-    let arrivalOptions = "";
-    const sortedArrivals = RetrieveArrivals(aerodrome, selectedAircraft, selectedRunway);
-
-    for (let arrival of sortedArrivals) {
-        let selected = "";
-        if(arrival === previousValue) {
-            selected = "selected";
-        }
-        arrivalOptions += `<option value="${arrival}" ${selected}>${arrival}</option>`;
-    }
-
-    return arrivalOptions;
-}
-
-function RetrieveFeederFixes(aerodrome, selectedAircraft, selectedRunway, selectedArrival) {
-    // Returns an array of feeder fixes for the selected aircraft, runway and arrival, sorted alphabetically
-    let feeders = Object.keys(flowData[aerodrome][selectedAircraft][selectedRunway][selectedArrival]);
+function RetrieveFeederFixes(aerodrome, selectedAircraft, selectedRunway) {
+    // Returns an array of feeder fixes for the selected aircraft, and runway, sorted alphabetically
+    let feeders = Object.keys(flowData[aerodrome][selectedAircraft][selectedRunway]);
     let sortedFeeders = feeders.sort((a, b) => a.localeCompare(b));
 
     return sortedFeeders;
 }
 
-function GenerateFeederFixOptions(aerodrome, selectedAircraft, selectedRunway, selectedArrival, previousValue) {
+function GenerateFeederFixOptions(aerodrome, selectedAircraft, selectedRunway, previousValue) {
     // Returns a string of HTML options for the arrivals select element
     let feederOptions = "";
-    const sortedFeeders = RetrieveFeederFixes(aerodrome, selectedAircraft, selectedRunway, selectedArrival);
+    const sortedFeeders = RetrieveFeederFixes(aerodrome, selectedAircraft, selectedRunway);
 
     for (let feeder of sortedFeeders) {
         let selected = "";
@@ -290,18 +267,42 @@ function GenerateFeederFixOptions(aerodrome, selectedAircraft, selectedRunway, s
     return feederOptions;
 }
 
-function RetrieveSpeeds(aerodrome, selectedAircraft, selectedRunway, selectedArrival, selectedFeederFix) {
+function RetrieveArrivals(aerodrome, selectedAircraft, selectedRunway, selectedFeederFix) {
+    // Returns an array of arrivals for the selected aircraft and runway, sorted alphabetically
+    let arrivals = Object.keys(flowData[aerodrome][selectedAircraft][selectedRunway][selectedFeederFix]);
+    let sortedArrivals = arrivals.sort((a, b) => a.localeCompare(b));
+
+    return sortedArrivals;
+}
+
+function GenerateArrivalOptions(aerodrome, selectedAircraft, selectedRunway, selectedFeederFix, previousValue) {
+    // Returns a string of HTML options for the arrivals select element
+    let arrivalOptions = "";
+    const sortedArrivals = RetrieveArrivals(aerodrome, selectedAircraft, selectedRunway, selectedFeederFix);
+
+    for (let arrival of sortedArrivals) {
+        let selected = "";
+        if(arrival === previousValue) {
+            selected = "selected";
+        }
+        arrivalOptions += `<option value="${arrival}" ${selected}>${arrival}</option>`;
+    }
+
+    return arrivalOptions;
+}
+
+function RetrieveSpeeds(aerodrome, selectedAircraft, selectedRunway, selectedFeederFix, selectedArrival) {
     // Returns an array of speeds for the selected aircraft, runway, arrival and feeder fix, sorted alphabetically
-    let speedOptions = Object.keys(flowData[aerodrome][selectedAircraft][selectedRunway][selectedArrival][selectedFeederFix]);
+    let speedOptions = Object.keys(flowData[aerodrome][selectedAircraft][selectedRunway][selectedFeederFix][selectedArrival]);
     let sortedSpeedOptions = speedOptions.sort((a, b) => a.localeCompare(b));
 
     return sortedSpeedOptions;
 }
 
-function GenerateSpeedOptions(aerodrome, selectedAircraft, selectedRunway, selectedArrival, selectedFeederFix, previousValue) {
+function GenerateSpeedOptions(aerodrome, selectedAircraft, selectedRunway, selectedFeederFix, selectedArrival, previousValue) {
     // Returns a string of HTML options for the speeds select element
     let speedOptions = "";
-    const sortedSpeeds = RetrieveSpeeds(aerodrome, selectedAircraft, selectedRunway, selectedArrival, selectedFeederFix);
+    const sortedSpeeds = RetrieveSpeeds(aerodrome, selectedAircraft, selectedRunway, selectedFeederFix, selectedArrival);
 
     for (let speed of sortedSpeeds) {
         let selected = "";
@@ -321,8 +322,8 @@ function CalculateLandingTime(aerodrome) {
         const ffETAInput = document.getElementById(elementIDPrefix + "FFETA");
         const aircraftSelect = document.getElementById(elementIDPrefix + "Aircraft");
         const runwaySelect = document.getElementById(elementIDPrefix + "Runway");
-        const arrivalSelect = document.getElementById(elementIDPrefix + "Arrival");
         const feederFixSelect = document.getElementById(elementIDPrefix + "FeederFix");
+        const arrivalSelect = document.getElementById(elementIDPrefix + "Arrival");
         const speedSelect = document.getElementById(elementIDPrefix + "Speed");
         const resultSpan = document.getElementById(elementIDPrefix + "Result");
 
@@ -330,12 +331,12 @@ function CalculateLandingTime(aerodrome) {
         const ffETA = parseInt(ffETAInput.value, 10);
         const selectedAircraft = aircraftSelect.value;
         const selectedRunway = runwaySelect.value;
-        const selectedArrival = arrivalSelect.value;
         const selectedFeederFix = feederFixSelect.value;
+        const selectedArrival = arrivalSelect.value;
         const selectedSpeed = speedSelect.value;
 
         // Calculate landing time
-        let landingTime = flowData[aerodrome][selectedAircraft][selectedRunway][selectedArrival][selectedFeederFix][selectedSpeed] + ffETA;
+        let landingTime = flowData[aerodrome][selectedAircraft][selectedRunway][selectedFeederFix][selectedArrival][selectedSpeed] + ffETA;
         while(landingTime < 0) {
             landingTime += 60;
         }
@@ -362,8 +363,8 @@ function CalculateFeederFixTime(aerodrome) {
         const landingTimeInput = document.getElementById(elementIDPrefix + "LandingTime");
         const aircraftSelect = document.getElementById(elementIDPrefix + "Aircraft");
         const runwaySelect = document.getElementById(elementIDPrefix + "Runway");
-        const arrivalSelect = document.getElementById(elementIDPrefix + "Arrival");
         const feederFixSelect = document.getElementById(elementIDPrefix + "FeederFix");
+        const arrivalSelect = document.getElementById(elementIDPrefix + "Arrival");
         const speedSelect = document.getElementById(elementIDPrefix + "Speed");
         const resultSpan = document.getElementById(elementIDPrefix + "Result");
 
@@ -371,12 +372,12 @@ function CalculateFeederFixTime(aerodrome) {
         const landingTime = parseInt(landingTimeInput.value, 10);
         const selectedAircraft = aircraftSelect.value;
         const selectedRunway = runwaySelect.value;
-        const selectedArrival = arrivalSelect.value;
         const selectedFeederFix = feederFixSelect.value;
+        const selectedArrival = arrivalSelect.value;
         const selectedSpeed = speedSelect.value;
 
         // Calculate feeder fix time
-        let feederFixTime = landingTime - flowData[aerodrome][selectedAircraft][selectedRunway][selectedArrival][selectedFeederFix][selectedSpeed];
+        let feederFixTime = landingTime - flowData[aerodrome][selectedAircraft][selectedRunway][selectedFeederFix][selectedArrival][selectedSpeed];
         while(feederFixTime < 0) {
             feederFixTime += 60;
         }
@@ -401,50 +402,32 @@ function CalculateFeederFixTime(aerodrome) {
 
 
 
-function transformFlowData(originalData) {
+function swapArrivalAndWaypoint(originalData) {
     const output = {};
 
     for (const airport in originalData) {
-        const runways = originalData[airport];
+        const aircraftTypes = originalData[airport];
 
-        for (const runway in runways) {
-            const stars = runways[runway];
+        for (const aircraftType in aircraftTypes) {
+            const runways = aircraftTypes[aircraftType];
 
-            for (const rawStarName in stars) {
-                const entry = stars[rawStarName];
-                const aircraftTypes = entry.aircraft || {};
-                const correction = entry.corrections?.["Reduced Speed"] || 0;
+            for (const runway in runways) {
+                const stars = runways[runway];
 
-                for (const aircraftType in aircraftTypes) {
-                    const baseValue = aircraftTypes[aircraftType];
+                for (const starName in stars) {
+                    const waypoints = stars[starName];
 
-                    if (!output[airport]) output[airport] = {};
-                    if (!output[airport][aircraftType]) output[airport][aircraftType] = {};
-                    if (!output[airport][aircraftType][runway]) output[airport][aircraftType][runway] = {};
+                    for (const waypoint in waypoints) {
+                        const speedData = waypoints[waypoint];
 
-                    // Determine waypoint name
-                    let waypoint;
-                    let cleanedStarName = rawStarName;
+                        // Ensure structure
+                        if (!output[airport]) output[airport] = {};
+                        if (!output[airport][aircraftType]) output[airport][aircraftType] = {};
+                        if (!output[airport][aircraftType][runway]) output[airport][aircraftType][runway] = {};
+                        if (!output[airport][aircraftType][runway][waypoint]) output[airport][aircraftType][runway][waypoint] = {};
 
-                    const parenMatch = rawStarName.match(/\(([^)]+)\)/);
-                    if (parenMatch) {
-                        waypoint = parenMatch[1].split(" ")[0];
-                        // Remove the entire parenthetical part including parentheses
-                        cleanedStarName = rawStarName.replace(/\s*\([^)]+\)/, "").trim();
-                    } else {
-                        const parts = rawStarName.split(" ");
-                        waypoint = parts[0];
+                        output[airport][aircraftType][runway][waypoint][starName] = speedData;
                     }
-
-                    // Ensure the structure exists
-                    if (!output[airport][aircraftType][runway][cleanedStarName]) {
-                        output[airport][aircraftType][runway][cleanedStarName] = {};
-                    }
-
-                    output[airport][aircraftType][runway][cleanedStarName][waypoint] = {
-                        "Normal Speed": baseValue,
-                        "Reduced Speed": baseValue + correction
-                    };
                 }
             }
         }

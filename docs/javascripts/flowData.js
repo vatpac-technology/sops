@@ -10,8 +10,8 @@
         "<aerodrome ICAO>": {
             "<aircraft title>": {
                 "<runway title>": {
-                    "<arrival title>": {
-                        "<feeder fix title>": {
+                    "<feeder fix title>": {
+                        "<arrival title>": {
                             "<speed title>": <feeder fix to runway time in minutes>
                         }
                     }
@@ -27,164 +27,156 @@ export const flowData = {
     "YMML": {
         "Jet & DH8D": {
             "16": {
-                "ARBEY STAR": {
-                    "ARBEY": {
+                "ARBEY": {
+                    "ARBEY STAR": {
                         "Normal Speed": 9,
                         "Reduced Speed": 9
                     }
                 },
-                "BOYSE A STAR": {
-                    "BOYSE": {
+                "BOYSE": {
+                    "BOYSE A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
-                "LIZZI A STAR": {
-                    "LIZZI": {
+                "LIZZI": {
+                    "LIZZI A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
                     }
                 },
-                "WAREN A/V STAR": {
-                    "WAREN": {
+                "WAREN": {
+                    "WAREN A/V STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
-                    }
-                },
-                "WAREN M STAR": {
-                    "WAREN": {
+                    },
+                    "WAREN M STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 12
                     }
                 },
-                "WENDY A STAR": {
-                    "WENDY": {
+                "WENDY": {
+                    "WENDY A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
-                    }
-                },
-                "WENDY P STAR": {
-                    "WENDY": {
+                    },
+                    "WENDY P STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 }
             },
             "27": {
-                "ARBEY STAR": {
-                    "ARBEY": {
+                "ARBEY": {
+                    "ARBEY STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
                     }
                 },
-                "BOYSE A STAR": {
-                    "BOYSE": {
+                "BOYSE": {
+                    "BOYSE A STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 12
                     }
                 },
-                "LIZZI A STAR": {
-                    "LIZZI": {
+                "LIZZI": {
+                    "LIZZI A STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
                     }
                 },
-                "WAREN A/V STAR": {
-                    "WAREN": {
+                "WAREN": {
+                    "WAREN A/V STAR": {
                         "Normal Speed": 9,
                         "Reduced Speed": 9
                     }
                 },
-                "WENDY A STAR": {
-                    "WENDY": {
+                "WENDY": {
+                    "WENDY A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 }
             },
             "34": {
-                "ARBEY STAR": {
-                    "ARBEY": {
+                "ARBEY": {
+                    "ARBEY STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
-                "BOYSE A STAR": {
-                    "BOYSE": {
+                "BOYSE": {
+                    "BOYSE A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
-                    }
-                },
-                "BOYSE V STAR": {
-                    "BOYSE": {
+                    },
+                    "BOYSE V STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
-                "LIZZI A STAR": {
-                    "LIZZI": {
+                "LIZZI": {
+                    "LIZZI A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
-                    }
-                },
-                "LIZZI V STAR": {
-                    "LIZZI": {
+                    },
+                    "LIZZI V STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
                     }
                 },
-                "WAREN A/V STAR": {
-                    "WAREN": {
+                "WAREN": {
+                    "WAREN A/V STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
                     }
                 },
-                "PORTS STAR": {
-                    "PORTS": {
+                "PORTS": {
+                    "PORTS STAR": {
                         "Normal Speed": 7,
                         "Reduced Speed": 7
                     }
                 },
-                "WENDY A STAR": {
-                    "WENDY": {
+                "WENDY": {
+                    "WENDY A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
                     }
                 }
             },
             "09": {
-                "ARBEY STAR": {
-                    "ARBEY": {
+                "ARBEY": {
+                    "ARBEY STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "BOYSE A STAR": {
-                    "BOYSE": {
+                "BOYSE": {
+                    "BOYSE A STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 },
-                "LIZZI A STAR": {
-                    "LIZZI": {
+                "LIZZI": {
+                    "LIZZI A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "WAREN A/V STAR": {
-                    "WAREN": {
+                "WAREN": {
+                    "WAREN A/V STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 },
-                "PORTS STAR": {
-                    "PORTS": {
+                "PORTS": {
+                    "PORTS STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 12
                     }
                 },
-                "WENDY A STAR": {
-                    "WENDY": {
+                "WENDY": {
+                    "WENDY A STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
@@ -193,164 +185,156 @@ export const flowData = {
         },
         "Non-Jet": {
             "16": {
-                "ARBEY STAR": {
-                    "ARBEY": {
+                "ARBEY": {
+                    "ARBEY STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
                     }
                 },
-                "BOYSE A STAR": {
-                    "BOYSE": {
+                "BOYSE": {
+                    "BOYSE A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "LIZZI A STAR": {
-                    "LIZZI": {
+                "LIZZI": {
+                    "LIZZI A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "WAREN A/V STAR": {
-                    "WAREN": {
+                "WAREN": {
+                    "WAREN A/V STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "WAREN M STAR": {
-                    "WAREN": {
+                    },
+                    "WAREN M STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
-                "WENDY A STAR": {
-                    "WENDY": {
+                "WENDY": {
+                    "WENDY A STAR": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
-                    }
-                },
-                "WENDY P STAR": {
-                    "WENDY": {
+                    },
+                    "WENDY P STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 }
             },
             "27": {
-                "ARBEY STAR": {
-                    "ARBEY": {
+                "ARBEY": {
+                    "ARBEY STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "BOYSE A STAR": {
-                    "BOYSE": {
+                "BOYSE": {
+                    "BOYSE A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
-                "LIZZI A STAR": {
-                    "LIZZI": {
+                "LIZZI": {
+                    "LIZZI A STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "WAREN A/V STAR": {
-                    "WAREN": {
+                "WAREN": {
+                    "WAREN A/V STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
                     }
                 },
-                "WENDY A STAR": {
-                    "WENDY": {
+                "WENDY": {
+                    "WENDY A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 }
             },
             "34": {
-                "ARBEY STAR": {
-                    "ARBEY": {
+                "ARBEY": {
+                    "ARBEY STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "BOYSE A STAR": {
-                    "BOYSE": {
+                "BOYSE": {
+                    "BOYSE A STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
-                    }
-                },
-                "BOYSE V STAR": {
-                    "BOYSE": {
+                    },
+                    "BOYSE V STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "LIZZI A STAR": {
-                    "LIZZI": {
+                "LIZZI": {
+                    "LIZZI A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "LIZZI V STAR": {
-                    "LIZZI": {
+                    },
+                    "LIZZI V STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "WAREN A/V STAR": {
-                    "WAREN": {
+                "WAREN": {
+                    "WAREN A/V STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "PORTS STAR": {
-                    "PORTS": {
+                "PORTS": {
+                    "PORTS STAR": {
                         "Normal Speed": 8,
                         "Reduced Speed": 8
                     }
                 },
-                "WENDY A STAR": {
-                    "WENDY": {
+                "WENDY": {
+                    "WENDY A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 }
             },
             "09": {
-                "ARBEY STAR": {
-                    "ARBEY": {
+                "ARBEY": {
+                    "ARBEY STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
-                "BOYSE A STAR": {
-                    "BOYSE": {
+                "BOYSE": {
+                    "BOYSE A STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     }
                 },
-                "LIZZI A STAR": {
-                    "LIZZI": {
+                "LIZZI": {
+                    "LIZZI A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "WAREN A/V STAR": {
-                    "WAREN": {
+                "WAREN": {
+                    "WAREN A/V STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     }
                 },
-                "PORTS STAR": {
-                    "PORTS": {
+                "PORTS": {
+                    "PORTS STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
                     }
                 },
-                "WENDY A STAR": {
-                    "WENDY": {
+                "WENDY": {
+                    "WENDY A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
@@ -361,192 +345,192 @@ export const flowData = {
     "YSSY": {
         "Jet & DH8D": {
             "25": {
-                "BOREE A/P STAR": {
-                    "BOREE": {
+                "BOREE": {
+                    "BOREE A/P STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "MEPIL STAR": {
-                    "YAKKA": {
+                "YAKKA": {
+                    "MEPIL STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "MARLN STAR": {
-                    "MARLN": {
+                "MARLN": {
+                    "MARLN STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
-                "RIVET STAR": {
-                    "RIVET": {
+                "RIVET": {
+                    "RIVET STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 },
-                "ODALE STAR": {
-                    "WELSH": {
+                "WELSH": {
+                    "ODALE STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 }
             },
             "07": {
-                "BOREE A/P STAR": {
-                    "BOREE": {
+                "BOREE": {
+                    "BOREE A/P STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "MEPIL STAR": {
-                    "YAKKA": {
+                "YAKKA": {
+                    "MEPIL STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "MARLN STAR": {
-                    "MARLN": {
+                "MARLN": {
+                    "MARLN STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 },
-                "RIVET STAR": {
-                    "RIVET": {
+                "RIVET": {
+                    "RIVET STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "ODALE STAR": {
-                    "WELSH": {
+                "WELSH": {
+                    "ODALE STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 }
             },
             "16L": {
-                "BOREE A/P STAR": {
-                    "BOREE": {
+                "BOREE": {
+                    "BOREE A/P STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "MEPIL STAR": {
-                    "YAKKA": {
+                "YAKKA": {
+                    "MEPIL STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
-                "MARLN STAR": {
-                    "MARLN": {
+                "MARLN": {
+                    "MARLN STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "RIVET STAR": {
-                    "RIVET": {
+                "RIVET": {
+                    "RIVET STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     }
                 },
-                "ODALE STAR": {
-                    "WELSH": {
+                "WELSH": {
+                    "ODALE STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     }
                 }
             },
             "16R": {
-                "BOREE A/P STAR": {
-                    "BOREE": {
+                "BOREE": {
+                    "BOREE A/P STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "MEPIL STAR": {
-                    "YAKKA": {
+                "YAKKA": {
+                    "MEPIL STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "MARLN STAR": {
-                    "MARLN": {
+                "MARLN": {
+                    "MARLN STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "RIVET STAR": {
-                    "RIVET": {
+                "RIVET": {
+                    "RIVET STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "ODALE STAR": {
-                    "WELSH": {
+                "WELSH": {
+                    "ODALE STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 }
             },
             "34L": {
-                "BOREE A/P STAR": {
-                    "BOREE": {
+                "BOREE": {
+                    "BOREE A/P STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "MEPIL STAR": {
-                    "YAKKA": {
+                "YAKKA": {
+                    "MEPIL STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     }
                 },
-                "MARLN STAR": {
-                    "MARLN": {
+                "MARLN": {
+                    "MARLN STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     }
                 },
-                "RIVET STAR": {
-                    "RIVET": {
+                "RIVET": {
+                    "RIVET STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "ODALE STAR": {
-                    "WELSH": {
+                "WELSH": {
+                    "ODALE STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 }
             },
             "34R": {
-                "BOREE A/P STAR": {
-                    "BOREE": {
+                "BOREE": {
+                    "BOREE A/P STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "MEPIL STAR": {
-                    "YAKKA": {
+                "YAKKA": {
+                    "MEPIL STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     }
                 },
-                "MARLN STAR": {
-                    "MARLN": {
+                "MARLN": {
+                    "MARLN STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "RIVET STAR": {
-                    "RIVET": {
+                "RIVET": {
+                    "RIVET STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     }
                 },
-                "ODALE STAR": {
-                    "WELSH": {
+                "WELSH": {
+                    "ODALE STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     }
@@ -555,192 +539,192 @@ export const flowData = {
         },
         "Non-Jet": {
             "25": {
-                "BOREE A/P STAR": {
-                    "BOREE": {
+                "BOREE": {
+                    "BOREE A/P STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 },
-                "MEPIL STAR": {
-                    "YAKKA": {
+                "YAKKA": {
+                    "MEPIL STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 },
-                "MARLN STAR": {
-                    "MARLN": {
+                "MARLN": {
+                    "MARLN STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 },
-                "RIVET STAR": {
-                    "RIVET": {
+                "RIVET": {
+                    "RIVET STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     }
                 },
-                "ODALE STAR": {
-                    "WELSH": {
+                "WELSH": {
+                    "ODALE STAR": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
                     }
                 }
             },
             "07": {
-                "BOREE A/P STAR": {
-                    "BOREE": {
+                "BOREE": {
+                    "BOREE A/P STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "MEPIL STAR": {
-                    "YAKKA": {
+                "YAKKA": {
+                    "MEPIL STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "MARLN STAR": {
-                    "MARLN": {
+                "MARLN": {
+                    "MARLN STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     }
                 },
-                "RIVET STAR": {
-                    "RIVET": {
+                "RIVET": {
+                    "RIVET STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
-                "ODALE STAR": {
-                    "WELSH": {
+                "WELSH": {
+                    "ODALE STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 }
             },
             "16L": {
-                "BOREE A/P STAR": {
-                    "BOREE": {
+                "BOREE": {
+                    "BOREE A/P STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
-                "MEPIL STAR": {
-                    "YAKKA": {
+                "YAKKA": {
+                    "MEPIL STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 },
-                "MARLN STAR": {
-                    "MARLN": {
+                "MARLN": {
+                    "MARLN STAR": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
                     }
                 },
-                "RIVET STAR": {
-                    "RIVET": {
+                "RIVET": {
+                    "RIVET STAR": {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
                     }
                 },
-                "ODALE STAR": {
-                    "WELSH": {
+                "WELSH": {
+                    "ODALE STAR": {
                         "Normal Speed": 21,
                         "Reduced Speed": 22
                     }
                 }
             },
             "16R": {
-                "BOREE A/P STAR": {
-                    "BOREE": {
+                "BOREE": {
+                    "BOREE A/P STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
-                "MEPIL STAR": {
-                    "YAKKA": {
+                "YAKKA": {
+                    "MEPIL STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 },
-                "MARLN STAR": {
-                    "MARLN": {
+                "MARLN": {
+                    "MARLN STAR": {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
                     }
                 },
-                "RIVET STAR": {
-                    "RIVET": {
+                "RIVET": {
+                    "RIVET STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "ODALE STAR": {
-                    "WELSH": {
+                "WELSH": {
+                    "ODALE STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     }
                 }
             },
             "34L": {
-                "BOREE A/P STAR": {
-                    "BOREE": {
+                "BOREE": {
+                    "BOREE A/P STAR": {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
                     }
                 },
-                "MEPIL STAR": {
-                    "YAKKA": {
+                "YAKKA": {
+                    "MEPIL STAR": {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
                     }
                 },
-                "MARLN STAR": {
-                    "MARLN": {
+                "MARLN": {
+                    "MARLN STAR": {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
                     }
                 },
-                "RIVET STAR": {
-                    "RIVET": {
+                "RIVET": {
+                    "RIVET STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "ODALE STAR": {
-                    "WELSH": {
+                "WELSH": {
+                    "ODALE STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     }
                 }
             },
             "34R": {
-                "BOREE A/P STAR": {
-                    "BOREE": {
+                "BOREE": {
+                    "BOREE A/P STAR": {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
                     }
                 },
-                "MEPIL STAR": {
-                    "YAKKA": {
+                "YAKKA": {
+                    "MEPIL STAR": {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
                     }
                 },
-                "MARLN STAR": {
-                    "MARLN": {
+                "MARLN": {
+                    "MARLN STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "RIVET STAR": {
-                    "RIVET": {
+                "RIVET": {
+                    "RIVET STAR": {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
                     }
                 },
-                "ODALE STAR": {
-                    "WELSH": {
+                "WELSH": {
+                    "ODALE STAR": {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
                     }
@@ -751,76 +735,64 @@ export const flowData = {
     "YSCB": {
         "Jet": {
             "17": {
-                "AVBEG STAR": {
-                    "AVBEG": {
+                "AVBEG": {
+                    "AVBEG STAR": {
                         "Normal Speed": 8,
                         "Reduced Speed": 8
                     }
                 },
-                "LEECE A STAR": {
-                    "LEECE": {
+                "LEECE": {
+                    "LEECE A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
-                    }
-                },
-                "LEECE Y STAR": {
-                    "LEECE": {
+                    },
+                    "LEECE Y STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
-                "MANDA A STAR": {
-                    "MANDA": {
+                "MANDA": {
+                    "MANDA A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
-                    }
-                },
-                "MANDA X STAR": {
-                    "MANDA": {
+                    },
+                    "MANDA X STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 }
             },
             "35": {
-                "AVBEG STAR": {
-                    "AVBEG": {
+                "AVBEG": {
+                    "AVBEG STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 },
-                "LEECE A STAR": {
-                    "LEECE": {
+                "LEECE": {
+                    "LEECE A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "LEECE V STAR": {
-                    "LEECE": {
+                    },
+                    "LEECE V STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "LEECE W STAR": {
-                    "LEECE": {
+                    },
+                    "LEECE W STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
-                    }
-                },
-                "LEECE Y STAR": {
-                    "LEECE": {
+                    },
+                    "LEECE Y STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
-                "POLLI A STAR": {
-                    "POLLI": {
+                "POLLI": {
+                    "POLLI A STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
-                    }
-                },
-                "POLLI X STAR": {
-                    "POLLI": {
+                    },
+                    "POLLI X STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
@@ -829,78 +801,68 @@ export const flowData = {
         },
         "Non-Jet": {
             "17": {
-                "AVBEG STAR": {
-                    "AVBEG": {
+                "AVBEG": {
+                    "AVBEG STAR": {
                         "Normal Speed": 9,
                         "Reduced Speed": 9
                     }
                 },
-                "BUNGO A STAR": {
-                    "BUNGO": {
+                "BUNGO": {
+                    "BUNGO A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 },
-                "MANDA A STAR": {
-                    "MANDA": {
+                "MANDA": {
+                    "MANDA A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
-                    }
-                },
-                "MANDA X STAR": {
-                    "MANDA": {
+                    },
+                    "MANDA X STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 }
             },
             "30": {
-                "BUNGO V STAR": {
-                    "BUNGO": {
+                "BUNGO": {
+                    "BUNGO V STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 }
             },
             "35": {
-                "AVBEG STAR": {
-                    "AVBEG": {
+                "AVBEG": {
+                    "AVBEG STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     }
                 },
-                "BUNGO A STAR": {
-                    "BUNGO": {
+                "BUNGO": {
+                    "BUNGO A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
-                    }
-                },
-                "BUNGO V STAR": {
-                    "BUNGO": {
+                    },
+                    "BUNGO V STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 16
-                    }
-                },
-                "BUNGO W STAR": {
-                    "BUNGO": {
+                    },
+                    "BUNGO W STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
-                    }
-                },
-                "BUNGO Y STAR": {
-                    "BUNGO": {
+                    },
+                    "BUNGO Y STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "POLLI A STAR": {
-                    "POLLI": {
+                "POLLI": {
+                    "POLLI A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
-                    }
-                },
-                "POLLI X STAR": {
-                    "POLLI": {
+                    },
+                    "POLLI X STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
@@ -911,64 +873,52 @@ export const flowData = {
     "YMHB": {
         "Jet & DH8D": {
             "12": {
-                "IPLET A STAR": {
-                    "IPLET": {
+                "IPLET": {
+                    "IPLET A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
-                    }
-                },
-                "IPLET V STAR": {
-                    "IPLET": {
+                    },
+                    "IPLET V STAR": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    },
+                    "IPLET W STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
                     }
                 },
-                "IPLET W STAR": {
-                    "IPLET": {
-                        "Normal Speed": 10,
-                        "Reduced Speed": 10
-                    }
-                },
-                "MORGO A STAR": {
-                    "MORGO": {
+                "MORGO": {
+                    "MORGO A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 }
             },
             "30": {
-                "IPLET A STAR": {
-                    "IPLET": {
+                "IPLET": {
+                    "IPLET A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
-                    }
-                },
-                "IPLET V STAR": {
-                    "IPLET": {
+                    },
+                    "IPLET V STAR": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    },
+                    "IPLET W STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
                     }
                 },
-                "IPLET W STAR": {
-                    "IPLET": {
-                        "Normal Speed": 10,
-                        "Reduced Speed": 10
-                    }
-                },
-                "MORGO A STAR": {
-                    "MORGO": {
+                "MORGO": {
+                    "MORGO A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "MORGO V STAR": {
-                    "MORGO": {
+                    },
+                    "MORGO V STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
-                    }
-                },
-                "MORGO W STAR": {
-                    "MORGO": {
+                    },
+                    "MORGO W STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
@@ -977,64 +927,52 @@ export const flowData = {
         },
         "Non-Jet": {
             "12": {
-                "IPLET A STAR": {
-                    "IPLET": {
+                "IPLET": {
+                    "IPLET A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
-                    }
-                },
-                "IPLET V STAR": {
-                    "IPLET": {
+                    },
+                    "IPLET V STAR": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    },
+                    "IPLET W STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "IPLET W STAR": {
-                    "IPLET": {
-                        "Normal Speed": 11,
-                        "Reduced Speed": 11
-                    }
-                },
-                "MORGO A STAR": {
-                    "MORGO": {
+                "MORGO": {
+                    "MORGO A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 }
             },
             "30": {
-                "IPLET A STAR": {
-                    "IPLET": {
+                "IPLET": {
+                    "IPLET A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
-                    }
-                },
-                "IPLET V STAR": {
-                    "IPLET": {
+                    },
+                    "IPLET V STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
-                    }
-                },
-                "IPLET W STAR": {
-                    "IPLET": {
+                    },
+                    "IPLET W STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
-                "MORGO A STAR": {
-                    "MORGO": {
+                "MORGO": {
+                    "MORGO A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
-                    }
-                },
-                "MORGO V STAR": {
-                    "MORGO": {
+                    },
+                    "MORGO V STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
-                    }
-                },
-                "MORGO W STAR": {
-                    "MORGO": {
+                    },
+                    "MORGO W STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
@@ -1045,40 +983,40 @@ export const flowData = {
     "YMLT": {
         "Jet & DH8D": {
             "14R": {
-                "IRSOM MLTNE": {
-                    "IRSOM": {
+                "IRSOM": {
+                    "IRSOM MLTNE": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "MIMIM MLTNG": {
-                    "MIMIM": {
+                "MIMIM": {
+                    "MIMIM MLTNG": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "LATUM MLTND": {
-                    "LATUM": {
+                "LATUM": {
+                    "LATUM MLTND": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 }
             },
             "32L": {
-                "IRSOM NODAS MLTSC": {
-                    "IRSOM": {
+                "IRSOM": {
+                    "IRSOM NODAS MLTSC": {
                         "Normal Speed": 16,
                         "Reduced Speed": 16
                     }
                 },
-                "MIMIM ELREL MLTSA": {
-                    "MIMIM": {
+                "MIMIM": {
+                    "MIMIM ELREL MLTSA": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
                     }
                 },
-                "LATUM MLTSB": {
-                    "LATUM": {
+                "LATUM": {
+                    "LATUM MLTSB": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
@@ -1087,40 +1025,40 @@ export const flowData = {
         },
         "Non-Jet": {
             "14R": {
-                "IRSOM MLTNE": {
-                    "IRSOM": {
+                "IRSOM": {
+                    "IRSOM MLTNE": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
-                "MIMIM MLTNG": {
-                    "MIMIM": {
+                "MIMIM": {
+                    "MIMIM MLTNG": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "LATUM MLTND": {
-                    "LATUM": {
+                "LATUM": {
+                    "LATUM MLTND": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 }
             },
             "32L": {
-                "IRSOM NODAS MLTSC": {
-                    "IRSOM": {
+                "IRSOM": {
+                    "IRSOM NODAS MLTSC": {
                         "Normal Speed": 18,
                         "Reduced Speed": 18
                     }
                 },
-                "MIMIM ELREL MLTSA": {
-                    "MIMIM": {
+                "MIMIM": {
+                    "MIMIM ELREL MLTSA": {
                         "Normal Speed": 11,
                         "Reduced Speed": 12
                     }
                 },
-                "LATUM MLTSB": {
-                    "LATUM": {
+                "LATUM": {
+                    "LATUM MLTSB": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
@@ -1131,326 +1069,288 @@ export const flowData = {
     "YBBN": {
         "Jet & DH8D": {
             "01L": {
-                "BLAKA A STAR": {
-                    "BLAKA": {
+                "BLAKA": {
+                    "BLAKA A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
-                "ENLIP A STAR": {
-                    "ENLIP": {
+                "ENLIP": {
+                    "ENLIP A STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "GOMOL A STAR": {
-                    "GOMOL": {
+                "GOMOL": {
+                    "GOMOL A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "MORBI A STAR": {
-                    "MORBI": {
+                "MORBI": {
+                    "MORBI A STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
-                    }
-                },
-                "MORBI V STAR": {
-                    "MORBI": {
+                    },
+                    "MORBI V STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
-                "SMOKA A STAR": {
-                    "SMOKA": {
+                "SMOKA": {
+                    "SMOKA A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "SMOKA X STAR": {
-                    "SMOKA": {
+                    },
+                    "SMOKA X STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
-                "TEBOT A STAR": {
-                    "TEBOT": {
+                "TEBOT": {
+                    "TEBOT A STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     }
                 },
-                "UGTUG A STAR": {
-                    "UGTUG": {
+                "UGTUG": {
+                    "UGTUG A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "WOODY A STAR": {
-                    "WOODY": {
+                "WOODY": {
+                    "WOODY A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
-                    }
-                },
-                "WOODY V STAR": {
-                    "WOODY": {
+                    },
+                    "WOODY V STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 }
             },
             "01R": {
-                "BLAKA A STAR": {
-                    "BLAKA": {
+                "BLAKA": {
+                    "BLAKA A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
-                    }
-                },
-                "BLAKA X STAR": {
-                    "BLAKA": {
+                    },
+                    "BLAKA X STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
                     }
                 },
-                "ENLIP A STAR": {
-                    "ENLIP": {
+                "ENLIP": {
+                    "ENLIP A STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "GOMOL A STAR": {
-                    "GOMOL": {
+                "GOMOL": {
+                    "GOMOL A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
-                    }
-                },
-                "GOMOL V STAR": {
-                    "GOMOL": {
+                    },
+                    "GOMOL V STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
-                    }
-                },
-                "GOMOL X STAR": {
-                    "GOMOL": {
+                    },
+                    "GOMOL X STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
                     }
                 },
-                "MORBI A STAR": {
-                    "MORBI": {
+                "MORBI": {
+                    "MORBI A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "SMOKA A STAR": {
-                    "SMOKA": {
+                "SMOKA": {
+                    "SMOKA A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
-                    }
-                },
-                "SMOKA M STAR": {
-                    "SMOKA": {
+                    },
+                    "SMOKA M STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
-                "TEBOT A STAR": {
-                    "TEBOT": {
+                "TEBOT": {
+                    "TEBOT A STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
-                    }
-                },
-                "TEBOT X STAR": {
-                    "TEBOT": {
+                    },
+                    "TEBOT X STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "UGTUG A STAR": {
-                    "UGTUG": {
+                "UGTUG": {
+                    "UGTUG A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "UGTUG X STAR": {
-                    "UGTUG": {
+                    },
+                    "UGTUG X STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
-                "WOODY A STAR": {
-                    "WOODY": {
+                "WOODY": {
+                    "WOODY A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 }
             },
             "19L": {
-                "BLAKA A STAR": {
-                    "BLAKA": {
+                "BLAKA": {
+                    "BLAKA A STAR": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
-                    }
-                },
-                "BLAKA X STAR": {
-                    "BLAKA": {
+                    },
+                    "BLAKA X STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 },
-                "ENLIP A STAR": {
-                    "ENLIP": {
+                "ENLIP": {
+                    "ENLIP A STAR": {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
-                    }
-                },
-                "ENLIP X STAR": {
-                    "ENLIP": {
+                    },
+                    "ENLIP X STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 },
-                "GOMOL A STAR": {
-                    "GOMOL": {
+                "GOMOL": {
+                    "GOMOL A STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
-                    }
-                },
-                "GOMOL V STAR": {
-                    "GOMOL": {
+                    },
+                    "GOMOL V STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "GOMOL X STAR": {
-                    "GOMOL": {
+                    },
+                    "GOMOL X STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 },
-                "MORBI A STAR": {
-                    "MORBI": {
+                "MORBI": {
+                    "MORBI A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
-                "SMOKA A STAR": {
-                    "SMOKA": {
+                "SMOKA": {
+                    "SMOKA A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
-                "TEBOT A STAR": {
-                    "TEBOT": {
+                "TEBOT": {
+                    "TEBOT A STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "UGTUG A STAR": {
-                    "UGTUG": {
+                "UGTUG": {
+                    "UGTUG A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
-                    }
-                },
-                "UGTUG X STAR": {
-                    "UGTUG": {
+                    },
+                    "UGTUG X STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
-                "WOODY A STAR": {
-                    "WOODY": {
+                "WOODY": {
+                    "WOODY A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 }
             },
             "19R": {
-                "BLAKA A STAR": {
-                    "BLAKA": {
+                "BLAKA": {
+                    "BLAKA A STAR": {
                         "Normal Speed": 21,
                         "Reduced Speed": 22
+                    },
+                    "ISPON A STAR": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
                     }
                 },
-                "ENLIP A STAR": {
-                    "ENLIP": {
+                "ENLIP": {
+                    "ENLIP A STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
-                    }
-                },
-                "ENLIP X STAR": {
-                    "ENLIP": {
+                    },
+                    "ENLIP X STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
-                    }
-                },
-                "GOMOL A STAR": {
-                    "GOMOL": {
+                    },
+                    "ISPON A STAR": {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
                     }
                 },
-                "ISPON A STAR": {
-                    "ENLIP": {
+                "GOMOL": {
+                    "GOMOL A STAR": {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
                     },
-                    "BLAKA": {
+                    "ISPON A STAR": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
+                    }
+                },
+                "UGTUG": {
+                    "ISPON A STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
                     },
-                    "GOMOL": {
-                        "Normal Speed": 19,
-                        "Reduced Speed": 20
-                    },
-                    "UGTUG": {
+                    "UGTUG A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "MORBI A STAR": {
-                    "MORBI": {
+                "MORBI": {
+                    "MORBI A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
-                    }
-                },
-                "MORBI V STAR": {
-                    "MORBI": {
+                    },
+                    "MORBI V STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "SMOKA A STAR": {
-                    "SMOKA": {
+                "SMOKA": {
+                    "SMOKA A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
-                    }
-                },
-                "SMOKA X STAR": {
-                    "SMOKA": {
+                    },
+                    "SMOKA X STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "TEBOT A STAR": {
-                    "TEBOT": {
+                "TEBOT": {
+                    "TEBOT A STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "UGTUG A STAR": {
-                    "UGTUG": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    }
-                },
-                "WOODY A STAR": {
-                    "WOODY": {
+                "WOODY": {
+                    "WOODY A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "WOODY V STAR": {
-                    "WOODY": {
+                    },
+                    "WOODY V STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
@@ -1459,326 +1359,288 @@ export const flowData = {
         },
         "Non-Jet": {
             "01L": {
-                "BLAKA A STAR": {
-                    "BLAKA": {
+                "BLAKA": {
+                    "BLAKA A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "ENLIP A STAR": {
-                    "ENLIP": {
+                "ENLIP": {
+                    "ENLIP A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 },
-                "GOMOL A STAR": {
-                    "GOMOL": {
+                "GOMOL": {
+                    "GOMOL A STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 },
-                "MORBI A STAR": {
-                    "MORBI": {
+                "MORBI": {
+                    "MORBI A STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
-                    }
-                },
-                "MORBI V STAR": {
-                    "MORBI": {
+                    },
+                    "MORBI V STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "SMOKA A STAR": {
-                    "SMOKA": {
+                "SMOKA": {
+                    "SMOKA A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
-                    }
-                },
-                "SMOKA X STAR": {
-                    "SMOKA": {
+                    },
+                    "SMOKA X STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "TEBOT A STAR": {
-                    "TEBOT": {
+                "TEBOT": {
+                    "TEBOT A STAR": {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
                     }
                 },
-                "UGTUG A STAR": {
-                    "UGTUG": {
+                "UGTUG": {
+                    "UGTUG A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "WOODY A STAR": {
-                    "WOODY": {
+                "WOODY": {
+                    "WOODY A STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
-                    }
-                },
-                "WOODY V STAR": {
-                    "WOODY": {
+                    },
+                    "WOODY V STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 }
             },
             "01R": {
-                "BLAKA A STAR": {
-                    "BLAKA": {
+                "BLAKA": {
+                    "BLAKA A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "BLAKA X STAR": {
-                    "BLAKA": {
+                    },
+                    "BLAKA X STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "ENLIP A STAR": {
-                    "ENLIP": {
+                "ENLIP": {
+                    "ENLIP A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 },
-                "GOMOL A STAR": {
-                    "GOMOL": {
+                "GOMOL": {
+                    "GOMOL A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "GOMOL V STAR": {
-                    "GOMOL": {
+                    },
+                    "GOMOL V STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "GOMOL X STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "GOMOL X STAR": {
-                    "GOMOL": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    }
-                },
-                "MORBI A STAR": {
-                    "MORBI": {
+                "MORBI": {
+                    "MORBI A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "SMOKA A STAR": {
-                    "SMOKA": {
+                "SMOKA": {
+                    "SMOKA A STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
-                    }
-                },
-                "SMOKA M STAR": {
-                    "SMOKA": {
+                    },
+                    "SMOKA M STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 },
-                "TEBOT A STAR": {
-                    "TEBOT": {
+                "TEBOT": {
+                    "TEBOT A STAR": {
                         "Normal Speed": 21,
                         "Reduced Speed": 22
-                    }
-                },
-                "TEBOT X STAR": {
-                    "TEBOT": {
+                    },
+                    "TEBOT X STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "UGTUG A STAR": {
-                    "UGTUG": {
+                "UGTUG": {
+                    "UGTUG A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
-                    }
-                },
-                "UGTUG X STAR": {
-                    "UGTUG": {
+                    },
+                    "UGTUG X STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "WOODY A STAR": {
-                    "WOODY": {
+                "WOODY": {
+                    "WOODY A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 }
             },
             "19L": {
-                "BLAKA A STAR": {
-                    "BLAKA": {
+                "BLAKA": {
+                    "BLAKA A STAR": {
                         "Normal Speed": 22,
                         "Reduced Speed": 23
-                    }
-                },
-                "BLAKA X STAR": {
-                    "BLAKA": {
+                    },
+                    "BLAKA X STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     }
                 },
-                "ENLIP A STAR": {
-                    "ENLIP": {
+                "ENLIP": {
+                    "ENLIP A STAR": {
                         "Normal Speed": 23,
                         "Reduced Speed": 24
-                    }
-                },
-                "ENLIP X STAR": {
-                    "ENLIP": {
+                    },
+                    "ENLIP X STAR": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
                     }
                 },
-                "GOMOL A STAR": {
-                    "GOMOL": {
+                "GOMOL": {
+                    "GOMOL A STAR": {
                         "Normal Speed": 21,
                         "Reduced Speed": 22
-                    }
-                },
-                "GOMOL V STAR": {
-                    "GOMOL": {
+                    },
+                    "GOMOL V STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
-                    }
-                },
-                "GOMOL X STAR": {
-                    "GOMOL": {
+                    },
+                    "GOMOL X STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     }
                 },
-                "MORBI A STAR": {
-                    "MORBI": {
+                "MORBI": {
+                    "MORBI A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "SMOKA A STAR": {
-                    "SMOKA": {
+                "SMOKA": {
+                    "SMOKA A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "TEBOT A STAR": {
-                    "TEBOT": {
+                "TEBOT": {
+                    "TEBOT A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
-                "UGTUG A STAR": {
-                    "UGTUG": {
+                "UGTUG": {
+                    "UGTUG A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "UGTUG X STAR": {
-                    "UGTUG": {
+                    },
+                    "UGTUG X STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 },
-                "WOODY A STAR": {
-                    "WOODY": {
+                "WOODY": {
+                    "WOODY A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 }
             },
             "19R": {
-                "BLAKA A STAR": {
-                    "BLAKA": {
+                "BLAKA": {
+                    "BLAKA A STAR": {
                         "Normal Speed": 24,
                         "Reduced Speed": 25
-                    }
-                },
-                "ENLIP A STAR": {
-                    "ENLIP": {
-                        "Normal Speed": 20,
-                        "Reduced Speed": 21
-                    }
-                },
-                "ENLIP X STAR": {
-                    "ENLIP": {
-                        "Normal Speed": 18,
-                        "Reduced Speed": 19
-                    }
-                },
-                "GOMOL A STAR": {
-                    "GOMOL": {
-                        "Normal Speed": 23,
-                        "Reduced Speed": 24
-                    }
-                },
-                "ISPON A STAR": {
-                    "ENLIP": {
-                        "Normal Speed": 23,
-                        "Reduced Speed": 24
                     },
-                    "BLAKA": {
+                    "ISPON A STAR": {
                         "Normal Speed": 22,
                         "Reduced Speed": 23
+                    }
+                },
+                "ENLIP": {
+                    "ENLIP A STAR": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
                     },
-                    "GOMOL": {
+                    "ENLIP X STAR": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    },
+                    "ISPON A STAR": {
+                        "Normal Speed": 23,
+                        "Reduced Speed": 24
+                    }
+                },
+                "GOMOL": {
+                    "GOMOL A STAR": {
+                        "Normal Speed": 23,
+                        "Reduced Speed": 24
+                    },
+                    "ISPON A STAR": {
                         "Normal Speed": 21,
                         "Reduced Speed": 22
-                    },
-                    "UGTUG": {
+                    }
+                },
+                "UGTUG": {
+                    "ISPON A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
+                    },
+                    "UGTUG A STAR": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
                     }
                 },
-                "MORBI A STAR": {
-                    "MORBI": {
+                "MORBI": {
+                    "MORBI A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
-                    }
-                },
-                "MORBI V STAR": {
-                    "MORBI": {
+                    },
+                    "MORBI V STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
-                "SMOKA A STAR": {
-                    "SMOKA": {
+                "SMOKA": {
+                    "SMOKA A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "SMOKA X STAR": {
-                    "SMOKA": {
+                    },
+                    "SMOKA X STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 },
-                "TEBOT A STAR": {
-                    "TEBOT": {
+                "TEBOT": {
+                    "TEBOT A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 },
-                "UGTUG A STAR": {
-                    "UGTUG": {
+                "WOODY": {
+                    "WOODY A STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
-                    }
-                },
-                "WOODY A STAR": {
-                    "WOODY": {
-                        "Normal Speed": 16,
-                        "Reduced Speed": 17
-                    }
-                },
-                "WOODY V STAR": {
-                    "WOODY": {
+                    },
+                    "WOODY V STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 14
                     }
@@ -1789,70 +1651,60 @@ export const flowData = {
     "YBCG": {
         "Jet & DH8D": {
             "14": {
-                "BERNI A STAR": {
-                    "BERNI": {
+                "BERNI": {
+                    "BERNI A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "BERNI V STAR": {
-                    "BERNI": {
+                    },
+                    "BERNI V STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "BERNI Y STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "BERNI Y STAR": {
-                    "BERNI": {
+                "LAMSI": {
+                    "LAMSI A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
-                    }
-                },
-                "LAMSI A STAR": {
-                    "LAMSI": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    }
-                },
-                "LAMSI Y STAR": {
-                    "LAMSI": {
+                    },
+                    "LAMSI Y STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
-                "BN Y177 IDRIL CG2NC": {
-                    "BN": {
+                "BN": {
+                    "BN Y177 IDRIL CG2NC": {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
                     }
                 }
             },
             "32": {
-                "BERNI A STAR": {
-                    "BERNI": {
+                "BERNI": {
+                    "BERNI A STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
-                    }
-                },
-                "BERNI V STAR": {
-                    "BERNI": {
+                    },
+                    "BERNI V STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
-                "LAMSI A STAR": {
-                    "LAMSI": {
+                "LAMSI": {
+                    "LAMSI A STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
-                    }
-                },
-                "LAMSI Y STAR": {
-                    "LAMSI": {
+                    },
+                    "LAMSI Y STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
                     }
                 },
-                "BN Y177 IDRIL CG2SA": {
-                    "BN": {
+                "BN": {
+                    "BN Y177 IDRIL CG2SA": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
@@ -1861,70 +1713,60 @@ export const flowData = {
         },
         "Non-Jet": {
             "14": {
-                "BERNI A STAR": {
-                    "BERNI": {
+                "BERNI": {
+                    "BERNI A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
-                    }
-                },
-                "BERNI V STAR": {
-                    "BERNI": {
+                    },
+                    "BERNI V STAR": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    },
+                    "BERNI Y STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 },
-                "BERNI Y STAR": {
-                    "BERNI": {
-                        "Normal Speed": 16,
-                        "Reduced Speed": 17
-                    }
-                },
-                "LAMSI A STAR": {
-                    "LAMSI": {
+                "LAMSI": {
+                    "LAMSI A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "LAMSI Y STAR": {
-                    "LAMSI": {
+                    },
+                    "LAMSI Y STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 14
                     }
                 },
-                "BN Y177 IDRIL CG2NC": {
-                    "BN": {
+                "BN": {
+                    "BN Y177 IDRIL CG2NC": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 }
             },
             "32": {
-                "BERNI A STAR": {
-                    "BERNI": {
+                "BERNI": {
+                    "BERNI A STAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    },
+                    "BERNI V STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 },
-                "BERNI V STAR": {
-                    "BERNI": {
+                "LAMSI": {
+                    "LAMSI A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
-                    }
-                },
-                "LAMSI A STAR": {
-                    "LAMSI": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 13
-                    }
-                },
-                "LAMSI Y STAR": {
-                    "LAMSI": {
+                    },
+                    "LAMSI Y STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
-                "BN Y177 IDRIL CG2SA": {
-                    "BN": {
+                "BN": {
+                    "BN Y177 IDRIL CG2SA": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     }
@@ -1935,70 +1777,64 @@ export const flowData = {
     "YPDN": {
         "Jet & DH8D": {
             "11": {
-                "ANUPA A/X STAR": {
-                    "SUDAG": {
+                "SUDAG": {
+                    "ANUPA A/X STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
-                "GATOR A/X STAR": {
-                    "GATOR": {
+                "GATOR": {
+                    "GATOR A/X STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "VEGPU A/X STAR": {
-                    "VEGPU": {
+                "VEGPU": {
+                    "VEGPU A/X STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
-                    }
-                },
-                "VEGPU W STAR": {
-                    "VEGPU": {
+                    },
+                    "VEGPU W STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "WANGI A/X STAR": {
-                    "WANGI": {
+                "WANGI": {
+                    "WANGI A/X STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "WANGI W STAR": {
-                    "WANGI": {
+                    },
+                    "WANGI W STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 }
             },
             "29": {
-                "ANUPA A/X STAR": {
-                    "SUDAG": {
+                "SUDAG": {
+                    "ANUPA A/X STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     }
                 },
-                "GATOR A/X STAR": {
-                    "GATOR": {
+                "GATOR": {
+                    "GATOR A/X STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
-                "VEGPU A/X STAR": {
-                    "VEGPU": {
+                "VEGPU": {
+                    "VEGPU A/X STAR": {
                         "Normal Speed": 8,
                         "Reduced Speed": 8
                     }
                 },
-                "WANGI A/X STAR": {
-                    "WANGI": {
+                "WANGI": {
+                    "WANGI A/X STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
-                    }
-                },
-                "WANGI W STAR": {
-                    "WANGI": {
+                    },
+                    "WANGI W STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
@@ -2007,70 +1843,64 @@ export const flowData = {
         },
         "Non-Jet": {
             "11": {
-                "ANUPA A/X STAR": {
-                    "SUDAG": {
+                "SUDAG": {
+                    "ANUPA A/X STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 },
-                "GATOR A/X STAR": {
-                    "GATOR": {
+                "GATOR": {
+                    "GATOR A/X STAR": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
                     }
                 },
-                "VEGPU A/X STAR": {
-                    "VEGPU": {
+                "VEGPU": {
+                    "VEGPU A/X STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "VEGPU W STAR": {
-                    "VEGPU": {
+                    },
+                    "VEGPU W STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 },
-                "WANGI A/X STAR": {
-                    "WANGI": {
+                "WANGI": {
+                    "WANGI A/X STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
-                    }
-                },
-                "WANGI W STAR": {
-                    "WANGI": {
+                    },
+                    "WANGI W STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 }
             },
             "29": {
-                "ANUPA A/X STAR": {
-                    "SUDAG": {
+                "SUDAG": {
+                    "ANUPA A/X STAR": {
                         "Normal Speed": 21,
                         "Reduced Speed": 22
                     }
                 },
-                "GATOR A/X STAR": {
-                    "GATOR": {
+                "GATOR": {
+                    "GATOR A/X STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "VEGPU A/X STAR": {
-                    "VEGPU": {
+                "VEGPU": {
+                    "VEGPU A/X STAR": {
                         "Normal Speed": 9,
                         "Reduced Speed": 9
                     }
                 },
-                "WANGI A/X STAR": {
-                    "WANGI": {
+                "WANGI": {
+                    "WANGI A/X STAR": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
-                    }
-                },
-                "WANGI W STAR": {
-                    "WANGI": {
+                    },
+                    "WANGI W STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
@@ -2081,158 +1911,140 @@ export const flowData = {
     "YPPH": {
         "Jet": {
             "21": {
-                "IPMOR A STAR": {
-                    "KAGMI": {
+                "KAGMI": {
+                    "IPMOR A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "JULIM A STAR": {
-                    "JULIM": {
+                "JULIM": {
+                    "JULIM A STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
                     }
                 },
-                "KABLI A STAR": {
-                    "KABLI": {
+                "KABLI": {
+                    "KABLI A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "SOLUS A STAR": {
-                    "SOLUS": {
+                "SOLUS": {
+                    "SOLUS A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 }
             },
             "24": {
-                "IPMOR A STAR": {
-                    "KAGMI": {
+                "KAGMI": {
+                    "IPMOR A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "JULIM A STAR": {
-                    "JULIM": {
+                "JULIM": {
+                    "JULIM A STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
                     }
                 },
-                "KABLI A STAR": {
-                    "KABLI": {
+                "KABLI": {
+                    "KABLI A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "SOLUS A STAR": {
-                    "SOLUS": {
+                "SOLUS": {
+                    "SOLUS A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 }
             },
             "03": {
-                "IPMOR A STAR": {
-                    "KAGMI": {
+                "KAGMI": {
+                    "IPMOR A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "JULIM A STAR": {
-                    "JULIM": {
+                "JULIM": {
+                    "JULIM A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
-                    }
-                },
-                "JULIM V STAR": {
-                    "JULIM": {
+                    },
+                    "JULIM V STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "JULIM X STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "JULIM X STAR": {
-                    "JULIM": {
+                "KABLI": {
+                    "KABLI A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "KABLI A STAR": {
-                    "KABLI": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    }
-                },
-                "KABLI V STAR": {
-                    "KABLI": {
+                    },
+                    "KABLI V STAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    },
+                    "KABLI X STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
-                "KABLI X STAR": {
-                    "KABLI": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 14
-                    }
-                },
-                "SOLUS A STAR": {
-                    "SOLUS": {
+                "SOLUS": {
+                    "SOLUS A STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
-                    }
-                },
-                "SOLUS V STAR": {
-                    "SOLUS": {
+                    },
+                    "SOLUS V STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
-                    }
-                },
-                "SOLUS X STAR": {
-                    "SOLUS": {
+                    },
+                    "SOLUS X STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
                     }
                 }
             },
             "06": {
-                "IPMOR A STAR": {
-                    "KAGMI": {
+                "KAGMI": {
+                    "IPMOR A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "JULIM A STAR": {
-                    "JULIM": {
+                "JULIM": {
+                    "JULIM A STAR": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
-                    }
-                },
-                "JULIM V STAR": {
-                    "JULIM": {
+                    },
+                    "JULIM V STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 },
-                "KABLI A STAR": {
-                    "KABLI": {
+                "KABLI": {
+                    "KABLI A STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
-                    }
-                },
-                "KABLI V STAR": {
-                    "KABLI": {
+                    },
+                    "KABLI V STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "SOLUS A STAR": {
-                    "SOLUS": {
+                "SOLUS": {
+                    "SOLUS A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
-                    }
-                },
-                "SOLUS V STAR": {
-                    "SOLUS": {
+                    },
+                    "SOLUS V STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
@@ -2241,188 +2053,164 @@ export const flowData = {
         },
         "DH8D": {
             "21": {
-                "IPMOR A STAR": {
-                    "KAGMI": {
+                "KAGMI": {
+                    "IPMOR A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "LAVEX A STAR": {
-                    "LAVEX": {
+                "LAVEX": {
+                    "LAVEX A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "SAPKO A STAR": {
-                    "SAPKO": {
+                "SAPKO": {
+                    "SAPKO A STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
                     }
                 },
-                "SOLUS A STAR": {
-                    "SOLUS": {
+                "SOLUS": {
+                    "SOLUS A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 }
             },
             "24": {
-                "IPMOR A STAR": {
-                    "KAGMI": {
+                "KAGMI": {
+                    "IPMOR A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "LAVEX A STAR": {
-                    "LAVEX": {
+                "LAVEX": {
+                    "LAVEX A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
-                "SAPKO A STAR": {
-                    "SAPKO": {
+                "SAPKO": {
+                    "SAPKO A STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
                     }
                 },
-                "SOLUS A STAR": {
-                    "SOLUS": {
+                "SOLUS": {
+                    "SOLUS A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 }
             },
             "03": {
-                "DAYLR A STAR": {
-                    "DAYLR": {
+                "DAYLR": {
+                    "DAYLR A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
-                    }
-                },
-                "DAYLR V STAR": {
-                    "DAYLR": {
+                    },
+                    "DAYLR V STAR": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    },
+                    "DAYLR X STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
                     }
                 },
-                "DAYLR X STAR": {
-                    "DAYLR": {
-                        "Normal Speed": 10,
-                        "Reduced Speed": 10
-                    }
-                },
-                "IPMOR A STAR": {
-                    "KAGMI": {
+                "KAGMI": {
+                    "IPMOR A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "LAVEX A STAR": {
-                    "LAVEX": {
+                "LAVEX": {
+                    "LAVEX A STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
-                    }
-                },
-                "LAVEX V STAR": {
-                    "LAVEX": {
+                    },
+                    "LAVEX V STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
-                    }
-                },
-                "LAVEX X STAR": {
-                    "LAVEX": {
+                    },
+                    "LAVEX X STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
-                "SAPKO A STAR": {
-                    "SAPKO": {
+                "SAPKO": {
+                    "SAPKO A STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
-                    }
-                },
-                "SAPKO V STAR": {
-                    "SAPKO": {
+                    },
+                    "SAPKO V STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "SAPKO X STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "SAPKO X STAR": {
-                    "SAPKO": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    }
-                },
-                "SOLUS A STAR": {
-                    "SOLUS": {
+                "SOLUS": {
+                    "SOLUS A STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
-                    }
-                },
-                "SOLUS V STAR": {
-                    "SOLUS": {
+                    },
+                    "SOLUS V STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
-                    }
-                },
-                "SOLUS X STAR": {
-                    "SOLUS": {
+                    },
+                    "SOLUS X STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
                     }
                 }
             },
             "06": {
-                "DAYLR A STAR": {
-                    "DAYLR": {
+                "DAYLR": {
+                    "DAYLR A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
-                    }
-                },
-                "DAYLR V STAR": {
-                    "DAYLR": {
+                    },
+                    "DAYLR V STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "IPMOR A STAR": {
-                    "KAGMI": {
+                "KAGMI": {
+                    "IPMOR A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "LAVEX A STAR": {
-                    "LAVEX": {
+                "LAVEX": {
+                    "LAVEX A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
-                    }
-                },
-                "LAVEX V STAR": {
-                    "LAVEX": {
+                    },
+                    "LAVEX V STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "SAPKO A STAR": {
-                    "SAPKO": {
+                "SAPKO": {
+                    "SAPKO A STAR": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
-                    }
-                },
-                "SAPKO V STAR": {
-                    "SAPKO": {
+                    },
+                    "SAPKO V STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 },
-                "SOLUS A STAR": {
-                    "SOLUS": {
+                "SOLUS": {
+                    "SOLUS A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
-                    }
-                },
-                "SOLUS V STAR": {
-                    "SOLUS": {
+                    },
+                    "SOLUS V STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
@@ -2431,188 +2219,164 @@ export const flowData = {
         },
         "Non-Jet": {
             "21": {
-                "IPMOR A STAR": {
-                    "KAGMI": {
+                "KAGMI": {
+                    "IPMOR A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "LAVEX A STAR": {
-                    "LAVEX": {
+                "LAVEX": {
+                    "LAVEX A STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 },
-                "SAPKO A STAR": {
-                    "SAPKO": {
+                "SAPKO": {
+                    "SAPKO A STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "SOLUS A STAR": {
-                    "SOLUS": {
+                "SOLUS": {
+                    "SOLUS A STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 }
             },
             "24": {
-                "IPMOR A STAR": {
-                    "KAGMI": {
+                "KAGMI": {
+                    "IPMOR A STAR": {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
                     }
                 },
-                "LAVEX A STAR": {
-                    "LAVEX": {
+                "LAVEX": {
+                    "LAVEX A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "SAPKO A STAR": {
-                    "SAPKO": {
+                "SAPKO": {
+                    "SAPKO A STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "SOLUS A STAR": {
-                    "SOLUS": {
+                "SOLUS": {
+                    "SOLUS A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 14
                     }
                 }
             },
             "03": {
-                "DAYLR A STAR": {
-                    "DAYLR": {
+                "DAYLR": {
+                    "DAYLR A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
-                    }
-                },
-                "DAYLR V STAR": {
-                    "DAYLR": {
+                    },
+                    "DAYLR V STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
-                    }
-                },
-                "DAYLR X STAR": {
-                    "DAYLR": {
+                    },
+                    "DAYLR X STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "IPMOR A STAR": {
-                    "KAGMI": {
+                "KAGMI": {
+                    "IPMOR A STAR": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
                     }
                 },
-                "LAVEX A STAR": {
-                    "LAVEX": {
+                "LAVEX": {
+                    "LAVEX A STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
-                    }
-                },
-                "LAVEX V STAR": {
-                    "LAVEX": {
+                    },
+                    "LAVEX V STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "LAVEX X STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "LAVEX X STAR": {
-                    "LAVEX": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    }
-                },
-                "SAPKO A STAR": {
-                    "SAPKO": {
+                "SAPKO": {
+                    "SAPKO A STAR": {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
-                    }
-                },
-                "SAPKO V STAR": {
-                    "SAPKO": {
+                    },
+                    "SAPKO V STAR": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    },
+                    "SAPKO X STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "SAPKO X STAR": {
-                    "SAPKO": {
-                        "Normal Speed": 17,
-                        "Reduced Speed": 18
-                    }
-                },
-                "SOLUS A STAR": {
-                    "SOLUS": {
+                "SOLUS": {
+                    "SOLUS A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
-                    }
-                },
-                "SOLUS V STAR": {
-                    "SOLUS": {
+                    },
+                    "SOLUS V STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
-                    }
-                },
-                "SOLUS X STAR": {
-                    "SOLUS": {
+                    },
+                    "SOLUS X STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 }
             },
             "06": {
-                "DAYLR A STAR": {
-                    "DAYLR": {
+                "DAYLR": {
+                    "DAYLR A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "DAYLR V STAR": {
-                    "DAYLR": {
+                    },
+                    "DAYLR V STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 },
-                "IPMOR A STAR": {
-                    "KAGMI": {
+                "KAGMI": {
+                    "IPMOR A STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 },
-                "LAVEX A STAR": {
-                    "LAVEX": {
+                "LAVEX": {
+                    "LAVEX A STAR": {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
-                    }
-                },
-                "LAVEX V STAR": {
-                    "LAVEX": {
+                    },
+                    "LAVEX V STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 },
-                "SAPKO A STAR": {
-                    "SAPKO": {
+                "SAPKO": {
+                    "SAPKO A STAR": {
                         "Normal Speed": 22,
                         "Reduced Speed": 23
-                    }
-                },
-                "SAPKO V STAR": {
-                    "SAPKO": {
+                    },
+                    "SAPKO V STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     }
                 },
-                "SOLUS A STAR": {
-                    "SOLUS": {
+                "SOLUS": {
+                    "SOLUS A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
-                    }
-                },
-                "SOLUS V STAR": {
-                    "SOLUS": {
+                    },
+                    "SOLUS V STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
@@ -2623,440 +2387,468 @@ export const flowData = {
     "YBCS": {
         "Jet & DH8D": {
             "15": {
-                "CODIE A STAR": {
-                    "ANDOP": {
+                "ANDOP": {
+                    "CODIE A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     },
-                    "AVDAN": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 13
-                    },
-                    "LOCKA": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 14
-                    },
-                    "OVLET": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 14
-                    },
-                    "PUNIT": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    },
-                    "ZANEY": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
+                    "KASPI B/V STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
                     }
                 },
-                "KASPI B/V STAR": {
-                    "ANDOP": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    },
-                    "AVDAN": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 14
-                    },
-                    "LOCKA": {
+                "AVDAN": {
+                    "CODIE A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
                     },
-                    "OVLET": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
+                    "KASPI B/V STAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "LOCKA": {
+                    "CODIE A STAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
                     },
-                    "PUNIT": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    },
-                    "ZANEY": {
+                    "KASPI B/V STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
                     }
                 },
-                "NONUM A STAR": {
-                    "MUSEY": {
+                "OVLET": {
+                    "CODIE A STAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    },
+                    "KASPI B/V STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "PUNIT": {
+                    "CODIE A STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "KASPI B/V STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "ZANEY": {
+                    "CODIE A STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "KASPI B/V STAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
+                },
+                "MUSEY": {
+                    "NONUM A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     },
-                    "NORMA": {
+                    "NONUM V STAR": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    },
+                    "NONUM W STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "NORMA": {
+                    "NONUM A STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     },
-                    "NONUM": {
-                        "Normal Speed": 9,
-                        "Reduced Speed": 9
-                    }
-                },
-                "NONUM V STAR": {
-                    "MUSEY": {
-                        "Normal Speed": 17,
-                        "Reduced Speed": 18
-                    },
-                    "NORMA": {
+                    "NONUM V STAR": {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
                     },
-                    "NONUM": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 12
-                    }
-                },
-                "NONUM W STAR": {
-                    "MUSEY": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    },
-                    "NORMA": {
+                    "NONUM W STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
+                    }
+                },
+                "NONUM": {
+                    "NONUM A STAR": {
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
                     },
-                    "NONUM": {
+                    "NONUM V STAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    },
+                    "NONUM W STAR": {
                         "Normal Speed": 9,
                         "Reduced Speed": 9
                     }
                 },
-                "UPOLO A STAR": {
-                    "BARIA": {
+                "BARIA": {
+                    "UPOLO A STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
-                    }
-                },
-                "UPOLO V STAR": {
-                    "BARIA": {
+                    },
+                    "UPOLO V STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "UPOLO W STAR": {
-                    "BARIA": {
+                    },
+                    "UPOLO W STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 }
             },
             "33": {
-                "HENDO A STAR": {
-                    "ANDOP": {
+                "ANDOP": {
+                    "HENDO A STAR": {
                         "Normal Speed": 21,
                         "Reduced Speed": 22
                     },
-                    "BARIA": {
+                    "TOTTY W STAR": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    }
+                },
+                "BARIA": {
+                    "HENDO A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
-                    },
-                    "ISNER": {
+                    }
+                },
+                "ISNER": {
+                    "HENDO A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
                     },
-                    "NORMA": {
+                    "TOTTY W STAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "NORMA": {
+                    "HENDO A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     },
-                    "OVLET": {
+                    "TOTTY W STAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "OVLET": {
+                    "HENDO A STAR": {
                         "Normal Speed": 22,
                         "Reduced Speed": 23
                     },
-                    "PUNIT": {
+                    "KEEWI V STAR": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    },
+                    "KEEWI X STAR": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    }
+                },
+                "PUNIT": {
+                    "HENDO A STAR": {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
                     },
-                    "VEKBI": {
-                        "Normal Speed": 24,
-                        "Reduced Speed": 25
+                    "TOTTY W STAR": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
                     }
                 },
-                "KEEWI A STAR": {
-                    "AVDAN": {
+                "VEKBI": {
+                    "HENDO A STAR": {
+                        "Normal Speed": 24,
+                        "Reduced Speed": 25
+                    },
+                    "TOTTY W STAR": {
+                        "Normal Speed": 22,
+                        "Reduced Speed": 23
+                    }
+                },
+                "AVDAN": {
+                    "KEEWI A STAR": {
                         "Normal Speed": 23,
                         "Reduced Speed": 24
                     },
-                    "LOCKA": {
-                        "Normal Speed": 22,
-                        "Reduced Speed": 23
-                    },
-                    "ZANEY": {
-                        "Normal Speed": 22,
-                        "Reduced Speed": 23
-                    }
-                },
-                "KEEWI V STAR": {
-                    "AVDAN": {
+                    "KEEWI V STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     },
-                    "LOCKA": {
+                    "KEEWI X STAR": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                },
+                "LOCKA": {
+                    "KEEWI A STAR": {
+                        "Normal Speed": 22,
+                        "Reduced Speed": 23
+                    },
+                    "KEEWI V STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     },
-                    "OVLET": {
-                        "Normal Speed": 16,
-                        "Reduced Speed": 17
-                    },
-                    "ZANEY": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    }
-                },
-                "KEEWI X STAR": {
-                    "AVDAN": {
-                        "Normal Speed": 18,
-                        "Reduced Speed": 19
-                    },
-                    "LOCKA": {
-                        "Normal Speed": 17,
-                        "Reduced Speed": 18
-                    },
-                    "OVLET": {
-                        "Normal Speed": 19,
-                        "Reduced Speed": 20
-                    },
-                    "ZANEY": {
+                    "KEEWI X STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "TOTTY W STAR": {
-                    "ANDOP": {
-                        "Normal Speed": 19,
-                        "Reduced Speed": 20
-                    },
-                    "ISNER": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 14
-                    },
-                    "NORMA": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 14
-                    },
-                    "PUNIT": {
-                        "Normal Speed": 19,
-                        "Reduced Speed": 20
-                    },
-                    "VEKBI": {
+                "ZANEY": {
+                    "KEEWI A STAR": {
                         "Normal Speed": 22,
                         "Reduced Speed": 23
+                    },
+                    "KEEWI V STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "KEEWI X STAR": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
                     }
                 }
             }
         },
         "Non-Jet": {
             "15": {
-                "CODIE A STAR": {
-                    "ANDOP": {
+                "ANDOP": {
+                    "CODIE A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     },
-                    "AVDAN": {
+                    "KASPI B/V STAR": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "AVDAN": {
+                    "CODIE A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     },
-                    "LOCKA": {
+                    "KASPI B/V STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "LOCKA": {
+                    "CODIE A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     },
-                    "OVLET": {
+                    "KASPI B/V STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "OVLET": {
+                    "CODIE A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     },
-                    "PUNIT": {
+                    "KASPI B/V STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "PUNIT": {
+                    "CODIE A STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     },
-                    "ZANEY": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
+                    "KASPI B/V STAR": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
                     }
                 },
-                "KASPI B/V STAR": {
-                    "ANDOP": {
-                        "Normal Speed": 17,
-                        "Reduced Speed": 18
-                    },
-                    "AVDAN": {
+                "ZANEY": {
+                    "CODIE A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     },
-                    "LOCKA": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    },
-                    "OVLET": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    },
-                    "PUNIT": {
-                        "Normal Speed": 17,
-                        "Reduced Speed": 18
-                    },
-                    "ZANEY": {
+                    "KASPI B/V STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "NONUM A STAR": {
-                    "MUSEY": {
+                "MUSEY": {
+                    "NONUM A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     },
-                    "NORMA": {
+                    "NONUM V STAR": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    },
+                    "NONUM W STAR": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "NORMA": {
+                    "NONUM A STAR": {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
                     },
-                    "NONUM": {
-                        "Normal Speed": 11,
-                        "Reduced Speed": 11
-                    }
-                },
-                "NONUM V STAR": {
-                    "MUSEY": {
-                        "Normal Speed": 19,
-                        "Reduced Speed": 20
-                    },
-                    "NORMA": {
+                    "NONUM V STAR": {
                         "Normal Speed": 23,
                         "Reduced Speed": 24
                     },
-                    "NONUM": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 13
-                    }
-                },
-                "NONUM W STAR": {
-                    "MUSEY": {
-                        "Normal Speed": 16,
-                        "Reduced Speed": 17
-                    },
-                    "NORMA": {
+                    "NONUM W STAR": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
+                    }
+                },
+                "NONUM": {
+                    "NONUM A STAR": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
                     },
-                    "NONUM": {
+                    "NONUM V STAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    },
+                    "NONUM W STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
                     }
                 },
-                "UPOLO A STAR": {
-                    "BARIA": {
+                "BARIA": {
+                    "UPOLO A STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
-                    }
-                },
-                "UPOLO V STAR": {
-                    "BARIA": {
+                    },
+                    "UPOLO V STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
-                    }
-                },
-                "UPOLO W STAR": {
-                    "BARIA": {
+                    },
+                    "UPOLO W STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 }
             },
             "33": {
-                "HENDO A STAR": {
-                    "ANDOP": {
+                "ANDOP": {
+                    "HENDO A STAR": {
                         "Normal Speed": 24,
                         "Reduced Speed": 25
                     },
-                    "BARIA": {
+                    "TOTTY W STAR": {
+                        "Normal Speed": 22,
+                        "Reduced Speed": 23
+                    }
+                },
+                "BARIA": {
+                    "HENDO A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 14
-                    },
-                    "ISNER": {
+                    }
+                },
+                "ISNER": {
+                    "HENDO A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     },
-                    "NORMA": {
+                    "TOTTY W STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "NORMA": {
+                    "HENDO A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     },
-                    "OVLET": {
+                    "TOTTY W STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "OVLET": {
+                    "HENDO A STAR": {
                         "Normal Speed": 25,
                         "Reduced Speed": 26
                     },
-                    "PUNIT": {
+                    "KEEWI V STAR": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    },
+                    "KEEWI X STAR": {
+                        "Normal Speed": 21,
+                        "Reduced Speed": 22
+                    }
+                },
+                "PUNIT": {
+                    "HENDO A STAR": {
                         "Normal Speed": 23,
                         "Reduced Speed": 24
                     },
-                    "VEKBI": {
-                        "Normal Speed": 27,
-                        "Reduced Speed": 28
+                    "TOTTY W STAR": {
+                        "Normal Speed": 21,
+                        "Reduced Speed": 22
                     }
                 },
-                "KEEWI A STAR": {
-                    "AVDAN": {
-                        "Normal Speed": 26,
-                        "Reduced Speed": 27
+                "VEKBI": {
+                    "HENDO A STAR": {
+                        "Normal Speed": 27,
+                        "Reduced Speed": 28
                     },
-                    "LOCKA": {
-                        "Normal Speed": 26,
-                        "Reduced Speed": 27
-                    },
-                    "ZANEY": {
+                    "TOTTY W STAR": {
                         "Normal Speed": 25,
                         "Reduced Speed": 26
                     }
                 },
-                "KEEWI V STAR": {
-                    "AVDAN": {
+                "AVDAN": {
+                    "KEEWI A STAR": {
+                        "Normal Speed": 26,
+                        "Reduced Speed": 27
+                    },
+                    "KEEWI V STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     },
-                    "LOCKA": {
+                    "KEEWI X STAR": {
+                        "Normal Speed": 21,
+                        "Reduced Speed": 22
+                    }
+                },
+                "LOCKA": {
+                    "KEEWI A STAR": {
+                        "Normal Speed": 26,
+                        "Reduced Speed": 27
+                    },
+                    "KEEWI V STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     },
-                    "OVLET": {
-                        "Normal Speed": 18,
-                        "Reduced Speed": 19
-                    },
-                    "ZANEY": {
-                        "Normal Speed": 16,
-                        "Reduced Speed": 17
-                    }
-                },
-                "KEEWI X STAR": {
-                    "AVDAN": {
-                        "Normal Speed": 21,
-                        "Reduced Speed": 22
-                    },
-                    "LOCKA": {
+                    "KEEWI X STAR": {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
-                    },
-                    "OVLET": {
-                        "Normal Speed": 21,
-                        "Reduced Speed": 22
-                    },
-                    "ZANEY": {
-                        "Normal Speed": 19,
-                        "Reduced Speed": 20
                     }
                 },
-                "TOTTY W STAR": {
-                    "ANDOP": {
-                        "Normal Speed": 22,
-                        "Reduced Speed": 23
-                    },
-                    "ISNER": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    },
-                    "NORMA": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    },
-                    "PUNIT": {
-                        "Normal Speed": 21,
-                        "Reduced Speed": 22
-                    },
-                    "VEKBI": {
+                "ZANEY": {
+                    "KEEWI A STAR": {
                         "Normal Speed": 25,
                         "Reduced Speed": 26
+                    },
+                    "KEEWI V STAR": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    },
+                    "KEEWI X STAR": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
                     }
                 }
             }
@@ -3065,82 +2857,70 @@ export const flowData = {
     "YBTL": {
         "Jet & DH8D": {
             "19": {
-                "IBUXI Z STAR": {
-                    "IBUXI": {
+                "IBUXI": {
+                    "IBUXI Z STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "POROB B STAR": {
-                    "POROB": {
+                "POROB": {
+                    "POROB B STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
-                    }
-                },
-                "POROB P STAR": {
-                    "POROB": {
+                    },
+                    "POROB P STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
-                    }
-                },
-                "POROB Z STAR": {
-                    "POROB": {
+                    },
+                    "POROB Z STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
-                "VOMPA B STAR": {
-                    "VOMPA": {
+                "VOMPA": {
+                    "VOMPA B STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "VOMPA P STAR": {
-                    "VOMPA": {
+                    },
+                    "VOMPA P STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
-                    }
-                },
-                "VOMPA Z STAR": {
-                    "VOMPA": {
+                    },
+                    "VOMPA Z STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 }
             },
             "01": {
-                "IBUXI A STAR": {
-                    "IBUXI": {
+                "IBUXI": {
+                    "IBUXI A STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 },
-                "IGIKI A STAR": {
-                    "36 DME TL": {
+                "36 DME TL": {
+                    "IGIKI A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "POROB A STAR": {
-                    "POROB": {
+                "POROB": {
+                    "POROB A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
-                    }
-                },
-                "POROB P STAR": {
-                    "POROB": {
+                    },
+                    "POROB P STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "VOMPA A STAR": {
-                    "VOMPA": {
+                "VOMPA": {
+                    "VOMPA A STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
-                    }
-                },
-                "VOMPA P STAR": {
-                    "VOMPA": {
+                    },
+                    "VOMPA P STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
                     }
@@ -3149,82 +2929,70 @@ export const flowData = {
         },
         "Non-Jet": {
             "19": {
-                "IBUXI Z STAR": {
-                    "IBUXI": {
+                "IBUXI": {
+                    "IBUXI Z STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
-                "POROB B STAR": {
-                    "POROB": {
+                "POROB": {
+                    "POROB B STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "POROB P STAR": {
-                    "POROB": {
+                    },
+                    "POROB P STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
-                    }
-                },
-                "POROB Z STAR": {
-                    "POROB": {
+                    },
+                    "POROB Z STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "VOMPA B STAR": {
-                    "VOMPA": {
+                "VOMPA": {
+                    "VOMPA B STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
-                    }
-                },
-                "VOMPA P STAR": {
-                    "VOMPA": {
+                    },
+                    "VOMPA P STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "VOMPA Z STAR": {
-                    "VOMPA": {
+                    },
+                    "VOMPA Z STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 }
             },
             "01": {
-                "IBUXI A STAR": {
-                    "IBUXI": {
+                "IBUXI": {
+                    "IBUXI A STAR": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
                     }
                 },
-                "IGIKI A STAR": {
-                    "36 DME TL": {
+                "36 DME TL": {
+                    "IGIKI A STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 },
-                "POROB A STAR": {
-                    "POROB": {
+                "POROB": {
+                    "POROB A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
-                    }
-                },
-                "POROB P STAR": {
-                    "POROB": {
+                    },
+                    "POROB P STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
-                "VOMPA A STAR": {
-                    "VOMPA": {
+                "VOMPA": {
+                    "VOMPA A STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
-                    }
-                },
-                "VOMPA P STAR": {
-                    "VOMPA": {
+                    },
+                    "VOMPA P STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
@@ -3235,230 +3003,202 @@ export const flowData = {
     "YWLM": {
         "Jet & DH8D": {
             "12": {
-                "ASUVA STAR": {
-                    "ASUVA": {
+                "ASUVA": {
+                    "ASUVA STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "EKIPU STAR": {
-                    "EKIPU": {
+                "EKIPU": {
+                    "EKIPU STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
-                "LAXUM A STAR": {
-                    "LAXUM": {
+                "LAXUM": {
+                    "LAXUM A STAR": {
                         "Normal Speed": 9,
                         "Reduced Speed": 9
-                    }
-                },
-                "LAXUM B STAR": {
-                    "LAXUM": {
+                    },
+                    "LAXUM B STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
-                    }
-                },
-                "LAXUM R STAR": {
-                    "LAXUM": {
+                    },
+                    "LAXUM R STAR": {
+                        "Normal Speed": 8,
+                        "Reduced Speed": 8
+                    },
+                    "LAXUM V STAR": {
                         "Normal Speed": 8,
                         "Reduced Speed": 8
                     }
                 },
-                "LAXUM V STAR": {
-                    "LAXUM": {
-                        "Normal Speed": 8,
-                        "Reduced Speed": 8
-                    }
-                },
-                "OVLUX STAR": {
-                    "OVLUX": {
+                "OVLUX": {
+                    "OVLUX STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "PUDUT STAR": {
-                    "PUDUT": {
+                "PUDUT": {
+                    "PUDUT STAR": {
                         "Normal Speed": 9,
                         "Reduced Speed": 9
                     }
                 }
             },
             "30": {
-                "ASUVA STAR": {
-                    "ASUVA": {
+                "ASUVA": {
+                    "ASUVA STAR": {
                         "Normal Speed": 7,
                         "Reduced Speed": 7
                     }
                 },
-                "EKIPU STAR": {
-                    "EKIPU": {
+                "EKIPU": {
+                    "EKIPU STAR": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    },
+                    "IVTAG R/V STAR": {
+                        "Normal Speed": 8,
+                        "Reduced Speed": 8
+                    }
+                },
+                "OVLUX": {
+                    "IVTAG R/V STAR": {
+                        "Normal Speed": 8,
+                        "Reduced Speed": 8
+                    },
+                    "OVLUX STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "IVTAG R/V STAR": {
-                    "EKIPU": {
-                        "Normal Speed": 8,
-                        "Reduced Speed": 8
-                    },
-                    "OVLUX": {
-                        "Normal Speed": 8,
-                        "Reduced Speed": 8
-                    },
-                    "PUDUT": {
+                "PUDUT": {
+                    "IVTAG R/V STAR": {
                         "Normal Speed": 9,
                         "Reduced Speed": 9
-                    }
-                },
-                "LAXUM A STAR": {
-                    "LAXUM": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    }
-                },
-                "LAXUM B STAR": {
-                    "LAXUM": {
-                        "Normal Speed": 18,
-                        "Reduced Speed": 19
-                    }
-                },
-                "LAXUM R STAR": {
-                    "LAXUM": {
-                        "Normal Speed": 11,
-                        "Reduced Speed": 11
-                    }
-                },
-                "LAXUM V STAR": {
-                    "LAXUM": {
-                        "Normal Speed": 11,
-                        "Reduced Speed": 11
-                    }
-                },
-                "OVLUX STAR": {
-                    "OVLUX": {
-                        "Normal Speed": 11,
-                        "Reduced Speed": 11
-                    }
-                },
-                "PUDUT STAR": {
-                    "PUDUT": {
+                    },
+                    "PUDUT STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
+                    }
+                },
+                "LAXUM": {
+                    "LAXUM A STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "LAXUM B STAR": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    },
+                    "LAXUM R STAR": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    },
+                    "LAXUM V STAR": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
                     }
                 }
             }
         },
         "Non-Jet": {
             "12": {
-                "ASUVA STAR": {
-                    "ASUVA": {
+                "ASUVA": {
+                    "ASUVA STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "EKIPU STAR": {
-                    "EKIPU": {
+                "EKIPU": {
+                    "EKIPU STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 },
-                "LAXUM A STAR": {
-                    "LAXUM": {
+                "LAXUM": {
+                    "LAXUM A STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
-                    }
-                },
-                "LAXUM B STAR": {
-                    "LAXUM": {
+                    },
+                    "LAXUM B STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
-                    }
-                },
-                "LAXUM R STAR": {
-                    "LAXUM": {
+                    },
+                    "LAXUM R STAR": {
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
+                    },
+                    "LAXUM V STAR": {
                         "Normal Speed": 9,
                         "Reduced Speed": 9
                     }
                 },
-                "LAXUM V STAR": {
-                    "LAXUM": {
-                        "Normal Speed": 9,
-                        "Reduced Speed": 9
-                    }
-                },
-                "OVLUX STAR": {
-                    "OVLUX": {
+                "OVLUX": {
+                    "OVLUX STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 },
-                "PUDUT STAR": {
-                    "PUDUT": {
+                "PUDUT": {
+                    "PUDUT STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
                     }
                 }
             },
             "30": {
-                "ASUVA STAR": {
-                    "ASUVA": {
+                "ASUVA": {
+                    "ASUVA STAR": {
                         "Normal Speed": 8,
                         "Reduced Speed": 8
                     }
                 },
-                "EKIPU STAR": {
-                    "EKIPU": {
+                "EKIPU": {
+                    "EKIPU STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
+                    },
+                    "IVTAG R/V STAR": {
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
                     }
                 },
-                "IVTAG R/V STAR": {
-                    "EKIPU": {
+                "OVLUX": {
+                    "IVTAG R/V STAR": {
                         "Normal Speed": 9,
                         "Reduced Speed": 9
                     },
-                    "OVLUX": {
-                        "Normal Speed": 9,
-                        "Reduced Speed": 9
-                    },
-                    "PUDUT": {
+                    "OVLUX STAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "PUDUT": {
+                    "IVTAG R/V STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
+                    },
+                    "PUDUT STAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
                     }
                 },
-                "LAXUM A STAR": {
-                    "LAXUM": {
+                "LAXUM": {
+                    "LAXUM A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
-                    }
-                },
-                "LAXUM B STAR": {
-                    "LAXUM": {
+                    },
+                    "LAXUM B STAR": {
                         "Normal Speed": 21,
                         "Reduced Speed": 22
-                    }
-                },
-                "LAXUM R STAR": {
-                    "LAXUM": {
+                    },
+                    "LAXUM R STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
-                    }
-                },
-                "LAXUM V STAR": {
-                    "LAXUM": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 13
-                    }
-                },
-                "OVLUX STAR": {
-                    "OVLUX": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 13
-                    }
-                },
-                "PUDUT STAR": {
-                    "PUDUT": {
+                    },
+                    "LAXUM V STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
@@ -3468,1093 +3208,1021 @@ export const flowData = {
     },
     "YPAD": {
         "Jet": {
-            "05": {
-                "ATNAR Z STAR": {
-                    "ATNAR": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 14
-                    }
-                },
-                "ATNAR V/W STAR": {
-                    "ATNAR": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 12
-                    }
-                },
-                "BUGSU Z STAR": {
-                    "AGROS": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    },
-                    "KLAVA": {
-                        "Normal Speed": 16,
-                        "Reduced Speed": 17
-                    },
-                    "MARGO": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    }
-                },
-                "BUGSU V/W STAR": {
-                    "AGROS": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    },
-                    "KLAVA": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    },
-                    "MARGO": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 14
-                    }
-                },
-                "INTOG V/X/Z STAR": {
-                    "INTOG": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    }
-                },
-                "KAKLU Z STAR": {
-                    "KAKLU": {
-                        "Normal Speed": 16,
-                        "Reduced Speed": 17
-                    }
-                },
-                "KAKLU V/X STAR": {
-                    "KAKLU": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    }
-                }
-            },
             "23": {
-                "ATNAR A/Z STAR": {
-                    "ATNAR": {
+                "ATNAR": {
+                    "ATNAR A/Z STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
-                    }
-                },
-                "ATNAR V STAR": {
-                    "ATNAR": {
+                    },
+                    "ATNAR V STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "BUGSU A/Z STAR": {
-                    "AGROS": {
+                "AGROS": {
+                    "BUGSU A/Z STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     },
-                    "KLAVA": {
+                    "BUGSU V STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "KLAVA": {
+                    "BUGSU A/Z STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     },
-                    "MARGO": {
+                    "BUGSU V STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
+                    },
+                    "RAYNA Z STAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    },
+                    "RAYNA V STAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
                     }
                 },
-                "BUGSU V STAR": {
-                    "AGROS": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    },
-                    "KLAVA": {
+                "MARGO": {
+                    "BUGSU A/Z STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     },
-                    "MARGO": {
+                    "BUGSU V STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
-                "DRINA A/Z STAR": {
-                    "DRINA": {
+                "DRINA": {
+                    "DRINA A/Z STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
-                    }
-                },
-                "DRINA V STAR": {
-                    "DRINA": {
+                    },
+                    "DRINA V STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
-                "KAKLU A/Z STAR": {
-                    "KAKLU": {
+                "KAKLU": {
+                    "KAKLU A/Z STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
-                "RAYNA Z STAR": {
-                    "ERITH": {
+                "ERITH": {
+                    "RAYNA Z STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     },
-                    "KLAVA": {
+                    "RAYNA V STAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
+                }
+            },
+            "05": {
+                "ATNAR": {
+                    "ATNAR Z STAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    },
+                    "ATNAR V/W STAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "AGROS": {
+                    "BUGSU Z STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "BUGSU V/W STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "KLAVA": {
+                    "BUGSU Z STAR": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    },
+                    "BUGSU V/W STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "MARGO": {
+                    "BUGSU Z STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "BUGSU V/W STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
-                "RAYNA V STAR": {
-                    "ERITH": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 13
+                "INTOG": {
+                    "INTOG V/X/Z STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "KAKLU": {
+                    "KAKLU Z STAR": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
                     },
-                    "KLAVA": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 13
+                    "KAKLU V/X STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
                     }
                 }
             }
         },
         "DH8D": {
-            "05": {
-                "ATNAR Z STAR": {
-                    "ATNAR": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 14
-                    }
-                },
-                "ATNAR V/W STAR": {
-                    "ATNAR": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 12
-                    }
-                },
-                "ATPIP STAR - Circuit Join": {
-                    "INTOG": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 14
-                    }
-                },
-                "BEVSO STAR - Circuit Join": {
-                    "BEVSO": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 14
-                    }
-                },
-                "BEVSO STAR - IAP": {
-                    "BEVSO": {
-                        "Normal Speed": 17,
-                        "Reduced Speed": 18
-                    }
-                },
-                "BUGSU Z STAR": {
-                    "AGROS": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    },
-                    "KLAVA": {
-                        "Normal Speed": 16,
-                        "Reduced Speed": 17
-                    },
-                    "MARGO": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    }
-                },
-                "BUGSU V/W STAR": {
-                    "AGROS": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    },
-                    "KLAVA": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    },
-                    "MARGO": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 14
-                    }
-                },
-                "ELROX V STAR": {
-                    "ELROX": {
-                        "Normal Speed": 10,
-                        "Reduced Speed": 10
-                    }
-                },
-                "GULFS V STAR": {
-                    "ATNAR": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 12
-                    }
-                },
-                "INTOG V/X/Z STAR": {
-                    "INTOG": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    }
-                },
-                "KAKLU Z STAR": {
-                    "KAKLU": {
-                        "Normal Speed": 16,
-                        "Reduced Speed": 17
-                    }
-                },
-                "KAKLU V/X STAR": {
-                    "KAKLU": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    }
-                },
-                "PAMMY V STAR": {
-                    "AGROS": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 13
-                    },
-                    "MARGO": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 12
-                    }
-                },
-                "SURGN STAR - Circuit Join": {
-                    "KAKLU": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 12
-                    }
-                },
-                "No STAR - Circuit Join": {
-                    "AGROS": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 13
-                    },
-                    "ATNAR": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 12
-                    },
-                    "DRINA": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 14
-                    },
-                    "KLAVA": {
-                        "Normal Speed": 16,
-                        "Reduced Speed": 17
-                    },
-                    "MARGO": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 12
-                    }
-                },
-                "No STAR - Direct to IAF": {
-                    "ELROX": {
-                        "Normal Speed": 10,
-                        "Reduced Speed": 10
-                    }
-                }
-            },
             "12": {
-                "ATPIP STAR - Circuit Join": {
-                    "INTOG": {
+                "INTOG": {
+                    "ATPIP STAR - Circuit Join": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
-                    }
-                },
-                "ATPIP STAR - IAP": {
-                    "INTOG": {
+                    },
+                    "ATPIP STAR - IAP": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "BEVSO STAR - Circuit Join": {
-                    "BEVSO": {
+                "BEVSO": {
+                    "BEVSO STAR - Circuit Join": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
-                    }
-                },
-                "BEVSO STAR - IAP": {
-                    "BEVSO": {
+                    },
+                    "BEVSO STAR - IAP": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "ELROX V STAR": {
-                    "ELROX": {
+                "ELROX": {
+                    "ELROX V STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
-                    }
-                },
-                "GULFS V STAR": {
-                    "ATNAR": {
+                    },
+                    "No STAR - Direct to IAF": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "PAMMY V STAR": {
-                    "AGROS": {
+                "ATNAR": {
+                    "GULFS V STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     },
-                    "MARGO": {
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    },
+                    "No STAR - Direct to IAF": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "AGROS": {
+                    "PAMMY V STAR": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    },
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    },
+                    "No STAR - Direct to IAF": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "MARGO": {
+                    "PAMMY V STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
+                    },
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    },
+                    "No STAR - Direct to IAF": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
                     }
                 },
-                "SURGN STAR - Circuit Join": {
-                    "KAKLU": {
+                "KAKLU": {
+                    "SURGN STAR - Circuit Join": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
-                    }
-                },
-                "SURGN STAR - IAP": {
-                    "KAKLU": {
+                    },
+                    "SURGN STAR - IAP": {
                         "Normal Speed": 15,
                         "Reduced Speed": 15
                     }
                 },
-                "No STAR - Circuit Join": {
-                    "AGROS": {
-                        "Normal Speed": 11,
-                        "Reduced Speed": 11
-                    },
-                    "ATNAR": {
-                        "Normal Speed": 11,
-                        "Reduced Speed": 11
-                    },
-                    "DRINA": {
+                "DRINA": {
+                    "No STAR - Circuit Join": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
-                    },
-                    "KLAVA": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 12
-                    },
-                    "MARGO": {
-                        "Normal Speed": 10,
-                        "Reduced Speed": 10
                     }
                 },
-                "No STAR - Direct to IAF": {
-                    "AGROS": {
-                        "Normal Speed": 11,
-                        "Reduced Speed": 11
-                    },
-                    "ATNAR": {
-                        "Normal Speed": 11,
-                        "Reduced Speed": 11
-                    },
-                    "ELROX": {
-                        "Normal Speed": 11,
-                        "Reduced Speed": 11
-                    },
-                    "MARGO": {
-                        "Normal Speed": 11,
-                        "Reduced Speed": 11
+                "KLAVA": {
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
                     }
                 }
             },
             "23": {
-                "ATNAR A/Z STAR": {
-                    "ATNAR": {
+                "ATNAR": {
+                    "ATNAR A/Z STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
-                    }
-                },
-                "ATNAR V STAR": {
-                    "ATNAR": {
+                    },
+                    "ATNAR V STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
+                    },
+                    "GULFS V STAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    },
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
                     }
                 },
-                "ATPIP STAR - Circuit Join": {
-                    "INTOG": {
+                "INTOG": {
+                    "ATPIP STAR - Circuit Join": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "BEVSO STAR - Circuit Join": {
-                    "BEVSO": {
+                "BEVSO": {
+                    "BEVSO STAR - Circuit Join": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    },
+                    "BEVSO STAR - IAP": {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
                     }
                 },
-                "BEVSO STAR - IAP": {
-                    "BEVSO": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 13
-                    }
-                },
-                "BUGSU A/Z STAR": {
-                    "AGROS": {
+                "AGROS": {
+                    "BUGSU A/Z STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     },
-                    "KLAVA": {
+                    "BUGSU V STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "PAMMY V STAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    },
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
+                },
+                "KLAVA": {
+                    "BUGSU A/Z STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     },
-                    "MARGO": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    }
-                },
-                "BUGSU V STAR": {
-                    "AGROS": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    },
-                    "KLAVA": {
+                    "BUGSU V STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     },
-                    "MARGO": {
+                    "RAYNA Z STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
+                    },
+                    "RAYNA V STAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    },
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
                     }
                 },
-                "DRINA A/Z STAR": {
-                    "DRINA": {
+                "MARGO": {
+                    "BUGSU A/Z STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "BUGSU V STAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    },
+                    "PAMMY V STAR": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    },
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "DRINA": {
+                    "DRINA A/Z STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
-                    }
-                },
-                "DRINA V STAR": {
-                    "DRINA": {
+                    },
+                    "DRINA V STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
-                    }
-                },
-                "ELROX V STAR": {
-                    "ELROX": {
+                    },
+                    "No STAR - Circuit Join": {
                         "Normal Speed": 12,
-                        "Reduced Speed": 12
+                        "Reduced Speed": 13
                     }
                 },
-                "GULFS V STAR": {
-                    "ATNAR": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 12
-                    }
-                },
-                "KAKLU A/Z STAR": {
-                    "KAKLU": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 12
-                    }
-                },
-                "PAMMY V STAR": {
-                    "AGROS": {
+                "ELROX": {
+                    "ELROX V STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     },
-                    "MARGO": {
+                    "No STAR - Direct to IAF": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "KAKLU": {
+                    "KAKLU A/Z STAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    },
+                    "SURGN STAR - Circuit Join": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "RAYNA Z STAR": {
-                    "ERITH": {
+                "ERITH": {
+                    "RAYNA Z STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     },
-                    "KLAVA": {
+                    "RAYNA V STAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
+                }
+            },
+            "30": {
+                "INTOG": {
+                    "ATPIP STAR - Circuit Join": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    },
+                    "ATPIP STAR - IAP": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
-                "RAYNA V STAR": {
-                    "ERITH": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 13
+                "BEVSO": {
+                    "BEVSO STAR - Circuit Join": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
                     },
-                    "KLAVA": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 13
+                    "BEVSO STAR - IAP": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
                     }
                 },
-                "SURGN STAR - Circuit Join": {
-                    "KAKLU": {
+                "KAKLU": {
+                    "SURGN STAR - Circuit Join": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    },
+                    "SURGN STAR - IAP": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "AGROS": {
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    },
+                    "No STAR - Direct to IAF": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "ATNAR": {
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    },
+                    "No STAR - Direct to IAF": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "DRINA": {
+                    "No STAR - Circuit Join": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "No STAR - Circuit Join": {
-                    "AGROS": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 13
+                "ELROX": {
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
                     },
-                    "ATNAR": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 14
-                    },
-                    "DRINA": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 13
-                    },
-                    "KLAVA": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 12
-                    },
-                    "MARGO": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 12
+                    "No STAR - Direct to IAF": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
                     }
                 },
-                "No STAR - Direct to IAF": {
-                    "ELROX": {
+                "KLAVA": {
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "MARGO": {
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    },
+                    "No STAR - Direct to IAF": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 }
             },
-            "30": {
-                "ATPIP STAR - Circuit Join": {
-                    "INTOG": {
+            "05": {
+                "ATNAR": {
+                    "ATNAR Z STAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    },
+                    "ATNAR V/W STAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    },
+                    "GULFS V STAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    },
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "INTOG": {
+                    "ATPIP STAR - Circuit Join": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    },
+                    "INTOG V/X/Z STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "BEVSO": {
+                    "BEVSO STAR - Circuit Join": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    },
+                    "BEVSO STAR - IAP": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
+                },
+                "AGROS": {
+                    "BUGSU Z STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "BUGSU V/W STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "PAMMY V STAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    },
+                    "No STAR - Circuit Join": {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
                     }
                 },
-                "ATPIP STAR - IAP": {
-                    "INTOG": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 14
-                    }
-                },
-                "BEVSO STAR - Circuit Join": {
-                    "BEVSO": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 14
-                    }
-                },
-                "BEVSO STAR - IAP": {
-                    "BEVSO": {
+                "KLAVA": {
+                    "BUGSU Z STAR": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    },
+                    "BUGSU V/W STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "No STAR - Circuit Join": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
                 },
-                "SURGN STAR - Circuit Join": {
-                    "KAKLU": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 12
-                    }
-                },
-                "SURGN STAR - IAP": {
-                    "KAKLU": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 14
-                    }
-                },
-                "No STAR - Circuit Join": {
-                    "AGROS": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 12
-                    },
-                    "ATNAR": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 12
-                    },
-                    "DRINA": {
-                        "Normal Speed": 11,
-                        "Reduced Speed": 11
-                    },
-                    "ELROX": {
-                        "Normal Speed": 11,
-                        "Reduced Speed": 11
-                    },
-                    "KLAVA": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 14
-                    },
-                    "MARGO": {
-                        "Normal Speed": 11,
-                        "Reduced Speed": 11
-                    }
-                },
-                "No STAR - Direct to IAF": {
-                    "AGROS": {
-                        "Normal Speed": 17,
-                        "Reduced Speed": 18
-                    },
-                    "ATNAR": {
-                        "Normal Speed": 17,
-                        "Reduced Speed": 18
-                    },
-                    "ELROX": {
+                "MARGO": {
+                    "BUGSU Z STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     },
-                    "MARGO": {
+                    "BUGSU V/W STAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    },
+                    "PAMMY V STAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    },
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "ELROX": {
+                    "ELROX V STAR": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    },
+                    "No STAR - Direct to IAF": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                },
+                "KAKLU": {
+                    "KAKLU Z STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
+                    },
+                    "KAKLU V/X STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "SURGN STAR - Circuit Join": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "DRINA": {
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
                     }
                 }
             }
         },
         "Non-Jet": {
-            "05": {
-                "ATNAR Z STAR": {
-                    "ATNAR": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    }
-                },
-                "ATNAR V/W STAR": {
-                    "ATNAR": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 14
-                    }
-                },
-                "ATPIP STAR - Circuit Join": {
-                    "INTOG": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    }
-                },
-                "BEVSO STAR - Circuit Join": {
-                    "BEVSO": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    }
-                },
-                "BEVSO STAR - IAP": {
-                    "BEVSO": {
-                        "Normal Speed": 19,
-                        "Reduced Speed": 20
-                    }
-                },
-                "BUGSU Z STAR": {
-                    "AGROS": {
-                        "Normal Speed": 16,
-                        "Reduced Speed": 17
-                    },
-                    "KLAVA": {
-                        "Normal Speed": 18,
-                        "Reduced Speed": 19
-                    },
-                    "MARGO": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    }
-                },
-                "BUGSU V/W STAR": {
-                    "AGROS": {
-                        "Normal Speed": 16,
-                        "Reduced Speed": 17
-                    },
-                    "KLAVA": {
-                        "Normal Speed": 17,
-                        "Reduced Speed": 18
-                    },
-                    "MARGO": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    }
-                },
-                "ELROX V STAR": {
-                    "ELROX": {
-                        "Normal Speed": 11,
-                        "Reduced Speed": 11
-                    }
-                },
-                "GULFS V STAR": {
-                    "ATNAR": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 13
-                    }
-                },
-                "INTOG V/X STAR": {
-                    "INTOG": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    }
-                },
-                "INTOG Z STAR": {
-                    "INTOG": {
-                        "Normal Speed": 16,
-                        "Reduced Speed": 17
-                    }
-                },
-                "KAKLU Z STAR": {
-                    "KAKLU": {
-                        "Normal Speed": 18,
-                        "Reduced Speed": 19
-                    }
-                },
-                "KAKLU V/X STAR": {
-                    "KAKLU": {
-                        "Normal Speed": 17,
-                        "Reduced Speed": 18
-                    }
-                },
-                "PAMMY V STAR": {
-                    "AGROS": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    },
-                    "MARGO": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 13
-                    }
-                },
-                "SURGN STAR - Circuit Join": {
-                    "KAKLU": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 13
-                    }
-                },
-                "No STAR - Circuit Join": {
-                    "AGROS": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    },
-                    "ATNAR": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 13
-                    },
-                    "DRINA": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    },
-                    "KLAVA": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    },
-                    "MARGO": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 13
-                    }
-                },
-                "No STAR - Direct to IAF": {
-                    "ELROX": {
-                        "Normal Speed": 11,
-                        "Reduced Speed": 11
-                    }
-                }
-            },
             "12": {
-                "ATPIP STAR - Circuit Join": {
-                    "INTOG": {
+                "INTOG": {
+                    "ATPIP STAR - Circuit Join": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
-                    }
-                },
-                "ATPIP STAR - IAP": {
-                    "INTOG": {
+                    },
+                    "ATPIP STAR - IAP": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
                     }
                 },
-                "BEVSO STAR - Circuit Join": {
-                    "BEVSO": {
+                "BEVSO": {
+                    "BEVSO STAR - Circuit Join": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "BEVSO STAR - IAP": {
-                    "BEVSO": {
+                    },
+                    "BEVSO STAR - IAP": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "ELROX V STAR": {
-                    "ELROX": {
+                "ELROX": {
+                    "ELROX V STAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    },
+                    "No STAR - Direct to IAF": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
-                "GULFS V STAR": {
-                    "ATNAR": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 13
-                    }
-                },
-                "PAMMY V STAR": {
-                    "AGROS": {
+                "ATNAR": {
+                    "GULFS V STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     },
-                    "MARGO": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 12
-                    }
-                },
-                "SURGN STAR - Circuit Join": {
-                    "KAKLU": {
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    },
+                    "No STAR - Direct to IAF": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 },
-                "SURGN STAR - IAP": {
-                    "KAKLU": {
+                "AGROS": {
+                    "PAMMY V STAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    },
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    },
+                    "No STAR - Direct to IAF": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "MARGO": {
+                    "PAMMY V STAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    },
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    },
+                    "No STAR - Direct to IAF": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "KAKLU": {
+                    "SURGN STAR - Circuit Join": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    },
+                    "SURGN STAR - IAP": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "No STAR - Circuit Join": {
-                    "AGROS": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 13
-                    },
-                    "ATNAR": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 13
-                    },
-                    "DRINA": {
+                "DRINA": {
+                    "No STAR - Circuit Join": {
                         "Normal Speed": 14,
                         "Reduced Speed": 14
-                    },
-                    "KLAVA": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 13
-                    },
-                    "MARGO": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 12
                     }
                 },
-                "No STAR - Direct to IAF": {
-                    "AGROS": {
+                "KLAVA": {
+                    "No STAR - Circuit Join": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
-                    },
-                    "ATNAR": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 13
-                    },
-                    "ELROX": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 12
-                    },
-                    "MARGO": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 12
                     }
                 }
             },
             "23": {
-                "ATNAR A/Z STAR": {
-                    "ATNAR": {
+                "ATNAR": {
+                    "ATNAR A/Z STAR": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
-                    }
-                },
-                "ATNAR V STAR": {
-                    "ATNAR": {
+                    },
+                    "ATNAR V STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
-                    }
-                },
-                "ATPIP STAR - Circuit Join": {
-                    "INTOG": {
+                    },
+                    "GULFS V STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "No STAR - Circuit Join": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "BEVSO STAR - Circuit Join": {
-                    "BEVSO": {
+                "INTOG": {
+                    "ATPIP STAR - Circuit Join": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "BEVSO": {
+                    "BEVSO STAR - Circuit Join": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "BEVSO STAR - IAP": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "BEVSO STAR - IAP": {
-                    "BEVSO": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    }
-                },
-                "BUGSU A/Z STAR": {
-                    "AGROS": {
+                "AGROS": {
+                    "BUGSU A/Z STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     },
-                    "KLAVA": {
+                    "BUGSU V STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "PAMMY V STAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    },
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "KLAVA": {
+                    "BUGSU A/Z STAR": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
                     },
-                    "MARGO": {
-                        "Normal Speed": 17,
-                        "Reduced Speed": 18
-                    }
-                },
-                "BUGSU V STAR": {
-                    "AGROS": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    },
-                    "KLAVA": {
+                    "BUGSU V STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     },
-                    "MARGO": {
+                    "RAYNA Z STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
-                    }
-                },
-                "DRINA A/Z STAR": {
-                    "DRINA": {
-                        "Normal Speed": 16,
-                        "Reduced Speed": 17
-                    }
-                },
-                "DRINA V STAR": {
-                    "DRINA": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    }
-                },
-                "ELROX V STAR": {
-                    "ELROX": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 13
-                    }
-                },
-                "GULFS V STAR": {
-                    "ATNAR": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    }
-                },
-                "KAKLU A/Z STAR": {
-                    "KAKLU": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 13
-                    }
-                },
-                "PAMMY V STAR": {
-                    "AGROS": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 13
                     },
-                    "MARGO": {
+                    "RAYNA V STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "MARGO": {
+                    "BUGSU A/Z STAR": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    },
+                    "BUGSU V STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "PAMMY V STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
-                    }
-                },
-                "RAYNA Z STAR": {
-                    "ERITH": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
                     },
-                    "KLAVA": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    }
-                },
-                "RAYNA V STAR": {
-                    "ERITH": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    },
-                    "KLAVA": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    }
-                },
-                "SURGN STAR - Circuit Join": {
-                    "KAKLU": {
+                    "No STAR - Circuit Join": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 },
-                "No STAR - Circuit Join": {
-                    "AGROS": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
+                "DRINA": {
+                    "DRINA A/Z STAR": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
                     },
-                    "ATNAR": {
+                    "DRINA V STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     },
-                    "DRINA": {
+                    "No STAR - Circuit Join": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
-                    },
-                    "KLAVA": {
+                    }
+                },
+                "ELROX": {
+                    "ELROX V STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     },
-                    "MARGO": {
+                    "No STAR - Direct to IAF": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                },
+                "KAKLU": {
+                    "KAKLU A/Z STAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    },
+                    "SURGN STAR - Circuit Join": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 },
-                "No STAR - Direct to IAF": {
-                    "ELROX": {
-                        "Normal Speed": 18,
-                        "Reduced Speed": 19
+                "ERITH": {
+                    "RAYNA Z STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "RAYNA V STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
                     }
                 }
             },
             "30": {
-                "ATPIP STAR - Circuit Join": {
-                    "INTOG": {
+                "INTOG": {
+                    "ATPIP STAR - Circuit Join": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "ATPIP STAR - IAP": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "ATPIP STAR - IAP": {
-                    "INTOG": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
-                    }
-                },
-                "BEVSO STAR - Circuit Join": {
-                    "BEVSO": {
+                "BEVSO": {
+                    "BEVSO STAR - Circuit Join": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
-                    }
-                },
-                "BEVSO STAR - IAP": {
-                    "BEVSO": {
+                    },
+                    "BEVSO STAR - IAP": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     }
                 },
-                "SURGN STAR - Circuit Join": {
-                    "KAKLU": {
+                "KAKLU": {
+                    "SURGN STAR - Circuit Join": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
-                    }
-                },
-                "SURGN STAR - IAP": {
-                    "KAKLU": {
+                    },
+                    "SURGN STAR - IAP": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "No STAR - Circuit Join": {
-                    "AGROS": {
+                "AGROS": {
+                    "No STAR - Circuit Join": {
                         "Normal Speed": 14,
                         "Reduced Speed": 14
                     },
-                    "ATNAR": {
+                    "No STAR - Direct to IAF": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    }
+                },
+                "ATNAR": {
+                    "No STAR - Circuit Join": {
                         "Normal Speed": 14,
                         "Reduced Speed": 14
                     },
-                    "DRINA": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 13
-                    },
-                    "ELROX": {
-                        "Normal Speed": 13,
-                        "Reduced Speed": 13
-                    },
-                    "KLAVA": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    },
-                    "MARGO": {
+                    "No STAR - Direct to IAF": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    }
+                },
+                "DRINA": {
+                    "No STAR - Circuit Join": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     }
                 },
-                "No STAR - Direct to IAF": {
-                    "AGROS": {
-                        "Normal Speed": 20,
-                        "Reduced Speed": 21
+                "ELROX": {
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
                     },
-                    "ATNAR": {
-                        "Normal Speed": 20,
-                        "Reduced Speed": 21
+                    "No STAR - Direct to IAF": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "KLAVA": {
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "MARGO": {
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
                     },
-                    "ELROX": {
+                    "No STAR - Direct to IAF": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    }
+                }
+            },
+            "05": {
+                "ATNAR": {
+                    "ATNAR Z STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "ATNAR V/W STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 14
+                    },
+                    "GULFS V STAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    },
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "INTOG": {
+                    "ATPIP STAR - Circuit Join": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "INTOG V/X STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "INTOG Z STAR": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "BEVSO": {
+                    "BEVSO STAR - Circuit Join": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "BEVSO STAR - IAP": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    }
+                },
+                "AGROS": {
+                    "BUGSU Z STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     },
-                    "MARGO": {
-                        "Normal Speed": 19,
-                        "Reduced Speed": 20
+                    "BUGSU V/W STAR": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    },
+                    "PAMMY V STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "KLAVA": {
+                    "BUGSU Z STAR": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    },
+                    "BUGSU V/W STAR": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    },
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "MARGO": {
+                    "BUGSU Z STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "BUGSU V/W STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    },
+                    "PAMMY V STAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    },
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "ELROX": {
+                    "ELROX V STAR": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    },
+                    "No STAR - Direct to IAF": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "KAKLU": {
+                    "KAKLU Z STAR": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    },
+                    "KAKLU V/X STAR": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    },
+                    "SURGN STAR - Circuit Join": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 13
+                    }
+                },
+                "DRINA": {
+                    "No STAR - Circuit Join": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
                     }
                 }
             }
