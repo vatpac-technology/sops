@@ -658,14 +658,6 @@ This workflow sends a notification to Discord when a pull request is merged and 
 
 ---
 
-## Disclaimer
-
-The content on this website is intended for Flight Simulation use only.
-
-This project is built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/), a Material Design theme for MkDocs, and incorporates additional features from the aforementioned plugins and tools.
-
----
-
 ## Acknowledgments
 
 We extend our gratitude to all contributors of these open-source projects. Your work enables us to build and enhance our project efficiently.
