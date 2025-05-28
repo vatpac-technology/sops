@@ -49,7 +49,7 @@ When **AY ADC** is offline, AY CTR (Class D and C `SFC` to `A085`) reverts to Cl
 #### YMML Arrivals
 ELW is responsible for the final sequencing actions, final descent, and issuing STAR clearances to Non-jets.
 
-Refer to the [Sequencing into YMML](#sequencing-into-ymml) notes below regarding adjacent Feeder Fixes.
+Refer to the [Sequencing into YMML](#sequencing-in-to-ymml) notes below regarding adjacent Feeder Fixes.
 
 #### YMAV Arrivals
 ELW is responsible for issuing final descent, and STAR clearances to Non-jets.

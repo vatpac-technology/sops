@@ -59,7 +59,7 @@ Due to the low ceiling of CTA, when CFS ADC is offline, INL shall instruct aircr
 #### YBBN Arrivals
 INL is responsible for initial sequencing, issuing STAR Clearances, and issuing initial descent to not below `F190`.
 
-Refer to the [Sequencing into YBBN](#sequencing-into-ybbn) notes below regarding adjacent Feeder Fixes.
+Refer to the [Sequencing into YBBN](#sequencing-in-to-ybbn) notes below regarding adjacent Feeder Fixes.
 
 #### YBCG Arrivals
 INL is responsible for initial sequencing, issuing STAR Clearances, and issuing initial descent to not below `F190`.
@@ -85,7 +85,7 @@ SDY is responsible for processing aircraft from offshore SUA to YAMB via the CEN
 #### YBBN Arrivals
 BUR is responsible for sequencing, issuing STAR Clearances, and issuing descent.
 
-Refer to the [Sequencing into YBBN](#sequencing-into-ybbn) notes below regarding adjacent Feeder Fixes.
+Refer to the [Sequencing into YBBN](#sequencing-in-to-ybbn) notes below regarding adjacent Feeder Fixes.
 
 #### YBCG Arrivals
 BUR is responsible for sequencing, issuing STAR Clearances, and issuing descent.
@@ -97,7 +97,7 @@ BUR is responsible for issuing final descent.
 #### YBBN Arrivals
 GOL is responsible for final sequencing and descent.
 
-Refer to the [Sequencing into YBBN](#sequencing-into-ybbn) notes below regarding adjacent Feeder Fixes.
+Refer to the [Sequencing into YBBN](#sequencing-in-to-ybbn) notes below regarding adjacent Feeder Fixes.
 
 #### YBCG Arrivals
 GOL is responsible for final sequencing and descent.

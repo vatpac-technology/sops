@@ -35,7 +35,7 @@ The CPDLC Station Code is `YTBD`.
 ### YPAD Arrivals
 TBD and AUG are responsible for sequencing, issuing STAR Clearances, and issuing descent.
 
-Refer to the [Sequencing into YPAD](#sequencing-into-ypad) notes below regarding adjacent Feeder Fixes.
+Refer to the [Sequencing into YPAD](#sequencing-in-to-ypad) notes below regarding adjacent Feeder Fixes.
 
 ### YPPF Arrivals
 TBD and AUG are responsible for issuing descent and ascertaining arrival intentions.
