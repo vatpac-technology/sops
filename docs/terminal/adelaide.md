@@ -45,7 +45,7 @@ Jet aircraft will be assigned the relevant Alpha or Zulu STAR to Runway 23 or 05
 Non-Jet aircraft will be processed via a combination of:
 
 - Non-jet Victor STARs for VSA
-- Alpha/Whiskey/Xray/Yankee/Zulu STARs for IAP
+- Alpha/Zulu STARs for IAP
 - No STAR, expecting vectors or direct tracking for VSA or IAP
 
 !!! tip
