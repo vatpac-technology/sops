@@ -45,7 +45,8 @@ The controller should then open the vatACARS *Setup* window, fill in the releven
 
 **Station Code:** Must be the identifier of the position which is being controlled.          
 **Logon Code:** Must be your [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html){target=new} Code.
-!!! Note vatACARS Token is no longer required.
+!!! Note 
+    vatACARS Token is no longer required.
 
 Once connected with CPDLC enabled, pilots will connect to the vatACARS plugin via their aircraft's CPDLC system. The controller will normally receive a *'Request PDC'* message through vatACARS. The controller should left-click the received message to issue the PDC. A self-explanatory window will appear; fill in the *DEP FREQ* and, if required, *FREE TEXT* field and send this back to the aircraft. Note that the pilot's strip **MUST** be filled out in order to issue a PDC through vatACARS. Once the aircraft has received their PDC, the pilot will usually respond with *'Roger'* or similar to show they have received the clearance.
 
@@ -79,8 +80,9 @@ The controller should then open the vatACARS *Setup* window, fill in the releven
 
 **Station Code:** Must be the identifier of the position which is being controlled.          
 **Logon Code:** Must be your [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html){target=new} Code.
-!!! Note vatACARS Token is no longer required.
-
+!!! Note 
+    vatACARS Token is no longer required.
+    
 Some major enroute positions do not use CPDLC as a primary means of communication, however, controllers may use CPDLC in lieu of voice when applicable.
 
 ### Station Codes
