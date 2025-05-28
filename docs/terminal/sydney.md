@@ -349,7 +349,7 @@ Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, i
 
 ## Flow
 ### Local Knowledge
-- Aircraft can be processed via the adjacent STAR for the parallel runway (e.g. jet aircraft via the ODALE STAR for RWY 34R), to reduce overall delay where multiple aircraft approach from the same direction
+- Aircraft can be processed via the adjacent STAR for the parallel runway (e.g. jet aircraft via the ODALE STAR for RWY 34R), to reduce overall delay where multiple aircraft approach from the same direction *(coordination required)*
 - Aircraft via AKMIR (to the west) and MARLN (to the east) often make large track direction changes prior to entering the TMA. Direct tracking onto the STAR may be offered to reduce track miles
 
 ### Flow Tables

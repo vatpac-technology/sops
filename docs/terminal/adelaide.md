@@ -192,7 +192,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
 #### Assumptions
 - Nil wind
-- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except:
+- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR (or transition, if applicable), except:
     - The feeder fix for the ATPIP STAR is **INTOG**
 - Aircraft issued a *Circuit Join* will be vectored/cleared to a 5nm final or a downwind join of the circuit
 - Non-jet aircraft issued the ATPIP, BEVSO, or SURGN STARs will be processed for either a circuit join or IAP (as dictated by the flow table comment)
