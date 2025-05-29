@@ -36,7 +36,10 @@ VFR helicopters are generally processed via one of Sydney's Helicopter Routes. T
 
 You can find details of each Helicopter Route here, and full details are in the `ERSA FAC YSSY`.
 
-![heli routes 4](https://github.com/user-attachments/assets/8ccca578-d990-482f-b584-f60f2a5e58ae)
+<figure markdown>
+![SY heli routes](img/yssy_heli_routes.png){ width="700" }
+  <figcaption>SY heli routes</figcaption>
+</figure>
 
 Refer to [Heliport Responsibility](#heliport-responsibility) to determine which ADC position (when both are online) is responsible for managing helicopter arrivals and departures.
 
