@@ -31,6 +31,7 @@ SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005` as 
 ### Helicopter Operations
 
 VFR helicopters are generally processed via one of Sydney's Helicopter Routes. There are both inbound and outbound routes. Each procedure is delivered as a coded clearance designed to separate helicopters from fixed-wing aircraft.  
+  
 **Inbound** coded clearances contain tracking, altitudes, a clearance limit and at which waypoint to self-transfer to tower.  
 **Outbound** coded clearances contain tracking and altitude to be flown. Outbound routes typically end at the CTA boundary
 
