@@ -137,11 +137,6 @@ A Practice Instrument Approach is simply an aircraft conducting an Instrument Ap
 #### Assessment
 First thing to do, is to bring up the approach chart from the [Airservices Australia DAPs](http://www.airservicesaustralia.com/aip/current/dap/AeroProcChartsTOC.htm){target=new}
 
-<figure markdown>
-![YPPF VOR-A](img/pfvora.png){ width="600" }
-  <figcaption>YPPF VOR-A</figcaption>
-</figure>
-
 Then we continue our assessment. Assess for:
 
 - **Airspace** (What classes of Airspace will the aircraft be operating in? Will the aircraft require a clearance?)  
@@ -275,8 +270,8 @@ If there is no flight plan, simply create a Quicktag for the aircraft, and assig
 
 #### Assessment
 <figure markdown>
-![YSHL Area VTC](img/pjeshl.png){ width="800" }
-  <figcaption>YSHL Area VTC</figcaption>
+![YSHL Area](img/pjeshl.png){ width="800" }
+  <figcaption>YSHL Area (Flagstaff Point position from on VTC)</figcaption>
 </figure>
 
 Assess for:
