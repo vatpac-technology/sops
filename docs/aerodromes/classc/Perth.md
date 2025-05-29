@@ -61,7 +61,7 @@ With the [Northeast Plan](#northeast-plan) active, the ATIS shall notify `EXP IL
 
 ### Runway Nomination
 When both Runway 03 and Runway 06 are nominated as departure runways, the `RWY` field shall contain:  
-`RWY 03 FOR DEP VIA OTLED, AVNEX, OLMAM, SOLUS AND OPEGA. RWY 06 FOR ALL OTHER DEP.`
+`03 FOR ARR. RWY 03 FOR DEP VIA OTLED, AVNEX, OLMAM, SOLUS AND OPEGA. RWY 06 FOR ALL OTHER DEP.`
 
 ## Coordination
 ### Auto Release

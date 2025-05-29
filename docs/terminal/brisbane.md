@@ -37,7 +37,7 @@ See also: [CG ADC Offline](#cg-adc-offline).
     If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
   
 ### Airspace Structural Arrangements
-Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, **“North”**/**”West”** positions shall assume the airspace of corresponding **“South”**/**”East”** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
+Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, **"North"**/**"West"** positions shall assume the airspace of corresponding **"South"**/**"East"** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
 
 ### Airspace Division
 The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **BAC** change based on the Runway Mode.
@@ -95,7 +95,7 @@ These standard runway assignments may be modified strategically by the BAS or BF
 *"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (MVA) UNTIL ESTABLISHED ON THE PAPI (or GLIDEPATH)"*
 
 !!! phraseology
-    **BAS:** “QFA660, Turn left heading 040, join final Runway 01L, from that heading Cleared Independent Visual Approach Runway 01L, not below 2400 until established on the PAPI”    
+    **BAS:** "QFA660, Turn left heading 040, join final Runway 01L, from that heading Cleared Independent Visual Approach Runway 01L, not below 2400 until established on the PAPI"    
 
 ## Offline Towers
 ### AF ADC Offline
@@ -184,6 +184,121 @@ Once the aircraft exits the CTA, cancel their identification and control service
     **FHK**: "FHK, excited the zone"  
     **BN TCU**: "FHK, identification and control service terminated, frequency change approved"  
     **FHK**: "Frequency change approved, FHK"  
+
+## Flow
+### Local Knowledge
+- Aircraft inbound to YBBN from the south may be split between the GOMOL/BLAKA and ENLIP STARs, and assigned different runways, to reduce overall delay (most effective during 01 PROPS)
+- Aircraft inbound to YBBN may be issued the appropriate Xray or Victor STAR to reduce track miles
+- Aircraft inbound to YBBN from the north for RWY 01R may be issued the SMOKA M STAR to reduce track miles
+- Aircraft inbound to YBCG may be assigned the Yankee or Victor STAR to reduce track miles
+
+### Flow Tables
+#### YBBN
+The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
+
+=== "Jets & DH8D"
+    | STAR     | RWY 01L | RWY 01R | RWY 19L | RWY 19R |
+    | -------- | ------- | ------- | ------- | ------- |
+    | **BLAKA A**  | 13      | 13      | 19      | 21      |
+    | **BLAKA X**  | -       | 12      | 16      | -       |
+    | **ENLIP A**  | 11^     | 11^     | 20      | 18      |
+    | **ENLIP X**  | -       | -       | 16      | 16      |
+    | **GOMOL A**  | 14      | 14      | 18      | 20      |
+    | **GOMOL V**  | -       | 13      | 15      | -       |
+    | **GOMOL X**  | -       | 12      | 16      | -       |
+    | **ISPON**<br>*ENLIP transition*<br>*BLAKA transition*<br>*GOMOL transition*<br>*UGTUG transition* | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>20<br>19<br>19<br>14  |
+    | **MORBI A**  | 16      | 15      | 13      | 12      |
+    | **MORBI V**  | 13      | -       | -       | 11^     |
+    | **SMOKA A**  | 15      | 14      | 13      | 13      |
+    | **SMOKA M**  | -       | 12^     | -       | -       |
+    | **SMOKA X**  | 13      | -       | -       | 11^     |
+    | **TEBOT A**  | 18      | 18      | 11^     | 11^     |
+    | **TEBOT X**  | -       | 15      | -       | -       |
+    | **UGTUG A**  | 15      | 15      | 13      | 14      |
+    | **UGTUG X**  | -       | 13      | 12^     | -       |
+    | **WOODY A**  | 14      | 13      | 15      | 15      |
+    | **WOODY V**  | 11^     | -       | -       | 12^     |
+
+=== "Non-Jets"
+    | STAR     | RWY 01L | RWY 01R | RWY 19L | RWY 19R |
+    | -------- | ------- | ------- | ------- | ------- |
+    | **BLAKA A**  | 15      | 15      | 22      | 24      |
+    | **BLAKA X**  | -       | 14      | 18      | -       |
+    | **ENLIP A**  | 13^     | 13^     | 23      | 20      |
+    | **ENLIP X**  | -       | -       | 19      | 18      |
+    | **GOMOL A**  | 16      | 15      | 21      | 23      |
+    | **GOMOL V**  | -       | 14      | 17      | -       |
+    | **GOMOL X**  | -       | 14      | 18      | -       |
+    | **ISPON**<br>*ENLIP transition*<br>*BLAKA transition*<br>*GOMOL transition*<br>*UGTUG transition* | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>23<br>22<br>21<br>15  |
+    | **MORBI A**  | 18      | 17      | 14      | 14      |
+    | **MORBI V**  | 14      | -       | -       | 12^     |
+    | **SMOKA A**  | 17      | 16      | 15      | 15      |
+    | **SMOKA M**  | -       | 13^     | -       | -       |
+    | **SMOKA X**  | 14      | -       | -       | 13^     |
+    | **TEBOT A**  | 20      | 21      | 12^     | 13^     |
+    | **TEBOT X**  | -       | 17      | -       | -       |
+    | **UGTUG A**  | 17      | 17      | 15      | 16      |
+    | **UGTUG X**  | -       | 14      | 13^     | -       |
+    | **WOODY A**  | 16      | 15      | 17      | 16      |
+    | **WOODY V**  | 13^     | -       | -       | 14^     |
+
+#### YBCG
+The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
+
+=== "Jets & DH8D"
+    | Arrival | RWY 14 | RWY 32 |
+    | ------- | ------ | ------ |
+    | **BERNI A STAR** | 15  | 11^  |
+    | **BERNI V STAR** | 14  | 12^  |
+    | **BERNI Y STAR** | 14  | - |
+    | **LAMSI A STAR** | 13  | 11^  |
+    | **LAMSI Y STAR** | 12^  | 10^  |
+    | **BN Y177 IDRIL CG2SA** | -  | 16  |
+    | **BN Y177 IDRIL CG2NC** | 12^ | - |
+
+=== "Non-Jets"
+    | Arrival | RWY 14 | RWY 32 |
+    | ------- | ------ | ------ |
+    | **BERNI A STAR** | 17  | 13^  |
+    | **BERNI V STAR** | 16  | 13^  |
+    | **BERNI Y STAR** | 16  | - |
+    | **LAMSI A STAR** | 15  | 13^  |
+    | **LAMSI Y STAR** | 14^  | 12^  |
+    | **BN Y177 IDRIL CG2SA** | -  | 18  |
+    | **BN Y177 IDRIL CG2NC** | 13^ | - |
+
+#### Corrections
+
+| Situation | Correction |
+| ----- | ----- |
+| Assigned a reduced speed | +1 min, *except ^* | 
+| Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
+
+#### Assumptions
+- Nil wind
+- The feeder fix for all STARs is the assigned STAR transition waypoint (if applicable), otherwise the waypoint coinciding with the STAR title
+- Aircraft inbound to YBCG from the north will track from IDRIL to the IAF for their assigned approach
+- Aircraft inbound to YBCG on a STAR ending at FIKUL or KEGAN will conduct the RNP Z approach
+
+### YBBN Calculator
+<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
+The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
+
+=== "Landing Time"
+    <div class="flowCalculatorLandingTime" data-aerodrome="YBBN"></div>
+
+=== "Feeder Fix Time"
+    <div class="flowCalculatorFeederFixTime" data-aerodrome="YBBN"></div>
+
+### YBCG Calculator
+<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
+The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
+
+=== "Landing Time"
+    <div class="flowCalculatorLandingTime" data-aerodrome="YBCG"></div>
+
+=== "Feeder Fix Time"
+    <div class="flowCalculatorFeederFixTime" data-aerodrome="YBCG"></div>
 
 ## Coordination
 ### Enroute

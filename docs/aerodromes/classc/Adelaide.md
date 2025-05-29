@@ -65,28 +65,33 @@ Once the conflict is no longer a threat (or if no holding was required in the fi
 Once the aircraft is clear of potential conflict with YPAD (i.e. north of HNLY or south of BTJ), transfer them back to AD TCU.
 
 ## Runway Modes
-Single runway operations using Runway 05 or 23 (whichever is more favoured by the winds) are preferred at YPAD. However, when strong winds favour Runway 12 or 30, Non-Jets (Runway 12/30 is too short for most jets) would benefit from having that runway available to them as well. As a general rule of thumb, if the Crosswind on Runway 05/23 exceeds **20kts**, the more favourable of Runway 12 or 30 shall be in use as well as the more favourable of Runway 05 or 23.
+### Preferred Runway Modes
+Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
-!!! example
-    METAR: `YPAD 210600Z 15030KT 9999 FEW030 21/11 Q1002 RMK RF00.0/000.0`  
-    ATIS: `RUNWAY 23 AND 12 FOR ARRIVALS AND DEPARTURES`
+| Priority - Mode | Arrivals  | Departures |
+| ----------------| --------- | ---------- |
+| 1 - 2312A23D    | 23 & 12       | 23        |
+| 2 - 0512A05D    | 05 & 12 | 05  |
+| 3 - 23 Only    | 23 | 23  |
+| 4 - 05 Only     | 05        | 05  |
+| 5 - 12 Only     | 12 | 12         |
+| 6 - 30 Only     | 30        | 30  |
 
-!!! note
-    Where low traffic levels and relevant meteorological conditions permit, non-jet arrivals from the west may be offered runway 12.
-
-### Runway 23 Arrivals
+## ATIS
+### Approach Expectation
+When **Runway 23** is in use for arrivals, the following table shall be followed for the Approach Expectation field:
 
 | Cloud Base            | ATIS APCH field      |
 | ------------------ | -------------- |
 | At or above `A043`   | (Blank)  |
-| Between `A024` and `A042`   | `ACFT FM THE EAST AND JET ACFT FM THE WEST EXP INSTR APCH`†  |
+| Between `A024` and `A042`   | `ACFT FM THE EAST AND JET ACFT FM THE WEST EXP INSTR APCH`\*  |
 | Between `A007` and `A023`  | `EXP INSTR APCH`  |
 | At or below `A006`  | `EXP ILS APCH`  |
 
-†This allows aircraft on the Victor STAR from the west to join a visual right base without the need to conduct an instrument approach, while keeping aircraft from the east clear of the higher terrain near the Adelaide Hills.
+\*This allows aircraft on the Victor STAR from the west to join a visual right base without the need to conduct an instrument approach, while keeping aircraft from the east clear of the higher terrain near the Adelaide Hills.
 
-### Curfew Mode
-Between the hours of 1330-2030 UTC (1230-1930 UTC HDS), AD ADC may elect to simulate Curfew operations, ie: **Runway 05 for arrivals, Runway 23 for departures**. When this is in operation, the ATIS shall include `CURFEW IN OPERATION UNTIL (time) ZULU`.
+### Operational Info
+Between the hours of 1330-2030 UTC (1230-1930 UTC HDS), AD ADC may elect to simulate *Curfew operations*, ie: **Runway 05 for arrivals, Runway 23 for departures**. When this is in operation, the ATIS shall include `CURFEW IN OPERATION UNTIL (time) ZULU`.
 
 ## SID Selection
 Jet Aircraft planned via **AVDEN**, **BENDO**, **GILES**, **AREPA**, **ORBUN**. or **UPROT**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
