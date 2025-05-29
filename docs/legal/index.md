@@ -4,8 +4,8 @@
 
 # Disclaimer
 
-The content on this website is intended for **Flight Simulation use only**.  
-It is provided **'as is' without any warranties or guarantees**, and must **not be used for real-world aviation**. No liability is accepted for any errors, omissions, or consequences arising from its use.
+The content on this website is for **Flight Simulation use only**.  
+It is provided **'as is' without any warranties or guarantees**, and must **not be used for real-world aviation or any other use**. No liability is accepted for any errors, omissions, or consequences arising from its use.
 
 ---
 
