@@ -362,7 +362,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **MEPIL**<br>*Feeder Fix: YAKKA*      | <br>15  | <br>12^ | <br>11^ | <br>15  | <br>18  | <br>18  |
     | **MARLN**      | 16  | 17  | 17  | 12^ | 18  | 15  |
     | **RIVET**      | 11^ | 18  | 15  | 16  | 15  | 18  |
-    | **ODALE**<br>*Feeder Fix: AKMIR*      | <br>11^ | <br>18  | <br>16  | <br>17  | <br>16  | <br>18  |
+    | **ODALE**<br>*Feeder Fix: WELSH*      | <br>11^ | <br>18  | <br>16  | <br>17  | <br>16  | <br>18  |
 
 === "Non-Jets"
     | STAR       | RWY 07  | RWY 16L | RWY 16R | RWY 25  | RWY 34L | RWY 34R |
@@ -371,7 +371,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **MEPIL**<br>*Feeder Fix: YAKKA*      | <br>17  | <br>13^ | <br>13^ | <br>16  | <br>20  | <br>20  |
     | **MARLN**      | 18  | 19  | 20  | 13^ | 20  | 17  |
     | **RIVET**      | 12^ | 20  | 17  | 18  | 17  | 20  |
-    | **ODALE**<br>*Feeder Fix: AKMIR*      | <br>13^ | <br>21  | <br>18  | <br>19  | <br>18  | <br>20  |
+    | **ODALE**<br>*Feeder Fix: WELSH*      | <br>13^ | <br>21  | <br>18  | <br>19  | <br>18  | <br>20  |
 
 
 #### Corrections
