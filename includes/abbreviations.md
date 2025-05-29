@@ -57,6 +57,7 @@
 *[ARP]: Aerodrome Reference Point
 *[SVFR]: Special VFR
 *[MTOW]: Maximum Takeoff Weight
+*[SDC]: Standard Departure Clearance
 *[AAW]: Adelaide Approach West
 *[AAE]: Adelaide Approach East
 *[BAC]: Brisbane (Gold Coast) Approach
@@ -124,6 +125,7 @@
 *[SWY]: Brisbane (Swampy) Centre
 *[TBP]: Brisbane (Tabletop) Centre
 *[WEG]: Brisbane (Warrego) Centre
+*[WIL]: Brisbane (Willis) Centre
 *[COL]: Brisbane (Coral) Radio
 *[FLD]: Brisbane (Flinders) Radio
 *[HWE]: Brisbane (Howe) Centre
@@ -165,6 +167,17 @@
 *[CSF]: Cairns Flow
 *[CBF]: Canberra Flow
 *[PFL]: Perth Flow
+*[AYPYA]: Jacksons Radar
+*[AYNZA]: Nadzab Approach
+*[NWWWA]: Tontouta Approach
+*[NWWWT]: Tontouta Approach (Terminal)
+*[NFFNA]: Nadi Approach
+*[NFNAA]: Nausori Approach
+*[AYNZ]: Nadzab
+*[AYGA]: Goroka
+*[AYMD]: Madang
+*[AYMH]: Mt Hagen
+*[AYTK]: Tokua
 *[GGO]: Goonoo Goonoo Station
 *[WBH]: Wallabadah
 *[NUN]: Nundle

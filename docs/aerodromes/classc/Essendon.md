@@ -109,9 +109,9 @@ YMEN ATIS identifiers only uses letters `A` through to `M`, due to nearby YMML u
 When an aircraft requests start clearance, the EN SMC controller shall coordinate with ML TCU to obtain the start clearance.
 
 #### Departures
-[Next](../../controller-skills/coordination.md#next) coordination is required from ED ADC to AD TCU for all aircraft **entering ML TCU CTA**.
+[Next](../../controller-skills/coordination.md#next) coordination is required from EN ADC to ML TCU for all aircraft **entering ML TCU CTA**.
 
-The Standard Assignable level from ED ADC to AD TCU is:
+The Standard Assignable level from EN ADC to ML TCU is:
 
 | Aircraft | Level |
 | -------- | ----- |

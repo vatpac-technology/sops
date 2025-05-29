@@ -109,6 +109,53 @@ During times of peak fixed wing traffic, instruct helicopters to hold at their d
 
 Helipad 1 is controlled by **SY ADC** and treated like a runway (landing clearances required).  All other pads are outside Tower's jurisdiction and do not require a takeoff/landing clearance.  Helicopters should be instructed to *'report on the ground'* so the controller knows when they are no longer active in their airspace.
 
+#### Hospital Helipads
+The Sydney CTR contains a number of hospital helipads to the west, north, and east of YSSY. These pads sit outside the manoeuvring area, so no takeoff or landing clearances should be issued. Instead, helicopters should be instructed to report airborne or report on the ground.
+
+Arriving helicopters will be cleared for a visual approach by **SY TCU** and transferred to **SY ADC**. ADC should instruct these aircraft to report on the ground. During times of poor weather, helicopters may be cleared for the ILS approach to the closest runway with an expectation of breaking off the approach and tracking to the hospital when they become visual. In these situations, SY TCU will coordinate any approach expectations to ADC.
+
+!!! phraseology
+    *RSCU201 is a VFR AW139 helicopter inbound from the southwest for St George Hospital (YXSG).*  
+    **RSCU201**: "Sydney Tower, helicopter RSCU201"  
+    **SY ADC**: "RSCU201, Sydney Tower, report on the ground"
+
+!!! phraseology
+    *RSCU207 is an IFR AW139 helicopter cleared the RWY 16L ILS with intentions to track for Royal Prince Alfred Hsopital (YRPA).*  
+    **RSCU207**: "Sydney Tower, helicopter RSCU207"  
+    **SY ADC**: "RSCU207, Sydney Tower, report visual"  
+    **RSCU207**: "Wilco, RSCU207"  
+
+    **RSCU207**: "RSCU207, visual"  
+    **SY ADC**: "RSCU207, track direct to RPA, cleared visual approach, report on the ground"  
+    **RSCU207**: "Track direct RPA, cleared visual approach, RSCU207"
+
+Departing helicopters require an airways clearance to either transit the CTR into the adjacent Class G airspace, or to enter the overlying CTA as per their filed route. It may be necessary to instruct departing helicopters to maintain own separation with other aircraft in the CTR if a suitable gap is not available for their departure.
+
+!!! phraseology
+    *LIFE21 is a VFR BK117 helicopter outbound from Sydney Childrens Hospital (YXSN), intending to track via Victor 1 to YLSB.*  
+    **LIFE21**: "Sydney Tower, helicopter LIFE21, Sydney Childrens Hospital, for transit to Victor 1, ready"  
+    **SY ADC**: "LIFE21, traffic is a Boeing 737 on a 5nm final to runway 25, report sighting and able to maintain own separation"  
+    **LIFE21**: "Traffic sighted and able to maintain own separation, LIFE21"  
+    **SY ADC**: "LIFE21, maintain own separation with the 737, cleared to transit to Victor 1, not above A005, report airborne"  
+    **LIFE21**: "Maintain own separation with the 737, cleared to transit to Victor 1, not above A005, LIFE21"
+
+    *Remember to pass traffic information to both aircraft.*  
+    **SY ADC**: "QFA843, traffic is a helicopter becoming airborne at a hospital approximately 3nm east of the field, maintaining own separation with you, runway 25, cleared to land"
+
+Helicopters intending to enter SY TCU CTA must be first coordinated with SY TCU. Once the aircraft reports airborne and is clear of any conflicts in ADC's airspace, they should be transferred to the TCU.
+
+!!! phraseology
+    *RSCU209 is an IFR AW139 helicopter outbound from St George Hospital (YXSG) for Orange (YORG) at A045.*  
+    **RSCU209**: "Sydney Tower, helicopter RSCU209, St George Hospital, for Orange, ready, request clearance"  
+    **SY ADC**: "RSCU209, standby"  
+
+    <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Next, helicopter RSCU209, outbound from St George Hospital for the west"  
+    <span class="hotline">**SY TCU** -> **SY ADC**</span>: "RSCU209, A030"  
+    <span class="hotline">**SY ADC** -> **SY TCU**</span>: "A030, RSCU209"  
+
+    **SY ADC**: "RSCU209, cleared to YORG via KADOM, flight planned route, climb to A030, squawk 0545, report airborne"  
+    **RSCU209**: "Cleared to YORG via KADOM, flight planned route, climb to A030, squawk 0545, RSCU209"    
+
 ## Maneuvering Area Responsibility
 <figure markdown>
 ![YSSY Maneuvering Area](img/yssymaown.png){ width="500" }
@@ -438,14 +485,17 @@ Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-divis
 ### Standard Assignable Departure Headings
 Aircraft that have been cleared the **SY (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required to the SY TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
 
-| Runway | Jet | Non-Jet 
-| ----------------- | -------------- | ---------------- |
-| 07                | 070         | 020, 110       |
-| 16L                | 125          | 125 (RWY 25 in use), 090 (RWY 25 not in use) |
-| 16R               | 170         | 210         |
-| 25                | 300, 240          | 020, 210, 240 |
-| 34L                | 290          | 230 |
-| 34R                | 030, 070          | 350 |
+| Runway     | Jet         | Non-Jet                                        |
+| ---------- | :---------: | :--------------------------------------------: |
+| RWY 07     | 070         | H020, H110                                     |
+| RWY 16L    | 125         | H125 (RWY 25 in use), H090 (RWY 25 not in use) |
+| RWY 16R    | 170         | H210                                           |
+| RWY 25     | 300, 240    | H020, H210, H240                               |
+| RWY 34L    | 290         | H230                                           |
+| RWY 34R    | 030, 070    | H350                                           |
+
+!!! note
+    Where multiple standard assignable headings are available, assign the heading most suitable for the aircraft's direction of flight.
 
 !!! tip
     If strong winds are present at altitude, ADC/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.

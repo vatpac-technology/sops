@@ -26,7 +26,7 @@ ADC South takes responsibility for the South Runway, Circuit and Airspace (Runwa
 
 ADC South is **not permitted** online when *Single Runway* Operations are in use.
 
-Refer to the [ATIS section](#runway-nomination) for information on ATIS formatting when ADC 2 is online.
+Refer to the [ATIS section](#runway-nomination) for information on ATIS formatting when ADC South is online.
 
 ## Airspace
 <figure markdown>
@@ -133,8 +133,8 @@ ARL/MDE will heads-up coordinate all arrivals/overfliers to TW ADC
 
 The Standard Assignable level from ARL/MDE to TW ADC is `A080`, any other level must be prior coordinated.
 
-#### ADC 2 Online
-When ADC 2 is online, ARL/MDE may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
+#### ADC South Online
+When ADC South is online, ARL/MDE may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
 
 ### TW ADC Internal
 TW ADC must heads-up coordinate **all aircraft** transiting from one ADC controller to the other.
