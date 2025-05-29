@@ -148,11 +148,6 @@ Then we continue our assessment. Assess for:
     Sometimes, Practice Instrument Approaches in the vicinity of busy Class C Aerodromes such as YMML, YSSY, YBBN, etc, will cause too much of a traffic headache to be viable. Practice Instrument Approaches are a low priority item, and can be denied if the traffic situation impedes it
 
 #### Sector Entries and Holds
-<figure markdown>
-![Sector Entry Diagram](img/sectorentry.png){ width="500" }
-  <figcaption>Sector Entry Diagram</figcaption>
-</figure>
-
 A Sector Entry is a procedure pilots use to commence an approach. The type of turn made prior to the commencement of the approach differs based on which direction the aircraft is joing from. That is all we really need to know as a controller. No need to overcomplicate things as a controller, simply ask the following:
 
 !!! phraseology
