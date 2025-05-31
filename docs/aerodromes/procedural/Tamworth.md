@@ -34,9 +34,13 @@ Refer to the [ATIS section](#runway-nomination) for information on ATIS formatti
   <figcaption>TW ADC Airspace</figcaption>
 </figure>
 
-TW ADC is responsible for the Class D airspace in the TW CTR, as well as the Class C airspace between `A045` and `A065`.
+## Taxiways
+Taxiway B west of C is limited to 8000KG AUW and 23M MAX wingspan. Common airliners including Dash 8 Q400s will need to enter/exit runway 12L/30R via intersection C.
 
-Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
+<figure markdown>
+![TW TWY](img/TW west of C.png){ width="800" }
+  <figcaption>Twy B west of C shown in red</figcaption>
+</figure>
 
 ### Dual ADC Operations
 When ADC South is Online, they are responsible for the airspace between the **TW** 160 Radial, West through to the 295 Radial.
