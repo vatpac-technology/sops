@@ -107,6 +107,16 @@ During day VMC only, simultaneous parallel runway operations may be used between
 
 In the absense of day VMC, dependent parallel runway operations may be conducted, with an adequate separation standard in place between aircraft operating from adjacent runways.
 
+## VFR Departures/Arrivals
+VFR aircraft departing between the 160 radial through to the 295 radial should report ready **GST** or **GWT**.
+
+VFR Arrivals from the 160 radial through to the 295 radial should route via **DUA**. Clearance required prior to DUA. Aircraft should report 5NM for circuit entry instructions.
+
+<figure markdown>
+![TW VFR Routes](img/TW_VFR_routes.png){ width="800" }
+  <figcaption>VFR Routes</figcaption>
+</figure>
+
 ## Circuits
 Circuits are to be flown in the direction coinciding with the Runway designator (Left/Right) not above `A025`.
 
