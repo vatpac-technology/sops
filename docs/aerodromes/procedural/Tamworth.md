@@ -104,7 +104,7 @@ During day VMC only, simultaneous parallel runway operations may be used between
 In the absense of day VMC, dependent parallel runway operations may be conducted, with an adequate separation standard in place between aircraft operating from adjacent runways.
 
 ## Circuits
-Circuits are to be flown in the direction coinciding with the Runway designator (Left/Right) at `A024`.
+Circuits are to be flown in the direction coinciding with the Runway designator (Left/Right) not above `A025`.
 
 ## ATIS
 ### Runway Nomination
