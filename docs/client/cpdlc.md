@@ -21,7 +21,7 @@ The vatACARS client can be downloaded by clicking [here](https://vatacars.com/){
 If the client is installed correctly, there will be an *ACARS* drop-down box available in vatSys.
 
 <figure markdown>
-![vatACARS Dropdown](../controller-skills/img/vatacarsbar.png){ width="700" }
+![vatACARS Dropdown](../controller-skills/img/vatacarsbar.png){ width="800" }
 </figure>
 
 ## Pre-Departure Clearance
@@ -40,7 +40,7 @@ After logging onto the VATSIM network, controllers **MUST** note in their contro
 The controller should then open the vatACARS *Setup* window, fill in the relevent details, and click *Connect*.
 
 <figure markdown>
-![vatACARS Setup](../controller-skills/img/vatacarslogonnew.png){ width="700" }
+![vatACARS Setup](../controller-skills/img/vatacarslogon.png){ width="400" }
 </figure>
 
 **Station Code:** The identifier of the position which is being controlled.          
@@ -50,7 +50,7 @@ Once connected with CPDLC enabled, pilots will connect to the vatACARS plugin vi
 
 
 <figure markdown>
-![vatACARS Setup](../controller-skills/img/vatacarspdc.png){ width="700" }
+![vatACARS Setup](../controller-skills/img/vatacarspdc.png){ width="400" }
 </figure>
 
 Pilots must still read back their SID, squawk, and bay number on the frequency, even if they have acknowledged receipt of the PDC through vatACARS with the *'Roger'* response.
@@ -73,7 +73,7 @@ After logging onto the VATSIM network, controllers **MUST** note in their contro
 The controller should then open the vatACARS *Setup* window, fill in the relevent details, and click *Connect*.
 
 <figure markdown>
-![vatACARS Setup](../controller-skills/img/vatacarslogon.png){ width="700" }
+![vatACARS Setup](../controller-skills/img/vatacarslogon.png){ width="400" }
 </figure>
 
 **Station Code:** The identifier of the position which is being controlled.          
@@ -128,13 +128,13 @@ When either a pilot sends a request or ATC wishes to send a message to the pilot
 This is used to select from a group of relevant messages to send back to the pilot.   
 
 <figure markdown>
-![vatACARS Setup](../controller-skills/img/vatacarseditor2.png){ width="700" }
+![vatACARS Setup](../controller-skills/img/vatacarseditor2.png){ width="600" }
 </figure>
 
 If the message you wish to send is not shown in this initial dispatch window, click the *Edit* button to show more messages to send to the pilot.
 
 <figure markdown>
-![vatACARS Setup](../controller-skills/img/vatacarseditor1.png){ width="700" }
+![vatACARS Setup](../controller-skills/img/vatacarseditor1.png){ width="600" }
 </figure>
 
 Left-clicking the number next to the text box cycles forward through up to five lines of text, while right-clicking moves to the previous line.
@@ -146,7 +146,7 @@ Left-clicking the number next to the text box cycles forward through up to five 
 When transferring between enroute or oceanic sectors, ATC should right click on the aircraft which will bring up a handover window. The controller should select the next ATC unit to transfer the aircraft.
 
 <figure markdown>
-![vatACARS Setup](../controller-skills/img/vatacarshandoff.png){ width="700" }
+![vatACARS Setup](../controller-skills/img/vatacarshandoff.png){ width="500" }
 </figure>
 
 #### ENR/TCU
@@ -158,5 +158,5 @@ Standard Voice frequency transfers must be used for aircraft below `F245` and be
 If CPDLC is no longer available or required, ATC should right-click on the aircraft and select *'LOGOFF'* to send the aircraft a CPDLC logoff message.
 
 <figure markdown>
-![vatACARS Setup](../controller-skills/img/vatacarshandoff.png){ width="700" }
+![vatACARS Setup](../controller-skills/img/vatacarshandoff.png){ width="500" }
 </figure>
