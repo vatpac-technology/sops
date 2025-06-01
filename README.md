@@ -8,6 +8,9 @@ Contribution guidelines can be found within the project under [the Contribute ta
 
 **Before contributing** you should liaise with the VATPAC ATS Team to ascertain whether that particular SOP is needed. There is a fine-line between enabling a realistic service, and making our SOPs easy to navigate and understand.  
 
+### Image/Asset Source Files
+All source files used to generate custom-made images or other assets should be saved to the [Image Source Files](https://github.com/vatpac-technology/image-source-files) repo, allowing future edits if necessary.
+
 ## Build and Deployment
 
 This project uses some basic CI to automatically push the latest commits to the `main` branch to GitHub Pages. 

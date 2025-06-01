@@ -20,6 +20,24 @@ Except when the traffic situation warrants, taxi clearances shall conform to the
   <figcaption>YMML Standard Taxi Routes</figcaption>
 </figure>
 
+### Taxiway Construction
+In the real world, a number of projects are shaping the layout of YMML. Simulator scenery packages are often slow to respond to these changes and different pilots may have different aerodrome layouts available to them. Controllers should continue to give taxi instructions in accordance with the ground map in vatSys, but they should be prepared to accommodate pilots using a variety of scenery packages.
+
+<figure markdown>
+![Taxiway Works](img/ymmltaxiwayworks.png){width="700"}
+    <figcaption>Taxiway Works</figcaption>
+</figure>
+
+#### Taxiway D/E
+An additional taxiway parallel to runway 27 has been built, named taxiway D. This is allowing for taxiway E to be removed and reconstructed in a slightly different position.
+
+The majority of simulators do not have scenery which reflects this construction, however X-Plane (and possibly some other niche scenery packages) do.
+
+#### Taxiway Y Apron Taxi Lanes
+The apron off taxiway Y has been amended to include two separate taxi lanes, capable of facilitating simultaneous pushbacks from aircraft at Pier F and Pier G.
+
+The majority of simulators will still have the old apron layout with a single taxi lane between the two piers. Controllers should be wary of the potential for collision if simultanous pushback approval is given to aircraft in this area.
+
 ## Airspace
 ML ADC is not responsible for any airspace by default.
 
@@ -70,7 +88,7 @@ Shall be assigned the **Radar SID**.
 
 ## LAHSO
 !!! warning "Important"
-    Due to its operational complexity, LAHSO **must be authorised by a member of the VATPAC ATS or Events Staff Team or a C3-rated controller**.
+    Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
 
     Very little benefit is achieved by running LAHSO without a flow controller and it is almost exclusively reserved for our busiest events.
 
@@ -167,6 +185,16 @@ In the real world, YMML utilises Towbar Disconnect Points (TDPs) to allow predic
 
 ## Workload Management
 During busy events, such as [Milk Run Monday](../../../events/milkrun/), the **SMC** controller may end up with a much higher workload than the **ACD** controller. Additionally, delays may need to be implemented for aircraft requesting pushback, so as to not overload the taxiways and holding points.
+
+### Departure Queueing
+Where excessive queueing is taking place at the holding points, minimise its effect on the surrounding taxiways by strategically positioning outbound aircraft to keep the main arterial taxiways clear.
+
+Particular attention should be paid to departures for runways 27 and 34. Taxiway E may be used to keep runway 27 departures clear of the inbound path to the northern aprons. Taxiway V may be used to keep runway 34 departures (via the J intersection) clear of Taxiway A, allowing aircraft to transit to all aprons or taxi for a full length departure.
+
+<figure markdown>
+![Segregated queues for runway 34 keeping Taxiway A clear](./img/mlsmcqueue.png){ width="800" }
+  <figcaption>Segregated queues for runway 34 keeping Taxiway A clear</figcaption>
+</figure>
 
 ### Pushback Requests on ACD
 To mitigate this, pushback requests may be done on **ACD** frequency, to balance the workload. A few steps must be followed to properly execute this procedure.
@@ -274,11 +302,11 @@ Aircraft that have been cleared the **ML (RADAR) SID** must receive an assigned 
 The following Standard Assignable Headings may be used for aircraft assigned the ML (RADAR) SID, depending on their direction of travel.
 
 | Runway | W | NE | SE | S |
-| ---- | ---- | ---- | ---- | ---- |
-| 09* | - | - | - | - |
-| 16** | 290 | 290 | 160 | 260 |
-| 27 | 320 | 290 | 260 | 260 |
-| 34 | 340 | 340 | 340 | 260 |
+| ---- | :----: | :----: | :----: | :----: |
+| RWY 09* | - | - | - | - |
+| RWY 16** | H290 | H290 | H160 | H260 |
+| RWY 27 | H320 | H290 | H260 | H260 |
+| RWY 34 | H340 | H340 | H340 | H260 |
 
 *When Runway 09 is in use for departures, ML TCU shall nominate a heading to ML ADC for use as a standard assignable heading.
 

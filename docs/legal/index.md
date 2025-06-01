@@ -1,10 +1,17 @@
 ---
-  title: Attribution and Credits
+  title: Legal
 ---
+
+# Disclaimer
+
+The content on this website is for **Flight Simulation use only**.  
+It is provided **'as is' without any warranties or guarantees**, and must **not be used for real-world aviation or any other use**. No liability is accepted for any errors, omissions, or consequences arising from its use.
+
+---
+
+# Dependencies
 
 This project utilizes several open-source tools, resources, and libraries. We acknowledge and thank the developers and contributors of these projects for their efforts.
-
----
 
 ## Python Dependencies
 
@@ -648,14 +655,6 @@ This workflow sends a notification to Discord when a pull request is merged and 
   Source: [Iconduck](https://iconduck.com/icons/158434/helicopter-pad)
 
   *Note:* When using this icon, ensure to provide appropriate credit, a link to the license, and indicate if changes were made, as per the terms of the [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).
-
----
-
-## Disclaimer
-
-The content on this website is intended for Flight Simulation use only.
-
-This project is built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/), a Material Design theme for MkDocs, and incorporates additional features from the aforementioned plugins and tools.
 
 ---
 

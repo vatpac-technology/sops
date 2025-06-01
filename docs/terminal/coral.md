@@ -105,5 +105,5 @@ COR TCU will coordinate all YBMK and YBRK arrivals to ADC prior to **5 mins** fr
 - IFR Circuit joining instructions, if not on Straight-in instrument approach
 
 !!! phraseology
-    <span class="hotline">**RKA** -> **RK ADC**</span>: "via ABVAS, DJU, for the VOR-A”  
+    <span class="hotline">**RKA** -> **RK ADC**</span>: "via ABVAS, DJU, for the VOR-A"  
     <span class="hotline">**RK ADC** -> **RKA**</span>: "DJU, VOR-A"

@@ -59,7 +59,7 @@ Due to the low ceiling of CTA, when CFS ADC is offline, INL shall instruct aircr
 #### YBBN Arrivals
 INL is responsible for initial sequencing, issuing STAR Clearances, and issuing initial descent to not below `F190`.
 
-Refer to the [Sequencing into YBBN](#sequencing-into-ybbn) notes below regarding adjacent Feeder Fixes.
+Refer to the [Sequencing into YBBN](#sequencing-in-to-ybbn) notes below regarding adjacent Feeder Fixes.
 
 #### YBCG Arrivals
 INL is responsible for initial sequencing, issuing STAR Clearances, and issuing initial descent to not below `F190`.
@@ -85,7 +85,7 @@ SDY is responsible for processing aircraft from offshore SUA to YAMB via the CEN
 #### YBBN Arrivals
 BUR is responsible for sequencing, issuing STAR Clearances, and issuing descent.
 
-Refer to the [Sequencing into YBBN](#sequencing-into-ybbn) notes below regarding adjacent Feeder Fixes.
+Refer to the [Sequencing into YBBN](#sequencing-in-to-ybbn) notes below regarding adjacent Feeder Fixes.
 
 #### YBCG Arrivals
 BUR is responsible for sequencing, issuing STAR Clearances, and issuing descent.
@@ -97,7 +97,7 @@ BUR is responsible for issuing final descent.
 #### YBBN Arrivals
 GOL is responsible for final sequencing and descent.
 
-Refer to the [Sequencing into YBBN](#sequencing-into-ybbn) notes below regarding adjacent Feeder Fixes.
+Refer to the [Sequencing into YBBN](#sequencing-in-to-ybbn) notes below regarding adjacent Feeder Fixes.
 
 #### YBCG Arrivals
 GOL is responsible for final sequencing and descent.
@@ -123,6 +123,18 @@ Aircraft assigned the **same runway** inbound via:
 
 Must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
+#### Holding Fixes
+Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YBBN. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
+
+| Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
+| ---- | ---- | ---- |
+| TEBOT | ATROP | 2 min |
+| UGTUG | SAVER | 2 min |
+| Others | Feeder Fix | - |
+
+!!! tip
+    Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector. 
+
 ## STAR Clearance Expectation
 ### Handoff
 Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
@@ -143,7 +155,7 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | KPL/CVN | BUR, DOS | YBBN, YBCG | |
 | INL | GOL | YBSU | |
 
-## STAR Assignment
+## YBBN STAR Assignment
 ### PROPS
 When operating a PROPS Runway Mode, Aircraft shall be assigned the appropriate 'Alpha' STAR (or other STAR on pilot request), with the following runway selection:
 
