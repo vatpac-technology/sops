@@ -266,7 +266,7 @@ If there is no flight plan, simply create a Quicktag for the aircraft, and assig
 #### Assessment
 <figure markdown>
 ![YSHL Area](img/pjeshl.png){ width="800" }
-  <figcaption>YSHL Area (Flagstaff Point position from on VTC)</figcaption>
+  <figcaption>Flagstaff Point position reference YSHL</figcaption>
 </figure>
 
 Assess for:
