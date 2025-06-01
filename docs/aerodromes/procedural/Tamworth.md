@@ -38,20 +38,21 @@ TW ADC is responsible for the Class D airspace in the TW CTR, as well as the Cla
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
-## Taxiways
-Taxiway B west of C is limited to 8000KG AUW and 23M MAX wingspan. Common airliners including Dash 8 Q400s will need to enter/exit runway 12L/30R via intersection C.
-
-<figure markdown>
-![TW TWY](img/TW_west_of_C.png){ width="800" }
-  <figcaption>Twy B west of C shown in red</figcaption>
-</figure>
-
 ### Dual ADC Operations
 When ADC South is Online, they are responsible for the airspace between the **TW** 160 Radial, West through to the 295 Radial.
 
 <figure markdown>
 ![TW Dual ADC Airspace](img/twadcown.png){ width="600" }
   <figcaption>TW Dual ADC Airspace</figcaption>
+</figure>
+
+## Maneuvering Area
+### Taxiway Restrictions
+**Taxiway B** west of Taxiway C is limited to aircraft 8000KG AUW and 23M MAX wingspan. Common airliners including Dash 8 Q400s exceed these restrictions and must enter/exit Runway 12L/30R via Taxiway C.
+
+<figure markdown>
+![TW TWY](img/TW_west_of_C.png){ width="800" }
+  <figcaption>Taxiway B west of C (in red)</figcaption>
 </figure>
 
 ## Surveillance
