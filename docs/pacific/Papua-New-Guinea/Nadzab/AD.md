@@ -48,53 +48,13 @@ AYNZ ADC will clear relevant departures via the appropriate coded SDC, write the
 
 A list of the Standard Departure Clearances is available in the [AIP Flight Supplement](#charts).
 
-## VFR Operations
-### Departure/Arrival Gates
-Aircraft should report at the standard VFR Departure/Arrival Gates.
-
-<figure markdown>
-![AYNZ VFR Departure/Arrival Gates](../img/aynz_vfr.png){ width="500" }
-  <figcaption>AYNZ VFR Departure/Arrival Gates</figcaption>
-</figure>
-
-| Direction from AYNZ | Code | Name | Dep/Arr |
-| ------------------- | ---- | ---- | ------- |
-| North | SIG | Saidor Gap | Both |
-| North | KGG | Kisengang Gap | Both |
-| East | IBG | Igam Barracks | Both |
-| Southeast | LWA | Lake Wanum | Both |
-| Southeast | SUG | Sugar Loaf | Both |
-| Southeast | SAL | Salamaua | Both |
-| Southeast | MKB | Markham Bridge | Both |
-| South | LSN | Lower Snake Gap | Both |
-| South | TMN | Timini | Both|
-| Southwest | PES | Pesen | Both |
-| West | RUM | Rumion | Both |
-| West | JCN | Junction |
-
-### Inbound/Outbound Routes
-| Victor | Inbound | Outbound |
-| ------ | ------- | -------- |
-| Alpha | IBG-Ngaro Post Office | Ngaro Post Office-IBG |
-| Mike | Lae-MKB-Umsis-Mt Ngaroneno | Mt Ngaroneno-Umsis-MKB-Lae |
-| "The Wampit" (WAM) | TMN to Gabensis following the Lae-Bulolo Road | Gabensis to TMN following Lae-Bulolo Road |
-| Tango | Mari-TMN | TMN-Mari |
-| Whiskey | From PES H057, south of Watut River until abeam JCN | 237 NZ radial to PSN, south of Watut River once abeam JCN |
-
+<!---## VFR Operations 
 ## Helicopter Operations
-### Helipads and Landing Areas
-There are no controlled helipads at AYNZ. While most helicopters operate in Lae outside the AYNZ CTR, there is a private helipad within the CTR at the Crossroads Hotel, 12.9NM southeast of the ARP. 
-
-Helicopters using this helipad be instructed to 'report on the ground'/'report when airbourne' in lieu of an explicit clearance.
-
-!!! important
-	The Crossroads helipad sits less than 1NM northeast of the LARID-NZ. Helicopters using the pad **are not** laterally separated from aircraft tracking LARID-NZ *or* from aicraft on the VOR approach to Runway 27. AYNZ ADC must ensure an alternate separation standard is in place at all times.
-	
-<!---## Runway Modes
->>>>>>> Stashed changes
+## Runway Modes
 ### Runway Selection
 ### Special Runway Operations
 ### Circuits -->
+
 ## SID Selection
 There are no SIDs at AYNZ. In **VMC by day**, all aircraft shall be assigned a **visual departure**. 
 
@@ -116,7 +76,7 @@ The Standard Assignable Level from **AYNZ ADC** to **AYNZA** is:
 | -------- | ----- |
 | All | The lower of `A050` and `RFL` |
    
-### Arrivals
+#### Arrivals
 AYNZA will **heads-up** coordinate all arrivals/overfliers to AYNZ ADC.
 
 - Aircraft on an instrument approach will be cleared for the approach prior to handoff to AYNZ ADC, unless AYNZ ADC nominates a restriction.
