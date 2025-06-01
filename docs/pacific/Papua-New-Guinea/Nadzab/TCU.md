@@ -1,3 +1,7 @@
+---
+  title: Terminal
+---
+
 --8<-- "includes/abbreviations.md"
 
 ## Positions
@@ -26,6 +30,7 @@ Surveillance coverage can be expected to be available at all levels in the AYNZ 
 In **VMC by day**, all aircraft shall be assigned a visual approach.
 
 In all other situations:
+
 - IFR aircraft shall be assigned either the **RNAV** or the **VOR/DME** approach.
 <!--- ##  Departure/Arrival Procedures
 ## Tower Offline Procedures
@@ -53,6 +58,9 @@ AYPM will **heads-up** coordinate all arrivals/overfliers to AYNZA.
 The Standard Assignable level from AYPM to AYNZA is `F250`. Any other level must be prior coordinated.
 	
 ### AYNZ ADC
+#### Airspace
+AYNZ ADC is responsible for the Class C Airspace within the AYNZ CTR `SFC` to `A060`.
+
 #### Departures
 [Next](../../../controller-skills/coordination.md#next) coordination is required from AYNZ ADC to AYNZA for all aircraft **entering AYNZA CTA**.
 
@@ -62,8 +70,10 @@ The Standard Assignable Level from **AYNZ ADC** to **AYNZA** is:
 | -------- | ---- |
 | All | The lower of `A050` and `RFL` |
    
+#### Arrivals
 ##### Arrivals
 AYNZA will **heads-up** coordinate all arrivals/overfliers to AYNZ ADC.
+
 - Aircraft on an instrument approach will be cleared for the approach prior to handoff to AYNZ ADC, unless AYNZ ADC nominates a restriction.
 - Aircraft on a visual approach will be coordinated, but will receive their approach clearance and circuit joining instructions from AYNZ ADC.
 
