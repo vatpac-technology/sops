@@ -63,7 +63,7 @@ When activated, the airspace is administered by AYPYA.
 There are no controlled helipads at AYPY. Multiple uncontrolled helipads have been established on the apron by private operators.
 
 <figure markdown>
-![Uncontrolled AYPY Helipads](img/aypy_helipads.png){ width="700" }
+![Uncontrolled AYPY Helipads](../img/aypy_helipads.png){ width="700" }
   <figcaption>Uncontrolled AYPY Helipads</figcaption>
 </figure>
 
