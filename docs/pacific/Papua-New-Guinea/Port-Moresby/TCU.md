@@ -92,7 +92,10 @@ AYPY ADC is responsible for the Class C Airspace within the AYPY CTR `SFC` to `A
 
 All other aircraft require a 'Next' call to AYPYA.
 
-The standard assignable level from AYPY ADC to AYPYA is the lower of `A050` or the `RFL`.
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `A050` and `RFL` |
+
 
 ## Charts
 !!! abstract "Reference"

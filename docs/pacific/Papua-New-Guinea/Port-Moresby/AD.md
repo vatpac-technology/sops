@@ -121,7 +121,11 @@ If visual approaches are in operation the APCH field must state `EXP VISUAL APCH
 
 All other aircraft require a 'Next' call to AYPYA.
 
-The standard assignable level from AYPY ADC to AYPYA is the lower of `A050` or the `RFL`.
+The standard assignable level from AYPY ADC to AYPYA is:
+
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `A050` and `RFL` |
 
 ## Charts
 !!! abstract "Reference"
