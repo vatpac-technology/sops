@@ -69,8 +69,7 @@ The Standard Assignable Level from **AYNZ ADC** to **AYNZA** is:
 | Aircraft | Level |
 | -------- | ---- |
 | All | The lower of `A050` and `RFL` |
-   
-#### Arrivals
+
 ##### Arrivals
 AYNZA will **heads-up** coordinate all arrivals/overfliers to AYNZ ADC.
 
