@@ -69,7 +69,7 @@ There are no controlled helipads at AYPY. Multiple uncontrolled helipads have be
 
 Helicopters also operate from multiple points within the city of Port Moresby (which sits entirely within the AYPY CTR) and outlying villages. Notable sites include the Port Moresby General Hospital carpark (2.58NM southwest of ARP) and the Pacific International Hospital (4.57NM southwest of ARP)
 
-These helipads are outside the controlled maneuvering area and do not receive explicit takeoff/landing clearance. Helicopters using these helipads be instructed to 'report on the ground'/'report when airbourne' in lieu of a explicit clearance.
+These helipads are outside the controlled maneuvering area and do not receive explicit takeoff/landing clearance. Helicopters using these helipads be instructed to 'report on the ground'/'report when airbourne' in lieu of an explicit takeoff/landing clearance.
 
 ## Runway Modes
 ### Runway Selection
@@ -121,7 +121,7 @@ If visual approaches are in operation the APCH field must state `EXP VISUAL APCH
 
 All other aircraft require a 'Next' call to AYPYA.
 
-The standard assignable level from AYPY ADC to AYPYA is:
+The standard assignable level from **AYPY ADC** to **AYPYA** is:
 
 | Aircraft | Level |
 | -------- | ----- |
