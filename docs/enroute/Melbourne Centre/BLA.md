@@ -49,7 +49,7 @@ When **AY ADC** is offline, AY CTR (Class D and C `SFC` to `A085`) reverts to Cl
 #### YMML Arrivals
 ELW is responsible for the final sequencing actions, final descent, and issuing STAR clearances to Non-jets.
 
-Refer to the [Sequencing into YMML](#sequencing-into-ymml) notes below regarding adjacent Feeder Fixes.
+Refer to the [Sequencing into YMML](#sequencing-in-to-ymml) notes below regarding adjacent Feeder Fixes.
 
 #### YMAV Arrivals
 ELW is responsible for issuing final descent, and STAR clearances to Non-jets.
@@ -80,12 +80,31 @@ When Runway 35 is in use at YSCB, by default, vatSys will select the POLLI STAR 
   <figcaption>POLLI STAR with EBONY transition</figcaption>
 </figure>
 
+##### Holding Fixes
+Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YSCB. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
+
+| Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
+| ---- | ---- | ---- |
+| MANDA | NONUP | Jets: 3 min<br>Non-Jets: 4 min |
+| Others | Feeder Fix | - |
+
 ### Sequencing in to YMML
 Aircraft assigned the **same runway** inbound via **LIZZI** and **BOYSE**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
+#### Holding Fixes
+Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YMML. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
+
+| Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
+| ---- | ---- | ---- |
+| LIZZI | LUVAS | 3 min |
+| BOYSE | TEMIS | 2 min |
+
+!!! tip
+    Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector. 
+
 #### LAHSO
 !!! warning "Important"
-    Due to its operational complexity, LAHSO **must be authorised by a member of the VATPAC ATS or Events Staff Team or a C3-rated controller**.
+    Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
 
 In accordance with the authorisation requirements above, YMML may utilise LAHSO during exceptionally busy events. Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../controller-skills/runwaymanagement.md#lahso) for more information.
 

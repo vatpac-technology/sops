@@ -54,6 +54,88 @@ Aircraft inbound to YCBG who will track via the HBA CTA should be issued an airw
 
 Aircraft inbound to YCBG who will track directly from Class G airspace to the CTR should contact HB ADC for clearance.
 
+## Flow
+### Local Knowledge
+- IFR aircraft inbound to YCBG must be flowed as if they were arriving at YMHB, unless they can accept a visual approach and remain clear of the inbound tracks to YMHB
+
+### Flow Tables
+#### YMHB
+The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
+
+=== "Jets & DH8D"
+    | STAR | RWY 12 | RWY 30 |
+    | ---------- | ---| -- |
+    | **IPLET A**      | 12^ | 12^  |
+    | **IPLET V**      | 10^ | 10^  |
+    | **IPLET W**      | 10^ | 10^  |
+    | **MORGO A**      | 12^ | 15  |
+    | **MORGO V**      | - | 14  |
+    | **MORGO W**      | - | 14  |
+
+=== "Non-Jets"
+    | STAR | RWY 12 | RWY 30 |
+    | ---------- | ---| -- |
+    | **IPLET A**      | 13^ | 13^  |
+    | **IPLET V**      | 11^ | 11^  |
+    | **IPLET W**      | 11^ | 12^  |
+    | **MORGO A**      | 13^ | 17  |
+    | **MORGO V**      | - | 16  |
+    | **MORGO W**      | - | 16  |
+
+#### YMLT
+The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
+
+=== "Jets & DH8D"
+    | Tracking | RWY 14R | RWY 32L |
+    | ---------- | ---| -- |
+    | **IRSOM MLTNE**        | 11^ | - |
+    | **IRSOM NODAS MLTSC**  | - | 16 |
+    | **MIMIM MLTNG**        | 15 | - |
+    | **MIMIM ELREL MLTSA**  | - | 19  |
+    | **LATUM MLTND**        | 15 | - |
+    | **LATUM MLTSB**        | - | 11^  |
+
+=== "Non-Jets"
+    | Tracking | RWY 14R | RWY 32L |
+    | ---------- | ---| -- |
+    | **IRSOM MLTNE**        | 12^ | - |
+    | **IRSOM NODAS MLTSC**  | - | 18 |
+    | **MIMIM MLTNG**        | 17 | - |
+    | **MIMIM ELREL MLTSA**  | - | 21  |
+    | **LATUM MLTND**        | 17 | - |
+    | **LATUM MLTSB**        | - | 12^  |
+
+#### Corrections
+
+| Situation | Correction |
+| ----- | ----- |
+| Assigned a reduced speed | +1 min, *except ^* | 
+| Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
+
+#### Assumptions
+- Nil wind
+- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR 
+
+### YMHB Calculator
+<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
+The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
+
+=== "Landing Time"
+    <div class="flowCalculatorLandingTime" data-aerodrome="YMHB"></div>
+
+=== "Feeder Fix Time"
+    <div class="flowCalculatorFeederFixTime" data-aerodrome="YMHB"></div>
+
+### YMLT Calculator
+<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
+The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
+
+=== "Landing Time"
+    <div class="flowCalculatorLandingTime" data-aerodrome="YMLT"></div>
+
+=== "Feeder Fix Time"
+    <div class="flowCalculatorFeederFixTime" data-aerodrome="YMLT"></div>
+
 ## Coordination
 
 ### Enroute
@@ -119,7 +201,7 @@ HBA will coordinate all YMHB & YCBG arrivals to HB ADC prior to **5 mins** from 
 - IFR circuit joining instructions, if not on straight-in instrument approach
 
 !!! phraseology
-    <span class="hotline">**HBA** -> **HB ADC**</span>: "via BUSKA, QJE1789, for the ILS”  
+    <span class="hotline">**HBA** -> **HB ADC**</span>: "via BUSKA, QJE1789, for the ILS"  
     <span class="hotline">**HB ADC** -> **HBA**</span>: "QJE1789, ILS"
 
 ### LTA
@@ -156,7 +238,7 @@ LTA will coordinate all YMLT arrivals to LT ADC prior to **5 mins** from the bou
 - IFR Circuit joining instructions, if not on Straight-in instrument approach
 
 !!! phraseology
-    <span class="hotline">**LTA** -> **LT ADC**</span>: "via IRSOM, JST416, for the DGA, will join left downwind 32L”  
+    <span class="hotline">**LTA** -> **LT ADC**</span>: "via IRSOM, JST416, for the DGA, will join left downwind 32L"  
     <span class="hotline">**LT ADC** -> **LTA**</span>: "JST416"
 
 ### LTA/HBA Internal

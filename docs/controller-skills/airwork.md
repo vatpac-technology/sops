@@ -137,11 +137,6 @@ A Practice Instrument Approach is simply an aircraft conducting an Instrument Ap
 #### Assessment
 First thing to do, is to bring up the approach chart from the [Airservices Australia DAPs](http://www.airservicesaustralia.com/aip/current/dap/AeroProcChartsTOC.htm){target=new}
 
-<figure markdown>
-![YPPF VOR-A](img/pfvora.png){ width="600" }
-  <figcaption>YPPF VOR-A</figcaption>
-</figure>
-
 Then we continue our assessment. Assess for:
 
 - **Airspace** (What classes of Airspace will the aircraft be operating in? Will the aircraft require a clearance?)  
@@ -153,11 +148,6 @@ Then we continue our assessment. Assess for:
     Sometimes, Practice Instrument Approaches in the vicinity of busy Class C Aerodromes such as YMML, YSSY, YBBN, etc, will cause too much of a traffic headache to be viable. Practice Instrument Approaches are a low priority item, and can be denied if the traffic situation impedes it
 
 #### Sector Entries and Holds
-<figure markdown>
-![Sector Entry Diagram](img/sectorentry.png){ width="500" }
-  <figcaption>Sector Entry Diagram</figcaption>
-</figure>
-
 A Sector Entry is a procedure pilots use to commence an approach. The type of turn made prior to the commencement of the approach differs based on which direction the aircraft is joing from. That is all we really need to know as a controller. No need to overcomplicate things as a controller, simply ask the following:
 
 !!! phraseology
@@ -275,8 +265,8 @@ If there is no flight plan, simply create a Quicktag for the aircraft, and assig
 
 #### Assessment
 <figure markdown>
-![YSHL Area VTC](img/pjeshl.png){ width="800" }
-  <figcaption>YSHL Area VTC</figcaption>
+![YSHL Area](img/pjeshl.png){ width="800" }
+  <figcaption>Flagstaff Point position reference YSHL</figcaption>
 </figure>
 
 Assess for:
