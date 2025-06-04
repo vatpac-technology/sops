@@ -125,10 +125,13 @@
     }
 
     .feature h2 { margin-left: 20px; }
+}
 
-    .feature cards {
+@media screen and (max-width:800px) {
+    .feature .cards {
         flex: 1;
         min-width: 0;
+        flex-direction: column;
     }
 }
 
