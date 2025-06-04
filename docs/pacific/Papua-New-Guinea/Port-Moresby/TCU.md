@@ -96,6 +96,9 @@ All other aircraft require a 'Next' call to AYPYA.
 | -------- | ----- |
 | All | The lower of `A050` and `RFL` |
 
+#### Overfliers
+AYPYA will heads-up coordinate arrivals/overfliers from AYPYA to AYPY ADC prior to **5 mins** from the boundary.
+VFR aircraft require a level readback.  
 
 ## Charts
 !!! abstract "Reference"
