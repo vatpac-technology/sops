@@ -34,13 +34,42 @@ Refer to the [PNG Local instructions](../) for more information about Class F/AT
 ### Start Clearance
 Aircraft require clearance from AYMH ADC before engine start.
 
-<!---## VFR operations
+### Mount Hagen Training Area
+The AYD903 (Mount Hagen) Danger Area is in the north-east AYMH ATZ, `SFC` to `A100`, and is used for flight training and practice approaches.
 
-## Helicopter operations
+<figure markdown>
+![AYD903 (Mount Hagen) Danger Area](../img/ayd903.png){ width="700" }
+    <figcaption>AYD903 (Mount Hagen) Danger Area</figcaption>
+</figure>
+
+The airspace within the Danger Area remains Class F. AYMH ADC will issue traffic information to aircraft reporting entering and when reporting leaving.
+
+
+## VFR Operations
+### Departure/Arrival Gates
+Aircraft should report at the standard VFR Departure/Arrival Gates.
+
+<figure markdown>
+![AYMH VFR Departure/Arrival Gates](../img/aymh_vfr.png){ width="500" }
+  <figcaption>AYMH VFR Departure/Arrival Gates</figcaption>
+</figure>
+
+| Direction from AYMH | Code | Name | Dep/Arr |
+| ------------------- | ---- | ---- | ------- |
+| North | - | Rulna Gap | Both |
+| North | - | Mugu Gap | Both |
+| Northeast | - | Temearne | Both |
+| East | - | Kimil Gap | Both |
+| South | WUG | Wurup Gap | Both |
+| Southwest | KRE | Kuta Ridge | Both |
+| West | TMB | Tomba Gap | Both |
+| North West | DYG | Diayer Gap | Both |
+
+
+<!---## Helicopter operations
 
 ## SID Selection
-
-<!---## ATIS
+## ATIS
 --->
 
 ## Coordination

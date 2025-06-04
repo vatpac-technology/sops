@@ -30,6 +30,32 @@ Refer to the [PNG Local instructions](../) for more information about Class F/AT
 ## Lateral Separation Points
 ## Local Procedures
 ## VFR operations
+## Local Procedures-->
+## VFR Operations
+### Departure/Arrival Gates
+Aircraft should report at the standard VFR Departure/Arrival Gates.
+
+<figure markdown>
+![AYGA VFR Departure/Arrival Gates](../img/ayga_vfr.png){ width="500" }
+  <figcaption>AYGA VFR Departure/Arrival Gates</figcaption>
+</figure>
+
+| Direction from AYGA| Code | Name | Dep/Arr |
+| ------------------- | ---- | ---- | ------- |
+| North | ASG | Asaloka Gap North | Both |
+| North | GG | Goroka Gap | Both |
+| North | KBF | Kabiufa | Both |
+| North | ASN | Asaro North Gap | Both |
+| Northeast | BNG | Bena Gap | Both |
+| Northeast | DWG | Dirty Water Gap | Both |
+| Southeast | HEN | Henganofi | Both |
+| South | ASS | Asaro South Gap | Both |
+| Southwest | KKW | Kawkaw Gap | Both |
+| West | WAN | Watabung Gap | Both |
+| Northwest | DLO | Daulo Pass Gap | Both |
+| Northwest | BUG | Bundi Gap | Both |
+
+<!--
 ## Helicopter Operations
 --->
 ## Runway Modes
