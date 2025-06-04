@@ -18,6 +18,9 @@
 
 The vertical limits of the NVVV Sector of the Nadi FIR are `SFC` to `F245`.
 
+### NFFF Release
+When NWWW_CTR is online, NFFF Class A airspace `F245`-`UNL` above the New Caledonia sector is released to NWWW_CTR, unless coordinated otherwise.
+
 <!--- ## Reclassifications - No reclassification, NVVV must top-down --->
 <!--- ## Special Positions
 ## Extending --->
