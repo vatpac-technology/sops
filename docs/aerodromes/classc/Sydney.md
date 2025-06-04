@@ -29,14 +29,28 @@ SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005` as 
 </figure>
 
 ### Helicopter Operations
+
+VFR helicopters are generally processed via one of Sydney's Helicopter Routes. There are both inbound and outbound routes. Each procedure is delivered as a coded clearance designed to separate helicopters from fixed-wing aircraft.  
+  
+**Inbound** coded clearances contain tracking, altitudes, a clearance limit and at which waypoint to self-transfer to tower.  
+**Outbound** coded clearances contain tracking and altitude to be flown. Outbound routes typically end at the CTA boundary
+
+You can find each Helicopter Route below, and full details are in the `ERSA FAC YSSY`.
+
+<figure markdown>
+![SY heli routes](img/yssy_heli_routes.png){ width="700" }
+  <figcaption>SY heli routes</figcaption>
+</figure>
+
 Refer to [Heliport Responsibility](#heliport-responsibility) to determine which ADC position (when both are online) is responsible for managing helicopter arrivals and departures.
 
 #### Departures
-VFR helicopters are generally processed via one of Sydney's Helicopter Routes. IFR helicopters should conform to fixed wing ops and be processed via the **SY (RADAR) SID** from an appropriate runway, unless a visual departure is acceptable.
+VFR helicopters are generally processed via an outbound helicopter route (see above)
+IFR helicopters should conform to fixed wing ops and be processed via the **SY (RADAR) SID** from an appropriate runway, unless a visual departure is acceptable.
 
-SY ACD will issue airways clearance for a Helicopter Route through a coded clearance.
+SY ACD will issue VFR airways clearance for a Helicopter Route
 !!! tip
-    You can find details of each Helicopter Route (including applicable clearance limits) in the `ERSA FAC YSSY`.
+    
 
 !!! phraseology
     **YOE:** "Sydney Delivery, helicopter YOE, for the Harbour Bridge 5 outbound, request clearance"  
@@ -67,9 +81,9 @@ Helicopter operations should be accommodated without unduly delaying fixed wing 
     **HSZ:** "Maintain own separation, wilco, HSZ"
 
 #### Arrivals
-VFR helicopters are generally processed via by one of Sydney's Helicopter Routes.  IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway.
+VFR helicopters are generally processed via by one of Sydney's Helicopter Routes (see above).  IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway.
 
-SY TCU will clear helicopters for all inbound Helicopter Routes, with the exception of the `CAPE BANKS 5 INBOUND` and `WANDA 5 INBOUND`.  Tower controllers should assess the current traffic situation and issue clearances for these aircraft when available.  Each procedure is delivered as a coded clearance, which includes automatic altitude assignment, tracking, and a clearance limit designed to separate helicopters from fixed-wing aircraft.
+SY TCU will clear helicopters for all inbound Helicopter Routes, with the exception of the `CAPE BANKS 5 INBOUND` and `WANDA 5 INBOUND`.  Tower controllers should assess the current traffic situation and issue clearances for these aircraft when available.  
 
 !!! phraseology
     **YZD:** "Sydney Tower, helicopter YZD, JIBN, A005, received Tango, request Cape Banks 5 Inbound"  
