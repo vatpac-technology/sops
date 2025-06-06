@@ -18,6 +18,7 @@
 *[PRM]: Precision Runway Monitoring
 *[SODPROPS]: Simultaneous Opposite Direction Parallel Runway Operations
 *[PROPS]: Parallel Runway Operations
+*[RRO]: Reciprocal Runway Operations
 *[SMC]: Surface Movement Control (Ground Controller)
 *[ADC]: Aerodrome Control (Tower Controller)
 *[TCU]: Terminal Control Unit (Approach Controller)
@@ -55,6 +56,7 @@
 *[FIS]: Flight Information Service
 *[SIS]: Surveillance Information Service (Flight Following)
 *[ARP]: Aerodrome Reference Point
+*[DER]: Departure End of Runway
 *[SVFR]: Special VFR
 *[MTOW]: Maximum Takeoff Weight
 *[SDC]: Standard Departure Clearance
@@ -343,3 +345,5 @@
 *[BLGH]: Burleigh Heads
 *[ROTC]: Robina Town Centre
 *[CGD]: Cudgen Headland
+*[MI NDB]: Momi
+*[VK NDB]: Navakai
