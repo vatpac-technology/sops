@@ -1,5 +1,5 @@
 ---
-  title: TCU
+  title: Terminal
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -35,10 +35,23 @@ The AYD901 (Daugo) Danger Area is in the south-west AYPY CTR, `SFC` to `A040`, a
 
 When activated, the airspace is administered by AYPYA. Aircraft will be cleared to enter the Training Area via the **GPS Approach** and advised to report overhead `DGOWH` after conducting the mandatory missed approach.
 
+
+### Terrain
+**Very high terrain** exists to the North-East of the field, with the MVA up to `F155`. Use *caution* when vectoring, and ensure that terrain separation is maintained at **all times**.
+
+!!! tip
+    The *biggest risk* to terrain separation is vectoring in the **north and east** (Potential conflict areas are shaded below). Avoid vectoring in these areas, and do not assign below `A060` until aircraft are within **30nm** of the field.
+
+<figure markdown>
+![AYPY RTCC](../img/aypy_rtcc.png){ width="700" }
+  <figcaption>AYPY RTCC</figcaption>
+</figure>
 <!--## Departure/Arrival Procedures
-## Tower Offline Procedures
-## Runway Modes --->
-## Parallel Runway Operations
+## Tower Offline Procedures --->
+
+
+## Runway Modes
+### Parallel Runway Operations
 Simultaneous parallel runway operations, including PROPS and SODROPS, are not authorised at AYPY. Arrivals for parallel runways should be sequenced so that their approaches are not simultaneous and separation is maintained.
 
 <!--- ## Helicopter Operations
@@ -67,12 +80,21 @@ Voiceless coordination for all aircraft:
 All other aircraft coming from AYPM CTA must be **Heads-up** coordinated to AYPYA.
 
 ### AYPY ADC
+#### Airspace 
+AYPY ADC is responsible for the Class C Airspace within the AYPY CTR `SFC` to `A020`.
+
 #### Auto Release
 'Next' coordination is **not** required from AYPY ADC for aircraft that are:
 
 - Departing from a runway nominated on the ATIS; and  
 - Assigned the standard assignable level; and  
 - Assigned a **Procedural** SID.
+
+All other aircraft require a 'Next' call to AYPYA.
+
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `A050` and `RFL` |
 
 #### Overfliers
 AYPYA will heads-up coordinate arrivals/overfliers from AYPYA to AYPY ADC prior to **5 mins** from the boundary.
