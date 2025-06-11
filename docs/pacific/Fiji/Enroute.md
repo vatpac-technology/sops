@@ -47,7 +47,7 @@ The CPDLC Station Code is `NFFJ`.
 ## STAR Clearance Expectation
 --->
 ## Coordination
-###NFFNA
+### NFFNA
 #### Departures
 Voiceless for all aircraft:
 
