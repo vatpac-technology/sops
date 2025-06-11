@@ -32,7 +32,7 @@ The Primary Communication Method for NFFN_CTR is Voice.
 
 [CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
 
-The CPDLC Station Code is `NFFNC`.
+The CPDLC Station Code is `NFFJ`.
 
 !!! tip
     Even though NFFN_CTR's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
