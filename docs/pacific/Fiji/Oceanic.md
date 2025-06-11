@@ -75,7 +75,7 @@ When NWWW_CTR is [offline](#nwww_ctrnvvv_ctr) or when airspace above `F245` **ha
 #### Departures
 Voiceless for all aircraft:
 
-- Tracking via a Procedural SID terminus^, **NIPOG**, **PULON**, **MESUS** or **ADKAD**; and
+- Tracking via a Procedural SID terminus^; and
 - Assigned the lower of `F240` or the `RFL`
 
 All other aircraft going to NFFF CTA will be **Heads-up** coordinated by NWWWA.

@@ -51,17 +51,17 @@ The CPDLC Station Code is `NFFNC`.
 #### Departures
 Voiceless for all aircraft:
 
-- Tracking via a Procedural SID terminus; and
+- Tracking via a Procedural SID terminus^; and
 - Assigned the lower of `F240` and `RFL`.
 
 !!! note
-    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+    ^Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
 
 All other aircraft going to NFFN_CTR CTA must be **Heads-up** Coordinated by NFFNA prior to the boundary.
 
 !!! phraseology
     <span class="hotline">**NFFNA** -> **NFFN_CTR**</span>: "via GUSOS, RON18"  
-    <span class="hotline">**NFFN_CTR** -> **NFFNA**</span>: "RON18"  
+    <span class="hotline">**NFFN_CTR** -> **NFFNA**</span>: "RON18, F240"  
 
 #### Arrivals
 Voiceless for all aircraft:
@@ -69,28 +69,40 @@ Voiceless for all aircraft:
 - With ADES **NFFN**; and
 - Assigned `A070`; and
 - When **Runway 02** is in use for arrivals:
-	- Tracking from **AGTOS**, **AGTAG**, **VIBEX**, **TUTMU** or **AGUTA** DCT **MI NDB**; or
-	- Tracking from **BEGIT**, **ISMOP**, **GUSOS**, **PAGBO**, **TARON**, **KALPO** or **BEDOK** DCT **NN VOR**.
+	- Tracking *from* any of the following points, DCT **MI NDB**;
+    	- **AGTOS**
+    	- **AGTAG**
+    	- **VIBEX**
+    	- **TUTMU**
+    	- **AGUTA**; or
+	- Tracking *from* any of the following points, DCT **NN VOR**;
+    	- **BEGIT**
+    	- **ISMOP**
+    	- **GUSOS**
+    	- **PAGBO**
+    	- **TARON**
+    	- **KALPO**
+    	- **BEDOK**; or
 - When **Runway 20** is in use for arrivals:
 	- Assigned a STAR.
 
 All other aircraft coming from NFFN_CTR CTA will be **Heads-up** Coordinated to NFFNA.
 
-###NFNAA
+### NFNAA
 #### Departures
 Voiceless for all aircraft:
 
-- Tracking via a Procedural SID terminus; and
+- Tracking via a Procedural SID terminus^; and
 - Assigned the lower of `F240` and `RFL`.
 
 !!! note
-    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+    ^Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
 
 All other aircraft going to NFFN_CTR CTA must be **Heads-up** Coordinated by NFNAA prior to the boundary.
 
 !!! phraseology
     <span class="hotline">**NFNAA** -> **NFFN_CTR**</span>: "via ANRIK, FJI281"  
-    <span class="hotline">**NFFN_CTR** -> **NFNAA**</span>: "FJI281"  
+    <span class="hotline">**NFFN_CTR** -> **NFNAA**</span>: "FJI281, F240"  
 
 #### Arrivals
 Voiceless for all aircraft:

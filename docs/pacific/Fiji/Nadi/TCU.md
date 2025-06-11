@@ -55,21 +55,21 @@ There is no separation "built in" to the arrival and departure procedures at NFF
 
 Upon receiving a '[Next](../../../../controller-skills/coordination/#boundary)' call NFFNA should assess the situation and, where a separation cannot be assured, should provide departure instructions to NFFN ADC.
 
-!!! phraseology  
+!!! phraseology
     <span class="hotline">**NFFN ADC** -> **NFFNA**</span>: "Next, FJI267, RWY 20"  
-	<span class="hotline">**NFFNA** -> **NFFN ADC**</span>: "FJI267, cancel SID, right 270, unrestricted"  
-	<span class="hotline">**NFFN ADC** -> **NFFNA**</span>: "Cancel SID, right 270, FJI267"
+    <span class="hotline">**NFFNA** -> **NFFN ADC**</span>: "FJI267, cancel SID, right 270, unrestricted"  
+    <span class="hotline">**NFFN ADC** -> **NFFNA**</span>: "Cancel SID, right 270, FJI267"
 	
-!!! phraseology  
+!!! phraseology
     <span class="hotline">**NFFN ADC** -> **NFFNA**</span>: "Next, FJI211, RWY 20"  
-	<span class="hotline">**NFFNA** -> **NFFN ADC**</span>: "FJI211, traffic inbound, call you back"  
-	<span class="hotline">**NFFN ADC** -> **NFFNA**</span>: "Copy"  
-	...  
-	<span class="hotline">**NFFNA** -> **NFFN ADC**</span>: "via MI NDB for the visual RWY 02, FJA82"  
-	<span class="hotline">**NFFN ADC** -> **NFFNA**</span>: "FJA82, Visual RWY 02"  
-	...  
-	<span class="hotline">**NFFNA** -> **NFFN ADC**</span>: "FJI211, unrestricted"  
-	<span class="hotline">**NFFN ADC** -> **NFFNA**</span>: "FJI211"  
+    <span class="hotline">**NFFNA** -> **NFFN ADC**</span>: "FJI211, traffic inbound, call you back"  
+    <span class="hotline">**NFFN ADC** -> **NFFNA**</span>: "Copy"  
+    ...  
+    <span class="hotline">**NFFNA** -> **NFFN ADC**</span>: "via MI NDB for the visual RWY 02, FJA82"  
+    <span class="hotline">**NFFN ADC** -> **NFFNA**</span>: "FJA82, Visual RWY 02"  
+    ...  
+    <span class="hotline">**NFFNA** -> **NFFN ADC**</span>: "FJI211, unrestricted"  
+    <span class="hotline">**NFFN ADC** -> **NFFNA**</span>: "FJI211"  
 	
 #### Sequencing
 Consecutive arrivals sequenced **5 minutes or less** apart will not provide adequate spacing for a departure on the reciprocal runway. While aircraft in the air take priority over aircraft on the ground, where possible NFFNA should consider minor adjustments to extended delays for departures.
@@ -94,7 +94,7 @@ All other aircraft going to NFFN_CTR CTA must be **Heads-up** Coordinated by NFF
 
 !!! phraseology
     <span class="hotline">**NFFNA** -> **NFFN_CTR**</span>: "via GUSOS, RON18"  
-    <span class="hotline">**NFFN_CTR** -> **NFFNA**</span>: "RON18"  
+    <span class="hotline">**NFFN_CTR** -> **NFFNA**</span>: "RON18, F240"  
 
 #### Arrivals
 Voiceless for all aircraft:
@@ -130,15 +130,15 @@ IFR aircraft will be cleared for the coordinated approach (Instrument or Visual)
 
 VFR aircraft require a level readback.
 
-!!! phraseology  
+!!! phraseology
     <span class="hotline">**NFFNA** -> **NFFN ADC**</span>: "via MI NDB for the ILS RWY 02, JST119"  
-	<span class="hotline">**NFFN ADC** -> **NFFNA**</span>: "JST119, ILS RWY 02"
+    <span class="hotline">**NFFN ADC** -> **NFFNA**</span>: "JST119, ILS RWY 02"
 	
 ### NFNAA
 All aircraft transiting between NFFNA and NFNAA must be **Heads-up** coordinated.
 
-!!! phraseology  
+!!! phraseology
     <span class="hotline">**NFFNA** -> **NFNAA**</span>: "via NOBOX, FJA15"  
-	<span class="hotline">**NFNAA** -> **NFFNA**</span>: "FJA15"
+    <span class="hotline">**NFNAA** -> **NFFNA**</span>: "FJA15, A090"
 
 <!---## Charts--->

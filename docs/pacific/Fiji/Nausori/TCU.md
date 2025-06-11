@@ -51,7 +51,7 @@ All other aircraft going to NFFN_CTR CTA must be **Heads-up** Coordinated by NFN
 
 !!! phraseology
     <span class="hotline">**NFNAA** -> **NFFN_CTR**</span>: "via ANRIK, FJI281"  
-    <span class="hotline">**NFFN_CTR** -> **NFNAA**</span>: "FJI281"  
+    <span class="hotline">**NFFN_CTR** -> **NFNAA**</span>: "FJI281, F240"  
 
 #### Arrivals
 Voiceless for all aircraft:
@@ -79,15 +79,15 @@ IFR aircraft will be cleared for the coordinated approach (Instrument or Visual)
 
 VFR aircraft require a level readback.
 
-!!! phraseology  
+!!! phraseology
     <span class="hotline">**NFNAA** -> **NFNA ADC**</span>: "via FNAWI for the RNP RWY 10, FJA81"  
-	<span class="hotline">**NFNA ADC** -> **NFNAA**</span>: "FJA81, RNP RWY 10"
+    <span class="hotline">**NFNA ADC** -> **NFNAA**</span>: "FJA81, RNP RWY 10"
 
 ### NFFNA
 All aircraft transiting between NFFNA and NFNAA must be **Heads-up** coordinated.
 
-!!! phraseology  
+!!! phraseology
     <span class="hotline">**NFNAA** -> **NFFNA**</span>: "via NUNSI, FJA16"  
-	<span class="hotline">**NFFNA** -> **NFNAA**</span>: "FJA16"
+    <span class="hotline">**NFFNA** -> **NFNAA**</span>: "FJA16, A080"
 	
 <!---- ## Charts ---->

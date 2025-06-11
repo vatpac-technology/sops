@@ -178,8 +178,8 @@ IFR aircraft will be cleared for the coordinated approach (Instrument or Visual)
 
 VFR aircraft require a level readback.
 
-!!! phraseology  
+!!! phraseology
     <span class="hotline">**NFFNA** -> **NFFN ADC**</span>: "via MI NDB for the ILS RWY 02, JST119"  
-	<span class="hotline">**NFFN ADC** -> **NFFNA**</span>: "JST119, ILS RWY 02"
+    <span class="hotline">**NFFN ADC** -> **NFFNA**</span>: "JST119, ILS RWY 02"
 
 <!---## Charts --->

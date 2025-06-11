@@ -69,8 +69,8 @@ IFR aircraft will be cleared for the coordinated approach (Instrument or Visual)
 
 VFR aircraft require a level readback.
 
-!!! phraseology  
+!!! phraseology
     <span class="hotline">**NFNAA** -> **NFNA ADC**</span>: "via FNAWI for the RNP RWY 10, FJA81"  
-	<span class="hotline">**NFNA ADC** -> **NFNAA**</span>: "FJA81, RNP RWY 10"
+    <span class="hotline">**NFNA ADC** -> **NFNAA**</span>: "FJA81, RNP RWY 10"
 
 <!---## Charts --->
