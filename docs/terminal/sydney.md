@@ -260,6 +260,12 @@ These can be displayed on vatSys using the `SY_VFR` map.
 ### Inbound/Outbound Routes
 Helicopters outbound from YSSY will make contact with the Departures controller established on a Helicopter Route.  Controllers need only identify the aircraft, as they will already be cleared to climb to a suitable level (generally not above `A010`) through their coded clearance.  Each clearance stipulates a point where identification and control services are automatically terminated, but controllers may explicitely cancel these services for new pilots who may not understand where they exit CTA.  
 
+You can find each Helicopter Route below, and full details are in the `ERSA FAC YSSY`. Additionally, the vatSys `SY_HELO` map displays an approximation of each route.
+
+<figure markdown>
+![SY Heli Routes](img/yssy_heli_routes.png){ width="700" }
+</figure>
+
 !!! phraseology
     **YZD:** "Sydney Departures, helicopter YZD, passing A009 on the Barracks 5 Outbound"  
     **SY TCU:** "YZD, Departures, identified"
@@ -274,13 +280,23 @@ Controllers should identify the aircraft and then provide clearance if traffic p
 
     **SY TCU:** "HSZ, identified, cleared Harbour Bridge 5 Inbound"
 
+The helicopter route title should be recorded in the **global ops field** and the route waypoints should be added to the FDR route, as below.
+
+| Route | Waypoints |
+| --- | --- |
+| ROSEHILL 5 INBOUND | `RSH RKWC` |
+| ERSKINEVILLE 5 INBOUND | ` DHH REDF ERSK` |
+| HARBOUR BRIDGE 5 INBOUND | `HBB DHH REDF ERSK` |
+| BARRACKS 5 INBOUND | `RCB MPSC` |
+| MAROUBRA 5 INBOUND | `MRBR` |
+| CAPE BANKS 5 INBOUND | `CAPS` |
+| WANDA 5 INBOUND | `YWAN DLPT` |
+| GEORGES RIVER 5 INBOUND | `CSTH PNP GRB DLPT` |
+
 !!! note
     Some Helicopter Routes may conflict with fixed wing approach/departure paths, so use common sense to separate helicopters when required.  For example, during 34 PROPS, it may be more suitable for helicopters to track via the `CAPE BANKS 5 INBOUND` rather than taking the `MAROUBRA 5 INBOUND`, due to it's close proximity to the **MARUB SID**.  In any case, if pilots are unfamiliar with local landmarks, simplify your instructions to assist them while maintaining separation.
 
-Helicopters should be transferred to **SY ADC** early to allow them to provide sequencing and separation with fixed-wing aircraft.
-
-!!! tip
-    You can find details of each Helicopter Route in the YSSY ERSA FAC under section 14 `HELICOPTER ROUTE OPERATIONS` and display an approximation of the route on vatSys using the `SY_HELO` map.
+Inbound helicopters should transfer to **SY ADC** automatically (as per the coded clearance), however new pilots may need an explicit handoff.
 
 ### Terminal Airspace Operations
 #### Bondi Coded Clearances
