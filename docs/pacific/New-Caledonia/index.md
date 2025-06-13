@@ -63,7 +63,7 @@ Group Form of callsigns is not used within the New Caledonia sector. Numbers in 
 
 !!! phraseology
     **NWWW_CTR:** "Aussie Five Three Seven, climb flight level 220."
-	**ASY537:** "Climb flight level 220, Aussie Five Three Seven."
+    **ASY537:** "Climb flight level 220, Aussie Five Three Seven."
 
 #### Aircraft Registration
 All aircraft will use their full callsign on first contact, and the abbreviated form thereafter. Locally registered aircraft (in the form F-Oxxx) will include the leading 'F'.
