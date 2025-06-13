@@ -39,28 +39,28 @@ export const flowData = {
                         "Reduced Speed": 14
                     }
                 },
-                "LIZZI": {
-                    "LIZZI A STAR": {
+                "BOOIN": {
+                    "BOOIN A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
                     }
                 },
-                "WAREN": {
-                    "WAREN A/V STAR": {
+                "RAZZI": {
+                    "RAZZI A/V STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     },
-                    "WAREN M STAR": {
+                    "RAZZI M STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 12
                     }
                 },
-                "WENDY": {
-                    "WENDY A STAR": {
+                "ALAXO": {
+                    "ALAXO A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     },
-                    "WENDY P STAR": {
+                    "ALAXO P STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
@@ -79,20 +79,20 @@ export const flowData = {
                         "Reduced Speed": 12
                     }
                 },
-                "LIZZI": {
-                    "LIZZI A STAR": {
+                "BOOIN": {
+                    "BOOIN A STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
                     }
                 },
-                "WAREN": {
-                    "WAREN A/V STAR": {
+                "RAZZI": {
+                    "RAZZI A/V STAR": {
                         "Normal Speed": 9,
                         "Reduced Speed": 9
                     }
                 },
-                "WENDY": {
-                    "WENDY A STAR": {
+                "ALAXO": {
+                    "ALAXO A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
@@ -115,18 +115,18 @@ export const flowData = {
                         "Reduced Speed": 14
                     }
                 },
-                "LIZZI": {
-                    "LIZZI A STAR": {
+                "BOOIN": {
+                    "BOOIN A STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     },
-                    "LIZZI V STAR": {
+                    "BOOIN V STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
                     }
                 },
-                "WAREN": {
-                    "WAREN A/V STAR": {
+                "RAZZI": {
+                    "RAZZI A/V STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
                     }
@@ -137,8 +137,8 @@ export const flowData = {
                         "Reduced Speed": 7
                     }
                 },
-                "WENDY": {
-                    "WENDY A STAR": {
+                "ALAXO": {
+                    "ALAXO A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
                     }
@@ -157,14 +157,14 @@ export const flowData = {
                         "Reduced Speed": 17
                     }
                 },
-                "LIZZI": {
-                    "LIZZI A STAR": {
+                "BOOIN": {
+                    "BOOIN A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
-                "WAREN": {
-                    "WAREN A/V STAR": {
+                "RAZZI": {
+                    "RAZZI A/V STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
@@ -175,8 +175,8 @@ export const flowData = {
                         "Reduced Speed": 12
                     }
                 },
-                "WENDY": {
-                    "WENDY A STAR": {
+                "ALAXO": {
+                    "ALAXO A STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
@@ -197,28 +197,28 @@ export const flowData = {
                         "Reduced Speed": 16
                     }
                 },
-                "LIZZI": {
-                    "LIZZI A STAR": {
+                "BOOIN": {
+                    "BOOIN A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "WAREN": {
-                    "WAREN A/V STAR": {
+                "RAZZI": {
+                    "RAZZI A/V STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     },
-                    "WAREN M STAR": {
+                    "RAZZI M STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
-                "WENDY": {
-                    "WENDY A STAR": {
+                "ALAXO": {
+                    "ALAXO A STAR": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
                     },
-                    "WENDY P STAR": {
+                    "ALAXO P STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
@@ -237,20 +237,20 @@ export const flowData = {
                         "Reduced Speed": 14
                     }
                 },
-                "LIZZI": {
-                    "LIZZI A STAR": {
+                "BOOIN": {
+                    "BOOIN A STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
-                "WAREN": {
-                    "WAREN A/V STAR": {
+                "RAZZI": {
+                    "RAZZI A/V STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
                     }
                 },
-                "WENDY": {
-                    "WENDY A STAR": {
+                "ALAXO": {
+                    "ALAXO A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
@@ -273,18 +273,18 @@ export const flowData = {
                         "Reduced Speed": 16
                     }
                 },
-                "LIZZI": {
-                    "LIZZI A STAR": {
+                "BOOIN": {
+                    "BOOIN A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     },
-                    "LIZZI V STAR": {
+                    "BOOIN V STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
                 },
-                "WAREN": {
-                    "WAREN A/V STAR": {
+                "RAZZI": {
+                    "RAZZI A/V STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
@@ -295,8 +295,8 @@ export const flowData = {
                         "Reduced Speed": 8
                     }
                 },
-                "WENDY": {
-                    "WENDY A STAR": {
+                "ALAXO": {
+                    "ALAXO A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
@@ -315,14 +315,14 @@ export const flowData = {
                         "Reduced Speed": 19
                     }
                 },
-                "LIZZI": {
-                    "LIZZI A STAR": {
+                "BOOIN": {
+                    "BOOIN A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
-                "WAREN": {
-                    "WAREN A/V STAR": {
+                "RAZZI": {
+                    "RAZZI A/V STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     }
@@ -333,8 +333,8 @@ export const flowData = {
                         "Reduced Speed": 13
                     }
                 },
-                "WENDY": {
-                    "WENDY A STAR": {
+                "ALAXO": {
+                    "ALAXO A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }

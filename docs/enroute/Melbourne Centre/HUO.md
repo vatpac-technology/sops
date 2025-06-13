@@ -63,7 +63,7 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 
 | Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
 | ---- | ---- | ---- |
-| WAREN | MILLA<br>ONAGI | 6 min<br>6 min |
+| RAZZI | TASIS<br>ONAGI | 6 min<br>6 min |
 
 !!! tip
     Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector. 

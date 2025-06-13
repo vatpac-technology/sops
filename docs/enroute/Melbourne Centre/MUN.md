@@ -59,7 +59,7 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 
 | Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
 | ---- | ---- | ---- |
-| ARBEY | APPLE<br>CANTY | 4 min<br>4 min |
+| ARBEY | METES<br>DORSU | 4 min<br>4 min |
 | Others | Feeder Fix | - |
 
 !!! tip
@@ -138,4 +138,4 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 That being said, it is *advised* that MUN(All) gives **Heads-up Coordination** prior to **50nm** in the following scenarios:  
 - MUN to YWE for aircraft **not** on the Y12 or H119 airway (Changes permitted up to boundary for sequencing/descent purposes)  
-- OXL to YWE for aircraft **not** tracking via CANTY (Changes permitted up to boundary for sequencing/descent purposes)
+- OXL to YWE for aircraft **not** tracking via DORSU (Changes permitted up to boundary for sequencing/descent purposes)
