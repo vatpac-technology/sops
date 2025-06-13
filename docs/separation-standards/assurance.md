@@ -155,7 +155,7 @@ It is best to always assign the *lowest possible level* on descent when taking i
 This reduces controller workload by reducing the number of calls required to facilitate an aircraft's descent, and reduces the likelihood of an aircraft having their descent profile interrupted if you get distracted and/or busy.
 
 !!! example
-    VOZ888 is tracking from Sydney to Melbourne via the Q29 airway to LIZZI for the LIZZI8A arrival runway 34. There are no conflicts on their route ahead, and the CTA LL is `A085`.
+    VOZ888 is tracking from Sydney to Melbourne via the Q29 airway to BOOIN for the BOOIN8A arrival runway 34. There are no conflicts on their route ahead, and the CTA LL is `A085`.
 
     "VOZ888, when ready, descend via the STAR to A090, QNH 1009."
 

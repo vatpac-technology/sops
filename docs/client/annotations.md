@@ -79,7 +79,7 @@ Here is a complete list of standard annotations controllers should be entering i
 | Projected landing time with delay | L(time)/(time after delay) | L06/09 |
 | Stream to Follow (10nm / 2mins) | F/(Callsign) | F/QFA462 |
 | Hold at position | H/(position) | H/SHARK |
-| Hold at position with stack departure time | H/(position)/(time) | H/CANTY/33 |
+| Hold at position with stack departure time | H/(position)/(time) | H/DORSU/33 |
 | Descend at minimum speed | | MIN |
 | Descend at maximum speed | Also cancels all speed restrictions | MX |
 | Cancel all speed restrictions  | | CSR |
