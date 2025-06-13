@@ -94,7 +94,7 @@ Voiceless for all aircraft:
 All other aircraft coming from NFFF CTA must be **Heads-up** coordinated to NWWWA prior to **20nm** from the boundary.
 
 ### NVVV ADC
-When NVVV_CTR is [offline](#nwww_ctr-nvvv_ctr) or when airspace above `F245` **has not** been released to NVVV_CTR, the following coordination applies.
+When NVVV_CTR is [offline](#nwww_ctrnvvv_ctr) or when airspace above `F245` **has not** been released to NVVV_CTR, the following coordination applies.
 
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from NVVV ADC to NFFF for all aircraft **entering NFFF CTA**.
