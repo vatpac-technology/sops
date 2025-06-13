@@ -45,7 +45,7 @@ If you are busy at the time, tell the other controller to *standby*. If you anti
 Each controller must verbalise the instruction, clearance, or change once. Generally, with one controller requesting a change, the approving controller will confirm it, completing the conversation.
 
 !!! phraseology
-    <span class="hotline">**ELW** -> **MAE**</span>: "Via LIZZI, JST414, assigned FL120 for my separation with VOZ92"  
+    <span class="hotline">**ELW** -> **MAE**</span>: "Via BOOIN, JST414, assigned FL120 for my separation with VOZ92"  
     <span class="hotline">**MAE** -> **ELW**</span>: "FL120, JST414"
 
 In situations where additional changes have been discussed (and as such, both controllers have not yet verbalised them), a readback is required.
