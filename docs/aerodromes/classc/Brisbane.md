@@ -251,7 +251,7 @@ If a delay is required prior to transferring an aircraft to SMC, provide an esti
     Remember that the **bottom** aircraft represents the **front** of the queue.
 
 !!! phraseology
-    **VOZ613:** "Melbourne Delivery, VOZ543, bay 43, request pushback"  
+    **VOZ613:** "Brisbane Delivery, VOZ543, bay 43, request pushback"  
     **BN ACD:** "VOZ613, estimated delay 10 minutes, remain this frequency."
 
 #### Queue Management
