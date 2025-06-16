@@ -116,12 +116,18 @@ Non-Jet aircraft, and aircraft that cannot accept a Procedural SID, shall be ass
 ## ATIS
 ### Operational Info
 When parallel runways are used for departures, the ATIS OPR INFO shall include:  
-`INDEPENDENT PARALLEL DEPARTURES IN PROGRESS`  
+`INDEPENDENT PARALLEL DEPARTURES IN PROG`  
 When SODPROPS are in operation, the ATIS OPR INFO shall include:  
-`SIMULTANEOUS OPPOSITE DIRECTION PARALLEL RUNWAY OPERATIONS IN PROGRESS`
+`SIMULTANEOUS OPPOSITE DIRECTION PARALLEL RUNWAY OPERATIONS IN PROG`
+
+#### ACD Pushback Requests
+When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) procedure, the OPR INFO shall include:  
+`ALL DEPARTURES MUST REQUEST PUSH BACK ON 118.85`  
 
 ### Approach Types
 The ATIS shall always have `EXP INST APCH` as the approach type. Visual Approaches are permitted on request, as long as a separation standard exists between the aircraft and any aircraft arriving on the parallel runway during PROPS, or departing from the parallel runway during SODPROPS.
+
+
 
 ## Helicopter Operations
 Brisbane has one helipad located on taxiway **F4**. Most rescue helicopters are based within the general aviation maintenance area and may operate from taxiway **H2**.
@@ -195,6 +201,79 @@ Both taxiway **H2** and **F4** are inside the maneuvering area and treated like 
 !!! phraseology
     **BN ADC:** "X6G, Taxiway F4, cleared to land"  
     **X6G:** "Taxiway F4, cleared to land, X6G"
+
+## Workload Management
+### Pushback Requests on ACD
+To mitigate this, pushback requests may be done on **ACD** frequency, to balance the workload. A few steps must be followed to properly execute this procedure.
+
+To commence the procedure:
+
+1. **SMC** and **ACD** coordinate to implement the procedure, due to high **SMC** workload.
+2. **SMC** coordinates with **ADC** in order to have the [ATIS](#acd-pushback-requests) updated.
+3. **ACD** places the `STANDBY FOR GROUND` bar in the **Cleared Bay** in [OzStrips](../../client/towerstrips.md#coordinator).
+
+!!! phraseology
+    <span class="hotline">**BN SMC** -> **BN ACD**</span>: "It's getting quite busy. Happy to implement Pushback requests on your frequency?"  
+    <span class="hotline">**BN ACD** -> **BN SMC**</span>: "Understood, affirm"  
+    <span class="hotline">**BN SMC** -> **BN ACD**</span>: "Thanks, I'll talk to Tower"  
+    <span class="hotline">**BN SMC** -> **BN ADC**</span>: "Can we please get `ALL DEPARTURES MUST REQUEST PUSH BACK ON 118.85` on the ATIS?"  
+    <span class="hotline">**BN ADC** -> **BN SMC**</span>: "Wilco"  
+
+To operate with pushback requests on ACD:
+
+1. When **ACD** has finished issuing an airways clearance, they will **remind** pilots to *"Contact me when ready for pushback"*.
+2. When a pilot requests pushback, **ACD** will assess their priority based on apron congestion and number of aircraft in the queue (see [Queue Management](#queue-management)).  
+3. **ACD** will either instruct them to **standby for Ground** *(not contact)*, or remain on the ACD frequency if a delay is required.  
+4. If an aircraft is instructed to 'standby for Ground', **ACD** will move the strip below the **Standby for Ground** bar in the **Queue** section of the **Cleared Bay** in [OzStrips](../../client/towerstrips.md#coordinator), to denote they are awaiting pushback approval.  
+5. When **SMC** has adequate space on the aprons, taxiways, and holding point, they will issue pushback/taxi to the next aircraft in line by scanning the [Cleared Queue bay](../../../client/towerstrips/#stripboard).
+
+The decision whether or not to send an aircraft to SMC or hold them on the ACD frequency should be made in accordance with the [Queue Management](#queue-management) techniques.
+
+!!! warning "Important"
+    If SMC needs to reduce the pushback rate due to congestion at the holding points or excessive workload, **ACD** should be informed without delay, and instructed to hold all departures on their frequency. This will stop aircraft being told to 'standby for ground' on the SMC frequency. Remember to cancel this requirement when congestion eases.
+
+!!! phraseology
+    **VOZ613:** "Brisbane Delivery, VOZ613, PDC read back"  
+    **BN ACD:** "VOZ613, Brisbane Delivery"  
+    **VOZ613:** "Runway 19R, BIXAD2 departure, squawk 1336, bay 43, VOZ613"  
+    **BN ACD:** "VOZ613, contact me when ready for pushback"  
+    **VOZ613:** "Wilco, VOZ613"  
+    ...   
+    **VOZ613:** "Brisbane Delivery, VOZ613, bay 43, request pushback"  
+    **BN ACD:** "VOZ613, standby for ground 121.7"  
+    **VOZ613:** "Standby for ground 121.7, VOZ613"  
+    ...   
+    **BN SMC:** "VOZ613, Brisbane Ground, pushback approved."
+
+If a delay is required prior to transferring an aircraft to SMC, provide an estimated delay value to the pilot or advise them of their position in the queue.
+
+!!! tip
+    Remember that the **bottom** aircraft represents the **front** of the queue.
+
+!!! phraseology
+    **VOZ613:** "Melbourne Delivery, VOZ543, bay 43, request pushback"  
+    **BN ACD:** "VOZ613, estimated delay 10 minutes, remain this frequency."
+
+#### Queue Management
+To reduce SMC workload, ACD should not allow more than **three** aircraft to be awaiting pushback or taxi on the SMC frequency. When three aircraft are already queued on the SMC frequency, any additional aircraft should be told to remain on the ACD frequency and informed of their position in the queue or approximate delay (if known). These aircraft should be placed in the **Cleared Bay Queue**, above the **Standby for Ground** bar.
+
+<figure markdown>
+![ACD Ops with OzStrips](../../controller-skills/img/ozstripscoordinator.png){ width="800" }
+  <figcaption>Pushback Requests on ACD Ops with OzStrips<br><small>Three aircraft are waiting on the SMC frequency (below the Queue bar), and QFA121 and RXA6416 have both requested push/taxi but are being held on the ACD frequency. QFA121 is closer to the bottom, so will be next to be told to standby for SMC.</small></figcaption>
+</figure>
+
+When SMC moves an aircraft from below the **Standby for Ground** bar to the **Pushback Bay**, ACD should instruct the next aircraft in line to standby for ground on the SMC frequency (and move the strip appropriately).
+
+!!! warning "Important"
+    Strips must remain in the strip bay of their **current state**, even if they are in a queue. For example, if they have received an airways clearance and are in the queue for pushback, they must remain in the **Cleared Bay**, **not** the Pushback Bay.
+
+#### COBT Slot Times
+During busy events, VATPAC may utilise prebooked slots to manage traffic congestion. Aircraft which are compliant with their booked slot time should be prioritised over aircraft who are non-compliant or do not have a slot.
+
+<figure markdown>
+![COBT Slot Time](img/slottime.png){ width="200" }
+  <figcaption>COBT Slot Time</figcaption>
+</figure>
 
 ## Coordination
 ### Auto Release

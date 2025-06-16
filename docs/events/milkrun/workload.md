@@ -35,13 +35,11 @@ During the event, the **SMC** at [YMML](../../../aerodromes/classc/melbourne) co
 
 To mitigate this, pushback requests may be done on **ACD** frequency, to balance the workload. A few steps must be followed to properly execute this procedure.
 
+To commence the procedure:
+
 1. **SMC** and **ACD** coordinate to implement the procedure, due to high **SMC** workload.
-2. **SMC** coordinates with **ADC** in order to have the [ATIS](../../../aerodromes/classc/melbourne/#acd-pushback-requests) updated.
-3. When **ACD** has finished issuing an airways clearance, they will **remind** pilots to *"Contact me when ready for pushback"*.
-4. When a pilot requests pushback, **ACD** will instruct them to **Monitor** *(not contact)* Ground on 121.7, and advise their position in the queue.
-5. **ACD** will move the strip in to the **Queue** section of the **Cleared** bay in [OzStrips](../../../client/towerstrips/), to denote they are awaiting pushback approval.
-6. Eventually, **SMC** will have adequate space on the aprons, taxiways, and holding point, as well as time to make assessments.
-7. **SMC** will scan the [Cleared Queue bay](../../../client/towerstrips/#stripboard) for the next aircraft in line, and call them to approve their pushback.
+2. **SMC** coordinates with **ADC** in order to have the [ATIS](#acd-pushback-requests) updated.
+3. **ACD** places the `STANDBY FOR GROUND` bar in the **Cleared Bay** in [OzStrips](../../client/towerstrips.md#coordinator).
 
 !!! phraseology
     <span class="hotline">**ML SMC** -> **ML ACD**</span>: "It's getting quite busy. Happy to implement Pushback requests on your frequency?"  
@@ -51,18 +49,26 @@ To mitigate this, pushback requests may be done on **ACD** frequency, to balance
     <span class="hotline">**ML SMC** -> **ML ADC**</span>: "Can we please get `ALL DEPARTURES MUST REQUEST PUSH BACK ON 127.2` on the ATIS?"  
     <span class="hotline">**ML ADC** -> **ML SMC**</span>: "Wilco"  
 
-    **QFA401:** "Melbourne Delivery, QFA401, Request Clearance"  
-    **ML ACD:** "QFA401, Melbourne Delivery. Cleared to..."  
-    **QFA401:** "Cleared to... we are bay B27, QFA401"  
-    **ML ACD:** "QFA401, Contact me when ready for pushback"  
-    ...  
-    **QFA401:** "Request Pushback"  
-    **ML ACD:** "QFA401, Monitor Ground 121.7, Number 5. They will call you when pushback is available"  
-    **QFA401:** "Monitor 121.7, QFA401"  
-    *ML SMC will move QFA401's strip to the* ***Cleared Queue*** *bay*  
-    *QFA401 will change frequency, but* ***not contact*** *ML SMC*  
-    ...  
-    **ML SMC:** "QFA401, Melbourne Ground, push approved"  
+To operate with pushback requests on ACD:
+
+1. When **ACD** has finished issuing an airways clearance, they will **remind** pilots to *"Contact me when ready for pushback"*.
+2. When a pilot requests pushback, **ACD** will assess their priority based on apron congestion and number of aircraft in the queue (see [Queue Management](#queue-management)).  
+3. **ACD** will either instruct them to **standby for Ground** *(not contact)*, or remain on the ACD frequency if a delay is required.  
+4. If an aircraft is instructed to 'standby for Ground', **ACD** will move the strip below the **Standby for Ground** bar in the **Queue** section of the **Cleared Bay** in [OzStrips](../../client/towerstrips.md#coordinator), to denote they are awaiting pushback approval.  
+5. When **SMC** has adequate space on the aprons, taxiways, and holding point, they will issue pushback/taxi to the next aircraft in line by scanning the [Cleared Queue bay](../../../client/towerstrips/#stripboard).
+
+!!! phraseology
+    **VOZ543:** "Melbourne Delivery, VOZ543, PDC read back"  
+    **ML ACD:** "VOZ543, Melbourne Delivery"  
+    **VOZ543:** "DOSEL1 departure, squawk 1336, bay E8, VOZ543"  
+    **ML ACD:** "VOZ543, contact me when ready for pushback"  
+    **VOZ543:** "Wilco, VOZ543"  
+    ...   
+    **VOZ543:** "Melbourne Delivery, VOZ543, bay E8, request pushback"  
+    **ML ACD:** "VOZ543, standby for ground 121.7"  
+    **VOZ543:** "Standby for ground 121.7, VOZ543"  
+    ...   
+    **ML SMC:** "VOZ543, Melbourne Ground, pushback approved."
 
 ### Queue Management
 Remember that the **bottom** aircraft represents the **front** of the queue.
