@@ -370,7 +370,7 @@ Sydney Coordinator is activated to reduce frequency congestion on SMC and ensure
     Sydney Coordinator is a non-standard position which may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.
 
 !!! tip
-    The responsibilities of Sydney Coordinator may be delegated to **ACD** when there is high SMC workload but no seperate Coordinator controller available. This should be reflected in the ATIS accordingly.
+    The responsibilities of Sydney Coordinator may be delegated to **ACD** when there is high SMC workload but no seperate Coordinator controller available, akin to the [Pushback Requests on ACD](../../controller-skills/pushbackmanagement#pushback-requests-on-acd) procedure. This should be reflected in the ATIS accordingly.
 
 To open Coordinator:
 
@@ -413,19 +413,9 @@ If a delay is required prior to transferring an aircraft to SMC, provide an esti
 !!! phraseology
     **VOZ543:** "Sydney Coordinator, VOZ543, bay 33, request pushback"  
     **SY COORD:** "VOZ543, estimated delay 10 minutes, remain this frequency."
-
+	
 #### Queue Management
-To reduce SMC workload, ACD should not allow more than **three** aircraft to be awaiting pushback or taxi on the SMC frequency. When three aircraft are already queued on the SMC frequency, any additional aircraft should be told to remain on the ACD frequency and informed of their position in the queue or approximate delay (if known). These aircraft should be placed in the **Cleared Bay Queue**, above the **Standby for Ground** bar.
-
-<figure markdown>
-![Coordinator Ops with OzStrips](../../controller-skills/img/ozstripscoordinator.png){ width="800" }
-  <figcaption>Coordinator Ops with OzStrips<br><small>Three aircraft are waiting on the SMC frequency (below the Queue bar), and QFA121 and RXA6416 have both requested push/taxi but are being held on the Coordinator frequency. QFA121 is closer to the bottom, so will be next to be told to standby for SMC.</small></figcaption>
-</figure>
-
-When SMC moves an aircraft from below the **Standby for Ground** bar to the **Pushback Bay**, Coordinator should instruct the next aircraft in line to standby for ground on the SMC frequency (and move the strip appropriately).
-
-!!! warning "Important"
-    Strips must remain in the strip bay of their **current state**, even if they are in a queue. For example, if they have received an airways clearance and are in the queue for pushback, they must remain in the **Cleared Bay**, **not** the Pushback Bay.
+To reduce SMC workload, COORD/ACD should not allow more than **three** aircraft to be awaiting pushback or taxi on the SMC frequency. When three aircraft are already queued on the SMC frequency, any additional aircraft should be told to remain on the COORD/ACD frequency and informed of their position in the queue or approximate delay (if known). These aircraft should be placed in the **Cleared Bay Queue**, above the **Standby for Ground** bar, as documented on the [Pushback Requests on ACD](../../controller-skills/pushbackmanagement#queue-management) page.
 
 #### Start Approval
 When delays for taxi are excessive (e.g. 15–30 minutes), it may be necessary to include the following ATIS OPR INFO: `START APPROVAL RQ. WHEN READY FOR PUSH BACK OR ENGINE START, CTC SYDNEY COORDINATOR ON FREQ 127.6, FOR START TIME`. This will ensure aircraft don't end up burning considerable amounts of fuel and potentially disrupting the latter parts of the flight (with insufficient fuel for lengthy en-route sequencing or holds).
