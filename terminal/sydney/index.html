@@ -8040,6 +8040,10 @@ Non-jet aircraft for YSSY shall be assigned the <strong>ODALE</strong>, <strong>
 <h2 id="helicopter-operations">Helicopter Operations</h2>
 <h3 id="inboundoutbound-routes">Inbound/Outbound Routes</h3>
 <p>Helicopters outbound from YSSY will make contact with the Departures controller established on a Helicopter Route.  Controllers need only identify the aircraft, as they will already be cleared to climb to a suitable level (generally not above <code>A010</code>) through their coded clearance.  Each clearance stipulates a point where identification and control services are automatically terminated, but controllers may explicitely cancel these services for new pilots who may not understand where they exit <abbr title="Controlled Airspace">CTA</abbr>.  </p>
+<p>You can find each Helicopter Route below, and full details are in the <code>ERSA FAC YSSY</code>. Additionally, the vatSys <code>SY_HELO</code> map displays an approximation of each route.</p>
+<figure>
+<p><a class="glightbox" href="../img/yssy_heli_routes.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="SY Heli Routes" src="../img/yssy_heli_routes.png" width="700" /></a></p>
+</figure>
 <div class="admonition phraseology">
 <p class="admonition-title">Phraseology</p>
 <p><strong>YZD:</strong> "Sydney Departures, helicopter YZD, passing A009 on the Barracks 5 Outbound"<br />
@@ -8053,15 +8057,54 @@ Non-jet aircraft for YSSY shall be assigned the <strong>ODALE</strong>, <strong>
 <strong>SY <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr>:</strong> "HSZ, squawk 0552"  </p>
 <p><strong>SY <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr>:</strong> "HSZ, identified, cleared Harbour Bridge 5 Inbound"</p>
 </div>
+<p>The helicopter route title should be recorded in the <strong>global ops field</strong> and the route waypoints should be added to the <abbr title="Flight Data Record">FDR</abbr> route, as below.</p>
+<table>
+<thead>
+<tr>
+<th>Route</th>
+<th>Waypoints</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ROSEHILL 5 INBOUND</td>
+<td><code>RSH RKWC</code></td>
+</tr>
+<tr>
+<td>ERSKINEVILLE 5 INBOUND</td>
+<td><code>DHH REDF ERSK</code></td>
+</tr>
+<tr>
+<td>HARBOUR BRIDGE 5 INBOUND</td>
+<td><code>HBB DHH REDF ERSK</code></td>
+</tr>
+<tr>
+<td>BARRACKS 5 INBOUND</td>
+<td><code>RCB MPSC</code></td>
+</tr>
+<tr>
+<td>MAROUBRA 5 INBOUND</td>
+<td><code>MRBR</code></td>
+</tr>
+<tr>
+<td>CAPE BANKS 5 INBOUND</td>
+<td><code>CAPS</code></td>
+</tr>
+<tr>
+<td>WANDA 5 INBOUND</td>
+<td><code>YWAN DLPT</code></td>
+</tr>
+<tr>
+<td>GEORGES RIVER 5 INBOUND</td>
+<td><code>CSTH PNP GRB DLPT</code></td>
+</tr>
+</tbody>
+</table>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Some Helicopter Routes may conflict with fixed wing approach/departure paths, so use common sense to separate helicopters when required.  For example, during 34 <abbr title="Parallel Runway Operations">PROPS</abbr>, it may be more suitable for helicopters to track via the <code>CAPE BANKS 5 INBOUND</code> rather than taking the <code>MAROUBRA 5 INBOUND</code>, due to it's close proximity to the <strong>MARUB <abbr title="Standard Instrument Departure">SID</abbr></strong>.  In any case, if pilots are unfamiliar with local landmarks, simplify your instructions to assist them while maintaining separation.</p>
 </div>
-<p>Helicopters should be transferred to <strong>SY <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong> early to allow them to provide sequencing and separation with fixed-wing aircraft.</p>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>You can find details of each Helicopter Route in the YSSY ERSA FAC under section 14 <code>HELICOPTER ROUTE OPERATIONS</code> and display an approximation of the route on vatSys using the <code>SY_HELO</code> map.</p>
-</div>
+<p>Inbound helicopters should transfer to <strong>SY <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong> automatically (as per the coded clearance), however new pilots may need an explicit handoff.</p>
 <h3 id="terminal-airspace-operations">Terminal Airspace Operations</h3>
 <h4 id="bondi-coded-clearances">Bondi Coded Clearances</h4>
 <p>The <code>BONDI 5</code> coded clearance is only available to helicopters, provided <abbr title="Precision Runway Monitoring">PRM</abbr> approaches are not in use to RWY 16s at YSSY.  The clearance may not be available (or delays may be required) when RWY 25 is in use for arrivals or RWY 07 is in use for departures.  </p>
@@ -8722,7 +8765,7 @@ Therefore, a <em>next</em> call &amp; <em>departure instructions</em> are not re
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 29, 2025 05:03:56 UTC">May 29, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 13, 2025 13:22:43 UTC">June 13, 2025</span>
   </span>
 
     
