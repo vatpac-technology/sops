@@ -29,7 +29,6 @@ AYPY ADC is responsible for the Class C Airspace within the AYPY CTR `SFC` to `A
   <figcaption>AYPY Maneuvering Area Responsibility</figcaption>
 </figure>
 
-
 !!! note
     While Taxiways **A** and **M** do not directly intersect Runway **14R/32L**, they must still be kept clear of traffic for arriving and departing traffic. All aircraft need explicit clearance to cross the Runway **14R/32L** holding points on these taxiways.
 	
@@ -59,12 +58,20 @@ The AYD901 (Daugo) Danger Area is in the south-west AYPY CTR, `SFC` to `A040`, a
 
 When activated, the airspace is administered by AYPYA.
 
-<!--- ## VFR Operations
+## Helicopter Operations
+### Helipads and Landing Areas
+There are no controlled helipads at AYPY. Multiple uncontrolled helipads have been established on the apron by private operators.
 
-## Helicopter Operations--->
+<figure markdown>
+![Uncontrolled AYPY Helipads](../img/aypy_helipads.png){ width="700" }
+  <figcaption>Uncontrolled AYPY Helipads</figcaption>
+</figure>
+
+Helicopters also operate from multiple points within the city of Port Moresby (which sits entirely within the AYPY CTR) and outlying villages. Notable sites include the Port Moresby General Hospital carpark (2.58NM southwest of ARP) and the Pacific International Hospital (4.57NM southwest of ARP)
+
+These helipads are outside the controlled maneuvering area and do not receive explicit takeoff/landing clearance. Helicopters using these helipads be instructed to 'report on the ground'/'report when airbourne' in lieu of an explicit takeoff/landing clearance.
 
 ## Runway Modes
-
 ### Runway Selection
 The preferred runway direction is Runway 14.
 
@@ -114,7 +121,11 @@ If visual approaches are in operation the APCH field must state `EXP VISUAL APCH
 
 All other aircraft require a 'Next' call to AYPYA.
 
-The standard assignable level from AYPY ADC to AYPYA is the lower of `A050` or the `RFL`.
+The standard assignable level from **AYPY ADC** to **AYPYA** is:
+
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `A050` and `RFL` |
 
 ## Charts
 !!! abstract "Reference"
