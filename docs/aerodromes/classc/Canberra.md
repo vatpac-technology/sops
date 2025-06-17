@@ -97,6 +97,10 @@ Helicopters arriving to the pads will generally be coordinated by the TMA contro
     *Remember to pass traffic information to both aircraft.*  
     **CB ADC**: "QFA714, traffic is a helicopter 1nm south of the field tracking for Calvary Hospital, opposite direction to you and maintaining own separation, runway 17, cleared for takeoff"
 
+## ATIS
+### Operational Info
+When the crosswind component is greater than **11 kts** from the west, the ATIS OPR INFO shall include `EXP TURB OVER RWY [17/35], S OF RWY INT`.
+
 ## Coordination
 ### Auto Release
 [Next](../../controller-skills/coordination.md#next) coordination is not required to CB TCU for aircraft that are:   
