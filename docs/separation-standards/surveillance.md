@@ -22,7 +22,7 @@ Enroute must aim to have **2 minute** spacing between two arrivals at the same F
 
 This distance may be reduced to an absolute minimum of **10nm**.
 
-This includes aircraft inbound through nearby Feeder Fixes (eg: *LIZZI* and *BOYSE* at YMML) when specified by Local Instructions.
+This includes aircraft inbound through nearby Feeder Fixes (eg: *BOOIN* and *BOYSE* at YMML) when specified by Local Instructions.
 
 ### TCU to ADC
 TCU must aim to have **2-3 minute** spacing between two arrivals for the **same runway**.
