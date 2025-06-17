@@ -99,7 +99,7 @@ Helicopters arriving to the pads will generally be coordinated by the TMA contro
 
 ## ATIS
 ### Significant Weather
-When the crosswind component is greater than **11 kts** from the west, the ATIS SIG WX shall include `EXP TURB OVER RWY [17/35], S OF RWY INT`.
+When the crosswind component is greater than **11 kts** from the west, the ATIS SIG WX field shall include `EXP TURB OVER RWY [17/35], S OF RWY INT`.
 
 ## Coordination
 ### Auto Release
