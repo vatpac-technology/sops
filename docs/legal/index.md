@@ -647,6 +647,18 @@ This workflow sends a notification to Discord when a pull request is merged and 
 
 ---
 
+## Commercial Attributions
+
+- **Navigraph Charts and Map Imagery**  
+  This site uses charts and map imagery provided by **Navigraph**, with permission.  
+  Navigraph is a commercial provider of flight simulation navigation data and services.  
+  These materials are used in accordance with Navigraph’s [brand guidelines](https://navigraph.com/legal/brand-guidelines) and are displayed with original copyright and branding.  
+  License: By permission  
+  Source: [navigraph.com](https://www.navigraph.com/)  
+  *Note:* This site is operated by a non-profit VATSIM division (VATPAC) and intended solely for educational and flight simulation use.
+
+---
+
 ## Icons
 
 - **Helicopter Pad Icon**  
