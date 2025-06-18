@@ -153,11 +153,14 @@ Right mouse click on the yellow first waypoint box to open the Reroute menu. Fro
     <figcaption>A VFR aircraft assigned a SID, shown by the yellow background on the SID box</figcaption>
 </figure>
 
+#### Pushback Requests on ACD
+When pushback requests are being managed by ACD, the procedures set out in [Coordinator](#coordinator) below shall be followed.
+
 ### Coordinator
-At locations like [Sydney](../aerodromes/classc/Sydney.md#sydney-coordinator) and [Melbourne](../aerodromes/classc/Melbourne.md#pushback-requests-on-acd), a Coordinator role is sometimes performed during times of high traffic. See each aerodrome-specific page for the requirements to open and set up the Coordinator position.
+At locations like [Brisbane](../../aerodromes/classc/Brisbane/#pushback-requests-on-acd), [Melbourne](../../aerodromes/classc/Melbourne/#pushback-requests-on-acd), [Perth](../../aerodromes/classc/Perth/#pushback-requests-on-acd), and [Sydney](../../aerodromes/classc/Sydney/#pushback-requests-on-acd), a Coordinator role is sometimes performed during times of high traffic. See each aerodrome-specific page for the requirements to open and set up the Coordinator position.
 
 !!! note
-    At Melbourne, this duty is performed by ACD (when required), but for simplicity, this section will refer to the controller performing the role as 'Coordinator'.
+    At most aerodromes, this duty is performed by ACD (when required), but for simplicity, this section will refer to the controller performing the role as 'Coordinator'.
 
 Once all coordination has been completed and the Coordinator position has been opened, all outbound aircraft must first request pushback or taxi on the Coordinator frequency before being passed to SMC. 
 
