@@ -38,7 +38,7 @@ To mitigate this, pushback requests may be done on **ACD** frequency, to balance
 To commence the procedure:
 
 1. **SMC** and **ACD** coordinate to implement the procedure, due to high **SMC** workload.
-2. **SMC** coordinates with **ADC** in order to have the [ATIS](../../aerodromes/classc/Melbourne.md#acd-pushback-requests) updated.
+2. **SMC** coordinates with **ADC** in order to have the ATIS updated (see each aerodrome's page).
 3. **ACD** places the `STANDBY FOR GROUND` bar in the **Cleared Bay** in [OzStrips](../../client/towerstrips.md#coordinator).
 
 !!! phraseology

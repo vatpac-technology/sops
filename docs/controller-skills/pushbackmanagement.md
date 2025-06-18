@@ -17,14 +17,14 @@ During busy events, such as [Milk Run Monday](../events/milkrun/), the **SMC** c
 	
 
 ### Sydney Coordinator
-At Sydney, a non-standard position of [Sydney Coordinator]((../../aerodromes/classc/Sydney/#sydney-coordinator) is activated to reduce frequency congestion on SMC and ensure compliance with pre-determined slot times. The responsibilities of Sydney Coordinator may be delegated to **ACD** when there is high SMC workload but no seperate Coordinator controller available.
+At Sydney, a non-standard position of [Sydney Coordinator](../../aerodromes/classc/Sydney/#sydney-coordinator) is activated to reduce frequency congestion on SMC and ensure compliance with pre-determined slot times. The responsibilities of Sydney Coordinator may be delegated to **ACD** when there is high SMC workload but no seperate Coordinator controller available.
 
 
 ### Implementing Pushback Requests on ACD
 A few steps must be followed to properly execute this procedure. To commence the procedure:
 
 1. **SMC** and **ACD** coordinate to implement the procedure, due to high **SMC** workload.
-2. **SMC** coordinates with **ADC** in order to have the [ATIS](#acd-pushback-requests) updated.
+2. **SMC** coordinates with **ADC** in order to have the ATIS updated (see each aerodrome's page).
 3. **ACD** places the `STANDBY FOR GROUND` bar in the **Cleared Bay** in [OzStrips](../client/towerstrips.md#coordinator).
 
 !!! phraseology
