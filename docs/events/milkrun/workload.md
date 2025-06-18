@@ -31,57 +31,12 @@ Use this information to know that you will be busy soon, and put out a request f
 It may already be too late! And to make matters worse, if you wait too long to ask, there might not be any controllers available to split the sector.
 
 ## Pushback Requests on ACD
-During the event, the **SMC** at [YMML](../../../aerodromes/classc/melbourne) controller may end up with a much higher workload than the **ACD** controller. Additionally, delays may need to be implemented for aircraft requesting pushback, so as to not overload the taxiways and holding points.
+During the event, the **SMC** controllers may end up with a much higher workload than the **ACD** controllers. Additionally, delays may need to be implemented for aircraft requesting pushback, so as to not overload the taxiways and holding points.
 
-To mitigate this, pushback requests may be done on **ACD** frequency, to balance the workload. A few steps must be followed to properly execute this procedure.
+To mitigate this, pushback requests may be done on **ACD** frequency, to balance the workload. See [Pushback Requests on ACD](../../controller-skills/grounddelaymanagement.md#pushback-requests-on-acd) for detailed procedures.
 
-To commence the procedure:
-
-1. **SMC** and **ACD** coordinate to implement the procedure, due to high **SMC** workload.
-2. **SMC** coordinates with **ADC** in order to have the ATIS updated (see each aerodrome's page).
-3. **ACD** places the `STANDBY FOR GROUND` bar in the **Cleared Bay** in [OzStrips](../../client/towerstrips.md#coordinator).
-
-!!! phraseology
-    <span class="hotline">**ML SMC** -> **ML ACD**</span>: "It's getting quite busy. Happy to implement Pushback requests on your frequency?"  
-    <span class="hotline">**ML ACD** -> **ML SMC**</span>: "Understood, affirm"  
-    <span class="hotline">**ML SMC** -> **ML ACD**</span>: "Thanks, I'll talk to Tower"  
-
-    <span class="hotline">**ML SMC** -> **ML ADC**</span>: "Can we please get `ALL DEPARTURES MUST REQUEST PUSH BACK ON 127.2` on the ATIS?"  
-    <span class="hotline">**ML ADC** -> **ML SMC**</span>: "Wilco"  
-
-To operate with pushback requests on ACD:
-
-1. When **ACD** has finished issuing an airways clearance, they will **remind** pilots to *"Contact me when ready for pushback"*.
-2. When a pilot requests pushback, **ACD** will assess their priority based on apron congestion and number of aircraft in the queue (see [Queue Management](#queue-management)).  
-3. **ACD** will either instruct them to **standby for Ground** *(not contact)*, or remain on the ACD frequency if a delay is required.  
-4. If an aircraft is instructed to 'standby for Ground', **ACD** will move the strip below the **Standby for Ground** bar in the **Queue** section of the **Cleared Bay** in [OzStrips](../../client/towerstrips.md#coordinator), to denote they are awaiting pushback approval.  
-5. When **SMC** has adequate space on the aprons, taxiways, and holding point, they will issue pushback/taxi to the next aircraft in line by scanning the [Cleared Queue bay](../../../client/towerstrips/#stripboard).
-
-!!! phraseology
-    **VOZ543:** "Melbourne Delivery, VOZ543, PDC read back"  
-    **ML ACD:** "VOZ543, Melbourne Delivery"  
-    **VOZ543:** "DOSEL1 departure, squawk 1336, bay E8, VOZ543"  
-    **ML ACD:** "VOZ543, contact me when ready for pushback"  
-    **VOZ543:** "Wilco, VOZ543"  
-    ...   
-    **VOZ543:** "Melbourne Delivery, VOZ543, bay E8, request pushback"  
-    **ML ACD:** "VOZ543, standby for ground 121.7"  
-    **VOZ543:** "Standby for ground 121.7, VOZ543"  
-    ...   
-    **ML SMC:** "VOZ543, Melbourne Ground, pushback approved."
-
-### Queue Management
-Remember that the **bottom** aircraft represents the **front** of the queue.
-
-Additionally, the strips must remain in the strip bay of their **current state**, even if they are in a queue. For example, if they have received an airways clearance and are in the queue for pushback, they must remain in the **Cleared** bay, **not** the Pushback bay.
-
-<figure markdown>
-![Cleared Queue Bay](../img/clrqbay.png){ width="500" }
-  <figcaption>Cleared Queue Bay</figcaption>
-</figure>
-
-### COBT Slot Times
-Aircraft that are compliant with their booked slot time should be moved to the **front** of the queue
+## COBT Slot Times
+When the Event plugin is being used to manage slot bookings, aircraft that are compliant with their booked slot time should be moved to the **front** of the queue.
 
 <figure markdown>
 ![COBT Slot Time](../img/slottime.png){ width="200" }

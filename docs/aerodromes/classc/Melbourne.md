@@ -187,7 +187,7 @@ In the real world, YMML utilises Towbar Disconnect Points (TDPs) to allow predic
 During busy events, such as [Milk Run Monday](../../../events/milkrun/), the **SMC** controller may end up with a much higher workload than the **ACD** controller. Additionally, delays may need to be implemented for aircraft requesting pushback, so as to not overload the taxiways and holding points.
 
 ### Pushback Requests on ACD
-During busy periods, SMC and ACD may coordinate to implement the [Pushback Requests on ACD](../../controller-skills/pushbackmanagement#pushback-requests-on-acd) procedure to balance the workload across ACD and SMC frequencies.
+During busy periods, SMC and ACD may coordinate to implement the [Pushback Requests on ACD](../../controller-skills/grounddelaymanagement#pushback-requests-on-acd) procedure to balance the workload across ACD and SMC frequencies.
 
 When implementing the procedure the ATIS [OPR INFO field](#acd-pushback-requests) must be updated to inform pilots the correct frequency on which to request pushback.
 

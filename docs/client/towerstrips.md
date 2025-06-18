@@ -154,10 +154,10 @@ Right mouse click on the yellow first waypoint box to open the Reroute menu. Fro
 </figure>
 
 #### Pushback Requests on ACD
-When pushback requests are being managed by ACD, the procedures set out in [Coordinator](#coordinator) below shall be followed.
+When [pushback requests](../controller-skills/grounddelaymanagement.md#pushback-requests-on-acd) are being managed by ACD, the procedures set out in [Coordinator](#coordinator) below shall be followed.
 
 ### Coordinator
-At locations like [Brisbane](../../aerodromes/classc/Brisbane/#pushback-requests-on-acd), [Melbourne](../../aerodromes/classc/Melbourne/#pushback-requests-on-acd), [Perth](../../aerodromes/classc/Perth/#pushback-requests-on-acd), and [Sydney](../../aerodromes/classc/Sydney/#pushback-requests-on-acd), a Coordinator role is sometimes performed during times of high traffic. See each aerodrome-specific page for the requirements to open and set up the Coordinator position.
+At locations like [Brisbane](../aerodromes/classc/Brisbane.md#pushback-requests-on-acd), [Melbourne](../aerodromes/classc/Melbourne.md#pushback-requests-on-acd), [Perth](../aerodromes/classc/Perth.md#pushback-requests-on-acd), and [Sydney](../aerodromes/classc/Sydney.md#sydney-coordinator), a Coordinator role is sometimes performed during times of high traffic. See each aerodrome-specific page for the requirements to open and set up the Coordinator position.
 
 !!! note
     At most aerodromes, this duty is performed by ACD (when required), but for simplicity, this section will refer to the controller performing the role as 'Coordinator'.
@@ -178,7 +178,7 @@ Ensure that no more than **three** strips are ever present below the Standby for
 When a departure is issued pushback, move them to the **Pushback Bay**. If pushback is unable to be given at that time, [queue](#queue-management) the strip in the **Cleared Bay**.
 
 !!! tip
-    See [Coordinator](#coordinator) above for the procedure to follow when a Coordinator position is active. Remember that the bottom most aircraft is always the first in line.
+    See [Coordinator](#coordinator) above for the procedure to follow when a Coordinator position is active (or [pushback requests](../controller-skills/grounddelaymanagement.md#pushback-requests-on-acd) are being managed by ACD). Remember that the bottom most aircraft is always the first in line.
 
 When taxi instructions are issued, move the strip to the **Taxi Bay** and enter the relevant instructions in the Global Ops field. When the aircraft is given taxi to the holding point at their assigned departure runway, enter the holding point in the Holding Point field.
 
