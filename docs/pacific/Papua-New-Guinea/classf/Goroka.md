@@ -55,9 +55,12 @@ Aircraft should report at the standard VFR Departure/Arrival Gates.
 | Northwest | DLO | Daulo Pass Gap | Both |
 | Northwest | BUG | Bundi Gap | Both |
 
-<!--
 ## Helicopter Operations
---->
+### Helipads and Landing Areas
+There are no controlled helipads at AYGA. Multiple uncontrolled helipads have been established on the south apron by private operators.
+
+These helipads are outside the controlled maneuvering area and do not receive explicit takeoff/landing clearance. Helicopters using these helipads be instructed to 'report on the ground'/'report when airbourne' in lieu of an explicit takeoff/landing clearance.
+
 ## Runway Modes
 Due to high terrain to the north of the airport, the only authorised runway mode is reciprocal runway operations on Runway **17R/35L**
 

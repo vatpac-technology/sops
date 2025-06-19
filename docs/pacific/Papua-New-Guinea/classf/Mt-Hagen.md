@@ -66,9 +66,20 @@ Aircraft should report at the standard VFR Departure/Arrival Gates.
 | North West | DYG | Diayer Gap | Both |
 
 
-<!---## Helicopter operations
+## Helicopter Operations
+### Helipads and Landing Areas
+There are no controlled helipads at AYMH. Multiple uncontrolled helipads have been established on the apron by private operators.
 
-## SID Selection
+<figure markdown>
+![Uncontrolled AYMH Helipads](../img/aymh_helipads.png){ width="700" }
+  <figcaption>Uncontrolled AYMH Helipads</figcaption>
+</figure>
+
+Helicopters also operate from landing areas at Mt Kaimunga (AYXK) and Mt Kegam (AYJK) within the Mt Hagen ATZ.
+
+These helipads are outside the controlled maneuvering area and do not receive explicit takeoff/landing clearance. Helicopters using these helipads be instructed to 'report on the ground'/'report when airbourne' in lieu of an explicit takeoff/landing clearance.
+
+<!--- ## SID Selection
 ## ATIS
 --->
 

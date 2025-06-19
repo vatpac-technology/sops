@@ -67,21 +67,21 @@ Aircraft should report at the standard VFR Departure/Arrival Gates.
 | Southeast | SAL | Salamaua | Both |
 | Southeast | MKB | Markham Bridge | Both |
 | South | LSN | Lower Snake Gap | Both |
-| South | TMN | Timini | Both|
+| South | TMN | Timini | Both |
 | Southwest | PES | Pesen | Both |
 | West | RUM | Rumion | Both |
-| West | JCN | Junction |
+| West | JCN | Junction | Both |
 
 ### Inbound/Outbound Routes
 | Victor | Inbound | Outbound |
 | ------ | ------- | -------- |
 | Alpha | IBG-Ngaro Post Office | Ngaro Post Office-IBG |
 | Mike | Lae-MKB-Umsis-Mt Ngaroneno | Mt Ngaroneno-Umsis-MKB-Lae |
-| "The Wampit" (WAM) | TMN to Gabensis following the Lae-Bulolo Road | Gabensis to TMN following Lae-Bulolo Road |
+| The Wampit | TMN to Gabensis following the Lae-Bulolo Road | Gabensis to TMN following Lae-Bulolo Road |
 | Tango | Mari-TMN | TMN-Mari |
-| Whiskey | From PES H057, south of Watut River until abeam JCN | 237 NZ radial to PSN, south of Watut River once abeam JCN |
+| Whiskey | Track NZ VOR 237 Radial inbound, remaining south of Watut River | Track 237 NZ radial outbound, remaining south of Watut River |
 
-<!---## VFR Operations 
+
 ## Helicopter Operations
 ### Helipads and Landing Areas
 There are no controlled helipads at AYNZ. While most helicopters operate in Lae outside the AYNZ CTR, there is a private helipad within the CTR at the Crossroads Hotel, 12.9NM southeast of the ARP. 
@@ -91,9 +91,7 @@ Helicopters using this helipad be instructed to 'report on the ground'/'report w
 !!! important
 	The Crossroads helipad sits less than 1NM northeast of the LARID-NZ. Helicopters using the pad **are not** laterally separated from aircraft tracking LARID-NZ *or* from aicraft on the VOR approach to Runway 27. AYNZ ADC must ensure an alternate separation standard is in place at all times.
 	
-<!---## Runway Modes
->>>>>>> Stashed changes
-## Runway Modes
+<!--- ## Runway Modes
 ### Runway Selection
 ### Special Runway Operations
 ### Circuits -->
