@@ -14,7 +14,7 @@
 | <span class="indented">Sydney SMC West :material-information-outline:{ title="Non-standard position"}   | Sydney Ground  | 126.500          | SY-W_GND                                 |
 | <span class="indented">Sydney Coordinator :material-information-outline:{ title="Non-standard position"} | Sydney Coordinator   | 127.600          | SY-C_GND                                |
 | **Sydney ACD**         | **Sydney Delivery**| **133.800**          | **SY_DEL**                                   |
-| **Sydney ATIS**        |                | **126.250**          | **YSSY_ATIS**                                |
+| **Sydney ATIS**        |                | **118.550**          | **YSSY_ATIS**                                |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
@@ -28,15 +28,35 @@ SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005` as 
   <figcaption>SY ADC Airspace</figcaption>
 </figure>
 
-### Helicopter Operations
+## Helicopter Operations
+VFR helicopters are generally processed via one of Sydney's Helicopter Routes. There are both inbound and outbound routes. Each procedure is delivered as a coded clearance designed to separate helicopters from fixed-wing aircraft.  
+  
+**Inbound** coded clearances contain tracking, altitudes, a clearance limit and at which waypoint to self-transfer to tower.  
+**Outbound** coded clearances contain tracking and altitude to be flown. Outbound routes typically end at the CTA boundary.
+
+You can find each Helicopter Route below, and full details are in the `ERSA FAC YSSY`.
+
+<figure markdown>
+![SY Heli Routes](img/yssy_heli_routes.png){ width="700" }
+</figure>
+
 Refer to [Heliport Responsibility](#heliport-responsibility) to determine which ADC position (when both are online) is responsible for managing helicopter arrivals and departures.
 
-#### Departures
-VFR helicopters are generally processed via one of Sydney's Helicopter Routes. IFR helicopters should conform to fixed wing ops and be processed via the **SY (RADAR) SID** from an appropriate runway, unless a visual departure is acceptable.
+### Departures
+VFR helicopters are generally processed via an outbound helicopter route (see above). IFR helicopters should conform to fixed wing ops and be processed via the **SY (RADAR) SID** from an appropriate runway, unless a visual departure is acceptable.
 
-SY ACD will issue airways clearance for a Helicopter Route through a coded clearance.
-!!! tip
-    You can find details of each Helicopter Route (including applicable clearance limits) in the `ERSA FAC YSSY`.
+SY ACD will issue airways clearance for all helicopters, including those on a helicopter route.  The helicopter route title should be recorded in the **global ops field** and the route waypoints should be added to the FDR route, as below.
+
+| Route | Waypoints |
+| --- | --- |
+| ROSEHILL 5 OUTBOUND | `RKWC RSH` |
+| ERSKINEVILLE 5 OUTBOUND | `ERSK REDF DHH` |
+| HARBOUR BRIDGE 5 OUTBOUND | `ERSK REDF DHH HBB` |
+| BARRACKS 5 OUTBOUND | `MPSC RCB` |
+| MAROUBRA 5 OUTBOUND | `MRBR` |
+| CAPE BANKS 5 OUTBOUND | `CAPS` |
+| WANDA 5 OUTBOUND | `DLPT YWAN` |
+| GEORGES RIVER 5 OUTBOUND | `DLPT GRB PNP CSTH` |
 
 !!! phraseology
     **YOE:** "Sydney Delivery, helicopter YOE, for the Harbour Bridge 5 outbound, request clearance"  
@@ -44,12 +64,14 @@ SY ACD will issue airways clearance for a Helicopter Route through a coded clear
     **YOE:** "Cleared Harbour Bridge 5 outbound, squawk 0215, departure frequency 123.0, YOE"
 
 Most helicopters will be capable of departing from their company helipad.  If reposition is required to Helipad 1 (the primary helipad), this must be approved by **SY ADC**.
+
 !!! phraseology
     **YOE:** "Sydney Tower, helicopter YOE, Hotel 7, request reposition Hotel 1"  
     **SY ADC:** "YOE, reposition approved"  
     **YOE:** "Reposition approved, YOE"
 
 Helipad 1 is controlled by **SY ADC** and treated like a runway (takeoff clearances required).  All other pads are outside Tower's jurisdiction and do not require a takeoff/landing clearance, however, approval must still be sought for helicopters to become airborne in the SY CTR.  This approval is communicated in the form of a requirement to *'report airborne'*.
+
 !!! phraseology
     **HWD:** "Sydney Tower, helicopter HWD, Hotel 7, for the Harbour Bridge 5 outbound, ready"  
     **SY ADC:** "HWD, Sydney Tower, report airborne"  
@@ -60,16 +82,17 @@ Helipad 1 is controlled by **SY ADC** and treated like a runway (takeoff clearan
     **HWD:** "Departures, HWD"
 
 Helicopter operations should be accommodated without unduly delaying fixed wing traffic to/from the aerodrome.  Where possible, visually separate helicopters and fixed wing aircraft, and when necessary, delegate responsibility for separation to the helicopter.
+
 !!! phraseology
     **SY ADC:** "HSZ, traffic is a 737 shortly rolling on runway 34R, report in sight"  
     **HSZ:** "Traffic sighted, HSZ"  
     **SY ADC:** "HSZ, maintain own separation, caution wake turbulence, report airborne"  
     **HSZ:** "Maintain own separation, wilco, HSZ"
 
-#### Arrivals
-VFR helicopters are generally processed via by one of Sydney's Helicopter Routes.  IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway.
+### Arrivals
+VFR helicopters are generally processed via by one of Sydney's Helicopter Routes (see above).  IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway.
 
-SY TCU will clear helicopters for all inbound Helicopter Routes, with the exception of the `CAPE BANKS 5 INBOUND` and `WANDA 5 INBOUND`.  Tower controllers should assess the current traffic situation and issue clearances for these aircraft when available.  Each procedure is delivered as a coded clearance, which includes automatic altitude assignment, tracking, and a clearance limit designed to separate helicopters from fixed-wing aircraft.
+SY TCU will clear helicopters for all inbound Helicopter Routes, with the exception of the `CAPE BANKS 5 INBOUND` and `WANDA 5 INBOUND`.  Tower controllers should assess the current traffic situation and issue clearances for these aircraft when available.  
 
 !!! phraseology
     **YZD:** "Sydney Tower, helicopter YZD, JIBN, A005, received Tango, request Cape Banks 5 Inbound"  
@@ -79,9 +102,6 @@ SY TCU will clear helicopters for all inbound Helicopter Routes, with the except
     **YZD:** "YZD, Container Terminal"  
     **SY ADC:** "YZD, cleared visual approach, report on the ground"  
     **YZD:** "Cleared visual approach, wilco, YZD"
-
-!!! tip
-    You can find details of each Helicopter Route (including applicable clearance limits) in the `YSSY ERSA FAC`.
 
 During times of peak fixed wing traffic, instruct helicopters to hold at their designated clearance limit on their Helicopter Route and maintain own separation on approach to the heliport.
 !!! phraseology
@@ -99,7 +119,7 @@ During times of peak fixed wing traffic, instruct helicopters to hold at their d
 
 Helipad 1 is controlled by **SY ADC** and treated like a runway (landing clearances required).  All other pads are outside Tower's jurisdiction and do not require a takeoff/landing clearance.  Helicopters should be instructed to *'report on the ground'* so the controller knows when they are no longer active in their airspace.
 
-#### Hospital Helipads
+### Hospital Helipads
 The Sydney CTR contains a number of hospital helipads to the west, north, and east of YSSY. These pads sit outside the manoeuvring area, so no takeoff or landing clearances should be issued. Instead, helicopters should be instructed to report airborne or report on the ground.
 
 Arriving helicopters will be cleared for a visual approach by **SY TCU** and transferred to **SY ADC**. ADC should instruct these aircraft to report on the ground. During times of poor weather, helicopters may be cleared for the ILS approach to the closest runway with an expectation of breaking off the approach and tracking to the hospital when they become visual. In these situations, SY TCU will coordinate any approach expectations to ADC.
@@ -332,14 +352,12 @@ Climb gradient requirements apply to all Procedural SIDs. It is the pilot's resp
 
 | Cloud Base             | Visibility     | Approach                             |
 | -----------------------| -------------- | -------------------------------------|
-| >3000FT                | >5000M         | `EXP INDEP VISUAL APCH` |
-| Between 2000FT & 3000FT| >5000M         | `EXP INSTR APCH THEN INDEP VISUAL APCH WHEN VISUAL`|
+| >3000FT                | >5000M         | `EXP INDEP VISUAL APCH, DO NOT PASS THRU ASSIGNED RWY CL` |
+| Between 2000FT & 3000FT| >5000M         | `EXP INSTR APCH THEN INDEP VISUAL APCH WHEN VISUAL, DO NOT PASS THRU ASSIGNED RWY CL`|
 | Below 2000FT **or**    | <5000M         | `EXP INSTR APCH`                |
 
 !!! warning "Important"
     Independent Visual Approaches (IVAs) may only be run during Parallel Runway Operations (PROPS). During single runway operations, regular visual approaches (blank ATIS 'APCH' field) should be used instead.
-
-When Independent Visual Approaches are run during PROPS, the APCH field must also include `DO NOT PASS THRU ASSIGNED RWY CL`.
 
 ### Operational Info
 The Operational Information field should be updated based on the runway mode and approach type in use, as per the table below:
