@@ -97,8 +97,8 @@ To avoid conflicting with published departure procedures, aircraft not cleared v
 
 ### YMEN Arrivals
 IFR YMEN Arrivals shall be cleared via the following arrival gates:  
-Runway 26: `MONTY`  
-Runway 35: `MONTY`  
+Runway 26: `MOSVO`  
+Runway 35: `MOSVO`  
 Runway 17: `5NM FINAL`  
 Runway 08: `5NM FINAL`  
 
@@ -207,9 +207,9 @@ Due to the low level of CTA surrounding YMMB, it is best practice to give airway
 
 ## Flow
 ### Local Knowledge
-- Aircraft from the south may be issued the PORTS STAR in lieu of the WAREN STAR to reduce track miles to runways 09 and 34
+- Aircraft from the south may be issued the PORTS STAR in lieu of the RAZZI STAR to reduce track miles to runways 09 and 34
 - In lieu of a STAR, aircraft from the west may be radar vectored via a right circuit to runway 16 to reduce track miles
-- Aircraft via WAREN or WENDY may be issued the Mike/Papa STAR to reduce track miles to runway 16
+- Aircraft via RAZZI or ALAXO may be issued the Mike/Papa STAR to reduce track miles to runway 16
 - Aircraft from the northeast may be issued RWY 27 or direct to the IAF of the RNP-M RWY 16 to reduce track miles *(coordination required)*
 - LAHSO runway mode will increase arrival rate (see [activation prerequisites](#lahso) for specific LAHSO approvals required)
 
@@ -222,13 +222,13 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **ARBEY**      | 11^ | 9^  | 12 | 13 |
     | **BOYSE A**    | 16 | 13 | 11 | 14 |
     | **BOYSE V**    | -  | -  | -  | 13 |
-    | **LIZZI A**    | 15 | 12 | 10^ | 13 |
-    | **LIZZI V**    | -  | -  | -  | 12 |
-    | **WAREN A/V**  | 16 | 13 | 9^  | 10^ |
-    | **WAREN M**    | -  | 11 | -  | -  |
+    | **BOOIN A**    | 15 | 12 | 10^ | 13 |
+    | **BOOIN V**    | -  | -  | -  | 12 |
+    | **RAZZI A/V**  | 16 | 13 | 9^  | 10^ |
+    | **RAZZI M**    | -  | 11 | -  | -  |
     | **PORTS**      | 11 | -  | -  | 7^  |
-    | **WENDY A**    | 11^ | 17 | 15 | 12 |
-    | **WENDY P**    | -  | 15 | -  | -  |
+    | **ALAXO A**    | 11^ | 17 | 15 | 12 |
+    | **ALAXO P**    | -  | 15 | -  | -  |
 
 === "Non-Jets"
     | STAR | RWY 09 | RWY 16 | RWY 27 | RWY 34 |
@@ -236,13 +236,13 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **ARBEY**      | 12^ | 10^ | 14 | 15 |
     | **BOYSE A**    | 18 | 15 | 13 | 16 |
     | **BOYSE V**    | -  | -  | -  | 15 |
-    | **LIZZI A**    | 17 | 14 | 11^ | 15 |
-    | **LIZZI V**    | -  | -  | -  | 14 |
-    | **WAREN A/V**  | 18 | 15 | 10^ | 11^ |
-    | **WAREN M**    | -  | 13 | -  | -  |
+    | **BOOIN A**    | 17 | 14 | 11^ | 15 |
+    | **BOOIN V**    | -  | -  | -  | 14 |
+    | **RAZZI A/V**  | 18 | 15 | 10^ | 11^ |
+    | **RAZZI M**    | -  | 13 | -  | -  |
     | **PORTS**      | 12 | -  | -  | 8^  |
-    | **WENDY A**    | 12^ | 19 | 17 | 14 |
-    | **WENDY P**    | -  | 17 | -  | -  |
+    | **ALAXO A**    | 12^ | 19 | 17 | 14 |
+    | **ALAXO P**    | -  | 17 | -  | -  |
 
 #### Corrections
 
@@ -314,7 +314,7 @@ All other aircraft coming from Enroute CTA will be **Heads-up** Coordinated to M
 - Assigned the **ISPEG** SID  
     - Departing from Runway 16 during the 16A27D Runway Mode; and  
     - Assigned `A050`; and  
-    - Tracking via **MNG**, **NONIX**, **DOSEL**, **KEPPA**, **NEVIS** or **ESDIG**
+    - Tracking via **MNG**, **NONIX**, **DOSEL**, **KEPPA**, **PEDNI** or **ESDIG**
 
 All other aircraft require a 'Next' call to ML TCU.
 
