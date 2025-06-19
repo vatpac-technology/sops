@@ -34,12 +34,12 @@ Refer to the [PNG Local instructions](../) for more information about Class F/AT
 ### Start Clearance
 Aircraft require clearance from AYMH ADC before engine start.
 
-### Mount Hagen Training Area
-The AYD903 (Mount Hagen) Danger Area is in the north-east AYMH ATZ, `SFC` to `A100`, and is used for flight training and practice approaches.
+### Training Areas
+The AYD903 (Mount Hagen) Danger Area is in the north-east AYMH ATZ, `SFC` to `A100`, and is used for flight training and practice approaches. The AYD907 (Waghi) Danger Area  is directly adjacent the AYMH ATZ, `SFC` to `A100`.
 
 <figure markdown>
-![AYD903 (Mount Hagen) Danger Area](../img/ayd903.png){ width="700" }
-    <figcaption>AYD903 (Mount Hagen) Danger Area</figcaption>
+![AYD903 (Mount Hagen) and AYD907 (Waghi) Danger Areas](../img/ayd903-907.png){ width="700" }
+    <figcaption>AYD903 (Mount Hagen) Danger Area (left) and AYD907 (Waghi) Danger Area (right)</figcaption>
 </figure>
 
 The airspace within the Danger Area remains Class F. AYMH ADC will issue traffic information to aircraft reporting entering and when reporting leaving.
