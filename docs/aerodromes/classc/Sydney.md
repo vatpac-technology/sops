@@ -382,7 +382,7 @@ When [Coordinator](#sydney-coordinator) is online and start approval is required
     </figure>
 
 ## Sydney Coordinator
-Sydney Coordinator is activated to reduce frequency congestion on SMC and ensure compliance with pre-determined slot times. The position is only beneficial with large amounts of traffic and when performed carefully and deliberately. When Coordinator is online, all departures are first directed to them prior to monitoring SMC, thus reducing one radio call per aircraft on the SMC frequency.
+Sydney Coordinator is activated to reduce frequency congestion on SMC and ensure compliance with pre-determined slot times. The position is only beneficial with large amounts of traffic and when performed carefully and deliberately. When Coordinator is online, all departures are first directed to them prior to the SMC frequency, thus reducing one radio call per aircraft on the SMC frequency.
 
 !!! warning "Important"
     Sydney Coordinator is a non-standard position which may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.
@@ -390,73 +390,7 @@ Sydney Coordinator is activated to reduce frequency congestion on SMC and ensure
 !!! tip
     The responsibilities of Sydney Coordinator may be delegated to **ACD** when there is high SMC workload but no seperate Coordinator controller available. This should be reflected in the ATIS accordingly.
 
-To open Coordinator:
-
-1. **SMC** and **COORD** coordinate to implement the procedure.
-2. **SMC** coordinates with **ADC** in order to have the [ATIS](#operational-info) updated to include `WHEN READY FOR PUSH BACK OR TAXI CTC COORDINATOR 127.6`.
-3. **ACD** places the `MONITOR GROUND` bar in the **Cleared Bay** in [OzStrips](../../client/towerstrips.md#coordinator).
-
-To operate with Coordinator open:  
-
-1. When **ACD** has finished issuing an airways clearance, they will **handoff** pilots to Coordinator using *"contact Coordinator 127.6 for pushback"* OR **remind** pilots to *"contact me when ready for pushback"* (during combined ACD and COORD).  
-2. When a pilot requests pushback, **COORD** will assess their priority based on apron congestion and number of aircraft in the queue (see [Queue Management](#queue-management)).  
-3. **COORD** will either instruct them to **monitor** *(not contact)* SMC, or remain on the Coordinator frequency if a delay is required.  
-4. If an aircraft is instructed to monitor SMC, **COORD** will move the strip below the **Monitor Ground** bar in the **Queue** section of the **Cleared Bay** in [OzStrips](../../client/towerstrips.md#coordinator), to denote they are awaiting pushback approval.  
-5. When **SMC** has adequate space on the aprons, taxiways, and holding point, they will issue pushback/taxi to the next aircraft in line by scanning the [Cleared Queue bay](../../../client/towerstrips/#stripboard).
-
-The decision whether or not to send an aircraft to SMC or hold them on the Coordinator frequency should be made in accordance with the [Queue Management](#queue-management) techniques.
-
-!!! tip
-    Remember that the **bottom** aircraft represents the **front** of the queue.
-
-!!! warning "Important"
-    If SMC needs to reduce the pushback rate due to congestion at the holding points or excessive workload, **Coordinator** should be informed without delay, and instructed to hold all departures on their frequency. This will stop aircraft being told to monitor the SMC frequency. Remember to cancel this requirement when congestion eases.
-
-!!! phraseology
-    **VOZ543:** "Sydney Delivery, VOZ543, PDC read back"  
-    **SY ACD:** "VOZ543, Sydney Delivery"  
-    **VOZ543:** "Runway 34R, OLSEM1 departure, squawk 1336, bay 33, VOZ543"  
-    **SY ACD:** "VOZ543, contact Coordinator 127.6 for pushback"  
-    **VOZ543:** "127.6 for push, VOZ543"  
-    ...   
-    **VOZ543:** "Sydney Coordinator, VOZ543, bay 33, request pushback"  
-    **SY COORD:** "VOZ543, monitor ground 121.7"  
-    **VOZ543:** "Monitor 121.7, VOZ543"  
-    ...   
-    **SY SMC:** "VOZ543, Sydney Ground, pushback approved."
-
-
-If a delay is required prior to transferring an aircraft to SMC, provide an estimated delay value to the pilot or advise them of their position in the queue.
-
-!!! phraseology
-    **VOZ543:** "Sydney Coordinator, VOZ543, bay 33, request pushback"  
-    **SY COORD:** "VOZ543, estimated delay 10 minutes, remain this frequency."
-
-#### Queue Management
-To reduce SMC workload, ACD should not allow more than **three** aircraft to be awaiting pushback or taxi on the SMC frequency. When three aircraft are already queued on the SMC frequency, any additional aircraft should be told to remain on the ACD frequency and informed of their position in the queue or approximate delay (if known). These aircraft should be placed in the **Cleared Bay Queue**, above the **Monitor Ground** bar.
-
-<figure markdown>
-![Coordinator Ops with OzStrips](../../controller-skills/img/ozstripscoordinator.png){ width="800" }
-  <figcaption>Coordinator Ops with OzStrips<br><small>Three aircraft are monitoring SMC (below the Queue bar), and QFA121 and RXA6416 have both requested push/taxi but are being held on the Coordinator frequency. QFA121 is closer to the bottom, so will be next to be told to monitor SMC.</small></figcaption>
-</figure>
-
-When SMC moves an aircraft from below the **Monitor Ground** bar to the **Pushback Bay**, Coordinator should instruct the next aircraft in line to monitor the SMC frequency (and move the strip appropriately).
-
-!!! warning "Important"
-    Strips must remain in the strip bay of their **current state**, even if they are in a queue. For example, if they have received an airways clearance and are in the queue for pushback, they must remain in the **Cleared Bay**, **not** the Pushback Bay.
-
-#### Start Approval
-When delays for taxi are excessive (e.g. 15–30 minutes), it may be necessary to include the following ATIS OPR INFO: `START APPROVAL RQ. WHEN READY FOR PUSH BACK OR ENGINE START, CTC SYDNEY COORDINATOR ON FREQ 127.6, FOR START TIME`. This will ensure aircraft don't end up burning considerable amounts of fuel and potentially disrupting the latter parts of the flight (with insufficient fuel for lengthy en-route sequencing or holds).
-
-With start approvals in operation, aircraft who do not require pushback will contact Coordinator prior to starting. Coordinator should issue an estimated start time to the aircraft, and contact them when they reach the front of the queue to provide start approval. Aircraft are still expected to report ready to taxi to Coordinator, who will follow the procedure above and tell them to monitor the SMC frequency.
-
-#### COBT Slot Times
-During busy events, VATPAC may utilise prebooked slots to manage traffic congestion. Aircraft which are compliant with their booked slot time should be prioritised over aircraft who are non-compliant or do not have a slot.
-
-<figure markdown>
-![COBT Slot Time](img/slottime.png){ width="200" }
-  <figcaption>COBT Slot Time</figcaption>
-</figure>
+Refer to [Pushback Requests on ACD](../../controller-skills/grounddelaymanagement.md#pushback-requests-on-acd) for detailed procedures.
 
 ## Coordination
 ### Auto Release
