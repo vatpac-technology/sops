@@ -5719,6 +5719,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#pushback-requests-on-acd" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pushback Requests on ACD
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -6118,6 +6127,29 @@
   
   <span class="md-ellipsis">
     Extending
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../controller-skills/grounddelaymanagement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ground Delay Management
     
   </span>
   
@@ -6573,6 +6605,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#pushback-requests-on-acd" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pushback Requests on ACD
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -6990,25 +7031,27 @@
 <p><a class="glightbox" href="../../controller-skills/img/ozstripsvfrsid.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="SID assigned to VFR Aircraft" src="../../controller-skills/img/ozstripsvfrsid.png" width="500" /></a>
     <figcaption>A <abbr title="Visual Flight Rules">VFR</abbr> aircraft assigned a <abbr title="Standard Instrument Departure">SID</abbr>, shown by the yellow background on the <abbr title="Standard Instrument Departure">SID</abbr> box</figcaption></p>
 </figure>
+<h4 id="pushback-requests-on-acd">Pushback Requests on <abbr title="Airways Clearance Delivery">ACD</abbr></h4>
+<p>When <a href="../../controller-skills/grounddelaymanagement/#pushback-requests-on-acd">pushback requests</a> are being managed by <abbr title="Airways Clearance Delivery">ACD</abbr>, the procedures set out in <a href="#coordinator">Coordinator</a> below shall be followed.</p>
 <h3 id="coordinator">Coordinator</h3>
-<p>At locations like <a href="../../aerodromes/classc/Sydney/#sydney-coordinator">Sydney</a> and <a href="../../aerodromes/classc/Melbourne/#pushback-requests-on-acd">Melbourne</a>, a Coordinator role is sometimes performed during times of high traffic. See each aerodrome-specific page for the requirements to open and set up the Coordinator position.</p>
+<p>At locations like <a href="../../aerodromes/classc/Brisbane/#pushback-requests-on-acd">Brisbane</a>, <a href="../../aerodromes/classc/Melbourne/#pushback-requests-on-acd">Melbourne</a>, <a href="../../aerodromes/classc/Perth/#pushback-requests-on-acd">Perth</a>, and <a href="../../aerodromes/classc/Sydney/#sydney-coordinator">Sydney</a>, a Coordinator role is sometimes performed during times of high traffic. See each aerodrome-specific page for the requirements to open and set up the Coordinator position.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>At Melbourne, this duty is performed by <abbr title="Airways Clearance Delivery">ACD</abbr> (when required), but for simplicity, this section will refer to the controller performing the role as 'Coordinator'.</p>
+<p>At most aerodromes, this duty is performed by <abbr title="Airways Clearance Delivery">ACD</abbr> (when required), but for simplicity, this section will refer to the controller performing the role as 'Coordinator'.</p>
 </div>
 <p>Once all coordination has been completed and the Coordinator position has been opened, all outbound aircraft must first request pushback or taxi on the Coordinator frequency before being passed to <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr>. </p>
-<p>Place a <code>MONITOR GROUND</code> <a href="#control-bar">bar</a> in the <strong>Cleared Bay</strong> queue. Any strips below this bar respresent aircraft who have been instructed to monitor the appropriate <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> frequency. Aircraft who are ready for pushback or taxi, but have not been told to monitor <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr>, are placed in the queue, above the Monitor Ground bar.</p>
-<p>Ensure that no more than <strong>three</strong> strips are ever present below the Monitor Ground bar. When <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> takes a strip from below the Monitor Ground bar and places it in the <strong>Pushback</strong> or <strong>Taxi Bay</strong>, instruct the aircraft next in line (in the queue but above the Monitor Ground bar) to monitor <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr>, and move them below the bar.</p>
+<p>Place a <code>STANDBY FOR GROUND</code> <a href="#control-bar">bar</a> in the <strong>Cleared Bay</strong> queue. Any strips below this bar respresent aircraft who have been instructed to standby for ground on the appropriate <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> frequency. Aircraft who are ready for pushback or taxi, but have not been told to monitor <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr>, are placed in the queue, above the Standby for Ground bar.</p>
+<p>Ensure that no more than <strong>three</strong> strips are ever present below the Standby for Ground bar. When <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> takes a strip from below the Standby for Ground bar and places it in the <strong>Pushback</strong> or <strong>Taxi Bay</strong>, instruct the aircraft next in line (in the queue but above the Standby for Ground bar) to monitor <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr>, and move them below the bar.</p>
 <figure>
 <p><a class="glightbox" href="../../controller-skills/img/ozstripscoordinator.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Coordinator" src="../../controller-skills/img/ozstripscoordinator.png" width="800" /></a>
-    <figcaption>Coordinator Ops with OzStrips<br><small>Three aircraft are monitoring <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> (below the Queue bar), and QFA121 and RXA6416 have both requested push/taxi but are being held on the Coordinator frequency. QFA121 is closer to the bottom, so will be next to be told to monitor <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr>.</small></figcaption></p>
+    <figcaption>Coordinator Ops with OzStrips<br><small>Three aircraft are waiting on the <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> frequency (below the Queue bar), and QFA121 and RXA6416 have both requested push/taxi but are being held on the Coordinator frequency. QFA121 is closer to the bottom, so will be next to be told to standby for <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr>.</small></figcaption></p>
 </figure>
 <h3 id="ground">Ground</h3>
 <h4 id="departures">Departures</h4>
 <p>When a departure is issued pushback, move them to the <strong>Pushback Bay</strong>. If pushback is unable to be given at that time, <a href="#queue-management">queue</a> the strip in the <strong>Cleared Bay</strong>.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>See <a href="#coordinator">Coordinator</a> above for the procedure to follow when a Coordinator position is active. Remember that the bottom most aircraft is always the first in line.</p>
+<p>See <a href="#coordinator">Coordinator</a> above for the procedure to follow when a Coordinator position is active (or <a href="../../controller-skills/grounddelaymanagement/#pushback-requests-on-acd">pushback requests</a> are being managed by <abbr title="Airways Clearance Delivery">ACD</abbr>). Remember that the bottom most aircraft is always the first in line.</p>
 </div>
 <p>When taxi instructions are issued, move the strip to the <strong>Taxi Bay</strong> and enter the relevant instructions in the Global Ops field. When the aircraft is given taxi to the holding point at their assigned departure runway, enter the holding point in the Holding Point field.</p>
 <p>As the aircraft approaches the holding point, or when frequency transfer is given to Tower (for international aircraft or new pilots), move the strip to the <strong>Holding Point Bay</strong> and clear the Global Ops field (so <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> can use it for their purposes).</p>
@@ -7125,7 +7168,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 3, 2025 02:37:56 UTC">February 3, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 18, 2025 06:58:47 UTC">June 18, 2025</span>
   </span>
 
     
