@@ -51,6 +51,11 @@ There are no helipad facilities at YPPH. Helicopters should be issued an airways
 When traffic permits, VFR scenic flights over Perth are cleared via VICTOR 65 route (`CTE-PCTY-HKE`). Coordination with PH TCU is required prior to issuing this clearance, see [ACD to PH TCU](#acd-to-ph-tcu).
 
 ## ATIS
+### Operational Info
+#### ACD Pushback Requests
+When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) procedure, the OPR INFO shall include:  
+`ALL DEPARTURES MUST REQUEST PUSH BACK ON 118.55`  
+
 ### Approach Type
 With the [Southwest Plan](#southwest-plan) active, the ATIS shall notify `EXP ILS APCH`.
 
@@ -62,6 +67,12 @@ With the [Northeast Plan](#northeast-plan) active, the ATIS shall notify `EXP IL
 ### Runway Nomination
 When both Runway 03 and Runway 06 are nominated as departure runways, the `RWY` field shall contain:  
 `03 FOR ARR. RWY 03 FOR DEP VIA OTLED, AVNEX, OLMAM, SOLUS AND OPEGA. RWY 06 FOR ALL OTHER DEP.`
+
+## Workload Management
+### Pushback Requests on ACD
+During busy periods, SMC and ACD may coordinate to implement the [Pushback Requests on ACD](../../controller-skills/grounddelaymanagement#pushback-requests-on-acd) procedure to balance the workload across ACD and SMC frequencies.
+
+When implementing the procedure the ATIS [OPR INFO field](#acd-pushback-requests) must be updated to inform pilots the correct frequency on which to request pushback.
 
 ## Coordination
 ### Auto Release
