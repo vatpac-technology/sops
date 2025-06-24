@@ -116,9 +116,13 @@ Non-Jet aircraft, and aircraft that cannot accept a Procedural SID, shall be ass
 ## ATIS
 ### Operational Info
 When parallel runways are used for departures, the ATIS OPR INFO shall include:  
-`INDEPENDENT PARALLEL DEPARTURES IN PROGRESS`  
+`INDEPENDENT PARALLEL DEPARTURES IN PROG`  
 When SODPROPS are in operation, the ATIS OPR INFO shall include:  
-`SIMULTANEOUS OPPOSITE DIRECTION PARALLEL RUNWAY OPERATIONS IN PROGRESS`
+`SIMULTANEOUS OPPOSITE DIRECTION PARALLEL RUNWAY OPERATIONS IN PROG`
+
+#### ACD Pushback Requests
+When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) procedure, the OPR INFO shall include:  
+`ALL DEPARTURES MUST REQUEST PUSH BACK ON 118.85`  
 
 ### Approach Types
 The ATIS shall always have `EXP INST APCH` as the approach type. Visual Approaches are permitted on request, as long as a separation standard exists between the aircraft and any aircraft arriving on the parallel runway during PROPS, or departing from the parallel runway during SODPROPS.
@@ -195,6 +199,12 @@ Both taxiway **H2** and **F4** are inside the maneuvering area and treated like 
 !!! phraseology
     **BN ADC:** "X6G, Taxiway F4, cleared to land"  
     **X6G:** "Taxiway F4, cleared to land, X6G"
+
+## Workload Management
+### Pushback Requests on ACD
+During busy periods, SMC and ACD may coordinate to implement the [Pushback Requests on ACD](../../controller-skills/grounddelaymanagement#pushback-requests-on-acd) procedure to balance the workload across ACD and SMC frequencies.
+
+When implementing the procedure the ATIS [OPR INFO field](#acd-pushback-requests) must be updated to inform pilots the correct frequency on which to request pushback.
 
 ## Coordination
 ### Auto Release
