@@ -148,12 +148,17 @@ OzStrips will flag any potentially invalid routes and incorrect hemispherical le
     <figcaption>A potentially invalid level, shown by the red background on the CFL box</figcaption>
 </figure>
 
-Right mouse click on the yellow first waypoint box to open the Reroute menu. From here, controllers can select a more compliant route. The [VATPAC Tools](https://vatpac.org/membership-hub/tools){target=new} page can be helpful to double check these routes.
+Right mouse click on the yellow First Waypoint box to open the Reroute menu. From here, controllers can select a more compliant route. The [VATPAC Tools](https://vatpac.org/membership-hub/tools){target=new} page can be helpful to double check these routes.
 
 <figure markdown>
 ![Invalid Route](../controller-skills/img/ozstripsbadroute.png){ width="450" }
     <figcaption>A potentially invalid route, shown by the yellow background on the first waypoint box</figcaption>
 </figure>
+
+!!! warning "Important"
+    The invalid route detection system compares the filed route against any ERSA FPR requirements. Some **valid routes may flag** where step climbs interrupt an airway or a pre-filed STAR changes the end of the route. Some **invalid routes may not flag** where no FPR guidance exists for that aerodrome pairing.
+
+    ACD controllers must ensure they continue to check each route for errors regardless of strip error status.
 
 <figure markdown>
 ![SID assigned to VFR Aircraft](../controller-skills/img/ozstripsvfrsid.png){ width="450" }
