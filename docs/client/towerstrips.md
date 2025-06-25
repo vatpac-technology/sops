@@ -133,23 +133,30 @@ If multiple aircraft request clearance at once, [queue](#queue-management) the s
     <figcaption>An example of the ACD layout and workflow</figcaption>
 </figure>
 
+SIDs with a transition are indicated by a yellow border on the SID box. Hover over the box to reveal the transition.
+
+<figure markdown>
+![SID Transition](../controller-skills/img/ozstripssidtransition.png){ width="500" }
+    <figcaption>QFA427 assigned the MARUB7 SID with WOL transition</figcaption>
+</figure>
+
 #### Flight Plan Errors
 OzStrips will flag any potentially invalid routes and incorrect hemispherical levels. Hover over a flag to learn more about the error.
 
 <figure markdown>
-![Invalid Level](../controller-skills/img/ozstripsbadlevel.png){ width="500" }
+![Invalid Level](../controller-skills/img/ozstripsbadlevel.png){ width="450" }
     <figcaption>A potentially invalid level, shown by the red background on the CFL box</figcaption>
 </figure>
 
 Right mouse click on the yellow first waypoint box to open the Reroute menu. From here, controllers can select a more compliant route. The [VATPAC Tools](https://vatpac.org/membership-hub/tools){target=new} page can be helpful to double check these routes.
 
 <figure markdown>
-![Invalid Route](../controller-skills/img/ozstripsbadroute.png){ width="500" }
+![Invalid Route](../controller-skills/img/ozstripsbadroute.png){ width="450" }
     <figcaption>A potentially invalid route, shown by the yellow background on the first waypoint box</figcaption>
 </figure>
 
 <figure markdown>
-![SID assigned to VFR Aircraft](../controller-skills/img/ozstripsvfrsid.png){ width="500" }
+![SID assigned to VFR Aircraft](../controller-skills/img/ozstripsvfrsid.png){ width="450" }
     <figcaption>A VFR aircraft assigned a SID, shown by the yellow background on the SID box</figcaption>
 </figure>
 
@@ -181,6 +188,13 @@ When a departure is issued pushback, move them to the **Pushback Bay**. If pushb
     See [Coordinator](#coordinator) above for the procedure to follow when a Coordinator position is active (or [pushback requests](../controller-skills/grounddelaymanagement.md#pushback-requests-on-acd) are being managed by ACD). Remember that the bottom most aircraft is always the first in line.
 
 When taxi instructions are issued, move the strip to the **Taxi Bay** and enter the relevant instructions in the Global Ops field. When the aircraft is given taxi to the holding point at their assigned departure runway, enter the holding point in the Holding Point field.
+
+OzStrips will check the output of a departure's transponder to ensure they are squawking the assigned SSR code and have selected Mode C. If either of these two conditions are not met, the squawk boxes will highlight orange.
+
+<figure markdown>
+![Incorrect Transponder Output](../controller-skills/img/ozstripssquawk.png){ width="500" }
+    <figcaption>TGG721 is either not squawking the assigned code or not squawking Mode C</figcaption>
+</figure>
 
 As the aircraft approaches the holding point, or when frequency transfer is given to Tower (for international aircraft or new pilots), move the strip to the **Holding Point Bay** and clear the Global Ops field (so ADC can use it for their purposes).
 
@@ -219,7 +233,12 @@ When a departing aircraft calls ready, click the Ready flag to denote this on th
 !!! tip
     The Ready flag will highlight orange if the aircraft is in the **Holding Point Bay** and the aircraft has not called ready (to prevent inadvertent takeoff clearances being issued).
 
-For aircraft on a radar SID or visual departure, record any assigned heading instructions in the Departure Heading field. This will also populate the Global Ops field automatically.
+For aircraft on a radar SID or visual departure, record any assigned heading instructions in the Departure Heading field. This will also populate the Global Ops field automatically. The Departure Heading box will highlight orange for aircraft assigned a radar SID who have not yet had their departure instructions entered.
+
+<figure markdown>
+![Departure Instructions](../controller-skills/img/ozstripsradarsid.png){ width="450" }
+    <figcaption>RXA6418 is assigned the radar SID but no departure instructions have been entered</figcaption>
+</figure>
 
 When an instruction to line up is given, move the strip to the **Runway Bay**. When a takeoff clearance is issued, start the Takeoff Timer.
 
