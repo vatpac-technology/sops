@@ -277,6 +277,8 @@ Aircraft who need to cross an active runway will be coordinated by SMC by hotlin
     <figcaption>BAW17 is instructed to hold short of RWY 27 and placed in the **Holding Point Bay** with the crossing highlight</figcaption>
 </figure>
 
+Where workload permits, ADC may proactively coordinate with SMC to approve runway crossings based the presence of a strip in the **Holding Point Bay**.
+
 When approval is given for the runway crossing, place the `XXX CROSSING XXX` [bar](#control-bar) in the **Runway Bay** to prevent inadvertent takeoff or landing clearances from being issued. Once the aircraft is clear, remove the bar.
 
 <figure markdown>
