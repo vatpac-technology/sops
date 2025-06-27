@@ -214,14 +214,14 @@ When an aircraft arrives at their nominated parking position, [inhibit](#control
 </figure>
 
 #### Runway Crossings
-For aircraft who need to cross an active runway, first coordinate with ADC, then select the strip and use the [XX CROSS XX](#control-bar) button to highlight it as a runway crossing. ADC will place the `XXX CROSSING XXX` [bar](#control-bar) in the **Runway Bay** to prevent inadvertent takeoff or landing clearances from being issued. Once the aircraft is clear, remove the crossing highlight.
+For aircraft who need to cross an active runway, select the strip and use the [XX CROSS XX](#control-bar) button to highlight it as a runway crossing. SMC should hotline ADC to request each runway crossing and/or place the strip in the **Holding Point Bay**  with the crossing highlight applied, as a visual trigger to ADC that an aircraft needs to cross. Once ADC has approved the runway crossing, place the strip back in the **Taxi Bay** and remove the highlight.
 
 !!! tip
     You can quickly toggle the crossing highlight by selecting an aircraft and pressing `X`.
 
 <figure markdown>
 ![Runway Crossing](../controller-skills/img/ozstripsrunwaycrossing.png){ width="700" }
-    <figcaption>BAW15 instructed to cross runway 27, with the **Runway Bay** blocked out</figcaption>
+    <figcaption>BAW17 is instructed to hold short of RWY 27 and placed in the **Holding Point Bay** with the crossing highlight</figcaption>
 </figure>
 
 Coordinated runway releases should be recorded by placing a `RUNWAY XX RELEASED TO SMC` [bar](#control-bar) in the **Runway Bay**. There is no need to highlight a taxiing aircraft crossing a runway which has been released to SMC.
@@ -270,15 +270,22 @@ After the aircraft vacates the runway, move the strip to the **Taxi Bay**.
 </figure>
 
 #### Runway Crossings
-Aircraft who need to cross an active runway will be coordinated by SMC. When approval is given for the runway crossing, place the `XXX CROSSING XXX` [bar](#control-bar) in the **Runway Bay** to prevent inadvertent takeoff or landing clearances from being issued. SMC will highlight the aircraft's strip to denote it as a runway crossing. Once the aircraft is clear, remove the bar.
-
-!!! tip
-    You can quickly add a Crossing bar to the **Runway Bay** by pressing `ALT + X`. To remove the bar, select it, then press `BACKSPACE`.
+Aircraft who need to cross an active runway will be coordinated by SMC by hotline and/or by SMC placing the strip in the **Holding Point Bay** with the red crossing highlight applied.
 
 <figure markdown>
 ![Runway Crossing](../controller-skills/img/ozstripsrunwaycrossing.png){ width="700" }
-    <figcaption>BAW15 instructed to cross runway 27, with the **Runway Bay** blocked out</figcaption>
+    <figcaption>BAW17 is instructed to hold short of RWY 27 and placed in the **Holding Point Bay** with the crossing highlight</figcaption>
 </figure>
+
+When approval is given for the runway crossing, place the `XXX CROSSING XXX` [bar](#control-bar) in the **Runway Bay** to prevent inadvertent takeoff or landing clearances from being issued. Once the aircraft is clear, remove the bar.
+
+<figure markdown>
+![Runway Crossing](../controller-skills/img/ozstripsrunwaycrossingbar.png){ width="450" }
+    <figcaption>**Runway Bay** blocked out during a runway crossing</figcaption>
+</figure>
+
+!!! tip
+    You can quickly add a Crossing bar to the **Runway Bay** by pressing `ALT + X`. To remove the bar, select it, then press `BACKSPACE`.
 
 Coordinated runway releases should be recorded by placing a `RUNWAY XX RELEASED TO SMC` [bar](#control-bar) in the **Runway Bay**.
 
