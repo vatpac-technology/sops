@@ -230,6 +230,9 @@ When conducting IVAs, aircraft shall not be transferred to **SY ADC** until esta
 !!! phraseology
     **SFE:** "ANZ361, Turn right heading 330, join final Runway 34R, from that heading Cleared Independent Visual Approach Runway 34R, not below 1500 until established on the PAPI"    
 
+## SODPROPS Operations
+Arriving aircraft must be established on final and transferred to the tower frequency no later than 10NM from touchdown
+
 ## Sydney Harbour Scenic Flights
 Flights may be cleared for one of two standard scenic flight routes at `A015`, **Harbour Scenic One** or **Harbour Scenic Two**, which are described below. Pilot preference should be accommodated where traffic permits.
 
