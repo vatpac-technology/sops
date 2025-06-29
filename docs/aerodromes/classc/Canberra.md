@@ -47,7 +47,7 @@ The circuit direction is not specified in the airways clearance, but with a take
 Military jet training circuits are conducted at `A035`, unless otherwise requested by the pilot. ADC shall notify the TCU of the beginning and end of the sortie.
 
 ### City Scenic Flights
-City Scenic Flights are available by day and to the west of the aerodrome. Aircraft on these routes shall be cleared at `A045`.
+City Scenic Flights are available by day and to the west of the aerodrome. Aircraft on these routes shall be cleared at `A040`.
 
 | Runway              | City Flight One      | City Flight Two       |
 | ------------------ | -------------- | ---------------- | 
