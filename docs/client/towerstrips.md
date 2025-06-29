@@ -140,6 +140,12 @@ SIDs with a transition are indicated by a yellow border on the SID box. Hover ov
     <figcaption>QFA427 assigned the MARUB7 SID with WOL transition</figcaption>
 </figure>
 
+For flight plans with a GPS waypoint as the first tracking point, the First Waypoint box will show `#GPS#`.
+
+For flight plans with a custom waypoint derived from position bearing distance (e.g. `WLM045008`), the First Waypoint box will show the waypoint followed by a **plus** (e.g. `WLM +`).
+
+In both cases, ACD must open the FDR to read the first waypoint.
+
 #### Flight Plan Errors
 OzStrips will flag any potentially invalid routes and incorrect hemispherical levels. Hover over a flag to learn more about the error.
 
