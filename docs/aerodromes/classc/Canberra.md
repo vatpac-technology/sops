@@ -49,10 +49,18 @@ Military jet training circuits are conducted at `A035`, unless otherwise request
 ### City Scenic Flights
 City Scenic Flights are available by day and to the west of the aerodrome. Aircraft on these routes shall be cleared at `A040`.
 
-| Runway              | City Flight One      | City Flight Two       |
+| YSCB Duty Runway | Route Name | Tracking Points |
 | ------------------ | -------------- | ---------------- | 
-| North (anti-clockwise)    | ALPHA ONE   | ALPHA TWO         | 
-| South (clockwise)  | CHARLIE ONE  | CHARLIE TWO          | 
+| RWY 17 or 12 | CITY ROUTE CHARLIE ONE<br>CITY ROUTE CHARLIE TWO | `YSCB MTM BKM RCSE YSCB`<br>`YSCB MTM MTLR CPNG LGDA RCSE YSCB` | 
+| RWY 35 or 30 | CITY ROUTE ALPHA ONE<br>CITY ROUTE ALPHA TWO | `YSCB RCSE BKM MTM YSCB`<br>`YSCB RCSE LGDA CPNG MTLR MTM YSCB` | 
+
+!!! warning "Important"
+    Controllers must update a pilot's route with the applicable waypoints and enter the coded clearance title in the **Global Ops Field**.
+
+!!! phraseology
+    **YVZ**: "Canberra Ground, YVZ, request City Route Charlie One"  
+    **CB SMC**: "YVZ, cleared City Route Charlie One, climb to A040, squawk 0361, departure frequency 124.5"  
+    **YVZ**: "Cleared City Route Charlie One, climb to A040, squawk 0361, departure frequency 124.5, YVZ"
 
 <figure markdown>
 ![City Scenic Flights](img/cbcty.png){ width="500" }
