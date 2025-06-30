@@ -133,23 +133,41 @@ If multiple aircraft request clearance at once, [queue](#queue-management) the s
     <figcaption>An example of the ACD layout and workflow</figcaption>
 </figure>
 
+SIDs with a transition are indicated by a yellow border on the SID box. Hover over the box to reveal the transition.
+
+<figure markdown>
+![SID Transition](../controller-skills/img/ozstripssidtransition.png){ width="500" }
+    <figcaption>QFA427 assigned the MARUB7 SID with WOL transition</figcaption>
+</figure>
+
+For flight plans with a GPS waypoint as the first tracking point, the First Waypoint box will show `#GPS#`.
+
+For flight plans with a custom waypoint derived from position bearing distance (e.g. `WLM045008`), the First Waypoint box will show the waypoint followed by a **plus** (e.g. `WLM +`).
+
+In both cases, ACD must open the FDR to read the first waypoint.
+
 #### Flight Plan Errors
 OzStrips will flag any potentially invalid routes and incorrect hemispherical levels. Hover over a flag to learn more about the error.
 
 <figure markdown>
-![Invalid Level](../controller-skills/img/ozstripsbadlevel.png){ width="500" }
+![Invalid Level](../controller-skills/img/ozstripsbadlevel.png){ width="450" }
     <figcaption>A potentially invalid level, shown by the red background on the CFL box</figcaption>
 </figure>
 
-Right mouse click on the yellow first waypoint box to open the Reroute menu. From here, controllers can select a more compliant route. The [VATPAC Tools](https://vatpac.org/membership-hub/tools){target=new} page can be helpful to double check these routes.
+Right mouse click on the yellow First Waypoint box to open the Reroute menu. From here, controllers can select a more compliant route. The [VATPAC Tools](https://vatpac.org/membership-hub/tools){target=new} page can be helpful to double check these routes.
 
 <figure markdown>
-![Invalid Route](../controller-skills/img/ozstripsbadroute.png){ width="500" }
+![Invalid Route](../controller-skills/img/ozstripsbadroute.png){ width="450" }
     <figcaption>A potentially invalid route, shown by the yellow background on the first waypoint box</figcaption>
 </figure>
 
+!!! warning "Important"
+    The invalid route detection system compares the filed route against any ERSA FPR requirements. Some **valid routes may flag** where step climbs interrupt an airway or a pre-filed STAR changes the end of the route. Some **invalid routes may not flag** where no FPR guidance exists for that aerodrome pairing.
+
+    ACD controllers must ensure they continue to check each route for errors regardless of strip error status.
+
 <figure markdown>
-![SID assigned to VFR Aircraft](../controller-skills/img/ozstripsvfrsid.png){ width="500" }
+![SID assigned to VFR Aircraft](../controller-skills/img/ozstripsvfrsid.png){ width="450" }
     <figcaption>A VFR aircraft assigned a SID, shown by the yellow background on the SID box</figcaption>
 </figure>
 
@@ -182,6 +200,13 @@ When a departure is issued pushback, move them to the **Pushback Bay**. If pushb
 
 When taxi instructions are issued, move the strip to the **Taxi Bay** and enter the relevant instructions in the Global Ops field. When the aircraft is given taxi to the holding point at their assigned departure runway, enter the holding point in the Holding Point field.
 
+OzStrips will check the output of a departure's transponder to ensure they are squawking the assigned SSR code and have selected Mode C. If either of these two conditions are not met, the squawk boxes will highlight orange.
+
+<figure markdown>
+![Incorrect Transponder Output](../controller-skills/img/ozstripssquawk.png){ width="500" }
+    <figcaption>TGG721 is either not squawking the assigned code or not squawking Mode C</figcaption>
+</figure>
+
 As the aircraft approaches the holding point, or when frequency transfer is given to Tower (for international aircraft or new pilots), move the strip to the **Holding Point Bay** and clear the Global Ops field (so ADC can use it for their purposes).
 
 #### Arrivals
@@ -195,14 +220,14 @@ When an aircraft arrives at their nominated parking position, [inhibit](#control
 </figure>
 
 #### Runway Crossings
-For aircraft who need to cross an active runway, first coordinate with ADC, then select the strip and use the [XX CROSS XX](#control-bar) button to highlight it as a runway crossing. ADC will place the `XXX CROSSING XXX` [bar](#control-bar) in the **Runway Bay** to prevent inadvertent takeoff or landing clearances from being issued. Once the aircraft is clear, remove the crossing highlight.
+For aircraft who need to cross an active runway, select the strip and use the [XX CROSS XX](#control-bar) button to highlight it as a runway crossing. SMC should hotline ADC to request each runway crossing and/or place the strip in the **Holding Point Bay**  with the crossing highlight applied, as a visual trigger to ADC that an aircraft needs to cross. Once ADC has approved the runway crossing, place the strip back in the **Taxi Bay** and remove the highlight.
 
 !!! tip
     You can quickly toggle the crossing highlight by selecting an aircraft and pressing `X`.
 
 <figure markdown>
 ![Runway Crossing](../controller-skills/img/ozstripsrunwaycrossing.png){ width="700" }
-    <figcaption>BAW15 instructed to cross runway 27, with the **Runway Bay** blocked out</figcaption>
+    <figcaption>BAW17 is instructed to hold short of RWY 27 and placed in the **Holding Point Bay** with the crossing highlight</figcaption>
 </figure>
 
 Coordinated runway releases should be recorded by placing a `RUNWAY XX RELEASED TO SMC` [bar](#control-bar) in the **Runway Bay**. There is no need to highlight a taxiing aircraft crossing a runway which has been released to SMC.
@@ -219,7 +244,12 @@ When a departing aircraft calls ready, click the Ready flag to denote this on th
 !!! tip
     The Ready flag will highlight orange if the aircraft is in the **Holding Point Bay** and the aircraft has not called ready (to prevent inadvertent takeoff clearances being issued).
 
-For aircraft on a radar SID or visual departure, record any assigned heading instructions in the Departure Heading field. This will also populate the Global Ops field automatically.
+For aircraft on a radar SID or visual departure, record any assigned heading instructions in the Departure Heading field. This will also populate the Global Ops field automatically. The Departure Heading box will highlight orange for aircraft assigned a radar SID who have not yet had their departure instructions entered.
+
+<figure markdown>
+![Departure Instructions](../controller-skills/img/ozstripsradarsid.png){ width="450" }
+    <figcaption>RXA6418 is assigned the radar SID but no departure instructions have been entered</figcaption>
+</figure>
 
 When an instruction to line up is given, move the strip to the **Runway Bay**. When a takeoff clearance is issued, start the Takeoff Timer.
 
@@ -246,15 +276,24 @@ After the aircraft vacates the runway, move the strip to the **Taxi Bay**.
 </figure>
 
 #### Runway Crossings
-Aircraft who need to cross an active runway will be coordinated by SMC. When approval is given for the runway crossing, place the `XXX CROSSING XXX` [bar](#control-bar) in the **Runway Bay** to prevent inadvertent takeoff or landing clearances from being issued. SMC will highlight the aircraft's strip to denote it as a runway crossing. Once the aircraft is clear, remove the bar.
-
-!!! tip
-    You can quickly add a Crossing bar to the **Runway Bay** by pressing `ALT + X`. To remove the bar, select it, then press `BACKSPACE`.
+Aircraft who need to cross an active runway will be coordinated by SMC by hotline and/or by SMC placing the strip in the **Holding Point Bay** with the red crossing highlight applied.
 
 <figure markdown>
 ![Runway Crossing](../controller-skills/img/ozstripsrunwaycrossing.png){ width="700" }
-    <figcaption>BAW15 instructed to cross runway 27, with the **Runway Bay** blocked out</figcaption>
+    <figcaption>BAW17 is instructed to hold short of RWY 27 and placed in the **Holding Point Bay** with the crossing highlight</figcaption>
 </figure>
+
+Where workload permits, ADC may proactively coordinate with SMC to approve runway crossings based the presence of a strip in the **Holding Point Bay**.
+
+When approval is given for the runway crossing, place the `XXX CROSSING XXX` [bar](#control-bar) in the **Runway Bay** to prevent inadvertent takeoff or landing clearances from being issued. Once the aircraft is clear, remove the bar.
+
+<figure markdown>
+![Runway Crossing](../controller-skills/img/ozstripsrunwaycrossingbar.png){ width="450" }
+    <figcaption>**Runway Bay** blocked out during a runway crossing</figcaption>
+</figure>
+
+!!! tip
+    You can quickly add a Crossing bar to the **Runway Bay** by pressing `ALT + X`. To remove the bar, select it, then press `BACKSPACE`.
 
 Coordinated runway releases should be recorded by placing a `RUNWAY XX RELEASED TO SMC` [bar](#control-bar) in the **Runway Bay**.
 
