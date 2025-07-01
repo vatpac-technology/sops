@@ -8,9 +8,6 @@ In the real world, aerodrome controllers use strips to provide a visual represen
 
 Within vatSys, this can be emulated using the [OzStrips plugin](https://maxrumsey.xyz/OzStrips/){target=new}. Strip state is shared between controllers operating at the same aerodrome.
 
-!!! warning "Important"
-    OzStrips can be an incredibly useful tool to reduce controller workload and improve the level of service offered to pilots, but it's use is not compulsory. Controllers should revert to the default vatSys strip bays if the use of OzStrips is becoming a hinderance to themselves or surrounding controllers.
-
 ## Setup
 ### Installation
 The OzStrips plugin can be downloaded using the [vatSys Plugin Manager](https://github.com/badvectors/PluginManager){target=new}.  
@@ -37,7 +34,7 @@ Once connected to the relevant aerodrome, controllers should select the view mod
 ![View Mode](../controller-skills/img/ozstripsviewmode.png){ width="250" }
 </figure>
 
-The size of each strip can be adjusted using the **Strip Scale** slider, under **Help** > **Settings**. Users with limited screen realestate may benefit from using a smaller strip size.
+The size of each strip can be adjusted using the **Strip Scale** slider, under **Help** > **Settings**. Users with limited screen real estate may benefit from using a smaller strip size.
 
 The plugin window will adjust to being resized, automatically collapsing into a two and single column layout, which is helpful for users with small screens.
 
@@ -60,26 +57,22 @@ The stripboard is divided into multiple bays, each representing a stage in an ai
 
 Strips can be moved in between strip bays by clicking on their callsign, and clicking the bay where you want them to go. Strips can be moved to the next bay by clicking on the SID box (referred to as *SID triggering*).
 
-Selecting a track on the Ground Radar or ASD will select the relevant strip in OzStrips, and vice versa.
-
 !!! Note
     Strips can not be *SID triggered* from the **Holding Point Bay** to the **Runway Bay**, to prevent accidental placement onto the runway.
 
+### Missing Strips
+Selecting a track on the Ground Radar or ASD will select the relevant strip in OzStrips, and vice versa. If a strip is missing from the stripboard, select the ground track from the vatSys Ground window, then click the desired OzStrips bay to place the strip there.
+
 ### Control Bar 
-The bottom of the window holds the Control Bar. This panel contains the server connection status, aerodrome selected and ATIS code among other elements. 
+The bottom of the window holds the Control Bar. This panel contains the server connection status, aerodrome selected and ATIS code, among other elements. 
 
 Each button has the following function:
 
 | Button | Function |
 | ------ | -------- |
-| **INHIBIT** | Removes a strip from the stripboard (used when a strip is no longer needed) |
-| **FOR STP** | Creates a strip on the stripboard for the selected aircraft (vatSys FDR must be selected before pressing button) |
-| <span style="white-space: nowrap;">**XX CROSS XX**</span> | Adds a red highlight to the selected strip, denoting a clearance to cross a runway |
-| **PDC** | Opens the default vatSys PDF editor |
+| **INHIBIT** | Hides a strip from the stripboard (used when a strip is no longer needed) |
+| <span style="white-space: nowrap;">**XX CROSS XX**</span> | Adds a red highlight to the selected strip, denoting an intention to cross a runway |
 | **ADD BAR** | Allows controllers to place a variety of fixed bars anywhere on the stripboard, reflecting status changes (e.g. autorelease cancellation or runway crossing) and allowing additional queues to be build (e.g. Sydney Coordinator functions) |
-
-!!! Note
-    PDCs through OzStrips are sent via Private Message. To send a PDC through [vatACARS](./cpdlc.md), you'll be required to dispatch it manually.
 
 ### Strips
 The background colour of the strip corresponds to its status as an arrival or a departure. Departing aircraft have a blue strip, while arrivals have a yellow strip.
@@ -95,9 +88,9 @@ The background colour of the strip corresponds to its status as an arrival or a 
 | **3** | **Aircraft Type** | Open Flightplan | |
 | **4** | **Wake Turbulence Category** | | |
 | **5** | **Destination** | Open Flightplan | |
-| **6** | **Route Indicator** | Show Route | |
-| **7** | **Flight Rules** | | |
-| **8** | **Correct SSR Code + Mode C Received** | | |
+| **6** | **Voice Capability Indicator**<br><small>*Empty* = Voice Capable<br>**R** = Receive Only<br>**T** = Text Only</small> | Show Route | |
+| **7** | **Flight Rules** | Show Route | |
+| **8** | **PDC Sent Indicator**<br><small>*Empty* = PDC not sent<br>**P** = PDC sent</small> | Open PDC Window | Open Private Message |
 | **9** | **SSR Code** | Autogenerate Code | |
 | **10** | **Callsign** | Select Strip | |
 | **11** | **Runway** | Change Runway | |
@@ -117,11 +110,11 @@ The background colour of the strip corresponds to its status as an arrival or a 
     <figcaption>An example strip</figcaption>
 </figure>
 
-## Recommended Workflow
+## Workflow
 Due to it's shared state, OzStrips works best if all controllers follow a standardised workflow. Controllers are strongly encouraged to follow the workflow below.
 
 ### Delivery
-Format the strip of recently connected aircraft so that you can identify any problems with their filed flight plan before they request clearance. 
+Fill out the strip of recently connected aircraft so that you can identify any problems with their filed flight plan before they request clearance. 
 
 #### Issuing Clearance
 When an aircraft requests airways clearance, select the strip to avoid losing it from view, then deliver the clearance. Upon receiving a correct readback, enter the aircraft's parking bay in the Bay field, then move it to the **Cleared Bay**.
@@ -154,12 +147,12 @@ OzStrips will flag any potentially invalid routes and incorrect hemispherical le
     <figcaption>A potentially invalid level, shown by the red background on the CFL box</figcaption>
 </figure>
 
-Right mouse click on the yellow First Waypoint box to open the Reroute menu. From here, controllers can select a more compliant route. The [VATPAC Tools](https://vatpac.org/membership-hub/tools){target=new} page can be helpful to double check these routes.
-
 <figure markdown>
 ![Invalid Route](../controller-skills/img/ozstripsbadroute.png){ width="450" }
     <figcaption>A potentially invalid route, shown by the yellow background on the first waypoint box</figcaption>
 </figure>
+
+Right mouse click on the yellow First Waypoint box to open the Reroute menu. From here, controllers can select a more compliant route. The [VATPAC Tools](https://vatpac.org/membership-hub/tools){target=new} page can be helpful to double check these routes.
 
 !!! warning "Important"
     The invalid route detection system compares the filed route against any ERSA FPR requirements. Some **valid routes may flag** where step climbs interrupt an airway or a pre-filed STAR changes the end of the route. Some **invalid routes may not flag** where no FPR guidance exists for that aerodrome pairing.
