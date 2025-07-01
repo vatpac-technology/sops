@@ -39,13 +39,13 @@ The size of each strip can be adjusted using the **Strip Scale** slider, under *
 The plugin window will adjust to being resized, automatically collapsing into a two and single column layout, which is helpful for users with small screens.
 
 <figure markdown>
-![Single Column Layout](../controller-skills/img/ozstripsnarrow.png){ width="450" }
+![Single Column Layout](../controller-skills/img/ozstripsnarrow.png){ width="400" }
 </figure>
 
 By default, the height of each strip bay is fixed, however using the **Smart Resize** functionality, they can be set to a dynamic height based on the number of strips in each bay. This is helpful when using the plugin in a collapsed column layout or with limited screen height.
 
 <figure markdown>
-![Smart Resize Setting](../controller-skills/img/ozstripssmartresize.png){ width="500" }
+![Smart Resize Setting](../controller-skills/img/ozstripssmartresize.png){ width="400" }
 </figure>
 
 ## Stripboard
@@ -193,7 +193,7 @@ When a departure is issued pushback, move them to the **Pushback Bay**. If pushb
 
 When taxi instructions are issued, move the strip to the **Taxi Bay** and enter the relevant instructions in the Global Ops field. When the aircraft is given taxi to the holding point at their assigned departure runway, enter the holding point in the Holding Point field.
 
-OzStrips will check the output of a departure's transponder to ensure they are squawking the assigned SSR code and have selected Mode C. If either of these two conditions are not met, the squawk boxes will highlight orange.
+OzStrips will check the output of a departure's transponder to ensure they are squawking the assigned SSR code and have selected Mode C. If either of these two conditions are not met, the squawk box will highlight orange.
 
 <figure markdown>
 ![Incorrect Transponder Output](../controller-skills/img/ozstripssquawk.png){ width="500" }
@@ -204,6 +204,8 @@ As the aircraft approaches the holding point, or when frequency transfer is give
 
 #### Arrivals
 As an arriving aircraft vacates the runway, ADC will move the strip from the **Runway Bay** to the **Taxi Bay**. Enter the pilot's nominated parking bay in the Bay field and record any taxi instructions in the Global Ops field.
+
+When an aircraft is cleared to the bay, put `BAY` in the Holding Point box.
 
 When an aircraft arrives at their nominated parking position, [inhibit](#control-bar) the strip to remove it from the stripboard.
 
@@ -220,7 +222,7 @@ For aircraft who need to cross an active runway, select the strip and use the [X
 
 <figure markdown>
 ![Runway Crossing](../controller-skills/img/ozstripsrunwaycrossing.png){ width="700" }
-    <figcaption>BAW17 is instructed to hold short of RWY 27 and placed in the **Holding Point Bay** with the crossing highlight</figcaption>
+    <figcaption>QFA721 is instructed to hold short of RWY 34L (expecting a full length departure) and placed in the **Holding Point Bay** with the crossing highlight</figcaption>
 </figure>
 
 Coordinated runway releases should be recorded by placing a `RUNWAY XX RELEASED TO SMC` [bar](#control-bar) in the **Runway Bay**. There is no need to highlight a taxiing aircraft crossing a runway which has been released to SMC.
@@ -273,7 +275,7 @@ Aircraft who need to cross an active runway will be coordinated by SMC by hotlin
 
 <figure markdown>
 ![Runway Crossing](../controller-skills/img/ozstripsrunwaycrossing.png){ width="700" }
-    <figcaption>BAW17 is instructed to hold short of RWY 27 and placed in the **Holding Point Bay** with the crossing highlight</figcaption>
+    <figcaption>QFA721 is instructed to hold short of RWY 34L (expecting a full length departure) and placed in the **Holding Point Bay** with the crossing highlight</figcaption>
 </figure>
 
 Where workload permits, ADC may proactively coordinate with SMC to approve runway crossings based the presence of a strip in the **Holding Point Bay**.
@@ -307,7 +309,7 @@ When multiple ADC or SMC positions are online at a given aerodrome, place divide
     With a strip selected, use `CTRL + UP/DOWN ARROW` to push that strip up or down to the next bar (or queue bar). 
 
 ## Workload Management
-While the use of OzStrips can aid situational awareness, it is ideal to be used in such a manner that it doesn't negatively impact your productivity.
+Several features of OzStrips allow controllers to effectively manage their workload. Ensure that every instruction which is issued over the radio is also recorded in the aircraft's strip.
 
 !!! warning "Important"
     Ensure that you communicate instructions concurrently while you move strips in OzStrips. Don't move strips before you do the action or obtain a readback, incase you get interrupted.
@@ -319,11 +321,22 @@ Left clicking on the strip's EOBT will highlight and cock the strip, making it s
     With a strip selected, pressing `TAB` will cock or uncock it.
 
 ### Queue Management
-When multiple aircraft have outstanding requests, it is recommended you 'queue up' the strip, by placing it below the queue bar. This can be done quickly by selecting the strip then pressing "Add to Queue". Strips can be moved vertically by pressing the keyboard arrow keys while a strip is selected.
+When multiple aircraft have outstanding requests, it is recommended you 'queue up' the strip, by placing them below the queue bar. This can be done quickly by selecting the strip then pressing "Add to Queue". 
 
-Aircraft at the bottom of the queue are first in line.
+!!! tip
+    With a strip selected, pressing `SPACEBAR` will queue or unqueue it.
+
+Strips can be moved vertically by pressing the keyboard arrow keys while a strip is selected. Aircraft at the bottom of the queue are first in line.
 
 When an aircraft is in a queue, make sure the strip's bay location represents its current state. 
 
 !!! example
     An aircraft in a queue for an airways clearance, would remain in the **Preactive Bay**, below the queue bar, not in the **Cleared Bay**.
+
+### Runway Crossings
+As per [Runway Crossings](#runway-crossings), the red crossing highlight should be applied to any aircraft who need to cross an active runway. SMC should consider doing this in conjunction with issuing the initial taxi instructions, as a visual reminder of the coordination which will be required. SMC should hotline ADC for each crossing and/or place the highlighted strip in the **Holding Point Bay**, as a prompt to ADC that a crossing is required.
+
+**ADC** should monitor the **Holding Point Bay** and proactively hotline SMC where a suitable gap exists to facilitate the runway crossing. Alternatively, **SMC** should hotline ADC to request the crossing when required. Planning runway crossings in advance, including crossing multiple aircraft at different taxiways at the same time, can drastically improve overall runway efficiency.
+
+!!! tip
+    On long runways with readily available rapid exit taxiways (e.g. RWY 34L at YSSY), ADC may instruct landing aircraft to *'report taxiway B9 assured'* and upon receiving this confirmation, hotline SMC to approve the crossing of an aircraft further upwind of the runway exit.
