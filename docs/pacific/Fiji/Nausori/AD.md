@@ -19,7 +19,7 @@ NFNA ADC is responsible for the NFNA CTR consisting of Class D airspace `SFC` to
   <figcaption>NFNA ADC Airspace</figcaption>
 </figure>
 
-Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
+Refer to [Class D Tower Separation Standards](../../../../separation-standards/classd) for more information.
 <!--- ## Maneuvering Area
 
 ## Separation
@@ -35,7 +35,25 @@ The Namuka Training Area is established west of the NFNA CTR, from `SFC` to `A04
 </figure>
 
 When the Tiliva Training Area is activated, aircraft departing via **NAVUA** [shall be assigned](#sid-selection) the **CHARLIE** SID instead of the **ALPHA** SID.
-<!--- ## VFR Operations --->
+## VFR Operations
+### Departure/Arrival Gates
+Aircraft should report at the standard VFR Departure/Arrival Gates.
+
+<figure markdown>
+![NFNA VFR Departure/Arrival Gates](../img/nfna_vfr.png){ width="500" }
+  <figcaption>NFNA VFR Departure/Arrival Gates</figcaption>
+</figure>
+
+| Direction from NFNA | Name | Dep/Arr |
+| ------------------- | ---- | ------- |
+| North | Verata | Both |
+| North | Viwa | Both |
+| East | Nasilai Lighthouse | Both |
+| Southwest | National Stadium | Both |
+| Southwest | Cement Factori | Both |
+| Southwest | Nabila | Both 
+| West | Naqali | Both |
+
 ## Helicopter Operations
 ### Helipads and Landing Areas
 While there are no controlled helipads at NFNA, there are privately managed helipads within the NFNA CTR, including a helipad at the Colonial War Memorial Hospital in central Suva.

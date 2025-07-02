@@ -23,7 +23,7 @@ NFFN ADC is responsible for the NFFN CTR consisting of Class D airspace `SFC` to
   <figcaption>NFFN ADC Airspace</figcaption>
 </figure>
 
-Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
+Refer to [Class D Tower Separation Standards](../../../../separation-standards/classd) for more information.
 
 ## Maneuvering Area
 ### Responsibility
@@ -74,8 +74,22 @@ Denarau Island sits within the NFFN CTR, approximately **2.5nm** west of the NFF
 
 In VMC, NFFN ADC shall visually separate aircraft operating in the Denarau Island area from aircraft on the extended **Runway 02/20** centreline. 
 
+#### Parachute Drop Zone
+A Parachute Drop Zone (FJPDZ2) is established overhead Denarau Island, within 1 NM of the golf course, `SFC` to `F140`.
+
+<figure markdown>
+![FJPDZ2 Denarau Island](../img/fjpdz2.png){ width="700" }
+  <figcaption>FJPDZ2 Denarau Island</figcaption>
+</figure>
+
+Pilots choosing to simulate [Parachute Operations](../../../../controller-skills/airwork/#parachute-operations) (PJE) will contact NFFN ADC for clearance. ADC will coordinate with NFFNA to ensure the FJPDZ2 zone is activated.
+
+!!! phraseology
+    <span class="hotline">**NFFN ADC** -> **NFFNA**</span>: "For Ident, DQIBT, conducting Parachute Operations at Denauru Island, do you have any restrictions or requirements?"  
+    <span class="hotline">**NFFNA** -> **NFFN ADC**</span>: "DQIBT, no restrictions, no requirements"
+
 ### Tiliva Training Area
-The Tiliva Training Area is established north of the NFFN CTR, from `A005` to `A040`, can be activated by NFFNA upon pilot request. Aircraft transiting between the NFFN CTR and the training area will track inbound/outbound via Vitogo Village.
+The Tiliva Training Area is established north of the NFFN CTR, from `A005` to `A040`, can be activated by NFFNA upon pilot request. Aircraft transiting between the NFFN CTR and the training area will track inbound/outbound via Vitogo.
 
 <figure markdown>
 ![Tiliva Training Area](../img/nffn_tiliva.png){ width="700" }
@@ -85,11 +99,46 @@ The Tiliva Training Area is established north of the NFFN CTR, from `A005` to `A
 When the Tiliva Training Area is activated, aircraft departing via **KABAR** [shall be assigned](#sid-selection) the **CHARLIE** SID instead of the **ALPHA** SID.
 
 ### Seaplane Operations
-Seaplanes regularly operate from a private seaplane base 500 metres west of Runway 02/20, in Nadi Bay.
+Seaplanes regularly operate from a private seaplane base 500 metres west of Runway 02/20, in Nadi Bay. Departures and Arrivals are generally processed via the 'Turtle' VFR transit route ([see above](#vfr-transit-lanes)).
 
 As with [private helipads](#helicopter-operations), aircraft departing or arriving at the base will be instructed to  'report on the ground'/'report when airbourne' in lieu of an explicit takeoff/landing clearance.
-<!---## VFR Operations--->
+
+## VFR Operations
+### Departure/Arrival Gates
+Aircraft should report at the standard VFR Departure/Arrival Gates.
+
+<figure markdown>
+![NFFN VFR Departure/Arrival Gates](../img/nffn_vfr.png){ width="500" }
+  <figcaption>NFFN VFR Departure/Arrival Gates</figcaption>
+</figure>
+
+| Direction from NFFN | Name | Dep/Arr |
+| ------------------- | ---- | ------- |
+| North | Vitogo | Both |
+| North | Bekana Island | Both |
+| Northeast | Gap | Both |
+| Northeast | Highland | Both |
+| Southeast | Vunamoli | Both |
+| Southwest | Nabila | Both |
+| West | Kadavulailai Island | Both |
+| West | Beachcomber | Both |
+| Northwest | Tivua Island | Both |
+
+### VFR Transit lanes
+VFR transit lanes are established to allow aircraft to transit through the NFFN CTR, by day.
+
+| VFR Route Name | Description | Altitude |
+| ------ | ------- | ------ |
+| FJV1 Turtle | Seaplane Base-Abeam Kadavulailai Island, then along CTR boundary to Nabila-Yakuilau-Nadi River Mouth, then along coast back to Seaplane Base | `SFC` to `A005` |
+| FJV2 Victor | NFFN-Lololomo Beach-Vitogo | `A050` to `A015` |
+| FJV4 Kadavulailai Helicopter Lane | Heliport-The Bridge-ABM Labone Island-Kadavulailai Island | `SFC` to `A005` |
+| FJV5 Tivua Helicopter Lane | Heliport-The Bridge-ABN Labone Island-ABM Viseisei Village-ABM Vuda Marina-Tivua Island | `SFC` to `A005` |
+
 ## Helicopter Operations
+VFR helicopters are generally processed via a VFR transit route ([see above](#vfr-transit-lanes)).
+
+IFR helicopters should conform to fixed wing operations and be processed via a radar departure from an appropriate runway, unless a visual departure is acceptable.
+
 ### Helipads and Landing Areas
 There are no controlled helipads at NFFN. Gate 10 has been reserved for helicopter operations, and multiple uncontrolled helipads have been established on the apron by private operators.
 
