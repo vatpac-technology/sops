@@ -9,7 +9,7 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | ------- | --------- | -------- |
 | **Nadzab ADC**  | **Nadzab Tower** | **121.700** | **AYNZ_TWR** | 
-| **Nadzab ATIS** | **128.100** | **AYNZ_ATIS** | 
+| **Nadzab ATIS** | | **128.100** | **AYNZ_ATIS** | 
 
 ## Airspace
 AYNZ ADC is responsible for the Class C Airspace within the AYNZ CTR `SFC` to `A060`.
