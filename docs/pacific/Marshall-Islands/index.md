@@ -12,4 +12,4 @@ Within the Oakland Oceanic FIR-in which the Marshall Islands are located-the tra
 
 ### Transition Level
 
-Within the Oakland Oceanic FIR-in which the Marshall Islands are located-tthe transition level is `FL055`.
+Within the Oakland Oceanic FIR-in which the Marshall Islands are located-the transition level is `FL055`.
