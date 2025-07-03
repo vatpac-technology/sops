@@ -8,10 +8,12 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Indian** | **Brisbane Radio** | **129.250 (5.634)** | **ML-IND_FSS** |
-| Indian East† | Brisbane Radio | 123.650 (17.961) | ML-INE_FSS |
-| Indian South† | Brisbane Radio | 123.200 (3.476) | ML-INS_FSS |
+| <span class="indented">Indian East :material-information-outline:{ title="Non-standard position"} | Brisbane Radio | 123.650 (17.961) | ML-INE_FSS |
+| <span class="indented">Indian South :material-information-outline:{ title="Non-standard position"} | Brisbane Radio | 123.200 (3.476) | ML-INS_FSS |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
 The Primary Communication Method for IND is [CPDLC](../../../client/cpdlc).
@@ -33,7 +35,7 @@ Voice may be used in lieu when applicable.
 </figure>
 
 ## Extending
-!!! Warning
+!!! warning "Important"
     IND (and its subsectors) are **not permitted** to extend to any adjacent Domestic/International sectors
 
 ## STAR Clearance Expectation
@@ -42,7 +44,7 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| IND | PIY(All) | YPPH | |
+| IND | HYD(LEA, JAR) | YPPH | |
 
 ## Coordination
 ### Domestic Enroute
@@ -57,6 +59,6 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 ### International Non-Pacific
 As per [Standard coordination procedures](../../../controller-skills/coordination/#other-units), Heads-up Coordination required for all aircraft prior to **30 mins** from boundary.
 
-!!! example
+!!! phraseology
     <span class="coldline">**IND** -> **FAJO FSS**</span>: "Estimate, SAA281, XEKOT time 44, F360"  
     <span class="coldline">**FAJO FSS** -> **IND**</span>: "SAA281, F360"

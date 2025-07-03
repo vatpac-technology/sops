@@ -8,17 +8,17 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Inverell** | **Brisbane Centre** | **134.200** | **BN-INL_CTR** |
-| Downs† | Brisbane Centre | 135.600 | BN-DOS_CTR |
-| Gold Coast† | Brisbane Centre | 130.400 | BN-GOL_CTR |
-| Straddy† | Brisbane Centre | 134.300 | BN-SDY_CTR |
-| Burnett† | Brisbane Centre | 123.000 | BN-BUR_CTR |
-| Noosa† | Brisbane Centre | 124.100 | BN-NSA_CTR |
-| Keppel† | Brisbane Centre | 125.900 | BN-KPL_CTR |
+| <span class="indented">Downs :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 135.600 | BN-DOS_CTR |
+| <span class="indented">Gold Coast :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 130.400 | BN-GOL_CTR |
+| <span class="indented">Straddy :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 134.300 | BN-SDY_CTR |
+| <span class="indented">Burnett :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 123.000 | BN-BUR_CTR |
+| <span class="indented">Noosa :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 124.100 | BN-NSA_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
-
 The Primary Communication Method for INL is Voice.
 
 [CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
@@ -36,9 +36,8 @@ The CPDLC Station Code is `YINL`.
   <figcaption>Inverell Airspace</figcaption>
 </figure>
 
-GOL is responsible for the [BN TCU](../../../terminal/brisbane) when **BN TCU** is offline.  
-KPL is responsible for the [RK TCU](../../../terminal/coral) when **RKA** is offline.  
-INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, **NSA**, and **KPL** when they are offline.  
+GOL is responsible for the [BN TCU](../../../terminal/brisbane) when **BN TCU** is offline.   
+INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, and **NSA** when they are offline.  
 
 ### Reclassifications
 #### SU CTR
@@ -55,26 +54,66 @@ Due to the low ceiling of CTA, when CFS ADC is offline, INL shall instruct aircr
 !!! tip
     If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
 
-#### RK CTR
-Whilst the **RKA** controller is expected to provide a [top-down service](../../../aerodromes/Rockhampton) to YBRK when **RK ADC** is offline, this is not expected of a KPL controller when both **RKA** and **RK ADC** are offline. If electing not to provide a top-down service to YBRK, the RK CTR Class D is reclassified to Class G `SFC` to `A007`, and Class E `A007` to `A045`.
-
-!!! tip
-    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
-
 ## Sector Responsibilities
-
 ### Inverell (INL)
-INL is responsible for initial sequencing, issuing STAR Clearances, and issuing initial descent for aircraft bound for YBBN and YBCG.
-### Downs (DOS) / Straddy (SDY)
-DOS and SDY are responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YBBN and YBCG.
+#### YBBN Arrivals
+INL is responsible for initial sequencing, issuing STAR Clearances, and issuing initial descent to not below `F190`.
+
+Refer to the [Sequencing into YBBN](#sequencing-in-to-ybbn) notes below regarding adjacent Feeder Fixes.
+
+#### YBCG Arrivals
+INL is responsible for initial sequencing, issuing STAR Clearances, and issuing initial descent to not below `F190`.
+
+### Downs (DOS)
+#### YBBN Arrivals
+DOS is responsible for sequencing, issuing STAR Clearances, and issuing descent.
+
+#### YBCG Arrivals
+DOS is responsible for sequencing, issuing STAR Clearances, and issuing descent.
+
+### Straddy (SDY)
+#### YBBN Arrivals
+SDY is responsible for initial sequencing, issuing STAR Clearances, and issuing descent.
+
+#### YBCG Arrivals
+SDY is responsible for initial sequencing, issuing STAR Clearances, and issuing descent.
+
+#### YAMB Arrivals
+SDY is responsible for processing aircraft from offshore SUA to YAMB via the CENTRAL [coded clearance](#yamb-coded-clearances).
+
 ### Burnett (BUR)
-BUR is responsible for final sequencing, issuing descent, and issuing STAR Clearances for Non-jets bound for YBBN and YBCG.
+#### YBBN Arrivals
+BUR is responsible for sequencing, issuing STAR Clearances, and issuing descent.
+
+Refer to the [Sequencing into YBBN](#sequencing-in-to-ybbn) notes below regarding adjacent Feeder Fixes.
+
+#### YBCG Arrivals
+BUR is responsible for sequencing, issuing STAR Clearances, and issuing descent.
+
+#### YBSU Arrivals
+BUR is responsible for issuing final descent.
+
 ### Gold Coast (GOL)
-GOL is responsible for final sequencing for aircraft bound for YBBN, YBCG, and issuing of STAR Clearances and descent for YBSU.
+#### YBBN Arrivals
+GOL is responsible for final sequencing and descent.
+
+Refer to the [Sequencing into YBBN](#sequencing-in-to-ybbn) notes below regarding adjacent Feeder Fixes.
+
+#### YBCG Arrivals
+GOL is responsible for final sequencing and descent.
+
+#### YBSU Arrivals
+GOL is responsible for initial sequencing, issuing STAR Clearances, and issuing initial descent to not below `F130`.
+
+#### YAMB Arrivals
+GOL is responsible for processing aircraft from offshore SUA to YAMB via the BYRON [coded clearance](#yamb-coded-clearances).
+
 ### Noosa (NSA)
-NSA is responsible for facilitating YBSU traffic, including operating the Class C airspace `A045` and above.
-### Keppel (KPL)
-KPL is responsible for issuing STAR Clearances (Jets only) and initial descent for aircraft bound for YBSU, YBBN and YBCG.
+#### YBSU Arrivals
+NSA is responsible for final sequencing and descent.
+
+#### YAMB Arrivals
+NSA is also responsible for processing aircraft from offshore SUA to YAMB via the NORTHERN [coded clearance](#yamb-coded-clearances).
 
 ### Sequencing in to YBBN
 Aircraft assigned the **same runway** inbound via:  
@@ -82,7 +121,19 @@ Aircraft assigned the **same runway** inbound via:
 - BLAKA and GOMOL  
 - SMOKA and MORBI
 
-Must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes **apart at their respective Feeder fixes.
+Must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
+
+#### Holding Fixes
+Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YBBN. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
+
+| Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
+| ---- | ---- | ---- |
+| TEBOT | ATROP | 2 min |
+| UGTUG | SAVER | 2 min |
+| Others | Feeder Fix | - |
+
+!!! tip
+    Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector. 
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -92,9 +143,7 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | ---- | -------- | --------- | --------- |
 | INL | ARL | YSSY | |
 | INL | GOL | YBSU | |
-| KPL | BUR | YBBN, YBCG | Non-jets only |
-| NSA | KPL | YBRK, YBMK | |
-| KPL | KEN(SWY) | YBTL | |
+| NSA, BUR | KPL | YBMK, YBRK | |
 
 ### First Contact
 Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
@@ -102,16 +151,13 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
 | ARL/MNN/MDE | INL, DOS | YBBN, YBCG | |
-| KEN(SWY), ISA(CVN) | KPL | YBBN, YBCG | Jets only |
-| ISA(CVN) | DOS | YBBN, YBCG | |
 | TSN(All) | SDY | YBBN, YBCG, YBSU | |
-| KPL | BUR | YBBN, YBCG | Non-jets only |
+| KPL/CVN | BUR, DOS | YBBN, YBCG | |
 | INL | GOL | YBSU | |
-| NSA | KPL | YBRK, YBMK | |
 
-## STAR Assignment
+## YBBN STAR Assignment
 ### PROPS
-When operating a PROPS Runway Mode, Aircraft shall be assigned the appropriate 'ALPHA' STAR (or other STAR on pilot request), with the following runway selection:
+When operating a PROPS Runway Mode, Aircraft shall be assigned the appropriate 'Alpha' STAR (or other STAR on pilot request), with the following runway selection:
 
 | FF | Runway |
 | ---- | -------- |
@@ -130,13 +176,51 @@ When operating a PROPS Runway Mode, Aircraft shall be assigned the appropriate '
 These standard runway assignments may be modified strategically by the BAS or BFL controller.
 
 !!! example
-    If during an event, the vast majority of traffic is coming from **BLAKA** and **GOMOL** feeder fixes, BAS/BFL may elect to assign 19L to **BLAKA** arrivals and 19R to **GOMOL** arrivals, to keep them strategically spearated in the TCU.
+    During an event, the vast majority of traffic is coming from **BLAKA** and **GOMOL** feeder fixes. BAS/BFL may elect to assign 19L to **BLAKA** arrivals and 19R to **GOMOL** arrivals, to keep them strategically spearated in the TCU.
 
     <span class="hotline">**BFL** -> **INL**</span>: "All arrivals via GOMOL to be assigned 19R until further notice"  
     <span class="hotline">**INL** -> **BFL**</span>: "Roger, Arrivals via GOMOL to be assigned 19R" 
 
 ### SODPROPS
 When operating the SODPROPS Runway Mode, aircraft via **ENLIP**, **BLAKA**, **GOMOL** and **UGTUG**, shall be assigned the **ISPON** STAR with the appropriate transition. Aircraft via other Feeder fixes may be assigned the standard STAR.
+
+## YAMB Coded Clearances
+Coded Clearances are available inbound and outbound from the AMB TMA to provided a standardised corridor for fast jet aircraft.
+
+<figure markdown>
+![YAMB Coded Clearances](img/yambcodedclearances.png){ width="700" }
+  <figcaption>YAMB Coded Clearances</figcaption>
+</figure>
+
+!!! tip
+    Descriptions of the coded clearances are available in the [FIHA AD2 Supps](https://ais-af.airforce.gov.au/australian-aip){target=new}.
+
+### Inbound
+Fast jet aircraft leaving offshore SUA or arriving to YAMB from the east shall be cleared via one of the following coded clearances:
+
+| Arrival | Level | Route |
+| --------- | ----------| --------- |
+| Northern 4 | `F200` | MOSSI LESKO BOBED JEZZA ANKED, or<br> ANKED LESKO BOBED JEZZA ANKED |
+| Central 4 | `F200` | VIRGE BOBED JEZZA ANKED |
+| Byron 2 | `F200` | SEMAJ LOTMA ZANET LAGOB TUGUN |
+
+!!! phraseology
+    *CRNG21 plans to depart M649 and return to YAMB.*  
+    **SDY**: "CRNG21, cleared to YAMB via VIRGE thence CENTRAL 4, maintain `F200`" 
+
+!!! important
+    The Coded Clearances are not present in vatSys, so the name of the Coded Clearance must be written in the Global Ops Field of the FDR and flight plan route amended to include all relevant tracking points.
+
+### Outbound
+Fast jet aircraft departing YAMB to the east may be cleared for a coded clearance departure by AMB ACD. ACD will update the FDR route field with the respective tracking points and write the departure name in the Global Ops Field.
+
+The routes are shown below:
+
+| Departure | Level | Route |
+| --------- | ----------| --------- |
+| Northern 3 | `F190` | BINUP MURJO BOBED LESKO MOSSI, or<br>BINUP MURJO BOBED LESKO ADNUK |
+| Central 3 | `F190` | BINUP MURJO BOBED VIRGE |
+| Byron 1 | `F190` | COWIE KIWEE ZANET LOTMA SEMAJ | 
 
 ## Coordination
 ### BN TCU
@@ -176,7 +260,7 @@ All other aircraft going to INL CTA will be **Heads-up** Coordinated by BN TCU.
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 ### INL Internal
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** (reduced from 50nm) to boundary.
 
 That being said, it is *advised* that INL(All) give **Heads-up Coordination** to the relevant sector prior to **20nm** from the boundary in the following scenarios:
 
@@ -191,54 +275,25 @@ SU ADC is responsible for the Class D airspace in the SU CTR `SFC` to `A045`.
 Refer to [Reclassifications](#su-ctr) for operations when SU ADC is offline.
 
 #### Departures
-Departures from YBSU in to NSA Class C will be coordinated when ready for departure.
+[Next](../../controller-skills/coordination.md#next) coordination is required from SU ADC to NSA/BUR for all aircraft **entering NSA/BUR CTA**.
 
-!!! example
-    <span class="hotline">**SU ADC** -> **NSA**</span>: "Next, BNZ123, runway 31"  
-    <span class="hotline">**NSA** -> **SU ADC**</span>: "BNZ123, unrestricted"  
-    <span class="hotline">**SU ADC** -> **NSA**</span>: "BNZ123"
+The Standard Assignable level from **SU ADC** to **NSA/BUR** is:
 
-The Standard Assignable level from **SU ADC** to INL(NSA/BUR) is the lower of `A040` or the `RFL`.
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A040` and `RFL` |
 
-Where possible (and no possible conflict exists), a higher level shall be assigned by INL(NSA/BUR) for high performance aircraft during next coordination.
-
-!!! example
-    <span class="hotline">**SU ADC** -> **NSA**</span>: "Next, VOZ924, runway 31"  
-    <span class="hotline">**NSA** -> **SU ADC**</span>: "VOZ924, F120"  
-    <span class="hotline">**SU ADC** -> **NSA**</span>: "F120, VOZ924"
+Where possible (and no possible conflict exists), a higher level shall be assigned by NSA/BUR for high performance aircraft during next coordination.
 
 #### Arrivals
 NSA must ensure all YBSU arrivals have been assigned a STAR, unless the pilot is unable to accept one.  
 YBSU arrivals shall be coordinated to **SU ADC** from NSA prior to **5 mins** from the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**NSA** -> **SU ADC**</span>: "via ITIDE2W Arrival, JST731"  
     <span class="hotline">**SU ADC** -> **NSA**</span>: "JST731"
 
 The Standard Assignable level from NSA to **SU ADC** is `A060`, any other level must be prior coordinated.
-
-### RKA
-#### Airspace
-RKA is responsible for the airspace within the 'RK keyhole' `SFC` to `F150`.
-
-Refer to [Reclassifications](#rk-ctr) for operations when RKA is offline.
-
-#### Arrivals/Overfliers
-Voiceless for all aircraft:
-
-- With ADES **YBRK**; and  
-- Assigned the **ABVAS** or **DADBO** STAR; and  
-- Assigned `A090`
-
-All other aircraft coming from KPL CTA must be **Heads-up** Coordinated to RKA prior to **20nm** from the boundary.
-
-#### Departures
-Voiceless for all aircraft:
-
-- Tracking via **BUDGI** or **TARES**; and  
-- Assigned the lower of `F150` or the `RFL`
-
-All other aircraft going to KPL CTA will be **Heads-up** Coordinated by RKA.
 
 ### CFS ADC
 #### Airspace
@@ -247,19 +302,20 @@ CFS ADC is responsible for the Class D airspace in the CFS CTR `SFC` to `A045`.
 Refer to [Reclassifications](#cfs-ctr) for operations when CFS ADC is offline.
 
 #### Departures
-Departures from YCFS in to INL Class C will be coordinated when ready for departure.
+[Next](../../controller-skills/coordination.md#next) coordination is required from CFS ADC to INL for all aircraft **entering INL CTA**.
 
-!!! example 
-    <span class="hotline">**CFS ADC** -> **INL**</span>: "Next, BNZ185"  
-    <span class="hotline">**INL** -> **CFS ADC**</span>: "BNZ185, Unrestricted"  
-    <span class="hotline">**CFS ADC** -> **INL**</span>: "BNZ185"  
+The Standard Assignable level from **CFS ADC** to **INL** is:
 
-The Standard Assignable level from **CFS ADC** to INL is the lower of `A070` or the `RFL`.
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A070` and `RFL` |
+
+Where possible (and no possible conflict exists), a higher level shall be assigned by for high performance aircraft during next coordination.
 
 #### Arrivals
 YCFS arrivals shall be coordinated to **CFS ADC** from INL prior to **5 mins** from the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**INL** -> **CFS ADC**</span>: "via IDNER, VET"  
     <span class="hotline">**CFS ADC** -> **INL**</span>: "VET"  
 
@@ -272,14 +328,14 @@ By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas
 #### Departures
 All aircraft from AMB/OK TCU to INL(All) require Heads-up coordination prior to the boundary. Expect this coordination to be completed a short time after the aircraft becomes airborne (pending controller workload).
 
-!!! example 
+!!! phraseology 
     <span class="hotline">**AMB TCU** -> **NSA**</span>: "via COWIE, BUCK03."  
     <span class="hotline">**NSA** -> **AMB TCU**</span>: "BUCK03, `F190`"  
 
 #### Arrivals/Overfliers
 All aircraft transiting from INL(All) to **OK TCU** and **AMB TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **OK TCU** and **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels. ENR and TCU controllers should coordinate to determine the most suitable level.
 
-!!! example
+!!! phraseology
     <span class="hotline">**GOL** -> **AMB TCU**</span>: "via HUUGO, STAL13, what level can I assign?"  
     <span class="hotline">**AMB TCU** -> **GOL**</span>: "STAL13, `A090`"  
     <span class="hotline">**GOL** -> **AMB TCU**</span>: "`A090`, STAL13"   
@@ -289,5 +345,5 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
 
-!!! example
+!!! phraseology
     **INL**: "QFA121, identification terminated, report position to Brisbane Radio, 126.45"

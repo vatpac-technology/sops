@@ -10,14 +10,14 @@ The most important job of the ELW/BLA controller is the sequencing for YMML. Lik
 This is most important for the BLA transfer to GUN, as GUN does not have a lot of airspace to complete the YSSY sequence.  
 BLA should aim to handoff aircraft to GUN approximately **50nm** to the boundary, unless there is a restriction (which is quite rare). Note that other aircraft going to GUN airspace (ie: Other aircraft on the YMML-YSSY route) are **not** considered a 'Restriction', as the GUN controller can already see them as Blue (Announced) on their display.
 
-!!! Reminder
+!!! info "Reminder"
     [Handoff Rules](../../../controller-skills/coordination/#handoffs) permit turns of up to **45 degrees left/right**, and **climb/descent to any level** after handoff. Keep this in mind when considering how early you can handoff aircraft to the next sector
 
 ## Arrival Sequencing
 Enroute controllers should be aiming for **2 minute** spacing at the feeder fix between subsequent arrivals. This can be reduced slightly to no less than **10nm**, unless **single runway operations** are in use.
 
-!!! Reminder
-    At YMML, aircraft on the LIZZI and BOYSE STARs are considered to be on the same STAR for sequencing purposes. Ie, an aircraft via BOYSE must be sequenced 2 minutes behind an aircraft via LIZZI, and vice versa
+!!! info "Reminder"
+    At YMML, aircraft on the BOOIN and BOYSE STARs are considered to be on the same STAR for sequencing purposes. Ie, an aircraft via BOYSE must be sequenced 2 minutes behind an aircraft via BOOIN, and vice versa
 
 ### Speed Control
 The most common descent profile to expect for a B738/A320 like aircraft is close to **Mach .78, transitioning in to 280kts**. Keep this in mind when applying speed control to aircraft. That being said, when taking control of an aircraft's speed, it is **always** best practice to ask the pilot what their current speed is first, rather than blindly launching in to an assigned speed with no idea what effect it will have.
@@ -36,9 +36,9 @@ Best practice is to just focus on providing separation between aircraft (whether
 Although the standard runway assignment for arrivals via RIVET is the Western Parallel Runway, eventually, the airspace will get busy enough to warrant distributing arrivals between both the Western and Eastern runways.
 
 #### Amended routing via ODALE
-In order to segregate aircraft inbound to different parallel runways, [Amended routing via ODALE](../../enroute/Melbourne Centre/BIK/#sequencing-into-yssy) should be used for aircraft assigned the Eastern parallel runway (16L/34R). This keeps aircraft segregated in to two distinct arrival streams, and allows a higher volume of arrivals.
+In order to segregate aircraft inbound to different parallel runways, [Amended routing via ODALE](../../enroute/Melbourne Centre/GUN/#sequencing-into-yssy) should be used for aircraft assigned the Eastern parallel runway (16L/34R). This keeps aircraft segregated in to two distinct arrival streams, and allows a higher volume of arrivals.
 
-Aircraft can be rerouted on first contact via AKMIR, ODALE, then assigned the ODALE7 arrival for 16L/34R.
+Aircraft can be rerouted on first contact via AKMIR, ODALE, then assigned the **ODALE STAR** for 16L/34R.
 
 <figure markdown>
 ![Original Flight Planned Route](../img/odale1.png){ width="700" }
@@ -55,9 +55,9 @@ Aircraft can be rerouted on first contact via AKMIR, ODALE, then assigned the OD
   <figcaption>Final routing with Assigned STAR</figcaption>
 </figure>
 
-Although this action may be beneficial to the arrival flow for both Enroute and Approach, it goes against the [Standard runway and STAR assignment](../../enroute/Melbourne Centre/BIK/#sequencing-into-yssy) for YSSY Arrivals from the South-west, so must still be coordinated to SAS or SFL (if online)
+Although this action may be beneficial to the arrival flow for both Enroute and Approach, it goes against the [Standard runway and STAR assignment](../../enroute/Melbourne Centre/GUN/#sequencing-into-yssy) for YSSY Arrivals from the South-west, so must still be coordinated to SAS or SFL (if online)
 
-!!! example
+!!! phraseology
     <span class="hotline">**GUN** -> **SFL**</span>: "QFA494 will be via ODALE for 34R"  
     <span class="hotline">**SFL** -> **GUN**</span>: "QFA494 via ODALE, 34R, Roger"  
 

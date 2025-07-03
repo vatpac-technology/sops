@@ -1,15 +1,27 @@
-name: ci 
+name: ci
+
 on:
   push:
-    branches: 
-      - main
+    branches: [ main ]
+
 jobs:
   deploy:
+    name: Deploy MkDocs to GitHub Pages (on main)
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v4
+        name: Checkout Code
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        name: Setup Python
         with:
           python-version: 3.x
-      - run: pip install -r requirements.txt
-      - run: mkdocs gh-deploy --force
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force --strict

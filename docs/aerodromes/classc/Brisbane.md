@@ -9,14 +9,16 @@
 | Name               | Callsign       | Frequency        | Login ID                         |
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Brisbane ADC East**    | **Brisbane Tower**   | **120.500**          | **BN_TWR**                                   |
-| Brisbane ADC West†   | Brisbane Tower   | 118.000          | BN-W_TWR                                 |
+| <span class="indented">Brisbane ADC West :material-information-outline:{ title="Non-standard position"}   | Brisbane Tower   | 118.000          | BN-W_TWR                                 |
 | **Brisbane SMC Domestic**    | **Brisbane Ground**  | **121.700**          | **BN_GND**                                   |
-| Brisbane SMC South†   | Brisbane Ground  | 122.250          | BN-S_GND                                 |
-| Brisbane SMC North†   | Brisbane Ground  | 124.050          | BN-N_GND                                 |
+| <span class="indented">Brisbane SMC South :material-information-outline:{ title="Non-standard position"}   | Brisbane Ground  | 122.250          | BN-S_GND                                 |
+| <span class="indented">Brisbane SMC North :material-information-outline:{ title="Non-standard position"}   | Brisbane Ground  | 124.050          | BN-N_GND                                 |
 | **Brisbane ACD**         | **Brisbane Delivery**| **118.850**          | **BN_DEL**                                   |
-| Brisbane ATIS        |                | 126.250          | YBBN_ATIS                                |
+| **Brisbane ATIS**        |                | **126.250**          | **YBBN_ATIS**                                |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
 BN ADC is not responsible for any airspace by default.
@@ -70,7 +72,7 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 
 When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time
 
-!!! example
+!!! phraseology
     **BN ADC:** "ABC, Traffic is DEF, a 737, on short final for the opposite direction parallel runway. Runway 01R, Cleared for Takeoff"  
     **ABC:** "Cleared for Takeoff Runway 01R, ABC"  
     **BN ADC:** "DEF, Traffic is ABC, an A320, departing from the opposite direction parallel runway to the South-West. Runway 19R, Cleared to Land"  
@@ -112,41 +114,117 @@ Non-Jet aircraft, and aircraft that cannot accept a Procedural SID, shall be ass
     Non-Jet Aircraft planned via WACKO, assigned runway 01R, shall be assigned the BN (RADAR) SID.
 
 ## ATIS
-#### Operational Info
+### Operational Info
 When parallel runways are used for departures, the ATIS OPR INFO shall include:  
-`INDEPENDENT PARALLEL DEPARTURES IN PROGRESS`  
+`INDEPENDENT PARALLEL DEPARTURES IN PROG`  
 When SODPROPS are in operation, the ATIS OPR INFO shall include:  
-`SIMULTANEOUS OPPOSITE DIRECTION PARALLEL RUNWAY OPERATIONS IN PROGRESS`
+`SIMULTANEOUS OPPOSITE DIRECTION PARALLEL RUNWAY OPERATIONS IN PROG`
 
-#### Approach Types
+#### ACD Pushback Requests
+When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) procedure, the OPR INFO shall include:  
+`ALL DEPARTURES MUST REQUEST PUSH BACK ON 118.85`  
+
+### Approach Types
 The ATIS shall always have `EXP INST APCH` as the approach type. Visual Approaches are permitted on request, as long as a separation standard exists between the aircraft and any aircraft arriving on the parallel runway during PROPS, or departing from the parallel runway during SODPROPS.
+
+## Helicopter Operations
+Brisbane has one helipad located on taxiway **F4**. Most rescue helicopters are based within the general aviation maintenance area and may operate from taxiway **H2**.
+
+ADC shall inform SMC of any inbound helicopters so that they may prevent other aircraft from taxiing on the HLS.
+
+!!! tip
+    Refer to [Maneuvering Area Responsibility](#maneuvering-area-responsibility) to determine which SMC or ADC position is responsible for managing helicopter arrivals and departures.
+
+### Waypoints
+In VMC, all helicopters shall be processed via two visual waypoints (outlined below) positioned north and south of the field. Where VMC does not exist, IFR helicopters will conform to fixed wing ops and be processed via the **BN (RADAR) SID** from an appropriate runway.
+
+
+| Direction of Flight  | Inbound/Outbound Tracking Point |
+| ------------------ | -------------- |
+| North      | BLHS   |
+| South      | MBHM   |
+| East      | MBHM   |
+| West      | BLHS   |
+
+### Departures
+Where a helicopter has not filed via the appropriate waypoint, they should be rerouted.
+
+!!! phraseology
+    **RSCU533:** "Brisbane Delivery, helicopter RSCU533, MEDEVAC, for YXHE, request clearance"  
+    **BN ACD:** "RSCU533, Brisbane Delivery, cleared to YXHE via amended BLHS, YXHE, climb A025, squawk 1256, departure frequency 124.7"  
+    **RSCU533:** "Cleared to YXHE via amended BLHS, YXHE, climb A025, squawk 1256, departures 124.7, RSCU533"
+
+Both taxiways **H2** and **F4** are inside the maneuvering area and treated like a runway, requiring a takeoff and landing clearance from BN ADC. Helicopters departing on other surfaces outside the maneuvering areas should be instructed to *"report airborne"*. 
+
+!!! phraseology
+    **RSCU533:** "Brisbane Tower, helicopter RSCU533, Taxiway H2 ready"  
+    **BN ADC:** "RSCU533, Brisbane Tower, Taxiway H2 cleared for takeoff"  
+    **RSCU533:** "Taxiway H2 cleared for takeoff, RSCU533"
+ 
+    **BN ADC:** "RSCU533, contact departures"  
+    **RSCU533:** "Departures, RSCU533"
+
+### Arrivals
+Helicopters arriving to YBBN during VMC shall be cleared by **BN TCU** via the appropriate inbound waypoint, with that waypoint issued as the clearance limit. TCU shall coordinate the arrival with ADC and transfer the aircraft approaching the clearance limit.
+
+ADC shall assess the current traffic situation and, if necessary, instruct the pilot to hold and/or maintain own separation with any arriving or departing aircraft, then clear them for a visual approach to their nominated landing site. 
+
+If holding is required prior to arrival, helicopters shall be instructed to hold at the following positions:
+
+| Inbound Via | Holding Position |
+| ----------- | ---------------- |
+| BLHS        | Brisbane Entertainment Centre *(3nm northwest of runway 01L/19R)* |
+| MBHM        | MBHM             |
+
+!!! phraseology
+    <span class="hotline">**TCU** -> **ADC**</span>: "North, helicopter X6G, inbound at A010, clearance limit BLHS"  
+    <span class="hotline">**ADC** -> **TCU**</span>: "X6G"  
+
+    **X6G**: "Brisbane Tower, helicopter X6G, for Taxiway F4"  
+    **BN ADC**: "X6G, Brisbane Tower, cancel clearance limit, track to and hold at the Brisbane Entertainment Centre, maintain A010"  
+    **X6G**: "Cancel clearance limit, track to and hold at the Brisbane Entertainment Centre, maintain A010, X6G"
+
+    **BN ADC**: "X6G, report sighting, and able to maintain own separation with, a Qantas 737, 4nm final runway 19R"  
+    **X6G**: "Traffic sighted, and we are able to maintain own separation. X6G"  
+    **BN ADC**: "X6G, cancel hold, pass behind the 737, maintain own separation, caution wake turbulence, cleared visual approach Taxiway F4"  
+    **X6G**: "Cancel hold, pass behind the 737, maintain own separation, cleared visual approach Taxiway F4, X6G"
+
+Remember to pass traffic information to both aircraft.
+
+!!! phraseology
+    **BN ADC**: "QFA1852, traffic is a helicopter, currently 3nm northwest of the field at A010, they'll pass behind you on approach to the F4 helipad and maintain own separation with you, runway 19R, cleared to land"
+
+Both taxiway **H2** and **F4** are inside the maneuvering area and treated like a runway, requiring a takeoff and landing clearance by BN ADC. Helicopters landing on other surfaces outside the maneuvering areas should be instructed to *"report on the ground"* so the controller knows when they are no longer active in their airspace.
+
+!!! phraseology
+    **BN ADC:** "X6G, Taxiway F4, cleared to land"  
+    **X6G:** "Taxiway F4, cleared to land, X6G"
+
+## Workload Management
+### Pushback Requests on ACD
+During busy periods, SMC and ACD may coordinate to implement the [Pushback Requests on ACD](../../controller-skills/grounddelaymanagement#pushback-requests-on-acd) procedure to balance the workload across ACD and SMC frequencies.
+
+When implementing the procedure the ATIS [OPR INFO field](#acd-pushback-requests) must be updated to inform pilots the correct frequency on which to request pushback.
 
 ## Coordination
 ### Auto Release
-'Next' coordination is **not** required to BN TCU for aircraft that are:
+[Next](../../controller-skills/coordination.md#next) coordination is **not** required to BN TCU for aircraft that are:
 
 - Departing from a runway nominated on the ATIS (except during SODPROPS^); and  
 - Assigned the standard assignable level; and  
 - Assigned a **Procedural** SID; or
 - Assigned the **Radar** SID with a [Standard Assignable Heading](#standard-assignable-departure-headings)
 
-^Auto Release is not available during SODPROPS runway mode. All aircraft must be coordinated from BN ADC to BN TCU.
+^*Auto Release is not available during SODPROPS runway mode. All aircraft must be coordinated from BN ADC to BN TCU.*
 
 All other aircraft require a 'Next' call to BN TCU.
 
-!!! example
-    <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Next, QLK404D, Runway 19L"  
-    <span class="hotline">**BN TCU** -> **BN ADC**</span>: "QLK404D, heading 160, unrestricted"  
-    <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Heading 160, QLK404D"   
-
-    **BN ADC**: "QLK404D, Assigned heading Left 160, Runway 19L, Cleared for Takeoff"  
-    **QLK404D**: "Left heading 160, Runway 19L, Cleared for Takeoff, QLK404D"
-
-The BN TCU controller can suspend/resume Auto Release at any time, with the concurrence of **BN ADC**.
-
 The Standard Assignable level from BN ADC to BN TCU is:  
-For Jets: `A060`  
-For Non-Jets: The lower of `A040` or the `RFL`
+
+| Aircraft | Level |
+| -------- | ----- |
+| Jets | `A060` |
+| Non-Jets | The lower of `A040` and `RFL` |
 
 ### Departures Controller
 Refer to [Brisbane TCU Airspace Division](../../../terminal/brisbane/#airspace-division) for information on airspace divisions when **BDN** and/or **BDS** are online.

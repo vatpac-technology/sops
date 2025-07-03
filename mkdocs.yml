@@ -1,8 +1,6 @@
 # Project Information
 site_name: VATPAC Standard Operating Procedures
 site_url: https://sops.vatpac.org
-repo_url: https://github.com/vatpac-technology/sops
-repo_name: vatpac-technology/sops
 edit_uri: "" #removes edit button and icon
 copyright: ""
 
@@ -14,13 +12,16 @@ theme:
   font:
     text: Maven Pro
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       toggle:
         icon: material/weather-night
+        name: Switch to light mode
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -29,9 +30,13 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    - content.tooltips
+    - content.tabs.link
   favicon: assets/images/mini-logo.png
   icon:
     repo: fontawesome/brands/github
+    annotation: material/plus-circle
+    annotation: material/minus-circle
 
 # Plugins
 plugins:
@@ -91,6 +96,10 @@ plugins:
         'controller-skills/cpdlc.md': 'client/cpdlc.md'
         'controller-skills/maestro.md': 'client/maestro.md'
         'controller-skills/vatsys.md': 'client/vatsys.md'
+        'enroute/Melbourne Centre/BIK.md': 'enroute/Melbourne Centre/GUN.md'
+        'enroute/Melbourne Centre/YWE.md': 'enroute/Melbourne Centre/MUN.md'
+        'enroute/Melbourne Centre/ELW.md': 'enroute/Melbourne Centre/BLA.md'
+        'enroute/Melbourne Centre/PIY.md': 'enroute/Melbourne Centre/HYD.md'
 
 # Styling Front-end
 extra_css:
@@ -141,6 +150,7 @@ markdown_extensions:
 
 extra_javascript:
   - javascripts/mathjax.js
+  - javascripts/table-indent.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 

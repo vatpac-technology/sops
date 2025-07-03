@@ -8,17 +8,18 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Alice Springs** | **Melbourne Centre** | **128.850** | **ML-ASP_CTR** |
-| Alice Springs West† | Melbourne Centre | 131.800 | ML-ASW_CTR |
-| Warburton† | Melbourne Centre | 124.900 | ML-WAR_CTR |
-| Forest† | Melbourne Centre | 132.700 | ML-FOR_CTR |
-| Woomera† | Melbourne Centre | 132.900 | ML-WRA_CTR |
-| Bourke† | Melbourne Centre | 128.200 | ML-BKE_CTR |
-| Esperance† | Melbourne Centre | 123.950 | ML-ESP_CTR |
+| <span class="indented">Alice Springs West :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 131.800 | ML-ASW_CTR |
+| <span class="indented">Warburton :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 124.900 | ML-WAR_CTR |
+| <span class="indented">Forest :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 132.700 | ML-FOR_CTR |
+| <span class="indented">Woomera :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 132.900 | ML-WRA_CTR |
+| <span class="indented">Bourke :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 128.200 | ML-BKE_CTR |
+| <span class="indented">Esperance :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 123.950 | ML-ESP_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
-
 The Primary Communication Method for ASP is [CPDLC](../../../client/cpdlc).
 
 The CPDLC Station Code is `YASP`.
@@ -42,7 +43,7 @@ When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME
     If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
 
 ## Extending
-!!! Warning
+!!! warning "Important"
     Due to the large geographical area covered by this sector and it's neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
 
 ## Surveillance Coverage
@@ -64,8 +65,8 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | ---- | -------- | --------- | --------- |
 | FOR, WRA, BKE | TBD(AUG) | YPAD, YPED | Jets only |
 | BKE | TBD | YPAD, YPED | |
-| ESP | PIY(HYD) | YPPH, YPEA | Jets only |
-| BKE | YWE(KAT, GTH) | YSSY | |
+| ESP | HYD | YPPH, YPEA | Jets only |
+| BKE | GUN(KAT), MUN(GTH) | YSSY | |
 
 ## Coordination
 ### Enroute
@@ -81,18 +82,18 @@ AS ADC is responsible for the Class D airspace `SFC` to `A045`, as well as the C
 Refer to [Reclassifications](#as-ctr) for operations when AS ADC is offline.
 
 #### Departures
-Departures from YBAS in to ASP Class C will be coordinated when ready for departure.
+[Next](../../controller-skills/coordination.md#next) coordination is required from AS ADC to ASP for all aircraft **entering ASP CTA**.
 
-!!! example
-    <span class="hotline">**AS ADC** -> **ASP**</span>: "Next, QFA797"  
-    <span class="hotline">**ASP** -> **AS ADC**</span>: "QFA797, Unrestricted"  
-    <span class="hotline">**AS ADC** -> **ASP**</span>: "QFA797"  
+The Standard Assignable level from **AS ADC** to **ASP** is:
 
-The Standard Assignable level from **AS ADC** to ASP is the lower of `A070` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A070` and `RFL` |
+
 #### Arrivals
 YBAS arrivals shall be heads-up coordinated to **AS ADC** from ASP prior to **5 mins** from the boundary.
 
-!!! example
+!!! phraseology
     <span class="hotline">**ASP** -> **AS ADC**</span>: "Via SADEL, QFA1956”  
     <span class="hotline">**AS ADC** -> **ASP**</span>: "QFA1956"  
 
@@ -108,5 +109,5 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
 
-!!! example
+!!! phraseology
     **ASP**: "QFA121, identification terminated, report position to Brisbane Radio, 129.25"

@@ -8,9 +8,9 @@
 
 | Name                    | Callsign         | Frequency | Login ID     |
 | ----------------------- | --------- | ---------------- | --------- |
-| **Bucholz ADC**	| **Bucholz Tower**	| **126.200** | **PKWA_TWR**	| 
-| **Bucholz SMC**	| **Bucholz Ground**	| **121.900** | **PKWA_GND**	| 
-| Bucholz ATIS	| PKWA_ATIS| 	|  	119.675| 
+| **Bucholz ADC**	| **Bucholz Tower**	| **126.200** | **KWA_TWR**	| 
+| **Bucholz SMC**	| **Bucholz Ground**	| **121.900** | **KWA_GND**	| 
+| **Bucholz ATIS**	| **PKWA_ATIS** | 	|  	**119.500**| 
 
 ## General
 

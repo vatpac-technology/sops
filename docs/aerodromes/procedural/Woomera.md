@@ -9,7 +9,7 @@
 | Name               | Callsign       | Frequency        | Login ID              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
 | **Woomera ADC**    | **Woomera Tower**  | **118.300**         | **WR_TWR**        |
-| Woomera ATIS    |   | 118.100         | YPWR_ATIS       |
+| **Woomera ATIS**    |   | **118.100**         | **YPWR_ATIS**       |
 
 ## Airspace
 By default, WR ADC owns the **R222F** Restricted Area. This airspace has vertical limits of `SFC` to `F120`. When WR ADC is active, this airspace is classified as Class D.
@@ -24,5 +24,5 @@ Surveillance coverage can be expected to be available at all levels in the WR CT
 Coordination is not required between WR ADC and ASP(WRA). Aircraft entering ASP(WRA) airspace shall be handed off, and instructed to contact ASP(WRA) for onwards clearance.
 
 ## Charts
-!!! note
+!!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}

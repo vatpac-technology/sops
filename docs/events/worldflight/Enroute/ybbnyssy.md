@@ -75,7 +75,7 @@ SFL must **voice coordinate** any changes to instructions after ARL/CNK has put 
 
 SFL will **voice coordinate** to ARL/CNK any aircraft that must be rerouted via **OLTIN YAKKA MEPIL** for **16L/34R**.
 
-!!! example
+!!! phraseology
     <span class="hotline">**SFL** -> **ARL**</span>: "ANZ361 via OLTIN for 34R please"  
     <span class="hotline">**ARL** -> **SFL**</span>: "ANZ361 via OLTIN for 34R, will be"  
 

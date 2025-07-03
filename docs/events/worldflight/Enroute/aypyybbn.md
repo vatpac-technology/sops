@@ -60,9 +60,9 @@ To aid with distributing the arrival sequence, KPL may reclear aircraft DCT to *
 | Runway | STAR |
 | ---------- | --- |
 | 01R      | ENLIP2A |
-| 19R      | ENLIP2X† |
+| 19R      | ENLIP2X\* |
 
-†Aircraft on the **Xray** STAR will still expect an *Independent Visual Approach* from that STAR, unless the ATIS indicates otherwise.
+\*Aircraft on the **Xray** STAR will still expect an *Independent Visual Approach* from that STAR, unless the ATIS indicates otherwise.
 
 Arrivals may, when suitable for the *sequence*, and clear of *01L/19R traffic*, be cleared DCT to the following points on the STAR:
 
@@ -116,7 +116,7 @@ BFL must **voice coordinate** any changes to instructions after KPL/BUR has put 
 
 BFL will **voice coordinate** to KPL/BUR any aircraft that must be rerouted via **ENLIP** for **01R/19R**.
 
-!!! example
+!!! phraseology
     <span class="hotline">**BFL** -> **KPL**</span>: "PAA001 via ENLIP for 01R please"  
     <span class="hotline">**KPL** -> **BFL**</span>: "PAA001 via ENLIP for 01R, will be"  
 

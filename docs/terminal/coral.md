@@ -11,6 +11,9 @@
 | **Mackay Approach**  | **MKA** | **Coral Approach**  | **125.650**       | **MK_APP**    |
 | **Rockhampton Approach**  | **RKA** | **Coral Approach**   | **123.750**        | **RK_APP**                 |
 
+!!! Note
+    MKA may elect to extend to RKA and vice versa, callsigns remain the same. See [Controller Skills](../controller-skills/extending.md) for details.
+
 ## Airspace
 The Coral TCU includes the airspace `SFC` to `F150` within the Mackay and Rockhampton keyholes (shown below).  
 MK ADC own the Class D airspace within MK CTR `SFC` to `A010`.  
@@ -43,7 +46,7 @@ Voiceless for all aircraft:
 
 All other aircraft going to SWY/KPL CTA must be **Heads-up** Coordinated by MKA/RKA.
 
-!!! example
+!!! phraseology
     <span class="hotline">**RKA** -> **KPL**</span>: "QFA114, with your concurrence, will be assigned F130, for my separation with ZYX"  
     <span class="hotline">**KPL** -> **RKA**</span>: "QFA114, concur F130"  
 
@@ -66,12 +69,20 @@ MK ADC is responsible for the Class D airspace in the MK CTR `SFC` to `A010`.
 RK ADC is responsible for the Class D airspace in the RK CTR `SFC` to `A010`.
 
 #### Auto Release
-'Next' coordination is **not** required from MK/RK ADC for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a **Procedural** SID
+[Next](../controller-skills/coordination.md#next) coordination is **not** required to MKA/RKA for aircraft that are:  
 
-!!! example
+- Departing from a runway nominated on the ATIS; and  
+- Assigned the standard assignable level; and  
+- Assigned a **Procedural** SID; or  
+- Not entering MKA/RKA CTA
+
+The Standard Assignable level from **MK/RK ADC** to **MKA/RKA** is:
+
+| Aircraft | Level |
+| ------ | ----- |
+| All | The lower of `A060` and `RFL` |
+
+!!! phraseology
     <span class="hotline">**MK ADC** -> **MKA**</span>: "Next, ABC, runway 14"  
     <span class="hotline">**MKA** -> **MK ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
     <span class="hotline">**MK ADC** -> **MKA**</span>: "Heading 150 Visual unrestricted, ABC"
@@ -81,9 +92,9 @@ The TCU controller can suspend/resume Auto Release at any time, with the concurr
 The Standard Assignable level from MK/RK ADC to MKA/RKA is the lower of `A060` or the `RFL`.
 
 #### MK/RK SMC
-The controller assuming responsibility of **SMC** shall give heads-up coordination to TCU controller prior to the issue of the following clearances:  
+The controller assuming responsibility of **SMC** shall give [Heads-up](../controller-skills/coordination.md#heads-up) coordination to TCU controller prior to the issue of the following clearances:  
 
-- VFR Departures  
+- VFR departures entering MKA/RKA CTA
 - Aircraft using a runway not on the ATIS
 
 #### Arrivals
@@ -93,6 +104,6 @@ COR TCU will coordinate all YBMK and YBRK arrivals to ADC prior to **5 mins** fr
 - Approach type, unless specifically nominated on the ATIS  
 - IFR Circuit joining instructions, if not on Straight-in instrument approach
 
-!!! example
-    <span class="hotline">**RKA** -> **RK ADC**</span>: "via ABVAS, DJU, for the VOR-A”  
+!!! phraseology
+    <span class="hotline">**RKA** -> **RK ADC**</span>: "via ABVAS, DJU, for the VOR-A"  
     <span class="hotline">**RK ADC** -> **RKA**</span>: "DJU, VOR-A"

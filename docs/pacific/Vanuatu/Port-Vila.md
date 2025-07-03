@@ -1,5 +1,5 @@
 ---
-  title: Port Vila
+  title: Aerodrome
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -8,42 +8,102 @@
 
 | Name                    | Callsign         | Frequency | Login ID    |
 | ----------------------- | --------- | ---------------- | --------- |
-| **Port Vila Centre**	| **Vila Centre**| 	**120.700** | **NVVV_CTR**	| 
-| **Port Vila ADC**	| **Vila Tower**	| **118.300** | **NVVV_TWR**	| 
-| Port Villa ATIS	| | 126.400 | NVVV_ATIS	 	| 
+| **Port Vila ADC**	| **Port Vila Tower**	| **118.300** | **NVVV_TWR**	| 
+| **Port Vila ATIS**	| | **126.400** | **NVVV_ATIS**	 	| 
 
 
-Port Vila Class D CTA exists:  
-- From 9500 FT (top of TMA) to FL245 (base of Nadi Class A OCA) within the lateral extent of the Port Vila Sector.  
-- Within a 20 NM-radius circle centred on the Port Vila/Bauerfield ARP from surface to 3500 FT (base of TMA).  
-- Within a 50 NM-radius circle centred on the Port Vila/Bauerfield ARP from 3500 FT (top of CTR) to 9500 FT (base of CTA).  
+## Airspace
+Port Vila ADC is responsible for:
 
-During Port Vila hours of watch, **Port Vila Tower** provides ATS for the entire Port Vila TMA. 
-
-!!! note
-    Outside of hours of watch, Port Vila Class D CTR is reclassified Class G and **Nadi Oceanic** provides ATS for the entire Sector.  
-
-## Tower
-
-Circuits are conducted south of the aerodrome.  
-
-Clear IFR departures via visual departure by day and in VMC. Otherwise, clear IFR departures via SID.
-Obtain departure report from IFR departures to use for separation purposes.
-
-Clear IFR arrivals via visual approach by day and in VMC. Otherwise, clear IFR arrivals via instrument approach.
-!!! note 
-    Straight-in instrument approaches to Runway 11 are offset due to terrain.
-
-## Enroute
-
-Reserved.
-
-## Coordination
-
-**All routes require Coordination**
+- The Class D airspace within the NVVV CTR, defined as `SFC` to `A035` within **20nm** of the NVVV ARP, and
+- The Class D airspace within the NVVV TMA, defined as  `A035` to `A095` within **50nm** of the NVVV ARP.
+	
+<figure markdown>
+![NVVV TWR Airspace](img/NVVVTWR.png){ width="700" }
+</figure>
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
-### Standard Assignable Level
-Climbing to Nadi Oceanic: `FL240`  
-Descending to Port Vila Tower: `FL250`  
+!!! warning "Important"
+    NVVV ADC's airspace exceeds the default visibilty range for the TWR position in VatSys. When logging on to this position, ensure your visibility range is set to **50nm**.
+
+<!---## Maneuvering Area Responsibility
+## Standard Taxi Routes
+## Taxiway Restrictions
+#--->
+## Local Procedures
+### Approach Selection
+In **VMC by day**, all aircraft shall be assigned a visual approach.
+
+In all other situations:
+
+- IFR aircraft arriving Runway 29 shall be assigned either the **VOR/DME** or the **RNAV** approach.
+- IFR aircraft arriving Runway 11 shall be assigned the **VOR/DME/NDB** approach, or the **RNAV** approach if conditions preclude any other alternative.
+
+**RNAV-equipped** IFR aircraft can be assigned the **RNAV-U AR** approach at any time, **upon request**.
+
+### Runway 11
+Approaches into Rwy 11 are offset due to terrain.
+
+<figure markdown>
+![Runway 11 Approach Paths](img/nvvv_rwy11.png){ width="700" }
+</figure>
+
+Aircraft arriving via a **Visual**, **VOR/DME/NDB** approach will follow the Circling Guidance Lighting System to join final approximatey 1.1nm from the runway threshold. Aircraft arriving via the **RNAV** approach will follow an approach track offset by 30°.
+
+!!! note
+	The missed approach path for all approaches involves a sharp turn to the south to avoid high terrain to the east of the airport. Take care to ensure positive separation between these aircraft and arrivals from the east.
+
+## VFR Operations
+### Training Area
+A local training area is established `SFC` to `A040` east of the airport between the Teouma River, the town of Forari, and the coast.
+
+<figure markdown>
+![Port Vila Local Training Area (approx)](img/NVVV_trainingarea.png){ width="700" }
+</figure>
+
+Aircraft on the **VOR** approach to Runway 29 will penetrate the training area on descent, and are **not** vertically separated with aircraft operating in the local training area. When the VOR approach to Runway 29 is in use, aircraft in the training area must advised to keep clear of the extended runway centreline.
+
+<!--Ops Normal Calls?? -->
+
+## Helicopter Operations
+There are no specific helicopter movement areas at Port Vila. Helicopters will use aircraft movement areas for all operations.
+
+## Runway Modes
+### Circuit Direction
+| Runway | Direction |
+| ------ | --------- |
+| 11 | Right |
+| 29 | Left |
+
+## SID Selection
+In **VMC by day**, all aircraft shall be assigned a visual departure. 
+
+In all other situations:
+
+- IFR aircraft departing Runway 29 shall be assigned the **NORTH**, **SOUTH**, or **EAST** departure, according to their direction of travel.
+- IFR aircraft departing Runway 11 shall be assigned either the **SOUTH** or **VOR** departure, according to their direction of travel.
+
+**RNAV-equipped** IFR aircraft can also be assigned the **EMTEM** or **MELE** Procedural SID at any time, **upon request**.
+
+<!--- ## ATIS --->
+## Coordination
+### Departures
+[Next](../../controller-skills/coordination.md#next) coordination is required from NVVV ADC to NVVV_CTR for all aircraft **entering NVVV CTA**.
+
+The Standard Assignable level from **NVVV ADC** to **NVVV_CTR** is:
+
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `A090` and `RFL` |
+
+### Arrivals/Overfliers
+NVVV_CTR will heads-up coordinate arrivals/overfliers from Class D to NVVV ADC. 
+
+The Standard Assignable level from NVVV_CTR to NVVV ADC is `A100`, any other level must be prior coordinated.
+
+Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
+
+<!--- ## Charts --->
+
+

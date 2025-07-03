@@ -10,7 +10,7 @@
 | **Nowra TMA**    | **NWA** | **Nowra Approach** | **123.500**          | **NW_APP**        |
 
 ## Airspace
-NW TCU owns the airspace within R421, `SFC` to `F125`. Where traffic levels (primarily preplanned military operations) warrant, NW TCU may request a release of R420F from `F125` to `F300` from BIK(WOL), if online.
+NW TCU owns the airspace within R421, `SFC` to `F125`. Where traffic levels (primarily preplanned military operations) warrant, NW TCU may request a release of R420F from `F125` to `F300` from WOL, if online.
 
 <figure markdown>
 ![NW TMA](img/nwtcu.png){ width="700" }
@@ -23,14 +23,14 @@ Due to the temporary nature of the airspace, surrounding controllers may not be 
 ### Activating R420F
 Where it is deemed operationally beneficial to activate R420F, this should be requested from the overlying enroute controller.
 
-!!! example
+!!! phraseology
     <span class="hotline">**NW TCU** -> **WOL**</span>: "There's a preplanned military exercise about to commence, request release of R420F up to F300"  
     <span class="hotline">**WOL** -> **NW TCU**</span>: "R420F released to you F125 to F300"  
     <span class="hotline">**NW TCU** -> **WOL**</span>: "R420F released F125 to F300"   
 
-As per [Coordination](#enroute), with R420F active, all transiting aircraft will be coordinated by BIK(WOL). Where possible, facilitate the transit of these aircraft. In exceptional circumstances where the level of military aircraft movements prohibit transiting civil aircraft, inform BIK(WOL) that no transiting aircraft can be accommodated, and that they will need to be rerouted to remain clear of the TCU.
+As per [Coordination](#enroute), with R420F active, all transiting aircraft will be coordinated by WOL. Where possible, facilitate the transit of these aircraft. In exceptional circumstances where the level of military aircraft movements prohibit transiting civil aircraft, inform WOL that no transiting aircraft can be accommodated, and that they will need to be rerouted to remain clear of the TCU.
 
-!!! important
+!!! warning "Important"
     Activating R420F increases the workload of the overlying enroute controller by altering the airspace normally available to them for civil aircraft. Only activate this airspace if operationally necessary, primarily for preplanned military exercises.
 
 ## VFR Lane of Entry
@@ -52,7 +52,7 @@ Voiceless for aircraft:
 - Tracking via a published airway; and  
 - Assigned the lower of `F120` or the `RFL`
 
-All other aircraft going to BIK(WOL) CTA must be **Heads-up** Coordinated by NW TCU prior to the boundary. 
+All other aircraft going to WOL CTA must be **Heads-up** Coordinated by NW TCU prior to the boundary. 
 
 #### Arrivals
 Voiceless for aircraft:
@@ -61,18 +61,24 @@ Voiceless for aircraft:
 - Tracking direct to the NWA TACAN or YSNW; and  
 - Assigned `F130`
 
-All other aircraft coming from BIK(WOL) CTA will be **Heads-up** Coordinated to NW TCU.
+All other aircraft coming from WOL CTA will be **Heads-up** Coordinated to NW TCU.
 
 ### NW ADC
 #### Airspace
 NW ADC owns the Class C airspace from `SFC` to `A020`, within a 5nm radius of the NWA TACAN. This airspace is designed to facilitate helicopter and circuit traffic.
 
 #### Auto Release
-Auto release is not utilised at Nowra. 'Next' coordination is required from NW ADC to NW TCU for all aircraft.
+[Next](../controller-skills/coordination.md#next) coordination is required from NW ADC to NW TCU for all aircraft.
 
-The Standard Assignable Level from **NW ADC** to **NW TCU** is `F120` or `RFL`, whichever is lower.
+The Standard Assignable level from **NW ADC** to **NW TCU** is:
 
-!!! example
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `F120` and `RFL` | 
+
+!!! phraseology
     <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Next, BUCK03, runway 08"  
     <span class="hotline">**NW TCU** -> **NW ADC**</span>: "BUCK03, Assigned Heading Left 030, unrestricted"  
     <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Assigned Heading Heading Left 030, BUCK03"
+
+Helicopters departing from helicopter spots will be treated as if departing from the duty runway.

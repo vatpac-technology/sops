@@ -9,7 +9,7 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | ---------------- |
 | **Hamilton Island ADC** | **Hamilton Tower** | **118.700** | **HM_TWR** |
-| Hamilton Island ATIS |  | 128.350 | YBHM_ATIS |
+| **Hamilton Island ATIS** |  | **128.350** | **YBHM_ATIS** |
 
 ## Airspace
 
@@ -27,20 +27,19 @@ Surveillance coverage can be expected to be not available below `A031` in the HM
 
 ## Coordination
 ### Departures
-A 'next' call is made for all aircraft entering KEN(SWY) CTA when they are next to depart. HM ADC must inform KEN(SWY) if the aircraft does not depart within **2 minutes** of the next call.
+[Next](../../controller-skills/coordination.md#next) coordination is required from HM ADC to KEN(SWY) for all aircraft **entering KEN(SWY) CTA**.
 
-!!! example
-    <span class="hotline">**HM ADC** -> **SWY**</span>: "Next, QFA797"  
-    <span class="hotline">**SWY** -> **HM ADC**</span>: "QFA797, Unrestricted"  
-    <span class="hotline">**HM ADC** -> **SWY**</span>: "QFA797"
+The Standard Assignable level from **HM ADC** to **KEN(SWY)** is:
 
-The Standard Assignable level from HM ADC to KEN(SWY) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A050` and `RFL` |
 
 ### Arrivals/Overfliers
 KEN(SWY) will heads-up coordinate all arrivals/overfliers to HM ADC
 
-!!! example
-    <span class="hotline">**SWY** -> **HM ADC**</span>: "Via OPOSI for the RNP-U RWY 32, JST848”  
-    <span class="hotline">**HM ADC** -> **SWY**</span>: "JST848"  
+!!! phraseology
+    <span class="hotline">**SWY** -> **HM ADC**</span>: "Via OPOSI for the RNP-U, JST848”  
+    <span class="hotline">**HM ADC** -> **SWY**</span>: "JST848, A060"  
 
 The Standard Assignable level from KEN(SWY) to HM ADC is `A060`, any other level must be prior coordinated.
