@@ -4,14 +4,12 @@
 
 --8<-- "includes/abbreviations.md"
 
-## Phraseology
-
 ## Altimetry
 
 ### Transition Altitude 
 
-Within the Kwajalein TCU, the transition altitude is 5500 ft.
+Within the Oakland Oceanic FIR-in which the Marshall Islands are located-the transition altitude is 5500 ft (`A055`).
 
 ### Transition Level
 
-Within the Kwajalein TCU, the transition level is FL055 ft.
+Within the Oakland Oceanic FIR-in which the Marshall Islands are located-tthe transition level is `FL055`.
