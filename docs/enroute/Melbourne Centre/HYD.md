@@ -121,6 +121,11 @@ For aircraft overflying the PH TCU place `O/FLY` in the LABEL DATA field.
 ### Sequencing in to YPPH
 Aircraft assigned the **same runway** inbound via **JULIM** and **SAPKO**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
+## Predictable Sequencing
+Predictable sequencing alllows for ATC to re-route aircraft via pre-defined waypoints off major airways to create certain time delay. 
+
+Aircraft arriving into Perth via **Q10**, **Q32**, **Q27** and **Z38** can use ten additional waypoint to the south of **Q10** and north of **Q27** airways. Aircraft should continue to comply with STAR speed and height restrictions unless explicitly cancelled by ATC.
+
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YPPH. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
 

@@ -58,6 +58,12 @@ HUO is reponsible for issuing STAR clearances, sequencing, and descent.
 WON is responsible for issuing STAR Clearances, sequencing, and descent.
 
 ### Sequencing in to YMML
+
+## Predictable Sequencing
+Predictable sequencing alllows for ATC to re-route aircraft via pre-defined waypoints off major airways to create certain time delay. 
+
+Aircraft arriving into Melbourne via **H215**, **P753**, **L508** and **M625** can use four additional waypoints perpendicular to both **M625** and **H215** airways. Aircraft should continue to comply with STAR speed and height restrictions unless explicitly cancelled by ATC.
+
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YMML. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
 
@@ -68,10 +74,7 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 !!! tip
     Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector. 
 
-## Predictable Sequencing
-Predictable sequencing alllows for ATC to re-route aircraft via pre-defined waypoints off major airways to create certain time delay. 
 
-Aircraft arriving into Melbourne via **H215**, **P753**, **L508** and **M625** can use four additional waypoints perpendicular to both **M625** and **H215** airways. Aircraft should continue to comply with STAR speed and height restrictions unless explicitly cancelled by ATC.
 
 #### LAHSO
 !!! warning "Important"
