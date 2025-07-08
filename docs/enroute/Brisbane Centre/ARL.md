@@ -122,7 +122,12 @@ Non-jet aircraft for YSSY shall be assigned the **MEPIL** STAR.
     **ARL:** "RXA6417, amended tracking and STAR available"  
     **RXA6417:** "RXA6417, go ahead"  
     **ARL:** "RXA6417, recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain FL180"  
-    **RXA6417:** "Recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain FL180, RXA6417"
+    **RXA6417:** "Recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain FL180, RXA6417" 
+
+## Predictable Sequencing
+Predictable sequencing alllows for ATC to re-route aircraft via pre-defined waypoints off major airways to create certain time delay. 
+
+Aircraft arriving into Sydney via **N774** and **M636** can use ten additional waypoints with 5 to the north and south of **N774** and one additional waypoint on **N774** for aircraft arriving via **PLUGA**. Aircraft should continue to comply with STAR speed and height restrictions unless explicitly cancelled by ATC.
 
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YSSY. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
