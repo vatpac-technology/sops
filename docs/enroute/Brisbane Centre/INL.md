@@ -126,7 +126,7 @@ Must be considered to be on the **same STAR** for sequencing purposes. That is, 
 ## Predictable Sequencing
 Predictable sequencing alllows for ATC to re-route aircraft via pre-defined waypoints off major airways to create certain time delay. 
 
-Aircraft arriving into Brisbane via **H66** abd **H252** can use nine additional waypoints perpendicular to both airways. Aircraft should continue to comply with STAR speed and height restrictions unless explicitly cancelled by ATC.
+Aircraft arriving into Brisbane via **H66** and **H252** can use nine additional waypoints perpendicular to both airways. Aircraft should continue to comply with STAR speed and height restrictions unless explicitly cancelled by ATC.
 
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YBBN. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
