@@ -129,6 +129,15 @@ Predictable sequencing alllows for ATC to re-route aircraft via pre-defined wayp
 
 Aircraft arriving into Sydney via **N774** and **M636** can use ten additional waypoints with 5 to the north and south of **N774** and one additional waypoint on **N774** for aircraft arriving via **PLUGA**. Aircraft should continue to comply with STAR speed and height restrictions unless explicitly cancelled by ATC.
 
+The table belows give an estimated time **in minutes** from **Initial waypoint** via **CDO waypoint** to **Final waypoint**.
+=== "N774"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
+    | NONID | HARIZ/PORUV | RIKNI | 2 |
+    | NONID | AVKIR/ISNET | RIKNI | 4 |
+    | NONID | IDAGO/OVMAT | RIKNI | 6 |
+    | NONID | ADLIV/FLEMO | RIKNI | 8 |
+    | NONID | UDISI/OPEXA | RIKNI | 10 |
+
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YSSY. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
 
