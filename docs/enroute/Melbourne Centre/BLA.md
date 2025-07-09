@@ -94,7 +94,24 @@ Aircraft assigned the **same runway** inbound via **BOOIN** and **BOYSE**, must 
 ## Predictable Sequencing
 Predictable sequencing alllows for ATC to re-route aircraft via pre-defined waypoints off major airways to create certain time delay. 
 
-Aircraft arriving into Melbourne via **Q346** and **Q35** can use three additional waypoints perpendicular to both airways. Aircraft should continue to comply with STAR speed and height restrictions unless explicitly cancelled by ATC.
+Aircraft arriving into Melbourne via **Q346** and **Q35** can use four additional waypoints perpendicular to both airways. Aircraft should continue to comply with STAR speed and height restrictions unless explicitly cancelled by ATC.
+
+=== "Q346"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
+    | -----------------| -------------| -------------- | -------|
+    | UPNAP | IGPEB | CANTY | 1 |
+    | UPNAP | ONOPO | CANTY | 3 |
+    | UPNAP | URGUL | CANTY | 5 |
+    | UPNAP | IBOVU | CANTY | 7 | 
+
+=== "Q35"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
+    | -----------------| -------------| -------------- | -------|
+    | IGMIL | IGPEB | CANTY | 2 |
+    | IGMIL | ONOPO | CANTY | 4 |
+    | IGMIL | URGUL | CANTY | 6 |
+    | IGMIL | IBOVU | CANTY | 8 |
+    
 
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YMML. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.

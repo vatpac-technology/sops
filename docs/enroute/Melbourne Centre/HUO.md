@@ -64,6 +64,22 @@ Predictable sequencing alllows for ATC to re-route aircraft via pre-defined wayp
 
 Aircraft arriving into Melbourne via **H215**, **P753**, **L508** and **M625** can use four additional waypoints perpendicular to both **M625** and **H215** airways. Aircraft should continue to comply with STAR speed and height restrictions unless explicitly cancelled by ATC.
 
+=== "M625"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
+    | -----------------| -------------| -------------- | -------|
+    | ELNIV | OTGUN | RAZZI | 2 |
+    | ELNIV | OSEMI | RAZZI | 4 |
+    | ELNIV | UGITO | RAZZI | 6 |
+    | ELNIV | SEBLU | RAZZI | 8 | 
+
+=== "H215"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
+    | -----------------| -------------| -------------- | -------|
+    | AKTAM | SEBLU | RAZZI | 2 |
+    | AKTAM | UGITO | RAZZI | 4 |
+    | AKTAM | OSEMI | RAZZI | 6 |
+    | AKTAM | OTGUN | RAZZI | 8 |
+
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YMML. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
 
