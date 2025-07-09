@@ -128,6 +128,30 @@ Predictable sequencing alllows for ATC to re-route aircraft via pre-defined wayp
 
 Aircraft arriving into Brisbane via **H66** and **H252** can use nine additional waypoints perpendicular to both airways. Aircraft should continue to comply with STAR speed and height restrictions unless explicitly cancelled by ATC.
 
+The table belows give an estimated time **in minutes** from **Initial waypoint** via **CDO waypoint** to **Final waypoint**.
+=== "H66"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
+    | -----------------| -------------| -------------- | -------|
+    | ADKEK | GUTBI | WHITI | 2 |
+    | ADKEK | ISDAG | WHITI | 3 |
+    | ADKEK | RULGU | WHITI | 5 |
+    | ADKEK | DOVIP | WHITI | 7 |
+    | ADKEK | URBAM | WHITI | 9 |
+    | ADKEK | ESMIS | WHITI | 11 |
+    | ADKEK | UBKEM | WHITI | 13 |
+
+=== "H252"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
+    | -----------------| -------------| -------------- | -------|
+    | RULGU | DOVIP | OMKAK  | 1 |
+    | RULGU | ISDAG | OMKAK  | 2 |
+    | RULGU | URBAM | OMKAK  | 3 |
+    | RULGU | GUTBI | OMKAK | 4 |
+    | RULGU | ESMIS | OMKAK | 5 |
+    | RULGU | UBKEM | OMKAK | 7 |
+    | RULGU | ADKEK | OMKAK | 8 |
+    | RULGU | OTBOL | OMKAK | 11 |
+
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YBBN. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
 
