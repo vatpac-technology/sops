@@ -132,11 +132,20 @@ Aircraft arriving into Sydney via **N774** and **M636** can use ten additional w
 The table belows give an estimated time **in minutes** from **Initial waypoint** via **CDO waypoint** to **Final waypoint**.
 === "N774"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
+    | -----------------| -------------| -------------- | -------|
     | NONID | HARIZ/PORUV | RIKNI | 2 |
     | NONID | AVKIR/ISNET | RIKNI | 4 |
     | NONID | IDAGO/OVMAT | RIKNI | 6 |
     | NONID | ADLIV/FLEMO | RIKNI | 8 |
     | NONID | UDISI/OPEXA | RIKNI | 10 |
+
+=== "PULGA"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
+    | -----------------| -------------| -------------- | -------|
+    | PULGA | OLNOT | RIKNI | 2 |
+    | PULGA | ADBOK | RIKNI | 4 | 
+    | PULGA | PEBTU | RIKNI | 6 |
+    | PULGA | GORTA | RIKNI | 8 | 
 
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YSSY. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
