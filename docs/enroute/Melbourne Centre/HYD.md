@@ -132,6 +132,12 @@ Aircraft arriving into Perth via **Q10**, **Q32**, **Q27** and **Z38** can use t
     | BUNGL | IGROB | MALUP | 1 |
     | BUNGL | KINAB | MALUP | 3 |
 
+=== "Q41"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
+    | -----------------| -------------| -------------- | -------|
+    | NALAR | URGEX | MALUP | 2 |
+    
+
 
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YPPH. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
