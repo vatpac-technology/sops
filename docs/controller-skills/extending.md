@@ -56,14 +56,14 @@ When extending, include in your remarks, *"Extending to (Sector) (frequency), (S
 
 !!! example
     Melbourne Centre  
-    Extending to HUO 122.6, MUN 132.6, GUN 128.4  
-    Airspace, Charts, Tools - vats.im/pac/pilot
+    **Extending to HUO 122.6, MUN 132.6, GUN 128.4**  
+    Airspace, Charts, Tools - vats.im/pac/pilot  
 	ATC feedback - helpdesk.vatpac.org
 
 !!! example
-    Coral Approach
-    Extending to RKA 123.75
-    Airspace, Charts, Tools - vats.im/pac/pilot
+    Coral Approach  
+    **Extending to RKA 123.75**  
+    Airspace, Charts, Tools - vats.im/pac/pilot  
 	ATC feedback - helpdesk.vatpac.org
 	
 This will have the benefit of: 
@@ -73,11 +73,11 @@ This will have the benefit of:
 
 Proper frequency management and remarks formatting also ensures that extended sectors are displayed correctly on coverage maps.
 
-- The VATPAC Coverage map (https://map.vatpac.org/static/map.html) will display sectors based on controllers' active and cross-coupled frequencies.
-- VATSIM Radar (https://map.vatsim.net) will display sectors listed in controllers' remarks, where the formatting above has followed.
+- The [VATPAC Coverage map](https://map.vatpac.org/static/map.html) will display sectors based on controllers' active and cross-coupled frequencies.
+- [VATSIM Radar](https://map.vatsim.net) will display sectors listed in controllers' remarks, where the formatting above has followed.
 
 ## Workload Management
-It is very easy to start controlling to several adjacent sectors when traffic is calm, have traffic quietly build up until, all of a sudden, the workload exceeds ones' capacity and becomes overwhelming. This situation is often caused by 'overextending': there is simply too much traffic in the area for a single controller to manage.
+It is very easy to start controlling to several adjacent sectors when traffic is calm, have traffic quietly build up until, until all of a sudden, the workload exceeds ones' capacity and becomes overwhelming. This situation is often caused by *'overextending'*: there is simply too much traffic in the area/on frequency for a single controller to manage.
 
 Overextending diminishes the level of service provided to pilots, and all-in-all, makes pilots not want to fly online. 
 
@@ -96,6 +96,6 @@ Controllers should always be proactively considering their workload and monitori
 
 Other signs a controller is overextending may include aircraft constantly stepping on each other, or missing radio calls; and if the controller finds themselves not having time to think, or forgetting where aircraft are located when they call up.
 
-!!! important
+!!! warning Important
 	It is significantly easier to recognise that you are about to be busy and to do something about it, than it is to realise that you are over capacity and try to fix it. **Don't wait until you're overwhelmed**: recognise the signs early and relinquish airspace *before* things become too much to handle.
 
