@@ -126,6 +126,7 @@ Predictable sequencing alllows for ATC to re-route aircraft via pre-defined wayp
 
 Aircraft arriving into Perth via **Q10**, **Q32**, **Q27** and **Z38** can use ten additional waypoint to the south of **Q10** and north of **Q27** airways. Aircraft should continue to comply with STAR speed and height restrictions unless explicitly cancelled by ATC.
 
+The table belows give an estimated time **in minutes** from **Initial waypoint** via **CDO waypoint** to **Final waypoint**.
 === "Z38"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
     | -----------------| -------------| -------------- | -------|
@@ -145,22 +146,23 @@ Aircraft arriving into Perth via **Q10**, **Q32**, **Q27** and **Z38** can use t
 === "Q32"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
     | -----------------| -------------| -------------- | -------|
-    |  |  | MALUP |  |
-    |  |  | MALUP |  |
-    |  |  | MALUP |  |
-    |  |  | MALUP |  |
-    |  |  | MALUP |  |
-    |  |  | MALUP |  |
+    | TEKUD | URGEX | MALUP | 1 |
+    | TEKUD | BEMPI | MALUP | 1 |
+    | TEKUD | ATGOD | MALUP | 2 |
+    | TEKUD | DUKOR | MALUP | 3 |
+    | TEKUD | IPGER | MALUP | 5 |
+    | TEKUD | TODOS | MALUP | 6 |
+    | TEKUD | IVPIL | MALUP | 8 |
 
 === "Q27"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
     | -----------------| -------------| -------------- | -------|
-    |  |  | MALUP |  |
-    |  |  | MALUP |  |
-    |  |  | MALUP |  |
-    |  |  | MALUP |  |
-    |  |  | MALUP |  |
-    |  |  | MALUP |  |
+    | IVPIL |  | MALUP |  |
+    | IVPIL |  | MALUP |  |
+    | IVPIL |  | MALUP |  |
+    | IVPIL |  | MALUP |  |
+    | IVPIL |  | MALUP |  |
+    | IVPIL |  | MALUP |  |
 
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YPPH. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
