@@ -157,12 +157,12 @@ The table belows give an estimated time **in minutes** from **Initial waypoint**
 === "Q27"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
     | -----------------| -------------| -------------- | -------|
-    | IVPIL |  | MALUP |  |
-    | IVPIL |  | MALUP |  |
-    | IVPIL |  | MALUP |  |
-    | IVPIL |  | MALUP |  |
-    | IVPIL |  | MALUP |  |
-    | IVPIL |  | MALUP |  |
+    | IVPIL | TODOS | MALUP | 1 |
+    | IVPIL | IPGER | MALUP | 2 |
+    | IVPIL | DUKOR | MALUP | 2 |
+    | IVPIL | AGTOD | MALUP | 3 |
+    | IVPIL | BEMPI | MALUP | 4 |
+    | IVPIL | TEKUD | MALUP | 5 |
 
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YPPH. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
