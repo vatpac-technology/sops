@@ -10,7 +10,7 @@
 | ----------------------- | --------- | ---------------- | --------- |
 | **Bucholz ADC**	| **Bucholz Tower**	| **126.200** | **KWA_TWR**	| 
 | **Bucholz SMC**	| **Bucholz Ground**	| **121.900** | **KWA_GND**	| 
-| **Bucholz ATIS**	| **PKWA_ATIS** | 	|  	**119.500**| 
+| **Bucholz ATIS**	| | **119.500** | **PKWA_ATIS** | 
 
 ## Overview
 Any controller from VATPAC or [Oakland ARTCC](https://oakartcc.org/) having the requisite Global Controller Administration Policy (GCAP) rating is authorized to control PKWA Ground and Tower positions.
