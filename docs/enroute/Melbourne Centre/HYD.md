@@ -135,6 +135,7 @@ The table belows give an estimated time **in minutes** from **Initial waypoint**
 
 === "Q41,Q10,Q32 and Q27"
     | CDO point | NALAR |URGEX | TEKUD | IVPIL | 
+    | ----------| ------| ---- | -------| ----- |
     | URGEX	| +2 | +0 |	+1 | +6 |
     | TEKUD	| +3 | +1 | +0 | +5 |
     | BEMPI	| +4 | +2 |	+1 | +4 |
