@@ -134,15 +134,15 @@ The table belows give an estimated time **in minutes** from **Initial waypoint**
     | BUNGL | KINAB | MALUP | 7 |
 
 === "Q41,Q10,Q32 and Q27"
-    | CDO point | NALAR |URGEX TEKUD IVPIL | 
-    URGEX	+2	+0	+1	+6
-    TEKUD	+3	+1	+0	+5
-    BEMPI	+4	+2	+1	+4
-    AGTOD	+5	+3	+2	+3
-    DUKOR	+6	+4	+3	+2
-    IPGER	+7	+5	+4	+2
-    TODOS	+9	+7	+6	+1
-    IVPIL	+11	+9	+8	+0  
+    | CDO point | NALAR |URGEX | TEKUD | IVPIL | 
+    | URGEX	| +2 | +0 |	+1 | +6 |
+    | TEKUD	| +3 | +1 | +0 | +5 |
+    | BEMPI	| +4 | +2 |	+1 | +4 |
+    | AGTOD	| +5 | +3 |	+2 | +3 |
+    | DUKOR	| +6 | +4 |	+3 | +2 |
+    | IPGER	| +7 | +5 |	+4 | +2 |
+    | TODOS	| +9 | +7 |	+6 | +1 |
+    | IVPIL | +11 |	+9 | +8	| +0 | 
 
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YPPH. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
