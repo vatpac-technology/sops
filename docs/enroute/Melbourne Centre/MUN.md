@@ -54,6 +54,21 @@ OXL is reponsible for issuing STAR clearances, initial sequencing, and initial d
 GTH is responsible for issuing STAR Clearances for Jets.
 
 ### Sequencing in to YMML
+
+## Predictable Sequencing
+Predictable sequencing alllows for ATC to re-route aircraft via pre-defined waypoints off major airways to create certain time delay. 
+
+Aircraft arriving into Melbourne via **Q29** can use four additional waypoints to the south of the airway. Aircraft should continue to comply with STAR speed and height restrictions unless explicitly cancelled by ATC.
+
+=== "Q29"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
+    | -----------------| -------------| -------------- | -------|
+    | ANLID | DOVEX | BULLA | 2 |
+    | ANLID | TOPUL | BULLA | 4 |
+    | ANLID | UNSIG | BULLA | 6 |
+    | ANLID | NILEV | BULLA | 8 | 
+
+
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YMML. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
 
