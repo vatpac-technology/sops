@@ -32,7 +32,7 @@ The Primary Communication Method for NWWW_CTR is Voice.
 
 [CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
 
-The CPDLC Station Code is `NWWWC`.
+The CPDLC Station Code is `NWXX`.
 
 !!! tip
     Even though NWWW_CTR's Primary Communication Method is Voice, CPDLC may be used for Overfliers.

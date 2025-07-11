@@ -25,6 +25,6 @@ The Honiara FIR does not have any local ATS. All ATS above `F245` is provided by
 <figure markdown>
 ![AGGG Airspace diagram](img/AGGG_airspace.png){ width="700" }
   <figcaption>AGGG airspace diagram</figcaption>
-</figure
+</figure>
 
 Airspace below `F245` is classified as Class G.
