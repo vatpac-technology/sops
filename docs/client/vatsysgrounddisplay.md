@@ -29,4 +29,6 @@ All surface radar targets now use an arrow head symbol to indicate aircraft dire
 | **Yellow** | Correlated arrivals |
 | **Orange** | Uncorrelated tags |
 
-![vatSys Ground Display](../img/vatsysgrounddisplay.png)
+<figure markdown>
+![vatSys Ground Display](img/vatsysgrounddisplay.png){ width="800" }
+</figure>
