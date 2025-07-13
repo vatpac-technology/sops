@@ -103,7 +103,11 @@ Some major enroute positions do not use CPDLC as a primary means of communicatio
 | TSN | YTSN | **CPDLC** |
 | FLD | YFLD | **CPDLC** |
 | IND | YIND | **CPDLC** |
+| AYPM | AYPM | Voice |
 | NFFF | NFFF | **CPDLC** |
+| NFFN_CTR | NFFJ | Voice |
+| NVVV_CTR | NVVV | Voice |
+| NWWW_CTR | NWXX | Voice |
 | NZZO | NZZO | **CPDLC** |
 | KZAK | KZAK | **CPDLC** |
 
@@ -141,7 +145,7 @@ Left-clicking the number next to the text box cycles forward through up to five 
 
 ### Handing over Aircraft
 
-#### ENR/OCN
+#### ENR/Oceanic
 
 When transferring between enroute or oceanic sectors, ATC should right click on the aircraft which will bring up a handover window. The controller should select the next ATC unit to transfer the aircraft.
 
