@@ -4,7 +4,9 @@ title: MAESTRO
 
 --8<-- "includes/abbreviations.md"
 
-# MAESTRO
+!!! note
+    The current implementation of MAESTRO has several shortcomings. A native vatSys plugin is in development to address these issues.
+
 MAESTRO (pronounced my-stro), also and otherwise known as Traffic Flow Management System (TFMS), is an arrival manager used to generate a sequence of aircraft inbound to an airport from multiple directions.
 
 MAESTRO can be viewed by accessing the website [here](https://maestro.vatpac.org) or via the link within vatSys.
