@@ -99,7 +99,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#frequency-management" class="md-skip">
+        <a href="#enroute" class="md-skip">
           Skip to content
         </a>
       
@@ -6029,6 +6029,24 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#enroute" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enroute
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#terminal-area" class="md-nav__link">
+    <span class="md-ellipsis">
+      Terminal Area
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#frequency-management" class="md-nav__link">
     <span class="md-ellipsis">
       Frequency Management
@@ -6038,18 +6056,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#workload" class="md-nav__link">
+  <a href="#remarks" class="md-nav__link">
     <span class="md-ellipsis">
-      Workload
+      Remarks
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#remarks" class="md-nav__link">
+  <a href="#workload-management" class="md-nav__link">
     <span class="md-ellipsis">
-      Remarks
+      Workload Management
     </span>
   </a>
   
@@ -6420,6 +6438,24 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#enroute" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enroute
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#terminal-area" class="md-nav__link">
+    <span class="md-ellipsis">
+      Terminal Area
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#frequency-management" class="md-nav__link">
     <span class="md-ellipsis">
       Frequency Management
@@ -6429,18 +6465,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#workload" class="md-nav__link">
+  <a href="#remarks" class="md-nav__link">
     <span class="md-ellipsis">
-      Workload
+      Remarks
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#remarks" class="md-nav__link">
+  <a href="#workload-management" class="md-nav__link">
     <span class="md-ellipsis">
-      Remarks
+      Workload Management
     </span>
   </a>
   
@@ -6464,46 +6500,88 @@
 
   <h1>Extending</h1>
 
-<p>As per <a href="https://vatpac.org/publications/policies" target="new">VATPAC Air Traffic Services Policy</a>, Enroute controllers are permitted to <em>extend</em> to any adjacent sector. Controllers must ensure that when extending, they update their visibility points and have sufficient visibility coverage to cover the <strong>entirety</strong> of all sectors under their jurisdiction. If this is not possible (due to range limitations), that sector <strong>must not be extended</strong>. </p>
-<p><abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> controllers operating the <strong>Coral</strong> or <strong>Tasmania</strong> TMAs may elect to extend to the adjacent <abbr title="Terminal Maneuvering Area">TMA</abbr> (e.g. <abbr title="Hobart Approach">HBA</abbr> extend to <abbr title="Launceston Approach">LTA</abbr>) at their discretion.</p>
+<p>Extended coverage allows a controller to provide wider coverage to pilots during periods of low demand. When offering extended coverage, controllers provide services beyond the boundaries of their primary position, in accordance with the <a href="https://vatpac.org/publications/policies" target="new">VATPAC Air Traffic Services Policy</a>.</p>
+<p>Extending to adjacent sectors <strong>must</strong> be done with consideration of the controllers' <a href="#workload-management">workload</a> to ensure that the quality of service being offered is not degraded. If, at any time, a controller feels that their ability to provide a quality service is being compromised by the additional workload from the secondary sectors, they must cease providing coverage to secondary sectors to reduce workload.</p>
+<h2 id="enroute">Enroute</h2>
+<p>Enroute controllers are permitted to <em>extend</em> to any <strong>four additional sectors</strong>, provided that the resulting pairing forms a <strong>single, continuously adjacent group</strong>. Controllers with at least 150 hours as a C1 may extend to any <strong>six additional sectors</strong>.</p>
+<p>In the example below, <strong><abbr title="Melbourne (Benalla) Centre">BLA</abbr></strong> has elected to extend to <strong><abbr title="Melbourne (Tailem Bend) Centre">TBD</abbr></strong>, <strong><abbr title="Melbourne (Gundagai) Centre">GUN</abbr></strong>, <strong><abbr title="Melbourne (Mungo) Centre">MUN</abbr></strong>, and <strong><abbr title="Melbourne (Wollongong) Centre">WOL</abbr></strong>. The resulting group of sectors forms a single, continuously adjacent group.</p>
+<figure>
+<p><a class="glightbox" href="../img/extensionpolicy_continuous_example.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="A compliant group of extended sectors" src="../img/extensionpolicy_continuous_example.png" width="800" /></a>
+  </p>
+<figcaption>A compliant group of extended sectors</figcaption>
+</figure>
+<p>However, should <strong><abbr title="Melbourne (Benalla) Centre">BLA</abbr></strong> they wish to drop <strong><abbr title="Melbourne (Mungo) Centre">MUN</abbr></strong>, they are no longer able to extend to <strong><abbr title="Melbourne (Tailem Bend) Centre">TBD</abbr></strong>, as the sectors no longer form a single, continuously adjacent group.</p>
+<figure>
+<p><a class="glightbox" href="../img/extensionpolicy_noncontinuous_example.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="A non-compliant group of extended sectors" src="../img/extensionpolicy_noncontinuous_example.png" width="800" /></a>
+  </p>
+<figcaption>A non-compliant group of extended sectors</figcaption>
+</figure>
+<p>Controllers must ensure that when extending, they update their visibility points and have sufficient visibility coverage to cover the <strong>entirety</strong> of all sectors under their jurisdiction. If this is not possible (due to range limitations), that sector <strong>must not be extended</strong>. </p>
+<h2 id="terminal-area">Terminal Area</h2>
+<p><abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> controllers operating the <strong><a href="../../terminal/coral">Coral</a></strong> or <strong><a href="../../terminal/tassie">Tasmania</a></strong> TMAs may elect to extend to the adjacent <abbr title="Terminal Maneuvering Area">TMA</abbr> (e.g. <abbr title="Hobart Approach">HBA</abbr> extend to <abbr title="Launceston Approach">LTA</abbr>) at their discretion.</p>
 <h2 id="frequency-management">Frequency Management</h2>
-<p>When providing extended coverage, controllers must have all the frequencies of the sectors they are extending to; <strong>active</strong>, and <strong>cross-coupled</strong>. </p>
-<p>Here are tips to help manage frequencies when extending:</p>
-<ul>
-<li>Advise the aircraft to transfer frequencies at specific times/situations, such as<ul>
-<li><em>"at time xx, contact me xxx.xx"</em></li>
-<li><em>"at waypoint ABABI, contact me xxx.xx"</em></li>
-<li><em>"at top of descent, contact me xxx.xx"</em></li>
-</ul>
-</li>
-<li>Include which frequency the aircraft is currently on by placing the 3 letter sector designator in the label.<ul>
-<li>An aircraft on the <abbr title="Melbourne (Tailem Bend) Centre">TBD</abbr> frequency would have <code>TBD</code> in the label.</li>
-<li>An aircraft on the <abbr title="Brisbane (Armidale) Centre">ARL</abbr> frequency would have <code>ARL</code> in the label.</li>
-</ul>
-</li>
-<li><em>Optional:</em> When transferring an aircraft to its final frequency in your airspace, you can remove the frequency designator from the label</li>
-<li><em>Optional:</em> Prior to handing off an aircraft to another ENR sector that is extending to at least 2 sectors that the aircraft will fly through, put the frequency designator of the frequency you are telling the aircraft to call in the label. eg, controlling <strong><abbr title="Melbourne (Benalla) Centre">BLA</abbr></strong>, transferring aircraft bound for YPAD to <strong><abbr title="Melbourne (Mungo) Centre">MUN</abbr></strong>, who is also extending to <strong><abbr title="Melbourne (Tailem Bend) Centre">TBD</abbr></strong>: Put <code>MUN</code> in label prior to handoff.</li>
-</ul>
-<h2 id="workload">Workload</h2>
-<p>Extending to adjacent sectors <strong>must</strong> be done with traffic levels and complexity in mind. It is very easy to start controlling to several adjacent sectors when traffic is calm, then it slowly builds up without you noticing, and all of a sudden everyone is receiving a sub-par service. A great way to see this coming is from your <strong>Preactive</strong> and <strong>Announced</strong> strip windows. The more full they are, the busier you'll be in the next 10-60 minutes.</p>
-<p>If you find yourself actively having to zoom in to certain areas, and not seeing large areas of your airspace for extended periods, <strong>relinquish some airspace</strong>.<br />
-If you find yourself barely having any time to think in between radio calls, <strong>relinquish some airspace</strong>.<br />
-If the frequency is constantly getting stepped on by multiple aircraft, <strong>relinquish some airspace</strong>.  </p>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>Stay vigilant for aircraft in your airspace taxiing without calling up. Many aerodromes have Radar/<abbr title="Automatic Dependant Surveillance - Broadcast">ADSB</abbr> on the ground, and this can be used in conjunction with the ground radar to check for aircraft movements. If you zoom right in to a Radar/<abbr title="Automatic Dependant Surveillance - Broadcast">ADSB</abbr> return on the ground at an aerodrome you are top down to, and it has a velocity vector, time to send a contact me!</p>
+<p>When providing extended coverage, controllers must have all the frequencies of the sectors they are extending to <strong>active</strong> and <strong>cross-coupled</strong>. As aircraft pass from one enroute sector to another they must be instructed to change frequency to remain in VHF coverage.</p>
+<div class="admonition phraseology">
+<p class="admonition-title">Phraseology</p>
+<p><strong><abbr title="Brisbane (Mt Isa) Centre">ISA</abbr></strong>: "AAA225, contact me on 120.15."</p>
+<p><strong><abbr title="Brisbane (Armidale) Centre">ARL</abbr></strong>: "FJI923, at waypoint ABARB, contact me on 124.95."</p>
+<p><strong><abbr title="Melbourne (Hyden) Centre">HYD</abbr></strong>: "MXD194, at time 30, contact me on 134.00."    </p>
 </div>
+<p>Keep track of the frequency on which an aircraft is monitoring by placing the three letter sector designator in the label. Once an aircraft receives their final frequency change, you can choose to remove the frequency designator from the label.</p>
+<figure>
+<p><a class="glightbox" href="../img/freqmanagement.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="An aircraft monitoring the 'BLA' frequency." src="../img/freqmanagement.png" width="800" /></a>
+  </p>
+<figcaption>An aircraft monitoring the 'BLA' frequency.</figcaption>
+</figure>
+<p>Controllers may also assist others by putting the frequency designator in the label prior to handing off an aircraft to another ENR controller. eg, controlling <strong><abbr title="Melbourne (Benalla) Centre">BLA</abbr></strong>, transferring aircraft bound for YPAD to <strong><abbr title="Melbourne (Mungo) Centre">MUN</abbr></strong>, who is also extending to <strong><abbr title="Melbourne (Tailem Bend) Centre">TBD</abbr></strong>: Put <code>MUN</code> in label prior to handoff.</p>
 <h2 id="remarks">Remarks</h2>
-<p>When extending, include in your remarks, <em>"Extending to (Sector) (frequency), (Sector) (frequency), etc.</em> This will have the benefit of:<br />
-- Helping pilots be aware of whether or not they are in your airspace, so they are less likely to start taxiing without a clearance or traffic statement<br />
-- Helping pilots know which frequency to use<br />
-- If entered in this format, display the extensions on certain VATSIM traffic coverage apps.</p>
+<p>When extending, include in your remarks, <em>"Extending to (Sector) (frequency), (Sector) (frequency), etc.</em> .</p>
 <div class="admonition example">
 <p class="admonition-title">Example</p>
 <p>Melbourne Centre<br />
-Extending to <abbr title="Melbourne (Huon) Centre">HUO</abbr> 122.6, <abbr title="Melbourne (Mungo) Centre">MUN</abbr> 132.6, <abbr title="Melbourne (Gundagai) Centre">GUN</abbr> 128.4<br />
-Charts - vats.im/pac/charts<br />
+<strong>Extending to <abbr title="Melbourne (Huon) Centre">HUO</abbr> 122.6, <abbr title="Melbourne (Mungo) Centre">MUN</abbr> 132.6, <abbr title="Melbourne (Gundagai) Centre">GUN</abbr> 128.4</strong><br />
+Airspace, Charts, Tools - vats.im/pac/pilot<br />
 ATC feedback - helpdesk.vatpac.org</p>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>Coral Approach<br />
+<strong>Extending to <abbr title="Rockhampton Approach">RKA</abbr> 123.75</strong><br />
+Airspace, Charts, Tools - vats.im/pac/pilot<br />
+ATC feedback - helpdesk.vatpac.org</p>
+</div>
+<p>This will have the benefit of: </p>
+<ul>
+<li>Helping pilots be aware of whether or not they are in your airspace, so they are less likely to start taxiing without a clearance or traffic statement  </li>
+<li>Helping pilots know which frequency to use.</li>
+</ul>
+<p>Proper frequency management and remarks formatting also ensures that extended sectors are displayed correctly on coverage maps.</p>
+<ul>
+<li>The <a href="https://map.vatpac.org/static/map.html">VATPAC Coverage map</a> will display sectors based on controllers' active and cross-coupled frequencies.</li>
+<li><a href="https://map.vatsim.net">VATSIM Radar</a> will display sectors listed in controllers' remarks, where the formatting above has followed.</li>
+</ul>
+<h2 id="workload-management">Workload Management</h2>
+<p>It is very easy to start controlling to several adjacent sectors when traffic is calm, have traffic quietly build up until, until all of a sudden, the workload exceeds ones' capacity and becomes overwhelming. This situation is often caused by <em>'overextending'</em>: there is simply too much traffic in the area/on frequency for a single controller to manage.</p>
+<p>Overextending diminishes the level of service provided to pilots, and all-in-all, makes pilots not want to fly online. </p>
+<p>Controllers should always be proactively considering their workload and monitoring for signs that it may increase shortly, such as:</p>
+<ul>
+<li>Increasing numbers of strips in the Preactive window; </li>
+<li>Increasing numbers of strips in the Announced window; </li>
+<li>A significant number of inbound, announced aircraft about to enter the airspace; or</li>
+<li>Unusual flight plans, movements, or other requests that will demand a bit of extra brain-power and attention.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It is considered bad practice for a controller to not relinquish airspace if:</p>
+<ul>
+<li>They have more than 15 Jurisdiction (Green) aircraft; or</li>
+<li>They have more than 10 Announced (Blue) tracks</li>
+</ul>
+</div>
+<p>Other signs a controller is overextending may include aircraft constantly stepping on each other, or missing radio calls; and if the controller finds themselves not having time to think, or forgetting where aircraft are located when they call up.</p>
+<div class="admonition warning important">
+<p class="admonition-title">Warning</p>
+<p>It is significantly easier to recognise that you are about to be busy and to do something about it, than it is to realise that you are over capacity and try to fix it. <strong>Don't wait until you're overwhelmed</strong>: recognise the signs early and relinquish airspace <em>before</em> things become too much to handle.</p>
 </div>
 
 
@@ -6525,7 +6603,7 @@ ATC feedback - helpdesk.vatpac.org</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 4, 2025 05:18:15 UTC">February 4, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="July 10, 2025 06:29:07 UTC">July 10, 2025</span>
   </span>
 
     
