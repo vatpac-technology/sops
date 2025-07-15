@@ -44,6 +44,9 @@ Non-jet Aircraft planned via **LENVU**, **PUMRY**, **OLMAM**, **SOLUS**, **OPEGA
 
 Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
+!!! phraseology
+    **PH ACD**: "RXA2357, cleared to YESP via amended LENVU thence direct ESP, LENVU1 departure, climb via SID A050, squawk 7172, departure frequency 123.6"
+
 #### Off Mode Departures
 !!! info "Definition"
     **Off Mode:** Aircraft departing from a runway not prescribed as active for departures on the ATIS. For example, a heavy aircraft planned via **HECTO** that operationally requires Runway 03 for departure during the Northeast Plan Mode.
