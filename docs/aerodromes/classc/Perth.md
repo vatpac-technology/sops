@@ -73,25 +73,24 @@ There are no helipad facilities at YPPH. Helicopters should be issued an airways
 When traffic permits, VFR scenic flights over Perth are cleared via VICTOR 65 route (`CTE-PCTY-HKE`). Coordination with PH TCU is required prior to issuing this clearance, see [ACD to PH TCU](#acd-to-ph-tcu).
 
 ## ATIS
-### Operational Info
-#### ACD Pushback Requests
-When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) procedure, the OPR INFO shall include:  
-`ALL DEPARTURES MUST REQUEST PUSH BACK ON 118.55`  
+### Approach Expectation
+With the [Southwest Plan](#runway-modes) active, the ATIS shall notify `EXP ILS APCH`.
 
-### Approach Type
-With the [Southwest Plan](#southwest-plan) active, the ATIS shall notify `EXP ILS APCH`.
+With the [Northeast Plan](#northeast-plan) active, the ATIS shall notify `EXP ILS APCH` when:
 
-With the [Northeast Plan](#northeast-plan) active, the ATIS shall notify `EXP ILS APCH` only in the following conditions:
-
-- By night; or  
-- Cloud base of `A032` or below
+- Cloud base of `A032` or below, or:
+- By night.
 
 ### Runway Mode formatting
 | Mode | ATIS Runway information |
 | ----------------| --------- |
-| 24A/21AD   | 21 and RWY 24 FOR ARR, RWY 21 FOR DEP. |
-| 03AD/06D   | 03 FOR ARR. RWY 03 FOR DEP VIA OTLED, AVNEX, OLMAM, SOLUS AND OPEGA. RWY 06 FOR ALL OTHER DEP. |
+| Southwest Plan (24A/21AD) | 21 and RWY 24 FOR ARR, RWY 21 FOR DEP. |
+| Northeast Plan (03AD/06D) | 03 FOR ARR. RWY 03 FOR DEP VIA OTLED, AVNEX, OLMAM, SOLUS AND OPEGA. RWY 06 FOR ALL OTHER DEP. |
 
+### Operational Info
+#### ACD Pushback Requests
+When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) procedure, the OPR INFO shall include:  
+`ALL DEPARTURES MUST REQUEST PUSH BACK ON 118.55`  
 
 ## Workload Management
 ### Pushback Requests on ACD
