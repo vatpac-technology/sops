@@ -113,7 +113,7 @@ Aircraft arriving into Melbourne via **Q346** and **Q35** can use four additiona
     | IGMIL | IBOVU | DORSU | 8 |
     
 <figure markdown>
-![Q346 and Q35 Waypoints and Delays](img/DORSU Timings.png){ width="500" }
+![Q346 and Q35 Waypoints and Delays](../img/DORSU Timings.png){ width="500" }
   <figcaption> Q346 and Q35 Waypoints and Delays </figcaption>
 </figure>
 

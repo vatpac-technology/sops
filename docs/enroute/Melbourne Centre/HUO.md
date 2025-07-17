@@ -81,7 +81,7 @@ Aircraft arriving into Melbourne via **H215**, **P753**, **L508** and **M625** c
     | AKTAM | OTGUN | RAZZI | 8 |
 
 <figure markdown>
-![M625 and H215 Waypoints and Delays](img/Razzi Timings.png){ width="500" }
+![M625 and H215 Waypoints and Delays](../img/Razzi Timings.png){ width="500" }
   <figcaption> M625 and H215 Waypoints and Delays </figcaption>
 </figure>
 

@@ -69,7 +69,7 @@ Aircraft arriving into Melbourne via **Q29** can use four additional waypoints t
     | ANLID | NILEV | BULLA | 8 | 
 
 <figure markdown>
-![Q29 Waypoints and Delays](img/Bulla Timings.png){ width="500" }
+![Q29 Waypoints and Delays](../img/Bulla Timings.png){ width="500" }
   <figcaption> Q29 Waypoints and Delays </figcaption>
 </figure>
 
