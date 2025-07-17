@@ -145,6 +145,9 @@ Predictable Sequencing is an action to delay aircraft via rerouting aircraft via
     **ARL:** "QFA11, recleared ADLIV then direct RIKNI, rest of clearance unchanged, FL130"
     **QFA11:** "Cleared ADLIV RIKNI, continue descent FL130"
 
+!!! tip
+    Refer to [Enroute](../enroute/) to see which airways currently use it.
+
 
 ## Holding
 Holding is the final delaying action, useful for when a delay of 6 minutes or more is required. Published Holds exist on common useful holding fixes all around Australia, usually either at the Feeder Fix, or a waypoint before the Feeder Fix. Locations of Published Holds can be found on ERC Charts.
