@@ -115,8 +115,30 @@ Velocity Vector: **1 MIN**
 Short Route Probe: **OFF** (Toggled on for non-identified tracks)  
 History Trails: **5**  
 FPASD: **ON**  
-Extended Labels: **OFF** (Toggled on for aircraft not arriving at main airport)  
-### Info
-**AIS DISPLAY**
+Extended Labels: **OFF** (Toggled on for aircraft not arriving at main airport) 
+
+### Ground Window
+VATPAC has altered the vatSys Ground Window to use symbols which differ from those in the vatSys documentation, with the aim of providing controllers with clearer, more informative surface radar tags.
+
+The assigned departure runway appears at the top of each aircraft's surface radar tag. All surface radar targets use an arrow head symbol to indicate aircraft direction. The symbol's size reflects the aircraft's wake turbulence category.
+
+The target is either filled or hollow, depending on whether the aircraft is squawking Mode C.
+
+| Symbol Type | Aircraft Transponder Mode |
+|-------------|---------|
+| **Filled arrow head** | Mode C |
+| **Hollow arrow head** | Standby |
+
+The colour of the target reflects whether the aircraft is an arrival or departure.
+
+| Color | Meaning |
+|-------|---------|
+| **Blue** | Correlated departures |
+| **Yellow** | Correlated arrivals |
+| **Orange** | Uncorrelated tags |
+
+<figure markdown>
+![vatSys Ground Display](img/vatsysgrounddisplay.png){ width="450" }
+</figure>
 
 </details>
