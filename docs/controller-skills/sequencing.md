@@ -146,7 +146,7 @@ Predictable Sequencing is an action to delay aircraft via rerouting aircraft via
     **QFA11:** "Cleared ADLIV RIKNI, continue descent FL130"
 
 !!! tip
-    Refer to [Enroute](../enroute/) to see which airways currently use it.
+    Refer to [Enroute](../enroute/) to see which airways and parent sector currently use it.
 
 
 ## Holding

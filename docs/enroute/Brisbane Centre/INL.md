@@ -152,6 +152,14 @@ The table belows give an estimated time **in minutes** from **Initial waypoint**
     | RULGU | ADKEK | OMKAK | 8 |
     | RULGU | OTBOL | OMKAK | 11 |
 
+
+<figure markdown>
+![H66 and H252 Waypoints and Delays](xyz){ width="500" }
+  <figcaption> H66 and H252 Waypoints and Delays </figcaption>
+</figure>
+
+
+
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YBBN. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
 
