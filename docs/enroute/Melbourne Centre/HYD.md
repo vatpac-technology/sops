@@ -147,7 +147,7 @@ The table belows give an estimated time **in minutes** from **Initial waypoint**
 
 
 <figure markdown>
-![Q10, Q32, Q27, Z38 Waypoints and Delays](../img/Perth Timings.png){ width="500" }
+![Q10, Q32, Q27, Z38 Waypoints and Delays](img/cdo_perth.png){ width="500" }
   <figcaption> Q10, Q32, Q27, Z38 Waypoints and Delays </figcaption>
 </figure>
 

@@ -148,7 +148,7 @@ The table belows give an estimated time **in minutes** from **Initial waypoint**
     | PULGA | GORTA | RIKNI | 8 | 
 
 <figure markdown>
-![N774 and M636 Waypoints and Delays](../img/N774 and M636 Delay Timings.png){ width="500" }
+![N774 and M636 Waypoints and Delays](img/cdo_n774_m636.png){ width="500" }
   <figcaption>N774 and M636 Waypoints and Delays </figcaption>
 </figure>
 

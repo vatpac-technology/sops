@@ -154,7 +154,7 @@ The table belows give an estimated time **in minutes** from **Initial waypoint**
 
 
 <figure markdown>
-![H66 and H252 Waypoints and Delays](../img/H252 H66 Delay Timings.png){ width="500" }
+![H66 and H252 Waypoints and Delays](img/cdo_h66_h252.png){ width="500" }
   <figcaption> H66 and H252 Waypoints and Delays </figcaption>
 </figure>
 
