@@ -138,6 +138,14 @@ Vectoring aircraft is best to achieve anywhere between a 2 minute and a 6 minute
 !!! note
     The times shown at waypoints when displaying an aircraft's route are not completely accurate. They are calculated based on a combination of the aircraft's ***planned TAS, Forecast GRIB winds, and estimated climb/descent profiles***. Times shown on the BRL anchored from an aircraft to a waypoint are based on the aircraft's ***current ground speed***. As a general rule of thumb, a jet aircraft will tend to add approximately 1-2 minutes to a BRL time on descent. A propeller aircraft will not add any time on descent. Both the route time and the BRL time can provide situational awareness and more info, but use whatever is appropriate for the situation.
 
+## Predictable Sequencing 
+Predictable Sequencing is an action to delay aircraft via rerouting aircraft via pre-defined waypoints off major airways to create certain time delays while also allowing a continuous descent into the airport.
+
+!!! phraseology
+    **ARL:** "QFA11, recleared ADLIV then direct RIKNI, rest of clearance unchanged, FL130"
+    **QFA11:** "Cleared ADLIV RIKNI, continue descent FL130"
+
+
 ## Holding
 Holding is the final delaying action, useful for when a delay of 6 minutes or more is required. Published Holds exist on common useful holding fixes all around Australia, usually either at the Feeder Fix, or a waypoint before the Feeder Fix. Locations of Published Holds can be found on ERC Charts.
 
