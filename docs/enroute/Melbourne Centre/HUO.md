@@ -80,6 +80,11 @@ Aircraft arriving into Melbourne via **H215**, **P753**, **L508** and **M625** c
     | AKTAM | OSEMI | RAZZI | 6 |
     | AKTAM | OTGUN | RAZZI | 8 |
 
+<figure markdown>
+![M625 and H215 Waypoints and Delays](img/Razzi Timings.png){ width="500" }
+  <figcaption> M625 and H215 Waypoints and Delays </figcaption>
+</figure>
+
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YMML. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
 

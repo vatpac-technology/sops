@@ -68,6 +68,10 @@ Aircraft arriving into Melbourne via **Q29** can use four additional waypoints t
     | ANLID | UNSIG | BULLA | 6 |
     | ANLID | NILEV | BULLA | 8 | 
 
+<figure markdown>
+![Q29 Waypoints and Delays](img/Bulla Timings.png){ width="500" }
+  <figcaption> Q29 Waypoints and Delays </figcaption>
+</figure>
 
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YMML. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.

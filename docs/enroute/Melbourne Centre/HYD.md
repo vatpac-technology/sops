@@ -145,6 +145,12 @@ The table belows give an estimated time **in minutes** from **Initial waypoint**
     | TODOS	| +9 | +7 |	+6 | +1 |
     | IVPIL | +11 |	+9 | +8	| +0 | 
 
+
+<figure markdown>
+![Q10, Q32, Q27, Z38 Waypoints and Delays](img/Perth Timings.png){ width="500" }
+  <figcaption> [Q10, Q32, Q27, Z38 Waypoints and Delays </figcaption>
+</figure>
+
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YPPH. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
 

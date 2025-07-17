@@ -99,19 +99,24 @@ Aircraft arriving into Melbourne via **Q346** and **Q35** can use four additiona
 === "Q346"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
     | -----------------| -------------| -------------- | -------|
-    | UPNAP | IGPEB | CANTY | 1 |
-    | UPNAP | ONOPO | CANTY | 3 |
-    | UPNAP | URGUL | CANTY | 5 |
-    | UPNAP | IBOVU | CANTY | 7 | 
+    | UPNAP | IGPEB | DORSU | 1 |
+    | UPNAP | ONOPO | DORSU | 3 |
+    | UPNAP | URGUL | DORSU | 5 |
+    | UPNAP | IBOVU | DORSU | 7 | 
 
 === "Q35"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
     | -----------------| -------------| -------------- | -------|
-    | IGMIL | IGPEB | CANTY | 2 |
-    | IGMIL | ONOPO | CANTY | 4 |
-    | IGMIL | URGUL | CANTY | 6 |
-    | IGMIL | IBOVU | CANTY | 8 |
+    | IGMIL | IGPEB | DORSU | 2 |
+    | IGMIL | ONOPO | DORSU | 4 |
+    | IGMIL | URGUL | DORSU | 6 |
+    | IGMIL | IBOVU | DORSU | 8 |
     
+<figure markdown>
+![Q346 and Q35 Waypoints and Delays](img/DORSU Timings.png){ width="500" }
+  <figcaption> Q346 and Q35 Waypoints and Delays </figcaption>
+</figure>
+
 
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YMML. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
