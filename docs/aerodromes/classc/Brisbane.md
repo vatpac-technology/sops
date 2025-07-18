@@ -66,9 +66,12 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 | 1 - SODPROPS    | 19R       | 01R        |
 | 2 - 19 PROPS    | 19L & 19R | 19L & 19R  |
 | 3 - 01 PROPS    | 01L & 01R | 01L & 01R  |
+| *Curfew (RRO)   | 19L       | 01R        |
+
+*Permitted between the hours of 2200 and 0600 Local. If the pilot does not want to participate in curfew mode operations, the controller must accommodate this request.
 
 !!! note
-    The SODPROPS mode is most suitable for Noise Abatement. The PROPS modes are most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Panic Stations.
+    The SODPROPS and RRO mode is most suitable for Noise Abatement. The PROPS modes are most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Panic Stations.
 
 When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time
 
@@ -115,10 +118,13 @@ Non-Jet aircraft, and aircraft that cannot accept a Procedural SID, shall be ass
 
 ## ATIS
 ### Operational Info
-When parallel runways are used for departures, the ATIS OPR INFO shall include:  
-`INDEPENDENT PARALLEL DEPARTURES IN PROG`  
-When SODPROPS are in operation, the ATIS OPR INFO shall include:  
-`SIMULTANEOUS OPPOSITE DIRECTION PARALLEL RUNWAY OPERATIONS IN PROG`
+The Operational Information field should be updated based on the runway mode in use, as per the table below:
+
+| Runway Mode | OPR INFO Field |
+| ---------- | -------------- |
+| 19 PROPS<br>01 PROPS | `INDEPENDENT PARALLEL DEPARTURES IN PROG` |
+| SODROPS | `SIMULTANEOUS OPPOSITE DIRECTION PARALLEL RUNWAY OPERATIONS IN PROG` |
+| Curfew Mode | AEST: `CURFEW RWY NOMINATION. CURFEW IN OPERATION UNTIL TIME 2000.` |
 
 #### ACD Pushback Requests
 When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) procedure, the OPR INFO shall include:  
