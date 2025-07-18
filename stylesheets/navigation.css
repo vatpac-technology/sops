@@ -25,7 +25,7 @@
 }
 .md-tabs__item--active {
   border-bottom: 1.5px solid #b5b6b3;
-  color: #344767;
+  color: var(--md-primary-fg-color);
 }
 
 .md-tabs__link:hover {
