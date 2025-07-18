@@ -119,17 +119,17 @@ Non-jet aircraft for YSSY shall be assigned the **MEPIL** STAR.
     In this case, coordination should be conducted to ensure that both controllers agree and no additional conflicts are created as a result (particularly with aircraft inbound from the south/west).
 
 !!! phraseology
-    **ARL:** "RXA6417, amended tracking and STAR available"  
+    **ARL:** "RXA6417, amended tracking and STAR clearance available"  
     **RXA6417:** "RXA6417, go ahead"  
-    **ARL:** "RXA6417, recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain FL180"  
-    **RXA6417:** "Recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain FL180, RXA6417" 
+    **ARL:** "RXA6417, recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain F180"  
+    **RXA6417:** "Recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain F180, RXA6417" 
 
 ## Predictable Sequencing
-Predictable sequencing alllows for ATC to re-route aircraft via pre-defined waypoints off major airways to create certain time delay. 
+Predictable Sequencing is used instead of vectoring, and involves ATC re-routing aircraft via pre-defined waypoints positioned off major airways to provide a certain time delay.```
 
-Aircraft arriving into Sydney via **N774** and **M636** can use ten additional waypoints with 5 to the north and south of **N774** and one additional waypoint on **N774** for aircraft arriving via **PLUGA**. Aircraft should continue to comply with STAR speed and height restrictions unless explicitly cancelled by ATC.
+There are 10 Predictable Sequencing waypoints available for aircraft inbound YSSY via **N774** and **M636**. Aircraft must comply with STAR speed and level restrictions unless explicitly cancelled by ATC.
 
-The table belows give an estimated time **in minutes** from **Initial waypoint** via **CDO waypoint** to **Final waypoint**.
+The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. I.e., the estimated delay if an aircraft is re-routed via that CDO waypoint.
 === "N774"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
     | -----------------| -------------| -------------- | -------|

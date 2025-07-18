@@ -56,10 +56,11 @@ GTH is responsible for issuing STAR Clearances for Jets.
 ### Sequencing in to YMML
 
 ## Predictable Sequencing
-Predictable sequencing alllows for ATC to re-route aircraft via pre-defined waypoints off major airways to create certain time delay. 
+Predictable Sequencing is used instead of vectoring, and involves ATC re-routing aircraft via pre-defined waypoints positioned off major airways to provide a certain time delay.```
 
-Aircraft arriving into Melbourne via **Q29** can use four additional waypoints to the south of the airway. Aircraft should continue to comply with STAR speed and height restrictions unless explicitly cancelled by ATC.
+There are four Predictable Sequencing waypoints available for aircraft inbound YMML via **Q29**, located south of the airway. Aircraft must comply with STAR speed and level restrictions unless explicitly cancelled by ATC.```
 
+The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. I.e., the estimated delay if an aircraft is re-routed via that CDO waypoint.
 === "Q29"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
     | -----------------| -------------| -------------- | -------|

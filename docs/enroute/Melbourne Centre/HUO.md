@@ -60,10 +60,11 @@ WON is responsible for issuing STAR Clearances, sequencing, and descent.
 ### Sequencing in to YMML
 
 ## Predictable Sequencing
-Predictable sequencing alllows for ATC to re-route aircraft via pre-defined waypoints off major airways to create certain time delay. 
+Predictable Sequencing is used instead of vectoring, and involves ATC re-routing aircraft via pre-defined waypoints positioned off major airways to provide a certain time delay.```
 
-Aircraft arriving into Melbourne via **H215**, **P753**, **L508** and **M625** can use four additional waypoints perpendicular to both **M625** and **H215** airways. Aircraft should continue to comply with STAR speed and height restrictions unless explicitly cancelled by ATC.
+There are four Predictable Sequencing waypoints available for aircraft inbound YMML via **H215**, **P753**, **L508** and **M625**. These waypoints are perpendicular to **M625** and **H215**. Aircraft must comply with STAR speed and level restrictions unless explicitly cancelled by ATC.```
 
+The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. I.e., the estimated delay if an aircraft is re-routed via that CDO waypoint.
 === "M625"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
     | -----------------| -------------| -------------- | -------|

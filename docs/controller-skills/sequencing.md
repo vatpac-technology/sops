@@ -139,14 +139,16 @@ Vectoring aircraft is best to achieve anywhere between a 2 minute and a 6 minute
     The times shown at waypoints when displaying an aircraft's route are not completely accurate. They are calculated based on a combination of the aircraft's ***planned TAS, Forecast GRIB winds, and estimated climb/descent profiles***. Times shown on the BRL anchored from an aircraft to a waypoint are based on the aircraft's ***current ground speed***. As a general rule of thumb, a jet aircraft will tend to add approximately 1-2 minutes to a BRL time on descent. A propeller aircraft will not add any time on descent. Both the route time and the BRL time can provide situational awareness and more info, but use whatever is appropriate for the situation.
 
 ## Predictable Sequencing 
-Predictable Sequencing is an action to delay aircraft via rerouting aircraft via pre-defined waypoints off major airways to create certain time delays while also allowing a continuous descent into the airport.
+Predictable Sequencing involves ATC re-routing aircraft via pre-defined waypoints positioned off major airways to provide a certain time delay. This re-routing may be used instead of vectoring and provides flight crew with predictability of lateral path to plan their descent, in alignment with the principles of ICAO Continuous Descent Operations (CDO).
 
 !!! phraseology
-    **ARL:** "QFA11, recleared ADLIV then direct RIKNI, rest of clearance unchanged, FL130"
-    **QFA11:** "Cleared ADLIV RIKNI, continue descent FL130"
-
+    **ARL:** "QFA11, from NONID, recleared direct ADLIV thence RIKNI, rest of clearance unchanged"
+    **QFA11:** "From NONID, recleared direct ADLIV thence RIKNI, QFA11"
+!!! phraseology
+    **HUO:** "JST712, from AKTAM, recleared direct OSEMI thence RAZZI to rejoin the STAR"
+    **JST712:** "From AKTAM, recleared direct OSEMI thence RAZZI to rejoin the STAR, JST712"
 !!! tip
-    Refer to [Enroute](../enroute/) to see which airways and parent sector currently use it.
+    The airways and sectors with Predictable Sequencing waypoints available can be found in [Enroute](../enroute/).
 
 
 ## Holding
