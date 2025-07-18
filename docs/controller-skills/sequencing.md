@@ -142,15 +142,17 @@ Vectoring aircraft is best to achieve anywhere between a 2 minute and a 6 minute
 Predictable Sequencing involves ATC re-routing aircraft via pre-defined waypoints positioned off major airways to provide a certain time delay. This re-routing may be used instead of vectoring and provides flight crew with predictability of lateral path to plan their descent, in alignment with the principles of ICAO Continuous Descent Operations (CDO).
 
 !!! phraseology
-    **ARL:** "QFA11, from NONID, recleared direct ADLIV thence RIKNI, rest of clearance unchanged"
+    **ARL:** "QFA11, from NONID, recleared direct ADLIV thence RIKNI, rest of clearance unchanged"  
     **QFA11:** "From NONID, recleared direct ADLIV thence RIKNI, QFA11"
+	
 !!! phraseology
-    **HUO:** "JST712, from AKTAM, recleared direct OSEMI thence RAZZI to rejoin the STAR"
-    **JST712:** "From AKTAM, recleared direct OSEMI thence RAZZI to rejoin the STAR, JST712"
+    **HUO:** "JST712, from AKTAM, recleared direct OSEMI thence RAZZI to rejoin the STAR"  
+    **JST712:** "From AKTAM, recleared direct OSEMI thence RAZZI to rejoin the STAR, JST712" 
+	
 !!! tip
     Consider spelling the waypoints phonetically, to assist pilots identify the correct waypoint.
 
-Predictable Sequencing waypoints have been defined for aircraft inbound to Perth (in [HYD](../enroute/Melbourne_Centre/HYD) airspace), Brisbane (in [KEN](../enroute/Brisbane_Centre/KEN) airspace), Sydney (in [ARL](../enroute/Brisbane_Centre/ARL) airspace), and Melbourne (in [BLA](../enroute/Melbourne_Centre/BLA) and [HUO](../enroute/Melbourne_Centre/HUO) airspace). Information about these waypoints is detailed [Enroute](../enroute/).
+Predictable Sequencing waypoints have been defined for aircraft inbound to Perth (in [HYD](../../enroute/Melbourne Centre/HYD) airspace), Brisbane (in [KEN](../../enroute/Brisbane Centre/KEN) airspace), Sydney (in [ARL](../../enroute/Brisbane Centre/ARL) airspace), and Melbourne (in [BLA](../../enroute/Melbourne Centre/BLA) and [HUO](../../enroute/Melbourne Centre/HUO) airspace).
 
 
 ## Holding
