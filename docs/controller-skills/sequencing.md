@@ -148,7 +148,9 @@ Predictable Sequencing involves ATC re-routing aircraft via pre-defined waypoint
     **HUO:** "JST712, from AKTAM, recleared direct OSEMI thence RAZZI to rejoin the STAR"
     **JST712:** "From AKTAM, recleared direct OSEMI thence RAZZI to rejoin the STAR, JST712"
 !!! tip
-    The airways and sectors with Predictable Sequencing waypoints available can be found in [Enroute](../enroute/).
+    Consider spelling the waypoints phonetically, to assist pilots identify the correct waypoint.
+
+Predictable Sequencing waypoints have been defined for aircraft inbound to Perth (in [HYD](../enroute/Melbourne_Centre/HYD) airspace), Brisbane (in [KEN](../enroute/Brisbane_Centre/KEN) airspace), Sydney (in [ARL](../enroute/Brisbane_Centre/ARL) airspace), and Melbourne (in [BLA](../enroute/Melbourne_Centre/BLA) and [HUO](../enroute/Melbourne_Centre/HUO) airspace). Information about these waypoints is detailed [Enroute](../enroute/).
 
 
 ## Holding
