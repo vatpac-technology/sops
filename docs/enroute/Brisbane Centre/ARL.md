@@ -125,14 +125,13 @@ Non-jet aircraft for YSSY shall be assigned the **MEPIL** STAR.
     **RXA6417:** "Recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain F180, RXA6417" 
 
 ## Predictable Sequencing
-Predictable Sequencing is used instead of vectoring, and involves ATC re-routing aircraft via pre-defined waypoints positioned off major airways to provide a certain time delay.```
+There are ten [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YSSY via **N774** and **M636**.
 
-There are 10 Predictable Sequencing waypoints available for aircraft inbound YSSY via **N774** and **M636**. Aircraft must comply with STAR speed and level restrictions unless explicitly cancelled by ATC.
+The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
 
-The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. I.e., the estimated delay if an aircraft is re-routed via that CDO waypoint.
 === "N774"
-    | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
-    | -----------------| -------------| -------------- | -------|
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
     | NONID | HARIZ/PORUV | RIKNI | 2 |
     | NONID | AVKIR/ISNET | RIKNI | 4 |
     | NONID | IDAGO/OVMAT | RIKNI | 6 |
@@ -140,17 +139,12 @@ The table below contains the estimated time from the initial waypoint to the fin
     | NONID | UDISI/OPEXA | RIKNI | 10 |
 
 === "PULGA"
-    | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
-    | -----------------| -------------| -------------- | -------|
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
     | PULGA | OLNOT | RIKNI | 2 |
     | PULGA | ADBOK | RIKNI | 4 | 
     | PULGA | PEBTU | RIKNI | 6 |
     | PULGA | GORTA | RIKNI | 8 | 
-
-<figure markdown>
-![N774 and M636 Waypoints and Delays](img/cdo_n774_m636.png){ width="500" }
-  <figcaption>N774 and M636 Waypoints and Delays </figcaption>
-</figure>
 
 
 #### Holding Fixes

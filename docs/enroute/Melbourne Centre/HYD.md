@@ -122,14 +122,13 @@ For aircraft overflying the PH TCU place `O/FLY` in the LABEL DATA field.
 Aircraft assigned the **same runway** inbound via **JULIM** and **SAPKO**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
 ## Predictable Sequencing
-Predictable Sequencing is used instead of vectoring, and involves ATC re-routing aircraft via pre-defined waypoints positioned off major airways to provide a certain time delay.```
+There are ten [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YPPH  via **Q10**, **Q32**, **Q27** and **Z38**. These waypoints are south of **Q10** and north of **Q27**. 
 
-There are 10 Predictable Sequencing waypoints available for aircraft inbound YPPH  via **Q10**, **Q32**, **Q27** and **Z38**. These waypoints are south of **Q10** and north of **Q27**. Aircraft must comply with STAR speed and level restrictions unless explicitly cancelled by ATC.```
+The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
 
-The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. I.e., the estimated delay if an aircraft is re-routed via that CDO waypoint.```
 === "Z38"
-    | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
-    | -----------------| -------------| -------------- | -------|
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
     | BUNGL | IGROB | MALUP | 4 |
     | BUNGL | KINAB | MALUP | 7 |
 
@@ -144,12 +143,6 @@ The table below contains the estimated time from the initial waypoint to the fin
     | IPGER	| +7 | +5 |	+4 | +2 |
     | TODOS	| +9 | +7 |	+6 | +1 |
     | IVPIL | +11 |	+9 | +8	| +0 | 
-
-
-<figure markdown>
-![Q10, Q32, Q27, Z38 Waypoints and Delays](img/cdo_perth.png){ width="500" }
-  <figcaption> Q10, Q32, Q27, Z38 Waypoints and Delays </figcaption>
-</figure>
 
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YPPH. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.

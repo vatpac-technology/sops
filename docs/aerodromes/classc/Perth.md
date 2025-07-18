@@ -79,7 +79,7 @@ When traffic permits, VFR scenic flights over Perth are cleared via VICTOR 65 ro
 ### Approach Expectation
 With the [Southwest Plan](#runway-modes) active, the ATIS shall notify `EXP ILS APCH`.
 
-With the [Northeast Plan](#northeast-plan) active, the ATIS shall notify `EXP ILS APCH` when:
+With the [Northeast Plan](#runway-modes) active, the ATIS shall notify `EXP ILS APCH` when:
 
 - Cloud base of `A032` or below, or:
 - By night.

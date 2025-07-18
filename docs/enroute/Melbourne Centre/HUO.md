@@ -60,31 +60,25 @@ WON is responsible for issuing STAR Clearances, sequencing, and descent.
 ### Sequencing in to YMML
 
 ## Predictable Sequencing
-Predictable Sequencing is used instead of vectoring, and involves ATC re-routing aircraft via pre-defined waypoints positioned off major airways to provide a certain time delay.```
+There are four [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YMML via **H215**, **P753**, **L508** and **M625**. These waypoints are perpendicular to **M625** and **H215**.
 
-There are four Predictable Sequencing waypoints available for aircraft inbound YMML via **H215**, **P753**, **L508** and **M625**. These waypoints are perpendicular to **M625** and **H215**. Aircraft must comply with STAR speed and level restrictions unless explicitly cancelled by ATC.```
+The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
 
-The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. I.e., the estimated delay if an aircraft is re-routed via that CDO waypoint.
 === "M625"
-    | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
-    | -----------------| -------------| -------------- | -------|
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
     | ELNIV | OTGUN | RAZZI | 2 |
     | ELNIV | OSEMI | RAZZI | 4 |
     | ELNIV | UGITO | RAZZI | 6 |
     | ELNIV | SEBLU | RAZZI | 8 | 
 
 === "H215"
-    | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
-    | -----------------| -------------| -------------- | -------|
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
     | AKTAM | SEBLU | RAZZI | 2 |
     | AKTAM | UGITO | RAZZI | 4 |
     | AKTAM | OSEMI | RAZZI | 6 |
     | AKTAM | OTGUN | RAZZI | 8 |
-
-<figure markdown>
-![M625 and H215 Waypoints and Delays](img/cdo_razzi.png){ width="500" }
-  <figcaption> M625 and H215 Waypoints and Delays </figcaption>
-</figure>
 
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YMML. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.

@@ -91,33 +91,26 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 ### Sequencing in to YMML
 Aircraft assigned the **same runway** inbound via **BOOIN** and **BOYSE**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
-## Predictable Sequencing
-Predictable Sequencing is used instead of vectoring, and involves ATC re-routing aircraft via pre-defined waypoints positioned off major airways to provide a certain time delay.```
+#### Predictable Sequencing Waypoints
+There are four [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YMML via **Q346** and **Q35**.
 
-There are four Predictable Sequencing waypoints available for aircraft inbound YMML via **Q346** and **Q35**. Aircraft must comply with STAR speed and level restrictions unless explicitly cancelled by ATC.```
+The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
 
-The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. I.e., the estimated delay if an aircraft is re-routed via that CDO waypoint.
 === "Q346"
-    | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
-    | -----------------| -------------| -------------- | -------|
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
     | UPNAP | IGPEB | DORSU | 1 |
     | UPNAP | ONOPO | DORSU | 3 |
     | UPNAP | URGUL | DORSU | 5 |
     | UPNAP | IBOVU | DORSU | 7 | 
 
 === "Q35"
-    | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
-    | -----------------| -------------| -------------- | -------|
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
     | IGMIL | IGPEB | DORSU | 2 |
     | IGMIL | ONOPO | DORSU | 4 |
     | IGMIL | URGUL | DORSU | 6 |
     | IGMIL | IBOVU | DORSU | 8 |
-    
-<figure markdown>
-![Q346 and Q35 Waypoints and Delays](img/cdo_dorsu.png){ width="500" }
-  <figcaption> Q346 and Q35 Waypoints and Delays </figcaption>
-</figure>
-
 
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YMML. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.

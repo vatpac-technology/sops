@@ -167,7 +167,7 @@ Through vectoring and holding, enroute controllers can effectively create and ma
 As an alternative to vectoring and holding, controllers may reroute aircraft to predefined 'Predictable Sequencing' waypoints to delay an aircraft by discrete amount of time. Rerouting the aircraft allows the pilot to calculate the distance remaining more accurately, and therefore adjust their TOD and descent profile accordingly.
 
 <figure markdown>
-![Predictable Sequencing waypoints](../../enroute/Brisbane Centre/img/cdo_n774_m636.png){ width="500" }
+![Predictable Sequencing waypoints](../enroute/Brisbane Centre/img/cdo_n774_m636.png){ width="500" }
   <figcaption>Predictable Sequencing waypoints</figcaption>
 </figure>
 
