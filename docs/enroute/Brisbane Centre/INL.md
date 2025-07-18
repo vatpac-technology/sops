@@ -123,15 +123,14 @@ Aircraft assigned the **same runway** inbound via:
 
 Must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
-## Predictable Sequencing
-Predictable Sequencing is used instead of vectoring, and involves ATC re-routing aircraft via pre-defined waypoints positioned off major airways to provide a certain time delay.```
+#### Predictable Sequencing Waypoints
+There are nine [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YBBN via **H66** and **H252**.
 
-There are nine Predictable Sequencing waypoints available for aircraft inbound YBBN via **H66** and **H252**. Aircraft must comply with STAR speed and level restrictions unless explicitly cancelled by ATC.```
+The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
 
-The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. I.e., the estimated delay if an aircraft is re-routed via that CDO waypoint.```
 === "H66"
-    | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
-    | -----------------| -------------| -------------- | -------|
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
     | ADKEK | GUTBI | WHITI | 2 |
     | ADKEK | ISDAG | WHITI | 3 |
     | ADKEK | RULGU | WHITI | 5 |
@@ -141,8 +140,8 @@ The table below contains the estimated time from the initial waypoint to the fin
     | ADKEK | UBKEM | WHITI | 13 |
 
 === "H252"
-    | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
-    | -----------------| -------------| -------------- | -------|
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
     | RULGU | DOVIP | OMKAK  | 1 |
     | RULGU | ISDAG | OMKAK  | 2 |
     | RULGU | URBAM | OMKAK  | 3 |
@@ -151,14 +150,6 @@ The table below contains the estimated time from the initial waypoint to the fin
     | RULGU | UBKEM | OMKAK | 7 |
     | RULGU | ADKEK | OMKAK | 8 |
     | RULGU | OTBOL | OMKAK | 11 |
-
-
-<figure markdown>
-![H66 and H252 Waypoints and Delays](img/cdo_h66_h252.png){ width="500" }
-  <figcaption> H66 and H252 Waypoints and Delays </figcaption>
-</figure>
-
-
 
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YBBN. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.

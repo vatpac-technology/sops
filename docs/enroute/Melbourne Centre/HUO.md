@@ -59,7 +59,7 @@ WON is responsible for issuing STAR Clearances, sequencing, and descent.
 
 ### Sequencing in to YMML
 
-## Predictable Sequencing
+#### Predictable Sequencing Waypoints
 There are four [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YMML via **H215**, **P753**, **L508** and **M625**. These waypoints are perpendicular to **M625** and **H215**.
 
 The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 

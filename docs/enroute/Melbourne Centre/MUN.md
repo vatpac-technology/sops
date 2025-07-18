@@ -55,24 +55,18 @@ GTH is responsible for issuing STAR Clearances for Jets.
 
 ### Sequencing in to YMML
 
-## Predictable Sequencing
-Predictable Sequencing is used instead of vectoring, and involves ATC re-routing aircraft via pre-defined waypoints positioned off major airways to provide a certain time delay.```
+#### Predictable Sequencing Waypoints
+There are four [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YMML via **Q29**, located south of the airway.
 
-There are four Predictable Sequencing waypoints available for aircraft inbound YMML via **Q29**, located south of the airway. Aircraft must comply with STAR speed and level restrictions unless explicitly cancelled by ATC.```
+The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**.
 
-The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. I.e., the estimated delay if an aircraft is re-routed via that CDO waypoint.
 === "Q29"
-    | Initial Waypoint | CDO Waypoint | Final Waypoint | Minutes|
-    | -----------------| -------------| -------------- | -------|
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
     | ANLID | DOVEX | BULLA | 2 |
     | ANLID | TOPUL | BULLA | 4 |
     | ANLID | UNSIG | BULLA | 6 |
     | ANLID | NILEV | BULLA | 8 | 
-
-<figure markdown>
-![Q29 Waypoints and Delays](img/cdo_bulla.png){ width="500" }
-  <figcaption> Q29 Waypoints and Delays </figcaption>
-</figure>
 
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YMML. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
