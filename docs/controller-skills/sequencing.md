@@ -138,23 +138,6 @@ Vectoring aircraft is best to achieve anywhere between a 2 minute and a 6 minute
 !!! note
     The times shown at waypoints when displaying an aircraft's route are not completely accurate. They are calculated based on a combination of the aircraft's ***planned TAS, Forecast GRIB winds, and estimated climb/descent profiles***. Times shown on the BRL anchored from an aircraft to a waypoint are based on the aircraft's ***current ground speed***. As a general rule of thumb, a jet aircraft will tend to add approximately 1-2 minutes to a BRL time on descent. A propeller aircraft will not add any time on descent. Both the route time and the BRL time can provide situational awareness and more info, but use whatever is appropriate for the situation.
 
-## Predictable Sequencing 
-Predictable Sequencing involves ATC re-routing aircraft via pre-defined waypoints positioned off major airways to provide a certain time delay. This re-routing may be used instead of vectoring and provides flight crew with predictability of lateral path to plan their descent, in alignment with the principles of ICAO Continuous Descent Operations (CDO).
-
-!!! phraseology
-    **ARL:** "QFA11, from NONID, recleared direct ADLIV thence RIKNI, rest of clearance unchanged"  
-    **QFA11:** "From NONID, recleared direct ADLIV thence RIKNI, QFA11"
-	
-!!! phraseology
-    **HUO:** "JST712, from AKTAM, recleared direct OSEMI thence RAZZI to rejoin the STAR"  
-    **JST712:** "From AKTAM, recleared direct OSEMI thence RAZZI to rejoin the STAR, JST712" 
-	
-!!! tip
-    Consider spelling the waypoints phonetically, to assist pilots identify the correct waypoint.
-
-Predictable Sequencing waypoints have been defined for aircraft inbound to Perth (in [HYD](../../enroute/Melbourne Centre/HYD) airspace), Brisbane (in [KEN](../../enroute/Brisbane Centre/KEN) airspace), Sydney (in [ARL](../../enroute/Brisbane Centre/ARL) airspace), and Melbourne (in [BLA](../../enroute/Melbourne Centre/BLA) and [HUO](../../enroute/Melbourne Centre/HUO) airspace).
-
-
 ## Holding
 Holding is the final delaying action, useful for when a delay of 6 minutes or more is required. Published Holds exist on common useful holding fixes all around Australia, usually either at the Feeder Fix, or a waypoint before the Feeder Fix. Locations of Published Holds can be found on ERC Charts.
 
@@ -177,3 +160,32 @@ Although the phraseology *"Hold at (waypoint)"* is standardised from the AIP `AI
     **VOZ888:** "Cancel hold, cleared NABBA, BULLA, TAREX, BOOIN, to rejoin the STAR, maintain F300, VOZ888"
 
 It may be prudent to use another form of delaying action, other than holding, with aircraft that appear to be unable to fly a hold (use vectors).
+
+## Predictable Sequencing 
+Through vectoring and holding, enroute controllers can effectively create and maintain an orderly sequence of arrivals. However, these techniques require pilots to fly a variable distance additional track miles until the required sequence is achieved. Pilots use the distance remaining to calculate their TOD and to maintain an appropriate descent profile, and the unpredictability of these delaying techniques—and how many extra miles will be flown—can make it more difficult for pilots to plan a smooth and orderly descent.
+
+As an alternative to vectoring and holding, controllers may reroute aircraft to predefined 'Predictable Sequencing' waypoints to delay an aircraft by discrete amount of time. Rerouting the aircraft allows the pilot to calculate the distance remaining more accurately, and therefore adjust their TOD and descent profile accordingly.
+
+<figure markdown>
+![Predictable Sequencing waypoints](img/cdo_n774_m636.png){ width="500" }
+  <figcaption>Predictable Sequencing waypoints</figcaption>
+</figure>
+
+Predictable Sequencing waypoints have been defined for aircraft inbound to Perth (in [HYD](../../enroute/Melbourne Centre/HYD) airspace), Brisbane (in [KEN](../../enroute/Brisbane Centre/KEN) airspace), Sydney (in [ARL](../../enroute/Brisbane Centre/ARL) airspace), and Melbourne (in [BLA](../../enroute/Melbourne Centre/BLA) and [HUO](../../enroute/Melbourne Centre/HUO) airspace).
+
+!!! phraseology
+    *ARL wants to delay QFA11 by 8 minutes to achieve the desired sequence. They consult the Predictable Sequencing map and identify 'ADLIV' as an appropriate delaying waypoint* 
+    **ARL:** "QFA11, from NONID, recleared direct ADLIV thence RIKNI, rest of clearance unchanged"  
+    **QFA11:** "From NONID, recleared direct ADLIV thence RIKNI, QFA11"
+	
+!!! phraseology
+    *HUO wants to delay JST712 by 6 minutes to achieve the desired sequence. They consult the Predictable Sequencing map and identify 'OSEMI' as an appropriate delaying waypoint* 
+    **HUO:** "JST712, from AKTAM, recleared direct OSEMI thence RAZZI to rejoin the STAR"  
+    **JST712:** "From AKTAM, recleared direct OSEMI thence RAZZI to rejoin the STAR, JST712" 
+	
+!!! tip
+    As pilots are unlikely to be familiar with these waypoints, controllers should consider spelling the waypoints phonetically to assist pilots identify the waypoint in their FMC.
+
+The Predictable Sequencing waypoints work best when the delay required to achieve the sequence is known *and not likely to change further*. If an aircraft might need further vectoring or holding action beyond the delay offered by a reroute, the technique should not be used.
+
+Similarly, when an aircraft appears to be unable to fly a reroute (such as an outdated AIRAC) conventional techniques should be used.
