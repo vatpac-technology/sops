@@ -166,17 +166,24 @@ Through vectoring and holding, enroute controllers can effectively create and ma
 
 As an alternative to vectoring and holding, controllers may reroute aircraft to predefined 'Predictable Sequencing' waypoints to delay an aircraft by discrete amount of time. Rerouting the aircraft allows the pilot to calculate the distance remaining more accurately, and therefore adjust their TOD and descent profile accordingly.
 
+
+Predictable Sequencing waypoints have been defined for aircraft inbound to Perth (in [HYD](../../enroute/Melbourne Centre/HYD) airspace), Brisbane (in [KEN](../../enroute/Brisbane Centre/KEN) airspace), Sydney (in [ARL](../../enroute/Brisbane Centre/ARL) airspace), and Melbourne (in [BLA](../../enroute/Melbourne Centre/BLA) and [HUO](../../enroute/Melbourne Centre/HUO) airspace).
+
 <figure markdown>
-![Predictable Sequencing waypoints](../enroute/Brisbane Centre/img/cdo_n774_m636.png){ width="500" }
+![Predictable Sequencing waypoints](img/cdo_n774_m636.png){ width="500" }
   <figcaption>Predictable Sequencing waypoints</figcaption>
 </figure>
 
-Predictable Sequencing waypoints have been defined for aircraft inbound to Perth (in [HYD](../../enroute/Melbourne Centre/HYD) airspace), Brisbane (in [KEN](../../enroute/Brisbane Centre/KEN) airspace), Sydney (in [ARL](../../enroute/Brisbane Centre/ARL) airspace), and Melbourne (in [BLA](../../enroute/Melbourne Centre/BLA) and [HUO](../../enroute/Melbourne Centre/HUO) airspace).
 
 !!! phraseology
     *ARL wants to delay QFA11 by 8 minutes to achieve the desired sequence. They consult the Predictable Sequencing map and identify 'ADLIV' as an appropriate delaying waypoint* 
     **ARL:** "QFA11, from NONID, recleared direct ADLIV thence RIKNI, rest of clearance unchanged"  
     **QFA11:** "From NONID, recleared direct ADLIV thence RIKNI, QFA11"
+
+<figure markdown>
+![Predictable Sequencing waypoints](img/cdo_razzi.png){ width="500" }
+  <figcaption>Predictable Sequencing waypoints</figcaption>
+</figure>
 	
 !!! phraseology
     *HUO wants to delay JST712 by 6 minutes to achieve the desired sequence. They consult the Predictable Sequencing map and identify 'OSEMI' as an appropriate delaying waypoint* 
