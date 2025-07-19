@@ -27,6 +27,9 @@ After logging onto the network, open the plugin from the dropdown menu, and sele
 
 A connection attempt will be made and if successful, the *CONN STAT* field in the Control Bar will turn green.
 
+!!! tip
+    Pressing `[` and `]` will cycle through the aerodromes in the dropdown menu, allowing controllers to provide top down coverage to multiple locations easily.
+
 ### Configuring Views
 Once connected to the relevant aerodrome, controllers should select the view mode which is most suitable for their position. Use the **View Mode** menu item to select a layout.
 
@@ -120,6 +123,22 @@ Aircraft who have filed flightplans which depart from and arrive back to the sam
 
 !!! note
     Only aircraft who will remain on the ADC frequency should be marked as local strips. If an aircraft will depart the aerodrome and conduct operations elsewhere, then return for landing, they should be treated as a departure. These strips should then be flipped to Arrival state when they return.
+
+## Keyboard Shortcuts
+The following keyboard shortcuts exist to improve workflow efficiency.
+
+| Shortcut | Function |
+| --- | --- |
+| `Enter` | SID trigger selected strip to next bay |
+| `Tab` | Cock/uncock selected strip |
+| `Space` | Queue/unqueue selected strip |
+| `Backspace` | Inhibit selected strip |
+| `F` | Flip (cycle between Departure, Arrival & Local states) selected strip |
+| `X` | Toggle crossing highlight to selected strip |
+| `Alt + X` | Add RUNWAY CROSSING bar to Runway Bay |
+| `[` / `]` | Change aerodrome |
+| `↑` / `↓` | Move selected strip position in the current bay |
+| `Ctrl + ↑` / `Ctrl + ↓` | Move selected strip towards nearest bar |
 
 ## Workflow
 Due to it's shared state, OzStrips works best if all controllers follow a standardised workflow. Controllers are strongly encouraged to follow the workflow below.
