@@ -10,7 +10,7 @@ Within vatSys, this can be emulated using the [OzStrips plugin](https://maxrumse
 
 ## Setup
 ### Installation
-The OzStrips plugin can be downloaded using the [vatSys Plugin Manager](https://github.com/badvectors/PluginManager){target=new}.  
+The OzStrips plugin is included by default in the Australia and Pacific vatSys profiles provided by VATPAC. Alternatively, it can be downloaded using the [vatSys Plugin Manager](https://github.com/badvectors/PluginManager){target=new}.  
 
 If the client is installed correctly, there will be an *OzStrips* option in the Window dropdown menu.
 
