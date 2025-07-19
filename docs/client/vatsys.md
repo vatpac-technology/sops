@@ -92,11 +92,9 @@ Extended Labels: **OFF** (Toggled on for aircraft not arriving at main airport)
 ### Display
 ATC List: **ON**
 ### Strip Setup
-Sort: **TIME**  
-Strips: **BEACON**
+Method: **OzStrips**  
+View Mode: **As applicable to your current position**
 ### Windows displayed
-**ADEP (Airport)**  
-**Other**  
 **ARRIVAL LIST** (if airport is busy, eg during events)  
 **ATIS**
 ### Maps
