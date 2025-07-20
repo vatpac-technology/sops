@@ -5850,10 +5850,34 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Strips">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#local-flights" class="md-nav__link">
+    <span class="md-ellipsis">
+      Local Flights
+    </span>
+  </a>
+  
 </li>
         
       </ul>
     </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#keyboard-shortcuts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Keyboard Shortcuts
+    </span>
+  </a>
   
 </li>
       
@@ -5983,6 +6007,15 @@
   <a href="#arrivals_1" class="md-nav__link">
     <span class="md-ellipsis">
       Arrivals
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#circuits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Circuits
     </span>
   </a>
   
@@ -6754,10 +6787,34 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Strips">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#local-flights" class="md-nav__link">
+    <span class="md-ellipsis">
+      Local Flights
+    </span>
+  </a>
+  
 </li>
         
       </ul>
     </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#keyboard-shortcuts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Keyboard Shortcuts
+    </span>
+  </a>
   
 </li>
       
@@ -6893,6 +6950,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#circuits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Circuits
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#runway-crossings_1" class="md-nav__link">
     <span class="md-ellipsis">
       Runway Crossings
@@ -6984,7 +7050,7 @@
 <p>Within vatSys, this can be emulated using the <a href="https://maxrumsey.xyz/OzStrips/" target="new">OzStrips plugin</a>. Strip state is shared between controllers operating at the same aerodrome.</p>
 <h2 id="setup">Setup</h2>
 <h3 id="installation">Installation</h3>
-<p>The OzStrips plugin can be downloaded using the <a href="https://github.com/badvectors/PluginManager" target="new">vatSys Plugin Manager</a>.  </p>
+<p>The OzStrips plugin is included by default in the Australia and Pacific vatSys profiles provided by VATPAC. Alternatively, it can be downloaded using the <a href="https://github.com/badvectors/PluginManager" target="new">vatSys Plugin Manager</a>.  </p>
 <p>If the client is installed correctly, there will be an <em>OzStrips</em> option in the Window dropdown menu.</p>
 <figure>
 <p><a class="glightbox" href="../../controller-skills/img/ozstripsdropdown.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="OzStrips Dropdown" src="../../controller-skills/img/ozstripsdropdown.png" width="700" /></a></p>
@@ -6995,6 +7061,10 @@
 <p><a class="glightbox" href="../../controller-skills/img/ozstripsaerodromeselect.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Select Aerodrome" src="../../controller-skills/img/ozstripsaerodromeselect.png" width="500" /></a></p>
 </figure>
 <p>A connection attempt will be made and if successful, the <em>CONN STAT</em> field in the Control Bar will turn green.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Pressing <code>[</code> and <code>]</code> will cycle through the aerodromes in the dropdown menu, allowing controllers to provide top down coverage to multiple locations easily.</p>
+</div>
 <h3 id="configuring-views">Configuring Views</h3>
 <p>Once connected to the relevant aerodrome, controllers should select the view mode which is most suitable for their position. Use the <strong>View Mode</strong> menu item to select a layout.</p>
 <figure>
@@ -7044,10 +7114,14 @@
 <td><strong>ADD <abbr title="Brisbane (Barra) Centre">BAR</abbr></strong></td>
 <td>Allows controllers to place a variety of fixed bars anywhere on the stripboard, reflecting status changes (e.g. autorelease cancellation or runway crossing) and allowing additional queues to be build (e.g. Sydney Coordinator functions)</td>
 </tr>
+<tr>
+<td><strong>FLIP FLOP</strong></td>
+<td>Toggles the selected strip between Departure, Arrival &amp; Local states (for aircraft with both <abbr title="Destination Aerodrome">ADES</abbr> and <abbr title="Departure Aerodrome">ADEP</abbr> fields matching the current aerodrome)</td>
+</tr>
 </tbody>
 </table>
 <h3 id="strips">Strips</h3>
-<p>The background colour of the strip corresponds to its status as an arrival or a departure. Departing aircraft have a blue strip, while arrivals have a yellow strip.</p>
+<p>The background colour of the strip corresponds to its status as an arrival or a departure. <strong>Departing</strong> aircraft have a blue strip, <strong>arriving</strong> aircraft have a yellow strip, and <a href="#local-flights"><strong>local</strong></a> aircraft have a pink strip.</p>
 <figure>
 <p><a class="glightbox" href="../../controller-skills/img/ozstripstrip.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Strip" src="../../controller-skills/img/ozstripstrip.png" width="600" /></a></p>
 </figure>
@@ -7193,17 +7267,81 @@
 <p><a class="glightbox" href="../../controller-skills/img/ozstripsexample.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Example Strip" src="../../controller-skills/img/ozstripsexample.png" width="600" /></a>
     <figcaption>An example strip</figcaption></p>
 </figure>
+<h4 id="local-flights">Local Flights</h4>
+<p>Aircraft intending to conduct operations entirely on the <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> frequency (most commonly circuits or helicopter operations in <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> jurisdiction) should be marked as a <strong>local strip</strong>.</p>
+<p>Select the strip, then use the <a href="#control-bar">flip flop</a> button to 'flip' the strip into a pink, local strip.</p>
+<p>Aircraft who have filed flightplans which depart from and arrive back to the same aerodrome can be toggled between Departure and Arrival states using the <a href="#control-bar">flip flop</a> button.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Only aircraft who will remain on the <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> frequency should be marked as local strips. If an aircraft will depart the aerodrome and conduct operations elsewhere, then return for landing, they should be treated as a departure. These strips should then be flipped to Arrival state when they return.</p>
+</div>
+<h2 id="keyboard-shortcuts">Keyboard Shortcuts</h2>
+<p>The following keyboard shortcuts exist to improve workflow efficiency.</p>
+<table>
+<thead>
+<tr>
+<th>Shortcut</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Enter</code></td>
+<td><abbr title="Standard Instrument Departure">SID</abbr> trigger selected strip to next bay</td>
+</tr>
+<tr>
+<td><code>Tab</code></td>
+<td>Cock/uncock selected strip</td>
+</tr>
+<tr>
+<td><code>Space</code></td>
+<td>Queue/unqueue selected strip</td>
+</tr>
+<tr>
+<td><code>Backspace</code></td>
+<td>Inhibit selected strip</td>
+</tr>
+<tr>
+<td><code>F</code></td>
+<td>Flip (cycle between Departure, Arrival &amp; Local states) selected strip</td>
+</tr>
+<tr>
+<td><code>X</code></td>
+<td>Toggle crossing highlight to selected strip</td>
+</tr>
+<tr>
+<td><code>Alt + X</code></td>
+<td>Add RUNWAY CROSSING bar to Runway Bay</td>
+</tr>
+<tr>
+<td><code>[</code> / <code>]</code></td>
+<td>Change aerodrome</td>
+</tr>
+<tr>
+<td><code>↑</code> / <code>↓</code></td>
+<td>Move selected strip position in the current bay</td>
+</tr>
+<tr>
+<td><code>Ctrl + ↑</code> / <code>Ctrl + ↓</code></td>
+<td>Move selected strip towards nearest bar</td>
+</tr>
+</tbody>
+</table>
 <h2 id="workflow">Workflow</h2>
 <p>Due to it's shared state, OzStrips works best if all controllers follow a standardised workflow. Controllers are strongly encouraged to follow the workflow below.</p>
 <h3 id="delivery">Delivery</h3>
-<p>Fill out the strip of recently connected aircraft so that you can identify any problems with their filed flight plan before they request clearance. </p>
-<h4 id="issuing-clearance">Issuing Clearance</h4>
-<p>When an aircraft requests airways clearance, select the strip to avoid losing it from view, then deliver the clearance. Upon receiving a correct readback, enter the aircraft's parking bay in the Bay field, then move it to the <strong>Cleared Bay</strong>.</p>
-<p>If multiple aircraft request clearance at once, <a href="#queue-management">queue</a> the strips for each aircraft, in the order in which they called.</p>
 <figure>
 <p><a class="glightbox" href="../../controller-skills/img/ozstripsworkflowacd.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="ACD Workflow" src="../../controller-skills/img/ozstripsworkflowacd.png" width="800" /></a>
     <figcaption>An example of the <abbr title="Airways Clearance Delivery">ACD</abbr> layout and workflow</figcaption></p>
 </figure>
+<p>Fill out the strip of recently connected aircraft so that you can identify any problems with their filed flight plan before they request clearance. Aircraft wishing to conduct circuits or other operations remaining entirely on the <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> frequency, should be marked as <a href="#local-flights">local strips</a>.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>With a strip selected, press <code>F</code> to flip it between Departure, Arrival, and Local states.</p>
+</div>
+<h4 id="issuing-clearance">Issuing Clearance</h4>
+<p>When an aircraft requests airways clearance, select the strip to avoid losing it from view, then deliver the clearance. Upon receiving a correct readback, enter the aircraft's parking bay in the Bay field, then move it to the <strong>Cleared Bay</strong>.</p>
+<p>If multiple aircraft request clearance at once, <a href="#queue-management">queue</a> the strips for each aircraft, in the order in which they called.</p>
 <p>SIDs with a transition are indicated by a yellow border on the <abbr title="Standard Instrument Departure">SID</abbr> box. Hover over the box to reveal the transition.</p>
 <figure>
 <p><a class="glightbox" href="../../controller-skills/img/ozstripssidtransition.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="SID Transition" src="../../controller-skills/img/ozstripssidtransition.png" width="500" /></a>
@@ -7248,6 +7386,10 @@
     <figcaption>Coordinator Ops with OzStrips<br><small>Three aircraft are waiting on the <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> frequency (below the Queue bar), and QFA121 and RXA6416 have both requested push/taxi but are being held on the Coordinator frequency. QFA121 is closer to the bottom, so will be next to be told to standby for <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr>.</small></figcaption></p>
 </figure>
 <h3 id="ground">Ground</h3>
+<figure>
+<p><a class="glightbox" href="../../controller-skills/img/ozstripsworkflowsmc.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="SMC Workflow" src="../../controller-skills/img/ozstripsworkflowsmc.png" width="800" /></a>
+    <figcaption>An example of the <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> layout and workflow</figcaption></p>
+</figure>
 <h4 id="departures">Departures</h4>
 <p>When a departure is issued pushback, move them to the <strong>Pushback Bay</strong>. If pushback is unable to be given at that time, <a href="#queue-management">queue</a> the strip in the <strong>Cleared Bay</strong>.</p>
 <div class="admonition tip">
@@ -7265,10 +7407,6 @@
 <p>As an arriving aircraft vacates the runway, <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> will move the strip from the <strong>Runway Bay</strong> to the <strong>Taxi Bay</strong>. Enter the pilot's nominated parking bay in the Bay field and record any taxi instructions in the Global Ops field.</p>
 <p>When an aircraft is cleared to the bay, put <code>BAY</code> in the Holding Point box.</p>
 <p>When an aircraft arrives at their nominated parking position, <a href="#control-bar">inhibit</a> the strip to remove it from the stripboard.</p>
-<figure>
-<p><a class="glightbox" href="../../controller-skills/img/ozstripsworkflowsmc.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="SMC Workflow" src="../../controller-skills/img/ozstripsworkflowsmc.png" width="800" /></a>
-    <figcaption>An example of the <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> layout and workflow</figcaption></p>
-</figure>
 <h4 id="runway-crossings">Runway Crossings</h4>
 <p>For aircraft who need to cross an active runway, select the strip and use the <a href="#control-bar">XX CROSS XX</a> button to highlight it as a runway crossing. <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> should hotline <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> to request each runway crossing and/or place the strip in the <strong>Holding Point Bay</strong>  with the crossing highlight applied, as a visual trigger to <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> that an aircraft needs to cross. Once <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> has approved the runway crossing, place the strip back in the <strong>Taxi Bay</strong> and remove the highlight.</p>
 <div class="admonition tip">
@@ -7285,6 +7423,10 @@
     <figcaption>Runway 27 released to <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr></figcaption></p>
 </figure>
 <h3 id="tower">Tower</h3>
+<figure>
+<p><a class="glightbox" href="../../controller-skills/img/ozstripsworkflowadc.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="ADC Workflow" src="../../controller-skills/img/ozstripsworkflowadc.png" width="800" /></a>
+    <figcaption>An example of the <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> layout and workflow</figcaption></p>
+</figure>
 <h4 id="departures_1">Departures</h4>
 <p>When a departing aircraft calls ready, click the Ready flag to denote this on their strip. You can adjust the order of the departure sequence by selecting each strip and using the arrow keys to move them up and down. Strips at the bottom of the bay are first in line. </p>
 <div class="admonition tip">
@@ -7310,10 +7452,15 @@
 <p class="admonition-title">Tip</p>
 <p>By default, the <strong>Taxi Bay</strong> is not visible in the <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> layout. To move a strip from the <strong>Runway Bay</strong> to the <strong>Taxi Bay</strong>, <abbr title="Standard Instrument Departure">SID</abbr> trigger the strip (or use the appropriate keyboard shortcut). This works for <em>arrivals only</em>, and departing strips <abbr title="Standard Instrument Departure">SID</abbr> trigger to the <strong>Departed Bay</strong>.</p>
 </div>
-<figure>
-<p><a class="glightbox" href="../../controller-skills/img/ozstripsworkflowadc.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="ADC Workflow" src="../../controller-skills/img/ozstripsworkflowadc.png" width="800" /></a>
-    <figcaption>An example of the <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> layout and workflow</figcaption></p>
-</figure>
+<h4 id="circuits">Circuits</h4>
+<p>Pink <a href="#local-flights">local strips</a> denote aircraft who's planned operation remains entirely on the <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> frequency (they will not be passed to Departures or leave <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr>'s jurisdiction). Normal <a href="#departures_1">departure procedures</a> apply for recording when the circuit aircraft calls ready and is eventually cleared for takeoff.</p>
+<p>Once the aircraft is airborne, move the strip to the <strong>Arrivals Bay</strong> and sequence them with any other arriving aircraft. On each circuit, move the strip to the <strong>Runway Bay</strong> when a landing/touch &amp; go/other clearance is issued, then move them back to the <strong>Arrivals Bay</strong> when they become airborne again.</p>
+<p>When the aircraft lands for the final time and vacates the runway, use the <a href="#control-bar">flip flop</a> button to change their state to <strong>Arrival</strong> and place them in the <strong>Taxi Bay</strong> in accordance with normal <a href="#arrivals_1">arrival procedures</a>.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>With a strip selected, press <code>F</code> to flip it between Departure, Arrival, and Local states.</p>
+</div>
+<p>Coordinated circuit area airspace releases should be recorded by placing a <code>CIRCUIT AREA RELEASED</code> <a href="#control-bar">bar</a> in the <strong>Runway Bay</strong>.</p>
 <h4 id="runway-crossings_1">Runway Crossings</h4>
 <p>Aircraft who need to cross an active runway will be coordinated by <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> by hotline and/or by <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> placing the strip in the <strong>Holding Point Bay</strong> with the red crossing highlight applied.</p>
 <figure>
@@ -7396,7 +7543,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="July 1, 2025 02:57:26 UTC">July 1, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="July 20, 2025 08:26:23 UTC">July 20, 2025</span>
   </span>
 
     
