@@ -10,7 +10,7 @@ Within vatSys, this can be emulated using the [OzStrips plugin](https://maxrumse
 
 ## Setup
 ### Installation
-The OzStrips plugin can be downloaded using the [vatSys Plugin Manager](https://github.com/badvectors/PluginManager){target=new}.  
+The OzStrips plugin is included by default in the Australia and Pacific vatSys profiles provided by VATPAC. Alternatively, it can be downloaded using the [vatSys Plugin Manager](https://github.com/badvectors/PluginManager){target=new}.  
 
 If the client is installed correctly, there will be an *OzStrips* option in the Window dropdown menu.
 
@@ -26,6 +26,9 @@ After logging onto the network, open the plugin from the dropdown menu, and sele
 </figure>
 
 A connection attempt will be made and if successful, the *CONN STAT* field in the Control Bar will turn green.
+
+!!! tip
+    Pressing `[` and `]` will cycle through the aerodromes in the dropdown menu, allowing controllers to provide top down coverage to multiple locations easily.
 
 ### Configuring Views
 Once connected to the relevant aerodrome, controllers should select the view mode which is most suitable for their position. Use the **View Mode** menu item to select a layout.
@@ -73,9 +76,10 @@ Each button has the following function:
 | **INHIBIT** | Hides a strip from the stripboard (used when a strip is no longer needed) |
 | <span style="white-space: nowrap;">**XX CROSS XX**</span> | Adds a red highlight to the selected strip, denoting an intention to cross a runway |
 | **ADD BAR** | Allows controllers to place a variety of fixed bars anywhere on the stripboard, reflecting status changes (e.g. autorelease cancellation or runway crossing) and allowing additional queues to be build (e.g. Sydney Coordinator functions) |
+| **FLIP FLOP** | Toggles the selected strip between Departure, Arrival & Local states (for aircraft with both ADES and ADEP fields matching the current aerodrome) |
 
 ### Strips
-The background colour of the strip corresponds to its status as an arrival or a departure. Departing aircraft have a blue strip, while arrivals have a yellow strip.
+The background colour of the strip corresponds to its status as an arrival or a departure. **Departing** aircraft have a blue strip, **arriving** aircraft have a yellow strip, and [**local**](#local-flights) aircraft have a pink strip.
 
 <figure markdown>
 ![Strip](../controller-skills/img/ozstripstrip.png){ width="600" }
@@ -110,21 +114,50 @@ The background colour of the strip corresponds to its status as an arrival or a 
     <figcaption>An example strip</figcaption>
 </figure>
 
+#### Local Flights
+Aircraft intending to conduct operations entirely on the ADC frequency (most commonly circuits or helicopter operations in ADC jurisdiction) should be marked as a **local strip**.
+
+Select the strip, then use the [flip flop](#control-bar) button to 'flip' the strip into a pink, local strip.
+
+Aircraft who have filed flightplans which depart from and arrive back to the same aerodrome can be toggled between Departure and Arrival states using the [flip flop](#control-bar) button.
+
+!!! note
+    Only aircraft who will remain on the ADC frequency should be marked as local strips. If an aircraft will depart the aerodrome and conduct operations elsewhere, then return for landing, they should be treated as a departure. These strips should then be flipped to Arrival state when they return.
+
+## Keyboard Shortcuts
+The following keyboard shortcuts exist to improve workflow efficiency.
+
+| Shortcut | Function |
+| --- | --- |
+| `Enter` | SID trigger selected strip to next bay |
+| `Tab` | Cock/uncock selected strip |
+| `Space` | Queue/unqueue selected strip |
+| `Backspace` | Inhibit selected strip |
+| `F` | Flip (cycle between Departure, Arrival & Local states) selected strip |
+| `X` | Toggle crossing highlight to selected strip |
+| `Alt + X` | Add RUNWAY CROSSING bar to Runway Bay |
+| `[` / `]` | Change aerodrome |
+| `↑` / `↓` | Move selected strip position in the current bay |
+| `Ctrl + ↑` / `Ctrl + ↓` | Move selected strip towards nearest bar |
+
 ## Workflow
 Due to it's shared state, OzStrips works best if all controllers follow a standardised workflow. Controllers are strongly encouraged to follow the workflow below.
 
 ### Delivery
-Fill out the strip of recently connected aircraft so that you can identify any problems with their filed flight plan before they request clearance. 
+<figure markdown>
+![ACD Workflow](../controller-skills/img/ozstripsworkflowacd.png){ width="800" }
+    <figcaption>An example of the ACD layout and workflow</figcaption>
+</figure>
+
+Fill out the strip of recently connected aircraft so that you can identify any problems with their filed flight plan before they request clearance. Aircraft wishing to conduct circuits or other operations remaining entirely on the ADC frequency, should be marked as [local strips](#local-flights).
+
+!!! tip 
+    With a strip selected, press `F` to flip it between Departure, Arrival, and Local states.
 
 #### Issuing Clearance
 When an aircraft requests airways clearance, select the strip to avoid losing it from view, then deliver the clearance. Upon receiving a correct readback, enter the aircraft's parking bay in the Bay field, then move it to the **Cleared Bay**.
 
 If multiple aircraft request clearance at once, [queue](#queue-management) the strips for each aircraft, in the order in which they called.
-
-<figure markdown>
-![ACD Workflow](../controller-skills/img/ozstripsworkflowacd.png){ width="800" }
-    <figcaption>An example of the ACD layout and workflow</figcaption>
-</figure>
 
 SIDs with a transition are indicated by a yellow border on the SID box. Hover over the box to reveal the transition.
 
@@ -185,6 +218,11 @@ Ensure that no more than **three** strips are ever present below the Standby for
 </figure>
 
 ### Ground
+<figure markdown>
+![SMC Workflow](../controller-skills/img/ozstripsworkflowsmc.png){ width="800" }
+    <figcaption>An example of the SMC layout and workflow</figcaption>
+</figure>
+
 #### Departures
 When a departure is issued pushback, move them to the **Pushback Bay**. If pushback is unable to be given at that time, [queue](#queue-management) the strip in the **Cleared Bay**.
 
@@ -209,11 +247,6 @@ When an aircraft is cleared to the bay, put `BAY` in the Holding Point box.
 
 When an aircraft arrives at their nominated parking position, [inhibit](#control-bar) the strip to remove it from the stripboard.
 
-<figure markdown>
-![SMC Workflow](../controller-skills/img/ozstripsworkflowsmc.png){ width="800" }
-    <figcaption>An example of the SMC layout and workflow</figcaption>
-</figure>
-
 #### Runway Crossings
 For aircraft who need to cross an active runway, select the strip and use the [XX CROSS XX](#control-bar) button to highlight it as a runway crossing. SMC should hotline ADC to request each runway crossing and/or place the strip in the **Holding Point Bay**  with the crossing highlight applied, as a visual trigger to ADC that an aircraft needs to cross. Once ADC has approved the runway crossing, place the strip back in the **Taxi Bay** and remove the highlight.
 
@@ -233,6 +266,11 @@ Coordinated runway releases should be recorded by placing a `RUNWAY XX RELEASED 
 </figure>
 
 ### Tower
+<figure markdown>
+![ADC Workflow](../controller-skills/img/ozstripsworkflowadc.png){ width="800" }
+    <figcaption>An example of the ADC layout and workflow</figcaption>
+</figure>
+
 #### Departures
 When a departing aircraft calls ready, click the Ready flag to denote this on their strip. You can adjust the order of the departure sequence by selecting each strip and using the arrow keys to move them up and down. Strips at the bottom of the bay are first in line. 
 
@@ -265,10 +303,17 @@ After the aircraft vacates the runway, move the strip to the **Taxi Bay**.
 !!! tip
     By default, the **Taxi Bay** is not visible in the ADC layout. To move a strip from the **Runway Bay** to the **Taxi Bay**, SID trigger the strip (or use the appropriate keyboard shortcut). This works for *arrivals only*, and departing strips SID trigger to the **Departed Bay**.
 
-<figure markdown>
-![ADC Workflow](../controller-skills/img/ozstripsworkflowadc.png){ width="800" }
-    <figcaption>An example of the ADC layout and workflow</figcaption>
-</figure>
+#### Circuits
+Pink [local strips](#local-flights) denote aircraft who's planned operation remains entirely on the ADC frequency (they will not be passed to Departures or leave ADC's jurisdiction). Normal [departure procedures](#departures_1) apply for recording when the circuit aircraft calls ready and is eventually cleared for takeoff.
+
+Once the aircraft is airborne, move the strip to the **Arrivals Bay** and sequence them with any other arriving aircraft. On each circuit, move the strip to the **Runway Bay** when a landing/touch & go/other clearance is issued, then move them back to the **Arrivals Bay** when they become airborne again.
+
+When the aircraft lands for the final time and vacates the runway, use the [flip flop](#control-bar) button to change their state to **Arrival** and place them in the **Taxi Bay** in accordance with normal [arrival procedures](#arrivals_1).
+
+!!! tip 
+    With a strip selected, press `F` to flip it between Departure, Arrival, and Local states.
+
+Coordinated circuit area airspace releases should be recorded by placing a `CIRCUIT AREA RELEASED` [bar](#control-bar) in the **Runway Bay**.
 
 #### Runway Crossings
 Aircraft who need to cross an active runway will be coordinated by SMC by hotline and/or by SMC placing the strip in the **Holding Point Bay** with the red crossing highlight applied.
