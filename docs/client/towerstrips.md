@@ -149,7 +149,7 @@ Due to it's shared state, OzStrips works best if all controllers follow a standa
     <figcaption>An example of the ACD layout and workflow</figcaption>
 </figure>
 
-Fill out the strip of recently connected aircraft so that you can identify any problems with their filed flight plan before they request clearance. Aircraft wishing to conduct circuits or other operations, remaining entirely on the ADC frequency, should be marked as [local strips](#local-flights).
+Fill out the strip of recently connected aircraft so that you can identify any problems with their filed flight plan before they request clearance. Aircraft wishing to conduct circuits or other operations remaining entirely on the ADC frequency, should be marked as [local strips](#local-flights).
 
 !!! tip 
     With a strip selected, press `F` to flip it between Departure, Arrival, and Local states.
