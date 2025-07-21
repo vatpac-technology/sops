@@ -8,7 +8,7 @@
 
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
-| **Nadi Control** | **Nadi Control** | **120.900** | **NFFN_CTR** |
+| **Nadi Control** | **Nadi Control** | **120.100** | **NFFN_CTR** |
 
 ## Airspace
 <figure markdown>
