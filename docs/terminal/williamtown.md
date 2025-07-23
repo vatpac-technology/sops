@@ -54,7 +54,7 @@ Aircraft will be assigned a SID based on their cleared gate, as per below:
 | UKDIP | CLASSIC | `A090` at UKDIP |
 | OLVEP | CLASSIC | `F130` at OLVEP |
 
-See [coordination](#departures-1) for coordination requirements with ADC.
+See [coordination](#departures_1) for coordination requirements with ADC.
 
 ### SUA Gates
 There are 8 gates to facilitate departures and arrivals into surrounding training airspace, based on the WLM TACAN. 
