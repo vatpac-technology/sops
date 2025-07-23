@@ -138,13 +138,13 @@ The table below contains the estimated time from the initial waypoint to the fin
     | NONID | ADLIV/FLEMO | RIKNI | 8 |
     | NONID | UDISI/OPEXA | RIKNI | 10 |
 
-=== "PULGA"
+=== "PLUGA"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-    | PULGA | OLNOT | RIKNI | 2 |
-    | PULGA | ADBOK | RIKNI | 4 | 
-    | PULGA | PEBTU | RIKNI | 6 |
-    | PULGA | GORTA | RIKNI | 8 | 
+    | PLUGA | OLNOT | RIKNI | 2 |
+    | PLUGA | ADBOK | RIKNI | 4 | 
+    | PLUGA | PEBTU | RIKNI | 6 |
+    | PLUGA | GORTA | RIKNI | 8 | 
 
 
 #### Holding Fixes
