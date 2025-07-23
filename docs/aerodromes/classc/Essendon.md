@@ -39,8 +39,8 @@ ML TCU shall clear aircraft for approach via the appropriate arrival gate:
 
 | Runway | Arrival Gate |
 | ------ | ----------|
-| 26     | MONTY  |
-| 35     | MONTY |
+| 26     | MOSVO  |
+| 35     | MOSVO |
 | 17     | 5NM FINAL |
 | 08     | 5NM FINAL |
 
@@ -73,7 +73,7 @@ VFR arrivals from Class G shall be cleared (at not above `A015`) via:
 Circuits are to be flown at `A015`
 
 ## Separation
-EN ADC is responsible for **all separation** with YMML Traffic, including arrivals to RWY34 via the MONTY-SHEED track, and all potential arrivals, departures, and missed approach paths.  
+EN ADC is responsible for **all separation** with YMML Traffic, including arrivals to RWY34 via the MOSVO-SHEED track, and all potential arrivals, departures, and missed approach paths.  
 Some important points to note are that:  
 - Aircraft operating on or south of the 08/26 Centreline are separated with YMML 09/27 Traffic at all times  
 - Aircraft operating on or east of the 17/35 Centreline are **only** visually separated with YMML 16/34 Traffic in **Day VMC**  
@@ -109,9 +109,9 @@ YMEN ATIS identifiers only uses letters `A` through to `M`, due to nearby YMML u
 When an aircraft requests start clearance, the EN SMC controller shall coordinate with ML TCU to obtain the start clearance.
 
 #### Departures
-[Next](../../controller-skills/coordination.md#next) coordination is required from ED ADC to AD TCU for all aircraft **entering ML TCU CTA**.
+[Next](../../controller-skills/coordination.md#next) coordination is required from EN ADC to ML TCU for all aircraft **entering ML TCU CTA**.
 
-The Standard Assignable level from ED ADC to AD TCU is:
+The Standard Assignable level from EN ADC to ML TCU is:
 
 | Aircraft | Level |
 | -------- | ----- |

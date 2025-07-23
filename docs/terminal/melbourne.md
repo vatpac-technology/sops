@@ -97,8 +97,8 @@ To avoid conflicting with published departure procedures, aircraft not cleared v
 
 ### YMEN Arrivals
 IFR YMEN Arrivals shall be cleared via the following arrival gates:  
-Runway 26: `MONTY`  
-Runway 35: `MONTY`  
+Runway 26: `MOSVO`  
+Runway 35: `MOSVO`  
 Runway 17: `5NM FINAL`  
 Runway 08: `5NM FINAL`  
 
@@ -113,7 +113,7 @@ VFR YMEN Arrivals from ML TCU shall be cleared via any of the following arrival 
 
 ### LAHSO
 !!! warning "Important"
-    Due to its operational complexity, LAHSO **must be authorised by a member of the VATPAC ATS or Events Staff Team or a C3-rated controller**.
+    Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
 
 Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../controller-skills/runwaymanagement.md#lahso) for more information.
 
@@ -206,32 +206,65 @@ Due to the low level of CTA surrounding YMMB, it is best practice to give airway
     **AAC:** "Cleared to YBLT via SAMIG, flight planned route, climb to A040, AAC"
 
 ## Flow
-The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**, which can be used to plan sequencing actions within the TCU.
+### Local Knowledge
+- Aircraft from the south may be issued the PORTS STAR in lieu of the RAZZI STAR to reduce track miles to runways 09 and 34
+- In lieu of a STAR, aircraft from the west may be radar vectored via a right circuit to runway 16 to reduce track miles
+- Aircraft via RAZZI or ALAXO may be issued the Mike/Papa STAR to reduce track miles to runway 16
+- Aircraft from the northeast may be issued RWY 27 or direct to the IAF of the RNP-M RWY 16 to reduce track miles *(coordination required)*
+- LAHSO runway mode will increase arrival rate (see [activation prerequisites](#lahso) for specific LAHSO approvals required)
 
-The times assume there is *Nil wind*. The data is for **Jets**, although there are **Non-Jet** adjustments listed below.
+### Flow Tables
+The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
-| Feeder Fix | 09  | 16  | 27  | 34  |
-| ---------- | --- | --- | --- | --- |
-| BOYSE†     | 16  | 13  | 11  | 14  |
-| LIZZI      | 15  | 12  | 10^ | 13  |
-| WAREN      | 16  | 13  | 9^  | 10^ |
-| PORTS      | 11^ | -   | -   | 7^  |
-| WENDY      | 11^ | 17  | 15  | 12  |
-| ARBEY      | 11^ | 9^  | 12  | 13  |
+=== "Jets & DH8D"
+    | STAR | RWY 09 | RWY 16 | RWY 27 | RWY 34 |
+    | ---------- | :---: | :--: | :--: | :---: |
+    | **ARBEY**      | 11^ | 9^  | 12 | 13 |
+    | **BOYSE A**    | 16 | 13 | 11 | 14 |
+    | **BOYSE V**    | -  | -  | -  | 13 |
+    | **BOOIN A**    | 15 | 12 | 10^ | 13 |
+    | **BOOIN V**    | -  | -  | -  | 12 |
+    | **RAZZI A/V**  | 16 | 13 | 9^  | 10^ |
+    | **RAZZI M**    | -  | 11 | -  | -  |
+    | **PORTS**      | 11 | -  | -  | 7^  |
+    | **ALAXO A**    | 11^ | 17 | 15 | 12 |
+    | **ALAXO P**    | -  | 15 | -  | -  |
 
-- †BOYSE STAR only available to Non-Jets  
-- 09A/16A IAF - Threshold is **4 minutes**  
-- 27A/34A IAF - Threshold is **3.5 minutes**  
-- Add **1 minute** for aircraft assigned a reduced speed, Except ^  
-- For **Non-Jets** (except **DH8D**);
-    - Add **2 minutes** (Except ^)
-    - Add only **1 minute** for ^
-- Subtract **1 minute** for MX or CSR  
-- Subtract **1 minute** for aircraft on the Runway 34 **Victor** STAR  
-- Subtract **2 minutes** for aircraft on the Runway 16 **Mike/Papa** STARs  
+=== "Non-Jets"
+    | STAR | RWY 09 | RWY 16 | RWY 27 | RWY 34 |
+    | ---------- | :---: | :--: | :--: | :---: |
+    | **ARBEY**      | 12^ | 10^ | 14 | 15 |
+    | **BOYSE A**    | 18 | 15 | 13 | 16 |
+    | **BOYSE V**    | -  | -  | -  | 15 |
+    | **BOOIN A**    | 17 | 14 | 11^ | 15 |
+    | **BOOIN V**    | -  | -  | -  | 14 |
+    | **RAZZI A/V**  | 18 | 15 | 10^ | 11^ |
+    | **RAZZI M**    | -  | 13 | -  | -  |
+    | **PORTS**      | 12 | -  | -  | 8^  |
+    | **ALAXO A**    | 12^ | 19 | 17 | 14 |
+    | **ALAXO P**    | -  | 17 | -  | -  |
 
-!!! note
-    The adjustments above are **cumulative**. For example, an aircraft with a **MX** on the **16M STAR**, would have **3 minutes** subtracted in total
+#### Corrections
+
+| Situation | Correction |
+| ----- | ----- |
+| Assigned a reduced speed | +1 min, *except ^* | 
+| Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
+
+#### Assumptions
+- Nil wind
+- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR
+
+### Calculator
+<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
+The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
+
+=== "Landing Time"
+    <div class="flowCalculatorLandingTime" data-aerodrome="YMML"></div>
+
+=== "Feeder Fix Time"
+    <div class="flowCalculatorFeederFixTime" data-aerodrome="YMML"></div>
+
 
 ## Coordination
 ### Enroute
@@ -281,7 +314,7 @@ All other aircraft coming from Enroute CTA will be **Heads-up** Coordinated to M
 - Assigned the **ISPEG** SID  
     - Departing from Runway 16 during the 16A27D Runway Mode; and  
     - Assigned `A050`; and  
-    - Tracking via **MNG**, **NONIX**, **DOSEL**, **KEPPA**, **NEVIS** or **ESDIG**
+    - Tracking via **MNG**, **NONIX**, **DOSEL**, **KEPPA**, **PEDNI** or **ESDIG**
 
 All other aircraft require a 'Next' call to ML TCU.
 
@@ -295,11 +328,11 @@ The Standard Assignable level from **ML ADC** to **ML TCU** is:
 The following Standard Assignable Headings may be used for aircraft assigned the ML (RADAR) SID, depending on their direction of travel.
 
 | Runway | W | NE | SE | S |
-| ---- | ---- | ---- | ---- | ---- |
-| 09* | - | - | - | - |
-| 16** | 290 | 290 | 160 | 260 |
-| 27 | 320 | 290 | 260 | 260 |
-| 34 | 340 | 340 | 340 | 260 |
+| ---- | :----: | :----: | :----: | :----: |
+| RWY 09* | - | - | - | - |
+| RWY 16** | H290 | H290 | H160 | H260 |
+| RWY 27 | H320 | H290 | H260 | H260 |
+| RWY 34 | H340 | H340 | H340 | H260 |
 
 *When Runway 09 is in use for departures, ML TCU shall nominate a heading to ML ADC for use as a standard assignable heading.
 
@@ -348,9 +381,9 @@ EN ADC is responsible for the Class C airspace shown below, `SFC` to `A020`.
 When an aircraft requests start clearance, the EN SMC controller shall coordinate with ML TCU to obtain the start clearance.
 
 #### Departures
-[Next](../controller-skills/coordination.md#next) coordination is required from ED ADC to AD TCU for all aircraft **entering ML TCU CTA**.
+[Next](../controller-skills/coordination.md#next) coordination is required from EN ADC to ML TCU for all aircraft **entering ML TCU CTA**.
 
-The Standard Assignable level from ED ADC to AD TCU is:
+The Standard Assignable level from EN ADC to ML TCU is:
 
 | Aircraft | Level |
 | -------- | ----- |
@@ -367,7 +400,7 @@ IFR aircraft will be cleared for the coordinated approach (Instrument or Visual)
 !!! Note
     For aircraft not tracking via an Arrival Gate, ML TCU is required to coordinate descent of aircraft into EN ADC airspace.
 
-When “The Coffin” is released, ML TCU is required to coordinate any use of Runway 27 to EN ADC prior to use.
+When "The Coffin" is released, ML TCU is required to coordinate any use of Runway 27 to EN ADC prior to use.
 
 ### AV ADC
 #### Departures

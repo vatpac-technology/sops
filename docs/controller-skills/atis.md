@@ -63,12 +63,12 @@ title: ATIS Abbreviations
 |RNP	|R N P|
 |RWY	|Runway|
 |RWYS	|Runways|
-|**Runway Number** L AND R|	**Runway Number** Left and Right|
-|**Runway Number** L AND C|	**Runway Number** Left and Centre|
-|**Runway Number** C AND R|	**Runway Number** Centre and Right|
-|**Runway Number** L	|**Runway Number** Left|
-|**Runway Number** R	|**Runway Number** Right|
-|**Runway Number** C|	**Runway Number** Centre|
+|**[Runway Number]**L AND R|	**[Runway Number]** Left and Right|
+|**[Runway Number]**L AND C|	**[Runway Number]** Left and Centre|
+|**[Runway Number]**C AND R|	**[Runway Number]** Centre and Right|
+|**[Runway Number]**L	|**[Runway Number]** Left|
+|**[Runway Number]**R	|**[Runway Number]** Right|
+|**[Runway Number]**C|	**[Runway Number]** Centre|
 |SEV	|Severe|
 |SIMUL	|Simultaneous|
 |THRU|	Through|

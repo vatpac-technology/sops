@@ -68,7 +68,8 @@ The standard inital points are 5nm downwind of the active runway, dead side, lef
 ### SY TCU
 [Next](../../controller-skills/coordination.md#next) coordination is required from RI ADC to SY TCU for all aircraft **entering SY TCU CTA**.
 
-The Standard Assignable Level from **RI ADC** to **SY TCU** is:
+The Standard Assignable Level from **RI ADC** to **SY TCU** is:  
+
 | Aircraft | Level |
 | -------- | ----- |
-| All | The lower of `A050` and `RFL` | 
+| All | The lower of `A050` and `RFL` |

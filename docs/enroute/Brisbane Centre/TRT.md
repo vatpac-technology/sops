@@ -57,9 +57,14 @@ All of which are reclassified as **Class C** when active, and TN APP has Control
     Due to the large geographical area covered by this sector and it's neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
     
 ## Sector Responsibilities
-TRT and TRS are responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YPDN.  
-ASH is responsible for issuing descent and ascertaining arrival intentions for aircraft bound for YBRM.
-ASH is also responsible for sequencing and issuing descent to aircraft bound for YCIN.
+### YPDN Arrivals
+TRT and TRS are responsible for sequencing, issuing STAR Clearances, and issuing descent.
+
+### YBRM Arrivals
+ASH is responsible for issuing descent.
+
+### YCIN Arrivals
+ASH is responsible for issuing descent.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -78,12 +83,11 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 
 ### LAHSO
 !!! warning "Important"
-    Due to its operational complexity, LAHSO **must be authorised by a member of the VATPAC ATS or Events Staff Team or a C3-rated controller**.
+    Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
 
 In accordance with the authorisation requirements above, YPDN may utilise LAHSO during exceptionally busy events. Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../../controller-skills/runwaymanagement/#lahso) for more information.
 
 ## Coordination
-
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 

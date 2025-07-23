@@ -119,7 +119,7 @@ With **Runways 28 or 10** in use, **Area A** shall be designated as the active h
     With **Runways 28 or 10** in use and a large number of helicopters operating in **Area A**, it may be beneficial to instead utilise both **Areas B & C** concurrently.
 
 ### Departures
-Helicopters depart the zone via any of the [designated outbound routes](#vfr-departure-procedures). Departures shall be parallel to and clear of the duty runways.   
+Helicopters depart the zone via any of the [designated outbound routes](#departures). Departures shall be parallel to and clear of the duty runways.   
 
 #### Uni Departure
 Departures with intended entry into BN CTR northbound shall depart the zone via the **Uni Departure**. Aircraft on the Uni Departure depart via UQLD at `A010`, then contact BN TCU for airways clearance. No heads-up coordination with BN TCU is required.
@@ -130,7 +130,7 @@ Departures with intended entry into BN CTR northbound shall depart the zone via 
     **TUY:** "Cleared for takeoff, northen pad, TUY"
 
 ### Arrivals
-Helicopters enter the zone from any of the [designated inbound reporting points](#vfr-arrival-procedures). Pilots shall nominate their desired HLS on first contact with AF ADC. If necessary, helicopters may be instructed to overfly the runway complex not below `A005` for a short circuit to the designated HLS.
+Helicopters enter the zone from any of the [designated inbound reporting points](#arrivals). Pilots shall nominate their desired HLS on first contact with AF ADC. If necessary, helicopters may be instructed to overfly the runway complex not below `A005` for a short circuit to the designated HLS.
 
 !!! phraseology 
     **82Y:** "Archer Tower, helicopter 82Y, UQLD A010, recieved Foxtrot, inbound northern pad"  

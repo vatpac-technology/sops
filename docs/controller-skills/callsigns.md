@@ -26,6 +26,7 @@ This page lists some of the most commonly used callsigns in Australia.
 | HND | HINTERLAND |
 | JTE  | JETEX |
 | JST | JETSTAR |
+| LR | LINKAIR |
 | NV  | NAVAIR |
 | NWK  | NETLINK |
 | PE | PELICAN |

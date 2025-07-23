@@ -19,6 +19,11 @@
 WLM TCU owns the airspace within the WLM MIL CTR `SFC` to `F125`.
 
 When WLM TCU is active above `F125` by ad-hoc release or NOTAM, **WLM-L_APP** owns the airspace `SFC` to `F125`, while **WLM APP** owns the rest of WLM TCU airspace above `F125`. This may be adjusted as required with coordination.
+=======
+By default, WLM TCU owns the airspace from `SFC` to `F125`. In exceptional circumstances, such as specific military exercises or events, an additional TCU controller may log on, splitting the TCU vertically. In these situations, the controller should negotiate an upper limit with ARL(All) which works for both parties.
+
+When WLM TCU is active above `F125` by ad-hoc release, **WLM-L_APP** owns the airspace from `SFC` to `F125`, while **WLM_APP** owns the rest of WLM TMA above `F125`.
+
 
 <figure markdown>
 ![WLM TCU Airspace](img/wlmtcu.png){ width="700" }
@@ -53,6 +58,61 @@ Fast jet aircraft typically transit from M550 to YWLM via Gate 6 at `F125`. When
 ## Charts
 !!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
+
+## Flow
+### Local Knowledge
+- Aircraft may be assigned the Romeo or Victor STAR to reduce track miles
+- During VMC by day, aircraft may be instructed to track for a visual base to either runway
+
+### Flow Tables
+The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
+
+=== "Jets & DH8D"
+    | STAR         | RWY 12 | RWY 30 |
+    | ------------ | :----: | :----: |
+    | **ASUVA**    | 15     | 7^     |
+    | **EKIPU**    | 12^    | 11^    |
+    | **IVTAG R/V**<br>*EKIPU transition*<br>*OVLUX transition*<br>*PUDUT transition*    | <br>-<br>-<br>-     | <br>8\^<br>8\^<br>9^     |
+    | **LAXUM A**  | 9^     | 15     |
+    | **LAXUM B**  | 11^    | 18     |
+    | **LAXUM R**  | 8^     | 11^    |
+    | **LAXUM V**  | 8^     | 11^    |
+    | **OVLUX**    | 11^    | 11^    |
+    | **PUDUT**    | 9^     | 12^    |
+
+=== "Non-Jets"
+    | STAR         | RWY 12 | RWY 30 |
+    | ------------ | :----: | :----: |
+    | **ASUVA**    | 17     | 8^     |
+    | **EKIPU**    | 13^    | 12^    |
+    | **IVTAG R/V**<br>*EKIPU transition*<br>*OVLUX transition*<br>*PUDUT transition*    | <br>-<br>-<br>-     | <br>9\^<br>9\^<br>10^     |
+    | **LAXUM A**  | 10^    | 17     |
+    | **LAXUM B**  | 12^    | 21     |
+    | **LAXUM R**  | 9^     | 12^    |
+    | **LAXUM V**  | 9^     | 13^    |
+    | **OVLUX**    | 13^    | 13^    |
+    | **PUDUT**    | 10^    | 13^    |
+
+#### Corrections
+
+| Situation | Correction |
+| ----- | ----- |
+| Assigned a reduced speed | +1 min, *except ^* | 
+| Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
+
+#### Assumptions
+- Nil wind
+- The feeder fix for all STARs is the assigned STAR transition waypoint (if applicable), otherwise the waypoint coinciding with the STAR title
+
+### Calculator
+<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
+The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
+
+=== "Landing Time"
+    <div class="flowCalculatorLandingTime" data-aerodrome="YWLM"></div>
+
+=== "Feeder Fix Time"
+    <div class="flowCalculatorFeederFixTime" data-aerodrome="YWLM"></div>
 
 ## Coordination
 ### ARL(All)
@@ -105,5 +165,5 @@ The Standard Assignable level from WLM ADC to WLM TCU is:
 Voiceless coordination is in place from WLM TCU to WLM ADC for arrivals cleared for an approach on to a runway nominated on the ATIS. All other aircraft and all overfliers must be heads-up coordinated as soon as practical.
 
 !!! phraseology
-    <span class="hotline">**WLM TCU** -> **WLM ADC**</span>: "via WLM, ZULU, Close formation of 5, do you have any restrictions or requirements?”  
+    <span class="hotline">**WLM TCU** -> **WLM ADC**</span>: "via WLM, ZULU, Close formation of 5, do you have any restrictions or requirements?"  
     <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "ZULU, no restrictions or requirements, A040"  

@@ -47,7 +47,7 @@ The divisions of the airspace between **PHA**, and **PHD** change based on the R
 </figure>
 
 ## Runway Modes
-Generally, YPPH operates on either the Southwest or Northeast runway plan, as below. Where strong winds dictate the use of only a single runway, this shall be nominated in the ATIS.
+Generally, YPPH operates on either the Southwest or Northeast runway plan, as below. Where strong winds dictate the use of only a single runway, this will be nominated in the ATIS.
 
 ### Southwest Plan
 With the Southwest Plan active, all departures shall be assigned runway 21 by **PH ACD**. Arrivals shall be processed to either runway 21 or 24 based on their feeder fix, as per the table below:
@@ -57,9 +57,12 @@ With the Southwest Plan active, all departures shall be assigned runway 21 by **
 | JULIM | 21 |
 | SAPKO | 21 |
 | IPMOR | 21 |
-| KABLI | 24 (or 21 if operationally required) |
+| KABLI | 24 |
 | LAVEX | 24 |
 | SOLUS | 24 |
+
+!!! note
+    Where an aircraft operationally requires runway 21, they shall be assigned that runway regardless of feeder fix.
 
 ### Northeast Plan
 With the Northeast Plan active, departures via `AVNEX`, `OTLED`, `OLMAM`, `SOLUS`, and `OPEGA` shall be assigned runway 03 by **PH ACD**. All other departures shall be assigned runway 06. All arrivals shall be processed to runway 03.
@@ -82,8 +85,8 @@ Aircraft wishing to conduct a scenic flight over the Perth CBD should be cleared
     **VH-CYF:** "Squawk 0542, remain OCTA, CYF"  
 
     *When clearance (reference traffic into/out of YPPH) is available:*  
-    **PHA:** "CYF, cleared Victor 65, maintain A015"  
-    **VH-CYF:** "Cleared Victor 65, maintain A015, CYF"
+    **PHA:** "CYF, cleared Victor 65, maintain A015, QNH 1012"  
+    **VH-CYF:** "Cleared Victor 65, maintain A015, QNH 1012, CYF"
 
 Aircraft departing YPPH and intending to conduct the Victor 65 route will be coordinated by **PH ACD**. See [Airways Clearances](#airways-clearances).
 
@@ -106,6 +109,86 @@ Aircraft departing the TMA to the south planned at `F130` or above will likely l
 !!! phraseology
     **PHD**: "RXA2125, leave and re-enter controlled airspace on climb to F180, no reported IFR traffic"  
     **RXA2125**: "Leave and re-enter controlled airspace on climb to F180, RXA2125"
+
+## Flow
+### Local Knowledge
+- Aircraft can be assigned the Xray or Victor STAR to reduce track miles
+- Aircraft for RWY 21 can be radar vectored to the opposite side arc IAF to increase track miles in the TMA
+
+### Flow Tables
+The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
+
+=== "Jets"
+    | STAR       | RWY 03 | RWY 06 | RWY 21 | RWY 24 |
+    | ---------- | :-----: | :-----: | :-----: | :-----: |
+    | **IPMOR A**<br>*Feeder Fix: KAGMI*    | <br>17     | <br>14     | <br>15     | <br>17     |
+    | **JULIM A**    | 17     | 19     | 10^    | 10^    |
+    | **JULIM V**    | 15     | 16     | -      | -      |
+    | **JULIM X**    | 15     | -      | -      | -      |
+    | **KABLI A**    | 15     | 16     | 15     | 15     |
+    | **KABLI V**    | 13     | 14     | -      | -      |
+    | **KABLI X**    | 13     | -      | -      | -      |
+    | **SOLUS A**    | 11^    | 12     | 14     | 12^    |
+    | **SOLUS V**    | 10^    | 11^    | -      | -      |
+    | **SOLUS X**    | 10^    | -      | -      | -      |
+
+=== "DH8D"
+    | STAR       | RWY 03 | RWY 06 | RWY 21 | RWY 24 |
+    | ---------- | :-----: | :-----: | :-----: | :-----: |
+    | **DAYLR A**    | 12^    | 13     | -      | -      |
+    | **DAYLR V**    | 10^    | 11^    | -      | -      |
+    | **DAYLR X**    | 10^    | -      | -      | -      |
+    | **IPMOR A**<br>*Feeder Fix: KAGMI*    | <br>17     | <br>14     | <br>15     | <br>17     |
+    | **LAVEX A**    | 16     | 17     | 14     | 13     |
+    | **LAVEX V**    | 14     | 14     | -      | -      |
+    | **LAVEX X**    | 13     | -      | -      | -      |
+    | **SAPKO A**    | 18     | 19     | 10^    | 10^    |
+    | **SAPKO V**    | 15     | 16     | -      | -      |
+    | **SAPKO X**    | 15     | -      | -      | -      |
+    | **SOLUS A**    | 11^    | 12     | 14     | 12^    |
+    | **SOLUS V**    | 10^    | 11^    | -      | -      |
+    | **SOLUS X**    | 10^    | -      | -      | -      |
+
+=== "Non-Jets"
+    | STAR       | RWY 03 | RWY 06 | RWY 21 | RWY 24 |
+    | ---------- | :-----: | :-----: | :-----: | :-----: |
+    | **DAYLR A**    | 13^    | 15     | -      | -      |
+    | **DAYLR V**    | 12^    | 13^    | -      | -      |
+    | **DAYLR X**    | 11^    | -      | -      | -      |
+    | **IPMOR A**<br>*Feeder Fix: KAGMI*    | <br>19     | <br>16     | <br>17     | <br>20     |
+    | **LAVEX A**    | 18     | 20     | 16     | 15     |
+    | **LAVEX V**    | 15     | 16     | -      | -      |
+    | **LAVEX X**    | 15     | -      | -      | -      |
+    | **SAPKO A**    | 20     | 22     | 11^    | 11^    |
+    | **SAPKO V**    | 17     | 18     | -      | -      |
+    | **SAPKO X**    | 17     | -      | -      | -      |
+    | **SOLUS A**    | 12^    | 14     | 16     | 14^    |
+    | **SOLUS V**    | 12^    | 13^    | -      | -      |
+    | **SOLUS X**    | 11^    | -      | -      | -      |
+
+#### Corrections
+
+| Situation | Correction |
+| ----- | ----- |
+| Assigned a reduced speed | +1 min, *except ^* | 
+| Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
+
+#### Assumptions
+- Nil wind
+- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except:
+    - The feeder fix for the IPMOR STAR is **KAGMI**
+- Aircraft on the SOLUS STAR to RWY 21/24 will be vectored from MOCUR to the IAF for ILS
+- Aircraft on the IPMOR STAR to RWY 24 will be vectored from WOOFY to the IAF for the ILS
+
+### Calculator
+<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
+The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
+
+=== "Landing Time"
+    <div class="flowCalculatorLandingTime" data-aerodrome="YPPH"></div>
+
+=== "Feeder Fix Time"
+    <div class="flowCalculatorFeederFixTime" data-aerodrome="YPPH"></div>
 
 ## Coordination
 ### Enroute

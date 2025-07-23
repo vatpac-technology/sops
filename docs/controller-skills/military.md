@@ -7,7 +7,7 @@ title: Military/Restricted Operations
 ## Special Use Airspace (SUA)
 SUAs, formerly known as Restricted Areas (RAs), are scattered all over Australian airspace. In real life, they can be used for many different purposes, including, but not limited to:
 
-- Military Activity (Most common)
+- Military Activity (most common)
 - Live Firing
 - Airshows
 - Operationally Restricted Airspace
@@ -128,6 +128,7 @@ MARSA is to be assigned and terminated on pilots request, and when standard sepe
 !!! note
     Military aircraft normally operate NOCOM in military Restricted Areas and Class G airspace only. **Do not** permit NOCOM operations in Civil CTA.
 
+
 ## Stereo Approaches
 Stereo Approaches are the primary procedure for fighter & strike aircraft (e.g. F18, HAWK, PC21) recovering back to airbases after operations in SUA. Aircraft track from specified SUA exit gates where they join the procedure, tracking along charted TACAN arcs/radials which position them for an initial and pitch or instrument approach.
 
@@ -137,3 +138,41 @@ Stereo Approach charts can be found in the [RAAF TERMA](https://ais-af.airforce.
 
 ## Initial and Pitch Procedures
 Reserved.
+=======
+
+## Initial and Pitch 
+The Initial and Pitch is a military visual approach to the circuit area. Military aircraft approach on the deadside, parallel to the extended runway centreline at high speed (the **initial**), then make a tight turn onto downwind (the **pitch**). Aircraft should be cleared for a visual approach via the relevant initial point by the **TCU controller** and transferred to ADC when appropriate. 
+
+To deconflict traffic, aircraft can be instructed to: 
+
+- Pitch short (abeam the landing threshold)
+- Pitch long (abeam the upwind threshold)
+
+!!! note
+    Refer to each aerodrome's SOPs for location-specific altitude and approach points.
+
+The initial can be commenced from a straight in position (straight initial) or a position left or right of the straight in position (left and right initial).
+
+<figure markdown>
+![Initial & Pitch](img/initialandpitch.png){ width="700" }
+  <figcaption>Initial & Pitch</figcaption>
+</figure>
+
+!!! phraseology
+    **ESA**: "VIPR47, track via left initial runway 27, cleared visual approach, at the initial, contact Sale Tower 118.3"  
+    **VIPR47**: "Track via left initial runway 27, cleared visual approach, at the initial, contact Sale Tower 118.3, VIPR47"
+
+By default, aircraft will pitch at the midfield point (about half way down the runway). However, if necessary, instruct aircraft to move their pitch point, which has the same effect as instructing a civil aircraft to extend their downwind leg or make a close circuit.
+
+- Pitch short (abeam the landing threshold)
+- Pitch long (abeam the upwind threshold)
+
+!!! phraseology
+    **VIPR47**: "Sale Tower, VIPR47"  
+    **ADC**: "VIPR47, pitch long"  
+    **VIPR47**: "Pitch long, VIPR47"
+
+    **VIPR47**: "VIPR47, Base 3 Greens"  
+    **ADC**: "VIPR47, runway 27, cleared to land"  
+    **VIPR47**: "Runway 27, Cleared to Land, VIPR47"
+

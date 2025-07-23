@@ -8,7 +8,7 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Wollongong** | **Melbourne Centre** | **125.000** | **ML-WOL_CTR** |
-| <span class="indented">Snowy :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 124.000 | ML-SNO_CTR |
+| <span class="indented">Snowy :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 120.750 | ML-SNO_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
@@ -57,10 +57,20 @@ See [Nowra Airspace](../../terminal/nowra.md#airspace) for more details about th
 
 ## Sector Responsibilities
 ### Wollongong (WOL)
-WOL is reponsible for issuing STAR clearances, initial descent, and sequencing actions for aircraft inbound to YSCB. WOL is also responsible for issuing STAR clearance to Non-jet aircraft for YSSY which depart from an aerodrome within the subsector.
+#### YSCB Arrivals
+WOL is responsible for issuing STAR clearances, descent, and sequencing actions.
+
+Refer to the [Sequencing into YSCB](#sequencing-into-yscb) notes below regarding adjacent Feeder Fixes.
+
+#### YSNW Arrivals
+WOL is responsible for issuing descent.
+
+#### YSSY Arrivals
+WOL is responsible for issuing STAR clearance to Non-jet aircraft for YSSY which depart from an aerodrome within the subsector.
     
 ### Snowy (SNO)
-SNO is reponsible for issuing STAR clearances and initial descent for aircraft bound for YSCB.
+#### YSCB Arrivals
+SNO is responsible for issuing STAR clearances and initial descent to not below `F130`.
 
 ### Sequencing into YSCB
 Aircraft assigned the **same runway** inbound via **LEECE** and **BUNGO**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.

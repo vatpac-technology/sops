@@ -18,6 +18,7 @@
 *[PRM]: Precision Runway Monitoring
 *[SODPROPS]: Simultaneous Opposite Direction Parallel Runway Operations
 *[PROPS]: Parallel Runway Operations
+*[RRO]: Reciprocal Runway Operations
 *[SMC]: Surface Movement Control (Ground Controller)
 *[ADC]: Aerodrome Control (Tower Controller)
 *[TCU]: Terminal Control Unit (Approach Controller)
@@ -55,8 +56,10 @@
 *[FIS]: Flight Information Service
 *[SIS]: Surveillance Information Service (Flight Following)
 *[ARP]: Aerodrome Reference Point
+*[DER]: Departure End of Runway
 *[SVFR]: Special VFR
 *[MTOW]: Maximum Takeoff Weight
+*[SDC]: Standard Departure Clearance
 *[AAW]: Adelaide Approach West
 *[AAE]: Adelaide Approach East
 *[BAC]: Brisbane (Gold Coast) Approach
@@ -124,6 +127,7 @@
 *[SWY]: Brisbane (Swampy) Centre
 *[TBP]: Brisbane (Tabletop) Centre
 *[WEG]: Brisbane (Warrego) Centre
+*[WIL]: Brisbane (Willis) Centre
 *[COL]: Brisbane (Coral) Radio
 *[FLD]: Brisbane (Flinders) Radio
 *[HWE]: Brisbane (Howe) Centre
@@ -165,6 +169,17 @@
 *[CSF]: Cairns Flow
 *[CBF]: Canberra Flow
 *[PFL]: Perth Flow
+*[AYPYA]: Jacksons Radar
+*[AYNZA]: Nadzab Approach
+*[NWWWA]: Tontouta Approach
+*[NWWWT]: Tontouta Approach (Terminal)
+*[NFFNA]: Nadi Approach
+*[NFNAA]: Nausori Approach
+*[AYNZ]: Nadzab
+*[AYGA]: Goroka
+*[AYMD]: Madang
+*[AYMH]: Mt Hagen
+*[AYTK]: Tokua
 *[GGO]: Goonoo Goonoo Station
 *[WBH]: Wallabadah
 *[NUN]: Nundle
@@ -296,6 +311,7 @@
 *[LSALT]: Lowest Safe Altitude
 *[FPR]: Flight Planned Route
 *[CIRA]: Circuit Area
+*[VPT]: Visual Manoeuvre with Prescribed Track
 *[ESL]: East Sale
 *[WSL]: West Sale
 *[RAAF]: Royal Australian Air Force
@@ -320,6 +336,7 @@
 *[MARSA]: Military Authority Assumes Responsibility for Separation of Military Aircraft
 *[NOCOM]: Non-Continuous Communication
 *[AEWC]: Airborne Early Warning and Control
+*[ATZ]: Aerodrome Traffic Zone
 *[NEN]: Nerang
 *[STOT]: Stotts Island
 *[HASS]: Hastings Point
@@ -328,3 +345,5 @@
 *[BLGH]: Burleigh Heads
 *[ROTC]: Robina Town Centre
 *[CGD]: Cudgen Headland
+*[MI NDB]: Momi
+*[VK NDB]: Navakai
