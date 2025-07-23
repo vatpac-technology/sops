@@ -156,15 +156,17 @@ Although the phraseology *"Hold at (waypoint)"* is standardised from the AIP `AI
     **BLA:** "VOZ888, hold at NABBA, inbound track 224 degrees, left hand pattern, outbound time 2 minutes, maintain FL200."  
     **VOZ888:** "Hold at NABBA, inbound track 224 degrees, left hand pattern, outbound time 2 minutes, maintain FL200,VOZ888"  
     ...  
-    **BLA:** "VOZ888, Cancel hold, cleared NABBA, BULLA, TAREX, BOOIN, to rejoin the STAR, maintain F300"  
-    **VOZ888:** "Cancel hold, cleared NABBA, BULLA, TAREX, BOOIN, to rejoin the STAR, maintain F300, VOZ888"
+    **BLA:** "VOZ888, cancel hold, recleared via NABBA, BULLA, TAREX, thence BOOIN to rejoin the STAR, maintain F300"  
+    **VOZ888:** "Cancel hold, recleared via NABBA, BULLA, TAREX, thence BOOIN to rejoin the STAR, maintain F300, VOZ888"
 
 It may be prudent to use another form of delaying action, other than holding, with aircraft that appear to be unable to fly a hold (use vectors).
 
 ## Predictable Sequencing 
-Through vectoring and holding, enroute controllers can effectively create and maintain an orderly sequence of arrivals. However, these techniques require pilots to fly a variable distance additional track miles until the required sequence is achieved. Pilots use the distance remaining to calculate their TOD and to maintain an appropriate descent profile, and the unpredictability of these delaying techniques—and how many extra miles will be flown—can make it more difficult for pilots to plan a smooth and orderly descent.
+Through vectoring and holding, enroute controllers can effectively create and maintain an orderly sequence of arrivals. However, these techniques require pilots to fly variable-distance tracks until the required delay is achieved. Pilots consider track miles remaining to plan and maintain a continuous descent profile, and the unpredictability of these sequencing techniques can make this calculation more difficult.
 
-As an alternative to vectoring and holding, controllers may reroute aircraft to predefined 'Predictable Sequencing' waypoints to delay an aircraft by discrete amount of time. Rerouting the aircraft allows the pilot to calculate the distance remaining more accurately, and therefore adjust their TOD and descent profile accordingly.
+As an alternative to vectoring and holding, controllers may reroute aircraft via predefined 'Predictable Sequencing' waypoints to delay an aircraft by a discrete amount of time. Rerouting the aircraft allows the pilot to calculate the distance remaining more accurately, and therefore adjust their TOD and descent profile accordingly.
+
+Predictable Sequencing waypoints may also be referred to as Continuous Descent Operations (CDO) waypoints.
 
 
 Predictable Sequencing waypoints have been defined for aircraft inbound to Perth (in [HYD](../../enroute/Melbourne Centre/HYD) airspace), Brisbane (in [KEN](../../enroute/Brisbane Centre/KEN) airspace), Sydney (in [ARL](../../enroute/Brisbane Centre/ARL) airspace), and Melbourne (in [BLA](../../enroute/Melbourne Centre/BLA) and [HUO](../../enroute/Melbourne Centre/HUO) airspace).
@@ -191,7 +193,7 @@ Predictable Sequencing waypoints have been defined for aircraft inbound to Perth
     **JST712:** "From AKTAM, recleared direct OSEMI thence RAZZI to rejoin the STAR, JST712" 
 	
 !!! tip
-    As pilots are unlikely to be familiar with these waypoints, controllers should consider spelling the waypoints phonetically to assist pilots identify the waypoint in their FMC.
+    As pilots are likely to be unfamiliar with these waypoints, controllers should consider spelling them phonetically to ensure correct data entry in their FMC.
 
 The Predictable Sequencing waypoints work best when the delay required to achieve the sequence is known *and not likely to change further*. If an aircraft might need further vectoring or holding action beyond the delay offered by a reroute, the technique should not be used.
 
