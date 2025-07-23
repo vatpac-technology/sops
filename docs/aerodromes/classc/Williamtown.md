@@ -11,7 +11,7 @@
 | **Williamtown ADC**    | **Willy Tower**  | **118.300**         | **WLM_TWR**        |
 | **Williamtown SMC**    | **Willy Ground**  | **121.800**         | **WLM_GND**        |
 | **Williamtown ACD**    | **Willy Delivery**  | **130.350**         | **WLM_DEL**       |
-| Williamtown ATIS    |   | 134.450         | YWLM_ATIS       |
+| **Williamtown ATIS**    |   | **134.450**         | **YWLM_ATIS**       |
 
 ## Airspace
 WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be amended/released as required between WLM ADC and WLM TCU.
@@ -86,15 +86,21 @@ The Intial Points for RWY 12 is the SW tip of Grahamstown Dam, and RWY 30 is the
 
 ## Coordination
 ### Departures
+
 'Next' coordination is **not** required from WLM ADC to WLM TCU for aircraft that are:  
 a) Departing from a runway nominated in the ATIS; and  
 b) Assigned the standard assignable level;  
 c) Assigned a **civil, procedural** SID  
 
-!!! phraseology
-    <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "Next, MVP"  
-    <span class="hotline">**WLM TCU** -> **WLM ADC**</span>: "MVP, Left Heading 010, Unrestricted"  
-    <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "Left Heading 010, MVP"  
+[Next](../../controller-skills/coordination.md#next) coordination is **not** required from WLM ADC to WLM TCU for aircraft that are:  
+
+
+- Departing from a runway nominated in the ATIS; and  
+- Assigned the standard assignable level; and 
+- Assigned a **Procedural** SID
+
+The Standard Assignable level from WLM ADC to WLM TCU is:
+
 
 The Standard Assignable level from WLM ADC to WLM TCU is:  
 a) the lower of `F120` or the `RFL`, for aircraft assigned a **civil** procedural or radar SID, or visual departure  
@@ -103,9 +109,20 @@ b) `F125`, for aircraft assigned a fast-jet SID
 #### CLASSIC SID
 The **CLASSIC SID** provides multiple tracking paths which pilots will take based on their departure instructions. During Next coordination with ADC, **WLM TCU** shall nominate a turn direction which will be relayed to the pilot with their takeoff clearance.
 
+| Aircraft | Level |
+| ------- | ----- |
+| All | The lower of `F120` and `RFL` |
+
+
 ### Arrivals/Overfliers
 Voiceless coordination is in place from WLM TCU to WLM ADC for arrivals cleared for an approach on to a runway nominated on the ATIS. All other aircraft and all overfliers must be heads-up coordinated as soon as practical.
 
 !!! phraseology
     <span class="hotline">**WLM TCU** -> **WLM ADC**</span>: "via WLM, ZULU, Close formation of 5, do you have any restrictions or requirements?”  
-    <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "ZULU, no restrictions or requirements, A040"  
+    <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "ZULU, no restrictions or requirements, `A040`"  
+
+### Departures Controller
+Where a single TCU controller is operating the WLM TMA, the departures controller shall be **WLM_APP** (frequency 133.300).
+
+Where the non-standard **WLM-L_APP** sector is online, they shall be the departures controller (frequency 135.700).
+

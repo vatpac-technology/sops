@@ -1,7 +1,5 @@
 /* Theme Adaptation */
 
-
-
 /*Primary Thematic Colors*/
 [data-md-color-scheme="default"] {
   --md-primary-fg-color: #344767;
@@ -44,7 +42,7 @@ h2 {
   padding-top: 1.0em;
   line-height: 1
 }
-h3, h4, h5, h6 {
+h3 {
   color: var(--md-primary-fg-color);
   margin-bottom: -1.0em;
   padding-bottom: -1.0em;
@@ -52,6 +50,31 @@ h3, h4, h5, h6 {
   padding-top: -1.0em;
   line-height: 1
 }
+h4 {
+  color: var(--md-primary-fg-color);
+  margin-bottom: -1.0em;
+  padding-bottom: -1.0em;
+  margin-top: -1.0em;
+  padding-top: -1.0em;
+  line-height: 1
+}
+h5 {
+  color: var(--md-primary-fg-color);
+  margin-bottom: -1.0em;
+  padding-bottom: -1.0em;
+  margin-top: -1.0em;
+  padding-top: -1.0em;
+  line-height: 1
+}
+h6 {
+  color: var(--md-primary-fg-color);
+  margin-bottom: -1.0em;
+  padding-bottom: -1.0em;
+  margin-top: -1.0em;
+  padding-top: -1.0em;
+  line-height: 1
+}
+
 .md-typeset > p,
 .md-typeset > ul,
 .md-typeset > ol {
@@ -119,4 +142,121 @@ h3, h4, h5, h6 {
 }
 .coldline {
   background-color: var(--coldline);
+}
+.indented {
+  display: block;
+  margin-left: 1em; /* Adjust the value for more or less indentation */
+}
+
+.md-typeset h3 { margin-left: var(--l3-indent); }
+.md-typeset h4 { margin-left: var(--l4-indent); }
+.md-typeset h5 { margin-left: var(--l5-indent); }
+.md-typeset h6 { margin-left: var(--l6-indent); }
+
+/* Indent body elements likely to follow headers */
+.md-typeset h2 ~ p,
+.md-typeset h2 ~ ul,
+.md-typeset h2 ~ ol,
+.md-typeset h2 ~ pre,
+.md-typeset h2 ~ blockquote {
+  margin-left: calc(var(--l2-indent) + 1em) !important;
+}
+
+.md-typeset h3 ~ p,
+.md-typeset h3 ~ ul,
+.md-typeset h3 ~ ol,
+.md-typeset h3 ~ pre,
+.md-typeset h3 ~ blockquote {
+  margin-left: calc(var(--l3-indent) + 1em) !important;
+}
+
+.md-typeset h4 ~ p,
+.md-typeset h4 ~ ul,
+.md-typeset h4 ~ ol,
+.md-typeset h4 ~ pre,
+.md-typeset h4 ~ blockquote {
+  margin-left: calc(var(--l4-indent) + 1em) !important;
+}
+
+.md-typeset h5 ~ p,
+.md-typeset h5 ~ ul,
+.md-typeset h5 ~ ol,
+.md-typeset h5 ~ pre,
+.md-typeset h5 ~ blockquote {
+  margin-left: calc(var(--l5-indent) + 1em) !important;
+}
+
+.md-typeset h6 ~ p,
+.md-typeset h6 ~ ul,
+.md-typeset h6 ~ ol,
+.md-typeset h6 ~ pre,
+.md-typeset h6 ~ blockquote {
+  margin-left: calc(var(--l6-indent) + 1em) !important;
+}
+
+.md-typeset h2 ~ .admonition {
+  margin-left: calc(var(--l2-indent) + 2em) !important;
+}
+
+.md-typeset h3 ~ .admonition {
+  margin-left: calc(var(--l3-indent) + 2em) !important;
+}
+
+.md-typeset h4 ~ .admonition {
+  margin-left: calc(var(--l4-indent) + 2em) !important;
+}
+
+.md-typeset h5 ~ .admonition {
+  margin-left: calc(var(--l5-indent) + 2em) !important;
+}
+
+.md-typeset h6 ~ .admonition {
+  margin-left: calc(var(--l6-indent) + 2em) !important;
+}
+
+.md-typeset {
+  --l2-indent: 0em;
+  --l3-indent: 1em;
+  --l4-indent: 2em;
+  --l5-indent: 3em;
+  --l6-indent: 4em;
+}
+
+/* Flow Calculator */
+form.flowCalculator {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  padding: 15px;
+  background-color: var(--md-card-a);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form.flowCalculator div.row {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 1em;
+    gap: 1em;
+}
+
+form.flowCalculator div.form-group {
+    flex: 1 1 25%;
+    min-width: 210px;
+}
+
+form.flowCalculator label {
+    display: block;
+    margin-top: 0.5em;
+    font-weight: 600;
+    color: var(--md-primary-fg-color);
+}
+
+form.flowCalculator input, select {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 0.5em;
+    font-family: inherit;
 }

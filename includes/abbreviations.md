@@ -18,6 +18,7 @@
 *[PRM]: Precision Runway Monitoring
 *[SODPROPS]: Simultaneous Opposite Direction Parallel Runway Operations
 *[PROPS]: Parallel Runway Operations
+*[RRO]: Reciprocal Runway Operations
 *[SMC]: Surface Movement Control (Ground Controller)
 *[ADC]: Aerodrome Control (Tower Controller)
 *[TCU]: Terminal Control Unit (Approach Controller)
@@ -55,8 +56,10 @@
 *[FIS]: Flight Information Service
 *[SIS]: Surveillance Information Service (Flight Following)
 *[ARP]: Aerodrome Reference Point
+*[DER]: Departure End of Runway
 *[SVFR]: Special VFR
 *[MTOW]: Maximum Takeoff Weight
+*[SDC]: Standard Departure Clearance
 *[AAW]: Adelaide Approach West
 *[AAE]: Adelaide Approach East
 *[BAC]: Brisbane (Gold Coast) Approach
@@ -77,6 +80,7 @@
 *[MAE]: Melbourne Approach East
 *[MDN]: Melbourne Departures North
 *[MDS]: Melbourne Departures South
+*[MAV]: Melbourne (Avalon) Approach
 *[PHA]: Perth Approach
 *[PHD]: Perth Departures
 *[SAN]: Sydney Approach North
@@ -123,6 +127,7 @@
 *[SWY]: Brisbane (Swampy) Centre
 *[TBP]: Brisbane (Tabletop) Centre
 *[WEG]: Brisbane (Warrego) Centre
+*[WIL]: Brisbane (Willis) Centre
 *[COL]: Brisbane (Coral) Radio
 *[FLD]: Brisbane (Flinders) Radio
 *[HWE]: Brisbane (Howe) Centre
@@ -164,6 +169,17 @@
 *[CSF]: Cairns Flow
 *[CBF]: Canberra Flow
 *[PFL]: Perth Flow
+*[AYPYA]: Jacksons Radar
+*[AYNZA]: Nadzab Approach
+*[NWWWA]: Tontouta Approach
+*[NWWWT]: Tontouta Approach (Terminal)
+*[NFFNA]: Nadi Approach
+*[NFNAA]: Nausori Approach
+*[AYNZ]: Nadzab
+*[AYGA]: Goroka
+*[AYMD]: Madang
+*[AYMH]: Mt Hagen
+*[AYTK]: Tokua
 *[GGO]: Goonoo Goonoo Station
 *[WBH]: Wallabadah
 *[NUN]: Nundle
@@ -191,6 +207,7 @@
 *[DSN]: Doncaster Shopping Town
 *[ADWD]: Adventure World
 *[TVT]: TV Towers
+*[SBD]: Story Bridge
 *[FREM]: Fremantle Golf Course
 *[YGB]: Yangebup Lake
 *[FDL]: Forestdale Lake
@@ -205,6 +222,7 @@
 *[CARR]: Carrum
 *[GMH]: GMH (General Motors Holden)
 *[ACE]: Academy
+*[SHOL]: Shoal
 *[CWST]: Choppers West
 *[CNTH]: Choppers North
 *[CSTH]: Choppers South
@@ -247,7 +265,7 @@
 *[HNLY]: Henley Jetty
 *[GRB]: Georges River Bridge
 *[GON]: Goodna
-*[PKR]: Park Ridge
+*[PKR]: Park Ridge Water Tower
 *[TAR]: Target
 *[CBRG]: Centenary Bridge
 *[WTBG]: Walter Taylor Bridge
@@ -293,6 +311,7 @@
 *[LSALT]: Lowest Safe Altitude
 *[FPR]: Flight Planned Route
 *[CIRA]: Circuit Area
+*[VPT]: Visual Manoeuvre with Prescribed Track
 *[ESL]: East Sale
 *[WSL]: West Sale
 *[RAAF]: Royal Australian Air Force
@@ -310,9 +329,25 @@
 *[CPDLC]: Controller-Pilot Datalink Communications
 *[LDA]: Landing Distance Available
 *[TORA]: Takeoff Run Available
+*[UQLD]: University of Queensland
+*[HLS]: Helicopter Landing Site
 *[BLHS]: Bald Hills
 *[MBHM]: Manly Boat Harbour
 *[MARSA]: Military Authority Assumes Responsibility for Separation of Military Aircraft
 *[NOCOM]: Non-Continuous Communication
 *[AEWC]: Airborne Early Warning and Control
+
 *[SAWR]: Salt Ash Air Weapons Range
+
+*[ATZ]: Aerodrome Traffic Zone
+*[NEN]: Nerang
+*[STOT]: Stotts Island
+*[HASS]: Hastings Point
+*[CIS]: Cook Island
+*[DNGR]: Point Danger
+*[BLGH]: Burleigh Heads
+*[ROTC]: Robina Town Centre
+*[CGD]: Cudgen Headland
+*[MI NDB]: Momi
+*[VK NDB]: Navakai
+

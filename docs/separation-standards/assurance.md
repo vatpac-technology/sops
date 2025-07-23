@@ -105,11 +105,11 @@ Unless a level has been "locked in" for an aircraft entering your airspace, for 
 - Receiving heads-up coordination; or
 - Being A Standard assignable level;
 
-Their CFL **cannot** be used for separation purposes. Certain aircraft may require additional time to plan restrictions, identify conflicts, etc (For example, as **ELW**, an aircraft cutting across the YMML departure/arrival path at F230), and this is where a **level check** may be useful. If you want to "lock in" a level for an aircraft coming from an adjacent sector, use the following phraseology:
+Their CFL **cannot** be used for separation purposes. Certain aircraft may require additional time to plan restrictions, identify conflicts, etc (For example, as **BLA**, an aircraft cutting across the YMML departure/arrival path at F230), and this is where a **level check** may be useful. If you want to "lock in" a level for an aircraft coming from an adjacent sector, use the following phraseology:
 
 !!! phraseology
-    **ELW** -> **YWE**: "Level Check, VOZ456, F360"  
-    **YWE** -> **ELW**: "VOZ456, F360"  
+    **BLA** -> **YWE**: "Level Check, VOZ456, F360"  
+    **YWE** -> **BLA**: "VOZ456, F360"  
 
 Any changes to VOZ456's level would now need to be coordinated by YWE, so no surprises!
 
@@ -155,7 +155,7 @@ It is best to always assign the *lowest possible level* on descent when taking i
 This reduces controller workload by reducing the number of calls required to facilitate an aircraft's descent, and reduces the likelihood of an aircraft having their descent profile interrupted if you get distracted and/or busy.
 
 !!! example
-    VOZ888 is tracking from Sydney to Melbourne via the Q29 airway to LIZZI for the LIZZI8A arrival runway 34. There are no conflicts on their route ahead, and the CTA LL is `A085`.
+    VOZ888 is tracking from Sydney to Melbourne via the Q29 airway to BOOIN for the BOOIN8A arrival runway 34. There are no conflicts on their route ahead, and the CTA LL is `A085`.
 
     "VOZ888, when ready, descend via the STAR to A090, QNH 1009."
 

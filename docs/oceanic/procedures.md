@@ -56,7 +56,8 @@ Controllers must check each aircraft’s flight plan for a discrete SELCAL code.
 After the SELCAL check has been completed, controllers must preface all communications to that aircraft with a SELCAL prompt.
 
 ## Position Reports
-A Position Report will contain the following elements:  
+A Position Report will contain the following elements: 
+ 
 - Callsign  
 - Position & Time  
 - Flight level  

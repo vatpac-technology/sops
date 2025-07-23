@@ -8,16 +8,18 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Territory North** | **Brisbane Centre** | **123.850** | **BN-TRT_CTR** |
-| Territory South† | Brisbane Centre | 133.200 | BN-TRS_CTR |
-| Ashmore† | Brisbane Centre | 133.400 | BN-ASH_CTR |
-| Kimberley† | Brisbane Centre | 132.100 | BN-KIY_CTR |
+| <span class="indented">Territory South :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 133.200 | BN-TRS_CTR |
+| <span class="indented">Ashmore :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 133.400 | BN-ASH_CTR |
+| <span class="indented">Kimberley :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 132.100 | BN-KIY_CTR |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
-The Primary Communication Method for ISA is [CPDLC](../../../client/cpdlc).
+The Primary Communication Method for TRT is [CPDLC](../../../client/cpdlc).
 
-The CPDLC Station Code is `YISA`.
+The CPDLC Station Code is `YTRT`.
 
 Voice may be used in lieu when applicable.
 
@@ -55,9 +57,14 @@ All of which are reclassified as **Class C** when active, and TN APP has Control
     Due to the large geographical area covered by this sector and it's neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
     
 ## Sector Responsibilities
-TRT and TRS are responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft bound for YPDN.  
-ASH is responsible for issuing descent and ascertaining arrival intentions for aircraft bound for YBRM.
-ASH is also responsible for sequencing and issuing descent to aircraft bound for YCIN.
+### YPDN Arrivals
+TRT and TRS are responsible for sequencing, issuing STAR Clearances, and issuing descent.
+
+### YBRM Arrivals
+ASH is responsible for issuing descent.
+
+### YCIN Arrivals
+ASH is responsible for issuing descent.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -74,8 +81,13 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | ---- | -------- | --------- | --------- |
 | KIY, ASH, ISA(ARA/STR) | TRT, TRS | YPDN | |
 
-## Coordination
+### LAHSO
+!!! warning "Important"
+    Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
 
+In accordance with the authorisation requirements above, YPDN may utilise LAHSO during exceptionally busy events. Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../../controller-skills/runwaymanagement/#lahso) for more information.
+
+## Coordination
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
@@ -114,14 +126,13 @@ All other aircraft going to TRT CTA will be **Heads-up** Coordinated by DN TCU.
 BRM ADC is responsible for the Class D airspace `SFC` to `A055`, as well as the Class E airspace `1200ft AGL` to `A055`, within the BRM CTR.
 
 #### Departures
-Departures from YBRM in to ASH CTA will be coordinated when ready for departure.  
+[Next](../../controller-skills/coordination.md#next) coordination is required from BRM ADC to TRT(ASH) for all aircraft **entering TRT(ASH) CTA**.
 
-!!! phraseology
-    <span class="hotline">**BRM ADC** -> **ASH**</span>: "Next, ANO333"  
-    <span class="hotline">**ASH** -> **BRM ADC**</span>: "ANO333, Unrestricted"  
-    <span class="hotline">**BRM ADC** -> **ASH**</span>: "ANO333"  
+The Standard Assignable level from **BRM ADC** to **TRT(ASH)** is:
 
-The Standard Assignable level from BRM ADC to TRT(ASH) is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A050` and `RFL` |
 
 #### Arrivals
 YBRM arrivals shall be heads-up coordinated to **BRM ADC** from TRT prior to **5 mins** from the boundary.

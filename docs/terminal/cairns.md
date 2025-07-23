@@ -9,10 +9,12 @@
 | Name               | ID      | Callsign       | Frequency        | Login ID              |
 | ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
 | **Cairns Approach 1**    |**CS1**| **Cairns Approach**   | **118.400**         | **CS_APP**          |
-| Cairns Approach 2†    |CS2| Cairns Approach  | 126.100         | CS-W_APP          |
-| Cairns Flow†        |CSF|                |          | CS_FMP                              |
+| <span class="indented">Cairns Approach 2 :material-information-outline:{ title="Non-standard position"}    |CS2| Cairns Approach  | 126.100         | CS-W_APP          |
+| <span class="indented">Cairns Flow :material-information-outline:{ title="Non-standard position"}        |CSF|                |          | CS_FMP                              |
 
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
 The vertical limits of the CS TCU are `SFC` to `F180`. **CS ADC** is responsible for the airspace within the CS CTR from `SFC` to `A010`.
@@ -36,9 +38,7 @@ The divisions of the airspace between **CS1** and **CS2** change based on the ru
 </figure>
 
 ## Departure Procedures
-
 ### IFR Departures
-
 IFR aircraft shall be processed via one of the following SIDs:
 
 a) RWY 15, Jets via AKROM: AKROM SID. Non-Jets via NONUM: NONUM SID  
@@ -97,50 +97,88 @@ Aircraft cleared via the KEEWI Victor STAR or otherwise approaching from the nor
     **CS TCU**: "JCI, contact Cairns Tower on 124.9"  
     **VH-JCI**: "124.9, JCI"
 
-### Flow Control
-It is the responsibility of Flow to sequence all Cairns inbound traffic requiring the runway. This includes aircraft arriving through the Class G airspace, unless ADC agrees to take the aircraft un-sequenced.  
+## Flow
+### Local Knowledge
+- Aircraft can be assigned the Xray or Victor STAR to reduce track miles
+- Aircraft from the west/southwest can be assigned the TOTTY W STAR to reduce track miles
+- With RWY 33 in use, aircraft via NONUM may be recleared DCT TOTTY for the TOTTY W STAR or DCT VEKBI for the HENDO A STAR
 
-The minimum flow spacing to the same runway shall be 3 minutes. Sight-and-follow or flow spacing of less than **3 minutes** must be approved by ADC. TCU shall ensure changes to the sequence inside 36nm of CS are coordinated with ADC. This responsibility may be delegated to Flow.  
-  
-Flow instructions shall be based on Feeder Fix times. The following points are the FF to be used:  
-- KONDA, CABRA, LAKED, DREWS, LOCKA, ZANEY, BARIA, FISHY, NORMA, BULOK  
-- 40 Miles CS for all other tracks.
+
+### Flow Tables
+The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
+
+=== "RWY 15"
+    | STAR       | Jets & DH8D | Non-Jets |
+    | ---------- | :------: | :------: |
+    | **CODIE A**<br>*ANDOP transition*<br>*AVDAN transition*<br>*LOCKA transition*<br>*OVLET transition*<br>*PUNIT transition*<br>*ZANEY transition*    | <br>14<br>12<br>13<br>13<br>14<br>14     | <br>15<br>14<br>14<br>14<br>16<br>15     |
+    | **KASPI B/V**<br>*ANDOP transition*<br>*AVDAN transition*<br>*LOCKA transition*<br>*OVLET transition*<br>*PUNIT transition*<br>*ZANEY transition*    | <br>15<br>13<br>12<br>14<br>15<br>12     | <br>17<br>15<br>14<br>15<br>17<br>14     |
+    | **NONUM A**<br>*Feeder Fix: NONUM*<br>*Feeder Fix: MUSEY*<br>*Feeder Fix: NORMA*    | <br>9^<br>15<br>18 | <br>11^<br>17<br>20 |
+    | **NONUM V**<br>*Feeder Fix: NONUM*<br>*Feeder Fix: MUSEY*<br>*Feeder Fix: NORMA*    | <br>12^<br>17<br>20 | <br>13^<br>19<br>23 |
+    | **NONUM W**<br>*Feeder Fix: NONUM*<br>*Feeder Fix: MUSEY*<br>*Feeder Fix: NORMA*    | <br>9^<br>14<br>17 | <br>10^<br>16<br>19 |
+    | **UPOLO A**<br>*Feeder Fix: BARIA*    | <br>16 | <br>18 |
+    | **UPOLO V**<br>*Feeder Fix: BARIA*    | <br>15 | <br>17 |
+    | **UPOLO W**<br>*Feeder Fix: BARIA*    | <br>15 | <br>17 |
+
+=== "RWY 33"
+    | STAR       | Jets & DH8D | Non-Jets |
+    | ---------- | :------: | :------: |
+    | **HENDO A**<br>*ANDOP transition*<br>*BARIA transition*<br>*ISNER transition*<br>*NORMA transition*<br>*OVLET transition*<br>*PUNIT transition*<br>*VEKBI transition*    | <br>21<br>12^<br>12<br>14<br>22<br>20<br>24     | <br>24<br>14^<br>14<br>15<br>25<br>23<br>27     |
+    | **KEEWI A**<br>*AVDAN transition*<br>*LOCKA transition*<br>*ZANEY transition*    | <br>23<br>22<br>22     | <br>26<br>26<br>25     |
+    | **KEEWI V**<br>*AVDAN transition*<br>*LOCKA transition*<br>*OVLET transition*<br>*ZANEY transition*    | <br>16<br>15<br>16<br>14     | <br>18<br>17<br>18<br>16     |
+    | **KEEWI X**<br>*AVDAN transition*<br>*LOCKA transition*<br>*OVLET transition*<br>*ZANEY transition*    | <br>18<br>17<br>19<br>17     | <br>21<br>20<br>21<br>19     |
+    | **KEEWI Y**<br>*AVDAN transition*<br>*LOCKA transition*<br>*OVLET transition*    | <br>22<br>22<br>21     | <br>25<br>25<br>24     |
+    | **TOTTY W**<br>*ANDOP transition*<br>*ISNER transition*<br>*NORMA transition*<br>*PUNIT transition*<br>*VEKBI transition*    | <br>19<br>13<br>13<br>19<br>22     | <br>22<br>15<br>15<br>21<br>25     |
+
+#### Corrections
+
+| Situation | Correction |
+| ----- | ----- |
+| Assigned a reduced speed | +1 min, *except ^* | 
+| Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
+
+#### Assumptions
+- Nil wind
+- The feeder fix for all STARs is the assigned STAR transition waypoint (if applicable), otherwise:
+    - The feeder fixes for the NONUM STAR are **MUSEY** and **NORMA** (depending on inbound airway)
+    - The feeder fix for the UPOLO STAR is **BARIA**
+
+### Calculator
+<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
+The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
+
+=== "Landing Time"
+    <div class="flowCalculatorLandingTime" data-aerodrome="YBCS"></div>
+
+=== "Feeder Fix Time"
+    <div class="flowCalculatorFeederFixTime" data-aerodrome="YBCS"></div>
 
 ## Coordination
 ### ADC
-### Airspace
-CS ADC is responsible for the Class C Airspace within the CS CTR `SFC` to `A010`.
-
 #### Departures
-'Next' coordination is **not** required from CS ADC for aircraft that are:   
-- Departing from a runway nominated on the ATIS; and  
-- Assigned the standard assignable level; and  
-- Assigned a **Procedural** SID
+[Next](../controller-skills/coordination.md#next) coordination is **not** required for aircraft that are:   
 
-!!! phraseology
-    <span class="hotline">**ADC** -> **TCU**</span>: "Next, RXA5417, runway 15"  
-    <span class="hotline">**TCU** -> **ADC**</span>: "RXA5417, heading 030, unrestricted"  
-    <span class="hotline">**ADC** -> **TCU**</span>: "Heading 030, RXA5417"
+  - Departing from a runway nominated on the ATIS; and  
+  - Assigned the standard assignable level; and  
+  - Assigned a **Procedural** SID
+
+All other aircraft require a 'Next' call to CS TCU.
+
+The Standard Assignable level from CS ADC to CS TCU is:
+
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `A060` and `RFL` |
 
 See [Standard Assignable Headings](#standard-assignable-headings) for the range of assignable headings available to aircraft on the **radar SID**.
-
-The Standard Assignable level from CS ADC to CS TCU is the lower of `A060` or the `RFL`.
 
 #### Arrivals
 Aircraft tracking via a visual right base to runway 33 must be coordinated with ADC (see [Visual Base Runway 33](#visual-base-runway-33)). All other arriving aircraft do not require coordination.
 
 ### ACD
-The controller assuming responsibility of **CS ACD** shall give heads-up coordination to the relevant CS TCU controller prior to the issue of the following clearances:  
-- VFR Departures  
+The controller assuming responsibility of **CS ACD** shall give [heads-up](../controller-skills/coordination.md#airways-clearance) coordination to the relevant CS TCU controller prior to the issue of the following clearances:  
+
+- VFR departures entering CS TCU CTA
 - Aircraft using a runway not on the ATIS
-
-!!! phraseology
-    <span class="coldline">**CS ACD** -> **CS TCU**</span>: "ABC, Requesting clearance for a Northbound VFR Coastal departure at A035"  
-    <span class="coldline">**CS TCU** -> **CS ACD**</span>: "ABC, Cleared for a Northbound VFR Coastal departure, A035"  
-    <span class="coldline">**CS ACD** -> **CS TCU**</span>: "Cleared for a Northbound VFR Coastal departure, A035, ABC"  
-
-    **CS ACD**: "ABC, Cleared for a Northbound VFR Coastal departure, A035, Squawk 3601"  
-    **ABC**: "Cleared for a Northbound VFR Coastal departure, A035, 3601, ABC"
 
 ### Enroute
 #### Departures
@@ -168,3 +206,12 @@ Voiceless for all aircraft:
   - Radials 355° clockwise to 055°: `A090`
 
 All other aircraft coming from KEN CTA will be **Heads-up** Coordinated to CS TCU.
+
+### CS TCU Internal
+All aircraft transiting between internal CS TCU boundaries must be heads-up coordinated.
+
+!!! phraseology
+    <span class="hotline">**CS1** -> **CS2**</span>: "via CS, ESQ"  
+    <span class="hotline">**CS2** -> **CS1**</span>: "ESQ, A025"   
+
+Boundary coordination is not required between CS1 and CS2 for aircraft arriving or departing tracking via the 15/33 extended centreline.

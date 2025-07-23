@@ -9,7 +9,7 @@
 | ------------------ | -------------- | ---------------- | ---------------------------------------- |
 | **Essendon ADC**      | **Essendon Tower**   | **125.100**         | **EN_TWR**                                   |
 | **Essendon SMC**      | **Essendon Ground**  | **121.900**         | **EN_GND**                                   |
-| Essendon ATIS     |                  | 119.800         | YMEN_ATIS                                |
+| **Essendon ATIS**     |                  | **119.800**         | **YMEN_ATIS**                                |
 
 ## Airspace
 EN ADC is responsible for the Class C airspace shown below, `SFC` to `A020`.
@@ -39,8 +39,8 @@ ML TCU shall clear aircraft for approach via the appropriate arrival gate:
 
 | Runway | Arrival Gate |
 | ------ | ----------|
-| 26     | MONTY  |
-| 35     | MONTY |
+| 26     | MOSVO  |
+| 35     | MOSVO |
 | 17     | 5NM FINAL |
 | 08     | 5NM FINAL |
 
@@ -73,7 +73,7 @@ VFR arrivals from Class G shall be cleared (at not above `A015`) via:
 Circuits are to be flown at `A015`
 
 ## Separation
-EN ADC is responsible for **all separation** with YMML Traffic, including arrivals to RWY34 via the MONTY-SHEED track, and all potential arrivals, departures, and missed approach paths.  
+EN ADC is responsible for **all separation** with YMML Traffic, including arrivals to RWY34 via the MOSVO-SHEED track, and all potential arrivals, departures, and missed approach paths.  
 Some important points to note are that:  
 - Aircraft operating on or south of the 08/26 Centreline are separated with YMML 09/27 Traffic at all times  
 - Aircraft operating on or east of the 17/35 Centreline are **only** visually separated with YMML 16/34 Traffic in **Day VMC**  
@@ -109,28 +109,24 @@ YMEN ATIS identifiers only uses letters `A` through to `M`, due to nearby YMML u
 When an aircraft requests start clearance, the EN SMC controller shall coordinate with ML TCU to obtain the start clearance.
 
 #### Departures
-Essendon departures that will not enter ML TCU Class C airspace are not required to be coordinated.
+[Next](../../controller-skills/coordination.md#next) coordination is required from EN ADC to ML TCU for all aircraft **entering ML TCU CTA**.
 
-All aircraft departing into Class C must be coordinated to ML TCU with a "Next" Call
+The Standard Assignable level from EN ADC to ML TCU is:
 
-!!! phraseology
-    <span class="hotline">**EN ADC** -> **ML TCU**</span>: "Next, FD318"  
-    <span class="hotline">**ML TCU** -> **EN ADC**</span>: "FD318, heading 330, unrestricted"  
-    <span class="hotline">**EN ADC** -> **ML TCU**</span>: "Heading 330, FD318"
-
-The Standard Assignable level from EN ADC to ML TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `A030` and `RFL` |
 
 #### Arrivals/Overfliers
 ML TCU will heads-up coordinate arrivals/overfliers from Class C to EN ADC.  
-IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to EN ADC, unless EN ADC nominates a restriction.  
-VFR aircraft require a level readback.
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to EN ADC, unless EN ADC nominates a restriction.
 
 !!! phraseology 
     <span class="hotline">**ML TCU** -> **EN ADC**</span>: "via KAO, KHU"  
     <span class="hotline">**EN ADC** -> **ML TCU**</span>: "KHU, A015"
 
 !!! Note
-    For aircraft not tracking via an Arrival Gate (ML TCU shall clear aircraft for approach via the appropriate arrival gate:), ML TCU is required to coordinate descent of aircraft into EN ADC airspace.
+    For aircraft not tracking via an Arrival Gate, ML TCU is required to coordinate descent of aircraft into EN ADC airspace.
 
 When “The Coffin” is released, ML TCU is required to coordinate any use of Runway 27 prior to use.
 
@@ -141,6 +137,6 @@ Any Runway change must be prior coordinated to **ML TCU**
 EN ADC is responsible for separation with all YMML traffic, and must coordinate any aircraft operating in EN ADC airspace that cannot be visually or laterally separated with the 09/27 or 16/34 Extended Centrelines at YMML.
 
 !!! phraseology 
-    <span class="hotline">**EN ADC** -> **ML ADC**</span>: "Boundary Ident, OXG, Published Missed Approach from the ILS 26"  
-    <span class="hotline">**ML ADC** -> **EN ADC**</span>: "OXG, My restriction is QFA451 on a 10nm final RWY 34. Your separation"  
+    <span class="hotline">**EN ADC** -> **ML ADC**</span>: "For Ident, OXG, published missed approach from the ILS 26"  
+    <span class="hotline">**ML ADC** -> **EN ADC**</span>: "OXG, my restriction is QFA451 on a 10nm final RWY 34, your separation"  
     <span class="hotline">**EN ADC** -> **ML ADC**</span>: "My separation with QFA451, OXG"

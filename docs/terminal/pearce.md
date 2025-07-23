@@ -55,6 +55,26 @@ All other arrivals/overfliers coming from HYD CTA will be **Heads-up** Coordinat
     <span class="hotline">**PE TCU** -> **PH TCU**</span>: "Airborne YPEA, PHNX11"   
     <span class="hotline">**PH TCU** -> **PE TCU**</span>: "PHNX11, F180"  
 
+### PE ADC
+[Next](../controller-skills/coordination.md#next) coordination is required from PE ADC to PE TCU for all aircraft.
+
+The Standard Assignable Level from **PE ADC** to **PE TCU** is:
+
+| Departure Procedure | Level |
+| ------------------- | ----- |
+| **GUNOK** SID | `A030` |
+| A **Procedural** SID | `F130` |
+| All others | The lower of `F130` and `RFL` |
+
+### GIG ADC
+[Next](../controller-skills/coordination.md#next) coordination is required from GIG ADC to PE TCU for all aircraft.
+
+The Standard Assignable Level from **GIG ADC** to **PE TCU** is:
+
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `A050` and `RFL` |
+
 ## Charts
 !!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}

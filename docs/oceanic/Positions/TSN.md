@@ -8,13 +8,15 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Tasman** | **Brisbane Radio** | **124.650 (17.904)** | **BN-TSN_FSS** |
-| Coral† | Brisbane Radio | 133.150 (6.556) | BN-COL_FSS |
-| Flinders† | Brisbane Radio | 133.150 (13.318) | BN-FLD_FSS |
-| *Howe†^* | *Brisbane Centre* | *124.950* | *BN-HWE_CTR* |
-
-† *Non-standard positions* may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}
+| <span class="indented">Coral :material-information-outline:{ title="Non-standard position"} | Brisbane Radio | 133.150 (6.556) | BN-COL_FSS |
+| <span class="indented">Flinders :material-information-outline:{ title="Non-standard position"} | Brisbane Radio | 132.850 (13.318) | BN-FLD_FSS |
+| <span class="indented">*Howe :material-information-outline:{ title="Non-standard position"}^* | *Brisbane Centre* | *124.950* | *BN-HWE_CTR* |
 
 ^ Refer to [Howe](#howe-hwe)
+
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
 The Primary Communication Method for TSN is [CPDLC](../../../client/cpdlc).

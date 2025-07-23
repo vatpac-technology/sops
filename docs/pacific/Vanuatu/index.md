@@ -8,11 +8,11 @@
 
 ### Transition Altitude 
 
-Within the Port Vila sector, the transition altitude is 11,000 ft.
+Within the Port Vila sector, the transition altitude is 11,000 ft (`A110`).
 
 ### Transition Level
 
-| QNH (hPa)               | Transition Level |
-| -------------------| ---------------- | 
-| 980 Or Less | FL 140 | 
-| Greater than 980| FL 130 | 
+| QNH (hPa) | Transition Level |
+| --------- | ---------------- | 
+| 980 Or Less | `F140` | 
+| Greater than 980 | `F130` | 

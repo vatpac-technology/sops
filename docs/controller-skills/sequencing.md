@@ -6,7 +6,7 @@ title: Sequencing
 
 # Sequencing
 
-It's all well and good maintaining separation standards in your airspace, but if you handoff 2 aircraft to ML_APP overhead LIZZI at the same speed, 1000ft apart, you're not going to make any friends. By default, aircraft must be sequenced **2 minutes** apart at the **Feeder Fix** (generally the first waypoint of the STAR).  
+It's all well and good maintaining separation standards in your airspace, but if you handoff 2 aircraft to ML_APP overhead BOOIN at the same speed, 1000ft apart, you're not going to make any friends. By default, aircraft must be sequenced **2 minutes** apart at the **Feeder Fix** (generally the first waypoint of the STAR).  
 
 It's important to remember that aircraft aren't just arriving from your sector, they can be coming in from all directions at similar times. **MAESTRO** is a tool used to help aid with sequencing (what time do YOU need to get the aircraft to the feeder fix to avoid TCU congestion). You can find more info [here](../maestro).
 
@@ -144,19 +144,19 @@ Holding is the final delaying action, useful for when a delay of 6 minutes or mo
 Typically 1 standard holding pattern takes 6 minutes.
 
 !!! phraseology
-    **YWE:** "BNZ135, hold at APPLE, maintain FL200."  
-    **BNZ135:** "Hold at APPLE, maintain FL200, BNZ135"  
+    **MUN:** "BNZ135, hold at METES, maintain FL200."  
+    **BNZ135:** "Hold at METES, maintain FL200, BNZ135"  
     ...  
-    **YWE:** "BNZ135, cancel hold, cleared APPLE, ARBEY, to rejoin the STAR, when ready, descend via STAR to A090, QNH 1013"  
-    **BNZ135:** "Cancel hold, cleared APPLE, ARBEY, to rejoin the STAR, when ready, descend via STAR to A090, QNH 1013, BNZ135" 
+    **MUN:** "BNZ135, cancel hold, cleared METES, ARBEY, to rejoin the STAR, when ready, descend via STAR to A090, QNH 1013"  
+    **BNZ135:** "Cancel hold, cleared METES, ARBEY, to rejoin the STAR, when ready, descend via STAR to A090, QNH 1013, BNZ135" 
 
 Although the phraseology *"Hold at (waypoint)"* is standardised from the AIP `AIP GEN 3.4`, it could mean pilots who are not familiar with published holding patterns do not fly the hold you were expecting them to. In this case, use specific instructions which gives more detail about the holding pattern. This is also applicable to holding at fixes where there is no published hold.
 
 !!! phraseology
-    **ELW:** "VOZ888, hold at NABBA, inbound track 224 degrees, left hand pattern, outbound time 2 minutes, maintain FL200."  
+    **BLA:** "VOZ888, hold at NABBA, inbound track 224 degrees, left hand pattern, outbound time 2 minutes, maintain FL200."  
     **VOZ888:** "Hold at NABBA, inbound track 224 degrees, left hand pattern, outbound time 2 minutes, maintain FL200,VOZ888"  
     ...  
-    **ELW:** "VOZ888, Cancel hold, cleared NABBA, BULLA, TAREX, LIZZI, to rejoin the STAR, maintain F300"  
-    **VOZ888:** "Cancel hold, cleared NABBA, BULLA, TAREX, LIZZI, to rejoin the STAR, maintain F300, VOZ888"
+    **BLA:** "VOZ888, Cancel hold, cleared NABBA, BULLA, TAREX, BOOIN, to rejoin the STAR, maintain F300"  
+    **VOZ888:** "Cancel hold, cleared NABBA, BULLA, TAREX, BOOIN, to rejoin the STAR, maintain F300, VOZ888"
 
 It may be prudent to use another form of delaying action, other than holding, with aircraft that appear to be unable to fly a hold (use vectors).

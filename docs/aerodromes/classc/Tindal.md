@@ -11,7 +11,7 @@
 | **Tindal ADC**    | **Tindal Tower**  | **119.700**         | **TN_TWR**        |
 | **Tindal SMC**    | **Tindal Ground**  | **135.850**        | **TN_GND**        |
 | **Tindal ACD**    | **Tindal Delivery**  | **128.100**      | **TN_DEL**       |
-| Tindal ATIS    |   |  124.000        | YPTN_ATIS       |
+| **Tindal ATIS**    |   |  **124.000**        | **YPTN_ATIS**       |
 
 ## Airspace
 TN ADC is not responsible for any airspace by default.  
@@ -68,26 +68,18 @@ The Circuit Area Airspace is allocated to be within 5nm of the YPTN ARP from `SF
 | 14     | Right|
 | 32     | Left |
 
-### Intial and Pitch Operations 
-The intial point is at A020 on the extended centerline of Taxiway Alpha at 6.5NM for RWY 14, 5NM for RWY 32. Aircraft will be cleared for a left, straight or right intial.
-
-!!! phraseology
-    **CLAS15**: "Request Intial and Pitch RWY 32"  
-    **TN ADC**: "CLAS15, Cleared Straight Intial RWY 32, Report when at the Intial"  
-    **CLAS15**: "On the Intial Point"  
-    **TN ADC**: "CLAS15, descend to 1500ft, pitch at the Midfield"  
-    **CLAS15**: "Wilco"
+### Initial and Pitch Operations 
+The [initial](../../controller-skills/military/#initial-and-pitch) point is at `A020` on the extended centerline of Taxiway Alpha at 6.5NM for RWY 14, 5NM for RWY 32. Aircraft will be cleared for a left, straight or right initial.
 
 ## Coordination
 ### TN TCU
-'Next' coordination is required from TN ADC to TN TCU for all aircraft.
+[Next](../../controller-skills/coordination.md#next) coordination is required from TN ADC to TN TCU for all aircraft.
 
-!!! phraseology
-    <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Next, ASY01, runway 32"  
-    <span class="hotline">**TN TCU** -> **TN ADC**</span>: "ASY01, Heading 030, unrestricted"  
-    <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Heading 030, ASY01"  
+The Standard Assignable level from TN ADC to TN TCU is:
 
-The Standard Assignable level from TN ADC to TN TCU is the lower of `F180` or the `RFL`.
+| Aircraft | Level |
+| ----- | ---- |
+| All | The lower of `F180` and `RFL` |
 
 ### TRT(TRS)
 When TN TCU is offline, coordination is not required between TN ADC and TRT(TRS). Aircraft entering TRT(TRS) airspace shall be handed off, and instructed to contact TRT(TRS) for onwards clearance.

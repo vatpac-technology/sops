@@ -8,9 +8,13 @@
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
 | **Huon** | **Melbourne Centre** | **122.600** | **ML-HUO_CTR** |
+|  <span class="indented">Wonthaggi :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 135.300 | ML-WON_CTR |
+
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
-
 The Primary Communication Method for HUO is Voice.
 
 [CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
@@ -41,8 +45,34 @@ If HUO chooses to operate top down to either aerodrome, they must administer all
 !!! tip
     If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for each aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
 
-## Responsibilities
-HUO is reponsible for issuing STAR clearances, sequencing, and descent for aircraft bound for YMLT and YMHB.
+## Sector Responsibilities
+### Huon (HUO)
+#### YMLT Arrivals
+HUO is reponsible for issuing STAR clearances, sequencing, and descent.
+
+#### YMHB Arrivals
+HUO is reponsible for issuing STAR clearances, sequencing, and descent.
+
+### Wonthaggi (WON)
+#### YMML Arrivals
+WON is responsible for issuing STAR Clearances, sequencing, and descent.
+
+### Sequencing in to YMML
+#### Holding Fixes
+Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YMML. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
+
+| Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
+| ---- | ---- | ---- |
+| RAZZI | TASIS<br>ONAGI | 6 min<br>6 min |
+
+!!! tip
+    Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector. 
+
+#### LAHSO
+!!! warning "Important"
+    Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
+
+In accordance with the authorisation requirements above, YMML may utilise LAHSO during exceptionally busy events. Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../controller-skills/runwaymanagement.md#lahso) for more information.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -50,14 +80,16 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| HUO | YWE(WON) | YMML | |
+| HUO | WON | YMML | |
+| WON | HUO | YMHB | |
 
 ### First Contact
 Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| YWE(WON), ELW(SNO) | HUO | YMHB | |
+| WON, WOL(SNO) | HUO | YMHB | |
+| HUO, WOL(SNO) | WON | YMML | 
 
 ## Coordination
 ### TAS TCU
@@ -96,8 +128,38 @@ Voiceless for all aircraft:
 
 All other aircraft going to HUO CTA will be **Heads-up** Coordinated by TAS TCU.
 
+### ML TCU
+#### Airspace
+The Vertical limits of the ML TCU are `SFC` to `F245`.
+
+Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
+
+#### Arrivals/Overfliers
+Voiceless for all aircraft:
+
+- With ADES **YMML**; and  
+- Assigned the **WAREN** STAR; and  
+- Assigned `A090`
+
+All other aircraft coming from WON CTA must be **Heads-up** Coordinated to ML TCU prior to **20nm** from the boundary.
+
+#### Departures
+Voiceless to all surrounding Enroute sectors for all aircraft:
+ 
+- Assigned the lower of `F240` or the `RFL`; and
+- Tracking via any of the following:
+    - a Procedural SID terminus
+    - **MENOG**
+    - **AV**
+
+All other aircraft going to WON CTA will be **Heads-up** Coordinated by ML TCU.
+
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
+
+That being said, it is *advised* that WON gives **Heads-up Coordination** prior to **50nm** in the following scenarios:  
+- to YWE for all aircraft  
+- to ELW/BLA for all aircraft  
 
 ### TSN/IND(INS) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
@@ -106,3 +168,6 @@ Aircraft must have their identification terminated and be instructed to make a p
 
 !!! phraseology
     **HUO**: "QFA121, identification terminated, report position to Brisbane Radio, 129.25"
+
+### ES TCU
+Reserved.

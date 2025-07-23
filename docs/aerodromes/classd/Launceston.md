@@ -9,7 +9,7 @@
 | Name              | Callsign       | Frequency        | Login ID                         |
 | ----------------- | -------------- | ---------------- | ---------------------------------------- |
 | **Launceston ADC**    | **Launy Tower**   | **118.700**    | **LT_TWR**                         |
-| Launceston ATIS       |                | 134.750          | YMLT_ATIS                                |
+| **Launceston ATIS**       |                | **134.750**          | **YMLT_ATIS**                                |
 
 ## Airspace
 LT ADC is responsible for the Class D airspace in the LT CTR `SFC` to `A015`.
@@ -46,31 +46,26 @@ YMLT ATIS identifiers range from `A` to `M`, as YMHB uses `N` through `Y`.
 
 ## Coordination
 ### Departures
-'Next' coordination is not required to LTA for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a SID; or  
-  d) Not entering LTA CTA
+[Next](../../controller-skills/coordination.md#next) coordination is not required to LTA for aircraft that are:   
 
-All other aircraft require a 'Next' call to LTA.
+- Departing from a runway nominated on the ATIS; and  
+-Assigned the standard assignable level; and  
+-Assigned a SID; or  
+-Not entering LTA CTA
 
-!!! phraseology
-    <span class="hotline">**LT ADC** -> **LTA**</span>: "Next, ABC, runway 14L"  
-    <span class="hotline">**LTA** -> **LT ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
-    <span class="hotline">**LT ADC** -> **LTA**</span>: "Heading 150 Visual, ABC"   
+All other aircraft require a 'Next' call to LTA. 
 
-    **LT ADC**: "ABC, turn right heading 150 Visual, Runway 14L, Cleared for Takeoff"  
-    **ABC**: "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"
+The Standard Assignable level from **LT ADC** to **LTA** is:  
 
-The LTA controller can suspend/resume Auto Release at any time, with the concurrence of **LT ADC**.
+| Flight Rules | Level |
+| ------- | ------ |
+| IFR | `A080` |
+| VFR | The lower of `A045` and `RFL` |
 
-LT ADC shall give heads-up coordination to LTA controller prior to the issue of the following clearances:  
-a) VFR Departures  
-b) Aircraft using a runway not on the ATIS  
+LT ADC shall give [heads-up](../../controller-skills/coordination.md#airways-clearance) coordination to LTA controller prior to the issue of the following clearances:  
 
-The Standard Assignable level from LT ADC to LTA is:  
-For IFR Aircraft: `A080`  
-For VFR Aircraft: The lower of `A045` or the `RFL`.
+- VFR departures entering LTA CTA
+- Aircraft using a runway not on the ATIS 
 
 ### Arrivals/Overfliers
 LTA will heads-up coordinate arrivals/overfliers from LTA CTA to LT ADC.  
