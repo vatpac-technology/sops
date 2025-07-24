@@ -9,6 +9,7 @@
 | Name               | Callsign       | Frequency        | Login ID              |
 | ------------------ | -------------- | ---------------- | --------------------------------------|
 | **Gingin ADC**    | **Gingin Tower**  | **118.500**    | **GIG_TWR**        |
+| **Gingin SMC**    | **Gingin Ground**  | **121.650**    | **GIG_GND**        |
 
 ## Airspace
 GIG ADC owns the airspace within the GIG CIRA, which is defined as within **5nm** of the YGIG ARP, *excluding* the area south of **12 TACAN PEA**, from `SFC` to `A035`.
