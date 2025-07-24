@@ -132,13 +132,12 @@ MARSA is to be assigned and terminated on pilots request, and when standard sepe
 ## Stereo Approaches
 Stereo Approaches are the primary procedure for fighter & strike aircraft (e.g. F18, HAWK, PC21) recovering back to airbases after operations in SUA. Aircraft track from specified SUA exit gates where they join the procedure, tracking along charted TACAN arcs/radials which position them for an initial and pitch or instrument approach.
 
+!!! info
+    Despite their name, stereo approaches can be thought of as the military equivalent of a STAR. Aircraft generally transition from a stereo approach onto an instrument approach or an initial and pitch.
+
 Stereo approaches should generally be used during high military traffic levels and nominated on the appropriate aerodrome ATIS.
 
 Stereo Approach charts can be found in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}
-
-## Initial and Pitch Procedures
-Reserved.
-=======
 
 ## Initial and Pitch 
 The Initial and Pitch is a military visual approach to the circuit area. Military aircraft approach on the deadside, parallel to the extended runway centreline at high speed (the **initial**), then make a tight turn onto downwind (the **pitch**). Aircraft should be cleared for a visual approach via the relevant initial point by the **TCU controller** and transferred to ADC when appropriate. 
