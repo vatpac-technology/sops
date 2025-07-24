@@ -178,9 +178,9 @@ Predictable Sequencing waypoints have been defined for aircraft inbound to Perth
 
 
 !!! phraseology
-    *ARL wants to delay QFA11 by 8 minutes to achieve the desired sequence. They consult the Predictable Sequencing map and identify 'ADLIV' as an appropriate delaying waypoint* 
-    **ARL:** "QFA11, from NONID, recleared direct ADLIV thence RIKNI, rest of clearance unchanged"  
-    **QFA11:** "From NONID, recleared direct ADLIV thence RIKNI, QFA11"
+    *ARL wants to delay QFA12 by 8 minutes to achieve the desired sequence. They consult the Predictable Sequencing map and identify 'ADLIV' as an appropriate delaying waypoint* 
+    **ARL:** "QFA12, from NONID, recleared direct ADLIV thence RIKNI, rest of clearance unchanged"  
+    **QFA12:** "From NONID, recleared direct ADLIV thence RIKNI, QFA12"
 
 <figure markdown>
 ![Predictable Sequencing waypoints](img/cdo_razzi.png){ width="500" }
