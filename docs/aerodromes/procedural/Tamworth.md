@@ -46,6 +46,15 @@ When ADC South is Online, they are responsible for the airspace between the **TW
   <figcaption>TW Dual ADC Airspace</figcaption>
 </figure>
 
+## Maneuvering Area
+### Taxiway Restrictions
+**Taxiway B** west of Taxiway C is limited to aircraft 8000KG AUW and 23M MAX wingspan. Common airliners including Dash 8 Q400s exceed these restrictions and must enter/exit Runway 12L/30R via Taxiway C.
+
+<figure markdown>
+![TW TWY](img/TW_west_of_C.png){ width="800" }
+  <figcaption>Taxiway B west of C (in red)</figcaption>
+</figure>
+
 ## Surveillance
 Surveillance coverage can be expected to be not available below `A034` in the TW CTR. Although TW ADC is **not permitted** to use surveillance for separation, ARL/MDE may assist by establishing surveillance separation standards via coordination
 
@@ -103,8 +112,18 @@ During day VMC only, simultaneous parallel runway operations may be used between
 
 In the absense of day VMC, dependent parallel runway operations may be conducted, with an adequate separation standard in place between aircraft operating from adjacent runways.
 
+## VFR Departures/Arrivals
+VFR aircraft departing between the 160 radial through to the 295 radial should report ready **GST** or **GWT**.
+
+VFR Arrivals from the 160 radial through to the 295 radial should route via **DUA**. Clearance required prior to DUA. Aircraft should report 5NM for circuit entry instructions.
+
+<figure markdown>
+![TW VFR Routes](img/TW_VFR_routes.png){ width="800" }
+  <figcaption>VFR Routes</figcaption>
+</figure>
+
 ## Circuits
-Circuits are to be flown in the direction coinciding with the Runway designator (Left/Right) at `A024`.
+Circuits are to be flown in the direction coinciding with the Runway designator (Left/Right) not above `A025`.
 
 ## ATIS
 ### Runway Nomination

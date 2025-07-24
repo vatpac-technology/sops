@@ -345,5 +345,7 @@
 *[BLGH]: Burleigh Heads
 *[ROTC]: Robina Town Centre
 *[CGD]: Cudgen Headland
+*[AUW]: All Up Weight
 *[MI NDB]: Momi
 *[VK NDB]: Navakai
+
