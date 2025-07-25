@@ -17,9 +17,9 @@
 PE ADC owns the airspace within the Pearce CIRA (**5nm** Radius of YPEA ARP, located entirely within **R155A**) from `SFC` to `A035`. This airspace is primarily used for military circuits and initial and pitch approaches.
 
 ### SID Selection
-All aircraft shall be assigned the **Radar** SID by default.
+Aircraft planned via **WAMAL**, **GUNOK**, **ALKIMOS**, **MULLALOO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
+Aircraft who are not planned via those points or who are negative RNAV may be assigned a RADAR SID or a visual departure. 
 
-vatSys does not have Procedural SIDs built-in for YPEA. As long as ATC is familiar with the chart, and the pilot is able, aircraft may be assigned **Procedural SIDs** *on pilot request*.
 
 ## Miscellaneous
 ### Circuit Operations 
