@@ -1,4 +1,9 @@
 title: Contribute
 nav:
     - "Overview": index.md
+    - setup.md
+    - buildingblocks.md
+    - tips.md
+    - best-practices.md
+    - changes.md
     - ...
