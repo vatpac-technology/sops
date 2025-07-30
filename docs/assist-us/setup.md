@@ -1,5 +1,5 @@
 ---
-  title: Setting Up
+  title: 1 - Setting Up
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -17,6 +17,7 @@ To contribute, you'll need the following -
     * We recommend [VS Code](https://code.visualstudio.com/){target=blank} with a Markdown helper plugin.
   * A GitHub account, and a local Git environment - [GitHub Quickstart Guide](https://docs.github.com/en/get-started/quickstart){target=blank}.
   * Python - [Install Python](https://www.python.org/downloads/){target=blank}
+  * git - [Download git](https://git-scm.com/){target=blank}
 
 ## Lets get cracking!
 
@@ -59,12 +60,23 @@ Python is recognised but some scripts have been installed beyond the scope of th
 
 Follow the steps [here](https://www.educative.io/answers/how-to-add-python-to-path-variable-in-windows){target=new} to update your Windows PATH variable. Restart VS Code before continuing.
 
-## Using MkDocs
-MkDocs is the underlying tool that we use for our SOPs. It takes in Markdown files, and converts them to a static website on each save, which is then pumped into your browser upon an automatic reload.
+### Bad git Executable
+When running `mkdocs serve` without first installing git, the following error may be received:
 
-We can also run `mkdocs build` to build a export the core HTML/CSS/JS that can be uploaded via FTP to the web.
+!!! example ""
+    Traceback (most recent call last):
+    File "C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\git\__init__.py", line 296, in <module\> refresh()  
+        ~~~~~~~^^  
+    File "C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\git\__init__.py", line 287, in refresh  
+        if not Git.refresh(path=path):  
+            ~~~~~~~~~~~^^^^^^^^^^^  
+    File "C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\git\cmd.py", line 860, in refresh  
+        raise ImportError(err)  
+    ImportError: Bad git executable.  
+    The git executable must be specified in one of the following ways:  
+        - be included in your $PATH  
+        - be set via $GIT_PYTHON_GIT_EXECUTABLE  
+        - explicitly set via git.refresh(<full-path-to-git-executable\>)  
+    All git commands will error until this is rectified.
 
-!!! info
-    You won't need to run the `mkdocs build` command. This is automatically run as a part of the GitHub deployment workflow. **If you do run this command**, please make sure you delete the `site` folder that is generated in your base directory before committing your code.
-
-Sometimes MkDocs wont like your changes, and may escape from the running `serve` instance. This is usually as a result of a broken `.pages` file. Just undo your changes and try again. 
+Install [git](https://git-scm.com/){target=blank} to rectify the error.
