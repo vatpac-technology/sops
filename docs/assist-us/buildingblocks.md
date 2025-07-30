@@ -1,5 +1,5 @@
 ---
-title: Building Blocks
+title: 2 - Building Blocks
 ---
 
 --8<-- "includes/abbreviations.md"

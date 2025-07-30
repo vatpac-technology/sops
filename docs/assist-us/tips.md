@@ -1,5 +1,5 @@
 ---
-  title: Working with MkDocs
+  title: 3 - Working with MkDocs
 ---
 
 --8<-- "includes/abbreviations.md"
