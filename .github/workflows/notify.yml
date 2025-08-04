@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Discord Notification
         env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          DISCORD_WEBHOOK: ${{ https://discord.com/api/webhooks/1401889070036291747/F7z5uREZ2SslwyClcHI497nYpQ3aA2J5OotzzzwE2LVCCvpOLV-IoGtClnm7M_L-0hHQ }}
         uses: Ilshidur/action-discord@master
         with:
           args: "## {{ EVENT_PAYLOAD.pull_request.title }}\n{{ EVENT_PAYLOAD.pull_request.body }}"
