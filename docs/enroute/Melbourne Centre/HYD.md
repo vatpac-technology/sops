@@ -126,23 +126,59 @@ There are ten [Predictable Sequencing](../../controller-skills/sequencing.md#pre
 
 The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
 
+=== "Q10"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | URGEX	| NALAR | MALUP | +2 |
+    | URGEX	| TEKUD | MALUP | +1 |
+    | URGEX	| BEMPI | MALUP | +2 |
+    | URGEX	| AGTOD | MALUP | +3 |
+    | URGEX	| DUKOR | MALUP | +4 |
+    | URGEX	| IPGER | MALUP | +5 |
+    | URGEX	| TODOS | MALUP | +7 |
+    | URGEX | IVPIL | MALUP | +9 |
+	
+=== "Q27"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | IVPIL	| NALAR | MALUP | +11 |
+    | IVPIL	| URGEX | MALUP | +6 |
+    | IVPIL	| TEKUD | MALUP | +5 |
+    | IVPIL	| BEMPI | MALUP | +4 |
+    | IVPIL	| AGTOD | MALUP | +3 |
+    | IVPIL	| DUKOR | MALUP | +2 |
+    | IVPIL	| IPGER | MALUP | +2 |
+    | IVPIL | TODOS | MALUP | +1 |
+	
+=== "Q32"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | TEKUD	| NALAR | MALUP | +3 |
+    | TEKUD	| URGEX | MALUP | +1 |
+    | TEKUD	| BEMPI | MALUP | +1 |
+    | TEKUD	| AGTOD | MALUP | +2 |
+    | TEKUD	| DUKOR | MALUP | +3 |
+    | TEKUD	| IPGER | MALUP | +4 |
+    | TEKUD	| TODOS | MALUP | +6 |
+    | TEKUD | IVPIL | MALUP | +8 |
+	
+=== "Q41"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | NALAR	| URGEX | MALUP | +2 |
+    | NALAR	| TEKUD | MALUP | +3 |
+    | NALAR	| BEMPI | MALUP | +4 |
+    | NALAR	| AGTOD | MALUP | +5 |
+    | NALAR	| DUKOR | MALUP | +6 |
+    | NALAR	| IPGER | MALUP | +7 |
+    | NALAR	| TODOS | MALUP | +9 |
+    | NALAR | IVPIL | MALUP | +11 |
+	
 === "Z38"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
     | BUNGL | IGROB | MALUP | 4 |
     | BUNGL | KINAB | MALUP | 7 |
-
-=== "Q41,Q10,Q32 and Q27"
-    | CDO point | NALAR |URGEX | TEKUD | IVPIL | 
-    | ----------| ------| ---- | -------| ----- |
-    | URGEX	| +2 | +0 |	+1 | +6 |
-    | TEKUD	| +3 | +1 | +0 | +5 |
-    | BEMPI	| +4 | +2 |	+1 | +4 |
-    | AGTOD	| +5 | +3 |	+2 | +3 |
-    | DUKOR	| +6 | +4 |	+3 | +2 |
-    | IPGER	| +7 | +5 |	+4 | +2 |
-    | TODOS	| +9 | +7 |	+6 | +1 |
-    | IVPIL | +11 |	+9 | +8	| +0 | 
 
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YPPH. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
