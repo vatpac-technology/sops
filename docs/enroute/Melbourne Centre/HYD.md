@@ -129,7 +129,6 @@ The table below contains the estimated time from the initial waypoint to the fin
 === "Q10"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-    | URGEX	| NALAR | MALUP | +2 |
     | URGEX	| TEKUD | MALUP | +1 |
     | URGEX	| BEMPI | MALUP | +2 |
     | URGEX	| AGTOD | MALUP | +3 |
@@ -141,7 +140,6 @@ The table below contains the estimated time from the initial waypoint to the fin
 === "Q27"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-    | IVPIL	| NALAR | MALUP | +11 |
     | IVPIL	| URGEX | MALUP | +6 |
     | IVPIL	| TEKUD | MALUP | +5 |
     | IVPIL	| BEMPI | MALUP | +4 |
@@ -153,7 +151,6 @@ The table below contains the estimated time from the initial waypoint to the fin
 === "Q32"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-    | TEKUD	| NALAR | MALUP | +3 |
     | TEKUD	| URGEX | MALUP | +1 |
     | TEKUD	| BEMPI | MALUP | +1 |
     | TEKUD	| AGTOD | MALUP | +2 |
