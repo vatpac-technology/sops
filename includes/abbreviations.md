@@ -73,6 +73,7 @@
 *[CBE]: Canberra Approach East
 *[DAW]: Darwin Approach West
 *[DAE]: Darwin Approach East
+*[ESA]: Sale Approach
 *[HBA]: Hobart Approach
 *[LTA]: Launceston Approach
 *[MKA]: Mackay Approach
