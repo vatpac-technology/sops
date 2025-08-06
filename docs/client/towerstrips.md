@@ -137,7 +137,7 @@ The following keyboard shortcuts exist to improve workflow efficiency.
 | `Backspace` | Inhibit selected strip |
 | `F` | Flip (cycle between Departure, Arrival & Local states) selected strip |
 | `X` | Toggle crossing highlight to selected strip |
-| `Alt + X` | Add RUNWAY CROSSING bar to Runway Bay |
+| `Alt + X` | Toggle RUNWAY CROSSING bar in Runway Bay |
 | `[` / `]` | Change aerodrome |
 | `↑` / `↓` | Move selected strip position in the current bay |
 | `Ctrl + ↑` / `Ctrl + ↓` | Move selected strip towards nearest bar |
