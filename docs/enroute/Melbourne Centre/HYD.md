@@ -121,6 +121,62 @@ For aircraft overflying the PH TCU place `O/FLY` in the LABEL DATA field.
 ### Sequencing in to YPPH
 Aircraft assigned the **same runway** inbound via **JULIM** and **SAPKO**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
+## Predictable Sequencing Waypoints
+There are ten [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YPPH  via **Q10**, **Q32**, **Q27** and **Z38**. These waypoints are south of **Q10** and north of **Q27**. 
+
+The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
+
+=== "Q10"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | URGEX | TEKUD | MALUP | +1 |
+    | URGEX | BEMPI | MALUP | +2 |
+    | URGEX | AGTOD | MALUP | +3 |
+    | URGEX | DUKOR | MALUP | +4 |
+    | URGEX | IPGER | MALUP | +5 |
+    | URGEX | TODOS | MALUP | +7 |
+    | URGEX | IVPIL | MALUP | +9 |
+ 
+=== "Q27"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | IVPIL | URGEX | MALUP | +6 |
+    | IVPIL | TEKUD | MALUP | +5 |
+    | IVPIL | BEMPI | MALUP | +4 |
+    | IVPIL | AGTOD | MALUP | +3 |
+    | IVPIL | DUKOR | MALUP | +2 |
+    | IVPIL | IPGER | MALUP | +2 |
+    | IVPIL | TODOS | MALUP | +1 |
+ 
+=== "Q32"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | TEKUD | URGEX | MALUP | +1 |
+    | TEKUD | BEMPI | MALUP | +1 |
+    | TEKUD | AGTOD | MALUP | +2 |
+    | TEKUD | DUKOR | MALUP | +3 |
+    | TEKUD | IPGER | MALUP | +4 |
+    | TEKUD | TODOS | MALUP | +6 |
+    | TEKUD | IVPIL | MALUP | +8 |
+ 
+=== "Q41"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | NALAR | URGEX | MALUP | +2 |
+    | NALAR | TEKUD | MALUP | +3 |
+    | NALAR | BEMPI | MALUP | +4 |
+    | NALAR | AGTOD | MALUP | +5 |
+    | NALAR | DUKOR | MALUP | +6 |
+    | NALAR | IPGER | MALUP | +7 |
+    | NALAR | TODOS | MALUP | +9 |
+    | NALAR | IVPIL | MALUP | +11 |
+ 
+=== "Z38"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | BUNGL | IGROB | MALUP | 4 |
+    | BUNGL | KINAB | MALUP | 7 |
+
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YPPH. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
 
