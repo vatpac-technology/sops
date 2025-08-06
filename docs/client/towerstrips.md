@@ -336,7 +336,7 @@ When approval is given for the runway crossing, place the `XXX CROSSING XXX` [ba
 </figure>
 
 !!! tip
-    You can quickly add a Crossing bar to the **Runway Bay** by pressing `ALT + X`. To remove the bar, select it, then press `BACKSPACE`.
+    You can quickly toggle the Crossing bar in the **Runway Bay** by pressing `ALT + X`.
 
 Coordinated runway releases should be recorded by placing a `RUNWAY XX RELEASED TO SMC` [bar](#control-bar) in the **Runway Bay**.
 
