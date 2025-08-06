@@ -10,6 +10,7 @@
 | ------------------ | -------------- | ---------------- | --------------------------------------|
 | **Oakey ADC**    | **Oakey Tower**  | **120.100**         | **OK_TWR**        |
 | **Oakey SMC**    | **Oakey Ground**  | **121.900**      | **OK_GND**        |
+| **Oakey ACD**    | **Oakey Delivery** | **133.350** | **OK_DEL** |
 | **Oakey ATIS**   |               | **124.300**      | **YBOK_ATIS**     |
 
 ## Airspace
