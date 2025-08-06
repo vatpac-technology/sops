@@ -25,6 +25,11 @@ Any combination of runway configurations are permitted, including single runway 
 - Runway 03 and Runway 08;  
 - Runway 03 and Runway 26;   
 
+## Departures
+### SID Selection
+IFR aircraft planned via **AKMIR**, **TONTO**, **WOL**, **ABASS**, **GLB**, **CB**, **COM**, **URBOB** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
+Aircraft who are not planned via those points may be assigned the RADAR SID or a visual departure. 
+
 ## Circuit Procedures
 
 Circuit operations occur within a `5NM` radius of NWA TACAN, at the following altitudes:
