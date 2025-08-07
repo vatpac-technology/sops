@@ -43,6 +43,12 @@ When **AY ADC** is offline, AY CTR (Class D and C `SFC` to `A085`) reverts to Cl
 
 !!! tip
     If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+	
+#### ES TCU
+When **ESA** is offline, the restricted airspace within R360 is deactivated and the airspace is administered by BLA and HUO(WON). 
+
+!!! note
+    BLA does not assume the ES TCU in the absence of ESA. Assumption of the ES TCU is the responsibility of HUO(WON). Controllers may choose to verbally coordinate the release of the ES TCU to either sector/subsector.
 
 ## Sector Responsibilities
 ### Eildon Weir (ELW)

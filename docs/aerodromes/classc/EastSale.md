@@ -122,9 +122,9 @@ Lanes extend from `SFC` or the base of restricted airspace to `F160`. Aircraft d
 
 ## Coordination
 ### Auto Release
-[Next](../../controller-skills/coordination.md#next) coordination is required from ES ADC to ES TCU for all aircraft.
+[Next](../../controller-skills/coordination.md#next) coordination is required from ES ADC to ESA for all aircraft.
 
-The Standard Assignable Level from  **ES ADC** to **ES TCU** is:
+The Standard Assignable Level from  **ES ADC** to **ESA** is:
 
 | Aircraft | Level |
 | -------- | ----- |
@@ -135,6 +135,6 @@ Helicopters departing from helicopter spots will be treated as if departing from
 
 !!! phraseology
     *PSDN14 is a VFR helicopter departing from the threshold of RWY04 (in the direction of runway 27)*  
-    <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Next, PSDN14, runway 27"  
-    <span class="hotline">**ES TCU** -> **ES ADC**</span>: "PSDN14, right turn, unrestricted"  
-    <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Right turn, PSDN14" 
+    <span class="hotline">**ES ADC** -> **ESA**</span>: "Next, PSDN14, runway 27"  
+    <span class="hotline">**ESA** -> **ES ADC**</span>: "PSDN14, right turn, unrestricted"  
+    <span class="hotline">**ES ADC** -> **ESA**</span>: "Right turn, PSDN14" 
