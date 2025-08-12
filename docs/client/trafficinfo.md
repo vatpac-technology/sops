@@ -7,6 +7,8 @@ title: Traffic Info
 ## Background
 The Traffic Info plugin replicates the Eurocat window of the same name, which helps real world controllers manage the issuance of traffic information to pilots. Traffic pairings can be created between two or more aircraft, providing a place for controllers to record when traffic information is provided to each pilot.
 
+The plugin is targeted towards Terminal and Enroute controllers.
+
 <figure markdown>
 ![Traffic Info Delete](../controller-skills/img/dtioverview.png){ width="700" }
 </figure>
