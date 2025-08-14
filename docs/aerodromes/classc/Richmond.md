@@ -36,7 +36,7 @@ VFR aircraft transiting to/from YSRI should do so at `A015`.
 Aircraft intending to transit the RIC CTR should plan via the [Richmond Lane of Entry](#richmond-lane-of-entry).
 
 ### Richmond Lane of Entry
-A [lane of entry](../../airspace/lanesofentry.md) is available in the western portion of the RIC CTR, allowing aircraft to transit the zone from north to south (or vice versa). A clearance is required from **RI ADC** prior to entering the CTR.
+A lane of entry is available in the western portion of the RIC CTR, allowing aircraft to transit the zone from north to south (or vice versa). A clearance is required from **RI ADC** prior to entering the CTR.
 
 | Direction | Routing | Altitude | Reporting Point |
 | --- | --- | --- | --- |
@@ -72,7 +72,7 @@ There are three training areas located within R470, used for both civil and mili
 | ---- | --------------- | --- |
 | Londonderry Training Area | `SFC - A015` | Yarramundi Bridge<br>East to Springwood Road<br>Bonner Road to intersection of Vincent Road<br>West along Vincent Road to the intersection of the Nepean River<br>North via the eastern bank of the Nepean River to Yarramundi Bridge |
 | Northern Training Area | `SFC - A060` | Intersection of North-South powerlines & Bells Line of Road<br>North along power lines to the R470 boundary<br>East along the R470 boundary to the Hawkesbury River<br>South tot Kurmond Road<br>West along Kurmond Road to Kurmond<br>Via Bells Line of Road to the intersection of the power lines |
-| Southern Training Area | `SFC - A040` | Richmond Train Station<br>Weset to the water tank<br>Straight line to the R470 boundary<br>Along the R470 boundary to the Northern Road<br>Along Northern Road to the intersection of Richmond/Blacktown Road<br>Richmond Road to George & Macquarie Street to the railway overpass |
+| Southern Training Area | `SFC - A040` | Richmond Train Station<br>West to the water tank<br>Straight line to the R470 boundary<br>Along the R470 boundary to the Northern Road<br>Along Northern Road to the intersection of Richmond/Blacktown Road<br>Richmond Road to George & Macquarie Street to the railway overpass |
 
 !!! tip
     Diagrams of the training areas are available in the [Richmond FIHA AD2](https://ais-af.airforce.gov.au/){target=new} document.
