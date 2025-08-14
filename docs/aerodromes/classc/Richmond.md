@@ -63,15 +63,19 @@ Details of the lane are available in the `YSRI ERSA FAC` and on the Sydney VTC.
     Delays may be required during times of peak traffic into/out of YSRI.
 
 ### Training Areas
-There are three training areas located within **R470**, used for civil and military operations.
+There are three training areas located within R470, used for both civil and military operations.
 
-| **Name**                 | **Identifier** | **Vertical Limits** | **Notes**                        |
-|-------------------------|---------------|---------------------|-----------------------------------|
-| Londonderry Training Area | LDD TA        | `SFC - A015`        | Contained within R470             |
-| Northern Training Area | NTA TA        | `SFC - A060`        | Contained within R470             |
-| Southern Training Area | STA TA        | `SFC - A040`        | Contained within R470             |
+!!! warning "Important"
+    Operations above `A015` may require an airspace release from **SY TCU**. Due to published departure procedures from YSSY, levels above `A040` may not be available.
 
-Refer to [YSRI FIHA AD2 SUPP](https://ais-af.airforce.gov.au/australian-aip){target=new} for charts and more info.
+| Name | Vertical Limits | Lateral Boundary |
+| ---- | --------------- | --- |
+| Londonderry Training Area | `SFC - A015` | Yarramundi Bridge<br>East to Springwood Road<br>Bonner Road to intersection of Vincent Road<br>West along Vincent Road to the intersection of the Nepean River<br>North via the eastern bank of the Nepean River to Yarramundi Bridge |
+| Northern Training Area | `SFC - A060` | Intersection of North-South powerlines & Bells Line of Road<br>North along power lines to the R470 boundary<br>East along the R470 boundary to the Hawkesbury River<br>South tot Kurmond Road<br>West along Kurmond Road to Kurmond<br>Via Bells Line of Road to the intersection of the power lines |
+| Southern Training Area | `SFC - A040` | Richmond Train Station<br>Weset to the water tank<br>Straight line to the R470 boundary<br>Along the R470 boundary to the Northern Road<br>Along Northern Road to the intersection of Richmond/Blacktown Road<br>Richmond Road to George & Macquarie Street to the railway overpass |
+
+!!! tip
+    Diagrams of the training areas are available in the [Richmond FIHA AD2](https://ais-af.airforce.gov.au/){target=new} document.
 
 ## Circuit Operations
 YSRI circuit area is defined as within 6nm of the YSRI ARP. An aircraft operating in the circuit will be issued a clearance to the operate within the circuit area not above `A015`.
