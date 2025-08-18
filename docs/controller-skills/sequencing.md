@@ -156,7 +156,45 @@ Although the phraseology *"Hold at (waypoint)"* is standardised from the AIP `AI
     **BLA:** "VOZ888, hold at NABBA, inbound track 224 degrees, left hand pattern, outbound time 2 minutes, maintain FL200."  
     **VOZ888:** "Hold at NABBA, inbound track 224 degrees, left hand pattern, outbound time 2 minutes, maintain FL200,VOZ888"  
     ...  
-    **BLA:** "VOZ888, Cancel hold, cleared NABBA, BULLA, TAREX, BOOIN, to rejoin the STAR, maintain F300"  
-    **VOZ888:** "Cancel hold, cleared NABBA, BULLA, TAREX, BOOIN, to rejoin the STAR, maintain F300, VOZ888"
+    **BLA:** "VOZ888, cancel hold, recleared via NABBA, BULLA, TAREX, thence BOOIN to rejoin the STAR, maintain F300"  
+    **VOZ888:** "Cancel hold, recleared via NABBA, BULLA, TAREX, thence BOOIN to rejoin the STAR, maintain F300, VOZ888"
 
 It may be prudent to use another form of delaying action, other than holding, with aircraft that appear to be unable to fly a hold (use vectors).
+
+## Predictable Sequencing 
+Through vectoring and holding, enroute controllers can effectively create and maintain an orderly sequence of arrivals. However, these techniques require pilots to fly variable-distance tracks until the required delay is achieved. Pilots consider track miles remaining to plan and maintain a continuous descent profile, and the unpredictability of these sequencing techniques can make this calculation more difficult.
+
+As an alternative to vectoring and holding, controllers may reroute aircraft via predefined 'Predictable Sequencing' waypoints to delay an aircraft by a discrete amount of time. Rerouting the aircraft allows the pilot to calculate the distance remaining more accurately, and therefore adjust their TOD and descent profile accordingly.
+
+Predictable Sequencing waypoints may also be referred to as Continuous Descent Operations (CDO) waypoints.
+
+
+Predictable Sequencing waypoints have been defined for aircraft inbound to Perth (in [HYD](../../enroute/Melbourne Centre/HYD) airspace), Brisbane (in [KEN](../../enroute/Brisbane Centre/KEN) airspace), Sydney (in [ARL](../../enroute/Brisbane Centre/ARL) airspace), and Melbourne (in [BLA](../../enroute/Melbourne Centre/BLA) and [HUO](../../enroute/Melbourne Centre/HUO) airspace).
+
+<figure markdown>
+![Predictable Sequencing waypoints](img/cdo_n774_m636.png){ width="500" }
+  <figcaption>Predictable Sequencing waypoints</figcaption>
+</figure>
+
+
+!!! phraseology
+    *ARL wants to delay QFA12 by 8 minutes to achieve the desired sequence. They consult the Predictable Sequencing map and identify 'ADLIV' as an appropriate delaying waypoint* 
+    **ARL:** "QFA12, from NONID, recleared direct ADLIV thence RIKNI, rest of clearance unchanged"  
+    **QFA12:** "From NONID, recleared direct ADLIV thence RIKNI, QFA12"
+
+<figure markdown>
+![Predictable Sequencing waypoints](img/cdo_razzi.png){ width="500" }
+  <figcaption>Predictable Sequencing waypoints</figcaption>
+</figure>
+	
+!!! phraseology
+    *HUO wants to delay JST712 by 6 minutes to achieve the desired sequence. They consult the Predictable Sequencing map and identify 'OSEMI' as an appropriate delaying waypoint* 
+    **HUO:** "JST712, from AKTAM, recleared direct OSEMI thence RAZZI to rejoin the STAR"  
+    **JST712:** "From AKTAM, recleared direct OSEMI thence RAZZI to rejoin the STAR, JST712" 
+	
+!!! tip
+    As pilots are likely to be unfamiliar with these waypoints, controllers should consider spelling them phonetically to ensure correct data entry in their FMC.
+
+The Predictable Sequencing waypoints work best when the delay required to achieve the sequence is known *and not likely to change further*. If an aircraft might need further vectoring or holding action beyond the delay offered by a reroute, the technique should not be used.
+
+Similarly, when an aircraft appears to be unable to fly a reroute (such as an outdated AIRAC) conventional techniques should be used.

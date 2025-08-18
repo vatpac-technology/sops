@@ -44,7 +44,10 @@ When **TW ADC** is offline, TW CTR (Class D and C `SFC` to `A085`) reverts to Cl
     If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
 
 #### CFS CTR
-When **CFS ADC** is offline, CFS CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by MNN and INL. MNN is **not permitted** to provide a [top-down procedural service](../../../aerodromes/procedural/Coffs), only INL can do this, and they must coordinate with MNN if they are doing so.
+When **CFS ADC** is offline, CFS CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by MNN and INL.
+
+!!! note
+    MNN does not assume the CFS CTR in the absence of a CFS ADC controller. Assumption of the CFS CTR is the responsibility of INL. Controllers may choose to verbally coordinate the release of the CFS CTR to either sector/subsector.
 
 #### WLM CTR
 When **WLM TCU** is offline, WLM MIL CTR (Class C `SFC` to `A065`) reverts to Class G, and WLM MIL CTR (Class C `A065` to `F125`) reverts to Class E. This airspace is administered by the appropriate ARL subsector. Alternatively, ARL(MLD) may provide a [top-down service](../../../terminal/williamtown) if they wish.  
@@ -119,10 +122,33 @@ Non-jet aircraft for YSSY shall be assigned the **MEPIL** STAR.
     In this case, coordination should be conducted to ensure that both controllers agree and no additional conflicts are created as a result (particularly with aircraft inbound from the south/west).
 
 !!! phraseology
-    **ARL:** "RXA6417, amended tracking and STAR available"  
+    **ARL:** "RXA6417, amended tracking and STAR clearance available"  
     **RXA6417:** "RXA6417, go ahead"  
-    **ARL:** "RXA6417, recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain FL180"  
-    **RXA6417:** "Recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain FL180, RXA6417"
+    **ARL:** "RXA6417, recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain F180"  
+    **RXA6417:** "Recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain F180, RXA6417" 
+
+#### Predictable Sequencing Waypoints
+There are ten [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YSSY via **N774** and **M636**.
+
+The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
+
+=== "N774"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | NONID | HARIZ/PORUV | RIKNI | 2 |
+    | NONID | AVKIR/ISNET | RIKNI | 4 |
+    | NONID | IDAGO/OVMAT | RIKNI | 6 |
+    | NONID | ADLIV/FLEMO | RIKNI | 8 |
+    | NONID | UDISI/OPEXA | RIKNI | 10 |
+
+=== "PLUGA"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | PLUGA | OLNOT | RIKNI | 2 |
+    | PLUGA | ADBOK | RIKNI | 4 | 
+    | PLUGA | PEBTU | RIKNI | 6 |
+    | PLUGA | GORTA | RIKNI | 8 | 
+
 
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YSSY. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.

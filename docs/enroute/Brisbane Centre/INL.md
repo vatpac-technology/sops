@@ -123,6 +123,34 @@ Aircraft assigned the **same runway** inbound via:
 
 Must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
+#### Predictable Sequencing Waypoints
+There are nine [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YBBN via **H66** and **H252**.
+
+The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
+
+=== "H66"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | ADKEK | GUTBI | WHITI | 2 |
+    | ADKEK | ISDAG | WHITI | 3 |
+    | ADKEK | RULGU | WHITI | 5 |
+    | ADKEK | DOVIP | WHITI | 7 |
+    | ADKEK | URBAM | WHITI | 9 |
+    | ADKEK | ESMIS | WHITI | 11 |
+    | ADKEK | UBKEM | WHITI | 13 |
+
+=== "H252"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | RULGU | DOVIP | OMKAK  | 1 |
+    | RULGU | ISDAG | OMKAK  | 2 |
+    | RULGU | URBAM | OMKAK  | 3 |
+    | RULGU | GUTBI | OMKAK | 4 |
+    | RULGU | ESMIS | OMKAK | 5 |
+    | RULGU | UBKEM | OMKAK | 7 |
+    | RULGU | ADKEK | OMKAK | 8 |
+    | RULGU | OTBOL | OMKAK | 11 |
+
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YBBN. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
 

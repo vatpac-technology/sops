@@ -25,9 +25,7 @@ Control authority of the **R470** Restricted Area when active is as follows:
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 ## SID Selection
-vatSys does not have SIDs built-in for YSRI. Aircraft planned via **ANKUB**, **KADOM** or **MUDGI** may be assigned the SID that terminates at the appropriate waypoint, as long as ATC is familiar with the chart, and the pilot is able.
-
-Aircraft who are not planned via these points, or who are negative RNAV, may be assigned a visual departure.
+Aircraft planned via **ANKUB**, **KADOM** or **MUDGI** may be assigned the SID that terminates at the appropriate waypoint. Aircraft who are not planned via these points, or who are negative RNAV, may be assigned a visual departure.
 
 ## VFR Procedures
 All VFR aircraft outbound and inbound, or transiting the field maintain `A015`.  
