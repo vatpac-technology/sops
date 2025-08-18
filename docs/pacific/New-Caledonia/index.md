@@ -62,7 +62,7 @@ Some of the callsigns used in New Caledonia may be unfamiliar to controllers use
 Group Form of callsigns is not used within the New Caledonia sector. Numbers in callsigns must be spoken individually, rather than grouped together.
 
 !!! phraseology
-    **NWWW_CTR:** "Aussie Five Three Seven, climb flight level 220."
+    **NWWWA:** "Aussie Five Three Seven, climb flight level 220."
     **ASY537:** "Climb flight level 220, Aussie Five Three Seven."
 
 #### Aircraft Registration
@@ -83,7 +83,7 @@ When referring to an altitude below the transition level, the word 'FEET' is inc
 	**VHABC:** "Descend 7000 feet, VBC"
 
 !!! phraseology
-    **NWWW CTR:** "N45, climb 11000 feet"  
+    **NWWWA:** "N45, climb 11000 feet"  
 	**N12345:** "Climb 11000 feet, N45"
 
 ### ACD/SMC Phraseology Differences
@@ -129,7 +129,7 @@ VFR Departures will be told to expect to depart the CTR via a VFR waypoint when 
 When departing from an intermediate taxiway intersection, the taxiway identifier is included in the line up/takeoff clearance.
 
 !!! phraseology  
-    **NWWM TWR:** "FOLMN, line up and wait runway 17, intersection Z1."
+    **NWWM ADC:** "FOLMN, line up and wait runway 17, intersection Z1."
 
 #### Takeoff Clearance
 Aicraft must be cleared to line-up before being given take off clearance. This can be achieved through separate transmissions, or by being issued together.
