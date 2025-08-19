@@ -122,7 +122,7 @@ For aircraft overflying the PH TCU place `O/FLY` in the LABEL DATA field.
 Aircraft assigned the **same runway** inbound via **JULIM** and **SAPKO**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
 #### Predictable Sequencing Waypoints
-There are ten [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YPPH  via **Q10**, **Q32**, **Q27** and **Z38**. These waypoints are south of **Q10** and north of **Q27**. 
+There are ten [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YPPH  via **Q10**, **Q32**, **Q27**, **Q41**, and **Z38**. These waypoints are south of **Q10** and north of **Q27**. 
 
 The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
 
