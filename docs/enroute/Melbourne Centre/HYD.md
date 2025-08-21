@@ -144,50 +144,48 @@ The table below contains the estimated time from the initial waypoint to the fin
     | ---------------- | ------------ | -------------- | --------------- |
     | URGEX | TEKUD | MALUP | +1 |
     | URGEX | BEMPI | MALUP | +2 |
-    | URGEX | AGTOD | MALUP | +3 |
-    | URGEX | DUKOR | MALUP | +4 |
-    | URGEX | IPGER | MALUP | +5 |
-    | URGEX | TODOS | MALUP | +7 |
-    | URGEX | IVPIL | MALUP | +9 |
+    | URGEX | AGTOD | MALUP | +4 |
+    | URGEX | DUKOR | MALUP | +6 |
+    | URGEX | IPGER | MALUP | +8 |
+    | URGEX | TODOS | MALUP | +10 |
+    | URGEX | IVPIL | MALUP | +13 |
  
 === "Q27"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-    | IVPIL | URGEX | MALUP | +6 |
-    | IVPIL | TEKUD | MALUP | +5 |
-    | IVPIL | BEMPI | MALUP | +4 |
-    | IVPIL | AGTOD | MALUP | +3 |
-    | IVPIL | DUKOR | MALUP | +2 |
-    | IVPIL | IPGER | MALUP | +2 |
+    | IVPIL | URGEX | MALUP | +8 |
+    | IVPIL | TEKUD | MALUP | +6 |
+    | IVPIL | BEMPI | MALUP | +5 |
+    | IVPIL | AGTOD | MALUP | +4 |
+    | IVPIL | DUKOR | MALUP | +3 |
+    | IVPIL | IPGER | MALUP | +1/2 |
     | IVPIL | TODOS | MALUP | +1 |
  
 === "Q32"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-    | TEKUD | URGEX | MALUP | +1 |
     | TEKUD | BEMPI | MALUP | +1 |
-    | TEKUD | AGTOD | MALUP | +2 |
-    | TEKUD | DUKOR | MALUP | +3 |
-    | TEKUD | IPGER | MALUP | +4 |
-    | TEKUD | TODOS | MALUP | +6 |
-    | TEKUD | IVPIL | MALUP | +8 |
+    | TEKUD | AGTOD | MALUP | +3 |
+    | TEKUD | DUKOR | MALUP | +5 |
+    | TEKUD | IPGER | MALUP | +7 |
+    | TEKUD | TODOS | MALUP | +9 |
  
 === "Q41"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-    | NALAR | URGEX | MALUP | +2 |
-    | NALAR | TEKUD | MALUP | +3 |
-    | NALAR | BEMPI | MALUP | +4 |
-    | NALAR | AGTOD | MALUP | +5 |
-    | NALAR | DUKOR | MALUP | +6 |
-    | NALAR | IPGER | MALUP | +7 |
-    | NALAR | TODOS | MALUP | +9 |
-    | NALAR | IVPIL | MALUP | +11 |
+    | NALAR | URGEX | MALUP | +5 |
+    | NALAR | TEKUD | MALUP | +7 |
+    | NALAR | BEMPI | MALUP | +8 |
+    | NALAR | AGTOD | MALUP | +10 |
+    | NALAR | DUKOR | MALUP | +12 |
+    | NALAR | IPGER | MALUP | +14 |
+    | NALAR | TODOS | MALUP | +16 |
+    | NALAR | IVPIL | MALUP | +20 |
  
 === "Z38"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-    | BUNGL | IGROB | MALUP | 4 |
+    | BUNGL | IGROB | MALUP | 5 |
     | BUNGL | KINAB | MALUP | 7 |
 
 #### Holding Fixes
