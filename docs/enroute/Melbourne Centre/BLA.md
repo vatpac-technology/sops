@@ -98,7 +98,7 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 Aircraft assigned the **same runway** inbound via **BOOIN** and **BOYSE**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
 #### Predictable Sequencing Waypoints
-There are four [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YMML via **Q346** and **Q35**.
+There are four [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YMML via **Q346**, **Q29** and **Q35**.
 
 The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
 
@@ -109,6 +109,14 @@ The table below contains the estimated time from the initial waypoint to the fin
     | UPNAP | ONOPO | DORSU | 3 |
     | UPNAP | URGUL | DORSU | 5 |
     | UPNAP | IBOVU | DORSU | 7 | 
+
+== "Q29"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | ANLID | DOVEX | BULLA | 2 |
+    | ANLID | TOPUL | BULLA | 4 |
+    | ANLID | UNSIG | BULLA | 6 |
+    | ANLID | NILEV | BULLA | 8 | 
 
 === "Q35"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
