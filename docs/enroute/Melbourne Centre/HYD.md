@@ -157,7 +157,7 @@ The table below contains the estimated time from the initial waypoint to the fin
     | IVPIL | BEMPI | MALUP | +5 |
     | IVPIL | AGTOD | MALUP | +4 |
     | IVPIL | DUKOR | MALUP | +3 |
-    | IVPIL | IPGER | MALUP | +½ |
+    | IVPIL | IPGER | MALUP | +1–2 |
     | IVPIL | TODOS | MALUP | +1 |
 	
 === "Q31"
@@ -228,6 +228,7 @@ The table below contains the estimated time from the initial waypoint to the fin
 === "Z38"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
+    | BUNGL | MALUP | MALUP | 3 |
     | BUNGL | IGROB | MALUP | 5 |
     | BUNGL | KINAB | MALUP | 7 |
 
