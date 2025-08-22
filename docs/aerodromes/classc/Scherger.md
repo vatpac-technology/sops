@@ -80,6 +80,8 @@ The Standard Assignable Level from **SG ADC** to **SG TCU** is:
 | ------- | ------- |
 | All | The lower of `F240` and `RFL` |
 
+SG TCU shall perform [Heads Up](../../controller-skills/coordination.md#heads-up) coordination for all aircraft inbound to YBWP.
+
 ### ISA(ARA)
 When SG TCU is offline, coordination is not required between SG ADC and ISA(ARA). Aircraft entering ISA(ARA) airspace shall be handed off, and instructed to contact ISA(ARA) for onwards clearance.
 
