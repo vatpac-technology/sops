@@ -122,7 +122,7 @@ For aircraft overflying the PH TCU place `O/FLY` in the LABEL DATA field.
 Aircraft assigned the **same runway** inbound via **JULIM** and **SAPKO**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
 ## Predictable Sequencing Waypoints
-There are ten [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YPPH  via **Q9**, **Q10**, **Q32**, **Q27**, **Q41** and **Z38**. These waypoints are south of **Q10** and north of **Q27**. 
+There are ten [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YPPH via  **Q10**, **Q32**, **Q27**, **Q41** and **Z38**, located south of **Q10** and north of **Q27**. There are also eight waypoints available for aicraft inbound via **Q9**, **Q31**, **Q38**, **Q73** and **Q181** located east of the **Q38**.
 
 The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
 
@@ -137,7 +137,6 @@ The table below contains the estimated time from the initial waypoint to the fin
     | LEBOD | AGTIK | AVPAL | +10 |
     | LEBOD | MEENA | AVPAL | +12 |
     | LEBOD | SQARE | AVPAL | +14 |
-
 
 === "Q10"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
@@ -158,8 +157,19 @@ The table below contains the estimated time from the initial waypoint to the fin
     | IVPIL | BEMPI | MALUP | +5 |
     | IVPIL | AGTOD | MALUP | +4 |
     | IVPIL | DUKOR | MALUP | +3 |
-    | IVPIL | IPGER | MALUP | +1/2 |
+    | IVPIL | IPGER | MALUP | +½ |
     | IVPIL | TODOS | MALUP | +1 |
+	
+=== "Q31"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | NUKTU | BOKAT | AVPAL | +1 |
+    | NUKTU | ELNUL | AVPAL | +2 |
+    | NUKTU | LAXIM | AVPAL | +4 |
+    | NUKTU | ISGUN | AVPAL | +7 |
+    | NUKTU | AGTIK | AVPAL | +9 |
+    | NUKTU | MEENA | AVPAL | +11 |
+    | NUKTU | SQARE | AVPAL | +13 |
  
 === "Q32"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
@@ -169,6 +179,17 @@ The table below contains the estimated time from the initial waypoint to the fin
     | TEKUD | DUKOR | MALUP | +5 |
     | TEKUD | IPGER | MALUP | +7 |
     | TEKUD | TODOS | MALUP | +9 |
+	
+=== "Q38"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | NUKTU | BOKAT | AVPAL | +1 |
+    | NUKTU | ELNUL | AVPAL | +2 |
+    | NUKTU | LAXIM | AVPAL | +4 |
+    | NUKTU | ISGUN | AVPAL | +7 |
+    | NUKTU | AGTIK | AVPAL | +9 |
+    | NUKTU | MEENA | AVPAL | +11 |
+    | NUKTU | SQARE | AVPAL | +13 |
  
 === "Q41"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
@@ -181,7 +202,29 @@ The table below contains the estimated time from the initial waypoint to the fin
     | NALAR | IPGER | MALUP | +14 |
     | NALAR | TODOS | MALUP | +16 |
     | NALAR | IVPIL | MALUP | +20 |
+	
+=== "Q73"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | SQARE | LEBOD | AVPAL | +10 |
+	| SQARE | NUKTU | AVPAL | +8 |
+	| SQARE | BOKAT | AVPAL | +7 |
+    | SQARE | ELNUL | AVPAL | +6 |
+    | SQARE | LAXIM | AVPAL | +4 |
+    | SQARE | ISGUN | AVPAL | +3 |
+    | SQARE | AGTIK | AVPAL | +2 |
+    | SQARE | MEENA | AVPAL | +1 |
  
+=== "Q181"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | BOKAT | ELNUL | AVPAL | +1 |
+    | BOKAT | LAXIM | AVPAL | +3 |
+    | BOKAT | ISGUN | AVPAL | +6 |
+    | BOKAT | AGTIK | AVPAL | +8 |
+    | BOKAT | MEENA | AVPAL | +10 |
+    | BOKAT | SQARE | AVPAL | +12 |
+	
 === "Z38"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
