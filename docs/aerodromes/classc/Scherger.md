@@ -15,6 +15,9 @@
 ## Airspace
 SG ADC owns the Class C airspace within the SG CTR from `SFC` to `A015`.
 
+## Weipa (YBWP)
+Due to it's close proximity, SG ADC & SMC are responsible for clearances into and out of Weipa (YBWP), which sits inside the Scherger Class C control zone.
+
 ## Circuit Direction
 | Runway | Direction |
 | ------ | ----------|
