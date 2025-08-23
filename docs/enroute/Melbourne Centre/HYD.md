@@ -152,14 +152,14 @@ The table below contains the estimated time from the initial waypoint to the fin
 === "Q27"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-    | IVPIL | URGEX | MALUP | +8 |
-    | IVPIL | TEKUD | MALUP | +6 |
-    | IVPIL | BEMPI | MALUP | +5 |
-    | IVPIL | AGTOD | MALUP | +4 |
-    | IVPIL | DUKOR | MALUP | +3 |
-    | IVPIL | IPGER | MALUP | +2 |
     | IVPIL | TODOS | MALUP | +1 |
-	
+    | IVPIL | IPGER | MALUP | +2 |
+    | IVPIL | DUKOR | MALUP | +3 |
+    | IVPIL | AGTOD | MALUP | +4 |
+    | IVPIL | BEMPI | MALUP | +5 |
+    | IVPIL | TEKUD | MALUP | +6 |
+    | IVPIL | URGEX | MALUP | +8 |
+    
 === "Q31"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
@@ -206,15 +206,15 @@ The table below contains the estimated time from the initial waypoint to the fin
 === "Q73"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-    | SQARE | LEBOD | AVPAL | +10 |
-	| SQARE | NUKTU | AVPAL | +8 |
-	| SQARE | BOKAT | AVPAL | +7 |
-    | SQARE | ELNUL | AVPAL | +6 |
-    | SQARE | LAXIM | AVPAL | +4 |
-    | SQARE | ISGUN | AVPAL | +3 |
+	| SQARE | MEENA | AVPAL | +1 |
     | SQARE | AGTIK | AVPAL | +2 |
-    | SQARE | MEENA | AVPAL | +1 |
- 
+    | SQARE | ISGUN | AVPAL | +3 |
+    | SQARE | LAXIM | AVPAL | +4 |
+    | SQARE | ELNUL | AVPAL | +6 |
+    | SQARE | BOKAT | AVPAL | +7 |
+    | SQARE | NUKTU | AVPAL | +8 |
+    | SQARE | LEBOD | AVPAL | +10 |
+	
 === "Q181"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
