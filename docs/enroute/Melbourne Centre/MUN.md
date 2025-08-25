@@ -54,20 +54,27 @@ OXL is reponsible for issuing STAR clearances, initial sequencing, and initial d
 GTH is responsible for issuing STAR Clearances for Jets.
 
 ### Sequencing in to YMML
-
 #### Predictable Sequencing Waypoints
-There are four [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YMML via **Q29**, located south of the airway.
+There are four [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YMML via **Q346** and **Q35**.
 
-The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**.
+The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
 
-=== "Q29"
+=== "Q346"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-    | ANLID | DOVEX | BULLA | 2 |
-    | ANLID | TOPUL | BULLA | 4 |
-    | ANLID | UNSIG | BULLA | 6 |
-    | ANLID | NILEV | BULLA | 8 | 
+    | UPNAP | IGPEB | DORSU | 1 |
+    | UPNAP | ONOPO | DORSU | 3 |
+    | UPNAP | URGUL | DORSU | 5 |
+    | UPNAP | IBOVU | DORSU | 7 | 
 
+=== "Q35"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | IGMIL | IGPEB | DORSU | 2 |
+    | IGMIL | ONOPO | DORSU | 4 |
+    | IGMIL | URGUL | DORSU | 6 |
+    | IGMIL | IBOVU | DORSU | 8 |
+    
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YMML. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
 
