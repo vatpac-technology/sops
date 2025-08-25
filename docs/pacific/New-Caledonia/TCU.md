@@ -52,7 +52,7 @@ Due to the low level of CTA (`A015`) in the NWWM CTR when **NWWM ADC** is offlin
 ## Flow -->
 
 ## Coordination
-### Enroute
+### Nadi Oceanic
 #### Departures
 Voiceless for all aircraft:
 
@@ -72,7 +72,7 @@ Voiceless for all aircraft:
 - Assigned a STAR (if **Runway 11** is in use); or
 - Tracking to **LTO VOR** (if **Runway 29** is in use).
 
-All other aircraft coming from NWWW CTA must be **Heads-up** Coordinated to NWWWA prior to **20nm** from the boundary.
+All other aircraft coming from NFFF CTA must be **Heads-up** Coordinated to NWWWA prior to **20nm** from the boundary.
 
 ### NWWW ADC
 #### Auto Release
@@ -123,6 +123,16 @@ VFR aircraft require a level readback.
 !!! phraseology
     <span class="hotline">**NWWWA** -> **NWWM ADC**</span>: "via MGA VOR, FODXX"  
     <span class="hotline">**NWWM ADC** -> **NWWWA**</span>: "FODXX"
+
+### NVVVA
+All aicraft transiting between NVVVA CTA and NWWWA CTA must be heads-up coordinated.
+
+!!! phraseology
+    <span class="hotline">**NVVVA** -> **NWWWA**</span>: "via LEDIT, TPC916"  
+    <span class="hotline">**NWWWA** -> **NVVVA**</span>: "TPC916, F150"
+
+### Pacific Oceanic (TSN)
+The vertical limits of CTA within TSN and NWWWA/NVVVA mean it is not possible for an aircraft to transit directly from either TCU into TSN CTA and vice versa. As per [Standard coordination procedures](../../../controller-skills/coordination/#octa-coordination) no coordination is required, provided there are no changes to route or level within **5 mins** to boundary.
 
 ## Charts
 !!! note

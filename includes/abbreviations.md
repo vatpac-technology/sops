@@ -170,12 +170,6 @@
 *[CSF]: Cairns Flow
 *[CBF]: Canberra Flow
 *[PFL]: Perth Flow
-*[AYPYA]: Jacksons Radar
-*[AYNZA]: Nadzab Approach
-*[NWWWA]: Tontouta Approach
-*[NWWWT]: Tontouta Approach (Terminal)
-*[NFFNA]: Nadi Approach
-*[NFNAA]: Nausori Approach
 *[AYNZ]: Nadzab
 *[AYGA]: Goroka
 *[AYMD]: Madang
@@ -295,10 +289,16 @@
 *[FIMM]: Mauritius FIR
 *[FAJO]: Johannesburg FIR
 *[AYPM]: Port Moresby FIR
-*[AYPE]: Port Moresby (East) FIR
-*[NWWW]: Noumea FIR
-*[NVVV]: Port Vila FIR
+*[NWWW]: Noumea Sector
+*[NVVV]: Port Vila Sector
 *[RJTG]: Fukuoka FIR
+*[NFFJ]: Nadi Control (Domestic)
+*[AYPYA]: Jacksons Radar
+*[AYNZA]: Nadzab Approach
+*[NWWWA]: Tontouta Approach
+*[NVVVA]: Vila Tower (TCU)
+*[NFFNA]: Nadi Approach
+*[NFNAA]: Nausori Approach
 *[MX]: Maximum Speed
 *[CSR]: Cancel Speed Restrictions
 *[COBT]: Calculated Off Blocks Time
