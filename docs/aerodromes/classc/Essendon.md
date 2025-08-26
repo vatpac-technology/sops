@@ -52,10 +52,12 @@ VFR departures from Class G shall be cleared (at not above `A015`) via:
 
 | Direction | VFR Outbound Point |
 |----------| ------------------------ |
-| East  | DSN
-| South East  | FWO
-| South | WES
+| East  | DSN |
+| South East  | FWO |
+| South | WES |
 
+!!! Note
+    Westbound traffic is usally not allowed to deconflict with YMML Traffic
 
 VFR arrivals from Class G shall be cleared (at not above `A015`) via:
 
