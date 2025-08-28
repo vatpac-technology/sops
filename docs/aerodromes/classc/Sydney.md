@@ -214,7 +214,7 @@ Additional standard taxi routes exist into and out of some domestic aprons.
     | **B1 Apron** | 16R<br>16L<br>34L - Prop<br>34L - Jet<br>34R | B1<br>B1, C, B10<br>B1, C, B10<br>B1, C, L, A, A6<br>B1, C, B10, S, T, T6 |
     | **DOM1, DOM1A & Taxiway C Bays** | 16R<br>16L<br>34L - Prop<br>34L - Jet<br>34R | As Directed by ATC<br>C, B10<br>C, B10<br>C, L, A, A6<br>C, B10, S, T, T6 |
     | **DOM2 (All bays except below)** | 16R<br>16L<br>34L - Prop<br>34L - Jet<br>34R | C2, B4<br>DOM2, C, B10<br>DOM2, C, B10<br>DOM2, C, L, A, A6<br>DOM2, C, B10, S, T, T6 |
-    | **DOM2 (Bays 43, 45A)** | 16R<br>16L<br>34L - Prop<br>34L - Jet<br>34R | B4<br>DOM2, C, B10<br>DOM2, C, B10<br>DOm2, C, L, A, A6<br>DOM2, C, B10, S, T, T6 |
+    | **DOM2 (Bays 43, 45A)** | 16R<br>16L<br>34L - Prop<br>34L - Jet<br>34R | B4<br>DOM2, C, B10<br>DOM2, C, B10<br>DOM2, C, L, A, A6<br>DOM2, C, B10, S, T, T6 |
     | **DOM2 - A330 aircraft (Bays 39, 45)** | 16R<br>16L<br>34L<br>34R | DOM2, G, B<br>DOM2, C, B10<br>DOM2, C, L, A, A6<br>DOM2, C, B10, S, T, T6 |
     | **DOM3, DOM3A, DOM3B, DOM4, DOM5 & DOM6** | 16R<br>16L<br>34L - Prop<br>34L - Jet<br>34R | G<br>G, C, B10<br>G, C, B10<br>G, C, L, A, A6<br>G, C, B10, S, T, T6 |
 
