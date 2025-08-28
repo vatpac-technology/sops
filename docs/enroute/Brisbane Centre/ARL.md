@@ -141,7 +141,7 @@ The table below contains the estimated time from the initial waypoint to the fin
     | NONID | ADLIV/FLEMO | RIKNI | 8 |
     | NONID | UDISI/OPEXA | RIKNI | 10 |
 
-=== "PLUGA"
+=== "M636"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
     | PLUGA | OLNOT | RIKNI | 2 |
