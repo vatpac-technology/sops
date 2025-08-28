@@ -152,7 +152,16 @@ Stereo approaches should generally be used during high military traffic levels a
 
 Stereo Approach charts can be found in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
+## Aerodrome Responsbilities
+If a controller is handling a military aircraft, they must confirm the undercarrige is down and locked when issuing a clearance to land.
 
+!!! phraseology
+    **ESA**: "VIPR42, cleared to land runway 27, check wheels"
+    **VIPR42**" "Cleared to land runway 27, 3 greens"
+    **ESA**: "VIPR42"
+
+!!! note
+Military Aircraft may respond with a beep to indicate three greens.
 
 ## Initial and Pitch 
 The Initial and Pitch is a military visual approach to the circuit area. Military aircraft approach on the deadside, parallel to the extended runway centreline at high speed (the **initial**), then make a tight turn onto downwind (the **pitch**). Aircraft should be cleared for a visual approach via the relevant initial point by the **TCU controller** and transferred to ADC when appropriate. 
