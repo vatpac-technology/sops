@@ -90,6 +90,18 @@ Any subsequent calls will only be made by the leader, representing the entire fo
     **ARA**: "Viper, Climb to F340"  
     **VIPR**:  "Climb to F340, Viper" 
 
+You may issue issue individual control instructions to a formation, in intrest of safety when they are conducting an approach.
+
+!!! phraseology
+    **ARA**: "VIPR12, extend downwind due to company traffic on base"
+    **VIPR12**: "Extend Downwind"
+
+You must consider the formation to be broken and process aircraft individually when the formation aircraft:
+- elect to carry out touch and go landings;
+- are required to go around;
+- elect to carry out individual activities
+
+
 ### Close Formation
 Reserved.
 
@@ -139,6 +151,8 @@ Stereo Approaches are the primary procedure for fighter & strike aircraft (e.g. 
 Stereo approaches should generally be used during high military traffic levels and nominated on the appropriate aerodrome ATIS.
 
 Stereo Approach charts can be found in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}
+
+
 
 ## Initial and Pitch 
 The Initial and Pitch is a military visual approach to the circuit area. Military aircraft approach on the deadside, parallel to the extended runway centreline at high speed (the **initial**), then make a tight turn onto downwind (the **pitch**). Aircraft should be cleared for a visual approach via the relevant initial point by the **TCU controller** and transferred to ADC when appropriate. 
