@@ -42,6 +42,7 @@ For aircraft unfamiliar with the restricted area, provide *suggested* headings t
 #### CTA
 You must separate all aircraft in controlled airspace by *half the applicable lateral standard* from a Restricted Area (ie, **1.5nm** for TCU, **2.5nm** for Enroute). Aircraft operating at the vertical limits of Restricted Areas are considered to be separated from it.
 
+
 ### Activation times
 Some Restricted Areas are not always active. Some may be active only on certain days, or certain hours of the day. More info can be found in the [ERSA](https://www.airservicesaustralia.com/aip/aip.asp){target=new}, or on the Restricted Areas window in vatSys
 
@@ -170,8 +171,7 @@ By default, aircraft will pitch at the midfield point (about half way down the r
     **VIPR47**: "Sale Tower, VIPR47"  
     **ADC**: "VIPR47, pitch long"  
     **VIPR47**: "Pitch long, VIPR47"
-
-    **VIPR47**: "VIPR47, Base 3 Greens"  
-    **ADC**: "VIPR47, runway 27, cleared to land"  
-    **VIPR47**: "Runway 27, Cleared to Land, VIPR47"
+    **VIPR47**: "VIPR47, Base"  
+    **ADC**: "VIPR47, runway 27, cleared to land, check wheels"  
+    **VIPR47**: "Runway 27, Cleared to Land, VIPR47, 3 Greens"
 
