@@ -133,7 +133,7 @@ MARSA is to be assigned and terminated on pilots request, and when standard sepe
     **ARA**: "MAPL01 and DRGN50, MARSA terminated"
 
 ## NOCOM Operations
-**Non-Continuous Communication** (NOCOM) Procedures are when military aircraft discontinue two-way radio communications with Civil ATC. NOCOM Procedures state that ATC Approval is required when military aircraft are in controlled airspace. military aircraft under NOCOM procedures fall under multiple categories:
+**Non-Continuous Communication** (NOCOM) procedures allow military aircraft to discontinue two-way radio communications with civil ATC. ATC approval is required when military aircraft are in controlled airspace. Military aircraft under NOCOM procedures fall under multiple categories:
 
 - Flights on "Area Freq" when OCTA
 - Flights that are "Radio Silent"
