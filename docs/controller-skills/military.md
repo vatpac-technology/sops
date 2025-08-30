@@ -35,7 +35,7 @@ Outside controlled airspace, it is the responsibility of the controller to provi
 
 !!! phraseology
     **CNK**: "VFR aircraft overhead YCNK 3500 tracking westbound, confirm you will be remaining clear of the R564 restricted area?"  
-    
+
     To which they will almost always reply with either *"Affirm"* or *"Huh?"*
 
 For aircraft unfamiliar with the restricted area, provide *suggested* headings to avoid. Get the aircraft to squawk ident to temporarily identify them. Remember that you cannot vector aircraft OCTA.
@@ -64,11 +64,11 @@ Military aircraft are permitted to operate within their designated Restricted Ar
     **DRGN379**: "Wilco, DRGN379"  
 
 ### ATC Activated Military Airspace
-Most Military TCUs and Tower positions, when online, control airspace that correspond to certain Restricted Area Activations. These are prescribed in the Local Instructions.
+Most military TCUs and Tower positions, when online, control airspace that correspond to certain Restricted Area Activations. These are prescribed in the Local Instructions.
 
 These Restricted Areas may be activated in vatSys, and the controllers of these positions may inform other surrounding controllers of their activations, so they may use the Resitricted Areas on the screen to visually assess the airspace and separation required for traffic.
 
-Unless otherwise stated in Local Instructions, Restricted Areas activated for control by Military TCUs and Towers, will become **Class C** airspace.
+Unless otherwise stated in Local Instructions, Restricted Areas activated for control by military TCUs and Towers, will become **Class C** airspace.
 
 ## Formation Flights
 ### Standard Formation
@@ -133,7 +133,7 @@ MARSA is to be assigned and terminated on pilots request, and when standard sepe
     **ARA**: "MAPL01 and DRGN50, MARSA terminated"
 
 ## NOCOM Operations
-**Non-Continuous Communication** (NOCOM) Procedures are when Military Aircraft discontinue two-way radio communications with Civil ATC. NOCOM Procedures state that ATC Approval is required when Military Aircraft are in controlled airspace. Military Aircraft under NOCOM procedures fall under multiple categories:
+**Non-Continuous Communication** (NOCOM) Procedures are when military aircraft discontinue two-way radio communications with Civil ATC. NOCOM Procedures state that ATC Approval is required when military aircraft are in controlled airspace. military aircraft under NOCOM procedures fall under multiple categories:
 
 - Flights on "Area Freq" when OCTA
 - Flights that are "Radio Silent"
