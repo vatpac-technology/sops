@@ -48,7 +48,7 @@ ML TCU shall clear aircraft for approach via the appropriate arrival gate:
     EN ADC must not permit aircraft to depart from the RWY 26 extended centreline until passed LUY and within the vertical limits of EN airspace.
 
 ### VFR
-VFR departures from Class G shall be cleared (at not above `A015`) via:
+VFR departures to Class G shall be cleared (at not above `A015`) via:
 
 | Direction | VFR Outbound Point |
 |----------| ------------------------ |
@@ -57,7 +57,7 @@ VFR departures from Class G shall be cleared (at not above `A015`) via:
 | South | WES |
 
 !!! Note
-    North and Westbound traffic is usually not allowed to deconflict with YMML Traffic. If possible allow them to track south and follow coastal and inbound tracks.
+    Departures to the north and west are generally not available due to YMML traffic. During times of low traffic levels, departures to these direction may be available, pending coordination with the surrounding controllers.
 
 VFR arrivals from Class G shall be cleared (at not above `A015`) via:
 
