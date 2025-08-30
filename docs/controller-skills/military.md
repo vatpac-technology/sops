@@ -35,6 +35,7 @@ Outside controlled airspace, it is the responsibility of the controller to provi
 
 !!! phraseology
     **CNK**: "VFR aircraft overhead YCNK 3500 tracking westbound, confirm you will be remaining clear of the R564 restricted area?"  
+    
     To which they will almost always reply with either *"Affirm"* or *"Huh?"*
 
 For aircraft unfamiliar with the restricted area, provide *suggested* headings to avoid. Get the aircraft to squawk ident to temporarily identify them. Remember that you cannot vector aircraft OCTA.
@@ -71,14 +72,14 @@ Unless otherwise stated in Local Instructions, Restricted Areas activated for co
 
 ## Formation Flights
 ### Standard Formation
-A **Standard formation** is defined by more than one aircraft, separated by no more than **1nm** laterally/longitudinally, and no more than **100 feet** vertically, from the lead aircraft. All aircraft in the formation are treated as *one*. Ensure only the leader is squawking Mode C.
+A **standard formation** is defined by more than one aircraft, separated by no more than **1nm** laterally/longitudinally, and no more than **100 feet** vertically, from the lead aircraft. All aircraft in the formation are treated as *one*. Ensure only the leader is squawking Mode C.
 
 An additional **1nm** must be applied to any lateral separation standards for aircraft in a Standard Formation (Surveillance standards, for example, become *6nm* for Enroute, *4nm* for ADC/TCU).
 
 !!! note
     RAAF FIHA AD2 Supps and TERMAs can be found [here](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
-When Military formations make initial contact with a new sector, they will commonly "check in" with all of the members of the formation, to ensure they've all made the frequency transfer. This involves all the individual members of the formation saying their own number in order on the first call. Formations are most commonly referred to by their base radio telephony callsign, without any numbers (eg, VIPR, BLKT, WGTL).
+When military formations make initial contact with a new sector, they will commonly "check in" with all of the members of the formation, to ensure they've all made the frequency transfer. This involves all the individual members of the formation saying their own number in order on the first call. Formations are most commonly referred to by their base radio telephony callsign, without any numbers (eg, VIPR, BLKT, WGTL).
 
 !!! phraseology
     **VIPR**: "Viper 1, 2, 3, 4, Brisbane Centre, Viper, Maintaining F280"  
@@ -90,13 +91,14 @@ Any subsequent calls will only be made by the leader, representing the entire fo
     **ARA**: "Viper, Climb to F340"  
     **VIPR**:  "Climb to F340, Viper" 
 
-You may issue issue individual control instructions to a formation, in intrest of safety when they are conducting an approach.
+You may issue issue individual control instructions to a formation when necessary.
 
 !!! phraseology
-    **ARA**: "VIPR12, extend downwind due to company traffic on base"
-    **VIPR12**: "Extend Downwind"
+    **ARA**: "VIPR12, extend downwind"  
+    **VIPR12**: "Extend downwind, VIPR12"
 
 You must consider the formation to be broken and process aircraft individually when the formation aircraft:
+
 - elect to carry out touch and go landings;
 - are required to go around;
 - elect to carry out individual activities
@@ -156,12 +158,11 @@ Stereo Approach charts can be found in the [RAAF TERMA](https://ais-af.airforce.
 If a controller is handling a military aircraft, they must confirm the undercarrige is down and locked when issuing a clearance to land.
 
 !!! phraseology
-    **ESA**: "VIPR42, cleared to land runway 27, check wheels"
+    **ESA**: "VIPR42, cleared to land runway 27, check wheels"  
     **VIPR42**" "Cleared to land runway 27, 3 greens"
-    **ESA**: "VIPR42"
 
 !!! note
-Military Aircraft may respond with a beep to indicate three greens.
+    Some aircraft may respond with a beep to indicate three greens.
 
 ## Initial and Pitch 
 The Initial and Pitch is a military visual approach to the circuit area. Military aircraft approach on the deadside, parallel to the extended runway centreline at high speed (the **initial**), then make a tight turn onto downwind (the **pitch**). Aircraft should be cleared for a visual approach via the relevant initial point by the **TCU controller** and transferred to ADC when appropriate. 
