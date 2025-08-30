@@ -162,7 +162,7 @@ If a controller is handling a military aircraft, they must confirm the undercarr
     **VIPR42**" "Cleared to land runway 27, 3 greens"
 
 !!! note
-    Some aircraft may respond with a beep to indicate three greens.
+    Some aircraft may respond with a beep tone to indicate three greens. In the real world, this tone is produced by the aircraft itself, however some online pilots may choose to replicate this produce using other methods.
 
 ## Initial and Pitch 
 The Initial and Pitch is a military visual approach to the circuit area. Military aircraft approach on the deadside, parallel to the extended runway centreline at high speed (the **initial**), then make a tight turn onto downwind (the **pitch**). Aircraft should be cleared for a visual approach via the relevant initial point by the **TCU controller** and transferred to ADC when appropriate. 
