@@ -55,9 +55,13 @@ VFR departures to Class G shall be cleared (at not above `A015`) via:
 | East  | DSN |
 | South East  | FWO |
 | South | WES |
+| North^ | CGB |
+| North East^ | EPPG |
+| West^ | ROK |
+| North West | [Sunbury Corridor](#sunbury-corridor) |
 
 !!! Note
-    Departures to the north and west are generally not available due to YMML traffic. During times of low traffic levels, departures to these direction may be available, pending coordination with the surrounding controllers.
+    ^ Departures to the north and west are generally not available due to YMML traffic. Where YMML taffic permits, departures to these direction may be available, [pending coordination](#smc-to-ml-tcu) with ML TCU.
 
 VFR arrivals from Class G shall be cleared (at not above `A015`) via:
 
@@ -69,8 +73,16 @@ VFR arrivals from Class G shall be cleared (at not above `A015`) via:
 | South East | APL    | MCG  | MCG|
 | South | SNP     | MVC | FGN  |
 | South West | WES   | MVC | DCT |
+| North West | [Sunbury Corridor](#sunbury-corridor) | DCT | DCT |
 
-## VFR Operations
+#### Sunbury Corridor
+Day VFR Helicopters may request clearance via the Sunbury Corridor. It is defined as the corridor 1nm either side of a track from SWT - PWLC - 16/27 Intersection at YMML.
+
+Boundary Coordination must be completed to ML TCU for clearances in this airspace
+
+!!! phraseology
+    <span class="hotline">**EN ADC** -> **ML TCU**</span>: "Next, HM3, Sunbury Corridor, not above A020"  
+    <span class="hotline">**ML TCU** -> **EN ADC**</span>: "HM3, No Restrictions"  
 
 ### Circuit Direction
 | Runway | Direction |
@@ -117,7 +129,11 @@ YMEN ATIS identifiers only uses letters `A` through to `M`, due to nearby YMML u
 ## Coordination
 ### ML TCU
 #### SMC to ML TCU
+##### Start Clearance
 When an aircraft requests start clearance, the EN SMC controller shall coordinate with ML TCU to obtain the start clearance.
+
+##### VFR Clearance
+When an aircraft requests a VFR outbound departure to the north or west, the EN SMC controller shall coordinate with ML TCU to obtain approval to provide such clearance. When a clearance cannot be given (for example, due to conflicting traffic at YMML), EN SMC shall instead provide clearance to depart to the south or east.
 
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from EN ADC to ML TCU for all aircraft **entering ML TCU CTA**.
