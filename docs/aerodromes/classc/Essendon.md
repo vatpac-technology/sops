@@ -78,7 +78,7 @@ VFR arrivals from Class G shall be cleared (at not above `A015`) via:
 #### Sunbury Corridor
 Day VFR Helicopters may request clearance via the Sunbury Corridor. It is defined as the corridor 1nm either side of a track from SWT - PWLC - 16/27 Intersection at YMML.
 
-Boundary Coordination must be completed to ML TCU for clearances in this airspace
+Boundary Coordination must be completed to ML TCU for clearances in this airspace.
 
 !!! phraseology
     <span class="hotline">**EN ADC** -> **ML TCU**</span>: "HM3 requests clearance via Sunbury Corridor, not above A020."   
