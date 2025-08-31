@@ -113,7 +113,7 @@
 @media screen and (max-width:480px) {
     .container {
         padding-top: 1.5rem;
-        background: url("../../assets/hero-image.png"), #1d1e26;
+        background: url("../../assets/hero-image.png?v=2"), #1d1e26;
         background-repeat: no-repeat;
         background-size: cover;
         background-blend-mode: overlay;
