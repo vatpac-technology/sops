@@ -54,7 +54,7 @@ All IFR aircraft departing Cambridge shall be assigned a **Visual Departure** or
 When ready to taxi and prior to leaving the apron aircraft must contact **HB ADC**, advising intended runway for departure and receipt of YMHB ATIS, to obtain traffic information.
 
 !!! phraseology
-    **NDR:** "Hobart Tower, NDR, taxiing Cambridge Runway 32, received Hobart Information D"  
+    **NDR:** "Hobart Tower, NDR, taxiing Cambridge Runway 30, received Hobart Information D"  
     **HB ADC:** "NDR, no reported IFR traffic, report ready"  
     **NDR:** "Wilco, NDR"
 
