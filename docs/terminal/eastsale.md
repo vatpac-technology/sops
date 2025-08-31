@@ -12,11 +12,11 @@
 
 ## Airspace
 
-ES TCU is responsible for the restricted airspace within R360, from the base of CTA to `F210`. Typically, sectors R360A through R360F are active. The enroute controllers manage the airspace beneath the active R360 sectors, with HUO(WON) controlling the southern section and BLA controlling the northern section. Coordination with both enroute controllers is needed if online.
+ESA is responsible for the restricted airspace within R360, from the base of CTA to `F210`. Typically, sectors R360A through R360F are active. The enroute controllers manage the airspace beneath the active R360 sectors, with HUO(WON) controlling the southern section and BLA controlling the northern section. Coordination with both enroute controllers is needed if online.
 
 R393 is reserved and is activated only for special events.
 
-If operationally necessary, ES TCU may also request the activation of M301 airspace segments for military exercises up to `F450`.
+If operationally necessary, ESA may also request the activation of M301 airspace segments for military exercises up to `F450`.
 
 <figure markdown>
 ![ESL TMA](img/esltcu.png){ width="700" }
@@ -40,7 +40,7 @@ The East Sale Circuit Area (ESL CIRA) is active at all times when R360A is activ
 
 The West Sale Circuit Area (WSL CIRA) is active at all times when R360A is active. It is defined as airspace within a `5NM` radius centered on the YWSL ARP, from the `SFC` to `A020`.
 
-Separation on the movement area at West Sale is not provided by ES TCU due to geographical displacement. Pilots are responsible for separation during ground operations.
+Separation on the movement area at West Sale is not provided by ESA due to geographical displacement. Pilots are responsible for separation during ground operations.
 
 The WSL CIRA remains north of the Latrobe River and within 12 TAC ESL.
 
@@ -78,7 +78,7 @@ The ESL and WSL CIRA overlap overhead Sale Township. To avoid conflict between a
 VFR D353 transit lane allows VFR aircraft to transit the TCU airspace. The lateral limits are approximately 1NM either side of the railway line from Cowwarr to Lindenow South, passing through Heyfield, Maffra, and Stratford.
 The vertical limit is from `SFC` to `A015`.
 Clearance is not required for transit through R360A via D353.
-Aircraft must monitor ES TCU on 123.300, and broadcast at Cowwarr and Lindenow South compulsory en route reporting points. No air traffic services are provided within D353.
+Aircraft must monitor ESA on 123.300, and broadcast at Cowwarr and Lindenow South compulsory en route reporting points. No air traffic services are provided within D353.
 
 #### Princes Route
 Aircraft using the Princes Route should expect a clearance not above 1,500FT. Other levels may be available upon request.
@@ -93,9 +93,9 @@ Upon pilot request, clear aircraft to transit through the Longford Lane.
 
 !!! phraseology
     **RCR**: "East Sale Approach, RCR, Archer, 10 miles north west McGauran beach, 3500, request clearance Loch Sport"  
-    **ES TCU**: "RCR, East Sale Approach, squawk 1234, remain outside charlie airspace"  
+    **ESA**: "RCR, East Sale Approach, squawk 1234, remain outside charlie airspace"  
     **RCR**: "Remain OCTA, squawk 1234, RCR"  
-    **ES TCU**: "RCR, identified, cleared McGauran Beach, Loch Sport, not above 1500"  
+    **ESA**: "RCR, identified, cleared McGauran Beach, Loch Sport, not above 1500"  
     **RCR**: "cleared McGauran Beach, Lock Sport, not above 1500, RCR"  
 
 
@@ -197,7 +197,7 @@ Voiceless for all aircraft:
 - Tracking via a Procedural SID terminus; and  
 - Assigned the lower of `F200` or the `RFL`
 
-All other aircraft going to ELW/YWE CTA must be **Heads-up** Coordinated by ES TCU prior to the boundary. 
+All other aircraft going to ELW/HUO(WON) CTA must be **Heads-up** Coordinated by ESA prior to the boundary. 
 
 #### Arrivals
 Voiceless for all aircraft:
@@ -205,12 +205,12 @@ Voiceless for all aircraft:
 - With ADES **YMES**; and
 - Assigned `A100`
 
-All other aircraft coming from ELW/YWE CTA will be **Heads-up** Coordinated to ES TCU.
+All other aircraft coming from ELW/HUO(WON) CTA will be **Heads-up** Coordinated to ESA.
 
 ### Auto Release
-[Next](../controller-skills/coordination.md#next) coordination is required from ES ADC to ES TCU for all aircraft.
+[Next](../controller-skills/coordination.md#next) coordination is required from ES ADC to ESA for all aircraft.
 
-The Standard Assignable Level from  **ES ADC** to **ES TCU** is:
+The Standard Assignable Level from  **ES ADC** to **ESA** is:
 
 | Aircraft | Level |
 | -------- | ----- |
@@ -221,9 +221,9 @@ Helicopters departing from helicopter spots will be treated as if departing from
 
 !!! phraseology
     *PSDN14 is a VFR helicopter departing from the threshold of RWY04 (in the direction of runway 27)*  
-    <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Next, PSDN14, runway 27"  
-    <span class="hotline">**ES TCU** -> **ES ADC**</span>: "PSDN14, right turn, unrestricted"  
-    <span class="hotline">**ES ADC** -> **ES TCU**</span>: "Right turn, PSDN14" 
+    <span class="hotline">**ES ADC** -> **ESA**</span>: "Next, PSDN14, runway 27"  
+    <span class="hotline">**ESA** -> **ES ADC**</span>: "PSDN14, right turn, unrestricted"  
+    <span class="hotline">**ES ADC** -> **ESA**</span>: "Right turn, PSDN14" 
 
 ### Transfer to Tower
 Transfer to tower frequency at the following points:

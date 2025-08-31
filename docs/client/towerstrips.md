@@ -66,6 +66,8 @@ Strips can be moved in between strip bays by clicking on their callsign, and cli
 ### Missing Strips
 Selecting a track on the Ground Radar or ASD will select the relevant strip in OzStrips, and vice versa. If a strip is missing from the stripboard, select the ground track from the vatSys Ground window, then click the desired OzStrips bay to place the strip there.
 
+Alternatively, the Quick Search window can be opened by pressing `CTRL + F`, allowing controllers to enter a callsign and see which bay the strip resides in.
+
 ### Control Bar 
 The bottom of the window holds the Control Bar. This panel contains the server connection status, aerodrome selected and ATIS code, among other elements. 
 
@@ -135,10 +137,11 @@ The following keyboard shortcuts exist to improve workflow efficiency.
 | `Backspace` | Inhibit selected strip |
 | `F` | Flip (cycle between Departure, Arrival & Local states) selected strip |
 | `X` | Toggle crossing highlight to selected strip |
-| `Alt + X` | Add RUNWAY CROSSING bar to Runway Bay |
+| `Alt + X` | Toggle RUNWAY CROSSING bar in Runway Bay |
 | `[` / `]` | Change aerodrome |
 | `↑` / `↓` | Move selected strip position in the current bay |
 | `Ctrl + ↑` / `Ctrl + ↓` | Move selected strip towards nearest bar |
+| `Ctrl + F` | Open Quick Search window |
 
 ## Workflow
 Due to it's shared state, OzStrips works best if all controllers follow a standardised workflow. Controllers are strongly encouraged to follow the workflow below.
@@ -333,7 +336,7 @@ When approval is given for the runway crossing, place the `XXX CROSSING XXX` [ba
 </figure>
 
 !!! tip
-    You can quickly add a Crossing bar to the **Runway Bay** by pressing `ALT + X`. To remove the bar, select it, then press `BACKSPACE`.
+    You can quickly toggle the Crossing bar in the **Runway Bay** by pressing `ALT + X`.
 
 Coordinated runway releases should be recorded by placing a `RUNWAY XX RELEASED TO SMC` [bar](#control-bar) in the **Runway Bay**.
 
