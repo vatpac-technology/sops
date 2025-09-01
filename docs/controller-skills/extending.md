@@ -75,7 +75,7 @@ Other signs a controller is overextending may include aircraft constantly steppi
 	It is significantly easier to recognise that you are about to be busy and to do something about it, than it is to realise that you are over capacity and try to fix it. **Don't wait until you're overwhelmed**: recognise the signs early and relinquish airspace *before* things become too much to handle.
 
 ## Remarks
-When extending, the VATPAC plugin (which is included in the Australia and Pacific profiles by default will automatically update the controller remarks to include details of extended sectors, in the format: *"Extending to (Sector) (frequency), (Sector) (frequency), etc.* .
+When extending, the VATPAC plugin (which is included in the Australia and Pacific profiles by default) will automatically update the controller remarks to include details of extended sectors, in the format: *"Extending to (Sector) (frequency), (Sector) (frequency), etc.* .
 
 !!! example
     Melbourne Centre  
