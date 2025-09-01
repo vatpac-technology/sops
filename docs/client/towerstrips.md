@@ -19,7 +19,7 @@ If the client is installed correctly, there will be an *OzStrips* option in the 
 </figure>
 
 ### Connecting
-After logging onto the network, open the plugin from the dropdown menu, and select the desired aerodrome, or type the ICAO code into the text field.
+OzStrips automatically manages the list of aerodromes available, depending on the position and sectors you have set. The desired aerodrome can be chosen from this list.
 
 <figure markdown>
 ![Select Aerodrome](../controller-skills/img/ozstripsaerodromeselect.png){ width="500" }
@@ -309,14 +309,16 @@ After the aircraft vacates the runway, move the strip to the **Taxi Bay**.
 #### Circuits
 Pink [local strips](#local-flights) denote aircraft who's planned operation remains entirely on the ADC frequency (they will not be passed to Departures or leave ADC's jurisdiction). Normal [departure procedures](#departures_1) apply for recording when the circuit aircraft calls ready and is eventually cleared for takeoff.
 
-Once the aircraft is airborne, move the strip to the **Arrivals Bay** and sequence them with any other arriving aircraft. On each circuit, move the strip to the **Runway Bay** when a landing/touch & go/other clearance is issued, then move them back to the **Arrivals Bay** when they become airborne again.
+The **Circuit Bay** can be toggled on and off using the option within the **View** dropdown.
+
+Once the aircraft is airborne, move the strip to the **Circuit Bay** and sequence them with any other arriving aircraft. On each circuit, move the strip to the **Runway Bay** when a landing/touch & go/other clearance is issued, then move them back to the **Circuit Bay** when they become airborne again.
 
 When the aircraft lands for the final time and vacates the runway, use the [flip flop](#control-bar) button to change their state to **Arrival** and place them in the **Taxi Bay** in accordance with normal [arrival procedures](#arrivals_1).
 
 !!! tip 
     With a strip selected, press `F` to flip it between Departure, Arrival, and Local states.
 
-Coordinated circuit area airspace releases should be recorded by placing a `CIRCUIT AREA RELEASED` [bar](#control-bar) in the **Runway Bay**.
+Coordinated circuit area airspace releases should be recorded by placing a `CIRCUIT AREA RELEASED` [bar](#control-bar) in the **Circuit Bay**.
 
 #### Runway Crossings
 Aircraft who need to cross an active runway will be coordinated by SMC by hotline and/or by SMC placing the strip in the **Holding Point Bay** with the red crossing highlight applied.
