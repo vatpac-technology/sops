@@ -97,4 +97,4 @@ This has the benefit of:
 - [VATSIM Radar](https://map.vatsim.net) will display sectors listed in controllers' remarks, where the formatting above has followed.
 
 !!! note
-	The VATPAC plugin will amend your controller remarks to add or remove sectors when a transmitted frequency is added or removed via the VSCS. There is no need for controllers to edit the list manually.
+	The VATPAC plugin will amend the controller remarks when a transmitted frequency is added or removed via the VSCS. There is no need for controllers to edit the list manually.
