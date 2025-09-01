@@ -51,31 +51,6 @@ Keep track of the frequency on which an aircraft is monitoring by placing the th
 
 Controllers may also assist others by putting the frequency designator in the label prior to handing off an aircraft to another ENR controller. eg, controlling **BLA**, transferring aircraft bound for YPAD to **MUN**, who is also extending to **TBD**: Put `MUN` in label prior to handoff.
 
-## Remarks
-When extending, include in your remarks, *"Extending to (Sector) (frequency), (Sector) (frequency), etc.* .
-
-!!! example
-    Melbourne Centre  
-    **Extending to HUO 122.6, MUN 132.6, GUN 128.4**  
-    Airspace, Charts, Tools - vats.im/pac/pilot  
-	ATC feedback - helpdesk.vatpac.org
-
-!!! example
-    Coral Approach  
-    **Extending to RKA 123.75**  
-    Airspace, Charts, Tools - vats.im/pac/pilot  
-	ATC feedback - helpdesk.vatpac.org
-	
-This will have the benefit of: 
- 
-- Helping pilots be aware of whether or not they are in your airspace, so they are less likely to start taxiing without a clearance or traffic statement  
-- Helping pilots know which frequency to use.
-
-Proper frequency management and remarks formatting also ensures that extended sectors are displayed correctly on coverage maps.
-
-- The [VATPAC Coverage map](https://map.vatpac.org/static/map.html) will display sectors based on controllers' active and cross-coupled frequencies.
-- [VATSIM Radar](https://map.vatsim.net) will display sectors listed in controllers' remarks, where the formatting above has followed.
-
 ## Workload Management
 It is very easy to start controlling to several adjacent sectors when traffic is calm, have traffic quietly build up until, until all of a sudden, the workload exceeds ones' capacity and becomes overwhelming. This situation is often caused by *'overextending'*: there is simply too much traffic in the area/on frequency for a single controller to manage.
 
@@ -99,3 +74,27 @@ Other signs a controller is overextending may include aircraft constantly steppi
 !!! warning Important
 	It is significantly easier to recognise that you are about to be busy and to do something about it, than it is to realise that you are over capacity and try to fix it. **Don't wait until you're overwhelmed**: recognise the signs early and relinquish airspace *before* things become too much to handle.
 
+## Remarks
+When extending, the VATPAC plugin (which is included in the Australia and Pacific profiles by default will automatically update the controller remarks to include details of extended sectors, in the format: *"Extending to (Sector) (frequency), (Sector) (frequency), etc.* .
+
+!!! example
+    Melbourne Centre  
+    **Extending to HUO 122.6, MUN 132.6, GUN 128.4**  
+    Airspace, Charts, Tools - vats.im/pac/pilot  
+	ATC feedback - helpdesk.vatpac.org
+
+!!! example
+    Coral Approach  
+    **Extending to RKA 123.75**  
+    Airspace, Charts, Tools - vats.im/pac/pilot  
+	ATC feedback - helpdesk.vatpac.org
+	
+This has the benefit of: 
+ 
+- Helping pilots be aware of whether or not they are in your airspace, so they are less likely to start taxiing without a clearance or traffic statement.
+- Helping pilots know which frequency to use.
+- The [VATPAC Coverage map](https://map.vatpac.org/static/map.html) will display sectors based on controllers' active and cross-coupled frequencies.
+- [VATSIM Radar](https://map.vatsim.net) will display sectors listed in controllers' remarks, where the formatting above has followed.
+
+!!! note
+	The VATPAC plugin will amend your controller remarks to add or remove sectors when a transmitted frequency is added or removed via the VSCS. There is no need for controllers to edit the list manually.
