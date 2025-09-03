@@ -90,8 +90,8 @@ With the [Northeast Plan](#runway-modes) active, the ATIS shall notify `EXP ILS 
 ### Runway Mode formatting
 | Mode | ATIS Runway information |
 | ----------------| --------- |
-| Southwest Plan (24A/21AD) | '21 and RWY 24 FOR ARR, RWY 21 FOR DEP.' |
-| Northeast Plan (03AD/06D) | '03 FOR ARR. RWY 03 FOR DEP VIA OTLED, AVNEX, OLMAM, SOLUS AND OPEGA. RWY 06 FOR ALL OTHER DEP.' |
+| Southwest Plan (24A/21AD) | `21 and RWY 24 FOR ARR, RWY 21 FOR DEP.` |
+| Northeast Plan (03AD/06D) | `03 FOR ARR. RWY 03 FOR DEP VIA OTLED, AVNEX, OLMAM, SOLUS AND OPEGA. RWY 06 FOR ALL OTHER DEP.` |
 
 ### Operational Info
 #### ACD Pushback Requests
