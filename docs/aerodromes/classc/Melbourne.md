@@ -57,6 +57,9 @@ If winds are too great, single runway operations may be necessary (eg, Runway 16
 !!! note
     See [Runway Mode Formatting](#runway-mode-formatting) for details on how to format each runway mode in the ATIS.
 
+### Reduced Runway Separation Markers
+Sydney supports this for **Runway 16/34**, refer to [Landing Seperations Standing](../../separation-standards/runway.md) for more info.
+
 ### SID Selection
 Jet Aircraft planned via **MNG**, **NONIX**, **DOSEL**, **CORRS**, **KEPPA**, **PEDNI**, **SUNTI**, **ESDIG**, or **CRENA**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
