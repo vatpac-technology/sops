@@ -228,9 +228,9 @@ The table below contains the estimated time from the initial waypoint to the fin
 === "Z38"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-    | BUNGL | MALUP | MALUP | 3 |
-    | BUNGL | IGROB | MALUP | 5 |
-    | BUNGL | KINAB | MALUP | 7 |
+    | BUNGL | MALUP | MALUP | +3 |
+    | BUNGL | IGROB | MALUP | +5 |
+    | BUNGL | KINAB | MALUP | +7 |
 
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YPPH. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
