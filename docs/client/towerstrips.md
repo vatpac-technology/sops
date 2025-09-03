@@ -41,10 +41,6 @@ The size of each strip can be adjusted using the **Strip Scale** slider, under *
 
 The plugin window will adjust to being resized, automatically collapsing into a two and single column layout, which is helpful for users with small screens.
 
-<figure markdown>
-![Single Column Layout](../controller-skills/img/ozstripsnarrow.png){ width="400" }
-</figure>
-
 By default, the height of each strip bay is fixed, however using the **Smart Resize** functionality, they can be set to a dynamic height based on the number of strips in each bay. This is helpful when using the plugin in a collapsed column layout or with limited screen height.
 
 <figure markdown>
@@ -62,6 +58,8 @@ Strips can be moved in between strip bays by clicking on their callsign, and cli
 
 !!! Note
     Strips can not be *SID triggered* from the **Holding Point Bay** to the **Runway Bay**, to prevent accidental placement onto the runway.
+
+Various layouts exist to handle radar towers, procedural Class D towers, and Metro D towers.
 
 ### Missing Strips
 Selecting a track on the Ground Radar or ASD will select the relevant strip in OzStrips, and vice versa. If a strip is missing from the stripboard, select the ground track from the vatSys Ground window, then click the desired OzStrips bay to place the strip there.
@@ -346,6 +344,19 @@ Coordinated runway releases should be recorded by placing a `RUNWAY XX RELEASED 
 ![Runway Release](../controller-skills/img/ozstripsrunwayrelease.png){ width="700" }
     <figcaption>Runway 27 released to SMC</figcaption>
 </figure>
+
+#### Class D Tower
+Procedural Class D Tower layouts feature an **Active Bay**, designed to hold all aircraft under jurisdiction of ADC, active in their airspace. 
+
+When an aircraft becomes airborne or is handed off to ADC, place the strip at the bottom of the **Active Bay**. Compare the strip with the strip immediately above it and consider any potential conflict. If no conflict exists, that strip may be moved up a position in the bay and the process repeated with the next 'blocking' strip above. Once the strip reaches the top of the bay, no further conflict exists and the aircraft can be handed off to the overlying controller or cleared for an approach (as appropriate).
+
+<figure markdown>
+![Procedural Tower Workflow](../controller-skills/img/ozstripsproctower.png){ width="800" }
+    <figcaption>An example of the Procedural Tower layout and workflow<br><small>ANO333 is 'blocked' by NWK1652 and will not receive further climb until the two aircraft have adequate separation</small></figcaption>
+</figure>
+
+!!! note
+    Metro D positions feature a similar layout with the **Circuit Bay** displayed by default and no **Active Bay** (due to their lack of airspace).
 
 ### Multiple ADC/SMC Positions
 When multiple ADC or SMC positions are online at a given aerodrome, place divider bars in the relevant bays, allowing each controller to process only the aircraft relevant to them.
