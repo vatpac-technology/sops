@@ -18,6 +18,14 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
+## Airspace
+
+<figure markdown>
+![Armidale Airspace](../assets/arl.png){ width="700" }
+  <figcaption>Armidale Airspace</figcaption>
+</figure>
+
+
 ### CPDLC
 
 The Primary Communication Method for ARL is Voice.
@@ -28,13 +36,6 @@ The CPDLC Station Code is `YARL`.
 
 !!! tip
     Even though ARL's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
-
-## Airspace
-
-<figure markdown>
-![Armidale Airspace](../assets/arl.png){ width="700" }
-  <figcaption>Armidale Airspace</figcaption>
-</figure>
 
 ### Reclassifications
 #### TW CTR
@@ -126,6 +127,7 @@ Non-jet aircraft for YSSY shall be assigned the **MEPIL** STAR.
     **RXA6417:** "RXA6417, go ahead"  
     **ARL:** "RXA6417, recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain F180"  
     **RXA6417:** "Recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain F180, RXA6417" 
+
 
 #### Predictable Sequencing Waypoints
 There are ten [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YSSY via **N774** and **M636**.
