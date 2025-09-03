@@ -61,6 +61,10 @@ title: Runway
     - traffic information is provided to the following aircraft; and  
     - the runway is dry
 
+!!! Note
+The vatsys ground map has the option to display where the 2400M mark is on the runway.
+
+
 ### Behind a preceding departing aircraft
 - Landing aircraft may not cross the runway threshold until the preceding departing aircraft:  
     - has either commenced a turn; or  
