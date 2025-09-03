@@ -290,16 +290,15 @@ For aircraft going between the following FIRs in Oceanic Airspace only:
 
 - YBBB  
 - YMMM  
-- NFFF  
+- NFFF
+- NFFJ
 - AGGG  
 - ANAU  
 - NZZO  
 - NZCM  
 - KZAK  
 - NTTT  
-- AYPM  
-- NWWW  
-- NVVV
+- AYPM
 
 **Voiceless**, no changes to route or CFL within **15 mins** of boundary.
 

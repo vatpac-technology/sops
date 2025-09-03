@@ -248,6 +248,9 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 !!! tip
     Take in to account an aircraft's weight when runways 16L/34R or 07/25 are in use. Heavier aircraft may operationally require the longer Runway 16R/34L, or pilots may prefer a departure from 16R instead of 16L so they have a shorter taxi. If in doubt, ask the pilot and try to be accommodating of these requests.
 
+### Reduced Runway Separation
+When conditions permit, the [2400m separation standard for landing aircraft](../../separation-standards/runway.md#2400m-standard) may be applied to aircraft arriving Runway **16R/34L**.
+
 ### SODPROPS
 When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time.
 
