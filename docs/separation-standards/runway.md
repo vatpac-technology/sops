@@ -61,8 +61,8 @@ title: Runway
     - traffic information is provided to the following aircraft; and  
     - the runway is dry
 
-!!! Note
-The vatsys ground map has the option to display where the 2400M mark is on the runway.
+!!! tip
+The 'ASMGCS_RWY_RSM' Ground Map in vatSys adds markings 2400m from the runway threshold at approved aerodromes, and may assist with the application of this standard.
 
 
 ### Behind a preceding departing aircraft
