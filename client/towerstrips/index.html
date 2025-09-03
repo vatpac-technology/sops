@@ -6028,6 +6028,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#class-d-tower" class="md-nav__link">
+    <span class="md-ellipsis">
+      Class D Tower
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -6965,6 +6974,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#class-d-tower" class="md-nav__link">
+    <span class="md-ellipsis">
+      Class D Tower
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -7070,9 +7088,6 @@
 </figure>
 <p>The size of each strip can be adjusted using the <strong>Strip Scale</strong> slider, under <strong>Help</strong> &gt; <strong>Settings</strong>. Users with limited screen real estate may benefit from using a smaller strip size.</p>
 <p>The plugin window will adjust to being resized, automatically collapsing into a two and single column layout, which is helpful for users with small screens.</p>
-<figure>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../controller-skills/img/ozstripsnarrow.png" data-desc-position="bottom"><img alt="Single Column Layout" src="../../controller-skills/img/ozstripsnarrow.png" width="400"></a></p>
-</figure>
 <p>By default, the height of each strip bay is fixed, however using the <strong>Smart Resize</strong> functionality, they can be set to a dynamic height based on the number of strips in each bay. This is helpful when using the plugin in a collapsed column layout or with limited screen height.</p>
 <figure>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../controller-skills/img/ozstripssmartresize.png" data-desc-position="bottom"><img alt="Smart Resize Setting" src="../../controller-skills/img/ozstripssmartresize.png" width="400"></a></p>
@@ -7087,6 +7102,7 @@
 <p class="admonition-title">Note</p>
 <p>Strips can not be <em><abbr title="Standard Instrument Departure">SID</abbr> triggered</em> from the <strong>Holding Point Bay</strong> to the <strong>Runway Bay</strong>, to prevent accidental placement onto the runway.</p>
 </div>
+<p>Various layouts exist to handle radar towers, procedural Class D towers, and Metro D towers.</p>
 <h3 id="missing-strips">Missing Strips</h3>
 <p>Selecting a track on the Ground Radar or ASD will select the relevant strip in OzStrips, and vice versa. If a strip is missing from the stripboard, select the ground track from the vatSys Ground window, then click the desired OzStrips bay to place the strip there.</p>
 <p>Alternatively, the Quick Search window can be opened by pressing <code>CTRL + F</code>, allowing controllers to enter a callsign and see which bay the strip resides in.</p>
@@ -7486,6 +7502,17 @@
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../controller-skills/img/ozstripsrunwayrelease.png" data-desc-position="bottom"><img alt="Runway Release" src="../../controller-skills/img/ozstripsrunwayrelease.png" width="700"></a>
     </p><figcaption>Runway 27 released to <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr></figcaption><p></p>
 </figure>
+<h4 id="class-d-tower">Class D Tower</h4>
+<p>Procedural Class D Tower layouts feature an <strong>Active Bay</strong>, designed to hold all aircraft under jurisdiction of <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr>, active in their airspace. </p>
+<p>When an aircraft becomes airborne or is handed off to <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr>, place the strip at the bottom of the <strong>Active Bay</strong>. Compare the strip with the strip immediately above it and consider any potential conflict. If no conflict exists, that strip may be moved up a position in the bay and the process repeated with the next 'blocking' strip above. Once the strip reaches the top of the bay, no further conflict exists and the aircraft can be handed off to the overlying controller or cleared for an approach (as appropriate).</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../controller-skills/img/ozstripsproctower.png" data-desc-position="bottom"><img alt="Procedural Tower Workflow" src="../../controller-skills/img/ozstripsproctower.png" width="800"></a>
+    </p><figcaption>An example of the Procedural Tower layout and workflow<br><small>ANO333 is 'blocked' by NWK1652 and will not receive further climb until the two aircraft have adequate separation</small></figcaption><p></p>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Metro D positions feature a similar layout with the <strong>Circuit Bay</strong> displayed by default and no <strong>Active Bay</strong> (due to their lack of airspace).</p>
+</div>
 <h3 id="multiple-adcsmc-positions">Multiple <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr>/<abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> Positions</h3>
 <p>When multiple <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> or <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> positions are online at a given aerodrome, place divider bars in the relevant bays, allowing each controller to process only the aircraft relevant to them.</p>
 <figure>
@@ -7547,7 +7574,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="September 1, 2025 06:31:27 UTC">September 1, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="September 2, 2025 23:29:56 UTC">September 2, 2025</span>
   </span>
 
     
