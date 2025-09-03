@@ -37,8 +37,8 @@ If winds are too great, single runway operations may be necessary (eg, Runway 21
 | Southwest Plan (24A/21AD) | 21 & 24 | 21 |
 | Northeast Plan (03AD/06D) | 03 | 03 (via AVNEX, OTLED, OLMAM, SOLUS, and OPEGA), 06 (all other deps)  |
 
-### Reduced Runway Separation Markers
-Sydney supports this for **Runway 03/21**, refer to [Landing Seperations Standing](../../separation-standards/runway.md) for more info.
+### Reduced Runway Separation
+When conditions permit, the [2400m separation standard for landing aircraft](../../separation-standards/runway.md#2400m-standard) may be applied to aircraft arriving Runway **03/21**.
 
 ### SID Selection
 Jet Aircraft planned via **AMANA**, **AVNEX**, **HECTO**, **MEMUP**, **MUBID**, **YNRV**, **OLMAM**, **SOLUS**, or **OPEGA**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.

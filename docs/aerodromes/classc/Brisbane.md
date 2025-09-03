@@ -81,8 +81,8 @@ When using the SODPROPS mode, pass traffic information to aircraft that are depa
     **BN ADC:** "DEF, Traffic is ABC, an A320, departing from the opposite direction parallel runway to the South-West. Runway 19R, Cleared to Land"  
     **DEF:** "Cleared to Land Runway 19R, DEF"  
 
-### Reduced Runway Separation Markers
-Brisbane supports this for both runways, refer to [Landing Seperations Standing](../../separation-standards/runway.md) for more info.
+### Reduced Runway Separation
+When conditions permit, the [2400m separation standard for landing aircraft](../../separation-standards/runway.md#2400m-standard) may be applied to aircraft arriving on any runway.
 
 ## Parallel Runway Operations
 Refer to [Parallel Runway Separation Standards](../../../separation-standards/parallelapps) for more information
