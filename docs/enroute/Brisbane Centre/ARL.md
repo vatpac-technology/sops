@@ -25,18 +25,6 @@
   <figcaption>Armidale Airspace</figcaption>
 </figure>
 
-
-### CPDLC
-
-The Primary Communication Method for ARL is Voice.
-
-[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
-
-The CPDLC Station Code is `YARL`.
-
-!!! tip
-    Even though ARL's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
-
 ### Reclassifications
 #### TW CTR
 When **TW ADC** is offline, TW CTR (Class D and C `SFC` to `A085`) reverts to Class G, and is administered by ARL and MDE. Alternatively, ARL (not MDE) may provide a [top-down procedural service](../../../aerodromes/procedural/tamworth) if they wish (not recommended).  
@@ -55,6 +43,18 @@ When **WLM TCU** is offline, WLM MIL CTR (Class C `SFC` to `A065`) reverts to Cl
 
 !!! tip
     If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+
+### CPDLC
+
+The Primary Communication Method for ARL is Voice.
+
+[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
+
+The CPDLC Station Code is `YARL`.
+
+!!! tip
+    Even though ARL's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+
 
 ## Sector Responsibilities
 ### Armidale (ARL)
