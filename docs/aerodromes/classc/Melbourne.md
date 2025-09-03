@@ -46,7 +46,7 @@ If winds are too great, single runway operations may be necessary (eg, Runway 16
 
 | Mode | Arrivals  | Departures |
 | ----------------| --------- | ---------- |
-| 27AD/34D   | 27       | 34 (Via MNG, NONIX, DOSEL and BOGES), 27 (All other deps)        |
+| 27AD/34D   | 27       | 34 (Via MNG, NONIX and DOSEL), 27 (All other deps)        |
 | 16A/27D    | 16 | 27  |
 | 09A/16D    | 09 | 16  |
 | 34A/27AD   | 34 & 27 | 27 |
@@ -125,10 +125,10 @@ This permits controllers to assign aircraft either the Alpha or Victor STAR and 
 ### Runway Mode formatting
 | Mode | ATIS Runway information |
 | ----------------| --------- |
-| 27AD/34D   | 27 FOR ARR, RWY 34 FOR DEPS VIA MNG, NONIX, DOSEL AND BOGES, RWY 27 FOR ALL OTHER DEPS |
-| 16A/27D    | 16 FOR ARR, RWY 27 FOR DEP |
-| 09A/16D    | 09 FOR ARR, RWY 16 FOR DEP |
-| 34A/27AD   | 34 FOR ARR, RWY 27 FOR ARR AND DEP |
+| 27AD/34D   | '27 FOR ARR, RWY 34 FOR DEPS VIA MNG, NONIX, DOSEL, RWY 27 FOR ALL OTHER DEPS' |
+| 16A/27D    | '16 FOR ARR, RWY 27 FOR DEP' |
+| 09A/16D    | '09 FOR ARR, RWY 16 FOR DEP' |
+| 34A/27AD   | '34 FOR ARR, RWY 27 FOR ARR AND DEP' |
 
 ### Operational Info
 #### Independent Crossing Runway Operations
