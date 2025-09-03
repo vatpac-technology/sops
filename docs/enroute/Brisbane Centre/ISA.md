@@ -17,13 +17,6 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
-### CPDLC
-The Primary Communication Method for ISA is [CPDLC](../../../client/cpdlc).
-
-The CPDLC Station Code is `YISA`.
-
-Voice may be used in lieu when applicable.
-
 ## Airspace
 
 <figure markdown>
@@ -36,6 +29,13 @@ ISA is responsible for **ARA**, **STR**, and **WEG** when they are offline.
 ## Extending
 !!! warning "Important"
     Due to the large geographical area covered by this sector and it's neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
+
+### CPDLC
+The Primary Communication Method for ISA is [CPDLC](../../../client/cpdlc).
+
+The CPDLC Station Code is `YISA`.
+
+Voice may be used in lieu when applicable.
 
 ## Sector Responsibilities
 ISA and its subsectors are purely Classes A, E and G of airspace. [Standard separation procedures](../../../separation-standards) apply.
