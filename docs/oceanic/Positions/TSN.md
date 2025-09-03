@@ -75,6 +75,9 @@ Aircraft leaving HWE in it's surveillance configuration must have their identifi
 !!! phraseology
     **HWE**: "UAE845, identification terminated, report position to Brisbane Radio, 124.65"
 
+### NWWWA/NVVVA
+The vertical limits of CTA within TSN and NWWWA/NVVVA mean it is not possible for an aircraft to transit directly from either TCU into TSN CTA and vice versa. As per [Standard coordination procedures](../../../controller-skills/coordination/#octa-coordination) no coordination is required, provided there are no changes to route or level within **5 mins** to boundary.
+
 ### Pacific Oceanic + AYPM
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
 

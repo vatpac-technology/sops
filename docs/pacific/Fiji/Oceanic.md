@@ -16,21 +16,22 @@
   <figcaption>NFFF Airspace</figcaption>
 </figure>
 
+<figure markdown>
+![NFFF Control Airspace (zoomed)](img/nfff_zoomed.png){ width="700" }
+  <figcaption>NFFF Airspace (zoomed)</figcaption>
+</figure>
+
 NFFF airspace from `A095` to `F200` is classified as Class D. NFFF airspace from `F200` to `F600` is classified as Class A.
 
 ### Reclassifications
-#### NFFN_CTR
-When NFFN_CTR is offline, the Fiji Domestic sector `SFC` to `UNL` remains uncontrolled.
+#### NFFJ
+When NFFJ is offline, the Fiji Domestic sector `SFC` to `UNL` remains uncontrolled.
 
 !!! note
-	Online coverage maps may incorrectly display the boundaries of NFFF with relation to NFFN_CTR, an pilots unfamiliar with the airspace may make contact requesting ATS within the domestic sector. Gently advise such pilots to switch to 122.800.
+	Online coverage maps may incorrectly display the boundaries of NFFF with relation to NFFJ, an pilots unfamiliar with the airspace may make contact requesting ATS within the domestic sector. Gently advise such pilots to switch to advisory.
 
-#### NWWW_CTR/NVVV_CTR
-##### Online
-When NWWW_CTR and NVVV_CTR are online, NFFF Class A airspace `F245`-`UNL` above their sector is released to the local controller, unless coordinated otherwise.
-
-##### Offline
-When NVVV_CTR or NWWW_CTR are offline, the Class D airspace `A095`-`F245` within their sector remains Class D but is delegated to NFFF. All controlled airspace below `A095`, including all offline TMA and CTR areas, are reclassified as Class G and administered by NFFF.
+#### NWWWA TCU/NVVVA TCU
+When NVVVA or NWWWA are offline, the Class D airspace `A095`-`F245` within their sector remains Class D but is delegated to NFFF. All controlled airspace below `A095`, including all offline TMA and CTR areas, are reclassified as Class G and administered by NFFF.
 
 NFFF is **not permitted** to provide a top-down approach service in these circumstances.
 
@@ -60,18 +61,7 @@ There are no radar services provided by NFFF; the sector is entirely [procedural
 ## STAR Clearance Expectation--->
 
 ## Coordination
-### NFFN_CTR
-As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
-
-### NSFA_CTR
-As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
-
-### Pacific Oceanic (NWWW/NVVV/TSN/NZZO/KZAK)
-As per [Standard coordination procedures](../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
-
 ### NWWWA
-When NWWW_CTR is [offline](#nwww_ctrnvvv_ctr) or when airspace above `F245` **has not** been released to NVVV_CTR, the following coordination applies.
-
 #### Departures
 Voiceless for all aircraft:
 
@@ -93,21 +83,26 @@ Voiceless for all aircraft:
 
 All other aircraft coming from NFFF CTA must be **Heads-up** coordinated to NWWWA prior to **20nm** from the boundary.
 
-### NVVV ADC
-When NVVV_CTR is [offline](#nwww_ctrnvvv_ctr) or when airspace above `F245` **has not** been released to NVVV_CTR, the following coordination applies.
-
+### NVVVA
 #### Departures
-[Next](../../controller-skills/coordination.md#next) coordination is required from NVVV ADC to NFFF for all aircraft **entering NFFF CTA**.
+Voiceless for all aircraft:
 
-The Standard Assignable level from **NVVV ADC** to **NFFF** is:
+- Assigned the lower of `F240` or the `RFL`.
 
-| Aircraft | Level |
-| -------- | ----- |
-| All | The lower of `A090` and `RFL` |
+#### Arrivals
+Voiceless for all aircraft:
 
-### Arrivals/Overfliers
-NFFF will heads-up coordinate arrivals/overfliers from Class D to NVVV ADC. 
+- With ADES **NVVV**; and
+- Assigned `F250`.
 
-The Standard Assignable level from NFFF to NVVV ADC is `A100`, any other level must be prior coordinated.
+### NFFJ
+As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+
+### NSFA_CTR
+As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+
+### Pacific Oceanic (TSN/NZZO/KZAK)
+As per [Standard coordination procedures](../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+
 
 <!---## Charts--->
