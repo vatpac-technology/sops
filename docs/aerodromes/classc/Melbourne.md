@@ -125,7 +125,7 @@ This permits controllers to assign aircraft either the Alpha or Victor STAR and 
 ### Runway Mode formatting
 | Mode | ATIS Runway information |
 | ----------------| --------- |
-| 27AD/34D   | `27 FOR ARR, RWY 34 FOR DEPS VIA MNG, NONIX, AND DOSEL RWY 27 FOR ALL OTHER DEPS` |
+| 27AD/34D   | `27 FOR ARR, RWY 34 FOR DEPS VIA MNG, NONIX AND DOSEL, RWY 27 FOR ALL OTHER DEPS` |
 | 16A/27D    | `16 FOR ARR, RWY 27 FOR DEP` |
 | 09A/16D    | `09 FOR ARR, RWY 16 FOR DEP` |
 | 34A/27AD   | `34 FOR ARR, RWY 27 FOR ARR AND DEP` |
