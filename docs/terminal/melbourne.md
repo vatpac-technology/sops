@@ -380,6 +380,15 @@ EN ADC is responsible for the Class C airspace shown below, `SFC` to `A020`.
 #### Start Clearance
 When an aircraft requests start clearance, the EN SMC controller shall coordinate with ML TCU to obtain the start clearance.
 
+#### VFR Clearance
+When an aircraft requests a VFR outbound departure to the north or west, the EN SMC controller shall coordinate with ML TCU to obtain approval to provide such clearance.
+
+!!! phraseology
+    <span class="hotline">**EN SMC** -> **ML TCU**</span>: "XYZ requests clearance via ROK."  
+    <span class="hotline">**ML TCU** -> **EN SMC**</span>: "XYZ, clearance approved, not above `A025`."
+
+When a clearance cannot be given (for example, due to conflicting traffic at YMML), EN SMC shall instead provide clearance to depart to the south or east.
+
 #### Departures
 [Next](../controller-skills/coordination.md#next) coordination is required from EN ADC to ML TCU for all aircraft **entering ML TCU CTA**.
 
