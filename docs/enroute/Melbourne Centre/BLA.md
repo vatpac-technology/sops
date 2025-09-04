@@ -14,15 +14,6 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
-### CPDLC
-The Primary Communication Method for BLA is Voice.
-
-[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
-
-The CPDLC Station Code is `YBLA`.
-
-!!! tip
-    Even though BLA's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
 ## Airspace
 
@@ -49,6 +40,16 @@ When **ESA** is offline, the restricted airspace within R360 is deactivated and 
 
 !!! note
     BLA does not assume the ES TCU in the absence of ESA. Assumption of the ES TCU is the responsibility of HUO(WON). Controllers may choose to verbally coordinate the release of the ES TCU to either sector/subsector.
+
+### CPDLC
+The Primary Communication Method for BLA is Voice.
+
+[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
+
+The CPDLC Station Code is `YBLA`.
+
+!!! tip
+    Even though BLA's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
 ## Sector Responsibilities
 ### Eildon Weir (ELW)
