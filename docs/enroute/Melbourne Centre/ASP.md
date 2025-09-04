@@ -47,7 +47,6 @@ The CPDLC Station Code is `YASP`.
 
 Voice may be used in lieu when applicable.
 
-
 ## Surveillance Coverage
 Limited surveillance coverage exists in the FOR sector greater than **250nm** from ADSB stations. [Procedural Standards](../../../separation-standards/procedural/) must be implemented **prior** to losing surveillance coverage
 
