@@ -50,7 +50,6 @@ Due to limitations in vatSys, TSN cannot relinquish sector ownership of the HWE 
 ## Surveillance Coverage
 Limited surveillance coverage exists for aircraft in CTA greater than **250nm** from LHI. [Procedural Standards](../../../separation-standards/procedural/) must be implemented **prior** to losing surveillance coverage
 
-
 ## STAR Clearance Expectation
 ### Handoff
 Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
