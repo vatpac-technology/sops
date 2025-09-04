@@ -55,7 +55,6 @@ The CPDLC Station Code is `YARL`.
 !!! tip
     Even though ARL's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
-
 ## Sector Responsibilities
 ### Armidale (ARL)
 #### YSSY Arrivals
