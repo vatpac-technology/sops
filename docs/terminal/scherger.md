@@ -25,13 +25,18 @@ The above Restricted Areas are classified as Class C when SG APP is active.
 !!! note
     See [VATPAC NOTAMs](https://vatpac.org/publications/notam){target=new} for active NOTAMs which may affect military operations.
 
+## Weipa (YBWP)
+As per [Coordination](#adc), SG ADC will perform Next coordination for all departures from YBWP (which sits inside the SG CTR). Departure instructions shall be relayed to ADC to be passed on to the aircraft. Where a clearance is not immediately available, advise ADC who will delay the aircraft on the ground.
+
+Aircraft inbound to YBWP shall be [Heads Up](../controller-skills/coordination.md#heads-up) coordinated with ADC.
+
 ## Coordination
 ### ADC
 #### Airspace
 SG ADC owns the Class C airspace within the SG CTR from `SFC` to `A015`.
 
 #### Departures
-[Next](../controller-skills/coordination.md#next) coordination is required from SG ADC to SG TCU for all aircraft.
+[Next](../controller-skills/coordination.md#next) coordination is required from SG ADC to SG TCU for all aircraft (including aircraft departing from YBWP).
 
 The Standard Assignable Level from  **SG ADC** to **SG TCU** is:
 
