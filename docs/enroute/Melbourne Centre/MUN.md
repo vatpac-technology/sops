@@ -16,6 +16,13 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
+## Airspace
+
+<figure markdown>
+![Mungo Airspace](../assets/mun.png){ width="700" }
+  <figcaption>Yarrowee Airspace</figcaption>
+</figure>
+
 ### CPDLC
 The Primary Communication Method for MUN is Voice.
 
@@ -25,13 +32,6 @@ The CPDLC Station Code is `YMUN`.
 
 !!! tip
     Even though MUN's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
-
-## Airspace
-
-<figure markdown>
-![Mungo Airspace](../assets/mun.png){ width="700" }
-  <figcaption>Yarrowee Airspace</figcaption>
-</figure>
 
 ## Sector Responsibilities
 ### Yarrowee (YWE)

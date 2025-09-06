@@ -14,6 +14,13 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
+## Airspace
+
+<figure markdown>
+![Tailem Bend Airspace](../assets/tbd.png){ width="700" }
+  <figcaption>Tailem Bend Airspace</figcaption>
+</figure>
+
 ### CPDLC
 The Primary Communication Method for TBD is Voice.
 
@@ -23,13 +30,6 @@ The CPDLC Station Code is `YTBD`.
 
 !!! tip
     Even though TBD's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
-
-## Airspace
-
-<figure markdown>
-![Tailem Bend Airspace](../assets/tbd.png){ width="700" }
-  <figcaption>Tailem Bend Airspace</figcaption>
-</figure>
 
 ## Sector Responsibilities
 ### YPAD Arrivals

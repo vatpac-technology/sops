@@ -18,17 +18,6 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
-### CPDLC
-The Primary Communication Method for INL is Voice.
-
-[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
-
-The CPDLC Station Code is `YINL`.
-
-!!! tip
-    Even though INL's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
-
-
 ## Airspace
 
 <figure markdown>
@@ -53,6 +42,17 @@ Due to the low ceiling of CTA, when CFS ADC is offline, INL shall instruct aircr
 
 !!! tip
     If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+
+### CPDLC
+The Primary Communication Method for INL is Voice.
+
+[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
+
+The CPDLC Station Code is `YINL`.
+
+!!! tip
+    Even though INL's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+
 
 ## Sector Responsibilities
 ### Inverell (INL)
