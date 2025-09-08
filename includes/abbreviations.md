@@ -56,6 +56,7 @@
 *[FIS]: Flight Information Service
 *[SIS]: Surveillance Information Service (Flight Following)
 *[ARP]: Aerodrome Reference Point
+*[ALA]: Aircraft Landing Area
 *[DER]: Departure End of Runway
 *[SVFR]: Special VFR
 *[MTOW]: Maximum Takeoff Weight
