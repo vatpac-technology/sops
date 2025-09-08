@@ -200,6 +200,7 @@
 *[BCTA]: Bottom of Controlled Airspace
 *[PAL]: Port Adelaide
 *[TWRN]: Two R N
+*[BRY]: Bringelly
 *[DSN]: Doncaster Shopping Town
 *[ADWD]: Adventure World
 *[TVT]: TV Towers
