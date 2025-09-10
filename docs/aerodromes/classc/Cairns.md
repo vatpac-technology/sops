@@ -23,11 +23,12 @@ CS ADC is responsible for the Class C airspace within the CS CTR `SFC` to `A010`
   <figcaption>CS ADC Airspace</figcaption>
 </figure>
 
-## Runway Selection
-The preferred runway direction is Runway 15.
+## Maneuvering Area
+### Taxiway Restrictions
+Taxiways A2 and A between A2 and A3 are not available to aircraft above 7,000 kilograms. Taxiway A4 is not available to aircraft above 90,000 kilograms. Taxiway Y is not available to aircraft above 10,000 kilograms.
 
-## Separation
 
+## Seperation
 ### ADC Separation Responsibility
 When weather conditions are suitable, ADC shall visually separate aircraft operating in the circuit from aircraft on the extended runway centreline when within 5nm. ADC shall also separate aircraft operating on (or departing to join) the Western VFR Corridor while within the CTR. 
 
@@ -57,19 +58,31 @@ ADC must assess any potential conflicts with aircraft in the CTR and clear the i
     **CS ADC**: "RXA5418, runway 33, cleared to land"  
     **RXA5418**: "Runway 33, cleared to land, RXA5418"
 
-## Departures
 
-### IFR Departures
-IFR aircraft shall be processed via one of the following SIDs:
+## Local Procedures
+### Western VFR Corridor
+The Western VFR Corridor conflicts with the extended centreline to the north of the aerodrome. Clearances for aircraft entering the CTR must use clear and unambiguous phraseology to eliminate any potential for confusion by the pilot.
 
-a) RWY 15, Jets via AKROM: AKROM SID. Non-Jets via NONUM: NONUM SID  
-b) RWY 33, All Jets: EAZEE SID, Radar Transition  
-c) All others: CS (RADAR) SID  
+!!! phraseology
+    **NDR**: "Cairns Tower, NDR, EDT, A015, for the Western VFR Corridor, Request Clearance"  
+    **CS ADC**: "NDR, enter the CTR tracking via the Western VFR corridor at A015. Remain on the corridor until advised."
 
-!!! Note
-    Non-jet aircraft may be issued a Visual Departure if conditions are suitable.
+If a clearance limit is associated with the clearance, then it must be reiterated to the pilot to remain “on or west of the VFR Corridor”.
+
+!!! phraseology
+    **NDR**: "Cairns Tower, NDR, EDT, A015, for the Western VFR Corridor, Request Clearance"  
+    **CS ADC**: "NDR, enter the CTR tracking via the Western VFR Corridor at A015. Clearance limit is ADI, Remain on or west of the Western VFR Corridor at all times."
+
 
 ## VFR Operations
+### Inbound
+Aircraft planning to enter the CS CTR between *Mt Gorton*, CGF and Upolo Cay at `A005`, must contact CS ADC for airways clearance.
+
+!!! phraseology
+    **NDR**: "Cairns Tower, NDR, Cape Grafton, A005, Inbound, Information Alpha, Request Clearance"  
+    **CS ADC**: "NDR, enter the CTR tracking for a Right Base runway 33, maintain A005."
+
+## Helicopter Operations
 ### The Pier Helipad
 VFR helicopters transit from the Reef to a floating pontoon helipad on the southeastern shore of the CBD, approximately 2nm from the runway 33 threshold. This helipad is referred to as 'The Pier'. 
 
@@ -109,25 +122,8 @@ Departing helicopters should be cleared direct to their nominated tracking point
     **VH-VTB**: "VTB, on the pad"  
     **CS ADC**: "VTB"  
 
-### Western VFR Corridor
-The Western VFR Corridor conflicts with the extended centreline to the north of the aerodrome. Clearances for aircraft entering the CTR must use clear and unambiguous phraseology to eliminate any potential for confusion by the pilot.
-
-!!! phraseology
-    **NDR**: "Cairns Tower, NDR, EDT, A015, for the Western VFR Corridor, Request Clearance"  
-    **CS ADC**: "NDR, enter the CTR tracking via the Western VFR corridor at A015. Remain on the corridor until advised."
-
-If a clearance limit is associated with the clearance, then it must be reiterated to the pilot to remain “on or west of the VFR Corridor”.
-
-!!! phraseology
-    **NDR**: "Cairns Tower, NDR, EDT, A015, for the Western VFR Corridor, Request Clearance"  
-    **CS ADC**: "NDR, enter the CTR tracking via the Western VFR Corridor at A015. Clearance limit is ADI, Remain on or west of the Western VFR Corridor at all times."
-
-### Inbound
-Aircraft planning to enter the CS CTR between *Mt Gorton*, CGF and Upolo Cay at `A005`, must contact CS ADC for airways clearance.
-
-!!! phraseology
-    **NDR**: "Cairns Tower, NDR, Cape Grafton, A005, Inbound, Information Alpha, Request Clearance"  
-    **CS ADC**: "NDR, enter the CTR tracking for a Right Base runway 33, maintain A005."
+## Runway Modes
+The preferred runway direction is Runway 15.
 
 ### Circuit Direction
 The circuit height is `A010`. If an aircraft requires a higher circuit altitude, an airspace release must be requested from CS TCU.
@@ -136,6 +132,16 @@ The circuit height is `A010`. If an aircraft requires a higher circuit altitude,
 | ----------------- | ---------------|
 | 15                | Left  |
 | 33                | Right |
+
+## SID Selection
+IFR aircraft shall be processed via one of the following SIDs:
+
+a) RWY 15, Jets via AKROM: AKROM SID. Non-Jets via NONUM: NONUM SID  
+b) RWY 33, All Jets: EAZEE SID, Radar Transition  
+c) All others: CS (RADAR) SID  
+
+!!! Note
+    Non-jet aircraft may be issued a Visual Departure if conditions are suitable.
 
 ## ATIS
 ### Approach Expectation
@@ -149,9 +155,6 @@ The ATIS approach expectation shall be `EXPECT INSTRUMENT APPROACH` when:
 
 !!! note
     This procedure allows aircraft to track via the Creek Corridor (see YBCS DAP Noise Abatement Procedures) for runway 15, or via a visual right base (commenced from vectors or the KEEWI Victor STAR), when VMC exists below `A030`.
-
-## Taxiway Restrictions
-Taxiways A2 and A between A2 and A3 are not available to aircraft above 7,000 kilograms. Taxiway A4 is not available to aircraft above 90,000 kilograms. Taxiway Y is not available to aircraft above 10,000 kilograms.
 
 ## Coordination
 ### CS TCU
