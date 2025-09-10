@@ -19,33 +19,7 @@ CB ADC is responsible for the Class C Airspace within the CB CTR `SFC` to `A035`
   <figcaption>CB ADC Airspace</figcaption>
 </figure>
 
-## SID Selection
-**Jet** Aircraft planned via **CULIN**, **TANTA**, **WG**, **HOWLY**, **NONUP** or **AVBEG** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
-
-**Non-Jet** Aircraft planned via **AKMIR** or **DUBUS** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
-
-!!! example
-    Jet Aircraft planned via TANTA, assigned runway 35, shall be given the TANTA SID.
-
-a) Jet or Non-Jet aircraft departing **Off Mode** that don't meet the above critera; or   
-b) Aircraft that cannot accept a Procedural SID  
-Shall be assigned the **Radar SID**.
-
-!!! example
-    Non-Jet Aircraft planned via TANTA, assigned runway 35, shall be given the CB (RADAR) SID.
-
-## VFR Operations
-VFR aircraft that will operate only in ADCs airspace shall be assigned SSR code 0040.
-
-Aircraft operating in the circuit area are to remain on the ADC frequency. The phrasing of the airways clearance is:
-
-!!! phraseology
-    “ABC, cleared to operate in the circuit area, not above A030, squawk 0040”.
-
-The circuit direction is not specified in the airways clearance, but with a take-off or touch-and-go clearance.
-
-Military jet training circuits are conducted at `A035`, unless otherwise requested by the pilot. ADC shall notify the TCU of the beginning and end of the sortie.
-
+## Local Procedures
 ### City Scenic Flights
 City Scenic Flights are available by day and to the west of the aerodrome. Aircraft on these routes shall be cleared at `A040`.
 
@@ -67,7 +41,20 @@ City Scenic Flights are available by day and to the west of the aerodrome. Aircr
   <figcaption>City Scenic Flights</figcaption>
 </figure>
 
-### Helicopter Operations
+
+## VFR Operations
+VFR aircraft that will operate only in ADCs airspace shall be assigned SSR code 0040.
+
+Aircraft operating in the circuit area are to remain on the ADC frequency. The phrasing of the airways clearance is:
+
+!!! phraseology
+    “ABC, cleared to operate in the circuit area, not above A030, squawk 0040”.
+
+The circuit direction is not specified in the airways clearance, but with a take-off or touch-and-go clearance.
+
+Military jet training circuits are conducted at `A035`, unless otherwise requested by the pilot. ADC shall notify the TCU of the beginning and end of the sortie.
+
+## Helicopter Operations
 The Canberra CTR contains the Southcare Helicopter Base (YXSB) as well as two hospitals (Calvary Hospital and Canberra Hospital). Helicopters operating to and from these pads require a clearance from **CB ADC**.
 
 #### Departing Aircraft
@@ -104,6 +91,22 @@ Helicopters arriving to the pads will generally be coordinated by the TMA contro
 
     *Remember to pass traffic information to both aircraft.*  
     **CB ADC**: "QFA714, traffic is a helicopter 1nm south of the field tracking for Calvary Hospital, opposite direction to you and maintaining own separation, runway 17, cleared for takeoff"
+
+
+## SID Selection
+**Jet** Aircraft planned via **CULIN**, **TANTA**, **WG**, **HOWLY**, **NONUP** or **AVBEG** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
+
+**Non-Jet** Aircraft planned via **AKMIR** or **DUBUS** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
+
+!!! example
+    Jet Aircraft planned via TANTA, assigned runway 35, shall be given the TANTA SID.
+
+a) Jet or Non-Jet aircraft departing **Off Mode** that don't meet the above critera; or   
+b) Aircraft that cannot accept a Procedural SID  
+Shall be assigned the **Radar SID**.
+
+!!! example
+    Non-Jet Aircraft planned via TANTA, assigned runway 35, shall be given the CB (RADAR) SID.
 
 ## ATIS
 ### Significant Weather
