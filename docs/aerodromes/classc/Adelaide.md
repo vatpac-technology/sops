@@ -29,7 +29,9 @@ AD ADC is not responsible for any airspace by default.
 
     E.g. an aircraft taxiing from the terminal to runway 05 could be instructed to taxi "*via Alpha, cross runway 30, Foxtrot, to holding point Foxtrot Six runway 05*".
 
-## Scenic Coastal Flights
+## Local Procedures
+
+### Scenic Coastal Flights
 VFR aircraft may transit the control zone tracking coastal north or southbound, generally at `A005`. **AD TCU** is responsible for ensuring these aircraft remain separated from aircraft arriving/departing at YPAD and will likely delegate this responsibility to **ADC**, who may employ visual separation or other tools to ensure separation is maintained.  
 
 The TCU controller will coordinate these aircraft with ADC prior to issuing airways clearance, including the intended clearance limit. On receipt of this coordination, ADC should consider any possible conflict from arriving or departing aircraft at YPAD (including the missed approach to runway 23).  The clearance limits in the table below will ensure that coastal aircraft remain clear of the runway 05 approach path and runway 23 departure/missed approach path. 
@@ -77,6 +79,20 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 | 5 - 12 Only     | 12 | 12         |
 | 6 - 30 Only     | 30        | 30  |
 
+## SID Selection
+Jet Aircraft planned via **AVDEN**, **BENDO**, **GILES**, **AREPA**, **ORBUN**. or **UPROT**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
+
+!!! example
+    Jet Aircraft planned via AVDEN, assigned runway 23, shall be given the AVDEN SID.
+
+a) Non-Jet Aircraft; or  
+b) Aircraft using Runway 12/30; or  
+c) Aircraft that cannot accept a Procedural SID  
+Shall be assigned the **Radar SID**.
+
+!!! example
+    Non-Jet Aircraft planned via EEMUE, assigned runway 05, shall be given the AD (RADAR) SID.
+
 ## ATIS
 ### Approach Expectation
 When **Runway 23** is in use for arrivals, the following table shall be followed for the Approach Expectation field:
@@ -92,20 +108,6 @@ When **Runway 23** is in use for arrivals, the following table shall be followed
 
 ### Operational Info
 Between the hours of 1330-2030 UTC (1230-1930 UTC HDS), AD ADC may elect to simulate *Curfew operations*, ie: **Runway 05 for arrivals, Runway 23 for departures**. When this is in operation, the ATIS shall include `CURFEW IN OPERATION UNTIL (time) ZULU`.
-
-## SID Selection
-Jet Aircraft planned via **AVDEN**, **BENDO**, **GILES**, **AREPA**, **ORBUN**. or **UPROT**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
-
-!!! example
-    Jet Aircraft planned via AVDEN, assigned runway 23, shall be given the AVDEN SID.
-
-a) Non-Jet Aircraft; or  
-b) Aircraft using Runway 12/30; or  
-c) Aircraft that cannot accept a Procedural SID  
-Shall be assigned the **Radar SID**.
-
-!!! example
-    Non-Jet Aircraft planned via EEMUE, assigned runway 05, shall be given the AD (RADAR) SID.
 
 ## Coordination
 ### Auto Release
