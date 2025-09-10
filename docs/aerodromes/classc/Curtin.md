@@ -16,7 +16,8 @@
 ## Airspace
 CIN ADC owns the Class C airspace within the CIN MIL CTR from `SFC` to `A015`.
 
-## Circuit Direction
+## Runway Modes
+### Circuit Direction
 
 | Runway | Direction |
 | ------ | ----------|
