@@ -20,21 +20,32 @@ CG ADC is responsible for the Class C Airspace within the CG CTR `SFC` to `A015`
   <figcaption>CG ADC Airspace</figcaption>
 </figure>
 
-## Departures
-RNAV jet-aircraft planned via APAGI shall be issued the APAGI SID.  
-!!! note
-    For RNP (0.3) approved operators, the RWY14 CUDGN SID and RWY32 BURLI SID are available for departures via APAGI.  
-The GOLD COAST (RADAR) SID shall be assigned to all other IFR aircraft, except those assigned Runway 35.  
-IFR departures from Runway 35 shall be assigned a visual departure.  
 
-Radar SID aircraft shall be cleared subject to the following conditions for noise abatement purposes:
+## Local Procedures
+### Low-Level Coastal Flights
+Surf Lifesaving Patrol and Scenic Tour operations conducting low-level coastal flights within the CG CTR shall be cleared overwater in the required direction of travel, not above `A002`.
 
-| Via             | RWY 14      | RWY 32       |
-| ------------------ | -------------- | ---------------- |
-|  **North**   |   Left turn and then over water until `A030`    | Right turn and then over water until `A030` |
-|  **East**   |   Left turn and then over water until `A030`      | Right turn and then over water until `A030` |
-|  **South** Jets   |   Minor right turn then over water until 5 DME   |    Over water until south of KCFF (CG130/7 NM) and `A050`    |
-|  **South** Non-Jets  |    Left turn and then over water until `A030`     | Right turn and then over water until `A030`  | 
+!!! phraseology
+    **LIFE46:** "Gold Coast Tower, helicopter LIFE46, Q1, 3 POB, for low level coastal operations, received G, request clearance"  
+    **CG ADC:** "LIFE46, Gold Coast Tower, cleared overwater southbound, not above A002"  
+    **LIFE46:** "Cleared overwater southbound, not above A002, LIFE46"
+
+### Western VFR Route
+The Western VFR Route begins at NEN and tracks inland, terminating at Burringbar. It should generally be flown at `A015` (higher levels will require clearance from TCU). This route serves as an alternative route for aircraft wishing to transit through Gold Coast CTR and is laterally separated (by the 3nm radar standard) from both runway approach paths. Note that southern portion of the route is **not** laterally separated from the runway 14 departure paths.
+
+!!! phraseology
+    **WCS:** "Gold Coast Tower, helicopter WCS, NEN, A015, for Western VFR Route, received F, request clearance"  
+    **CG ADC:** "WCS, Gold Coast Tower, cleared Western VFR Route, not above A015, QNH 1013"  
+    **WCS:** "Cleared Western VFR Route, not above A015, QNH 1013, WCS"  
+
+    Once the aircraft exits the CTA, cancel their control services.
+
+    **WCS:** "WCS, clear of Class C airspace"  
+    **CG ADC:** "WCS, control services terminated, frequency change approved"   
+    **WCS:** "Frequency change approved, WCS" 
+
+!!! tip
+    You can find details of the Western VFR Route on the [Gold Coast VTC](https://www.airservicesaustralia.com/aip/aip.asp){target=new}.
 
 ## Arrivals
 Arriving aircraft that are operating at or below `A015` may contact ADC for inbound clearance. These aircraft shall be assigned a discrete SSR code but shall not be radar identified.  
@@ -48,25 +59,7 @@ Aircraft shall be cleared subject to the following conditions:
 |  **South** Jets   |    Via STAR; or<br>Not below `A050` until over water to join final |  Via STAR to join final  |
 |  **South** Non-Jets   |    Via STAR; or<br>Not below `A030` until over water to join final |  **IMC:** via STAR<br>**VMC:** Join left base for 2 NM final |
 
-## Runway Selection
-Preferred runway is Runway 14 - all hours
-The crosswind Runways 17/35 may be used at the same time as the main runways.
-
-### Preferred RWY 14 Approach (All Hours) - Noise Abatement
-The preferred approach for Jet aircraft above 5,700KG MTOW (unless due weather or critical operations requirements) is as follows:  
-<ol><li>RNP W RWY 14</li><li>RNP Y RWY 14</li><li>RNP Z RWY 14</li><li>VISUAL APCH RWY 14</li><li>ILS RWY 14</li></ol>
-
-### Circuit Direction
-Circuits are to be conducted at `A010`.  
-
-| Runway               | Direction       |
-| ------------------ | -------------- |
-| 14 | Left  |
-| 32 | Right  |
-| 17 | Left | 
-| 35 | Right    | 
-
-## VFR Procedures
+## VFR Operations
 VFR aircraft often transit the CG CTR via the coast. This conflicts with arrivals and departures to both runway 14 and 32, and should be accommodated where traffic permits. During busy traffic periods, transit aircraft shall be cleared via the [Western VFR Route](#western-vfr-route). 
 
 ### Arrivals
@@ -131,32 +124,7 @@ Where insufficient spacing exists with IFR aircraft, instruct VFR aircraft to re
     **CG ADC:** "LKU, follow the 737, maintain own separation, join final runway 32, cleared visual approach"  
     **LKU:** "Follow the 737, maintain own separation, join final runway 32, cleared visual approach, LKU"
 
-### Low-Level Coastal Flights
-Surf Lifesaving Patrol and Scenic Tour operations conducting low-level coastal flights within the CG CTR shall be cleared overwater in the required direction of travel, not above `A002`.
-
-!!! phraseology
-    **LIFE46:** "Gold Coast Tower, helicopter LIFE46, Q1, 3 POB, for low level coastal operations, received G, request clearance"  
-    **CG ADC:** "LIFE46, Gold Coast Tower, cleared overwater southbound, not above A002"  
-    **LIFE46:** "Cleared overwater southbound, not above A002, LIFE46"
-
-### Western VFR Route
-The Western VFR Route begins at NEN and tracks inland, terminating at Burringbar. It should generally be flown at `A015` (higher levels will require clearance from TCU). This route serves as an alternative route for aircraft wishing to transit through Gold Coast CTR and is laterally separated (by the 3nm radar standard) from both runway approach paths. Note that southern portion of the route is **not** laterally separated from the runway 14 departure paths.
-
-!!! phraseology
-    **WCS:** "Gold Coast Tower, helicopter WCS, NEN, A015, for Western VFR Route, received F, request clearance"  
-    **CG ADC:** "WCS, Gold Coast Tower, cleared Western VFR Route, not above A015, QNH 1013"  
-    **WCS:** "Cleared Western VFR Route, not above A015, QNH 1013, WCS"  
-
-    Once the aircraft exits the CTA, cancel their control services.
-
-    **WCS:** "WCS, clear of Class C airspace"  
-    **CG ADC:** "WCS, control services terminated, frequency change approved"   
-    **WCS:** "Frequency change approved, WCS" 
-
-!!! tip
-    You can find details of the Western VFR Route on the [Gold Coast VTC](https://www.airservicesaustralia.com/aip/aip.asp){target=new}.
-
-## Helicopter Operations
+### Helicopter Operations
 Local helicopter operations are conducted on the Western Grass which is the area contained by blue gable markers north of the VOR and west of the runway intersection. This is marked on the aerodrome chart as “HELO OPS”.  
 The HLS (Helipad) is located between the GA Apron and Taxiway Golf.  
 Circuits from the Western Grass are to be made in the same direction as the duty runway.
@@ -195,6 +163,40 @@ Both hospital helipads are outside the maneuvering area and do not require a tak
 
     **CG ADC:** "RSCU588, Cleared to YBBN via STOT, flight planned route. Not above A015, report airborne"  
     **RSCU588:** "Cleared to YBBN via STOT, flight planned route. Not above A015, wilco, RSCU588"  
+
+## Runway Modes
+Preferred runway is Runway 14 - all hours
+The crosswind Runways 17/35 may be used at the same time as the main runways.
+
+### Preferred RWY 14 Approach (All Hours) - Noise Abatement
+The preferred approach for Jet aircraft above 5,700KG MTOW (unless due weather or critical operations requirements) is as follows:  
+<ol><li>RNP W RWY 14</li><li>RNP Y RWY 14</li><li>RNP Z RWY 14</li><li>VISUAL APCH RWY 14</li><li>ILS RWY 14</li></ol>
+
+### Circuit Direction
+Circuits are to be conducted at `A010`.  
+
+| Runway               | Direction       |
+| ------------------ | -------------- |
+| 14 | Left  |
+| 32 | Right  |
+| 17 | Left | 
+| 35 | Right    | 
+
+## Departures
+RNAV jet-aircraft planned via APAGI shall be issued the APAGI SID.  
+!!! note
+    For RNP (0.3) approved operators, the RWY14 CUDGN SID and RWY32 BURLI SID are available for departures via APAGI.  
+The GOLD COAST (RADAR) SID shall be assigned to all other IFR aircraft, except those assigned Runway 35.  
+IFR departures from Runway 35 shall be assigned a visual departure.  
+
+Radar SID aircraft shall be cleared subject to the following conditions for noise abatement purposes:
+
+| Via             | RWY 14      | RWY 32       |
+| ------------------ | -------------- | ---------------- |
+|  **North**   |   Left turn and then over water until `A030`    | Right turn and then over water until `A030` |
+|  **East**   |   Left turn and then over water until `A030`      | Right turn and then over water until `A030` |
+|  **South** Jets   |   Minor right turn then over water until 5 DME   |    Over water until south of KCFF (CG130/7 NM) and `A050`    |
+|  **South** Non-Jets  |    Left turn and then over water until `A030`     | Right turn and then over water until `A030`  | 
 
 ## Coordination
 ### Auto Release

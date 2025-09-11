@@ -18,7 +18,7 @@ EN ADC is responsible for the Class C airspace shown below, `SFC` to `A020`.
 ![EN ADC Airspace](img/enadc.png){ width="700" }
 </figure>
 
-## Seperation
+## Separation
 EN ADC is responsible for **all separation** with YMML Traffic, including arrivals to RWY34 via the MOSVO-SHEED track, and all potential arrivals, departures, and missed approach paths.  
 Some important points to note are that:  
 - Aircraft operating on or south of the 08/26 Centreline are separated with YMML 09/27 Traffic at all times  
@@ -29,29 +29,6 @@ EN ADC must assume that **any runway** at YMML may be used for arrival, departur
 When the cloud base is below **A020**, or the Visibility is below **5000m**, all aircraft operating within **3nm** of the 09/27 or 16/34 extended centreline must be [boundary coordinated](../../../controller-skills/coordination/#boundary) to ML ADC, as prescribed in [Coordination](#ml-adc)
 
 If ML ADC nominates a restriction, and EN ADC determines they **cannot** maintain visual or lateral separation with the YMML traffic, EN ADC must delay the aircraft in their airspace until the separation can be assured. 
-
-### Responsbilities 
-#### IFR Departures
-IFR flights shall be cleared via:  
-    a) When cloud base and visibility exceeds `A020` and 5 KM, visual departure;  
-    b) otherwise; EN (RADAR) SID.  
-
-Start clearance is required for:  
-    a) Flights to ML;  
-    b) Flights to MB and AV planned above `A020` (i.e. via ML TCU Class C).  
-
-#### IFR Arrivals 
-ML TCU shall clear aircraft for approach via the appropriate arrival gate: 
-
-| Runway | Arrival Gate |
-| ------ | ----------|
-| 26     | MOSVO  |
-| 35     | MOSVO |
-| 17     | 5NM FINAL |
-| 08     | 5NM FINAL |
-
-!!! Note
-    EN ADC must not permit aircraft to depart from the RWY 26 extended centreline until passed LUY and within the vertical limits of EN airspace.
 
 ## Local Procedures
 Traffic in EN ADC airspace shall squawk 0100 unless a discrete code is required.
@@ -77,6 +54,28 @@ EN ADC is responsible for facilitating aircraft requesting city orbits. They sha
     *When orbit is complete and aircraft is leaving CTA laterally:*  
     **EN ADC**: "EOG, control services terminated, frequency change approved"  
     **EOG**: "EOG"
+
+### IFR Departures
+IFR flights shall be cleared via:  
+    a) When cloud base and visibility exceeds `A020` and 5 KM, visual departure;  
+    b) otherwise; EN (RADAR) SID.  
+
+Start clearance is required for:  
+    a) Flights to ML;  
+    b) Flights to MB and AV planned above `A020` (i.e. via ML TCU Class C).  
+
+### IFR Arrivals 
+ML TCU shall clear aircraft for approach via the appropriate arrival gate: 
+
+| Runway | Arrival Gate |
+| ------ | ----------|
+| 26     | MOSVO  |
+| 35     | MOSVO |
+| 17     | 5NM FINAL |
+| 08     | 5NM FINAL |
+
+!!! Note
+    EN ADC must not permit aircraft to depart from the RWY 26 extended centreline until passed LUY and within the vertical limits of EN airspace.
 
 ## VFR Operations 
 VFR departures to Class G shall be cleared (at not above `A015`) via:

@@ -28,7 +28,7 @@ CS ADC is responsible for the Class C airspace within the CS CTR `SFC` to `A010`
 Taxiways A2 and A between A2 and A3 are not available to aircraft above 7,000 kilograms. Taxiway A4 is not available to aircraft above 90,000 kilograms. Taxiway Y is not available to aircraft above 10,000 kilograms.
 
 
-## Seperation
+## Separation
 ### ADC Separation Responsibility
 When weather conditions are suitable, ADC shall visually separate aircraft operating in the circuit from aircraft on the extended runway centreline when within 5nm. ADC shall also separate aircraft operating on (or departing to join) the Western VFR Corridor while within the CTR. 
 

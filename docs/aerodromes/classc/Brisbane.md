@@ -58,7 +58,7 @@ Taxiway Y is to be used in a westerly direction and Taxiway Z in an easterly dir
   <figcaption>Standard Taxi Routes</figcaption>
 </figure>
 
-## Seperation
+## Separation
 ### Reduced Runway Separation
 When conditions permit, the [2400m separation standard for landing aircraft](../../separation-standards/runway.md#2400m-standard) may be applied to aircraft arriving on any runway.
 

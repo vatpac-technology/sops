@@ -41,7 +41,6 @@ City Scenic Flights are available by day and to the west of the aerodrome. Aircr
   <figcaption>City Scenic Flights</figcaption>
 </figure>
 
-
 ## VFR Operations
 VFR aircraft that will operate only in ADCs airspace shall be assigned SSR code 0040.
 
