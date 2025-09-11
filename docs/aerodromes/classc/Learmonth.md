@@ -15,7 +15,8 @@
 ## Airspace
 LM ADC owns the Class C airspace within the LM CTR from `SFC` to `A015`.
 
-## Circuit Direction
+## Runway Modes
+### Circuit Direction
 
 | Runway | Direction |
 | ------ | ----------|
