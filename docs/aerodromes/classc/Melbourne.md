@@ -12,7 +12,11 @@
 | **Melbourne ACD**         | **Melbourne Delivery**| **127.200**          | **ML_DEL**                                   |
 | **Melbourne ATIS**        |                | **118.000**         | **YMML_ATIS**                                |
 
-## Standard Taxi Routes
+## Airspace
+ML ADC is not responsible for any airspace by default.
+
+## Maneuvering Area
+### Standard Taxi Routes
 
 Except when the traffic situation warrants, taxi clearances shall conform to the following diagram:
 <figure markdown>
@@ -38,114 +42,28 @@ The apron off taxiway Y has been amended to include two separate taxi lanes, cap
 
 The majority of simulators will still have the old apron layout with a single taxi lane between the two piers. Controllers should be wary of the potential for collision if simultanous pushback approval is given to aircraft in this area.
 
-## Airspace
-ML ADC is not responsible for any airspace by default.
-
-## Runway Modes
-If winds are too great, single runway operations may be necessary (eg, Runway 16 for Arrivals and Departures). However, pending wind limitations (Crosswind <20kts, Tailwind <5kts), the following runway modes are to be used
-
-| Mode | Arrivals  | Departures |
-| ----------------| --------- | ---------- |
-| 27AD/34D   | 27       | 34 (Via MNG, NONIX, and DOSEL), 27 (All other deps)        |
-| 16A/27D    | 16 | 27  |
-| 09A/16D    | 09 | 16  |
-| 34A/27AD   | 34 & 27 | 27 |
-
-!!! info
-    When utilising the 27AD/34D runway mode, Heavy Aircraft may require Runway 34 for departure due to the shorter length of Runway 27. Assigning Runway 34 to aircraft from the southern apron can also improve aerodrome efficiency due to the reduced taxi distance.
-
-!!! note
-    See [Runway Mode Formatting](#runway-mode-formatting) for details on how to format each runway mode in the ATIS.
-
+## Separation
 ### Reduced Runway Separation
 When conditions permit, the [2400m separation standard for landing aircraft](../../separation-standards/runway.md#2400m-standard) may be applied to aircraft arriving Runway **16/34**.
 
-### SID Selection
-Jet Aircraft planned via **MNG**, **NONIX**, **DOSEL**, **CORRS**, **KEPPA**, **PEDNI**, **SUNTI**, **ESDIG**, or **CRENA**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
+## Workload Management
+During busy events, such as [Milk Run Monday](../../../events/milkrun/), the **SMC** controller may end up with a much higher workload than the **ACD** controller. Additionally, delays may need to be implemented for aircraft requesting pushback, so as to not overload the taxiways and holding points.
 
-!!! example
-    Jet Aircraft planned via DOSEL, assigned runway 27, shall be given the DOSEL SID.
+### Pushback Requests on ACD
+During busy periods, SMC and ACD may coordinate to implement the [Pushback Requests on ACD](../../controller-skills/grounddelaymanagement#pushback-requests-on-acd) procedure to balance the workload across ACD and SMC frequencies.
 
-#### Off Mode Departures
-!!! info "Definition"
-    **Off Mode:** Aircraft departing from a runway not prescribed as active for departures on the ATIS. For example, a heavy aircraft that operationally requires Runway 16 for departure during the 16A/27D Mode.
+When implementing the procedure the ATIS [OPR INFO field](#acd-pushback-requests) must be updated to inform pilots the correct frequency on which to request pushback.
 
-For jet aircraft departing Runway 16 **Off Mode** via **MNG**, **NONIX**, **DOSEL**, **KEPPA**, **PEDNI**, or **ESDIG**, the **ISPEG SID** must be assigned. **Off Mode** departures to the south-east shall be assigned the relevant **Procedural SID**.
+### COBT Slot Times
+During busy events, VATPAC may utilise prebooked slots to manage traffic congestion. Aircraft which are compliant with their booked slot time should be prioritised over aircraft who are non-compliant or do not have a slot.
+
 <figure markdown>
-![ISPEG1 SID](img/ISPEG1SID.png){ width="700" }
-  <figcaption>Runway 16 and 27 departure conflicts visualised with the ISPEG1 SID</figcaption>
+![COBT Slot Time](img/slottime.png){ width="200" }
+  <figcaption>COBT Slot Time</figcaption>
 </figure>
 
-!!! note
-    The ISPEG1 SID does not resolve all conflicts. Departures via SUNTI and CORRS need to be handled tactically by ML TCU.
-
-#### RADAR SID
-a) Jet aircraft departing **Off Mode** that don't meet the above critera; or  
-b) Non-Jet Aircraft; or  
-c) All aircraft using Runway 09; or  
-d) Aircraft that cannot accept a Procedural SID  
-Shall be assigned the **Radar SID**.
-
-!!! example
-    Non-Jet Aircraft planned via DOSEL, assigned runway 34, shall be given the ML (RADAR) SID.
-
-## LAHSO
-!!! warning "Important"
-    Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
-
-    Very little benefit is achieved by running LAHSO without a flow controller and it is almost exclusively reserved for our busiest events.
-
-Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../controller-skills/runwaymanagement.md#lahso) for more information.
-
-### Weather Conditions
-LAHSO may only be used where the weather conditions meet the following minimum requirements:
-
-| Element | Criteria |
-| ------- | -------- |
-| Cloud Ceiling | `A045` or higher |
-| Visibility | 8km or greater |
-| Surface Condition | Dry |
-| Windshear | None Reported |
-
-Two simultaneous landings may be conducted by both day and night. A simultaneous takeoff and landing may only be conducted by day.
-
-### Runway Mode
-The only approved LAHSO mode at YMML is **34A/27AD**. Runway 34 is considered the active runway, while runway 27 is considered the passive runway.
-
-## ATIS
-### ATIS Identifier
-YMML ATIS identifiers only uses letters `N` through to `Y`, due to nearby YMEN using letters `A` through `M`.  
-
-### Approach Expectation
-With **Runway 34** in use for arrivals and the cloud base above `A030` but below `A042`, the APCH field shall include:  
-`ACFT ON THE ALPHA STAR EXP INSTR APCH` 
-
-This permits controllers to assign aircraft either the Alpha or Victor STAR and process them for a GLS/RNP approach or a visual approach (depending on traffic flow and pilot preference).
-
-### Runway Mode formatting
-| Mode | ATIS Runway information |
-| ----------------| --------- |
-| 27AD/34D   | `27 FOR ARR, RWY 34 FOR DEPS VIA MNG, NONIX AND DOSEL, RWY 27 FOR ALL OTHER DEPS` |
-| 16A/27D    | `16 FOR ARR, RWY 27 FOR DEP` |
-| 09A/16D    | `09 FOR ARR, RWY 16 FOR DEP` |
-| 34A/27AD   | `34 FOR ARR, RWY 27 FOR ARR AND DEP` |
-
-### Operational Info
-#### Independent Crossing Runway Operations
-When using runway mode 09A/16D, the ATIS OPR INFO shall include:  
-`SIMUL INDEP CROSSING RWY OPS IN PROG`
-
-This allows for both Runway 09 and Runway 16 to operate independently of each other, with aircraft departing Runway 16 from Taxiway Echo.
-
-#### LAHSO
-When [LAHSO](#lahso) is in use, the ATIS OPR INFO shall include:  
-`LAND AND HOLD SHORT OPERATIONS IN PROGRESS`
-
-#### ACD Pushback Requests
-When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) procedure, the OPR INFO shall include:  
-`ALL DEPARTURES MUST REQUEST PUSH BACK ON 127.2`  
-
-## Sunbury Corridor
+## Local Procedures
+### Sunbury Corridor
 Day VFR Helicopters may request clearance via the **Sunbury Corridor**. It is defined as the corridor 1nm either side of a track from SWT - PWLC - 16/27 Intersection at YMML.
 
 <figure markdown>
@@ -180,19 +98,11 @@ Remember to pass traffic information to both aircraft.
     **ML ADC:** "JST515, traffic is a helicopter, 2nm northwest of the field, tracking for Essendon and maintaining own separation with you, runway 16, cleared to land"  
     **JST515:** "Runway 16, cleared to land, JST515"
 
-## Pushback Disconnect Points
+### Pushback Disconnect Points
 In the real world, YMML utilises Towbar Disconnect Points (TDPs) to allow predictable pushback paths from various bays. On VATSIM, this is difficult to simulate, given the limited access to pushback maps and the additional plugins required to facilitate a pushback in this way.
 
 !!! warning "Important"
     In the real world, disconnect points are rarely assigned by the SMC controller, as each bay has a standard disconnect point. As such, disconnect points should only be assigned where there is benefit to traffic flow on the apron, after confirming that **both the pilot & controller** are competent in their use, or on **pilot request**.
-
-## Workload Management
-During busy events, such as [Milk Run Monday](../../../events/milkrun/), the **SMC** controller may end up with a much higher workload than the **ACD** controller. Additionally, delays may need to be implemented for aircraft requesting pushback, so as to not overload the taxiways and holding points.
-
-### Pushback Requests on ACD
-During busy periods, SMC and ACD may coordinate to implement the [Pushback Requests on ACD](../../controller-skills/grounddelaymanagement#pushback-requests-on-acd) procedure to balance the workload across ACD and SMC frequencies.
-
-When implementing the procedure the ATIS [OPR INFO field](#acd-pushback-requests) must be updated to inform pilots the correct frequency on which to request pushback.
 
 ### Departure Queueing
 Where excessive queueing is taking place at the holding points, minimise its effect on the surrounding taxiways by strategically positioning outbound aircraft to keep the main arterial taxiways clear.
@@ -204,13 +114,106 @@ Particular attention should be paid to departures for runways 27 and 34. Taxiway
   <figcaption>Segregated queues for runway 34 keeping Taxiway A clear</figcaption>
 </figure>
 
-#### COBT Slot Times
-During busy events, VATPAC may utilise prebooked slots to manage traffic congestion. Aircraft which are compliant with their booked slot time should be prioritised over aircraft who are non-compliant or do not have a slot.
+## Runway Modes
+If winds are too great, single runway operations may be necessary (eg, Runway 16 for Arrivals and Departures). However, pending wind limitations (Crosswind <20kts, Tailwind <5kts), the following runway modes are to be used
 
+| Mode | Arrivals  | Departures |
+| ----------------| --------- | ---------- |
+| 27AD/34D   | 27       | 34 (Via MNG, NONIX, and DOSEL), 27 (All other deps)        |
+| 16A/27D    | 16 | 27  |
+| 09A/16D    | 09 | 16  |
+| 34A/27AD   | 34 & 27 | 27 |
+
+!!! info
+    When utilising the 27AD/34D runway mode, Heavy Aircraft may require Runway 34 for departure due to the shorter length of Runway 27. Assigning Runway 34 to aircraft from the southern apron can also improve aerodrome efficiency due to the reduced taxi distance.
+
+!!! note
+    See [Runway Mode Formatting](#runway-mode-formatting) for details on how to format each runway mode in the ATIS.
+
+### LAHSO
+!!! warning "Important"
+    Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
+
+    Very little benefit is achieved by running LAHSO without a flow controller and it is almost exclusively reserved for our busiest events.
+
+Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../controller-skills/runwaymanagement.md#lahso) for more information.
+
+#### Weather Conditions
+LAHSO may only be used where the weather conditions meet the following minimum requirements:
+
+| Element | Criteria |
+| ------- | -------- |
+| Cloud Ceiling | `A045` or higher |
+| Visibility | 8km or greater |
+| Surface Condition | Dry |
+| Windshear | None Reported |
+
+Two simultaneous landings may be conducted by both day and night. A simultaneous takeoff and landing may only be conducted by day.
+
+#### Runway Mode
+The only approved LAHSO mode at YMML is **34A/27AD**. Runway 34 is considered the active runway, while runway 27 is considered the passive runway.
+
+## SID Selection
+Jet Aircraft planned via **MNG**, **NONIX**, **DOSEL**, **CORRS**, **KEPPA**, **PEDNI**, **SUNTI**, **ESDIG**, or **CRENA**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
+
+!!! example
+    Jet Aircraft planned via DOSEL, assigned runway 27, shall be given the DOSEL SID.
+
+#### Off Mode Departures
+!!! info "Definition"
+    **Off Mode:** Aircraft departing from a runway not prescribed as active for departures on the ATIS. For example, a heavy aircraft that operationally requires Runway 16 for departure during the 16A/27D Mode.
+
+For jet aircraft departing Runway 16 **Off Mode** via **MNG**, **NONIX**, **DOSEL**, **KEPPA**, **PEDNI**, or **ESDIG**, the **ISPEG SID** must be assigned. **Off Mode** departures to the south-east shall be assigned the relevant **Procedural SID**.
 <figure markdown>
-![COBT Slot Time](img/slottime.png){ width="200" }
-  <figcaption>COBT Slot Time</figcaption>
+![ISPEG1 SID](img/ISPEG1SID.png){ width="700" }
+  <figcaption>Runway 16 and 27 departure conflicts visualised with the ISPEG1 SID</figcaption>
 </figure>
+
+!!! note
+    The ISPEG1 SID does not resolve all conflicts. Departures via SUNTI and CORRS need to be handled tactically by ML TCU.
+
+#### RADAR SID
+a) Jet aircraft departing **Off Mode** that don't meet the above critera; or  
+b) Non-Jet Aircraft; or  
+c) All aircraft using Runway 09; or  
+d) Aircraft that cannot accept a Procedural SID  
+Shall be assigned the **Radar SID**.
+
+!!! example
+    Non-Jet Aircraft planned via DOSEL, assigned runway 34, shall be given the ML (RADAR) SID.
+
+## ATIS
+### ATIS Identifier
+YMML ATIS identifiers only uses letters `N` through to `Y`, due to nearby YMEN using letters `A` through `M`.  
+
+### Approach Expectation
+With **Runway 34** in use for arrivals and the cloud base above `A030` but below `A042`, the APCH field shall include:  
+`ACFT ON THE ALPHA STAR EXP INSTR APCH` 
+
+This permits controllers to assign aircraft either the Alpha or Victor STAR and process them for a GLS/RNP approach or a visual approach (depending on traffic flow and pilot preference).
+
+### Runway Mode formatting
+| Mode | ATIS Runway information |
+| ----------------| --------- |
+| 27AD/34D   | `27 FOR ARR, RWY 34 FOR DEPS VIA MNG, NONIX AND DOSEL, RWY 27 FOR ALL OTHER DEPS` |
+| 16A/27D    | `16 FOR ARR, RWY 27 FOR DEP` |
+| 09A/16D    | `09 FOR ARR, RWY 16 FOR DEP` |
+| 34A/27AD   | `34 FOR ARR, RWY 27 FOR ARR AND DEP` |
+
+### Operational Info
+#### Independent Crossing Runway Operations
+When using runway mode 09A/16D, the ATIS OPR INFO shall include:  
+`SIMUL INDEP CROSSING RWY OPS IN PROG`
+
+This allows for both Runway 09 and Runway 16 to operate independently of each other, with aircraft departing Runway 16 from Taxiway Echo.
+
+#### LAHSO
+When [LAHSO](#lahso) is in use, the ATIS OPR INFO shall include:  
+`LAND AND HOLD SHORT OPERATIONS IN PROGRESS`
+
+#### ACD Pushback Requests
+When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) procedure, the OPR INFO shall include:  
+`ALL DEPARTURES MUST REQUEST PUSH BACK ON 127.2`  
 
 ## Coordination
 ### Auto Release

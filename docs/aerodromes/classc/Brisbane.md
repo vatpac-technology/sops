@@ -65,6 +65,12 @@ When conditions permit, the [2400m separation standard for landing aircraft](../
 ### Parallel Runway Operations
 Refer to [Parallel Runway Separation Standards](../../../separation-standards/parallelapps) for more information
 
+## Workload Management
+### Pushback Requests on ACD
+During busy periods, SMC and ACD may coordinate to implement the [Pushback Requests on ACD](../../controller-skills/grounddelaymanagement#pushback-requests-on-acd) procedure to balance the workload across ACD and SMC frequencies.
+
+When implementing the procedure the ATIS [OPR INFO field](#acd-pushback-requests) must be updated to inform pilots the correct frequency on which to request pushback.
+
 ## Helicopter Operations
 Brisbane has one helipad located on taxiway **F4**. Most rescue helicopters are based within the general aviation maintenance area and may operate from taxiway **H2**.
 
@@ -209,12 +215,6 @@ When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) proc
 
 ### Approach Types
 The ATIS shall always have `EXP INST APCH` as the approach type. Visual Approaches are permitted on request, as long as a separation standard exists between the aircraft and any aircraft arriving on the parallel runway during PROPS, or departing from the parallel runway during SODPROPS.
-
-## Workload Management
-### Pushback Requests on ACD
-During busy periods, SMC and ACD may coordinate to implement the [Pushback Requests on ACD](../../controller-skills/grounddelaymanagement#pushback-requests-on-acd) procedure to balance the workload across ACD and SMC frequencies.
-
-When implementing the procedure the ATIS [OPR INFO field](#acd-pushback-requests) must be updated to inform pilots the correct frequency on which to request pushback.
 
 ## Coordination
 ### Auto Release
