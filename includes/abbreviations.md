@@ -56,6 +56,7 @@
 *[FIS]: Flight Information Service
 *[SIS]: Surveillance Information Service (Flight Following)
 *[ARP]: Aerodrome Reference Point
+*[ALA]: Aircraft Landing Area
 *[DER]: Departure End of Runway
 *[SVFR]: Special VFR
 *[MTOW]: Maximum Takeoff Weight
@@ -199,6 +200,7 @@
 *[BCTA]: Bottom of Controlled Airspace
 *[PAL]: Port Adelaide
 *[TWRN]: Two R N
+*[BRY]: Bringelly
 *[DSN]: Doncaster Shopping Town
 *[ADWD]: Adventure World
 *[TVT]: TV Towers
