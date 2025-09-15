@@ -16,16 +16,13 @@
 ## Airspace
 OK ADC owns the airspace within 5 DME of the OK VOR from `SFC` to `A025`. This airspace is designed to facilitate circuit traffic.
 
-## Charts
-!!! abstract "Reference"
-    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
-
-## Miscellaneous
-### Circuit Heights
+## Runway Modes
+### Circuits
+#### Circuit Heights
 a) Standard Circuit `A024`  
 b) Low Level Circuit `A017`
 
-### Circuit Direction
+#### Circuit Direction
 The standard circuit direction is to the north of the field.
 
 | Runway | Direction |
@@ -46,3 +43,7 @@ The Standard Assignable level from **OK ADC** to **OK TCU** is:
 | Aircraft | Level |
 | -------- | ----- |
 | All | The lower of `F120` and `RFL` |
+
+## Charts
+!!! abstract "Reference"
+    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
