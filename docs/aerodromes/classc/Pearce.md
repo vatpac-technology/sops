@@ -16,31 +16,7 @@
 ## Airsapce
 PE ADC owns the airspace within the Pearce CIRA (**5nm** Radius of YPEA ARP, located entirely within **R155A**) from `SFC` to `A035`. This airspace is primarily used for military circuits and initial and pitch approaches.
 
-### SID Selection
-Aircraft planned via **WAMAL**, **GUNOK**, **ALKIMOS**, **MULLALOO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
-Aircraft who are not planned via those points or who are negative RNAV may be assigned a RADAR SID or a visual departure. 
-
-
-## Miscellaneous
-### Circuit Operations 
-Aircraft can be instructed to extend outside of this airspace by ATC for traffic management, following coordination with the appropriate sectors.
-
-HAWKs have circuit altitude of `A016`, while both 2FTS and RSAF PC21s are assigned `A012`.
-
-!!! note
-    36L/18R is unsuitable for HAWK Aircraft
-
-### Circuit Direction
-
-| Runway | Direction |
-| ------ | ----------|
-| 05      | Left  |
-| 18L    | Right |
-| 18R    | Right |
-| 23     | Right |
-| 36L    | Left  |
-| 36R    | Left  |
-
+## Local Procedures 
 ### Initial and Pitch Procedures 
 
 | Runway | Direction Initial | Inital Altitude
@@ -51,6 +27,31 @@ HAWKs have circuit altitude of `A016`, while both 2FTS and RSAF PC21s are assign
 | 23     | Any | A015 |
 | 36L    | Left<br>Right | A010<br>A015 |
 | 36R    | Left<br>Right | A010<br>A015 |
+
+## Runway Modes
+### Circuits
+#### Circuit Operations 
+Aircraft can be instructed to extend outside of this airspace by ATC for traffic management, following coordination with the appropriate sectors.
+
+HAWKs have circuit altitude of `A016`, while both 2FTS and RSAF PC21s are assigned `A012`.
+
+!!! note
+    36L/18R is unsuitable for HAWK Aircraft
+
+#### Circuit Direction
+
+| Runway | Direction |
+| ------ | ----------|
+| 05      | Left  |
+| 18L    | Right |
+| 18R    | Right |
+| 23     | Right |
+| 36L    | Left  |
+| 36R    | Left  |
+
+## SID Selection
+Aircraft planned via **WAMAL**, **GUNOK**, **ALKIMOS**, **MULLALOO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
+Aircraft who are not planned via those points or who are negative RNAV may be assigned a RADAR SID or a visual departure. 
 
 ## Coordination
 ### PE TCU
