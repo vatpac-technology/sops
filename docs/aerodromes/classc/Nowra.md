@@ -17,35 +17,6 @@
 ## Airspace
 NW ADC owns the Class C airspace from `SFC` to `A020`, within a 5nm radius of the NWA TACAN. This airspace is designed to facilitate helicopter and circuit traffic.
 
-## Runway Modes
-Any combination of runway configurations are permitted, including single runway operations during strong wind conditions. The following list dictates common runway modes.
-
-- Runway 21 and Runway 08;  
-- Runway 21 and Runway 26;  
-- Runway 03 and Runway 08;  
-- Runway 03 and Runway 26;   
-
-## Departures
-### SID Selection
-IFR aircraft planned via **AKMIR**, **TONTO**, **WOL**, **ABASS**, **GLB**, **CB**, **COM**, **URBOB** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
-Aircraft who are not planned via those points may be assigned the RADAR SID or a visual departure. 
-
-## Circuit Procedures
-
-Circuit operations occur within a `5NM` radius of NWA TACAN, at the following altitudes:
-
-- Fixed Wing: `A020`
-- Rotary Wing: `A012`
-- Flight Deck Procedural Trainer: not above `A007`
-
-### Circuit Direction
-| Runway | Direction |
-| ------ | ----------|
-| 08     | Right  |
-| 21     | Right |
-| 03     | Left |
-| 26     | Left |
-
 ## Helicopter Operations
 VFR helicopters may elect to operate to/from designated positions (helicopter spots) on the aerodrome by both day and night, remaining clear of the active runway/s. IFR helicopters must operate from/to the active duty runway.
 
@@ -79,8 +50,33 @@ The following pre-defined helicopter spots can be used for this purpose. These s
     **NW ADC**: "TAIP52, spot 2, cleared to land"  
     **TAIP52**: "Spot 2, cleared to land, TAIP52"
 
-## Charts
-Aerodrome and instrument approach charts are available in the AIP, or otherwise in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}.
+## Runway Modes
+Any combination of runway configurations are permitted, including single runway operations during strong wind conditions. The following list dictates common runway modes.
+
+- Runway 21 and Runway 08;  
+- Runway 21 and Runway 26;  
+- Runway 03 and Runway 08;  
+- Runway 03 and Runway 26;   
+
+### Circuit Procedures
+
+Circuit operations occur within a `5NM` radius of NWA TACAN, at the following altitudes:
+
+- Fixed Wing: `A020`
+- Rotary Wing: `A012`
+- Flight Deck Procedural Trainer: not above `A007`
+
+#### Circuit Direction
+| Runway | Direction |
+| ------ | ----------|
+| 08     | Right  |
+| 21     | Right |
+| 03     | Left |
+| 26     | Left |
+
+## SID Selection
+IFR aircraft planned via **AKMIR**, **TONTO**, **WOL**, **ABASS**, **GLB**, **CB**, **COM**, **URBOB** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
+Aircraft who are not planned via those points may be assigned the RADAR SID or a visual departure. 
 
 ## Coordination
 ### Auto Release
@@ -99,3 +95,6 @@ Helicopters departing from helicopter spots will be treated as if departing from
     <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Next, PSDN14, runway 08"  
     <span class="hotline">**NW TCU** -> **NW ADC**</span>: "PSDN14, right turn, unrestricted"  
     <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Right turn, PSDN14"
+
+## Charts
+Aerodrome and instrument approach charts are available in the AIP, or otherwise in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}.
