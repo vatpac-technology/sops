@@ -15,7 +15,8 @@
 ## Airspace
 SG ADC owns the Class C airspace within the SG CTR from `SFC` to `A015`.
 
-## Circuit Direction
+## Runway Modes
+### Circuit Direction
 | Runway | Direction |
 | ------ | ----------|
 | 30     | Right  |
