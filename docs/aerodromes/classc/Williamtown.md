@@ -21,10 +21,6 @@ WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be a
   <figcaption>WLM ADC Airspace</figcaption>
 </figure>
 
-## Charts
-!!! abstract "Reference"
-    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
-
 ## Coordination
 ### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is **not** required from WLM ADC to WLM TCU for aircraft that are:  
@@ -50,3 +46,7 @@ Voiceless coordination is in place from WLM TCU to WLM ADC for arrivals cleared 
 Where a single TCU controller is operating the WLM TMA, the departures controller shall be **WLM_APP** (frequency 133.300).
 
 Where the non-standard **WLM-L_APP** sector is online, they shall be the departures controller (frequency 135.700).
+
+## Charts
+!!! abstract "Reference"
+    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
