@@ -20,6 +20,14 @@ LT ADC is responsible for the Class D airspace in the LT CTR `SFC` to `A015`.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
+## Runway Modes
+### Circuits
+#### Circuit Direction
+| Runway | Day | Night |
+| ------ | ------ | ----|
+| 14R    | Right | Right |
+| 32L     | Left  | Left |
+
 ## SID Selection
 Aircraft planned via **MIKIS**, **TASUM**, or **VEKLO** shall be assigned the relevant Procedural SID.
 
@@ -35,14 +43,6 @@ Aircraft unable to accept a SID, or that cannot practically accept amended routi
 
 ## ATIS
 YMLT ATIS identifiers range from `A` to `M`, as YMHB uses `N` through `Y`.
-
-## VFR Operations
-
-### Circuit Direction
-| Runway | Day | Night |
-| ------ | ------ | ----|
-| 14R    | Right | Right |
-| 32L     | Left  | Left |
 
 ## Coordination
 ### Departures
