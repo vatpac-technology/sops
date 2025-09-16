@@ -42,14 +42,19 @@ Airspace Ownership when ADC East is online, is:
 - At `A015`; owned entirely by ADC West
 - At or below `A010`; split between ADC Circuit/West down the middle of the **06L/24R** and **06R/24L** extended centrelines.
 
-## Runway Modes
-### Parallel Runway Ops
-During parallel runway operations, the northern runway (**06L/24R**) shall be used for VFR arrivals and departures and the southern runway (**06R/24L**) for circuit training and departures via SHOP. 
+## Local Procedures
+### IFR Operations
+#### Arrivals
+**PH TCU** will coordinate all IFR arrivals in accordance with coordination procedures.
 
-The [ATIS](#runway-nomination) shall be updated to reflect the use of each runway.
+#### Departures
+All IFR Departures must be assigned the most appropriate SID in accordance with the aircraft's direction of flight.
 
-### Single Runway Ops
-Where excessive crosswind exists on the parallel runways, Runway 12 or 30 shall be used for all operations.
+| Direction | SID   |
+| -------| ----- |
+| South/West    | TONEG  |
+| North/North-west    | ISPET |
+| East/North-east    | SCARP |
 
 ## VFR Operations
 ### Arrivals
@@ -75,20 +80,23 @@ Aircraft departing via FREM shall track from the circuit to *Fiona Stanley Hospi
 !!! note
     A takeoff clearance constitutes a clearance to depart the zone by extending the pilot's requested leg of the circuit.  Aircraft departing the zone into class G airspace will transfer to area frequency upon leaving the zone, **no explicit frequency transfer is given to these aircraft**.
 
-## IFR Operations
-### Arrivals
-**PH TCU** will coordinate all IFR arrivals in accordance with coordination procedures.
+## Helicopter Operations
+### General
+Unless otherwise depicted in the `ERSA FAC YPJT`, all helicopters must comply with fixed wing procedures.
 
-### Departures
-All IFR Departures must be assigned the most appropriate SID in accordance with the aircraft's direction of flight.
+### Circuits
+Circuits are conducted within the lateral confines of the fixed-wing circuit at `A008`, in the same direction as the current runway config.  The termination point of the circuit is the Main Pad.
 
-| Direction | SID   |
-| -------| ----- |
-| South/West    | TONEG  |
-| North/North-west    | ISPET |
-| East/North-east    | SCARP |
+## Runway Modes
+### Parallel Runway Ops
+During parallel runway operations, the northern runway (**06L/24R**) shall be used for VFR arrivals and departures and the southern runway (**06R/24L**) for circuit training and departures via SHOP. 
 
-## Circuits
+The [ATIS](#runway-nomination) shall be updated to reflect the use of each runway.
+
+### Single Runway Ops
+Where excessive crosswind exists on the parallel runways, Runway 12 or 30 shall be used for all operations.
+
+### Circuits
 Circuits shall be flown at `A010`.
 
 | Runway | Direction  |
@@ -99,13 +107,6 @@ Circuits shall be flown at `A010`.
 | 24R    | Right |
 | 12     | Left  |
 | 30     | Left  |
-
-## Helicopter Operations
-### General
-Unless otherwise depicted in the `ERSA FAC YPJT`, all helicopters must comply with fixed wing procedures.
-
-### Circuits
-Circuits are conducted within the lateral confines of the fixed-wing circuit at `A008`, in the same direction as the current runway config.  The termination point of the circuit is the Main Pad.
 
 ## ATIS
 ### Runway Nomination
