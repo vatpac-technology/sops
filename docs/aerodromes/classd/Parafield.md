@@ -38,19 +38,10 @@ PF ADC is responsible for the Class D airspace in the PF CTR `SFC` to `A015`.
 ### Dual ADC Operations
 Airspace Ownership when ADC West is online, is split down the middle of the two active extended centrelines.
 
-## Circuits
-Circuits to be flown at `A010`
-
-| Runway | Day  | Night |
-| -------| -----| ------|
-| 03L  | Left   | Left  |
-| 03R  | Right  | -     |
-| 21L  | Left   | -     | 
-| 21R  | Right  | Right |
-| 08L  | Left   | -     |
-| 08R  | Right  | -     |
-| 26L  | Left   | -     |
-| 26R  | Right  | -     |
+## Local Procedures
+### IFR Operations
+#### Departures
+IFR Departures from YPPF shall be assigned **PF RADAR** SID when Runway 03/21 is in use.
 
 ## VFR Operations
 ### Arrivals
@@ -65,9 +56,20 @@ Circuits to be flown at `A010`
     ![Bolivar](img/bolivar.png){ width="400" }
     </figure>
 
-## IFR Operations
-### Departures
-IFR Departures from YPPF shall be assigned **PF RADAR** SID when Runway 03/21 is in use.
+## Runway Modes
+### Circuits
+Circuits to be flown at `A010`
+
+| Runway | Day  | Night |
+| -------| -----| ------|
+| 03L  | Left   | Left  |
+| 03R  | Right  | -     |
+| 21L  | Left   | -     | 
+| 21R  | Right  | Right |
+| 08L  | Left   | -     |
+| 08R  | Right  | -     |
+| 26L  | Left   | -     |
+| 26R  | Right  | -     |
 
 ## ATIS
 ### Runway Nomination
