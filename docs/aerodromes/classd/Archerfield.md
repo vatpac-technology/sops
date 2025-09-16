@@ -40,7 +40,7 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 ### Dual ADC Operations
 Airspace Ownership when ADC North is online, is split down the middle of the two active extended centrelines.
 
-## VFR Procedures
+## VFR Operations
 ### Arrivals
 VFR aircraft should track via a VFR inbound point at `A015` and be instructed as below:
 
@@ -72,22 +72,6 @@ Aircraft should advise planned Departure Procedure to **AF SMC** with TAXI call 
     **VPF:** "Archer Ground, Cherokee VPF, Main Apron, for a Western Departure, received information Alpha, request taxi"
 
     **VPF:** "Archer Tower, Cherokee VPF, holding point B8, runway 10 Left, for Western Departure, ready"
-
-## Circuits
-The circuit direction changes depending on time of day and runway being used.
-
-| Runway | Day  | Night |
-| ----------------| --------- | ---------- |
-| 04R             | Right | -  |
-| 04L             | Left  | -  |
-| 22R             | Right | -  |
-| 22L             | Left  | -  |
-| 10R             | Right | -  |
-| 10L             | Left  | Left  |
-| 28R             | Right | Right |
-| 28L             | Left  | -  |
-
-Circuits are to be flown at `A010`.
 
 ## Helicopter Operations
 Archerfield has three helipads located around the aerodrome:
@@ -153,6 +137,23 @@ Helicopters inbound from the south via PKR for either the northen or central hel
     **SMD:** "SMD, Logan Motorway"  
     **AF ADC:** "SMD, track direct central pad, cross 10L and 10R"  
     **SMD:** "Track direct central pad, crossing 10L and 10R, SMD"
+
+## Runway Modes
+### Circuit Procedures
+The circuit direction changes depending on time of day and runway being used.
+
+| Runway | Day  | Night |
+| ----------------| --------- | ---------- |
+| 04R             | Right | -  |
+| 04L             | Left  | -  |
+| 22R             | Right | -  |
+| 22L             | Left  | -  |
+| 10R             | Right | -  |
+| 10L             | Left  | Left  |
+| 28R             | Right | Right |
+| 28L             | Left  | -  |
+
+Circuits are to be flown at `A010`.
 
 ## ATIS
 ### Runway Nomination
