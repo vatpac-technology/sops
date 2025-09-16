@@ -41,27 +41,7 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 ### Dual ADC Operations
 Airspace Ownership when ADC West is online, is split down the middle of the two active extended centrelines.
 
-## Runway Modes
-Preferred runway modes are as follows (in order of preference):
-
-1. Runway 35L/35R
-2. Runway 17L/17R
-3. Runways 13/31 (equal preference)
-
-Runway 04/22 is not nominated by default and is only available on request or when operationally required for emergencies. Requests for Runway 22 may be granted if traffic conditions allow. Runway 04 is less likely to be approved due the need to vacate onto an intersecting runway.
-
-## VFR Inbound Procedures
-Aircraft should report at the standard VFR entry points:
-
-| Direction from YMMB  | Entry Point |
-|-------------|----------------------|
-| North | BTO         |
-| North East | ACE         |
-| East | GMH        |
-| South | CARR         |
-| South West | SHOL         |
-| West | BAW       |
-
+## Local Procedures
 ### Circuit Joining Instructions
 
 | Entry Point | RWY 13                          | RWY 17                          | RWY 31                          | RWY 35                          |
@@ -80,20 +60,18 @@ Aircraft should report at the standard VFR entry points:
 
 VFR Pilots are expected to enter the MB CTR at `A010` as per ERSA. However, be aware that some pilots may not be familiar with this requirement.
 
-## Circuits
-### Fixed wing
-Circuit altitude: `A010`.
+## VFR Operations
+### VFR Inbound Procedures
+Aircraft should report at the standard VFR entry points:
 
-| Runway  | Day Circuit Direction | Night Circuit Direction |
-|---------|------------------------|--------------------------|
-| 13L     | Left                  | Left                    |
-| 13R     | Right                 | N/A                     |
-| 31L     | Left                  | N/A                     |
-| 31R     | Right                 | Right                   |
-| 17L     | Left                  | Left                    |
-| 17R     | Right                 | N/A                     |
-| 35L     | Left                  | N/A                     |
-| 35R     | Right                 | Right                   |
+| Direction from YMMB  | Entry Point |
+|-------------|----------------------|
+| North | BTO         |
+| North East | ACE         |
+| East | GMH        |
+| South | CARR         |
+| South West | SHOL         |
+| West | BAW       |
 
 ## Helicopter Operations
 ### Circuits
@@ -141,6 +119,30 @@ Circuit operations are conducted parallel to the duty runway and inside the fixe
 
 #### Night Circuits
 Night operations must comply with fixed wing operations.
+
+## Runway Modes
+Preferred runway modes are as follows (in order of preference):
+
+1. Runway 35L/35R
+2. Runway 17L/17R
+3. Runways 13/31 (equal preference)
+
+Runway 04/22 is not nominated by default and is only available on request or when operationally required for emergencies. Requests for Runway 22 may be granted if traffic conditions allow. Runway 04 is less likely to be approved due the need to vacate onto an intersecting runway.
+
+### Circuits
+#### Fixed wing
+Circuit altitude: `A010`.
+
+| Runway  | Day Circuit Direction | Night Circuit Direction |
+|---------|------------------------|--------------------------|
+| 13L     | Left                  | Left                    |
+| 13R     | Right                 | N/A                     |
+| 31L     | Left                  | N/A                     |
+| 31R     | Right                 | Right                   |
+| 17L     | Left                  | Left                    |
+| 17R     | Right                 | N/A                     |
+| 35L     | Left                  | N/A                     |
+| 35R     | Right                 | Right                   |
 
 ## ATIS
 ### Runway Nomination
