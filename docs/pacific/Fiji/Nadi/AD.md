@@ -33,7 +33,7 @@ ADC is responsible for the **C**, **D**, and **F** taxiways, as well as the gras
   <figcaption>NFFN Maneuvering Area Responsibility</figcaption>
 </figure>
 
-## Taxiway Restrictions
+### Taxiway Restrictions
 Category D aircraft cannot use **Taxiway B** south of Taxiway G is restricted to Code C aircraft. **Taxiway H** is restricted to aircraft no larger than a `AT72`.
 
 ### Pushback Clearance
