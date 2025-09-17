@@ -30,7 +30,8 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
   <figcaption>YPKA Maneuvering Area Responsibility</figcaption>
 </figure>
 
-## Surveillance
+## Separation
+### Surveillance
 Surveillance coverage can be expected to be available at all levels in the KA CTR. Although KA ADC is **not permitted** to use surveillance for separation, OLW may assist by establishing surveillance separation standards via coordination
 
 ## Coordination
