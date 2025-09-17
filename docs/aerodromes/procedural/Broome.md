@@ -21,10 +21,8 @@ BRM ADC is responsible for the Class D airspace `SFC` to `A055`, as well as the 
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
-## Surveillance
-Surveillance coverage can be expected to be available at all levels in the BRM CTR. Although BRM ADC is **not permitted** to use surveillance for separation, TRT(ASH) may assist by establishing surveillance separation standards via coordination
-
-## Local Lateral Separation Points
+## Separation
+### Local Lateral Separation Points
 Due to the convergence of inbound/outbound air routes approaching BRM, the [geographic feature separation standard](../../separation-standards/visual.md#geographic-features) may be useful to efficiently process opposite direction aircraft from the north or south.
 
 The **coastline** is a good reference for this standard.
@@ -38,6 +36,9 @@ The **coastline** is a good reference for this standard.
     *FHG is now laterally separated from aircraft over land*  
     **BRM ADC:** "FHG, climb to A085"  
     **FHG:** "Climb to A085, FHG"
+
+### Surveillance
+Surveillance coverage can be expected to be available at all levels in the BRM CTR. Although BRM ADC is **not permitted** to use surveillance for separation, TRT(ASH) may assist by establishing surveillance separation standards via coordination
 
 ## Coordination
 ### Departures
