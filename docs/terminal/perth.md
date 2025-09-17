@@ -280,6 +280,8 @@ VFR aircraft require a level readback.
     <span class="hotline">**PH TCU** -> **JT ADC**</span>: "via RNAV-Z RWY 06L, FD416, circling to land RWY 24R"  
     <span class="hotline">**JT ADC** -> **PH TCU**</span>: "FD416, RNAV-Z RWY 06L with a circle to land RWY 24R"  
 
+Where traffic permits, IFR aircraft tracking via Perth CTA from the north or east may be rerouted via CNB and transferred to JT ADC.
+
 ### PE TCU
 **All aircraft** transiting between PE TCU and PH TCU must be heads-up coordinated prior to the boundary.
 

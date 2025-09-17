@@ -245,7 +245,112 @@ Helicopters intending to enter SY TCU CTA must be first coordinated with SY TCU.
     <span class="hotline">**SY ADC** -> **SY TCU**</span>: "A030, RSCU209"  
 
     **SY ADC**: "RSCU209, cleared to YORG via KADOM, flight planned route, climb to A030, squawk 0545, report airborne"  
-    **RSCU209**: "Cleared to YORG via KADOM, flight planned route, climb to A030, squawk 0545, RSCU209"   
+    **RSCU209**: "Cleared to YORG via KADOM, flight planned route, climb to A030, squawk 0545, RSCU209"    
+
+## Maneuvering Area Responsibility
+<figure markdown>
+![YSSY Maneuvering Area](img/yssymaown.png){ width="500" }
+  <figcaption>Maneuvering Area</figcaption>
+</figure>
+
+## Standard Taxi Routes
+Except when the traffic situation warrants, taxi clearances shall conform to the following:
+
+| Taxiway | Direction of Travel |
+| ------- | ------------------- |
+| **B** | Northbound |
+| **C** | Southbound |
+| **B10** | Eastbound (except holding point for 34L) |
+| **L** | Westbound |
+
+<figure markdown>
+![YSSY Taxi Route](img/yssy_taxi_routes.png){ width="500" }
+  <figcaption>Standard Taxi Routes</figcaption>
+</figure>
+
+!!! tip
+    For aircraft taxiing northbound on B, consider instructing them to hold short of taxiway B8 when 34L or 16R are in use for arrivals, in order to separate from aircraft using the B7 & B9 rapid exits.
+
+Additional standard taxi routes exist into and out of some domestic aprons.
+
+<figure markdown>
+![YSSY Apron Route](img/yssy_apron_routes.png){ width="500" }
+  <figcaption>Standard Apron Taxi Routes</figcaption>
+</figure>
+
+=== "Arrivals"
+
+    | Parking Position | Route |
+    | --- | --- |
+    | **B1 Apron** | B |
+    | **DOM1 & DOM1A** | B, B2 |
+    | **Taxiway C (Bays 11-14)** | B, C1 |
+    | **Taxiway C (Bays 16-19)** | B, F |
+    | **Taxiway C (Bays 49, 53, 55)** | B, B3 |
+    | **Taxiway C (Bays 57, 59)** | B, B4 |
+    | **DOM2 (All bays except below)** | B, B4, C2 |
+    | **DOM2 (Bays 43, 45A)** | B, B4 |
+    | **DOM2 - A330 aircraft (Bays 39, 45) *not pictured*** | B, G, DOM2 |
+    | **DOM3, DOM3A, DOM3B, DOM4, DOM5 & DOM6** | B, G |
+    
+=== "Departures"
+
+    | Parking Position | Departure Runway | Route |
+    | --- | --- | --- |
+    | **B1 Apron** | 16R<br>16L<br>34L - Prop<br>34L - Jet<br>34R | B1<br>B1, C, B10<br>B1, C, B10<br>B1, C, L, A, A6<br>B1, C, B10, S, T, T6 |
+    | **DOM1, DOM1A & Taxiway C Bays** | 16R<br>16L<br>34L - Prop<br>34L - Jet<br>34R | As Directed by ATC<br>C, B10<br>C, B10<br>C, L, A, A6<br>C, B10, S, T, T6 |
+    | **DOM2 (All bays except below)** | 16R<br>16L<br>34L - Prop<br>34L - Jet<br>34R | C2, B4<br>DOM2, C, B10<br>DOM2, C, B10<br>DOM2, C, L, A, A6<br>DOM2, C, B10, S, T, T6 |
+    | **DOM2 (Bays 43, 45A)** | 16R<br>16L<br>34L - Prop<br>34L - Jet<br>34R | B4<br>DOM2, C, B10<br>DOM2, C, B10<br>DOM2, C, L, A, A6<br>DOM2, C, B10, S, T, T6 |
+    | **DOM2 - A330 aircraft (Bays 39, 45)** | 16R<br>16L<br>34L<br>34R | DOM2, G, B<br>DOM2, C, B10<br>DOM2, C, L, A, A6<br>DOM2, C, B10, S, T, T6 |
+    | **DOM3, DOM3A, DOM3B, DOM4, DOM5 & DOM6** | 16R<br>16L<br>34L - Prop<br>34L - Jet<br>34R | G<br>G, C, B10<br>G, C, B10<br>G, C, L, A, A6<br>G, C, B10, S, T, T6 |
+
+`ERSA FAC YSSY` noise abatement procedures require jet aircraft to depart runway 34L from full length only. This should be simulated where practical but intersection departures should be offered to jet aircraft on request where available.
+
+### Runway 16L/34R
+When both ADC and SMC are online, SMC shall issue aircraft departing on runway 16L/34R with a taxi limit in accordance with the table below. When runway 34R is in use, ADC shall issue further taxi to the holding point, considering any conflict with arriving aircraft taxiing via `U1` and `L`.
+
+| Departure Runway | Taxi Limit |
+| --- | --- |
+| Runway 16L | Holding point `B10` |
+| Runway 34R | Taxiway `S` |
+
+!!! phraseology
+    **SY SMC:** "VOZ853, taxi via Charlie, cross runway 25, hold short Sierra"  
+    **VOZ853:** "Taxi via Charlie, cross runway 25, hold short Sierra, VOZ853"  
+
+    **VOZ853:** "Sydney Tower, VOZ853, holding short Sierra, ready"  
+    **SY ADC:** "VOZ853, Sydney Tower, give way to the inbound Jetstar A320, taxi to holding point Tango Six, runway 34R"
+
+Aircraft landing on runway 16L/34R are expected to vacate the runway and taxi via the standard taxi routes to join taxiway Lima. If pilots are unfamiliar with local procedures, they should be instructed by **ADC** to taxi accordingly. Where possible, outbound aircraft should give way to inbound aircraft to avoid creating congestion at the runway exits.
+
+!!! phraseology
+    **SY ADC**: "JAL52, taxi via Tango, Lima, on Lima contact Ground 121.7"
+
+The standard arrival taxi routes are:
+
+| Landing Runway | Route |
+| --- | --- |
+| RWY 16L | T, L |
+| RWY 34R | T2, U, U1, L, or<br>U1, L |
+
+### Transferring Between SMCs
+When both SMC positions are online and an aircraft is to be passed from one to the other (e.g. an aircraft taxis from the domestic terminal for runway 34L), they should be instructed to hold short of runway 16R/34L and to contact the next SMC frequency.
+
+!!! phraseology
+    **SMC East**: "JST412, cross runway 25, taxi via Lima, hold short runway 34L, on Lima contact ground 126.5"  
+    **JST412**: "Cross runway 25, taxi via Lima, hold short runway 34L, contact ground 126.5, JST412"
+
+    **JST412**: "Sydney Ground, JST412, holding short runway 34L"  
+    **SMC West**: "JST412, cross runway 34L, taxi to holding point Alpha Six"  
+    **JST412**: "Cross runway 34L, taxi to holding point Alpha Six, JST412"
+
+Generally, aircraft shall cross runway 16R/34L in the following directions at the following locations:
+
+| Location | Direction of Taxi |
+| --- | --- |
+| Taxiway Golf | Eastbound |
+| Runway 25 | Westbound |
+| Taxiway Lima | As required |
 
 ## Runway Modes
 ### Preferred Runway Modes
