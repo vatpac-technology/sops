@@ -16,7 +16,8 @@ By default, WR ADC owns the **R222F** Restricted Area. This airspace has vertica
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
-## Surveillance
+## Separation
+### Surveillance
 Surveillance coverage can be expected to be available at all levels in the WR CTR. Although WR ADC is **not permitted** to use surveillance for separation, ASP(WRA) may assist by establishing surveillance separation standards via coordination
 
 ## Coordination
