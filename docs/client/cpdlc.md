@@ -105,9 +105,7 @@ Some major enroute positions do not use CPDLC as a primary means of communicatio
 | IND | YIND | **CPDLC** |
 | AYPM | AYPM | Voice |
 | NFFF | NFFF | **CPDLC** |
-| NFFN_CTR | NFFJ | Voice |
-| NVVV_CTR | NVVV | Voice |
-| NWWW_CTR | NWXX | Voice |
+| NFFJ | NFFJ | Voice |
 | NZZO | NZZO | **CPDLC** |
 | KZAK | KZAK | **CPDLC** |
 

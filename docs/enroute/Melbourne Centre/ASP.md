@@ -10,7 +10,7 @@
 | **Alice Springs** | **Melbourne Centre** | **128.850** | **ML-ASP_CTR** |
 | <span class="indented">Alice Springs West :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 131.800 | ML-ASW_CTR |
 | <span class="indented">Warburton :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 124.900 | ML-WAR_CTR |
-| <span class="indented">Forest :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 132.700 | ML-FOR_CTR |
+| <span class="indented">Forrest :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 132.700 | ML-FOR_CTR |
 | <span class="indented">Woomera :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 132.900 | ML-WRA_CTR |
 | <span class="indented">Bourke :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 128.200 | ML-BKE_CTR |
 | <span class="indented">Esperance :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 123.950 | ML-ESP_CTR |

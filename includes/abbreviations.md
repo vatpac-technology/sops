@@ -56,6 +56,7 @@
 *[FIS]: Flight Information Service
 *[SIS]: Surveillance Information Service (Flight Following)
 *[ARP]: Aerodrome Reference Point
+*[ALA]: Aircraft Landing Area
 *[DER]: Departure End of Runway
 *[SVFR]: Special VFR
 *[MTOW]: Maximum Takeoff Weight
@@ -170,12 +171,6 @@
 *[CSF]: Cairns Flow
 *[CBF]: Canberra Flow
 *[PFL]: Perth Flow
-*[AYPYA]: Jacksons Radar
-*[AYNZA]: Nadzab Approach
-*[NWWWA]: Tontouta Approach
-*[NWWWT]: Tontouta Approach (Terminal)
-*[NFFNA]: Nadi Approach
-*[NFNAA]: Nausori Approach
 *[AYNZ]: Nadzab
 *[AYGA]: Goroka
 *[AYMD]: Madang
@@ -205,6 +200,7 @@
 *[BCTA]: Bottom of Controlled Airspace
 *[PAL]: Port Adelaide
 *[TWRN]: Two R N
+*[BRY]: Bringelly
 *[DSN]: Doncaster Shopping Town
 *[ADWD]: Adventure World
 *[TVT]: TV Towers
@@ -295,10 +291,16 @@
 *[FIMM]: Mauritius FIR
 *[FAJO]: Johannesburg FIR
 *[AYPM]: Port Moresby FIR
-*[AYPE]: Port Moresby (East) FIR
-*[NWWW]: Noumea FIR
-*[NVVV]: Port Vila FIR
+*[NWWW]: Noumea Sector
+*[NVVV]: Port Vila Sector
 *[RJTG]: Fukuoka FIR
+*[NFFJ]: Nadi Control (Domestic)
+*[AYPYA]: Jacksons Radar
+*[AYNZA]: Nadzab Approach
+*[NWWWA]: Tontouta Approach
+*[NVVVA]: Vila Tower (TCU)
+*[NFFNA]: Nadi Approach
+*[NFNAA]: Nausori Approach
 *[MX]: Maximum Speed
 *[CSR]: Cancel Speed Restrictions
 *[COBT]: Calculated Off Blocks Time
@@ -348,3 +350,7 @@
 *[CGD]: Cudgen Headland
 *[MI NDB]: Momi
 *[VK NDB]: Navakai
+*[CGB]: Craigieburn Overpass
+*[EPPG]: Epping
+*[ROK]: Rockbank
+*[FWO]: Freeway Overpass
