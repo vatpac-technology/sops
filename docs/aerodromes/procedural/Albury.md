@@ -21,10 +21,8 @@ AY ADC is responsible for the Class D airspace in the AY CTR `SFC` to `A045`.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
-## Surveillance
-Surveillance coverage can be expected to be available at all levels in the AY CTR. Although AY ADC is **not permitted** to use surveillance for separation, BLA may assist by establishing surveillance separation standards via coordination
-
-## Local Lateral Separation Points
+## Separation
+### Local Lateral Separation Points
 Due to the convergence of inbound/outbound air routes approaching AY, the [geographic feature separation standard](../../separation-standards/visual.md#geographic-features) may be useful to efficiently process opposite direction aircraft from the north.
 
 The **Hume Highway** is a good reference for this standard.
@@ -38,6 +36,9 @@ The **Hume Highway** is a good reference for this standard.
     *XEB is now laterally separated from aircraft over east of the highway*  
     **AY ADC:** "XEB, requirement to remain at least 1nm west of the highway, cleared visual approach"  
     **XEB:** "Remain at least 1nm west of the highway, cleared visual approach, XEB"
+
+### Surveillance
+Surveillance coverage can be expected to be available at all levels in the AY CTR. Although AY ADC is **not permitted** to use surveillance for separation, BLA may assist by establishing surveillance separation standards via coordination
 
 ## Coordination
 ### Departures
