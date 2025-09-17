@@ -233,7 +233,7 @@ When conducting IVAs, aircraft shall not be transferred to **SY ADC** until esta
 *"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (MVA) UNTIL ESTABLISHED ON THE PAPI (or GLIDEPATH)"*
 
 !!! phraseology
-    **SFE:** "ANZ361, Turn right heading 330, join final Runway 34R, from that heading Cleared Independent Visual Approach Runway 34R, not below 1500 until established on the PAPI"    
+    **SFE:** "ANZ361, Turn right heading 305, join final Runway 34R, from that heading Cleared Independent Visual Approach Runway 34R, not below `A015` until established on the PAPI"    
 
 ## SODPROPS
 Arriving aircraft must be established on final and transferred to the tower frequency no later than 10NM from touchdown.

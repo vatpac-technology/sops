@@ -25,27 +25,57 @@ Control authority of the **R470** Restricted Area when active is as follows:
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 ## SID Selection
-Aircraft planned via **ANKUB**, **KADOM** or **MUDGI** may be assigned the SID that terminates at the appropriate waypoint. Aircraft who are not planned via these points, or who are negative RNAV, may be assigned a visual departure.
-
-## VFR Procedures
-All VFR aircraft outbound and inbound, or transiting the field maintain `A015`.  
-Aircraft transiting the RIC CTR track via the northbound or southbound VFR route.  
-Aircraft transiting northbound contact RI ADC at NPBR for clearance.  
-Aircraft transiting southbound contact RI ADC at KRMD for clearance.  
+Military aircraft planned via **ANKUB**, **KADOM** or **MUDGI** may be assigned the SID that terminates at the appropriate waypoint. Aircraft who are not planned via these points, or who are negative RNAV, may be assigned a visual departure.
 
 !!! tip
-    You can find details of the transit route (including reporting points and altitudes) in the [ERSA FAC YSRI and VTC](https://www.airservicesaustralia.com/aip/aip.asp){target=new}.
+    Military SID charts are contained in the [RAAF TERMA](https://ais-af.airforce.gov.au/){target=new} document.
+
+## VFR Procedures
+VFR aircraft transiting to/from YSRI should do so at `A015`.
+
+Aircraft intending to transit the RIC CTR should plan via the [Richmond Lane of Entry](#richmond-lane-of-entry).
+
+### Richmond Lane of Entry
+A lane of entry is available in the western portion of the RIC CTR, allowing aircraft to transit the zone from north to south (or vice versa). A clearance is required from **RI ADC** prior to entering the CTR.
+
+| Direction | Routing | Altitude | Reporting Point |
+| --- | --- | --- | --- |
+| Northbound | NPBR, then via the powerlines to KRMD, then WSFR | `A015` | KRMD |
+| Southbound | WSFR to KRMD, then via the powerlines to NPBR | `A015` | KRMD |
+
+!!! phraseology
+    **FWC**: "Richmond Tower, FWC, Cessna 172, 4nm south of NPBR, `A015`, received Bravo, for the lane of entry, request clearance"  
+    **RI ADC**: "FWC, squawk 0366, remain outside controlled airspace"  
+    **FWC**: "Squawk 0366, remain outside controlled airspace, FWC"  
+
+    **RI ADC**: "FWC, identified, cleared to track via the lane northbound, maintain `A015`"  
+    **FWC**: "Cleared to track via the lane northbound, maintain `A015`, FWC"  
+
+Pilots must report their position and estimate for their next waypoint at KRMD.
+
+!!! phraselogy
+    **FWC**: "FWC, KRMD, estimating WSFR at time 33"  
+    **RI ADC**: "FWC"
+
+Details of the lane are available in the `YSRI ERSA FAC` and on the Sydney VTC.
+
+!!! note
+    Delays may be required during times of peak traffic into/out of YSRI.
 
 ### Training Areas
-There are three training areas located within **R470**, used for civil and military operations.
+There are three training areas located within R470, used for both civil and military operations.
 
-| **Name**                 | **Identifier** | **Vertical Limits** | **Notes**                        |
-|-------------------------|---------------|---------------------|-----------------------------------|
-| Londonderry Training Area | LDD TA        | `SFC - A015`        | Contained within R470             |
-| Northern Training Area | NTA TA        | `SFC - A060`        | Contained within R470             |
-| Southern Training Area | STA TA        | `SFC - A040`        | Contained within R470             |
+!!! warning "Important"
+    Operations above `A015` may require an airspace release from **SY TCU**. Due to published departure procedures from YSSY, levels above `A040` may not be available.
 
-Refer to [YSRI FIHA AD2 SUPP](https://ais-af.airforce.gov.au/australian-aip){target=new} for charts and more info.
+| Name | Vertical Limits | Lateral Boundary |
+| ---- | --------------- | --- |
+| Londonderry Training Area | `SFC - A015` | Yarramundi Bridge<br>East to Springwood Road<br>Bonner Road to intersection of Vincent Road<br>West along Vincent Road to the intersection of the Nepean River<br>North via the eastern bank of the Nepean River to Yarramundi Bridge |
+| Northern Training Area | `SFC - A060` | Intersection of North-South powerlines & Bells Line of Road<br>North along power lines to the R470 boundary<br>East along the R470 boundary to the Hawkesbury River<br>South tot Kurmond Road<br>West along Kurmond Road to Kurmond<br>Via Bells Line of Road to the intersection of the power lines |
+| Southern Training Area | `SFC - A040` | Richmond Train Station<br>West to the water tank<br>Straight line to the R470 boundary<br>Along the R470 boundary to the Northern Road<br>Along Northern Road to the intersection of Richmond/Blacktown Road<br>Richmond Road to George & Macquarie Street to the railway overpass |
+
+!!! tip
+    Diagrams of the training areas are available in the [Richmond FIHA AD2](https://ais-af.airforce.gov.au/){target=new} document.
 
 ## Circuit Operations
 YSRI circuit area is defined as within 6nm of the YSRI ARP. An aircraft operating in the circuit will be issued a clearance to the operate within the circuit area not above `A015`.
