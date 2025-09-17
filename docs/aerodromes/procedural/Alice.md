@@ -26,8 +26,12 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
   <figcaption>Manoeuvring Area</figcaption>
 </figure>
 
-## VFR Routes
+## Separation
+### Surveillance
+Surveillance coverage can be expected to be available at all levels in the AS CTR. Although AS ADC is **not permitted** to use surveillance for separation, ASP may assist by establishing surveillance separation standards via coordination
 
+## VFR Operations
+### VFR Routes
 Alice Springs has 10 VFR routes that follow prominent geographic features and highways. These established routes begin at various reporting points, providing entry to the CIRA. VFR Routes 8 and 9 provide separation from R215 Pine Gap.
 
 <figure markdown>
@@ -42,9 +46,6 @@ Alice Springs has 10 VFR routes that follow prominent geographic features and hi
 
 !!! tip
     You can find details of all VFR Routes on the [Alice Springs / Uluru VTC](https://www.airservicesaustralia.com/aip/aip.asp){target=new}.
-
-## Surveillance
-Surveillance coverage can be expected to be available at all levels in the AS CTR. Although AS ADC is **not permitted** to use surveillance for separation, ASP may assist by establishing surveillance separation standards via coordination
 
 ## Coordination
 ### Departures
