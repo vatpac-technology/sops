@@ -74,7 +74,7 @@ Details of the lane are available in the `YSRI ERSA FAC` and on the Sydney VTC.
 !!! note
     Delays may be required during times of peak traffic into/out of YSRI.
 
-## Runway Moddes
+## Runway Modes
 ### Circuit Operations
 YSRI circuit area is defined as within 6nm of the YSRI ARP. An aircraft operating in the circuit will be issued a clearance to the operate within the circuit area not above `A015`.
 
@@ -83,7 +83,6 @@ YSRI circuit area is defined as within 6nm of the YSRI ARP. An aircraft operatin
 | ------ | ----------|
 | 10     | Left  |
 | 28     | Left |
-
 
 ## SID Selection
 Military aircraft planned via **ANKUB**, **KADOM** or **MUDGI** may be assigned the SID that terminates at the appropriate waypoint. Aircraft who are not planned via these points, or who are negative RNAV, may be assigned a visual departure.
