@@ -63,34 +63,11 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **
   <figcaption>SODPROPS TCU Structure</figcaption>
 </figure>
 
-## Parallel Runway Operations
+## Separation
+### Parallel Runway Operations
 Refer to [Parallel Runway Separation Standards](../../separation-standards/parallelapps) for more information
 
-### Runway Selection
-Aircraft shall be assigned the following runways for arrival when PROPS are in progress:
-
-| FF | Runway |
-| ---- | -------- |
-| BLAKA | 01R/19L |
-| GOMOL | 01R/19L |
-| UGTUG | 01R/**19R** |
-| TEBOT | 01R/**19R** |
-| MORBI | 01L/19R |
-| SMOKA | 01L/19R |
-| WOODY | 01L/19R |
-| ENLIP | 01L/**19L** |
-| Other aircraft: |
-| From the NORTH and WEST | 01L/19R |
-| From the SOUTH and EAST | 01R/19L |
-
-These standard runway assignments may be modified strategically by the BAS or BFL controller.
-
-!!! phraseology
-    If during an event, the vast majority of traffic is coming from **BLAKA** and **GOMOL** feeder fixes, BAS/BFL may elect to assign 19L to **BLAKA** arrivals and 19R to **GOMOL** arrivals, to keep them separated at all times.
-
-    <span class="hotline">**BFL** -> **INL**</span>: "All arrivals via GOMOL to be assigned 19R until further notice"  
-    <span class="hotline">**INL** -> **BFL**</span>: "Roger, Arrivals via GOMOL to be assigned 19R" 
-
+## Departure/Arrival Procedures
 ### Independent Visual Approach Phraseology at Night
 *"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (MVA) UNTIL ESTABLISHED ON THE PAPI (or GLIDEPATH)"*
 
@@ -100,7 +77,7 @@ These standard runway assignments may be modified strategically by the BAS or BF
 ### SODPROPS
 Arriving aircraft must be established on final and transferred to the tower frequency no later than 10NM from touchdown.
 
-## Offline Towers
+## Tower Offline
 ### AF ADC Offline
 Due to the low level of CTA (`A015`) in the AF CTR when **AF ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
@@ -125,9 +102,34 @@ Due to the low level of CTA (`A035`) in the CG CTR when **CG ADC** is offline, i
     **BN TCU**: "JST446, cleared to YSSY via APAGI, flight planned route, climb to A060"  
     **JST446**: "Cleared to YSSY via APAGI, flight planned route, climb to A060, JST446"
 
+## Runway Modes
+### Parallel Runway Operations
+Aircraft shall be assigned the following runways for arrival when PROPS are in progress:
+
+| FF | Runway |
+| ---- | -------- |
+| BLAKA | 01R/19L |
+| GOMOL | 01R/19L |
+| UGTUG | 01R/**19R** |
+| TEBOT | 01R/**19R** |
+| MORBI | 01L/19R |
+| SMOKA | 01L/19R |
+| WOODY | 01L/19R |
+| ENLIP | 01L/**19L** |
+| Other aircraft: |
+| From the NORTH and WEST | 01L/19R |
+| From the SOUTH and EAST | 01R/19L |
+
+These standard runway assignments may be modified strategically by the BAS or BFL controller.
+
+!!! phraseology
+    If during an event, the vast majority of traffic is coming from **BLAKA** and **GOMOL** feeder fixes, BAS/BFL may elect to assign 19L to **BLAKA** arrivals and 19R to **GOMOL** arrivals, to keep them separated at all times.
+
+    <span class="hotline">**BFL** -> **INL**</span>: "All arrivals via GOMOL to be assigned 19R until further notice"  
+    <span class="hotline">**INL** -> **BFL**</span>: "Roger, Arrivals via GOMOL to be assigned 19R" 
+
 ## Helicopter Operations
 In VMC, helicopters inbound to or outbound from YBBN shall be processed via two visual waypoints (outlined below) positioned north and south of the field. Where VMC does not exist, IFR helicopters will conform to fixed wing ops.
-
 
 | Direction of Flight  | Inbound/Outbound Tracking Point |
 | ------------------ | -------------- |
