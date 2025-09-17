@@ -16,7 +16,7 @@ The list of callsigns is below:
 | Simflite AU | ASY121 | A332 |
 | WorldFlight Perth | GTI1471 | B744 |
 | Hamilton | ANZ361 | B738 |
-| San Diego | ANZ362 | B738 |
+| Arizona | ANZ362 | B738 |
 | Velocity UK | NPT11W | B738 |
 | Virginia | UAL1120 | B738 |
 | Wings4Hope | UAL8317 | B772 |
@@ -24,6 +24,7 @@ The list of callsigns is below:
 | WorldFlight USA | DAL209 | B738 |
 | Ness Aviation | EXS25N | B738 |
 | Team SharedFlight | PAA001 | B744 |
+| Team Covey | CVY44N | B744 |
 
 ## Route
 <figure markdown>
