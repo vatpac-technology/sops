@@ -122,60 +122,115 @@ For aircraft overflying the PH TCU place `O/FLY` in the LABEL DATA field.
 Aircraft assigned the **same runway** inbound via **JULIM** and **SAPKO**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
 #### Predictable Sequencing Waypoints
-There are ten [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YPPH  via **Q10**, **Q32**, **Q27**, **Q41**, and **Z38**. These waypoints are south of **Q10** and north of **Q27**. 
+There are ten [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YPPH via  **Q10**, **Q32**, **Q27**, **Q41** and **Z38**, located south of **Q10** and north of **Q27**. There are also eight waypoints available for aicraft inbound via **Q9**, **Q31**, **Q38**, **Q73** and **Q181** located east of the **Q38**.
 
 The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
+
+=== "Q9"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | LEBOD | NUKTU | AVPAL | +1 |
+    | LEBOD | BOKAT | AVPAL | +2 |
+    | LEBOD | ELNUL | AVPAL | +3 |
+    | LEBOD | LAXIM | AVPAL | +5 |
+    | LEBOD | ISGUN | AVPAL | +8 |
+    | LEBOD | AGTIK | AVPAL | +10 |
+    | LEBOD | MEENA | AVPAL | +12 |
+    | LEBOD | SQARE | AVPAL | +14 |
 
 === "Q10"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-    | URGEX | TEKUD | MALUP | 1 |
-    | URGEX | BEMPI | MALUP | 2 |
-    | URGEX | AGTOD | MALUP | 3 |
-    | URGEX | DUKOR | MALUP | 4 |
-    | URGEX | IPGER | MALUP | 5 |
-    | URGEX | TODOS | MALUP | 7 |
-    | URGEX | IVPIL | MALUP | 9 |
+    | URGEX | TEKUD | MALUP | +1 |
+    | URGEX | BEMPI | MALUP | +2 |
+    | URGEX | AGTOD | MALUP | +4 |
+    | URGEX | DUKOR | MALUP | +6 |
+    | URGEX | IPGER | MALUP | +8 |
+    | URGEX | TODOS | MALUP | +10 |
+    | URGEX | IVPIL | MALUP | +13 |
  
 === "Q27"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-    | IVPIL | URGEX | MALUP | 6 |
-    | IVPIL | TEKUD | MALUP | 5 |
-    | IVPIL | BEMPI | MALUP | 4 |
-    | IVPIL | AGTOD | MALUP | 3 |
-    | IVPIL | DUKOR | MALUP | 2 |
-    | IVPIL | IPGER | MALUP | 2 |
-    | IVPIL | TODOS | MALUP | 1 |
+    | IVPIL | TODOS | MALUP | +1 |
+    | IVPIL | IPGER | MALUP | +2 |
+    | IVPIL | DUKOR | MALUP | +3 |
+    | IVPIL | AGTOD | MALUP | +4 |
+    | IVPIL | BEMPI | MALUP | +5 |
+    | IVPIL | TEKUD | MALUP | +6 |
+    | IVPIL | URGEX | MALUP | +8 |
+    
+=== "Q31"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | NUKTU | BOKAT | AVPAL | +1 |
+    | NUKTU | ELNUL | AVPAL | +2 |
+    | NUKTU | LAXIM | AVPAL | +4 |
+    | NUKTU | ISGUN | AVPAL | +7 |
+    | NUKTU | AGTIK | AVPAL | +9 |
+    | NUKTU | MEENA | AVPAL | +11 |
+    | NUKTU | SQARE | AVPAL | +13 |
  
 === "Q32"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-    | TEKUD | URGEX | MALUP | 1 |
-    | TEKUD | BEMPI | MALUP | 1 |
-    | TEKUD | AGTOD | MALUP | 2 |
-    | TEKUD | DUKOR | MALUP | 3 |
-    | TEKUD | IPGER | MALUP | 4 |
-    | TEKUD | TODOS | MALUP | 6 |
-    | TEKUD | IVPIL | MALUP | 8 |
+    | TEKUD | BEMPI | MALUP | +1 |
+    | TEKUD | AGTOD | MALUP | +3 |
+    | TEKUD | DUKOR | MALUP | +5 |
+    | TEKUD | IPGER | MALUP | +7 |
+    | TEKUD | TODOS | MALUP | +9 |
+	
+=== "Q38"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | NUKTU | BOKAT | AVPAL | +1 |
+    | NUKTU | ELNUL | AVPAL | +2 |
+    | NUKTU | LAXIM | AVPAL | +4 |
+    | NUKTU | ISGUN | AVPAL | +7 |
+    | NUKTU | AGTIK | AVPAL | +9 |
+    | NUKTU | MEENA | AVPAL | +11 |
+    | NUKTU | SQARE | AVPAL | +13 |
  
 === "Q41"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-    | NALAR | URGEX | MALUP | 2 |
-    | NALAR | TEKUD | MALUP | 3 |
-    | NALAR | BEMPI | MALUP | 4 |
-    | NALAR | AGTOD | MALUP | 5 |
-    | NALAR | DUKOR | MALUP | 6 |
-    | NALAR | IPGER | MALUP | 7 |
-    | NALAR | TODOS | MALUP | 9 |
-    | NALAR | IVPIL | MALUP | 11 |
- 
+    | NALAR | URGEX | MALUP | +5 |
+    | NALAR | TEKUD | MALUP | +7 |
+    | NALAR | BEMPI | MALUP | +8 |
+    | NALAR | AGTOD | MALUP | +10 |
+    | NALAR | DUKOR | MALUP | +12 |
+    | NALAR | IPGER | MALUP | +14 |
+    | NALAR | TODOS | MALUP | +16 |
+    | NALAR | IVPIL | MALUP | +20 |
+	
+=== "Q73"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+	| SQARE | MEENA | AVPAL | +1 |
+    | SQARE | AGTIK | AVPAL | +2 |
+    | SQARE | ISGUN | AVPAL | +3 |
+    | SQARE | LAXIM | AVPAL | +4 |
+    | SQARE | ELNUL | AVPAL | +6 |
+    | SQARE | BOKAT | AVPAL | +7 |
+    | SQARE | NUKTU | AVPAL | +8 |
+    | SQARE | LEBOD | AVPAL | +10 |
+	
+=== "Q181"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | BOKAT | ELNUL | AVPAL | +1 |
+    | BOKAT | LAXIM | AVPAL | +3 |
+    | BOKAT | ISGUN | AVPAL | +6 |
+    | BOKAT | AGTIK | AVPAL | +8 |
+    | BOKAT | MEENA | AVPAL | +10 |
+    | BOKAT | SQARE | AVPAL | +12 |
+	
 === "Z38"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-    | BUNGL | IGROB | MALUP | 4 |
-    | BUNGL | KINAB | MALUP | 7 |
+    | BUNGL | MALUP | MALUP | +3 |
+    | BUNGL | IGROB | MALUP | +5 |
+    | BUNGL | KINAB | MALUP | +7 |
 
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YPPH. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.

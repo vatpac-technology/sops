@@ -46,7 +46,7 @@ If winds are too great, single runway operations may be necessary (eg, Runway 16
 
 | Mode | Arrivals  | Departures |
 | ----------------| --------- | ---------- |
-| 27AD/34D   | 27       | 34 (Via MNG, NONIX, DOSEL and BOGES), 27 (All other deps)        |
+| 27AD/34D   | 27       | 34 (Via MNG, NONIX, and DOSEL), 27 (All other deps)        |
 | 16A/27D    | 16 | 27  |
 | 09A/16D    | 09 | 16  |
 | 34A/27AD   | 34 & 27 | 27 |
@@ -56,6 +56,9 @@ If winds are too great, single runway operations may be necessary (eg, Runway 16
 
 !!! note
     See [Runway Mode Formatting](#runway-mode-formatting) for details on how to format each runway mode in the ATIS.
+
+### Reduced Runway Separation
+When conditions permit, the [2400m separation standard for landing aircraft](../../separation-standards/runway.md#2400m-standard) may be applied to aircraft arriving Runway **16/34**.
 
 ### SID Selection
 Jet Aircraft planned via **MNG**, **NONIX**, **DOSEL**, **CORRS**, **KEPPA**, **PEDNI**, **SUNTI**, **ESDIG**, or **CRENA**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
@@ -122,10 +125,10 @@ This permits controllers to assign aircraft either the Alpha or Victor STAR and 
 ### Runway Mode formatting
 | Mode | ATIS Runway information |
 | ----------------| --------- |
-| 27AD/34D   | 27 FOR ARR, RWY 34 FOR DEPS VIA MNG, NONIX, DOSEL AND BOGES, RWY 27 FOR ALL OTHER DEPS |
-| 16A/27D    | 16 FOR ARR, RWY 27 FOR DEP |
-| 09A/16D    | 09 FOR ARR, RWY 16 FOR DEP |
-| 34A/27AD   | 34 FOR ARR, RWY 27 FOR ARR AND DEP |
+| 27AD/34D   | `27 FOR ARR, RWY 34 FOR DEPS VIA MNG, NONIX AND DOSEL, RWY 27 FOR ALL OTHER DEPS` |
+| 16A/27D    | `16 FOR ARR, RWY 27 FOR DEP` |
+| 09A/16D    | `09 FOR ARR, RWY 16 FOR DEP` |
+| 34A/27AD   | `34 FOR ARR, RWY 27 FOR ARR AND DEP` |
 
 ### Operational Info
 #### Independent Crossing Runway Operations
