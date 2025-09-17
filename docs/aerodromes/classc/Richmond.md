@@ -21,15 +21,26 @@ Control authority of the **R470** Restricted Area when active is as follows:
 - SY TCU (SDN): `A015`-`A045`
 
 ## Local Procedures
-## Charts
-!!! abstract "Reference"
-    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
+### Training Areas
+There are three training areas located within R470, used for both civil and military operations.
 
-## SID Selection
-Military aircraft planned via **ANKUB**, **KADOM** or **MUDGI** may be assigned the SID that terminates at the appropriate waypoint. Aircraft who are not planned via these points, or who are negative RNAV, may be assigned a visual departure.
+!!! warning "Important"
+    Operations above `A015` may require an airspace release from **SY TCU**. Due to published departure procedures from YSSY, levels above `A040` may not be available.
+
+| Name | Vertical Limits | Lateral Boundary |
+| ---- | --------------- | --- |
+| Londonderry Training Area | `SFC - A015` | Yarramundi Bridge<br>East to Springwood Road<br>Bonner Road to intersection of Vincent Road<br>West along Vincent Road to the intersection of the Nepean River<br>North via the eastern bank of the Nepean River to Yarramundi Bridge |
+| Northern Training Area | `SFC - A060` | Intersection of North-South powerlines & Bells Line of Road<br>North along power lines to the R470 boundary<br>East along the R470 boundary to the Hawkesbury River<br>South tot Kurmond Road<br>West along Kurmond Road to Kurmond<br>Via Bells Line of Road to the intersection of the power lines |
+| Southern Training Area | `SFC - A040` | Richmond Train Station<br>West to the water tank<br>Straight line to the R470 boundary<br>Along the R470 boundary to the Northern Road<br>Along Northern Road to the intersection of Richmond/Blacktown Road<br>Richmond Road to George & Macquarie Street to the railway overpass |
 
 !!! tip
-    Military SID charts are contained in the [RAAF TERMA](https://ais-af.airforce.gov.au/){target=new} document.
+    Diagrams of the training areas are available in the [Richmond FIHA AD2](https://ais-af.airforce.gov.au/){target=new} document.
+
+### Start Approval
+A start approval is required whenever parachute drops are conducted onto the Richmond Drop Zone. Additionally, ‘propellers/engines stopped’ reports are required. ATC shall notify these requirements by ATIS broadcast.
+
+### Inital and Pitch
+The standard inital points are 5nm downwind of the active runway, dead side, left pitch/circuit.
 
 ## VFR Procedures
 VFR aircraft transiting to/from YSRI should do so at `A015`.
@@ -63,36 +74,6 @@ Details of the lane are available in the `YSRI ERSA FAC` and on the Sydney VTC.
 !!! note
     Delays may be required during times of peak traffic into/out of YSRI.
 
-### Training Areas
-There are three training areas located within R470, used for both civil and military operations.
-
-!!! warning "Important"
-    Operations above `A015` may require an airspace release from **SY TCU**. Due to published departure procedures from YSSY, levels above `A040` may not be available.
-
-| Name | Vertical Limits | Lateral Boundary |
-| ---- | --------------- | --- |
-| Londonderry Training Area | `SFC - A015` | Yarramundi Bridge<br>East to Springwood Road<br>Bonner Road to intersection of Vincent Road<br>West along Vincent Road to the intersection of the Nepean River<br>North via the eastern bank of the Nepean River to Yarramundi Bridge |
-| Northern Training Area | `SFC - A060` | Intersection of North-South powerlines & Bells Line of Road<br>North along power lines to the R470 boundary<br>East along the R470 boundary to the Hawkesbury River<br>South tot Kurmond Road<br>West along Kurmond Road to Kurmond<br>Via Bells Line of Road to the intersection of the power lines |
-| Southern Training Area | `SFC - A040` | Richmond Train Station<br>West to the water tank<br>Straight line to the R470 boundary<br>Along the R470 boundary to the Northern Road<br>Along Northern Road to the intersection of Richmond/Blacktown Road<br>Richmond Road to George & Macquarie Street to the railway overpass |
-
-!!! tip
-    Diagrams of the training areas are available in the [Richmond FIHA AD2](https://ais-af.airforce.gov.au/){target=new} document.
-
-### Start Approval
-A start approval is required whenever parachute drops are conducted onto the Richmond Drop Zone. Additionally, ‘propellers/engines stopped’ reports are required. ATC shall notify these requirements by ATIS broadcast.
-
-### Inital and Pitch
-The standard inital points are 5nm downwind of the active runway, dead side, left pitch/circuit.
-
-## VFR Operations
-All VFR aircraft outbound and inbound, or transiting the field maintain `A015`.  
-Aircraft transiting the RIC CTR track via the northbound or southbound VFR route.  
-Aircraft transiting northbound contact RI ADC at NPBR for clearance.  
-Aircraft transiting southbound contact RI ADC at KRMD for clearance.  
-
-!!! tip
-    You can find details of the transit route (including reporting points and altitudes) in the [ERSA FAC YSRI and VTC](https://www.airservicesaustralia.com/aip/aip.asp){target=new}.
-
 ## Runway Moddes
 ### Circuit Operations
 YSRI circuit area is defined as within 6nm of the YSRI ARP. An aircraft operating in the circuit will be issued a clearance to the operate within the circuit area not above `A015`.
@@ -103,8 +84,12 @@ YSRI circuit area is defined as within 6nm of the YSRI ARP. An aircraft operatin
 | 10     | Left  |
 | 28     | Left |
 
+
 ## SID Selection
-Aircraft planned via **ANKUB**, **KADOM** or **MUDGI** may be assigned the SID that terminates at the appropriate waypoint. Aircraft who are not planned via these points, or who are negative RNAV, may be assigned a visual departure.
+Military aircraft planned via **ANKUB**, **KADOM** or **MUDGI** may be assigned the SID that terminates at the appropriate waypoint. Aircraft who are not planned via these points, or who are negative RNAV, may be assigned a visual departure.
+
+!!! tip
+    Military SID charts are contained in the [RAAF TERMA](https://ais-af.airforce.gov.au/){target=new} document.
 
 ## Coordination
 ### SY TCU
