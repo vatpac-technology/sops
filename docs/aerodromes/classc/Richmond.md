@@ -59,7 +59,6 @@ A lane of entry is available in the western portion of the RIC CTR, allowing air
     **FWC**: "Richmond Tower, FWC, Cessna 172, 4nm south of NPBR, `A015`, received Bravo, for the lane of entry, request clearance"  
     **RI ADC**: "FWC, squawk 0366, remain outside controlled airspace"  
     **FWC**: "Squawk 0366, remain outside controlled airspace, FWC"  
-
     **RI ADC**: "FWC, identified, cleared to track via the lane northbound, maintain `A015`"  
     **FWC**: "Cleared to track via the lane northbound, maintain `A015`, FWC"  
 
