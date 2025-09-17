@@ -20,10 +20,8 @@ CFS ADC is responsible for the Class D airspace in the CFS CTR `SFC` to `A045`.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
-## Surveillance
-Surveillance coverage can be expected to be not available below `A028` in the CFS CTR. Although CFS ADC is **not permitted** to use surveillance for separation, ARL(MNN) or INL may assist by establishing surveillance separation standards via coordination
-
-## Local Lateral Separation Points
+## Separation
+### Local Lateral Separation Points
 Due to the convergence of inbound/outbound air routes approaching CFS, the [geographic feature separation standard](../../separation-standards/visual.md#geographic-features) may be useful to efficiently process opposite direction aircraft from the north or south.
 
 The **coastline** is a good reference for this standard. Due to high terrain close to the coast, it is recommended that the offshore aircraft be positioned at least 1nm from the geographical feature (the coast), allowing the aircraft over land to maintain adequate separation with terrain.
@@ -40,6 +38,9 @@ The **coastline** is a good reference for this standard. Due to high terrain clo
 
     *Once both aircraft have passed and/or another separation standard is available (e.g. vertical separation), the geographic feature standard can be relaxed.*  
     **CFS ADC:** "RXA6418, cancel the offshore requirement, track for downwind runway 21, cleared visual approach"
+
+## Surveillance
+Surveillance coverage can be expected to be not available below `A028` in the CFS CTR. Although CFS ADC is **not permitted** to use surveillance for separation, ARL(MNN) or INL may assist by establishing surveillance separation standards via coordination
 
 ## Coordination
 ### Departures
