@@ -13,21 +13,16 @@
 | **Scherger ATIS**    |   | **134.800**         | **YBSG_ATIS**       |
 
 ## Airspace
-SG ADC owns the Class C airspace within the SG CTR from `SFC` to `A015`.
+SG ADC owns the Class C airspace within the SG CTR from `SFC` to `A015` with a 5nm radius around YBSG.
 
-## Circuit Direction
-| Runway | Direction |
-| ------ | ----------|
-| 30     | Right  |
-| 12     | Left |
-
-## Weipa (YBWP)
+## Local Procedures
+### Weipa (YBWP)
 SG ADC is responsible for clearances into and out of Weipa (YBWP), which sits inside the Scherger Class C control zone when active.
 
 !!! note
     While SG ADC is responsible for the airspace from `SFC` to `A015` above YBWP, they have **no jurisdiction** over the runways, taxiways, or apron areas on the aerodrome itself.
 
-### Departures
+#### Departures
 Outbound aircraft will report when taxiing for departure to **SG ADC**. ADC shall issue the aircraft with a squawk code and a traffic statement regarding any aircraft operating on, or shortly to land at, the aerodrome.
 
 !!! note
@@ -65,10 +60,17 @@ Where a delay is required, withhold departure instructions until a suitable sepa
     **QLK479D:** "QLK479D"
 
 
-### Arrivals
+#### Arrivals
 Inbound aircraft will be given an airways clearance by SG TCU and transferred to ADC. If SG TCU is offline, aircraft entering the Scherger CTR directly from Class G will contact SG ADC for clearance. Aircraft should be instructed to join a leg of the circuit and cleared for a visual approach (traffic permitting).  In IMC, IFR aircraft will fly one of Weipa's instrument approaches.
 
 As a landing clearance is not given, aircraft should instead be informed of any traffic operating on the aerodrome and instructed to report clear of the runway.
+
+## Runway Modes
+### Circuit Direction
+| Runway | Direction |
+| ------ | ----------|
+| 30     | Right  |
+| 12     | Left |
 
 ## Coordination
 ### SG TCU
