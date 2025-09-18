@@ -54,9 +54,9 @@ The circuit direction is not specified in the airways clearance, but with a take
 Military jet training circuits are conducted at `A035`, unless otherwise requested by the pilot. ADC shall notify the TCU of the beginning and end of the sortie.
 
 ## Helicopter Operations
-The Canberra CTR contains the Southcare Helicopter Base (YXSB) as well as two hospitals (Calvary Hospital and Canberra Hospital). Helicopters operating to and from these pads require a clearance from **CB ADC**.
+The Canberra CTR contains the Southcare Helicopter Base (YXSB), the Majura Training Area (YMJR) as well as the helipad at Canberra Hospital (YXCB). Helicopters operating to and from these pads require a clearance from **CB ADC**.
 
-#### Departing Aircraft
+### Departing Aircraft
 Helicopters departing the pads require an airways clearance to do so, either taking the form of a clearance to transit the zone to the Class G airspace adjacent to the CTR (if the pilot has no intention to enter CTA) or as a normal airways clearance for a departure into the surrounding CTA. Ensure that no conflict exists with arriving or departing traffic and consider delegating separation responsibility to the VFR aircraft if required. It may also be required to coordination with the TMA controller to ensure no additional conflict exists in their sector.
 
 Departing aircraft should **not** be issued a takeoff clearance (as the helipads are outside the manoeuvring area). Instead, instruct aircraft to 'report airborne'.
@@ -78,7 +78,7 @@ Departing aircraft should **not** be issued a takeoff clearance (as the helipads
     *Remember to pass traffic information to both aircraft.*  
     **CB ADC**: "JST619, traffic is a helicopter becoming airborne from Canberra Hospital, approximately 5nm southwest of the field, maintaining own separation with you, runway 35, cleared to land"  
 
-#### Arriving Aircraft
+### Arriving Aircraft
 Helicopters arriving to the pads will generally be coordinated by the TMA controller and should be cleared via a visual approach (when available) and instructed to report on the ground. Do **not** issue a landing clearance to these aircraft (as the helipads are outside the manoeuvring area). It may be necessary to instruct these helicopters to track via amended visual points or sight and pass other aircraft.
 
 !!! phraseology
@@ -89,11 +89,27 @@ Helicopters arriving to the pads will generally be coordinated by the TMA contro
     **RSCU203**: "Maintain own separation, cleared visual approach, RSCU203"  
 
     *Remember to pass traffic information to both aircraft.*  
-    **CB ADC**: "QFA714, traffic is a helicopter 1nm south of the field tracking for Calvary Hospital, opposite direction to you and maintaining own separation, runway 17, cleared for takeoff"
+    **CB ADC**: "QFA714, traffic is a helicopter 1nm south of the field tracking for Canberra Hospital, opposite direction to you and maintaining own separation, runway 17, cleared for takeoff"
 
+## Runway Modes
+### Preferred Runway Modes
+Winds must always be considered for runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
+
+| Priority - Mode | Arrivals | Departures |
+| ----------------| -------- | ---------- |
+| 1 - 3530A35D | 35 & 30 | 35 |
+| 2 - 1712A17D | 17 & 12 | 17 |
+| 3 - 17A35D (RRO) | 17 | 35 |
+| 4 - 35 Only | 35 | 35 |
+| 4 - 17 Only | 17 | 17 |
+| 5 - 30 Only | 30 | 30 |
+| 6 - 12 Only | 12 | 12 |
+
+!!! note
+    The RRO mode is most suitable for Noise Abatement. Since for the most part this a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity modes during busy times.
 
 ## SID Selection
-**Jet** Aircraft planned via **CULIN**, **TANTA**, **WG**, **HOWLY**, **NONUP** or **AVBEG** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
+**Jet** Aircraft planned via **CULIN**, **TANTA**, **WG VOR**, **HOWLY**, **NONUP** or **AVBEG** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
 **Non-Jet** Aircraft planned via **AKMIR** or **DUBUS** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
 
