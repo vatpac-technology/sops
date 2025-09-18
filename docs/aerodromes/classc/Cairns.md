@@ -27,7 +27,6 @@ CS ADC is responsible for the Class C airspace within the CS CTR `SFC` to `A010`
 ### Taxiway Restrictions
 Taxiways A2 and A between A2 and A3 are not available to aircraft above 7,000 kilograms. Taxiway A4 is not available to aircraft above 90,000 kilograms. Taxiway Y is not available to aircraft above 10,000 kilograms.
 
-
 ## Separation
 ### ADC Separation Responsibility
 When weather conditions are suitable, ADC shall visually separate aircraft operating in the circuit from aircraft on the extended runway centreline when within 5nm. ADC shall also separate aircraft operating on (or departing to join) the Western VFR Corridor while within the CTR. 
@@ -61,7 +60,7 @@ ADC must assess any potential conflicts with aircraft in the CTR and clear the i
 
 ## Local Procedures
 ### Western VFR Corridor
-The Western VFR Corridor conflicts with the extended centreline to the north of the aerodrome. Clearances for aircraft entering the CTR must use clear and unambiguous phraseology to eliminate any potential for confusion by the pilot.
+The Western VFR Corridor conflicts with the extended runway centreline to the north of the aerodrome. Clearances for aircraft entering the CTR must be clear and unambiguous to eliminate any potential for confusion by the pilot.
 
 !!! phraseology
     **NDR**: "Cairns Tower, NDR, EDT, A015, for the Western VFR Corridor, Request Clearance"  
@@ -123,7 +122,7 @@ Departing helicopters should be cleared direct to their nominated tracking point
     **CS ADC**: "VTB"  
 
 ## Runway Modes
-The preferred runway direction is Runway 15.
+The preferred runway direction is **Runway 15**.
 
 ### Circuit Direction
 The circuit height is `A010`. If an aircraft requires a higher circuit altitude, an airspace release must be requested from CS TCU.
