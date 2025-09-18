@@ -173,7 +173,7 @@ Helicopters intending to enter SY TCU CTA must be first coordinated with SY TCU.
 </figure>
 
 ## Standard Taxi Routes
-Standard taxi routes establish an implied set of taxi instructions which pilots are expected to comply with in the absence of other instructions.
+Standard taxi routes establish an implied set of taxi instructions which pilots are expected to comply with in the absence of other instructions. All runway crossings require an explicit crossing instruction.
 
 Controllers **do not** need to explicitely say each taxiway provided it is covered by a standard taxi route in the tables below.
 
