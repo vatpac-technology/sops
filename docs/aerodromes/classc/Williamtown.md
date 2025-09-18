@@ -47,7 +47,7 @@ Aircraft shall be assigned a SID based on their cleared gate, as per below:
 
 !!! phraseology
     WGTL21 plans to enter M550 via Gate 4 for Military Training.  
-    **WLM ADC**: "WGTL21, cleared to YWLM via Gate 4, flight planned route, runway 12, Classic 1 departure, climb via SID to F125, squawk 5001, departure frequency 133.3"  
+    **WLM ADC**: "WGTL21, cleared to M550 via Gate 4, runway 12, Classic 1 departure, climb via SID to F125, squawk 5001, departure frequency 133.3"  
 
 Aircraft on the **CLASSIC SID** must be instructed to make left or right turn with their takeoff clearance, as per the SID procedure. See [coordination](#departures) for coordination requirements with the TCU.
 
