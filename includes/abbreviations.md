@@ -339,9 +339,7 @@
 *[MARSA]: Military Authority Assumes Responsibility for Separation of Military Aircraft
 *[NOCOM]: Non-Continuous Communication
 *[AEWC]: Airborne Early Warning and Control
-
 *[SAWR]: Salt Ash Air Weapons Range
-
 *[ATZ]: Aerodrome Traffic Zone
 *[NEN]: Nerang
 *[STOT]: Stotts Island
@@ -357,6 +355,3 @@
 *[EPPG]: Epping
 *[ROK]: Rockbank
 *[FWO]: Freeway Overpass
-
-=======
-
