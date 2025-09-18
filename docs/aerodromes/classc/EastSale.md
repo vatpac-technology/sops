@@ -68,7 +68,14 @@ Lanes extend from `SFC` or the base of restricted airspace to `F160`. Aircraft d
 When RWY09/27 is being used for fixed-wing circuit training, it is preferred that helicopters utilise the threshold of runway 04 (runway 09/27 direction) for landing and take-off to increase segregation between final approach and upwind segments. When helicopters require use of TWY A (Pad Alpha) for circuit training, base turns should be sequenced to avoid conflict during the final approach segment.
 
 ## Runway Modes
-Single runway operations only.
+Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts). Only single runway operations are approved.
+
+| Mode | Arrivals  | Departures |
+| ----------------| --------- | ---------- |
+| 04 Only | 04 | 04 |
+| 09 Only | 09 | 09 |
+| 22 Only | 22 | 22 |
+| 24 Only | 24 | 24 |
 
 ### Circuit Procedures
 The East Sale Circuit Area (ESL CIRA) is active at all times when R360A is active.
