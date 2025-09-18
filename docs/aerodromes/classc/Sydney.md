@@ -206,12 +206,12 @@ Except when the traffic situation warrants, taxi clearances shall conform to the
 ### Domestic Aprons
 Additional standard taxi routes exist into and out of some domestic aprons.
 
-<figure markdown>
-![YSSY Apron Route](img/yssy_apron_routes.png){ width="500" }
-  <figcaption>Standard Apron Taxi Routes</figcaption>
-</figure>
-
 === "Arrivals"
+
+	<figure markdown>
+	![YSSY Apron Route](img/yssy_apron_routes_arrivals.png){ width="500" }
+	  <figcaption>Standard Apron Taxi Routes (Arrivals)</figcaption>
+	</figure>
 
     | Parking Position | Route |
     | --- | --- |
@@ -230,6 +230,11 @@ Additional standard taxi routes exist into and out of some domestic aprons.
         If an aircraft vacates runway 34L for bay 52 and is instructed to *'cross runway 25, taxi to the bay'*, they would be expected to taxi via **B**, **B4**, and **C2**.
     
 === "Departures"
+
+	<figure markdown>
+	![YSSY Apron Route](img/yssy_apron_routes_departures.png){ width="500" }
+	  <figcaption>Standard Apron Taxi Routes (Departures)</figcaption>
+	</figure>
 
     | Parking Position | Departure Runway | Route |
     | --- | --- | --- |
