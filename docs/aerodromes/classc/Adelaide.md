@@ -71,12 +71,15 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 
 | Priority - Mode | Arrivals  | Departures |
 | ----------------| --------- | ---------- |
-| 1 - 2312A23D    | 23 & 12       | 23        |
-| 2 - 0512A05D    | 05 & 12 | 05  |
-| 3 - 23 Only    | 23 | 23  |
-| 4 - 05 Only     | 05        | 05  |
-| 5 - 12 Only     | 12 | 12         |
-| 6 - 30 Only     | 30        | 30  |
+| 1 - 2312A23D    | 23 & 12 | 23 |
+| 2 - 0512A05D    | 05 & 12 | 05 |
+| 3 - 23 Only    | 23 | 23 |
+| 4 - 05 Only     | 05 | 05 |
+| 5 - 12 Only     | 12 | 12 |
+| 6 - 30 Only     | 30 | 30 |
+| *Curfew (RRO)   | 05 | 23 |
+
+*Permitted between the hours of 2300 and 0600 Local (1330-2030 UTC/1230-1930 UTC HDS). If the pilot does not want to participate in curfew mode operations, the controller must accommodate this request.
 
 ## SID Selection
 Jet Aircraft planned via **AVDEN**, **BENDO**, **GILES**, **AREPA**, **ORBUN**. or **UPROT**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
@@ -106,7 +109,11 @@ When **Runway 23** is in use for arrivals, the following table shall be followed
 \*This allows aircraft on the Victor STAR from the west to join a visual right base without the need to conduct an instrument approach, while keeping aircraft from the east clear of the higher terrain near the Adelaide Hills.
 
 ### Operational Info
-Between the hours of 1330-2030 UTC (1230-1930 UTC HDS), AD ADC may elect to simulate *Curfew operations*, ie: **Runway 05 for arrivals, Runway 23 for departures**. When this is in operation, the ATIS shall include `CURFEW IN OPERATION UNTIL (time) ZULU`.
+The Operational Information field should be updated based on the runway mode in use, as per the table below:
+
+| Runway Mode | OPR INFO Field |
+| ---------- | -------------- |
+| Curfew Mode | ACST: `CURFEW IN OPERATION UNTIL TIME 2030.` <br>ACDT: `CURFEW IN OPERATION UNTIL TIME 1930.` |
 
 ## Coordination
 ### Auto Release
