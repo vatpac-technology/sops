@@ -37,11 +37,13 @@ Arriving aircraft *should* hold short of any crossing taxiways upon exiting the 
 
 #### YMML
 In order to protect common Runway Exit Taxiways, Consider instructing aircraft taxiing:  
+
 - Northbound on Taxiway `V`, to Hold Short of Taxiways `F` and `E`  
 - Southbound on Taxiway `V`, to Hold Short of Taxiways `G` and `J`
 
 #### YSSY
 In order to protect common Runway Exit Taxiways, Consider instructing aircraft taxiing:  
+
 - Northbound on Taxiway `B`, to Hold Short of Taxiway `B8`  
 - Southbound on Taxiway `A`, to Hold Short of `Runway 25` *(34 in use)*, or avoid Taxiway `A` if an aircraft is landing on Runway 16R and will be vacating to the right *(16 in use)*
 
@@ -61,13 +63,15 @@ Careful selection of the duty runway at an aerodrome is important to ensure safe
 </ol>
 
 Runway Modes should be selected for maximum aircraft movements, if the winds permit. That is:  
+
 - at YSSY:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- **16 PROPS**; or  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- **34 PROPS**  
+    - **16 PROPS**; or  
+    - **34 PROPS**  
 - at YMML:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- **27AD34D**; or  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- **16A27D**; or  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- **09A16D**
+    - **LAHSO** (with the proper approvals); or
+    - **09A16D**; or
+    - **27AD34D**; or  
+    - **16A27D**
 
 !!! info "Reminder"
     For dry runways, the crosswind limitation is 20kt, and the tailwind limitation is 5kt. For wet runways, no tailwind component is permitted. Remember these limitations in selecting the runway mode which is best optimised and works within these limitations
