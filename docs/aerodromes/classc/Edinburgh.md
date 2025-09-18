@@ -31,8 +31,6 @@ The HLS is located on TWY D immediately east of OLA 11. There are no SIDs associ
 </figure>
 
 ## Runway Modes
-Single runway operations only.
-
 ### Circuit Procedures
 The Edinburgh Circuit Area (ED CIRA) is active at all times when the Edinburgh CTR is active.
 

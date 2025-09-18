@@ -53,6 +53,7 @@ VFR aircraft are required to track via one of the published VFR Routes (as shown
 
 
 ## Runway Modes
+### Runway Selection
 If winds are too great, single runway operations may be necessary (eg, Runway 11 for Arrivals and Departures). However, pending wind limitations (Crosswind <20kts, Tailwind <5kts), the following runway modes are to be used:
 
 | Mode | Arrivals | Departures |
@@ -62,7 +63,8 @@ If winds are too great, single runway operations may be necessary (eg, Runway 11
 | 11AD36A | 11 & 36 | 11 |
 | 11AD18A | 11 & 18 | 11 |
 
-### LAHSO
+### Special Runway operations
+#### LAHSO
 !!! warning "Important"
     Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
 

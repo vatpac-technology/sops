@@ -49,7 +49,6 @@ The 16 individual training areas within the ESL military airspace are separated 
 Lanes are defined by GNSS waypoints situated at 12, 35, and 50 NM from YMES AD.
 
 ### Outbound Lanes
-
 | Lane Direction | 12NM GNSS Waypoint | 35NM GNSS Waypoint | 50NM GNSS Waypoint | Bearing |
 | -------------- | ------------------ | ------------------ | ------------------ | ------- |
 | Northern       | LEKEM              | GONEB              | LANOS              | 359     |
@@ -68,6 +67,7 @@ Lanes extend from `SFC` or the base of restricted airspace to `F160`. Aircraft d
 When RWY09/27 is being used for fixed-wing circuit training, it is preferred that helicopters utilise the threshold of runway 04 (runway 09/27 direction) for landing and take-off to increase segregation between final approach and upwind segments. When helicopters require use of TWY A (Pad Alpha) for circuit training, base turns should be sequenced to avoid conflict during the final approach segment.
 
 ## Runway Modes
+### Runway Selection
 Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts). Only single runway operations are approved.
 
 | Mode | Arrivals  | Departures |
