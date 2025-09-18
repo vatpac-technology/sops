@@ -33,7 +33,7 @@ Aircraft who are not planned via those points may be assigned the **WLM (RADAR) 
 The [TERMA](https://ais-af.airforce.gov.au/australian-aip) contains two SIDs for use by fast-jet aircraft, allowing them to depart via any of the nominated [SUA gates](#sua-gates).
 
 !!! note
-    These SIDs are not present in vatSys, so WLM ACD must write the name of the SID in the Global Ops Field of the FDR and amend the flight plan route to include the relevant gate, as well as any RNAV tracking points on the procedure.
+    These SIDs are not present in vatSys, so WLM ACD must write the name of the SID in the Global Ops Field of the FDR and amend the aircraft's route to include the relevant gate, as well as any RNAV tracking points on the procedure.
 
 Aircraft shall be assigned a SID based on their cleared gate, as per below:
 
