@@ -106,7 +106,7 @@ Winds must always be considered for runway modes (Crosswind <20kts, Tailwind <5k
 | 6 - 12 Only | 12 | 12 |
 
 !!! note
-    The RRO mode is most suitable for Noise Abatement. Since for the most part this a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity modes during busy times.
+    The RRO mode is most suitable for Noise Abatement. Since for the most part this is not a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity modes during busy times.
 
 ## SID Selection
 **Jet** Aircraft planned via **CULIN**, **TANTA**, **WG VOR**, **HOWLY**, **NONUP** or **AVBEG** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
