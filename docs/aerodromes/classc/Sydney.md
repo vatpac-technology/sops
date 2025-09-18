@@ -204,7 +204,7 @@ Except when the traffic situation warrants, taxi clearances shall conform to the
     For aircraft taxiing northbound on B, consider instructing them to hold short of taxiway B8 when 34L or 16R are in use for arrivals, in order to separate from aircraft using the B7 & B9 rapid exits.
 
 ### Domestic Aprons
-Additional standard taxi routes exist into and out of some domestic aprons.
+Additional standard taxi routes exist into and out of the domestic aprons.
 
 === "Arrivals"
 
