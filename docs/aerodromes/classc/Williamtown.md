@@ -24,7 +24,7 @@ WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be a
 ### SID Selection
 Aircraft planned via **KEXAR**, **LIMLO**, **MONDO**, **UBSON**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.  
 
-Aircraft who are not planned via those points may be assigned the **WLM (RADAR) SID** or a visual departure. 
+Aircraft that are not planned via those points may be assigned the **WLM (RADAR) SID** or a visual departure. 
 
 #### Fast-Jet SIDs
 !!! important
