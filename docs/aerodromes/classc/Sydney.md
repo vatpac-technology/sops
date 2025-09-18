@@ -168,7 +168,7 @@ Helicopters intending to enter SY TCU CTA must be first coordinated with SY TCU.
 
 ## Maneuvering Area Responsibility
 <figure markdown>
-![YSSY Maneuvering Area](img/yssymaown.png){ width="500" }
+![YSSY Maneuvering Area](img/yssymaown.png){ width="350" }
   <figcaption>Maneuvering Area</figcaption>
 </figure>
 
