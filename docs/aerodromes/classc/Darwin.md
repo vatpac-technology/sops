@@ -36,7 +36,6 @@ Traffic permitting, aircraft above 136,000kg MTOW shall be entered/exited for RW
 
 Taxiway V has a passing bay, located adjacent to the ARFF section. The passing bay is the preferred location for engine run-ups, no longer than 3 minutes  
 
-
 ## VFR Operations
 VFR aircraft are required to track via one of the published VFR Routes (as shown on the Darwin VTC). VFR routes shall be assigned based on the destination radial from Darwin, as per below:  
 
@@ -54,18 +53,16 @@ VFR aircraft are required to track via one of the published VFR Routes (as shown
 
 
 ## Runway Modes
-Runway selection shall be coordinated by DN ADC. In any case, a change of runway mode shall not be broadcast on the ATIS until DAW accepts the change.  
+If winds are too great, single runway operations may be necessary (eg, Runway 11 for Arrivals and Departures). However, pending wind limitations (Crosswind <20kts, Tailwind <5kts), the following runway modes are to be used:
 
-The Runway Mode options available are:
+| Mode | Arrivals | Departures |
+| ---- | -------- | ---------- |
+| 29AD36A | 29 & 36 | 29 |
+| 29AD18A | 29 & 18 | 29 |
+| 11AD36A | 11 & 36 | 11 |
+| 11AD18A | 11 & 18 | 11 |
 
-a) Runway 29 and Runway 36;  
-b) Runway 29 and Runway 18;  
-c) Runway 29 only;  
-d) Runway 11 and Runway 36;  
-e) Runway 11 and Runway 18;  
-f) Runway 11 only.  
-
-### LASHO
+### LAHSO
 !!! warning "Important"
     Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
 
@@ -86,11 +83,7 @@ LAHSO may only be used where the weather conditions meet the following minimum r
 Two simultaneous landings may be conducted by both day and night. A simultaneous takeoff and landing may only be conducted by day.
 
 #### Runway Mode
-The only approved LAHSO mode at YPDN is **36A/29AD**. Runway 36 is considered the active runway, while runway 29 is considered the passive runway.
-
-#### ATIS
-When LAHSO is in use, the ATIS OPR INFO shall include:  
-`LAND AND HOLD SHORT OPERATIONS IN PROGRESS`
+The only approved LAHSO mode at YPDN is **29AD36A**. Runway 36 is considered the active runway, while runway 29 is considered the passive runway.
 
 ### Circuit Operations
 VFR aircraft that will operate only in ADCs airspace shall be assigned SSR code 0100  
@@ -116,6 +109,12 @@ Shall be assigned the **Radar SID**.
 ### Non-RNAV Departures
 For non-RNAV approved IFR aircraft with a wake turbulence category of medium or greater, issue a Radar SID  
 For non-RNAV approved IFR aircraft with a wake turbulence category of light, issue a visual departure or Radar SID  
+
+## ATIS
+### Operational Info
+#### LAHSO
+When [LAHSO](#lahso) is in use, the ATIS OPR INFO shall include:  
+`LAND AND HOLD SHORT OPERATIONS IN PROGRESS`
 
 ## Coordination
 ### DN TCU
