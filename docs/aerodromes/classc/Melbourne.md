@@ -115,6 +115,7 @@ Particular attention should be paid to departures for runways 27 and 34. Taxiway
 </figure>
 
 ## Runway Modes
+###Preferred Runway Modes
 If winds are too great, single runway operations may be necessary (eg, Runway 16 for Arrivals and Departures). However, pending wind limitations (Crosswind <20kts, Tailwind <5kts), the following runway modes are to be used
 
 | Mode | Arrivals  | Departures |
@@ -166,11 +167,11 @@ Jet Aircraft planned via **MNG**, **NONIX**, **DOSEL**, **CORRS**, **KEPPA**, **
 For jet aircraft departing Runway 16 **Off Mode** via **MNG**, **NONIX**, **DOSEL**, **KEPPA**, **PEDNI**, or **ESDIG**, the **ISPEG SID** must be assigned. **Off Mode** departures to the south-east shall be assigned the relevant **Procedural SID**.
 <figure markdown>
 ![ISPEG1 SID](img/ISPEG1SID.png){ width="700" }
-  <figcaption>Runway 16 and 27 departure conflicts visualised with the ISPEG1 SID</figcaption>
+  <figcaption>Runway 16 and 27 departure conflicts visualised with the ISPEG SID</figcaption>
 </figure>
 
 !!! note
-    The ISPEG1 SID does not resolve all conflicts. Departures via SUNTI and CORRS need to be handled tactically by ML TCU.
+    The ISPEG SID does not resolve all conflicts. Departures via SUNTI and CORRS need to be handled tactically by ML TCU.
 
 #### RADAR SID
 a) Jet aircraft departing **Off Mode** that don't meet the above critera; or  
