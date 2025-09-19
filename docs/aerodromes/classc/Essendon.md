@@ -31,6 +31,7 @@ When the cloud base is below **A020**, or the Visibility is below **5000m**, all
 If ML ADC nominates a restriction, and EN ADC determines they **cannot** maintain visual or lateral separation with the YMML traffic, EN ADC must delay the aircraft in their airspace until the separation can be assured. 
 
 ## Local Procedures
+### SSR Assignment
 Traffic in EN ADC airspace shall squawk 0100 unless a discrete code is required.
 
 ### Sunbury Corridor
@@ -44,8 +45,9 @@ Boundary Coordination must be completed to ML TCU for clearances in this airspac
 
 ### Melbourne City Orbits
 EN ADC is responsible for facilitating aircraft requesting city orbits. They shall be conducted at an altitude of:  
-`A015` by day  
-`A022` by night
+
+- `A015` by day  
+- `A022` by night
 
 !!! phraseology
     **EOG**: "Essendon Tower, EOG, approaching WMS, A015, Requesting 1 left-hand city orbit, in receipt of L"  
@@ -65,7 +67,7 @@ Start clearance is required for:
     b) Flights to MB and AV planned above `A020` (i.e. via ML TCU Class C).  
 
 ### IFR Arrivals 
-ML TCU shall clear aircraft for approach via the appropriate arrival gate: 
+ML TCU shall clear aircraft for approach via the appropriate arrival gate:.
 
 | Runway | Arrival Gate |
 | ------ | ----------|
@@ -78,6 +80,7 @@ ML TCU shall clear aircraft for approach via the appropriate arrival gate:
     EN ADC must not permit aircraft to depart from the RWY 26 extended centreline until passed LUY and within the vertical limits of EN airspace.
 
 ## VFR Operations 
+### Departures
 VFR departures to Class G shall be cleared (at not above `A015`) via:
 
 | Direction | VFR Outbound Point |
@@ -93,6 +96,7 @@ VFR departures to Class G shall be cleared (at not above `A015`) via:
 !!! Note
     ^ Departures to the north and west are generally not available due to YMML traffic. Where YMML taffic permits, departures to these direction may be available [pending coordination](#smc-to-ml-tcu) with ML TCU.
 
+### Arrivals
 VFR arrivals from Class G shall be cleared (at not above `A015`) via:
 
 | Direction | VFR Approach Point | RWY 17, 26 | RWY 35 |
@@ -106,14 +110,19 @@ VFR arrivals from Class G shall be cleared (at not above `A015`) via:
 | North West | [Sunbury Corridor](#sunbury-corridor) | DCT | DCT |
 
 ## Runway Modes
-Consideration of the Melbourne duty runway(s) should be made when nominating runways. The effect of Melbourne traffic on a runway selection takes priority over compliance with DAP Noise Abatement Procedures.
+### Preferred Runway Modes
+Runway selection at Essendon requires consideration of winds, the runway mode in use at YMML, and local noise abatement procedures. 
 
-The 26A17D runway mode is most optimal for facilitating separation with YMML traffic.
+Melbourne has priority when determining duty runways, and Essendon runways are selected, pending wind limitations (Crosswind <20kts, Tailwind <5kts), to minimise potential conflicts.
 
-### Circuit Altitude
-Circuits are to be flown at `A015`
+!!! tip 
+    For example, when Runway 34 is in use for arrivals at Melbourne, aircraft departing Runway 26 at Essendon would almost immediately cause a breakdown in separation. 
 
-### Circuit Direction
+This often results in Essendon using runways with large crosswind components, as the more favourable headwind direction is "reserved" for Melbourne traffic. The 26A17D runway mode, which concentrates traffic on the side of Essendon *away* from Melbourne, is generally the best configuration for avoiding conflicts with Melbourne traffic.
+
+### Circuits
+Circuits are to be flown at `A015`.
+
 | Runway | Direction |
 | ------ | ----------|
 | 35     | Right  |
@@ -122,6 +131,7 @@ Circuits are to be flown at `A015`
 | 08     | Right |
 
 ## ATIS
+### ATIS Identifier
 YMEN ATIS identifiers only uses letters `A` through to `M`, due to nearby YMML using letters `N` through `Y` 
 
 ## Coordination
