@@ -30,7 +30,6 @@ PE ADC owns the airspace within the Pearce CIRA (**5nm** Radius of YPEA ARP, loc
 
 ## Runway Modes
 ### Circuits
-#### Circuit Operations 
 Aircraft can be instructed to extend outside of this airspace by ATC for traffic management, following coordination with the appropriate sectors.
 
 HAWKs have circuit altitude of `A016`, while both 2FTS and RSAF PC21s are assigned `A012`.
@@ -50,8 +49,9 @@ HAWKs have circuit altitude of `A016`, while both 2FTS and RSAF PC21s are assign
 | 36R    | Left  |
 
 ## SID Selection
-Aircraft planned via **WAMAL**, **GUNOK**, **ALKIMOS**, **MULLALOO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
-Aircraft who are not planned via those points or who are negative RNAV may be assigned a RADAR SID or a visual departure. 
+Aircraft planned via **GUNOK** shall be assigned the **GUNOK** SID. Aircraft planned via the **Wannamal Lane**, **Alkimos Lane**, or **Mullalloo Lane** shall be assigned relevant **Procedural SID**.
+
+Aircraft **not** meeting that criteria, and **non-RNAV** aircraft shall be assigned either the RADAR SID or a visual departure. 
 
 ## Coordination
 ### PE TCU

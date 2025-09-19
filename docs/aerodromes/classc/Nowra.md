@@ -51,6 +51,7 @@ The following pre-defined helicopter spots can be used for this purpose. These s
     **TAIP52**: "Spot 2, cleared to land, TAIP52"
 
 ## Runway Modes
+### Preferred Runway Modes
 Any combination of runway configurations are permitted, including single runway operations during strong wind conditions. The following list dictates common runway modes.
 
 - Runway 21 and Runway 08;  
@@ -58,8 +59,7 @@ Any combination of runway configurations are permitted, including single runway 
 - Runway 03 and Runway 08;  
 - Runway 03 and Runway 26;   
 
-### Circuit Procedures
-
+### Circuits
 Circuit operations occur within a `5NM` radius of NWA TACAN, at the following altitudes:
 
 - Fixed Wing: `A020`
@@ -75,8 +75,9 @@ Circuit operations occur within a `5NM` radius of NWA TACAN, at the following al
 | 26     | Left |
 
 ## SID Selection
-IFR aircraft planned via **AKMIR**, **TONTO**, **WOL**, **ABASS**, **GLB**, **CB**, **COM**, **URBOB** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
-Aircraft who are not planned via those points may be assigned the RADAR SID or a visual departure. 
+IFR aircraft planned via **AKMIR**, **TONTO**, **WOL**, **ABASS**, **GLB**, **CB VOR**, **COM**, **URBOB** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
+
+Aircraft who are not planned via those points, or that cannot accept a Procedural SID may be assigned the RADAR SID or a visual departure. 
 
 ## Coordination
 ### Auto Release
