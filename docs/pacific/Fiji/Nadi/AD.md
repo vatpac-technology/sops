@@ -152,7 +152,7 @@ There are also several privately managed helipads within the NFFN CTR, most nota
 These helipads are outside the controlled maneuvering area and do not receive explicit takeoff/landing clearance. Helicopters using these helipads be instructed to 'report on the ground'/'report when airbourne' in lieu of an explicit clearance.
 
 ## Runway Modes
-### Runway Selection
+### Preferred Runway Modes
 The preferred runway for arrivals is **Runway 02**. The preferred runway for departures is **Runway 20**. Reciprocal runway operations are **strongly** preferred at all times and should be used unless the tailwind (in either direction) exceeds **10 knots**.
 
 | Priority - Mode | Arrivals | Departures |

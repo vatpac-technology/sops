@@ -193,7 +193,7 @@ With **Runway 34** in use for arrivals and the cloud base above `A030` but below
 
 This permits controllers to assign aircraft either the Alpha or Victor STAR and process them for a GLS/RNP approach or a visual approach (depending on traffic flow and pilot preference).
 
-### Runway Mode formatting
+### Runway Mode Formatting
 | Mode | ATIS Runway information |
 | ----------------| --------- |
 | 27AD/34D   | `27 FOR ARR, RWY 34 FOR DEPS VIA MNG, NONIX AND DOSEL, RWY 27 FOR ALL OTHER DEPS` |

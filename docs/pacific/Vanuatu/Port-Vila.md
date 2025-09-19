@@ -70,7 +70,7 @@ Aircraft on the **VOR** approach to Runway 29 will penetrate the training area o
 There are no specific helicopter movement areas at Port Vila. Helicopters will use aircraft movement areas for all operations.
 
 ## Runway Modes
-### Circuit Direction
+### Circuits
 | Runway | Direction |
 | ------ | --------- |
 | 11 | Right |
