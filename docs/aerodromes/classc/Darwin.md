@@ -53,7 +53,7 @@ VFR aircraft are required to track via one of the published VFR Routes (as shown
 
 
 ## Runway Modes
-### Runway Selection
+### Preferred Runway Modes
 If winds are too great, single runway operations may be necessary (eg, Runway 11 for Arrivals and Departures). However, pending wind limitations (Crosswind <20kts, Tailwind <5kts), the following runway modes are to be used:
 
 | Mode | Arrivals | Departures |

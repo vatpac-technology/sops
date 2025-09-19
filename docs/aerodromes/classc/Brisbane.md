@@ -145,6 +145,7 @@ Both taxiway **H2** and **F4** are inside the maneuvering area and treated like 
     **X6G:** "Taxiway F4, cleared to land, X6G"
 
 ## Runway Modes
+### Preferred Runway Modes
 Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
 | Priority - Mode | Arrivals  | Departures |

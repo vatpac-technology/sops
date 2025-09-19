@@ -67,7 +67,7 @@ Lanes extend from `SFC` or the base of restricted airspace to `F160`. Aircraft d
 When RWY09/27 is being used for fixed-wing circuit training, it is preferred that helicopters utilise the threshold of runway 04 (runway 09/27 direction) for landing and take-off to increase segregation between final approach and upwind segments. When helicopters require use of TWY A (Pad Alpha) for circuit training, base turns should be sequenced to avoid conflict during the final approach segment.
 
 ## Runway Modes
-### Runway Selection
+### Preferred Runway Modes
 Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts). Only single runway operations are approved.
 
 | Mode | Arrivals  | Departures |
