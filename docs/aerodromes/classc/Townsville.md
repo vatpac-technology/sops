@@ -37,12 +37,17 @@ VFR aircraft conducting circuits inside TL ADCs airspace shall be at or below `A
 | 25     | Right |
 
 ## SID Selection
-Aircraft planned via **KVLAM**, **RURTO**, **IGBIK**, **ADNOD**, **CARMN**, **ANRUB**, **CATEY**, **JEMMA**, **WALTA** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
+Aircraft planned via **KVALM**, **PEWEE**, **AKROM**, **CARMN**, **ANRUB**, **CATEY**, **JEMMA**, and **WALTA** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID ending at these termini.
 
-Aircraft unable to accept a procedural SID, and **non-RNAV** aircraft shall be assigned either:
+Aircraft that are unable to accept a procedural SID terminating on their route shall be assigned the appropriate procedural or radar SID from the table below.
 
-- A visual departure, if a light wake turbulence category, else:
-- the RADAR SID. 
+| Runway | Westbound SID | Eastbound SID |
+| ------ | ------------- | ------------- |
+| 01 |  **TL NORTH** | **TL EAST** |
+| 19 | **IGBIK** | **RURTO** |
+| 07/25 | Visual | Visual |
+
+Light and **non-RNAV** aircraft shall be assigned a visual departure.
 
 ## Coordination
 ### Auto Release  
