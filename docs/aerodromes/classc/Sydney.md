@@ -168,12 +168,32 @@ Helicopters intending to enter SY TCU CTA must be first coordinated with SY TCU.
 
 ## Maneuvering Area Responsibility
 <figure markdown>
-![YSSY Maneuvering Area](img/yssymaown.png){ width="500" }
+![YSSY Maneuvering Area](img/yssymaown.png){ width="350" }
   <figcaption>Maneuvering Area</figcaption>
 </figure>
 
 ## Standard Taxi Routes
-Except when the traffic situation warrants, taxi clearances shall conform to the following diagram:
+Standard taxi routes establish an implied set of taxi instructions which pilots are expected to comply with in the absence of other instructions. All runway crossings require an explicit crossing instruction.
+
+Controllers **do not** need to explicitely say each taxiway provided it is covered by a standard taxi route in the tables below.
+
+!!! warning "Important"
+    Not all pilots are aware of the existence of standard taxi routes. When in doubt, provide full taxi instructions detailing the full desired route.
+
+Standard taxi routes are published in [Pilot Procedures](https://pilots.vatpac.org){target=new} and on the `STANDARD DOMESTIC TAXI ROUTES` charts.
+
+!!! note
+    Controllers may choose to provide instructions which contradict a published standard taxi route to expedite traffic flow.
+
+### General Flow
+Except when the traffic situation warrants, taxi clearances shall conform to the following:
+
+| Taxiway | Direction of Travel |
+| ------- | ------------------- |
+| **B** | Northbound |
+| **C** | Southbound |
+| **B10** | Eastbound (except holding point for 34L) |
+| **L** | Westbound |
 
 <figure markdown>
 ![YSSY Taxi Route](img/yssy_taxi_routes.png){ width="500" }
@@ -182,6 +202,51 @@ Except when the traffic situation warrants, taxi clearances shall conform to the
 
 !!! tip
     For aircraft taxiing northbound on B, consider instructing them to hold short of taxiway B8 when 34L or 16R are in use for arrivals, in order to separate from aircraft using the B7 & B9 rapid exits.
+
+### Domestic Aprons
+Additional standard taxi routes exist into and out of the domestic aprons.
+
+=== "Arrivals"
+
+	<figure markdown>
+	![YSSY Apron Route](img/yssy_apron_routes_arrivals.png){ width="500" }
+	  <figcaption>Standard Apron Taxi Routes (Arrivals)</figcaption>
+	</figure>
+
+    | Parking Position | Route |
+    | --- | --- |
+    | **B1 Apron** | B |
+    | **DOM1 & DOM1A** | B, B2 |
+    | **Taxiway C (Bays 11-14)** | B, C1 |
+    | **Taxiway C (Bays 16-19)** | B, F |
+    | **Taxiway C (Bays 49, 53, 55)** | B, B3 |
+    | **Taxiway C (Bays 57, 59)** | B, B4 |
+    | **DOM2 (All bays except below)** | B, B4, C2 |
+    | **DOM2 (Bays 43, 45A)** | B, B4 |
+    | **DOM2 - A330 aircraft (Bays 39, 45) *not pictured*** | B, G, DOM2 |
+    | **DOM3, DOM3A, DOM3B, DOM4, DOM5 & DOM6** | B, G |
+
+    !!! example
+        If an aircraft vacates runway 34L for bay 52 and is instructed to *'cross runway 25, taxi to the bay'*, they would be expected to taxi via **B**, **B4**, and **C2**.
+    
+=== "Departures"
+
+	<figure markdown>
+	![YSSY Apron Route](img/yssy_apron_routes_departures.png){ width="500" }
+	  <figcaption>Standard Apron Taxi Routes (Departures)</figcaption>
+	</figure>
+
+    | Parking Position | Departure Runway | Route |
+    | --- | --- | --- |
+    | **B1 Apron** | 16R<br>16L<br>34L - Prop<br>34L - Jet<br>34R | B1<br>B1, C, B10<br>B1, C, B10<br>B1, C, L, A, A6<br>B1, C, B10, S, T, T6 |
+    | **DOM1, DOM1A & Taxiway C Bays** | 16R<br>16L<br>34L - Prop<br>34L - Jet<br>34R | As Directed by ATC<br>C, B10<br>C, B10<br>C, L, A, A6<br>C, B10, S, T, T6 |
+    | **DOM2 (All bays except below)** | 16R<br>16L<br>34L - Prop<br>34L - Jet<br>34R | C2, B4<br>DOM2, C, B10<br>DOM2, C, B10<br>DOM2, C, L, A, A6<br>DOM2, C, B10, S, T, T6 |
+    | **DOM2 (Bays 43, 45A)** | 16R<br>16L<br>34L - Prop<br>34L - Jet<br>34R | B4<br>DOM2, C, B10<br>DOM2, C, B10<br>DOM2, C, L, A, A6<br>DOM2, C, B10, S, T, T6 |
+    | **DOM2 - A330 aircraft (Bays 39, 45)** | 16R<br>16L<br>34L<br>34R | DOM2, G, B<br>DOM2, C, B10<br>DOM2, C, L, A, A6<br>DOM2, C, B10, S, T, T6 |
+    | **DOM3, DOM3A, DOM3B, DOM4, DOM5 & DOM6** | 16R<br>16L<br>34L - Prop<br>34L - Jet<br>34R | G<br>G, C, B10<br>G, C, B10<br>G, C, L, A, A6<br>G, C, B10, S, T, T6 |
+
+    !!! example
+        If a jet aircraft from bay 6 for departure from runway 34L is instructed to *'cross runway 25, hold short runway 34L'*, they would be expected to taxi via **C** and **L**.
 
 `ERSA FAC YSSY` noise abatement procedures require jet aircraft to depart runway 34L from full length only. This should be simulated where practical but intersection departures should be offered to jet aircraft on request where available.
 
@@ -204,6 +269,13 @@ Aircraft landing on runway 16L/34R are expected to vacate the runway and taxi vi
 
 !!! phraseology
     **SY ADC**: "JAL52, taxi via Tango, Lima, on Lima contact Ground 121.7"
+
+The standard arrival taxi routes are:
+
+| Landing Runway | Route |
+| --- | --- |
+| RWY 16L | T, L |
+| RWY 34R | T2, U, U1, L, or<br>U1, L |
 
 ### Transferring Between SMCs
 When both SMC positions are online and an aircraft is to be passed from one to the other (e.g. an aircraft taxis from the domestic terminal for runway 34L), they should be instructed to hold short of runway 16R/34L and to contact the next SMC frequency.
