@@ -77,7 +77,7 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 | 22 Only | 22 | 22 |
 | 24 Only | 24 | 24 |
 
-### Circuit Procedures
+### Circuits
 The East Sale Circuit Area (ESL CIRA) is active at all times when R360A is active.
 
 Circuit operations occur within a `5NM` radius of ESL ARP, at the following altitudes:

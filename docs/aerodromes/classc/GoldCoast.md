@@ -169,9 +169,10 @@ The preferred runway is **Runway 14**.
 
 Runway 17/35 may be used at the same time as Runway 14/32, weather and traffic permitting.
 
-### Circuit Direction
+### Circuits
 Circuits are to be conducted at `A010`.  
 
+#### Circuit Direction
 | Runway               | Direction       |
 | ------------------ | -------------- |
 | 14 | Left  |

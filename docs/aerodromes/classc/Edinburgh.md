@@ -31,20 +31,20 @@ The HLS is located on TWY D immediately east of OLA 11. There are no SIDs associ
 </figure>
 
 ## Runway Modes
-### Circuit Procedures
+### Circuits
 The Edinburgh Circuit Area (ED CIRA) is active at all times when the Edinburgh CTR is active.
 
 Circuit operations occur within the CTR bounded by the Gawler River to the north and the powerline running from the Gawler River (1.5NM south of the Gawler Township) to the south eastern boundary of the ED CTR. Vertical Limits `SFC` to `A020`
 
 Aircraft can be instructed to extend outside of this airspace by ATC for traffic management.
 
-### Circuit Heights
+#### Circuit Heights
 | Type    | Normal Altitude |
 | ------- | --------------- |
 | Non Jet | A015            |
 | Jet     | A020            |
 
-### Circuit Direction
+#### Circuit Direction
 
 | Runway | Direction |
 | ------ | --------- |

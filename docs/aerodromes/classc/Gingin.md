@@ -23,12 +23,12 @@ Refer to the [YPEA FIHA AD2 Supp](https://ais-af.airforce.gov.au/australian-aip)
 The initial points for Gingin are RWY 08 is the corner of the pine plantation and RWY 26 is the paddock divided by the creek. The initial altitude is `A015`.
 
 ## Runway Modes
-### Circuit Operations 
+### Circuits 
 The CIRA airspace is allocated to be within 5nm of the YGIG ARP from `SFC` to `A035` exculding the area within 12TAC Pearce. Aircraft can be instructed to extend outside of this airspace by ATC for traffic management.
 
 The Circuit altitude is `A016` for Jets, and `A012` for Non-Jets.
 
-### Circuit Direction
+#### Circuit Direction
 The Ciruits are preferred to be to the south of the field.
 
 ## Coordination
