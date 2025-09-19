@@ -21,14 +21,14 @@ Procedures relating to Helicopters can be found in the Airforce AIP AD2 SUPPS Se
 [YBTL AD2 SUPPS Page](https://ais-af.airforce.gov.au/sites/default/files/current-ad2/2309%20Townsville%20FIHA%20AD2%20SUPP.pdf){target=new}
 
 ## Runway Modes
-### Runway Selections
+### Preferred Runway Modes
 Runway 01/19 are the primary runways at Townsville. 
 Runway 07/25 may be used in conjunction with 01/19 for VFR arrivals and Helicopter Traffic. 
 
-### Circuit Operations
+### Circuits
 VFR aircraft conducting circuits inside TL ADCs airspace shall be at or below `A015`. Higher circuit altitude may be given if voice coordinated with TL TCU.
 
-### Circuit Direction
+#### Circuit Direction
 | Runway | Direction |
 | ------ | ----------|
 | 01     | Left  |
@@ -37,12 +37,12 @@ VFR aircraft conducting circuits inside TL ADCs airspace shall be at or below `A
 | 25     | Right |
 
 ## SID Selection
-Aircraft planned via **KVLAM**, **RURTO**, **IGBIK**, **ADNOD**, **CARMN**, **ANRUB**, **CATEY**, **JEMMA**, **WALTA** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
-Aircraft who are not planned via those points or who are negative RNAV may be assigned a RADAR SID or a visual departure.
+Aircraft planned via **KVLAM**, **RURTO**, **IGBIK**, **ADNOD**, **CARMN**, **ANRUB**, **CATEY**, **JEMMA**, **WALTA** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
-### NON-RNAV Departures
-For non-RNAV approved IFR aircaft with a wake turbulence category of medium or greater, issue a RADAR SID.
-For non-RNAV approved IFR aircraft with a wake turbulence category of light, issue a visual departure or RADAR SID
+Aircraft unable to accept a procedural SID, and **non-RNAV** aircraft shall be assigned either:
+
+- A visual departure, if a light wake turbulence category, else:
+- the RADAR SID. 
 
 ## Coordination
 ### Auto Release  

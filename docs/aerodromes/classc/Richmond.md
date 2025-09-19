@@ -84,7 +84,7 @@ YSRI circuit area is defined as within 6nm of the YSRI ARP. An aircraft operatin
 | 28     | Left |
 
 ## SID Selection
-Military aircraft planned via **ANKUB**, **KADOM** or **MUDGI** may be assigned the SID that terminates at the appropriate waypoint. 
+Military aircraft planned via **ANKUB**, **KADOM** or **MUDGI** may be assigned the SID that terminates at the appropriate SID terminus. 
 
 Civil aircraft, military aircraft **not** planned via any of these waypoints, and **non-RNAV** aircraft shall be assigned either the RADAR SID or a visual departure. 
 
