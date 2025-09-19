@@ -275,6 +275,7 @@
 *[WMS]: Williamstown
 *[NPBR]: Nepean Bridge
 *[KRMD]: Kurmond
+*[WSFR]: Wisemans Ferry
 *[YBBB]: Brisbane FIR
 *[YMMM]: Melbourne FIR
 *[NFFF]: Nadi FIR

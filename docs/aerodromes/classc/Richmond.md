@@ -74,7 +74,7 @@ Details of the lane are available in the `YSRI ERSA FAC` and on the Sydney VTC.
     Delays may be required during times of peak traffic into/out of YSRI.
 
 ## Runway Modes
-### Circuit Operations
+### Circuits
 YSRI circuit area is defined as within 6nm of the YSRI ARP. An aircraft operating in the circuit will be issued a clearance to the operate within the circuit area not above `A015`.
 
 #### Circuit Direction
@@ -84,7 +84,9 @@ YSRI circuit area is defined as within 6nm of the YSRI ARP. An aircraft operatin
 | 28     | Left |
 
 ## SID Selection
-Military aircraft planned via **ANKUB**, **KADOM** or **MUDGI** may be assigned the SID that terminates at the appropriate waypoint. Aircraft who are not planned via these points, or who are negative RNAV, may be assigned a visual departure.
+Military aircraft planned via **ANKUB**, **KADOM** or **MUDGI** may be assigned the SID that terminates at the appropriate waypoint. 
+
+Civil aircraft, military aircraft **not** planned via any of these waypoints, and **non-RNAV** aircraft shall be assigned either the RADAR SID or a visual departure. 
 
 !!! tip
     Military SID charts are contained in the [RAAF TERMA](https://ais-af.airforce.gov.au/){target=new} document.
