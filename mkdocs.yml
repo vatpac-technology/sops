@@ -59,7 +59,7 @@ plugins:
         'aerodromes/Edinburgh.md': 'aerodromes/classc/Edinburgh.md'
         'aerodromes/Essendon.md': 'aerodromes/classc/Essendon.md'
         'aerodromes/Gingin.md': 'aerodromes/classc/Gingin.md'
-        'aerodromes/Goldy.md': 'aerodromes/classc/Goldy.md'
+        'aerodromes/Goldy.md': 'aerodromes/classc/GoldCoast.md'
         'aerodromes/Learmonth.md': 'aerodromes/classc/Learmonth.md'
         'aerodromes/Melbourne.md': 'aerodromes/classc/Melbourne.md'
         'aerodromes/Nowra.md': 'aerodromes/classc/Nowra.md'
