@@ -10,7 +10,7 @@
 | **Gold Coast ADC** | **Gold Coast Tower**   | **118.700**       | **CG_TWR**                       |
 | **Gold Coast SMC** | **Gold Coast Ground**  | **121.800**       | **CG_GND**                       |
 | **Gold Coast ACD** | **Gold Coast Delivery** | **128.750**       | **CG_DEL**                       |
-| **Gold Coast ATIS**    |                        | **134.500**          | **YBCG_ATIS**                        |
+| **Gold Coast ATIS** |                        | **134.500**          | **YBCG_ATIS**                        |
 
 ## Airspace
 CG ADC is responsible for the Class C Airspace within the CG CTR `SFC` to `A015`.
@@ -19,7 +19,6 @@ CG ADC is responsible for the Class C Airspace within the CG CTR `SFC` to `A015`
 ![CG ADC Airspace](img/CGTWR.png){ width="700" }
   <figcaption>CG ADC Airspace</figcaption>
 </figure>
-
 
 ## Local Procedures
 ### Low-Level Coastal Flights
@@ -47,8 +46,9 @@ The Western VFR Route begins at NEN and tracks inland, terminating at Burringbar
 !!! tip
     You can find details of the Western VFR Route on the [Gold Coast VTC](https://www.airservicesaustralia.com/aip/aip.asp){target=new}.
 
-## Arrivals
-Arriving aircraft that are operating at or below `A015` may contact ADC for inbound clearance. These aircraft shall be assigned a discrete SSR code but shall not be radar identified.  
+### Arrivals
+Arriving aircraft that are operating at or below `A015` may contact ADC for inbound clearance. These aircraft shall be assigned a discrete SSR code but shall not be radar identified.
+
 Aircraft shall be cleared subject to the following conditions:
 
 | Via             | RWY 14      | RWY 32       |
@@ -165,12 +165,9 @@ Both hospital helipads are outside the maneuvering area and do not require a tak
     **RSCU588:** "Cleared to YBBN via STOT, flight planned route. Not above A015, wilco, RSCU588"  
 
 ## Runway Modes
-Preferred runway is Runway 14 - all hours
-The crosswind Runways 17/35 may be used at the same time as the main runways.
+The preferred runway is **Runway 14**.
 
-### Preferred RWY 14 Approach (All Hours) - Noise Abatement
-The preferred approach for Jet aircraft above 5,700KG MTOW (unless due weather or critical operations requirements) is as follows:  
-<ol><li>RNP W RWY 14</li><li>RNP Y RWY 14</li><li>RNP Z RWY 14</li><li>VISUAL APCH RWY 14</li><li>ILS RWY 14</li></ol>
+Runway 17/35 may be used at the same time as Runway 14/32, weather and traffic permitting.
 
 ### Circuit Direction
 Circuits are to be conducted at `A010`.  
@@ -182,21 +179,12 @@ Circuits are to be conducted at `A010`.
 | 17 | Left | 
 | 35 | Right    | 
 
-## Departures
-RNAV jet-aircraft planned via APAGI shall be issued the APAGI SID.  
-!!! note
-    For RNP (0.3) approved operators, the RWY14 CUDGN SID and RWY32 BURLI SID are available for departures via APAGI.  
-The GOLD COAST (RADAR) SID shall be assigned to all other IFR aircraft, except those assigned Runway 35.  
-IFR departures from Runway 35 shall be assigned a visual departure.  
+## SID Selection
+**RNAV-equipped** jet aircraft planned via **APAGI** shall be assigned the **APAGI SID**. **RNP (0.3)** approved operators planned via **APAGI** shall be assigned the **CUDGN** or **BURLI** procedural SIDs.
 
-Radar SID aircraft shall be cleared subject to the following conditions for noise abatement purposes:
+IFR aircraft departing Runway 35 shall be assigned a **visual departure**.
 
-| Via             | RWY 14      | RWY 32       |
-| ------------------ | -------------- | ---------------- |
-|  **North**   |   Left turn and then over water until `A030`    | Right turn and then over water until `A030` |
-|  **East**   |   Left turn and then over water until `A030`      | Right turn and then over water until `A030` |
-|  **South** Jets   |   Minor right turn then over water until 5 DME   |    Over water until south of KCFF (CG130/7 NM) and `A050`    |
-|  **South** Non-Jets  |    Left turn and then over water until `A030`     | Right turn and then over water until `A030`  | 
+Aircraft not meeting the above criteria, or that cannot accept a Procedural SID shall be assigned the **Radar SID**.
 
 ## Coordination
 ### Auto Release
