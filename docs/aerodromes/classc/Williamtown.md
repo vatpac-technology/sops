@@ -21,6 +21,14 @@ WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be a
   <figcaption>WLM ADC Airspace</figcaption>
 </figure>
 
+## SID Selection
+Aircraft planned via **KEXAR**, **LIMLO**, **MONDO**, and **UBNON^** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
+
+Aircraft unable to accept a procedural SID, and **non-RNAV** aircraft shall be assigned either the RADAR SID or a visual departure.
+
+!!! note 
+    ^ When the R596 area is active, aircraft planned via **UBNON** and departing Runway 12 shall be assigned the **UBNON BRAVO** SID.
+
 ## Coordination
 ### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is **not** required from WLM ADC to WLM TCU for aircraft that are:  
