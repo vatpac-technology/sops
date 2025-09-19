@@ -56,7 +56,7 @@ Place/Bearing Distance points in the FDR can be used for this, with **TN** as th
 The [initial](../../controller-skills/military/#initial-and-pitch) point is at `A020` on the extended centerline of Taxiway Alpha at 6.5NM for RWY 14, 5NM for RWY 32. Aircraft will be cleared for a left, straight or right initial.
 
 ## Runway Modes
-### Circuit Operations
+### Circuits
 The Circuit Area Airspace is allocated to be within 5nm of the YPTN ARP from `SFC` to `A025`. Aircraft can be instructed to extend outside of this airspace by ATC for traffic management. 
 
 !!! note
@@ -69,8 +69,9 @@ The Circuit Area Airspace is allocated to be within 5nm of the YPTN ARP from `SF
 | 32     | Left |
 
 ## SID Selection
-Aircraft planned via **DN**, **LAREB**, **GREGA**, **DOSAM**, **MILIV**, **MIGAX**, **DAPMA** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
-Aircraft who are not planned via those points or who are negative RNAV may be assigned a RADAR SID or a visual departure.
+Aircraft planned via **DN**, **LAREB**, **GREGA**, **DOSAM**, **MILIV**, **MIGAX**, **DAPMA** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.  Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
+
+Aircraft unable to accept a procedural SID, and **non-RNAV** aircraft shall be assigned either the RADAR SID or a visual departure. 
 
 ## Coordination
 ### TN TCU
