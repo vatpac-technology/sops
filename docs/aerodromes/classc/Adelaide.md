@@ -96,15 +96,15 @@ Shall be assigned the **Radar SID**.
     Non-Jet Aircraft planned via EEMUE, assigned runway 05, shall be given the AD (RADAR) SID.
 
 ## ATIS
-### Approach Expectation
-When **Runway 23** is in use for arrivals, the following table shall be followed for the Approach Expectation field:
+### Approach Types
+When **Runway 23** is in use for arrivals, the following table shall be followed for the APCH field:
 
-| Cloud Base            | ATIS APCH field      |
-| ------------------ | -------------- |
-| At or above `A043`   | (Blank)  |
-| Between `A024` and `A042`   | `ACFT FM THE EAST AND JET ACFT FM THE WEST EXP INSTR APCH`\*  |
-| Between `A007` and `A023`  | `EXP INSTR APCH`  |
-| At or below `A006`  | `EXP ILS APCH`  |
+| Cloud Base                | ATIS APCH field      |
+| ------------------------- | -------------------- |
+| At or above `A043`        | (Blank)              |
+| Between `A024` and `A042` | `ACFT FM THE EAST AND JET ACFT FM THE WEST EXP INST APCH`\*  |
+| Between `A007` and `A023` | `EXP INST APCH`      |
+| At or below `A006`        | `EXP ILS APCH`       |
 
 \*This allows aircraft on the Victor STAR from the west to join a visual right base without the need to conduct an instrument approach, while keeping aircraft from the east clear of the higher terrain near the Adelaide Hills.
 
