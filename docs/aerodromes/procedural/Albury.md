@@ -5,11 +5,11 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | ---------------- |
-| **Albury ADC** | **Albury Tower** | **123.250** | **AY_TWR** |
-| **Albury SMC** | **Albury Ground** | **121.800** | **AY_GND** |
-| **Albury ATIS** |  | **133.850** | **YMAY_ATIS** |
+| Name              | Callsign              | Frequency   | Login ID      |
+| ----------------- | --------------------- | ----------- | ------------- |
+| **Albury ADC**    | **Albury Tower**      | **123.250** | **AY_TWR**    |
+| **Albury SMC**    | **Albury Ground**     | **121.800** | **AY_GND**    |
+| **Albury ATIS**   |                       | **133.850** | **YMAY_ATIS** |
 
 ## Airspace
 <figure markdown>
@@ -39,6 +39,9 @@ The **Hume Highway** is a good reference for this standard.
 
 ### Surveillance
 Surveillance coverage can be expected to be available at all levels in the AY CTR. Although AY ADC is **not permitted** to use surveillance for separation, BLA may assist by establishing surveillance separation standards via coordination
+
+## SID Selection
+Aircraft planned via **DUGGI** and **UGVER** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
 ## Coordination
 ### Departures
