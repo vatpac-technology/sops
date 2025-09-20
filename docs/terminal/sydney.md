@@ -211,9 +211,6 @@ All aircraft should be assigned no lower than `A060` until clear of the active r
 
 Be mindful of departures from YSBK which may also impact aircraft on downwind for RWY 16R at YSSY.  Do not assign lower than `A040` until the aircraft is north/east of the BK CTR and clear of any departing traffic (who are assigned `A030` by default).
 
-## Runway Modes
-
-
 ## Offline Towers
 ### BK ADC Offline
 Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
