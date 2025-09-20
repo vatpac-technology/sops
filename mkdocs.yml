@@ -87,7 +87,7 @@ plugins:
         'aerodromes/Alice.md': 'aerodromes/procedural/Alice.md'
         'aerodromes/Broome.md': 'aerodromes/procedural/Broome.md'
         'aerodromes/Coffs.md': 'aerodromes/procedural/Coffs.md'
-        'aerodromes/Hammo.md': 'aerodromes/procedural/Hammo.md'
+        'aerodromes/Hammo.md': 'aerodromes/procedural/HamiltonIsland.md'
         'aerodromes/Karratha.md': 'aerodromes/procedural/Karratha.md'
         'aerodromes/Sunshinecoast.md': 'aerodromes/procedural/Sunshinecoast.md'
         'aerodromes/Tamworth.md': 'aerodromes/procedural/Tamworth.md'

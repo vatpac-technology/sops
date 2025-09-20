@@ -6,11 +6,11 @@
 
 ## Positions
 
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | ---------------- |
-| **Sunshine Coast ADC** | **Sunshine Coast Tower** | **124.400** | **SU_TWR** |
-| **Sunshine Coast SMC** | **Sunshine Coast Ground** | **121.100** | **SU_GND** |
-| **Sunshine Coast ATIS** |  | **119.800** | **YBSU_ATIS** |
+| Name                    | Callsign                  | Frequency   | Login ID      |
+| ----------------------- | ------------------------- | ----------- | ------------- |
+| **Sunshine Coast ADC**  | **Sunshine Coast Tower**  | **124.400** | **SU_TWR**    |
+| **Sunshine Coast SMC**  | **Sunshine Coast Ground** | **121.100** | **SU_GND**    |
+| **Sunshine Coast ATIS** |                           | **119.800** | **YBSU_ATIS** |
 
 ## Airspace
 <figure markdown>
@@ -19,6 +19,10 @@
 </figure>
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
+
+## Local Instructions
+### Old Scenery
+Pilots with old simulators/scenery may not have the newer Runway 13/31 config (replacing the old 18/36 config). If a pilot reports this to be the case, try to facilitate their flight as best as possible, whilst giving them lower priority to other traffic. Coordinate as you deem necessary with adjacent units.
 
 ## Separations
 ### Local Lateral Separation Points
@@ -41,10 +45,6 @@ The **coastline** is a good reference for this standard.
 
 ## Surveillance
 Surveillance coverage can be expected to be not available below `A012` in the SU CTR. Although SU ADC is **not permitted** to use surveillance for separation, INL(NSA) may assist by establishing surveillance separation standards via coordination
-
-
-## Runway Configuration
-Pilots with old simulators/scenery may not have the newer Runway 13/31 config (replacing the old 18/36 config). If a pilot reports this to be the case, try to facilitate their flight as best as possible, whilst giving them lower priority to other traffic. Coordinate as you deem necessary with adjacent units.
 
 ## SID Selection
 Jet Aircraft planned via **MOOLO** or **TAPET**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint, unless the pilot indicates they are unable to accept a Procedural SID.
