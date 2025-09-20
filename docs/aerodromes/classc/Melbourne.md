@@ -5,12 +5,12 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login ID                         |
-| ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Melbourne ADC**    | **Melbourne Tower**   | **120.500**          | **ML_TWR**                                   |
-| **Melbourne SMC**    | **Melbourne Ground**  | **121.700**          | **ML_GND**                                   |
-| **Melbourne ACD**         | **Melbourne Delivery**| **127.200**          | **ML_DEL**                                   |
-| **Melbourne ATIS**        |                | **118.000**         | **YMML_ATIS**                                |
+| Name              | Callsign               | Frequency   | Login ID      |
+| ----------------- | ---------------------- | ----------- | ------------- |
+| **Melbourne ADC** | **Melbourne Tower**    | **120.500** | **ML_TWR**    |
+| **Melbourne SMC** | **Melbourne Ground**   | **121.700** | **ML_GND**    |
+| **Melbourne ACD** | **Melbourne Delivery** | **127.200** | **ML_DEL**    |
+| **Melbourne ATIS** |                       | **118.000** | **YMML_ATIS** |
 
 ## Airspace
 ML ADC is not responsible for any airspace by default.
@@ -118,12 +118,12 @@ Particular attention should be paid to departures for runways 27 and 34. Taxiway
 ###Preferred Runway Modes
 If winds are too great, single runway operations may be necessary (eg, Runway 16 for Arrivals and Departures). However, pending wind limitations (Crosswind <20kts, Tailwind <5kts), the following runway modes are to be used
 
-| Mode | Arrivals  | Departures |
-| ----------------| --------- | ---------- |
-| 27AD/34D   | 27       | 34 (Via MNG, NONIX, and DOSEL), 27 (All other deps)        |
-| 16A/27D    | 16 | 27  |
-| 09A/16D    | 09 | 16  |
-| 34A/27AD   | 34 & 27 | 27 |
+| Mode     | Arrivals | Departures |
+| -------- | -------- | ---------- |
+| 27AD/34D | 27       | 34 (via MNG, NONIX, and DOSEL), 27 (all other deps) |
+| 16A/27D  | 16       | 27 |
+| 09A/16D  | 09       | 16 |
+| 34A/27AD | 34 & 27  | 27 |
 
 !!! info
     When utilising the 27AD/34D runway mode, Heavy Aircraft may require Runway 34 for departure due to the shorter length of Runway 27. Assigning Runway 34 to aircraft from the southern apron can also improve aerodrome efficiency due to the reduced taxi distance.
@@ -187,30 +187,35 @@ Shall be assigned the **Radar SID**.
 ### ATIS Identifier
 YMML ATIS identifiers only uses letters `N` through to `Y`, due to nearby YMEN using letters `A` through `M`.  
 
-### Approach Expectation
-With **Runway 34** in use for arrivals and the cloud base above `A030` but below `A042`, the APCH field shall include:  
-`ACFT ON THE ALPHA STAR EXP INSTR APCH` 
+### Approach Types
+| Arrival Runway  | Cloud Base         | ATIS APCH field       |
+| --------------- | ------------------ | --------------------- |
+| 09              | All                | `EXP GLS OR RNP APCH` |
+| 16 or 27        | Above `A006`       | `EXP GLS OR ILS APCH` |
+| 16 or 27        | At or below `A006` | `EXP ILS APCH`        |
+| 34              | Above `A030`       | `ACFT ON THE ALPHA STAR EXP INST APCH`\* |
+| 34              | At or below `A030` | `EXP GLS OR RNP APCH` |
+| 34 & 27 (LAHSO) | All                | `EXP INST APCH`       |
 
-This permits controllers to assign aircraft either the Alpha or Victor STAR and process them for a GLS/RNP approach or a visual approach (depending on traffic flow and pilot preference).
+\*This permits controllers to assign aircraft either the Alpha or Victor STAR and process them for a GLS/RNP approach or a visual approach (depending on traffic flow and pilot preference).
 
 ### Runway Mode Formatting
-| Mode | ATIS Runway information |
-| ----------------| --------- |
-| 27AD/34D   | `27 FOR ARR, RWY 34 FOR DEPS VIA MNG, NONIX AND DOSEL, RWY 27 FOR ALL OTHER DEPS` |
-| 16A/27D    | `16 FOR ARR, RWY 27 FOR DEP` |
-| 09A/16D    | `09 FOR ARR, RWY 16 FOR DEP` |
-| 34A/27AD   | `34 FOR ARR, RWY 27 FOR ARR AND DEP` |
+| Mode     | ATIS Runway information      |
+| -------- | ---------------------------- |
+| 27AD/34D | `27 FOR ARR. RWY 34 FOR DEPS VIA MNG, NONIX, AND DOSEL, RWY 27 FOR ALL OTHER DEPS` |
+| 16A/27D  | `16 FOR ARR. RWY 27 FOR DEP` |
+| 09A/16D  | `09 FOR ARR. RWY 16 FOR DEP` |
+| 34A/27AD | `27 AND RWY 34 FOR ARR. RWY 27 FOR DEP` |
 
 ### Operational Info
-#### Independent Crossing Runway Operations
-When using runway mode 09A/16D, the ATIS OPR INFO shall include:  
-`SIMUL INDEP CROSSING RWY OPS IN PROG`
+The Operational Information field should be updated based on the runway mode, as per the table below:
 
-This allows for both Runway 09 and Runway 16 to operate independently of each other, with aircraft departing Runway 16 from Taxiway Echo.
+| Runway Mode      | OPR INFO Field                           |
+| ---------------- | ---------------------------------------- |
+| 09A/16D          | `SIMUL INDEP CROSSING RWY OPS IN PROG`\* |
+| 34A/27AD (LAHSO) | `LAHSO IN PROGRESS`                      |
 
-#### LAHSO
-When [LAHSO](#lahso) is in use, the ATIS OPR INFO shall include:  
-`LAND AND HOLD SHORT OPERATIONS IN PROGRESS`
+\*This allows for both Runway 09 and Runway 16 to operate independently of each other, with aircraft departing Runway 16 from Taxiway Echo.
 
 #### ACD Pushback Requests
 When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) procedure, the OPR INFO shall include:  
