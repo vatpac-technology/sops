@@ -179,15 +179,15 @@ When **Runway 10L/28R** is in use for arrivals, the following table shall be fol
 ### Runway Mode Formatting
 The ATIS must indicate the current runway config and nominate what each runway is being used for. This should be reflected on the ATIS as below:
 
-| Mode        | ADC Ops | ATIS Runway information |
-| ----        | ------- | ----------------------- |
-| 10/28 PROPS | -       | `RWY 10L/28R FOR ARRS AND DEPS NORTH. RWY 10R/28L FOR ARRS AND DEPS SOUTH` |
-| 10/28 PROPS | Dual    | `RWY 10L/28R FOR ARRS AND DEPS NORTH, FREQ 123.6. RWY 10R/28L FOR ARRS AND DEPS SOUTH, FREQ 118.1` |
-| 04 PROPS    | -       | `RWY 04L FOR ARRS AND DEPS NORTH AND WEST. RWY 04R FOR ARRS AND DEPS SOUTH AND EAST` |
-| 04 PROPS    | Dual    | `RWY 04L FOR ARRS AND DEPS NORTH AND WEST, FREQ 123.6. RWY 04R FOR ARRS AND DEPS SOUTH AND EAST, FREQ 118.1` |
-| 22 PROPS    | -       | `RWY 22. EASTERN DEPS NAVBL. RWY 22R FOR ARRS AND DEPS NORTH AND WEST. RWY 22L FOR ARRS SOUTH AND EAST AND DEPS SOUTH` |
-| 22 PROPS    | Dual    | `EASTERN DEPS NAVBL. RWY 22R FOR ARRS AND DEPS NORTH AND WEST, FREQ 123.6. RWY 22L FOR ARRS SOUTH AND EAST AND DEPS SOUTH, FREQ 118.1` |
-| Single Runway | -     | `ALL OPERATIONS RWY (Number)` |
+| Mode        | Controllers | ATIS Runway information |
+| ----------- | ----------- | ----------------------- |
+| 10/28 PROPS | Single ADC  | `RWY 10L/28R FOR ARRS AND DEPS NORTH. RWY 10R/28L FOR ARRS AND DEPS SOUTH` |
+| 10/28 PROPS | Dual ADC    | `RWY 10L/28R FOR ARRS AND DEPS NORTH, FREQ 123.6. RWY 10R/28L FOR ARRS AND DEPS SOUTH, FREQ 118.1` |
+| 04 PROPS    | Single ADC  | `RWY 04L FOR ARRS AND DEPS NORTH AND WEST. RWY 04R FOR ARRS AND DEPS SOUTH AND EAST` |
+| 04 PROPS    | Dual ADC    | `RWY 04L FOR ARRS AND DEPS NORTH AND WEST, FREQ 123.6. RWY 04R FOR ARRS AND DEPS SOUTH AND EAST, FREQ 118.1` |
+| 22 PROPS    | Single ADC  | `RWY 22. EASTERN DEPS NAVBL. RWY 22R FOR ARRS AND DEPS NORTH AND WEST. RWY 22L FOR ARRS SOUTH AND EAST AND DEPS SOUTH` |
+| 22 PROPS    | Dual ADC    | `EASTERN DEPS NAVBL. RWY 22R FOR ARRS AND DEPS NORTH AND WEST, FREQ 123.6. RWY 22L FOR ARRS SOUTH AND EAST AND DEPS SOUTH, FREQ 118.1` |
+| Single Runway | Single ADC | `ALL OPERATIONS RWY (Number)` |
 
 ### Operational Info
 #### Helicopter Area
