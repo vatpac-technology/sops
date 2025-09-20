@@ -6,27 +6,16 @@
 
 ## Positions
 
-| Name               | Callsign             | Frequency   | Login ID     |
-|--------------------|----------------------|-------------|--------------|
-| **Moorabbin ADC East**  | **Moorabbin Tower**  | **118.100** | **MB_TWR**   |
-| <span class="indented">Moorabbin ADC West :material-information-outline:{ title="Non-standard position"}  | Moorabbin Tower  | 123.000        | MB-W_TWR                        |
-| **Moorabbin SMC**  | **Moorabbin Ground** | **134.250** | **MB_GND**   |
-| **Moorabbin ATIS**     |                      | **120.900**     | **YMMB_ATIS**    |
+| Name                    | Callsign              | Frequency   | Login ID      |
+| ----------------------- | --------------------- | ----------- | ------------- |
+| **Moorabbin ADC East**  | **Moorabbin Tower**   | **118.100** | **MB_TWR**    |
+| <span class="indented">Moorabbin ADC West :material-information-outline:{ title="Non-standard position"} | Moorabbin Tower | 123.000 | MB-W_TWR |
+| **Moorabbin SMC**       | **Moorabbin Ground**  | **134.250** | **MB_GND**    |
+| **Moorabbin ATIS**      |                       | **120.900** | **YMMB_ATIS** |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
-
-### Dual ADC Operations
-When Moorabbin ADC West is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
-
-ADC East takes responsibility for the East Runway, Circuit and Airspace (Runway **17L/35R** and **13L/31R**).
-
-ADC West takes responsibility for the West Runway, Circuit and Airspace (Runway **17R/35L** and **13R/31L**).
-
-ADC West is **not permitted** online when *Single Runway* Operations are in use.
-
-Refer to the [ATIS section](#runway-nomination) for information on ATIS formatting when ADC West is online.
 
 ## Airspace
 MB ADC is responsible for the Class D airspace in the MB CTR from `SFC` to `A025`.
@@ -39,29 +28,19 @@ MB ADC is responsible for the Class D airspace in the MB CTR from `SFC` to `A025
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
 ### Dual ADC Operations
+When Moorabbin ADC West is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers. 
+
 Airspace Ownership when ADC West is online, is split down the middle of the two active extended centrelines.
 
-## Runway Modes
-Preferred runway modes are as follows (in order of preference):
+ADC East takes responsibility for the East Runway, Circuit and Airspace (Runway **17L/35R** and **13L/31R**).
 
-1. Runway 35L/35R
-2. Runway 17L/17R
-3. Runways 13/31 (equal preference)
+ADC West takes responsibility for the West Runway, Circuit and Airspace (Runway **17R/35L** and **13R/31L**).
 
-Runway 04/22 is not nominated by default and is only available on request or when operationally required for emergencies. Requests for Runway 22 may be granted if traffic conditions allow. Runway 04 is less likely to be approved due the need to vacate onto an intersecting runway.
+ADC West is **not permitted** online when *Single Runway* Operations are in use.
 
-## VFR Inbound Procedures
-Aircraft should report at the standard VFR entry points:
+Refer to the [ATIS section](#runway-mode-formatting) for information on ATIS formatting when ADC West is online.
 
-| Direction from YMMB  | Entry Point |
-|-------------|----------------------|
-| North | BTO         |
-| North East | ACE         |
-| East | GMH        |
-| South | CARR         |
-| South West | SHOL         |
-| West | BAW       |
-
+## Local Procedures
 ### Circuit Joining Instructions
 
 | Entry Point | RWY 13                          | RWY 17                          | RWY 31                          | RWY 35                          |
@@ -80,20 +59,18 @@ Aircraft should report at the standard VFR entry points:
 
 VFR Pilots are expected to enter the MB CTR at `A010` as per ERSA. However, be aware that some pilots may not be familiar with this requirement.
 
-## Circuits
-### Fixed wing
-Circuit altitude: `A010`.
+## VFR Operations
+### VFR Inbound Procedures
+Aircraft should report at the standard VFR entry points:
 
-| Runway  | Day Circuit Direction | Night Circuit Direction |
-|---------|------------------------|--------------------------|
-| 13L     | Left                  | Left                    |
-| 13R     | Right                 | N/A                     |
-| 31L     | Left                  | N/A                     |
-| 31R     | Right                 | Right                   |
-| 17L     | Left                  | Left                    |
-| 17R     | Right                 | N/A                     |
-| 35L     | Left                  | N/A                     |
-| 35R     | Right                 | Right                   |
+| Direction from YMMB  | Entry Point |
+|-------------|----------------------|
+| North | BTO         |
+| North East | ACE         |
+| East | GMH        |
+| South | CARR         |
+| South West | SHOL         |
+| West | BAW       |
 
 ## Helicopter Operations
 ### Circuits
@@ -142,19 +119,46 @@ Circuit operations are conducted parallel to the duty runway and inside the fixe
 #### Night Circuits
 Night operations must comply with fixed wing operations.
 
+## Runway Modes
+### Preferred Runway Modes
+Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
+
+| Priority - Mode | Arrivals  | Departures |
+| ----------------| --------- | ---------- |
+| =1 - 35 PROPS | 17L (EAST) & 17R (WEST) | 17L (EAST) & 17R (WEST) |
+| =1 - 28 PROPS | 35L (WEST) & 35R (EAST) | 35L (WEST) & 35R (EAST) |
+| =2 - 13 PROPS | 13L (EAST) & 13R (WEST) | 13L (EAST) & 13R (WEST) |
+| =2 - 31 PROPS | 31L (WEST) & 31R (EAST) | 31L (WEST) & 31R (EAST) |
+
+Runway 04/22 is not nominated by default and is only available on request or when operationally required for emergencies. Requests for Runway 22 may be granted if traffic conditions allow. Runway 04 is less likely to be approved due the need to vacate onto an intersecting runway.
+
+#### Night Operational Restrictions
+Runways 13R/31L, 17R/35L, and 04/22 are unlit, and **cannot** be used at night.
+
+### Circuits
+#### Fixed wing
+Circuit altitude: `A010`.
+
+| Runway  | Day Circuit Direction | Night Circuit Direction |
+|---------|------------------------|--------------------------|
+| 13L     | Left                  | Left                    |
+| 13R     | Right                 | N/A                     |
+| 31L     | Left                  | N/A                     |
+| 31R     | Right                 | Right                   |
+| 17L     | Left                  | Left                    |
+| 17R     | Right                 | N/A                     |
+| 35L     | Left                  | N/A                     |
+| 35R     | Right                 | Right                   |
+
 ## ATIS
-### Runway Nomination
+### Runway Mode Formatting
+The ATIS must indicate runway configuration in the format below:
 
-| Priority | Runway Mode |
-| ------ | ------ |
-| =1     | 17L & 17R |
-| =1     | 35L & 35R |
-| =2     | 13L & 13R |
-| =2     | 31L & 31R |
-| 3     | Single Runway Operations (13/17/31/35) |
-| 4     | Single Runway Operations (04/22) |
-
-When 2 ADC controllers are online, the ATIS shall be formatted: `RWY 13L/17L/31R/35R FOR ARRS AND DEPS EAST, FREQ 118.1. RWY 13R/17R/31L/35L FOR ARRS AND DEPS WEST, FREQ 123.0`
+| Mode        | Controllers | ATIS Runway information |
+| ----------- | ----------- | ----------------------- |
+| PROPS | Single ADC  | `RWY 13L/17L/31R/35R FOR ARRS AND DEPS EAST. RWY 13R/17R/31L/35L FOR ARRS AND DEPS WEST` |
+| PROPS | Dual ADC    | `RWY 13L/17L/31R/35R FOR ARRS AND DEPS EAST, FREQ 118.1. RWY 13R/17R/31L/35L FOR ARRS AND DEPS WEST, FREQ 123.0` |
+| Single Runway | Single ADC | `ALL OPERATIONS RWY (Number)` |
 
 ## Coordination
 ### Departures

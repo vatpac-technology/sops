@@ -6,11 +6,11 @@
 
 ## Positions
 
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | ---------------- |
-| **Sunshine Coast ADC** | **Sunshine Coast Tower** | **124.400** | **SU_TWR** |
-| **Sunshine Coast SMC** | **Sunshine Coast Ground** | **121.100** | **SU_GND** |
-| **Sunshine Coast ATIS** |  | **119.800** | **YBSU_ATIS** |
+| Name                    | Callsign                  | Frequency   | Login ID      |
+| ----------------------- | ------------------------- | ----------- | ------------- |
+| **Sunshine Coast ADC**  | **Sunshine Coast Tower**  | **124.400** | **SU_TWR**    |
+| **Sunshine Coast SMC**  | **Sunshine Coast Ground** | **121.100** | **SU_GND**    |
+| **Sunshine Coast ATIS** |                           | **119.800** | **YBSU_ATIS** |
 
 ## Airspace
 <figure markdown>
@@ -20,10 +20,12 @@
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
-## Surveillance
-Surveillance coverage can be expected to be not available below `A012` in the SU CTR. Although SU ADC is **not permitted** to use surveillance for separation, INL(NSA) may assist by establishing surveillance separation standards via coordination
+## Local Instructions
+### Old Scenery
+Pilots with old simulators/scenery may not have the newer Runway 13/31 config (replacing the old 18/36 config). If a pilot reports this to be the case, try to facilitate their flight as best as possible, whilst giving them lower priority to other traffic. Coordinate as you deem necessary with adjacent units.
 
-## Local Lateral Separation Points
+## Separations
+### Local Lateral Separation Points
 Due to the convergence of inbound/outbound air routes approaching SU, the [geographic feature separation standard](../../separation-standards/visual.md#geographic-features) may be useful to efficiently process opposite direction aircraft from the north or south.
 
 The **coastline** is a good reference for this standard.
@@ -41,8 +43,8 @@ The **coastline** is a good reference for this standard.
     *Once both aircraft have passed and/or another separation standard is available (e.g. vertical separation), the geographic feature standard can be relaxed.*  
     **SU ADC:** "VOZ609, cancel the offshore requirement, track for final runway 13, cleared visual approach"
 
-## Runway Configuration
-Pilots with old simulators/scenery may not have the newer Runway 13/31 config (replacing the old 18/36 config). If a pilot reports this to be the case, try to facilitate their flight as best as possible, whilst giving them lower priority to other traffic. Coordinate as you deem necessary with adjacent units.
+## Surveillance
+Surveillance coverage can be expected to be not available below `A012` in the SU CTR. Although SU ADC is **not permitted** to use surveillance for separation, INL(NSA) may assist by establishing surveillance separation standards via coordination
 
 ## SID Selection
 Jet Aircraft planned via **MOOLO** or **TAPET**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint, unless the pilot indicates they are unable to accept a Procedural SID.

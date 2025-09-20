@@ -81,7 +81,7 @@ At night, VFR aircraft are prohibited from performing a visual approach when arr
 The Magenta CTR contains the Nouméa Meridien Helipad (NWHH), as well as a military helipad at Artillery Point. Helicopters operating to and from these pads require a clearance from **NWWM ADC**.
 
 ## Runway Modes
-### Runway Selection
+### Preferred Runway Modes
 The preferred runway mode is reciprocal runway operations on **Runway 17/35**.
 
 | Mode | Arrivals | Departures |

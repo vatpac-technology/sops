@@ -106,7 +106,7 @@ Helicopters also operate from multiple points within the city of Port Moresby (w
 These helipads are outside the controlled maneuvering area and do not receive explicit takeoff/landing clearance. Helicopters using these helipads be instructed to 'report on the ground'/'report when airbourne' in lieu of an explicit takeoff/landing clearance.
 
 ## Runway Modes
-### Runway Selection
+### Preferred Runway Modes
 The preferred runway direction is Runway 14.
 
 **Runway 14L** shall be used for arrivals and departures when winds favour Runway **14** direction, **or** when:

@@ -23,49 +23,16 @@ If operationally necessary, ESA may also request the activation of M301 airspace
 <figcaption>ESL TMA</figcaption>
 </figure>
 
-
 ## Logon Process
 Given the specific nature of the East Sale TCU airspace, surrounding controllers may not be fully aware of its boundaries. Upon logging on as East Sale TCU, it is essential to announce the activation status of R360/M301.
 
 !!! phraseology
     <span class="hotline">**ESA** -> **BLA**</span>: "Request activation of R360 from SFC to F210"
 
-## Circuit Procedures
 
-### East Sale Circuit Area (ESL CIRA)
+## Local Procedures
 
-The East Sale Circuit Area (ESL CIRA) is active at all times when R360A is active. The ESL CIRA may be released to ADC on request to the ES ADC.
-
-### West Sale Circuit Area (WSL CIRA)
-
-The West Sale Circuit Area (WSL CIRA) is active at all times when R360A is active. It is defined as airspace within a `5NM` radius centered on the YWSL ARP, from the `SFC` to `A020`.
-
-Separation on the movement area at West Sale is not provided by ESA due to geographical displacement. Pilots are responsible for separation during ground operations.
-
-The WSL CIRA remains north of the Latrobe River and within 12 TAC ESL.
-
-#### Circuit Directions
-
-| Runway | Direction |
-| ------ | ----------|
-| 05     | Right     |
-| 09     | Right     |
-| 14     | Right     |
-| 23     | Left      |
-| 27     | Left      |
-| 32     | Left      |
-
-#### Standard Circuit Altitudes
-
-| Type         | Normal Altitude | Low Level Altitude (Day) | Low Level Altitude (Night) |
-| ------------ | --------------- | ----------------------- | -------------------------- |
-| All Aircraft | A011            | A005                    | Circling Minima             |
-
-### Coordination Between ESL and WSL CIRA
-
-The ESL and WSL CIRA overlap overhead Sale Township. To avoid conflict between aircraft conducting circuits, a line north-south through the Sale Racecourse marks the boundary between ESL and WSL circuit patterns. Pilots must report if extension beyond the racecourse is required.
-
-## VFR Transit
+### VFR Transit
 
 <figure markdown>
 ![ESL VFR ROUTE](img/esl_vfr_route.png){ width="700" }
@@ -99,14 +66,14 @@ Upon pilot request, clear aircraft to transit through the Longford Lane.
     **RCR**: "cleared McGauran Beach, Lock Sport, not above 1500, RCR"  
 
 
-## Lanes and Training Areas
+### Lanes and Training Areas
 
 <figure markdown>
 ![ESL LANES AND TRAINING AREAS](img/esl_lanes_training_areas.png){ width="700" }
 <figcaption>ESL LANES AND TRAINING AREAS</figcaption>
 </figure>
 
-### Outbound Lanes
+#### Outbound Lanes
 
 The outbound lanes are used by aircraft transiting to/from exterior training areas or for entry and exit of ESL military airspace. These lanes are defined by GNSS waypoints situated at 12, 35, and 50 NM from YMES AD.
 
@@ -119,7 +86,7 @@ Lanes extend from `SFC` or the base of restricted airspace to `F160`.
 | Southern       | SABAX              | LUTUK              | NOLOX              | 180     |
 | Western        | DUGAD              | LERKO              | DUNNE              | 270     |
 
-### Inbound Lanes
+#### Inbound Lanes
 
 The inbound lanes are used to guide aircraft into the East Sale airspace from exterior areas. These lanes also rely on GNSS waypoints at 12, 35, and 50 NM from YMES AD.
 
@@ -131,7 +98,7 @@ The inbound lanes are used to guide aircraft into the East Sale airspace from ex
 | Avon Lane      | AKVIN              | UPSAL              | ENBUD              | 315     |
 
 
-### Training Areas
+#### Training Areas
 
 The training areas around East Sale are crucial for military operations. Each area is defined by specific lateral and vertical limits to ensure safe and coordinated use.
 
@@ -154,18 +121,19 @@ The training areas around East Sale are crucial for military operations. Each ar
 | Yankee        | Western Lane and Avon Lane                 | 35 NM to 50 NM   | A070 FT to FL430                                      | A071 FT |
 | Zulu          | Avon Lane and Northern Lane                | 35 NM to 50 NM   | A070 FT to FL430                                      | A071 FT |
 
-## Arrival Procedures
+## Departure and Arrivals Procedure
+### Arrival Procedures
 
 Aircraft arriving from any Training Area (TA) will remain in the TA until direct entry into an IAP is possible. ATC should anticipate the sequence to allow for efficient tracking and sequencing.
 
-### Visual Approach
+#### Visual Approach
 When expect visual approach is advertised on the ATIS:
 
 - Aircraft shall be instructed to maintain `A070`
 - Track to intercept an inbound lane prior to exiting the TRA (20 NM)
 - Sequence aircraft for a Visual Approach via Initial Point (IP) for the duty runway
 
-### Instrument 
+#### Instrument 
 
 When expect instrument approach is advertised on the ATIS:
 
@@ -187,6 +155,41 @@ When expect instrument approach is advertised on the ATIS:
 | RWY 27   | Bass Lane     | ILS-Y/RNAV | LIDVU/MESEJ | A035/A019 |
 | RWY 27   | Strezlecki Ln | ILS-Y/TAC | JOSSO | A034    |
 | RWY 27   | Avon Lane     | ILS-Y/TAC | BRONY | A044    |
+
+## Runway Modes
+### Circuit Procedures 
+#### East Sale Circuit Area (ESL CIRA)
+
+The East Sale Circuit Area (ESL CIRA) is active at all times when R360A is active. The ESL CIRA may be released to ADC on request to the ES ADC.
+
+#### West Sale Circuit Area (WSL CIRA)
+
+The West Sale Circuit Area (WSL CIRA) is active at all times when R360A is active. It is defined as airspace within a `5NM` radius centered on the YWSL ARP, from the `SFC` to `A020`.
+
+Separation on the movement area at West Sale is not provided by ESA due to geographical displacement. Pilots are responsible for separation during ground operations.
+
+The WSL CIRA remains north of the Latrobe River and within 12 TAC ESL.
+
+#### Circuit Directions
+
+| Runway | Direction |
+| ------ | ----------|
+| 05     | Right     |
+| 09     | Right     |
+| 14     | Right     |
+| 23     | Left      |
+| 27     | Left      |
+| 32     | Left      |
+
+#### Standard Circuit Altitudes
+
+| Type         | Normal Altitude | Low Level Altitude (Day) | Low Level Altitude (Night) |
+| ------------ | --------------- | ----------------------- | -------------------------- |
+| All Aircraft | A011            | A005                    | Circling Minima             |
+
+### Coordination Between ESL and WSL CIRA
+
+The ESL and WSL CIRA overlap overhead Sale Township. To avoid conflict between aircraft conducting circuits, a line north-south through the Sale Racecourse marks the boundary between ESL and WSL circuit patterns. Pilots must report if extension beyond the racecourse is required.
 
 
 ## Coordination

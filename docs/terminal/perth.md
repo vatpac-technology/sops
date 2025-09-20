@@ -46,28 +46,8 @@ The divisions of the airspace between **PHA**, and **PHD** change based on the R
   <figcaption>21/24 TCU Structure</figcaption>
 </figure>
 
-## Runway Modes
-Generally, YPPH operates on either the Southwest or Northeast runway plan, as below. Where strong winds dictate the use of only a single runway, this will be nominated in the ATIS.
-
-### Southwest Plan
-With the Southwest Plan active, all departures shall be assigned runway 21 by **PH ACD**. Arrivals shall be processed to either runway 21 or 24 based on their feeder fix, as per the table below:
-
-| Feeder Fix | Assigned Runway |
-| --- | --- |
-| JULIM | 21 |
-| SAPKO | 21 |
-| IPMOR | 21 |
-| KABLI | 24 |
-| LAVEX | 24 |
-| SOLUS | 24 |
-
-!!! note
-    Where an aircraft operationally requires runway 21, they shall be assigned that runway regardless of feeder fix.
-
-### Northeast Plan
-With the Northeast Plan active, departures via `AVNEX`, `OTLED`, `OLMAM`, `SOLUS`, and `OPEGA` shall be assigned runway 03 by **PH ACD**. All other departures shall be assigned runway 06. All arrivals shall be processed to runway 03.
-
-## Scenic Flights
+## Local Procedures
+### Scenic Flights
 VFR aircraft may plan to conduct scenic flights within CTA in the PH TMA. A number of VFR routes exist to facilitate this, including:
 
 | Name | Route | Preferred Altitude |
@@ -109,6 +89,27 @@ Aircraft departing the TMA to the south planned at `F130` or above will likely l
 !!! phraseology
     **PHD**: "RXA2125, leave and re-enter controlled airspace on climb to F180, no reported IFR traffic"  
     **RXA2125**: "Leave and re-enter controlled airspace on climb to F180, RXA2125"
+
+## Runway Modes
+Generally, YPPH operates on either the Southwest or Northeast runway plan, as below. Where strong winds dictate the use of only a single runway, this will be nominated in the ATIS.
+
+### Southwest Plan
+With the Southwest Plan active, all departures shall be assigned runway 21 by **PH ACD**. Arrivals shall be processed to either runway 21 or 24 based on their feeder fix, as per the table below:
+
+| Feeder Fix | Assigned Runway |
+| --- | --- |
+| JULIM | 21 |
+| SAPKO | 21 |
+| IPMOR | 21 |
+| KABLI | 24 |
+| LAVEX | 24 |
+| SOLUS | 24 |
+
+!!! note
+    Where an aircraft operationally requires runway 21, they shall be assigned that runway regardless of feeder fix.
+
+### Northeast Plan
+With the Northeast Plan active, departures via `AVNEX`, `OTLED`, `OLMAM`, `SOLUS`, and `OPEGA` shall be assigned runway 03 by **PH ACD**. All other departures shall be assigned runway 06. All arrivals shall be processed to runway 03.
 
 ## Flow
 ### Local Knowledge

@@ -5,27 +5,16 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login ID                         |
-| ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Bankstown ADC North**  | **Bankstown Tower**  | **132.800**         | **BK_TWR**                        |
-| <span class="indented">Bankstown ADC (Circuit) :material-information-outline:{ title="Non-standard position"}  | Bankstown Tower  | 123.600        | BK-C_TWR                        |
-| **Bankstown SMC**   | **Bankstown Ground**   | **119.900**         | **BK_GND**                       |
-| **Bankstown ATIS**        |                | **120.900**          | **YSBK_ATIS**                                |
+| Name                    | Callsign             | Frequency   | Login ID      |
+| ----------------------- | -------------------- | ----------- | ------------- |
+| **Bankstown ADC North** | **Bankstown Tower**  | **132.800** | **BK_TWR**    |
+| <span class="indented">Bankstown ADC (Circuit) :material-information-outline:{ title="Non-standard position"} | Bankstown Tower | 123.600 | BK-C_TWR |
+| **Bankstown SMC**       | **Bankstown Ground** | **119.900** | **BK_GND**    |
+| **Bankstown ATIS**      |                      | **120.900** | **YSBK_ATIS** |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
-
-### Dual ADC Operations
-When Bankstown ADC (Circuit) is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
-
-ADC North takes responsibility for the Northern Runways, Circuit and Airspace (Runway **11L/29R**, **11C/29C**), and Southern Airspace at **at A015**.
-
-ADC (Circuit) takes responsibility for the Southern Runway, Circuit and Airspace (Runway **11R/29L**), **not above A010**
-
-ADC (Circuit) is **not permitted** online when *Single Runway* Operations are in use.
-
-Refer to the [ATIS section](#runway-nomination) for information on ATIS formatting when ADC (Circuit) is online.
 
 ## Airspace
 BK ADC is responsible for the Class D airspace in the BK CTR `SFC` to `A015`.
@@ -37,50 +26,25 @@ BK ADC is responsible for the Class D airspace in the BK CTR `SFC` to `A015`.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
-## Manoeuvring Area
+### Dual ADC Operations
+When Bankstown ADC (Circuit) is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
+
+ADC North takes responsibility for the Northern Runways, Circuit and Airspace (Runway **11L/29R**, **11C/29C**), and Southern Airspace at **at A015**.
+
+ADC (Circuit) takes responsibility for the Southern Runway, Circuit and Airspace (Runway **11R/29L**), **not above A010**
+
+ADC (Circuit) is **not permitted** online when *Single Runway* Operations are in use.
+
+Refer to the [ATIS section](#runway-mode-formatting) for information on ATIS formatting when ADC (Circuit) is online.
+
+## Maneuvering Area
 All apron areas and associated taxiways are *outside* the manoeuvring area. Each run up bay is inside the manoeuvring area and taxi instructions are required to proceed to them.
 
 !!! tip
     The Manoeuvring Area chart can be found on the [CASA Website](https://www.casa.gov.au/bankstown-manoeuvring-area-map).
 
-## Fixed-Wing Operations
-### VFR Inbound Procedures
-VFR aircraft will report inbound at PSP or TWRN. They should be instructed to join the circuit as below:
-
-| VFR Approach Point | RWYs 29  | RWYs 11 |
-| ----------------| --------- | ---------- |
-| PSP    | *"Join right downwind runway 29R, maintain A015"*, then when abeam RWYs 11 threshold or clear of departing traffic, *"Cleared visual approach"*       | *"Join final runway 11L, report 3nm"*        |
-| TWRN   | *"Join crosswind runway 29R, maintain A015"*, then when abeam RWYs 11 threshold or clear of departing traffic, *"Cleared visual approach"* | *"Join final runway 11L, report at Warwick Farm"*  |
-
-!!! note
-    Aircraft joining final in the RWY 11 direction are not assigned a level and are expected to commence a visual approach in accordance with the tracking instructions issued by ADC. Aircraft are required to enter the control zone at `A010`. There is no need to clear these aircraft for a visual approach.
-
-### VFR Outbound Procedures
-VFR aircraft should report ready to **BK ADC** with their departure intentions.  A takeoff clearance constitutes a clearance to depart the zone by extending the pilot's requested leg of the circuit.  Aircraft departing the zone into class G airspace will transfer to area frequency upon leaving the zone, **no explicit frequency transfer is given to these aircraft**.
-
-Aircraft departing a leg of the circuit will climb to and maintain the following levels until clear of the zone:  
-RWY 29 direction: `A010`  
-RWY 11 direction: `A015`
-
-### Departures into CTA
-Aircraft planned into the overlying Class C airspace shall be issued an airways clearance by **BK ADC** and assigned `A030`. These aircraft must be Next coordinated to the relevant TCU controller, who will assess the current traffic picture and provide a release when able. During times of peak TMA traffic, there may be extensive delays for departure and pilots may elect to depart directly into class G. See [Departure Coordination](#departures) for coordination requirements.
-
-### Circuits
-The circuit direction changes depending on time of day and runway being used.
-
-| Runway | Day  | Night |
-| ----------------| --------- | ---------- |
-| 11L    | Left       | -        |
-| 11C   | Left | Right  |
-| 11R    | Right | -  |
-| 29L     | Left        | -  |
-| 29C    | Right | Left         |
-| 29R    | Right        | -  |
-
-Circuits to be flown at `A010`
-
-## Adjacent Runways
-### Proximity
+## Local Procedures
+### Adjacent Runways
 There is 106 metres between the centrelines of Runway **11R/29L** & **11C/29C**, and 106 metres between the centrelines of Runway **11C/29C** & **11L/29R**.
 Due to the close proximity in critical stages of flight, there are additional considerations (below).
 
@@ -108,6 +72,28 @@ Controllers should allow at least one aircraft to become established on final pr
 As per YSBK ERSA, all aircraft should remain on Tower frequency when between Runways.
 The largest aircraft that can safely hold between Runways is a BE20 (King Air). All larger aircraft are considered to be occupying the runway behind until clear of all active Runways. 
 All helicopters are considered to be larger than a King Air for the purpose of this clause.
+
+## VFR Operations
+### VFR Inbound Procedures
+VFR aircraft will report inbound at PSP or TWRN. They should be instructed to join the circuit as below:
+
+| VFR Approach Point | RWYs 29  | RWYs 11 |
+| ----------------| --------- | ---------- |
+| PSP    | *"Join right downwind runway 29R, maintain A015"*, then when abeam RWYs 11 threshold or clear of departing traffic, *"Cleared visual approach"*       | *"Join final runway 11L, report 3nm"*        |
+| TWRN   | *"Join crosswind runway 29R, maintain A015"*, then when abeam RWYs 11 threshold or clear of departing traffic, *"Cleared visual approach"* | *"Join final runway 11L, report at Warwick Farm"*  |
+
+!!! note
+    Aircraft joining final in the RWY 11 direction are not assigned a level and are expected to commence a visual approach in accordance with the tracking instructions issued by ADC. Aircraft are required to enter the control zone at `A010`. There is no need to clear these aircraft for a visual approach.
+
+### VFR Outbound Procedures
+VFR aircraft should report ready to **BK ADC** with their departure intentions.  A takeoff clearance constitutes a clearance to depart the zone by extending the pilot's requested leg of the circuit.  Aircraft departing the zone into class G airspace will transfer to area frequency upon leaving the zone, **no explicit frequency transfer is given to these aircraft**.
+
+Aircraft departing a leg of the circuit will climb to and maintain the following levels until clear of the zone:  
+RWY 29 direction: `A010`  
+RWY 11 direction: `A015`
+
+### Departures into CTA
+Aircraft planned into the overlying Class C airspace shall be issued an airways clearance by **BK ADC** and assigned `A030`. These aircraft must be Next coordinated to the relevant TCU controller, who will assess the current traffic picture and provide a release when able. During times of peak TMA traffic, there may be extensive delays for departure and pilots may elect to depart directly into class G. See [Departure Coordination](#departures) for coordination requirements.
 
 ## Helicopter Operations
 ### General
@@ -160,22 +146,40 @@ Circuits are conducted within the lateral confines of the fixed-wing circuit at 
 !!! phraseology
     **BK ADC:** "SUA, main pad, cleared stop and go"
 
+## Runway Modes
+### Preferred Runway Modes
+Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
+
+| Priority - Mode | Arrivals  | Departures | Circuits |
+| ----------------| --------- | ---------- | -------- |
+| 1 - 29 PROPS | 29R (VFR) & 29C (IFR) | 29R (VFR) & 29C (IFR) | 29L |
+| 2 - 11 PROPS | 11L (VFR) & 11C (IFR) | 11L (VFR) & 11C (IFR) | 11R |
+
+#### Night Operational Restrictions
+Runway 11R/29L is unlit, and **cannot** be used at night.
+
+### Circuits
+The circuit direction changes depending on time of day and runway being used.
+
+| Runway | Day   | Night |
+| ------ | ----- | ----- |
+| 11L    | Left  | -     |
+| 11C    | Left  | Right |
+| 11R    | Right | -     |
+| 29L    | Left  | -     |
+| 29C    | Right | Left  |
+| 29R    | Right | -     |
+
+Circuits to be flown at `A010`
+
 ## ATIS
-### Runway Nomination
-The ATIS must indicate the current runway config and nominate what each parallel runway is being used for. 
+### Runway Mode Formatting
+The ATIS must indicate runway configuration in the format below:
 
-| Runway | Use |
-| ------ | --- |
-| Northern Runway (11L/29R) | VFR arrivals/departures |
-| Southern Runway (11R/29L) | Circuit training |
-| Centre Runway (11C/29C) | IFR arrivals/departures and VFR overflow |
-
-This should be reflected on the ATIS as below:  
-
-| Controllers | ATIS RWY Field |
-| ----------- | -------------- |
-| Single ADC | `RWY 11L/29R FOR ARRS AND DEPS. RWY 11R/29L FOR CCT TRAINING. RWY 11C/29C IN USE` |
-| Dual ADC | `RWY 11L/29R FOR ARRS AND DEPS, FREQ 132.8. RWY 11R/29L FOR CCT TRAINING, FREQ 123.6. RWY 11C/29C IN USE` |
+| Mode        | Controllers | ATIS Runway information |
+| ----------- | ----------- | ----------------------- |
+| 11/29 PROPS | Single ADC  | `RWY 11L/29R FOR ARRS AND DEPS. RWY 11R/29L FOR CCT TRAINING. RWY 11C/29C IN USE` |
+| 11/29 PROPS | Dual ADC    | `RWY 11L/29R FOR ARRS AND DEPS, FREQ 132.8. RWY 11R/29L FOR CCT TRAINING, FREQ 123.6. RWY 11C/29C IN USE` |
 
 ### Operational Info
 When the crosswind component exceeds 15 knots, the OPR INFO field must include:  

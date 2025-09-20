@@ -19,14 +19,6 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
-### CPDLC
-
-The Primary Communication Method for OLW is [CPDLC](../../../client/cpdlc).
-
-The CPDLC Station Code is `YOLW`.
-
-Voice may be used in lieu when applicable.
-
 ## Airspace
 
 <figure markdown>
@@ -42,6 +34,14 @@ When **KA ADC** is offline, KA CTR (Class D `SFC` to `A055`) reverts to Class G,
 
 !!! tip
     If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+
+### CPDLC
+
+The Primary Communication Method for OLW is [CPDLC](../../../client/cpdlc).
+
+The CPDLC Station Code is `YOLW`.
+
+Voice may be used in lieu when applicable.
 
 ## Sector Responsibilities
 ### YPKA Arrivals

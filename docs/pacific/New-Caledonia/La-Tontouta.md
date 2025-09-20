@@ -83,7 +83,7 @@ At night, VFR aircraft are prohibited from performing a visual approach when arr
 <!---## Helicopter Operations--->
 
 ## Runway Modes
-### Runway Selection
+### Preferred Runway Modes
 The preferred runway mode is reciprocal runway operations on **Runway 11/29**.
 
 | Mode | Arrivals | Departures |

@@ -37,23 +37,8 @@ EDN CTR reverts to Class G when **EDN ADC** is offline, and is administered by t
   <figcaption>AD TCU Structure</figcaption>
 </figure>
 
-## Arrival Procedures
-### Jets
-Jet aircraft will be assigned the relevant Alpha or Zulu STAR to Runway 23 or 05.
-
-### Non-Jets
-Non-Jet aircraft will be processed via a combination of:
-
-- Non-jet Victor STARs for VSA
-- Alpha/Zulu STARs for IAP
-- No STAR, expecting vectors or direct tracking for VSA or IAP
-
-!!! tip
-    Refer to the [TBD page](../enroute/Melbourne%20Centre/TBD.md#ypad-star-assignment) for more details on the ATIS conditions and feeder fix combinations which will determine how each aircraft is processed.
-
-Non-jet aircraft processed via direct tracking for a VSA should be vectored or cleared as necessary to join a circuit leg (generally final or downwind).
-
-## Scenic Coastal Flights
+## Local Procedures 
+### Scenic Coastal Flights
 VFR aircraft may transit the control zone tracking coastal north or southbound, generally at `A005`. **AD TCU** is responsible for ensuring these aircraft remain separated from aircraft arriving/departing at YPAD and may delegate this responsibility to **AD ADC**.  
 
 Coordinate the aircraft with ADC, including the use of the appropriate clearance limit in the table below, then issue airways clearance. Before the aircraft reaches the clearance limit, transfer them to ADC who will manage their transit of the extended runway centreline.  The clearance limits in the table below will ensure that coastal aircraft remain clear of the runway 05 approach path and runway 23 departure/missed approach path. 
@@ -85,6 +70,23 @@ Coordinate the aircraft with ADC, including the use of the appropriate clearance
 
 Once the aircraft has transited the extended runway centreline and is clear of potential conflict with YPAD, ADC will transfer them back to the TCU.
 
+## Departure and Arrival Procedures
+### Arrival 
+#### Jets
+Jet aircraft will be assigned the relevant Alpha or Zulu STAR to Runway 23 or 05.
+
+#### Non-Jets
+Non-Jet aircraft will be processed via a combination of:
+
+- Non-jet Victor STARs for VSA
+- Alpha/Zulu STARs for IAP
+- No STAR, expecting vectors or direct tracking for VSA or IAP
+
+!!! tip
+    Refer to the [TBD page](../enroute/Melbourne%20Centre/TBD.md#ypad-star-assignment) for more details on the ATIS conditions and feeder fix combinations which will determine how each aircraft is processed.
+
+Non-jet aircraft processed via direct tracking for a VSA should be vectored or cleared as necessary to join a circuit leg (generally final or downwind).
+
 ## Offline Towers
 ### PF ADC Offline
 Due to the low level of CTA at YPPF, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
@@ -100,7 +102,7 @@ Due to the low level of CTA at YPPF, it is best practice to give airways clearan
     **AD TCU**: "ABC, assigned heading right 360, report airborne"  
     **ABC**: "Assigned right 360, wilco, ABC"
 
-## Flow
+## Flow 
 ### Local Knowledge
 - With **Visual approaches** in use, Non-Jets should be issued the relevant **Non-Jet STAR**.
     - If **delays** are required, additional track miles may be obtained by issuing the relevant **Alpha/Zulu STAR**.
@@ -182,7 +184,6 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **SURGN STAR**<br>*Feeder Fix: KAKLU - Circuit Join*<br>*Feeder Fix: KAKLU - IAP* | <br>13\^<br>- | <br>13\^<br>17 | <br>13\^<br>- | <br>13\^<br>14 |
     | **No STAR - Circuit Join**<br>*Feeder Fix: AGROS*<br>*Feeder Fix: ATNAR*<br>*Feeder Fix: DRINA*<br>*Feeder Fix: ELROX*<br>*Feeder Fix: KLAVA*<br>*Feeder Fix: MARGO*  | <br>14<br>13\^<br>14<br>-<br>15<br>13\^ | <br>13\^<br>13\^<br>14\^<br>-<br>13\^<br>12\^ | <br>14<br>15<br>14<br>-<br>13\^<br>13\^ | <br>14\^<br>14\^<br>13\^<br>13\^<br>15<br>13\^ |
     | **No STAR - Direct to IAF**<br>*Feeder Fix: AGROS*<br>*Feeder Fix: ATNAR*<br>*Feeder Fix: ELROX*<br>*Feeder Fix: MARGO* | <br>-<br>-<br>11\^<br>- | <br>13\^<br>13\^<br>12\^<br>12\^ | <br>-<br>-<br>18<br>- | <br>20<br>20<br>16<br>19 |
-
 
 #### Corrections
 | Situation | Correction |

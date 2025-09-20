@@ -5,10 +5,10 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | ---------------- |
-| **Alice Springs ADC** | **Alice Tower** | **118.300** | **AS_TWR** |
-| **Alice Springs ATIS** |  | **123.000** | **YBAS_ATIS** |
+| Name                   | Callsign        | Frequency   | Login ID      |
+| ---------------------- | --------------- | ----------- | ------------- |
+| **Alice Springs ADC**  | **Alice Tower** | **118.300** | **AS_TWR**    |
+| **Alice Springs ATIS** |                 | **123.000** | **YBAS_ATIS** |
 
 ## Airspace
 AS ADC is responsible for the Class D airspace `SFC` to `A045`, as well as the Class C airspace `A045` to `A065`, within the AS CTR.
@@ -26,8 +26,12 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
   <figcaption>Manoeuvring Area</figcaption>
 </figure>
 
-## VFR Routes
+## Separation
+### Surveillance
+Surveillance coverage can be expected to be available at all levels in the AS CTR. Although AS ADC is **not permitted** to use surveillance for separation, ASP may assist by establishing surveillance separation standards via coordination
 
+## VFR Operations
+### VFR Routes
 Alice Springs has 10 VFR routes that follow prominent geographic features and highways. These established routes begin at various reporting points, providing entry to the CIRA. VFR Routes 8 and 9 provide separation from R215 Pine Gap.
 
 <figure markdown>
@@ -43,8 +47,12 @@ Alice Springs has 10 VFR routes that follow prominent geographic features and hi
 !!! tip
     You can find details of all VFR Routes on the [Alice Springs / Uluru VTC](https://www.airservicesaustralia.com/aip/aip.asp){target=new}.
 
-## Surveillance
-Surveillance coverage can be expected to be available at all levels in the AS CTR. Although AS ADC is **not permitted** to use surveillance for separation, ASP may assist by establishing surveillance separation standards via coordination
+## SID Selection
+Aircraft planned via **DESET**, **DIGLA**, **ELLOW**, **GAFER**, **HONGI**, **IDANU**, **KALUG**, **LUGSA**, **MATMA**, **PULOL**, **PUMAK**, **RUPUS**, **SADEL**, **SOTMI**, **TNK**, and **TUMSO**  shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus.
+
+ **RNP (0.3)** approved operators planned via **DIGLA**, **ELLOW**, **GAFER**, **KALUG**, **PULOL**, **SADEL**, **RUPUS**, and **YOTHU** shall be assigned the **OCTAV** or **MUDMO** procedural SIDs.
+
+Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
 ## Coordination
 ### Departures

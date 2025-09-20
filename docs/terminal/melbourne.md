@@ -82,12 +82,13 @@ The divisions of the airspace between **MAE**, **MDN**, **MDS**, and **MAV** cha
   <figcaption>34 TCU Structure</figcaption>
 </figure>
 
-## Departure Procedures
-### ML (RADAR) SID
+## Departure and Arrival Procedures
+### Departure Procedures
+#### ML (RADAR) SID
 The **ML (RADAR) SID** is used for all non-jet IFR departures (and certain jet aircraft) from YMML. Unlike at other aerodromes, **ML ADC** does *not* need to coordinate these departures with a 'Next' call, provided they are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
-## Arrival Procedures
-### Level Assignment
+### Arrival Procedures
+#### Level Assignment
 When assigning levels on descent to aircraft, remember that you will not receive "Next" Coordination on aircraft assigned Standard Assignable Levels (`A050` for most aircraft), meaning an aircraft could depart at any time without prior warning and climb to `A050`. To maintain separation assurance between arrivals and departures, do not assign below `A060` to arriving aircraft until they are clear of the active runway's departure path.
 
 !!! example
@@ -110,12 +111,6 @@ VFR YMEN Arrivals from ML TCU shall be cleared via any of the following arrival 
 - APL 
 - SNP
 - WES
-
-### LAHSO
-!!! warning "Important"
-    Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
-
-Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../controller-skills/runwaymanagement.md#lahso) for more information.
 
 ## Offline Towers
 ### EN ADC Offline
@@ -204,6 +199,13 @@ Due to the low level of CTA surrounding YMMB, it is best practice to give airway
     **AAC:** "AAC, ready runway 35L"  
     **ML TCU:** "AAC, cleared to YBLT via SAMIG, flight planned route, climb to A040"  
     **AAC:** "Cleared to YBLT via SAMIG, flight planned route, climb to A040, AAC"
+
+## Runway Modes
+### LAHSO
+!!! warning "Important"
+    Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
+
+Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../controller-skills/runwaymanagement.md#lahso) for more information.
 
 ## Flow
 ### Local Knowledge

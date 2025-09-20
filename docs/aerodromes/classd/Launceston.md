@@ -6,10 +6,10 @@
 
 ## Positions
 
-| Name              | Callsign       | Frequency        | Login ID                         |
-| ----------------- | -------------- | ---------------- | ---------------------------------------- |
-| **Launceston ADC**    | **Launy Tower**   | **118.700**    | **LT_TWR**                         |
-| **Launceston ATIS**       |                | **134.750**          | **YMLT_ATIS**                                |
+| Name                | Callsign              | Frequency   | Login ID      |
+| ------------------- | --------------------- | ----------- | ------------- |
+| **Launceston ADC**  | **Launy Tower**       | **118.700** | **LT_TWR**    |
+| **Launceston ATIS** |                       | **134.750** | **YMLT_ATIS** |
 
 ## Airspace
 LT ADC is responsible for the Class D airspace in the LT CTR `SFC` to `A015`.
@@ -19,6 +19,14 @@ LT ADC is responsible for the Class D airspace in the LT CTR `SFC` to `A015`.
 </figure>
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
+
+## Runway Modes
+### Circuits
+#### Circuit Direction
+| Runway | Day | Night |
+| ------ | ------ | ----|
+| 14R    | Right | Right |
+| 32L     | Left  | Left |
 
 ## SID Selection
 Aircraft planned via **MIKIS**, **TASUM**, or **VEKLO** shall be assigned the relevant Procedural SID.
@@ -34,15 +42,8 @@ Aircraft **not** planned via any of the above waypoints, shall be recleared via 
 Aircraft unable to accept a SID, or that cannot practically accept amended routing via the above points, shall be assigned the **RADAR SID**.
 
 ## ATIS
+### ATIS Identifiers
 YMLT ATIS identifiers range from `A` to `M`, as YMHB uses `N` through `Y`.
-
-## VFR Operations
-
-### Circuit Direction
-| Runway | Day | Night |
-| ------ | ------ | ----|
-| 14R    | Right | Right |
-| 32L     | Left  | Left |
 
 ## Coordination
 ### Departures

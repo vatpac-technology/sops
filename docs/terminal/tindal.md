@@ -27,7 +27,8 @@ All of which are reclassified as **Class C** when active, and TN APP has Control
 !!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
-## Arrival/Departure Gates
+## Local Procedures
+### Arrival/Departure Gates
 There are 11 gates to facilate departues and arrivals from the TN Training Airspace, based on the TDL TACAN.  
 Departing aircraft will be cleared to track direct to the gate, or allowed to intercept the outbound radial by 10 DME.  
 Arrivals can be cleared via the appropriate gate for their return to YPTN.
@@ -61,7 +62,7 @@ Place/Bearing Distance points in the FDR can be used for routing via the gates, 
     MOROTAI = TN270030  
     NADZAB = TN150030  
 
-## Stereo Approaches (Fast Jet Aircraft)
+### Stereo Approaches (Fast Jet Aircraft)
 Fast jet aircraft typically transit from the SUA to YPTN at `F170`. When requested, or advised via ATIS, the stereo approach may be utilised to facilitate aircraft recovery.
 
 !!! tip
