@@ -5,11 +5,11 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | ---------------- |
-| **Mackay ADC** | **Mackay Tower** | **124.500** | **MK_TWR** |
-| **Mackay SMC** | **Mackay Ground** | **121.700** | **MK_GND** |
-| **Mackay ATIS** |    | **128.000** | **YBMK_ATIS** |
+| Name              | Callsign              | Frequency   | Login ID      |
+| ----------------- | --------------------- | ----------- | ------------- |
+| **Mackay ADC**    | **Mackay Tower**      | **124.500** | **MK_TWR**    |
+| **Mackay SMC**    | **Mackay Ground**     | **121.700** | **MK_GND**    |
+| **Mackay ATIS**   |                       | **128.000** | **YBMK_ATIS** |
 
 ## Airspace
 MK ADC is responsible for the Class D airspace in the MK CTR `SFC` to `A010`.
@@ -19,6 +19,11 @@ MK ADC is responsible for the Class D airspace in the MK CTR `SFC` to `A010`.
 </figure>
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
+
+## SID Selection
+Aircraft planned via **CLIFT** and **MUNAR** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID ending at these termini.
+
+Aircraft that are unable to accept a Procedural SID shall be assigned the **Radar SID**.
 
 ## Coordination
 ### Departures

@@ -6,10 +6,10 @@
 
 ## Positions
 
-| Name              | Callsign       | Frequency        | Login ID                         |
-| ----------------- | -------------- | ---------------- | ---------------------------------------- |
-| **Launceston ADC**    | **Launy Tower**   | **118.700**    | **LT_TWR**                         |
-| **Launceston ATIS**       |                | **134.750**          | **YMLT_ATIS**                                |
+| Name                | Callsign              | Frequency   | Login ID      |
+| ------------------- | --------------------- | ----------- | ------------- |
+| **Launceston ADC**  | **Launy Tower**       | **118.700** | **LT_TWR**    |
+| **Launceston ATIS** |                       | **134.750** | **YMLT_ATIS** |
 
 ## Airspace
 LT ADC is responsible for the Class D airspace in the LT CTR `SFC` to `A015`.
@@ -42,6 +42,7 @@ Aircraft **not** planned via any of the above waypoints, shall be recleared via 
 Aircraft unable to accept a SID, or that cannot practically accept amended routing via the above points, shall be assigned the **RADAR SID**.
 
 ## ATIS
+### ATIS Identifiers
 YMLT ATIS identifiers range from `A` to `M`, as YMHB uses `N` through `Y`.
 
 ## Coordination
