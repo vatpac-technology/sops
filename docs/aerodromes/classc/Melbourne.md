@@ -191,9 +191,9 @@ YMML ATIS identifiers only uses letters `N` through to `Y`, due to nearby YMEN u
 | Arrival Runway  | Cloud Base         | ATIS APCH field       |
 | --------------- | ------------------ | --------------------- |
 | 09              | All                | `EXP GLS OR RNP APCH` |
-| 16 or 27        | Above `A006`       | `EXP GLS OR ILS APCH` |
-| 16 or 27        | At or below `A006` | `EXP ILS APCH`        |
-| 34              | Above `A030`       | `ACFT ON THE ALPHA STAR EXP INST APCH`\* |
+| 16 or 27        | All                | `EXP GLS OR ILS APCH` |
+| 16              | At or below `A005` | `EXP ILS APCH`        |
+| 34              | Above `A030`       | `ACFT ON THE ALPHA STAR EXP GLS OR ILS APCH`\* |
 | 34              | At or below `A030` | `EXP GLS OR RNP APCH` |
 | 34 & 27 (LAHSO) | All                | `EXP INST APCH`       |
 
