@@ -5,12 +5,12 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login ID                         |
-| ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Archerfield ADC South**  | **Archer Tower**  | **118.100**        | **AF_TWR**                        |
-| <span class="indented">Archerfield ADC North :material-information-outline:{ title="Non-standard position"}  | Archer Tower  | 123.600        | AF-N_TWR                        |
-| **Archerfield SMC**   | **Archer Ground**  | **129.300**         | **AF_GND**                       |
-| **Archerfield ATIS**        |                | **120.900**          | **YBAF_ATIS**                                |
+| Name                       | Callsign              | Frequency   | Login ID      |
+| -------------------------- | --------------------- | ----------- | ------------- |
+| **Archerfield ADC South**  | **Archer Tower**      | **118.100** | **AF_TWR**    |
+| <span class="indented">Archerfield ADC North :material-information-outline:{ title="Non-standard position"} | Archer Tower | 123.600 | AF-N_TWR |
+| **Archerfield SMC**        | **Archer Ground**     | **129.300** | **AF_GND**    |
+| **Archerfield ATIS**       |                       | **120.900** | **YBAF_ATIS** |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
@@ -168,11 +168,17 @@ The circuit direction changes depending on time of day and runway being used.
 Circuits are to be flown at `A010`.
 
 ## ATIS
-### Runway Mode Formatting
+### Approach Expectation
+When **Runway 10L/28R** is in use for arrivals, the following table shall be followed for the Approach Expectation field:
 
+| Cloud Base                | Visibility | ATIS APCH field |
+| ------------------------- | ---------- | --------------- |
+| At or above `A029`        | >5000M     | (blank) |
+| At or below `A029` **or** | <5000M     | `EXP INST APCH` |
+
+### Runway Mode Formatting
 The ATIS must indicate the current runway config and nominate what each runway is being used for. This should be reflected on the ATIS as below:
 
-### Runway Mode Formatting
 | Mode        | ADC Ops | ATIS Runway information |
 | ----        | ------- | ----------------------- |
 | 10/28 PROPS | -       | `RWY 10L/28R FOR ARRS AND DEPS NORTH. RWY 10R/28L FOR ARRS AND DEPS SOUTH` |
@@ -182,15 +188,6 @@ The ATIS must indicate the current runway config and nominate what each runway i
 | 22 PROPS    | -       | `RWY 22. EASTERN DEPS NAVBL. RWY 22R FOR ARRS AND DEPS NORTH AND WEST. RWY 22L FOR ARRS SOUTH AND EAST AND DEPS SOUTH` |
 | 22 PROPS    | Dual    | `EASTERN DEPS NAVBL. RWY 22R FOR ARRS AND DEPS NORTH AND WEST, FREQ 123.6. RWY 22L FOR ARRS SOUTH AND EAST AND DEPS SOUTH, FREQ 118.1` |
 | Single Runway | -     | `ALL OPERATIONS RWY (Number)` |
-
-
-### Approach Expectation
-When **Runway 10L/28R** is in use for arrivals, the following table shall be followed for the Approach Expectation field:
-
-| Cloud Base                | Visibility | ATIS APCH field |
-| ------------------------- | ---------- | --------------- |
-| At or above `A029`        | >5000M     | (blank) |
-| At or below `A029` **or** | <5000M     | `EXP INST APCH` |
 
 ### Operational Info
 #### Helicopter Area
