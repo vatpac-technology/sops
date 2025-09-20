@@ -6,11 +6,11 @@
 
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login ID                         |
-| ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Camden ADC** | **Camden Tower** | **120.100**          | **CN_TWR**                        |
-| **Camden SMC**  | **Camden Ground**   | **121.900**          | **CN_GND**                      |
-| **Camden ATIS**        |                | **125.100**          | **YSCN_ATIS**                                |
+| Name              | Callsign              | Frequency   | Login ID      |
+| ----------------- | --------------------- | ----------- | ------------- |
+| **Camden ADC**    | **Camden Tower**      | **120.100** | **CN_TWR**    |
+| **Camden SMC**    | **Camden Ground**     | **121.900** | **CN_GND**    |
+| **Camden ATIS**   |                       | **125.100** | **YSCN_ATIS** |
 
 ## Airspace
 CN ADC is responsible for the Class D airspace in the CN CTR `SFC` to `A020`.
@@ -90,8 +90,11 @@ When an aircraft reports on downwind, indicate their position in the sequence (a
     **CN ADC:** "JKA, number 2"
 
 ## ATIS
-### Approach Expectation
-When there is more than SCT cloud on the YSCN METAR area below `A035`, the APCH field must include `EXP INST APCH`.
+### Approach Types
+| Cloud Base          | Visibility | Approach        |
+| ------------------- | ---------- | --------------- |
+| At or above `A035`  | >5000M     | (blank)         |
+| Below `A035` **or** | <5000M     | `EXP INST APCH` |
 
 ## Coordination
 

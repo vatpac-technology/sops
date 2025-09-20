@@ -5,11 +5,11 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name              | Callsign       | Frequency        | Login ID                         |
-| ----------------- | -------------- | ---------------- | ---------------------------------------- |
-| **Hobart ADC**    | **Hobart Tower**   | **118.100**     | **HB_TWR**                            |
-| **Hobart SMC**    | **Hobart Ground**  | **121.700**     | **HB_GND**                  |
-| **Hobart ATIS**       |                | **128.450**          | **YMHB_ATIS**                                |
+| Name              | Callsign           | Frequency   | Login ID      |
+| ----------------- | ------------------ | ----------- | ------------- |
+| **Hobart ADC**    | **Hobart Tower**   | **118.100** | **HB_TWR**    |
+| **Hobart SMC**    | **Hobart Ground**  | **121.700** | **HB_GND**    |
+| **Hobart ATIS**   |                    | **128.450** | **YMHB_ATIS** |
 
 ## Airspace
 HB ADC is responsible for the Class D airspace in the HB CTR:  
@@ -87,6 +87,7 @@ As a landing clearance is not given, aircraft should instead be informed of any 
     **HB ADC:** "KLR, join base runway 12, cleared visual approach, no reported traffic, report clear of the runway"  
     **KLR:** "Join base runway 12, cleared visual approach, wilco, KLR"
 
+## VFR Operations
 ### Victor Routes
 | Victor    | Inbound       | Outbound        | 
 | --------- | -------------- | ---------------- | 
@@ -123,6 +124,7 @@ Non-Jet Aircraft planned via **RIBLI**, **KANLI**, or **LAVOP**, shall be assign
 Other aircraft shall be assigned an appropriate **Procedural SID** or a visual departure.
 
 ## ATIS
+## ATIS Identifiers
 YMHB ATIS identifiers range from `N` to `Y`, as YMLT uses `A` through `M`. 
 
 ## Coordination

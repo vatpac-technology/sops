@@ -208,6 +208,7 @@
 *[FREM]: Fremantle Golf Course
 *[YGB]: Yangebup Lake
 *[FDL]: Forestdale Lake
+*[SHOP]: Armadale Shops
 *[BOAT]: Boatyard
 *[POWR]: Powerhouse
 *[OAKF]: Oakford

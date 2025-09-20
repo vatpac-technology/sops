@@ -174,7 +174,7 @@ Circuits to be flown at `A010`
 
 ## ATIS
 ### Runway Mode Formatting
-The ATIS must indicate the current runway config and nominate what each runway is being used for. This should be reflected on the ATIS as below:
+The ATIS must indicate runway configuration in the format below:
 
 | Mode        | Controllers | ATIS Runway information |
 | ----------- | ----------- | ----------------------- |

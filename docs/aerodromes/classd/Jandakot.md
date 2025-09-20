@@ -6,16 +6,24 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login ID                         |
-| ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Jandakot ADC West**  | **Jandakot Tower**  | **118.100**          | **JT_TWR**                        |
-| <span class="indented">Jandakot ADC (Circuit) :material-information-outline:{ title="Non-standard position"}  | Jandakot Tower  | 119.400        | JT-C_TWR                        |
-| **Jandakot SMC**  | **Jandakot Ground**   | **124.300**          | **JT_GND**                       |
-| **Jandakot ATIS**     |                | **128.650**          | **YPJT_ATIS**                                |
+| Name                   | Callsign              | Frequency   | Login ID      |
+| ---------------------- | --------------------- | ----------- | ------------- |
+| **Jandakot ADC West**  | **Jandakot Tower**    | **118.100** | **JT_TWR**    |
+| <span class="indented">Jandakot ADC (Circuit) :material-information-outline:{ title="Non-standard position"} | Jandakot Tower | 119.400 | JT-C_TWR |
+| **Jandakot SMC**       | **Jandakot Ground**   | **124.300** | **JT_GND**    |
+| **Jandakot ATIS**      |                       | **128.650** | **YPJT_ATIS** |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
+
+## Airspace
+JT ADC is responsible for the Class D airspace in the JT CTR `SFC` to `A015`.
+
+<figure markdown>
+![JT ADC Airspace](img/JTTWR.png){ width="700" }
+  <figcaption>JT ADC Airspace</figcaption>
+</figure>
 
 ### Dual ADC Operations
 When Jandakot ADC (Circuit) is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
@@ -28,33 +36,11 @@ ADC (Circuit) is **not permitted** online when *Single Runway* Operations are in
 
 Refer to the [ATIS section](#runway-nomination) for information on ATIS formatting when ADC East is online.
 
-## Airspace
-JT ADC is responsible for the Class D airspace in the JT CTR `SFC` to `A015`.
-
-<figure markdown>
-![JT ADC Airspace](img/JTTWR.png){ width="700" }
-  <figcaption>JT ADC Airspace</figcaption>
-</figure>
-
-### Dual ADC Operations
+#### Airspace
 Airspace Ownership when ADC East is online, is:
 
 - At `A015`; owned entirely by ADC West
 - At or below `A010`; split between ADC Circuit/West down the middle of the **06L/24R** and **06R/24L** extended centrelines.
-
-## Local Procedures
-### IFR Operations
-#### Arrivals
-**PH TCU** will coordinate all IFR arrivals in accordance with coordination procedures.
-
-#### Departures
-All IFR Departures must be assigned the most appropriate SID in accordance with the aircraft's direction of flight.
-
-| Direction | SID   |
-| -------| ----- |
-| South/West    | TONEG  |
-| North/North-west    | ISPET |
-| East/North-east    | SCARP |
 
 ## VFR Operations
 ### Arrivals
@@ -88,34 +74,53 @@ Unless otherwise depicted in the `ERSA FAC YPJT`, all helicopters must comply wi
 Circuits are conducted within the lateral confines of the fixed-wing circuit at `A008`, in the same direction as the current runway config.  The termination point of the circuit is the Main Pad.
 
 ## Runway Modes
-### Parallel Runway Ops
-During parallel runway operations, the northern runway (**06L/24R**) shall be used for VFR arrivals and departures and the southern runway (**06R/24L**) for circuit training and departures via SHOP. 
+### Preferred Runway Modes
+Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
-The [ATIS](#runway-nomination) shall be updated to reflect the use of each runway.
+| Priority - Mode | Arrivals  | Departures | Circuits |
+| ----------------| --------- | ---------- | -------- |
+| =1 - 06 PROPS | 06L | 06R (DEPS VIA SHOP) & 06L (ALL OTHER DEPS) | 06R |
+| =1 - 24 PROPS | 24R | 24L (DEPS VIA SHOP) & 24R (ALL OTHER DEPS) | 24L |
+| =2 - 12 only | 12 | 12 | 12 |
+| =2 - 30 only | 30 | 30 | 30 |
 
-### Single Runway Ops
-Where excessive crosswind exists on the parallel runways, Runway 12 or 30 shall be used for all operations.
+The [ATIS](#runway-mode-formatting) shall be updated to reflect the use of each runway.
+
+#### Night Operational Restrictions
+Runway 06R/24L is unlit, and **cannot** be used at night.
 
 ### Circuits
 Circuits shall be flown at `A010`.
 
-| Runway | Direction  |
-| -------| ----- |
-| 06L    | Left  |
-| 06R    | Right |
-| 24L    | Left  |
-| 24R    | Right |
-| 12     | Left  |
-| 30     | Left  |
+| Runway | Day   | Night |
+| ------ | ----- | ----- |
+| 06L    | Left  | Right |
+| 06R    | Right | -     |
+| 24L    | Left  | -     |
+| 24R    | Right | Left  |
+| 12     | Left  | Left  |
+| 30     | Left  | Left  |
+
+## SID Selection
+Aircraft shall be assigned the appropriate SID according to their direction of travel.
+
+| Direction          | SID        |
+| ------------------ | ---------- |
+| North and West     | **ISPET^** |
+| East               | **SCARP^** |
+| South and West     | **TONEG**  |
+
+!!! note
+    ^ The **ISPET** and **SCARP** SIDs include visual maneuvres when departing Runway 06L is in use. The **ISPET** SID also includes a visual maneuvres for aircraft departing Runway 12. When the cloud base is at or below `A007`, the **TONEG** SID should be assigned in lieu of these SIDs when departing an affected runway.
 
 ## ATIS
-### Runway Nomination
-Where multiple runways are in use, the ATIS `RWY` field shall indicate:
+### Runway Mode Formatting
+The ATIS must indicate runway configuration in the format below:
 
-| ADC Configuration | RWY Field |
-| ----- | ---- |
-| Single ADC | `RWY 06R/24L FOR CCTS AND DEPS VIA ARMADALE SHOPS. RWY 06L/24R FOR ARRS AND ALL OTHER DEPS` |  
-| Dual ADC | `RWY 06R/24L FOR CCTS AND DEPS VIA ARMADALE SHOPS, FREQ 119.4. RWY 06L/24R FOR ARRS AND ALL OTHER DEPS, FREQ 118.1` |
+| Mode        | Controllers | ATIS Runway information |
+| ----------- | ----------- | ----------------------- |
+| 06/24 PROPS | Single ADC  | `RWY 06R/24L FOR CCTS AND DEPS VIA ARMADALE SHOPS. RWY 06L/24R FOR ARRS AND ALL OTHER DEPS` |
+| 06/24 PROPS | Dual ADC    | `RWY 06R/24L FOR CCTS AND DEPS VIA ARMADALE SHOPS, FREQ 119.4. RWY 06L/24R FOR ARRS AND ALL OTHER DEPS, FREQ 118.1` |
 
 ### Operational Info
 When YPPH RWY 03 is in use, the `OPR INFO` shall include:  

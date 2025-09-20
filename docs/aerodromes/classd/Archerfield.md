@@ -177,7 +177,7 @@ When **Runway 10L/28R** is in use for arrivals, the following table shall be fol
 | At or below `A029` **or** | <5000M     | `EXP INST APCH` |
 
 ### Runway Mode Formatting
-The ATIS must indicate the current runway config and nominate what each runway is being used for. This should be reflected on the ATIS as below:
+The ATIS must indicate runway configuration in the format below:
 
 | Mode        | Controllers | ATIS Runway information |
 | ----------- | ----------- | ----------------------- |
