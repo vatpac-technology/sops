@@ -6,27 +6,16 @@
 
 ## Positions
 
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | ---------------- |
-| **Tamworth ADC** | **Tamworth Tower** | **119.400** | **TW_TWR** |
-| <span class="indented">Tamworth ADC South :material-information-outline:{ title="Non-standard position"}  | Tamworth Tower  | 118.250        | TW-S_TWR                        |
-| **Tamworth SMC** | **Tamworth Ground** | **121.900** | **TW_GND** |
-| **Tamworth ATIS** |  | **123.800** | **YSTW_ATIS** |
+| Name              | Callsign              | Frequency   | Login ID      |
+| ----------------- | --------------------- | ----------- | ------------- |
+| **Tamworth ADC**  | **Tamworth Tower**    | **119.400** | **TW_TWR**    |
+| <span class="indented">Tamworth ADC South :material-information-outline:{ title="Non-standard position"} | Tamworth Tower | 118.250 | TW-S_TWR |
+| **Tamworth SMC**  | **Tamworth Ground**   | **121.900** | **TW_GND**    |
+| **Tamworth ATIS** |                       | **123.800** | **YSTW_ATIS** |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
-
-### Dual ADC Operations
-When Tamworth ADC South is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
-
-ADC North takes responsibility for the North Runway, Circuit and Airspace (Runway **12L/30R**).
-
-ADC South takes responsibility for the South Runway, Circuit and Airspace (Runway **12R/30L**).
-
-ADC South is **not permitted** online when *Single Runway* Operations are in use.
-
-Refer to the [ATIS section](#runway-nomination) for information on ATIS formatting when ADC South is online.
 
 ## Airspace
 <figure markdown>
@@ -44,6 +33,24 @@ When ADC South is Online, they are responsible for the airspace between the **TW
 <figure markdown>
 ![TW Dual ADC Airspace](img/twadcown.png){ width="600" }
   <figcaption>TW Dual ADC Airspace</figcaption>
+</figure>
+
+ADC North takes responsibility for the North Runway, Circuit and Airspace (Runway **12L/30R**).
+
+ADC South takes responsibility for the South Runway, Circuit and Airspace (Runway **12R/30L**).
+
+ADC South is **not permitted** online when *Single Runway* Operations are in use.
+
+Refer to the [ATIS section](#runway-nomination) for information on ATIS formatting when ADC South is online.
+
+## Maneuvering Area
+### Taxiway Restrictions
+## Taxiways
+Taxiway B west of C is limited to 8000KG AUW and 23M MAX wingspan. Common airliners including Dash 8 Q400s will need to enter/exit runway 12L/30R via intersection C.
+
+<figure markdown>
+![TW TWY](img/TW_west_of_C.png){ width="800" }
+  <figcaption>Twy B west of C shown in red</figcaption>
 </figure>
 
 ## Separations
@@ -87,29 +94,44 @@ The **Oxley** and **New England** Highways are good references for this standard
 ### Surveillance
 Surveillance coverage can be expected to be not available below `A034` in the TW CTR. Although TW ADC is **not permitted** to use surveillance for separation, ARL/MDE may assist by establishing surveillance separation standards via coordination
 
+## VFR Operations
+VFR aircraft departing between the 160 radial through to the 295 radial should report ready **GST** or **GWT**.
+
+VFR Arrivals from the 160 radial through to the 295 radial should route via **DUA**. Clearance required prior to DUA. Aircraft should report 5NM for circuit entry instructions.
+
+<figure markdown>
+![TW VFR Routes](img/TW_VFR_routes.png){ width="800" }
+  <figcaption>VFR Routes</figcaption>
+</figure>
+
 ## Runway Modes
-Equal preference is shared between runways 12L/R and 30L/R.
+### Preferred Runway Modes
+Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
-Runway 12R/30L shall be used for:
+| Priority - Mode | Arrivals  | Departures | Circuits |
+| --------------- | --------- | ---------- | -------- |
+| =1 - 12 PROPS   | 12R (via DUA, and single engine VFR from 160° radial clockwise to 295° radial). 12L (all other arrs) | 12R (via GST or GWT), 12L (all other deps) | 12R |
+| =1 - 30 PROPS   | 30L (via DUA, and single engine VFR from 160° radial clockwise to 295° radial). 30R (all other arrs)  | 30L (via GST or GWT), 30R (all other deps) | 30L |
 
-- All single-engine VFR arrivals and departures from the 160 Radial through West to the 295 Radial
-- Arrivals via DUA
-- Departures via GST or GWT
-- Single-engine circuit training
+### Special Runway Operations
+#### PROPS
+During day VMC only, simultaneous parallel runway operations may be used between runways 12L/R or 30L/R. The [ATIS](#operational-info) must be updated to reflect this mode.
 
-Runway 12L/30R shall be used for all other operations. 
-
-### Simultaneous Parallel Runway Ops
-During day VMC only, simultaneous parallel runway operations may be used between runways 12L/R or 30L/R. The [ATIS](#operational-info) must be updated to reflect this mode. Controllers must closely monitor the base and final legs of the circuit to ensure pilots do not pass through their assigned runway centreline.
+Controllers must closely monitor the base and final legs of the circuit to ensure pilots do not pass through their assigned runway centreline.
 
 In the absense of day VMC, dependent parallel runway operations may be conducted, with an adequate separation standard in place between aircraft operating from adjacent runways.
 
 ### Circuits
-Circuits are to be flown in the direction coinciding with the Runway designator (Left/Right) at `A024`.
+Circuits are to be flown in the direction coinciding with the Runway designator (Left/Right) at `A025`.
 
 ## ATIS
-### Runway Nomination
-When 2 ADC controllers are online, the ATIS shall be formatted: `RWY 12R/30L FOR CCTS AND ARRS AND DEPS SOUTH WEST, FREQ 118.25. RWY 12L/30R FOR ALL OTHER ARRS AND DEPS, FREQ 119.4`
+### Runway Mode Formatting
+The ATIS must indicate runway configuration in the format below:
+
+| Mode        | Controllers | ATIS Runway information |
+| ----------- | ----------- | ----------------------- |
+| 12/30 PROPS | Single ADC  | `RWY 12R/30L FOR CCTS AND ARRS AND DEPS SOUTH WEST. RWY 12L/30R FOR ALL OTHER ARRS AND DEPS` |
+| 12/30 PROPS | Dual ADC    | `RWY 12R/30L FOR CCTS AND ARRS AND DEPS SOUTH WEST, FREQ 118.25. RWY 12L/30R FOR ALL OTHER ARRS AND DEPS, FREQ 119.4` |
 
 ### Operational Info
 When parallel runway operations are in use, the ATIS OPR INFO field shall include:  
