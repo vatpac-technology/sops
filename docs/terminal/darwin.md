@@ -58,17 +58,6 @@ Darwin TCU is not responsible for traffic or separation services within the A005
 VFR aircraft generally track via designated VFR routes, as shown on the Darwin VTC.
 
 ## Runway Modes
-Runway selection shall be coordinated by DN ADC. In any case, a change of runway mode shall not be broadcast on the ATIS until DAW accepts the change.  
-
-The Runway Mode options available are:
-
-a) Runway 29 and Runway 36;  
-b) Runway 29 and Runway 18;  
-c) Runway 29 only;  
-d) Runway 11 and Runway 36;  
-e) Runway 11 and Runway 18;  
-f) Runway 11 only.  
-
 ### LASHO
 !!! warning "Important"
     Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
