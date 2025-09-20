@@ -132,6 +132,9 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 
 Runway 04/22 is not nominated by default and is only available on request or when operationally required for emergencies. Requests for Runway 22 may be granted if traffic conditions allow. Runway 04 is less likely to be approved due the need to vacate onto an intersecting runway.
 
+#### Night Operational Restrictions
+Runways 13R/31L, 17R/35L, and 04/22 are unlit, and **cannot** be used at night.
+
 ### Circuits
 #### Fixed wing
 Circuit altitude: `A010`.

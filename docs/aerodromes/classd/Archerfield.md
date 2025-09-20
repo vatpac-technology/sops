@@ -171,10 +171,10 @@ Circuits are to be flown at `A010`.
 ### Approach Expectation
 When **Runway 10L/28R** is in use for arrivals, the following table shall be followed for the Approach Expectation field:
 
-| Cloud Base                | Visibility | ATIS APCH field |
-| ------------------------- | ---------- | --------------- |
-| At or above `A029`        | >5000M     | (blank) |
-| At or below `A029` **or** | <5000M     | `EXP INST APCH` |
+| Cloud Base          | Visibility | ATIS APCH field |
+| ------------------- | ---------- | --------------- |
+| At or above `A029`  | >5000M     | (blank) |
+| Below `A029` **or** | <5000M     | `EXP INST APCH` |
 
 ### Runway Mode Formatting
 The ATIS must indicate runway configuration in the format below:
