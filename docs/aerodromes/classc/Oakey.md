@@ -6,12 +6,12 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login ID              |
-| ------------------ | -------------- | ---------------- | --------------------------------------|
-| **Oakey ADC**    | **Oakey Tower**  | **120.100**         | **OK_TWR**        |
-| **Oakey SMC**    | **Oakey Ground**  | **121.900**      | **OK_GND**        |
-| **Oakey ACD**    | **Oakey Delivery** | **133.350** | **OK_DEL** |
-| **Oakey ATIS**   |               | **124.300**      | **YBOK_ATIS**     |
+| Name              | Callsign              | Frequency   | Login ID      |
+| ----------------- | --------------------- | ----------- | ------------- |
+| **Oakey ADC**     | **Oakey Tower**       | **120.100** | **OK_TWR**    |
+| **Oakey SMC**     | **Oakey Ground**      | **121.900** | **OK_GND**    |
+| **Oakey ACD**     | **Oakey Delivery**    | **133.350** | **OK_DEL**    |
+| **Oakey ATIS**    |                       | **124.300** | **YBOK_ATIS** |
 
 ## Airspace
 OK ADC owns the airspace within 5 DME of the OK VOR from `SFC` to `A025`. This airspace is designed to facilitate circuit traffic.

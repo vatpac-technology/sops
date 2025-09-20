@@ -6,11 +6,11 @@
 
 ## Positions
 
-| Name                | Callsign               | Frequency      | Login Identifier     |
-| ------------------- | ---------------------- | -------------- | -------------------- |
-| **Edinburgh ADC**   | **Edinburgh Tower**    | **118.300**    | **ED_TWR**           |
-| **Edinburgh SMC**   | **Edinburgh Ground**   | **134.100**    | **ED_GND**           |
-| **Edinburgh ATIS**      |                        | **126.250**        | **YPED_ATIS**            |
+| Name              | Callsign              | Frequency   | Login ID      |
+| ----------------- | --------------------- | ----------- | ------------- |
+| **Edinburgh ADC** | **Edinburgh Tower**   | **118.300** | **ED_TWR**    |
+| **Edinburgh SMC** | **Edinburgh Ground**  | **134.100** | **ED_GND**    |
+| **Edinburgh ATIS** |                      | **126.250** | **YPED_ATIS** |
 
 ## Airspace
 ED ADC is responsible for the airspace within the Edinburgh CTR, `SFC` to `A020`.

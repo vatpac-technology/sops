@@ -6,12 +6,12 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login ID              |
-| ------------------ | -------------- | ---------------- | --------------------------------------|
-| **Amberley ADC**    | **Amberley Tower**  | **118.300**         | **AMB_TWR**        |
-| **Amberley SMC**    | **Amberley Ground**  | **129.350**      | **AMB_GND**        |
-| **Amberley ACD**    | **Amberley Delivery**  | **134.600**         | **AMB_DEL**       |
-| **Amberley ATIS**    |   | **123.300**         | **YAMB_ATIS**       |
+| Name              | Callsign              | Frequency   | Login ID      |
+| ----------------- | --------------------- | ----------- | ------------- |
+| **Amberley ADC**  | **Amberley Tower**    | **118.300** | **AMB_TWR**   |
+| **Amberley SMC**  | **Amberley Ground**   | **129.350** | **AMB_GND**   |
+| **Amberley ACD**  | **Amberley Delivery** | **134.600** | **AMB_DEL**   |
+| **Amberley ATIS** |                       | **123.300** | **YAMB_ATIS** |
 
 ## Airspace
 AMB ADC owns the Class C airspace in the AMB CTR from `SFC` to `A015`.
@@ -141,7 +141,7 @@ Circuits are flown at `A010`, in the same circuit direction as the duty runway.
 ## Runway Modes
 Runways 15/33 are the primary runways at YAMB.
 
-### Circuit Operations
+### Circuits
 The Circuit Area Airspace is allocated to be within 5nm of the YAMB ARP from `SFC` to `A015`. Aircraft can be instructed to extend outside of this airspace by ATC for traffic management.
 
 Circuits are flown at the following altitudes:

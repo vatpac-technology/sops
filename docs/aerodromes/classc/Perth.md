@@ -5,13 +5,13 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | -------- |
-| **Perth ADC** | **Perth Tower** | **127.400** | **PH_TWR** |
-| **Perth SMC West** | **Perth Ground** | **121.700** | **PH_GND** |
+| Name               | Callsign              | Frequency   | Login ID      |
+| ------------------ | --------------------- | ----------- | ------------- |
+| **Perth ADC**      | **Perth Tower**       | **127.400** | **PH_TWR**    |
+| **Perth SMC West** | **Perth Ground**      | **121.700** | **PH_GND**    |
 | <span class="indented">Perth SMC East :material-information-outline:{ title="Non-standard position"} | Perth Ground | 122.200 | PH-E_GND |
-| **Perth ACD** | **Perth Delivery** | **118.550** | **PH_DEL** |
-| **Perth ATIS** |  | **123.800** | **YPPH_ATIS** |
+| **Perth ACD**      | **Perth Delivery**    | **118.550** | **PH_DEL**    |
+| **Perth ATIS**     |                       | **123.800** | **YPPH_ATIS** |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
@@ -20,7 +20,8 @@
 ## Airspace
 PH ADC is not responsible for any airspace by default.
 
-## Maneuvering Area Responsibility
+## Maneuvering Area
+### Manuevering Area Responsibility
 The area of responsibility between SMC West and East is divided by Runway 03/21.  
 
 <figure markdown>
@@ -87,19 +88,17 @@ For aircraft departing Runway 03 **Off Mode** via **AMANA**, **HECTO**, **MEMUP*
 When the R155A and R115B restricted areas overhead Pearce are *not active*, aircraft departing departing Runway 03 to the north may be assigned either the **Radar SID** or the **EKEPO** SID. This offers aircraft a shorter, more direct route than the **OTLED** and **AVNEX** SIDs.
 
 ## ATIS
-### Approach Expectation
-With the [Southwest Plan](#runway-modes) active, the ATIS shall notify `EXP ILS APCH`.
+### Approach Types
+| Runway Mode                     | Condition                                         | ATIS APCH field |
+| ------------------------------  | ------------------------------------------------- | --------------- |
+| [Southwest Plan](#runway-modes) | All                                               | `EXP ILS APCH`  |
+| [Northeast Plan](#runway-modes) | Cloud base at or below `A032`, **or**<br>By night | `EXP ILS APCH`  |
 
-With the [Northeast Plan](#runway-modes) active, the ATIS shall notify `EXP ILS APCH` when:
-
-- Cloud base of `A032` or below, or:
-- By night.
-
-### Runway Mode formatting
-| Mode | ATIS Runway information |
-| ----------------| --------- |
-| Southwest Plan (24A/21AD) | `21 and RWY 24 FOR ARR, RWY 21 FOR DEP.` |
-| Northeast Plan (03AD/06D) | `03 FOR ARR. RWY 03 FOR DEP VIA OTLED, AVNEX, OLMAM, SOLUS AND OPEGA. RWY 06 FOR ALL OTHER DEP.` |
+### Runway Mode Formatting
+| Mode                            | ATIS Runway information |
+| ------------------------------- | ----------------------- |
+| [Southwest Plan](#runway-modes) | `21 AND RWY 24 FOR ARR. RWY 21 FOR DEP.` |
+| [Northeast Plan](#runway-modes) | `03 FOR ARR. RWY 03 FOR DEP VIA OTLED, AVNEX, OLMAM, SOLUS AND OPEGA. RWY 06 FOR ALL OTHER DEP.` |
 
 ### Operational Info
 #### ACD Pushback Requests

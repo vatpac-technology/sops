@@ -5,12 +5,12 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login ID                         |
-| ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Cairns ADC**    | **Cairns Tower**   | **124.900**          |  **CS_TWR**                 |
-| **Cairns SMC**    | **Cairns Ground**   | **121.700**          |  **CS_GND**               |
-| **Cairns ACD**    | **Cairns Delivery**   | **128.750**          |  **CS_DEL**                  |
-| **Cairns ATIS**        |                | **131.100**          | **YBCS_ATIS**                                |
+| Name              | Callsign              | Frequency   | Login ID      |
+| ----------------- | --------------------- | ----------- | ------------- |
+| **Cairns ADC**    | **Cairns Tower**      | **124.900** |  **CS_TWR**   |
+| **Cairns SMC**    | **Cairns Ground**     | **121.700** |  **CS_GND**   |
+| **Cairns ACD**    | **Cairns Delivery**   | **128.750** |  **CS_DEL**   |
+| **Cairns ATIS**   |                       | **131.100** | **YBCS_ATIS** |
 
 ## Airspace
 CS ADC is responsible for the Class C airspace within the CS CTR `SFC` to `A010`.
@@ -124,36 +124,44 @@ Departing helicopters should be cleared direct to their nominated tracking point
 ## Runway Modes
 The preferred runway direction is **Runway 15**.
 
-### Circuit Direction
+### Circuits
 The circuit height is `A010`. If an aircraft requires a higher circuit altitude, an airspace release must be requested from CS TCU.
 
+#### Circuit Direction
 | Runway | Direction |
-| ----------------- | ---------------|
-| 15                | Left  |
-| 33                | Right |
+| ------ | --------- |
+| 15     | Left  |
+| 33     | Right |
 
 ## SID Selection
-IFR aircraft shall be processed via one of the following SIDs:
 
-a) RWY 15, Jets via AKROM: AKROM SID. Non-Jets via NONUM: NONUM SID  
-b) RWY 33, All Jets: EAZEE SID, Radar Transition  
-c) All others: CS (RADAR) SID  
+=== "Runway 15"
 
-!!! Note
-    Non-jet aircraft may be issued a Visual Departure if conditions are suitable.
+    | Type    | Via        | SID           |
+    | ------- | ---------  | ------------- |
+    | Jet     | AKROM      | **AKROM** SID |
+    | Jet     | All others | **RADAR** SID |
+	| Non-Jet | NONUM      | **NONUM** SID |
+    | Non-Jet | All others | **RADAR** SID, or<br>Visual (in VMC) |
+
+=== "Runway 33"
+
+    | Type    | Via        | SID           |
+    | ------- | ---------  | ------------- |
+    | Jet     | Any        | **EAZEE** SID, RADAR Transition |
+    | Non-Jet | Any        | **RADAR** SID, or<br>Visual (in VMC) |
+
 
 ## ATIS
-### Approach Expectation
+### Approach Type
 
-The ATIS approach expectation shall be `EXPECT INSTRUMENT APPROACH` when:
+| Cloud Base          | Visibility | Approach        |
+| ------------------- | ---------- | --------------- |
+| At or above `A030`  | >5000M     | (blank)         |
+| Below `A030` **or** | <5000M     | `EXP INSTR APCH`|
+| At night 			  |            | `EXP INSTR APCH`|
 
-| Time | Condition |
-| ------| ------- |
-| Day   | VMC conditions do not exist below `A030` |
-| Night | All conditions |
-
-!!! note
-    This procedure allows aircraft to track via the Creek Corridor (see YBCS DAP Noise Abatement Procedures) for runway 15, or via a visual right base (commenced from vectors or the KEEWI Victor STAR), when VMC exists below `A030`.
+This allows aircraft to track via the Creek Corridor (see YBCS DAP Noise Abatement Procedures) for runway 15, or via a visual right base (commenced from vectors or the KEEWI Victor STAR), when VMC exists below `A030`.
 
 ## Coordination
 ### CS TCU

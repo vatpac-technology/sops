@@ -6,15 +6,15 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login ID                         |
-| ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Brisbane ADC East**    | **Brisbane Tower**   | **120.500**          | **BN_TWR**                                   |
-| <span class="indented">Brisbane ADC West :material-information-outline:{ title="Non-standard position"}   | Brisbane Tower   | 118.000          | BN-W_TWR                                 |
-| **Brisbane SMC Domestic**    | **Brisbane Ground**  | **121.700**          | **BN_GND**                                   |
-| <span class="indented">Brisbane SMC South :material-information-outline:{ title="Non-standard position"}   | Brisbane Ground  | 122.250          | BN-S_GND                                 |
-| <span class="indented">Brisbane SMC North :material-information-outline:{ title="Non-standard position"}   | Brisbane Ground  | 124.050          | BN-N_GND                                 |
-| **Brisbane ACD**         | **Brisbane Delivery**| **118.850**          | **BN_DEL**                                   |
-| **Brisbane ATIS**        |                | **126.250**          | **YBBN_ATIS**                                |
+| Name              | Callsign              | Frequency   | Login ID      |
+| ----------------- | --------------------- | ----------- | ------------- |
+| **Brisbane ADC East** | **Brisbane Tower** | **120.500** | **BN_TWR**   |
+| <span class="indented">Brisbane ADC West :material-information-outline:{ title="Non-standard position"} | Brisbane Tower | 118.000 | BN-W_TWR |
+| **Brisbane SMC Domestic** | **Brisbane Ground** | **121.700** | **BN_GND** |
+| <span class="indented">Brisbane SMC South :material-information-outline:{ title="Non-standard position"} | Brisbane Ground | 122.250 | BN-S_GND |
+| <span class="indented">Brisbane SMC North :material-information-outline:{ title="Non-standard position"} | Brisbane Ground | 124.050 | BN-N_GND |
+| **Brisbane ACD**  | **Brisbane Delivery** | **118.850** | **BN_DEL**    |
+| **Brisbane ATIS** |                       | **126.250** | **YBBN_ATIS** |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
@@ -35,7 +35,7 @@ There are three SMC positions at Brisbane which are responsible for various part
 To minimise conflict in the next SMC area of responsibility, aircraft should be instructed to hold short of predetermined taxiways and instructed to contact the next SMC controller (for international aircraft or less-experienced pilots) or allowed to transfer to the next frequency independently (for domestic aircraft).
 
 | Originating SMC | Receiving SMC  | Taxi Instruction |
-| ----------------| --------- | ---------- |
+| --------------- | --------- | ---------- |
 | SMC Domestic | SMC North | Hold short W |
 | SMC North | SMC Domestic | Hold short B4 |
 | SMC Domestic | SMC South | Hold short B7 |
@@ -149,7 +149,7 @@ Both taxiway **H2** and **F4** are inside the maneuvering area and treated like 
 Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
 | Priority - Mode | Arrivals  | Departures |
-| ----------------| --------- | ---------- |
+| --------------- | --------- | ---------- |
 | 1 - SODPROPS    | 19R       | 01R        |
 | 2 - 19 PROPS    | 19L & 19R | 19L & 19R  |
 | 3 - 01 PROPS    | 01L & 01R | 01L & 01R  |
@@ -171,20 +171,20 @@ When using the SODPROPS mode, pass traffic information to aircraft that are depa
 ### Runway Selection
 
 | Aircraft tracking | Runway  |
-| ----------------| --------- |
-| via ITIDE | 01L/19R |
+| ----------------  | --------- |
+| via AKOBA | 01L/19R |
 | via BIXAD | 01L/19R |
 | via BUGNU | 01L/19R |
-| via AKOBA | 01L/19R |
-| via WACKO | **01R**/19R |
+| via ITIDE | 01L/19R |
 | via SAMVI | 01L/19R |
-| via SANEG | 01R/19L |
+| via WACKO | **01R**/19R |
 | via LAGOB | 01R/19L |
-| via SCOTT | 01R/19L |
 | via GUMKI | 01R/19L |
-| Other aircraft: |
-| To the NORTH WEST | 01L/19R |
-| All other directions | 01R/19L |
+| via SANEG | 01R/19L |
+| via SCOTT | 01R/19L |
+| Other aircraft: | |
+| To the NORTH or WEST | 01L/19R |
+| To the SOUTH or EAST | 01R/19L |
 
 ## SID Selection
 Jet Aircraft planned via **BIXAD**, **GUMKI**, **SCOTT**, **SANEG**, or **WACKO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus^, unless the pilot indicates they are unable to accept a Procedural SID.
@@ -201,21 +201,23 @@ Non-Jet aircraft, and aircraft that cannot accept a Procedural SID, shall be ass
     Non-Jet Aircraft planned via WACKO, assigned runway 01R, shall be assigned the BN (RADAR) SID.
 
 ## ATIS
+### Approach Types
+The ATIS shall always have `EXP INST APCH` as the approach type.
+
+Visual Approaches are permitted on request, as long as a separation standard exists between the aircraft and any aircraft arriving on the parallel runway during PROPS, or departing from the parallel runway during SODPROPS.
+
 ### Operational Info
 The Operational Information field should be updated based on the runway mode in use, as per the table below:
 
 | Runway Mode | OPR INFO Field |
-| ---------- | -------------- |
+| ----------- | -------------- |
 | 19 PROPS<br>01 PROPS | `INDEPENDENT PARALLEL DEPARTURES IN PROG` |
-| SODROPS | `SIMULTANEOUS OPPOSITE DIRECTION PARALLEL RUNWAY OPERATIONS IN PROG` |
+| SODPROPS    | `SIMULTANEOUS OPPOSITE DIRECTION PARALLEL RUNWAY OPERATIONS IN PROG` |
 | Curfew Mode | AEST: `CURFEW RWY NOMINATION. CURFEW IN OPERATION UNTIL TIME 2000.` |
 
 #### ACD Pushback Requests
 When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) procedure, the OPR INFO shall include:  
 `ALL DEPARTURES MUST REQUEST PUSH BACK ON 118.85`  
-
-### Approach Types
-The ATIS shall always have `EXP INST APCH` as the approach type. Visual Approaches are permitted on request, as long as a separation standard exists between the aircraft and any aircraft arriving on the parallel runway during PROPS, or departing from the parallel runway during SODPROPS.
 
 ## Coordination
 ### Auto Release

@@ -6,12 +6,12 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login ID              |
-| ------------------ | -------------- | ---------------- | --------------------------------------|
-| **Pearce ADC**    | **Pearce Tower**  | **118.300**    | **PE_TWR**        |
-| **Pearce SMC**    | **Pearce Ground**  | **127.250**   | **PE_GND**        |
-| **Pearce ACD**    | **Pearce Delivery**  | **134.100** | **PE_DEL**       |
-| **Pearce ATIS**    |   | **136.400**         | **YPEA_ATIS**       |
+| Name              | Callsign              | Frequency   | Login ID      |
+| ----------------- | --------------------- | ----------- | ------------- |
+| **Pearce ADC**    | **Pearce Tower**      | **118.300** | **PE_TWR**    |
+| **Pearce SMC**    | **Pearce Ground**     | **127.250** | **PE_GND**    |
+| **Pearce ACD**    | **Pearce Delivery**   | **134.100** | **PE_DEL**    |
+| **Pearce ATIS**   |                       | **136.400** | **YPEA_ATIS** |
 
 ## Airspace
 PE ADC owns the airspace within the Pearce CIRA (**5nm** Radius of YPEA ARP, located entirely within **R155A**) from `SFC` to `A035`. This airspace is primarily used for military circuits and initial and pitch approaches.

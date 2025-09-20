@@ -6,12 +6,12 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login ID              |
-| ------------------ | -------------- | ---------------- | --------------------------------------|
-| **Townsville ADC**    | **Townsville Tower**  | **118.300**         | **TL_TWR**        |
-| **Townsville SMC**    | **Townsville Ground**  | **121.800**         | **TL_GND**        |
-| **Townsville ACD**    | **Townsville Delivery**  | **128.100**         | **TL_DEL**       |
-| **Townsville ATIS**    |   | **133.500**         | **YBTL_ATIS**       |
+| Name                | Callsign                | Frequency   | Login ID      |
+| ------------------- | ----------------------- | ----------- | ------------- |
+| **Townsville ADC**  | **Townsville Tower**    | **118.300** | **TL_TWR**    |
+| **Townsville SMC**  | **Townsville Ground**   | **121.800** | **TL_GND**    |
+| **Townsville ACD**  | **Townsville Delivery** | **128.100** | **TL_DEL**    |
+| **Townsville ATIS** |                         | **133.500** | **YBTL_ATIS** |
 
 ## Airspace
 TL ADC owns the Class C airspace in the TL CTR (Extends to 7NM from the thresholds of Runway 01/19) from `SFC` to `A015`. This airspace is designed to facilitate Helicopter Traffic and Ciruit Traffic.
@@ -41,11 +41,11 @@ Aircraft planned via **KVALM**, **PEWEE**, **AKROM**, **CARMN**, **ANRUB**, **CA
 
 Aircraft that are unable to accept a procedural SID terminating on their route shall be assigned the appropriate procedural or radar SID from the table below.
 
-| Runway | Westbound SID | Eastbound SID |
-| ------ | ------------- | ------------- |
-| 01 |  **TL NORTH** | **TL EAST** |
-| 19 | **IGBIK** | **RURTO** |
-| 07/25 | Visual | Visual |
+| Runway | Westbound        | Eastbound       |
+| ------ | ---------------- | --------------- |
+| 01     | **TL NORTH** SID | **TL EAST** SID |
+| 19     | **IGBIK** SID    | **RURTO** SID   |
+| 07/25  | Visual           | Visual          |
 
 Light and **non-RNAV** aircraft shall be assigned a visual departure.
 

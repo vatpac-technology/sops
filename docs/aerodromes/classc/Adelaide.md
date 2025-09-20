@@ -6,17 +6,18 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login ID                         |
-| ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Adelaide ADC**    | **Adelaide Tower**   | **120.500**          | **AD_TWR**                                   |
-| **Adelaide SMC**    | **Adelaide Ground**  | **121.700**          | **AD_GND**                                   |
-| **Adelaide ACD**         | **Adelaide Delivery** | **126.100**          | **AD_DEL**                                   |
-| **Adelaide ATIS**        |                | **134.500**         | **YPAD_ATIS**                                |
+| Name              | Callsign              | Frequency   | Login ID      |
+| ----------------- | --------------------- | ----------- | ------------- |
+| **Adelaide ADC**  | **Adelaide Tower**    | **120.500** | **AD_TWR**    |
+| **Adelaide SMC**  | **Adelaide Ground**   | **121.700** | **AD_GND**    |
+| **Adelaide ACD**  | **Adelaide Delivery** | **126.100** | **AD_DEL**    |
+| **Adelaide ATIS** |                       | **134.500** | **YPAD_ATIS** |
 
 ## Airspace
 AD ADC is not responsible for any airspace by default.
 
-## Maneuvering Area Responsibility
+## Maneuvering Area
+### Maneuvering Area Responsibility
 **ADC** is responsible for the **E2** and **D2** taxiways
 
 <figure markdown>
@@ -71,13 +72,13 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 
 | Priority - Mode | Arrivals  | Departures |
 | ----------------| --------- | ---------- |
-| 1 - 2312A23D    | 23 & 12 | 23 |
-| 2 - 0512A05D    | 05 & 12 | 05 |
-| 3 - 23 Only    | 23 | 23 |
-| 4 - 05 Only     | 05 | 05 |
-| 5 - 12 Only     | 12 | 12 |
-| 6 - 30 Only     | 30 | 30 |
-| *Curfew (RRO)   | 05 | 23 |
+| 1 - 2312A23D    | 23 & 12   | 23 |
+| 2 - 0512A05D    | 05 & 12   | 05 |
+| 3 - 23 Only     | 23        | 23 |
+| 4 - 05 Only     | 05        | 05 |
+| 5 - 12 Only     | 12        | 12 |
+| 6 - 30 Only     | 30        | 30 |
+| *Curfew (RRO)   | 05        | 23 |
 
 *Permitted between the hours of 2300 and 0600 Local (1330-2030 UTC/1230-1930 UTC HDS). If the pilot does not want to participate in curfew mode operations, the controller must accommodate this request.
 
@@ -111,9 +112,9 @@ When **Runway 23** is in use for arrivals, the following table shall be followed
 ### Operational Info
 The Operational Information field should be updated based on the runway mode in use, as per the table below:
 
-| Runway Mode | OPR INFO Field |
-| ---------- | -------------- |
-| Curfew Mode | ACST: `CURFEW IN OPERATION UNTIL TIME 2030.` <br>ACDT: `CURFEW IN OPERATION UNTIL TIME 1930.` |
+| Runway Mode  | OPR INFO Field |
+| ------------ | -------------- |
+| Curfew (RRO) | ACST: `CURFEW IN OPERATION UNTIL TIME 2030.` <br>ACDT: `CURFEW IN OPERATION UNTIL TIME 1930.` |
 
 ## Coordination
 ### Auto Release

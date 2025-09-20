@@ -6,12 +6,12 @@
 
 ## Positions
 
-| Name              | Callsign       | Frequency        | Login ID              |
-| ------------------ | -------------- | ---------------- | --------------------------------------|
-| **Darwin ADC**    | **Darwin Tower**  | **133.100**         | **DN_TWR**        |
-| **Darwin SMC**   |  **Darwin Ground**  | **121.800**         | **DN_GND**        |
-| **Darwin ACD**    | **Darwin Delivery**  | **126.800**         | **DN_DEL**       |
-| **Darwin ATIS**    |   | **128.250**         | **YPDN_ATIS**       |
+| Name              | Callsign              | Frequency   | Login ID      |
+| ----------------- | --------------------- | ----------- | ------------- |
+| **Darwin ADC**    | **Darwin Tower**      | **133.100** | **DN_TWR**    |
+| **Darwin SMC**    | **Darwin Ground**     | **121.800** | **DN_GND**    |
+| **Darwin ACD**    | **Darwin Delivery**   | **126.800** | **DN_DEL**    |
+| **Darwin ATIS**   |                       | **128.250** | **YPDN_ATIS** |
 
 ## Airspace
 ADC owns the airspace within the DN CTR (`SFC`–`A010`). This airspace is designed to facilitate the processing of helicopter scenic flights and low-level helicopter circuits.  
@@ -26,7 +26,7 @@ b) ADC may deny requests for circuits if IFR traffic may be unduly delayed
   <figcaption>DN ADC Airspace</figcaption>
 </figure>
 
-## Maneuvering Area
+## Maneuvering Area 
 ### Standard Taxi Routes
 Aircraft transiting to or from the Southern and Northern GA should follow the following standardised taxi routes:  
 a) Outbound via V1  
@@ -63,7 +63,7 @@ If winds are too great, single runway operations may be necessary (eg, Runway 11
 | 11AD36A | 11 & 36 | 11 |
 | 11AD18A | 11 & 18 | 11 |
 
-### Special Runway operations
+### Special Runway Operations
 #### LAHSO
 !!! warning "Important"
     Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
@@ -87,7 +87,7 @@ Two simultaneous landings may be conducted by both day and night. A simultaneous
 #### Runway Mode
 The only approved LAHSO mode at YPDN is **29AD36A**. Runway 36 is considered the active runway, while runway 29 is considered the passive runway.
 
-### Circuit Operations
+### Circuits
 VFR aircraft that will operate only in ADCs airspace shall be assigned SSR code 0100  
 
 Circuit altitude will depend on the type of aircraft. Assign circuit altitudes for the following aircraft types:  

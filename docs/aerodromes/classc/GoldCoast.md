@@ -5,12 +5,12 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login ID                         |
-| ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Gold Coast ADC** | **Gold Coast Tower**   | **118.700**       | **CG_TWR**                       |
-| **Gold Coast SMC** | **Gold Coast Ground**  | **121.800**       | **CG_GND**                       |
-| **Gold Coast ACD** | **Gold Coast Delivery** | **128.750**       | **CG_DEL**                       |
-| **Gold Coast ATIS** |                        | **134.500**          | **YBCG_ATIS**                        |
+| Name               | Callsign                | Frequency   | Login ID      |
+| ------------------ | ----------------------- | ----------- | ------------- |
+| **Gold Coast ADC** | **Gold Coast Tower**    | **118.700** | **CG_TWR**    |
+| **Gold Coast SMC** | **Gold Coast Ground**   | **121.800** | **CG_GND**    |
+| **Gold Coast ACD** | **Gold Coast Delivery** | **128.750** | **CG_DEL**    |
+| **Gold Coast ATIS** |                        | **134.500** | **YBCG_ATIS** |
 
 ## Airspace
 CG ADC is responsible for the Class C Airspace within the CG CTR `SFC` to `A015`.

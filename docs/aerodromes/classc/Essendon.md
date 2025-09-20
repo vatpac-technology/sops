@@ -5,11 +5,11 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login ID                         |
-| ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Essendon ADC**      | **Essendon Tower**   | **125.100**         | **EN_TWR**                                   |
-| **Essendon SMC**      | **Essendon Ground**  | **121.900**         | **EN_GND**                                   |
-| **Essendon ATIS**     |                  | **119.800**         | **YMEN_ATIS**                                |
+| Name              | Callsign              | Frequency   | Login ID      |
+| ----------------- | --------------------- | ----------- | ------------- |
+| **Essendon ADC**  | **Essendon Tower**    | **125.100** | **EN_TWR**    |
+| **Essendon SMC**  | **Essendon Ground**   | **121.900** | **EN_GND**    |
+| **Essendon ATIS** |                       | **119.800** | **YMEN_ATIS** |
 
 ## Airspace
 EN ADC is responsible for the Class C airspace shown below, `SFC` to `A020`.
@@ -123,6 +123,7 @@ This often results in Essendon using runways with large crosswind components, as
 ### Circuits
 Circuits are to be flown at `A015`.
 
+#### Circuit Direction
 | Runway | Direction |
 | ------ | ----------|
 | 35     | Right  |

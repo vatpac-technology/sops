@@ -6,12 +6,12 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login ID              |
-| ------------------ | -------------- | ---------------- | --------------------------------------|
-| **Tindal ADC**    | **Tindal Tower**  | **119.700**         | **TN_TWR**        |
-| **Tindal SMC**    | **Tindal Ground**  | **135.850**        | **TN_GND**        |
-| **Tindal ACD**    | **Tindal Delivery**  | **128.100**      | **TN_DEL**       |
-| **Tindal ATIS**    |   |  **124.000**        | **YPTN_ATIS**       |
+| Name               | Callsign              | Frequency   | Login ID      |
+| ------------------ | --------------------- | ----------- | ------------- |
+| **Tindal ADC**     | **Tindal Tower**      | **119.700** | **TN_TWR**    |
+| **Tindal SMC**     | **Tindal Ground**     | **135.850** | **TN_GND**    |
+| **Tindal ACD**     | **Tindal Delivery**   | **128.100** | **TN_DEL**    |
+| **Tindal ATIS**    |                       | **124.000** | **YPTN_ATIS** |
 
 ## Airspace
 TN ADC is not responsible for any airspace by default.  
