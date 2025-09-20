@@ -35,7 +35,7 @@ ADC North takes responsibility for the North/West Runway, Circuit and Airspace (
 
 ADC North is **not permitted** online when *Single Runway* Operations are in use.
 
-Refer to the [ATIS section](#dual-adc-operations_2) for information on ATIS formatting when ADC North is online.
+Refer to the [ATIS section](#runway-mode-formatting) for information on ATIS formatting when ADC North is online.
 
 ## VFR Operations
 ### Arrivals

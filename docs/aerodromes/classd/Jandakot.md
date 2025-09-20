@@ -34,7 +34,7 @@ ADC (Circuit) takes responsibility for the South-East Runway, Circuit and Airspa
 
 ADC (Circuit) is **not permitted** online when *Single Runway* Operations are in use.
 
-Refer to the [ATIS section](#runway-nomination) for information on ATIS formatting when ADC East is online.
+Refer to the [ATIS section](#runway-mode-formatting) for information on ATIS formatting when ADC East is online.
 
 #### Airspace
 Airspace Ownership when ADC East is online, is:

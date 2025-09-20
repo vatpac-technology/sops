@@ -35,7 +35,7 @@ ADC West takes responsibility for the North/West Runway, Circuit and Airspace (R
 
 ADC West is **not permitted** online when *Single Runway* Operations are in use.
 
-Refer to the [ATIS section](#runway-nomination) for information on ATIS formatting when ADC West is online.
+Refer to the [ATIS section](#runway-mode-formatting) for information on ATIS formatting when ADC West is online.
 
 ## VFR Operations
 ### Arrivals

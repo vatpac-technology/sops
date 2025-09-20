@@ -58,7 +58,7 @@ Darwin TCU is not responsible for traffic or separation services within the A005
 VFR aircraft generally track via designated VFR routes, as shown on the Darwin VTC.
 
 ## Runway Modes
-### LASHO
+### LAHSO
 !!! warning "Important"
     Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
 
