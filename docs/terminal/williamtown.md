@@ -36,7 +36,26 @@ When WLM ADC is online, they own the airspace within the WLM MIL CTR A (`SFC`-`A
   <figcaption>WLM ADC Airspace</figcaption>
 </figure>
 
-## Fast-Jet SIDs
+## Local Procedures
+### Stereo Approaches (Fast Jet Aircraft)
+
+Fast jet aircraft typically transit from M550 to YWLM via Gate 6 at `F125`. When requested, or advised via ATIS, the stereo approach may be utilised to facilitate aircraft recovery.
+
+!!! tip
+    See [Controller Skills](../controller-skills/military.md#stereo-approaches) for more details about stereo approaches.
+
+!!! Example
+**MAPL45**: "Willy Approach, MAPL45, RTBing via G6, runway 12" 
+**WLM TCU**: "MAPL45, Willy Approach, cleared stereo approach runway 12, via G6, once 9DME north of the TACAN, descend not below `A050`"  
+**MAPL45**: "Cleared stereo approach runway 12, via G6, once 9DME north of the TACAN, descend not below `A050`, MAPL45"
+
+!!! note
+    Stereo approach charts are available in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}.
+
+### Initial and Pitch Procedures 
+The Intial Points for RWY 12 is the SW tip of Grahamstown Dam, and RWY 30 is the coastline.
+
+### Fast-Jet SIDs
 !!! important
     These procedures are only available when the WLM TMA is extended above `F125` through NOTAM or prior coordination. ACD will ensure that the controller responsible for the WLM TMA has approved their use prior to issuing airways clearance.
 
@@ -82,25 +101,6 @@ Aircraft cleared via a gate must have their flight plan amended to reflect the n
 
 !!! example
     An aircraft tracking via Gate 4 would have `WLM088025` added to their route.
-
-## Local Procedures
-### Stereo Approaches (Fast Jet Aircraft)
-
-Fast jet aircraft typically transit from M550 to YWLM via Gate 6 at `F125`. When requested, or advised via ATIS, the stereo approach may be utilised to facilitate aircraft recovery.
-
-!!! tip
-    See [Controller Skills](../controller-skills/military.md#stereo-approaches) for more details about stereo approaches.
-
-!!! Example
-**MAPL45**: "Willy Approach, MAPL45, RTBing via G6, runway 12" 
-**WLM TCU**: "MAPL45, Willy Approach, cleared stereo approach runway 12, via G6, once 9DME north of the TACAN, descend not below `A050`"  
-**MAPL45**: "Cleared stereo approach runway 12, via G6, once 9DME north of the TACAN, descend not below `A050`, MAPL45"
-
-!!! note
-    Stereo approach charts are available in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}.
-
-### Initial and Pitch Procedures 
-The Intial Points for RWY 12 is the SW tip of Grahamstown Dam, and RWY 30 is the coastline.
 
 ## Flow
 ### Local Knowledge

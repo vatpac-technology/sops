@@ -21,8 +21,8 @@ WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be a
   <figcaption>WLM ADC Airspace</figcaption>
 </figure>
 
-
-#### Fast-Jet SIDs
+## Local Procedures
+### Fast-Jet SIDs
 !!! important
     These procedures are only available when the WLM TMA is extended above `F125` through NOTAM or prior coordination. ACD must ensure that the controller responsible for the WLM TMA has approved their use prior to issuing airways clearance.
 
