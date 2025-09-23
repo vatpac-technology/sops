@@ -110,7 +110,7 @@ VFR arrivals from Class G shall be cleared (at not above `A015`) via:
 | North West | [Sunbury Corridor](#sunbury-corridor) | DCT | DCT |
 
 ## Helicopter Operations
-There are multiple helipads at Essendon: the Emergency Apron adjacent taxiway **T**; the **Tower Pad** at taxiway **J**; the **INT PAD** jjust north of taxiway **B**; and the **H81** pad on the Southern Apron.
+There are multiple helipads at Essendon: the Emergency Apron adjacent taxiway **T**; the **Tower Pad** at taxiway **J**; the **INT PAD** just north of taxiway **B**; and the **H81** pad on the Southern Apron.
 
 ADC shall inform SMC of any inbound helicopters so that they may prevent other aircraft from taxiing on the HLS.
 
