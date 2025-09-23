@@ -19,7 +19,7 @@ The Coral TCU includes the airspace `SFC` to `F150` within the Mackay and Rockha
 MK ADC own the Class D airspace within MK CTR `SFC` to `A010`.  
 RK ADC own the Class D airspace within RK CTR `SFC` to `A010`.  
 
-## Extending
+### Extending
 MKA may extend to RKA and vice versa, callsigns remain the same. See [Controller Skills](../controller-skills/extending.md) for details.
 
 !!! tip

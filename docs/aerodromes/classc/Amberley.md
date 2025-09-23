@@ -6,12 +6,12 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login ID              |
-| ------------------ | -------------- | ---------------- | --------------------------------------|
-| **Amberley ADC**    | **Amberley Tower**  | **118.300**         | **AMB_TWR**        |
-| **Amberley SMC**    | **Amberley Ground**  | **129.350**      | **AMB_GND**        |
-| **Amberley ACD**    | **Amberley Delivery**  | **134.600**         | **AMB_DEL**       |
-| **Amberley ATIS**    |   | **123.300**         | **YAMB_ATIS**       |
+| Name              | Callsign              | Frequency   | Login ID      |
+| ----------------- | --------------------- | ----------- | ------------- |
+| **Amberley ADC**  | **Amberley Tower**    | **118.300** | **AMB_TWR**   |
+| **Amberley SMC**  | **Amberley Ground**   | **129.350** | **AMB_GND**   |
+| **Amberley ACD**  | **Amberley Delivery** | **134.600** | **AMB_DEL**   |
+| **Amberley ATIS** |                       | **123.300** | **YAMB_ATIS** |
 
 ## Airspace
 AMB ADC owns the Class C airspace in the AMB CTR from `SFC` to `A015`.
@@ -21,15 +21,8 @@ AMB ADC owns the Class C airspace in the AMB CTR from `SFC` to `A015`.
   <figcaption>AMB ADC Airspace</figcaption>
 </figure>
 
-## Runway Modes
-Runways 15/33 are the primary runways at YAMB.
-
-## Departures
-### SID Selection
-IFR aircraft planned via **BN**, **JEDDA**, **MESED**, **BOBOP**, **TATEN**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
-Aircraft who are not planned via those points may be assigned the RADAR SID or a visual departure. 
-
-## Coded Clearances (Fast Jets)
+## Local Procedures 
+### Coded Clearances (Fast Jets)
 High performance military jet aircraft with planned operations in offshore SUA, or intending to depart to the east, shall be assigned a Coded Clearance departure. These Coded Clearances provide a standardised corridor avoiding civilian traffic in the adjacent airspace. 
 
 <figure markdown>
@@ -40,7 +33,7 @@ High performance military jet aircraft with planned operations in offshore SUA, 
 !!! tip
     Descriptions of the coded clearances are available in the [FIHA AD2 Supps](https://ais-af.airforce.gov.au/australian-aip){target=new}.
 
-### Departures
+#### Departures
 Aircraft will depart the circuit visually and track overhead YAMB to begin tracking for their initial waypoint. Aircraft cleared the BYRON departure must turn to the west on departure, and may set course for their inital waypoint within 10TAC AMB, remaining within the laterial limits of the AMB CTR in order to meet the inital constraint at `COWIE`.
 
 The following altitude constraints and tracking points are implied by the coded clearance:
@@ -59,27 +52,10 @@ The following altitude constraints and tracking points are implied by the coded 
     **AMB ADC**: "CRNG21, make left turn, cleared for takeoff"  
     **CRNG21**: "Make left turn, cleared for takeoff, CRNG21"  
 
-## Circuit Operations
-The Circuit Area Airspace is allocated to be within 5nm of the YAMB ARP from `SFC` to `A015`. Aircraft can be instructed to extend outside of this airspace by ATC for traffic management.
-
-Circuits are flown at the following altitudes:
-
-| Aircraft Type | Circuit Altitude |
-| ------------- | ---------------- |
-| Jets & large turboprops | `A015` |
-| Non-jets, small turboprops (up to C-27J) | `A010` | 
-
-### Circuit Direction
-| Runway | Direction |
-| ------ | ----------|
-| 15     | Right  |
-| 33     | Left |
-| 04     | Left |
-| 22     | Left |
-
-## Civil Training Area
+### Civil Training Area
 Civil operators (including Australian Air Force Cadets) conduct flying operations within the South Western Training Area (SWTA). The SWTA is divided in half by the Rosewood-Mt Walker-Aratula Road into SWTA Alpha (north) and SWTA Bravo (south). The training area is classified Class G airspace but a clearance is required to transit the AMB CTA to/from SWTA.
 
+## VFR Operations
 ### Outbound Aircraft
 Aircraft shall be cleared via the following waypoints when departing YAMB for the SWTA, assigned `A025`:
 
@@ -161,6 +137,32 @@ Utilising the threshold RWY 04 as a HLS, remaining west of a line parallel to RW
     The primary area for continuous circuit operations is **Choppers East**, due to the displaced distance of the threshold of runway 22 from runway 15/33.
 
 Circuits are flown at `A010`, in the same circuit direction as the duty runway. 
+
+## Runway Modes
+Runways 15/33 are the primary runways at YAMB.
+
+### Circuits
+The Circuit Area Airspace is allocated to be within 5nm of the YAMB ARP from `SFC` to `A015`. Aircraft can be instructed to extend outside of this airspace by ATC for traffic management.
+
+Circuits are flown at the following altitudes:
+
+| Aircraft Type | Circuit Altitude |
+| ------------- | ---------------- |
+| Jets & large turboprops | `A015` |
+| Non-jets, small turboprops (up to C-27J) | `A010` | 
+
+### Circuit Direction
+| Runway | Direction |
+| ------ | ----------|
+| 15     | Right  |
+| 33     | Left |
+| 04     | Left |
+| 22     | Left |
+
+## SID Selection
+
+IFR aircraft planned via **BN**, **JEDDA**, **MESED**, **BOBOP**, **TATEN**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
+Aircraft who are not planned via those points may be assigned the RADAR SID or a visual departure. 
 
 ## Coordination
 ### AMB TCU

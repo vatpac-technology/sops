@@ -6,16 +6,17 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login ID              |
-| ------------------ | -------------- | ---------------- | --------------------------------------|
-| **Learmonth ADC**    | **Learmonth Tower**  | **118.300**         | **LM_TWR**        |
-| **Learmonth SMC**    | **Learmonth Ground**  | **126.200**      | **LM_GND**        |
-| **Learmonth ATIS**    |   | **123.300**         | **YPLM_ATIS**       |
+| Name              | Callsign              | Frequency   | Login ID      |
+| ----------------- | --------------------- | ----------- | ------------- |
+| **Learmonth ADC** | **Learmonth Tower**   | **118.300** | **LM_TWR**    |
+| **Learmonth SMC** | **Learmonth Ground**  | **126.200** | **LM_GND**    |
+| **Learmonth ATIS** |                      | **123.300** | **YPLM_ATIS** |
 
 ## Airspace
 LM ADC owns the Class C airspace within the LM CTR from `SFC` to `A015`.
 
-## Circuit Direction
+## Runway Modes
+### Circuits
 
 | Runway | Direction |
 | ------ | ----------|

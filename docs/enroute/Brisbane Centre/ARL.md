@@ -18,17 +18,6 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
-### CPDLC
-
-The Primary Communication Method for ARL is Voice.
-
-[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
-
-The CPDLC Station Code is `YARL`.
-
-!!! tip
-    Even though ARL's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
-
 ## Airspace
 
 <figure markdown>
@@ -54,6 +43,17 @@ When **WLM TCU** is offline, WLM MIL CTR (Class C `SFC` to `A065`) reverts to Cl
 
 !!! tip
     If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+
+### CPDLC
+
+The Primary Communication Method for ARL is Voice.
+
+[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
+
+The CPDLC Station Code is `YARL`.
+
+!!! tip
+    Even though ARL's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
 ## Sector Responsibilities
 ### Armidale (ARL)
