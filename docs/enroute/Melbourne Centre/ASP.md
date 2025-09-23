@@ -19,13 +19,6 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
-### CPDLC
-The Primary Communication Method for ASP is [CPDLC](../../../client/cpdlc).
-
-The CPDLC Station Code is `YASP`.
-
-Voice may be used in lieu when applicable.
-
 ## Airspace
 
 <figure markdown>
@@ -45,6 +38,13 @@ When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME
 ## Extending
 !!! warning "Important"
     Due to the large geographical area covered by this sector and it's neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
+
+### CPDLC
+The Primary Communication Method for ASP is [CPDLC](../../../client/cpdlc).
+
+The CPDLC Station Code is `YASP`.
+
+Voice may be used in lieu when applicable.
 
 ## Surveillance Coverage
 Limited surveillance coverage exists in the FOR sector greater than **250nm** from ADSB stations. [Procedural Standards](../../../separation-standards/procedural/) must be implemented **prior** to losing surveillance coverage

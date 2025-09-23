@@ -85,8 +85,10 @@ Aircraft cleared via a gate must have their flight plan amended to reflect the n
 
 ## Initial and Pitch Procedures 
 The Intial Points for RWY 12 is the SW tip of Grahamstown Dam, and RWY 30 is the coastline.
-=======
-## Stereo Approaches (Fast Jet Aircraft)
+
+## Local Procedures
+### Stereo Approaches (Fast Jet Aircraft)
+
 Fast jet aircraft typically transit from M550 to YWLM via Gate 6 at `F125`. When requested, or advised via ATIS, the stereo approach may be utilised to facilitate aircraft recovery.
 
 !!! tip
@@ -99,10 +101,6 @@ Fast jet aircraft typically transit from M550 to YWLM via Gate 6 at `F125`. When
 
 !!! note
     Stereo approach charts are available in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}.
-
-## Charts
-!!! abstract "Reference"
-    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 ## Flow
 ### Local Knowledge
@@ -228,3 +226,7 @@ Voiceless coordination is in place from WLM TCU to WLM ADC for arrivals cleared 
 !!! phraseology
     <span class="hotline">**WLM TCU** -> **WLM ADC**</span>: "via WLM, ZULU, Close formation of 5, do you have any restrictions or requirements?"  
     <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "ZULU, no restrictions or requirements, A040"  
+
+## Charts
+!!! abstract "Reference"
+    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}

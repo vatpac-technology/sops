@@ -6,11 +6,11 @@
 
 ## Positions
 
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | ---------------- |
-| **Karratha ADC** | **Karratha Tower** | **127.350** | **KA_TWR** |
-| **Karratha SMC** | **Karratha Ground** | **123.550** | **KA_GND** |
-| **Karratha ATIS** |  | **134.550** | **YPKA_ATIS** |
+| Name              | Callsign              | Frequency   | Login ID      |
+| ----------------- | --------------------- | ----------- | ------------- |
+| **Karratha ADC**  | **Karratha Tower**    | **127.350** | **KA_TWR**    |
+| **Karratha SMC**  | **Karratha Ground**   | **123.550** | **KA_GND**    |
+| **Karratha ATIS** |                       | **134.550** | **YPKA_ATIS** |
 
 ## Airspace
 <figure markdown>
@@ -30,7 +30,8 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
   <figcaption>YPKA Maneuvering Area Responsibility</figcaption>
 </figure>
 
-## Surveillance
+## Separation
+### Surveillance
 Surveillance coverage can be expected to be available at all levels in the KA CTR. Although KA ADC is **not permitted** to use surveillance for separation, OLW may assist by establishing surveillance separation standards via coordination
 
 ## Coordination

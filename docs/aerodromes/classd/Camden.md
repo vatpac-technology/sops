@@ -6,11 +6,11 @@
 
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login ID                         |
-| ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Camden ADC** | **Camden Tower** | **120.100**          | **CN_TWR**                        |
-| **Camden SMC**  | **Camden Ground**   | **121.900**          | **CN_GND**                      |
-| **Camden ATIS**        |                | **125.100**          | **YSCN_ATIS**                                |
+| Name              | Callsign              | Frequency   | Login ID      |
+| ----------------- | --------------------- | ----------- | ------------- |
+| **Camden ADC**    | **Camden Tower**      | **120.100** | **CN_TWR**    |
+| **Camden SMC**    | **Camden Ground**     | **121.900** | **CN_GND**    |
+| **Camden ATIS**   |                       | **125.100** | **YSCN_ATIS** |
 
 ## Airspace
 CN ADC is responsible for the Class D airspace in the CN CTR `SFC` to `A020`.
@@ -22,8 +22,22 @@ CN ADC is responsible for the Class D airspace in the CN CTR `SFC` to `A020`.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
-## Departures
+## Local Procedures 
+### Instrument Approaches
+The only instrument approach at YSCN is the RNP W approach.  This approach commences OCTA and enters the Camden control zone.  
 
+SY TCU **will not** clear aircraft for the approach (as it commences OCTA) and will transfer aircraft to **CN ADC** at `SCNWI`.  **CN ADC** shall issue airways clearance on first contact in accordance with the table below.  
+
+| Scenario | Clearance |
+| -------- | --------- |
+| Aircraft is visual & circuit traffic exists | "*Cleared RNP-W approach, not below A018*" |
+| Aircraft not visual or no circuit traffic | "*Cleared RNP-W approach, runway 06/24*" |
+
+!!! note
+    The circuit altitude at YSCN is `A013` and the overfly altitude is `A018`.  Aircraft issued a restriction to descend not below `A018` should be instructed to join the circuit once clear of traffic established in the circuit area.
+
+## VFR Operations
+## Departures
 All aircraft must depart at `A013` via an extended leg of the circuit.
 Upon reaching 2NM CN, all VFR aircraft should monitor the appropriate area frequency (Sydney Approach). A frequency transfer will not be issued to VFR aircraft.
 Departing IFR aircraft will receive a frequency transfer.
@@ -57,20 +71,8 @@ When an aircraft reports at their specified report point (or on downwind), issue
 !!! phraseology
     *"XEM, number 3 Runway 06, follow the C172 on base"*
 
-### Instrument Approaches
-The only instrument approach at YSCN is the RNP W approach.  This approach commences OCTA and enters the Camden control zone.  
-
-SY TCU **will not** clear aircraft for the approach (as it commences OCTA) and will transfer aircraft to **CN ADC** at `SCNWI`.  **CN ADC** shall issue airways clearance on first contact in accordance with the table below.  
-
-| Scenario | Clearance |
-| -------- | --------- |
-| Aircraft is visual & circuit traffic exists | "*Cleared RNP-W approach, not below A018*" |
-| Aircraft not visual or no circuit traffic | "*Cleared RNP-W approach, runway 06/24*" |
-
-!!! note
-    The circuit altitude at YSCN is `A013` and the overfly altitude is `A018`.  Aircraft issued a restriction to descend not below `A018` should be instructed to join the circuit once clear of traffic established in the circuit area.
-
-## Circuits
+## Runway Modes
+### Circuits
 The circuit direction changes depending on time of day and runway being used.
 
 | Runway | Day  | Night |
@@ -88,8 +90,11 @@ When an aircraft reports on downwind, indicate their position in the sequence (a
     **CN ADC:** "JKA, number 2"
 
 ## ATIS
-### Approach Expectation
-When there is more than SCT cloud on the YSCN METAR area below `A035`, the APCH field must include `EXP INST APCH`.
+### Approach Types
+| Cloud Base          | Visibility | Approach        |
+| ------------------- | ---------- | --------------- |
+| At or above `A035`  | >5000M     | (blank)         |
+| Below `A035` **or** | <5000M     | `EXP INST APCH` |
 
 ## Coordination
 

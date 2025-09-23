@@ -6,16 +6,17 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login ID              |
-| ------------------ | -------------- | ---------------- | --------------------------------------|
-| **Scherger ADC**    | **Scherger Tower**  | **118.300**         | **SG_TWR**        |
-| **Scherger SMC**    | **Scherger Ground**  | **126.200**      | **SG_GND**        |
-| **Scherger ATIS**    |   | **134.800**         | **YBSG_ATIS**       |
+| Name               | Callsign              | Frequency   | Login ID      |
+| ------------------ | --------------------- | ----------- | ------------- |
+| **Scherger ADC**   | **Scherger Tower**    | **118.300** | **SG_TWR**    |
+| **Scherger SMC**   | **Scherger Ground**   | **126.200** | **SG_GND**    |
+| **Scherger ATIS**  |                       | **134.800** | **YBSG_ATIS** |
 
 ## Airspace
 SG ADC owns the Class C airspace within the SG CTR from `SFC` to `A015`.
 
-## Circuit Direction
+## Runway Modes
+### Circuits
 | Runway | Direction |
 | ------ | ----------|
 | 30     | Right  |

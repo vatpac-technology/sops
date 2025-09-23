@@ -5,27 +5,16 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login ID                         |
-| ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Archerfield ADC South**  | **Archer Tower**  | **118.100**        | **AF_TWR**                        |
-| <span class="indented">Archerfield ADC North :material-information-outline:{ title="Non-standard position"}  | Archer Tower  | 123.600        | AF-N_TWR                        |
-| **Archerfield SMC**   | **Archer Ground**  | **129.300**         | **AF_GND**                       |
-| **Archerfield ATIS**        |                | **120.900**          | **YBAF_ATIS**                                |
+| Name                       | Callsign              | Frequency   | Login ID      |
+| -------------------------- | --------------------- | ----------- | ------------- |
+| **Archerfield ADC South**  | **Archer Tower**      | **118.100** | **AF_TWR**    |
+| <span class="indented">Archerfield ADC North :material-information-outline:{ title="Non-standard position"} | Archer Tower | 123.600 | AF-N_TWR |
+| **Archerfield SMC**        | **Archer Ground**     | **129.300** | **AF_GND**    |
+| **Archerfield ATIS**       |                       | **120.900** | **YBAF_ATIS** |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
-
-### Dual ADC Operations
-When Archerfield ADC North is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
-
-ADC South takes responsibility for the South/East Runway, Circuit and Airspace (Runway **10R, 28L, 04R, 22L**).
-
-ADC North takes responsibility for the North/West Runway, Circuit and Airspace (Runway **10L, 28R, 04L, 22R**).
-
-ADC North is **not permitted** online when *Single Runway* Operations are in use.
-
-Refer to the [ATIS section](#dual-adc-operations_2) for information on ATIS formatting when ADC North is online.
 
 ## Airspace
 AF ADC is responsible for the Class D airspace in the AF CTR `SFC` to `A015`.
@@ -38,9 +27,17 @@ AF ADC is responsible for the Class D airspace in the AF CTR `SFC` to `A015`.
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
 ### Dual ADC Operations
-Airspace Ownership when ADC North is online, is split down the middle of the two active extended centrelines.
+When Archerfield ADC North is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
 
-## VFR Procedures
+ADC South takes responsibility for the South/East Runway, Circuit and Airspace (Runway **10R, 28L, 04R, 22L**).
+
+ADC North takes responsibility for the North/West Runway, Circuit and Airspace (Runway **10L, 28R, 04L, 22R**).
+
+ADC North is **not permitted** online when *Single Runway* Operations are in use.
+
+Refer to the [ATIS section](#runway-mode-formatting) for information on ATIS formatting when ADC North is online.
+
+## VFR Operations
 ### Arrivals
 VFR aircraft should track via a VFR inbound point at `A015` and be instructed as below:
 
@@ -72,22 +69,6 @@ Aircraft should advise planned Departure Procedure to **AF SMC** with TAXI call 
     **VPF:** "Archer Ground, Cherokee VPF, Main Apron, for a Western Departure, received information Alpha, request taxi"
 
     **VPF:** "Archer Tower, Cherokee VPF, holding point B8, runway 10 Left, for Western Departure, ready"
-
-## Circuits
-The circuit direction changes depending on time of day and runway being used.
-
-| Runway | Day  | Night |
-| ----------------| --------- | ---------- |
-| 04R             | Right | -  |
-| 04L             | Left  | -  |
-| 22R             | Right | -  |
-| 22L             | Left  | -  |
-| 10R             | Right | -  |
-| 10L             | Left  | Left  |
-| 28R             | Right | Right |
-| 28L             | Left  | -  |
-
-Circuits are to be flown at `A010`.
 
 ## Helicopter Operations
 Archerfield has three helipads located around the aerodrome:
@@ -154,40 +135,62 @@ Helicopters inbound from the south via PKR for either the northen or central hel
     **AF ADC:** "SMD, track direct central pad, cross 10L and 10R"  
     **SMD:** "Track direct central pad, crossing 10L and 10R, SMD"
 
+## Runway Modes
+### Preferred Runway Modes
+Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
+
+| Priority - Mode | Arrivals  | Departures |
+| ----------------| --------- | ---------- |
+| =1 - 10 PROPS | 10L (NORTH) & 10R (SOUTH) | 10L (NORTH) & 10R (SOUTH) |
+| =1 - 28 PROPS | 28L (SOUTH) & 28R (NORTH) | 28L (SOUTH) & 28R (NORTH) |
+| =2 - 04 PROPS | 04L (NORTH AND WEST) & 04R (SOUTH AND EAST) | 04L (NORTH AND WEST) & 04R (SOUTH AND EAST) |
+| =2 - 22 PROPS | 22L (SOUTH AND EAST) & 22R (NORTH AND WEST) | 22L (SOUTH Only) & 22R (NORTH AND WEST) |
+| =3 - 10L Only | 10L | 10L |
+| =3 - 28R Only | 28R | 28R |
+
+#### Night Operational Restrictions
+Runways 04L/22R, 04R/22L, and 10R/28L are unlit, and **cannot** be used at night.
+
+### Circuits
+The circuit direction changes depending on time of day and runway being used.
+
+| Runway | Day  | Night |
+| ----------------| --------- | ---------- |
+| 04R             | Right | -  |
+| 04L             | Left  | -  |
+| 22R             | Right | -  |
+| 22L             | Left  | -  |
+| 10R             | Right | -  |
+| 10L             | Left  | Left  |
+| 28R             | Right | **Left** |
+| 28L             | Left  | -  |
+
+Circuits are to be flown at `A010`.
+
 ## ATIS
-### Runway Nomination
-
-| Priority | Runway Mode |
-| ------ | ------ |
-| =1     | 10L & 10R |
-| =1     | 28L & 28R |
-| =2     | 04L & 04R |
-| =2     | 22L & 22R |
-| 3      | Any Single Runway Operations |
-
-The ATIS must indicate the current runway config and nominate what each runway is being used for. This should be reflected on the ATIS as below:
-
-| Runway | RWY Field  |
-| ----------------| --------- |
-| Single RWY      | `ALL OPERATIONS RWY (Number)` |
-| RWY 10/28       | `RWY 10L/28R FOR ARRS AND DEPS NORTH. RWY 10R/28L FOR ARRS AND DEPS SOUTH` |
-| RWY 04          | `RWY 04L FOR ARRS AND DEPS NORTH AND WEST. RWY 04R FOR ARRS AND DEPS SOUTH AND EAST` |
-| RWY 22          | `RWY 22. EASTERN DEPS NAVBL. RWY 22R FOR ARRS AND DEPS NORTH AND WEST. RWY 22L FOR ARRS SOUTH AND EAST AND DEPS SOUTH` |
-
-#### Dual ADC Operations
-
-| Runway | RWY Field  |
-| ----------------| --------- |
-| RWY 10/28       | `RWY 10L/28R FOR ARRS AND DEPS NORTH, FREQ 123.6. RWY 10R/28L FOR ARRS AND DEPS SOUTH, FREQ 118.1` |
-| RWY 04          | `RWY 04L FOR ARRS AND DEPS NORTH AND WEST, FREQ 123.6. RWY 04R FOR ARRS AND DEPS SOUTH AND EAST, FREQ 118.1` |
-| RWY 22          | `EASTERN DEPS NAVBL. RWY 22R FOR ARRS AND DEPS NORTH AND WEST, FREQ 123.6. RWY 22L FOR ARRS SOUTH AND EAST AND DEPS SOUTH, FREQ 118.1` |
-
 ### Approach Expectation
-The APCH field should include `EXP INST APCH` when:   
-  - the ceiling is at or below `A029`; or  
-  - visibility is less than 5000m  
+When **Runway 10L/28R** is in use for arrivals, the following table shall be followed for the Approach Expectation field:
 
-### Helicopter Area
+| Cloud Base          | Visibility | ATIS APCH field |
+| ------------------- | ---------- | --------------- |
+| At or above `A029`  | >5000M     | (blank) |
+| Below `A029` **or** | <5000M     | `EXP INST APCH` |
+
+### Runway Mode Formatting
+The ATIS must indicate runway configuration in the format below:
+
+| Mode        | Controllers | ATIS Runway information |
+| ----------- | ----------- | ----------------------- |
+| 10/28 PROPS | Single ADC  | `RWY 10L/28R FOR ARRS AND DEPS NORTH. RWY 10R/28L FOR ARRS AND DEPS SOUTH` |
+| 10/28 PROPS | Dual ADC    | `RWY 10L/28R FOR ARRS AND DEPS NORTH, FREQ 123.6. RWY 10R/28L FOR ARRS AND DEPS SOUTH, FREQ 118.1` |
+| 04 PROPS    | Single ADC  | `RWY 04L FOR ARRS AND DEPS NORTH AND WEST. RWY 04R FOR ARRS AND DEPS SOUTH AND EAST` |
+| 04 PROPS    | Dual ADC    | `RWY 04L FOR ARRS AND DEPS NORTH AND WEST, FREQ 123.6. RWY 04R FOR ARRS AND DEPS SOUTH AND EAST, FREQ 118.1` |
+| 22 PROPS    | Single ADC  | `RWY 22. EASTERN DEPS NAVBL. RWY 22R FOR ARRS AND DEPS NORTH AND WEST. RWY 22L FOR ARRS SOUTH AND EAST AND DEPS SOUTH` |
+| 22 PROPS    | Dual ADC    | `EASTERN DEPS NAVBL. RWY 22R FOR ARRS AND DEPS NORTH AND WEST, FREQ 123.6. RWY 22L FOR ARRS SOUTH AND EAST AND DEPS SOUTH, FREQ 118.1` |
+| Single Runway | Single ADC | `ALL OPERATIONS RWY (Number)` |
+
+### Operational Info
+#### Helicopter Area
 The ATIS must indicate the current active helicopter area, refer to [Training Areas](#training-areas).
 
 !!! example  
