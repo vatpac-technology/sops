@@ -83,9 +83,6 @@ Aircraft cleared via a gate must have their flight plan amended to reflect the n
 !!! example
     An aircraft tracking via Gate 4 would have `WLM088025` added to their route.
 
-## Initial and Pitch Procedures 
-The Intial Points for RWY 12 is the SW tip of Grahamstown Dam, and RWY 30 is the coastline.
-
 ## Local Procedures
 ### Stereo Approaches (Fast Jet Aircraft)
 
@@ -101,6 +98,9 @@ Fast jet aircraft typically transit from M550 to YWLM via Gate 6 at `F125`. When
 
 !!! note
     Stereo approach charts are available in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}.
+
+### Initial and Pitch Procedures 
+The Intial Points for RWY 12 is the SW tip of Grahamstown Dam, and RWY 30 is the coastline.
 
 ## Flow
 ### Local Knowledge
