@@ -117,6 +117,9 @@ ADC shall inform SMC of any inbound helicopters so that they may prevent other a
 ### Departures
 VFR Helicopters are generally processed via one of Essendon's VFR Departure Gates (see above). IFR helicopters should conform to fixed wing ops and be processed via the **EN (RADAR) SID** from an appropriate runway, unless a visual departure is acceptable.
 
+!!! Note
+    Helicopters should be assigned runways based on direction. E.g 17 direction for southbound. Due to obstructions from buildings the 26 direction is often not used from that direction.
+
 ### Arrivals 
 VFR helicopters are generally processed via by one of Essendon's VFR Arrival Gates (see above).  IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway.
 
