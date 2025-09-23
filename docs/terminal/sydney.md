@@ -603,12 +603,12 @@ Auto Release is used for virtually all fixed-wing departures at Sydney. Unlike s
 
 | Runway     | Jet         | Non-Jet                                        |
 | ---------- | :---------: | :--------------------------------------------: |
-| RWY 07     | 070         | H020, H110                                     |
-| RWY 16L    | 125         | H125 (RWY 25 in use), H090 (RWY 25 not in use) |
-| RWY 16R    | 170         | H210                                           |
-| RWY 25     | 300, 240    | H020, H210, H240                               |
-| RWY 34L    | 290         | H230                                           |
-| RWY 34R    | 030, 070    | H350                                           |
+| RWY 07     | H070        | H020, H110                                     |
+| RWY 16L    | H125        | H125 (RWY 25 in use), H090 (RWY 25 not in use) |
+| RWY 16R    | H170        | H210                                           |
+| RWY 25     | H300, H240  | H020, H210, H240                               |
+| RWY 34L    | H290        | H230                                           |
+| RWY 34R    | H030, H070  | H350                                           |
 
 !!! tip
     If strong winds are present at altitude, TWR/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
