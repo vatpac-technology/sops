@@ -18,7 +18,8 @@ This is all reclassified to **Class C** when PE TCU is online.
 !!! abstract "Reference"
     A helpful diagram can be found in [Pearce FIHA AD2 Supp](https://ais-af.airforce.gov.au/australian-aip){target=new}, Section 2.2.2.
 
-### Additional Releases
+## Local Procedures
+### Additional Airspace Releases
 Additional airspace releases may be NOTAM'd, or coordinated between PE TCU, PH TCU and PIY, to facilitate Military Operations.
 
 !!! phraseology

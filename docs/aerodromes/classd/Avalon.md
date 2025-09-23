@@ -5,13 +5,13 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login ID                         |
-| ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Avalon ADC**      | **Avalon Tower**   | **120.100**          | **AV_TWR**                                   |
-| **Avalon ATIS**     |                | **118.200**         | **YMAV_ATIS**                                |
+| Name              | Callsign         | Frequency   | Login ID      |
+| ----------------- | ---------------- | ----------- | ------------- |
+| **Avalon ADC**    | **Avalon Tower** | **120.100** | **AV_TWR**    |
+| **Avalon ATIS**   |                  | **118.200** | **YMAV_ATIS** |
 
 ## Airspace
-AV ADC is not responsible for any airspace by default.  
+AV ADC is not responsible for any airspace by default.
 AV ADC may request a *release* of the **Class D** airspace in the AV CTR from ML TCU to facilitate circuit operations, if required.
 
 ## SID Selection
@@ -21,7 +21,7 @@ Aircraft **not** planned via **ML**, and tracking to the North East, shall be re
 
 All other IFR aircraft shall be assigned the **Radar SID**.
 
-### Circuit Direction
+### Circuits
 | Runway | Direction |
 | ------ | ----------|
 | 18     | Left  |

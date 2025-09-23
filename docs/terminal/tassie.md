@@ -31,10 +31,11 @@ The Airspace on and west of the IRSOM-MORGO track `F125`-`F245` is permanently r
   <figcaption>LTA Release</figcaption>
 </figure>
 
-## YMHB
+## Departure and Arrival Procedures
+### YMHB
 All aircraft should be kept on SIDs and STARs. If due to operational requirements or routing, an aircraft is unable to accept the SID or STAR, voice coordination with HUO will be required.
 
-## YMLT
+### YMLT
 Visual approaches are preferred into YMLT. If due to operational requirements, an aircraft is unable to accept a visual approach, coordination with **LT ADC** may be required.  
 
 Runway 32L is regularly the duty runway due to prevailing winds. To assist traffic flow in and out of the TCU, ATC will instruct aircraft to track for runway 32L via one of the following routes:
@@ -49,7 +50,7 @@ These routes keep arrivals within CTA and away from the departure stream(s).
 !!! note
     Clearing aircraft to track via one of the above routes does **not** constitute a voiceless coordination route between LTA and LT ADC. Aircraft should still be heads-up coordinated to LT ADC prior to **5 minutes** to the boundary, unless coordinated otherwise.
 
-## YCBG
+### YCBG
 Aircraft inbound to YCBG who will track via the HBA CTA should be issued an airways clearance by HBA, then passed to HB ADC when appropriate. HBA must coordinate any clearance limits issued to HB ADC. 
 
 Aircraft inbound to YCBG who will track directly from Class G airspace to the CTR should contact HB ADC for clearance.

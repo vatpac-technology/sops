@@ -208,6 +208,7 @@
 *[FREM]: Fremantle Golf Course
 *[YGB]: Yangebup Lake
 *[FDL]: Forestdale Lake
+*[SHOP]: Armadale Shops
 *[BOAT]: Boatyard
 *[POWR]: Powerhouse
 *[OAKF]: Oakford
@@ -275,6 +276,7 @@
 *[WMS]: Williamstown
 *[NPBR]: Nepean Bridge
 *[KRMD]: Kurmond
+*[WSFR]: Wisemans Ferry
 *[YBBB]: Brisbane FIR
 *[YMMM]: Melbourne FIR
 *[NFFF]: Nadi FIR
@@ -348,9 +350,11 @@
 *[BLGH]: Burleigh Heads
 *[ROTC]: Robina Town Centre
 *[CGD]: Cudgen Headland
+*[AUW]: All Up Weight
 *[MI NDB]: Momi
 *[VK NDB]: Navakai
 *[CGB]: Craigieburn Overpass
 *[EPPG]: Epping
 *[ROK]: Rockbank
 *[FWO]: Freeway Overpass
+
