@@ -4,7 +4,7 @@ title: Helicopter Operations
 
 --8<-- "includes/abbreviations.md"
 
-The majority of the traffic on VATSIM is fixed-wing aircraft, and this can sometimes make helicopter operations seem difficult and confounding. But while there are differences between helicopter and fixed-wing operations, controlling helictopers is actually quite simple.
+The majority of the traffic on VATSIM is fixed-wing aircraft, and this can sometimes make helicopter operations seem difficult and confounding. But while there are differences between helicopter and fixed-wing operations, controlling helicopters is actually quite simple.
 
 ## Common Helicopter Types
 The ICAOs for many common helicopters may be unfamiliar to controllers used to fixed wing operations. Below is a list of some helicopter types that you may encounter in VATPAC airspace.
@@ -72,7 +72,9 @@ Some helicopter have wheels and are capable of taxiing on their own power while 
     **AD SMC**: "POL2, ground taxi via A, F2, hold short runway 12."
 
 #### Air Taxi
-When Air Taxiing, helicopter must follow the specified taxiways while remaining within ground effect and operating at a speed less than 20KT. A helicopter must receive explicit clearance to cross a runway during an air taxi.
+When Air Taxiing, helicopter must follow the specified taxiways while remaining within ground effect and operating at a speed less than 20KT. SMC will issue air taxi instructions in the same way as taxi instructions for fixed-wing aircraft, following standard taxi routes where relevant.
+
+A helicopter must receive explicit clearance to cross a runway during an air taxi.
 
 !!! phraseology
     **CS SMC**: "HLTK501, air taxi via A, hold short Y."
@@ -80,7 +82,7 @@ When Air Taxiing, helicopter must follow the specified taxiways while remaining 
     **NFFN ADC**: "DQIBT, air taxi via H, cross runway 25, C to the apron."
 	
 #### Air Transit
-Air transit allows helicopters to proceed directly between two points on the aerodrome expeditiously. During an air transit, helicopters must remain below A001, but may operate at speeds greater than those used in air taxiing.  A helicopter must receive explicit clearance to cross a runway during an air transit.
+Air transit allows helicopters to proceed directly between two points on the aerodrome expeditiously. During an air transit, helicopters must remain below A001, but may operate at speeds greater than those used in air taxiing and move freely beyond the extent of taxiways.  A helicopter must receive explicit clearance to cross a runway during an air transit.
 
 !!! phraseology
     **KA SMC**: "ABC, air transit to Woodside Apron."
@@ -88,6 +90,9 @@ Air transit allows helicopters to proceed directly between two points on the aer
 	**AS ADC**: "SVY801, air transit to the southern airpark, cross runway 12."
 	
 Before an SMC gives an air transit instruction to a helicopter, they must [coordinate with ADC](../coordination#air-transit).
+
+!!! tip 
+    Where air transit will be prolonged or conflicts with other traffic are likely, consider issuing a takeoff/landing clearance instead.
 
 #### Downwash
 Just as fixed wing aircraft can produce wake turbulence, helicopters operating near the ground generate forceful blasts of air that can create disturbances in all directions.
@@ -98,7 +103,7 @@ Light aircraft that are operating within three times the rotor diameter of helic
     **EN SMC**: "2AB, taxi via P, R, hold short E. Traffic is a AgustaWestland 139 air taxiing via D, caution downwash."
 	
 !!! tip 
-    Helicopters performing air taxi and air transit manoeuvres generate downwash which can damange concrete surfaces over time. In the real world, controllers will try to mitigate this by encouraging ground taxis and allowing helicopters to take-off in aprons, taxiways, etc. Controllers may choose to simulate this practice when facilitating helicoptert movements.
+    Helicopters performing air taxi (and to a lesser extent air transit) manoeuvres generate downwash which can damange concrete surfaces over time. In the real world, controllers will try to mitigate this by encouraging ground taxis and allowing helicopters to take-off in aprons, taxiways, etc. Controllers may choose to simulate this practice when facilitating helicopter movements.
 
 ### Takeoff and Landing
 #### Runways & Maneuvering Area
@@ -127,11 +132,11 @@ This also applies to helicopters departing helipads away from the aerodrome but 
     **CB ADC**: "RSCU203, Canberra Tower, report on the ground"
 	
 #### Visual Holds
-Helicopters can be given holding instructions to faciliate movement of nearby traffic that would be impossible for fixed-wing aircrafy to perform.
+Helicopters can be given holding instructions to facilitate movement of nearby traffic that would be impossible for fixed-wing aircrafy to perform.
 
-Most commonly issued by ADC's that own local airspace, these instructions involve making the helicopter hold over a visual reference point, such as the control tower or a runway threshold, before being given onwards clearance.
+Most commonly issued by ADC's that own local airspace, these instructions involve making the helicopter hold over a visual reference point, such as the control tower or a runway threshold, before being given onwards clearance. Such an instruction should include an obvious visual reference and an altitude restriction.
 
 !!! phraseology 
     **HWD:** "Sydney Tower, helicopter HWD, Hotel 7, for the Harbour Bridge 5 outbound, ready"  
-    **SY ADC:** "HWD, Sydney Tower. Track to and hold over the tower not above 500ft, traffic landing 34L. report airborne"  
-    **HWD:** "Track to and hold over the tower not above 500ft, wilco. HWD"  
+    **SY ADC:** "HWD, Sydney Tower. Track to and hold over the tower not above `A005`, traffic landing 34L. report airborne"  
+    **HWD:** "Track to and hold over the tower not above `A005`, HWD"  
