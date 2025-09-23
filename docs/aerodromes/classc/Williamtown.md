@@ -21,10 +21,6 @@ WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be a
   <figcaption>WLM ADC Airspace</figcaption>
 </figure>
 
-### SID Selection
-Aircraft planned via **KEXAR**, **LIMLO**, **MONDO**, **UBSON**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.  
-
-Aircraft that are not planned via those points may be assigned the **WLM (RADAR) SID** or a visual departure. 
 
 #### Fast-Jet SIDs
 !!! important
@@ -80,18 +76,13 @@ Aircraft cleared via a gate must have their flight plan amended to reflect the n
 ### Initial and Pitch Procedures 
 The Intial Points for RWY 12 is the SW tip of Grahamstown Dam, and RWY 30 is the coastline.
 
-## Charts
-!!! abstract "Reference"
-    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
-
 ## SID Selection
-Aircraft planned via **KEXAR**, **LIMLO**, **MONDO**, and **UBNON^** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
+Aircraft planned via **KEXAR**, **LIMLO**, **MONDO**, and **UBSON** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
 Aircraft unable to accept a procedural SID, and **non-RNAV** aircraft shall be assigned either the RADAR SID or a visual departure.
 
 !!! note 
-    ^ When the R596 area is active, aircraft planned via **UBNON** and departing Runway 12 shall be assigned the **UBNON BRAVO** SID.
-
+    ^ When the R596 area is active, aircraft planned via **UBSON** and departing Runway 12 shall be assigned the **UBSON BRAVO** SID.
 
 ## Coordination
 ### Departures
