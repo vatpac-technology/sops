@@ -152,3 +152,4 @@ In IMC or marginal VMC, it’s common for a helicopter to fly the instrument app
 	*HM1 becomes visual during their approach, and intends to break-off and land on the helipad*
 	**HM1**: "Tower, HM1 visual, request the Western Helipad."
 	**AY ADC**: "HM1, recleared visual approach to Western Helipad, report on the ground."
+	**HM1**: "Cleared visual, Western Helipad. HM1."
