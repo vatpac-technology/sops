@@ -12,12 +12,12 @@ The ICAOs for many common helicopters may be unfamiliar to controllers used to f
 | ICAO | Aircraft |
 | ---- | -------- |
 | A139 | AgustaWestland AW139 |
-| A189 | AgustaWestland AW189 |
 | AS50 | Airbus Helicopters H125 |
 | B407 | Bell 407 |
 | B412 | Bell 412 |
 | BK17 | MBB/Kawasaki BK117 |
 | EC35 | Eurocopter EC-635 |
+| EC45 | Eurocopter EC-145 |
 | EC75 | Eurocopter EC-175 |
 | G2CA | Guimbal Cabri G2 |
 | H60 | Sikorsky H60 |
@@ -58,15 +58,15 @@ Aerodromes that see significant helicopter traffic, such as [Sydney](../../aerod
 These local procedures are documented in these SOPs on the relevant aerodromes' page.
 
 ### Ground Movements
-Helicopters are capable of more manoeuvres than a fixed-wing aircraft, and as such there is unique procedures and phraseology to handle their movements. Beyond these differences, helicopter operations around an aerodrome are otherwise quite similar.
+Helicopters are capable of more maneuvres than a fixed-wing aircraft, and as such there is unique procedures and phraseology to handle their movements. Beyond these differences, helicopter operations around an aerodrome are otherwise quite similar.
 
 <figure markdown>
-![Different helicopter aerodrome movements](img/heli_ops_manoeuvres.png){ width="600" }
+![Different helicopter aerodrome movements](img/heli_ops_maneuvres.png){ width="600" }
   <figcaption>Different helicopter aerodrome movements</figcaption>
 </figure>
 
 #### Ground Taxi
-Some helicopter have wheels and are capable of taxiing on their own power while remaining on the ground. This manoeuvre is known as 'ground taxiing' and is functionally akin to taxiing fixed-wing aircraft.
+Some helicopter have wheels and are capable of taxiing on their own power while remaining on the ground. This maneuvre is known as 'ground taxiing' and is functionally akin to taxiing fixed-wing aircraft.
 
 !!! phraseology
     **AD SMC**: "POL2, ground taxi via A, F2, hold short runway 12."
@@ -103,7 +103,7 @@ Light aircraft that are operating within three times the rotor diameter of helic
     **EN SMC**: "2AB, taxi via P, R, hold short E. Traffic is a AgustaWestland 139 air taxiing via D, caution downwash."
 	
 !!! tip 
-    Helicopters performing air taxi (and to a lesser extent air transit) manoeuvres generate downwash which can damange concrete surfaces over time. In the real world, controllers will try to mitigate this by encouraging ground taxis and allowing helicopters to take-off in aprons, taxiways, etc. Controllers may choose to simulate this practice when facilitating helicopter movements.
+    Helicopters performing air taxi (and to a lesser extent air transit) maneuvres generate downwash which can damange concrete surfaces over time. In the real world, controllers will try to mitigate this by encouraging ground taxis and allowing helicopters to take-off in aprons, taxiways, etc. Controllers may choose to simulate this practice when facilitating helicopter movements.
 
 ### Takeoff and Landing
 #### Runways & Maneuvering Area
@@ -139,4 +139,16 @@ Most commonly issued by ADC's that own local airspace, these instructions involv
 !!! phraseology 
     **HWD:** "Sydney Tower, helicopter HWD, Hotel 7, for the Harbour Bridge 5 outbound, ready"  
     **SY ADC:** "HWD, Sydney Tower. Track to and hold over the tower not above `A005`, traffic landing 34L. report airborne"  
-    **HWD:** "Track to and hold over the tower not above `A005`, HWD"  
+    **HWD:** "Track to and hold over the tower not above `A005`, HWD"
+	
+### IFR Approaches
+Arriving IFR Helicopters should be processed just as a fixed-wing aircraft and cleared for an IAP and, if landing on a runway, receive standard runway landing clearances.
+
+In IMC or marginal VMC, it’s common for a helicopter to fly the instrument approach and, once visual, request to break off for a landing at a helipad or nearby location within the CTR. Approval is at Tower’s discretion, considering traffic and circuit activity. If approved, provide any relevant traffic information and surface/obstacle cautions.
+
+!!! phraseology 
+    **AY ADC**: "HM1, cleared RNP-Z approach runway 07."
+    **HM1**: "Cleared RNP-Z approach runway 07, HM1"
+	*HM1 becomes visual during their approach, and intends to break-off and land on the helipad*
+	**HM1**: "Tower, HM1 visual, request the Western Helipad."
+	**AY ADC**: "HM1, recleared visual approach to Western Helipad, report on the ground."

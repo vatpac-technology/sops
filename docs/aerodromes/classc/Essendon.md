@@ -110,18 +110,15 @@ VFR arrivals from Class G shall be cleared (at not above `A015`) via:
 | North West | [Sunbury Corridor](#sunbury-corridor) | DCT | DCT |
 
 ## Helicopter Operations
-Essendon has multiple helipads spread over the airfield with 2 of the major ones being located at Emergency Apron or on taxiway **J**.
+There are multiple helipads at Essendon: the Emergency Apron adjacent taxiway **T**; the **Tower Pad** at taxiway **J**; the **INT PAD** jjust north of taxiway **B**; and the **H81** pad on the Southern Apron.
 
 ADC shall inform SMC of any inbound helicopters so that they may prevent other aircraft from taxiing on the HLS.
 
 ### Departures
 VFR Helicopters are generally processed via one of Essendon's VFR Departure Gates (see above). IFR helicopters should conform to fixed wing ops and be processed via the **EN (RADAR) SID** from an appropriate runway, unless a visual departure is acceptable.
 
-!!! Note
-    Helicopters should be assigned runways based on direction. E.g 17 direction for southbound. Due to obstructions from buildings the 26 direction is often not used from that direction.
-
 ### Arrivals 
-VFR helicopters are generally processed via by one of Essendon's VFR Arrival Gates (see above).  IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway.
+VFR helicopters are generally processed via by one of Essendon's VFR Arrival Gates (see above). IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway.
 
 ## Runway Modes
 ### Preferred Runway Modes
