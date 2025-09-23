@@ -109,6 +109,9 @@ VFR arrivals from Class G shall be cleared (at not above `A015`) via:
 | South West | WES   | MVC | DCT |
 | North West | [Sunbury Corridor](#sunbury-corridor) | DCT | DCT |
 
+## Helicopter Operations
+Essendon has multiple helipads spread over the airfield with 2 of the major ones being located at Emergency Apron or on taxiway **J**.
+
 ## Runway Modes
 ### Preferred Runway Modes
 Runway selection at Essendon requires consideration of winds, the runway mode in use at YMML, and local noise abatement procedures. 
