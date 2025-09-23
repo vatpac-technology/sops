@@ -15,16 +15,6 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
-### CPDLC
-The Primary Communication Method for GUN is Voice.
-
-[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
-
-The CPDLC Station Code is `YGUN`.
-
-!!! tip
-    Even though GUN's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
-
 ## Airspace
 
 <figure markdown>
@@ -41,6 +31,16 @@ GUN assumes responsibility of the airspace to the North-West of the CB TCU above
 ### Reclassifications
 #### CB TCU
 When **CB TCU** is offline, CB TCU (Class C `SFC` to `A085`) reverts to Class G, and is administered by WOL.
+
+### CPDLC
+The Primary Communication Method for GUN is Voice.
+
+[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
+
+The CPDLC Station Code is `YGUN`.
+
+!!! tip
+    Even though GUN's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
 ## Sector Responsibilities
 ### Bindook (BIK)

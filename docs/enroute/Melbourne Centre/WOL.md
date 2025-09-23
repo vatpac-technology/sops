@@ -14,16 +14,6 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
-### CPDLC
-The Primary Communication Method for WOL is Voice.
-
-[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
-
-The CPDLC Station Code is `YWOL`.
-
-!!! tip
-    Even though WOL's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
-
 ## Airspace
 
 <figure markdown>
@@ -54,6 +44,16 @@ During times of high traffic, NW TCU may request the release of R420F up to `F30
 With R420F released to NW TCU, transiting aircraft will need to be coordinated or rerouted. Every effort will be made to accommodate these aircraft on track, but if NW TCU can't accommodate them, they must be vertically or laterally rerouted to avoid the restricted area. NW TCU will communicate this requirement.
 
 See [Nowra Airspace](../../terminal/nowra.md#airspace) for more details about the lateral boundaries of the Nowra restricted areas.
+
+### CPDLC
+The Primary Communication Method for WOL is Voice.
+
+[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
+
+The CPDLC Station Code is `YWOL`.
+
+!!! tip
+    Even though WOL's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
 ## Sector Responsibilities
 ### Wollongong (WOL)

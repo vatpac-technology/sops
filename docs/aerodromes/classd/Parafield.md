@@ -5,27 +5,16 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login ID                         |
-| ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Parafield ADC East**  | **Parafield Tower**  | **118.700**          | **PF_TWR**                        |
-| <span class="indented">Parafield ADC West :material-information-outline:{ title="Non-standard position"}  | Parafield Tower  | 124.600        | PF-W_TWR                        |
-| **Parafield SMC**  | **Parafield Ground** | **119.900**          | **PF_GND**                       |
-| **Parafield ATIS**        |                | **120.900**          | **YPPF_ATIS**                                |
+| Name                   | Callsign              | Frequency   | Login ID      |
+| ---------------------- | --------------------- | ----------- | ------------- |
+| **Parafield ADC East** | **Parafield Tower**   | **118.700** | **PF_TWR**    |
+| <span class="indented">Parafield ADC West :material-information-outline:{ title="Non-standard position"} | Parafield Tower | 124.600 | PF-W_TWR |
+| **Parafield SMC**      | **Parafield Ground**  | **119.900** | **PF_GND**    |
+| **Parafield ATIS**     |                       | **120.900** | **YPPF_ATIS** |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
-
-### Dual ADC Operations
-When Parafield ADC West is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
-
-ADC East takes responsibility for the South/East Runway, Circuit and Airspace (Runway **08R/26L** and **03R/21L**).
-
-ADC West takes responsibility for the North/West Runway, Circuit and Airspace (Runway **08L/26R** and **03L/21R**).
-
-ADC West is **not permitted** online when *Single Runway* Operations are in use.
-
-Refer to the [ATIS section](#runway-nomination) for information on ATIS formatting when ADC West is online.
 
 ## Airspace
 PF ADC is responsible for the Class D airspace in the PF CTR `SFC` to `A015`.
@@ -36,21 +25,17 @@ PF ADC is responsible for the Class D airspace in the PF CTR `SFC` to `A015`.
 </figure>
 
 ### Dual ADC Operations
+When Parafield ADC West is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
+
 Airspace Ownership when ADC West is online, is split down the middle of the two active extended centrelines.
 
-## Circuits
-Circuits to be flown at `A010`
+ADC East takes responsibility for the South/East Runway, Circuit and Airspace (Runway **08R/26L** and **03R/21L**).
 
-| Runway | Day  | Night |
-| -------| -----| ------|
-| 03L  | Left   | Left  |
-| 03R  | Right  | -     |
-| 21L  | Left   | -     | 
-| 21R  | Right  | Right |
-| 08L  | Left   | -     |
-| 08R  | Right  | -     |
-| 26L  | Left   | -     |
-| 26R  | Right  | -     |
+ADC West takes responsibility for the North/West Runway, Circuit and Airspace (Runway **08L/26R** and **03L/21R**).
+
+ADC West is **not permitted** online when *Single Runway* Operations are in use.
+
+Refer to the [ATIS section](#runway-mode-formatting) for information on ATIS formatting when ADC West is online.
 
 ## VFR Operations
 ### Arrivals
@@ -65,29 +50,62 @@ Circuits to be flown at `A010`
     ![Bolivar](img/bolivar.png){ width="400" }
     </figure>
 
-## IFR Operations
-### Departures
-IFR Departures from YPPF shall be assigned **PF RADAR** SID when Runway 03/21 is in use.
+## Runway Modes
+### Preferred Runway Modes
+Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
-## ATIS
-### Runway Nomination
-
-| Priority | Runway Mode |
-| ------ | ------ |
+| Priority - Mode | Arrivals  | Departures |
+| ----------------| --------- | ---------- |
 | =1     | 03L & 03R |
 | =1     | 21L & 21R |
 | =2     | 08L & 08R |
 | =2     | 26L & 26R |
 | 3     | Any Single Runway Operations |
 
-When 2 ADC controllers are online, the ATIS shall be formatted: `RWY 03R/08R/21L/26L FOR ARRS AND DEPS EAST, FREQ 118.7. RWY 03L/08L/21R/26R FOR ARRS AND DEPS WEST, FREQ 124.6`
+| Priority - Mode | Arrivals  | Departures |
+| ----------------| --------- | ---------- |
+| =1 - 03 PROPS | 03L (WEST) & 03R (EAST) | 03L (WEST) & 03R (EAST) |
+| =1 - 21 PROPS | 21L (EAST) & 21R (WEST) | 21L (EAST) & 21R (WEST) |
+| =2 - 08 PROPS | 08L (WEST) & 08R (EAST) | 08L (WEST) & 08R (EAST) |
+| =2 - 26 PROPS | 26L (EAST) & 26R (WEST) | 26L (EAST) & 26R (WEST) |
 
-By Night, Only Runway **03L/21R** may be used.
+#### Night Operational Restrictions
+Runways 03R/21L, 08L/26R, and 08R/26L are unlit, and **cannot** be used at night.
+
+### Circuits
+Circuits to be flown at `A010`
+
+| Runway | Day  | Night |
+| -------| -----| ------|
+| 03L  | Left   | Left  |
+| 03R  | Right  | -     |
+| 21L  | Left   | -     | 
+| 21R  | Right  | Right |
+| 08L  | Left   | -     |
+| 08R  | Right  | -     |
+| 26L  | Left   | -     |
+| 26R  | Right  | -     |
+
+## SID Selection
+When Runway **03L/21R** is in use, IFR aircraft shall be assigned the RADAR SID. When departing any other runway, IFR aircraft shall be assigned a visual departure.
+
+## ATIS
+### Runway Mode Formatting
+The ATIS must indicate runway configuration in the format below:
+
+| Mode        | Controllers | ATIS Runway information |
+| ----------- | ----------- | ----------------------- |
+| PROPS | Single ADC  | `RWY 03R/08R/21L/26L FOR ARRS AND DEPS EAST. RWY 03L/08L/21R/26R FOR ARRS AND DEPS WEST` |
+| PROPS | Dual ADC    | `RWY 03R/08R/21L/26L FOR ARRS AND DEPS EAST, FREQ 118.7. RWY 03L/08L/21R/26R FOR ARRS AND DEPS WEST, FREQ 124.6` |
+| Single Runway | Single ADC | `ALL OPERATIONS RWY (Number)` |
 
 ### Approach Expectation
-The APCH field should include `EXP INST APCH` when:   
-  - the ceiling is at or below `A020`; or  
-  - visibility is less than **5000m**  
+When **Runway 21R** is in use for arrivals, the following table shall be followed for the Approach Expectation field:
+
+| Cloud Base                | Visibility | ATIS APCH field |
+| ------------------------- | ---------- | --------------- |
+| Above `A020`              | >5000M     | (blank)         |
+| At or below `A020` **or** | <5000M     | `EXP INST APCH` |
 
 ## Coordination
 ### Departures

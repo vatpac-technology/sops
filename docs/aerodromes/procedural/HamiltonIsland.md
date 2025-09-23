@@ -6,10 +6,10 @@
 
 ## Positions
 
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | ---------------- |
-| **Hamilton Island ADC** | **Hamilton Tower** | **118.700** | **HM_TWR** |
-| **Hamilton Island ATIS** |  | **128.350** | **YBHM_ATIS** |
+| Name                     | Callsign              | Frequency   | Login ID      |
+| ------------------------ | --------------------- | ----------- | ------------- |
+| **Hamilton Island ADC**  | **Hamilton Tower**    | **118.700** | **HM_TWR**    |
+| **Hamilton Island ATIS** |                       | **128.350** | **YBHM_ATIS** |
 
 ## Airspace
 
@@ -22,7 +22,8 @@ HM ADC is responsible for the Class D airspace in the HM CTR `SFC` to `A045`.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
-## Surveillance
+## Separatioons
+### Surveillance
 Surveillance coverage can be expected to be not available below `A031` in the HM CTR. Although HM ADC is **not permitted** to use surveillance for separation, KEN(SWY) may assist by establishing surveillance separation standards via coordination
 
 ## Coordination
