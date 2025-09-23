@@ -166,6 +166,48 @@ The format is as follows:
 
 If a change of level or tracking is required, the TCU controller shall provide this change during this exchange.
 
+### Intra-Tower Coordination
+#### Runway Crossings
+When coordinating with Tower, there are three key items that must be used.
+
+- Aircraft Type: A320, B737, B777, C172, etc;
+- Location: Taxiway the aircraft is currently on;
+- Runway: The runway the aircraft will enter, backtrack or cross.
+
+The format is as follows:
+
+!!! note ""
+    <span class="hotline">**SMC** -> **ADC**</span>: "(Aircraft Type) on (Location) to cross (Runway)."  
+    <span class="hotline">**ADC** -> **SMC**</span>: "(Aircraft Type) on (Location) cross (Runway)."
+    <span class="hotline">**SMC** -> **ADC**</span>: "Cross (Runway)."  
+	  *or*
+    <span class="hotline">**ADC** -> **SMC**</span>: "Negative. Hold Short."
+    <span class="hotline">**SMC** -> **ADC**</span>: "Hold Short (Runway)."  
+
+#### Runway Releases
+As an alternative to coordinating individual aircraft crossings, ADC may 'release' a non-active runway to SMC. This reduces the workload of both controllers by allowing SMC to instruct aircraft to cross or otherwise use the non-active runway without coordination.
+
+!!! phraseology
+    <span class="coldline">**CB SMC** -> **CB ADC**</span>: "Request Runway 30 release to Ground"  
+    <span class="coldline">**CB ADC** -> **CB SMC**</span>: "Runway 30 released to Ground"
+
+Either ADC or SMC should place a **Runway ## Released to SMC** bar into the **Runway Bay**, using the "Add Bar" button in the [Control Bar](../../client/towerstrips/#control-bar).
+
+##### Recalling a Runway
+ADC can recall a runway release immediately. Upon recall, SMC shall acknowledge the recall with a traffic statement.
+
+!!! phraseology 
+    <span class="hotline">**AD ADC** -> **AD SMC**</span>: "Cancel release of Runway 30"
+    <span class="hotline">**AD SMC** -> **AD ADC**</span>: "Runway 30, no traffic" 
+	  *or*	
+    <span class="hotline">**AD SMC** -> **AD ADC**</span>: "Runway 30, traffic is a B737 crossing on F."
+
+#### Helicopter Air Transit
+A helicopter performing an air transit maneouvre must be coordinated from SMC to ADC.
+
+!!! phraseology 
+    <span class="hotline">**BRM SMC** -> **BRM ADC**</span>: "Robinson 44 on Eastern Heli Parking, for air transit to Western Helipad"
+    <span class="hotline">**BRM ADC** -> **BRM SMC**</span>: "Air transit approved."
 
 ## The C-Prompt (Coordination Prompt)
 Display the "C-Prompt" when all coordination for an aircraft is complete, or voice coordination is not required for an aircraft (ie. subject to voiceless coordination).
