@@ -131,7 +131,7 @@ Refer to [Wake Turbulence Separation Standards](../../separation-standards/runwa
 ## Helicopter Operations
 There is often confusion about how to handle helicopter operations at a controlled aerodrome. In reality, their operation is quite simple and no different to fixed wing aircraft.
 
-Refer to [Helicopter Operations](/helicopters.md).
+Refer to [Helicopter Operations](/helicopters).
 
 ## LAHSO
 !!! warning "Important"

@@ -61,7 +61,7 @@ These local procedures are documented in these SOPs on the relevant aerodromes' 
 Helicopters are capable of more maneuvres than a fixed-wing aircraft, and as such there is unique procedures and phraseology to handle their movements. Beyond these differences, helicopter operations around an aerodrome are otherwise quite similar.
 
 <figure markdown>
-![Different helicopter aerodrome movements](img/heli_ops_maneuvres.png){ width="600" }
+![Different helicopter aerodrome movements](img/heli_ops_manoeuvres.png){ width="600" }
   <figcaption>Different helicopter aerodrome movements</figcaption>
 </figure>
 
