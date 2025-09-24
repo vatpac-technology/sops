@@ -141,6 +141,11 @@ Most commonly issued by ADC's that own local airspace, these instructions involv
     **SY ADC:** "HWD, Sydney Tower. Track to and hold over the tower not above `A005`, traffic landing 34L. report airborne"  
     **HWD:** "Track to and hold over the tower not above `A005`, HWD"
 	
+!!! phraseology 
+    **RSCU510:** "Brisbane Tower, helicopter RSCU510, Taxiway H2, ready"  
+    **BN ADC:** "RSCU510, Brisbane Tower. Remain east of the runway 01R centreline, taxiway H2, cleared for takeoff."  
+    **RSCU510:** "Remain east of the Runway 01R centreline, taxiway H2, cleared for takeoff, RSCU510."
+	
 ### IFR Approaches
 Arriving IFR Helicopters should be processed just as a fixed-wing aircraft and cleared for an IAP and, if landing on a runway, receive standard runway landing clearances.
 
