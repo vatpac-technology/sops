@@ -34,15 +34,6 @@ If ML ADC nominates a restriction, and EN ADC determines they **cannot** maintai
 ### SSR Assignment
 Traffic in EN ADC airspace shall squawk 0100 unless a discrete code is required.
 
-### Sunbury Corridor
-Day VFR Helicopters may request clearance via the Sunbury Corridor. It is defined as the corridor 1nm either side of a track from SWT - PWLC - 16/27 Intersection at YMML.
-
-Boundary Coordination must be completed to ML TCU for clearances in this airspace.
-
-!!! phraseology
-    <span class="hotline">**EN ADC** -> **ML TCU**</span>: "HM3 requests clearance via Sunbury Corridor, not above `A020`."   
-    <span class="hotline">**ML TCU** -> **EN ADC**</span>: "HM3, clearance approved"  
-
 ### Melbourne City Orbits
 EN ADC is responsible for facilitating aircraft requesting city orbits. They shall be conducted at an altitude of:  
 
@@ -122,9 +113,36 @@ ADC shall inform SMC of any inbound helicopters so that they may prevent other a
 ### Departures
 VFR helicopters are generally processed via one of Essendon's VFR [Departure Gates](#departures). IFR helicopters should conform to fixed wing ops and be processed via the **EN (RADAR) SID** from an appropriate runway, unless a visual departure is acceptable.
 
+#### Sunbury Corridor
+Day VFR Helicopters may request clearance via the Sunbury Corridor. It is defined as the corridor 1nm either side of a track from SWT - PWLC - 16/27 Intersection at YMML.
+
+Boundary Coordination must be completed to ML TCU for clearances in this airspace.
+
+!!! phraseology
+    <span class="hotline">**EN ADC** -> **ML TCU**</span>: "HM3 requests clearance via Sunbury Corridor, not above `A020`."   
+    <span class="hotline">**ML TCU** -> **EN ADC**</span>: "HM3, clearance approved"  
+
 ### Arrivals 
 VFR helicopters are generally processed via by one of Essendon's VFR [Arrival Gates](#arrivals). IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway.
 
+### Eastern Grass
+Helicopters may perform airwork below 100FT AGL within the '**Eastern Grass**', defined as an area between the glide path antenna, the BoM anemometer, Taxiway N, and Runway 08/26.
+
+<figure markdown>
+![Eastern Grass](img/en_eastern_grass.png){ width="700" }
+<figcaption>Eastern Grass</figcaption>
+</figure>
+
+Helicopters requesting clearance to operate in the Eastern Grass shall be cleared to air transit to, and then operate within, the area by ADC.
+
+!!! phraseology
+    **ZXY**: "Essendon Tower, helicopter ZXY, Southern Apron, for the Eastern Grass."   
+    **EN ADC**: "ZXY, Essendon Tower, air transit Eastern Grass, cross runway 17. Report established."
+	**ZXY**: "Air transit Eastern Grass, cross runway 17, ZXY" 
+	
+	**ZXY**: "Essendon Tower, ZXY, established Eastern Grass."   
+    **EN ADC**: "ZXY, cleared to operate Eastern Grass, not above `A001`."
+	
 ## Runway Modes
 ### Preferred Runway Modes
 Runway selection at Essendon requires consideration of winds, the runway mode in use at YMML, and local noise abatement procedures. 
