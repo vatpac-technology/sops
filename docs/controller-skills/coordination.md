@@ -178,11 +178,10 @@ The format is as follows:
 
 !!! note ""
     <span class="hotline">**SMC** -> **ADC**</span>: "(Aircraft Type) on (Location) to cross (Runway)."  
-    <span class="hotline">**ADC** -> **SMC**</span>: "(Aircraft Type) on (Location) cross (Runway)."
-    <span class="hotline">**SMC** -> **ADC**</span>: "Cross (Runway)."  
+    <span class="hotline">**ADC** -> **SMC**</span>: "(Aircraft Type) on (Location) cross (Runway)."  
 	  *or*
-    <span class="hotline">**ADC** -> **SMC**</span>: "Negative. Hold Short."
-    <span class="hotline">**SMC** -> **ADC**</span>: "Hold Short (Runway)."  
+    <span class="hotline">**ADC** -> **SMC**</span>: "Negative. Hold Short."  
+    <span class="hotline">**SMC** -> **ADC**</span>: "Hold Short (Runway)." 
 
 #### Runway Releases
 As an alternative to coordinating individual aircraft crossings, ADC may 'release' a non-active runway to SMC. This reduces the workload of both controllers by allowing SMC to instruct aircraft to cross or otherwise use the non-active runway without coordination.
