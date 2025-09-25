@@ -45,23 +45,23 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **
 !!! note
     The following diagrams do not include non BN TCU areas of responsibility such as AF CTR or CG ADC
 
-#### 01 PROPS
-<figure markdown>
-![01 PROPS TCU Structure](img/bn01props.png){ width="700" }
-  <figcaption>01 PROPS TCU Structure</figcaption>
-</figure>
+=== "01 PROPS"
+	<figure markdown>
+	![01 PROPS TCU Structure](img/bn01props.png){ width="700" }
+	  <figcaption>01 PROPS TCU Structure</figcaption>
+	</figure>
 
-#### 19 PROPS
-<figure markdown>
-![19 PROPS TCU Structure](img/bn19props.png){ width="700" }
-  <figcaption>19 PROPS TCU Structure</figcaption>
-</figure>
+=== "19 PROPS"
+	<figure markdown>
+	![19 PROPS TCU Structure](img/bn19props.png){ width="700" }
+	  <figcaption>19 PROPS TCU Structure</figcaption>
+	</figure>
 
-#### SODPROPS
-<figure markdown>
-![SODPROPS TCU Structure](img/bnsodprops.png){ width="700" }
-  <figcaption>SODPROPS TCU Structure</figcaption>
-</figure>
+=== "SODPROPS"
+	<figure markdown>
+	![SODPROPS TCU Structure](img/bnsodprops.png){ width="700" }
+	  <figcaption>SODPROPS TCU Structure</figcaption>
+	</figure>
 
 ## Separation
 ### Parallel Runway Operations
