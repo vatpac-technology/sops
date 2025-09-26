@@ -52,35 +52,35 @@ The divisions of the airspace between **MAE**, **MDN**, **MDS**, and **MAV** cha
 !!! note
     The following diagrams do not include non ML TCU areas of responsibility such as MB ADC or EN ADC
 
-#### 09
-<figure markdown>
-![09 TCU Structure](img/ml09.png){ width="700" }
-  <figcaption>09 TCU Structure</figcaption>
-</figure>
+=== "09AD"
+	<figure markdown>
+	![09 TCU Structure](img/ml09.png){ width="700" }
+	  <figcaption>09 TCU Structure</figcaption>
+	</figure>
 
-#### 09A16D
-<figure markdown>
-![09A16D TCU Structure](img/ml09a16d.png){ width="700" }
-  <figcaption>09A16D TCU Structure</figcaption>
-</figure>
+=== "09A16D"
+	<figure markdown>
+	![09A16D TCU Structure](img/ml09a16d.png){ width="700" }
+	  <figcaption>09A16D TCU Structure</figcaption>
+	</figure>
 
-#### 16 / 16A27D
-<figure markdown>
-![16 / 16A27D TCU Structure](img/ml16.png){ width="700" }
-  <figcaption>16 / 16A27D TCU Structure</figcaption>
-</figure>
+=== "16AD & 16A27D"
+	<figure markdown>
+	![16 / 16A27D TCU Structure](img/ml16.png){ width="700" }
+	  <figcaption>16 / 16A27D TCU Structure</figcaption>
+	</figure>
 
-#### 27 / 27AD34D
-<figure markdown>
-![27 / 27AD34D TCU Structure](img/ml27.png){ width="700" }
-  <figcaption>27 / 27AD34D TCU Structure</figcaption>
-</figure>
+=== "27AD & 27AD34D"
+	<figure markdown>
+	![27 / 27AD34D TCU Structure](img/ml27.png){ width="700" }
+	  <figcaption>27 / 27AD34D TCU Structure</figcaption>
+	</figure>
 
-#### 34
-<figure markdown>
-![34 TCU Structure](img/ml34.png){ width="700" }
-  <figcaption>34 TCU Structure</figcaption>
-</figure>
+=== "34AD"
+	<figure markdown>
+	![34 TCU Structure](img/ml34.png){ width="700" }
+	  <figcaption>34 TCU Structure</figcaption>
+	</figure>
 
 ## Departure and Arrival Procedures
 ### Departure Procedures
