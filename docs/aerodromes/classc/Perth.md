@@ -35,7 +35,7 @@ When conditions permit, the [2400m separation standard for landing aircraft](../
 
 ## Workload Management
 ### Pushback Requests on ACD
-During busy periods, SMC and ACD may coordinate to implement the [Pushback Requests on ACD](../../controller-skills/grounddelaymanagement#pushback-requests-on-acd) procedure to balance the workload across ACD and SMC frequencies.
+During busy periods, SMC and ACD may coordinate to implement the [Pushback Requests on ACD](../../../controller-skills/grounddelaymanagement#pushback-requests-on-acd) procedure to balance the workload across ACD and SMC frequencies.
 
 When implementing the procedure the ATIS [OPR INFO field](#acd-pushback-requests) must be updated to inform pilots the correct frequency on which to request pushback.
 
