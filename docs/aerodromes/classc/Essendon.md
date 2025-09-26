@@ -141,7 +141,7 @@ Helicopters requesting clearance to operate in the Eastern Grass shall be cleare
 	**ZXY**: "Air transit Eastern Grass, cross runway 17, ZXY" 
 	
 	**ZXY**: "Essendon Tower, ZXY, established Eastern Grass."   
-    **EN ADC**: "ZXY, cleared to operate Eastern Grass, not above `A001`."
+    **EN ADC**: "ZXY, cleared to operate Eastern Grass, not above 100ft."
 	
 ## Runway Modes
 ### Preferred Runway Modes
