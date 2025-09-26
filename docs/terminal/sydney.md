@@ -102,35 +102,35 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
   <figcaption>SY TCU Side Profile</figcaption>
 </figure>
 
-#### 07
-<figure markdown>
-![07 TCU Structure](img/sy07.png){ width="700" }
-  <figcaption>07 TCU Structure</figcaption>
-</figure>
+=== "07AD"
+	<figure markdown>
+	![07 TCU Structure](img/sy07.png){ width="700" }
+	  <figcaption>07 TCU Structure</figcaption>
+	</figure>
 
-#### 16 PROPS
-<figure markdown>
-![16 PROPS TCU Structure](img/sy16PROPS.png){ width="700" }
-  <figcaption>16 PROPS TCU Structure</figcaption>
-</figure>
+=== "16 PROPS"
+	<figure markdown>
+	![16 PROPS TCU Structure](img/sy16PROPS.png){ width="700" }
+	  <figcaption>16 PROPS TCU Structure</figcaption>
+	</figure>
 
-#### 25
-<figure markdown>
-![25 TCU Structure](img/sy25.png){ width="700" }
-  <figcaption>25 TCU Structure</figcaption>
-</figure>
+=== "25AD"
+	<figure markdown>
+	![25 TCU Structure](img/sy25.png){ width="700" }
+	  <figcaption>25 TCU Structure</figcaption>
+	</figure>
 
-#### 34 PROPS
+=== "34 PROPS"
 <figure markdown>
 ![34 PROPS TCU Structure](img/sy34PROPS.png){ width="700" }
   <figcaption>34 PROPS TCU Structure</figcaption>
 </figure>
 
-#### SODPROPS
-<figure markdown>
-![SODPROPS TCU Structure](img/sySODPROPS.png){ width="700" }
-  <figcaption>SODPROPS TCU Structure</figcaption>
-</figure>
+=== "SODPROPS"
+	<figure markdown>
+	![SODPROPS TCU Structure](img/sySODPROPS.png){ width="700" }
+	  <figcaption>SODPROPS TCU Structure</figcaption>
+	</figure>
 
 ## Separation
 ### Parallel Runway Operations
