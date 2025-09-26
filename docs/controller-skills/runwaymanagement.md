@@ -47,7 +47,7 @@ During periods of low traffic volume, there is likely to be little consequence t
     If a pilot is warned about a potential hazard (such as a strong tailwind) and is still happy to accept the runway assignment, you may allow them to depart from, or arrive to, a runway not specified on the ATIS.
 
 ## Approach Types
-The controller in charge of the ATIS must nominate an approach expectation to allow pilots to prepare themselves and their aircraft as required. Since this decision largely affects the TMA controller, it is a good idea to discuss this with them.
+The controller in charge of the ATIS must nominate an approach expectation to allow pilots to prepare themselves and their aircraft as required. Since this decision largely affects the TCU controller, it is a good idea to discuss this with them.
 
 Visual approaches should be nominated on the ATIS when the current meteorological conditions (cloud base and visibility) allow for them. You may nominate visual approaches when:
 
@@ -65,17 +65,17 @@ If the cloud base or visibility does not allow for visual approaches, an instrum
     See [ATIS Abbreviations](./atis.md) for a full list of abbreviations which can be used in the ATIS.
 
 ## Runway Changes
-Whilst runway changes have minimal impact on aerodrome controllers, they can drastically increase the workload for TMA controllers and have large flow on effects for enroute controllers. All runway changes should (where possible) be carefully planned and communicated, to ensure all surrounding sectors are aware of the impending change.
+Whilst runway changes have minimal impact on aerodrome controllers, they can drastically increase the workload for TCU controllers and have large flow on effects for enroute controllers. All runway changes should (where possible) be carefully planned and communicated, to ensure all surrounding sectors are aware of the impending change.
 
 !!! warning "Important"
     Runway changes involve all types of controllers (from Delivery to Enroute), so a large amount of coordination is required. All coordination should be done on a **point-to-point** basis, so remember to pass on any relevant details to any controllers above/around you as necessary.
 
-    E.g. ADC talks to TMA, then TMA talks to ENR, then ENR talks to any subsectors/surrounding sectors as required.
+    E.g. ADC talks to TCU, then TCU talks to ENR, then ENR talks to any subsectors/surrounding sectors as required.
 
 ### Planned Configuration Change
 The aerodrome controller in charge of the ATIS should frequently check the METAR/TAF to identify trends and any anticipated wind shifts. If a change of runway is expected (e.g. with the forecast passing of a front), controllers should anticipate this change.
 
-Discuss the event with the overlying TMA controller/s and nominate a time from which the new runway configuration will be used. It can be helpful to identify the last arrival who will use the current runway mode, so that both Tower and Approach have a definite change point. Once this coordination has been completed, update the ATIS and include an expectation of a runway change in the `OPR INFO` field. This should include the expected time of change and the new runway mode to be used. The TMA controller should coordinate with Enroute, who will amend any STAR clearances for aircraft projected to land after the nominated time.
+Discuss the event with the overlying TCU controller/s and nominate a time from which the new runway configuration will be used. It can be helpful to identify the last arrival who will use the current runway mode, so that both Tower and Approach have a definite change point. Once this coordination has been completed, update the ATIS and include an expectation of a runway change in the `OPR INFO` field. This should include the expected time of change and the new runway mode to be used. The TCU controller should coordinate with Enroute, who will amend any STAR clearances for aircraft projected to land after the nominated time.
 
 !!! phraseology
     <span class="hotline">**SY ADC** -> **SAN**</span>: "The tailwind component is starting to increase a bit and the TAF indicates the wind's going to keep swinging around. Thoughts on changing to runway 34s from time 30?"  
@@ -89,13 +89,13 @@ Once QFA553 lands, the runway change can occur. It is good practice to cancel au
 ### Immediate Change
 Sometimes, prior notice is not available to plan a runway change and an immediate change is required. **Changes of this nature will have a severe impact on surrounding controllers if the traffic levels are high, and should be avoided at all costs.**
 
-If an immediate change is required, the first port of call should be to contact the TMA controller and advise of the situation. Nominate the last aircraft to land using the current runway mode and hold all departures until the runway change has occurred. It is good practice to cancel autorelease during this period, to avoid any surprise departures as the TMA controller sequences any remaining aircraft for the new runway.
+If an immediate change is required, the first port of call should be to contact the TCU controller and advise of the situation. Nominate the last aircraft to land using the current runway mode and hold all departures until the runway change has occurred. It is good practice to cancel autorelease during this period, to avoid any surprise departures as the TCU controller sequences any remaining aircraft for the new runway.
 
 ### Actions for Each Position
 #### ADC
 Once a need to change configurations has been identified, Tower controllers should:  
 
-- Discuss with TMA controllers to nominate the time of change and identify last arrival to use the current runway config  
+- Discuss with TCU controllers to nominate the time of change and identify last arrival to use the current runway config  
 - Update the ATIS  
 - Coordinate with ACD to ensure aircraft departing after the runway change are assigned an appropriate runway and SID  
 - Continue departing aircraft as normal until the last arrival lands
@@ -129,23 +129,9 @@ Refer to [Runway Separation Standards](../../separation-standards/runway/)
 Refer to [Wake Turbulence Separation Standards](../../separation-standards/runway/#wake-turbulence)
 
 ## Helicopter Operations
-There is often confusion about how to handle helicopter operations at a controlled aerodrome. In reality, their operation is quite simple and no different to fixed wing aircraft.
+There is often confusion about how to handle helicopter operations at a controlled aerodrome. In reality, their operation is quite simple and often no different to fixed wing aircraft.
 
-### Runways & Manoeuvring Area
-The aerodrome controllers 'own' the pavement on all runways and any taxiways or other areas defined as the 'manoeuvring area'. Aircraft require explicit takeoff and landing clearances to operate from these areas.
-
-!!! phraseology
-    **SY ADC**: "RSCU209, runway 16L, cleared to land"
-
-    **AD ADC**: "YOE, taxiway A2, cleared for takeoff"
-
-### Other Locations
-Areas outside of the manoeuvring area are beyond the jurisdiction of the aerodrome controllers. However, since these aerodromes exist in a CTR (with controlled airspace down to the surface), a clearance is required to operate in the airspace itself. ATC is not able to issue explicit takeoff and landing clearances (as they don't own the ground on which the aircraft wishes to takeoff/land), so issue a requirement to report airborne or on the ground.
-
-!!! phraseology
-    **SY ADC**: "HSZ, hotel 6, report on the ground"  
-
-    **SY ADC**: "HWD, report airborne"
+Refer to [Helicopter Operations](./helicopters.md).
 
 ## LAHSO
 !!! warning "Important"
