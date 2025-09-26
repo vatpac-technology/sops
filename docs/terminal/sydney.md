@@ -121,10 +121,10 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
 	</figure>
 
 === "34 PROPS"
-<figure markdown>
-![34 PROPS TCU Structure](img/sy34PROPS.png){ width="700" }
-  <figcaption>34 PROPS TCU Structure</figcaption>
-</figure>
+	<figure markdown>
+	![34 PROPS TCU Structure](img/sy34PROPS.png){ width="700" }
+	  <figcaption>34 PROPS TCU Structure</figcaption>
+	</figure>
 
 === "SODPROPS"
 	<figure markdown>
