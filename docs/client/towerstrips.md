@@ -413,6 +413,8 @@ During events, or when traffic flow management procedures are warranted, CDM mod
 | Pushed | Pushback, Taxi, Holding Point or Runway Bay | Included in the departure queue below any Active aircraft |
 | Complete | Departed Bay, or GS > 50kts | Departure time is logged, not included in CDM calculations |
 
+If an aircraft disconnects, or their strip is moved into the **Preactive Bay** or **Cleared Bay** above the bar, their CDM status will expire after 3 minutes. 
+
 <figure markdown>
 ![Active Strip](../controller-skills/img/ozstripscdmqueue.png){ width="800" }
     <figcaption>An **Active** strip</figcaption>
@@ -427,11 +429,11 @@ During events, or when traffic flow management procedures are warranted, CDM mod
 | Abbreviation | Full Name | Explanation | Example |
 | ------------ | --------- | ----------- | ------- |
 | EOBT | Estimated Off Blocks Time | The off blocks time a pilot submits within their flight plan. This is not used for CDM calculations. | 10:00z |
-| TOBT | Tactical Off Blocks Time | The time at which the pilot requests pushback at. | 10:20z |
+| TOBT | Tactical Off Blocks Time | The time at which the pilot requests pushback. | 10:20z |
 | TSAT | Tactical Start Approved Time | The time the CDM processor allots for pushback approval, taking into account CDM parameters and other aircraft. | 10:30z |
-| AOBT | Actual Off Blocks Time | The time when the aircraft actually pushes back. This should be as close to the final TSAT as possible | 10:31z |
+| AOBT | Actual Off Blocks Time | The time at which the aircraft actually pushes back. This should be as close to the final TSAT as possible | 10:31z |
 | CTOT | Calculated Take Off TIme | The time the CDM system allots for aircraft departure. | 10:45z |
-| ATOT | Actual Take Off Time | The time when the aircraft actually departs. | 10:46z |
+| ATOT | Actual Take Off Time | The time at which the aircraft actually departs. | 10:46z |
 
 #### CDM Processing
 CDM Processing refers to the process by which the departure order, TSAT and CTOT times are calculated for each aircraft. This occurs regularly at CDM enabled aerodromes, and after every CDM-relevant aircraft state change.

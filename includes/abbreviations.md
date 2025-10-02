@@ -358,3 +358,9 @@
 *[ROK]: Rockbank
 *[FWO]: Freeway Overpass
 *[A-CDM]: Airport Collaborative Decision Making
+*[EOBT]: Estimated Off Blocks Time
+*[TOBT]: Tactical Off Blocks Time
+*[TSAT]: Tactical Start Approved Time
+*[AOBT]: Actual Off Blocks Time
+*[CTOT]: Calculated Take Off TIme
+*[ATOT]: Actual Off Blocks Time
