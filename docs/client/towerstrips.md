@@ -201,6 +201,9 @@ Right mouse click on the yellow First Waypoint box to open the Reroute menu. Fro
 #### Pushback Requests on ACD
 When [pushback requests](../controller-skills/grounddelaymanagement.md#pushback-requests-on-acd) are being managed by ACD, the procedures set out in [Coordinator](#coordinator) below shall be followed.
 
+!!! tip
+    Whilst not a requirement, controllers may find it beneficial to utilise [CDM Mode](#a-cdm) to manage the pushback rate where congestion is likely at the holding point.
+
 ### Coordinator
 At locations like [Brisbane](../aerodromes/classc/Brisbane.md#pushback-requests-on-acd), [Melbourne](../aerodromes/classc/Melbourne.md#pushback-requests-on-acd), [Perth](../aerodromes/classc/Perth.md#pushback-requests-on-acd), and [Sydney](../aerodromes/classc/Sydney.md#sydney-coordinator), a Coordinator role is sometimes performed during times of high traffic. See each aerodrome-specific page for the requirements to open and set up the Coordinator position.
 
