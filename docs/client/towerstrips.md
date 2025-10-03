@@ -416,6 +416,9 @@ As per [Runway Crossings](#runway-crossings), the red crossing highlight should 
 ### A-CDM
 During events, or when traffic flow management procedures are warranted, CDM mode can be enabled for the aerodrome. A CDM Processor at each aerodrome keeps track of which stage of departure each aircraft is in. Active and Pushed aircraft are included within the **Departure Queue**, and will have a TSAT and CTOT time calculated for each aircraft.
 
+!!! note
+    The departure queue (as well as a range of statistics) is available on the [Ops Dashboard](https://cdm.maxrumsey.xyz/ops){target=new}.
+
 #### CDM Stages
 | Name | OzStrips Bay | CDM Processor Action |
 | ---- | ------------ | -------------------- |
@@ -436,7 +439,7 @@ If an aircraft disconnects, or their strip is moved into the **Preactive Bay** o
     <figcaption>A **Pushed** strip (noted by the yellow EOBT field)</figcaption>
 </figure>
 
-#### CDM Abbreviations
+##### CDM Abbreviations
 | Abbreviation | Full Name | Explanation | Example |
 | ------------ | --------- | ----------- | ------- |
 | EOBT | Estimated Off Blocks Time | The off blocks time a pilot submits within their flight plan. This is not used for CDM calculations. | 10:00z |
