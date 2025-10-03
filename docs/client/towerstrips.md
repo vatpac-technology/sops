@@ -458,6 +458,8 @@ Pushback should only be issued when the aircraft is compliant with their TSAT.
 | Green | Compliant with TSAT | The aircraft is compliant with their TSAT. Pushback may be issued if aerodrome congestion allows. |
 | Yellow | Pushed Back | Aircraft has already pushed back, no further action required. |
 
+Controllers should follow the procedures detailed on the [Ground Delay Management](../controller-skills/grounddelaymanagement.md#processing-each-aircraft) page.
+
 #### CDM Processing
 CDM Processing refers to the process by which the departure order, TSAT and CTOT times are calculated for each aircraft. This occurs regularly at CDM enabled aerodromes, and after every CDM-relevant aircraft state change.
 

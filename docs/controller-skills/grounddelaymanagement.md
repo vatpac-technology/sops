@@ -48,7 +48,7 @@ To effectively operate with A-CDM procedures:
     An TSAT and CTOT will be generated for them, which can be provided to the pilot. This will be presented within the strip `Time Field`, and will appear with a grey background.
 
     <figure markdown>
-    ![Queued Strip](../controller-skills/img/ozstripscdmqueue.png){ width="800" }
+    ![Queued Strip](../controller-skills/img/ozstripscdmqueue.png){ width="500" }
         <figcaption>A queued strip, with a TSAT of 03:52z.</figcaption>
     </figure>
 
