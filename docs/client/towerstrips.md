@@ -478,7 +478,7 @@ To make this task easier, OzStrips provides a Departure Monitor screen above the
 
 <figure markdown>
 ![Departure Monitor](../controller-skills/img/ozstripsdepmonitor.png){ width="300" }
-    <figcaption>Example Departure Monitor.</figcaption>
+    <figcaption>Example Departure Monitor</figcaption>
 </figure>
 
 The ADC controller(s) should aim to ensure the amount of aircraft they release matches these values as close as possible. While over-exceeding departure capacity is easily preventable, sometimes departure capacity can be underutilised due to ground-stops or not enough aircraft demand.
