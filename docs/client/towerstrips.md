@@ -299,6 +299,11 @@ If the TCU suspends autorelease, record this by placing the `AUTORELEASE SUSPEND
     <figcaption>RXA3656 assigned heading 320 with autorelease suspended</figcaption>
 </figure>
 
+!!! tip
+    During busy 'conga line' events, like Milk Run Monday, controllers may find it beneficial to utilise [CDM Mode](#a-cdm) to manage the departure rate and avoid overwhelming the TCU and downstream enroute controllers.
+
+    This mode is only beneficial to ADC where the departure rate is important and will be less beneficial for events where aircraft depart in a wide variety of outbound directions.
+
 #### Arrivals
 When an aircraft calls you on Tower frequency, click the Ready flag (to show that they are on frequency). When a landing clearance is issued, move the strip to the **Runway Bay**.
 
