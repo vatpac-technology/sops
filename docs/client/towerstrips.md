@@ -408,21 +408,21 @@ During events, or when traffic flow management procedures are warranted, CDM mod
 ##### CDM Stages
 | Name | OzStrips Bay | CDM Processor Action |
 | ---- | ------------ | -------------------- |
-| Preactive | Preactive or Cleared Bay above the bar | Not included in CDM calculations |
-| Active | Cleared Bay, below the queue bar | Included within the departure queue, and will be issued a TSAT and CTOT time |
+| Preactive | Preactive or Cleared Bay above the bar | *Not included in CDM calculations* |
+| Active | Cleared Bay, below the queue bar | Included within the departure queue, and will be issued a TSAT and CTOT |
 | Pushed | Pushback, Taxi, Holding Point or Runway Bay | Included in the departure queue below any Active aircraft |
-| Complete | Departed Bay, or GS > 50kts | Departure time is logged, not included in CDM calculations |
+| Complete | Departed Bay, or GS > 50kts | Departure time is logged, *not included in CDM calculations* |
 
 If an aircraft disconnects, or their strip is moved into the **Preactive Bay** or **Cleared Bay** above the bar, their CDM status will expire after 3 minutes. 
 
 <figure markdown>
-![Active Strip](../controller-skills/img/ozstripscdmqueue.png){ width="800" }
+![Active Strip](../controller-skills/img/ozstripscdmqueue.png){ width="500" }
     <figcaption>An **Active** strip</figcaption>
 </figure>
 
 <figure markdown>
-![Pushed Strip](../controller-skills/img/ozstripscdmpushed.png){ width="800" }
-    <figcaption>A **Pushed** strip</figcaption>
+![Pushed Strip](../controller-skills/img/ozstripscdmpushed.png){ width="500" }
+    <figcaption>A **Pushed** strip (noted by the yellow EOBT field)</figcaption>
 </figure>
 
 ##### CDM Abbreviations
