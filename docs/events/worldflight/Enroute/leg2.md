@@ -10,6 +10,8 @@ TRT is responsible for issuing STAR Clearances and all sequencing actions in to 
 
 TRT will be responsible for the TRT subsector **only**.
 
+During the subsequent departure leg, TRS shall extend their jurisdiction into TRT to include the departure route to WAJJ.
+
 #### STARs
 All aircraft shall be issued the **ANUPA1A** STAR.  
 
@@ -23,10 +25,10 @@ Minimum distance between arrivals at handoff to DAW is **10nm** (with no signifi
 
 ## Coordination
 ### WAAF CTR to TRT
-As per [Standard TRT coordination procedures](../../../../../../enroute/Brisbane Centre/TRT/#international-waaf), All aircraft should be Heads-up Coordinated by WAAF CTR prior to **30 mins** from boundary.
+As per [standard TRT coordination procedures](../../../../../../enroute/Brisbane Centre/TRT/#international-waaf), all aircraft should be **Heads-up Coordinated** by WAAF CTR prior to **30 mins** from boundary.
 
 !!! tip
     It may be prudent (especially if they are using vatSys) to set up a Voiceless Coordination Agreement with WAAF CTR, in order to reduce workload for both controllers.
 
 ### TRT to DAW
-Standard as per [TRT Local Instructions](../../../../../../nroute/Brisbane Centre/TRT/#arrivalsoverfliers)
+Standard as per [TRT Local Instructions](../../../../../../enroute/Brisbane Centre/TRT/#arrivalsoverfliers).

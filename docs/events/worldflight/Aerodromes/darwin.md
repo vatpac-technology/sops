@@ -34,29 +34,22 @@ If an aircraft has filed an *incorrect* route and you need to give an amended cl
     <figcaption>WF Team Highlight with Events Plugin</figcaption>
     </figure>
 
-### Strip Setup
-By default, vatSys strips will be set to show in *Alphabetical* Order.  
-This must be changed to be ordered by **Time**, as shown below.
-
-<figure markdown>
-![Strips Menu](../img/strip1.png){ width="500" }
-    <figcaption>Strips Menu</figcaption>
-</figure>
-
-<figure markdown>
-![Change to Time](../img/strip2.png){ width="500" }
-    <figcaption>Change to Time</figcaption>
-</figure>
-
 ### SID Selection
-Runway 11 Departures shall be issued the **RUPEG2** SID.  
-Runway 29 Departures shall be issued the **DN7** RADAR SID.  
+All departures shall be issued the **DN7** RADAR SID.
+
+### Initial Climb Altitude
+All departures shall be assigned the lower of `A050` or `RFL`.
+
+!!! warning "Important"
+    This altitude assignment differs from the normal SOPs for YPDN. Ensure the correct altitude is assigned.
 
 ### Departure Frequency
-Regardless of Runway in use, Departure frequency shall be DAE (**125.2**).
+Regardless of runway in use, departure frequency shall be DAE (**125.2**).
 
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect, prioritising those who connected first. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
+
+The [PDC Indicator](../../../client/towerstrips.md#strips) will be displayed on a strip when a PDC has been sent to that pilot.
 
 !!! tip
     OzStrips displays strips in the Preactive bay ordered by connection time. Aircraft who connected first are shown down the bottom of the bay.
@@ -74,10 +67,8 @@ All aerodrome controllers must be familiar with the VATPAC [recommended workflow
 
 Ensure the Queue function is used to actively to keep track of the order of requests.
 
-A Custom `PDC SENT` bar should be created in the Preactive window, to keep track of who has and hasn't received a PDC.
-
 ### A388 Parking
-There is only 1 stand suitable for A388 parking (refer to [YPDN Apron Chart](https://www.airservicesaustralia.com/aip/current/dap/PDNAP01-180_05SEP2024.pdf){target=new}). If this is occupied, A388 aircraft must be instructed to park off-apron on grass.
+There is only 1 stand suitable for A388 parking (refer to [YPDN Apron Chart](https://www.airservicesaustralia.com/aip/current/dap/PDNAP01-180_04SEP2025.pdf){target=new}). If this is occupied, A388 aircraft must be instructed to park off-apron on grass.
 
 ### Taxi Routes
 #### Grass Taxiing
@@ -103,7 +94,12 @@ Aircraft vacating runway 29 to the right (north) should be instructed to taxi vi
 Ensure that a minimum of **90 second** spacing is applied between subsequent departures from the same runway.
 
 ### DN7 Assigned Heading
-Departures from Runway 29 will be assigned the **DN7** SID with an assigned heading of **H130**.
+Departures shall be assigned a heading in accordance with the table below:
+
+| Departure Runway | Assigned Heading |
+| --- | --- |
+| 11 | H030 |
+| 29 | H360 |
 
 ### Wake Turbulence Separation
 Due to the tight sequence, there are times that [Wake Turbulence Separation](../../../../../../separation-standards/waketurb/#runways) cannot practically be applied.
@@ -131,7 +127,7 @@ Aircraft intended for the northern aprons should be instructed to vacate at eith
 
 ## ATIS
 The ATIS OPR INFO shall include:  
-`EXP CLR VIA PDC`
+`EXP CLR VIA PDC, EXP DEPARTURE DELAYS DUE EVENT`
 
 ## Coordination
 ### DN TCU
@@ -140,8 +136,8 @@ Available for aircraft assigned `F180`, and:
 
 | Runway | SID | Assigned Heading |
 | ---------- | --- | --- |
-| 11  | RUPEG2 | - |
-| 29  | DN7 | H130 |
+| 11 | DN7 | H030 |
+| 29 | DN7 | H360 |
 
 #### Departures Controller
 All departures shall be handed off to DAE.  

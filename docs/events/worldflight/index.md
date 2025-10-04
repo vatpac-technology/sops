@@ -3,18 +3,23 @@
 ---
 
 ## TO DO
-### Aerodrome
-**YSSY Departure page**
+All procedures are complete up to and include the outbound leg from YPDN. Next to tackle is inbound to YBCS.
 
-- Tower Control (ADC) -> Departure Spacing: Determine actual departure rate permitted
+### Aerodrome
+- YSSY Departure page
+    - Tower Control (ADC) -> Departure Spacing: Determine actual departure rate permitted
+- YPDN page
+    - Airways Clearance Delivery (ACD) -> Flight Plan Compliance: Add route when finalised by WorldFlight team (also update the reroute example below it)
 
 ### Terminal
-**YSSY Departure page**
-
-- Airspace Division: update images and associated descriptions
+- YSSY Departure page
+    - Airspace Division: Update images and associated descriptions
+- YPDN page
+    - Runway 29 Departures: Update waypoint to clear departures direct to
+    - Coordination -> DAE to TRT: Update waypoint for voiceless coord
 
 ### Enroute
-
+-
 
 Welcome to the controller briefing material for WorldFlight! Event-specific procedures are sorted by position type and should be read in conjunction with the existing SOPs for that position/location.
 
