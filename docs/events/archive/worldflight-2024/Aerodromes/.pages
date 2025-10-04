@@ -1,8 +1,9 @@
 title: Aerodromes
 nav:
     - sydneydep.md
+    - adelaide.md
+    - perth.md
     - darwin.md
-    - jayapura.md
-    - cairns.md
+    - portmoresby.md
     - brisbane.md
     - sydneyarr.md
