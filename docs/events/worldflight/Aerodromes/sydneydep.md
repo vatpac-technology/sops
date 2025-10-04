@@ -81,6 +81,8 @@ Departures from Runway 16L and 34R shall be given the SDS frequency (129.7).
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect, prioritising those who connected first. Upon successful readback of the PDC, ACD shall direct the pilot to contact Coordinator when ready for pushback or taxi.
 
+The [PDC Indicator](../../../client/towerstrips.md#strips) will be displayed on a strip when a PDC has been sent to that pilot.
+
 !!! tip
     OzStrips displays strips in the Preactive bay ordered by connection time. Aircraft who connected first are shown down the bottom of the bay.
 
@@ -100,8 +102,6 @@ Coordinator must place a `MONITOR GROUND EAST` & `MONITOR GROUND WEST` bar in th
 </figure>
 
 When less than **three** strips are present below a particular `MONITOR GROUND` bar, Coordinator may instruct the bottom most aircraft in the queue to monitor that SMC frequency.
-
-The [PDC Indicator](../../../client/towerstrips.md#strips) will be displayed on a strip when a PDC has been sent to that pilot.
 
 <figure markdown>
 ![Coordinator Strips](../img/coordinatorstrips.png){ width="500" }

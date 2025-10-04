@@ -40,20 +40,6 @@ If an aircraft has filed an *incorrect* route and you need to give an amended cl
     <figcaption>WF Team Highlight with Events Plugin</figcaption>
     </figure>
 
-### Strip Setup
-By default, vatSys strips will be set to show in *Alphabetical* Order.  
-This must be changed to be ordered by **Time**, as shown below.
-
-<figure markdown>
-![Strips Menu](../img/strip1.png){ width="500" }
-    <figcaption>Strips Menu</figcaption>
-</figure>
-
-<figure markdown>
-![Change to Time](../img/strip2.png){ width="500" }
-    <figcaption>Change to Time</figcaption>
-</figure>
-
 ### Runway Selection
 Runway **01R/19R** will be the primary runway for departures.
 
@@ -80,6 +66,8 @@ Departures from Runway 01R and 19R shall be given the BDS frequency (118.45).
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect, prioritising those who connected first. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
 
+The [PDC Indicator](../../../client/towerstrips.md#strips) will be displayed on a strip when a PDC has been sent to that pilot.
+
 !!! tip
     OzStrips displays strips in the Preactive bay ordered by connection time. Aircraft who connected first are shown down the bottom of the bay.
 
@@ -95,8 +83,6 @@ If there are more than **5** aircraft in the queue at the Holding Point for *any
 All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../../../client/towerstrips/#recommended-workflow) for OzStrips.
 
 Ensure the Queue function is used to actively to keep track of the order of requests.
-
-A Custom `PDC SENT` bar should be created in the Preactive window, to keep track of who has and hasn't received a PDC.
 
 ### A388 Parking
 There are only 6 stands suitable for A388 parking (refer to [YBBN Apron Chart](https://www.airservicesaustralia.com/aip/current/dap/BBNAP05-162_05SEP2024.pdf){target=new}). If these are all occupied, A388 aircraft must be instructed to park off-apron on grass.
