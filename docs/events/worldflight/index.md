@@ -27,5 +27,5 @@ The list of callsigns is below:
 
 ## Route
 <figure markdown>
-![WorldFlight Route](../img/route.png){ width="800" }
+![WorldFlight Route](./img/route.png){ width="800" }
 </figure>

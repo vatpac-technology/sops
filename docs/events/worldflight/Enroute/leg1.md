@@ -9,7 +9,7 @@
 KAT will take responsibility for the BIK and GUN subsectors. No additional frequencies will need to be primed to KAT.
 
 <figure markdown>
-![KAT Area of Responsibility](../../img/KAT.png){ width="700" }
+![KAT Area of Responsibility](../img/KAT.png){ width="700" }
   <figcaption>KAT Area of Responsibility</figcaption>
 </figure>
 

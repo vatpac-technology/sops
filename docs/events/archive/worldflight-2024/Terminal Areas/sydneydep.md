@@ -13,14 +13,14 @@ The **dashed** green line represents the *suggested vectors* for [16L/34R depart
 ### 16 PROPS
 
 <figure markdown>
-![16 PROPS Airspace Division](../../img/16PROPS Departures.png){ width="700" }
+![16 PROPS Airspace Division](../img/16PROPS Departures.png){ width="700" }
   <figcaption>16 PROPS Airspace Division</figcaption>
 </figure>
 
 ### 34 PROPS
 
 <figure markdown>
-![34 PROPS Airspace Division](../../img/34PROPS Departures.png){ width="700" }
+![34 PROPS Airspace Division](../img/34PROPS Departures.png){ width="700" }
   <figcaption>34 PROPS Airspace Division</figcaption>
 </figure>
 

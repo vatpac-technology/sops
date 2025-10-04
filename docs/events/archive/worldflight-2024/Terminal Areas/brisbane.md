@@ -14,7 +14,7 @@ The **solid green** line represents the SID to **SANEG**.
 The **dashed green** line represents the *suggested vectors* for **01L** Departures.
 
 <figure markdown>
-![01 PROPS Airspace Division](../../img/01PROPS.png){ width="700" }
+![01 PROPS Airspace Division](../img/01PROPS.png){ width="700" }
   <figcaption>01 PROPS Airspace Division</figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ The **red** line represents the STARs to the arrival runways.
 The **dashed green** lines represents the *suggested vectors* for Departures.
 
 <figure markdown>
-![19 PROPS Airspace Division](../../img/19PROPS.png){ width="700" }
+![19 PROPS Airspace Division](../img/19PROPS.png){ width="700" }
   <figcaption>19 PROPS Airspace Division</figcaption>
 </figure>
 

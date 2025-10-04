@@ -12,7 +12,7 @@ Non-Standard airspace division will be in use.
 The **red** line represents the STARs to the arrival runways.  
 
 <figure markdown>
-![16 PROPS Airspace Division](../../img/16PROPS Arrivals.png){ width="700" }
+![16 PROPS Airspace Division](../img/16PROPS Arrivals.png){ width="700" }
   <figcaption>16 PROPS Airspace Division</figcaption>
 </figure>
 
@@ -23,7 +23,7 @@ Non-Standard airspace division will be in use.
 The **red** line represents the STARs to the arrival runways.  
 
 <figure markdown>
-![34 PROPS Airspace Division](../../img/34PROPS Arrivals.png){ width="700" }
+![34 PROPS Airspace Division](../img/34PROPS Arrivals.png){ width="700" }
   <figcaption>34 PROPS Airspace Division</figcaption>
 </figure>
 

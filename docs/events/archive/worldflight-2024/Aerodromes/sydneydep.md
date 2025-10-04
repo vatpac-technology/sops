@@ -37,7 +37,7 @@ If an aircraft has filed an *incorrect* route and you need to give an amended cl
     The [vatSys Events Plugin](https://github.com/badvectors/EventsPlugin){target=new} will also highlight WF Teams, as shown below. Click on the link to install it, or alternatively, use the [Plugin Manager](https://github.com/badvectors/PluginManager){target=new}
 
     <figure markdown>
-    ![WF Team Highlight with Events Plugin](../../img/wfteam.png){ width="400" }
+    ![WF Team Highlight with Events Plugin](../img/wfteam.png){ width="400" }
     <figcaption>WF Team Highlight with Events Plugin</figcaption>
     </figure>
 
@@ -46,12 +46,12 @@ By default, vatSys strips will be set to show in *Alphabetical* Order.
 This must be changed to be ordered by **Time**, as shown below.
 
 <figure markdown>
-![Strips Menu](../../img/strip1.png){ width="500" }
+![Strips Menu](../img/strip1.png){ width="500" }
     <figcaption>Strips Menu</figcaption>
 </figure>
 
 <figure markdown>
-![Change to Time](../../img/strip2.png){ width="500" }
+![Change to Time](../img/strip2.png){ width="500" }
     <figcaption>Change to Time</figcaption>
 </figure>
 
@@ -111,7 +111,7 @@ All aerodrome controllers must be familiar with the VATPAC [recommended workflow
 Coordinator must place a `MONITOR GROUND EAST` & `MONITOR GROUND WEST` bar in the **Cleared Bay Queue** and queue any aircraft who request pushback or taxi (if no pushback required) in the Cleared Bay.
 
 <figure markdown>
-![Coordinator Bars](../../img/coordinatorbars.png){ width="500" }
+![Coordinator Bars](../img/coordinatorbars.png){ width="500" }
 </figure>
 
 When less than **three** strips are present below a particular `MONITOR GROUND` bar, Coordinator may instruct the bottom most aircraft in the queue to monitor that SMC frequency.
@@ -119,7 +119,7 @@ When less than **three** strips are present below a particular `MONITOR GROUND` 
 A Custom `PDC SENT` bar should be created in the Preactive window, to keep track of who has and hasn't received a PDC.
 
 <figure markdown>
-![Coordinator Strips](../../img/coordinatorstrips.png){ width="500" }
+![Coordinator Strips](../img/coordinatorstrips.png){ width="500" }
     <figcaption>An example of the Coordinator layout</figcaption>
 </figure>
 
