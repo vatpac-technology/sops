@@ -166,7 +166,7 @@ Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace
 Voiceless for all aircraft:
 
 - With ADES **YMML**; and  
-- Assigned the **WAREN** STAR; and  
+- Assigned a STAR; and  
 - Assigned `A090`
 
 All other aircraft coming from WON CTA must be **Heads-up** Coordinated to ML TCU prior to **20nm** from the boundary.
