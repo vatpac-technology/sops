@@ -35,9 +35,6 @@ See also: [CG ADC Offline](#cg-adc-offline).
 
 !!! tip
     If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
-  
-### Airspace Structural Arrangements
-Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, **"North"**/**"West"** positions shall assume the airspace of corresponding **"South"**/**"East"** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
 
 ### Airspace Division
 The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **BAC** change based on the Runway Mode.
@@ -62,6 +59,9 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **
 	![SODPROPS TCU Structure](img/bnsodprops.png){ width="700" }
 	  <figcaption>SODPROPS TCU Structure</figcaption>
 	</figure>
+
+#### Airspace Structural Arrangements
+Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, **"North"**/**"West"** positions shall assume the airspace of corresponding **"South"**/**"East"** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
 
 ## Separation
 ### Parallel Runway Operations
