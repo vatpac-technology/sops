@@ -454,9 +454,9 @@ Pushback should only be issued when the aircraft is compliant with their TSAT.
 
 | Colour | Condition | Explanation |
 | --- | --- | --- |
-| Grey | In Queue | The aircraft has been placed in the queue but is not yet compliant with their TSAT. Do not issue pushback. |
-| Green | Compliant with TSAT | The aircraft is compliant with their TSAT. Pushback may be issued if aerodrome congestion allows. |
-| Yellow | Pushed Back | Aircraft has already pushed back, no further action required. |
+| Grey | In Queue | The aircraft has been placed in the queue but is not yet compliant with their TSAT. *Do not issue pushback*. |
+| Green | Compliant with TSAT | The aircraft is compliant with their TSAT. Pushback may be issued **if aerodrome congestion allows**. |
+| Yellow | Pushed Back | Aircraft has already pushed back, *no further action required*. |
 
 Controllers should follow the procedures detailed on the [Ground Delay Management](../controller-skills/grounddelaymanagement.md#processing-each-aircraft) page.
 

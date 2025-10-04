@@ -22,7 +22,7 @@ Activating A-CDM mode can be done by toggling it active, from the **Settings** d
 
 <figure markdown>
 ![Departure Monitor](../controller-skills/img/ozstripsdepmonitor.png){ width="300" }
-    <figcaption>The Departure Monitor.</figcaption>
+    <figcaption>The Departure Monitor</figcaption>
 </figure>
 
 Coordination should be affected with other aerodrome controllers, and the **FMP** controller if present. 
@@ -45,7 +45,7 @@ To effectively operate with A-CDM procedures:
 
 1. When an aircraft requests pushback, they should be placed into the **Cleared Bay** below the default OzStrips queue bar.
     
-    An TSAT and CTOT will be generated for them, which can be provided to the pilot. This will be presented within the strip `Time Field`, and will appear with a grey background.
+    A TSAT and CTOT will be generated for them, which can be provided to the pilot. This will be presented within the strip `Time Field`, and will appear with a grey background.
 
     <figure markdown>
     ![Queued Strip](../controller-skills/img/ozstripscdmqueue.png){ width="500" }
@@ -57,6 +57,9 @@ To effectively operate with A-CDM procedures:
     If, due to apron congestion or similiar, the aircraft first in line can't be pushed, or is AFK, the **SMC** controller may push another aircraft, taking into account relative priority.
 
     After moving the strip into the **Pushback Bay**, the `Time Field` will go yellow.
+
+!!! note
+    It is not necessary to wait until the exact TSAT is achieved. Pushback (or taxi, if no pushback is required) may be issued provided the Time Field is green.
 
 3. **ADC** should allow aircraft to depart, such that the overall departure rate is maintained.
     
