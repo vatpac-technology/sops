@@ -24,24 +24,41 @@ The **dashed** green line represents the *suggested vectors* for [16L/34R depart
   <figcaption>34 PROPS Airspace Division</figcaption>
 </figure>
 
-## 16L/34R Departures
-Departures from 16L/34R will be assigned the **SY3** SID with a heading of **H120**. SDS must then vector the aircraft south of the 16R/34L Departures. Aircraft will be handed off to KAT on a Heading of **H260**.
+## SY3 Departures
+Departures from 16R/34L/34R will be assigned the **SY3** SID with an assigned heading in accordance with the table below:
+
+| Departure Runway | Assigned Heading |
+| --- | --- |
+| 16R | H320 |
+| 34L | H170 |
+| 34R | H070 |
+
+Aircraft shall be subsequently processed with the following tracking instructions:
+
+| Departure Runway | Tracking Instructions |
+| --- | --- |
+| 16L | Via the SID to EVONN |
+| 16R | **H320** until north of YSSY, then **H100** |
+| 34L | **H170** until approx 20DME, then **H115** |
+| 34R | **H070** until approx 20DME, then **H105** |
+
+Aircraft shall be handed off to OCN assigned the **final heading** in the table above (or via the SID for 16L departures).
 
 ## Coordination
 ### SY ADC
 #### Auto Release
 Standard as per [SY TCU Local Instructions](../../../../../../terminal/sydney/#sy-adc), with the exception of:
 
-- 16L/34R Departure SID: **SY3** RADAR
-- 16L/34R Standard Assignable Departure Heading: **H120**
+- 16R/34L/34R Departure SID: **SY3** RADAR
+- 16R Standard Assignable Departure Heading: **H320**
+- 34L Standard Assignable Departure Heading: **H170**
+- 34R Standard Assignable Departure Heading: **H070**
 
-### KAT
-KAT will be extending to the BIK subsector.
-
+### OCN
 Voiceless for all aircraft:
 
 - Assigned the lower of `F280` or the `RFL`; and  
-- Tracking via **KADOM**; or  
-- South of **KADOM**, Assigned **H260**
+- Tracking via **EVONN**; or  
+- Assigned **H105** or **H115**
 
-All other aircraft going to KAT CTA will be **Heads-up** Coordinated.
+All other aircraft going to OCN CTA will be **Heads-up** Coordinated.

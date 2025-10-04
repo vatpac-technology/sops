@@ -2,6 +2,20 @@
   title: Overview
 ---
 
+## TO DO
+### Aerodrome
+**YSSY Departure page**
+
+- Tower Control (ADC) -> Departure Spacing: Determine actual departure rate permitted
+
+### Terminal
+**YSSY Departure page**
+
+- Airspace Division: update images and associated descriptions
+
+### Enroute
+
+
 Welcome to the controller briefing material for WorldFlight! Event-specific procedures are sorted by position type and should be read in conjunction with the existing SOPs for that position/location.
 
 ## Official Team Callsigns
