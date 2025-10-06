@@ -14,7 +14,7 @@ However, **DAE** will handle all departures **regardless of duty runway**. DAW h
 DAW and DAW have a **shared responsibility** to maintain separation of aircraft along the final approach path.
 
 ## Runway 29 Departures
-Departures from Runway 29 will call DAE on an assigned heading of **H360** assigned `A050`. These aircraft will pass *underneath* aircraft inbound on the ANUPA STAR and can be cleared DCT **RUPEG** and climbed when suitable.
+Departures from Runway 29 will call DAE on an assigned heading of **H360** assigned `A050`. These aircraft will pass *underneath* aircraft inbound on the ANUPA STAR and can be cleared DCT **TOREX** and climbed when suitable.
 
 ## Runway 29 Arrivals
 Arrivals to Runway 29 on the **ANUPA** STAR shall be initially cleared to descend via STAR to `A060`. Once east of the event departure track, they may be descended further in preparation for the approach.
@@ -45,7 +45,7 @@ An airspace release from TRT will allow TRS to take ownership of all airspace fr
 Voiceless for all aircraft:
 
 - Assigned the lower of `F180` or the `RFL`; and  
-- Tracking via **RUPEG**
+- Tracking via **TOREX**
 
 All other aircraft going to TRS CTA will be **Heads-up** Coordinated.
 

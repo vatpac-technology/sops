@@ -14,9 +14,6 @@ All procedures are complete up to and including YBCS aerodrome. Next to tackle i
 ### Terminal
 - YSSY Departure page
     - Airspace Division: Update images and associated descriptions
-- YPDN page
-    - Runway 29 Departures: Update waypoint to clear departures direct to
-    - Coordination -> DAE to TRT: Update waypoint for voiceless coord
 
 ### Enroute
 - Leg 3
