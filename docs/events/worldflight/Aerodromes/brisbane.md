@@ -20,7 +20,7 @@ Due to the extreme workload expected for all positions, the use of the OzStrips 
 ### Flight Plan Compliance
 Ensure **all flight plans** are checked for compliance with the approved WF Route:
 
-`DCT BN H91 IGDAM H652 TESAT DCT`
+`DCT SANEG H91 IGDAM H652 TESAT DCT`
 
 **OzStrips** will flag any *non-compliant* WF route.
 

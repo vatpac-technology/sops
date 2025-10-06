@@ -8,8 +8,6 @@ All procedures are complete up to and including YBCS aerodrome. Next to tackle i
 ### Aerodrome
 - YSSY Departure page
     - Tower Control (ADC) -> Departure Spacing: Determine actual departure rate permitted
-- YPDN page
-    - Airways Clearance Delivery (ACD) -> Flight Plan Compliance: Add route when finalised by WorldFlight team (also update the reroute example below it)
 - YBCS page
     - Grass Taxiing: Add diagram of grass taxiway
 
