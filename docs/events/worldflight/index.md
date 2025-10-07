@@ -14,6 +14,7 @@ All procedures are complete up to and including YBCS aerodrome. Next to tackle i
 ### Terminal
 - YSSY Departure page
     - Airspace Division: Update images and associated descriptions
+- Images describing each departure procedure at DN, CS, BN?
 
 ### Enroute
 - Leg 3
