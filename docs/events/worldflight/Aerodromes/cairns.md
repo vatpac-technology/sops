@@ -33,7 +33,7 @@ If an aircraft has filed an *incorrect* route and you need to give an amended cl
 
 ### SID Selection
 Runway 15 Departures shall be issued the **AKROM1** SID.  
-Runway 33 Departures shall be issued the **EAZEE3** SID, RADAR transition.  
+Runway 33 Departures shall be issued the **CS2** RADAR SID.  
 
 ### Departure Frequency
 Regardless of runway in use, departure frequency shall be CS2 (**126.1**).
@@ -80,6 +80,9 @@ Backtracks to full length will not be available.
 ### Departure Spacing
 Ensure that a minimum of **90 second** spacing is applied between subsequent departures from the same runway.
 
+### CS2 Assigned Heading
+Departures from runway 33 shall be assigned **heading 330**.
+
 ### Wake Turbulence Separation
 Due to the tight sequence, there are times that [Wake Turbulence Separation](../../../../../../separation-standards/waketurb/#runways) cannot practically be applied.
 
@@ -95,7 +98,12 @@ The ATIS OPR INFO shall include:
 
 ## Coordination
 ### CS TCU
-Standard, as per [Autorelease](../../../aerodromes/classc/Cairns.md#auto-release).
+Autorelease is available for aircraft assigned `A060`, and:
+
+| Runway | SID | Assigned Heading |
+| ---------- | --- | --- |
+| 15  | AKROM1 | - |
+| 33  | CS2 | H330 |
 
 #### Departures Controller
 All departures shall be handed off to CS2.  
