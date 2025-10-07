@@ -36,7 +36,7 @@ Runway 15 Departures shall be issued the **AKROM1** SID.
 Runway 33 Departures shall be issued the **CS2** RADAR SID.  
 
 ### Departure Frequency
-Regardless of runway in use, departure frequency shall be CS2 (**126.1**).
+Regardless of runway in use, departure frequency shall be CS1 (**118.4**).
 
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect, prioritising those who connected first. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
@@ -81,7 +81,7 @@ Backtracks to full length will not be available.
 Ensure that a minimum of **90 second** spacing is applied between subsequent departures from the same runway.
 
 ### CS2 Assigned Heading
-Departures from runway 33 shall be assigned **heading 330**.
+Departures from runway 33 shall be assigned **heading 040**.
 
 ### Wake Turbulence Separation
 Due to the tight sequence, there are times that [Wake Turbulence Separation](../../../../../../separation-standards/waketurb/#runways) cannot practically be applied.
@@ -103,8 +103,7 @@ Autorelease is available for aircraft assigned `A060`, and:
 | Runway | SID | Assigned Heading |
 | ---------- | --- | --- |
 | 15  | AKROM1 | - |
-| 33  | CS2 | H330 |
+| 33  | CS2 | H040 |
 
 #### Departures Controller
-All departures shall be handed off to CS2.  
-CS1 has *No Restrictions or Requirements* on departing aircraft.
+All departures shall be handed off to CS1.

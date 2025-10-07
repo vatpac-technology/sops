@@ -5,49 +5,44 @@
 --8<-- "includes/abbreviations.md"
 
 ## Airspace Division
-Standard airspace division will be in use as per [DN TCU Local Instructions](../../../../../../terminal/darwin/#airspace-division).
+Standard airspace division will be in use as per [CS TCU Local Instructions](../../../../../../terminal/cairns/#airspace-division).
 
-However, **DAE** will handle all departures **regardless of duty runway**. DAW has *No Restrictions or Requirements* on Runway 29 Departures.
+**CS1** will handle all departures **regardless of duty runway**.
 
-**DAW** will handle all arrivals from the **south and west**. DAE has *No Restrictions or Requirements* on arrivals via the **ANUPA** or **WANGI** STARs. DAW shall clear these aircraft for the approach and transfer them to ADC.
+**CS2** will handle all arrivals from the **south and west**. CS1 has *No Restrictions or Requirements* for aircraft cleared via the **CODIE STAR** to Runway 15.
 
-DAW and DAW have a **shared responsibility** to maintain separation of aircraft along the final approach path.
+## Runway 33 Departures
+Departures from Runway 33 will call **CS1** on an assigned heading of **H040** assigned `A060`. These aircraft should be climbed above the MVA/MSA and then cleared direct to **AKROM** when suitable.
 
-## Runway 29 Departures
-Departures from Runway 29 will call DAE on an assigned heading of **H360** assigned `A050`. These aircraft will pass *underneath* aircraft inbound on the ANUPA STAR and can be cleared DCT **TOREX** and climbed when suitable.
+## Runway 15 Arrivals
+Event aircraft will be cleared the **CODIE1A** STAR, **OVLET** transition. They should be cleared for the ILS approach and transfered to ADC by CS2.
 
-## Runway 29 Arrivals
-Arrivals to Runway 29 on the **ANUPA** STAR shall be initially cleared to descend via STAR to `A060`. Once east of the event departure track, they may be descended further in preparation for the approach.
+## Runway 33 Arrivals
+Event aircraft will be cleared the **HENDO2A** STAR, **OVLET** transition. They will be processed via the LOC approach.
 
 ## Flow
 ### Speeds
-TRT will instruct all arrivals to cross **ANUPA** at **250 knots**, then *published STAR speeds*.
+KEN will instruct all arrivals to cross **OVLET** at **250 knots**, then *published STAR speeds*.
 
 ## Coordination
-### DN ADC
-#### Auto Release
-Available for aircraft assigned `A050`, and:
+### CS TCU
+Autorelease is available for aircraft assigned `A060`, and:
 
 | Runway | SID | Assigned Heading |
 | ---------- | --- | --- |
-| 11 | DN7 | H030 |
-| 29 | DN7 | H360 |
+| 15  | AKROM1 | - |
+| 33  | CS2 | H040 |
 
-### DN TCU Internal
-Arrivals/Departures on **Runway 29** will transit both DAW and DAE airspace.
+#### Departures Controller
+All departures shall be handed off to CS1.
 
-DAW has *No Restrictions or Requirements* on Runway 29 Departures.  
-DAE has *No Restrictions or Requirements* on Runway 29 Arrivals from the west or south.
-
-### DAE to TRS
-An airspace release from TRT will allow TRS to take ownership of all airspace from the southeastern boundary, north to the outbound leg route. All event aircraft shall be handed to TRS, **not TRT**.
-
+### CS1 to KEN
 Voiceless for all aircraft:
 
 - Assigned the lower of `F180` or the `RFL`; and  
-- Tracking via **TOREX**
+- Tracking via **AKROM**
 
-All other aircraft going to TRS CTA will be **Heads-up** Coordinated.
+All other aircraft going to KEN CTA will be **Heads-up** Coordinated.
 
-### TRT to DAW
-Standard as per [DN TCU Local Instructions](../../../../../../terminal/darwin/#arrivals)
+### KEN to CS TCU
+Standard as per [CS TCU Local Instructions](../../../../../../terminal/cairns/#arrivals_1)
