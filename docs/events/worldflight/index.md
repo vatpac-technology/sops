@@ -3,7 +3,6 @@
 ---
 
 ## TO DO
-All procedures are complete up to and including YBCS aerodrome. Next to tackle is YBCS TMA and ENR into YBCS.
 
 ### Aerodrome
 - YSSY Departure page
@@ -14,6 +13,8 @@ All procedures are complete up to and including YBCS aerodrome. Next to tackle i
 ### Terminal
 - YSSY Departure page
     - Airspace Division: Update images and associated descriptions
+- YSSY Arrivals page
+    - Update diagrams of airspace
 - Images describing each departure procedure at DN, CS, BN?
 
 ### Enroute

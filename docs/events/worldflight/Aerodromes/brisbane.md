@@ -55,7 +55,7 @@ Runway **01R/19R** will be the primary runway for departures.
 | Runway | SID |
 | ---------- | --- |
 | 01L  | BN4 |
-| 01R  | SANEG1 |
+| 01R  | SANEG2 |
 | 19L  | BN4 |
 | 19R  | BN4 |
 
@@ -85,7 +85,7 @@ All aerodrome controllers must be familiar with the VATPAC [recommended workflow
 Ensure the Queue function is used to actively to keep track of the order of requests.
 
 ### A388 Parking
-There are only 6 stands suitable for A388 parking (refer to [YBBN Apron Chart](https://www.airservicesaustralia.com/aip/current/dap/BBNAP05-162_05SEP2024.pdf){target=new}). If these are all occupied, A388 aircraft must be instructed to park off-apron on grass.
+There are only 6 stands suitable for A388 parking (refer to YBBN Apron Chart). If these are all occupied, A388 aircraft must be instructed to park off-apron on grass.
 
 ## Tower Control (ADC)
 ### Departure Spacing
@@ -129,7 +129,7 @@ Available for aircraft assigned `A060`, and:
 | Runway | SID | Assigned Heading |
 | ---------- | --- | --- |
 | 01L  | BN4 | H340 |
-| 01R  | SANEG1 | - |
+| 01R  | SANEG2 | - |
 | 19L  | BN4 | H160 |
 | 19R  | BN4 | H210 |
 

@@ -62,5 +62,30 @@ While runway crossings will be minimised, should a crossing be required, instruc
 
 If any aircraft need to depart during the arrival window, ensure that maximum efficiency is achieved by instructing them to line up as soon as the landing aircraft has cleared the threshold. Avoid go arounds at all costs, and if necessary, delay the departing aircraft where a gap between two arrivals is too tight.
 
+### WF Team Aircraft
+Most offical WorldFlight teams will conclude the event by flying the Scenic Arrival, including a low-level flight through Sydney Harbour. On completion of the harbour tracking, they will track to join the circuit in accordance with the table below:
+
+| Duty Runway | Circuit Join |
+| --- | --- |
+| RWY 16L and 16R | Join final RWY 16L |
+| RWY 34L and 34R | Join right downwind RWY 34R |
+| RWY 07 | Join left downwind |
+| RWY 25 | Join final |
+
+These aircraft should be instructed to join the circuit and cleared for a visual approach. 
+
+!!! phraseology
+    **QFA25**: "Sydney Tower, QFA25"  
+    **SY ADC**: "QFA25, Sydney Tower, join downwind runway 34R, cleared visual approach"  
+    **QFA25**: "Join downwind runway 34R, cleared visual approach, QFA25"  
+
+    **SY ADC**: "QFA25, runway 34R, cleared to land"  
+    **QFA25**: "Runway 34R, cleared to land, QFA25"
+
+#### Go Arounds
+Go arounds should be avoided at all costs. If necessary, provide traffic information to preceeding landing aircraft and clear the aircraft to land. If a clear collision risk exists, instruct the aircraft to go around.
+
+In the event of a go around, participating aircraft will climb straight ahead to `A030`. They should be instructed to rejoin the circuit without delay. If this is not possible, coordinate with the most appropriate TCU controller and transfer the aircraft to them, for vectors back for the most suitable approach.
+
 ## Coordination
 Standard as per [YSSY Local Instructions](../../../../aerodromes/classc/Sydney/#auto-release).

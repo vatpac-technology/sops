@@ -125,7 +125,7 @@ Available for aircraft assigned `A060`, and:
 | Runway | SID | Assigned Heading |
 | ---------- | --- | --- |
 | 01L  | BN4 | H340 |
-| 01R  | SANEG1 | - |
+| 01R  | SANEG2 | - |
 | 19L  | BN4 | H160 |
 | 19R  | BN4 | H210 |
 
