@@ -117,6 +117,14 @@ Subtract **1 minute** if assigned MX or CSR.
 ### Speeds
 BUR will instruct all arrivals to cross **SMOKA** and **ENLIP** at **250 knots**, then *published STAR speeds*.
 
+## WorldFlight Teams
+[WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
+
+<figure markdown>
+![WF Team Highlight](../img/wfteam.png){ width="400" }
+<figcaption>WF Team Highlight</figcaption>
+</figure>
+
 ## Coordination
 ### BN ADC
 #### Auto Release

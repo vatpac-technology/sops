@@ -29,6 +29,14 @@ All aircraft shall be issued a STAR in accordance with the table below:
 | RWY 15 | CODIE1A, OVLET transition |
 | RWY 33 | HENDO2A, OVLET transition |
 
+## WorldFlight Teams
+[WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
+
+<figure markdown>
+![WF Team Highlight](../img/wfteam.png){ width="400" }
+<figcaption>WF Team Highlight</figcaption>
+</figure>
+
 ## Coordination
 ### WAAF CTR to ARA
 As per [standard ARA coordination procedures](../../../../../../enroute/Brisbane Centre/ISA/#international-waaf), all aircraft should be **Heads-up Coordinated** by WAAF CTR prior to **30 mins** from boundary.

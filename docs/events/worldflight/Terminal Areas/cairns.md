@@ -24,6 +24,14 @@ Event aircraft will be cleared the **HENDO2A** STAR, **OVLET** transition. They 
 ### Speeds
 KEN will instruct all arrivals to cross **OVLET** at **250 knots**, then *published STAR speeds*.
 
+## WorldFlight Teams
+[WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
+
+<figure markdown>
+![WF Team Highlight](../img/wfteam.png){ width="400" }
+<figcaption>WF Team Highlight</figcaption>
+</figure>
+
 ## Coordination
 ### CS TCU
 Autorelease is available for aircraft assigned `A060`, and:

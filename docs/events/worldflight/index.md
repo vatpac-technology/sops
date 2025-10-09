@@ -4,6 +4,8 @@
 
 ## TO DO
 
+- Add `wfteamozstrips.png` image showing highlighted WF team callsign
+
 ### Aerodrome
 - YSSY Departure page
     - Tower Control (ADC) -> Departure Spacing: Determine actual departure rate permitted
@@ -24,7 +26,19 @@
 Welcome to the controller briefing material for WorldFlight! Event-specific procedures are sorted by position type and should be read in conjunction with the existing SOPs for that position/location.
 
 ## Official Team Callsigns
-Official WorldFlight teams should be afforded priority at all stages of flight. **ACD** controllers should add `WF TEAM` to the Global Ops Field and `STS/STATE` to the Remarks flight plan field of any official team aircraft they issue a clearance to.
+Official WorldFlight teams should be afforded priority at all stages of flight. 
+
+OzStrips will flag official WorldFlight teams and the Events Plugin will highlight team aircraft for TCU and enroute controllers.
+
+<figure markdown>
+![WF Team Highlight in OzStrips](./img/wfteamozstrips.png){ width="500" }
+<figcaption>WF Team Highlight in OzStrips</figcaption>
+</figure>
+
+<figure markdown>
+![WF Team Highlight](./img/wfteam.png){ width="400" }
+<figcaption>WF Team Highlight</figcaption>
+</figure>
 
 The list of callsigns is below:
 

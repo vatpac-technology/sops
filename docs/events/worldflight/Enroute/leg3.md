@@ -10,6 +10,14 @@ TRS will be responsible for the TRS subsector **only**. The TRT airspace from th
 
 TRS shall ensure adequate vertical separation exists between nearby aircraft and may establish basic speed control to avoid any overtaking occurring.
 
+## WorldFlight Teams
+[WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
+
+<figure markdown>
+![WF Team Highlight](../img/wfteam.png){ width="400" }
+<figcaption>WF Team Highlight</figcaption>
+</figure>
+
 ## Coordination
 ### DAE to TRS
 Standard as per [TRT Local Instructions](../../../../../../enroute/Brisbane Centre/TRT).

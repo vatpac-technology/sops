@@ -69,6 +69,13 @@ Most official team aircraft will depart from YBCG and track via **WLM** to facil
 !!! warning "Important"
     The YBCG to WLM track approximates a northbound airway. Be vigilant for any aircraft departing YSSY to the north who may conflict with the southbound aircraft.
 
+[WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
+
+<figure markdown>
+![WF Team Highlight](../img/wfteam.png){ width="400" }
+<figcaption>WF Team Highlight</figcaption>
+</figure>
+
 ## Coordination
 ### BDN/BDS to GOL
 Voiceless for all aircraft:

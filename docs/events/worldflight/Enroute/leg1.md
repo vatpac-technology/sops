@@ -14,6 +14,14 @@ OCN will receive two flows from SY TCU. These flows much be merged by GEROS.
 ### Tasman (TSN)
 TSN will have temporary surveillance coverage provided by additional floating ADS-B stations in the sector. Normal surveillance separation standards may be used between all identified aircraft.
 
+## WorldFlight Teams
+[WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
+
+<figure markdown>
+![WF Team Highlight](../img/wfteam.png){ width="400" }
+<figcaption>WF Team Highlight</figcaption>
+</figure>
+
 ## Coordination
 ### SY TCU to OCN
 Voiceless for all aircraft:

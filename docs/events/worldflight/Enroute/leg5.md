@@ -53,6 +53,14 @@ Arrivals may, when suitable for the *sequence*, and clear of *01L/19R traffic*, 
 | 01R      | MULNI |
 | 19R      | DRAIN |
 
+## WorldFlight Teams
+[WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
+
+<figure markdown>
+![WF Team Highlight](../img/wfteam.png){ width="400" }
+<figcaption>WF Team Highlight</figcaption>
+</figure>
+
 ## Coordination
 ### CS TCU to KEN
 Voiceless for all aircraft:
