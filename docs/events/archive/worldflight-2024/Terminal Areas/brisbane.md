@@ -1,5 +1,5 @@
 ---
-  title: 4. Brisbane (YBBN)
+  title: 6. Brisbane (YBBN)
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -23,7 +23,8 @@ The **dashed green** line represents the *suggested vectors* for **01L** Departu
 
 #### 01L Departures
 Departures from Runway 01L will be assigned the **BN4** SID with an assigned heading of **H340**.  
-Aircraft must then be vectored to the east and handed off to GOL on **H090**.
+Aircraft must then be vectored to the east, then assigned a heading of **H180** when clear of 01R Departures.  
+Aircraft may be handed off to GOL on this heading.
 
 ### 19 PROPS
 #### Airspace Division
@@ -41,7 +42,7 @@ The **dashed green** lines represents the *suggested vectors* for Departures.
 19R will be the primary runway for departures.
 
 #### 19L Departures
-Departures from Runway 19L will be assigned the **BN4** SID with an assigned heading of **H090**.  
+Departures from Runway 19L will be assigned the **BN4** SID with an assigned heading of **H160**.  
 Aircraft may be handed off to GOL on this heading.
 
 #### 19R Departures
@@ -57,7 +58,7 @@ Although not used at YBBN normally, IVAs can be expected to be in use for WorldF
 Aircraft must report both **visual**, *and* **runway in sight** in order to be cleared for an IVA (Runway in Sight implies Visual).
 
 !!! tip
-    The [Label Data Annotations](../../../../../../client/annotations/#miscellaneous) for these are `V` for *Visual*, and `R` for *Runway in Sight*
+    The [Label Data Annotations](../../../../../../client/annotations/#miscellaneous) for these are `V` and `R`, respectively
 
 Ensure you familiarise yourself with the applicable [Separation Standards](../../../../../../separation-standards/parallelapps/#independent-visual-approaches)
 
@@ -116,16 +117,6 @@ Subtract **1 minute** if assigned MX or CSR.
 ### Speeds
 BUR will instruct all arrivals to cross **SMOKA** and **ENLIP** at **250 knots**, then *published STAR speeds*.
 
-## WorldFlight Teams
-[WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
-
-<figure markdown>
-![WF Team Highlight](../img/wfteam.png){ width="400" }
-<figcaption>WF Team Highlight</figcaption>
-</figure>
-
-Most WorldFlight team aircraft will land at YBCG, not YBBN. These aircraft will be routed via `IDRAS SCOTT CG`.
-
 ## Coordination
 ### BN ADC
 #### Auto Release
@@ -134,7 +125,7 @@ Available for aircraft assigned `A060`, and:
 | Runway | SID | Assigned Heading |
 | ---------- | --- | --- |
 | 01L  | BN4 | H340 |
-| 01R  | SANEG2 | - |
+| 01R  | SANEG1 | - |
 | 19L  | BN4 | H160 |
 | 19R  | BN4 | H210 |
 
@@ -142,20 +133,10 @@ Available for aircraft assigned `A060`, and:
 Voiceless for all aircraft:
 
 - Assigned the lower of `F180` or the `RFL`; and  
-- Tracking via **SANEG**.
+- Tracking via **SANEG**; or  
+- East of **SANEG**, Assigned a Heading between **H180**-**H160**.
 
-All other aircraft going to GOL CTA must be **Heads-up** Coordinated.
-
-### BDN to SDY
-Voiceless for all aircraft:
-
-- Assigned the lower of `F180` or the `RFL`; and  
-- Assigned **H090**.
-
-All other aircraft going to SDY CTA must be **Heads-up** Coordinated.
-
-!!! note "Exception"
-    In the event that SDY is offline, eastbound aircraft can be handed directly to GOL.
+All other aircraft going to GOL CTA will be **Heads-up** Coordinated.
 
 ### BUR to BAN/BAS
 Voiceless for all aircraft:

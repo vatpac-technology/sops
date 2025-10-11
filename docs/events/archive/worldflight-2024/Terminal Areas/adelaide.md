@@ -22,7 +22,7 @@ The **dashed green** line represents the *suggested vectors* for [12/30 departur
 ### 05
 
 <figure markdown>
-![05 Arrival/Departure Routes](../../img/05.png){ width="700" }
+![05 Arrival/Departure Routes](../img/05.png){ width="700" }
   <figcaption>05 Arrival/Departure Routes</figcaption>
 </figure>
 
@@ -32,7 +32,7 @@ All arrivals on Runway 30 will be cleared for the **RNP** Approach. Visual appro
 ### 23
 
 <figure markdown>
-![23 Arrival/Departure Routes](../../img/23.png){ width="700" }
+![23 Arrival/Departure Routes](../img/23.png){ width="700" }
   <figcaption>23 Arrival/Departure Routes</figcaption>
 </figure>
 

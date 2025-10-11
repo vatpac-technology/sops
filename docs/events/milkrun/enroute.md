@@ -41,17 +41,17 @@ In order to segregate aircraft inbound to different parallel runways, [Amended r
 Aircraft can be rerouted on first contact via AKMIR, ODALE, then assigned the **ODALE STAR** for 16L/34R.
 
 <figure markdown>
-![Original Flight Planned Route](../img/odale1.png){ width="700" }
+![Original Flight Planned Route](./img/odale1.png){ width="700" }
   <figcaption>Original Flight Planned Route</figcaption>
 </figure>
 
 <figure markdown>
-![Graphical Reroute via AKMIR, ODALE](../img/odale2.png){ width="700" }
+![Graphical Reroute via AKMIR, ODALE](./img/odale2.png){ width="700" }
   <figcaption>Graphical Reroute via AKMIR, ODALE</figcaption>
 </figure>
 
 <figure markdown>
-![Final routing with Assigned STAR](../img/odale3.png){ width="700" }
+![Final routing with Assigned STAR](./img/odale3.png){ width="700" }
   <figcaption>Final routing with Assigned STAR</figcaption>
 </figure>
 
