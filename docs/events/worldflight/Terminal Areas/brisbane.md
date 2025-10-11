@@ -124,6 +124,8 @@ BUR will instruct all arrivals to cross **SMOKA** and **ENLIP** at **250 knots**
 <figcaption>WF Team Highlight</figcaption>
 </figure>
 
+Most WorldFlight team aircraft will land at YBCG, not YBBN. These aircraft will be routed via `IDRAS SCOTT CG`.
+
 ## Coordination
 ### BN ADC
 #### Auto Release
