@@ -166,6 +166,8 @@ To faciliate departures from both runways, during **34 PROPS only**, the followi
 
     Enroute controllers will strongly encourage any inbound aircraft to divert, but should an aircraft land, they should be instructed to disconnect on, or after vacating, the runway.
 
+All departures from **RWY 34L** outbound from the **eastern aprons** (any apron east of RWY 34L) shall be assigned holding point **B10** or **L**.
+
 ### A388 Taxi Routes
 The YSSY `Aerodrome Ground Movement Chart` specifies taxi routes for A388 aircraft. These must be **disregarded** for the event, and standard taxiways must be used for A388 aircraft to facilitate orderly flow of traffic.
 
