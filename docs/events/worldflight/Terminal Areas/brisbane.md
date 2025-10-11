@@ -142,10 +142,20 @@ Available for aircraft assigned `A060`, and:
 Voiceless for all aircraft:
 
 - Assigned the lower of `F180` or the `RFL`; and  
-- Tracking via **SANEG**; or  
-- East of **SANEG**, Assigned **H090**.
+- Tracking via **SANEG**.
 
-All other aircraft going to GOL CTA will be **Heads-up** Coordinated.
+All other aircraft going to GOL CTA must be **Heads-up** Coordinated.
+
+### BDN to SDY
+Voiceless for all aircraft:
+
+- Assigned the lower of `F180` or the `RFL`; and  
+- Assigned **H090**.
+
+All other aircraft going to SDY CTA must be **Heads-up** Coordinated.
+
+!!! note "Exception"
+    In the event that SDY is offline, eastbound aircraft can be handed directly to GOL.
 
 ### BUR to BAN/BAS
 Voiceless for all aircraft:

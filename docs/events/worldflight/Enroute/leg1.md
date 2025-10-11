@@ -16,6 +16,9 @@ OCN will also receive a single NZOH-bound flow from SY TCU, positioned south of 
 ### Tasman (TSN)
 TSN will have temporary surveillance coverage provided by additional floating ADS-B stations in the sector. Normal surveillance separation standards may be used between all identified aircraft.
 
+### Wollongong (WOL)
+WOL will not be staffed for the event, and they are taken to have *No Restrictions or Requirements* on Event traffic.
+
 ### All Other Sectors
 Due to the sheer volume of traffic departing from YSSY, arrivals will **not be possible** during the departure event. Any aircraft inbound to YSSY should be strongly encouraged to divert to another aerodrome.
 

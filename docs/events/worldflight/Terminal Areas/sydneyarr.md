@@ -34,7 +34,7 @@ IVAs can be expected to be in use for WorldFlight, to facilitate the high volume
 Aircraft must report the **runway in sight** (or **visual** if established on the final approach course) in order to be cleared for an IVA (Runway in Sight implies Visual).
 
 !!! tip
-    The [Label Data Annotations](../../../../../../client/annotations/#miscellaneous) for these are `V` and `R`, respectively
+    The [Label Data Annotations](../../../../../../client/annotations/#miscellaneous) for these are `V` for *Visual*, and `R` for *Runway in Sight*
 
 Ensure you familiarise yourself with the applicable [Separation Standards](../../../../../../separation-standards/parallelapps/#independent-visual-approaches)
 
