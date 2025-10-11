@@ -2,27 +2,6 @@
   title: Overview
 ---
 
-## TO DO
-
-- Add `wfteamozstrips.png` image showing highlighted WF team callsign
-
-### Aerodrome
-- YSSY Departure page
-    - Tower Control (ADC) -> Departure Spacing: Determine actual departure rate permitted
-- YBCS page
-    - Grass Taxiing: Add diagram of grass taxiway
-
-### Terminal
-- YSSY Departure page
-    - Airspace Division: Update images and associated descriptions
-- YSSY Arrivals page
-    - Update diagrams of airspace
-- Images describing each departure procedure at DN, CS, BN?
-
-### Enroute
-- Leg 3
-    - Add diagram of TRS airspace release when WF route finalised
-
 Welcome to the controller briefing material for WorldFlight! Event-specific procedures are sorted by position type and should be read in conjunction with the existing SOPs for that position/location.
 
 ## Official Team Callsigns

@@ -18,6 +18,15 @@ An additional Non-Standard position for Sydney ACD will be used
 Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../client/towerstrips/#recommended-workflow). 
 
 ## Airways Clearance Delivery (ACD)
+### Route Restrictions
+Due to the limited capacity of NZAA, pilots must obtain a booking to fly from YSSY to NZAA. Any aircraft without a booking **will not** be issued with a clearance to NZAA and should instead disconnect and refile a flight plan to NZOH (the designated event alternate aerodrome).
+
+**SY-C_DEL** should identify any aircraft who have planned to NZAA without a booking and send the following **private message** via vatSys:
+
+!!! phraseology "Private Message"
+    *Event bookings are required for all flights to NZAA. You do not have a valid booking. Clearance not available until after time 0000Z. Amended destination NZOH is available without additional delay if you'd like to refile. Please file route: DCT CAWLY M636 SASRO GULUT DCT*
+
+
 ### Flight Plan Compliance
 Ensure **all flight plans** are checked for compliance with the approved WF Route:
 
@@ -27,8 +36,8 @@ Ensure **all flight plans** are checked for compliance with the approved WF Rout
 
 If an aircraft has filed an *incorrect* route and you need to give an amended clearance, this amendment must be specified by **individual private message**, prior to the PDC.
 
-!!! phraseology
-    **SY-C_DEL:** *"AMENDED ROUTE CLEARANCE. CLEARED TO NZAA VIA EVONN L521 LUNBI DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
+!!! phraseology "Private Message"
+    *AMENDED ROUTE CLEARANCE. CLEARED TO NZAA VIA EVONN L521 LUNBI DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC.*
 
 ### WorldFlight Teams
 [WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by OzStrips and should receive priority at all stages of flight.
@@ -44,6 +53,7 @@ YSSY will have a non-standard second ACD Controller.
 #### SY-C_DEL
 **SY-C_DEL** will be responsible for:
 
+- Checking [Route Restrictions compliance](#route-restrictions)
 - Checking [Flight Plan compliance](#flight-plan-compliance)
 - Entering Flight Data (Setting [Runway](#runway-selection), [SID](#sid-selection) and [CFL](../../../../aerodromes/classc/Sydney/#auto-release))
 - Sending [PDCs](#pdcs)
@@ -153,9 +163,9 @@ SMC West should protect the Alpha 2 rapid exit and utilise taxiways Yankee and J
 With two SMC controllers online, utilise [strip bay bars](../../../../client/towerstrips/#multiple-adcsmc-positions) to keep the **Holding Point** and **Runway** strip bays organised.
 
 ### Departure Spacing
-While PROPS are in use, subsequent departures from the same runway **must** be spaced by **3 minutes**, to assist with arrival flow in to YPAD.
+While PROPS are in use, subsequent departures from the same runway **must** be spaced by **2 minutes**, to assist with arrival flow in to NZAA.
 
-If a single runway is in use for departures, subsequent departures **must** be spaced by **90 seconds**.
+If a single runway is in use for departures, subsequent departures **must** be spaced by **60 seconds**.
 
 ### SY3 Assigned Heading
 Aircraft assigned the **SY3** RADAR SID shall be assigned a heading in accordance with the table below:
@@ -180,8 +190,8 @@ To avoid creating conflict for SMC, ADC shall instruct all arriving aircraft to 
     **SY ADC**: "JST554, vacate via B9 to the right, runway 34L, cleared to land"
 
 ## ATIS
-The ATIS OPR INFO shall include:  
-`EXP CLR VIA PDC, ALL ACFT EXP INTERSECTION DEPARTURE, EXP DEPARTURE DELAYS DUE EVENT`
+In addition to all normal OPR INFO entries, the OPR INFO shall include:  
+`EXP CLR VIA PDC, ALL ACFT EXP INTERSECTION DEPARTURE, EXP DEPARTURE DELAYS DUE EVENT, DESTINATION AUCKLAND ONLY AVBL WITH EVENT BOOKING FM TIME 2100 TIL TIME 0000`
 
 ## Coordination
 ### SY TCU

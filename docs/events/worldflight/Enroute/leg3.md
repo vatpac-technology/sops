@@ -8,6 +8,11 @@
 ### Territory (TRS)
 TRS will be responsible for the TRS subsector **only**. The TRT airspace from the southeastern boundary north to the outbound leg route is released from TRT to TRS.
 
+<figure markdown>
+![TRT Airspace Release](../img/TRTRelease.png){ width="500" }
+<figcaption>TRT Airspace Release</figcaption>
+</figure>
+
 TRS shall ensure adequate vertical separation exists between nearby aircraft and may establish basic speed control to avoid any overtaking occurring.
 
 ## WorldFlight Teams

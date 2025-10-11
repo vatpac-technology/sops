@@ -5,11 +5,25 @@
 --8<-- "includes/abbreviations.md"
 
 ## Airspace Division
-Normal airspace splits will be utilised, however **SAS** will take ownership of the MARLN corridor (between MARLN and TESAT).
+Non-Standard airspace division will be in use.
 
-SAN shall handle all arrivals from the north via **BOREE** and **MEPIL**. These aircraft will be processed for RWY 16R/34L.
+SAS shall handle all arrivals from the north and west via **BOREE**, **MEPIL**, **RIVET**, and **WELSH**. These aircraft will be processed for RWY 16R/34L.
 
-SAS shall handle all arrivals from the east and south via **MARLN**, **RIVET**, and **WELSH**. These aircraft will be processed for RWY 16L/34R.
+SAN shall handle all arrivals from the east via **MARLN**. These aircraft will be processed for RWY 16L/34R.
+
+### 16 PROPS
+
+<figure markdown>
+![16 PROPS Airspace Division](../img/16PROPS Arrivals.png){ width="700" }
+  <figcaption>16 PROPS Airspace Division</figcaption>
+</figure>
+
+### 34 PROPS
+
+<figure markdown>
+![34 PROPS Airspace Division](../img/34PROPS Arrivals.png){ width="700" }
+  <figcaption>34 PROPS Airspace Division</figcaption>
+</figure>
 
 ### Approach Expectation
 All arrivals will be cleared for the Approach type indicated on the ATIS.

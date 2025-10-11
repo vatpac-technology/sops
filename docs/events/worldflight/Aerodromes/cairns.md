@@ -58,18 +58,18 @@ Ensure the Queue function is used to actively to keep track of the order of requ
 
 ### Taxi Routes
 #### Grass Taxiing
-Due to the taxiway layout at YBCS, a temporary grass taxiway has been established to minimise delays.
+Due to the taxiway layout at YBCS, two temporary grass taxiways have been established to minimise delays.
 
 <figure markdown>
-![YBCS Grass Taxiway](../img/ypdngrass.png){ width="700" }
-  <figcaption>YBCS Grass Taxiway</figcaption>
+![YBCS Grass Taxiway](../img/YBCS_SMC.png){ width="700" }
+  <figcaption>YBCS Grass Taxiways</figcaption>
 </figure>
 
 #### Runway 15
-Aircraft from the RPT apron should taxi outbound via **B** and the **grass taxiway** to the full length of runway 15. Aircraft from the GA apron should taxi outbound to holding point **A3** for an intersection departure. If this is not suitable, they should be instructed to taxi via the **western grass** to the full length of runway 15. 
+Aircraft from the RPT apron should taxi outbound via **B** and the **northern grass** to the full length of runway 15. Aircraft from the GA apron should taxi outbound to holding point **A3** for an intersection departure. If this is not suitable, they should be instructed to taxi via the **western grass** (not pictured) to the full length of runway 15. 
 
 #### Runway 33
-Aircraft from the RPT apron should taxi outbound via **B** to holding point **B5** for an intersection departure. Aircraft from the GA apron should taxi outbound to holding point **A4** for an intersection departure.
+Aircraft from the RPT apron should taxi outbound via **B** and the **southern grass** to the full length of runway 33. Aircraft from the GA apron should taxi outbound to holding point **A4** for an intersection departure.
 
 Backtracks to full length will not be available.
 
@@ -91,7 +91,7 @@ When a following aircraft is of a *lighter* [Wake Turbulence Category](../../../
 
 ## ATIS
 The ATIS OPR INFO shall include:  
-`EXP CLR VIA PDC, ALL ACFT EXP INTERSECTION DEPARTURE, EXP DEPARTURE DELAYS DUE EVENT`
+`EXP CLR VIA PDC, ACFT ON WESTERN APRONS EXP INTERSECTION DEPARTURE, EXP DEPARTURE DELAYS DUE EVENT`
 
 ## Coordination
 ### CS TCU

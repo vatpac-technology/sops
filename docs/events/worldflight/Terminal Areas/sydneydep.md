@@ -7,8 +7,7 @@
 ## Airspace Division
 Non-Standard airspace division will be in use.
 
-The **solid** green line represents the SID to **KADOM**.  
-The **dashed** green line represents the *suggested vectors* for [16L/34R departures](#sy3-departures).
+The **dashed** green lines represent the *suggested vectors* for [SY3 departures](#sy3-departures).
 
 ### 16 PROPS
 
