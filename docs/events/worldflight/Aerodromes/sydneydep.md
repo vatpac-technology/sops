@@ -81,12 +81,12 @@ The **SY3** RADAR SID will be in use for all Runways.
 
 **SY-C_DEL** shall enter the appropriate assigned heading into the OzStrips [Departure Heading field](../../../client/towerstrips.md#strips) when assigning the SID, in accordance with the table below:
 
-| Runway | Assigned Heading |
-| ---------- | --- |
-|  16L  | H140 |
-|  16R  | ADES **NZAA**: H320<br>ADES **NZOH**: H170 |
-|  34L  | H170 |
-|  34R  | H070 |
+| Runway | ADES | Assigned Heading |
+| ---------- | --- | --- |
+|  16L  | All | H140 |
+|  16R  | NZAA<br>NZOH | H320<br>H170 |
+|  34L  | All | H170 |
+|  34R  | All | H070 |
 
 ### Departure Frequency
 Departures Frequency will be as per the following table:
