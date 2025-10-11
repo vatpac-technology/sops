@@ -41,7 +41,7 @@ Ensure you familiarise yourself with the applicable [Separation Standards](../..
 Pass *Traffic Information* on aircraft that will come within **1nm** of each other on parallel approaches.
 
 !!! phraseology
-    **SFW:** "NPT11W, Traffic is a 767 at your 10 o'clock for the parallel runway"
+    **SFW:** "NPT11W, traffic is a 767 ahead for the parallel runway"
 
 ## WorldFlight Scenic Arrival
 Most offical WorldFlight teams will conclude the event by flying the Scenic Arrival, including a low-level flight through Sydney Harbour. This procedure is flown OCTA until east of Harbour Bridge (HBB).
@@ -49,7 +49,7 @@ Most offical WorldFlight teams will conclude the event by flying the Scenic Arri
 Aircraft will be transferred to SAN assigned `A090` tracking from **WLM** to **LRF**. Clear these aircraft to leave CTA on descent with a requirement to be established **OCTA by LRF**.
 
 !!! phraseology
-    *'QFA25, cleared to leave controlled airspace descending, requirement to be established OCTA by LRF'*
+    *'QFA25, leave controlled airspace descending, requirement to be established OCTA by LRF'*
 
 From LRF, the aircraft will descend to `A005` and track `LRF HSY RYB HBB`. Passing HBB to the east, they will climb to `A015` and turn direct to YSSY to join the circuit for RWY 16L/34R. 
 
