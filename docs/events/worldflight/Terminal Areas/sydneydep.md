@@ -7,7 +7,7 @@
 ## Airspace Division
 Non-Standard airspace division will be in use.
 
-The **dashed** green lines represent the *suggested vectors* for [SY3 departures](#sy3-departures).
+The **dashed** green lines represent the suggested vectors for [SY3 departures](#sy3-departures).
 
 ### 16 PROPS
 
@@ -24,24 +24,32 @@ The **dashed** green lines represent the *suggested vectors* for [SY3 departures
 </figure>
 
 ## SY3 Departures
-Departures from 16R/34L/34R will be assigned the **SY3** SID with an assigned heading in accordance with the table below:
+Departures from all runways will be assigned the **SY3** SID with an assigned heading in accordance with the table below:
 
-| Departure Runway | Assigned Heading |
-| --- | --- |
-| 16R | H320 |
-| 34L | H170 |
-| 34R | H070 |
+| Runway | Assigned Heading |
+| ---------- | --- |
+|  16L  | H140 |
+|  16R  | ADES **NZAA**: H320<br>ADES **NZOH**: H170 |
+|  34L  | H170 |
+|  34R  | H070 |
 
-Aircraft shall be subsequently processed with the following tracking instructions:
+Aircraft for **NZAA** shall be subsequently processed with the following tracking instructions:
 
 | Departure Runway | Tracking Instructions |
 | --- | --- |
-| 16L | Via the SID to EVONN |
-| 16R | **H320** until north of YSSY, then **H100** |
-| 34L | **H170** until approx 20DME, then **H115** |
-| 34R | **H070** until approx 20DME, then **H105** |
+| 16L | **H140** until approx 30DME, then **DCT GEROS** |
+| 16R | **H320** until approx 15DME, then **H070** |
+| 34L | **H170** until approx 20DME, then **H070** |
+| 34R | **H070** |
 
-Aircraft shall be handed off to OCN assigned the **final heading** in the table above (or via the SID for 16L departures).
+Aircraft for **NZOH** shall be subsequently processed with the following tracking instructions:
+
+| Departure Runway | Tracking Instructions |
+| --- | --- |
+| 16R | **H170** until south of the NZAA stream, then **DCT PLUGA** |
+| 34L | **H170** until south of the NZAA stream, then **DCT PLUGA** |
+
+Aircraft shall be handed off to OCN assigned the **final instruction** in the tables above.
 
 ## WorldFlight Teams
 [WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
@@ -56,8 +64,9 @@ Aircraft shall be handed off to OCN assigned the **final heading** in the table 
 #### Auto Release
 Standard as per [SY TCU Local Instructions](../../../../../../terminal/sydney/#sy-adc), with the exception of:
 
-- 16R/34L/34R Departure SID: **SY3** RADAR
-- 16R Standard Assignable Departure Heading: **H320**
+- Departure SID: **SY3** RADAR
+- 16L Standard Assignable Departure Heading: **H140**
+- 16R Standard Assignable Departure Heading: **H320** (for ADES NZAA), or **H170** (for ADES NZOH)
 - 34L Standard Assignable Departure Heading: **H170**
 - 34R Standard Assignable Departure Heading: **H070**
 
@@ -65,7 +74,7 @@ Standard as per [SY TCU Local Instructions](../../../../../../terminal/sydney/#s
 Voiceless for all aircraft:
 
 - Assigned the lower of `F280` or the `RFL`; and  
-- Tracking via **EVONN**; or  
-- Assigned **H105** or **H115**
+- Tracking via **GEROS** or **PLUGA**; or  
+- Assigned **H070**
 
 All other aircraft going to OCN CTA will be **Heads-up** Coordinated.

@@ -57,6 +57,7 @@ YSSY will have a non-standard second ACD Controller.
 - Checking [Route Restrictions compliance](#route-restrictions)
 - Checking [Flight Plan compliance](#flight-plan-compliance)
 - Entering Flight Data (Setting [Runway](#runway-selection), [SID](#sid-selection) and [CFL](../../../../aerodromes/classc/Sydney/#auto-release))
+- Entering [Assigned Heading](#sid-selection) to OzStrips [Departure Heading field](../../../client/towerstrips.md#strips)
 - Sending [PDCs](#pdcs)
 
 SY-C_DEL has *no frequency*, and will not talk to aircraft by voice.
@@ -73,10 +74,19 @@ Work through the OzStrips Preactive bay from *bottom to top* when sending PDCs.
 By default, assign aircraft the departure runway that corresponds to their departure apron (ie, **16L/34R** on *East* Apron, **16R/34L** on *West* Apron).
 
 #### NZOH Exception
-Aircraft with ADES **NZOH** shall be assigned Runway **34L** or **16R**, regardless of departure apron.
+Aircraft with ADES **NZOH** shall be assigned Runway **16R** or **34L**, regardless of departure apron.
 
 ### SID Selection
 The **SY3** RADAR SID will be in use for all Runways.
+
+**SY-C_DEL** shall enter the appropriate assigned heading into the OzStrips [Departure Heading field](../../../client/towerstrips.md#strips) when assigning the SID, in accordance with the table below:
+
+| Runway | Assigned Heading |
+| ---------- | --- |
+|  16L  | H140 |
+|  16R  | ADES **NZAA**: H320<br>ADES **NZOH**: H170 |
+|  34L  | H170 |
+|  34R  | H070 |
 
 ### Departure Frequency
 Departures Frequency will be as per the following table:
@@ -149,6 +159,21 @@ When workload (and holding point congestion) allows, issue pushback to the **bot
 !!! warning "Important"
     It is preferable to hold aircraft on the bay (where they aren't blocking taxiways or burning their holding fuel) when congestion leads to blocked holding points. Issue pushback with enough lead time to prevent large gaps in the departure sequence.
 
+### Non-Standard Taxiway Usage
+To faciliate departures from both runways, during **34 PROPS only**, the following taxiways shall be utilised exclusively for their listed purpose:
+
+| Taxiway | Usage |
+| --- | --- |
+| B | Southbound for **RWY 34L** only |
+| C | Southbound for **RWY 34R** only |
+
+!!! warning "Important"
+    As a result of these taxiway usage assignments, it will not be possible to taxi arriving aircraft to the apron during 34 PROPS.
+
+    Enroute controllers will strongly encourage any inbound aircraft to divert, but should an aircraft land, they should be instructed to disconnect on, or after vacating, the runway.
+
+All departures from **RWY 34L** outbound from the **eastern aprons** (any apron east of RWY 34L) shall be assigned holding point **B10** or **L**.
+
 ### A388 Taxi Routes
 The YSSY `Aerodrome Ground Movement Chart` specifies taxi routes for A388 aircraft. These must be **disregarded** for the event, and standard taxiways must be used for A388 aircraft to facilitate orderly flow of traffic.
 
@@ -183,6 +208,9 @@ Aircraft assigned the **SY3** RADAR SID shall be assigned a heading in accordanc
 |  16R  | NZAA<br>NZOH | H320<br>H170 |
 |  34L  | All | H170 |
 |  34R  | All | H070 |
+
+!!! note
+    **SY-C_DEL** will enter the relevant assigned heading into the OzStrips [Departure Heading field](../../../client/towerstrips.md#strips) when formatting the strip. Ensure the assigned heading is correct, paying particular attention to departures from runway 16R.
 
 ### Runway Vacating Instructions
 To avoid creating conflict for SMC, ADC shall instruct all arriving aircraft to vacate via the following exits when issued a landing clearance:

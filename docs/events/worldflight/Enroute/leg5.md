@@ -61,6 +61,8 @@ Arrivals may, when suitable for the *sequence*, and clear of *01L/19R traffic*, 
 <figcaption>WF Team Highlight</figcaption>
 </figure>
 
+Most WorldFlight team aircraft will land at YBCG, not YBBN. These aircraft should be rerouted (if not already filed) via: `IDRAS SCOTT CG`.
+
 ## Coordination
 ### CS TCU to KEN
 Voiceless for all aircraft:

@@ -6,13 +6,18 @@
 
 ## Sector Responsibilities
 ### Ocean (OCN)
-OCN will receive two flows from SY TCU. These flows much be merged by GEROS.
+OCN will receive two NZAA-bound flows from SY TCU. These flows must be merged by GEROS.
 
 !!! warning Important
     Ensure adequate vertical separation exists between nearby aircraft and provide proactive level assignments if necessary to maintain separation assurance for all downstream sectors.
 
+OCN will also receive a single NZOH-bound flow from SY TCU, positioned south of the NZAA flows.
+
 ### Tasman (TSN)
 TSN will have temporary surveillance coverage provided by additional floating ADS-B stations in the sector. Normal surveillance separation standards may be used between all identified aircraft.
+
+### All Other Sectors
+Due to the sheer volume of traffic departing from YSSY, arrivals will **not be possible** during the departure event. Any aircraft inbound to YSSY should be strongly encouraged to divert to another aerodrome.
 
 ## WorldFlight Teams
 [WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
@@ -27,8 +32,8 @@ TSN will have temporary surveillance coverage provided by additional floating AD
 Voiceless for all aircraft:
 
 - Assigned the lower of `F280` or the `RFL`; and  
-- Tracking via **EVONN**; or  
-- Assigned **H105** or **H115**
+- Tracking via **GEROS** or **PLUGA**; or  
+- Assigned **H070**
 
 All other aircraft going to OCN CTA will be **Heads-up** Coordinated.
 
