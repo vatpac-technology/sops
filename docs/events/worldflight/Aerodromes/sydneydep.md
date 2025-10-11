@@ -81,12 +81,12 @@ The **SY3** RADAR SID will be in use for all Runways.
 
 **SY-C_DEL** shall enter the appropriate assigned heading into the OzStrips [Departure Heading field](../../../client/towerstrips.md#strips) when assigning the SID, in accordance with the table below:
 
-| Runway | Assigned Heading |
-| ---------- | --- |
-|  16L  | H140 |
-|  16R  | ADES **NZAA**: H320<br>ADES **NZOH**: H170 |
-|  34L  | H170 |
-|  34R  | H070 |
+| Runway | ADES | Assigned Heading |
+| ---------- | --- | --- |
+|  16L  | All | H140 |
+|  16R  | NZAA<br>NZOH | H320<br>H170 |
+|  34L  | All | H170 |
+|  34R  | All | H070 |
 
 ### Departure Frequency
 Departures Frequency will be as per the following table:
@@ -164,21 +164,16 @@ To faciliate departures from both runways, during **34 PROPS only**, the followi
 
 | Taxiway | Usage |
 | --- | --- |
-| B | Southbound for **RWY 34L** only |
-| C | Southbound for **RWY 34R** only |
+| Bravo | Southbound for **RWY 34L** only |
+| Charlie | Southbound for **RWY 34R** only |
 
 !!! warning "Important"
     As a result of these taxiway usage assignments, it will not be possible to taxi arriving aircraft to the apron during 34 PROPS.
 
     Enroute controllers will strongly encourage any inbound aircraft to divert, but should an aircraft land, they should be instructed to disconnect on, or after vacating, the runway.
 
-All departures from **RWY 34L** outbound from the **eastern aprons** (any apron east of RWY 34L) shall be assigned holding point **B10** or **L**.
-
-### A388 Taxi Routes
-The YSSY `Aerodrome Ground Movement Chart` specifies taxi routes for A388 aircraft. These must be **disregarded** for the event, and standard taxiways must be used for A388 aircraft to facilitate orderly flow of traffic.
-
-### Eastern Apron to 34L
-Aircraft from the *Eastern Apron* assigned Runway **34L** (which may include Heavy traffic and/or NZOH departures) shall be instructed to taxi via **Charlie**, and use Holding Point **Lima** for departure, aircraft performance permitting.
+#### Eastern Apron to 34L
+Aircraft from the *Eastern Apron* assigned Runway **34L** (which may include Heavy traffic and/or NZOH departures) shall be instructed to taxi via **Charlie**, and use Holding Point **Lima** for departure.
 
 ### Separation Assurance
 Both SMC positions must be careful to ensure separation is assured at all times, particularly through the complex taxiway intersections at Sydney.
@@ -188,6 +183,9 @@ With runways 34L/R in use for departures, SMC East should consider instructing a
 During PROPS, maximum use of runway **07/25** should be utilised to enable an east/westbound split between taxiway **Golf** and the runway.
 
 SMC West should protect the **Alpha 2** rapid exit and utilise taxiways **Yankee** and **Juliet** as a second path for aircraft when **Golf** and **Alpha** are already occupied. Be careful taxiing outbound aircraft south of **Juliet** while an aircraft is landing on runway 34L, as they will plan to vacate via **Alpha 2**.
+
+### A388 Taxi Routes
+The YSSY `Aerodrome Ground Movement Chart` specifies taxi routes for A388 aircraft. These must be **disregarded** for the event, and standard taxiways must be used for A388 aircraft to facilitate orderly flow of traffic.
 
 ## Tower Control (ADC)
 ### OzStrips
