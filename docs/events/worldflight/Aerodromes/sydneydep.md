@@ -115,30 +115,30 @@ Coordinator operations shall be conducted in accordance with the Sydney Aerodrom
 ### OzStrips
 All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../../../client/towerstrips/#recommended-workflow) for OzStrips.
 
-Coordinator must place a `MONITOR GROUND EAST` & `MONITOR GROUND WEST` bar in the **Cleared Bay Queue** and queue any aircraft who request pushback or taxi (if no pushback required) in the Cleared Bay.
+Coordinator must place a `STANDBY FOR GROUND EAST` & `STANDBY FOR GROUND WEST` bar in the **Cleared Bay Queue** and queue any aircraft who request pushback or taxi (if no pushback required) in the Cleared Bay.
 
 <figure markdown>
 ![Coordinator Bars](../img/coordinatorbars.png){ width="500" }
 </figure>
 
-When less than **three** strips are present below a particular `MONITOR GROUND` bar, Coordinator may instruct the bottom most aircraft in the queue to monitor that SMC frequency.
+When less than **three** strips are present below a particular `STANDBY FOR GROUND` bar, Coordinator may instruct the bottom most aircraft in the queue to standby for that SMC frequency.
 
 <figure markdown>
 ![Coordinator Strips](../img/coordinatorstrips.png){ width="500" }
     <figcaption>An example of the Coordinator layout</figcaption>
 </figure>
 
-If three strips are already present below a respective bar, any subsequent aircraft who request pushback must be instructed to remain on the Coordinator frequency, and an estimated delay given if known. Place these strips in the **Cleared Bay Queue**, but above the respective `MONITOR GROUND` bars. The bottom-most strip is always at the front of any queue.
+If three strips are already present below a respective bar, any subsequent aircraft who request pushback must be instructed to remain on the Coordinator frequency, and an estimated delay given if known. Place these strips in the **Cleared Bay Queue**, but above the respective `STANDBY FOR GROUND` bars. The bottom-most strip is always at the front of any queue.
 
 !!! phraseology
     **QFA452**: "Sydney Coordinator, Qantas 452, bay 5, request pushback"  
-    **SY COORD**: "Qantas 452, Sydney Coordinator, monitor ground 121.7"  
+    **SY COORD**: "Qantas 452, Sydney Coordinator, standby for ground 121.7"  
     ...  
     **VOZ318**: "Sydney Coordinator, Velocity 318, bay 39, request pushback"  
     **SY COORD**: "Velocity 318, Coordinator, remain this frequency, approximate 5 minute delay due traffic congestion"
 
 !!! warning "Important"
-    Ensure aircraft are [squawking mode C and the correct code](../../../../client/towerstrips/#strips) before instructing them to monitor ground.
+    Ensure aircraft are [squawking mode C and the correct code](../../../../client/towerstrips/#strips) before instructing them to standby for ground.
 
 ### Delay Expectation
 Aircraft can expect **extensive** delays for Pushback during the event, possibly *multiple hours*. Try to keep pilots informed of their delay expectation, either by providing a figure in minutes, or a position in the queue.
@@ -152,9 +152,9 @@ Aircraft can expect **extensive** delays for Pushback during the event, possibly
 With two SMC controllers online, utilise [strip bay bars](../../../../client/towerstrips/#multiple-adcsmc-positions) to keep the **Taxi** and **Holding Point** strip bays organised.
 
 ### Departures
-With Coordinator online, aircraft will request pushback on the Coordinator frequency and be told to monitor the applicable SMC frequency when appropriate. These pilots will be waiting for you to initiate contact with them.
+With Coordinator online, aircraft will request pushback on the Coordinator frequency and be told to standby for the applicable SMC frequency when appropriate. These pilots will be waiting for you to initiate contact with them.
 
-When workload (and holding point congestion) allows, issue pushback to the **bottom most** aircraft below the `MONITOR GROUND EAST` or `MONITOR GROUND WEST` bar (as appropriate) and move the strip to the **Pushback Bay**.
+When workload (and holding point congestion) allows, issue pushback to the **bottom most** aircraft below the `STANDBY FOR GROUND EAST` or `STANDBY FOR GROUND WEST` bar (as appropriate) and move the strip to the **Pushback Bay**.
 
 !!! warning "Important"
     It is preferable to hold aircraft on the bay (where they aren't blocking taxiways or burning their holding fuel) when congestion leads to blocked holding points. Issue pushback with enough lead time to prevent large gaps in the departure sequence.
