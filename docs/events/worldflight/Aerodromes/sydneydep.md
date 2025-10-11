@@ -28,9 +28,10 @@ Due to the limited capacity of NZAA, pilots must obtain a booking to fly from YS
 
 
 ### Flight Plan Compliance
-Ensure **all flight plans** are checked for compliance with the approved WF Route:
+Ensure **all flight plans** are checked for compliance with the approved WF Routes:
 
-`DCT EVONN L521 LUNBI DCT`
+ADES **NZAA**: `DCT EVONN L521 LUNBI DCT`  
+ADES **NZOH**: `DCT CAWLY M636 SASRO GULUT DCT`
 
 **OzStrips** will flag any *non-compliant* WF route.
 
@@ -71,15 +72,11 @@ Work through the OzStrips Preactive bay from *bottom to top* when sending PDCs.
 ### Runway Selection
 By default, assign aircraft the departure runway that corresponds to their departure apron (ie, **16L/34R** on *East* Apron, **16R/34L** on *West* Apron).
 
-### SID Selection
-Non-Standard SIDs are in use for Runway 16L and 34R.
+#### NZOH Exception
+Aircraft with ADES **NZOH** shall be assigned Runway **34L** or **16L**, regardless of departure apron.
 
-| Runway | SID |
-| ---------- | --- |
-|  16L  | KEVIN7 with EVONN transition |
-|  16R  | SY3 |
-|  34L  | SY3 |
-|  34R  | SY3 |
+### SID Selection
+The **SY3** RADAR SID will be in use for all Runways.
 
 ### Departure Frequency
 Departures from Runway 16R and 34L shall be given the SDN frequency (123.0).  
@@ -170,11 +167,12 @@ If a single runway is in use for departures, subsequent departures **must** be s
 ### SY3 Assigned Heading
 Aircraft assigned the **SY3** RADAR SID shall be assigned a heading in accordance with the table below:
 
-| Departure Runway | Assigned Heading |
-| --- | --- |
-| 16R | H320 |
-| 34L | H170 |
-| 34R | H070 |
+| Runway | Assigned Heading |
+| ---------- | --- |
+|  16L  | H140 |
+|  16R  | H320 |
+|  34L  | H170 |
+|  34R  | H070 |
 
 ### Runway Vacating Instructions
 To avoid creating conflict for SMC, ADC shall instruct all arriving aircraft to vacate via the following exits when issued a landing clearance:
@@ -198,7 +196,8 @@ In addition to all normal OPR INFO entries, the OPR INFO shall include:
 #### Auto Release
 Standard as per [YSSY Local Instructions](../../../../aerodromes/classc/Sydney/#auto-release), with the exception of auto-release being available for the following:
 
-- 16R/34L/34R Departure SID: **SY3** RADAR
+- Departure SID: **SY3** RADAR
+- 16L Standard Assignable Departure Heading: **H140**
 - 16R Standard Assignable Departure Heading: **H320**
 - 34L Standard Assignable Departure Heading: **H170**
 - 34R Standard Assignable Departure Heading: **H070**
