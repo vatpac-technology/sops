@@ -73,14 +73,20 @@ Work through the OzStrips Preactive bay from *bottom to top* when sending PDCs.
 By default, assign aircraft the departure runway that corresponds to their departure apron (ie, **16L/34R** on *East* Apron, **16R/34L** on *West* Apron).
 
 #### NZOH Exception
-Aircraft with ADES **NZOH** shall be assigned Runway **34L** or **16L**, regardless of departure apron.
+Aircraft with ADES **NZOH** shall be assigned Runway **34L** or **16R**, regardless of departure apron.
 
 ### SID Selection
 The **SY3** RADAR SID will be in use for all Runways.
 
 ### Departure Frequency
-Departures from Runway 16R and 34L shall be given the SDN frequency (123.0).  
-Departures from Runway 16L and 34R shall be given the SDS frequency (129.7).
+Departures Frequency will be as per the following table:
+
+| Runway | ADES | Departures Frequency |
+| ---------- | --- | --- |
+|  16L  | All | 129.7 |
+|  16R  | NZAA<br>NZOH | 123.0<br>129.7 |
+|  34L  | All | 129.7 |
+|  34R  | All | 123.0 |
 
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect, prioritising those who connected first. Upon successful readback of the PDC, ACD shall direct the pilot to contact Coordinator when ready for pushback or taxi.
@@ -146,14 +152,17 @@ When workload (and holding point congestion) allows, issue pushback to the **bot
 ### A388 Taxi Routes
 The YSSY `Aerodrome Ground Movement Chart` specifies taxi routes for A388 aircraft. These must be **disregarded** for the event, and standard taxiways must be used for A388 aircraft to facilitate orderly flow of traffic.
 
+### Eastern Apron to 34L
+Aircraft from the *Eastern Apron* assigned Runway **34L** (which may include Heavy traffic and/or NZOH departures) shall be instructed to taxi via **Charlie**, and use Holding Point **Lima** for departure, aircraft performance permitting.
+
 ### Separation Assurance
 Both SMC positions must be careful to ensure separation is assured at all times, particularly through the complex taxiway intersections at Sydney.
 
-With runways 34L/R in use for departures, SMC East should consider instructing aircraft taxiing southbound on Charlie to initially hold short of Golf (to avoid conflict with aircraft taxiing from DOM2 and eastward). After crossing the runway, consider instructing aircraft to hold short of Bravo 10 (to avoid conflict with inbound aircraft from 34R). Inbound aircraft should be instructed to hold short of Bravo 8 (to give way to aircraft vacating 34L at the rapid exit).
+With runways 34L/R in use for departures, SMC East should consider instructing aircraft taxiing southbound on **Charlie** to initially hold short of **Golf** (to avoid conflict with aircraft taxiing from DOM2 and eastward). After crossing the runway, consider instructing aircraft to hold short of **Bravo 10** (to avoid conflict with inbound aircraft from 34R). Inbound aircraft should be instructed to hold short of **Bravo 8** (to give way to aircraft vacating 34L at the rapid exit).
 
-During PROPS, maximum use of runway 07/25 should be utilised to enable an east/westbound split between taxiway Golf and the runway.
+During PROPS, maximum use of runway **07/25** should be utilised to enable an east/westbound split between taxiway **Golf** and the runway.
 
-SMC West should protect the Alpha 2 rapid exit and utilise taxiways Yankee and Juilet as a second path for aircraft when Golf and Alpha are already occupied. Be careful taxiing outbound aircraft south of Juliet while an aircraft is landing on runway 34L, as they will plan to vacate via Alpha 2.
+SMC West should protect the **Alpha 2** rapid exit and utilise taxiways **Yankee** and **Juliet** as a second path for aircraft when **Golf** and **Alpha** are already occupied. Be careful taxiing outbound aircraft south of **Juliet** while an aircraft is landing on runway 34L, as they will plan to vacate via **Alpha 2**.
 
 ## Tower Control (ADC)
 ### OzStrips
@@ -162,17 +171,18 @@ With two SMC controllers online, utilise [strip bay bars](../../../../client/tow
 ### Departure Spacing
 While PROPS are in use, subsequent departures from the same runway **must** be spaced by **2 minutes**, to assist with arrival flow in to NZAA.
 
-If a single runway is in use for departures, subsequent departures **must** be spaced by **60 seconds**.
+!!! note
+    This spacing may be amended at any time during the event by the Event Coordinator
 
 ### SY3 Assigned Heading
 Aircraft assigned the **SY3** RADAR SID shall be assigned a heading in accordance with the table below:
 
-| Runway | Assigned Heading |
-| ---------- | --- |
-|  16L  | H140 |
-|  16R  | H320 |
-|  34L  | H170 |
-|  34R  | H070 |
+| Runway | ADES | Assigned Heading |
+| ---------- | --- | --- |
+|  16L  | All | H140 |
+|  16R  | NZAA<br>NZOH | H320<br>H170 |
+|  34L  | All | H170 |
+|  34R  | All | H070 |
 
 ### Runway Vacating Instructions
 To avoid creating conflict for SMC, ADC shall instruct all arriving aircraft to vacate via the following exits when issued a landing clearance:
@@ -194,14 +204,14 @@ In addition to all normal OPR INFO entries, the OPR INFO shall include:
 ## Coordination
 ### SY TCU
 #### Auto Release
-Standard as per [YSSY Local Instructions](../../../../aerodromes/classc/Sydney/#auto-release), with the exception of auto-release being available for the following:
-
-- Departure SID: **SY3** RADAR
-- 16L Standard Assignable Departure Heading: **H140**
-- 16R Standard Assignable Departure Heading: **H320**
-- 34L Standard Assignable Departure Heading: **H170**
-- 34R Standard Assignable Departure Heading: **H070**
+Standard as per [YSSY Local Instructions](../../../../aerodromes/classc/Sydney/#auto-release), with the exception of auto-release being available for aircraft assigned the SY3 SID with the [Standard Assignable Heading](#sy3-assigned-heading)
 
 #### Departures Controller
-Departures from Runway 16R and 34L shall be handed off to SDN.  
-Departures from Runway 16L and 34R shall be handed off to SDS.
+Departures Controller will be as per the following table:
+
+| Runway | ADES | Departures Controller |
+| ---------- | --- | --- |
+|  16L  | All | SDS |
+|  16R  | NZAA<br>NZOH | SDN<br>SDS |
+|  34L  | All | SDS |
+|  34R  | All | SDN |
