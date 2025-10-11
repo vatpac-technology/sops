@@ -70,6 +70,16 @@ Standard as per [SY TCU Local Instructions](../../../../../../terminal/sydney/#s
 - 34L Standard Assignable Departure Heading: **H170**
 - 34R Standard Assignable Departure Heading: **H070**
 
+#### Departures Controller
+Departures Controller will be as per the following table:
+
+| Runway | ADES | Departures Controller |
+| ---------- | --- | --- |
+|  16L  | All | SDS |
+|  16R  | NZAA<br>NZOH | SDN<br>SDS |
+|  34L  | All | SDS |
+|  34R  | All | SDN |
+
 ### OCN
 Voiceless for all aircraft:
 
