@@ -59,5 +59,5 @@ Voiceless for all aircraft:
 
 All other aircraft going to TRS CTA will be **Heads-up** Coordinated.
 
-### TRT to DW TCU
+### TRT to DN TCU
 Standard as per [DN TCU Local Instructions](../../../../../../terminal/darwin/#arrivals)

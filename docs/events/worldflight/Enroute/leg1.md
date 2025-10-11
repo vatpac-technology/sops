@@ -8,7 +8,7 @@
 ### Ocean (OCN)
 OCN will receive two NZAA-bound flows from SY TCU. These flows must be merged by GEROS.
 
-!!! warning Important
+!!! warning "Important"
     Ensure adequate vertical separation exists between nearby aircraft and provide proactive level assignments if necessary to maintain separation assurance for all downstream sectors.
 
 OCN will also receive a single NZOH-bound flow from SY TCU, positioned south of the NZAA flows.

@@ -5,7 +5,11 @@
 --8<-- "includes/abbreviations.md"
 
 ## Runway Modes
-Single runway operations on either **runway 11 or 29** will be in use for all aircraft. Runway 18/36 will not be available for arrivals and departures, due to its use as a taxiway for some aircraft.
+Single runway operations on either **runway 11 or 29** will be in use for all aircraft.
+
+**Runway 11** will be the preferred Runway Mode.
+
+Runway 18/36 will not be available for arrivals and departures, due to its use as a taxiway for some aircraft.
 
 ## Workload Management
 Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../client/towerstrips/#recommended-workflow).

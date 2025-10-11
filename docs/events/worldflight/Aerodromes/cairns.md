@@ -4,6 +4,11 @@
 
 --8<-- "includes/abbreviations.md"
 
+## Runway Modes
+Single runway operations on either **runway 15 or 33** will be in use for all aircraft.
+
+**Runway 15** will be the preferred Runway Mode.
+
 ## Workload Management
 Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../client/towerstrips/#recommended-workflow).
 
