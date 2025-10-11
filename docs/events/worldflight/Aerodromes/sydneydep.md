@@ -57,6 +57,7 @@ YSSY will have a non-standard second ACD Controller.
 - Checking [Route Restrictions compliance](#route-restrictions)
 - Checking [Flight Plan compliance](#flight-plan-compliance)
 - Entering Flight Data (Setting [Runway](#runway-selection), [SID](#sid-selection) and [CFL](../../../../aerodromes/classc/Sydney/#auto-release))
+- Entering [Assigned Heading](#sid-selection) to OzStrips [Departure Heading field](../../../client/towerstrips.md#strips)
 - Sending [PDCs](#pdcs)
 
 SY-C_DEL has *no frequency*, and will not talk to aircraft by voice.
@@ -153,7 +154,7 @@ When workload (and holding point congestion) allows, issue pushback to the **bot
     It is preferable to hold aircraft on the bay (where they aren't blocking taxiways or burning their holding fuel) when congestion leads to blocked holding points. Issue pushback with enough lead time to prevent large gaps in the departure sequence.
 
 ### Non-Standard Taxiway Usage
-To faciliate departures from both runways, during **34 PROPS**, the following taxiways shall be utilised exclusively for their listed purpose:
+To faciliate departures from both runways, during **34 PROPS only**, the following taxiways shall be utilised exclusively for their listed purpose:
 
 | Taxiway | Usage |
 | --- | --- |
