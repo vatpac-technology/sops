@@ -10,7 +10,7 @@ TRT is responsible for issuing STAR Clearances and all sequencing actions in to 
 
 TRT will be responsible for the TRT subsector **only**.
 
-During the subsequent departure leg, TRS shall extend their jurisdiction into TRT to include the departure route to WAJJ.
+See below for details on the [TRT Release](#trt-release) when TRS is online.
 
 #### STARs
 All aircraft shall be issued the **ANUPA1A** STAR.  
@@ -40,3 +40,11 @@ As per [standard TRT coordination procedures](../../../../../../enroute/Brisbane
 
 ### TRT to DAW
 Standard as per [TRT Local Instructions](../../../../../../enroute/Brisbane Centre/TRT/#arrivalsoverfliers).
+
+### TRT Release
+When TRS is online, the highlighted portion of TRT is released to TRS to facilitate YPDN departures to WAJJ
+
+<figure markdown>
+![TRT Airspace Release](../img/TRTRelease.png){ width="500" }
+<figcaption>TRT Airspace Release</figcaption>
+</figure>

@@ -26,6 +26,7 @@ Minimum distance between arrivals at handoff to CS TCU is **10nm** (with no sign
 All aircraft shall be issued a STAR in accordance with the table below:
 
 | Duty Runway | STAR |
+| ---------- | --- |
 | RWY 15 | CODIE1A, OVLET transition |
 | RWY 33 | HENDO2A, OVLET transition |
 
@@ -45,7 +46,7 @@ As per [standard ARA coordination procedures](../../../../../../enroute/Brisbane
     It may be prudent (especially if they are using vatSys) to set up a Voiceless Coordination Agreement with WAAF CTR, in order to reduce workload for both controllers.
 
 ### ARA to BAR
-Standard.
+Standard as per [KEN Local Instructions](../../../../../../enroute/Brisbane Centre/KEN).
 
 ### BAR to CS TCU
 Voiceless for all aircraft:

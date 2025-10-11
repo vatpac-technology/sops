@@ -5,13 +5,8 @@
 --8<-- "includes/abbreviations.md"
 
 ## Sector Responsibilities
-### Territory (TRS)
-TRS will be responsible for the TRS subsector **only**. The TRT airspace from the southeastern boundary north to the outbound leg route is released from TRT to TRS.
-
-<figure markdown>
-![TRT Airspace Release](../img/TRTRelease.png){ width="500" }
-<figcaption>TRT Airspace Release</figcaption>
-</figure>
+### Territory South (TRS)
+TRS will be responsible for the TRS subsector **only**. The North-east portion of TRT airspace is [released](#trt-release) to TRS.
 
 TRS shall ensure adequate vertical separation exists between nearby aircraft and may establish basic speed control to avoid any overtaking occurring.
 
@@ -29,6 +24,14 @@ Standard as per [TRT Local Instructions](../../../../../../enroute/Brisbane Cent
 
 !!! note
     All departing aircraft will be handled by DAE, regardless of duty runway.
+
+### TRT Release
+When TRS is online, the highlighted portion of TRT is released to TRS to facilitate YPDN departures to WAJJ
+
+<figure markdown>
+![TRT Airspace Release](../img/TRTRelease.png){ width="500" }
+<figcaption>TRT Airspace Release</figcaption>
+</figure>
 
 ### TRS to WAAF CTR
 As per [standard TRT coordination procedures](../../../../../../enroute/Brisbane Centre/TRT/#international-waaf), all aircraft should be **Heads-up Coordinated** to WAAF CTR prior to **30 mins** from boundary.
