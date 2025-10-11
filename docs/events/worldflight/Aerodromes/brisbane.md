@@ -94,7 +94,7 @@ Runway 01L, 19L and 19R Departures will be assigned the **BN4** RADAR SID, with 
 | Runway | Assigned Heading |
 | ---------- | --- |
 | 01L      | H340 |
-| 19L      | H160 |
+| 19L      | H090 |
 | 19R      | H210 |
 
 ## ATIS
@@ -127,7 +127,7 @@ Available for aircraft assigned `A060`, and:
 | ---------- | --- | --- |
 | 01L  | BN4 | H340 |
 | 01R  | SANEG2 | - |
-| 19L  | BN4 | H160 |
+| 19L  | BN4 | H090 |
 | 19R  | BN4 | H210 |
 
 #### Departures Controller

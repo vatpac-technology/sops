@@ -23,8 +23,7 @@ The **dashed green** line represents the *suggested vectors* for **01L** Departu
 
 #### 01L Departures
 Departures from Runway 01L will be assigned the **BN4** SID with an assigned heading of **H340**.  
-Aircraft must then be vectored to the east, then assigned a heading of **H180** when clear of 01R Departures.  
-Aircraft may be handed off to GOL on this heading.
+Aircraft must then be vectored to the east and handed off to GOL on **H090**.
 
 ### 19 PROPS
 #### Airspace Division
@@ -42,7 +41,7 @@ The **dashed green** lines represents the *suggested vectors* for Departures.
 19R will be the primary runway for departures.
 
 #### 19L Departures
-Departures from Runway 19L will be assigned the **BN4** SID with an assigned heading of **H160**.  
+Departures from Runway 19L will be assigned the **BN4** SID with an assigned heading of **H090**.  
 Aircraft may be handed off to GOL on this heading.
 
 #### 19R Departures
@@ -142,7 +141,7 @@ Voiceless for all aircraft:
 
 - Assigned the lower of `F180` or the `RFL`; and  
 - Tracking via **SANEG**; or  
-- East of **SANEG**, Assigned a Heading between **H180**-**H160**.
+- East of **SANEG**, Assigned **H090**.
 
 All other aircraft going to GOL CTA will be **Heads-up** Coordinated.
 

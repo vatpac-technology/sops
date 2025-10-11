@@ -82,7 +82,7 @@ Voiceless for all aircraft:
 
 - Assigned the lower of `F180` or the `RFL`; and  
 - Tracking via **SANEG**; or  
-- East of **SANEG**, Assigned a Heading between **H180**-**H160**.
+- East of **SANEG**, Assigned **H090**.
 
 All other aircraft going to GOL CTA will be **Heads-up** Coordinated.
 
