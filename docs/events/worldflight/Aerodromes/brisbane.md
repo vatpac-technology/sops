@@ -104,7 +104,7 @@ Runway 01L, 19L and 19R Departures will be assigned the **BN4** RADAR SID, with 
 | Cloud Base             | Visibility     | Approach                             |
 | -----------------------| -------------- | -------------------------------------|
 | >3000FT                | >5000M         | `EXP INDEP VISUAL APCH. DO NOT PASS THRU ASSIGNED RWY CL` |
-| Between 2000FT & 3000FT| >5000M         | `EXP INSTR APCH THEN INDEP VISUAL APCH WHEN VISUAL`|
+| Between 2000FT & 3000FT| >5000M         | `EXP INST APCH THEN INDEP VISUAL APCH WHEN VISUAL. DO NOT PASS THRU ASSIGNED RWY CL`|
 | Below 2000FT **or**    | <5000M         | `EXP INSTR APCH`                |
 
 #### 19 PROPS
