@@ -57,7 +57,7 @@ Although not used at YBBN normally, IVAs can be expected to be in use for WorldF
 Aircraft must report both **visual**, *and* **runway in sight** in order to be cleared for an IVA (Runway in Sight implies Visual).
 
 !!! tip
-    The [Label Data Annotations](../../../../../../client/annotations/#miscellaneous) for these are `V` and `R`, respectively
+    The [Label Data Annotations](../../../../../../client/annotations/#miscellaneous) for these are `V` for *Visual*, and `R` for *Runway in Sight*
 
 Ensure you familiarise yourself with the applicable [Separation Standards](../../../../../../separation-standards/parallelapps/#independent-visual-approaches)
 
