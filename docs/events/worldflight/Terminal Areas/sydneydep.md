@@ -26,12 +26,12 @@ The **dashed** green lines represent the suggested vectors for [SY3 departures](
 ## SY3 Departures
 Departures from all runways will be assigned the **SY3** SID with an assigned heading in accordance with the table below:
 
-| Runway | Assigned Heading |
-| ---------- | --- |
-|  16L  | H140 |
-|  16R  | ADES **NZAA**: H320<br>ADES **NZOH**: H170 |
-|  34L  | H170 |
-|  34R  | H070 |
+| Runway | ADES | Assigned Heading |
+| ---------- | --- | --- |
+|  16L  | All | H140 |
+|  16R  | NZAA<br>NZOH | H320<br>H170 |
+|  34L  | All | H170 |
+|  34R  | All | H070 |
 
 Aircraft for **NZAA** shall be subsequently processed with the following tracking instructions:
 
@@ -39,7 +39,7 @@ Aircraft for **NZAA** shall be subsequently processed with the following trackin
 | --- | --- |
 | 16L | **H140** until approx 30DME, then **DCT GEROS** |
 | 16R | **H320** until approx 15DME, then **H070** |
-| 34L | **H170** until approx 20DME, then **H070** |
+| 34L | **H170** until approx 20DME, then **DCT GEROS** |
 | 34R | **H070** |
 
 Aircraft for **NZOH** shall be subsequently processed with the following tracking instructions:
@@ -62,13 +62,7 @@ Aircraft shall be handed off to OCN assigned the **final instruction** in the ta
 ## Coordination
 ### SY ADC
 #### Auto Release
-Standard as per [SY TCU Local Instructions](../../../../../../terminal/sydney/#sy-adc), with the exception of:
-
-- Departure SID: **SY3** RADAR
-- 16L Standard Assignable Departure Heading: **H140**
-- 16R Standard Assignable Departure Heading: **H320** (for ADES NZAA), or **H170** (for ADES NZOH)
-- 34L Standard Assignable Departure Heading: **H170**
-- 34R Standard Assignable Departure Heading: **H070**
+Standard as per [YSSY Local Instructions](../../../../aerodromes/classc/Sydney/#auto-release), with the exception of auto-release being available for aircraft assigned the SY3 SID with the [Standard Assignable Heading](#sy3-assigned-heading)
 
 #### Departures Controller
 Departures Controller will be as per the following table:
@@ -88,3 +82,9 @@ Voiceless for all aircraft:
 - Assigned **H070**
 
 All other aircraft going to OCN CTA will be **Heads-up** Coordinated.
+
+!!! tip
+    Ensure assigned headings are [annotated appropriately](../../../../client/annotations/#route-and-positions) in the aircraft's label data field, to provide situational awareness to receiving controllers
+
+### WOL
+WOL will have *No Restrictions or Requirements* on Event traffic. Aircraft transiting WOL airspace can be handed off directly to OCN.

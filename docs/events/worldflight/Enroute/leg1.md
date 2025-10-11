@@ -37,6 +37,9 @@ Voiceless for all aircraft:
 
 All other aircraft going to OCN CTA will be **Heads-up** Coordinated.
 
+### OCN and WOL
+WOL will have *No Restrictions or Requirements* on Event traffic. Aircraft transiting WOL airspace can be handed off directly from SY TCU to OCN.
+
 ### OCN to TSN
 Voiceless for all aircraft tracking via **GEROS**.
 
