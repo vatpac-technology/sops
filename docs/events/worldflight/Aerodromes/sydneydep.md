@@ -24,14 +24,14 @@ Due to the limited capacity of NZAA, pilots must obtain a booking to fly from YS
 **SY-C_DEL** should identify any aircraft who have planned to NZAA without a booking and send the following **private message** via vatSys:
 
 !!! phraseology "Private Message"
-    *Event bookings are required for all flights to NZAA. You do not have a valid booking. Clearance not available until after time 0000Z. Amended destination NZOH is available without additional delay if you'd like to refile. Please file route: DCT CAWLY M636 SASRO GULUT DCT*
+    *Event bookings are required for all flights to NZAA. You do not have a valid booking. Clearance not available until after time 0000Z. Amended destination NZOH is available without additional delay if you'd like to refile. Please file route: DCT CAWLY M636 SASRO GULUT BINIT DCT*
 
 
 ### Flight Plan Compliance
 Ensure **all flight plans** are checked for compliance with the approved WF Routes:
 
 ADES **NZAA**: `DCT EVONN L521 LUNBI DCT`  
-ADES **NZOH**: `DCT CAWLY M636 SASRO GULUT DCT`
+ADES **NZOH**: `DCT CAWLY M636 SASRO GULUT BINIT DCT`
 
 **OzStrips** will flag any *non-compliant* WF route.
 
