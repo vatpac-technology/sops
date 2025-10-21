@@ -39,7 +39,7 @@ The list of callsigns is below:
 | NWA179 | B743 | Jurrasic Jets |
 | QFA25 | B744 | WorldFlight AU |
 | UAL1120 | B738 | Virginia |
-| *TBA* | B738 | Ascent Aviation |
+| RYR7MA | B738 | Ascent Aviation |
 
 ## Route
 <figure markdown>
