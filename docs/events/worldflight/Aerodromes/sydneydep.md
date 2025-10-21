@@ -19,7 +19,14 @@ Due to the extreme workload expected for all positions, the use of the OzStrips 
 
 ## Airways Clearance Delivery (ACD)
 ### Route Restrictions
-Due to the limited capacity of NZAA, pilots must obtain a booking to fly from YSSY to NZAA. Any aircraft without a booking **will not** be issued with a clearance to NZAA and should instead disconnect and refile a flight plan to NZOH (the designated event alternate aerodrome).
+Due to the limited capacity of NZAA, pilots must obtain a booking to fly from YSSY to NZAA. Any aircraft without a booking **will not** be issued with a clearance to NZAA and should instead disconnect and refile a flight plan to **NZOH** (the designated event alternate aerodrome).
+
+OzStrips will flag any aircraft filed to NZAA without a valid booking.
+
+<figure markdown>
+![Aircraft without Valid Slot Booking](../img/ozstrips-noslot.png){ width="500" }
+<figcaption>Aircraft without Valid Slot Booking</figcaption>
+</figure>
 
 **SY-C_DEL** should identify any aircraft who have planned to NZAA without a booking and send the following **private message** via vatSys:
 
