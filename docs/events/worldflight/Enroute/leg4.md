@@ -40,7 +40,7 @@ All aircraft shall be issued a STAR in accordance with the table below:
 
 ## Coordination
 ### WAAF CTR to ARA
-As per [standard ARA coordination procedures](../../../../../../enroute/Brisbane Centre/ISA/#international-waaf), all aircraft should be **Heads-up Coordinated** by WAAF CTR prior to **30 mins** from boundary.
+As per [standard ISA coordination procedures](../../../../../../enroute/Brisbane Centre/ISA/#international-waaf), all aircraft should be **Heads-up Coordinated** by WAAF CTR prior to **30 mins** from boundary.
 
 !!! tip
     It may be prudent (especially if they are using vatSys) to set up a Voiceless Coordination Agreement with WAAF CTR, in order to reduce workload for both controllers.

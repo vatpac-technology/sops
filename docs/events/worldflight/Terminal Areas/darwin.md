@@ -44,8 +44,8 @@ Available for aircraft assigned `A050`, and:
 | 11 | DN7 | H030 |
 | 29 | DN7 | H130 |
 
-### DAE to TRS
-An airspace release from TRT will allow TRS to take ownership of all airspace from the southeastern boundary, north to the outbound leg route. All event aircraft shall be handed to TRS, **not TRT**.
+### DAE to ARA
+An airspace release from TRT will allow ARA to take ownership of all airspace from the southeastern boundary, north to the outbound leg route. All event aircraft shall be handed to ARA, **not TRT**.
 
 <figure markdown>
 ![TRT Airspace Release](../img/TRTRelease.png){ width="500" }
@@ -57,7 +57,7 @@ Voiceless for all aircraft:
 - Assigned the lower of `F180` or the `RFL`; and  
 - Tracking via **TOREX**
 
-All other aircraft going to TRS CTA will be **Heads-up** Coordinated.
+All other aircraft going to ARA CTA will be **Heads-up** Coordinated.
 
 ### TRT to DN TCU
 Standard as per [DN TCU Local Instructions](../../../../../../terminal/darwin/#arrivals)
