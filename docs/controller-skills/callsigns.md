@@ -21,7 +21,7 @@ Group form means pronouncing the digits in pairs (or "groups") instead of saying
 ## Airlines
 Unlike in the real world — where only a select number of airlines operate services to Australia — controllers may encounter almost any airline or callsign, including long-defunct or fictional airlines.
 
-Many pilots flying obscure callsigns will notate their callsign in their flight plan remarks (for example, *"RTF/CALLSIGN (Ccallsign)"* ). For any callsign that immediately obvious, controllers should check the remarks for guidance and, if neccessary, put the callsign in the remarks to assist future controllers.
+Many pilots flying obscure callsigns will notate their callsign in their flight plan remarks (for example, *"RTF/CALLSIGN (callsign)"* ). For any callsign that immediately obvious, controllers should check the remarks for guidance and, if neccessary, put the callsign in the remarks to assist future controllers.
 
 ## Common Callsigns in Australia
 Some of the most common callsigns used in Australia are listed below. For common callsigns used in Pacific areas, refer to the specific countries' [local instructions](../../pacific).
