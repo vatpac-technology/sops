@@ -23,6 +23,11 @@ The dashed green line represents the recommended vectors for departing aircraft.
 Departures from Runway 29 will call DAE on an assigned heading of **H130**. These aircraft should be climbed to the south and then cleared DCT **TOREX** when clear of the arrival corridor.
 
 ## Flow
+Ensure that event traffic gets priority over non-event traffic.
+
+!!! warning "Important"
+    It is likely that during the event, there will be **no opportunity** for non-event traffic to be sequenced for a landing at YBBN. Flow should determine whether an approach slot is available and inform the appropriate enroute controller if a diversion to another aerodrome is necessary.
+    
 ### Speeds
 TRT will instruct all arrivals to cross **ANUPA** at **250 knots**, then *published STAR speeds*.
 

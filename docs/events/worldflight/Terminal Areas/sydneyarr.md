@@ -96,6 +96,9 @@ In order to balance workload effectively, it is recommended to distribute respon
 ## Flow
 SFL will formulate the sequence in accordance with the [SY TCU Flow Table](../../../../../../terminal/sydney/#flow). Ensure that event traffic gets priority over non-event traffic.
 
+!!! warning "Important"
+    It is likely that during the event, there will be **no opportunity** for non-event traffic to be sequenced for a landing at YBBN. Flow should determine whether an approach slot is available and inform the appropriate enroute controller if a diversion to another aerodrome is necessary.
+
 SFL will construct the sequence via the [Arrivals List Window](../../../../../../controller-skills/sequencing/#arrivals-list).
 
 Appropriate annotations for the Arrivals List Window can be found [here](../../../../../../client/annotations/#sequencingflow).

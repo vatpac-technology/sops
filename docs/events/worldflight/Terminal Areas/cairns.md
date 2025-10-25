@@ -21,6 +21,11 @@ Event aircraft will be cleared the **CODIE1A** STAR, **OVLET** transition. They 
 Event aircraft will be cleared the **HENDO2A** STAR, **OVLET** transition. They will be processed via the LOC approach.
 
 ## Flow
+Ensure that event traffic gets priority over non-event traffic.
+
+!!! warning "Important"
+    It is likely that during the event, there will be **no opportunity** for non-event traffic to be sequenced for a landing at YBBN. Flow should determine whether an approach slot is available and inform the appropriate enroute controller if a diversion to another aerodrome is necessary.
+    
 ### Speeds
 KEN will instruct all arrivals to cross **OVLET** at **250 knots**, then *published STAR speeds*.
 
