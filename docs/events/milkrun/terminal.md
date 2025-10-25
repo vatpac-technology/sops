@@ -40,7 +40,7 @@ The *recommended* division of duties for **3** controllers is:
 Depending on the Runway Mode, additional portions of airspace may be released between controllers as required to help facilitate the orderly flow of traffic. For example, during the **16 PROPS** Mode, it would be beneficial for SDN to release this portion of airspace to the Approach/Director controller, to facilitate aircraft positioning for a final for Runway 16L/R.
 
 <figure markdown>
-![SDN West Release](../img/16sdnrls.png){ width="700" }
+![SDN West Release](./img/16sdnrls.png){ width="700" }
   <figcaption>SDN West Release</figcaption>
 </figure>
 

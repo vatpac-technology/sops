@@ -48,7 +48,7 @@ Upon readback of an airways clearance or PDC, instruct aircraft to contact Adela
     The [vatSys Events Plugin](https://github.com/badvectors/EventsPlugin){target=new} will also highlight WF Teams, as shown below. Click on the link to install it, or alternatively, use the [Plugin Manager](https://github.com/badvectors/PluginManager){target=new}
 
     <figure markdown>
-    ![WF Team Highlight with Events Plugin](../../img/wfteam.png){ width="400" }
+    ![WF Team Highlight with Events Plugin](../img/wfteam.png){ width="400" }
     <figcaption>WF Team Highlight with Events Plugin</figcaption>
     </figure>
 
@@ -57,12 +57,12 @@ By default, vatSys strips will be set to show in *Alphabetical* Order.
 This must be changed to be ordered by **Time**, as shown below.
 
 <figure markdown>
-![Strips Menu](../../img/strip1.png){ width="500" }
+![Strips Menu](../img/strip1.png){ width="500" }
     <figcaption>Strips Menu</figcaption>
 </figure>
 
 <figure markdown>
-![Change to Time](../../img/strip2.png){ width="500" }
+![Change to Time](../img/strip2.png){ width="500" }
     <figcaption>Change to Time</figcaption>
 </figure>
 
@@ -91,7 +91,7 @@ Work through the OzStrips Preactive bay from *bottom to top* when sending PDCs.
 ## Surface Movement Control (SMC)
 ### Areas of Responsibility
 <figure markdown>
-![YPAD SMC Areas of Responsibility](../../img/ypadsmcown.png){ width="700" }
+![YPAD SMC Areas of Responsibility](../img/ypadsmcown.png){ width="700" }
   <figcaption>YPAD SMC Areas of Responsibility</figcaption>
 </figure>
 
@@ -122,7 +122,7 @@ YPAD does not have any gates suitable for A388 parking. A388s must be instructed
 During **all** Runway Modes, aircraft shall be instructed to taxi in the following area in a **counter-clockwise** pattern. Aircraft shall be instructed to **pushback** facing **South-West** (Tail Right).
 
 <figure markdown>
-![Eastern Terminal Taxi Routes](../../img/smcntaxi.png){ width="700" }
+![Eastern Terminal Taxi Routes](../img/smcntaxi.png){ width="700" }
   <figcaption>Eastern Terminal Taxi Routes</figcaption>
 </figure>
 
@@ -130,7 +130,7 @@ During **all** Runway Modes, aircraft shall be instructed to taxi in the followi
 Due to limitations in the taxiway layout at YPAD, some aircraft will need to be taxied via Grass Routes, as shown below.
 
 <figure markdown>
-![YPAD Grass Taxi Routes](../../img/ypadsmcbase.png){ width="700" }
+![YPAD Grass Taxi Routes](../img/ypadsmcbase.png){ width="700" }
   <figcaption>YPAD Grass Taxi Routes</figcaption>
 </figure>
 
@@ -143,7 +143,7 @@ Runway 30 Departures will taxi via *Eastern Grass*.
 Runway 23 Departures *(Operational Requirement)* will queue to the South West on **T**, then North East on **A**.
 
 <figure markdown>
-![23A30AD SMC Diagram](../../img/23A30DSMC.png){ width="700" }
+![23A30AD SMC Diagram](../img/23A30DSMC.png){ width="700" }
   <figcaption>23A30AD SMC Diagram</figcaption>
 </figure>
 
@@ -154,7 +154,7 @@ Runway 30 Departures will taxi via *Eastern Grass*.
 Runway 05 Departures *(Operational Requirement)* will taxi via *Eastern Grass* and *Southern Grass*.
 
 <figure markdown>
-![05A30AD SMC Diagram](../../img/05A30DSMC.png){ width="700" }
+![05A30AD SMC Diagram](../img/05A30DSMC.png){ width="700" }
   <figcaption>05A30AD SMC Diagram</figcaption>
 </figure>
 
@@ -166,7 +166,7 @@ Runway 05 Departures *(Operational Requirement)* from the Eastern Terminal will 
 Runway 05 Departures *(Operational Requirement)* from the Western Terminal will taxi via *Western Grass* and **F**.  
 
 <figure markdown>
-![05A12D SMC Diagram](../../img/05A12DSMC.png){ width="700" }
+![05A12D SMC Diagram](../img/05A12DSMC.png){ width="700" }
   <figcaption>05A12D SMC Diagram</figcaption>
 </figure>
 
@@ -178,7 +178,7 @@ Runway 23 Departures *(Operational Requirement)* will queue to the South West on
 Runway 23 Departures *(Operational Requirement)* from the Western Terminal will taxi via *Western Grass* and **F3**, **F4**, Cross 23, *Southern Grass*, *Eastern Grass*, to join queue at **B2**.  
 
 <figure markdown>
-![23A12D SMC Diagram](../../img/23A12DSMC.png){ width="700" }
+![23A12D SMC Diagram](../img/23A12DSMC.png){ width="700" }
   <figcaption>23A12D SMC Diagram</figcaption>
 </figure>
 
@@ -213,7 +213,7 @@ Use two BRLs anchored on the runway intersection point to monitor distances and 
 Aim for a minimum of **2nm** separation at the instersection.
 
 <figure markdown>
-![Dual BRL at Intersection](../../img/ypaddualbrl.png){ width="500" }
+![Dual BRL at Intersection](../img/ypaddualbrl.png){ width="500" }
   <figcaption>Dual BRL at Intersection</figcaption>
 </figure>
 

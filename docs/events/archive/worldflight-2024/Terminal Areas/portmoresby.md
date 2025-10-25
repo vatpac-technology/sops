@@ -21,7 +21,7 @@ The **green** line represents the SID to **NUPTA**.
 ### 14
 
 <figure markdown>
-![Runway 14 Airspace Division](../../img/AYPY TCU 14.png){ width="700" }
+![Runway 14 Airspace Division](../img/AYPY TCU 14.png){ width="700" }
   <figcaption>Runway 14 Airspace Division</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ All arrivals on Runway 14 will be cleared for the **ILS** Approach.
 ### 32
 
 <figure markdown>
-![Runway 32 Airspace Division](../../img/AYPY TCU 32.png){ width="700" }
+![Runway 32 Airspace Division](../img/AYPY TCU 32.png){ width="700" }
   <figcaption>Runway 32 Airspace Division</figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ All arrivals on Runway 32 will be cleared for the **ILS** Approach.
     The *biggest risk* to terrain separation is vectoring **Runway 14 Arrivals** (Potential conflict areas are shaded in **Red** below). Avoid vectoring to the *East* of the Extended Centreline, and do not assign below `A060` until aircraft are within **30nm** of the field.
 
 <figure markdown>
-![AYPY RTCC](../../img/aypyrtccshade.png){ width="700" }
+![AYPY RTCC](../img/aypyrtccshade.png){ width="700" }
   <figcaption>AYPY RTCC</figcaption>
 </figure>
 

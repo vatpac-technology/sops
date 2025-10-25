@@ -19,7 +19,7 @@ The **red** line represents the STAR to the arrival runway.
 The **solid green** line represents the SID to **AVNEX**.  
 
 <figure markdown>
-![24A21D Airspace Division](../../img/2124.png){ width="700" }
+![24A21D Airspace Division](../img/2124.png){ width="700" }
   <figcaption>24A21D Airspace Division</figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ The **solid green** line represents the SID to **AVNEX**.
 The **dashed green** line represents the *suggested vectors* for 06 departures.
 
 <figure markdown>
-![03A06D Airspace Division](../../img/0306.png){ width="700" }
+![03A06D Airspace Division](../img/0306.png){ width="700" }
   <figcaption>03A06D Airspace Division</figcaption>
 </figure>
 
@@ -96,7 +96,7 @@ Standard as per [PH TCU Local Instructions](../../../../../../terminal/perth/#ar
 - During the [24A21D Runway Mode](#24a21d), arrivals assigned **Runway 21** may be handed off to PHA on a **Heading** *north* of the Runway 24 arrivals, without coordination.
 
 <figure markdown>
-![PIY to PHA 24A21D](../../img/PIY.png){ width="700" }
+![PIY to PHA 24A21D](../img/PIY.png){ width="700" }
   <figcaption>PIY to PHA 24A21D</figcaption>
 </figure>
 

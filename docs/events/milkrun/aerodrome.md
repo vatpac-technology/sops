@@ -23,12 +23,12 @@ Specific procedures apply to the use of [Pushback Requests on ACD](../../aerodro
 When giving taxi clearance, the SMC controller shall consider holding aircraft short of taxiways when in a long queue for a holding point, so that blockages are not caused on crossing taxiways. The Hotspots to pay the most attention to are circled below
 
 <figure markdown>
-![YMML Taxiway Hotspots](../img/ymmlhotspots.png){ width="700" }
+![YMML Taxiway Hotspots](./img/ymmlhotspots.png){ width="700" }
   <figcaption>YMML Taxiway Hotspots</figcaption>
 </figure>
 
 <figure markdown>
-![YSSY Taxiway Hotspots](../img/yssyhotspots.png){ width="700" }
+![YSSY Taxiway Hotspots](./img/yssyhotspots.png){ width="700" }
   <figcaption>YSSY Taxiway Hotspots</figcaption>
 </figure>
 

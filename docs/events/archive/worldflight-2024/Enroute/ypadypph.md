@@ -85,7 +85,7 @@ Standard as per [PIY Local Instructions](../../../../../../enroute/Melbourne Cen
 - During the [24A21D Runway Mode](#24a21d), arrivals assigned **Runway 21** may be handed off to PHA on a **Heading** *north* of the Runway 24 arrivals, without coordination.
 
 <figure markdown>
-![PIY to PHA 24A21D](../../img/PIY.png){ width="700" }
+![PIY to PHA 24A21D](../img/PIY.png){ width="700" }
   <figcaption>PIY to PHA 24A21D</figcaption>
 </figure>
 
