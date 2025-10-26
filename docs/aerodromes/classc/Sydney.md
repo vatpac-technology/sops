@@ -448,13 +448,15 @@ The Operational Information field should be updated based on the runway mode and
 
 | Condition | OPR INFO Field |
 | ---------- | -------------- |
-| `EXP INSTR APCH`, or<br>`EXP INSTR APCH THEN INDEP VISUAL APCH WHEN VISUAL` | `INDEP PARL DEPS IN PROG` |
 | `EXP INDEP VISUAL APCH` | `INDEP PARL APPROACHES AND DEPS IN PROG` |
+| `EXP INSTR APCH`, or<br>`EXP INSTR APCH THEN INDEP VISUAL APCH WHEN VISUAL` | `INDEP PARL DEPS IN PROG` |
 | SODROPS | `SIMUL OPP DIR PARL RWY OPS IN PROG` |
 | Curfew Mode Operations | AEST: `CURFEW RWY NOMINATION. CURFEW IN OPERATION UNTIL TIME 2000.` <br>AEDT: `CURFEW RWY NOMINATION. CURFEW IN OPERATION UNTIL TIME 1900.` |
 
 !!! Note
     `INDEP PARL DEPS IN PROG` permits independent departures (two simultaneous departures on parallel runways) but NOT independent approaches (two simultaneous arrivals on parallel runways without perscribed separation minima).  
+	
+#### Coordinator
 
 When [Coordinator](#sydney-coordinator) is online, the ATIS OPR INFO shall include `WHEN READY FOR PUSH BACK OR TAXI CTC COORDINATOR 127.6`.
 

@@ -35,6 +35,17 @@ See also: [AV ADC Offline](#av-adc-offline).
 !!! tip
     When AV ADC is not online, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
 
+### Avalon Approach (MAV)
+MAV is responsible for the Class D and E airspace in the AV CTR, `SFC`-`A045`.  
+They are responsible for the same portion of airspace when it is [reclassified](#av-ctr) due to AV ADC being offline.
+
+MAV extends south outside of **30nm ML**, in to HUO(WON) airspace. The Southern portion of this extension (shown below) is Class E `A015`-`A045`, and HUO(WON) is responsible for the airspace **above and below** it.
+
+<figure markdown>
+![MAV Airspace Side Profile](img/mavairspace1.png){ width="700" }
+  <figcaption>MAV Airspace Side Profile</figcaption>
+</figure>
+
 ### Airspace Division
 The divisions of the airspace between **MAE**, **MDN**, **MDS**, and **MAV** change based on the Runway Mode.
 
