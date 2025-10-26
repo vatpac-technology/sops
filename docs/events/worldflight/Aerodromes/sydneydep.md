@@ -17,6 +17,12 @@ An additional Non-Standard position for Sydney ACD will be used
 ## Workload Management
 Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../client/towerstrips/#recommended-workflow). 
 
+!!! tip
+    The following OzStrips [keyboard shortcuts](../../../client/towerstrips.md#keyboard-shortcuts) may assist controllers managing busy frequencies:
+
+    - `T`: Selects the strip of the last aircraft to transmit on frequency  
+    - `W`: Highlight the strip of the last aircraft to transmit on frequency
+
 ## Airways Clearance Delivery (ACD)
 ### Route Restrictions
 Due to the limited capacity of NZAA, pilots must obtain a booking to fly from YSSY to NZAA. Any aircraft without a booking **will not** be issued with a clearance to NZAA and should instead disconnect and refile a flight plan to **NZOH** (the designated event alternate aerodrome).

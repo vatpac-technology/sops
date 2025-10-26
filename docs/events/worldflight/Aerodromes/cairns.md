@@ -12,6 +12,12 @@ Single runway operations on either **runway 15 or 33** will be in use for all ai
 ## Workload Management
 Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../client/towerstrips/#recommended-workflow).
 
+!!! tip
+    The following OzStrips [keyboard shortcuts](../../../client/towerstrips.md#keyboard-shortcuts) may assist controllers managing busy frequencies:
+
+    - `T`: Selects the strip of the last aircraft to transmit on frequency  
+    - `W`: Highlight the strip of the last aircraft to transmit on frequency
+
 ## Airways Clearance Delivery (ACD)
 ### Flight Plan Compliance
 Ensure **all flight plans** are checked for compliance with the approved WF Route:

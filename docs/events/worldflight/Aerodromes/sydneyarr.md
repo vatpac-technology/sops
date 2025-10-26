@@ -11,6 +11,15 @@ Due to the nature of the event, a non-standard maximum crosswind limitation has 
 
 Runway mode changes will be extremely difficult, so ensure an appropriate mode is chosen with consideration to the forecast wind values over the course of the event.
 
+## Workload Management
+Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../client/towerstrips/#recommended-workflow). 
+
+!!! tip
+    The following OzStrips [keyboard shortcuts](../../../client/towerstrips.md#keyboard-shortcuts) may assist controllers managing busy frequencies:
+
+    - `T`: Selects the strip of the last aircraft to transmit on frequency  
+    - `W`: Highlight the strip of the last aircraft to transmit on frequency
+
 ## Airways Clearance Delivery (ACD)
 The ACD role will perform as normal. Expect a handful of departures who want to maximise the ATC coverage. Normal departure procedures apply for all aircraft.
 
