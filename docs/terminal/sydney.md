@@ -129,8 +129,12 @@ If a conflict is imminent, SRI may pass safety alerts to VFR aircraft, even if p
 ##### Western Sydney Airport
 The under-construction Western Sydney Airport is located in Badgerys Creek, north north-west of BRY. The opening of the new aerodrome will entail significant changes to the airspace arrangement across the TCU. Until then, the airport remains uncontrolled and is OCTA. There are no instrument procedures or navigational aids established to facilitate its use.
 
-Some pilots may choose to simulate operations to/from the airport, despite these limitations. Aircraft operating in and out of the site are processed in the same way as any other flight into an uncontrolled ALA OCTA.
+<figure markdown>
+![Western Sydney Airport location (approx.)](img/sytcu_wsiappx.png){ width="300" }
+  <figcaption>Western Sydney Airport location *(approx.)*</figcaption>
+</figure>
 
+Some pilots may choose to simulate operations to/from the airport, despite these limitations. Aircraft operating in and out of the site are processed in the same way as any other flight into an uncontrolled ALA OCTA.
 
 ## Separation
 ### Parallel Runway Operations

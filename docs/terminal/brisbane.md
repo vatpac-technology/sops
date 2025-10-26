@@ -369,19 +369,19 @@ Aircraft that have been cleared the **BN (RADAR) SID** will receive an assigned 
     If strong winds are present at altitude, ADC/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
 
 ### BN TCU Internal
-#### Arrivals
-Voiceless Coordination is in place for arrivals transiting between BN TCU positions, provided the aircraft is:
-
-- ADES **YBBN** or **YBCG**; and
-- Assigned a STAR; and
-- Descending via STAR to `A080`
-
 #### Departures
 Voiceless Coordination is in place for departures transiting between BN TCU positions, provided the aircraft is:
 
 - ADEP **YBBN** or **YBCG**; and
 - Assigned a SID; and
 - Climbing via SID to `A100` or higher
+
+#### Arrivals
+Voiceless Coordination is in place for arrivals transiting between BN TCU positions, provided the aircraft is:
+
+- ADES **YBBN** or **YBCG**; and
+- Assigned a STAR; and
+- Descending via STAR to `A080`
 
 #### Others (Heads-up)
 All other aircraft not meeting the Departures/Arrivals criteria that transit between internal BN TCU boundaries must be heads-up coordinated.
