@@ -125,8 +125,8 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 
 | Priority - Mode | Arrivals  | Departures |
 | ----------------| --------- | ---------- |
-| =1 - 35 PROPS | 17L (EAST) & 17R (WEST) | 17L (EAST) & 17R (WEST) |
-| =1 - 28 PROPS | 35L (WEST) & 35R (EAST) | 35L (WEST) & 35R (EAST) |
+| =1 - 17 PROPS | 17L (EAST) & 17R (WEST) | 17L (EAST) & 17R (WEST) |
+| =1 - 35 PROPS | 35L (WEST) & 35R (EAST) | 35L (WEST) & 35R (EAST) |
 | =2 - 13 PROPS | 13L (EAST) & 13R (WEST) | 13L (EAST) & 13R (WEST) |
 | =2 - 31 PROPS | 31L (WEST) & 31R (EAST) | 31L (WEST) & 31R (EAST) |
 
