@@ -38,7 +38,6 @@ The list of callsigns is below:
 | NPT11W | B738 | Velocity UK |
 | NWA179 | B743 | Jurrasic Jets |
 | QFA25 | B744 | WorldFlight AU |
-| UAL1120 | B738 | Virginia |
 | RYR7MA | B738 | Ascent Aviation |
 
 ## Route
