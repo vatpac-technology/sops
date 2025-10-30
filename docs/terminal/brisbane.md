@@ -35,9 +35,6 @@ See also: [CG ADC Offline](#cg-adc-offline).
 
 !!! tip
     If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
-  
-### Airspace Structural Arrangements
-Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, **"North"**/**"West"** positions shall assume the airspace of corresponding **"South"**/**"East"** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
 
 ### Airspace Division
 The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **BAC** change based on the Runway Mode.
@@ -62,6 +59,9 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **
 	![SODPROPS TCU Structure](img/bnsodprops.png){ width="700" }
 	  <figcaption>SODPROPS TCU Structure</figcaption>
 	</figure>
+
+#### Airspace Structural Arrangements
+Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, **"North"**/**"West"** positions shall assume the airspace of corresponding **"South"**/**"East"** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
 
 ## Separation
 ### Parallel Runway Operations
@@ -369,19 +369,19 @@ Aircraft that have been cleared the **BN (RADAR) SID** will receive an assigned 
     If strong winds are present at altitude, ADC/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
 
 ### BN TCU Internal
-#### Arrivals
-Voiceless Coordination is in place for arrivals transiting between BN TCU positions, provided the aircraft is:
-
-- ADES **YBBN** or **YBCG**; and
-- Assigned a STAR; and
-- Descending via STAR to `A080`
-
 #### Departures
 Voiceless Coordination is in place for departures transiting between BN TCU positions, provided the aircraft is:
 
 - ADEP **YBBN** or **YBCG**; and
 - Assigned a SID; and
 - Climbing via SID to `A100` or higher
+
+#### Arrivals
+Voiceless Coordination is in place for arrivals transiting between BN TCU positions, provided the aircraft is:
+
+- ADES **YBBN** or **YBCG**; and
+- Assigned a STAR; and
+- Descending via STAR to `A080`
 
 #### Others (Heads-up)
 All other aircraft not meeting the Departures/Arrivals criteria that transit between internal BN TCU boundaries must be heads-up coordinated.
