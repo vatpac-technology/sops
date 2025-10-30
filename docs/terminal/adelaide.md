@@ -25,12 +25,12 @@ PF CTR reverts to Class G when **PF ADC** is offline, and is administered by the
 
 See also: [PF ADC Offline](#pf-adc-offline).
 
-#### EDN CTR
-EDN CTR reverts to Class G when **EDN ADC** is offline, and is administered by the relevant AD TCU controller.  
+#### ED CTR
+ED CTR reverts to Class G when **ED ADC** is offline, and is administered by the relevant AD TCU controller.  
 
 ### Airspace Division
 !!! note
-    The following diagram does not include non AD TCU areas of responsibility such as PF CTR or EDN CTR
+    The following diagram does not include non AD TCU areas of responsibility such as PF CTR or ED CTR
 
 <figure markdown>
 ![AD TCU Structure](img/adtcu_annotated.png){ width="700" }
