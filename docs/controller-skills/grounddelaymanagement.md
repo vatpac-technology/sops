@@ -83,6 +83,8 @@ When CDM is enabled at an aerodrome, pilots and controllers can view the [Depart
     <figcaption>The ladder visible on the CDM Website.</figcaption>
 </figure>
 
+Changes to the departure rate may be made by logging in to the website. It is also possible to set destination-specific departure rates, allowing aircraft to avoid departure delays when planned to quieter aerodromes during busy events.
+
 ## Pushback Requests on ACD
 During busy events, such as [Milk Run Monday](../../events/milkrun/), the **SMC** controller may end up with a much higher workload than the **ACD** controller. To mitigate this, some airports have local SOPs that allow for pushback requests to be done on **ACD** frequency, to balance the workload. 
 
