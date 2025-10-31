@@ -1,62 +1,56 @@
 ---
-  title: 4. Darwin (YPDN)
+  title: 2. Darwin (YPDN)
 ---
 
 --8<-- "includes/abbreviations.md"
 
 ## Runway Modes
-Single runway operations on either **runway 11 or 29** will be in use for all aircraft. Runway 18/36 will not be available for arrivals and departures, due to its use as a taxiway for some aircraft.
+Single runway operations on either **runway 11 or 29** will be in use for all aircraft.
+
+**Runway 11** will be the preferred Runway Mode.
+
+Runway 18/36 will not be available for arrivals and departures, due to its use as a taxiway for some aircraft.
 
 ## Workload Management
 Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../client/towerstrips/#recommended-workflow).
+
+!!! tip
+    The following OzStrips [keyboard shortcuts](../../../client/towerstrips.md#keyboard-shortcuts) may assist controllers managing busy frequencies:
+
+    - `T`: Selects the strip of the last aircraft to transmit on frequency  
+    - `W`: Highlight the strip of the last aircraft to transmit on frequency
 
 ## Airways Clearance Delivery (ACD)
 ### Flight Plan Compliance
 Ensure **all flight plans** are checked for compliance with the approved WF Route:
 
-`DCT DN Y25 RUPEG DCT IGOPO B598 ESKIM DCT GUMBU DCT PY DCT`
+`DCT DN DCT TOREX DCT TMK W68 JPA DCT`
 
 **OzStrips** will flag any *non-compliant* WF route.
 
 If an aircraft has filed an *incorrect* route and you need to give an amended clearance, this amendment must be specified by **individual private message**, prior to the PDC.
 
 !!! phraseology
-    **DN ACD:** *"AMENDED ROUTE CLEARANCE. CLEARED TO AYPY VIA RUPEG DCT IGOPO B598 ESKIM DCT GUMBU DCT PY DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
+    **DN ACD:** *"AMENDED ROUTE CLEARANCE. CLEARED TO WAJJ VIA DN DCT TOREX DCT TMK W68 JPA DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
 
 ### WorldFlight Teams
-[WorldFlight Teams](../../../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
-
-!!! tip
-    The [vatSys Events Plugin](https://github.com/badvectors/EventsPlugin){target=new} will also highlight WF Teams, as shown below. Click on the link to install it, or alternatively, use the [Plugin Manager](https://github.com/badvectors/PluginManager){target=new}
-
-    <figure markdown>
-    ![WF Team Highlight with Events Plugin](../../img/wfteam.png){ width="400" }
-    <figcaption>WF Team Highlight with Events Plugin</figcaption>
-    </figure>
-
-### Strip Setup
-By default, vatSys strips will be set to show in *Alphabetical* Order.  
-This must be changed to be ordered by **Time**, as shown below.
+[WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by OzStrips and should receive priority at all stages of flight.
 
 <figure markdown>
-![Strips Menu](../../img/strip1.png){ width="500" }
-    <figcaption>Strips Menu</figcaption>
-</figure>
-
-<figure markdown>
-![Change to Time](../../img/strip2.png){ width="500" }
-    <figcaption>Change to Time</figcaption>
+![WF Team Highlight in OzStrips](../img/wfteamozstrips.png){ width="500" }
+<figcaption>WF Team Highlight in OzStrips</figcaption>
 </figure>
 
 ### SID Selection
-Runway 11 Departures shall be issued the **RUPEG2** SID.  
-Runway 29 Departures shall be issued the **DN7** RADAR SID.  
+All departures shall be issued the **DN7** RADAR SID.
 
 ### Departure Frequency
-Regardless of Runway in use, Departure frequency shall be DAE (**125.2**).
+Regardless of runway in use, departure frequency shall be DAE (**125.2**).
 
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect, prioritising those who connected first. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
+
+The [PDC Indicator](../../../client/towerstrips.md#strips) will be displayed on a strip when a PDC has been sent to that pilot.
 
 !!! tip
     OzStrips displays strips in the Preactive bay ordered by connection time. Aircraft who connected first are shown down the bottom of the bay.
@@ -74,17 +68,15 @@ All aerodrome controllers must be familiar with the VATPAC [recommended workflow
 
 Ensure the Queue function is used to actively to keep track of the order of requests.
 
-A Custom `PDC SENT` bar should be created in the Preactive window, to keep track of who has and hasn't received a PDC.
-
 ### A388 Parking
-There is only 1 stand suitable for A388 parking (refer to [YPDN Apron Chart](https://www.airservicesaustralia.com/aip/current/dap/PDNAP01-180_05SEP2024.pdf){target=new}). If this is occupied, A388 aircraft must be instructed to park off-apron on grass.
+There is only 1 stand suitable for A388 parking (refer to [YPDN Apron Chart](https://www.airservicesaustralia.com/aip/current/dap/PDNAP01-180_04SEP2025.pdf){target=new}). If this is occupied, A388 aircraft must be instructed to park off-apron on grass.
 
 ### Taxi Routes
 #### Grass Taxiing
 Due to the taxiway layout at YPDN, some aircraft may need to taxi via temporary grass taxiways, as shown below:
 
 <figure markdown>
-![YPDN Grass Taxi Routes](../../img/ypdngrass.png){ width="700" }
+![YPDN Grass Taxi Routes](../img/ypdngrass.png){ width="700" }
   <figcaption>YPDN Grass Taxi Routes</figcaption>
 </figure>
 
@@ -103,7 +95,12 @@ Aircraft vacating runway 29 to the right (north) should be instructed to taxi vi
 Ensure that a minimum of **90 second** spacing is applied between subsequent departures from the same runway.
 
 ### DN7 Assigned Heading
-Departures from Runway 29 will be assigned the **DN7** SID with an assigned heading of **H130**.
+Departures shall be assigned a heading in accordance with the table below:
+
+| Departure Runway | Assigned Heading |
+| --- | --- |
+| 11 | H030 |
+| 29 | H130 |
 
 ### Wake Turbulence Separation
 Due to the tight sequence, there are times that [Wake Turbulence Separation](../../../../../../separation-standards/waketurb/#runways) cannot practically be applied.
@@ -131,7 +128,7 @@ Aircraft intended for the northern aprons should be instructed to vacate at eith
 
 ## ATIS
 The ATIS OPR INFO shall include:  
-`EXP CLR VIA PDC`
+`EXP CLR VIA PDC, EXP DEPARTURE DELAYS DUE EVENT`
 
 ## Coordination
 ### DN TCU
@@ -140,9 +137,9 @@ Available for aircraft assigned `F180`, and:
 
 | Runway | SID | Assigned Heading |
 | ---------- | --- | --- |
-| 11  | RUPEG2 | - |
-| 29  | DN7 | H130 |
+| 11 | DN7 | H030 |
+| 29 | DN7 | H130 |
 
 #### Departures Controller
 All departures shall be handed off to DAE.  
-DAW has *No Restrictions or Requirements* on Runway 29 Departures.
+A non-standard airspace split will be in use in the Runway 29 mode.

@@ -134,6 +134,8 @@ The following keyboard shortcuts exist to improve workflow efficiency.
 | `Space` | Queue/unqueue selected strip |
 | `Backspace` | Inhibit selected strip |
 | `F` | Flip (cycle between Departure, Arrival & Local states) selected strip |
+| `T` | Select the strip of the last aircraft to transmit on frequency |
+| `W` | Highlight the strip of the last aircraft to transmit on frequency |
 | `X` | Toggle crossing highlight to selected strip |
 | `Alt + X` | Toggle RUNWAY CROSSING bar in Runway Bay |
 | `[` / `]` | Change aerodrome |
