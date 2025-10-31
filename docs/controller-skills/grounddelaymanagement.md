@@ -7,7 +7,83 @@ title: Ground Delay Management
 ## Overview
 Managing the flow of traffic is not just limited to [sequencing](sequencing.md) in the air! Flow Management techniques can be applied to aircraft on the ground to minimise delays in the air and reduce congestion.
 
-In real life, controllers rely on Airport Collaborative Decision Making (A-CDM) to coordinate and plan aircraft movements across the country, and there are multiple dedicated flow controllers and operations analysts to ensure efficiency on a daily basis. On VATSIM we can apply techniques such as pushback management, ground delays, and departure sequencing to evenly distribute workload amongst controllers and to ensure every pilot has an enjoyable experience during our busiest events.
+In real life, pilots, airlines and controllers rely on Airport Collaborative Decision Making (A-CDM) to coordinate and plan aircraft movements across the country, and there are multiple dedicated flow controllers and operations analysts to ensure efficiency on a daily basis. On VATSIM we can apply several techniques to implement better management of ground delay at an aerodrome, reduce knock-on airborne delays, reduce aerodrome congestion, and keep pilots better in the loop.
+
+These techniques include utilising A-CDM procedures, pushback management, and ad-hoc ground stops.
+
+## Airport Collaborative Decision Making
+The OzStrips plugin has been expanded to include an [A-CDM mode](../client/towerstrips.md#a-cdm), that can be used when traffic levels warrant. This feature imitates real life A-CDM processes to a degree, but on the network allow controllers to more easily visualise and manage overall aerodrome traffic levels, provide TSAT and CTOT information to pilots, and achieve planned departure rates at an aerodrome. It can be used without, and in conjunction with some of the other flow management techniques below.
+
+!!! note
+    It is beneficial to have an understanding of how CDM works, before utilising it as a controller. Further information can be found on the [CDM section within Tower Strips](../client/towerstrips.md#a-cdm).
+
+### Implementing the Procedure
+Activating A-CDM mode can be done by toggling it active, from the **Settings** drop down list, within the OzStrips plugin. You can tell the mode has been activated successfully when you see the Departure Monitor appear in the **Runway Bay**.
+
+<figure markdown>
+![Departure Monitor](../controller-skills/img/ozstripsdepmonitor.png){ width="300" }
+    <figcaption>The Departure Monitor</figcaption>
+</figure>
+
+Coordination should be affected with other aerodrome controllers, and the **FMP** controller if present. 
+
+!!! phraseology
+    <span class="hotline">**SY SMC** -> **SY ADC**</span>: "There are a few aircraft awaiting pushback, should we enable A-CDM?"  
+    <span class="hotline">**SY ADC** -> **SY SMC**</span>: "Affirm, let's set a departure rate of 30."  
+    <span class="hotline">**SY SMC** -> **SY ADC**</span>: "Roger, I'll send it within the Controller Messages chat as well."  
+
+Later, the set departure rate may need to be varied based on traffic flow conditions within the network.
+
+!!! phraseology
+    <span class="hotline">**ML FMP** -> **SY FMP**</span>: "Due to the amount of arrivals into ML, departures are backing up. Can we reduce the SY departure rate?"  
+    <span class="hotline">**SY FMP** -> **ML FMP**</span>: "Affirm, with your concurrence, we'll move from a departure rate of 30 to 24. I'll tell Coordinator."  
+    <span class="hotline">**ML FMP** -> **SY FMP**</span>: "Concur 24, thanks."
+
+
+### Processing each Aircraft
+To effectively operate with A-CDM procedures:
+
+1. When an aircraft requests pushback, they should be placed into the **Cleared Bay** below the default OzStrips queue bar.
+    
+    A TSAT and CTOT will be generated for them, which can be provided to the pilot. This will be presented within the strip `Time Field`, and will appear with a grey background.
+
+    <figure markdown>
+    ![Queued Strip](../controller-skills/img/ozstripscdmqueue.png){ width="500" }
+        <figcaption>A queued strip, with a TSAT of 03:52z.</figcaption>
+    </figure>
+
+2. When the current time is within 1 minute of the TSAT, the `Time Field` within the strip will go green. The **SMC** controller should approve pushback when able.
+    
+    If, due to apron congestion or similiar, the aircraft first in line can't be pushed, or is AFK, the **SMC** controller may push another aircraft, taking into account relative priority.
+
+    After moving the strip into the **Pushback Bay**, the `Time Field` will go yellow.
+
+!!! note
+    It is not necessary to wait until the exact TSAT is achieved. Pushback (or taxi, if no pushback is required) may be issued provided the Time Field is green.
+
+3. **ADC** should allow aircraft to depart, such that the overall departure rate is maintained.
+    
+    After each aircraft becomes airborne, their departure is logged, and the Departure Monitor is incremented.
+
+    <figure markdown>
+    ![Departure Monitor](../controller-skills/img/ozstripsdepmonitor.png){ width="300" }
+        <figcaption>The Departure Monitor.</figcaption>
+    </figure>
+
+    The **ADC** controller should endeavour to ensure that they monitor actual vs planned departure rates, to avoid saturating down the line approach and enroute sectors. A technique to maintain the departure rate can include using the [OzStrips Take-Off Timer](../client/towerstrips.md#strips), and waiting until `60 minutes / Departure Rate` minutes have elapsed.
+
+    !!! example
+        The **Departure Rate** is 20. There should be `60 / 20` minutes between departures, or 3 minutes.
+
+### Website
+When CDM is enabled at an aerodrome, pilots and controllers can view the [Departure Queue online](https://vats.im/pac/cdm). This may be beneficial for Enroute and Approach controllers not using the OzStrips plugin, or with visibility centres not close to the aerodrome of interest.
+
+<figure markdown>
+![CDM Website](../controller-skills/img/ozstripscdmladder.png){ width="800" }
+    <figcaption>The ladder visible on the CDM Website.</figcaption>
+</figure>
+
+Changes to the departure rate may be made by logging in to the website. It is also possible to set destination-specific departure rates, allowing aircraft to avoid departure delays when planned to quieter aerodromes during busy events.
 
 ## Pushback Requests on ACD
 During busy events, such as [Milk Run Monday](../../events/milkrun/), the **SMC** controller may end up with a much higher workload than the **ACD** controller. To mitigate this, some airports have local SOPs that allow for pushback requests to be done on **ACD** frequency, to balance the workload. 

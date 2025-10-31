@@ -88,7 +88,7 @@ The background colour of the strip corresponds to its status as an arrival or a 
 | Number | Content | Left Click | Right Click |
 |---------|-------------|--------------| ----------- |
 | **1** | **Bay Number** | Edit Bay Number | |
-| **2** | **Filed Off Blocks Time** | Cock Strip | |
+| **2** | **CDM or Off Blocks Time**<br><small>*No Background* = Filed Off Blocks Time<br>**Coloured Background** = CDM Time</small> | Cock Strip | Open CDM Information Window |
 | **3** | **Aircraft Type** | Open Flightplan | |
 | **4** | **Wake Turbulence Category** | | |
 | **5** | **Destination** | Open Flightplan | |
@@ -201,6 +201,9 @@ Right mouse click on the yellow First Waypoint box to open the Reroute menu. Fro
 #### Pushback Requests on ACD
 When [pushback requests](../controller-skills/grounddelaymanagement.md#pushback-requests-on-acd) are being managed by ACD, the procedures set out in [Coordinator](#coordinator) below shall be followed.
 
+!!! tip
+    Whilst not a requirement, controllers may find it beneficial to utilise [CDM Mode](#a-cdm) to manage the pushback rate where congestion is likely at the holding point.
+
 ### Coordinator
 At locations like [Brisbane](../aerodromes/classc/Brisbane.md#pushback-requests-on-acd), [Melbourne](../aerodromes/classc/Melbourne.md#pushback-requests-on-acd), [Perth](../aerodromes/classc/Perth.md#pushback-requests-on-acd), and [Sydney](../aerodromes/classc/Sydney.md#sydney-coordinator), a Coordinator role is sometimes performed during times of high traffic. See each aerodrome-specific page for the requirements to open and set up the Coordinator position.
 
@@ -229,6 +232,9 @@ When a departure is issued pushback, move them to the **Pushback Bay**. If pushb
 
 !!! tip
     See [Coordinator](#coordinator) above for the procedure to follow when a Coordinator position is active (or [pushback requests](../controller-skills/grounddelaymanagement.md#pushback-requests-on-acd) are being managed by ACD). Remember that the bottom most aircraft is always the first in line.
+
+!!! note
+    When [CDM Mode](#a-cdm) is enabled, pushback should only be issued when the Offblocks field is [green](#pushback-process). Pushback should be withheld if necessary due to aerodrome congestion (OzStrips will adjust queued aircraft's TSATs accordingly).
 
 When taxi instructions are issued, move the strip to the **Taxi Bay** and enter the relevant instructions in the Global Ops field. When the aircraft is given taxi to the holding point at their assigned departure runway, enter the holding point in the Holding Point field.
 
@@ -295,6 +301,11 @@ If the TCU suspends autorelease, record this by placing the `AUTORELEASE SUSPEND
 ![Assigned Heading](../controller-skills/img/ozstripsassignedheading.png){ width="500" }
     <figcaption>RXA3656 assigned heading 320 with autorelease suspended</figcaption>
 </figure>
+
+!!! tip
+    During busy 'conga line' events, like Milk Run Monday, controllers may find it beneficial to utilise [CDM Mode](#a-cdm) to manage the departure rate and avoid overwhelming the TCU and downstream enroute controllers.
+
+    This mode is only beneficial to ADC where the departure rate is important and will be less beneficial for events where aircraft depart in a wide variety of outbound directions.
 
 #### Arrivals
 When an aircraft calls you on Tower frequency, click the Ready flag (to show that they are on frequency). When a landing clearance is issued, move the strip to the **Runway Bay**.
@@ -401,3 +412,95 @@ As per [Runway Crossings](#runway-crossings), the red crossing highlight should 
 
 !!! tip
     On long runways with readily available rapid exit taxiways (e.g. RWY 34L at YSSY), ADC may instruct landing aircraft to *'report taxiway B9 assured'* and upon receiving this confirmation, hotline SMC to approve the crossing of an aircraft further upwind of the runway exit.
+
+### A-CDM
+During events, or when traffic flow management procedures are warranted, CDM mode can be enabled for the aerodrome. A CDM Processor at each aerodrome keeps track of which stage of departure each aircraft is in. Active and Pushed aircraft are included within the **Departure Queue**, and will have a TSAT and CTOT time calculated for each aircraft.
+
+!!! note
+    The departure queue (as well as a range of statistics) is available on the [Ops Dashboard](https://cdm.maxrumsey.xyz/ops){target=new}.
+
+#### Departure Rates
+The target departure rate can be adjusted on the [Ops Dashboard](https://cdm.maxrumsey.xyz/ops){target=new}. Log in to the site to make adjustments.
+
+The default rate is **30 per hour**. This works well for most aerodromes where traffic is both inbound and outbound (allowing sufficient time for an arrival to land between departures). The rate should be adjusted as required based on:
+
+- holding point congestion
+- busy arrival sequence
+- at the request of an upline controller
+
+!!! note
+    Airports with multiple departure runways should increase the departure rate to compensate for the added runway capacity.
+
+Specific rates can be set for departures to particular aerodromes. This is particularly useful for events where the destination aerodrome may be rate-limited.
+
+!!! example
+    During [Milk Run Monday](../events/milkrun/), Sydney ACD sets a departure rate of **40 per hour** and a YMML-specific rate of **24 per hour**.
+
+#### CDM Stages
+| Name | OzStrips Bay | CDM Processor Action |
+| ---- | ------------ | -------------------- |
+| Preactive | Preactive or Cleared Bay above the bar | *Not included in CDM calculations* |
+| Active | Cleared Bay, below the queue bar | Included within the departure queue, and will be issued a TSAT and CTOT |
+| Pushed | Pushback, Taxi, Holding Point or Runway Bay | Included in the departure queue below any Active aircraft |
+| Complete | Departed Bay, or GS > 50kts | Departure time is logged, *not included in CDM calculations* |
+
+If an aircraft disconnects, or their strip is moved into the **Preactive Bay** or **Cleared Bay** above the bar, their CDM status will expire after 3 minutes. 
+
+<figure markdown>
+![Active Strip](../controller-skills/img/ozstripscdmqueue.png){ width="500" }
+    <figcaption>An **Active** strip</figcaption>
+</figure>
+
+<figure markdown>
+![Pushed Strip](../controller-skills/img/ozstripscdmpushed.png){ width="500" }
+    <figcaption>A **Pushed** strip (noted by the yellow EOBT field)</figcaption>
+</figure>
+
+##### CDM Abbreviations
+| Abbreviation | Full Name | Explanation | Example |
+| ------------ | --------- | ----------- | ------- |
+| EOBT | Estimated Off Blocks Time | The off blocks time a pilot submits within their flight plan. This is not used for CDM calculations. | 10:00z |
+| TOBT | Tactical Off Blocks Time | The time at which the pilot requests pushback. | 10:20z |
+| TSAT | Tactical Start Approved Time | The time the CDM processor allots for pushback approval, taking into account CDM parameters and other aircraft. | 10:30z |
+| AOBT | Actual Off Blocks Time | The time at which the aircraft actually pushes back. This should be as close to the final TSAT as possible | 10:31z |
+| CTOT | Calculated Take Off TIme | The time the CDM system allots for aircraft departure. | 10:45z |
+| ATOT | Actual Take Off Time | The time at which the aircraft actually departs. | 10:46z |
+
+#### Pushback Process
+Pushback should only be issued when the aircraft is compliant with their TSAT. 
+
+| Colour | Condition | Explanation |
+| --- | --- | --- |
+| Grey | In Queue | The aircraft has been placed in the queue but is not yet compliant with their TSAT. *Do not issue pushback*. |
+| Green | Compliant with TSAT | The aircraft is compliant with their TSAT. Pushback may be issued **if aerodrome congestion allows**. |
+| Yellow | Pushed Back | Aircraft has already pushed back, *no further action required*. |
+
+Controllers should follow the procedures detailed on the [Ground Delay Management](../controller-skills/grounddelaymanagement.md#processing-each-aircraft) page.
+
+#### CDM Processing
+CDM Processing refers to the process by which the departure order, TSAT and CTOT times are calculated for each aircraft. This occurs regularly at CDM enabled aerodromes, and after every CDM-relevant aircraft state change.
+
+The CDM Processor takes the list of active and pushed aircraft, as well as the set **Departure Rate**, determines a priority sorted list of aircraft, and allocates a **CTOT** to each aircraft. **CTOT** times will be spaced by the set **Departure Rate**. A **TSAT** is calculated for each aircraft, based on the **CTOT**. **TSAT** times take into account the aircraft state, such that an aircraft will not be expected to pushback and depart within 5 minutes. **CTOT** and **TSAT** times are recalculated during each CDM Processing cycle, and can vary from the initial **TSAT** issued.
+
+!!! example
+    A planned **Departure Rate** of 30/hour is set, but the ADC controller actually maintains a rate of 40/hour. **AOBT** and **ATOT** will be earlier than the initial calculated **TSAT** and **CTOT**.
+
+#### Departure Monitoring
+The **Departure Rate** is set based on conditions at the aerodrome, the amount of departures, the amount of arrivals, and amount of arrivals the destination aerodromes can accept. For the A-CDM system to work effectively, ADC must monitor the amount of depatures they release, and ensure this actual rate is as close to the set departure rate as possible.
+
+To make this task easier, OzStrips provides a Departure Monitor screen above the **Runway Bay** when CDM is enabled at an aerodrome. The **Departure Rate** over the preceeding 5, 15 and 30 minutes are recorded, and presented to plugin users. Each interval is colour coded to quickly show the relative performance vs planned performance.
+
+| Colour | Conditions | Explanation |
+| ------ | ---------- | ----------- |
+| Purple | Way Below Target (-3 or less) | Departure capacity is very underutilised |
+| Blue | Slightly Below Target (-1 to -2) | Departure capacity is slightly underutilised |
+| Green | On Target (+/- 0) | The set departure rate is being perfectly executed |
+| Orange | Above Target (+1 to +2) | Slightly too many departures have been released |
+| Red | Way Above Target (+3 or more) | Too many departures have been released
+
+<figure markdown>
+![Departure Monitor](../controller-skills/img/ozstripsdepmonitor.png){ width="300" }
+    <figcaption>Example Departure Monitor</figcaption>
+</figure>
+
+The ADC controller(s) should aim to ensure the amount of aircraft they release matches these values as close as possible. While over-exceeding departure capacity is easily preventable, sometimes departure capacity can be underutilised due to ground-stops or not enough aircraft demand.
