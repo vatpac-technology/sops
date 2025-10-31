@@ -6059,13 +6059,13 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#pushback-requests-on-acd" class="md-nav__link">
+  <a href="#airport-collaborative-decision-making" class="md-nav__link">
     <span class="md-ellipsis">
-      Pushback Requests on ACD
+      Airport Collaborative Decision Making
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Pushback Requests on ACD">
+    <nav class="md-nav" aria-label="Airport Collaborative Decision Making">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -6079,6 +6079,48 @@
         
           <li class="md-nav__item">
   <a href="#processing-each-aircraft" class="md-nav__link">
+    <span class="md-ellipsis">
+      Processing each Aircraft
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#website" class="md-nav__link">
+    <span class="md-ellipsis">
+      Website
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pushback-requests-on-acd" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pushback Requests on ACD
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pushback Requests on ACD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#implementing-the-procedure_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementing the Procedure
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#processing-each-aircraft_1" class="md-nav__link">
     <span class="md-ellipsis">
       Processing each Aircraft
     </span>
@@ -6483,13 +6525,13 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#pushback-requests-on-acd" class="md-nav__link">
+  <a href="#airport-collaborative-decision-making" class="md-nav__link">
     <span class="md-ellipsis">
-      Pushback Requests on ACD
+      Airport Collaborative Decision Making
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Pushback Requests on ACD">
+    <nav class="md-nav" aria-label="Airport Collaborative Decision Making">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -6503,6 +6545,48 @@
         
           <li class="md-nav__item">
   <a href="#processing-each-aircraft" class="md-nav__link">
+    <span class="md-ellipsis">
+      Processing each Aircraft
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#website" class="md-nav__link">
+    <span class="md-ellipsis">
+      Website
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pushback-requests-on-acd" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pushback Requests on ACD
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pushback Requests on ACD">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#implementing-the-procedure_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementing the Procedure
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#processing-each-aircraft_1" class="md-nav__link">
     <span class="md-ellipsis">
       Processing each Aircraft
     </span>
@@ -6553,7 +6637,77 @@
 
 <h2 id="overview">Overview</h2>
 <p>Managing the flow of traffic is not just limited to <a href="../sequencing/">sequencing</a> in the air! Flow Management techniques can be applied to aircraft on the ground to minimise delays in the air and reduce congestion.</p>
-<p>In real life, controllers rely on Airport Collaborative Decision Making (A-CDM) to coordinate and plan aircraft movements across the country, and there are multiple dedicated flow controllers and operations analysts to ensure efficiency on a daily basis. On VATSIM we can apply techniques such as pushback management, ground delays, and departure sequencing to evenly distribute workload amongst controllers and to ensure every pilot has an enjoyable experience during our busiest events.</p>
+<p>In real life, pilots, airlines and controllers rely on Airport Collaborative Decision Making (<abbr title="Airport Collaborative Decision Making">A-CDM</abbr>) to coordinate and plan aircraft movements across the country, and there are multiple dedicated flow controllers and operations analysts to ensure efficiency on a daily basis. On VATSIM we can apply several techniques to implement better management of ground delay at an aerodrome, reduce knock-on airborne delays, reduce aerodrome congestion, and keep pilots better in the loop.</p>
+<p>These techniques include utilising <abbr title="Airport Collaborative Decision Making">A-CDM</abbr> procedures, pushback management, and ad-hoc ground stops.</p>
+<h2 id="airport-collaborative-decision-making">Airport Collaborative Decision Making</h2>
+<p>The OzStrips plugin has been expanded to include an <a href="../../client/towerstrips/#a-cdm"><abbr title="Airport Collaborative Decision Making">A-CDM</abbr> mode</a>, that can be used when traffic levels warrant. This feature imitates real life <abbr title="Airport Collaborative Decision Making">A-CDM</abbr> processes to a degree, but on the network allow controllers to more easily visualise and manage overall aerodrome traffic levels, provide <abbr title="Tactical Start Approved Time">TSAT</abbr> and <abbr title="Calculated Take Off TIme">CTOT</abbr> information to pilots, and achieve planned departure rates at an aerodrome. It can be used without, and in conjunction with some of the other flow management techniques below.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It is beneficial to have an understanding of how CDM works, before utilising it as a controller. Further information can be found on the <a href="../../client/towerstrips/#a-cdm">CDM section within Tower Strips</a>.</p>
+</div>
+<h3 id="implementing-the-procedure">Implementing the Procedure</h3>
+<p>Activating <abbr title="Airport Collaborative Decision Making">A-CDM</abbr> mode can be done by toggling it active, from the <strong>Settings</strong> drop down list, within the OzStrips plugin. You can tell the mode has been activated successfully when you see the Departure Monitor appear in the <strong>Runway Bay</strong>.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/ozstripsdepmonitor.png" data-desc-position="bottom"><img alt="Departure Monitor" src="../img/ozstripsdepmonitor.png" width="300"></a>
+    </p><figcaption>The Departure Monitor</figcaption><p></p>
+</figure>
+<p>Coordination should be affected with other aerodrome controllers, and the <strong>FMP</strong> controller if present. </p>
+<div class="admonition phraseology">
+<p class="admonition-title">Phraseology</p>
+<p><span class="hotline"><strong>SY <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr></strong> -&gt; <strong>SY <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong></span>: "There are a few aircraft awaiting pushback, should we enable <abbr title="Airport Collaborative Decision Making">A-CDM</abbr>?"<br>
+<span class="hotline"><strong>SY <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong> -&gt; <strong>SY <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr></strong></span>: "Affirm, let's set a departure rate of 30."<br>
+<span class="hotline"><strong>SY <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr></strong> -&gt; <strong>SY <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong></span>: "Roger, I'll send it within the Controller Messages chat as well."  </p>
+</div>
+<p>Later, the set departure rate may need to be varied based on traffic flow conditions within the network.</p>
+<div class="admonition phraseology">
+<p class="admonition-title">Phraseology</p>
+<p><span class="hotline"><strong>ML FMP</strong> -&gt; <strong>SY FMP</strong></span>: "Due to the amount of arrivals into ML, departures are backing up. Can we reduce the SY departure rate?"<br>
+<span class="hotline"><strong>SY FMP</strong> -&gt; <strong>ML FMP</strong></span>: "Affirm, with your concurrence, we'll move from a departure rate of 30 to 24. I'll tell Coordinator."<br>
+<span class="hotline"><strong>ML FMP</strong> -&gt; <strong>SY FMP</strong></span>: "Concur 24, thanks."</p>
+</div>
+<h3 id="processing-each-aircraft">Processing each Aircraft</h3>
+<p>To effectively operate with <abbr title="Airport Collaborative Decision Making">A-CDM</abbr> procedures:</p>
+<ol>
+<li>
+<p>When an aircraft requests pushback, they should be placed into the <strong>Cleared Bay</strong> below the default OzStrips queue bar.</p>
+<p>A <abbr title="Tactical Start Approved Time">TSAT</abbr> and <abbr title="Calculated Take Off TIme">CTOT</abbr> will be generated for them, which can be provided to the pilot. This will be presented within the strip <code>Time Field</code>, and will appear with a grey background.</p>
+<p></p><figure markdown>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/ozstripscdmqueue.png" data-desc-position="bottom"><img alt="Queued Strip" src="../img/ozstripscdmqueue.png" width="500"></a>
+    <figcaption>A queued strip, with a <abbr title="Tactical Start Approved Time">TSAT</abbr> of 03:52z.</figcaption>
+</figure><p></p>
+</li>
+<li>
+<p>When the current time is within 1 minute of the <abbr title="Tactical Start Approved Time">TSAT</abbr>, the <code>Time Field</code> within the strip will go green. The <strong><abbr title="Surface Movement Control (Ground Controller)">SMC</abbr></strong> controller should approve pushback when able.</p>
+<p>If, due to apron congestion or similiar, the aircraft first in line can't be pushed, or is AFK, the <strong><abbr title="Surface Movement Control (Ground Controller)">SMC</abbr></strong> controller may push another aircraft, taking into account relative priority.</p>
+<p>After moving the strip into the <strong>Pushback Bay</strong>, the <code>Time Field</code> will go yellow.</p>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It is not necessary to wait until the exact <abbr title="Tactical Start Approved Time">TSAT</abbr> is achieved. Pushback (or taxi, if no pushback is required) may be issued provided the Time Field is green.</p>
+</div>
+<ol>
+<li>
+<p><strong><abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong> should allow aircraft to depart, such that the overall departure rate is maintained.</p>
+<p>After each aircraft becomes airborne, their departure is logged, and the Departure Monitor is incremented.</p>
+<p></p><figure markdown>
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/ozstripsdepmonitor.png" data-desc-position="bottom"><img alt="Departure Monitor" src="../img/ozstripsdepmonitor.png" width="300"></a>
+    <figcaption>The Departure Monitor.</figcaption>
+</figure><p></p>
+<p>The <strong><abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong> controller should endeavour to ensure that they monitor actual vs planned departure rates, to avoid saturating down the line approach and enroute sectors. A technique to maintain the departure rate can include using the <a href="../../client/towerstrips/#strips">OzStrips Take-Off Timer</a>, and waiting until <code>60 minutes / Departure Rate</code> minutes have elapsed.</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>The <strong>Departure Rate</strong> is 20. There should be <code>60 / 20</code> minutes between departures, or 3 minutes.</p>
+</div>
+</li>
+</ol>
+<h3 id="website">Website</h3>
+<p>When CDM is enabled at an aerodrome, pilots and controllers can view the <a href="https://vats.im/pac/cdm">Departure Queue online</a>. This may be beneficial for Enroute and Approach controllers not using the OzStrips plugin, or with visibility centres not close to the aerodrome of interest.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/ozstripscdmladder.png" data-desc-position="bottom"><img alt="CDM Website" src="../img/ozstripscdmladder.png" width="800"></a>
+    </p><figcaption>The ladder visible on the CDM Website.</figcaption><p></p>
+</figure>
+<p>Changes to the departure rate may be made by logging in to the website. It is also possible to set destination-specific departure rates, allowing aircraft to avoid departure delays when planned to quieter aerodromes during busy events.</p>
 <h2 id="pushback-requests-on-acd">Pushback Requests on <abbr title="Airways Clearance Delivery">ACD</abbr></h2>
 <p>During busy events, such as <a href="../../events/milkrun/">Milk Run Monday</a>, the <strong><abbr title="Surface Movement Control (Ground Controller)">SMC</abbr></strong> controller may end up with a much higher workload than the <strong><abbr title="Airways Clearance Delivery">ACD</abbr></strong> controller. To mitigate this, some airports have local <abbr title="Standard Operating Procedures">SOPs</abbr> that allow for pushback requests to be done on <strong><abbr title="Airways Clearance Delivery">ACD</abbr></strong> frequency, to balance the workload. </p>
 <div class="admonition warning">
@@ -6561,7 +6715,7 @@
 <p>The 'Pushback Requests on <abbr title="Airways Clearance Delivery">ACD</abbr>' procedure is currently limited to <a href="../../aerodromes/classc/Brisbane/#pushback-requests-on-acd">Brisbane</a>, <a href="../../aerodromes/classc/Melbourne/#pushback-requests-on-acd">Melbourne</a>, <a href="../../aerodromes/classc/Perth/#pushback-requests-on-acd">Perth</a>, and <a href="../../aerodromes/classc/Sydney/#sydney-coordinator">Sydney</a>.</p>
 </div>
 <p>At Sydney, the role of <strong><abbr title="Airways Clearance Delivery">ACD</abbr></strong> in the procedure listed below is performed by a dedicated controller, named <a href="../../aerodromes/classc/Sydney/#sydney-coordinator">Sydney Coordinator</a>. Where a separate Coordinator controller is not online, the role may be performed by <abbr title="Airways Clearance Delivery">ACD</abbr> instead.</p>
-<h3 id="implementing-the-procedure">Implementing the Procedure</h3>
+<h3 id="implementing-the-procedure_1">Implementing the Procedure</h3>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This procedure is relevant to pushback requests on <abbr title="Airways Clearance Delivery">ACD</abbr> and the use of Sydney Coordinator. When Sydney Coordinator is active, replace all references to <strong><abbr title="Airways Clearance Delivery">ACD</abbr></strong> below with <strong>Coordinator</strong>.</p>
@@ -6580,7 +6734,7 @@
 <p><span class="hotline"><strong>ML <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr></strong> -&gt; <strong>ML <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong></span>: "Can we please get <code>ALL DEPARTURES MUST REQUEST PUSH BACK ON 127.2</code> on the <abbr title="Automatic Terminal Information Service">ATIS</abbr>?"<br>
 <span class="hotline"><strong>ML <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong> -&gt; <strong>ML <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr></strong></span>: "Wilco"  </p>
 </div>
-<h3 id="processing-each-aircraft">Processing each Aircraft</h3>
+<h3 id="processing-each-aircraft_1">Processing each Aircraft</h3>
 <p>To operate with pushback requests on <abbr title="Airways Clearance Delivery">ACD</abbr>:</p>
 <ol>
 <li>When <strong><abbr title="Airways Clearance Delivery">ACD</abbr></strong> has finished issuing an airways clearance, they will <strong>remind</strong> pilots to <em>"Contact me when ready for pushback/taxi"</em>.</li>
@@ -6664,7 +6818,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 18, 2025 20:42:43 UTC">June 18, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="October 31, 2025 02:35:15 UTC">October 31, 2025</span>
   </span>
 
     
