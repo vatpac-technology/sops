@@ -672,4 +672,4 @@ This workflow sends a notification to Discord when a pull request is merged and 
 
 ## Acknowledgments
 
-We extend our gratitude to all contributors of these open-source projects. Your work enables us to build and enhance our project efficiently.
+We extend our gratitude to all [contributors](https://github.com/vatpac-technology/sops/graphs/contributors) of these open-source projects. Your work enables us to build and enhance our project efficiently.
