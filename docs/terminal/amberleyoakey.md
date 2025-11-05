@@ -6,16 +6,23 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login ID              |
-| ------------------ | -------------- | ---------------- | --------------------------------------|
-| **Amberley TCU**   | **Amberley Approach**   | **126.200**        | **AMB_APP**                                   |
-| **Oakey TCU**   | **Oakey Approach** | **125.400**        | **OK_APP**                                   |
-
-AMB APP is expected to extend to OK APP (and vice versa) when they are offline. No frequency cross coupling is required. 
+| Name                          | ID      | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
+| **Amberley Approach**         | **AMA** | **Amberley Approach**   | **126.200** | **AMB_APP**   |
+| **Oakey Approach**            | **OKA** | **Oakey Approach**      | **125.400** | **OK_APP**    |
 
 ## Airspace
-### AMB TCU
-**AMB APP** owns the airspace contained within:
+The vertical limits of the AMB and OK TCUs are `SFC` to `F210`.
+
+<figure markdown>
+![AMB/OK TCU Structure](img/ambok_tcu.png){ width="700" }
+  <figcaption>AMB/OK TCU Structure</figcaption>
+</figure>
+
+### Airspace Division
+
+####AMB TCU
+**AMA** owns the airspace contained within:
 
 - R625A (`A015`-`A085`)  
 - R625B (`A025`-`A085`)  
@@ -23,14 +30,14 @@ AMB APP is expected to extend to OK APP (and vice versa) when they are offline. 
 - R625D (`A085`-`F210`)
 
 <figure markdown>
-![AMB TCU Airspace Diagram](img/amtcu.png){ width="952" }
-  <figcaption>AMB TCU Airspace Diagram</figcaption>
+![AMB TCU Restricted Areas](img/amb_restricted_areas.png){ width="952" }
+  <figcaption>AMB TCU Restricted Areas</figcaption>
 </figure>
 
-**AMB ADC** owns the Class C airspace in the AM CTR from `SFC` to `A015`. 
+**AMB ADC** owns the Class C airspace in the AMB CTR from `SFC` to `A015`. 
 
-### OK TCU
-**OK APP** owns the airspace contained within:
+####OK TCU
+**OKA** owns the airspace contained within:
 
 - R654A (`SFC`-`A065`)  
 - R654B (`SFC`-`A065`)  
@@ -38,11 +45,14 @@ AMB APP is expected to extend to OK APP (and vice versa) when they are offline. 
 - R654D (`A065`-`F125`)  
 
 <figure markdown>
-![OK TCU Airspace Diagram](img/oktcu.png){ width="1060" }
-  <figcaption>OK TCU Airspace Diagram</figcaption>
+![OK TCU Restricted Areas](img/ok_restricted_areas.png){ width="1060" }
+  <figcaption>OK TCU Restricted Areas</figcaption>
 </figure>
 
 **OK ADC** owns the Class C airspace within 5 DME of the OK VOR from `SFC` to `A025`.
+
+## Extending
+AMA is **expected** to extend to OKA and vice versa; callsigns remain the same. See [Controller Skills](../controller-skills/extending.md) for details.
 
 ## Local Procedures 
 ### Coded Clearances (Fast Jets)
@@ -80,28 +90,28 @@ Civil operators (including Australian Air Force Cadets) conduct flying operation
 Aircraft outbound from YAMB for the SWTA will exit the CTR at `A025` via the following waypoints:
 
 | **Duty Runway** | **Routing** |
-|-----------------|-----------|
-| 15              | MTWK      |
-| 33              | CLVT      |
+|-----------------|------------ |
+| 15              | MTWK        |
+| 33              | CLVT        |
 | 04 or 22        | As required |
 
 #### Inbound Aircraft
 Inbound aircraft will contact AMB TCU when ready to return to YAMB. They shall be cleared via the following waypoints, at either `A015` or `A025` (as desired):
 
 | **Duty Runway** | **Routing** |
-|-----------------|-----------|
-| 15              | CLVT      |
-| 33              | MTWK      |
+|-----------------|------------ |
+| 15              | CLVT        |
+| 33              | MTWK        | 
 | 04 or 22        | As required |
 
 Transfer these aircraft to ADC approaching the boundary.   
 
 !!! phraseology  
     **ASTR203**: "Amberley Approach, ASTR203, 13nm southwest, A015, inbound, received Golf, request clearance"     
-    **AMB TCU**: "ASTR203, Amberley Aproach, cleared to YAMB via MTWK, maintain A015"  
+    **AMA**: "ASTR203, Amberley Aproach, cleared to YAMB via MTWK, maintain A015"  
     **ASTR203**: "Cleared to YAMB via MTWK, maintain A015, ASTR203"  
        
-    **AMB TCU**: "ASTR203, contact Amberley Tower, 118.3"  
+    **AMA**: "ASTR203, contact Amberley Tower, 118.3"  
     **ASTR203**: "118.3, ASTR203"  
 
 ## Coordination
@@ -109,7 +119,7 @@ Transfer these aircraft to ADC approaching the boundary.
 #### Departures
 [Next](../controller-skills/coordination.md#next) coordination is required from AMB ADC to AMB TCU for all aircraft.
 
-The Standard Assignable Level from  **AMB ADC** to **AMB TCU** is:  
+The Standard Assignable Level from  **AMB ADC** to **AMA** is:  
 
 | Assigned Departure | Level |
 | ------------------ | ----- |
@@ -118,7 +128,7 @@ The Standard Assignable Level from  **AMB ADC** to **AMB TCU** is:
 
 [Next](../controller-skills/coordination.md#next) coordination is required from OK ADC to OK TCU for all aircraft.
 
-The Standard Assignable level from **OK ADC** to **OK TCU** is:
+The Standard Assignable level from **OK ADC** to **OKA** is:
 
 | Aircraft | Level |
 | -------- | ----- |
@@ -129,11 +139,18 @@ The Standard Assignable level from **OK ADC** to **OK TCU** is:
 All aircraft from AMB/OK TCU to INL(All) and BN TCU require [Heads-up](../controller-skills/coordination.md#heads-up) coordination prior to the boundary, however, as soon as practical (when is the aircraft becomes airborne) is preferred. 
 
 #### Arrivals/Overfliers
-All aircraft transiting from GOL/DOS/BUR to **AMB TCU** and **OK TCU** must be [Heads-up](../controller-skills/coordination.md#heads-up) coordinated prior to **20nm** from the boundary and aircraft from **BN TCU** to **AMB TCU** only prior to the boundary. Operations within **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels. GOL/DOS/BUR and **AMB TCU**/**OK TCU** controller must agree on a suitable level during coordination.
+All aircraft transiting from GOL/DOS/BUR to **AMB TCU** and **OK TCU** must be [Heads-up](../controller-skills/coordination.md#heads-up) coordinated prior to **20nm** from the boundary and aircraft from **BN TCU** to **AMB TCU** only prior to the boundary. Operations within **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels. GOL/DOS/BUR and **AMA**/**OKA** controller must agree on a suitable level during coordination.
 
 !!! phraseology
-    <span class="hotline">**GOL** -> **AMB TCU**</span>: "via HUUGO, PUMA11, will be assigned A090"  
-    <span class="hotline">**AMB TCU** -> **GOL**</span>: "PUMA11, A090"  
+    <span class="hotline">**GOL** -> **AMA**</span>: "via HUUGO, PUMA11, will be assigned A090"  
+    <span class="hotline">**AMA** -> **GOL**</span>: "PUMA11, A090"  
+
+### AMB / OK
+All aircraft transiting between the AMB/OK TCU boundary must be heads-up coordinated.
+
+!!! phraseology
+    <span class="hotline">**OKA** -> **AMA**</span>: "via AGIVA, ANGL32"  
+    <span class="hotline">**AMA** -> **OKA**</span>: "ANGL32, A025"   
 
 ## Charts
 !!! abstract "Reference"

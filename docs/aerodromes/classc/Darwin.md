@@ -36,6 +36,10 @@ Traffic permitting, aircraft above 136,000kg MTOW shall be entered/exited for RW
 
 Taxiway V has a passing bay, located adjacent to the ARFF section. The passing bay is the preferred location for engine run-ups, no longer than 3 minutes  
 
+## Helicopter Operations
+### Hospital Helipads
+The Darwin CTR contains the helipad at the Royal Darwin Hospital (YXDH). This pad sit outside the maneuvering area, so no takeoff or landing clearances should be issued. Instead, helicopters should be instructed to report airborne or report on the ground.
+
 ## VFR Operations
 VFR aircraft are required to track via one of the published VFR Routes (as shown on the Darwin VTC). VFR routes shall be assigned based on the destination radial from Darwin, as per below:  
 
@@ -50,7 +54,6 @@ VFR aircraft are required to track via one of the published VFR Routes (as shown
 
 !!! tip
     If a VFR aircraft has not planned via a VFR route as above, use the phraseology: “*ABC, cleared amended route VFR route 1, climb to A020, squawk 4512*”
-
 
 ## Runway Modes
 ### Preferred Runway Modes
@@ -113,6 +116,9 @@ For non-RNAV approved IFR aircraft with a wake turbulence category of medium or 
 For non-RNAV approved IFR aircraft with a wake turbulence category of light, issue a visual departure or Radar SID  
 
 ## ATIS
+### Approach Expectation
+If visual approaches are in operation the APCH field must state `EXP VISUAL APCH`.
+
 ### Operational Info
 #### LAHSO
 When [LAHSO](#lahso) is in use, the ATIS OPR INFO shall include:  

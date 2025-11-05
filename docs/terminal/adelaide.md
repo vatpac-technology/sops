@@ -6,11 +6,11 @@
 
 ## Positions
 
-| Name               | ID      | Callsign       | Frequency        | Login ID              |
-| ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
-| **Adelaide Approach East**    |**AAE**| **Adelaide Approach**   | **118.200**         | **AD_APP**                                   |
-| <span class="indented">Adelaide Approach West :material-information-outline:{ title="Non-standard position"}    |AAW| Adelaide Approach  | 124.200         | AD-W_APP          |
-| <span class="indented">Adelaide Flow :material-information-outline:{ title="Non-standard position"}        |AFL|                |          | AD_FMP                              |
+| Name                          | ID      | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
+| **Adelaide Approach East**    | **AAE** | **Adelaide Approach**   | **118.200** | **AD_APP**    |
+| <span class="indented">Adelaide Approach West :material-information-outline:{ title="Non-standard position"}  | AAW | Adelaide Approach  | 124.200  | AD-W_APP |
+| <span class="indented">Adelaide Flow :material-information-outline:{ title="Non-standard position"}           | AFL |                    |          | AD_FMP   |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  

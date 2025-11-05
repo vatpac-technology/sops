@@ -6,14 +6,14 @@
 
 ## Positions
 
-| Name               | ID      | Callsign       | Frequency        | Login ID              |
-| ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
-| **Brisbane Approach North**    |**BAN**| **Brisbane Approach**   | **124.700**         | **BN_APP**                                   |
-| <span class="indented">Brisbane Approach South :material-information-outline:{ title="Non-standard position"}   |BAS| Brisbane Approach   | 125.600          | BN-S_APP                                 |
-| <span class="indented">Brisbane Departures North :material-information-outline:{ title="Non-standard position"}    |BDN| Brisbane Departures  | 133.450         | BN_DEP          |
-| <span class="indented">Brisbane Departures South :material-information-outline:{ title="Non-standard position"}   |BDS| Brisbane Departures | 118.450          | BN-S_DEP         |
-| <span class="indented">Gold Coast Approach :material-information-outline:{ title="Non-standard position"} |BAC| Brisbane Approach  | 123.500          | BN-C_APP       |
-| <span class="indented">Brisbane Flow :material-information-outline:{ title="Non-standard position"}        |BFL|                |          | BN_FMP                              |
+| Name                          | ID      | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
+| **Brisbane Approach North**   | **BAN** | **Brisbane Approach**   | **124.700** | **BN_APP**    |
+| <span class="indented">Brisbane Approach South :material-information-outline:{ title="Non-standard position"}   | BAS | Brisbane Approach   | 125.600 | BN-S_APP |
+| <span class="indented">Brisbane Departures North :material-information-outline:{ title="Non-standard position"} | BDN | Brisbane Departures | 133.450 | BN_DEP   |
+| <span class="indented">Brisbane Departures South :material-information-outline:{ title="Non-standard position"} | BDS | Brisbane Departures | 118.450 | BN-S_DEP |
+| <span class="indented">Gold Coast Approach :material-information-outline:{ title="Non-standard position"}       | BAC | Brisbane Approach   | 123.500 | BN-C_APP |
+| <span class="indented">Brisbane Flow :material-information-outline:{ title="Non-standard position"}             | BFL |                     |         | BN_FMP   |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
@@ -68,8 +68,29 @@ Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac
 Refer to [Parallel Runway Separation Standards](../../separation-standards/parallelapps) for more information
 
 ## Departure/Arrival Procedures
-### SODPROPS
-Arriving aircraft must be established on final and transferred to the tower frequency no later than 10NM from touchdown.
+### STAR and Runway Assignment
+Sequencing of arrivals into YBBN is the responsibility of INL, with input from BN TCU.
+
+Aircraft from the north/west are assigned 01L/19R and aircraft from the south/east assigned 01R/19L. These standard runway assignments may be modified strategically by the BAS or BFL controller.
+
+!!! example
+    If during an event, the vast majority of traffic is coming from **BLAKA** and **GOMOL** feeder fixes, BAS/BFL may elect to assign 19L to **BLAKA** arrivals and 19R to **GOMOL** arrivals, to keep them separated at all times.
+
+    <span class="hotline">**BFL** -> **INL**</span>: "All arrivals via GOMOL to be assigned 19R until further notice"  
+    <span class="hotline">**INL** -> **BFL**</span>: "Roger, Arrivals via GOMOL to be assigned 19R" 
+
+### Gold Coast Arrivals
+Visual approaches are preferred into YBCG. If due to operational requirements, an aircraft is unable to accept a visual approach, coordination with CG ADC may be required.
+
+There is no STAR available to facilitate aircraft arriving from the north west. These aircraft should be instructed to track `BN Y177 IDRIL NOPAS GOMOL`. Aircraft will then be given further instructions by BAC according to the runway in use.
+
+| Runway | Routing      |
+| ------ | ------------ |
+| 14     | Not below `A050` until established over water, and then instructed to join final/track to an instrument IAF. |
+| 32     | Radar vectors to join 10NM/instrument IAF. |
+
+!!! note
+    Aircraft tracking via the above routing does **not** constitute a voiceless coordination route between BAN/BDS and BAC. Aircraft should still be heads-up coordinated to BAC prior to **5 minutes** to the boundary, unless coordinated otherwise.
 
 ## Tower Offline
 ### AF ADC Offline
@@ -98,39 +119,34 @@ Due to the low level of CTA (`A035`) in the CG CTR when **CG ADC** is offline, i
 
 ## Runway Modes
 ### Parallel Runway Operations
-Aircraft shall be assigned the following runways for arrival when PROPS are in progress:
+Unless operationally required, aircraft arriving YBBN shall be assigned the following runways for arrival when PROPS are in progress:
 
-| FF | Runway |
-| ---- | -------- |
-| BLAKA | 01R/19L |
-| GOMOL | 01R/19L |
-| UGTUG | 01R/**19R** |
-| TEBOT | 01R/**19R** |
-| MORBI | 01L/19R |
-| SMOKA | 01L/19R |
-| WOODY | 01L/19R |
-| ENLIP | 01L/**19L** |
+| Aircraft tracking | Runway |
+| --------- | ------- |
+| via BLAKA | 01R/19L |
+| via GOMOL | 01R/19L |
+| via UGTUG | 01R/**19R** |
+| via TEBOT | 01R/**19R** |
+| via MORBI | 01L/19R |
+| via SMOKA | 01L/19R |
+| via WOODY | 01L/19R |
+| via ENLIP | 01L/**19L** |
 | Other aircraft: |
 | From the NORTH and WEST | 01L/19R |
 | From the SOUTH and EAST | 01R/19L |
-
-These standard runway assignments may be modified strategically by the BAS or BFL controller.
-
-!!! phraseology
-    If during an event, the vast majority of traffic is coming from **BLAKA** and **GOMOL** feeder fixes, BAS/BFL may elect to assign 19L to **BLAKA** arrivals and 19R to **GOMOL** arrivals, to keep them separated at all times.
-
-    <span class="hotline">**BFL** -> **INL**</span>: "All arrivals via GOMOL to be assigned 19R until further notice"  
-    <span class="hotline">**INL** -> **BFL**</span>: "Roger, Arrivals via GOMOL to be assigned 19R" 
+	
+### SODPROPS
+Arriving aircraft must be established on final and transferred to the tower frequency no later than 10NM from touchdown.
 
 ## Helicopter Operations
 In VMC, helicopters inbound to or outbound from YBBN shall be processed via two visual waypoints (outlined below) positioned north and south of the field. Where VMC does not exist, IFR helicopters will conform to fixed wing ops.
 
-| Direction of Flight  | Inbound/Outbound Tracking Point |
-| ------------------ | -------------- |
+| Direction of Flight | Inbound/Outbound Tracking Point |
+| ------------------- | -------------- |
 | North      | BLHS   |
 | South      | MBHM   |
-| East      | MBHM   |
-| West      | BLHS   |
+| East       | MBHM   |
+| West       | BLHS   |
 
 ### Departures
 BN ADC will clear outbound helicopters via the [appropriate waypoint](#helicopter-operations) and transfer the aircraft to TCU. Where VMC does not exist, IFR helicopters will be assigned the **BN (RADAR) SID** and processed as per fixed wing ops.
@@ -306,7 +322,7 @@ Voiceless for aircraft:
 
 - With ADEP **YBBN**  
     - Tracking via a Procedural SID terminus^; and  
-    - Assigned the lower of `F180` or the `RFL`  
+    - Assigned the lower of `F180` or the `RFL`
 - With ADEP **YBCG**  
     - Tracking via **APAGI** and assigned the lower of `F120` or the `RFL`; or    
     - Tracking via **BN** and assigned the lower of `F180` or the `RFL`  
@@ -325,13 +341,12 @@ All other aircraft going to INL CTA must be **Heads-up** Coordinated by BN TCU p
 
 #### Arrivals
 Voiceless for all aircraft:
-
-- With ADES **YBBN** or **YBCG**; and  
-- Assigned a STAR; and  
-- Assigned `A090` for **YBBN** arrivals; or  
-- Assigned `F130` for **YBCG** arrivals
-
-Additionally, Voiceless coordination may be used for **YBCG** arrivals tracking via **BN** and assigned `F190`.
+- With ADES **YBBN**:
+    - Assigned a STAR; and
+	- Assigned `A090`.
+- With ADES **YBCG**:
+	- Assigned a STAR, and assigned `F130`; or
+	- Tracking via **BN**, and assigned `F190`.
 
 All other aircraft coming from INL CTA will be **Heads-up** Coordinated to BN TCU.
 
@@ -358,8 +373,8 @@ The Standard Assignable level from BN ADC to BN TCU is:
 #### Standard Assignable Departure Headings
 Aircraft that have been cleared the **BN (RADAR) SID** will receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required (excluding during SODPROPS) from the BN ADC controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
 
-| Runway | Assigned Heading 
-| ----------------- | -------------- |
+| Runway | Assigned Heading |
+| ---- | -------------- |
 | 01L | H340 |
 | 01R | H120 |
 | 19L | H110 |
@@ -418,7 +433,7 @@ AF ADC is responsible for the Class D Airspace within the AF CTR `SFC` to `A015`
 
 Refer to [Reclassifications](#af-ctr) for operations when AF ADC is offline.
 
-### Departures
+#### Departures
 [Next](../controller-skills/coordination.md#next) coordination is required from AF ADC to BN TCU for all aircraft **entering BN TCU CTA**.
 
 The Standard Assignable level from **AF ADC** to **BN TCU** is:
@@ -427,7 +442,7 @@ The Standard Assignable level from **AF ADC** to **BN TCU** is:
 | ------- | ----- |
 | All | The lower of `A040` and `RFL` |
 
-### Arrivals/Overfliers
+#### Arrivals/Overfliers
 BN TCU will heads-up coordinate arrivals/overfliers from Class C to AF ADC prior to **5 mins** from the boundary.  
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to AF ADC, unless AF ADC nominates a restriction.  
 VFR aircraft require a level readback.

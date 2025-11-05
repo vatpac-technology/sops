@@ -63,15 +63,19 @@
 *[SDC]: Standard Departure Clearance
 *[AAW]: Adelaide Approach West
 *[AAE]: Adelaide Approach East
+*[AMA]: Amberley Approach
 *[BAC]: Brisbane (Gold Coast) Approach
 *[BAN]: Brisbane Approach North
 *[BAS]: Brisbane Approach South
 *[BDN]: Brisbane Departures North
 *[BDS]: Brisbane Departures South
+*[CS1]: Cairns Approach 1
+*[CS2]: Cairns Approach 2
 *[CSA]: Cairns Approach
 *[CSD]: Cairns Departures
 *[CBW]: Canberra Approach West
 *[CBE]: Canberra Approach East
+*[CIA]: Curtin Approach
 *[DAW]: Darwin Approach West
 *[DAE]: Darwin Approach East
 *[ESA]: Sale Approach
@@ -83,6 +87,7 @@
 *[MDN]: Melbourne Departures North
 *[MDS]: Melbourne Departures South
 *[MAV]: Melbourne (Avalon) Approach
+*{OKA]: Oakey Approach
 *[PHA]: Perth Approach
 *[PHD]: Perth Departures
 *[SAN]: Sydney Approach North
