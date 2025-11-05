@@ -11,7 +11,7 @@ For a detailed explanation of the system and operations, see the [MAESTRO User G
 MAESTRO is a semi-automatic system, and will sequence arrivals generally without intervention.
 When the number of arriving aircraft increases, a flow controller is required to 'drive' the system, make adjustments as required, and communicate sequencing information to the respective ENR and APP controllers.
 
-MAESTRO is generally not used in the TMA, however it allows the TCU controllers to have situation awareness on the flow of inbound aircraft from enroute sectors.
+MAESTRO is generally not used in the TMA, however it allows the TCU controllers to have situational awareness of the flow of inbound aircraft.
 
 The MAESTRO plugin can be accessed from the vatSys menu bar under TFMS.
 
