@@ -23,6 +23,12 @@ All aircraft shall be issued the **ANUPA1A** STAR.
 
 Minimum distance between arrivals at handoff to DAW is **10nm** (with no significant closing speed). It is important to try not to exceed **15nm**, due to the large number of arrivals.
 
+##### MAESTRO
+If a Flow controller is online, the [MAESTRO](../../../client/maestro.md) plugin should be used to determine the landing sequence. Enroute positions must ensure they comply with any sequencing instructions set out by Flow and communicated through the plugin.
+
+!!! note
+    The MAESTRO plugin has been included in the Australia dataset by default for the event.
+
 ## WorldFlight Teams
 [WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
 
