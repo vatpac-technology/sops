@@ -21,7 +21,7 @@ AYPY ADC is responsible for the Class C Airspace within the AYPY CTR `SFC` to `A
 </figure>
 
 ## Maneuvering Area
-### Responsibility
+### Maneuvering Area Responsibility
 **ADC** is responsible for Taxiways **M**, **F**, and **A** beyond the Runway 14R/32L holding points. **ADC** is also responsible for the engine runup bay (the decommissioned section of Runway 14R/32L between Taxiways **L** and **A1**). 
 
 <figure markdown>

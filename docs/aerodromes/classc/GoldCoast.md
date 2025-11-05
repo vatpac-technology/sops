@@ -20,6 +20,21 @@ CG ADC is responsible for the Class C Airspace within the CG CTR `SFC` to `A015`
   <figcaption>CG ADC Airspace</figcaption>
 </figure>
 
+## Maneuvering Area
+### Maneuvering Area Responsibility
+ADC is responsible for all runways, and the helipad adjacent taxiway G.
+
+<figure markdown>
+![YBCG Maneuvering Area Responsibility](img/ybcgsmcown.png){ width="500" }
+  <figcaption>YBCG Maneuvering Area Responsibility</figcaption>
+</figure>
+
+!!! note
+    While Taxiway **C** does directly intersect Runway **17/35**, it must still be kept clear of traffic for arriving and departing traffic. All aircraft need explicit clearance to cross the Runway **17/35** holding points on this taxiway.
+
+### Taxiway Limitations
+Taxiways **F**, **G**, and **J** can only support light aircraft.
+
 ## Local Procedures
 ### Low-Level Coastal Flights
 Surf Lifesaving Patrol and Scenic Tour operations conducting low-level coastal flights within the CG CTR shall be cleared overwater in the required direction of travel, not above `A002`.
@@ -125,9 +140,12 @@ Where insufficient spacing exists with IFR aircraft, instruct VFR aircraft to re
     **LKU:** "Follow the 737, maintain own separation, join final runway 32, cleared visual approach, LKU"
 
 ### Helicopter Operations
-Local helicopter operations are conducted on the Western Grass which is the area contained by blue gable markers north of the VOR and west of the runway intersection. This is marked on the aerodrome chart as “HELO OPS”.  
-The HLS (Helipad) is located between the GA Apron and Taxiway Golf.  
-Circuits from the Western Grass are to be made in the same direction as the duty runway.
+The HLS (Helipad) is located between the GA Apron and Taxiway Golf. The Helipad is part of the maneuvering area and is controlled by CG ADC. Any helicopter taking off or landing on the helipad requires a specific takeoff or landing clearance from ADC.
+
+!!! phraseology 
+    **CG ADC**: "WP2, helipad, cleared to land"
+
+Local helicopter operations are conducted on the Western Grass which is the area contained by blue gable markers north of the VOR and west of the runway intersection. This is marked on the aerodrome chart as “HELO OPS”. Circuits from the Western Grass are to be made in the same direction as the duty runway.
 
 ### Hospital Helipads
 Within the Gold Coast CTR, there are two main hospital helipads. Tweed Heads Hospital (YTWH), and Tweed Valley Hospital (YXTV).
