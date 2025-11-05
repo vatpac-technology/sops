@@ -205,6 +205,16 @@ IFR aircraft departing Runway 35 shall be assigned a **visual departure**.
 
 Aircraft not meeting the above criteria, or that cannot accept a Procedural SID shall be assigned the **Radar SID**.
 
+## ATIS
+### Approach Types
+### Approach Type
+
+| Cloud Base          | Visibility | Approach         |
+| ------------------- | ---------- | ---------------- |
+| At or above `A030`  | >5000M     | (blank)          |
+| Below `A030` **or** | <5000M     | `EXP INSTR APCH` |
+| At night 			  |            | `EXP INSTR APCH` |
+
 ## Coordination
 ### Auto Release
 [Next](../../controller-skills/coordination.md#next) coordination is **not** required to BN TCU for aircraft that are:   
