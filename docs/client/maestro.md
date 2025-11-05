@@ -6,7 +6,7 @@ title: MAESTRO
 
 MAESTRO (pronounced my-stro), also and otherwise known as Traffic Flow Management System (TFMS), is an arrival manager used to generate a sequence of aircraft inbound to an airport from multiple directions.
 
-For a detailed explanation of the system and operations, see the [MAESTRO User Guide](https://maestro.eoinmotherway.dev/user-guide).
+For a detailed explanation of the system and operations, see the [MAESTRO User Guide](https://maestro.eoinmotherway.dev).
 
 MAESTRO is a semi-automatic system, and will sequence arrivals generally without intervention.
 When the number of arriving aircraft increases, a flow controller is required to 'drive' the system, make adjustments as required, and communicate sequencing information to the respective ENR and APP controllers.
