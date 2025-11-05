@@ -142,7 +142,7 @@ When re-routing a flight via a new feeder fix, use the Recompute function (right
 
 ### High Priority Flights
 
-For high priority flights (World Flight Teams), use Manual Delay `00` to ensure the flight receives minimal delay. If a re-route is required, perform the re-route before selecting Manual Delay `00`.
+For high priority flights (generally used during busy events like WorldFlight), use Manual Delay `00` to ensure the flight receives minimal delay. If a re-route is required, perform the re-route before selecting Manual Delay `00`.
 
 ### Feeder Fix Crossing
 
@@ -155,6 +155,8 @@ Instruct all aircraft subject to delay to cross the feeder fix at:
 - 250 kt for jets
 - 210 kt for props
 
+Aircraft with the [profile speed indicator](#the-timeline) should be instructed to cross the feeder fix at profile speed.
+
 ### Close `STA_FF` Times
 
 When two aircraft have close `STA_FF` times and longitudinal separation is required, determine the landing order using the runway view or the Information window. The runway view will show the landing sequence and the relative landing times.
@@ -166,6 +168,11 @@ Advise the flow controller when:
 - A runway other than the assigned runway is required
 - Route changes occur (re-routing to a new feeder fix)
 - The Re-compute, de-sequence, or exchange function will be used
+
+Flow will advise enroute controllers when they are performing large changes to the sequence by sending internal coordination messages.
+
+!!! warning "Important"
+    Do not issue delay instructions to aircraft if Flow has sent the `Flow planning in progress...` coordination message. Wait until the `Maestro delay times accurate...` message is received.
 
 ## Flow Responsibilities
 
