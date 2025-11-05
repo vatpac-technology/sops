@@ -25,26 +25,11 @@ The MAESTRO plugin can be accessed from the vatSys menu bar under TFMS.
 
 ## How it works
 
-### Flight Tracking
+Maestro tracks flights within 2 hours of the feeder fix or when an FDR is activated for flights from departure airports. vatSys provides updated position information every 30 seconds, and Maestro recalculates estimates and sequence position based on the flight's state.
 
-Flights are tracked by Maestro when:
+Flights from departure airports are placed in the Pending list and must be manually inserted by the flow controller. These flights can be inserted prior to departure to absorb delay on the ground.
 
-- within 2 hours of flight time to the feeder fix, or;
-- an FDR is activated for a flight from a departure airport or a close airport.
-
-vatSys provides Maestro with updated position information and estimates every 30 seconds. At each update, estimates are re-calculated and the flight's position in the sequence, `STA_FF`, and `STA` may be re-calculated depending on its state.
-
-### Departure Airports and Pending List
-
-Flights from departure airports or flights not tracking via a feeder fix are automatically placed in the Pending list when their FDR is activated. These flights must be manually inserted into the sequence by the flow controller.
-
-Flights from departure airports can be inserted prior to departure to allow them to absorb any required delay on the ground if possible.
-
-### Sequencing Algorithm
-
-Maestro calculates landing times (`STA`) based on the landing estimate (`ETA`). If the time between two consecutive flights is less than the acceptance rate, the later flight is delayed to achieve the desired separation. The `STA` will never be earlier than the `ETA` unless a flight is moved by controller input.
-
-The `STA_FF` is calculated by subtracting the arrival `ETI` (estimated time interval) from the `STA`. The arrival `ETI` is pre-defined per-feeder fix, approach type, aircraft type, and runway.
+Maestro calculates landing times (`STA`) based on estimates (`ETA`) and applies delays when the time between consecutive flights is less than the acceptance rate. The `STA_FF` is calculated by subtracting the arrival `ETI` from the `STA`.
 
 ### The Timeline
 
