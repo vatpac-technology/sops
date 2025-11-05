@@ -17,45 +17,49 @@ An additional Non-Standard position for Sydney ACD will be used
 ## Workload Management
 Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../client/towerstrips/#recommended-workflow). 
 
-## Airways Clearance Delivery (ACD)
-### Flight Plan Compliance
-Ensure **all flight plans** are checked for compliance with the approved WF Route:
+!!! tip
+    The following OzStrips [keyboard shortcuts](../../../client/towerstrips.md#keyboard-shortcuts) may assist controllers managing busy frequencies:
 
-`DCT TESAT A576 KADOM H44 MAXEM Q60 KAKLU H309 AD DCT`
+    - `T`: Selects the strip of the last aircraft to transmit on frequency  
+    - `W`: Highlight the strip of the last aircraft to transmit on frequency
+
+## Airways Clearance Delivery (ACD)
+### Route Restrictions
+Due to the limited capacity of NZAA, pilots must obtain a booking to fly from YSSY to NZAA. Any aircraft without a booking **will not** be issued with a clearance to NZAA and should instead disconnect and refile a flight plan to **NZOH** (the designated event alternate aerodrome).
+
+OzStrips will flag any aircraft filed to NZAA without a valid booking.
+
+<figure markdown>
+![Aircraft without Valid Slot Booking](../img/ozstrips-noslot.png){ width="500" }
+<figcaption>Aircraft without Valid Slot Booking</figcaption>
+</figure>
+
+**SY-C_DEL** should identify any aircraft who have planned to NZAA without a booking and send the following **private message** via vatSys:
+
+!!! phraseology "Private Message"
+    *Event bookings are required for all flights to NZAA. You do not have a valid booking. Clearance not available until after time 0000Z. Amended destination NZOH is available without additional delay if you'd like to refile. Please file route: DCT CAWLY M636 SASRO GULUT BINIT DCT*
+
+
+### Flight Plan Compliance
+Ensure **all flight plans** are checked for compliance with the approved WF Routes:
+
+ADES **NZAA**: `DCT EVONN L521 LUNBI DCT`  
+ADES **NZOH**: `DCT CAWLY M636 SASRO GULUT BINIT DCT`
 
 **OzStrips** will flag any *non-compliant* WF route.
 
 If an aircraft has filed an *incorrect* route and you need to give an amended clearance, this amendment must be specified by **individual private message**, prior to the PDC.
 
-!!! phraseology
-    **SY-C_DEL:** *"AMENDED ROUTE CLEARANCE. CLEARED TO YPAD VIA KADOM H44 MAXEM Q60 KAKLU H309 AD DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
+!!! phraseology "Private Message"
+    *AMENDED ROUTE CLEARANCE. CLEARED TO NZAA VIA EVONN L521 LUNBI DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC.*
 
 ### WorldFlight Teams
-[WorldFlight Teams](../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
-
-!!! tip
-    The [vatSys Events Plugin](https://github.com/badvectors/EventsPlugin){target=new} will also highlight WF Teams, as shown below. Click on the link to install it, or alternatively, use the [Plugin Manager](https://github.com/badvectors/PluginManager){target=new}
-
-    <figure markdown>
-    ![WF Team Highlight with Events Plugin](../../img/wfteam.png){ width="400" }
-    <figcaption>WF Team Highlight with Events Plugin</figcaption>
-    </figure>
-
-### Strip Setup
-By default, vatSys strips will be set to show in *Alphabetical* Order.  
-This must be changed to be ordered by **Time**, as shown below.
+[WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by OzStrips and should receive priority at all stages of flight.
 
 <figure markdown>
-![Strips Menu](../../img/strip1.png){ width="500" }
-    <figcaption>Strips Menu</figcaption>
+![WF Team Highlight in OzStrips](../img/wfteamozstrips.png){ width="500" }
+<figcaption>WF Team Highlight in OzStrips</figcaption>
 </figure>
-
-<figure markdown>
-![Change to Time](../../img/strip2.png){ width="500" }
-    <figcaption>Change to Time</figcaption>
-</figure>
-
-By default, the OzStrips Preactive bay will already be ordered by when the aircraft connected to VATSIM, from bottom to top.
 
 ### Dual ACD Controller Operations
 YSSY will have a non-standard second ACD Controller.
@@ -63,8 +67,10 @@ YSSY will have a non-standard second ACD Controller.
 #### SY-C_DEL
 **SY-C_DEL** will be responsible for:
 
+- Checking [Route Restrictions compliance](#route-restrictions)
 - Checking [Flight Plan compliance](#flight-plan-compliance)
 - Entering Flight Data (Setting [Runway](#runway-selection), [SID](#sid-selection) and [CFL](../../../../aerodromes/classc/Sydney/#auto-release))
+- Entering [Assigned Heading](#sid-selection) to OzStrips [Departure Heading field](../../../client/towerstrips.md#strips)
 - Sending [PDCs](#pdcs)
 
 SY-C_DEL has *no frequency*, and will not talk to aircraft by voice.
@@ -75,26 +81,40 @@ Work through the OzStrips Preactive bay from *bottom to top* when sending PDCs.
 **SY_DEL** will be responsible for:
 
 - Handling [PDC](#pdcs) Readbacks
-- All the tasks of [SY-C_DEL](#sy-c_del) for aircraft that call for clearance
+- All the tasks of [SY-C_DEL](#sy-c_del) for aircraft that call for voice clearance
 
 ### Runway Selection
 By default, assign aircraft the departure runway that corresponds to their departure apron (ie, **16L/34R** on *East* Apron, **16R/34L** on *West* Apron).
 
-### SID Selection
-Non-Standard SIDs are in use for Runway 16L and 34R.
+#### NZOH Exception
+Aircraft with ADES **NZOH** shall be assigned Runway **16R** or **34L**, regardless of departure apron.
 
-| Runway | SID |
-| ---------- | --- |
-|  16R  | GROOK1KADOM |
-|  34L  | KADOM1 |
-|  16L/34R  | SY3 |
+### SID Selection
+The **SY3** RADAR SID will be in use for all Runways.
+
+**SY-C_DEL** shall enter the appropriate assigned heading into the OzStrips [Departure Heading field](../../../client/towerstrips.md#strips) when assigning the SID, in accordance with the table below:
+
+| Runway | ADES | Assigned Heading |
+| ---------- | --- | --- |
+|  16L  | All | H140 |
+|  16R  | NZAA<br>NZOH | H320<br>H170 |
+|  34L  | All | H170 |
+|  34R  | All | H070 |
 
 ### Departure Frequency
-Departures from Runway 16R and 34L shall be given the SDN frequency (123.0).  
-Departures from Runway 16L and 34R shall be given the SDS frequency (129.7).
+Departures Frequency will be as per the following table:
+
+| Runway | ADES | Departures Frequency |
+| ---------- | --- | --- |
+|  16L  | All | 129.7 |
+|  16R  | NZAA<br>NZOH | 123.0<br>129.7 |
+|  34L  | All | 129.7 |
+|  34R  | All | 123.0 |
 
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect, prioritising those who connected first. Upon successful readback of the PDC, ACD shall direct the pilot to contact Coordinator when ready for pushback or taxi.
+
+The [PDC Indicator](../../../client/towerstrips.md#strips) will be displayed on a strip when a PDC has been sent to that pilot.
 
 !!! tip
     OzStrips displays strips in the Preactive bay ordered by connection time. Aircraft who connected first are shown down the bottom of the bay.
@@ -108,75 +128,100 @@ Coordinator operations shall be conducted in accordance with the Sydney Aerodrom
 ### OzStrips
 All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../../../client/towerstrips/#recommended-workflow) for OzStrips.
 
-Coordinator must place a `MONITOR GROUND EAST` & `MONITOR GROUND WEST` bar in the **Cleared Bay Queue** and queue any aircraft who request pushback or taxi (if no pushback required) in the Cleared Bay.
+Coordinator must place a `STANDBY FOR GROUND EAST` & `STANDBY FOR GROUND WEST` bar in the **Cleared Bay Queue** and queue any aircraft who request pushback or taxi (if no pushback required) in the Cleared Bay.
 
 <figure markdown>
-![Coordinator Bars](../../img/coordinatorbars.png){ width="500" }
+![Coordinator Bars](../img/coordinatorbars.png){ width="500" }
 </figure>
 
-When less than **three** strips are present below a particular `MONITOR GROUND` bar, Coordinator may instruct the bottom most aircraft in the queue to monitor that SMC frequency.
-
-A Custom `PDC SENT` bar should be created in the Preactive window, to keep track of who has and hasn't received a PDC.
+When less than **three** strips are present below a particular `STANDBY FOR GROUND` bar, Coordinator may instruct the bottom most aircraft in the queue to standby for that SMC frequency.
 
 <figure markdown>
-![Coordinator Strips](../../img/coordinatorstrips.png){ width="500" }
+![Coordinator Strips](../img/coordinatorstrips.png){ width="500" }
     <figcaption>An example of the Coordinator layout</figcaption>
 </figure>
 
-If three strips are already present below a respective bar, any subsequent aircraft who request pushback must be instructed to remain on the Coordinator frequency, and an estimated delay given if known. Place these strips in the **Cleared Bay Queue**, but above the respective `MONITOR GROUND` bars. The bottom-most strip is always at the front of any queue.
+If three strips are already present below a respective bar, any subsequent aircraft who request pushback must be instructed to remain on the Coordinator frequency, and an estimated delay given if known. Place these strips in the **Cleared Bay Queue**, but above the respective `STANDBY FOR GROUND` bars. The bottom-most strip is always at the front of any queue.
 
 !!! phraseology
     **QFA452**: "Sydney Coordinator, Qantas 452, bay 5, request pushback"  
-    **SY COORD**: "Qantas 452, Sydney Coordinator, monitor ground 121.7"  
+    **SY COORD**: "Qantas 452, Sydney Coordinator, standby for ground 121.7"  
     ...  
     **VOZ318**: "Sydney Coordinator, Velocity 318, bay 39, request pushback"  
     **SY COORD**: "Velocity 318, Coordinator, remain this frequency, approximate 5 minute delay due traffic congestion"
 
 !!! warning "Important"
-    Ensure aircraft are [squawking mode C and the correct code](../../../../client/towerstrips/#strips) before instructing them to monitor ground.
+    Ensure aircraft are [squawking mode C and the correct code](../../../../client/towerstrips/#strips) before instructing them to standby for ground.
 
 ### Delay Expectation
 Aircraft can expect **extensive** delays for Pushback during the event, possibly *multiple hours*. Try to keep pilots informed of their delay expectation, either by providing a figure in minutes, or a position in the queue.
 
 !!! phraseology
     **JST764**: "Sydney Coordinator, JST764, bay 55, request pushback"  
-    **SY COORD**: "JST764, Coordinator, remain this frequency, number 62 in the queue"
+    **SY COORD**: "JST764, Coordinator, remain this frequency, number 22 in the queue"
 
 ## Surface Movement Control (SMC)
 ### OzStrips
 With two SMC controllers online, utilise [strip bay bars](../../../../client/towerstrips/#multiple-adcsmc-positions) to keep the **Taxi** and **Holding Point** strip bays organised.
 
 ### Departures
-With Coordinator online, aircraft will request pushback on the Coordinator frequency and be told to monitor the applicable SMC frequency when appropriate. These pilots will be waiting for you to initiate contact with them.
+With Coordinator online, aircraft will request pushback on the Coordinator frequency and be told to standby for the applicable SMC frequency when appropriate. These pilots will be waiting for you to initiate contact with them.
 
-When workload (and holding point congestion) allows, issue pushback to the **bottom most** aircraft below the `MONITOR GROUND EAST` or `MONITOR GROUND WEST` bar (as appropriate) and move the strip to the **Pushback Bay**.
+When workload (and holding point congestion) allows, issue pushback to the **bottom most** aircraft below the `STANDBY FOR GROUND EAST` or `STANDBY FOR GROUND WEST` bar (as appropriate) and move the strip to the **Pushback Bay**.
 
 !!! warning "Important"
     It is preferable to hold aircraft on the bay (where they aren't blocking taxiways or burning their holding fuel) when congestion leads to blocked holding points. Issue pushback with enough lead time to prevent large gaps in the departure sequence.
 
-### A388 Taxi Routes
-[YSSY Aerodrome Ground Movement Chart](https://www.airservicesaustralia.com/aip/current/dap/SSYAG01-175_05SEP2024.pdf){target=new} specifies taxi routes for A388 aircraft. These must be **disregarded** for the event, and standard taxiways must be used for A388 aircraft to facilitate orderly flow of traffic.
+### Non-Standard Taxiway Usage
+To faciliate departures from both runways, during **34 PROPS only**, the following taxiways shall be utilised exclusively for their listed purpose:
+
+| Taxiway | Usage |
+| --- | --- |
+| Bravo | Southbound for **RWY 34L** only |
+| Charlie | Southbound for **RWY 34R** only |
+
+!!! warning "Important"
+    As a result of these taxiway usage assignments, it will not be possible to taxi arriving aircraft to the apron during 34 PROPS.
+
+    Enroute controllers will strongly encourage any inbound aircraft to divert, but should an aircraft land, they should be instructed to disconnect on, or after vacating, the runway.
+
+#### Eastern Apron to 34L
+Aircraft from the *Eastern Apron* assigned Runway **34L** (which may include Heavy traffic and/or NZOH departures) shall be instructed to taxi via **Charlie**, and use Holding Point **Lima** for departure.
 
 ### Separation Assurance
 Both SMC positions must be careful to ensure separation is assured at all times, particularly through the complex taxiway intersections at Sydney.
 
-With runways 34L/R in use for departures, SMC East should consider instructing aircraft taxiing southbound on Charlie to initially hold short of Golf (to avoid conflict with aircraft taxiing from DOM2 and eastward). After crossing the runway, consider instructing aircraft to hold short of Bravo 10 (to avoid conflict with inbound aircraft from 34R). Inbound aircraft should be instructed to hold short of Bravo 8 (to give way to aircraft vacating 34L at the rapid exit).
+With runways 34L/R in use for departures, SMC East should consider instructing aircraft taxiing southbound on **Charlie** to initially hold short of **Golf** (to avoid conflict with aircraft taxiing from DOM2 and eastward). After crossing the runway, consider instructing aircraft to hold short of **Bravo 10** (to avoid conflict with inbound aircraft from 34R). Inbound aircraft should be instructed to hold short of **Bravo 8** (to give way to aircraft vacating 34L at the rapid exit).
 
-During PROPS, maximum use of runway 07/25 should be utilised to enable an east/westbound split between taxiway Golf and the runway.
+During PROPS, maximum use of runway **07/25** should be utilised to enable an east/westbound split between taxiway **Golf** and the runway.
 
-SMC West should protect the Alpha 2 rapid exit and utilise taxiways Yankee and Juilet as a second path for aircraft when Golf and Alpha are already occupied. Be careful taxiing outbound aircraft south of Juliet while an aircraft is landing on runway 34L, as they will plan to vacate via Alpha 2.
+SMC West should protect the **Alpha 2** rapid exit and utilise taxiways **Yankee** and **Juliet** as a second path for aircraft when **Golf** and **Alpha** are already occupied. Be careful taxiing outbound aircraft south of **Juliet** while an aircraft is landing on runway 34L, as they will plan to vacate via **Alpha 2**.
+
+### A388 Taxi Routes
+The YSSY `Aerodrome Ground Movement Chart` specifies taxi routes for A388 aircraft. These must be **disregarded** for the event, and standard taxiways must be used for A388 aircraft to facilitate orderly flow of traffic.
 
 ## Tower Control (ADC)
 ### OzStrips
 With two SMC controllers online, utilise [strip bay bars](../../../../client/towerstrips/#multiple-adcsmc-positions) to keep the **Holding Point** and **Runway** strip bays organised.
 
 ### Departure Spacing
-While PROPS are in use, subsequent departures from the same runway **must** be spaced by **3 minutes**, to assist with arrival flow in to YPAD.
+While PROPS are in use, subsequent departures from the same runway **must** be spaced by **2 minutes**, to assist with arrival flow in to NZAA.
 
-If a single runway is in use for departures, subsequent departures **must** be spaced by **90 seconds**.
+!!! note
+    This spacing may be amended at any time during the event by the Event Coordinator
 
 ### SY3 Assigned Heading
-Runway 16L/34R Departures will be assigned the **SY3** RADAR SID, with an Assigned Heading of **H120**.
+Aircraft assigned the **SY3** RADAR SID shall be assigned a heading in accordance with the table below:
+
+| Runway | ADES | Assigned Heading |
+| ---------- | --- | --- |
+|  16L  | All | H140 |
+|  16R  | NZAA<br>NZOH | H320<br>H170 |
+|  34L  | All | H170 |
+|  34R  | All | H070 |
+
+!!! warning "Important"
+    **SY-C_DEL** will enter the relevant assigned heading into the OzStrips [Departure Heading field](../../../client/towerstrips.md#strips) when formatting the strip. Ensure the assigned heading is correct, paying particular attention to departures from runway 16R and their destination.
 
 ### Runway Vacating Instructions
 To avoid creating conflict for SMC, ADC shall instruct all arriving aircraft to vacate via the following exits when issued a landing clearance:
@@ -184,25 +229,28 @@ To avoid creating conflict for SMC, ADC shall instruct all arriving aircraft to 
 | Landing Runway | Exit |
 | -------------- | ---- |
 | 16R | B7 (left) or A4 (right) |
-| 16L | T3 or T4 |
+| 16L | T3 or T4 (depending on aircraft type) |
 | 34L | A2 (left) or B9 (right) |
-| 34R | T2 or U1 |
+| 34R | T2 or U1 (depending on aircraft type) |
 
 !!! phraseology
     **SY ADC**: "JST554, vacate via B9 to the right, runway 34L, cleared to land"
 
 ## ATIS
-The ATIS OPR INFO shall include:  
-`EXP CLR VIA PDC, ALL ACFT EXP INTERSECTION DEPARTURE`
+In addition to all normal OPR INFO entries, the OPR INFO shall include:  
+`EXP CLR VIA PDC, ALL ACFT EXP INTERSECTION DEPARTURE, EXP DEPARTURE DELAYS DUE EVENT, DESTINATION AUCKLAND ONLY AVBL WITH EVENT BOOKING FM TIME 2100 TIL TIME 0000`
 
 ## Coordination
 ### SY TCU
 #### Auto Release
-Standard as per [YSSY Local Instructions](../../../../aerodromes/classc/Sydney/#auto-release), with the exception of auto-release being available for the following:
-
-- 16L/34R Departure SID: **SY3** RADAR
-- 16L/34R Standard Assignable Departure Heading: **H120**
+Standard as per [YSSY Local Instructions](../../../../aerodromes/classc/Sydney/#auto-release), with the exception of auto-release being available for aircraft assigned the SY3 SID with the [Standard Assignable Heading](#sy3-assigned-heading)
 
 #### Departures Controller
-Departures from Runway 16R and 34L shall be handed off to SDN.  
-Departures from Runway 16L and 34R shall be handed off to SDS.
+Departures Controller will be as per the following table:
+
+| Runway | ADES | Departures Controller |
+| ---------- | --- | --- |
+|  16L  | All | SDS |
+|  16R  | NZAA<br>NZOH | SDN<br>SDS |
+|  34L  | All | SDS |
+|  34R  | All | SDN |

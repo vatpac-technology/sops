@@ -39,7 +39,7 @@ To mitigate this, pushback requests may be done on **ACD** frequency, to balance
 When the Event plugin is being used to manage slot bookings, aircraft that are compliant with their booked slot time should be moved to the **front** of the queue.
 
 <figure markdown>
-![COBT Slot Time](../img/slottime.png){ width="200" }
+![COBT Slot Time](./img/slottime.png){ width="200" }
   <figcaption>COBT Slot Time</figcaption>
 </figure>
 

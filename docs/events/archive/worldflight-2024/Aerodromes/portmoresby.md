@@ -34,7 +34,7 @@ If an aircraft has filed an *incorrect* route and you need to give an amended cl
     The [vatSys Events Plugin](https://github.com/badvectors/EventsPlugin){target=new} will also highlight WF Teams, as shown below. Click on the link to install it, or alternatively, use the [Plugin Manager](https://github.com/badvectors/PluginManager){target=new}
 
     <figure markdown>
-    ![WF Team Highlight with Events Plugin](../../img/wfteam.png){ width="400" }
+    ![WF Team Highlight with Events Plugin](../img/wfteam.png){ width="400" }
     <figcaption>WF Team Highlight with Events Plugin</figcaption>
     </figure>
 
@@ -43,12 +43,12 @@ By default, vatSys strips will be set to show in *Alphabetical* Order.
 This must be changed to be ordered by **Time**, as shown below.
 
 <figure markdown>
-![Strips Menu](../../img/strip1.png){ width="500" }
+![Strips Menu](../img/strip1.png){ width="500" }
     <figcaption>Strips Menu</figcaption>
 </figure>
 
 <figure markdown>
-![Change to Time](../../img/strip2.png){ width="500" }
+![Change to Time](../img/strip2.png){ width="500" }
     <figcaption>Change to Time</figcaption>
 </figure>
 
@@ -72,7 +72,7 @@ Runway 14R/32L will be used for taxiing. The Runway is released to SMC by defaul
 Standard taxi directions are shown below.
 
 <figure markdown>
-![AYPY Standard Taxi Routes](../../img/aypysmc.png){ width="700" }
+![AYPY Standard Taxi Routes](../img/aypysmc.png){ width="700" }
   <figcaption>AYPY Standard Taxi Routes</figcaption>
 </figure>
 
