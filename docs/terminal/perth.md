@@ -68,7 +68,7 @@ Aircraft wishing to conduct a scenic flight over the Perth CBD should be cleared
     **PHA:** "CYF, cleared Victor 65, maintain A015, QNH 1012"  
     **CYF:** "Cleared Victor 65, maintain A015, QNH 1012, CYF"
 
-Aircraft departing YPPH and intending to conduct the Victor 65 route will be coordinated by **PH ACD**. See [Airways Clearances](#airways-clearances).
+Aircraft departing YPPH and intending to conduct the Victor 65 route will be coordinated by **PH ACD**. See [Airways Clearances](#acd-to-tcu).
 
 ## Offline Towers
 ### JT/PEA ADC Offline

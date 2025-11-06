@@ -30,7 +30,7 @@ When WLM TCU is active above `F125` by ad-hoc release or NOTAM, **WLM-L_APP** ow
 When WLM TCU is active above `F125` by ad-hoc release, **WLM-L_APP** owns the airspace from `SFC` to `F125`, while **WLM_APP** owns the rest of WLM TMA above `F125`.
 
 <figure markdown>
-![WLM TCU Airspace](img/wlmtcu.png){ width="700" }
+![WLM TCU Airspace](img/wlm_tcu.png){ width="700" }
   <figcaption>WLM TCU Airspace</figcaption>
 </figure>
 
