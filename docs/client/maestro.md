@@ -35,9 +35,10 @@ Maestro calculates landing times (`STA`) based on estimates (`ETA`) and applies 
 
 ### The Timeline
 
-Each timeline displays flights using their `STA` (runway view) or `STA_FF` (feeder view). Each tick on the timeline corresponds to one minute.
+Each timeline displays flights at their `STA` (runway view) or `STA_FF` (feeder view).
+Each tick on the timeline corresponds to one minute.
 
-Flight labels contain (from innermost to outermost):
+Flight labels are mirrored on either side of the timeline, and contain (from innermost to outermost):
 
 1. `STA` (in feeder view) or `STA_FF` (in runway view)
 2. Assigned runway
@@ -50,6 +51,11 @@ Flight labels contain (from innermost to outermost):
 9. Delay remaining (based on the current `ETA`)
 
 The total delay required remains unchanged as the flight absorbs delay. The remaining delay progressively reduces as delay is absorbed. When the remaining delay reads `00`, all required delay has been absorbed.
+
+!!! note
+    After a flight has passed the feeder fix, the `ETA` is calculated based on the `ATO` of the feeder fix, thus, the remaining delay figure will not change once the flight enters the TMA.
+
+![Maestro Window](./img/maestro.png)
 
 ### Flight States
 
@@ -159,13 +165,23 @@ For high priority flights (generally used during busy events like WorldFlight), 
 
 ### Feeder Fix Crossing
 
-Ensure flights cross the feeder fix at the `STA_FF`. Advise TMA when a flight is more than 1 minute early or 30 seconds late.
+Ensure flights cross the feeder fix at the `STA_FF`. Use speed control, vectors, or holding to manage the aircraft's arrival time at the feeder fix.
+
+Advise TMA when a flight is more than 1 minute early or 30 seconds late.
+
+#### Crossing Restrictions
+
+In real-world operations, ATC issues aircraft with a time to cross the feeder fix. However, this can be impractical on the VATSIM network as some pilots' clocks may be out of sync, or are otherwise unable to comply with the instruction.
+Prefer using speed control, vectors, and holding. Use your best judgement if you believe the pilot can comply with a time restriction.
+
+!!! phraseology
+    **GUN:** "QFA501, cross RIVET at time 21, thence 250 knots"
 
 ### Speed Control
 
-TODO: When **no `+` symbol** is present, the aircraft should be instructed to cross the feeder fix at 250 kts for jets, 210 kts for turboprops, and profile speed for all other props.
+When no `+` symbol is present on the flight label, instruct the aircraft to cross the feeder fix at 250 kts for jets, 210 kts for turboprops, and profile speed for all other props.
 
-Aircraft with the [profile speed indicator](#the-timeline) should be instructed to cross the feeder fix at profile speed.
+Aircraft with the `+` [profile speed indicator](#the-timeline) should cross the feeder fix at profile speed.
 
 ### Close `STA_FF` Times
 
@@ -178,7 +194,7 @@ Advise the flow controller when:
 - A taxi call is received for flights bound for a Maestro airport. FMP will insert the flight into the sequence from the pending list.
 - A runway other than the assigned runway is required
 - Route changes occur (re-routing to a new feeder fix)
-- The Re-compute, de-sequence, or exchange function will be used (TODO: Clarify that enroute can perform these actions, but Flow needs to be advised wen this occurs)
+- The Recompute, Desequence, or Swap function will be used. Enroute can perform these actions, but Flow must be advised when they occur.
 
 Flow will advise enroute controllers when they are performing large changes to the sequence by sending internal coordination messages.
 
