@@ -61,6 +61,9 @@ The Western VFR Route begins at NEN and tracks inland, terminating at Burringbar
 !!! tip
     You can find details of the Western VFR Route on the [Gold Coast VTC](https://www.airservicesaustralia.com/aip/aip.asp){target=new}.
 
+### Intersection Departures
+Unless a full-length departure is operationally required, aircraft departing **Runway 32** must use the Taxiway **K** intersection for departure.
+
 ### Arrivals
 Arriving aircraft that are operating at or below `A015` may contact ADC for inbound clearance. These aircraft shall be assigned a discrete SSR code but shall not be radar identified.
 
