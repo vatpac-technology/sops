@@ -41,7 +41,7 @@ The Standard Assignable level from **MK ADC** to **MKA** is:
 | ------ | ----- |
 | All | The lower of `A060` and `RFL` |
 
-#### SMC
+#### SMC to TCU
 The controller assuming responsibility of **SMC** shall give [heads-up](../../controller-skills/coordination.md#airways-clearance) coordination to **MKA** prior to the issue of the following clearances:  
 
 - VFR departures entering MKA CTA

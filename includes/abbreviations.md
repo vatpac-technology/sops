@@ -98,6 +98,10 @@
 *[SFW]: Sydney Director West
 *[SFE]: Sydney Director East
 *[SRI]: Sydney Radar
+*[SGA]: Scherger Approach
+*[TNA]: Tindal Approach
+*[WAH]: Williamtown Approach (High)
+*[WAL]: Williamtown Approach (Low)
 *[ARL]: Brisbane (Armidale) Centre
 *[INL]: Brisbane (Inverell) Centre
 *[ISA]: Brisbane (Mt Isa) Centre

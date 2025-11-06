@@ -24,7 +24,7 @@ The vertical limits of the Coral TCUs are `SFC` to `F150`.
   <figcaption>MK TCU Structure</figcaption>
 </figure>
 
-MK ADC own the Class D airspace within MK CTR `SFC` to `A010`.
+MK ADC owns the Class D airspace within MK CTR `SFC` to `A010`.
 
 #### RK TCU
 
@@ -34,7 +34,8 @@ MK ADC own the Class D airspace within MK CTR `SFC` to `A010`.
 ![RK TCU Structure](img/rk_tcu.png){ width="952" }
   <figcaption>RK TCU Structure</figcaption>
 </figure>
-RK ADC own the Class D airspace within RK CTR `SFC` to `A010`.  
+
+RK ADC owns the Class D airspace within RK CTR `SFC` to `A010`.  
 
 ### Extending
 MKA may extend to RKA and vice versa, callsigns remain the same. See [Controller Skills](../controller-skills/extending.md) for details.
@@ -105,7 +106,7 @@ The TCU controller can suspend/resume Auto Release at any time, with the concurr
 
 The Standard Assignable level from MK/RK ADC to MKA/RKA is the lower of `A060` or the `RFL`.
 
-#### MK/RK SMC
+#### SMC to TCU
 The controller assuming responsibility of **SMC** shall give [Heads-up](../controller-skills/coordination.md#heads-up) coordination to TCU controller prior to the issue of the following clearances:  
 
 - VFR departures entering MKA/RKA CTA

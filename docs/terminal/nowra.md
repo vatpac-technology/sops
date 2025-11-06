@@ -27,8 +27,8 @@ The vertical limits of the Nowra TCU is `SFC` to `F125`. Where traffic levels (p
 - M441 (`NOTAM`)
 
 <figure markdown>
-![NW TCU Restricted Areas](img/nw_restricted_areas.png){ width="952" }
-  <figcaption>nw TCU Restricted Areas</figcaption>
+![NW TCU Restricted Areas](img/nw_restricted_areas.png){ width="700" }
+  <figcaption>NW TCU Restricted Areas</figcaption>
 </figure>
 
 **NW ADC** owns the Class C airspace in the AMB CTR from `SFC` to `A015`.

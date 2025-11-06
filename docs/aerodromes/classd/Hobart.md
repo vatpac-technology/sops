@@ -148,8 +148,8 @@ The Standard Assignable level from **HB ADC** to **HBA** is:
 | IFR | `A080` |
 | VFR | The lower of `A045` and `RFL` |
 
-#### Airways Clearance
-**HB SMC** shall give [heads-up](../../controller-skills/coordination.md#airways-clearance) coordination to HBA controller prior to the issue of the following clearances:
+#### SMC to TCU
+The controller assuming responsibility of **SMC** shall give [heads-up](../../controller-skills/coordination.md#airways-clearance) coordination to HBA controller prior to the issue of the following clearances:
 
 - VFR departures entering HBA CTA
 - Aircraft using a runway not on the ATIS

@@ -6,13 +6,19 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login ID              |
-| ------------------ | -------------- | ---------------- | --------------------------------------|
-| **Scherger TCU**   | **Scherger Approach**   | **124.200**        | **SG_APP**                                   |
+| Name                          | ID      | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
+| **Scherger Approach**         | **SGA** | **Scherger Approach**   | **124.200** | **SG_APP**    |
 
 ## Airspace
-The limits of the SG TCU are `SFC` to `F245` within 40 NM of the YBSG ARP. This may be amended by NOTAM.
+The vertical limits of the Scherger TCU are `SFC` to `F245`.
 
+<figure markdown>
+![SG TCU Structure](img/sg_tcu.png){ width="700" }
+  <figcaption>SG TCU Structure</figcaption>
+</figure>
+
+### Airspace Division
 By default, SG APP owns the Class C airspace within the SG MIL CTR `A015`-`A040`, as well as the following Restricted Areas, as detailed below:
 
 - R604A (`A040`-`F125`)  
@@ -22,11 +28,32 @@ By default, SG APP owns the Class C airspace within the SG MIL CTR `A015`-`A040`
 
 The above Restricted Areas are classified as Class C when SG APP is active.
 
+<figure markdown>
+![SG TCU Restricted Areas](img/sg_restricted_areas.png){ width="700" }
+  <figcaption>SG TCU Restricted Areas</figcaption>
+</figure>
+
 !!! note
     See [VATPAC NOTAMs](https://vatpac.org/publications/notam){target=new} for active NOTAMs which may affect military operations.
 
 ## Coordination
-### ADC
+### Enroute
+#### Departures
+Voiceless coordination is in place from SG TCU to ARA for aircraft assigned the lower of `F240` or the `RFL`.
+
+Any aircraft not meeting the above criteria must be prior coordinated to ENR.
+
+!!! phraseology
+    <span class="hotline">**SGA** -> **ARA**</span>: "ASY219, with your concurrence, will be assigned F200, for my separation with ASY404"  
+    <span class="hotline">**ARA** -> **SGA**</span>: "ASY219, concur F200"  
+
+#### Arrivals
+The Standard assignable level from ARA to SG TCU is `F130`, and tracking via WP VOR. All other aircraft must be prior coordinated.
+
+!!! abstract "Reference"
+    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
+	
+### SG ADC
 #### Airspace
 SG ADC owns the Class C airspace within the SG CTR from `SFC` to `A015`.
 
@@ -39,20 +66,3 @@ The Standard Assignable Level from  **SG ADC** to **SG TCU** is:
 | ------- | ------- |
 | All | The lower of `F240` and `RFL` | 
 
-### ISA(ARA)
-#### Departures
-Voiceless coordination is in place from SG TCU to ARA for aircraft:  
-Planned at or above `F245`: `Assigned F240`  
-Planned below `F245`: `Assigned the RFL`  
-
-Any aircraft not meeting the above criteria must be prior coordinated to ENR.
-
-!!! phraseology
-    <span class="hotline">**SG TCU** -> **ARA**</span>: "ASY219, with your concurrence, will be assigned F200, for my separation with ASY404"  
-    <span class="hotline">**ARA** -> **SG TCU**</span>: "ASY219, concur F200"  
-
-#### Arrivals
-The Standard assignable level from ARA to SG TCU is `F130`, and tracking via WP VOR. All other aircraft must be prior coordinated.
-
-!!! abstract "Reference"
-    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
