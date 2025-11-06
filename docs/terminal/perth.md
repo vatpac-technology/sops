@@ -4,11 +4,11 @@
 
 --8<-- "includes/abbreviations.md"
 
-| Name | ID | Callsign | Frequency | Login ID |
-| -----| -- | -------- | --------- | ---------------- |
-| **Perth Approach** |**PHA**| **Perth Approach**  | **123.600** | **PH_APP**| 
-| <span class="indented">Perth Departures :material-information-outline:{ title="Non-standard position"}  |PHD| Perth Departures  | 118.700 | PH_DEP |
-| <span class="indented">Perth Flow :material-information-outline:{ title="Non-standard position"} | PFL |   |    | PH_FMP  |
+| Name                          | ID      | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
+| **Perth Approach**            | **PHA** | **Perth Approach**      | **123.600** | **PH_APP**    | 
+| <span class="indented">Perth Departures :material-information-outline:{ title="Non-standard position"}  | PHD | Perth Departures | 118.700 | PH_DEP |
+| <span class="indented">Perth Flow :material-information-outline:{ title="Non-standard position"}        | PFL |                  |         | PH_FMP |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
@@ -41,10 +41,10 @@ The divisions of the airspace between **PHA**, and **PHD** change based on the R
 	</figure>
 
 === "Southwest Plan"
-<figure markdown>
-![21/24 TCU Structure](img/PH2124annotated.png){ width="700" }
-  <figcaption>21/24 TCU Structure</figcaption>
-</figure>
+	<figure markdown>
+	![21/24 TCU Structure](img/PH2124annotated.png){ width="700" }
+	  <figcaption>21/24 TCU Structure</figcaption>
+	</figure>
 
 ## Local Procedures
 ### Scenic Flights
@@ -60,13 +60,13 @@ Other levels are available at the discretion of the TCU controller but coordinat
 Aircraft wishing to conduct a scenic flight over the Perth CBD should be cleared via the Victor 65 route. **No lateral separation standard exists between Victor 65 and the extended centreline of runway 06/24**, so controllers must ensure that an alternative form of separation assurance exists.
 
 !!! phraseology
-    **VH-CYF:** "Perth Approach, CYF, Cessna 172, overhead FREM, A015, received Bravo, request Victor 65"  
+    **CYF:** "Perth Approach, CYF, Cessna 172, overhead FREM, A015, received Bravo, request Victor 65"  
     **PHA:** "CYF, squawk 0542, remain clear of class C airspace"  
-    **VH-CYF:** "Squawk 0542, remain OCTA, CYF"  
+    **CYF:** "Squawk 0542, remain OCTA, CYF"  
 
     *When clearance (reference traffic into/out of YPPH) is available:*  
     **PHA:** "CYF, cleared Victor 65, maintain A015, QNH 1012"  
-    **VH-CYF:** "Cleared Victor 65, maintain A015, QNH 1012, CYF"
+    **CYF:** "Cleared Victor 65, maintain A015, QNH 1012, CYF"
 
 Aircraft departing YPPH and intending to conduct the Victor 65 route will be coordinated by **PH ACD**. See [Airways Clearances](#airways-clearances).
 
@@ -233,7 +233,7 @@ The Standard Assignable level from PH ADC to PH TCU is:
 | -------- | ----- |
 | All | The lower of `A050` and `RFL` |
 
-#### Airways Clearances
+#### ACD to TCU
 The controller assuming responsibility of ACD shall give [heads-up](../controller-skills/coordination.md#airways-clearance) coordination to the relevant PH TCU controller prior to the issue of the following clearances:  
 
 - VFR departures into PH TCU CTA

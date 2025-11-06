@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login ID              |
-| ------------------ | --------------| -------------- | ---------------- |
-| **Pearce Approach**    | **Pearce Approach**  | **130.200** | **PE_APP**       |
+| Name                          | ID      | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
+| **Pearce Approach**           | **PEA** |  **Pearce Approach**    | **130.200** | **PE_APP**    |
 
 ## Airspace
 The PE TCU is responsible for the airspace within **20 TACAN** of PEA (that is continained within **Pearce SUA**), `SFC` to `A050`. By default, PE TCU does not border any PIY CTA.
@@ -18,9 +18,13 @@ This is all reclassified to **Class C** when PE TCU is online.
 !!! abstract "Reference"
     A helpful diagram can be found in [Pearce FIHA AD2 Supp](https://ais-af.airforce.gov.au/australian-aip){target=new}, Section 2.2.2.
 
-## Local Procedures
-### Additional Airspace Releases
-Additional airspace releases may be NOTAM'd, or coordinated between PE TCU, PH TCU and PIY, to facilitate Military Operations.
+<figure markdown>
+![PE TCU Structure](img/pe_tcu.png){ width="700" }
+  <figcaption>PE TCU Structure</figcaption>
+</figure>
+
+### Airspace Division
+Additional airspace may be released by NOTAM, or coordinated between PE TCU, PH TCU and PIY, to facilitate military operations.
 
 !!! phraseology
     <span class="hotline">**PE TCU** -> **PH TCU**</span>: "Request release of R155 Alpha and Bravo, SFC to F180, for Military Operations. My onwards with PIY"   
@@ -30,7 +34,7 @@ Additional airspace releases may be NOTAM'd, or coordinated between PE TCU, PH T
     <span class="hotline">**PIY** -> **PE TCU**</span>: "R155 Alpha and Bravo, SFC to F180, Released to you. Your onwards with PH TCU"  
 
 ## Coordination
-### PIY
+### Enroute
 #### Departures
 Voiceless for all aircraft:
  

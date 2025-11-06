@@ -124,7 +124,7 @@ The Standard Assignable level from PH ADC to PH TCU is:
 ### Departures Controller
 Refer to [Perth TCU Airspace Division](../../../terminal/perth/#airspace-division) for information on airspace divisions when **PHD** is online.
 
-### ACD to PH TCU
+### ACD to TCU
 The controller assuming responsibility of ACD shall give [heads-up](../../controller-skills/coordination.md#airways-clearance) coordination to the relevant PH TCU controller prior to the issue of the following clearances:  
 
 - VFR departures into PH TCU CTA
