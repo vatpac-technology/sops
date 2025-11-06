@@ -105,6 +105,10 @@ Additional functions:
 
 ## General Responsibilities
 
+### Recompute Function
+
+Avoid using the Recompute function unless the Change ETA_FF function is impractical. Recompute recalculates the flight's entire profile and may cause unnecessary disruption to the sequence, while Change ETA_FF allows for targeted corrections to estimate accuracy.
+
 ### Runway Assignment
 
 Maestro automatically assigns runways based on the flight's feeder fix and the current TMA configuration. The runway assignment is based on pre-configured preferences for each feeder fix.
@@ -159,10 +163,7 @@ Ensure flights cross the feeder fix at the `STA_FF`. Advise TMA when a flight is
 
 ### Speed Control
 
-Instruct all aircraft subject to delay to cross the feeder fix at:
-
-- 250 kt for jets
-- 210 kt for props
+TODO: When **no `+` symbol** is present, the aircraft should be instructed to cross the feeder fix at 250 kts for jets, 210 kts for turboprops, and profile speed for all other props.
 
 Aircraft with the [profile speed indicator](#the-timeline) should be instructed to cross the feeder fix at profile speed.
 
@@ -174,9 +175,10 @@ When two aircraft have close `STA_FF` times and longitudinal separation is requi
 
 Advise the flow controller when:
 
+- A taxi call is received for flights bound for a Maestro airport. FMP will insert the flight into the sequence from the pending list.
 - A runway other than the assigned runway is required
 - Route changes occur (re-routing to a new feeder fix)
-- The Re-compute, de-sequence, or exchange function will be used
+- The Re-compute, de-sequence, or exchange function will be used (TODO: Clarify that enroute can perform these actions, but Flow needs to be advised wen this occurs)
 
 Flow will advise enroute controllers when they are performing large changes to the sequence by sending internal coordination messages.
 
@@ -211,10 +213,11 @@ This alerts controllers that delay figures may be temporarily inaccurate and pre
 
 Regularly review the Pending list (click `DEPS`) and insert flights from departure airports at appropriate times.
 
-Coordinate with relevant units regarding pending flights. Advise them of the expected delay, and consider absorbing delay on the ground prior to departure when possible.
+Coordinate with relevant units regarding pending flights, and advise them of the expected delay.
 
 !!! tip
-    Inserting flights early allows delay to be absorbed on the ground rather than in the air.
+    Maestro will calculate delays for pending flights on the ground.
+    Advise pilots of the expected delay prior to departure to allow them to absorb the delay on the ground rather than in the air.
 
 ### Slots
 
