@@ -116,9 +116,6 @@ For non-RNAV approved IFR aircraft with a wake turbulence category of medium or 
 For non-RNAV approved IFR aircraft with a wake turbulence category of light, issue a visual departure or Radar SID  
 
 ## ATIS
-### Approach Expectation
-If visual approaches are in operation the APCH field must state `EXP VISUAL APCH`.
-
 ### Operational Info
 #### LAHSO
 When [LAHSO](#lahso) is in use, the ATIS OPR INFO shall include:  
