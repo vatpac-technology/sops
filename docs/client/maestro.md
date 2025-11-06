@@ -53,17 +53,26 @@ The total delay required remains unchanged as the flight absorbs delay. The rema
 
 ### Flight States
 
-Maestro uses various states that affect how flights are processed:
+Maestro uses various states that affect how flights are processed. Each state is indicated by a specific color on the flight label:
 
-**Unstable**: All new flights start in this state and remain unstable for at least 5 minutes. After each update, unstable flights are re-positioned in the sequence based on their calculated `ETA`, and their `STA_FF` and `STA` times are re-calculated.
+**<span style="color: rgb(255, 205, 105); background-color: rgb(160, 170, 170);">Unstable</span>**: All new flights start in this state and remain unstable for at least 5 minutes. After each update, unstable flights are re-positioned in the sequence based on their calculated `ETA`, and their `STA_FF` and `STA` times are re-calculated.
 
-**Stable**: Flights become stable 25 minutes prior to the `ETA_FF`. Stable flights keep their position in the sequence unless a flight appears, disappears, or moves before it. Stable flights can be displaced by a preceding flight being moved by controller action or a new flight entering the sequence with an earlier `ETA_FF`.
+**<span style="color: rgb(0, 0, 96); background-color: rgb(160, 170, 170);">Stable</span>**: Flights become stable 25 minutes prior to the `ETA_FF`. Stable flights keep their position in the sequence unless a flight appears, disappears, or moves before it. Stable flights can be displaced by a preceding flight being moved by controller action or a new flight entering the sequence with an earlier `ETA_FF`.
 
-**Super Stable**: Flights become super stable at the original `ETA_FF`. Super stable flights are fixed in position. All new flights are positioned after super stable flights. Super stable flights can only be moved manually by controller interaction.
+**<span style="color: rgb(255, 255, 255); background-color: rgb(160, 170, 170);">Super Stable</span>**: Flights become super stable at the original `ETA_FF`. Super stable flights are fixed in position. All new flights are positioned after super stable flights. Super stable flights can only be moved manually by controller interaction.
 
-**Frozen**: Flights become frozen within 15 minutes of the `STA`. No changes can be made to frozen flights. They remain locked in their scheduled position and time.
+**<span style="color: rgb(96, 0, 0); background-color: rgb(160, 170, 170);">Frozen</span>**: Flights become frozen within 15 minutes of the `STA`. No changes can be made to frozen flights. They remain locked in their scheduled position and time.
 
-**Landed**: Flights become landed at the `STA`. No changes can be made to landed flights. The last 5 landed flights remain in the system in case of an overshoot, after which they are automatically removed.
+**<span style="color: rgb(0, 235, 235); background-color: rgb(160, 170, 170);">Landed</span>**: Flights become landed at the `STA`. No changes can be made to landed flights. The last 5 landed flights remain in the system in case of an overshoot, after which they are automatically removed.
+
+### Delaying Action
+
+The delay figure on the flight label is color coded to indicate the suggested delaying action:
+
+- **<span style="color: rgb(0, 105, 0); background-color: rgb(160, 170, 170);">Expedite</span>**: The aircraft needs to make up the time shown (a minus sign will be in front of the delay number)
+- **<span style="color: rgb(0, 0, 96); background-color: rgb(160, 170, 170);">No delay</span>**: No delaying action required. The aircraft can maintain their profile speed.
+- **<span style="color: rgb(0, 235, 235); background-color: rgb(160, 170, 170);">Speed reduction</span>**: A short delay is required for the flight to meet their `STA`.
+- **<span style="color: rgb(235, 235, 0); background-color: rgb(160, 170, 170);">Holding recommended</span>**: Extended delay is required.
 
 ## Interactions
 
