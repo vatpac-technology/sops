@@ -22,12 +22,6 @@ See [STAR Clearances](#star-clearances)
 
 Minimum distance between arrivals at handoff to CS TCU is **10nm** (with no significant closing speed).
 
-##### MAESTRO
-If a Flow controller is online, the [MAESTRO](../../../client/maestro.md) plugin should be used to determine the landing sequence. Enroute positions must ensure they comply with any sequencing instructions set out by Flow and communicated through the plugin.
-
-!!! note
-    The MAESTRO plugin has been included in the Australia dataset by default for the event.
-
 ## STAR Clearances
 All aircraft shall be issued a STAR in accordance with the table below:
 
