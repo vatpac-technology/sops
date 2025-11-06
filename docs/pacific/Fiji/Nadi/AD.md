@@ -25,12 +25,12 @@ NFFN ADC is responsible for the NFFN CTR consisting of Class D airspace `SFC` to
 
 Refer to [Class D Tower Separation Standards](../../../../separation-standards/classd) for more information.
 
-## Maneuvering Area
+## Manoeuvring Area
 ### Responsibility
 ADC is responsible for the **C**, **D**, and **F** taxiways, as well as the grass area east of **H**.
 <figure markdown>
-![NFFN Maneuvering Area Responsibility](../img/nffnsmc.png){ width="700" }
-  <figcaption>NFFN Maneuvering Area Responsibility</figcaption>
+![NFFN Manoeuvring Area Responsibility](../img/nffnsmc.png){ width="700" }
+  <figcaption>NFFN Manoeuvring Area Responsibility</figcaption>
 </figure>
 
 ### Taxiway Restrictions
@@ -149,7 +149,7 @@ There are no controlled helipads at NFFN. Gate 10 has been reserved for helicopt
 
 There are also several privately managed helipads within the NFFN CTR, most notably near [Denarau Island](#denarau-island-operations).
 
-These helipads are outside the controlled maneuvering area and do not receive explicit takeoff/landing clearance. Helicopters using these helipads be instructed to 'report on the ground'/'report when airbourne' in lieu of an explicit clearance.
+These helipads are outside the controlled manoeuvring area and do not receive explicit takeoff/landing clearance. Helicopters using these helipads be instructed to 'report on the ground'/'report when airbourne' in lieu of an explicit clearance.
 
 ## Runway Modes
 ### Preferred Runway Modes
