@@ -80,6 +80,7 @@
 *[DAE]: Darwin Approach East
 *[ESA]: Sale Approach
 *[HBA]: Hobart Approach
+*[LMA]: Learmonth Approach
 *[LTA]: Launceston Approach
 *[MKA]: Mackay Approach
 *[RKA]: Rockhampton Approach

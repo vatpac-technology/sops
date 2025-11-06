@@ -6,17 +6,18 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login ID              |
-| ------------------ | -------------- | ---------------- | --------------------------------------|
-| **Learmonth TCU**   | **Learmonth Approach**   | **120.500**        | **LM_APP**                                   |
+| Name                          | ID      | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
+| **Learmonth Approach**        | **LMA** | **Learmonth Approach**  | **120.500** | **LM_APP**    |
 
 ## Airspace
 The limits of the LM TCU are `SFC` to `F280` within 40 DME LM. This may be amended by NOTAM.
 
-By default, LM APP owns the Class C airspace within the LM MIL CTR `A015`-`A025`, as well as the following Restricted Areas, as detailed below:
+By default, LM APP owns the Class C airspace within the LM CTR `A015`-`A025`, as well as the following Restricted Areas, as detailed below:
 
-- R859A (`A045`-`A100`)  
-- R859B (`A100`-`F280`)  
+- M858A (`A045`-`A100`)  
+- M858B (`A100`-`F280`)
+- M869B (`A100`-`F250`)
 - R860A (`A015`-`A025`)  
 - R860B (`A025`-`F280`)  
 
@@ -46,8 +47,8 @@ Voiceless coordination is in place from LM TCU to OLW for aircraft assigned the 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
 !!! phraseology
-    <span class="hotline">**LM TCU** -> **OLW**</span>: "QFA1601, with your concurrence, will be assigned F160, for my separation with JTE654"  
-    <span class="hotline">**OLW** -> **LM TCU**</span>: "QFA1601, concur F160"  
+    <span class="hotline">**LMA** -> **OLW**</span>: "QFA1601, with your concurrence, will be assigned F160, for my separation with JTE654"  
+    <span class="hotline">**OLW** -> **LMA**</span>: "QFA1601, concur F160"  
 
 #### Arrivals
 The Standard assignable level from OLW to LM TCU is `F130`, and tracking via LM VOR. All other aircraft must be prior coordinated.

@@ -710,4 +710,7 @@ SY TCU will **NOT** clear the aircraft for the approach.
     <span class="hotline">**SDN** -> **RI ADC**</span>: "TROJ57, unrestricted"  
     <span class="hotline">**RI ADC** -> **SDN**</span>: "TROJ57"  
 
-The Standard Assignable Level from **RI ADC** to **SY TCU** is the lower of `A050` or `RFL`.  
+The Standard Assignable Level from **RI ADC** to **SY TCU** is the lower of `A050` or `RFL`.
+
+### NW TCU
+All aircraft transiting between SY TCU and NW TCU require [Heads-up](../controller-skills/coordination.md#heads-up) coordination prior to the boundary; however, as soon as practical (when is the aircraft becomes airborne) is preferred. 

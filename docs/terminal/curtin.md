@@ -11,7 +11,7 @@
 | **Curtin Approach**           | **CIA** | **Curtin Approach**     | **121.000** | **CIN_APP**   |
 
 ## Airspace
-The vertical limits of the CIN TCU is `SFC` to `F200`.
+The vertical limit of the CIN TCU is `SFC` to `F200`.
 
 <figure markdown>
 ![CIN TCU Structure](img/cin_tcu.png){ width="700" }
@@ -19,12 +19,20 @@ The vertical limits of the CIN TCU is `SFC` to `F200`.
 </figure>
 
 ### Airspace Division
-By default, CIN APP owns the Class C airspace within the CIN CTR `A015`-`A035` as well as the R802A Restricted Area , defined as (`A035`-`F200`) within 25NM CIN. This may be amended by NOTAM.
+By default, CIN APP owns the Class C airspace within the CIN CTR `A015`-`A035` as well as:
+
+- R802A Restricted Area , defined as (`A035`-`F200`) within 25NM CIN.
+- R826 Restricted Area, defined as (`A015` - `A035`) in the south of the TCU.
+
+<figure markdown>
+![CIN TCU Restricted Areas](img/cin_restricted_areas.png){ width="700" }
+  <figcaption>CIN TCU Restricted Areas</figcaption>
+</figure>
 
 !!! note
     See [VATPAC NOTAMs](https://vatpac.org/publications/notam){target=new} for active NOTAMs which may affect military operations.
 
-### CIN ADC
+#### CIN ADC
 CIN ADC owns the Class C airspace within the CIN CTR from `SFC` to `A015`.
 
 ## Coordination
