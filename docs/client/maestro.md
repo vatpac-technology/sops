@@ -263,27 +263,14 @@ When scheduling a future configuration change, ensure the transition time allows
 
 ## Synchronisation
 
-### Online Mode
-
 When connected to the Maestro server, the sequence is synchronised between all connected controllers. This allows multiple controllers to view and interact with the same sequence in real-time.
 
-Connection to the Maestro server is established using the `SETUP` button in the Configuration Zone. Provide the server address and select your role.
+Connection to the Maestro server is established using the `SETUP` button in the Configuration Zone.
 
-### Roles and Permissions
+### Permissions
 
-Different roles have different levels of access to Maestro functions:
-
-| Role | Description |
-| ---- | ----------- |
-| `FMP` (Flow) | Flow management position. Full access to all functions. All processing is done locally and the sequence is shared to all other connected clients. |
-| `APP` (Approach) | Approach controller. Access to certain functions may be restricted. |
-| `ENR` (Enroute) | Enroute controller. Access to certain functions may be restricted. |
-| `ENR/FMP` or `APP/FMP` | Enroute or Approach acting as Flow. Full access when no dedicated FMP controller is online. |
-| `OBS` (Observer) | Read-only access. The sequence cannot be modified. |
-
-#### Permissions Matrix
-
-The following table shows which functions are available to each role:
+When Flow is online, different positions have different levels of access to Maestro functions.
+The following table shows which functions are available to each position:
 
 | Function | Enroute | Approach | Flow | Description |
 | -------- | ------- | -------- | ---- | ----------- |
@@ -311,10 +298,10 @@ The Online Status Indicator in the Configuration Zone displays the current conne
 
 | Status | Meaning |
 | ------ | ------- |
-| `OFFLINE` | The sequence is not synchronised with other clients. All processing is done locally, and all functions are available. |
-| `READY` | A connection to the Maestro server has been established, but no data is synchronised. This appears when connecting to the server before connecting to the VATSIM network. |
-| `FMP` | Connected to the server with the Flow role. |
-| `APP` | Connected to the server with the Approach role. |
-| `ENR` | Connected to the server with the Enroute role. |
-| `ENR/FMP` or `APP/FMP` | Connected as Enroute or Approach, but no dedicated FMP controller is online. All functions are available. |
-| `OBS` | Connected to the server with the Observer role. The sequence is read-only. |
+| `OFFLINE` | Not connected to the Maestro server. All processing is local, and all functions are available. |
+| `READY` | Connected to the Maestro server but not yet connected to VATSIM. No data is synchronised. |
+| `FMP` | Connected as Flow. Your instance processes the sequence and distributes it to other controllers. |
+| `APP` | Connected as Approach. Some functions are restricted (see [Permissions](#permissions)). |
+| `ENR` | Connected as Enroute. Some functions are restricted (see [Permissions](#permissions)). |
+| `ENR/FMP` or `APP/FMP` | Connected as Enroute or Approach with Flow authority. No dedicated Flow controller is online. All functions are available. |
+| `OBS` | Connected as Observer. The sequence is read-only. |
