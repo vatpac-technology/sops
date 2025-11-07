@@ -33,6 +33,12 @@ BUR will take responsibility for the DOS subsector, to facilitate **ENLIP** arri
 
 Minimum distance between arrivals at handoff to BAN/BAS is **10nm** (with no significant closing speed).
 
+##### MAESTRO
+If a Flow controller is online, the [MAESTRO](../../../client/maestro.md) plugin should be used to determine the landing sequence. Enroute positions must ensure they comply with any sequencing instructions set out by Flow and communicated through the plugin.
+
+!!! note
+    The MAESTRO plugin has been included in the Australia dataset by default for the event.
+
 ## STAR Clearances
 All aircraft shall be issued the **SMOKA1A** STAR for Runway **01L/19L** by default.  
 
@@ -52,6 +58,9 @@ Arrivals may, when suitable for the *sequence*, and clear of *01L/19R traffic*, 
 | ---------- | --- |
 | 01R      | MULNI |
 | 19R      | DRAIN |
+
+!!! note
+    Refer to the MAESTRO plugin for guidance on which aircraft should be re-routed.
 
 ## WorldFlight Teams
 [WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
