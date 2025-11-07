@@ -359,10 +359,10 @@ PEA is responsible for the restricted airspace within R155A and R155B. This airs
     <span class="hotline">**LEA** -> **PEA**</span>: "M166, SFC to F160, released to you. Your onwards with PH TCU"  
 
 #### Departures
-All aircraft from PE TCU to HYD require [Heads-up](../controller-skills/coordination.md#heads-up) coordination prior to the boundary, however, as soon as practical (when is the aircraft becomes airborne) is preferred. 
+All aircraft from PE TCU to HYD require [Heads-up](../../../controller-skills/coordination/#heads-up) coordination prior to the boundary, however, as soon as practical (when is the aircraft becomes airborne) is preferred. 
 
 #### Arrivals/Overfliers
-All aircraft transiting from HYD to **PE TCU** must be [Heads-up](../controller-skills/coordination.md#heads-up) coordinated prior to **20nm** from the boundary. There are no standard assignable levels; HYD and **PEA** controller must agree on a suitable level during coordination.
+All aircraft transiting from HYD to **PE TCU** must be [Heads-up](../../../controller-skills/coordination/#heads-up) coordinated prior to **20nm** from the boundary. There are no standard assignable levels; HYD and **PEA** controller must agree on a suitable level during coordination.
 
 !!! phraseology
     <span class="hotline">**LEA** -> **PEA**</span>: "via AVNEX, EGLE9, will be assigned A090"  
