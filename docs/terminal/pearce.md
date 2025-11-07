@@ -22,9 +22,9 @@ The vertical limits of the Pearce TCU is `SFC` to `F160`.
 PEA is responsible for the restricted airspace within R155A and R155B. This airspace is reclassified to **Class C** when PEA is online.
 
 <figure markdown>
-![PE TCU Restricted Areas](img/amb_restricted_areas.png){ width="952" }
-  <figcaption>AMB TCU Restricted Areas</figcaption>
-</figure>.
+![PE TCU Restricted Areas](img/pe_restricted_areas.png){ width="700" }
+  <figcaption>PE TCU Restricted Areas</figcaption>
+</figure>
 
 PE ADC owns the airspace within the Pearce CIRA (**5nm** Radius of YPEA ARP, located entirely within **R155A**) from `SFC` to `A035.
 

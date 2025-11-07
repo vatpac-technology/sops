@@ -20,13 +20,14 @@ The PH TCU is responsible for the airspace within 36 DME of the PH VOR, `SFC` to
 !!! note
     A significant portion of the TMA airspace south of the PH VOR (roughly 20 DME onwards) is classified Class E with a lower limit of `F125`. RPT aircraft frequently enter/exit the TMA via this airspace, see [Departure Procedures](#departure-procedures) for more info.
 
-When **PEA TCU** is online R155A & B is released to them from `A020` to `F160`. When R155A is active to `F160`, PH TCU airspace above R155A shall be released to **PEA TCU**.
-
 ### Reclassifications
 #### JT CTR
 JT CTR reverts to Class G when **JT ADC** is offline, and is administered by the relevant PH TCU controller.
 
 See also: [JT ADC Offline](#jtpea-adc-offline).
+
+#### PE CTR
+PE CTR reverts to Class G when **PE ADC** (or **PE TCU**) is offline, and is administed by the relevant PH TCU controller.
 
 ### Airspace Division
 The divisions of the airspace between **PHA**, and **PHD** change based on the Runway Mode.
@@ -45,6 +46,14 @@ The divisions of the airspace between **PHA**, and **PHD** change based on the R
 	![21/24 TCU Structure](img/PH2124annotated.png){ width="700" }
 	  <figcaption>21/24 TCU Structure</figcaption>
 	</figure>
+	
+#### Pearce Airspace
+When **PEA TCU** is online, they assume responsibility for the airspace in R155A and R155B from `SFC` to `F160`.
+
+<figure markdown>
+![PE TCU Restricted Areas](img/pe_restricted_areas.png){ width="700" }
+  <figcaption>PE TCU Restricted Areas</figcaption>
+</figure>
 
 ## Local Procedures
 ### Scenic Flights
