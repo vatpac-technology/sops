@@ -286,6 +286,6 @@ Where traffic permits, IFR aircraft tracking via Perth CTA from the north or eas
 **All aircraft** transiting between PE TCU and PH TCU must be heads-up coordinated prior to the boundary.
 
 !!! phraseology
-    <span class="hotline">**PH TCU** -> **PE TCU**</span>: "via PH, VIPR22, Requesting DCT PEA for ILS-Z 18L"   
-    <span class="hotline">**PE TCU** -> **PH TCU**</span>: "VIPR22, DCT PEA, A035"  
-    <span class="hotline">**PH TCU** -> **PE TCU**</span>: "A035, VIPR22"   
+    <span class="hotline">**PH TCU** -> **PEA**</span>: "via PH, VIPR22, Requesting DCT PEA for ILS-Z 18L"   
+    <span class="hotline">**PEA** -> **PH TCU**</span>: "VIPR22, DCT PEA, A035"  
+    <span class="hotline">**PH TCU** -> **PEA**</span>: "A035, VIPR22"

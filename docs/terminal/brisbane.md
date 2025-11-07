@@ -455,15 +455,15 @@ VFR aircraft require a level readback.
 All aircraft transiting from **BN TCU** to **AMB TCU** and vice versa must be [Heads-up](../controller-skills/coordination.md#heads-up) coordinated prior to the boundary. 
 
 !!! phraseology
-    <span class="hotline">**AMB TCU** -> **BN TCU**</span>: "via BN, DRGN02"  
-    <span class="hotline">**BN TCU** -> **AMB TCU**</span>: "DRGN02, `F140`"  
+    <span class="hotline">**AMA** -> **BDN**</span>: "via BN, DRGN02"  
+    <span class="hotline">**BDN** -> **AMA**</span>: "DRGN02, `F140`"  
 
 For aircraft arriving into AMB TCU there is no standard assignable level.
 
 !!! phraseology
-    <span class="hotline">**BN TCU** -> **AMB TCU**</span>: "via WACKO, STAL13, what level can I assign?"  
-    <span class="hotline">**AMB TCU** -> **BN TCU**</span>: "STAL13, `A090`"  
-    <span class="hotline">**BN TCU** -> **AMB TCU**</span>: "`A090`, STAL13"  
+    <span class="hotline">**BDN** -> **AMA**</span>: "via WACKO, STAL13, what level can I assign?"  
+    <span class="hotline">**AMA** -> **BDN**</span>: "STAL13, `A100`"  
+    <span class="hotline">**BDN** -> **AMA**</span>: "`A100`, STAL13"  
 
 ### SU ADC
 BN TCU Class G shares a tiny border with **SU ADC**, however there are no SIDs, STARs, or airways through this gap. The only possible way for an aircraft to directly enter SU ADC airspace from BN TCU's jurisdiction, is from Class G, and as such, no coordination is required to **SU ADC**. However, ensure the aircraft is transferred to the ADC at least **10nm** prior to the boundary, to facilitate their airways clearance.

@@ -115,6 +115,17 @@ Transfer these aircraft to ADC approaching the boundary.
     **ASTR203**: "118.3, ASTR203"  
 
 ## Coordination
+### Enroute
+#### Departures
+All aircraft from AMB/OK TCU to INL(All) require [Heads-up](../controller-skills/coordination.md#heads-up) coordination prior to the boundary, however, as soon as practical (when is the aircraft becomes airborne) is preferred. 
+
+#### Arrivals/Overfliers
+All aircraft transiting from INL to **AMB TCU** and **OK TCU** must be [Heads-up](../controller-skills/coordination.md#heads-up) coordinated prior to **20nm** from the boundary. Operations within **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels. GOL/DOS/BUR and **AMA**/**OKA** controller must agree on a suitable level during coordination.
+
+!!! phraseology
+    <span class="hotline">**GOL** -> **AMA**</span>: "via HUUGO, PUMA11, will be assigned A090"  
+    <span class="hotline">**AMA** -> **GOL**</span>: "PUMA11, A090"  
+
 ### AMB/OK ADC
 #### Departures
 [Next](../controller-skills/coordination.md#next) coordination is required from AMB ADC to AMB TCU for all aircraft.
@@ -134,18 +145,22 @@ The Standard Assignable level from **OK ADC** to **OKA** is:
 | -------- | ----- |
 | All | The lower of `F120` and `RFL` |
 
-### INL / BN TCU
-#### Departures
-All aircraft from AMB/OK TCU to INL(All) and BN TCU require [Heads-up](../controller-skills/coordination.md#heads-up) coordination prior to the boundary, however, as soon as practical (when is the aircraft becomes airborne) is preferred. 
-
-#### Arrivals/Overfliers
-All aircraft transiting from GOL/DOS/BUR to **AMB TCU** and **OK TCU** must be [Heads-up](../controller-skills/coordination.md#heads-up) coordinated prior to **20nm** from the boundary and aircraft from **BN TCU** to **AMB TCU** only prior to the boundary. Operations within **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels. GOL/DOS/BUR and **AMA**/**OKA** controller must agree on a suitable level during coordination.
+### BN TCU
+All aircraft transiting from **BN TCU** to **AMB TCU** and vice versa must be [Heads-up](../controller-skills/coordination.md#heads-up) coordinated prior to the boundary. 
 
 !!! phraseology
-    <span class="hotline">**GOL** -> **AMA**</span>: "via HUUGO, PUMA11, will be assigned A090"  
-    <span class="hotline">**AMA** -> **GOL**</span>: "PUMA11, A090"  
+    <span class="hotline">**AMA** -> **BDN**</span>: "via BN, DRGN02"  
+    <span class="hotline">**BDN** -> **AMA**</span>: "DRGN02, `F140`"  
 
-### AMB / OK
+For aircraft arriving into AMB TCU there is no standard assignable level.
+
+!!! phraseology
+    <span class="hotline">**BDN** -> **AMA**</span>: "via WACKO, STAL13, what level can I assign?"  
+    <span class="hotline">**AMA** -> **BDN**</span>: "STAL13, `A100`"  
+    <span class="hotline">**BDN** -> **AMA**</span>: "`A100`, STAL13"  
+
+
+### AMB/OK Internal
 All aircraft transiting between the AMB/OK TCU boundary must be heads-up coordinated.
 
 !!! phraseology
