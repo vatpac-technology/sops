@@ -169,14 +169,6 @@ Ensure flights cross the feeder fix at the `STA_FF`. Use speed control, vectors,
 
 Advise TMA when a flight is more than 1 minute early or 30 seconds late.
 
-#### Crossing Restrictions
-
-In real-world operations, ATC issues aircraft with a time to cross the feeder fix. However, this can be impractical on the VATSIM network as some pilots' clocks may be out of sync, or are otherwise unable to comply with the instruction.
-Prefer using speed control, vectors, and holding. Use your best judgement if you believe the pilot can comply with a time restriction.
-
-!!! phraseology
-    **GUN:** "QFA501, adjust speed to cross RIVET at time 21, thence 250 knots into published speeds"
-
 ### Speed Control
 
 When no `+` symbol is present on the flight label, instruct the aircraft to cross the feeder fix at 250 kts for jets, 210 kts for turboprops, and profile speed for all other props.
