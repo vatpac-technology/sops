@@ -175,7 +175,7 @@ In real-world operations, ATC issues aircraft with a time to cross the feeder fi
 Prefer using speed control, vectors, and holding. Use your best judgement if you believe the pilot can comply with a time restriction.
 
 !!! phraseology
-    **GUN:** "QFA501, cross RIVET at time 21, thence 250 knots"
+    **GUN:** "QFA501, adjust speed to cross RIVET at time 21, thence 250 knots into published speeds"
 
 ### Speed Control
 
