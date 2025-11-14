@@ -37,7 +37,7 @@ ADC (Circuit) is **not permitted** online when *Single Runway* Operations are in
 
 Refer to the [ATIS section](#runway-mode-formatting) for information on ATIS formatting when ADC (Circuit) is online.
 
-## Maneuvering Area
+## Manoeuvring Area
 All apron areas and associated taxiways are *outside* the manoeuvring area. Each run up bay is inside the manoeuvring area and taxi instructions are required to proceed to them.
 
 !!! tip

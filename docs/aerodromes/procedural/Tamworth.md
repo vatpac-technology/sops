@@ -43,7 +43,7 @@ ADC South is **not permitted** online when *Single Runway* Operations are in use
 
 Refer to the [ATIS section](#runway-mode-formatting) for information on ATIS formatting when ADC South is online.
 
-## Maneuvering Area
+## Manoeuvring Area
 ### Taxiway Restrictions
 ## Taxiways
 Taxiway B west of C is limited to 8000KG AUW and 23M MAX wingspan. Common airliners including Dash 8 Q400s will need to enter/exit runway 12L/30R via intersection C.
