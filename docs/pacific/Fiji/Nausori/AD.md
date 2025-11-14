@@ -20,7 +20,7 @@ NFNA ADC is responsible for the NFNA CTR consisting of Class D airspace `SFC` to
 </figure>
 
 Refer to [Class D Tower Separation Standards](../../../../separation-standards/classd) for more information.
-<!--- ## Maneuvering Area
+<!--- ## Manoeuvring Area
 
 ## Separation
 --->

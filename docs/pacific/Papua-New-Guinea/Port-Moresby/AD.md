@@ -20,13 +20,13 @@ AYPY ADC is responsible for the Class C Airspace within the AYPY CTR `SFC` to `A
     <figcaption>Port Moresby ADC Airspace</figcaption>
 </figure>
 
-## Maneuvering Area
-### Responsibility
+## Manoeuvring Area
+### Manoeuvring Area Responsibility
 **ADC** is responsible for Taxiways **M**, **F**, and **A** beyond the Runway 14R/32L holding points. **ADC** is also responsible for the engine runup bay (the decommissioned section of Runway 14R/32L between Taxiways **L** and **A1**). 
 
 <figure markdown>
-![AYPY Maneuvering Area Responsibility](../img/aypysmcmar.png){ width="500" }
-  <figcaption>AYPY Maneuvering Area Responsibility</figcaption>
+![AYPY Manoeuvring Area Responsibility](../img/aypysmcmar.png){ width="500" }
+  <figcaption>AYPY Manoeuvring Area Responsibility</figcaption>
 </figure>
 
 !!! note
@@ -103,7 +103,7 @@ There are no controlled helipads at AYPY. Multiple uncontrolled helipads have be
 
 Helicopters also operate from multiple points within the city of Port Moresby (which sits entirely within the AYPY CTR) and outlying villages. Notable sites include the Port Moresby General Hospital carpark (2.58NM southwest of ARP) and the Pacific International Hospital (4.57NM southwest of ARP)
 
-These helipads are outside the controlled maneuvering area and do not receive explicit takeoff/landing clearance. Helicopters using these helipads be instructed to 'report on the ground'/'report when airbourne' in lieu of an explicit takeoff/landing clearance.
+These helipads are outside the controlled manoeuvring area and do not receive explicit takeoff/landing clearance. Helicopters using these helipads be instructed to 'report on the ground'/'report when airbourne' in lieu of an explicit takeoff/landing clearance.
 
 ## Runway Modes
 ### Preferred Runway Modes
