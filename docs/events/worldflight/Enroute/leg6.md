@@ -47,6 +47,12 @@ Minimum distance between arrivals at handoff to SAN/SAS is **10nm** (with no sig
 !!! tip
     Track shortening direct to MARLN may help to close any gaps ahead of aircraft.
 
+##### MAESTRO
+If a Flow controller is online, the [MAESTRO](../../../client/maestro.md) plugin should be used to determine the landing sequence. Enroute positions must ensure they comply with any sequencing instructions set out by Flow and communicated through the plugin.
+
+!!! note
+    The MAESTRO plugin has been included in the Australia dataset by default for the event.
+
 ### Armidale (ARL)
 ARL will be responsible for issuing STAR clearances in to YSSY for aircraft tracking via **BOREE** only, and finalising the sequence using *speed control* and *vectors* in to YSSY.
 
@@ -69,6 +75,12 @@ ARL will be responsible for the ARL and MNN subsectors **only**.
     This instruction is not required for aircraft that have a clear gap in front of them in the sequence (>30nm).
 
 Minimum distance between arrivals at handoff to SAN/SAS is **10nm** (with no significant closing speed). It is important to try not to exceed **15nm**, due to the large number of arrivals.
+
+##### MAESTRO
+If a Flow controller is online, the [MAESTRO](../../../client/maestro.md) plugin should be used to determine the landing sequence. Enroute positions must ensure they comply with any sequencing instructions set out by Flow and communicated through the plugin.
+
+!!! note
+    The MAESTRO plugin has been included in the Australia dataset by default for the event.
 
 ### Cessnock (CNK)
 CNK will be responsible for finessing the sequence in to YSSY if required.
