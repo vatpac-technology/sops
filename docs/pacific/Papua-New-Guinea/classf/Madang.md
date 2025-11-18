@@ -19,7 +19,7 @@ AYMD ADC is responsible for the **Madang ATZ**; consisting of Class F airspace `
 </figure>
 
 Refer to the [PNG Local instructions](../) for more information about Class F/ATZ operations.
-<!---## Maneuvering Area
+<!---## Manoeuvring Area
 ### Responsibility
 ### Standard Taxi Routes
 ### Taxiway Restrictions

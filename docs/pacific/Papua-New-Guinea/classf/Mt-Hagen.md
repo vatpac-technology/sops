@@ -21,7 +21,7 @@ AYMH ADC is responsible for the **Mt Hagen ATZ**; consisting of Class F airspace
 Refer to the [PNG Local instructions](../) for more information about Class F/ATZ operations.
 
 <!---
-## Maneuvering Area
+## Manoeuvring Area
 ### Responsibility
 ### Standard Taxi Routes
 ### Taxiway Restrictions
@@ -77,7 +77,7 @@ There are no controlled helipads at AYMH. Multiple uncontrolled helipads have be
 
 Helicopters also operate from landing areas at Mt Kaimunga (AYXK) and Mt Kegam (AYJK) within the Mt Hagen ATZ.
 
-These helipads are outside the controlled maneuvering area and do not receive explicit takeoff/landing clearance. Helicopters using these helipads be instructed to 'report on the ground'/'report when airbourne' in lieu of an explicit takeoff/landing clearance.
+These helipads are outside the controlled manoeuvring area and do not receive explicit takeoff/landing clearance. Helicopters using these helipads be instructed to 'report on the ground'/'report when airbourne' in lieu of an explicit takeoff/landing clearance.
 
 <!--- ## SID Selection
 ## ATIS

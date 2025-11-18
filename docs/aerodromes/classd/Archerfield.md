@@ -78,7 +78,7 @@ Archerfield has three helipads located around the aerodrome:
 - The **Queensland Government Air facility** used by rescue helicopters, north of Taxiway B5
 
 !!! note
-    Both the **Northern** and **Central** helipads are inside the maneuvering area and treated like a runway, requiring a takeoff and landing clearance from AF ADC. Helicopters operating on other surfaces outside the maneuvering areas should be instructed to *"report airborne"*  or *"report on the ground"* so the controllers knows when they are active/no longer active in their airspace. 
+    Both the **Northern** and **Central** helipads are inside the manoeuvring area and treated like a runway, requiring a takeoff and landing clearance from AF ADC. Helicopters operating on other surfaces outside the manoeuvring areas should be instructed to *"report airborne"*  or *"report on the ground"* so the controllers knows when they are active/no longer active in their airspace. 
 
 ### Training Areas
 There are 3 designated helicopter training areas which can be used for training operations in ground effect and circuits. The active helicopter training area shall be nominated on the [ATIS](#helicopter-area).

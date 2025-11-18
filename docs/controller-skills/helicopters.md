@@ -108,7 +108,7 @@ Light aircraft that are operating within three times the rotor diameter of helic
     Helicopters performing air taxi (and to a lesser extent, air transit) manoeuvres generate downwash which can damange concrete surfaces over time. In the real world, controllers will try to mitigate this by encouraging ground taxis and allowing helicopters to take-off in aprons, taxiways, etc. Controllers may choose to simulate this practice when facilitating helicopter movements.
 
 ### Takeoff and Landing
-#### Runways & Maneuvering Area
+#### Runways & Manoeuvring Area
 Any takeoff or landing on any part of the manoeuvring area requires a specific takeoff or landing clearance from ADC. You should specify the location when issuing your clearance.
 
 !!! phraseology 
@@ -119,7 +119,7 @@ Any takeoff or landing on any part of the manoeuvring area requires a specific t
 #### Other Locations
 Helicopters do not necessarily need to use a runway, taxiway, or helipad to takeoff or land. Helicopters often operate from aprons, paved areas, and even flat grassed areas next to hangars.
 
-Helicopters operating from points outside the controlled maneuvering area do not receive explicit takeoff/landing clearance. Instead. helicopters using these positions are instructed to *'report on the ground'*/*'report airborne'* in lieu of an explicit clearance.
+Helicopters operating from points outside the controlled manoeuvring area do not receive explicit takeoff/landing clearance. Instead. helicopters using these positions are instructed to *'report on the ground'*/*'report airborne'* in lieu of an explicit clearance.
 
 !!! phraseology 
     **MB ADC**: "RJB, southern apron, report on the ground"  

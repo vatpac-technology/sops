@@ -20,7 +20,7 @@ ADC is responsible for the **Tokua ATZ**; consisting of Class F airspace `SFC` t
 
 Refer to the [PNG Local instructions](../) for more information about Class F/ATZ operations.
 <!---
-## Maneuvering Area
+## Manoeuvring Area
 ### Responsibility
 ### Standard Taxi Routes
 ### Taxiway Restrictions
