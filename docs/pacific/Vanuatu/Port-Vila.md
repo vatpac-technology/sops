@@ -27,7 +27,7 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 !!! warning "Important"
     NVVV ADC's airspace exceeds the default visibilty range for the TWR position in VatSys. When logging on to this position, ensure your visibility range is set to **50nm**.
 
-<!---## Maneuvering Area Responsibility
+<!---## Manoeuvring Area Responsibility
 ## Standard Taxi Routes
 ## Taxiway Restrictions
 #--->

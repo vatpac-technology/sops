@@ -1,5 +1,5 @@
 ---
-  title: 6. Brisbane (YBBN)
+  title: 4. Brisbane (YBBN)
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -16,11 +16,17 @@
 ## Workload Management
 Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../client/towerstrips/#recommended-workflow).
 
+!!! tip
+    The following OzStrips [keyboard shortcuts](../../../client/towerstrips.md#keyboard-shortcuts) may assist controllers managing busy frequencies:
+
+    - `T`: Selects the strip of the last aircraft to transmit on frequency  
+    - `W`: Highlight the strip of the last aircraft to transmit on frequency
+
 ## Airways Clearance Delivery (ACD)
 ### Flight Plan Compliance
 Ensure **all flight plans** are checked for compliance with the approved WF Route:
 
-`DCT BN H91 IGDAM H652 TESAT DCT`
+`DCT SANEG H91 IGDAM H652 TESAT DCT`
 
 **OzStrips** will flag any *non-compliant* WF route.
 
@@ -30,28 +36,11 @@ If an aircraft has filed an *incorrect* route and you need to give an amended cl
     **BN ACD:** *"AMENDED ROUTE CLEARANCE. CLEARED TO YSSY VIA SANEG H91 IGDAM H652 TESAT DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
 
 ### WorldFlight Teams
-[WorldFlight Teams](../../../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
-
-!!! tip
-    The [vatSys Events Plugin](https://github.com/badvectors/EventsPlugin){target=new} will also highlight WF Teams, as shown below. Click on the link to install it, or alternatively, use the [Plugin Manager](https://github.com/badvectors/PluginManager){target=new}
-
-    <figure markdown>
-    ![WF Team Highlight with Events Plugin](../../img/wfteam.png){ width="400" }
-    <figcaption>WF Team Highlight with Events Plugin</figcaption>
-    </figure>
-
-### Strip Setup
-By default, vatSys strips will be set to show in *Alphabetical* Order.  
-This must be changed to be ordered by **Time**, as shown below.
+[WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by OzStrips and should receive priority at all stages of flight.
 
 <figure markdown>
-![Strips Menu](../../img/strip1.png){ width="500" }
-    <figcaption>Strips Menu</figcaption>
-</figure>
-
-<figure markdown>
-![Change to Time](../../img/strip2.png){ width="500" }
-    <figcaption>Change to Time</figcaption>
+![WF Team Highlight in OzStrips](../img/wfteamozstrips.png){ width="500" }
+<figcaption>WF Team Highlight in OzStrips</figcaption>
 </figure>
 
 ### Runway Selection
@@ -69,7 +58,7 @@ Runway **01R/19R** will be the primary runway for departures.
 | Runway | SID |
 | ---------- | --- |
 | 01L  | BN4 |
-| 01R  | SANEG1 |
+| 01R  | SANEG2 |
 | 19L  | BN4 |
 | 19R  | BN4 |
 
@@ -79,6 +68,8 @@ Departures from Runway 01R and 19R shall be given the BDS frequency (118.45).
 
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect, prioritising those who connected first. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
+
+The [PDC Indicator](../../../client/towerstrips.md#strips) will be displayed on a strip when a PDC has been sent to that pilot.
 
 !!! tip
     OzStrips displays strips in the Preactive bay ordered by connection time. Aircraft who connected first are shown down the bottom of the bay.
@@ -96,10 +87,8 @@ All aerodrome controllers must be familiar with the VATPAC [recommended workflow
 
 Ensure the Queue function is used to actively to keep track of the order of requests.
 
-A Custom `PDC SENT` bar should be created in the Preactive window, to keep track of who has and hasn't received a PDC.
-
 ### A388 Parking
-There are only 6 stands suitable for A388 parking (refer to [YBBN Apron Chart](https://www.airservicesaustralia.com/aip/current/dap/BBNAP05-162_05SEP2024.pdf){target=new}). If these are all occupied, A388 aircraft must be instructed to park off-apron on grass.
+There are only 6 stands suitable for A388 parking (refer to YBBN Apron Chart). If these are all occupied, A388 aircraft must be instructed to park off-apron on grass.
 
 ## Tower Control (ADC)
 ### Departure Spacing
@@ -111,7 +100,7 @@ Runway 01L, 19L and 19R Departures will be assigned the **BN4** RADAR SID, with 
 | Runway | Assigned Heading |
 | ---------- | --- |
 | 01L      | H340 |
-| 19L      | H160 |
+| 19L      | H090 |
 | 19R      | H210 |
 
 ## ATIS
@@ -121,7 +110,7 @@ Runway 01L, 19L and 19R Departures will be assigned the **BN4** RADAR SID, with 
 | Cloud Base             | Visibility     | Approach                             |
 | -----------------------| -------------- | -------------------------------------|
 | >3000FT                | >5000M         | `EXP INDEP VISUAL APCH. DO NOT PASS THRU ASSIGNED RWY CL` |
-| Between 2000FT & 3000FT| >5000M         | `EXP INSTR APCH THEN INDEP VISUAL APCH WHEN VISUAL`|
+| Between 2000FT & 3000FT| >5000M         | `EXP INST APCH THEN INDEP VISUAL APCH WHEN VISUAL. DO NOT PASS THRU ASSIGNED RWY CL`|
 | Below 2000FT **or**    | <5000M         | `EXP INSTR APCH`                |
 
 #### 19 PROPS
@@ -143,8 +132,8 @@ Available for aircraft assigned `A060`, and:
 | Runway | SID | Assigned Heading |
 | ---------- | --- | --- |
 | 01L  | BN4 | H340 |
-| 01R  | SANEG1 | - |
-| 19L  | BN4 | H160 |
+| 01R  | SANEG2 | - |
+| 19L  | BN4 | H090 |
 | 19R  | BN4 | H210 |
 
 #### Departures Controller

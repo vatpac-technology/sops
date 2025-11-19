@@ -7,41 +7,84 @@
 ## Airspace Division
 Non-Standard airspace division will be in use.
 
-The **solid** green line represents the SID to **KADOM**.  
-The **dashed** green line represents the *suggested vectors* for [16L/34R departures](#16l34r-departures).
+The **dashed** green lines represent the suggested vectors for [SY3 departures](#sy3-departures).
 
 ### 16 PROPS
 
 <figure markdown>
-![16 PROPS Airspace Division](../../img/16PROPS Departures.png){ width="700" }
+![16 PROPS Airspace Division](../img/16PROPS Departures.png){ width="700" }
   <figcaption>16 PROPS Airspace Division</figcaption>
 </figure>
 
 ### 34 PROPS
 
 <figure markdown>
-![34 PROPS Airspace Division](../../img/34PROPS Departures.png){ width="700" }
+![34 PROPS Airspace Division](../img/34PROPS Departures.png){ width="700" }
   <figcaption>34 PROPS Airspace Division</figcaption>
 </figure>
 
-## 16L/34R Departures
-Departures from 16L/34R will be assigned the **SY3** SID with a heading of **H120**. SDS must then vector the aircraft south of the 16R/34L Departures. Aircraft will be handed off to KAT on a Heading of **H260**.
+## SY3 Departures
+Departures from all runways will be assigned the **SY3** SID with an assigned heading in accordance with the table below:
+
+| Runway | ADES | Assigned Heading |
+| ---------- | --- | --- |
+|  16L  | All | H140 |
+|  16R  | NZAA<br>NZOH | H320<br>H170 |
+|  34L  | All | H170 |
+|  34R  | All | H070 |
+
+Aircraft for **NZAA** shall be subsequently processed with the following tracking instructions:
+
+| Departure Runway | Tracking Instructions |
+| --- | --- |
+| 16L | **H140** until approx 30DME, then **DCT GEROS** |
+| 16R | **H320** until approx 15DME, then **H070** |
+| 34L | **H170** until approx 20DME, then **DCT GEROS** |
+| 34R | **H070** |
+
+Aircraft for **NZOH** shall be subsequently processed with the following tracking instructions:
+
+| Departure Runway | Tracking Instructions |
+| --- | --- |
+| 16R | **H170** until south of the NZAA stream, then **DCT PLUGA** |
+| 34L | **H170** until south of the NZAA stream, then **DCT PLUGA** |
+
+Aircraft shall be handed off to OCN assigned the **final instruction** in the tables above.
+
+## WorldFlight Teams
+[WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
+
+<figure markdown>
+![WF Team Highlight](../img/wfteam.png){ width="400" }
+<figcaption>WF Team Highlight</figcaption>
+</figure>
 
 ## Coordination
 ### SY ADC
 #### Auto Release
-Standard as per [SY TCU Local Instructions](../../../../../../terminal/sydney/#sy-adc), with the exception of:
+Standard as per [YSSY Local Instructions](../../../../aerodromes/classc/Sydney/#auto-release), with the exception of auto-release being available for aircraft assigned the SY3 SID with the [Standard Assignable Heading](#sy3-assigned-heading)
 
-- 16L/34R Departure SID: **SY3** RADAR
-- 16L/34R Standard Assignable Departure Heading: **H120**
+#### Departures Controller
+Departures Controller will be as per the following table:
 
-### KAT
-KAT will be extending to the BIK subsector.
+| Runway | ADES | Departures Controller |
+| ---------- | --- | --- |
+|  16L  | All | SDS |
+|  16R  | NZAA<br>NZOH | SDN<br>SDS |
+|  34L  | All | SDS |
+|  34R  | All | SDN |
 
+### OCN
 Voiceless for all aircraft:
 
 - Assigned the lower of `F280` or the `RFL`; and  
-- Tracking via **KADOM**; or  
-- South of **KADOM**, Assigned **H260**
+- Tracking via **GEROS** or **PLUGA**; or  
+- Assigned **H070**
 
-All other aircraft going to KAT CTA will be **Heads-up** Coordinated.
+All other aircraft going to OCN CTA will be **Heads-up** Coordinated.
+
+!!! tip
+    Ensure assigned headings are [annotated appropriately](../../../../client/annotations/#route-and-positions) in the aircraft's label data field, to provide situational awareness to receiving controllers
+
+### WOL
+WOL will have *No Restrictions or Requirements* on Event traffic. Aircraft transiting WOL airspace can be handed off directly to OCN.
