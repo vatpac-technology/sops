@@ -91,7 +91,7 @@ In all other situations:
 ### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from NVVV ADC to NVVVA for all aircraft **entering NVVV CTA**.
 
-The Standard Assignable level from **NVVV ADC** to **NVVV_CTR** is:
+The Standard Assignable level from **NVVV ADC** to **NVVVA** is:
 
 | Aircraft | Level |
 | -------- | ----- |

@@ -6,21 +6,24 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login ID              |
-| ------------------ | -------------- | ---------------- | --------------------------------------|
-| **Townsville Approach**    | **Townsville Approach**   | **126.800**         | **TL_APP**                                   |
+| Name                          | ID      | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
+| **Townsville Approach**       | **TLA** | **Townsville Approach** | **126.800** | **TL_APP**    |
 
 ## Airspace
-### TCU
 TL TCU owns the Class C and G airspace within 36 DME TL from `SFC` to `F180`
 
 <figure markdown>
-![TL TCU/ADC Airspace Structure](img/tltcu.png){ width="2000" }
-  <figcaption>TL ADC/TCU Airspace Structure</figcaption>
+![TL TCU Structure](img/tl_tcu.png){ width="952" }
+  <figcaption>TL TCU Structure</figcaption>
 </figure>
 
-### ADC
-TL ADC owns the Class C airspace in the TL CTR (Extends to 7NM from the thresholds of Runway 01/19) from `SFC` to `A015`. This airspace is designed to facilitate Helicopter Traffic and Ciruit Traffic.
+<figure markdown>
+![TL Airspace Cross-Section](img/tltcu.png){ width="2000" }
+  <figcaption>TL Airspace Cross-Section</figcaption>
+</figure>
+
+TL ADC owns the Class C airspace in the TL CTR (Extends to 7NM from the thresholds of Runway 01/19) from `SFC` to `A015`. This airspace is designed to facilitate helicopter and ciruit traffic.
 
 ## Flow
 ### Local Knowledge
@@ -94,8 +97,8 @@ Voiceless for all aircraft:
 All other aircraft going to TBP CTA must be **Heads-up** Coordinated by TL TCU prior to the boundary.
 
 !!! phraseology
-    <span class="hotline">**TL TCU** -> **TBP**</span>: "JST729, with your concurrence, will be assigned `F160`, for my separation with QLK327D"  
-    <span class="hotline">**TBP** -> **TL TCU**</span>: "JST729, concur `F160`"  
+    <span class="hotline">**TLA** -> **TBP**</span>: "JST729, with your concurrence, will be assigned `F160`, for my separation with QLK327D"  
+    <span class="hotline">**TBP** -> **TLA**</span>: "JST729, concur `F160`"  
 
 #### Arrivals
 Voiceless for all aircraft:
@@ -106,7 +109,7 @@ Voiceless for all aircraft:
 
 All other aircraft coming from TBP CTA will be **Heads-up** Coordinated to TL TCU.
 
-### ADC
+### TL ADC
 #### Airspace
 TL ADC owns the Class C airspace in the TL CTR from `SFC` to `A015`.
 

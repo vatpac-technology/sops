@@ -357,16 +357,16 @@ By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas
 All aircraft from AMB/OK TCU to INL(All) require Heads-up coordination prior to the boundary. Expect this coordination to be completed a short time after the aircraft becomes airborne (pending controller workload).
 
 !!! phraseology 
-    <span class="hotline">**AMB TCU** -> **NSA**</span>: "via COWIE, BUCK03."  
-    <span class="hotline">**NSA** -> **AMB TCU**</span>: "BUCK03, `F190`"  
+    <span class="hotline">**AMA** -> **NSA**</span>: "via COWIE, BUCK03."  
+    <span class="hotline">**NSA** -> **AMA**</span>: "BUCK03, `F190`"  
 
 #### Arrivals/Overfliers
 All aircraft transiting from INL(All) to **OK TCU** and **AMB TCU** must be heads-up coordinated prior to **20nm** from the boundary. Operations within **OK TCU** and **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels. ENR and TCU controllers should coordinate to determine the most suitable level.
 
 !!! phraseology
-    <span class="hotline">**GOL** -> **AMB TCU**</span>: "via HUUGO, STAL13, what level can I assign?"  
-    <span class="hotline">**AMB TCU** -> **GOL**</span>: "STAL13, `A090`"  
-    <span class="hotline">**GOL** -> **AMB TCU**</span>: "`A090`, STAL13"   
+    <span class="hotline">**GOL** -> **AMA**</span>: "via HUUGO, STAL13, what level can I assign?"  
+    <span class="hotline">**AMA** -> **GOL**</span>: "STAL13, `A090`"  
+    <span class="hotline">**GOL** -> **AMA**</span>: "`A090`, STAL13"   
 
 ### TSN(HWE/FLD) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.

@@ -6,42 +6,42 @@
 
 ## Positions
 
-| Name               | ID      | Callsign       | Frequency        | Login ID              |
-| ------------------ | --------------| -------------- | ---------------- | ---------------------|
-| **Hobart Approach**  | **HBA** | **Hobart Approach**  | **125.550**       | **HB_APP**    |
-| **Launceston Approach**  | **LTA** | **Launy Approach**   | **123.800**        | **LT_APP**                 |
+| Name                          | ID      | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
+| **Hobart Approach**           | **HBA** | **Hobart Approach**     | **125.550** | **HB_APP**    |
+| **Launceston Approach**       | **LTA** | **Launy Approach**      | **123.800** | **LT_APP**    |
 
-!!! Note
-    HBA may elect to extend to LTA and vice versa, callsigns remain the same. See [Controller Skills](../controller-skills/extending.md) for details.
+
 
 ## Airspace
+The vertical limits of the Tasmanian TCUs are `SFC` to `F245`.
+
+<figure markdown>
+![Tasmania TCU Structure](img/tas_tcu.png){ width="952" }
+  <figcaption>Tasmania TCU Structure</figcaption>
+</figure>
+
+### Airspace Division
+#### LT TCU
 **LTA** owns the airspace `SFC` to `F245` within a 30nm radius of the LT VOR. LT ADC owns the Class D airspace within LT CTR `SFC` to `A015` when open.  
 
+##### LTA Release to HUO
+The Airspace on and west of the IRSOM-MORGO track `F125`-`F245` (shaded in the diagram above) is permanently released from LTA to HUO, unless coordinated otherwise.
+
+#### HB TCU
 **HBA** owns the airspace `SFC` to `F245` within the remainder of the Tasmania TMA (shown below). HB ADC owns the Class D airspace within HB CTR `SFC` to `A015` (north of runway centreline) and `A025` (south of runway centreline) when open. 
 
-<figure markdown>
-![TAS TCU](img/TASTCU.png){ width="700" }
-</figure>
-
-### LTA Release to HUO
-The Airspace on and west of the IRSOM-MORGO track `F125`-`F245` is permanently released from LTA to HUO, unless coordinated otherwise.
-
-<figure markdown>
-![LTA Release](img/ltarls.png){ width="500" }
-  <figcaption>LTA Release</figcaption>
-</figure>
+### Extending
+HBA may extend to LTA and vice versa, callsigns remain the same. See [Controller Skills](../controller-skills/extending.md) for details.
 
 ## Departure and Arrival Procedures
-### YMHB
-All aircraft should be kept on SIDs and STARs. If due to operational requirements or routing, an aircraft is unable to accept the SID or STAR, voice coordination with HUO will be required.
-
 ### YMLT
 Visual approaches are preferred into YMLT. If due to operational requirements, an aircraft is unable to accept a visual approach, coordination with **LT ADC** may be required.  
 
 Runway 32L is regularly the duty runway due to prevailing winds. To assist traffic flow in and out of the TCU, ATC will instruct aircraft to track for runway 32L via one of the following routes:
 
-| Via              | Routing      |
-| ------------------ | --------------|
+| Via    | Routing     |
+| ------ | ----------- |
 | IRSOM  | NODAS MLTSC |
 | NUNPA  | ELREL MLTSA |
 
@@ -49,8 +49,11 @@ These routes keep arrivals within CTA and away from the departure stream(s).
 
 !!! note
     Clearing aircraft to track via one of the above routes does **not** constitute a voiceless coordination route between LTA and LT ADC. Aircraft should still be heads-up coordinated to LT ADC prior to **5 minutes** to the boundary, unless coordinated otherwise.
+	
+### YMHB
+All aircraft should be kept on SIDs and STARs. If due to operational requirements or routing, an aircraft is unable to accept the SID or STAR, voice coordination with HUO will be required.
 
-### YCBG
+#### YCBG
 Aircraft inbound to YCBG who will track via the HBA CTA should be issued an airways clearance by HBA, then passed to HB ADC when appropriate. HBA must coordinate any clearance limits issued to HB ADC. 
 
 Aircraft inbound to YCBG who will track directly from Class G airspace to the CTR should contact HB ADC for clearance.
@@ -138,7 +141,6 @@ The following calculator will generate a landing time from a feeder fix ETA, or 
     <div class="flowCalculatorFeederFixTime" data-aerodrome="YMLT"></div>
 
 ## Coordination
-
 ### Enroute
 #### Departures
 Voiceless for all aircraft:
@@ -164,7 +166,7 @@ Voiceless for all aircraft:
 
 All other aircraft coming from HUO CTA will be **Heads-up** Coordinated to TAS TCU.
 
-### HBA
+### HB ADC
 #### Airspace
 HB ADC owns the Class D airspace in the HB CTR `SFC` to `A015` north of the runway centreline and `A025` south of the runway centreline. HBA owns the Class D and C airspace above these levels.
 
@@ -188,8 +190,8 @@ The Standard Assignable level from **HB ADC** to **HBA** is:
 | IFR | `A080` |
 | VFR | The lower of `A045` and `RFL` |
 
-##### Airways Clearance
-**HB SMC** shall give [heads-up](../controller-skills/coordination.md#airways-clearance) coordination to HBA controller prior to the issue of the following clearances:
+##### SMC to TCU
+The controller assuming responsibility of **SMC** shall give [heads-up](../controller-skills/coordination.md#airways-clearance) coordination to HBA controller prior to the issue of the following clearances:
 
 - VFR departures entering HBA CTA
 - Aircraft using a runway not on the ATIS
@@ -205,7 +207,7 @@ HBA will coordinate all YMHB & YCBG arrivals to HB ADC prior to **5 mins** from 
     <span class="hotline">**HBA** -> **HB ADC**</span>: "via BUSKA, QJE1789, for the ILS"  
     <span class="hotline">**HB ADC** -> **HBA**</span>: "QJE1789, ILS"
 
-### LTA
+### LT ADC
 #### Airspace
 LT ADC owns the Class D airspace in the LT CTR `SFC` to `A015`. LTA owns the Class D and C airspace above `A015`.
 
@@ -213,9 +215,9 @@ LT ADC owns the Class D airspace in the LT CTR `SFC` to `A015`. LTA owns the Cla
 [Next](../controller-skills/coordination.md#next) coordination is not required to LTA for aircraft that are:   
 
 - Departing from a runway nominated on the ATIS; and  
--Assigned the standard assignable level; and  
--Assigned a SID; or  
--Not entering LTA CTA
+- Assigned the standard assignable level; and  
+- Assigned a SID; or  
+- Not entering LTA CTA
 
 All other aircraft require a 'Next' call to LTA. 
 

@@ -6,13 +6,22 @@
 
 ## Positions
 
-| Name               | ID      | Callsign             | Frequency        | Login ID    |
-| ------------------ | ------- | ------------------- | ---------------- | ------------------- |
-| **East Sale TMA**  | **ESA** | **Sale Approach** | **123.300**      | **ES_APP**          |
+| Name                          | ID      | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
+| **East Sale Approach**        | **ESA** | **Sale Approach**       | **123.300** | **ES_APP**    |
 
 ## Airspace
+The vertical limits of the East Sale TCU is `BCTA` to `F210`. 
 
-ESA is responsible for the restricted airspace within R360, from the base of CTA to `F210`. Typically, sectors R360A through R360F are active. The enroute controllers manage the airspace beneath the active R360 sectors, with HUO(WON) controlling the southern section and BLA controlling the northern section. Coordination with both enroute controllers is needed if online.
+<figure markdown>
+![ES TCU Structure](img/es_tcu.png){ width="700" }
+  <figcaption>ES TCU Structure</figcaption>
+</figure>
+
+The enroute controllers manage the airspace beneath the active R360 sectors, with HUO(WON) controlling the southern section and BLA controlling the northern section. Coordination with both enroute controllers is needed if online.
+
+### Airspace Division
+ESA is responsible for the restricted airspace within R360. Typically, sectors R360A through R360F are active.
 
 R393 is reserved and is activated only for special events.
 
@@ -29,9 +38,7 @@ Given the specific nature of the East Sale TCU airspace, surrounding controllers
 !!! phraseology
     <span class="hotline">**ESA** -> **BLA**</span>: "Request activation of R360 from SFC to F210"
 
-
 ## Local Procedures
-
 ### VFR Transit
 
 <figure markdown>

@@ -6,16 +6,16 @@
 
 ## Positions
 
-| Name               | ID      | Callsign       | Frequency        | Login ID              |
-| ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
-| **Sydney Approach South**    |**SAS**| **Sydney Approach**   | **128.300**         | **SY_APP**                                   |
-| <span class="indented">Sydney Approach North :material-information-outline:{ title="Non-standard position"}   |SAN| Sydney Approach   | 124.400          | SY-N_APP                                 |
-| <span class="indented">Sydney Departures South :material-information-outline:{ title="Non-standard position"}   |SDS| Sydney Departures | 129.700          | SY_DEP         |
-| <span class="indented">Sydney Departures North :material-information-outline:{ title="Non-standard position"}    |SDN| Sydney Departures  | 123.000         | SY-N_DEP          |
-| <span class="indented">Sydney Director West :material-information-outline:{ title="Non-standard position"} |SFW| Sydney Director   | 126.100          | SY-D_APP                               |
-| <span class="indented">Sydney Director East :material-information-outline:{ title="Non-standard position"} |SFE| Sydney Director   | 125.300          | SY-DE_APP                               |
-| <span class="indented">Sydney Radar :material-information-outline:{ title="Non-standard position"} :octicons-checklist-24:{ title="Non-standard position"} |SRI| Sydney Centre  | 124.550          | SY-C_DEP                               |
-| <span class="indented">Sydney Flow :material-information-outline:{ title="Non-standard position"}        |SFL|                |          | SY_FMP                              |
+| Name                          | ID      | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
+| **Sydney Approach South**     | **SAS** | **Sydney Approach**     | **128.300** | **SY_APP**    |
+| <span class="indented">Sydney Approach North :material-information-outline:{ title="Non-standard position"}     | SAN | Sydney Approach   | 124.400 | SY-N_APP |
+| <span class="indented">Sydney Departures South :material-information-outline:{ title="Non-standard position"}   | SDS | Sydney Departures | 129.700 | SY_DEP   |
+| <span class="indented">Sydney Departures North :material-information-outline:{ title="Non-standard position"}   | SDN | Sydney Departures | 123.000 | SY-N_DEP |
+| <span class="indented">Sydney Director West :material-information-outline:{ title="Non-standard position"}      | SFW | Sydney Director   | 126.100 | SY-D_APP |
+| <span class="indented">Sydney Director East :material-information-outline:{ title="Non-standard position"}      | SFE | Sydney Director   | 125.300 | SY-DE_APP|
+| <span class="indented">Sydney Radar :material-information-outline:{ title="Non-standard position"} :octicons-checklist-24:{ title="Non-standard position"} | SRI | Sydney Centre  | 124.550 | SY-C_DEP |
+| <span class="indented">Sydney Flow :material-information-outline:{ title="Non-standard position"}               | SFL |                   |          | SY_FMP  |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
@@ -713,4 +713,7 @@ SY TCU will **NOT** clear the aircraft for the approach.
     <span class="hotline">**SDN** -> **RI ADC**</span>: "TROJ57, unrestricted"  
     <span class="hotline">**RI ADC** -> **SDN**</span>: "TROJ57"  
 
-The Standard Assignable Level from **RI ADC** to **SY TCU** is the lower of `A050` or `RFL`.  
+The Standard Assignable Level from **RI ADC** to **SY TCU** is the lower of `A050` or `RFL`.
+
+### NW TCU
+All aircraft transiting between SY TCU and NW TCU require [Heads-up](../controller-skills/coordination.md#heads-up) coordination prior to the boundary; however, as soon as practical (when is the aircraft becomes airborne) is preferred. 

@@ -6,19 +6,32 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login ID              |
-| ------------------ | -------------- | ---------------- | --------------------------------------|
-| **Tindal Approach**    | **Tindal Approach**   | **120.95** | **TN_APP** |
+| Name                          | ID      | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
+| **Tindal Approach**           | **TNA** | **Tindal Approach**     | **120.950** | **TN_APP**    |
 
 ## Airspace
+The vertical limits of the Tindal TCU are `SFC` to `F190`.
+
+<figure markdown>
+![TN TCU Structure](img/tn_tcu.png){ width="700" }
+  <figcaption>TN TCU Structure</figcaption>
+</figure>
+
+## Airspace Division
 TN APP being online will activate the following Airspace by default:
 
-- TN MIL CTR `SFC`-`A025`
+- TN CTR `SFC`-`A025`
 - R249A `A015`-`A025`
 - R249B `A025`-`F190`
 - R238 `A035`-`F190`
 
-All of which are reclassified as **Class C** when active, and TN APP has Control Authority of.
+All of which are reclassified as **Class C** when active.
+
+<figure markdown>
+![TN TCU Restricted Areas](img/tn_restricted_areas.png){ width="700" }
+  <figcaption>TN TCU Restricted Areas</figcaption>
+</figure>
 
 !!! note
     TN APP may increase the upper limit of the Restricted Areas and their airspace. This must be either published by NOTAM, or negotiated with TRT(TRS) if online.
@@ -70,14 +83,14 @@ Fast jet aircraft typically transit from the SUA to YPTN at `F170`. When request
 
 !!! Example
 **CLAS45**: "Tindal Approach, CLAS45, RTBing via BOM, runway 32"
-**TN TCU**: "CLAS45, Tindal Approach, cleared stereo approach runway 32, via BOM, descend not below `A050`"  
+**TNA**: "CLAS45, Tindal Approach, cleared stereo approach runway 32, via BOM, descend not below `A050`"  
 **CLAS45**: "Cleared stereo approach runway 32, descend not below `A050`, CLAS45"
 
 !!! note
     Stereo approach charts are available in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}.
 
 ## Coordination
-### TRT(TRS)
+### Enroute
 #### Airspace
 Any airspace releases from the default setup must be coordinated and agreed upon with TRT(TRS). It is also good practice to remind them of any airspace releases that may be active due to NOTAMs.
 
@@ -93,8 +106,8 @@ Voiceless for all aircraft:
 All other aircraft going to TRT CTA must be **Heads-up** Coordinated by TN TCU prior to the boundary.
 
 !!! phraseology
-    <span class="hotline">**TN TCU** -> **TRS**</span>: "DRGN48, request DCT BEBEX"  
-    <span class="hotline">**TRS** -> **TN TCU**</span>: "DRGN48, concur DCT BEBEX"  
+    <span class="hotline">**TNA** -> **TRS**</span>: "DRGN48, request DCT BEBEX"  
+    <span class="hotline">**TRS** -> **TNA**</span>: "DRGN48, concur DCT BEBEX"  
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:

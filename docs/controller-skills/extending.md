@@ -27,8 +27,8 @@ However, should **BLA** they wish to drop **MUN**, they are no longer able to ex
 
 Controllers must ensure that when extending, they update their visibility points and have sufficient visibility coverage to cover the **entirety** of all sectors under their jurisdiction. If this is not possible (due to range limitations), that sector **must not be extended**. 
 
-##Terminal Area
-TCU controllers operating the **[Coral](../../terminal/coral)** or **[Tasmania](../../terminal/tassie)** TMAs may elect to extend to the adjacent TMA (e.g. HBA extend to LTA) at their discretion.
+## Terminal Area
+TCU controllers operating the **[Coral](../../terminal/coral)** or **[Tasmania](../../terminal/tassie)** TMAs may elect to extend to the adjacent TMA (e.g. HBA extend to LTA) at their discretion. TCU controllers operating either of **[Amberley/Oakey](../../terminal/amberleyoakey)** are *expected* to extend to the adjacent TMA.
 
 ## Frequency Management
 When providing extended coverage, controllers must have all the frequencies of the sectors they are extending to **active** and **cross-coupled**. As aircraft pass from one enroute sector to another they must be instructed to change frequency to remain in VHF coverage.
@@ -36,7 +36,7 @@ When providing extended coverage, controllers must have all the frequencies of t
 !!! phraseology
     **ISA**: "AAA225, contact me on 120.15."
 	
-    **ARL**: "FJI923, at waypoint ABARB, contact me on 124.95."
+    **LTA**: "ZYX, at waypoint MORGO, contact me on 123.800."
 	
     **HYD**: "MXD194, at time 30, contact me on 134.00."	
 
