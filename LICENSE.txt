@@ -1,0 +1,10 @@
+VATPAC Standard Operating Procedures
+Copyright (c) VATSIM Australia Pacific (VATPAC)
+
+Except where otherwise noted, the text and diagrams of the VATPAC Standard Operating Procedures are licensed under
+Creative Commons Attribution 4.0 International (CC BY 4.0) — https://creativecommons.org/licenses/by/4.0/.
+
+Safety disclaimer: Content is for flight simulation only and must not be used for real-world aviation. This disclaimer
+does not impose additional license restrictions beyond CC BY 4.0.
+
+VATPAC is a division of VATSIM and is governed by their policies and regulations.
