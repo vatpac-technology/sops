@@ -27,7 +27,7 @@ NWWW ADC is responsible for:
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
-## Maneuvering Area
+## Manoeuvring Area
 <!--### Responsibility
 ### Standard Taxi Routes --->
 ### Backtracking

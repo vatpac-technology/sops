@@ -19,7 +19,7 @@ AYNZ ADC is responsible for the Class C Airspace within the AYNZ CTR `SFC` to `A
     <figcaption>Nadzab ADC Airspace</figcaption>
 </figure>
 <!---
-## Maneuvering Area
+## Manoeuvring Area
 ### Responsibility
 ### Standard Taxi Routes
 ### Taxiway Restrictions--->
