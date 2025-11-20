@@ -126,17 +126,30 @@ There are ten [Predictable Sequencing](../../controller-skills/sequencing.md#pre
 
 The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
 
+=== "L514"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | OTGOM | ELGAT | AVPAL | +2 |
+    | OTGOM | VEKBO | AVPAL | +4 |
+    | OTGOM | DUBUL | AVPAL | +5 |
+    | OTGOM | SOVTO | AVPAL | +6 |
+    | OTGOM | ASEBI | AVPAL | +8 |
+    | OTGOM | LEDAB | AVPAL | +11 |
+    | OTGOM | NURPA | AVPAL | +13 |
+    | OTGOM | BEPKI | AVPAL | +15 |
+    | OTGOM | IGOKO | AVPAL | +17 |
+
 === "Q9"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-    | LEBOD | NUKTU | AVPAL | +1 |
-    | LEBOD | BOKAT | AVPAL | +2 |
-    | LEBOD | ELNUL | AVPAL | +3 |
-    | LEBOD | LAXIM | AVPAL | +5 |
-    | LEBOD | ISGUN | AVPAL | +8 |
-    | LEBOD | AGTIK | AVPAL | +10 |
-    | LEBOD | MEENA | AVPAL | +12 |
-    | LEBOD | SQARE | AVPAL | +14 |
+    | ELGAT | VEKBO | AVPAL | +1 |
+    | ELGAT | DUBUL | AVPAL | +2 |
+    | ELGAT | SOVTO | AVPAL | +3 |
+    | ELGAT | ASEBI | AVPAL | +5 |
+    | ELGAT | LEDAB | AVPAL | +7 |
+    | ELGAT | NURPA | AVPAL | +9 |
+    | ELGAT | BEPKI | AVPAL | +11 |
+    | ELGAT | IGOKO | AVPAL | +13 |
 
 === "Q10"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
@@ -163,13 +176,13 @@ The table below contains the estimated time from the initial waypoint to the fin
 === "Q31"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-    | NUKTU | BOKAT | AVPAL | +1 |
-    | NUKTU | ELNUL | AVPAL | +2 |
-    | NUKTU | LAXIM | AVPAL | +4 |
-    | NUKTU | ISGUN | AVPAL | +7 |
-    | NUKTU | AGTIK | AVPAL | +9 |
-    | NUKTU | MEENA | AVPAL | +11 |
-    | NUKTU | SQARE | AVPAL | +13 |
+    | VEKBO | DUBUL | AVPAL | +1 |
+    | VEKBO | SOVTO | AVPAL | +2 |
+    | VEKBO | ASEBI | AVPAL | +4 |
+    | VEKBO | LEDAB | AVPAL | +6 |
+    | VEKBO | NURPA | AVPAL | +8 |
+    | VEKBO | BEPKI | AVPAL | +11 |
+    | VEKBO | IGOKO | AVPAL | +12 |
  
 === "Q32"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
@@ -183,13 +196,11 @@ The table below contains the estimated time from the initial waypoint to the fin
 === "Q38"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-    | NUKTU | BOKAT | AVPAL | +1 |
-    | NUKTU | ELNUL | AVPAL | +2 |
-    | NUKTU | LAXIM | AVPAL | +4 |
-    | NUKTU | ISGUN | AVPAL | +7 |
-    | NUKTU | AGTIK | AVPAL | +9 |
-    | NUKTU | MEENA | AVPAL | +11 |
-    | NUKTU | SQARE | AVPAL | +13 |
+    | SOVTO | ASEBI | AVPAL | +2 |
+    | SOVTO | LEDAB | AVPAL | +4 |
+    | SOVTO | NURPA | AVPAL | +6 |
+    | SOVTO | BEPKI | AVPAL | +8 |
+    | SOVTO | IGOKO | AVPAL | +10 |
  
 === "Q41"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
@@ -206,25 +217,25 @@ The table below contains the estimated time from the initial waypoint to the fin
 === "Q73"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-	| SQARE | MEENA | AVPAL | +1 |
-    | SQARE | AGTIK | AVPAL | +2 |
-    | SQARE | ISGUN | AVPAL | +3 |
-    | SQARE | LAXIM | AVPAL | +4 |
-    | SQARE | ELNUL | AVPAL | +6 |
-    | SQARE | BOKAT | AVPAL | +7 |
-    | SQARE | NUKTU | AVPAL | +8 |
-    | SQARE | LEBOD | AVPAL | +10 |
-	
+    | IGOKO | OTGOM | AVPAL | +12 |
+    | IGOKO | ELGAT | AVPAL | +9 |
+    | IGOKO | VEKBO | AVPAL | +7 |
+    | IGOKO | DUBUL | AVPAL | +6 |
+    | IGOKO | SOVTO | AVPAL | +5 |
+    | IGOKO | ASEBI | AVPAL | +3 |
+    | IGOKO | LEDAB | AVPAL | +2 |
+    | IGOKO | NURPA | AVPAL | +1 |
+
 === "Q181"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-    | BOKAT | ELNUL | AVPAL | +1 |
-    | BOKAT | LAXIM | AVPAL | +3 |
-    | BOKAT | ISGUN | AVPAL | +6 |
-    | BOKAT | AGTIK | AVPAL | +8 |
-    | BOKAT | MEENA | AVPAL | +10 |
-    | BOKAT | SQARE | AVPAL | +12 |
-	
+    | DUBUL | SOVTO | AVPAL | +1 |
+    | DUBUL | ASEBI | AVPAL | +3 |
+    | DUBUL | LEDAB | AVPAL | +5 |
+    | DUBUL | NURPA | AVPAL | +7 |
+    | DUBUL | BEPKI | AVPAL | +9 |
+    | DUBUL | IGOKO | AVPAL | +11 |
+
 === "T12"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
