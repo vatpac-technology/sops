@@ -225,6 +225,15 @@ The table below contains the estimated time from the initial waypoint to the fin
     | BOKAT | MEENA | AVPAL | +10 |
     | BOKAT | SQARE | AVPAL | +12 |
 	
+=== "T12"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+	| OPEGA | TUTRU | DAKPO | +4 |
+    | OPEGA | BEKIG | DAKPO | +2 |
+    | DAKPO | MIGEP | KAGMI | +2 |
+    | DAKPO | AVMEK | KAGMI | +4 |
+    | DAKPO | GOPLO | KAGMI | +6 |
+	
 === "Z38"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
