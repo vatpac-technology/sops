@@ -16,6 +16,11 @@
 ## Airspace
 PE ADC owns the airspace within the Pearce CIRA (**5nm** Radius of YPEA ARP, located entirely within **R155A**) from `SFC` to `A035`. This airspace is primarily used for military circuits and initial and pitch approaches.
 
+<figure markdown>
+![PE ADC Airspace](img/peadc.png){ width="600" }
+  <figcaption>PE ADC Airspace</figcaption>
+</figure>
+
 ## Local Procedures 
 ### Initial and Pitch Procedures 
 

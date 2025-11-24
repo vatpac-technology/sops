@@ -17,7 +17,10 @@ GIG ADC owns the airspace within the GIG CIRA, which is defined as within **5nm*
 
 This airspace is primarily used for military circuits and initial and pitch approaches.
 
-Refer to the [YPEA FIHA AD2 Supp](https://ais-af.airforce.gov.au/australian-aip){target=new} for a diagram.
+<figure markdown>
+![GIG ADC Airspace](img/gigadc.png){ width="600" }
+  <figcaption>GIG ADC Airspace</figcaption>
+</figure>
 
 ## Local Procedures
 ### Initial and Pitch Procedures 
