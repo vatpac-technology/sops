@@ -350,13 +350,16 @@ YMAV arrivals and departures **do not** meet the voiceless criteria between MDS 
 Heads up coordination is required for **all aircraft** entering ML TCU Class C from MAW Class G. Heads-up coordination must be completed prior to handoff, however, best practice is to complete coordination as soon as possible.
 
 !!! phraseology
- <span class="hotline">**MAW** -> **MDN**</span>: “Departed YLIL, OXP”  
+    <span class="hotline">**MAW** -> **MDN**</span>: “Departed YLIL, OXP”  
     <span class="hotline">**MDN** -> **MAW**</span>: "OXP, A080"  
     <span class="hotline">**MAW** -> **MDN**</span>: “A080, OXP”
 
     **MAW:** "OXP cleared to YMTG via ML, flight planned route. Climb A080"
+
     **OXP:** "Cleared to YMTG via ML, flight planned route. Climb A080, OXP"
+
     **MAW:** "OXP Contact Melbourne Departures 118.9"
+    
     **OXP:** "118.9, OXP"
 
 ##### Leaving CTA
@@ -368,11 +371,16 @@ Heads-up coordination is not required from a ML TCU position to MAW for aircraft
 
 !!! phraseology
     *KDJ is intending on leaving Class C airspace on descent into YMMB. The lower limit of CTA is `A045`.*
+    
     **MDN:** "KDJ descend to A050, contact Melbourne Centre 135.7"
+
     **KDJ:** "Descend to A050, 135.7, KDJ"
 
+
     **KDJ:** "Melbourne Centre, KDJ descending A050"
+
     **MAW:** "KDJ, Melbourne Centre, leave controlled airspace descending, no reported IFR traffic"
+
     **KDJ:** "Leave controlled airspace descending KDJ"
 
 **Leaving CTA laterally**
@@ -380,10 +388,14 @@ Heads-up coordination is not required from a ML TCU position to MAW for aircraft
 
 !!! phraseology
     *BSV is an IFR C172 leaving CTA to the south at `A040`.*
+
     **MDS:** "BSV at 19 DME ML, control service terminates, contact Melbourne Centre 135.7"
+
     **BSV:** "135.7, BSV"
- 
+
+
     **BSV:** "Melbourne Centre, BSV maintaing A040"
+
     **MAW:** "BSV, Melbourne Centre, no reported IFR traffic, area QNH 1016
 
 ### EN ADC
