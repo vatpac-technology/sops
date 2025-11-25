@@ -8,12 +8,9 @@ In the real world, aerodrome controllers use strips to provide a visual represen
 
 Within vatSys, this can be emulated using the [OzStrips plugin](https://maxrumsey.xyz/OzStrips/){target=new}. Strip state is shared between controllers operating at the same aerodrome.
 
-!!! warning "Important"
-    OzStrips can be an incredibly useful tool to reduce controller workload and improve the level of service offered to pilots, but it's use is not compulsory. Controllers should revert to the default vatSys strip bays if the use of OzStrips is becoming a hinderance to themselves or surrounding controllers.
-
 ## Setup
 ### Installation
-The OzStrips plugin can be downloaded using the [vatSys Plugin Manager](https://github.com/badvectors/PluginManager){target=new}.  
+The OzStrips plugin is included by default in the Australia and Pacific vatSys profiles provided by VATPAC. Alternatively, it can be downloaded using the [vatSys Plugin Manager](https://github.com/badvectors/PluginManager){target=new}.  
 
 If the client is installed correctly, there will be an *OzStrips* option in the Window dropdown menu.
 
@@ -22,13 +19,16 @@ If the client is installed correctly, there will be an *OzStrips* option in the 
 </figure>
 
 ### Connecting
-After logging onto the network, open the plugin from the dropdown menu, and select the desired aerodrome, or type the ICAO code into the text field.
+OzStrips automatically manages the list of aerodromes available, depending on the position and sectors you have set. The desired aerodrome can be chosen from this list.
 
 <figure markdown>
 ![Select Aerodrome](../controller-skills/img/ozstripsaerodromeselect.png){ width="500" }
 </figure>
 
 A connection attempt will be made and if successful, the *CONN STAT* field in the Control Bar will turn green.
+
+!!! tip
+    Pressing `[` and `]` will cycle through the aerodromes in the dropdown menu, allowing controllers to provide top down coverage to multiple locations easily.
 
 ### Configuring Views
 Once connected to the relevant aerodrome, controllers should select the view mode which is most suitable for their position. Use the **View Mode** menu item to select a layout.
@@ -37,18 +37,14 @@ Once connected to the relevant aerodrome, controllers should select the view mod
 ![View Mode](../controller-skills/img/ozstripsviewmode.png){ width="250" }
 </figure>
 
-The size of each strip can be adjusted using the **Strip Scale** slider, under **Help** > **Settings**. Users with limited screen realestate may benefit from using a smaller strip size.
+The size of each strip can be adjusted using the **Strip Scale** slider, under **Help** > **Settings**. Users with limited screen real estate may benefit from using a smaller strip size.
 
 The plugin window will adjust to being resized, automatically collapsing into a two and single column layout, which is helpful for users with small screens.
-
-<figure markdown>
-![Single Column Layout](../controller-skills/img/ozstripsnarrow.png){ width="450" }
-</figure>
 
 By default, the height of each strip bay is fixed, however using the **Smart Resize** functionality, they can be set to a dynamic height based on the number of strips in each bay. This is helpful when using the plugin in a collapsed column layout or with limited screen height.
 
 <figure markdown>
-![Smart Resize Setting](../controller-skills/img/ozstripssmartresize.png){ width="500" }
+![Smart Resize Setting](../controller-skills/img/ozstripssmartresize.png){ width="400" }
 </figure>
 
 ## Stripboard
@@ -60,29 +56,30 @@ The stripboard is divided into multiple bays, each representing a stage in an ai
 
 Strips can be moved in between strip bays by clicking on their callsign, and clicking the bay where you want them to go. Strips can be moved to the next bay by clicking on the SID box (referred to as *SID triggering*).
 
-Selecting a track on the Ground Radar or ASD will select the relevant strip in OzStrips, and vice versa.
-
 !!! Note
     Strips can not be *SID triggered* from the **Holding Point Bay** to the **Runway Bay**, to prevent accidental placement onto the runway.
 
+Various layouts exist to handle radar towers, procedural Class D towers, and Metro D towers.
+
+### Missing Strips
+Selecting a track on the Ground Radar or ASD will select the relevant strip in OzStrips, and vice versa. If a strip is missing from the stripboard, select the ground track from the vatSys Ground window, then click the desired OzStrips bay to place the strip there.
+
+Alternatively, the Quick Search window can be opened by pressing `CTRL + F`, allowing controllers to enter a callsign and see which bay the strip resides in.
+
 ### Control Bar 
-The bottom of the window holds the Control Bar. This panel contains the server connection status, aerodrome selected and ATIS code among other elements. 
+The bottom of the window holds the Control Bar. This panel contains the server connection status, aerodrome selected and ATIS code, among other elements. 
 
 Each button has the following function:
 
 | Button | Function |
 | ------ | -------- |
-| **INHIBIT** | Removes a strip from the stripboard (used when a strip is no longer needed) |
-| **FOR STP** | Creates a strip on the stripboard for the selected aircraft (vatSys FDR must be selected before pressing button) |
-| <span style="white-space: nowrap;">**XX CROSS XX**</span> | Adds a red highlight to the selected strip, denoting a clearance to cross a runway |
-| **PDC** | Opens the default vatSys PDF editor |
+| **INHIBIT** | Hides a strip from the stripboard (used when a strip is no longer needed) |
+| <span style="white-space: nowrap;">**XX CROSS XX**</span> | Adds a red highlight to the selected strip, denoting an intention to cross a runway |
 | **ADD BAR** | Allows controllers to place a variety of fixed bars anywhere on the stripboard, reflecting status changes (e.g. autorelease cancellation or runway crossing) and allowing additional queues to be build (e.g. Sydney Coordinator functions) |
-
-!!! Note
-    PDCs through OzStrips are sent via Private Message. To send a PDC through [vatACARS](./cpdlc.md), you'll be required to dispatch it manually.
+| **FLIP FLOP** | Toggles the selected strip between Departure, Arrival & Local states (for aircraft with both ADES and ADEP fields matching the current aerodrome) |
 
 ### Strips
-The background colour of the strip corresponds to its status as an arrival or a departure. Departing aircraft have a blue strip, while arrivals have a yellow strip.
+The background colour of the strip corresponds to its status as an arrival or a departure. **Departing** aircraft have a blue strip, **arriving** aircraft have a yellow strip, and [**local**](#local-flights) aircraft have a pink strip.
 
 <figure markdown>
 ![Strip](../controller-skills/img/ozstripstrip.png){ width="600" }
@@ -91,13 +88,13 @@ The background colour of the strip corresponds to its status as an arrival or a 
 | Number | Content | Left Click | Right Click |
 |---------|-------------|--------------| ----------- |
 | **1** | **Bay Number** | Edit Bay Number | |
-| **2** | **Filed Off Blocks Time** | Cock Strip | |
+| **2** | **CDM or Off Blocks Time**<br><small>*No Background* = Filed Off Blocks Time<br>**Coloured Background** = CDM Time</small> | Cock Strip | Open CDM Information Window |
 | **3** | **Aircraft Type** | Open Flightplan | |
 | **4** | **Wake Turbulence Category** | | |
 | **5** | **Destination** | Open Flightplan | |
-| **6** | **Route Indicator** | Show Route | |
-| **7** | **Flight Rules** | | |
-| **8** | **Correct SSR Code + Mode C Received** | | |
+| **6** | **Voice Capability Indicator**<br><small>*Empty* = Voice Capable<br>**R** = Receive Only<br>**T** = Text Only</small> | Show Route | |
+| **7** | **Flight Rules** | Show Route | |
+| **8** | **PDC Sent Indicator**<br><small>*Empty* = PDC not sent<br>**P** = PDC sent</small> | Open PDC Window | Open Private Message |
 | **9** | **SSR Code** | Autogenerate Code | |
 | **10** | **Callsign** | Select Strip | |
 | **11** | **Runway** | Change Runway | |
@@ -117,89 +114,157 @@ The background colour of the strip corresponds to its status as an arrival or a 
     <figcaption>An example strip</figcaption>
 </figure>
 
-## Recommended Workflow
+#### Local Flights
+Aircraft intending to conduct operations entirely on the ADC frequency (most commonly circuits or helicopter operations in ADC jurisdiction) should be marked as a **local strip**.
+
+Select the strip, then use the [flip flop](#control-bar) button to 'flip' the strip into a pink, local strip.
+
+Aircraft who have filed flightplans which depart from and arrive back to the same aerodrome can be toggled between Departure and Arrival states using the [flip flop](#control-bar) button.
+
+!!! note
+    Only aircraft who will remain on the ADC frequency should be marked as local strips. If an aircraft will depart the aerodrome and conduct operations elsewhere, then return for landing, they should be treated as a departure. These strips should then be flipped to Arrival state when they return.
+
+## Keyboard Shortcuts
+The following keyboard shortcuts exist to improve workflow efficiency.
+
+| Shortcut | Function |
+| --- | --- |
+| `Enter` | SID trigger selected strip to next bay |
+| `Tab` | Cock/uncock selected strip |
+| `Space` | Queue/unqueue selected strip |
+| `Backspace` | Inhibit selected strip |
+| `F` | Flip (cycle between Departure, Arrival & Local states) selected strip |
+| `T` | Select the strip of the last aircraft to transmit on frequency |
+| `W` | Highlight the strip of the last aircraft to transmit on frequency |
+| `X` | Toggle crossing highlight to selected strip |
+| `Alt + X` | Toggle RUNWAY CROSSING bar in Runway Bay |
+| `[` / `]` | Change aerodrome |
+| `↑` / `↓` | Move selected strip position in the current bay |
+| `Ctrl + ↑` / `Ctrl + ↓` | Move selected strip towards nearest bar |
+| `Ctrl + F` | Open Quick Search window |
+
+## Workflow
 Due to it's shared state, OzStrips works best if all controllers follow a standardised workflow. Controllers are strongly encouraged to follow the workflow below.
 
 ### Delivery
-Format the strip of recently connected aircraft so that you can identify any problems with their filed flight plan before they request clearance. 
+<figure markdown>
+![ACD Workflow](../controller-skills/img/ozstripsworkflowacd.png){ width="800" }
+    <figcaption>An example of the ACD layout and workflow</figcaption>
+</figure>
+
+Fill out the strip of recently connected aircraft so that you can identify any problems with their filed flight plan before they request clearance. Aircraft wishing to conduct circuits or other operations remaining entirely on the ADC frequency, should be marked as [local strips](#local-flights).
+
+!!! tip 
+    With a strip selected, press `F` to flip it between Departure, Arrival, and Local states.
 
 #### Issuing Clearance
 When an aircraft requests airways clearance, select the strip to avoid losing it from view, then deliver the clearance. Upon receiving a correct readback, enter the aircraft's parking bay in the Bay field, then move it to the **Cleared Bay**.
 
 If multiple aircraft request clearance at once, [queue](#queue-management) the strips for each aircraft, in the order in which they called.
 
+SIDs with a transition are indicated by a yellow border on the SID box. Hover over the box to reveal the transition.
+
 <figure markdown>
-![ACD Workflow](../controller-skills/img/ozstripsworkflowacd.png){ width="800" }
-    <figcaption>An example of the ACD layout and workflow</figcaption>
+![SID Transition](../controller-skills/img/ozstripssidtransition.png){ width="500" }
+    <figcaption>QFA427 assigned the MARUB7 SID with WOL transition</figcaption>
 </figure>
+
+For flight plans with a GPS waypoint as the first tracking point, the First Waypoint box will show `#GPS#`.
+
+For flight plans with a custom waypoint derived from position bearing distance (e.g. `WLM045008`), the First Waypoint box will show the waypoint followed by a **plus** (e.g. `WLM +`).
+
+In both cases, ACD must open the FDR to read the first waypoint.
 
 #### Flight Plan Errors
 OzStrips will flag any potentially invalid routes and incorrect hemispherical levels. Hover over a flag to learn more about the error.
 
 <figure markdown>
-![Invalid Level](../controller-skills/img/ozstripsbadlevel.png){ width="500" }
+![Invalid Level](../controller-skills/img/ozstripsbadlevel.png){ width="450" }
     <figcaption>A potentially invalid level, shown by the red background on the CFL box</figcaption>
 </figure>
 
-Right mouse click on the yellow first waypoint box to open the Reroute menu. From here, controllers can select a more compliant route. The [VATPAC Tools](https://vatpac.org/membership-hub/tools){target=new} page can be helpful to double check these routes.
-
 <figure markdown>
-![Invalid Route](../controller-skills/img/ozstripsbadroute.png){ width="500" }
+![Invalid Route](../controller-skills/img/ozstripsbadroute.png){ width="450" }
     <figcaption>A potentially invalid route, shown by the yellow background on the first waypoint box</figcaption>
 </figure>
 
+Right mouse click on the yellow First Waypoint box to open the Reroute menu. From here, controllers can select a more compliant route. The [VATPAC Tools](https://vatpac.org/membership-hub/tools){target=new} page can be helpful to double check these routes.
+
+!!! warning "Important"
+    The invalid route detection system compares the filed route against any ERSA FPR requirements. Some **valid routes may flag** where step climbs interrupt an airway or a pre-filed STAR changes the end of the route. Some **invalid routes may not flag** where no FPR guidance exists for that aerodrome pairing.
+
+    ACD controllers must ensure they continue to check each route for errors regardless of strip error status.
+
 <figure markdown>
-![SID assigned to VFR Aircraft](../controller-skills/img/ozstripsvfrsid.png){ width="500" }
+![SID assigned to VFR Aircraft](../controller-skills/img/ozstripsvfrsid.png){ width="450" }
     <figcaption>A VFR aircraft assigned a SID, shown by the yellow background on the SID box</figcaption>
 </figure>
 
+#### Pushback Requests on ACD
+When [pushback requests](../controller-skills/grounddelaymanagement.md#pushback-requests-on-acd) are being managed by ACD, the procedures set out in [Coordinator](#coordinator) below shall be followed.
+
+!!! tip
+    Whilst not a requirement, controllers may find it beneficial to utilise [CDM Mode](#a-cdm) to manage the pushback rate where congestion is likely at the holding point.
+
 ### Coordinator
-At locations like [Sydney](../aerodromes/classc/Sydney.md#sydney-coordinator) and [Melbourne](../aerodromes/classc/Melbourne.md#pushback-requests-on-acd), a Coordinator role is sometimes performed during times of high traffic. See each aerodrome-specific page for the requirements to open and set up the Coordinator position.
+At locations like [Brisbane](../aerodromes/classc/Brisbane.md#pushback-requests-on-acd), [Melbourne](../aerodromes/classc/Melbourne.md#pushback-requests-on-acd), [Perth](../aerodromes/classc/Perth.md#pushback-requests-on-acd), and [Sydney](../aerodromes/classc/Sydney.md#sydney-coordinator), a Coordinator role is sometimes performed during times of high traffic. See each aerodrome-specific page for the requirements to open and set up the Coordinator position.
 
 !!! note
-    At Melbourne, this duty is performed by ACD (when required), but for simplicity, this section will refer to the controller performing the role as 'Coordinator'.
+    At most aerodromes, this duty is performed by ACD (when required), but for simplicity, this section will refer to the controller performing the role as 'Coordinator'.
 
 Once all coordination has been completed and the Coordinator position has been opened, all outbound aircraft must first request pushback or taxi on the Coordinator frequency before being passed to SMC. 
 
-Place a `MONITOR GROUND` [bar](#control-bar) in the **Cleared Bay** queue. Any strips below this bar respresent aircraft who have been instructed to monitor the appropriate SMC frequency. Aircraft who are ready for pushback or taxi, but have not been told to monitor SMC, are placed in the queue, above the Monitor Ground bar.
+Place a `STANDBY FOR GROUND` [bar](#control-bar) in the **Cleared Bay** queue. Any strips below this bar respresent aircraft who have been instructed to standby for ground on the appropriate SMC frequency. Aircraft who are ready for pushback or taxi, but have not been told to monitor SMC, are placed in the queue, above the Standby for Ground bar.
 
-Ensure that no more than **three** strips are ever present below the Monitor Ground bar. When SMC takes a strip from below the Monitor Ground bar and places it in the **Pushback** or **Taxi Bay**, instruct the aircraft next in line (in the queue but above the Monitor Ground bar) to monitor SMC, and move them below the bar.
+Ensure that no more than **three** strips are ever present below the Standby for Ground bar. When SMC takes a strip from below the Standby for Ground bar and places it in the **Pushback** or **Taxi Bay**, instruct the aircraft next in line (in the queue but above the Standby for Ground bar) to monitor SMC, and move them below the bar.
 
 <figure markdown>
 ![Coordinator](../controller-skills/img/ozstripscoordinator.png){ width="800" }
-    <figcaption>Coordinator Ops with OzStrips<br><small>Three aircraft are monitoring SMC (below the Queue bar), and QFA121 and RXA6416 have both requested push/taxi but are being held on the Coordinator frequency. QFA121 is closer to the bottom, so will be next to be told to monitor SMC.</small></figcaption>
+    <figcaption>Coordinator Ops with OzStrips<br><small>Three aircraft are waiting on the SMC frequency (below the Queue bar), and QFA121 and RXA6416 have both requested push/taxi but are being held on the Coordinator frequency. QFA121 is closer to the bottom, so will be next to be told to standby for SMC.</small></figcaption>
 </figure>
 
 ### Ground
+<figure markdown>
+![SMC Workflow](../controller-skills/img/ozstripsworkflowsmc.png){ width="800" }
+    <figcaption>An example of the SMC layout and workflow</figcaption>
+</figure>
+
 #### Departures
 When a departure is issued pushback, move them to the **Pushback Bay**. If pushback is unable to be given at that time, [queue](#queue-management) the strip in the **Cleared Bay**.
 
 !!! tip
-    See [Coordinator](#coordinator) above for the procedure to follow when a Coordinator position is active. Remember that the bottom most aircraft is always the first in line.
+    See [Coordinator](#coordinator) above for the procedure to follow when a Coordinator position is active (or [pushback requests](../controller-skills/grounddelaymanagement.md#pushback-requests-on-acd) are being managed by ACD). Remember that the bottom most aircraft is always the first in line.
+
+!!! note
+    When [CDM Mode](#a-cdm) is enabled, pushback should only be issued when the Offblocks field is [green](#pushback-process). Pushback should be withheld if necessary due to aerodrome congestion (OzStrips will adjust queued aircraft's TSATs accordingly).
 
 When taxi instructions are issued, move the strip to the **Taxi Bay** and enter the relevant instructions in the Global Ops field. When the aircraft is given taxi to the holding point at their assigned departure runway, enter the holding point in the Holding Point field.
+
+OzStrips will check the output of a departure's transponder to ensure they are squawking the assigned SSR code and have selected Mode C. If either of these two conditions are not met, the squawk box will highlight orange.
+
+<figure markdown>
+![Incorrect Transponder Output](../controller-skills/img/ozstripssquawk.png){ width="500" }
+    <figcaption>TGG721 is either not squawking the assigned code or not squawking Mode C</figcaption>
+</figure>
 
 As the aircraft approaches the holding point, or when frequency transfer is given to Tower (for international aircraft or new pilots), move the strip to the **Holding Point Bay** and clear the Global Ops field (so ADC can use it for their purposes).
 
 #### Arrivals
 As an arriving aircraft vacates the runway, ADC will move the strip from the **Runway Bay** to the **Taxi Bay**. Enter the pilot's nominated parking bay in the Bay field and record any taxi instructions in the Global Ops field.
 
+When an aircraft is cleared to the bay, put `BAY` in the Holding Point box.
+
 When an aircraft arrives at their nominated parking position, [inhibit](#control-bar) the strip to remove it from the stripboard.
 
-<figure markdown>
-![SMC Workflow](../controller-skills/img/ozstripsworkflowsmc.png){ width="800" }
-    <figcaption>An example of the SMC layout and workflow</figcaption>
-</figure>
-
 #### Runway Crossings
-For aircraft who need to cross an active runway, first coordinate with ADC, then select the strip and use the [XX CROSS XX](#control-bar) button to highlight it as a runway crossing. ADC will place the `XXX CROSSING XXX` [bar](#control-bar) in the **Runway Bay** to prevent inadvertent takeoff or landing clearances from being issued. Once the aircraft is clear, remove the crossing highlight.
+For aircraft who need to cross an active runway, select the strip and use the [XX CROSS XX](#control-bar) button to highlight it as a runway crossing. SMC should hotline ADC to request each runway crossing and/or place the strip in the **Holding Point Bay**  with the crossing highlight applied, as a visual trigger to ADC that an aircraft needs to cross. Once ADC has approved the runway crossing, place the strip back in the **Taxi Bay** and remove the highlight.
 
 !!! tip
     You can quickly toggle the crossing highlight by selecting an aircraft and pressing `X`.
 
 <figure markdown>
 ![Runway Crossing](../controller-skills/img/ozstripsrunwaycrossing.png){ width="700" }
-    <figcaption>BAW15 instructed to cross runway 27, with the **Runway Bay** blocked out</figcaption>
+    <figcaption>QFA721 is instructed to hold short of RWY 34L (expecting a full length departure) and placed in the **Holding Point Bay** with the crossing highlight</figcaption>
 </figure>
 
 Coordinated runway releases should be recorded by placing a `RUNWAY XX RELEASED TO SMC` [bar](#control-bar) in the **Runway Bay**. There is no need to highlight a taxiing aircraft crossing a runway which has been released to SMC.
@@ -210,13 +275,23 @@ Coordinated runway releases should be recorded by placing a `RUNWAY XX RELEASED 
 </figure>
 
 ### Tower
+<figure markdown>
+![ADC Workflow](../controller-skills/img/ozstripsworkflowadc.png){ width="800" }
+    <figcaption>An example of the ADC layout and workflow</figcaption>
+</figure>
+
 #### Departures
 When a departing aircraft calls ready, click the Ready flag to denote this on their strip. You can adjust the order of the departure sequence by selecting each strip and using the arrow keys to move them up and down. Strips at the bottom of the bay are first in line. 
 
 !!! tip
     The Ready flag will highlight orange if the aircraft is in the **Holding Point Bay** and the aircraft has not called ready (to prevent inadvertent takeoff clearances being issued).
 
-For aircraft on a radar SID or visual departure, record any assigned heading instructions in the Departure Heading field. This will also populate the Global Ops field automatically.
+For aircraft on a radar SID or visual departure, record any assigned heading instructions in the Departure Heading field. This will also populate the Global Ops field automatically. The Departure Heading box will highlight orange for aircraft assigned a radar SID who have not yet had their departure instructions entered.
+
+<figure markdown>
+![Departure Instructions](../controller-skills/img/ozstripsradarsid.png){ width="450" }
+    <figcaption>RXA6418 is assigned the radar SID but no departure instructions have been entered</figcaption>
+</figure>
 
 When an instruction to line up is given, move the strip to the **Runway Bay**. When a takeoff clearance is issued, start the Takeoff Timer.
 
@@ -229,29 +304,52 @@ If the TCU suspends autorelease, record this by placing the `AUTORELEASE SUSPEND
     <figcaption>RXA3656 assigned heading 320 with autorelease suspended</figcaption>
 </figure>
 
+!!! tip
+    During busy 'conga line' events, like Milk Run Monday, controllers may find it beneficial to utilise [CDM Mode](#a-cdm) to manage the departure rate and avoid overwhelming the TCU and downstream enroute controllers.
+
+    This mode is only beneficial to ADC where the departure rate is important and will be less beneficial for events where aircraft depart in a wide variety of outbound directions.
+
 #### Arrivals
-When an aircraft calls you on Tower frequency, click the Ready flag (to show that they are on frequency). When a landing clearance is issued, move the strip to the **Runway Bay**.
+Order the **Arrivals Bay** so that the next aircraft to land are positioned at the bottom. When an aircraft calls you on Tower frequency, queue them. When a landing clearance is issued, move the strip to the **Runway Bay**.
 
 After the aircraft vacates the runway, move the strip to the **Taxi Bay**.
 
 !!! tip
     By default, the **Taxi Bay** is not visible in the ADC layout. To move a strip from the **Runway Bay** to the **Taxi Bay**, SID trigger the strip (or use the appropriate keyboard shortcut). This works for *arrivals only*, and departing strips SID trigger to the **Departed Bay**.
 
-<figure markdown>
-![ADC Workflow](../controller-skills/img/ozstripsworkflowadc.png){ width="800" }
-    <figcaption>An example of the ADC layout and workflow</figcaption>
-</figure>
+#### Circuits
+Pink [local strips](#local-flights) denote aircraft who's planned operation remains entirely on the ADC frequency (they will not be passed to Departures or leave ADC's jurisdiction). Normal [departure procedures](#departures_1) apply for recording when the circuit aircraft calls ready and is eventually cleared for takeoff.
+
+The **Circuit Bay** can be toggled on and off using the option within the **View** dropdown.
+
+Once the aircraft is airborne, move the strip to the **Circuit Bay** and sequence them with any other arriving aircraft. On each circuit, move the strip to the **Runway Bay** when a landing/touch & go/other clearance is issued, then move them back to the **Circuit Bay** when they become airborne again.
+
+When the aircraft lands for the final time and vacates the runway, use the [flip flop](#control-bar) button to change their state to **Arrival** and place them in the **Taxi Bay** in accordance with normal [arrival procedures](#arrivals_1).
+
+!!! tip 
+    With a strip selected, press `F` to flip it between Departure, Arrival, and Local states.
+
+Coordinated circuit area airspace releases should be recorded by placing a `CIRCUIT AREA RELEASED` [bar](#control-bar) in the **Circuit Bay**.
 
 #### Runway Crossings
-Aircraft who need to cross an active runway will be coordinated by SMC. When approval is given for the runway crossing, place the `XXX CROSSING XXX` [bar](#control-bar) in the **Runway Bay** to prevent inadvertent takeoff or landing clearances from being issued. SMC will highlight the aircraft's strip to denote it as a runway crossing. Once the aircraft is clear, remove the bar.
-
-!!! tip
-    You can quickly add a Crossing bar to the **Runway Bay** by pressing `ALT + X`. To remove the bar, select it, then press `BACKSPACE`.
+Aircraft who need to cross an active runway will be coordinated by SMC by hotline and/or by SMC placing the strip in the **Holding Point Bay** with the red crossing highlight applied.
 
 <figure markdown>
 ![Runway Crossing](../controller-skills/img/ozstripsrunwaycrossing.png){ width="700" }
-    <figcaption>BAW15 instructed to cross runway 27, with the **Runway Bay** blocked out</figcaption>
+    <figcaption>QFA721 is instructed to hold short of RWY 34L (expecting a full length departure) and placed in the **Holding Point Bay** with the crossing highlight</figcaption>
 </figure>
+
+Where workload permits, ADC may proactively coordinate with SMC to approve runway crossings based the presence of a strip in the **Holding Point Bay**.
+
+When approval is given for the runway crossing, place the `XXX CROSSING XXX` [bar](#control-bar) in the **Runway Bay** to prevent inadvertent takeoff or landing clearances from being issued. Once the aircraft is clear, remove the bar.
+
+<figure markdown>
+![Runway Crossing](../controller-skills/img/ozstripsrunwaycrossingbar.png){ width="450" }
+    <figcaption>**Runway Bay** blocked out during a runway crossing</figcaption>
+</figure>
+
+!!! tip
+    You can quickly toggle the Crossing bar in the **Runway Bay** by pressing `ALT + X`.
 
 Coordinated runway releases should be recorded by placing a `RUNWAY XX RELEASED TO SMC` [bar](#control-bar) in the **Runway Bay**.
 
@@ -259,6 +357,19 @@ Coordinated runway releases should be recorded by placing a `RUNWAY XX RELEASED 
 ![Runway Release](../controller-skills/img/ozstripsrunwayrelease.png){ width="700" }
     <figcaption>Runway 27 released to SMC</figcaption>
 </figure>
+
+#### Class D Tower
+Procedural Class D Tower layouts feature an **Active Bay**, designed to hold all aircraft under jurisdiction of ADC, active in their airspace. 
+
+When an aircraft becomes airborne or is handed off to ADC, place the strip at the bottom of the **Active Bay**. Compare the strip with the strip immediately above it and consider any potential conflict. If no conflict exists, that strip may be moved up a position in the bay and the process repeated with the next 'blocking' strip above. Once the strip reaches the top of the bay, no further conflict exists and the aircraft can be handed off to the overlying controller or cleared for an approach (as appropriate).
+
+<figure markdown>
+![Procedural Tower Workflow](../controller-skills/img/ozstripsproctower.png){ width="800" }
+    <figcaption>An example of the Procedural Tower layout and workflow<br><small>ANO333 is 'blocked' by NWK1652 and will not receive further climb until the two aircraft have adequate separation</small></figcaption>
+</figure>
+
+!!! note
+    Metro D positions feature a similar layout with the **Circuit Bay** displayed by default and no **Active Bay** (due to their lack of airspace).
 
 ### Multiple ADC/SMC Positions
 When multiple ADC or SMC positions are online at a given aerodrome, place divider bars in the relevant bays, allowing each controller to process only the aircraft relevant to them.
@@ -272,7 +383,7 @@ When multiple ADC or SMC positions are online at a given aerodrome, place divide
     With a strip selected, use `CTRL + UP/DOWN ARROW` to push that strip up or down to the next bar (or queue bar). 
 
 ## Workload Management
-While the use of OzStrips can aid situational awareness, it is ideal to be used in such a manner that it doesn't negatively impact your productivity.
+Several features of OzStrips allow controllers to effectively manage their workload. Ensure that every instruction which is issued over the radio is also recorded in the aircraft's strip.
 
 !!! warning "Important"
     Ensure that you communicate instructions concurrently while you move strips in OzStrips. Don't move strips before you do the action or obtain a readback, incase you get interrupted.
@@ -284,11 +395,114 @@ Left clicking on the strip's EOBT will highlight and cock the strip, making it s
     With a strip selected, pressing `TAB` will cock or uncock it.
 
 ### Queue Management
-When multiple aircraft have outstanding requests, it is recommended you 'queue up' the strip, by placing it below the queue bar. This can be done quickly by selecting the strip then pressing "Add to Queue". Strips can be moved vertically by pressing the keyboard arrow keys while a strip is selected.
+When multiple aircraft have outstanding requests, it is recommended you 'queue up' the strip, by placing them below the queue bar. This can be done quickly by selecting the strip then pressing "Add to Queue". 
 
-Aircraft at the bottom of the queue are first in line.
+!!! tip
+    With a strip selected, pressing `SPACEBAR` will queue or unqueue it.
+
+Strips can be moved vertically by pressing the keyboard arrow keys while a strip is selected. Aircraft at the bottom of the queue are first in line.
 
 When an aircraft is in a queue, make sure the strip's bay location represents its current state. 
 
 !!! example
     An aircraft in a queue for an airways clearance, would remain in the **Preactive Bay**, below the queue bar, not in the **Cleared Bay**.
+
+### Runway Crossings
+As per [Runway Crossings](#runway-crossings), the red crossing highlight should be applied to any aircraft who need to cross an active runway. SMC should consider doing this in conjunction with issuing the initial taxi instructions, as a visual reminder of the coordination which will be required. SMC should hotline ADC for each crossing and/or place the highlighted strip in the **Holding Point Bay**, as a prompt to ADC that a crossing is required.
+
+**ADC** should monitor the **Holding Point Bay** and proactively hotline SMC where a suitable gap exists to facilitate the runway crossing. Alternatively, **SMC** should hotline ADC to request the crossing when required. Planning runway crossings in advance, including crossing multiple aircraft at different taxiways at the same time, can drastically improve overall runway efficiency.
+
+!!! tip
+    On long runways with readily available rapid exit taxiways (e.g. RWY 34L at YSSY), ADC may instruct landing aircraft to *'report taxiway B9 assured'* and upon receiving this confirmation, hotline SMC to approve the crossing of an aircraft further upwind of the runway exit.
+
+### A-CDM
+During events, or when traffic flow management procedures are warranted, CDM mode can be enabled for the aerodrome. A CDM Processor at each aerodrome keeps track of which stage of departure each aircraft is in. Active and Pushed aircraft are included within the **Departure Queue**, and will have a TSAT and CTOT time calculated for each aircraft.
+
+!!! note
+    The departure queue (as well as a range of statistics) is available on the [Ops Dashboard](https://cdm.maxrumsey.xyz/ops){target=new}.
+
+#### Departure Rates
+The target departure rate can be adjusted on the [Ops Dashboard](https://cdm.maxrumsey.xyz/ops){target=new}. Log in to the site to make adjustments.
+
+The default rate is **30 per hour**. This works well for most aerodromes where traffic is both inbound and outbound (allowing sufficient time for an arrival to land between departures). The rate should be adjusted as required based on:
+
+- holding point congestion
+- busy arrival sequence
+- at the request of an upline controller
+
+!!! note
+    Airports with multiple departure runways should increase the departure rate to compensate for the added runway capacity.
+
+Specific rates can be set for departures to particular aerodromes. This is particularly useful for events where the destination aerodrome may be rate-limited.
+
+!!! example
+    During [Milk Run Monday](../events/milkrun/), Sydney ACD sets a departure rate of **40 per hour** and a YMML-specific rate of **24 per hour**.
+
+#### CDM Stages
+| Name | OzStrips Bay | CDM Processor Action |
+| ---- | ------------ | -------------------- |
+| Preactive | Preactive or Cleared Bay above the bar | *Not included in CDM calculations* |
+| Active | Cleared Bay, below the queue bar | Included within the departure queue, and will be issued a TSAT and CTOT |
+| Pushed | Pushback, Taxi, Holding Point or Runway Bay | Included in the departure queue below any Active aircraft |
+| Complete | Departed Bay, or GS > 50kts | Departure time is logged, *not included in CDM calculations* |
+
+If an aircraft disconnects, or their strip is moved into the **Preactive Bay** or **Cleared Bay** above the bar, their CDM status will expire after 3 minutes. 
+
+<figure markdown>
+![Active Strip](../controller-skills/img/ozstripscdmqueue.png){ width="500" }
+    <figcaption>An **Active** strip</figcaption>
+</figure>
+
+<figure markdown>
+![Pushed Strip](../controller-skills/img/ozstripscdmpushed.png){ width="500" }
+    <figcaption>A **Pushed** strip (noted by the yellow EOBT field)</figcaption>
+</figure>
+
+##### CDM Abbreviations
+| Abbreviation | Full Name | Explanation | Example |
+| ------------ | --------- | ----------- | ------- |
+| EOBT | Estimated Off Blocks Time | The off blocks time a pilot submits within their flight plan. This is not used for CDM calculations. | 10:00z |
+| TOBT | Tactical Off Blocks Time | The time at which the pilot requests pushback. | 10:20z |
+| TSAT | Tactical Start Approved Time | The time the CDM processor allots for pushback approval, taking into account CDM parameters and other aircraft. | 10:30z |
+| AOBT | Actual Off Blocks Time | The time at which the aircraft actually pushes back. This should be as close to the final TSAT as possible | 10:31z |
+| CTOT | Calculated Take Off TIme | The time the CDM system allots for aircraft departure. | 10:45z |
+| ATOT | Actual Take Off Time | The time at which the aircraft actually departs. | 10:46z |
+
+#### Pushback Process
+Pushback should only be issued when the aircraft is compliant with their TSAT. 
+
+| Colour | Condition | Explanation |
+| --- | --- | --- |
+| Grey | In Queue | The aircraft has been placed in the queue but is not yet compliant with their TSAT. *Do not issue pushback*. |
+| Green | Compliant with TSAT | The aircraft is compliant with their TSAT. Pushback may be issued **if aerodrome congestion allows**. |
+| Yellow | Pushed Back | Aircraft has already pushed back, *no further action required*. |
+
+Controllers should follow the procedures detailed on the [Ground Delay Management](../controller-skills/grounddelaymanagement.md#processing-each-aircraft) page.
+
+#### CDM Processing
+CDM Processing refers to the process by which the departure order, TSAT and CTOT times are calculated for each aircraft. This occurs regularly at CDM enabled aerodromes, and after every CDM-relevant aircraft state change.
+
+The CDM Processor takes the list of active and pushed aircraft, as well as the set **Departure Rate**, determines a priority sorted list of aircraft, and allocates a **CTOT** to each aircraft. **CTOT** times will be spaced by the set **Departure Rate**. A **TSAT** is calculated for each aircraft, based on the **CTOT**. **TSAT** times take into account the aircraft state, such that an aircraft will not be expected to pushback and depart within 5 minutes. **CTOT** and **TSAT** times are recalculated during each CDM Processing cycle, and can vary from the initial **TSAT** issued.
+
+!!! example
+    A planned **Departure Rate** of 30/hour is set, but the ADC controller actually maintains a rate of 40/hour. **AOBT** and **ATOT** will be earlier than the initial calculated **TSAT** and **CTOT**.
+
+#### Departure Monitoring
+The **Departure Rate** is set based on conditions at the aerodrome, the amount of departures, the amount of arrivals, and amount of arrivals the destination aerodromes can accept. For the A-CDM system to work effectively, ADC must monitor the amount of depatures they release, and ensure this actual rate is as close to the set departure rate as possible.
+
+To make this task easier, OzStrips provides a Departure Monitor screen above the **Runway Bay** when CDM is enabled at an aerodrome. The **Departure Rate** over the preceeding 5, 15 and 30 minutes are recorded, and presented to plugin users. Each interval is colour coded to quickly show the relative performance vs planned performance.
+
+| Colour | Conditions | Explanation |
+| ------ | ---------- | ----------- |
+| Purple | Way Below Target (-3 or less) | Departure capacity is very underutilised |
+| Blue | Slightly Below Target (-1 to -2) | Departure capacity is slightly underutilised |
+| Green | On Target (+/- 0) | The set departure rate is being perfectly executed |
+| Orange | Above Target (+1 to +2) | Slightly too many departures have been released |
+| Red | Way Above Target (+3 or more) | Too many departures have been released
+
+<figure markdown>
+![Departure Monitor](../controller-skills/img/ozstripsdepmonitor.png){ width="300" }
+    <figcaption>Example Departure Monitor</figcaption>
+</figure>
+
+The ADC controller(s) should aim to ensure the amount of aircraft they release matches these values as close as possible. While over-exceeding departure capacity is easily preventable, sometimes departure capacity can be underutilised due to ground-stops or not enough aircraft demand.

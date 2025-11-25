@@ -34,37 +34,20 @@ The divisions of the airspace between **PHA**, and **PHD** change based on the R
 !!! note
     The following diagrams do not include non PH TCU areas of responsibility such as JT CTR or PEA APP
 
-#### 03/06
-<figure markdown>
-![03/06 TCU Structure](img/PH0306annotated.png){ width="700" }
-  <figcaption>03/06 TCU Structure</figcaption>
-</figure>
+=== "Northeast Plan"
+	<figure markdown>
+	![03/06 TCU Structure](img/PH0306annotated.png){ width="700" }
+	  <figcaption>03/06 TCU Structure</figcaption>
+	</figure>
 
-#### 21/24
+=== "Southwest Plan"
 <figure markdown>
 ![21/24 TCU Structure](img/PH2124annotated.png){ width="700" }
   <figcaption>21/24 TCU Structure</figcaption>
 </figure>
 
-## Runway Modes
-Generally, YPPH operates on either the Southwest or Northeast runway plan, as below. Where strong winds dictate the use of only a single runway, this shall be nominated in the ATIS.
-
-### Southwest Plan
-With the Southwest Plan active, all departures shall be assigned runway 21 by **PH ACD**. Arrivals shall be processed to either runway 21 or 24 based on their feeder fix, as per the table below:
-
-| Feeder Fix | Assigned Runway |
-| --- | --- |
-| JULIM | 21 |
-| SAPKO | 21 |
-| IPMOR | 21 |
-| KABLI | 24 (or 21 if operationally required) |
-| LAVEX | 24 |
-| SOLUS | 24 |
-
-### Northeast Plan
-With the Northeast Plan active, departures via `AVNEX`, `OTLED`, `OLMAM`, `SOLUS`, and `OPEGA` shall be assigned runway 03 by **PH ACD**. All other departures shall be assigned runway 06. All arrivals shall be processed to runway 03.
-
-## Scenic Flights
+## Local Procedures
+### Scenic Flights
 VFR aircraft may plan to conduct scenic flights within CTA in the PH TMA. A number of VFR routes exist to facilitate this, including:
 
 | Name | Route | Preferred Altitude |
@@ -82,8 +65,8 @@ Aircraft wishing to conduct a scenic flight over the Perth CBD should be cleared
     **VH-CYF:** "Squawk 0542, remain OCTA, CYF"  
 
     *When clearance (reference traffic into/out of YPPH) is available:*  
-    **PHA:** "CYF, cleared Victor 65, maintain A015"  
-    **VH-CYF:** "Cleared Victor 65, maintain A015, CYF"
+    **PHA:** "CYF, cleared Victor 65, maintain A015, QNH 1012"  
+    **VH-CYF:** "Cleared Victor 65, maintain A015, QNH 1012, CYF"
 
 Aircraft departing YPPH and intending to conduct the Victor 65 route will be coordinated by **PH ACD**. See [Airways Clearances](#airways-clearances).
 
@@ -106,6 +89,107 @@ Aircraft departing the TMA to the south planned at `F130` or above will likely l
 !!! phraseology
     **PHD**: "RXA2125, leave and re-enter controlled airspace on climb to F180, no reported IFR traffic"  
     **RXA2125**: "Leave and re-enter controlled airspace on climb to F180, RXA2125"
+
+## Runway Modes
+Generally, YPPH operates on either the Southwest or Northeast runway plan, as below. Where strong winds dictate the use of only a single runway, this will be nominated in the ATIS.
+
+### Southwest Plan
+With the Southwest Plan active, all departures shall be assigned runway 21 by **PH ACD**. Arrivals shall be processed to either runway 21 or 24 based on their feeder fix, as per the table below:
+
+| Feeder Fix | Assigned Runway |
+| --- | --- |
+| JULIM | 21 |
+| SAPKO | 21 |
+| IPMOR | 21 |
+| KABLI | 24 |
+| LAVEX | 24 |
+| SOLUS | 24 |
+
+!!! note
+    Where an aircraft operationally requires runway 21, they shall be assigned that runway regardless of feeder fix.
+
+### Northeast Plan
+With the Northeast Plan active, departures via `AVNEX`, `OTLED`, `OLMAM`, `SOLUS`, and `OPEGA` shall be assigned runway 03 by **PH ACD**. All other departures shall be assigned runway 06. All arrivals shall be processed to runway 03.
+
+## Flow
+### Local Knowledge
+- Aircraft can be assigned the Xray or Victor STAR to reduce track miles
+- Aircraft for RWY 21 can be radar vectored to the opposite side arc IAF to increase track miles in the TMA
+
+### Flow Tables
+The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
+
+=== "Jets"
+    | STAR       | RWY 03 | RWY 06 | RWY 21 | RWY 24 |
+    | ---------- | :-----: | :-----: | :-----: | :-----: |
+    | **IPMOR A**<br>*Feeder Fix: KAGMI*    | <br>17     | <br>14     | <br>15     | <br>17     |
+    | **JULIM A**    | 17     | 19     | 10^    | 10^    |
+    | **JULIM V**    | 15     | 16     | -      | -      |
+    | **JULIM X**    | 15     | -      | -      | -      |
+    | **KABLI A**    | 15     | 16     | 15     | 15     |
+    | **KABLI V**    | 13     | 14     | -      | -      |
+    | **KABLI X**    | 13     | -      | -      | -      |
+    | **SOLUS A**    | 11^    | 12     | 14     | 12^    |
+    | **SOLUS V**    | 10^    | 11^    | -      | -      |
+    | **SOLUS X**    | 10^    | -      | -      | -      |
+
+=== "DH8D"
+    | STAR       | RWY 03 | RWY 06 | RWY 21 | RWY 24 |
+    | ---------- | :-----: | :-----: | :-----: | :-----: |
+    | **DAYLR A**    | 12^    | 13     | -      | -      |
+    | **DAYLR V**    | 10^    | 11^    | -      | -      |
+    | **DAYLR X**    | 10^    | -      | -      | -      |
+    | **IPMOR A**<br>*Feeder Fix: KAGMI*    | <br>17     | <br>14     | <br>15     | <br>17     |
+    | **LAVEX A**    | 16     | 17     | 14     | 13     |
+    | **LAVEX V**    | 14     | 14     | -      | -      |
+    | **LAVEX X**    | 13     | -      | -      | -      |
+    | **SAPKO A**    | 18     | 19     | 10^    | 10^    |
+    | **SAPKO V**    | 15     | 16     | -      | -      |
+    | **SAPKO X**    | 15     | -      | -      | -      |
+    | **SOLUS A**    | 11^    | 12     | 14     | 12^    |
+    | **SOLUS V**    | 10^    | 11^    | -      | -      |
+    | **SOLUS X**    | 10^    | -      | -      | -      |
+
+=== "Non-Jets"
+    | STAR       | RWY 03 | RWY 06 | RWY 21 | RWY 24 |
+    | ---------- | :-----: | :-----: | :-----: | :-----: |
+    | **DAYLR A**    | 13^    | 15     | -      | -      |
+    | **DAYLR V**    | 12^    | 13^    | -      | -      |
+    | **DAYLR X**    | 11^    | -      | -      | -      |
+    | **IPMOR A**<br>*Feeder Fix: KAGMI*    | <br>19     | <br>16     | <br>17     | <br>20     |
+    | **LAVEX A**    | 18     | 20     | 16     | 15     |
+    | **LAVEX V**    | 15     | 16     | -      | -      |
+    | **LAVEX X**    | 15     | -      | -      | -      |
+    | **SAPKO A**    | 20     | 22     | 11^    | 11^    |
+    | **SAPKO V**    | 17     | 18     | -      | -      |
+    | **SAPKO X**    | 17     | -      | -      | -      |
+    | **SOLUS A**    | 12^    | 14     | 16     | 14^    |
+    | **SOLUS V**    | 12^    | 13^    | -      | -      |
+    | **SOLUS X**    | 11^    | -      | -      | -      |
+
+#### Corrections
+
+| Situation | Correction |
+| ----- | ----- |
+| Assigned a reduced speed | +1 min, *except ^* | 
+| Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
+
+#### Assumptions
+- Nil wind
+- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except:
+    - The feeder fix for the IPMOR STAR is **KAGMI**
+- Aircraft on the SOLUS STAR to RWY 21/24 will be vectored from MOCUR to the IAF for ILS
+- Aircraft on the IPMOR STAR to RWY 24 will be vectored from WOOFY to the IAF for the ILS
+
+### Calculator
+<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
+The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
+
+=== "Landing Time"
+    <div class="flowCalculatorLandingTime" data-aerodrome="YPPH"></div>
+
+=== "Feeder Fix Time"
+    <div class="flowCalculatorFeederFixTime" data-aerodrome="YPPH"></div>
 
 ## Coordination
 ### Enroute
@@ -135,34 +219,25 @@ All other aircraft coming from HYD(PIY) CTA will be **Heads-up** Coordinated to 
 
 ### PH ADC
 #### Auto Release
-'Next' coordination is **not** required for aircraft that are:   
-    a) Departing from a runway nominated on the ATIS; and  
-    b) Assigned the standard assignable level; and  
-    c) Assigned a **Procedural SID**
+[Next](../controller-skills/coordination.md#next) coordination is **not** required for aircraft that are:   
+
+- Departing from a runway nominated on the ATIS; and  
+- Assigned the standard assignable level; and  
+- Assigned a **Procedural SID**
 
 All other aircraft require a 'Next' call to PH TCU.
 
-!!! phraseology
-    <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Next, ABC, runway 03"  
-    <span class="hotline">**PH TCU** -> **PH ADC**</span>: "ABC, Heading 010, unrestricted"  
-    <span class="hotline">**PH ADC** -> **PH TCU**</span>: "Heading 010, ABC"  
+The Standard Assignable level from PH ADC to PH TCU is:
 
-    **PH ADC**: "ABC, Assigned heading left 010, Runway 03, Cleared for Takeoff"  
-    **ABC**: "Left heading 010, Runway 010, Cleared for Takeoff, ABC"
-
-The PH TCU controller can suspend/resume Auto Release at any time, with the concurrence of PH ADC.
-
-The Standard Assignable level from PH ADC to PH TCU is the lower of `A050` or the `RFL`.
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `A050` and `RFL` |
 
 #### Airways Clearances
-The controller assuming responsibility of ACD shall give heads-up coordination to the relevant PH TCU controller prior to the issue of the following clearances:  
-a) VFR Departures  
-b) Aircraft using a runway not on the ATIS
+The controller assuming responsibility of ACD shall give [heads-up](../controller-skills/coordination.md#airways-clearance) coordination to the relevant PH TCU controller prior to the issue of the following clearances:  
 
-!!! phraseology
-    <span class="coldline">**PH ACD** -> **PH TCU**</span>: "ABC, requesting Victor 65"  
-    <span class="coldline">**PH TCU** -> **PH ACD**</span>: "ABC, cleared Victor 65, 1,500ft"  
-    <span class="coldline">**PH ACD** -> **PH TCU**</span>: "Cleared Victor 65, 1,500ft, ABC"
+- VFR departures into PH TCU CTA
+- Aircraft using a runway not on the ATIS 
 
 ### PH TCU Internal
 Voiceless coordination is in place for all aircraft processed by the Victor 65 and 66 routes in accordance with the table below.
@@ -204,6 +279,8 @@ VFR aircraft require a level readback.
 !!! phraseology
     <span class="hotline">**PH TCU** -> **JT ADC**</span>: "via RNAV-Z RWY 06L, FD416, circling to land RWY 24R"  
     <span class="hotline">**JT ADC** -> **PH TCU**</span>: "FD416, RNAV-Z RWY 06L with a circle to land RWY 24R"  
+
+Where traffic permits, IFR aircraft tracking via Perth CTA from the north or east may be rerouted via CNB and transferred to JT ADC.
 
 ### PE TCU
 **All aircraft** transiting between PE TCU and PH TCU must be heads-up coordinated prior to the boundary.

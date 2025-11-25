@@ -16,6 +16,13 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
+## Airspace
+
+<figure markdown>
+![Mungo Airspace](../assets/mun.png){ width="700" }
+  <figcaption>Yarrowee Airspace</figcaption>
+</figure>
+
 ### CPDLC
 The Primary Communication Method for MUN is Voice.
 
@@ -26,25 +33,64 @@ The CPDLC Station Code is `YMUN`.
 !!! tip
     Even though MUN's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
-## Airspace
-
-<figure markdown>
-![Mungo Airspace](../assets/mun.png){ width="700" }
-  <figcaption>Yarrowee Airspace</figcaption>
-</figure>
-
 ## Sector Responsibilities
 ### Yarrowee (YWE)
-YWE is responsible for the final sequencing actions in to YMML.
+#### YMML Arrivals
+YWE is responsible for final sequencing and descent.
+
+#### YMEN Arrivals
+YWE is responsible for issuing final descent, and ascertaining arrival intentions.
 
 ### Mungo (MUN)
-MUN is responsible for issuing STAR Clearances for aircraft arriving at YMML. MUN will also initiate sequencing as required for aircraft arriving at YMML and YPAD.
+#### YMML Arrivals
+MUN is reponsible for issuing STAR clearances, initial sequencing, and initial descent to not below `F250` for Jets.
 
 ### Oxley (OXL)
-OXL is responsible for issuing STAR Clearances for aircraft arriving at YMML. OXL will also initiate sequencing as required for aircraft arriving at YMML.
+#### YMML Arrivals
+OXL is reponsible for issuing STAR clearances, initial sequencing, and initial descent to not below `F250` for Jets.
 
 ### Griffith (GTH)
-GTH is responsible for issuing STAR Clearances for YSSY.
+#### YSSY Arrivals
+GTH is responsible for issuing STAR Clearances for Jets.
+
+### Sequencing in to YMML
+#### Predictable Sequencing Waypoints
+There are four [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YMML via **Q346** and **Q35**.
+
+The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
+
+=== "Q346"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | UPNAP | IGPEB | DORSU | 1 |
+    | UPNAP | ONOPO | DORSU | 3 |
+    | UPNAP | URGUL | DORSU | 5 |
+    | UPNAP | IBOVU | DORSU | 7 | 
+
+=== "Q35"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | IGMIL | IGPEB | DORSU | 2 |
+    | IGMIL | ONOPO | DORSU | 4 |
+    | IGMIL | URGUL | DORSU | 6 |
+    | IGMIL | IBOVU | DORSU | 8 |
+    
+#### Holding Fixes
+Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YMML. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
+
+| Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
+| ---- | ---- | ---- |
+| ARBEY | METES<br>DORSU | 4 min<br>4 min |
+| Others | Feeder Fix | - |
+
+!!! tip
+    Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector. 
+
+#### LAHSO
+!!! warning "Important"
+    Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
+
+In accordance with the authorisation requirements above, YMML may utilise LAHSO during exceptionally busy events. Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../controller-skills/runwaymanagement.md#lahso) for more information.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -55,9 +101,8 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | MUN | TBD | YPAD, YPED | |
 | GTH | OXL | YMML, YMAV | |
 | OXL | BLA | YSCB | |
-| GTH | GUN | YSSY | |
-| OXL | GTH | YSSY | |
-
+| GTH | GUN | YSSY | Non-Jets only |
+| OXL | GTH | YSSY | Jets only |
 
 ### First Contact
 Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
@@ -66,15 +111,9 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | ---- | -------- | --------- | --------- |
 | TBD | MUN | YMML, YMAV | |
 | ASP(BKE), GTH | OXL | YMML, YMAV | |
-| ASP(BKE) | GTH, GUN(KAT) | YSSY | |
-| OXL | GTH | YSSY | |
+| ASP(BKE) | GTH, GUN(KAT) | YSSY | Jets only |
+| OXL | GTH | YSSY | Jets only |
 | ARL(MDE) | GUN(KAT) | YSCB | |
-
-### LAHSO
-!!! warning "Important"
-    Due to its operational complexity, LAHSO **must be authorised by a member of the VATPAC ATS or Events Staff Team or a C3-rated controller**.
-
-In accordance with the authorisation requirements above, YMML may utilise LAHSO during exceptionally busy events. Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../controller-skills/runwaymanagement.md#lahso) for more information.
 
 ## Coordination
 ### ML TCU
@@ -120,4 +159,4 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 That being said, it is *advised* that MUN(All) gives **Heads-up Coordination** prior to **50nm** in the following scenarios:  
 - MUN to YWE for aircraft **not** on the Y12 or H119 airway (Changes permitted up to boundary for sequencing/descent purposes)  
-- OXL to YWE for aircraft **not** tracking via CANTY (Changes permitted up to boundary for sequencing/descent purposes)
+- OXL to YWE for aircraft **not** tracking via DORSU (Changes permitted up to boundary for sequencing/descent purposes)

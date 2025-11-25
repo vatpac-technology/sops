@@ -27,7 +27,8 @@ All of which are reclassified as **Class C** when active, and TN APP has Control
 !!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
-## Arrival/Departure Gates
+## Local Procedures
+### Arrival/Departure Gates
 There are 11 gates to facilate departues and arrivals from the TN Training Airspace, based on the TDL TACAN.  
 Departing aircraft will be cleared to track direct to the gate, or allowed to intercept the outbound radial by 10 DME.  
 Arrivals can be cleared via the appropriate gate for their return to YPTN.
@@ -61,6 +62,20 @@ Place/Bearing Distance points in the FDR can be used for routing via the gates, 
     MOROTAI = TN270030  
     NADZAB = TN150030  
 
+### Stereo Approaches (Fast Jet Aircraft)
+Fast jet aircraft typically transit from the SUA to YPTN at `F170`. When requested, or advised via ATIS, the stereo approach may be utilised to facilitate aircraft recovery.
+
+!!! tip
+    See [Controller Skills](../controller-skills/military.md#stereo-approaches) for more details about stereo approaches.
+
+!!! Example
+**CLAS45**: "Tindal Approach, CLAS45, RTBing via BOM, runway 32"
+**TN TCU**: "CLAS45, Tindal Approach, cleared stereo approach runway 32, via BOM, descend not below `A050`"  
+**CLAS45**: "Cleared stereo approach runway 32, descend not below `A050`, CLAS45"
+
+!!! note
+    Stereo approach charts are available in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}.
+
 ## Coordination
 ### TRT(TRS)
 #### Airspace
@@ -90,11 +105,10 @@ Voiceless for all aircraft:
 All other aircraft coming from TRT(TRS) CTA will be **Heads-up** Coordinated to TN TCU.
 
 ### TN ADC
-'Next' coordination is required from TN ADC to TN TCU for all aircraft.
+[Next](../controller-skills/coordination.md#next) coordination is required from TN ADC to TN TCU for all aircraft.
 
-!!! phraseology
-    <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Next, ASY01, runway 32"  
-    <span class="hotline">**TN TCU** -> **TN ADC**</span>: "ASY01, Heading 030, unrestricted"  
-    <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Heading 030, ASY01"  
+The Standard Assignable level from TN ADC to TN TCU is:
 
-The Standard Assignable level from TN ADC to TN TCU is the lower of `F180` or the `RFL`.
+| Aircraft | Level |
+| ----- | ---- |
+| All | The lower of `F180` and `RFL` |

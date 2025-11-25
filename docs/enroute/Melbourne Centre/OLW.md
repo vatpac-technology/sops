@@ -19,14 +19,6 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
-### CPDLC
-
-The Primary Communication Method for OLW is [CPDLC](../../../client/cpdlc).
-
-The CPDLC Station Code is `YOLW`.
-
-Voice may be used in lieu when applicable.
-
 ## Airspace
 
 <figure markdown>
@@ -43,9 +35,20 @@ When **KA ADC** is offline, KA CTR (Class D `SFC` to `A055`) reverts to Class G,
 !!! tip
     If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
 
+### CPDLC
+
+The Primary Communication Method for OLW is [CPDLC](../../../client/cpdlc).
+
+The CPDLC Station Code is `YOLW`.
+
+Voice may be used in lieu when applicable.
+
 ## Sector Responsibilities
-OLW is responsible for issuing descent and ascertaining arrival intentions for aircraft bound for YPKA.
-OLW is also responsible for sequencing and issuing descent to aircraft bound for YPLM.
+### YPKA Arrivals
+OLW is responsible for issuing descent.
+
+### YPLM Arrivals
+OLW is responsible for issuing descent.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -70,14 +73,14 @@ KA ADC is responsible for the Class D airspace in the KA CTR `SFC` to `A055`.
 Refer to [Reclassifications](#ka-ctr) for operations when KA ADC is offline.
 
 #### Departures
-Departures from YPKA in to OLW CTA will be coordinated when ready for departure.  
+[Next](../../controller-skills/coordination.md#next) coordination is required from KA ADC to OLW for all aircraft **entering OLW CTA**.
 
-!!! phraseology
-    <span class="hotline">**KA ADC** -> **OLW**</span>: "Next, OHN"  
-    <span class="hotline">**OLW** -> **KA ADC**</span>: "OHN, Unrestricted"  
-    <span class="hotline">**KA ADC** -> **OLW**</span>: "OHN"  
+The Standard Assignable level from **KA ADC** to **OLW** is:
 
-The Standard Assignable level from KA ADC to OLW is the lower of `A050` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A050` and `RFL` |
+
 #### Arrivals
 YPKA arrivals shall be heads-up coordinated to **KA ADC** from OLW prior to **5 mins** from the boundary.
 

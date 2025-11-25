@@ -19,12 +19,69 @@
 ## Airspace
 The Vertical limits of the CB TCU are `SFC` to `F245`.
 
+### CB ADC
+**CB ADC** is responsible for the Class C Airspace within the CB CTR `SFC` to `A035`.
+
 ### Airspace Division
 
 <figure markdown>
 ![CB TCU Structure](img/cbtcu_annotated.png){ width="700" }
   <figcaption>CB TCU Structure</figcaption>
 </figure>
+
+## Flow
+### Local Knowledge
+- By Day VMC, aircraft from the NE can be issued the BUNGO/LEECE Victor STAR to reduce track miles
+- In lieu of a STAR, non-jet aircraft may be processed direct to the IAF of the RNP RWY 30 to reduce track miles
+
+### Flow Tables
+The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
+
+=== "Jets"               
+    | STAR    | RWY 17 | RWY 35 |
+    | ------- | :------: | :------: |
+    | **AVBEG**   | 8^ | 16 |
+    | **LEECE A** | 13 | 15 |
+    | **LEECE V** | - | 13 |
+    | **LEECE W** | - | 14 |
+    | **LEECE Y** | 12^ | 13 |
+    | **MANDA A** | 12^ | - |
+    | **MANDA X** | 11^ | - |
+    | **POLLI A** | - | 11^ |
+    | **POLLI X** | - | 11^ |
+
+=== "Non-Jets"
+    | STAR    | RWY 17 | RWY 30 | RWY 35 |
+    | ------- | :------: | :------: | :------: |
+    | **AVBEG**   | 9^ | - | 18 |
+    | **BUNGO A** | 13^ | - | 17 |
+    | **BUNGO V** | - | 12^ | 16^ |
+    | **BUNGO W** | - | - | 17 |
+    | **BUNGO Y** | - | - | 15 |
+    | **MANDA A** | 13^ | - | - |
+    | **MANDA X** | 12^ | - | - |
+    | **POLLI A** | - | - | 13^ |
+    | **POLLI X** | - | - | 12^ |
+
+#### Corrections
+| Situation | Correction |
+| ----- | ----- |
+| Assigned a reduced speed | +1 min, *except ^* | 
+| Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
+
+#### Assumptions
+- Nil wind
+- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, regardless of transition
+
+### Calculator
+<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
+The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
+
+=== "Landing Time"
+    <div class="flowCalculatorLandingTime" data-aerodrome="YSCB"></div>
+
+=== "Feeder Fix Time"
+    <div class="flowCalculatorFeederFixTime" data-aerodrome="YSCB"></div>
 
 ## Coordination
 ### Enroute
@@ -53,23 +110,21 @@ Voiceless for all aircraft:
 All other aircraft coming from BLA/GUN CTA will be **Heads-up** Coordinated to CB TCU prior to **20nm** from the boundary.
 
 ### ADC
-#### Airspace
-CB ADC is responsible for the Class C Airspace within the CB CTR `SFC` to `A035`.
+#### Departures
+[Next](../controller-skills/coordination.md#next) coordination is not required to CB TCU for aircraft that are:   
+  
+  - Departing from a runway nominated on the ATIS; and  
+  - Assigned the standard assignable level; and  
+  - Assigned a **Procedural** SID
 
-#### Auto Release
-'Next' coordination is **not** required from CB ADC for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a **Procedural** SID
-
-!!! phraseology
-    <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Next, ABC, runway 35"  
-    <span class="hotline">**CB TCU** -> **CB ADC**</span>: "ABC, Track Extended Centreline, unrestricted"  
-    <span class="hotline">**CB ADC** -> **CB TCU**</span>: "Track Extended Centreline, ABC"
+All other aircraft require a 'Next' call to CB TCU.
 
 The Standard Assignable level from CB ADC to CB TCU is:  
-For IFR aircraft: `A100`  
-For VFR aircraft: The lower of `A040` or the `RFL`
+
+| Flight Rules | Level |
+| ------------ | ----- |
+| IFR | `A100` |
+| VFR | The lower of `A040` and `RFL` |
 
 #### Helipads in the CB CTR
 The Canberra CTR contains the Southcare Helicopter Base (YXSB) as well as two hospitals (Calvary Hospital and Canberra Hospital). Helicopters inbound to these helipads should be coordinated with **CB ADC** who can use a visual separation techniques as required. ADC and the TMA controller should work together to determine the most appropriate clearance limit (if required due traffic) for the helicopter, before frequency transfer is issued. ADC will issue a visual approach clearance when it is available.

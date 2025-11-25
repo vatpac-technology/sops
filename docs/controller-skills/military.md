@@ -7,7 +7,7 @@ title: Military/Restricted Operations
 ## Special Use Airspace (SUA)
 SUAs, formerly known as Restricted Areas (RAs), are scattered all over Australian airspace. In real life, they can be used for many different purposes, including, but not limited to:
 
-- Military Activity (Most common)
+- Military Activity (most common)
 - Live Firing
 - Airshows
 - Operationally Restricted Airspace
@@ -35,12 +35,14 @@ Outside controlled airspace, it is the responsibility of the controller to provi
 
 !!! phraseology
     **CNK**: "VFR aircraft overhead YCNK 3500 tracking westbound, confirm you will be remaining clear of the R564 restricted area?"  
+
     To which they will almost always reply with either *"Affirm"* or *"Huh?"*
 
 For aircraft unfamiliar with the restricted area, provide *suggested* headings to avoid. Get the aircraft to squawk ident to temporarily identify them. Remember that you cannot vector aircraft OCTA.
 
 #### CTA
 You must separate all aircraft in controlled airspace by *half the applicable lateral standard* from a Restricted Area (ie, **1.5nm** for TCU, **2.5nm** for Enroute). Aircraft operating at the vertical limits of Restricted Areas are considered to be separated from it.
+
 
 ### Activation times
 Some Restricted Areas are not always active. Some may be active only on certain days, or certain hours of the day. More info can be found in the [ERSA](https://www.airservicesaustralia.com/aip/aip.asp){target=new}, or on the Restricted Areas window in vatSys
@@ -62,22 +64,22 @@ Military aircraft are permitted to operate within their designated Restricted Ar
     **DRGN379**: "Wilco, DRGN379"  
 
 ### ATC Activated Military Airspace
-Most Military TCUs and Tower positions, when online, control airspace that correspond to certain Restricted Area Activations. These are prescribed in the Local Instructions.
+Most military TCUs and Tower positions, when online, control airspace that correspond to certain Restricted Area Activations. These are prescribed in the Local Instructions.
 
 These Restricted Areas may be activated in vatSys, and the controllers of these positions may inform other surrounding controllers of their activations, so they may use the Resitricted Areas on the screen to visually assess the airspace and separation required for traffic.
 
-Unless otherwise stated in Local Instructions, Restricted Areas activated for control by Military TCUs and Towers, will become **Class C** airspace.
+Unless otherwise stated in Local Instructions, Restricted Areas activated for control by military TCUs and Towers, will become **Class C** airspace.
 
 ## Formation Flights
 ### Standard Formation
-A **Standard formation** is defined by more than one aircraft, separated by no more than **1nm** laterally/longitudinally, and no more than **100 feet** vertically, from the lead aircraft. All aircraft in the formation are treated as *one*. Ensure only the leader is squawking Mode C.
+A **standard formation** is defined by more than one aircraft, separated by no more than **1nm** laterally/longitudinally, and no more than **100 feet** vertically, from the lead aircraft. All aircraft in the formation are treated as *one*. Ensure only the leader is squawking Mode C.
 
 An additional **1nm** must be applied to any lateral separation standards for aircraft in a Standard Formation (Surveillance standards, for example, become *6nm* for Enroute, *4nm* for ADC/TCU).
 
 !!! note
     RAAF FIHA AD2 Supps and TERMAs can be found [here](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
-When Military formations make initial contact with a new sector, they will commonly "check in" with all of the members of the formation, to ensure they've all made the frequency transfer. This involves all the individual members of the formation saying their own number in order on the first call. Formations are most commonly referred to by their base radio telephony callsign, without any numbers (eg, VIPR, BLKT, WGTL).
+When military formations make initial contact with a new sector, they will commonly "check in" with all of the members of the formation, to ensure they've all made the frequency transfer. This involves all the individual members of the formation saying their own number in order on the first call. Formations are most commonly referred to by their base radio telephony callsign, without any numbers (eg, VIPR, BLKT, WGTL).
 
 !!! phraseology
     **VIPR**: "Viper 1, 2, 3, 4, Brisbane Centre, Viper, Maintaining F280"  
@@ -88,6 +90,19 @@ Any subsequent calls will only be made by the leader, representing the entire fo
 !!! phraseology
     **ARA**: "Viper, Climb to F340"  
     **VIPR**:  "Climb to F340, Viper" 
+
+You may issue issue individual control instructions to a formation when necessary.
+
+!!! phraseology
+    **ARA**: "VIPR12, extend downwind"  
+    **VIPR12**: "Extend downwind, VIPR12"
+
+You must consider the formation to be broken and process aircraft individually when the formation aircraft:
+
+- elect to carry out touch and go landings;
+- are required to go around;
+- elect to carry out individual activities
+
 
 ### Close Formation
 Reserved.
@@ -118,7 +133,7 @@ MARSA is to be assigned and terminated on pilots request, and when standard sepe
     **ARA**: "MAPL01 and DRGN50, MARSA terminated"
 
 ## NOCOM Operations
-**Non-Continuous Communication** (NOCOM) Procedures are when Military Aircraft discontinue two-way radio communications with Civil ATC. NOCOM Procedures state that ATC Approval is required when Military Aircraft are in controlled airspace. Military Aircraft under NOCOM procedures fall under multiple categories:
+**Non-Continuous Communication** (NOCOM) procedures allow military aircraft to discontinue two-way radio communications with civil ATC. ATC approval is required when military aircraft are in controlled airspace. Military aircraft under NOCOM procedures fall under multiple categories:
 
 - Flights on "Area Freq" when OCTA
 - Flights that are "Radio Silent"
@@ -127,3 +142,60 @@ MARSA is to be assigned and terminated on pilots request, and when standard sepe
 
 !!! note
     Military aircraft normally operate NOCOM in military Restricted Areas and Class G airspace only. **Do not** permit NOCOM operations in Civil CTA.
+
+
+## Stereo Approaches
+Stereo Approaches are the primary procedure for fighter & strike aircraft (e.g. F18, HAWK, PC21) recovering back to airbases after operations in SUA. Aircraft track from specified SUA exit gates where they join the procedure, tracking along charted TACAN arcs/radials which position them for an initial and pitch or instrument approach.
+
+!!! info
+    Despite their name, stereo approaches can be thought of as the military equivalent of a STAR. Aircraft generally transition from a stereo approach onto an instrument approach or an initial and pitch.
+
+Stereo approaches should generally be used during high military traffic levels and nominated on the appropriate aerodrome ATIS.
+
+Stereo Approach charts can be found in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}
+
+## Aerodrome Responsbilities
+If a controller is handling a military aircraft, they must confirm the undercarrige is down and locked when issuing a clearance to land.
+
+!!! phraseology
+    **ESA**: "VIPR42, cleared to land runway 27, check wheels"  
+    **VIPR42**" "Cleared to land runway 27, 3 greens"
+
+!!! note
+    Some aircraft may respond with a beep tone to indicate three greens. In the real world, this tone is produced by the aircraft itself, however some online pilots may choose to replicate this produce using other methods.
+
+## Initial and Pitch 
+The Initial and Pitch is a military visual approach to the circuit area. Military aircraft approach on the deadside, parallel to the extended runway centreline at high speed (the **initial**), then make a tight turn onto downwind (the **pitch**). Aircraft should be cleared for a visual approach via the relevant initial point by the **TCU controller** and transferred to ADC when appropriate. 
+
+To deconflict traffic, aircraft can be instructed to: 
+
+- Pitch short (abeam the landing threshold)
+- Pitch long (abeam the upwind threshold)
+
+!!! note
+    Refer to each aerodrome's SOPs for location-specific altitude and approach points.
+
+The initial can be commenced from a straight in position (straight initial) or a position left or right of the straight in position (left and right initial).
+
+<figure markdown>
+![Initial & Pitch](img/initialandpitch.png){ width="700" }
+  <figcaption>Initial & Pitch</figcaption>
+</figure>
+
+!!! phraseology
+    **ESA**: "VIPR47, track via left initial runway 27, cleared visual approach, at the initial, contact Sale Tower 118.3"  
+    **VIPR47**: "Track via left initial runway 27, cleared visual approach, at the initial, contact Sale Tower 118.3, VIPR47"
+
+By default, aircraft will pitch at the midfield point (about half way down the runway). However, if necessary, instruct aircraft to move their pitch point, which has the same effect as instructing a civil aircraft to extend their downwind leg or make a close circuit.
+
+- Pitch short (abeam the landing threshold)
+- Pitch long (abeam the upwind threshold)
+
+!!! phraseology
+    **VIPR47**: "Sale Tower, VIPR47"  
+    **ADC**: "VIPR47, pitch long"  
+    **VIPR47**: "Pitch long, VIPR47"
+    **VIPR47**: "VIPR47, Base"  
+    **ADC**: "VIPR47, runway 27, cleared to land, check wheels"  
+    **VIPR47**: "Runway 27, Cleared to Land, VIPR47, 3 Greens"
+

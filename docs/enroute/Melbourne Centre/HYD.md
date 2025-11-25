@@ -19,6 +19,12 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
+## Airspace
+<figure markdown>
+![Hyden Airspace](../assets/hyd.png){ width="700" }
+  <figcaption>Pingelly Airspace</figcaption>
+</figure>
+
 ### CPDLC
 The Primary Communication Method for HYD is Voice.
 
@@ -29,43 +35,217 @@ The CPDLC Station Code is `YHYD`.
 !!! tip
     Even though HYD's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
-## Airspace
-<figure markdown>
-![Hyden Airspace](../assets/hyd.png){ width="700" }
-  <figcaption>Pingelly Airspace</figcaption>
-</figure>
-
 ## Sector Responsibilities
 ### Pingelly (PIY)
-PIY will provide final sequencing actions to ensure aircraft comply with their FF times prior to entering the Perth TCU. PIY is also responsible for issuing STAR Clearances for aircraft bound for YPJT, and Non-jets bound for YPPH and YPEA. See [Perth Runway Modes](#ypph-runway-modes) for runway assignment.
+#### YPPH Arrivals
+PIY is responsible for final sequencing actions, final descent, and STAR Clearances (for Non-jets).
 
+#### YPJT Arrivals
+PIY is responsible for issuing STAR Clearances, final descent, and ascertaining arrival intentions.
+
+See [YPJT Arrivals](#ypjtypea-arrivals) for STAR assignment.
+
+#### YPEA Arrivals
+PIY is responsible for issuing STAR Clearances (for Non-Jets), final descent and ascertaining arrival intentions.
+
+See [YPJT Arrivals](#ypjtypea-arrivals) for STAR assignment.
+
+#### Overfliers
 For aircraft overflying the PH TCU place `O/FLY` in the LABEL DATA field.
 
 ### Leeman (LEA)
-LEA is responsible for assigning and issuing STAR clearance to aircraft inbound to Perth via `IPMOR`. See [Perth Runway Modes](#ypph-runway-modes) for runway assignment.
-
 !!! note
     Controllers should be aware that VHF coverage near the LEA/IND border may be limited. Controllers should strive to issue HF frequencies and transfer of communications instruction prior to 160 NM PH DME.
 
+#### YPPH Arrivals
+LEA is responsible for issuing STAR clearance and final descent for aircraft inbound via `IPMOR`.
+
+See [Perth Runway Modes](#ypph-runway-modes) for runway assignment.
+
+#### YPJT Arrivals
+LEA is responsible for issuing STAR Clearances, final descent, and ascertaining arrival intentions.
+
+See [YPJT Arrivals](#ypjtypea-arrivals) for STAR assignment.
+
+#### YPEA Arrivals
+LEA is responsible for issuing STAR Clearances, final descent and ascertaining arrival intentions.
+
+See [YPEA Arrivals](#ypjtypea-arrivals) for STAR assignment.
+
+#### Overfliers
+For aircraft overflying the PH TCU place `O/FLY` in the LABEL DATA field.
+
 ### Grove (GVE)
-GVE is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `JULIM` and `SAPKO`.  See [Perth Runway Modes](#ypph-runway-modes) for runway assignment.
+#### YPPH Arrivals
+GVE is responsible for issuing STAR clearance to Jets inbound via `JULIM` and `SAPKO`, and initial descent to not below `F190`.
+
+See [Perth Runway Modes](#ypph-runway-modes) for runway assignment.
+
+#### YPEA Arrivals
+GVE is responsible for issuing STAR Clearances (for Jets), and initial descent to not below `F190`.
+
+See [YPEA Arrivals](#ypjtypea-arrivals) for STAR assignment.
 
 ### Hyden (HYD)
-HYD is responsible for assigning and issuing STAR clearance to Jet aircraft inbound to Perth via `KABLI`/`MALUP`, `DAYLR` and `LAVEX`. See [Perth Runway Modes](#ypph-runway-modes) for runway assignment.
+#### YPPH Arrivals
+HYD is responsible for issuing STAR clearance to Jets inbound via `KABLI`/`MALUP`, `DAYLR` and `LAVEX`, and initial descent to not below `F190`.
+
+See [Perth Runway Modes](#ypph-runway-modes) for runway assignment.
+
+#### YPEA Arrivals
+HYD is responsible for issuing STAR Clearances (for Jets), and initial descent to not below `F190`.
+
+See [YPEA Arrivals](#ypjtypea-arrivals) for STAR assignment.
 
 ### Cross (CRS) / Geraldton (GEL)
 Just keeping them separated!
 
 ### Jarrah (JAR)
-JAR is responsible for assigning and issuing arrival clearance to aircraft inbound to Perth via `SOLUS`. See [Perth Runway Modes](#ypph-runway-modes) for runway assignment.
-
 !!! note
     Controllers should be aware there may be limited ADS-B coverage around Albany (YABA). Expect some areas of Class E airspace to be outside surveillance coverage. [Procedural Standards](../../../separation-standards/procedural) may need to be used in these cases.
+
+#### YPPH Arrivals
+JAR is responsible for issuing STAR clearance to aircraft inbound via `SOLUS`.
+
+See [Perth Runway Modes](#ypph-runway-modes) for runway assignment.
+
+#### YPJT Arrivals
+JAR is responsible for issuing descent and ascertaining arrival intentions.
+
+#### YPEA Arrivals
+JAR is responsible for issuing descent and ascertaining arrival intentions.
+
+#### Overfliers
+For aircraft overflying the PH TCU place `O/FLY` in the LABEL DATA field.
 
 ### Sequencing in to YPPH
 Aircraft assigned the **same runway** inbound via **JULIM** and **SAPKO**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
+#### Predictable Sequencing Waypoints
+There are ten [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YPPH via  **Q10**, **Q32**, **Q27**, **Q41** and **Z38**, located south of **Q10** and north of **Q27**. There are also eight waypoints available for aicraft inbound via **Q9**, **Q31**, **Q38**, **Q73** and **Q181** located east of the **Q38**.
+
+The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
+
+=== "Q9"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | LEBOD | NUKTU | AVPAL | +1 |
+    | LEBOD | BOKAT | AVPAL | +2 |
+    | LEBOD | ELNUL | AVPAL | +3 |
+    | LEBOD | LAXIM | AVPAL | +5 |
+    | LEBOD | ISGUN | AVPAL | +8 |
+    | LEBOD | AGTIK | AVPAL | +10 |
+    | LEBOD | MEENA | AVPAL | +12 |
+    | LEBOD | SQARE | AVPAL | +14 |
+
+=== "Q10"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | URGEX | TEKUD | MALUP | +1 |
+    | URGEX | BEMPI | MALUP | +2 |
+    | URGEX | AGTOD | MALUP | +4 |
+    | URGEX | DUKOR | MALUP | +6 |
+    | URGEX | IPGER | MALUP | +8 |
+    | URGEX | TODOS | MALUP | +10 |
+    | URGEX | IVPIL | MALUP | +13 |
+ 
+=== "Q27"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | IVPIL | TODOS | MALUP | +1 |
+    | IVPIL | IPGER | MALUP | +2 |
+    | IVPIL | DUKOR | MALUP | +3 |
+    | IVPIL | AGTOD | MALUP | +4 |
+    | IVPIL | BEMPI | MALUP | +5 |
+    | IVPIL | TEKUD | MALUP | +6 |
+    | IVPIL | URGEX | MALUP | +8 |
+    
+=== "Q31"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | NUKTU | BOKAT | AVPAL | +1 |
+    | NUKTU | ELNUL | AVPAL | +2 |
+    | NUKTU | LAXIM | AVPAL | +4 |
+    | NUKTU | ISGUN | AVPAL | +7 |
+    | NUKTU | AGTIK | AVPAL | +9 |
+    | NUKTU | MEENA | AVPAL | +11 |
+    | NUKTU | SQARE | AVPAL | +13 |
+ 
+=== "Q32"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | TEKUD | BEMPI | MALUP | +1 |
+    | TEKUD | AGTOD | MALUP | +3 |
+    | TEKUD | DUKOR | MALUP | +5 |
+    | TEKUD | IPGER | MALUP | +7 |
+    | TEKUD | TODOS | MALUP | +9 |
+	
+=== "Q38"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | NUKTU | BOKAT | AVPAL | +1 |
+    | NUKTU | ELNUL | AVPAL | +2 |
+    | NUKTU | LAXIM | AVPAL | +4 |
+    | NUKTU | ISGUN | AVPAL | +7 |
+    | NUKTU | AGTIK | AVPAL | +9 |
+    | NUKTU | MEENA | AVPAL | +11 |
+    | NUKTU | SQARE | AVPAL | +13 |
+ 
+=== "Q41"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | NALAR | URGEX | MALUP | +5 |
+    | NALAR | TEKUD | MALUP | +7 |
+    | NALAR | BEMPI | MALUP | +8 |
+    | NALAR | AGTOD | MALUP | +10 |
+    | NALAR | DUKOR | MALUP | +12 |
+    | NALAR | IPGER | MALUP | +14 |
+    | NALAR | TODOS | MALUP | +16 |
+    | NALAR | IVPIL | MALUP | +20 |
+	
+=== "Q73"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+	| SQARE | MEENA | AVPAL | +1 |
+    | SQARE | AGTIK | AVPAL | +2 |
+    | SQARE | ISGUN | AVPAL | +3 |
+    | SQARE | LAXIM | AVPAL | +4 |
+    | SQARE | ELNUL | AVPAL | +6 |
+    | SQARE | BOKAT | AVPAL | +7 |
+    | SQARE | NUKTU | AVPAL | +8 |
+    | SQARE | LEBOD | AVPAL | +10 |
+	
+=== "Q181"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | BOKAT | ELNUL | AVPAL | +1 |
+    | BOKAT | LAXIM | AVPAL | +3 |
+    | BOKAT | ISGUN | AVPAL | +6 |
+    | BOKAT | AGTIK | AVPAL | +8 |
+    | BOKAT | MEENA | AVPAL | +10 |
+    | BOKAT | SQARE | AVPAL | +12 |
+	
+=== "Z38"
+    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
+    | ---------------- | ------------ | -------------- | --------------- |
+    | BUNGL | MALUP | MALUP | +3 |
+    | BUNGL | IGROB | MALUP | +5 |
+    | BUNGL | KINAB | MALUP | +7 |
+
+#### Holding Fixes
+Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YPPH. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
+
+| Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
+| ---- | ---- | ---- |
+| JULIM | CALIG | Jets: 4 min<br>Non-Jets: 6 min |
+| Others | Feeder Fix | - |
+
+!!! tip
+    Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector. 
+
 ## YPPH Runway Modes
+Generally, YPPH operates on either the Southwest or Northeast runway plan, as below. Where strong winds dictate the use of only a single runway, this will be nominated in the ATIS.
+
 ### Southwest Plan
 With the Southwest Plan active, arrivals shall be processed to either runway 21 or 24 based on their feeder fix, as per the table below:
 
@@ -74,28 +254,31 @@ With the Southwest Plan active, arrivals shall be processed to either runway 21 
 | JULIM | 21 |
 | SAPKO | 21 |
 | IPMOR | 21 |
-| KABLI | 24 (or 21 if operationally required) |
+| KABLI | 24 |
 | LAVEX | 24 |
 | SOLUS | 24 |
+
+!!! note
+    Where an aircraft operationally requires runway 21, they shall be assigned that runway regardless of feeder fix.
 
 ### Northeast Plan
 With the Northeast Plan active (runways 03 and 06 in use), all arrivals shall be processed to runway 03.
 
-## YPJT Arrivals
-To facilitate smooth movement of traffic in the Perth TCU, IFR Arrivals to YPJT shall be assigned a STAR in accordance with the *YPPH Runway Mode*:
+## YPJT/YPEA Arrivals
+To facilitate smooth movement of traffic in the Perth TCU, IFR Arrivals to YPJT and YPEA shall be assigned a STAR in accordance with the *YPPH Runway Mode*:
 
 | Feeder Fix | 03/06 | 21/24 |
 | ------------------- | ----- | ----- |
-| WOORA | Golf | WOORA PH JT (No STAR) |
+| WOORA (YPJT) | Golf | WOORA PH JT (No STAR) |
+| JULIM (YPEA) | JULIM PEA (No STAR) | JULIM PEA (No STAR) |
 | LAVEX | Golf | Romeo |
 | KABLI (Jet) | Golf | Romeo | 
 | MALUP (Non-Jet) | Whiskey | Romeo (via KABLI) | 
 
 !!! note
-    Assigning a STAR to YPJT Arrivals still does not meet [voiceless coordination requirements](#arrivalsoverfliers) to PH TCU. All YPJT Arrivals must be **heads-up coordinated**, including those assigned a STAR.
+    Assigning a STAR to YPJT/YPEA Arrivals still does not meet [voiceless coordination requirements](#arrivalsoverfliers) to PH TCU. All YPJT/YPEA Arrivals must be **heads-up coordinated**, including those assigned a STAR.
 
 ## STAR Clearance Expectation
-
 ### Handoff
 Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
 
@@ -115,7 +298,7 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | GVE, CRS, HYD | PIY | YPPH, YPEA | Non-jets only |
 | GVE, CRS, HYD | PIY | YPJT | |
 | GEL, IND | LEA | YPPH | |
-| IND | GEL, LEA, JAR | YPPH | |
+| IND | LEA, JAR | YPPH | |
 
 ## Coordination
 ### PH TCU
@@ -150,7 +333,7 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 ### HYD Internal
 Changes to CFL are permitted up to the boundary from GVE, CRS and HYD to PIY.
 
-All else is Voiceless, no changes to route or CFL within **20nm** to boundary.
+All else is Voiceless, no changes to route or CFL within **20nm** (reduced from 50nm) to boundary.
 
 That being said, it is *advised* that HYD(All) gives **Heads-up Coordination** prior to **20nm** in the following scenarios:  
 - JAR to PIY for all aircraft  

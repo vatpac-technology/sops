@@ -35,9 +35,6 @@ See also: [CG ADC Offline](#cg-adc-offline).
 
 !!! tip
     If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
-  
-### Airspace Structural Arrangements
-Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, **“North”**/**”West”** positions shall assume the airspace of corresponding **“South”**/**”East”** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
 
 ### Airspace Division
 The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **BAC** change based on the Runway Mode.
@@ -45,59 +42,36 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **
 !!! note
     The following diagrams do not include non BN TCU areas of responsibility such as AF CTR or CG ADC
 
-#### 01 PROPS
-<figure markdown>
-![01 PROPS TCU Structure](img/bn01props.png){ width="700" }
-  <figcaption>01 PROPS TCU Structure</figcaption>
-</figure>
+=== "01 PROPS"
+	<figure markdown>
+	![01 PROPS TCU Structure](img/bn01props.png){ width="700" }
+	  <figcaption>01 PROPS TCU Structure</figcaption>
+	</figure>
 
-#### 19 PROPS
-<figure markdown>
-![19 PROPS TCU Structure](img/bn19props.png){ width="700" }
-  <figcaption>19 PROPS TCU Structure</figcaption>
-</figure>
+=== "19 PROPS"
+	<figure markdown>
+	![19 PROPS TCU Structure](img/bn19props.png){ width="700" }
+	  <figcaption>19 PROPS TCU Structure</figcaption>
+	</figure>
 
-#### SODPROPS
-<figure markdown>
-![SODPROPS TCU Structure](img/bnsodprops.png){ width="700" }
-  <figcaption>SODPROPS TCU Structure</figcaption>
-</figure>
+=== "SODPROPS"
+	<figure markdown>
+	![SODPROPS TCU Structure](img/bnsodprops.png){ width="700" }
+	  <figcaption>SODPROPS TCU Structure</figcaption>
+	</figure>
 
-## Parallel Runway Operations
+#### Airspace Structural Arrangements
+Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, **"North"**/**"West"** positions shall assume the airspace of corresponding **"South"**/**"East"** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
+
+## Separation
+### Parallel Runway Operations
 Refer to [Parallel Runway Separation Standards](../../separation-standards/parallelapps) for more information
 
-### Runway Selection
-Aircraft shall be assigned the following runways for arrival when PROPS are in progress:
+## Departure/Arrival Procedures
+### SODPROPS
+Arriving aircraft must be established on final and transferred to the tower frequency no later than 10NM from touchdown.
 
-| FF | Runway |
-| ---- | -------- |
-| BLAKA | 01R/19L |
-| GOMOL | 01R/19L |
-| UGTUG | 01R/**19R** |
-| TEBOT | 01R/**19R** |
-| MORBI | 01L/19R |
-| SMOKA | 01L/19R |
-| WOODY | 01L/19R |
-| ENLIP | 01L/**19L** |
-| Other aircraft: |
-| From the NORTH and WEST | 01L/19R |
-| From the SOUTH and EAST | 01R/19L |
-
-These standard runway assignments may be modified strategically by the BAS or BFL controller.
-
-!!! phraseology
-    If during an event, the vast majority of traffic is coming from **BLAKA** and **GOMOL** feeder fixes, BAS/BFL may elect to assign 19L to **BLAKA** arrivals and 19R to **GOMOL** arrivals, to keep them separated at all times.
-
-    <span class="hotline">**BFL** -> **INL**</span>: "All arrivals via GOMOL to be assigned 19R until further notice"  
-    <span class="hotline">**INL** -> **BFL**</span>: "Roger, Arrivals via GOMOL to be assigned 19R" 
-
-### Independent Visual Approach Phraseology at Night
-*"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (MVA) UNTIL ESTABLISHED ON THE PAPI (or GLIDEPATH)"*
-
-!!! phraseology
-    **BAS:** “QFA660, Turn left heading 040, join final Runway 01L, from that heading Cleared Independent Visual Approach Runway 01L, not below 2400 until established on the PAPI”    
-
-## Offline Towers
+## Tower Offline
 ### AF ADC Offline
 Due to the low level of CTA (`A015`) in the AF CTR when **AF ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
@@ -122,9 +96,34 @@ Due to the low level of CTA (`A035`) in the CG CTR when **CG ADC** is offline, i
     **BN TCU**: "JST446, cleared to YSSY via APAGI, flight planned route, climb to A060"  
     **JST446**: "Cleared to YSSY via APAGI, flight planned route, climb to A060, JST446"
 
+## Runway Modes
+### Parallel Runway Operations
+Aircraft shall be assigned the following runways for arrival when PROPS are in progress:
+
+| FF | Runway |
+| ---- | -------- |
+| BLAKA | 01R/19L |
+| GOMOL | 01R/19L |
+| UGTUG | 01R/**19R** |
+| TEBOT | 01R/**19R** |
+| MORBI | 01L/19R |
+| SMOKA | 01L/19R |
+| WOODY | 01L/19R |
+| ENLIP | 01L/**19L** |
+| Other aircraft: |
+| From the NORTH and WEST | 01L/19R |
+| From the SOUTH and EAST | 01R/19L |
+
+These standard runway assignments may be modified strategically by the BAS or BFL controller.
+
+!!! phraseology
+    If during an event, the vast majority of traffic is coming from **BLAKA** and **GOMOL** feeder fixes, BAS/BFL may elect to assign 19L to **BLAKA** arrivals and 19R to **GOMOL** arrivals, to keep them separated at all times.
+
+    <span class="hotline">**BFL** -> **INL**</span>: "All arrivals via GOMOL to be assigned 19R until further notice"  
+    <span class="hotline">**INL** -> **BFL**</span>: "Roger, Arrivals via GOMOL to be assigned 19R" 
+
 ## Helicopter Operations
 In VMC, helicopters inbound to or outbound from YBBN shall be processed via two visual waypoints (outlined below) positioned north and south of the field. Where VMC does not exist, IFR helicopters will conform to fixed wing ops.
-
 
 | Direction of Flight  | Inbound/Outbound Tracking Point |
 | ------------------ | -------------- |
@@ -185,6 +184,121 @@ Once the aircraft exits the CTA, cancel their identification and control service
     **BN TCU**: "FHK, identification and control service terminated, frequency change approved"  
     **FHK**: "Frequency change approved, FHK"  
 
+## Flow
+### Local Knowledge
+- Aircraft inbound to YBBN from the south may be split between the GOMOL/BLAKA and ENLIP STARs, and assigned different runways, to reduce overall delay (most effective during 01 PROPS)
+- Aircraft inbound to YBBN may be issued the appropriate Xray or Victor STAR to reduce track miles
+- Aircraft inbound to YBBN from the north for RWY 01R may be issued the SMOKA M STAR to reduce track miles
+- Aircraft inbound to YBCG may be assigned the Yankee or Victor STAR to reduce track miles
+
+### Flow Tables
+#### YBBN
+The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
+
+=== "Jets & DH8D"
+    | STAR     | RWY 01L | RWY 01R | RWY 19L | RWY 19R |
+    | -------- | ------- | ------- | ------- | ------- |
+    | **BLAKA A**  | 13      | 13      | 19      | 21      |
+    | **BLAKA X**  | -       | 12      | 16      | -       |
+    | **ENLIP A**  | 11^     | 11^     | 20      | 18      |
+    | **ENLIP X**  | -       | -       | 16      | 16      |
+    | **GOMOL A**  | 14      | 14      | 18      | 20      |
+    | **GOMOL V**  | -       | 13      | 15      | -       |
+    | **GOMOL X**  | -       | 12      | 16      | -       |
+    | **ISPON**<br>*ENLIP transition*<br>*BLAKA transition*<br>*GOMOL transition*<br>*UGTUG transition* | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>20<br>19<br>19<br>14  |
+    | **MORBI A**  | 16      | 15      | 13      | 12      |
+    | **MORBI V**  | 13      | -       | -       | 11^     |
+    | **SMOKA A**  | 15      | 14      | 13      | 13      |
+    | **SMOKA M**  | -       | 12^     | -       | -       |
+    | **SMOKA X**  | 13      | -       | -       | 11^     |
+    | **TEBOT A**  | 18      | 18      | 11^     | 11^     |
+    | **TEBOT X**  | -       | 15      | -       | -       |
+    | **UGTUG A**  | 15      | 15      | 13      | 14      |
+    | **UGTUG X**  | -       | 13      | 12^     | -       |
+    | **WOODY A**  | 14      | 13      | 15      | 15      |
+    | **WOODY V**  | 11^     | -       | -       | 12^     |
+
+=== "Non-Jets"
+    | STAR     | RWY 01L | RWY 01R | RWY 19L | RWY 19R |
+    | -------- | ------- | ------- | ------- | ------- |
+    | **BLAKA A**  | 15      | 15      | 22      | 24      |
+    | **BLAKA X**  | -       | 14      | 18      | -       |
+    | **ENLIP A**  | 13^     | 13^     | 23      | 20      |
+    | **ENLIP X**  | -       | -       | 19      | 18      |
+    | **GOMOL A**  | 16      | 15      | 21      | 23      |
+    | **GOMOL V**  | -       | 14      | 17      | -       |
+    | **GOMOL X**  | -       | 14      | 18      | -       |
+    | **ISPON**<br>*ENLIP transition*<br>*BLAKA transition*<br>*GOMOL transition*<br>*UGTUG transition* | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>-<br>-<br>-<br>- | <br>23<br>22<br>21<br>15  |
+    | **MORBI A**  | 18      | 17      | 14      | 14      |
+    | **MORBI V**  | 14      | -       | -       | 12^     |
+    | **SMOKA A**  | 17      | 16      | 15      | 15      |
+    | **SMOKA M**  | -       | 13^     | -       | -       |
+    | **SMOKA X**  | 14      | -       | -       | 13^     |
+    | **TEBOT A**  | 20      | 21      | 12^     | 13^     |
+    | **TEBOT X**  | -       | 17      | -       | -       |
+    | **UGTUG A**  | 17      | 17      | 15      | 16      |
+    | **UGTUG X**  | -       | 14      | 13^     | -       |
+    | **WOODY A**  | 16      | 15      | 17      | 16      |
+    | **WOODY V**  | 13^     | -       | -       | 14^     |
+
+#### YBCG
+The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
+
+=== "Jets & DH8D"
+    | Arrival | RWY 14 | RWY 32 |
+    | ------- | ------ | ------ |
+    | **BERNI A STAR** | 15  | 11^  |
+    | **BERNI V STAR** | 14  | 12^  |
+    | **BERNI Y STAR** | 14  | - |
+    | **LAMSI A STAR** | 13  | 11^  |
+    | **LAMSI Y STAR** | 12^  | 10^  |
+    | **BN Y177 IDRIL CG2SA** | -  | 16  |
+    | **BN Y177 IDRIL CG2NC** | 12^ | - |
+
+=== "Non-Jets"
+    | Arrival | RWY 14 | RWY 32 |
+    | ------- | ------ | ------ |
+    | **BERNI A STAR** | 17  | 13^  |
+    | **BERNI V STAR** | 16  | 13^  |
+    | **BERNI Y STAR** | 16  | - |
+    | **LAMSI A STAR** | 15  | 13^  |
+    | **LAMSI Y STAR** | 14^  | 12^  |
+    | **BN Y177 IDRIL CG2SA** | -  | 18  |
+    | **BN Y177 IDRIL CG2NC** | 13^ | - |
+
+#### Corrections
+
+| Situation | Correction |
+| ----- | ----- |
+| Assigned a reduced speed | +1 min, *except ^* | 
+| Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
+
+#### Assumptions
+- Nil wind
+- The feeder fix for all STARs is the assigned STAR transition waypoint (if applicable), otherwise the waypoint coinciding with the STAR title
+- Aircraft inbound to YBCG from the north will track from IDRIL to the IAF for their assigned approach
+- Aircraft inbound to YBCG on a STAR ending at FIKUL or KEGAN will conduct the RNP Z approach
+
+### YBBN Calculator
+<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
+The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
+
+=== "Landing Time"
+    <div class="flowCalculatorLandingTime" data-aerodrome="YBBN"></div>
+
+=== "Feeder Fix Time"
+    <div class="flowCalculatorFeederFixTime" data-aerodrome="YBBN"></div>
+
+### YBCG Calculator
+<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
+The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
+
+=== "Landing Time"
+    <div class="flowCalculatorLandingTime" data-aerodrome="YBCG"></div>
+
+=== "Feeder Fix Time"
+    <div class="flowCalculatorFeederFixTime" data-aerodrome="YBCG"></div>
+
 ## Coordination
 ### Enroute
 #### Departures
@@ -223,23 +337,23 @@ All other aircraft coming from INL CTA will be **Heads-up** Coordinated to BN TC
 
 ### BN ADC
 #### Auto Release
-'Next' coordination is **not** required from BN ADC for aircraft that are:   
+[Next](../controller-skills/coordination.md#next) coordination is **not** required to BN TCU for aircraft that are:
 
 - Departing from a runway nominated on the ATIS (except during SODPROPS^); and  
 - Assigned the standard assignable level; and  
 - Assigned a **Procedural** SID; or
 - Assigned the **Radar** SID with a [Standard Assignable Heading](#standard-assignable-departure-headings)
 
-^Auto Release is not available during SODPROPS runway mode. All aircraft will be coordinated from BN ADC to BN TCU.
+^*Auto Release is not available during SODPROPS runway mode. All aircraft must be coordinated from BN ADC to BN TCU.*
 
-!!! phraseology
-    <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Next, ABC, runway 19L"  
-    <span class="hotline">**BN TCU** -> **BN ADC**</span>: "ABC, Heading 030, Unrestricted"  
-    <span class="hotline">**BN ADC** -> **BN TCU**</span>: "Heading 030, ABC"
+All other aircraft require a 'Next' call to BN TCU.
 
 The Standard Assignable level from BN ADC to BN TCU is:  
-For Jets: `A060`  
-For Non-Jets: The lower of `A040` or the `RFL`
+
+| Aircraft | Level |
+| -------- | ----- |
+| Jets | `A060` |
+| Non-Jets | The lower of `A040` and `RFL` |
 
 #### Standard Assignable Departure Headings
 Aircraft that have been cleared the **BN (RADAR) SID** will receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required (excluding during SODPROPS) from the BN ADC controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
@@ -255,19 +369,19 @@ Aircraft that have been cleared the **BN (RADAR) SID** will receive an assigned 
     If strong winds are present at altitude, ADC/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
 
 ### BN TCU Internal
-#### Arrivals
-Voiceless Coordination is in place for arrivals transiting between BN TCU positions, provided the aircraft is:
-
-- ADES **YBBN** or **YBCG**; and
-- Assigned a STAR; and
-- Descending via STAR to `A080`
-
 #### Departures
 Voiceless Coordination is in place for departures transiting between BN TCU positions, provided the aircraft is:
 
 - ADEP **YBBN** or **YBCG**; and
 - Assigned a SID; and
 - Climbing via SID to `A100` or higher
+
+#### Arrivals
+Voiceless Coordination is in place for arrivals transiting between BN TCU positions, provided the aircraft is:
+
+- ADES **YBBN** or **YBCG**; and
+- Assigned a STAR; and
+- Descending via STAR to `A080`
 
 #### Others (Heads-up)
 All other aircraft not meeting the Departures/Arrivals criteria that transit between internal BN TCU boundaries must be heads-up coordinated.
@@ -283,21 +397,20 @@ CG ADC is responsible for the Class C Airspace within the CG CTR `SFC` to `A015`
 Refer to [Reclassifications](#cg-ctr) for operations when CG ADC is offline.
 
 #### Auto Release
-'Next' coordination is **not** required from CG ADC for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a **Procedural** SID
+[Next](../controller-skills/coordination.md#next) coordination is **not** required to BN TCU for aircraft that are:   
+  
+  - Departing from a runway nominated on the ATIS; and  
+  - Assigned the standard assignable level; and  
+  - Assigned a **Procedural** SID
 
-!!! phraseology
-    <span class="hotline">**CG ADC** -> **BAC**</span>: "Next, CBN, runway 14"  
-    <span class="hotline">**BAC** -> **CG ADC**</span>: "CBN, heading 030, unrestricted"  
-    <span class="hotline">**CG ADC** -> **BAC**</span>: "Heading 030, CBN"  
-
-The BN TCU controller can suspend/resume Auto Release at any time, with the concurrence of **CG ADC**.
+All other aircraft require a 'Next' call to CG TCU.
 
 The Standard Assignable level from CG ADC to BN TCU is:  
-For Jets: `A060`  
-For Non-Jets: The lower of `A060` or the `RFL`
+
+| Aircraft | Level |
+| -------- | ----- |
+| Jets | `A060` |
+| Non-Jets | The lower of `A060` and `RFL` |
 
 ### AF ADC
 #### Airspace
@@ -306,14 +419,13 @@ AF ADC is responsible for the Class D Airspace within the AF CTR `SFC` to `A015`
 Refer to [Reclassifications](#af-ctr) for operations when AF ADC is offline.
 
 ### Departures
-When aircraft planned via a CTA departure are ready for takeoff and expected to depart imminently, **AF ADC** shall seek release of the aircraft through a 'Next' call.
+[Next](../controller-skills/coordination.md#next) coordination is required from AF ADC to BN TCU for all aircraft **entering BN TCU CTA**.
 
-!!! phraseology
-    <span class="hotline">**AF ADC** -> **BN TCU**</span>: "Next, XMM, Runway 10L"  
-    <span class="hotline">**BN TCU** -> **AF ADC**</span>: "XMM, Unrestricted"  
-    <span class="hotline">**AF ADC** -> **BN TCU**</span>: "XMM"
+The Standard Assignable level from **AF ADC** to **BN TCU** is:
 
-The Standard Assignable level from AF ADC to BN TCU is the lower of `A040` or the `RFL`, any other level must be prior coordinated.
+| Aircraft | Level |
+| ------- | ----- |
+| All | The lower of `A040` and `RFL` |
 
 ### Arrivals/Overfliers
 BN TCU will heads-up coordinate arrivals/overfliers from Class C to AF ADC prior to **5 mins** from the boundary.  
@@ -325,13 +437,13 @@ VFR aircraft require a level readback.
     <span class="hotline">**AF ADC** -> **BN TCU**</span>: "UJE, visual approach"
 
 ### AMB TCU
-All aircraft transiting from **BN TCU** to **AMB TCU** and vice versa must be heads-up coordinated prior to the boundary. 
+All aircraft transiting from **BN TCU** to **AMB TCU** and vice versa must be [Heads-up](../controller-skills/coordination.md#heads-up) coordinated prior to the boundary. 
 
 !!! phraseology
     <span class="hotline">**AMB TCU** -> **BN TCU**</span>: "via BN, DRGN02"  
     <span class="hotline">**BN TCU** -> **AMB TCU**</span>: "DRGN02, `F140`"  
 
-For aircraft arriving into AMB TCU there is no standard assignable level and simply is what ever the controllers agree upon.
+For aircraft arriving into AMB TCU there is no standard assignable level.
 
 !!! phraseology
     <span class="hotline">**BN TCU** -> **AMB TCU**</span>: "via WACKO, STAL13, what level can I assign?"  

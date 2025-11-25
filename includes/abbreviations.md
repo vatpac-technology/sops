@@ -8,7 +8,7 @@
 *[DGA]: DME or GNSS Arrival
 *[ANR]: Air Navigation Register   
 *[ATS]: Air Traffic Services
-*[TMA]: Terminal Maneuvering Area
+*[TMA]: Terminal Manoeuvring Area
 *[FIR]: Flight Information Region
 *[SSR]: Secondary Surveillance Radar
 *[LL]: Lower Level
@@ -18,6 +18,7 @@
 *[PRM]: Precision Runway Monitoring
 *[SODPROPS]: Simultaneous Opposite Direction Parallel Runway Operations
 *[PROPS]: Parallel Runway Operations
+*[RRO]: Reciprocal Runway Operations
 *[SMC]: Surface Movement Control (Ground Controller)
 *[ADC]: Aerodrome Control (Tower Controller)
 *[TCU]: Terminal Control Unit (Approach Controller)
@@ -55,8 +56,11 @@
 *[FIS]: Flight Information Service
 *[SIS]: Surveillance Information Service (Flight Following)
 *[ARP]: Aerodrome Reference Point
+*[ALA]: Aircraft Landing Area
+*[DER]: Departure End of Runway
 *[SVFR]: Special VFR
 *[MTOW]: Maximum Takeoff Weight
+*[SDC]: Standard Departure Clearance
 *[AAW]: Adelaide Approach West
 *[AAE]: Adelaide Approach East
 *[BAC]: Brisbane (Gold Coast) Approach
@@ -70,6 +74,7 @@
 *[CBE]: Canberra Approach East
 *[DAW]: Darwin Approach West
 *[DAE]: Darwin Approach East
+*[ESA]: Sale Approach
 *[HBA]: Hobart Approach
 *[LTA]: Launceston Approach
 *[MKA]: Mackay Approach
@@ -124,6 +129,7 @@
 *[SWY]: Brisbane (Swampy) Centre
 *[TBP]: Brisbane (Tabletop) Centre
 *[WEG]: Brisbane (Warrego) Centre
+*[WIL]: Brisbane (Willis) Centre
 *[COL]: Brisbane (Coral) Radio
 *[FLD]: Brisbane (Flinders) Radio
 *[HWE]: Brisbane (Howe) Centre
@@ -165,6 +171,11 @@
 *[CSF]: Cairns Flow
 *[CBF]: Canberra Flow
 *[PFL]: Perth Flow
+*[AYNZ]: Nadzab
+*[AYGA]: Goroka
+*[AYMD]: Madang
+*[AYMH]: Mt Hagen
+*[AYTK]: Tokua
 *[GGO]: Goonoo Goonoo Station
 *[WBH]: Wallabadah
 *[NUN]: Nundle
@@ -189,6 +200,7 @@
 *[BCTA]: Bottom of Controlled Airspace
 *[PAL]: Port Adelaide
 *[TWRN]: Two R N
+*[BRY]: Bringelly
 *[DSN]: Doncaster Shopping Town
 *[ADWD]: Adventure World
 *[TVT]: TV Towers
@@ -196,6 +208,7 @@
 *[FREM]: Fremantle Golf Course
 *[YGB]: Yangebup Lake
 *[FDL]: Forestdale Lake
+*[SHOP]: Armadale Shops
 *[BOAT]: Boatyard
 *[POWR]: Powerhouse
 *[OAKF]: Oakford
@@ -263,6 +276,7 @@
 *[WMS]: Williamstown
 *[NPBR]: Nepean Bridge
 *[KRMD]: Kurmond
+*[WSFR]: Wisemans Ferry
 *[YBBB]: Brisbane FIR
 *[YMMM]: Melbourne FIR
 *[NFFF]: Nadi FIR
@@ -279,10 +293,16 @@
 *[FIMM]: Mauritius FIR
 *[FAJO]: Johannesburg FIR
 *[AYPM]: Port Moresby FIR
-*[AYPE]: Port Moresby (East) FIR
-*[NWWW]: Noumea FIR
-*[NVVV]: Port Vila FIR
+*[NWWW]: Noumea Sector
+*[NVVV]: Port Vila Sector
 *[RJTG]: Fukuoka FIR
+*[NFFJ]: Nadi Control (Domestic)
+*[AYPYA]: Jacksons Radar
+*[AYNZA]: Nadzab Approach
+*[NWWWA]: Tontouta Approach
+*[NVVVA]: Vila Tower (TCU)
+*[NFFNA]: Nadi Approach
+*[NFNAA]: Nausori Approach
 *[MX]: Maximum Speed
 *[CSR]: Cancel Speed Restrictions
 *[COBT]: Calculated Off Blocks Time
@@ -296,6 +316,7 @@
 *[LSALT]: Lowest Safe Altitude
 *[FPR]: Flight Planned Route
 *[CIRA]: Circuit Area
+*[VPT]: Visual Manoeuvre with Prescribed Track
 *[ESL]: East Sale
 *[WSL]: West Sale
 *[RAAF]: Royal Australian Air Force
@@ -320,6 +341,7 @@
 *[MARSA]: Military Authority Assumes Responsibility for Separation of Military Aircraft
 *[NOCOM]: Non-Continuous Communication
 *[AEWC]: Airborne Early Warning and Control
+*[ATZ]: Aerodrome Traffic Zone
 *[NEN]: Nerang
 *[STOT]: Stotts Island
 *[HASS]: Hastings Point
@@ -328,3 +350,17 @@
 *[BLGH]: Burleigh Heads
 *[ROTC]: Robina Town Centre
 *[CGD]: Cudgen Headland
+*[AUW]: All Up Weight
+*[MI NDB]: Momi
+*[VK NDB]: Navakai
+*[CGB]: Craigieburn Overpass
+*[EPPG]: Epping
+*[ROK]: Rockbank
+*[FWO]: Freeway Overpass
+*[A-CDM]: Airport Collaborative Decision Making
+*[EOBT]: Estimated Off Blocks Time
+*[TOBT]: Tactical Off Blocks Time
+*[TSAT]: Tactical Start Approved Time
+*[AOBT]: Actual Off Blocks Time
+*[CTOT]: Calculated Take Off TIme
+*[ATOT]: Actual Off Blocks Time

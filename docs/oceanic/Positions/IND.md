@@ -15,13 +15,6 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
-### CPDLC
-The Primary Communication Method for IND is [CPDLC](../../../client/cpdlc).
-
-The CPDLC Station Code is `YIND`.
-
-Voice may be used in lieu when applicable.
-
 ## Airspace
 
 <figure markdown>
@@ -38,13 +31,20 @@ Voice may be used in lieu when applicable.
 !!! warning "Important"
     IND (and its subsectors) are **not permitted** to extend to any adjacent Domestic/International sectors
 
+### CPDLC
+The Primary Communication Method for IND is [CPDLC](../../../client/cpdlc).
+
+The CPDLC Station Code is `YIND`.
+
+Voice may be used in lieu when applicable.
+
 ## STAR Clearance Expectation
 ### Handoff
 Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| IND | HYD(All) | YPPH | |
+| IND | HYD(LEA, JAR) | YPPH | |
 
 ## Coordination
 ### Domestic Enroute

@@ -61,6 +61,9 @@ title: Runway
     - traffic information is provided to the following aircraft; and  
     - the runway is dry
 
+!!! tip
+    The 'ASMGCS_RWY_RSM' Ground Map in vatSys adds markings 2400m from the runway threshold at applicable aerodromes, and may assist with the application of this standard.
+
 ### Behind a preceding departing aircraft
 - Landing aircraft may not cross the runway threshold until the preceding departing aircraft:  
     - has either commenced a turn; or  

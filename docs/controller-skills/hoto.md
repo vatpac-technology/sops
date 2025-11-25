@@ -37,9 +37,9 @@ Anything else they need to know?
 ## Example
 !!! example
     "**Runway** 16 for arrivals, 27 for departures at YMML. Runway 34L and 34R at YSSY. Runway 35 at YSCB. Runway 25 at YMAY.  
-    **Airspace**, We're controlling ELW, extending to BIK, providing top-down at YMML, YSSY and YSCB. AY TWR is online, and YWE is online, extending to ARL and HUO. Airspace releases all normal.  
+    **Airspace**, We're controlling ELW, extending to GUN, providing top-down at YMML, YSSY and YSCB. AY TWR is online, and MUN is online, extending to ARL and HUO. Airspace releases all normal.  
     **Weather** is mostly normal, Area QNHs are high, except for a small part to the east of Area 30.  
     **Frequencies** active are 123.75 and 129.8.  
-    **Traffic**, QFA428 is taxiing 34L at YSSY, WOL2 departure for YMML. No other calls on the ground at YSSY, YSCB or YMML. VOZ831 is on climb, coordination to YWE is done. LPD has clearance to leave controlled airspace descending. QJE1721 and UAL19 are both estimating LIZZI at the same time, will need some sequencing. JST528 and BNZ192 are coming in from the north, haven't yet assessed if they're in conflict.  
+    **Traffic**, QFA428 is taxiing 34L at YSSY, WOL2 departure for YMML. No other calls on the ground at YSSY, YSCB or YMML. VOZ831 is on climb, coordination to MUN is done. LPD has clearance to leave controlled airspace descending. QJE1721 and UAL19 are both estimating BOOIN at the same time, will need some sequencing. JST528 and BNZ192 are coming in from the north, haven't yet assessed if they're in conflict.  
     No other **outstanding instructions** other than frequency transfers and handoffs.  
     Any questions?"  

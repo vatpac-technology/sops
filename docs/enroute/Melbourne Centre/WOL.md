@@ -14,16 +14,6 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
-### CPDLC
-The Primary Communication Method for WOL is Voice.
-
-[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
-
-The CPDLC Station Code is `YWOL`.
-
-!!! tip
-    Even though WOL's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
-
 ## Airspace
 
 <figure markdown>
@@ -55,12 +45,32 @@ With R420F released to NW TCU, transiting aircraft will need to be coordinated o
 
 See [Nowra Airspace](../../terminal/nowra.md#airspace) for more details about the lateral boundaries of the Nowra restricted areas.
 
+### CPDLC
+The Primary Communication Method for WOL is Voice.
+
+[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
+
+The CPDLC Station Code is `YWOL`.
+
+!!! tip
+    Even though WOL's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+
 ## Sector Responsibilities
 ### Wollongong (WOL)
-WOL is reponsible for issuing STAR clearances, initial descent, and sequencing actions for aircraft inbound to YSCB. WOL is also responsible for issuing STAR clearance to Non-jet aircraft for YSSY which depart from an aerodrome within the subsector.
+#### YSCB Arrivals
+WOL is responsible for issuing STAR clearances, descent, and sequencing actions.
+
+Refer to the [Sequencing into YSCB](#sequencing-into-yscb) notes below regarding adjacent Feeder Fixes.
+
+#### YSNW Arrivals
+WOL is responsible for issuing descent.
+
+#### YSSY Arrivals
+WOL is responsible for issuing STAR clearance to Non-jet aircraft for YSSY which depart from an aerodrome within the subsector.
     
 ### Snowy (SNO)
-SNO is reponsible for issuing STAR clearances and initial descent for aircraft bound for YSCB.
+#### YSCB Arrivals
+SNO is responsible for issuing STAR clearances and initial descent to not below `F130`.
 
 ### Sequencing into YSCB
 Aircraft assigned the **same runway** inbound via **LEECE** and **BUNGO**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.

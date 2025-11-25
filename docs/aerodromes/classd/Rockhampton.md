@@ -6,11 +6,11 @@
 
 ## Positions
 
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | ---------------- |
-| **Rockhampton ADC** | **Rocky Tower** | **118.100** | **RK_TWR** |
-| **Rockhampton SMC** | **Rocky Ground** | **121.800** | **RK_GND** |
-| **Rockhampton ATIS** |    | **128.500** | **YBRK_ATIS** |
+| Name                 | Callsign              | Frequency   | Login ID      |
+| -------------------- | --------------------- | ----------- | ------------- |
+| **Rockhampton ADC**  | **Rocky Tower**       | **118.100** | **RK_TWR**    |
+| **Rockhampton SMC**  | **Rocky Ground**      | **121.800** | **RK_GND**    |
+| **Rockhampton ATIS** |                       | **128.500** | **YBRK_ATIS** |
 
 ## Airspace
 RK ADC is responsible for the Class D airspace in the RK CTR `SFC` to `A010`.
@@ -21,28 +21,31 @@ RK ADC is responsible for the Class D airspace in the RK CTR `SFC` to `A010`.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
+## SID Selection
+Aircraft planned via **TARES** and **BUDGI** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
+
+Aircraft that are unable to accept a Procedural SID shall be assigned the **Radar SID**.
+
 ## Coordination
 ### Departures
 #### Auto Release
-'Next' coordination is **not** required to **RKA** for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a **Procedural** SID; or  
-  d) Not entering RKA CTA
+[Next](../../controller-skills/coordination.md#next) coordination is **not** required to **RKA** for aircraft that are: 
 
-!!! phraseology
-    <span class="hotline">**RK ADC** -> **RKA**</span>: "Next, VJE"  
-    <span class="hotline">**RKA** -> **RK ADC**</span>: "VJE, Track Extended Centreline, Unrestricted"  
-    <span class="hotline">**RK ADC** -> **RKA**</span>: "Track Extended Centreline, VJE"
+- Departing from a runway nominated on the ATIS; and  
+- Assigned the standard assignable level; and  
+- Assigned a **Procedural** SID; or  
+- Not entering RKA CTA
 
-The TCU controller can suspend/resume Auto Release at any time, with the concurrence of **RKA**.
+The Standard Assignable level from **MK/RK ADC** to **MKA/RKA** is:
 
-The Standard Assignable level from MK/RK ADC to MKA/RKA is the lower of `A060` or the `RFL`.
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A060` and `RFL` |
 
 #### MK/RK SMC
 The controller assuming responsibility of **SMC** shall give heads-up coordination to **RKA** controller prior to the issue of the following clearances:  
 
-- VFR Departures  
+- VFR departures entering RKA CTA
 - Aircraft using a runway not on the ATIS
 
 ### Arrivals/Overfliers

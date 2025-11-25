@@ -5,11 +5,11 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name              | Callsign       | Frequency        | Login ID                         |
-| ----------------- | -------------- | ---------------- | ---------------------------------------- |
-| **Hobart ADC**    | **Hobart Tower**   | **118.100**     | **HB_TWR**                            |
-| **Hobart SMC**    | **Hobart Ground**  | **121.700**     | **HB_GND**                  |
-| **Hobart ATIS**       |                | **128.450**          | **YMHB_ATIS**                                |
+| Name              | Callsign           | Frequency   | Login ID      |
+| ----------------- | ------------------ | ----------- | ------------- |
+| **Hobart ADC**    | **Hobart Tower**   | **118.100** | **HB_TWR**    |
+| **Hobart SMC**    | **Hobart Ground**  | **121.700** | **HB_GND**    |
+| **Hobart ATIS**   |                    | **128.450** | **YMHB_ATIS** |
 
 ## Airspace
 HB ADC is responsible for the Class D airspace in the HB CTR:  
@@ -23,20 +23,11 @@ South of the Runway Centreline: `SFC` to `A025`
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
-## SID Selection
-Jet Aircraft planned via **RIBLI**, **LATUM**, or **LAVOP**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
-
-Non-Jet Aircraft planned via **RIBLI**, **KANLI**, or **LAVOP**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
-
-Other aircraft shall be assigned an appropriate **Procedural SID** or a visual departure.
-
-## ATIS
-YMHB ATIS identifiers range from `N` to `Y`, as YMLT uses `A` through `M`. 
-
-## Cambridge (YCBG)
+## Local Procedures
+### Cambridge (YCBG)
 Due to it's close proximity, HB ADC & SMC are responsible for clearances into and out of Cambridge (YCBG), which sits inside the Hobart Class D control zone.
 
-### Departures
+#### Departures
 Prior to leaving the apron, all outbound aircraft will establish communications with **HB SMC** for airways clearance.  
 
 All IFR aircraft departing Cambridge shall be assigned a **Visual Departure** or one of Hobart's **Procedural SIDs**.
@@ -48,10 +39,13 @@ All IFR aircraft departing Cambridge shall be assigned a **Visual Departure** or
     **NDR:** "Hobart Ground, NDR, for Devonport, request clearance"  
     **HB SMC:** "NDR, cleared to Devonport via KANLI flight plan route, KANLI3 departure, climb via SID to A045, squawk 4432"
 
+!!! warning "Important"
+    As the assigned SID is applicable to a different departure aerodrome, it will not auto-populate in vatSys. HB SMC must write the name of the SID in the Global Ops Field of the FDR and amend the flight plan route to include all relevant tracking points.
+
 When ready to taxi and prior to leaving the apron aircraft must contact **HB ADC**, advising intended runway for departure and receipt of YMHB ATIS, to obtain traffic information.
 
 !!! phraseology
-    **NDR:** "Hobart Tower, NDR, taxiing Cambridge Runway 32, received Hobart Information D"  
+    **NDR:** "Hobart Tower, NDR, taxiing Cambridge Runway 30, received Hobart Information D"  
     **HB ADC:** "NDR, no reported IFR traffic, report ready"  
     **NDR:** "Wilco, NDR"
 
@@ -69,8 +63,7 @@ Where a delay is required, withhold departure instructions until a suitable sepa
     **HB ADC:** "NDR, short delay due to inbound traffic"  
     **NDR:** "NDR"
 
-
-### Arrivals
+#### Arrivals
 Inbound aircraft who are tracking via the HBA CTA will be given an airways clearance by HBA and transferred to ADC. Any clearance limits will be coordinated by HBA. Aircraft entering the Hobart CTR directly from Class G will contact HB ADC directly for clearance. Aircraft should be instructed to join a leg of the circuit and cleared for a visual approach (traffic permitting).  In IMC, IFR aircraft will fly one of Hobart's instrument approaches until visual, then break off to circle to land.
 
 As a landing clearance is not given, aircraft should instead be informed of any traffic operating on the aerodrome and instructed to report clear of the runway.
@@ -95,15 +88,7 @@ As a landing clearance is not given, aircraft should instead be informed of any 
     **KLR:** "Join base runway 12, cleared visual approach, wilco, KLR"
 
 ## VFR Operations
-
-### Circuit Direction
-| Runway | Direction |
-| ------ | ----------|
-| 12     | Left  |
-| 30     | Right |
-
-
-### Inbound / Outbound
+### Victor Routes
 | Victor    | Inbound       | Outbound        | 
 | --------- | -------------- | ---------------- | 
 | Northwest |  CBV-CPA-RCH west of the Colebrook/Richmond Road to west abeam RADT  | West abeam RADT-RCH-CPA-CBV west of the Richmond/Colebrook Road    | 
@@ -123,37 +108,51 @@ Clearances for aircraft entering the CTR must be worded so as to leave no possib
     **NDR:** "Hobart Tower, NDR, CPA, A015, on the Victor Northwest, received Romeo, request clearance"  
     **HB ADC:** "NDR, enter the CTR tracking via the Victor Northwest at A015."
 
+## Runway Modes
+### Circuits
+#### Circuit Direction
+| Runway | Direction |
+| ------ | ----------|
+| 12     | Left  |
+| 30     | Right |
+
+## SID Selection
+Jet Aircraft planned via **RIBLI**, **LATUM**, or **LAVOP**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
+
+Non-Jet Aircraft planned via **RIBLI**, **KANLI**, or **LAVOP**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
+
+Other aircraft shall be assigned an appropriate **Procedural SID** or a visual departure.
+
+## ATIS
+## ATIS Identifiers
+YMHB ATIS identifiers range from `N` to `Y`, as YMLT uses `A` through `M`. 
+
 ## Coordination
 ### Departures
-'Next' coordination is **not** required to HBA for aircraft that are:   
-  a) Departing from a runway nominated on the ATIS; and  
-  b) Assigned the standard assignable level; and  
-  c) Assigned a SID; or  
-  d) Not entering HBA CTA
+[Next](../../controller-skills/coordination.md#next) coordination is **not** required to HBA for aircraft that are:   
+
+- Departing from a runway nominated on the ATIS; and  
+- Assigned the standard assignable level; and  
+- Assigned a SID; or  
+- Not entering HBA CTA
 
 All other aircraft require a 'Next' call to HBA.
-
-!!! phraseology
-    <span class="hotline">**HB ADC** -> **HBA**</span>: "Next, ABC, runway 12"  
-    <span class="hotline">**HBA** -> **HB ADC**</span>: "ABC, Heading 150 Visual, unrestricted"  
-    <span class="hotline">**HB ADC** -> **HBA**</span>: "Heading 150 Visual, ABC"  
-
-    **HB ADC**: "ABC, Assigned heading right 150 Visual, Runway 12, Cleared for Takeoff"  
-    **ABC**: "Right heading 150 Visual, Runway 12, Cleared for Takeoff, ABC"
-
-The HBA controller can suspend/resume Auto Release at any time, with the concurrence of **HB ADC**.
 
 !!! note
     All departures from YCBG who will enter the HBA CTA must be Next coordinated by ADC.
 
-The Standard Assignable level from HB ADC to HBA is:  
-For IFR Aircraft: `A080`  
-For VFR Aircraft: The lower of `A045` or the `RFL`.
+The Standard Assignable level from **HB ADC** to **HBA** is:  
+
+| Flight Rules | Level |
+| ----- | ----- |
+| IFR | `A080` |
+| VFR | The lower of `A045` and `RFL` |
 
 #### Airways Clearance
-**HB SMC** shall give heads-up coordination to HBA controller prior to the issue of the following clearances:  
-a) VFR Departures  
-b) Aircraft using a runway not on the ATIS
+**HB SMC** shall give [heads-up](../../controller-skills/coordination.md#airways-clearance) coordination to HBA controller prior to the issue of the following clearances:
+
+- VFR departures entering HBA CTA
+- Aircraft using a runway not on the ATIS
 
 ### Arrivals/Overfliers
 HBA will heads-up coordinate arrivals/overfliers from Class C to HB ADC.  

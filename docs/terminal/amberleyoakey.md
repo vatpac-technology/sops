@@ -44,13 +44,14 @@ AMB APP is expected to extend to OK APP (and vice versa) when they are offline. 
 
 **OK ADC** owns the Class C airspace within 5 DME of the OK VOR from `SFC` to `A025`.
 
-## Coded Clearances (Fast Jets)
+## Local Procedures 
+### Coded Clearances (Fast Jets)
 High performance military jet aircraft with planned operations in offshore SUA, or intending to depart to the east, will be assigned a Coded Clearance departure. These aircraft may arrive back to YAMB via the same corridor. These Coded Clearances provide a standardised corridor avoiding civilian traffic in the adjacent airspace. 
 
 !!! tip
     Descriptions of the coded clearances are available in the [FIHA AD2 Supps](https://ais-af.airforce.gov.au/australian-aip){target=new}.
 
-### Departures
+#### Departures
 Aircraft will depart the circuit visually and track overhead YAMB to begin tracking for their initial waypoint. Aircraft cleared the BYRON1 must turn to the west on departure, and may set course for their inital waypoint within 10TAC AMB, remaining within the lateral limits of the AMB CTR in order to meet the inital constraint at `COWIE`.
 
 AMB ACD will clear relevant departures via the appropriate coded clearance departure, update the FDR route field with the respective tracking points, and write the departure name in the Global Ops Field. 
@@ -66,16 +67,16 @@ The routes are shown below:
 !!! important
     Ensure that aircraft meet the `F190` requirement by the first waypoint to ensure separation assurance is maintained with civil aircraft in the adjacent airspace.
 
-### Arrivals
+#### Arrivals
 Aircraft will be cleared for the coded clearance by **INL**/**NSA**, with the procedure terminating at the AM TMA airspace boundary.
 
-## Civil Training Area
+### Civil Training Area
 Civil operators (including Australian Air Force Cadets) conduct flying operations within the South Western Training Area (SWTA), located between the 10DME and 20DME arcs to the southwest of the AMB CTR. The SWTA is divided in half by the Rosewood-Mt Walker-Aratula Road into SWTA Alpha (north) and SWTA Bravo (south). The training area is classified Class G airspace but some pilots may request to climb into CTA to facilitate flight training (such as stall practice).
 
 !!! tip
     Consider restricting an aircraft operating in the CTA above the SWTA to either SWTA Alpha or Bravo where doing so would provide lateral segregation from other traffic operating in the AMB CTA.
 
-### Outbound Aircraft
+#### Outbound Aircraft
 Aircraft outbound from YAMB for the SWTA will exit the CTR at `A025` via the following waypoints:
 
 | **Duty Runway** | **Routing** |
@@ -84,7 +85,7 @@ Aircraft outbound from YAMB for the SWTA will exit the CTR at `A025` via the fol
 | 33              | CLVT      |
 | 04 or 22        | As required |
 
-### Inbound Aircraft
+#### Inbound Aircraft
 Inbound aircraft will contact AMB TCU when ready to return to YAMB. They shall be cleared via the following waypoints, at either `A015` or `A025` (as desired):
 
 | **Duty Runway** | **Routing** |
@@ -105,44 +106,30 @@ Transfer these aircraft to ADC approaching the boundary.
 
 ## Coordination
 ### AMB/OK ADC
-#### Airspace
-AMB ADC owns the Class C airspace **in the AMB CTR** within 10nm of the YAMB ARP from `SFC` to `A015`.
-
-OK ADC owns the airspace within 5 DME of the OK VOR from `SFC` to `A025`.
-
 #### Departures
-'Next' coordination is required from AMB ADC to AMB TCU for all aircraft.
+[Next](../controller-skills/coordination.md#next) coordination is required from AMB ADC to AMB TCU for all aircraft.
 
 The Standard Assignable Level from  **AMB ADC** to **AMB TCU** is:  
-a) The Lower of `F180` or `RFL` for Aircraft assigned via Procedural or RNAV SID.  
-b) `F190` for Aircraft assigned a Coded Departure.
 
-!!! phraseology
-    <span class="hotline">**AMB ADC** -> **AMB TCU**</span>: "Next, STAL56, runway 33"  
-    <span class="hotline">**AMB TCU** -> **AMB ADC**</span>: "STAL56, unrestricted"  
-    <span class="hotline">**AMB ADC** -> **AMB TCU**</span>: "STAL56"   
+| Assigned Departure | Level |
+| ------------------ | ----- |
+| Procedural SID | The lower of `F180` and `RFL` |
+| Coded Departure | `F190` |
+
+[Next](../controller-skills/coordination.md#next) coordination is required from OK ADC to OK TCU for all aircraft.
+
+The Standard Assignable level from **OK ADC** to **OK TCU** is:
+
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `F120` and `RFL` |
 
 ### INL / BN TCU
 #### Departures
-All aircraft from AMB/OK TCU to INL(All) and BN TCU require Heads-up coordination prior to the boundary, however, as soon as practical (when is the aircraft becomes airborne) is prefered.
-
-The Standard Assignable Level from  **AMB ADC** to **AMB TCU** is:  
-a) The Lower of `F180` or `RFL` for Aircraft assigned via Procedural or RNAV SID.  
-b) `F190` for Aircraft assigned a Coded Departure.
-
-The Standard Assignable from **OK ADC** to **OK TCU** is the lower of `F120` or `RFL`.
-
-!!! phraseology
-    <span class="hotline">**AMB TCU** -> **BN TCU**</span>: "via BN, DRGN02"  
-    <span class="hotline">**BN TCU** -> **AMB TCU**</span>: "DRGN02, `F180`"  
-
-!!! phraseology
-    BUCK03 is assigned the BYRON 1 coded departure.  
-    <span class="hotline">**AMB TCU** -> **NSA**</span>: "via COWIE, BUCK3."  
-    <span class="hotline">**NSA** -> **AMB TCU**</span>: "BUCK03, `F190`"   
+All aircraft from AMB/OK TCU to INL(All) and BN TCU require [Heads-up](../controller-skills/coordination.md#heads-up) coordination prior to the boundary, however, as soon as practical (when is the aircraft becomes airborne) is preferred. 
 
 #### Arrivals/Overfliers
-All aircraft transiting from GOL/DOS/BUR to **AMB TCU** and **OK TCU** must be heads-up coordinated prior to **20nm** from the boundary and aircraft from **BN TCU** to **AMB TCU** only prior to the boundary. Operations within **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels. GOL/DOS/BUR and **AMB TCU**/**OK TCU** controller must agree on a suitable level during coordination.
+All aircraft transiting from GOL/DOS/BUR to **AMB TCU** and **OK TCU** must be [Heads-up](../controller-skills/coordination.md#heads-up) coordinated prior to **20nm** from the boundary and aircraft from **BN TCU** to **AMB TCU** only prior to the boundary. Operations within **AMB TCU** are fairly ad-hoc, so there are no standard assignable levels. GOL/DOS/BUR and **AMB TCU**/**OK TCU** controller must agree on a suitable level during coordination.
 
 !!! phraseology
     <span class="hotline">**GOL** -> **AMB TCU**</span>: "via HUUGO, PUMA11, will be assigned A090"  

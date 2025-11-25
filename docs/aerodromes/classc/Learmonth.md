@@ -6,16 +6,17 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login ID              |
-| ------------------ | -------------- | ---------------- | --------------------------------------|
-| **Learmonth ADC**    | **Learmonth Tower**  | **118.300**         | **LM_TWR**        |
-| **Learmonth SMC**    | **Learmonth Ground**  | **126.200**      | **LM_GND**        |
-| **Learmonth ATIS**    |   | **123.300**         | **YPLM_ATIS**       |
+| Name              | Callsign              | Frequency   | Login ID      |
+| ----------------- | --------------------- | ----------- | ------------- |
+| **Learmonth ADC** | **Learmonth Tower**   | **118.300** | **LM_TWR**    |
+| **Learmonth SMC** | **Learmonth Ground**  | **126.200** | **LM_GND**    |
+| **Learmonth ATIS** |                      | **123.300** | **YPLM_ATIS** |
 
 ## Airspace
 LM ADC owns the Class C airspace within the LM CTR from `SFC` to `A015`.
 
-## Circuit Direction
+## Runway Modes
+### Circuits
 
 | Runway | Direction |
 | ------ | ----------|
@@ -24,14 +25,13 @@ LM ADC owns the Class C airspace within the LM CTR from `SFC` to `A015`.
 
 ## Coordination
 ### LM TCU
-'Next' coordination is required from LM ADC to LM TCU for all aircraft.
+[Next](../../controller-skills/coordination.md#next) coordination is required from LM ADC to LM TCU for all aircraft.
 
-!!! phraseology
-    <span class="hotline">**LM ADC** -> **LM TCU**</span>: "Next, QFA1601, runway 36"  
-    <span class="hotline">**LM TCU** -> **LM ADC**</span>: "QFA1601, Right heading 060 Visual, unrestricted"  
-    <span class="hotline">**LM ADC** -> **LM TCU**</span>: "Right heading 060 Visual, QFA1601"  
+The Standard Assignable Level from  **LM ADC** to **LM TCU** is:
 
-The Standard Assignable Level from  **LM ADC** to **LM TCU** is the Lower of `F270` or the `RFL`.
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `F270` and `RFL` |
 
 ### OLW
 When LM TCU is offline, coordination is not required between LM ADC and OLW. Aircraft entering OLW airspace shall be handed off, and instructed to contact OLW for onwards clearance.

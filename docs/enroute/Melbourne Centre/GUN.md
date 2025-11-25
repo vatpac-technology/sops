@@ -15,16 +15,6 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
-### CPDLC
-The Primary Communication Method for GUN is Voice.
-
-[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
-
-The CPDLC Station Code is `YGUN`.
-
-!!! tip
-    Even though GUN's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
-
 ## Airspace
 
 <figure markdown>
@@ -42,15 +32,31 @@ GUN assumes responsibility of the airspace to the North-West of the CB TCU above
 #### CB TCU
 When **CB TCU** is offline, CB TCU (Class C `SFC` to `A085`) reverts to Class G, and is administered by WOL.
 
+### CPDLC
+The Primary Communication Method for GUN is Voice.
+
+[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
+
+The CPDLC Station Code is `YGUN`.
+
+!!! tip
+    Even though GUN's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+
 ## Sector Responsibilities
 ### Bindook (BIK)
-BIK will provide final sequencing actions and descent into YSSY.
-
-For aircraft overflying the SY TMA, place *'O/FLY'* in the LABEL DATA field.
+#### YSSY Arrivals
+BIK is responsible for final sequencing actions and final descent.
 
 Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway and STAR selection notes.
+
+#### YSBK Arrivals
+BIK is responsible for issuing final descent, and ascertaining arrival intentions.
+
+#### Overfliers
+For aircraft overflying the SY TMA, place *'O/FLY'* in the LABEL DATA field.
     
 ### Gundagai (GUN)
+#### YSSY Arrivals
 GUN is reponsible for issuing STAR clearances and initial descent for aircraft inbound to YSSY. 
     
 GUN is also responsible for initial sequencing actions into YSSY. Aircraft cruising above `F250` should be assigned *no lower* than `F250` and handed to BIK for further descent. Aircraft cruising below `F250` should be transferred to BIK at their cruise level.
@@ -58,7 +64,13 @@ GUN is also responsible for initial sequencing actions into YSSY. Aircraft cruis
 Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway and STAR selection notes.
 
 ### Katoomba (KAT)
-KAT is responsible for issuing STAR Clearances for YSCB and YSSY.
+#### YSSY Arrivals
+KAT is responsible for issuing STAR Clearances.
+
+Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway and STAR selection notes.
+
+#### YSCB Arrivals
+KAT is responsible for issuing STAR Clearances.
 
 ### Sequencing into YSSY
 Sequencing arrivals from the west into YSSY is a joint responsibility of GUN and BIK. Initial sequencing actions should be performed by GUN, with fine tuning and any holding required issued by BIK.
@@ -86,17 +98,36 @@ Non-jet aircraft for YSSY shall be assigned the **ODALE** STAR.
     **GUN:** "JST421, recleared direct AKMIR thence WELSH, ODALE, for the ODALE7 arrival, runway 34R, maintain FL350"  
     **JST421:** "Recleared direct AKMIR, WELSH, ODALE, for the ODALE7 arrival, runway 34R, maintain FL350, JST421"
 
+#### Holding Fixes
+Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YSSY. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
+
+| Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
+| ---- | ---- | ---- |
+| RIVET | TARAL | 4 min |
+| WELSH | AKMIR | 2 min |
+
+!!! tip
+    Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector. 
+
 #### Adjacent Feeder Fixes
 Aircraft assigned the **same runway** inbound via **RIVET** and **ODALE**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
 ## STAR Clearance Expectation
+### Handoff
+Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| GUN | BLA | YMML, YMAV | |
+
 ### First Contact
 Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| BLA, MUN(GTH), WOL | GUN | YSSY | |
-| ASP(BKE) | KAT | YSSY | |
+| BLA, WOL | GUN | YSSY | |
+| ASP(BKE), MUN(GTH) | KAT | YSSY | Jets only |
+| MUN(GTH) | GUN | YSSY | Non-Jets only |
 | ARL(MDE) | KAT | YSCB | |
 
 ## Coordination

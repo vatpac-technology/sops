@@ -31,11 +31,13 @@ The above Restricted Areas are classified as Class C when SG APP is active.
 SG ADC owns the Class C airspace within the SG CTR from `SFC` to `A015`.
 
 #### Departures
-'Next' coordination is required from SG ADC to SG TCU for all aircraft.
+[Next](../controller-skills/coordination.md#next) coordination is required from SG ADC to SG TCU for all aircraft.
 
-!!! phraseology
-    <span class="hotline">**SG ADC** -> **SG TCU**</span>: "Next, ASY219, runway 30"  
-    <span class="hotline">**SG TCU** -> **SG ADC**</span>: "ASY219, unrestricted"  
+The Standard Assignable Level from  **SG ADC** to **SG TCU** is:
+
+| Aircraft | Level |
+| ------- | ------- |
+| All | The lower of `F240` and `RFL` | 
 
 ### ISA(ARA)
 #### Departures

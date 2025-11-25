@@ -18,12 +18,10 @@ PDCs utilising vatACARS are solicited by the pilot, however, the standalone vatS
 
 The vatACARS client can be downloaded by clicking [here](https://vatacars.com/){target=new}.  
 
-The vatACARS client requires controllers to have a [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html){target=new} account and logon code, plus a [vatACARS Token](https://vatacars.com/me){target=new}.
-
 If the client is installed correctly, there will be an *ACARS* drop-down box available in vatSys.
 
 <figure markdown>
-![vatACARS Dropdown](../controller-skills/img/vatacarsbar.png){ width="700" }
+![vatACARS Dropdown](../controller-skills/img/vatacarsbar.png){ width="800" }
 </figure>
 
 ## Pre-Departure Clearance
@@ -42,18 +40,17 @@ After logging onto the VATSIM network, controllers **MUST** note in their contro
 The controller should then open the vatACARS *Setup* window, fill in the relevent details, and click *Connect*.
 
 <figure markdown>
-![vatACARS Setup](../controller-skills/img/vatacarslogon.png){ width="700" }
+![vatACARS Setup](../controller-skills/img/vatacarslogon.png){ width="400" }
 </figure>
 
-**Station Code:** Must be the identifier of the position which is being controlled.          
-**vatACARS Token:** Must be your unique vatACARS Token, found [here](https://vatacars.com/me){target=new}.          
-**Logon Code:** Must be your [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html){target=new} Code.            
+**Station Code:** The identifier of the position which is being controlled.          
+**Logon Code:** Your [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html){target=new} Code.
 
 Once connected with CPDLC enabled, pilots will connect to the vatACARS plugin via their aircraft's CPDLC system. The controller will normally receive a *'Request PDC'* message through vatACARS. The controller should left-click the received message to issue the PDC. A self-explanatory window will appear; fill in the *DEP FREQ* and, if required, *FREE TEXT* field and send this back to the aircraft. Note that the pilot's strip **MUST** be filled out in order to issue a PDC through vatACARS. Once the aircraft has received their PDC, the pilot will usually respond with *'Roger'* or similar to show they have received the clearance.
 
 
 <figure markdown>
-![vatACARS Setup](../controller-skills/img/vatacarspdc.png){ width="700" }
+![vatACARS Setup](../controller-skills/img/vatacarspdc.png){ width="400" }
 </figure>
 
 Pilots must still read back their SID, squawk, and bay number on the frequency, even if they have acknowledged receipt of the PDC through vatACARS with the *'Roger'* response.
@@ -76,13 +73,12 @@ After logging onto the VATSIM network, controllers **MUST** note in their contro
 The controller should then open the vatACARS *Setup* window, fill in the relevent details, and click *Connect*.
 
 <figure markdown>
-![vatACARS Setup](../controller-skills/img/vatacarslogon.png){ width="700" }
+![vatACARS Setup](../controller-skills/img/vatacarslogon.png){ width="400" }
 </figure>
 
-**Station Code:** Must be the identifier of the position which is being controlled.          
-**vatACARS Token:** Must be your unique vatACARS Token, found [here](https://vatacars.com/me){target=new}.          
-**Logon Code:** Must be your [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html){target=new} Code.            
-
+**Station Code:** The identifier of the position which is being controlled.          
+**Logon Code:** Your [Hoppies ACARS](https://www.hoppie.nl/acars/system/register.html){target=new} Code.
+    
 Some major enroute positions do not use CPDLC as a primary means of communication, however, controllers may use CPDLC in lieu of voice when applicable.
 
 ### Station Codes
@@ -92,6 +88,7 @@ Some major enroute positions do not use CPDLC as a primary means of communicatio
 | ARL | YARL | Voice |
 | HWE | YHWE | **CPDLC** |
 | INL | YINL | Voice |
+| KPL | YKPL| Voice |
 | ISA | YISA | **CPDLC** |
 | KEN | YKEN | Voice |
 | TRT | YTRT | **CPDLC** |
@@ -106,7 +103,9 @@ Some major enroute positions do not use CPDLC as a primary means of communicatio
 | TSN | YTSN | **CPDLC** |
 | FLD | YFLD | **CPDLC** |
 | IND | YIND | **CPDLC** |
+| AYPM | AYPM | Voice |
 | NFFF | NFFF | **CPDLC** |
+| NFFJ | NFFJ | Voice |
 | NZZO | NZZO | **CPDLC** |
 | KZAK | KZAK | **CPDLC** |
 
@@ -131,25 +130,25 @@ When either a pilot sends a request or ATC wishes to send a message to the pilot
 This is used to select from a group of relevant messages to send back to the pilot.   
 
 <figure markdown>
-![vatACARS Setup](../controller-skills/img/vatacarseditor2.png){ width="700" }
+![vatACARS Setup](../controller-skills/img/vatacarseditor2.png){ width="600" }
 </figure>
 
 If the message you wish to send is not shown in this initial dispatch window, click the *Edit* button to show more messages to send to the pilot.
 
 <figure markdown>
-![vatACARS Setup](../controller-skills/img/vatacarseditor1.png){ width="700" }
+![vatACARS Setup](../controller-skills/img/vatacarseditor1.png){ width="600" }
 </figure>
 
 Left-clicking the number next to the text box cycles forward through up to five lines of text, while right-clicking moves to the previous line.
 
 ### Handing over Aircraft
 
-#### ENR/OCN
+#### ENR/Oceanic
 
 When transferring between enroute or oceanic sectors, ATC should right click on the aircraft which will bring up a handover window. The controller should select the next ATC unit to transfer the aircraft.
 
 <figure markdown>
-![vatACARS Setup](../controller-skills/img/vatacarshandoff.png){ width="700" }
+![vatACARS Setup](../controller-skills/img/vatacarshandoff.png){ width="500" }
 </figure>
 
 #### ENR/TCU
@@ -161,5 +160,5 @@ Standard Voice frequency transfers must be used for aircraft below `F245` and be
 If CPDLC is no longer available or required, ATC should right-click on the aircraft and select *'LOGOFF'* to send the aircraft a CPDLC logoff message.
 
 <figure markdown>
-![vatACARS Setup](../controller-skills/img/vatacarshandoff.png){ width="700" }
+![vatACARS Setup](../controller-skills/img/vatacarshandoff.png){ width="500" }
 </figure>

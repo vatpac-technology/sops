@@ -6,22 +6,19 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login ID              |
-| ------------------ | -------------- | ---------------- | --------------------------------------|
-| **Tindal ADC**    | **Tindal Tower**  | **119.700**         | **TN_TWR**        |
-| **Tindal SMC**    | **Tindal Ground**  | **135.850**        | **TN_GND**        |
-| **Tindal ACD**    | **Tindal Delivery**  | **128.100**      | **TN_DEL**       |
-| **Tindal ATIS**    |   |  **124.000**        | **YPTN_ATIS**       |
+| Name               | Callsign              | Frequency   | Login ID      |
+| ------------------ | --------------------- | ----------- | ------------- |
+| **Tindal ADC**     | **Tindal Tower**      | **119.700** | **TN_TWR**    |
+| **Tindal SMC**     | **Tindal Ground**     | **135.850** | **TN_GND**    |
+| **Tindal ACD**     | **Tindal Delivery**   | **128.100** | **TN_DEL**    |
+| **Tindal ATIS**    |                       | **124.000** | **YPTN_ATIS** |
 
 ## Airspace
 TN ADC is not responsible for any airspace by default.  
 In order to facilitate circuit operations, TN ADC may request a release of airspace within the TN MIL CTR from TN TCU, or take ownership of airspace within the TN MIL CTR if TN TCU is offline.
 
-### SID Selection
-Aircraft planned via **DN**, **LAREB**, **GREGA**, **DOSAM**, **MILIV**, **MIGAX**, **DAPMA** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
-Aircraft who are not planned via those points or who are negative RNAV may be assigned a RADAR SID or a visual departure.
-
-#### Gate Departures (All Military Aircraft)
+## Local Procedures
+### Gate Departures (All Military Aircraft)
 There are 11 gates to facilate departues and arrivals from the TN Training Airspace, based on the TDL TACAN. Aircraft can be cleared to track direct to the gate, or allow them to intercept the outbound radial by 10 DME. 
 
 | Gate Name | Ident | Bearing (°M) | Distance (nm) | Restricted Area |
@@ -55,8 +52,11 @@ Place/Bearing Distance points in the FDR can be used for this, with **TN** as th
     MOROTAI = TN270030  
     NADZAB = TN150030  
 
-## Miscellaneous
-### Circuit Operations
+### Initial and Pitch Operations 
+The [initial](../../controller-skills/military/#initial-and-pitch) point is at `A020` on the extended centerline of Taxiway Alpha at 6.5NM for RWY 14, 5NM for RWY 32. Aircraft will be cleared for a left, straight or right initial.
+
+## Runway Modes
+### Circuits
 The Circuit Area Airspace is allocated to be within 5nm of the YPTN ARP from `SFC` to `A025`. Aircraft can be instructed to extend outside of this airspace by ATC for traffic management. 
 
 !!! note
@@ -68,26 +68,20 @@ The Circuit Area Airspace is allocated to be within 5nm of the YPTN ARP from `SF
 | 14     | Right|
 | 32     | Left |
 
-### Intial and Pitch Operations 
-The intial point is at A020 on the extended centerline of Taxiway Alpha at 6.5NM for RWY 14, 5NM for RWY 32. Aircraft will be cleared for a left, straight or right intial.
+## SID Selection
+Aircraft planned via **DN**, **LAREB**, **GREGA**, **DOSAM**, **MILIV**, **MIGAX**, **DAPMA** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus.  Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
-!!! phraseology
-    **CLAS15**: "Request Intial and Pitch RWY 32"  
-    **TN ADC**: "CLAS15, Cleared Straight Intial RWY 32, Report when at the Intial"  
-    **CLAS15**: "On the Intial Point"  
-    **TN ADC**: "CLAS15, descend to 1500ft, pitch at the Midfield"  
-    **CLAS15**: "Wilco"
+Aircraft unable to accept a procedural SID, and **non-RNAV** aircraft shall be assigned either the RADAR SID or a visual departure. 
 
 ## Coordination
 ### TN TCU
-'Next' coordination is required from TN ADC to TN TCU for all aircraft.
+[Next](../../controller-skills/coordination.md#next) coordination is required from TN ADC to TN TCU for all aircraft.
 
-!!! phraseology
-    <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Next, ASY01, runway 32"  
-    <span class="hotline">**TN TCU** -> **TN ADC**</span>: "ASY01, Heading 030, unrestricted"  
-    <span class="hotline">**TN ADC** -> **TN TCU**</span>: "Heading 030, ASY01"  
+The Standard Assignable level from TN ADC to TN TCU is:
 
-The Standard Assignable level from TN ADC to TN TCU is the lower of `F180` or the `RFL`.
+| Aircraft | Level |
+| ----- | ---- |
+| All | The lower of `F180` and `RFL` |
 
 ### TRT(TRS)
 When TN TCU is offline, coordination is not required between TN ADC and TRT(TRS). Aircraft entering TRT(TRS) airspace shall be handed off, and instructed to contact TRT(TRS) for onwards clearance.

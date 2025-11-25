@@ -17,7 +17,7 @@ BLA should aim to handoff aircraft to GUN approximately **50nm** to the boundary
 Enroute controllers should be aiming for **2 minute** spacing at the feeder fix between subsequent arrivals. This can be reduced slightly to no less than **10nm**, unless **single runway operations** are in use.
 
 !!! info "Reminder"
-    At YMML, aircraft on the LIZZI and BOYSE STARs are considered to be on the same STAR for sequencing purposes. Ie, an aircraft via BOYSE must be sequenced 2 minutes behind an aircraft via LIZZI, and vice versa
+    At YMML, aircraft on the BOOIN and BOYSE STARs are considered to be on the same STAR for sequencing purposes. Ie, an aircraft via BOYSE must be sequenced 2 minutes behind an aircraft via BOOIN, and vice versa
 
 ### Speed Control
 The most common descent profile to expect for a B738/A320 like aircraft is close to **Mach .78, transitioning in to 280kts**. Keep this in mind when applying speed control to aircraft. That being said, when taking control of an aircraft's speed, it is **always** best practice to ask the pilot what their current speed is first, rather than blindly launching in to an assigned speed with no idea what effect it will have.
@@ -41,17 +41,17 @@ In order to segregate aircraft inbound to different parallel runways, [Amended r
 Aircraft can be rerouted on first contact via AKMIR, ODALE, then assigned the **ODALE STAR** for 16L/34R.
 
 <figure markdown>
-![Original Flight Planned Route](../img/odale1.png){ width="700" }
+![Original Flight Planned Route](./img/odale1.png){ width="700" }
   <figcaption>Original Flight Planned Route</figcaption>
 </figure>
 
 <figure markdown>
-![Graphical Reroute via AKMIR, ODALE](../img/odale2.png){ width="700" }
+![Graphical Reroute via AKMIR, ODALE](./img/odale2.png){ width="700" }
   <figcaption>Graphical Reroute via AKMIR, ODALE</figcaption>
 </figure>
 
 <figure markdown>
-![Final routing with Assigned STAR](../img/odale3.png){ width="700" }
+![Final routing with Assigned STAR](./img/odale3.png){ width="700" }
   <figcaption>Final routing with Assigned STAR</figcaption>
 </figure>
 

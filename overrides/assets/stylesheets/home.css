@@ -113,7 +113,7 @@
 @media screen and (max-width:480px) {
     .container {
         padding-top: 1.5rem;
-        background: url("../../assets/hero-image.png"), #1d1e26;
+        background: url("../../assets/hero-image.png?v=2"), #1d1e26;
         background-repeat: no-repeat;
         background-size: cover;
         background-blend-mode: overlay;
@@ -125,10 +125,13 @@
     }
 
     .feature h2 { margin-left: 20px; }
+}
 
-    .feature cards {
+@media screen and (max-width:800px) {
+    .feature .cards {
         flex: 1;
         min-width: 0;
+        flex-direction: column;
     }
 }
 
@@ -147,7 +150,7 @@
         max-width: 20rem;
         margin-top: 2rem;
         margin-bottom: 2.5rem;
-        margin-right: 4rem;
+        margin-right: 1rem;
         align-items: center;
     }
 

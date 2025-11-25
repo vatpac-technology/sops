@@ -1,10 +1,38 @@
 ---
-  title: Attribution and Credits
+  title: Legal
 ---
+
+# Disclaimer
+
+The content on this website is for **Flight Simulation use only**.  
+It is provided **'as is' without any warranties or guarantees**, and must **not be used for real-world aviation or any other use**. No liability is accepted for any errors, omissions, or consequences arising from its use.
+
+# License
+
+Except where otherwise noted, the text and diagrams of the **VATPAC Standard Operating Procedures** are licensed under
+[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+See the full license text in the repository: [LICENSE.txt](https://github.com/m-9c/sops/blob/main/LICENSE.txt).
+
+## How to attribute
+If you reuse this material, please include:
+- **Title** (or page name), **VATPAC** as the source, and a link back to this site or page.
+- A link to the **CC BY 4.0** license.
+- An indication of any changes you made.
+
+_Example:_  
+“_VATPAC Standard Operating Procedures_ (adapted), © VATSIM Australia Pacific (VATPAC), licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).”
+
+## What’s not covered by CC BY 4.0
+- **Logos, trademarks, and branding** (e.g., VATSIM, VATPAC) — all rights reserved.
+- **Third-party/commercial content used by permission**, e.g. Navigraph charts and map imagery.
+- **External libraries and assets** — licensed under their respective terms (see Dependencies below).
+
+---
+
+# Dependencies
 
 This project utilizes several open-source tools, resources, and libraries. We acknowledge and thank the developers and contributors of these projects for their efforts.
-
----
 
 ## Python Dependencies
 
@@ -640,6 +668,18 @@ This workflow sends a notification to Discord when a pull request is merged and 
 
 ---
 
+## Commercial Attributions
+
+- **Navigraph Charts and Map Imagery**  
+  This site uses charts and map imagery provided by **Navigraph**, with permission.  
+  Navigraph is a commercial provider of flight simulation navigation data and services.  
+  These materials are used in accordance with Navigraph’s [brand guidelines](https://navigraph.com/legal/brand-guidelines) and are displayed with original copyright and branding.  
+  License: By permission  
+  Source: [navigraph.com](https://www.navigraph.com/)  
+  *Note:* This site is operated by a non-profit VATSIM division (VATPAC) and intended solely for educational and flight simulation use.
+
+---
+
 ## Icons
 
 - **Helicopter Pad Icon**  
@@ -651,14 +691,6 @@ This workflow sends a notification to Discord when a pull request is merged and 
 
 ---
 
-## Disclaimer
-
-The content on this website is intended for Flight Simulation use only.
-
-This project is built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/), a Material Design theme for MkDocs, and incorporates additional features from the aforementioned plugins and tools.
-
----
-
 ## Acknowledgments
 
-We extend our gratitude to all contributors of these open-source projects. Your work enables us to build and enhance our project efficiently.
+We extend our gratitude to all [contributors](https://github.com/vatpac-technology/sops/graphs/contributors) of these open-source projects. Your work enables us to build and enhance our project efficiently.

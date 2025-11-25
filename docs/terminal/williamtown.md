@@ -16,12 +16,13 @@
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
-### Default
-By default, WLM TCU owns the airspace within the WLM MIL CTR `SFC` to `F125`. This may be amended by NOTAM.
+WLM TCU owns the airspace within the WLM MIL CTR `SFC` to `F125`.
 
-When WLM TCU is active above `F125` by ad-hoc release or NOTAM, WLM-L_APP owns the airspace `SFC` to `F125`, while WLM APP owns the rest of WLM TCU airspace above `F125`. This may be adjusted as required with coordination.
+When WLM TCU is active above `F125` by ad-hoc release or NOTAM, **WLM-L_APP** owns the airspace `SFC` to `F125`, while **WLM APP** owns the rest of WLM TCU airspace above `F125`. This may be adjusted as required with coordination.
 
-#### Diagram
+When WLM TCU is active above `F125` by ad-hoc release, **WLM-L_APP** owns the airspace from `SFC` to `F125`, while **WLM_APP** owns the rest of WLM TMA above `F125`.
+
+
 <figure markdown>
 ![WLM TCU Airspace](img/wlmtcu.png){ width="700" }
   <figcaption>WLM TCU Airspace</figcaption>
@@ -31,16 +32,82 @@ When WLM TCU is active above `F125` by ad-hoc release or NOTAM, WLM-L_APP owns t
     It is the responsibility of the WLM TCU controller(s) to negotiate any airspace releases with ARL(All).
 
 ### ADC
-When WLM ADC is online, they own the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be amended/released as required between WLM ADC and WLM TCU.
+When WLM ADC is online, they own the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be amended/released as required between **WLM ADC** and **WLM TCU**.
 
 <figure markdown>
 ![WLM ADC Airspace](img/wlmadc.png){ width="700" }
   <figcaption>WLM ADC Airspace</figcaption>
 </figure>
 
-## Charts
-!!! abstract "Reference"
-    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
+## Local Procedures
+### Stereo Approaches (Fast Jet Aircraft)
+Fast jet aircraft typically transit from M550 to YWLM via Gate 6 at `F125`. When requested, or advised via ATIS, the stereo approach may be utilised to facilitate aircraft recovery.
+
+!!! tip
+    See [Controller Skills](../controller-skills/military.md#stereo-approaches) for more details about stereo approaches.
+
+!!! Example
+**MAPL45**: "Willy Approach, MAPL45, RTBing via G6, runway 12" 
+**WLM TCU**: "MAPL45, Willy Approach, cleared stereo approach runway 12, via G6, once 9DME north of the TACAN, descend not below `A050`"  
+**MAPL45**: "Cleared stereo approach runway 12, via G6, once 9DME north of the TACAN, descend not below `A050`, MAPL45"
+
+!!! note
+    Stereo approach charts are available in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}.
+
+## Flow
+### Local Knowledge
+- Aircraft may be assigned the Romeo or Victor STAR to reduce track miles
+- During VMC by day, aircraft may be instructed to track for a visual base to either runway
+
+### Flow Tables
+The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
+
+=== "Jets & DH8D"
+    | STAR         | RWY 12 | RWY 30 |
+    | ------------ | :----: | :----: |
+    | **ASUVA**    | 15     | 7^     |
+    | **EKIPU**    | 12^    | 11^    |
+    | **IVTAG R/V**<br>*EKIPU transition*<br>*OVLUX transition*<br>*PUDUT transition*    | <br>-<br>-<br>-     | <br>8\^<br>8\^<br>9^     |
+    | **LAXUM A**  | 9^     | 15     |
+    | **LAXUM B**  | 11^    | 18     |
+    | **LAXUM R**  | 8^     | 11^    |
+    | **LAXUM V**  | 8^     | 11^    |
+    | **OVLUX**    | 11^    | 11^    |
+    | **PUDUT**    | 9^     | 12^    |
+
+=== "Non-Jets"
+    | STAR         | RWY 12 | RWY 30 |
+    | ------------ | :----: | :----: |
+    | **ASUVA**    | 17     | 8^     |
+    | **EKIPU**    | 13^    | 12^    |
+    | **IVTAG R/V**<br>*EKIPU transition*<br>*OVLUX transition*<br>*PUDUT transition*    | <br>-<br>-<br>-     | <br>9\^<br>9\^<br>10^     |
+    | **LAXUM A**  | 10^    | 17     |
+    | **LAXUM B**  | 12^    | 21     |
+    | **LAXUM R**  | 9^     | 12^    |
+    | **LAXUM V**  | 9^     | 13^    |
+    | **OVLUX**    | 13^    | 13^    |
+    | **PUDUT**    | 10^    | 13^    |
+
+#### Corrections
+
+| Situation | Correction |
+| ----- | ----- |
+| Assigned a reduced speed | +1 min, *except ^* | 
+| Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
+
+#### Assumptions
+- Nil wind
+- The feeder fix for all STARs is the assigned STAR transition waypoint (if applicable), otherwise the waypoint coinciding with the STAR title
+
+### Calculator
+<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
+The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
+
+=== "Landing Time"
+    <div class="flowCalculatorLandingTime" data-aerodrome="YWLM"></div>
+
+=== "Feeder Fix Time"
+    <div class="flowCalculatorFeederFixTime" data-aerodrome="YWLM"></div>
 
 ## Coordination
 ### ARL(All)
@@ -77,21 +144,25 @@ All other aircraft coming from ARL CTA will be **Heads-up** Coordinated to WLM T
 WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be amended/released as required between WLM ADC and WLM TCU.
 
 #### Departures
-'Next' coordination is **not** required from WLM ADC to WLM TCU for aircraft that are:  
-a) Departing from a runway nominated in the ATIS; and  
-b) Assigned the standard assignable level;  
-c) Assigned a **Procedural** SID  
+[Next](../controller-skills/coordination.md#next) coordination is **not** required from WLM ADC to WLM TCU for aircraft that are:  
 
-!!! phraseology
-    <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "Next, MVP"  
-    <span class="hotline">**WLM TCU** -> **WLM ADC**</span>: "MVP, Left Heading 010, Unrestricted"  
-    <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "Left Heading 010, MVP"  
+- Departing from a runway nominated in the ATIS; and  
+- Assigned the standard assignable level; and 
+- Assigned a **Procedural** SID
 
-The Standard Assignable level from WLM ADC to WLM TCU is the lower of `F120` or the `RFL`.
+The Standard Assignable level from WLM ADC to WLM TCU is:
+
+| Aircraft | Level |
+| ------- | ----- |
+| All | The lower of `F120` and `RFL` |
 
 #### Arrivals/Overfliers
 Voiceless coordination is in place from WLM TCU to WLM ADC for arrivals cleared for an approach on to a runway nominated on the ATIS. All other aircraft and all overfliers must be heads-up coordinated as soon as practical.
 
 !!! phraseology
-    <span class="hotline">**WLM TCU** -> **WLM ADC**</span>: "via WLM, ZULU, Close formation of 5, do you have any restrictions or requirements?”  
+    <span class="hotline">**WLM TCU** -> **WLM ADC**</span>: "via WLM, ZULU, Close formation of 5, do you have any restrictions or requirements?"  
     <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "ZULU, no restrictions or requirements, A040"  
+
+## Charts
+!!! abstract "Reference"
+    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}

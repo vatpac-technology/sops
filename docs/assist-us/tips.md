@@ -1,5 +1,5 @@
 ---
-  title: Working with MkDocs
+  title: 3 - Working with MkDocs
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -55,6 +55,9 @@ Where confusion can arise from the placement or relevance of an image, you can o
 </figure>
 
 ```
+
+#### Source Files
+All source files used to generate custom-made images or other assets should be saved to the [Image Source Files](https://github.com/vatpac-technology/image-source-files) repo, allowing future edits if necessary.
 
 ## Emojis
 

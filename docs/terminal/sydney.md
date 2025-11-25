@@ -4,9 +4,6 @@
 
 --8<-- "includes/abbreviations.md"
 
-<details open markdown="1">
-<summary>Positions</summary>
-
 ## Positions
 
 | Name               | ID      | Callsign       | Frequency        | Login ID              |
@@ -25,11 +22,6 @@
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
     :octicons-checklist-24: [Additional requirements](#airspace-structural-arrangements) must be met prior to opening SRI as a stand-alone position.
-
-</details>
-
-<details markdown="1">
-<summary>Airspace</summary>
 
 ## Airspace
 The Vertical limits of the SY TCU are `SFC` to `F285`.  
@@ -55,12 +47,53 @@ Control authority of the **R470** Restricted Area when active is as follows:
 - RI ADC `SFC`-`A015`
 - SY TCU (SDN) `A015`-`A045`
 
-### Airspace Structural Arrangements
+### Airspace Division
+The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW** and **SFE** change based on the Runway Mode.
+
+<figure markdown>
+![SY TCU Side Profile](img/syside.png){ width="700" }
+  <figcaption>SY TCU Side Profile</figcaption>
+</figure>
+
+!!! note
+    The following diagrams do not include non SY TCU areas of responsibility such as BK CTR or CN CTR
+
+=== "07AD"
+	<figure markdown>
+	![07 TCU Structure](img/sy07.png){ width="700" }
+	  <figcaption>07 TCU Structure</figcaption>
+	</figure>
+
+=== "16 PROPS"
+	<figure markdown>
+	![16 PROPS TCU Structure](img/sy16PROPS.png){ width="700" }
+	  <figcaption>16 PROPS TCU Structure</figcaption>
+	</figure>
+
+=== "25AD"
+	<figure markdown>
+	![25 TCU Structure](img/sy25.png){ width="700" }
+	  <figcaption>25 TCU Structure</figcaption>
+	</figure>
+
+=== "34 PROPS"
+	<figure markdown>
+	![34 PROPS TCU Structure](img/sy34PROPS.png){ width="700" }
+	  <figcaption>34 PROPS TCU Structure</figcaption>
+	</figure>
+
+=== "SODPROPS"
+	<figure markdown>
+	![SODPROPS TCU Structure](img/sySODPROPS.png){ width="700" }
+	  <figcaption>SODPROPS TCU Structure</figcaption>
+	</figure>
+	
+#### Airspace Structural Arrangements
 Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, the following rules apply, in the order presented, to these controller positions, except **SFL**:  
 
-a) **“South”**/**”West”** positions shall assume the airspace of corresponding **“North”**/**”East”** positions when the latter are inactive (e.g. **SAS** assumes **SAN** airspace, **SFW** assumes **SFE** airspace)  
+a) **"South"**/**"West"** positions shall assume the airspace of corresponding **"North"**/**"East"** positions when the latter are inactive (e.g. **SAS** assumes **SAN** airspace, **SFW** assumes **SFE** airspace)  
 
-b) Approach assumes Director/Departure airspace “on-side” when the latter positions are inactive (e.g. with **SAS** and **SAN** online only, **SAS** assumes **SDS** and **SFW**)  
+b) Approach assumes Director/Departure airspace "on-side" when the latter positions are inactive (e.g. with **SAS** and **SAN** online only, **SAS** assumes **SDS** and **SFW**)  
 
 c) Departures assumes **SRI** airspace when the position is inactive  
 
@@ -72,13 +105,13 @@ d) **SRI** is **not permitted** to be logged on to, unless there are already at 
 !!! tip
     Unless there are 2 separate Director controllers online (during a Major event like Panic Stations, for example), it is **not recommended** that the SFW and SFE positions are held by 2 separate controllers, due to the tendency of some less experienced pilots to overshoot the runway centreline
 
-### Sydney Radar (SRI)
+#### Sydney Radar (SRI)
 SRI is responsible for the provision of FIS in Class G airspace within the SY TMA.  It is a role normally performed by DEPs but can be delegated to any TMA controller.  The position is designed to reduce the workload of the other TMA positions by identifying and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller.  [Explicit coordation requirements](#between-sri-and-appdepdir) exist between SRI and other TCU positions, and there are [certain rules](#airspace-structural-arrangements) surrounding the opening of SRI as a stand-alone position.  
 
 !!! example
     During a busy event, Sydney Departures is experiencing a high workload and wishes to delegate the SRI role to another TMA controller who isn't as busy.  SAN's sector is quiet, so they elect to perform the role.
 
-#### Training Areas
+##### Training Areas
 SRI should monitor aircraft operating in the YSBK and YSCN training areas. VFR aircraft are not required to contact SRI for entry, however should monitor the SRI frequency when operating in the training areas.
 
 | Training Area  | Danger Area Code   |
@@ -93,53 +126,49 @@ SRI should monitor aircraft operating in the YSBK and YSCN training areas. VFR a
 
 If a conflict is imminent, SRI may pass safety alerts to VFR aircraft, even if prior contact has not been established and the aircraft are not in receipt of Surveillance Information Service (SIS). IFR aircraft, or VFR aircraft receiving SIS, that pass near the Training Areas may be given traffic information on known aircraft operating within the Training Areas, particularly those on the eastern side that may intend to exit tracking to Prospect Reservoir (PSP).
 
-### Airspace Division
-The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW** and **SFE** change based on the Runway Mode.
+##### Western Sydney Airport
+The under-construction Western Sydney Airport is located in Badgerys Creek, north north-west of BRY. The opening of the new aerodrome will entail significant changes to the airspace arrangement across the TCU. Until then, the airport remains uncontrolled and is OCTA. There are no instrument procedures or navigational aids established to facilitate its use.
+
+<figure markdown>
+![Western Sydney Airport location (approx.)](img/sytcu_wsiappx.png){ width="300" }
+  <figcaption>Western Sydney Airport location *(approx.)*</figcaption>
+</figure>
+
+Some pilots may choose to simulate operations to/from the airport, despite these limitations. Aircraft operating in and out of the site are processed in the same way as any other flight into an uncontrolled ALA OCTA.
+
+## Separation
+### Parallel Runway Operations
+Refer to [Parallel Runway Separation Standards](../../separation-standards/parallelapps) for more information
+
+## Local Procedures
+### Sydney Harbour Scenic Flights
+Flights may be cleared for one of two standard scenic flight routes at `A015`, **Harbour Scenic One** or **Harbour Scenic Two**, which are described below. Pilot preference should be accommodated where traffic permits.
+
+Aircraft must track via Class G airspace to Long Reef and contact SY TCU prior to reaching Long Reef requesting a ‘Harbour Scenic’ clearance. Attempt to identify the aircraft, and if a clearance cannot be given immediately, instruct the pilot to remain in Class G airspace.
+
+!!! phraseology
+    "LOI, squawk 0542, remain clear of Class C airspace"
+
+A **‘Harbour Scenic One’** (or **‘Two’**) clearance is used to authorise flight in the nominated route at `A015`. Sydney QNH must be issued with the clearance.
+
+!!! phraseology
+    "LOI, identified, cleared Harbour Scenic One, Sydney QNH 1014"
+
+!!! warning "Caution"
+    The Harbour Scenic One procedure may cause conflict with departures from Runway 34R to the north. Before issuing a Harbour Scenic One clearance, assess the traffic situation on the ground at YSSY and determine whether a departure to the north of the harbour is likely in the next few minutes. If necessary, instruct the aircraft to remain OCTA and advise of the delay, or alternatively, issue the Harbour Scenic Two clearance.
+
+<figure markdown>
+![Sydney Harbour Scenic Routes](img/sy_harbourbridge_vatsys.png){ width="400" }
+  <figcaption>Sydney Harbour Scenic One *(in pink)* and Two *(in green)*</figcaption>
+</figure>
+
+These can be displayed on vatSys using the `SY_VFR` map.  
 
 !!! note
-    The following diagrams do not include non SY TCU areas of responsibility such as BK CTR or CN CTR
+    Remember that VFR aircraft are **not** separated from other VFR aircraft in class C airspace.  If other VFR aircraft are operating over the harbour, you are not required to provide a separation standard between them, however you must pass traffic information to both aircraft.
 
-#### Side Profile
-<figure markdown>
-![SY TCU Side Profile](img/syside.png){ width="700" }
-  <figcaption>SY TCU Side Profile</figcaption>
-</figure>
 
-#### 07
-<figure markdown>
-![07 TCU Structure](img/sy07.png){ width="700" }
-  <figcaption>07 TCU Structure</figcaption>
-</figure>
-
-#### 16 PROPS
-<figure markdown>
-![16 PROPS TCU Structure](img/sy16PROPS.png){ width="700" }
-  <figcaption>16 PROPS TCU Structure</figcaption>
-</figure>
-
-#### 25
-<figure markdown>
-![25 TCU Structure](img/sy25.png){ width="700" }
-  <figcaption>25 TCU Structure</figcaption>
-</figure>
-
-#### 34 PROPS
-<figure markdown>
-![34 PROPS TCU Structure](img/sy34PROPS.png){ width="700" }
-  <figcaption>34 PROPS TCU Structure</figcaption>
-</figure>
-
-#### SODPROPS
-<figure markdown>
-![SODPROPS TCU Structure](img/sySODPROPS.png){ width="700" }
-  <figcaption>SODPROPS TCU Structure</figcaption>
-</figure>
-</details>
-
-<details markdown="1">
-<summary>Arrival Procedures</summary>
-
-## Arrival Procedures
+## Departure and Arrival Procedures 
 ### STAR and Runway Assignment
 Sequencing of arrivals into YSSY is a joint responsibility of ARL and GUN, with input from SY TCU.
 
@@ -171,6 +200,9 @@ Adjacent STARs do not guarantee lateral separation (particularly as aircraft get
 
 RIVET/BOREE aircraft should only be assigned `A070` when an adjacent ODALE/MEPIL arrival is maintaining `A060`.  These aircraft can be stepped down to `A060` once sufficient lateral separation exists (often during the downwind turn).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7dOF91EIQj8?si=9Vc3-eHTN2Zqlvf4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="display:block; margin:0 auto;" allowfullscreen></iframe>
+<p><figcaption style="text-align: center;">Demonstration of the Adjacent STARs</figcaption></p>
+
 MARLN aircraft which require an overfly to the west should be assigned `A090` and stepped down on top of any RIVET arrivals.
 
 !!! tip
@@ -185,15 +217,23 @@ All aircraft should be assigned no lower than `A060` until clear of the active r
     For an aircraft inbound from the north on the BOREE STAR to runway 34R, assign no lower than `A080` until any adjacent aircraft are maintaing `A060`, then `A070` until the aircraft are laterally clear.  The arrival should then be assigned `A060` until south of the field.
 
 Be mindful of departures from YSBK which may also impact aircraft on downwind for RWY 16R at YSSY.  Do not assign lower than `A040` until the aircraft is north/east of the BK CTR and clear of any departing traffic (who are assigned `A030` by default).
-</details>
 
-<details markdown="1">
-<summary>Parallel Runway Operations</summary>
+## Offline Towers
+### BK ADC Offline
+Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
-## Parallel Runway Operations
-Refer to [Parallel Runway Separation Standards](../../separation-standards/parallelapps) for more information
+!!! phraseology
+    **LOA**: "LOA, King Air, POB 10, IFR, taxing Bankstown for Shellharbour, Runway 11C"    
+    **SY TCU**: "LOA, Sydney Approach, squawk 3601, no reported IFR traffic, report ready at the holding point for airways clearance"  
+    **LOA**: "Squawk 3601, wilco, LOA"  
 
-### Runway Selection
+    **ABC**: "LOA, ready Runway 11C"  
+    **SY TCU**: "LOA, cleared to YSHL via ANKUB, flight planned route, BK9 departure, climb via SID to A030"  
+    **LOA**: "Cleared to YSHL via ANKUB, flight planned route, BK9 departure, climb via SID to A030, LOA"
+
+## Runway Modes
+### Parallel Runway Operations
+#### Runway Selection
 Unless operationally required, aircraft shall be assigned the following runways for arrival when PROPS are in progress:
 
 | Aircraft tracking | Runway  |
@@ -207,7 +247,7 @@ Unless operationally required, aircraft shall be assigned the following runways 
 | From the NORTH and EAST | 16L/34R |
 | From the SOUTH and WEST | 16R/34L |
 
-### Director East and West
+#### Director East and West
 
 Sydney Approach North (SAN) / Sydney Approach South (SAS) are required to hand-off aircraft to the appropriate Sydney Director East (SFE) / Sydney Director West (SFW) Controller on a <u>downwind heading</u>, <u>assigned</u> (or maintaining) <u>`A060`</u>.
 
@@ -225,70 +265,39 @@ SFW/SFE may provide distance to touchdown, when transferring an aircraft to towe
 !!! phraseology
     "QFA490, 8 miles to touchdown, contact tower 120.5"
 
-### Instrument Approach
+#### Instrument Approach
 Aircraft joining parallel instrument approaches must remain separated from aircraft on the adjacent approach until they are established. This usually involves keeping aircraft vertically separated and may require aircraft to intercept the localiser/final approach course and maintain their assigned level, only allowing descent on the approach once they are established.  
 
 Two aircraft established on adjacent parallel approaches require `1nm` lateral separation as opposed to the 3nm standard required in the TMA generally.
 
-### Independent Visual Approach
+#### Independent Visual Approach
 When conducting IVAs, aircraft shall not be transferred to **SY ADC** until established on final.
 
 !!! phraseology
-    **SFW:** “BNZ444, Turn left heading 360, join final Runway 34L, from that heading Cleared Independent Visual Approach”    
+    **SFW:** "BNZ444, Turn left heading 360, join final Runway 34L, from that heading Cleared Independent Visual Approach"    
     **BNZ444:** "Left heading 360, join final Runway 34L, from that heading Cleared Independent Visual Approach, BNZ444"  
       
     **SFW:** "BNZ444, Contact Sydney Tower 120.5"  
     **BNZ444:** "120.5, BNZ444"
 
-#### Phraseology at Night
+##### Phraseology at Night
 *"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (MVA) UNTIL ESTABLISHED ON THE PAPI (or GLIDEPATH)"*
 
 !!! phraseology
-    **SFE:** “ANZ361, Turn right heading 330, join final Runway 34R, from that heading Cleared Independent Visual Approach Runway 34R, not below 1500 until established on the PAPI”    
+    **SFE:** "ANZ361, Turn right heading 305, join final Runway 34R, from that heading Cleared Independent Visual Approach Runway 34R, not below `A015` until established on the PAPI"    
 
-</details>
-
-<details markdown="1">
-<summary>Sydney Harbour Scenic Flights</summary>
-
-## Sydney Harbour Scenic Flights
-Flights may be cleared for one of two standard scenic flight routes at `A015`, **Harbour Scenic One** or **Harbour Scenic Two**, which are described below. Pilot preference should be accommodated where traffic permits.
-
-Aircraft must track via Class G airspace to Long Reef and contact SY TCU prior to reaching Long Reef requesting a ‘Harbour Scenic’ clearance. Attempt to identify the aircraft, and if a clearance cannot be given immediately, instruct the pilot to remain in Class G airspace.
-
-!!! phraseology
-    "LOI, squawk 0542, remain clear of Class C airspace"
-
-A **‘Harbour Scenic One’** (or **‘Two’**) clearance is used to authorise flight in the nominated route at `A015`. Sydney QNH must be issued with the clearance.
-
-!!! phraseology
-    "LOI, identified, cleared Harbour Scenic One, Sydney QNH 1014"
-
-!!! warning "Caution"
-    The Harbour Scenic One procedure may cause conflict with departures from Runway 34R to the north. Before issuing a Harbour Scenic One clearance, assess the traffic situation on the ground at YSSY and determine whether a departure to the north of the harbour is likely in the next few minutes. If necessary, instruct the aircraft to remain OCTA and advise of the delay, or alternatively, issue the Harbour Scenic Two clearance.
-
-<figure markdown>
-![Sydney Harbour Scenic One](img/SYhs1.jpg){ width="400" }
-  <figcaption>Sydney Harbour Scenic One</figcaption>
-</figure>
-
-<figure markdown>
-![Sydney Harbour Scenic Two](img/SYhs2.jpg){ width="400" }
-  <figcaption>Sydney Harbour Scenic Two</figcaption>
-</figure>
-
-These can be displayed on vatSys using the `SY_VFR` map.  
-
-!!! note
-    Remember that VFR aircraft are **not** separated from other VFR aircraft in class C airspace.  If other VFR aircraft are operating over the harbour, you are not required to provide a separation standard between them, however you must pass traffic information to both aircraft.
-</details>
-
-<details markdown="1">
-<summary>Helicopter Operations</summary>
+#### SODPROPS
+Arriving aircraft must be established on final and transferred to the tower frequency no later than 10NM from touchdown.
 
 ## Helicopter Operations
 ### Inbound/Outbound Routes
 Helicopters outbound from YSSY will make contact with the Departures controller established on a Helicopter Route.  Controllers need only identify the aircraft, as they will already be cleared to climb to a suitable level (generally not above `A010`) through their coded clearance.  Each clearance stipulates a point where identification and control services are automatically terminated, but controllers may explicitely cancel these services for new pilots who may not understand where they exit CTA.  
+
+You can find each Helicopter Route below, and full details are in the `ERSA FAC YSSY`. Additionally, the vatSys `SY_HELO` map displays an approximation of each route.
+
+<figure markdown>
+![SY Heli Routes](img/yssy_heli_routes.png){ width="700" }
+</figure>
 
 !!! phraseology
     **YZD:** "Sydney Departures, helicopter YZD, passing A009 on the Barracks 5 Outbound"  
@@ -304,13 +313,23 @@ Controllers should identify the aircraft and then provide clearance if traffic p
 
     **SY TCU:** "HSZ, identified, cleared Harbour Bridge 5 Inbound"
 
+The helicopter route title should be recorded in the **global ops field** and the route waypoints should be added to the FDR route, as below.
+
+| Route | Waypoints |
+| --- | --- |
+| ROSEHILL 5 INBOUND | `RSH RKWC` |
+| ERSKINEVILLE 5 INBOUND | ` DHH REDF ERSK` |
+| HARBOUR BRIDGE 5 INBOUND | `HBB DHH REDF ERSK` |
+| BARRACKS 5 INBOUND | `RCB MPSC` |
+| MAROUBRA 5 INBOUND | `MRBR` |
+| CAPE BANKS 5 INBOUND | `CAPS` |
+| WANDA 5 INBOUND | `YWAN DLPT` |
+| GEORGES RIVER 5 INBOUND | `CSTH PNP GRB DLPT` |
+
 !!! note
     Some Helicopter Routes may conflict with fixed wing approach/departure paths, so use common sense to separate helicopters when required.  For example, during 34 PROPS, it may be more suitable for helicopters to track via the `CAPE BANKS 5 INBOUND` rather than taking the `MAROUBRA 5 INBOUND`, due to it's close proximity to the **MARUB SID**.  In any case, if pilots are unfamiliar with local landmarks, simplify your instructions to assist them while maintaining separation.
 
-Helicopters should be transferred to **SY ADC** early to allow them to provide sequencing and separation with fixed-wing aircraft.
-
-!!! tip
-    You can find details of each Helicopter Route in the YSSY ERSA FAC under section 14 `HELICOPTER ROUTE OPERATIONS` and display an approximation of the route on vatSys using the `SY_HELO` map.
+Inbound helicopters should transfer to **SY ADC** automatically (as per the coded clearance), however new pilots may need an explicit handoff.
 
 ### Terminal Airspace Operations
 #### Bondi Coded Clearances
@@ -350,70 +369,71 @@ Helicopters should be identified and then provided the clearance where traffic p
     **HWD:** "Sydney Departures gday, helicopter HWD, passing 800ft on the Harbour Bridge 5 outbound, request South Harbour Sector"  
     **SY TCU:** "HWD, Departures, identified, onwards clearance South Harbour Sector"  
     **HWD:** "Onwards clearance South Harbour Sector, HWD"
-</details>
 
-<details markdown="1">
-<summary>Offline Towers</summary>
+### Hospital Helipads
+The Sydney CTR contains a number of hospital helipads to the west, north, and east of YSSY.
 
-## Offline Towers
-### BK ADC Offline
-Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
+Helicopters arriving to hospitals inside ADC's jurisdiction should be cleared for a visual approach by **SY TCU** and transferred to **SY ADC** when suitable. During times of poor weather, helicopters should be cleared for the ILS approach to the closest runway with an expectation of breaking off the approach and tracking to the hospital when they become visual. **SY TCU** should clear the helicopter for the ILS, then transfer the aircraft to **SY ADC**, who will facilitate the final tracking to the helipad. Ensure that this expectation is clearly communicated to ADC through hotline coordination.
 
-!!! phraseology
-    **LOA**: "LOA, King Air, POB 10, IFR, taxing Bankstown for Shellharbour, Runway 11C"    
-    **SY TCU**: "LOA, Sydney Approach, squawk 3601, no reported IFR traffic, report ready at the holding point for airways clearance"  
-    **LOA**: "Squawk 3601, wilco, LOA"  
+Helicopters departing from a hospital in ADC's jurisdiction and intending to enter SY TCU CTA will be coordinated by ADC prior to receiving airways clearance. Consider any restrictions such as amended outbound tracking instructions or amended levels which will ensure separation assurance (including requesting ADC to maintain a visual separation standard with the aircraft on departure), then release the aircraft when able.
 
-    **ABC**: "LOA, ready Runway 11C"  
-    **SY TCU**: "LOA, cleared to YSHL via ANKUB, flight planned route, BK9 departure, climb via SID to A030"  
-    **LOA**: "Cleared to YSHL via ANKUB, flight planned route, BK9 departure, climb via SID to A030, LOA"
-
-</details>
-
-<details markdown="1">
-<summary>Flow</summary>
+!!! example
+    *RSCU209 is a VFR AW139 helicopter outbound from St George Hospital (YXSG) for Orange (YORG) at A045.*  
+    <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Next, helicopter RSCU209, outbound from St George Hospital for the west"  
+    <span class="hotline">**SY TCU** -> **SY ADC**</span>: "RSCU209, A030"  
+    <span class="hotline">**SY ADC** -> **SY TCU**</span>: "A030, RSCU209" 
 
 ## Flow
-The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**, which can be used to plan sequencing actions within the TCU.
+### Local Knowledge
+- Aircraft can be processed via the adjacent STAR for the parallel runway (e.g. jet aircraft via the ODALE STAR for RWY 34R), to reduce overall delay where multiple aircraft approach from the same direction *(coordination required)*
+- Aircraft via AKMIR (to the west) and MARLN (to the east) often make large track direction changes prior to entering the TMA. Direct tracking onto the STAR may be offered to reduce track miles
 
-It is based on a few key assumptions:
+### Flow Tables
+The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
-- Nil wind  
-- Aircraft for the *opposite* parallel runway (eg, ODALE > 16L/34R) will overfly the field, then join a mid-field downwind  
-- All aircraft are tracking via the ILS Initial Approach fix
-
-=== "Jets"
-
-    | Feeder Fix | 07  | 16L | 16R | 25  | 34L | 34R |
-    | ---------- | --- | --- | --- | --- | --- | --- |
-    | BOREE      | 16  | 11 | 11 | 15  | 17  | 17  |
-    | MEPIL†     | -   | 9  | -   | -   | -   | 15  |
-    | MARLN      | 16  | 17  | 20  | 13 | 18  | 14  |
-    | RIVET      | 11 | 19  | 17  | 17  | 15  | 19  |
-    | ODALE†     | -   | 16  | -   | -   | -   | 17  |
-
-    - IAF to Threshold is **4 minutes**  
-    - Add **1 minute** for aircraft assigned a reduced speed
-    - †MEPIL and ODALE STARs only available to Jets for 16L/34R
-    - Subtract **1 minute** for MX or CSR
+=== "Jets & DH8D"
+    | STAR       | RWY 07  | RWY 16L | RWY 16R | RWY 25  | RWY 34L | RWY 34R |
+    | ---------- | :---: | :---: | :---: | :---: | :---: | :---: |
+    | **BOREE A/P**  | 15  | 11^ | 11^ | 14  | 17  | 17  |
+    | **MEPIL**<br>*Feeder Fix: YAKKA*      | <br>15  | <br>12^ | <br>11^ | <br>15  | <br>18  | <br>18  |
+    | **MARLN**      | 16  | 17  | 17  | 12^ | 18  | 15  |
+    | **RIVET**      | 11^ | 18  | 15  | 16  | 15  | 18  |
+    | **ODALE**<br>*Feeder Fix: WELSH*      | <br>11^ | <br>18  | <br>16  | <br>17  | <br>16  | <br>18  |
 
 === "Non-Jets"
+    | STAR       | RWY 07  | RWY 16L | RWY 16R | RWY 25  | RWY 34L | RWY 34R |
+    | ---------- | :---: | :---: | :---: | :---: | :---: | :---: |
+    | **BOREE A/P**  | 17  | 12^ | 12^ | 16  | 20  | 20  |
+    | **MEPIL**<br>*Feeder Fix: YAKKA*      | <br>17  | <br>13^ | <br>13^ | <br>16  | <br>20  | <br>20  |
+    | **MARLN**      | 18  | 19  | 20  | 13^ | 20  | 17  |
+    | **RIVET**      | 12^ | 20  | 17  | 18  | 17  | 20  |
+    | **ODALE**<br>*Feeder Fix: WELSH*      | <br>13^ | <br>21  | <br>18  | <br>19  | <br>18  | <br>20  |
 
-    | Feeder Fix | 07  | 16L | 16R | 25  | 34L | 34R |
-    | ---------- | --- | --- | --- | --- | --- | --- |
-    | MEPIL      | 15  | 10^ | 10^ | 13  | 20  | 19  |
-    | MARLN      | 17  | 20  | 22  | 13  | 20  | 19  |
-    | ODALE      | 10^ | 19  | 17  | 16  | 16  | 19  |
 
-    - IAF to Threshold is **4 minutes** for Runway 07/25. **5 minutes** all other Runways.  
-    - Subtract **2 minutes** for **DH8D**, Except ^
-    - ^ Subtract **1 minute** for **DH8D**
-    - Subtract **1 minute** for MX
+#### Corrections
 
-</details>
+| Situation | Correction |
+| ----- | ----- |
+| Assigned a reduced speed | +1 min, *except ^* | 
+| Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
 
-<details markdown="1">
-<summary>Coordination</summary>
+#### Assumptions
+- Nil wind
+- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except:
+    - The feeder fix for the MEPIL STAR is **YAKKA**
+    - The feeder fix for the ODALE STAR is **WELSH**
+- Aircraft for the *opposite* parallel runway (eg, ODALE to 16L/34R) will overfly the field, then join a mid-field downwind  
+- All aircraft are tracking via the ILS Initial Approach fix
+
+### Calculator
+<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
+The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
+
+=== "Landing Time"
+    <div class="flowCalculatorLandingTime" data-aerodrome="YSSY"></div>
+
+=== "Feeder Fix Time"
+    <div class="flowCalculatorFeederFixTime" data-aerodrome="YSSY"></div>
 
 ## Coordination
 ### Enroute
@@ -466,12 +486,12 @@ a) Assigned `A060`
 b) Routed/vectored as per the table below:
 
 | STAR  | 07   | 16L  | 16R   | 25   | 34L | 34R
-| ------| --------------| -------------- | ----- | -----|-----|-----|
-| BOREE   |H240| LOC/IVA  | LOC/IVA  | H060 | STAR | STAR|
-| MEPIL   |H240| STAR  | STAR  | H060 | H150 | H150|
-| MARLN   |H240| H330  | H330  | STAR | H150 | STAR|
-| RIVET  |STAR| H330  | H330  | H060 | STAR | STAR|
-| ODALE |LOC| H330  | H330  | H060 | H150 | H150|
+| ------ | :--------: | :--------: | :-----: | :-----: | :-----: | :-----: |
+| BOREE   | H240 | LOC/IVA  | LOC/IVA  | H060 | STAR | STAR |
+| MEPIL   | H240 | STAR  | STAR  | H060 | H150 | H150 |
+| MARLN   | H240 | H330  | H330  | STAR | H150 | STAR |
+| RIVET  | STAR | H330  | H330  | H060 | STAR | STAR |
+| ODALE | LOC | H330  | H330  | H060 | H150 | H150 |
 
 !!! tip
     If strong winds are present at altitude, APP/DIR should discuss slight changes to these headings to compensate for large crosswind components.
@@ -520,7 +540,7 @@ If aircraft are cleared off runway 11 at YSBK into CTA, coordination is required
 Refer to [Sydney TCU Airspace Division](#airspace-division) for more information.
 
 !!! phraseology
-    <span class="hotline">**SDN** -> **SFW**</span>: “Request left turn out of Bankstown”  
+    <span class="hotline">**SDN** -> **SFW**</span>: "Request left turn out of Bankstown"  
     <span class="hotline">**SFW** -> **SDN**</span>: "Approved" *(no callsigns need be used here)*  
 
 #### Between SRI and APP/DEP/DIR
@@ -536,9 +556,9 @@ Upon receipt of the heads-up coordination from SRI, the SY TCU controller has se
 - "I'll call you back" - *Useful if the SY TCU controller hasn't had time to assess the aircraft yet*
 
 !!! phraseology
-    <span class="hotline">**SRI** -> **SDS**</span>: “Departed YSHL, EQU”  
+    <span class="hotline">**SRI** -> **SDS**</span>: "Departed YSHL, EQU"  
     <span class="hotline">**SDS** -> **SRI**</span>: "EQU, F170"  
-    <span class="hotline">**SRI** -> **SDS**</span>: “F170, EQU”  
+    <span class="hotline">**SRI** -> **SDS**</span>: "F170, EQU"  
     
     **SRI:** "EQU, Cleared to YWLM via TESAT, flight planned route. Climb to F170"  
     **EQU:** "Cleared to YWLM via TESAT, flight planned route. Climb to F170, EQU"  
@@ -579,49 +599,50 @@ Heads-up coordination is not required from a SY TCU position to SRI for aircraft
 #### Airspace
 SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005`.
 
+#### ACD to SY TCU
+The controller assuming responsibility of **SY ACD** shall give [heads-up](../controller-skills/coordination.md#airways-clearance) coordination to the relevant SY TCU controller prior to the issue of the following clearances: 
+
+- VFR departures, other than helicopters assigned a helicopter route coded clearance  
+- Aircraft using a runway not on the ATIS
+
 #### Auto Release
 Auto Release is used for virtually all fixed-wing departures at Sydney. Unlike some other aerodromes, aircraft cleared via the **SY (RADAR) SID** do not need to be 'Next' coordinated, provided they are assigned the standard assignable level and a standard assignable heading from the table below.
 
-| Runway | Jet | Non-Jet 
-| ----------------- | -------------- | ---------------- |
-| 07                | 070         | 020, 110       |
-| 16L                | 125          | 125 (RWY 25 in use), 090 (RWY 25 not in use) |
-| 16R               | 170         | 210         |
-| 25                | 300, 240          | 020, 210, 240 |
-| 34L                | 290          | 230 |
-| 34R                | 030, 070          | 350 |
-
-!!! note
-    Where multiple standard assignable headings are available, assign the heading most suitable for the aircraft's direction of flight.
+| Runway     | Jet         | Non-Jet                                        |
+| ---------- | :---------: | :--------------------------------------------: |
+| RWY 07     | H070        | H020, H110                                     |
+| RWY 16L    | H125        | H125 (RWY 25 in use), H090 (RWY 25 not in use) |
+| RWY 16R    | H170        | H210                                           |
+| RWY 25     | H300, H240  | H020, H210, H240                               |
+| RWY 34L    | H290        | H230                                           |
+| RWY 34R    | H030, H070  | H350                                           |
 
 !!! tip
     If strong winds are present at altitude, TWR/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
 
-'Next' coordination is **not** required for aircraft that are:   
-    a) Departing from a runway nominated on the ATIS; and   
-    b) Assigned the Standard assignable level; and  
-    c) Assigned a **Procedural SID** (except **ABBEY** SID); or  
-    d) Assigned the **Radar** SID with a Standard Assignable Heading
+[Next](../controller-skills/coordination.md#next) coordination is **not** required for aircraft that are:   
 
-All other aircraft require a 'Next' call from SY ADC.
+- Departing from a runway nominated on the ATIS; and   
+- Assigned the Standard assignable level; and  
+- Assigned a **Procedural SID** (except **ABBEY** SID); or  
+- Assigned the **Radar** SID with a Standard Assignable Heading
+
+All other aircraft require a 'Next' call to SY TCU.
 
 'Next' coordination is additionally required for:  
-    a) Visual departures  
-    b) Departures to YSBK  
-    c) After a go around, the next departure from that runway  
-    d) Jets departing 16L via WOL  
-    e) All aircraft during the Curfew Runway Mode
 
-!!! phraseology
-    <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Next, ADA4, runway 34R"  
-    <span class="hotline">**SY TCU** -> **SY ADC**</span>: "ADA4, Heading 030, unrestricted"  
-    <span class="hotline">**SY ADC** -> **SY TCU**</span>: "Heading 030, ADA4"
+- Visual departures  
+- Departures to YSBK  
+- After a go around, the next departure from that runway  
+- Jets departing 16L via WOL  
+- All aircraft during the Curfew Runway Mode
 
-The SY TCU controller can suspend/resume Auto Release at any time, with the concurrence of **SY ADC**.
+The Standard Assignable level from SY ADC to SY TCU is: 
 
-The Standard Assignable level from SY ADC to SY TCU is:  
-For Jets: `A050`  
-For Non-Jets: The lower of `A030` or the `RFL`
+| Aircraft | Level |
+| -------- | ----- |
+| Jets | `A050` |
+| Non-Jets | The lower of `A030` and `RFL` |
 
 ### BK ADC
 #### Airspace
@@ -630,16 +651,13 @@ BK ADC is responsible for the Class D airspace in the BK CTR `SFC` to `A015`.
 Refer to [Reclassifications](#bk-ctr) for operations when BK ADC is offline.
 
 #### Departures
-Aircraft departing YSBK in to SY TCU Class C will be coordinated from **BK ADC** when ready for takeoff.
+[Next](../controller-skills/coordination.md#next) coordination is required from BK ADC to SY TCU for all aircraft **entering SY TCU CTA**.
 
-!!! phraseology
-    <span class="hotline">**BK ADC** -> **SY TCU**</span>: "Next, TFX12"  
-    <span class="hotline">**SY TCU** -> **BK ADC**</span>: "TFX12, Unrestricted"  
-    <span class="hotline">**BK ADC** -> **SY TCU**</span>: "TFX12"  
+The Standard Assignable level from **BK ADC** to **SY TCU** is:
 
-    **BK ADC** will then clear the aircraft to takeoff , and instruct them to contact SY TCU passing `A015`.
-
-The Standard Assignable level from BK ADC to SY TCU is `A030`.
+| Aircraft | Level |
+| --- | -----|
+| All | `A030` |
 
 #### Arrivals
 SY TCU will heads-up coordinate arrivals/overfliers from Class C to BK ADC prior to **5 mins** from the boundary.  
@@ -682,8 +700,8 @@ SY TCU must heads-up coordinate inbound IFR aircraft prior to **5 mins** from th
 SY TCU will **NOT** clear the aircraft for the approach.
 
 !!! phraseology
-    <span class="hotline">**SRI** -> **CN ADC**</span>: “via RNP W, HRP”  
-    <span class="hotline">**CN ADC** -> **SRI**</span>: “HRP”   
+    <span class="hotline">**SRI** -> **CN ADC**</span>: "via RNP W, HRP"  
+    <span class="hotline">**CN ADC** -> **SRI**</span>: "HRP"   
 
 **CN ADC** must issue an airways clearance to these aircraft on first contact.
 
@@ -696,5 +714,3 @@ SY TCU will **NOT** clear the aircraft for the approach.
     <span class="hotline">**RI ADC** -> **SDN**</span>: "TROJ57"  
 
 The Standard Assignable Level from **RI ADC** to **SY TCU** is the lower of `A050` or `RFL`.  
-
-</details>
