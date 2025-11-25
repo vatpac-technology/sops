@@ -47,6 +47,14 @@ MAV extends south outside of **30nm ML**, in to YWE(WON) airspace. The Southern 
   <figcaption>MAV Airspace Side Profile</figcaption>
 </figure>
 
+### Melbourne Radar (MAW)
+MAW is responsible for the provision in class G airspace within the ML TMA. The position is **coupled with MAV** when MAV is online. The position is designed to reduce the workload of other TMA positions by identifing and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller. [Explicit coordination requirements](#between-maw-and-appdep) exist between MAW and other ML TCU positions.
+
+**MAW** is **not permitted** to be opened unless there are **2 other active positions** (ie. MAE and MDN, or MAE and MAV) in the ML TCU.
+
+!!! note
+    MAV should be opened in preference to MAW due to the low level of traffic inbound to Avalon
+
 ### Airspace Division
 The divisions of the airspace between **MAE**, **MDN**, **MDS**, and **MAV** change based on the Runway Mode.
 
@@ -95,16 +103,8 @@ The divisions of the airspace between **MAE**, **MDN**, **MDS**, and **MAV** cha
 	  <figcaption>27 / 27AD34D TCU Structure</figcaption>
 	</figure>
 
-#### Avalon Approach (MAV)
-MAV is responsible for the Class D and E airspace in the AV CTR, `SFC`-`A045`.  
-They are responsible for the same portion of airspace when it is [reclassified](#av-ctr) due to AV ADC being offline.
-
-MAV extends south outside of **30nm ML**, in to YWE(WON) airspace. The Southern portion of this extension (shown below) is Class E `A015`-`A045`, and YWE(WON) is responsible for the airspace **above and below** it.
-
-<figure markdown>
-![MAV Airspace Side Profile](img/mavairspace1.png){ width="700" }
-  <figcaption>MAV Airspace Side Profile</figcaption>
-</figure>
+!!! note
+    The following diagrams do not include non ML TCU areas of responsibility such as MB ADC or EN ADC
 
 ## Departure and Arrival Procedures
 ### Departure Procedures
@@ -221,9 +221,21 @@ Due to the low level of CTA surrounding YMMB, it is best practice to give airway
 #### Arrivals
 IFR aircraft cruising inside CTA will generally commence an instrument approach from within controlled airspace and leave CTA on descent. The missed approach procedure will keep these aircraft outside controlled airspace, so does not need to be protected by the TCU controller. Clear these aircraft to leave CTA descending via an appropriate approach.
 
+When MAW is online, aircraft should be transferred to them once established on the RNP approach.
+
 !!! phraseology
     **ML TCU:** "OFX, Leave controlled airspace descending via the RNP Runway 17L approach, no reported IFR traffic"  
     **OFX:** "Leave controlled airspace descending via the RNP Runway 17L approach, OFX"
+
+***If MAW is online:***
+
+!!! phraseology
+    **MDN:** "OFX, Leave Controlled Airspace descending via the RNP Approach Runway 17L, established contact Melbourne Centre 135.7"  
+    **OFX:** "Leave controlled airspace descending via the RNP Runway 17L approach, contact Melbourne Centre 135.7 established, OFX"  
+
+    **OFX:** "Melbourne Centre, OFX Established RNP Runway 17L"  
+    **MAW:** "OFX, Melbourne Centre no reported IFR traffic"  
+    **OFX:** "OFX" 
 
 ## Runway Modes
 ### LAHSO
@@ -404,13 +416,10 @@ Heads up coordination is required for **all aircraft** entering ML TCU Class C f
     <span class="hotline">**MDN** -> **MAW**</span>: "OXP, A080"  
     <span class="hotline">**MAW** -> **MDN**</span>: “A080, OXP”
 
-    **MAW:** "OXP cleared to YMTG via ML, flight planned route. Climb A080"
-
-    **OXP:** "Cleared to YMTG via ML, flight planned route. Climb A080, OXP"
-
-    **MAW:** "OXP Contact Melbourne Departures 118.9"
-    
-    **OXP:** "118.9, OXP"
+    **MAW:** "OXP cleared to YMTG via ML, flight planned route. Climb A080"  
+    **OXP:** "Cleared to YMTG via ML, flight planned route. Climb A080, OXP"  
+    **MAW:** "OXP Contact Melbourne Departures 118.9"  
+    **OXP:** "118.9, OXP" 
 
 ##### Leaving CTA
 Heads-up coordination is not required from a ML TCU position to MAW for aircraft:
@@ -421,32 +430,24 @@ Heads-up coordination is not required from a ML TCU position to MAW for aircraft
 
 !!! phraseology
     *KDJ is intending on leaving Class C airspace on descent into YMMB. The lower limit of CTA is `A045`.*
-    
-    **MDN:** "KDJ descend to A050, contact Melbourne Centre 135.7"
 
-    **KDJ:** "Descend to A050, 135.7, KDJ"
+    **MDN:** "KDJ descend to A050, contact Melbourne Centre 135.7"  
+    **KDJ:** "Descend to A050, 135.7, KDJ"  
 
-
-    **KDJ:** "Melbourne Centre, KDJ descending A050"
-
-    **MAW:** "KDJ, Melbourne Centre, leave controlled airspace descending, no reported IFR traffic"
-
-    **KDJ:** "Leave controlled airspace descending KDJ"
+    **KDJ:** "Melbourne Centre, KDJ descending A050"  
+    **MAW:** "KDJ, Melbourne Centre, leave controlled airspace descending, no reported IFR traffic"  
+    **KDJ:** "Leave controlled airspace descending KDJ" 
 
 **Leaving CTA laterally**
 - Handed off to MAW upon termination of control services
 
 !!! phraseology
-    *BSV is an IFR C172 leaving CTA to the south at `A040`.*
+    *BSV is an IFR C172 leaving CTA to the south at `A040`.*  
+    **MDS:** "BSV at 19 DME ML, control service terminates, contact Melbourne Centre 135.7"  
+    **BSV:** "135.7, BSV"  
 
-    **MDS:** "BSV at 19 DME ML, control service terminates, contact Melbourne Centre 135.7"
-
-    **BSV:** "135.7, BSV"
-
-
-    **BSV:** "Melbourne Centre, BSV maintaing A040"
-
-    **MAW:** "BSV, Melbourne Centre, no reported IFR traffic, area QNH 1016
+    **BSV:** "Melbourne Centre, BSV maintaing A040"  
+    **MAW:** "BSV, Melbourne Centre, no reported IFR traffic, area QNH 1016 
 
 ### EN ADC
 #### Airspace
