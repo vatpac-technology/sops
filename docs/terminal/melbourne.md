@@ -12,6 +12,7 @@
 | <span class="indented">Melbourne Departures North :material-information-outline:{ title="Non-standard position"}    |MDN| Melbourne Departures  | 118.900         | ML_DEP          |
 | <span class="indented">Melbourne Departures South :material-information-outline:{ title="Non-standard position"}   |MDS| Melbourne Departures | 129.400          | ML-S_DEP         |
 | <span class="indented">Melbourne (Avalon) Approach :material-information-outline:{ title="Non-standard position"}   |MAV| Avalon Approach | 133.550          | AV_APP         |
+| <span class="indented">Melbourne Radar :material-information-outline:{ title="Non-standard position"}   |MAW| Melbourne Centre | 135.700       | ML-C_DEP         |
 | <span class="indented">Melbourne Flow :material-information-outline:{ title="Non-standard position"}        |MFL|                |          | ML_FMP                             |
 
 !!! abstract "Non-Standard Positions"
@@ -41,10 +42,20 @@ They are responsible for the same portion of airspace when it is [reclassified](
 
 MAV extends south outside of **30nm ML**, in to YWE(WON) airspace. The Southern portion of this extension (shown below) is Class E `A015`-`A045`, and YWE(WON) is responsible for the airspace **above and below** it.
 
+MAV assumes MAW airspace when the position is inactive
+
 <figure markdown>
 ![MAV Airspace Side Profile](img/mavairspace1.png){ width="700" }
   <figcaption>MAV Airspace Side Profile</figcaption>
 </figure>
+
+### Melbourne Radar (MAW)
+MAW is responsible for the provision in class G airspace within the ML TMA. The position is **coupled with MAV** when MAV is online. The position is designed to reduce the workload of other TMA positions by identifing and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller. [Explicit coordination requirements](#ml-tcu-internal) exist between MAW and other ML TCU positions.
+
+**MAW** is **not permitted** to be opened unless there are **2 other active positions** (ie. MAE and MDN, or MAE and MAV) in the ML TCU.
+
+!!! note
+    MAV should be opened in preference to MAW due to the low level of traffic inbound to Avalon
 
 ### Airspace Division
 The divisions of the airspace between **MAE**, **MDN**, **MDS**, and **MAV** change based on the Runway Mode.
@@ -333,6 +344,47 @@ YMAV arrivals and departures **do not** meet the voiceless criteria between MDS 
     <span class="hotline">**MAV** -> **MDS**</span>: "via JUSTY, JST616"  
     <span class="hotline">**MDS** -> **MAV**</span>: "JST616, F240"  
     <span class="hotline">**MAV** -> **MDS**</span>: "F240, JST616"
+
+#### Between MAW and APP/DEP
+##### Entering CTA
+Heads up coordination is required for **all aircraft** entering ML TCU Class C from MAW Class G. Heads-up coordination must be completed prior to handoff, however, best practice is to complete coordination as soon as possible.
+
+!!! phraseology
+ <span class="hotline">**MAW** -> **MDN**</span>: “Departed YLIL, OXP”  
+    <span class="hotline">**MDN** -> **MAW**</span>: "OXP, A080"  
+    <span class="hotline">**MAW** -> **MDN**</span>: “A080, OXP”
+
+    **MAW:** "OXP cleared to YMTG via ML, flight planned route. Climb A080"
+    **OXP:** "Cleared to YMTG via ML, flight planned route. Climb A080, OXP"
+    **MAW:** "OXP Contact Melbourne Departures 118.9"
+    **OXP:** "118.9, OXP"
+
+##### Leaving CTA
+Heads-up coordination is not required from a ML TCU position to MAW for aircraft:
+
+**Leaving CTA *vertically*:**
+- Assigned 500ft above BCTA as the CFL; and
+- Handed off to MAW
+
+!!! phraseology
+    *KDJ is intending on leaving Class C airspace on descent into YMMB. The lower limit of CTA is `A045`.*
+    **MDN:** "KDJ descend to A050, contact Melbourne Centre 135.7"
+    **KDJ:** "Descend to A050, 135.7, KDJ"
+
+    **KDJ:** "Melbourne Centre, KDJ descending A050"
+    **MAW:** "KDJ, Melbourne Centre, leave controlled airspace descending, no reported IFR traffic"
+    **KDJ:** "Leave controlled airspace descending KDJ"
+
+**Leaving CTA laterally**
+- Handed off to MAW upon termination of control services
+
+!!! phraseology
+    *BSV is an IFR C172 leaving CTA to the south at `A040`.*
+    **MDS:** "BSV at 19 DME ML, control service terminates, contact Melbourne Centre 135.7"
+    **BSV:** "135.7, BSV"
+ 
+    **BSV:** "Melbourne Centre, BSV maintaing A040"
+    **MAW:** "BSV, Melbourne Centre, no reported IFR traffic, area QNH 1016
 
 ### EN ADC
 #### Airspace
