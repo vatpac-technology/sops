@@ -6,18 +6,20 @@
 
 ## Positions
 
-| Name               | ID      | Callsign       | Frequency        | Login ID              |
-| ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
-| **Melbourne Approach East**    |**MAE**| **Melbourne Approach**   | **132.000**         | **ML_APP**                                   |
-| <span class="indented">Melbourne Departures North :material-information-outline:{ title="Non-standard position"}    |MDN| Melbourne Departures  | 118.900         | ML_DEP          |
-| <span class="indented">Melbourne Departures South :material-information-outline:{ title="Non-standard position"}   |MDS| Melbourne Departures | 129.400          | ML-S_DEP         |
-| <span class="indented">Melbourne (Avalon) Approach :material-information-outline:{ title="Non-standard position"}   |MAV| Avalon Approach | 133.550          | AV_APP         |
-| <span class="indented">Melbourne Radar :material-information-outline:{ title="Non-standard position"}   |MAW| Melbourne Centre | 135.700       | ML-C_DEP         |
-| <span class="indented">Melbourne Flow :material-information-outline:{ title="Non-standard position"}        |MFL|                |          | ML_FMP                             |
+| Name                          | ID      | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
+| **Melbourne Approach East**   | **MAE** | **Melbourne Approach**  | **132.000** | **ML_APP**    |
+| <span class="indented">Melbourne Departures North :material-information-outline:{ title="Non-standard position"}  | MDN | Melbourne Departures | 118.900  | ML_DEP   |
+| <span class="indented">Melbourne Departures South :material-information-outline:{ title="Non-standard position"}  | MDS | Melbourne Departures | 129.400  | ML-S_DEP |
+| <span class="indented">Melbourne (Avalon) Approach :material-information-outline:{ title="Non-standard position"} | MAV | Avalon Approach      | 133.550  | AV_APP   |
+| <span class="indented">Melbourne Radar :material-information-outline:{ title="Non-standard position"} :octicons-checklist-24:{ title="Non-standard position"} | MAW | Melbourne Centre     | 135.700   ML-C_DEP  |
+| <span class="indented">Melbourne Flow :material-information-outline:{ title="Non-standard position"}              | MFL |                      |          | ML_FMP   |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
+	
+	:octicons-checklist-24: [Additional requirements](#melbourne-radar-maw) must be met prior to opening MAW as a stand-alone position.
 
 ## Airspace
 The Vertical limits of the ML TCU are `SFC` to `F245`.
@@ -35,25 +37,6 @@ See also: [AV ADC Offline](#av-adc-offline).
 
 !!! tip
     When AV ADC is not online, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
-
-### Avalon Approach (MAV)
-MAV is responsible for the Class D and E airspace in the AV CTR, `SFC`-`A045`.  
-They are responsible for the same portion of airspace when it is [reclassified](#av-ctr) due to AV ADC being offline.
-
-MAV extends south outside of **30nm ML**, in to YWE(WON) airspace. The Southern portion of this extension (shown below) is Class E `A015`-`A045`, and YWE(WON) is responsible for the airspace **above and below** it.
-
-<figure markdown>
-![MAV Airspace Side Profile](img/mavairspace1.png){ width="700" }
-  <figcaption>MAV Airspace Side Profile</figcaption>
-</figure>
-
-### Melbourne Radar (MAW)
-MAW is responsible for the provision in class G airspace within the ML TMA. The position is **coupled with MAV** when MAV is online. The position is designed to reduce the workload of other TMA positions by identifing and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller. [Explicit coordination requirements](#between-maw-and-appdep) exist between MAW and other ML TCU positions.
-
-**MAW** is **not permitted** to be opened unless there are **2 other active positions** (ie. MAE and MDN, or MAE and MAV) in the ML TCU.
-
-!!! note
-    MAV should be opened in preference to MAW due to the low level of traffic inbound to Avalon
 
 ### Airspace Division
 The divisions of the airspace between **MAE**, **MDN**, **MDS**, and **MAV** change based on the Runway Mode.
@@ -105,6 +88,23 @@ The divisions of the airspace between **MAE**, **MDN**, **MDS**, and **MAV** cha
 
 !!! note
     The following diagrams do not include non ML TCU areas of responsibility such as MB ADC or EN ADC
+
+#### Avalon Approach (MAV)
+MAV is responsible for the Class D and E airspace in the AV CTR, `SFC`-`A045`.  
+They are responsible for the same portion of airspace when it is [reclassified](#av-ctr) due to AV ADC being offline.
+
+MAV extends south outside of **30nm ML**, in to HUO(WON) airspace. The Southern portion of this extension (shown below) is Class E `A015`-`A045`, and HUO(WON) is responsible for the airspace **above and below** it.
+
+<figure markdown>
+![MAV Airspace Side Profile](img/mavairspace1.png){ width="700" }
+  <figcaption>MAV Airspace Side Profile</figcaption>
+</figure>
+
+#### Melbourne Radar (MAW)
+MAW is responsible for the provision in class G airspace within the ML TMA. The position is **coupled with MAV** when MAV is online. The position is designed to reduce the workload of other TMA positions by identifing and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller. [Explicit coordination requirements](#between-maw-and-appdep) exist between MAW and other ML TCU positions.
+
+!!! note
+    MAV should be opened in preference to MAW due to the low level of traffic inbound to Avalon
 
 ## Departure and Arrival Procedures
 ### Departure Procedures
