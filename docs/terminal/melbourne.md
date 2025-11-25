@@ -12,7 +12,7 @@
 | <span class="indented">Melbourne Departures North :material-information-outline:{ title="Non-standard position"}  | MDN | Melbourne Departures | 118.900  | ML_DEP   |
 | <span class="indented">Melbourne Departures South :material-information-outline:{ title="Non-standard position"}  | MDS | Melbourne Departures | 129.400  | ML-S_DEP |
 | <span class="indented">Melbourne (Avalon) Approach :material-information-outline:{ title="Non-standard position"} | MAV | Avalon Approach      | 133.550  | AV_APP   |
-| <span class="indented">Melbourne Radar :material-information-outline:{ title="Non-standard position"} :octicons-checklist-24:{ title="Non-standard position"} | MAW | Melbourne Centre     | 135.700   ML-C_DEP  |
+| <span class="indented">Melbourne Radar :material-information-outline:{ title="Non-standard position"} :octicons-checklist-24:{ title="Non-standard position"} | MAW | Melbourne Centre | 135.700 | ML-C_DEP  |
 | <span class="indented">Melbourne Flow :material-information-outline:{ title="Non-standard position"}              | MFL |                      |          | ML_FMP   |
 
 !!! abstract "Non-Standard Positions"
@@ -86,11 +86,9 @@ The divisions of the airspace between **MAE**, **MDN**, **MDS**, and **MAV** cha
 	  <figcaption>27 / 27AD34D TCU Structure</figcaption>
 	</figure>
 
-!!! note
-    The following diagrams do not include non ML TCU areas of responsibility such as MB ADC or EN ADC
-
 #### Avalon Approach (MAV)
-MAV is responsible for the Class D and E airspace in the AV CTR, `SFC`-`A045`.  
+MAV is responsible for the Class D and E airspace in the AV CTR, `SFC`-`A045`. 
+
 They are responsible for the same portion of airspace when it is [reclassified](#av-ctr) due to AV ADC being offline.
 
 MAV extends south outside of **30nm ML**, in to HUO(WON) airspace. The Southern portion of this extension (shown below) is Class E `A015`-`A045`, and HUO(WON) is responsible for the airspace **above and below** it.
@@ -101,10 +99,12 @@ MAV extends south outside of **30nm ML**, in to HUO(WON) airspace. The Southern 
 </figure>
 
 #### Melbourne Radar (MAW)
-MAW is responsible for the provision in class G airspace within the ML TMA. The position is **coupled with MAV** when MAV is online. The position is designed to reduce the workload of other TMA positions by identifing and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller. [Explicit coordination requirements](#between-maw-and-appdep) exist between MAW and other ML TCU positions.
+MAW is responsible for the provision of FIS in Class G airspace within the ML TMA. It is a role normally performed by the controller responsible for **MAV**. The position is designed to reduce the workload of other TMA positions by identifing and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller. [Explicit coordination requirements](#between-maw-and-appdep) exist between MAW and other ML TCU positions.
 
-!!! note
-    MAV should be opened in preference to MAW due to the low level of traffic inbound to Avalon
+**MAW** is **not permitted** to be logged on to, unless there are already at least **2 other active positions** (ie, MAE and MAV, or MAE and MDS) in the ML TCU.
+
+!!! tip
+    It is **not recommended** that the MAV and MAW positions are held by 2 separate controllers, due to the low traffic levels at Avalon. MAV should be opened in preference to MAW, unless traffic levels at Avalon require the role to be split.
 
 ## Departure and Arrival Procedures
 ### Departure Procedures
@@ -378,29 +378,28 @@ The following Standard Assignable Headings may be used for aircraft assigned the
 **When Runway 09 is in use for arrivals, all Runway 16 departures shall be assigned heading 160.
 
 ### ML TCU Internal
-#### Arrivals
-Voiceless Coordination is in place for arrivals transiting between ML TCU positions, provided the aircraft is:
+#### APP / DEP
+Voiceless Coordination is in place for aircraft transiting between ML TCU positions, provided the aircraft is:
 
-- ADES **YMML**; and
-- Assigned a STAR; and
-- Descending via STAR to `A070`
+- With ADEP **YMML**:
+  - Assigned a SID; and
+  - Climbing via SID to `A100` or higher, or
 
-#### Departures
-Voiceless Coordination is in place for departures transiting between ML TCU positions, provided the aircraft is:
+- With ADES **YMML**:
+  - Assigned a STAR; and
+  - Descending via STAR to `A070`
 
-- ADEP **YMML**; and
-- Assigned a SID; and
-- Climbing via SID to `A100` or higher
-
-#### Others (Heads-up)
-All other aircraft not meeting the Departures/Arrivals criteria that transit between internal ML TCU boundaries must be heads-up coordinated.
+All other aircraft, including aircraft that transit between internal ML TCU boundaries, must be heads-up coordinated.
 
 !!! phraseology
     <span class="hotline">**MDS** -> **MAV**</span>: "via JAYBI, JST603"  
     <span class="hotline">**MAV** -> **MDS**</span>: "JST603, A030"
 
-##### YMAV Arrivals/Departures
-YMAV arrivals and departures **do not** meet the voiceless criteria between MDS and MAV. When MAV is conducting Heads-up Coordination to MDS on a YMAV departure, it is good practice for MDS to coordinate back a higher level (`F240` or the `RFL`, if no restrictions), so that the aircraft does not have interrupted climb
+#### Between MAV and APP/DEP
+YMAV arrivals and departures **do not** meet the voiceless criteria between APP/DEP and MAV, and must be heads-up coordinated.
+
+!!! tip
+    When MAV is conducting Heads-up Coordination to MDS on a YMAV departure, it is good practice for MDS to coordinate back a higher level (`F240` or the `RFL`, if no restrictions), so that the aircraft does not have interrupted climb
 
 !!! phraseology
     <span class="hotline">**MAV** -> **MDS**</span>: "via JUSTY, JST616"  
