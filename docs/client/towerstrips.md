@@ -310,7 +310,7 @@ If the TCU suspends autorelease, record this by placing the `AUTORELEASE SUSPEND
     This mode is only beneficial to ADC where the departure rate is important and will be less beneficial for events where aircraft depart in a wide variety of outbound directions.
 
 #### Arrivals
-When an aircraft calls you on Tower frequency, click the Ready flag (to show that they are on frequency). When a landing clearance is issued, move the strip to the **Runway Bay**.
+Order the **Arrivals Bay** so that the next aircraft to land are positioned at the bottom. When an aircraft calls you on Tower frequency, queue them. When a landing clearance is issued, move the strip to the **Runway Bay**.
 
 After the aircraft vacates the runway, move the strip to the **Taxi Bay**.
 
