@@ -173,7 +173,7 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | ---- | -------- | --------- | --------- |
 | MNN | INL | YBBN, YBCG | |
 | MDE | GUN(KAT) | YSCB | |
-| CNK, MLD, OCN | WOL | YSCB | Jets only |
+| CNK, MLD, OCN | GUN(BIK) | YSCB | Jets only |
 | MNN, MDE | ARL | YSSY | |
 
 ### First Contact
