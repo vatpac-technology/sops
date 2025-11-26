@@ -204,13 +204,12 @@ Circuits are to be conducted at `A010`.
 ## SID Selection
 **RNAV-equipped** jet aircraft planned via **APAGI** shall be assigned the **APAGI SID**. **RNP (0.3)** approved operators planned via **APAGI** shall be assigned the **CUDGN** or **BURLI** procedural SIDs.
 
-IFR aircraft departing Runway 35 shall be assigned a **visual departure**.
+IFR aircraft departing Runway 17/35 shall be assigned a **visual departure**.
 
 Aircraft not meeting the above criteria, or that cannot accept a Procedural SID shall be assigned the **Radar SID**.
 
 ## ATIS
 ### Approach Types
-### Approach Type
 
 | Cloud Base          | Visibility | Approach         |
 | ------------------- | ---------- | ---------------- |
