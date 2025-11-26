@@ -59,21 +59,13 @@ There are four [Predictable Sequencing](../../controller-skills/sequencing.md#pr
 
 The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
 
-=== "Q346"
+=== "Y33/Q35"
     | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
     | ---------------- | ------------ | -------------- | --------------- |
-    | UPNAP | IGPEB | DORSU | 1 |
-    | UPNAP | ONOPO | DORSU | 3 |
-    | UPNAP | URGUL | DORSU | 5 |
-    | UPNAP | IBOVU | DORSU | 7 | 
-
-=== "Q35"
-    | Initial Waypoint | CDO Waypoint | Final Waypoint | Delay (in mins) |
-    | ---------------- | ------------ | -------------- | --------------- |
-    | IGMIL | IGPEB | DORSU | 2 |
-    | IGMIL | ONOPO | DORSU | 4 |
-    | IGMIL | URGUL | DORSU | 6 |
-    | IGMIL | IBOVU | DORSU | 8 |
+    | DUBED | LEGOM | DORSU | +2 |
+    | DUBED | IDVIL | DORSU | +4 |
+    | DUBED | GUGIX | DORSU | +6 |
+    | DUBED | AVKOG | DORSU | +8 | 
     
 #### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YMML. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
