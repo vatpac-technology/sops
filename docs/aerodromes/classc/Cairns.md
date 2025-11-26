@@ -85,8 +85,8 @@ Aircraft planning to enter the CS CTR between *Mt Gorton*, CGF and Upolo Cay at 
 Within the Cairns CTR, there are over a dozen HLS's, including one hospital: Cairns Hospital (YCBH).
 
 <figure markdown>
-![CG ADC Airspace](img/CG_ctr_heli.png){ width="700" }
-  <figcaption>CG ADC Airspace</figcaption>
+![CS ADC Airspace](img/CS_ctr_heli.png){ width="700" }
+  <figcaption>CS ADC Airspace</figcaption>
 </figure>
 
 ### Radisson Pier Helipad
