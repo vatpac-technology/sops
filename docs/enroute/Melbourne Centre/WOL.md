@@ -58,7 +58,7 @@ The CPDLC Station Code is `YWOL`.
 ## Sector Responsibilities
 ### Wollongong (WOL)
 #### YSCB Arrivals
-WOL is responsible for issuing STAR clearances, descent, and sequencing actions.
+WOL is responsible for issuing STAR clearances to non-jet aircraft, as well as descent and sequencing actions for all aircraft inbound YSCB.
 
 Refer to the [Sequencing into YSCB](#sequencing-into-yscb) notes below regarding adjacent Feeder Fixes.
 
@@ -85,6 +85,13 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | WOL | GUN | YSSY | |
 | SNO | HUO(WON) | YMML | 
 | SNO | HUO | YMHB | |
+
+### First Contact
+Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
+
+| Transferring Sector | Receiving Sector | ADES | Notes |
+| ---- | -------- | --------- | --------- |
+| GUN(BIK) | WOL | YSCB | Non-jets only |
 
 ## Coordination
 ### SY TCU

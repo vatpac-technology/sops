@@ -52,6 +52,11 @@ Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runwa
 #### YSBK Arrivals
 BIK is responsible for issuing final descent, and ascertaining arrival intentions.
 
+#### YSCB Arrivals
+BIK is responsible for issuing STAR clearances, and initial descent for aircraft inbound to YSCB via WOL.
+
+Aircraft cruising above `F290` should be assigned *no lower* than `F290` and handed to WOL for further descent.
+
 #### Overfliers
 For aircraft overflying the SY TMA, place *'O/FLY'* in the LABEL DATA field.
     
@@ -63,6 +68,9 @@ GUN is also responsible for initial sequencing actions into YSSY. Aircraft cruis
 
 Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway and STAR selection notes.
 
+#### YSCB Arrivals
+BIK is responsible for final sequencing actions and final descent for aircraft arriving from the north.
+
 ### Katoomba (KAT)
 #### YSSY Arrivals
 KAT is responsible for issuing STAR Clearances.
@@ -70,7 +78,7 @@ KAT is responsible for issuing STAR Clearances.
 Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway and STAR selection notes.
 
 #### YSCB Arrivals
-KAT is responsible for issuing STAR Clearances.
+KAT is responsible for issuing STAR clearances and initial descent for aircraft inbound to YSCB via GUN.
 
 ### Sequencing into YSSY
 Sequencing arrivals from the west into YSSY is a joint responsibility of GUN and BIK. Initial sequencing actions should be performed by GUN, with fine tuning and any holding required issued by BIK.
@@ -128,7 +136,7 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | BLA, WOL | GUN | YSSY | |
 | ASP(BKE), MUN(GTH) | KAT | YSSY | Jets only |
 | MUN(GTH) | GUN | YSSY | Non-Jets only |
-| ARL(MDE) | KAT | YSCB | |
+| ARL(CNK), ARL(MLD), ARL(OCN) | BIK | YSCB | Jets only |
 
 ## Coordination
 ### SY TCU
