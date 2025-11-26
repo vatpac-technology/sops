@@ -69,7 +69,7 @@ GUN is also responsible for initial sequencing actions into YSSY. Aircraft cruis
 Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway and STAR selection notes.
 
 #### YSCB Arrivals
-BIK is responsible for final sequencing actions and final descent for aircraft arriving from the north.
+GUN is responsible for final sequencing actions and final descent for aircraft arriving from the north.
 
 ### Katoomba (KAT)
 #### YSSY Arrivals
@@ -136,6 +136,7 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | BLA, WOL | GUN | YSSY | |
 | ASP(BKE), MUN(GTH) | KAT | YSSY | Jets only |
 | MUN(GTH) | GUN | YSSY | Non-Jets only |
+| ARL(MDE) | KAT | YSCB | Jets only |
 | ARL(CNK), ARL(MLD), ARL(OCN) | BIK | YSCB | Jets only |
 
 ## Coordination
