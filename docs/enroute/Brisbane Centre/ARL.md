@@ -172,7 +172,8 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
 | MNN | INL | YBBN, YBCG | |
-| MDE | YWE(KAT) | YSCB | |
+| MDE | GUN(KAT) | YSCB | |
+| CNK, MLD, OCN | WOL | YSCB | Jets only |
 | MNN, MDE | ARL | YSSY | |
 
 ### First Contact
