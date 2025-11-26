@@ -56,9 +56,6 @@ The stripboard is divided into multiple bays, each representing a stage in an ai
 
 Strips can be moved in between strip bays by clicking on their callsign, and clicking the bay where you want them to go. Strips can be moved to the next bay by clicking on the SID box (referred to as *SID triggering*).
 
-!!! Note
-    Strips can not be *SID triggered* from the **Holding Point Bay** to the **Runway Bay**, to prevent accidental placement onto the runway.
-
 Various layouts exist to handle radar towers, procedural Class D towers, and Metro D towers.
 
 ### Missing Strips
