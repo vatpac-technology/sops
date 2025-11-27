@@ -2426,13 +2426,30 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#adc" class="md-nav__link">
+  <a href="#airspace-division" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ADC
+        Airspace Division
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Airspace Division">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cin-adc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CIN ADC
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -2454,15 +2471,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#adc_1" class="md-nav__link">
+  <a href="#cin-adc_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ADC
+        CIN ADC
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="ADC">
+    <nav class="md-nav" aria-label="CIN ADC">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -8555,13 +8572,30 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#adc" class="md-nav__link">
+  <a href="#airspace-division" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ADC
+        Airspace Division
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Airspace Division">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cin-adc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CIN ADC
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -8583,15 +8617,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#adc_1" class="md-nav__link">
+  <a href="#cin-adc_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ADC
+        CIN ADC
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="ADC">
+    <nav class="md-nav" aria-label="CIN ADC">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -8673,11 +8707,13 @@
 
   <h1>Curtin TCU</h1>
 
+<p>*{OKA]: Oakey Approach</p>
 <h2 id="positions">Positions</h2>
 <table>
 <thead>
 <tr>
 <th>Name</th>
+<th>ID</th>
 <th>Callsign</th>
 <th>Frequency</th>
 <th>Login ID</th>
@@ -8685,7 +8721,8 @@
 </thead>
 <tbody>
 <tr>
-<td><strong>Curtin <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong></td>
+<td><strong>Curtin Approach</strong></td>
+<td><strong><abbr title="Curtin Approach">CIA</abbr></strong></td>
 <td><strong>Curtin Approach</strong></td>
 <td><strong>121.000</strong></td>
 <td><strong>CIN_APP</strong></td>
@@ -8693,21 +8730,31 @@
 </tbody>
 </table>
 <h2 id="airspace">Airspace</h2>
-<p>The limits of the CIN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> are <code>SFC</code> to <code>F200</code> within 25 <abbr title="Distance Measuring Equipment">DME</abbr> CIN. This may be amended by <abbr title="Notice to Airmen">NOTAM</abbr>.</p>
-<p>By default, CIN APP owns the Class C airspace within the CIN MIL <abbr title="Control Zone">CTR</abbr> <code>A015</code>-<code>A035</code>, as well as the following Restricted Areas, as detailed below:</p>
+<p>The vertical limit of the CIN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> is <code>SFC</code> to <code>F200</code>.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/cin_tcu.png" data-desc-position="bottom"><img alt="CIN TCU Structure" src="../img/cin_tcu.png" width="700"></a>
+  </p>
+<figcaption>CIN TCU Structure</figcaption>
+</figure>
+<h3 id="airspace-division">Airspace Division</h3>
+<p>By default, CIN APP owns the Class C airspace within the CIN <abbr title="Control Zone">CTR</abbr> <code>A015</code>-<code>A035</code> as well as:</p>
 <ul>
-<li>R801A (Partial) (<code>SFC</code>-<code>A035</code>)  </li>
-<li>R802A (<code>A035</code>-<code>F200</code>)  </li>
+<li>R802A Restricted Area , defined as (<code>A035</code>-<code>F200</code>) within 25NM CIN.</li>
+<li>R826 Restricted Area, defined as (<code>A015</code> - <code>A035</code>) in the south of the <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr>.</li>
 </ul>
-<p>The above Restricted Areas are classified as Class C when CIN APP is active.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/cin_restricted_areas.png" data-desc-position="bottom"><img alt="CIN TCU Restricted Areas" src="../img/cin_restricted_areas.png" width="700"></a>
+  </p>
+<figcaption>CIN TCU Restricted Areas</figcaption>
+</figure>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>See <a href="https://vatpac.org/publications/notam" target="new">VATPAC NOTAMs</a> for active NOTAMs which may affect military operations.</p>
 </div>
-<h3 id="adc"><abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></h3>
-<p>CIN <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> owns the Class C airspace within the CIN MIL <abbr title="Control Zone">CTR</abbr> from <code>SFC</code> to <code>A015</code>.</p>
+<h4 id="cin-adc">CIN <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></h4>
+<p>CIN <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> owns the Class C airspace within the CIN <abbr title="Control Zone">CTR</abbr> from <code>SFC</code> to <code>A015</code>.</p>
 <h2 id="coordination">Coordination</h2>
-<h3 id="adc_1"><abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></h3>
+<h3 id="cin-adc_1">CIN <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></h3>
 <h4 id="departures">Departures</h4>
 <p><a href="../../controller-skills/coordination/#next">Next</a> coordination is required from CIN <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> to CIN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> for all aircraft.</p>
 <p>The Standard Assignable Level from  <strong>CIN <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong> to <strong>CIN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong> is:</p>
@@ -8727,15 +8774,15 @@
 </table>
 <h3 id="trtash"><abbr title="Brisbane (Territory) Centre">TRT</abbr>(<abbr title="Brisbane (Ashmore) Centre">ASH</abbr>)</h3>
 <h4 id="departures_1">Departures</h4>
-<p>Voiceless coordination is in place from CIN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> to <abbr title="Brisbane (Ashmore) Centre">ASH</abbr> for aircraft assigned the lower of <code>F190</code> and <code>RFL</code>. </p>
+<p>Voiceless coordination is in place from CIN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> to TST(<abbr title="Brisbane (Ashmore) Centre">ASH</abbr>) for aircraft assigned the lower of <code>F190</code> and <code>RFL</code>. </p>
 <p>Any aircraft not meeting the above criteria must be prior coordinated to ENR.</p>
 <div class="admonition phraseology">
 <p class="admonition-title">Phraseology</p>
-<p><span class="hotline"><strong>CIN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong> -&gt; <strong><abbr title="Brisbane (Ashmore) Centre">ASH</abbr></strong></span>: "ASY404, with your concurrence, will be assigned F180, for my separation with JTE654"<br>
-<span class="hotline"><strong><abbr title="Brisbane (Ashmore) Centre">ASH</abbr></strong> -&gt; <strong>CIN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong></span>: "ASY404, concur F160"  </p>
+<p><span class="hotline"><strong><abbr title="Curtin Approach">CIA</abbr></strong> -&gt; <strong><abbr title="Brisbane (Ashmore) Centre">ASH</abbr></strong></span>: "ASY404, with your concurrence, will be assigned F180, for my separation with JTE654"<br>
+<span class="hotline"><strong><abbr title="Brisbane (Ashmore) Centre">ASH</abbr></strong> -&gt; <strong><abbr title="Curtin Approach">CIA</abbr></strong></span>: "ASY404, concur F160"  </p>
 </div>
 <h4 id="arrivals">Arrivals</h4>
-<p>The Standard assignable level from <abbr title="Brisbane (Ashmore) Centre">ASH</abbr> to CIN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> is <code>F130</code>, and tracking via CIN <abbr title="VHF Omni-directional Range">VOR</abbr>. All other aircraft must be prior coordinated.</p>
+<p>The Standard assignable level from TST(<abbr title="Brisbane (Ashmore) Centre">ASH</abbr>) to CIN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> is <code>F130</code>, and tracking via CIN <abbr title="VHF Omni-directional Range">VOR</abbr>. All other aircraft must be prior coordinated.</p>
 <div class="admonition abstract">
 <p class="admonition-title">Reference</p>
 <p>Additional charts to the <abbr title="Aeronautical Information Publication">AIP</abbr> may be found in the <abbr title="Royal Australian Air Force">RAAF</abbr> <abbr title="Terminal Area Radar and Military Airspace">TERMA</abbr> document, available towards the bottom of <a href="https://ais-af.airforce.gov.au/australian-aip" target="new"><abbr title="Royal Australian Air Force">RAAF</abbr> <abbr title="Aeronautical Information Publication">AIP</abbr> page</a></p>
@@ -8760,7 +8807,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 17, 2025 03:59:58 UTC">February 17, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 6, 2025 02:12:55 UTC">November 6, 2025</span>
   </span>
 
     

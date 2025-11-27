@@ -2590,25 +2590,25 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#local-procedures" class="md-nav__link">
+    <nav class="md-nav" aria-label="Airspace">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#airspace-division" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Local Procedures
+        Airspace Division
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Local Procedures">
-      <ul class="md-nav__list">
+</li>
         
           <li class="md-nav__item">
-  <a href="#additional-airspace-releases" class="md-nav__link">
+  <a href="#airspace-division_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Additional Airspace Releases
+        Airspace Division
       
     </span>
   </a>
@@ -2633,15 +2633,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#piy" class="md-nav__link">
+  <a href="#enroute" class="md-nav__link">
     <span class="md-ellipsis">
       
-        PIY
+        Enroute
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="PIY">
+    <nav class="md-nav" aria-label="Enroute">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -2672,17 +2672,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#ph-tcu" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        PH TCU
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#pe-adc" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2698,6 +2687,17 @@
     <span class="md-ellipsis">
       
         GIG ADC
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ph-tcu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PH TCU
       
     </span>
   </a>
@@ -8578,25 +8578,25 @@
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#local-procedures" class="md-nav__link">
+    <nav class="md-nav" aria-label="Airspace">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#airspace-division" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Local Procedures
+        Airspace Division
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Local Procedures">
-      <ul class="md-nav__list">
+</li>
         
           <li class="md-nav__item">
-  <a href="#additional-airspace-releases" class="md-nav__link">
+  <a href="#airspace-division_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Additional Airspace Releases
+        Airspace Division
       
     </span>
   </a>
@@ -8621,15 +8621,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#piy" class="md-nav__link">
+  <a href="#enroute" class="md-nav__link">
     <span class="md-ellipsis">
       
-        PIY
+        Enroute
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="PIY">
+    <nav class="md-nav" aria-label="Enroute">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -8660,17 +8660,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#ph-tcu" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        PH TCU
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#pe-adc" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -8686,6 +8675,17 @@
     <span class="md-ellipsis">
       
         GIG ADC
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ph-tcu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PH TCU
       
     </span>
   </a>
@@ -8727,11 +8727,13 @@
 
   <h1>Pearce TCU</h1>
 
+<p>*{OKA]: Oakey Approach</p>
 <h2 id="positions">Positions</h2>
 <table>
 <thead>
 <tr>
 <th>Name</th>
+<th>ID</th>
 <th>Callsign</th>
 <th>Frequency</th>
 <th>Login ID</th>
@@ -8740,6 +8742,7 @@
 <tbody>
 <tr>
 <td><strong>Pearce Approach</strong></td>
+<td><strong>PEA</strong></td>
 <td><strong>Pearce Approach</strong></td>
 <td><strong>130.200</strong></td>
 <td><strong>PE_APP</strong></td>
@@ -8747,45 +8750,39 @@
 </tbody>
 </table>
 <h2 id="airspace">Airspace</h2>
-<p>The PE <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> is responsible for the airspace within <strong>20 <abbr title="Tactical Air Navigation System">TACAN</abbr></strong> of PEA (that is continained within <strong>Pearce <abbr title="Special Use Airspace">SUA</abbr></strong>), <code>SFC</code> to <code>A050</code>. By default, PE <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> does not border any <abbr title="Melbourne (Pingelly) Centre">PIY</abbr> <abbr title="Controlled Airspace">CTA</abbr>.</p>
-<p>This is all reclassified to <strong>Class C</strong> when PE <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> is online.</p>
-<div class="admonition abstract">
-<p class="admonition-title">Reference</p>
-<p>A helpful diagram can be found in <a href="https://ais-af.airforce.gov.au/australian-aip" target="new">Pearce FIHA AD2 Supp</a>, Section 2.2.2.</p>
-</div>
-<h2 id="local-procedures">Local Procedures</h2>
-<h3 id="additional-airspace-releases">Additional Airspace Releases</h3>
-<p>Additional airspace releases may be <abbr title="Notice to Airmen">NOTAM</abbr>'d, or coordinated between PE <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr>, PH <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> and <abbr title="Melbourne (Pingelly) Centre">PIY</abbr>, to facilitate Military Operations.</p>
+<p>The vertical limits of the Pearce <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> is <code>SFC</code> to <code>F160</code>. </p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/pe_tcu.png" data-desc-position="bottom"><img alt="PE TCU Structure" src="../img/pe_tcu.png" width="700"></a>
+  </p>
+<figcaption>PE TCU Structure</figcaption>
+</figure>
+<h3 id="airspace-division">Airspace Division</h3>
+<p>PEA is responsible for the restricted airspace within R155A and R155B. This airspace is reclassified to <strong>Class C</strong> when PEA is online.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/pe_restricted_areas.png" data-desc-position="bottom"><img alt="PE TCU Restricted Areas" src="../img/pe_restricted_areas.png" width="700"></a>
+  </p>
+<figcaption>PE TCU Restricted Areas</figcaption>
+</figure>
+<p>PE <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> owns the airspace within the Pearce <abbr title="Circuit Area">CIRA</abbr> (<strong>5nm</strong> Radius of YPEA <abbr title="Aerodrome Reference Point">ARP</abbr>, located entirely within <strong>R155A</strong>) from <code>SFC</code> to `A035.</p>
+<h3 id="airspace-division_1">Airspace Division</h3>
+<p>Additional airspace may be released by <abbr title="Notice to Airmen">NOTAM</abbr>, or coordinated between PEA, PH <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr>, and <abbr title="Melbourne (Leeman) Centre">LEA</abbr>/<abbr title="Melbourne (Pingelly) Centre">PIY</abbr> to facilitate military operations.</p>
 <div class="admonition phraseology">
 <p class="admonition-title">Phraseology</p>
-<p><span class="hotline"><strong>PE <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong> -&gt; <strong>PH <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong></span>: "Request release of R155 Alpha and Bravo, <abbr title="Surface">SFC</abbr> to F180, for Military Operations. My onwards with <abbr title="Melbourne (Pingelly) Centre">PIY</abbr>" <br>
-<span class="hotline"><strong>PH <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong> -&gt; <strong>PE <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong></span>: "R155 Alpha and Bravo, <abbr title="Surface">SFC</abbr> to F180, Released to you. Your onwards with <abbr title="Melbourne (Pingelly) Centre">PIY</abbr>"  </p>
-<p><span class="hotline"><strong>PE <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong> -&gt; <strong><abbr title="Melbourne (Pingelly) Centre">PIY</abbr></strong></span>: "Request release of R155 Alpha and Bravo, <abbr title="Surface">SFC</abbr> to F180, for Military Operations. My onwards with PH <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr>" <br>
-<span class="hotline"><strong><abbr title="Melbourne (Pingelly) Centre">PIY</abbr></strong> -&gt; <strong>PE <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong></span>: "R155 Alpha and Bravo, <abbr title="Surface">SFC</abbr> to F180, Released to you. Your onwards with PH <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr>"  </p>
+<p><span class="hotline"><strong>PEA</strong> -&gt; <strong>PH <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong></span>: "Request release of M166, <abbr title="Surface">SFC</abbr> to F160, for Military Operations. My onwards with <abbr title="Melbourne (Leeman) Centre">LEA</abbr>" <br>
+<span class="hotline"><strong>PH <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong> -&gt; <strong>PEA</strong></span>: "M166, <abbr title="Surface">SFC</abbr> to F160, released to you. Your onwards with <abbr title="Melbourne (Leeman) Centre">LEA</abbr>"  </p>
+<p><span class="hotline"><strong>PEA</strong> -&gt; <strong><abbr title="Melbourne (Leeman) Centre">LEA</abbr></strong></span>: "Request release of M166, <abbr title="Surface">SFC</abbr> to F160, for Military Operations. My onwards with PH <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr>" <br>
+<span class="hotline"><strong><abbr title="Melbourne (Leeman) Centre">LEA</abbr></strong> -&gt; <strong>PEA</strong></span>: "M166, <abbr title="Surface">SFC</abbr> to F160, released to you. Your onwards with PH <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr>"  </p>
 </div>
 <h2 id="coordination">Coordination</h2>
-<h3 id="piy"><abbr title="Melbourne (Pingelly) Centre">PIY</abbr></h3>
+<h3 id="enroute">Enroute</h3>
 <h4 id="departures">Departures</h4>
-<p>Voiceless for all aircraft:</p>
-<ul>
-<li>Tracking via <strong>AVNEX</strong>; and  </li>
-<li>Assigned the lower of <code>F180</code> or the <code>RFL</code></li>
-</ul>
-<p>All other aircraft going to <abbr title="Melbourne (Pingelly) Centre">PIY</abbr> <abbr title="Controlled Airspace">CTA</abbr> must be <strong>Heads-up</strong> Coordinated by PE <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr>, if coming from <abbr title="Controlled Airspace">CTA</abbr> (ie, only if PE <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> has assumed more airspace than the default setup).</p>
+<p>All aircraft from PE <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> to <abbr title="Melbourne (Hyden) Centre">HYD</abbr> require <a href="../../controller-skills/coordination/#heads-up">Heads-up</a> coordination prior to the boundary, however, as soon as practical (when is the aircraft becomes airborne) is preferred. </p>
 <h4 id="arrivalsoverfliers">Arrivals/Overfliers</h4>
-<p>If PE <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> has assumed additional airspace from the default, and as such, PE <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> <abbr title="Controlled Airspace">CTA</abbr> borders <abbr title="Melbourne (Pingelly) Centre">PIY</abbr> <abbr title="Controlled Airspace">CTA</abbr>, then:</p>
-<p>Voiceless for all aircraft:</p>
-<ul>
-<li>Tracking from <strong>JULIM</strong> or <strong>SAPKO</strong> DCT <strong>PEA</strong>; and </li>
-<li>Assigned <code>A090</code></li>
-</ul>
-<p>All other arrivals/overfliers coming from <abbr title="Melbourne (Hyden) Centre">HYD</abbr> <abbr title="Controlled Airspace">CTA</abbr> will be <strong>Heads-up</strong> Coordinated to PE <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> prior to <strong>20nm</strong> from the boundary.</p>
-<h3 id="ph-tcu">PH <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></h3>
-<p><strong>All aircraft</strong> transiting between PE <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> and PH <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> must be heads-up coordinated prior to the boundary.</p>
+<p>All aircraft transiting from <abbr title="Melbourne (Hyden) Centre">HYD</abbr> to <strong>PE <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong> must be <a href="../../controller-skills/coordination/#heads-up">Heads-up</a> coordinated prior to <strong>20nm</strong> from the boundary. There are no standard assignable levels; <abbr title="Melbourne (Hyden) Centre">HYD</abbr> and <strong>PEA</strong> controller must agree on a suitable level during coordination.</p>
 <div class="admonition phraseology">
 <p class="admonition-title">Phraseology</p>
-<p><span class="hotline"><strong>PE <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong> -&gt; <strong>PH <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong></span>: "Airborne YPEA, PHNX11" <br>
-<span class="hotline"><strong>PH <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong> -&gt; <strong>PE <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong></span>: "PHNX11, F180"  </p>
+<p><span class="hotline"><strong><abbr title="Melbourne (Leeman) Centre">LEA</abbr></strong> -&gt; <strong>PEA</strong></span>: "via AVNEX, EGLE9, will be assigned A090"<br>
+<span class="hotline"><strong>PEA</strong> -&gt; <strong><abbr title="Melbourne (Leeman) Centre">LEA</abbr></strong></span>: "EGLE9, A090"</p>
 </div>
 <h3 id="pe-adc">PE <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></h3>
 <p><a href="../../controller-skills/coordination/#next">Next</a> coordination is required from PE <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> to PE <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> for all aircraft.</p>
@@ -8829,6 +8826,13 @@
 </tr>
 </tbody>
 </table>
+<h3 id="ph-tcu">PH <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></h3>
+<p><strong>All aircraft</strong> transiting between PE <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> and PH <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> must be heads-up coordinated prior to the boundary.</p>
+<div class="admonition phraseology">
+<p class="admonition-title">Phraseology</p>
+<p><span class="hotline"><strong>PEA</strong> -&gt; <strong>PH <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong></span>: "Airborne YPEA, PHNX11" <br>
+<span class="hotline"><strong>PH <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong> -&gt; <strong>PEA</strong></span>: "PHNX11, F180"  </p>
+</div>
 <h2 id="charts">Charts</h2>
 <div class="admonition abstract">
 <p class="admonition-title">Reference</p>
@@ -8854,7 +8858,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="September 17, 2025 07:32:30 UTC">September 17, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 7, 2025 01:50:55 UTC">November 7, 2025</span>
   </span>
 
     

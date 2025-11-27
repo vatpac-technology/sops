@@ -2733,6 +2733,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#airspace-division" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Airspace Division
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#charts" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2795,15 +2806,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#trttrs" class="md-nav__link">
+  <a href="#enroute" class="md-nav__link">
     <span class="md-ellipsis">
       
-        TRT(TRS)
+        Enroute
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="TRT(TRS)">
+    <nav class="md-nav" aria-label="Enroute">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -8581,6 +8592,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#airspace-division" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Airspace Division
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#charts" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -8643,15 +8665,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#trttrs" class="md-nav__link">
+  <a href="#enroute" class="md-nav__link">
     <span class="md-ellipsis">
       
-        TRT(TRS)
+        Enroute
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="TRT(TRS)">
+    <nav class="md-nav" aria-label="Enroute">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -8727,11 +8749,13 @@
 
   <h1>Tindal TCU</h1>
 
+<p>*{OKA]: Oakey Approach</p>
 <h2 id="positions">Positions</h2>
 <table>
 <thead>
 <tr>
 <th>Name</th>
+<th>ID</th>
 <th>Callsign</th>
 <th>Frequency</th>
 <th>Login ID</th>
@@ -8740,21 +8764,34 @@
 <tbody>
 <tr>
 <td><strong>Tindal Approach</strong></td>
+<td><strong><abbr title="Tindal Approach">TNA</abbr></strong></td>
 <td><strong>Tindal Approach</strong></td>
-<td><strong>120.95</strong></td>
+<td><strong>120.950</strong></td>
 <td><strong>TN_APP</strong></td>
 </tr>
 </tbody>
 </table>
 <h2 id="airspace">Airspace</h2>
+<p>The vertical limits of the Tindal <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> are <code>SFC</code> to <code>F190</code>.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/tn_tcu.png" data-desc-position="bottom"><img alt="TN TCU Structure" src="../img/tn_tcu.png" width="700"></a>
+  </p>
+<figcaption>TN TCU Structure</figcaption>
+</figure>
+<h2 id="airspace-division">Airspace Division</h2>
 <p>TN APP being online will activate the following Airspace by default:</p>
 <ul>
-<li>TN MIL <abbr title="Control Zone">CTR</abbr> <code>SFC</code>-<code>A025</code></li>
+<li>TN <abbr title="Control Zone">CTR</abbr> <code>SFC</code>-<code>A025</code></li>
 <li>R249A <code>A015</code>-<code>A025</code></li>
 <li>R249B <code>A025</code>-<code>F190</code></li>
 <li>R238 <code>A035</code>-<code>F190</code></li>
 </ul>
-<p>All of which are reclassified as <strong>Class C</strong> when active, and TN APP has Control Authority of.</p>
+<p>All of which are reclassified as <strong>Class C</strong> when active.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/tn_restricted_areas.png" data-desc-position="bottom"><img alt="TN TCU Restricted Areas" src="../img/tn_restricted_areas.png" width="700"></a>
+  </p>
+<figcaption>TN TCU Restricted Areas</figcaption>
+</figure>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>TN APP may increase the upper limit of the Restricted Areas and their airspace. This must be either published by <abbr title="Notice to Airmen">NOTAM</abbr>, or negotiated with <abbr title="Brisbane (Territory) Centre">TRT</abbr>(<abbr title="Brisbane (Territory South) Centre">TRS</abbr>) if online.</p>
@@ -8885,14 +8922,14 @@ NADZAB = TN150030  </p>
 <p class="admonition-title">Example</p>
 </div>
 <p><strong>CLAS45</strong>: "Tindal Approach, CLAS45, RTBing via BOM, runway 32"
-<strong>TN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong>: "CLAS45, Tindal Approach, cleared stereo approach runway 32, via BOM, descend not below <code>A050</code>"<br>
+<strong><abbr title="Tindal Approach">TNA</abbr></strong>: "CLAS45, Tindal Approach, cleared stereo approach runway 32, via BOM, descend not below <code>A050</code>"<br>
 <strong>CLAS45</strong>: "Cleared stereo approach runway 32, descend not below <code>A050</code>, CLAS45"</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Stereo approach charts are available in the <a href="https://ais-af.airforce.gov.au/australian-aip" target="new"><abbr title="Royal Australian Air Force">RAAF</abbr> <abbr title="Terminal Area Radar and Military Airspace">TERMA</abbr></a>.</p>
 </div>
 <h2 id="coordination">Coordination</h2>
-<h3 id="trttrs"><abbr title="Brisbane (Territory) Centre">TRT</abbr>(<abbr title="Brisbane (Territory South) Centre">TRS</abbr>)</h3>
+<h3 id="enroute">Enroute</h3>
 <h4 id="airspace_1">Airspace</h4>
 <p>Any airspace releases from the default setup must be coordinated and agreed upon with <abbr title="Brisbane (Territory) Centre">TRT</abbr>(<abbr title="Brisbane (Territory South) Centre">TRS</abbr>). It is also good practice to remind them of any airspace releases that may be active due to NOTAMs.</p>
 <h4 id="departures">Departures</h4>
@@ -8908,8 +8945,8 @@ NADZAB = TN150030  </p>
 <p>All other aircraft going to <abbr title="Brisbane (Territory) Centre">TRT</abbr> <abbr title="Controlled Airspace">CTA</abbr> must be <strong>Heads-up</strong> Coordinated by TN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> prior to the boundary.</p>
 <div class="admonition phraseology">
 <p class="admonition-title">Phraseology</p>
-<p><span class="hotline"><strong>TN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong> -&gt; <strong><abbr title="Brisbane (Territory South) Centre">TRS</abbr></strong></span>: "DRGN48, request DCT BEBEX"<br>
-<span class="hotline"><strong><abbr title="Brisbane (Territory South) Centre">TRS</abbr></strong> -&gt; <strong>TN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong></span>: "DRGN48, concur DCT BEBEX"  </p>
+<p><span class="hotline"><strong><abbr title="Tindal Approach">TNA</abbr></strong> -&gt; <strong><abbr title="Brisbane (Territory South) Centre">TRS</abbr></strong></span>: "DRGN48, request DCT BEBEX"<br>
+<span class="hotline"><strong><abbr title="Brisbane (Territory South) Centre">TRS</abbr></strong> -&gt; <strong><abbr title="Tindal Approach">TNA</abbr></strong></span>: "DRGN48, concur DCT BEBEX"  </p>
 </div>
 <h4 id="arrivalsoverfliers">Arrivals/Overfliers</h4>
 <p>Voiceless for all aircraft:</p>
@@ -8955,7 +8992,7 @@ NADZAB = TN150030  </p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="September 17, 2025 07:41:32 UTC">September 17, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 6, 2025 03:51:37 UTC">November 6, 2025</span>
   </span>
 
     
