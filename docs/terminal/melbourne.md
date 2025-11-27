@@ -22,7 +22,7 @@
 	:octicons-checklist-24: [Additional requirements](#melbourne-radar-maw) must be met prior to opening MAW as a stand-alone position.
 
 ## Airspace
-The Vertical limits of the ML TCU are `SFC` to `F245`.
+The vertical limits of the ML TCU are `SFC` to `F245`.
 
 ### Reclassifications
 #### MB CTR

@@ -21,7 +21,7 @@ The OzStrips plugin has been expanded to include an [A-CDM mode](../client/tower
 Activating A-CDM mode can be done by toggling it active, from the **Settings** drop down list, within the OzStrips plugin. You can tell the mode has been activated successfully when you see the Departure Monitor appear in the **Runway Bay**.
 
 <figure markdown>
-![Departure Monitor](../controller-skills/img/ozstripsdepmonitor.png){ width="300" }
+![Departure Monitor](../client/img/ozstripsdepmonitor.png){ width="300" }
     <figcaption>The Departure Monitor</figcaption>
 </figure>
 
@@ -48,7 +48,7 @@ To effectively operate with A-CDM procedures:
     A TSAT and CTOT will be generated for them, which can be provided to the pilot. This will be presented within the strip `Time Field`, and will appear with a grey background.
 
     <figure markdown>
-    ![Queued Strip](../controller-skills/img/ozstripscdmqueue.png){ width="500" }
+    ![Queued Strip](../client/img/ozstripscdmqueue.png){ width="500" }
         <figcaption>A queued strip, with a TSAT of 03:52z.</figcaption>
     </figure>
 
@@ -66,7 +66,7 @@ To effectively operate with A-CDM procedures:
     After each aircraft becomes airborne, their departure is logged, and the Departure Monitor is incremented.
 
     <figure markdown>
-    ![Departure Monitor](../controller-skills/img/ozstripsdepmonitor.png){ width="300" }
+    ![Departure Monitor](../client/img/ozstripsdepmonitor.png){ width="300" }
         <figcaption>The Departure Monitor.</figcaption>
     </figure>
 
@@ -79,7 +79,7 @@ To effectively operate with A-CDM procedures:
 When CDM is enabled at an aerodrome, pilots and controllers can view the [Departure Queue online](https://vats.im/pac/cdm). This may be beneficial for Enroute and Approach controllers not using the OzStrips plugin, or with visibility centres not close to the aerodrome of interest.
 
 <figure markdown>
-![CDM Website](../controller-skills/img/ozstripscdmladder.png){ width="800" }
+![CDM Website](../client/img/ozstripscdmladder.png){ width="800" }
     <figcaption>The ladder visible on the CDM Website.</figcaption>
 </figure>
 
@@ -158,7 +158,7 @@ If a delay is required prior to transferring an aircraft to SMC, provide an esti
 To reduce SMC workload, ACD should not allow more than **three** aircraft to be awaiting pushback or taxi on the SMC frequency. When three aircraft are already queued on the SMC frequency, any additional aircraft should be told to remain on the ACD frequency and informed of their position in the queue or approximate delay (if known). These aircraft should be placed in the **Cleared Bay Queue**, above the **Standby for Ground** bar.
 
 <figure markdown>
-![ACD Ops with OzStrips](img/ozstripscoordinator.png){ width="800" }
+![ACD Ops with OzStrips](../client/img/ozstripscoordinator.png){ width="800" }
   <figcaption>Pushback Requests on ACD Ops with OzStrips<br><small>Three aircraft are waiting on the SMC frequency (below the Queue bar), and QFA121 and RXA6416 have both requested push/taxi but are being held on the ACD frequency. QFA121 is closer to the bottom, so will be next to be told to standby for SMC.</small></figcaption>
 </figure>
 

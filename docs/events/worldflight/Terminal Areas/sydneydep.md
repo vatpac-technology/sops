@@ -62,7 +62,7 @@ Aircraft shall be handed off to OCN assigned the **final instruction** in the ta
 ## Coordination
 ### SY ADC
 #### Auto Release
-Standard as per [YSSY Local Instructions](../../../../aerodromes/classc/Sydney/#auto-release), with the exception of auto-release being available for aircraft assigned the SY3 SID with the [Standard Assignable Heading](#sy3-assigned-heading)
+Standard as per [YSSY Local Instructions](../../../../aerodromes/classc/Sydney/#auto-release), with the exception of auto-release being available for aircraft assigned the SY3 SID with the [Standard Assignable Heading](#sy3-departures)
 
 #### Departures Controller
 Departures Controller will be as per the following table:
