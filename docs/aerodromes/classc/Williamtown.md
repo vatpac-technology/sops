@@ -43,18 +43,18 @@ The Standard Assignable level from WLM ADC to WLM TCU is:
 | ------- | ----- |
 | All | The lower of `F120` and `RFL` |
 
-### Arrivals/Overfliers
-Voiceless coordination is in place from WLM TCU to WLM ADC for arrivals cleared for an approach on to a runway nominated on the ATIS. All other aircraft and all overfliers must be heads-up coordinated as soon as practical.
-
-!!! phraseology
-    <span class="hotline">**WLM TCU** -> **WLM ADC**</span>: "via WLM, ZULU, Close formation of 5, do you have any restrictions or requirements?”  
-    <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "ZULU, no restrictions or requirements, `A040`"  
-
-### Departures Controller
+#### Departures Controller
 Where a single TCU controller is operating the WLM TMA, the departures controller shall be **WLM_APP** (frequency 133.300).
 
 Where the non-standard **WLM-L_APP** sector is online, they shall be the departures controller (frequency 135.700).
 
+
+### Arrivals/Overfliers
+Voiceless coordination is in place from WLM TCU to WLM ADC for arrivals cleared for an approach on to a runway nominated on the ATIS. All other aircraft and all overfliers must be heads-up coordinated as soon as practical.
+
+!!! phraseology
+    <span class="hotline">**WAL** -> **WLM ADC**</span>: "via WLM, ZULU, Close formation of 5, do you have any restrictions or requirements?”  
+    <span class="hotline">**WLM ADC** -> **WAL**</span>: "ZULU, no restrictions or requirements, `A040`"  
 ## Charts
 !!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
