@@ -88,7 +88,7 @@
 *[MDN]: Melbourne Departures North
 *[MDS]: Melbourne Departures South
 *[MAV]: Melbourne (Avalon) Approach
-*{OKA]: Oakey Approach
+*[OKA]: Oakey Approach
 *[PHA]: Perth Approach
 *[PHD]: Perth Departures
 *[SAN]: Sydney Approach North
