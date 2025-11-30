@@ -209,7 +209,7 @@ Voiceless for all aircraft:
 - Assigned the lower of `F180` or the `RFL`
 	
 !!! note
-    <sup>‡</sup> In contrast to many other TCUs, aircraft are *required* to be tracking via the **SID procedure**. Simply tracking via any of the terminus waypoints (including aircraft given track shortening) **is not** sufficient to meet the criteria for voiceless coordination.
+    <sup>‡</sup> In contrast to many other TCUs, aircraft are *required* to be tracking via the **SID procedure**. Aircraft simply tracking via any of the terminus waypoints (including aircraft given track shortening) **is not** sufficient to meet the criteria for voiceless coordination.
 
 All other aircraft going to HYD(PIY) CTA must be **Heads-up** Coordinated by PH TCU prior to the boundary.
 
