@@ -329,6 +329,17 @@ Refer to [Perth TCU Airspace Division](../../../terminal/perth/#airspace-divisio
 
 !!! note
     A significant portion of the TMA airspace south of the PH VOR (roughly 20 DME onwards) is classified Class E with a lower limit of `F125`. Aircraft arriving from this direction from `F130` and above shall be instructed to leave and re-enter controlled airspace on descent to the standard assignable level (or other appropriate altitude).
+	
+#### Departures
+Voiceless for all aircraft:
+ 
+- Tracking via a Procedural SID procedure<sup>‡</sup>; and  
+- Assigned the lower of `F180` or the `RFL`
+	
+!!! note
+    <sup>‡</sup> In contrast to many other TCUs, aircraft are *required* to be tracking via the **SID procedure**. Simply tracking via any of the terminus waypoints (including aircraft given track shortening) **is not** sufficient to meet the criteria for voiceless coordination.
+
+All other aircraft going to PIY CTA will be **Heads-up** Coordinated by PH TCU.
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:
@@ -338,34 +349,6 @@ Voiceless for all aircraft:
 - Assigned `A090`
 
 All other aircraft coming from PIY CTA must be **Heads-up** Coordinated to PH TCU prior to **20nm** from the boundary.
-
-#### Departures
-Voiceless for all aircraft:
- 
-- Tracking via a Procedural SID terminus; and  
-- Assigned the lower of `F180` or the `RFL`
-
-All other aircraft going to PIY CTA will be **Heads-up** Coordinated by PH TCU.
-
-### Enroute
-As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
-
-### HYD Internal
-Changes to CFL are permitted up to the boundary from GVE, CRS and HYD to PIY.
-
-All else is Voiceless, no changes to route or CFL within **20nm** (reduced from 50nm) to boundary.
-
-That being said, it is *advised* that HYD(All) gives **Heads-up Coordination** prior to **20nm** in the following scenarios:  
-- JAR to PIY for all aircraft  
-- LEA to PIY for all aircraft  
-
-### IND (Oceanic)
-As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
-
-Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
-
-!!! phraseology
-    **LEA**: "QFA121, identification terminated, report position to Brisbane Radio, 129.25"
 
 ### PE TCU
 #### Airspace
@@ -387,3 +370,23 @@ All aircraft transiting from HYD to **PE TCU** must be [Heads-up](../../../contr
 !!! phraseology
     <span class="hotline">**LEA** -> **PEA**</span>: "via AVNEX, EGLE9, will be assigned A090"  
     <span class="hotline">**PEA** -> **LEA**</span>: "EGLE9, A090"
+	
+### Enroute
+As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
+
+### HYD Internal
+Changes to CFL are permitted up to the boundary from GVE, CRS and HYD to PIY.
+
+All else is Voiceless, no changes to route or CFL within **20nm** (reduced from 50nm) to boundary.
+
+That being said, it is *advised* that HYD(All) gives **Heads-up Coordination** prior to **20nm** in the following scenarios:  
+- JAR to PIY for all aircraft  
+- LEA to PIY for all aircraft  
+
+### IND (Oceanic)
+As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+
+Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
+
+!!! phraseology
+    **LEA**: "QFA121, identification terminated, report position to Brisbane Radio, 129.25"

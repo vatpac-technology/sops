@@ -205,11 +205,11 @@ The following calculator will generate a landing time from a feeder fix ETA, or 
 #### Departures
 Voiceless for all aircraft:
  
-- Tracking via a Procedural SID terminus; and  
+- Tracking via a Procedural SID procedure<sup>‡</sup>; and  
 - Assigned the lower of `F180` or the `RFL`
-
+	
 !!! note
-    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+    <sup>‡</sup> In contrast to many other TCUs, aircraft are *required* to be tracking via the **SID procedure**. Simply tracking via any of the terminus waypoints (including aircraft given track shortening) **is not** sufficient to meet the criteria for voiceless coordination.
 
 All other aircraft going to HYD(PIY) CTA must be **Heads-up** Coordinated by PH TCU prior to the boundary.
 
