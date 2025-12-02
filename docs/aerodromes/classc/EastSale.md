@@ -16,7 +16,7 @@
 ## Airspace
 ES ADC owns no airspace. Release may be available from ES APP for circuits.
 
-## Maneuvering Area
+## Manoeuvring Area
 ### Standard Taxi Routes
 | Runway     | Outbound Route                   | Inbound Route                   |
 | ---------- | -------------------------------- | --------------------------------|

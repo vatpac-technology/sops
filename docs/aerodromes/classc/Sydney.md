@@ -28,11 +28,11 @@ SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005` as 
   <figcaption>SY ADC Airspace</figcaption>
 </figure>
 
-## Maneuvering Area
-### Maneuvering Area Responsibility
+## Manoeuvring Area
+### Manoeuvring Area Responsibility
 <figure markdown>
-![YSSY Maneuvering Area](img/yssymaown.png){ width="350" }
-  <figcaption>Maneuvering Area</figcaption>
+![YSSY Manoeuvring Area](img/yssymaown.png){ width="350" }
+  <figcaption>Manoeuvring Area</figcaption>
 </figure>
 
 #### Heliport Responsibility

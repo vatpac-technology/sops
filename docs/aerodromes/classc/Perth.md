@@ -20,13 +20,13 @@
 ## Airspace
 PH ADC is not responsible for any airspace by default.
 
-## Maneuvering Area
+## Manoeuvring Area
 ### Manuevering Area Responsibility
 The area of responsibility between SMC West and East is divided by Runway 03/21.  
 
 <figure markdown>
-![YPPH Maneuvering Area](img/ypphsmc.png){ width="500" }
-  <figcaption>Maneuvering Area</figcaption>
+![YPPH Manoeuvring Area](img/ypphsmc.png){ width="500" }
+  <figcaption>Manoeuvring Area</figcaption>
 </figure>
 
 ## Separation
