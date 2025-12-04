@@ -268,7 +268,31 @@ The following Standard Assignable Headings may be used for aircraft assigned the
 Any runway change must be prior coordinated to **MAE** and **EN ADC**.
 
 ### Departures Controller
-Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
+When both **MDS** and **MDN** are online, the ML TCU is [divided according to the runway mode in use](../../terminal/melbourne#airspace-division). Aircraft should be instructed to contact the appropriate departures controller based on their runway of departure and direction of travel.
+
+=== "09"
+    | Runway | Via  | Departure Controller |
+    | ------ | ---- | -------------------- |
+    | 09 | Tracking NW, N, or NE | MDN |
+    | 09 | Tracking SW, S, or SE | MDS |
+
+=== "16"
+    | Runway | Via  | Departure Controller |
+    | ------ | ---- | -------------------- |
+    | 16 | MNG<br>NONIX<br>DOSEL<br>KEPPA<br>PEDNI<br>Tracking NW, N, or NE | MDN |
+    | 16 | CORRS<br>CRENA<br>ESDIG<br>ISPEG<br>SUNTI<br>Tracking SW, S, or SE | MDS |
+
+=== "27"
+    | Runway | Via  | Departure Controller |
+    | ------ | ---- | -------------------- |
+    | 27 | MNG<br>NONIX<br>DOSEL<br>KEPPA<br>PEDNI<br>Tracking NW, N, or NE | MDN |
+    | 27 | CORRS<br>CRENA<br>ESDIG<br>SUNTI<br>Tracking SW, S, or SE | MDS |
+
+=== "34"
+    | Runway | Via  | Departure Controller |
+    | ------ | ---- | -------------------- |
+    | 34 | CORRS<br>MNG<br>NONIX<br>DOSEL<br>KEPPA<br>PEDNI<br>SUNTI<br>Tracking NW, N, or NE | MDN |
+    | 34 | CRENA<br>ESDIG<br>Tracking SW, S, or SE | MDS |
 
 ### EN ADC
 EN ADC is responsible for separation with all YMML traffic, and will coordinate any aircraft operating in EN ADC airspace that cannot be visually or laterally separated with YMML traffic.

@@ -92,6 +92,24 @@ Helicopters arriving to the pads will generally be coordinated by the TMA contro
     *Remember to pass traffic information to both aircraft.*  
     **CB ADC**: "QFA714, traffic is a helicopter 1nm south of the field tracking for Canberra Hospital, opposite direction to you and maintaining own separation, runway 17, cleared for takeoff"
 
+### Eastern Grass
+Helicopters may perform airwork within the '**Eastern Grass**', an area to the north east of the runway intersection.
+
+<figure markdown>
+![Eastern Grass](img/cb_eastern_grass.png){ width="700" }
+<figcaption>Eastern Grass</figcaption>
+</figure>
+
+Helicopters requesting clearance to operate in the Eastern Grass shall be cleared to air transit to, and then operate within, the area by ADC.
+
+!!! phraseology
+    **ZXY**: "Canberra Tower, helicopter ZXY, HEL parking, for the Eastern Grass."   
+    **CB ADC**: "ZXY, Canberra Tower, air transit Eastern Grass, cross runway 30. Report established."
+    **ZXY**: "Air transit Eastern Grass, cross runway 30, ZXY" 
+    
+    **ZXY**: "Canberra Tower, ZXY, established Eastern Grass."   
+    **CB ADC**: "ZXY, cleared to operate Eastern Grass, not above 100ft."
+
 ## Runway Modes
 ### Preferred Runway Modes
 Winds must always be considered for runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
@@ -145,5 +163,14 @@ The Standard Assignable level from CB ADC to CB TCU is:
 | IFR | `A100` |
 | VFR | The lower of `A040` and `RFL` |
 
-### Runway Change
-Any Runway change must be prior coordinated to **CB TCU**.
+### Departures Controller
+When **CBW** is online, the CB TCU is [split down the runway 17/35 centreline](../../terminal/Canberra#airspace-division). Aircraft should be instructed to contact the appropriate departures controller based on their runway of departure and direction of travel.
+
+| Runway | Via  | Departure Controller |
+| ------ | ---- | -------------------- |
+| 12 | All | AAE |
+| 17 | DUBUS<br>HOWLY<br>NONUP<br>TANTA<br>WG VOR<br>West | AAW |
+| 17 | AKMIR<br>AVBEG<br>CULIN<br>East | AAE |
+| 30 | All | CBW |
+| 35 | AVBEG<br>DUBUS<br>HOWLY<br>NONUP<br>TANTA<br>WG VOR<br>West | AAW |
+| 35 | AKMIR<br>CULIN<br>East | AAE |
