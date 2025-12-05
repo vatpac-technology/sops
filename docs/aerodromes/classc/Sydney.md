@@ -497,7 +497,35 @@ The Standard Assignable level from SY ADC to SY TCU is:
 | Non-Jets | The lower of `A030` and `RFL` |
 
 ### Departures Controller
-Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SDN** and/or **SDS** are online.
+When both **SDS** and **SDN** are online, the SY TCU is [divided according to the runway mode in use](../../terminal/sydney#airspace-division). Aircraft should be instructed to contact the appropriate departures controller based on their runway of departure, SID, and direction of travel.
+
+=== "07"
+    | Runway |  | Departure Controller |
+    | ------ | ---- | -------------------- |
+    | 07 | FISHA SID, OLSEM Transition<br>Tracking N, or NE | SDN |
+    | 07 | FISHA SID, WOL Transition<br>Tracking S, W, or SW | SDS |
+
+=== "16s"
+    | Runway | Via  | Departure Controller |
+    | ------ | ---- | -------------------- |
+    | 16L | ABBEY SID, WOL Transition<br>Tracking S or SW | SDS |
+	| 16L | KEVIN SID<br>Tracking SE, E, NE, or N | SDN |
+    | 16R | All | SDS |
+
+=== "25"
+    | Runway | Via  | Departure Controller |
+    | ------ | ---- | -------------------- |
+    | 25 | Tracking N, or NE | SDN |
+    | 25 | Tracking S, W, or SW  | SDS |
+
+=== "34s"
+    | Runway | Via  | Departure Controller |
+    | ------ | ---- | -------------------- |
+    | 34L | RIC SID<br>Tracking N, or NE | SDN |
+    | 34L | KADOM SID<br>WOL SID<br>Tracking S, W, or SW | SDS |
+    | 34R | OLSEM SID<br>Tracking N, or NE | SDN |
+    | 34R | MARUB SID, WOL Trans<br>Tracking S, W, or SW | SDS |
+
 
 ### Standard Assignable Departure Headings
 Aircraft that have been cleared the **SY (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required to the SY TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
