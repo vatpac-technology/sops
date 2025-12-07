@@ -64,6 +64,17 @@ Refer to the [Sequencing into YBBN](#sequencing-in-to-ybbn) notes below regardin
 #### YBCG Arrivals
 INL is responsible for initial sequencing, issuing STAR Clearances, and issuing initial descent to not below `F190`.
 
+##### STARs
+When the Evans Head Military Restricted Areas (R638) are activated, aircraft must be assigned **BERNI** SID with either the **OVREX** (if tracking via Y54) or **VESOK** (if tracking via Y43) transition. These transitions will ensure the aircraft remains clear of the restricted area.
+
+<figure markdown>
+![BERNI STAR with and without a transition](../assets/cg_berni.png){ width="900" }
+  <figcaption>BERNI STAR with no transition *left* and VESOK transition</figcaption>
+</figure>
+
+By default, vatSys will select the BERNI STAR with no transition. This can be manually overridden in the aircraft's flight plan.
+
+
 ### Downs (DOS)
 #### YBBN Arrivals
 DOS is responsible for sequencing, issuing STAR Clearances, and issuing descent.
