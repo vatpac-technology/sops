@@ -7,8 +7,9 @@
 | Name                          | ID      | Callsign                | Frequency   | Login ID      |
 | ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
 | **Perth Approach**            | **PHA** | **Perth Approach**      | **123.600** | **PH_APP**    | 
-| <span class="indented">Perth Departures :material-information-outline:{ title="Non-standard position"}  | PHD | Perth Departures | 118.700 | PH_DEP |
-| <span class="indented">Perth Flow :material-information-outline:{ title="Non-standard position"}        | PFL |                  |         | PH_FMP |
+| <span class="indented">Perth Departures :material-information-outline:{ title="Non-standard position"}  | PHD | Perth Departures | 118.700 | PH_DEP   |
+| <span class="indented">Perth Radar :material-information-outline:{ title="Non-standard position"}       | PHR | Perth Centre     | 135.250 | PH-R_DEP |
+| <span class="indented">Perth Flow :material-information-outline:{ title="Non-standard position"}        | PFL |                  |         | PH_FMP   |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
