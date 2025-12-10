@@ -105,9 +105,9 @@ Helicopters requesting clearance to operate in the Eastern Grass shall be cleare
 !!! phraseology
     **ZXY**: "Canberra Tower, helicopter ZXY, HEL parking, for the Eastern Grass."   
     **CB ADC**: "ZXY, Canberra Tower, air transit Eastern Grass, cross runway 30. Report established."
-    **ZXY**: "Air transit Eastern Grass, cross runway 30, ZXY" 
-    
-    **ZXY**: "Canberra Tower, ZXY, established Eastern Grass."   
+	**ZXY**: "Air transit Eastern Grass, cross runway 30, ZXY" 
+	
+	**ZXY**: "Canberra Tower, ZXY, established Eastern Grass."   
     **CB ADC**: "ZXY, cleared to operate Eastern Grass, not above 100ft."
 
 ## Runway Modes

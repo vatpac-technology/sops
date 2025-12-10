@@ -15,7 +15,7 @@
 ## Airspace
 ML ADC is not responsible for any airspace by default.
 
-## Maneuvering Area
+## Manoeuvring Area
 ### Standard Taxi Routes
 
 Except when the traffic situation warrants, taxi clearances shall conform to the following diagram:
