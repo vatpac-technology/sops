@@ -26,7 +26,7 @@ b) ADC may deny requests for circuits if IFR traffic may be unduly delayed
   <figcaption>DN ADC Airspace</figcaption>
 </figure>
 
-## Maneuvering Area 
+## Manoeuvring Area 
 ### Standard Taxi Routes
 Aircraft transiting to or from the Southern and Northern GA should follow the following standardised taxi routes:  
 a) Outbound via V1  
@@ -38,7 +38,7 @@ Taxiway V has a passing bay, located adjacent to the ARFF section. The passing b
 
 ## Helicopter Operations
 ### Hospital Helipads
-The Darwin CTR contains the helipad at the Royal Darwin Hospital (YXDH). This pad sit outside the maneuvering area, so no takeoff or landing clearances should be issued. Instead, helicopters should be instructed to report airborne or report on the ground.
+The Darwin CTR contains the helipad at the Royal Darwin Hospital (YXDH). This pad sit outside the manoeuvring area, so no takeoff or landing clearances should be issued. Instead, helicopters should be instructed to report airborne or report on the ground.
 
 ## VFR Operations
 VFR aircraft are required to track via one of the published VFR Routes (as shown on the Darwin VTC). VFR routes shall be assigned based on the destination radial from Darwin, as per below:  
