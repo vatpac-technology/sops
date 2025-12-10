@@ -23,7 +23,7 @@ CS ADC is responsible for the Class C airspace within the CS CTR `SFC` to `A010`
   <figcaption>CS ADC Airspace</figcaption>
 </figure>
 
-## Maneuvering Area
+## Manoeuvring Area
 ### Taxiway Restrictions
 Taxiways A2 and A between A2 and A3 are not available to aircraft above 7,000 kilograms. Taxiway A4 is not available to aircraft above 90,000 kilograms. Taxiway Y is not available to aircraft above 10,000 kilograms.
 
