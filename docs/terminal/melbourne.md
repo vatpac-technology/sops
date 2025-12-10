@@ -9,17 +9,15 @@
 | Name                          | ID      | Callsign                | Frequency   | Login ID      |
 | ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
 | **Melbourne Approach East**   | **MAE** | **Melbourne Approach**  | **132.000** | **ML_APP**    |
-| <span class="indented">Melbourne Departures North :material-information-outline:{ title="Non-standard position"}  | MDN | Melbourne Departures | 118.900  | ML_DEP   |
-| <span class="indented">Melbourne Departures South :material-information-outline:{ title="Non-standard position"}  | MDS | Melbourne Departures | 129.400  | ML-S_DEP |
-| <span class="indented">Melbourne (Avalon) Approach :material-information-outline:{ title="Non-standard position"} | MAV | Avalon Approach      | 133.550  | AV_APP   |
-| <span class="indented">Melbourne Radar :material-information-outline:{ title="Non-standard position"} :octicons-checklist-24:{ title="Non-standard position"} | MAW | Melbourne Centre | 135.700 | ML-C_DEP  |
-| <span class="indented">Melbourne Flow :material-information-outline:{ title="Non-standard position"}              | MFL |                      |          | ML_FMP   |
+| <span class="indented">Melbourne Departures North :material-information-outline:{ title="Non-standard position"}  | MDN | Melbourne Departures | 118.900 | ML_DEP   |
+| <span class="indented">Melbourne Departures South :material-information-outline:{ title="Non-standard position"}  | MDS | Melbourne Departures | 129.400 | ML-S_DEP |
+| <span class="indented">Melbourne (Avalon) Approach :material-information-outline:{ title="Non-standard position"} | MAV | Avalon Approach      | 133.550 | AV_APP   |
+| <span class="indented">Melbourne Radar :material-information-outline:{ title="Non-standard position"}             | MAW | Melbourne Centre     | 135.700 | ML-R_DEP  |
+| <span class="indented">Melbourne Flow :material-information-outline:{ title="Non-standard position"}              | MFL |                      |         | ML_FMP   |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
-	
-	:octicons-checklist-24: [Additional requirements](#melbourne-radar-maw) must be met prior to opening MAW as a stand-alone position.
 
 ## Airspace
 The vertical limits of the ML TCU are `SFC` to `F245`.
