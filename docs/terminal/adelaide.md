@@ -38,6 +38,9 @@ ED CTR reverts to Class G when **ED ADC** is offline, and is administered by the
   <figcaption>AD TCU Structure</figcaption>
 </figure>
 
+#### Adelaide Radar (AAR)
+AAR is responsible for the provision of FIS in Class G airspace within the AD TMA. It is a role normally performed by the controller responsible for **AAE**. The position is designed to reduce the workload of other TMA positions by identifing and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller.
+
 ## Local Procedures 
 ### Scenic Coastal Flights
 VFR aircraft may transit the control zone tracking coastal north or southbound, generally at `A005`. **AD TCU** is responsible for ensuring these aircraft remain separated from aircraft arriving/departing at YPAD and may delegate this responsibility to **AD ADC**.  
