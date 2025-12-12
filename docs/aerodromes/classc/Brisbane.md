@@ -240,13 +240,34 @@ The Standard Assignable level from BN ADC to BN TCU is:
 | Non-Jets | The lower of `A040` and `RFL` |
 
 ### Departures Controller
-Refer to [Brisbane TCU Airspace Division](../../../terminal/brisbane/#airspace-division) for information on airspace divisions when **BDN** and/or **BDS** are online.
+When both **BDN** and **BDS** are online, the BN TCU is [split down the runway 01R/19L centreline](../../terminal/brisbane#airspace-division). Aircraft should be instructed to contact the appropriate departures controller based on their runway of departure and direction of travel.
+
+=== "01 PROPS"
+    
+    | Runway | Via  | Departure Controller |
+    | ------ | ---- | -------------------- |
+    | 01L | All | BDN |
+    | 01R | All | BDS |
+
+=== "19 PROPS"
+
+    | Runway | Via  | Departure Controller |
+    | ------ | ---- | -------------------- |
+    | 19L | BIXAD<br>WACKO | BDN |
+    | 19L | All others | BDS|
+    | 19R | All | BDN |
+    
+=== "SODPROPS"
+
+    | Runway | Via  | Departure Controller |
+    | ------ | ---- | -------------------- |
+    | 01R | All | BDS |
 
 ### Standard Assignable Departure Headings
 Aircraft that have been cleared the **BN (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required (excluding during SODPROPS) to the BN TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
 
-| Runway | Assigned Heading 
-| ----------------- | -------------- |
+| Runway | Assigned Heading |
+| ------ | -------------- |
 | 01L | H340 |
 | 01R | H120 |
 | 19L | H110 |

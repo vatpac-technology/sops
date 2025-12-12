@@ -126,28 +126,21 @@ The Operational Information field should be updated based on the runway mode in 
 
 All other aircraft require a Next call to AD TCU.
 
-The Standard Assignable level from AD ADC to AD TCU is:  
+The Standard Assignable level from AD ADC to AD TCU is:
 
 | Aircraft | Level |
-| -------- | ----- |
+| ------------ | ----- |
 | Jets | `A050` |
 | Non-Jets | The lower of `A040` and `RFL` |
 
 ### Departures Controller
-When **AAW** is online, the AD TCU airspace is split down the 05/23 Runway Centreline. As such, departing aircraft shall be instructed to contact the departures controller corresponding to the direction of turn of the aircraft after departure
+When **AAW** is online, the AD TCU is [split down the runway 05/23 centreline](../../terminal/adelaide#airspace-division). Aircraft should be instructed to contact the appropriate departures controller based on their runway of departure and direction of travel.
 
-| Tracking via            | Departure Runway      | Departures Controller        |
-| ------------------ | -------------- | ---------------- |
-| VILAD   | 05/23/12   | AAE         |
-| UPROT    | 05/23/12   | AAE         |
-| AVDEN    | 05/23/12   | AAE         |
-| BENDO     | 05/23/12 | AAE          | 
-| ALBUT    | 05/23/12  | AAE          | 
-| EEMUE    | 05/23/30  | AAW          | 
-| GILES   | 05/23/30  | AAW          | 
-| YORKE    | 05/23/30  | AAW          | 
-| AREPA    | 05/23/30  | AAW          | 
-| HOLIT    | 05/23/30  | AAW          | 
-| ORBUN    | 05/23/30  | AAW          | 
-| All   | 12  | AAE          | 
-| All   | 30  | AAW          | 
+| Runway | Via  | Departure Controller |
+| ------ | ---- | -------------------- |
+| 05 | AREPA<br>GILES<br>ORBUN<br>West | AAW |
+| 05 | AVDEN<br>BENDO<br>UPROT<br>East | AAE |
+| 12 | All | AAE |
+| 23 | AREPA<br>GILES<br>ORBUN<br>West | AAW |
+| 23 | AVDEN<br>BENDO<br>UPROT<br>East | AAE |
+| 30 | All | AAW |

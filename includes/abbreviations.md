@@ -63,12 +63,14 @@
 *[SDC]: Standard Departure Clearance
 *[AAW]: Adelaide Approach West
 *[AAE]: Adelaide Approach East
+*[AAR]: Adelaide Radar
 *[AMA]: Amberley Approach
 *[BAC]: Brisbane (Gold Coast) Approach
 *[BAN]: Brisbane Approach North
 *[BAS]: Brisbane Approach South
 *[BDN]: Brisbane Departures North
 *[BDS]: Brisbane Departures South
+*[SHN]: Brisbane (Sunshine) Radar
 *[CS1]: Cairns Approach 1
 *[CS2]: Cairns Approach 2
 *[CSA]: Cairns Approach
@@ -88,9 +90,11 @@
 *[MDN]: Melbourne Departures North
 *[MDS]: Melbourne Departures South
 *[MAV]: Melbourne (Avalon) Approach
+*[MAW]: Melbourne Radar
 *[OKA]: Oakey Approach
 *[PHA]: Perth Approach
 *[PHD]: Perth Departures
+*[PHR]: Perth Radar
 *[SAN]: Sydney Approach North
 *[SAS]: Sydney Approach South
 *[SDN]: Sydney Departures North

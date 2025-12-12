@@ -14,14 +14,12 @@
 | <span class="indented">Sydney Departures North :material-information-outline:{ title="Non-standard position"}   | SDN | Sydney Departures | 123.000 | SY-N_DEP |
 | <span class="indented">Sydney Director West :material-information-outline:{ title="Non-standard position"}      | SFW | Sydney Director   | 126.100 | SY-D_APP |
 | <span class="indented">Sydney Director East :material-information-outline:{ title="Non-standard position"}      | SFE | Sydney Director   | 125.300 | SY-DE_APP|
-| <span class="indented">Sydney Radar :material-information-outline:{ title="Non-standard position"} :octicons-checklist-24:{ title="Non-standard position"} | SRI | Sydney Centre  | 124.550 | SY-C_DEP |
-| <span class="indented">Sydney Flow :material-information-outline:{ title="Non-standard position"}               | SFL |                   |          | SY_FMP  |
+| <span class="indented">Sydney Radar :material-information-outline:{ title="Non-standard position"}              | SRI | Sydney Centre     | 124.550 | SY-R_DEP |
+| <span class="indented">Sydney Flow :material-information-outline:{ title="Non-standard position"}               | SFL |                   |         | SY_FMP   |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
-
-    :octicons-checklist-24: [Additional requirements](#airspace-structural-arrangements) must be met prior to opening SRI as a stand-alone position.
 
 ## Airspace
 The Vertical limits of the SY TCU are `SFC` to `F285`.  
@@ -95,9 +93,7 @@ a) **"South"**/**"West"** positions shall assume the airspace of corresponding *
 
 b) Approach assumes Director/Departure airspace "on-side" when the latter positions are inactive (e.g. with **SAS** and **SAN** online only, **SAS** assumes **SDS** and **SFW**)  
 
-c) Departures assumes **SRI** airspace when the position is inactive  
-
-d) **SRI** is **not permitted** to be logged on to, unless there are already at least **2 other active positions** (ie, SY APP and SY DEP, or SY APP and SY DIR) in the SY TCU.
+c) Departures assumes **SRI** airspace when the position is inactive.
 
 !!! note
     The default ownership of sectors within the SY TCU is merely a suggestion for starters. There are 7 executive controller positions within the SY TCU, plus a flow controller, and the ownership of these sectors can be delegated as desired based on the traffic disposition, when agreed between the controllers. For example, during a Milk Run event, if SY APP and SY DEP are online, SY APP may have a lot more work to do than SY DEP, and it would mostly be concentrated on the RIVET/ODALE corridor. In light of this, it might be wise for SY APP to take ownership of SAS, SFW and SFE airspace, whilst SY DEP take ownership of SAN, SDS, SDN, and SRI airspace.
