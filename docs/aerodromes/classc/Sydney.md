@@ -476,17 +476,14 @@ When [Coordinator](#sydney-coordinator) is online and start approval is required
 
 - Departing from a runway nominated on the ATIS; and   
 - Assigned the Standard assignable level; and  
-- Assigned a **Procedural SID** (except **ABBEY** SID); or  
-- Assigned the **Radar** SID with a [Standard Assignable Heading](#standard-assignable-departure-headings)
+- Assigned a **Procedural SID** or the **Radar** SID with a [Standard Assignable Heading](#standard-assignable-departure-headings); or
+- A helicopter cleared via an outbound helicopter route.
 
 All other aircraft require a 'Next' call to SY TCU.
 
 'Next' coordination is additionally required for:  
-
-- Visual departures  
-- Departures to YSBK  
+ 
 - After a go around, the next departure from that runway  
-- Jets departing 16L via WOL  
 - All aircraft during the Curfew Runway Mode
 
 The Standard Assignable level from SY ADC to SY TCU is: 
