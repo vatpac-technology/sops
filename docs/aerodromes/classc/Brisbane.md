@@ -77,7 +77,7 @@ Brisbane has one helipad located on taxiway **F4**. Most rescue helicopters are 
 ADC shall inform SMC of any inbound helicopters so that they may prevent other aircraft from taxiing on the HLS.
 
 !!! tip
-    Refer to [Manoeuvring Area Responsibility](#Manoeuvring-area-responsibility) to determine which SMC or ADC position is responsible for managing helicopter arrivals and departures.
+    Refer to [Manoeuvring Area Responsibility](#manoeuvring-area-responsibility) to determine which SMC or ADC position is responsible for managing helicopter arrivals and departures.
 
 ### Waypoints
 In VMC, all helicopters shall be processed via two visual waypoints (outlined below) positioned north and south of the field. Where VMC does not exist, IFR helicopters will conform to fixed wing ops and be processed via the **BN (RADAR) SID** from an appropriate runway.
