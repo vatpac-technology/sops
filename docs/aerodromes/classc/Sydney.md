@@ -173,7 +173,9 @@ When using the SODPROPS mode, pass traffic information to aircraft that are depa
     **SY ADC:** "JST521, traffic is a 737 on a 3nm final for the opposite direction parallel runway, runway 16L, cleared for takeoff"  
     **JST521:** "Runway 16L, cleared for takeoff, JST521"  
     **SY ADC:** "VOZ954, traffic is an A320 departing from the opposite direction parallel runway to the southeast, runway 34L, cleared to land"  
-    **VOZ954:** "Runway 34L, cleared to land, VOZ954"  
+    **VOZ954:** "Runway 34L, cleared to land, VOZ954" 
+
+Ensure the [ATIS](#atis) is updated to reflect the SODPROPS runway mode. 
 
 ### Parallel Runway Operations
 Refer to [Parallel Runway Separation Standards](../../../separation-standards/parallelapps) for more information
@@ -338,7 +340,7 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 
 | Priority - Mode | Arrivals  | Departures |
 | ----------------| --------- | ---------- |
-| 1 - SODPROPS    | 34L       | 16L        |
+| 1 - SODPROPS    | 34L       | 16L (& 34L if operationally required) |
 | 2 - 34 PROPS    | 34L & 34R | 34L & 34R  |
 | 2 - 16 PROPS    | 16L & 16R | 16L & 16R  |
 | 3 - 16D/07A     | 07        | 16L & 16R  |
@@ -370,6 +372,12 @@ Unless operationally required, aircraft shall be assigned the following runways 
 | To the NORTH and EAST | 16L/34R |
 | To the SOUTH and WEST | 16R/34L |
 
+#### SODPROPS
+During SODPROPS, all departures shall be assigned RWY 16L, except:
+
+- aircraft who operationally require RWY 34L (generally heavy jets)
+- non-jet aircraft departing to the west or south
+
 ## SID Selection
 
 !!! tip
@@ -388,7 +396,7 @@ Unless operationally required, aircraft shall be assigned the following runways 
     | Type  | Via  | SID     |
     | ------| ---- | --------|
     | Jet  | OLSEM<br>NOBAR<br>DIPSO<br>EVONN<br>CAWLY<br>OPTIC | **KEVIN** SID, Relevant Transition |
-    | Jet  | WOL (during SODPROPS) | **ABBEY** SID |
+    | Jet  | WOL (during SODPROPS only) | **ABBEY** SID |
     | Jet  | All others | **KEVIN** SID, RADAR Transition |
     | Non-Jet | All | **RADAR** SID |
 
@@ -442,6 +450,11 @@ Climb gradient requirements apply to all Procedural SIDs. It is the pilot's resp
 
 !!! warning "Important"
     Independent Visual Approaches (IVAs) may only be run during Parallel Runway Operations (PROPS). During single runway operations, regular visual approaches (blank ATIS 'APCH' field) should be used instead.
+
+### Runway Mode
+During [SODPROPS](#sodprops), the RWY field shall include:  
+
+`34L FOR ARRS, RWY 16L FOR DEPS, RWY 34L AVBL FOR DEPARTURE IF OPERATIONALLY REQD`
 
 ### Operational Info
 The Operational Information field should be updated based on the runway mode and approach type in use, as per the table below:
