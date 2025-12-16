@@ -470,7 +470,7 @@ When [Coordinator](#sydney-coordinator) is online and start approval is required
 ## Coordination
 ### Auto Release
 !!! warning "Important"
-    YSSY utilises auto release for all **Procedural** SIDs (except **ABBEY** SID during SODPROPS), and the **SY (RADAR)** SID provided aircraft are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
+    YSSY utilises auto release for all **Procedural** SIDs, and the **SY (RADAR)** SID provided aircraft are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
 [Next](../../controller-skills/coordination.md#next) coordination is **not** required for aircraft that are:   
 
