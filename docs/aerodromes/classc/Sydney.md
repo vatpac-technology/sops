@@ -388,7 +388,7 @@ Unless operationally required, aircraft shall be assigned the following runways 
     | Type  | Via  | SID     |
     | ------| ---- | --------|
     | Jet  | OLSEM<br>NOBAR<br>DIPSO<br>EVONN<br>CAWLY<br>OPTIC | **KEVIN** SID, Relevant Transition |
-    | Jet  | WOL | **ABBEY** SID |
+    | Jet  | WOL (during SODPROPS) | **ABBEY** SID |
     | Jet  | All others | **KEVIN** SID, RADAR Transition |
     | Non-Jet | All | **RADAR** SID |
 
