@@ -62,7 +62,7 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
 	  <figcaption>07 TCU Structure</figcaption>
 	</figure>
 	
-	!!! important
+	!!! warning "Important"
 		Separation between aircraft on the TESAT-FISHA-T066 track is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
 
 === "16 PROPS"
@@ -71,7 +71,7 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
 	  <figcaption>16 PROPS TCU Structure</figcaption>
 	</figure>
 	
-	!!! important
+	!!! warning "Important"
 		Separation between aircraft tracking via the KEVIN SID to KEVIN is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
 
 === "25AD"
@@ -86,7 +86,7 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
 	  <figcaption>34 PROPS TCU Structure</figcaption>
 	</figure>
 	
-	!!! important
+	!!! warning "Important"
 		Separation between aircraft tracking via the RIC SID to RIC is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
 
 === "SODPROPS"
@@ -95,7 +95,7 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
 	  <figcaption>SODPROPS TCU Structure</figcaption>
 	</figure>
 	
-	!!! important
+	!!! warning "Important"
 		Separation between aircraft tracking via the RIC SID to RIC, and aircraft tracking via the KEVIN SID to KEVIN is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
 	
 #### Airspace Structural Arrangements
