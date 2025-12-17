@@ -14,7 +14,7 @@ The plugin is targeted towards Terminal and Enroute controllers.
 </figure>
 
 ## Installation
-The Traffic Info plugin is included in the Australia and Pacific datasets by default. No installation is required.
+The Traffic Info plugin can be installed through the [vatSys Plugin Manager](https://github.com/badvectors/PluginManager){target=new}.
 
 ## Usage
 Controllers should create a pairing between two aircraft requiring traffic information as early as possible. This can act as a visual cue to ensure that they don't forget to issue the traffic information to each pilot.
