@@ -168,9 +168,9 @@ When **CBW** is online, the CB TCU is [split down the runway 17/35 centreline](.
 
 | Runway | Via  | Departure Controller |
 | ------ | ---- | -------------------- |
-| 12 | All | AAE |
-| 17 | DUBUS<br>HOWLY<br>NONUP<br>TANTA<br>WG VOR<br>West | AAW |
-| 17 | AKMIR<br>AVBEG<br>CULIN<br>East | AAE |
+| 12 | All | CBE |
+| 17 | DUBUS<br>HOWLY<br>NONUP<br>TANTA<br>WG VOR<br>West | CBW |
+| 17 | AKMIR<br>AVBEG<br>CULIN<br>East | CBW |
 | 30 | All | CBW |
-| 35 | AVBEG<br>DUBUS<br>HOWLY<br>NONUP<br>TANTA<br>WG VOR<br>West | AAW |
-| 35 | AKMIR<br>CULIN<br>East | AAE |
+| 35 | AVBEG<br>DUBUS<br>HOWLY<br>NONUP<br>TANTA<br>WG VOR<br>West | CBW |
+| 35 | AKMIR<br>CULIN<br>East | CBE |
