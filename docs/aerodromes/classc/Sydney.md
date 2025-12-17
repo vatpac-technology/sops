@@ -452,10 +452,11 @@ Climb gradient requirements apply to all Procedural SIDs. It is the pilot's resp
     Independent Visual Approaches (IVAs) may only be run during Parallel Runway Operations (PROPS). During single runway operations, regular visual approaches (blank ATIS 'APCH' field) should be used instead.
 
 ### Runway Mode
-During [SODPROPS](#sodprops), the RWY field shall include:  
-
-`34L FOR ARRS, RWY 16L FOR DEPS, RWY 34L AVBL FOR DEPARTURE IF OPERATIONALLY REQD OR AS
-DIRECTED BY ATC`
+| Mode     | ATIS Runway information      |
+| -------- | ---------------------------- |
+| 16 PROPS | `16L AND R FOR ARRS AND DEPS` |
+| 34 PROPS | `34L AND R FOR ARRS AND DEPS` |
+| SODPROPS  | `34L FOR ARRS, RWY 16L FOR DEPS, RWY 34L AVBL FOR DEPARTURE IF OPERATIONALLY REQD OR AS DIRECTED BY ATC` |
 
 ### Operational Info
 The Operational Information field should be updated based on the runway mode and approach type in use, as per the table below:
