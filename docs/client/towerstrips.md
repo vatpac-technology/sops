@@ -140,6 +140,9 @@ The following keyboard shortcuts exist to improve workflow efficiency.
 | `Ctrl + ↑` / `Ctrl + ↓` | Move selected strip towards nearest bar |
 | `Ctrl + F` | Open Quick Search window |
 
+!!! tip
+    These keybinds can be adjusted through Settings.
+
 ## Workflow
 Due to it's shared state, OzStrips works best if all controllers follow a standardised workflow. Controllers are strongly encouraged to follow the workflow below.
 
@@ -178,6 +181,8 @@ Right mouse click on the yellow First Waypoint box to open the Reroute menu. Fro
 ![SID assigned to VFR Aircraft](./img/ozstripsvfrsid.png){ width="450" }
     <figcaption>A VFR aircraft assigned a SID, shown by the yellow background on the SID box</figcaption>
 </figure>
+
+Some situations may warrant acknowledging and removing an error/caution mentioned above (e.g. VFR aircraft conducting a SID for training, a filed route not matching an ERSA FPR entry but which is not otherwise invalid, etc.). In these cases, they can be removed by middle clicking on the relevant field.
 
 #### Autofill
 OzStrips includes an autofill system to automatically set the **departure runway, SID, CFL,** and **departure frequency**. Autofill is only available when a valid ATIS is published for the aerodrome and the necessary config file exists.
