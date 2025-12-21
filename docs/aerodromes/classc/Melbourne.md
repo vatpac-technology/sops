@@ -38,7 +38,7 @@ An additional taxiway parallel to runway 27 has been built, named taxiway D. Thi
 The majority of simulators do not have scenery which reflects this construction, however X-Plane (and possibly some other niche scenery packages) do.
 
 #### Taxiway Y Apron Taxi Lanes
-The apron off taxiway Y has been amended to include two separate taxi lanes, capable of facilitating simultaneous pushbacks from aircraft at Pier F and Pier G.
+The apron off taxiway Y has been amended to include two separate taxi lanes: APN8 and APN9, capable of facilitating simultaneous pushbacks from aircraft at Pier F and Pier G.
 
 The majority of simulators will still have the old apron layout with a single taxi lane between the two piers. Controllers should be wary of the potential for collision if simultanous pushback approval is given to aircraft in this area.
 
