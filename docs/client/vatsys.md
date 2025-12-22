@@ -177,12 +177,28 @@ When multiple TCU controllers are online, the ownership of these frequencies can
 !!! example
 	During a busy event at Sydney, four TMA controllers delegated sector responsibilities as follows:
 
-	• SY_APP is responsible for the SAS frequency
-	• SY-N_APP is responsible for (and has cross-coupled) the SAN and SDN frequencies.
-	• SY_DEP is responsible for (and has cross-coupled) the SDS and SRI frequencies.
-	• SY-D_APP is responsible for the SFW frequency.
+	- SY_APP is responsible for the SAS frequency
+	- SY-N_APP is responsible for (and has cross-coupled) the SAN and SDN frequencies.
+	- SY_DEP is responsible for (and has cross-coupled) the SDS and SRI frequencies.
+	- SY-D_APP is responsible for the SFW frequency.
 
 	All mandatory frequencies (SAS, SAN, SDS, SDN, and SRI) are open (plus the additional SFW frequency), and therefore this configuration is compliant.
 
 !!! note
-	Internal handoffs to a cross-coupled frequency (e.g. an instruction to "CONTACT ME XXX.XX") are not permitted in the TMA. In other words, aircraft should never be instructed to contact the same TMA controller on a new frequency, even if they enter an airspace sector covered by a different frequency.
+	Internal handoffs to a cross-coupled frequency (e.g. an instruction to "CONTACT ME XXX.XX") should not generally be conducted in the TMA. In other words, aircraft should not be instructed to contact the same controller on a new frequency, even if they enter an airspace sector covered by a different frequency.
+
+    However, where a controller is temporarily covering another controller's frequency or it is anticipated that another TMA controller will shortly open an adjacent sector, internal handoffs should be conducted to prepare for the splitting of those frequencies.
+
+#### Aerodrome to TCU Handoffs
+ACD must ensure that the most appropriate departure frequency is issued based on the TCU controllers currently online. Each relevant aerodrome page includes a Departure Frequency table to help controllers achieve this.
+
+!!! tip
+    OzStrips [Autofill](./towerstrips.md#autofill) function will automatically set the most appropriate departure frequency in each aircraft's strip, based on their departure runway, direction of travel, and available online controllers.
+
+#### Enroute to TCU Handoffs
+Enroute controllers should hand inbound aircraft tags to the TMA controller responsible for the TMA sector the aircraft will enter (even if this is not their primary sector) and transfer the aircraft to that *sector's* frequency, if it is primed.
+
+!!! example
+    ARL and SAS are online. ARL would hand tags of aircraft inbound to YSSY to SAS and transfer them to the SAN frequency (124.4), if it is primed.
+
+Enroute controllers can determine the correct TMA frequency using the Airspace Division maps in the SOPs or by referencing the runway mode map in vatSys.
