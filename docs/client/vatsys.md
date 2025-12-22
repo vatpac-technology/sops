@@ -169,7 +169,7 @@ TMA controllers are **always required** to cross-couple all non-standard TCU fre
 The mandatory cross-couple frequencies will appear by default in the VSCS when connecting to a TCU position.
 
 <figure markdown>
-![Traffic Info Delete](img/TMA_Frequency_Cross-Coupling.gif){ width="600" }
+![TMA Frequency Cross Coupling](img/TMA_Frequency_Cross-Coupling.gif){ width="600" }
 </figure>
 
 When multiple TCU controllers are online, the ownership of these frequencies can be delegated as desired based on the traffic disposition, when agreed between the controllers, provided that all standard frequencies are covered.
