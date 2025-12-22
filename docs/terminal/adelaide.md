@@ -10,7 +10,7 @@
 | ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
 | **Adelaide Approach East**    | **AAE** | **Adelaide Approach**   | **118.200** | **AD_APP**    |
 | <span class="indented">Adelaide Approach West :material-information-outline:{ title="Non-standard position"}  | AAW | Adelaide Approach  | 124.200 | AD-W_APP |
-| <span class="indented">Adelaide Radar :material-information-outline:{ title="Non-standard position"}          | AAR | Adelaide Approach  | 130.450 | AD-R_DEP |
+| <span class="indented">Adelaide Radar :material-information-outline:{ title="Non-standard position"}          | AAR | Adelaide Centre    | 130.450 | AD-R_DEP |
 | <span class="indented">Adelaide Flow :material-information-outline:{ title="Non-standard position"}           | AFL |                    |         | AD_FMP   |
 
 !!! abstract "Non-Standard Positions"
