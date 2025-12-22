@@ -170,7 +170,7 @@ When **CBW** is online, the CB TCU is [split down the runway 17/35 centreline](.
 | ------ | ---- | -------------------- |
 | 12 | All | CBE |
 | 17 | DUBUS<br>HOWLY<br>NONUP<br>TANTA<br>WG VOR<br>West | CBW |
-| 17 | AKMIR<br>AVBEG<br>CULIN<br>East | CBW |
+| 17 | AKMIR<br>AVBEG<br>CULIN<br>East | CBE |
 | 30 | All | CBW |
 | 35 | AVBEG<br>DUBUS<br>HOWLY<br>NONUP<br>TANTA<br>WG VOR<br>West | CBW |
 | 35 | AKMIR<br>CULIN<br>East | CBE |
