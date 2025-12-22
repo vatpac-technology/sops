@@ -412,7 +412,7 @@ Heads up coordination is required for **all aircraft** entering ML TCU Class C f
     <span class="hotline">**MAW** -> **MDN**</span>: “A080, OXP”
 
     **MAW:** "OXP cleared to YMTG via ML, flight planned route. Climb to A080"  
-    **OXP:** "Cleared to YMTG via ML, flight planned route. Climb A080, OXP"  
+    **OXP:** "Cleared to YMTG via ML, flight planned route. Climb to A080, OXP"  
     **MAW:** "OXP Contact Melbourne Departures 118.9"  
     **OXP:** "118.9, OXP" 
 
