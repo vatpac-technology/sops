@@ -8,7 +8,7 @@
 | Name              | Callsign         | Frequency   | Login ID      |
 | ----------------- | ---------------- | ----------- | ------------- |
 | **Avalon ADC**    | **Avalon Tower** | **120.100** | **AV_TWR**    |
-| **Avalon ATIS**   |                  | **129.300** | **YMAV_ATIS** |
+| **Avalon ATIS**   |                  | **118.200** | **YMAV_ATIS** |
 
 ## Airspace
 AV ADC is not responsible for any airspace by default.
