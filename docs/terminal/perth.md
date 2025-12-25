@@ -7,8 +7,9 @@
 | Name                          | ID      | Callsign                | Frequency   | Login ID      |
 | ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
 | **Perth Approach**            | **PHA** | **Perth Approach**      | **123.600** | **PH_APP**    | 
-| <span class="indented">Perth Departures :material-information-outline:{ title="Non-standard position"}  | PHD | Perth Departures | 118.700 | PH_DEP |
-| <span class="indented">Perth Flow :material-information-outline:{ title="Non-standard position"}        | PFL |                  |         | PH_FMP |
+| <span class="indented">Perth Departures :material-information-outline:{ title="Non-standard position"}  | PHD | Perth Departures | 118.700 | PH_DEP   |
+| <span class="indented">Perth Radar :material-information-outline:{ title="Non-standard position"}       | PHR | Perth Centre     | 135.250 | PH-R_DEP |
+| <span class="indented">Perth Flow :material-information-outline:{ title="Non-standard position"}        | PFL |                  |         | PH_FMP   |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
@@ -46,6 +47,9 @@ The divisions of the airspace between **PHA**, and **PHD** change based on the R
 	![21/24 TCU Structure](img/PH2124annotated.png){ width="700" }
 	  <figcaption>21/24 TCU Structure</figcaption>
 	</figure>
+	
+#### Perth Radar (PHR)
+PHR is responsible for the provision of FIS in Class G airspace within the PH TMA. The position is designed to reduce the workload of other TMA positions by identifing and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller.
 	
 #### Pearce Airspace
 When **PEA TCU** is online, they assume responsibility for the airspace in R155A and R155B from `SFC` to `F160`.

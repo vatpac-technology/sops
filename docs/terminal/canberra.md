@@ -29,6 +29,9 @@ The Vertical limits of the CB TCU are `SFC` to `F245`.
   <figcaption>CB TCU Structure</figcaption>
 </figure>
 
+!!! warning "Important"
+	Separation between aircraft tracking along the runway 17/35 extended centreline is a **joint responsibility** of CBE and CBW. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
+
 ## Flow
 ### Local Knowledge
 - By Day VMC, aircraft from the NE can be issued the BUNGO/LEECE Victor STAR to reduce track miles

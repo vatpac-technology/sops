@@ -163,5 +163,14 @@ The Standard Assignable level from CB ADC to CB TCU is:
 | IFR | `A100` |
 | VFR | The lower of `A040` and `RFL` |
 
-### Runway Change
-Any Runway change must be prior coordinated to **CB TCU**.
+### Departures Controller
+When **CBW** is online, the CB TCU is [split down the runway 17/35 centreline](../../terminal/Canberra#airspace-division). Aircraft should be instructed to contact the appropriate departures controller based on their runway of departure and direction of travel.
+
+| Runway | Via  | Departure Controller |
+| ------ | ---- | -------------------- |
+| 12 | All | CBE |
+| 17 | DUBUS<br>HOWLY<br>NONUP<br>TANTA<br>WG VOR<br>West | CBW |
+| 17 | AKMIR<br>AVBEG<br>CULIN<br>East | CBE |
+| 30 | All | CBW |
+| 35 | AVBEG<br>DUBUS<br>HOWLY<br>NONUP<br>TANTA<br>WG VOR<br>West | CBW |
+| 35 | AKMIR<br>CULIN<br>East | CBE |

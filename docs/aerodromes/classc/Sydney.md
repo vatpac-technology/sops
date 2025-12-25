@@ -173,7 +173,9 @@ When using the SODPROPS mode, pass traffic information to aircraft that are depa
     **SY ADC:** "JST521, traffic is a 737 on a 3nm final for the opposite direction parallel runway, runway 16L, cleared for takeoff"  
     **JST521:** "Runway 16L, cleared for takeoff, JST521"  
     **SY ADC:** "VOZ954, traffic is an A320 departing from the opposite direction parallel runway to the southeast, runway 34L, cleared to land"  
-    **VOZ954:** "Runway 34L, cleared to land, VOZ954"  
+    **VOZ954:** "Runway 34L, cleared to land, VOZ954" 
+
+Ensure the [ATIS](#atis) is updated to reflect the SODPROPS runway mode. 
 
 ### Parallel Runway Operations
 Refer to [Parallel Runway Separation Standards](../../../separation-standards/parallelapps) for more information
@@ -338,7 +340,7 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 
 | Priority - Mode | Arrivals  | Departures |
 | ----------------| --------- | ---------- |
-| 1 - SODPROPS    | 34L       | 16L        |
+| 1 - SODPROPS    | 34L       | 16L (& 34L if operationally required) |
 | 2 - 34 PROPS    | 34L & 34R | 34L & 34R  |
 | 2 - 16 PROPS    | 16L & 16R | 16L & 16R  |
 | 3 - 16D/07A     | 07        | 16L & 16R  |
@@ -370,6 +372,12 @@ Unless operationally required, aircraft shall be assigned the following runways 
 | To the NORTH and EAST | 16L/34R |
 | To the SOUTH and WEST | 16R/34L |
 
+#### SODPROPS
+During SODPROPS, all departures shall be assigned RWY 16L, except:
+
+- aircraft who operationally require RWY 34L (generally heavy jets)
+- non-jet aircraft departing to the west or south
+
 ## SID Selection
 
 !!! tip
@@ -388,7 +396,7 @@ Unless operationally required, aircraft shall be assigned the following runways 
     | Type  | Via  | SID     |
     | ------| ---- | --------|
     | Jet  | OLSEM<br>NOBAR<br>DIPSO<br>EVONN<br>CAWLY<br>OPTIC | **KEVIN** SID, Relevant Transition |
-    | Jet  | WOL | **ABBEY** SID |
+    | Jet  | WOL (during SODPROPS only) | **ABBEY** SID |
     | Jet  | All others | **KEVIN** SID, RADAR Transition |
     | Non-Jet | All | **RADAR** SID |
 
@@ -443,6 +451,13 @@ Climb gradient requirements apply to all Procedural SIDs. It is the pilot's resp
 !!! warning "Important"
     Independent Visual Approaches (IVAs) may only be run during Parallel Runway Operations (PROPS). During single runway operations, regular visual approaches (blank ATIS 'APCH' field) should be used instead.
 
+### Runway Mode
+| Mode     | ATIS Runway information      |
+| -------- | ---------------------------- |
+| 16 PROPS | `16L AND R FOR ARRS AND DEPS` |
+| 34 PROPS | `34L AND R FOR ARRS AND DEPS` |
+| SODPROPS  | `34L FOR ARRS, RWY 16L FOR DEPS, RWY 34L AVBL FOR DEPARTURE IF OPERATIONALLY REQD OR AS DIRECTED BY ATC` |
+
 ### Operational Info
 The Operational Information field should be updated based on the runway mode and approach type in use, as per the table below:
 
@@ -470,23 +485,20 @@ When [Coordinator](#sydney-coordinator) is online and start approval is required
 ## Coordination
 ### Auto Release
 !!! warning "Important"
-    YSSY utilises auto release for all **Procedural** SIDs (except **ABBEY** SID during SODPROPS), and the **SY (RADAR)** SID provided aircraft are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
+    YSSY utilises auto release for all **Procedural** SIDs, and the **SY (RADAR)** SID provided aircraft are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
 [Next](../../controller-skills/coordination.md#next) coordination is **not** required for aircraft that are:   
 
 - Departing from a runway nominated on the ATIS; and   
 - Assigned the Standard assignable level; and  
-- Assigned a **Procedural SID** (except **ABBEY** SID); or  
-- Assigned the **Radar** SID with a [Standard Assignable Heading](#standard-assignable-departure-headings)
+- Assigned a **Procedural SID** or the **Radar** SID with a [Standard Assignable Heading](#standard-assignable-departure-headings); or
+- A helicopter cleared via an outbound helicopter route.
 
 All other aircraft require a 'Next' call to SY TCU.
 
 'Next' coordination is additionally required for:  
-
-- Visual departures  
-- Departures to YSBK  
+ 
 - After a go around, the next departure from that runway  
-- Jets departing 16L via WOL  
 - All aircraft during the Curfew Runway Mode
 
 The Standard Assignable level from SY ADC to SY TCU is: 
@@ -497,7 +509,35 @@ The Standard Assignable level from SY ADC to SY TCU is:
 | Non-Jets | The lower of `A030` and `RFL` |
 
 ### Departures Controller
-Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SDN** and/or **SDS** are online.
+When both **SDS** and **SDN** are online, the SY TCU is [divided according to the runway mode in use](../../terminal/sydney#airspace-division). Aircraft should be instructed to contact the appropriate departures controller based on their runway of departure, SID, and direction of travel.
+
+=== "07"
+    | Runway |  | Departure Controller |
+    | ------ | ---- | -------------------- |
+    | 07 | FISHA SID, OLSEM Transition<br>Tracking N, or NE | SDN |
+    | 07 | FISHA SID, WOL Transition<br>Tracking S, W, or SW | SDS |
+
+=== "16s"
+    | Runway | Via  | Departure Controller |
+    | ------ | ---- | -------------------- |
+    | 16L | ABBEY SID, WOL Transition<br>Tracking S or SW | SDS |
+	| 16L | KEVIN SID<br>Tracking SE, E, NE, or N | SDN |
+    | 16R | All | SDS |
+
+=== "25"
+    | Runway | Via  | Departure Controller |
+    | ------ | ---- | -------------------- |
+    | 25 | Tracking N, or NE | SDN |
+    | 25 | Tracking S, W, or SW  | SDS |
+
+=== "34s"
+    | Runway | Via  | Departure Controller |
+    | ------ | ---- | -------------------- |
+    | 34L | RIC SID<br>Tracking N, or NE | SDN |
+    | 34L | KADOM SID<br>WOL SID<br>Tracking S, W, or SW | SDS |
+    | 34R | OLSEM SID<br>Tracking N, or NE | SDN |
+    | 34R | MARUB SID, WOL Trans<br>Tracking S, W, or SW | SDS |
+
 
 ### Standard Assignable Departure Headings
 Aircraft that have been cleared the **SY (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required to the SY TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
