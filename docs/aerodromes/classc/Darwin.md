@@ -122,7 +122,7 @@ When [LAHSO](#lahso) is in use, the ATIS OPR INFO shall include:
 `LAND AND HOLD SHORT OPERATIONS IN PROGRESS`
 
 ## Coordination
-### DN TCU
+### Auto Release
 [Next](../../controller-skills/coordination.md#next) coordination is required from DN ADC to DN TCU for all aircraft.
 
 The Standard Assignable Level from  **DN ADC** to **DN TCU** is:
@@ -132,6 +132,31 @@ The Standard Assignable Level from  **DN ADC** to **DN TCU** is:
 | IFR aircraft assigned a **Procedural** SID | The lower of `F180` and `RFL` |
 | IFR aircraft **not** assigned a **Procedural** SID | The lower of `A030` and `RFL` |
 | VFR aircraft | The lower of `A020` and `RFL` |
+
+### Departures Controller
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate Enroute controller or Advisory frequency shall be issued.
+
+=== "11"
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| 11 | All | 125.2 (DAE) |
+
+=== "18"
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| 18 | East | 125.2 (DAE) |
+| 18 | West | 134.1 (DAW) |
+
+=== "29"
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| 29 | All | 134.1 (DAW) |
+
+=== "36"
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| 36 | East | 125.2 (DAE) |
+| 36 | West | 134.1 (DAW) |
 
 ## Charts
 !!! abstract "Reference"

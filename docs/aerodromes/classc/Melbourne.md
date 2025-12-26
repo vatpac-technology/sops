@@ -268,31 +268,31 @@ The following Standard Assignable Headings may be used for aircraft assigned the
 Any runway change must be prior coordinated to **MAE** and **EN ADC**.
 
 ### Departures Controller
-When both **MDS** and **MDN** are online, the ML TCU is [divided according to the runway mode in use](../../terminal/melbourne#airspace-division). Aircraft should be instructed to contact the appropriate departures controller based on their runway of departure and direction of travel.
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate Enroute controller or Advisory frequency shall be issued.
 
-=== "09"
-    | Runway | Via  | Departure Controller |
+=== "RWY 09"
+    | Runway | Via  | Departure Frequency |
     | ------ | ---- | -------------------- |
-    | 09 | Tracking NW, N, or NE | MDN |
-    | 09 | Tracking SW, S, or SE | MDS |
+    | 09 | Tracking NW, N, or NE | 118.9 (MDN) |
+    | 09 | Tracking SW, S, or SE | 129.4 (MDS) |
 
-=== "16"
-    | Runway | Via  | Departure Controller |
+=== "RWY 16"
+    | Runway | Via  | Departure Frequency |
     | ------ | ---- | -------------------- |
-    | 16 | MNG<br>NONIX<br>DOSEL<br>KEPPA<br>PEDNI<br>Tracking NW, N, or NE | MDN |
-    | 16 | CORRS<br>CRENA<br>ESDIG<br>ISPEG<br>SUNTI<br>Tracking SW, S, or SE | MDS |
+    | 16 | MNG<br>NONIX<br>DOSEL<br>KEPPA<br>PEDNI<br>Tracking NW, N, or NE | 118.9 (MDN) |
+    | 16 | CORRS<br>CRENA<br>ESDIG<br>ISPEG<br>SUNTI<br>Tracking SW, S, or SE | 129.4 (MDS) |
 
-=== "27"
-    | Runway | Via  | Departure Controller |
+=== "RWY 27"
+    | Runway | Via  | Departure Frequency |
     | ------ | ---- | -------------------- |
-    | 27 | MNG<br>NONIX<br>DOSEL<br>KEPPA<br>PEDNI<br>Tracking NW, N, or NE | MDN |
-    | 27 | CORRS<br>CRENA<br>ESDIG<br>SUNTI<br>Tracking SW, S, or SE | MDS |
+    | 27 | MNG<br>NONIX<br>DOSEL<br>KEPPA<br>PEDNI<br>Tracking NW, N, or NE | 118.9 (MDN) |
+    | 27 | CORRS<br>CRENA<br>ESDIG<br>SUNTI<br>Tracking SW, S, or SE | 129.4 (MDS) |
 
-=== "34"
-    | Runway | Via  | Departure Controller |
+=== "RWY 34"
+    | Runway | Via  | Departure Frequency |
     | ------ | ---- | -------------------- |
-    | 34 | CORRS<br>MNG<br>NONIX<br>DOSEL<br>KEPPA<br>PEDNI<br>SUNTI<br>Tracking NW, N, or NE | MDN |
-    | 34 | CRENA<br>ESDIG<br>Tracking SW, S, or SE | MDS |
+    | 34 | CORRS<br>MNG<br>NONIX<br>DOSEL<br>KEPPA<br>PEDNI<br>SUNTI<br>Tracking NW, N, or NE | 118.9 (MDN) |
+    | 34 | CRENA<br>ESDIG<br>Tracking SW, S, or SE | 129.4 (MDS) |
 
 ### EN ADC
 EN ADC is responsible for separation with all YMML traffic, and will coordinate any aircraft operating in EN ADC airspace that cannot be visually or laterally separated with YMML traffic.

@@ -134,13 +134,26 @@ The Standard Assignable level from AD ADC to AD TCU is:
 | Non-Jets | The lower of `A040` and `RFL` |
 
 ### Departures Controller
-When **AAW** is online, the AD TCU is [split down the runway 05/23 centreline](../../terminal/adelaide#airspace-division). Aircraft should be instructed to contact the appropriate departures controller based on their runway of departure and direction of travel.
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate Enroute controller or Advisory frequency shall be issued.
 
-| Runway | Via  | Departure Controller |
-| ------ | ---- | -------------------- |
-| 05 | AREPA<br>GILES<br>ORBUN<br>West | AAW |
-| 05 | AVDEN<br>BENDO<br>UPROT<br>East | AAE |
-| 12 | All | AAE |
-| 23 | AREPA<br>GILES<br>ORBUN<br>West | AAW |
-| 23 | AVDEN<br>BENDO<br>UPROT<br>East | AAE |
-| 30 | All | AAW |
+=== "RWY 05"
+    | Runway | Via  | Departure Frequency |
+    | ------ | ---- | -------------------- |
+    | 05 | AREPA<br>GILES<br>ORBUN<br>West | 124.2 (AAW) |
+    | 05 | AVDEN<br>BENDO<br>UPROT<br>East | 118.2 (AAE)  |
+
+=== "RWY 12"
+    | Runway | Via  | Departure Frequency |
+    | ------ | ---- | -------------------- |
+    | 12 | All | 118.2 (AAE)  |
+
+=== "RWY 23"
+    | Runway | Via  | Departure Frequency |
+    | ------ | ---- | -------------------- |
+    | 23 | AREPA<br>GILES<br>ORBUN<br>West | 124.2 (AAW) |
+    | 23 | AVDEN<br>BENDO<br>UPROT<br>East | 118.2 (AAE)  |
+
+=== "RWY 30"
+    | Runway | Via  | Departure Frequency |
+    | ------ | ---- | -------------------- |
+    | 30 | All | 124.2 (AAW)  |

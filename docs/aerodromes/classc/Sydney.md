@@ -509,34 +509,34 @@ The Standard Assignable level from SY ADC to SY TCU is:
 | Non-Jets | The lower of `A030` and `RFL` |
 
 ### Departures Controller
-When both **SDS** and **SDN** are online, the SY TCU is [divided according to the runway mode in use](../../terminal/sydney#airspace-division). Aircraft should be instructed to contact the appropriate departures controller based on their runway of departure, SID, and direction of travel.
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate Enroute controller or Advisory frequency shall be issued.
 
-=== "07"
-    | Runway |  | Departure Controller |
+=== "RWY 07"
+    | Runway | Via | Departure Frequency |
     | ------ | ---- | -------------------- |
-    | 07 | FISHA SID, OLSEM Transition<br>Tracking N, or NE | SDN |
-    | 07 | FISHA SID, WOL Transition<br>Tracking S, W, or SW | SDS |
+    | 07 | FISHA SID, OLSEM Transition<br>Tracking N, or NE | 123.0 (SDN) |
+    | 07 | FISHA SID, WOL Transition<br>Tracking S, W, or SW | 129.7 (SDS) |
 
-=== "16s"
-    | Runway | Via  | Departure Controller |
+=== "RWY 16s"
+    | Runway | Via  | Departure Frequency |
     | ------ | ---- | -------------------- |
-    | 16L | ABBEY SID, WOL Transition<br>Tracking S or SW | SDS |
-	| 16L | KEVIN SID<br>Tracking SE, E, NE, or N | SDN |
-    | 16R | All | SDS |
+    | 16L | ABBEY SID, WOL Transition<br>Tracking S or SW | 129.7 (SDS) |
+	| 16L | KEVIN SID<br>Tracking SE, E, NE, or N | 123.0 (SDN) |
+    | 16R | All | 129.7 (SDS) |
 
-=== "25"
-    | Runway | Via  | Departure Controller |
+=== "RWY 25"
+    | Runway | Via  | Departure Frequency |
     | ------ | ---- | -------------------- |
-    | 25 | Tracking N, or NE | SDN |
-    | 25 | Tracking S, W, or SW  | SDS |
+    | 25 | Tracking N, or NE | 123.0 (SDN) |
+    | 25 | Tracking S, W, or SW  | 129.7 (SDS) |
 
-=== "34s"
-    | Runway | Via  | Departure Controller |
+=== "RWY 34s"
+    | Runway | Via  | Departure Frequency |
     | ------ | ---- | -------------------- |
-    | 34L | RIC SID<br>Tracking N, or NE | SDN |
-    | 34L | KADOM SID<br>WOL SID<br>Tracking S, W, or SW | SDS |
-    | 34R | OLSEM SID<br>Tracking N, or NE | SDN |
-    | 34R | MARUB SID, WOL Trans<br>Tracking S, W, or SW | SDS |
+    | 34L | RIC SID<br>Tracking N, or NE | 123.0 (SDN) |
+    | 34L | KADOM SID<br>WOL SID<br>Tracking S, W, or SW | 129.7 (SDS) |
+    | 34R | OLSEM SID<br>Tracking N, or NE | 123.0 (SDN) |
+    | 34R | MARUB SID, WOL Trans<br>Tracking S, W, or SW | 129.7 (SDS) |
 
 
 ### Standard Assignable Departure Headings

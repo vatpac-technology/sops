@@ -164,13 +164,30 @@ The Standard Assignable level from CB ADC to CB TCU is:
 | VFR | The lower of `A040` and `RFL` |
 
 ### Departures Controller
-When **CBW** is online, the CB TCU is [split down the runway 17/35 centreline](../../terminal/Canberra#airspace-division). Aircraft should be instructed to contact the appropriate departures controller based on their runway of departure and direction of travel.
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate Enroute controller or Advisory frequency shall be issued.
 
-| Runway | Via  | Departure Controller |
-| ------ | ---- | -------------------- |
-| 12 | All | CBE |
-| 17 | DUBUS<br>HOWLY<br>NONUP<br>TANTA<br>WG VOR<br>West | CBW |
-| 17 | AKMIR<br>AVBEG<br>CULIN<br>East | CBE |
-| 30 | All | CBW |
-| 35 | AVBEG<br>DUBUS<br>HOWLY<br>NONUP<br>TANTA<br>WG VOR<br>West | CBW |
-| 35 | AKMIR<br>CULIN<br>East | CBE |
+=== "RWY 12"
+
+    | Runway | Via  | Departure Frequency |
+    | ------ | ---- | -------------------- |
+    | 12 | All | 124.5 (CBE) |
+
+=== "RWY 17"
+
+    | Runway | Via  | Departure Frequency |
+    | ------ | ---- | -------------------- |
+    | 17 | DUBUS<br>HOWLY<br>NONUP<br>TANTA<br>WG VOR<br>West | 125.9 (CBW) |
+    | 17 | AKMIR<br>AVBEG<br>CULIN<br>East | 124.5 (CBE) |
+
+=== "RWY 30"
+
+    | Runway | Via  | Departure Frequency |
+    | ------ | ---- | -------------------- |
+    | 30 | All | 125.9 (CBW) |
+
+=== "RWY 35"
+
+    | Runway | Via  | Departure Frequency |
+    | ------ | ---- | -------------------- |
+    | 35 | AVBEG<br>DUBUS<br>HOWLY<br>NONUP<br>TANTA<br>WG VOR<br>West | 125.9 (CBW) |
+    | 35 | AKMIR<br>CULIN<br>East | 124.5 (CBE) |

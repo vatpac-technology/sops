@@ -92,7 +92,7 @@ Civil aircraft, military aircraft **not** planned via any of these waypoints, an
     Military SID charts are contained in the [RAAF TERMA](https://ais-af.airforce.gov.au/){target=new} document.
 
 ## Coordination
-### SY TCU
+### Auto Release
 [Next](../../controller-skills/coordination.md#next) coordination is required from RI ADC to SY TCU for all aircraft **entering SY TCU CTA**.
 
 The Standard Assignable Level from **RI ADC** to **SY TCU** is:  
@@ -100,6 +100,9 @@ The Standard Assignable Level from **RI ADC** to **SY TCU** is:
 | Aircraft | Level |
 | -------- | ----- |
 | All | The lower of `A050` and `RFL` |
+
+### Departures Controller
+The departure controller is dependent on the YMML [runway mode](../../terminal/sydney.md#airspace-division). Ensure the appropriate frequency is selected based on the direction of flight and runway mode.
 
 ## Charts
 !!! abstract "Reference"

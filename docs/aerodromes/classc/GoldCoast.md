@@ -234,5 +234,12 @@ The Standard Assignable level from CG ADC to BN TCU is:
 | Jets | `A060` |
 | Non-Jets | The lower of `A060` and `RFL` |
 
+### Departures Controller
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the Advisory frequency shall be issued.
+
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| All | All | 123.5 (BAC) |
+
 ### Start Clearance
 A start clearance is required for aircraft planned to YBBN. Start clearance must be coordinated with BN TCU.
