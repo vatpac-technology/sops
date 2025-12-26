@@ -166,8 +166,7 @@ The circuit height is `A010`. If an aircraft requires a higher circuit altitude,
 This allows aircraft to track via the Creek Corridor (see YBCS DAP Noise Abatement Procedures) for runway 15, or via a visual right base (commenced from vectors or the KEEWI Victor STAR), when VMC exists below `A030`.
 
 ## Coordination
-### CS TCU
-#### Auto Release
+### Auto Release
 [Next](../../controller-skills/coordination.md#next) coordination is **not** required for aircraft that are:   
 
   - Departing from a runway nominated on the ATIS; and  
@@ -182,7 +181,14 @@ The Standard Assignable level from CS ADC to CS TCU is:
 | -------- | ----- |
 | All | The lower of `A060` and `RFL` |
 
-#### ACD to CS TCU
+### Departures Controller
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate Enroute controller or Advisory frequency shall be issued.
+
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| All | All | 118.4 (CS1) |
+
+### ACD to CS TCU
 The controller assuming responsibility of **CS ACD** shall give [heads-up](../../controller-skills/coordination.md#airways-clearance) coordination to the relevant CS TCU controller prior to the issue of the following clearances:  
 
 - VFR departures into CS TCU CTA  

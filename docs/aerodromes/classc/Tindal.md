@@ -74,7 +74,7 @@ Aircraft planned via **DN**, **LAREB**, **GREGA**, **DOSAM**, **MILIV**, **MIGAX
 Aircraft unable to accept a procedural SID, and **non-RNAV** aircraft shall be assigned either the RADAR SID or a visual departure. 
 
 ## Coordination
-### TN TCU
+### Auto Release
 [Next](../../controller-skills/coordination.md#next) coordination is required from TN ADC to TN TCU for all aircraft.
 
 The Standard Assignable level from TN ADC to TN TCU is:
@@ -82,6 +82,13 @@ The Standard Assignable level from TN ADC to TN TCU is:
 | Aircraft | Level |
 | ----- | ---- |
 | All | The lower of `F180` and `RFL` |
+
+### Departures Controller
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the Advisory frequency shall be issued.
+
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| All | All | 120.95 (TNA) |
 
 ### TRT(TRS)
 When TN TCU is offline, coordination is not required between TN ADC and TRT(TRS). Aircraft entering TRT(TRS) airspace shall be handed off, and instructed to contact TRT(TRS) for onwards clearance.
