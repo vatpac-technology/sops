@@ -72,7 +72,7 @@ Each button has the following function:
 | ------ | -------- |
 | **INHIBIT** | Hides a strip from the stripboard (used when a strip is no longer needed) |
 | <span style="white-space: nowrap;">**XX CROSS XX**</span> | Adds a red highlight to the selected strip, denoting an intention to cross a runway |
-| **ADD BAR** | Allows controllers to place a variety of fixed bars anywhere on the stripboard, reflecting status changes (e.g. autorelease cancellation or runway crossing) and allowing additional queues to be build (e.g. Sydney Coordinator functions) |
+| **ADD BAR** | Allows controllers to place a variety of fixed bars anywhere on the stripboard, reflecting status changes (e.g. autorelease cancellation or runway crossing) and allowing bays to be separated (e.g. multiple SMC/ADC positions open) |
 | **FLIP FLOP** | Toggles the selected strip between Departure, Arrival & Local states (for aircraft with both ADES and ADEP fields matching the current aerodrome) |
 
 ### Strips
@@ -245,13 +245,13 @@ At locations like [Brisbane](../aerodromes/classc/Brisbane.md#pushback-requests-
 
 Once all coordination has been completed and the Coordinator position has been opened, all outbound aircraft must first request pushback or taxi on the Coordinator frequency before being passed to SMC. 
 
-Place a `STANDBY FOR GROUND` [bar](#control-bar) in the **Cleared Bay** queue. Any strips below this bar respresent aircraft who have been instructed to standby for ground on the appropriate SMC frequency. Aircraft who are ready for pushback or taxi, but have not been told to monitor SMC, are placed in the queue, above the Standby for Ground bar.
+Enable the **Monitor SMC Bay** by selecting **View** > **Toggle Monitor SMC Bay**. Any strips in this bay respresent aircraft who have been instructed to standby for ground on the appropriate SMC frequency. Aircraft who are ready for pushback or taxi, but have not been told to monitor SMC, are queued in the **Cleared Bay**.
 
-Ensure that no more than **three** strips are ever present below the Standby for Ground bar. When SMC takes a strip from below the Standby for Ground bar and places it in the **Pushback** or **Taxi Bay**, instruct the aircraft next in line (in the queue but above the Standby for Ground bar) to monitor SMC, and move them below the bar.
+Ensure that no more than **three** strips are ever present in the **Monitor SMC Bay**. When SMC takes a strip from the bay and places it in the **Pushback** or **Taxi Bay**, instruct the aircraft next in line to monitor SMC, and move them to the bay.
 
 <figure markdown>
 ![Coordinator](./img/ozstripscoordinator.png){ width="800" }
-    <figcaption>Coordinator Ops with OzStrips<br><small>Three aircraft are waiting on the SMC frequency (below the Queue bar), and QFA121 and RXA6416 have both requested push/taxi but are being held on the Coordinator frequency. QFA121 is closer to the bottom, so will be next to be told to standby for SMC.</small></figcaption>
+    <figcaption>Coordinator Ops with OzStrips<br><small>Three aircraft are waiting on the SMC frequency (in the **Monitor SMC Bay**), and QFA121 and RXA6418 have both requested push/taxi but are being held on the Coordinator frequency. QFA121 is closer to the bottom, so will be next to be told to standby for SMC.</small></figcaption>
 </figure>
 
 ### Ground
