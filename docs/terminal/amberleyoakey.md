@@ -127,7 +127,6 @@ Three transit areas, named "Whiskey" (western), "Charlie" (central) and "Echo" (
 
 The boundaries of some LFAs cross the lateral boundary of R654A/B. An ATC clearance to operate in a LFA, authorises an aircraft to leave and re-enter R654A/B within the dimensions of the cleared LFA.
 
-
 !!! tip
     Detailed images depicting LFAs, SAAFRs and Transit Areas are available on the [Oakey AD2 SUP](https://ais-af.airforce.gov.au/australian-aip)
 
@@ -192,15 +191,14 @@ When operating within LFAs, aircraft may additionally request to operate in SAAF
 
 !!! phraseology
     **RSCU903:** "Oakey Approach, RSCU903, request operations within Lima 7, and SAAFR Yankee"  
-    **OKA:** "RSCU903, cleared Lima 7, and operations SAAFR Yankee, not above A030, RSCU903"  
-    **RSCU903:** "Cleared Lima 7, and operations SAAFR Yankee, not above A030, RSCU903"
+    **OKA:** "RSCU903, cleared Lima 7, operations SAAFR Yankee, not above A030, RSCU903"  
+    **RSCU903:** "Cleared Lima 7, operations SAAFR Yankee, not above A030, RSCU903"
 
 ## Departure and Arrival Procedures
 
 ### Departures
 
 By default, transit to LFAs will **not** be achieved through the use of SAAFRs and Transit Areas, direct tracking to the requested LFA will always be issued. Aircraft outbound from YBOK for LFAs will depart the CIRA visually and track direct to their LFA, or the requested outbound SAAFRs / Transit Area as cleared.
-
 
 ### Arrivals
 

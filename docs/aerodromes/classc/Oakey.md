@@ -137,7 +137,7 @@ OK TCU will clear inbound aircraft to YBOK direct, not above `A030`. OK TCU will
 
 !!! phraseology
     **KNGT31:** "Oakey Tower, helicopter KNGT31, A030, request Lane 3"    
-    **OK ADC:** "JUNO76, Oakey Tower, join base Lane 3, cleared visual approach"    
+    **OK ADC:** "KNGT31, Oakey Tower, join base Lane 3, cleared visual approach"    
     **KNGT31:** "Join base Lane 3, cleared visual approach, KNGT31"    
 
 
@@ -169,13 +169,6 @@ The Standard Assignable level from **OK ADC** to **OK TCU** is:
 | -------- | ----- |
 | Fixed-wing | The lower of `F120` and `RFL` |
 | Rotary-wing | The lower of `A030` and `RFL` |
-
-### Departures Controller
-When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the Advisory frequency shall be issued.
-
-| Runway | Via | Departure Frequency |
-| ------ | ---- | -------------------- |
-| All | All | 125.4 (OKA) |
 
 ### Departures Controller
 When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the Advisory frequency shall be issued.
