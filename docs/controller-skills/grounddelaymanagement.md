@@ -101,7 +101,7 @@ To commence the procedure:
 
 1. **SMC** and **ACD** coordinate to implement the procedure, due to high **SMC** workload.
 2. **SMC** coordinates with **ADC** in order to have the ATIS updated (see each aerodrome's page).
-3. **ACD** places the `STANDBY FOR GROUND` bar in the **Cleared Bay** in [OzStrips](../client/towerstrips.md#coordinator).
+3. **ACD** enables the **Monitor SMC Bay** in [OzStrips](../client/towerstrips.md#coordinator).
 
 !!! phraseology
     <span class="hotline">**ML SMC** -> **ML ACD**</span>: "It's getting quite busy. Happy to implement Pushback requests on your frequency?"  
@@ -117,10 +117,15 @@ To operate with pushback requests on ACD:
 1. When **ACD** has finished issuing an airways clearance, they will **remind** pilots to *"Contact me when ready for pushback/taxi"*.
 2. When a pilot requests pushback, **ACD** will assess their priority based on apron congestion and number of aircraft in the queue (see [Queue Management](#queue-management)).  
 3. **ACD** will either instruct them to **standby for Ground** *(not contact)*, or remain on the ACD frequency if a delay is required.  
-4. If an aircraft is instructed to 'standby for Ground', **ACD** will move the strip below the **Standby for Ground** bar in the **Queue** section of the **Cleared Bay** in [OzStrips](../client/towerstrips.md#coordinator), to denote they are awaiting pushback approval.  
-5. When **SMC** has adequate space on the aprons, taxiways, and holding points, they will issue pushback/taxi to the next aircraft in line by scanning the [Cleared Queue bay](../client/towerstrips/#stripboard).
+4. If an aircraft is instructed to 'standby for Ground', **ACD** will move the strip into the **Monitor SMC Bay** in [OzStrips](../client/towerstrips.md#coordinator), to denote they are awaiting pushback approval.  
+5. When **SMC** has adequate space on the aprons, taxiways, and holding points, they will issue pushback/taxi to the next aircraft in line by scanning the [Cleared Bay queue](../client/towerstrips/#stripboard).
 
 The decision whether or not to send an aircraft to SMC or hold them on the ACD frequency should be made in accordance with the [Queue Management](#queue-management) techniques.
+
+!!! note
+    The main function of the Coordinator role is to **reduce SMC's workload**. Generally, this involves reducing frequency congestion and metering the flow of departing traffic, however each situation is different and will require a unique approach.
+    
+    E.g. if SMC East at YSSY is busy but SMC West is quiet and there's no upline flow requirements, it may be appropriate to process aircraft on the international aprons while temporarily delaying aircraft on the domestic aprons.
 
 !!! warning "Important"
     If SMC needs to reduce the pushback rate due to congestion at the holding points or excessive workload, **ACD** should be informed without delay, and instructed to hold all departures on their frequency. This will stop aircraft being told to 'standby for ground' on the SMC frequency. Remember to cancel this requirement when congestion eases.

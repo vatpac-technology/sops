@@ -247,7 +247,9 @@ Once all coordination has been completed and the Coordinator position has been o
 
 Enable the **Monitor SMC Bay** by selecting **View** > **Toggle Monitor SMC Bay**. Any strips in this bay respresent aircraft who have been instructed to standby for ground on the appropriate SMC frequency. Aircraft who are ready for pushback or taxi, but have not been told to monitor SMC, are queued in the **Cleared Bay**.
 
-Ensure that no more than **three** strips are ever present in the **Monitor SMC Bay**. When SMC takes a strip from the bay and places it in the **Pushback** or **Taxi Bay**, instruct the aircraft next in line to monitor SMC, and move them to the bay.
+As a general rule, ensure that no more than **three** strips are present in the **Monitor SMC Bay**. When SMC takes a strip from the bay and places it in the **Pushback** or **Taxi Bay**, instruct the aircraft next in line to monitor SMC, and move them to the bay.
+
+See [Pushback Requests on ACD](../controller-skills/grounddelaymanagement.md#pushback-requests-on-acd) for detailed Coordinator decision-making procedures.
 
 <figure markdown>
 ![Coordinator](./img/ozstripscoordinator.png){ width="800" }
