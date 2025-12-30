@@ -378,3 +378,4 @@
 *[FTAs]: Flying Training Areas
 *[LFAs]: Low Flying Areas
 *[SAAFRs]: Standard Use Army Aircraft Flight Routes
+*[RTB]: Return To Base
