@@ -21,7 +21,7 @@ MK ADC is responsible for the Class D airspace in the MK CTR `SFC` to `A010`.
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
 ## SID Selection
-Aircraft planned via **CLIFT** and **MUNAR** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
+Aircraft planned via **CLIFT** and **MUNAR** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. Aircraft tracking to the north or south and **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
 Aircraft that are unable to accept a Procedural SID shall be assigned the **Radar SID**.
 

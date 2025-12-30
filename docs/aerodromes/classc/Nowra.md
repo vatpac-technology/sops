@@ -97,5 +97,12 @@ Helicopters departing from helicopter spots will be treated as if departing from
     <span class="hotline">**NW TCU** -> **NW ADC**</span>: "PSDN14, right turn, unrestricted"  
     <span class="hotline">**NW ADC** -> **NW TCU**</span>: "Right turn, PSDN14"
 
+### Departures Controller
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the Advisory frequency shall be issued.
+
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| All | All | 123.5 (NWA) |
+
 ## Charts
 Aerodrome and instrument approach charts are available in the AIP, or otherwise in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}.

@@ -59,7 +59,7 @@ Aircraft planned via **GUNOK** shall be assigned the **GUNOK** SID. Aircraft pla
 Aircraft **not** meeting that criteria, and **non-RNAV** aircraft shall be assigned either the RADAR SID or a visual departure. 
 
 ## Coordination
-### PE TCU
+### Auto Release
 [Next](../../controller-skills/coordination.md#next) coordination is required from PE ADC to PE TCU for all aircraft.
 
 The Standard Assignable Level from **PE ADC** to **PE TCU** is:
@@ -69,6 +69,13 @@ The Standard Assignable Level from **PE ADC** to **PE TCU** is:
 | **GUNOK** SID | `A030` |
 | A **Procedural** SID | `F130` |
 | All others | The lower of `F130` and `RFL` |
+
+### Departures Controller
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the Advisory frequency shall be issued.
+
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| All | All | 130.2 (PEA) |
 
 ## Charts
 !!! abstract "Reference"
