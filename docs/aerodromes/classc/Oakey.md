@@ -177,6 +177,13 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
 | ------ | ---- | -------------------- |
 | All | All | 125.4 (OKA) |
 
+### Departures Controller
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the Advisory frequency shall be issued.
+
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| All | All | 125.4 (OKA) |
+
 ## Charts
 !!! abstract "Reference"
     Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}

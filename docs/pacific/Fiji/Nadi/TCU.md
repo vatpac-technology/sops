@@ -72,7 +72,7 @@ Upon receiving a '[Next](../../../../controller-skills/coordination/#boundary)' 
     <span class="hotline">**NFFN ADC** -> **NFFNA**</span>: "FJI211"  
 	
 #### Sequencing
-Consecutive arrivals sequenced **5 minutes or less** apart will not provide adequate spacing for a departure on the reciprocal runway. While aircraft in the air take priority over aircraft on the ground, where possible NFFNA should consider minor adjustments to extended delays for departures.
+Consecutive arrivals sequenced **5 minutes or less** apart will not provide adequate spacing for a departure on the reciprocal runway. While aircraft in the air take priority over aircraft on the ground, where possible NFFNA should consider minor adjustments to avoid extended delays for departures.
 <!---## Tower Offline Procedure
 ## Runway Modes
 ## Helicopter Operations--->

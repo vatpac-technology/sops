@@ -9,8 +9,9 @@
 | Name                          | ID      | Callsign                | Frequency   | Login ID      |
 | ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
 | **Adelaide Approach East**    | **AAE** | **Adelaide Approach**   | **118.200** | **AD_APP**    |
-| <span class="indented">Adelaide Approach West :material-information-outline:{ title="Non-standard position"}  | AAW | Adelaide Approach  | 124.200  | AD-W_APP |
-| <span class="indented">Adelaide Flow :material-information-outline:{ title="Non-standard position"}           | AFL |                    |          | AD_FMP   |
+| <span class="indented">Adelaide Approach West :material-information-outline:{ title="Non-standard position"}  | AAW | Adelaide Approach  | 124.200 | AD-W_APP |
+| <span class="indented">Adelaide Radar :material-information-outline:{ title="Non-standard position"}          | AAR | Adelaide Centre    | 130.450 | AD-R_DEP |
+| <span class="indented">Adelaide Flow :material-information-outline:{ title="Non-standard position"}           | AFL |                    |         | AD_FMP   |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
@@ -36,6 +37,9 @@ ED CTR reverts to Class G when **ED ADC** is offline, and is administered by the
 ![AD TCU Structure](img/adtcu_annotated.png){ width="700" }
   <figcaption>AD TCU Structure</figcaption>
 </figure>
+
+#### Adelaide Radar (AAR)
+AAR is responsible for the provision of FIS in Class G airspace within the AD TMA. It is a role normally performed by the controller responsible for **AAE**. The position is designed to reduce the workload of other TMA positions by identifing and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller.
 
 ## Local Procedures 
 ### Scenic Coastal Flights

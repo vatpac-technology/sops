@@ -23,7 +23,7 @@ SG ADC owns the Class C airspace within the SG CTR from `SFC` to `A015` with a *
 | 12     | Left |
 
 ## Coordination
-### SG TCU
+### Auto Release
 [Next](../../controller-skills/coordination.md#next) coordination is required from SG ADC to SG TCU for all aircraft.
 
 The Standard Assignable Level from **SG ADC** to **SG TCU** is:
@@ -33,6 +33,13 @@ The Standard Assignable Level from **SG ADC** to **SG TCU** is:
 | All | The lower of `F240` and `RFL` |
 
 SG TCU shall perform [Heads Up](../../controller-skills/coordination.md#heads-up) coordination for all aircraft inbound to YBWP.
+
+### Departures Controller
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the Advisory frequency shall be issued.
+
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| All | All | 124.2 (SGA) |
 
 ### ISA(ARA)
 When SG TCU is offline, coordination is not required between SG ADC and ISA(ARA). Aircraft entering ISA(ARA) airspace shall be handed off, and instructed to contact ISA(ARA) for onwards clearance.

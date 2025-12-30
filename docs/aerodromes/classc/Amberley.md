@@ -165,7 +165,7 @@ IFR aircraft planned via **BN**, **JEDDA**, **MESED**, **BOBOP**, **TATEN**, sha
 Aircraft who are not planned via those points may be assigned the RADAR SID or a visual departure. 
 
 ## Coordination
-### AMB TCU
+### Auto Release
 [Next](../../controller-skills/coordination.md#next) coordination is required from AMB ADC to AMB TCU for all aircraft.
 
 The Standard Assignable Level from  **AMB ADC** to **AMB TCU** is:  
@@ -174,6 +174,13 @@ The Standard Assignable Level from  **AMB ADC** to **AMB TCU** is:
 | ------------------ | ----- |
 | Procedural SID | The lower of `F180` and `RFL` |
 | Coded Departure | `F190` |
+
+### Departures Controller
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate Enroute controller or Advisory frequency shall be issued.
+
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| All | All | 126.2 (AMA) |
 
 ## Charts
 !!! abstract "Reference"

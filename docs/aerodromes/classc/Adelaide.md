@@ -16,13 +16,13 @@
 ## Airspace
 AD ADC is not responsible for any airspace by default.
 
-## Maneuvering Area
-### Maneuvering Area Responsibility
+## Manoeuvring Area
+### Manoeuvring Area Responsibility
 **ADC** is responsible for the **E2** and **D2** taxiways
 
 <figure markdown>
-![YPAD Maneuvering Area Responsibility](img/ypadsmcown.png){ width="500" }
-  <figcaption>YPAD Maneuvering Area Responsibility</figcaption>
+![YPAD Manoeuvring Area Responsibility](img/ypadsmcown.png){ width="500" }
+  <figcaption>YPAD Manoeuvring Area Responsibility</figcaption>
 </figure>
 
 !!! note
@@ -126,28 +126,34 @@ The Operational Information field should be updated based on the runway mode in 
 
 All other aircraft require a Next call to AD TCU.
 
-The Standard Assignable level from AD ADC to AD TCU is:  
+The Standard Assignable level from AD ADC to AD TCU is:
 
 | Aircraft | Level |
-| -------- | ----- |
+| ------------ | ----- |
 | Jets | `A050` |
 | Non-Jets | The lower of `A040` and `RFL` |
 
 ### Departures Controller
-When **AAW** is online, the AD TCU airspace is split down the 05/23 Runway Centreline. As such, departing aircraft shall be instructed to contact the departures controller corresponding to the direction of turn of the aircraft after departure
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate Enroute controller or Advisory frequency shall be issued.
 
-| Tracking via            | Departure Runway      | Departures Controller        |
-| ------------------ | -------------- | ---------------- |
-| VILAD   | 05/23/12   | AAE         |
-| UPROT    | 05/23/12   | AAE         |
-| AVDEN    | 05/23/12   | AAE         |
-| BENDO     | 05/23/12 | AAE          | 
-| ALBUT    | 05/23/12  | AAE          | 
-| EEMUE    | 05/23/30  | AAW          | 
-| GILES   | 05/23/30  | AAW          | 
-| YORKE    | 05/23/30  | AAW          | 
-| AREPA    | 05/23/30  | AAW          | 
-| HOLIT    | 05/23/30  | AAW          | 
-| ORBUN    | 05/23/30  | AAW          | 
-| All   | 12  | AAE          | 
-| All   | 30  | AAW          | 
+=== "RWY 05"
+    | Runway | Via  | Departure Frequency |
+    | ------ | ---- | -------------------- |
+    | 05 | AREPA<br>GILES<br>ORBUN<br>West | 124.2 (AAW) |
+    | 05 | AVDEN<br>BENDO<br>UPROT<br>East | 118.2 (AAE)  |
+
+=== "RWY 12"
+    | Runway | Via  | Departure Frequency |
+    | ------ | ---- | -------------------- |
+    | 12 | All | 118.2 (AAE)  |
+
+=== "RWY 23"
+    | Runway | Via  | Departure Frequency |
+    | ------ | ---- | -------------------- |
+    | 23 | AREPA<br>GILES<br>ORBUN<br>West | 124.2 (AAW) |
+    | 23 | AVDEN<br>BENDO<br>UPROT<br>East | 118.2 (AAE)  |
+
+=== "RWY 30"
+    | Runway | Via  | Departure Frequency |
+    | ------ | ---- | -------------------- |
+    | 30 | All | 124.2 (AAW)  |

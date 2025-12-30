@@ -30,7 +30,7 @@ Aircraft unable to accept a procedural SID, and **non-RNAV** aircraft shall be a
     ^ When the R596 area is active, aircraft planned via **UBNON** and departing Runway 12 shall be assigned the **UBNON BRAVO** SID.
 
 ## Coordination
-### Departures
+### Auto Release
 [Next](../../controller-skills/coordination.md#next) coordination is **not** required from WLM ADC to WLM TCU for aircraft that are:  
 
 - Departing from a runway nominated in the ATIS; and  
@@ -47,7 +47,6 @@ The Standard Assignable level from WLM ADC to WLM TCU is:
 Where a single TCU controller is operating the WLM TMA, the departures controller shall be **WLM_APP** (frequency 133.300).
 
 Where the non-standard **WLM-L_APP** sector is online, they shall be the departures controller (frequency 135.700).
-
 
 ### Arrivals/Overfliers
 Voiceless coordination is in place from WLM TCU to WLM ADC for arrivals cleared for an approach on to a runway nominated on the ATIS. All other aircraft and all overfliers must be heads-up coordinated as soon as practical.
