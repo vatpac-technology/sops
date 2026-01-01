@@ -290,9 +290,12 @@ When an aircraft is cleared to the bay, put `BAY` in the Holding Point box.
 When an aircraft arrives at their nominated parking position, [inhibit](#control-bar) the strip to remove it from the stripboard.
 
 ##### OzBays Integration
-At OzBays-enabled aerodromes, the pre-assigned parking bay from OzBays will be displayed automatically in the parking bay field for arriving aircraft.
+At OzBays-enabled aerodromes, the pre-assigned parking bay from [OzBays](https://ozbays.xyz/) will be displayed automatically in the parking bay field for arriving aircraft.
 
 Pre-assigned OzBays bays are displayed with a grey background. These bays can be overridden by editing the field manually. To display the pre-assigned bay again, edit the field and clear out your input.
+
+!!! note
+    OzBays is currently in final development and testing, and will be progressively enabled for each aerodrome.
 
 #### Runway Crossings
 For aircraft who need to cross an active runway, select the strip and use the [XX CROSS XX](#control-bar) button to highlight it as a runway crossing. SMC should hotline ADC to request each runway crossing and/or place the strip in the **Holding Point Bay**  with the crossing highlight applied, as a visual trigger to ADC that an aircraft needs to cross. Once ADC has approved the runway crossing, place the strip back in the **Taxi Bay** and remove the highlight.
