@@ -13,6 +13,7 @@
 | <span class="indented">Brisbane Departures North :material-information-outline:{ title="Non-standard position"} | BDN | Brisbane Departures | 133.450 | BN_DEP   |
 | <span class="indented">Brisbane Departures South :material-information-outline:{ title="Non-standard position"} | BDS | Brisbane Departures | 118.450 | BN-S_DEP |
 | <span class="indented">Gold Coast Approach :material-information-outline:{ title="Non-standard position"}       | BAC | Brisbane Approach   | 123.500 | BN-C_APP |
+| <span class="indented">Brisbane Radar :material-information-outline:{ title="Non-standard position"}            | SHN | Brisbane Centre     | 119.500 | BN-R_DEP |
 | <span class="indented">Brisbane Flow :material-information-outline:{ title="Non-standard position"}             | BFL |                     |         | BN_FMP   |
 
 !!! abstract "Non-Standard Positions"
@@ -59,6 +60,9 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **
 	![SODPROPS TCU Structure](img/bnsodprops.png){ width="700" }
 	  <figcaption>SODPROPS TCU Structure</figcaption>
 	</figure>
+	
+#### Brisbane Radar (SHN)
+SHN is responsible for the provision of FIS in Class G airspace within the BN TMA. The position is designed to reduce the workload of other TMA positions by identifing and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller.
 
 #### Airspace Structural Arrangements
 Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, **"North"**/**"West"** positions shall assume the airspace of corresponding **"South"**/**"East"** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.

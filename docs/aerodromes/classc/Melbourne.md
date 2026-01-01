@@ -38,7 +38,7 @@ An additional taxiway parallel to runway 27 has been built, named taxiway D. Thi
 The majority of simulators do not have scenery which reflects this construction, however X-Plane (and possibly some other niche scenery packages) do.
 
 #### Taxiway Y Apron Taxi Lanes
-The apron off taxiway Y has been amended to include two separate taxi lanes, capable of facilitating simultaneous pushbacks from aircraft at Pier F and Pier G.
+The apron off taxiway Y has been amended to include two separate taxi lanes: APN8 and APN9, capable of facilitating simultaneous pushbacks from aircraft at Pier F and Pier G.
 
 The majority of simulators will still have the old apron layout with a single taxi lane between the two piers. Controllers should be wary of the potential for collision if simultanous pushback approval is given to aircraft in this area.
 
@@ -268,7 +268,31 @@ The following Standard Assignable Headings may be used for aircraft assigned the
 Any runway change must be prior coordinated to **MAE** and **EN ADC**.
 
 ### Departures Controller
-Refer to [Melbourne TCU Airspace Division](../../../terminal/melbourne/#airspace-division) for information on airspace divisions when **MDN** and/or **MDS** are online.
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate Enroute controller or Advisory frequency shall be issued.
+
+=== "RWY 09"
+    | Runway | Via  | Departure Frequency |
+    | ------ | ---- | -------------------- |
+    | 09 | Tracking NW, N, or NE | 118.9 (MDN) |
+    | 09 | Tracking SW, S, or SE | 129.4 (MDS) |
+
+=== "RWY 16"
+    | Runway | Via  | Departure Frequency |
+    | ------ | ---- | -------------------- |
+    | 16 | MNG<br>NONIX<br>DOSEL<br>KEPPA<br>PEDNI<br>Tracking NW, N, or NE | 118.9 (MDN) |
+    | 16 | CORRS<br>CRENA<br>ESDIG<br>ISPEG<br>SUNTI<br>Tracking SW, S, or SE | 129.4 (MDS) |
+
+=== "RWY 27"
+    | Runway | Via  | Departure Frequency |
+    | ------ | ---- | -------------------- |
+    | 27 | MNG<br>NONIX<br>DOSEL<br>KEPPA<br>PEDNI<br>Tracking NW, N, or NE | 118.9 (MDN) |
+    | 27 | CORRS<br>CRENA<br>ESDIG<br>SUNTI<br>Tracking SW, S, or SE | 129.4 (MDS) |
+
+=== "RWY 34"
+    | Runway | Via  | Departure Frequency |
+    | ------ | ---- | -------------------- |
+    | 34 | CORRS<br>MNG<br>NONIX<br>DOSEL<br>KEPPA<br>PEDNI<br>SUNTI<br>Tracking NW, N, or NE | 118.9 (MDN) |
+    | 34 | CRENA<br>ESDIG<br>Tracking SW, S, or SE | 129.4 (MDS) |
 
 ### EN ADC
 EN ADC is responsible for separation with all YMML traffic, and will coordinate any aircraft operating in EN ADC airspace that cannot be visually or laterally separated with YMML traffic.

@@ -163,5 +163,31 @@ The Standard Assignable level from CB ADC to CB TCU is:
 | IFR | `A100` |
 | VFR | The lower of `A040` and `RFL` |
 
-### Runway Change
-Any Runway change must be prior coordinated to **CB TCU**.
+### Departures Controller
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate Enroute controller or Advisory frequency shall be issued.
+
+=== "RWY 12"
+
+    | Runway | Via  | Departure Frequency |
+    | ------ | ---- | -------------------- |
+    | 12 | All | 124.5 (CBE) |
+
+=== "RWY 17"
+
+    | Runway | Via  | Departure Frequency |
+    | ------ | ---- | -------------------- |
+    | 17 | DUBUS<br>HOWLY<br>NONUP<br>TANTA<br>WG VOR<br>West | 125.9 (CBW) |
+    | 17 | AKMIR<br>AVBEG<br>CULIN<br>East | 124.5 (CBE) |
+
+=== "RWY 30"
+
+    | Runway | Via  | Departure Frequency |
+    | ------ | ---- | -------------------- |
+    | 30 | All | 125.9 (CBW) |
+
+=== "RWY 35"
+
+    | Runway | Via  | Departure Frequency |
+    | ------ | ---- | -------------------- |
+    | 35 | AVBEG<br>DUBUS<br>HOWLY<br>NONUP<br>TANTA<br>WG VOR<br>West | 125.9 (CBW) |
+    | 35 | AKMIR<br>CULIN<br>East | 124.5 (CBE) |
