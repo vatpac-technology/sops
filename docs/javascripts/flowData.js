@@ -64,6 +64,12 @@ export const flowData = {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
+                },
+                "MENOG": {
+                    "Vectors to IAF": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
                 }
             },
             "27": {
@@ -95,6 +101,12 @@ export const flowData = {
                     "ALAXO A STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
+                    }
+                },
+                "MENOG": {
+                    "Vectors to IAF": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
                     }
                 }
             },
@@ -131,16 +143,28 @@ export const flowData = {
                         "Reduced Speed": 10
                     }
                 },
-                "PORTS": {
-                    "PORTS STAR": {
-                        "Normal Speed": 7,
-                        "Reduced Speed": 7
-                    }
-                },
                 "ALAXO": {
                     "ALAXO A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
+                    }
+                },
+                "EKKAS": {
+                    "PORTS STAR": {
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
+                    }
+                },
+                "LATTA": {
+                    "PORTS STAR": {
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
+                    }
+                },
+                "MENOG": {
+                    "Vectors to IAF": {
+                        "Normal Speed": 8,
+                        "Reduced Speed": 8
                     }
                 }
             },
@@ -169,16 +193,28 @@ export const flowData = {
                         "Reduced Speed": 17
                     }
                 },
-                "PORTS": {
-                    "PORTS STAR": {
-                        "Normal Speed": 11,
-                        "Reduced Speed": 12
-                    }
-                },
                 "ALAXO": {
                     "ALAXO A STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
+                    }
+                },
+                "EKKAS": {
+                    "PORTS STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "LATTA": {
+                    "PORTS STAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
+                },
+                "MENOG": {
+                    "Vectors to IAF": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
                     }
                 }
             }
@@ -222,6 +258,12 @@ export const flowData = {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
+                },
+                "MENOG": {
+                    "Vectors to IAF": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    }
                 }
             },
             "27": {
@@ -253,6 +295,12 @@ export const flowData = {
                     "ALAXO A STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
+                    }
+                },
+                "MENOG": {
+                    "Vectors to IAF": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
                     }
                 }
             },
@@ -289,16 +337,28 @@ export const flowData = {
                         "Reduced Speed": 11
                     }
                 },
-                "PORTS": {
-                    "PORTS STAR": {
-                        "Normal Speed": 8,
-                        "Reduced Speed": 8
-                    }
-                },
                 "ALAXO": {
                     "ALAXO A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
+                    }
+                },
+                "EKKAS": {
+                    "PORTS STAR": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "LATTA": {
+                    "PORTS STAR": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                },
+                "MENOG": {
+                    "Vectors to IAF": {
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
                     }
                 }
             },
@@ -327,14 +387,26 @@ export const flowData = {
                         "Reduced Speed": 19
                     }
                 },
-                "PORTS": {
-                    "PORTS STAR": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 13
-                    }
-                },
                 "ALAXO": {
                     "ALAXO A STAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
+                    }
+                },
+                "EKKAS": {
+                    "PORTS STAR": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "LATTA": {
+                    "PORTS STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "MENOG": {
+                    "Vectors to IAF": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
