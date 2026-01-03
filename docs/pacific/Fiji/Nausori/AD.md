@@ -61,7 +61,7 @@ While there are no controlled helipads at NFNA, there are privately managed heli
 Helicopters using these helipads be instructed to 'report on the ground'/'report when airbourne' in lieu of an explicit takeoff/landing clearance.
 <!---## Runway Modes--->
 ## SID Selection
-Aircraft planned via **LB VOR**, **MT NDB**, **NFNS**, **ATOLL**, **SAPIR**, **ISTOS**, **NAVUA**^, **NN VOR**, **MI NDB**, or **VK NDB** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
+Aircraft planned via **LB VOR**, **MT NDB**, **NFNS**, **ATOLL**, **SAPIR**, **ISTOS**, **NAVUA**^, **NN VOR**, **MI NDB**, or **MELEB** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
 !!! note
 	^ When the [Namukla Training Area](#namuka-training-area) is active, aircraft tracking via NAVUA shall be assigned the **CHARLIE** SID, NA VOR transition, thence direct NAVUA.
