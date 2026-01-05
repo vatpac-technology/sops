@@ -145,10 +145,39 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 === "SY TCU"
 	=== "07AD"
 		<figure markdown>
-		![SY TCU Handover Frequencies - 07AD Mode](../assets/enr-tcu_handovers/sy09ad.png){ width="500" }
+		![SY TCU Handover Frequencies - 07AD Mode](../assets/enr-tcu_handovers/sy07ad.png){ width="500" }
 		  <figcaption>SY TCU Handover Frequencies - 07AD Mode</figcaption>
 		</figure>
+		
+	=== "25AD"
+		<figure markdown>
+		![SY TCU Handover Frequencies - 25AD Mode](../assets/enr-tcu_handovers/sy25ad.png){ width="500" }
+		  <figcaption>SY TCU Handover Frequencies - 25AD Mode</figcaption>
+		</figure>
+	=== "16 PROPS"
+		<figure markdown>
+		![SY TCU Handover Frequencies - 16 PROPS Mode](../assets/enr-tcu_handovers/sy16props.png){ width="500" }
+		  <figcaption>SY TCU Handover Frequencies - 16 PROPS Mode</figcaption>
+		</figure>
+	=== "34 PROPS"
+		<figure markdown>
+		![SY TCU Handover Frequencies - 34 PROPS Mode](../assets/enr-tcu_handovers/sy34props.png){ width="500" }
+		  <figcaption>SY TCU Handover Frequencies - 34 PROPS Mode</figcaption>
+		</figure>
+	=== "SODPROPS"
+		<figure markdown>
+		![SY TCU Handover Frequencies - SODPROPS Mode](../assets/enr-tcu_handovers/sysodprops.png){ width="500" }
+		  <figcaption>SY TCU Handover Frequencies - SODPROPS Mode</figcaption>
+		</figure>
 
+
+	| ADES | STAR  | Frequency (Controller) |
+	| ---- | ----- | ---------------------- |
+	| YSSY | BOREE | **124.400** (SAN)      |
+	| YSSY | MARLN | **124.400** (SAN)      |
+	| YSSY | MEPIL | **124.400** (SAN)      |
+	| YSSY | ODALE | **128.300** (SAS)      |
+	| YSSY | RIVET | **128.300** (SAS)      |
 
 	!!! tip
 		The quick reference tables above only include scenarios for which there is [voiceless coordination](#sy-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
