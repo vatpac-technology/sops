@@ -102,7 +102,7 @@ The Standard Assignable Level from **RI ADC** to **SY TCU** is:
 | All | The lower of `A050` and `RFL` |
 
 ### Departures Controller
-The departure controller is dependent on the YMML [runway mode](../../terminal/sydney.md#airspace-division). Ensure the appropriate frequency is selected based on the direction of flight and runway mode.
+The departure controller is dependent on the YSSY [runway mode](../../terminal/sydney.md#airspace-division). Ensure the appropriate frequency is selected based on the direction of flight and runway mode.
 
 ## Charts
 !!! abstract "Reference"
