@@ -326,7 +326,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 === "PH TCU"
 	=== "03AD06D"
 		<figure markdown>
-		![PH TCU Handover Frequencies - 03AD06D Mode](../assets/enr-tcu_handovers/ph03AD06D.png){ width="500" }
+		![PH TCU Handover Frequencies - 03AD06D Mode](../assets/enr-tcu_handovers/ph03ad06d.png){ width="500" }
 		  <figcaption>PH TCU Handover Frequencies - 03AD06D Mode</figcaption>
 		</figure>
 
