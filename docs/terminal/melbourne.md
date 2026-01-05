@@ -54,21 +54,27 @@ The divisions of the airspace between **MAE**, **MDN**, **MDS**, and **MAV** cha
 	  <figcaption>09A16D TCU Structure</figcaption>
 	</figure>
 
-=== "16AD & 16A27D"
+=== "16AD"
 	<figure markdown>
-	![16 / 16A27D TCU Structure](img/ml16.png){ width="700" }
-	  <figcaption>16 / 16A27D TCU Structure</figcaption>
+	![16 TCU Structure](img/ml16.png){ width="700" }
+	  <figcaption>16 TCU Structure</figcaption>
+	</figure>	
+
+=== "16A2D"
+	<figure markdown>
+	![16A27D TCU Structure](img/ml16a27d.png){ width="700" }
+	  <figcaption>16A27D TCU Structure</figcaption>
 	</figure>
 
 === "27AD"
 	<figure markdown>
-	![27 / 27AD34D TCU Structure](img/ml27.png){ width="700" }
+	![27 TCU Structure](img/ml27.png){ width="700" }
 	  <figcaption>27 TCU Structure</figcaption>
 	</figure>
 	
 === "27AD34D"
 	<figure markdown>
-	![27 / 27AD34D TCU Structure](img/ml27ad34d.png){ width="700" }
+	![27AD34D TCU Structure](img/ml27ad34d.png){ width="700" }
 	  <figcaption>27AD34D TCU Structure</figcaption>
 	</figure>
 
@@ -80,8 +86,8 @@ The divisions of the airspace between **MAE**, **MDN**, **MDS**, and **MAV** cha
 	
 === "27A34AD (LAHSO)"
 	<figure markdown>
-	![27 / 27AD34D TCU Structure](img/ml27a34ad.png){ width="700" }
-	  <figcaption>27 / 27AD34D TCU Structure</figcaption>
+	![27AD34D TCU Structure](img/ml27a34ad.png){ width="700" }
+	  <figcaption>27AD34D TCU Structure</figcaption>
 	</figure>
 
 #### Avalon Approach (MAV)
