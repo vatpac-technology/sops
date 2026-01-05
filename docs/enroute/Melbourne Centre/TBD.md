@@ -132,6 +132,27 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | MUN, ASP(BKE) | TBD | YPAD, YPED| |
 | ASP(All) | AUG | YPAD, YPED| Jets only |
 
+## Terminal Handover Frequencies
+Aircraft being transferred from enroute to a TCU with multiple frequencies shall be given the frequency for the revelant TCU position.
+		
+=== "AD TCU"
+	<figure markdown>
+	![AD TCU Handover Frequencies](../assets/enr-tcu_handovers/ad.png){ width="500" }
+	  <figcaption>AD TCU Handover Frequencies</figcaption>
+	</figure>
+
+	| STAR  | Frequency (Controller) |
+	| ----- | ---------------------- |
+	| AREPA | **124.200** (AAW)      |
+	| AVDEN | **118.200** (AAE)      |
+	| BENDO | **118.200** (AAE)      |
+	| GILES | **124.200** (AAW)      |
+	| ORBUN | **124.200** (AAW)      |
+	| UPROT | **118.200** (AAE)      |
+	
+	!!! tip
+		The quick reference tables above only include scenarios for which there is [voiceless coordination](#cb-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+
 ## Coordination
 ### AD TCU
 #### Airspace
