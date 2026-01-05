@@ -139,137 +139,38 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | ARL(MDE) | KAT | YSCB | Jets only |
 | ARL(CNK), ARL(MLD), ARL(OCN) | BIK | YSCB | Jets only |
 
+## Terminal Handover Frequencies
+Aircraft being transferred from enroute to a TCU with multiple frequencies shall be given the frequency for the revelant TCU position.
+
 === "SY TCU"
-	=== "09AD"
+	=== "07AD"
 		<figure markdown>
-		![BLA-ML TCU 09AD Handover Frequencies](../assets/enr-tcu_handovers/ml09ad.png){ width="500" }
-		  <figcaption>BLA-ML TCU 09AD Handover Frequencies</figcaption>
+		![SY TCU Handover Frequencies - 07AD Mode](../assets/enr-tcu_handovers/sy09ad.png){ width="500" }
+		  <figcaption>SY TCU Handover Frequencies - 07AD Mode</figcaption>
 		</figure>
 
-		| ADES | STAR  | Frequency (Controller) |
-		| ---- | ----- | ---------------------- |
-		| YMML | ALAXO | **129.400** (MDS)      |
-		| YMML | ARBEY | Above `A095`: **118.900** (MDN)<br>Below `A095`: **132.000** (MAE) |
-		| YMML | BOOIN | Above `A095`: **118.900** (MDN)<br>Below `A095`: **132.000** (MAE) |
-		| YMML | BOYSE | Above `A095`: **118.900** (MDN)<br>Below `A095`: **132.000** (MAE) |
-		| YMML | PORTS | **129.400** (MDS)      |
-		| YMML | RAZZI | **129.400** (MDS)      | 
-
-	=== "09A16D"
-		<figure markdown>
-		![BLA-ML TCU 09A16D Handover Frequencies](../assets/enr-tcu_handovers/ml09a16d.png){ width="500" }
-		  <figcaption>BLA-ML TCU 09A16D Handover Frequencies</figcaption>
-		</figure>
-		
-		| ADES | STAR  | Frequency (Controller) |
-		| ---- | ----- | ---------------------- |
-		| YMML | ALAXO | **129.400** (MDS)      |
-		| YMML | ARBEY | **132.000** (MAE)      |
-		| YMML | BOOIN | **132.000** (MAE)      |
-		| YMML | BOYSE | **132.000** (MAE)      |
-		| YMML | PORTS | **129.400** (MDS)      |
-		| YMML | RAZZI | **129.400** (MDS)      | 
-
-	=== "16AD"
-		<figure markdown>
-		![BLA-ML TCU 16AD Handover Frequencies](../assets/enr-tcu_handovers/ml16ad.png){ width="500" }
-		  <figcaption>BLA-ML TCU 16AD Handover Frequencies</figcaption>
-		</figure>
-		
-		| ADES | STAR  | Frequency (Controller) |
-		| ---- | ----- | ---------------------- |
-		| YMML | ALAXO | **129.400** (MDS)      |
-		| YMML | ARBEY | **118.900** (MDN)      |
-		| YMML | BOOIN | **132.000** (MAE)      |
-		| YMML | BOYSE | **132.000** (MAE)      |
-		| YMML | RAZZI | **132.000** (MAE)      | 
-
-	=== "16A27D"
-		<figure markdown>
-		![BLA-ML TCU 16A27D Handover Frequencies](../assets/enr-tcu_handovers/ml16a27d.png){ width="500" }
-		  <figcaption>BLA-ML TCU 16A27D Handover Frequencies</figcaption>
-		</figure>
-		
-		| ADES | STAR  | Frequency (Controller) |
-		| ---- | ----- | ---------------------- |
-		| YMML | ALAXO | **129.400** (MDS)      |
-		| YMML | ARBEY | **118.900** (MDN)      |
-		| YMML | BOOIN | **132.000** (MAE)      |
-		| YMML | BOYSE | **132.000** (MAE)      |
-		| YMML | RAZZI | **132.000** (MAE)      | 
-
-	=== "27AD"
-		<figure markdown>
-		![BLA-ML TCU 27AD Handover Frequencies](../assets/enr-tcu_handovers/ml27ad.png){ width="500" }
-		  <figcaption>BLA-ML TCU 27AD Handover Frequencies</figcaption>
-		</figure>
-		
-		| ADES | STAR  | Frequency (Controller) |
-		| ---- | ----- | ---------------------- |
-		| YMML | ALAXO | **129.400** (MDS)      |
-		| YMML | ARBEY | **118.900** (MDN)      |
-		| YMML | BOOIN | **132.000** (MAE)      |
-		| YMML | BOYSE | **132.000** (MAE)      |
-		| YMML | RAZZI | **132.000** (MAE)      | 
-
-	=== "27AD34D"
-		<figure markdown>
-		![BLA-ML TCU 27AD Handover Frequencies](../assets/enr-tcu_handovers/ml27ad34d.png){ width="500" }
-		  <figcaption>BLA-ML TCU 27AD34D Handover Frequencies</figcaption>
-		</figure>
-		
-		| ADES | STAR  | Frequency (Controller) |
-		| ---- | ----- | ---------------------- |
-		| YMML | ALAXO | **129.400** (MDS)      |
-		| YMML | ARBEY | **118.900** (MDN)      |
-		| YMML | BOOIN | **132.000** (MAE)      |
-		| YMML | BOYSE | **132.000** (MAE)      |
-		| YMML | RAZZI | **132.000** (MAE)      | 
-
-	=== "34AD"
-		<figure markdown>
-		![BLA-ML TCU 27AD Handover Frequencies](../assets/enr-tcu_handovers/ml34ad.png){ width="500" }
-		  <figcaption>BLA-ML TCU 34AD Handover Frequencies</figcaption>
-		</figure>
-		
-		| ADES | STAR  | Frequency (Controller) |
-		| ---- | ----- | ---------------------- |
-		| YMML | ALAXO | **129.400** (MDS)      |
-		| YMML | ARBEY | **118.900** (MDN)      |
-		| YMML | BOOIN | **132.000** (MAE)      |
-		| YMML | BOYSE | **132.000** (MAE)      |
-		| YMML | PORTS | **129.400** (MDS)      |
-		| YMML | RAZZI | **132.000** (MAE)      | 
-
-	=== "27AD"
-		<figure markdown>
-		![BLA-ML TCU 27A34AD Handover Frequencies](../assets/enr-tcu_handovers/ml27a34ad.png){ width="500" }
-		  <figcaption>BLA-ML TCU 27A34AD Handover Frequencies</figcaption>
-		</figure>
-		
-		| ADES | STAR  | Frequency (Controller) |
-		| ---- | ----- | ---------------------- |
-		| YMML | ALAXO | **129.400** (MDS)      |
-		| YMML | ARBEY | **118.900** (MDN)      |
-		| YMML | BOOIN | **132.000** (MAE)      |
-		| YMML | BOYSE | **132.000** (MAE)      |
-		| YMML | PORTS | **129.400** (MDS)      |
-		| YMML | RAZZI | **132.000** (MAE)      |
 
 	!!! tip
-		The quick reference tables above only include scenarios for which there is [voiceless coordination](#ml-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+		The quick reference tables above only include scenarios for which there is [voiceless coordination](#sy-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 		
 === "CB TCU"
 	=== "All"
 		<figure markdown>
-		![BLA-CB TCU Handover Frequencies](../assets/en-tcu_handovers/cb.png){ width="500" }
-		  <figcaption>BLA-CB TCU Handover Frequencies</figcaption>
+		![CB TCU Handover Frequencies](../assets/enr-tcu_handovers/cb.png){ width="500" }
+		  <figcaption>CB TCU Handover Frequencies</figcaption>
 		</figure>
 
-		| Tracking | Frequency (Controller) |
-		| -------- | ---------------------- |
-		| All      | **125.900** (CBW)      |
-
+		| STAR  | Frequency (Controller) |
+		| ----- | ---------------------- |
+		| AVBEG | **125.900** (CBW)      |
+		| BUNGO | **124.500** (CBE)      |
+		| LEECE | **124.500** (CBE)      |
+		| MANDA | **125.900** (CBW)      |
+		| POLLI | **125.900** (CBW)      |
+	
+	!!! tip
+		The quick reference tables above only include scenarios for which there is [voiceless coordination](#cb-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+		
 ## Coordination
 ### SY TCU
 #### Airspace
