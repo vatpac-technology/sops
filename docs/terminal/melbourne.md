@@ -258,32 +258,35 @@ Detailed procedures exist to ensure that controllers are aware of their responsi
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
 === "Jets & DH8D"
-    | STAR | RWY 09 | RWY 16 | RWY 27 | RWY 34 |
+    | Arrival | RWY 09 | RWY 16 | RWY 27 | RWY 34 |
     | ---------- | :---: | :--: | :--: | :---: |
-    | **ARBEY**      | 11^ | 9^  | 12 | 13 |
-    | **BOYSE A**    | 16 | 13 | 11 | 14 |
-    | **BOYSE V**    | -  | -  | -  | 13 |
-    | **BOOIN A**    | 15 | 12 | 10^ | 13 |
-    | **BOOIN V**    | -  | -  | -  | 12 |
-    | **RAZZI A/V**  | 16 | 13 | 9^  | 10^ |
-    | **RAZZI M**    | -  | 11 | -  | -  |
-    | **PORTS**      | 11 | -  | -  | 7^  |
-    | **ALAXO A**    | 11^ | 17 | 15 | 12 |
-    | **ALAXO P**    | -  | 15 | -  | -  |
+    | **ALAXO A STAR**    | 11\^ | 17 | 15 | 12 |
+    | **ALAXO P STAR**    | -  | 15 | -  | -  |
+    | **ARBEY STAR**      | 11\^ | 9\^  | 12 | 13 |
+    | **BOOIN A STAR**    | 15 | 12 | 10\^ | 13 |
+    | **BOOIN V STAR**    | -  | -  | -  | 12 |
+    | **BOYSE A STAR**    | 16 | 13 | 11 | 14 |
+    | **BOYSE V STAR**    | -  | -  | -  | 13 |
+    | **PORTS STAR**<br>*ONAGI transition*<br>*TASIS transition*      | <br>13<br>14 | <br>-<br>-  | <br>-<br>-  | <br>9\^<br>9\^  |
+    | **RAZZI A/V STAR**  | 16 | 13 | 9\^  | 10\^ |
+    | **RAZZI M STAR**    | -  | 11 | -  | -  |
+    | **No STAR - Vectors to IAF**<br>*Feeder Fix: MENOG* | <br>10\^ | <br>15 | <br>11\^ | <br>8\^ |
+
 
 === "Non-Jets"
-    | STAR | RWY 09 | RWY 16 | RWY 27 | RWY 34 |
+    | Arrival | RWY 09 | RWY 16 | RWY 27 | RWY 34 |
     | ---------- | :---: | :--: | :--: | :---: |
-    | **ARBEY**      | 12^ | 10^ | 14 | 15 |
-    | **BOYSE A**    | 18 | 15 | 13 | 16 |
-    | **BOYSE V**    | -  | -  | -  | 15 |
-    | **BOOIN A**    | 17 | 14 | 11^ | 15 |
-    | **BOOIN V**    | -  | -  | -  | 14 |
-    | **RAZZI A/V**  | 18 | 15 | 10^ | 11^ |
-    | **RAZZI M**    | -  | 13 | -  | -  |
-    | **PORTS**      | 12 | -  | -  | 8^  |
-    | **ALAXO A**    | 12^ | 19 | 17 | 14 |
-    | **ALAXO P**    | -  | 17 | -  | -  |
+    | **ALAXO A STAR**    | 12\^ | 19 | 17 | 14 |
+    | **ALAXO P STAR**    | -  | 17 | -  | -  |
+    | **ARBEY STAR**      | 12\^ | 10\^ | 14 | 15 |
+    | **BOOIN A STAR**    | 17 | 14 | 11\^ | 15 |
+    | **BOOIN V STAR**    | -  | -  | -  | 14 |
+    | **BOYSE A STAR**    | 18 | 15 | 13 | 16 |
+    | **BOYSE V STAR**    | -  | -  | -  | 15 |
+    | **PORTS STAR**<br>*ONAGI transition*<br>*TASIS transition*      | <br>15<br>16 | <br>-<br>-  | <br>-<br>-  | <br>10\^<br>11\^  |
+    | **RAZZI A/V STAR**  | 18 | 15 | 10\^ | 11\^ |
+    | **RAZZI M STAR**    | -  | 13 | -  | -  |
+    | **No STAR - Vectors to IAF**<br>*Feeder Fix: MENOG* | <br>12\^ | <br>17 | <br>12\^ | <br>9\^ |
 
 #### Corrections
 
@@ -294,7 +297,9 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
 #### Assumptions
 - Nil wind
-- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR
+- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except:
+    - The feeder fix for the PORTS STAR, ONAGI Transition is **LATTA**
+    - The feeder fix for the PORTS STAR, TASIS Transition is **EKKAS**
 
 ### Calculator
 <script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
