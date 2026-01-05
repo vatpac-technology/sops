@@ -20,13 +20,13 @@ CG ADC is responsible for the Class C Airspace within the CG CTR `SFC` to `A015`
   <figcaption>CG ADC Airspace</figcaption>
 </figure>
 
-## Maneuvering Area
-### Maneuvering Area Responsibility
+## Manoeuvring Area
+### Manoeuvring Area Responsibility
 ADC is responsible for all runways, and the helipad adjacent taxiway G.
 
 <figure markdown>
-![YBCG Maneuvering Area Responsibility](img/ybcgsmcown.png){ width="500" }
-  <figcaption>YBCG Maneuvering Area Responsibility</figcaption>
+![YBCG Manoeuvring Area Responsibility](img/ybcgsmcown.png){ width="500" }
+  <figcaption>YBCG Manoeuvring Area Responsibility</figcaption>
 </figure>
 
 !!! note
@@ -143,7 +143,7 @@ Where insufficient spacing exists with IFR aircraft, instruct VFR aircraft to re
     **LKU:** "Follow the 737, maintain own separation, join final runway 32, cleared visual approach, LKU"
 
 ### Helicopter Operations
-The HLS (Helipad) is located between the GA Apron and Taxiway Golf. The Helipad is part of the maneuvering area and is controlled by CG ADC. Any helicopter taking off or landing on the helipad requires a specific takeoff or landing clearance from ADC.
+The HLS (Helipad) is located between the GA Apron and Taxiway Golf. The Helipad is part of the manoeuvring area and is controlled by CG ADC. Any helicopter taking off or landing on the helipad requires a specific takeoff or landing clearance from ADC.
 
 !!! phraseology 
     **CG ADC**: "WP2, helipad, cleared to land"
@@ -166,7 +166,7 @@ ADC shall assess the current traffic situation and, if necessary, instruct the p
     **CG ADC:** "WP1, Gold Coast Tower, cleared to YXTV direct, not above A015"  
     **WP1:** "Cleared to YXTV direct, not above A015, WP1"  
 
-Both hospital helipads are outside the maneuvering area and do not require a landing clearance from CG ADC. Helicopters arriving to these helipads should be instructed to "report on the ground" so the controller knows when they are no longer active in their airspace.
+Both hospital helipads are outside the manoeuvring area and do not require a landing clearance from CG ADC. Helicopters arriving to these helipads should be instructed to "report on the ground" so the controller knows when they are no longer active in their airspace.
 
 !!! phraseology
     **CG ADC:** "WP1, cleared visual approach YXTV, report on the ground"  
@@ -175,7 +175,7 @@ Both hospital helipads are outside the maneuvering area and do not require a lan
 #### Departures
 Aircraft departing from hospitals within the Gold Coast CTR must obtain clearance prior to becoming airborne. The Tweed Valley Hospital (YXTV) helipad, is located 6nm south beneath Runway 32 extended centerline, and may present potential traffic conflicts. Aircraft will be subject to delays depending on traffic in the Gold Coast CTR.
 
-Both hospital helipads are outside the maneuvering area and do not require a takeoff clearance from CG ADC, however a clearance to become airborne is required. Helicopters departing from these helipads should be instructed to "report airborne".
+Both hospital helipads are outside the manoeuvring area and do not require a takeoff clearance from CG ADC, however a clearance to become airborne is required. Helicopters departing from these helipads should be instructed to "report airborne".
 
 !!! phraseology
     **RSCU588:** "Gold Coast Tower, helicopter RSCU588, YXTV, ready for northen departure"  
@@ -233,6 +233,13 @@ The Standard Assignable level from CG ADC to BN TCU is:
 | -------- | ----- |
 | Jets | `A060` |
 | Non-Jets | The lower of `A060` and `RFL` |
+
+### Departures Controller
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the Advisory frequency shall be issued.
+
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| All | All | 123.5 (BAC) |
 
 ### Start Clearance
 A start clearance is required for aircraft planned to YBBN. Start clearance must be coordinated with BN TCU.

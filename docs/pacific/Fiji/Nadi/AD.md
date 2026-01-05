@@ -188,7 +188,7 @@ Jet Aircraft **not** planned via any of these waypoints shall receive amended ro
 | Via | Preferred SID | 2nd | 3rd |
 | ---- | ------------ | ----| ---- |
 | TUTRI<br>KABAR^ | **ALPHA** | | |
-| BIDNA<br>PACKO<br>MAKSO |  **CHARLIE** | | |
+| BIDNA<br>PANDO<br>MAKSO |  **CHARLIE** | | |
 | GODAP<br>LUPLO<br>EXORA | **DELTA** | **CHARLIE** | |
 | NA VOR<br>NAVUA | **HOTEL** | **ECHO** | **DELTA**/**CHARLIE**† |
 | AGTOS | **FOXTROT** | | |
@@ -197,7 +197,7 @@ Jet Aircraft **not** planned via any of these waypoints shall receive amended ro
 !!! note
 	^ When the [Tiliva Training Area](#tiliva-training-area) is active, aircraft tracking via KABAR shall be assigned the **CHARLIE** SID, NN VOR transition, thence direct KABAR.
 	
-	† Aircraft planned via an airway commencing at **VK NDB** shall be assigned the **DELTA** SID. Aircraft planned via an airway commencing at **NN VOR** shall be assigned the **CHARLIE** SID.
+	† Aircraft planned via an airway commencing at **MELEB** shall be assigned the **DELTA** SID. Aircraft planned via an airway commencing at **NN VOR** shall be assigned the **CHARLIE** SID.
 
 During busy periods NFFNA and NFFN ADC may coordinate and lower-priority departures for better traffic management purposes.
 

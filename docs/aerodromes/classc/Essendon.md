@@ -193,6 +193,9 @@ The Standard Assignable level from EN ADC to ML TCU is:
 | -------- | ----- |
 | All | The lower of `A030` and `RFL` |
 
+##### Departure Controller
+The departure controller is dependent on the YMML [runway mode](../../terminal/melbourne.md#airspace-division). Ensure the appropriate frequency is selected based on the direction of flight and runway mode.
+
 #### Arrivals/Overfliers
 ML TCU will heads-up coordinate arrivals/overfliers from Class C to EN ADC.  
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to EN ADC, unless EN ADC nominates a restriction.
