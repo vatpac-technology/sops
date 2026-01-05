@@ -320,6 +320,41 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | GEL, IND | LEA | YPPH | |
 | IND | LEA, JAR | YPPH | |
 
+## Terminal Handover Frequencies
+Aircraft being transferred from enroute to a TCU with multiple frequencies shall be given the frequency for the revelant TCU position.
+
+=== "PH TCU"
+	=== "03AD06D"
+		<figure markdown>
+		![PH TCU Handover Frequencies - 03AD06D Mode](../assets/enr-tcu_handovers/ph03AD06D.png){ width="500" }
+		  <figcaption>PH TCU Handover Frequencies - 03AD06D Mode</figcaption>
+		</figure>
+
+		| ADES | STAR  | Frequency (Controller) |
+		| ---- | ----- | ---------------------- |
+		| YPPH | DAYLR | **123.600** (PHA)      |
+		| YPPH | IPMOR | **118.700** (PHD)      |
+		| YPPH | JULIM | ABV `A065`: **123.600** (PHA)<br>BLW `A065`: **118.700** (PHD) |
+		| YPPH | KABLI | **123.600** (PHA)      |
+		| YPPH | LAVEX | **123.600** (PHA)      |
+		| YPPH | SAPKO | ABV `A065`: **123.600** (PHA)<br>BLW `A065`: **118.700** (PHD) | 
+		| YPPH | SOLUS | **123.600** (PHA)      | 
+
+	=== "24A21AD"
+		<figure markdown>
+		![PH TCU Handover Frequencies - 24A21AD Mode](../assets/enr-tcu_handovers/ph24a21ad.png){ width="500" }
+		  <figcaption>PH TCU Handover Frequencies - 24A21AD Mode</figcaption>
+		</figure>
+		
+		| ADES | STAR  | Frequency (Controller) |
+		| ---- | ----- | ---------------------- |
+		| YPPH | IPMOR | ABV `A065`: **123.600** (PHA)<br>BLW `A065`: **118.700** (PHD) |
+		| YPPH | JULIM | **123.600** (PHA)      |
+		| YPPH | KABLI | ABV `A065`: **123.600** (PHA)<br>BLW `A065`: **118.700** (PHD) |
+		| YPPH | LAVEX | ABV `A065`: **123.600** (PHA)<br>BLW `A065`: **118.700** (PHD) |
+		| YPPH | SAPKO | **123.600** (PHA)      | 
+		| YPPH | SOLUS | **118.700** (PHD)      | 
+
 ## Coordination
 ### PH TCU
 #### Airspace
