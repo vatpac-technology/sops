@@ -273,7 +273,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 === "CB TCU"
 	=== "All"
 		<figure markdown>
-		![CB TCU Handover Frequencies](../assets/en-tcu_handovers/cb.png){ width="500" }
+		![CB TCU Handover Frequencies](../assets/enr-tcu_handovers/cb.png){ width="500" }
 		  <figcaption>CB TCU Handover Frequencies</figcaption>
 		</figure>
 
