@@ -242,6 +242,14 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 	!!! tip
 		The quick reference tables above only include scenarios for which there is [voiceless coordination](#ml-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 
+=== "Tasmania TCU"
+	Each of the Tasmania TCUs has its own frequency. When a controller is [extending](../../../controller-skills/extending/#terminal-area) to cover both TCUs both frequencies will be primed but the callsign remains the same.
+
+	| TCU | Frequency (Controller) |
+	| ---- | ---------------------- |
+	| LT | **123.800** (LTA)      |
+	| HB | **125.550** (HBA)      |
+
 ## Coordination
 ### TAS TCU
 #### Airspace
