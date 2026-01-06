@@ -58,7 +58,7 @@ Lanes may be used for circuits and low-level operations. Aircraft cleared to lan
 
 #### Flying Training Areas
 
-R654A, B, C and D are divided into the Western, North West and North East FTAs, these areas overlay the LFAs.
+R654A, B, C and D are divided into the Western, North West and North East FTAs. These areas overlay the [LFAs](#low-flying-areas).
 
 <figure markdown>
 ![YBOK FTAs](img/YBOK-FTAs.png){ width="600" }
@@ -67,7 +67,7 @@ R654A, B, C and D are divided into the Western, North West and North East FTAs, 
 
 #### Low Flying Areas
 
-There are eight LFAs within the OFTA, LFAs are the primary location for military helicopters conducting low level operations. LFAs are numbered 1-8 with the prefix L, pronounced as, "LIMA (number)".
+There are eight LFAs within the OFTA. LFAs are the primary location for military helicopters conducting low level operations. LFAs are numbered 1-8 with the prefix L, pronounced as, "LIMA (number)".
 
 #### SAAFRs
 
@@ -83,21 +83,16 @@ Three transit areas, named "Whiskey" (western), "Charlie" (central) and "Echo" (
 ## Departure and Arrival Procedures
 
 ### Departures
-
-By default, transit to LFAs will **not** be achieved through the use of SAAFRs and Transit Areas, direct tracking to the requested LFA shall always be issued.  
+By default, aircraft will be cleared to transit to their requested LFA by tracking direct.
 
 !!! phraseology
     **FRTL21:** "Oakey Delivery, helicopter FRTL21, for Lima 1, request clearance"    
     **OK ACD:** "FRTL21, Oakey Delivery, cleared Lima 1 direct, not above A030, squawk 7264"    
     **FRTL21:** "Cleared Lima 1 direct, not above A030, squawk 7264, FRTL21"  
 
+At pilot request, tracking via an outbound SAAFR or Transit Area may be offered. 
 
-Aircraft requesting clearance to LFAs through a specific SAAFR or Transit Area should be cleared as requested.
-
-Not all SAAFRs and Transit Areas provide access to every LFA, each SAAFR and Transit Area connects to various LFAs. Aircraft should be cleared as requested, however if the requested SAAFR or Transit Area does not connect to the intended LFA, the aircraft must be recleared via the most appropriate alternative.
-
-!!! example
-    Aircraft requesting clearance to Lima 4 via Yankee, shall be cleared via X-Ray, as Yankee does not connect to Lima 4.
+Ensure any requested SAAFRs or Transit Areas connect with the intended LFA, in accordance with the tables below:
 
 === "SAAFRs"
 	| Name | Connected LFAs |
@@ -112,6 +107,10 @@ Not all SAAFRs and Transit Areas provide access to every LFA, each SAAFR and Tra
 	| Whiskey | Lima 2, 3, 4 |
 	| Charlie | Lima 1 |
 	| Echo | Lima 8 |
+
+
+!!! example
+    Aircraft requesting clearance to Lima 4 via Yankee, shall be cleared via X-Ray, as Yankee does not connect to Lima 4.
 
 !!! phraseology
     **RSCU904:** "Oakey Delivery, helicopter RSCU904, for Lima 2, via Whiskey, request clearance"    

@@ -49,7 +49,7 @@ The vertical limits of the AMB and OK TCUs are `SFC` to `F210`.
     <figcaption>OK TCU Restricted Areas</figcaption>
     </figure>
 
-    **OK ADC** owns the Class C airspace within 5 DME of the OK VOR from `SFC` to `A025`.
+    **OK ADC** owns the Class C airspace within 5 DME of the OK VOR from `SFC` to `A030`.
 
 ## Extending
 AMA is **expected** to extend to OKA and vice versa; callsigns remain the same. See [Controller Skills](../controller-skills/extending.md) for details.
@@ -119,28 +119,25 @@ Transfer these aircraft to ADC approaching the boundary.
 
 #### Oakey Flying Training Area
 
-There are eight LFAs within the OFTA, LFAs are the primary location for military helicopters conducting low level operations. LFAs are numbered 1-8 with the prefix L, pronounced as, "LIMA (number)". 
+There are eight LFAs within the OFTA. LFAs are the primary location for military helicopters conducting low level operations. LFAs are numbered 1-8 with the prefix L, pronounced as, "LIMA (number)". 
 
-SAAFRs provide efficient movement through the OFTA to specific LFAs during periods of high traffic. They are defined as 2nm wide, and are named "X-Ray", "Yankee" and "Zulu".
+SAAFRs provide efficient movement through the OFTA to specific LFAs during periods of high traffic. They are defined as 2nm wide and are named "X-Ray", "Yankee" and "Zulu".
 
 Three transit areas, named "Whiskey" (western), "Charlie" (central) and "Echo" (eastern) are located between the Oakey CTR and inner boundaries of their respective LFAs. Transit Areas exist to provide flexibility in routing when leaving or enter Oakey CTR.
 
-The boundaries of some LFAs cross the lateral boundary of R654A/B. An ATC clearance to operate in a LFA, authorises an aircraft to leave and re-enter R654A/B within the dimensions of the cleared LFA.
+The boundaries of some LFAs cross the lateral boundary of R654A/B. An ATC clearance to operate in a LFA authorises an aircraft to leave and re-enter R654A/B within the dimensions of the cleared LFA.
 
 !!! tip
     Detailed images depicting LFAs, SAAFRs and Transit Areas are available on the [Oakey AD2 SUP](https://ais-af.airforce.gov.au/australian-aip)
 
 ##### Ops Normal
 
-Aircraft shall report established once within the LFA, and nominate an Ops Normal time. If the pilot does not volunteer an Ops Normal time, provide one that is on an even hour or half hour, between 30 minutes to 60 minutes from the current time.
+Aircraft shall report established once within the LFA, and nominate an Ops Normal time. If the pilot does not volunteer an Ops Normal time, ATC shall provide one.
 
 !!! phraseology
     **FRTL31:** "Oakey Approach, FRTL31, established in Lima 1"    
     **OKA:** "FRTL31, call ops normal time 30"  
     **FRTL31:** "Ops normal time 30, FRTL31"  
-
-!!! tip
-    You can set the Ops Normal timer by right clicking on the ACID in the label, and entering the agreed upon time.
 
 ##### Number
 
@@ -198,7 +195,7 @@ When operating within LFAs, aircraft may additionally request to operate in SAAF
 
 ### Departures
 
-By default, transit to LFAs will **not** be achieved through the use of SAAFRs and Transit Areas, direct tracking to the requested LFA will always be issued. Aircraft outbound from YBOK for LFAs will depart the CIRA visually and track direct to their LFA, or the requested outbound SAAFRs / Transit Area as cleared.
+By default, aircraft will be cleared to transit to their requested LFA by tracking direct. Aircraft outbound from YBOK for LFAs will depart the CIRA visually and track direct to their LFA. At pilot request, tracking via an outbound SAAFR or Transit Area may be offered.
 
 ### Arrivals
 
