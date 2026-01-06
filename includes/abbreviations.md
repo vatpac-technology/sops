@@ -378,3 +378,8 @@
 *[AOBT]: Actual Off Blocks Time
 *[CTOT]: Calculated Take Off TIme
 *[ATOT]: Actual Off Blocks Time
+*[OFTA]: Oakey Flying Training Area
+*[FTAs]: Flying Training Areas
+*[LFAs]: Low Flying Areas
+*[SAAFRs]: Standard Use Army Aircraft Flight Routes
+*[RTB]: Return To Base
