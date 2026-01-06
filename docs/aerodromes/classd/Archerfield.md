@@ -60,7 +60,7 @@ Aircraft shall track via any designated VFR inbound reporting point at `A015`, a
 | TAR       |  *"Join Base RWY 04R"*                              | *"Join Base RWY 22L"*                              | *"Join Downwind RWY 10R, maintain A015"*       | *"Join Final RWY 28L"*        |
 
 !!! note
-    If applicable, aircraft shall be instructed to maintain `A015`, for separation with aircraft departing the zone `A010`. Once clear of the departure track, instruct aircraft "**cleared visual approach*", cancelling the previous level restriction.
+    If applicable, aircraft shall be instructed to maintain `A015` for separation with aircraft departing the zone `A010`. Once clear of the departure track, clear these aircraft for a visual approach.
 
 ### Departures
 
@@ -75,7 +75,7 @@ Aircraft shall track via any designated VFR inbound reporting point at `A015`, a
 Aircraft shall advise planned departure intentions to **AF SMC** when requesting taxi.
 
 !!! phraseology
-    **BJZ:** "Archer Ground, Seminole BJZ, Eastern Apron, received F, Duel, for eastern departure, request taxi"  
+    **BJZ:** "Archer Ground, Seminole BJZ, Eastern Apron, received F, for eastern departure, request taxi"  
     **AF ADC:** "BJZ, Archer Ground, taxi holding point B2, runway 28R"  
     **BJZ:** "Taxi holding point B2, runway 28R, BJZ"
 
@@ -116,9 +116,9 @@ Helicopter circuits are conducted from designated areas based on the duty runway
 | Runway 28/10   | Northern Grass  |
 | Runway 04/22   | Eastern Grass   |
 
-Circuit operations are conducted parallel to the duty runway not above `A007` and inside the fixed-wing circuit. Once established within Northern Grass or Eastern Grass, helicopters may operate in ground effect, maintaining listening watch, unless conducting circuit. ATC will not positively control helicopter takeoff and landings from the training areas or provide sequencing instructions. Initial traffic information only will be provided on other helicopters conducting circuits, and a continuous lookout for airborne traffic is the responsibility of helicopters. 
+Circuit operations are conducted parallel to the duty runway not above `A007` and inside the fixed-wing circuit. Once established within Northern Grass or Eastern Grass, helicopters may operate in ground effect, maintaining a listening watch with ADC. ATC will not positively control helicopter takeoff and landings from the training areas or provide sequencing instructions. Initial traffic information only will be provided on other helicopters conducting circuits, and a continuous lookout for airborne traffic is the responsibility of the pilot. 
 
-Once established, the only call is an airborne call before each circuit. Pilots must report airborne before each circuit. If departing, they must include intentions
+Once established, the only call is an airborne call before each circuit. Pilots must report airborne before each circuit. If departing, they must include their departure intentions.
 
 !!! phraseology 
     **FHK:** "Archer Tower, helicopter FHK, northern pad, for northern grass, ready"  
@@ -154,7 +154,7 @@ Departures with intended entry into BN CTR northbound shall depart the zone via 
 Helicopters enter the zone from any of the [designated inbound reporting points](#arrivals). Pilots shall nominate their desired HLS on first contact with AF ADC. If necessary, helicopters may be instructed to overfly the runway complex not below `A005` for a short circuit to the designated HLS.
 
 !!! phraseology 
-    **82Y:** "Archer Tower, helicopter 82Y, TAR A010, recieved Foxtrot, inbound northern pad"  
+    **82Y:** "Archer Tower, helicopter 82Y, TAR `A010`, recieved Foxtrot, inbound northern pad"  
     **AF ADC:** "82Y, Archer Tower, track direct northen pad, report 1 mile"  
     **82Y:** "Track direct northern pad, 82Y"  
 
@@ -164,10 +164,10 @@ Helicopters enter the zone from any of the [designated inbound reporting points]
 
 Helicopters inbound for the LifeFlight Maintenance Base or Queensland Government Air facility HLS shall be issued a standard fixed wing circuit instruction for the applicable duty runway, complying with fixed wing operations unless another approach is requested or desired.
 
-Helicopters inbound from the south via PKR for either the northen or central helipad shall be instructed to "cross 10L and 10R" alongside any other tracking or traffic information.
+Helicopters inbound from the south via PKR for either the northen or central helipad shall be instructed to *"cross 10L and 10R"* alongside any other tracking or traffic information.
 
 !!! phraseology 
-    **SMD:** "Archer Tower, helicopter SMD, PKR A015, recieved Golf, inbound central pad"  
+    **SMD:** "Archer Tower, helicopter SMD, PKR `A015`, recieved Golf, inbound central pad"  
     **AF ADC:** "SMD, Archer Tower, report Logan Motorway"  
     **SMD:** "Report Logan Motorway, SMD"  
 
