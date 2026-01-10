@@ -60,7 +60,7 @@ The divisions of the airspace between **MAE**, **MDN**, **MDS**, and **MAV** cha
 	  <figcaption>16 TCU Structure</figcaption>
 	</figure>	
 
-=== "16A2D"
+=== "16A27D"
 	<figure markdown>
 	![16A27D TCU Structure](img/ml16a27d.png){ width="700" }
 	  <figcaption>16A27D TCU Structure</figcaption>

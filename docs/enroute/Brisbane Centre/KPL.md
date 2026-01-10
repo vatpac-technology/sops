@@ -109,6 +109,14 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | KPL | SWY | YBTL | |
 | SWY | KPL | YBSU | |
 
+## Terminal Handover Frequencies
+Each of the Coral TCUs has its own frequency. When a controller is [extending](../../../controller-skills/extending/#terminal-area) to cover both TCUs both frequencies will be primed but the callsign remains the same.
+
+	| TCU | Frequency (Controller) |
+	| ---- | ---------------------- |
+	| MKA | **125.650** (MKA)      |
+	| RKA | **123.750** (RKA)      |
+
 ## Coordination
 ### RKA
 #### Airspace
