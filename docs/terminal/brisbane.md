@@ -61,12 +61,18 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **
 	  <figcaption>SODPROPS TCU Structure</figcaption>
 	</figure>
 	
+	!!! warning "Important"
+		During SODPROPS approach and departure sectors are combined, and cannot be controlled independently.
+	
 #### Brisbane Radar (SHN)
 SHN is responsible for the provision of FIS in Class G airspace within the BN TMA. The position is designed to reduce the workload of other TMA positions by identifing and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller.
 
 #### Airspace Structural Arrangements
 Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, **"North"**/**"West"** positions shall assume the airspace of corresponding **"South"**/**"East"** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
 
+!!! tip
+    Due to the unique arrangement of the BN TCU, splitting the TCU between APP/DEP sectors may be more challenging than a vertical split (ie, 'BAN/BDN' and BAS/BAS). Unless there are more than two controllers (excluding BAC and SHN), it is **not recommended** that BDN is held separately from BAN, nor BDS held separately from BAS.
+	
 ## Separation
 ### Parallel Runway Operations
 Refer to [Parallel Runway Separation Standards](../../separation-standards/parallelapps) for more information
@@ -129,7 +135,7 @@ Unless operationally required, aircraft arriving YBBN shall be assigned the foll
 | --------- | ------- |
 | via BLAKA | 01R/19L |
 | via GOMOL | 01R/19L |
-| via UGTUG | 01R/**19R** |
+| via UGTUG | 01R/19L |
 | via TEBOT | 01R/**19R** |
 | via MORBI | 01L/19R |
 | via SMOKA | 01L/19R |

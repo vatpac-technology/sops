@@ -148,17 +148,19 @@ Both taxiway **H2** and **F4** are inside the manoeuvring area and treated like 
 ### Preferred Runway Modes
 Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
-| Priority - Mode | Arrivals  | Departures |
-| --------------- | --------- | ---------- |
-| 1 - SODPROPS    | 19R       | 01R        |
-| 2 - 19 PROPS    | 19L & 19R | 19L & 19R  |
-| 3 - 01 PROPS    | 01L & 01R | 01L & 01R  |
+| Priority - Mode   | Arrivals  | Departures |
+| ----------------- | --------- | ---------- |
+| 1 - SODPROPS      | 19R       | 01R        |
+| 2 - 19 PROPS      | 19L & 19R | 19L & 19R  |
+| 3 - 01 PROPS      | 01L & 01R | 01L & 01R  |
+| 4 - 19 Segregated | 19R *or* 19L | 19L *or* 19R |
+| 5 - 01 Segregated | 01R *or* 01L | 01L *or* 01R |
 | *Curfew (RRO)   | 19L       | 01R        |
 
 *Permitted between the hours of 2200 and 0600 Local. If the pilot does not want to participate in curfew mode operations, the controller must accommodate this request.
 
 !!! note
-    The SODPROPS and RRO mode is most suitable for Noise Abatement. The PROPS modes are most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Panic Stations.
+    The SODPROPS, segregated, and RRO modes are most suitable for Noise Abatement. The PROPS modes is most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Panic Stations.
 
 When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time
 
@@ -169,6 +171,7 @@ When using the SODPROPS mode, pass traffic information to aircraft that are depa
     **DEF:** "Cleared to Land Runway 19R, DEF"  
 
 ### Runway Selection
+Unless operationally required, aircraft shall be assigned the following runways for departure when PROPS are in progress:
 
 | Aircraft tracking | Runway  |
 | ----------------  | --------- |
@@ -199,6 +202,9 @@ Non-Jet aircraft, and aircraft that cannot accept a Procedural SID, shall be ass
 
 !!! example
     Non-Jet Aircraft planned via WACKO, assigned runway 01R, shall be assigned the BN (RADAR) SID.
+	
+### Climb Gradient Requirements
+Climb gradient requirements apply to all Procedural SIDs. It is the pilot's responsibility to advise if they are unable to meet these requirements. Pilots that advise this shall be assigned the **RADAR** SID instead, regardless of aircraft type.
 
 ## ATIS
 ### Approach Types

@@ -202,7 +202,7 @@ When operating a PROPS Runway Mode, Aircraft shall be assigned the appropriate '
 | ---- | -------- |
 | BLAKA | 01R/19L |
 | GOMOL | 01R/19L |
-| UGTUG | 01R/**19R** |
+| UGTUG | 01R/19L |
 | TEBOT | 01R/**19R** |
 | MORBI | 01L/19R |
 | SMOKA | 01L/19R |
