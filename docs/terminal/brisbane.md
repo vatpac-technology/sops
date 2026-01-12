@@ -62,7 +62,12 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **
 	</figure>
 	
 	!!! warning "Important"
-		During SODPROPS approach and departure sectors are combined, and cannot be controlled independently.
+		During SODPROPS, approach and departure sectors are combined 'on-side'. Ie:
+		
+		- **BAN** and **BDN** are combined with each other; *and*
+		- **BAS** and **BDS** are combined with each other.
+		
+		The controller may connect as either position, and assume both frequencies.
 	
 #### Brisbane Radar (SHN)
 SHN is responsible for the provision of FIS in Class G airspace within the BN TMA. The position is designed to reduce the workload of other TMA positions by identifing and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller.
