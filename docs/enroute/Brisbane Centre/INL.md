@@ -284,7 +284,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		| YBCG | All   | **123.500** (BAC)      |
 
 		!!! tip
-			The quick reference tables above only include scenarios for which there is [voiceless coordination](#sy-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 		
 	=== "19 PROPS"
 		<figure markdown>
@@ -305,7 +305,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		| YBCG | All   | **123.500** (BAC)      |
 
 		!!! tip
-			The quick reference tables above only include scenarios for which there is [voiceless coordination](#sy-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 		
 	=== "SODPROPS"
 		<figure markdown>
@@ -326,7 +326,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		| YBCG | All   | **123.500** (BAC)      |
 
 		!!! tip
-			The quick reference tables above only include scenarios for which there is [voiceless coordination](#sy-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 
 ## Coordination
 ### BN TCU
