@@ -71,7 +71,10 @@ SHN is responsible for the provision of FIS in Class G airspace within the BN TM
 Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, **"North"**/**"West"** positions shall assume the airspace of corresponding **"South"**/**"East"** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
 
 !!! tip
-    Due to the unique arrangement of the BN TCU, splitting the TCU between APP/DEP sectors may be more challenging than a vertical split (ie, 'BAN/BDN' and BAS/BAS). Unless there are more than two controllers (excluding BAC and SHN), it is **not recommended** that BDN is held separately from BAN, nor BDS held separately from BAS.
+    Due to the unique arrangement of the BN TCU, when multiple TCU controllers are online, splitting the airspace in to approach airspace and departures airspace creates additional complexity, and conflicts between multiple controllers. It is *strongly recommended* that airspace is combined 'on-side', ie:
+    
+    - **BAN** and **BDN** combined; *and*
+    - **BAS** and **BDS** combined.
 	
 ## Separation
 ### Parallel Runway Operations
