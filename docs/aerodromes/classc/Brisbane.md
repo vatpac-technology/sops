@@ -62,6 +62,17 @@ Taxiway Y is to be used in a westerly direction and Taxiway Z in an easterly dir
 ### Reduced Runway Separation
 When conditions permit, the [2400m separation standard for landing aircraft](../../separation-standards/runway.md#2400m-standard) may be applied to aircraft arriving on any runway.
 
+### SODPROPS
+When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time.
+
+!!! phraseology
+    **BN ADC:** "JST521, traffic is a 737 on a 3nm final for the opposite direction parallel runway, runway 01R, cleared for takeoff"  
+    **JST521:** "Runway 01R, cleared for takeoff, JST521"  
+    **BN ADC:** "VOZ954, traffic is an A320 departing from the opposite direction parallel runway, runway 19R, cleared to land"  
+    **VOZ954:** "Runway 19R, cleared to land, VOZ954" 
+
+Ensure the [ATIS](#atis) is updated to reflect the SODPROPS runway mode. 
+
 ### Parallel Runway Operations
 Refer to [Parallel Runway Separation Standards](../../../separation-standards/parallelapps) for more information
 
@@ -211,6 +222,14 @@ Climb gradient requirements apply to all Procedural SIDs. It is the pilot's resp
 The ATIS shall always have `EXP INST APCH` as the approach type.
 
 Visual Approaches are permitted on request, as long as a separation standard exists between the aircraft and any aircraft arriving on the parallel runway during PROPS, or departing from the parallel runway during SODPROPS.
+
+### Runway Mode
+| Mode     | ATIS Runway information      |
+| -------- | ---------------------------- |
+| 01 PROPS | `01L AND R FOR ARRS AND DEPS` |
+| 19 PROPS | `19L AND R FOR ARRS AND DEPS` |
+| SODPROPS  | `19R FOR ARRS, RWY 01R FOR DEPS` |
+| Segregated Runway Operations | *As appropriate for chosen duty runway* |
 
 ### Operational Info
 The Operational Information field should be updated based on the runway mode in use, as per the table below:

@@ -156,6 +156,9 @@ Unless operationally required, aircraft arriving YBBN shall be assigned the foll
 ### SODPROPS
 Arriving aircraft must be established on final and transferred to the tower frequency no later than 10NM from touchdown.
 
+!!! note
+    Arrivals from the south and east shall be assigned the **ISPON** STAR to RWY 19R by Enroute. Aircraft not assigned this procedure should be closely monitored for conflict with aircraft departing RWY 01R.
+
 ## Helicopter Operations
 In VMC, helicopters inbound to or outbound from YBBN shall be processed via two visual waypoints (outlined below) positioned north and south of the field. Where VMC does not exist, IFR helicopters will conform to fixed wing ops.
 
