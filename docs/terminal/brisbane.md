@@ -69,7 +69,7 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **
 		
 		The controller may connect as either position, and assume both frequencies. 
         
-        Only **two** TCU controllers may operate the BN TMA when running the SODPROPS runway mode (excluding an additional SHN controller if desired).
+        Only **two** TCU controllers may operate the BN TMA when running the SODPROPS runway mode (excluding an additional SHN or BAC controller if desired).
 	
 #### Brisbane Radar (SHN)
 SHN is responsible for the provision of FIS in Class G airspace within the BN TMA. The position is designed to reduce the workload of other TMA positions by identifing and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller.
@@ -78,7 +78,7 @@ SHN is responsible for the provision of FIS in Class G airspace within the BN TM
 Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, **"North"**/**"West"** positions shall assume the airspace of corresponding **"South"**/**"East"** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
 
 !!! tip
-    Due to the unique arrangement of the BN TCU, when multiple TCU controllers are online, splitting the airspace in to approach airspace and departures airspace creates additional complexity, and conflicts between multiple controllers. It is *strongly recommended* that airspace is combined 'on-side', ie:
+   Due to the unique arrangement of the BN TMA, when general traffic levels across the TMA are high and multiple TCU controllers are available, splitting the airspace in to 'approach' airspace and 'departures' airspace may introduce additional complexity. In these situations, it may be simpler to combine sectors 'on-side', i.e.:
     
     - **BAN** and **BDN** combined; *and*
     - **BAS** and **BDS** combined.
