@@ -39,7 +39,7 @@ ES ADC owns no airspace. Release may be available from ES APP for circuits.
 ### Flight Category
 Recovering military aircraft must automatically revert to VFR at the following points:
 
-- At the initial point when recovering via military stream landing pattern (initial and pitch)
+- At the [initial](../../../controller-skills/military/#initial-and-pitch) point when recovering via military stream landing pattern (initial and pitch)
 - At Hi-Key
 - Following a touch and go, go-around, or visual overshoot when a local IFR aircraft has indicated an intention to join the circuit
 

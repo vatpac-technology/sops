@@ -40,7 +40,7 @@ There are three training areas located within R470, used for both civil and mili
 A start approval is required whenever parachute drops are conducted onto the Richmond Drop Zone. Additionally, ‘propellers/engines stopped’ reports are required. ATC shall notify these requirements by ATIS broadcast.
 
 ### Inital and Pitch
-The standard inital points are 5nm downwind of the active runway, dead side, left pitch/circuit.
+The standard [initial](../../../controller-skills/military/#initial-and-pitch) points are 5nm downwind of the active runway, dead side, left pitch/circuit.
 
 ## VFR Procedures
 VFR aircraft transiting to/from YSRI should do so at `A015`.

@@ -477,7 +477,7 @@ The default rate is **30 per hour**. This works well for most aerodromes where t
 Specific rates can be set for departures to particular aerodromes. This is particularly useful for events where the destination aerodrome may be rate-limited.
 
 !!! example
-    During [Milk Run Monday](../events/milkrun/), Sydney ACD sets a departure rate of **40 per hour** and a YMML-specific rate of **24 per hour**.
+    During [Milk Run Monday](../../events/milkrun/), Sydney ACD sets a departure rate of **40 per hour** and a YMML-specific rate of **24 per hour**.
 
 #### CDM Stages
 | Name | OzStrips Bay | CDM Processor Action |

@@ -50,7 +50,7 @@ Helicopters operating IFR should be processed just as a fixed-wing aircraft. The
     **RDBK5:** "Cleared to YSHW via LIMLO flight planned route, runway 12, WLM4 departure, climb via SID to `A030`, squawk 2070, departures 135.7, RDBK5"
 
 #### Coded Clearances
-Aerodromes that see significant helicopter traffic, such as [Sydney](../../aerodromes/classc/sydney#helicopter-operations) may implement local procedures that specify coded clearances that can be issued to helicopters.
+Aerodromes that see significant helicopter traffic, such as [Sydney](../../aerodromes/classc/Sydney#helicopter-operations) may implement local procedures that specify coded clearances that can be issued to helicopters.
 
 !!! phraseology
     **YOE:** "Sydney Delivery, helicopter YOE, for the Harbour Bridge 5 outbound, request clearance"  
