@@ -151,7 +151,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 	| UPROT | **118.200** (AAE)      |
 	
 	!!! tip
-		The quick reference tables above only include scenarios for which there is [voiceless coordination](#cb-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+		The quick reference tables above only include scenarios for which there is [voiceless coordination](#ad-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 
 ## Coordination
 ### AD TCU
