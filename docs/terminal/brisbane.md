@@ -1,5 +1,5 @@
 ---
-  title: Brisbane TCU
+  title: Brisbane / Gold Coast TCU
 ---
 
 --8<-- "includes/abbreviations.md"
