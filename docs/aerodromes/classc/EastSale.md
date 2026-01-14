@@ -129,6 +129,10 @@ No more than the following aircraft shall be permitted to operate in the circuit
 #### Low Approach
 By day, pilots of local aircraft may request a low approach. Pilots are responsible for ensuring that no collision risk exists and that there is suitable spacing to continue the approach and for the potential/subsequent go-around.
 
+## SID Selection
+IFR aircraft planned via **AY**, **ANTLA**, **BULKO**, **DUNNE**, **GIPPS**, **MNG**, **MOZZA**, **NUNPA**, **TYERS**, **VALDU**, or **VISER** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
+Aircraft who are not planned via those points may be assigned the RADAR SID or a visual departure. 
+
 ## Coordination
 ### Auto Release
 [Next](../../controller-skills/coordination.md#next) coordination is required from ES ADC to ESA for all aircraft.
