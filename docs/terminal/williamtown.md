@@ -111,7 +111,7 @@ There are 2 gates to facilitate departures and arrivals into the western trainin
 | STORM | STORM | 289 | 25 | R560 and R570 | 
 
 <figure markdown>
-![WLM Western Gates](aerodromes\classc\img\WLMGatesWest.png){ width="700" }
+![WLM Western Gates](..aerodromes/classc/img/WLMGatesWest.png){ width="700" }
   <figcaption>WLM Western Gates</figcaption>
 </figure>
 

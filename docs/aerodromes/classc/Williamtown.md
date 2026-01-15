@@ -44,7 +44,7 @@ There are 8 gates to facilitate departures and arrivals into the eastern trainin
 | Gate 11 | G11 | 320 | 25 | R585 |
 
 <figure markdown>
-![WLM Eastern Gates](img\WLMGatesEast.png){ width="700" }
+![WLM Eastern Gates](img/WLMGatesEast.png){ width="700" }
   <figcaption>WLM Eastern Gates</figcaption>
 </figure>
 
@@ -71,7 +71,7 @@ There are 2 gates to facilitate departures and arrivals into the western trainin
 | STORM | STORM | 289 | 25 | R560 and R570 | 
 
 <figure markdown>
-![WLM Western Gates](\img\WLMGatesWest.png){ width="700" }
+![WLM Western Gates](img/WLMGatesWest.png){ width="700" }
   <figcaption>WLM Western Gates</figcaption>
 </figure>
 
