@@ -124,6 +124,8 @@ Although much of the detailed setup is up to personal preference, the following 
 	    - **XX_(RWY CONFIG)_NAMES** (if applicable)  
 	    - **XX_TCU**  
 	    - **XX_TCU_NAMES**  
+	    - **Released_XXYY** (for any runway releases between ADC and SMC)  
+	    - **Crossing_XXYY** (toggled for any approved crossings of an active runway)  
 	
 	**Tools**
 	
