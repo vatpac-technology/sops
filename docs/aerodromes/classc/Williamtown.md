@@ -23,29 +23,6 @@ WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be a
 
 ## Local Procedures
 ### Fast-Jet SIDs
-!!! important
-    These procedures are only available when the WLM TMA is extended above `F125` through NOTAM or prior coordination. ACD must ensure that the controller responsible for the WLM TMA has approved their use prior to issuing airways clearance.
-
-The [TERMA](https://ais-af.airforce.gov.au/australian-aip) contains two SIDs for use by fast-jet aircraft, allowing them to depart via any of the nominated [SUA gates](#sua-gates).
-
-!!! note
-    These SIDs are not present in vatSys, so WLM ACD must write the name of the SID in the Global Ops Field of the FDR and amend the aircraft's route to include the relevant gate, as well as any RNAV tracking points on the procedure.
-
-Aircraft shall be assigned a SID based on their cleared gate, as per below:
-
-| Tracking Gate | SID | Initial Constraint |
-| ----- | ---------| --------------- |
-| G1-G2 | PEPPER  | `A080` at ERVEV |
-| G3-G7 | CLASSIC | `F125` at G3-G7 |
-| G9    | WLM (RADAR)    | `F125` at G9 |
-| UKDIP | CLASSIC | `A090` at UKDIP |
-| OLVEP | CLASSIC | `F130` at OLVEP |
-
-!!! phraseology
-    WGTL21 plans to enter M550 via Gate 4 for Military Training.  
-    **WLM ADC**: "WGTL21, cleared to M550 via Gate 4, runway 12, Classic 1 departure, climb via SID to F125, squawk 5001, departure frequency 133.3"  
-
-Aircraft on the **CLASSIC SID** must be instructed to make left or right turn with their takeoff clearance, as per the SID procedure. See [coordination](#departures) for coordination requirements with the TCU.
 
 ### SUA Gates
 #### Eastern Airspace
@@ -65,11 +42,11 @@ There are 8 gates to facilitate departures and arrivals into surrounding trainin
 | OLVEP | OLVEP | - | - | R596 |
 
 <figure markdown>
-![WLM Gates](){ width="700" }
+![WLM Eastern Gates](){ width="700" }
   <figcaption></figcaption>
 </figure>
 
-
+#### Western Gates
     
 ### Initial and Pitch Procedures 
 The Intial Points for RWY 12 is the SW tip of Grahamstown Dam, and RWY 30 is the coastline.
