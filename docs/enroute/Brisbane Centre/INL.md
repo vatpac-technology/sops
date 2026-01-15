@@ -202,7 +202,7 @@ When operating a PROPS Runway Mode, Aircraft shall be assigned the appropriate '
 | ---- | -------- |
 | BLAKA | 01R/19L |
 | GOMOL | 01R/19L |
-| UGTUG | 01R/**19R** |
+| UGTUG | 01R/19L |
 | TEBOT | 01R/**19R** |
 | MORBI | 01L/19R |
 | SMOKA | 01L/19R |
@@ -221,7 +221,7 @@ These standard runway assignments may be modified strategically by the BAS or BF
     <span class="hotline">**INL** -> **BFL**</span>: "Roger, Arrivals via GOMOL to be assigned 19R" 
 
 ### SODPROPS
-When operating the SODPROPS Runway Mode, aircraft via **ENLIP**, **BLAKA**, **GOMOL** and **UGTUG**, shall be assigned the **ISPON** STAR with the appropriate transition. Aircraft via other Feeder fixes may be assigned the standard STAR.
+When operating the SODPROPS Runway Mode, aircraft via **ENLIP**, **BLAKA**, **GOMOL** and **UGTUG**, shall be assigned the **ISPON** STAR with the appropriate transition. Aircraft via other feeder fixes may be assigned the standard STAR.
 
 ## YAMB Coded Clearances
 Coded Clearances are available inbound and outbound from the AMB TMA to provided a standardised corridor for fast jet aircraft.
