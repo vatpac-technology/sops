@@ -43,8 +43,8 @@ There are 8 gates to facilitate departures and arrivals into the eastern trainin
 | Gate 11 | G11 | 320 | 25 | R585 |
 
 <figure markdown>
-![WLM Eastern Gates](){ width="700" }
-  <figcaption></figcaption>
+![WLM Eastern Gates](aerodromes\classc\img\WLMGatesEast.png){ width="700" }
+  <figcaption>WLM Eastern Gates</figcaption>
 </figure>
 
 Aircraft planning to enter certain areas of the Eastern GFTA are required to be assigned certain gates. 
@@ -62,7 +62,19 @@ Aircraft planning to enter certain areas of the Eastern GFTA are required to be 
     **WLM SMC** -> **DPOT45**: "DPOT45 cleared Gate 4, FL120, Visual Departure squawk 6001, departure frequency 135.700"
 
 #### Western Gates
-    
+There are 2 gates to facilitate departures and arrivals into the western training airspace, based on the WLM TACAN. 
+
+| Gate Name | Ident | Bearing (°M) | Distance (nm) | Restricted Area |
+| ----- | ---------| --------------- | -------- | ---------------- |
+| THUNDA | THUNDA | 311 | 25 | R560 and R570  |
+| STORM | STORM | 289 | 25 | R560 and R570 | 
+
+<figure markdown>
+![WLM Western Gates](aerodromes\classc\img\WLMGatesWest.png){ width="700" }
+  <figcaption>WLM Western Gates</figcaption>
+</figure>
+
+
 ### Initial and Pitch Procedures 
 The Intial Points for RWY 12 is the SW tip of Grahamstown Dam, and RWY 30 is the coastline.
 
