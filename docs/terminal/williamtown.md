@@ -6,10 +6,10 @@
 
 ## Positions
 
-| Name               | Callsign       | Frequency        | Login ID              |
-| ------------------ | -------------- | ---------------- | --------------------------------------|
-| **Williamtown Approach (High)**    | **Willy Approach**   | **133.300**         | **WLM_APP**                                   |
-| <span class="indented">Williamtown Approach (Low) :material-information-outline:{ title="Non-standard position"}    | Willy Approach   | 135.700         | WLM-L_APP                                   |
+| Name                          | ID      | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
+| **Williamtown Approach (High)**| **WAH** |**Willy Approach**      | **133.300** | **WLM_APP**   |
+| <span class="indented">Williamtown Approach (Low) :material-information-outline:{ title="Non-standard position"} | WAL | Willy Approach | 135.700 | WLM-L_APP |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
@@ -18,20 +18,26 @@
 ## Airspace
 WLM TCU owns the airspace within the WLM MIL CTR `SFC` to `F125`.
 
+<figure markdown>
+![WLM TCU Structure](img/wlm_tcu.png){ width="952" }
+  <figcaption>WLM TCU Structure</figcaption>
+</figure>
+
+## Airspace Division
+### Williamtown High and Low
 When WLM TCU is active above `F125` by ad-hoc release or NOTAM, **WLM-L_APP** owns the airspace `SFC` to `F125`, while **WLM APP** owns the rest of WLM TCU airspace above `F125`. This may be adjusted as required with coordination.
 
 When WLM TCU is active above `F125` by ad-hoc release, **WLM-L_APP** owns the airspace from `SFC` to `F125`, while **WLM_APP** owns the rest of WLM TMA above `F125`.
 
-
 <figure markdown>
-![WLM TCU Airspace](img/wlmtcu.png){ width="700" }
+![WLM TCU Airspace](img/wlm_tcu.png){ width="700" }
   <figcaption>WLM TCU Airspace</figcaption>
 </figure>
 
 !!! note
-    It is the responsibility of the WLM TCU controller(s) to negotiate any airspace releases with ARL(All).
+    It is the responsibility of the WLM TCU controller(s) to negotiate any airspace releases with ARL.
 
-### ADC
+### WLM ADC
 When WLM ADC is online, they own the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be amended/released as required between **WLM ADC** and **WLM TCU**.
 
 <figure markdown>
@@ -49,7 +55,7 @@ Fast jet aircraft typically transit from M550 to YWLM via Gate 6 at `F125`. When
 
 !!! Example
 **MAPL45**: "Willy Approach, MAPL45, RTBing via G6, runway 12" 
-**WLM TCU**: "MAPL45, Willy Approach, cleared stereo approach runway 12, via G6, once 9DME north of the TACAN, descend not below `A050`"  
+**WAL**: "MAPL45, Willy Approach, cleared stereo approach runway 12, via G6, once 9DME north of the TACAN, descend not below `A050`"  
 **MAPL45**: "Cleared stereo approach runway 12, via G6, once 9DME north of the TACAN, descend not below `A050`, MAPL45"
 
 !!! note
@@ -178,8 +184,8 @@ Voiceless for all aircraft:
 All other aircraft going to ARL CTA must be **Heads-up** Coordinated by WLM TCU prior to the boundary.
 
 !!! phraseology
-    <span class="hotline">**WLM TCU** -> **MLD**</span>: "QJE1597, request DCT OMGAB"  
-    <span class="hotline">**MLD** -> **WLM TCU**</span>: "QJE1597, concur DCT OMGAB"  
+    <span class="hotline">**WAH** -> **MLD**</span>: "QJE1597, request DCT OMGAB"  
+    <span class="hotline">**MLD** -> **WAH**</span>: "QJE1597, concur DCT OMGAB"  
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:
@@ -227,8 +233,8 @@ The **CLASSIC SID** provides multiple tracking paths which pilots will take base
 Voiceless coordination is in place from WLM TCU to WLM ADC for arrivals cleared for an approach on to a runway nominated on the ATIS. All other aircraft and all overfliers must be heads-up coordinated as soon as practical.
 
 !!! phraseology
-    <span class="hotline">**WLM TCU** -> **WLM ADC**</span>: "via WLM, ZULU, Close formation of 5, do you have any restrictions or requirements?"  
-    <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "ZULU, no restrictions or requirements, A040"  
+    <span class="hotline">**WAL** -> **WLM ADC**</span>: "via WLM, ZULU, Close formation of 5, do you have any restrictions or requirements?"  
+    <span class="hotline">**WLM ADC** -> **WAL**</span>: "ZULU, no restrictions or requirements, A040"  
 
 ## Charts
 !!! abstract "Reference"

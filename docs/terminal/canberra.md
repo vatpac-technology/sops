@@ -6,11 +6,11 @@
 
 ## Positions
 
-| Name               | ID      | Callsign       | Frequency        | Login ID              |
-| ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
-| **Canberra Approach East**    |**CBE**| **Canberra Approach**   | **124.500**         | **CB_APP**     |
-| <span class="indented">Canberra Approach West :material-information-outline:{ title="Non-standard position"}   |CBW| Canberra Approach   | 125.900          | CB-W_APP    |
-| <span class="indented">Canberra Flow :material-information-outline:{ title="Non-standard position"}        |CBF|                |          | CB_FMP                              |
+| Name                          | ID      | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
+| **Canberra Approach East**    | **CBE** | **Canberra Approach**   | **124.500** | **CB_APP**    |
+| <span class="indented">Canberra Approach West :material-information-outline:{ title="Non-standard position"} | CBW | Canberra Approach | 125.900 | CB-W_APP |
+| <span class="indented">Canberra Flow :material-information-outline:{ title="Non-standard position"}          | CBF |                   |         | CB_FMP   |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
@@ -28,6 +28,9 @@ The Vertical limits of the CB TCU are `SFC` to `F245`.
 ![CB TCU Structure](img/cbtcu_annotated.png){ width="700" }
   <figcaption>CB TCU Structure</figcaption>
 </figure>
+
+!!! warning "Important"
+	Separation between aircraft tracking along the runway 17/35 extended centreline is a **joint responsibility** of CBE and CBW. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
 
 ## Flow
 ### Local Knowledge

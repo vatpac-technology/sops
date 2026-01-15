@@ -16,7 +16,7 @@
 ## Airspace
 ES ADC owns no airspace. Release may be available from ES APP for circuits.
 
-## Maneuvering Area
+## Manoeuvring Area
 ### Standard Taxi Routes
 | Runway     | Outbound Route                   | Inbound Route                   |
 | ---------- | -------------------------------- | --------------------------------|
@@ -147,6 +147,13 @@ Helicopters departing from helicopter spots will be treated as if departing from
     <span class="hotline">**ES ADC** -> **ESA**</span>: "Next, PSDN14, runway 27"  
     <span class="hotline">**ESA** -> **ES ADC**</span>: "PSDN14, right turn, unrestricted"  
     <span class="hotline">**ES ADC** -> **ESA**</span>: "Right turn, PSDN14" 
+
+### Departures Controller
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the Advisory frequency shall be issued.
+
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| All | All | 123.3 (ESA) |
 
 ## Charts
 !!! abstract "Reference"

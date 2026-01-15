@@ -329,6 +329,17 @@ Refer to [Perth TCU Airspace Division](../../../terminal/perth/#airspace-divisio
 
 !!! note
     A significant portion of the TMA airspace south of the PH VOR (roughly 20 DME onwards) is classified Class E with a lower limit of `F125`. Aircraft arriving from this direction from `F130` and above shall be instructed to leave and re-enter controlled airspace on descent to the standard assignable level (or other appropriate altitude).
+	
+#### Departures
+Voiceless for all aircraft:
+ 
+- Tracking via a Procedural SID procedure<sup>‡</sup>; and  
+- Assigned the lower of `F180` or the `RFL`
+	
+!!! note
+    <sup>‡</sup> In contrast to many other TCUs, aircraft are *required* to be tracking via the **SID procedure**. Aircraft simply tracking via any of the terminus waypoints (including aircraft given track shortening) **is not** sufficient to meet the criteria for voiceless coordination.
+
+All other aircraft going to PIY CTA will be **Heads-up** Coordinated by PH TCU.
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:
@@ -339,14 +350,27 @@ Voiceless for all aircraft:
 
 All other aircraft coming from PIY CTA must be **Heads-up** Coordinated to PH TCU prior to **20nm** from the boundary.
 
+### PE TCU
+#### Airspace
+PEA is responsible for the restricted airspace within R155A and R155B. This airspace is reclassified to **Class C** when PEA is online. Additional airspace may be released by NOTAM, or coordinated between PEA, PH TCU, and LEA/PIY to facilitate military operations.
+
+!!! phraseology
+    <span class="hotline">**PEA** -> **PH TCU**</span>: "Request release of M166, SFC to F160, for Military Operations. My onwards with LEA"   
+    <span class="hotline">**PH TCU** -> **PEA**</span>: "M166, SFC to F160, released to you. Your onwards with LEA"  
+
+    <span class="hotline">**PEA** -> **LEA**</span>: "Request release of M166, SFC to F160, for Military Operations. My onwards with PH TCU"   
+    <span class="hotline">**LEA** -> **PEA**</span>: "M166, SFC to F160, released to you. Your onwards with PH TCU"  
+
 #### Departures
-Voiceless for all aircraft:
- 
-- Tracking via a Procedural SID terminus; and  
-- Assigned the lower of `F180` or the `RFL`
+All aircraft from PE TCU to HYD require [Heads-up](../../../controller-skills/coordination/#heads-up) coordination prior to the boundary, however, as soon as practical (when is the aircraft becomes airborne) is preferred. 
 
-All other aircraft going to PIY CTA will be **Heads-up** Coordinated by PH TCU.
+#### Arrivals/Overfliers
+All aircraft transiting from HYD to **PE TCU** must be [Heads-up](../../../controller-skills/coordination/#heads-up) coordinated prior to **20nm** from the boundary. There are no standard assignable levels; HYD and **PEA** controller must agree on a suitable level during coordination.
 
+!!! phraseology
+    <span class="hotline">**LEA** -> **PEA**</span>: "via AVNEX, EGLE9, will be assigned A090"  
+    <span class="hotline">**PEA** -> **LEA**</span>: "EGLE9, A090"
+	
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
@@ -366,39 +390,3 @@ Aircraft must have their identification terminated and be instructed to make a p
 
 !!! phraseology
     **LEA**: "QFA121, identification terminated, report position to Brisbane Radio, 129.25"
-
-### PE TCU
-#### Airspace
-The PE TCU is responsible for the airspace within **20 TACAN** of PEA (that is continained within **Pearce SUA**), `SFC` to `A050`. By default, PE TCU does not border any HYD CTA.
-
-This is all reclassified to **Class C** when PE TCU is online.
-
-!!! abstract "Reference"
-    A helpful diagram can be found in [Pearce FIHA AD2 Supp](https://ais-af.airforce.gov.au/australian-aip){target=new}, Section 2.2.2.
-
-Additional airspace releases may be NOTAM'd, or coordinated between PE TCU, PH TCU and HYD, to facilitate Military Operations.
-
-!!! phraseology
-    <span class="hotline">**PE TCU** -> **PH TCU**</span>: "Request release of R155 Alpha and Bravo, SFC to F180, for Military Operations. My onwards with HYD"   
-    <span class="hotline">**PH TCU** -> **PE TCU**</span>: "R155 Alpha and Bravo, SFC to F180, Released to you. Your onwards with HYD"  
-
-    <span class="hotline">**PE TCU** -> **HYD**</span>: "Request release of R155 Alpha and Bravo, SFC to F180, for Military Operations. My onwards with PH TCU"   
-    <span class="hotline">**HYD** -> **PE TCU**</span>: "R155 Alpha and Bravo, SFC to F180, Released to you. Your onwards with PH TCU"  
-
-#### Departures
-Voiceless for all aircraft:
-
-- Tracking via **AVNEX**; and  
-- Assigned the lower of `F180` or the `RFL`
-
-All other aircraft going to PIY CTA will be **Heads-up** Coordinated by PE TCU, if coming from CTA (ie, only if PE TCU has assumed more airspace than the default setup).
-
-#### Arrivals/Overfliers
-If PE TCU has assumed additional airspace from the default, and as such, PE TCU CTA borders PIY CTA, then:
-
-Voiceless for all aircraft:
-
-- Tracking from **JULIM** or **SAPKO** DCT **PEA**; and 
-- Assigned `A090`
-
-All other arrivals/overfliers coming from PIY CTA must be **Heads-up** Coordinated to PE TCU prior to **20nm** from the boundary.

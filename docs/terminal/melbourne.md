@@ -6,20 +6,21 @@
 
 ## Positions
 
-| Name               | ID      | Callsign       | Frequency        | Login ID              |
-| ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
-| **Melbourne Approach East**    |**MAE**| **Melbourne Approach**   | **132.000**         | **ML_APP**                                   |
-| <span class="indented">Melbourne Departures North :material-information-outline:{ title="Non-standard position"}    |MDN| Melbourne Departures  | 118.900         | ML_DEP          |
-| <span class="indented">Melbourne Departures South :material-information-outline:{ title="Non-standard position"}   |MDS| Melbourne Departures | 129.400          | ML-S_DEP         |
-| <span class="indented">Melbourne (Avalon) Approach :material-information-outline:{ title="Non-standard position"}   |MAV| Avalon Approach | 133.550          | AV_APP         |
-| <span class="indented">Melbourne Flow :material-information-outline:{ title="Non-standard position"}        |MFL|                |          | ML_FMP                             |
+| Name                          | ID      | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
+| **Melbourne Approach East**   | **MAE** | **Melbourne Approach**  | **132.000** | **ML_APP**    |
+| <span class="indented">Melbourne Departures North :material-information-outline:{ title="Non-standard position"}  | MDN | Melbourne Departures | 118.900 | ML_DEP   |
+| <span class="indented">Melbourne Departures South :material-information-outline:{ title="Non-standard position"}  | MDS | Melbourne Departures | 129.400 | ML-S_DEP |
+| <span class="indented">Melbourne (Avalon) Approach :material-information-outline:{ title="Non-standard position"} | MAV | Avalon Approach      | 133.550 | AV_APP   |
+| <span class="indented">Melbourne Radar :material-information-outline:{ title="Non-standard position"}             | MAW | Melbourne Centre     | 135.700 | ML-R_DEP  |
+| <span class="indented">Melbourne Flow :material-information-outline:{ title="Non-standard position"}              | MFL |                      |         | ML_FMP   |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
-The Vertical limits of the ML TCU are `SFC` to `F245`.
+The vertical limits of the ML TCU are `SFC` to `F245`.
 
 ### Reclassifications
 #### MB CTR
@@ -53,21 +54,27 @@ The divisions of the airspace between **MAE**, **MDN**, **MDS**, and **MAV** cha
 	  <figcaption>09A16D TCU Structure</figcaption>
 	</figure>
 
-=== "16AD & 16A27D"
+=== "16AD"
 	<figure markdown>
-	![16 / 16A27D TCU Structure](img/ml16.png){ width="700" }
-	  <figcaption>16 / 16A27D TCU Structure</figcaption>
+	![16 TCU Structure](img/ml16.png){ width="700" }
+	  <figcaption>16 TCU Structure</figcaption>
+	</figure>	
+
+=== "16A2D"
+	<figure markdown>
+	![16A27D TCU Structure](img/ml16a27d.png){ width="700" }
+	  <figcaption>16A27D TCU Structure</figcaption>
 	</figure>
 
 === "27AD"
 	<figure markdown>
-	![27 / 27AD34D TCU Structure](img/ml27.png){ width="700" }
+	![27 TCU Structure](img/ml27.png){ width="700" }
 	  <figcaption>27 TCU Structure</figcaption>
 	</figure>
 	
 === "27AD34D"
 	<figure markdown>
-	![27 / 27AD34D TCU Structure](img/ml27ad34d.png){ width="700" }
+	![27AD34D TCU Structure](img/ml27ad34d.png){ width="700" }
 	  <figcaption>27AD34D TCU Structure</figcaption>
 	</figure>
 
@@ -79,20 +86,27 @@ The divisions of the airspace between **MAE**, **MDN**, **MDS**, and **MAV** cha
 	
 === "27A34AD (LAHSO)"
 	<figure markdown>
-	![27 / 27AD34D TCU Structure](img/ml27a34ad.png){ width="700" }
-	  <figcaption>27 / 27AD34D TCU Structure</figcaption>
+	![27AD34D TCU Structure](img/ml27a34ad.png){ width="700" }
+	  <figcaption>27AD34D TCU Structure</figcaption>
 	</figure>
 
 #### Avalon Approach (MAV)
-MAV is responsible for the Class D and E airspace in the AV CTR, `SFC`-`A045`.  
+MAV is responsible for the Class D and E airspace in the AV CTR, `SFC`-`A045`. 
+
 They are responsible for the same portion of airspace when it is [reclassified](#av-ctr) due to AV ADC being offline.
 
-MAV extends south outside of **30nm ML**, in to YWE(WON) airspace. The Southern portion of this extension (shown below) is Class E `A015`-`A045`, and YWE(WON) is responsible for the airspace **above and below** it.
+MAV extends south outside of **30nm ML**, in to HUO(WON) airspace. The Southern portion of this extension (shown below) is Class E `A015`-`A045`, and HUO(WON) is responsible for the airspace **above and below** it.
 
 <figure markdown>
 ![MAV Airspace Side Profile](img/mavairspace1.png){ width="700" }
   <figcaption>MAV Airspace Side Profile</figcaption>
 </figure>
+
+#### Melbourne Radar (MAW)
+MAW is responsible for the provision of FIS in Class G airspace within the ML TMA. It is a role normally performed by the controller responsible for **MAV**. The position is designed to reduce the workload of other TMA positions by identifing and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller. [Explicit coordination requirements](#between-maw-and-appdep) exist between MAW and other ML TCU positions.
+
+!!! tip
+    It is **not recommended** that the MAV and MAW positions are held by 2 separate controllers, due to the low traffic levels at Avalon. MAV should be opened in preference to MAW, unless traffic levels at Avalon require the role to be split.
 
 ## Departure and Arrival Procedures
 ### Departure Procedures
@@ -209,9 +223,21 @@ Due to the low level of CTA surrounding YMMB, it is best practice to give airway
 #### Arrivals
 IFR aircraft cruising inside CTA will generally commence an instrument approach from within controlled airspace and leave CTA on descent. The missed approach procedure will keep these aircraft outside controlled airspace, so does not need to be protected by the TCU controller. Clear these aircraft to leave CTA descending via an appropriate approach.
 
+When MAW is online, aircraft should be transferred to them once established on the RNP approach.
+
 !!! phraseology
     **ML TCU:** "OFX, Leave controlled airspace descending via the RNP Runway 17L approach, no reported IFR traffic"  
     **OFX:** "Leave controlled airspace descending via the RNP Runway 17L approach, OFX"
+
+***If MAW is online:***
+
+!!! phraseology
+    **MDN:** "OFX, Leave Controlled Airspace descending via the RNP Approach Runway 17L, established contact Melbourne Centre 135.7"  
+    **OFX:** "Leave controlled airspace descending via the RNP Runway 17L approach, contact Melbourne Centre 135.7 established, OFX"  
+
+    **OFX:** "Melbourne Centre, OFX Established RNP Runway 17L"  
+    **MAW:** "OFX, Melbourne Centre no reported IFR traffic"  
+    **OFX:** "OFX" 
 
 ## Runway Modes
 ### LAHSO
@@ -232,32 +258,35 @@ Detailed procedures exist to ensure that controllers are aware of their responsi
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
 === "Jets & DH8D"
-    | STAR | RWY 09 | RWY 16 | RWY 27 | RWY 34 |
+    | Arrival | RWY 09 | RWY 16 | RWY 27 | RWY 34 |
     | ---------- | :---: | :--: | :--: | :---: |
-    | **ARBEY**      | 11^ | 9^  | 12 | 13 |
-    | **BOYSE A**    | 16 | 13 | 11 | 14 |
-    | **BOYSE V**    | -  | -  | -  | 13 |
-    | **BOOIN A**    | 15 | 12 | 10^ | 13 |
-    | **BOOIN V**    | -  | -  | -  | 12 |
-    | **RAZZI A/V**  | 16 | 13 | 9^  | 10^ |
-    | **RAZZI M**    | -  | 11 | -  | -  |
-    | **PORTS**      | 11 | -  | -  | 7^  |
-    | **ALAXO A**    | 11^ | 17 | 15 | 12 |
-    | **ALAXO P**    | -  | 15 | -  | -  |
+    | **ALAXO A STAR**    | 11\^ | 17 | 15 | 12 |
+    | **ALAXO P STAR**    | -  | 15 | -  | -  |
+    | **ARBEY STAR**      | 11\^ | 9\^  | 12 | 13 |
+    | **BOOIN A STAR**    | 15 | 12 | 10\^ | 13 |
+    | **BOOIN V STAR**    | -  | -  | -  | 12 |
+    | **BOYSE A STAR**    | 16 | 13 | 11 | 14 |
+    | **BOYSE V STAR**    | -  | -  | -  | 13 |
+    | **PORTS STAR**<br>*ONAGI transition*<br>*TASIS transition*      | <br>13<br>14 | <br>-<br>-  | <br>-<br>-  | <br>9\^<br>9\^  |
+    | **RAZZI A/V STAR**  | 16 | 13 | 9\^  | 10\^ |
+    | **RAZZI M STAR**    | -  | 11 | -  | -  |
+    | **No STAR - Vectors to IAF**<br>*Feeder Fix: MENOG* | <br>10\^ | <br>15 | <br>11\^ | <br>8\^ |
+
 
 === "Non-Jets"
-    | STAR | RWY 09 | RWY 16 | RWY 27 | RWY 34 |
+    | Arrival | RWY 09 | RWY 16 | RWY 27 | RWY 34 |
     | ---------- | :---: | :--: | :--: | :---: |
-    | **ARBEY**      | 12^ | 10^ | 14 | 15 |
-    | **BOYSE A**    | 18 | 15 | 13 | 16 |
-    | **BOYSE V**    | -  | -  | -  | 15 |
-    | **BOOIN A**    | 17 | 14 | 11^ | 15 |
-    | **BOOIN V**    | -  | -  | -  | 14 |
-    | **RAZZI A/V**  | 18 | 15 | 10^ | 11^ |
-    | **RAZZI M**    | -  | 13 | -  | -  |
-    | **PORTS**      | 12 | -  | -  | 8^  |
-    | **ALAXO A**    | 12^ | 19 | 17 | 14 |
-    | **ALAXO P**    | -  | 17 | -  | -  |
+    | **ALAXO A STAR**    | 12\^ | 19 | 17 | 14 |
+    | **ALAXO P STAR**    | -  | 17 | -  | -  |
+    | **ARBEY STAR**      | 12\^ | 10\^ | 14 | 15 |
+    | **BOOIN A STAR**    | 17 | 14 | 11\^ | 15 |
+    | **BOOIN V STAR**    | -  | -  | -  | 14 |
+    | **BOYSE A STAR**    | 18 | 15 | 13 | 16 |
+    | **BOYSE V STAR**    | -  | -  | -  | 15 |
+    | **PORTS STAR**<br>*ONAGI transition*<br>*TASIS transition*      | <br>15<br>16 | <br>-<br>-  | <br>-<br>-  | <br>10\^<br>11\^  |
+    | **RAZZI A/V STAR**  | 18 | 15 | 10\^ | 11\^ |
+    | **RAZZI M STAR**    | -  | 13 | -  | -  |
+    | **No STAR - Vectors to IAF**<br>*Feeder Fix: MENOG* | <br>12\^ | <br>17 | <br>12\^ | <br>9\^ |
 
 #### Corrections
 
@@ -268,7 +297,9 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 
 #### Assumptions
 - Nil wind
-- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR
+- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except:
+    - The feeder fix for the PORTS STAR, ONAGI Transition is **LATTA**
+    - The feeder fix for the PORTS STAR, TASIS Transition is **EKKAS**
 
 ### Calculator
 <script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
@@ -354,34 +385,75 @@ The following Standard Assignable Headings may be used for aircraft assigned the
 **When Runway 09 is in use for arrivals, all Runway 16 departures shall be assigned heading 160.
 
 ### ML TCU Internal
-#### Arrivals
-Voiceless Coordination is in place for arrivals transiting between ML TCU positions, provided the aircraft is:
+#### APP / DEP
+Voiceless Coordination is in place for aircraft transiting between ML TCU positions, provided the aircraft is:
 
-- ADES **YMML**; and
-- Assigned a STAR; and
-- Descending via STAR to `A070`
+- With ADEP **YMML**:
+  - Assigned a SID; and
+  - Climbing via SID to `A100` or higher, or
 
-#### Departures
-Voiceless Coordination is in place for departures transiting between ML TCU positions, provided the aircraft is:
+- With ADES **YMML**:
+  - Assigned a STAR; and
+  - Descending via STAR to `A070`
 
-- ADEP **YMML**; and
-- Assigned a SID; and
-- Climbing via SID to `A100` or higher
-
-#### Others (Heads-up)
-All other aircraft not meeting the Departures/Arrivals criteria that transit between internal ML TCU boundaries must be heads-up coordinated.
+All other aircraft, including aircraft that transit between internal ML TCU boundaries, must be heads-up coordinated.
 
 !!! phraseology
     <span class="hotline">**MDS** -> **MAV**</span>: "via JAYBI, JST603"  
     <span class="hotline">**MAV** -> **MDS**</span>: "JST603, A030"
 
-##### YMAV Arrivals/Departures
-YMAV arrivals and departures **do not** meet the voiceless criteria between MDS and MAV. When MAV is conducting Heads-up Coordination to MDS on a YMAV departure, it is good practice for MDS to coordinate back a higher level (`F240` or the `RFL`, if no restrictions), so that the aircraft does not have interrupted climb
+#### Between MAV and APP/DEP
+YMAV arrivals and departures **do not** meet the voiceless criteria between APP/DEP and MAV, and must be heads-up coordinated.
+
+!!! tip
+    When MAV is conducting Heads-up Coordination to MDS on a YMAV departure, it is good practice for MDS to coordinate back a higher level (`F240` or the `RFL`, if no restrictions), so that the aircraft does not have interrupted climb
 
 !!! phraseology
     <span class="hotline">**MAV** -> **MDS**</span>: "via JUSTY, JST616"  
     <span class="hotline">**MDS** -> **MAV**</span>: "JST616, F240"  
     <span class="hotline">**MAV** -> **MDS**</span>: "F240, JST616"
+
+#### Between MAW and APP/DEP
+##### Entering CTA
+Heads up coordination is required for **all aircraft** entering ML TCU Class C from MAW Class G. Heads-up coordination must be completed prior to handoff, however, best practice is to complete coordination as soon as possible.
+
+!!! phraseology
+    <span class="hotline">**MAW** -> **MDN**</span>: “Departed YLIL, OXP”  
+    <span class="hotline">**MDN** -> **MAW**</span>: "OXP, A080"  
+    <span class="hotline">**MAW** -> **MDN**</span>: “A080, OXP”
+
+    **MAW:** "OXP cleared to YMTG via ML, flight planned route. Climb to A080"  
+    **OXP:** "Cleared to YMTG via ML, flight planned route. Climb to A080, OXP"  
+    **MAW:** "OXP Contact Melbourne Departures 118.9"  
+    **OXP:** "118.9, OXP" 
+
+##### Leaving CTA
+Heads-up coordination is not required from a ML TCU position to MAW for aircraft:
+
+**Leaving CTA *vertically*:**
+- Assigned 500ft above BCTA as the CFL; and
+- Handed off to MAW
+
+!!! phraseology
+    *KDJ is intending on leaving Class C airspace on descent into YMMB. The lower limit of CTA is `A045`.*
+
+    **MDN:** "KDJ descend to A050, contact Melbourne Centre 135.7"  
+    **KDJ:** "Descend to A050, 135.7, KDJ"  
+
+    **KDJ:** "Melbourne Centre, KDJ descending A050"  
+    **MAW:** "KDJ, Melbourne Centre, leave controlled airspace descending, no reported IFR traffic"  
+    **KDJ:** "Leave controlled airspace descending KDJ" 
+
+**Leaving CTA laterally**
+- Handed off to MAW upon termination of control services
+
+!!! phraseology
+    *BSV is an IFR C172 leaving CTA to the south at `A040`.*  
+    **MDS:** "BSV at 19 DME ML, control service terminates, contact Melbourne Centre 135.7"  
+    **BSV:** "135.7, BSV"  
+
+    **BSV:** "Melbourne Centre, BSV maintaing A040"  
+    **MAW:** "BSV, Melbourne Centre, no reported IFR traffic, area QNH 1016 
 
 ### EN ADC
 #### Airspace

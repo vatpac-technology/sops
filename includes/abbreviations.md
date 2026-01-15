@@ -63,19 +63,26 @@
 *[SDC]: Standard Departure Clearance
 *[AAW]: Adelaide Approach West
 *[AAE]: Adelaide Approach East
+*[AAR]: Adelaide Radar
+*[AMA]: Amberley Approach
 *[BAC]: Brisbane (Gold Coast) Approach
 *[BAN]: Brisbane Approach North
 *[BAS]: Brisbane Approach South
 *[BDN]: Brisbane Departures North
 *[BDS]: Brisbane Departures South
+*[SHN]: Brisbane (Sunshine) Radar
+*[CS1]: Cairns Approach 1
+*[CS2]: Cairns Approach 2
 *[CSA]: Cairns Approach
 *[CSD]: Cairns Departures
 *[CBW]: Canberra Approach West
 *[CBE]: Canberra Approach East
+*[CIA]: Curtin Approach
 *[DAW]: Darwin Approach West
 *[DAE]: Darwin Approach East
 *[ESA]: Sale Approach
 *[HBA]: Hobart Approach
+*[LMA]: Learmonth Approach
 *[LTA]: Launceston Approach
 *[MKA]: Mackay Approach
 *[RKA]: Rockhampton Approach
@@ -83,8 +90,11 @@
 *[MDN]: Melbourne Departures North
 *[MDS]: Melbourne Departures South
 *[MAV]: Melbourne (Avalon) Approach
+*[MAW]: Melbourne Radar
+*[OKA]: Oakey Approach
 *[PHA]: Perth Approach
 *[PHD]: Perth Departures
+*[PHR]: Perth Radar
 *[SAN]: Sydney Approach North
 *[SAS]: Sydney Approach South
 *[SDN]: Sydney Departures North
@@ -92,6 +102,10 @@
 *[SFW]: Sydney Director West
 *[SFE]: Sydney Director East
 *[SRI]: Sydney Radar
+*[SGA]: Scherger Approach
+*[TNA]: Tindal Approach
+*[WAH]: Williamtown Approach (High)
+*[WAL]: Williamtown Approach (Low)
 *[ARL]: Brisbane (Armidale) Centre
 *[INL]: Brisbane (Inverell) Centre
 *[ISA]: Brisbane (Mt Isa) Centre

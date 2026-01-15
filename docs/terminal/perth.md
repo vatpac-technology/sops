@@ -4,11 +4,12 @@
 
 --8<-- "includes/abbreviations.md"
 
-| Name | ID | Callsign | Frequency | Login ID |
-| -----| -- | -------- | --------- | ---------------- |
-| **Perth Approach** |**PHA**| **Perth Approach**  | **123.600** | **PH_APP**| 
-| <span class="indented">Perth Departures :material-information-outline:{ title="Non-standard position"}  |PHD| Perth Departures  | 118.700 | PH_DEP |
-| <span class="indented">Perth Flow :material-information-outline:{ title="Non-standard position"} | PFL |   |    | PH_FMP  |
+| Name                          | ID      | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
+| **Perth Approach**            | **PHA** | **Perth Approach**      | **123.600** | **PH_APP**    | 
+| <span class="indented">Perth Departures :material-information-outline:{ title="Non-standard position"}  | PHD | Perth Departures | 118.700 | PH_DEP   |
+| <span class="indented">Perth Radar :material-information-outline:{ title="Non-standard position"}       | PHR | Perth Centre     | 135.250 | PH-R_DEP |
+| <span class="indented">Perth Flow :material-information-outline:{ title="Non-standard position"}        | PFL |                  |         | PH_FMP   |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
@@ -20,13 +21,14 @@ The PH TCU is responsible for the airspace within 36 DME of the PH VOR, `SFC` to
 !!! note
     A significant portion of the TMA airspace south of the PH VOR (roughly 20 DME onwards) is classified Class E with a lower limit of `F125`. RPT aircraft frequently enter/exit the TMA via this airspace, see [Departure Procedures](#departure-procedures) for more info.
 
-When **PEA TCU** is online R155A & B is released to them from `A020` to `F160`. When R155A is active to `F160`, PH TCU airspace above R155A shall be released to **PEA TCU**.
-
 ### Reclassifications
 #### JT CTR
 JT CTR reverts to Class G when **JT ADC** is offline, and is administered by the relevant PH TCU controller.
 
 See also: [JT ADC Offline](#jtpea-adc-offline).
+
+#### PE CTR
+PE CTR reverts to Class G when **PE ADC** (or **PE TCU**) is offline, and is administed by the relevant PH TCU controller.
 
 ### Airspace Division
 The divisions of the airspace between **PHA**, and **PHD** change based on the Runway Mode.
@@ -41,9 +43,20 @@ The divisions of the airspace between **PHA**, and **PHD** change based on the R
 	</figure>
 
 === "Southwest Plan"
+	<figure markdown>
+	![21/24 TCU Structure](img/PH2124annotated.png){ width="700" }
+	  <figcaption>21/24 TCU Structure</figcaption>
+	</figure>
+	
+#### Perth Radar (PHR)
+PHR is responsible for the provision of FIS in Class G airspace within the PH TMA. The position is designed to reduce the workload of other TMA positions by identifing and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller.
+	
+#### Pearce Airspace
+When **PEA TCU** is online, they assume responsibility for the airspace in R155A and R155B from `SFC` to `F160`.
+
 <figure markdown>
-![21/24 TCU Structure](img/PH2124annotated.png){ width="700" }
-  <figcaption>21/24 TCU Structure</figcaption>
+![PE TCU Restricted Areas](img/pe_restricted_areas.png){ width="700" }
+  <figcaption>PE TCU Restricted Areas</figcaption>
 </figure>
 
 ## Local Procedures
@@ -60,15 +73,15 @@ Other levels are available at the discretion of the TCU controller but coordinat
 Aircraft wishing to conduct a scenic flight over the Perth CBD should be cleared via the Victor 65 route. **No lateral separation standard exists between Victor 65 and the extended centreline of runway 06/24**, so controllers must ensure that an alternative form of separation assurance exists.
 
 !!! phraseology
-    **VH-CYF:** "Perth Approach, CYF, Cessna 172, overhead FREM, A015, received Bravo, request Victor 65"  
+    **CYF:** "Perth Approach, CYF, Cessna 172, overhead FREM, A015, received Bravo, request Victor 65"  
     **PHA:** "CYF, squawk 0542, remain clear of class C airspace"  
-    **VH-CYF:** "Squawk 0542, remain OCTA, CYF"  
+    **CYF:** "Squawk 0542, remain OCTA, CYF"  
 
     *When clearance (reference traffic into/out of YPPH) is available:*  
     **PHA:** "CYF, cleared Victor 65, maintain A015, QNH 1012"  
-    **VH-CYF:** "Cleared Victor 65, maintain A015, QNH 1012, CYF"
+    **CYF:** "Cleared Victor 65, maintain A015, QNH 1012, CYF"
 
-Aircraft departing YPPH and intending to conduct the Victor 65 route will be coordinated by **PH ACD**. See [Airways Clearances](#airways-clearances).
+Aircraft departing YPPH and intending to conduct the Victor 65 route will be coordinated by **PH ACD**. See [Airways Clearances](#acd-to-tcu).
 
 ## Offline Towers
 ### JT/PEA ADC Offline
@@ -196,11 +209,11 @@ The following calculator will generate a landing time from a feeder fix ETA, or 
 #### Departures
 Voiceless for all aircraft:
  
-- Tracking via a Procedural SID terminus; and  
+- Tracking via a Procedural SID procedure<sup>‡</sup>; and  
 - Assigned the lower of `F180` or the `RFL`
-
+	
 !!! note
-    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+    <sup>‡</sup> In contrast to many other TCUs, aircraft are *required* to be tracking via the **SID procedure**. Aircraft simply tracking via any of the terminus waypoints (including aircraft given track shortening) **is not** sufficient to meet the criteria for voiceless coordination.
 
 All other aircraft going to HYD(PIY) CTA must be **Heads-up** Coordinated by PH TCU prior to the boundary.
 
@@ -233,7 +246,7 @@ The Standard Assignable level from PH ADC to PH TCU is:
 | -------- | ----- |
 | All | The lower of `A050` and `RFL` |
 
-#### Airways Clearances
+#### ACD to TCU
 The controller assuming responsibility of ACD shall give [heads-up](../controller-skills/coordination.md#airways-clearance) coordination to the relevant PH TCU controller prior to the issue of the following clearances:  
 
 - VFR departures into PH TCU CTA
@@ -286,6 +299,6 @@ Where traffic permits, IFR aircraft tracking via Perth CTA from the north or eas
 **All aircraft** transiting between PE TCU and PH TCU must be heads-up coordinated prior to the boundary.
 
 !!! phraseology
-    <span class="hotline">**PH TCU** -> **PE TCU**</span>: "via PH, VIPR22, Requesting DCT PEA for ILS-Z 18L"   
-    <span class="hotline">**PE TCU** -> **PH TCU**</span>: "VIPR22, DCT PEA, A035"  
-    <span class="hotline">**PH TCU** -> **PE TCU**</span>: "A035, VIPR22"   
+    <span class="hotline">**PH TCU** -> **PEA**</span>: "via PH, VIPR22, Requesting DCT PEA for ILS-Z 18L"   
+    <span class="hotline">**PEA** -> **PH TCU**</span>: "VIPR22, DCT PEA, A035"  
+    <span class="hotline">**PH TCU** -> **PEA**</span>: "A035, VIPR22"

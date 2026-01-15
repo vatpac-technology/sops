@@ -21,7 +21,7 @@ The OzStrips plugin has been expanded to include an [A-CDM mode](../client/tower
 Activating A-CDM mode can be done by toggling it active, from the **Settings** drop down list, within the OzStrips plugin. You can tell the mode has been activated successfully when you see the Departure Monitor appear in the **Runway Bay**.
 
 <figure markdown>
-![Departure Monitor](../controller-skills/img/ozstripsdepmonitor.png){ width="300" }
+![Departure Monitor](../client/img/ozstripsdepmonitor.png){ width="300" }
     <figcaption>The Departure Monitor</figcaption>
 </figure>
 
@@ -48,7 +48,7 @@ To effectively operate with A-CDM procedures:
     A TSAT and CTOT will be generated for them, which can be provided to the pilot. This will be presented within the strip `Time Field`, and will appear with a grey background.
 
     <figure markdown>
-    ![Queued Strip](../controller-skills/img/ozstripscdmqueue.png){ width="500" }
+    ![Queued Strip](../client/img/ozstripscdmqueue.png){ width="500" }
         <figcaption>A queued strip, with a TSAT of 03:52z.</figcaption>
     </figure>
 
@@ -66,7 +66,7 @@ To effectively operate with A-CDM procedures:
     After each aircraft becomes airborne, their departure is logged, and the Departure Monitor is incremented.
 
     <figure markdown>
-    ![Departure Monitor](../controller-skills/img/ozstripsdepmonitor.png){ width="300" }
+    ![Departure Monitor](../client/img/ozstripsdepmonitor.png){ width="300" }
         <figcaption>The Departure Monitor.</figcaption>
     </figure>
 
@@ -79,7 +79,7 @@ To effectively operate with A-CDM procedures:
 When CDM is enabled at an aerodrome, pilots and controllers can view the [Departure Queue online](https://vats.im/pac/cdm). This may be beneficial for Enroute and Approach controllers not using the OzStrips plugin, or with visibility centres not close to the aerodrome of interest.
 
 <figure markdown>
-![CDM Website](../controller-skills/img/ozstripscdmladder.png){ width="800" }
+![CDM Website](../client/img/ozstripscdmladder.png){ width="800" }
     <figcaption>The ladder visible on the CDM Website.</figcaption>
 </figure>
 
@@ -101,7 +101,7 @@ To commence the procedure:
 
 1. **SMC** and **ACD** coordinate to implement the procedure, due to high **SMC** workload.
 2. **SMC** coordinates with **ADC** in order to have the ATIS updated (see each aerodrome's page).
-3. **ACD** places the `STANDBY FOR GROUND` bar in the **Cleared Bay** in [OzStrips](../client/towerstrips.md#coordinator).
+3. **ACD** enables the **Monitor SMC Bay** in [OzStrips](../client/towerstrips.md#coordinator).
 
 !!! phraseology
     <span class="hotline">**ML SMC** -> **ML ACD**</span>: "It's getting quite busy. Happy to implement Pushback requests on your frequency?"  
@@ -117,10 +117,15 @@ To operate with pushback requests on ACD:
 1. When **ACD** has finished issuing an airways clearance, they will **remind** pilots to *"Contact me when ready for pushback/taxi"*.
 2. When a pilot requests pushback, **ACD** will assess their priority based on apron congestion and number of aircraft in the queue (see [Queue Management](#queue-management)).  
 3. **ACD** will either instruct them to **standby for Ground** *(not contact)*, or remain on the ACD frequency if a delay is required.  
-4. If an aircraft is instructed to 'standby for Ground', **ACD** will move the strip below the **Standby for Ground** bar in the **Queue** section of the **Cleared Bay** in [OzStrips](../client/towerstrips.md#coordinator), to denote they are awaiting pushback approval.  
-5. When **SMC** has adequate space on the aprons, taxiways, and holding points, they will issue pushback/taxi to the next aircraft in line by scanning the [Cleared Queue bay](../client/towerstrips/#stripboard).
+4. If an aircraft is instructed to 'standby for Ground', **ACD** will move the strip into the **Monitor SMC Bay** in [OzStrips](../client/towerstrips.md#coordinator), to denote they are awaiting pushback approval.  
+5. When **SMC** has adequate space on the aprons, taxiways, and holding points, they will issue pushback/taxi to the next aircraft in line by scanning the [Cleared Bay queue](../client/towerstrips/#stripboard).
 
 The decision whether or not to send an aircraft to SMC or hold them on the ACD frequency should be made in accordance with the [Queue Management](#queue-management) techniques.
+
+!!! note
+    The main function of the Coordinator role is to **reduce SMC's workload**. Generally, this involves reducing frequency congestion and metering the flow of departing traffic, however each situation is different and will require a unique approach.
+    
+    E.g. if SMC East at YSSY is busy but SMC West is quiet and there's no upline flow requirements, it may be appropriate to process aircraft on the international aprons while temporarily delaying aircraft on the domestic aprons.
 
 !!! warning "Important"
     If SMC needs to reduce the pushback rate due to congestion at the holding points or excessive workload, **ACD** should be informed without delay, and instructed to hold all departures on their frequency. This will stop aircraft being told to 'standby for ground' on the SMC frequency. Remember to cancel this requirement when congestion eases.
@@ -158,8 +163,8 @@ If a delay is required prior to transferring an aircraft to SMC, provide an esti
 To reduce SMC workload, ACD should not allow more than **three** aircraft to be awaiting pushback or taxi on the SMC frequency. When three aircraft are already queued on the SMC frequency, any additional aircraft should be told to remain on the ACD frequency and informed of their position in the queue or approximate delay (if known). These aircraft should be placed in the **Cleared Bay Queue**, above the **Standby for Ground** bar.
 
 <figure markdown>
-![ACD Ops with OzStrips](img/ozstripscoordinator.png){ width="800" }
-  <figcaption>Pushback Requests on ACD Ops with OzStrips<br><small>Three aircraft are waiting on the SMC frequency (below the Queue bar), and QFA121 and RXA6416 have both requested push/taxi but are being held on the ACD frequency. QFA121 is closer to the bottom, so will be next to be told to standby for SMC.</small></figcaption>
+![ACD Ops with OzStrips](../client/img/ozstripscoordinator.png){ width="800" }
+    <figcaption>Pushback Requests on ACD Ops with OzStrips<br><small>Three aircraft are waiting on the SMC frequency (in the **Monitor SMC Bay**), and QFA121 and RXA6418 have both requested push/taxi but are being held on the Coordinator frequency. QFA121 is closer to the bottom, so will be next to be told to standby for SMC.</small></figcaption>
 </figure>
 
 When SMC moves an aircraft from below the **Standby for Ground** bar to the **Pushback Bay**, ACD should instruct the next aircraft in line to standby for ground on the SMC frequency (and move the strip appropriately).

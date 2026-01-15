@@ -35,7 +35,7 @@ The standard circuit direction is to the north of the field.
 | 27     | Right |
 
 ## Coordination
-### OK TCU
+### Auto Release
 [Next](../../controller-skills/coordination.md#next) coordination is required from OK ADC to OK TCU for all aircraft.
 
 The Standard Assignable level from **OK ADC** to **OK TCU** is:
@@ -43,6 +43,13 @@ The Standard Assignable level from **OK ADC** to **OK TCU** is:
 | Aircraft | Level |
 | -------- | ----- |
 | All | The lower of `F120` and `RFL` |
+
+### Departures Controller
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the Advisory frequency shall be issued.
+
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| All | All | 125.4 (OKA) |
 
 ## Charts
 !!! abstract "Reference"

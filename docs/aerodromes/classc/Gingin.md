@@ -36,7 +36,7 @@ The Circuit altitude is `A016` for Jets, and `A012` for Non-Jets.
 The Ciruits are preferred to be to the south of the field.
 
 ## Coordination
-### PE TCU
+### Auto Release
 [Next](../../controller-skills/coordination.md#next) coordination is required from GIG ADC to PE TCU for all aircraft.
 
 The Standard Assignable Level from **GIG ADC** to **PE TCU** is:
@@ -44,6 +44,13 @@ The Standard Assignable Level from **GIG ADC** to **PE TCU** is:
 | Aircraft | Level |
 | -------- | ----- |
 | All | The lower of `A050` and `RFL` |
+
+### Departures Controller
+When a PE TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the Advisory frequency shall be issued.
+
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| All | All | 130.2 (PEA) |
 
 ## Charts
 !!! abstract "Reference"

@@ -25,7 +25,7 @@ CIN ADC owns the Class C airspace within the CIN MIL CTR from `SFC` to `A015`.
 | 11     | Right |
 
 ## Coordination
-### CIN TCU
+### Auto Release
 [Next](../../controller-skills/coordination.md#next) coordination is required from CIN ADC to CIN TCU for all aircraft.
 
 The Standard Assignable Level from  **CIN ADC** to **CIN TCU** is:
@@ -33,6 +33,13 @@ The Standard Assignable Level from  **CIN ADC** to **CIN TCU** is:
 | Aircraft | Level |
 | -------- | ----- |
 | All | The lower of `F190` and `RFL` |
+
+### Departures Controller
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the Advisory frequency shall be issued.
+
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| All | All | 121.0 (CIA) |
 
 ### TRT(ASH)
 When CIN TCU is offline, coordination is not required between CIN ADC and TRT(ASH). Aircraft entering TRT(ASH) airspace shall be handed off and instructed to contact TRT(ASH) for onwards clearance.

@@ -26,7 +26,7 @@ b) ADC may deny requests for circuits if IFR traffic may be unduly delayed
   <figcaption>DN ADC Airspace</figcaption>
 </figure>
 
-## Maneuvering Area 
+## Manoeuvring Area 
 ### Standard Taxi Routes
 Aircraft transiting to or from the Southern and Northern GA should follow the following standardised taxi routes:  
 a) Outbound via V1  
@@ -35,6 +35,10 @@ b) Inbound via Y1
 Traffic permitting, aircraft above 136,000kg MTOW shall be entered/exited for RWY 11/29 from taxiways B2, C3, D or E2 and backtracked as required.  
 
 Taxiway V has a passing bay, located adjacent to the ARFF section. The passing bay is the preferred location for engine run-ups, no longer than 3 minutes  
+
+## Helicopter Operations
+### Hospital Helipads
+The Darwin CTR contains the helipad at the Royal Darwin Hospital (YXDH). This pad sit outside the manoeuvring area, so no takeoff or landing clearances should be issued. Instead, helicopters should be instructed to report airborne or report on the ground.
 
 ## VFR Operations
 VFR aircraft are required to track via one of the published VFR Routes (as shown on the Darwin VTC). VFR routes shall be assigned based on the destination radial from Darwin, as per below:  
@@ -50,7 +54,6 @@ VFR aircraft are required to track via one of the published VFR Routes (as shown
 
 !!! tip
     If a VFR aircraft has not planned via a VFR route as above, use the phraseology: “*ABC, cleared amended route VFR route 1, climb to A020, squawk 4512*”
-
 
 ## Runway Modes
 ### Preferred Runway Modes
@@ -119,7 +122,7 @@ When [LAHSO](#lahso) is in use, the ATIS OPR INFO shall include:
 `LAND AND HOLD SHORT OPERATIONS IN PROGRESS`
 
 ## Coordination
-### DN TCU
+### Auto Release
 [Next](../../controller-skills/coordination.md#next) coordination is required from DN ADC to DN TCU for all aircraft.
 
 The Standard Assignable Level from  **DN ADC** to **DN TCU** is:
@@ -129,6 +132,31 @@ The Standard Assignable Level from  **DN ADC** to **DN TCU** is:
 | IFR aircraft assigned a **Procedural** SID | The lower of `F180` and `RFL` |
 | IFR aircraft **not** assigned a **Procedural** SID | The lower of `A030` and `RFL` |
 | VFR aircraft | The lower of `A020` and `RFL` |
+
+### Departures Controller
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate Enroute controller or Advisory frequency shall be issued.
+
+=== "11"
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| 11 | All | 125.2 (DAE) |
+
+=== "18"
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| 18 | East | 125.2 (DAE) |
+| 18 | West | 134.1 (DAW) |
+
+=== "29"
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| 29 | All | 134.1 (DAW) |
+
+=== "36"
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| 36 | East | 125.2 (DAE) |
+| 36 | West | 134.1 (DAW) |
 
 ## Charts
 !!! abstract "Reference"

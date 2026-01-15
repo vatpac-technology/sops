@@ -24,7 +24,7 @@ LM ADC owns the Class C airspace within the LM CTR from `SFC` to `A015`.
 | 18     | Left |
 
 ## Coordination
-### LM TCU
+### Auto Release
 [Next](../../controller-skills/coordination.md#next) coordination is required from LM ADC to LM TCU for all aircraft.
 
 The Standard Assignable Level from  **LM ADC** to **LM TCU** is:
@@ -32,6 +32,13 @@ The Standard Assignable Level from  **LM ADC** to **LM TCU** is:
 | Aircraft | Level |
 | -------- | ----- |
 | All | The lower of `F270` and `RFL` |
+
+### Departures Controller
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the Advisory frequency shall be issued.
+
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| All | All | 120.5 (LMA) |
 
 ### OLW
 When LM TCU is offline, coordination is not required between LM ADC and OLW. Aircraft entering OLW airspace shall be handed off, and instructed to contact OLW for onwards clearance.

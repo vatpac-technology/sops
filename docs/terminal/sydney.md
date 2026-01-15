@@ -6,22 +6,20 @@
 
 ## Positions
 
-| Name               | ID      | Callsign       | Frequency        | Login ID              |
-| ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
-| **Sydney Approach South**    |**SAS**| **Sydney Approach**   | **128.300**         | **SY_APP**                                   |
-| <span class="indented">Sydney Approach North :material-information-outline:{ title="Non-standard position"}   |SAN| Sydney Approach   | 124.400          | SY-N_APP                                 |
-| <span class="indented">Sydney Departures South :material-information-outline:{ title="Non-standard position"}   |SDS| Sydney Departures | 129.700          | SY_DEP         |
-| <span class="indented">Sydney Departures North :material-information-outline:{ title="Non-standard position"}    |SDN| Sydney Departures  | 123.000         | SY-N_DEP          |
-| <span class="indented">Sydney Director West :material-information-outline:{ title="Non-standard position"} |SFW| Sydney Director   | 126.100          | SY-D_APP                               |
-| <span class="indented">Sydney Director East :material-information-outline:{ title="Non-standard position"} |SFE| Sydney Director   | 125.300          | SY-DE_APP                               |
-| <span class="indented">Sydney Radar :material-information-outline:{ title="Non-standard position"} :octicons-checklist-24:{ title="Non-standard position"} |SRI| Sydney Centre  | 124.550          | SY-C_DEP                               |
-| <span class="indented">Sydney Flow :material-information-outline:{ title="Non-standard position"}        |SFL|                |          | SY_FMP                              |
+| Name                          | ID      | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
+| **Sydney Approach South**     | **SAS** | **Sydney Approach**     | **128.300** | **SY_APP**    |
+| <span class="indented">Sydney Approach North :material-information-outline:{ title="Non-standard position"}     | SAN | Sydney Approach   | 124.400 | SY-N_APP |
+| <span class="indented">Sydney Departures South :material-information-outline:{ title="Non-standard position"}   | SDS | Sydney Departures | 129.700 | SY_DEP   |
+| <span class="indented">Sydney Departures North :material-information-outline:{ title="Non-standard position"}   | SDN | Sydney Departures | 123.000 | SY-N_DEP |
+| <span class="indented">Sydney Director West :material-information-outline:{ title="Non-standard position"}      | SFW | Sydney Director   | 126.100 | SY-D_APP |
+| <span class="indented">Sydney Director East :material-information-outline:{ title="Non-standard position"}      | SFE | Sydney Director   | 125.300 | SY-DE_APP|
+| <span class="indented">Sydney Radar :material-information-outline:{ title="Non-standard position"}              | SRI | Sydney Centre     | 124.550 | SY-R_DEP |
+| <span class="indented">Sydney Flow :material-information-outline:{ title="Non-standard position"}               | SFL |                   |         | SY_FMP   |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
-
-    :octicons-checklist-24: [Additional requirements](#airspace-structural-arrangements) must be met prior to opening SRI as a stand-alone position.
 
 ## Airspace
 The Vertical limits of the SY TCU are `SFC` to `F285`.  
@@ -63,12 +61,18 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
 	![07 TCU Structure](img/sy07.png){ width="700" }
 	  <figcaption>07 TCU Structure</figcaption>
 	</figure>
+	
+	!!! warning "Important"
+		Separation between aircraft on the TESAT-FISHA-T066 track is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
 
 === "16 PROPS"
 	<figure markdown>
 	![16 PROPS TCU Structure](img/sy16PROPS.png){ width="700" }
 	  <figcaption>16 PROPS TCU Structure</figcaption>
 	</figure>
+	
+	!!! warning "Important"
+		Separation between aircraft tracking via the KEVIN SID to KEVIN is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
 
 === "25AD"
 	<figure markdown>
@@ -81,12 +85,18 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
 	![34 PROPS TCU Structure](img/sy34PROPS.png){ width="700" }
 	  <figcaption>34 PROPS TCU Structure</figcaption>
 	</figure>
+	
+	!!! warning "Important"
+		Separation between aircraft tracking via the RIC SID to RIC and MARUB SID to MARUB is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
 
 === "SODPROPS"
 	<figure markdown>
 	![SODPROPS TCU Structure](img/sySODPROPS.png){ width="700" }
 	  <figcaption>SODPROPS TCU Structure</figcaption>
 	</figure>
+	
+	!!! warning "Important"
+		Separation between aircraft tracking via the RIC SID to RIC, and aircraft tracking via the KEVIN SID to KEVIN is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
 	
 #### Airspace Structural Arrangements
 Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, the following rules apply, in the order presented, to these controller positions, except **SFL**:  
@@ -95,9 +105,7 @@ a) **"South"**/**"West"** positions shall assume the airspace of corresponding *
 
 b) Approach assumes Director/Departure airspace "on-side" when the latter positions are inactive (e.g. with **SAS** and **SAN** online only, **SAS** assumes **SDS** and **SFW**)  
 
-c) Departures assumes **SRI** airspace when the position is inactive  
-
-d) **SRI** is **not permitted** to be logged on to, unless there are already at least **2 other active positions** (ie, SY APP and SY DEP, or SY APP and SY DIR) in the SY TCU.
+c) Departures assumes **SRI** airspace when the position is inactive.
 
 !!! note
     The default ownership of sectors within the SY TCU is merely a suggestion for starters. There are 7 executive controller positions within the SY TCU, plus a flow controller, and the ownership of these sectors can be delegated as desired based on the traffic disposition, when agreed between the controllers. For example, during a Milk Run event, if SY APP and SY DEP are online, SY APP may have a lot more work to do than SY DEP, and it would mostly be concentrated on the RIVET/ODALE corridor. In light of this, it might be wise for SY APP to take ownership of SAS, SFW and SFE airspace, whilst SY DEP take ownership of SAN, SDS, SDN, and SRI airspace.
@@ -167,31 +175,7 @@ These can be displayed on vatSys using the `SY_VFR` map.
 !!! note
     Remember that VFR aircraft are **not** separated from other VFR aircraft in class C airspace.  If other VFR aircraft are operating over the harbour, you are not required to provide a separation standard between them, however you must pass traffic information to both aircraft.
 
-
 ## Departure and Arrival Procedures 
-### STAR and Runway Assignment
-Sequencing of arrivals into YSSY is a joint responsibility of ARL and GUN, with input from SY TCU.
-
-Aircraft from the south/west are assigned 16R/34L and aircraft from the north/east assigned 16L/34R.  However, some heavy aircraft from the north/east may operationally require the longer runway. Similarly, it may be beneficial for the sequence to assign an arrival to an alternate runway to avoid unnecessary delays.
-
-Jet aircraft for YSSY shall be assigned the **RIVET**, **BOREE**, or **MARLN** STARs.  
-Non-jet aircraft for YSSY shall be assigned the **ODALE**, **MEPIL**, or **MARLN** STARs.
-
-Whilst the preference is to keep aircraft assigned the default STAR & runway as above, there are situations where the sequence may be improved by assigning the adjacent STAR or an alternate runway. It is a joint responsibility of **SY TCU** and the surrounding enroute controllers to consider these STAR/runway changes when reviewing the inbound sequence. If a change is recommended, coordination should be conducted with the enroute controller to request that an aircraft be reassigned. Where aircraft will be passing in close proximity (even if assigned different runways), consider the use of the adjacent STAR, to maintain a separation standard during the arrival.
-
-!!! note
-    Before reassigning an aircraft to an alternate runway, consider arrivals inbound from all directions to ensure that no additional conflict is created.
-
-Approach controllers can use the built-in separation afforded by the STAR level restrictions to process aircraft on adjacent STARs (e.g. RIVET and ODALE, or BOREE and MEPIL), allowing aircraft to pass abeam or overtake each other, as dictated by the overall sequence. See [Level Assignment](#level-assignment) below for details on maintaining separation using the STAR level restrictions.
-
-!!! example
-    During a busy [Milk Run Monday](../../events/milkrun/terminal), a large volume of traffic is approaching YSSY from the southwest, with no arrivals from the north or east. To prevent unnecessarily delaying inbound aircraft by processing them for a single runway, coordinate with **GUN** to request certain aircraft are tactically assigned runway 16L/34R, to improve the overall efficiency of the sequence.  
-
-    Where aircraft are moved to the alternate runway, consider requesting that they are also assigned the alternate STAR to an aircraft approaching at a similar time on the main runway (i.e. a jet aircraft is moved to runway 34R and cleared the ODALE STAR for separation with a jet aircraft nearby assigned runway 34L via the RIVET STAR).
-
-#### YWLM STARs
-SY TCU is responsible for issuing STARs to aircraft inbound to YWLM via **EKIPU** and **OVLUX**. Aircraft shall be assigned the **EKIPU** or **OVLUX** STAR (as appropriate) by default, unless coordinated otherwise (eg. via the **IVTAG** STAR).
-
 ### Level Assignment
 !!! note
     Inbound aircraft will be handed from Enroute to Approach assigned the [standard assignable level](#arrivals).  This section refers to further descent issued by the Approach controller.
@@ -202,8 +186,6 @@ RIVET/BOREE aircraft should only be assigned `A070` when an adjacent ODALE/MEPIL
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7dOF91EIQj8?si=9Vc3-eHTN2Zqlvf4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="display:block; margin:0 auto;" allowfullscreen></iframe>
 <p><figcaption style="text-align: center;">Demonstration of the Adjacent STARs</figcaption></p>
-
-MARLN aircraft which require an overfly to the west should be assigned `A090` and stepped down on top of any RIVET arrivals.
 
 !!! tip
     Be mindful of Sydney's [REP airspace](#radar-entry-procedure-rep) arrangement and avoid leaving arrivals at `A100`.  Aircraft should be descended to `A090` or below by 20DME to prevent conflict with departing traffic.
@@ -217,6 +199,33 @@ All aircraft should be assigned no lower than `A060` until clear of the active r
     For an aircraft inbound from the north on the BOREE STAR to runway 34R, assign no lower than `A080` until any adjacent aircraft are maintaing `A060`, then `A070` until the aircraft are laterally clear.  The arrival should then be assigned `A060` until south of the field.
 
 Be mindful of departures from YSBK which may also impact aircraft on downwind for RWY 16R at YSSY.  Do not assign lower than `A040` until the aircraft is north/east of the BK CTR and clear of any departing traffic (who are assigned `A030` by default).
+
+### Director East and West
+SFE/SFW are responsible for vectoring aircraft onto the final approach course and clearing them for the relevant instrument or visual approach. Aircraft will be [handed off from SAN/SAS](#app-dir) assigned `A060`.
+
+Depending on the runway configuration and inbound direction, aircraft may be handed off to SFE/SFW:
+
+- on a downwind heading (*or intermediate heading to position for downwind*)
+- established on the STAR
+- tracking direct to the IAF or established on the LOC (*generally when inbound from the north for RWY 16L or 16R*)
+
+As a general rule, handoffs should occur once the aircraft has crossed any departure tracks (if a circuit is to be flown) or prior to the aircraft reaching `A060` provided SAS/SAN has no further requirements for the aircraft (if a straight-in approach is planned).
+
+SFW/SFE should provide aircraft an approximate 'miles to run' on first contact, to allow the aircraft to plan their descent path.
+
+!!! tip
+    A typical downwind will take roughly 25 track miles from the normal point have handover from SAN/SAS to SFE/SFW.
+
+!!! phraseology
+    "QLK402, Sydney Director, descend to `A040`, 25 miles to run"
+
+SFW/SFE may provide distance to touchdown, when transferring an aircraft to tower after the aircraft is established on their approach runway centreline.
+
+!!! phraseology
+    "QFA490, 8 miles to touchdown, contact tower 120.5"
+
+### YWLM STARs
+SY TCU is responsible for issuing STARs to aircraft inbound to YWLM via **EKIPU** and **OVLUX**. Aircraft shall be assigned the **EKIPU** or **OVLUX** STAR (as appropriate) by default, unless coordinated otherwise (eg. via the **IVTAG** STAR).
 
 ## Offline Towers
 ### BK ADC Offline
@@ -246,24 +255,6 @@ Unless operationally required, aircraft shall be assigned the following runways 
 | Other aircraft: |
 | From the NORTH and EAST | 16L/34R |
 | From the SOUTH and WEST | 16R/34L |
-
-#### Director East and West
-
-Sydney Approach North (SAN) / Sydney Approach South (SAS) are required to hand-off aircraft to the appropriate Sydney Director East (SFE) / Sydney Director West (SFW) Controller on a <u>downwind heading</u>, <u>assigned</u> (or maintaining) <u>`A060`</u>.
-
-Note - the downwind heading is not required to be entered in the label data by SAN/SAS.
-
-SFW/SFE should provide aircraft an approximate 'miles to run' on first contact, to allow the aircraft to plan their descent path.
-
-A typical downwind will take roughly 25 track miles from the normal point have handover from SAN/SAS to SFE/SFW.
-
-!!! phraseology
-    "QLK402, Sydney Director, descend to A040, 25 miles to run"
-
-SFW/SFE may provide distance to touchdown, when transferring an aircraft to tower after the aircraft is established on their approach runway centreline (see below).
-
-!!! phraseology
-    "QFA490, 8 miles to touchdown, contact tower 120.5"
 
 #### Instrument Approach
 Aircraft joining parallel instrument approaches must remain separated from aircraft on the adjacent approach until they are established. This usually involves keeping aircraft vertically separated and may require aircraft to intercept the localiser/final approach course and maintain their assigned level, only allowing descent on the approach once they are established.  
@@ -480,38 +471,9 @@ All other aircraft coming from Enroute CTA will be **Heads-up** Coordinated to S
 
 ### SY TCU Internal
 #### APP / DIR
-Voiceless coordination is in place between APP and DIR, with the following conditions:
+Voiceless coordination is in place between APP and DIR for aircraft that are assigned `A060`.
 
-a) Assigned `A060`  
-b) Routed/vectored as per the table below:
-
-| STAR  | 07   | 16L  | 16R   | 25   | 34L | 34R
-| ------ | :--------: | :--------: | :-----: | :-----: | :-----: | :-----: |
-| BOREE   | H240 | LOC/IVA  | LOC/IVA  | H060 | STAR | STAR |
-| MEPIL   | H240 | STAR  | STAR  | H060 | H150 | H150 |
-| MARLN   | H240 | H330  | H330  | STAR | H150 | STAR |
-| RIVET  | STAR | H330  | H330  | H060 | STAR | STAR |
-| ODALE | LOC | H330  | H330  | H060 | H150 | H150 |
-
-!!! tip
-    If strong winds are present at altitude, APP/DIR should discuss slight changes to these headings to compensate for large crosswind components.
-
-Where an aircraft needs to cross the approach paths or overfly Sydney to join the opposite circuit, the following altitudes shall be used until radar separation is established with respect to the approach paths:  
-Eastbound: `A070`  
-Westbound: `A080`
-
-Any aircraft not meeting these requirements **must** be prior coordinated to DIR.
-
-!!! phraseology
-    **QFA421:** "QFA421, request direct SOSIJ"  
-    **SAS:** "QFA421, standby"  
-
-    <span class="hotline">**SAS** -> **SFW**</span>: "QFA421, requesting direct SOSIJ"  
-    <span class="hotline">**SFW** -> **SAS**</span>: "QFA421, concur direct SOSIJ"  
-    <span class="hotline">**SAS** -> **SFW**</span>: "Direct SOSIJ, QFA421"  
-
-    **SAS:** "QFA421, cancel STAR, recleared direct SOSIJ, A060"  
-    **QFA421:** "Cancel STAR, recleared direct SOSIJ, A060, QFA421"
+Any aircraft not meeting this requirement **must** be prior coordinated to DIR.
 
 !!! phraseology
     <span class="hotline">**SAS** -> **SFW**</span>: "VOZ456, with your concurrence, will be assigned A070, for my separation with UJI"  
@@ -624,17 +586,14 @@ Auto Release is used for virtually all fixed-wing departures at Sydney. Unlike s
 
 - Departing from a runway nominated on the ATIS; and   
 - Assigned the Standard assignable level; and  
-- Assigned a **Procedural SID** (except **ABBEY** SID); or  
-- Assigned the **Radar** SID with a Standard Assignable Heading
+- Assigned a **Procedural SID** or the **Radar** SID with a Standard Assignable Heading; or
+- A helicopter cleared via an outbound helicopter route.
 
 All other aircraft require a 'Next' call to SY TCU.
 
 'Next' coordination is additionally required for:  
 
-- Visual departures  
-- Departures to YSBK  
 - After a go around, the next departure from that runway  
-- Jets departing 16L via WOL  
 - All aircraft during the Curfew Runway Mode
 
 The Standard Assignable level from SY ADC to SY TCU is: 
@@ -713,4 +672,7 @@ SY TCU will **NOT** clear the aircraft for the approach.
     <span class="hotline">**SDN** -> **RI ADC**</span>: "TROJ57, unrestricted"  
     <span class="hotline">**RI ADC** -> **SDN**</span>: "TROJ57"  
 
-The Standard Assignable Level from **RI ADC** to **SY TCU** is the lower of `A050` or `RFL`.  
+The Standard Assignable Level from **RI ADC** to **SY TCU** is the lower of `A050` or `RFL`.
+
+### NW TCU
+All aircraft transiting between SY TCU and NW TCU require [Heads-up](../controller-skills/coordination.md#heads-up) coordination prior to the boundary; however, as soon as practical (when is the aircraft becomes airborne) is preferred. 

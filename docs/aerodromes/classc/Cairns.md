@@ -23,7 +23,7 @@ CS ADC is responsible for the Class C airspace within the CS CTR `SFC` to `A010`
   <figcaption>CS ADC Airspace</figcaption>
 </figure>
 
-## Maneuvering Area
+## Manoeuvring Area
 ### Taxiway Restrictions
 Taxiways A2 and A between A2 and A3 are not available to aircraft above 7,000 kilograms. Taxiway A4 is not available to aircraft above 90,000 kilograms. Taxiway Y is not available to aircraft above 10,000 kilograms.
 
@@ -82,43 +82,45 @@ Aircraft planning to enter the CS CTR between *Mt Gorton*, CGF and Upolo Cay at 
     **CS ADC**: "NDR, enter the CTR tracking for a Right Base runway 33, maintain A005."
 
 ## Helicopter Operations
-### The Pier Helipad
-VFR helicopters transit from the Reef to a floating pontoon helipad on the southeastern shore of the CBD, approximately 2nm from the runway 33 threshold. This helipad is referred to as 'The Pier'. 
+Within the Cairns CTR, there are over a dozen HLS's, including one hospital: Cairns Hospital (YCBH).
 
 <figure markdown>
-![The Pier](img/thepier.png){ width="400" }
-  <figcaption>The Pier (red dot)</figcaption>
+![CS ADC Airspace](img/CS_ctr_heli.png){ width="700" }
+  <figcaption>CS ADC Airspace</figcaption>
 </figure>
+
+### Radisson Pier Helipad
+VFR helicopters transit from the Reef to a floating pontoon helipad on the southeastern shore of the CBD, approximately 2nm from the runway 33 threshold. This helipad is referred to as Radisson Pier (YRAP) or simply *'The Pier'*. 
 
 Prior to issuing clearance to these helicopters, ensure that no conflict exists with other arriving/departing traffic, particularly aircraft departing from runway 15 or arriving on runway 33. Visual separation may be applied between these aircraft if appropriate.
 
 Arriving helicopters should be cleared direct to The Pier, not above `A005` and instructed to report on the ground.
 
 !!! phraseology
-    *YZM is a VFR R44 tracking from Upolo Cay to False Cape, inbound to The Pier.*  
-    **VH-YZM**: "Cairns Tower, helicopter YZM, 5nm northeast of False Cape, A005, for The Pier, received Hotel"  
+    *YZM is a VFR R44 tracking from Upolo Cay to False Cape, inbound to YRAP.*  
+    **YZM**: "Cairns Tower, helicopter YZM, 5nm northeast of False Cape, A005, for The Pier, received Hotel"  
     **CS ADC**: "YZM, Cairns Tower, cleared direct to The Pier, not above A005, report on the ground"  
-    **VH-YZM**: "Cleared direct The Pier, not above A005, YZM"  
+    **YZM**: "Cleared direct The Pier, not above A005, YZM"  
 
-    **VH-YZM**: "YZM on the pier"  
+    **YZM**: "YZM on the pier"  
     **CS ADC**: "YZM"
 
 Departing helicopters should be cleared direct to their nominated tracking point not above `A005`, and instructed to report airborne.
 
 !!! phraseology
     *VTB is a VFR Bell 505 on The Pier, intending to track to Cairns Airport for a landing on the southern pads. A 737 is about to depart from runway 15.*  
-    **VH-VTB**: "Cairns Tower, helicopter VTB, at The Pier, for the southern pads, received India"  
+    **VTB**: "Cairns Tower, helicopter VTB, at The Pier, for the southern pads, received India"  
     **CS ADC**: "VTB, Cairns Tower, short delay for clearance"  
-    **VH-VTB**: "VTB"    
+    **VTB**: "VTB"    
     
     **CS ADC**: "VTB, cleared direct to the control tower, not above A005, report airborne"  
-    **VH-VTB**: "Cleared direct to the control tower, not above A005, VTB" 
+    **VTB**: "Cleared direct to the control tower, not above A005, VTB" 
 
-    **VH-VTB**: "VTB, airborne"  
+    **VTB**: "VTB, airborne"  
     **CS ADC**: "VTB, track southern pads, report on the ground"  
-    **VH-VTB**: "Track southern pads, VTB"  
+    **VTB**: "Track southern pads, VTB"  
 
-    **VH-VTB**: "VTB, on the pad"  
+    **VTB**: "VTB, on the pad"  
     **CS ADC**: "VTB"  
 
 ## Runway Modes
@@ -164,8 +166,7 @@ The circuit height is `A010`. If an aircraft requires a higher circuit altitude,
 This allows aircraft to track via the Creek Corridor (see YBCS DAP Noise Abatement Procedures) for runway 15, or via a visual right base (commenced from vectors or the KEEWI Victor STAR), when VMC exists below `A030`.
 
 ## Coordination
-### CS TCU
-#### Auto Release
+### Auto Release
 [Next](../../controller-skills/coordination.md#next) coordination is **not** required for aircraft that are:   
 
   - Departing from a runway nominated on the ATIS; and  
@@ -180,14 +181,18 @@ The Standard Assignable level from CS ADC to CS TCU is:
 | -------- | ----- |
 | All | The lower of `A060` and `RFL` |
 
-#### Arrivals
-Aircraft tracking via a visual right base to runway 33 will be coordinated by CS TCU (see [Runway 33](#runway-33)). All other arriving aircraft do not require coordination.
+### Departures Controller
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate Enroute controller or Advisory frequency shall be issued.
 
-#### ACD to CS TCU
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| All | All | 118.4 (CS1) |
+
+### ACD to CS TCU
 The controller assuming responsibility of **CS ACD** shall give [heads-up](../../controller-skills/coordination.md#airways-clearance) coordination to the relevant CS TCU controller prior to the issue of the following clearances:  
 
 - VFR departures into CS TCU CTA  
-- Aircraft using a runway not on the ATIS 
+- Aircraft using a runway not on the ATIS
 
-### CS FLW
-FLW must advise ADC of any sequence changes within 36 Miles CS. All requests for non-duty runway arrivals must be approved by ADC.
+#### Arrivals
+Aircraft tracking via a visual right base to runway 33 will be coordinated by CS TCU (see [Runway 33](#runway-33)). All other arriving aircraft do not require coordination.

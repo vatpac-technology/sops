@@ -20,13 +20,13 @@
 ## Airspace
 PH ADC is not responsible for any airspace by default.
 
-## Maneuvering Area
+## Manoeuvring Area
 ### Manuevering Area Responsibility
 The area of responsibility between SMC West and East is divided by Runway 03/21.  
 
 <figure markdown>
-![YPPH Maneuvering Area](img/ypphsmc.png){ width="500" }
-  <figcaption>Maneuvering Area</figcaption>
+![YPPH Manoeuvring Area](img/ypphsmc.png){ width="500" }
+  <figcaption>Manoeuvring Area</figcaption>
 </figure>
 
 ## Separation
@@ -41,7 +41,7 @@ When implementing the procedure the ATIS [OPR INFO field](#acd-pushback-requests
 
 ## Local Procedures
 ### Scenic Flights
-When traffic permits, VFR scenic flights over Perth are cleared via VICTOR 65 route (`CTE-PCTY-HKE`). Coordination with PH TCU is required prior to issuing this clearance, see [ACD to PH TCU](#acd-to-ph-tcu)
+When traffic permits, VFR scenic flights over Perth are cleared via VICTOR 65 route (`CTE-PCTY-HKE`). Coordination with PH TCU is required prior to issuing this clearance, see [ACD to PH TCU](#acd-to-tcu)
 
 ## Helicopter Operations
 There are no helipad facilities at YPPH. Helicopters should be issued an airways clearance in accordance with the fixed-wing operation applicable to their flight rules (i.e. SID for IFR helicopters, VFR departure via appropriate VFR route if necessary for VFR helicopters). Helicopters should be cleared to takeoff/land from runways or taxiways, as deemed appropriate by ADC. The point of takeoff/landing must be specified by ADC.
@@ -122,9 +122,13 @@ The Standard Assignable level from PH ADC to PH TCU is:
 | All | The lower of `A050` and `RFL` |
 
 ### Departures Controller
-Refer to [Perth TCU Airspace Division](../../../terminal/perth/#airspace-division) for information on airspace divisions when **PHD** is online.
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate Enroute controller or Advisory frequency shall be issued.
 
-### ACD to PH TCU
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| All | All | 118.7 (PHD) |
+
+### ACD to TCU
 The controller assuming responsibility of ACD shall give [heads-up](../../controller-skills/coordination.md#airways-clearance) coordination to the relevant PH TCU controller prior to the issue of the following clearances:  
 
 - VFR departures into PH TCU CTA
