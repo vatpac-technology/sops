@@ -38,8 +38,9 @@ There are 8 gates to facilitate departures and arrivals into surrounding trainin
 | Gate 6 | G6 | 125 | 25 | M550 |
 | Gate 7 | G7 | 135 | 25 | M550 |
 | Gate 9 | G9 | 007 | 25 | R585 |
-| UKDIP | UKDIP | - | - | R560 |
-| OLVEP | OLVEP | - | - | R596 |
+| Gate 10 | G10 | 345 | 25 | R585 |
+| Gate 11 | G11 | 320 | 25 | R585 |
+
 
 <figure markdown>
 ![WLM Eastern Gates](){ width="700" }
