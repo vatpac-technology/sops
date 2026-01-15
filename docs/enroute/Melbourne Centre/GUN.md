@@ -7,7 +7,7 @@
 
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
-| **Gundagai** | **Melbourne Centre** | **128.400** | **ML-GUN_CTR** |
+| **Gundagai** | **Melbourne Centre** | **133.150** | **ML-GUN_CTR** |
 | <span class="indented">Bindook :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 129.800 | ML-BIK_CTR |
 | <span class="indented">Katoomba :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 133.500 | ML-KAT_CTR |
 
