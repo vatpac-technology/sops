@@ -48,6 +48,7 @@ Aircraft shall be assigned a SID based on their cleared gate, as per below:
 Aircraft on the **CLASSIC SID** must be instructed to make left or right turn with their takeoff clearance, as per the SID procedure. See [coordination](#departures) for coordination requirements with the TCU.
 
 ### SUA Gates
+#### Eastern Airspace
 There are 8 gates to facilitate departures and arrivals into surrounding training airspace, based on the WLM TACAN. 
 
 | Gate Name | Ident | Bearing (°M) | Distance (nm) | Restricted Area |
@@ -64,15 +65,12 @@ There are 8 gates to facilitate departures and arrivals into surrounding trainin
 | OLVEP | OLVEP | - | - | R596 |
 
 <figure markdown>
-![WLM Gates](img/wlmgates.png){ width="700" }
-  <figcaption>WLM Gates</figcaption>
+![WLM Gates](){ width="700" }
+  <figcaption></figcaption>
 </figure>
 
-Aircraft cleared via a gate must have their flight plan amended to reflect the new tracking point.
 
-!!! example
-    An aircraft tracking via Gate 4 would have `WLM088025` added to their route.
-
+    
 ### Initial and Pitch Procedures 
 The Intial Points for RWY 12 is the SW tip of Grahamstown Dam, and RWY 30 is the coastline.
 
