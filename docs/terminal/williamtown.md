@@ -84,7 +84,7 @@ There are 8 gates to facilitate departures and arrivals into the eastern trainin
 | Gate 11 | G11 | 320 | 25 | R585 |
 
 <figure markdown>
-![WLM Eastern Gates](aerodromes\classc\img\WLMGatesEast.png){ width="700" }
+![WLM Eastern Gates](../img){ width="700" }
   <figcaption>WLM Eastern Gates</figcaption>
 </figure>
 
@@ -226,12 +226,6 @@ The Standard Assignable level from WLM ADC to WLM TCU is:
 a) the lower of `F120` or the `RFL`, for aircraft assigned a **civil** procedural or radar SID, or visual departure  
 b) `F125`, for aircraft assigned a fast-jet SID
 
-#### CLASSIC SID
-The **CLASSIC SID** provides multiple tracking paths which pilots will take based on their departure instructions. During Next coordination with ADC, **WLM TCU** shall nominate a turn direction which will be relayed to the pilot with their takeoff clearance.
-=======
-| Aircraft | Level |
-| ------- | ----- |
-| All | The lower of `F120` and `RFL` |
 
 
 #### Arrivals/Overfliers
