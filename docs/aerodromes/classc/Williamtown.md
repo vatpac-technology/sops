@@ -75,7 +75,6 @@ There are 2 gates to facilitate departures and arrivals into the western trainin
   <figcaption>WLM Western Gates</figcaption>
 </figure>
 
-
 ### Initial and Pitch Procedures 
 The Intial Points for RWY 12 is the SW tip of Grahamstown Dam, and RWY 30 is the coastline.
 

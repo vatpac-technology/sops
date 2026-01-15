@@ -52,6 +52,7 @@ Fast jet aircraft typically transit from M550 to YWLM via Gate 6 at `F125`. When
 
 !!! tip
     See [Controller Skills](../controller-skills/military.md#stereo-approaches) for more details about stereo approaches.
+    See [SUA Gates](../terminal/williamtown.md#sua-gates) for more details about Williamtowns Gate Locations.
 
 !!! Example
 **MAPL45**: "Willy Approach, MAPL45, RTBing via G6, runway 12" 
@@ -64,52 +65,56 @@ Fast jet aircraft typically transit from M550 to YWLM via Gate 6 at `F125`. When
 ### Initial and Pitch Procedures 
 The Intial Points for RWY 12 is the SW tip of Grahamstown Dam, and RWY 30 is the coastline.
 
-### Fast-Jet SIDs
-!!! important
-    These procedures are only available when the WLM TMA is extended above `F125` through NOTAM or prior coordination. ACD will ensure that the controller responsible for the WLM TMA has approved their use prior to issuing airways clearance.
-
-The [TERMA](https://ais-af.airforce.gov.au/australian-aip) contains two SIDs for use by fast-jet aircraft, allowing them to depart via any of the nominated [SUA gates](#sua-gates).
-
-!!! note
-    These SIDs are not present in vatSys, so WLM ACD will write the name of the SID in the Global Ops Field of the FDR and amend the flight plan route to include the relevant gate, as well as any RNAV tracking points on the procedure.
-
-Aircraft will be assigned a SID based on their cleared gate, as per below:
-
-| Tracking Gate | SID | Initial Constraint |
-| ----- | ---------| --------------- |
-| G1-G2 | PEPPER  | `A080` at ERVEV |
-| G3-G7 | CLASSIC | `F125` at G3-G7 |
-| G9    | WLM (RADAR)    | `F125` at G9 |
-| UKDIP | CLASSIC | `A090` at UKDIP |
-| OLVEP | CLASSIC | `F130` at OLVEP |
-
-See [coordination](#departures_1) for coordination requirements with ADC.
-
 ### SUA Gates
-There are 8 gates to facilitate departures and arrivals into surrounding training airspace, based on the WLM TACAN. 
+#### Eastern Airspace
+There are 8 gates to facilitate departures and arrivals into the eastern training airspace, based on the WLM TACAN. 
 
 | Gate Name | Ident | Bearing (°M) | Distance (nm) | Restricted Area |
 | ----- | ---------| --------------- | -------- | ---------------- |
 | Gate 1 | G1 | 029 | 25 | R586 |
 | Gate 2 | G2 | 050 | 25 | R586 | 
-| Gate 3 | G3 | 068 | 25 | M550 |
+| Gate 3 | G3 | 065 | 25 | M550 |
+| Lighting Corridor | LG | 068 | 25 | M550|
 | Gate 4 | G4 | 088 | 25 | M550 |
 | Gate 5 | G5 | 105 | 25 | M550 |
 | Gate 6 | G6 | 125 | 25 | M550 |
 | Gate 7 | G7 | 135 | 25 | M550 |
 | Gate 9 | G9 | 007 | 25 | R585 |
-| UKDIP | UKDIP | - | - | R560 |
-| OLVEP | OLVEP | - | - | R596 |
+| Gate 10 | G10 | 345 | 25 | R585 |
+| Gate 11 | G11 | 320 | 25 | R585 |
 
 <figure markdown>
-![WLM Gates](img/wlmgates.png){ width="700" }
-  <figcaption>WLM Gates</figcaption>
+![WLM Eastern Gates](aerodromes\classc\img\WLMGatesEast.png){ width="700" }
+  <figcaption>WLM Eastern Gates</figcaption>
 </figure>
 
-Aircraft cleared via a gate must have their flight plan amended to reflect the new tracking point.
+Aircraft planning to enter certain areas of the Eastern GFTA are required to be assigned certain gates. 
+| GFTA | Gate/Lane |
+| A1 | Gate 7 |
+| A/B | Gate 6 |
+| B1  | Gate 4 |
+| C-G | Lighting Corridor |
+| H | Gates 1 to 3 |
+| W | Gate 1 |
+| X, Y, Z | Gates 9 to 11 |
 
-!!! example
-    An aircraft tracking via Gate 4 would have `WLM088025` added to their route.
+!!! phraseology
+    *DPOT45 is departing Williamtown via Gate 4 for Echo Delta *  
+    **WLM SMC** -> **DPOT45**: "DPOT45 cleared Gate 4, FL120, Visual Departure squawk 6001, departure frequency 135.700"
+
+#### Western Gates
+There are 2 gates to facilitate departures and arrivals into the western training airspace, based on the WLM TACAN. 
+
+| Gate Name | Ident | Bearing (°M) | Distance (nm) | Restricted Area |
+| ----- | ---------| --------------- | -------- | ---------------- |
+| THUNDA | THUNDA | 311 | 25 | R560 and R570  |
+| STORM | STORM | 289 | 25 | R560 and R570 | 
+
+<figure markdown>
+![WLM Western Gates](aerodromes\classc\img\WLMGatesWest.png){ width="700" }
+  <figcaption>WLM Western Gates</figcaption>
+</figure>
+
 
 ## Flow
 ### Local Knowledge
