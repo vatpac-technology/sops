@@ -26,13 +26,14 @@ WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be a
 
 ### SUA Gates
 #### Eastern Airspace
-There are 8 gates to facilitate departures and arrivals into surrounding training airspace, based on the WLM TACAN. 
+There are 8 gates to facilitate departures and arrivals into the eastern training airspace, based on the WLM TACAN. 
 
 | Gate Name | Ident | Bearing (°M) | Distance (nm) | Restricted Area |
 | ----- | ---------| --------------- | -------- | ---------------- |
 | Gate 1 | G1 | 029 | 25 | R586 |
 | Gate 2 | G2 | 050 | 25 | R586 | 
-| Gate 3 | G3 | 068 | 25 | M550 |
+| Gate 3 | G3 | 065 | 25 | M550 |
+| Lighting Corridor | LG | 068 | 25 | M550|
 | Gate 4 | G4 | 088 | 25 | M550 |
 | Gate 5 | G5 | 105 | 25 | M550 |
 | Gate 6 | G6 | 125 | 25 | M550 |
@@ -41,11 +42,24 @@ There are 8 gates to facilitate departures and arrivals into surrounding trainin
 | Gate 10 | G10 | 345 | 25 | R585 |
 | Gate 11 | G11 | 320 | 25 | R585 |
 
-
 <figure markdown>
 ![WLM Eastern Gates](){ width="700" }
   <figcaption></figcaption>
 </figure>
+
+Aircraft planning to enter certain areas of the Eastern GFTA are required to be assigned certain gates. 
+| GFTA | Gate/Lane |
+| A1 | Gate 7 |
+| A/B | Gate 6 |
+| B1  | Gate 4 |
+| C-G | Lighting Corridor |
+| H | Gates 1 to 3 |
+| W | Gate 1 |
+| X, Y, Z | Gates 9 to 11 |
+
+!!! phraseology
+    *DPOT45 is departing Williamtown via Gate 4 for Echo Delta *  
+    **WLM SMC** -> **DPOT45**: "DPOT45 cleared Gate 4, FL120, Visual Departure squawk 6001, departure frequency 135.700"
 
 #### Western Gates
     
