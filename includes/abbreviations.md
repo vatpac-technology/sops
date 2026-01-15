@@ -190,6 +190,7 @@
 *[AYMD]: Madang
 *[AYMH]: Mt Hagen
 *[AYTK]: Tokua
+*[GFTA]: General Flying Training Area
 *[GGO]: Goonoo Goonoo Station
 *[WBH]: Wallabadah
 *[NUN]: Nundle
