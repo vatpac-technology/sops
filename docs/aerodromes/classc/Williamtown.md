@@ -40,6 +40,17 @@ High performance military jet aircraft with planned operations in SUAs,, shall b
 | Arrivals | Initial Constraint | Route
 | Storm 2 | 'F130' by STORM | TG5 TG4 STORM |
 
+!!! phraseology
+    *BARN21 plans to enter M550 via the gate 4 for military training.*  
+    **WLM ADC**: "BARN21, cleared to YWLM via ERVEV, thence Pepper 1, Gate 4 transition, flight planned route. Runway 30, visual departure, climb to `A080`, squawk 6002, departure frequency 135.7"   
+
+!!! phraseology
+    *MAPL21 plans to enter R570 via THNDA for military training.*  
+    **WLM ADC**: "BARN21, cleared to YWLM via THNDA, thence Storm 1, flight planned route, Storm 2 Arrvial, Runway 30, visual departure, climb to `FL140`, squawk 6003, departure frequency 135.7" 
+
+!!! Note
+  WLM ADC can issue both outbound and inbound clearances into R560 and R570 during initial airways clearance
+
 ### SUA Gates
 
 <figure markdown>
