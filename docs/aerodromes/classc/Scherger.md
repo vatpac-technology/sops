@@ -15,6 +15,29 @@
 ## Airspace
 SG ADC owns the Class C airspace within the SG CTR from `SFC` to `A015` with a **5nm radius** around YBSG.
 
+### Local Procedures 
+There are 12 gates to facilate departues and arrivals from the SG Training Airspace, based on the SG TACAN. Aircraft can be cleared to track direct to the gate, or allow them to intercept the outbound radial by 10 DME. 
+
+| Gate Name | Ident | Bearing (°M) | Distance (nm) | Level | Direction |
+| ------ | ----------| ----------| ----------| ----------| ----------|
+| Gate 1 | G1
+| Gate 2 | G2 
+| G3
+| G4
+| G5
+| G6
+| G7
+| G8
+| G9
+| G10
+| G11
+| G12
+
+<figure markdown>
+![Tindal Gates](img/Tindal Map.png){width="700"}
+  <figcaption>Tindal Gates</figcaption>
+</figure>
+
 ## Runway Modes
 ### Circuits
 | Runway | Direction |
