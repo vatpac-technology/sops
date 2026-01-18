@@ -68,7 +68,7 @@ The Intial Points for RWY 12 is the SW tip of Grahamstown Dam, and RWY 30 is the
 ### SUA Gates
 
 <figure markdown>
-![WLM SUA Gates](..aerodromes/classc/img/WLMGatesV2.png){ width="700" }
+![WLM SUA Gates](../aerodromes/classc/img/WLMGatesV2.png){ width="700" }
   <figcaption>WLM SUA Gates</figcaption>
 </figure>
 

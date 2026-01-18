@@ -48,6 +48,11 @@ The 16 individual training areas within the ESL military airspace are separated 
 
 Lanes are defined by GNSS waypoints situated at 12, 35, and 50 NM from YMES AD.
 
+<figure markdown>
+![East Sale Lanes](img/ESL Lanes.png){ width="700" }
+<figcaption>ESL Lanes</figcaption>
+</figure>
+
 ### Outbound Lanes
 | Lane Direction | 12NM GNSS Waypoint | 35NM GNSS Waypoint | 50NM GNSS Waypoint | Bearing |
 | -------------- | ------------------ | ------------------ | ------------------ | ------- |

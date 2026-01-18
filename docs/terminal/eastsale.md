@@ -76,8 +76,8 @@ Upon pilot request, clear aircraft to transit through the Longford Lane.
 ### Lanes and Training Areas
 
 <figure markdown>
-![ESL LANES AND TRAINING AREAS](img/esl_lanes_training_areas.png){ width="700" }
-<figcaption>ESL LANES AND TRAINING AREAS</figcaption>
+![East Sale Lanes](../aerodromes/classc/img/ESL Lanes.png){ width="700" }
+<figcaption>ESL Lanes</figcaption>
 </figure>
 
 #### Outbound Lanes
