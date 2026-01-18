@@ -12,7 +12,9 @@
 | **Oakey Approach**            | **OKA** | **Oakey Approach**      | **125.400** | **OK_APP**    |
 
 ## Airspace
-The vertical limits of the AMB and OK TCUs are `SFC` to `F210`.
+The vertical limits of the AMB TCU are `SFC` to `F210`.
+
+The vertical limits of the OK TCU are `SFC` to `F125`.
 
 <figure markdown>
 ![AMB/OK TCU Structure](img/ambok_tcu.png){ width="700" }
