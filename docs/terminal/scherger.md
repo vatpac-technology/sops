@@ -45,6 +45,10 @@ SG TCU is responsible for clearances into and out of Weipa (YBWP), which sits in
 !!! note
     While SG TCU is responsible for the airspace from `SFC` to `F245` above YBWP, they have **no jurisdiction** over the runways, taxiways, or apron areas on the aerodrome itself.
 
+### SUA Gates
+
+
+
 #### Departures
 Outbound aircraft will report when taxiing for departure to **SG TCU**. Controllers shall issue the aircraft with a squawk code and a traffic statement regarding any aircraft operating on, or shortly to land at, the aerodrome.
 
