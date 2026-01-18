@@ -58,6 +58,11 @@ Aircraft planned via **GUNOK** shall be assigned the **GUNOK** SID. Aircraft pla
 
 Aircraft **not** meeting that criteria, and **non-RNAV** aircraft shall be assigned either the RADAR SID or a visual departure. 
 
+<figure markdown>
+![Pearce Lanes](img/PEA Lanes.png){width="700"}
+  <figcaption>Pearce Lanes</figcaption>
+</figure>
+
 ## Coordination
 ### Auto Release
 [Next](../../controller-skills/coordination.md#next) coordination is required from PE ADC to PE TCU for all aircraft.
