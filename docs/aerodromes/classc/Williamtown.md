@@ -33,6 +33,7 @@ High performance military jet aircraft with planned operations in SUAs,, shall b
 | Departure | Initial Constraint | Route |
 | --------- | ----------| --------- |
 | Pepper 1 | RWY12: None, RWY30: 'F130' by OLVEP or<br> 'A080' by ERVEV| RWY12: UDIXA, RWY30: OLVEP or<br>ERVEV|
+| Classic 1 | RWY12: None, RWY30: 'A090' by UKDIP or<br> 'F130' by OLVEP | RWY12:: None, RWY30: OLVEP or<br>ERVEV|
 
 
 ### SUA Gates
