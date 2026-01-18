@@ -24,8 +24,24 @@ WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be a
 ## Local Procedures
 ### Fast-Jet SIDs
 #### Coded Clearances
+High performance military jet aircraft with planned operations in SUAs,, shall be assigned a Coded Clearance departure. These Coded Clearances provide a standardised corridor avoiding civilian traffic in the adjacent airspace. 
+
+!!! tip
+    Descriptions of the coded clearances are available in the [FIHA AD2 Supps](https://ais-af.airforce.gov.au/australian-aip){target=new}.
+
+##### Departures
+| Departure | Initial Constraint | Route |
+| --------- | ----------| --------- |
+| Pepper 1 | RWY12: None, RWY30: 'F130' by OLVEP or<br> 'A080' by ERVEV| RWY12: UDIXA, RWY30: OLVEP or<br>ERVEV|
+
 
 ### SUA Gates
+
+<figure markdown>
+![WLM SUA Gates](){ width="700" }
+  <figcaption>WLM SUA Gates</figcaption>
+</figure>
+
 #### Eastern Airspace
 There are 8 gates to facilitate departures and arrivals into the eastern training airspace, based on the WLM TACAN. 
 
@@ -43,11 +59,6 @@ There are 8 gates to facilitate departures and arrivals into the eastern trainin
 | Gate 10 | G10 | 345 | 25 | R585 |
 | Gate 11 | G11 | 320 | 25 | R585 |
 
-<figure markdown>
-![WLM Eastern Gates](img/WLMGatesEast.png){ width="700" }
-  <figcaption>WLM Eastern Gates</figcaption>
-</figure>
-
 Aircraft planning to enter certain areas of the Eastern GFTA are required to be assigned certain gates. 
 | GFTA | Gate/Lane |
 | A1 | Gate 7 |
@@ -60,7 +71,8 @@ Aircraft planning to enter certain areas of the Eastern GFTA are required to be 
 
 !!! phraseology
     *DPOT45 is departing Williamtown via Gate 4 for Echo Delta *  
-    **WLM SMC** -> **DPOT45**: "DPOT45 cleared Gate 4, FL120, Visual Departure squawk 6001, departure frequency 135.700"
+    **WLM SMC**: "DPOT45 cleared Gate 4, FL120, Visual Departure squawk 6001, departure frequency 135.700"
+    **DPOT45**: "Cleared Gate 4, Climb FL120, Visual Departure squawk 6001, departures on 135.700"
 
 #### Western Gates
 There are 2 gates to facilitate departures and arrivals into the western training airspace, based on the WLM TACAN. 
@@ -69,11 +81,6 @@ There are 2 gates to facilitate departures and arrivals into the western trainin
 | ----- | ---------| --------------- | -------- | ---------------- |
 | THUNDA | THUNDA | 311 | 25 | R560 and R570  |
 | STORM | STORM | 289 | 25 | R560 and R570 | 
-
-<figure markdown>
-![WLM Western Gates](img/WLMGatesWest.png){ width="700" }
-  <figcaption>WLM Western Gates</figcaption>
-</figure>
 
 ### Initial and Pitch Procedures 
 The Intial Points for RWY 12 is the SW tip of Grahamstown Dam, and RWY 30 is the coastline.
