@@ -72,7 +72,7 @@ Each button has the following function:
 | ------ | -------- |
 | **INHIBIT** | Hides a strip from the stripboard (used when a strip is no longer needed) |
 | <span style="white-space: nowrap;">**XX CROSS XX**</span> | Adds a red highlight to the selected strip, denoting an intention to cross a runway |
-| **ADD BAR** | Allows controllers to place a variety of fixed bars anywhere on the stripboard, reflecting status changes (e.g. autorelease cancellation or runway crossing) and allowing additional queues to be build (e.g. Sydney Coordinator functions) |
+| **ADD BAR** | Allows controllers to place a variety of fixed bars anywhere on the stripboard, reflecting status changes (e.g. autorelease cancellation or runway crossing) and allowing bays to be separated (e.g. multiple SMC/ADC positions open) |
 | **FLIP FLOP** | Toggles the selected strip between Departure, Arrival & Local states (for aircraft with both ADES and ADEP fields matching the current aerodrome) |
 
 ### Strips
@@ -82,29 +82,29 @@ The background colour of the strip corresponds to its status as an arrival or a 
 ![Strip](./img/ozstripstrip.png){ width="600" }
 </figure>
 
-| Number | Content | Left Click | Right Click |
-|---------|-------------|--------------| ----------- |
-| **1** | **Bay Number** | Edit Bay Number | |
-| **2** | **CDM or Off Blocks Time**<br><small>*No Background* = Filed Off Blocks Time<br>**Coloured Background** = CDM Time</small> | Cock Strip | Open CDM Information Window |
-| **3** | **Aircraft Type** | Open Flightplan | |
-| **4** | **Wake Turbulence Category** | | |
-| **5** | **Destination** | Open Flightplan | |
-| **6** | **Voice Capability Indicator**<br><small>*Empty* = Voice Capable<br>**R** = Receive Only<br>**T** = Text Only</small> | Show Route | |
-| **7** | **Flight Rules** | Show Route | |
-| **8** | **PDC Sent Indicator**<br><small>*Empty* = PDC not sent<br>*Highlighted* = PDC Requested<br>**P** = PDC sent</small> | Open PDC Window | Open Private Message |
-| **9** | **SSR Code** | Autogenerate Code | |
-| **10** | **Callsign** | Select Strip | |
-| **11** | **Runway** | Change Runway | |
-| **12** | **Ready Flag** | Toggle Ready Flag | |
-| **13** | **Holding Point** | Edit Holding Point | |
-| **14** | **SID** | Move strip to next bay | Change SID |
-| **15** | **First Waypoint** | Open flightplan | Open Reroute Window |
-| **16** | **Requested Level** | Open flightplan | |
-| **17** | **Cleared Level** | Change CFL | |
-| **18** | **vatSys Global Ops Field** | Edit | |
-| **19** | **OzStrips Remarks** | Edit | |
-| **20** | **Departure Frequency** | Open Departure Frequency Window | |
-| **21** | **Takeoff Timer** | Start / Reset | |
+| Number | Content | Left Click | Right Click | Middle Click
+|---------|-------------|--------------| ----------- | ----------- |
+| **1** | **Bay Number** | Edit Bay Number | | |
+| **2** | **CDM or Off Blocks Time**<br><small>*No Background* = Filed Off Blocks Time<br>**Coloured Background** = CDM Time</small> | Cock Strip | Open CDM Information Window | |
+| **3** | **Aircraft Type** | Open Flightplan | | |
+| **4** | **Wake Turbulence Category** | | | |
+| **5** | **Destination** | Open Flightplan | | |
+| **6** | **Voice Capability Indicator**<br><small>*Empty* = Voice Capable<br>**R** = Receive Only<br>**T** = Text Only</small> | Show Route | | |
+| **7** | **Flight Rules** | Show Route | | |
+| **8** | **PDC Sent Indicator**<br><small>*Empty* = PDC not sent<br>*Highlighted* = PDC Requested<br>**P** = PDC sent</small> | Open PDC Window | Open Private Message | |
+| **9** | **SSR Code** | Autogenerate Code | | |
+| **10** | **Callsign** | Select Strip | | |
+| **11** | **Runway** | Change Runway | | |
+| **12** | **Ready Flag** | Toggle Ready Flag | | |
+| **13** | **Holding Point** | Edit Holding Point | | |
+| **14** | **SID** | Move strip to next bay | Change SID | Inhibit VFR Assigned SID Warning |
+| **15** | **First Waypoint** | Open flightplan | Open Reroute Window | Inhibit Route Warning |
+| **16** | **Requested Level** | Open flightplan | | Inhibit RFL Warning |
+| **17** | **Cleared Level** | Change CFL | | |
+| **18** | **vatSys Global Ops Field** | Edit | | |
+| **19** | **OzStrips Remarks** | Edit | | |
+| **20** | **Departure Frequency** | Open Departure Frequency Window | | |
+| **21** | **Takeoff Timer** | Start / Reset | | |
 
 <figure markdown>
 ![Example Strip](./img/ozstripsexample.png){ width="600" }
@@ -182,7 +182,7 @@ Right mouse click on the yellow First Waypoint box to open the Reroute menu. Fro
     <figcaption>A VFR aircraft assigned a SID, shown by the yellow background on the SID box</figcaption>
 </figure>
 
-Some situations may warrant acknowledging and removing an error/caution mentioned above (e.g. VFR aircraft conducting a SID for training, a filed route not matching an ERSA FPR entry but which is not otherwise invalid, etc.). In these cases, they can be removed by middle clicking on the relevant field.
+Some situations may warrant acknowledging and removing an error/caution mentioned above (e.g. VFR aircraft conducting a SID for training, a filed route not matching an ERSA FPR entry but which is not otherwise invalid, etc.). In these cases, they can be removed by **middle clicking** on the relevant field.
 
 #### Autofill
 OzStrips includes an autofill system to automatically set the **departure runway, SID, CFL,** and **departure frequency**. Autofill is only available when a valid ATIS is published for the aerodrome and the necessary config file exists.
@@ -245,13 +245,15 @@ At locations like [Brisbane](../aerodromes/classc/Brisbane.md#pushback-requests-
 
 Once all coordination has been completed and the Coordinator position has been opened, all outbound aircraft must first request pushback or taxi on the Coordinator frequency before being passed to SMC. 
 
-Place a `STANDBY FOR GROUND` [bar](#control-bar) in the **Cleared Bay** queue. Any strips below this bar respresent aircraft who have been instructed to standby for ground on the appropriate SMC frequency. Aircraft who are ready for pushback or taxi, but have not been told to monitor SMC, are placed in the queue, above the Standby for Ground bar.
+Enable the **Monitor SMC Bay** by selecting **View** > **Toggle Monitor SMC Bay**. Any strips in this bay respresent aircraft who have been instructed to standby for ground on the appropriate SMC frequency. Aircraft who are ready for pushback or taxi, but have not been told to monitor SMC, are queued in the **Cleared Bay**.
 
-Ensure that no more than **three** strips are ever present below the Standby for Ground bar. When SMC takes a strip from below the Standby for Ground bar and places it in the **Pushback** or **Taxi Bay**, instruct the aircraft next in line (in the queue but above the Standby for Ground bar) to monitor SMC, and move them below the bar.
+As a general rule, ensure that no more than **three** strips are present in the **Monitor SMC Bay**. When SMC takes a strip from the bay and places it in the **Pushback** or **Taxi Bay**, instruct the aircraft next in line to monitor SMC, and move them to the bay.
+
+See [Pushback Requests on ACD](../controller-skills/grounddelaymanagement.md#pushback-requests-on-acd) for detailed Coordinator decision-making procedures.
 
 <figure markdown>
 ![Coordinator](./img/ozstripscoordinator.png){ width="800" }
-    <figcaption>Coordinator Ops with OzStrips<br><small>Three aircraft are waiting on the SMC frequency (below the Queue bar), and QFA121 and RXA6416 have both requested push/taxi but are being held on the Coordinator frequency. QFA121 is closer to the bottom, so will be next to be told to standby for SMC.</small></figcaption>
+    <figcaption>Coordinator Ops with OzStrips<br><small>Three aircraft are waiting on the SMC frequency (in the **Monitor SMC Bay**), and QFA121 and RXA6418 have both requested push/taxi but are being held on the Coordinator frequency. QFA121 is closer to the bottom, so will be next to be told to standby for SMC.</small></figcaption>
 </figure>
 
 ### Ground
@@ -281,11 +283,19 @@ OzStrips will check the output of a departure's transponder to ensure they are s
 As the aircraft approaches the holding point, or when frequency transfer is given to Tower (for international aircraft or new pilots), move the strip to the **Holding Point Bay** and clear the Global Ops field (so ADC can use it for their purposes).
 
 #### Arrivals
-As an arriving aircraft vacates the runway, ADC will move the strip from the **Runway Bay** to the **Taxi Bay**. Enter the pilot's nominated parking bay in the Bay field and record any taxi instructions in the Global Ops field.
+As an arriving aircraft vacates the runway, ADC will move the strip from the **Runway Bay** to the **Taxi Bay**. Enter the pilot's [nominated parking bay](#ozbays-integration) in the Bay field and record any taxi instructions in the Global Ops field.
 
 When an aircraft is cleared to the bay, put `BAY` in the Holding Point box.
 
 When an aircraft arrives at their nominated parking position, [inhibit](#control-bar) the strip to remove it from the stripboard.
+
+##### OzBays Integration
+At OzBays-enabled aerodromes, the pre-assigned parking bay from [OzBays](https://ozbays.xyz/) will be displayed automatically in the parking bay field for arriving aircraft.
+
+Pre-assigned OzBays bays are displayed with a grey background. These bays can be overridden by editing the field manually. To display the pre-assigned bay again, edit the field and clear out your input.
+
+!!! note
+    OzBays is currently in final development and testing, and will be progressively enabled for each aerodrome.
 
 #### Runway Crossings
 For aircraft who need to cross an active runway, select the strip and use the [XX CROSS XX](#control-bar) button to highlight it as a runway crossing. SMC should hotline ADC to request each runway crossing and/or place the strip in the **Holding Point Bay**  with the crossing highlight applied, as a visual trigger to ADC that an aircraft needs to cross. Once ADC has approved the runway crossing, place the strip back in the **Taxi Bay** and remove the highlight.
