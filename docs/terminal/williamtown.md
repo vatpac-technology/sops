@@ -66,6 +66,12 @@ Fast jet aircraft typically transit from M550 to YWLM via Gate 6 at `F125`. When
 The Intial Points for RWY 12 is the SW tip of Grahamstown Dam, and RWY 30 is the coastline.
 
 ### SUA Gates
+
+<figure markdown>
+![WLM SUA Gates](..aerodromes/classc/img/WLMGatesV2.png){ width="700" }
+  <figcaption>WLM SUA Gates</figcaption>
+</figure>
+
 #### Eastern Airspace
 There are 8 gates to facilitate departures and arrivals into the eastern training airspace, based on the WLM TACAN. 
 
@@ -82,11 +88,6 @@ There are 8 gates to facilitate departures and arrivals into the eastern trainin
 | Gate 9 | G9 | 007 | 25 | R585 |
 | Gate 10 | G10 | 345 | 25 | R585 |
 | Gate 11 | G11 | 320 | 25 | R585 |
-
-<figure markdown>
-![WLM Eastern Gates](../img){ width="700" }
-  <figcaption>WLM Eastern Gates</figcaption>
-</figure>
 
 Aircraft planning to enter certain areas of the Eastern GFTA are required to be assigned certain gates. 
 | GFTA | Gate/Lane |
@@ -110,11 +111,33 @@ There are 2 gates to facilitate departures and arrivals into the western trainin
 | THUNDA | THUNDA | 311 | 25 | R560 and R570  |
 | STORM | STORM | 289 | 25 | R560 and R570 | 
 
-<figure markdown>
-![WLM Western Gates](../aerodromes/classc/img/WLMGatesWest.png){ width="700" }
-  <figcaption>WLM Western Gates</figcaption>
-</figure>
+#### Coded Clearances
+High performance military jet aircraft with planned operations in SUAs,, shall be assigned a Coded Clearance departure. These Coded Clearances provide a standardised corridor avoiding civilian traffic in the adjacent airspace. 
 
+!!! tip
+    Descriptions of the coded clearances are available in the [FIHA AD2 Supps](https://ais-af.airforce.gov.au/australian-aip){target=new}.
+
+##### Departures
+| Departure | Initial Constraint | Route |
+| --------- | ----------| --------- |
+| Pepper 1 | RWY12: None, RWY30: 'F130' by OLVEP or<br> 'A080' by ERVEV| RWY12: UDIXA, RWY30: OLVEP or<br>ERVEV|
+| Classic 1 | RWY12: None, RWY30: 'A090' by UKDIP or<br> 'F130' by OLVEP | RWY12:: None, RWY30: OLVEP or<br>ERVEV|
+| Storm 1 | 'F140' by THUDA | THNDA TG3 TG4 |
+
+##### Arrivals
+| Arrivals | Initial Constraint | Route
+| Storm 2 | 'F130' by STORM | TG5 TG4 STORM |
+
+!!! phraseology
+    *BARN21 plans to enter M550 via the gate 4 for military training.*  
+    **WLM ADC**: "BARN21, cleared to YWLM via ERVEV, thence Pepper 1, Gate 4 transition, flight planned route. Runway 30, visual departure, climb to `A080`, squawk 6002, departure frequency 135.7"   
+
+!!! phraseology
+    *MAPL21 plans to enter R570 via THNDA for military training.*  
+    **WLM ADC**: "BARN21, cleared to YWLM via THNDA, thence Storm 1, flight planned route, Storm 2 Arrvial, Runway 30, visual departure, climb to `FL140`, squawk 6003, departure frequency 135.7" 
+
+!!! Note
+  WLM ADC can issue both outbound and inbound clearances into R560 and R570 during initial airways clearance
 
 ## Flow
 ### Local Knowledge
