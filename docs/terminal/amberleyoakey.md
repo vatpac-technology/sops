@@ -52,7 +52,7 @@ The vertical limits of the AMB and OK TCUs are `SFC` to `F210`.
     **OK ADC** owns the Class C airspace within 5 DME of the OK VOR from `SFC` to `A025`.
 
 ## Extending
-AMA is **expected** to extend to OKA and vice versa; callsigns remain the same. See [Controller Skills](../controller-skills/extending.md) for details.
+AMA may extend to OKA and vice versa; callsigns remain the same. See [Controller Skills](../controller-skills/extending.md) for details.
 
 ## Local Procedures 
 ### YAMB
