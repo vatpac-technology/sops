@@ -43,7 +43,7 @@ Aircraft taxiing outbound from the RSAF and Military Aprons shall be instructed 
 
 ### Lanes
 
-Three helicopter lanes are located immediately north of Runway 09/27, aligned in the 09/27 cardinal direction. Lanes 1 and 3 are sealed pavement, while Lane 2 is grass. Each lane may only be occupied by one aircraft at a time. These lanes are inside the manoeuvring area and treated like a runway, requiring a takeoff and landing clearance from OK ADC. 
+Three helicopter lanes are located immediately north of Runway 09/27, aligned parallel to the runway. Lanes 1 and 3 are sealed pavement, while Lane 2 is grass. Each lane may only be occupied by one aircraft at a time. These lanes are inside the manoeuvring area and treated like a runway, requiring a takeoff and landing clearance from OK ADC. 
 
 Lanes may be used for circuits and low-level operations. Aircraft cleared to land or enter a lane may conduct operations within that lane not above `A003`.
 
