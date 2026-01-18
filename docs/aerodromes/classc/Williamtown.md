@@ -75,7 +75,11 @@ There are 8 gates to facilitate departures and arrivals into the eastern trainin
 | Gate 10 | G10 | 345 | 25 | R585 |
 | Gate 11 | G11 | 320 | 25 | R585 |
 
-Aircraft planning to enter certain areas of the Eastern GFTA are required to be assigned certain gates. 
+Aircraft planning to enter certain areas of the Eastern GFTA are required to be assigned certain gates.
+
+| Gate Name | Ident | Bearing (°M) | Distance (nm) | Restricted Area |
+| ----- | ---------| --------------- | -------- | ---------------- |
+| Gate 1 | G1 | 029 | 25 | R586 |
 | GFTA | Gate/Lane |
 | A1 | Gate 7 |
 | A/B | Gate 6 |
