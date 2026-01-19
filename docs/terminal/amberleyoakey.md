@@ -141,7 +141,7 @@ Aircraft shall report established once within the FTAs, and nominate an Ops Norm
 
 ##### Transit
 
-Aircraft may wish to transit from their existing FTA to another FTA. In this case, they shall be cleared to their requested FTA, via their existing LFA, not above `A030`.
+Aircraft may wish to transit from their existing FTA to another FTA. In this case, they shall be cleared to their requested FTA, via their existing FTA, not above `A030`.
 
 !!! phraseology
     **CYCP90:** "Oakey Approach, CYCP90, request northeast training area"  
