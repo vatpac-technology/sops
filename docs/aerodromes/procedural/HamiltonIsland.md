@@ -28,9 +28,9 @@ Surveillance coverage can be expected to be not available below `A031` in the HM
 
 ## Coordination
 ### Departures
-[Next](../../controller-skills/coordination.md#next) coordination is required from HM ADC to KEN(SWY) for all aircraft **entering KEN(SWY) CTA**.
+[Next](../../controller-skills/coordination.md#next) coordination is required from HM ADC to KEN(SWY) for all aircraft **entering KPL(SWY) CTA**.
 
-The Standard Assignable level from **HM ADC** to **KEN(SWY)** is:
+The Standard Assignable level from **HM ADC** to **KPL(SWY)** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -43,4 +43,4 @@ KEN(SWY) will heads-up coordinate all arrivals/overfliers to HM ADC
     <span class="hotline">**SWY** -> **HM ADC**</span>: "Via OPOSI for the RNP-U, JST848”  
     <span class="hotline">**HM ADC** -> **SWY**</span>: "JST848, A060"  
 
-The Standard Assignable level from KEN(SWY) to HM ADC is `A060`, any other level must be prior coordinated.
+The Standard Assignable level from KPL(SWY) to HM ADC is `A060`, any other level must be prior coordinated.
