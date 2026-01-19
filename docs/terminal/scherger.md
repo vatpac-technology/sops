@@ -64,7 +64,7 @@ There are 12 gates to facilate departues and arrivals from the SG Training Airsp
 | Gate 12 | G12 | 330 | 40 | DEPART |
 
 <figure markdown> 
-![SG Gates](img/SG Map.png){width="700"}
+![SG Gates](../aerodromes/classc/img/SG Map.png){width="700"}
   <figcaption>SG Gates</figcaption>
 </figure>
 
