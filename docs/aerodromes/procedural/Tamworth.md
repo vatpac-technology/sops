@@ -19,7 +19,7 @@
 
 ## Airspace
 <figure markdown>
-![TW ADC Airspace](img/YSTW_airspace.png){ width="800" }
+![TW ADC Airspace](img/tw_ctr.png){ width="800" }
   <figcaption>TW ADC Airspace</figcaption>
 </figure>
 

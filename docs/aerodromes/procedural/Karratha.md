@@ -14,11 +14,11 @@
 
 ## Airspace
 <figure markdown>
-![KA ADC Airspace](img/ypka_airspace.png){ width="700" }
+![KA ADC Airspace](img/ka_ctr.png){ width="700" }
   <figcaption>KA ADC Airspace</figcaption>
 </figure>
 
-KA ADC is responsible for the Class D airspace in the KA CTR `SFC` to `A055`.
+KA ADC is responsible for the Class D airspace in the KA CTR `BCTA` to `A055`.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 

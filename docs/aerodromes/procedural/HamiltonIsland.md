@@ -14,11 +14,11 @@
 ## Airspace
 
 <figure markdown>
-![HM ADC Airspace](img/ybhm_airspace.png){ width="700" }
+![HM ADC Airspace](img/hm_ctr.png){ width="700" }
   <figcaption>HM ADC Airspace</figcaption>
 </figure>
 
-HM ADC is responsible for the Class D airspace in the HM CTR `SFC` to `A045`.
+HM ADC is responsible for the Class D airspace in the HM CTR `BCTA` to `A045`.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 

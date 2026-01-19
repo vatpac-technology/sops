@@ -12,11 +12,11 @@
 
 ## Airspace
 <figure markdown>
-![CFS ADC Airspace](img/ycfs_airspace.png){ width="700" }
+![CFS ADC Airspace](img/cfs_ctr.png){ width="700" }
   <figcaption>CFS ADC Airspace</figcaption>
 </figure>
 
-CFS ADC is responsible for the Class D airspace in the CFS CTR `SFC` to `A045`.
+CFS ADC is responsible for the Class D airspace in the CFS CTR `BCTA` to `A045`.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
