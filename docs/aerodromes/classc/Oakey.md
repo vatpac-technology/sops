@@ -64,69 +64,24 @@ These lanes are inside the manoeuvring area and treated like a runway. Helicopte
 
 #### Flying Training Areas
 
-R654A, B, C and D are divided into the Western, North West and North East FTAs. These areas overlay the [LFAs](#low-flying-areas).
+R654A, B, C and D are divided into the Western, North West and North East FTAs. These areas are the primary location for military helicopters conducting operations.
 
 <figure markdown>
 ![YBOK FTAs](img/YBOK-FTAs.png){ width="600" }
   <figcaption>Flying Training Areas</figcaption>
 </figure>
 
-#### Low Flying Areas
-
-There are eight LFAs within the OFTA. LFAs are the primary location for military helicopters conducting low level operations. LFAs are numbered 1-8 with the prefix L, pronounced as, "LIMA (number)".
-
-#### SAAFRs
-
-SAAFRs provide efficient movement through the OFTA to specific LFAs during periods of increased traffic. They are defined as 2nm wide, and are named "X-Ray", "Yankee" and "Zulu".
-
-#### Transit Areas
-
-Three transit areas, named "Whiskey" (western), "Charlie" (central) and "Echo" (eastern) are located between the Oakey CTR and inner boundaries of their respective LFAs. Transit Areas exist to provide flexibility in routing when leaving or enter Oakey CTR.
-
-!!! tip
-    Detailed images depicting LFAs, SAAFRs and Transit Areas are available on the [Oakey AD2 SUP](https://ais-af.airforce.gov.au/australian-aip)
-
 ## Departure and Arrival Procedures
 
 ### Departures
-By default, aircraft will be cleared to transit to their requested LFA by tracking direct.
-
-!!! phraseology
-    **FRTL21:** "Oakey Delivery, helicopter FRTL21, for Lima 1, request clearance"    
-    **OK ACD:** "FRTL21, Oakey Delivery, cleared Lima 1 direct, not above A030, squawk 7264"    
-    **FRTL21:** "Cleared Lima 1 direct, not above A030, squawk 7264, FRTL21"  
-
-At pilot request, tracking via an outbound SAAFR or Transit Area may be offered. 
-
-Ensure any requested SAAFRs or Transit Areas connect with the intended LFA, in accordance with the tables below:
-
-=== "SAAFRs"
-	| Name | Connected LFAs |
-	| ---- | ---- |
-	| X-Ray | Lima 1, 3, 4, 5, 6 |
-	| Yankee | Lima 1, 5, 6, 7, 8 |
-	| Zulu | Lima 8, 7 |
-
-=== "Transit Areas"
-	| Name | Connected LFAs |
-	| ---- | ---- |
-	| Whiskey | Lima 2, 3, 4 |
-	| Charlie | Lima 1 |
-	| Echo | Lima 8 |
-
-!!! phraseology
-    **RSCU904:** "Oakey Delivery, helicopter RSCU904, for Lima 2, via Whiskey, request clearance"    
-    **OK ACD:** "RSCU904, Oakey Delivery, cleared Lima 2, via Whiskey, not above A030, squawk 7314"    
-    **RSCU904:** "Cleared Lima 2, via Whiskey, not above A030, squawk 7314, RSCU904" 
-
-Aircraft requesting clearance for the FTAs, shall be cleared not above `A030`.
+By default, aircraft will be cleared to transit to their requested FTAs by tracking direct.
 
 !!! phraseology
     **CYCP90:** "Oakey Delivery, helicopter CYCP90, for the northeast training area, request clearance"    
-    **OK ACD:** "CYCP90, Oakey Delivery, cleared northeast training area, not above A030, squawk 7324"  
-    **CYCP90:** "Cleared northeast training area, not above A030, squawk 7324, CYCP90"  
+    **OK ACD:** "CYCP90, Oakey Delivery, cleared northeast training area direct, not above A030, squawk 7324"  
+    **CYCP90:** "Cleared northeast training area direct, not above A030, squawk 7324, CYCP90"  
 
-Aircraft will depart the CIRA visually and track direct to their LFA, or the requested outbound SAAFRs / Transit Area as cleared.
+Aircraft will depart the CIRA visually and track direct to their FTAs.
 
 !!! phraseology
     **OK ADC:** "FRTL21, make right turn, cleared for takeoff"    
