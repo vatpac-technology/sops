@@ -102,7 +102,7 @@ There are 2 gates to facilitate departures and arrivals into the western trainin
 
 | Gate Name | Ident | Bearing (°M) | Distance (nm) | Restricted Area |
 | ----- | ---------| --------------- | -------- | ---------------- |
-| THUNDA | THUNDA | 311 | 25 | R560 and R570  |
+| THNDA | THNDA | 311 | 25 | R560 and R570  |
 | STORM | STORM | 289 | 25 | R560 and R570 | 
 
 ### Initial and Pitch Procedures 

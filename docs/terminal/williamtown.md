@@ -105,7 +105,7 @@ There are 2 gates to facilitate departures and arrivals into the western trainin
 
 | Gate Name | Ident | Bearing (°M) | Distance (nm) | Restricted Area |
 | ----- | ---------| --------------- | -------- | ---------------- |
-| THUNDA | THUNDA | 311 | 25 | R560 and R570  |
+| THNDA | THNDA | 311 | 25 | R560 and R570  |
 | STORM | STORM | 289 | 25 | R560 and R570 | 
 
 #### Coded Clearances
@@ -119,7 +119,7 @@ High performance military jet aircraft with planned operations in SUAs,, shall b
 | --------- | ----------| --------- |
 | Pepper 1 | RWY12: None, RWY30: 'F130' by OLVEP or<br> 'A080' by ERVEV| RWY12: UDIXA, RWY30: OLVEP or<br>ERVEV|
 | Classic 1 | RWY12: None, RWY30: 'A090' by UKDIP or<br> 'F130' by OLVEP | RWY12:: None, RWY30: OLVEP or<br>ERVEV|
-| Storm 1 | 'F140' by THUDA | THNDA TG3 TG4 |
+| Storm 1 | 'F140' by THNDA | THNDA TG3 TG4 |
 
 ##### Arrivals
 | Arrivals | Initial Constraint | Route
