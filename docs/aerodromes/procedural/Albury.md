@@ -17,7 +17,7 @@
   <figcaption>AY ADC Airspace</figcaption>
 </figure>
 
-AY ADC is responsible for the Class D airspace in the AY CTR `BCTA` to `A045`.
+AY ADC is responsible for the Class D airspace in the AY keyhole `BCTA` to `A045`.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
