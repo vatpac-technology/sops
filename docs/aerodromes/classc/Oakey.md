@@ -31,26 +31,32 @@ OK ADC owns the airspace within 5 DME of the OK VOR from `SFC` to `A030`. This a
 </figure>
 
 ### Taxiway Bravo
+Taxiway Bravo may be used for helicopter arrivals and departures in any direction as specified by ATC. Four helipads are available on the taxiway for these manoeuvres: **Pad 1**, **Pad 2**, **Pad 3** and **Pad 4**. These pads are inside the manoeuvring area, and helicopters using these pads require an explicit a takeoff/landing clearance from OK ADC.
 
-Four helipads are available on Taxiway Bravo from east to west, they are named Pad 1, Pad 2, Pad 3 and Pad 4. Taxiway Bravo may be used for helicopter arrivals and departures in any direction as specified by ATC. These pads are inside the manoeuvring area and treated like a runway, requiring a takeoff and landing clearance from OK ADC.
-
-Aircraft taxiing outbound from the RSAF and Military Aprons shall be instructed to hold short of the most appropriate taxiway when necessary, to provide separation with helicopters operating on Taxiway Bravo. 
+Aircraft taxiing outbound from the RSAF and Military Aprons shall be instructed to hold short of the most appropriate taxiway, when necessary, to provide separation with helicopters operating on Taxiway Bravo. 
 
 <figure markdown>
 ![YBOK Taxiway Bravo](img/YBOK-TaxiwayBravo.png){ width="600" }
-  <figcaption>Taxiway Bravo</figcaption>
+  <figcaption>Pads 1 to 4 on Taxiway Bravo</figcaption>
 </figure>
 
 ### Lanes
 
-Three helicopter lanes are located immediately north of Runway 09/27, aligned parallel to the runway. Lanes 1 and 3 are sealed pavement, while Lane 2 is grass. Each lane may only be occupied by one aircraft at a time. These lanes are inside the manoeuvring area and treated like a runway, requiring a takeoff and landing clearance from OK ADC. 
-
-Lanes may be used for circuits and low-level operations. Aircraft cleared to land or enter a lane may conduct operations within that lane not above `A003`.
+There are three helicopter lanes in the centre of the aerodrome, parallel to Runway 09/27. Lanes 1 and 3 are sealed pavement, while Lane 2 is grass. 
 
 <figure markdown>
 ![YBOK Lanes](img/YBOK-Lanes.png){ width="600" }
   <figcaption>YBOK Lanes</figcaption>
 </figure>
+
+Lanes may be used for circuits and low-level operations. Aircraft cleared to land or enter a lane may conduct operations within that lane not above `A003`. Each lane may only be occupied by one aircraft at a time.
+
+These lanes are inside the manoeuvring area and treated like a runway. Helicopters using these pads require an explicit takeoff/landing clearance from OK ADC. 
+
+!!! phraseology
+    **FRTL22:** "Oakey Tower, helicopter FRTL22, ready Lane 2"    
+    **OK ADC:** "FRTL22, Lane 2, cleared for takeoff."    
+    **FRTL22:** "Cleared for takeoff Lane 2, FRTL22"  
 
 ## Local Procedures
 
@@ -107,10 +113,6 @@ Ensure any requested SAAFRs or Transit Areas connect with the intended LFA, in a
 	| Whiskey | Lima 2, 3, 4 |
 	| Charlie | Lima 1 |
 	| Echo | Lima 8 |
-
-
-!!! example
-    Aircraft requesting clearance to Lima 4 via Yankee, shall be cleared via X-Ray, as Yankee does not connect to Lima 4.
 
 !!! phraseology
     **RSCU904:** "Oakey Delivery, helicopter RSCU904, for Lima 2, via Whiskey, request clearance"    

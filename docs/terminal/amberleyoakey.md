@@ -32,7 +32,7 @@ The vertical limits of the OK TCU are `SFC` to `F125`.
     - R625D (`A085`-`F210`)
 
     <figure markdown>
-    ![AMB TCU Restricted Areas](img/amb_restricted_areas.png){ width="952" }
+    ![AMB TCU Restricted Areas](img/amb_restricted_areas.png){ width="550" }
     <figcaption>AMB TCU Restricted Areas</figcaption>
     </figure>
 
@@ -47,7 +47,7 @@ The vertical limits of the OK TCU are `SFC` to `F125`.
     - R654D (`A065`-`F125`)  
 
     <figure markdown>
-    ![OK TCU Restricted Areas](img/ok_restricted_areas.png){ width="1060" }
+    ![OK TCU Restricted Areas](img/ok_restricted_areas.png){ width="550" }
     <figcaption>OK TCU Restricted Areas</figcaption>
     </figure>
 
