@@ -62,7 +62,7 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **
 	</figure>
 	
 #### Brisbane Radar (SHN)
-SHN is responsible for the provision of FIS in Class G airspace within the BN TMA. The position is designed to reduce the workload of other TMA positions by identifing and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller.
+SHN is responsible for the provision of FIS in Class G airspace within the SY TMA. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identify them, perform any necessary coordination, then hand them to the relevant controller who will issue clearance if appropriate. 
 
 #### Airspace Structural Arrangements
 Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, **"North"**/**"West"** positions shall assume the airspace of corresponding **"South"**/**"East"** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
