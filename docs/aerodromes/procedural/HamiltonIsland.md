@@ -22,7 +22,7 @@ HM ADC is responsible for the Class D airspace in the HM CTR `BCTA` to `A045`.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
-## Separatioons
+## Separation
 ### Surveillance
 Surveillance coverage can be expected to be not available below `A031` in the HM CTR. Although HM ADC is **not permitted** to use surveillance for separation, KEN(SWY) may assist by establishing surveillance separation standards via coordination
 
