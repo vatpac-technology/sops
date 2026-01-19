@@ -39,7 +39,7 @@ ED CTR reverts to Class G when **ED ADC** is offline, and is administered by the
 </figure>
 
 #### Adelaide Radar (AAR)
-AAR is responsible for the provision of FIS in Class G airspace within the AD TMA. It is a role normally performed by the controller responsible for **AAE**. The position is designed to reduce the workload of other TMA positions by identifing and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller.
+AAR is responsible for the provision of FIS in Class G airspace within the AD TMA. It is a role normally performed by the controller responsible for **AAE**. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identify them, perform any necessary coordination, then hand them to the relevant controller who will issue clearance if appropriate.
 
 ## Local Procedures 
 ### Scenic Coastal Flights
