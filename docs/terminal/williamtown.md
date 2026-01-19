@@ -62,9 +62,6 @@ Fast jet aircraft typically transit from M550 to YWLM via Gate 6 at `F125`. When
 !!! note
     Stereo approach charts are available in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}.
 
-### Initial and Pitch Procedures 
-The Intial Points for RWY 12 is the SW tip of Grahamstown Dam, and RWY 30 is the coastline.
-
 ### SUA Gates
 
 <figure markdown>

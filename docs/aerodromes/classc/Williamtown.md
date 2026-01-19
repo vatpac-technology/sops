@@ -22,6 +22,9 @@ WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be a
 </figure>
 
 ## Local Procedures
+### Initial and Pitch Procedures 
+The Intial Points for RWY 12 is the SW tip of Grahamstown Dam, and RWY 30 is the coastline.
+
 ### Fast-Jet SIDs
 #### Coded Clearances
 High performance military jet aircraft with planned operations in SUAs,, shall be assigned a Coded Clearance departure. These Coded Clearances provide a standardised corridor avoiding civilian traffic in the adjacent airspace. 
