@@ -16,27 +16,28 @@
 SG ADC owns the Class C airspace within the SG CTR from `SFC` to `A015` with a **5nm radius** around YBSG.
 
 ### Local Procedures 
-There are 12 gates to facilate departues and arrivals from the SG Training Airspace, based on the SG TACAN. Aircraft can be cleared to track direct to the gate, or allow them to intercept the outbound radial by 10 DME. 
+There are 12 gates to facilate departues and arrivals from the SG Training Airspace, based on the SG TACAN. Aircraft can be cleared to track direct to the gate, or allow them to intercept the outbound radial by 10 DME. Aircraft are expected to depart to `FL190`
 
 | Gate Name | Ident | Bearing (°M) | Distance (nm) | Level | Direction |
 | ------ | ----------| ----------| ----------| ----------| ----------|
-| Gate 1 | G1
-| Gate 2 | G2 
-| G3
-| G4
-| G5
-| G6
-| G7
-| G8
-| G9
-| G10
-| G11
-| G12
+| Gate 2 | G2 | 030 | 40 | DEPART |
+| Gate 4 | G4 | 090 | 40 | DEPART |
+| Gate 6 | G6 | 150 | 40 | DEPART | 
+| Gate 8 | G8 | 210 | 40 | DEPART |
+| Gate 10 | G10 | 270 | 40 | DEPART |
+| Gate 12 | G12 | 330 | 40 | DEPART |
 
-<figure markdown>
-![Tindal Gates](img/Tindal Map.png){width="700"}
-  <figcaption>Tindal Gates</figcaption>
+!!! phraseology 
+    CLAS35 plans to enter the M610 area via the Gate 10 for Military Training.  
+    **SG ACD**: "CLAS35, cleared to YBSG via Gate 10, flight planned route. Runway 14, Intercept the outbound radial by 10 DME. Climb to F190. Squawk 6001, Departure Frequency 124.2"   
+
+<figure markdown> 
+![SG Gates](img/SG Map.png){width="700"}
+  <figcaption>SG Gates</figcaption>
 </figure>
+
+### Initial and Pitch 
+Initial Point (IP) for RWY 12 and 30 are aligned with TWY Alpha and are located at 4.5 NM for RWY 12 and 4.2 for RWY 30.
 
 ## Runway Modes
 ### Circuits
