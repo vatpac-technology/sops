@@ -164,15 +164,16 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 | 1 - SODPROPS      | 19R       | 01R        |
 | 2 - 19 PROPS      | 19L & 19R | 19L & 19R  |
 | 3 - 01 PROPS      | 01L & 01R | 01L & 01R  |
-| 4 - 19 Segregated | 19R *or* 19L | 19L *or* 19R |
-| 5 - 01 Segregated | 01R *or* 01L | 01L *or* 01R |
+| 4 - 19 [Segregated](#segregated-operations) | 19R *or* 19L | 19L *or* 19R |
+| 5 - 01 [Segregated](#segregated-operations) | 01R *or* 01L | 01L *or* 01R |
 | *Curfew (RRO)   | 19L       | 01R        |
 
 *Permitted between the hours of 2200 and 0600 Local. If the pilot does not want to participate in curfew mode operations, the controller must accommodate this request.
 
 !!! note
-    The SODPROPS, segregated, and RRO modes are most suitable for Noise Abatement. The PROPS modes is most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Panic Stations.
+    The SODPROPS, Segregated Ops, and RRO modes are most suitable for Noise Abatement. The PROPS modes is most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Panic Stations.
 
+#### SODPROPS
 When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time
 
 !!! phraseology
@@ -181,8 +182,26 @@ When using the SODPROPS mode, pass traffic information to aircraft that are depa
     **BN ADC:** "DEF, Traffic is ABC, an A320, departing from the opposite direction parallel runway to the South-West. Runway 19R, Cleared to Land"  
     **DEF:** "Cleared to Land Runway 19R, DEF"  
 
+#### Segregated Operations
+Brisbane uses **segregated** operating modes during times of low traffic to "share" the noise of aircraft movements across the community. During segregated operations, one of the runways will be used for all departures, while the other is dedicated to arrivals.
+
+<figure markdown>
+![YBBN Segregated Modes](img/bn_segregated_modes.png){ width="300" }
+  <figcaption>YBBN Segregated Modes</figcaption>
+</figure>
+
+There are four possible configurations of segregated operations.
+
+| Arrivals  | Departures |
+| --------- | ---------- |
+| 19L | 19R |
+| 19R | 19L |
+| 01L | 01R |
+| 01R | 01L |
+
+
 ### Runway Selection
-Unless operationally required, aircraft shall be assigned the following runways for departure when PROPS are in progress:
+When **PROPS** are in progress, aircraft shall be assigned the following runways for departure (unless operationally required otherwise):
 
 | Aircraft tracking | Runway  |
 | ----------------  | --------- |
