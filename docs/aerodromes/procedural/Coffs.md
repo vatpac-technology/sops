@@ -16,7 +16,7 @@
   <figcaption>CFS ADC Airspace</figcaption>
 </figure>
 
-CFS ADC is responsible for the Class D airspace in the CFS CTR `BCTA` to `A045`.
+CFS ADC is responsible for the Class D airspace in the CFS keyhole within 22DME `BCTA` to `A045`.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
