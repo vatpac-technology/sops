@@ -18,7 +18,7 @@
   <figcaption>SU ADC Airspace</figcaption>
 </figure>
 
-SU ADC is responsible for the Class D airspace in the SU CTR `BCTA` to `A045`.
+SU ADC is responsible for the Class D airspace within 20DME SU `BCTA` to `A045`.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
