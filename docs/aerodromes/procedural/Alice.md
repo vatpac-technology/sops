@@ -11,7 +11,7 @@
 | **Alice Springs ATIS** |                 | **123.000** | **YBAS_ATIS** |
 
 ## Airspace
-AS ADC is responsible for the Class D airspace `BCTA` to `A045`, as well as the Class C airspace `A045` to `A065`, within the AS CTR.
+AS ADC is responsible for the Class D airspace `BCTA` to `A045`, as well as the Class C airspace `A045` to `A065`, within 22DME AS.
 
 <figure markdown>
 ![AD ADC Airspace](img/as_ctr.png){ width="1000" }
