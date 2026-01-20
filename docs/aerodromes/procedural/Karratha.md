@@ -18,7 +18,7 @@
   <figcaption>KA ADC Airspace</figcaption>
 </figure>
 
-KA ADC is responsible for the Class D airspace in the KA CTR `BCTA` to `A055`.
+KA ADC is responsible for the Class D airspace within 31DME KA `BCTA` to `A055`.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
