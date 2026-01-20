@@ -18,7 +18,7 @@
   <figcaption>HM ADC Airspace</figcaption>
 </figure>
 
-HM ADC is responsible for the Class D airspace in the HM CTR `BCTA` to `A045`.
+HM ADC is responsible for the Class D airspace in the HM keyhole within 22NM OVRUN `BCTA` to `A045`.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
