@@ -362,7 +362,7 @@ The Standard Assignable level from INL to **CFS ADC** is `A080`, any other level
 
 ### OK TCU / AMB TCU
 #### Airspace
-By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas, and **AMB TCU** owns the airspace within the **R625A-D** restricted areas, unless stated otherwise by ad-hoc release or NOTAM.
+By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas from `SFC` to `F125`, and **AMB TCU** owns the airspace within the **R625A-D** restricted areas from `SFC` to `F210`, unless stated otherwise by ad-hoc release or NOTAM.
 
 #### Departures
 All aircraft from AMB/OK TCU to INL(All) require Heads-up coordination prior to the boundary. Expect this coordination to be completed a short time after the aircraft becomes airborne (pending controller workload).
