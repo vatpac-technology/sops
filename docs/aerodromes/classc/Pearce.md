@@ -27,21 +27,24 @@ The [initial](../../../controller-skills/military/#initial-and-pitch) points cha
 
 | Runway | Direction Initial | Inital Altitude
 | ------ | ------------------|----------------|
-| 05     | Any | A010 |
-| 18L    | Left/Straight<br>Right | A015<br>A010 |
-| 18R    | Left/Straight<br>Right | A015<br>A010 |
-| 23     | Any | A015 |
-| 36L    | Left<br>Right | A010<br>A015 |
-| 36R    | Left<br>Right | A010<br>A015 |
+| 05     | Any | `A010` |
+| 18L    | Left/Straight<br>Right | `A015`<br>`A010` |
+| 18R    | Left/Straight<br>Right | `A015`<br>`A010` |
+| 23     | Any | `A015` |
+| 36L    | Left<br>Right | `A010`<br>`A015` |
+| 36R    | Left<br>Right | `A010`<br>`A015` |
 
 ## Runway Modes
 ### Circuits
-Aircraft can be instructed to extend outside of this airspace by ATC for traffic management, following coordination with the appropriate sectors.
+Circuit altitude will depend on the type of aircraft. Assign circuit altitudes for the following aircraft types:  
 
-HAWKs have circuit altitude of `A016`, while both 2FTS and RSAF PC21s are assigned `A012`.
+| Aircraft | Altitude |
+| ----- | ---- |
+| Military Jet (e.g. HAWK) | `A016` |
+| Non-Jet (e.g. PC21) | `A012` |
 
 !!! note
-    36L/18R is unsuitable for HAWK Aircraft
+    Runway 36L/18R is unsuitable for HAWK aircraft.
 
 #### Circuit Direction
 
