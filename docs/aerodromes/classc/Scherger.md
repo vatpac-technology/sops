@@ -16,20 +16,22 @@
 SG ADC owns the Class C airspace within the SG CTR from `SFC` to `A015` with a **5nm radius** around YBSG.
 
 ### Local Procedures 
-There are 12 gates to facilate departues and arrivals from the SG Training Airspace, based on the SG TACAN. Aircraft can be cleared to track direct to the gate, or allow them to intercept the outbound radial by 10 DME. Aircraft are expected to depart to `FL190`
+There are 12 gates to facilate departues and arrivals from the SG Training Airspace, based on the SG TACAN. Aircraft can be cleared to track direct to the gate, or allow them to intercept the outbound radial by 10 DME. Aircraft are expected to depart at `F190`.
 
-| Gate Name | Ident | Bearing (°M) | Distance (nm) | Level | Direction |
-| ------ | ----------| ----------| ----------| ----------| ----------|
-| Gate 2 | G2 | 030 | 40 | DEPART |
-| Gate 4 | G4 | 090 | 40 | DEPART |
-| Gate 6 | G6 | 150 | 40 | DEPART | 
-| Gate 8 | G8 | 210 | 40 | DEPART |
-| Gate 10 | G10 | 270 | 40 | DEPART |
-| Gate 12 | G12 | 330 | 40 | DEPART |
+The following gates are used for outbound aircraft:
+
+| Gate Name | Ident | Bearing (°M) | Distance (nm) | Level |
+| ------ | ----------| ----------| ----------| ----------|
+| Gate 2 | G2 | 030 | 40 |
+| Gate 4 | G4 | 090 | 40 |
+| Gate 6 | G6 | 150 | 40 | 
+| Gate 8 | G8 | 210 | 40 |
+| Gate 10 | G10 | 270 | 40 |
+| Gate 12 | G12 | 330 | 40 |
 
 !!! phraseology 
-    CLAS35 plans to enter the M610 area via the Gate 10 for Military Training.  
-    **SG ACD**: "CLAS35, cleared to YBSG via Gate 10, flight planned route. Runway 14, Intercept the outbound radial by 10 DME. Climb to F190. Squawk 6001, Departure Frequency 124.2"   
+    CLAS35 plans to enter the M610 area via the Gate 10 for military training operations.  
+    **SG ACD**: "CLAS35, cleared to M610 via Gate 10, intercept the outbound radial by 10 DME, climb to `F190`, squawk 6001, departure frequency 124.2"   
 
 <figure markdown> 
 ![SG Gates](img/SG Map.png){width="700"}
@@ -37,7 +39,7 @@ There are 12 gates to facilate departues and arrivals from the SG Training Airsp
 </figure>
 
 ### Initial and Pitch 
-Initial Point (IP) for RWY 12 and 30 are aligned with TWY Alpha and are located at 4.5 NM for RWY 12 and 4.2 for RWY 30.
+Initial Point (IP) for RWY 12 and 30 are aligned with TWY Alpha and are located at 4.5NM for RWY 12 and 4.2NM for RWY 30.
 
 ## Runway Modes
 ### Circuits
