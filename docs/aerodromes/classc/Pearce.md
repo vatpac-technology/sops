@@ -59,7 +59,7 @@ Circuit altitude will depend on the type of aircraft. Assign circuit altitudes f
 ## SID Selection
 Aircraft planned via **GUNOK** shall be assigned the **GUNOK** SID. Aircraft planned via the **Wannamal Lane**, **Alkimos Lane**, or **Mullalloo Lane** shall be assigned relevant **Procedural SID**.
 
-Aircraft **not** meeting that criteria, and **non-RNAV** aircraft shall be assigned either the RADAR SID or a visual departure. 
+All other aircraft shall be assigned either the **PEA (RADAR) SID** or a visual departure. 
 
 <figure markdown>
 ![Pearce Lanes](img/PEA Lanes.png){width="700"}
