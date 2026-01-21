@@ -45,22 +45,40 @@ Refer to the [ATIS section](#runway-mode-formatting) for information on ATIS for
 
 ## Manoeuvring Area
 ### Taxiway Restrictions
-## Taxiways
 Taxiway B west of C is limited to 8000KG AUW and 23M MAX wingspan. Common airliners including Dash 8 Q400s will need to enter/exit runway 12L/30R via intersection C.
 
 <figure markdown>
 ![TW TWY](img/TW_west_of_C.png){ width="800" }
   <figcaption>Twy B west of C shown in red</figcaption>
 </figure>
-### Standard Taxi Procedures
 
+### Standard Taxi Procedures
+Standard taxi routes establish an implied set of taxi instructions which pilots are expected to comply with in the absence of other instructions. All runway crossings require an explicit crossing instruction.
+
+Controllers **do not** need to explicitly say each taxiway provided it is covered by a standard taxi route in the tables below.
+
+!!! warning "Important"
+    Not all pilots are aware of the existence of standard taxi routes. When in doubt, provide full taxi instructions detailing the full desired route.
+
+#### Southern Runway Departures
 [waiting for ground charts]
 
-!!! phraseology **83C**: "Tamworth Ground, Cherokee 83C, at IFTT, 2 POB, in receipt of A, request taxi for a GST departure"
+!!! phraseology **83C**: "Tamworth Ground, Cherokee 83C, departure details"
+**TW SMC**: "83C"
+**83C**: "83C, at IFTT, 2 POB, in receipt of A, request taxi for a GST departure"
 **TW SMC**: "83C, Tamworth Ground, taxi to holding point J RWY 12R"
 **83C**: "Taxi to holding point J RWY 12R, 83C"
 
-## Separations
+#### Northern Runway Departures
+[waiting for ground charts]
+
+!!! phraseology **ZFN**: "Tamworth Ground, Cherokee ZFN, departure details"
+**TW SMC**: "ZFN"
+**ZFN**: "Tamworth Ground, Cherokee ZFN, at IFTT, 2 POB, in receipt of A, request airways and taxi clearance to YSTW via MAL"
+**TW SMC**: "ZFN, Tamworth Ground, taxi to holding point B RWY 12L, cross RWYS 18 and 24"
+**ZFN**: "Taxi to holding point B RWY 12L, cross RWYs 18 and 24, ZFN"
+
+## Separation
 ### Local Lateral Separation Points
 The positions in each table header below are procedurally separated from each other, provided the conditions in each table row are met. At least one condition must be met in each column.
 
@@ -102,26 +120,40 @@ The **Oxley** and **New England** Highways are good references for this standard
 Surveillance coverage can be expected to be not available below `A034` in the TW CTR. Although TW ADC is **not permitted** to use surveillance for separation, ARL/MDE may assist by establishing surveillance separation standards via coordination
 
 ## VFR Operations
-VFR aircraft departing between the 160 radial through to the 295 radial should report ready **GST** or **GWT**.
 
 ### Departures
+#### Northern Runway Departures
+VFR aircraft not departing between the 160 radial through to the 295 radial shall make a standard CTA departure from the northern runway (12L/30R).
+
+!!! phraseology **NRF**: "Tamworth Tower, Cherokee NRF, holding point J ready for a GST departure"
+**TW ADC**: "NRF, Tamworth Tower, RWY 12L, cleared for takeoff, make left turn"
+**NRF**: "RWY 12L, cleared for takeoff, left turn, NRF"
+
+#### Southern Runway Departures
+VFR aircraft departing between the 160 radial through to the 295 radial should report either for a GST or GWT departure from the southern runway (12R/30L).
+
 !!! phraseology **83C**: "Tamworth Tower, Cherokee 83C, holding point J ready for a GST departure"
 **TW ADC**: "83C, Tamworth Tower, GST, cleared for takeoff"
 **83C**: "GST, cleared for takeoff, 83C"
-
-### Arrivals
-VFR Arrivals from the 160 radial through to the 295 radial should route via **DUA**. Clearance required prior to DUA. Aircraft should report 5NM for circuit entry instructions.
-
-!!! phraseology **XCW**: "Tamworth Tower, Cherokee XCW, 5 miles west of DUA, 3000ft, 2 POB, in receipt of A, inbound"
-
-**TW ADC**: "XCW, Tamworth Tower, cleared DUA to TW, maintain 3000, report at 5 miles"
-
-**XCW**: "Cleared DUA to TW, maintain 3000 XCW"
 
 <figure markdown>
 ![TW VFR Routes](img/TW_VFR_routes.png){ width="800" }
   <figcaption>VFR Routes</figcaption>
 </figure>
+
+### Arrivals
+#### DUA Arrivals
+VFR arrivals between the 160 radial through to the 295 radial should route via **DUA**. Clearance required prior to DUA. Aircraft should report at 5NM for circuit entry instructions.
+
+!!! phraseology **XCW**: "Tamworth Tower, Cherokee XCW, 5 miles west of DUA, 3000ft, 2 POB, in receipt of A, inbound"
+**TW ADC**: "XCW, Tamworth Tower, cleared DUA to TW, maintain 3000, report at 5 miles"
+**XCW**: "Cleared DUA to TW, maintain 3000 XCW"
+
+#### CTA Arrivals
+VFR arrivals not between the 160 radial and 295 radial shall request clearance from and inbound reporting point or radial with DME.
+!!! phraseology **XGN** "Tamworth Tower, Cherokee XGN, NUN at 4500ft, 2 POB, in receipt of A, inbound"
+**TW ADC**: "XGN, Tamworth Tower, cleared NUN to TW, maintain 4500, report ready for descent"
+**XGN**: "Cleared NUN to TW, maintain 4500, wilco XGN"
 
 ## Runway Modes
 ### Preferred Runway Modes
