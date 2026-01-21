@@ -52,6 +52,13 @@ Taxiway B west of C is limited to 8000KG AUW and 23M MAX wingspan. Common airlin
 ![TW TWY](img/TW_west_of_C.png){ width="800" }
   <figcaption>Twy B west of C shown in red</figcaption>
 </figure>
+### Standard Taxi Procedures
+
+[waiting for ground charts]
+
+!!! phraseology **83C**: "Tamworth Ground, Cherokee 83C, at IFTT, 2 POB, in receipt of A, request taxi for a GST departure"
+**TW SMC**: "83C, Tamworth Ground, taxi to holding point J RWY 12R"
+**83C**: "Taxi to holding point J RWY 12R, 83C"
 
 ## Separations
 ### Local Lateral Separation Points
@@ -97,7 +104,19 @@ Surveillance coverage can be expected to be not available below `A034` in the TW
 ## VFR Operations
 VFR aircraft departing between the 160 radial through to the 295 radial should report ready **GST** or **GWT**.
 
+### Departures
+!!! phraseology **83C**: "Tamworth Tower, Cherokee 83C, holding point J ready for a GST departure"
+**TW ADC**: "83C, Tamworth Tower, GST, cleared for takeoff"
+**83C**: "GST, cleared for takeoff, 83C"
+
+### Arrivals
 VFR Arrivals from the 160 radial through to the 295 radial should route via **DUA**. Clearance required prior to DUA. Aircraft should report 5NM for circuit entry instructions.
+
+!!! phraseology **XCW**: "Tamworth Tower, Cherokee XCW, 5 miles west of DUA, 3000ft, 2 POB, in receipt of A, inbound"
+
+**TW ADC**: "XCW, Tamworth Tower, cleared DUA to TW, maintain 3000, report at 5 miles"
+
+**XCW**: "Cleared DUA to TW, maintain 3000 XCW"
 
 <figure markdown>
 ![TW VFR Routes](img/TW_VFR_routes.png){ width="800" }
@@ -120,16 +139,16 @@ During day VMC only, simultaneous parallel runway operations may be used between
 Controllers must closely monitor the base and final legs of the circuit to ensure pilots do not pass through their assigned runway centreline.
 
 ### Circuits
-Circuits are to be flown in the direction coinciding with the Runway designator (Left/Right) at `A025`.
+Circuits are to be flown in the direction coinciding with the Runway designator (Left/Right) at `A023`.
 
 ## ATIS
 ### Runway Mode Formatting
 The ATIS must indicate runway configuration in the format below:
 
-| Mode        | Controllers | ATIS Runway information |
-| ----------- | ----------- | ----------------------- |
-| 12/30 PROPS | Single ADC  | `RWY 12R/30L FOR CCTS AND ARRS AND DEPS SOUTH WEST. RWY 12L/30R FOR ALL OTHER ARRS AND DEPS` |
-| 12/30 PROPS | Dual ADC    | `RWY 12R/30L FOR CCTS AND ARRS AND DEPS SOUTH WEST, FREQ 118.25. RWY 12L/30R FOR ALL OTHER ARRS AND DEPS, FREQ 119.4` |
+| Mode        | ATIS Runway information |
+| ----------- | ----------------------- |
+| 12 PROPS | `RWY 12L AND R FOR ARRS AND DEPS` |
+| 30 PROPS | `RWY 30L AND R FOR ARRS AND DEPS` |
 
 ### Operational Info
 When parallel runway operations are in use, the ATIS OPR INFO field shall include:  
@@ -146,7 +165,7 @@ The Standard Assignable level from **TW ADC** to **ARL/MDE** is:
 | All | The lower of `A070` and `RFL` |
 
 ### Arrivals/Overfliers
-ARL/MDE will heads-up coordinate all arrivals/overfliers to TW ADC
+ARL/MDE will heads-up coordinate all arrivals/overfliers that are entering the TW CTR/CTA to TW ADC
 
 !!! phraseology
     <span class="hotline">**MDE** -> **TW ADC**</span>: "Via MOR DCT for the VOR-A, FD272”  
