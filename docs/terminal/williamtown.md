@@ -65,7 +65,7 @@ Fast jet aircraft typically transit from M550 to YWLM via Gate 6 at `F125`. When
 ### SUA Gates
 
 <figure markdown>
-![WLM SUA Gates](../aerodromes/classc/img/WLMGatesV2.png){ width="700" }
+![WLM SUA Gates](../aerodromes/classc/img/WLMGates.png){ width="700" }
   <figcaption>WLM SUA Gates</figcaption>
 </figure>
 

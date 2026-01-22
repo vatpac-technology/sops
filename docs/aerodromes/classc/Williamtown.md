@@ -57,7 +57,7 @@ High performance military jet aircraft with planned operations in SUAs,, shall b
 ### SUA Gates
 
 <figure markdown>
-![WLM SUA Gates](img/WLMGatesV2.png){ width="700" }
+![WLM SUA Gates](img/WLMGates.png){ width="700" }
   <figcaption>WLM SUA Gates</figcaption>
 </figure>
 
