@@ -25,9 +25,9 @@ WLM TCU owns the airspace within the WLM MIL CTR `SFC` to `F125`.
 
 ## Airspace Division
 ### Williamtown High and Low
-When WLM TCU is active above `F125` by ad-hoc release or NOTAM, **WLM-L_APP** owns the airspace `SFC` to `F125`, while **WLM APP** owns the rest of WLM TCU airspace above `F125`. This may be adjusted as required with coordination.
+**WLM APP** owns the WLM TCU airspace `SFC` to `F125`.
 
-When WLM TCU is active above `F125` by ad-hoc release, **WLM-L_APP** owns the airspace from `SFC` to `F125`, while **WLM_APP** owns the rest of WLM TMA above `F125`.
+**WLM-H_APP** owns the airspace above  `F125` when activated by ad-hoc release or NOTAM.
 
 <figure markdown>
 ![WLM TCU Airspace](img/wlm_tcu.png){ width="700" }
