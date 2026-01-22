@@ -85,7 +85,7 @@ The usage of non-standard runway modes is **strongly not recommended**, unless a
 #### Approach Types
 At YMML, the approach type in use has neglible affect on the traffic flow.
 
-However, at YSSY, the use of Instrument Approaches vs Independent Visual Approaches during Parallel Runway operations has a big effect on the workload of the Sydney TCU controller, and how close they can run aircraft together on parallel runways. Refer to [YSSY Approach Types](../../aerodromes/classc/Sydney/#approach-types) for more information.
+However, at YSSY, the use of Instrument Approaches vs Independent Visual Approaches during Parallel Runway operations has a big effect on the workload of the Sydney TCU controller, and how close they can run aircraft together on parallel runways. Refer to [YSSY Approach Types](../../../aerodromes/classc/Sydney/#approach-types) for more information.
 
 #### Runway Changes
 Refer to [Runway Management SOPs](../../../controller-skills/runwaymanagement/#runway-changes) for advice on limiting Runway Mode changes during busy events.

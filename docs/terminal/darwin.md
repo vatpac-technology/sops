@@ -16,7 +16,7 @@
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
-DN TCU owns the airspace within a 40NM radius of the DN DME from `SFC`-`FL180`.
+DN TCU owns the airspace within a 40NM radius of the DN DME from `SFC`-`F180`.
 
 ### Airspace Division
 When both DN TCU positions are opened, DN TCU is split east and west along the runway 18/36 extended centreline. DAW owns the airspace to the west of the line and DAE owns the airspace to the east of the line  

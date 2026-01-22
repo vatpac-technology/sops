@@ -14,23 +14,23 @@
 ## Airspace
 
 <figure markdown>
-![HM ADC Airspace](img/ybhm_airspace.png){ width="700" }
+![HM ADC Airspace](img/hm_ctr.png){ width="700" }
   <figcaption>HM ADC Airspace</figcaption>
 </figure>
 
-HM ADC is responsible for the Class D airspace in the HM CTR `SFC` to `A045`.
+HM ADC is responsible for the Class D airspace in the HM keyhole within 22NM OVRUN `BCTA` to `A045`.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
-## Separatioons
+## Separation
 ### Surveillance
 Surveillance coverage can be expected to be not available below `A031` in the HM CTR. Although HM ADC is **not permitted** to use surveillance for separation, KEN(SWY) may assist by establishing surveillance separation standards via coordination
 
 ## Coordination
 ### Departures
-[Next](../../controller-skills/coordination.md#next) coordination is required from HM ADC to KEN(SWY) for all aircraft **entering KEN(SWY) CTA**.
+[Next](../../controller-skills/coordination.md#next) coordination is required from HM ADC to KEN(SWY) for all aircraft **entering KPL(SWY) CTA**.
 
-The Standard Assignable level from **HM ADC** to **KEN(SWY)** is:
+The Standard Assignable level from **HM ADC** to **KPL(SWY)** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -43,4 +43,4 @@ KEN(SWY) will heads-up coordinate all arrivals/overfliers to HM ADC
     <span class="hotline">**SWY** -> **HM ADC**</span>: "Via OPOSI for the RNP-U, JST848”  
     <span class="hotline">**HM ADC** -> **SWY**</span>: "JST848, A060"  
 
-The Standard Assignable level from KEN(SWY) to HM ADC is `A060`, any other level must be prior coordinated.
+The Standard Assignable level from KPL(SWY) to HM ADC is `A060`, any other level must be prior coordinated.

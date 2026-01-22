@@ -30,7 +30,7 @@ INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, and **NSA** when they
 
 ### Reclassifications
 #### SU CTR
-When **SU ADC** is offline, SU CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by NSA and BUR. Alternatively, NSA may provide a [top-down procedural service](../../../aerodromes/sunshinecoast) if they wish (not recommended), and this must be coordinated to BUR.
+When **SU ADC** is offline, SU CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by NSA and BUR. Alternatively, NSA may provide a [top-down procedural service](../../../aerodromes/Sunshinecoast) if they wish (not recommended), and this must be coordinated to BUR.
 
 !!! tip
     If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
@@ -202,7 +202,7 @@ When operating a PROPS Runway Mode, Aircraft shall be assigned the appropriate '
 | ---- | -------- |
 | BLAKA | 01R/19L |
 | GOMOL | 01R/19L |
-| UGTUG | 01R/**19R** |
+| UGTUG | 01R/19L |
 | TEBOT | 01R/**19R** |
 | MORBI | 01L/19R |
 | SMOKA | 01L/19R |
@@ -221,7 +221,7 @@ These standard runway assignments may be modified strategically by the BAS or BF
     <span class="hotline">**INL** -> **BFL**</span>: "Roger, Arrivals via GOMOL to be assigned 19R" 
 
 ### SODPROPS
-When operating the SODPROPS Runway Mode, aircraft via **ENLIP**, **BLAKA**, **GOMOL** and **UGTUG**, shall be assigned the **ISPON** STAR with the appropriate transition. Aircraft via other Feeder fixes may be assigned the standard STAR.
+When operating the SODPROPS Runway Mode, aircraft via **ENLIP**, **BLAKA**, **GOMOL** and **UGTUG**, shall be assigned the **ISPON** STAR with the appropriate transition. Aircraft via other feeder fixes may be assigned the standard STAR.
 
 ## YAMB Coded Clearances
 Coded Clearances are available inbound and outbound from the AMB TMA to provided a standardised corridor for fast jet aircraft.
@@ -260,6 +260,73 @@ The routes are shown below:
 | Northern 3 | `F190` | BINUP MURJO BOBED LESKO MOSSI, or<br>BINUP MURJO BOBED LESKO ADNUK |
 | Central 3 | `F190` | BINUP MURJO BOBED VIRGE |
 | Byron 1 | `F190` | COWIE KIWEE ZANET LOTMA SEMAJ | 
+
+## Terminal Handover Frequencies
+Aircraft being transferred from enroute to a TCU with multiple frequencies shall be given the frequency for the revelant TCU position.
+
+=== "BN TCU"
+	=== "01 PROPS"
+		<figure markdown>
+		![BN TCU Handover Frequencies - 01 PROPS Mode](../assets/enr-tcu_handovers/bn01props.png){ width="500" }
+		  <figcaption>BN TCU Handover Frequencies - 01 PROPS Mode</figcaption>
+		</figure>
+	
+		| ADES | STAR  | Frequency (Controller) |
+		| ---- | ----- | ---------------------- |
+		| YBBN | BLAKA | **125.600** (BAS)      |
+		| YBBN | ENLIP | **124.700** (BAN)      |
+		| YBBN | GOMOL | **125.600** (BAS)      |
+		| YBBN | MORBI | **124.700** (BAN)      |
+		| YBBN | SMOKA | **124.700** (BAN)      |
+		| YBBN | TEBOT | **125.600** (BAS)      |
+		| YBBN | UGTUG | **125.600** (BAS)      |
+		| YBBN | WOODY | **124.700** (BAN)      |
+		| YBCG | All   | **123.500** (BAC)      |
+
+		!!! tip
+			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+		
+	=== "19 PROPS"
+		<figure markdown>
+		![BN TCU Handover Frequencies - 19 PROPS Mode](../assets/enr-tcu_handovers/bn19props.png){ width="500" }
+		  <figcaption>BN TCU Handover Frequencies - 19 PROPS Mode</figcaption>
+		</figure>
+			
+		| ADES | STAR  | Frequency (Controller) |
+		| ---- | ----- | ---------------------- |
+		| YBBN | BLAKA | **125.600** (BAS)      |
+		| YBBN | ENLIP | **125.600** (BAS)      |
+		| YBBN | GOMOL | **125.600** (BAS)      |
+		| YBBN | MORBI | **124.700** (BAN)      |
+		| YBBN | SMOKA | **124.700** (BAN)      |
+		| YBBN | TEBOT | **125.600** (BAS)      |
+		| YBBN | UGTUG | **125.600** (BAS)      |
+		| YBBN | WOODY | **124.700** (BAN)      |
+		| YBCG | All   | **123.500** (BAC)      |
+
+		!!! tip
+			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+		
+	=== "SODPROPS"
+		<figure markdown>
+		![BN TCU Handover Frequencies - SODPROPS Mode](../assets/enr-tcu_handovers/bnsodprops.png){ width="500" }
+		  <figcaption>BN TCU Handover Frequencies - SODPROPS Mode</figcaption>
+		</figure>
+			
+		| ADES | STAR  | Frequency (Controller) |
+		| ---- | ----- | ---------------------- |
+		| YBBN | BLAKA | **125.600** (BAS)      |
+		| YBBN | ENLIP | **125.600** (BAS)      |
+		| YBBN | GOMOL | **125.600** (BAS)      |
+		| YBBN | MORBI | **124.700** (BAN)      |
+		| YBBN | SMOKA | **124.700** (BAN)      |
+		| YBBN | TEBOT | **125.600** (BAS)      |
+		| YBBN | UGTUG | **125.600** (BAS)      |
+		| YBBN | WOODY | **124.700** (BAN)      |
+		| YBCG | All   | **123.500** (BAC)      |
+
+		!!! tip
+			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 
 ## Coordination
 ### BN TCU
@@ -362,7 +429,7 @@ The Standard Assignable level from INL to **CFS ADC** is `A080`, any other level
 
 ### OK TCU / AMB TCU
 #### Airspace
-By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas, and **AMB TCU** owns the airspace within the **R625A-D** restricted areas, unless stated otherwise by ad-hoc release or NOTAM.
+By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas from `SFC` to `F125`, and **AMB TCU** owns the airspace within the **R625A-D** restricted areas from `SFC` to `F210`, unless stated otherwise by ad-hoc release or NOTAM.
 
 #### Departures
 All aircraft from AMB/OK TCU to INL(All) require Heads-up coordination prior to the boundary. Expect this coordination to be completed a short time after the aircraft becomes airborne (pending controller workload).
