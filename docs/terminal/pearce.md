@@ -39,44 +39,25 @@ Additional airspace may be released by NOTAM, or coordinated between PEA, PH TCU
     <span class="hotline">**LEA** -> **PEA**</span>: "M166, SFC to F160, released to you. Your onwards with PH TCU"  
 
 ## Local Procedures
-### Initial and Pitch Procedures 
+### Lanes and Gates
+There are four Departure/Arrival Lanes established in the PE TCU to facilitate military aircraft movements between adjacent SUAs.
 
-| Runway | Direction Initial | Inital Altitude
-| ------ | ------------------|----------------|
-| 05     | Any | A010 |
-| 18L    | Left/Straight<br>Right | A015<br>A010 |
-| 18R    | Left/Straight<br>Right | A015<br>A010 |
-| 23     | Any | A015 |
-| 36L    | Left<br>Right | A010<br>A015 |
-| 36R    | Left<br>Right | A010<br>A015 |
+<!--- Diagram here when RAAFv diagrams integrated into AIRAC --->
 
-## Runway Modes
-### Circuits
-Aircraft can be instructed to extend outside of this airspace by ATC for traffic management, following coordination with the appropriate sectors.
+#### Wannamal Lane
+The **Wannamal Lane** is centered on the PEA 356 radial, and facilitates transit to/from SUAs to the north
 
-HAWKs have circuit altitude of `A016`, while both 2FTS and RSAF PC21s are assigned `A012`.
+#### Alkimos Lane
+The **Alkimos Lane** is centred on the PEA 304 radial, and facilitates transit to/from the M147 restricted areas.
 
-!!! note
-    36L/18R is unsuitable for HAWK Aircraft
+#### Mullaloo Lane
+The **Mullalloo Lane** is between the 248 and 233 radials and facilitates transit to/from the R163 restricted area. 
 
-#### Circuit Direction
+#### Quokka Lane
+The **Quokka Lane** is defined as the AZZAR-FENDA track in the south-west of the TCU. It facilitates transit to/from restricted areas on the southern side of the PH TCU.
 
-| Runway | Direction |
-| ------ | ----------|
-| 05      | Left  |
-| 18L    | Right |
-| 18R    | Right |
-| 23     | Right |
-| 36L    | Left  |
-| 36R    | Left  |
-
-## Pearce Lanes
-Aircraft in PEA Airspace typically use the Wannamal Lane, Alkimos Lane, or Mullalloo Lane to transit between SUAs
-
-<figure markdown>
-![Pearce Lanes](../aerodromes/classc/img/PEA Lanes.png){width="700"}
-  <figcaption>Pearce Lanes</figcaption>
-</figure>
+!!! important
+    Aircraft transiting on the Quokka Lane must be [**heads-up** coordinated](#ph-tcu) to PH TCU prior to the boundary.
 
 ## Coordination
 ### Enroute
@@ -89,7 +70,6 @@ All aircraft transiting from HYD to **PE TCU** must be [Heads-up](../controller-
 !!! phraseology
     <span class="hotline">**LEA** -> **PEA**</span>: "via AVNEX, EGLE9, will be assigned A090"  
     <span class="hotline">**PEA** -> **LEA**</span>: "EGLE9, A090"
-
 
 ### PE ADC
 [Next](../controller-skills/coordination.md#next) coordination is required from PE ADC to PE TCU for all aircraft.

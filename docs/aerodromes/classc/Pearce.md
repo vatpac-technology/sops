@@ -58,14 +58,9 @@ Circuit altitude will depend on the type of aircraft. Assign circuit altitudes f
 | 36R    | Left  |
 
 ## SID Selection
-Aircraft planned via **GUNOK** shall be assigned the **GUNOK** SID. Aircraft planned via the **Wannamal Lane**, **Alkimos Lane**, or **Mullalloo Lane** shall be assigned relevant **Procedural SID**.
+Aircraft planned via **GUNOK** shall be assigned the **GUNOK** SID. Aircraft planned via the **[Wannamal](..\..\terminal\pearce\#wannamal-lane)**, **[Alkimos ](..\..\terminal\pearce\#alkimos-lane)**, or **[Mullalloo](..\..\terminal\pearce\#mullalloo-lane)** Lanes shall be assigned relevant **Procedural SID**.
 
-All other aircraft shall be assigned either the **PEA (RADAR) SID** or a visual departure. 
-
-<figure markdown>
-![Pearce Lanes](img/PEA Lanes.png){width="700"}
-  <figcaption>Pearce Lanes</figcaption>
-</figure>
+All other aircraft shall be assigned either the **PEA (RADAR) SID** or a visual departure.
 
 ## Coordination
 ### Auto Release
