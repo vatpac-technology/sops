@@ -128,7 +128,7 @@ Surveillance coverage can be expected to be not available below `A034` in the TW
 VFR aircraft not departing between the 160 radial through to the 295 radial shall make a standard CTA departure from the northern runway (12L/30R).
 
 !!! phraseology
-    **NRF**: "Tamworth Tower, Cherokee NRF, holding point J, for a GST departure, ready"  
+    **NRF**: "Tamworth Tower, Cherokee NRF, holding point B, for a CTA departure, ready"  
     **TW ADC**: "NRF, Tamworth Tower, Runway 12L, cleared for takeoff, make left turn"  
     **NRF**: "Runway 12L, cleared for takeoff, left turn, NRF"
 
