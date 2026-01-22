@@ -1,5 +1,5 @@
 ---
-  title: Brisbane TCU
+  title: Brisbane / Gold Coast TCU
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -61,12 +61,28 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **
 	  <figcaption>SODPROPS TCU Structure</figcaption>
 	</figure>
 	
+	!!! warning "Important"
+		During SODPROPS, approach and departure sectors are combined 'on-side'. i.e.:
+		
+		- **BAN** and **BDN** are combined with each other; *and*
+		- **BAS** and **BDS** are combined with each other.
+		
+		The controller may connect as either position, and assume both frequencies. 
+        
+        Only **two** TCU controllers may operate the BN TMA when running the SODPROPS runway mode (excluding an additional SHN or BAC controller if desired).
+	
 #### Brisbane Radar (SHN)
 SHN is responsible for the provision of FIS in Class G airspace within the BN TMA. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identify them, perform any necessary coordination, then hand them to the relevant controller who will issue clearance if appropriate. 
 
 #### Airspace Structural Arrangements
 Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, **"North"**/**"West"** positions shall assume the airspace of corresponding **"South"**/**"East"** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
 
+!!! tip
+   Due to the unique arrangement of the BN TMA, when general traffic levels across the TMA are high and multiple TCU controllers are available, splitting the airspace in to 'approach' airspace and 'departures' airspace may introduce additional complexity. In these situations, it may be simpler to combine sectors 'on-side', i.e.:
+    
+    - **BAN** and **BDN** combined; *and*
+    - **BAS** and **BDS** combined.
+	
 ## Separation
 ### Parallel Runway Operations
 Refer to [Parallel Runway Separation Standards](../../separation-standards/parallelapps) for more information
@@ -129,7 +145,7 @@ Unless operationally required, aircraft arriving YBBN shall be assigned the foll
 | --------- | ------- |
 | via BLAKA | 01R/19L |
 | via GOMOL | 01R/19L |
-| via UGTUG | 01R/**19R** |
+| via UGTUG | 01R/19L |
 | via TEBOT | 01R/**19R** |
 | via MORBI | 01L/19R |
 | via SMOKA | 01L/19R |
@@ -141,6 +157,9 @@ Unless operationally required, aircraft arriving YBBN shall be assigned the foll
 	
 ### SODPROPS
 Arriving aircraft must be established on final and transferred to the tower frequency no later than 10NM from touchdown.
+
+!!! note
+    Arrivals from the south and east shall be assigned the **ISPON** STAR to RWY 19R by Enroute. Aircraft not assigned this procedure should be closely monitored for conflict with aircraft departing RWY 01R.
 
 ## Helicopter Operations
 In VMC, helicopters inbound to or outbound from YBBN shall be processed via two visual waypoints (outlined below) positioned north and south of the field. Where VMC does not exist, IFR helicopters will conform to fixed wing ops.
@@ -345,6 +364,7 @@ All other aircraft going to INL CTA must be **Heads-up** Coordinated by BN TCU p
 
 #### Arrivals
 Voiceless for all aircraft:
+
 - With ADES **YBBN**:
     - Assigned a STAR; and
 	- Assigned `A090`.

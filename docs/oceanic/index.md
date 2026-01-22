@@ -46,7 +46,7 @@ RJTG - Fukuoka Oceanic
 [Indian (IND)](Positions/IND) and [Tasman (TSN)](Positions/TSN) have their own detailed Local Instructions. Refer to the links for more information.
 
 !!! Note 
-    KZAK oceanic positions may be further subdivided by the shift supervisor, in which case the subsector shall add a numeral to the callsign. For example, ZAK_1_FSS. It is discouraged to only control a portion of KZAK in non-event periods. For more information on KZAK procedures, head to their SOPs [here.](https://oakartcc.org/web/viewer.html?file=/controllers/file/e8a98e09-1c16-11ec-9430-2a32edb55910){target=new}
+    KZAK oceanic positions may be further subdivided by the shift supervisor, in which case the subsector shall add a numeral to the callsign. For example, ZAK_1_FSS. It is discouraged to only control a portion of KZAK in non-event periods. For more information on KZAK procedures, head to their SOPs [here.](https://oakartcc.org/controllers/procedures){target=new}
     
 ## Recency Requirements
 

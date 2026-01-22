@@ -25,7 +25,7 @@
 The Vertical limits of the SY TCU are `SFC` to `F285`.  
 SY TCU is responsible for the Sydney TMA, except:  
 
-- SY CTR `SFC` to `A005` as outlined [here](../../aerodromes/sydney/#airspace)
+- SY CTR `SFC` to `A005` as outlined [here](../../aerodromes/classc/Sydney/#airspace)
 - R470 Restricted Area, when RIC ADC is online (or as negotiated)  
 
 ### Reclassifications

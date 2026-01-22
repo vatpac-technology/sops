@@ -12,6 +12,11 @@
 | **Woomera ATIS**  |                       | **118.100** | **YPWR_ATIS** |
 
 ## Airspace
+<figure markdown>
+![WR ADC Airspace](img/wr_ctr.png){ width="700" }
+  <figcaption>WR ADC Airspace</figcaption>
+</figure>
+
 By default, WR ADC owns the **R222F** Restricted Area. This airspace has vertical limits of `SFC` to `F120`. When WR ADC is active, this airspace is classified as Class D.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.

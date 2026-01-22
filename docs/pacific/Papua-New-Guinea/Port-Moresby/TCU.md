@@ -17,7 +17,7 @@ AYPYA is responsible for the Class C Airspace within the AYPY CTR `A020` to `A15
     <figcaption>Port Moresby TCU Airspace</figcaption>
 </figure>
 
-Airspace `SFC` to `BCTA` is considered Class F. Refer to the [PNG Local instructions](../) for more information about Class F operations.
+Airspace `SFC` to `BCTA` is considered Class F. Refer to the [PNG Local instructions](../../) for more information about Class F operations.
 
 <!--### Reclassifications
 ### Airspace Division
