@@ -116,13 +116,6 @@ Aircraft unable to accept a procedural SID, and **non-RNAV** aircraft shall be a
 !!! note 
     ^ When the R596 area is active, aircraft planned via **UBSON** and departing Runway 12 shall be assigned the **UBSON BRAVO** SID.
 
-#### CLASSIC SID
-The **CLASSIC SID** provides multiple tracking paths which pilots will take based on their departure instructions. During Next coordination with ADC, **WLM TCU** shall nominate a turn direction which will be relayed to the pilot with their takeoff clearance.
-
-| Aircraft | Level |
-| ------- | ----- |
-| All | The lower of `F120` and `RFL` |
-
 ## Coordination
 ### Auto Release
 [Next](../../controller-skills/coordination.md#next) coordination is **not** required from WLM ADC to WLM TCU for aircraft that are:  
