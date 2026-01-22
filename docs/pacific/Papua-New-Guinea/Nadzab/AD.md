@@ -35,7 +35,7 @@ The Markham River runs East-West through the AYNZ CTR south of the Runway 09/27 
     <figcaption>The Markham River within the AYNZ CTR</figcaption>
 </figure>
 
-Its prominence and location makes it a convenient option to implement a [geographic feature separation standard](../../../separation-standards/visual/#geographic-features).
+Its prominence and location makes it a convenient option to implement a [geographic feature separation standard](../../../../separation-standards/visual/#geographic-features).
 
 ## Local Procedures
 ### Standard Departure Clearances

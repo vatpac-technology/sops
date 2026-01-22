@@ -40,7 +40,7 @@ There are three training areas located within R470, used for both civil and mili
 A start approval is required whenever parachute drops are conducted onto the Richmond Drop Zone. Additionally, ‘propellers/engines stopped’ reports are required. ATC shall notify these requirements by ATIS broadcast.
 
 ### Inital and Pitch
-The standard inital points are 5nm downwind of the active runway, dead side, left pitch/circuit.
+The standard [initial](../../../controller-skills/military/#initial-and-pitch) points are 5nm downwind of the active runway, dead side, left pitch/circuit.
 
 ## VFR Procedures
 VFR aircraft transiting to/from YSRI should do so at `A015`.
@@ -102,7 +102,7 @@ The Standard Assignable Level from **RI ADC** to **SY TCU** is:
 | All | The lower of `A050` and `RFL` |
 
 ### Departures Controller
-The departure controller is dependent on the YMML [runway mode](../../terminal/sydney.md#airspace-division). Ensure the appropriate frequency is selected based on the direction of flight and runway mode.
+The departure controller is dependent on the YSSY [runway mode](../../terminal/sydney.md#airspace-division). Ensure the appropriate frequency is selected based on the direction of flight and runway mode.
 
 ## Charts
 !!! abstract "Reference"

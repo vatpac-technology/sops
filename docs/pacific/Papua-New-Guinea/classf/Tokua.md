@@ -48,10 +48,10 @@ Refer to the [PNG Local instructions](../) for more information about Class F/AT
 --->
 ## Coordination
 ### Departures and Arrivals
-As per [Standard coordination procedures](../../controller-skills/coordination/#octa-coordination), coordination between AYTK ADC and AYPM is **not required**. However, a **5 minute** change parameter applies to any aircraft that change level, route, or taxi within **5 minutes** of the next sector's airspace.
+As per [Standard coordination procedures](../../../../controller-skills/coordination/#octa-coordination), coordination between AYTK ADC and AYPM is **not required**. However, a **5 minute** change parameter applies to any aircraft that change level, route, or taxi within **5 minutes** of the next sector's airspace.
 
 ### Overfliers
-As per [Standard coordination procedures](../../controller-skills/coordination/#octa-coordination), coordination between AYTK ADC and AYPM is **not required**. However, a **5 minute** change parameter applies to any aircraft that change level, route, or taxi within **5 minutes** of the next sector's airspace.
+As per [Standard coordination procedures](../../../../controller-skills/coordination/#octa-coordination), coordination between AYTK ADC and AYPM is **not required**. However, a **5 minute** change parameter applies to any aircraft that change level, route, or taxi within **5 minutes** of the next sector's airspace.
 
 IFR aircraft may either be handed off to AYTK ADC frequency by AYPM, or held on the AYPM frequency following coordination if there is no relevant traffic.
 

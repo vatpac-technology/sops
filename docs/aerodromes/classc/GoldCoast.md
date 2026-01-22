@@ -82,7 +82,7 @@ VFR aircraft often transit the CG CTR via the coast. This conflicts with arrival
 
 ### Arrivals
 #### From the North
-Aircraft approaching from the north will generally contact ADC at Q1 or ROT for clearance. They should be instructed to track coastal southbound, then join final runway 14 or downwind runway 32.
+Aircraft approaching from the north will generally contact ADC at Q1 or ROTC for clearance. They should be instructed to track coastal southbound, then join final runway 14 or downwind runway 32.
 
 !!! phraseology
     **OMU:** "Gold Coast Tower, Cessna 172 OMU, abeam Q1, recieved F, inbound, request clearance"  

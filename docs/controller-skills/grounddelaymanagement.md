@@ -118,7 +118,7 @@ To operate with pushback requests on ACD:
 2. When a pilot requests pushback, **ACD** will assess their priority based on apron congestion and number of aircraft in the queue (see [Queue Management](#queue-management)).  
 3. **ACD** will either instruct them to **standby for Ground** *(not contact)*, or remain on the ACD frequency if a delay is required.  
 4. If an aircraft is instructed to 'standby for Ground', **ACD** will move the strip into the **Monitor SMC Bay** in [OzStrips](../client/towerstrips.md#coordinator), to denote they are awaiting pushback approval.  
-5. When **SMC** has adequate space on the aprons, taxiways, and holding points, they will issue pushback/taxi to the next aircraft in line by scanning the [Cleared Bay queue](../client/towerstrips/#stripboard).
+5. When **SMC** has adequate space on the aprons, taxiways, and holding points, they will issue pushback/taxi to the next aircraft in line by scanning the [Cleared Bay queue](../client/towerstrips.md#stripboard).
 
 The decision whether or not to send an aircraft to SMC or hold them on the ACD frequency should be made in accordance with the [Queue Management](#queue-management) techniques.
 

@@ -182,7 +182,8 @@ Refer to [Parallel Runway Separation Standards](../../../separation-standards/pa
 
 #### Go-arounds / Missed Approaches
 When operating under PROPS, go around headings shall diverge from the extended centreline of the parallel runway by at least 30°. Aircraft cleared the ILS or IVA may follow the published missed approach in order to meet this requirement.  
-Go arounds / missed approaches shall be coordinated with the SY TCU as per the standard procedure.
+
+Go arounds / missed approaches shall be coordinated with the SY TCU as per the standard procedure. Following a go around, [coordination](#auto-release) is required prior to the next departure from that runway.
 
 ## Workload Management
 ### Sydney Coordinator

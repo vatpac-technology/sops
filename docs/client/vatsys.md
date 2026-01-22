@@ -124,6 +124,8 @@ Although much of the detailed setup is up to personal preference, the following 
 	    - **XX_(RWY CONFIG)_NAMES** (if applicable)  
 	    - **XX_TCU**  
 	    - **XX_TCU_NAMES**  
+	    - **Released_XXYY** (for any runway releases between ADC and SMC)  
+	    - **Crossing_XXYY** (toggled for any approved crossings of an active runway)  
 	
 	**Tools**
 	
@@ -161,7 +163,7 @@ The colour of the target reflects whether the aircraft is an arrival or departur
 Cross-coupling allows controllers to simulataneously receive and transmit across multiple VHF frequencies. Cross-coupling can only be used in accordance with the [VATPAC Air Traffic Services Policy](https://vatpac-home.s3.ap-southeast-2.amazonaws.com/Air_Traffic_Services_Policy_9c2de1cc2a.pdf). 
 
 ### Enroute
-Enroute controllers must cross-couple frequencies when offering [extended coverage](../controller-skills/extending/#frequency-management). This ensures that pilots will always remain in VHF coverage.
+Enroute controllers must cross-couple frequencies when offering [extended coverage](../../controller-skills/extending/#frequency-management). This ensures that pilots will always remain in VHF coverage.
 
 ### TCU
 TMA controllers are **always required** to cross-couple all non-standard TCU frequencies, excluding Sydney Director (SFW/SFE) and Brisbane Finals. This ensures TCU staffing changes do not invalidate previously-issued frequencies to pilots, avoids time-consuming frequency changes when a TMA controller logs on or off, and allows sector responsibilities to be easily delegated between multiple TMA controllers for workload management (e.g. delegating the Class G responsibilities of SRI to the least busy Sydney TMA controller).

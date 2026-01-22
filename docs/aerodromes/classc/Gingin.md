@@ -24,7 +24,7 @@ This airspace is primarily used for military circuits and initial and pitch appr
 
 ## Local Procedures
 ### Initial and Pitch Procedures 
-The initial points for Gingin are RWY 08 is the corner of the pine plantation and RWY 26 is the paddock divided by the creek. The initial altitude is `A015`.
+The [initial](../../../controller-skills/military/#initial-and-pitch) points for Gingin are RWY 08 is the corner of the pine plantation and RWY 26 is the paddock divided by the creek. The initial altitude is `A015`.
 
 ## Runway Modes
 ### Circuits 
