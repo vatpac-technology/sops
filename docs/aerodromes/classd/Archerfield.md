@@ -100,7 +100,7 @@ Archerfield has three helipads located around the aerodrome:
     Both the **Northern** and **Central** helipads are inside the manoeuvring area and treated like a runway, requiring a takeoff and landing clearance from AF ADC. Helicopters operating on other surfaces outside the manoeuvring areas should be instructed to *"report airborne"*  or *"report on the ground"* so the controllers knows when they are active/no longer active in their airspace. 
 
 ### Training Areas
-There are 2 designated helicopter training areas which can be used for helicopter training operations in ground effect and circuits. When the helicopter training area is active, this shall be reflected on the [ATIS](#helicopter-area).
+There are 2 designated helicopter training areas which can be used for helicopter training operations in ground effect and circuits.
 
 <figure markdown> 
   ![Archerfield Helicopter Training Areas](img/YBAF-Helicopter-Areas.png){ width="600" }
@@ -115,6 +115,8 @@ Helicopter circuits are conducted from designated areas based on the duty runway
 | -------------- | --------------- |
 | Runway 28/10   | Northern Grass  |
 | Runway 04/22   | Eastern Grass   |
+
+When a helicopter is conducting circuits, this shall be reflected on the [ATIS](#helicopter-area). Once a helicopter has finished conducting circuits, and has vacated the training area, it shall be removed from the ATIS.
 
 Circuit operations are conducted parallel to the duty runway not above `A007` and inside the fixed-wing circuit. Once established within Northern Grass or Eastern Grass, helicopters may operate in ground effect, maintaining a listening watch with ADC. ATC will not positively control helicopter takeoff and landings from the training areas or provide sequencing instructions. Initial traffic information only will be provided on other helicopters conducting circuits, and a continuous lookout for airborne traffic is the responsibility of the pilot. 
 
@@ -231,7 +233,7 @@ The ATIS must indicate runway configuration in the format below:
 
 ### Operational Info
 #### Helicopter Area
-The ATIS must indicate the current state of the helicopter circuit area, refer to [Training Areas](#training-areas).
+The ATIS must indicate the current state of the helicopter circuit area, refer to [Circuits](#circuits).
 
 !!! example  
     OPR INFO: **HELICOPTER CCT AREA ACTIVE**  
