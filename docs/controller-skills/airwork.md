@@ -135,7 +135,7 @@ A Practice Instrument Approach is simply an aircraft conducting an Instrument Ap
     **AAE**: "YNJ, Adelaide Approach, Standby"  
 
 #### Assessment
-First thing to do, is to bring up the approach chart from the [Airservices Australia DAPs](http://www.airservicesaustralia.com/aip/current/dap/AeroProcChartsTOC.htm){target=new}
+First thing to do, is to bring up the approach chart from the [Airservices Australia DAPs](https://www.airservicesaustralia.com/aip/aip.asp){target=new}
 
 Then we continue our assessment. Assess for:
 

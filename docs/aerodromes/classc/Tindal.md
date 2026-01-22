@@ -52,7 +52,7 @@ Place/Bearing Distance points in the FDR can be used for this, with **TN** as th
     NADZAB = TN150030  
 
 ### Initial and Pitch Operations 
-The [initial](../../controller-skills/military/#initial-and-pitch) point is at `A020` on the extended centerline of Taxiway Alpha at 6.5NM for RWY 14, 5NM for RWY 32. Aircraft will be cleared for a left, straight or right initial.
+The [initial](../../../controller-skills/military/#initial-and-pitch) point is at `A020` on the extended centerline of Taxiway Alpha at 6.5NM for RWY 14, 5NM for RWY 32. Aircraft will be cleared for a left, straight or right initial.
 
 ## Runway Modes
 ### Circuits

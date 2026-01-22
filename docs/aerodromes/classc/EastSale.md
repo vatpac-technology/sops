@@ -39,7 +39,7 @@ ES ADC owns no airspace. Release may be available from ES APP for circuits.
 ### Flight Category
 Recovering military aircraft must automatically revert to VFR at the following points:
 
-- At the initial point when recovering via military stream landing pattern (initial and pitch)
+- At the [initial](../../../controller-skills/military/#initial-and-pitch) point when recovering via military stream landing pattern (initial and pitch)
 - At Hi-Key
 - Following a touch and go, go-around, or visual overshoot when a local IFR aircraft has indicated an intention to join the circuit
 
@@ -133,6 +133,10 @@ No more than the following aircraft shall be permitted to operate in the circuit
 
 #### Low Approach
 By day, pilots of local aircraft may request a low approach. Pilots are responsible for ensuring that no collision risk exists and that there is suitable spacing to continue the approach and for the potential/subsequent go-around.
+
+## SID Selection
+IFR aircraft planned via **AY**, **ANTLA**, **BULKO**, **DUNNE**, **GIPPS**, **MNG**, **MOZZA**, **NUNPA**, **TYERS**, **VALDU**, or **VISER** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
+Aircraft who are not planned via those points may be assigned the RADAR SID or a visual departure. 
 
 ## Coordination
 ### Auto Release

@@ -23,6 +23,7 @@ PE ADC owns the airspace within the Pearce CIRA (**5nm** Radius of YPEA ARP, loc
 
 ## Local Procedures 
 ### Initial and Pitch Procedures 
+The [initial](../../../controller-skills/military/#initial-and-pitch) points changes according to both runway, and direction.
 
 | Runway | Direction Initial | Inital Altitude
 | ------ | ------------------|----------------|

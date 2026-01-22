@@ -87,6 +87,25 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 
 In accordance with the authorisation requirements above, YPDN may utilise LAHSO during exceptionally busy events. Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../../controller-skills/runwaymanagement/#lahso) for more information.
 
+## Terminal Handover Frequencies
+Aircraft being transferred from enroute to a TCU with multiple frequencies shall be given the frequency for the revelant TCU position.
+		
+=== "DN TCU"
+	<figure markdown>
+	![DN TCU Handover Frequencies](../assets/enr-tcu_handovers/dn.png){ width="500" }
+	  <figcaption>DN TCU Handover Frequencies</figcaption>
+	</figure>
+
+	| STAR  | Frequency (Controller) |
+	| ----- | ---------------------- |
+	| ANUPA | **134.100** (DAW)      |
+	| GATOR | **125.200** (DAE)      |
+	| VEGPU | **125.200** (DAE)      |
+	| WANGI | **134.100** (DAW)      |
+	
+	!!! tip
+		The quick reference tables above only include scenarios for which there is [voiceless coordination](#dn-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+
 ## Coordination
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.

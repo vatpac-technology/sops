@@ -8,8 +8,8 @@
 
 | Name                          | ID      | Callsign                | Frequency   | Login ID      |
 | ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
-| **Williamtown Approach (High)**| **WAH** |**Willy Approach**      | **133.300** | **WLM_APP**   |
-| <span class="indented">Williamtown Approach (Low) :material-information-outline:{ title="Non-standard position"} | WAL | Willy Approach | 135.700 | WLM-L_APP |
+| **Williamtown Approach**      | **WAL** | **Willy Approach**      | **135.700** | **WLM_APP**   |
+| <span class="indented">Williamtown Approach (High) :material-information-outline:{ title="Non-standard position"} | WAH | Willy Approach | 133.300 | WLM-H_APP |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  

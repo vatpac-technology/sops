@@ -7,7 +7,7 @@
 
 | Name | Callsign | Frequency | Login ID |
 | ---- | -------- | --------- | -------- |
-| **Gundagai** | **Melbourne Centre** | **128.400** | **ML-GUN_CTR** |
+| **Gundagai** | **Melbourne Centre** | **133.150** | **ML-GUN_CTR** |
 | <span class="indented">Bindook :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 129.800 | ML-BIK_CTR |
 | <span class="indented">Katoomba :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 133.500 | ML-KAT_CTR |
 
@@ -139,6 +139,67 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | ARL(MDE) | KAT | YSCB | Jets only |
 | ARL(CNK), ARL(MLD), ARL(OCN) | BIK | YSCB | Jets only |
 
+## Terminal Handover Frequencies
+Aircraft being transferred from enroute to a TCU with multiple frequencies shall be given the frequency for the revelant TCU position.
+
+=== "SY TCU"
+	=== "07AD"
+		<figure markdown>
+		![SY TCU Handover Frequencies - 07AD Mode](../assets/enr-tcu_handovers/sy07ad.png){ width="500" }
+		  <figcaption>SY TCU Handover Frequencies - 07AD Mode</figcaption>
+		</figure>
+		
+	=== "25AD"
+		<figure markdown>
+		![SY TCU Handover Frequencies - 25AD Mode](../assets/enr-tcu_handovers/sy25ad.png){ width="500" }
+		  <figcaption>SY TCU Handover Frequencies - 25AD Mode</figcaption>
+		</figure>
+	=== "16 PROPS"
+		<figure markdown>
+		![SY TCU Handover Frequencies - 16 PROPS Mode](../assets/enr-tcu_handovers/sy16props.png){ width="500" }
+		  <figcaption>SY TCU Handover Frequencies - 16 PROPS Mode</figcaption>
+		</figure>
+	=== "34 PROPS"
+		<figure markdown>
+		![SY TCU Handover Frequencies - 34 PROPS Mode](../assets/enr-tcu_handovers/sy34props.png){ width="500" }
+		  <figcaption>SY TCU Handover Frequencies - 34 PROPS Mode</figcaption>
+		</figure>
+	=== "SODPROPS"
+		<figure markdown>
+		![SY TCU Handover Frequencies - SODPROPS Mode](../assets/enr-tcu_handovers/sysodprops.png){ width="500" }
+		  <figcaption>SY TCU Handover Frequencies - SODPROPS Mode</figcaption>
+		</figure>
+
+
+	| ADES | STAR  | Frequency (Controller) |
+	| ---- | ----- | ---------------------- |
+	| YSSY | BOREE | **124.400** (SAN)      |
+	| YSSY | MARLN | **124.400** (SAN)      |
+	| YSSY | MEPIL | **124.400** (SAN)      |
+	| YSSY | ODALE | **128.300** (SAS)      |
+	| YSSY | RIVET | **128.300** (SAS)      |
+
+	!!! tip
+		The quick reference tables above only include scenarios for which there is [voiceless coordination](#sy-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+		
+=== "CB TCU"
+	=== "All"
+		<figure markdown>
+		![CB TCU Handover Frequencies](../assets/enr-tcu_handovers/cb.png){ width="500" }
+		  <figcaption>CB TCU Handover Frequencies</figcaption>
+		</figure>
+
+		| STAR  | Frequency (Controller) |
+		| ----- | ---------------------- |
+		| AVBEG | **125.900** (CBW)      |
+		| BUNGO | **124.500** (CBE)      |
+		| LEECE | **124.500** (CBE)      |
+		| MANDA | **125.900** (CBW)      |
+		| POLLI | **125.900** (CBW)      |
+	
+	!!! tip
+		The quick reference tables above only include scenarios for which there is [voiceless coordination](#cb-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+		
 ## Coordination
 ### SY TCU
 #### Airspace
