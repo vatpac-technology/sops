@@ -378,3 +378,6 @@
 *[AOBT]: Actual Off Blocks Time
 *[CTOT]: Calculated Take Off TIme
 *[ATOT]: Actual Off Blocks Time
+*[OFTA]: Oakey Flying Training Area
+*[FTAs]: Flying Training Areas
+*[RTB]: Return To Base
