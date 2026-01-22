@@ -29,7 +29,7 @@ BAR is responsible for the [CS TCU](../../../terminal/cairns) when **CS TCU** is
 
 ### Reclassifications
 #### TL CTR
-When **TL TCU** is offline, TL CTR (Class C `SFC` to `A085`) reverts to Class G, and is administered by TBP. Alternatively, TBP may provide a [top-down approach service](../../../military/townsville) if they wish.
+When **TL TCU** is offline, TL CTR (Class C `SFC` to `A085`) reverts to Class G, and is administered by TBP. Alternatively, TBP may provide a [top-down approach service](../../../aerodromes/classc/Townsville) if they wish.
 
 !!! tip
     If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
@@ -106,6 +106,42 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | TSN(All) | KEN(All) | YBCS, YBTL | |
 
 See [Cairns STAR Clearance](#ybcs-star-clearances) for instructions on issuing STAR clearances.
+
+## Terminal Handover Frequencies
+Aircraft being transferred from enroute to a TCU with multiple frequencies shall be given the frequency for the revelant TCU position.
+
+=== "CS TCU"
+	=== "15AD"
+		<figure markdown>
+		![CS TCU Handover Frequencies - 15AD Mode](../assets/enr-tcu_handovers/cs15.png){ width="500" }
+		  <figcaption>CS TCU Handover Frequencies - 15AD Mode</figcaption>
+		</figure>
+		
+		| ADES | STAR  | Transition | Frequency (Controller) |
+		| ---- | ----- | ---------- | ---------------------- |
+		| YBCS | CODIE | ANDOP<br>AVDAN<br>OVLET<br>PUNIT | **126.100** (CS2) |
+		|      |       | LOCKA<br>ZANEY | **118.400** (CS1) |
+		| YBCS | KASPI | ANDOP<br>OVLET<br>PUNIT | **126.100** (CS2) |
+		|      |       | AVDAN<br>LOCKA<br>ZANEY | **118.400** (CS1) |
+		| YBCS | NONUM | **126.100** (CS2)      |
+		| YBCS | UPOLO | **118.400** (CS1)      |
+		
+	=== "33AD"
+		<figure markdown>
+		![CS TCU Handover Frequencies - 33AD Mode](../assets/enr-tcu_handovers/cs33.png){ width="500" }
+		  <figcaption>CS TCU Handover Frequencies - 33AD Mode</figcaption>
+		</figure>
+		
+		| ADES | STAR  | Transition | Frequency (Controller) |
+		| ---- | ----- | ---------- | ---------------------- |
+		| YBCS | HENDO | ANDOP<br>ISNER<br>NORMA<br>OVLET<br>PUNIT<br>VEKBI | **126.100** (CS2) |
+		|      |       | BARIA | **118.400** (CS1) |
+		| YBCS | KEEWI | ANDOP<br>PUNIT<br>VEKBI<br>ISNER  | **126.100** (CS2) |
+		|      |       | AVDAN<br>LOCKA<br>OVLET<br>ZANEY | **118.400** (CS1) |
+		| YBCS | TOTTY | All | **126.100** (CS2) |
+		
+	!!! tip
+		The quick reference tables above only include scenarios for which there is [voiceless coordination](#cs-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 
 ## Coordination
 ### CS TCU

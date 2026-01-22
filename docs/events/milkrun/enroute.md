@@ -36,7 +36,7 @@ Best practice is to just focus on providing separation between aircraft (whether
 Although the standard runway assignment for arrivals via RIVET is the Western Parallel Runway, eventually, the airspace will get busy enough to warrant distributing arrivals between both the Western and Eastern runways.
 
 #### Amended routing via ODALE
-In order to segregate aircraft inbound to different parallel runways, [Amended routing via ODALE](../../enroute/Melbourne Centre/GUN/#sequencing-into-yssy) should be used for aircraft assigned the Eastern parallel runway (16L/34R). This keeps aircraft segregated in to two distinct arrival streams, and allows a higher volume of arrivals.
+In order to segregate aircraft inbound to different parallel runways, [Amended routing via ODALE](../../../enroute/Melbourne Centre/GUN/#sequencing-into-yssy) should be used for aircraft assigned the Eastern parallel runway (16L/34R). This keeps aircraft segregated in to two distinct arrival streams, and allows a higher volume of arrivals.
 
 Aircraft can be rerouted on first contact via AKMIR, ODALE, then assigned the **ODALE STAR** for 16L/34R.
 

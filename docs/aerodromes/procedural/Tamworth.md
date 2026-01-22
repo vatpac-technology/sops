@@ -19,11 +19,11 @@
 
 ## Airspace
 <figure markdown>
-![TW ADC Airspace](img/YSTW_airspace.png){ width="800" }
+![TW ADC Airspace](img/tw_ctr.png){ width="800" }
   <figcaption>TW ADC Airspace</figcaption>
 </figure>
 
-TW ADC is responsible for the Class D airspace in the TW CTR, as well as the Class C airspace between `A045` and `A065`.
+TW ADC is responsible for the Class D airspace in the TW keyhole `BCTA` to `A045`, as well as the Class C airspace between `A045` and `A065` within 23DME TW.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 

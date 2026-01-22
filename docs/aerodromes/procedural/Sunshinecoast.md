@@ -14,9 +14,11 @@
 
 ## Airspace
 <figure markdown>
-![SU ADC Airspace](img/YBSU_airspace.png){ width="700" }
+![SU ADC Airspace](img/su_ctr.png){ width="700" }
   <figcaption>SU ADC Airspace</figcaption>
 </figure>
+
+SU ADC is responsible for the Class D airspace within 20DME SU `BCTA` to `A045`.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
