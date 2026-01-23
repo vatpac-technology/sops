@@ -22,7 +22,7 @@ The vertical limits of the Pearce TCU is `SFC` to `F160`.
 PEA is responsible for the restricted airspace within R155A and R155B. This airspace is reclassified to **Class C** when PEA is online.
 
 <figure markdown>
-![PE TCU Restricted Areas](img/pe_restricted_areas.png){ width="700" }
+![PE TCU Restricted Areas](img/pe_restricted_areas.png){ width="500" }
   <figcaption>PE TCU Restricted Areas</figcaption>
 </figure>
 
@@ -44,17 +44,19 @@ There are four Departure/Arrival Lanes established in the PE TCU to facilitate m
 
 <!--- Diagram here when RAAFv diagrams integrated into AIRAC --->
 
-#### Wannamal Lane
-The **Wannamal Lane** is centered on the PEA 356 radial, and facilitates transit to/from SUAs to the north.
-
 #### Alkimos Lane
-The **Alkimos Lane** is centred on the PEA 304 radial, and facilitates transit to/from the M147 restricted areas.
+The **Alkimos Lane** is centred on the PEA 304 radial, `A050`-`F120`. The lane facilitates transit to/from the M147 restricted areas.
 
 #### Mullaloo Lane
-The **Mullalloo Lane** is between the 248 and 233 radials and facilitates transit to/from the R163 restricted area. 
+The **Mullalloo Lane** is between the 248 and 233 radials, `A050`-`F120`. The lane facilitates transit to/from the R163 restricted area. 
+
+#### Wannamal Lane
+The **Wannamal Lane** is centered on the PEA 356 radial, `A050`-`F120`. The lane facilitates transit to/from SUAs to the north.
 
 #### Quokka Lane
-The **Quokka Lane** is defined as the AZZAR-FENDA track in the south-west of the TCU. It facilitates transit to/from restricted areas on the southern side of the PH TCU.
+The **Quokka Lane** is defined as the AZZAR-FENDA track in the south-west of the TCU, `A090`-`F140`. It facilitates transit to/from restricted areas on the southern side of the PH TCU.
+
+Aircraft utilising the Quokka Lane should be instructed to reach `A090` before reaching the PEA 250 radial.
 
 !!! important
     Aircraft transiting on the Quokka Lane must be [**heads-up** coordinated](#ph-tcu) to PH TCU prior to the boundary.
