@@ -45,7 +45,7 @@ There are four Departure/Arrival Lanes established in the PE TCU to facilitate m
 <!--- Diagram here when RAAFv diagrams integrated into AIRAC --->
 
 #### Wannamal Lane
-The **Wannamal Lane** is centered on the PEA 356 radial, and facilitates transit to/from SUAs to the north
+The **Wannamal Lane** is centered on the PEA 356 radial, and facilitates transit to/from SUAs to the north.
 
 #### Alkimos Lane
 The **Alkimos Lane** is centred on the PEA 304 radial, and facilitates transit to/from the M147 restricted areas.
