@@ -77,8 +77,8 @@ Controllers **do not** need to explicitly say each taxiway provided it is covere
     **ZFN**: "Tamworth Ground, Cherokee ZFN, departure details"  
     **TW SMC**: "ZFN"  
     **ZFN**: "Tamworth Ground, Cherokee ZFN, at IFTT, received A, request airways and taxi clearance to YSTW via MAL"  
-    **TW SMC**: "ZFN, Tamworth Ground, cleared to YSTW via MAL flight planned route, climb to `A045`, squawk 3761, taxi to holding point B Runway 12L, cross runways 18 and 24"  
-    **ZFN**: "Cleared to YSTW via MAL flight planned route, climb to `A045`, squawk 3761, taxi to holding point B Runway 12L, cross runways 18 and 24, ZFN"
+    **TW SMC**: "ZFN, Tamworth Ground, cleared to YSTW via MAL flight planned route, climb to `A045`, taxi to holding point B Runway 12L, cross runways 18 and 24"  
+    **ZFN**: "Cleared to YSTW via MAL flight planned route, climb to `A045`, taxi to holding point B Runway 12L, cross runways 18 and 24, ZFN"
 
 ## Separation
 ### Local Lateral Separation Points
