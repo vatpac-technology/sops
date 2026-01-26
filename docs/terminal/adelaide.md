@@ -87,7 +87,7 @@ Non-Jet aircraft will be processed via a combination of:
 - No STAR, expecting vectors or direct tracking for VSA or IAP
 
 !!! tip
-    Refer to the [TBD page](../enroute/Melbourne%20Centre/TBD.md#ypad-star-assignment) for more details on the ATIS conditions and feeder fix combinations which will determine how each aircraft is processed.
+    Refer to the [TBD page](../enroute/melbourne/TBD.md#ypad-star-assignment) for more details on the ATIS conditions and feeder fix combinations which will determine how each aircraft is processed.
 
 Non-jet aircraft processed via direct tracking for a VSA should be vectored or cleared as necessary to join a circuit leg (generally final or downwind).
 
