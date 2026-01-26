@@ -19,7 +19,7 @@
 ## Airspace
 
 <figure markdown>
-![Territory Airspace](../assets/trt.png){ width="700" }
+![Territory Airspace](../img/enr_diagrams/trt.png){ width="700" }
   <figcaption>Territory Airspace</figcaption>
 </figure>
 
@@ -92,7 +92,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		
 === "DN TCU"
 	<figure markdown>
-	![DN TCU Handover Frequencies](../assets/enr-tcu_handovers/dn.png){ width="500" }
+	![DN TCU Handover Frequencies](../img/enr-tcu_handovers/dn.png){ width="500" }
 	  <figcaption>DN TCU Handover Frequencies</figcaption>
 	</figure>
 

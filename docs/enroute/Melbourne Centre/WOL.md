@@ -17,7 +17,7 @@
 ## Airspace
 
 <figure markdown>
-![Wollongong Airspace](../assets/wol.png){ width="500" }
+![Wollongong Airspace](../img/enr_diagrams/wol.png){ width="500" }
   <figcaption>Bindook Airspace</figcaption>
 </figure>
 
@@ -99,28 +99,28 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 === "SY TCU"
 	=== "07AD"
 		<figure markdown>
-		![SY TCU Handover Frequencies - 07AD Mode](../assets/enr-tcu_handovers/sy07ad.png){ width="500" }
+		![SY TCU Handover Frequencies - 07AD Mode](../img/enr-tcu_handovers/sy07ad.png){ width="500" }
 		  <figcaption>SY TCU Handover Frequencies - 07AD Mode</figcaption>
 		</figure>
 		
 	=== "25AD"
 		<figure markdown>
-		![SY TCU Handover Frequencies - 25AD Mode](../assets/enr-tcu_handovers/sy25ad.png){ width="500" }
+		![SY TCU Handover Frequencies - 25AD Mode](../img/enr-tcu_handovers/sy25ad.png){ width="500" }
 		  <figcaption>SY TCU Handover Frequencies - 25AD Mode</figcaption>
 		</figure>
 	=== "16 PROPS"
 		<figure markdown>
-		![SY TCU Handover Frequencies - 16 PROPS Mode](../assets/enr-tcu_handovers/sy16props.png){ width="500" }
+		![SY TCU Handover Frequencies - 16 PROPS Mode](../img/enr-tcu_handovers/sy16props.png){ width="500" }
 		  <figcaption>SY TCU Handover Frequencies - 16 PROPS Mode</figcaption>
 		</figure>
 	=== "34 PROPS"
 		<figure markdown>
-		![SY TCU Handover Frequencies - 34 PROPS Mode](../assets/enr-tcu_handovers/sy34props.png){ width="500" }
+		![SY TCU Handover Frequencies - 34 PROPS Mode](../img/enr-tcu_handovers/sy34props.png){ width="500" }
 		  <figcaption>SY TCU Handover Frequencies - 34 PROPS Mode</figcaption>
 		</figure>
 	=== "SODPROPS"
 		<figure markdown>
-		![SY TCU Handover Frequencies - SODPROPS Mode](../assets/enr-tcu_handovers/sysodprops.png){ width="500" }
+		![SY TCU Handover Frequencies - SODPROPS Mode](../img/enr-tcu_handovers/sysodprops.png){ width="500" }
 		  <figcaption>SY TCU Handover Frequencies - SODPROPS Mode</figcaption>
 		</figure>
 
@@ -139,7 +139,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 === "CB TCU"
 	=== "All"
 		<figure markdown>
-		![CB TCU Handover Frequencies](../assets/enr-tcu_handovers/cb.png){ width="500" }
+		![CB TCU Handover Frequencies](../img/enr-tcu_handovers/cb.png){ width="500" }
 		  <figcaption>CB TCU Handover Frequencies</figcaption>
 		</figure>
 
@@ -171,7 +171,7 @@ Voiceless for all aircraft:
 - that enter WOL airspace via any of the *Green Shaded Corridors* below
 
 <figure markdown>
-![SY TCU Voiceless Coordination Corridors](../assets/sytcucoordgate.png){ width="700" }
+![SY TCU Voiceless Coordination Corridors](../img/sytcucoordgate.png){ width="700" }
   <figcaption>SY TCU Voiceless Coordination Corridors</figcaption>
 </figure>
 

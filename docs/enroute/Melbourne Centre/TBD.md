@@ -17,7 +17,7 @@
 ## Airspace
 
 <figure markdown>
-![Tailem Bend Airspace](../assets/tbd.png){ width="700" }
+![Tailem Bend Airspace](../img/enr_diagrams/tbd.png){ width="700" }
   <figcaption>Tailem Bend Airspace</figcaption>
 </figure>
 
@@ -137,7 +137,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		
 === "AD TCU"
 	<figure markdown>
-	![AD TCU Handover Frequencies](../assets/enr-tcu_handovers/ad.png){ width="500" }
+	![AD TCU Handover Frequencies](../img/enr-tcu_handovers/ad.png){ width="500" }
 	  <figcaption>AD TCU Handover Frequencies</figcaption>
 	</figure>
 

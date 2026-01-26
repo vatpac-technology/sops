@@ -21,7 +21,7 @@
 
 ## Airspace
 <figure markdown>
-![Hyden Airspace](../assets/hyd.png){ width="700" }
+![Hyden Airspace](../img/enr_diagrams/hyd.png){ width="700" }
   <figcaption>Pingelly Airspace</figcaption>
 </figure>
 
@@ -326,7 +326,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 === "PH TCU"
 	=== "03AD06D"
 		<figure markdown>
-		![PH TCU Handover Frequencies - 03AD06D Mode](../assets/enr-tcu_handovers/ph03ad06d.png){ width="500" }
+		![PH TCU Handover Frequencies - 03AD06D Mode](../img/enr-tcu_handovers/ph03ad06d.png){ width="500" }
 		  <figcaption>PH TCU Handover Frequencies - 03AD06D Mode</figcaption>
 		</figure>
 
@@ -342,7 +342,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 
 	=== "24A21AD"
 		<figure markdown>
-		![PH TCU Handover Frequencies - 24A21AD Mode](../assets/enr-tcu_handovers/ph24a21ad.png){ width="500" }
+		![PH TCU Handover Frequencies - 24A21AD Mode](../img/enr-tcu_handovers/ph24a21ad.png){ width="500" }
 		  <figcaption>PH TCU Handover Frequencies - 24A21AD Mode</figcaption>
 		</figure>
 		

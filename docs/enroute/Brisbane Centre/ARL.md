@@ -21,7 +21,7 @@
 ## Airspace
 
 <figure markdown>
-![Armidale Airspace](../assets/arl.png){ width="700" }
+![Armidale Airspace](../img/enr_diagrams/arl.png){ width="700" }
   <figcaption>Armidale Airspace</figcaption>
 </figure>
 
@@ -190,28 +190,28 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 === "SY TCU"
 	=== "07AD"
 		<figure markdown>
-		![SY TCU Handover Frequencies - 07AD Mode](../assets/enr-tcu_handovers/sy07ad.png){ width="500" }
+		![SY TCU Handover Frequencies - 07AD Mode](../img/enr-tcu_handovers/sy07ad.png){ width="500" }
 		  <figcaption>SY TCU Handover Frequencies - 07AD Mode</figcaption>
 		</figure>
 		
 	=== "25AD"
 		<figure markdown>
-		![SY TCU Handover Frequencies - 25AD Mode](../assets/enr-tcu_handovers/sy25ad.png){ width="500" }
+		![SY TCU Handover Frequencies - 25AD Mode](../img/enr-tcu_handovers/sy25ad.png){ width="500" }
 		  <figcaption>SY TCU Handover Frequencies - 25AD Mode</figcaption>
 		</figure>
 	=== "16 PROPS"
 		<figure markdown>
-		![SY TCU Handover Frequencies - 16 PROPS Mode](../assets/enr-tcu_handovers/sy16props.png){ width="500" }
+		![SY TCU Handover Frequencies - 16 PROPS Mode](../img/enr-tcu_handovers/sy16props.png){ width="500" }
 		  <figcaption>SY TCU Handover Frequencies - 16 PROPS Mode</figcaption>
 		</figure>
 	=== "34 PROPS"
 		<figure markdown>
-		![SY TCU Handover Frequencies - 34 PROPS Mode](../assets/enr-tcu_handovers/sy34props.png){ width="500" }
+		![SY TCU Handover Frequencies - 34 PROPS Mode](../img/enr-tcu_handovers/sy34props.png){ width="500" }
 		  <figcaption>SY TCU Handover Frequencies - 34 PROPS Mode</figcaption>
 		</figure>
 	=== "SODPROPS"
 		<figure markdown>
-		![SY TCU Handover Frequencies - SODPROPS Mode](../assets/enr-tcu_handovers/sysodprops.png){ width="500" }
+		![SY TCU Handover Frequencies - SODPROPS Mode](../img/enr-tcu_handovers/sysodprops.png){ width="500" }
 		  <figcaption>SY TCU Handover Frequencies - SODPROPS Mode</figcaption>
 		</figure>
 
@@ -251,7 +251,7 @@ Voiceless for all aircraft:
 - that enter ARL airspace via any of the *Green Shaded Corridors* below, excluding [YWLM Arrivals](#ywlm-arrivals)
 
 <figure markdown>
-![SY TCU Voiceless Coordination Corridors](../assets/sytcucoordgate.png){ width="700" }
+![SY TCU Voiceless Coordination Corridors](../img/sytcucoordgate.png){ width="700" }
   <figcaption>SY TCU Voiceless Coordination Corridors</figcaption>
 </figure>
 

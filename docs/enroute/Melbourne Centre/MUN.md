@@ -19,7 +19,7 @@
 ## Airspace
 
 <figure markdown>
-![Mungo Airspace](../assets/mun.png){ width="700" }
+![Mungo Airspace](../img/enr_diagrams/mun.png){ width="700" }
   <figcaption>Yarrowee Airspace</figcaption>
 </figure>
 
@@ -113,7 +113,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 === "ML TCU"
 	=== "09AD"
 		<figure markdown>
-		![ML TCU Handover Frequencies - 09AD Mode](../assets/enr-tcu_handovers/ml09ad.png){ width="500" }
+		![ML TCU Handover Frequencies - 09AD Mode](../img/enr-tcu_handovers/ml09ad.png){ width="500" }
 		  <figcaption>ML TCU Handover Frequencies - 09AD Mode</figcaption>
 		</figure>
 
@@ -128,7 +128,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 
 	=== "09A16D"
 		<figure markdown>
-		![ML TCU Handover Frequencies - 09A16D Mode](../assets/enr-tcu_handovers/ml09a16d.png){ width="500" }
+		![ML TCU Handover Frequencies - 09A16D Mode](../img/enr-tcu_handovers/ml09a16d.png){ width="500" }
 		  <figcaption>ML TCU Handover Frequencies - 09A16D Mode</figcaption>
 		</figure>
 		
@@ -143,7 +143,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 
 	=== "16AD"
 		<figure markdown>
-		![ML TCU Handover Frequencies - 16AD Mode](../assets/enr-tcu_handovers/ml16ad.png){ width="500" }
+		![ML TCU Handover Frequencies - 16AD Mode](../img/enr-tcu_handovers/ml16ad.png){ width="500" }
 		  <figcaption>ML TCU Handover Frequencies - 16AD Mode</figcaption>
 		</figure>
 		
@@ -157,7 +157,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 
 	=== "16A27D"
 		<figure markdown>
-		![ML TCU Handover Frequencies - 16A27D Mode](../assets/enr-tcu_handovers/ml16a27d.png){ width="500" }
+		![ML TCU Handover Frequencies - 16A27D Mode](../img/enr-tcu_handovers/ml16a27d.png){ width="500" }
 		  <figcaption>ML TCU Handover Frequencies - 16A27D Mode</figcaption>
 		</figure>
 		
@@ -171,7 +171,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 
 	=== "27AD"
 		<figure markdown>
-		![ML TCU Handover Frequencies - 27AD Mode](../assets/enr-tcu_handovers/ml27ad.png){ width="500" }
+		![ML TCU Handover Frequencies - 27AD Mode](../img/enr-tcu_handovers/ml27ad.png){ width="500" }
 		  <figcaption>ML TCU Handover Frequencies - 27AD Mode</figcaption>
 		</figure>
 		
@@ -185,7 +185,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 
 	=== "27AD34D"
 		<figure markdown>
-		![ML TCU Handover Frequencies - 27AD34D Mode](../assets/enr-tcu_handovers/ml27ad34d.png){ width="500" }
+		![ML TCU Handover Frequencies - 27AD34D Mode](../img/enr-tcu_handovers/ml27ad34d.png){ width="500" }
 		  <figcaption>ML TCU Handover Frequencies - 27AD34D Mode</figcaption>
 		</figure>
 		
@@ -199,7 +199,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 
 	=== "34AD"
 		<figure markdown>
-		![ML TCU Handover Frequencies - 34AD Mode](../assets/enr-tcu_handovers/ml34ad.png){ width="500" }
+		![ML TCU Handover Frequencies - 34AD Mode](../img/enr-tcu_handovers/ml34ad.png){ width="500" }
 		  <figcaption>ML TCU Handover Frequencies - 34AD Mode</figcaption>
 		</figure>
 		
@@ -214,7 +214,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 
 	=== "27A34AD (LAHSO)"
 		<figure markdown>
-		![ML TCU Handover Frequencies - 27A34AD Mode](../assets/enr-tcu_handovers/ml27a34ad.png){ width="500" }
+		![ML TCU Handover Frequencies - 27A34AD Mode](../img/enr-tcu_handovers/ml27a34ad.png){ width="500" }
 		  <figcaption>ML TCU Handover Frequencies - 27A34AD Mode</figcaption>
 		</figure>
 		

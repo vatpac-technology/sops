@@ -18,7 +18,7 @@
 ## Airspace
 
 <figure markdown>
-![Inverell Airspace](../assets/kpl.png){ width="700" }
+![Inverell Airspace](../img/enr_diagrams/kpl.png){ width="700" }
   <figcaption>Keppel Airspace</figcaption>
 </figure>
 
@@ -163,13 +163,6 @@ Voiceless for all aircraft:
 - Assigned the lower of `F150` or the `RFL`
 
 All other aircraft going to SWY CTA will be **Heads-up** Coordinated by MKA.
-
-#### Airspace
-When **MKA** is online, they own up to `F150` in the **shaded** are shown below:
-<figure markdown>
-![Mackay TCU Airspace](img/MKAPP.png){ width="800" }
-  <figcaption>Mackay TCU Airspace</figcaption>
-</figure>
 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.

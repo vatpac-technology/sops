@@ -21,7 +21,7 @@
 ## Airspace
 
 <figure markdown>
-![Inverell Airspace](../assets/inl.png){ width="700" }
+![Inverell Airspace](../img/enr_diagrams/inl.png){ width="700" }
   <figcaption>Inverell Airspace</figcaption>
 </figure>
 
@@ -68,7 +68,7 @@ INL is responsible for initial sequencing, issuing STAR Clearances, and issuing 
 When the Evans Head Military Restricted Areas (R638) are activated, aircraft must be assigned **BERNI** SID with either the **OVREX** (if tracking via Y54) or **VESOK** (if tracking via Y43) transition. These transitions will ensure the aircraft remains clear of the restricted area.
 
 <figure markdown>
-![BERNI STAR with and without a transition](../assets/cg_berni.png){ width="900" }
+![BERNI STAR with and without a transition](../img/cg_berni.png){ width="900" }
   <figcaption>BERNI STAR with no transition *left* and VESOK transition</figcaption>
 </figure>
 
@@ -227,7 +227,7 @@ When operating the SODPROPS Runway Mode, aircraft via **ENLIP**, **BLAKA**, **GO
 Coded Clearances are available inbound and outbound from the AMB TMA to provided a standardised corridor for fast jet aircraft.
 
 <figure markdown>
-![YAMB Coded Clearances](img/yambcodedclearances.png){ width="700" }
+![YAMB Coded Clearances](../img/yambcodedclearances.png){ width="700" }
   <figcaption>YAMB Coded Clearances</figcaption>
 </figure>
 
@@ -267,7 +267,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 === "BN TCU"
 	=== "01 PROPS"
 		<figure markdown>
-		![BN TCU Handover Frequencies - 01 PROPS Mode](../assets/enr-tcu_handovers/bn01props.png){ width="500" }
+		![BN TCU Handover Frequencies - 01 PROPS Mode](../img/enr-tcu_handovers/bn01props.png){ width="500" }
 		  <figcaption>BN TCU Handover Frequencies - 01 PROPS Mode</figcaption>
 		</figure>
 	
@@ -288,7 +288,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		
 	=== "19 PROPS"
 		<figure markdown>
-		![BN TCU Handover Frequencies - 19 PROPS Mode](../assets/enr-tcu_handovers/bn19props.png){ width="500" }
+		![BN TCU Handover Frequencies - 19 PROPS Mode](../img/enr-tcu_handovers/bn19props.png){ width="500" }
 		  <figcaption>BN TCU Handover Frequencies - 19 PROPS Mode</figcaption>
 		</figure>
 			
@@ -309,7 +309,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		
 	=== "SODPROPS"
 		<figure markdown>
-		![BN TCU Handover Frequencies - SODPROPS Mode](../assets/enr-tcu_handovers/bnsodprops.png){ width="500" }
+		![BN TCU Handover Frequencies - SODPROPS Mode](../img/enr-tcu_handovers/bnsodprops.png){ width="500" }
 		  <figcaption>BN TCU Handover Frequencies - SODPROPS Mode</figcaption>
 		</figure>
 			

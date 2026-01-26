@@ -20,7 +20,7 @@
 ## Airspace
 
 <figure markdown>
-![Kennedy Airspace](../assets/ken.png){ width="700" }
+![Kennedy Airspace](../img/enr_diagrams/ken.png){ width="700" }
   <figcaption>Kennedy Airspace</figcaption>
 </figure>
 
@@ -113,7 +113,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 === "CS TCU"
 	=== "15AD"
 		<figure markdown>
-		![CS TCU Handover Frequencies - 15AD Mode](../assets/enr-tcu_handovers/cs15.png){ width="500" }
+		![CS TCU Handover Frequencies - 15AD Mode](../img/enr-tcu_handovers/cs15.png){ width="500" }
 		  <figcaption>CS TCU Handover Frequencies - 15AD Mode</figcaption>
 		</figure>
 		
@@ -128,7 +128,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		
 	=== "33AD"
 		<figure markdown>
-		![CS TCU Handover Frequencies - 33AD Mode](../assets/enr-tcu_handovers/cs33.png){ width="500" }
+		![CS TCU Handover Frequencies - 33AD Mode](../img/enr-tcu_handovers/cs33.png){ width="500" }
 		  <figcaption>CS TCU Handover Frequencies - 33AD Mode</figcaption>
 		</figure>
 		

@@ -22,7 +22,7 @@
 ## Airspace
 
 <figure markdown>
-![Alice Springs Airspace](../assets/asp.png){ width="700" }
+![Alice Springs Airspace](../img/enr_diagrams/asp.png){ width="700" }
   <figcaption>Alice Springs Airspace</figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ The **Orange** shaded areas will have limited surveillance coverage **Below F330
 The **Red** shaded areas will have limited surveillance coverage at **All Levels**.
 
 <figure markdown>
-![Forest Surveillance Coverage](../assets/aspsurv.png){ width="700" }
+![Forest Surveillance Coverage](../img/aspsurv.png){ width="700" }
   <figcaption>Forest Surveillance Coverage</figcaption>
 </figure>
 

@@ -20,7 +20,7 @@
 ## Airspace
 
 <figure markdown>
-![Mt Isa Airspace](../assets/isa.png){ width="700" }
+![Mt Isa Airspace](../img/enr_diagrams/isa.png){ width="700" }
   <figcaption>Mt Isa Airspace</figcaption>
 </figure>
 

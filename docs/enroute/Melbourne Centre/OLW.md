@@ -22,7 +22,7 @@
 ## Airspace
 
 <figure markdown>
-![Onslow Airspace](../assets/olw.png){ width="700" }
+![Onslow Airspace](../img/enr_diagrams/olw.png){ width="700" }
   <figcaption>Onslow Airspace</figcaption>
 </figure>
 
