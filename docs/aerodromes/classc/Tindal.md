@@ -36,7 +36,7 @@ There are 11 gates to facilate departues and arrivals from the TN Training Airsp
 | WEDGE 3     | W3 | 200 | 16 | R238 |
 
 <figure markdown>
-![Tindal Gates](img/yptngates.png){width="700"}
+![Tindal Gates](img/Tindal Map.png){width="700"}
   <figcaption>Tindal Gates</figcaption>
 </figure>
 
