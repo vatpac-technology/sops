@@ -335,29 +335,32 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 
 ## Coordination
-### BN TCU
+### BN TCU/BAC
 #### Airspace
-The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, where it is `SFC` to `A075` in the North West, and `SFC` to `F125` in the South East.
+The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, where it is `SFC` to `A075` in the northwest, and `SFC` to `F125` in the southeast.
 
 Refer to [Brisbane TCU Airspace Division](../../../terminal/brisbane/#airspace-division) for information on airspace divisions when **BAS**, **BDN** and/or **BDS** are online.
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:
 
-- With ADES **YBBN** or **YBCG**; and  
-- Assigned a STAR; and  
-- Assigned `A090` for **YBBN** arrivals; or  
-- Assigned `F130` for **YBCG** arrivals
+- With ADES **YBBN**
+  - Assigned a STAR; and
+  - Assigned `A090`.
 
-Additionally, Voiceless coordination may be used for **YBCG** arrivals tracking via **BN** and assigned `F190`.
+- With ADES **YBCG**; 
+  - Assigned a STAR; and  
+  - Assigned `F130`.
 
-All other aircraft coming from INL CTA must be **Heads-up** Coordinated to BN TCU prior to **20nm** from the boundary.
+Additionally, voiceless coordination exists between INL and BN TCU for **YBCG** arrivals tracking via **BN** and assigned `F190`.
+
+All other aircraft coming from INL CTA must be **Heads-up** Coordinated to BN TCU/BAC prior to **20nm** from the boundary.
 
 #### Departures
 Voiceless for aircraft:
 
 - With ADEP **YBBN**  
-    - Tracking via a Procedural SID terminus; and  
+    - Tracking via a Procedural SID terminus^; and  
     - Assigned the lower of `F180` or the `RFL`  
 - With ADEP **YBCG**  
     - Tracking via **APAGI** and assigned the lower of `F120` or the `RFL`; or  
@@ -365,8 +368,11 @@ Voiceless for aircraft:
 - With ADES **YBSU**  
     - Assigned the **ITIDE** STAR; and  
     - Assigned `F130`
-    
-All other aircraft going to INL CTA will be **Heads-up** Coordinated by BN TCU.
+
+!!! note
+    ^Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+	
+All other aircraft going to INL CTA will be **Heads-up** Coordinated by BN TCU/BAC.
 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.

@@ -340,9 +340,9 @@ Voiceless for aircraft:
 
 - With ADEP **YBBN**  
     - Tracking via a Procedural SID terminus^; and  
-    - Assigned the lower of `F180` or the `RFL`
+    - Assigned the lower of `F180` or the `RFL`  
 - With ADEP **YBCG**  
-    - Tracking via **APAGI** and assigned the lower of `F120` or the `RFL`; or    
+    - Tracking via **APAGI** and assigned the lower of `F120` or the `RFL`; or  
     - Tracking via **BN** and assigned the lower of `F180` or the `RFL`  
 - With ADES **YBSU**  
     - Assigned the **ITIDE** STAR; and  
@@ -350,8 +350,8 @@ Voiceless for aircraft:
 
 !!! note
     ^Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
-
-All other aircraft going to INL CTA must be **Heads-up** Coordinated by BN TCU prior to the boundary. This includes YBCG departures to the North that clip INL(GOL) airspace before re-entering BN TCU airspace
+	
+All other aircraft going to INL CTA will be **Heads-up** Coordinated by BN TCU/BAC.
 
 !!! phraseology
     <span class="hotline">**BAC** -> **GOL**</span>: "Departing YBCG, X4C, do you have any Restrictions or Requirements?"  
@@ -360,14 +360,17 @@ All other aircraft going to INL CTA must be **Heads-up** Coordinated by BN TCU p
 #### Arrivals
 Voiceless for all aircraft:
 
-- With ADES **YBBN**:
-    - Assigned a STAR; and
-	- Assigned `A090`.
-- With ADES **YBCG**:
-	- Assigned a STAR, and assigned `F130`; or
-	- Tracking via **BN**, and assigned `F190`.
+- With ADES **YBBN**
+  - Assigned a STAR; and
+  - Assigned `A090`.
 
-All other aircraft coming from INL CTA will be **Heads-up** Coordinated to BN TCU.
+- With ADES **YBCG**; 
+  - Assigned a STAR; and  
+  - Assigned `F130`.
+
+Additionally, voiceless coordination exists between INL and BN TCU for **YBCG** arrivals tracking via **BN** and assigned `F190`.
+
+All other aircraft coming from INL CTA must be **Heads-up** Coordinated to BN TCU/BAC prior to **20nm** from the boundary.
 
 ### BN ADC
 #### Auto Release
