@@ -406,26 +406,31 @@ Aircraft that have been cleared the **BN (RADAR) SID** will receive an assigned 
     If strong winds are present at altitude, ADC/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
 
 ### BN TCU Internal
-#### Departures
-Voiceless Coordination is in place for departures transiting between BN TCU positions, provided the aircraft is:
+#### APP / DEP
+Voiceless Coordination is in place for aircraft transiting between BN APP/DEP positions, provided the aircraft is:
 
-- ADEP **YBBN** or **YBCG**; and
-- Assigned a SID; and
-- Climbing via SID to `A100` or higher
+- With ADEP **YBBN**
+  - Assigned a SID; and
+  - Climbing via SID to `A100` or higher
 
-#### Arrivals
-Voiceless Coordination is in place for arrivals transiting between BN TCU positions, provided the aircraft is:
+- With ADES **YBBN**
+  - Assigned a STAR; and
+  - Descending via STAR to `A080`
 
-- ADES **YBBN** or **YBCG**; and
-- Assigned a STAR; and
-- Descending via STAR to `A080`
 
-#### Others (Heads-up)
-All other aircraft not meeting the Departures/Arrivals criteria that transit between internal BN TCU boundaries must be heads-up coordinated.
+All other aircraft, including aircraft that transit between internal ML TCU boundaries, must be heads-up coordinated.
 
 !!! phraseology
     <span class="hotline">**BDS** -> **BAS**</span>: "via MAKRU, QFA904"  
     <span class="hotline">**BAS** -> **BDS**</span>: "QFA904, A050"
+
+#### Between BAC and APP/DEP
+YBCG arrivals and departures **do not** meet the voiceless criteria between APP/DEP and BAC, and must be heads-up coordinated.
+
+!!! phraseology
+    <span class="hotline">**BDS** -> **BAC**</span>: "via NOPAS, A2B"  
+    <span class="hotline">**BAC** -> **BDS**</span>: "A2B, A070"  
+    <span class="hotline">**BDS** -> **BAC**</span>: "A070, A2B"
 
 ### CG ADC
 #### Airspace
