@@ -418,7 +418,7 @@ Voiceless Coordination is in place for aircraft transiting between BN APP/DEP po
   - Descending via STAR to `A080`
 
 
-All other aircraft, including aircraft that transit between internal ML TCU boundaries, must be heads-up coordinated.
+All other aircraft, including aircraft that transit between internal BN TCU boundaries, must be heads-up coordinated.
 
 !!! phraseology
     <span class="hotline">**BDS** -> **BAS**</span>: "via MAKRU, QFA904"  
