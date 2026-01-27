@@ -87,7 +87,7 @@ Non-Jet aircraft will be processed via a combination of:
 - No STAR, expecting vectors or direct tracking for VSA or IAP
 
 !!! tip
-    Refer to the [TBD page](../enroute/Melbourne%20Centre/TBD.md#ypad-star-assignment) for more details on the ATIS conditions and feeder fix combinations which will determine how each aircraft is processed.
+    Refer to the [TBD page](../enroute/melbourne/TBD.md#ypad-star-assignment) for more details on the ATIS conditions and feeder fix combinations which will determine how each aircraft is processed.
 
 Non-jet aircraft processed via direct tracking for a VSA should be vectored or cleared as necessary to join a circuit leg (generally final or downwind).
 
@@ -116,7 +116,7 @@ Due to the low level of CTA at YPPF, it is best practice to give airways clearan
 - A competent pilot may be issued the appropriate Victor/Xray/Whiskey STAR in lieu of the Alpha STAR to reduce track miles.
 
 !!! tip
-    When flowing using the Arrivals List Window, AFL may use the abbreviations listed in the [TBD page](../../enroute/Melbourne%20Centre/TBD/#ypad-star-assignment) to prescribe certain STARs and Runways.
+    When flowing using the Arrivals List Window, AFL may use the abbreviations listed in the [TBD page](../../enroute/melbourne/TBD/#ypad-star-assignment) to prescribe certain STARs and Runways.
 
 ### Flow Tables
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
