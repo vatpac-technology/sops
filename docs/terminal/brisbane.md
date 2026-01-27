@@ -12,9 +12,9 @@
 | <span class="indented">Brisbane Approach South :material-information-outline:{ title="Non-standard position"}   | BAS | Brisbane Approach   | 125.600 | BN-S_APP |
 | <span class="indented">Brisbane Departures North :material-information-outline:{ title="Non-standard position"} | BDN | Brisbane Departures | 133.450 | BN_DEP   |
 | <span class="indented">Brisbane Departures South :material-information-outline:{ title="Non-standard position"} | BDS | Brisbane Departures | 118.450 | BN-S_DEP |
-| <span class="indented">Gold Coast Approach :material-information-outline:{ title="Non-standard position"}       | BAC | Brisbane Approach   | 123.500 | BN-C_APP |
 | <span class="indented">Brisbane Radar :material-information-outline:{ title="Non-standard position"}            | SHN | Brisbane Centre     | 119.500 | BN-R_DEP |
 | <span class="indented">Brisbane Flow :material-information-outline:{ title="Non-standard position"}             | BFL |                     |         | BN_FMP   |
+| **Gold Coast Approach**       | **BAC** | **Brisbane Approach**   | **123.500** | **BN-C_APP**  |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
@@ -28,14 +28,6 @@ The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, w
 AF CTR reverts to Class G when **AF ADC** is offline, and is administered by the relevant BN TCU controller.
 
 See also: [AF ADC Offline](#af-adc-offline).
-
-#### CG CTR
-If BN TCU elects not to provide top-down to YBCG, The CG CTR Class C airspace `SFC` to `A035` reverts to Class G when **CG ADC** is offline, and is administered by the relevant BN TCU controller.
-
-See also: [CG ADC Offline](#cg-adc-offline).
-
-!!! tip
-    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
 
 ### Airspace Division
 The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **BAC** change based on the Runway Mode.
@@ -70,7 +62,7 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **
 		The controller may connect as either position, and assume both frequencies. 
         
         Only **two** TCU controllers may operate the BN TMA when running the SODPROPS runway mode (excluding an additional SHN or BAC controller if desired).
-	
+
 #### Brisbane Radar (SHN)
 SHN is responsible for the provision of FIS in Class G airspace within the BN TMA. The position is designed to reduce the workload of other TMA positions by identifing and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller.
 
@@ -82,7 +74,10 @@ Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac
     
     - **BAN** and **BDN** combined; *and*
     - **BAS** and **BDS** combined.
-	
+
+## Extending
+BN TCU may extend to BAC and vice versa; callsigns remain the same. See [Controller Skills](../controller-skills/extending.md) for details.
+
 ## Separation
 ### Parallel Runway Operations
 Refer to [Parallel Runway Separation Standards](../../separation-standards/parallelapps) for more information
