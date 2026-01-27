@@ -49,7 +49,7 @@ The divisions of the airspace between **PHA**, and **PHD** change based on the R
 	</figure>
 	
 #### Perth Radar (PHR)
-PHR is responsible for the provision of FIS in Class G airspace within the PH TMA. The position is designed to reduce the workload of other TMA positions by identifing and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller.
+PHR is responsible for the provision of FIS in Class G airspace within the PH TMA. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identify them, perform any necessary coordination, then hand them to the relevant controller who will issue clearance if appropriate.
 	
 #### Pearce Airspace
 When **PEA TCU** is online, they assume responsibility for the airspace in R155A and R155B from `SFC` to `F160`.
