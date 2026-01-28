@@ -9,7 +9,7 @@
 | ---- | -------- | --------- | -------- |
 | **Hyden** | **Melbourne Centre** | **118.200** | **ML-HYD_CTR** |
 | <span class="indented">Pingelly :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 133.900 | ML-PIY_CTR |
-| <span class="indented">Cross :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 135.800 | ML-CRS_CTR |
+| <span class="indented">Cross :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 135.800 | ML-SCR_CTR |
 | <span class="indented">Jarrah :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 120.300 | ML-JAR_CTR |
 | <span class="indented">Leeman :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 122.400 | ML-LEA_CTR |
 | <span class="indented">Grove :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 133.800 | ML-GVE_CTR |
@@ -97,7 +97,7 @@ HYD is responsible for issuing STAR Clearances (for Jets), and initial descent t
 
 See [YPEA Arrivals](#ypjtypea-arrivals) for STAR assignment.
 
-### Cross (CRS) / Geraldton (GEL)
+### Cross (SCR) / Geraldton (GEL)
 Just keeping them separated!
 
 ### Jarrah (JAR)
@@ -304,8 +304,8 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| GVE, CRS, HYD | PIY | YPPH, YPEA | Non-jets only |
-| GVE, CRS, HYD | PIY | YPJT | |
+| GVE, SCR, HYD | PIY | YPPH, YPEA | Non-jets only |
+| GVE, SCR, HYD | PIY | YPJT | |
 | GEL | LEA | YPPH | |
 
 ### First Contact
@@ -315,8 +315,8 @@ Aircraft being transferred from the following sectors shall be given STAR Cleara
 | ---- | -------- | --------- | --------- |
 | OLW(MEK, MTK, MZI) | GVE, HYD | YPPH, YPEA | Jets only |
 | ASP(ESP) | HYD | YPPH, YPEA | Jets only |
-| GVE, CRS, HYD | PIY | YPPH, YPEA | Non-jets only |
-| GVE, CRS, HYD | PIY | YPJT | |
+| GVE, SCR, HYD | PIY | YPPH, YPEA | Non-jets only |
+| GVE, SCR, HYD | PIY | YPJT | |
 | GEL, IND | LEA | YPPH | |
 | IND | LEA, JAR | YPPH | |
 
@@ -410,7 +410,7 @@ All aircraft transiting from HYD to **PE TCU** must be [Heads-up](../../../contr
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 ### HYD Internal
-Changes to CFL are permitted up to the boundary from GVE, CRS and HYD to PIY.
+Changes to CFL are permitted up to the boundary from GVE, SCR and HYD to PIY.
 
 All else is Voiceless, no changes to route or CFL within **20nm** (reduced from 50nm) to boundary.
 
