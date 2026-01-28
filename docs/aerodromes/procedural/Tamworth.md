@@ -74,7 +74,6 @@ Controllers **do not** need to explicitly say each taxiway provided it is covere
     Not all pilots are aware of the existence of standard taxi routes. When in doubt, provide full taxi instructions detailing the full desired route.
 
 #### Southern Runway Departures
-[waiting for ground charts]
 
 !!! phraseology
     **83C**: "Tamworth Ground, Cherokee 83C, departure details"  
