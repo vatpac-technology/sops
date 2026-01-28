@@ -57,6 +57,19 @@ Standard taxi routes establish an implied set of taxi instructions which pilots 
 
 Controllers **do not** need to explicitly say each taxiway provided it is covered by a standard taxi route in the tables below.
 
+=== "Runway 12R"
+	<figure markdown>
+	![Standard Taxi Route for RWY 12R](img/ystw_taxi_12r.png){ width="500" }
+	  <figcaption>Standard Taxi Route for RWY 12R</figcaption>
+	</figure>
+	
+=== "Runway 30L"
+	<figure markdown>
+	![Standard Taxi Route for RWY 30L](img/ystw_taxi_30l.png){ width="500" }
+	  <figcaption>Standard Taxi Route for RWY 30L</figcaption>
+	</figure>
+
+
 !!! warning "Important"
     Not all pilots are aware of the existence of standard taxi routes. When in doubt, provide full taxi instructions detailing the full desired route.
 
@@ -71,7 +84,6 @@ Controllers **do not** need to explicitly say each taxiway provided it is covere
     **83C**: "Taxi to holding point J Runway 12R, 83C"
 
 #### Northern Runway Departures
-[waiting for ground charts]
 
 !!! phraseology
     **ZFN**: "Tamworth Ground, Cherokee ZFN, departure details"  
