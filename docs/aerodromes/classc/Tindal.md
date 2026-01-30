@@ -15,7 +15,6 @@
 
 ## Airspace
 TN ADC is not responsible for any airspace by default.  
-In order to facilitate circuit operations, TN ADC may request a release of airspace within the TN MIL CTR from TN TCU, or take ownership of airspace within the TN MIL CTR if TN TCU is offline.
 
 ## Local Procedures
 ### Gate Departures (All Military Aircraft)
@@ -36,7 +35,7 @@ There are 11 gates to facilate departues and arrivals from the TN Training Airsp
 | WEDGE 3     | W3 | 200 | 16 | R238 |
 
 <figure markdown>
-![Tindal Gates](img/yptngates.png){width="700"}
+![Tindal Gates](img/Tindal Map.png){width="700"}
   <figcaption>Tindal Gates</figcaption>
 </figure>
 
