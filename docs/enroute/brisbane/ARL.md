@@ -55,53 +55,24 @@ The CPDLC Station Code is `YARL`.
 !!! tip
     Even though ARL's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
 
-## Sector Responsibilities
-### Armidale (ARL)
-#### YSSY Arrivals
-ARL is responsible for initial sequencing, issuing STAR Clearances, and issuing initial descent for aircraft via BOREE and MEPIL. Aircraft cruising above `F250` should be assigned *no lower* than `F250` and handed to CNK for further descent. Aircraft cruising below `F250` should be transferred to CNK at their cruise level.
+## Major Airports
 
-Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway and STAR selection notes.
-
-#### YSTW Arrivals
-ARL is responsible for issuing descent.
-
-!!! note
-    ARL and MDE share a joint responsibility to build the final sequence of arrivals into YSTW when the tower is open. Coordination with MDE should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
-
-### Manning (MNN)
-#### YCFS Arrivals
+### YCFS
 MNN is responsible for issuing descent.
 
-!!! note
-    MNN and INL share a joint responsibility to build the final sequence of arrivals into YCFS when the tower is open. Coordination with INL should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
+#### Sequencing
+MNN and INL share a joint responsibility to build the final sequence of arrivals into YCFS when the tower is open. Coordination with INL should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
 
-### Cessnock (CNK)
-#### YSSY Arrivals
-CNK is responsible for final sequencing and descent for aircraft via BOREE and MEPIL.
+### YSSY
+#### Sector Responsibilities
 
-Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway and STAR selection notes.
+| Sector | STAR Clearance | Descent |
+| ------ | -------------- | ------- |
+| ARL | BOREE<br>MEPIL | Not Below `F250` |
+| CNK |                | Yes - [See Coord Reqs](#arrivalsoverfliers) |
+| OCN | MARLN          | Yes - [See Coord Reqs](#arrivalsoverfliers) |
 
-### Maitland (MLD)
-#### YWLM Arrivals
-MLD is responsible for final sequencing and descent.
-
-### Mudgee (MDE)
-#### YSTW Arrivals
-MDE is responsible for issuing descent.
-
-!!! note
-    ARL and MDE share a joint responsibility to build the final sequence of arrivals into YSTW when the tower is open. Coordination with ARL should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
-
-### Ocean (OCN)
-#### YSSY Arrivals
-OCN is responsible for sequencing, issuing STAR Clearances, and issuing descent for aircraft via MARLN.
-
-Refer to the [Sequencing into YSSY](#sequencing-into-yssy) notes below for runway selection notes.
-
-### YWLM Operations
-**All** ARL subsectors are responsible for assigning STARs to aircraft inbound to YWLM, and the STAR shall be issued by the *first* ARL subsector to take jurisdiction of the aircraft.
-
-### Sequencing into YSSY
+#### Sequencing
 Sequencing arrivals from the north/east into YSSY is a joint responsibility of the subsectors of ARL. Initial sequencing actions for aircraft from the north should be performed by ARL and MNN, with fine tuning and any holding required issued by CNK. 
 
 Aircraft from the north/east shall be assigned **runway 16L/34R** during PROPS. However, some situations may warrant the use of the main runway (16R/34L), such as heavy aircraft operationally requiring the longer runway or large volumes of traffic requiring the use of both runways to minimise delay. In this case, coordination must be conducted with Melbourne Centre or Sydney Flow (if operating) to ensure that the sequence is built in an efficient and orderly way.
@@ -126,8 +97,11 @@ Non-jet aircraft for YSSY shall be assigned the **MEPIL** STAR.
     **RXA6417:** "RXA6417, go ahead"  
     **ARL:** "RXA6417, recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain F180"  
     **RXA6417:** "Recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain F180, RXA6417" 
+	
+##### Adjacent Feeder Fixes
+Aircraft assigned the **same runway** inbound via **BOREE** and **MEPIL**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
-#### Predictable Sequencing Waypoints
+##### Predictable Sequencing Waypoints
 There are ten [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YSSY via **N774** and **M636**.
 
 The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
@@ -150,7 +124,7 @@ The table below contains the estimated time from the initial waypoint to the fin
     | PLUGA | GORTA | RIKNI | 8 | 
 
 
-#### Holding Fixes
+##### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YSSY. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
 
 | Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
@@ -162,8 +136,20 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 !!! tip
     Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector. 
 
-#### Adjacent Feeder Fixes
-Aircraft assigned the **same runway** inbound via **BOREE** and **MEPIL**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
+### YSTW
+ARL and MDE are responsible for issuing descent.
+
+#### Sequencing
+ARL and MDE share a joint responsibility to build the final sequence of arrivals into YSTW when the tower is open. Coordination with ARL should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.\
+
+### YWLM
+#### Sector Responsibilities
+
+| Sector | STAR Clearance | Descent |
+| ------ | -------------- | ------- |
+| ARL | LAXUM | Yes - [See Coord Reqs](#arrivalsoverfliers) |
+| MNN | LAXUM | Yes - [See Coord Reqs](#arrivalsoverfliers) |
+| OCN | ASUVA | Yes - [See Coord Reqs](#arrivalsoverfliers_3) |
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -296,7 +282,7 @@ The Standard Assignable level from **TW ADC** to **ARL/MDE** is:
 | ---- | ---- |
 | All | The lower of `A070` and `RFL` |
 
-#### Arrivals
+#### Arrivals/Overfliers
 YSTW arrivals shall be heads-up coordinated to **TW ADC** from ARL/MDE prior to **5 mins** from the boundary.
 
 !!! phraseology
@@ -322,7 +308,7 @@ The Standard Assignable level from **CFS ADC** to **MNN** is:
 
 Where possible (and no possible conflict exists), a higher level shall be assigned by MNN for high performance aircraft during next coordination.
 
-#### Arrivals
+#### Arrivals/Overfliers
 YCFS arrivals shall be heads-up coordinated to **CFS ADC** from MNN prior to **5 mins** from the boundary.
 
 !!! phraseology
