@@ -429,7 +429,7 @@ YBCG arrivals and departures **do not** meet the voiceless criteria between APP/
 
 !!! phraseology
     <span class="hotline">**BDS** -> **BAC**</span>: "via NOPAS, A2B"  
-    <span class="hotline">**BAC** -> **BDS**</span>: "A2B, A070"  
+    <span class="hotline">**BAC** -> **BDS**</span>: "A2B, `A070`"  
     <span class="hotline">**BDS** -> **BAC**</span>: "A070, A2B"
 
 ### CG ADC
