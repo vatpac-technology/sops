@@ -130,7 +130,7 @@ The [geographic feature separation standard](../../separation-standards/visual.m
 The **Oxley** and **New England** Highways are good references for this standard.
 
 ### Surveillance
-Surveillance coverage can be expected to be not available below `A034` in the TW CTR. Although TW ADC is **not permitted** to use surveillance for separation, ARL/MDE may assist by establishing surveillance separation standards via coordination
+Surveillance coverage can be expected to be not available below `A034` in the TW CTR. Although TW ADC is **not permitted** to use surveillance for separation, ARL may assist by establishing surveillance separation standards via coordination
 
 ## VFR Operations
 
@@ -206,25 +206,25 @@ When parallel runway operations are in use, the ATIS OPR INFO field shall includ
 
 ## Coordination
 ### Departures
-[Next](../../controller-skills/coordination.md#next) coordination is required from TW ADC to ARL/MDE for all aircraft **entering ARL/MDE CTA**.
+[Next](../../controller-skills/coordination.md#next) coordination is required from TW ADC to ARL for all aircraft **entering ARL CTA**.
 
-The Standard Assignable level from **TW ADC** to **ARL/MDE** is:
+The Standard Assignable level from **TW ADC** to **ARL** is:
 
 | Aircraft | Level |
 | ---- | ---- |
 | All | The lower of `A070` and `RFL` |
 
 ### Arrivals/Overfliers
-ARL/MDE will heads-up coordinate all arrivals/overfliers that are entering the TW CTR/CTA to TW ADC
+ARL will heads-up coordinate all arrivals/overfliers that are entering the TW CTR/CTA to TW ADC
 
 !!! phraseology
-    <span class="hotline">**MDE** -> **TW ADC**</span>: "Via MOR DCT for the VOR-A, FD272”  
-    <span class="hotline">**TW ADC** -> **MDE**</span>: "FD272, VOR-A"  
+    <span class="hotline">**ARL** -> **TW ADC**</span>: "Via MOR DCT for the VOR-A, FD272”  
+    <span class="hotline">**TW ADC** -> **ARL**</span>: "FD272, VOR-A"  
 
-The Standard Assignable level from ARL/MDE to TW ADC is `A080`, any other level must be prior coordinated.
+The Standard Assignable level from ARL to TW ADC is `A080`, any other level must be prior coordinated.
 
 #### ADC South Online
-When ADC South is online, ARL/MDE may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
+When ADC South is online, ARL may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
 
 ### TW ADC Internal
 TW ADC must heads-up coordinate **all aircraft** transiting from one ADC controller to the other.
