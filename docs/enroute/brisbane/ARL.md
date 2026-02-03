@@ -282,7 +282,7 @@ The Standard Assignable level from ARL/MDE to **TW ADC** is `A080`, any other le
 #### Airspace
 CFS ADC is responsible for the Class D airspace in the CFS CTR `SFC` to `A045`.
 
-Refer to [Reclassifications](#cfs-ctr) for operations when CFS ADC is offline.
+Refer to [Reclassifications](#reclassifications) for operations when CFS ADC is offline.
 
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from CFS ADC to MNN for all aircraft **entering MNN CTA**.
@@ -310,7 +310,7 @@ By default, WLM TCU owns the airspace from `SFC` to `F125`. In exceptional circu
 
 When WLM TCU is active above `F125` by ad-hoc release, **WLM-H_APP** owns the airspace above `F125`.
 
-Refer to [Reclassifications](#wlm-ctr) for operations when WLM TCU is offline.
+Refer to [Reclassifications](#reclassifications) for operations when WLM TCU is offline.
 
 #### Departures
 Voiceless for all aircraft:
