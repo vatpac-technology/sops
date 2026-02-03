@@ -70,7 +70,7 @@ DN ACD will issue airways clearance for all helicopters, including those on a he
 
 !!! phraseology
     **QRS:** "Darwin Delivery, helicopter QRS, for the Talc Head outbound, request clearance"  
-    **DN ACD:** "YOE, Darwin Delivery, cleared Talc Head outbound, squawk 0215, departure frequency 134.1"  
+    **DN ACD:** "QRS, Darwin Delivery, cleared Talc Head outbound, squawk 0215, departure frequency 134.1"  
     **QRS:** "Cleared Talc Head outbound, squawk 0215, departure frequency 134.1, QRS"
 
 ### Arrivals
