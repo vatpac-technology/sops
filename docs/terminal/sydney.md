@@ -57,47 +57,47 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
     The following diagrams do not include non SY TCU areas of responsibility such as BK CTR or CN CTR
 
 === "07AD"
-	<figure markdown>
-	![07 TCU Structure](img/sy07.png){ width="700" }
-	  <figcaption>07 TCU Structure</figcaption>
-	</figure>
-	
-	!!! warning "Important"
-		Separation between aircraft on the TESAT-FISHA-T066 track is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
+    <figure markdown>
+    ![07 TCU Structure](img/sy07.png){ width="700" }
+      <figcaption>07 TCU Structure</figcaption>
+    </figure>
+    
+    !!! warning "Important"
+        Separation between aircraft on the TESAT-FISHA-T066 track is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
 
 === "16 PROPS"
-	<figure markdown>
-	![16 PROPS TCU Structure](img/sy16PROPS.png){ width="700" }
-	  <figcaption>16 PROPS TCU Structure</figcaption>
-	</figure>
-	
-	!!! warning "Important"
-		Separation between aircraft tracking via the KEVIN SID to KEVIN is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
+    <figure markdown>
+    ![16 PROPS TCU Structure](img/sy16PROPS.png){ width="700" }
+      <figcaption>16 PROPS TCU Structure</figcaption>
+    </figure>
+    
+    !!! warning "Important"
+        Separation between aircraft tracking via the KEVIN SID to KEVIN is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
 
 === "25AD"
-	<figure markdown>
-	![25 TCU Structure](img/sy25.png){ width="700" }
-	  <figcaption>25 TCU Structure</figcaption>
-	</figure>
+    <figure markdown>
+    ![25 TCU Structure](img/sy25.png){ width="700" }
+      <figcaption>25 TCU Structure</figcaption>
+    </figure>
 
 === "34 PROPS"
-	<figure markdown>
-	![34 PROPS TCU Structure](img/sy34PROPS.png){ width="700" }
-	  <figcaption>34 PROPS TCU Structure</figcaption>
-	</figure>
-	
-	!!! warning "Important"
-		Separation between aircraft tracking via the RIC SID to RIC and MARUB SID to MARUB is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
+    <figure markdown>
+    ![34 PROPS TCU Structure](img/sy34PROPS.png){ width="700" }
+      <figcaption>34 PROPS TCU Structure</figcaption>
+    </figure>
+    
+    !!! warning "Important"
+        Separation between aircraft tracking via the RIC SID to RIC and MARUB SID to MARUB is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
 
 === "SODPROPS"
-	<figure markdown>
-	![SODPROPS TCU Structure](img/sySODPROPS.png){ width="700" }
-	  <figcaption>SODPROPS TCU Structure</figcaption>
-	</figure>
-	
-	!!! warning "Important"
-		Separation between aircraft tracking via the RIC SID to RIC, and aircraft tracking via the KEVIN SID to KEVIN is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
-	
+    <figure markdown>
+    ![SODPROPS TCU Structure](img/sySODPROPS.png){ width="700" }
+      <figcaption>SODPROPS TCU Structure</figcaption>
+    </figure>
+    
+    !!! warning "Important"
+        Separation between aircraft tracking via the RIC SID to RIC, and aircraft tracking via the KEVIN SID to KEVIN is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
+    
 #### Airspace Structural Arrangements
 Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, the following rules apply, in the order presented, to these controller positions, except **SFL**:  
 
@@ -520,10 +520,10 @@ Upon receipt of the heads-up coordination from SRI, the SY TCU controller has se
     <span class="hotline">**SDS** -> **SRI**</span>: "EQU" 
     
     **SRI:** "EQU, Contact Sydney Departures on 129.7.
-	**EQU:** "129.7, EQU" 
-	*...*
-	**EQU:** "Sydney Departures, EQU."
-	**SDS:** "EQU, Sydney Departures. Cleared to YWLM via TESAT, flight planned route. Climb to F170"  
+    **EQU:** "129.7, EQU" 
+    *...*
+    **EQU:** "Sydney Departures, EQU."
+    **SDS:** "EQU, Sydney Departures. Cleared to YWLM via TESAT, flight planned route. Climb to F170"  
     **EQU:** "Cleared to YWLM via TESAT, flight planned route. Climb to F170, EQU"
 
 !!! phraseology
@@ -531,17 +531,17 @@ Upon receipt of the heads-up coordination from SRI, the SY TCU controller has se
     <span class="hotline">**SDS** -> **SRI**</span>: "EQU remain outside Class C airspace, expect 10 minute delay."  
     <span class="hotline">**SRI** -> **SDS**</span>: "Remain outside Class C airspace, expect 10 minute delay, EQU."
    
-	**SRI:** "EQU, remain outside Class C airspace, expect 10 minute delay."
-	**EQU:** "Remain outside Class C airspace, copy, EQU"
+    **SRI:** "EQU, remain outside Class C airspace, expect 10 minute delay."
+    **EQU:** "Remain outside Class C airspace, copy, EQU"
 
     <span class="hotline">**SDS** -> **SRI**</span>: "EQU to contact me."  
     <span class="hotline">**SRI** -> **SDS**</span>: "EQU to contact you."
-	
+    
     **SRI:** "EQU, Contact Sydney Departures on 129.7.
-	**EQU:** "129.7, EQU" 
-	*...*
-	**EQU:** "Sydney Departures, EQU."
-	**SDS:** "EQU, Sydney Departures. Cleared to YWLM via TESAT, flight planned route. Climb to F170"  
+    **EQU:** "129.7, EQU" 
+    *...*
+    **EQU:** "Sydney Departures, EQU."
+    **SDS:** "EQU, Sydney Departures. Cleared to YWLM via TESAT, flight planned route. Climb to F170"  
     **EQU:** "Cleared to YWLM via TESAT, flight planned route. Climb to F170, EQU"
 
 ##### Leaving CTA
