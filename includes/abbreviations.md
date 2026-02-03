@@ -381,3 +381,7 @@
 *[OFTA]: Oakey Flying Training Area
 *[FTAs]: Flying Training Areas
 *[RTB]: Return To Base
+*[WSM]: West Arm
+*[TCH]: Talc Head
+*[WOW]: White Onion Water Tower
+*[LPT]: Lee Point
