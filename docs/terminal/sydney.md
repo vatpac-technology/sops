@@ -507,26 +507,42 @@ Refer to [Sydney TCU Airspace Division](#airspace-division) for more information
 
 #### Between SRI and APP/DEP/DIR
 ##### Entering CTA
-Heads-up coordination is required for **all aircraft** entering SY TCU Class C from SRI Class G. Heads-up coordination must be completed prior to handoff, however, best practice is to complete the coordination as soon as possible, ie, as soon as the aircraft enters SRI airspace, or as soon as it becomes identified after departure from an aerodrome within 45nm SY.
+Heads-up coordination is required for **all aircraft** entering SY TCU Class C from SRI Class G. Heads-up coordination must be completed prior to handoff, however, best practice is to complete the coordination as soon as possible.
 
 Upon receipt of the heads-up coordination from SRI, the SY TCU controller has several options:
 
-- Concur the requested level
-- Concur an interim level
-- "Remain outside Class C airspace, expect no delay"
+- Acknowledge the callsign, in preparation for a handoff to provide clearance.
 - "Remain outside Class C airspace, expect XX minute delay" - *Useful if it's busy*
 - "I'll call you back" - *Useful if the SY TCU controller hasn't had time to assess the aircraft yet*
 
 !!! phraseology
     <span class="hotline">**SRI** -> **SDS**</span>: "Departed YSHL, EQU"  
-    <span class="hotline">**SDS** -> **SRI**</span>: "EQU, F170"  
-    <span class="hotline">**SRI** -> **SDS**</span>: "F170, EQU"  
+    <span class="hotline">**SDS** -> **SRI**</span>: "EQU" 
     
-    **SRI:** "EQU, Cleared to YWLM via TESAT, flight planned route. Climb to F170"  
-    **EQU:** "Cleared to YWLM via TESAT, flight planned route. Climb to F170, EQU"  
-    *(Approaching SRI/SDS sector boundary)*  
-    **SRI:** "EQU, Contact Sydney Departures 129.7"  
-    **EQU:** "129.7, EQU" 
+    **SRI:** "EQU, Contact Sydney Departures on 129.7.
+	**EQU:** "129.7, EQU" 
+	*...*
+	**EQU:** "Sydney Departures, EQU."
+	**SDS:** "EQU, Sydney Departures. Cleared to YWLM via TESAT, flight planned route. Climb to F170"  
+    **EQU:** "Cleared to YWLM via TESAT, flight planned route. Climb to F170, EQU"
+
+!!! phraseology
+    <span class="hotline">**SRI** -> **SDS**</span>: "Departed YSHL, EQU"  
+    <span class="hotline">**SDS** -> **SRI**</span>: "EQU remain outside Class C airspace, expect 10 minute delay."  
+    <span class="hotline">**SRI** -> **SDS**</span>: "Remain outside Class C airspace, expect 10 minute delay, EQU."
+   
+	**SRI:** "EQU, remain outside Class C airspace, expect 10 minute delay."
+	**EQU:** "Remain outside Class C airspace, copy, EQU"
+
+    <span class="hotline">**SDS** -> **SRI**</span>: "EQU to contact me."  
+    <span class="hotline">**SRI** -> **SDS**</span>: "EQU to contact you."
+	
+    **SRI:** "EQU, Contact Sydney Departures on 129.7.
+	**EQU:** "129.7, EQU" 
+	*...*
+	**EQU:** "Sydney Departures, EQU."
+	**SDS:** "EQU, Sydney Departures. Cleared to YWLM via TESAT, flight planned route. Climb to F170"  
+    **EQU:** "Cleared to YWLM via TESAT, flight planned route. Climb to F170, EQU"
 
 ##### Leaving CTA
 Heads-up coordination is not required from a SY TCU position to SRI for aircraft:
