@@ -79,7 +79,7 @@ VFR helicopters are generally processed via by the TALC HEAD Inbound route.  IFR
 !!! phraseology
     **QRS:** "Darwin Tower, helicopter QRS, WSM, `A005`, received Tango, request Talc Head Inbound"  
     **DN ADC:** "QRS, Darwin Tower, cleared Talc Head Inbound, report at WOW."  
-    **QRS:** "Talc Head Inbound, QRS"  
+    **QRS:** "Cleared Talc Head Inbound, QRS"  
 
 ### Hospital Helipads
 The Darwin CTR contains the helipad at the Royal Darwin Hospital (YXDH). This pad sits outside the manoeuvring area, so no takeoff or landing clearances should be issued. Instead, helicopters should be instructed to report airborne or report on the ground.
