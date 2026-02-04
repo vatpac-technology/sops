@@ -30,44 +30,49 @@ The Primary Communication Method for ARL is Voice. [CPDLC](../../../client/cpdlc
 ### Reclassifications
 === "TW CTR"
 	When **TW ADC** is offline, TW CTR (Class D and C `SFC` to `A085`) reverts to Class G, and is administered by ARL. Alternatively, ARL may provide a [top-down procedural service](../../../aerodromes/procedural/Tamworth) if they wish (not recommended).  
-
-	!!! tip
-		If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+    
+    !!! tip
+        If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
 === "CFS CTR"
 	When **CFS ADC** is offline, CFS CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by MNN and INL.
 
 	!!! note
 		MNN does not assume the CFS CTR in the absence of a CFS ADC controller. Assumption of the CFS CTR is the responsibility of INL. Controllers may choose to verbally coordinate the release of the CFS CTR to either sector/subsector.
+    
+    !!! tip
+        If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
 === "WLM CTR"
 	When **WLM TCU** is offline, WLM MIL CTR (Class C `SFC` to `A065`) reverts to Class G, and WLM MIL CTR (Class C `A065` to `F125`) reverts to Class E. This airspace is administered by the appropriate ARL subsector. Alternatively, ARL(MLD) may provide a [top-down service](../../../terminal/williamtown) if they wish.  
 
-	!!! tip
-		If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+    !!! tip
+        If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
+
 
 ## Departure and Arrival Procedures
 
 ### YCFS
-[Coffs Harbour (YCFS)](../../../terminal/Coffs) lies under the INL/MNN boundary. MNN is responsible for issuing descent to aircraft arriving YCFS from 
+[Coffs Harbour (YCFS)](../../../terminal/Coffs) lies under the INL/MNN boundary. MNN is responsible for issuing descent to aircraft arriving into YCFS from the south.
 
 #### Sequencing
 MNN and INL share a joint responsibility to build the final sequence of arrivals into YCFS when the tower is open. Coordination with INL should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
 
 ### YSSY
 #### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
+
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
-| ARL  | BOREE | Jet      | Descent not below `F250` |
-|      | MEPIL | Non-Jet  | Descent not below `F250` |
+| ARL  | BOREE<br>MEPIL | Jet<br>Non-Jet  | Descent not below `F250`<br>Descent not below `F250` |
 | OCN  | MARLN | All      |       |
 
-!!! tip
-    Whilst the preference is to keep jet/non-jet aircraft assigned the default STAR as above, there are situations where the sequence may be improved by assigning the adjacent STAR (e.g. a jet assigned the MEPIL STAR). This is most common when assigning the alternate runway to an arrival.  
-    
-    Either **SY TCU** or **ARL** may propose utilising the adjacent STAR where two aircraft with significantly different cruise/descent speeds will be required to overtake or pass abeam each other to achieve a sequenced landing time, or if assigned different runways. This technique can allow aircraft to be processed for different runways independently with minimal delay by using the built-in separation afforded by the STAR height requirements.  
+Arrivals from the north shall be given initial descent to not below `F250`. **CNK** will issue final descent.
 
-    In this case, coordination should be conducted to ensure that both controllers agree and no additional conflicts are created as a result (particularly with aircraft inbound from the south/west).
+!!! tip
+    During periods of high traffic flow from the north, it may be beneficial to issue an aircraft with the adjacent STAR (e.g. a jet assigned the MEPIL STAR).  This is most common when assigning the alternate runway to an arrival.  
+    
+    Either **SY TCU** or **ARL** may propose utilising the adjacent STAR where two aircraft with significantly different cruise/descent speeds will be required to overtake or pass abeam each other to achieve a sequenced landing time, or if assigned different runways. This technique can allow aircraft to be processed for different runways independently with minimal delay by using the built-in separation afforded by the STAR height requirements.
 
 !!! phraseology
     **ARL:** "RXA6417, amended tracking and STAR clearance available"  
@@ -132,7 +137,8 @@ ARL and MDE are responsible for issuing descent.
 ARL and MDE share a joint responsibility to build the final sequence of arrivals into YSTW when the tower is open. Coordination should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
 
 ### YWLM
-#### Sector Responsibilities
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
 
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
