@@ -77,7 +77,7 @@ DN ACD will issue airways clearance for all helicopters, including those on a he
 VFR helicopters are generally processed via by the TALC HEAD Inbound route.  IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway.
 
 !!! phraseology
-    **QRS:** "Darwin Tower, helicopter QRS, WSM, A005, received Tango, request Talc Head Inbound"  
+    **QRS:** "Darwin Tower, helicopter QRS, WSM, `A005`, received Tango, request Talc Head Inbound"  
     **DN ADC:** "QRS, Darwin Tower, cleared Talc Head Inbound, report at WOW."  
     **QRS:** "Talc Head Inbound, QRS"  
 
