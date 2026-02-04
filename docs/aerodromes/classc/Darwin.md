@@ -43,7 +43,7 @@ VFR aircraft arriving via LPT may be cleared for a visual approach via a **'Marr
 !!! phraseology
     **DN ADC:** "ZYX, cleared visual approach via Marrara Downwind, Runway 11"
 
-## VFR Operations
+## VFR Departures
 VFR aircraft are required to track via one of the published VFR Routes (as shown on the Darwin VTC). VFR routes shall be assigned based on the destination radial from Darwin, as per below:  
 
 | Outbound Radial | Route | Outbound     | Inbound | 
