@@ -56,7 +56,7 @@ VFR aircraft are required to track via one of the published VFR Routes (as shown
 
 
 !!! tip
-    If a VFR aircraft has not planned via a VFR route as above, use the phraseology: “*ABC, cleared amended route VFR route 1, climb to A020, squawk 4512*”
+    If a VFR aircraft has not planned via a VFR route as above, use the phraseology: “*ABC, cleared amended route VFR route 1, climb to `A020`, squawk 4512*”
 
 ## Helicopter Operations
 VFR helicopters are generally processed via the TALC HEAD Helicopter route. There is both an inbound and outbound route. This route is delivered as a coded clearance designed to separate helicopters from fixed-wing aircraft.  
