@@ -57,7 +57,7 @@ Coded Clearances are available inbound and outbound from the AMB TMA to provided
   <figcaption>YAMB Coded Clearances</figcaption>
 </figure>
 
-### Inbound
+##### Arrivals
 Fast jet aircraft leaving offshore SUA or arriving to YAMB from the east shall be cleared via one of the following coded clearances.
 
 | Sector | Arrival | Type | Notes |
@@ -68,7 +68,18 @@ Fast jet aircraft leaving offshore SUA or arriving to YAMB from the east shall b
 
 !!! phraseology
     *CRNG21 plans to depart M649 and return to YAMB.*  
-    **SDY**: "CRNG21, cleared to YAMB via VIRGE thence CENTRAL 4, maintain `F200`" 
+    **SDY**: "CRNG21, cleared to YAMB via VIRGE thence CENTRAL 4, maintain `F200`"
+
+##### Departures
+High performance military jet aircraft with planned operations in offshore SUA, or intending to depart to the east, will be assigned a Coded Clearance departure.
+
+Each coded clearance includes altitude restrictions which can be used to facilitate separation with civilian traffic.
+
+| Departure  | Initial Constraint    | Secondary Constraint  |
+| ---------- | --------------------- | --------------------- |
+| Northern 5 | Cross BINUP at `F190` | Cross MURJO at `F260` |
+| Central 5  | Cross BINUP at `F190` | Cross MURJO at `F260` |
+| Byron 1    | Cross COWIE at `F190` | Cross KIWEE at `F260` | 
 	
 ### YBBN
 #### STAR Assignment
