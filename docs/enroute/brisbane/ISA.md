@@ -29,9 +29,13 @@ The Primary Communication Method for ISA is [CPDLC](../../../client/cpdlc). Voic
 
 ISA is responsible for **ARA**, **STR**, and **WEG** when they are offline.  
 
-## Extending
+#### Extending
 !!! warning "Important"
-    Due to the large geographical area covered by this sector and it's neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
+    Due to the large geographical area covered by this sector and its neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
+	
+### Reclassifications
+=== "SG CTR"
+	When **SG TCU** is offline, SG MIL CTR and associated restricted airspace reverts to Class G, and is administered by ARA.
 
 
 ## Departure and Arrival Procedures
