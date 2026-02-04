@@ -17,6 +17,9 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
+### CPDLC
+The Primary Communication Method for ISA is [CPDLC](../../../client/cpdlc). Voice may be used in lieu when applicable. The CPDLC Station Code is `YISA`.
+
 ## Airspace
 
 <figure markdown>
@@ -30,16 +33,16 @@ ISA is responsible for **ARA**, **STR**, and **WEG** when they are offline.
 !!! warning "Important"
     Due to the large geographical area covered by this sector and it's neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
 
-### CPDLC
-The Primary Communication Method for ISA is [CPDLC](../../../client/cpdlc).
 
-The CPDLC Station Code is `YISA`.
+## Departure and Arrival Procedures
 
-Voice may be used in lieu when applicable.
+### YBSG
+#### Sequencing
+All sequencing is performed by ARA.
 
-## Sector Responsibilities
-ISA and its subsectors are purely Classes A, E and G of airspace. [Standard separation procedures](../../../separation-standards) apply.
-ARA is responsible for sequencing and issuing descent to aircraft bound for YBSG.
+<!-- ## Special Use Airspace 
+### Restricted Areas
+-->
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -47,7 +50,7 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| ARA | TRT | YPDN | |
+| ARA | TRT(TRS) | YPDN | |
 | ARA, ISA | KEN(BAR, KEN) | YBCS | |
 | ISA | KEN(TBP) | YBTL | |
 
