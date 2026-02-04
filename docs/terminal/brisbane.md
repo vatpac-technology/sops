@@ -35,7 +35,7 @@ If BN TCU elects not to provide top-down to YBCG, The CG CTR Class C airspace `S
 See also: [CG ADC Offline](#cg-adc-offline).
 
 !!! tip
-    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+    If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
 ### Airspace Division
 The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **BAC** change based on the Runway Mode.
@@ -102,7 +102,7 @@ Aircraft from the north/west are assigned 01L/19R and aircraft from the south/ea
 ### Gold Coast Arrivals
 Visual approaches are preferred into YBCG. If due to operational requirements, an aircraft is unable to accept a visual approach, coordination with CG ADC may be required.
 
-There is no STAR available to facilitate aircraft arriving from the north west. These aircraft should be instructed to track `BN Y177 IDRIL NOPAS GOMOL`. Aircraft will then be given further instructions by BAC according to the runway in use.
+There is no STAR available to facilitate aircraft arriving from the north west. INL(BUR/NSA) will instruct these aircraft `BN Y177 IDRIL NOPAS GOMOL` prior to handoff to BN TCU, who will then facilitate further descent. Aircraft will then be given further instructions by BAC according to the runway in use.
 
 | Runway | Routing      |
 | ------ | ------------ |
@@ -370,7 +370,7 @@ Voiceless for all aircraft:
 	- Assigned `A090`.
 - With ADES **YBCG**:
 	- Assigned a STAR, and assigned `F130`; or
-	- Tracking via **BN**, and assigned `F190`.
+	- Tracking via **`BN Y177 IDRIL NOPAS GOMOL`**, and assigned `F190`.
 
 All other aircraft coming from INL CTA will be **Heads-up** Coordinated to BN TCU.
 
