@@ -45,6 +45,11 @@ Control authority of the **R470** Restricted Area when active is as follows:
 - RI ADC `SFC`-`A015`
 - SY TCU (SDN) `A015`-`A045`
 
+!!! note
+    Depending on the YSSY runway mode, R470 will overlap with the jurisdiction of surrounding TCU positions. **SDN** is ultimately responsible for aircraft into/out of YSRI and should coordinate with any surrounding controllers to establish any restrictions. 
+    
+    Preference should be given to keeping the aircraft on the SDN frequency where possible, rather than handing them to neighbouring TCU sectors in close proximity to YSRI. 
+
 ### Airspace Division
 The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW** and **SFE** change based on the Runway Mode.
 
