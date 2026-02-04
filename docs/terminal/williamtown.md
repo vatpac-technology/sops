@@ -29,11 +29,6 @@ WLM TCU owns the airspace within the WLM MIL CTR `SFC` to `F125`.
 
 **WLM-H_APP** owns the airspace above  `F125` when activated by ad-hoc release or NOTAM.
 
-<figure markdown>
-![WLM TCU Airspace](img/wlm_tcu.png){ width="700" }
-  <figcaption>WLM TCU Airspace</figcaption>
-</figure>
-
 !!! note
     It is the responsibility of the WLM TCU controller(s) to negotiate any airspace releases with ARL.
 

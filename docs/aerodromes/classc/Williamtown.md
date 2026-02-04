@@ -130,11 +130,6 @@ The Standard Assignable level from WLM ADC to WLM TCU is:
 | ------- | ----- |
 | All | The lower of `F120` and `RFL` |
 
-#### Departures Controller
-Where a single TCU controller is operating the WLM TMA, the departures controller shall be **WLM_APP** (frequency 133.300).
-
-Where the non-standard **WLM-L_APP** sector is online, they shall be the departures controller (frequency 135.700).
-
 ### Arrivals/Overfliers
 Voiceless coordination is in place from WLM TCU to WLM ADC for arrivals cleared for an approach on to a runway nominated on the ATIS. All other aircraft and all overfliers must be heads-up coordinated as soon as practical.
 
