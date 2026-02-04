@@ -91,7 +91,6 @@ Aircraft from the north/east shall be assigned **runway 16L/34R** during PROPS. 
     <span class="hotline">**BIK** -> **ARL**</span>: "Concur, CPA21 runway 34L, required landing time 43 due sequence from the west"  
     <span class="hotline">**ARL** -> **BIK**</span>: "Runway 34L, landing time 43, CPA21"
 
-
 ##### Adjacent Feeder Fixes
 Aircraft assigned the **same runway** inbound via **BOREE** and **MEPIL**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
@@ -260,30 +259,6 @@ That being said, due to their small sizes and frequent random-track traffic, it 
 - CNK to MLD for all aircraft  
 - MLD to CNK for all aircraft
 
-### TW ADC
-#### Airspace
-TW ADC is responsible for the Class D airspace in the TW CTR `SFC` to `A045`, as well as the Class C airspace between `A045` and `A065`.
-
-Refer to [Reclassifications](#tw-ctr) for operations when TW ADC is offline.
-
-#### Departures
-[Next](../../controller-skills/coordination.md#next) coordination is required from TW ADC to ARL/MDE for all aircraft **entering ARL/MDE CTA**.
-
-The Standard Assignable level from **TW ADC** to **ARL/MDE** is:
-
-| Aircraft | Level |
-| ---- | ---- |
-| All | The lower of `A070` and `RFL` |
-
-#### Arrivals/Overfliers
-YSTW arrivals shall be heads-up coordinated to **TW ADC** from ARL/MDE prior to **5 mins** from the boundary.
-
-!!! phraseology
-    <span class="hotline">**ARL** -> **TW ADC**</span>: "QLK6D, via MATLA DCT STWWD"  
-    <span class="hotline">**TW ADC** -> **ARL**</span>: "QLK6D"  
-
-The Standard Assignable level from ARL/MDE to **TW ADC** is `A080`, any other level must be prior coordinated.
-
 ### CFS ADC
 #### Airspace
 CFS ADC is responsible for the Class D airspace in the CFS CTR `SFC` to `A045`.
@@ -309,6 +284,30 @@ YCFS arrivals shall be heads-up coordinated to **CFS ADC** from MNN prior to **5
     <span class="hotline">**CFS ADC** -> **MNN**</span>: "RXA6438"  
 
 The Standard Assignable level from MNN to **CFS ADC** is `A080`, any other level must be prior coordinated.
+
+### TW ADC
+#### Airspace
+TW ADC is responsible for the Class D airspace in the TW CTR `SFC` to `A045`, as well as the Class C airspace between `A045` and `A065`.
+
+Refer to [Reclassifications](#tw-ctr) for operations when TW ADC is offline.
+
+#### Departures
+[Next](../../controller-skills/coordination.md#next) coordination is required from TW ADC to ARL/MDE for all aircraft **entering ARL/MDE CTA**.
+
+The Standard Assignable level from **TW ADC** to **ARL/MDE** is:
+
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A070` and `RFL` |
+
+#### Arrivals/Overfliers
+YSTW arrivals shall be heads-up coordinated to **TW ADC** from ARL/MDE prior to **5 mins** from the boundary.
+
+!!! phraseology
+    <span class="hotline">**ARL** -> **TW ADC**</span>: "QLK6D, via MATLA DCT STWWD"  
+    <span class="hotline">**TW ADC** -> **ARL**</span>: "QLK6D"  
+
+The Standard Assignable level from ARL/MDE to **TW ADC** is `A080`, any other level must be prior coordinated.
 
 ### WLM TCU
 #### Airspace
