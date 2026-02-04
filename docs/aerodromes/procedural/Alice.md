@@ -40,9 +40,9 @@ Alice Springs has 10 VFR routes that follow prominent geographic features and hi
 </figure>
 
 !!! phraseology 
-    **SDA**: "Alice Tower, Cirrus SDA, DPW, A065, inbound, received J, request clearance"  
-    **AS ADC**: "SDA, Alice Tower, cleared to Alice Springs, via VFR Route 5, maintain A065"  
-    **SDA**: "Cleared to Alice Springs, via VFR Route 5, maintain A065, SDA"  
+    **SDA**: "Alice Tower, Cirrus SDA, DPW, `A065`, inbound, received J, request clearance"  
+    **AS ADC**: "SDA, Alice Tower, cleared to Alice Springs via VFR Route 5, maintain `A065`"  
+    **SDA**: "Cleared to Alice Springs via VFR Route 5, maintain `A065`, SDA"  
 
 !!! tip
     You can find details of all VFR Routes on the [Alice Springs / Uluru VTC](https://www.airservicesaustralia.com/aip/aip.asp){target=new}.
