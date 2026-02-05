@@ -32,6 +32,9 @@ The Primary Communication Method for ARL is Voice. [CPDLC](../../../client/cpdlc
 	When **AMA** is offline, the AMB MIL CTR and associated restricted airspace is deactivated, and the airspace is administered by DOS.
 	
 	When **OKA** is offline, the OK MIL CTR and associated restricted airspace is deactivated, and the airspace is administered by DOS.
+	
+	!!! tip
+        When either AMA or OKA is offline, consider publishing a pre-formatted **ATIS Zulu** for their respective aerodromes, to inform pilots about the airspace reclassification.
 
 === "CFS CTR"
 	When **CFS ADC** is offline, CFS CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by MNN and INL.

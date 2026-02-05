@@ -36,6 +36,9 @@ ISA is responsible for **ARA**, **STR**, and **WEG** when they are offline.
 ### Reclassifications
 === "SG CTR"
 	When **SG TCU** is offline, SG MIL CTR and associated restricted airspace reverts to Class G, and is administered by ARA.
+	
+	!!! tip
+        Consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
 
 ## Departure and Arrival Procedures
