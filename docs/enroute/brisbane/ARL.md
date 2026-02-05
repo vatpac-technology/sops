@@ -28,17 +28,22 @@ The Primary Communication Method for ARL is Voice. [CPDLC](../../../client/cpdlc
 </figure>
 
 ### Reclassifications
-=== "TW CTR"
-	When **TW ADC** is offline, TW CTR (Class D and C `SFC` to `A085`) reverts to Class G, and is administered by ARL. Alternatively, ARL may provide a [top-down procedural service](../../../aerodromes/procedural/Tamworth) if they wish (not recommended).  
-    
-    !!! tip
-        If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
+=== "AMB/OK CTR"
+	When **AMA** is offline, the AMB MIL CTR and associated restricted airspace is deactivated, and the airspace is administered by DOS.
+	
+	When **OKA** is offline, the OK MIL CTR and associated restricted airspace is deactivated, and the airspace is administered by DOS.
 
 === "CFS CTR"
 	When **CFS ADC** is offline, CFS CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by MNN and INL.
 
 	!!! note
 		MNN does not assume the CFS CTR in the absence of a CFS ADC controller. Assumption of the CFS CTR is the responsibility of INL. Controllers may choose to verbally coordinate the release of the CFS CTR to either sector/subsector.
+    
+    !!! tip
+        If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
+
+=== "TW CTR"
+	When **TW ADC** is offline, TW CTR (Class D and C `SFC` to `A085`) reverts to Class G, and is administered by ARL. Alternatively, ARL may provide a [top-down procedural service](../../../aerodromes/procedural/Tamworth) if they wish (not recommended).  
     
     !!! tip
         If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
