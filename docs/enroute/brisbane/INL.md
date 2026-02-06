@@ -219,6 +219,12 @@ BUR, GOL and SDY are responsible for initial sequencing for aircraft arriving fr
 
 Coordination with KPL should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
 
+### YCFS
+[Coffs Harbour (YCFS)](../../../terminal/Coffs) lies under the INL/ARL(MNN) boundary. INL is responsible for issuing descent to aircraft arriving into YCFS from the north.
+
+#### Sequencing
+INL and ARL(MNN) share a joint responsibility to build the final sequence of arrivals into YCFS when the tower is open. Coordination with ARL(MNN) should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
+
 <!-- ## Special Use Airspace 
 ### Restricted Areas
 -->
