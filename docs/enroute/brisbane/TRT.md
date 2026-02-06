@@ -5,16 +5,20 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | -------- |
-| **Territory North** | **Brisbane Centre** | **123.850** | **BN-TRT_CTR** |
-| <span class="indented">Territory South :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 133.200 | BN-TRS_CTR |
-| <span class="indented">Ashmore :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 133.400 | BN-ASH_CTR |
-| <span class="indented">Kimberley :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 132.100 | BN-KIY_CTR |
+| Name                | ID      | Callsign            | Frequency   | Login ID       |
+| ------------------- | ------- | ------------------- | ----------- | -------------- |
+| **Territory North** | **TRT** | **Brisbane Centre** | **123.850** | **BN-TRT_CTR** |
+| <span class="indented">Territory South :material-information-outline:{ title="Non-standard position"} | TRS | Brisbane Centre | 133.200 | BN-TRS_CTR |
+| <span class="indented">Ashmore :material-information-outline:{ title="Non-standard position"}         | ASH | Brisbane Centre | 133.400 | BN-ASH_CTR |
+| <span class="indented">Kimberley :material-information-outline:{ title="Non-standard position"}       | KIY | Brisbane Centre | 132.100 | BN-KIY_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
+
+### CPDLC
+The Primary Communication Method for TRT is [CPDLC](../../../client/cpdlc). Voice may be used in lieu when applicable. The CPDLC Station Code is `YTRT`.
+
 
 ## Airspace
 
@@ -25,46 +29,61 @@
 
 TRT is responsible for **TRS**, **ASH**, and **KIY**,  when they are offline.  
 
-### Reclassifications
-#### BRM CTR
-When **BRM ADC** is offline, BRM CTR (Class D/E `SFC` to `A055`) reverts to Class G, and is administered by ASH. Alternatively, ASH may provide a [top-down procedural service](../../../aerodromes/Broome) if they wish.
-
-!!! tip
-    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
-
-#### TN TCU
-TN TCU being online will activate the following Airspace by default:
-
-- TN MIL CTR `SFC`-`A025`
-- R249A `A015`-`A025`
-- R249B `A025`-`F190`
-- R238 `A035`-`F190`
-
-All of which are reclassified as **Class C** when active, and TN APP has Control Authority of.
-
-!!! note
-    TN APP may negotiate with TRS for an increase to the upper limit of the Restricted Areas and their airspace, if required for military operations. This limit may also be changed by NOTAM.
-
-## Extending
+#### Extending
 !!! warning "Important"
-    Due to the large geographical area covered by this sector and it's neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
-    
-### CPDLC
-The Primary Communication Method for TRT is [CPDLC](../../../client/cpdlc).
+    Due to the large geographical area covered by this sector and its neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
 
-The CPDLC Station Code is `YTRT`.
+### Reclassifications
+=== "BRM CTR"
+	When **BRM ADC** is offline, BRM CTR (Class D/E `SFC` to `A055`) reverts to Class G, and is administered by ASH. Alternatively, ASH may provide a [top-down procedural service](../../../aerodromes/Broome) if they wish.
 
-Voice may be used in lieu when applicable.
+	!!! tip
+			If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
-## Sector Responsibilities
-### YPDN Arrivals
-TRT and TRS are responsible for sequencing, issuing STAR Clearances, and issuing descent.
+=== "CIN TCU"
+	When **TN TCU** is offline the CIN MIL CTR and associated restricted airspace is deactivated, and the airspace is administered by ASH.
 
-### YBRM Arrivals
-ASH is responsible for issuing descent.
+	!!! tip
+        Consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
-### YCIN Arrivals
-ASH is responsible for issuing descent.
+=== "TN TCU"
+	When **TN TCU** is offline the TN MIL CTR and associated restricted airspace is deactivated, and the airspace is administered by TRS.
+
+	!!! tip
+        Consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
+
+## Departure and Arrival Procedures
+### YBRM
+#### Sequencing
+All sequencing is performed by ASH.
+
+### YCIN
+#### Sequencing
+All sequencing is performed by ASH.
+
+### YPDN
+#### STAR Clearance
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| TRT  | ANUPA<br>WANGI | All   | |
+| TRS  | GATOR<br>VEGPU | All   | Descent not below `F200` until clear of TN TCU |
+
+#### Sequencing
+TRT is responsible for sequencing aircraft arriving from the north/west. TRS is responsible for sequencing aircraft arriving from the south/east. Coordination between TRT/TRS should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
+
+##### LAHSO
+!!! warning "Important"
+    Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
+
+In accordance with the authorisation requirements above, YPDN may utilise LAHSO during exceptionally busy events. Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../../controller-skills/runwaymanagement/#lahso) for more information.
+
+### YPTN
+#### Sequencing
+All sequencing is performed by TRS.
+
+<!-- ## Special Use Airspace 
+### Restricted Areas
+-->
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -73,19 +92,6 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
 | ASH, KIY | TRT, TRS | YPDN | |
-
-### First Contact
-Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
-
-| Transferring Sector | Receiving Sector | ADES | Notes |
-| ---- | -------- | --------- | --------- |
-| KIY, ASH, ISA(ARA/STR) | TRT, TRS | YPDN | |
-
-### LAHSO
-!!! warning "Important"
-    Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
-
-In accordance with the authorisation requirements above, YPDN may utilise LAHSO during exceptionally busy events. Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../../controller-skills/runwaymanagement/#lahso) for more information.
 
 ## Terminal Handover Frequencies
 Aircraft being transferred from enroute to a TCU with multiple frequencies shall be given the frequency for the revelant TCU position.
