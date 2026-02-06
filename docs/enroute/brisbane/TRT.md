@@ -38,7 +38,7 @@ TRT is responsible for **TRS**, **ASH**, and **KIY**,  when they are offline.
 	When **BRM ADC** is offline, BRM CTR (Class D/E `SFC` to `A055`) reverts to Class G, and is administered by ASH. Alternatively, ASH may provide a [top-down procedural service](../../../aerodromes/Broome) if they wish.
 
 	!!! tip
-			If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
+		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
 === "CIN TCU"
 	When **TN TCU** is offline the CIN MIL CTR and associated restricted airspace is deactivated, and the airspace is administered by ASH.
