@@ -39,9 +39,9 @@ BAR is responsible for the [CS TCU](../../../terminal/cairns) when **CS TCU** is
 ## Departure and Arrival Procedures
 ### YBCS
 #### STAR Assignment
-YBCS has specific visual approach procedures for use when VMC exists below `A030` in the terminal area. As such, **light & medium category aircraft (B737/A320 and below)**, tracking via the following waypoints, shall be issued the relevant Victor STAR.
+YBCS has specific visual approach procedures for use when VMC exists below `A030` in the terminal area. As such, **light & medium category aircraft (B737/A320 and below)** shall be issued the relevant Victor STAR.
 
-Heavy aircraft, and any aircraft not meeting the criteria below, must be issued the Instrument STAR.
+Heavy aircraft must be issued the Instrument STAR.
 
 !!! note
     Due to the complex nature of the visual procedures, it may be helpful to ask inexperienced pilots if they are familiar with the Creek Corridor (runway 15) or are able to accept a visual circuit (runway 33), and otherwise issue the Instrument STAR.
