@@ -32,6 +32,14 @@ GOL is responsible for the [BN TCU](../../../terminal/brisbane) when **BN TCU** 
 INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, and **NSA** when they are offline.  
 
 ### Reclassifications
+=== "AMB/OK CTR"
+	When **AMA** is offline, the AMB MIL CTR and associated restricted airspace is deactivated, and the airspace is administered by DOS.
+	
+	When **OKA** is offline, the OK MIL CTR and associated restricted airspace is deactivated, and the airspace is administered by DOS.
+	
+	!!! tip
+        When either AMA or OKA is offline, consider publishing a pre-formatted **ATIS Zulu** for their respective aerodromes, to inform pilots about the airspace reclassification.
+
 === "SU CTR"
 	When **SU ADC** is offline, SU CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by NSA and BUR. Alternatively, NSA may provide a [top-down procedural service](../../../aerodromes/Sunshinecoast) if they wish (not recommended), and this must be coordinated to BUR.
 
