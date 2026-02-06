@@ -60,6 +60,8 @@ Heavy aircraft, and any aircraft not meeting the criteria below, must be issued 
 	| KEN  | HENDO<br>TOTTY | All   | INST APCH<br>RNP-W |
 	| TBP  | HENDO<br>TOTTY | All   | Descent not below `F190` |
 
+Arrivals from the south shall be given initial descent to not below `F190`. **KEN** will issue final descent.
+
 ##### Adjacent Feeder Fixes
 Aircraft assigned the **same runway** inbound via:
 
@@ -78,6 +80,8 @@ The following subsectors are responsible for issuing STAR clearance.
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
 | KEN  | IBUXI<br>IGIKI | All   | Descent not below `F190` |
+
+Arrivals from the north shall be given initial descent to not below `F190`. **TBP** will issue final descent.
 
 #### Sequencing
 KEN and TBP share responsbility for initial sequencing for aircraft arriving from the north, east, and west. KPL(SWY) is responsible for initial sequencing for aircraft arriving from the south. Final sequencing actions are performed by TBP.

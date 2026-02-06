@@ -98,7 +98,9 @@ The following subsectors are responsible for issuing STAR clearance.
 | BUR  | SMOKA<br>MORBI | All |       |
 | DOS  | ENLIP<br>WOODY<br>ISPON [(SODPROPS)](#sodprops) | All |       |
 | INL  | BLAKA<br>GOMOL<br>ISPON [(SODPROPS)](#sodprops) | All | Descent not below `F190` |
-| SDY  | TEBOT<br>UGTUB | All |       |
+| SDY  | TEBOT<br>UGTUB | All |       
+
+Arrivals from the south shall be given initial descent to not below `F190`. **GOL** will issue final descent.
 
 ##### Runway Assignment
 When operating a PROPS Runway Mode, Aircraft shall be assigned the appropriate 'Alpha' STAR (or other STAR on pilot request), with the following runway selection:
@@ -190,6 +192,8 @@ The following subsectors are responsible for issuing STAR clearance.
 | NSA  | [No^](#arrivals-via-bn)   |     | Descent not below `F190` |
 | SDY  | LAMSI | All |       |
 
+Arrivals from the north shall be given initial descent to not below `F190`. **BN TCU** will issue final descent.
+
 Arrivals from other sectors should be issued with descent and tracking instructions appropriate for the runway configuration, following [coordination](#bn-tcu).
 
 ##### Arrivals via BN
@@ -221,6 +225,8 @@ The following subsectors are responsible for issuing STAR clearance.
 | SDY  | ITIDE | All |       |
 
 Arrivals from other sectors should be issued with descent and tracking instructions appropriate for the runway configuration, following [coordination](#su-adc).
+
+Arrivals from the south shall be given initial descent to not below `F130`. **NSA** will issue final descent.
 
 #### Sequencing
 BUR, GOL and SDY are responsible for initial sequencing for aircraft arriving from the east, west, and south. KPL is responsible for initial sequencing for aircraft arriving from the north/east. Final sequencing actions are performed by NSA.

@@ -56,6 +56,8 @@ The following subsectors are responsible for issuing STAR clearance.
 | KPL  | WELKE | All | Descent not below `F160` |
 | SWY  | DAGSI | All |  |
 
+Arrivals from the south shall be given initial descent to not below `F160`. **SWY** will issue final descent.
+
 ### YBRK
 #### STAR Clearance
 The following subsectors are responsible for issuing STAR clearance.
@@ -65,6 +67,8 @@ The following subsectors are responsible for issuing STAR clearance.
 | KPL  | DADBO | All | |
 | SWY  | ABVAS | All | Descent not below `F160` |
 
+Arrivals from the north shall be given initial descent to not below `F160`. **KPL** will issue final descent.
+
 ### YBSU
 #### STAR Clearance
 The following subsectors are responsible for issuing STAR clearance.
@@ -72,6 +76,8 @@ The following subsectors are responsible for issuing STAR clearance.
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
 | KPL  | REBEG | All | Descent not below `F190` |
+
+Arrivals from the north shall be given initial descent to not below `F190`. **INL (NSA)** will issue final descent.
 
 #### Sequencing
 KPL is responsible for initial sequencing for aircraft arriving from the north. Final sequencing actions are performed by INL(NSA). Coordination with INL(NSA) should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
@@ -83,6 +89,8 @@ The following subsectors are responsible for issuing STAR clearance.
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
 | SWY  | POROB<br>VOMPA | All   | Descent not below `F190` |
+
+Arrivals from the south shall be given initial descent to not below `F190`. **KEN (TBP)** will issue final descent.
 
 #### Sequencing
 SWY is responsible for initial sequencing for aircraft arriving from the south. Final sequencing actions are performed by KEN(TBP). Coordination with KEN(TBP) should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
