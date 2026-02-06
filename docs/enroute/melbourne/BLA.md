@@ -53,6 +53,8 @@ The following subsectors are responsible for issuing STAR clearance.
 | BLA  | JAYBI, ML Trans | Jet     | Descent not below `F250` |
 | ELW  | JAYBI, ML Trans | Non-Jet |       |
 
+Arrivals from the northeast shall be given initial descent to not below `F250`. **ELW** will issue final descent.
+
 #### Sequencing
 Sequencing arrivals from the northeast into YMAV is a joint responsibility of BLA and ELW. Initial sequencing actions for aircraft from the north should be performed by BLA, with fine tuning and any holding required issued by ELW.
 
@@ -75,6 +77,8 @@ The following subsectors are responsible for issuing STAR clearance.
 | ---- | ----- | -------- | ----- |
 | BLA  | BOOIN | Jet     | Descent not below `F250` |
 | ELW  | BOYSE | Non-Jet |       |
+
+Arrivals from the northeast shall be given initial descent to not below `F250`. **ELW** will issue final descent.
 
 #### Sequencing
 Sequencing arrivals from the northeast into YMML is a joint responsibility of BLA and ELW. Initial sequencing actions for aircraft from the north should be performed by BLA, with fine tuning and any holding required issued by ELW. 
