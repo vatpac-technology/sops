@@ -61,7 +61,7 @@ The Primary Communication Method for ARL is Voice. [CPDLC](../../../client/cpdlc
 ## Departure and Arrival Procedures
 
 ### YCFS
-[Coffs Harbour (YCFS)](../../../terminal/Coffs) lies under the INL/MNN boundary. MNN is responsible for issuing descent to aircraft arriving into YCFS from the south.
+[Coffs Harbour (YCFS)](../../../aerodromes/procedural/Coffs) lies under the INL/MNN boundary. MNN is responsible for issuing descent to aircraft arriving into YCFS from the south.
 
 #### Sequencing
 MNN and INL share a joint responsibility to build the final sequence of arrivals into YCFS when the tower is open. Coordination with INL should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
