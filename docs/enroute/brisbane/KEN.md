@@ -82,6 +82,10 @@ KEN and TBP share responsbility for initial sequencing for aircraft arriving fro
 
 Coordination with KPL(SWY) should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
 
+<!-- ## Special Use Airspace 
+### Restricted Areas
+-->
+
 ## STAR Clearance Expectation
 ### Handoff
 Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
