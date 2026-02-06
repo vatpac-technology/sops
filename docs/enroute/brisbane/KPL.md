@@ -48,7 +48,7 @@ KPL is responsible for **SWY** and **CVN** when they are offline.
 All sequencing is performed by SWY.
 
 ### YBMK
-#### STAR Clearance
+#### STAR Assignment
 The following subsectors are responsible for issuing STAR clearance.
 
 | Subsector | STAR | Type | Notes |
@@ -59,7 +59,7 @@ The following subsectors are responsible for issuing STAR clearance.
 Arrivals from the south shall be given initial descent to not below `F160`. **SWY** will issue final descent.
 
 ### YBRK
-#### STAR Clearance
+#### STAR Assignment
 The following subsectors are responsible for issuing STAR clearance.
 
 | Subsector | STAR | Type | Notes |
@@ -70,7 +70,7 @@ The following subsectors are responsible for issuing STAR clearance.
 Arrivals from the north shall be given initial descent to not below `F160`. **KPL** will issue final descent.
 
 ### YBSU
-#### STAR Clearance
+#### STAR Assignment
 The following subsectors are responsible for issuing STAR clearance.
 
 | Subsector | STAR | Type | Notes |
@@ -83,7 +83,7 @@ Arrivals from the north shall be given initial descent to not below `F190`. **IN
 KPL is responsible for initial sequencing for aircraft arriving from the north. Final sequencing actions are performed by INL(NSA). Coordination with INL(NSA) should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
 
 ### YBTL
-#### STAR Clearance
+#### STAR Assignment
 The following subsectors are responsible for issuing STAR clearance.
 
 | Subsector | STAR | Type | Notes |

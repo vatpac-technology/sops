@@ -38,7 +38,7 @@ BAR is responsible for the [CS TCU](../../../terminal/cairns) when **CS TCU** is
 
 ## Departure and Arrival Procedures
 ### YBCS
-#### STAR Clearances
+#### STAR Assignment
 YBCS has specific visual approach procedures for use when VMC exists below `A030` in the terminal area. As such, **light & medium category aircraft (B737/A320 and below)**, tracking via the following waypoints, shall be issued the relevant Victor STAR.
 
 Heavy aircraft, and any aircraft not meeting the criteria below, must be issued the Instrument STAR.
@@ -74,7 +74,7 @@ Must be considered to be on the **same STAR** for sequencing purposes. That is, 
 Sequencing arrivals into YBCG is a joint responsibility of the subsectors of KEN. Initial sequencing actions should be performed by all sectors, with fine tuning and any holding required issued by KEN/BAR. 
 
 ### YBTL
-#### STAR Clearance
+#### STAR Assignment
 The following subsectors are responsible for issuing STAR clearance.
 
 | Subsector | STAR | Type | Notes |

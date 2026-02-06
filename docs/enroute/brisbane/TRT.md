@@ -61,7 +61,7 @@ All sequencing is performed by ASH.
 WRA is responsibile for facilitating operations in and out of YCIN.
 
 ### YPDN
-#### STAR Clearance
+#### STAR Assignment
 The following subsectors are responsible for issuing STAR clearance.
 
 | Subsector | STAR | Type | Notes |

@@ -5,19 +5,22 @@
 --8<-- "includes/abbreviations.md"
 ## Positions
 
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | -------- |
-| **Hyden** | **Melbourne Centre** | **118.200** | **ML-HYD_CTR** |
-| <span class="indented">Pingelly :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 133.900 | ML-PIY_CTR |
-| <span class="indented">Cross :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 135.800 | ML-CRS_CTR |
-| <span class="indented">Jarrah :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 120.300 | ML-JAR_CTR |
-| <span class="indented">Leeman :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 122.400 | ML-LEA_CTR |
-| <span class="indented">Grove :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 133.800 | ML-GVE_CTR |
-| <span class="indented">Geraldton :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 134.200 | ML-GEL_CTR |
+| Name                | ID      | Callsign             | Frequency   | Login ID       |
+| ------------------- | ------- | -------------------- | ----------- | -------------- |
+| **Hyden**           | **HYD** | **Melbourne Centre** | **118.200** | **ML-HYD_CTR** |
+| <span class="indented">Pingelly :material-information-outline:{ title="Non-standard position"}  | PIY | Melbourne Centre | 133.900 | ML-PIY_CTR |
+| <span class="indented">Cross :material-information-outline:{ title="Non-standard position"}     | SCR | Melbourne Centre | 135.800 | ML-CRS_CTR |
+| <span class="indented">Jarrah :material-information-outline:{ title="Non-standard position"}    | JAR | Melbourne Centre | 120.300 | ML-JAR_CTR |
+| <span class="indented">Leeman :material-information-outline:{ title="Non-standard position"}    | LEA | Melbourne Centre | 122.400 | ML-LEA_CTR |
+| <span class="indented">Grove :material-information-outline:{ title="Non-standard position"}     | GVE | Melbourne Centre | 133.800 | ML-GVE_CTR |
+| <span class="indented">Geraldton :material-information-outline:{ title="Non-standard position"} | GEL | Melbourne Centre | 134.200 | ML-GEL_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
+
+### CPDLC
+The Primary Communication Method for HYD is Voice. [CPDLC](../../../client/cpdlc) may be used in lieu when applicable. The CPDLC Station Code is `YHYD`.
 
 ## Airspace
 <figure markdown>
@@ -25,17 +28,39 @@
   <figcaption>Pingelly Airspace</figcaption>
 </figure>
 
-### CPDLC
-The Primary Communication Method for HYD is Voice.
+### Reclassifications
+=== "PE TCU"
+	When **PEA** is offline, the PE MIL CTR, GIG MIL CTR, and restricted airspace within R155 is deactivated and the airspace is administered by LEA, PIY and PH TCU.
 
-[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
+	!!! tip
+        Consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
-The CPDLC Station Code is `YHYD`.
+## Departure and Arrival Procedures
+### YGIG
+LEA and PIY share responsibility for facilitating operations in and out of YGIG
 
-!!! tip
-    Even though HYD's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+### YPEA
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
 
-## Sector Responsibilities
+## YPJT/YPEA Arrivals
+To facilitate smooth movement of traffic in the Perth TCU, IFR Arrivals to YPJT and YPEA shall be assigned a STAR in accordance with the *YPPH Runway Mode*:
+
+| Feeder Fix | 03/06 | 21/24 |
+| ------------------- | ----- | ----- |
+| WOORA (YPJT) | Golf | WOORA PH JT (No STAR) |
+| JULIM (YPEA) | JULIM PEA (No STAR) | JULIM PEA (No STAR) |
+| LAVEX | Golf | Romeo |
+| KABLI (Jet) | Golf | Romeo | 
+| MALUP (Non-Jet) | Whiskey | Romeo (via KABLI) | 
+
+!!! note
+    Assigning a STAR to YPJT/YPEA Arrivals still does not meet [voiceless coordination requirements](#arrivalsoverfliers) to PH TCU. All YPJT/YPEA Arrivals must be **heads-up coordinated**, including those assigned a STAR.
+
+### YPJT
+
+### YPPH
+
 ### Pingelly (PIY)
 #### YPPH Arrivals
 PIY is responsible for final sequencing actions, final descent, and STAR Clearances (for Non-jets).
@@ -284,19 +309,7 @@ With the Southwest Plan active, arrivals shall be processed to either runway 21 
 ### Northeast Plan
 With the Northeast Plan active (runways 03 and 06 in use), all arrivals shall be processed to runway 03.
 
-## YPJT/YPEA Arrivals
-To facilitate smooth movement of traffic in the Perth TCU, IFR Arrivals to YPJT and YPEA shall be assigned a STAR in accordance with the *YPPH Runway Mode*:
 
-| Feeder Fix | 03/06 | 21/24 |
-| ------------------- | ----- | ----- |
-| WOORA (YPJT) | Golf | WOORA PH JT (No STAR) |
-| JULIM (YPEA) | JULIM PEA (No STAR) | JULIM PEA (No STAR) |
-| LAVEX | Golf | Romeo |
-| KABLI (Jet) | Golf | Romeo | 
-| MALUP (Non-Jet) | Whiskey | Romeo (via KABLI) | 
-
-!!! note
-    Assigning a STAR to YPJT/YPEA Arrivals still does not meet [voiceless coordination requirements](#arrivalsoverfliers) to PH TCU. All YPJT/YPEA Arrivals must be **heads-up coordinated**, including those assigned a STAR.
 
 ## STAR Clearance Expectation
 ### Handoff
