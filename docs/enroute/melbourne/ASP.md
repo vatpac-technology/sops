@@ -65,8 +65,7 @@ The **Red** shaded areas will have limited surveillance coverage at **All Levels
 All sequencing is performed by ASP.
 
 ### YPWR
-#### Sequencing
-All sequencing is performed by WRA.
+WRA is responsibile for facilitating operations in and out of YPWR.
 
 <!-- ## Special Use Airspace 
 ### Restricted Areas

@@ -44,8 +44,7 @@ ISA is responsible for **ARA**, **STR**, and **WEG** when they are offline.
 ## Departure and Arrival Procedures
 
 ### YBSG
-#### Sequencing
-All sequencing is performed by ARA.
+ARA is responsibile for facilitating operations in and out of YBSG.
 
 <!-- ## Special Use Airspace 
 ### Restricted Areas

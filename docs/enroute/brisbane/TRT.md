@@ -58,8 +58,7 @@ TRT is responsible for **TRS**, **ASH**, and **KIY**,  when they are offline.
 All sequencing is performed by ASH.
 
 ### YCIN
-#### Sequencing
-All sequencing is performed by ASH.
+WRA is responsibile for facilitating operations in and out of YCIN.
 
 ### YPDN
 #### STAR Clearance
