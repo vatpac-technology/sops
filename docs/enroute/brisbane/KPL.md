@@ -49,6 +49,7 @@ All sequencing is performed by SWY.
 
 ### YBMK
 #### STAR Clearance
+The following subsectors are responsible for issuing STAR clearance.
 
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
@@ -57,6 +58,7 @@ All sequencing is performed by SWY.
 
 ### YBRK
 #### STAR Clearance
+The following subsectors are responsible for issuing STAR clearance.
 
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
@@ -65,6 +67,7 @@ All sequencing is performed by SWY.
 
 ### YBSU
 #### STAR Clearance
+The following subsectors are responsible for issuing STAR clearance.
 
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
@@ -75,6 +78,8 @@ KPL is responsible for initial sequencing for aircraft arriving from the north. 
 
 ### YBTL
 #### STAR Clearance
+The following subsectors are responsible for issuing STAR clearance.
+
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
 | SWY  | POROB<br>VOMPA | All   | Descent not below `F190` |

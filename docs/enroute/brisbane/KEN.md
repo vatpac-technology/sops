@@ -73,6 +73,8 @@ Sequencing arrivals into YBCG is a joint responsibility of the subsectors of KEN
 
 ### YBTL
 #### STAR Clearance
+The following subsectors are responsible for issuing STAR clearance.
+
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
 | KEN  | IBUXI<br>IGIKI | All   | Descent not below `F190` |

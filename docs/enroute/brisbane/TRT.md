@@ -63,6 +63,8 @@ All sequencing is performed by ASH.
 
 ### YPDN
 #### STAR Clearance
+The following subsectors are responsible for issuing STAR clearance.
+
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
 | TRT  | ANUPA<br>WANGI | All   | |
