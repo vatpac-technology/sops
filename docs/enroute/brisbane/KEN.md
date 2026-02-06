@@ -46,6 +46,8 @@ Heavy aircraft, and any aircraft not meeting the criteria below, must be issued 
 !!! note
     Due to the complex nature of the visual procedures, it may be helpful to ask inexperienced pilots if they are familiar with the Creek Corridor (runway 15) or are able to accept a visual circuit (runway 33), and otherwise issue the Instrument STAR.
 
+The following subsectors are responsible for issuing STAR clearance.
+
 === "RWY 15"
 	| Subsector | STAR | Type | Notes |
 	| ---- | ----- | -------- | ----- |
