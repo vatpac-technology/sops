@@ -87,7 +87,7 @@ Sequencing arrivals from the northeast into YMML is a joint responsibility of BL
 Aircraft assigned the **same runway** inbound via **BOOIN** and **BOYSE**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
 ##### Predictable Sequencing Waypoints
-There are four [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YMML via **Q29**, located south of the airway.
+There are four [Predictable Sequencing](../../../controller-skills/sequencing/#predictable-sequencing) waypoints available for aircraft inbound YMML via **Q29**, located south of the airway.
 
 The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**.
 

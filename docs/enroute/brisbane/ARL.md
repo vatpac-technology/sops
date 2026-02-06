@@ -95,7 +95,7 @@ Aircraft from the north/east shall be assigned **runway 16L/34R** during PROPS. 
 Aircraft assigned the **same runway** inbound via **BOREE** and **MEPIL**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
 ##### Predictable Sequencing Waypoints
-There are ten [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YSSY via **N774** and **M636**.
+There are ten [Predictable Sequencing](../../../../controller-skills/sequencing/#predictable-sequencing) waypoints available for aircraft inbound YSSY via **N774** and **M636**.
 
 The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
 

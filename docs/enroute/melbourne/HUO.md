@@ -76,7 +76,7 @@ The following subsectors are responsible for issuing STAR clearance.
 HUO is responsbile for sequencing arrivals from the south into YMML.
 
 ##### Predictable Sequencing Waypoints
-There are four [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YMML via **H215**, **P753**, **L508** and **M625**. These waypoints are perpendicular to **M625** and **H215**.
+There are four [Predictable Sequencing](../../../controller-skills/sequencing/#predictable-sequencing) waypoints available for aircraft inbound YMML via **H215**, **P753**, **L508** and **M625**. These waypoints are perpendicular to **M625** and **H215**.
 
 The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
 

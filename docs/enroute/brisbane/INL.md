@@ -142,7 +142,7 @@ Aircraft assigned the **same runway** inbound via:
 Must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
 ##### Predictable Sequencing Waypoints
-There are nine [Predictable Sequencing](../../controller-skills/sequencing/#predictable-sequencing) waypoints available for aircraft inbound YBBN via **H66** and **H252**.
+There are nine [Predictable Sequencing](../../../controller-skills/sequencing/#predictable-sequencing) waypoints available for aircraft inbound YBBN via **H66** and **H252**.
 
 The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
 
