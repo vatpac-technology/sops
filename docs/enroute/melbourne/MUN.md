@@ -5,16 +5,19 @@
 --8<-- "includes/abbreviations.md"
 ## Positions
 
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | -------- |
-| **Mungo** | **Melbourne Centre** | **132.600** | **ML-MUN_CTR** |
-| <span class="indented">Yarrowee :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 134.325 | ML-YWE_CTR |
-| <span class="indented">Oxley :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 128.500 | ML-OXL_CTR |
-| <span class="indented">Griffith :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 122.750 | ML-GTH_CTR |
+| Name                | ID      | Callsign             | Frequency   | Login ID       |
+| ------------------- | ------- | -------------------- | ----------- | -------------- |
+| **Mungo**           | **MUN** | **Melbourne Centre** | **132.600** | **ML-MUN_CTR** |
+| <span class="indented">Griffith :material-information-outline:{ title="Non-standard position"} | GTH | Melbourne Centre | 122.750 | ML-GTH_CTR |
+| <span class="indented">Oxley :material-information-outline:{ title="Non-standard position"}    | OXL | Melbourne Centre | 128.500 | ML-OXL_CTR |
+| <span class="indented">Yarrowee :material-information-outline:{ title="Non-standard position"} | YWE | Melbourne Centre | 134.325 | ML-YWE_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
+
+### CPDLC
+The Primary Communication Method for MUN is Voice. [CPDLC](../../../client/cpdlc) may be used in lieu when applicable. The CPDLC Station Code is `YMUN`.
 
 ## Airspace
 
@@ -23,39 +26,39 @@
   <figcaption>Yarrowee Airspace</figcaption>
 </figure>
 
-### CPDLC
-The Primary Communication Method for MUN is Voice.
+## Departure and Arrival Procedures
+### YMAV
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
 
-[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| OXL  | JAYBI, DORSU Trans<br>JAYBI, METES Trans | Jet | Descent not below `F250` |
+| MUN  | JAYBI, DORSU Trans<br>JAYBI, METES Trans | Jet | Descent not below `F250` |
+| YWE  | JAYBI, DORSU Trans<br>JAYBI, METES Trans | Non-Jet |  |
 
-The CPDLC Station Code is `YMUN`.
+Arrivals from the northeast shall be given initial descent to not below `F250`. **YWE** will issue final descent.
 
-!!! tip
-    Even though MUN's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+#### Sequencing
+Sequencing arrivals from the north/west into YMAV is a joint responsibility of OXL, MUN, and YWE. Initial sequencing actions should be performed by OXL and MUN, with fine tuning and any holding required issued by YWE. 
 
-## Sector Responsibilities
-### Yarrowee (YWE)
-#### YMML Arrivals
-YWE is responsible for final sequencing and descent.
+### YMML
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
 
-#### YMEN Arrivals
-YWE is responsible for issuing final descent, and ascertaining arrival intentions.
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| OXL  | ARBEY | Jet     | Descent not below `F250` |
+| MUN  | ALAXO<br>ARBEY | Jet     | Descent not below `F250` |
+| YWE  | ALAXO<br>ARBEY | Non-Jet | |
 
-### Mungo (MUN)
-#### YMML Arrivals
-MUN is reponsible for issuing STAR clearances, initial sequencing, and initial descent to not below `F250` for Jets.
+Arrivals shall be given initial descent to not below `F250`. **YWE** will issue final descent.
 
-### Oxley (OXL)
-#### YMML Arrivals
-OXL is reponsible for issuing STAR clearances, initial sequencing, and initial descent to not below `F250` for Jets.
+#### Sequencing
+Sequencing arrivals from the north/west into YMML is a joint responsibility of OXL, MUN, and YWE. Initial sequencing actions should be performed by OXL and MUN, with fine tuning and any holding required issued by YWE. 
 
-### Griffith (GTH)
-#### YSSY Arrivals
-GTH is responsible for issuing STAR Clearances for Jets.
-
-### Sequencing in to YMML
-#### Predictable Sequencing Waypoints
-There are four [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YMML via **Q346** and **Q35**.
+##### Predictable Sequencing Waypoints
+There are four [Predictable Sequencing](../../../controller-skills/sequencing/#predictable-sequencing) waypoints available for aircraft inbound YMML via **Q346** and **Q35**.
 
 The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
 
@@ -67,7 +70,7 @@ The table below contains the estimated time from the initial waypoint to the fin
     | DUBED | GUGIX | DORSU | +6 |
     | DUBED | AVKOG | DORSU | +8 | 
     
-#### Holding Fixes
+##### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YMML. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
 
 | Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
@@ -78,7 +81,7 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 !!! tip
     Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector. 
 
-#### LAHSO
+##### LAHSO
 !!! warning "Important"
     Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
 
@@ -96,16 +99,8 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | GTH | GUN | YSSY | Non-Jets only |
 | OXL | GTH | YSSY | Jets only |
 
-### First Contact
-Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
-
-| Transferring Sector | Receiving Sector | ADES | Notes |
-| ---- | -------- | --------- | --------- |
-| TBD | MUN | YMML, YMAV | |
-| ASP(BKE), GTH | OXL | YMML, YMAV | |
-| ASP(BKE) | GTH, GUN(KAT) | YSSY | Jets only |
-| OXL | GTH | YSSY | Jets only |
-| ARL(MDE) | GUN(KAT) | YSCB | |
+!!! tip
+    To help facilitate sequencing, MUN should aim to handoff aircraft to GUN **as soon as possible**, ie, **>50nm** to the boundary if there are no restrictions.
 
 ## Terminal Handover Frequencies
 Aircraft being transferred from enroute to a TCU with multiple frequencies shall be given the frequency for the revelant TCU position.

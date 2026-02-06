@@ -158,9 +158,8 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | ELW | BLA | YSCB | |
 | BLA | ELW | YMML | Non-Jets only |
 
-
 !!! tip
-    **BLA** should aim to handoff aircraft as soon as possible to **GUN**, so they can issue STAR clearance and commence sequencing. Remember, As per [Standard coordination procedures](../../../controller-skills/coordination/#handoffs), the Receiving sector may turn the aircraft 45° left or right and climb/descend to any level. So if required, nominate a restriction.
+   To help facilitate sequencing, BLA should aim to handoff aircraft to GUN **as soon as possible**, ie, **>50nm** to the boundary if there are no restrictions.
 
 
 ## Terminal Handover Frequencies
