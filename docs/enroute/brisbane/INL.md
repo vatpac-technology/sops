@@ -105,8 +105,8 @@ Arrivals from the south shall be given initial descent to not below `F190`. **GO
 ##### Runway Assignment
 When operating a PROPS Runway Mode, Aircraft shall be assigned the appropriate 'Alpha' STAR (or other STAR on pilot request), with the following runway selection:
 
-| FF | Runway |
-| ---- | -------- |
+| FF    | Runway  |
+| ----- | ------- |
 | BLAKA | 01R/19L |
 | GOMOL | 01R/19L |
 | UGTUG | 01R/19L |
@@ -142,7 +142,7 @@ Aircraft assigned the **same runway** inbound via:
 Must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
 ##### Predictable Sequencing Waypoints
-There are nine [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YBBN via **H66** and **H252**.
+There are nine [Predictable Sequencing](../../controller-skills/sequencing/#predictable-sequencing) waypoints available for aircraft inbound YBBN via **H66** and **H252**.
 
 The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
 
