@@ -83,6 +83,8 @@ Each coded clearance includes altitude restrictions which can be used to facilit
 	
 ### YBBN
 #### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
+
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
 | BUR  | SMOKA<br>MORBI | All |       |
