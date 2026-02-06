@@ -40,7 +40,6 @@ ISA is responsible for **ARA**, **STR**, and **WEG** when they are offline.
 	!!! tip
         Consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
-
 ## Departure and Arrival Procedures
 
 ### YBSG

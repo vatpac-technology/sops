@@ -289,7 +289,7 @@ The Standard Assignable level from MNN to **CFS ADC** is `A080`, any other level
 #### Airspace
 TW ADC is responsible for the Class D airspace in the TW CTR `SFC` to `A045`, as well as the Class C airspace between `A045` and `A065`.
 
-Refer to [Reclassifications](#tw-ctr) for operations when TW ADC is offline.
+Refer to [Reclassifications](#reclassifications) for operations when TW ADC is offline.
 
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from TW ADC to ARL/MDE for all aircraft **entering ARL/MDE CTA**.

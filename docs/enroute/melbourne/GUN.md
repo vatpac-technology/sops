@@ -238,7 +238,7 @@ The Vertical limits of the CB TCU are `SFC` to `F245`.
 
 Refer to [Canberra TCU Airspace Division](../../../terminal/canberra/#airspace-division) for information on airspace divisions when **CBW** is online.
 
-Refer to [Reclassifications](#cb-tcu) for operations when CB TCU is offline.
+Refer to [Reclassifications](#reclassifications) for operations when CB TCU is offline.
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:

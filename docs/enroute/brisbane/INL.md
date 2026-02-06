@@ -366,11 +366,17 @@ That being said, it is *advised* that INL(All) give **Heads-up Coordination** to
 - DOS to BUR, NSA, GOL and INL for all aircraft  
 - SDY to NSA, GOL and INL for all aircraft  
 
+### CFS ADC
+#### Airspace
+CFS ADC is responsible for the Class D airspace in the CFS CTR `SFC` to `A045`.
+
+Refer to [Reclassifications](#reclassications) for operations when CFS ADC is offline.
+
 ### SU ADC
 #### Airspace
 SU ADC is responsible for the Class D airspace in the SU CTR `SFC` to `A045`.
 
-Refer to [Reclassifications](#su-ctr) for operations when SU ADC is offline.
+Refer to [Reclassifications](#reclassications) for operations when SU ADC is offline.
 
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from SU ADC to NSA/BUR for all aircraft **entering NSA/BUR CTA**.
@@ -392,12 +398,6 @@ YBSU arrivals shall be coordinated to **SU ADC** from NSA prior to **5 mins** fr
     <span class="hotline">**SU ADC** -> **NSA**</span>: "JST731"
 
 The Standard Assignable level from NSA to **SU ADC** is `A060`, any other level must be prior coordinated.
-
-### CFS ADC
-#### Airspace
-CFS ADC is responsible for the Class D airspace in the CFS CTR `SFC` to `A045`.
-
-Refer to [Reclassifications](#cfs-ctr) for operations when CFS ADC is offline.
 
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from CFS ADC to INL for all aircraft **entering INL CTA**.

@@ -122,7 +122,7 @@ Each of the Coral TCUs has its own frequency. When a controller is [extending](.
 #### Airspace
 RKA is responsible for the airspace within the 'RK keyhole' `SFC` to `F150`.
 
-Refer to [Reclassifications](#rk-ctr) for operations when RKA is offline.
+Refer to [Reclassifications](#reclassifications) for operations when RKA is offline.
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:
@@ -145,7 +145,7 @@ All other aircraft going to KPL CTA will be **Heads-up** Coordinated by RKA.
 #### Airspace
 MKA is responsible for the airspace within the 'MK keyhole' `SFC` to `F150`.
 
-Refer to [Reclassifications](#mk-ctr) for operations when MKA is offline.
+Refer to [Reclassifications](#reclassifications) for operations when MKA is offline.
 
 #### Arrivals
 Voiceless for all aircraft:
@@ -176,7 +176,7 @@ Additionally, changes to CFL are permitted up to the boundary between KPL and SW
 #### Airspace
 HM ADC is responsible for the Class D airspace in the HM CTR `SFC` to `A045`.
 
-Refer to [Reclassifications](#hm-ctr) for operations when HM ADC is offline.
+Refer to [Reclassifications](#reclassifications) for operations when HM ADC is offline.
 
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from HM ADC to SWY for all aircraft **entering SWY CTA**.

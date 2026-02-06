@@ -170,7 +170,7 @@ All other aircraft going to KEN CTA will be **Heads-up** Coordinated by CS TCU.
 #### Airspace
 TL TCU owns the Class C and G airspace within 36 DME TL from `SFC` to `F180`.
 
-Refer to [Reclassifications](#tl-ctr) for operations when TL TCU is offline.
+Refer to [Reclassifications](#reclassications) for operations when TL TCU is offline.
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:

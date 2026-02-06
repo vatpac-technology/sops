@@ -310,7 +310,7 @@ The Vertical limits of the CB TCU are `SFC` to `F245`.
 
 Refer to [Canberra TCU Airspace Division](../../../terminal/canberra/#airspace-division) for information on airspace divisions when **CBW** is online.
 
-Refer to [Reclassifications](#cb-ctr) for operations when CB TCU is offline.
+Refer to [Reclassifications](#reclassifications) for operations when CB TCU is offline.
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:
@@ -391,7 +391,7 @@ All other aircraft coming from ELW CTA will be **Heads-up** Coordinated to ES TC
 #### Airspace
 AY ADC is responsible for the Class D airspace in the AY CTR `SFC` to `A045`.
 
-Refer to [Reclassifications](#ay-ctr) for operations when AY ADC is offline.
+Refer to [Reclassifications](#reclassifications) for operations when AY ADC is offline.
 
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from AY ADC to BLA for all aircraft **entering BLA CTA**.
