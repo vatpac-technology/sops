@@ -370,13 +370,13 @@ That being said, it is *advised* that INL(All) give **Heads-up Coordination** to
 #### Airspace
 CFS ADC is responsible for the Class D airspace in the CFS CTR `SFC` to `A045`.
 
-Refer to [Reclassifications](#reclassications) for operations when CFS ADC is offline.
+Refer to [Reclassifications](#reclassifications) for operations when CFS ADC is offline.
 
 ### SU ADC
 #### Airspace
 SU ADC is responsible for the Class D airspace in the SU CTR `SFC` to `A045`.
 
-Refer to [Reclassifications](#reclassications) for operations when SU ADC is offline.
+Refer to [Reclassifications](#reclassifications) for operations when SU ADC is offline.
 
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from SU ADC to NSA/BUR for all aircraft **entering NSA/BUR CTA**.

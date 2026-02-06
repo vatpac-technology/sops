@@ -71,7 +71,7 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 #### Airspace
 KA ADC is responsible for the Class D airspace in the KA CTR `SFC` to `A055`.
 
-Refer to [Reclassifications](#ka-ctr) for operations when KA ADC is offline.
+Refer to [Reclassifications](#reclassifications) for operations when KA ADC is offline.
 
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from KA ADC to OLW for all aircraft **entering OLW CTA**.
