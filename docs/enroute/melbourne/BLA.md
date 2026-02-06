@@ -5,14 +5,17 @@
 --8<-- "includes/abbreviations.md"
 ## Positions
 
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | -------- |
-| **Benalla** | **Melbourne Centre** | **132.200** | **ML-BLA_CTR** |
-| <span class="indented">Eildon Weir :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 123.750 | ML-ELW_CTR |
+| Name                | ID      | Callsign             | Frequency   | Login ID       |
+| ------------------- | ------- | -------------------- | ----------- | -------------- |
+| **Benalla**         | **BLA** | **Melbourne Centre** | **132.200** | **ML-BLA_CTR** |
+| <span class="indented">Eildon Weir :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | ELW | 123.750 | ML-ELW_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
+
+### CPDLC
+The Primary Communication Method for BLA is Voice. [CPDLC](../../../client/cpdlc) may be used in lieu when applicable. The CPDLC Station Code is `YBLA`.
 
 ## Airspace
 
@@ -22,82 +25,64 @@
 </figure>
 
 ### Reclassifications
-#### CB CTR
-When **CB TCU** is offline, CB TCU (Class C `SFC` to `A085`) reverts to Class G, and is administered by WOL.
+=== "AY CTR"
+	When **AY ADC** is offline, AY CTR (Class D and C `SFC` to `A085`) reverts to Class G, and is administered by BLA. Alternatively, BLA may provide a [top-down procedural service](../../../aerodromes/Albury) if they wish.
 
-!!! note
-    BLA does not assume the CB TCU in the absence of a CB TCU controller. Assumption of the CB TCU is the responsibility of WOL. Controllers may choose to verbally coordinate the release of the CB TCU to either sector/subsector.
-
-#### AY CTR
-When **AY ADC** is offline, AY CTR (Class D and C `SFC` to `A085`) reverts to Class G, and is administered by BLA. Alternatively, BLA may provide a [top-down procedural service](../../../aerodromes/Albury) if they wish.
-
-!!! tip
-    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+	!!! tip
+		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 	
-#### ES TCU
-When **ESA** is offline, the restricted airspace within R360 is deactivated and the airspace is administered by BLA and HUO(WON). 
+=== "CB TCU"
+	When **CB TCU** is offline, CB TCU (Class C `SFC` to `A085`) reverts to Class G, and is administered by WOL.
 
-!!! note
-    BLA does not assume the ES TCU in the absence of ESA. Assumption of the ES TCU is the responsibility of HUO(WON). Controllers may choose to verbally coordinate the release of the ES TCU to either sector/subsector.
+	!!! note
+		BLA does not assume the CB TCU in the absence of a CB TCU controller. Assumption of the CB TCU is the responsibility of WOL. Controllers may choose to verbally coordinate the release of the CB TCU to either sector/subsector.
+	
+=== "ES TCU"
+	When **ESA** is offline, the restricted airspace within R360 is deactivated and the airspace is administered by BLA and HUO(WON). 
 
-### CPDLC
-The Primary Communication Method for BLA is Voice.
+	!!! note
+		BLA does not assume the ES TCU in the absence of ESA. Assumption of the ES TCU is the responsibility of HUO(WON). Controllers may choose to verbally coordinate the release of the ES TCU to either sector/subsector.
 
-[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
+## Departure and Arrival Procedures
+### YMAV
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
 
-The CPDLC Station Code is `YBLA`.
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| BLA  | JAYBI, ML Trans | Jet     | Descent not below `F250` |
+| ELW  | JAYBI, ML Trans | Non-Jet |       |
 
-!!! tip
-    Even though BLA's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+#### Sequencing
+Sequencing arrivals from the northeast into YMAV is a joint responsibility of BLA and ELW. Initial sequencing actions for aircraft from the north should be performed by BLA, with fine tuning and any holding required issued by ELW.
 
-## Sector Responsibilities
-### Eildon Weir (ELW)
-#### YMML Arrivals
-ELW is responsible for the final sequencing actions, final descent, and issuing STAR clearances to Non-jets.
+### YMAY
+#### Sequencing
+All sequencing is performed by BLA.
 
-Refer to the [Sequencing into YMML](#sequencing-in-to-ymml) notes below regarding adjacent Feeder Fixes.
+### YMEN
+#### Sequencing
+All sequencing, including ascertaining arrival intentions, is performed by ELW.
 
-#### YMAV Arrivals
-ELW is responsible for issuing final descent, and STAR clearances to Non-jets.
+### YMES
+BLA and ELW share responsibility for facilitating operations at YMES departing to/arriving from the north.
 
-#### YMEN Arrivals
-ELW is responsible for issuing final descent, and ascertaining arrival intentions.
+### YMML
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
 
-### Benalla (BLA)
-#### YMML Arrivals
-BLA is reponsible for issuing STAR clearances, initial sequencing, and initial descent to not below `F250` for Jets.
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| BLA  | BOOIN | Jet     | Descent not below `F250` |
+| ELW  | BOYSE | Non-Jet |       |
 
-#### YMAV Arrivals
-BLA is reponsible for issuing STAR clearances, initial sequencing, and initial descent to not below `F250` for Jets.
+#### Sequencing
+Sequencing arrivals from the northeast into YMML is a joint responsibility of BLA and ELW. Initial sequencing actions for aircraft from the north should be performed by BLA, with fine tuning and any holding required issued by ELW. 
 
-#### YSCB Arrivals
-BLA is responsible for issuing STAR clearances, sequencing, and descent.
-
-##### STARs
-When Runway 35 is in use at YSCB, by default, vatSys will select the POLLI STAR with the **ARRAN** transition. Aircraft that have planned via EBONY and ARRAN (ie, aircraft on the Y59 airway) need to be assigned the POLLI STAR with the **EBONY** transition. This can be manually overridden in the aircraft's flight plan as shown below:
-
-<figure markdown>
-![POLLI STAR with ARRAN transition](../img/pollibefore.png){ width="500" }
-  <figcaption>POLLI STAR with ARRAN transition</figcaption>
-</figure>
-
-<figure markdown>
-![POLLI STAR with EBONY transition](../img/polliafter.png){ width="500" }
-  <figcaption>POLLI STAR with EBONY transition</figcaption>
-</figure>
-
-##### Holding Fixes
-Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YSCB. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
-
-| Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
-| ---- | ---- | ---- |
-| MANDA | NONUP | Jets: 3 min<br>Non-Jets: 4 min |
-| Others | Feeder Fix | - |
-
-### Sequencing in to YMML
+##### Adjacent Feeder Fixes
 Aircraft assigned the **same runway** inbound via **BOOIN** and **BOYSE**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
-#### Predictable Sequencing Waypoints
+##### Predictable Sequencing Waypoints
 There are four [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YMML via **Q29**, located south of the airway.
 
 The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**.
@@ -110,7 +95,7 @@ The table below contains the estimated time from the initial waypoint to the fin
     | ANLID | UNSIG | BULLA | 6 |
     | ANLID | NILEV | BULLA | 8 | 
 
-#### Holding Fixes
+##### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YMML. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
 
 | Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
@@ -121,11 +106,43 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 !!! tip
     Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector. 
 
-#### LAHSO
+##### LAHSO
 !!! warning "Important"
     Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
 
 In accordance with the authorisation requirements above, YMML may utilise LAHSO during exceptionally busy events. Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../controller-skills/runwaymanagement.md#lahso) for more information.
+
+### YSCB
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
+
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| BLA  | MANDA (RWY 17)<br>POLLI (RWY 35) | All |      |
+
+##### POLLI Transitions
+When Runway 35 is in use at YSCB, by default, vatSys will select the POLLI STAR with the **ARRAN** transition. Aircraft that have planned via EBONY and ARRAN (ie, aircraft on the Y59 airway) need to be assigned the POLLI STAR with the **EBONY** transition. This can be manually overridden in the aircraft's flight plan as shown below:
+
+<figure markdown>
+![POLLI STAR with ARRAN transition](../img/pollibefore.png){ width="500" }
+  <figcaption>POLLI STAR with ARRAN transition</figcaption>
+</figure>
+
+<figure markdown>
+![POLLI STAR with EBONY transition](../img/polliafter.png){ width="500" }
+  <figcaption>POLLI STAR with EBONY transition</figcaption>
+</figure>
+
+#### Sequencing
+Sequencing arrivals from the southwest into YSCB is a responsibility of BLA.
+
+##### Holding Fixes
+Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YSCB. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
+
+| Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
+| ---- | ---- | ---- |
+| MANDA | NONUP | Jets: 3 min<br>Non-Jets: 4 min |
+| Others | Feeder Fix | - |
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -134,16 +151,6 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
 | BLA | GUN | YSSY | |
-| ELW | BLA | YSCB | |
-| BLA | ELW | YMML | Non-Jets only |
-
-### First Contact
-Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
-
-| Transferring Sector | Receiving Sector | ADES | Notes |
-| ---- | -------- | --------- | --------- |
-| MUN(OXL,GTH) | BLA | YSCB | |
-| WOL | BLA | YMML, YMAV | Jets Only |
 | ELW | BLA | YSCB | |
 | BLA | ELW | YMML | Non-Jets only |
 
