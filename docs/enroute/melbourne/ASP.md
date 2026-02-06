@@ -9,11 +9,11 @@
 | ------------------- | ------- | -------------------- | ----------- | -------------- |
 | **Alice Springs**   | **ASP** | **Melbourne Centre** | **128.850** | **ML-ASP_CTR** |
 | <span class="indented">Alice Springs West :material-information-outline:{ title="Non-standard position"} | ASW | Melbourne Centre | 131.800 | ML-ASW_CTR |
-| <span class="indented">Warburton :material-information-outline:{ title="Non-standard position"}          | WAR | Melbourne Centre | 124.900 | ML-WAR_CTR |
-| <span class="indented">Forrest :material-information-outline:{ title="Non-standard position"}            | FOR | Melbourne Centre | 132.700 | ML-FOR_CTR |
-| <span class="indented">Woomera :material-information-outline:{ title="Non-standard position"}            | WRA | Melbourne Centre | 132.900 | ML-WRA_CTR |
 | <span class="indented">Bourke :material-information-outline:{ title="Non-standard position"}             | BKE | Melbourne Centre | 128.200 | ML-BKE_CTR |
 | <span class="indented">Esperance :material-information-outline:{ title="Non-standard position"}          | ESP | Melbourne Centre | 123.950 | ML-ESP_CTR |
+| <span class="indented">Forrest :material-information-outline:{ title="Non-standard position"}            | FOR | Melbourne Centre | 132.700 | ML-FOR_CTR |
+| <span class="indented">Warburton :material-information-outline:{ title="Non-standard position"}          | WAR | Melbourne Centre | 124.900 | ML-WAR_CTR |
+| <span class="indented">Woomera :material-information-outline:{ title="Non-standard position"}            | WRA | Melbourne Centre | 132.900 | ML-WRA_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  

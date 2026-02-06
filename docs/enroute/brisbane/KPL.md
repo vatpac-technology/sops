@@ -8,8 +8,8 @@
 | Name              | ID      | Callsign            | Frequency   | Login ID       |
 | ----------------- | ------- | ------------------- | ----------- | -------------- |
 | **Keppel**        | **KPL** | **Brisbane Centre** | **125.900** | **BN-KPL_CTR** |
-| <span class="indented">Swampy :material-information-outline:{ title="Non-standard position"}    | SWY | Brisbane Centre | 133.200 | BN-SWY_CTR |
 | <span class="indented">Carnarvon :material-information-outline:{ title="Non-standard position"} | CVN | Brisbane Centre | 133.800 | BN-CVN_CTR |
+| <span class="indented">Swampy :material-information-outline:{ title="Non-standard position"}    | SWY | Brisbane Centre | 133.200 | BN-SWY_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  

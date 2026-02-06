@@ -8,9 +8,9 @@
 | Name                | ID      | Callsign            | Frequency   | Login ID       |
 | ------------------- | ------- | ------------------- | ----------- | -------------- |
 | **Territory North** | **TRT** | **Brisbane Centre** | **123.850** | **BN-TRT_CTR** |
-| <span class="indented">Territory South :material-information-outline:{ title="Non-standard position"} | TRS | Brisbane Centre | 133.200 | BN-TRS_CTR |
 | <span class="indented">Ashmore :material-information-outline:{ title="Non-standard position"}         | ASH | Brisbane Centre | 133.400 | BN-ASH_CTR |
 | <span class="indented">Kimberley :material-information-outline:{ title="Non-standard position"}       | KIY | Brisbane Centre | 132.100 | BN-KIY_CTR |
+| <span class="indented">Territory South :material-information-outline:{ title="Non-standard position"} | TRS | Brisbane Centre | 133.200 | BN-TRS_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
