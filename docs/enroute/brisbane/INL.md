@@ -208,13 +208,14 @@ The following subsectors are responsible for issuing STAR clearance.
 | ---- | ----- | -------- | ----- |
 | BUR  | SEBVA | All |       |
 | GOL  | ITIDE | All | Descent not below `F130` |
-| NSA  | REBEG | All |       |
 | SDY  | ITIDE | All |       |
 
 Arrivals from other sectors should be issued with descent and tracking instructions appropriate for the runway configuration, following [coordination](#su-adc).
 
 #### Sequencing
-Initial sequencing is performed by all sectors, with the final sequencing action performed by NSA.
+BUR, GOL and SDY are responsible for initial sequencing for aircraft arriving from the east, west, and south. KPL is responsible for initial sequencing for aircraft arriving from the north/east. Final sequencing actions are performed by NSA.
+
+Coordination with KPL should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
 
 <!-- ## Special Use Airspace 
 ### Restricted Areas

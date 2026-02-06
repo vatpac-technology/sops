@@ -5,13 +5,12 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | -------- |
-| **Kennedy** | **Brisbane Centre** | **120.150** | **BN-KEN_CTR** |
-| <span class="indented">Barra :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 123.800 | BN-BAR_CTR |
-| <span class="indented">Tabletop :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 120.550 | BN-TBP_CTR |
-| <span class="indented">Willis :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 127.600 | BN-WIL_CTR |
+| Name              | ID      | Callsign            | Frequency   | Login ID       |
+| ----------------- | ------- | ------------------- | ----------- | -------------- |
+| **Kennedy**       | **KEN** | **Brisbane Centre** | **120.150** | **BN-KEN_CTR** |
+| <span class="indented">Barra :material-information-outline:{ title="Non-standard position"}    | BAR | Brisbane Centre | 123.800 | BN-BAR_CTR |
+| <span class="indented">Tabletop :material-information-outline:{ title="Non-standard position"} | TBP | Brisbane Centre | 120.550 | BN-TBP_CTR |
+| <span class="indented">Willis :material-information-outline:{ title="Non-standard position"}   | WIL | Brisbane Centre | 127.600 | BN-WIL_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
@@ -79,7 +78,9 @@ Sequencing arrivals into YBCG is a joint responsibility of the subsectors of KEN
 | KEN  | IBUXI<br>IGIKI | All   | Descent not below `F190` |
 
 #### Sequencing
-Sequencing arrivals into YBTL is a joint responsibility of the subsectors of KEN, TBP and KPL(SWY). Initial sequencing actions should be performed by KEN and SWY, with fine tuning and any holding required issued by TBP. 
+KEN and TBP share responsbility for initial sequencing for aircraft arriving from the north, east, and west. KPL(SWY) is responsible for initial sequencing for aircraft arriving from the south. Final sequencing actions are performed by TBP.
+
+Coordination with KPL(SWY) should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
 
 ## STAR Clearance Expectation
 ### Handoff

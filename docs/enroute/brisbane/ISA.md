@@ -6,12 +6,12 @@
 
 ## Positions
 
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | -------- |
-| **Isa** | **Brisbane Centre** | **125.700** | **BN-ISA_CTR** |
-| <span class="indented">Arafura :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 133.700 | BN-ARA_CTR |
-| <span class="indented">Sturt :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 134.400 | BN-STR_CTR |
-| <span class="indented">Warrego :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 132.450 | BN-WEG_CTR |
+| Name              | ID      | Callsign            | Frequency   | Login ID       |
+| ----------------- | ------- | ------------------- | ----------- | -------------- |
+| **Isa**           | **ISA** | **Brisbane Centre** | **125.700** | **BN-ISA_CTR** |
+| <span class="indented">Arafura :material-information-outline:{ title="Non-standard position"} | ARA | Brisbane Centre | 133.700 | BN-ARA_CTR |
+| <span class="indented">Sturt :material-information-outline:{ title="Non-standard position"}   | STR | Brisbane Centre | 134.400 | BN-STR_CTR |
+| <span class="indented">Warrego :material-information-outline:{ title="Non-standard position"} | WEG | Brisbane Centre | 132.450 | BN-WEG_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
