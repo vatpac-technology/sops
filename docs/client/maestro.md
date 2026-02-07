@@ -11,7 +11,7 @@ For a detailed explanation of the system and operations, see the [MAESTRO User G
 MAESTRO is a semi-automatic system, and will sequence arrivals generally without intervention.
 When the number of arriving aircraft increases, a flow controller is required to 'drive' the system, make adjustments as required, and communicate sequencing information to the respective ENR and APP controllers.
 
-MAESTRO is generally not used in the TMA, however it allows the TCU controllers to have situational awareness of the flow of inbound aircraft.
+MAESTRO is generally not used by TWR controllers, however it allows them to have situational awareness of the flow of inbound aircraft.
 
 The MAESTRO plugin can be accessed from the vatSys menu bar under TFMS.
 
@@ -43,12 +43,13 @@ Flight labels are mirrored on either side of the timeline, and contain (from inn
 1. `STA` (in feeder view) or `STA_FF` (in runway view)
 2. Assigned runway
 3. Callsign
-4. `#` if zero delay has been assigned
-5. `%` if manual delay (other than zero) has been assigned
-6. `+` if the flight must cross the feeder-fix at published speed
-7. `*` if the FDR is not coupled to a radar track
-8. Total delay required (based on the initial `ETA`)
-9. Delay remaining (based on the current `ETA`)
+4. Approach Type (if applicable)
+5. `#` if zero delay has been assigned
+6. `%` if manual delay (other than zero) has been assigned
+7. `+` if the flight must cross the feeder-fix at published speed
+8. `*` if the FDR is not coupled to a radar track
+9. Total delay required (based on the initial `ETA`)
+10. Delay remaining (based on the current `ETA`)
 
 The total delay required remains unchanged as the flight absorbs delay. The remaining delay progressively reduces as delay is absorbed. When the remaining delay reads `00`, all required delay has been absorbed.
 
@@ -117,7 +118,7 @@ Avoid using the Recompute function unless the Change ETA_FF function is impracti
 
 ### Runway Assignment
 
-Maestro automatically assigns runways based on the flight's feeder fix and the current TMA configuration. The runway assignment is based on pre-configured preferences for each feeder fix.
+Maestro automatically assigns runways based on the flight's feeder fix the current TMA configuration. The runway assignment is based on pre-configured rules for each feeder fix.
 
 Maestro does not source runway assignments from vatSys. When a flight is assigned a new runway by ATC, the runway must be changed in Maestro using the Change Runway function (right-click the flight, select Change Runway).
 
@@ -184,14 +185,41 @@ When two aircraft have close `STA_FF` times and longitudinal separation is requi
 Advise the flow controller when:
 
 - A taxi call is received for flights bound for a Maestro airport. FMP will insert the flight into the sequence from the pending list.
-- A runway other than the assigned runway is required
+- A runway other than the assigned runway is required.
 - Route changes occur (re-routing to a new feeder fix)
 - The Recompute, Desequence, or Swap function will be used. Enroute can perform these actions, but Flow must be advised when they occur.
 
-Flow will advise enroute controllers when they are performing large changes to the sequence by sending internal coordination messages.
+Flow may advise when they are performing large changes to the sequence by sending internal coordination messages.
 
 !!! warning "Important"
     Do not issue delay instructions to aircraft if Flow has sent the `Flow planning in progress...` coordination message. Wait until the `Maestro delay times accurate...` message is received.
+
+## Approach Responsibilities
+
+### Sequence Monitoring and Workload Management
+
+Monitor the incoming sequence and anticipate the impending workload.
+
+Coordinate with the flow controller if the arrival rate needs to be adjusted.
+
+### Absorb Remaining Delay
+
+If an aircraft enters the TMA with any delay remaining, use speed control and vectoring to absorb the remaining delay.
+
+### Inserting Overshoots
+
+If coordination with the flow controller is not required, and an aircraft conducts a missed approach or a go-around, approach controllers may re-insert the flight into the sequence either by moving them up the ladder, or using the Insert Flight function.
+
+!!! note
+    Frozen flights cannot be moved. Overshoot flights may need to be inserted after the last Frozen flight (before the first SuperStable flight) if there is not enough space between Frozen flights.
+
+### Coordination with Flow
+
+Advise the flow controller when:
+
+- A taxi call is received for flights within the TMA bound for a Maestro airport. FMP will insert the flight into the sequence from the penidng list.
+- An aircraft conducts a missed approach or go-around.
+- The Insert, Move, Swap, or Desequence functions will be used. Approach can perform these actions, but Fow must be advised when they occur.
 
 ## Flow Responsibilities
 
