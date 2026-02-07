@@ -95,8 +95,8 @@ The ATIS must indicate runway configuration in the format below:
 
 | Mode        | Controllers | ATIS Runway information |
 | ----------- | ----------- | ----------------------- |
-| PROPS | Single ADC  | `RWY 03R/08R/21L/26L FOR ARRS AND DEPS EAST. RWY 03L/08L/21R/26R FOR ARRS AND DEPS WEST` |
-| PROPS | Dual ADC    | `RWY 03R/08R/21L/26L FOR ARRS AND DEPS EAST, FREQ 118.7. RWY 03L/08L/21R/26R FOR ARRS AND DEPS WEST, FREQ 124.6` |
+| PROPS | Single ADC  | `03R/08R/21L/26L FOR ARRS AND DEPS EAST. RWY 03L/08L/21R/26R FOR ARRS AND DEPS WEST` |
+| PROPS | Dual ADC    | `03R/08R/21L/26L FOR ARRS AND DEPS EAST, FREQ 118.7. RWY 03L/08L/21R/26R FOR ARRS AND DEPS WEST, FREQ 124.6` |
 | Single Runway | Single ADC | `ALL OPERATIONS RWY (Number)` |
 
 ### Approach Expectation
