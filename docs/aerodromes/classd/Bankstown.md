@@ -197,6 +197,9 @@ The Standard Assignable level from **BK ADC** to **SY TCU** is:
 
 Aircraft shall be instructed to contact SY TCU passing `A015`.
 
+!!! note
+    Unlike other Metro D SIDs, the **BK SID** is *not* a radar SID. An assigned heading or track shall *not* be issued by BK ADC.
+
 ### Arrivals/Overfliers
 SY TCU will heads-up coordinate arrivals/overfliers from Class C to BK ADC.  
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to BK ADC, unless BK ADC nominates a restriction.  
