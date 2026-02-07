@@ -59,6 +59,13 @@ Arrivals from the northeast shall be given initial descent to not below `F250`. 
 Sequencing arrivals from the northeast into YMAV is a joint responsibility of BLA and ELW. Initial sequencing actions for aircraft from the north should be performed by BLA, with fine tuning and any holding required issued by ELW.
 
 ### YMAY
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
+
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| BLA  | ARRAN<br>VEGRU | All |  |
+
 #### Sequencing
 All sequencing is performed by BLA.
 
