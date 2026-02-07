@@ -72,6 +72,8 @@ The following subsectors are responsible for issuing STAR clearance.
 | ---- | ----- | -------- | ----- |
 | WON  | PORTS<br>RAZZI | All     | |
 
+Aircraft should primarily be assigned the RAZZI STAR. The PORTS STAR may be issued in lieu of the RAZZI STAR to reduce track miles and [assist with the flow](../../../terminal/melbourne/#flow).
+
 #### Sequencing
 HUO is responsbile for sequencing arrivals from the south into YMML.
 
@@ -110,7 +112,7 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 !!! warning "Important"
     Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
 
-In accordance with the authorisation requirements above, YMML may utilise LAHSO during exceptionally busy events. Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../controller-skills/runwaymanagement.md#lahso) for more information.
+In accordance with the authorisation requirements above, YMML may utilise LAHSO during exceptionally busy events. Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../../controller-skills/runwaymanagement/#lahso) for more information.
 
 ## STAR Clearance Expectation
 ### Handoff
