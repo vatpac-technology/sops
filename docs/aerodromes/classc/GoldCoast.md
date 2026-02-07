@@ -142,7 +142,7 @@ Where insufficient spacing exists with IFR aircraft, instruct VFR aircraft to re
     **CG ADC:** "LKU, follow the 737, maintain own separation, join final runway 32, cleared visual approach"  
     **LKU:** "Follow the 737, maintain own separation, join final runway 32, cleared visual approach, LKU"
 
-### Helicopter Operations
+## Helicopter Operations
 The HLS (Helipad) is located between the GA Apron and Taxiway Golf. The Helipad is part of the manoeuvring area and is controlled by CG ADC. Any helicopter taking off or landing on the helipad requires a specific takeoff or landing clearance from ADC.
 
 !!! phraseology 
