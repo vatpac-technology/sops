@@ -546,7 +546,7 @@ Aircraft that have been cleared the **SY (RADAR) SID** must receive an assigned 
 | Runway     | Jet         | Non-Jet                                        |
 | ---------- | :---------: | :--------------------------------------------: |
 | RWY 07     | H070        | H020, H110                                     |
-| RWY 16L    | H125        | H125 (RWY 25 in use), H090 (RWY 25 not in use) |
+| RWY 16L    | H125        | H090 *(RWY 25 not in use)*<br>H125 *(RWY 25 in use)* |
 | RWY 16R    | H170        | H210                                           |
 | RWY 25     | H300, H240  | H020, H210, H240                               |
 | RWY 34L    | H290        | H230                                           |
