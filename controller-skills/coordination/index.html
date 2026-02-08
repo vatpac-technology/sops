@@ -8254,6 +8254,45 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#radar-position-tcu-controllers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Radar Position -&gt; TCU Controllers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Radar Position -&gt; TCU Controllers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entering-cta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entering CTA
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#leaving-cta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Leaving CTA
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -9166,6 +9205,45 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#radar-position-tcu-controllers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Radar Position -&gt; TCU Controllers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Radar Position -&gt; TCU Controllers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entering-cta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entering CTA
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#leaving-cta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Leaving CTA
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -9273,7 +9351,7 @@
 
   <h1>Coordination</h1>
 
-<p>Coordination is an underutilised tool in VATPAC airspace, primarily due to how difficult it was to do it back in the Euroscope and VRC days. Now, all controllers are using vatSys and voice coordination can be done in seconds with the touch of a button. Coordination helps controllers stay aware of aircraft that are about to enter their jurisdiction and ensure they will operate in a predictable manner, which allows for easier planning of sequencing and separation.</p>
+<p>Coordination helps controllers stay aware of aircraft that are about to enter their jurisdiction and ensure they will operate in a predictable manner, which allows for easier planning of sequencing and separation.</p>
 <p>Coordination requirements are often very location-specific, however this page outlines the general guidelines to coordination, which are supplemented by Local Instructions.</p>
 <p><a href="https://www.airservicesaustralia.com/mats/docs/nos-saf-2000.pdf" target="new">MATS Chapter 6</a> goes in to much more detail about coordination principles, phraseology, and situations. It is well above the level required for VATSIM, but feel free to read up on it if you want to extend your learning.</p>
 <h2 id="coordination-in-vatsys">Coordination in vatSys</h2>
@@ -9623,6 +9701,99 @@
 <p>Aircraft are <em>not required</em> to be tracking via the <strong><abbr title="Standard Instrument Departure">SID</abbr> procedure</strong>, simply tracking via any of the terminus waypoints (regardless of <em>departure airport</em> or <em>assigned <abbr title="Standard Instrument Departure">SID</abbr></em>) is sufficient to meet the criteria for <strong>voiceless coordination</strong></p>
 </div>
 <p>Heads-up coordinate all other aircraft by the boundary.</p>
+<h4 id="radar-position-tcu-controllers">Radar Position -&gt; <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> Controllers</h4>
+<h5 id="entering-cta">Entering <abbr title="Controlled Airspace">CTA</abbr></h5>
+<p>Heads-up coordination is required for <strong>all aircraft</strong> entering <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> <abbr title="Controlled Airspace">CTA</abbr> from Class G. Heads-up coordination must be completed prior to handoff, however, best practice is to complete the coordination as soon as possible.</p>
+<p>Upon receipt of the heads-up coordination from Radar, the <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> controller has several options:</p>
+<table>
+<thead>
+<tr>
+<th>Response</th>
+<th>Use Case</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Acknowledge the callsign</td>
+<td>Indicate to Radar that you can accept the handoff to provide clearance</td>
+</tr>
+<tr>
+<td><em>"Remain outside Class C airspace, expect XX minute delay"</em></td>
+<td>Useful if it's busy</td>
+</tr>
+<tr>
+<td><em>"Clearance unavailable due XXXX"</em></td>
+<td>Useful if the pilot's request is unlikely to be available at all</td>
+</tr>
+<tr>
+<td><em>"I'll call you back"</em></td>
+<td>Useful if the <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> controller hasn't had time to assess the aircraft yet (remember to cock the strip)</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition phraseology">
+<p class="admonition-title">Phraseology</p>
+<p><span class="hotline"><strong><abbr title="Sydney Radar">SRI</abbr></strong> -&gt; <strong><abbr title="Sydney Departures South">SDS</abbr></strong></span>: "Departed YSHL, EQU"<br>
+<span class="hotline"><strong><abbr title="Sydney Departures South">SDS</abbr></strong> -&gt; <strong><abbr title="Sydney Radar">SRI</abbr></strong></span>: "EQU" </p>
+<p><strong><abbr title="Sydney Radar">SRI</abbr>:</strong> "EQU, Contact Sydney Departures on 129.7 for clearance"<br>
+<strong>EQU:</strong> "129.7, EQU"<br>
+<em>...</em><br>
+<strong>EQU:</strong> "Sydney Departures, EQU, climbing to <code>F170</code>"<br>
+<strong><abbr title="Sydney Departures South">SDS</abbr>:</strong> "EQU, Sydney Departures. Cleared to YWLM via TESAT, flight planned route. Climb to <code>F170</code>"<br>
+<strong>EQU:</strong> "Cleared to YWLM via TESAT, flight planned route. Climb to <code>F170</code>, EQU"</p>
+</div>
+<div class="admonition phraseology">
+<p class="admonition-title">Phraseology</p>
+<p><span class="hotline"><strong><abbr title="Sydney Radar">SRI</abbr></strong> -&gt; <strong><abbr title="Sydney Departures South">SDS</abbr></strong></span>: "Departed YSHL, EQU"<br>
+<span class="hotline"><strong><abbr title="Sydney Departures South">SDS</abbr></strong> -&gt; <strong><abbr title="Sydney Radar">SRI</abbr></strong></span>: "EQU remain outside Class C airspace, expect 10 minute delay."<br>
+<span class="hotline"><strong><abbr title="Sydney Radar">SRI</abbr></strong> -&gt; <strong><abbr title="Sydney Departures South">SDS</abbr></strong></span>: "Remain outside Class C airspace, expect 10 minute delay, EQU."</p>
+<p><strong><abbr title="Sydney Radar">SRI</abbr>:</strong> "EQU, remain outside Class C airspace, expect 10 minute delay."<br>
+<strong>EQU:</strong> "Remain outside Class C airspace, copy, EQU"</p>
+<p><span class="hotline"><strong><abbr title="Sydney Departures South">SDS</abbr></strong> -&gt; <strong><abbr title="Sydney Radar">SRI</abbr></strong></span>: "EQU to contact me."<br>
+<span class="hotline"><strong><abbr title="Sydney Radar">SRI</abbr></strong> -&gt; <strong><abbr title="Sydney Departures South">SDS</abbr></strong></span>: "EQU to contact you."</p>
+<p><strong><abbr title="Sydney Radar">SRI</abbr>:</strong> "EQU, Contact Sydney Departures on 129.7"<br>
+<strong>EQU:</strong> "129.7, EQU"<br>
+<em>...</em><br>
+<strong>EQU:</strong> "Sydney Departures, EQU, climbing to <code>F170</code>."<br>
+<strong><abbr title="Sydney Departures South">SDS</abbr>:</strong> "EQU, Sydney Departures. Cleared to YWLM via TESAT, flight planned route. Climb to <code>F170</code>"<br>
+<strong>EQU:</strong> "Cleared to YWLM via TESAT, flight planned route. Climb to <code>F170</code>, EQU"</p>
+</div>
+<p>At locations with a low overlying base of <abbr title="Controlled Airspace">CTA</abbr> (e.g. YSBK with the tower closed), Radar shall perform normal coordination to the appropriate <abbr title="Controlled Airspace">CTA</abbr> controller in response to a taxi call. It is expected that Radar will transfer the aircraft to the <abbr title="Controlled Airspace">CTA</abbr> controller to issue clearance prior to the aircraft's departure.</p>
+<h5 id="leaving-cta">Leaving <abbr title="Controlled Airspace">CTA</abbr></h5>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio"><input id="__tabbed_1_2" name="__tabbed_1" type="radio"><div class="tabbed-labels"><label for="__tabbed_1_1">Leaving <abbr title="Controlled Airspace">CTA</abbr> <em>vertically</em></label><label for="__tabbed_1_2">Leaving <abbr title="Controlled Airspace">CTA</abbr> <em>laterally</em></label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Heads-up coordination is not required from a <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> position to Radar for aircraft:</p>
+<ul>
+<li>Assigned 500ft above the <abbr title="Bottom of Controlled Airspace">BCTA</abbr> as the <abbr title="Cleared Flight Level">CFL</abbr>; and</li>
+<li>Handed off to Radar</li>
+</ul>
+<div class="admonition phraseology">
+<p class="admonition-title">Phraseology</p>
+<p><em>FD214 is intending on leaving Class C airspace on descent into Bankstown.  The lower limit of <abbr title="Controlled Airspace">CTA</abbr> is <code>A045</code>.</em><br>
+<strong><abbr title="Sydney Departures South">SDS</abbr>:</strong> "FD214 descend to <code>A050</code>, contact Sydney Centre 124.55"<br>
+<strong>FD214:</strong> "Descend <code>A050</code>, 124.55, FD214"  </p>
+<p><strong>FD214:</strong> "Sydney Centre, FD214, descending <code>A050</code>"<br>
+<strong><abbr title="Sydney Radar">SRI</abbr>:</strong> "FD214, Sydney Centre, leave controlled airspace descending, no reported <abbr title="Instrument Flight Rules">IFR</abbr> traffic"<br>
+<strong>FD214:</strong> "Leave controlled airspace descending, FD214"</p>
+</div>
+</div>
+<div class="tabbed-block">
+<p>Heads-up coordination is not required from a <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> position to Radar for aircraft:</p>
+<ul>
+<li>Handed off to Radar upon termination of control services</li>
+</ul>
+<div class="admonition phraseology">
+<p class="admonition-title">Phraseology</p>
+<p><em>CYF is an <abbr title="Instrument Flight Rules">IFR</abbr> C172 leaving <abbr title="Controlled Airspace">CTA</abbr> to the north at <code>A050</code>.</em><br>
+<strong><abbr title="Sydney Approach North">SAN</abbr>:</strong> "CYF at 30DME SY, control service terminates, contact Sydney Centre 124.55"<br>
+<strong>CYF:</strong> "124.55, CYF"  </p>
+<p><strong>CYF:</strong> "Sydney Centre, CYF, maintaining <code>A050</code>"<br>
+<strong><abbr title="Sydney Radar">SRI</abbr>:</strong> "CYF, Sydney Centre, no reported <abbr title="Instrument Flight Rules">IFR</abbr> traffic, area QNH 1024"</p>
+</div>
+</div>
+</div>
+</div>
 <h3 id="enroute">Enroute</h3>
 <h4 id="enr-enr">ENR -&gt; ENR</h4>
 <p><strong>Voiceless</strong>, no changes to route or <abbr title="Cleared Flight Level">CFL</abbr> within <strong>50nm</strong> of the boundary, unless overridden by local procedure.</p>
@@ -9685,7 +9856,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="September 25, 2025 00:53:39 UTC">September 25, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 8, 2026 06:37:27 UTC">February 8, 2026</span>
   </span>
 
     
