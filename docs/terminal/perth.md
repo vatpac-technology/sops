@@ -49,7 +49,10 @@ The divisions of the airspace between **PHA**, and **PHD** change based on the R
 	</figure>
 	
 #### Perth Radar (PHR)
-PHR is responsible for the provision of FIS in Class G airspace within the PH TMA. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identify them, perform any necessary coordination, then hand them to the relevant controller who will issue clearance if appropriate.
+PHR is responsible for the provision of FIS in Class G airspace within the PH TMA. The role can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordation requirements](#between-phr-and-tcu) exist between PHR and other TCU positions.  
+
+!!! example
+    During a busy event, PHA is experiencing a high workload and wishes to delegate the PHR role to another controller who isn't as busy. PHD has a low workload and elects to perform the role.
 	
 #### Pearce Airspace
 When **PEA TCU** is online, they assume responsibility for the airspace in R155A and R155B from `SFC` to `F160`.
@@ -266,7 +269,13 @@ All other aircraft transiting between internal PH TCU boundaries must be heads-u
 
 !!! phraseology
     <span class="hotline">**PHA** -> **PHD**</span>: "via PH, FD123"  
-    <span class="hotline">**PHD** -> **PHA**</span>: "FD123, A090"    
+    <span class="hotline">**PHD** -> **PHA**</span>: "FD123, A090"  
+
+#### Between PHR and TCU
+Standard [Radar to TCU](../controller-skills/coordination.md#radar-position-tcu-controllers) coordination for each aircraft transiting between Class G and CTA (or vice versa).
+
+!!! note
+    Standard coordination procedures apply as per the link above, however due to the unique arrangement of the Perth TMA, inbound aircraft will generally be cleared to **leave and re-enter CTA on descent**. Standard [Heads Up](../controller-skills/coordination.md#heads-up) coordination should be used in this case.
 
 ### JT ADC
 #### Airspace

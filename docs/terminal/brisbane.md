@@ -72,13 +72,16 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **
         Only **two** TCU controllers may operate the BN TMA when running the SODPROPS runway mode (excluding an additional SHN or BAC controller if desired).
 	
 #### Brisbane Radar (SHN)
-SHN is responsible for the provision of FIS in Class G airspace within the BN TMA. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identify them, perform any necessary coordination, then hand them to the relevant controller who will issue clearance if appropriate. 
+SHN is responsible for the provision of FIS in Class G airspace within the BN TMA. The role can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordation requirements](#between-shn-and-tcu) exist between SHN and other TCU positions.  
+
+!!! example
+    During a busy event, BAN is experiencing a high workload and wishes to delegate the SHN role to another controller who isn't as busy. BDN has a low workload and elects to perform the role.
 
 #### Airspace Structural Arrangements
 Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, **"North"**/**"West"** positions shall assume the airspace of corresponding **"South"**/**"East"** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
 
 !!! tip
-   Due to the unique arrangement of the BN TMA, when general traffic levels across the TMA are high and multiple TCU controllers are available, splitting the airspace in to 'approach' airspace and 'departures' airspace may introduce additional complexity. In these situations, it may be simpler to combine sectors 'on-side', i.e.:
+    Due to the unique arrangement of the BN TMA, when general traffic levels across the TMA are high and multiple TCU controllers are available, splitting the airspace in to 'approach' airspace and 'departures' airspace may introduce additional complexity. In these situations, it may be simpler to combine sectors 'on-side', i.e.:
     
     - **BAN** and **BDN** combined; *and*
     - **BAS** and **BDS** combined.
@@ -428,6 +431,9 @@ All other aircraft not meeting the Departures/Arrivals criteria that transit bet
 !!! phraseology
     <span class="hotline">**BDS** -> **BAS**</span>: "via MAKRU, QFA904"  
     <span class="hotline">**BAS** -> **BDS**</span>: "QFA904, A050"
+
+#### Between SHN and TCU
+Standard [Radar to TCU](../controller-skills/coordination.md#radar-position-tcu-controllers) coordination for each aircraft transiting between Class G and CTA (or vice versa).
 
 ### CG ADC
 #### Airspace

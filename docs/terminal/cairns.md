@@ -216,3 +216,6 @@ All aircraft transiting between internal CS TCU boundaries must be heads-up coor
     <span class="hotline">**CS2** -> **CS1**</span>: "ESQ, A025"   
 
 Boundary coordination is not required between CS1 and CS2 for aircraft arriving or departing tracking via the 15/33 extended centreline.
+
+#### Class G to CTA
+Standard [Radar to TCU](../controller-skills/coordination.md#radar-position-tcu-controllers) coordination for each aircraft transiting between Class G and CTA (or vice versa).
