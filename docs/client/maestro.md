@@ -118,7 +118,7 @@ Avoid using the Recompute function unless the Change ETA_FF function is impracti
 
 ### Runway Assignment
 
-Maestro automatically assigns runways based on the flight's feeder fix the current TMA configuration. The runway assignment is based on pre-configured rules for each feeder fix.
+Maestro automatically assigns runways based on the flight's feeder fix and the current TMA configuration. The runway assignment is based on pre-configured rules for each feeder fix.
 
 Maestro does not source runway assignments from vatSys. When a flight is assigned a new runway by ATC, the runway must be changed in Maestro using the Change Runway function (right-click the flight, select Change Runway).
 
