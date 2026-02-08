@@ -46,7 +46,7 @@ Aircraft may taxi past the undershoot of RWY 28L on the southern apron without c
     The YBAF Manoeuvring Area chart can be found on the [CASA Website](https://www.casa.gov.au/archerfield-manoeuvring-area-map).
 
 !!! warning "Important"
-    In some simulator scenery holding point **B6** is incorrect or entirely missing. Pilots with scenery which does not support this holding point, shall inform **AF SMC** when requesting taxi with RWY 10L is in use.
+    In some simulator scenery holding point **B6** is incorrect or entirely missing. Pilots with scenery which does not support this holding point shall inform **AF SMC** when requesting taxi with RWY 10L is in use.
 
 ## VFR Operations
 ### Arrivals
