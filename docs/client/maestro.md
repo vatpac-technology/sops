@@ -217,7 +217,7 @@ If coordination with the flow controller is not required, and an aircraft conduc
 
 Advise the flow controller when:
 
-- A taxi call is received for flights within the TMA bound for a Maestro airport. FMP will insert the flight into the sequence from the penidng list.
+- A taxi call is received for flights within the TMA bound for a Maestro airport. FMP will insert the flight into the sequence from the pending list.
 - An aircraft conducts a missed approach or go-around.
 - The Insert, Move, Swap, or Desequence functions will be used. Approach can perform these actions, but Fow must be advised when they occur.
 
