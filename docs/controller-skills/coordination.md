@@ -4,7 +4,7 @@ title: Coordination
 
 --8<-- "includes/abbreviations.md"
 
-Coordination is an underutilised tool in VATPAC airspace, primarily due to how difficult it was to do it back in the Euroscope and VRC days. Now, all controllers are using vatSys and voice coordination can be done in seconds with the touch of a button. Coordination helps controllers stay aware of aircraft that are about to enter their jurisdiction and ensure they will operate in a predictable manner, which allows for easier planning of sequencing and separation.
+Coordination helps controllers stay aware of aircraft that are about to enter their jurisdiction and ensure they will operate in a predictable manner, which allows for easier planning of sequencing and separation.
 
 Coordination requirements are often very location-specific, however this page outlines the general guidelines to coordination, which are supplemented by Local Instructions.
 
