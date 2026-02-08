@@ -28,6 +28,9 @@ The vertical limits of the CS TCU are `SFC` to `F180`.
 ### Airspace Division
 The divisions of the airspace between **CS1** and **CS2** change based on the runway mode. In either case, CS2 is responsible for the Class G airspace within the Cairns TMA.
 
+!!! note
+    When both TCU positions are active, [coordination requirements](#class-g-to-cta) exist between CS1 and CS2 for aircraft transiting the boundary of CTA vertically or horizontally.
+
 === "Runway 15"
 	<figure markdown>
 	![15 TCU Structure](img/cs15annotated.png){ width="700" }
