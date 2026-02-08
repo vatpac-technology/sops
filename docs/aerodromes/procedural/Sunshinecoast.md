@@ -26,7 +26,7 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 ### Old Scenery
 Pilots with old simulators/scenery may not have the newer Runway 13/31 config (replacing the old 18/36 config). If a pilot reports this to be the case, try to facilitate their flight as best as possible, whilst giving them lower priority to other traffic. Coordinate as you deem necessary with adjacent units.
 
-## Separations
+## Separation
 ### Local Lateral Separation Points
 Due to the convergence of inbound/outbound air routes approaching SU, the [geographic feature separation standard](../../separation-standards/visual.md#geographic-features) may be useful to efficiently process opposite direction aircraft from the north or south.
 

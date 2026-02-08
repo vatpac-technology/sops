@@ -178,8 +178,8 @@ The ATIS must indicate runway configuration in the format below:
 
 | Mode        | Controllers | ATIS Runway information |
 | ----------- | ----------- | ----------------------- |
-| 11/29 PROPS | Single ADC  | `RWY 11L/29R FOR ARRS AND DEPS. RWY 11R/29L FOR CCT TRAINING. RWY 11C/29C IN USE` |
-| 11/29 PROPS | Dual ADC    | `RWY 11L/29R FOR ARRS AND DEPS, FREQ 132.8. RWY 11R/29L FOR CCT TRAINING, FREQ 123.6. RWY 11C/29C IN USE` |
+| 11/29 PROPS | Single ADC  | `11L/29R FOR ARRS AND DEPS. RWY 11R/29L FOR CCT TRAINING. RWY 11C/29C IN USE` |
+| 11/29 PROPS | Dual ADC    | `11L/29R FOR ARRS AND DEPS, FREQ 132.8. RWY 11R/29L FOR CCT TRAINING, FREQ 123.6. RWY 11C/29C IN USE` |
 
 ### Operational Info
 When the crosswind component exceeds 15 knots, the OPR INFO field must include:  
@@ -196,6 +196,9 @@ The Standard Assignable level from **BK ADC** to **SY TCU** is:
 | All | `A030` |
 
 Aircraft shall be instructed to contact SY TCU passing `A015`.
+
+!!! note
+    Unlike other Metro D SIDs, the **BK SID** is *not* a radar SID. An assigned heading or track shall *not* be issued by BK ADC.
 
 ### Arrivals/Overfliers
 SY TCU will heads-up coordinate arrivals/overfliers from Class C to BK ADC.  
