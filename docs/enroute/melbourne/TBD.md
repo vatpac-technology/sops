@@ -32,7 +32,7 @@ The following subsectors are responsible for issuing STAR clearance.
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
 | AUG  | ATNAR<br>BUGSU<br>GULFS<br>PAMMY<br>RAYNA | Jet<br>Jet<br>Non-Jet<br>Non-Jet<br>All    |  |
-| TBD  | ATPIP<br>BEVSO<br>DRINA<br>ELROX<br>INTOG<br>KAKLU<br>SURGN | Non-Jet<br>Non-Jet<br>Jet<br>Non-Jet<br>Jet<br>Jet<br>Non-Jet |
+| TBD  | ATPIP<br>BEVSO<br>DRINA<br>ELROX<br>INTOG<br>KAKLU<br>SURGN | Non-Jet<br>Non-Jet<br>Jet<br>Non-Jet<br>Jet<br>Jet<br>Non-Jet | |
 
 ##### Assignment Rules
 
@@ -112,6 +112,15 @@ Aircraft assigned the **same runway** inbound via:
 - ERITH and KLAVA
 
 Must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
+
+### YPED
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
+
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| AUG  | ATNAR<br>KLAVA | All    |  |
+| TBD  | BEVSO<br>KAKLU |
 
 ## STAR Clearance Expectation
 ### Handoff
