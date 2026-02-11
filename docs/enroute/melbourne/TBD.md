@@ -119,8 +119,8 @@ The following subsectors are responsible for issuing STAR clearance.
 
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
-| AUG  | ATNAR<br>KLAVA | All    |  |
-| TBD  | BEVSO<br>KAKLU |
+| AUG  | ATNAR<br>KLAVA | All  |  |
+| TBD  | BEVSO<br>KAKLU | All  |  |
 
 ## STAR Clearance Expectation
 ### Handoff
