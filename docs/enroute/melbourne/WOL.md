@@ -202,7 +202,7 @@ All other aircraft coming from WOL CTA must be **Heads-up** Coordinated to CB TC
 #### Airspace
 The vertical limits of the NW TCU are `SFC` to `F125`, and up to `F300` in R420F when activated.
 
-Refer to [Nowra Airspace Releases](#nowra-airspace-releases) for operations with R421 and/or R420F released.
+Refer to [Nowra Airspace Releases](#nowra-r420f) for operations with R421 and/or R420F released.
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:
