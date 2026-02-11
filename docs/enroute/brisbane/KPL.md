@@ -187,8 +187,8 @@ The Standard Assignable level from **HM ADC** to **SWY** is:
 | ---- | ---- |
 | All | The lower of `A050` and `RFL` |
 
-#### Arrivals
-YBHM arrivals shall be heads-up coordinated to **HM ADC** from SWY prior to **5 mins** from the boundary.
+#### Arrivals/Overfliers
+YBHM arrivals and overfliers shall be heads-up coordinated to **HM ADC** from SWY prior to **5 mins** from the boundary.
 
 !!! phraseology
     <span class="hotline">**SWY** -> **HM ADC**</span>: "Via OPOSI for RNP-U, JST848”  

@@ -277,7 +277,7 @@ The Standard Assignable level from **CFS ADC** to **MNN** is:
 Where possible (and no possible conflict exists), a higher level shall be assigned by MNN for high performance aircraft during next coordination.
 
 #### Arrivals/Overfliers
-YCFS arrivals shall be heads-up coordinated to **CFS ADC** from MNN prior to **5 mins** from the boundary.
+YCFS arrivals and overfliers shall be heads-up coordinated to **CFS ADC** from MNN prior to **5 mins** from the boundary.
 
 !!! phraseology
     <span class="hotline">**MNN** -> **CFS ADC**</span>: "Via KADSI, RXA6438"  
@@ -301,10 +301,10 @@ The Standard Assignable level from **TW ADC** to **ARL/MDE** is:
 | All | The lower of `A070` and `RFL` |
 
 #### Arrivals/Overfliers
-YSTW arrivals shall be heads-up coordinated to **TW ADC** from ARL/MDE prior to **5 mins** from the boundary.
+YSTW arrivals and overfliers shall be heads-up coordinated to **TW ADC** from ARL/MDE prior to **5 mins** from the boundary.
 
 !!! phraseology
-    <span class="hotline">**ARL** -> **TW ADC**</span>: "QLK6D, via MATLA DCT STWWD"  
+    <span class="hotline">**ARL** -> **TW ADC**</span>: "QLK6D, via MATLA DCT ST2WD"  
     <span class="hotline">**TW ADC** -> **ARL**</span>: "QLK6D"  
 
 The Standard Assignable level from ARL/MDE to **TW ADC** is `A080`, any other level must be prior coordinated.

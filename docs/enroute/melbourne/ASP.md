@@ -104,8 +104,8 @@ The Standard Assignable level from **AS ADC** to **ASP** is:
 | ---- | ---- |
 | All | The lower of `A070` and `RFL` |
 
-#### Arrivals
-YBAS arrivals shall be heads-up coordinated to **AS ADC** from ASP prior to **5 mins** from the boundary.
+#### Arrivals/Overfliers
+YBAS arrivals and overfliers shall be heads-up coordinated to **AS ADC** from ASP prior to **5 mins** from the boundary.
 
 !!! phraseology
     <span class="hotline">**ASP** -> **AS ADC**</span>: "Via SADEL, QFA1956”  

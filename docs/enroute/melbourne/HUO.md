@@ -291,6 +291,23 @@ Voiceless for all aircraft:
 
 All other aircraft going to HUO CTA will be **Heads-up** Coordinated by TAS TCU.
 
+### ES TCU
+#### Departures
+Voiceless for all aircraft:
+
+- Tracking via a Procedural SID terminus; and  
+- Assigned the lower of `F200` or the `RFL`
+
+All other aircraft going to HUO(WON) CTA must be **Heads-up** Coordinated by ESA prior to the boundary. 
+
+#### Arrivals
+Voiceless for all aircraft:
+
+- With ADES **YMES**; and
+- Assigned `A100`
+
+All other aircraft coming from HUO(WON) CTA will be **Heads-up** Coordinated to ESA.
+
 ### ML TCU
 #### Airspace
 The Vertical limits of the ML TCU are `SFC` to `F245`.
@@ -331,6 +348,3 @@ Aircraft must have their identification terminated and be instructed to make a p
 
 !!! phraseology
     **HUO**: "QFA121, identification terminated, report position to Brisbane Radio, 129.25"
-
-### ES TCU
-Reserved.

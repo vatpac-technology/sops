@@ -409,8 +409,8 @@ The Standard Assignable level from **AY ADC** to **BLA** is:
 | ---- | ---- |
 | All | The lower of `A070` and `RFL` |
 
-#### Arrivals
-YMAY arrivals shall be heads-up coordinated to **AY ADC** from BLA prior to **5 mins** from the boundary.
+#### Arrivals/Overfliers
+YMAY arrivals and overfliers shall be heads-up coordinated to **AY ADC** from BLA prior to **5 mins** from the boundary.
 
 !!! phraseology
     <span class="hotline">**BLA** -> **AY ADC**</span>: "via VEGRU1 arrival, QLK38"  

@@ -160,8 +160,8 @@ The Standard Assignable level from **BRM ADC** to **TRT(ASH)** is:
 | ---- | ---- |
 | All | The lower of `A050` and `RFL` |
 
-#### Arrivals
-YBRM arrivals shall be heads-up coordinated to **BRM ADC** from TRT prior to **5 mins** from the boundary.
+#### Arrivals/Overfliers
+YBRM arrivals and overfliers shall be heads-up coordinated to **BRM ADC** from TRT prior to **5 mins** from the boundary.
 
 !!! phraseology
     <span class="hotline">**TRT** -> **BRM ADC**</span>: "Via SAFIR, FD621”  

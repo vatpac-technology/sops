@@ -372,6 +372,26 @@ CFS ADC is responsible for the Class D airspace in the CFS CTR `SFC` to `A045`.
 
 Refer to [Reclassifications](#reclassifications) for operations when CFS ADC is offline.
 
+#### Departures
+[Next](../../controller-skills/coordination.md#next) coordination is required from CFS ADC to INL for all aircraft **entering INL CTA**.
+
+The Standard Assignable level from **CFS ADC** to **INL** is:
+
+| Aircraft | Level |
+| ---- | ---- |
+| All | The lower of `A070` and `RFL` |
+
+Where possible (and no possible conflict exists), a higher level shall be assigned by for high performance aircraft during next coordination.
+
+#### Arrivals/Overfliers
+YCFS arrivals and overfliers shall be coordinated to **CFS ADC** from INL prior to **5 mins** from the boundary.
+
+!!! phraseology
+    <span class="hotline">**INL** -> **CFS ADC**</span>: "via IDNER, VET"  
+    <span class="hotline">**CFS ADC** -> **INL**</span>: "VET"  
+
+The Standard Assignable level from INL to **CFS ADC** is `A080`, any other level must be prior coordinated.
+
 ### SU ADC
 #### Airspace
 SU ADC is responsible for the Class D airspace in the SU CTR `SFC` to `A045`.
@@ -389,35 +409,16 @@ The Standard Assignable level from **SU ADC** to **NSA/BUR** is:
 
 Where possible (and no possible conflict exists), a higher level shall be assigned by NSA/BUR for high performance aircraft during next coordination.
 
-#### Arrivals
-NSA must ensure all YBSU arrivals have been assigned a STAR, unless the pilot is unable to accept one.  
-YBSU arrivals shall be coordinated to **SU ADC** from NSA prior to **5 mins** from the boundary.
+#### Arrivals/Overfliers
+NSA must ensure all YBSU arrivals have been assigned a STAR, unless the pilot is unable to accept one.
+
+YBSU arrivals and overfliers shall be coordinated to **SU ADC** from NSA prior to **5 mins** from the boundary.
 
 !!! phraseology
     <span class="hotline">**NSA** -> **SU ADC**</span>: "via ITIDE2W Arrival, JST731"  
     <span class="hotline">**SU ADC** -> **NSA**</span>: "JST731"
 
 The Standard Assignable level from NSA to **SU ADC** is `A060`, any other level must be prior coordinated.
-
-#### Departures
-[Next](../../controller-skills/coordination.md#next) coordination is required from CFS ADC to INL for all aircraft **entering INL CTA**.
-
-The Standard Assignable level from **CFS ADC** to **INL** is:
-
-| Aircraft | Level |
-| ---- | ---- |
-| All | The lower of `A070` and `RFL` |
-
-Where possible (and no possible conflict exists), a higher level shall be assigned by for high performance aircraft during next coordination.
-
-#### Arrivals
-YCFS arrivals shall be coordinated to **CFS ADC** from INL prior to **5 mins** from the boundary.
-
-!!! phraseology
-    <span class="hotline">**INL** -> **CFS ADC**</span>: "via IDNER, VET"  
-    <span class="hotline">**CFS ADC** -> **INL**</span>: "VET"  
-
-The Standard Assignable level from INL to **CFS ADC** is `A080`, any other level must be prior coordinated.
 
 ### OK TCU / AMB TCU
 #### Airspace

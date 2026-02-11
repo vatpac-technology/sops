@@ -82,8 +82,8 @@ The Standard Assignable level from **KA ADC** to **OLW** is:
 | ---- | ---- |
 | All | The lower of `A050` and `RFL` |
 
-#### Arrivals
-YPKA arrivals shall be heads-up coordinated to **KA ADC** from OLW prior to **5 mins** from the boundary.
+#### Arrivals/Overfliers
+YPKA arrivals and overfliers shall be heads-up coordinated to **KA ADC** from OLW prior to **5 mins** from the boundary.
 
 !!! phraseology
     <span class="coldline">**OLW** -> **KA ADC**</span>: "Via MCNAB, QFA1214 for the RNP U RWY 26”  
