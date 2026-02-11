@@ -104,7 +104,7 @@ Shall be assigned the **Radar SID**.
 | All | Between `A007` and `A023` | `EXP INST APCH`      |
 | All | At or below `A006`        | `EXP ILS APCH`       |
 
-\*This allows aircraft on the Victor STAR from the west to join a [visual right base](../terminal/adelaide/#visual-approaches) without the need to conduct an instrument approach, while keeping aircraft from the east clear of the higher terrain near the Adelaide Hills.
+\*This allows aircraft on the Victor STAR from the west to join a [visual right base](../../../terminal/adelaide/#visual-approaches) without the need to conduct an instrument approach, while keeping aircraft from the east clear of the higher terrain near the Adelaide Hills.
 
 ### Operational Info
 The Operational Information field should be updated based on the runway mode in use, as per the table below:
