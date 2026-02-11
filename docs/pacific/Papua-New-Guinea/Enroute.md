@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name                    | ID |Callsign         | Frequency | Login ID    |
-| ----------------------- | ---- | --------- | ---------------- | --------- |
-| **Port Moresby Centre** | **AYPM** | **Moresby Control** | **123.400** | **AYPM_CTR** |
+| Name                    | ID       | Callsign            | Frequency   | Login ID       |
+| ----------------------- | -------- | ------------------- | ----------- | -------------- |
+| **Port Moresby Centre** | **AYPM** | **Moresby Control** | **123.400** | **AYPM_CTR**   |
 <!--- | Future HF frequency | -->
 
 !!! warning "Important"
