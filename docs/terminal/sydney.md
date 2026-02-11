@@ -45,6 +45,11 @@ Control authority of the **R470** Restricted Area when active is as follows:
 - RI ADC `SFC`-`A015`
 - SY TCU (SDN) `A015`-`A045`
 
+!!! note
+    Depending on the YSSY runway mode, R470 will overlap with the jurisdiction of surrounding TCU positions. **SDN** is ultimately responsible for aircraft into/out of YSRI and should coordinate with any surrounding controllers to establish any restrictions. 
+    
+    Preference should be given to keeping the aircraft on the SDN frequency where possible, rather than handing them to neighbouring TCU sectors in close proximity to YSRI. 
+
 ### Airspace Division
 The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW** and **SFE** change based on the Runway Mode.
 
@@ -57,47 +62,47 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
     The following diagrams do not include non SY TCU areas of responsibility such as BK CTR or CN CTR
 
 === "07AD"
-	<figure markdown>
-	![07 TCU Structure](img/sy07.png){ width="700" }
-	  <figcaption>07 TCU Structure</figcaption>
-	</figure>
-	
-	!!! warning "Important"
-		Separation between aircraft on the TESAT-FISHA-T066 track is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
+    <figure markdown>
+    ![07 TCU Structure](img/sy07.png){ width="700" }
+      <figcaption>07 TCU Structure</figcaption>
+    </figure>
+    
+    !!! warning "Important"
+        Separation between aircraft on the TESAT-FISHA-T066 track is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
 
 === "16 PROPS"
-	<figure markdown>
-	![16 PROPS TCU Structure](img/sy16PROPS.png){ width="700" }
-	  <figcaption>16 PROPS TCU Structure</figcaption>
-	</figure>
-	
-	!!! warning "Important"
-		Separation between aircraft tracking via the KEVIN SID to KEVIN is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
+    <figure markdown>
+    ![16 PROPS TCU Structure](img/sy16PROPS.png){ width="700" }
+      <figcaption>16 PROPS TCU Structure</figcaption>
+    </figure>
+    
+    !!! warning "Important"
+        Separation between aircraft tracking via the KEVIN SID to KEVIN is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
 
 === "25AD"
-	<figure markdown>
-	![25 TCU Structure](img/sy25.png){ width="700" }
-	  <figcaption>25 TCU Structure</figcaption>
-	</figure>
+    <figure markdown>
+    ![25 TCU Structure](img/sy25.png){ width="700" }
+      <figcaption>25 TCU Structure</figcaption>
+    </figure>
 
 === "34 PROPS"
-	<figure markdown>
-	![34 PROPS TCU Structure](img/sy34PROPS.png){ width="700" }
-	  <figcaption>34 PROPS TCU Structure</figcaption>
-	</figure>
-	
-	!!! warning "Important"
-		Separation between aircraft tracking via the RIC SID to RIC and MARUB SID to MARUB is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
+    <figure markdown>
+    ![34 PROPS TCU Structure](img/sy34PROPS.png){ width="700" }
+      <figcaption>34 PROPS TCU Structure</figcaption>
+    </figure>
+    
+    !!! warning "Important"
+        Separation between aircraft tracking via the RIC SID to RIC and MARUB SID to MARUB is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
 
 === "SODPROPS"
-	<figure markdown>
-	![SODPROPS TCU Structure](img/sySODPROPS.png){ width="700" }
-	  <figcaption>SODPROPS TCU Structure</figcaption>
-	</figure>
-	
-	!!! warning "Important"
-		Separation between aircraft tracking via the RIC SID to RIC, and aircraft tracking via the KEVIN SID to KEVIN is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
-	
+    <figure markdown>
+    ![SODPROPS TCU Structure](img/sySODPROPS.png){ width="700" }
+      <figcaption>SODPROPS TCU Structure</figcaption>
+    </figure>
+    
+    !!! warning "Important"
+        Separation between aircraft tracking via the RIC SID to RIC, and aircraft tracking via the KEVIN SID to KEVIN is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
+    
 #### Airspace Structural Arrangements
 Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, the following rules apply, in the order presented, to these controller positions, except **SFL**:  
 
@@ -114,7 +119,7 @@ c) Departures assumes **SRI** airspace when the position is inactive.
     Unless there are 2 separate Director controllers online (during a Major event like Panic Stations, for example), it is **not recommended** that the SFW and SFE positions are held by 2 separate controllers, due to the tendency of some less experienced pilots to overshoot the runway centreline
 
 #### Sydney Radar (SRI)
-SRI is responsible for the provision of FIS in Class G airspace within the SY TMA.  It is a role normally performed by DEPs but can be delegated to any TMA controller.  The position is designed to reduce the workload of the other TMA positions by identifying and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller.  [Explicit coordation requirements](#between-sri-and-appdepdir) exist between SRI and other TCU positions, and there are [certain rules](#airspace-structural-arrangements) surrounding the opening of SRI as a stand-alone position.  
+SRI is responsible for the provision of FIS in Class G airspace within the SY TMA. It is a role normally performed by DEPs but can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordation requirements](#between-sri-and-tcu) exist between SRI and other TCU positions.  
 
 !!! example
     During a busy event, Sydney Departures is experiencing a high workload and wishes to delegate the SRI role to another TMA controller who isn't as busy.  SAN's sector is quiet, so they elect to perform the role.
@@ -505,57 +510,8 @@ Refer to [Sydney TCU Airspace Division](#airspace-division) for more information
     <span class="hotline">**SDN** -> **SFW**</span>: "Request left turn out of Bankstown"  
     <span class="hotline">**SFW** -> **SDN**</span>: "Approved" *(no callsigns need be used here)*  
 
-#### Between SRI and APP/DEP/DIR
-##### Entering CTA
-Heads-up coordination is required for **all aircraft** entering SY TCU Class C from SRI Class G. Heads-up coordination must be completed prior to handoff, however, best practice is to complete the coordination as soon as possible, ie, as soon as the aircraft enters SRI airspace, or as soon as it becomes identified after departure from an aerodrome within 45nm SY.
-
-Upon receipt of the heads-up coordination from SRI, the SY TCU controller has several options:
-
-- Concur the requested level
-- Concur an interim level
-- "Remain outside Class C airspace, expect no delay"
-- "Remain outside Class C airspace, expect XX minute delay" - *Useful if it's busy*
-- "I'll call you back" - *Useful if the SY TCU controller hasn't had time to assess the aircraft yet*
-
-!!! phraseology
-    <span class="hotline">**SRI** -> **SDS**</span>: "Departed YSHL, EQU"  
-    <span class="hotline">**SDS** -> **SRI**</span>: "EQU, F170"  
-    <span class="hotline">**SRI** -> **SDS**</span>: "F170, EQU"  
-    
-    **SRI:** "EQU, Cleared to YWLM via TESAT, flight planned route. Climb to F170"  
-    **EQU:** "Cleared to YWLM via TESAT, flight planned route. Climb to F170, EQU"  
-    *(Approaching SRI/SDS sector boundary)*  
-    **SRI:** "EQU, Contact Sydney Departures 129.7"  
-    **EQU:** "129.7, EQU" 
-
-##### Leaving CTA
-Heads-up coordination is not required from a SY TCU position to SRI for aircraft:
-
-**Leaving CTA *vertically*:**
-
-- Assigned 500ft above the BCTA as the CFL; and
-- Handed off to SRI
-
-!!! phraseology
-    *FD214 is intending on leaving Class C airspace on descent into Bankstown.  The lower limit of CTA is `A045`.*  
-    **SDS:** "FD214 descend to A050, contact Sydney Centre 124.55"  
-    **FD214:** "Descend A050, 124.55, FD214"  
-
-    **FD214:** "Sydney Centre, FD214, descending A050"  
-    **SRI:** "FD214, Sydney Centre, leave controlled airspace descending, no reported IFR traffic"  
-    **FD214:** "Leave controlled airspace descending, FD214"
-
-**Leaving CTA *laterally*:**
-
-- Handed off to SRI upon termination of control services
-
-!!! phraseology 
-    *CYF is an IFR C172 leaving CTA to the north at `A050`.*  
-    **SAN:** "CYF at 30DME SY, control service terminates, contact Sydney Centre 124.55"  
-    **CYF:** "124.55, CYF"  
-
-    **CYF:** "Sydney Centre, CYF, maintaining A050"  
-    **SRI:** "CYF, Sydney Centre, no reported IFR traffic, area QNH 1024"
+#### Between SRI and TCU
+Standard [Radar to TCU](../controller-skills/coordination.md#radar-position-tcu-controllers) coordination for each aircraft transiting between Class G and CTA (or vice versa).
 
 ### SY ADC
 #### Airspace
@@ -573,7 +529,7 @@ Auto Release is used for virtually all fixed-wing departures at Sydney. Unlike s
 | Runway     | Jet         | Non-Jet                                        |
 | ---------- | :---------: | :--------------------------------------------: |
 | RWY 07     | H070        | H020, H110                                     |
-| RWY 16L    | H125        | H125 (RWY 25 in use), H090 (RWY 25 not in use) |
+| RWY 16L    | H125        | H090 *(RWY 25 not in use)*<br>H125 *(RWY 25 in use)* |
 | RWY 16R    | H170        | H210                                           |
 | RWY 25     | H300, H240  | H020, H210, H240                               |
 | RWY 34L    | H290        | H230                                           |
