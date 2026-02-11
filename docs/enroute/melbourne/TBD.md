@@ -51,56 +51,56 @@ These standard runway assignments may be modified strategically by the AD TCU or
     *vatSys will not necessarily select the correct STAR by default when entering the runway, so ensure the correct STAR is selected.*
 
 === "Visual Approaches"
-All Jets shall be assigned the Runway **05 Zulu** STAR, or Runway **23 Alpha** STAR.
+	All Jets shall be assigned the Runway **05 Zulu** STAR, or Runway **23 Alpha** STAR.
 
-Non-Jets shall be assigned the STAR in accordance with the following table:
+	Non-Jets shall be assigned the STAR in accordance with the following table:
 
-| Feeder Fix | 23 & 12  | 05 & 12  |
-| ---------- | -------- | -------- |
-| INTOG      |   R23    |   R05    |
-| DRINA      | No STAR<br>Expect Runway 23 | No STAR<br>Expect Runway 05 |
-| KAKLU      |   R23    |   R05    |
-| BEVSO      |   R23    |   R12    |
-| KLAVA      | No STAR<br>Expect Runway 23 | No STAR<br>Expect Runway 05 |
-| MARGO      |   R12    |   R12    |
-| ATNAR      |   R12    |   R12    |
-| ELROX      |   R12    |   R05    |
+	| Feeder Fix | 23 & 12  | 05 & 12  |
+	| ---------- | -------- | -------- |
+	| INTOG      |   R23    |   R05    |
+	| DRINA      | No STAR<br>Expect Runway 23 | No STAR<br>Expect Runway 05 |
+	| KAKLU      |   R23    |   R05    |
+	| BEVSO      |   R23    |   R12    |
+	| KLAVA      | No STAR<br>Expect Runway 23 | No STAR<br>Expect Runway 05 |
+	| MARGO      |   R12    |   R12    |
+	| ATNAR      |   R12    |   R12    |
+	| ELROX      |   R12    |   R05    |
 
 === "Visual Right Base"
 
-Visual Right Bases is denoted by `ACFT FM THE EAST AND JET ACFT FM THE WEST EXP INSTR APCH` in the ATIS Approach Expectation field, and is only applicable when **Runway 23** is in use for arrivals.
+	Visual Right Bases is denoted by `ACFT FM THE EAST AND JET ACFT FM THE WEST EXP INSTR APCH` in the ATIS Approach Expectation field, and is only applicable when **Runway 23** is in use for arrivals.
 
-All Jets shall be assigned the Runway **23 Alpha** STAR.
+	All Jets shall be assigned the Runway **23 Alpha** STAR.
 
-Non-Jets shall be assigned the STAR in accordance with the following table:
+	Non-Jets shall be assigned the STAR in accordance with the following table:
 
-| Feeder Fix | 23 & 12  | 23 Only  |
-| ---------- | -------- | -------- |
-| INTOG      |    -     |    -     |
-| DRINA      |   23A    |   23A    |
-| KAKLU      |   23A    |   23A    |
-| BEVSO      | No STAR<br>Expect Instrument Approach<br>Runway 23 | No STAR<br>Expect Instrument Approach<br>Runway 23 |
-| KLAVA      | No STAR<br>Expect Runway 23 | No STAR<br>Expect Runway 23 |
-| MARGO      |   R12    |   R23    |
-| ATNAR      |   R12    |   R23    |
-| ELROX      |   R12    |   R23    |
+	| Feeder Fix | 23 & 12  | 23 Only  |
+	| ---------- | -------- | -------- |
+	| INTOG      |    -     |    -     |
+	| DRINA      |   23A    |   23A    |
+	| KAKLU      |   23A    |   23A    |
+	| BEVSO      | No STAR<br>Expect Instrument Approach<br>Runway 23 | No STAR<br>Expect Instrument Approach<br>Runway 23 |
+	| KLAVA      | No STAR<br>Expect Runway 23 | No STAR<br>Expect Runway 23 |
+	| MARGO      |   R12    |   R23    |
+	| ATNAR      |   R12    |   R23    |
+	| ELROX      |   R12    |   R23    |
 
 === "Expect Instrument Approach"
 
-All Jets shall be assigned the Runway **05 Zulu** STAR, or Runway **23 Alpha** STAR.
+	All Jets shall be assigned the Runway **05 Zulu** STAR, or Runway **23 Alpha** STAR.
 
-Non-Jets shall be assigned the STAR in accordance with the following table:
+	Non-Jets shall be assigned the STAR in accordance with the following table:
 
-| Feeder Fix | 23 & 12  | 05 & 12  |
-| ---------- | -------- | -------- |
-| INTOG      |    -     |   05Z    |
-| DRINA      |   23A    |    -     |
-| KAKLU      |   23A    |   05Z    |
-| BEVSO      | No STAR<br>Expect Instrument Approach<br>Runway 23 | No STAR<br>Expect Instrument Approach<br>Runway 12 |
-| KLAVA      |   23A    |    05Z   |
-| MARGO      | No STAR<br>Expect Instrument Approach<br>Runway 12 | No STAR<br>Expect Instrument Approach<br>Runway 12 |
-| ATNAR      | No STAR<br>Expect Instrument Approach<br>Runway 12 | No STAR<br>Expect Instrument Approach<br>Runway 12 |
-| ELROX      | No STAR<br>Expect Instrument Approach<br>Runway 12 | No STAR<br>Expect Instrument Approach<br>Runway 05 |
+	| Feeder Fix | 23 & 12  | 05 & 12  |
+	| ---------- | -------- | -------- |
+	| INTOG      |    -     |   05Z    |
+	| DRINA      |   23A    |    -     |
+	| KAKLU      |   23A    |   05Z    |
+	| BEVSO      | No STAR<br>Expect Instrument Approach<br>Runway 23 | No STAR<br>Expect Instrument Approach<br>Runway 12 |
+	| KLAVA      |   23A    |    05Z   |
+	| MARGO      | No STAR<br>Expect Instrument Approach<br>Runway 12 | No STAR<br>Expect Instrument Approach<br>Runway 12 |
+	| ATNAR      | No STAR<br>Expect Instrument Approach<br>Runway 12 | No STAR<br>Expect Instrument Approach<br>Runway 12 |
+	| ELROX      | No STAR<br>Expect Instrument Approach<br>Runway 12 | No STAR<br>Expect Instrument Approach<br>Runway 05 |
 
 #### Sequencing
 Sequencing arrivals into YPAD is a joint responsibility of AUG and TBD: AUG is responsible for aircraft arriving from the west, TBD is responsible for aircraft arriving from the east.
