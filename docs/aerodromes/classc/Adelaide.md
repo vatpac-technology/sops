@@ -96,15 +96,14 @@ Shall be assigned the **Radar SID**.
 ## ATIS
 ### Approach Types
 
-| Arrival Runway | Cloud Base                | ATIS APCH field      |
-| -------------- | ------------------------- | -------------------- |
-| All | At or above `A043`        | (Blank)              |
-| All (except 23) | Between `A024` and `A042` | (Blank)  |
-| 23  | Between `A024` and `A042` | `ACFT FM THE EAST AND JET ACFT FM THE WEST EXP INST APCH`\*  |
-| All | Between `A007` and `A023` | `EXP INST APCH`      |
-| All | At or below `A006`        | `EXP ILS APCH`       |
+Normal methods apply to determine the most appropriate approach type.
 
-\*This allows aircraft on the Victor STAR from the west to join a [visual right base](../../../terminal/adelaide/#visual-approaches) without the need to conduct an instrument approach, while keeping aircraft from the east clear of the higher terrain near the Adelaide Hills.
+Additionally, with Runway 23 in use for arrivals, the APCH field shall include the following when the cloud base is between `A024` and `A042`:
+
+`ACFT FM THE EAST AND JET ACFT FM THE WEST EXP INST APCH`
+
+!!! note
+    This allows aircraft on the Victor STAR from the west to join a [visual right base](../../../terminal/adelaide/#visual-approaches) without the need to conduct an instrument approach, while keeping aircraft from the east clear of the higher terrain near the Adelaide Hills.
 
 ### Operational Info
 The Operational Information field should be updated based on the runway mode in use, as per the table below:
