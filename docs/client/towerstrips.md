@@ -163,7 +163,7 @@ OzStrips will flag any potentially invalid routes and incorrect hemispherical le
 
 <figure markdown>
 ![Invalid Level](./img/ozstripsbadlevel.png){ width="450" }
-    <figcaption>A potentially invalid level, shown by the red background on the CFL box</figcaption>
+    <figcaption>A potentially invalid level, shown by the orange background on the RFL box</figcaption>
 </figure>
 
 <figure markdown>
