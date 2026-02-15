@@ -5,14 +5,17 @@
 --8<-- "includes/abbreviations.md"
 ## Positions
 
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | -------- |
-| **Huon** | **Melbourne Centre** | **122.600** | **ML-HUO_CTR** |
-|  <span class="indented">Wonthaggi :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 135.300 | ML-WON_CTR |
+| Name                | ID      | Callsign             | Frequency   | Login ID       |
+| ------------------- | ------- | -------------------- | ----------- | -------------- |
+| **Huon**            | **HUO** | **Melbourne Centre** | **122.600** | **ML-HUO_CTR** |
+|  <span class="indented">Wonthaggi :material-information-outline:{ title="Non-standard position"} | HUO | Melbourne Centre | 135.300 | ML-WON_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
+
+### CPDLC
+The Primary Communication Method for HUO is Voice. [CPDLC](../../../client/cpdlc) may be used in lieu when applicable. The CPDLC Station Code is `YHUO`.
 
 ## Airspace
 
@@ -22,51 +25,60 @@
 </figure>
 
 ### Reclassifications
-#### TAS TCU
-When **HBA** and/or **LTA** are offline, the class C and D airspace `SFC` to `A085` in the relevant TMA is reclassified as class G.
+=== "ES TCU"
+	When **ESA** is offline, the restricted airspace within R360 is deactivated and the airspace is administered by BLA and WON. Alternatively, WON may provide a [top-down service](../../../aerodromes/classc/EastSale) if they wish (not recommended), and this must be coordinated to BLA.
 
-HUO may choose to operate either YMHB or YMLT (or both) aerodromes top down, including the terminal airspace within the Tasmania TMA. Due to limited surveillence coverage and the complex airspace setup, **extending top down to one or both aerodromes is not compulsory.**
+	!!! tip
+		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
+	
+=== "TAS TCU"
+	When **HBA** and/or **LTA** are offline, the class C and D airspace `SFC` to `A085` in the relevant TMA is reclassified as class G.
 
-If HUO chooses to operate top down to either aerodrome, they must administer all relevant airspace within the appropriate TMA, including the class D CTR.
+	HUO may choose to operate either YMHB or YMLT (or both) aerodromes top down, including the terminal airspace within the Tasmania TMA. Due to limited surveillence coverage and the complex airspace setup, **extending top down to one or both aerodromes is not compulsory.**
 
-!!! warning "Important"
-    Ensure you are familiar with the aerodrome procedures for [Launceston](../../../aerodromes/Launceston) and [Hobart](../../../aerodromes/Hobart) before extending top down, and are aware of the limited surveillence coverage available in the lower levels of the TMA.
+	If HUO chooses to operate top down to either aerodrome, they must administer all relevant airspace within the appropriate TMA, including the class D CTR.
 
-!!! tip
-    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for each aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+	!!! warning "Important"
+		Ensure you are familiar with the aerodrome procedures for [Launceston](../../../aerodromes/Launceston) and [Hobart](../../../aerodromes/Hobart) before extending top down, and are aware of the limited surveillence coverage available in the lower levels of the TMA.
 
-#### ES TCU
-When **ESA** is offline, the restricted airspace within R360 is deactivated and the airspace is administered by BLA and WON. Alternatively, WON may provide a [top-down service](../../../aerodromes/classc/EastSale) if they wish (not recommended), and this must be coordinated to BLA.
+	!!! tip
+		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
-!!! tip
-    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+## Departure and Arrival Procedures
+### YMES
+WON is responsible for facilitating operations at YMES departing to/arriving from the south.
 
-### CPDLC
-The Primary Communication Method for HUO is Voice.
+### YMHB
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
 
-[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| HUO  | IPLET<br>MORGO | All     | |
+| ELW  | BOYSE | Non-Jet |       |
 
-The CPDLC Station Code is `YHUO`.
+#### Sequencing
+All sequencing is performed by HUO.
 
-!!! tip
-    Even though HUO's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+### YMLT
+#### Sequencing
+All sequencing is performed by HUO.
 
-## Sector Responsibilities
-### Huon (HUO)
-#### YMLT Arrivals
-HUO is reponsible for issuing STAR clearances, sequencing, and descent.
+### YMML
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
 
-#### YMHB Arrivals
-HUO is reponsible for issuing STAR clearances, sequencing, and descent.
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| WON  | PORTS<br>RAZZI | All     | |
 
-### Wonthaggi (WON)
-#### YMML Arrivals
-WON is responsible for issuing STAR Clearances, sequencing, and descent.
+Aircraft should primarily be assigned the RAZZI STAR. The PORTS STAR may be issued in lieu of the RAZZI STAR to reduce track miles and [assist with the flow](../../../terminal/melbourne/#flow).
 
-### Sequencing in to YMML
+#### Sequencing
+HUO is responsbile for sequencing arrivals from the south into YMML.
 
-#### Predictable Sequencing Waypoints
-There are four [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YMML via **H215**, **P753**, **L508** and **M625**. These waypoints are perpendicular to **M625** and **H215**.
+##### Predictable Sequencing Waypoints
+There are four [Predictable Sequencing](../../../controller-skills/sequencing/#predictable-sequencing) waypoints available for aircraft inbound YMML via **H215**, **P753**, **L508** and **M625**. These waypoints are perpendicular to **M625** and **H215**.
 
 The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
 
@@ -86,7 +98,7 @@ The table below contains the estimated time from the initial waypoint to the fin
     | AKTAM | OSEMI | RAZZI | 6 |
     | AKTAM | OTGUN | RAZZI | 8 |
 
-#### Holding Fixes
+##### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YMML. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
 
 | Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
@@ -96,11 +108,11 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 !!! tip
     Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector. 
 
-#### LAHSO
+##### LAHSO
 !!! warning "Important"
     Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
 
-In accordance with the authorisation requirements above, YMML may utilise LAHSO during exceptionally busy events. Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../controller-skills/runwaymanagement.md#lahso) for more information.
+In accordance with the authorisation requirements above, YMML may utilise LAHSO during exceptionally busy events. Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../../controller-skills/runwaymanagement/#lahso) for more information.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -110,14 +122,6 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | ---- | -------- | --------- | --------- |
 | HUO | WON | YMML | |
 | WON | HUO | YMHB | |
-
-### First Contact
-Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
-
-| Transferring Sector | Receiving Sector | ADES | Notes |
-| ---- | -------- | --------- | --------- |
-| WON, WOL(SNO) | HUO | YMHB | |
-| HUO, WOL(SNO) | WON | YMML | 
 
 ## Terminal Handover Frequencies
 Aircraft being transferred from enroute to a TCU with multiple frequencies shall be given the frequency for the revelant TCU position.
@@ -287,6 +291,23 @@ Voiceless for all aircraft:
 
 All other aircraft going to HUO CTA will be **Heads-up** Coordinated by TAS TCU.
 
+### ES TCU
+#### Departures
+Voiceless for all aircraft:
+
+- Tracking via a Procedural SID terminus; and  
+- Assigned the lower of `F200` or the `RFL`
+
+All other aircraft going to HUO(WON) CTA must be **Heads-up** Coordinated by ESA prior to the boundary. 
+
+#### Arrivals
+Voiceless for all aircraft:
+
+- With ADES **YMES**; and
+- Assigned `A100`
+
+All other aircraft coming from HUO(WON) CTA will be **Heads-up** Coordinated to ESA.
+
 ### ML TCU
 #### Airspace
 The Vertical limits of the ML TCU are `SFC` to `F245`.
@@ -327,6 +348,3 @@ Aircraft must have their identification terminated and be instructed to make a p
 
 !!! phraseology
     **HUO**: "QFA121, identification terminated, report position to Brisbane Radio, 129.25"
-
-### ES TCU
-Reserved.

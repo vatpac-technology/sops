@@ -40,8 +40,8 @@ The following altitude constraints and tracking points are implied by the coded 
 
 | Departure | Initial Constraint | Route |
 | --------- | ----------| --------- |
-| Northern 3 | `F190` by BINUP | BINUP MURJO BOBED LESKO MOSSI, or<br>BINUP MURJO BOBED LESKO ADNUK |
-| Central 3 | `F190` by BINUP | BINUP MURJO BOBED VIRGE |
+| Northern 5 | `F190` by BINUP | BINUP MURJO BOBED LESKO MOSSI, or<br>BINUP MURJO BOBED LESKO ADNUK |
+| Central 5 | `F190` by BINUP | BINUP MURJO BOBED VIRGE |
 | Byron 1 | `F190` by COWIE | COWIE KIWEE ZANET LOTMA SEMAJ |
 
 !!! phraseology
@@ -162,6 +162,7 @@ Circuits are flown at the following altitudes:
 ## SID Selection
 
 IFR aircraft planned via **BN**, **JEDDA**, **MESED**, **BOBOP**, **TATEN**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
+
 Aircraft who are not planned via those points may be assigned the RADAR SID or a visual departure. 
 
 ## Coordination

@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name | ID | Callsign | Frequency | Login ID |
-| ---- | ---- | ------ | --------- | -------- |
-| **Nadi Oceanic Control** | **NFFF** | **Nadi Radio** | **8.846 (123.600)** | **NFFF_FSS**  |
+| Name                     | ID       | Callsign             | Frequency           | Login ID       |
+| ------------------------ | -------- | -------------------- | ------------------- | -------------- |
+| **Nadi Oceanic Control** | **NFFF** | **Nadi Radio**       | **123.600 (8.846)** | **NFFF_FSS**   |
 
 ## Airspace
 <figure markdown>

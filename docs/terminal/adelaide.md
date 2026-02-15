@@ -39,10 +39,7 @@ ED CTR reverts to Class G when **ED ADC** is offline, and is administered by the
 </figure>
 
 #### Adelaide Radar (AAR)
-AAR is responsible for the provision of FIS in Class G airspace within the AD TMA. It is a role normally performed by AAE but can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordation requirements](#between-aar-and-tcu) exist between AAR and other TCU positions.  
-
-!!! example
-    During a busy event, AAE is experiencing a high workload and wishes to delegate the AAR role to AAW controller who isn't as busy.
+AAR is responsible for the provision of FIS in Class G airspace within the AD TMA. It is a role normally performed by the controller responsible for **AAE**. The position is designed to reduce the workload of other TMA positions by identifing and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller.
 
 ## Local Procedures 
 ### Scenic Coastal Flights
@@ -78,7 +75,10 @@ Coordinate the aircraft with ADC, including the use of the appropriate clearance
 Once the aircraft has transited the extended runway centreline and is clear of potential conflict with YPAD, ADC will transfer them back to the TCU.
 
 ## Departure and Arrival Procedures
-### Arrival 
+### Visual Approaches
+
+Adelaide utilises visual approaches extensively to help facilitate a smooth sequence of jet and non-jet arrivals. There are two different configurations of visual arrivals used, depending on the cloud base.
+
 #### Jets
 Jet aircraft will be assigned the relevant Alpha or Zulu STAR to Runway 23 or 05.
 
@@ -90,7 +90,7 @@ Non-Jet aircraft will be processed via a combination of:
 - No STAR, expecting vectors or direct tracking for VSA or IAP
 
 !!! tip
-    Refer to the [TBD page](../enroute/melbourne/TBD.md#ypad-star-assignment) for more details on the ATIS conditions and feeder fix combinations which will determine how each aircraft is processed.
+    Refer to the [TBD page](../enroute/melbourne/TBD/#star-assignment) for more details on the ATIS conditions and feeder fix combinations which will determine how each aircraft is processed.
 
 Non-jet aircraft processed via direct tracking for a VSA should be vectored or cleared as necessary to join a circuit leg (generally final or downwind).
 
@@ -267,9 +267,6 @@ All aircraft transiting between internal AD TCU boundaries must be heads-up coor
     <span class="hotline">**AAE** -> **AAW**</span>: "FD123, A090"   
 
 Boundary coordination is not required between AAW and AAE for aircraft arriving or departing tracking via the 05/23 extended centreline.
-
-#### Between AAR and TCU
-Standard [Radar to TCU](../controller-skills/coordination.md#radar-position-tcu-controllers) coordination for each aircraft transiting between Class G and CTA (or vice versa).
 
 ### PF ADC
 #### Airspace

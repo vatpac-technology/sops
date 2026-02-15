@@ -5,19 +5,22 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | -------- |
-| **Onslow** | **Melbourne Centre** | **134.000** | **ML-OLW_CTR** |
-| <span class="indented">Port :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 127.000 | ML-POT_CTR |
-| <span class="indented">Paraburdoo :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 133.500 | ML-PAR_CTR |
-| <span class="indented">Newman :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 125.400 | ML-NEW_CTR |
-| <span class="indented">Meekatharra :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 132.000 | ML-MEK_CTR |
-| <span class="indented">Mount :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 133.700 | ML-MTK_CTR |
-| <span class="indented">Menzies :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 134.300 | ML-MZI_CTR |
+| Name                | ID      | Callsign             | Frequency   | Login ID       |
+| ------------------- | ------- | -------------------- | ----------- | -------------- |
+| **Onslow**          | **OLW** | **Melbourne Centre** | **134.000** | **ML-OLW_CTR** |
+| <span class="indented">Meekatharra :material-information-outline:{ title="Non-standard position"} | MEK | Melbourne Centre | 132.000 | ML-MEK_CTR |
+| <span class="indented">Menzies :material-information-outline:{ title="Non-standard position"}     | MZI | Melbourne Centre | 134.300 | ML-MZI_CTR |
+| <span class="indented">Mount :material-information-outline:{ title="Non-standard position"}       | MTK | Melbourne Centre | 133.700 | ML-MTK_CTR |
+| <span class="indented">Newman :material-information-outline:{ title="Non-standard position"}      | NEW | Melbourne Centre | 125.400 | ML-NEW_CTR |
+| <span class="indented">Paraburdoo :material-information-outline:{ title="Non-standard position"}  | PAR | Melbourne Centre | 133.500 | ML-PAR_CTR |
+| <span class="indented">Port :material-information-outline:{ title="Non-standard position"}        | POT | Melbourne Centre | 127.000 | ML-POT_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
+	
+### CPDLC
+The Primary Communication Method for OLW is [CPDLC](../../../client/cpdlc). Voice may be used in lieu when applicable. The CPDLC Station Code is `YOLW`.
 
 ## Airspace
 
@@ -29,26 +32,24 @@
 OLW is responsible for **POT**, **PAR**, **NEW**, **MEK**, **MTK** and **MZI** when they are offline.  
 
 ### Reclassifications
-#### KA CTR
-When **KA ADC** is offline, KA CTR (Class D `SFC` to `A055`) reverts to Class G, and is administered by OLW. Alternatively, OLW may provide a [top-down procedural service](../../../aerodromes/Karratha) if they wish.
+=== "KA CTR"
+	When **KA ADC** is offline, KA CTR (Class D `SFC` to `A055`) reverts to Class G, and is administered by OLW. Alternatively, OLW may provide a [top-down procedural service](../../../aerodromes/Karratha) if they wish.
 
-!!! tip
-    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+	!!! tip
+		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
+		
+=== "LM TCU"
+	When **LM TCU** is offline, LM MIL CTR and associated restricted airspace reverts to Class G, and is administered by OLW.
+	
+	!!! tip
+        Consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
-### CPDLC
-
-The Primary Communication Method for OLW is [CPDLC](../../../client/cpdlc).
-
-The CPDLC Station Code is `YOLW`.
-
-Voice may be used in lieu when applicable.
-
-## Sector Responsibilities
-### YPKA Arrivals
+## Departure and Arrival Procedures
+### YPKA
 OLW is responsible for issuing descent.
 
-### YPLM Arrivals
-OLW is responsible for issuing descent.
+### YPLM
+OLW is responsibile for facilitating operations in and out of YPLM.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -70,7 +71,7 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 #### Airspace
 KA ADC is responsible for the Class D airspace in the KA CTR `SFC` to `A055`.
 
-Refer to [Reclassifications](#ka-ctr) for operations when KA ADC is offline.
+Refer to [Reclassifications](#reclassifications) for operations when KA ADC is offline.
 
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from KA ADC to OLW for all aircraft **entering OLW CTA**.
@@ -81,8 +82,8 @@ The Standard Assignable level from **KA ADC** to **OLW** is:
 | ---- | ---- |
 | All | The lower of `A050` and `RFL` |
 
-#### Arrivals
-YPKA arrivals shall be heads-up coordinated to **KA ADC** from OLW prior to **5 mins** from the boundary.
+#### Arrivals/Overfliers
+YPKA arrivals and overfliers shall be heads-up coordinated to **KA ADC** from OLW prior to **5 mins** from the boundary.
 
 !!! phraseology
     <span class="coldline">**OLW** -> **KA ADC**</span>: "Via MCNAB, QFA1214 for the RNP U RWY 26”  

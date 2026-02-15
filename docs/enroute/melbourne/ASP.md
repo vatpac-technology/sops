@@ -5,19 +5,22 @@
 --8<-- "includes/abbreviations.md"
 ## Positions
 
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | -------- |
-| **Alice Springs** | **Melbourne Centre** | **128.850** | **ML-ASP_CTR** |
-| <span class="indented">Alice Springs West :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 131.800 | ML-ASW_CTR |
-| <span class="indented">Warburton :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 124.900 | ML-WAR_CTR |
-| <span class="indented">Forrest :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 132.700 | ML-FOR_CTR |
-| <span class="indented">Woomera :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 132.900 | ML-WRA_CTR |
-| <span class="indented">Bourke :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 128.200 | ML-BKE_CTR |
-| <span class="indented">Esperance :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 123.950 | ML-ESP_CTR |
+| Name                | ID      | Callsign             | Frequency   | Login ID       |
+| ------------------- | ------- | -------------------- | ----------- | -------------- |
+| **Alice Springs**   | **ASP** | **Melbourne Centre** | **128.850** | **ML-ASP_CTR** |
+| <span class="indented">Alice Springs West :material-information-outline:{ title="Non-standard position"} | ASW | Melbourne Centre | 131.800 | ML-ASW_CTR |
+| <span class="indented">Bourke :material-information-outline:{ title="Non-standard position"}             | BKE | Melbourne Centre | 128.200 | ML-BKE_CTR |
+| <span class="indented">Esperance :material-information-outline:{ title="Non-standard position"}          | ESP | Melbourne Centre | 123.950 | ML-ESP_CTR |
+| <span class="indented">Forrest :material-information-outline:{ title="Non-standard position"}            | FOR | Melbourne Centre | 132.700 | ML-FOR_CTR |
+| <span class="indented">Warburton :material-information-outline:{ title="Non-standard position"}          | WAR | Melbourne Centre | 124.900 | ML-WAR_CTR |
+| <span class="indented">Woomera :material-information-outline:{ title="Non-standard position"}            | WRA | Melbourne Centre | 132.900 | ML-WRA_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
+
+### CPDLC
+The Primary Communication Method for ASP is [CPDLC](../../../client/cpdlc). Voice may be used in lieu when applicable. The CPDLC Station Code is `YASP`.
 
 ## Airspace
 
@@ -28,23 +31,22 @@
 
 **AS ADC** is responsible for the Class D airspace `SFC` to `A045`, as well as the Class C airspace `A045` to `A065`, within the AS CTR.
 
-### Reclassifications
-#### AS CTR
-When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME AS reverts to Class G, and AS CTA (Class C `F125` to `F245`) within 80 DME AS reverts to Class E, and both are administered by ASP. Alternatively, ASP may provide a [top-down procedural service](../../../aerodromes/Alice) if they wish.
-
-!!! tip
-    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
-
 ## Extending
 !!! warning "Important"
     Due to the large geographical area covered by this sector and it's neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
 
-### CPDLC
-The Primary Communication Method for ASP is [CPDLC](../../../client/cpdlc).
+### Reclassifications
+=== "AS CTR"
+	When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME AS reverts to Class G, and AS CTA (Class C `F125` to `F245`) within 80 DME AS reverts to Class E, and both are administered by ASP. Alternatively, ASP may provide a [top-down procedural service](../../../aerodromes/Alice) if they wish.
 
-The CPDLC Station Code is `YASP`.
+	!!! tip
+		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
-Voice may be used in lieu when applicable.
+=== "WR CTR"
+	When **WR TCU** is offline, WR MIL CTR and associated restricted airspace reverts to Class G, and is administered by WRA.
+	
+	!!! tip
+        Consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
 ## Surveillance Coverage
 Limited surveillance coverage exists in the FOR sector greater than **250nm** from ADSB stations. [Procedural Standards](../../../separation-standards/procedural/) must be implemented **prior** to losing surveillance coverage
@@ -53,9 +55,21 @@ The **Orange** shaded areas will have limited surveillance coverage **Below F330
 The **Red** shaded areas will have limited surveillance coverage at **All Levels**.
 
 <figure markdown>
-![Forest Surveillance Coverage](../img/aspsurv.png){ width="700" }
-  <figcaption>Forest Surveillance Coverage</figcaption>
+![Forrest Surveillance Coverage](../img/aspsurv.png){ width="700" }
+  <figcaption>Forrest Surveillance Coverage</figcaption>
 </figure>
+
+## Departure and Arrival Procedures
+### YBAS
+#### Sequencing
+All sequencing is performed by ASP.
+
+### YPWR
+WRA is responsibile for facilitating operations in and out of YPWR.
+
+<!-- ## Special Use Airspace 
+### Restricted Areas
+-->
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -79,7 +93,7 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 #### Airspace
 AS ADC is responsible for the Class D airspace `SFC` to `A045`, as well as the Class C airspace `A045` to `A065`, within the AS CTR.
 
-Refer to [Reclassifications](#as-ctr) for operations when AS ADC is offline.
+Refer to [Reclassifications](#reclassifications) for operations when AS ADC is offline.
 
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from AS ADC to ASP for all aircraft **entering ASP CTA**.
@@ -90,8 +104,8 @@ The Standard Assignable level from **AS ADC** to **ASP** is:
 | ---- | ---- |
 | All | The lower of `A070` and `RFL` |
 
-#### Arrivals
-YBAS arrivals shall be heads-up coordinated to **AS ADC** from ASP prior to **5 mins** from the boundary.
+#### Arrivals/Overfliers
+YBAS arrivals and overfliers shall be heads-up coordinated to **AS ADC** from ASP prior to **5 mins** from the boundary.
 
 !!! phraseology
     <span class="hotline">**ASP** -> **AS ADC**</span>: "Via SADEL, QFA1956”  

@@ -73,15 +73,15 @@ The routes are shown below:
 
 | Departure | Initial Constraint | Route |
 | --------- | ----------| --------- |
-| Northern 3 | `F190` by BINUP | BINUP MURJO BOBED LESKO MOSSI, or<br>BINUP MURJO BOBED LESKO ADNUK |
-| Central 3 | `F190` by BINUP | BINUP MURJO BOBED VIRGE |
+| Northern 5 | `F190` by BINUP | BINUP MURJO BOBED LESKO MOSSI, or<br>BINUP MURJO BOBED LESKO ADNUK |
+| Central 5 | `F190` by BINUP | BINUP MURJO BOBED VIRGE |
 | Byron 1 | `F190` by COWIE | COWIE KIWEE ZANET LOTMA SEMAJ | 
 
 !!! important
     Ensure that aircraft meet the `F190` requirement by the first waypoint to ensure separation assurance is maintained with civil aircraft in the adjacent airspace.
 
 ##### Arrivals
-Aircraft will be cleared for the coded clearance by **INL**/**NSA**, with the procedure terminating at the AMB TMA airspace boundary.
+Aircraft will be cleared for the coded clearance by **INL (NSA/GOL/SDY)**, with the procedure terminating at the AMB TMA airspace boundary.
 
 #### Civil Training Area
 Civil operators (including Australian Air Force Cadets) conduct flying operations within the South Western Training Area (SWTA), located between the 10DME and 20DME arcs to the southwest of the AMB CTR. The SWTA is divided in half by the Rosewood-Mt Walker-Aratula Road into SWTA Alpha (north) and SWTA Bravo (south). The training area is classified Class G airspace but some pilots may request to climb into CTA to facilitate flight training (such as stall practice).

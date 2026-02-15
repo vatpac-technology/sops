@@ -5,19 +5,22 @@
 --8<-- "includes/abbreviations.md"
 ## Positions
 
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | -------- |
-| **Hyden** | **Melbourne Centre** | **118.200** | **ML-HYD_CTR** |
-| <span class="indented">Pingelly :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 133.900 | ML-PIY_CTR |
-| <span class="indented">Cross :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 135.800 | ML-CRS_CTR |
-| <span class="indented">Jarrah :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 120.300 | ML-JAR_CTR |
-| <span class="indented">Leeman :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 122.400 | ML-LEA_CTR |
-| <span class="indented">Grove :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 133.800 | ML-GVE_CTR |
-| <span class="indented">Geraldton :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 134.200 | ML-GEL_CTR |
+| Name                | ID      | Callsign             | Frequency   | Login ID       |
+| ------------------- | ------- | -------------------- | ----------- | -------------- |
+| **Hyden**           | **HYD** | **Melbourne Centre** | **118.200** | **ML-HYD_CTR** |
+| <span class="indented">Cross :material-information-outline:{ title="Non-standard position"}     | SCR | Melbourne Centre | 135.800 | ML-CRS_CTR |
+| <span class="indented">Geraldton :material-information-outline:{ title="Non-standard position"} | GEL | Melbourne Centre | 134.200 | ML-GEL_CTR |
+| <span class="indented">Grove :material-information-outline:{ title="Non-standard position"}     | GVE | Melbourne Centre | 133.800 | ML-GVE_CTR |
+| <span class="indented">Jarrah :material-information-outline:{ title="Non-standard position"}    | JAR | Melbourne Centre | 120.300 | ML-JAR_CTR |
+| <span class="indented">Leeman :material-information-outline:{ title="Non-standard position"}    | LEA | Melbourne Centre | 122.400 | ML-LEA_CTR |
+| <span class="indented">Pingelly :material-information-outline:{ title="Non-standard position"}  | PIY | Melbourne Centre | 133.900 | ML-PIY_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
+
+### CPDLC
+The Primary Communication Method for HYD is Voice. [CPDLC](../../../client/cpdlc) may be used in lieu when applicable. The CPDLC Station Code is `YHYD`.
 
 ## Airspace
 <figure markdown>
@@ -25,104 +28,99 @@
   <figcaption>Pingelly Airspace</figcaption>
 </figure>
 
-### CPDLC
-The Primary Communication Method for HYD is Voice.
+### Reclassifications
+=== "PE TCU"
+	When **PEA** is offline, the PE MIL CTR, GIG MIL CTR, and restricted airspace within R155 is deactivated and the airspace is administered by LEA, PIY and PH TCU.
 
-[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
+	!!! tip
+        Consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
-The CPDLC Station Code is `YHYD`.
+## Departure and Arrival Procedures
+### YGIG
+LEA and PIY share responsibility for facilitating operations in and out of YGIG
 
-!!! tip
-    Even though HYD's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
+### YPEA
+#### STAR Assignment
+The STARs at YPEA have different variations designed to facilitate separation with PH TCU traffic, dependant on the runway mode in use at YPPH.
 
-## Sector Responsibilities
-### Pingelly (PIY)
-#### YPPH Arrivals
-PIY is responsible for final sequencing actions, final descent, and STAR Clearances (for Non-jets).
+The following subsectors are responsible for issuing STAR clearance.
 
-#### YPJT Arrivals
-PIY is responsible for issuing STAR Clearances, final descent, and ascertaining arrival intentions.
+=== "RWY 03/06 at YPPH"
 
-See [YPJT Arrivals](#ypjtypea-arrivals) for STAR assignment.
+	| Subsector | STAR | Type | Notes |
+	| ---- | --------- | ---- | ----- |
+	| HYD  | PEA **GOLF**, KABLI Trans | Jet     | Descent not below `F190` |
+	| PIY  | PEA **GOLF**, LAVEX Trans<br>PEA **WHISKEY**, MALUP Trans | Non-Jet |      |
 
-#### YPEA Arrivals
-PIY is responsible for issuing STAR Clearances (for Non-Jets), final descent and ascertaining arrival intentions.
+=== "RWY 21/24 at YPPH"
+	| Subsector | STAR | Type | Notes |
+	| ---- | --------- | ---- | ----- |
+	| HYD  | PEA **ROMEO**, KABLI Trans | Jet     | Descent not below `F190` |
+	| PIY  | PEA **ROMEO**, LAVEX Trans | Non-Jet |      |
+	
+Arrivals from the east and north shall be given initial descent to not below `F190`. **PIY** will issue final descent.
 
-See [YPJT Arrivals](#ypjtypea-arrivals) for STAR assignment.
 
-#### Overfliers
-For aircraft overflying the PH TCU place `O/FLY` in the LABEL DATA field.
+### YPJT
+#### STAR Assignment
+The STARs at YPEA have different variations designed to facilitate separation with PH TCU traffic, dependant on the runway mode in use at YPPH.
 
-### Leeman (LEA)
-!!! note
-    Controllers should be aware that VHF coverage near the LEA/IND border may be limited. Controllers should strive to issue HF frequencies and transfer of communications instruction prior to 160 NM PH DME.
+The following subsectors are responsible for issuing STAR clearance.
 
-#### YPPH Arrivals
-LEA is responsible for issuing STAR clearance and final descent for aircraft inbound via `IPMOR`.
+=== "RWY 03/06 at YPPH"
 
-See [Perth Runway Modes](#ypph-runway-modes) for runway assignment.
+	| Subsector | STAR | Type | Notes |
+	| ---- | --------- | ---- | ----- |
+	| GVE  | JT **GOLF**, WOORA Trans | Jet | Descent not below `F190` |
+	| HYD  | JT **GOLF**, KABLI Trans | Jet | Descent not below `F190` |
+	| PIY  | JT **GOLF**, LAVEX Trans<br>JT **WHISKEY**, MALUP Trans<br>JT **GOLF**, WOORA Trans | Non-Jet |      |
 
-#### YPJT Arrivals
-LEA is responsible for issuing STAR Clearances, final descent, and ascertaining arrival intentions.
+=== "RWY 21/24 at YPPH"
+	| Subsector | STAR | Type | Notes |
+	| ---- | --------- | ---- | ----- |
+	| HYD  | JT **ROMEO**, KABLI Trans | Jet     | Descent not below `F190` |
+	| PIY  | JT **ROMEO**, LAVEX Trans | Non-Jet |      |
 
-See [YPJT Arrivals](#ypjtypea-arrivals) for STAR assignment.
+Arrivals from the east and north shall be given initial descent to not below `F190`. **PIY** will issue final descent.
 
-#### YPEA Arrivals
-LEA is responsible for issuing STAR Clearances, final descent and ascertaining arrival intentions.
+### YPPH
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
 
-See [YPEA Arrivals](#ypjtypea-arrivals) for STAR assignment.
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| GVE  | JULIM | Jet      | Descent not below `F190` | 
+| HYD  | KABLI | Jet      | Descent not below `F190` |
+| JAR  | SOLUS | All      |       |
+| LEA  | IPMOR | All      |       |
+| PIY  | DAYLR<br>LAVEX<br>SAPKO | Non-Jet |       |
 
-#### Overfliers
-For aircraft overflying the PH TCU place `O/FLY` in the LABEL DATA field.
+Arrivals from the east and north shall be given initial descent to not below `F190`. **PIY** will issue final descent.
 
-### Grove (GVE)
-#### YPPH Arrivals
-GVE is responsible for issuing STAR clearance to Jets inbound via `JULIM` and `SAPKO`, and initial descent to not below `F190`.
+##### Runway Assignment
+When the [Southwest Plan](../../../aerodromes/classc/Perth/#runway-modes) active, arrivals shall be processed to either Runway 21 or 24 based on their feeder fix (subject to any operational requirements).
 
-See [Perth Runway Modes](#ypph-runway-modes) for runway assignment.
+| FF    | Runway |
+| ----- | ------ |
+| JULIM | 21 |
+| SAPKO | 21 |
+| IPMOR | 21 |
+| KABLI | 24 |
+| LAVEX | 24 |
+| SOLUS | 24 |
 
-#### YPEA Arrivals
-GVE is responsible for issuing STAR Clearances (for Jets), and initial descent to not below `F190`.
+#### Sequencing
+Sequencing arrivals into YPPH is a joint responsibility of multiple subsectors:
 
-See [YPEA Arrivals](#ypjtypea-arrivals) for STAR assignment.
+- GVE and HYD will perform initial sequencing actions for aircraft arriving from the north and east, with final sequencing performed by PIY.
+- LEA is responsible for all sequencing actions for aircraft arriving from the west.
+- JAR is responsible for all sequencing actions for aircraft arriving from the south.
 
-### Hyden (HYD)
-#### YPPH Arrivals
-HYD is responsible for issuing STAR clearance to Jets inbound via `KABLI`/`MALUP`, `DAYLR` and `LAVEX`, and initial descent to not below `F190`.
-
-See [Perth Runway Modes](#ypph-runway-modes) for runway assignment.
-
-#### YPEA Arrivals
-HYD is responsible for issuing STAR Clearances (for Jets), and initial descent to not below `F190`.
-
-See [YPEA Arrivals](#ypjtypea-arrivals) for STAR assignment.
-
-### Cross (CRS) / Geraldton (GEL)
-Just keeping them separated!
-
-### Jarrah (JAR)
-!!! note
-    Controllers should be aware there may be limited ADS-B coverage around Albany (YABA). Expect some areas of Class E airspace to be outside surveillance coverage. [Procedural Standards](../../../separation-standards/procedural) may need to be used in these cases.
-
-#### YPPH Arrivals
-JAR is responsible for issuing STAR clearance to aircraft inbound via `SOLUS`.
-
-See [Perth Runway Modes](#ypph-runway-modes) for runway assignment.
-
-#### YPJT Arrivals
-JAR is responsible for issuing descent and ascertaining arrival intentions.
-
-#### YPEA Arrivals
-JAR is responsible for issuing descent and ascertaining arrival intentions.
-
-#### Overfliers
-For aircraft overflying the PH TCU place `O/FLY` in the LABEL DATA field.
-
-### Sequencing in to YPPH
+##### Adjacent Feeder Fixes
 Aircraft assigned the **same runway** inbound via **JULIM** and **SAPKO**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
-#### Predictable Sequencing Waypoints
-There are ten [Predictable Sequencing](../../controller-skills/sequencing.md#predictable-sequencing) waypoints available for aircraft inbound YPPH via  **Q10**, **Q32**, **Q27**, **Q41** and **Z38**, located south of **Q10** and north of **Q27**. There are also eight waypoints available for aicraft inbound via **Q9**, **Q31**, **Q38**, **Q73** and **Q181** located east of the **Q38**.
+##### Predictable Sequencing Waypoints
+There are ten [Predictable Sequencing](../../../controller-skills/sequencing/#predictable-sequencing) waypoints available for aircraft inbound YPPH via  **Q10**, **Q32**, **Q27**, **Q41** and **Z38**, located south of **Q10** and north of **Q27**. There are also eight waypoints available for aicraft inbound via **Q9**, **Q31**, **Q38**, **Q73** and **Q181** located east of the **Q38**.
 
 The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
 
@@ -252,7 +250,7 @@ The table below contains the estimated time from the initial waypoint to the fin
     | BUNGL | IGROB | MALUP | +5 |
     | BUNGL | KINAB | MALUP | +7 |
 
-#### Holding Fixes
+##### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YPPH. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
 
 | Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
@@ -263,41 +261,6 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 !!! tip
     Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector. 
 
-## YPPH Runway Modes
-Generally, YPPH operates on either the Southwest or Northeast runway plan, as below. Where strong winds dictate the use of only a single runway, this will be nominated in the ATIS.
-
-### Southwest Plan
-With the Southwest Plan active, arrivals shall be processed to either runway 21 or 24 based on their feeder fix, as per the table below:
-
-| Feeder Fix | Assigned Runway |
-| --- | --- |
-| JULIM | 21 |
-| SAPKO | 21 |
-| IPMOR | 21 |
-| KABLI | 24 |
-| LAVEX | 24 |
-| SOLUS | 24 |
-
-!!! note
-    Where an aircraft operationally requires runway 21, they shall be assigned that runway regardless of feeder fix.
-
-### Northeast Plan
-With the Northeast Plan active (runways 03 and 06 in use), all arrivals shall be processed to runway 03.
-
-## YPJT/YPEA Arrivals
-To facilitate smooth movement of traffic in the Perth TCU, IFR Arrivals to YPJT and YPEA shall be assigned a STAR in accordance with the *YPPH Runway Mode*:
-
-| Feeder Fix | 03/06 | 21/24 |
-| ------------------- | ----- | ----- |
-| WOORA (YPJT) | Golf | WOORA PH JT (No STAR) |
-| JULIM (YPEA) | JULIM PEA (No STAR) | JULIM PEA (No STAR) |
-| LAVEX | Golf | Romeo |
-| KABLI (Jet) | Golf | Romeo | 
-| MALUP (Non-Jet) | Whiskey | Romeo (via KABLI) | 
-
-!!! note
-    Assigning a STAR to YPJT/YPEA Arrivals still does not meet [voiceless coordination requirements](#arrivalsoverfliers) to PH TCU. All YPJT/YPEA Arrivals must be **heads-up coordinated**, including those assigned a STAR.
-
 ## STAR Clearance Expectation
 ### Handoff
 Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
@@ -307,18 +270,6 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | GVE, CRS, HYD | PIY | YPPH, YPEA | Non-jets only |
 | GVE, CRS, HYD | PIY | YPJT | |
 | GEL | LEA | YPPH | |
-
-### First Contact
-Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
-
-| Transferring Sector | Receiving Sector | ADES | Notes |
-| ---- | -------- | --------- | --------- |
-| OLW(MEK, MTK, MZI) | GVE, HYD | YPPH, YPEA | Jets only |
-| ASP(ESP) | HYD | YPPH, YPEA | Jets only |
-| GVE, CRS, HYD | PIY | YPPH, YPEA | Non-jets only |
-| GVE, CRS, HYD | PIY | YPJT | |
-| GEL, IND | LEA | YPPH | |
-| IND | LEA, JAR | YPPH | |
 
 ## Terminal Handover Frequencies
 Aircraft being transferred from enroute to a TCU with multiple frequencies shall be given the frequency for the revelant TCU position.
@@ -425,3 +376,6 @@ Aircraft must have their identification terminated and be instructed to make a p
 
 !!! phraseology
     **LEA**: "QFA121, identification terminated, report position to Brisbane Radio, 129.25"
+
+!!! note
+    Controllers should be aware that VHF coverage near the LEA/IND border may be limited. Controllers should strive to issue HF frequencies and transfer of communications instruction prior to 160 NM PH DME.
