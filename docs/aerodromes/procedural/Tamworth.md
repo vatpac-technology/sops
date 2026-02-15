@@ -52,21 +52,19 @@ Taxiway B west of C is limited to 8000KG AUW and 23M MAX wingspan. Common airlin
   <figcaption>Twy B west of C shown in red</figcaption>
 </figure>
 
-### Standard Taxi Procedures
-Standard taxi routes establish an implied set of taxi instructions which pilots are expected to comply with in the absence of other instructions. All runway crossings require an explicit crossing instruction.
-
-Controllers **do not** need to explicitly say each taxiway provided it is covered by a standard taxi route in the tables below.
+### Recommended Taxi Routes
+To avoid nose-to-nose conflict at the southern runway, the following recommended taxi routes shall be utilised.
 
 === "Runway 12R"
 	<figure markdown>
-	![Standard Taxi Route for RWY 12R](img/ystw_taxi_12r.png){ width="500" }
-	  <figcaption>Standard Taxi Route for RWY 12R</figcaption>
+	![Recommended Taxi Route for RWY 12R](img/ystw_taxi_12r.png){ width="500" }
+	  <figcaption>Recommended Taxi Route for RWY 12R</figcaption>
 	</figure>
 	
 === "Runway 30L"
 	<figure markdown>
-	![Standard Taxi Route for RWY 30L](img/ystw_taxi_30l.png){ width="500" }
-	  <figcaption>Standard Taxi Route for RWY 30L</figcaption>
+	![Recommended Taxi Route for RWY 30L](img/ystw_taxi_30l.png){ width="500" }
+	  <figcaption>Recommended Taxi Route for RWY 30L</figcaption>
 	</figure>
 
 
@@ -75,9 +73,7 @@ Controllers **do not** need to explicitly say each taxiway provided it is covere
 
 #### Southern Runway Departures
 
-!!! phraseology
-    **83C**: "Tamworth Ground, Cherokee 83C, departure details"  
-    **TW SMC**: "83C"  
+!!! phraseology 
     **83C**: "83C, at IFTT, received A, for a GST departure, request taxi"  
     **TW SMC**: "83C, Tamworth Ground, taxi to holding point J Runway 12R"  
     **83C**: "Taxi to holding point J Runway 12R, 83C"
@@ -85,8 +81,6 @@ Controllers **do not** need to explicitly say each taxiway provided it is covere
 #### Northern Runway Departures
 
 !!! phraseology
-    **ZFN**: "Tamworth Ground, Cherokee ZFN, departure details"  
-    **TW SMC**: "ZFN"  
     **ZFN**: "Tamworth Ground, Cherokee ZFN, at IFTT, received A, request airways and taxi clearance to YSTW via MAL"  
     **TW SMC**: "ZFN, Tamworth Ground, cleared to YSTW via MAL flight planned route, climb to `A045`, taxi to holding point B Runway 12L, cross runways 18 and 24"  
     **ZFN**: "Cleared to YSTW via MAL flight planned route, climb to `A045`, taxi to holding point B Runway 12L, cross runways 18 and 24, ZFN"
