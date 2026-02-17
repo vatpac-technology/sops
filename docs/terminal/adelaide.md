@@ -39,7 +39,10 @@ ED CTR reverts to Class G when **ED ADC** is offline, and is administered by the
 </figure>
 
 #### Adelaide Radar (AAR)
-AAR is responsible for the provision of FIS in Class G airspace within the AD TMA. It is a role normally performed by the controller responsible for **AAE**. The position is designed to reduce the workload of other TMA positions by identifing and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller.
+AAR is responsible for the provision of FIS in Class G airspace within the AD TMA. It is a role normally performed by AAE but can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordation requirements](#between-aar-and-tcu) exist between AAR and other TCU positions.
+
+!!! example
+    During a busy event, AAE is experiencing a high workload and wishes to delegate the AAR role to AAW controller who isn't as busy.
 
 ## Local Procedures 
 ### Scenic Coastal Flights
@@ -267,6 +270,9 @@ All aircraft transiting between internal AD TCU boundaries must be heads-up coor
     <span class="hotline">**AAE** -> **AAW**</span>: "FD123, A090"   
 
 Boundary coordination is not required between AAW and AAE for aircraft arriving or departing tracking via the 05/23 extended centreline.
+
+#### Between AAR and TCU
+Standard [Radar to TCU](../controller-skills/coordination.md#radar-position-tcu-controllers) coordination for each aircraft transiting between Class G and CTA (or vice versa).
 
 ### PF ADC
 #### Airspace
