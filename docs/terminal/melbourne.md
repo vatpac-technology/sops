@@ -373,16 +373,16 @@ The Standard Assignable level from **ML ADC** to **ML TCU** is:
 ##### Standard Assignable Departure Headings
 The following Standard Assignable Headings may be used for aircraft assigned the ML (RADAR) SID, depending on their direction of travel.
 
-| Runway | W | NE | SE | S |
-| ---- | :----: | :----: | :----: | :----: |
-| RWY 09* | - | - | - | - |
-| RWY 16** | H290 | H290 | H160 | H260 |
-| RWY 27 | H320 | H290 | H260 | H260 |
-| RWY 34 | H340 | H340 | H340 | H260 |
+| Runway   | W    | NW   | NE   | SE   | S/SW |
+| -------- | :--: | :--: | :--: | :--: | :--: |
+| RWY 09   | ---- | ---- | ---- | ---- | ---- |
+| RWY 16<br><small>(16AD)</small>  | H160 | H290 | H290 | H160 | H160 |
+| RWY 16<br><small>(09A16D)</small>  | H160 | H160 | H160 | H160 | H160 |
+| RWY 27   | H260 | H320 | H290 | H260 | H260 |
+| RWY 34   | H260 | H340 | H340 | H340 | H260 |
 
-*When Runway 09 is in use for departures, ML TCU shall nominate a heading to ML ADC for use as a standard assignable heading.
-
-**When Runway 09 is in use for arrivals, all Runway 16 departures shall be assigned heading 160.
+!!! note
+    When Runway 09 is in use for departures, ML TCU shall nominate a heading to ML ADC for use as a standard assignable heading.
 
 ### ML TCU Internal
 #### APP / DEP
