@@ -76,7 +76,7 @@ Fast jet aircraft leaving offshore SUA or arriving to YAMB from the east shall b
 
 !!! phraseology
     *CRNG21 plans to depart M649 and return to YAMB.*  
-    **SDY**: "CRNG21, cleared to YAMB via VIRGE thence CENTRAL 4, maintain `F200`"
+    **SDY**: "CRNG21, cleared to YAMB via VIRGE thence CENTRAL 6, maintain `F200`"
 
 ##### Departures
 High performance military jet aircraft with planned operations in offshore SUA, or intending to depart to the east, will be assigned a Coded Clearance departure.
