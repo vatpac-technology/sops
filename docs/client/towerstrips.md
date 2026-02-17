@@ -135,7 +135,8 @@ The following keyboard shortcuts exist to improve workflow efficiency.
 | `T` | Select the strip of the last aircraft to transmit on frequency |
 | `W` | Highlight the strip of the last aircraft to transmit on frequency |
 | `X` | Toggle crossing highlight to selected strip |
-| `Alt + X` | Toggle RUNWAY CROSSING bar in Runway Bay |
+| `Alt + R` | Toggle Runway Release window |
+| `Alt + X` | Toggle Runway Crossing window |
 | `[` / `]` | Change aerodrome |
 | `↑` / `↓` | Move selected strip position in the current bay |
 | `Ctrl + ↑` / `Ctrl + ↓` | Move selected strip towards nearest bar |
