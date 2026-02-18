@@ -85,9 +85,6 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 ## SID Selection
 Jet Aircraft planned via **AVDEN**, **BENDO**, **GILES**, **AREPA**, **ORBUN**. or **UPROT**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
-!!! example
-    Jet Aircraft planned via AVDEN, assigned runway 23, shall be given the AVDEN SID.
-
 a) Non-Jet Aircraft; or  
 b) Aircraft using Runway 12/30; or  
 c) Aircraft that cannot accept a Procedural SID  
@@ -98,16 +95,15 @@ Shall be assigned the **Radar SID**.
 
 ## ATIS
 ### Approach Types
-When **Runway 23** is in use for arrivals, the following table shall be followed for the APCH field:
 
-| Cloud Base                | ATIS APCH field      |
-| ------------------------- | -------------------- |
-| At or above `A043`        | (Blank)              |
-| Between `A024` and `A042` | `ACFT FM THE EAST AND JET ACFT FM THE WEST EXP INST APCH`\*  |
-| Between `A007` and `A023` | `EXP INST APCH`      |
-| At or below `A006`        | `EXP ILS APCH`       |
+Normal methods apply to determine the most appropriate approach type.
 
-\*This allows aircraft on the Victor STAR from the west to join a visual right base without the need to conduct an instrument approach, while keeping aircraft from the east clear of the higher terrain near the Adelaide Hills.
+Additionally, with Runway 23 in use for arrivals, the APCH field shall include the following when the cloud base is between `A024` and `A042`:
+
+`ACFT FM THE EAST AND JET ACFT FM THE WEST EXP INST APCH`
+
+!!! note
+    This allows aircraft on the Victor STAR from the west to join a [visual right base](../../../terminal/adelaide/#visual-approaches) without the need to conduct an instrument approach, while keeping aircraft from the east clear of the higher terrain near the Adelaide Hills.
 
 ### Operational Info
 The Operational Information field should be updated based on the runway mode in use, as per the table below:
