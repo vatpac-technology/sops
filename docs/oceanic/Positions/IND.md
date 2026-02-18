@@ -5,15 +5,18 @@
 --8<-- "includes/abbreviations.md"
 ## Positions
 
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | -------- |
-| **Indian** | **Brisbane Radio** | **129.250 (5.634)** | **ML-IND_FSS** |
-| <span class="indented">Indian East :material-information-outline:{ title="Non-standard position"} | Brisbane Radio | 123.650 (17.961) | ML-INE_FSS |
-| <span class="indented">Indian South :material-information-outline:{ title="Non-standard position"} | Brisbane Radio | 123.200 (3.476) | ML-INS_FSS |
+| Name                | ID      | Callsign            | Frequency           | Login ID       |
+| ------------------- | ------- | ------------------- | ------------------- | -------------- |
+| **Indian**          | **IND** | **Brisbane Radio**  | **129.250 (5.634)** | **ML-IND_FSS** |
+| <span class="indented">Indian East :material-information-outline:{ title="Non-standard position"}  | INE | Brisbane Radio | 123.650 (17.961) | ML-INE_FSS |
+| <span class="indented">Indian South :material-information-outline:{ title="Non-standard position"} | INS | Brisbane Radio | 123.200 (3.476)  | ML-INS_FSS |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
+
+### CPDLC
+The Primary Communication Method for IND is [CPDLC](../../../client/cpdlc). Voice may be used in lieu when applicable. The CPDLC Station Code is `YIND`.
 
 ## Airspace
 
@@ -30,13 +33,6 @@
 ## Extending
 !!! warning "Important"
     IND (and its subsectors) are **not permitted** to extend to any adjacent Domestic/International sectors
-
-### CPDLC
-The Primary Communication Method for IND is [CPDLC](../../../client/cpdlc).
-
-The CPDLC Station Code is `YIND`.
-
-Voice may be used in lieu when applicable.
 
 ## STAR Clearance Expectation
 ### Handoff
