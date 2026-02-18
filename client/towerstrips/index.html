@@ -9552,14 +9552,18 @@
 </tr>
 <tr>
 <td><span style="white-space: nowrap;"><strong>XX CROSS XX</strong></span></td>
-<td>Adds a red highlight to the selected strip, denoting an intention to cross a runway</td>
+<td>Opens the Runway Cross window, allowing controllers to toggle the state of a particular runway</td>
+</tr>
+<tr>
+<td><span style="white-space: nowrap;"><strong>XX RELEASE XX</strong></span></td>
+<td>Opens the Runway Release window, allowing controllers to toggle the state of a particular runway</td>
 </tr>
 <tr>
 <td><strong>ADD <abbr title="Brisbane (Barra) Centre">BAR</abbr></strong></td>
-<td>Allows controllers to place a variety of fixed bars anywhere on the stripboard, reflecting status changes (e.g. autorelease cancellation or runway crossing) and allowing bays to be separated (e.g. multiple <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr>/<abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> positions open)</td>
+<td>Allows controllers to place a variety of fixed bars anywhere on the stripboard, reflecting status changes (e.g. autorelease cancellation) and allowing bays to be separated (e.g. multiple <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr>/<abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> positions open)</td>
 </tr>
 <tr>
-<td><strong>FLIP FLOP</strong></td>
+<td><strong>FLIP</strong></td>
 <td>Toggles the selected strip between Departure, Arrival &amp; Local states (for aircraft with both <abbr title="Destination Aerodrome">ADES</abbr> and <abbr title="Departure Aerodrome">ADEP</abbr> fields matching the current aerodrome)</td>
 </tr>
 </tbody>
@@ -9735,8 +9739,8 @@
 </figure>
 <h4 id="local-flights">Local Flights</h4>
 <p>Aircraft intending to conduct operations entirely on the <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> frequency (most commonly circuits or helicopter operations in <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> jurisdiction) should be marked as a <strong>local strip</strong>.</p>
-<p>Select the strip, then use the <a href="#control-bar">flip flop</a> button to 'flip' the strip into a pink, local strip.</p>
-<p>Aircraft who have filed flightplans which depart from and arrive back to the same aerodrome can be toggled between Departure and Arrival states using the <a href="#control-bar">flip flop</a> button.</p>
+<p>Select the strip, then use the <a href="#control-bar">Flip</a> button to 'flip' the strip into a pink, local strip.</p>
+<p>Aircraft who have filed flightplans which depart from and arrive back to the same aerodrome can be toggled between Departure and Arrival states using the <a href="#control-bar">Flip</a> button.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Only aircraft who will remain on the <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> frequency should be marked as local strips. If an aircraft will depart the aerodrome and conduct operations elsewhere, then return for landing, they should be treated as a departure. These strips should then be flipped to Arrival state when they return.</p>
@@ -9784,8 +9788,12 @@
 <td>Toggle crossing highlight to selected strip</td>
 </tr>
 <tr>
+<td><code>Alt + R</code></td>
+<td>Toggle Runway Release window</td>
+</tr>
+<tr>
 <td><code>Alt + X</code></td>
-<td>Toggle RUNWAY CROSSING bar in Runway Bay</td>
+<td>Toggle Runway Crossing window</td>
 </tr>
 <tr>
 <td><code>[</code> / <code>]</code></td>
@@ -9825,7 +9833,7 @@
 <p>OzStrips will flag any potentially invalid routes and incorrect hemispherical levels. Hover over a flag to learn more about the error.</p>
 <figure>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/ozstripsbadlevel.png" data-desc-position="bottom"><img alt="Invalid Level" src="../img/ozstripsbadlevel.png" width="450"></a>
-    </p><figcaption>A potentially invalid level, shown by the red background on the <abbr title="Cleared Flight Level">CFL</abbr> box</figcaption><p></p>
+    </p><figcaption>A potentially invalid level, shown by the orange background on the <abbr title="Requested Flight Level">RFL</abbr> box</figcaption><p></p>
 </figure>
 <figure>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/ozstripsbadroute.png" data-desc-position="bottom"><img alt="Invalid Route" src="../img/ozstripsbadroute.png" width="450"></a>
@@ -9933,19 +9941,20 @@
 <p>OzBays is currently in final development and testing, and will be progressively enabled for each aerodrome.</p>
 </div>
 <h4 id="runway-crossings">Runway Crossings</h4>
-<p>For aircraft who need to cross an active runway, select the strip and use the <a href="#control-bar">XX CROSS XX</a> button to highlight it as a runway crossing. <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> should hotline <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> to request each runway crossing and/or place the strip in the <strong>Holding Point Bay</strong>  with the crossing highlight applied, as a visual trigger to <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> that an aircraft needs to cross. Once <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> has approved the runway crossing, place the strip back in the <strong>Taxi Bay</strong> and remove the highlight.</p>
+<p>For aircraft who need to cross an active runway, select the strip and apply the <a href="#keyboard-shortcuts">crossing highlight</a>. <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> should hotline <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> to request each runway crossing and/or place the strip in the <strong>Holding Point Bay</strong>  with the crossing highlight applied, as a visual trigger to <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> that an aircraft needs to cross. Once <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> has approved the runway crossing, place the strip back in the <strong>Taxi Bay</strong> and remove the highlight.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>You can quickly toggle the crossing highlight by selecting an aircraft and pressing <code>X</code>.</p>
 </div>
+<p>There is no need to highlight a taxiing aircraft crossing a runway which has been released to <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr>.</p>
 <figure>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/ozstripsrunwaycrossing.png" data-desc-position="bottom"><img alt="Runway Crossing" src="../img/ozstripsrunwaycrossing.png" width="700"></a>
     </p><figcaption>QFA721 is instructed to hold short of RWY 34L (expecting a full length departure) and placed in the <strong>Holding Point Bay</strong> with the crossing highlight</figcaption><p></p>
 </figure>
-<p>Coordinated runway releases should be recorded by placing a <code>RUNWAY XX RELEASED TO SMC</code> <a href="#control-bar">bar</a> in the <strong>Runway Bay</strong>. There is no need to highlight a taxiing aircraft crossing a runway which has been released to <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr>.</p>
+<p>Coordinated runway releases should be recorded by clicking the <a href="#control-bar">XX RELEASE XX</a> button and selecting the applicable runway. This will highlight the runway in <em>blue</em> to visualise the release.</p>
 <figure>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/ozstripsrunwayrelease.png" data-desc-position="bottom"><img alt="Runway Release" src="../img/ozstripsrunwayrelease.png" width="700"></a>
-    </p><figcaption>Runway 27 released to <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr></figcaption><p></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/ozstripsrunwayrelease.png" data-desc-position="bottom"><img alt="Runway Release" src="../img/ozstripsrunwayrelease.png" width="600"></a>
+    </p><figcaption>Runway 25 released to <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr></figcaption><p></p>
 </figure>
 <h3 id="tower">Tower</h3>
 <figure>
@@ -9986,7 +9995,7 @@
 <p>Pink <a href="#local-flights">local strips</a> denote aircraft who's planned operation remains entirely on the <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> frequency (they will not be passed to Departures or leave <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr>'s jurisdiction). Normal <a href="#departures_1">departure procedures</a> apply for recording when the circuit aircraft calls ready and is eventually cleared for takeoff.</p>
 <p>The <strong>Circuit Bay</strong> can be toggled on and off using the option within the <strong>View</strong> dropdown.</p>
 <p>Once the aircraft is airborne, move the strip to the <strong>Circuit Bay</strong> and sequence them with any other arriving aircraft. On each circuit, move the strip to the <strong>Runway Bay</strong> when a landing/touch &amp; go/other clearance is issued, then move them back to the <strong>Circuit Bay</strong> when they become airborne again.</p>
-<p>When the aircraft lands for the final time and vacates the runway, use the <a href="#control-bar">flip flop</a> button to change their state to <strong>Arrival</strong> and place them in the <strong>Taxi Bay</strong> in accordance with normal <a href="#arrivals_1">arrival procedures</a>.</p>
+<p>When the aircraft lands for the final time and vacates the runway, use the <a href="#control-bar">Flip</a> button to change their state to <strong>Arrival</strong> and place them in the <strong>Taxi Bay</strong> in accordance with normal <a href="#arrivals_1">arrival procedures</a>.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>With a strip selected, press <code>F</code> to flip it between Departure, Arrival, and Local states.</p>
@@ -9999,20 +10008,24 @@
     </p><figcaption>QFA721 is instructed to hold short of RWY 34L (expecting a full length departure) and placed in the <strong>Holding Point Bay</strong> with the crossing highlight</figcaption><p></p>
 </figure>
 <p>Where workload permits, <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> may proactively coordinate with <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> to approve runway crossings based the presence of a strip in the <strong>Holding Point Bay</strong>.</p>
-<p>When approval is given for the runway crossing, place the <code>XXX CROSSING XXX</code> <a href="#control-bar">bar</a> in the <strong>Runway Bay</strong> to prevent inadvertent takeoff or landing clearances from being issued. Once the aircraft is clear, remove the bar.</p>
+<p>Approved runway crossings should be recorded by clicking the <a href="#control-bar">XX CROSS XX</a> button and selecting the applicable runway. This will highlight the runway in <em>red</em>, preventing inadvertent takeoff or landing clearances from being issued. Once the aircraft is clear, remove the Crossing bar from the <strong>Runway Bay</strong>.</p>
 <figure>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/ozstripsrunwaycrossingbar.png" data-desc-position="bottom"><img alt="Runway Crossing" src="../img/ozstripsrunwaycrossingbar.png" width="450"></a>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/ozstripsrunwaycrossingbar.png" data-desc-position="bottom"><img alt="Runway Crossing" src="../img/ozstripsrunwaycrossingbar.png" width="600"></a>
     </p><figcaption><strong>Runway Bay</strong> blocked out during a runway crossing</figcaption><p></p>
 </figure>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>You can quickly toggle the Crossing bar in the <strong>Runway Bay</strong> by pressing <code>ALT + X</code>.</p>
+<p>You can quickly toggle a runway crossing by pressing <code>ALT + X</code>.</p>
 </div>
-<p>Coordinated runway releases should be recorded by placing a <code>RUNWAY XX RELEASED TO SMC</code> <a href="#control-bar">bar</a> in the <strong>Runway Bay</strong>.</p>
+<p>Coordinated runway releases should be recorded by clicking the <a href="#control-bar">XX RELEASE XX</a> button and selecting the applicable runway. This will highlight the runway in <em>blue</em> to visualise the release.</p>
 <figure>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/ozstripsrunwayrelease.png" data-desc-position="bottom"><img alt="Runway Release" src="../img/ozstripsrunwayrelease.png" width="700"></a>
-    </p><figcaption>Runway 27 released to <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr></figcaption><p></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/ozstripsrunwayrelease.png" data-desc-position="bottom"><img alt="Runway Release" src="../img/ozstripsrunwayrelease.png" width="600"></a>
+    </p><figcaption>Runway 25 released to <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr></figcaption><p></p>
 </figure>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You can quickly toggle a runway release by pressing <code>ALT + R</code>.</p>
+</div>
 <h4 id="class-d-tower">Class D Tower</h4>
 <p>Procedural Class D Tower layouts feature an <strong>Active Bay</strong>, designed to hold all aircraft under jurisdiction of <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr>, active in their airspace. </p>
 <p>When an aircraft becomes airborne or is handed off to <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr>, place the strip at the bottom of the <strong>Active Bay</strong>. Compare the strip with the strip immediately above it and consider any potential conflict. If no conflict exists, that strip may be moved up a position in the bay and the process repeated with the next 'blocking' strip above. Once the strip reaches the top of the bay, no further conflict exists and the aircraft can be handed off to the overlying controller or cleared for an approach (as appropriate).</p>
@@ -10278,7 +10291,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="January 12, 2026 05:47:33 UTC">January 12, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 17, 2026 23:58:17 UTC">February 17, 2026</span>
   </span>
 
     
