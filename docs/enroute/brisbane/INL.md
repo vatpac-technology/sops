@@ -11,8 +11,8 @@
 | <span class="indented">Burnett :material-information-outline:{ title="Non-standard position"}    | BUR | Brisbane Centre | 123.000 | BN-BUR_CTR |
 | <span class="indented">Downs :material-information-outline:{ title="Non-standard position"}      | DOS | Brisbane Centre | 135.600 | BN-DOS_CTR |
 | <span class="indented">Gold Coast :material-information-outline:{ title="Non-standard position"} | GOL | Brisbane Centre | 130.400 | BN-GOL_CTR |
-| <span class="indented">Straddy :material-information-outline:{ title="Non-standard position"}    | SDY | Brisbane Centre | 134.300 | BN-SDY_CTR |
 | <span class="indented">Noosa :material-information-outline:{ title="Non-standard position"}      | NSA | Brisbane Centre | 124.100 | BN-NSA_CTR |
+| <span class="indented">Straddy :material-information-outline:{ title="Non-standard position"}    | SDY | Brisbane Centre | 134.300 | BN-SDY_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
