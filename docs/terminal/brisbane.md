@@ -29,6 +29,14 @@ AF CTR reverts to Class G when **AF ADC** is offline, and is administered by the
 
 See also: [AF ADC Offline](#af-adc-offline).
 
+#### CG CTR
+If BN TCU elects not to provide top-down to YBCG, The CG CTR Class C airspace `SFC` to `A035` reverts to Class G when **CG ADC** is offline, and is administered by the relevant BN TCU controller.
+
+See also: [CG ADC Offline](#cg-adc-offline).
+
+!!! tip
+    If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
+
 ### Airspace Division
 The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **BAC** change based on the Runway Mode.
 
@@ -100,7 +108,7 @@ Aircraft from the north/west are assigned 01L/19R and aircraft from the south/ea
 ### Gold Coast Arrivals
 Visual approaches are preferred into YBCG. If due to operational requirements, an aircraft is unable to accept a visual approach, coordination with CG ADC may be required.
 
-There is no STAR available to facilitate aircraft arriving from the north west. These aircraft should be instructed to track `BN Y177 IDRIL NOPAS GOMOL`. Aircraft will then be given further instructions by BAC according to the runway in use.
+There is no STAR available to facilitate aircraft arriving from the north west. INL(BUR/NSA) will instruct these aircraft `BN Y177 IDRIL NOPAS GOMOL` prior to handoff to BN TCU, who will then facilitate further descent. Aircraft will then be given further instructions by BAC according to the runway in use.
 
 | Runway | Routing      |
 | ------ | ------------ |
@@ -363,15 +371,12 @@ All other aircraft going to INL CTA will be **Heads-up** Coordinated by BN TCU/B
 #### Arrivals
 Voiceless for all aircraft:
 
-- With ADES **YBBN**
-  - Assigned a STAR; and
-  - Assigned `A090`.
-
-- With ADES **YBCG**; 
-  - Assigned a STAR; and  
-  - Assigned `F130`.
-
-Additionally, voiceless coordination exists between INL and BN TCU for **YBCG** arrivals tracking via **BN** and assigned `F190`.
+- With ADES **YBBN**:
+    - Assigned a STAR; and
+	- Assigned `A090`.
+- With ADES **YBCG**:
+	- Assigned a STAR, and assigned `F130`; or
+	- Tracking via **`BN Y177 IDRIL NOPAS GOMOL`**, and assigned `F190`.
 
 All other aircraft coming from INL CTA must be **Heads-up** Coordinated to BN TCU/BAC prior to **20nm** from the boundary.
 

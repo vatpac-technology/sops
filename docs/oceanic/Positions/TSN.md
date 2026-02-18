@@ -5,18 +5,21 @@
 --8<-- "includes/abbreviations.md"
 ## Positions
 
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | -------- |
-| **Tasman** | **Brisbane Radio** | **124.650 (17.904)** | **BN-TSN_FSS** |
-| <span class="indented">Coral :material-information-outline:{ title="Non-standard position"} | Brisbane Radio | 133.150 (6.556) | BN-COL_FSS |
-| <span class="indented">Flinders :material-information-outline:{ title="Non-standard position"} | Brisbane Radio | 132.850 (13.318) | BN-FLD_FSS |
-| <span class="indented">*Howe :material-information-outline:{ title="Non-standard position"}^* | *Brisbane Centre* | *124.950* | *BN-HWE_CTR* |
+| Name                | ID      | Callsign            | Frequency            | Login ID       |
+| ------------------- | ------- | ------------------- | -------------------- | -------------- |
+| **Tasman**          | **TSN** | **Brisbane Radio**  | **124.650 (17.904)** | **BN-TSN_FSS** |
+| <span class="indented">Coral :material-information-outline:{ title="Non-standard position"}    | COL | Brisbane Radio    | 133.150 (6.556)  | BN-COL_FSS   |
+| <span class="indented">Flinders :material-information-outline:{ title="Non-standard position"} | FLD | Brisbane Radio    | 132.850 (13.318) | BN-FLD_FSS   |
+| <span class="indented">*Howe :material-information-outline:{ title="Non-standard position"}^*  | HWE | *Brisbane Centre* | *124.950*        | *BN-HWE_CTR* |
 
 ^ Refer to [Howe](#howe-hwe)
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
+	
+### CPDLC
+The Primary Communication Method for TSN is [CPDLC](../../../client/cpdlc). Voice may be used in lieu when applicable. The CPDLC Station Code is `YTSN`.
 
 ## Airspace
 
@@ -36,13 +39,6 @@ The COL subsector includes the AGGG and ANAU FIRs. These FIRs **do not** have th
 ## Extending
 !!! warning "Important"
     TSN (and its subsectors) are **not permitted** to extend to any adjacent Domestic/International sectors
-
-### CPDLC
-The Primary Communication Method for TSN is [CPDLC](../../../client/cpdlc).
-
-The CPDLC Station Code is `YTSN`.
-
-Voice may be used in lieu when applicable.
 
 ## Sector Ownership
 Due to limitations in vatSys, TSN cannot relinquish sector ownership of the HWE sector when HWE is online. Tracks inbound to HWE airspace will appear as Blue Announced tracks to both TSN and HWE.
