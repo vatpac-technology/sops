@@ -29,14 +29,6 @@ AF CTR reverts to Class G when **AF ADC** is offline, and is administered by the
 
 See also: [AF ADC Offline](#af-adc-offline).
 
-#### CG CTR
-If BN TCU elects not to provide top-down to YBCG, The CG CTR Class C airspace `SFC` to `A035` reverts to Class G when **CG ADC** is offline, and is administered by the relevant BN TCU controller.
-
-See also: [CG ADC Offline](#cg-adc-offline).
-
-!!! tip
-    If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
-
 ### Airspace Division
 The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **BAC** change based on the Runway Mode.
 
