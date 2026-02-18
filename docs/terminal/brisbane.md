@@ -440,8 +440,6 @@ Standard [Radar to TCU](../controller-skills/coordination.md#radar-position-tcu-
 #### Airspace
 CG ADC is responsible for the Class C Airspace within the CG CTR `SFC` to `A015`.
 
-Refer to [Reclassifications](#cg-ctr) for operations when CG ADC is offline.
-
 #### Auto Release
 [Next](../controller-skills/coordination.md#next) coordination is **not** required to BN TCU for aircraft that are:   
   
