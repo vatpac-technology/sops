@@ -36,24 +36,53 @@ Traffic permitting, aircraft above 136,000kg MTOW shall be entered/exited for RW
 
 Taxiway V has a passing bay, located adjacent to the ARFF section. The passing bay is the preferred location for engine run-ups, no longer than 3 minutes  
 
-## Helicopter Operations
-### Hospital Helipads
-The Darwin CTR contains the helipad at the Royal Darwin Hospital (YXDH). This pad sit outside the manoeuvring area, so no takeoff or landing clearances should be issued. Instead, helicopters should be instructed to report airborne or report on the ground.
+## Local Procedures
+### Marrara Coded Clearance
+VFR aircraft arriving via LPT may be cleared for a visual approach via a **'Marrara Downwind'** clearance. Aircraft that area cleared for a Marrara Downwind will track from LPT towards *Marrara Stadium* before turning to joing a left (Runway 11) or right (Runway 29) downwind.
 
-## VFR Operations
+!!! phraseology
+    **DN ADC:** "ZYX, cleared visual approach via Marrara Downwind, Runway 11"
+
+## VFR Departures
 VFR aircraft are required to track via one of the published VFR Routes (as shown on the Darwin VTC). VFR routes shall be assigned based on the destination radial from Darwin, as per below:  
 
-|Outbound Radial |Assigned VFR Route|
-|---|---|
-|360 – 040 |VFR Route 1|
-|041 – 084 |VFR Route 2|
-|085 – 124 |VFR Route 3|
-|125 – 180 |VFR Route 4|
-|181 – 224 |VFR Route 5|
-|225 – 359| Direct|
+| Outbound Radial | Route | Outbound     | Inbound | 
+| --------------- | ----- | ------------ | ------- |
+| 270-044 | VFR Route 1 | `LPT JAC CGR`  | `CGR JAC LPT`  |
+| 045-104 | VFR Route 2 | `LPT JAC ADRM` | `ADRM JAC LPT` |
+| 105-133 | VFR Route 3 | `CHI LAD ADB`  | `ADB LAD CHI`  |
+| 134-179 | VFR Route 4 | `CHI LAD MTD`  | `MTD LAD CHI`  |
+| 180-269 | VFR Route 5 | `CHI BYNO`     | `BYNO CHI`     |
+
 
 !!! tip
-    If a VFR aircraft has not planned via a VFR route as above, use the phraseology: “*ABC, cleared amended route VFR route 1, climb to A020, squawk 4512*”
+    If a VFR aircraft has not planned via a VFR route as above, use the phraseology: “*ABC, cleared amended route VFR route 1, climb to `A020`, squawk 4512*”
+
+## Helicopter Operations
+VFR helicopters are generally processed via the TALC HEAD Helicopter route. There is both an inbound and outbound route. This route is delivered as a coded clearance designed to separate helicopters from fixed-wing aircraft.  
+
+### Departures
+DN ACD will issue airways clearance for all helicopters, including those on a helicopter route. The helicopter route title should be recorded in the **global ops field** and the route waypoints should be added to the FDR route, as below.
+
+| Route | Waypoints |
+| --- | --- |
+| TALC HEAD OUTBOUND | `WOW TCH` |
+
+!!! phraseology
+    **QRS:** "Darwin Delivery, helicopter QRS, for the Talc Head outbound, request clearance"  
+    **DN ACD:** "QRS, Darwin Delivery, cleared Talc Head outbound, squawk 0215, departure frequency 134.1"  
+    **QRS:** "Cleared Talc Head outbound, squawk 0215, departure frequency 134.1, QRS"
+
+### Arrivals
+VFR helicopters are generally processed via by the TALC HEAD Inbound route.  IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway.
+
+!!! phraseology
+    **QRS:** "Darwin Tower, helicopter QRS, WSM, `A005`, received Tango, request Talc Head Inbound"  
+    **DN ADC:** "QRS, Darwin Tower, cleared Talc Head Inbound, report at WOW."  
+    **QRS:** "Cleared Talc Head Inbound, QRS"  
+
+### Hospital Helipads
+The Darwin CTR contains the helipad at the Royal Darwin Hospital (YXDH). This pad sits outside the manoeuvring area, so no takeoff or landing clearances should be issued. Instead, helicopters should be instructed to report airborne or report on the ground.
 
 ## Runway Modes
 ### Preferred Runway Modes

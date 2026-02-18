@@ -119,8 +119,8 @@ The ATIS must indicate runway configuration in the format below:
 
 | Mode        | Controllers | ATIS Runway information |
 | ----------- | ----------- | ----------------------- |
-| 06/24 PROPS | Single ADC  | `RWY 06R/24L FOR CCTS AND DEPS VIA ARMADALE SHOPS. RWY 06L/24R FOR ARRS AND ALL OTHER DEPS` |
-| 06/24 PROPS | Dual ADC    | `RWY 06R/24L FOR CCTS AND DEPS VIA ARMADALE SHOPS, FREQ 119.4. RWY 06L/24R FOR ARRS AND ALL OTHER DEPS, FREQ 118.1` |
+| 06/24 PROPS | Single ADC  | `06R/24L FOR CCTS AND DEPS VIA ARMADALE SHOPS. RWY 06L/24R FOR ARRS AND ALL OTHER DEPS` |
+| 06/24 PROPS | Dual ADC    | `06R/24L FOR CCTS AND DEPS VIA ARMADALE SHOPS, FREQ 119.4. RWY 06L/24R FOR ARRS AND ALL OTHER DEPS, FREQ 118.1` |
 
 ### Operational Info
 When YPPH RWY 03 is in use, the `OPR INFO` shall include:  

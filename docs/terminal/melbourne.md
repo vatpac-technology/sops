@@ -103,7 +103,7 @@ MAV extends south outside of **30nm ML**, in to HUO(WON) airspace. The Southern 
 </figure>
 
 #### Melbourne Radar (MAW)
-MAW is responsible for the provision of FIS in Class G airspace within the ML TMA. It is a role normally performed by the controller responsible for **MAV**. The position is designed to reduce the workload of other TMA positions by identifing and issuing clearance (where available) to aircraft OCTA, then transferring them to the relevant TMA controller. [Explicit coordination requirements](#between-maw-and-appdep) exist between MAW and other ML TCU positions.
+MAW is responsible for the provision of FIS in Class G airspace within the ML TMA. It is a role normally performed by MAV but can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordation requirements](#between-maw-and-tcu) exist between MAW and other TCU positions.  
 
 !!! tip
     It is **not recommended** that the MAV and MAW positions are held by 2 separate controllers, due to the low traffic levels at Avalon. MAV should be opened in preference to MAW, unless traffic levels at Avalon require the role to be split.
@@ -244,7 +244,7 @@ When MAW is online, aircraft should be transferred to them once established on t
 !!! warning "Important"
     Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
 
-Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../controller-skills/runwaymanagement.md#lahso) for more information.
+Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../controller-skills/runwaymanagement/#lahso) for more information.
 
 ## Flow
 ### Local Knowledge
@@ -413,47 +413,8 @@ YMAV arrivals and departures **do not** meet the voiceless criteria between APP/
     <span class="hotline">**MDS** -> **MAV**</span>: "JST616, F240"  
     <span class="hotline">**MAV** -> **MDS**</span>: "F240, JST616"
 
-#### Between MAW and APP/DEP
-##### Entering CTA
-Heads up coordination is required for **all aircraft** entering ML TCU Class C from MAW Class G. Heads-up coordination must be completed prior to handoff, however, best practice is to complete coordination as soon as possible.
-
-!!! phraseology
-    <span class="hotline">**MAW** -> **MDN**</span>: “Departed YLIL, OXP”  
-    <span class="hotline">**MDN** -> **MAW**</span>: "OXP, A080"  
-    <span class="hotline">**MAW** -> **MDN**</span>: “A080, OXP”
-
-    **MAW:** "OXP cleared to YMTG via ML, flight planned route. Climb to A080"  
-    **OXP:** "Cleared to YMTG via ML, flight planned route. Climb to A080, OXP"  
-    **MAW:** "OXP Contact Melbourne Departures 118.9"  
-    **OXP:** "118.9, OXP" 
-
-##### Leaving CTA
-Heads-up coordination is not required from a ML TCU position to MAW for aircraft:
-
-**Leaving CTA *vertically*:**
-- Assigned 500ft above BCTA as the CFL; and
-- Handed off to MAW
-
-!!! phraseology
-    *KDJ is intending on leaving Class C airspace on descent into YMMB. The lower limit of CTA is `A045`.*
-
-    **MDN:** "KDJ descend to A050, contact Melbourne Centre 135.7"  
-    **KDJ:** "Descend to A050, 135.7, KDJ"  
-
-    **KDJ:** "Melbourne Centre, KDJ descending A050"  
-    **MAW:** "KDJ, Melbourne Centre, leave controlled airspace descending, no reported IFR traffic"  
-    **KDJ:** "Leave controlled airspace descending KDJ" 
-
-**Leaving CTA laterally**
-- Handed off to MAW upon termination of control services
-
-!!! phraseology
-    *BSV is an IFR C172 leaving CTA to the south at `A040`.*  
-    **MDS:** "BSV at 19 DME ML, control service terminates, contact Melbourne Centre 135.7"  
-    **BSV:** "135.7, BSV"  
-
-    **BSV:** "Melbourne Centre, BSV maintaing A040"  
-    **MAW:** "BSV, Melbourne Centre, no reported IFR traffic, area QNH 1016 
+#### Between MAW and TCU
+Standard [Radar to TCU](../controller-skills/coordination.md#radar-position-tcu-controllers) coordination for each aircraft transiting between Class G and CTA (or vice versa).
 
 ### EN ADC
 #### Airspace
