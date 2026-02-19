@@ -95,8 +95,8 @@ The ATIS must indicate runway configuration in the format below:
 
 | Mode        | Controllers | ATIS Runway information |
 | ----------- | ----------- | ----------------------- |
-| PROPS | Single ADC  | `RWY 03R/08R/21L/26L FOR ARRS AND DEPS EAST. RWY 03L/08L/21R/26R FOR ARRS AND DEPS WEST` |
-| PROPS | Dual ADC    | `RWY 03R/08R/21L/26L FOR ARRS AND DEPS EAST, FREQ 118.7. RWY 03L/08L/21R/26R FOR ARRS AND DEPS WEST, FREQ 124.6` |
+| PROPS | Single ADC  | `03R/08R/21L/26L FOR ARRS AND DEPS EAST. RWY 03L/08L/21R/26R FOR ARRS AND DEPS WEST` |
+| PROPS | Dual ADC    | `03R/08R/21L/26L FOR ARRS AND DEPS EAST, FREQ 118.7. RWY 03L/08L/21R/26R FOR ARRS AND DEPS WEST, FREQ 124.6` |
 | Single Runway | Single ADC | `ALL OPERATIONS RWY (Number)` |
 
 ### Approach Expectation
@@ -123,7 +123,7 @@ IFR aircraft will be cleared for the coordinated approach (Instrument or Visual)
 VFR aircraft require a level readback.
 
 !!! phraseology
-    <span class="hotline">**AAW** -> **PF ADC**</span>: "via PAL, YTS"  
+    <span class="hotline">**AAW** -> **PF ADC**</span>: "via PAL, YTS"    
     <span class="hotline">**PF ADC** -> **AAW**</span>: "YTS, A010"
 
 !!! tip
@@ -133,7 +133,7 @@ VFR aircraft require a level readback.
 Taxiway Bravo crosses through the Undershoots of Runway 26L and 26R. As per YPPF Aerodrome Chart, a `Clearance is Required` to taxi through these areas, using the same phraseology as normal Runway Crossings.
 
 !!! phraseology 
-    **PF SMC:** "USP, On Bravo cross the undershoots of Runway 26L and 26R. Taxi to Holding Point B1, Runway 03L."
+    **PF SMC:** "USP, On Bravo cross the undershoots of Runway 26L and 26R. Taxi to Holding Point B1, Runway 03L."  
     **USP:** "On Bravo cross undershoots of Runway 26L & 26R. Taxi to Holding Point B1 Runway 03L, USP."
 
 #### ADC West Online

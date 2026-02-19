@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name | ID | Callsign | Frequency | Login ID |
-| ---- | ---- | ------ | --------- | -------- |
-| **Nadi Control** | **NFFJ** | **Nadi Control** | **120.100** | **NFFJ_CTR** |
+| Name                | ID       | Callsign             | Frequency   | Login ID       |
+| ------------------- | -------- | -------------------- | ----------- | -------------- |
+| **Nadi Control**    | **NFFJ** | **Nadi Control**     | **120.100** | **NFFJ_CTR**   |
 
 ## Airspace
 <figure markdown>
