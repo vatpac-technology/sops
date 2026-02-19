@@ -54,7 +54,7 @@ INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, and **NSA** when they
     !!! tip
         If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
         
-==== "CG CTR"
+=== "CG CTR"
     When **CG ADC** is offline, the CG CTR Class C airspace `SFC` to `A035` reverts to Class G and is administered by GOL. Alternatively, GOL may provide a [top-down approach service](../../../terminal/brisbane) if they wish.
 
     !!! tip
