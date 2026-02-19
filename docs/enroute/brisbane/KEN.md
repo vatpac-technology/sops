@@ -5,17 +5,19 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | -------- |
-| **Kennedy** | **Brisbane Centre** | **120.150** | **BN-KEN_CTR** |
-| <span class="indented">Barra :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 123.800 | BN-BAR_CTR |
-| <span class="indented">Tabletop :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 120.550 | BN-TBP_CTR |
-| <span class="indented">Willis :material-information-outline:{ title="Non-standard position"} | Brisbane Centre | 127.600 | BN-WIL_CTR |
+| Name              | ID      | Callsign            | Frequency   | Login ID       |
+| ----------------- | ------- | ------------------- | ----------- | -------------- |
+| **Kennedy**       | **KEN** | **Brisbane Centre** | **120.150** | **BN-KEN_CTR** |
+| <span class="indented">Barra :material-information-outline:{ title="Non-standard position"}    | BAR | Brisbane Centre | 123.800 | BN-BAR_CTR |
+| <span class="indented">Tabletop :material-information-outline:{ title="Non-standard position"} | TBP | Brisbane Centre | 120.550 | BN-TBP_CTR |
+| <span class="indented">Willis :material-information-outline:{ title="Non-standard position"}   | WIL | Brisbane Centre | 127.600 | BN-WIL_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
+
+### CPDLC
+The Primary Communication Method for KEN is Voice. [CPDLC](../../../client/cpdlc) may be used in lieu when applicable. The CPDLC Station Code is `YKEN`.
 
 ## Airspace
 
@@ -28,60 +30,69 @@ KEN is responsible for **BAR**, **TBP**, and **WIL** when they are offline.
 BAR is responsible for the [CS TCU](../../../terminal/cairns) when **CS TCU** is offline.  
 
 ### Reclassifications
-#### TL CTR
-When **TL TCU** is offline, TL CTR (Class C `SFC` to `A085`) reverts to Class G, and is administered by TBP. Alternatively, TBP may provide a [top-down approach service](../../../aerodromes/classc/Townsville) if they wish.
+=== "TL TCU"
+	When **TL TCU** is offline, TL CTR (Class C `SFC` to `A085`) reverts to Class G, and is administered by TBP. Alternatively, TBP may provide a [top-down approach service](../../../aerodromes/classc/Townsville) if they wish.
 
-!!! tip
-    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+	!!! tip
+        If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
-### CPDLC
-The Primary Communication Method for KEN is Voice.
+## Departure and Arrival Procedures
+### YBCS
+#### STAR Assignment
+YBCS has specific visual approach procedures for use when VMC exists below `A030` in the terminal area. As such, **light & medium category aircraft (B737/A320 and below)** shall be issued the relevant Victor STAR.
 
-[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
-
-The CPDLC Station Code is `YKEN`.
-
-!!! tip
-    Even though KEN's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
-
-## Sector Responsibilities
-All subsectors are responsible for issuing STAR Clearances for YBTL and YBCS on first contact.
-
-### YBCS STAR Clearances
-YBCS has specific visual approach procedures for use when VMC exists below `A030` in the terminal area. As such, **light & medium category aircraft (B737/A320 and below)**, tracking via the following waypoints, shall be issued the relevant Victor STAR.
-
-Heavy aircraft, and any aircraft not meeting the criteria below, must be issued the Instrument STAR.
+Heavy aircraft must be issued the Instrument STAR.
 
 !!! note
     Due to the complex nature of the visual procedures, it may be helpful to ask inexperienced pilots if they are familiar with the Creek Corridor (runway 15) or are able to accept a visual circuit (runway 33), and otherwise issue the Instrument STAR.
 
-#### Runway 15
-| Waypoint | STAR |
-| -------- | ---- |
-| UPOLO | UPOLO Victor STAR |
-| NONUM | NONUM Victor STAR |
-| ZANEY | KASPI Victor STAR |
-| LOCKA | KASPI Victor STAR |
-| AVDAN | KASPI Victor STAR |
-| OVLET | KASPI Victor STAR |
-| ANDOP | KASPI Victor STAR |
-| PUNIT | KASPI Victor STAR |
+The following subsectors are responsible for issuing STAR clearance.
 
-#### Runway 33
-| Waypoint | STAR |
-| -------- | ---- |
-| ZANEY | KEEWI Victor STAR |
-| LOCKA | KEEWI Victor STAR |
-| AVDAN | KEEWI Victor STAR |
-| OVLET | KEEWI Victor STAR |
+=== "RWY 15"
+	| Subsector | STAR | Type | Notes |
+	| ---- | ----- | -------- | ----- |
+	| BAR  | CODIE<br>KASPI   | All   | INST APCH<br>VISUAL APCH |
+	| KEN  | NONUM | All      |       |
+	| TBP  | NONUM<br>UPOLO   | All   | Descent not below `F190`| 
+	
+=== "RWY 33"
+	| Subsector | STAR | Type | Notes |
+	| ---- | ----- | -------- | ----- |
+	| BAR  | HENDO<br>KEEWIE<br>TOTTY | All | INST APCH<br>VISUAL APCH<br>RNP-W |
+	| KEN  | HENDO<br>TOTTY | All   | INST APCH<br>RNP-W |
+	| TBP  | HENDO<br>TOTTY | All   | Descent not below `F190` |
 
-#### Sequencing in to YBCS
+Arrivals from the south shall be given initial descent to not below `F190`. **KEN** will issue final descent.
+
+##### Adjacent Feeder Fixes
 Aircraft assigned the **same runway** inbound via:
 
 - ANDOP and PUNIT  
 - OVLET, AVDAN and LOCKA
 
 Must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
+
+#### Sequencing
+Sequencing arrivals into YBCG is a joint responsibility of the subsectors of KEN. Initial sequencing actions should be performed by all sectors, with fine tuning and any holding required issued by KEN/BAR. 
+
+### YBTL
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
+
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| KEN  | IBUXI<br>IGIKI | All   | Descent not below `F190` |
+
+Arrivals from the north shall be given initial descent to not below `F190`. **TBP** will issue final descent.
+
+#### Sequencing
+KEN and TBP share responsbility for initial sequencing for aircraft arriving from the north, east, and west. KPL(SWY) is responsible for initial sequencing for aircraft arriving from the south. Final sequencing actions are performed by TBP.
+
+Coordination with KPL(SWY) should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
+
+<!-- ## Special Use Airspace 
+### Restricted Areas
+-->
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -92,20 +103,6 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | TBP | KPL(SWY) | YBRK, YBMK | |
 | BAR | KEN | YBTL | |
 | WIL | BAR | YBCS | |
-
-### First Contact
-Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
-
-| Transferring Sector | Receiving Sector | ADES | Notes |
-| ---- | -------- | --------- | --------- |
-| ISA | TBP | YBTL | |
-| ARA/ISA | BAR, KEN | YBCS | |
-| WIL | BAR | YBCS | |
-| KPL(SWY) | TBP | YBCS | |
-| BAR | KEN | YBTL | |
-| TSN(All) | KEN(All) | YBCS, YBTL | |
-
-See [Cairns STAR Clearance](#ybcs-star-clearances) for instructions on issuing STAR clearances.
 
 ## Terminal Handover Frequencies
 Aircraft being transferred from enroute to a TCU with multiple frequencies shall be given the frequency for the revelant TCU position.
@@ -173,7 +170,7 @@ All other aircraft going to KEN CTA will be **Heads-up** Coordinated by CS TCU.
 #### Airspace
 TL TCU owns the Class C and G airspace within 36 DME TL from `SFC` to `F180`.
 
-Refer to [Reclassifications](#tl-ctr) for operations when TL TCU is offline.
+Refer to [Reclassifications](#reclassifications) for operations when TL TCU is offline.
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:

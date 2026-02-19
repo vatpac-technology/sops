@@ -5,14 +5,17 @@
 --8<-- "includes/abbreviations.md"
 ## Positions
 
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | -------- |
-| **Wollongong** | **Melbourne Centre** | **125.000** | **ML-WOL_CTR** |
-| <span class="indented">Snowy :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | 124.000 | ML-SNO_CTR |
+| Name                | ID      | Callsign             | Frequency   | Login ID       |
+| ------------------- | ------- | -------------------- | ----------- | -------------- |
+| **Wollongong**      | **WOL** | **Melbourne Centre** | **125.000** | **ML-WOL_CTR** |
+| <span class="indented">Snowy :material-information-outline:{ title="Non-standard position"} | SNO | Melbourne Centre | 124.000 | ML-SNO_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
+
+### CPDLC
+The Primary Communication Method for WOL is Voice. [CPDLC](../../../client/cpdlc) may be used in lieu when applicable. The CPDLC Station Code is `YWOL`.
 
 ## Airspace
 
@@ -22,58 +25,63 @@
 </figure>
 
 ### Reclassifications
-#### CB CTR
-When **CB TCU** is offline, CB TCU (Class C `SFC` to `A085`) reverts to Class G, and is administered by WOL. Alternatively, WOL may provide a [top-down approach service](../../../terminal/canberra) if they wish.
+=== "CB CTR"
+	When **CB TCU** is offline, CB TCU (Class C `SFC` to `A085`) reverts to Class G, and is administered by WOL. Alternatively, WOL may provide a [top-down approach service](../../../terminal/canberra) if they wish.
 
-!!! tip
-    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+	!!! tip
+		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
-### Nowra Airspace Releases
-When **NW TCU** is online, R421 is activated and administered by the TCU controller from `SFC` to `F125`. 
+=== "NW CTR"
+	When **NWA** is offline, the NW MIL CTR and restricted airspace within R421 is deactivated and the airspace is administered by WOL.
 
-!!! tip
-    Display the lateral limits of the NW TCU by activating R421 in the Restricted Areas window.
+	!!! tip
+        Consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
+## Departure and Arrival Procedures
+### YMES
+SNO is responsible for facilitating operations at YMES departing to/arriving from the east.
+
+### YSCB
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
+
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| WOL  | BUNGO<br>LEECE | Non-Jet<br>Jet^ | |
+
+!!! note
+	^ GUN(BIK) will issue STAR clearances to jet aircraft overflying the SY TCU en route to YSCB. WOL will issue STAR clearances to all other jet aircraft.
+
+#### Sequencing
+Sequencing arrivals from the east and northeast into YSCB is a responsibility of WOL.
+
+##### Holding Fixes
+Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YSCB. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
+
+| Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
+| ---- | ---- | ---- |
+| MANDA | NONUP | Jets: 3 min<br>Non-Jets: 4 min |
+| Others | Feeder Fix | - |
+
+##### Adjacent Feeder Fixes
+Aircraft assigned the **same runway** inbound via **LEECE** and **BUNGO**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
+
+### YSNW
+WOL is responsibile for facilitating operations in and out of YSNW.
+
+## Special Use Airspace
+### Restricted Areas
+#### Nowra R420F
 During times of high traffic, NW TCU may request the release of R420F up to `F300`.
 
 !!! phraseology
-    <span class="hotline">**NW TCU** -> **WOL**</span>: "There's a preplanned military exercise about to commence, request release of R420F up to F300"  
-    <span class="hotline">**WOL** -> **NW TCU**</span>: "R420F released to you F125 to F300"  
-    <span class="hotline">**NW TCU** -> **WOL**</span>: "R420F released F125 to F300" 
+    <span class="hotline">**NWA** -> **WOL**</span>: "There's a preplanned military exercise about to commence, request release of R420F up to F300"  
+    <span class="hotline">**WOL** -> **NWA**</span>: "R420F released to you F125 to F300"  
+    <span class="hotline">**NWA** -> **WOL**</span>: "R420F released F125 to F300" 
 
 With R420F released to NW TCU, transiting aircraft will need to be coordinated or rerouted. Every effort will be made to accommodate these aircraft on track, but if NW TCU can't accommodate them, they must be vertically or laterally rerouted to avoid the restricted area. NW TCU will communicate this requirement.
 
-See [Nowra Airspace](../../terminal/nowra.md#airspace) for more details about the lateral boundaries of the Nowra restricted areas.
-
-### CPDLC
-The Primary Communication Method for WOL is Voice.
-
-[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
-
-The CPDLC Station Code is `YWOL`.
-
-!!! tip
-    Even though WOL's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
-
-## Sector Responsibilities
-### Wollongong (WOL)
-#### YSCB Arrivals
-WOL is responsible for issuing STAR clearances to non-jet aircraft, as well as descent and sequencing actions for all aircraft inbound YSCB.
-
-Refer to the [Sequencing into YSCB](#sequencing-into-yscb) notes below regarding adjacent Feeder Fixes.
-
-#### YSNW Arrivals
-WOL is responsible for issuing descent.
-
-#### YSSY Arrivals
-WOL is responsible for issuing STAR clearance to Non-jet aircraft for YSSY which depart from an aerodrome within the subsector.
-    
-### Snowy (SNO)
-#### YSCB Arrivals
-SNO is responsible for issuing STAR clearances and initial descent to not below `F130`.
-
-### Sequencing into YSCB
-Aircraft assigned the **same runway** inbound via **LEECE** and **BUNGO**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
+See [Nowra Airspace](../../terminal/nowra#airspace) for more details about the lateral boundaries of the Nowra restricted areas.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -85,13 +93,6 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | WOL | GUN | YSSY | |
 | SNO | HUO(WON) | YMML | 
 | SNO | HUO | YMHB | |
-
-### First Contact
-Aircraft being transferred from the following sectors shall be given STAR Clearance on first contact:
-
-| Transferring Sector | Receiving Sector | ADES | Notes |
-| ---- | -------- | --------- | --------- |
-| GUN(BIK) | WOL | YSCB | Non-jets only |
 
 ## Terminal Handover Frequencies
 Aircraft being transferred from enroute to a TCU with multiple frequencies shall be given the frequency for the revelant TCU position.
@@ -201,7 +202,7 @@ All other aircraft coming from WOL CTA must be **Heads-up** Coordinated to CB TC
 #### Airspace
 The vertical limits of the NW TCU are `SFC` to `F125`, and up to `F300` in R420F when activated.
 
-Refer to [Nowra Airspace Releases](#nowra-airspace-releases) for operations with R421 and/or R420F released.
+Refer to [Nowra Airspace Releases](#nowra-r420f) for operations with R421 and/or R420F released.
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:

@@ -4,7 +4,7 @@ title: Coordination
 
 --8<-- "includes/abbreviations.md"
 
-Coordination is an underutilised tool in VATPAC airspace, primarily due to how difficult it was to do it back in the Euroscope and VRC days. Now, all controllers are using vatSys and voice coordination can be done in seconds with the touch of a button. Coordination helps controllers stay aware of aircraft that are about to enter their jurisdiction and ensure they will operate in a predictable manner, which allows for easier planning of sequencing and separation.
+Coordination helps controllers stay aware of aircraft that are about to enter their jurisdiction and ensure they will operate in a predictable manner, which allows for easier planning of sequencing and separation.
 
 Coordination requirements are often very location-specific, however this page outlines the general guidelines to coordination, which are supplemented by Local Instructions.
 
@@ -320,6 +320,80 @@ Heads-up coordinate all other aircraft by **20nm** to boundary.
     Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
 
 Heads-up coordinate all other aircraft by the boundary.
+
+#### Radar Position -> TCU Controllers
+##### Entering CTA
+Heads-up coordination is required for **all aircraft** entering TCU CTA from Class G. Heads-up coordination must be completed prior to handoff, however, best practice is to complete the coordination as soon as possible.
+
+Upon receipt of the heads-up coordination from Radar, the TCU controller has several options:
+
+| Response | Use Case |
+| --- | --- |
+| Acknowledge the callsign | Indicate to Radar that you can accept the handoff to provide clearance |
+| *"Remain outside Class C airspace, expect XX minute delay"* | Useful if it's busy |
+| *"Clearance unavailable due XXXX"* | Useful if the pilot's request is unlikely to be available at all |
+| *"I'll call you back"* | Useful if the TCU controller hasn't had time to assess the aircraft yet (remember to cock the strip) |
+
+!!! phraseology
+    <span class="hotline">**SRI** -> **SDS**</span>: "Departed YSHL, EQU"  
+    <span class="hotline">**SDS** -> **SRI**</span>: "EQU" 
+    
+    **SRI:** "EQU, Contact Sydney Departures on 129.7 for clearance"  
+    **EQU:** "129.7, EQU"  
+    *...*  
+    **EQU:** "Sydney Departures, EQU, climbing to `F170`"  
+    **SDS:** "EQU, Sydney Departures. Cleared to YWLM via TESAT, flight planned route. Climb to `F170`"  
+    **EQU:** "Cleared to YWLM via TESAT, flight planned route. Climb to `F170`, EQU"
+
+!!! phraseology
+    <span class="hotline">**SRI** -> **SDS**</span>: "Departed YSHL, EQU"  
+    <span class="hotline">**SDS** -> **SRI**</span>: "EQU remain outside Class C airspace, expect 10 minute delay."  
+    <span class="hotline">**SRI** -> **SDS**</span>: "Remain outside Class C airspace, expect 10 minute delay, EQU."
+   
+    **SRI:** "EQU, remain outside Class C airspace, expect 10 minute delay."  
+    **EQU:** "Remain outside Class C airspace, copy, EQU"
+
+    <span class="hotline">**SDS** -> **SRI**</span>: "EQU to contact me."  
+    <span class="hotline">**SRI** -> **SDS**</span>: "EQU to contact you."
+    
+    **SRI:** "EQU, Contact Sydney Departures on 129.7"  
+    **EQU:** "129.7, EQU"  
+    *...*  
+    **EQU:** "Sydney Departures, EQU, climbing to `F170`."  
+    **SDS:** "EQU, Sydney Departures. Cleared to YWLM via TESAT, flight planned route. Climb to `F170`"  
+    **EQU:** "Cleared to YWLM via TESAT, flight planned route. Climb to `F170`, EQU"
+
+At locations with a low overlying base of CTA (e.g. YSBK with the tower closed), Radar shall perform normal coordination to the appropriate CTA controller in response to a taxi call. It is expected that Radar will transfer the aircraft to the CTA controller to issue clearance prior to the aircraft's departure.
+
+##### Leaving CTA
+
+=== "Leaving CTA *vertically*"
+    Heads-up coordination is not required from a TCU position to Radar for aircraft:
+
+    - Assigned 500ft above the BCTA as the CFL; and
+    - Handed off to Radar
+
+    !!! phraseology
+        *FD214 is intending on leaving Class C airspace on descent into Bankstown.  The lower limit of CTA is `A045`.*  
+        **SDS:** "FD214 descend to `A050`, contact Sydney Centre 124.55"  
+        **FD214:** "Descend `A050`, 124.55, FD214"  
+
+        **FD214:** "Sydney Centre, FD214, descending `A050`"  
+        **SRI:** "FD214, Sydney Centre, leave controlled airspace descending, no reported IFR traffic"  
+        **FD214:** "Leave controlled airspace descending, FD214"
+
+=== "Leaving CTA *laterally*"
+    Heads-up coordination is not required from a TCU position to Radar for aircraft:
+    
+    - Handed off to Radar upon termination of control services
+
+    !!! phraseology 
+        *CYF is an IFR C172 leaving CTA to the north at `A050`.*  
+        **SAN:** "CYF at 30DME SY, control service terminates, contact Sydney Centre 124.55"  
+        **CYF:** "124.55, CYF"  
+
+        **CYF:** "Sydney Centre, CYF, maintaining `A050`"  
+        **SRI:** "CYF, Sydney Centre, no reported IFR traffic, area QNH 1024"
 
 ### Enroute
 #### ENR -> ENR

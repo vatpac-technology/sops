@@ -53,7 +53,7 @@ Taxiway B west of C is limited to 8000KG AUW and 23M MAX wingspan. Common airlin
   <figcaption>Twy B west of C shown in red</figcaption>
 </figure>
 
-## Separations
+## Separation
 ### Local Lateral Separation Points
 The positions in each table header below are procedurally separated from each other, provided the conditions in each table row are met. At least one condition must be met in each column.
 

@@ -124,7 +124,7 @@ Non-Jet Aircraft planned via **RIBLI**, **KANLI**, or **LAVOP**, shall be assign
 Other aircraft shall be assigned an appropriate **Procedural SID** or a visual departure.
 
 ## ATIS
-## ATIS Identifiers
+### ATIS Identifiers
 YMHB ATIS identifiers range from `N` to `Y`, as YMLT uses `A` through `M`. 
 
 ## Coordination
