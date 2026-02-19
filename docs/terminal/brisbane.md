@@ -12,9 +12,9 @@
 | <span class="indented">Brisbane Approach South :material-information-outline:{ title="Non-standard position"}   | BAS | Brisbane Approach   | 125.600 | BN-S_APP |
 | <span class="indented">Brisbane Departures North :material-information-outline:{ title="Non-standard position"} | BDN | Brisbane Departures | 133.450 | BN_DEP   |
 | <span class="indented">Brisbane Departures South :material-information-outline:{ title="Non-standard position"} | BDS | Brisbane Departures | 118.450 | BN-S_DEP |
-| <span class="indented">Gold Coast Approach :material-information-outline:{ title="Non-standard position"}       | BAC | Brisbane Approach   | 123.500 | BN-C_APP |
 | <span class="indented">Brisbane Radar :material-information-outline:{ title="Non-standard position"}            | SHN | Brisbane Centre     | 119.500 | BN-R_DEP |
 | <span class="indented">Brisbane Flow :material-information-outline:{ title="Non-standard position"}             | BFL |                     |         | BN_FMP   |
+| **Gold Coast Approach**       | **BAC** | **Brisbane Approach**   | **123.500** | **BN-C_APP**  |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
@@ -28,14 +28,6 @@ The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, w
 AF CTR reverts to Class G when **AF ADC** is offline, and is administered by the relevant BN TCU controller.
 
 See also: [AF ADC Offline](#af-adc-offline).
-
-#### CG CTR
-If BN TCU elects not to provide top-down to YBCG, The CG CTR Class C airspace `SFC` to `A035` reverts to Class G when **CG ADC** is offline, and is administered by the relevant BN TCU controller.
-
-See also: [CG ADC Offline](#cg-adc-offline).
-
-!!! tip
-    If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
 ### Airspace Division
 The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **BAC** change based on the Runway Mode.
@@ -70,7 +62,7 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **
 		The controller may connect as either position, and assume both frequencies. 
         
         Only **two** TCU controllers may operate the BN TMA when running the SODPROPS runway mode (excluding an additional SHN or BAC controller if desired).
-	
+
 #### Brisbane Radar (SHN)
 SHN is responsible for the provision of FIS in Class G airspace within the BN TMA. The role can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordation requirements](#between-shn-and-tcu) exist between SHN and other TCU positions.  
 
@@ -85,7 +77,10 @@ Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac
     
     - **BAN** and **BDN** combined; *and*
     - **BAS** and **BDS** combined.
-	
+
+## Extending
+BN TCU may extend to BAC and vice versa; callsigns remain the same. See [Controller Skills](../controller-skills/extending.md) for details.
+
 ## Separation
 ### Parallel Runway Operations
 Refer to [Parallel Runway Separation Standards](../../separation-standards/parallelapps) for more information
@@ -348,9 +343,9 @@ Voiceless for aircraft:
 
 - With ADEP **YBBN**  
     - Tracking via a Procedural SID terminus^; and  
-    - Assigned the lower of `F180` or the `RFL`
+    - Assigned the lower of `F180` or the `RFL`  
 - With ADEP **YBCG**  
-    - Tracking via **APAGI** and assigned the lower of `F120` or the `RFL`; or    
+    - Tracking via **APAGI** and assigned the lower of `F120` or the `RFL`; or  
     - Tracking via **BN** and assigned the lower of `F180` or the `RFL`  
 - With ADES **YBSU**  
     - Assigned the **ITIDE** STAR; and  
@@ -358,8 +353,8 @@ Voiceless for aircraft:
 
 !!! note
     ^Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
-
-All other aircraft going to INL CTA must be **Heads-up** Coordinated by BN TCU prior to the boundary. This includes YBCG departures to the North that clip INL(GOL) airspace before re-entering BN TCU airspace
+	
+All other aircraft going to INL CTA will be **Heads-up** Coordinated by BN TCU/BAC.
 
 !!! phraseology
     <span class="hotline">**BAC** -> **GOL**</span>: "Departing YBCG, X4C, do you have any Restrictions or Requirements?"  
@@ -375,7 +370,7 @@ Voiceless for all aircraft:
 	- Assigned a STAR, and assigned `F130`; or
 	- Tracking via **`BN Y177 IDRIL NOPAS GOMOL`**, and assigned `F190`.
 
-All other aircraft coming from INL CTA will be **Heads-up** Coordinated to BN TCU.
+All other aircraft coming from INL CTA must be **Heads-up** Coordinated to BN TCU/BAC prior to **20nm** from the boundary.
 
 ### BN ADC
 #### Auto Release
@@ -411,35 +406,39 @@ Aircraft that have been cleared the **BN (RADAR) SID** will receive an assigned 
     If strong winds are present at altitude, ADC/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
 
 ### BN TCU Internal
-#### Departures
-Voiceless Coordination is in place for departures transiting between BN TCU positions, provided the aircraft is:
+#### APP / DEP
+Voiceless Coordination is in place for aircraft transiting between BN APP/DEP positions, provided the aircraft is:
 
-- ADEP **YBBN** or **YBCG**; and
-- Assigned a SID; and
-- Climbing via SID to `A100` or higher
+- With ADEP **YBBN**
+  - Assigned a SID; and
+  - Climbing via SID to `A100` or higher
 
-#### Arrivals
-Voiceless Coordination is in place for arrivals transiting between BN TCU positions, provided the aircraft is:
+- With ADES **YBBN**
+  - Assigned a STAR; and
+  - Descending via STAR to `A080`
 
-- ADES **YBBN** or **YBCG**; and
-- Assigned a STAR; and
-- Descending via STAR to `A080`
 
-#### Others (Heads-up)
-All other aircraft not meeting the Departures/Arrivals criteria that transit between internal BN TCU boundaries must be heads-up coordinated.
+All other aircraft, including aircraft that transit between internal BN TCU boundaries, must be heads-up coordinated.
 
 !!! phraseology
     <span class="hotline">**BDS** -> **BAS**</span>: "via MAKRU, QFA904"  
     <span class="hotline">**BAS** -> **BDS**</span>: "QFA904, A050"
 
+
+#### Between BAC and APP/DEP
+YBCG arrivals and departures **do not** meet the voiceless criteria between APP/DEP and BAC, and must be heads-up coordinated.
+
+!!! phraseology
+    <span class="hotline">**BDS** -> **BAC**</span>: "via NOPAS, A2B"  
+    <span class="hotline">**BAC** -> **BDS**</span>: "A2B, `A070`"
+
 #### Between SHN and TCU
 Standard [Radar to TCU](../controller-skills/coordination.md#radar-position-tcu-controllers) coordination for each aircraft transiting between Class G and CTA (or vice versa).
+
 
 ### CG ADC
 #### Airspace
 CG ADC is responsible for the Class C Airspace within the CG CTR `SFC` to `A015`.
-
-Refer to [Reclassifications](#cg-ctr) for operations when CG ADC is offline.
 
 #### Auto Release
 [Next](../controller-skills/coordination.md#next) coordination is **not** required to BN TCU for aircraft that are:   
