@@ -46,21 +46,26 @@ Recovering military aircraft must automatically revert to VFR at the following p
 ### Lanes
 The 16 individual training areas within the ESL military airspace are separated by 4 outbound lanes. These lanes are used by aircraft transiting to/from exterior training areas or for entry and exit of ESL military airspace.
 
-Lanes are defined by GNSS waypoints situated at 12, 35, and 50 NM from YMES AD.
+Lanes are defined by waypoints situated at 12NM, 35NM, and 50NM from YMES.
+
+<figure markdown>
+![East Sale Lanes](img/ESL Lanes.png){ width="700" }
+<figcaption>ESL Lanes</figcaption>
+</figure>
 
 ### Outbound Lanes
-| Lane Direction | 12NM GNSS Waypoint | 35NM GNSS Waypoint | 50NM GNSS Waypoint | Bearing |
+| Lane Name | 12NM Waypoint | 35NM Waypoint | 50NM Waypoint | Bearing |
 | -------------- | ------------------ | ------------------ | ------------------ | ------- |
-| Northern       | LEKEM              | GONEB              | LANOS              | 359     |
-| Eastern        | VEMDA              | KADRU              | TAVET              | 090     |
-| Southern       | SABAX              | LUTUK              | NOLOX              | 180     |
-| Western        | DUGAD              | LERKO              | DUNNE              | 270     |
+| Northern Lane      | LEKEM              | GONEB              | LANOS              | 359     |
+| Eastern Lane        | VEMDA              | KADRU              | TAVET              | 090     |
+| Southern Lane       | SABAX              | LUTUK              | NOLOX              | 180     |
+| Western Lane        | DUGAD              | LERKO              | DUNNE              | 270     |
 
 Lanes extend from `SFC` or the base of restricted airspace to `F160`. Aircraft departing ESL military airspace may be instructed to track via a lane at or below `F160`.
 
 !!! phraseology
-    *BRCT21 is departing East Sale via the Eastern Lane at FL110 to YORB*  
-    **ES SMC** -> **BRCT21**: "BRCT21 cleared to YORB via Eastern Lane, flight plan route, climb to F110, squawk 5072, departure frequency 123.3"
+    *BRCT21 is departing East Sale via the Eastern Lane at `F110` to YORB*  
+    **ES SMC** -> **BRCT21**: "BRCT21 cleared to YORB via Eastern Lane, climb to `F110`, squawk 5072, departure frequency 123.3"
 
 ## Helicopter Operations
 ### Circuits  
