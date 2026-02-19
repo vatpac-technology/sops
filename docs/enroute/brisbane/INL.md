@@ -11,8 +11,8 @@
 | <span class="indented">Burnett :material-information-outline:{ title="Non-standard position"}    | BUR | Brisbane Centre | 123.000 | BN-BUR_CTR |
 | <span class="indented">Downs :material-information-outline:{ title="Non-standard position"}      | DOS | Brisbane Centre | 135.600 | BN-DOS_CTR |
 | <span class="indented">Gold Coast :material-information-outline:{ title="Non-standard position"} | GOL | Brisbane Centre | 130.400 | BN-GOL_CTR |
-| <span class="indented">Straddy :material-information-outline:{ title="Non-standard position"}    | SDY | Brisbane Centre | 134.300 | BN-SDY_CTR |
 | <span class="indented">Noosa :material-information-outline:{ title="Non-standard position"}      | NSA | Brisbane Centre | 124.100 | BN-NSA_CTR |
+| <span class="indented">Straddy :material-information-outline:{ title="Non-standard position"}    | SDY | Brisbane Centre | 134.300 | BN-SDY_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
@@ -53,6 +53,12 @@ INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, and **NSA** when they
 
     !!! tip
         If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
+        
+#### CG CTR
+when **CG ADC** is offline, the CG CTR Class C airspace `SFC` to `A035` reverts to Class G and is administered by GOL. Alternatively, GOL may provide a [top-down approach service](../../../terminal/brisbane) if they wish.
+
+!!! tip
+    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.        
 
 ## Departure and Arrival Procedures
 
@@ -321,9 +327,9 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 
 ## Coordination
-### BN TCU
+### BN TCU/BAC
 #### Airspace
-The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, where it is `SFC` to `A075` in the North West, and `SFC` to `F125` in the South East.
+The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, where it is `SFC` to `A075` in the northwest, and `SFC` to `F125` in the southeast.
 
 Refer to [Brisbane TCU Airspace Division](../../../terminal/brisbane/#airspace-division) for information on airspace divisions when **BAS**, **BDN** and/or **BDS** are online.
 
@@ -337,13 +343,15 @@ Voiceless for all aircraft:
 	- Assigned a STAR, and assigned `F130`; or
 	- Tracking via **`BN Y177 IDRIL NOPAS GOMOL`**, and assigned `F190`.
 
-All other aircraft coming from INL CTA must be **Heads-up** Coordinated to BN TCU prior to **20nm** from the boundary.
+Additionally, voiceless coordination exists between INL and BN TCU for **YBCG** arrivals tracking via **BN** and assigned `F190`.
+
+All other aircraft coming from INL CTA must be **Heads-up** Coordinated to BN TCU/BAC prior to **20nm** from the boundary.
 
 #### Departures
 Voiceless for aircraft:
 
 - With ADEP **YBBN**  
-    - Tracking via a Procedural SID terminus; and  
+    - Tracking via a Procedural SID terminus^; and  
     - Assigned the lower of `F180` or the `RFL`  
 - With ADEP **YBCG**  
     - Tracking via **APAGI** and assigned the lower of `F120` or the `RFL`; or  
@@ -351,8 +359,11 @@ Voiceless for aircraft:
 - With ADES **YBSU**  
     - Assigned the **ITIDE** STAR; and  
     - Assigned `F130`
-    
-All other aircraft going to INL CTA will be **Heads-up** Coordinated by BN TCU.
+
+!!! note
+    ^Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+	
+All other aircraft going to INL CTA will be **Heads-up** Coordinated by BN TCU/BAC.
 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.

@@ -8,7 +8,7 @@
 | Name                | ID      | Callsign             | Frequency   | Login ID       |
 | ------------------- | ------- | -------------------- | ----------- | -------------- |
 | **Huon**            | **HUO** | **Melbourne Centre** | **122.600** | **ML-HUO_CTR** |
-|  <span class="indented">Wonthaggi :material-information-outline:{ title="Non-standard position"} | HUO | Melbourne Centre | 135.300 | ML-WON_CTR |
+|  <span class="indented">Wonthaggi :material-information-outline:{ title="Non-standard position"} | WON | Melbourne Centre | 135.300 | ML-WON_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  

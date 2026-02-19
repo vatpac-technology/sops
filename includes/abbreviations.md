@@ -153,7 +153,7 @@
 *[AUG]: Melbourne (Augusta) Centre
 *[BLA]: Melbourne (Benalla) Centre
 *[BKE]: Melbourne (Bourke) Centre
-*[CRS]: Melbourne (Cross) Centre
+*[SCR]: Melbourne (Cross) Centre
 *[ESP]: Melbourne (Esperance) Centre
 *[FOR]: Melbourne (Forrest) Centre
 *[FOW]: Melbourne (Forrest West) Centre
