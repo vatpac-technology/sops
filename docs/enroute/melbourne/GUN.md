@@ -60,7 +60,7 @@ Arrivals from the northeast shall be given initial descent to not below `F290`. 
 	For aircraft overflying the SY TMA, place *'O/FLY'* in the LABEL DATA field.
 
 #### Sequencing
-Sequencing arrivals into YSCB is a joint responsibility of the subsectors of GUN. For aircraft arriving from the north, initial sequencing actions should be performed by KAT, with fine tuning and any holding required issued by GUN. NIK should perform initial sequencing actions for aircraft arriving from the northeast, before being handed off to WOL for final sequencing actions
+Sequencing arrivals into YSCB is a joint responsibility of the subsectors of GUN. For aircraft arriving from the north, initial sequencing actions should be performed by KAT, with fine tuning and any holding required issued by GUN. BIK should perform initial sequencing actions for aircraft arriving from the northeast, before being handed off to WOL for final sequencing actions
 
 ##### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YSCB. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
