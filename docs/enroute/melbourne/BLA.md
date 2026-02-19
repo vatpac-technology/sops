@@ -8,7 +8,7 @@
 | Name                | ID      | Callsign             | Frequency   | Login ID       |
 | ------------------- | ------- | -------------------- | ----------- | -------------- |
 | **Benalla**         | **BLA** | **Melbourne Centre** | **132.200** | **ML-BLA_CTR** |
-| <span class="indented">Eildon Weir :material-information-outline:{ title="Non-standard position"} | Melbourne Centre | ELW | 123.750 | ML-ELW_CTR |
+| <span class="indented">Eildon Weir :material-information-outline:{ title="Non-standard position"} | ELW | Melbourne Centre | 123.750 | ML-ELW_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  

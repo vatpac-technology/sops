@@ -71,9 +71,10 @@ Each button has the following function:
 | Button | Function |
 | ------ | -------- |
 | **INHIBIT** | Hides a strip from the stripboard (used when a strip is no longer needed) |
-| <span style="white-space: nowrap;">**XX CROSS XX**</span> | Adds a red highlight to the selected strip, denoting an intention to cross a runway |
-| **ADD BAR** | Allows controllers to place a variety of fixed bars anywhere on the stripboard, reflecting status changes (e.g. autorelease cancellation or runway crossing) and allowing bays to be separated (e.g. multiple SMC/ADC positions open) |
-| **FLIP FLOP** | Toggles the selected strip between Departure, Arrival & Local states (for aircraft with both ADES and ADEP fields matching the current aerodrome) |
+| <span style="white-space: nowrap;">**XX CROSS XX**</span> | Opens the Runway Cross window, allowing controllers to toggle the state of a particular runway |
+| <span style="white-space: nowrap;">**XX RELEASE XX**</span> | Opens the Runway Release window, allowing controllers to toggle the state of a particular runway |
+| **ADD BAR** | Allows controllers to place a variety of fixed bars anywhere on the stripboard, reflecting status changes (e.g. autorelease cancellation) and allowing bays to be separated (e.g. multiple SMC/ADC positions open) |
+| **FLIP** | Toggles the selected strip between Departure, Arrival & Local states (for aircraft with both ADES and ADEP fields matching the current aerodrome) |
 
 ### Strips
 The background colour of the strip corresponds to its status as an arrival or a departure. **Departing** aircraft have a blue strip, **arriving** aircraft have a yellow strip, and [**local**](#local-flights) aircraft have a pink strip.
@@ -114,9 +115,9 @@ The background colour of the strip corresponds to its status as an arrival or a 
 #### Local Flights
 Aircraft intending to conduct operations entirely on the ADC frequency (most commonly circuits or helicopter operations in ADC jurisdiction) should be marked as a **local strip**.
 
-Select the strip, then use the [flip flop](#control-bar) button to 'flip' the strip into a pink, local strip.
+Select the strip, then use the [Flip](#control-bar) button to 'flip' the strip into a pink, local strip.
 
-Aircraft who have filed flightplans which depart from and arrive back to the same aerodrome can be toggled between Departure and Arrival states using the [flip flop](#control-bar) button.
+Aircraft who have filed flightplans which depart from and arrive back to the same aerodrome can be toggled between Departure and Arrival states using the [Flip](#control-bar) button.
 
 !!! note
     Only aircraft who will remain on the ADC frequency should be marked as local strips. If an aircraft will depart the aerodrome and conduct operations elsewhere, then return for landing, they should be treated as a departure. These strips should then be flipped to Arrival state when they return.
@@ -134,7 +135,8 @@ The following keyboard shortcuts exist to improve workflow efficiency.
 | `T` | Select the strip of the last aircraft to transmit on frequency |
 | `W` | Highlight the strip of the last aircraft to transmit on frequency |
 | `X` | Toggle crossing highlight to selected strip |
-| `Alt + X` | Toggle RUNWAY CROSSING bar in Runway Bay |
+| `Alt + R` | Toggle Runway Release window |
+| `Alt + X` | Toggle Runway Crossing window |
 | `[` / `]` | Change aerodrome |
 | `↑` / `↓` | Move selected strip position in the current bay |
 | `Ctrl + ↑` / `Ctrl + ↓` | Move selected strip towards nearest bar |
@@ -162,7 +164,7 @@ OzStrips will flag any potentially invalid routes and incorrect hemispherical le
 
 <figure markdown>
 ![Invalid Level](./img/ozstripsbadlevel.png){ width="450" }
-    <figcaption>A potentially invalid level, shown by the red background on the CFL box</figcaption>
+    <figcaption>A potentially invalid level, shown by the orange background on the RFL box</figcaption>
 </figure>
 
 <figure markdown>
@@ -298,21 +300,23 @@ Pre-assigned OzBays bays are displayed with a grey background. These bays can be
     OzBays is currently in final development and testing, and will be progressively enabled for each aerodrome.
 
 #### Runway Crossings
-For aircraft who need to cross an active runway, select the strip and use the [XX CROSS XX](#control-bar) button to highlight it as a runway crossing. SMC should hotline ADC to request each runway crossing and/or place the strip in the **Holding Point Bay**  with the crossing highlight applied, as a visual trigger to ADC that an aircraft needs to cross. Once ADC has approved the runway crossing, place the strip back in the **Taxi Bay** and remove the highlight.
+For aircraft who need to cross an active runway, select the strip and apply the [crossing highlight](#keyboard-shortcuts). SMC should hotline ADC to request each runway crossing and/or place the strip in the **Holding Point Bay**  with the crossing highlight applied, as a visual trigger to ADC that an aircraft needs to cross. Once ADC has approved the runway crossing, place the strip back in the **Taxi Bay** and remove the highlight.
 
 !!! tip
     You can quickly toggle the crossing highlight by selecting an aircraft and pressing `X`.
+
+There is no need to highlight a taxiing aircraft crossing a runway which has been released to SMC.
 
 <figure markdown>
 ![Runway Crossing](./img/ozstripsrunwaycrossing.png){ width="700" }
     <figcaption>QFA721 is instructed to hold short of RWY 34L (expecting a full length departure) and placed in the **Holding Point Bay** with the crossing highlight</figcaption>
 </figure>
 
-Coordinated runway releases should be recorded by placing a `RUNWAY XX RELEASED TO SMC` [bar](#control-bar) in the **Runway Bay**. There is no need to highlight a taxiing aircraft crossing a runway which has been released to SMC.
+Coordinated runway releases should be recorded by clicking the [XX RELEASE XX](#control-bar) button and selecting the applicable runway. This will highlight the runway in *blue* to visualise the release.
 
 <figure markdown>
-![Runway Release](./img/ozstripsrunwayrelease.png){ width="700" }
-    <figcaption>Runway 27 released to SMC</figcaption>
+![Runway Release](./img/ozstripsrunwayrelease.png){ width="600" }
+    <figcaption>Runway 25 released to SMC</figcaption>
 </figure>
 
 ### Tower
@@ -365,7 +369,7 @@ The **Circuit Bay** can be toggled on and off using the option within the **View
 
 Once the aircraft is airborne, move the strip to the **Circuit Bay** and sequence them with any other arriving aircraft. On each circuit, move the strip to the **Runway Bay** when a landing/touch & go/other clearance is issued, then move them back to the **Circuit Bay** when they become airborne again.
 
-When the aircraft lands for the final time and vacates the runway, use the [flip flop](#control-bar) button to change their state to **Arrival** and place them in the **Taxi Bay** in accordance with normal [arrival procedures](#arrivals_1).
+When the aircraft lands for the final time and vacates the runway, use the [Flip](#control-bar) button to change their state to **Arrival** and place them in the **Taxi Bay** in accordance with normal [arrival procedures](#arrivals_1).
 
 !!! tip 
     With a strip selected, press `F` to flip it between Departure, Arrival, and Local states.
@@ -382,22 +386,25 @@ Aircraft who need to cross an active runway will be coordinated by SMC by hotlin
 
 Where workload permits, ADC may proactively coordinate with SMC to approve runway crossings based the presence of a strip in the **Holding Point Bay**.
 
-When approval is given for the runway crossing, place the `XXX CROSSING XXX` [bar](#control-bar) in the **Runway Bay** to prevent inadvertent takeoff or landing clearances from being issued. Once the aircraft is clear, remove the bar.
+Approved runway crossings should be recorded by clicking the [XX CROSS XX](#control-bar) button and selecting the applicable runway. This will highlight the runway in *red*, preventing inadvertent takeoff or landing clearances from being issued. Once the aircraft is clear, remove the Crossing bar from the **Runway Bay**.
 
 <figure markdown>
-![Runway Crossing](./img/ozstripsrunwaycrossingbar.png){ width="450" }
+![Runway Crossing](./img/ozstripsrunwaycrossingbar.png){ width="600" }
     <figcaption>**Runway Bay** blocked out during a runway crossing</figcaption>
 </figure>
 
 !!! tip
-    You can quickly toggle the Crossing bar in the **Runway Bay** by pressing `ALT + X`.
+    You can quickly toggle a runway crossing by pressing `ALT + X`.
 
-Coordinated runway releases should be recorded by placing a `RUNWAY XX RELEASED TO SMC` [bar](#control-bar) in the **Runway Bay**.
+Coordinated runway releases should be recorded by clicking the [XX RELEASE XX](#control-bar) button and selecting the applicable runway. This will highlight the runway in *blue* to visualise the release.
 
 <figure markdown>
-![Runway Release](./img/ozstripsrunwayrelease.png){ width="700" }
-    <figcaption>Runway 27 released to SMC</figcaption>
+![Runway Release](./img/ozstripsrunwayrelease.png){ width="600" }
+    <figcaption>Runway 25 released to SMC</figcaption>
 </figure>
+
+!!! tip
+    You can quickly toggle a runway release by pressing `ALT + R`.
 
 #### Class D Tower
 Procedural Class D Tower layouts feature an **Active Bay**, designed to hold all aircraft under jurisdiction of ADC, active in their airspace. 
