@@ -42,10 +42,12 @@ When WLM ADC is online, they own the airspace within the WLM MIL CTR A (`SFC`-`A
 
 ## Local Procedures
 ### Stereo Approaches (Fast Jet Aircraft)
+
 Fast jet aircraft typically transit from M550 to YWLM via Gate 6 at `F125`. When requested, or advised via ATIS, the stereo approach may be utilised to facilitate aircraft recovery.
 
 !!! tip
     See [Controller Skills](../controller-skills/military.md#stereo-approaches) for more details about stereo approaches.
+    See [SUA Gates](../terminal/williamtown.md#sua-gates) for more details about Williamtowns Gate Locations.
 
 !!! phraseology
     **MAPL45**: "Willy Approach, MAPL45, RTBing via G6, runway 12"  
@@ -54,6 +56,80 @@ Fast jet aircraft typically transit from M550 to YWLM via Gate 6 at `F125`. When
 
 !!! note
     Stereo approach charts are available in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}.
+
+### SUA Gates
+
+<figure markdown>
+![WLM SUA Gates](../aerodromes/classc/img/WLMGates.png){ width="700" }
+  <figcaption>WLM SUA Gates</figcaption>
+</figure>
+
+#### Eastern Airspace
+There are 8 gates to facilitate departures and arrivals into the eastern training airspace, based on the WLM TACAN. 
+
+| Gate Name | Ident | Bearing (°M) | Distance (nm) | Restricted Area |
+| ----- | ---------| --------------- | -------- | ---------------- |
+| Gate 1 | G1 | 029 | 25 | R586 |
+| Gate 2 | G2 | 050 | 25 | R586 | 
+| Gate 3 | G3 | 065 | 25 | M550 |
+| Lighting Corridor | LG | 068 | 25 | M550|
+| Gate 4 | G4 | 088 | 25 | M550 |
+| Gate 5 | G5 | 105 | 25 | M550 |
+| Gate 6 | G6 | 125 | 25 | M550 |
+| Gate 7 | G7 | 135 | 25 | M550 |
+| Gate 9 | G9 | 007 | 25 | R585 |
+| Gate 10 | G10 | 345 | 25 | R585 |
+| Gate 11 | G11 | 320 | 25 | R585 |
+
+Aircraft planning to enter certain areas of the Eastern GFTA are required to be assigned certain gates. 
+| GFTA | Gate/Lane |
+| A1 | Gate 7 |
+| A/B | Gate 6 |
+| B1  | Gate 4 |
+| C-G | Lighting Corridor |
+| H | Gates 1 to 3 |
+| W | Gate 1 |
+| X, Y, Z | Gates 9 to 11 |
+
+!!! phraseology
+    *DPOT45 is departing Williamtown via Gate 4 for Echo Delta *  
+    **WLM SMC** -> **DPOT45**: "DPOT45 cleared Gate 4, FL120, Visual Departure squawk 6001, departure frequency 135.700"
+
+#### Western Gates
+There are 2 gates to facilitate departures and arrivals into the western training airspace, based on the WLM TACAN. 
+
+| Gate Name | Ident | Bearing (°M) | Distance (nm) | Restricted Area |
+| ----- | ---------| --------------- | -------- | ---------------- |
+| THNDA | THNDA | 311 | 25 | R560 and R570  |
+| STORM | STORM | 289 | 25 | R560 and R570 | 
+
+#### Coded Clearances
+High performance military jet aircraft with planned operations in SUAs,, shall be assigned a Coded Clearance departure. These Coded Clearances provide a standardised corridor avoiding civilian traffic in the adjacent airspace. 
+
+!!! tip
+    Descriptions of the coded clearances are available in the [FIHA AD2 Supps](https://ais-af.airforce.gov.au/australian-aip){target=new}.
+
+##### Departures
+| Departure | Initial Constraint | Route |
+| --------- | ----------| --------- |
+| Pepper 1 | RWY12: None, RWY30: 'F130' by OLVEP or<br> 'A080' by ERVEV| RWY12: UDIXA, RWY30: OLVEP or<br>ERVEV|
+| Classic 1 | RWY12: None, RWY30: 'A090' by UKDIP or<br> 'F130' by OLVEP | RWY12:: None, RWY30: OLVEP or<br>ERVEV|
+| Storm 1 | 'F140' by THNDA | THNDA TG3 TG4 |
+
+##### Arrivals
+| Arrivals | Initial Constraint | Route
+| Storm 2 | 'F130' by STORM | TG5 TG4 STORM |
+
+!!! phraseology
+    *BARN21 plans to enter M550 via the gate 4 for military training.*  
+    **WLM ADC**: "BARN21, cleared to YWLM via ERVEV, thence Pepper 1, Gate 4 transition, flight planned route. Runway 30, visual departure, climb to `A080`, squawk 6002, departure frequency 135.7"   
+
+!!! phraseology
+    *MAPL21 plans to enter R570 via THNDA for military training.*  
+    **WLM ADC**: "BARN21, cleared to YWLM via THNDA, thence Storm 1, flight planned route, Storm 2 Arrvial, Runway 30, visual departure, climb to `FL140`, squawk 6003, departure frequency 135.7" 
+
+!!! Note
+  WLM ADC can issue both outbound and inbound clearances into R560 and R570 during initial airways clearance
 
 ## Flow
 ### Local Knowledge

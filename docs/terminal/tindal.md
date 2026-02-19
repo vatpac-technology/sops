@@ -61,7 +61,7 @@ Arrivals can be cleared via the appropriate gate for their return to YPTN.
 | WEDGE 3     | W3 | 200 | 16 | R238 |
 
 <figure markdown>
-![Tindal Gates](img/../../aerodromes/classc/img/yptngates.png){width="700"}
+![Tindal Gates](../aerodromes/classc/img/Tindal Map.png){width="700"}
   <figcaption>Tindal Gates</figcaption>
 </figure>
 

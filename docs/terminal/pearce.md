@@ -38,6 +38,46 @@ Additional airspace may be released by NOTAM, or coordinated between PEA, PH TCU
     <span class="hotline">**PEA** -> **LEA**</span>: "Request release of M166, SFC to F160, for Military Operations. My onwards with PH TCU"   
     <span class="hotline">**LEA** -> **PEA**</span>: "M166, SFC to F160, released to you. Your onwards with PH TCU"  
 
+## Local Procedures
+### Initial and Pitch Procedures 
+
+| Runway | Direction Initial | Inital Altitude
+| ------ | ------------------|----------------|
+| 05     | Any | A010 |
+| 18L    | Left/Straight<br>Right | A015<br>A010 |
+| 18R    | Left/Straight<br>Right | A015<br>A010 |
+| 23     | Any | A015 |
+| 36L    | Left<br>Right | A010<br>A015 |
+| 36R    | Left<br>Right | A010<br>A015 |
+
+## Runway Modes
+### Circuits
+Aircraft can be instructed to extend outside of this airspace by ATC for traffic management, following coordination with the appropriate sectors.
+
+HAWKs have circuit altitude of `A016`, while both 2FTS and RSAF PC21s are assigned `A012`.
+
+!!! note
+    36L/18R is unsuitable for HAWK Aircraft
+
+#### Circuit Direction
+
+| Runway | Direction |
+| ------ | ----------|
+| 05      | Left  |
+| 18L    | Right |
+| 18R    | Right |
+| 23     | Right |
+| 36L    | Left  |
+| 36R    | Left  |
+
+## Pearce Lanes
+Aircraft in PEA Airspace typically use the Wannamal Lane, Alkimos Lane, or Mullalloo Lane to transit between SUAs
+
+<figure markdown>
+![Pearce Lanes](../aerodromes/classc/img/PEA Lanes.png){width="700"}
+  <figcaption>Pearce Lanes</figcaption>
+</figure>
+
 ## Coordination
 ### Enroute
 #### Departures

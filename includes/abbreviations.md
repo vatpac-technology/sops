@@ -190,6 +190,7 @@
 *[AYMD]: Madang
 *[AYMH]: Mt Hagen
 *[AYTK]: Tokua
+*[GFTA]: General Flying Training Area
 *[GGO]: Goonoo Goonoo Station
 *[WBH]: Wallabadah
 *[NUN]: Nundle
@@ -355,6 +356,7 @@
 *[MARSA]: Military Authority Assumes Responsibility for Separation of Military Aircraft
 *[NOCOM]: Non-Continuous Communication
 *[AEWC]: Airborne Early Warning and Control
+*[SAWR]: Salt Ash Air Weapons Range
 *[ATZ]: Aerodrome Traffic Zone
 *[NEN]: Nerang
 *[STOT]: Stotts Island
