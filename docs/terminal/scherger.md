@@ -45,6 +45,34 @@ SG TCU is responsible for clearances into and out of Weipa (YBWP), which sits in
 !!! note
     While SG TCU is responsible for the airspace from `SFC` to `F245` above YBWP, they have **no jurisdiction** over the runways, taxiways, or apron areas on the aerodrome itself.
 
+### SUA Gates
+There are 12 gates to facilate departues and arrivals from the SG Training Airspace, based on the SG TACAN. Aircraft can be cleared to track direct to the gate, or allow them to intercept the outbound radial by 10 DME. 
+
+| Gate Name | Ident | Bearing (°M) | Distance (nm) | Level | Direction |
+| ------ | ----------| ----------| ----------| ----------| ----------|
+| Gate 1 | G1 | 360 | 40 | ARRIVE |
+| Gate 2 | G2 | 030 | 40 | DEPART |
+| Gate 3 | G3 | 060 | 40 | ARRIVE |
+| Gate 4 | G4 | 090 | 40 | DEPART |
+| Gate 5 | G5 | 120 | 40 | ARRIVE |
+| Gate 6 | G6 | 150 | 40 | DEPART | 
+| Gate 7 | G7 | 180 | 40 | ARRIVE |
+| Gate 8 | G8 | 210 | 40 | DEPART |
+| Gate 9 | G9 | 240 | 40 | ARRIVE |
+| Gate 10 | G10 | 270 | 40 | DEPART |
+| Gate 11 | G11 | 300 | 40 | ARRIVE |
+| Gate 12 | G12 | 330 | 40 | DEPART |
+
+<figure markdown> 
+![SG Gates](../aerodromes/classc/img/SG Map.png){width="700"}
+  <figcaption>SG Gates</figcaption>
+</figure>
+
+!!! phraseology 
+    CLAS35 has completed operations in M610, and is requesting return to YBSG via Gate 9.  
+    **SG TCU**: "CLAS35, cleared to YBSG via Gate 9, thence SG. When ready descend to A070" 
+
+
 #### Departures
 Outbound aircraft will report when taxiing for departure to **SG TCU**. Controllers shall issue the aircraft with a squawk code and a traffic statement regarding any aircraft operating on, or shortly to land at, the aerodrome.
 
