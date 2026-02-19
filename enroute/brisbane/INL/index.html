@@ -3008,6 +3008,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Reclassifications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cg-ctr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CG CTR
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -3380,15 +3397,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#bn-tcu" class="md-nav__link">
+  <a href="#bn-tcubac" class="md-nav__link">
     <span class="md-ellipsis">
       
-        BN TCU
+        BN TCU/BAC
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="BN TCU">
+    <nav class="md-nav" aria-label="BN TCU/BAC">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -9117,6 +9134,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Reclassifications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cg-ctr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CG CTR
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -9489,15 +9523,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#bn-tcu" class="md-nav__link">
+  <a href="#bn-tcubac" class="md-nav__link">
     <span class="md-ellipsis">
       
-        BN TCU
+        BN TCU/BAC
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="BN TCU">
+    <nav class="md-nav" aria-label="BN TCU/BAC">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -9843,6 +9877,12 @@ Approval must be sought from the <strong>bolded parent position</strong> prior t
 </div>
 </div>
 </div>
+</div>
+<h4 id="cg-ctr">CG <abbr title="Control Zone">CTR</abbr></h4>
+<p>when <strong>CG <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong> is offline, the CG <abbr title="Control Zone">CTR</abbr> Class C airspace <code>SFC</code> to <code>A035</code> reverts to Class G and is administered by <abbr title="Brisbane (Gold Coast) Centre">GOL</abbr>. Alternatively, <abbr title="Brisbane (Gold Coast) Centre">GOL</abbr> may provide a <a href="../../../terminal/brisbane">top-down approach service</a> if they wish.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>If choosing <em>not</em> to provide a top down service, consider publishing an <strong><abbr title="Automatic Terminal Information Service">ATIS</abbr> Zulu</strong> for the aerodrome, to inform pilots about the airspace reclassification. The <em>More <abbr title="Automatic Terminal Information Service">ATIS</abbr></em> plugin has a formatted Zulu <abbr title="Automatic Terminal Information Service">ATIS</abbr> message.        </p>
 </div>
 <h2 id="departure-and-arrival-procedures">Departure and Arrival Procedures</h2>
 <h3 id="yamb">YAMB</h3>
@@ -10535,9 +10575,9 @@ Approval must be sought from the <strong>bolded parent position</strong> prior t
 </div>
 </div>
 <h2 id="coordination">Coordination</h2>
-<h3 id="bn-tcu">BN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></h3>
+<h3 id="bn-tcubac">BN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr>/<abbr title="Brisbane (Gold Coast) Approach">BAC</abbr></h3>
 <h4 id="airspace_1">Airspace</h4>
-<p>The Vertical limits of the BN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> are <code>SFC</code> to <code>F180</code>, except in <abbr title="Brisbane (Gold Coast) Approach">BAC</abbr> airspace, where it is <code>SFC</code> to <code>A075</code> in the North West, and <code>SFC</code> to <code>F125</code> in the South East.</p>
+<p>The Vertical limits of the BN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> are <code>SFC</code> to <code>F180</code>, except in <abbr title="Brisbane (Gold Coast) Approach">BAC</abbr> airspace, where it is <code>SFC</code> to <code>A075</code> in the northwest, and <code>SFC</code> to <code>F125</code> in the southeast.</p>
 <p>Refer to <a href="../../../terminal/brisbane/#airspace-division">Brisbane <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> Airspace Division</a> for information on airspace divisions when <strong><abbr title="Brisbane Approach South">BAS</abbr></strong>, <strong><abbr title="Brisbane Departures North">BDN</abbr></strong> and/or <strong><abbr title="Brisbane Departures South">BDS</abbr></strong> are online.</p>
 <h4 id="arrivalsoverfliers">Arrivals/Overfliers</h4>
 <p>Voiceless for all aircraft:</p>
@@ -10553,12 +10593,13 @@ Approval must be sought from the <strong>bolded parent position</strong> prior t
 </ul>
 </li>
 </ul>
-<p>All other aircraft coming from <abbr title="Brisbane (Inverell) Centre">INL</abbr> <abbr title="Controlled Airspace">CTA</abbr> must be <strong>Heads-up</strong> Coordinated to BN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> prior to <strong>20nm</strong> from the boundary.</p>
+<p>Additionally, voiceless coordination exists between <abbr title="Brisbane (Inverell) Centre">INL</abbr> and BN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> for <strong>YBCG</strong> arrivals tracking via <strong>BN</strong> and assigned <code>F190</code>.</p>
+<p>All other aircraft coming from <abbr title="Brisbane (Inverell) Centre">INL</abbr> <abbr title="Controlled Airspace">CTA</abbr> must be <strong>Heads-up</strong> Coordinated to BN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr>/<abbr title="Brisbane (Gold Coast) Approach">BAC</abbr> prior to <strong>20nm</strong> from the boundary.</p>
 <h4 id="departures_1">Departures</h4>
 <p>Voiceless for aircraft:</p>
 <ul>
 <li>With <abbr title="Departure Aerodrome">ADEP</abbr> <strong>YBBN</strong>  <ul>
-<li>Tracking via a Procedural <abbr title="Standard Instrument Departure">SID</abbr> terminus; and  </li>
+<li>Tracking via a Procedural <abbr title="Standard Instrument Departure">SID</abbr> terminus^; and  </li>
 <li>Assigned the lower of <code>F180</code> or the <code>RFL</code>  </li>
 </ul>
 </li>
@@ -10573,7 +10614,11 @@ Approval must be sought from the <strong>bolded parent position</strong> prior t
 </ul>
 </li>
 </ul>
-<p>All other aircraft going to <abbr title="Brisbane (Inverell) Centre">INL</abbr> <abbr title="Controlled Airspace">CTA</abbr> will be <strong>Heads-up</strong> Coordinated by BN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>^Aircraft are <em>not required</em> to be tracking via the <strong><abbr title="Standard Instrument Departure">SID</abbr> procedure</strong>, simply tracking via any of the terminus waypoints (Regardless of <em>departure airport</em> or <em>assigned <abbr title="Standard Instrument Departure">SID</abbr></em>) is sufficient to meet the criteria for <strong>voiceless coordination</strong></p>
+</div>
+<p>All other aircraft going to <abbr title="Brisbane (Inverell) Centre">INL</abbr> <abbr title="Controlled Airspace">CTA</abbr> will be <strong>Heads-up</strong> Coordinated by BN <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr>/<abbr title="Brisbane (Gold Coast) Approach">BAC</abbr>.</p>
 <h3 id="enroute">Enroute</h3>
 <p>As per <a href="../../../controller-skills/coordination/#enr-enr">Standard coordination procedures</a>, Voiceless, no changes to route or <abbr title="Cleared Flight Level">CFL</abbr> within <strong>50nm</strong> to boundary.</p>
 <h3 id="inl-internal"><abbr title="Brisbane (Inverell) Centre">INL</abbr> Internal</h3>
