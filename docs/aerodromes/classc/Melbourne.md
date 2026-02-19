@@ -253,16 +253,16 @@ Aircraft that have been cleared the **ML (RADAR) SID** must receive an assigned 
 
 The following Standard Assignable Headings may be used for aircraft assigned the ML (RADAR) SID, depending on their direction of travel.
 
-| Runway | W | NE | SE | S |
-| ---- | :----: | :----: | :----: | :----: |
-| RWY 09* | - | - | - | - |
-| RWY 16** | H290 | H290 | H160 | H260 |
-| RWY 27 | H320 | H290 | H260 | H260 |
-| RWY 34 | H340 | H340 | H340 | H260 |
+| Runway   | W    | NW   | NE   | SE   | S/SW |
+| -------- | :--: | :--: | :--: | :--: | :--: |
+| RWY 09   | ---- | ---- | ---- | ---- | ---- |
+| RWY 16<br><small>(16AD)</small>  | H160 | H290 | H290 | H160 | H160 |
+| RWY 16<br><small>(09A16D)</small>  | H160 | H160 | H160 | H160 | H160 |
+| RWY 27   | H260 | H320 | H290 | H260 | H260 |
+| RWY 34   | H260 | H340 | H340 | H340 | H260 |
 
-*When Runway 09 is in use for departures, ML TCU shall nominate a heading to ML ADC for use as a standard assignable heading.
-
-**When Runway 09 is in use for arrivals, all Runway 16 departures shall be assigned heading 160.
+!!! note
+    When Runway 09 is in use for departures, ML TCU shall nominate a heading to ML ADC for use as a standard assignable heading.
 
 ### Runway Change
 Any runway change must be prior coordinated to **MAE** and **EN ADC**.
@@ -291,8 +291,8 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
 === "RWY 34"
     | Runway | Via  | Departure Frequency |
     | ------ | ---- | -------------------- |
-    | 34 | CORRS<br>MNG<br>NONIX<br>DOSEL<br>KEPPA<br>PEDNI<br>SUNTI<br>Tracking NW, N, or NE | 118.9 (MDN) |
-    | 34 | CRENA<br>ESDIG<br>Tracking SW, S, or SE | 129.4 (MDS) |
+    | 34 | CORRS<br>MNG<br>NONIX<br>DOSEL<br>KEPPA<br>PEDNI<br>SUNTI<br>Tracking NW, N, NE, or SE | 118.9 (MDN) |
+    | 34 | CRENA<br>ESDIG<br>Tracking SW, or S | 129.4 (MDS) |
 
 ### EN ADC
 EN ADC is responsible for separation with all YMML traffic, and will coordinate any aircraft operating in EN ADC airspace that cannot be visually or laterally separated with YMML traffic.
