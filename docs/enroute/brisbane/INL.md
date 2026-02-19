@@ -200,7 +200,7 @@ The following subsectors are responsible for issuing STAR clearance.
 
 Arrivals from the north shall be given initial descent to not below `F190`. **BN TCU** will issue final descent.
 
-Arrivals from other sectors should be issued with descent and tracking instructions appropriate for the runway configuration, following [coordination](#bn-tcu).
+Arrivals from other sectors should be issued with descent and tracking instructions appropriate for the runway configuration, following [coordination](#bn-tcu-bac).
 
 ##### Arrivals via BN
 There is no STAR available to facilitate aircraft arriving from the north west. INL(BUR/NSA) will instruct these aircraft `BN Y177 IDRIL NOPAS GOMOL` prior to handoff to BN TCU, who will then facilitate further descent. Aircraft will then be given further instructions by BAC according to the runway in use.
@@ -282,7 +282,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		| YBCG | All   | **123.500** (BAC)      |
 
 		!!! tip
-			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcu-bac). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 		
 	=== "19 PROPS"
 		<figure markdown>
@@ -303,7 +303,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		| YBCG | All   | **123.500** (BAC)      |
 
 		!!! tip
-			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcu-bac). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 		
 	=== "SODPROPS"
 		<figure markdown>
@@ -324,7 +324,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		| YBCG | All   | **123.500** (BAC)      |
 
 		!!! tip
-			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcu-bac). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 
 ## Coordination
 ### BN TCU/BAC
