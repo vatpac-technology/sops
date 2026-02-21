@@ -45,13 +45,45 @@ Refer to the [ATIS section](#runway-mode-formatting) for information on ATIS for
 
 ## Manoeuvring Area
 ### Taxiway Restrictions
-## Taxiways
 Taxiway B west of C is limited to 8000KG AUW and 23M MAX wingspan. Common airliners including Dash 8 Q400s will need to enter/exit runway 12L/30R via intersection C.
 
 <figure markdown>
 ![TW TWY](img/TW_west_of_C.png){ width="800" }
   <figcaption>Twy B west of C shown in red</figcaption>
 </figure>
+
+### Recommended Taxi Routes
+To avoid nose-to-nose conflict at the southern runway, the following recommended taxi routes shall be utilised.
+
+=== "Runway 12R"
+	<figure markdown>
+	![Recommended Taxi Route for RWY 12R](img/ystw_taxi_12r.png){ width="500" }
+	  <figcaption>Recommended Taxi Route for RWY 12R</figcaption>
+	</figure>
+	
+=== "Runway 30L"
+	<figure markdown>
+	![Recommended Taxi Route for RWY 30L](img/ystw_taxi_30l.png){ width="500" }
+	  <figcaption>Recommended Taxi Route for RWY 30L</figcaption>
+	</figure>
+
+
+!!! warning "Important"
+    Not all pilots are aware of the existence of standard taxi routes. When in doubt, provide full taxi instructions detailing the full desired route.
+
+#### Southern Runway Departures
+
+!!! phraseology 
+    **83C**: "83C, at IFTT, received A, for a GST departure, request taxi"  
+    **TW SMC**: "83C, Tamworth Ground, taxi to holding point J Runway 12R"  
+    **83C**: "Taxi to holding point J Runway 12R, 83C"
+
+#### Northern Runway Departures
+
+!!! phraseology
+    **ZFN**: "Tamworth Ground, Cherokee ZFN, at IFTT, received A, request airways and taxi clearance to YSTW via MAL"  
+    **TW SMC**: "ZFN, Tamworth Ground, cleared to YSTW via MAL flight planned route, climb to `A045`, taxi to holding point B Runway 12L, cross runways 18 and 24"  
+    **ZFN**: "Cleared to YSTW via MAL flight planned route, climb to `A045`, taxi to holding point B Runway 12L, cross runways 18 and 24, ZFN"
 
 ## Separation
 ### Local Lateral Separation Points
@@ -92,17 +124,48 @@ The [geographic feature separation standard](../../separation-standards/visual.m
 The **Oxley** and **New England** Highways are good references for this standard.
 
 ### Surveillance
-Surveillance coverage can be expected to be not available below `A034` in the TW CTR. Although TW ADC is **not permitted** to use surveillance for separation, ARL/MDE may assist by establishing surveillance separation standards via coordination
+Surveillance coverage can be expected to be not available below `A034` in the TW CTR. Although TW ADC is **not permitted** to use surveillance for separation, ARL may assist by establishing surveillance separation standards via coordination
 
 ## VFR Operations
-VFR aircraft departing between the 160 radial through to the 295 radial should report ready **GST** or **GWT**.
 
-VFR Arrivals from the 160 radial through to the 295 radial should route via **DUA**. Clearance required prior to DUA. Aircraft should report 5NM for circuit entry instructions.
+### Departures
+#### Northern Runway Departures
+VFR aircraft not departing between the 160 radial through to the 295 radial shall make a standard CTA departure from the northern runway (12L/30R).
+
+!!! phraseology
+    **NRF**: "Tamworth Tower, Cherokee NRF, holding point B, for a CTA departure, ready"  
+    **TW ADC**: "NRF, Tamworth Tower, Runway 12L, cleared for takeoff, make left turn"  
+    **NRF**: "Runway 12L, cleared for takeoff, left turn, NRF"
+
+#### Southern Runway Departures
+VFR aircraft departing between the 160 radial through to the 295 radial should report either for a GST or GWT departure from the southern runway (12R/30L).
+
+!!! phraseology
+    **83C**: "Tamworth Tower, Cherokee 83C, holding point J, for a GST departure, ready"  
+    **TW ADC**: "83C, Tamworth Tower, depart via GST, cleared for takeoff"  
+    **83C**: "Depart via GST, cleared for takeoff, 83C"
 
 <figure markdown>
 ![TW VFR Routes](img/TW_VFR_routes.png){ width="800" }
   <figcaption>VFR Routes</figcaption>
 </figure>
+
+### Arrivals
+#### DUA Arrivals
+VFR arrivals between the 160 radial through to the 295 radial should route via **DUA**. Clearance required prior to DUA. Aircraft should report at 5NM for circuit entry instructions.
+
+!!! phraseology
+    **XCW**: "Tamworth Tower, Cherokee XCW, 5 miles west of DUA, `A030`, received A, inbound"  
+    **TW ADC**: "XCW, Tamworth Tower, cleared DUA, TW, maintain `A030`, report at 5 miles"  
+    **XCW**: "Cleared DUA, TW, maintain `A030` XCW"
+
+#### CTA Arrivals
+VFR arrivals not between the 160 radial and 295 radial shall request clearance from an inbound reporting point or radial with DME.
+
+!!! phraseology
+    **XGN** "Tamworth Tower, Cherokee XGN, NUN at 4500ft, 2 POB, in receipt of A, inbound"  
+    **TW ADC**: "XGN, Tamworth Tower, cleared NUN to TW, maintain 4500, report ready for descent"  
+    **XGN**: "Cleared NUN to TW, maintain 4500, wilco XGN"
 
 ## Runway Modes
 ### Preferred Runway Modes
@@ -120,16 +183,16 @@ During day VMC only, simultaneous parallel runway operations may be used between
 Controllers must closely monitor the base and final legs of the circuit to ensure pilots do not pass through their assigned runway centreline.
 
 ### Circuits
-Circuits are to be flown in the direction coinciding with the Runway designator (Left/Right) at `A025`.
+Circuits are to be flown in the direction coinciding with the Runway designator (Left/Right) at `A023`.
 
 ## ATIS
 ### Runway Mode Formatting
 The ATIS must indicate runway configuration in the format below:
 
-| Mode        | Controllers | ATIS Runway information |
-| ----------- | ----------- | ----------------------- |
-| 12/30 PROPS | Single ADC  | `RWY 12R/30L FOR CCTS AND ARRS AND DEPS SOUTH WEST. RWY 12L/30R FOR ALL OTHER ARRS AND DEPS` |
-| 12/30 PROPS | Dual ADC    | `RWY 12R/30L FOR CCTS AND ARRS AND DEPS SOUTH WEST, FREQ 118.25. RWY 12L/30R FOR ALL OTHER ARRS AND DEPS, FREQ 119.4` |
+| Mode        | ATIS Runway information |
+| ----------- | ----------------------- |
+| 12 PROPS | `RWY 12L AND R FOR ARRS AND DEPS` |
+| 30 PROPS | `RWY 30L AND R FOR ARRS AND DEPS` |
 
 ### Operational Info
 When parallel runway operations are in use, the ATIS OPR INFO field shall include:  
@@ -137,25 +200,25 @@ When parallel runway operations are in use, the ATIS OPR INFO field shall includ
 
 ## Coordination
 ### Departures
-[Next](../../controller-skills/coordination.md#next) coordination is required from TW ADC to ARL/MDE for all aircraft **entering ARL/MDE CTA**.
+[Next](../../controller-skills/coordination.md#next) coordination is required from TW ADC to ARL for all aircraft **entering ARL CTA**.
 
-The Standard Assignable level from **TW ADC** to **ARL/MDE** is:
+The Standard Assignable level from **TW ADC** to **ARL** is:
 
 | Aircraft | Level |
 | ---- | ---- |
 | All | The lower of `A070` and `RFL` |
 
 ### Arrivals/Overfliers
-ARL/MDE will heads-up coordinate all arrivals/overfliers to TW ADC
+ARL will heads-up coordinate all arrivals/overfliers that are entering the TW CTR/CTA to TW ADC
 
 !!! phraseology
-    <span class="hotline">**MDE** -> **TW ADC**</span>: "Via MOR DCT for the VOR-A, FD272”  
-    <span class="hotline">**TW ADC** -> **MDE**</span>: "FD272, VOR-A"  
+    <span class="hotline">**ARL** -> **TW ADC**</span>: "Via MOR DCT for the VOR-A, FD272”  
+    <span class="hotline">**TW ADC** -> **ARL**</span>: "FD272, VOR-A"  
 
-The Standard Assignable level from ARL/MDE to TW ADC is `A080`, any other level must be prior coordinated.
+The Standard Assignable level from ARL to TW ADC is `A080`, any other level must be prior coordinated.
 
 #### ADC South Online
-When ADC South is online, ARL/MDE may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
+When ADC South is online, ARL may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
 
 ### TW ADC Internal
 TW ADC must heads-up coordinate **all aircraft** transiting from one ADC controller to the other.
