@@ -42,8 +42,8 @@ Runway 32L is regularly the duty runway due to prevailing winds. To assist traff
 
 | Via    | Routing     |
 | ------ | ----------- |
-| IRSOM  | NODAS MLTSC |
-| NUNPA  | ELREL MLTSA |
+| IRSOM  | NODAS LT2SC |
+| NUNPA  | ELREL LT2SA |
 
 These routes keep arrivals within CTA and away from the departure stream(s).
 
@@ -92,22 +92,22 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 === "Jets & DH8D"
     | Tracking | RWY 14R | RWY 32L |
     | ---------- | ---| -- |
-    | **IRSOM MLTNE**        | 11^ | - |
-    | **IRSOM NODAS MLTSC**  | - | 16 |
-    | **MIMIM MLTNG**        | 15 | - |
-    | **MIMIM ELREL MLTSA**  | - | 19  |
-    | **LATUM MLTND**        | 15 | - |
-    | **LATUM MLTSB**        | - | 11^  |
+    | **IRSOM LT2NE**        | 11^ | - |
+    | **IRSOM NODAS LT2SC**  | - | 16 |
+    | **MIMIM LT2NG**        | 15 | - |
+    | **MIMIM ELREL LT2SA**  | - | 19  |
+    | **LATUM LT2ND**        | 15 | - |
+    | **LATUM LT2SB**        | - | 11^  |
 
 === "Non-Jets"
     | Tracking | RWY 14R | RWY 32L |
     | ---------- | ---| -- |
-    | **IRSOM MLTNE**        | 12^ | - |
-    | **IRSOM NODAS MLTSC**  | - | 18 |
-    | **MIMIM MLTNG**        | 17 | - |
-    | **MIMIM ELREL MLTSA**  | - | 21  |
-    | **LATUM MLTND**        | 17 | - |
-    | **LATUM MLTSB**        | - | 12^  |
+    | **IRSOM LT2NE**        | 12^ | - |
+    | **IRSOM NODAS LT2SC**  | - | 18 |
+    | **MIMIM LT2NG**        | 17 | - |
+    | **MIMIM ELREL LT2SA**  | - | 21  |
+    | **LATUM LT2ND**        | 17 | - |
+    | **LATUM LT2SB**        | - | 12^  |
 
 #### Corrections
 
