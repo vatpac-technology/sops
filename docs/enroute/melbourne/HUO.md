@@ -74,7 +74,7 @@ The following subsectors are responsible for issuing STAR clearance.
 Aircraft should primarily be assigned the RAZZI STAR. The PORTS STAR may be issued in lieu of the RAZZI STAR to reduce track miles and [assist with the flow](../../../terminal/melbourne/#flow).
 
 #### Sequencing
-HUO is responsbile for sequencing arrivals from the south into YMML.
+WON is responsbile for sequencing arrivals from the south into YMML.
 
 ##### Predictable Sequencing Waypoints
 There are four [Predictable Sequencing](../../../controller-skills/sequencing/#predictable-sequencing) waypoints available for aircraft inbound YMML via **H215**, **P753**, **L508** and **M625**. These waypoints are perpendicular to **M625** and **H215**.
@@ -102,6 +102,8 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 
 | Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
 | ---- | ---- | ---- |
+| EKKAS | TASIS | 6 min |
+| LATTA | ONAGI | 6 min |
 | RAZZI | TASIS<br>ONAGI | 6 min<br>6 min |
 
 !!! tip
