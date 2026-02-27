@@ -55,7 +55,6 @@ The following subsectors are responsible for issuing STAR clearance.
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
 | HUO  | IPLET<br>MORGO | All     | |
-| ELW  | BOYSE | Non-Jet |       |
 
 #### Sequencing
 All sequencing is performed by HUO.
