@@ -158,11 +158,11 @@ All other aircraft going to HUO CTA must be **Heads-up** Coordinated by TAS TCU 
 Voiceless for all aircraft:
 
 - With ADES **YMLT** 
-  - Tracking from **IRSOM** or **NUNPA** DCT **LT**; and  
-  - Assigned `A090`  
+    - Tracking from **IRSOM** or **NUNPA** DCT **LT**; and  
+    - Assigned `A090`  
 - With ADES **YMHB** 
-  - Assigned the **IPLET** or **MORGO** STAR; and  
-  - Assigned `F130`  
+    - Assigned the **IPLET** or **MORGO** STAR; and  
+    - Assigned `F130`  
 
 All other aircraft coming from HUO CTA will be **Heads-up** Coordinated to TAS TCU.
 
