@@ -153,8 +153,8 @@ Voiceless for all aircraft:
 - With ADES **YBCS**; and  
 - Assigned a STAR; and  
 - Assigned the Standard Assignable level of:  
-  - Radials 055° clockwise through to 355°: `A070`  
-  - Radials 355° clockwise to 055°: `A090`
+    - Radials 055° clockwise through to 355°: `A070`  
+    - Radials 355° clockwise to 055°: `A090`
 
 All other aircraft coming from KEN CTA must be **Heads-up** Coordinated to CS TCU prior to **20nm** from the boundary.
 
