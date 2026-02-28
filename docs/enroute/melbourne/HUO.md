@@ -60,6 +60,19 @@ The following subsectors are responsible for issuing STAR clearance.
 All sequencing is performed by HUO.
 
 ### YMLT
+#### Arrival Tracking
+When instrument approaches are nominated on the ATIS, or as directed by LT TCU, HUO is responsible for rerouting inbound IFR aircraft via the following waypoints:
+
+| Duty Runway | Tracking Via    | Amended Routing            |
+| ----------- | ----------------| -------------------------- |
+| RWY 14R     | IRSOM<br>NUNPA  | LT2ND<br>LT2NG             |
+| RWY 32L     | IRSOM<br>NUNPA  | NODAS LT2SC<br>ELREL LT2SA |
+
+In all other situations, aircraft should remain on track DCT LT.
+
+!!! note
+    LT TCU may request aircraft be cleared DCT LT for the DGA in IMC or via the above routing in VMC for sequencing/separation.
+
 #### Sequencing
 All sequencing is performed by HUO.
 
@@ -276,11 +289,11 @@ The Airspace on and west of the IRSOM-MORGO track `F125`-`F245` is permanently r
 Voiceless for all aircraft:
 
 - With ADES **YMLT** 
-  - Tracking from **IRSOM** or **NUNPA** DCT **LT**; and  
-  - Assigned `A090`  
+    - Tracking from **IRSOM** or **NUNPA**  in accordance with [YMLT Arrival Tracking](#arrival-tracking), or DCT **LT**; and  
+    - Assigned `A090`  
 - With ADES **YMHB** 
-  - Assigned the **IPLET** or **MORGO** STAR; and  
-  - Assigned `F130`  
+    - Assigned a STAR; and  
+    - Assigned `F130`  
 
 All other aircraft coming from HUO CTA must be **Heads-up** Coordinated to TAS TCU prior to **20nm** from the boundary.
 
