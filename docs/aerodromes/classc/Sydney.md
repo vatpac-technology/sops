@@ -144,11 +144,16 @@ The standard arrival taxi routes are:
 | RWY 34R | T2, U, U1, L, or<br>U1, L |
 
 #### Transferring Between SMCs
-When both SMC positions are online and an aircraft is to be passed from one to the other (e.g. an aircraft taxis from the domestic terminal for runway 34L), they should be instructed to hold short of runway 16R/34L and to contact the next SMC frequency.
+When both SMC positions are online and an aircraft is to be passed from one to the other (e.g. an aircraft taxis from the domestic terminal for runway 34L), they should be instructed to hold short of runway 16R/34L and to contact the next SMC frequency. 
+
+The aircraft's strip shall be placed in the receiving controller's bay prior to frequency transfer. The **receiving controller** is responsible for coordinating the runway crossing with ADC.
 
 !!! phraseology
     **SMC East**: "JST412, cross runway 25, taxi via Lima, hold short runway 34L, on Lima contact ground 126.5"  
     **JST412**: "Cross runway 25, taxi via Lima, hold short runway 34L, contact ground 126.5, JST412"
+
+    <span class="hotline">**SMC West** -> **ADC**</span>: "On L, JST412 to cross runway 34L"  
+    <span class="hotline">**ADC** -> **SMC West**</span>: "JST412 cross runway 34L"
 
     **JST412**: "Sydney Ground, JST412, holding short runway 34L"  
     **SMC West**: "JST412, cross runway 34L, taxi to holding point Alpha Six"  
@@ -161,6 +166,9 @@ Generally, aircraft shall cross runway 16R/34L in the following directions at th
 | Taxiway Golf | Eastbound |
 | Runway 25 | Westbound |
 | Taxiway Lima | As required |
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qVK22SAioeY?si=PAdGhkC3Izv7qHjT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="display:block; margin:0 auto;" allowfullscreen></iframe>
+<p><figcaption style="text-align: center;">Demonstration of Transfer from SMC East to West</figcaption></p>
 
 ## Separation
 ### Reduced Runway Separation
