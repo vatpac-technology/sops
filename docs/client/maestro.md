@@ -142,7 +142,7 @@ The two flights will exchange their `STA` and runway assignments.
 
 ### Issuing Runway Assignments
 
-Issue the arrival runway to the flight based on the Maestro allocation. This can be done while the flight is unstable.
+Issue the arrival runway and approach type (if applicable) to the flight based on the Maestro allocation. This can be done while the flight is unstable.
 
 If a runway other than the assigned runway is required, advise the flow controller.
 
@@ -156,9 +156,13 @@ Ensure the `ETA_FF` is accurate at least 10 minutes prior to the feeder fix. If 
 
 Remove any PETOs (Pilot Estimated Time Over) that may affect the accuracy of the system estimates.
 
+!!! note
+    Once the Change ETA_FF function is used, the system estimates from vatSys will no longer be used to calculate the delay remaining.
+    To clear a manually adjusted ETA_FF, use the Recompute function.
+
 ### Re-routing
 
-When re-routing a flight via a new feeder fix, use the Recompute function (right-click the flight, select Recompute) after the re-route has been processed. This will recalculate the flight's feeder fix, estimates, and position in the sequence.
+When re-routing a flight via a new feeder fix, use the Recompute function (right-click the flight, select Recompute) after the FDR has been updated. This will recalculate the flight's feeder fix, estimates, and position in the sequence.
 
 ### High Priority Flights
 
@@ -166,7 +170,7 @@ For high priority flights (generally used during busy events like WorldFlight), 
 
 ### Feeder Fix Crossing
 
-Ensure flights cross the feeder fix at the `STA_FF`. Use speed control, vectors, or holding to manage the aircraft's arrival time at the feeder fix.
+Ensure flights cross the feeder fix at the `STA_FF`. Use speed control, vectors, holding, or re-routing via [CDO waypoints](../controller-skills/sequencing.md#predictable-sequencing) to manage the aircraft's arrival time at the feeder fix.
 
 Advise TMA when a flight is more than 1 minute early or 30 seconds late.
 
@@ -175,6 +179,9 @@ Advise TMA when a flight is more than 1 minute early or 30 seconds late.
 When no `+` symbol is present on the flight label, instruct the aircraft to cross the feeder fix at 250 kts for jets, 210 kts for turboprops, and profile speed for all other props.
 
 Aircraft with the `+` [profile speed indicator](#the-timeline) should cross the feeder fix at profile speed.
+
+!!! phraseology
+    **GUN**: "QFA123, cross RIVET at 250 kts until published speeds apply"
 
 ### Close `STA_FF` Times
 
