@@ -41,7 +41,12 @@ To minimise conflict in the next SMC area of responsibility, aircraft should be 
 | SMC Domestic | SMC South | Hold short B7 |
 | SMC South | SMC Domestic | Hold short B6 |
 
-When aircraft wish to cross runway 01R/19L and taxi to/from eastern General Aviation Maintenance Area via taxiway H3, they should be instructed to hold short of the runway and contact the next SMC.
+When aircraft wish to cross runway 01R/19L and taxi to/from eastern General Aviation Maintenance Area via taxiway H3, they should be instructed to hold short of the runway and contact the next SMC. It is the responsibility of the **receiving controller** to coordinate the runway crossing with ADC.
+
+The video below demonstrates the SMC transfer process at Sydney. The same principles apply at Brisbane.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qVK22SAioeY?si=PAdGhkC3Izv7qHjT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="display:block; margin:0 auto;" allowfullscreen></iframe>
+<p><figcaption style="text-align: center;">Demonstration of Transfer from YSSY SMC East to West</figcaption></p>
 
 ### Standard Taxi Routes
 Taxiway A is to be used in the same direction as the duty runway. Taxiway B is to be used in the opposite direction to the duty runway.
