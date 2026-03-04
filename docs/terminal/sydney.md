@@ -549,7 +549,7 @@ All other aircraft require a 'Next' call to SY TCU.
 
 'Next' coordination is additionally required for:  
 
-- After a go around, the next departure from that runway  
+- [After a go around](../../controller-skills/coordination.md#after-a-go-around), the next departure from that runway  
 - All aircraft during the Curfew Runway Mode
 
 The Standard Assignable level from SY ADC to SY TCU is: 
