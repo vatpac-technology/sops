@@ -4,7 +4,95 @@ title: Military/Restricted Operations
 
 --8<-- "includes/abbreviations.md"
 
-## Special Use Airspace (SUA)
+
+The majority of traffic on VATSIM is simulated 'civilian' traffic: airliners performing regular passenger transport, smaller general aviation aircraft doing recreational flights, and even simulated [airwork](../airwork). There is, however, a nota
+Understanding military and special operations sdfasdf
+
+!!! important
+    As per the VATSIM [Special Operations Policy](https://vatsim.net/docs/policy/special-operations){target=new}, the following activities are restricted on the VATSIM network. They may only be performed by pilots who are a member of, and flying an operation representing, an approved Virtual Special Operations Association.
+
+    - Conducting joint training exercises with other approved VSOAs
+    - War games
+    - Air to air refuelling
+    - Carrier operations
+    - Flying low level military routes
+    - Flying escort missions
+    - Executing air combat manoeuvres
+    - Interception/scramble of other aircraft
+    - Having access to [special use airspace](#military-operating-areas)
+    - [Search and Rescue Operations](#search-and-rescue-sar-operations)
+    - [Firefighting Operations](#ffr-operations)
+    - Launch and Recovery of Space Vehicles
+    - Air Displays (Flying Displays, Races)
+    - Fly unmanned aerial vehicles, e.g. Global Hawk
+
+## Military Operating Areas
+Military operating areas are a subset of [danger areas](../sua/#danger-areas) which are established to facilitate a range of military operations. They are labelled with the **M** prefix (e.g. M550, which makes up part of the military airspace offshore from YWLM). Inside Australian territory, approval *is* required to enter an MOA.
+
+On VATSIM, MOAs are generally assumed to be deactivated unless being actively used for a military exercise or other purpose. ATC (when online) will generally try to reroute civil aircraft around these activities or will otherwise organise a transit clearance from the station responsible for the airspace.
+
+## Common Military Aircraft Types
+The ICAOs for many common military aircraft may be unfamiliar to controllers used to civilian operations. Below is a list of some military types that you may encounter in VATPAC airspace.
+
+| ICAO | Aircraft |
+| ---- | -------- |
+| C17  | Boeing C-17 Globemaster |
+| C27J | Alenia C-27J Spartan |
+| C30J | Lockheed Martin C-130J Hercules |
+| F18  | Boeing EA-18G Growler |
+| F18S | Boeing F/A-18E Super Hornet |
+| F35  | Lockheed Martin F-35 |
+| HAWK | BAE Systems Hawk |
+| P8   | Boeing P-8 Poseidon |
+
+## Aerodrome Operations
+### Check Wheels
+Military aircraft must be asked to confirm the undercarrige is down and locked when issuing a clearance to land.
+
+!!! phraseology
+    **ESA**: "VIPR42, cleared to land runway 27, check wheels"  
+    **VIPR42**" "Cleared to land runway 27, three greens"
+
+!!! note
+    Some aircraft may respond with a beep tone to indicate three greens. In the real world, this tone is produced by the aircraft itself, however some online pilots may choose to replicate this produce using other methods.
+
+### Initial and Pitch 
+The Initial and Pitch is a military visual approach to the circuit area. Military aircraft approach on the deadside, parallel to the extended runway centreline at high speed (the **initial**), then make a tight turn onto downwind (the **pitch**). Aircraft should be cleared for a visual approach via the relevant initial point by the **TCU controller** and transferred to ADC when appropriate. 
+
+To deconflict traffic, aircraft can be instructed to: 
+
+- Pitch short (abeam the landing threshold)
+- Pitch long (abeam the upwind threshold)
+
+!!! note
+    Refer to each aerodrome's SOPs for location-specific altitude and approach points.
+
+The initial can be commenced from a straight in position (straight initial) or a position left or right of the straight in position (left and right initial).
+
+<figure markdown>
+![Initial & Pitch](img/initialandpitch.png){ width="700" }
+  <figcaption>Initial & Pitch</figcaption>
+</figure>
+
+!!! phraseology
+    **ESA**: "VIPR47, track via left initial runway 27, cleared visual approach, at the initial, contact Sale Tower 118.3"  
+    **VIPR47**: "Track via left initial runway 27, cleared visual approach, at the initial, contact Sale Tower 118.3, VIPR47"
+
+By default, aircraft will pitch at the midfield point (about half way down the runway). However, if necessary, instruct aircraft to move their pitch point, which has the same effect as instructing a civil aircraft to extend their downwind leg or make a close circuit.
+
+- Pitch short (abeam the landing threshold)
+- Pitch long (abeam the upwind threshold)
+
+!!! phraseology
+    **VIPR47**: "Sale Tower, VIPR47"  
+    **ADC**: "VIPR47, pitch long"  
+    **VIPR47**: "Pitch long, VIPR47"
+    **VIPR47**: "VIPR47, Base"  
+    **ADC**: "VIPR47, runway 27, cleared to land, check wheels"  
+    **VIPR47**: "Runway 27, Cleared to Land, VIPR47, 3 Greens"
+
+### Terminal/En Route Operations
+#### Special Use Airspace (SUA)
 SUAs, formerly known as Restricted Areas (RAs), are scattered all over Australian airspace. In real life, they can be used for many different purposes, including, but not limited to:
 
 - Military Activity (most common)
@@ -21,42 +109,23 @@ Although the majority of these things don't pose any hazards in the online envir
   <figcaption>SUAs on vatSys</figcaption>
 </figure>
 
-### Vertical Limits
+##### Vertical Limits
 The Restricted Areas cover various altitudes, and these can be seen either in the Restricted Areas window in vatSys, the [ERSA](https://www.airservicesaustralia.com/aip/aip.asp){target=new}, or by referencing VTC, VNC, ERC and TAC charts.
 
-### Separation
-It is the pilots responsibility to remain clear of Restricted Areas, however, that does not mean they always do!
 
-#### OCTA
-Outside controlled airspace, it is the responsibility of the controller to provide Safety Alerts on aircraft that will shortly enter, or have already entered, active restricted areas.
-
-!!! phraseology
-    **CBW**: "Safety Alert, VFR aircraft overhead Cotter tracking southbound 2500, you will shortly be entering R430 restricted area, clearance not available, suggest immediate left turn to avoid"
-
-!!! phraseology
-    **CNK**: "VFR aircraft overhead YCNK 3500 tracking westbound, confirm you will be remaining clear of the R564 restricted area?"  
-
-    To which they will almost always reply with either *"Affirm"* or *"Huh?"*
-
-For aircraft unfamiliar with the restricted area, provide *suggested* headings to avoid. Get the aircraft to squawk ident to temporarily identify them. Remember that you cannot vector aircraft OCTA.
-
-#### CTA
-You must separate all aircraft in controlled airspace by *half the applicable lateral standard* from a Restricted Area (ie, **1.5nm** for TCU, **2.5nm** for Enroute). Aircraft operating at the vertical limits of Restricted Areas are considered to be separated from it.
-
-
-### Activation times
+##### Activation times
 Some Restricted Areas are not always active. Some may be active only on certain days, or certain hours of the day. More info can be found in the [ERSA](https://www.airservicesaustralia.com/aip/aip.asp){target=new}, or on the Restricted Areas window in vatSys
 
-### NOTAM
+##### NOTAM
 Some Restricted Areas will be activated by NOTAM, most commonly for use by [RAAF Virtual](https://www.raafvirtual.org/){target=new}. These are available on the [VATPAC NOTAMs Page](https://vatpac.org/publications/notam){target=new}. These Restricted Areas will automatically become active on vatSys with AIRAC updates, so they are visually displayed on the screen.
 
-##### Example
+###### Example
 <figure markdown>
 ![Example Restricted Area Activation NOTAM](img/vsoanotam.png){ width="800" }
   <figcaption>Example Restricted Area Activation NOTAM</figcaption>
 </figure>
 
-### Aircraft operating inside Restricted Area
+#### Aircraft operating inside Restricted Area
 Military aircraft are permitted to operate within their designated Restricted Area as per the relevant NOTAM. Even if this Restricted Area is inside civil airspace, Civil ATC has no control authority over it.
 
 !!! phraseology
@@ -154,48 +223,33 @@ Stereo approaches should generally be used during high military traffic levels a
 
 Stereo Approach charts can be found in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
-## Aerodrome Responsbilities
-If a controller is handling a military aircraft, they must confirm the undercarrige is down and locked when issuing a clearance to land.
+--->
+
+### Search and Rescue (SAR) Operations
+SAR Operations are conducted more or less as a standard airwork procedure. Handle the aircraft as any other normal aircraft transiting your airspace, with the airwork procedures shown above.
+
+SAR Operations are most commonly flown in a circular area (eg Radius from a Fix, or Radius from a Lat/Long), or a Straight line pattern (eg, back and forth on a line between 2 Fixes, or 2 Lat/Longs).
 
 !!! phraseology
-    **ESA**: "VIPR42, cleared to land runway 27, check wheels"  
-    **VIPR42**" "Cleared to land runway 27, 3 greens"
+    **DDU**: "DDU, Requesting Traffic for Search and Rescue operations for the next 90 minutes, within a 10nm Radius of 23 52 South, 136 01 East, Not above A060"  
+    **ASP**: "DDU, No Reported IFR Traffic. Call Ops Normal time on the hour"  
+    **DDU**: "Ops Normal on the hour, DDU" 
+    
+    
+### STS/ (Status) field
+(Aircraft that has declared a Mayday)  
+(Aircraft that has declared a Pan Pan)  
+`STS/MEDEVAC` - Aircraft engaged in life critical transportation of severely ill patients  
+`STS/FFR` - Aircraft engaged in Fire or Flood Relief operations  
+`STS/SAR` - Aircraft engaged in Search and Rescue Operations  
+`STS/HEAD STATE` - Aircraft carrying the Prime Minister  
+`STS/STATE` - Aircraft part of the defence force, military, or customs.  
+`STS/HOSP` - Aircraft engaged in non-life-critical transportation of medical operations, personnel, or ill patients.
 
-!!! note
-    Some aircraft may respond with a beep tone to indicate three greens. In the real world, this tone is produced by the aircraft itself, however some online pilots may choose to replicate this produce using other methods.
+##### VATSIM Code of Conduct
+[Section B6](https://vatsim.net/docs/policy/code-of-conduct){target=new}:  
+*"No flight may declare itself to have priority over another. Pilots are permitted to declare in-flight emergencies only when under air traffic control. If, for any reason, air traffic control requests the pilot to terminate the emergency, then the pilot must do so IMMEDIATELY or disconnect from the network. Pilots are not permitted to simulate any unlawful act including, but not limited to, declaring a hijack by any method, including entering a transponder code of 7500."*
 
-## Initial and Pitch 
-The Initial and Pitch is a military visual approach to the circuit area. Military aircraft approach on the deadside, parallel to the extended runway centreline at high speed (the **initial**), then make a tight turn onto downwind (the **pitch**). Aircraft should be cleared for a visual approach via the relevant initial point by the **TCU controller** and transferred to ADC when appropriate. 
+Persuant to the above, you are permitted to simulate the higher priority operations above, such as emergency aircraft and MEDEVAC operations, by giving track shortening and conducting coordination as required, as long as it does not impose a delay on any other aircraft (other than normal delays associated with sequencing, weather, etc).
 
-To deconflict traffic, aircraft can be instructed to: 
-
-- Pitch short (abeam the landing threshold)
-- Pitch long (abeam the upwind threshold)
-
-!!! note
-    Refer to each aerodrome's SOPs for location-specific altitude and approach points.
-
-The initial can be commenced from a straight in position (straight initial) or a position left or right of the straight in position (left and right initial).
-
-<figure markdown>
-![Initial & Pitch](img/initialandpitch.png){ width="700" }
-  <figcaption>Initial & Pitch</figcaption>
-</figure>
-
-!!! phraseology
-    **ESA**: "VIPR47, track via left initial runway 27, cleared visual approach, at the initial, contact Sale Tower 118.3"  
-    **VIPR47**: "Track via left initial runway 27, cleared visual approach, at the initial, contact Sale Tower 118.3, VIPR47"
-
-By default, aircraft will pitch at the midfield point (about half way down the runway). However, if necessary, instruct aircraft to move their pitch point, which has the same effect as instructing a civil aircraft to extend their downwind leg or make a close circuit.
-
-- Pitch short (abeam the landing threshold)
-- Pitch long (abeam the upwind threshold)
-
-!!! phraseology
-    **VIPR47**: "Sale Tower, VIPR47"  
-    **ADC**: "VIPR47, pitch long"  
-    **VIPR47**: "Pitch long, VIPR47"
-    **VIPR47**: "VIPR47, Base"  
-    **ADC**: "VIPR47, runway 27, cleared to land, check wheels"  
-    **VIPR47**: "Runway 27, Cleared to Land, VIPR47, 3 Greens"
-
+###FFR Operations
