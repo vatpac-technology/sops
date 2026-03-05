@@ -1,183 +1,158 @@
 ---
-title: Airwork / Special Operations
+title: Airwork
 ---
 
 --8<-- "includes/abbreviations.md"
 
-<details open markdown="1">
-<summary>Airwork</summary>
+Not all flights online consist of an aircraft flying between airports. **Airwork** refers to any aerial operation that doesn't involve simply going from A to B. Providing control services to aircraft performing airwork requires specific skills and procedures, but offers a unique and rewarding experience for both pilots and controllers.
 
-## Airwork
-Airwork is essentially defined as an aerial operation that doesn't involve simply going from A to B. They can complicate things from an air traffic control perspective, because it's not necessarily as clear exactly what the aircraft is about to do just from looking at their label. In order to facilitate separation and the orderly flow of traffic whilst Airwork is taking place, there are a few procedures to follow.
+!!! warning
+	Certain types of airwork, including search and rescue, firefighting, and other emergency operations are restricted under the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct){target=new}. See [Military and Special Operations](#military) for more information.
 
-Airwork can be conducted in any defined area specified by the pilot or ATC. This can be a radius from a fix (eg within a 20nm Radius of YBMK), a Survey Area (eg Operating within [Map 420 Survey Area](#survey-map-example)), a defined polygon (eg Operating within an area between BNA-IDNER-VEGAH-TUCAB), a visual topographical feature (eg Operating within the Port Phillip Bay area), or any other area specified by Pilot or ATC.
+## Area of Operations
+Airwork must be conducted within a defined **area of operation**. This is genenerally nominated by the pilot when first passing airwork details, but can be adjusted or alternately defined by the controller when necessary. An area of operation should be defined with both **lateral** and **vertical** limits.
+
+!!! example
+    Lateral limits can be defined in a number of ways, most commonly:
+    
+    - Radius from a fix, navaid, coordinate, or aerodrome. (e.g. *within a 20nm radius of KII*)
+    - a [SUA] Area. (e.g. *within the D205 danger area*)
+    - a polygon defined by a set of fixes, navaids, or coordinates. (e.g. *within an area between HID VOR-ZIN-YSII-1000S14200E*)
+    - a visual topographical feature (e.g. *within Lake Eyre*)
+
+### Uncontrolled Airspace
+IFR Aircraft, and VFR aircraft receiving an identification service must the controller of their intentions prior to commencing airwork.
 
 !!! phraseology
-    **PPB**: "PPB, with Airwork Details"  
+    *PPB is an IFR aircraft intending to perform a series of practice approaches at YPKU - an uncontrolled aerodrome*
+    **PPB**: "PPB, with airwork details"  
     **KIY**: "PPB"  
-    **PPB**: "PPB, will be conducting Airwork within a 20nm radius of YPKU, not above A040, for the next 20 minutes. Will call Ops Normal time 30"  
-    **KIY**: "PPB, No Reported IFR Traffic"  
+    **PPB**: "PPB, will be conducting airwork within a 20nm radius of YPKU, not above A040, ops normal time 50."  
+    **KIY**: "PPB, no reported IFR traffic"  
     **PPB**: "PPB"
 
-</details>
-
-<details markdown="1">
-<summary>Remarks</summary>
-
-### Remarks
-An aircraft's Flight Plan Remarks can be the first sign that airwork will be occurring. It can help you as a controller start your planning nice and early, and stay ahead of the game. If the pilot has left detailed remarks, it also means you can spend less time on the frequency asking them what they're doing.
-#### STS/ (Status) field
-(Aircraft that has declared a Mayday)  
-(Aircraft that has declared a Pan Pan)  
-`STS/MEDEVAC` - Aircraft engaged in life critical transportation of severely ill patients  
-`STS/FFR` - Aircraft engaged in Fire or Flood Relief operations  
-`STS/SAR` - Aircraft engaged in Search and Rescue Operations  
-`STS/HEAD STATE` - Aircraft carrying the Prime Minister  
-`STS/STATE` - Aircraft part of the defence force, military, or customs.  
-`STS/HOSP` - Aircraft engaged in non-life-critical transportation of medical operations, personnel, or ill patients.
-
-##### VATSIM Code of Conduct
-[Section B6](https://vatsim.net/docs/policy/code-of-conduct){target=new}:  
-*"No flight may declare itself to have priority over another. Pilots are permitted to declare in-flight emergencies only when under air traffic control. If, for any reason, air traffic control requests the pilot to terminate the emergency, then the pilot must do so IMMEDIATELY or disconnect from the network. Pilots are not permitted to simulate any unlawful act including, but not limited to, declaring a hijack by any method, including entering a transponder code of 7500."*
-
-Persuant to the above, you are permitted to simulate the higher priority operations above, such as emergency aircraft and MEDEVAC operations, by giving track shortening and conducting coordination as required, as long as it does not impose a delay on any other aircraft (other than normal delays associated with sequencing, weather, etc).
-#### Examples
-`DLE/ESDAN0010 AV0020 MB0030 RMK/ESDAN26ILS AV36VOR MB4000NDB`  
-A pilot intending to do the ILS Runway 26 at YMEN, followed by the VOR Runway 36 at YMAV, then the 4000ft NDB-A at YMMB.
-
-`STS/SAR DLE/2352S13601E0130 RMK/SAR OPERATIONS WI 10NM OF 2352S13601E`  
-A pilot intending to conduct Search and Rescue operations within a 10nm radius centred on 10° 52' S 136° 01' E.
-
-`RMK/PJE OPS ROCKINGHAM`  
-A pilot intending to conduct Parachute Operations overhead Rockingham
-
-`RMK/SVY OPS WI MAP 420`  
-A pilot intending to conduct Aerial Survey Operations as per Map 420
-
-</details>
-
-<details markdown="1">
-<summary>General Operations</summary>
-
-### General Operations
-
-#### Ops Normal time
-If an aircraft is to be conducting airwork that does not require them to talk to ATC for an extended period (30 mins or more), an "Ops Normal" time should be agreed upon. This is a time that the aircraft confirms they will "check-in" with ATC by, to confirm that they're still alive essentially. If the pilot does not volnteer an Ops Normal time, provide them with one that is on an even hour or half hour, anywhere from 30 mins to 60 mins from the current time.
+### Controlled Airspace
+Aircraft must obtain clearance to perform airwork within CTA, even when airwork details are included in their flightplan. Clearances must include **lateral** and **vertical** restrictions.
 
 !!! phraseology
-    Time is 0648Z  
-    **OBF**: "OBF will be conducting Airwork within a 20nm radius of YBLT Not above A050 for the next 60 minutes"  
-    **MUN**: "OBF, No Reported IFR Traffic, Call Ops Normal time 30."  
-    **OBF**: "Ops Normal time 30, OBF"
+    *A2B is an IFR aircraft intending to perform airwork within 10nm of WG VOR, A090-A100.*
+    **A2B**: "A2B, with airwork details"  
+    **BLA**: "A2B"  
+    **A2B**: "A2B, request airwork within a 10nm radius of WG, between `A090` and `F130`, for the next 15 minutes."  
+    **BLA**: "A2B, cleared to operate within a 10nm radius of WG, `A090` to `F130`."  
+    **A2B**: "Cleared to operate within a 10nm of WG, `A090` to `F130`, A2B"
+    
+!!! tip
+    Before providing a clearance to perform airwork to an aircraft, it is good practice to take extra time to assess to potential for conflicts, and determine if any coordination is required with adjacent positions.
 
-You can then set the timer on the aircraft, by right clicking on the ACID in the Label, and entering the agreed upon time.
-
-#### Checklist
-Not often that a "Checklist" is required in an ATC environment, but when Airwork is involved, it can assist greatly. The items are as follows:
-
-- **Preactive**
-
-    This is your first opportunity to become aware of the airwork occuring. You may see a flightplan in the Preactive Window that states their intentions in the remarks, and this is a good time to start planning on how to manage the airwork, and checking up on your SOPs references (hopefully that's why you're here!)
-
-- **Initial Call**
-
-    In the absence of a flightplan, or not seeing a Preactive Strip, this may also be your first opportunity to become aware of the airwork occurring. Ascertain the pilot's exact intentions, requirements, area of operations, and any other relevant info as soon as possible
-
-- **Assessment**
-
-    Assess for Airspace, Traffic, Separation, and Coordination
-
-- **Situational Awareness Tools**
-
-    Consider using Text-on-Screen, Activation of Danger Areas, Label Data, Off Track Deviations, Block Levels, etc, to enhance your situational awareness as to the aircraft's intentions
-
-- **Coordination**
-
-    Coordinate to all affected adjacent units as required. Ascertain who is responsible for separation, who will take the aircraft on frequency, any any other info pertinent to the operation.
-
-- **Clearance**
-
-    Pass the aircraft their airways clearance if operating in controlled airspace
-
-- **Ops Normal time**
-
-    Confirm an ops normal time if required
-
-</details>
-
-<details markdown="1">
-<summary>Search and Rescue (SAR) Operations</summary>
-
-### Search and Rescue (SAR) Operations
-SAR Operations are conducted more or less as a standard airwork procedure. Handle the aircraft as any other normal aircraft transiting your airspace, with the airwork procedures shown above.
-
-SAR Operations are most commonly flown in a circular area (eg Radius from a Fix, or Radius from a Lat/Long), or a Straight line pattern (eg, back and forth on a line between 2 Fixes, or 2 Lat/Longs).
+#### Partially Controlled Airspace
+Aircraft should only receive clearance to perform airwork within CTA. When an aircraft requests clearance to perform airwork in an area partially CTA and OCTA, controllers should provide clearance only for controlled portion of the airspace, and provide traffic information for the uncontrolled portion.
 
 !!! phraseology
-    **DDU**: "DDU, Requesting Traffic for Search and Rescue operations for the next 90 minutes, within a 10nm Radius of 23 52 South, 136 01 East, Not above A060"  
-    **ASP**: "DDU, No Reported IFR Traffic. Call Ops Normal time on the hour"  
-    **DDU**: "Ops Normal on the hour, DDU"  
+    *MDIA403 is an IFR helicopter intending to perform airwork within 4nm of DRLD, `SFC` to `A050`; CTA exists above `A035`.*
+    **MDIA403**: "MDIA403, with airwork details"  
+    **BDN**: "MDIA403"  
+    **MDIA403**: "MDIA403, request airwork within a 4nm radius of DRLD, not above `A050`, for the next 30 minutes, ops normal time 45."  
+    **BDN**: "MDIA403, cleared to operate within a 4nm radius of DRLD, between `A035` and `A050`, no reported IFR traffic"  
+    **MDIA403**: "Cleared to operate within a 4nm radius of DRLD, `A035` to `A050`, copy traffic, MDIA403"
 
-</details>
-
-<details markdown="1">
-<summary>Practice Instrument Approaches</summary>
-
-### Practice Instrument Approaches
-A Practice Instrument Approach is simply an aircraft conducting an Instrument Approach with no intention of a full-stop landing. This is pretty straight-forward outside controlled airspace, as the pilot will often just request a traffic statement for a given radius from a fix. In controlled airspace, however, there can be quite a few things to consider.
-
-!!! note
-    VFR aircraft are still allowed to do Instrument Approaches
-
-#### Initial Call
-!!! phraseology
-    **YNJ**: "Adelaide Approach, YNJ, Requesting Practice YPPF VOR-A Approach"  
-    **AAE**: "YNJ, Adelaide Approach, Standby"  
-
-#### Assessment
-First thing to do, is to bring up the approach chart from the [Airservices Australia DAPs](https://www.airservicesaustralia.com/aip/aip.asp){target=new}
-
-Then we continue our assessment. Assess for:
-
-- **Airspace** (What classes of Airspace will the aircraft be operating in? Will the aircraft require a clearance?)  
-- **Traffic/Separation**  
-- **Coordination** (What adjacent units will be affected?)
-- **Approach specifics** (Will a Sector Entry be required? Will a Hold be Required? Will the Published Missed Approach be suitable?)
+### Ops Normal
+If an aircraft is to be conducting airwork that does not require them to talk to ATC for an extended period (30 mins or more), an "operations normal" time should be agreed upon: a time by which an aircraft is required to "check-in" with ATC by to confirm that the flight is still operating normally.
 
 !!! tip
-    Sometimes, Practice Instrument Approaches in the vicinity of busy Class C Aerodromes such as YMML, YSSY, YBBN, etc, will cause too much of a traffic headache to be viable. Practice Instrument Approaches are a low priority item, and can be denied if the traffic situation impedes it
+    The operations normal time can be set as a timer on the aircraft by right clicking on the callsign in the aircraft's tag, and selecting the agreed time. A 'SAR' alert will trigger when the timer expires, prompting you to follow-up with the aircraft if they haven't checked in.
 
-#### Sector Entries and Holds
-A Sector Entry is a procedure pilots use to commence an approach. The type of turn made prior to the commencement of the approach differs based on which direction the aircraft is joing from. That is all we really need to know as a controller. No need to overcomplicate things as a controller, simply ask the following:
+If the pilot does not volunteer an operations normal time, provide them with one that is on an even hour or half hour, anywhere from thirty to sixty minutes from the current time.
+    
+!!! phraseology
+    Time is 0648Z  
+    **OBF**: "OBF will be conducting airwork within a 20nm radius of YBLT, not above A050 for the next 60 minutes"  
+    **YWE**: "OBF, no reported IFR traffic, call ops normal time 30."  
+    **OBF**: "Ops normal time 30, OBF"
+
+## Flight Plan Remarks
+Aircraft planning to perform airwork should declare their intentions in the remarks of their flight plan. This should be indicated using the DLE/ format: DLE/*Waypoint**Delay in HHMM*. Additionally, for [practice instructment approaches](#practice-instrument-approaches) and [special operations](../military/#special-operations) a remark should be included to communicate this request.
+
+!!! example
+    A pilot is conducting a training flight around the Melbourne Basin, with practice approaches at YMEN (for 10 min), YMAV (for 20 min) and YMMB (for 30 min).  
+    **Filed Route**: `DCT ESDAN DCT AV DCT MB DCT`  
+    **Remarks**: `DLE/ESDAN0010 AV0020 MB0030 RMK/ESDAN26ILS AV36VOR MBNDBA`
+
+!!! example
+    A pilot is conducting [Search and Rescue](../military/#search-and-rescue) operations within a 10nm radius of a position defined as **WG288030**, for 1 hour and 30 min.  
+    **Filed Route**: `DCT WG288030 DCT`  
+    **Remarks**: `DLE/WG2880300130 RMK/SAR OPERATIONS WI 10NM OF WG288030`
+    
+### Special Remark Codes
+Remark codes are also used to advise intentions to perform specific types of airwork that may not be associated with a delay. Most are not relevant in the virtual environment, however there are some that you may encounter online.
+
+| RMK/ Code  | Description                      | Format                     |
+| ---------- | -------------------------------- | -------------------------- |
+| SVY        | [Aerial Survey](#aerial-surveys) | SVY*(Level)* (e.g. SVY060) |
+| AVM        | Abrupt Vertical Manoeuvres       | AVM*(Significant Point)(Upper Level)* (e.g. AVMPEGSUA095) |
+| NOCOM      | [Non-Continuous Communication](../military/#nocom-operations) | |
+| MILSPECREQ | Special Military Requirements, e.g. [MARSA](../military/#marsa-operations) | |
+
+### Practice Instrument Approaches
+A practice instrument approach is simply an aircraft conducting an instrument approach with no intention of landing. Pilots will frequently request lesser-used procedures, such as VOR or NDB approaches, than would otherwise be used in normal operations.
+
+Outside controlled airspace, providing a simple traffic statement (as in the [example above](#uncontrolled-airspace)) gives the pilot sufficient information to conduct the planned approaches safely. Within controlled airspace, a pilot must receive an explicit approach clearance.
 
 !!! phraseology
-    **AAE**: "YNJ, Will you be requiring a Sector Entry or Hold for the Approach?"  
-    **YNJ**: "Affirm will require a Sector Entry, but no hold, YNJ"  
-    **AAE**: "YNJ"
+    **QRS**: "Melbourne Approach, QRS, request direct MOSVO for the practice YMEN LOC Runway 26 Approach"  
+    **MAE**: "QRS, Melbourne Approach, cleared LOC approach. At the minima, fly published missed approach."
+    **QRS**: "Cleared LOC approach. At the minima, fly published missed approach, QRS."    
 
-#### Situational Awareness Tools
-Label Data, Block Levels, and Text-on-Screen are all useful for Practice Instrument Approaches. Use Label Data to indicate the approach type (eg *"VORA"*), use Block Levels to indicate the cleared altitude in the Missed Approach (eg, Published Missed Approach for YPPF VOR-A, Block 000-030), use Text-on-Screen to indicate any non-standard instructions or other pertinent information (eg, a Heading issued for the Missed Approach, Approach type).
+!!! tip
+    Practice instrument approaches can introduce vexing complications when conducted in controlled airspace. When receiving a request for practice instrument approaches from a pilot, controllers should take time to consider all aspects of the procedure.
+    
+    Some of the **key considerations** include:
+    
+    - **Approach Path**: How will the aircraft join the approach? What is the most appropriate IAF? Is a [sector entry](#sector-entries) required? What is the missed approach path?
+    - **Airspace**: What are the classes of airspace involved? 
+    - **Separation**: Is there separation assurance from other traffic on all legs of the approach? 
+    - **Coordination**: Is any coordination required with adjacent units?
+    - **Workload**: Does the current workload allow you to facilitate this request? Is there an imminent increase in traffic that could cause you to be overwhelmed?
+    
+    After giving an aircraft clearance to perform a practice instrument approach, maintain your situational awareness with good client usage:
+    
+    - **Label Data**: Use label data to indicate the approach tye (e.g. *VORA*, *ILSZ*)
+    - **Cleared Flight Level**: Adjust the aircrafts CFL to a block altitude from `000` to the cleared missed approach altitude (e.g. `000-030`).
+    - **Text Labels**: Consider adding a text label (default shortcut `F6`) to notate any non-standard instructions or other relevant information.
+    
+#### Sector Entries
+A **Sector Entry** is a procedure for aligning an aircraft with the final approach path by performing a procedural turn to enter published holding pattern, often over the IAF.
 
-#### Coordination
-Conduct Coordination to any affected adjacent units as required
+<figure markdown>
+![Sector Entry Diagram Example](img/sector_entry_diagram.png){ width="800" }
+  <figcaption>Sector Entry Diagram Example</figcaption>
+</figure>
+
+Sector Entries are generally required used when an aircraft would need to turn greater than 30° from the first track of the procedure. If there is any uncertainty, it is still good practice to confirm with the pilot if a sector entry is required.
 
 !!! phraseology
-    <span class="hotline">**AAE** -> **AAW**</span>: "via AD, YNJ, for a Practice VOR-A approach at YPPF, with your concurrence, I'll clear them for the approach, and will call you overhead AD. Your coord with AD ADC"  
-    <span class="hotline">**AAW** -> **AAE**</span>: "YNJ calls me overhead AD with approach clearance, concurred. My onwards with AD ADC"
+    **YNJ**: "Adelaide Approach, YNJ, Requesting Practice YPPF VOR-A Approach"
+    **AAE**: "YNJ, will you be requiring a sector entry?"  
+    **YNJ**: "Affirm will require a sector entry, YNJ"  
+    **AAE**: "YNJ, copy, make sector entry, cleared VOR-A Approach. Report established."  
+    **YNJ**: "Make Sector Entry, cleared VOR-A approach, wilco, YNJ"
+
+#### DME and GNSS Arrivals
+A **DME** or **GNSS** arrival is a procedure by which aircraft follow charted descent guidance along a specified track or sector until they reach the the visual circling area.
+
+<figure markdown>
+![GNSS Arrival Diagram Example](img/gnss_arrival_diagram.png){ width="800" }
+  <figcaption>GNSS Arrival Diagram Example</figcaption>
+</figure>
 
 !!! phraseology
-    <span class="hotline">**AAW** -> **AD ADC**</span>: "Cancel Auto Release temporarily, I've got an aircraft doing the VOR-A for YPPF"  
-    <span class="hotline">**AD ADC** -> **AAW**</span>: "Copied, Auto Release cancelled"
+    **CS1**: "WXY, cleared DME arrival"
+    **WXY**: "Cleared DME arrival, WXY"
 
-#### Clearance (if required)
-!!! phraseology
-    **AAE**: "YNJ, Cleared VOR-A Approach, make Sector Entry. At the minima, Fly Published Missed Approach"  
-    **YNJ**: "Cleared VOR-A Approach, make Sector Entry. At the minima, Fly Published Missed Approach, YNJ"
+Aircraft cleared for a DME or GNSS arrival are permitted to manoeuvre within the circling area to position the aircraft on final for landing. When an aircraft cannot be cleared for the entire approach, the aircraft must be issued with a specific descent "not below the DME/GNSS steps".
 
-</details>
-
-<details markdown="1">
-<summary>Aerial Surveys</summary>
+    **CS1**: "EFG, descend `A030`, not below the DME steps."  
+    **EFG**: "Descend `A030` not below the DME steps, EFG."  
 
 ### Aerial Surveys
 <figure markdown>
@@ -185,15 +160,14 @@ Conduct Coordination to any affected adjacent units as required
   <figcaption>Aerial Survey Example</figcaption>
 </figure>
 
-Aerial Survey Work involves flying in a pattern similar to that shown above. Pilots will often request oddly specific altitudes (eg F143) whilst doing these operations. A lot of information is required to have the required situational awareness to facilitate aerial survey work, and it is important to cooperate with the pilot on this. The best thing the pilot can give you, is a survey map showing their area of operations, which may look something like this:
+Aerial Survey Work involves flying in a series of parallel tracks in a pattern similar to that shown above. Pilots will often request oddly specific altitudes (e.g. `F143`) whilst doing these operations. Survey work can A lot of information is required to have the required situational awareness to facilitate aerial survey work, and it is important to cooperate with the pilot on this. The best thing the pilot can give you is a survey map showing their area of operations.
 
-#### Survey Map Example
 <figure markdown>
 ![Aerial Survey Map Example](img/svymap.png){ width="800" }
   <figcaption>Aerial Survey Map Example</figcaption>
 </figure>
 
-The numbers signify "Runs" that the survey aircraft can be cleared for. It is important to note, that the pilot may require to do these runs in a particular order and direction, and at a particular altitude. They also may have some flexibility. Ask the pilot questions if you need more information about how much freedom you have to move them where you want for separation purposes
+The numbers signify "Runs" that the survey aircraft can be cleared for. The pilot may need to do these runs in a particular order and direction and at a particular altitude, though they also may have some flexibility. It's good practice to clarify the requirements of the airwork to understand the separation required.
 
 #### Initial Call
 !!! phraseology
@@ -234,11 +208,6 @@ Then when ready, clear the aircraft for the survey work
 !!! tip
     Continue to ask the pilot questions in order to know exactly what they are doing. For separation assurance with the departing YMML traffic, you could ask *"Confirm you will be able to remain outside 40 DME ML?"*. You could ask the pilot what kind of turn they will be making at the completion of each run. You could also instruct the pilot to maintain a heading on the completion of a run for separation purposes.
 
-</details>
-
-<details markdown="1">
-<summary>Parachute Operations</summary>
-
 ### Parachute Operations
 Pilots on the network may choose to simulate Parachute Operations (PJE).  
 There are lots of different variables at play when considering how to handle parachuting operations, such as:
@@ -265,7 +234,7 @@ If there is no flight plan, simply create a Quicktag for the aircraft, and assig
 
 #### Assessment
 <figure markdown>
-![YSHL Area](img/pjeshl.png){ width="800" }
+![YSHL Area](img/pjeshl.png){ width="600" }
   <figcaption>Flagstaff Point position reference YSHL</figcaption>
 </figure>
 
@@ -278,15 +247,7 @@ Assess for:
 In this case, the aircraft will be operating in Class G and Class C airspace, therefore will need a clearance. Boundary Coordination will need to be completed to **SAS**.
 
 #### Situational Awareness Tools
-Many drop zones around the country have associated Danger Areas, that can be seen on VTC, VNC, TAC or ERC-L Charts. For example, the D535 Danger Area as shown in the VTC Screenshot above. It is good practice to activate these Danger Areas via the **Restricted Areas** window in vatSys, for Situational Awareness purposes.
-
-<figure markdown>
-![Danger Area Activation](img/d535b.png){ width="700" }
-</figure>
-
-<figure markdown>
-![Danger Area Activation](img/d535a.png){ width="700" }
-</figure>
+Many drop zones around the country have associated [Danger Areas](../sua/#danger-areas) that can be seen on VTC, VNC, TAC or ERC-L Charts. It is good practice to activate these Danger Areas via the **Restricted Areas** window in vatSys, for situational awareness.
 
 #### Coordination
 Conduct Coordination to any affected adjacent units as required
@@ -319,14 +280,14 @@ You are required to separate all aircraft from a **2nm Radius** of the Drop Zone
 Once again, when giving drop and descent clearance, consider giving an interim level, or a heading, if required for separation.
 
 !!! phraseology
-    **SDS**: "DJV, Cleared to Drop and leave controlled airspace descending, not below the chutes, tracking DCT YSHL, No Reported IFR Traffic. Report chutes OCTA."  
-    **DJV**: "Cleared to Drop and leave controlled airspace descending, not below the chutes, tracking DCT YSHL, Wilco, DJV."  
+    **SDS**: "DJV, clear to drop, leave controlled airspace descending, not below parachutists, tracking DCT YSHL, No Reported IFR Traffic. Report parachutists OCTA."  
+    **DJV**: "Clear to drop and leave controlled airspace descending, not below the parachutists, tracking DCT YSHL, Wilco, DJV."  
 
 !!! note
-    *"Not below the chutes"* is so that you can separate from the last level vacated by the aircraft. If you do not instruct the aircraft to descend not below the chutes, then you would need to separate all the way from the drop height (in this case, F140) until the chutes are reported as OCTA.
+    *"Not below parachutists"* is so that you can separate from the last level vacated by the aircraft. If you do not instruct the aircraft to descend not below the parachutists, then you would need to separate all the way from the drop height (in this case, F140) until the parachutists are reported as OCTA.
 
 !!! phraseology
-    **DJV**: "DJV, Chutes and aircraft OCTA."  
+    **DJV**: "DJV, Parachutists and aircraft OCTA."  
     **SDS**: "DJV, Identification terminated, Frequency change approved"  
     **DJV**: "DJV"
 
@@ -338,5 +299,3 @@ Most procedures are the same for IFR aircraft, just remember that the situation 
 
 #### OCTA Operations
 VFR PJE aircraft operating wholly within Class G or Class E airspace are still required to make broadcasts on frequency, and they are entitled to a traffic statement for Drop and Descent.
-
-</details>
