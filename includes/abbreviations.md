@@ -61,6 +61,7 @@
 *[SVFR]: Special VFR
 *[MTOW]: Maximum Takeoff Weight
 *[SDC]: Standard Departure Clearance
+*[DLE]: Delay En route
 *[AAW]: Adelaide Approach West
 *[AAE]: Adelaide Approach East
 *[AAR]: Adelaide Radar
@@ -385,3 +386,6 @@
 *[TCH]: Talc Head
 *[WOW]: White Onion Water Tower
 *[LPT]: Lee Point
+*[ZIN]: Zuizin Island
+*[DRLD]: Dreamworld
+*[COTR]: Cotter
