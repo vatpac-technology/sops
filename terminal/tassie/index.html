@@ -9365,30 +9365,34 @@
 <p><abbr title="Hobart Approach">HBA</abbr> may extend to <abbr title="Launceston Approach">LTA</abbr> and vice versa, callsigns remain the same. See <a href="../../controller-skills/extending/">Controller Skills</a> for details.</p>
 <h2 id="departure-and-arrival-procedures">Departure and Arrival Procedures</h2>
 <h3 id="ymlt">YMLT</h3>
-<p>Visual approaches are preferred into YMLT. If due to operational requirements, an aircraft is unable to accept a visual approach, coordination with <strong>LT <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong> may be required.  </p>
-<p>Runway 32L is regularly the duty runway due to prevailing winds. To assist traffic flow in and out of the <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr>, ATC will instruct aircraft to track for runway 32L via one of the following routes:</p>
+<p>Visual approaches are preferred into YMLT. </p>
+<p>If instrument approaches are nominated on the <abbr title="Automatic Terminal Information Service">ATIS</abbr>, <abbr title="Melbourne (Huon) Centre">HUO</abbr> will reroute inbound <abbr title="Instrument Flight Rules">IFR</abbr> aircraft via the following waypoints:   </p>
 <table>
 <thead>
 <tr>
-<th>Via</th>
-<th>Routing</th>
+<th>Duty Runway</th>
+<th>Tracking Via</th>
+<th>Amended Routing</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>IRSOM</td>
-<td>NODAS LT2SC</td>
+<td>RWY 14R</td>
+<td>IRSOM<br>NUNPA</td>
+<td>LT2ND<br>LT2NG</td>
 </tr>
 <tr>
-<td>NUNPA</td>
-<td>ELREL LT2SA</td>
+<td>RWY 32L</td>
+<td>IRSOM<br>NUNPA</td>
+<td>NODAS LT2SC<br>ELREL LT2SA</td>
 </tr>
 </tbody>
 </table>
-<p>These routes keep arrivals within <abbr title="Controlled Airspace">CTA</abbr> and away from the departure stream(s).</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Clearing aircraft to track via one of the above routes does <strong>not</strong> constitute a voiceless coordination route between <abbr title="Launceston Approach">LTA</abbr> and LT <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr>. Aircraft should still be heads-up coordinated to LT <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> prior to <strong>5 minutes</strong> to the boundary, unless coordinated otherwise.</p>
+<p>These routes keep arrivals within <abbr title="Controlled Airspace">CTA</abbr> and away from the departure streams.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>In some situations, it may be beneficial to process aircraft from the north via the <abbr title="DME or GNSS Arrival">DGA</abbr>/visual approach for a circuit join to RWY 32L, as a form of track shortening. See <a href="#local-knowledge">Local Knowledge</a> for more.</p>
+<p>Likewise, it may be necessary to process aircraft via the <abbr title="Required Navigation Performance">RNP</abbr> (and above routing) for sequencing/separation. Coordination with <abbr title="Melbourne (Huon) Centre">HUO</abbr> must take place in either case.</p>
 </div>
 <h3 id="ymhb">YMHB</h3>
 <p>All aircraft should be kept on SIDs and STARs. If due to operational requirements or routing, an aircraft is unable to accept the <abbr title="Standard Instrument Departure">SID</abbr> or <abbr title="Standard Terminal Arrival Route">STAR</abbr>, voice coordination with <abbr title="Melbourne (Huon) Centre">HUO</abbr> will be required.</p>
@@ -9398,8 +9402,31 @@
 <h2 id="flow">Flow</h2>
 <h3 id="local-knowledge">Local Knowledge</h3>
 <ul>
-<li><abbr title="Instrument Flight Rules">IFR</abbr> aircraft inbound to YCBG must be flowed as if they were arriving at YMHB, unless they can accept a visual approach and remain clear of the inbound tracks to YMHB</li>
+<li><abbr title="Instrument Flight Rules">IFR</abbr> aircraft inbound to <strong>YCBG</strong> must be flowed as if they were arriving at <strong>YMHB</strong>, unless they can accept a visual approach and remain clear of the inbound tracks to YMHB</li>
+<li><abbr title="Instrument Flight Rules">IFR</abbr> aircraft inbound to <strong>YMLT</strong> from the north may be cleared via the <abbr title="DME or GNSS Arrival">DGA</abbr>/visual approach for a circuit join onto RWY 32L as a form of track shortening</li>
 </ul>
+<div class="admonition warning">
+<p class="admonition-title">Important</p>
+<p>Aircraft landing at YMHB will generally require a backtrack to vacate the runway. During busy periods, the following flow rates are recommended to prevent a large number of go arounds.</p>
+<table>
+<thead>
+<tr>
+<th>Situation</th>
+<th>Flow Rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Many arrivals</td>
+<td>4 min between each arrival</td>
+</tr>
+<tr>
+<td>Many arrivals and departures</td>
+<td>5 min between each arrival</td>
+</tr>
+</tbody>
+</table>
+</div>
 <h3 id="flow-tables">Flow Tables</h3>
 <h4 id="ymhb_1">YMHB</h4>
 <p>The tables below give an estimated time <strong>in minutes</strong> from the <strong>Feeder Fix</strong> to the <strong>Threshold</strong>.</p>
@@ -9646,18 +9673,22 @@
 <p>All other aircraft going to <abbr title="Melbourne (Huon) Centre">HUO</abbr> <abbr title="Controlled Airspace">CTA</abbr> must be <strong>Heads-up</strong> Coordinated by TAS <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> prior to the boundary.</p>
 <div class="admonition phraseology">
 <p class="admonition-title">Phraseology</p>
-<p><span class="hotline"><strong><abbr title="Launceston Approach">LTA</abbr></strong> -&gt; <strong><abbr title="Melbourne (Huon) Centre">HUO</abbr></strong></span>: "via IRSOM, QFA114, with your concurrence, will be assigned F150, for my separation with ZYX"<br>
+<p><span class="hotline"><strong><abbr title="Launceston Approach">LTA</abbr></strong> -&gt; <strong><abbr title="Melbourne (Huon) Centre">HUO</abbr></strong></span>: "via IRSOM, QFA114, with your concurrence, will be assigned <code>F150</code>, for my separation with ZYX"<br>
 <span class="hotline"><strong><abbr title="Melbourne (Huon) Centre">HUO</abbr></strong> -&gt; <strong><abbr title="Launceston Approach">LTA</abbr></strong></span>: "QFA114, concur F150"</p>
 </div>
 <h4 id="arrivals">Arrivals</h4>
 <p>Voiceless for all aircraft:</p>
 <ul>
-<li>With <abbr title="Destination Aerodrome">ADES</abbr> <strong>YMLT</strong> </li>
-<li>Tracking from <strong>IRSOM</strong> or <strong>NUNPA</strong> DCT <strong>LT</strong>; and  </li>
+<li>With <abbr title="Destination Aerodrome">ADES</abbr> <strong>YMLT</strong> <ul>
+<li>Tracking from <strong>IRSOM</strong> or <strong>NUNPA</strong>  in accordance with <a href="#ymlt">Departure and Arrival Procedures</a>, or DCT <strong>LT</strong>; and  </li>
 <li>Assigned <code>A090</code>  </li>
-<li>With <abbr title="Destination Aerodrome">ADES</abbr> <strong>YMHB</strong> </li>
-<li>Assigned the <strong>IPLET</strong> or <strong>MORGO</strong> <abbr title="Standard Terminal Arrival Route">STAR</abbr>; and  </li>
-<li>Assigned <code>F130</code>  </li>
+</ul>
+</li>
+<li>With <abbr title="Destination Aerodrome">ADES</abbr> <strong>YMHB</strong> <ul>
+<li>Assigned a <abbr title="Standard Terminal Arrival Route">STAR</abbr>; and  </li>
+<li>Assigned <code>F130</code>   </li>
+</ul>
+</li>
 </ul>
 <p>All other aircraft coming from <abbr title="Melbourne (Huon) Centre">HUO</abbr> <abbr title="Controlled Airspace">CTA</abbr> will be <strong>Heads-up</strong> Coordinated to TAS <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr>.</p>
 <h3 id="hb-adc">HB <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></h3>
@@ -9788,7 +9819,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 23, 2026 11:30:23 UTC">February 23, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 7, 2026 23:27:41 UTC">March 7, 2026</span>
   </span>
 
     

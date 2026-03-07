@@ -3372,6 +3372,17 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#arrival-tracking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arrival Tracking
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#sequencing_1" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -9004,6 +9015,17 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#arrival-tracking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arrival Tracking
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#sequencing_1" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -9443,17 +9465,39 @@ Approval must be sought from the <strong>bolded parent position</strong> prior t
 <td>All</td>
 <td></td>
 </tr>
-<tr>
-<td><abbr title="Melbourne (Eildon Weir) Centre">ELW</abbr></td>
-<td>BOYSE</td>
-<td>Non-Jet</td>
-<td></td>
-</tr>
 </tbody>
 </table>
 <h4 id="sequencing">Sequencing</h4>
 <p>All sequencing is performed by <abbr title="Melbourne (Huon) Centre">HUO</abbr>.</p>
 <h3 id="ymlt">YMLT</h3>
+<h4 id="arrival-tracking">Arrival Tracking</h4>
+<p>When instrument approaches are nominated on the <abbr title="Automatic Terminal Information Service">ATIS</abbr>, or as directed by LT <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr>, <abbr title="Melbourne (Huon) Centre">HUO</abbr> is responsible for rerouting inbound <abbr title="Instrument Flight Rules">IFR</abbr> aircraft via the following waypoints:</p>
+<table>
+<thead>
+<tr>
+<th>Duty Runway</th>
+<th>Tracking Via</th>
+<th>Amended Routing</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RWY 14R</td>
+<td>IRSOM<br>NUNPA</td>
+<td>LT2ND<br>LT2NG</td>
+</tr>
+<tr>
+<td>RWY 32L</td>
+<td>IRSOM<br>NUNPA</td>
+<td>NODAS LT2SC<br>ELREL LT2SA</td>
+</tr>
+</tbody>
+</table>
+<p>In all other situations, aircraft should remain on track DCT LT.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>LT <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> may request aircraft be cleared DCT LT for the <abbr title="DME or GNSS Arrival">DGA</abbr> in IMC or via the above routing in VMC for sequencing/separation.</p>
+</div>
 <h4 id="sequencing_1">Sequencing</h4>
 <p>All sequencing is performed by <abbr title="Melbourne (Huon) Centre">HUO</abbr>.</p>
 <h3 id="ymml">YMML</h3>
@@ -9479,7 +9523,7 @@ Approval must be sought from the <strong>bolded parent position</strong> prior t
 </table>
 <p>Aircraft should primarily be assigned the RAZZI <abbr title="Standard Terminal Arrival Route">STAR</abbr>. The PORTS <abbr title="Standard Terminal Arrival Route">STAR</abbr> may be issued in lieu of the RAZZI <abbr title="Standard Terminal Arrival Route">STAR</abbr> to reduce track miles and <a href="../../../terminal/melbourne/#flow">assist with the flow</a>.</p>
 <h4 id="sequencing_2">Sequencing</h4>
-<p><abbr title="Melbourne (Huon) Centre">HUO</abbr> is responsbile for sequencing arrivals from the south into YMML.</p>
+<p><abbr title="Melbourne (Wonthaggi) Centre">WON</abbr> is responsbile for sequencing arrivals from the south into YMML.</p>
 <h5 id="predictable-sequencing-waypoints">Predictable Sequencing Waypoints</h5>
 <p>There are four <a href="../../../controller-skills/sequencing/#predictable-sequencing">Predictable Sequencing</a> waypoints available for aircraft inbound YMML via <strong>H215</strong>, <strong>P753</strong>, <strong>L508</strong> and <strong>M625</strong>. These waypoints are perpendicular to <strong>M625</strong> and <strong>H215</strong>.</p>
 <p>The table below contains the estimated time from the initial waypoint to the final waypoint <strong>via the CDO waypoint</strong>. </p>
@@ -9574,6 +9618,16 @@ Approval must be sought from the <strong>bolded parent position</strong> prior t
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>EKKAS</td>
+<td>TASIS</td>
+<td>6 min</td>
+</tr>
+<tr>
+<td>LATTA</td>
+<td>ONAGI</td>
+<td>6 min</td>
+</tr>
 <tr>
 <td>RAZZI</td>
 <td>TASIS<br>ONAGI</td>
@@ -10027,12 +10081,16 @@ Approval must be sought from the <strong>bolded parent position</strong> prior t
 <h4 id="arrivalsoverfliers">Arrivals/Overfliers</h4>
 <p>Voiceless for all aircraft:</p>
 <ul>
-<li>With <abbr title="Destination Aerodrome">ADES</abbr> <strong>YMLT</strong> </li>
-<li>Tracking from <strong>IRSOM</strong> or <strong>NUNPA</strong> DCT <strong>LT</strong>; and  </li>
+<li>With <abbr title="Destination Aerodrome">ADES</abbr> <strong>YMLT</strong> <ul>
+<li>Tracking from <strong>IRSOM</strong> or <strong>NUNPA</strong>  in accordance with <a href="#arrival-tracking">YMLT Arrival Tracking</a>, or DCT <strong>LT</strong>; and  </li>
 <li>Assigned <code>A090</code>  </li>
-<li>With <abbr title="Destination Aerodrome">ADES</abbr> <strong>YMHB</strong> </li>
-<li>Assigned the <strong>IPLET</strong> or <strong>MORGO</strong> <abbr title="Standard Terminal Arrival Route">STAR</abbr>; and  </li>
+</ul>
+</li>
+<li>With <abbr title="Destination Aerodrome">ADES</abbr> <strong>YMHB</strong> <ul>
+<li>Assigned a <abbr title="Standard Terminal Arrival Route">STAR</abbr>; and  </li>
 <li>Assigned <code>F130</code>  </li>
+</ul>
+</li>
 </ul>
 <p>All other aircraft coming from <abbr title="Melbourne (Huon) Centre">HUO</abbr> <abbr title="Controlled Airspace">CTA</abbr> must be <strong>Heads-up</strong> Coordinated to TAS <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> prior to <strong>20nm</strong> from the boundary.</p>
 <h4 id="departures">Departures</h4>
@@ -10113,7 +10171,7 @@ Approval must be sought from the <strong>bolded parent position</strong> prior t
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 18, 2026 07:24:47 UTC">February 18, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 7, 2026 23:27:41 UTC">March 7, 2026</span>
   </span>
 
     
