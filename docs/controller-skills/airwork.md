@@ -7,9 +7,9 @@ title: Airwork
 Not all flights online consist of an aircraft flying between airports. **Airwork** refers to any aerial operation that doesn't involve simply going from A to B. Providing control services to aircraft performing airwork requires specific skills and procedures, but offers a unique and rewarding experience for both pilots and controllers.
 
 !!! warning
-	Certain types of airwork, including search and rescue, firefighting, and other emergency operations are restricted under the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct){target=new}. See [Military and Special Operations](#military) for more information.
+	Certain types of airwork, including search and rescue, firefighting, and other emergency operations are restricted under the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct){target=new}. See [Military and Special Operations](../miitary) for more information.
 
-## Area of Operations
+## Area of Operation
 Airwork must be conducted within a defined **area of operation**. This is genenerally nominated by the pilot when first passing airwork details, but can be adjusted or alternately defined by the controller when necessary. An area of operation should be defined with both **lateral** and **vertical** limits.
 
 !!! example
@@ -46,7 +46,7 @@ Aircraft must obtain clearance to perform airwork within CTA, even when airwork 
     Before providing a clearance to perform airwork to an aircraft, it is good practice to take extra time to assess to potential for conflicts, and determine if any coordination is required with adjacent positions.
 
 #### Partially Controlled Airspace
-Aircraft should only receive clearance to perform airwork within CTA. When an aircraft requests clearance to perform airwork in an area partially CTA and OCTA, controllers should provide clearance only for controlled portion of the airspace, and provide traffic information for the uncontrolled portion.
+Aircraft should only receive clearance to perform airwork within CTA. When an aircraft requests clearance to perform airwork in an area partially CTA and OCTA, controllers should provide clearance **only** for the controlled portion of the airspace, and provide traffic information for the uncontrolled portion.
 
 !!! phraseology
     *MDIA403 is an IFR helicopter intending to perform airwork within 4nm of DRLD, `SFC` to `A050`; CTA exists above `A035`.*
@@ -66,32 +66,32 @@ If the pilot does not volunteer an operations normal time, provide them with one
     
 !!! phraseology
     Time is 0648Z  
-    **OBF**: "OBF will be conducting airwork within a 20nm radius of YBLT, not above A050 for the next 60 minutes"  
+    **OBF**: "OBF will be conducting airwork within a 20nm radius of YBLT, not above `A050` for the next 60 minutes"  
     **YWE**: "OBF, no reported IFR traffic, call ops normal time 30."  
     **OBF**: "Ops normal time 30, OBF"
 
 ## Flight Plan Remarks
-Aircraft planning to perform airwork should declare their intentions in the remarks of their flight plan. This should be indicated using the DLE/ format: DLE/*Waypoint**Delay in HHMM*. Additionally, for [practice instructment approaches](#practice-instrument-approaches) and [special operations](../military/#special-operations) a remark should be included to communicate this request.
+Aircraft planning to perform airwork should declare their intentions in the remarks of their flight plan. This should be indicated using the **DLE/** format: DLE/*Waypoint**Delay in HHMM*. Details about [practice instructment approaches](#practice-instrument-approaches) and other special airwork should also be included.
 
 !!! example
-    A pilot is conducting a training flight around the Melbourne Basin, with practice approaches at YMEN (for 10 min), YMAV (for 20 min) and YMMB (for 30 min).  
-    **Filed Route**: `DCT ESDAN DCT AV DCT MB DCT`  
-    **Remarks**: `DLE/ESDAN0010 AV0020 MB0030 RMK/ESDAN26ILS AV36VOR MBNDBA`
+    A pilot is conducting a training flight around the Melbourne Basin, with [practice approaches](#practice-instrument-approaches) at YMAV (for 20 min) and YMMB (for 30 min).  
+    **Filed Route**: `DCT AV DCT MB DCT`  
+    **Remarks**: `DLE/AV0020 MB0030 RMK/AV36VOR MBNDBA`
 
 !!! example
-    A pilot is conducting [Search and Rescue](../military/#search-and-rescue) operations within a 10nm radius of a position defined as **WG288030**, for 1 hour and 30 min.  
-    **Filed Route**: `DCT WG288030 DCT`  
-    **Remarks**: `DLE/WG2880300130 RMK/SAR OPERATIONS WI 10NM OF WG288030`
+    A pilot is conducting [Survey Operations](#aerial-surveys) at `F125` for 1 hour and 30 minutes near Wagga Wagga, starting at YERI and ending at WG127010.  
+    **Filed Route**: `DCT WG YERI WG127010 WG DCT`  
+    **Remarks**: `DLE/YERI0130 RMK/SVY125`
     
 ### Special Remark Codes
 Remark codes are also used to advise intentions to perform specific types of airwork that may not be associated with a delay. Most are not relevant in the virtual environment, however there are some that you may encounter online.
 
-| RMK/ Code  | Description                      | Format                     |
-| ---------- | -------------------------------- | -------------------------- |
-| SVY        | [Aerial Survey](#aerial-surveys) | SVY*(Level)* (e.g. SVY060) |
-| AVM        | Abrupt Vertical Manoeuvres       | AVM*(Significant Point)(Upper Level)* (e.g. AVMPEGSUA095) |
-| NOCOM      | [Non-Continuous Communication](../military/#nocom-operations) | |
-| MILSPECREQ | Special Military Requirements, e.g. [MARSA](../military/#marsa-operations) | |
+| RMK/ Code  | Description                      |
+| ---------- | -------------------------------- |
+| PJE        | [Parachute Jumping Exercise](#parachute-operations) |
+| SAR        | [Search and Rescue Operations](../military/#searh-and-rescue) |
+| NOCOM      | [Non-Continuous Communication](../military/#nocom-operations) |
+| MILSPECREQ | Special Military Requirements, e.g. [MARSA](../military/#marsa-operations) |
 
 ### Practice Instrument Approaches
 A practice instrument approach is simply an aircraft conducting an instrument approach with no intention of landing. Pilots will frequently request lesser-used procedures, such as VOR or NDB approaches, than would otherwise be used in normal operations.
@@ -100,8 +100,8 @@ Outside controlled airspace, providing a simple traffic statement (as in the [ex
 
 !!! phraseology
     **QRS**: "Melbourne Approach, QRS, request direct MOSVO for the practice YMEN LOC Runway 26 Approach"  
-    **MAE**: "QRS, Melbourne Approach, cleared LOC approach. At the minima, fly published missed approach."
-    **QRS**: "Cleared LOC approach. At the minima, fly published missed approach, QRS."    
+    **MAE**: "QRS, track direct MOSVO cleared LOC approach. At the minima, fly published missed approach."
+    **QRS**: "Track direct MOSVO, cleared LOC approach. At the minima, fly published missed approach, QRS."    
 
 !!! tip
     Practice instrument approaches can introduce vexing complications when conducted in controlled airspace. When receiving a request for practice instrument approaches from a pilot, controllers should take time to consider all aspects of the procedure.
@@ -124,11 +124,11 @@ Outside controlled airspace, providing a simple traffic statement (as in the [ex
 A **Sector Entry** is a procedure for aligning an aircraft with the final approach path by performing a procedural turn to enter published holding pattern, often over the IAF.
 
 <figure markdown>
-![Sector Entry Diagram Example](img/sector_entry_diagram.png){ width="800" }
+![Sector Entry Diagram Example](img/sector_entry_diagram.png){ width="600" }
   <figcaption>Sector Entry Diagram Example</figcaption>
 </figure>
 
-Sector Entries are generally required used when an aircraft would need to turn greater than 30° from the first track of the procedure. If there is any uncertainty, it is still good practice to confirm with the pilot if a sector entry is required.
+Sector Entries are generally required used when an aircraft would need to turn greater than 30° to join the first track of the procedure. If there is any uncertainty, it is still good practice to confirm with the pilot if a sector entry is required.
 
 !!! phraseology
     **YNJ**: "Adelaide Approach, YNJ, Requesting Practice YPPF VOR-A Approach"
@@ -141,7 +141,7 @@ Sector Entries are generally required used when an aircraft would need to turn g
 A **DME** or **GNSS** arrival is a procedure by which aircraft follow charted descent guidance along a specified track or sector until they reach the the visual circling area.
 
 <figure markdown>
-![GNSS Arrival Diagram Example](img/gnss_arrival_diagram.png){ width="800" }
+![GNSS Arrival Diagram Example](img/gnss_arrival_diagram.png){ width="600" }
   <figcaption>GNSS Arrival Diagram Example</figcaption>
 </figure>
 
@@ -155,58 +155,47 @@ Aircraft cleared for a DME or GNSS arrival are permitted to manoeuvre within the
     **EFG**: "Descend `A030` not below the DME steps, EFG."  
 
 ### Aerial Surveys
+Aerial surveys involve aircraft flying precise, repetitive flight paths in order to collect data about the ground below: most commonly used for mapping, environmental monitoring, and aerial photography. Aircraft simulating aerial survey operations will fly in a series of equally-spaced, parallel tracks (termed **runs**) over a defined survey area.
+
 <figure markdown>
-![Aerial Survey Example](img/survey_ops_example.png){ width="800" }
+![Aerial Survey Example](img/survey_ops_example.png){ width="500" }
   <figcaption>Aerial Survey Example</figcaption>
 </figure>
 
-Aerial Survey Work involves flying in a series of parallel tracks in a pattern similar to that shown above. Pilots will often request oddly specific altitudes (e.g. `F143`) whilst doing these operations. Survey work can A lot of information is required to have the required situational awareness to facilitate aerial survey work, and it is important to cooperate with the pilot on this. The best thing the pilot can give you is a survey map showing their area of operations.
+Pilots intending to conduct an aerial survey should include details of their planned airwork in their [flight plan](#flight-plan-remarks), but will need to provide specific information about the extent and direction of their desired runs. The easiest (and best) way to provide this information is by providing a map of their intended operations illustrating the desired survey area, location, and direction of each run.
 
 <figure markdown>
-![Aerial Survey Map Example](img/svymap.png){ width="800" }
+![Aerial Survey Map Example](img/svymap.png){ width="500" }
   <figcaption>Aerial Survey Map Example</figcaption>
 </figure>
 
-The numbers signify "Runs" that the survey aircraft can be cleared for. The pilot may need to do these runs in a particular order and direction and at a particular altitude, though they also may have some flexibility. It's good practice to clarify the requirements of the airwork to understand the separation required.
-
-#### Initial Call
 !!! phraseology
-    **MZI**: "Melbourne Centre, MZI, Conquest, POB 1, IFR, Taxis Runway 36 at YMNG for Survey Operations"  
-    **ELW**: "MZI, Melbourne Centre, Squawk 3601, No Reported IFR Traffic"  
-    **MZI**: "Squawk 3601, MZI"
-
-#### Assessment
-Assess for:
-
-- **Airspace** (What classes of Airspace will the aircraft be operating in? Will the aircraft require a clearance?)  
-- **Traffic/Separation**  
-- **Coordination** (What adjacent units will be affected?)
-
-#### Situational Awareness Tools
-Dropping Text-on-Screen of the letter "X" at the vertices of the rough area in which the aircraft will be operating is probably the best way to give yourself some situational awareness, however everything is personal preference. Remember that you are only needing to seperate from the survey aircraft, so it's ok if the locations are a little rough
-
-#### Coordination
-In this example, lets say the aircraft is intending to operate at F168. Boundary Coordination to ML TCU is not technically required, however, they have a voiceless coordination to you for aircraft assigned the DOSEL and NONIX SID, Climbing to F240. This would place YMML departures directly in conflict with the survey aircraft. A negotation should be made to assure separation between departures and the survey aircraft.
-
-!!! phraseology
-    <span class="hotline">**ELW** -> **MDN**</span>: "For Ident, MZI, conducting Survey work between DOSEL and BOGES at F168. All departures via NONIX and DOSEL to have restriction to reach F180 by 30 miles ML, or assigned level at or below F150, until advised"  
-    <span class="hotline">**MDN** -> **ELW**</span>: "Copied all departures to be assigned restriction to reach F180 by 30 miles ML, or F150 or lower, reference MZI"
-
-#### Clearance (if required)
-Start by clearing the aircraft to where they need to go
-
-!!! phraseology
-    **ELW**: "MZI, Cleared directly to the start of Run 1, Climb to F168"  
-    **MZI**: "Cleared directly to the start of Run 1, Climb to F168, MZI"
-
-Then when ready, clear the aircraft for the survey work
-
-!!! phraseology
-    **ELW**: "MZI, Cleared for Runs 1 through 4, Report at the completion of each run"  
-    **MZI**: "Cleared for Runs 1 through 4, Wilco, MZI"
+    *SVY301 is intending to conduct airwork over the Melbourne metropolitan area, within MDS CTA. They have provided the controller a map of their operation, and their first run begins at MB335004*
+    
+    **MDS**: "SVY301, cleared direct to start of Run 1, Climb to F138"  
+    **SVY301**: "Cleared direct to start of Run 1, Climb to F138, SVY301"
+    
+    *...* 
+    **MDS**: "SVY301, cleared for Runs 1 through 4, report at the completion of each run"  
+    **SVY301**: "Cleared for runs 1 through 4, wilco, SVY301"
 
 !!! tip
-    Continue to ask the pilot questions in order to know exactly what they are doing. For separation assurance with the departing YMML traffic, you could ask *"Confirm you will be able to remain outside 40 DME ML?"*. You could ask the pilot what kind of turn they will be making at the completion of each run. You could also instruct the pilot to maintain a heading on the completion of a run for separation purposes.
+    Aircraft performing aerial surveys will often require very specific, non-standard altitudes (e.g. `A078`) and have operational constraints on their manoeuvres. They may require runs to be performed in a particular order or direction, and they should only be diverted in the middle of a run as a last resort. Before approving survey operations, controllers should take extra care to consider all aspects of the request.
+    
+    Some of the **key considerations** include:
+    
+    - **Survey Area**: What area does the survey cover? Does it overlap with any airways, SIDs or STARs?
+    - **Airspace**: What are the classes of airspace involved? 
+    - **Separation**: Is there separation assurance from other traffic on all runs? 
+    - **Coordination**: Is any coordination required with adjacent units? Does an existing voiceless coordination arrangement need to be adjusted?
+    - **Workload**: Does the current workload allow you to facilitate this request? Is there an imminent increase in traffic that could cause you to be overwhelmed?
+    
+    After giving an aircraft clearance to perform a survey approach, maintain your situational awareness with good client usage:
+    
+    - **Label Data**: Use label data to indicate the operation being conducted (e.g. *"SVY"*)
+    - **Cleared Flight Level**: Adjust the aircrafts CFL to match the cleared altitude - this may need to be manually entered into the CFL in the Flight Plan Window if a non-standard altitude is used. Consider the benefits of clearing the aircraft to a block altitude.
+    - **Text Labels**: Use text labels to outline the dimensions of the survey area, and location of each run.
+    
 
 ### Parachute Operations
 Pilots on the network may choose to simulate Parachute Operations (PJE).  
