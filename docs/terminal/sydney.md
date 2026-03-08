@@ -253,10 +253,18 @@ Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, i
 #### Instrument Approach
 Aircraft joining parallel instrument approaches must remain separated from aircraft on the adjacent approach until they are established. This usually involves keeping aircraft vertically separated and may require aircraft to intercept the localiser/final approach course and maintain their assigned level, only allowing descent on the approach once they are established.  
 
-Two aircraft cleared for adjacent instrument approaches must maintain a minimum of `3nm` lateral separation until they are both established on their respective final approach courses, when the standard may be reduced to `1nm`.
+Two aircraft cleared for adjacent instrument approaches must maintain the following minimum lateral separation:
+
+| Situation | Lateral Separation Standard |
+| --- | --- |
+| One or both aircraft **not yet established** | 3nm |
+| **Both aircraft established** on final approach courses | 1nm |
+
+!!! note
+    It may be necessary to use speed control on base & final to maintain the required separation.
 
 #### Independent Visual Approach
-To clear an aircraft for an IVA, the pilot must report their landing runway in sight, or report visual if already established on the LOC/FAC. They must be vectored/instructed to join final inside the IVA chevron.
+To clear an aircraft for an IVA, the pilot must report their landing runway in sight, or report visual if already established on the LOC/final approach course. They must be vectored/instructed to join final inside the IVA chevron.
 
 An aircraft's tag label shall be amended with the following annotations:
 
@@ -265,13 +273,15 @@ An aircraft's tag label shall be amended with the following annotations:
 | Visual | `V` |
 | Landing runway in sight | `R` |
 
-TODO: diagram showing chevron and use of label
+<figure markdown>
+![Sydney IVA Label Usage](img/syiva.png){ width="600" }
+</figure>
 
-An aircraft is only considered independent from the adjacent final approach course if both aircraft have been cleared for an IVA. If one or both pilots have not been cleared for an IVA, they must remain separated as if they were on an [instrument approach](#instrument-approach) (3nm until established, then 1nm lateral separation).
+An aircraft is only considered independent from the adjacent final approach course if **both** aircraft have been cleared for an IVA. If one or both pilots have not been cleared for an IVA, they must remain separated as if they were on an [instrument approach](#instrument-approach) (3nm laterally until established, then 1nm lateral separation).
 
 !!! phraseology
     **SFW:** "BNZ444, Turn left heading 360, join final runway 34L, from that heading cleared independent visual approach"    
-    **BNZ444:** "Left heading 360, join final runway 34L, from that heading cleared independent visual approach, BNZ444"
+    **BNZ444:** "Turn left heading 360, join final runway 34L, from that heading cleared independent visual approach, BNZ444"
 
 When conducting IVAs, aircraft shall not be transferred to **SY ADC** until established on final.
 
@@ -281,7 +291,7 @@ At night, pilots must be instructed to not descend below the relevant MVA until 
 *"CLEARED INDEPENDENT VISUAL APPROACH, NOT BELOW (MVA) UNTIL ESTABLISHED ON THE (PAPI or GLIDEPATH)"*
 
 !!! phraseology
-    **SFE:** "ANZ361, Turn right heading 305, join final runway 34R, from that heading cleared independent visual approach Runway 34R, not below `A015` until established on the PAPI"    
+    **SFE:** "ANZ361, Turn right heading 305, join final runway 34R, from that heading cleared independent visual approach, not below `A015` until established on the PAPI"    
 
 #### SODPROPS
 Arriving aircraft must be established on final and transferred to the tower frequency no later than 10NM from touchdown.
