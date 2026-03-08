@@ -216,6 +216,9 @@ Depending on the runway configuration and inbound direction, aircraft may be han
 
 As a general rule, handoffs should occur once the aircraft has crossed any departure tracks (if a circuit is to be flown) or prior to the aircraft reaching `A060` provided SAS/SAN has no further requirements for the aircraft (if a straight-in approach is planned).
 
+!!! tip
+    See [Independent Visual Approaches](#independent-visual-approach) for the required label annotations for use when both Director positions are online.
+
 SFW/SFE should provide aircraft an approximate 'miles to run' on first contact, to allow the aircraft to plan their descent path.
 
 !!! tip
@@ -247,40 +250,38 @@ Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, i
 
 ## Runway Modes
 ### Parallel Runway Operations
-#### Runway Selection
-Unless operationally required, aircraft shall be assigned the following runways for arrival when PROPS are in progress:
-
-| Aircraft tracking | Runway  |
-| ----------------| --------- |
-| via RIVET   | 16R/34L      |
-| via ODALE | 16R/34L |
-| via MARLN | 16L/34R |
-| via BOREE | 16L/34R |
-| via MEPIL | 16L/34R |
-| Other aircraft: |
-| From the NORTH and EAST | 16L/34R |
-| From the SOUTH and WEST | 16R/34L |
-
 #### Instrument Approach
 Aircraft joining parallel instrument approaches must remain separated from aircraft on the adjacent approach until they are established. This usually involves keeping aircraft vertically separated and may require aircraft to intercept the localiser/final approach course and maintain their assigned level, only allowing descent on the approach once they are established.  
 
-Two aircraft established on adjacent parallel approaches require `1nm` lateral separation as opposed to the 3nm standard required in the TMA generally.
+Two aircraft cleared for adjacent instrument approaches must maintain a minimum of `3nm` lateral separation until they are both established on their respective final approach courses, when the standard may be reduced to `1nm`.
 
 #### Independent Visual Approach
+To clear an aircraft for an IVA, the pilot must report their landing runway in sight, or report visual if already established on the LOC/FAC. They must be vectored/instructed to join final inside the IVA chevron.
+
+An aircraft's tag label shall be amended with the following annotations:
+
+| Situation | Annotation |
+| --- | --- |
+| Visual | `V` |
+| Landing runway in sight | `R` |
+
+TODO: diagram showing chevron and use of label
+
+An aircraft is only considered independent from the adjacent final approach course if both aircraft have been cleared for an IVA. If one or both pilots have not been cleared for an IVA, they must remain separated as if they were on an [instrument approach](#instrument-approach) (3nm until established, then 1nm lateral separation).
+
+!!! phraseology
+    **SFW:** "BNZ444, Turn left heading 360, join final runway 34L, from that heading cleared independent visual approach"    
+    **BNZ444:** "Left heading 360, join final runway 34L, from that heading cleared independent visual approach, BNZ444"
+
 When conducting IVAs, aircraft shall not be transferred to **SY ADC** until established on final.
 
-!!! phraseology
-    **SFW:** "BNZ444, Turn left heading 360, join final Runway 34L, from that heading Cleared Independent Visual Approach"    
-    **BNZ444:** "Left heading 360, join final Runway 34L, from that heading Cleared Independent Visual Approach, BNZ444"  
-      
-    **SFW:** "BNZ444, Contact Sydney Tower 120.5"  
-    **BNZ444:** "120.5, BNZ444"
-
 ##### Phraseology at Night
-*"CLEARED INDEPENDENT VISUAL APPROACH RUNWAY (number), NOT BELOW (MVA) UNTIL ESTABLISHED ON THE PAPI (or GLIDEPATH)"*
+At night, pilots must be instructed to not descend below the relevant MVA until they are established on the PAPI or glidepath.
+
+*"CLEARED INDEPENDENT VISUAL APPROACH, NOT BELOW (MVA) UNTIL ESTABLISHED ON THE (PAPI or GLIDEPATH)"*
 
 !!! phraseology
-    **SFE:** "ANZ361, Turn right heading 305, join final Runway 34R, from that heading Cleared Independent Visual Approach Runway 34R, not below `A015` until established on the PAPI"    
+    **SFE:** "ANZ361, Turn right heading 305, join final runway 34R, from that heading cleared independent visual approach Runway 34R, not below `A015` until established on the PAPI"    
 
 #### SODPROPS
 Arriving aircraft must be established on final and transferred to the tower frequency no later than 10NM from touchdown.
