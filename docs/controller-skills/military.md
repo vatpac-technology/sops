@@ -4,9 +4,7 @@ title: Military/Restricted Operations
 
 --8<-- "includes/abbreviations.md"
 
-The majority of traffic on VATSIM is simulated 'civilian' traffic: airliners performing regular passenger transport, smaller general aviation aircraft doing recreational flights, and even simulated [airwork](../airwork). There is, however, a PLACEHOLDER <!----
-Understanding military and special operations sdfasdf --->
-
+The majority of traffic on VATSIM is simulated 'civilian' traffic: airliners performing regular passenger transport, smaller general aviation aircraft doing recreational flights, and even simulated [airwork](../airwork). There is, however, a notable contingent of pilots who are interested in simulating special and military operations.
 
 !!! important
     As per the VATSIM [Special Operations Policy](https://vatsim.net/docs/policy/special-operations){target=new}, the following activities are restricted on the VATSIM network. They may only be performed by pilots who are a member of, and flying an operation representing, an approved Virtual Special Operations Association.
@@ -25,6 +23,24 @@ Understanding military and special operations sdfasdf --->
     - Launch and Recovery of Space Vehicles
     - Air Displays (Flying Displays, Races)
     - Fly unmanned aerial vehicles, e.g. Global Hawk
+
+### Special Operations Remarks
+When simulating special operations, pilotsmay file a priority status in their remarks using the STS/ format.
+
+| STS/ Code | Description |
+| --------- | ------------------------ |
+|`STS/MEDEVAC` | Aircraft engaged in life critical transportation of severely ill patients | 
+|`STS/FFR` | Aircraft engaged in Fire or Flood Relief operations |
+|`STS/SAR` | Aircraft engaged in Search and Rescue Operations |
+|`STS/HEAD STATE` | Aircraft carrying a Head of State |
+|`STS/STATE` | Aircraft part of the defence force, military, or customs | 
+|`STS/HOSP` | Aircraft engaged in non-life-critical transportation of medical operations, personnel, or ill patients |
+
+!!! important
+    `VATSIM Code of Conduct - Section B6`
+    *No flight may declare itself to have priority over another. Pilots are permitted to declare in-flight emergencies only when under air traffic control. If, for any reason, air traffic control requests the pilot to terminate the emergency, then the pilot shall do so IMMEDIATELY or disconnect from the network. Pilots are not permitted to simulate any unlawful act including, but not limited to, declaring a hijack by any method, including entering a transponder code of 7500.*
+
+    Persuant to the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct){target=new} controllers may simulate higher priority operations, such as emergency aircraft and MEDEVAC operations, by giving track shortening and conducting coordinationm as long as it does not impose an undue delay on any other aircraft (beyond reasonably expected delays, such as sequencing).
 
 ## Military Operating Areas
 Military operating areas are a subset of [danger areas](../sua/#danger-areas) which are established to facilitate a range of military operations. They are labelled with the **M** prefix (e.g. M550, which makes up part of the military airspace offshore from YWLM). Inside Australian territory, approval *is* required to enter an MOA.
@@ -144,7 +160,7 @@ You must consider the formation to be broken and process aircraft individually w
 - elect to carry out individual activities
 
 
-### Close Formation
+<!--### Close Formation
 Reserved.
 
 ### Block Formation
@@ -152,7 +168,7 @@ Reserved.
 
 ### In-Trail Formation
 Reserved.
-
+-->
 ## MARSA Operations
 **Military Authority Assumes Responsibility for Separation of Military Aircraft** (MARSA) is a procedure which authorises pilots of military aircraft to assume responsibility for separation between their aircraft and other nominated military aircraft (or military contract civil aircraft) within Australian controlled airspace. 
 
@@ -195,30 +211,14 @@ Stereo approaches should generally be used during high military traffic levels a
 Stereo Approach charts can be found in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 ### Search and Rescue (SAR) Operations
-SAR Operations are conducted more or less as a standard airwork procedure. Handle the aircraft as any other normal aircraft transiting your airspace, with the airwork procedures shown above.
+SAR Operations are conducted more or less as a standard [airwork](/airwork) procedure. Handle the aircraft as any other normal aircraft transiting your airspace.
 
 SAR Operations are most commonly flown in a circular area (eg Radius from a Fix, or Radius from a Lat/Long), or a Straight line pattern (eg, back and forth on a line between 2 Fixes, or 2 Lat/Longs).
 
 !!! phraseology
-    **DDU**: "DDU, Requesting Traffic for Search and Rescue operations for the next 90 minutes, within a 10nm Radius of 23 52 South, 136 01 East, Not above A060"  
+    **DDU**: "DDU, request traffic for Search and Rescue operations for the next 90 minutes, within a 10nm Radius of 23 52 South, 136 01 East, Not above A060"  
     **ASP**: "DDU, No Reported IFR Traffic. Call Ops Normal time on the hour"  
     **DDU**: "Ops Normal on the hour, DDU" 
-    
-    
-### STS/ (Status) field
-(Aircraft that has declared a Mayday)  
-(Aircraft that has declared a Pan Pan)  
-`STS/MEDEVAC` - Aircraft engaged in life critical transportation of severely ill patients  
-`STS/FFR` - Aircraft engaged in Fire or Flood Relief operations  
-`STS/SAR` - Aircraft engaged in Search and Rescue Operations  
-`STS/HEAD STATE` - Aircraft carrying the Prime Minister  
-`STS/STATE` - Aircraft part of the defence force, military, or customs.  
-`STS/HOSP` - Aircraft engaged in non-life-critical transportation of medical operations, personnel, or ill patients.
 
-##### VATSIM Code of Conduct
-[Section B6](https://vatsim.net/docs/policy/code-of-conduct){target=new}:  
-*"No flight may declare itself to have priority over another. Pilots are permitted to declare in-flight emergencies only when under air traffic control. If, for any reason, air traffic control requests the pilot to terminate the emergency, then the pilot must do so IMMEDIATELY or disconnect from the network. Pilots are not permitted to simulate any unlawful act including, but not limited to, declaring a hijack by any method, including entering a transponder code of 7500."*
-
-Persuant to the above, you are permitted to simulate the higher priority operations above, such as emergency aircraft and MEDEVAC operations, by giving track shortening and conducting coordination as required, as long as it does not impose a delay on any other aircraft (other than normal delays associated with sequencing, weather, etc).
-
-###FFR Operations
+### Firefighting Operations
+Reserved.
