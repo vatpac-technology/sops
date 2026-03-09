@@ -66,6 +66,7 @@ Aircraft planned via **LB VOR**, **MT NDB**, **NFNS**, **ATOLL**, **SAPIR**, **I
 !!! note
 	^ When the [Namukla Training Area](#namuka-training-area) is active, aircraft tracking via NAVUA shall be assigned the **CHARLIE** SID, NA VOR transition, thence direct NAVUA.
 
+## ATIS
 ### Approach Expectation
 If visual approaches are in operation the APCH field must state `EXP VISUAL APCH`.
 
