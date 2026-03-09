@@ -92,6 +92,11 @@ Remark codes are also used to advise intentions to perform specific types of air
 | SAR        | [Search and Rescue Operations](../military/#searh-and-rescue) |
 | NOCOM      | [Non-Continuous Communication](../military/#nocom-operations) |
 | MILSPECREQ | Special Military Requirements, e.g. [MARSA](../military/#marsa-operations) |
+    
+!!! example
+    A pilot is conducting [PJE](#parachute-operations) at `F140` for 20 minutes near Flagstaff Point, located within the D353 danger area.  
+    **Filed Route**: `DCT WOL WOL020010 WOL DCT`  
+    **Remarks**: `RMK/PJE OPS IN D353`
 
 ### Practice Instrument Approaches
 A practice instrument approach is simply an aircraft conducting an instrument approach with no intention of landing. Pilots will frequently request lesser-used procedures, such as VOR or NDB approaches, than would otherwise be used in normal operations.
@@ -195,96 +200,92 @@ Pilots intending to conduct an aerial survey should include details of their pla
     - **Label Data**: Use label data to indicate the operation being conducted (e.g. *"SVY"*)
     - **Cleared Flight Level**: Adjust the aircrafts CFL to match the cleared altitude - this may need to be manually entered into the CFL in the Flight Plan Window if a non-standard altitude is used. Consider the benefits of clearing the aircraft to a block altitude.
     - **Text Labels**: Use text labels to outline the dimensions of the survey area, and location of each run.
-    
 
 ### Parachute Operations
-Pilots on the network may choose to simulate Parachute Operations (PJE).  
-There are lots of different variables at play when considering how to handle parachuting operations, such as:
+Parachute Operations (PJE) present unique complexities and complications for controllers to consider: not only do they have to consider separation between aircraft, but for the parachutists as well!
 
-- Is the aircraft VFR or IFR?  
-- Which class(es) of airspace is the aircraft operating in?  
-- What height will the aircraft be dropping from?  
-- How busy are you?  
+During PJE, one or more parachutists will jump from a plane (the **jump aircraft**) and freefall until opening their parachute somewhere between 1,800FT and 4,400FT AGL. The parachutists will then land at a predetermined area called the **drop zone**. Parachutists are required to remain within **1nm** of the centre of the drop zone as they descend; the airspace through which they descend is known as the **drop area**.
 
-#### Initial Call
-The exact nature of Parachute Operations can vary significantly at different drop zones around the country, so it's very important to ascertain the pilot's exact intentions prior to them entering controlled airspace.
-
-!!! phraseology
-    **DJV**: "Sydney Departures, Caravan, DJV, Airborne YSHL for Parachute Operations overhead Flagstaff Point, Requesting F140"  
-    **SDS**: "DJV, Sydney Departures, Standby"
-
-#### Tag
-The aircraft may or may not have filed a flightplan. Search in the Preactive window or Flight Plan Window for their callsign. If you find a flight plan, activate it, and pass the aircraft their squawk code.  
-If there is no flight plan, simply create a Quicktag for the aircraft, and assign them the displayed code.
-
-!!! phraseology
-    **SDS**: "DJV, Sydney Departures, Squawk 3601"  
-    **DJV**: "Squawk 3601, DJV"
-
-#### Assessment
 <figure markdown>
-![YSHL Area](img/pjeshl.png){ width="600" }
-  <figcaption>Flagstaff Point position reference YSHL</figcaption>
+![PJE Diagram](img/pje.png){ width="500" }
+  <figcaption>Diagram of PJE</figcaption>
 </figure>
 
-Assess for:
+Most PJE operations occur at or below `F140`, with regular parachuting locations protected in defined [danger areas](../sua/#danger-areas), although an aircraft may request PJE outside of these danger areas, and at any altitude. PJE aircraft may operate either as IFR or VFR and should include details of their planned airwork in their [flight plan](#flight-plan-remarks).
 
-- **Airspace** (What classes of Airspace will the aircraft be operating in? Will the aircraft require a clearance?)  
-- **Traffic/Separation**  
-- **Coordination** (What adjacent units will be affected?)
+Before the drop, all PJE aircraft are required to make broadcasts alerting nearby traffic and, if in controlled airspace, receive clearance from the relevant controller. 
 
-In this case, the aircraft will be operating in Class G and Class C airspace, therefore will need a clearance. Boundary Coordination will need to be completed to **SAS**.
-
-#### Situational Awareness Tools
-Many drop zones around the country have associated [Danger Areas](../sua/#danger-areas) that can be seen on VTC, VNC, TAC or ERC-L Charts. It is good practice to activate these Danger Areas via the **Restricted Areas** window in vatSys, for situational awareness.
-
-#### Coordination
-Conduct Coordination to any affected adjacent units as required
+##### Uncontrolled Airspace
+Both IFR and VFR aircraft OCTA will announce their intentions on the relevant area frequency. Controllers should provide relevant traffic information to these aircraft.
 
 !!! phraseology
-    <span class="hotline">**SDS** -> **SAS**</span>: "For Ident, DJV, conducting Parachute Operations at Flagstaff Point, do you have any restrictions or requirements?"  
-    <span class="hotline">**SAS** -> **SDS**</span>: "DJV, no restrictions, no requirements"
+    **ZA3**: "Melbourne Centre and YPBH traffic, VFR Cessna Caravan ZA3, five minutes to parachute drop from A090 overhead YPBH, expect six canopies, YPBH traffic."
+    **MUN**: "ZA3, copied, no reported traffic YPBH."
 
-#### Clearance (if required)
-Best practice is to clear the aircraft to operate within a reasonably sized radius area of the drop zone, 5nm for example. If the pilot has special requests to add to the clearance, it is their responsibility to communicate it to you. 
-
-!!! phraseology
-    **SDS**: "DJV, Cleared to operate within a 5nm radius of Flagstaff Point, Climb to F140. Report Ready for Drop and Descent"  
-    **DJV**: "Cleared to operate within a 5nm radius of Flagstaff Point, Climb to F140, Wilco, DJV"
-
-Ensure you maintain separation assurance with other aircraft in the area. There is nothing wrong with assigning an interim level, holding them at a particular level, or vectoring them away from their intended area of operation, in order to facilitate the movements of other traffic.
-
-#### Broadcasts
-Throughout the Parachute operations, you can expect the PJE aircraft to make multiple broadcasts on your frequency to traffic in the area. Unless the aircraft addresses you directly (eg *"Sydney Departures and traffic in the Wollongong area"*), there is no need to respond to these traffic broadcasts
+##### Controlled airspace
+Where PJE ops are occuring in CTA, controllers must ensure there is no conflicting traffic in the drop area, and will provide PJE aircraft with clearance to drop once separation is assured.
 
 !!! phraseology
-    **DJV**: "Traffic in the Wollongong city area, DJV is a Caravan, 5 minutes to Parachute drop from flight levels overhead Flagstaff Point, expect 6 canopies, Traffic Wollongong city area"
-
-#### Drop and Descent
-!!! phraseology
-    **DJV**: "DJV, Broadcasts complete, Request Drop and Descent"  
-
-You are required to separate all aircraft from a **2nm Radius** of the Drop Zone (ie, the appropriate radar standard, 3nm for TCU, 5nm for Enroute, **Plus** 2nm Radius of the Drop Zone), once a drop clearance has been given. This is because you are no longer just separating from the aircraft, but the Parachutes themselves as well. Your responsibility for separating from the Parachutes terminates once the pilot reports the chutes are OCTA.
-
-Once again, when giving drop and descent clearance, consider giving an interim level, or a heading, if required for separation.
-
-!!! phraseology
-    **SDS**: "DJV, clear to drop, leave controlled airspace descending, not below parachutists, tracking DCT YSHL, No Reported IFR Traffic. Report parachutists OCTA."  
-    **DJV**: "Clear to drop and leave controlled airspace descending, not below the parachutists, tracking DCT YSHL, Wilco, DJV."  
-
-!!! note
-    *"Not below parachutists"* is so that you can separate from the last level vacated by the aircraft. If you do not instruct the aircraft to descend not below the parachutists, then you would need to separate all the way from the drop height (in this case, F140) until the parachutists are reported as OCTA.
-
-!!! phraseology
-    **DJV**: "DJV, Parachutists and aircraft OCTA."  
-    **SDS**: "DJV, Identification terminated, Frequency change approved"  
+    *DJV has been cleared to operate within a 5nm of their drop zone, located at Flagstaff Point.*
+    **DJV**: "Sydney Departures and Wollongong city traffic, VFR Cessna Caravan DJV, five minutes to parachute drop from F140 overhead Flagstaff Point, expect nine canopies, Wollongong City traffic."
+    **SDS**: "DJV, no reported traffic OCTA Wollongong city."
+    *...*
+    **DJV**: "DJV, broadcasts complete, request drop and descent"
+    **SDS**: "DJV, clear to drop, leave controlled airspace descending, [not below parachutists](#not-below-parachutists). Report parachutists outside controlled airspace."
+    **DJV**: "Clear to drop and leave controlled airspace descending, not below the parachutists, wilco, DJV."
+    *...*
+    **DJV**: "DJV, parachutists and aircraft OCTA."  
+    **SDS**: "DJV, identification terminated, frequency change approved."  
     **DJV**: "DJV"
 
+!!! tip
+    PJE is a complex operation, and requires aircraft to be separated from a large **drop area** for a significant amount of time. Before permitting an aircraft to perform PJE within CTA, controllers should take care to consider all aspects of the operation.
+    
+    Some of the **key considerations** include:
+    
+    - **Drop Zone**: Where is the drop zone? Is it in an area where PJE would interfere with other traffic?
+    - **Airspace**: What are the classes of airspace for the drop zone? At what altitude will the parachutists reach OCTA? 
+    - **Separation**: Is there separation assurance for the entire drop area? 
+    - **Coordination**: Is any coordination required with adjacent units? PJE ops in particular are likely to require coordination with adjacent positions or ADC controllers.
+    - **Workload**: Does the current workload allow you to facilitate this request? Is there an imminent increase in traffic that could cause you to be overwhelmed?
+    
+    After giving an aircraft clearance to perform a survey approach, maintain your situational awareness with good client usage:
+    
+    - **Restricted Areas** Activate the [Restricted or Danger Area](sua/#danger-areas), if applicable.
+    - **Label Data**: Use label data to indicate the operation being conducted (e.g. *"PJE"*)
+    - **Cleared Flight Level**: Adjust the aircrafts CFL to a block altitude from `000` to the cleared drop altitude (e.g. `000-140`).
+    - **Text Labels**: Use text labels to outline the dimensions of the drop area, and location of the drop zone
+
+#### Separation Standards
+**Lateral** and **vertical** separation must be applied between non-PJE aircraft and the **drop area**, until:
+
+- All parachutists are reported to be on the ground, or
+- The PJE pilot reports that all parachutists are clear of controlled airspace.
+
+<figure markdown>
+![Illustration of Separation between PJE and non-PJE traffic](img/pje_separation.png){ width="500" }
+  <figcaption>Illustration of Separation between PJE and non-PJE traffic</figcaption>
+</figure>
+
+##### Not Below Parachutists
+Instructing an aircraft to remain *Not below parachutists* allows controllers to use the indivated height of the drop aircraft as the maximum vertical extent of the operation for the purposes of separation.
+
+Without that instruction, separation needs to be applied from the maximum height of the drop area, until the parachutists are reported to be OCTA.
+
+<!---
+## Glider operations
+
+## Other Non-Normal Aircraft Operations
+### Practice/Simulated Failures
+
+### Fuel Dumping
+--->
+
+## Emergencies
+Persuant to the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct){target=new} controllers may simulate higher priority operations, such as emergency aircraft and MEDEVAC operations, by giving track shortening and conducting coordinationm as long as it does not impose an undue delay on any other aircraft (beyond reasonably expected delays, such as sequencing).
+
 !!! note
-    "Frequency change approved" is given in this instance, as DJV is now a VFR aircraft in Class G airspace. DO NOT approve a frequency change to any PJE aircraft in Class E airspace, or any IFR PJE aircraft.
+    `VATSIM Code of Conduct - Section B6`
+    *No flight may declare itself to have priority over another. Pilots are permitted to declare in-flight emergencies only when under air traffic control. If, for any reason, air traffic control requests the pilot to terminate the emergency, then the pilot shall do so IMMEDIATELY or disconnect from the network. Pilots are not permitted to simulate any unlawful act including, but not limited to, declaring a hijack by any method, including entering a transponder code of 7500.*
 
-#### IFR Operations
-Most procedures are the same for IFR aircraft, just remember that the situation changes when Class E airspace is involved, as it is now Controlled, and you must separate other IFR aircraft from the PJE aircraft and the chutes inside Class E airspace. As a controller, remember that you need to hold SARWATCH over the IFR aircraft in all Classes of airspace, until they cancel their SARWATCH or downgrade VFR.
-
-#### OCTA Operations
-VFR PJE aircraft operating wholly within Class G or Class E airspace are still required to make broadcasts on frequency, and they are entitled to a traffic statement for Drop and Descent.
+Pilots must terminate the emergency, or else disconnect from the network, if requested by a controller.
