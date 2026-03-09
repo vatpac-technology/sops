@@ -28,6 +28,7 @@
 *[CFL]: Cleared Flight Level
 *[FDR]: Flight Data Record
 *[RFL]: Requested Flight Level
+*[AGL]: Above Ground Level
 *[ADES]: Destination Aerodrome
 *[ADEP]: Departure Aerodrome
 *[LOC]: Localiser
