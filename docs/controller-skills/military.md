@@ -4,8 +4,9 @@ title: Military/Restricted Operations
 
 --8<-- "includes/abbreviations.md"
 
-The majority of traffic on VATSIM is simulated 'civilian' traffic: airliners performing regular passenger transport, smaller general aviation aircraft doing recreational flights, and even simulated [airwork](../airwork). There is, however, a nota
-Understanding military and special operations sdfasdf
+The majority of traffic on VATSIM is simulated 'civilian' traffic: airliners performing regular passenger transport, smaller general aviation aircraft doing recreational flights, and even simulated [airwork](../airwork). There is, however, a PLACEHOLDER <!----
+Understanding military and special operations sdfasdf --->
+
 
 !!! important
     As per the VATSIM [Special Operations Policy](https://vatsim.net/docs/policy/special-operations){target=new}, the following activities are restricted on the VATSIM network. They may only be performed by pilots who are a member of, and flying an operation representing, an approved Virtual Special Operations Association.
@@ -33,16 +34,20 @@ On VATSIM, MOAs are generally assumed to be deactivated unless being actively us
 ## Common Military Aircraft Types
 The ICAOs for many common military aircraft may be unfamiliar to controllers used to civilian operations. Below is a list of some military types that you may encounter in VATPAC airspace.
 
-| ICAO | Aircraft |
-| ---- | -------- |
-| C17  | Boeing C-17 Globemaster |
-| C27J | Alenia C-27J Spartan |
-| C30J | Lockheed Martin C-130J Hercules |
-| F18  | Boeing EA-18G Growler |
-| F18S | Boeing F/A-18E Super Hornet |
-| F35  | Lockheed Martin F-35 |
-| HAWK | BAE Systems Hawk |
-| P8   | Boeing P-8 Poseidon |
+| ICAO | Aircraft                        | Type                 |
+| ---- | ------------------------------- | -------------------- |
+| APCH | Boeing AH-64 Apache             | Attack Helicopter    |
+| C17  | Boeing C-17 Globemaster         | Military Transport (Jet)       |
+| C27J | Alenia C-27J Spartan            | Military Transport (Turboprop) |
+| C30J | Lockheed Martin C-130J Hercules | Military Transport (Turboprop) |
+| CH47 | Boeing CH-47 Chinook            | Tandem-Rotor Helicopter        |
+| F18  | Boeing EA-18G Growler           | High-Performance Jet |
+| F18S | Boeing F/A-18E Super Hornet     | High-Performance Jet |
+| F35  | Lockheed Martin F-35            | High-Performance Jet |
+| HAWK | BAE Systems Hawk                | Jet Trainer          |
+| H60  | Sikorski H-60 Blackhawk/Seahawk | Utility Helicopter   |
+| P8   | Boeing P-8 Poseidon             | Military B737        |
+| TIGR | Eurocopter EC665 Tiger          | Attack Helicopter    |
 
 ## Aerodrome Operations
 ### Check Wheels
