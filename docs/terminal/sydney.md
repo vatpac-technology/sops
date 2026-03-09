@@ -253,7 +253,7 @@ Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, i
 #### Instrument Approach
 Aircraft joining parallel instrument approaches must remain separated from aircraft on the adjacent approach until they are established. This usually involves keeping aircraft vertically separated and may require aircraft to intercept the localiser/final approach course and maintain their assigned level, only allowing descent on the approach once they are established.  
 
-Two aircraft cleared for adjacent instrument approaches must maintain the following minimum lateral separation:
+Two aircraft cleared for adjacent instrument approaches must maintain the following [minimum lateral separation](../separation-standards/parallelapps.md):
 
 | Situation | Lateral Separation Standard |
 | --- | --- |
