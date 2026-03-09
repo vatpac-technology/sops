@@ -86,9 +86,9 @@ Aircraft should report at the standard VFR Departure/Arrival Gates.
 ### Inbound/Outbound Routes
 | Victor | Inbound | Outbound |
 | ------ | ------- | -------- |
-| Bravo | Track H174 to Bomana Gaol | Track F357 From Bomana Gaol |
+| Bravo | Track 174 to Bomana Gaol | Track 357 From Bomana Gaol |
 | Golf | Track PY 050 radial inbound | Track PY 050 radial outbound |
-| Romeo | Track H316, remaining at least 1nm east of Rigo Road | Track H136, remaining at least 1nm east of Rigo Road |
+| Romeo | Track 316, remaining at least 1nm east of Rigo Road | Track 136, remaining at least 1nm east of Rigo Road |
 | India | Aroa-GAE-Gorohu-FAI-Tatana Island | Tatana Island-FAI-Gorohu-GAE-Aroa |
 | Sierra | Yule Island-RES-BOH-Porebada-Tatana Island | Tatana Island-Porebada-BOH-RES-Yule Island |
 
