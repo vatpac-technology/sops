@@ -63,6 +63,7 @@ The ICAOs for many common military aircraft may be unfamiliar to controllers use
 | HAWK | BAE Systems Hawk                | Jet Trainer          |
 | H60  | Sikorski H-60 Blackhawk/Seahawk | Utility Helicopter   |
 | P8   | Boeing P-8 Poseidon             | Military B737        |
+| P21  | Pilatus PC-21                   | Turboprop Trainer    |
 | TIGR | Eurocopter EC665 Tiger          | Attack Helicopter    |
 
 ## Aerodrome Operations
