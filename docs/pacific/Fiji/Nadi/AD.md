@@ -199,6 +199,9 @@ Jet Aircraft **not** planned via any of these waypoints shall receive amended ro
 	
 	† Aircraft planned via an airway commencing at **MELEB** shall be assigned the **DELTA** SID. Aircraft planned via an airway commencing at **NN VOR** shall be assigned the **CHARLIE** SID.
 
+!!! warning "Important"
+    OzStrips will autofill the **preferred SID** only. Controllers must ensure the correct SID is selected based on the conditions laid out in this section.
+
 During busy periods NFFNA and NFFN ADC may coordinate and lower-priority departures for better traffic management purposes.
 
 !!! example
