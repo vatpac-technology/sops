@@ -151,7 +151,21 @@ Some pilots may choose to simulate operations to/from the airport, despite these
 
 ## Separation
 ### Parallel Runway Operations
-Refer to [Parallel Runway Separation Standards](../../separation-standards/parallelapps) for more information
+#### Instrument Approach
+Aircraft joining parallel instrument approaches must remain separated from aircraft on the adjacent approach until they are established. This usually involves keeping aircraft vertically separated and may require aircraft to intercept the localiser/final approach course and maintain their assigned level, only allowing descent on the approach once they are established.  
+
+Two aircraft cleared for adjacent instrument approaches must maintain the following [minimum lateral separation](../separation-standards/parallelapps.md):
+
+| Situation | Lateral Separation Standard |
+| --- | --- |
+| One or both aircraft **not yet established** | 3nm |
+| **Both aircraft established** on final approach courses | 1nm |
+
+!!! note
+    It may be necessary to use speed control on base & final to maintain the required separation.
+
+#### Independent Visual Approach
+An aircraft is only considered independent from the adjacent final approach course if **both** aircraft have been cleared for an [IVA](#independent-visual-approach_1). If one or both pilots have not been cleared for an IVA, they must remain separated as if they were on an [instrument approach](#instrument-approach).
 
 ## Local Procedures
 ### Sydney Harbour Scenic Flights
@@ -251,17 +265,7 @@ Due to the low level of CTA (`A015`) in the BK CTR when **BK ADC** is offline, i
 ## Runway Modes
 ### Parallel Runway Operations
 #### Instrument Approach
-Aircraft joining parallel instrument approaches must remain separated from aircraft on the adjacent approach until they are established. This usually involves keeping aircraft vertically separated and may require aircraft to intercept the localiser/final approach course and maintain their assigned level, only allowing descent on the approach once they are established.  
-
-Two aircraft cleared for adjacent instrument approaches must maintain the following [minimum lateral separation](../separation-standards/parallelapps.md):
-
-| Situation | Lateral Separation Standard |
-| --- | --- |
-| One or both aircraft **not yet established** | 3nm |
-| **Both aircraft established** on final approach courses | 1nm |
-
-!!! note
-    It may be necessary to use speed control on base & final to maintain the required separation.
+During dependent instrument approaches (i.e. all instrument approaches excluding PRM operations), aircraft must remain [separated](#instrument-approach) from aircraft on the parallel approach.
 
 #### Independent Visual Approach
 To clear an aircraft for an IVA, the pilot must report their landing runway in sight, or report visual if already established on the LOC/final approach course. They must be vectored/instructed to join final inside the IVA chevron.
@@ -277,7 +281,7 @@ An aircraft's tag label shall be amended with the following annotations:
 ![Sydney IVA Label Usage](img/syiva.png){ width="600" }
 </figure>
 
-An aircraft is only considered independent from the adjacent final approach course if **both** aircraft have been cleared for an IVA. If one or both pilots have not been cleared for an IVA, they must remain separated as if they were on an [instrument approach](#instrument-approach) (3nm laterally until established, then 1nm lateral separation).
+An aircraft is only considered independent from the adjacent final approach course if **both** aircraft have been cleared for an IVA. If one or both pilots have not been cleared for an IVA, they must remain separated as if they were on an [instrument approach](#instrument-approach_1) (3nm laterally until established, then 1nm lateral separation).
 
 !!! phraseology
     **SFW:** "BNZ444, Turn left heading 360, join final runway 34L, from that heading cleared independent visual approach"    
