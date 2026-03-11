@@ -106,10 +106,10 @@ By default, aircraft will pitch at the midfield point (about half way down the r
 
 !!! phraseology
     **VIPR47**: "Sale Tower, VIPR47"  
-    **ADC**: "VIPR47, pitch long"  
+    **ES ADC**: "VIPR47, pitch long"  
     **VIPR47**: "Pitch long, VIPR47"
     **VIPR47**: "VIPR47, Base"  
-    **ADC**: "VIPR47, runway 27, cleared to land, check wheels"  
+    **ES ADC**: "VIPR47, runway 27, cleared to land, check wheels"  
     **VIPR47**: "Runway 27, Cleared to Land, VIPR47, 3 Greens"
 
 ### Terminal/En Route Operations
@@ -126,6 +126,7 @@ Most military TCUs and Tower positions, when online, control airspace that corre
 These Restricted Areas may be activated in vatSys, and the controllers of these positions may inform other surrounding controllers of their activations, so they may use the Resitricted Areas on the screen to visually assess the airspace and separation required for traffic.
 
 Unless otherwise stated in Local Instructions, Restricted Areas activated for control by military TCUs and Towers, will become **Class C** airspace.
+
 
 ## Formation Flights
 ### Standard Formation
