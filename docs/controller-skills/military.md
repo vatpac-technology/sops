@@ -28,11 +28,10 @@ Military operations can vary significantly from civilian operations, both in pro
 
 
 ## Military Airspace
-
-
-
 ### Military Aerodromes
 There are several military and joint military/civil aerodromes in Australia.
+
+These airports have published military procedures that can differ significantly from civil operations. In addition to the civilian `ERSA` and `AIP` publications, [the RAAF AIP website](https://ais-af.airforce.gov.au/australian-aip){target=new} contains the necessary charts (available in the TERMA) and description of procedures (in each airports' FIHA).
 
 | Aerodrome | Terminal Area | Military Status |
 | --------- | ------------- | --------------- |
@@ -149,11 +148,9 @@ Military aircraft are permitted to operate within their designated Restricted Ar
 Stereo Approaches are the primary procedure for fighter & strike aircraft (e.g. F18, HAWK, PC21) recovering back to airbases after operations in SUA. Aircraft track from specified SUA exit gates where they join the procedure, tracking along charted TACAN arcs/radials which position them for an initial and pitch or instrument approach.
 
 !!! info
-    Despite their name, stereo approaches can be thought of as the military equivalent of a STAR. Aircraft generally transition from a stereo approach onto an instrument approach or an initial and pitch.
+    Aircraft generally transition from a stereo approach onto an instrument approach or an initial and pitch.
 
-Stereo approaches should generally be used during high military traffic levels and nominated on the appropriate aerodrome ATIS.
-
-Stereo Approach charts can be found in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}
+Stereo Approaches should generally be used during high military traffic levels, and nominated on the appropriate aerodrome ATIS.
 
 
 ## Formation Flights
@@ -161,9 +158,6 @@ Stereo Approach charts can be found in the [RAAF TERMA](https://ais-af.airforce.
 A **standard formation** is defined by more than one aircraft, separated by no more than **1nm** laterally/longitudinally, and no more than **100 feet** vertically, from the lead aircraft. All aircraft in the formation are treated as *one*. Ensure only the leader is squawking Mode C.
 
 An additional **1nm** must be applied to any lateral separation standards for aircraft in a Standard Formation (Surveillance standards, for example, become *6nm* for Enroute, *4nm* for ADC/TCU).
-
-!!! note
-    RAAF FIHA AD2 Supps and TERMAs can be found [here](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 When military formations make initial contact with a new sector, they will commonly "check in" with all of the members of the formation, to ensure they've all made the frequency transfer. This involves all the individual members of the formation saying their own number in order on the first call. Formations are most commonly referred to by their base radio telephony callsign, without any numbers (eg, VIPR, BLKT, WGTL).
 
@@ -250,6 +244,7 @@ When simulating special operations, pilots may file a priority status in their r
     *No flight may declare itself to have priority over another. Pilots are permitted to declare in-flight emergencies only when under air traffic control. If, for any reason, air traffic control requests the pilot to terminate the emergency, then the pilot shall do so IMMEDIATELY or disconnect from the network. Pilots are not permitted to simulate any unlawful act including, but not limited to, declaring a hijack by any method, including entering a transponder code of 7500.*
 
     Persuant to the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct){target=new} controllers may simulate higher priority operations, such as emergency aircraft and MEDEVAC operations, by giving track shortening and conducting coordinationm as long as it does not impose an undue delay on any other aircraft (beyond reasonably expected delays, such as sequencing).
+
 ### Search and Rescue (SAR) Operations
 SAR Operations are conducted more or less as a standard [airwork](/airwork) procedure. Handle the aircraft as any other normal aircraft transiting your airspace.
 
