@@ -177,8 +177,8 @@ Pilots intending to conduct an aerial survey should include details of their pla
 !!! phraseology
     *SVY301 is intending to conduct airwork over the Melbourne metropolitan area, within MDS CTA. They have provided the controller a map of their operation, and their first run begins at MB335004*
     
-    **MDS**: "SVY301, cleared direct to start of Run 1, Climb to F138"  
-    **SVY301**: "Cleared direct to start of Run 1, Climb to F138, SVY301"
+    **MDS**: "SVY301, cleared direct to start of Run 1, climb to `F138`"  
+    **SVY301**: "Cleared direct to start of Run 1, climb to `F138`, SVY301"
     
     *...* 
     **MDS**: "SVY301, cleared for Runs 1 through 4, report at the completion of each run"  
@@ -239,7 +239,7 @@ Where PJE ops are occuring in CTA, controllers must ensure there is no conflicti
     **DJV**: "DJV"
 
 !!! tip
-    PJE is a complex operation, and requires aircraft to be separated from a large **drop area** for a significant amount of time. Further, once the drop operations have commenced it is not possible to cancel the clearance to fix a sudden separation issue (parachutists are generally unable to reboard an aircraft they have just left). Before permitting an aircraft to perform PJE within CTA, controllers should take care to consider all aspects of the operation.
+    PJE is a complex operation, and requires aircraft to be separated from a large **drop area** for a significant amount of time. Further, once drop operations have commenced it is not possible to cancel the clearance to fix a sudden separation issue (parachutists are generally unable to reboard an aircraft they have just left). Before permitting an aircraft to perform PJE within CTA, controllers should take care to consider all aspects of the operation.
     
     Some of the **key considerations** include:
     
@@ -255,7 +255,6 @@ Where PJE ops are occuring in CTA, controllers must ensure there is no conflicti
     - **Label Data**: Use label data to indicate the operation being conducted (e.g. *"PJE"*)
     - **Cleared Flight Level**: Adjust the aircrafts CFL to a block altitude from `000` to the cleared drop altitude (e.g. `000-140`).
     - **Text Labels**: Use text labels to outline the dimensions of the drop area, and location of the drop zone
-    
 
 #### Separation Standards
 **Lateral** and **vertical** separation must be applied between non-PJE aircraft and the **drop area**, until:
