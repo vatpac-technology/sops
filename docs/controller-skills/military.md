@@ -1,10 +1,12 @@
 ---
-title: Military/Restricted Operations
+title: Military and Special Operations
 ---
 
 --8<-- "includes/abbreviations.md"
 
 The majority of traffic on VATSIM is simulated 'civilian' traffic: airliners performing regular passenger transport, smaller general aviation aircraft doing recreational flights, and even simulated [airwork](../airwork). There is, however, a notable contingent of pilots who are interested in simulating special and military operations.
+
+Military operations can vary significantly from civilian operations, both in procedure and in phraseology.
 
 !!! important
     As per the VATSIM [Special Operations Policy](https://vatsim.net/docs/policy/special-operations){target=new}, the following activities are restricted on the VATSIM network. They may only be performed by pilots who are a member of, and flying an operation representing, an approved Virtual Special Operations Association.
@@ -24,28 +26,49 @@ The majority of traffic on VATSIM is simulated 'civilian' traffic: airliners per
     - Air Displays (Flying Displays, Races)
     - Fly unmanned aerial vehicles, e.g. Global Hawk
 
-### Special Operations Remarks
-When simulating special operations, pilotsmay file a priority status in their remarks using the STS/ format.
 
-| STS/ Code | Description |
-| --------- | ------------------------ |
-|`STS/MEDEVAC` | Aircraft engaged in life critical transportation of severely ill patients | 
-|`STS/FFR` | Aircraft engaged in Fire or Flood Relief operations |
-|`STS/SAR` | Aircraft engaged in Search and Rescue Operations |
-|`STS/HEAD STATE` | Aircraft carrying a Head of State |
-|`STS/STATE` | Aircraft part of the defence force, military, or customs | 
-|`STS/HOSP` | Aircraft engaged in non-life-critical transportation of medical operations, personnel, or ill patients |
+## Military Airspace
 
-!!! important
-    `VATSIM Code of Conduct - Section B6`
-    *No flight may declare itself to have priority over another. Pilots are permitted to declare in-flight emergencies only when under air traffic control. If, for any reason, air traffic control requests the pilot to terminate the emergency, then the pilot shall do so IMMEDIATELY or disconnect from the network. Pilots are not permitted to simulate any unlawful act including, but not limited to, declaring a hijack by any method, including entering a transponder code of 7500.*
 
-    Persuant to the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct){target=new} controllers may simulate higher priority operations, such as emergency aircraft and MEDEVAC operations, by giving track shortening and conducting coordinationm as long as it does not impose an undue delay on any other aircraft (beyond reasonably expected delays, such as sequencing).
 
-## Military Operating Areas
+### Military Aerodromes
+There are several military and joint military/civil aerodromes in Australia.
+
+| Aerodrome | Terminal Area | Military Status |
+| --------- | ------------- | --------------- |
+| [Amberley](../../aerodromes/classc/Amberley) | [Amberley TCU](../../terminal/amberleyoakey) | Military |
+| [Curtin](../../aerodromes/classc/Curtin) | [Curtin TCU](../../terminal/curtin) | Joint Military/Civil |
+| [Darwin](../../aerodromes/classc/Darwin) | [Darwin TCU](../../terminal/darwin) | Joint Military/Civil |
+| [East Sale](../../aerodromes/classc/EastSale) | [East Sale TCU](../../terminal/eastsale) | Military |
+| [Edinburgh](../../aerodromes/classc/Edinburgh) | None *(Adelaide)* | Military |
+| [Gingin](../../aerodromes/classc/Gingin) |[Pearce TCU](../../terminal/pearce) | Military |
+| [Learmonth](../../aerodromes/classc/Learmonth) |[Learmonth TCU](../../terminal/learmonth) | Joint Military/Civil |
+| [Nowra](../../aerodromes/classc/Nowra) |[Nowra TCU](../../terminal/nowra) | Military |
+| [Oakey](../../aerodromes/classc/Oakey) | [Oakey TCU](../../terminal/amberleyoakey) | Military |
+| [Pearce](../../aerodromes/classc/Pearce) | [Pearce TCU](../../terminal/pearce) | Military |
+| [Richmond](../../aerodromes/classc/Richmond) | None *(Sydney)*  | Military |
+| [Tindal](../../aerodromes/classc/Tindal) | [Tindal TCU](../../terminal/tindal) | Joint Military/Civil |
+| [Townsville](../../aerodromes/classc/Townsville) | [Townsville TCU](../../terminal/townsville) | Joint Military/Civil |
+| [Williamtown](../../aerodromes/classc/Williamtown) | [Williamtown TCU](../../terminal/williamtown) | Joint Military/Civil |
+| [Woomera](../../aerodromes/procedural/Woomera) | None | Military |
+
+When an ADC or TCU controller is online at a military aerodrome-and at some joint military/civil aerodromes-the restricted and danger areas associated with the aerodromes are activated. These areas are listed in the *'Restricted Areas'* section of the relevant aerodrome and TCU page.
+
+!!! tip
+    Controllers accustomed to civil operations may not be familiar with the airspace associated with military positions. When logging on to a position with associated restricted or danger airspace, it is good practice to announce your presence and the restricted areas activated in the controller chat.
+    
+    **NWA**: "Nowra Approach online. Restricted Area R421 activated from `SFC` to `F125`."
+    
+    This makes surrounding controllers aware of your presence, and reminds them to [activate the necessary SUAs](../sua/#activating-sua) in their client. 
+
+
+### Military Danger Areas
 Military operating areas are a subset of [danger areas](../sua/#danger-areas) which are established to facilitate a range of military operations. They are labelled with the **M** prefix (e.g. M550, which makes up part of the military airspace offshore from YWLM). Inside Australian territory, approval *is* required to enter an MOA.
 
 On VATSIM, MOAs are generally assumed to be deactivated unless being actively used for a military exercise or other purpose. ATC (when online) will generally try to reroute civil aircraft around these activities or will otherwise organise a transit clearance from the station responsible for the airspace.
+
+## ATC Activated Military Airspace
+
 
 ## Common Military Aircraft Types
 The ICAOs for many common military aircraft may be unfamiliar to controllers used to civilian operations. Below is a list of some military types that you may encounter in VATPAC airspace.
@@ -112,20 +135,28 @@ By default, aircraft will pitch at the midfield point (about half way down the r
     **ES ADC**: "VIPR47, runway 27, cleared to land, check wheels"  
     **VIPR47**: "Runway 27, Cleared to Land, VIPR47, 3 Greens"
 
-### Terminal/En Route Operations
-#### Aircraft operating inside Restricted Area
+## Terminal/En Route Operations
+### Aircraft operating inside Restricted Area
 Military aircraft are permitted to operate within their designated Restricted Area as per the relevant NOTAM. Even if this Restricted Area is inside civil airspace, Civil ATC has no control authority over it.
 
 !!! phraseology
     **ARA**: "DRGN379, shortly entering R604 Restricted Area, identification and control services terminated, frequency change approved. Contact me prior to leaving for airways clearance"  
     **DRGN379**: "Wilco, DRGN379"  
 
-#### ATC Activated Military Airspace
-Most military TCUs and Tower positions, when online, control airspace that correspond to certain Restricted Area Activations. These are prescribed in the Local Instructions.
 
-These Restricted Areas may be activated in vatSys, and the controllers of these positions may inform other surrounding controllers of their activations, so they may use the Resitricted Areas on the screen to visually assess the airspace and separation required for traffic.
 
-Unless otherwise stated in Local Instructions, Restricted Areas activated for control by military TCUs and Towers, will become **Class C** airspace.
+### Military Corridors
+
+
+### Stereo Approaches
+Stereo Approaches are the primary procedure for fighter & strike aircraft (e.g. F18, HAWK, PC21) recovering back to airbases after operations in SUA. Aircraft track from specified SUA exit gates where they join the procedure, tracking along charted TACAN arcs/radials which position them for an initial and pitch or instrument approach.
+
+!!! info
+    Despite their name, stereo approaches can be thought of as the military equivalent of a STAR. Aircraft generally transition from a stereo approach onto an instrument approach or an initial and pitch.
+
+Stereo approaches should generally be used during high military traffic levels and nominated on the appropriate aerodrome ATIS.
+
+Stereo Approach charts can be found in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 
 ## Formation Flights
@@ -201,17 +232,27 @@ MARSA is to be assigned and terminated on pilots request, and when standard sepe
 !!! note
     Military aircraft normally operate NOCOM in military Restricted Areas and Class G airspace only. **Do not** permit NOCOM operations in Civil CTA.
 
+## Interception
+Reserved.
 
-## Stereo Approaches
-Stereo Approaches are the primary procedure for fighter & strike aircraft (e.g. F18, HAWK, PC21) recovering back to airbases after operations in SUA. Aircraft track from specified SUA exit gates where they join the procedure, tracking along charted TACAN arcs/radials which position them for an initial and pitch or instrument approach.
+## Non-Military Special Operations
+### Special Operations Remarks
+When simulating special operations, pilots may file a priority status in their remarks using the STS/ format.
 
-!!! info
-    Despite their name, stereo approaches can be thought of as the military equivalent of a STAR. Aircraft generally transition from a stereo approach onto an instrument approach or an initial and pitch.
+| STS/ Code | Description |
+| --------- | ------------------------ |
+|`STS/MEDEVAC` | Aircraft engaged in life critical transportation of severely ill patients | 
+|`STS/FFR` | Aircraft engaged in Fire or Flood Relief operations |
+|`STS/SAR` | Aircraft engaged in Search and Rescue Operations |
+|`STS/HEAD STATE` | Aircraft carrying a Head of State |
+|`STS/STATE` | Aircraft part of the defence force, military, or customs | 
+|`STS/HOSP` | Aircraft engaged in non-life-critical transportation of medical operations, personnel, or ill patients |
 
-Stereo approaches should generally be used during high military traffic levels and nominated on the appropriate aerodrome ATIS.
+!!! important
+    `VATSIM Code of Conduct - Section B6`
+    *No flight may declare itself to have priority over another. Pilots are permitted to declare in-flight emergencies only when under air traffic control. If, for any reason, air traffic control requests the pilot to terminate the emergency, then the pilot shall do so IMMEDIATELY or disconnect from the network. Pilots are not permitted to simulate any unlawful act including, but not limited to, declaring a hijack by any method, including entering a transponder code of 7500.*
 
-Stereo Approach charts can be found in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}
-
+    Persuant to the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct){target=new} controllers may simulate higher priority operations, such as emergency aircraft and MEDEVAC operations, by giving track shortening and conducting coordinationm as long as it does not impose an undue delay on any other aircraft (beyond reasonably expected delays, such as sequencing).
 ### Search and Rescue (SAR) Operations
 SAR Operations are conducted more or less as a standard [airwork](/airwork) procedure. Handle the aircraft as any other normal aircraft transiting your airspace.
 
