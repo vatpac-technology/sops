@@ -55,7 +55,12 @@ The boundary between two classes of airspace takes the form of the *least* restr
 !!! example
     A restricted area with a vertical definition of `SFC-A085` may be overflown **at** `A085`, as the aircraft will be deemed to be in the least restrictive class of airspace at that level.
     
-## Activating SUA
+## Activation of SUA
+### Activation by NOTAM
+
+### Ad-hoc Activations
+
+### Activating SUA in vatSys
 
 <figure markdown>
 ![Danger Area Activation](img/d535b.png){ width="700" }

@@ -62,13 +62,10 @@ When an ADC or TCU controller is online at a military aerodrome-and at some join
     This makes surrounding controllers aware of your presence, and reminds them to [activate the necessary SUAs](../sua/#activating-sua) in their client. 
 
 
-### Military Danger Areas
-Military operating areas are a subset of [danger areas](../sua/#danger-areas) which are established to facilitate a range of military operations. They are labelled with the **M** prefix (e.g. M550, which makes up part of the military airspace offshore from YWLM). Inside Australian territory, approval *is* required to enter an MOA.
+### Military Operating Areas
+Military Operating Areas (MOA) are a subset of [danger areas](../sua/#danger-areas) which have been established to facilitate a range of military operations. They are labelled with the **M** prefix (e.g. M550, which makes up part of the military airspace offshore from YWLM). Inside Australian territory aircraft require permission to enter an activated MOA, and civil aircraft are generally rerouted to avoid transiting the area.
 
-On VATSIM, MOAs are generally assumed to be deactivated unless being actively used for a military exercise or other purpose. ATC (when online) will generally try to reroute civil aircraft around these activities or will otherwise organise a transit clearance from the station responsible for the airspace.
-
-## ATC Activated Military Airspace
-
+MOAs are considered to be deactivated by default, until activated by [NOTAM](../sua/#activation-by-notam) or as an [ad-hoc](../sua/#ad-hoc-activations) upon a pilot request.
 
 ## Common Military Aircraft Types
 The ICAOs for many common military aircraft may be unfamiliar to controllers used to civilian operations. Below is a list of some military types that you may encounter in VATPAC airspace.
