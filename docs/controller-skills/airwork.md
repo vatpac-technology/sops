@@ -222,7 +222,7 @@ Both IFR and VFR aircraft OCTA will announce their intentions on the relevant ar
     **ZA3**: "Melbourne Centre and YPBH traffic, VFR Cessna Caravan ZA3, five minutes to parachute drop from A090 overhead YPBH, expect six canopies, YPBH traffic."
     **MUN**: "ZA3, copied, no reported traffic YPBH."
 
-##### Controlled airspace
+##### Controlled Airspace
 Where PJE ops are occuring in CTA, controllers must ensure there is no conflicting traffic in the drop area, and will provide PJE aircraft with clearance to drop once separation is assured.
 
 !!! phraseology
@@ -239,13 +239,13 @@ Where PJE ops are occuring in CTA, controllers must ensure there is no conflicti
     **DJV**: "DJV"
 
 !!! tip
-    PJE is a complex operation, and requires aircraft to be separated from a large **drop area** for a significant amount of time. Before permitting an aircraft to perform PJE within CTA, controllers should take care to consider all aspects of the operation.
+    PJE is a complex operation, and requires aircraft to be separated from a large **drop area** for a significant amount of time. Further, once the drop operations have commenced it is not possible to cancel the clearance to fix a sudden separation issue (parachutists are generally unable to reboard an aircraft they have just left). Before permitting an aircraft to perform PJE within CTA, controllers should take care to consider all aspects of the operation.
     
     Some of the **key considerations** include:
     
     - **Drop Zone**: Where is the drop zone? Is it in an area where PJE would interfere with other traffic?
     - **Airspace**: What are the classes of airspace for the drop zone? At what altitude will the parachutists reach OCTA? 
-    - **Separation**: Is there separation assurance for the entire drop area? 
+    - **Separation**: Is there separation assurance for the entire drop area?
     - **Coordination**: Is any coordination required with adjacent units? PJE ops in particular are likely to require coordination with adjacent positions or ADC controllers.
     - **Workload**: Does the current workload allow you to facilitate this request? Is there an imminent increase in traffic that could cause you to be overwhelmed?
     
@@ -255,6 +255,7 @@ Where PJE ops are occuring in CTA, controllers must ensure there is no conflicti
     - **Label Data**: Use label data to indicate the operation being conducted (e.g. *"PJE"*)
     - **Cleared Flight Level**: Adjust the aircrafts CFL to a block altitude from `000` to the cleared drop altitude (e.g. `000-140`).
     - **Text Labels**: Use text labels to outline the dimensions of the drop area, and location of the drop zone
+    
 
 #### Separation Standards
 **Lateral** and **vertical** separation must be applied between non-PJE aircraft and the **drop area**, until:
@@ -268,7 +269,7 @@ Where PJE ops are occuring in CTA, controllers must ensure there is no conflicti
 </figure>
 
 ##### Not Below Parachutists
-Instructing an aircraft to remain *Not below parachutists* allows controllers to use the indivated height of the drop aircraft as the maximum vertical extent of the operation for the purposes of separation.
+Instructing an aircraft to remain *Not below parachutists* allows controllers to use the indicated height of the drop aircraft as the maximum vertical extent of the operation for the purposes of separation.
 
 Without that instruction, separation needs to be applied from the maximum height of the drop area, until the parachutists are reported to be OCTA.
 
@@ -282,7 +283,7 @@ Without that instruction, separation needs to be applied from the maximum height
 --->
 
 ## Emergencies
-Persuant to the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct){target=new} controllers may simulate higher priority operations, such as emergency aircraft and MEDEVAC operations, by giving track shortening and conducting coordinationm as long as it does not impose an undue delay on any other aircraft (beyond reasonably expected delays, such as sequencing).
+Persuant to the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct){target=new} controllers may simulate higher priority operations, such as emergency aircraft and MEDEVAC operations, by giving track shortening and conducting coordination as long as it does not impose an undue delay on any other aircraft (beyond reasonably expected delays, such as sequencing).
 
 !!! note
     `VATSIM Code of Conduct - Section B6`
