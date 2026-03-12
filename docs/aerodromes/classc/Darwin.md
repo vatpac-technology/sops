@@ -13,6 +13,9 @@
 | **Darwin ACD**    | **Darwin Delivery**   | **126.800** | **DN_DEL**    |
 | **Darwin ATIS**   |                       | **128.250** | **YPDN_ATIS** |
 
+!!! note
+    Darwin is a [joint military/civil aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
+
 ## Airspace
 ADC owns the airspace within the DN CTR (`SFC`–`A010`). This airspace is designed to facilitate the processing of helicopter scenic flights and low-level helicopter circuits.  
 The CTR extends 7NM from the thresholds of runways 11 and 29 but does not including the Robertson Barracks transit zone.  

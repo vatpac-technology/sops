@@ -57,7 +57,7 @@ When an ADC or TCU controller is online at a military aerodrome-and at some join
     
     **NWA**: "Nowra Approach online. Restricted Area R421 activated from `SFC` to `F125`."
     
-    This makes surrounding controllers aware of your presence, and reminds them to [activate the necessary SUAs](../sua/#activating-sua) in their client. 
+    This makes surrounding controllers aware of your presence, and reminds them to [activate the necessary SUAs](../sua/#activating-sua-in-vatsys) in their client. 
 
 
 ### Military Operating Areas
@@ -286,7 +286,7 @@ When simulating special operations, pilots may file a priority status in their r
     Persuant to the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct){target=new} controllers may simulate higher priority operations, such as emergency aircraft and MEDEVAC operations, by giving track shortening and conducting coordinationm as long as it does not impose an undue delay on any other aircraft (beyond reasonably expected delays, such as sequencing).
 
 ### Search and Rescue (SAR) Operations
-SAR Operations are conducted more or less as a standard [airwork](/airwork) procedure. Handle the aircraft as any other normal aircraft transiting your airspace.
+SAR Operations are conducted more or less as a standard [airwork](../airwork) procedure. Handle the aircraft as any other normal aircraft transiting your airspace.
 
 SAR Operations are most commonly flown in a circular area (eg Radius from a Fix, or Radius from a Lat/Long), or a Straight line pattern (eg, back and forth on a line between 2 Fixes, or 2 Lat/Longs).
 

@@ -12,6 +12,9 @@
 | **Gingin SMC**    | **Gingin Ground**     | **121.650** | **GIG_GND**   |
 | **Gingin ATIS**   |                       | **134.500** | **YGIG_ATIS** |
 
+!!! note
+    Gingin is a [military aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
+
 ## Airspace
 GIG ADC owns the airspace within the GIG CIRA, which is defined as within **5nm** of the YGIG ARP, *excluding* the area south of **12 TACAN PEA**, from `SFC` to `A035`.
 
@@ -24,7 +27,7 @@ This airspace is primarily used for military circuits and initial and pitch appr
 
 ## Local Procedures
 ### Initial and Pitch Procedures 
-The [initial](../../../controller-skills/military/#initial-and-pitch) points for Gingin are RWY 08 is the corner of the pine plantation and RWY 26 is the paddock divided by the creek. The initial altitude is `A015`.
+The [initial](../../../../controller-skills/military/#initial-and-pitch) points for Gingin are RWY 08 is the corner of the pine plantation and RWY 26 is the paddock divided by the creek. The initial altitude is `A015`.
 
 ## Runway Modes
 ### Circuits 

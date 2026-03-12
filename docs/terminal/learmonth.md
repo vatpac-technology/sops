@@ -10,6 +10,9 @@
 | ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
 | **Learmonth Approach**        | **LMA** | **Learmonth Approach**  | **120.500** | **LM_APP**    |
 
+!!! note
+    Learmonth TCU is a [joint military/civil TCU](../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those in a civil TCU. Ensure you are familiar with the [military controller skills](../../controller-skills/military) necessary to provide a quality service.
+
 ## Airspace
 The limits of the LM TCU are `SFC` to `F280` within 40 DME LM. This may be amended by NOTAM.
 

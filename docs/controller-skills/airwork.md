@@ -288,4 +288,29 @@ Persuant to the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-
     `VATSIM Code of Conduct - Section B6`
     *No flight may declare itself to have priority over another. Pilots are permitted to declare in-flight emergencies only when under air traffic control. If, for any reason, air traffic control requests the pilot to terminate the emergency, then the pilot shall do so IMMEDIATELY or disconnect from the network. Pilots are not permitted to simulate any unlawful act including, but not limited to, declaring a hijack by any method, including entering a transponder code of 7500.*
 
-Pilots must terminate the emergency, or else disconnect from the network, if requested by a controller.
+When an aircraft declares an emergency, controllers should re
+
+!!! phraseology
+    **ABC**: "Mayday, Mayday, Mayday, Brisbane Centre, Cessna ABC, sudden loss of engine power, turning right direct to SU for emergency landing at YBSU."
+    **NSA**: "ABC, roger mayday."
+    
+
+### Handoffs
+All aircraft who have declared an emergency require coordination before handoff.
+
+!!! phraseology
+    <span class="hotline">**NSA** -> **SU ADC**</span>: **Via ."  
+    <span class="hotline">**SU ADC** -> **GUN**</span>: "Sydney Approach"
+
+
+!!! phraseology
+    **NSA**: "ABC, contact Sunshine Coast Tower, 124.4"
+    **ABC**: "124.4, ABC"
+    *...*
+    **ABC**: "Sunshine Coast Tower, Cessna ABC."
+    **NSA**: "ABC, mayday acknowledged. Runway 13, cleared to land."
+    **ABC**: "Cleared to land runway 13, ABC."
+    
+    
+#### Emergency Descent
+When an aircraft has reported an emergency descent

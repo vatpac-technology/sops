@@ -13,6 +13,9 @@
 | **Amberley ACD**  | **Amberley Delivery** | **134.600** | **AMB_DEL**   |
 | **Amberley ATIS** |                       | **123.300** | **YAMB_ATIS** |
 
+!!! note
+    Amberley is a [military aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
+
 ## Airspace
 AMB ADC owns the Class C airspace in the AMB CTR from `SFC` to `A015`.
 

@@ -11,6 +11,9 @@
 | **Woomera ADC**   | **Woomera Tower**     | **118.300** | **WR_TWR**    |
 | **Woomera ATIS**  |                       | **118.100** | **YPWR_ATIS** |
 
+!!! note
+    Woomera is a [military aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
+
 ## Airspace
 <figure markdown>
 ![WR ADC Airspace](img/wr_ctr.png){ width="700" }

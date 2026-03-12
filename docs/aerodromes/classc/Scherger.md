@@ -12,6 +12,9 @@
 | **Scherger SMC**   | **Scherger Ground**   | **126.200** | **SG_GND**    |
 | **Scherger ATIS**  |                       | **134.800** | **YBSG_ATIS** |
 
+!!! note
+    Scherger is a [military aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
+
 ## Airspace
 SG ADC owns the Class C airspace within the SG CTR from `SFC` to `A015` with a **5nm radius** around YBSG.
 

@@ -12,6 +12,9 @@
 | **Edinburgh SMC** | **Edinburgh Ground**  | **134.100** | **ED_GND**    |
 | **Edinburgh ATIS** |                      | **126.250** | **YPED_ATIS** |
 
+!!! note
+    Edinburgh is a [military aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
+
 ## Airspace
 ED ADC is responsible for the airspace within the Edinburgh CTR, `SFC` to `A020`.
 
@@ -21,7 +24,7 @@ ED ADC is responsible for the airspace within the Edinburgh CTR, `SFC` to `A020`
 
 ## Local Procedures
 ### Initial and Pitch Procedures 
-Aircraft will be pitching to the west in order not to impede on Class G boundary, the [initial](../../../controller-skills/military/#initial-and-pitch) point is 2NM for RWY36 and 4NM for RWY18 along the extended centreline of taxiway E.
+Aircraft will be pitching to the west in order not to impede on Class G boundary, the [initial](../../../../controller-skills/military/#initial-and-pitch) point is 2NM for RWY36 and 4NM for RWY18 along the extended centreline of taxiway E.
 
 ## Helicopter Operations
 The HLS is located on TWY D immediately east of OLA 11. There are no SIDs associated with the HLS; aircraft requiring an instrument departure can expect to depart from the runway.

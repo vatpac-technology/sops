@@ -13,6 +13,9 @@
 | **Pearce ACD**    | **Pearce Delivery**   | **134.100** | **PE_DEL**    |
 | **Pearce ATIS**   |                       | **136.400** | **YPEA_ATIS** |
 
+!!! note
+    Pearce is a [military aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
+
 ## Airspace
 PE ADC owns the airspace within the Pearce CIRA (**5nm** Radius of YPEA ARP, located entirely within **R155A**) from `SFC` to `A035`. This airspace is primarily used for military circuits and initial and pitch approaches.
 
@@ -23,7 +26,7 @@ PE ADC owns the airspace within the Pearce CIRA (**5nm** Radius of YPEA ARP, loc
 
 ## Local Procedures 
 ### Initial and Pitch Procedures 
-The [initial](../../../controller-skills/military/#initial-and-pitch) points changes according to both runway, and direction.
+The [initial](../../../../controller-skills/military/#initial-and-pitch) points changes according to both runway, and direction.
 
 | Runway | Direction Initial | Inital Altitude
 | ------ | ------------------|----------------|

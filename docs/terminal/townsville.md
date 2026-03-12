@@ -10,6 +10,9 @@
 | ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
 | **Townsville Approach**       | **TLA** | **Townsville Approach** | **126.800** | **TL_APP**    |
 
+!!! note
+    Townsville TCU is a [joint military/civil TCU](../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those in a civil TCU. Ensure you are familiar with the [military controller skills](../../controller-skills/military) necessary to provide a quality service.
+
 ## Airspace
 TL TCU owns the Class C and G airspace within 36 DME TL from `SFC` to `F180`
 

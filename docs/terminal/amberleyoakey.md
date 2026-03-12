@@ -11,6 +11,9 @@
 | **Amberley Approach**         | **AMA** | **Amberley Approach**   | **126.200** | **AMB_APP**   |
 | **Oakey Approach**            | **OKA** | **Oakey Approach**      | **125.400** | **OK_APP**    |
 
+!!! note
+    Amberley TCU is a [military TCU](../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those in a civil TCU. Ensure you are familiar with the [military controller skills](../../controller-skills/military) necessary to provide a quality service.
+
 ## Airspace
 The vertical limits of the AMB TCU are `SFC` to `F210`.
 
@@ -20,6 +23,7 @@ The vertical limits of the OK TCU are `SFC` to `F125`.
 ![AMB/OK TCU Structure](img/ambok_tcu.png){ width="700" }
   <figcaption>AMB/OK TCU Structure</figcaption>
 </figure>
+
 
 ### Airspace Division
 
