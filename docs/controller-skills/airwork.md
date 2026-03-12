@@ -288,29 +288,30 @@ Persuant to the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-
     `VATSIM Code of Conduct - Section B6`
     *No flight may declare itself to have priority over another. Pilots are permitted to declare in-flight emergencies only when under air traffic control. If, for any reason, air traffic control requests the pilot to terminate the emergency, then the pilot shall do so IMMEDIATELY or disconnect from the network. Pilots are not permitted to simulate any unlawful act including, but not limited to, declaring a hijack by any method, including entering a transponder code of 7500.*
 
-When an aircraft declares an emergency, controllers should re
+When an aircraft declares an emergency, controllers should respond acknowledging the emergency call and ascertaining the pilots intentions (if not already provided).
 
 !!! phraseology
     **ABC**: "Mayday, Mayday, Mayday, Brisbane Centre, Cessna ABC, sudden loss of engine power, turning right direct to SU for emergency landing at YBSU."
     **NSA**: "ABC, roger mayday."
+
+!!! tip
+    Controllers should endeavour to assist the pilots of emergency aircraft with relevant information, without "overloading" them with too many details. The information needed will be different for every emergency, but potentially useful details to provide a pilot include:
     
+    - Advice on alternate aerodromes, including distance and orientation to their current position, and available navaids;
+    - METAR, TAF, and ATIS information;
+    - Indicated height, speed, and track;
+    - LSALTs for the local area.
 
 ### Handoffs
 All aircraft who have declared an emergency require coordination before handoff.
 
 !!! phraseology
-    <span class="hotline">**NSA** -> **SU ADC**</span>: **Via ."  
-    <span class="hotline">**SU ADC** -> **GUN**</span>: "Sydney Approach"
+    <span class="hotline">**NSA** -> **SU ADC**</span>: To the north tracking direct SU, ABC, `A035`, mayday aircraft."  
+    <span class="hotline">**SU ADC** -> **NSA**</span>: "Roger Mayday, ABC, `A035`"
 
-
-!!! phraseology
     **NSA**: "ABC, contact Sunshine Coast Tower, 124.4"
     **ABC**: "124.4, ABC"
     *...*
     **ABC**: "Sunshine Coast Tower, Cessna ABC."
     **NSA**: "ABC, mayday acknowledged. Runway 13, cleared to land."
     **ABC**: "Cleared to land runway 13, ABC."
-    
-    
-#### Emergency Descent
-When an aircraft has reported an emergency descent
