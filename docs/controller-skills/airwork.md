@@ -268,7 +268,7 @@ Where PJE ops are occuring in CTA, controllers must ensure there is no conflicti
 </figure>
 
 ##### Not Below Parachutists
-Instructing an aircraft to remain *Not below parachutists* allows controllers to use the indicated height of the drop aircraft as the maximum vertical extent of the operation for the purposes of separation.
+Instructing an aircraft to remain *not below parachutists* allows controllers to use the indicated height of the drop aircraft as the maximum vertical extent of the operation for the purposes of separation.
 
 Without that instruction, separation needs to be applied from the maximum height of the drop area, until the parachutists are reported to be OCTA.
 

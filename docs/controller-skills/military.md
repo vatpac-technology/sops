@@ -26,7 +26,6 @@ Military operations can vary significantly from civilian operations, both in pro
     - Air Displays (Flying Displays, Races)
     - Fly unmanned aerial vehicles, e.g. Global Hawk
 
-
 ## Military Airspace
 ### Military Aerodromes
 There are several military and joint military/civil aerodromes in Australia.
@@ -127,31 +126,72 @@ By default, aircraft will pitch at the midfield point (about half way down the r
     **VIPR47**: "Sale Tower, VIPR47"  
     **ES ADC**: "VIPR47, pitch long"  
     **VIPR47**: "Pitch long, VIPR47"
-    **VIPR47**: "VIPR47, Base"  
+    **VIPR47**: "VIPR47, base"  
     **ES ADC**: "VIPR47, runway 27, cleared to land, check wheels"  
-    **VIPR47**: "Runway 27, Cleared to Land, VIPR47, 3 Greens"
+    **VIPR47**: "Runway 27, Cleared to Land, VIPR47, three greens"
 
 ## Terminal/En Route Operations
-### Aircraft operating inside Restricted Area
-Military aircraft are permitted to operate within their designated Restricted Area as per the relevant NOTAM. Even if this Restricted Area is inside civil airspace, Civil ATC has no control authority over it.
+### Military Corridors
+**Military corridors** are designed to allow military airspace to transit between restricted areas throuugh civilian airspace in an organised and predicable way.
+
+Military aircraft will transit military corridors after being provided a **coded clearance** or **STAR**, depending on the airport. These procedures will include **lateral** and **vertical** constraints on the aircraft as they transit the corridor. 
+
+!!! tip
+    Corridors can be displayed in vatSys by activating the "MIL_CORRIDORS" map.
+
+<figure markdown>
+![Military Corridor Example](img/military_corridors.png){ width="700" }
+  <figcaption>Example of Military Corridors in vatSys</figcaption>
+</figure>
+
+Aircraft entering civilian airspace via a military corridor generally **does not** constitute voiceless coordination between TCU and enroute. [Heads up coordination](../controller-skills/coordination.md#heads-up) is still required for these aircraft.
 
 !!! phraseology
-    **ARA**: "DRGN379, shortly entering R604 Restricted Area, identification and control services terminated, frequency change approved. Contact me prior to leaving for airways clearance"  
-    **DRGN379**: "Wilco, DRGN379"  
+    <span class="hotline">**AMA** -> **NSA**</span>: "via BYRON1, BUCK3, will be assigned F190"  
+    <span class="hotline">**NSA** -> **AMA**</span>: "BUCK3, F190" 
 
+### Military Gates
+**Military Gates** are fixes used by military aicraft to enter or exit SUA.
 
+These fixes are normally defined by reference to a fixed navaid, such as a TACAN or VOR, and many military SIDs and STARs will use gates as termini. At some aerodromes (such as [Amberley](../../terminal/amberleyoakey)), military gates have been given codenames and are part of the required routing for particular operations. At other aerodromes (such as [East Sale](../../terminal/eastsale)), multiple waypoints are aligned and defined as a **lane**, and serve the same purpose.
 
-### Military Corridors
+!!! tip
+    Corridors can be displayed in vatSys by activating the "MIL_GATES" map.
+
+<figure markdown>
+![Military Gates Example](img/military_gates.png){ width="700" }
+  <figcaption>Example of Military Gates in vatSys</figcaption>
+</figure>
+
+Military Gates are referred to by their identifier, and military aircraft can be instructed to navigate to gates as they would any other fix.
+
+!!! phraseology
+    **CIA**: "CYCN15, track direct Gate 3."  
+    **CYCN15**: "Track direct Gate 3, CYCN15."
 
 
 ### Stereo Approaches
-Stereo Approaches are the primary procedure for fighter & strike aircraft (e.g. F18, HAWK, PC21) recovering back to airbases after operations in SUA. Aircraft track from specified SUA exit gates where they join the procedure, tracking along charted TACAN arcs/radials which position them for an initial and pitch or instrument approach.
+**Stereo Approaches** are the primary procedure for fighter & strike aircraft (e.g. F18, HAWK, PC21) recovering back to airbases after operations in SUA. Aircraft track from specified SUA [exit gates](#military-gates) where they join the procedure, tracking along charted TACAN arcs/radials which position them for an initial and pitch or instrument approach.
 
 !!! info
     Aircraft generally transition from a stereo approach onto an instrument approach or an initial and pitch.
 
-Stereo Approaches should generally be used during high military traffic levels, and nominated on the appropriate aerodrome ATIS.
+Stereo approaches should generally be used during high military traffic levels, and nominated on the appropriate aerodrome ATIS.
 
+### Restricted Area Operations in Civil Airspace
+Military aircraft will almost always conduct their operations within a [military operating area](#military-operating-areas). Civil ATC does not provide ATS service within these areas when activated, even if the MOA is located within what would normally be civilian airspace.
+
+Aircraft entering an MOA will instead have their control services terminated on entry to the restricted area.
+
+!!! phraseology
+    **ARA**: "DRGN379, shortly entering R604 restricted area, identification and control services terminated, frequency change approved. Contact me prior to leaving for onwards clearance"  
+    **DRGN379**: "Wilco, DRGN379"
+    
+Aircraft leaving an MOA must receive onwards clearance before reentering controlled airspace.
+
+!!! phraseology
+    **DRGN379**: "Brisbane Centre, DRGN379. Operations complete, request onwards clearance to Amberley, `F350`."
+    **ARA**: "DRGN379, Brisbane Centre, identified, cleared to Amberley via COE flight planned route. Maintain `F350`."
 
 ## Formation Flights
 ### Standard Formation
