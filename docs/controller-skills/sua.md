@@ -37,7 +37,7 @@ Approval is *not* required to enter, however pilots should be aware of the risk 
   <figcaption>D315 Danger Area</figcaption>
 </figure>
 
-Danger Areas are not visible by default on vatSys. They can be made visible by changing the 'Map Line' when [activating](#activating-sua) the area in the Restricted Area Setup menu.
+Danger Areas are not visible by default on vatSys. They can be made visible by changing the 'Map Line' when [activating](#activation-of-sua) the area in the Restricted Area Setup menu.
 
 ### Military Operating Areas
 Military operating areas are a subset of danger areas which are established to facilitate a range of military operations. They are labelled with the **M** prefix (e.g. M301A, which makes up part of the military airspace within the East Sale TMA). Inside Australian territory, approval *is* required to enter an MOA.
