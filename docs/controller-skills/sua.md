@@ -5,23 +5,11 @@ title: Special Use Airspace
 --8<-- "includes/abbreviations.md"
 
 ## Types of Special Use Airspace
-Some airspace is designated for particular agencies or use cases, and other aircraft are encouraged (or in some cases, required) to remain clear. These special use airspace blocks are designated as [danger areas](#danger-areas), [restricted areas](#restricted-areas), and [military operating areas](#military-operating-areas). Approval is required to operate in a restricted or military operating area, but not to operate in a danger area.
+Special Use Airspace (SUA) is airspace designated for specific operations that may impose limitations on access or use of airspace for non-participating aircraft. These special use airspace blocks are designated as [danger areas](#danger-areas), [restricted areas](#restricted-areas), and [military operating areas](#military-operating-areas).
 
-SUA is displayed on most navigation charts, with more details contained in the ERSA SUA section. They are often established to keep aircraft clear of military areas, hazards to flight, or sensitive facilities. In a number of cases, SUA can be temporarily activated, so has little relevance to VATSIM operations. However, pilots may wish to observe the flight planning and navigation requirements associated with them.
+SUAs are only operational when **activated**. In the real world, SUAs are activated according to the  published operational hours in the ERSA, or by NOTAM. On VATSIM, SUAs that are associated with flying areas are considered to be inactive unless [activated](#activation-of-sua), either by [NOTAM](#activation-by-notam) or [ad hoc approval of a request](#ad-hoc-activations).
 
-Some SUA is used for pre-planned VSOA activities. These airspace blocks are generally released by civil ATS units and restrictions may apply to non-participating aircraft, with associated reroutes and delays. Pilots must comply with any ATC instructions and communicate any operationally-relevant items which may impact their flight around or through the SUA.
-
-### Danger Areas
-Danger areas are established to discourage pilots from transiting a hazardous area. In real life they can be used to delinate airspace around many different types of hazards, including high-intensity flight training, parachuting, blasting, exhaust plumes, and more.
-
-Approval is *not* required to enter, however pilots should be aware of the risk in doing so. They are labelled with the **D** prefix (e.g. D315, a training area south-east of Melbourne used by flights from Moorabbin).  Most major terminal areas include designated training areas which may be labelled as danger areas.
-
-<figure markdown>
-![D315 Danger Area](img/d315_danger_area.png){ width="800" }
-  <figcaption>D315 Danger Area</figcaption>
-</figure>
-
-Danger Areas are not visible by default on vatSys. They can be made visible by changing the 'Map Line' when [activating](#activating-sua) the area in the Restricted Area Setup menu.
+Approval is required to operate in a restricted or military operating area, but not to operate in a danger area. The activation of SUAs can modify procedures at different airports, including precluding the use of certain approaches, SIDs, or STARs.
 
 ### Restricted Areas
 Restricted areas are established to restrict the passage of aircraft through hazardous or sensitive areas. They are labelled with the **R** prefix (e.g. R215, the restricted area around Pine Gap, near Alice Springs). Approval *is* required to enter. Pilots who do not have approval to enter a restricted area must remain either laterally or vertically clear.
@@ -39,6 +27,18 @@ Restricted airspace is classified based on three levels of severity which impact
   <figcaption>R215 Restricted Area</figcaption>
 </figure>
 
+### Danger Areas
+Danger areas are established to discourage pilots from transiting a hazardous area. In real life they can be used to delinate airspace around many different types of hazards, including high-intensity flight training, parachuting, blasting, exhaust plumes, and more.
+
+Approval is *not* required to enter, however pilots should be aware of the risk in doing so. They are labelled with the **D** prefix (e.g. D315, a training area south-east of Melbourne used by flights from Moorabbin).  Most major terminal areas include designated training areas which may be labelled as danger areas.
+
+<figure markdown>
+![D315 Danger Area](img/d315_danger_area.png){ width="800" }
+  <figcaption>D315 Danger Area</figcaption>
+</figure>
+
+Danger Areas are not visible by default on vatSys. They can be made visible by changing the 'Map Line' when [activating](#activating-sua) the area in the Restricted Area Setup menu.
+
 ### Military Operating Areas
 Military operating areas are a subset of danger areas which are established to facilitate a range of military operations. They are labelled with the **M** prefix (e.g. M301A, which makes up part of the military airspace within the East Sale TMA). Inside Australian territory, approval *is* required to enter an MOA.
 
@@ -48,44 +48,65 @@ On VATSIM, MOAs are generally assumed to be deactivated unless being actively us
 ![M301A Military Operating Area](img/m301a_moa.png){ width="800" }
   <figcaption>M301A Military Operating Area</figcaption>
 </figure>
-
-## Airspace Boundaries
-The boundary between two classes of airspace takes the form of the *least* restrictive class.
-
-!!! example
-    A restricted area with a vertical definition of `SFC-A085` may be overflown **at** `A085`, as the aircraft will be deemed to be in the least restrictive class of airspace at that level.
     
 ## Activation of SUA
 ### Activation by NOTAM
+NOTAMs are published on the [Local NOTAMs](https://vatpac.org/publications/notam){target=new} page of the VATPAC website. Approved VSOAs may arrange for SUA to be activated by NOTAM for preplanned operations.
 
-### Ad-hoc Activations
+Each NOTAM will contain details of the SUA being activated and the procedures to be followed by controllers managing the airspace.
+
+### Ad hoc Activations
+SUA may also be activated by controllers **upon request** of an aircraft performing operations in compliance with the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct){target=new}.
+
+!!! important
+    Activation of SUA can have significant repurcussions for aircraft in the surrounding airspace. Before agreeing to a request to activate SUA, controllers should make a detailed assessment of all aspects of the request.
+    
+    Some of the **key considerations** include:
+    
+    - **Dimensions of SUA**: How big is the SUA being requested? What are the lateral and vertical limits.
+    - **Nature of Request**: Is the activation of an SUA necessary for the aircraft to perform their requested operations? Is the request compliant with the VATSIM Code of Conduct?
+    - **Airspace**: What are the classes of airspace involved? 
+    - **Separation**: What are the separation implications for aircraft in the area? 
+    - **Coordination**: Is any coordination required with adjacent units?
+    - **Workload**: Does the current workload allow you to facilitate this request? Would separating aircraft from the SUA significantly increase your workload?
 
 ### Activating SUA in vatSys
+Controllers should **always** ensure SUAs are activated in vatSys when in use. This allows the dimensions of the SUA to be displayed on the scope and ensures that a DAIW alert is triggered if an aircraft is about to violate the area.
 
 <figure markdown>
-![Danger Area Activation](img/d535b.png){ width="700" }
+![Activating SUA in vatSys](img/activating-SUA.gif){ width="600" }
 </figure>
 
-<figure markdown>
-![Danger Area Activation](img/d535a.png){ width="700" }
-</figure>
+!!! note
+    SUAs that are not associated with flying activities, and have published operating hours, do not need to be manually activated. vatSys will activate and deactivate those areas automatically.
 
 ## Separation
-It is the pilots responsibility to remain clear of Restricted Areas, however, that does not mean they always do!
-
-### OCTA
-Outside controlled airspace, it is the responsibility of the controller to provide Safety Alerts to aircraft that will shortly enter, or have already entered, active restricted areas.
+### Uncontrolled Airspace
+It is the pilots responsibility to remain clear of SUAs when OCTA. Controllers should provide safety alerts to aircraft that will shortly enter, or have already entered, active restricted areas.
 
 !!! phraseology
-    **CBW**: "Safety Alert, VFR aircraft overhead COTR tracking southbound 2500, you will shortly be entering R430 restricted area, clearance not available, suggest immediate left turn to avoid"
+    **CBW**: "Safety Alert, VFR aircraft overhead COTR tracking southbound 2500, you will shortly be entering R430 restricted area, clearance not available, suggest immediate left turn to avoid."
 
 !!! phraseology
-    **CNK**: "VFR aircraft overhead YCNK 3500 tracking westbound, confirm you will be remaining clear of the R564 restricted area?"  
+    **CNK**: "VFR aircraft overhead YCNK `A035` tracking westbound, confirm you will be remaining clear of the R564 restricted area?"  
 
     To which they will almost always reply with either *"Affirm"* or *"Huh?"*
 
-For aircraft unfamiliar with the restricted area, provide *suggested* headings to avoid. Get the aircraft to squawk ident to temporarily identify them. Remember that you cannot vector aircraft OCTA.
+For aircraft unfamiliar with the restricted area, provide *suggested* headings to avoid.
 
-### CTA
-You must separate all aircraft in controlled airspace by *half the applicable lateral standard* from a Restricted Area (ie, **1.5nm** for TCU, **2.5nm** for Enroute). Aircraft operating at the vertical limits of Restricted Areas are considered to be separated from it.
+!!! important
+    Remember, controllers cannot vector an aircraft that is OCTA.
+
+### Controlled Airspace
+Aircraft must be separated by *half the applicable lateral standard* from an SUA (ie, **1.5nm** for TCU, **2.5nm** for Enroute).
+
+<figure markdown>
+![Separation with SUA Diagram](img/sua_separation.png){ width="600" }
+  <figcaption>Separation with SUA Diagram</figcaption>
+</figure>
+
+As the boundary between two classes of airspace takes the form of the *least* restrictive class, Aircraft operating at the vertical limits of an SUA are considered to be separated from it.
+
+!!! example
+    A restricted area with a vertical definition of `SFC-A085` may be overflown **at** `A085`, as the aircraft will be deemed to be in the least restrictive class of airspace at that level.
 

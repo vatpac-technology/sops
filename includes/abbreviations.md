@@ -390,3 +390,4 @@
 *[ZIN]: Zuizin Island
 *[DRLD]: Dreamworld
 *[COTR]: Cotter
+*[VSOA]: Virtual Special Operations Association
