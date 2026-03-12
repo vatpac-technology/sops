@@ -36,7 +36,7 @@
 *[GLS]: GBAS Landing System
 *[ACD]: Airways Clearance Delivery
 *[ATIS]: Automatic Terminal Information Service
-*[NOTAM]: Notice to Airmen
+*[NOTAM]: Notice to Air Missions
 *[CTA]: Controlled Airspace
 *[OCTA]: Outside Controlled Airspace
 *[HDS]: Hours of Daylight Savings
