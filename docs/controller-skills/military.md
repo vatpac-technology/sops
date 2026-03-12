@@ -16,12 +16,12 @@ Military operations can vary significantly from civilian operations, both in pro
     - Air to air refuelling
     - Carrier operations
     - Flying low level military routes
-    - Flying escort missions
+    - [Flying escort missions](#interception-and-escorts)
     - Executing air combat manoeuvres
-    - Interception/scramble of other aircraft
+    - [Interception/scramble of other aircraft](#interception-and-escorts)
     - Having access to [special use airspace](#military-operating-areas)
     - [Search and Rescue Operations](#search-and-rescue-sar-operations)
-    - [Firefighting Operations](#ffr-operations)
+    - [Firefighting Operations](#firefighting-operations)
     - Launch and Recovery of Space Vehicles
     - Air Displays (Flying Displays, Races)
     - Fly unmanned aerial vehicles, e.g. Global Hawk
@@ -169,7 +169,6 @@ Military Gates are referred to by their identifier, and military aircraft can be
     **CIA**: "CYCN15, track direct Gate 3."  
     **CYCN15**: "Track direct Gate 3, CYCN15."
 
-
 ### Stereo Approaches
 **Stereo Approaches** are the primary procedure for fighter & strike aircraft (e.g. F18, HAWK, PC21) recovering back to airbases after operations in SUA. Aircraft track from specified SUA [exit gates](#military-gates) where they join the procedure, tracking along charted TACAN arcs/radials which position them for an initial and pitch or instrument approach.
 
@@ -263,7 +262,7 @@ MARSA is to be assigned and terminated on pilots request, and when standard sepe
 !!! note
     Military aircraft normally operate NOCOM in military Restricted Areas and Class G airspace only. **Do not** permit NOCOM operations in Civil CTA.
 
-## Interception
+## Interception and Escorts
 Reserved.
 
 ## Non-Military Special Operations
@@ -292,8 +291,15 @@ SAR Operations are most commonly flown in a circular area (eg Radius from a Fix,
 
 !!! phraseology
     **DDU**: "DDU, request traffic for Search and Rescue operations for the next 90 minutes, within a 10nm Radius of 23 52 South, 136 01 East, Not above A060"  
-    **ASP**: "DDU, No Reported IFR Traffic. Call Ops Normal time on the hour"  
-    **DDU**: "Ops Normal on the hour, DDU" 
+    **ASP**: "DDU, no reported IFR traffic. Report ops normal on the hour.""  
+    **DDU**: "Wilco, DDU" 
 
 ### Firefighting Operations
-Reserved.
+Firefighting operations are conducted more or less as a standard [airwork](../airwork) procedure, but can vary significantly depending on the operation being conducted.
+
+Firebombing, for example, might involve repeated manoevres between a source of water and a fire, whereas fire spotting and surveillance aircraft might fly patterns resembling that of [search and rescue](#search-and-rescue-sar-operations). The [callsign](../callsigns/#special-task-operations) of firefighting aircraft will generally indicate the type of operation an aircraft will be conducting
+
+!!! phraseology
+    **BMBR301**: "BMBR301, request traffic for firefighting operations for the next thirty minutes, within a 5nm Radius of 38 53 South, 146 26 East, not above `A055`"  
+    **WON**: "BMBR301, no reported traffic."  
+    **BMBR301**: "BMBR301" 
