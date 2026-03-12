@@ -104,7 +104,7 @@ This can be reduced to *half the applicable lateral standard* (ie, **1.5nm** for
 military aircraft are expected to remain the equivalent distance from the boundary *within* the SUA.
 
 <figure markdown>
-![Separation with SUA Diagram](img/sua_separation.png){ width="600" }
+![Separation with SUA Diagram](img/mil_flying_sua_separation.png){ width="600" }
   <figcaption>Separation with a military flying SUA Diagram</figcaption>
 </figure>
 
