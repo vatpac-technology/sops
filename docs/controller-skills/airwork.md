@@ -288,7 +288,12 @@ Persuant to the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-
     `VATSIM Code of Conduct - Section B6`
     *No flight may declare itself to have priority over another. Pilots are permitted to declare in-flight emergencies only when under air traffic control. If, for any reason, air traffic control requests the pilot to terminate the emergency, then the pilot shall do so IMMEDIATELY or disconnect from the network. Pilots are not permitted to simulate any unlawful act including, but not limited to, declaring a hijack by any method, including entering a transponder code of 7500.*
 
-When an aircraft declares an emergency, controllers should respond acknowledging the emergency call and ascertaining the pilots intentions (if not already provided).
+When an aircraft declares an emergency, controllers should respond acknowledging the emergency call and ascertaining the pilots intentions (if not already provided). An aircraft might also declare an emergency by squawking `7700`, triggering an emergency alert.
+
+<figure markdown>
+![An aircraft squawking 7700](img/squawk_7700.png){ width="500" }
+  <figcaption>An aircraft squawking 7700</figcaption>
+</figure>
 
 !!! phraseology
     **ABC**: "Mayday, Mayday, Mayday, Brisbane Centre, Cessna ABC, sudden loss of engine power, turning right direct to SU for emergency landing at YBSU."
