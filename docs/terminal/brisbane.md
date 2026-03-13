@@ -83,7 +83,17 @@ BN TCU may extend to BAC and vice versa; callsigns remain the same. See [Control
 
 ## Separation
 ### Parallel Runway Operations
-Refer to [Parallel Runway Separation Standards](../../separation-standards/parallelapps) for more information
+Aircraft joining parallel instrument approaches must remain separated from aircraft on the adjacent approach until they are established. This usually involves keeping aircraft vertically separated and may require aircraft to intercept the localiser/final approach course/RNP AR track and maintain their assigned level, only allowing descent on the approach once they are established.  
+
+Two aircraft cleared for adjacent instrument approaches must maintain the following [minimum lateral separation](../separation-standards/parallelapps.md):
+
+| Situation | Lateral Separation Standard |
+| --- | --- |
+| One or both aircraft **not yet established** | 3nm |
+| **Both aircraft established** on final approach courses | 1.5nm |
+
+!!! note
+    It may be necessary to use speed control on final to maintain the required separation.
 
 ## Departure/Arrival Procedures
 ### STAR and Runway Assignment
