@@ -21,7 +21,7 @@ Airwork must be conducted within a defined **area of operation**. This is genene
     - a visual topographical feature (e.g. *within Lake Eyre*)
 
 ### Uncontrolled Airspace
-IFR Aircraft, and VFR aircraft receiving an identification service must the controller of their intentions prior to commencing airwork.
+IFR Aircraft, and VFR aircraft receiving an identification service must notify the controller of their intentions prior to commencing airwork.
 
 !!! phraseology
     *PPB is an IFR aircraft intending to perform a series of practice approaches at YPKU - an uncontrolled aerodrome*
@@ -35,12 +35,12 @@ IFR Aircraft, and VFR aircraft receiving an identification service must the cont
 Aircraft must obtain clearance to perform airwork within CTA, even when airwork details are included in their flightplan. Clearances must include **lateral** and **vertical** restrictions.
 
 !!! phraseology
-    *A2B is an IFR aircraft intending to perform airwork within 10nm of WG VOR, A090-A100.*
+    *A2B is an IFR aircraft intending to perform airwork within 10nm of WG VOR, A090-A100.*  
     **A2B**: "A2B, with airwork details"  
     **BLA**: "A2B"  
     **A2B**: "A2B, request airwork within a 10nm radius of WG, between `A090` and `F130`, for the next 15 minutes."  
     **BLA**: "A2B, cleared to operate within a 10nm radius of WG, `A090` to `F130`."  
-    **A2B**: "Cleared to operate within a 10nm of WG, `A090` to `F130`, A2B"
+    **A2B**: "Cleared to operate within a 10nm of WG, `A090` to `F130`, A2B"  
     
 !!! tip
     Before providing a clearance to perform airwork to an aircraft, it is good practice to take extra time to assess to potential for conflicts, and determine if any coordination is required with adjacent positions.
@@ -49,12 +49,12 @@ Aircraft must obtain clearance to perform airwork within CTA, even when airwork 
 Aircraft should only receive clearance to perform airwork within CTA. When an aircraft requests clearance to perform airwork in an area partially CTA and OCTA, controllers should provide clearance **only** for the controlled portion of the airspace, and provide traffic information for the uncontrolled portion.
 
 !!! phraseology
-    *MDIA403 is an IFR helicopter intending to perform airwork within 4nm of DRLD, `SFC` to `A050`; CTA exists above `A035`.*
+    *MDIA403 is an IFR helicopter intending to perform airwork within 4nm of DRLD, `SFC` to `A050`; CTA exists above `A035`.*  
     **MDIA403**: "MDIA403, with airwork details"  
     **BDN**: "MDIA403"  
     **MDIA403**: "MDIA403, request airwork within a 4nm radius of DRLD, not above `A050`, for the next 30 minutes, ops normal time 45."  
     **BDN**: "MDIA403, cleared to operate within a 4nm radius of DRLD, between `A035` and `A050`, no reported IFR traffic"  
-    **MDIA403**: "Cleared to operate within a 4nm radius of DRLD, `A035` to `A050`, copy traffic, MDIA403"
+    **MDIA403**: "Cleared to operate within a 4nm radius of DRLD, `A035` to `A050`, copy traffic, MDIA403"  
 
 ### Ops Normal
 If an aircraft is to be conducting airwork that does not require them to talk to ATC for an extended period (30 mins or more), an "operations normal" time should be agreed upon: a time by which an aircraft is required to "check-in" with ATC by to confirm that the flight is still operating normally.
@@ -105,8 +105,8 @@ Outside controlled airspace, providing a simple traffic statement (as in the [ex
 
 !!! phraseology
     **QRS**: "Melbourne Approach, QRS, request direct MOSVO for the practice YMEN LOC Runway 26 Approach"  
-    **MAE**: "QRS, track direct MOSVO cleared LOC approach. At the minima, fly published missed approach."
-    **QRS**: "Track direct MOSVO, cleared LOC approach. At the minima, fly published missed approach, QRS."    
+    **MAE**: "QRS, track direct MOSVO cleared LOC approach."  
+    **QRS**: "Track direct MOSVO, cleared LOC approach, QRS."    
 
 !!! tip
     Practice instrument approaches can introduce vexing complications when conducted in controlled airspace. When receiving a request for practice instrument approaches from a pilot, controllers should take time to consider all aspects of the procedure.
