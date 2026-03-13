@@ -129,7 +129,7 @@ Outside controlled airspace, providing a simple traffic statement (as in the [ex
 A **Sector Entry** is a procedure for aligning an aircraft with the final approach path by performing a procedural turn to enter published holding pattern, often over the IAF.
 
 <figure markdown>
-![Sector Entry Diagram Example](img/sector_entry_diagram.png){ width="600" }
+![Sector Entry Diagram Example](img/sector_entry_diagram.png){ width="800" }
   <figcaption>Sector Entry Diagram Example</figcaption>
 </figure>
 
@@ -146,7 +146,7 @@ Sector Entries are generally required used when an aircraft would need to turn g
 A **DME** or **GNSS** arrival is a procedure by which aircraft follow charted descent guidance along a specified track or sector until they reach the the visual circling area.
 
 <figure markdown>
-![GNSS Arrival Diagram Example](img/gnss_arrival_diagram.png){ width="600" }
+![GNSS Arrival Diagram Example](img/gnss_arrival_diagram.png){ width="800" }
   <figcaption>GNSS Arrival Diagram Example</figcaption>
 </figure>
 
