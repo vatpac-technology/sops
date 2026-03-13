@@ -183,7 +183,7 @@ Due to the surrounding mountainous terrain, the following restrictions are to be
 ## SID Selection
 There are several Procedural SIDs at NFFN which terminate at the same waypoint. During normal operations, aircraft should be assigned SIDs according to the priorities set out below, unless the pilot requests a specific departure. 
 
-Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID. These aircraft will receive either a **visual** or **radar** departure.
+Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID. These aircraft will receive a **visual** departure.
 
 | Via | Preferred SID | 2nd | 3rd |
 | ---- | ------------ | ----| ---- |
