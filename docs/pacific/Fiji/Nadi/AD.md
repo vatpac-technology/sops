@@ -96,7 +96,7 @@ The Tiliva Training Area is established north of the NFFN CTR, from `A005` to `A
   <figcaption>Tiliva Training Area</figcaption>
 </figure>
 
-When the Tiliva Training Area is activated, aircraft departing via **KABAR** [shall be assigned](#sid-selection) the **CHARLIE** SID instead of the **ALPHA** SID.
+When the Tiliva Training Area is activated, aircraft departing via **KABAR** [shall be assigned](#sid-selection) the **CHARLIE** SID instead of the **ALFA** SID.
 
 ### Seaplane Operations
 Seaplanes regularly operate from a private seaplane base 500 metres west of Runway 02/20, in Nadi Bay. Departures and Arrivals are generally processed via the 'Turtle' VFR transit route ([see above](#vfr-transit-lanes)).
@@ -187,7 +187,7 @@ Jet Aircraft **not** planned via any of these waypoints shall receive amended ro
 
 | Via | Preferred SID | 2nd | 3rd |
 | ---- | ------------ | ----| ---- |
-| TUTRI<br>KABAR^ | **ALPHA** | | |
+| TUTRI<br>KABAR^ | **ALFA** | | |
 | BIDNA<br>PANDO<br>MAKSO |  **CHARLIE** | | |
 | GODAP<br>LUPLO<br>EXORA | **DELTA** | **CHARLIE** | |
 | NA VOR<br>NAVUA | **HOTEL** | **ECHO** | **DELTA**/**CHARLIE**† |
