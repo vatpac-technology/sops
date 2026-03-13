@@ -129,7 +129,7 @@ Outside controlled airspace, providing a simple traffic statement (as in the [ex
 A **Sector Entry** is a procedure for aligning an aircraft with the final approach path by performing a procedural turn to enter published holding pattern, often over the IAF.
 
 <figure markdown>
-![Sector Entry Diagram Example](img/sector_entry_diagram.png){ width="800" }
+![Sector Entry Diagram Example](img/sector_entry_diagram.png){ width="500" }
   <figcaption>Sector Entry Diagram Example</figcaption>
 </figure>
 
