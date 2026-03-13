@@ -16,7 +16,7 @@ Airwork must be conducted within a defined **area of operation**. This is genene
     Lateral limits can be defined in a number of ways, most commonly:
     
     - Radius from a fix, navaid, coordinate, or aerodrome. (e.g. *within a 20nm radius of KII*)
-    - a [SUA] Area. (e.g. *within the D205 danger area*)
+    - a [SUA](../sua) Area. (e.g. *within the D205 danger area*)
     - a polygon defined by a set of fixes, navaids, or coordinates. (e.g. *within an area between HID VOR-ZIN-YSII-1000S14200E*)
     - a visual topographical feature (e.g. *within Lake Eyre*)
 
@@ -136,7 +136,7 @@ A **Sector Entry** is a procedure for aligning an aircraft with the final approa
 Sector Entries are generally required used when an aircraft would need to turn greater than 30° to join the first track of the procedure. If there is any uncertainty, it is still good practice to confirm with the pilot if a sector entry is required.
 
 !!! phraseology
-    **YNJ**: "Adelaide Approach, YNJ, Requesting Practice YPPF VOR-A Approach"
+    **YNJ**: "Adelaide Approach, YNJ, Requesting Practice YPPF VOR-A Approach"  
     **AAE**: "YNJ, will you be requiring a sector entry?"  
     **YNJ**: "Affirm will require a sector entry, YNJ"  
     **AAE**: "YNJ, copy, make sector entry, cleared VOR-A Approach. Report established."  
@@ -151,8 +151,8 @@ A **DME** or **GNSS** arrival is a procedure by which aircraft follow charted de
 </figure>
 
 !!! phraseology
-    **CS1**: "WXY, cleared DME arrival"
-    **WXY**: "Cleared DME arrival, WXY"
+    **CS1**: "WXY, cleared DME arrival"  
+    **WXY**: "Cleared DME arrival, WXY"  
 
 Aircraft cleared for a DME or GNSS arrival are permitted to manoeuvre within the circling area to position the aircraft on final for landing. When an aircraft cannot be cleared for the entire approach, the aircraft must be issued with a specific descent "not below the DME/GNSS steps".
 
@@ -228,16 +228,16 @@ Where PJE ops are occuring in CTA, controllers must ensure there is no conflicti
 
 !!! phraseology
     *DJV has been cleared to operate within a 5nm of their drop zone, located at Flagstaff Point.*
-    **DJV**: "Sydney Departures and Wollongong city traffic, VFR Cessna Caravan DJV, five minutes to parachute drop from F140 overhead Flagstaff Point, expect nine canopies, Wollongong City traffic."
-    **SDS**: "DJV, no reported traffic OCTA Wollongong city."
-    *...*
-    **DJV**: "DJV, broadcasts complete, request drop and descent"
-    **SDS**: "DJV, clear to drop, leave controlled airspace descending, [not below parachutists](#not-below-parachutists). Report parachutists outside controlled airspace."
-    **DJV**: "Clear to drop and leave controlled airspace descending, not below the parachutists, wilco, DJV."
-    *...*
+    **DJV**: "Sydney Departures and Wollongong city traffic, VFR Cessna Caravan DJV, five minutes to parachute drop from F140 overhead Flagstaff Point, expect nine canopies, Wollongong City traffic."  
+    **SDS**: "DJV, no reported traffic OCTA Wollongong city."  
+    *...*  
+    **DJV**: "DJV, broadcasts complete, request drop and descent"  
+    **SDS**: "DJV, clear to drop, leave controlled airspace descending, [not below parachutists](#not-below-parachutists). Report parachutists outside controlled airspace."  
+    **DJV**: "Clear to drop and leave controlled airspace descending, not below the parachutists, wilco, DJV."  
+    *...*  
     **DJV**: "DJV, parachutists and aircraft OCTA."  
     **SDS**: "DJV, identification terminated, frequency change approved."  
-    **DJV**: "DJV"
+    **DJV**: "DJV"  
 
 !!! tip
     PJE is a complex operation, and requires aircraft to be separated from a large **drop area** for a significant amount of time. Further, once drop operations have commenced it is not possible to cancel the clearance to fix a sudden separation issue (parachutists are generally unable to reboard an aircraft they have just left). Before permitting an aircraft to perform PJE within CTA, controllers should take care to consider all aspects of the operation.
@@ -286,7 +286,8 @@ Without that instruction, separation needs to be applied from the maximum height
 Persuant to the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct){target=new} controllers may simulate higher priority operations, such as emergency aircraft and MEDEVAC operations, by giving track shortening and conducting coordination as long as it does not impose an undue delay on any other aircraft (beyond reasonably expected delays, such as sequencing).
 
 !!! note
-    `VATSIM Code of Conduct - Section B6`
+    `VATSIM Code of Conduct - Section B6` 
+    
     *No flight may declare itself to have priority over another. Pilots are permitted to declare in-flight emergencies only when under air traffic control. If, for any reason, air traffic control requests the pilot to terminate the emergency, then the pilot shall do so IMMEDIATELY or disconnect from the network. Pilots are not permitted to simulate any unlawful act including, but not limited to, declaring a hijack by any method, including entering a transponder code of 7500.*
 
 When an aircraft declares an emergency, controllers should respond acknowledging the emergency call and ascertaining the pilots intentions (if not already provided). An aircraft might also declare an emergency by squawking `7700`, triggering an emergency alert.
@@ -297,8 +298,8 @@ When an aircraft declares an emergency, controllers should respond acknowledging
 </figure>
 
 !!! phraseology
-    **ABC**: "Mayday, Mayday, Mayday, Brisbane Centre, Cessna ABC, sudden loss of engine power, turning right direct to SU for emergency landing at YBSU."
-    **NSA**: "ABC, roger mayday."
+    **ABC**: "Mayday, Mayday, Mayday, Brisbane Centre, Cessna ABC, sudden loss of engine power, turning right direct to SU for emergency landing at YBSU."  
+    **NSA**: "ABC, roger mayday."  
 
 !!! tip
     Controllers should endeavour to assist the pilots of emergency aircraft with relevant information, without "overloading" them with too many details. The information needed will be different for every emergency, but potentially useful details to provide a pilot include:
@@ -313,11 +314,10 @@ All aircraft who have declared an emergency require coordination before handoff.
 
 !!! phraseology
     <span class="hotline">**NSA** -> **SU ADC**</span>: To the north tracking direct SU, ABC, `A035`, mayday aircraft."  
-    <span class="hotline">**SU ADC** -> **NSA**</span>: "Roger Mayday, ABC, `A035`"
-
-    **NSA**: "ABC, contact Sunshine Coast Tower, 124.4"
-    **ABC**: "124.4, ABC"
-    *...*
-    **ABC**: "Sunshine Coast Tower, Cessna ABC."
-    **NSA**: "ABC, mayday acknowledged. Runway 13, cleared to land."
+    <span class="hotline">**SU ADC** -> **NSA**</span>: "Roger Mayday, ABC, `A035`"  
+    **NSA**: "ABC, contact Sunshine Coast Tower, 124.4"  
+    **ABC**: "124.4, ABC"  
+    *...*  
+    **ABC**: "Sunshine Coast Tower, Cessna ABC."  
+    **NSA**: "ABC, mayday acknowledged. Runway 13, cleared to land."  
     **ABC**: "Cleared to land runway 13, ABC."

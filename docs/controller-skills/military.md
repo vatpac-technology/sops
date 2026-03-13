@@ -189,8 +189,8 @@ Aircraft entering an MOA will instead have their control services terminated on 
 Aircraft leaving an MOA must receive onwards clearance before reentering controlled airspace.
 
 !!! phraseology
-    **DRGN379**: "Brisbane Centre, DRGN379. Operations complete, request onwards clearance to Amberley, `F350`."
-    **ARA**: "DRGN379, Brisbane Centre, identified, cleared to Amberley via COE flight planned route. Maintain `F350`."
+    **DRGN379**: "Brisbane Centre, DRGN379. Operations complete, request onwards clearance to Amberley, `F350`."  
+    **ARA**: "DRGN379, Brisbane Centre, identified, cleared to Amberley via COE flight planned route. Maintain `F350`."  
 
 ## Formation Flights
 ### Standard Formation
@@ -279,7 +279,7 @@ When simulating special operations, pilots may file a priority status in their r
 |`STS/HOSP` | Aircraft engaged in non-life-critical transportation of medical operations, personnel, or ill patients |
 
 !!! important
-    `VATSIM Code of Conduct - Section B6`
+    `VATSIM Code of Conduct - Section B6` 
     *No flight may declare itself to have priority over another. Pilots are permitted to declare in-flight emergencies only when under air traffic control. If, for any reason, air traffic control requests the pilot to terminate the emergency, then the pilot shall do so IMMEDIATELY or disconnect from the network. Pilots are not permitted to simulate any unlawful act including, but not limited to, declaring a hijack by any method, including entering a transponder code of 7500.*
 
     Persuant to the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct){target=new} controllers may simulate higher priority operations, such as emergency aircraft and MEDEVAC operations, by giving track shortening and conducting coordinationm as long as it does not impose an undue delay on any other aircraft (beyond reasonably expected delays, such as sequencing).
