@@ -12,6 +12,9 @@
 | **Kwajalein SMC**	| **Kwajalein Ground**	| **121.900** | **KWA_GND**	| 
 | **Kwajalein ATIS**	| | **119.675** | **PKWA_ATIS** | 
 
+## Airspace
+**PKWA ADC** is responsible for the Class D airspace within 4.3nm, `SFC` to `A025`.
+
 ## Procedures
 PKWA is a US Army Airfield and uses American procedures and phraseology. 
 
