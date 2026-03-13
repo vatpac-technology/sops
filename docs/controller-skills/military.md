@@ -125,7 +125,7 @@ By default, aircraft will pitch at the midfield point (about half way down the r
 !!! phraseology
     **VIPR47**: "Sale Tower, VIPR47"  
     **ES ADC**: "VIPR47, pitch long"  
-    **VIPR47**: "Pitch long, VIPR47"
+    **VIPR47**: "Pitch long, VIPR47"  
     **VIPR47**: "VIPR47, base"  
     **ES ADC**: "VIPR47, runway 27, cleared to land, check wheels"  
     **VIPR47**: "Runway 27, Cleared to Land, VIPR47, three greens"
@@ -280,6 +280,7 @@ When simulating special operations, pilots may file a priority status in their r
 
 !!! important
     `VATSIM Code of Conduct - Section B6` 
+    
     *No flight may declare itself to have priority over another. Pilots are permitted to declare in-flight emergencies only when under air traffic control. If, for any reason, air traffic control requests the pilot to terminate the emergency, then the pilot shall do so IMMEDIATELY or disconnect from the network. Pilots are not permitted to simulate any unlawful act including, but not limited to, declaring a hijack by any method, including entering a transponder code of 7500.*
 
     Persuant to the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct){target=new} controllers may simulate higher priority operations, such as emergency aircraft and MEDEVAC operations, by giving track shortening and conducting coordinationm as long as it does not impose an undue delay on any other aircraft (beyond reasonably expected delays, such as sequencing).
