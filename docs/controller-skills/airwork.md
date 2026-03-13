@@ -156,6 +156,7 @@ A **DME** or **GNSS** arrival is a procedure by which aircraft follow charted de
 
 Aircraft cleared for a DME or GNSS arrival are permitted to manoeuvre within the circling area to position the aircraft on final for landing. When an aircraft cannot be cleared for the entire approach, the aircraft must be issued with a specific descent "not below the DME/GNSS steps".
 
+!!! phraseology
     **CS1**: "EFG, descend `A030`, not below the DME steps."  
     **EFG**: "Descend `A030` not below the DME steps, EFG."  
 
