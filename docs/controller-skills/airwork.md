@@ -171,7 +171,7 @@ Aerial surveys involve aircraft flying precise, repetitive flight paths in order
 Pilots intending to conduct an aerial survey should include details of their planned airwork in their [flight plan](#flight-plan-remarks), but will need to provide specific information about the extent and direction of their desired runs. The easiest (and best) way to provide this information is by providing a map of their intended operations illustrating the desired survey area, location, and direction of each run.
 
 <figure markdown>
-![Aerial Survey Map Example](img/svymap.png){ width="500" }
+![Aerial Survey Map Example](img/svymap.png){ width="800" }
   <figcaption>Aerial Survey Map Example</figcaption>
 </figure>
 
@@ -264,7 +264,7 @@ Where PJE ops are occuring in CTA, controllers must ensure there is no conflicti
 - The PJE pilot reports that all parachutists are clear of controlled airspace.
 
 <figure markdown>
-![Illustration of Separation between PJE and non-PJE traffic](img/pje_separation.png){ width="500" }
+![Illustration of Separation between PJE and non-PJE traffic](img/pje_separation.png){ width="800" }
   <figcaption>Illustration of Separation between PJE and non-PJE traffic</figcaption>
 </figure>
 
@@ -292,7 +292,7 @@ Persuant to the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-
 When an aircraft declares an emergency, controllers should respond acknowledging the emergency call and ascertaining the pilots intentions (if not already provided). An aircraft might also declare an emergency by squawking `7700`, triggering an emergency alert.
 
 <figure markdown>
-![An aircraft squawking 7700](img/squawk_7700.png){ width="500" }
+![An aircraft squawking 7700](img/squawk_7700.png){ width="300" }
   <figcaption>An aircraft squawking 7700</figcaption>
 </figure>
 
