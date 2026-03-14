@@ -29,6 +29,27 @@ The area of responsibility between SMC West and East is divided by Runway 03/21.
   <figcaption>Manoeuvring Area</figcaption>
 </figure>
 
+### Transferring Between SMCs
+When both SMC positions are online and an aircraft is to be passed from one to the other (e.g. an aircraft vacates runway 24 for the eastern terminal), they should be instructed to hold short of runway 03/21 and to contact the next SMC frequency. 
+
+The aircraft's strip shall be placed in the receiving controller's bay prior to frequency transfer. The **receiving controller** is responsible for coordinating the runway crossing with ADC.
+
+!!! phraseology
+    **SMC West**: "RXA2112, taxi Alpha, Alpha Six, hold short runway 21, contact ground 122.2"  
+    **RXA2112**: "Taxi Alpha, Alpha Six, hold short runway 21, contact ground 122.2, RXA2112"
+
+    <span class="hotline">**SMC East** -> **ADC**</span>: "On A6, RXA2112 to cross runway 21"  
+    <span class="hotline">**ADC** -> **SMC East**</span>: "RXA2112 cross runway 21"
+
+    **RXA2112**: "Perth Ground, RXA2112, holding short runway 21"  
+    **SMC East**: "RXA2112, cross runway 21, taxi to bay 206"  
+    **RXA2112**: "Cross runway 21, taxi to bay 206, RXA2112"
+
+The video below demonstrates the SMC transfer process at Sydney. The same principles apply at Perth.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qVK22SAioeY?si=PAdGhkC3Izv7qHjT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="display:block; margin:0 auto;" allowfullscreen></iframe>
+<p><figcaption style="text-align: center;">Demonstration of Transfer from YSSY SMC East to West</figcaption></p>
+
 ## Separation
 ### Reduced Runway Separation
 When conditions permit, the [2400m separation standard for landing aircraft](../../separation-standards/runway.md#2400m-standard) may be applied to aircraft arriving Runway **03/21**
