@@ -53,11 +53,11 @@ MKA may extend to RKA and vice versa, callsigns remain the same. See [Controller
 Voiceless for all aircraft:
 
 - With ADEP **YBMK**  
-  - Tracking via **CLIFT** or **MUNAR**; and  
-  - Assigned the lower of `F150` or the `RFL`  
+    - Tracking via **CLIFT** or **MUNAR**; and  
+    - Assigned the lower of `F150` or the `RFL`  
 - With ADEP **YBRK**  
-  - Tracking via **BUDGI** or **TARES**; and  
-  - Assigned the lower of `F150` or the `RFL`
+    - Tracking via **BUDGI** or **TARES**; and  
+    - Assigned the lower of `F150` or the `RFL`
 
 All other aircraft going to SWY/KPL CTA must be **Heads-up** Coordinated by MKA/RKA.
 
@@ -69,11 +69,11 @@ All other aircraft going to SWY/KPL CTA must be **Heads-up** Coordinated by MKA/
 Voiceless for all aircraft:
 
 - With ADES **YBMK**    
-  - Assigned the **DAGSI** or **WELKE** STAR; and  
-  - Assigned `A090`  
+    - Assigned the **DAGSI** or **WELKE** STAR; and  
+    - Assigned `A090`  
 - With ADES **YBRK**; and  
-  - Assigned the **ABVAS** or **DADBO** STAR; and  
-  - Assigned `A090`
+    - Assigned the **ABVAS** or **DADBO** STAR; and  
+    - Assigned `A090`
 
 All other aircraft coming from SWY/KPL CTA will be **Heads-up** Coordinated to MKA/RKA.
 
