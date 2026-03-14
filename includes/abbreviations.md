@@ -153,7 +153,7 @@
 *[AUG]: Melbourne (Augusta) Centre
 *[BLA]: Melbourne (Benalla) Centre
 *[BKE]: Melbourne (Bourke) Centre
-*[SCR]: Melbourne (Cross) Centre
+*[CRS]: Melbourne (Cross) Centre
 *[ESP]: Melbourne (Esperance) Centre
 *[FOR]: Melbourne (Forrest) Centre
 *[FOW]: Melbourne (Forrest West) Centre
@@ -190,7 +190,6 @@
 *[AYMD]: Madang
 *[AYMH]: Mt Hagen
 *[AYTK]: Tokua
-*[GFTA]: General Flying Training Area
 *[GGO]: Goonoo Goonoo Station
 *[WBH]: Wallabadah
 *[NUN]: Nundle
@@ -356,7 +355,6 @@
 *[MARSA]: Military Authority Assumes Responsibility for Separation of Military Aircraft
 *[NOCOM]: Non-Continuous Communication
 *[AEWC]: Airborne Early Warning and Control
-*[SAWR]: Salt Ash Air Weapons Range
 *[ATZ]: Aerodrome Traffic Zone
 *[NEN]: Nerang
 *[STOT]: Stotts Island
