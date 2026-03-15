@@ -102,7 +102,7 @@ Aircraft must be separated from the SUA by*half the applicable lateral standard*
 
 <figure markdown>
 ![Separation with SUA Diagram](img/mil_flying_sua_separation.png){ width="800" }
-  <figcaption>Separation with a military flying SUA</figcaption>
+![Separation with SUA Diagram](img/sua_separation.png){ width="600" }
 </figure>
 
 As the boundary between two classes of airspace takes the form of the *least* restrictive class, Aircraft operating at the vertical limits of an SUA are considered to be separated from it.
