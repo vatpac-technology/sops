@@ -96,7 +96,7 @@ The Tiliva Training Area is established north of the NFFN CTR, from `A005` to `A
   <figcaption>Tiliva Training Area</figcaption>
 </figure>
 
-When the Tiliva Training Area is activated, aircraft departing via **KABAR** [shall be assigned](#sid-selection) the **CHARLIE** SID instead of the **ALPHA** SID.
+When the Tiliva Training Area is activated, aircraft departing via **KABAR** [shall be assigned](#sid-selection) the **CHARLIE** SID instead of the **ALFA** SID.
 
 ### Seaplane Operations
 Seaplanes regularly operate from a private seaplane base 500 metres west of Runway 02/20, in Nadi Bay. Departures and Arrivals are generally processed via the 'Turtle' VFR transit route ([see above](#vfr-transit-lanes)).
@@ -183,11 +183,11 @@ Due to the surrounding mountainous terrain, the following restrictions are to be
 ## SID Selection
 There are several Procedural SIDs at NFFN which terminate at the same waypoint. During normal operations, aircraft should be assigned SIDs according to the priorities set out below, unless the pilot requests a specific departure. 
 
-Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID. These aircraft will receive either a **visual** or **radar** departure.
+Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID. These aircraft will receive a **visual** departure.
 
 | Via | Preferred SID | 2nd | 3rd |
 | ---- | ------------ | ----| ---- |
-| TUTRI<br>KABAR^ | **ALPHA** | | |
+| TUTRI<br>KABAR^ | **ALFA** | | |
 | BIDNA<br>PANDO<br>MAKSO |  **CHARLIE** | | |
 | GODAP<br>LUPLO<br>EXORA | **DELTA** | **CHARLIE** | |
 | NA VOR<br>NAVUA | **HOTEL** | **ECHO** | **DELTA**/**CHARLIE**† |
@@ -198,6 +198,9 @@ Jet Aircraft **not** planned via any of these waypoints shall receive amended ro
 	^ When the [Tiliva Training Area](#tiliva-training-area) is active, aircraft tracking via KABAR shall be assigned the **CHARLIE** SID, NN VOR transition, thence direct KABAR.
 	
 	† Aircraft planned via an airway commencing at **MELEB** shall be assigned the **DELTA** SID. Aircraft planned via an airway commencing at **NN VOR** shall be assigned the **CHARLIE** SID.
+
+!!! warning "Important"
+    OzStrips will autofill the **preferred SID** only. Controllers must ensure the correct SID is selected based on the conditions laid out in this section.
 
 During busy periods NFFNA and NFFN ADC may coordinate and lower-priority departures for better traffic management purposes.
 
