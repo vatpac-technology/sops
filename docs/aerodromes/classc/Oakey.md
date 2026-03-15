@@ -14,7 +14,7 @@
 | **Oakey ATIS**    |                       | **124.300** | **YBOK_ATIS** |
 
 !!! note
-    Oakey is a [military aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
+    YBOK is a [military aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
 
 ## Airspace
 OK ADC owns the airspace within 5 DME of the OK VOR from `SFC` to `A030`. This airspace is designed to facilitate circuit traffic.
