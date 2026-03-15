@@ -14,7 +14,7 @@
 | **Tindal ATIS**    |                       | **124.000** | **YPTN_ATIS** |
 
 !!! note
-    Tindal is a [joint military/civil aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
+    YPTN is a [joint military/civil aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
 
 ## Airspace
 TN ADC is not responsible for any airspace by default.  
