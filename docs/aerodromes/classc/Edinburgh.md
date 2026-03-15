@@ -13,7 +13,7 @@
 | **Edinburgh ATIS** |                      | **126.250** | **YPED_ATIS** |
 
 !!! note
-    Edinburgh is a [military aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
+    YPED is a [military aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
 
 ## Airspace
 ED ADC is responsible for the airspace within the Edinburgh CTR, `SFC` to `A020`.
