@@ -54,13 +54,6 @@ High performance military jet aircraft with planned operations in SUAs,, shall b
 !!! Note
   WLM ADC can issue both outbound and inbound clearances into R560 and R570 during initial airways clearance
 
-### SUA Gates
-
-<figure markdown>
-![WLM SUA Gates](img/wlm_mil_gates.png){ width="700" }
-  <figcaption>WLM SUA Gates</figcaption>
-</figure>
-
 #### Eastern Airspace
 There are 8 gates to facilitate departures and arrivals into the eastern training airspace, based on the WLM TACAN. 
 
