@@ -98,10 +98,7 @@ For aircraft unfamiliar with the restricted area, provide *suggested* headings t
     Remember, controllers cannot vector an aircraft that is OCTA.
 
 ### Controlled Airspace
-Aircraft must be separated from the SUA by the appropriate lateral standard.
-
-This can be reduced to *half the applicable lateral standard* (ie, **1.5nm** for TCU, **2.5nm** for Enroute) from a military flying SUA, as 
-military aircraft are expected to remain the equivalent distance from the boundary *within* the SUA.
+Aircraft must be separated from the SUA by*half the applicable lateral standard* (ie, **1.5nm** for TCU, **2.5nm** for Enroute).
 
 <figure markdown>
 ![Separation with SUA Diagram](img/mil_flying_sua_separation.png){ width="800" }
