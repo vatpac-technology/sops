@@ -80,7 +80,7 @@ In Class C airspace, separation is required between IFR and VFR aircraft. In Cla
 
 **ADC** are not permitted to vector aircraft, but there are a number of other tools available to help segregate aircraft within the circuit.
 
-!!! important
+!!! warning "Important"
     The use of these tools in no way diminishes the responsibility of VFR aircraft to see and avoid, nor does it relieve the controller of the responsibility to pass traffic information where applicable. 
     
 An **ADC** may issue instructions for a pilot to make a longer or shorter approach, or to explicitly extend their downwind leg, so as to either pass in front of or behind another aircraft.
