@@ -14,7 +14,7 @@
 | **Curtin ATIS**   |                       | **134.800** | **YCIN_ATIS** |
 
 !!! note
-    Curtin is a [joint military/civil aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
+    YCIN is a [joint military/civil aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
 
 ## Airspace
 CIN ADC owns the Class C airspace within the CIN MIL CTR from `SFC` to `A015`.
