@@ -13,7 +13,7 @@
 | **Richmond ATIS**  |                       | **123.300** | **YSRI_ATIS** |
 
 !!! note
-    Richmond is a [military aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
+    YSRI is a [military aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
 
 ## Airspace
 RI ADC being online will activate the **R470** Restricted Area, which is reclassified as **Class C** when active.
