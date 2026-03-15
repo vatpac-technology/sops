@@ -13,7 +13,7 @@
 | **Learmonth ATIS** |                      | **123.300** | **YPLM_ATIS** |
 
 !!! note
-    Learmonth is a [joint military/civil aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
+    YPLM is a [joint military/civil aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
 
 ## Airspace
 LM ADC owns the Class C airspace within the LM CTR from `SFC` to `A015`.
