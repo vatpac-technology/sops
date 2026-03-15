@@ -13,7 +13,7 @@
 | **Gingin ATIS**   |                       | **134.500** | **YGIG_ATIS** |
 
 !!! note
-    Gingin is a [military aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
+    YGIG is a [military aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
 
 ## Airspace
 GIG ADC owns the airspace within the GIG CIRA, which is defined as within **5nm** of the YGIG ARP, *excluding* the area south of **12 TACAN PEA**, from `SFC` to `A035`.
