@@ -198,3 +198,20 @@ Predictable Sequencing waypoints have been defined for aircraft inbound to Perth
 The Predictable Sequencing waypoints work best when the delay required to achieve the sequence is known *and not likely to change further*. If an aircraft might need further vectoring or holding action beyond the delay offered by a reroute, the technique should not be used.
 
 Similarly, when an aircraft appears to be unable to fly a reroute (such as an outdated AIRAC) conventional techniques should be used.
+
+### Usage with MAESTRO
+
+The [MAESTRO](../client/maestro.md) calculated delay can be used to ascertain which CDO waypoint to use.
+It's recommended to use a combination of speed control and re-routing when speed control is insufficient.
+
+Before issuing re-routing instructions, verify the `ETA_FF` is accurate using the BRL, or by asking the pilot for their estimate.
+If the `ETA_FF` in MAESTRO is inaccurate, use the "Change ETA_FF` function to adjust it. MAESTRO will re-position the flight, and re-calculate the required delay if necessary.
+Once the required delay is known, issue the re-route to the pilot, and update the FDR to reflect the new routing.
+
+If the "Change ETA_FF" function was used, the `ETA_FF` will not change after the re-route has been entered into the FDR.
+Use the "Change ETA_FF" function again to reflect the new `ETA_FF` with the re-route, or recompute the flight if "Change ETA_FF" is impractical.
+
+MAESTRO will re-calculate the delay remaining to account for the re-route via the CDO waypoints within 30 seconds.
+If the flight is recomputed, the required delay will also be re-calculated.
+
+TODO: Screenshot
