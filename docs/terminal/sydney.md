@@ -247,7 +247,22 @@ SFW/SFE may provide distance to touchdown, when transferring an aircraft to towe
     "QFA490, 8 miles to touchdown, contact tower 120.5"
 
 ### YWLM STARs
-SY TCU is responsible for issuing STARs to aircraft inbound to YWLM via **EKIPU** and **OVLUX**. Aircraft shall be assigned the **EKIPU** or **OVLUX** STAR (as appropriate) by default, unless coordinated otherwise (eg. via the **IVTAG** STAR).
+YWLM arrivals from the south and west will transit the SY TCU as they descend. BIK/KAT will provide these aircraft with their STAR clearance and initial descent, before conduct heads-up coordination with the relevant SY TCU controller to facilitate further descent.
+
+!!! phraseology
+    <span class="hotline">**BIK** -> **SAS**</span>: "via RIVET, JST472, will be assigned `F250`"  
+    <span class="hotline">**SAS** -> **BIK**</span>: "JST472, `F250`" 
+
+SY TCU is then responsible for facilitating descent to these aircraft to `F130` (or an otherwise [coordinated level](#ywlm-arrivals)), before handing the aircraft to ARL(MLD).
+
+Alternately, SY TCU may coordinate `F130` "[no frequency requirements](../../controller-skills/coordination/#no-frequency-requirements-nfr)" with BIK/KAT, if traffic levels allow. This permits BIK/KAT to provide the aircraft with continuous descent as they pass through the TMA.
+
+
+!!! phraseology
+    <span class="hotline">**BIK** -> **SAS**</span>: "via RIVET, QLK1997, will be assigned `F250`"  
+    <span class="hotline">**SAS** -> **BIK**</span>: "QLK1997, `F130` and no frequency requirements."  
+    <span class="hotline">**BIK** -> **SAS**</span>: "QLK1997, `F130`."  
+    *BIK will put SAS C130 NFR in the label data, and hand the aircraft directly off to ARL(MLD).*
 
 ## Offline Towers
 ### BK ADC Offline
@@ -477,7 +492,7 @@ Additionally, Voiceless Coordination exists to ARL(All) for aircraft:
 - Assigned the lower of `F130` or the `RFL`
 
 !!! note
-    YWLM arrivals are handed off to ARL(MLD), not directly to WLM TCU, unless coordinated as such
+    YWLM arrivals are handed off to ARL(MLD), not directly to WLM TCU, unless otherwise coordinated.
 
 #### Arrivals
 Voiceless for all aircraft:
