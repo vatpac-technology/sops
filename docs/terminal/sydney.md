@@ -255,7 +255,7 @@ YWLM arrivals from the south and west will transit the SY TCU as they descend. B
 
 SY TCU is then responsible for facilitating descent to these aircraft to `F130` (or an otherwise [coordinated level](#ywlm-arrivals)), before handing the aircraft to ARL(MLD).
 
-Alternately, SY TCU may coordinate `F130` "[no frequency requirements](../../controller-skills/coordination/#no-frequency-requirements-nfr)" with BIK/KAT, if traffic levels allow. This permits BIK/KAT to provide the aircraft with continuous descent as they pass through the TMA.
+Alternately, SY TCU may coordinate `F130` and "[no frequency requirements](../../controller-skills/coordination/#no-frequency-requirements-nfr)" with BIK/KAT, if traffic levels allow. This permits BIK/KAT to provide the aircraft with continuous descent as they transit the TMA.
 
 
 !!! phraseology
