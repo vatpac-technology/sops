@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name                    | Callsign         | Frequency | Login ID    |
-| ----------------------- | --------- | ---------------- | --------- |
-| **Nausori Approach** | **Nausori Approach** | **119.700**   | **NFNA_APP**  | 
+| Name                          | ID        | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | --------- | ----------------------- | ----------- | ------------- |
+| **Nausori Approach**          | **NFNAA** | **Nausori Approach**    | **119.700** | **NFNA_APP**  | 
 
 ## Airspace
 The vertical limits of the NFNA TCU are `SFC` to `F250`. **NFNA ADC** is responsible for the airspace within the NFNA CTR from `SFC` to `A025`.
@@ -17,6 +17,9 @@ The vertical limits of the NFNA TCU are `SFC` to `F250`. **NFNA ADC** is respons
 ![NFNA TCU Structure](../img/nfna_tcu.png){ width="700" }
   <figcaption>NFNA TCU Structure</figcaption>
 </figure>
+
+### Extending
+NFNAA may extend to NFFNA and vice versa. See [Controller Skills](../../../controller-skills/extending.md) for details.
 
 <!----## Separation--->
 ## Local Procedures
