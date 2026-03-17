@@ -70,7 +70,7 @@ If the pilot **does not** nominate a gate, or nominates a gate that does not pro
 | R586            | Gates 1-3           |
 
 !!! tip
-    [Coordination requirements](#acd-to-wlm-tcu) between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU before providing clearance
+    [Coordination requirements](#acd-to-wlm-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU before providing clearance
 
 ### Special Use Airspace
 #### Salt Ash SUA
@@ -149,16 +149,9 @@ The Standard Assignable level from WLM ADC to WLM TCU is:
 | Aircraft | Level |
 | ------- | ----- |
 | All | The lower of `F120` and `RFL` |
-
-### Arrivals/Overfliers
-Voiceless coordination is in place from WLM TCU to WLM ADC for arrivals cleared for an approach on to a runway nominated on the ATIS. All other aircraft and all overfliers must be heads-up coordinated as soon as practical.
-
-!!! phraseology
-    <span class="hotline">**WAL** -> **WLM ADC**</span>: "via WLM, ZULU, Close formation of 5, do you have any restrictions or requirements?”  
-    <span class="hotline">**WLM ADC** -> **WAL**</span>: "ZULU, no restrictions or requirements, `A040`" 
     
 ### ACD to WLM TCU
-The controller assuming responsibility of **WLM ACD** shall give [heads-up](../../controller-skills/coordination.md#airways-clearance) coordination to WAL (or the enroute controller responsible for the WLM TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
+The controller assuming responsibility of **ACD** shall give [heads-up](../../controller-skills/coordination.md#airways-clearance) coordination to WAL (or the enroute controller responsible for the WLM TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
 
 !!! phraseology
     <span class="hotline">**WLM ACD** -> **WAL**</span>: "PTHR11 requests clearance to R570 via Thunder corridor.”  
