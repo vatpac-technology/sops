@@ -14,100 +14,127 @@
 | **Williamtown ATIS** |                       | **134.450** | **YWLM_ATIS** |
 
 ## Airspace
-WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be amended/released as required between WLM ADC and WLM TCU.
+WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A015`).
 
 <figure markdown>
 ![WLM ADC Airspace](img/wlmadc.png){ width="700" }
   <figcaption>WLM ADC Airspace</figcaption>
 </figure>
 
+### Restricted Area Activations
+There are no [restricted areas or MOAs](../../controller-skills/sua) activated by default when WLM ADC is online.
+
 ## Local Procedures
-### Initial and Pitch Procedures 
-The Intial Points for RWY 12 is the SW tip of Grahamstown Dam, and RWY 30 is the coastline.
+### Initial and Pitch
+The [intial points](../../controller-skills/military/#initial-and-pitch) are aligned with Taxiway A at the following locations.
 
-### Fast-Jet SIDs
+| RWY  | Initial Point | Altitude |
+| ---- | ------------- | --------------------------- |
+| 12   | South-western tip of Grahamstown Dam | `A025`<br>(`A020` for PC21) |
+| 30   | Intersection of the coast and extended Taxiway A centreline | `A025`<br>(`A020` for PC21) |
+
 #### Coded Clearances
-High performance military jet aircraft with planned operations in SUAs,, shall be assigned a Coded Clearance departure. These Coded Clearances provide a standardised corridor avoiding civilian traffic in the adjacent airspace. 
-
-!!! tip
-    Descriptions of the coded clearances are available in the [FIHA AD2 Supps](https://ais-af.airforce.gov.au/australian-aip){target=new}.
-
-##### Departures
-| Departure | Initial Constraint | Route |
-| --------- | ----------| --------- |
-| Pepper 1 | RWY12: None, RWY30: `F130` by OLVEP or<br> `A080` by ERVEV| RWY12: UDIXA, RWY30: OLVEP or<br>ERVEV|
-| Classic 1 | RWY12: None, RWY30: `A090` by UKDIP or<br> `F130` by OLVEP | RWY12:: None, RWY30: OLVEP or<br>ERVEV|
-| Storm 1 | `F140` by THUDA | THNDA TG3 TG4 |
-
-##### Arrivals
-| Arrivals | Initial Constraint | Route
-| Storm 2 | `F130` by STORM | TG5 TG4 STORM |
-
-!!! phraseology
-    *BARN21 plans to enter M550 via the gate 4 for military training.*  
-    **WLM ADC**: "BARN21, cleared to YWLM via ERVEV, thence Pepper 1, Gate 4 transition, flight planned route. Runway 30, visual departure, climb to `A080`, squawk 6002, departure frequency 135.7"   
+Aircraft departing to the western training areas should be cleared the **STORM 1** coded clearance, in addition to the [appropriate SID](#sid-selection). The **STORM 1** coded clearance gives aircraft permission to transit via the **[Thunder Corridor](../../terminal/williamtown/#thunder-corridor)**, a [military corridor](../../controller-skills/military/#military-corridors) that connects the WLM TCU to the R560 amd R570 restricted areas.
 
 !!! phraseology
     *MAPL21 plans to enter R570 via THNDA for military training.*  
-    **WLM ADC**: "BARN21, cleared to YWLM via THNDA, thence Storm 1, flight planned route, Storm 2 Arrvial, Runway 30, visual departure, climb to `FL140`, squawk 6003, departure frequency 135.7" 
+    **WLM ADC**: "BARN21, Cleared Storm 1. Runway 12, CLASSIC departure. Climb via SID to `FL110`, squawk 6003, departure frequency 135.7"
 
-!!! Note
-  WLM ADC can issue both outbound and inbound clearances into R560 and R570 during initial airways clearance
+#### Military Gates
+There are numerous [military gates](../../controller-skills/military/#military-gates) established throughout the WLM TCU to facilitate entry and exit to adjoining SUA.
 
-#### Eastern Airspace
-There are 8 gates to facilitate departures and arrivals into the eastern training airspace, based on the WLM TACAN. 
+<figure markdown>
+![WLM SUA Gates](../../terminal/img/wlm_mil_gates.png){ width="700" }
+  <figcaption>WLM SUA Gates</figcaption>
+</figure>
 
-| Gate Name | Ident | Bearing (°M) | Distance (nm) | Restricted Area |
-| ----- | ---------| --------------- | -------- | ---------------- |
-| Gate 1 | G1 | 029 | 25 | R586 |
-| Gate 2 | G2 | 050 | 25 | R586 | 
-| Gate 3 | G3 | 065 | 25 | M550 |
-| Lighting Corridor | LG | 068 | 25 | M550|
-| Gate 4 | G4 | 088 | 25 | M550 |
-| Gate 5 | G5 | 105 | 25 | M550 |
-| Gate 6 | G6 | 125 | 25 | M550 |
-| Gate 7 | G7 | 135 | 25 | M550 |
-| Gate 9 | G9 | 007 | 25 | R585 |
-| Gate 10 | G10 | 345 | 25 | R585 |
-| Gate 11 | G11 | 320 | 25 | R585 |
-
-Aircraft planning to enter certain areas of the Eastern GFTA are required to be assigned certain gates.
-
-| Gate Name | Ident | Bearing (°M) | Distance (nm) | Restricted Area |
-| ----- | ---------| --------------- | -------- | ---------------- |
-| Gate 1 | G1 | 029 | 25 | R586 |
-| GFTA | Gate/Lane |
-| A1 | Gate 7 |
-| A/B | Gate 6 |
-| B1  | Gate 4 |
-| C-G | Lighting Corridor |
-| H | Gates 1 to 3 |
-| W | Gate 1 |
-| X, Y, Z | Gates 9 to 11 |
+Pilots should include the desired departure gate when requesting clearance.
 
 !!! phraseology
-    *DPOT45 is departing Williamtown via Gate 4 for Echo Delta *  
-    **WLM SMC**: "DPOT45 cleared Gate 4, FL120, Visual Departure squawk 6001, departure frequency 135.700"
-    **DPOT45**: "Cleared Gate 4, Climb FL120, Visual Departure squawk 6001, departures on 135.700"
+    *RPLC15 plans to enter the M581 MOA via Gate 7 for military training and airwork.*  
+    **RPLC15**: "Willy Delivery, RPLC15 for Gate 7, `F120` for M581, request clearance."
+    **WLM ACD**: "RPLC15, Willy Delivery. Cleared Gate 7, Classic departure. Climb via SID to `F120`, squawk 6001, departure frequency 135.7."   
 
-#### Western Gates
-There are 2 gates to facilitate departures and arrivals into the western training airspace, based on the WLM TACAN. 
+If the pilot **does not** nominate a gate, or nominates a gate that does not provide access to their intended SUA, WLM ACD should clear the aircraft to depart via the **appropriate gate**.
 
-| Gate Name | Ident | Bearing (°M) | Distance (nm) | Restricted Area |
-| ----- | ---------| --------------- | -------- | ---------------- |
-| THNDA | THNDA | 311 | 25 | R560 and R570  |
-| STORM | STORM | 289 | 25 | R560 and R570 | 
+| Intended SUA    | TCU Exit Gate       |
+| --------------- | ------------------- |
+| M581            | Gates 4-7           |
+| M582            | Gate 6              |
+| M583            | Lightning Gate (LG) |
+| M584            | Lightning Gate (LG) |
+| R585A           | Gate 1              |
+| R585B           | Gate 9              |
+| R585C           | Gate 10             |
+| R585D           | Gate 11             |
+| R586            | Gates 1-3           |
 
-### Initial and Pitch Procedures 
-The Intial Points for RWY 12 is the SW tip of Grahamstown Dam, and RWY 30 is the coastline.
+!!! tip
+    [Coordination requirements](#acd-to-wlm-tcu) between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU before providing clearance
+
+### Special Use Airspace
+#### Salt Ash SUA
+The Salt Ash Air Weapons Range is located within the WLM MIL CTR, and is used for air-surface gunnery and bombing practice. It is entirely contained within the R596 [restricted area](../../controller-skills/sua/#restricted-areas).
+
+<figure markdown>
+![The Salt Ash Weapons Range](../../terminal/img/wlm_salt_ash.png){ width="700" }
+  <figcaption>The Salt Ash Air Weapons Range</figcaption>
+</figure>
+
+The restricted area can be activated in two configurations according to the requirements of the operation. Only VFR aircraft are permitted.
+
+| Configuration Name | Vertical Limits  | Notes  | 
+| ------------------ | ---------------- | ------ |
+| R596 High          | `SFC` - `A130`   | Aircraft will remain on local QNH above `A100` |
+| R596 Low           | `SFC` - `A050`   |        |
+
+When the R596 restricted area is active all airspace within the SUA is managed by **WAL**, and the [ATIS should be updated](#sua-activations) to reflect the activation.
+
+Aircraft departing YWLM for the [Salt Ash Air Weapons Range (R596)] should be cleared the **SALT ASH** departure, in lieu of a SID. On this departure, aircraft will maintain runway heading until turning between 2 TAC and 7.5 TAC WLM to enter the restricted area.
+
+!!! phraseology
+    *RPLC15 plans to enter the M581 MOA via Gate 7 for military training and airwork.*  
+    **PTHR21**: "Willy Delivery, PTHR21 for Salt Ash High, `A100`, transit not above `A050`, request clearance."
+    **WLM ACD**: "PTHR21, Willy Delivery. Standby."  
+    *WLM ACD [coordinates the SUA activation request](#acd-to-wlm-tcu) with WAL*  
+    **WLM ACD**: "PTHR21, clearance available."  
+    **PTHR21**: "PTHR21"  
+    **WLM ACD**: "PTHR21, cleared Salt Ash runway 12 departure, transit `A050` for operations in Salt Ash High, not above `A100`, squawk 6001."
 
 ## SID Selection
-Aircraft planned via **KEXAR**, **LIMLO**, **MONDO**, and **UBSON** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
+### Civil Aircraft
+Civil aircraft planned via **KEXAR**, **LIMLO**, **MONDO**, and **[UBSON](#ubson-departures)** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. Civil jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
-Aircraft unable to accept a procedural SID, and **non-RNAV** aircraft shall be assigned either the RADAR SID or a visual departure.
+Civil aircraft unable to accept a procedural SID and **non-RNAV** aircraft shall be assigned either the RADAR SID or a visual departure.
 
-!!! note 
-    ^ When the R596 area is active, aircraft planned via **UBSON** and departing Runway 12 shall be assigned the **UBSON BRAVO** SID.
+#### UBSON Departures
+When the R596 restricted area is active, aircraft planned via **UBSON** and departing Runway 12 shall be assigned the **UBSON BRAVO** SID.
+
+### Military Aircraft
+Military aircraft planned for **Gate 1 and Gate 2** shall be assigned the **PEPPER** SID.
+
+Military aircraft planned for **Gates 3-7**, or for the western training areas, shall be assigned the **CLASSIC** SID. Aircraft planned for the western training areas will additionally be cleared via the **STORM** [coded clearance](#storm-coded-clearance).
+
+Military Aircraft planned for the **[Salt Ash Air Weapons Range](#salt-ash-sua)** shall be assigned a **SALT ASH** departure.
+
+All other military aircraft, including military aircraft that are unable to fly a SID, shall be assigned either the RADAR SID or a visual departure.
+
+## ATIS
+### Approach Types
+During high levels of military traffic, **WAL** may nominate [stereo approaches](../../military/#stereo-approaches) as the preferred approach type.
+
+| Condition         | ATIS APCH field |
+| ----------------- | --------------- |
+| Stereo Approaches | `MIL ACFT EXP STEREO APCH` |
+
+### Operational Info
+#### SUA Activations
+The Operational Information field should be updated when either of the [Salt Ash Weapons Range](#salt-ash-sua) restricted areas are active.
+
+| Activated SUA | OPR INFO Field |
+| ------------- | -------------- |
+| R596 High     | `R 5 9 6 HIGH ACTIVE` |
+| R596 Low      | `R 5 9 6 LOW ACTIVE`  |
 
 ## Coordination
 ### Auto Release
@@ -128,9 +155,16 @@ Voiceless coordination is in place from WLM TCU to WLM ADC for arrivals cleared 
 
 !!! phraseology
     <span class="hotline">**WAL** -> **WLM ADC**</span>: "via WLM, ZULU, Close formation of 5, do you have any restrictions or requirements?”  
-    <span class="hotline">**WLM ADC** -> **WAL**</span>: "ZULU, no restrictions or requirements, `A040`"  
+    <span class="hotline">**WLM ADC** -> **WAL**</span>: "ZULU, no restrictions or requirements, `A040`" 
+    
+### ACD to WLM TCU
+The controller assuming responsibility of **WLM ACD** shall give [heads-up](../../controller-skills/coordination.md#airways-clearance) coordination to WAL (or the enroute controller responsible for the WLM TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
 
+!!! phraseology
+    <span class="hotline">**WLM ACD** -> **WAL**</span>: "PTHR11 requests clearance to R570 via Thunder corridor.”  
+    <span class="hotline">**WAL** -> **WLM ACD**</span>: "PTHR11, clearance approved."
+    
 ## Charts
 !!! abstract "Reference"
-    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
+    In addition to the civilian `ERSA` and `AIP` publications, [the RAAF AIP website](https://ais-af.airforce.gov.au/australian-aip){target=new} contains the necessary charts (available in the TERMA) and description of procedures (in each airports' FIHA).
 
