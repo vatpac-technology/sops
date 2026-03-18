@@ -97,7 +97,6 @@ The **Thunder Corridor** is used by aircraft to transit civilian enroute airspac
 
 Aircraft departing to the areas will be cleared the **STORM 1** coded clearance by ACD, aircraft returning to the airport will be cleared the **STORM 2** coded clearance by ARL.
 
-
 Aircraft transiting the Thunder Corridor should be assigned the appropriate altitude to ensure separation with opposite direction traffic while transiting to their desired restricted area.
 
 | Coded Clearance | Altitude |
