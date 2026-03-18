@@ -35,7 +35,7 @@ WLM ADC is responsible for the airspace within the WLM MIL CTR A from `SFC` to `
 There are no [restricted areas or MOAs](../../controller-skills/sua) activated by default when WAL is online.
 
 #### SUA in Enroute Airspace
-Most military operations will take place in SUA nearby the TCU in enroute airspace. WLM TCU must coordinate the activation of these SUAs with the relevant enroute controllers **prior** to [approving any clearances](#acd-to-tcu)
+Most military operations will take place in SUA nearby the TCU in enroute airspace. WLM TCU must coordinate the activation of these SUAs with the relevant enroute controllers **prior** to [approving any clearances](#acd-to-wlm-tcu)
 
 !!! phraseology
     <span class="hotline">**WAL** -> **ARL**</span>: "Request activation of M581-M584 from 0300 until 0500, for military flying operations. My onwards with HWE.”  
@@ -262,7 +262,7 @@ The Standard Assignable level from WLM ADC to WLM TCU is:
 | All | The lower of `F120` and `RFL` | 
     
 ### ACD to WLM TCU
-The controller assuming responsibility of **ACD** shall give [heads-up](../../controller-skills/coordination.md#airways-clearance) coordination to WAL (or the enroute controller responsible for the WLM TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
+The controller assuming responsibility of **ACD** shall give [heads-up](../controller-skills/coordination/#airways-clearance) coordination to WAL (or the enroute controller responsible for the WLM TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
 
 !!! phraseology
     <span class="hotline">**WLM ACD** -> **WAL**</span>: "PTHR11 requests clearance to R570 via Thunder corridor.”  
