@@ -35,7 +35,9 @@ WLM ADC is responsible for the airspace within the WLM MIL CTR A from `SFC` to `
 There are no [restricted areas or MOAs](../../controller-skills/sua) activated by default when WAL is online.
 
 #### SUA in Enroute Airspace
-Most military operations will take place in SUA nearby the TCU in enroute airspace. WLM TCU must coordinate the activation of these SUAs with the relevant enroute controllers **prior** to [approving any clearances](#acd-to-wlm-tcu)
+Most military operations will take place in SUA nearby the TCU in enroute airspace.
+
+WLM TCU must coordinate the activation of these SUAs with the relevant enroute controllers **prior** to [approving any clearances](#acd-to-wlm-tcu).
 
 !!! phraseology
     <span class="hotline">**WAL** -> **ARL**</span>: "Request activation of M581-M584 from 0300 until 0500, for military flying operations. My onwards with HWE.”  

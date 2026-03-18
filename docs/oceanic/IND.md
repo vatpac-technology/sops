@@ -16,17 +16,17 @@
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
-The Primary Communication Method for IND is [CPDLC](../../../client/cpdlc). Voice may be used in lieu when applicable. The CPDLC Station Code is `YIND`.
+The Primary Communication Method for IND is [CPDLC](../../client/cpdlc). Voice may be used in lieu when applicable. The CPDLC Station Code is `YIND`.
 
 ## Airspace
 
 <figure markdown>
-![Indian Airspace (Zoomed)](../assets/indzoomin.png){width="700" }
+![Indian Airspace (Zoomed)](img/indzoomin.png){width="700" }
   <figcaption>Indian Airspace (Zoomed)</figcaption>
 </figure>
 
 <figure markdown>
-![Indian Airspace](../assets/indzoomout.png){width="700" }
+![Indian Airspace](img/indzoomout.png){width="700" }
   <figcaption>Indian Airspace</figcaption>
 </figure>
 
@@ -40,20 +40,20 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| IND | HYD(LEA, JAR) | YPPH | |
+| IND  | HYD(LEA, JAR) | YPPH | |
 
 ## Coordination
 ### Domestic Enroute
-As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+As per [Standard coordination procedures](../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
 
 ### IND Internal
-As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+As per [Standard coordination procedures](../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
 
 ### TSN/NZZO/NZCM (Pacific Oceanic)
-As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+As per [Standard coordination procedures](../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
 
 ### International Non-Pacific
-As per [Standard coordination procedures](../../../controller-skills/coordination/#other-units), Heads-up Coordination required for all aircraft prior to **30 mins** from boundary.
+As per [Standard coordination procedures](../../controller-skills/coordination/#other-units), Heads-up Coordination required for all aircraft prior to **30 mins** from boundary.
 
 !!! phraseology
     <span class="coldline">**IND** -> **FAJO FSS**</span>: "Estimate, SAA281, XEKOT time 44, F360"  
