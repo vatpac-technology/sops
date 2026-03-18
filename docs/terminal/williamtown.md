@@ -23,113 +23,143 @@ WLM TCU owns the airspace within the WLM MIL CTR `SFC` to `F125`.
   <figcaption>WLM TCU Structure</figcaption>
 </figure>
 
-## Airspace Division
-### Williamtown High and Low
-**WLM APP** owns the WLM TCU airspace `SFC` to `F125`.
-
-**WLM-H_APP** owns the airspace above  `F125` when activated by ad-hoc release or NOTAM.
-
-!!! note
-    It is the responsibility of the WLM TCU controller(s) to negotiate any airspace releases with ARL.
-
 ### WLM ADC
-When WLM ADC is online, they own the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be amended/released as required between **WLM ADC** and **WLM TCU**.
+WLM ADC is responsible for the airspace within the WLM MIL CTR A from `SFC` to `A015`.
 
-<figure markdown>
-![WLM ADC Airspace](img/wlmadc.png){ width="700" }
-  <figcaption>WLM ADC Airspace</figcaption>
-</figure>
+### Airspace Division
+**WAL** owns the WLM TCU airspace `SFC` to `F125`.
 
-## Local Procedures
-### Stereo Approaches (Fast Jet Aircraft)
+**WAH** owns any airspace above `F125` activated by ad-hoc release with ARL or NOTAM.
 
-Fast jet aircraft typically transit from M550 to YWLM via Gate 6 at `F125`. When requested, or advised via ATIS, the stereo approach may be utilised to facilitate aircraft recovery.
+### Restricted Area Activations
+There are no [restricted areas or MOAs](../../controller-skills/sua) activated by default when WAL is online.
 
-!!! tip
-    See [Controller Skills](../controller-skills/military.md#stereo-approaches) for more details about stereo approaches.
-    See [SUA Gates](../terminal/williamtown.md#sua-gates) for more details about Williamtowns Gate Locations.
+#### SUA in Enroute Airspace
+Most military operations will take place in SUA nearby the TCU in enroute airspace. WLM TCU must coordinate the activation of these SUAs with the relevant enroute controllers **prior** to [approving any clearances](#acd-to-tcu)
 
 !!! phraseology
-    **MAPL45**: "Willy Approach, MAPL45, RTBing via G6, runway 12"  
-    **WAL**: "MAPL45, Willy Approach, cleared stereo approach runway 12, via G6, once 9DME north of the TACAN, descend not below `A050`"  
-    **MAPL45**: "Cleared stereo approach runway 12, via G6, once 9DME north of the TACAN, descend not below `A050`, MAPL45"
+    <span class="hotline">**WAL** -> **ARL**</span>: "Request activation of M581-M584 from 0300 until 0500, for military flying operations. My onwards with HWE.”  
+    <span class="hotline">**ARL** -> **WAL**</span>: "Activation approved."  
 
-!!! note
-    Stereo approach charts are available in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}.
+## Local Procedures
+### Initial and Pitch
+The [intial points](../../controller-skills/military/#initial-and-pitch) are aligned with Taxiway A at the following locations.
 
-### SUA Gates
+| RWY  | Initial Point | Altitude |
+| ---- | ------------- | --------------------------- |
+| 12   | South-western tip of Grahamstown Dam | `A025`<br>(`A020` for PC21) |
+| 30   | Intersection of the coast and extended Taxiway A centreline | `A025`<br>(`A020` for PC21) |
+
+### Military Gates
+There are numerous [military gates](../../controller-skills/military/#military-gates) established throughout the WLM TCU to facilitate entry and exit to adjoining SUA.
 
 <figure markdown>
 ![WLM SUA Gates](img/wlm_mil_gates.png){ width="700" }
   <figcaption>WLM SUA Gates</figcaption>
 </figure>
 
-#### Eastern Airspace
-There are 8 gates to facilitate departures and arrivals into the eastern training airspace, based on the WLM TACAN. 
-
-| Gate Name | Ident | Bearing (°M) | Distance (nm) | Restricted Area |
-| ----- | ---------| --------------- | -------- | ---------------- |
-| Gate 1 | G1 | 029 | 25 | R586 |
-| Gate 2 | G2 | 050 | 25 | R586 | 
-| Gate 3 | G3 | 065 | 25 | M550 |
-| Lighting Corridor | LG | 068 | 25 | M550|
-| Gate 4 | G4 | 088 | 25 | M550 |
-| Gate 5 | G5 | 105 | 25 | M550 |
-| Gate 6 | G6 | 125 | 25 | M550 |
-| Gate 7 | G7 | 135 | 25 | M550 |
-| Gate 9 | G9 | 007 | 25 | R585 |
-| Gate 10 | G10 | 345 | 25 | R585 |
-| Gate 11 | G11 | 320 | 25 | R585 |
-
-Aircraft planning to enter certain areas of the Eastern GFTA are required to be assigned certain gates. 
-| GFTA | Gate/Lane |
-| A1 | Gate 7 |
-| A/B | Gate 6 |
-| B1  | Gate 4 |
-| C-G | Lighting Corridor |
-| H | Gates 1 to 3 |
-| W | Gate 1 |
-| X, Y, Z | Gates 9 to 11 |
-
 !!! phraseology
-    *DPOT45 is departing Williamtown via Gate 4 for Echo Delta *  
-    **WLM SMC** -> **DPOT45**: "DPOT45 cleared Gate 4, FL120, Visual Departure squawk 6001, departure frequency 135.700"
+    *RPLC15 plans to enter the M581 MOA via Gate 7 for military training and airwork.*  
+    **RPLC15**: "Willy Delivery, RPLC15 for Gate 7, `F120` for M581, request clearance."
+    **WLM ACD**: "RPLC15, Willy Delivery. Cleared Gate 7, Classic departure. Climb via SID to `F120`, squawk 6001, departure frequency 135.7."   
 
-#### Western Gates
-There are 2 gates to facilitate departures and arrivals into the western training airspace, based on the WLM TACAN. 
+If the pilot **does not** nominate a gate, or nominates a gate that does not provide access to their intended SUA, WLM ACD should clear the aircraft to depart via the **appropriate gate**.
 
-| Gate Name | Ident | Bearing (°M) | Distance (nm) | Restricted Area |
-| ----- | ---------| --------------- | -------- | ---------------- |
-| THNDA | THNDA | 311 | 25 | R560 and R570  |
-| STORM | STORM | 289 | 25 | R560 and R570 | 
-
-#### Coded Clearances
-High performance military jet aircraft with planned operations in SUAs,, shall be assigned a Coded Clearance departure. These Coded Clearances provide a standardised corridor avoiding civilian traffic in the adjacent airspace. 
+| Intended SUA    | TCU Exit Gate       |
+| --------------- | ------------------- |
+| M581            | Gates 4-7           |
+| M582            | Gate 6              |
+| M583            | Lightning Gate (LG) |
+| M584            | Lightning Gate (LG) |
+| R585A           | Gate 1              |
+| R585B           | Gate 9              |
+| R585C           | Gate 10             |
+| R585D           | Gate 11             |
+| R586            | Gates 1-3           |
 
 !!! tip
-    Descriptions of the coded clearances are available in the [FIHA AD2 Supps](https://ais-af.airforce.gov.au/australian-aip){target=new}.
+    [Coordination requirements](#acd-to-wlm-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU before providing clearance
+    
+### Military Corridors
+There are two [military corridors](../controller-skills/military/#military-corridors) established around the WLM TCU to facilitate transit of military aircraft between the TCU and adjoining SUAs.
 
-##### Departures
-| Departure | Initial Constraint | Route |
-| --------- | ----------| --------- |
-| Pepper 1 | RWY12: None, RWY30: 'F130' by OLVEP or<br> 'A080' by ERVEV| RWY12: UDIXA, RWY30: OLVEP or<br>ERVEV|
-| Classic 1 | RWY12: None, RWY30: 'A090' by UKDIP or<br> 'F130' by OLVEP | RWY12:: None, RWY30: OLVEP or<br>ERVEV|
-| Storm 1 | 'F140' by THNDA | THNDA TG3 TG4 |
+<figure markdown>
+![WLM TCU Military Corridors](img/wlm_mil_corridors.png){ width="700" }
+  <figcaption>WLM TCU Military Corridors</figcaption>
+</figure>
 
-##### Arrivals
-| Arrivals | Initial Constraint | Route
-| Storm 2 | 'F130' by STORM | TG5 TG4 STORM |
+These corridors are located **outside** the jurisdiction of the WLM TCU.
+
+#### Thunder Corridor
+The **Thunder Corridor** is used by aircraft to transit civilian enroute airspace between the WLM TCU and the R560 and R570 restricted areas.
+
+Aircraft departing to the areas will be cleared the **STORM 1** coded clearance by ACD, aircraft returning to the airport should be cleared the **STORM 2** coded clearance.<!-- by WAL.
 
 !!! phraseology
-    *BARN21 plans to enter M550 via the gate 4 for military training.*  
-    **WLM ADC**: "BARN21, cleared to YWLM via ERVEV, thence Pepper 1, Gate 4 transition, flight planned route. Runway 30, visual departure, climb to `A080`, squawk 6002, departure frequency 135.7"   
+    **DPOT12**: "Willy Approach, DPOT12, detail complete for RTB, `F130`."  
+    **WAL**: "DPOT12, Willy Approach, cleared Storm 2"
+-->
+Aircraft transiting the Thunder Corridor should be assigned the appropriate altitude to ensure separation with opposite direction traffic while transiting to their desired restricted area.
+
+| Coded Clearance | Altitude |
+| --------------- | -------- |
+| STORM 1         | `F140`   |
+| STORM 2         | `F130`   |
+
+!!! note
+    Aircraft tracking via the STORM coded clearance does **not** constitute a voiceless coordination route between WLM TCU and ARL. Aircraft should still be heads-up coordinated to ARL prior to **5 minutes** to the boundary, unless coordinated otherwise.
+
+#### Lightning Corridor
+The **Lightning Corridor** is used by aircraft to transit between the WLM TCU and the M581-M584 restricted areas. 
+Aircraft will access the corridor through the **[Lightning Gate](#military-gates)** (LG) and transit the corridor before reaching their desired operating area.
+
+The corridor itself is located entirely within SUA, and aircraft entering the corridor from WLM TCU airspace do not need to be handed off to ARL if the restricted areas are active. 
 
 !!! phraseology
-    *MAPL21 plans to enter R570 via THNDA for military training.*  
-    **WLM ADC**: "BARN21, cleared to YWLM via THNDA, thence Storm 1, flight planned route, Storm 2 Arrvial, Runway 30, visual departure, climb to `FL140`, squawk 6003, departure frequency 135.7" 
+    **WAL**: "WGTL45 at LG cleared operating, report [ops normal](../controller-skills/airwork/#ops-normal) time 30."  
+    **WGTL45**: "At LG cleared operating, ops normal time 30, WGTL45."  
+    
+Aircraft transiting the Thunder Corridor should be assigned the appropriate altitude to ensure separation with opposite direction traffic while transiting to their desired restricted area.
 
-!!! Note
-  WLM ADC can issue both outbound and inbound clearances into R560 and R570 during initial airways clearance
+| Coded Clearance | Altitude | Notes |
+| --------------- | -------- | ----- |
+| Outbound        | `A100`-`A140`<br>`A200`-`A240` | Aircraft will remain on local QNH above `A100` |
+| Inbound         | `A050`-`A090`<br>`A150`-`A190` | Aircraft will remain on local QNH above `A100` |
+
+Aircraft returning to base via the corridor will contact WLM TCU prior to leaving their training area. Once the aircraft has been identified by WLM TCU, they will then pass details of their intended return.
+
+!!! phraseology 
+    **WGTL45**: "Willy Approach, WGTL45."  
+    **WAL**: "WGTL45, Willy Approach, identified."   
+    **WGTL45**: "Willy Approach, WGTL45. `A090` visual, for visual approach with information A."      
+
+##### M581-M584 MOA Subsets
+The M581-M584 MOAs are themselves divided into eighteen different subareas that are used to confine different operations within the area. These areas are arranged in a grid pattern and are identified by a grid reference.
+
+| MOA | Subareas |
+| ---- | ------- |
+| M581 | A1, B1, and C1 |
+| M582 | A2, B2, B3, C2, and C3 |
+| M583 | D1-D3, and E1-E3 |
+| M584 | F1-F3, and G |
+
+WLM TCU is not responsible for assigning subareas, or ensuring separation between aircraft operations between areas.
+
+When an aircraft has declared an intention to operate within a subarea, the WLM TCU may provide a traffic statement to help provide situational awareness to the departing aircraft.
+
+!!! phraseology 
+    **WAL**: "WGTL46 at LG cleared operating, number 2 in Bravo One and Charlie One, report [ops normal](../controller-skills/airwork/#ops-normal) time 30.
+
+### Stereo Approaches
+In times of heavy military traffic, WLM TCU may choose to nominate [stereo approaches](../controller-skills/military/#stereo-approaches) as the preferred approach method. When stereo approaches have been nominated, the ATIS [APCH EXP field must be updated](../../aerodromes/classc/Williamtown/#approach-types) accordingly.
+
+Aircraft arriving from Gates 1-4 and 6 will join the stereo approach at the gate; other aircraft may start the approach from overhead WLM TAC.
+
+!!! phraseology
+    *WGTL45 is returning from M581 via Gate 6, and has already been identified. Runway 30 is in use.*
+    **WGTL45**: "Willy Approach, WGTL45. `F150` visual, for stereo approach with information A."  
+    **WAL**: "MAPL45, Willy Approach, cleared stereo approach. At 11 TACAN WLM contact Tower, 118.3"  
+    **MAPL45**: "Cleared stereo approach, tower at 11 TACAN WLM, WGTL45"
 
 ## Flow
 ### Local Knowledge
@@ -188,10 +218,6 @@ The following calculator will generate a landing time from a feeder fix ETA, or 
 
 ## Coordination
 ### ARL(All)
-
-#### Airspace
-Any airspace releases from the default setup must be coordinated and agreed upon with ARL. It is also good practice to remind them of any airspace releases that may be active due to NOTAMs.
-
 #### Departures
 Voiceless for all aircraft:
 
@@ -216,7 +242,7 @@ Voiceless for all aircraft:
 
 All other aircraft coming from ARL CTA will be **Heads-up** Coordinated to WLM TCU.
 
-### ADC
+### WLM ADC
 #### Airspace
 WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be amended/released as required between WLM ADC and WLM TCU.
 
@@ -227,19 +253,19 @@ WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be a
 - Assigned the standard assignable level; and 
 - Assigned a **Procedural** SID
 
+All other aircraft require a 'Next' call to WLM TCU.
+
 The Standard Assignable level from WLM ADC to WLM TCU is:
 
 | Aircraft | Level |
 | ------- | ----- |
-| All | The lower of `F120` and `RFL` |
-
-#### Arrivals/Overfliers
-Voiceless coordination is in place from WLM TCU to WLM ADC for arrivals cleared for an approach on to a runway nominated on the ATIS. All other aircraft and all overfliers must be heads-up coordinated as soon as practical.
+| All | The lower of `F120` and `RFL` | 
+    
+### ACD to WLM TCU
+The controller assuming responsibility of **ACD** shall give [heads-up](../../controller-skills/coordination.md#airways-clearance) coordination to WAL (or the enroute controller responsible for the WLM TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
 
 !!! phraseology
-    <span class="hotline">**WAL** -> **WLM ADC**</span>: "via WLM, ZULU, Close formation of 5, do you have any restrictions or requirements?"  
-    <span class="hotline">**WLM ADC** -> **WAL**</span>: "ZULU, no restrictions or requirements, A040"  
+    <span class="hotline">**WLM ACD** -> **WAL**</span>: "PTHR11 requests clearance to R570 via Thunder corridor.”  
+    <span class="hotline">**WAL** -> **WLM ACD**</span>: "PTHR11, clearance approved."
 
-## Charts
-!!! abstract "Reference"
-    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
+Most military operations will take place in SUA adjoining the [TCU in enroute airspace](#sua-in-enroute-airspace). WLM TCU must coordinate the activation of these SUAs with the relevant enroute controllers **prior** to approving any clearances.
