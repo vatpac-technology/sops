@@ -93,12 +93,9 @@ These corridors are located **outside** the jurisdiction of the WLM TCU.
 #### Thunder Corridor
 The **Thunder Corridor** is used by aircraft to transit civilian enroute airspace between the WLM TCU and the R560 and R570 restricted areas.
 
-Aircraft departing to the areas will be cleared the **STORM 1** coded clearance by ACD, aircraft returning to the airport should be cleared the **STORM 2** coded clearance.<!-- by WAL.
+Aircraft departing to the areas will be cleared the **STORM 1** coded clearance by ACD, aircraft returning to the airport will be cleared the **STORM 2** coded clearance by ARL.
 
-!!! phraseology
-    **DPOT12**: "Willy Approach, DPOT12, detail complete for RTB, `F130`."  
-    **WAL**: "DPOT12, Willy Approach, cleared Storm 2"
--->
+
 Aircraft transiting the Thunder Corridor should be assigned the appropriate altitude to ensure separation with opposite direction traffic while transiting to their desired restricted area.
 
 | Coded Clearance | Altitude |
