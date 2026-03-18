@@ -240,11 +240,10 @@ Additionally, Voiceless Coordination exists from SY TCU for aircraft:
 
 - With ADES **YWLM**; and  
 - Assigned a STAR; and  
-- Tracking from **SDN** or **SDS** [airspace](../../../terminal/sydney/#airspace-division); and  
 - Assigned the lower of `F130` or the `RFL`
 
 !!! note
-    YWLM arrivals are handed off to MLD, not directly to WLM TCU, unless coordinated as such
+    YWLM arrivals are handed off to MLD, not directly to WLM TCU, unless otherwise coordinated.
 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
