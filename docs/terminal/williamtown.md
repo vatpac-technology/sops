@@ -31,6 +31,9 @@ WLM ADC is responsible for the airspace within the WLM MIL CTR A from `SFC` to `
 
 **WAH** owns any airspace above `F125` activated by ad-hoc release with ARL or NOTAM.
 
+!!! note
+    The upper limit of **WAH** must be coordinated with ARL *prior* to the position logging on.
+
 ### Restricted Area Activations
 There are no [restricted areas or MOAs](../../controller-skills/sua) activated by default when WAL is online.
 

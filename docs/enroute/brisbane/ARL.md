@@ -392,10 +392,10 @@ The Standard Assignable level from ARL/MDE to **TW ADC** is `A080`, any other le
 #### Airspace
 By default, WLM TCU owns the airspace from `SFC` to `F125`. 
 
-An additional, non-standard TCU position 
-For specific military exercises or events, an additional TCU controller may log on, splitting the TCU vertically. In these situations, the controller will negotiate an upper limit with ARL(All) which works for both parties.
+An additional, non-standard TCU position may be activated for specific military exercises or events to control airspace above `F125`. When this happens, **WAH** owns the airspace above `F125` to the agreed upper limit.
 
-When WLM TCU is active above `F125` by ad-hoc release, **WAH** owns the airspace above `F125`.
+!!! note
+    The upper limit of **WAH** must be coordinated with ARL *prior* to the position logging on.
 
 Refer to [Reclassifications](#reclassifications) for operations when WLM TCU is offline.
 
