@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name | ID | Callsign | Frequency | Login ID |
-| ---- | ---- | ------ | --------- | -------- |
-| **Nadzab Approach** | **AYNZA** | **Nadzab Approach** | **118.600** | **AYNZ_APP** | 
+| Name                          | ID        | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | --------- | ----------------------- | ----------- | ------------- |
+| **Nadzab Approach**           | **AYNZA** | **Nadzab Approach**     | **118.600** | **AYNZ_APP**  | 
 
 ## Airspace
 AYNZA is responsible for the Class C Airspace within the AYNZ TMA `A060` to `F245`.

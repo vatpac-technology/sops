@@ -391,3 +391,4 @@
 *[DRLD]: Dreamworld
 *[COTR]: Cotter
 *[VSOA]: Virtual Special Operations Association
+*[FAF]: Final Approach Fix

@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | -------- |
-| **Nadi Approach** | **Nadi Approach** | **119.100** | **NFFN_APP** | 
+| Name                          | ID        | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | --------- | ----------------------- | ----------- | ------------- |
+| **Nadi Approach**             | **NFFNA** | **Nadi Approach**       | **119.100** | **NFFN_APP**  | 
 
 ## Airspace
 The vertical limits of the NFFN TCU are `SFC` to `F250`. **NFFN ADC** is responsible for the airspace within the NFFN CTR from `SFC` to `A025`.
@@ -17,6 +17,10 @@ The vertical limits of the NFFN TCU are `SFC` to `F250`. **NFFN ADC** is respons
 ![NFFN TCU Structure](../img/nffn_tcu.png){ width="700" }
   <figcaption>NFFN TCU Structure</figcaption>
 </figure>
+
+### Extending
+NFFNA may extend to NFNAA and vice versa. See [Controller Skills](../../../controller-skills/extending.md) for details.
+
 <!---## Separation --->
 ## Local Procedures
 ### Tiliva Training Area
