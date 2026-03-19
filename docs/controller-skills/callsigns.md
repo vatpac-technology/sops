@@ -102,7 +102,7 @@ Aircraft performing special task operations may use a special callsign and desig
 | SVY  | SURVEY     | Aerial Survey (mapping, geographical, etc.)  |
 
 ##### Military
-Aircraft performing simulating military operations may use a military designator listed below.
+Aircraft performing simulating [military operations](../military) may use a military designator listed below.
 
 Some of the more common callsigns are listed below; a complete list is available in [MATS Chapter 6.2](https://www.airservicesaustralia.com/mats/docs/nos-saf-2000.pdf).
 

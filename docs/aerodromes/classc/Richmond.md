@@ -12,6 +12,9 @@
 | **Richmond SMC**   | **Richmond Ground**   | **128.250** | **RI_GND**    |
 | **Richmond ATIS**  |                       | **123.300** | **YSRI_ATIS** |
 
+!!! note
+    YSRI is a [military aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
+
 ## Airspace
 RI ADC being online will activate the **R470** Restricted Area, which is reclassified as **Class C** when active.
 
@@ -40,7 +43,7 @@ There are three training areas located within R470, used for both civil and mili
 A start approval is required whenever parachute drops are conducted onto the Richmond Drop Zone. Additionally, ‘propellers/engines stopped’ reports are required. ATC shall notify these requirements by ATIS broadcast.
 
 ### Inital and Pitch
-The standard [initial](../../../controller-skills/military/#initial-and-pitch) points are 5nm downwind of the active runway, dead side, left pitch/circuit.
+The standard [initial](../../../../controller-skills/military/#initial-and-pitch) points are 5nm downwind of the active runway, dead side, left pitch/circuit.
 
 ## VFR Procedures
 VFR aircraft transiting to/from YSRI should do so at `A015`.
