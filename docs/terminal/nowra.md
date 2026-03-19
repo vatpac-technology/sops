@@ -9,6 +9,9 @@
 | ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
 | **Nowra Approach**            | **NWA** | **Nowra Approach**      | **123.500** | **NW_APP**    |
 
+!!! note
+    Nowra TCU is a [military TCU](../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those in a civil TCU. Ensure you are familiar with the [military controller skills](../../controller-skills/military) necessary to provide a quality service.
+
 ## Airspace
 The vertical limits of the Nowra TCU is `SFC` to `F125`. Where traffic levels (primarily preplanned military operations) warrant, NW TCU may request a release of R420F from `F125` to `F300` from WOL, if online.
 

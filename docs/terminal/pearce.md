@@ -10,6 +10,9 @@
 | ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
 | **Pearce Approach**           | **PEA** |  **Pearce Approach**    | **130.200** | **PE_APP**    |
 
+!!! note
+    Pearce TCU is a [military TCU](../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those in a civil TCU. Ensure you are familiar with the [military controller skills](../../controller-skills/military) necessary to provide a quality service.
+    
 ## Airspace
 The vertical limits of the Pearce TCU is `SFC` to `F160`. 
 

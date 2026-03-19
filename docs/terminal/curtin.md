@@ -10,6 +10,9 @@
 | ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
 | **Curtin Approach**           | **CIA** | **Curtin Approach**     | **121.000** | **CIN_APP**   |
 
+!!! note
+    Curtin TCU is a [joint military/civil TCU](../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those in a civil TCU. Ensure you are familiar with the [military controller skills](../../controller-skills/military) necessary to provide a quality service.
+
 ## Airspace
 The vertical limit of the CIN TCU is `SFC` to `F200`.
 

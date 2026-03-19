@@ -13,6 +13,9 @@
 | **Townsville ACD**  | **Townsville Delivery** | **128.100** | **TL_DEL**    |
 | **Townsville ATIS** |                         | **133.500** | **YBTL_ATIS** |
 
+!!! note
+    YBTL is a [joint military/civil aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
+
 ## Airspace
 TL ADC owns the Class C airspace in the TL CTR (Extends to 7NM from the thresholds of Runway 01/19) from `SFC` to `A015`. This airspace is designed to facilitate Helicopter Traffic and Ciruit Traffic.
 
