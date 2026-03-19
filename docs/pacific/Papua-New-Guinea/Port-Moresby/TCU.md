@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name                      | ID | Callsign         | Frequency | Login ID    |
-| ------------------------- | ----- | --------- | ---------------- | --------- |
-| **Port Moresby Approach** | **AYPYA** | **Jacksons Radar** | **125.800** | **AYPY_APP**	| 
+| Name                          | ID        | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | --------- | ----------------------- | ----------- | ------------- |
+| **Port Moresby Approach**     | **AYPYA** | **Jacksons Radar**      | **125.800** | **AYPY_APP**	| 
 
 ## Airspace
 AYPYA is responsible for the Class C Airspace within the AYPY CTR `A020` to `A150`.
