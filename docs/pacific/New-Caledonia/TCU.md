@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name | ID  | Callsign | Frequency | Login ID |
-| ---- | ----| -------- | --------- | -------- |
-| **Tontouta Approach** | **NWWWA** | **Tontouta Approach**  | **128.300** | **NWWW_APP** |
+| Name                          | ID        | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | --------- | ----------------------- | ----------- | ------------- |
+| **Tontouta Approach**         | **NWWWA** | **Tontouta Approach**   | **128.300** | **NWWW_APP** |
 
 !!! note
 	In New Caledonia, French aviation rules and ATS terminology apply, which can differ significantly from that of other VATPAC areas. Ensure you have reviewed the [Phraseology](../#phraseology) section of the New Caledonia Local Instructions.
