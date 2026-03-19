@@ -149,7 +149,10 @@ An amended level may be instructed, or the term **unrestricted** used to indicat
     
     *QFA442 is assigned a procedural SID from YMML with Auto Release cancelled*  
     <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, QFA442, runway 16"  
-    <span class="hotline">**ML TCU** -> **ML ADC**</span>: "QFA442, unrestricted"  
+    <span class="hotline">**ML TCU** -> **ML ADC**</span>: "QFA442, unrestricted"
+    
+#### After a go around
+Following a go around, the next departure from that runway **must** be next coordinated between the ADC and TCU controllers, regardless if it would otherwise meet the voiceless coordination criteria.
 
 ### Airways Clearance
 The local procedures of some aerodromes require ACD to coordinate with the TCU prior to issuing airways clearance to certain aircraft. This coordination allows the TCU controller to assess the current & projected traffic levels, and current position staffing, and determine whether clearance is available.
@@ -179,7 +182,9 @@ The format is as follows:
 !!! note ""
     <span class="hotline">**SMC** -> **ADC**</span>: "(Aircraft Type) on (Location) to cross (Runway)."  
     <span class="hotline">**ADC** -> **SMC**</span>: "(Aircraft Type) on (Location) cross (Runway)."  
-	  *or*
+	  
+      *or*
+
     <span class="hotline">**ADC** -> **SMC**</span>: "Negative. Hold Short."  
     <span class="hotline">**SMC** -> **ADC**</span>: "Hold Short (Runway)." 
 
@@ -196,16 +201,18 @@ Either ADC or SMC should place a **Runway ## Released to SMC** bar into the **Ru
 ADC can recall a runway release immediately. Upon recall, SMC shall acknowledge the recall with a traffic statement.
 
 !!! phraseology 
-    <span class="hotline">**AD ADC** -> **AD SMC**</span>: "Cancel release of Runway 30"
-    <span class="hotline">**AD SMC** -> **AD ADC**</span>: "Runway 30, no traffic" 
+    <span class="hotline">**AD ADC** -> **AD SMC**</span>: "Cancel release of Runway 30"  
+    <span class="hotline">**AD SMC** -> **AD ADC**</span>: "Runway 30, no traffic"  
+    
 	  *or*	
+
     <span class="hotline">**AD SMC** -> **AD ADC**</span>: "Runway 30, traffic is a B737 crossing on F."
 
 #### Helicopter Air Transit
 A helicopter performing an air transit maneouvre must be coordinated from SMC to ADC.
 
 !!! phraseology 
-    <span class="hotline">**BRM SMC** -> **BRM ADC**</span>: "Robinson 44 on Eastern Heli Parking, for air transit to Western Helipad"
+    <span class="hotline">**BRM SMC** -> **BRM ADC**</span>: "Robinson 44 on Eastern Heli Parking, for air transit to Western Helipad"  
     <span class="hotline">**BRM ADC** -> **BRM SMC**</span>: "Air transit approved."
 
 ## The C-Prompt (Coordination Prompt)

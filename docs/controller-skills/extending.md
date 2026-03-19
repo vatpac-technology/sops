@@ -8,7 +8,7 @@ Extended coverage allows a controller to provide wider coverage to pilots during
 
 Extending to adjacent sectors **must** be done with consideration of the controllers' [workload](#workload-management) to ensure that the quality of service being offered is not degraded. If, at any time, a controller feels that their ability to provide a quality service is being compromised by the additional workload from the secondary sectors, they must cease providing coverage to secondary sectors to reduce workload.
 
-##Enroute
+## Enroute
 Enroute controllers are permitted to *extend* to any **four additional sectors**, provided that the resulting pairing forms a **single, continuously adjacent group**. Controllers with at least 150 hours as a C1 may extend to any **six additional sectors**.
 
 In the example below, **BLA** has elected to extend to **TBD**, **GUN**, **MUN**, and **WOL**. The resulting group of sectors forms a single, continuously adjacent group.
@@ -28,7 +28,7 @@ However, should **BLA** they wish to drop **MUN**, they are no longer able to ex
 Controllers must ensure that when extending, they update their visibility points and have sufficient visibility coverage to cover the **entirety** of all sectors under their jurisdiction. If this is not possible (due to range limitations), that sector **must not be extended**. 
 
 ## Terminal Area
-TCU controllers operating the **[Amberley/Oakey](../../terminal/amberleyoakey)**, **[Brisbane/Gold Coast](../../terminal/brisbane)** **[Coral](../../terminal/coral)**, **[Tasmania](../../terminal/tassie)** TMAs may elect to extend to the adjacent TMA (e.g. HBA extend to LTA) at their discretion.
+TCU controllers operating the **[Amberley/Oakey](../../terminal/amberleyoakey)**, **[Brisbane/Gold Coast](../../terminal/brisbane)**, **[Coral](../../terminal/coral)**, and **[Tasmania](../../terminal/tassie)** TMAs may elect to extend to the adjacent TMA (e.g. HBA extend to LTA) at their discretion.
 
 ## Frequency Management
 When providing extended coverage, controllers must have all the frequencies of the sectors they are extending to **active** and **cross-coupled**. As aircraft pass from one enroute sector to another they must be instructed to change frequency to remain in VHF coverage.

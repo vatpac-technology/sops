@@ -10,6 +10,9 @@
 | ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
 | **Tindal Approach**           | **TNA** | **Tindal Approach**     | **120.950** | **TN_APP**    |
 
+!!! note
+    Tindal TCU is a [joint military/civil TCU](../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those in a civil TCU. Ensure you are familiar with the [military controller skills](../../controller-skills/military) necessary to provide a quality service.
+
 ## Airspace
 The vertical limits of the Tindal TCU are `SFC` to `F190`.
 

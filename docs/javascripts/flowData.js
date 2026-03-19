@@ -1056,19 +1056,19 @@ export const flowData = {
         "Jet & DH8D": {
             "14R": {
                 "IRSOM": {
-                    "IRSOM MLTNE": {
+                    "IRSOM LT2NE": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
                 },
                 "MIMIM": {
-                    "MIMIM MLTNG": {
+                    "MIMIM LT2NG": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
                 "LATUM": {
-                    "LATUM MLTND": {
+                    "LATUM LT2ND": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
@@ -1076,19 +1076,19 @@ export const flowData = {
             },
             "32L": {
                 "IRSOM": {
-                    "IRSOM NODAS MLTSC": {
+                    "IRSOM NODAS LT2SC": {
                         "Normal Speed": 16,
                         "Reduced Speed": 16
                     }
                 },
                 "MIMIM": {
-                    "MIMIM ELREL MLTSA": {
+                    "MIMIM ELREL LT2SA": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
                     }
                 },
                 "LATUM": {
-                    "LATUM MLTSB": {
+                    "LATUM LT2SB": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
@@ -1098,19 +1098,19 @@ export const flowData = {
         "Non-Jet": {
             "14R": {
                 "IRSOM": {
-                    "IRSOM MLTNE": {
+                    "IRSOM LT2NE": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
                 "MIMIM": {
-                    "MIMIM MLTNG": {
+                    "MIMIM LT2NG": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
                 },
                 "LATUM": {
-                    "LATUM MLTND": {
+                    "LATUM LT2ND": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
@@ -1118,19 +1118,19 @@ export const flowData = {
             },
             "32L": {
                 "IRSOM": {
-                    "IRSOM NODAS MLTSC": {
+                    "IRSOM NODAS LT2SC": {
                         "Normal Speed": 18,
                         "Reduced Speed": 18
                     }
                 },
                 "MIMIM": {
-                    "MIMIM ELREL MLTSA": {
+                    "MIMIM ELREL LT2SA": {
                         "Normal Speed": 11,
                         "Reduced Speed": 12
                     }
                 },
                 "LATUM": {
-                    "LATUM MLTSB": {
+                    "LATUM LT2SB": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
