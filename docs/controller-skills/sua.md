@@ -77,6 +77,9 @@ SUA may also be activated by controllers **upon request** of an aircraft perform
     - **Coordination**: Is any coordination required with adjacent units?
     - **Workload**: Does the current workload allow you to facilitate this request? Would separating aircraft from the SUA significantly increase your workload?
 
+!!! tip
+    Where a requested airspace release would impact a large number of pilots, consider working with the aircraft to establish a mutually beneficial solution. The full extent of the requested airspace can be released at a later time when the traffic picture allows.
+
 ### Activating SUA in vatSys
 Controllers should **always** ensure SUAs are activated in vatSys when in use. This allows the dimensions of the SUA to be displayed on the scope and ensures that a DAIW alert is triggered if an aircraft is about to violate the area.
 
@@ -92,7 +95,7 @@ Controllers should **always** ensure SUAs are activated in vatSys when in use. T
 It is the pilots responsibility to remain clear of SUAs when OCTA. Controllers should provide safety alerts to aircraft that will shortly enter, or have already entered, active restricted areas.
 
 !!! phraseology
-    **CBW**: "Safety Alert, VFR aircraft overhead COTR tracking southbound 2500, you will shortly be entering R430 restricted area, clearance not available, suggest immediate left turn to avoid."
+    **CBW**: "Safety Alert, VFR aircraft overhead COTR tracking southbound `A025`, you will shortly be entering R430 restricted area, clearance not available, suggest immediate left turn to avoid."
 
 !!! phraseology
     **CNK**: "VFR aircraft overhead YCNK `A035` tracking westbound, confirm you will be remaining clear of the R564 restricted area?"  
