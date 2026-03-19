@@ -80,7 +80,6 @@ Arrivals from the north shall be given initial descent to not below `F250`. **CN
     **ARL:** "RXA6417, recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain F180"  
     **RXA6417:** "Recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain F180, RXA6417" 
 	
-
 #### Sequencing
 Sequencing arrivals from the north/east into YSSY is a joint responsibility of the subsectors of ARL. Initial sequencing actions for aircraft from the north should be performed by ARL, with fine tuning and any holding required issued by CNK. 
 
@@ -145,11 +144,99 @@ The following subsectors are responsible for issuing STAR clearance.
 | MNN  | LAXUM | All      |       |
 | OCN  | ASUVA | All      |       |
 
-<!-- ## Special Use Airspace 
-### Restricted Areas
+##### Coded Clearances
+The ARL subsector is additionally responsible for issuing the **STORM 2** coded clearance to aircraft arriving YWLM via the **[Lightning Corridor](#r560-r70-williamtown)**.
 
-### Civilian Training Areas?
--->
+## Local Procedures
+### Special Use Airspace
+There are multiple volumes of [SUA](../../controller-skills/sua) within ARL airspace, mostly associated with military operations in and out of YWLM.
+
+<figure markdown>
+![Notable SUA in ARL Airspace](../img/arl_sua.png){ width="700" }
+  <figcaption>Notable SUA in ARL Airspace</figcaption>
+</figure>
+
+WLM TCU must [coordinate](../../terminal/williamtown/#sua-in-enroute-airspace) the activation of these SUAs with the relevant enroute controllers **prior** to any departures.
+
+!!! phraseology
+    <span class="hotline">**WAL** -> **ARL**</span>: "Request activation of M581-M584 from 0300 until 0500, for military flying operations. My onwards with HWE.”  
+    <span class="hotline">**ARL** -> **WAL**</span>: "Activation approved."  
+    
+Non-participating aircraft intenting to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../sua/#ad-hoc-activations).
+    
+!!! note
+    In the real world, details of SUA activations are distributed widely to ensure that filed flight plans already include the necessary diversions before they reach ATC. Online, pilots are very unlikely to be aware of the rerouting requirements, and may have difficulty adjusting to a reroute on short notice. Nearby controllers (particularly those performing the role of ACD) are also unlikely to be aware that some flight plans may require adjustments.
+    
+    Unless an activation has been [advertised by local NOTAM](../../sua/#activation-by-notam), controllers should work with pilots patiently and, where a pilot is unable to comply with a reroute, attempt to facilitate the safe transit of the SUA. Controllers should also follow best practice by announcing activations in vatSys' controller chat, amending voiceless coordination requirements, and proactively assisting other controllers.
+    
+    In all cases, controllers should display professional behaviour to other controllers and pilots when facilitating SUA operations.
+
+#### M581-M584 Williamtown
+The M581-M584 MOAs are located offshore within the MLD, MNN, OCN, and TSN(HWE) subsectors.
+
+The MOAs directly adjoin the WLM TCU, and when WAL is online aircraft will be transferred directly to/from the MOAs. When [WAL is offline](#reclassification), aircraft will contact ARL for transit through the surrounding civilian airspace.
+
+##### Affected Civil Operations
+When activated these MOAs significantly disrupt traffic on the busy **A579**, **B450**, **B474**, **B580**, and **H258** high altitude airways, which connect YSSY to the Pacific and North America.
+
+| Planned Airway | ERSA Recommended Rerouting |
+| -------------- | -------------------------- |
+| A579 | `DIPSO G595 ATNAT DCT DUDEP DCT UPSAD A579 ...` |
+| B450 | `DIPSO G595 ATNAT DCT ABARB B450 ...` |
+| B474 | `OLSEM Y193 BANDA DCT VEMLA B474 ...`<br>`DIPSO G595 ATNAT DCT DUDEP Y70 BISAB J328 ISTEM B474 ...` (when M670 is also active. |
+| B580 | `DIPSO G595 ATNAT DCT DUDEP Y70 BISAB J328 MISLY B580 ...` |
+
+The **W149** and **W768** low altitude airways, connecting YLHI to YWLM and YPMQ, are also affected, requiring extensive rerouting or facilitated transit through the SUA.
+
+#### R560 & R570 Williamtown
+The R560A-B and R570A-H restricted areas are located west of YWLM and YSTW within the ARL and MDE subsectors. The restricted areas are connected to the WLM TCU by the **Thunder Corridor**.
+
+<figure markdown>
+![WLM Thunder Military Corridor](../img/wlm_thunder.png){ width="700" }
+  <figcaption>WLM Thunder Military Corridor</figcaption>
+</figure>
+
+Aircraft departing the WLM TCU will be cleared the **STORM 1** coded clearance. Aircraft returning to the TCU will be cleared the **STORM 2** coded clearance by ARL.
+
+!!! phraseology
+    *BARN21 has completed their military training operations in R570, and intends to return to base.*
+    **BARN21**: "Brisbane Centre, BARN21"  
+    **ARL**: "BARN21, Brisbane Centre, identified"  
+    **BARN21**: "Brisbane Centre, BARN21, detail complete, for RTB, `F130`"  
+    **ARL**: "BARN21, cleared Storm 2. At THNDA, contact Willy Approach, 135.7"  
+    **BARN21**: "Cleared Storm 2, at THNDA contact Willy Approach, BARN21"  
+    
+!!! note
+    Aircraft tracking via the STORM coded clearances does **not** constitute a voiceless coordination route between WLM TCU and ARL. Aircraft should still be heads-up coordinated prior to **5 minutes** to the boundary, unless coordinated otherwise.
+
+Aircraft transiting the Thunder Corridor should be assigned the appropriate altitude to ensure separation with opposite direction traffic while transiting to their desired restricted area.
+
+| Coded Clearance | Altitude |
+| --------------- | -------- |
+| STORM 1         | `F140`   |
+| STORM 2         | `F130`   |
+
+##### Affected Civil Operations
+When activated these restricted areas distrupt traffic on the **Q16**, **Q235**, **Q293**, and **Y46** high altitude airways, used by aircraft travelling between YPAD-YBBN, and YSSY-North Queensland/East Asia.
+
+| Planned Airway | ERSA Recommended Rerouting |
+| -------------- | -------------------------- |
+| Q16 | via `Q4` |
+| Q235 | `... RIC H530 KABIX ...` |
+| Q293 | `... RIC H530 KABIX ...` |
+| Y46 | via `Y27` |
+
+Aircraft travelling below `F240` on the **H66**, **H76**, and **Q35** airways are also disrupted, most directly affecting aircraft departing YSBK to the northwest, and aircraft climbing out of YSSY via RIC. These aircraft may be given altitude requirements to assure separation with the restricted areas, where appropriate.
+    
+#### R585-R586 Williamtown
+The R585A-D and R586A-C restricted areas are located north of the WLM TCU in the ARL and MNN subsectors.
+
+The MOAs directly adjoin the WLM TCU, and when WAL is online aircraft will be transferred directly to/from the restricted areas. When [WAL is offline](#reclassification), aircraft will contact ARL for transit through the surrounding civilian airspace.
+
+#### Amberley SUA
+There are three SUA associated with military operations at [Amberley](../../terminal/amberleyoakey) which clip ARL airspace: the R639D restricted area, located northeast of MOR VOR partially in the MDE subsector, and the M661A and M670A-B MOAs, which clip MNN airspace offshore east of YCFS.
+
+AMA (or INL(DOS, INL, SDY) on their behalf) will coordinate the activation these SUA **prior** to any activity.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -310,9 +397,12 @@ The Standard Assignable level from ARL/MDE to **TW ADC** is `A080`, any other le
 
 ### WLM TCU
 #### Airspace
-By default, WLM TCU owns the airspace from `SFC` to `F125`. In exceptional circumstances, such as specific military exercises or events, an additional TCU controller may log on, splitting the TCU vertically. In these situations, the controller will negotiate an upper limit with ARL(All) which works for both parties.
+By default, WLM TCU owns the airspace from `SFC` to `F125`. 
 
-When WLM TCU is active above `F125` by ad-hoc release, **WLM-H_APP** owns the airspace above `F125`.
+An additional, non-standard TCU position 
+For specific military exercises or events, an additional TCU controller may log on, splitting the TCU vertically. In these situations, the controller will negotiate an upper limit with ARL(All) which works for both parties.
+
+When WLM TCU is active above `F125` by ad-hoc release, **WAH** owns the airspace above `F125`.
 
 Refer to [Reclassifications](#reclassifications) for operations when WLM TCU is offline.
 
@@ -325,8 +415,8 @@ Voiceless for all aircraft:
 All other aircraft going to ARL CTA will be **Heads-up** Coordinated by WLM TCU.
 
 !!! phraseology
-    <span class="hotline">**WLM TCU** -> **MLD**</span>: "QJE1597, request DCT OMGAB"  
-    <span class="hotline">**MLD** -> **WLM TCU**</span>: "QJE1597, concur DCT OMGAB"  
+    <span class="hotline">**WAL** -> **MLD**</span>: "QJE1597, request DCT OMGAB"  
+    <span class="hotline">**MLD** -> **WAL**</span>: "QJE1597, concur DCT OMGAB"  
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:
@@ -338,8 +428,8 @@ Voiceless for all aircraft:
 All other aircraft coming from ARL CTA must be **Heads-up** Coordinated to WLM TCU prior to **20nm** from the boundary.
 
 !!! phraseology
-    <span class="hotline">**CNK** -> **WLM TCU**</span>: "QFA1968, request DCT UPTEB"  
-    <span class="hotline">**WLM TCU** -> **CNK**</span>: "QFA1968, concur DCT UPTEB"  
+    <span class="hotline">**CNK** -> **WAL**</span>: "QFA1968, request DCT UPTEB"  
+    <span class="hotline">**WAL** -> **CNK**</span>: "QFA1968, concur DCT UPTEB"  
 
 ### TSN/HWE (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
