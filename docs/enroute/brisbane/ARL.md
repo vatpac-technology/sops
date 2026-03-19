@@ -163,13 +163,6 @@ WLM TCU must [coordinate](../../terminal/williamtown/#sua-in-enroute-airspace) t
     <span class="hotline">**ARL** -> **WAL**</span>: "Activation approved."  
     
 Non-participating aircraft intenting to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../sua/#ad-hoc-activations).
-    
-!!! note
-    In the real world, details of SUA activations are distributed widely to ensure that filed flight plans already include the necessary diversions before they reach ATC. Online, pilots are very unlikely to be aware of the rerouting requirements, and may have difficulty adjusting to a reroute on short notice. Nearby controllers (particularly those performing the role of ACD) are also unlikely to be aware that some flight plans may require adjustments.
-    
-    Unless an activation has been [advertised by local NOTAM](../../sua/#activation-by-notam), controllers should work with pilots patiently and, where a pilot is unable to comply with a reroute, attempt to facilitate the safe transit of the SUA. Controllers should also follow best practice by announcing activations in vatSys' controller chat, amending voiceless coordination requirements, and proactively assisting other controllers.
-    
-    In all cases, controllers should display professional behaviour to other controllers and pilots when facilitating SUA operations.
 
 #### M581-M584 Williamtown
 The M581-M584 MOAs are located offshore within the MLD, MNN, OCN, and TSN(HWE) subsectors.
