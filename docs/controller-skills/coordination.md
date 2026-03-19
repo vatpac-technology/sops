@@ -179,7 +179,9 @@ The format is as follows:
 !!! note ""
     <span class="hotline">**SMC** -> **ADC**</span>: "(Aircraft Type) on (Location) to cross (Runway)."  
     <span class="hotline">**ADC** -> **SMC**</span>: "(Aircraft Type) on (Location) cross (Runway)."  
-	  *or*
+	  
+      *or*
+
     <span class="hotline">**ADC** -> **SMC**</span>: "Negative. Hold Short."  
     <span class="hotline">**SMC** -> **ADC**</span>: "Hold Short (Runway)." 
 
@@ -196,16 +198,18 @@ Either ADC or SMC should place a **Runway ## Released to SMC** bar into the **Ru
 ADC can recall a runway release immediately. Upon recall, SMC shall acknowledge the recall with a traffic statement.
 
 !!! phraseology 
-    <span class="hotline">**AD ADC** -> **AD SMC**</span>: "Cancel release of Runway 30"
-    <span class="hotline">**AD SMC** -> **AD ADC**</span>: "Runway 30, no traffic" 
+    <span class="hotline">**AD ADC** -> **AD SMC**</span>: "Cancel release of Runway 30"  
+    <span class="hotline">**AD SMC** -> **AD ADC**</span>: "Runway 30, no traffic"  
+    
 	  *or*	
+
     <span class="hotline">**AD SMC** -> **AD ADC**</span>: "Runway 30, traffic is a B737 crossing on F."
 
 #### Helicopter Air Transit
 A helicopter performing an air transit maneouvre must be coordinated from SMC to ADC.
 
 !!! phraseology 
-    <span class="hotline">**BRM SMC** -> **BRM ADC**</span>: "Robinson 44 on Eastern Heli Parking, for air transit to Western Helipad"
+    <span class="hotline">**BRM SMC** -> **BRM ADC**</span>: "Robinson 44 on Eastern Heli Parking, for air transit to Western Helipad"  
     <span class="hotline">**BRM ADC** -> **BRM SMC**</span>: "Air transit approved."
 
 ## The C-Prompt (Coordination Prompt)

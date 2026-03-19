@@ -36,19 +36,21 @@ HBA may extend to LTA and vice versa, callsigns remain the same. See [Controller
 
 ## Departure and Arrival Procedures
 ### YMLT
-Visual approaches are preferred into YMLT. If due to operational requirements, an aircraft is unable to accept a visual approach, coordination with **LT ADC** may be required.  
+Visual approaches are preferred into YMLT. 
 
-Runway 32L is regularly the duty runway due to prevailing winds. To assist traffic flow in and out of the TCU, ATC will instruct aircraft to track for runway 32L via one of the following routes:
+If instrument approaches are nominated on the ATIS, HUO will reroute inbound IFR aircraft via the following waypoints:   
 
-| Via    | Routing     |
-| ------ | ----------- |
-| IRSOM  | NODAS MLTSC |
-| NUNPA  | ELREL MLTSA |
+| Duty Runway | Tracking Via    | Amended Routing            |
+| ----------- | ----------------| -------------------------- |
+| RWY 14R     | IRSOM<br>NUNPA  | LT2ND<br>LT2NG             |
+| RWY 32L     | IRSOM<br>NUNPA  | NODAS LT2SC<br>ELREL LT2SA |
 
-These routes keep arrivals within CTA and away from the departure stream(s).
+These routes keep arrivals within CTA and away from the departure streams.
 
-!!! note
-    Clearing aircraft to track via one of the above routes does **not** constitute a voiceless coordination route between LTA and LT ADC. Aircraft should still be heads-up coordinated to LT ADC prior to **5 minutes** to the boundary, unless coordinated otherwise.
+!!! tip
+    In some situations, it may be beneficial to process aircraft from the north via the DGA/visual approach for a circuit join to RWY 32L, as a form of track shortening. See [Local Knowledge](#local-knowledge) for more.
+
+    Likewise, it may be necessary to process aircraft via the RNP (and above routing) for sequencing/separation. Coordination with HUO must take place in either case.
 	
 ### YMHB
 All aircraft should be kept on SIDs and STARs. If due to operational requirements or routing, an aircraft is unable to accept the SID or STAR, voice coordination with HUO will be required.
@@ -60,7 +62,16 @@ Aircraft inbound to YCBG who will track directly from Class G airspace to the CT
 
 ## Flow
 ### Local Knowledge
-- IFR aircraft inbound to YCBG must be flowed as if they were arriving at YMHB, unless they can accept a visual approach and remain clear of the inbound tracks to YMHB
+- IFR aircraft inbound to **YCBG** must be flowed as if they were arriving at **YMHB**, unless they can accept a visual approach and remain clear of the inbound tracks to YMHB
+- IFR aircraft inbound to **YMLT** from the north may be cleared via the DGA/visual approach for a circuit join onto RWY 32L as a form of track shortening
+
+!!! warning "Important"
+    Aircraft landing at YMHB will generally require a backtrack to vacate the runway. During busy periods, the following flow rates are recommended to prevent a large number of go arounds.
+
+    | Situation | Flow Rate |
+    | --- | --- |
+    | Many arrivals | 4 min between each arrival |
+    | Many arrivals and departures | 5 min between each arrival |
 
 ### Flow Tables
 #### YMHB
@@ -92,22 +103,22 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 === "Jets & DH8D"
     | Tracking | RWY 14R | RWY 32L |
     | ---------- | ---| -- |
-    | **IRSOM MLTNE**        | 11^ | - |
-    | **IRSOM NODAS MLTSC**  | - | 16 |
-    | **MIMIM MLTNG**        | 15 | - |
-    | **MIMIM ELREL MLTSA**  | - | 19  |
-    | **LATUM MLTND**        | 15 | - |
-    | **LATUM MLTSB**        | - | 11^  |
+    | **IRSOM LT2NE**        | 11^ | - |
+    | **IRSOM NODAS LT2SC**  | - | 16 |
+    | **MIMIM LT2NG**        | 15 | - |
+    | **MIMIM ELREL LT2SA**  | - | 19  |
+    | **LATUM LT2ND**        | 15 | - |
+    | **LATUM LT2SB**        | - | 11^  |
 
 === "Non-Jets"
     | Tracking | RWY 14R | RWY 32L |
     | ---------- | ---| -- |
-    | **IRSOM MLTNE**        | 12^ | - |
-    | **IRSOM NODAS MLTSC**  | - | 18 |
-    | **MIMIM MLTNG**        | 17 | - |
-    | **MIMIM ELREL MLTSA**  | - | 21  |
-    | **LATUM MLTND**        | 17 | - |
-    | **LATUM MLTSB**        | - | 12^  |
+    | **IRSOM LT2NE**        | 12^ | - |
+    | **IRSOM NODAS LT2SC**  | - | 18 |
+    | **MIMIM LT2NG**        | 17 | - |
+    | **MIMIM ELREL LT2SA**  | - | 21  |
+    | **LATUM LT2ND**        | 17 | - |
+    | **LATUM LT2SB**        | - | 12^  |
 
 #### Corrections
 
@@ -151,18 +162,18 @@ Voiceless for all aircraft:
 All other aircraft going to HUO CTA must be **Heads-up** Coordinated by TAS TCU prior to the boundary.
 
 !!! phraseology
-    <span class="hotline">**LTA** -> **HUO**</span>: "via IRSOM, QFA114, with your concurrence, will be assigned F150, for my separation with ZYX"  
+    <span class="hotline">**LTA** -> **HUO**</span>: "via IRSOM, QFA114, with your concurrence, will be assigned `F150`, for my separation with ZYX"  
     <span class="hotline">**HUO** -> **LTA**</span>: "QFA114, concur F150"
 
 #### Arrivals
 Voiceless for all aircraft:
 
 - With ADES **YMLT** 
-  - Tracking from **IRSOM** or **NUNPA** DCT **LT**; and  
-  - Assigned `A090`  
+    - Tracking from **IRSOM** or **NUNPA**  in accordance with [Departure and Arrival Procedures](#ymlt), or DCT **LT**; and  
+    - Assigned `A090`  
 - With ADES **YMHB** 
-  - Assigned the **IPLET** or **MORGO** STAR; and  
-  - Assigned `F130`  
+    - Assigned a STAR; and  
+    - Assigned `F130`   
 
 All other aircraft coming from HUO CTA will be **Heads-up** Coordinated to TAS TCU.
 
