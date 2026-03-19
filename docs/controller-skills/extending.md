@@ -8,7 +8,7 @@ Extended coverage allows a controller to provide wider coverage to pilots during
 
 Extending to adjacent sectors **must** be done with consideration of the controllers' [workload](#workload-management) to ensure that the quality of service being offered is not degraded. If, at any time, a controller feels that their ability to provide a quality service is being compromised by the additional workload from the secondary sectors, they must cease providing coverage to secondary sectors to reduce workload.
 
-##Enroute
+## Enroute
 Enroute controllers are permitted to *extend* to any **four additional sectors**, provided that the resulting pairing forms a **single, continuously adjacent group**. Controllers with at least 150 hours as a C1 may extend to any **six additional sectors**.
 
 In the example below, **BLA** has elected to extend to **TBD**, **GUN**, **MUN**, and **WOL**. The resulting group of sectors forms a single, continuously adjacent group.
