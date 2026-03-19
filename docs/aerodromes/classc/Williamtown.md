@@ -13,6 +13,9 @@
 | **Williamtown ACD**  | **Willy Delivery**    | **130.350** | **WLM_DEL**   |
 | **Williamtown ATIS** |                       | **134.450** | **YWLM_ATIS** |
 
+!!! note
+    YWLM is a [joint military/civil aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
+
 ## Airspace
 WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A015`).
 

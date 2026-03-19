@@ -10,6 +10,9 @@
 | ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
 | **Scherger Approach**         | **SGA** | **Scherger Approach**   | **124.200** | **SG_APP**    |
 
+!!! note
+    Scherger TCU is a [military TCU](../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those in a civil TCU. Ensure you are familiar with the [military controller skills](../../controller-skills/military) necessary to provide a quality service.
+
 ## Airspace
 The limits of the **SG TCU** are `SFC` to `F245` within 40 NM of the YBSG ARP. This may be amended by NOTAM.
 
