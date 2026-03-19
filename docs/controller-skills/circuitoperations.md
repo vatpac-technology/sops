@@ -50,7 +50,7 @@ Circuit directions are usually provided in ERSA, but if any doubt exists or a no
 
 !!! phraseology
     **AF ADC:** "ABC, runway 28R, cleared for take-off, make left circuit"  
-    **ABC:** "Runway 28R, cleared for take-off, make left , ABC"
+    **ABC:** "Runway 28R, cleared for take-off, make left circuit, ABC"
 
 ## Landing
 
