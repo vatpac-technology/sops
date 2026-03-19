@@ -128,10 +128,10 @@ Controllers must closely monitor the base and final legs of the circuit to ensur
 ### Circuits
 | Runway               | Direction (by Day)    | Direction (by Night)    |
 | ------------------ | -------------- | ----- |
-| 12L | Left  | Right |
+| 12L | Left  | **Right** |
 | 12R | Right  | - |
 | 30L | Left | - |
-| 30R | Right    | Left |
+| 30R | Right    | **Left** |
 
 Circuits are to be conducted at not above `A025`. 
 
