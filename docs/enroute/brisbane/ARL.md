@@ -176,7 +176,7 @@ When activated these MOAs significantly disrupt traffic on the busy **A579**, **
 | -------------- | -------------------------- |
 | A579 | `DIPSO G595 ATNAT DCT DUDEP DCT UPSAD A579 ...` |
 | B450 | `DIPSO G595 ATNAT DCT ABARB B450 ...` |
-| B474 | `OLSEM Y193 BANDA DCT VEMLA B474 ...`<br>`DIPSO G595 ATNAT DCT DUDEP Y70 BISAB J328 ISTEM B474 ...` (when M670 is also active. |
+| B474 | `OLSEM Y193 BANDA DCT VEMLA B474 ...`<br>`DIPSO G595 ATNAT DCT DUDEP Y70 BISAB J328 ISTEM B474 ...` (when M670 is also active) |
 | B580 | `DIPSO G595 ATNAT DCT DUDEP Y70 BISAB J328 MISLY B580 ...` |
 
 The **W149** and **W768** low altitude airways, connecting YLHI to YWLM and YPMQ, are also affected, requiring extensive rerouting or facilitated transit through the SUA.
