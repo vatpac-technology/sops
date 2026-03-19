@@ -86,7 +86,7 @@ Voiceless for all aircraft:
 - When **Runway 20** is in use for arrivals:
 	- Assigned a STAR.
 
-All other aircraft coming from NFFN_CTR CTA will be **Heads-up** Coordinated to NFFNA.
+All other aircraft coming from NFFJ CTA will be **Heads-up** Coordinated to NFFNA.
 
 ### NFNAA
 #### Departures
