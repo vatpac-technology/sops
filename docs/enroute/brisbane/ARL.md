@@ -192,7 +192,7 @@ The **W149** and **W768** low altitude airways, connecting YLHI to YWLM and YPMQ
 The R560A-B and R570A-H restricted areas are located west of YWLM and YSTW within the ARL and MDE subsectors. The restricted areas are connected to the WLM TCU by the **Thunder Corridor**.
 
 <figure markdown>
-![WLM Thunder Military Corridor](../img/wlm_thunder.png){ width="700" }
+![WLM Thunder Military Corridor](../img/wlm_thunder.png){ width="500" }
   <figcaption>WLM Thunder Military Corridor</figcaption>
 </figure>
 
