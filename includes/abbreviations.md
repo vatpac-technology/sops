@@ -28,6 +28,7 @@
 *[CFL]: Cleared Flight Level
 *[FDR]: Flight Data Record
 *[RFL]: Requested Flight Level
+*[AGL]: Above Ground Level
 *[ADES]: Destination Aerodrome
 *[ADEP]: Departure Aerodrome
 *[LOC]: Localiser
@@ -35,7 +36,7 @@
 *[GLS]: GBAS Landing System
 *[ACD]: Airways Clearance Delivery
 *[ATIS]: Automatic Terminal Information Service
-*[NOTAM]: Notice to Airmen
+*[NOTAM]: Notice to Air Missions
 *[CTA]: Controlled Airspace
 *[OCTA]: Outside Controlled Airspace
 *[HDS]: Hours of Daylight Savings
@@ -61,6 +62,7 @@
 *[SVFR]: Special VFR
 *[MTOW]: Maximum Takeoff Weight
 *[SDC]: Standard Departure Clearance
+*[DLE]: Delay En route
 *[AAW]: Adelaide Approach West
 *[AAE]: Adelaide Approach East
 *[AAR]: Adelaide Radar
@@ -385,3 +387,7 @@
 *[TCH]: Talc Head
 *[WOW]: White Onion Water Tower
 *[LPT]: Lee Point
+*[ZIN]: Zuizin Island
+*[DRLD]: Dreamworld
+*[COTR]: Cotter
+*[VSOA]: Virtual Special Operations Association

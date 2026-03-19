@@ -553,7 +553,7 @@ Auto Release is used for virtually all fixed-wing departures at Sydney. Unlike s
 !!! tip
     If strong winds are present at altitude, TWR/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
 
-[Next](../controller-skills/coordination.md#next) coordination is **not** required for aircraft that are:   
+[Next](../../controller-skills/coordination/#next) coordination is **not** required for aircraft that are:   
 
 - Departing from a runway nominated on the ATIS; and   
 - Assigned the Standard assignable level; and  
@@ -564,7 +564,7 @@ All other aircraft require a 'Next' call to SY TCU.
 
 'Next' coordination is additionally required for:  
 
-- After a go around, the next departure from that runway  
+- [After a go around](../../controller-skills/coordination/#after-a-go-around), the next departure from that runway  
 - All aircraft during the Curfew Runway Mode
 
 The Standard Assignable level from SY ADC to SY TCU is: 
@@ -581,7 +581,7 @@ BK ADC is responsible for the Class D airspace in the BK CTR `SFC` to `A015`.
 Refer to [Reclassifications](#bk-ctr) for operations when BK ADC is offline.
 
 #### Departures
-[Next](../controller-skills/coordination.md#next) coordination is required from BK ADC to SY TCU for all aircraft **entering SY TCU CTA**.
+[Next](../../controller-skills/coordination/#next) coordination is required from BK ADC to SY TCU for all aircraft **entering SY TCU CTA**.
 
 The Standard Assignable level from **BK ADC** to **SY TCU** is:
 
