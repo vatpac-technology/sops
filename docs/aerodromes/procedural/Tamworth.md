@@ -183,7 +183,7 @@ During day VMC only, simultaneous parallel runway operations may be used between
 Controllers must closely monitor the base and final legs of the circuit to ensure pilots do not pass through their assigned runway centreline.
 
 ### Circuits
-Circuits are to be flown in the direction coinciding with the Runway designator (Left/Right) at `A023`.
+Circuits are to be flown in the direction coinciding with the Runway designator (Left/Right) at `not above A025`.
 
 ## ATIS
 ### Runway Mode Formatting
