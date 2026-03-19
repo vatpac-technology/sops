@@ -28,23 +28,29 @@ The Primary Communication Method for TSN is [CPDLC](../../client/cpdlc). Voice m
   <figcaption>Tasman Airspace</figcaption>
 </figure>
 
+#### Extending
+!!! warning "Important"
+    TSN (and its subsectors) are **not permitted** to extend to any adjacent Domestic/International sectors
+
 ### Howe (HWE)
 HWE is a non-standard subsector that sits within TSN. Unlike TSN, it operates as a **VHF Surveillance** sector when it is open.
 
 Due to limitations in VHF/HF coupling, HWE **cannot** extend to adjacent HF units.
 
+#### Sector Ownership
+Due to limitations in vatSys, TSN cannot relinquish sector ownership of the HWE sector when HWE is online. Tracks inbound to HWE airspace will appear as Blue Announced tracks to both TSN and HWE.
+
 ### Coral (COL)
 The COL subsector includes the AGGG and ANAU FIRs. These FIRs **do not** have their own positions, and **cannot** be split off from COL.
 
-## Extending
-!!! warning "Important"
-    TSN (and its subsectors) are **not permitted** to extend to any adjacent Domestic/International sectors
-
-## Sector Ownership
-Due to limitations in vatSys, TSN cannot relinquish sector ownership of the HWE sector when HWE is online. Tracks inbound to HWE airspace will appear as Blue Announced tracks to both TSN and HWE.
-
 ## Surveillance Coverage
 Limited surveillance coverage exists for aircraft in CTA greater than **250nm** from LHI. [Procedural Standards](../../separation-standards/procedural/) must be implemented **prior** to losing surveillance coverage
+
+## Local Procedures
+### Special Use Airspace
+There are multiple volumes of [SUA](../../controller-skills/sua) within TSN airspace, mostly associated with military operations in and out of YAMB and YWLM.
+
+AMA (or INL on their behalf) and WLM TCU (or ARL) will coordinate the activation these SUA **prior** to any activity.
 
 ## STAR Clearance Expectation
 ### Handoff
