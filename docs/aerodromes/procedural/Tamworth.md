@@ -39,9 +39,10 @@ ADC North takes responsibility for the North Runway, Circuit and Airspace (Runwa
 
 ADC South takes responsibility for the South Runway, Circuit and Airspace (Runway **12R/30L**).
 
-ADC South is **not permitted** online when *Single Runway* Operations are in use.
-
 Refer to the [ATIS section](#runway-mode-formatting) for information on ATIS formatting when ADC South is online.
+
+!!! warning "Important"
+    ADC South is **not permitted** online when *Single Runway* Operations are in use.
 
 ## Manoeuvring Area
 ### Taxiway Restrictions
@@ -51,6 +52,8 @@ Taxiway B west of C is limited to 8000KG AUW and 23M MAX wingspan. Common airlin
 ![TW TWY](img/TW_west_of_C.png){ width="800" }
   <figcaption>Twy B west of C shown in red</figcaption>
 </figure>
+
+The taxiways leading to and surrounding the southern runway are limited to 5700KG AUW.
 
 ### Recommended Taxi Routes
 To avoid nose-to-nose conflict at the southern runway, the following recommended taxi routes shall be utilised.
@@ -67,23 +70,70 @@ To avoid nose-to-nose conflict at the southern runway, the following recommended
 	  <figcaption>Recommended Taxi Route for RWY 30L</figcaption>
 	</figure>
 
+## VFR Operations
 
-!!! warning "Important"
-    Not all pilots are aware of the existence of standard taxi routes. When in doubt, provide full taxi instructions detailing the full desired route.
+### Departures
+Due to high terrain to the north, departures to the north and east generally require a CTA departure. These aircraft must be issued with an explicit airways clearance to enter the overlying class D or C airspace.
 
-#### Southern Runway Departures
-
-!!! phraseology 
-    **83C**: "83C, at IFTT, received A, for a GST departure, request taxi"  
-    **TW SMC**: "83C, Tamworth Ground, taxi to holding point J Runway 12R"  
-    **83C**: "Taxi to holding point J Runway 12R, 83C"
-
-#### Northern Runway Departures
+VFR aircraft departing between the 160 radial through to the 295 radial (south and west) should report either for a **GST** or **GWT** departure from the southern runway (12R/30L). These aircraft shall be instructed to depart via their respective gates with their takeoff clearance.
 
 !!! phraseology
-    **ZFN**: "Tamworth Ground, Cherokee ZFN, at IFTT, received A, request airways and taxi clearance to YSTW via MAL"  
-    **TW SMC**: "ZFN, Tamworth Ground, cleared to YSTW via MAL flight planned route, climb to `A045`, taxi to holding point B Runway 12L, cross runways 18 and 24"  
-    **ZFN**: "Cleared to YSTW via MAL flight planned route, climb to `A045`, taxi to holding point B Runway 12L, cross runways 18 and 24, ZFN"
+    **83C**: "Tamworth Tower, Cherokee 83C, holding point J, for a GST departure, ready"  
+    **TW ADC**: "83C, Tamworth Tower, GST departure, cleared for takeoff"  
+    **83C**: "GST departure, cleared for takeoff, 83C"
+
+<figure markdown>
+![TW VFR Routes](img/TW_VFR_routes.png){ width="700" }
+  <figcaption>VFR Routes</figcaption>
+</figure>
+
+!!! note
+    YSTW `ERSA FAC` details the lateral and vertical requirements of aircraft tracking via the GST and GWT departures. 
+
+### Arrivals
+#### DUA Arrivals
+VFR arrivals between the 160 radial through to the 295 radial should route via **DUA** and report prior to reaching DUA. Aircraft should be issued with an airways clearance and instructed to report at 5NM for circuit entry instructions.
+
+!!! phraseology
+    **XCW**: "Tamworth Tower, Cherokee XCW, 5 miles west of DUA, `A030`, received A, inbound"  
+    **TW ADC**: "XCW, Tamworth Tower, cleared DUA, TW, maintain `A030`, report at 5 miles"  
+    **XCW**: "Cleared DUA, TW, maintain `A030`, XCW"
+
+#### Other Directions
+VFR arrivals from other directions shall request clearance from an inbound reporting point or report their position.
+
+!!! phraseology
+    **XGN** "Tamworth Tower, Cherokee XGN, NUN at `A045`, 2 POB, in receipt of A, inbound"  
+    **TW ADC**: "XGN, Tamworth Tower, cleared NUN, TW, maintain `A045`, report ready for descent"  
+    **XGN**: "Cleared NUN to TW, maintain `A045`, wilco, XGN"
+
+## Runway Modes
+### Preferred Runway Modes
+Winds must always be considered for runway modes, however the order of preference is as follows:
+
+| Priority - Mode | Arrivals  | Departures | Circuits |
+| --------------- | --------- | ---------- | -------- |
+| =1 - 12 PROPS   | 12R (via DUA, and single engine VFR from 160° radial clockwise to 295° radial). 12L (all other arrs) | 12R (via GST or GWT), 12L (all other deps) | 12R |
+| =1 - 30 PROPS   | 30L (via DUA, and single engine VFR from 160° radial clockwise to 295° radial). 30R (all other arrs)  | 30L (via GST or GWT), 30R (all other deps) | 30L |
+
+!!! note
+    Runways 18/36 and 06/24 are rarely used. They are both unsealed and should generally only be used at pilot request.
+
+### Special Runway Operations
+#### PROPS
+During day VMC only, simultaneous parallel runway operations may be used between runways 12L/R or 30L/R. The [ATIS](#operational-info) must be updated to reflect this mode.
+
+Controllers must closely monitor the base and final legs of the circuit to ensure pilots do not pass through their assigned runway centreline.
+
+### Circuits
+| Runway               | Direction (by Day)    | Direction (by Night)    |
+| ------------------ | -------------- | ----- |
+| 12L | Left  | Right |
+| 12R | Right  | - |
+| 30L | Left | - |
+| 30R | Right    | Left |
+
+Circuits are to be conducted at not above `A025`. 
 
 ## Separation
 ### Local Lateral Separation Points
@@ -124,66 +174,7 @@ The [geographic feature separation standard](../../separation-standards/visual.m
 The **Oxley** and **New England** Highways are good references for this standard.
 
 ### Surveillance
-Surveillance coverage can be expected to be not available below `A034` in the TW CTR. Although TW ADC is **not permitted** to use surveillance for separation, ARL may assist by establishing surveillance separation standards via coordination
-
-## VFR Operations
-
-### Departures
-#### Northern Runway Departures
-VFR aircraft not departing between the 160 radial through to the 295 radial shall make a standard CTA departure from the northern runway (12L/30R).
-
-!!! phraseology
-    **NRF**: "Tamworth Tower, Cherokee NRF, holding point B, for a CTA departure, ready"  
-    **TW ADC**: "NRF, Tamworth Tower, Runway 12L, cleared for takeoff, make left turn"  
-    **NRF**: "Runway 12L, cleared for takeoff, left turn, NRF"
-
-#### Southern Runway Departures
-VFR aircraft departing between the 160 radial through to the 295 radial should report either for a GST or GWT departure from the southern runway (12R/30L).
-
-!!! phraseology
-    **83C**: "Tamworth Tower, Cherokee 83C, holding point J, for a GST departure, ready"  
-    **TW ADC**: "83C, Tamworth Tower, depart via GST, cleared for takeoff"  
-    **83C**: "Depart via GST, cleared for takeoff, 83C"
-
-<figure markdown>
-![TW VFR Routes](img/TW_VFR_routes.png){ width="800" }
-  <figcaption>VFR Routes</figcaption>
-</figure>
-
-### Arrivals
-#### DUA Arrivals
-VFR arrivals between the 160 radial through to the 295 radial should route via **DUA**. Clearance required prior to DUA. Aircraft should report at 5NM for circuit entry instructions.
-
-!!! phraseology
-    **XCW**: "Tamworth Tower, Cherokee XCW, 5 miles west of DUA, `A030`, received A, inbound"  
-    **TW ADC**: "XCW, Tamworth Tower, cleared DUA, TW, maintain `A030`, report at 5 miles"  
-    **XCW**: "Cleared DUA, TW, maintain `A030` XCW"
-
-#### CTA Arrivals
-VFR arrivals not between the 160 radial and 295 radial shall request clearance from an inbound reporting point or radial with DME.
-
-!!! phraseology
-    **XGN** "Tamworth Tower, Cherokee XGN, NUN at 4500ft, 2 POB, in receipt of A, inbound"  
-    **TW ADC**: "XGN, Tamworth Tower, cleared NUN to TW, maintain 4500, report ready for descent"  
-    **XGN**: "Cleared NUN to TW, maintain 4500, wilco XGN"
-
-## Runway Modes
-### Preferred Runway Modes
-Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
-
-| Priority - Mode | Arrivals  | Departures | Circuits |
-| --------------- | --------- | ---------- | -------- |
-| =1 - 12 PROPS   | 12R (via DUA, and single engine VFR from 160° radial clockwise to 295° radial). 12L (all other arrs) | 12R (via GST or GWT), 12L (all other deps) | 12R |
-| =1 - 30 PROPS   | 30L (via DUA, and single engine VFR from 160° radial clockwise to 295° radial). 30R (all other arrs)  | 30L (via GST or GWT), 30R (all other deps) | 30L |
-
-### Special Runway Operations
-#### PROPS
-During day VMC only, simultaneous parallel runway operations may be used between runways 12L/R or 30L/R. The [ATIS](#operational-info) must be updated to reflect this mode.
-
-Controllers must closely monitor the base and final legs of the circuit to ensure pilots do not pass through their assigned runway centreline.
-
-### Circuits
-Circuits are to be flown in the direction coinciding with the Runway designator (Left/Right) at `not above A025`.
+Surveillance coverage can be expected to be not available below `A034` in the TW CTR. Although TW ADC is **not permitted** to use surveillance for separation, ARL may assist by establishing surveillance separation standards via coordination.
 
 ## ATIS
 ### Runway Mode Formatting
@@ -225,4 +216,4 @@ TW ADC must heads-up coordinate **all aircraft** transiting from one ADC control
 
 !!! phraseology
     <span class="hotline">**TW ADC S** -> **TW ADC**</span>: "via GWT, SPP for an overfly"  
-    <span class="hotline">**TW ADC** -> **TW ADC S**</span>: "SPP, A035"
+    <span class="hotline">**TW ADC** -> **TW ADC S**</span>: "SPP, `A035`"
