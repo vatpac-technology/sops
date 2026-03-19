@@ -144,8 +144,8 @@ The following subsectors are responsible for issuing STAR clearance.
 | MNN  | LAXUM | All      |       |
 | OCN  | ASUVA | All      |       |
 
-##### Coded Clearances
-The ARL subsector is additionally responsible for issuing the **STORM 2** coded clearance to aircraft arriving YWLM via the **[Lightning Corridor](#r560-r70-williamtown)**.
+#### Coded Clearances
+The ARL subsector is additionally responsible for issuing the **STORM 2** coded clearance to aircraft arriving YWLM via the **[Lightning Corridor](#r560-r570-williamtown)**.
 
 ## Local Procedures
 ### Special Use Airspace
@@ -231,10 +231,10 @@ Aircraft travelling below `F240` on the **H66**, **H76**, and **Q35** airways ar
 #### R585-R586 Williamtown
 The R585A-D and R586A-C restricted areas are located north of the WLM TCU in the ARL and MNN subsectors.
 
-The MOAs directly adjoin the WLM TCU, and when WAL is online aircraft will be transferred directly to/from the restricted areas. When [WAL is offline](#reclassification), aircraft will contact ARL for transit through the surrounding civilian airspace.
+The MOAs directly adjoin the WLM TCU, and when WAL is online aircraft will be transferred directly to/from the restricted areas. When [WAL is offline](#reclassifications), aircraft will contact ARL for transit through the surrounding civilian airspace.
 
 #### Amberley SUA
-There are three SUA associated with military operations at [Amberley](../../terminal/amberleyoakey) which clip ARL airspace: the R639D restricted area, located northeast of MOR VOR partially in the MDE subsector, and the M661A and M670A-B MOAs, which clip MNN airspace offshore east of YCFS.
+There are three SUA associated with military operations at [Amberley](../../terminal/amberleyoakey) which clip ARL airspace: the R639D restricted area, located northeast of MOR VOR partially in the MDE subsector, and the M661A and M670A-B MOAs, which clips MNN airspace offshore east of YCFS.
 
 AMA (or INL(DOS, INL, SDY) on their behalf) will coordinate the activation these SUA **prior** to any activity.
 
