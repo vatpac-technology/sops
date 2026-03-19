@@ -47,11 +47,11 @@ Voiceless for all aircraft:
 !!! note
     Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
 
-All other aircraft going to NFFN_CTR CTA must be **Heads-up** Coordinated by NFNAA prior to the boundary.
+All other aircraft going to NFFJ CTA must be **Heads-up** Coordinated by NFNAA prior to the boundary.
 
 !!! phraseology
-    <span class="hotline">**NFNAA** -> **NFFN_CTR**</span>: "via ANRIK, FJI281"  
-    <span class="hotline">**NFFN_CTR** -> **NFNAA**</span>: "FJI281, F240"  
+    <span class="hotline">**NFNAA** -> **NFFJ**</span>: "via ANRIK, FJI281"  
+    <span class="hotline">**NFFJ** -> **NFNAA**</span>: "FJI281, F240"  
 
 #### Arrivals
 Voiceless for all aircraft:
