@@ -13,6 +13,9 @@
 | **East Sale ACD** | **Sale Delivery**     | **134.100** | **ES_DEL**    |
 | **East Sale ATIS** |                      | **125.40**  | **YMES_ATIS** |
 
+!!! note
+    YMES is a [military aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
+
 ## Airspace
 ES ADC owns no airspace. Release may be available from ES APP for circuits.
 
@@ -39,7 +42,7 @@ ES ADC owns no airspace. Release may be available from ES APP for circuits.
 ### Flight Category
 Recovering military aircraft must automatically revert to VFR at the following points:
 
-- At the [initial](../../../controller-skills/military/#initial-and-pitch) point when recovering via military stream landing pattern (initial and pitch)
+- At the [initial](../../../../controller-skills/military/#initial-and-pitch) point when recovering via military stream landing pattern (initial and pitch)
 - At Hi-Key
 - Following a touch and go, go-around, or visual overshoot when a local IFR aircraft has indicated an intention to join the circuit
 

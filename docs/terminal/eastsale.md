@@ -10,6 +10,9 @@
 | ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
 | **East Sale Approach**        | **ESA** | **Sale Approach**       | **123.300** | **ES_APP**    |
 
+!!! note
+    East Sale TCU is a [military TCU](../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those in a civil TCU. Ensure you are familiar with the [military controller skills](../../controller-skills/military) necessary to provide a quality service.
+
 ## Airspace
 The vertical limits of the East Sale TCU is `BCTA` to `F210`. 
 
