@@ -67,9 +67,28 @@ All sequencing is performed by ASP.
 ### YPWR
 WRA is responsibile for facilitating operations in and out of YPWR.
 
-<!-- ## Special Use Airspace 
-### Restricted Areas
--->
+## Local Procedures
+### Special Use Airspace
+There are multiple volumes of [SUA](../../controller-skills/sua) within ASP airspace, mostly associated with military operations in and out of YPWR.
+
+<figure markdown>
+![Notable SUA in ASP Airspace](../img/asp_sua.png){ width="700" }
+  <figcaption>Notable SUA in ASP Airspace</figcaption>
+</figure>
+
+WR ADC must [coordinate](#airways-clearance) the activation of these SUAs with the relevant enroute controllers **prior** to any departures.
+
+Non-participating aircraft intenting to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../sua/#ad-hoc-activations).
+
+#### Woomera SUA
+There are multiple restricted areas associated with military operations at [YPWR](../../../aerodromes/procedural/Woomera): R222A-J, R237, R246A-C, R273, R281, and R287A-C. All restricted areas are located with the WRA subsector, and two (R22I and R22J) extend into FOR airspace.
+
+These restricted areas directly adjoin the jurisdiction of WR ADC, and when WR ADC is online aircraft will be transferred directly to/from the MOAs.
+
+##### Affected Civil operations
+When activated these restricted areas distrupt traffic on the **J141**, **J251**, **T20**, **T21** and **T29** high airways, which connect YPAD to the Northern Territory and are often used by transcontinental flights to and from the east coast. Activation also significantly distrupts traffic on the **W238**, **W274**, **W617**, **W764** low airways and traffic around YCBP and YOLD.
+
+Aircraft transiting the area should be rerouted via the **Z90**, **Z91**, **Z92**, and **Z93** as required.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -114,9 +133,25 @@ YBAS arrivals and overfliers shall be heads-up coordinated to **AS ADC** from AS
 The Standard Assignable level from ASP to **AS ADC** is `A080`, any other level must be prior coordinated.
 
 ### WR ADC
-By default, WR ADC owns the **R222F** Restricted Area. This airspace has vertical limits of `SFC` to `F120`. When WR ADC is active, this airspace is classified as Class D.
+#### Airspace
+WRS ADC is responsible for the Class D airspace `SFC` to `F120` within the R222F [restricted area](../../../sua/#restricted-areas).
 
-Coordination is not required between ASP(WRA) and WR ADC. Aircraft entering WR ADC airspace shall be handed off, and instructed to contact WR ADC for onwards clearance.
+Refer to [Reclassifications](#reclassifications) for operations when WR ADC is offline.
+
+### Departures
+Next coordination is not required from WR ADC to ASP(WRA). 
+
+Aircraft leaving WR ADC airspace **vertically** remain in the activated R222F restricted area, and will need to contact ASP(WRA) for onwards clearance. Aircraft departing **laterally** will enter ASP(WRA) uncontrolled airspace.
+ 
+### Arrivals/Overfliers
+As with departures, there is no inherent requirement for ASP(WRA) to coordinate arrivals or overfliers with WR ADC. However, it is good practice for ASP(WRA) to provide [heads-up](../../controller-skills/coordination/#heads-up) coordination for aircraft arriving into directly into WR ADC airspace.
+
+### Airways Clearance
+**WR ADC** shall give [heads-up](../../controller-skills/coordination/#airways-clearance) coordination to ASP prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated.
+
+!!! phraseology
+    <span class="hotline">**WR ADC** -> **WRA**</span>: "Request activation of R222A-G from 0300 until 0500, for military flying operations.”  
+    <span class="hotline">**WRA** -> **WR ADC**</span>: "Activation approved."  
 
 ### IND(INS) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
