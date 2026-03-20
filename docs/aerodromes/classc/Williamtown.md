@@ -36,12 +36,15 @@ The [intial points](../../controller-skills/military/#initial-and-pitch) are ali
 | 12   | South-western tip of Grahamstown Dam | `A025`<br>(`A020` for PC21) |
 | 30   | Intersection of the coast and extended Taxiway A centreline | `A025`<br>(`A020` for PC21) |
 
-#### Coded Clearances
+### Coded Clearances
 Aircraft departing to the western training areas should be cleared the **STORM 1** coded clearance, in addition to the [appropriate SID](#sid-selection). The **STORM 1** coded clearance gives aircraft permission to transit via the **[Thunder Corridor](../../terminal/williamtown/#thunder-corridor)**, a [military corridor](../../controller-skills/military/#military-corridors) that connects the WLM TCU to the R560 amd R570 restricted areas.
 
 !!! phraseology
     *BARN21 plans to enter R570 via THNDA for military training.*  
     **WLM ACD**: "BARN21, Cleared Storm 1. Runway 12, CLASSIC departure. Climb via SID to `FL110`, squawk 6003, departure frequency 135.7"
+
+!!! note
+    ACD shall write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
 
 #### Military Gates
 There are numerous [military gates](../../controller-skills/military/#military-gates) established throughout the WLM TCU to facilitate entry and exit to adjoining SUA.
@@ -55,8 +58,8 @@ Pilots should include the desired departure gate when requesting clearance.
 
 !!! phraseology
     *RPLC15 plans to enter the M581 MOA via Gate 7 for military training and airwork.*  
-    **RPLC15**: "Willy Delivery, RPLC15 for Gate 7, `F120` for M581, request clearance."
-    **WLM ACD**: "RPLC15, Willy Delivery. Cleared Gate 7, Classic departure. Climb via SID to `F120`, squawk 6001, departure frequency 135.7."   
+    **RPLC15**: "Willy Delivery, RPLC15 for Gate 7, `F120` for M581, request clearance."  
+    **WLM ACD**: "RPLC15, Willy Delivery. Cleared Gate 7, CLASSIC departure. Climb via SID to `F120`, squawk 6001, departure frequency 135.7."   
 
 If the pilot **does not** nominate a gate, or nominates a gate that does not provide access to their intended SUA, WLM ACD should clear the aircraft to depart via the **appropriate gate**.
 
@@ -97,7 +100,7 @@ Aircraft departing YWLM for the [Salt Ash Air Weapons Range (R596)] should be cl
 
 !!! phraseology
     *RPLC15 plans to enter the M581 MOA via Gate 7 for military training and airwork.*  
-    **PTHR21**: "Willy Delivery, PTHR21 for Salt Ash High, `A100`, transit not above `A050`, request clearance."
+    **PTHR21**: "Willy Delivery, PTHR21 for Salt Ash High, `A100`, transit not above `A050`, request clearance."  
     **WLM ACD**: "PTHR21, Willy Delivery. Standby."  
     *WLM ACD [coordinates the SUA activation request](#acd-to-wlm-tcu) with WAL*  
     **WLM ACD**: "PTHR21, clearance available."  
