@@ -11,6 +11,13 @@ SUAs are only operational when **activated**. In the real world, SUAs are activa
 
 Approval is required to operate in a restricted or military operating area, but not to operate in a danger area. The activation of SUAs can modify procedures at different airports, including precluding the use of certain approaches, SIDs, or STARs.
 
+!!! note
+    In the real world, details of SUA activations are distributed widely to ensure that filed flight plans already include the necessary diversions before they reach ATC. Online, pilots are very unlikely to be aware of the rerouting requirements, and may have difficulty adjusting to a reroute on short notice. Nearby controllers (particularly those performing the role of ACD) are also unlikely to be aware that some flight plans may require adjustments.
+    
+    Unless an activation has been [advertised by local NOTAM](../../sua/#activation-by-notam), controllers should work with pilots patiently and, where a pilot is unable to comply with a reroute, attempt to facilitate the safe transit of the SUA. Controllers should also follow best practice by announcing activations in vatSys' controller chat, amending voiceless coordination requirements, and proactively assisting other controllers.
+    
+    In all cases, controllers should display professional behaviour to other controllers and pilots when facilitating SUA operations.
+
 ### Restricted Areas
 Restricted areas are established to restrict the passage of aircraft through hazardous or sensitive areas. They are labelled with the **R** prefix (e.g. R215, the restricted area around Pine Gap, near Alice Springs). Approval *is* required to enter. Pilots who do not have approval to enter a restricted area must remain either laterally or vertically clear.
 
@@ -112,4 +119,3 @@ As the boundary between two classes of airspace takes the form of the *least* re
 
 !!! example
     A restricted area with a vertical definition of `SFC-A085` may be overflown **at** `A085`, as the aircraft will be deemed to be in the least restrictive class of airspace at that level.
-
