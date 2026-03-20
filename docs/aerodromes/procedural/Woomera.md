@@ -30,7 +30,7 @@ When **WR ADC** is online, the **R222F** restricted area `SFC` to `UNL` is [acti
 #### SUA in Enroute Airspace
 Most military operations will take place in SUA adjoining the **R222F** restricted area, in ASP airspace.
 
-WR ADC must coordinate the activation of these SUAs with the relevant enroute controllers **prior** to [approving any clearances](#asp-wra).
+WR ADC must coordinate the activation of these SUAs with the relevant enroute controllers **prior** to [approving any clearances](#airways-clearance).
 
 ## Local Procedures
 ### Initial and Pitch
@@ -39,7 +39,7 @@ The [intial points](../../controller-skills/military/#initial-and-pitch) are ali
 | RWY  | Initial Point | Altitude |
 | ---- | ------------- | ------------------------ |
 | 18   | 3NM north, at Yandandarre Creek | `A025` |
-| 30   | 2NM souith, at Camp Rapier | `A025`      |
+| 30   | 2NM south, at Camp Rapier | `A025`      |
 
 ### Military Gates
 There are several visual waypoints established throughout WR ADC airspace which serve as [military gates](../../../controller-skills/military/#military-gates) when lateral separation is required.
