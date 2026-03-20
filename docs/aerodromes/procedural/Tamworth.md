@@ -75,16 +75,18 @@ To avoid nose-to-nose conflict at the southern runway, the following recommended
 ### Departures
 Due to high terrain to the north, departures to the north and east generally require a CTA departure. These aircraft must be issued with an explicit airways clearance to enter the overlying class D or C airspace.
 
-VFR aircraft departing between the 160 radial through to the 295 radial (south and west) should report either for a **GST** or **GWT** departure from the southern runway (12R/30L). These aircraft shall be instructed to depart via their respective gates with their takeoff clearance.
+VFR aircraft departing between the 160 radial through to the 295 radial (south and west), who haven't planned a CTA departure, will report either for a **GST** or **GWT** departure from the southern runway (12R/30L). These aircraft shall be instructed to depart via their respective gates with their takeoff clearance.
 
 !!! phraseology
     **83C**: "Tamworth Tower, Cherokee 83C, holding point J, for a GST departure, ready"  
     **TW ADC**: "83C, Tamworth Tower, GST departure, cleared for takeoff"  
     **83C**: "GST departure, cleared for takeoff, 83C"
 
+The GST and GWT departures guide aircraft clear of the [DUA Arrival](#dua-arrivals) to exit the CTR directly into Class G.
+
 <figure markdown>
-![TW VFR Routes](img/TW_VFR_routes.png){ width="700" }
-  <figcaption>VFR Routes</figcaption>
+![Southern VFR Routes](img/TW_VFR_routes.png){ width="700" }
+  <figcaption>Southern VFR Routes</figcaption>
 </figure>
 
 !!! note
