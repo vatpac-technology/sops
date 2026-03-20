@@ -145,7 +145,7 @@ The following subsectors are responsible for issuing STAR clearance.
 | OCN  | ASUVA | All      |       |
 
 #### Coded Clearances
-The ARL subsector is additionally responsible for issuing the **STORM 2** coded clearance to aircraft arriving YWLM via the **[Lightning Corridor](#r560-r570-williamtown)**.
+The ARL subsector is additionally responsible for issuing the **STORM 2** coded clearance to aircraft arriving YWLM via the **[Thunder Corridor](#r560-r570-williamtown)**.
 
 ## Local Procedures
 ### Special Use Airspace
