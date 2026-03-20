@@ -249,6 +249,8 @@ SFW/SFE may provide distance to touchdown, when transferring an aircraft to towe
 ### YWLM STARs
 YWLM arrivals from the south and west will transit the SY TCU as they descend. BIK/KAT will provide these aircraft with their STAR clearance and initial descent, before conduct heads-up coordination with the relevant SY TCU controller to facilitate further descent.
 
+IFR aircraft which depart from the SY TMA with ADES YWLM must be issued STAR clearance by SY TCU.
+
 !!! phraseology
     <span class="hotline">**BIK** -> **SAS**</span>: "via RIVET, JST472, will be assigned `F250`"  
     <span class="hotline">**SAS** -> **BIK**</span>: "JST472, `F250`" 
