@@ -24,13 +24,9 @@
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
-### Restricted Area Activations
-When **WR ADC** is online, the **R222F** restricted area `SFC` to `UNL` is [activated](../../../sua/#activation-of-sua) by default.
-
-#### SUA in Enroute Airspace
-Most military operations will take place in SUA adjoining the **R222F** restricted area, in ASP airspace.
-
-WR ADC must coordinate the activation of these SUAs with the relevant enroute controllers **prior** to [approving any clearances](#airways-clearance).
+### Special Use Airspace
+When **WR ADC** is online, the **R222F** restricted area `SFC` to `UNL` is [activated](../../../sua/#activation-of-sua) by default.  
+Activation of any other SUA must be coordinated to the affected Enroute controller(s). **prior** to [approving any clearances](#airways-clearance).
 
 ## Local Procedures
 ### Initial and Pitch
@@ -54,14 +50,11 @@ There are several visual waypoints established throughout WR ADC airspace which 
     **BFLO11**: "Woomera Tower, BFLO11, for R222C, request taxi."  
     **WR ADC**: "BFLO11, Woomera Tower. Taxi to holding point A, runway 36. Expect clearance via Lake Hart."  
     **BFLO11**: "Taxi to holding point A, runway 36, BFLO11."  
-    *...*
+    *...*  
     **BFLO11**: "Woomera Tower, BFLO11 ready runway 36."  
     **WR ADC**: "BFLO11, make left turn, track direct Lake Hart. Runway 36, cleared for take off."
 
 When there is no conflicting traffic, aircraft can be cleared to track directly to/from their desired SUA.
-
-### Special Use Airspace
-WR ADC [airspace](#airspace) is entirely within boundaries of the R222F restricted area, which is activated by default when WR ADC is online.
 
 ## Separation
 ### Surveillance
@@ -77,11 +70,11 @@ Aircraft leaving WR ADC airspace **vertically** remain in the activated R222F re
 As with departures, there is no inherent requirement for ASP(WRA) to coordinate arrivals or overfliers with WR ADC. However, it is good practice for ASP(WRA) to provide [heads-up](../../controller-skills/coordination/#heads-up) coordination for aircraft arriving into directly into WR ADC airspace.
 
 ### Airways Clearance
-**WR ADC** shall give [heads-up](../../controller-skills/coordination/#airways-clearance) coordination to ASP prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated.
+**WR ADC** shall give [heads-up](../../controller-skills/coordination/#airways-clearance) coordination to ASP(WRA) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated.
 
 !!! phraseology
-    <span class="hotline">**WR ADC** -> **WRA**</span>: "Request activation of R222A-G from 0300 until 0500, for military flying operations.”  
-    <span class="hotline">**WRA** -> **WR ADC**</span>: "Activation approved."  
+    <span class="hotline">**WR ADC** -> **WRA**</span>: "Request activation of R222A-G SFC to UNL from 0300 until 0500, for military flying operations.”  
+    <span class="hotline">**WRA** -> **WR ADC**</span>: "R222A-G SFC to UNL Activation approved 0300 to 0500."  
 
 ## Charts
 !!! abstract "Reference"

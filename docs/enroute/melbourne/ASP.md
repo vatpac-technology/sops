@@ -36,17 +36,11 @@ The Primary Communication Method for ASP is [CPDLC](../../../client/cpdlc). Voic
     Due to the large geographical area covered by this sector and it's neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
 
 ### Reclassifications
-=== "AS CTR"
+#### AS CTR
 	When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME AS reverts to Class G, and AS CTA (Class C `F125` to `F245`) within 80 DME AS reverts to Class E, and both are administered by ASP. Alternatively, ASP may provide a [top-down procedural service](../../../aerodromes/Alice) if they wish.
 
 	!!! tip
 		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
-
-=== "WR CTR"
-	When **WR TCU** is offline, WR MIL CTR and associated restricted airspace reverts to Class G, and is administered by WRA.
-	
-	!!! tip
-        Consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
 ## Surveillance Coverage
 Limited surveillance coverage exists in the FOR sector greater than **250nm** from ADSB stations. [Procedural Standards](../../../separation-standards/procedural/) must be implemented **prior** to losing surveillance coverage
@@ -75,6 +69,8 @@ There are multiple volumes of [SUA](../../controller-skills/sua) within ASP airs
 ![Notable SUA in ASP Airspace](../img/asp_sua.png){ width="700" }
   <figcaption>Notable SUA in ASP Airspace</figcaption>
 </figure>
+
+When **WR ADC** is online, **R222F** Restricted Area is activated `SFC` to `F120` by default. Activation of any other SUA must be coordinated by WR ADC.
 
 WR ADC must [coordinate](#airways-clearance) the activation of these SUAs with the relevant enroute controllers **prior** to any departures.
 
@@ -134,24 +130,24 @@ The Standard Assignable level from ASP to **AS ADC** is `A080`, any other level 
 
 ### WR ADC
 #### Airspace
-WRS ADC is responsible for the Class D airspace `SFC` to `F120` within the R222F [restricted area](../../../sua/#restricted-areas).
+WR ADC is responsible for the Class D airspace `SFC` to `F120` within the R222F [restricted area](../../../sua/#restricted-areas).
 
 Refer to [Reclassifications](#reclassifications) for operations when WR ADC is offline.
 
 ### Departures
-Next coordination is not required from WR ADC to ASP(WRA). 
+Next coordination is not required from WR ADC to WRA. 
 
-Aircraft leaving WR ADC airspace **vertically** remain in the activated R222F restricted area, and will need to contact ASP(WRA) for onwards clearance. Aircraft departing **laterally** will enter ASP(WRA) uncontrolled airspace.
+Aircraft leaving WR ADC airspace **vertically** remain in the activated R222F restricted area, and will need to contact WRA for onwards clearance. Aircraft departing **laterally** will enter WRA uncontrolled airspace.
  
 ### Arrivals/Overfliers
-As with departures, there is no inherent requirement for ASP(WRA) to coordinate arrivals or overfliers with WR ADC. However, it is good practice for ASP(WRA) to provide [heads-up](../../controller-skills/coordination/#heads-up) coordination for aircraft arriving into directly into WR ADC airspace.
+As with departures, there is no inherent requirement for WRA to coordinate arrivals or overfliers with WR ADC. However, it is good practice for WRA to provide [heads-up](../../controller-skills/coordination/#heads-up) coordination for aircraft arriving into directly into WR ADC airspace.
 
 ### Airways Clearance
 **WR ADC** shall give [heads-up](../../controller-skills/coordination/#airways-clearance) coordination to ASP prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated.
 
 !!! phraseology
-    <span class="hotline">**WR ADC** -> **WRA**</span>: "Request activation of R222A-G from 0300 until 0500, for military flying operations.”  
-    <span class="hotline">**WRA** -> **WR ADC**</span>: "Activation approved."  
+    <span class="hotline">**WR ADC** -> **WRA**</span>: "Request activation of R222A-G SFC to UNL from 0300 until 0500, for military flying operations.”  
+    <span class="hotline">**WRA** -> **WR ADC**</span>: "R222A-G SFC to UNL Activation approved 0300 to 0500."  
 
 ### IND(INS) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
