@@ -25,8 +25,9 @@
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
 ### Special Use Airspace
-When **WR ADC** is online, the **R222F** restricted area `SFC` to `UNL` is [activated](../../../sua/#activation-of-sua) by default.  
-Activation of any other SUA must be coordinated to the affected Enroute controller(s). **prior** to [approving any clearances](#airways-clearance).
+When **WR ADC** is online, the **R222F** restricted area `SFC` to `F120` is [activated](../../../sua/#activation-of-sua) by default.
+
+Activation of any other SUA must be coordinated to the affected Enroute controller(s) **prior** to [approving any clearances](#airways-clearance).
 
 ## Local Procedures
 ### Initial and Pitch
