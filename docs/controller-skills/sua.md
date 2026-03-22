@@ -72,14 +72,18 @@ SUA may also be activated by controllers **upon request** of an aircraft perform
     Some of the **key considerations** include:
     
     - **Dimensions of SUA**: How big is the SUA being requested? What are the lateral and vertical limits.
-    - **Nature of Request**: Is the activation of an SUA necessary for the aircraft to perform their requested operations? Is the request compliant with the VATSIM Code of Conduct?
+    - **Nature of Request**: Is the extent fo the activation necessary for the aircraft to perform their requested operations? Is the request compliant with the VATSIM Code of Conduct? Could operations be safely conducted without the activation of SUA?
     - **Airspace**: What are the classes of airspace involved? 
     - **Separation**: What are the separation implications for aircraft in the area? 
     - **Coordination**: Is any coordination required with adjacent units?
     - **Workload**: Does the current workload allow you to facilitate this request? Would separating aircraft from the SUA significantly increase your workload?
-
-!!! tip
+    
     Where a requested airspace release would impact a large number of pilots, consider working with the aircraft to establish a mutually beneficial solution. The full extent of the requested airspace can be released at a later time when the traffic picture allows.
+    
+Controllers shall ensure that SUA activation is limited to the **smallest extent necessary** to enable the requested operations. 
+
+!!! warning "Important"
+    Activation of SUA in excess of operational requirements, or when there is no active/planned operations at all, is unreasonable and not permitted.
 
 ### Activating SUA in vatSys
 Controllers should **always** ensure SUAs are activated in vatSys when in use. This allows the dimensions of the SUA to be displayed on the scope and ensures that a DAIW alert is triggered if an aircraft is about to violate the area.
