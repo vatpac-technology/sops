@@ -8,7 +8,7 @@ The majority of traffic on VATSIM is simulated 'civilian' traffic: airliners per
 
 Military operations can vary significantly from civilian operations, both in procedure and in phraseology.
 
-!!! important
+!!! warning "Important"
     As per the VATSIM [Special Operations Policy](https://vatsim.net/docs/policy/special-operations){target=new}, the following activities are restricted on the VATSIM network. They may only be performed by pilots who are a member of, and flying an operation representing, an approved Virtual Special Operations Association.
 
     - Conducting joint training exercises with other approved VSOAs
@@ -296,7 +296,7 @@ When simulating special operations, pilots may file a priority status in their r
 |`STS/STATE` | Aircraft part of the defence force, military, or customs | 
 |`STS/HOSP` | Aircraft engaged in non-life-critical transportation of medical operations, personnel, or ill patients |
 
-!!! important
+!!! warning "Important"
     `VATSIM Code of Conduct - Section B6` 
     
     *No flight may declare itself to have priority over another. Pilots are permitted to declare in-flight emergencies only when under air traffic control. If, for any reason, air traffic control requests the pilot to terminate the emergency, then the pilot shall do so IMMEDIATELY or disconnect from the network. Pilots are not permitted to simulate any unlawful act including, but not limited to, declaring a hijack by any method, including entering a transponder code of 7500.*

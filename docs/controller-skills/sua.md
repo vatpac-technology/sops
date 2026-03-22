@@ -55,6 +55,7 @@ On VATSIM, MOAs are generally assumed to be deactivated unless being actively us
 ![M301A Military Operating Area](img/m301a_moa.png){ width="800" }
   <figcaption>M301A Military Operating Area</figcaption>
 </figure>
+
     
 ## Activation of SUA
 ### Activation by NOTAM
@@ -65,7 +66,7 @@ Each NOTAM will contain details of the SUA being activated and the procedures to
 ### Ad hoc Activations
 SUA may also be activated by controllers **upon request** of an aircraft performing operations in compliance with the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct){target=new}.
 
-!!! important
+!!! tip
     Activation of SUA can have significant repurcussions for aircraft in the surrounding airspace. Before agreeing to a request to activate SUA, controllers should make a detailed assessment of all aspects of the request.
     
     Some of the **key considerations** include:
@@ -104,7 +105,7 @@ It is the pilots responsibility to remain clear of SUAs when OCTA. Controllers s
 
 For aircraft unfamiliar with the restricted area, provide *suggested* headings to avoid.
 
-!!! important
+!!! warning "Important"
     Remember, controllers cannot vector an aircraft that is OCTA.
 
 ### Controlled Airspace
