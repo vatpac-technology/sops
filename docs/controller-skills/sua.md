@@ -56,8 +56,17 @@ On VATSIM, MOAs are generally assumed to be deactivated unless being actively us
   <figcaption>M301A Military Operating Area</figcaption>
 </figure>
 
-    
 ## Activation of SUA
+Responsibility for activation of an SUA lies with the controller with jurisdiction over the airspace, regardless of the operations normally conducted within it.
+
+!!! example
+    The R586B restricted area is used for military operations associated with YWLM. Activation of the SUA is the responsibility of ARL(MNN) who controls the airspace, regardless of the online status of WLM TCU.
+
+Where an SUA spans across multiple boundaries, the relevant controllers should coordinate any activations.
+
+!!! warning "Important"
+    Controllers are not permitted to extend beyond their lateral boundaries to offer control services to aircraft within a restricted area.
+
 ### Activation by NOTAM
 NOTAMs are published on the [Local NOTAMs](https://vatpac.org/publications/notam){target=new} page of the VATPAC website. Approved VSOAs may arrange for SUA to be activated by NOTAM for preplanned operations.
 
@@ -95,7 +104,7 @@ Controllers should **always** ensure SUAs are activated in vatSys when in use. T
 !!! note
     SUAs that are not associated with flying activities, and have published operating hours, do not need to be manually activated. vatSys will activate and deactivate those areas automatically.
 
-## Separation
+## Separation from SUA
 ### Uncontrolled Airspace
 It is the pilots responsibility to remain clear of SUAs when OCTA. Controllers should provide safety alerts to aircraft that will shortly enter, or have already entered, active restricted areas.
 
