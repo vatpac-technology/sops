@@ -89,7 +89,7 @@ SUA may also be activated by controllers **upon request** of an aircraft perform
     
     Where a requested airspace release would impact a large number of pilots, consider working with the aircraft to establish a mutually beneficial solution. The full extent of the requested airspace can be released at a later time when the traffic picture allows.
     
-Controllers shall ensure that SUA activation is limited to the **smallest extent necessary** to enable the requested operations. 
+Controllers shall ensure that SUA activation is limited to the **smallest extent necessary** to enable the requested operations while ensuring adequate [separation](#separation) with non-participating aircraft.
 
 !!! warning "Important"
     Activation of SUA in excess of operational requirements, or when there is no active/planned operations at all, is unreasonable and not permitted.
@@ -122,6 +122,7 @@ For aircraft unfamiliar with the restricted area, provide *suggested* headings t
     Remember, controllers cannot vector an aircraft that is OCTA.
 
 ### Controlled Airspace
+#### Lateral
 Aircraft must be separated from the SUA by *half the applicable lateral standard* (ie, **1.5nm** for TCU, **2.5nm** for Enroute).
 
 <figure markdown>
@@ -129,7 +130,15 @@ Aircraft must be separated from the SUA by *half the applicable lateral standard
   <figcaption>Diagram of separation with an SUA</figcaption>
 </figure>
 
+
+#### Vertical
 As the boundary between two classes of airspace takes the form of the *least* restrictive class, Aircraft operating at the vertical limits of an SUA are considered to be separated from it.
 
 !!! example
     A restricted area with a vertical definition of `SFC-A085` may be overflown **at** `A085`, as the aircraft will be deemed to be in the least restrictive class of airspace at that level.
+    
+Vertical limits of an SUA activation should include a buffer of at least 1000ft (or 2000ft when at or above `F290`) between any planned operations.
+
+!!! example
+    A military exercise is planned in the R225J restricted area, involving abrupt vertical manoeuvres from `SFC` to `F196`. ASP applies a buffer of 1000ft to the upper limit of the exercise, and activates the restricted area from`SFC-F210`.
+
