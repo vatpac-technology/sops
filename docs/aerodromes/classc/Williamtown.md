@@ -153,7 +153,7 @@ The Operational Information field should be updated when either of the [Salt Ash
 The Standard Assignable level from WLM ADC to WLM TCU is:
 
 | Aircraft | Level |
-| ------- | ----- |
+| -------- | ----- |
 | All | The lower of `F120` and `RFL` |
     
 ### ACD to WLM TCU
