@@ -36,7 +36,7 @@ The Primary Communication Method for ASP is [CPDLC](../../../client/cpdlc). Voic
     Due to the large geographical area covered by this sector and it's neighbours, controllers are reminded of their obligations under the [ATS Policy](https://vatpac.org/publications/policies) when extending. Ensure that you have sufficiently placed visibility points to cover your primary sector and any secondary, extended sectors in their entirety.
 
 ### Reclassifications
-#### AS CTR
+=== "AS CTR"
 	When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME AS reverts to Class G, and AS CTA (Class C `F125` to `F245`) within 80 DME AS reverts to Class E, and both are administered by ASP. Alternatively, ASP may provide a [top-down procedural service](../../../aerodromes/Alice) if they wish.
 
 	!!! tip
@@ -70,9 +70,12 @@ There are multiple volumes of [SUA](../../controller-skills/sua) within ASP airs
   <figcaption>Notable SUA in ASP Airspace</figcaption>
 </figure>
 
-When **WR ADC** is online, **R222F** Restricted Area is activated `SFC` to `F120` by default. Activation of any other SUA must be coordinated by WR ADC.
+When **WR ADC** is online, **R222F** Restricted Area is activated `SFC` to `F120` by default. WR ADC must [give heads up coordination](../../aerodrome/procedural/Woomera/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
 
-WR ADC must [coordinate](#airways-clearance) the activation of these SUAs with the relevant enroute controllers **prior** to any departures.
+!!! phraseology
+    <span class="hotline">**WAL** -> **ARL**</span>: "On the groud YWLM, PTHR11, requests activation of R560A `A085-F240`, from 0300 until 0500.”  
+    <span class="hotline">**ARL** -> **WAL**</span>: "PTHR11, expect activation of R560A `A085-F240` at 0300 until 0500."   
+    <span class="hotline">**WAL** -> **ARL**</span>: "PTHR11."  
 
 Non-participating aircraft intenting to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../sua/#ad-hoc-activations).
 
@@ -135,19 +138,17 @@ WR ADC is responsible for the Class D airspace `SFC` to `F120` within the R222F 
 Refer to [Reclassifications](#reclassifications) for operations when WR ADC is offline.
 
 ### Departures
-Next coordination is not required from WR ADC to WRA. 
+Next coordination is not required from WR ADC to ASP(WRA). 
 
-Aircraft leaving WR ADC airspace **vertically** remain in the activated R222F restricted area, and will need to contact WRA for onwards clearance. Aircraft departing **laterally** will enter WRA uncontrolled airspace.
- 
-### Arrivals/Overfliers
-As with departures, there is no inherent requirement for WRA to coordinate arrivals or overfliers with WR ADC. However, it is good practice for WRA to provide [heads-up](../../controller-skills/coordination/#heads-up) coordination for aircraft arriving into directly into WR ADC airspace.
-
-### Airways Clearance
-**WR ADC** shall give [heads-up](../../controller-skills/coordination/#airways-clearance) coordination to ASP prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated.
+Aircraft leaving WR ADC airspace both **laterally** and **vertically** will enter ASP(WRA) uncontrolled airspace. However, it is good practice for WR ADC to provide [heads-up](../../controller-skills/coordination/#heads-up) coordination for aircraft leaving WR ADC airspace **vertically** to help faciltiate an uninterrupted climb.
 
 !!! phraseology
-    <span class="hotline">**WR ADC** -> **WRA**</span>: "Request activation of R222A-G SFC to UNL from 0300 until 0500, for military flying operations.”  
-    <span class="hotline">**WRA** -> **WR ADC**</span>: "R222A-G SFC to UNL Activation approved 0300 to 0500."  
+    <span class="hotline">**WR ADC** -> **WRA**</span>: "via WR 180 bearing outbound, LYBD11.”  
+    <span class="hotline">**WRA** -> **WR ADC**</span>: "LYBD11, `F240`."   
+    <span class="hotline">**WR ADC** -> **WRA**</span>: "`F240`, LYBD11."  
+ 
+### Arrivals/Overfliers
+As with departures, there is no inherent requirement for ASP(WRA) to coordinate arrivals or overfliers with WR ADC. However, it is good practice for ASP(WRA) to provide [heads-up](../../controller-skills/coordination/#heads-up) coordination for aircraft arriving into directly into WR ADC airspace. 
 
 ### IND(INS) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.

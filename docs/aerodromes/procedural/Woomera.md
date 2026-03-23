@@ -27,7 +27,18 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 ### Special Use Airspace
 When **WR ADC** is online, the **R222F** restricted area `SFC` to `F120` is [activated](../../../sua/#activation-of-sua) by default.
 
-Activation of any other SUA must be coordinated to the affected Enroute controller(s) **prior** to [approving any clearances](#airways-clearance).
+#### SUA in Enroute Airspace
+military operations also take place in SUA nearby the TCU in enroute airspace, outside the jurisdiction of WR ADC.
+
+WR ADC must give **heads up** coordination to relevant enroute controllers before providing airways clearance to an aircraft intending to operate in a currently inactive SUA.
+
+This gives the enroute controller sufficient time to assess the request, make necessary adjustments to any aircraft in the area currently, and activate the SUA; or alternately to refuse the activation request before the aircraft is in the air.
+
+!!! phraseology
+    *PTHR11 is requesting clearance to operate in the R560A restricted area.*  
+    <span class="hotline">**WR ADC** -> **WRA**</span>: "On the ground YPWR, BFLO11, requests activation of R222C `SFC-F290`, from 0100 until 0300."  
+    <span class="hotline">**WRA** -> **WR ADC**</span>: "BFLO11, expect activation of R222C `SFC-F290` at 0100 until 0300."  
+    <span class="hotline">**WR ADC** -> **WRA**</span>: "BFLO11.
 
 ## Local Procedures
 ### Initial and Pitch
@@ -45,6 +56,15 @@ There are several visual waypoints established throughout WR ADC airspace which 
 ![WR Visual Gates](img/wr_mil_gates.png){ width="700" }
   <figcaption>WR Visual Gates</figcaption>
 </figure>
+
+| Visual Gate         | Position |
+| ------------------- | -------- |
+| Island Lagoon       | WR180013 |
+| Koolymilka Lake     | WR300017 |
+| Lake Hart           | WR249022 |
+| Lake Richardson     | WR061009 |
+| Lake Windabout      | WR121016 |
+| Red Swamp           | WR004018 |
 
 !!! phraseology
     *BFLO11 plans to enter the R222C restricted area for military training and airwork. It is a busy day, and WR ADC is utilising the visual waypoints to establish [lateral separation](../../../separation-standards/procedural/#lat-sep-table) between different operating groups*  
@@ -65,17 +85,15 @@ Surveillance coverage can be expected to be available at all levels in the WR CT
 ### Departures
 Next coordination is not required from WR ADC to ASP(WRA). 
 
-Aircraft leaving WR ADC airspace **vertically** remain in the activated R222F restricted area, and will need to contact ASP(WRA) for onwards clearance. Aircraft departing **laterally** will enter ASP(WRA) uncontrolled airspace.
+Aircraft leaving WR ADC airspace both **laterally** and **vertically** will enter ASP(WRA) uncontrolled airspace. However, it is good practice for WR ADC to provide [heads-up](../../controller-skills/coordination/#heads-up) coordination for aircraft leaving WR ADC airspace **vertically** to help faciltiate an uninterrupted climb.
+
+!!! phraseology
+    <span class="hotline">**WR ADC** -> **WRA**</span>: "via WR 180 bearing outbound, LYBD11.”  
+    <span class="hotline">**WRA** -> **WR ADC**</span>: "LYBD11, `F240`."   
+    <span class="hotline">**WR ADC** -> **WRA**</span>: "`F240`, LYBD11."  
  
 ### Arrivals/Overfliers
 As with departures, there is no inherent requirement for ASP(WRA) to coordinate arrivals or overfliers with WR ADC. However, it is good practice for ASP(WRA) to provide [heads-up](../../controller-skills/coordination/#heads-up) coordination for aircraft arriving into directly into WR ADC airspace.
-
-### Airways Clearance
-**WR ADC** shall give [heads-up](../../controller-skills/coordination/#airways-clearance) coordination to ASP(WRA) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated.
-
-!!! phraseology
-    <span class="hotline">**WR ADC** -> **WRA**</span>: "Request activation of R222A-G SFC to UNL from 0300 until 0500, for military flying operations.”  
-    <span class="hotline">**WRA** -> **WR ADC**</span>: "R222A-G SFC to UNL Activation approved 0300 to 0500."  
 
 ## Charts
 !!! abstract "Reference"
