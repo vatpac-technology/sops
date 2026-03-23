@@ -286,3 +286,7 @@ The controller assuming responsibility of **ACD** shall give [heads-up](../contr
     <span class="hotline">**WAL** -> **WLM ACD**</span>: "PTHR11, clearance approved."
 
 Most military operations will take place in SUA adjoining the [TCU in enroute airspace](#sua-in-enroute-airspace). WLM TCU must coordinate the activation of these SUAs with the relevant enroute controllers **prior** to approving any clearances.
+
+## Charts
+!!! abstract "Reference"
+    In addition to the civilian `ERSA` and `AIP` publications, [the RAAF AIP website](https://ais-af.airforce.gov.au/australian-aip){target=new} contains the necessary charts (available in the TERMA) and description of procedures (in each airports' FIHA).
