@@ -41,13 +41,26 @@ WLM ADC is responsible for the airspace within the WLM MIL CTR A from `SFC` to `
 There are no [restricted areas or MOAs](../../controller-skills/sua) activated by default when WAL is online.
 
 #### SUA in Enroute Airspace
-Most military operations will take place in SUA nearby the TCU in enroute airspace.
+Most military operations will take place in SUA nearby the TCU in enroute airspace, outside the jurisdiction of WLM TCU.
 
-WLM TCU must coordinate the activation of these SUAs with the relevant enroute controllers **prior** to [approving any clearances](#acd-to-wlm-tcu).
+Upon receiving [airways clearance coordination from ACD](#acd-to-wlm-tcu) of an aircraft intending to operate in a currently inactive SUA, WLM TCU must give **heads up** coordination to relevant enroute controllers.
+
+This gives the enroute controller sufficient time to assess the request, make necessary adjustments to any aircraft in the area currently, and activate the SUA; or alternately to refuse the activation request before the aircraft is in the air.
 
 !!! phraseology
-    <span class="hotline">**WAL** -> **ARL**</span>: "Request activation of M581-M584 from 0300 until 0500, for military flying operations. My onwards with HWE.”  
-    <span class="hotline">**ARL** -> **WAL**</span>: "Activation approved."  
+    *PTHR11 is requesting clearance to operate in the R560A restricted area.*  
+    <span class="hotline">**WLM ACD** -> **WAL**</span>: "PTHR11 requests clearance to R560A via Thunder corridor.”  
+    <span class="hotline">**WAL** -> **WLM ACD**</span>: "Standby, call you back."  
+    
+    <span class="hotline">**WAL** -> **ARL**</span>: "On the groud YWLM, PTHR11, requests activation of R560A `A085-F240`, from 0300 until 0500.”  
+    <span class="hotline">**ARL** -> **WAL**</span>: "PTHR11, expect activation of R560A `A085-F240` at 0300 until 0500."   
+    <span class="hotline">**WAL** -> **ARL**</span>: "PTHR11."   
+    
+    <span class="hotline">**WAL** -> **WLM ACD**</span>: "PTHR11, clearance approved."   
+    <span class="hotline">**WLM ACD** -> **WAL**</span>: "Clearance approved, PTHR11"  
+
+!!! note
+    The requirement to coordinate activation of an SUA is in **addition** to existing coordination requirements. [**Heads-up** coordination](#departures) is still required for these aircraft if they do not meet the voiceless coordination criteria.
 
 ## Local Procedures
 ### Initial and Pitch
@@ -248,7 +261,7 @@ All other aircraft coming from ARL CTA will be **Heads-up** Coordinated to WLM T
 
 ### WLM ADC
 #### Airspace
-WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A050`). This may be amended/released as required between WLM ADC and WLM TCU.
+WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A015`).
 
 #### Departures
 [Next](../controller-skills/coordination.md#next) coordination is **not** required from WLM ADC to WLM TCU for aircraft that are:  
@@ -262,7 +275,7 @@ All other aircraft require a 'Next' call to WLM TCU.
 The Standard Assignable level from WLM ADC to WLM TCU is:
 
 | Aircraft | Level |
-| ------- | ----- |
+| -------- | ----- |
 | All | The lower of `F120` and `RFL` | 
     
 ### ACD to WLM TCU

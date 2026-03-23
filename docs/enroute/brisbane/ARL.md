@@ -156,11 +156,12 @@ There are multiple volumes of [SUA](../../controller-skills/sua) within ARL airs
   <figcaption>Notable SUA in ARL Airspace</figcaption>
 </figure>
 
-WLM TCU must [coordinate](../../terminal/williamtown/#sua-in-enroute-airspace) the activation of these SUAs with the relevant enroute controllers **prior** to any departures.
+WLM TCU must [give heads up coordination](../../terminal/williamtown/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
 
 !!! phraseology
-    <span class="hotline">**WAL** -> **ARL**</span>: "Request activation of M581-M584 from 0300 until 0500, for military flying operations. My onwards with HWE.”  
-    <span class="hotline">**ARL** -> **WAL**</span>: "Activation approved."  
+    <span class="hotline">**WAL** -> **ARL**</span>: "On the groud YWLM, PTHR11, requests activation of R560A `A085-F240`, from 0300 until 0500.”  
+    <span class="hotline">**ARL** -> **WAL**</span>: "PTHR11, expect activation of R560A `A085-F240` at 0300 until 0500."   
+    <span class="hotline">**WAL** -> **ARL**</span>: "PTHR11."  
     
 Non-participating aircraft intenting to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../sua/#ad-hoc-activations).
 
