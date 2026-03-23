@@ -179,7 +179,7 @@ Military Gates are referred to by their identifier, and military aircraft can be
     *WGTL45 is returning from M581 via Gate 6, and has already been identified. Runway 30 is in use.*  
     **WGTL45**: "Willy Approach, WGTL45. `F150` visual, for stereo approach with information A."  
     **WAL**: "MAPL45, Willy Approach, cleared stereo approach. At 11 TACAN WLM contact Tower, 118.3"  
-    **MAPL45**: "Cleared stereo approach, tower at 11 TACAN WLM, WGTL45"
+    **WGTL45**: "Cleared stereo approach, tower at 11 TACAN WLM, WGTL45"
 
 Clearing an aircraft for a stereo approach gives aircraft permission to descend along the approach to meet any altitude restrictions and align for the approach. Where clearance for an aircraft to descend is not available, they should be instead be instructed to **track** via the approach, and given an altitude restriction.
 
@@ -187,7 +187,7 @@ Clearing an aircraft for a stereo approach gives aircraft permission to descend 
     *CLAS11 is returning to Tindal via Top Gate, and has already been identified. Runway 32 is in use.*  
     **CLAS11**: "Tindal Approach, CLAS11. `A090` visual, for stereo approach with information A"  
     **TNA**: "CLAS11, Tindal Approach, track via stereo approach, not below `A060`"  
-    **MAPL45**: "Track via stereo approach, not below `A060`, CLAS11"  
+    **CLAS11**: "Track via stereo approach, not below `A060`, CLAS11"  
     
 Stereo approaches should generally be used during high military traffic levels, and nominated on the appropriate aerodrome ATIS.
 
