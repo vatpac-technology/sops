@@ -81,7 +81,7 @@ SUA may also be activated by controllers **upon request** of an aircraft perform
     Some of the **key considerations** include:
     
     - **Dimensions of SUA**: How big is the SUA being requested? What are the lateral and vertical limits.
-    - **Nature of Request**: Is the extent fo the activation necessary for the aircraft to perform their requested operations? Is the request compliant with the VATSIM Code of Conduct? Could operations be safely conducted without the activation of SUA?
+    - **Nature of Request**: Is the extent of the activation necessary for the aircraft to perform their requested operations? Is the request compliant with the VATSIM Code of Conduct? Could operations be safely conducted without the activation of SUA?
     - **Airspace**: What are the classes of airspace involved? 
     - **Separation**: What are the separation implications for aircraft in the area? 
     - **Coordination**: Is any coordination required with adjacent units?
