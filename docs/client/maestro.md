@@ -13,7 +13,10 @@ When the number of arriving aircraft increases, a flow controller is required to
 
 MAESTRO is generally not used by TWR controllers, however it allows them to have situational awareness of the flow of inbound aircraft.
 
-The MAESTRO plugin can be accessed from the vatSys menu bar under TFMS.
+The MAESTRO plugin can be accessed from the vatSys menu bar under TFMS. By default, it operates in **offline** mode. Use the `SETUP` button to [connect](#synchronisation) to the server, which allows all connected controllers to share sequence information.
+
+## Installation
+The vMaestro plugin should be [downloaded](https://github.com/YuKitsune/vMaestro/releases) and placed in your vatSys Plugins folder.
 
 ## Abbreviations
 
