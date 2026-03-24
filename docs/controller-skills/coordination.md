@@ -156,6 +156,7 @@ When next coordination is being conducted with a procedural ADC, the assigned al
 !!! phraseology  
     <span class="hotline">**AS ADC** -> **ASP**</span>: "Next, QFA1956, runway 12"  
     <span class="hotline">**ASP** -> **AS ADC**</span>: "QFA442, `A070`, unrestricted"  
+    <span class="hotline">**AS ADC** -> **ASP**</span>: "`A070`, QFA1956"  
     
 #### After a go around
 Following a go around, the next departure from that runway **must** be next coordinated between the ADC and TCU controllers, regardless if it would otherwise meet the voiceless coordination criteria.
