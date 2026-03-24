@@ -8,7 +8,7 @@ The majority of traffic on VATSIM is simulated 'civilian' traffic: airliners per
 
 Military operations can vary significantly from civilian operations, both in procedure and in phraseology.
 
-!!! important
+!!! warning "Important"
     As per the VATSIM [Special Operations Policy](https://vatsim.net/docs/policy/special-operations){target=new}, the following activities are restricted on the VATSIM network. They may only be performed by pilots who are a member of, and flying an operation representing, an approved Virtual Special Operations Association.
 
     - Conducting joint training exercises with other approved VSOAs
@@ -25,6 +25,9 @@ Military operations can vary significantly from civilian operations, both in pro
     - Launch and Recovery of Space Vehicles
     - Air Displays (Flying Displays, Races)
     - Fly unmanned aerial vehicles, e.g. Global Hawk
+
+!!! tip
+    It may be beneficial to refer pilots to VATPAC's [Pilot Procedures](https://pilots.vatpac.org){target=new} to provide them with reference material for special operations.
 
 ## Military Airspace
 ### Military Aerodromes
@@ -61,7 +64,7 @@ When an ADC or TCU controller is online at a military aerodrome-and at some join
 
 
 ### Military Operating Areas
-Military Operating Areas (MOA) are a subset of [danger areas](../sua/#danger-areas) which have been established to facilitate a range of military operations. They are labelled with the **M** prefix (e.g. M550, which makes up part of the military airspace offshore from YWLM). Inside Australian territory aircraft require permission to enter an activated MOA, and civil aircraft are generally rerouted to avoid transiting the area.
+Military Operating Areas (MOA) are a subset of [danger areas](../sua/#danger-areas) which have been established to facilitate a range of military operations. They are labelled with the **M** prefix (e.g. M550, which makes up part of the military airspace offshore from YWLM). Inside Australian territory, aircraft require permission to enter an activated MOA, and civil aircraft are generally rerouted to avoid transiting the area.
 
 MOAs are considered to be deactivated by default, until activated by [NOTAM](../sua/#activation-by-notam) or as an [ad-hoc](../sua/#ad-hoc-activations) upon a pilot request.
 
@@ -147,8 +150,8 @@ Military aircraft will transit military corridors after being provided a **coded
 Aircraft entering civilian airspace via a military corridor generally **does not** constitute voiceless coordination between TCU and enroute. [Heads up coordination](../controller-skills/coordination.md#heads-up) is still required for these aircraft.
 
 !!! phraseology
-    <span class="hotline">**AMA** -> **NSA**</span>: "via BYRON1, BUCK3, will be assigned F190"  
-    <span class="hotline">**NSA** -> **AMA**</span>: "BUCK3, F190" 
+    <span class="hotline">**AMA** -> **NSA**</span>: "via BYRON1, BUCK3, will be assigned `F190`"  
+    <span class="hotline">**NSA** -> **AMA**</span>: "BUCK3, `F190`" 
 
 ### Military Gates
 **Military Gates** are fixes used by military aicraft to enter or exit SUA.
@@ -156,7 +159,7 @@ Aircraft entering civilian airspace via a military corridor generally **does not
 These fixes are normally defined by reference to a fixed navaid, such as a TACAN or VOR, and many military SIDs and STARs will use gates as termini. At some aerodromes (such as [Amberley](../../terminal/amberleyoakey)), military gates have been given codenames and are part of the required routing for particular operations. At other aerodromes (such as [East Sale](../../terminal/eastsale)), multiple waypoints are aligned and defined as a **lane**, and serve the same purpose.
 
 !!! tip
-    Corridors can be displayed in vatSys by activating the "MIL_GATES" map.
+    Gates can be displayed in vatSys by activating the "MIL_GATES" map.
 
 <figure markdown>
 ![Military Gates Example](img/military_gates.png){ width="700" }
@@ -170,11 +173,22 @@ Military Gates are referred to by their identifier, and military aircraft can be
     **CYCN15**: "Track direct Gate 3, CYCN15."
 
 ### Stereo Approaches
-**Stereo Approaches** are the primary procedure for fighter & strike aircraft (e.g. F18, HAWK, PC21) recovering back to airbases after operations in SUA. Aircraft track from specified SUA [exit gates](#military-gates) where they join the procedure, tracking along charted TACAN arcs/radials which position them for an initial and pitch or instrument approach.
+**Stereo Approaches** are the primary procedure for fighter & strike aircraft (e.g. F18, HAWK, PC21) recovering back to airbases after operations in SUA. Aircraft track from specified SUA [exit gates](#military-gates) where they join the procedure, tracking along charted TACAN arcs/radials which position them for an initial and pitch or instrument approach. 
 
-!!! info
-    Aircraft generally transition from a stereo approach onto an instrument approach or an initial and pitch.
+!!! phraseology
+    *WGTL45 is returning from M581 via Gate 6, and has already been identified. Runway 30 is in use.*  
+    **WGTL45**: "Willy Approach, WGTL45. `F150` visual, for stereo approach with information A."  
+    **WAL**: "MAPL45, Willy Approach, cleared stereo approach. At 11 TACAN WLM contact Tower, 118.3"  
+    **WGTL45**: "Cleared stereo approach, tower at 11 TACAN WLM, WGTL45"
 
+Clearing an aircraft for a stereo approach gives aircraft permission to descend along the approach to meet any altitude restrictions and align for the approach. Where clearance for an aircraft to descend is not available, they should be instead be instructed to **track** via the approach, and given an altitude restriction.
+
+!!! phraseology
+    *CLAS11 is returning to Tindal via Top Gate, and has already been identified. Runway 32 is in use.*  
+    **CLAS11**: "Tindal Approach, CLAS11. `A090` visual, for stereo approach with information A"  
+    **TNA**: "CLAS11, Tindal Approach, track via stereo approach, not below `A060`"  
+    **CLAS11**: "Track via stereo approach, not below `A060`, CLAS11"  
+    
 Stereo approaches should generally be used during high military traffic levels, and nominated on the appropriate aerodrome ATIS.
 
 ### Restricted Area Operations in Civil Airspace
@@ -201,14 +215,18 @@ An additional **1nm** must be applied to any lateral separation standards for ai
 When military formations make initial contact with a new sector, they will commonly "check in" with all of the members of the formation, to ensure they've all made the frequency transfer. This involves all the individual members of the formation saying their own number in order on the first call. Formations are most commonly referred to by their base radio telephony callsign, without any numbers (eg, VIPR, BLKT, WGTL).
 
 !!! phraseology
-    **VIPR**: "Viper 1, 2, 3, 4, Brisbane Centre, Viper, Maintaining F280"  
+    **VIPR1**: "Viper 1"  
+    **VIPR2**: "2"  
+    **VIPR3**: "3"  
+    **VIPR4**: "4"  
+    **VIPR**: "Brisbane Centre, Viper, Maintaining `F280`"  
     **ARA**:  "Viper, Brisbane Centre" 
 
 Any subsequent calls will only be made by the leader, representing the entire formation.
 
 !!! phraseology
-    **ARA**: "Viper, Climb to F340"  
-    **VIPR**:  "Climb to F340, Viper" 
+    **ARA**: "Viper, Climb to `F340`"  
+    **VIPR**:  "Climb to `F340`, Viper" 
 
 You may issue issue individual control instructions to a formation when necessary.
 
@@ -241,14 +259,14 @@ Reserved.
 MARSA is to be assigned and terminated on pilots request, and when standard seperation can been applied.
 
 !!! phraseology
-    *MAPL01 is Maintaining F260. DRGN50 is maintaining Block F270-290 above them.*  
-    **MAPL01**: "Request Climb to Block F270-F290, MARSA DRGN50"  
-    **ARA**: "MAPL01, Climb to and maintain Block F270-290, MARSA DRGN50"  
-    **ARA**: "DRGN50, Maintain Block F270-290, MARSA MAPL01"  
+    *MAPL01 is Maintaining `F260`. DRGN50 is maintaining Block `F270`-`F290` above them.*  
+    **MAPL01**: "Request Climb to Block `F270`-`F290`, MARSA DRGN50"  
+    **ARA**: "MAPL01, Climb to and maintain Block `F270`-`F290`, MARSA DRGN50"  
+    **ARA**: "DRGN50, Maintain Block `F270`-`F290`, MARSA MAPL01"  
     ...  
-    **MAPL01**: "Request descent to F260 and termination of MARSA"  
-    **ARA**: "MAPL01, Descend to F260, MARSA DRGN50"  
-    *(After MAPL01 is maintaining F260)*  
+    **MAPL01**: "Request descent to `F260` and termination of MARSA"  
+    **ARA**: "MAPL01, Descend to `F260`, MARSA DRGN50"  
+    *(After MAPL01 is maintaining `F260`)*  
     **ARA**: "MAPL01 and DRGN50, MARSA terminated"
 
 ## NOCOM Operations
@@ -278,7 +296,7 @@ When simulating special operations, pilots may file a priority status in their r
 |`STS/STATE` | Aircraft part of the defence force, military, or customs | 
 |`STS/HOSP` | Aircraft engaged in non-life-critical transportation of medical operations, personnel, or ill patients |
 
-!!! important
+!!! warning "Important"
     `VATSIM Code of Conduct - Section B6` 
     
     *No flight may declare itself to have priority over another. Pilots are permitted to declare in-flight emergencies only when under air traffic control. If, for any reason, air traffic control requests the pilot to terminate the emergency, then the pilot shall do so IMMEDIATELY or disconnect from the network. Pilots are not permitted to simulate any unlawful act including, but not limited to, declaring a hijack by any method, including entering a transponder code of 7500.*
@@ -291,7 +309,7 @@ SAR Operations are conducted more or less as a standard [airwork](../airwork) pr
 SAR Operations are most commonly flown in a circular area (eg Radius from a Fix, or Radius from a Lat/Long), or a Straight line pattern (eg, back and forth on a line between 2 Fixes, or 2 Lat/Longs).
 
 !!! phraseology
-    **DDU**: "DDU, request traffic for Search and Rescue operations for the next 90 minutes, within a 10nm Radius of 23 52 South, 136 01 East, Not above A060"  
+    **DDU**: "DDU, request traffic for Search and Rescue operations for the next 90 minutes, within a 10nm Radius of 23 52 South, 136 01 East, Not above `A060`"  
     **ASP**: "DDU, no reported IFR traffic. Report ops normal on the hour.""  
     **DDU**: "Wilco, DDU" 
 
@@ -304,3 +322,6 @@ Firebombing, for example, might involve repeated manoevres between a source of w
     **BMBR301**: "BMBR301, request traffic for firefighting operations for the next thirty minutes, within a 5nm Radius of 38 53 South, 146 26 East, not above `A055`"  
     **WON**: "BMBR301, no reported traffic."  
     **BMBR301**: "BMBR301" 
+
+!!! note
+    During inclement weather, it is common for firefighting aircraft to transit to the fire zone IFR and downgrade to VFR on arrival. Pilots may elect to upgrade to IFR when departing the fire zone.

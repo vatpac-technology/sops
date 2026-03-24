@@ -106,7 +106,7 @@ In those situations, **Runway 29** shall be used for arrivals and departures.
 | 29 | Left |
 
 ## SID Selection
-Aircraft planned via **GOPRA**, **ONIBA**, **TEPAM**, **NISAS**, **POXAK**, **SCUBA**, or **VIRAR** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Aircraft departing to the north-east shall be assigned the **Procedural SID** terminating at **LTO VOR**.
+Aircraft planned via **GOPRA**, **ONIBA**, **TEPAM**, **NISAS**, **POXAK**, **SCUBA**, or **VIRAR** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Aircraft departing to the north-east shall be assigned the **LTO SID** appropriate to their departure runway.
 
 Jet aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 

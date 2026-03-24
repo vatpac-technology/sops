@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name                      | Callsign  | Frequency | Login ID    |
-| ------------------------- | --------- | ---------------- | --------- |
-| **Port Vila Tower (TCU)**	| **Vila Tower** | **120.700** | **NVVV_APP** | 
+| Name                          | ID        | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | --------- | ----------------------- | ----------- | ------------- |
+| **Port Vila Tower (TCU)**	    | **NVVVA** | **Vila Tower**          | **120.700** | **NVVV_APP**  | 
 
 ## Airspace
 <figure markdown>

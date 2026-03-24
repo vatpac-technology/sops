@@ -106,11 +106,11 @@ In those situations, **Runway 17** shall be used for arrivals and departures.
 ## SID Selection
 Aircraft planned via **MR NDB**, **IP NDB**, or **LTO VOR** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Unless the pilot indicates they are unable to accept a Procedural SID, aircraft **not** planned via any of these waypoints will:
 
-- When **Runway 17** is in use, be assigned either the **SEP** or **MG** SIDs, or
+- When **Runway 17** is in use, be assigned either the **SEP** (preferred) or **MG** (if not VHF NAV equipped) SIDs, or
 - When Runway **Runway 35** is in use, receive amended routing via the most appropriate SID terminus.
 
 ### ADES NWWW
-Aircraft with ADES NWWW shall be assigned the **POGO** Procedural SID. This SID will allow aircraft to transition to the appropriate NWWW IAF at the **LTO VOR**. 
+Aircraft with ADES NWWW shall be assigned the **LTO** Procedural SID. This SID will allow aircraft to transition to the appropriate NWWW IAF at the **LTO VOR**. 
 
 ### Omnidirectional Departure
 All IFR aircraft that cannot accept a Procedural SID shall be assigned an **[omnidirectional departure](../#omnidirectional-departures)**. Aircraft will follow the published omnidirectional procedure before following the tracking instructions given in their airwards clearance.

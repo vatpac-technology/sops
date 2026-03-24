@@ -9,6 +9,9 @@ Not all flights online consist of an aircraft flying between airports. **Airwork
 !!! warning
 	Certain types of airwork, including search and rescue, firefighting, and other emergency operations are restricted under the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct){target=new}. See [Military and Special Operations](../miitary) for more information.
 
+!!! tip
+    It may be beneficial to refer pilots to VATPAC's [Pilot Procedures](https://pilots.vatpac.org){target=new} to provide them with reference material for special operations.
+
 ## Area of Operation
 Airwork must be conducted within a defined **area of operation**. This is genenerally nominated by the pilot when first passing airwork details, but can be adjusted or alternately defined by the controller when necessary. An area of operation should be defined with both **lateral** and **vertical** limits.
 
@@ -24,10 +27,10 @@ Airwork must be conducted within a defined **area of operation**. This is genene
 IFR Aircraft, and VFR aircraft receiving an identification service must notify the controller of their intentions prior to commencing airwork.
 
 !!! phraseology
-    *PPB is an IFR aircraft intending to perform a series of practice approaches at YPKU - an uncontrolled aerodrome*
+    *PPB is an IFR aircraft intending to perform a series of practice approaches at YPKU - an uncontrolled aerodrome*  
     **PPB**: "PPB, with airwork details"  
     **KIY**: "PPB"  
-    **PPB**: "PPB, will be conducting airwork within a 20nm radius of YPKU, not above A040, ops normal time 50."  
+    **PPB**: "PPB, will be conducting airwork within a 20nm radius of YPKU, not above `A040`, ops normal time 50."  
     **KIY**: "PPB, no reported IFR traffic"  
     **PPB**: "PPB"
 
@@ -35,11 +38,11 @@ IFR Aircraft, and VFR aircraft receiving an identification service must notify t
 Aircraft must obtain clearance to perform airwork within CTA, even when airwork details are included in their flightplan. Clearances must include **lateral** and **vertical** restrictions.
 
 !!! phraseology
-    *A2B is an IFR aircraft intending to perform airwork within 10nm of WG VOR, A090-A100.*  
+    *A2B is an IFR aircraft intending to perform airwork within 10nm of WG VOR, `A090`-`F130`.*  
     **A2B**: "A2B, with airwork details"  
     **BLA**: "A2B"  
     **A2B**: "A2B, request airwork within a 10nm radius of WG, between `A090` and `F130`, for the next 15 minutes."  
-    **BLA**: "A2B, cleared to operate within a 10nm radius of WG, `A090` to `F130`."  
+    **BLA**: "A2B, cleared to operate within a 10nm radius of WG, `A090` to `F130`, report ops complete."  
     **A2B**: "Cleared to operate within a 10nm of WG, `A090` to `F130`, A2B"  
     
 !!! tip
@@ -98,15 +101,15 @@ Remark codes are also used to advise intentions to perform specific types of air
     **Filed Route**: `DCT WOL WOL020010 WOL DCT`  
     **Remarks**: `RMK/PJE OPS IN D353`
 
-### Practice Instrument Approaches
+## Practice Instrument Approaches
 A practice instrument approach is simply an aircraft conducting an instrument approach with no intention of landing. Pilots will frequently request lesser-used procedures, such as VOR or NDB approaches, than would otherwise be used in normal operations.
 
 Outside controlled airspace, providing a simple traffic statement (as in the [example above](#uncontrolled-airspace)) gives the pilot sufficient information to conduct the planned approaches safely. Within controlled airspace, a pilot must receive an explicit approach clearance.
 
 !!! phraseology
     **QRS**: "Melbourne Approach, QRS, request direct MOSVO for the practice YMEN LOC Runway 26 Approach"  
-    **MAE**: "QRS, track direct MOSVO cleared LOC approach."  
-    **QRS**: "Track direct MOSVO, cleared LOC approach, QRS."    
+    **MAE**: "QRS, track direct MOSVO cleared LOC approach runway 26."  
+    **QRS**: "Track direct MOSVO, cleared LOC approach runway 26, QRS."    
 
 !!! tip
     Practice instrument approaches can introduce vexing complications when conducted in controlled airspace. When receiving a request for practice instrument approaches from a pilot, controllers should take time to consider all aspects of the procedure.
@@ -121,11 +124,11 @@ Outside controlled airspace, providing a simple traffic statement (as in the [ex
     
     After giving an aircraft clearance to perform a practice instrument approach, maintain your situational awareness with good client usage:
     
-    - **Label Data**: Use label data to indicate the approach tye (e.g. *VORA*, *ILSZ*)
+    - **Label Data**: Use label data to indicate the approach tye (e.g. *VORA*, *ILS*)
     - **Cleared Flight Level**: Adjust the aircrafts CFL to a block altitude from `000` to the cleared missed approach altitude (e.g. `000-030`).
     - **Text Labels**: Consider adding a text label (default shortcut `F6`) to notate any non-standard instructions or other relevant information.
     
-#### Sector Entries
+### Sector Entries
 A **Sector Entry** is a procedure for aligning an aircraft with the final approach path by performing a procedural turn to enter published holding pattern, often over the IAF.
 
 <figure markdown>
@@ -139,10 +142,10 @@ Sector Entries are generally required used when an aircraft would need to turn g
     **YNJ**: "Adelaide Approach, YNJ, Requesting Practice YPPF VOR-A Approach"  
     **AAE**: "YNJ, will you be requiring a sector entry?"  
     **YNJ**: "Affirm will require a sector entry, YNJ"  
-    **AAE**: "YNJ, copy, make sector entry, cleared VOR-A Approach. Report established."  
+    **AAE**: "YNJ, copy, make sector entry, cleared VOR-A Approach. Report established outbound."  
     **YNJ**: "Make Sector Entry, cleared VOR-A approach, wilco, YNJ"
 
-#### DME and GNSS Arrivals
+### DME and GNSS Arrivals
 A **DME** or **GNSS** arrival is a procedure by which aircraft follow charted descent guidance along a specified track or sector until they reach the the visual circling area.
 
 <figure markdown>
@@ -154,13 +157,18 @@ A **DME** or **GNSS** arrival is a procedure by which aircraft follow charted de
     **CS1**: "WXY, cleared DME arrival"  
     **WXY**: "Cleared DME arrival, WXY"  
 
-Aircraft cleared for a DME or GNSS arrival are permitted to manoeuvre within the circling area to position the aircraft on final for landing. When an aircraft cannot be cleared for the entire approach, the aircraft must be issued with a specific descent "not below the DME/GNSS steps".
+Aircraft cleared for a DGA are permitted to manoeuvre within their cleared sector (if applicable) until reaching the **final approach fix**. From the FAF, they must track direct to the aid until reaching the circling area. Once within the circling area, pilots are permitted to position the aircraft on final for landing.
+
+!!! tip
+    A specific sector may be specified when clearing an aircraft for a DGA to provide separation assurance with other aircraft.
+
+When an aircraft cannot be cleared for the entire approach, the aircraft must be issued with a specific descent "not below the DME/GNSS steps".
 
 !!! phraseology
     **CS1**: "EFG, descend `A030`, not below the DME steps."  
     **EFG**: "Descend `A030` not below the DME steps, EFG."  
 
-### Aerial Surveys
+## Aerial Surveys
 Aerial surveys involve aircraft flying precise, repetitive flight paths in order to collect data about the ground below: most commonly used for mapping, environmental monitoring, and aerial photography. Aircraft simulating aerial survey operations will fly in a series of equally-spaced, parallel tracks (termed **runs**) over a defined survey area.
 
 <figure markdown>
@@ -179,9 +187,8 @@ Pilots intending to conduct an aerial survey should include details of their pla
     *SVY301 is intending to conduct airwork over the Melbourne metropolitan area, within MDS CTA. They have provided the controller a map of their operation, and their first run begins at MB335004*
     
     **MDS**: "SVY301, cleared direct to start of Run 1, climb to `F138`"  
-    **SVY301**: "Cleared direct to start of Run 1, climb to `F138`, SVY301"
-    
-    *...* 
+    **SVY301**: "Cleared direct to start of Run 1, climb to `F138`, SVY301"  
+    *...*  
     **MDS**: "SVY301, cleared for Runs 1 through 4, report at the completion of each run"  
     **SVY301**: "Cleared for runs 1 through 4, wilco, SVY301"
 
@@ -202,7 +209,7 @@ Pilots intending to conduct an aerial survey should include details of their pla
     - **Cleared Flight Level**: Adjust the aircrafts CFL to match the cleared altitude - this may need to be manually entered into the CFL in the Flight Plan Window if a non-standard altitude is used. Consider the benefits of clearing the aircraft to a block altitude.
     - **Text Labels**: Use text labels to outline the dimensions of the survey area, and location of each run.
 
-### Parachute Operations
+## Parachute Operations
 Parachute Operations (PJE) present unique complexities and complications for controllers to consider: not only do they have to consider separation between aircraft, but for the parachutists as well!
 
 During PJE, one or more parachutists will jump from a plane (the **jump aircraft**) and freefall until opening their parachute somewhere between 1,800FT and 4,400FT AGL. The parachutists will then land at a predetermined area called the **drop zone**. Parachutists are required to remain within **1nm** of the centre of the drop zone as they descend; the airspace through which they descend is known as the **drop area**.
@@ -216,23 +223,23 @@ Most PJE operations occur at or below `F140`, with regular parachuting locations
 
 Before the drop, all PJE aircraft are required to make broadcasts alerting nearby traffic and, if in controlled airspace, receive clearance from the relevant controller. 
 
-##### Uncontrolled Airspace
+### Uncontrolled Airspace
 Both IFR and VFR aircraft OCTA will announce their intentions on the relevant area frequency. Controllers should provide relevant traffic information to these aircraft.
 
 !!! phraseology
-    **ZA3**: "Melbourne Centre and YPBH traffic, VFR Cessna Caravan ZA3, five minutes to parachute drop from A090 overhead YPBH, expect six canopies, YPBH traffic."
-    **MUN**: "ZA3, copied, no reported traffic YPBH."
+    **ZA3**: "Melbourne Centre and YPBH traffic, VFR Cessna Caravan ZA3, five minutes to parachute drop from `A090` overhead YPBH, expect six canopies, Centre and YPBH traffic."  
+    **MUN**: "ZA3, copied, no reported traffic."
 
-##### Controlled Airspace
+### Controlled Airspace
 Where PJE ops are occuring in CTA, controllers must ensure there is no conflicting traffic in the drop area, and will provide PJE aircraft with clearance to drop once separation is assured.
 
 !!! phraseology
-    *DJV has been cleared to operate within a 5nm of their drop zone, located at Flagstaff Point.*
-    **DJV**: "Sydney Departures and Wollongong city traffic, VFR Cessna Caravan DJV, five minutes to parachute drop from F140 overhead Flagstaff Point, expect nine canopies, Wollongong City traffic."  
+    *DJV has been cleared to operate within a 5nm of their drop zone, located at Flagstaff Point.*  
+    **DJV**: "Sydney Departures and Wollongong city traffic, VFR Cessna Caravan DJV, five minutes to parachute drop from F140 overhead Flagstaff Point, expect nine canopies, Departures and Wollongong City traffic."  
     **SDS**: "DJV, no reported traffic OCTA Wollongong city."  
     *...*  
     **DJV**: "DJV, broadcasts complete, request drop and descent"  
-    **SDS**: "DJV, clear to drop, leave controlled airspace descending, [not below parachutists](#not-below-parachutists). Report parachutists outside controlled airspace."  
+    **SDS**: "DJV, clear to drop, leave controlled airspace descending, [not below parachutists](#not-below-parachutists). Report aircraft and parachutists outside controlled airspace."  
     **DJV**: "Clear to drop and leave controlled airspace descending, not below the parachutists, wilco, DJV."  
     *...*  
     **DJV**: "DJV, parachutists and aircraft OCTA."  
@@ -257,7 +264,7 @@ Where PJE ops are occuring in CTA, controllers must ensure there is no conflicti
     - **Cleared Flight Level**: Adjust the aircrafts CFL to a block altitude from `000` to the cleared drop altitude (e.g. `000-140`).
     - **Text Labels**: Use text labels to outline the dimensions of the drop area, and location of the drop zone
 
-#### Separation Standards
+### Separation Standards
 **Lateral** and **vertical** separation must be applied between non-PJE aircraft and the **drop area**, until:
 
 - All parachutists are reported to be on the ground, or
