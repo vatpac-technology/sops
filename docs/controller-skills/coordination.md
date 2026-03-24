@@ -151,7 +151,7 @@ An amended level may be instructed, or the term **unrestricted** used to indicat
     <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, QFA442, runway 16"  
     <span class="hotline">**ML TCU** -> **ML ADC**</span>: "QFA442, unrestricted"
     
-When next coordination is being conducted with a procedural ADC, the assigned altitude is required, even if the same as the standard assignable level.
+When next coordination is being conducted with a procedural ADC, the assigned altitude is required, even if it is the same as the standard assignable level.
 
 !!! phraseology  
     <span class="hotline">**AS ADC** -> **ASP**</span>: "Next, QFA1956, runway 12"  
