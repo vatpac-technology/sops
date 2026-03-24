@@ -155,7 +155,7 @@ When next coordination is being conducted with a procedural ADC, the assigned al
 
 !!! phraseology  
     <span class="hotline">**AS ADC** -> **ASP**</span>: "Next, QFA1956, runway 12"  
-    <span class="hotline">**ASP** -> **AS ADC**</span>: "QFA442, `A070`"  
+    <span class="hotline">**ASP** -> **AS ADC**</span>: "QFA1956, `A070`"  
     <span class="hotline">**AS ADC** -> **ASP**</span>: "`A070`, QFA1956"  
     
 #### After a go around
