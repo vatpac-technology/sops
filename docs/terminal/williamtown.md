@@ -183,7 +183,7 @@ The restricted area can be activated in two configurations according to the requ
 | R596 High          | `SFC` - `A130`   | Aircraft will remain on local QNH above `A100` |
 | R596 Low           | `SFC` - `A050`   |        |
 
-When the R596 restricted area is active all airspace within the SUA is managed by **WAL**, and the [ATIS should be updated](#sua-activations) to reflect the activation.
+When the R596 restricted area is active all airspace within the SUA is managed by **WAL**, and the [ATIS should be updated](../../aerodromes/classc/Williamtown/#sua-activations) to reflect the activation.
 
 ### Stereo Approaches
 In times of heavy military traffic, WLM TCU may choose to nominate [stereo approaches](../controller-skills/military/#stereo-approaches) as the preferred approach method. When stereo approaches have been nominated, the ATIS [APCH EXP field must be updated](../../aerodromes/classc/Williamtown/#approach-types) accordingly.
