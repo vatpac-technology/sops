@@ -296,7 +296,7 @@ The Standard Assignable level from WLM ADC to WLM TCU is:
 | -------- | ----- |
 | All | The lower of `F120` and `RFL` | 
     
-### ACD to WLM TCU
+#### ACD to WLM TCU
 The controller assuming responsibility of **ACD** shall give [heads-up](../controller-skills/coordination/#airways-clearance) coordination to WAL (or the enroute controller responsible for the WLM TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
 
 !!! phraseology
