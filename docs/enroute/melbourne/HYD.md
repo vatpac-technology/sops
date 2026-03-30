@@ -83,6 +83,11 @@ The following subsectors are responsible for issuing STAR clearance.
 
 Arrivals from the east and north shall be given initial descent to not below `F190`. **PIY** will issue final descent.
 
+!!! note
+    All STARs at YPJT terminate in radar vectors to the aerodrome and are not associated with a runway. No runway shall be issued with STAR clearance.
+
+    E.g. *"FD623, cleared JT3R arrival, maintain `F200`"*
+
 ### YPPH
 #### STAR Assignment
 The following subsectors are responsible for issuing STAR clearance.
