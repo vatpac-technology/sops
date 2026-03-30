@@ -263,7 +263,7 @@ Alternately, SY TCU may coordinate `F130` and "[no frequency requirements](../..
 !!! phraseology
     <span class="hotline">**BIK** -> **SAS**</span>: "via RIVET, QLK1997, will be assigned `F250`"  
     <span class="hotline">**SAS** -> **BIK**</span>: "QLK1997, `F130` and no frequency requirements."  
-    <span class="hotline">**BIK** -> **SAS**</span>: "QLK1997, `F130`."  
+    <span class="hotline">**BIK** -> **SAS**</span>: "QLK1997, `F130`, yours with SDN."  
     *BIK will put SAS C130 NFR in the label data, and hand the aircraft directly off to ARL(MLD).*
 
 ## Offline Towers
