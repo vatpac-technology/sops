@@ -257,13 +257,13 @@ IFR aircraft which depart from the SY TMA with ADES YWLM must be issued STAR cle
 
 SY TCU is then responsible for facilitating descent to these aircraft to `F130` (or an otherwise [coordinated level](#ywlm-arrivals)), before handing the aircraft to ARL(MLD).
 
-Alternately, SY TCU may coordinate `F130` and "[no frequency requirements](../../controller-skills/coordination/#no-frequency-requirements-nfr)" with BIK/KAT, if traffic levels allow. This permits BIK/KAT to provide the aircraft with continuous descent as they transit the TMA.
+Alternately, SY TCU may coordinate `F130` and "[no frequency requirements](../../controller-skills/coordination/#no-frequency-requirements-nfr)" with BIK/KAT, if traffic levels allow. This permits BIK/KAT to provide the aircraft with continuous descent as they transit the TMA. SAS is responsible for onwards coordination to other affected sectors within SY TCU, if multiple controllers are online.
 
 
 !!! phraseology
     <span class="hotline">**BIK** -> **SAS**</span>: "via RIVET, QLK1997, will be assigned `F250`"  
     <span class="hotline">**SAS** -> **BIK**</span>: "QLK1997, `F130` and no frequency requirements."  
-    <span class="hotline">**BIK** -> **SAS**</span>: "QLK1997, `F130`."  
+    <span class="hotline">**BIK** -> **SAS**</span>: "QLK1997, `F130`, yours with SDN."  
     *BIK will put SAS C130 NFR in the label data, and hand the aircraft directly off to ARL(MLD).*
 
 ## Offline Towers
