@@ -90,9 +90,26 @@ KEN and TBP share responsbility for initial sequencing for aircraft arriving fro
 
 Coordination with KPL(SWY) should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
 
-<!-- ## Special Use Airspace 
-### Restricted Areas
--->
+## Local Procedures
+### Special Use Airspace
+
+#### M742 Tiger
+
+#### M777 Cairns (Outer Reef)
+
+
+#### R732 Greenvale Training area
+
+#### R736 Townsville (Star)
+
+#### R738A-H Townsville (Land)
+
+#### R783 Lizard Island
+
+#### R765 Cairns
+
+#### R786 Tully
+
 
 ## STAR Clearance Expectation
 ### Handoff

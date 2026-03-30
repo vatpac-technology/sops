@@ -106,6 +106,7 @@
 *[SRI]: Sydney Radar
 *[SGA]: Scherger Approach
 *[TNA]: Tindal Approach
+*[TLA]: Townsville Approach
 *[WAH]: Williamtown Approach (High)
 *[WAL]: Williamtown Approach (Low)
 *[ARL]: Brisbane (Armidale) Centre
@@ -392,3 +393,11 @@
 *[COTR]: Cotter
 *[VSOA]: Virtual Special Operations Association
 *[FAF]: Final Approach Fix
+*[MBHR]: Mouth of the Bohle River
+*[TOOU]: Toomulla
+*[RKI]: Rattlesnake Island
+*[WEP]: West Pt
+*[ORKS]: Orchard Rocks
+*[CCL]: Cape Cleveland
+*[SUNZ]: Sun Zinc Refinery
+*[YBU]: Yabulu

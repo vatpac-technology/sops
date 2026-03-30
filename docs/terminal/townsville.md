@@ -21,12 +21,94 @@ TL TCU owns the Class C and G airspace within 36 DME TL from `SFC` to `F180`
   <figcaption>TL TCU Structure</figcaption>
 </figure>
 
+### TL ADC
+TL ADC owns the Class C airspace in the TL MIL CTR `SFC` to `A015`. 
+
+### Restricted Area Activations
+There are no [restricted areas or MOAs](../../controller-skills/sua) activated by default when TLA is online.
+
+#### SUA in Enroute Airspace
+Military operations taking place in SUA in enroute airspace are outside the jurisdiction of TL TCU.
+
+Upon receiving [airways clearance coordination from ACD](#acd-to-tl-tcu) of an aircraft intending to operate in a currently inactive SUA in enroute airspace, TL TCU must give **heads up** coordination to relevant enroute controllers.
+
+This gives the enroute controller sufficient time to assess the request, make necessary adjustments to any aircraft in the area currently, and activate the SUA; or alternately to refuse the activation request before the aircraft is in the air.
+
+!!! phraseology
+    *PTHR11 is requesting clearance to operate in the R560A restricted area.*  
+    <span class="hotline">**TL ACD** -> **TLA**</span>: "PSSM31 requests clearance to M742”  
+    <span class="hotline">**TLA** -> **TL ACD**</span>: "Standby, call you back."  
+    
+    <span class="hotline">**TLA** -> **TBP**</span>: "On the groud YBTL, PSSM31, requests activation of M742 `A040-F240`, from 0300 until 0500.”  
+    <span class="hotline">**TBP** -> **TLA**</span>: "PSSM31, expect activation of M742 `A040-F240` at 0300 until 0500."   
+    <span class="hotline">**TLA** -> **TBP**</span>: "PSSM31."   
+    
+    <span class="hotline">**TLA** -> **TL ACD**</span>: "PSSM31, clearance approved."   
+    <span class="hotline">**TL ACD** -> **TLA**</span>: "Clearance approved, PSSM31"  
+
+!!! note
+    The requirement to coordinate activation of an SUA is in **addition** to existing coordination requirements. [**Heads-up** coordination](#departures) is still required for these aircraft if they do not meet the voiceless coordination criteria.
+
+## Local Procedures
+### Initial and Pitch
+The [intial points](../../controller-skills/military/#initial-and-pitch) are 5NM from the ARP, displaced 1,000 feet laterally to the dead side of the runway, `A025`.
+
+Aircraft arriving Runway 19 should be assigned either a **left initial** or **right initial**; a straight initial is not available due to high terrain over Magnetic Island.
+
+Aircraft arriving Runway 01 should be assigned either a **left initial**, **standard right initial**, or **close right initial**. On a close right initial aircraft will track north of Mt Stuart, as opposed to aircraft tracking on a standard right initial, who pass Mt Stuart to the south.
+
+### Military Gates
+There are numerous [military gates](../../controller-skills/military/#military-gates) established throughout the WLM TCU to facilitate entry and exit to adjoining SUA.
+
 <figure markdown>
-![TL Airspace Cross-Section](img/tltcu.png){ width="2000" }
-  <figcaption>TL Airspace Cross-Section</figcaption>
+![TL SUA Gates](img/tl_mil_gates.png){ width="700" }
+  <figcaption>TL SUA Gates</figcaption>
 </figure>
 
-TL ADC owns the Class C airspace in the TL CTR (Extends to 7NM from the thresholds of Runway 01/19) from `SFC` to `A015`. This airspace is designed to facilitate helicopter and ciruit traffic.
+!!! phraseology
+    *RPLC15 plans to enter the M581 MOA via Gate 7 for military training and airwork.*  
+    **RPLC15**: "Willy Delivery, RPLC15 for Gate 7, `F120` for M581, request clearance."   
+    **WLM ACD**: "RPLC15, Willy Delivery. Cleared Gate 7, Classic departure. Climb via SID to `F120`, squawk 6001, departure frequency 135.7."   
+    
+If the pilot **does not** nominate a gate, or nominates a gate that does not provide access to their intended SUA, WLM ACD should clear the aircraft to depart via the **appropriate gate**.
+
+| Intended SUA    | TCU Exit Gate       |
+| --------------- | ------------------- |
+| D745            | 
+| M742            |
+| R736            |
+| R738A-F         |
+| R738G-H         |
+| R732            |
+| R739            |
+| R747            |
+| R751            |
+| R752            |
+| R768A-B         |
+
+!!! tip
+    [Coordination requirements](#acd-to-tl-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU before providing clearance
+
+### Special Use Airspace
+#### D764 Townsville 
+
+#### M742 Tiger
+
+#### R732 Greenvale Training Area
+
+#### R736 Townsville (Star)
+
+#### R738A-H Townsville (Land)
+
+#### R739 Townsville (Star)
+
+#### R747 Rattlesnake Island
+
+#### R751 Townsville (High Range)
+
+#### R752 Townsville (High Range)
+
+#### R768A-B Mt Stuart
 
 ## Flow
 ### Local Knowledge
@@ -123,12 +205,22 @@ TL ADC owns the Class C airspace in the TL CTR from `SFC` to `A015`.
 - Assigned the standard assignable level; and 
 - Assigned a **Procedural** SID 
 
+All other aircraft require a 'Next' call to TL TCU.
+
 The Standard Assignable level from TL ADC to TL TCU is:
 
 | Aircraft | Level |
 | ------ | ------- |
 | All | The lower of `F180` and `RFL` |
 
+#### ACD to TL TCU
+The controller assuming responsibility of **ACD** shall give [heads-up](../../controller-skills/coordination/#airways-clearance) coordination to TLA (or the enroute controller responsible for the TL TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
+
+!!! phraseology
+    <span class="hotline">**TL ACD** -> **TLA**</span>: "PSSM31 requests clearance to M742”  
+    <span class="hotline">**TLA** -> **TL ACD**</span>: "PSSM31, clearance approved."
+    
+
 ## Charts
 !!! abstract "Reference"
-    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
+     In addition to the civilian `ERSA` and `AIP` publications, [the RAAF AIP website](https://ais-af.airforce.gov.au/australian-aip){target=new} contains the necessary charts (available in the TERMA) and description of procedures (in each airports' FIHA).
