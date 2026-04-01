@@ -401,3 +401,14 @@
 *[CCL]: Cape Cleveland
 *[SUNZ]: Sun Zinc Refinery
 *[YBU]: Yabulu
+*[CEN]: Clevedon
+*[GIRU]: Giru
+*[MBC]: Mount Black
+*[TNP]: Thornton Gap
+*[MMT]: Mt Margaret
+*[ANP]: Antill Plains
+*[DOP]: Donnington Airpark
+*[TNCR]: The Corner
+*[RRDM]: Ross River Dam
+*[RMT]: Round Mountain
+*[KSPT]: Kissing Point
