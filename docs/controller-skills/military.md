@@ -8,7 +8,7 @@ The majority of traffic on VATSIM is simulated 'civilian' traffic: airliners per
 
 Military operations can vary significantly from civilian operations, both in procedure and in phraseology.
 
-!!! important
+!!! warning "Important"
     As per the VATSIM [Special Operations Policy](https://vatsim.net/docs/policy/special-operations){target=new}, the following activities are restricted on the VATSIM network. They may only be performed by pilots who are a member of, and flying an operation representing, an approved Virtual Special Operations Association.
 
     - Conducting joint training exercises with other approved VSOAs
@@ -173,10 +173,21 @@ Military Gates are referred to by their identifier, and military aircraft can be
     **CYCN15**: "Track direct Gate 3, CYCN15."
 
 ### Stereo Approaches
-**Stereo Approaches** are the primary procedure for fighter & strike aircraft (e.g. F18, HAWK, PC21) recovering back to airbases after operations in SUA. Aircraft track from specified SUA [exit gates](#military-gates) where they join the procedure, tracking along charted TACAN arcs/radials which position them for an initial and pitch or instrument approach.
+**Stereo Approaches** are the primary procedure for fighter & strike aircraft (e.g. F18, HAWK, PC21) recovering back to airbases after operations in SUA. Aircraft track from specified SUA [exit gates](#military-gates) where they join the procedure, tracking along charted TACAN arcs/radials which position them for an initial and pitch or instrument approach. 
 
-!!! info
-    Aircraft generally transition from a stereo approach onto an instrument approach or an initial and pitch.
+!!! phraseology
+    *WGTL45 is returning from M581 via Gate 6, and has already been identified. Runway 30 is in use.*  
+    **WGTL45**: "Willy Approach, WGTL45. `F150` visual, for stereo approach with information A."  
+    **WAL**: "MAPL45, Willy Approach, cleared stereo approach. At 11 TACAN WLM contact Tower, 118.3"  
+    **WGTL45**: "Cleared stereo approach, tower at 11 TACAN WLM, WGTL45"
+
+Clearing an aircraft for a stereo approach gives aircraft permission to descend along the approach to meet any altitude restrictions and align for the approach. Where clearance for an aircraft to descend is not available, they should be instead be instructed to **track** via the approach, and given an altitude restriction.
+
+!!! phraseology
+    *CLAS11 is returning to Tindal via Top Gate, and has already been identified. Runway 32 is in use.*  
+    **CLAS11**: "Tindal Approach, CLAS11. `A090` visual, for stereo approach with information A"  
+    **TNA**: "CLAS11, Tindal Approach, track via stereo approach, not below `A060`"  
+    **CLAS11**: "Track via stereo approach, not below `A060`, CLAS11"  
 
 Stereo approaches should generally be used during high military traffic levels, and nominated on the appropriate aerodrome ATIS.
 
@@ -285,7 +296,7 @@ When simulating special operations, pilots may file a priority status in their r
 |`STS/STATE` | Aircraft part of the defence force, military, or customs | 
 |`STS/HOSP` | Aircraft engaged in non-life-critical transportation of medical operations, personnel, or ill patients |
 
-!!! important
+!!! warning "Important"
     `VATSIM Code of Conduct - Section B6` 
     
     *No flight may declare itself to have priority over another. Pilots are permitted to declare in-flight emergencies only when under air traffic control. If, for any reason, air traffic control requests the pilot to terminate the emergency, then the pilot shall do so IMMEDIATELY or disconnect from the network. Pilots are not permitted to simulate any unlawful act including, but not limited to, declaring a hijack by any method, including entering a transponder code of 7500.*

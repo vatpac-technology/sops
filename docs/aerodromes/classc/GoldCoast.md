@@ -16,7 +16,7 @@
 CG ADC is responsible for the Class C Airspace within the CG CTR `SFC` to `A015`.
 
 <figure markdown>
-![CG ADC Airspace](img/CGTWR.png){ width="700" }
+![CG ADC Airspace](img/cgadc.png){ width="700" }
   <figcaption>CG ADC Airspace</figcaption>
 </figure>
 
@@ -154,8 +154,8 @@ Local helicopter operations are conducted on the Western Grass which is the area
 Within the Gold Coast CTR, there are two main hospital helipads. Tweed Heads Hospital (YTWH), and Tweed Valley Hospital (YXTV).
 
 <figure markdown>
-![CG ADC Airspace](img/CG_ctr_heli.png){ width="700" }
-  <figcaption>CG ADC Airspace</figcaption>
+![HLS in CG ADC Airspace](img/CG_ctr_heli.png){ width="700" }
+  <figcaption>HLS in CG ADC Airspace</figcaption>
 </figure>
 
 #### Arrivals
@@ -173,7 +173,7 @@ Both hospital helipads are outside the manoeuvring area and do not require a lan
     **WP1:** "Cleared visual approach YXTV, wilco, WP1"  
 
 #### Departures
-Aircraft departing from hospitals within the Gold Coast CTR must obtain clearance prior to becoming airborne. The Tweed Valley Hospital (YXTV) helipad, is located 6nm south beneath Runway 32 extended centerline, and may present potential traffic conflicts. Aircraft will be subject to delays depending on traffic in the Gold Coast CTR.
+Aircraft departing from hospitals within the Gold Coast CTR must obtain clearance prior to becoming airborne. The Tweed Valley Hospital (YXTV) helipad is located 6nm south beneath Runway 32 extended centerline, and may present potential traffic conflicts. Aircraft will be subject to delays depending on traffic in the Gold Coast CTR.
 
 Both hospital helipads are outside the manoeuvring area and do not require a takeoff clearance from CG ADC, however a clearance to become airborne is required. Helicopters departing from these helipads should be instructed to "report airborne".
 

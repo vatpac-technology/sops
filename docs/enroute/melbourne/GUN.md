@@ -126,11 +126,17 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 
 <!--### YSWS--->
 ### YWLM
-[SY TCU is responsible](../../../terminal/sydney/#ywlm-stars) for issuing STARs to aircraft inbound to YWLM via **EKIPU** and **OVLUX**. BIK/KAT shall conduct heads-up coordination with the relevant SY TCU controller to facilitate initial descent.
+#### STAR Assignment
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| BIK  | EKIPU<br>OVLUX | All  | Descent not below `F290`<br>Descent not below `F290` |
+| KAT  | EKIPU<br>OVLUX | All  | Descent not below `F290`<br>Descent not below `F290` |
+
+BIK/KAT shall conduct heads-up coordination with the relevant SY TCU controller to facilitate further descent.
 
 !!! phraseology
-    <span class="hotline">**BIK** -> **SAS**</span>: "via RIVET, JST472, will be assigned F250"  
-    <span class="hotline">**SAS** -> **BIK**</span>: "JST472, F250" 
+    <span class="hotline">**BIK** -> **SAS**</span>: "via RIVET, JST472, will be assigned `F250`"  
+    <span class="hotline">**SAS** -> **BIK**</span>: "JST472, `F250`" 
 
 ## STAR Clearance Expectation
 ### Handoff
