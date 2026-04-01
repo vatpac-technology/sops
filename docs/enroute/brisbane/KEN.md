@@ -58,7 +58,7 @@ The following subsectors are responsible for issuing STAR clearance.
 === "RWY 33"
 	| Subsector | STAR | Type | Notes |
 	| ---- | ----- | -------- | ----- |
-	| BAR  | HENDO<br>KEEWIE<br>TOTTY | All | INST APCH<br>VISUAL APCH<br>RNP-W |
+	| BAR  | HENDO<br>KEEWI<br>TOTTY | All | INST APCH<br>VISUAL APCH<br>RNP-W |
 	| KEN  | HENDO<br>TOTTY | All   | INST APCH<br>RNP-W |
 	| TBP  | HENDO<br>TOTTY | All   | Descent not below `F190` |
 

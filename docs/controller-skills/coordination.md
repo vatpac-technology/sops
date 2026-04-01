@@ -151,6 +151,13 @@ An amended level may be instructed, or the term **unrestricted** used to indicat
     <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, QFA442, runway 16"  
     <span class="hotline">**ML TCU** -> **ML ADC**</span>: "QFA442, unrestricted"
     
+When next coordination is being conducted with a procedural ADC, the assigned altitude is required, even if it is the same as the standard assignable level.
+
+!!! phraseology  
+    <span class="hotline">**AS ADC** -> **ASP**</span>: "Next, QFA1956, runway 12"  
+    <span class="hotline">**ASP** -> **AS ADC**</span>: "QFA1956, `A070`"  
+    <span class="hotline">**AS ADC** -> **ASP**</span>: "`A070`, QFA1956"  
+    
 #### After a go around
 Following a go around, the next departure from that runway **must** be next coordinated between the ADC and TCU controllers, regardless if it would otherwise meet the voiceless coordination criteria.
 

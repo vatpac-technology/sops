@@ -35,11 +35,6 @@ The CTR extends 7NM from the thresholds of runways 11 and 29 but does not includ
 
 ADC may request DN TCU (`SFC`-`A020`) from DN TCU to facilitate fixed-wing circuit operations. Fixed-wing circuit operations are typically conducted at Delissaville (YDLV) due to high traffic density at Darwin.
 
-<figure markdown>
-![DN ADC Airspace](img/dnadc.png){ width="700" }
-  <figcaption>DN ADC Airspace</figcaption>
-</figure>
-
 ## Local Procedures
 ### IFR Training Area
 IFR aircraft requiring an area for training shall be cleared to operate in the North Eastern Training Area (NETA)  
