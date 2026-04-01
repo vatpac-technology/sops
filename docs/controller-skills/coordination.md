@@ -63,6 +63,8 @@ Coordination must be done on a **point-to-point** basis, meaning you can only co
 
 Ensure no coordination is ambiguous in its meaning. Not all coordination can be straight out of the phraseology books and the reality is, not everyone controlling the airspace is going to be 100% proficient and by the books. When using "plain english", ensure there is no ambiguity, and the message is fully understood by both parties.
 
+#### Onwards Coordination
+
 ## Types of Coordination
 ### Voiceless
 Certain routes, areas, levels, airspace, etc, will have voiceless coordination agreements, which is where Heads-Up Coordination is not required. These routes may also have change parameters, where no changes are permitted within a certain distance of the sector boundary without prior coordination.
