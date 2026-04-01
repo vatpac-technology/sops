@@ -21,11 +21,6 @@ TL TCU owns the Class C and G airspace within 36 DME TL from `SFC` to `F180`
   <figcaption>TL TCU Structure</figcaption>
 </figure>
 
-<figure markdown>
-![TL Airspace Cross-Section](img/tltcu.png){ width="2000" }
-  <figcaption>TL Airspace Cross-Section</figcaption>
-</figure>
-
 TL ADC owns the Class C airspace in the TL CTR (Extends to 7NM from the thresholds of Runway 01/19) from `SFC` to `A015`. This airspace is designed to facilitate helicopter and ciruit traffic.
 
 ## Flow
