@@ -4447,7 +4447,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oceanic/Positions/IND/" class="md-nav__link">
+      <a href="../../oceanic/IND/" class="md-nav__link">
         
   
   
@@ -4475,7 +4475,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../oceanic/Positions/TSN/" class="md-nav__link">
+      <a href="../../oceanic/TSN/" class="md-nav__link">
         
   
   
@@ -10540,7 +10540,22 @@ SY <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> is respo
 <p>"QFA490, 8 miles to touchdown, contact tower 120.5"</p>
 </div>
 <h3 id="ywlm-stars">YWLM STARs</h3>
-<p>SY <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> is responsible for issuing STARs to aircraft inbound to YWLM via <strong>EKIPU</strong> and <strong>OVLUX</strong>. Aircraft shall be assigned the <strong>EKIPU</strong> or <strong>OVLUX</strong> <abbr title="Standard Terminal Arrival Route">STAR</abbr> (as appropriate) by default, unless coordinated otherwise (eg. via the <strong>IVTAG</strong> <abbr title="Standard Terminal Arrival Route">STAR</abbr>).</p>
+<p>YWLM arrivals from the south and west will transit the SY <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> as they descend. <abbr title="Melbourne (Bindook) Centre">BIK</abbr>/<abbr title="Melbourne (Katoomba) Centre">KAT</abbr> will provide these aircraft with their <abbr title="Standard Terminal Arrival Route">STAR</abbr> clearance and initial descent, before conduct heads-up coordination with the relevant SY <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> controller to facilitate further descent.</p>
+<p><abbr title="Instrument Flight Rules">IFR</abbr> aircraft which depart from the SY <abbr title="Terminal Manoeuvring Area">TMA</abbr> with <abbr title="Destination Aerodrome">ADES</abbr> YWLM must be issued <abbr title="Standard Terminal Arrival Route">STAR</abbr> clearance by SY <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr>.</p>
+<div class="admonition phraseology">
+<p class="admonition-title">Phraseology</p>
+<p><span class="hotline"><strong><abbr title="Melbourne (Bindook) Centre">BIK</abbr></strong> -&gt; <strong><abbr title="Sydney Approach South">SAS</abbr></strong></span>: "via RIVET, JST472, will be assigned <code>F250</code>"<br>
+<span class="hotline"><strong><abbr title="Sydney Approach South">SAS</abbr></strong> -&gt; <strong><abbr title="Melbourne (Bindook) Centre">BIK</abbr></strong></span>: "JST472, <code>F250</code>" </p>
+</div>
+<p>SY <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> is then responsible for facilitating descent to these aircraft to <code>F130</code> (or an otherwise <a href="#ywlm-arrivals">coordinated level</a>), before handing the aircraft to <abbr title="Brisbane (Armidale) Centre">ARL</abbr>(<abbr title="Brisbane (Maitland) Centre">MLD</abbr>).</p>
+<p>Alternately, SY <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> may coordinate <code>F130</code> and "<a href="../../controller-skills/coordination/#no-frequency-requirements-nfr">no frequency requirements</a>" with <abbr title="Melbourne (Bindook) Centre">BIK</abbr>/<abbr title="Melbourne (Katoomba) Centre">KAT</abbr>, if traffic levels allow. This permits <abbr title="Melbourne (Bindook) Centre">BIK</abbr>/<abbr title="Melbourne (Katoomba) Centre">KAT</abbr> to provide the aircraft with continuous descent as they transit the <abbr title="Terminal Manoeuvring Area">TMA</abbr>. <abbr title="Sydney Approach South">SAS</abbr> is responsible for onwards coordination to other affected sectors within SY <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr>, if multiple controllers are online.</p>
+<div class="admonition phraseology">
+<p class="admonition-title">Phraseology</p>
+<p><span class="hotline"><strong><abbr title="Melbourne (Bindook) Centre">BIK</abbr></strong> -&gt; <strong><abbr title="Sydney Approach South">SAS</abbr></strong></span>: "via RIVET, QLK1997, will be assigned <code>F250</code>"<br>
+<span class="hotline"><strong><abbr title="Sydney Approach South">SAS</abbr></strong> -&gt; <strong><abbr title="Melbourne (Bindook) Centre">BIK</abbr></strong></span>: "QLK1997, <code>F130</code> and no frequency requirements. My onwards with <abbr title="Sydney Departures North">SDN</abbr>."<br>
+<span class="hotline"><strong><abbr title="Melbourne (Bindook) Centre">BIK</abbr></strong> -&gt; <strong><abbr title="Sydney Approach South">SAS</abbr></strong></span>: "QLK1997, <code>F130</code>, yours with <abbr title="Sydney Departures North">SDN</abbr>."<br>
+<em><abbr title="Melbourne (Bindook) Centre">BIK</abbr> will put <abbr title="Sydney Approach South">SAS</abbr> C130 NFR in the label data, and hand the aircraft directly off to <abbr title="Brisbane (Armidale) Centre">ARL</abbr>(<abbr title="Brisbane (Maitland) Centre">MLD</abbr>).</em></p>
+</div>
 <h2 id="offline-towers">Offline Towers</h2>
 <h3 id="bk-adc-offline">BK <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> Offline</h3>
 <p>Due to the low level of <abbr title="Controlled Airspace">CTA</abbr> (<code>A015</code>) in the BK <abbr title="Control Zone">CTR</abbr> when <strong>BK <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong> is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.</p>
@@ -10952,12 +10967,11 @@ SY <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr> is respo
 <ul>
 <li>With <abbr title="Destination Aerodrome">ADES</abbr> <strong>YWLM</strong>; and  </li>
 <li>Assigned a <abbr title="Standard Terminal Arrival Route">STAR</abbr>; and  </li>
-<li>Tracking from <strong><abbr title="Sydney Departures North">SDN</abbr></strong> or <strong><abbr title="Sydney Departures South">SDS</abbr></strong> <a href="#airspace-division">airspace</a>; and  </li>
 <li>Assigned the lower of <code>F130</code> or the <code>RFL</code></li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>YWLM arrivals are handed off to <abbr title="Brisbane (Armidale) Centre">ARL</abbr>(<abbr title="Brisbane (Maitland) Centre">MLD</abbr>), not directly to WLM <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr>, unless coordinated as such</p>
+<p>YWLM arrivals are handed off to <abbr title="Brisbane (Armidale) Centre">ARL</abbr>(<abbr title="Brisbane (Maitland) Centre">MLD</abbr>), not directly to WLM <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr>, unless otherwise coordinated.</p>
 </div>
 <h4 id="arrivals">Arrivals</h4>
 <p>Voiceless for all aircraft:</p>
@@ -11185,7 +11199,7 @@ Therefore, a <em>next</em> call &amp; <em>departure instructions</em> are not re
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 19, 2026 03:34:39 UTC">March 19, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 30, 2026 23:51:56 UTC">March 30, 2026</span>
   </span>
 
     
