@@ -39,6 +39,8 @@ The [intial points](../../controller-skills/military/#initial-and-pitch) are ali
 ### Coded Clearances
 Aircraft departing to the western training areas should be cleared the **STORM 1** coded clearance, in addition to the [appropriate SID](#sid-selection). The **STORM 1** coded clearance gives aircraft permission to transit via the **[Thunder Corridor](../../terminal/williamtown/#thunder-corridor)**, a [military corridor](../../controller-skills/military/#military-corridors) that connects the WLM TCU to the R560 amd R570 restricted areas.
 
+[Coordination](#acd-to-wlm-tcu) may be required with WLM TCU prior to issuing clearance to an aircraft intending to operate in an SUA.
+
 !!! phraseology
     *BARN21 plans to enter R570 via THNDA for military training.*  
     **WLM ACD**: "BARN21, Cleared Storm 1. Runway 12, CLASSIC departure. Climb via SID to `FL110`, squawk 6003, departure frequency 135.7"
