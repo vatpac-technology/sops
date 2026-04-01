@@ -255,7 +255,7 @@ Source: [Annotations](../../controller-skills/annotations)
 *Offering NFR*
 !!! phraseology
     *ABC tracking MNG W663 VINOP*  
-    <span class="hotline">**BLA** -> **YWE**</span>: "via MNG, ABC, if you have no restrictions or requirements, my onwards with OXL"  
+    <span class="hotline">**BLA** -> **YWE**</span>: "via MNG, ABC, if you have no restrictions or requirements, [my onwards](#onwards-coordination) with OXL"  
     <span class="hotline">**YWE** -> **BLA**</span>: "ABC, I have no restrictions or requirements, your onwards with OXL"  
     BLA will put *"YWE NRR"* in the label data  
     <span class="hotline">**BLA** -> **OXL**</span>: "via MNG, ABC, YWE has no restrictions or requirements"  
@@ -265,7 +265,7 @@ Source: [Annotations](../../controller-skills/annotations)
 *Initiating NFR*
 !!! phraseology
     *DEF tracking EML-LEMER-RK*  
-    <span class="hotline">**SWY** -> **CVN**</span>: "via LEMER, DEF, I have no vertical restrictions or frequency requirements, your onwards with KPL"  
+    <span class="hotline">**SWY** -> **CVN**</span>: "via LEMER, DEF, I have no vertical restrictions or frequency requirements, [your onwards](#onwards-coordination) with KPL"  
     <span class="hotline">**CVN** -> **SWY**</span>: "DEF, my onwards with KPL"  
     CVN will put *"SWY NVR NFR"* in the label data  
     <span class="hotline">**CVN** -> **KPL**</span>: "via LEMER, DEF, SWY has no vertical restrictions or frequency requirements"  
