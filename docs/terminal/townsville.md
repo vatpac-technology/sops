@@ -64,51 +64,96 @@ There are numerous [military gates](../../controller-skills/military/#military-g
 ![TL SUA Gates](img/tl_mil_gates.png){ width="700" }
   <figcaption>TL SUA Gates</figcaption>
 </figure>
-
-!!! phraseology
-    *RPLC15 plans to enter the M581 MOA via Gate 7 for military training and airwork.*  
-    **RPLC15**: "Willy Delivery, RPLC15 for Gate 7, `F120` for M581, request clearance."   
-    **WLM ACD**: "RPLC15, Willy Delivery. Cleared Gate 7, Classic departure. Climb via SID to `F120`, squawk 6001, departure frequency 135.7."   
     
-If the pilot **does not** nominate a gate, or nominates a gate that does not provide access to their intended SUA, WLM ACD should clear the aircraft to depart via the **appropriate gate**.
+If the pilot **does not** nominate a gate, or nominates a gate that does not provide access to their intended SUA, TL ACD should clear the aircraft to depart via the **appropriate gate**.
 
-| Intended SUA    | TCU Exit Gate       |
-| --------------- | ------------------- |
-| D745            | 
-| M742            |
-| R736            |
-| R738A-F         |
-| R738G-H         |
-| R732            |
-| R739            |
-| R747            |
-| R751            |
-| R752            |
-| R768A-B         |
+| Intended SUA    | TCU Exit Gate        | TCU Entry Gate |
+| --------------- | -------------------- |
+| M742            | KAGES *(RWY 01 DEP)*<br>REGIN *(RWY 19 DEP)* | REGIN *(RWY 01 ARR)*<br>KAGES *(RWY 19 ARR)* |
+| R736            | TANGO | SIERRA |
+| R738A-H         | TANGO | SIERRA |
+| R738G-H         | TANGO | SIERRA |
+| R732            | TANGO | SIERRA |
+| R739            | TANGO | SIERRA |
+| R747            | *N/A* | *N/A* |
+| R751            | TANGO | SALSA (if R752 inactive)<br>JOCKO (if R752 active) |
+| R752            | TANGO | JOCKO |
 
 !!! tip
     [Coordination requirements](#acd-to-tl-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU before providing clearance
 
 ### Special Use Airspace
+<figure markdown>
+![Notable SUA in the TL TCU](img/tl_sua.png){ width="700" }
+  <figcaption>Notable SUA in the TL TCU</figcaption>
+</figure>
+
 #### D764 Townsville 
+The D764 Townsville [danger area](../../controller-skills/sua/#danger-areas), also known as the **Bluewater Training Area**, is a commonly used training area west of YBTL.
+
+Aircraft departing to the training area will be cleared a ['BLUEWATER' clearance](../../aerodromes/classc/Townsville/#bluewater-clearance). This clearance gives aircraft permission depart the TL MIL CTR, and transit to the D764 danger area via the appropriate track while remaining OCTA.
+
+| Duty RWY | Direction | Tracking | Notes |
+| -------- | --------- | --------------- | ----- | 
+| RWY 01   | Outbound  | YBTL-via coast remaining over land-D764 | Not above `A015` until within D764 |
+| RWY 01   | Inbound   | D764-YBU-YBTL   | |
+| RWY 19   | Outbound  | YBTL-YBU-D764   | Not above `A015` until within D764 |
+| RWY 19   | Inbound   | D764-via coast remaining over land-YBTL | |
+
+Aircraft intending to return to YBTL from the training area will contact TAL if intending to transit above `A015` (within TCU CTA). All other aircraft will remain OCTA and request inbound clearance directly from TL ADC.
+
+!!! phraseology
+    **ABC**: "Townsville Approach, ABC within D764, for YBTL, request clearance at `A035`.”   
+    **TL ACD**: "ABC, Townsville Approach, cleared BLUEWATER, maintain `A035`. Abeam MBKR contact Townsville Tower on 118.3"   
+    **ABC**: "Cleared Bluewater, Maintain `A035`, abeam MBKR contact Townsville Tower 118.3, ABC."  
+
+!!! note
+    TAL shall write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
 
 #### M742 Tiger
+The M742 Tiger [MOA](../../controller-skills/sua/#military-operating-areas) is located off the coast, `A040-F240`, spanning both TL TCU and KEN(TBP) airspace.
 
-#### R732 Greenvale Training Area
+Aircraft will generally enter and exit the MOA via the appropriate [military gate](#military-gates).
 
-#### R736 Townsville (Star)
+#### R736 & R739 Townsville (Star)
+The R736 and R739 Townsville (Star) [restricted areas](../../controller-skills/sua/#restricted-areas) straddle the border of the TL TCU and KEN(TBP) airspace. 
+
+It is predominantly used for military training operations, including operations at the Star Landing Area ALA (YSTD).
+
+Aircraft will generally enter and exit the MOA via the appropriate [military gate](#military-gates).
+
+##### Affected Civil Operations
+When R739 is activated above `A060` it disrupts aircraft tracking via the CATEY SID. Aircraft may be given an additional requirement to climb above the vertical limits of the activation, or rerouted manually to avoid the area.
+
+!!! phraseology
+	*UTY640 has departed YBTL RWY 01 on the CATEY SID, bound for YCCY. The R739 restricted area has been activated `SFC-A085`.*   
+    **TAL**: "UTY640, Townsville Approach, identified. Climb via SID to `F180`, requirement to reach `A100` by ENSOM."   
+    **UTY640**: "Climb via SID to `F180`, requirement to reach `A100` by ENSOM, UTY640."  
 
 #### R738A-H Townsville (Land)
+The R738A-H Townsville (Land) [restricted areas](../../controller-skills/sua/#restricted-areas), also known  as the Townsville Field Training Area, is a series of defined airspace volumes west of YBTL, `A070-NOTAM`.
 
-#### R739 Townsville (Star)
+The area is used for a wide array of military training operations, including supersonic flight, air-to-air combat training, and live fire exercises. The extent of activation required will vary according to each operation, but will generally include R738A or R738B, along with an additional larger subsection.
 
+Aircraft will generally enter and exit the MOA via the appropriate [military gate](#military-gates).
+
+##### Affected Civil Operations
+Activation of R738A disrupts aircraft tracking via the CATEY SID. Aircraft intending to depart via CATEY should [instead be cleared](../../aerodromes/classc/Townsville/#catey-departures) via CARMN (to the north) or ANRUB (to the south).
+	
 #### R747 Rattlesnake Island
+The R747 Rattlesnake Island [restricted area](../../controller-skills/sua/#restricted-areas) is defined by a 5nm radius circle with RKI at the centre, `SFC-NOTAM`. The area is predominantly used for ground, amphibious, and helicopter gunnery training.
 
-#### R751 Townsville (High Range)
+When activated, the restricted area prevents aircraft from tracking via the [RATTLESNAKE](../../aerodromes/classc/Townsville/#ypam-traffic) coded clearance to YPAM. These aircraft must be given alternate tracking instructions to avoid the SUA.
 
-#### R752 Townsville (High Range)
+#### R751 & R752 Townsville (High Range)
+The R751 and R752 Townsville (High Range) [restricted areas](../../controller-skills/sua/#restricted-areas) is located in the south-west of TCU, spanning both TL TCU and KEN(TBP) airspace.
 
-#### R768A-B Mt Stuart
+Aircraft will generally enter and exit the MOA via the appropriate [military gate](#military-gates).
+
+#### R768A Mt Stuart
+The R768A Mt Stuart [restricted area](../../controller-skills/sua/#restricted-areas) is a non-flying SUA located on the south boundary of the TL MIL CTR, `SFC-A020`. It is activated daily from 2100-1200 UTC.
+
+All instrument approaches for Runway 01 and Runway 19 SIDs are procedurally separated from the restricted area. All other aircraft should be [separated](../../controller-skills/sua/#controlled-airspace), when activated.
 
 ## Flow
 ### Local Knowledge

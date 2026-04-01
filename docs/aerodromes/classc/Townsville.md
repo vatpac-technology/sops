@@ -40,8 +40,23 @@ Aircraft landing on **Runway 07** are required to hold short of
 
 !!! note
     Despite being located on a taxiway, **Helipad F** is treated as a runway. All aircraft need explicit clearance to cross the helipad holding points when taxiing on Taxiway A.
+	
+### Standard Taxi Routes
+Except when the traffic situation warrants, taxi clearances shall conform to the following diagram:
+
+=== "Runway 01"
+	<figure markdown>
+	![Standard Taxi Routes for RWY 01](img/ybtlstdtax_01.png){ width="500" }
+	  <figcaption>Standard Taxi Routes for RWY 01</figcaption>
+	</figure>
+	
+=== "Runway 19"
+	<figure markdown>
+	![Standard Taxi Routes for RWY 19](img/ybtlstdtax_19.png){ width="500" }
+	  <figcaption>Standard Taxi Routes for RWY 19</figcaption>
+	</figure>
     
-### Bay 1 Pushbacks
+#### Bay 1 Pushbacks
 Code D aircraft requiring pushback from **Bay 1** must pushback onto Taxiway A.
  
 <figure markdown>
@@ -69,7 +84,7 @@ There are multiple different coded clearances used for a variety of civil and mi
     [Coordination requirements](#acd-to-tl-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU before providing clearance
 
 #### Bluewater Clearance
-The D764 (Townsville) [danger area](../../controller-skills/sua/#danger-areas), also known as the **Bluewater Training Area**, is a commonly used training area west of YBTL.
+The D764 Townsville [danger area](../../controller-skills/sua/#danger-areas), also known as the **Bluewater Training Area**, is a commonly used training area west of YBTL.
 
 Aircraft departing to the training area should be cleared a 'BLUEWATER' clearance. This clearance gives aircraft permission depart the TL MIL CTR, and transit to the D764 danger area via the appropriate track.
 
@@ -87,12 +102,24 @@ Aircraft departing to the training area should be cleared a 'BLUEWATER' clearanc
     <span class="hotline">**TL ACD** -> **TLA**</span>: "ABC, requests clearance to D764.”  
     <span class="hotline">**TLA** -> **TL ACD**</span>: "ABC, clearance approved."  
     
-    **TL ACD**: "ABC, clearance avilable"  
+    **TL ACD**: "ABC, clearance available"  
     **ABC**: "ABC” 
     **TL ACD**: "ABC, cleared BLUEWATER, not above `A015`, squawk 0361, departure frequency 126.8"   
 
 !!! note
     ACD shall write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
+
+#### Thunder and Lightning
+There are two military coded clearances designed to facilitate fast jet departures in IMC.
+
+Aircraft will request either the **Lightning 1 Departure** (if departing Runway 01), or the **Thunder 1 Departure** (if departing Runway 19), which entails tracking runway heading while performing a steep climb to reach the MSA.
+
+!!! phraseology
+    **VIGL11**: "Townsville Delivery, VIGL11 for YAMB, request Lightning 1 and clearance.”   
+    **TL ACD**: "VIGL11, Townsville Delivery, cleared to YAMB via JEMMA flight planned route. Lightning 1 departure, climb to `F180`, squawk 6066, departure frequency 126.8"   
+
+!!! note
+	Assigning the Thunder or Lightning coded clearance to an aircraft does not meet the requirements for [auto release](#auto-release). These aircraft must be 'Next' coordinated with TL TCU.
 
 #### YPAM Traffic
 In VMc, light aircraft travelling between YBTL and YPAM should be cleared a '**CORDELIA**' or '**RATTLESNAKE**' clearance, according to the YBTL runway in use.
@@ -111,8 +138,6 @@ In VMc, light aircraft travelling between YBTL and YPAM should be cleared a '**C
 !!! note
     ACD shall update the pilot's route and write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
 
-#### Maggy Arrival
-
 #### Military Gates
 There are several [military gates](../../controller-skills/military/#military-gates) established throughout the TL TCU to facilitate entry and exit to adjoining SUA.
 
@@ -122,27 +147,26 @@ There are several [military gates](../../controller-skills/military/#military-ga
 </figure>
 
 !!! phraseology
-    *RPLC15 plans to enter the M581 MOA via Gate 7 for military training and airwork.*  
-    **RPLC15**: "Willy Delivery, RPLC15 for Gate 7, `F120` for M581, request clearance."
-    **WLM ACD**: "RPLC15, Willy Delivery. Cleared Gate 7, Classic departure. Climb via SID to `F120`, squawk 6001, departure frequency 135.7."   
+    *DPBR23 plans to enter the M742 MOA via KAGES for military training and airwork.*  
+    **DPBR23**: "Townsville Delivery, DPBR23 for KAGES, `A100` for M742, request clearance."
+    **TL ACD**: "DPBR23, Townsville Delivery. Cleared KAGES, visual departure. Climb to `A100`, squawk 6001, departure frequency 126.8."   
 
-If the pilot **does not** nominate a gate, or nominates a gate that does not provide access to their intended SUA, WLM ACD should clear the aircraft to depart via the **appropriate gate**.
+If the pilot **does not** nominate a gate, or nominates a gate that does not provide access to their intended SUA, TL ACD should clear the aircraft to depart via the **appropriate gate**.
 
-| Intended SUA    | TCU Exit Gate       |
-| --------------- | ------------------- |
-| D745            | 
-| M742            |
-| R736            |
-| R738A-F         |
-| R738G-H         |
-| R732            |
-| R739            |
-| R747            |
-| R751            |
-| R752            |
-| R768A-B         |
+| Intended SUA    | TCU Exit Gate        |
+| --------------- | -------------------- |
+| M742            | KAGES *(RWY 01 DEP)*<br>REGIN *(RWY 19 DEP)* |
+| R736            | TANGO |
+| R738A-H         | TANGO |
+| R738G-H         | TANGO |
+| R732            | TANGO |
+| R739            | TANGO |
+| R747            | *N/A* |
+| R751            | TANGO |
+| R752            | TANGO |
 
-
+!!! tip
+    [Coordination requirements](#acd-to-tl-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU before providing clearance
 
 ### Special Use Airspace
 #### R768A Mt Stuart
@@ -157,27 +181,23 @@ All instrument approaches for Runway 01 and Runway 19 SIDs are procedurally sepa
 
 ## VFR Operations
 ### VFR Routes
+There are six VFR routes established in and around the YBTL TCU to facilitate VFR operations.
 
 <figure markdown>
 ![YBTL VFR Routes](img/ybtl_vfr.png){ width="600" }
   <figcaption>YBTL VFR Routes</figcaption>
 </figure>
 
-| Direction from AYPY | Code | Name | Dep/Arr |
-| ------------------- | ---- | ---- | ------- |
-| North | BRW | Brown River Bridge | Both |
-| North | MLA | Mt Lawes | Both |
-| Northeast | - | False Gap | Both |
-| Northeast | GAP | Kokoda Gap | Both |
-| Northeast | HOM | Hombrom Bluff | Both |
-| East | SIR | Sirinumu | Both |
-| Southeast | GAR | Gaire | Both |
-| Southeast | TUB | Tubusereia | Both |
-| West | FAI | Fairfax | Both |
-| West | BOH | Boera Head | Both |
-| Northwest | RES | Redscar Head | Both |
-| Northwest | GAE | Galley | Both |
-| Northwest | - | Aroa | Both |
+| VFR Routes     | Inbound                      | Outbound                             |
+| -------------- | ---------------------------- | ------------------------------------ | 
+| Clevedon		 | TL - 771ft Hill - CEN - GIRU | GIRU - CEN - 771ft Hill - Abeam SUNZ |
+| Thornton North | TL - MBC - TNP               | TNP - MBC - TL                       |
+| Thornton South | TL - MMT - TNP               | TNP - MMT - TL                       |
+| Rollingstone	 | TL - Abeam YBU - TOOU        | TOOU - Abeam YBU - TL                |
+| Stuart		 | TL - Stuart - ANP - DOP      | DOP - ANP - Stuart - TL              |
+| Upper Ross	 | TVL TAC - TCNR - RRDM - Abeam RMT - DOP | DOP - Abeam RMT - RRDM - TCNR - TVL TAC |
+
+When Runway 01 is in use, the Thornton North VFR route is generally used for departures, while the Thornton South VFR route is used for arrivals. When Runway 19 is in use, the usage is reversed.
 
 ## Helicopter Operations
 ### Helipads
@@ -187,8 +207,22 @@ There are two helipads at YBTL: **Helipad F**, located at the intersection of Ta
     **TL ADC**: "FTBY21, helipad F, cleared to land"
     
 ### Departures
+VFR helicopters are generally processed via an [VFR route](#vfr-routes). IFR helicopters should conform to fixed wing operations and be processed via the [appropriate radar SID](#sid-selection) from a duty runway, unless a visual departure is acceptable.
 
 ### Arrivals
+VFR helicopters are generally processed via a [VFR route](#vfr-routes). IFR helicopters should conform to fixed wing operationss and be processed via an appropriate runway.
+
+During busy periods, ADC may choose to instruct helicopters to hold at a clearance limit to facilitate separation with other aircraft.
+
+| Duty Runway | Clearance Limit |
+| ----------- | --------------- |
+| 01          | 'The Lakes' (TL123002) |
+| 19          | KSPT            |
+
+!!! phraseology
+    **ABC:** "Townsville Tower, helicopter ABC, SUNZ for YBTL, `A005`, received Tango, request clearance"  
+    **TL ADC:** "ABC, Townsville Tower, clearance limit KSPT, maintain `A005`. Report at KSPT"  
+    **ABC:** "Clearance limit KSPT, maintain `A005`, report at KSPT, ABC"  
 
 ### Hospital Helipads
 Within the Townsville CTR there are half a dozen HLS's, including two helipads at Townsville Hospital (YXTL and YXTS).
@@ -225,10 +259,29 @@ Helicopters requesting clearance to operate in the Northern Grass shall be clear
     **TL ADC**: "AGRY11, cleared to operate Northern Grass, not above 100ft."
 
 #### Helo West
-The **Helo West** operating area
+The **Helo West** operating area is located north-west of the ARP, within TL MIL CTR airspace. Helicopters may request clearance to operate within the circuit area, not above `A010`.
 
-##### Pad West
+Most operations within the Helo West area will use **Pad West**, a designated landing site west of Taxiway M outside the manouevring area.
 
+Aircraft may be instructed to maintain a *listening watch* upon reporting established in the area. This allows the aircraft to operate within the lateral confines without needing to report airborne or on the ground.
+
+!!! phraseology
+    **CHSW41**: "Townsville Tower, helicopter CHSW41, Heli Apron, for Helo West."   
+    **TL ADC**: "CHSW41, Townsville Tower, air transit Pad West, cross runway 07."
+	**CHSW41**: "Air transit Pad West, cross runway 07, CHSW41" 
+		
+	**CHSW41**: "Townsville Tower, CHSW41, established Pad West."   
+    **TL ADC**: "CHSW41, cleared to operate Helo West, not above `A010`. Maintain listening watch."  
+	**CHSW41**: "Cleared to operate Helo West, not above `A010`, maintain listening watch, CHSW41."  
+
+This can be cancelled at any time by ADC by instructing the aircraft to *'resume full reporting'*.
+
+!!! phraseology 
+    **TL ADC**: "CHSW41, resume full reporting."   
+    **CHSW41**: "Resume full reporting, CHSW41"  
+
+!!! note
+	Helo West and [Town Common](#town-common) are overlapping areas. Aircraft should not be cleared to operate in the areas simultaneously.
 
 #### Lavarack Circuit Area
 The **Lavarack Circuit Area** is established over the Lavarack Barracks (YLVK), southwest of YBTL. Helicopters may request the activation of the Lavarack Circuit Area, not above `A010`.
@@ -236,7 +289,17 @@ The **Lavarack Circuit Area** is established over the Lavarack Barracks (YLVK), 
 The Lavarack Circuit Area is **not** separated from aircraft departing Runway 19 on a procedural SID or aircraft tracking via the RNP-Z and RNP-P Runway 01 approach.
 
 #### Town Common
+**Town Common** is a helicopter training area north-west of the ARP, within TL MIL CTR airspace. The area is divided into three subsections: **Town Common East**, **Town Common West**, and **Many Peaks**.
 
+Helicopters intending to operate in any part of Town Common should request clearance from ACD.
+
+!!! phraseology
+    **CROW22**: "Townsville Delivery, helicopter CROW22, Heli Apron, for Town Common West, request clearance."   
+    **TL ACD**: "CROW22, Townsville Delivery, cleared Town Common West, not above `A015`, squawk 6417."
+	**CROW22**: "Cleared Town Common West, not above `A015`, squawk 6417, CROW22" 
+
+!!! note
+	Town Common and [Helo West](#helo-west) are overlapping areas. Aircraft should not be cleared to operate in the areas simultaneously.
 
 ## Runway Modes
 ### Preferred Runway Modes
@@ -263,6 +326,7 @@ The circuit height is `A015`.
 | 25     | Right     |
 
 ## SID Selection
+#### Civil Aircraft
 Aircraft planned via **AKROM**, **ANRUB**, **CARMN**, **CATEY**, **JEMMA**, **PEWEE** and **WALTA** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a procedural SID.
 
 **RNP (0.3)** approved operators planned via **JEMMA** and departing Runway 19 shall be assigned the **KVALM** procedural SID.
@@ -277,7 +341,13 @@ Aircraft that are unable to accept a procedural SID terminating on their route s
 
 Light and **non-RNAV** aircraft shall be assigned a visual departure.
 
-## ATIS
+#### Military aircraft
+Military aircraft that are unable to accept a procedural SID are generally processed through visual departures.
+
+In IMC, fast jets may be assigned the **Thunder** (Runway 01) or **Lightning** (Runway 19) [coded clearance](#thunder-and-lightning)
+
+#### CATEY Departures
+When the [R738A restricted area](../../terminal/Townsville/r738a-h-townsville-land) is active, aircraft planned via **CATEY** shall be assigned the **ANRUB** (if southbound) or **CARMN** (if northbound) SID.
 
 ## Coordination
 ### Auto Release  
