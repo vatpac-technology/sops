@@ -138,7 +138,7 @@ The R736 and R739 Townsville (Star) [restricted areas](../../controller-skills/s
 
 It is predominantly used for military training operations, including operations at the Star Landing Area ALA (YSTD).
 
-Aircraft will generally enter and exit the MOA via the appropriate [military gate](#military-gates).
+Aircraft will generally enter and exit the MOA via the appropriate [military gate](../../terminal/townsville/#military-gates).
 
 ##### Affected Civil Operations
 When activated, the restricted areas distrupt traffic on the **J184**, **W265**, **W528**, and **W637** low altitude airways, which connect YBTL to Western Queensland. Aircraft travelling on these airways should be manually rerouted around the SUA.

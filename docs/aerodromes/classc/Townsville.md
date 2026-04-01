@@ -46,13 +46,13 @@ Except when the traffic situation warrants, taxi clearances shall conform to the
 
 === "Runway 01"
 	<figure markdown>
-	![Standard Taxi Routes for RWY 01](img/ybtlstdtax_01.png){ width="500" }
+	![Standard Taxi Routes for RWY 01](img/ybtlstdtaxi_01.png){ width="500" }
 	  <figcaption>Standard Taxi Routes for RWY 01</figcaption>
 	</figure>
 	
 === "Runway 19"
 	<figure markdown>
-	![Standard Taxi Routes for RWY 19](img/ybtlstdtax_19.png){ width="500" }
+	![Standard Taxi Routes for RWY 19](img/ybtlstdtaxi_19.png){ width="500" }
 	  <figcaption>Standard Taxi Routes for RWY 19</figcaption>
 	</figure>
     
@@ -142,7 +142,7 @@ In VMc, light aircraft travelling between YBTL and YPAM should be cleared a '**C
 There are several [military gates](../../controller-skills/military/#military-gates) established throughout the TL TCU to facilitate entry and exit to adjoining SUA.
 
 <figure markdown>
-![TL SUA Gates](img/tl_mil_gates.png){ width="700" }
+![TL SUA Gates](../../terminal/img/tl_mil_gates.png){ width="700" }
   <figcaption>TL SUA Gates</figcaption>
 </figure>
 
@@ -184,7 +184,7 @@ All instrument approaches for Runway 01 and Runway 19 SIDs are procedurally sepa
 There are six VFR routes established in and around the YBTL TCU to facilitate VFR operations.
 
 <figure markdown>
-![YBTL VFR Routes](img/ybtl_vfr.png){ width="600" }
+![YBTL VFR Routes](img/tl_vfr.png){ width="600" }
   <figcaption>YBTL VFR Routes</figcaption>
 </figure>
 
