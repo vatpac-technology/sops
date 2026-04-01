@@ -199,7 +199,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     - The feeder fix for the IPMOR STAR is **KAGMI**
 - Aircraft on the SOLUS STAR to RWY 21/24 will be vectored from MOCUR to the IAF for ILS
 - Aircraft on the IPMOR STAR to RWY 24 will be vectored from WOOFY to the IAF for the ILS
-- Aircraft via the OLMAM feeder fix will be processed via **WOOFY** for the RWY 21 ILS (via the 9nm arc)
+- Aircraft for RWY 21 via the OLMAM feeder fix will be processed via **WOOFY** for the ILS (via the 9nm arc)
 
 ### Calculator
 <script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
