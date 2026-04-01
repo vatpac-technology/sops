@@ -16,7 +16,7 @@
 CB ADC is responsible for the Class C Airspace within the CB CTR `SFC` to `A035`.
 
 <figure markdown>
-![CB ADC Airspace](img/CBTWR.png){ width="700" }
+![CB ADC Airspace](img/cbadc.png){ width="700" }
   <figcaption>CB ADC Airspace</figcaption>
 </figure>
 

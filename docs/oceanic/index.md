@@ -26,7 +26,7 @@ RJTG - Fukuoka Oceanic
     Under the agreement, a controller holding an oceanic endorsement may control positions within any of these FIRs.
 
 <figure markdown>
-![Pacific Oceanic Agreement Units](assets/oceanicmap.png){width="700"}
+![Pacific Oceanic Agreement Units](img/oceanicmap.png){width="700"}
     <figcaption>Pacific Oceanic Agreement Units</figcaption>
 </figure>
 
