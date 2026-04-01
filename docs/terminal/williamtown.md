@@ -79,11 +79,6 @@ There are numerous [military gates](../../controller-skills/military/#military-g
   <figcaption>WLM SUA Gates</figcaption>
 </figure>
 
-!!! phraseology
-    *RPLC15 plans to enter the M581 MOA via Gate 7 for military training and airwork.*  
-    **RPLC15**: "Willy Delivery, RPLC15 for Gate 7, `F120` for M581, request clearance."
-    **WLM ACD**: "RPLC15, Willy Delivery. Cleared Gate 7, Classic departure. Climb via SID to `F120`, squawk 6001, departure frequency 135.7."   
-
 If the pilot **does not** nominate a gate, or nominates a gate that does not provide access to their intended SUA, WLM ACD should clear the aircraft to depart via the **appropriate gate**.
 
 | Intended SUA    | TCU Exit Gate       |
