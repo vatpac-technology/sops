@@ -163,7 +163,7 @@ WLM TCU must [give heads up coordination](../../terminal/williamtown/#sua-in-enr
     <span class="hotline">**ARL** -> **WAL**</span>: "PTHR11, expect activation of R560A `A085-F240` at 0300 until 0500."   
     <span class="hotline">**WAL** -> **ARL**</span>: "PTHR11."  
     
-Non-participating aircraft intenting to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../sua/#ad-hoc-activations).
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../sua/#ad-hoc-activations).
 
 #### M581-M584 Williamtown
 The M581-M584 MOAs are located offshore within the MLD, MNN, OCN, and TSN(HWE) subsectors.
