@@ -52,7 +52,7 @@ Aircraft departing to the western training areas should be cleared the **STORM 1
 There are numerous [military gates](../../../controller-skills/military/#military-gates) established throughout the WLM TCU to facilitate entry and exit to adjoining SUA.
 
 <figure markdown>
-![WLM SUA Gates](../../terminal/img/wlm_mil_gates.png){ width="700" }
+![WLM SUA Gates](../../../terminal/img/wlm_mil_gates.png){ width="700" }
   <figcaption>WLM SUA Gates</figcaption>
 </figure>
 
@@ -85,7 +85,7 @@ If the pilot **does not** nominate a gate, or nominates a gate that does not pro
 The Salt Ash Air Weapons Range is located within the WLM MIL CTR, and is used for air-surface gunnery and bombing practice. It is entirely contained within the R596 [restricted area](../../../controller-skills/sua/#restricted-areas).
 
 <figure markdown>
-![The Salt Ash Weapons Range](../../terminal/img/wlm_salt_ash.png){ width="700" }
+![The Salt Ash Weapons Range](../../../terminal/img/wlm_salt_ash.png){ width="700" }
   <figcaption>The Salt Ash Air Weapons Range</figcaption>
 </figure>
 
