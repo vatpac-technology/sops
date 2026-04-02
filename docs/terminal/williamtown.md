@@ -186,7 +186,7 @@ In times of heavy military traffic, WLM TCU may choose to nominate [stereo appro
 Aircraft arriving from Gates 1-4 and 6 will join the stereo approach at the gate; other aircraft may start the approach from overhead WLM TAC.
 
 !!! phraseology
-    *WGTL45 is returning from M581 via Gate 6, and has already been identified. Runway 30 is in use.*
+    *WGTL45 is returning from M581 via Gate 6, and has already been identified. Runway 30 is in use.*  
     **WGTL45**: "Willy Approach, WGTL45. `F150` visual, for stereo approach with information A."  
     **WAL**: "MAPL45, Willy Approach, cleared stereo approach. At 11 TACAN WLM contact Tower, 118.3"  
     **MAPL45**: "Cleared stereo approach, tower at 11 TACAN WLM, WGTL45"
