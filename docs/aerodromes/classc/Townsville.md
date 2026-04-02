@@ -25,7 +25,7 @@ TL ADC owns the Class C airspace in the TL MIL CTR `SFC` to `A015`.
 </figure>
 
 ## Restricted Area Activations
-There are no [restricted areas or MOAs](../../controller-skills/sua) activated by default when TL ADC is online.
+There are no [restricted areas or MOAs](../../../controller-skills/sua) activated by default when TL ADC is online.
 
 ## Manoeuvring Area
 ### Manoeuvring Area Responsibility
@@ -71,7 +71,7 @@ Taxiway **C** is only available to light aircraft. Taxiways **J** is not availab
 
 ## Local Procedures
 ### Initial and Pitch
-The [intial points](../../controller-skills/military/#initial-and-pitch) are 5NM from the ARP, displaced 1,000 feet laterally to the dead side of the runway, `A025`.
+The [intial points](../../../controller-skills/military/#initial-and-pitch) are 5NM from the ARP, displaced 1,000 feet laterally to the dead side of the runway, `A025`.
 
 Aircraft arriving Runway 19 should be assigned either a **left initial** or **right initial**; a straight initial is not available due to high terrain over Magnetic Island.
 
@@ -84,7 +84,7 @@ There are multiple different coded clearances used for a variety of civil and mi
     [Coordination requirements](#acd-to-tl-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU before providing clearance
 
 #### Bluewater Clearance
-The D764 Townsville [danger area](../../controller-skills/sua/#danger-areas), also known as the **Bluewater Training Area**, is a commonly used training area west of YBTL.
+The D764 Townsville [danger area](../../../controller-skills/sua/#danger-areas), also known as the **Bluewater Training Area**, is a commonly used training area west of YBTL.
 
 Aircraft departing to the training area should be cleared a 'BLUEWATER' clearance. This clearance gives aircraft permission depart the TL MIL CTR, and transit to the D764 danger area via the appropriate track.
 
@@ -127,8 +127,8 @@ In VMc, light aircraft travelling between YBTL and YPAM should be cleared a '**C
 | Duty RWY     | Clearance            | Tracking Points    | Notes |
 | ------------ | -------------------- | ------------------ | ----- |
 | RWY 01 or 07 | CORDELIA Outbound    | `YBTL RDRS RKI052005 YPAM` | Aircraft to remain east of RDRS and *Cordelia Rocks* (RKI052005) |
-| RWY 01 or 07 | RATTLESNAKE Inbound  | `YBTL MBHR RKI YPAM`       | When [R747 restricted area](../../terminal/Townsville/#r747-rattlesnake-island) is active, expect amended tracking |
-| RWY 19 or 25 | RATTLESNAKE Outbound | `YPAM RKI MBHR YBTL`       | When [R747 restricted area](../../terminal/Townsville/#r747-rattlesnake-island) is active, expect amended tracking 
+| RWY 01 or 07 | RATTLESNAKE Inbound  | `YBTL MBHR RKI YPAM`       | When [R747 restricted area](../../../terminal/Townsville/#r747-rattlesnake-island) is active, expect amended tracking |
+| RWY 19 or 25 | RATTLESNAKE Outbound | `YPAM RKI MBHR YBTL`       | When [R747 restricted area](../../../terminal/Townsville/#r747-rattlesnake-island) is active, expect amended tracking 
 | RWY 19 or 25 | CORDELIA Inbound     | `YPAM RKI052005 RDRS YBTL` | Aircraft to remain east of RDRS and *Cordelia Rocks* (RKI052005) |
 
 !!! phraseology
@@ -139,10 +139,10 @@ In VMc, light aircraft travelling between YBTL and YPAM should be cleared a '**C
     ACD shall update the pilot's route and write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
 
 #### Military Gates
-There are several [military gates](../../controller-skills/military/#military-gates) established throughout the TL TCU to facilitate entry and exit to adjoining SUA.
+There are several [military gates](../../../controller-skills/military/#military-gates) established throughout the TL TCU to facilitate entry and exit to adjoining SUA.
 
 <figure markdown>
-![TL SUA Gates](../../terminal/img/tl_mil_gates.png){ width="700" }
+![TL SUA Gates](../../../terminal/img/tl_mil_gates.png){ width="700" }
   <figcaption>TL SUA Gates</figcaption>
 </figure>
 
@@ -170,14 +170,14 @@ If the pilot **does not** nominate a gate, or nominates a gate that does not pro
 
 ### Special Use Airspace
 #### R768A Mt Stuart
-The R768A Mt Stuart [restricted area](../../controller-skills/sua/#restricted-areas) is a non-flying SUA located in the south of the TL MIL CTR, `SFC-A020`. It is activated daily from 2100-1200 UTC.
+The R768A Mt Stuart [restricted area](../../../controller-skills/sua/#restricted-areas) is a non-flying SUA located in the south of the TL MIL CTR, `SFC-A020`. It is activated daily from 2100-1200 UTC.
 
 <figure markdown>
 ![R768A Mt Stuart](img/tl_r768a.png){ width="700" }
   <figcaption>R768A Mt Stuart</figcaption>
 </figure>
 
-All instrument approaches for Runway 01 and Runway 19 SIDs are procedurally separated from the restricted area. All other aircraft should be [separated](../../controller-skills/sua/#controlled-airspace), when activated.
+All instrument approaches for Runway 01 and Runway 19 SIDs are procedurally separated from the restricted area. All other aircraft should be [separated](../../../controller-skills/sua/#controlled-airspace), when activated.
 
 ## VFR Operations
 ### VFR Routes
@@ -347,11 +347,11 @@ Military aircraft that are unable to accept a procedural SID are generally proce
 In IMC, fast jets may be assigned the **Thunder** (Runway 01) or **Lightning** (Runway 19) [coded clearance](#thunder-and-lightning)
 
 #### CATEY Departures
-When the [R738A restricted area](../../terminal/Townsville/r738a-h-townsville-land) is active, aircraft planned via **CATEY** shall be assigned the **ANRUB** (if southbound) or **CARMN** (if northbound) SID.
+When the [R738A restricted area](../../../terminal/Townsville/r738a-h-townsville-land) is active, aircraft planned via **CATEY** shall be assigned the **ANRUB** (if southbound) or **CARMN** (if northbound) SID.
 
 ## Coordination
 ### Auto Release  
-[Next](../../controller-skills/coordination.md#next) coordination is **not** required from TL ADC to TL TCU for aircraft that are:  
+[Next](../../../controller-skills/coordination.md#next) coordination is **not** required from TL ADC to TL TCU for aircraft that are:  
 
 - Departing from a runway nominated in the ATIS; and  
 - Assigned the standard assignable level; and 
@@ -371,7 +371,7 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
 | All | All | 126.8 (TLA) |
 
 ### ACD to TL TCU
-The controller assuming responsibility of **ACD** shall give [heads-up](../../controller-skills/coordination/#airways-clearance) coordination to TLA (or the enroute controller responsible for the TL TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
+The controller assuming responsibility of **ACD** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to TLA (or the enroute controller responsible for the TL TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
 
 !!! phraseology
     <span class="hotline">**TL ACD** -> **TLA**</span>: "PSSM31 requests clearance to M742”  
