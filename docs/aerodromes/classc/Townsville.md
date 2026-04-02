@@ -142,7 +142,7 @@ In VMc, light aircraft travelling between YBTL and YPAM should be cleared a '**C
 There are several [military gates](../../../controller-skills/military/#military-gates) established throughout the TL TCU to facilitate entry and exit to adjoining SUA.
 
 <figure markdown>
-![TL SUA Gates](../../../terminal/img/tl_mil_gates.png){ width="700" }
+![TL SUA Gates](../../terminal/img/tl_mil_gates.png){ width="700" }
   <figcaption>TL SUA Gates</figcaption>
 </figure>
 
@@ -351,7 +351,7 @@ When the [R738A restricted area](../../../terminal/Townsville/r738a-h-townsville
 
 ## Coordination
 ### Auto Release  
-[Next](../../../controller-skills/coordination.md#next) coordination is **not** required from TL ADC to TL TCU for aircraft that are:  
+[Next](../../../controller-skills/coordination/#next) coordination is **not** required from TL ADC to TL TCU for aircraft that are:  
 
 - Departing from a runway nominated in the ATIS; and  
 - Assigned the standard assignable level; and 
