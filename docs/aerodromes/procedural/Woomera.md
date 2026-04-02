@@ -28,14 +28,14 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 When **WR ADC** is online, the **R222F** restricted area `SFC` to `F120` is [activated](../../../sua/#activation-of-sua) by default.
 
 #### SUA in Enroute Airspace
-military operations also take place in SUA nearby the TCU in enroute airspace, outside the jurisdiction of WR ADC.
+Military operations taking place in SUA in enroute airspace are outside the jurisdiction of TL TCU.
 
 WR ADC must give **heads up** coordination to relevant enroute controllers before providing airways clearance to an aircraft intending to operate in a currently inactive SUA.
 
 This gives the enroute controller sufficient time to assess the request, make necessary adjustments to any aircraft in the area currently, and activate the SUA; or alternately to refuse the activation request before the aircraft is in the air.
 
 !!! phraseology
-    *PTHR11 is requesting clearance to operate in the R560A restricted area.*  
+    *BFLO11 is requesting clearance to operate in the R560A restricted area.*  
     <span class="hotline">**WR ADC** -> **WRA**</span>: "On the ground YPWR, BFLO11, requests activation of R222C `SFC-F290`, from 0100 until 0300."  
     <span class="hotline">**WRA** -> **WR ADC**</span>: "BFLO11, expect activation of R222C `SFC-F290` at 0100 until 0300."  
     <span class="hotline">**WR ADC** -> **WRA**</span>: "BFLO11.

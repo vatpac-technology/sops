@@ -42,6 +42,9 @@ The Primary Communication Method for ASP is [CPDLC](../../../client/cpdlc). Voic
 	!!! tip
 		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
+=== "WR CTR"
+	The restricted airspace around YPWR is classified as Class G by default, and is only reclassified as controlled airspace when **WR ADC** is online. When **WR ADC** is offline, the area remains Class G, and is administered by WRA.
+
 ## Surveillance Coverage
 Limited surveillance coverage exists in the FOR sector greater than **250nm** from ADSB stations. [Procedural Standards](../../../separation-standards/procedural/) must be implemented **prior** to losing surveillance coverage
 
