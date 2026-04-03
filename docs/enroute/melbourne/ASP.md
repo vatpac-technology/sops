@@ -147,11 +147,16 @@ Aircraft leaving WR ADC airspace both **laterally** and **vertically** will ente
 
 !!! phraseology
     <span class="hotline">**WR ADC** -> **WRA**</span>: "via WR 180 bearing outbound, LYBD11.”  
-    <span class="hotline">**WRA** -> **WR ADC**</span>: "LYBD11, `F240`."   
+    <span class="hotline">**WRA** -> **WR ADC**</span>: "LYBD11, `F240`, no reported traffic."   
     <span class="hotline">**WR ADC** -> **WRA**</span>: "`F240`, LYBD11."  
+
+    **WR ADC**: "LYBD11, leave and re-enter controlled airspace on climb to `F240`, no reported IFR traffic"  
+    **LYBD11**: "Leave and re-enter controlled airspace on climb to `F240`, LYBD11" 
  
 ### Arrivals/Overfliers
 As with departures, there is no inherent requirement for ASP(WRA) to coordinate arrivals or overfliers with WR ADC. However, it is good practice for ASP(WRA) to provide [heads-up](../../controller-skills/coordination/#heads-up) coordination for aircraft arriving into directly into WR ADC airspace. 
+
+Arriving aircraft shall be instructed to leave CTA descending (if appropriate) and to contact WR ADC for clearance.
 
 ### IND(INS) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
