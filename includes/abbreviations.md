@@ -106,6 +106,7 @@
 *[SRI]: Sydney Radar
 *[SGA]: Scherger Approach
 *[TNA]: Tindal Approach
+*[TLA]: Townsville Approach
 *[WAH]: Williamtown Approach (High)
 *[WAL]: Williamtown Approach (Low)
 *[ARL]: Brisbane (Armidale) Centre
@@ -392,3 +393,22 @@
 *[COTR]: Cotter
 *[VSOA]: Virtual Special Operations Association
 *[FAF]: Final Approach Fix
+*[MBHR]: Mouth of the Bohle River
+*[TOOU]: Toomulla
+*[RKI]: Rattlesnake Island
+*[WEP]: West Pt
+*[ORKS]: Orchard Rocks
+*[CCL]: Cape Cleveland
+*[SUNZ]: Sun Zinc Refinery
+*[YBU]: Yabulu
+*[CEN]: Clevedon
+*[GIRU]: Giru
+*[MBC]: Mount Black
+*[TNP]: Thornton Gap
+*[MMT]: Mt Margaret
+*[ANP]: Antill Plains
+*[DOP]: Donnington Airpark
+*[TNCR]: The Corner
+*[RRDM]: Ross River Dam
+*[RMT]: Round Mountain
+*[KSPT]: Kissing Point
