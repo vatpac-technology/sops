@@ -130,7 +130,7 @@ This also applies to helicopters departing helipads away from the aerodrome but 
 
 !!! phraseology 
     *RSCU203 is a VFR AW139 helicopter inbound from the southwest for Southcare Base (YXSB), within the CB CTR*  
-    **RSCU203**: "Canberra Tower, gday, RSCU203"
+    **RSCU203**: "Canberra Tower, gday, RSCU203"  
     **CB ADC**: "RSCU203, Canberra Tower, report on the ground"
 	
 #### Visual Holds

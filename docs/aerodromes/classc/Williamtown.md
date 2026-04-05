@@ -98,7 +98,7 @@ The restricted area can be activated in two configurations according to the requ
 
 When the R596 restricted area is active all airspace within the SUA is managed by **WAL**, and the [ATIS should be updated](#sua-activations) to reflect the activation.
 
-Aircraft departing YWLM for the [Salt Ash Air Weapons Range (R596)] should be cleared the **SALT ASH** departure, in lieu of a SID. On this departure, aircraft will maintain runway heading until turning between 2 TAC and 7.5 TAC WLM to enter the restricted area.
+Aircraft departing YWLM for the Salt Ash Air Weapons Range should be cleared the **SALT ASH** departure, in lieu of a SID. On this departure, aircraft will maintain runway heading until turning between 2 TAC and 7.5 TAC WLM to enter the restricted area.
 
 !!! phraseology
     *RPLC15 plans to enter the M581 MOA via Gate 7 for military training and airwork.*  
