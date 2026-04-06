@@ -57,6 +57,8 @@ There are several visual waypoints established throughout WR ADC airspace which 
   <figcaption>WR Visual Gates</figcaption>
 </figure>
 
+The visual gates do not have waypoint identifiers. Aircraft utilising the gates should have their FDR route amended with the following positions.
+
 | Visual Gate         | Position |
 | ------------------- | -------- |
 | Island Lagoon       | WR180013 |
