@@ -36,10 +36,10 @@ ADC is responsible for all runways as well as [**Helipad B** and **Helipad F**](
   <figcaption>YBTL Manoeuvring Area Responsibility</figcaption>
 </figure>
 
-Aircraft landing on **Runway 07** are required to hold short of
-
 !!! note
     Despite being located on a taxiway, **Helipad F** is treated as a runway. All aircraft need explicit clearance to cross the helipad holding points when taxiing on Taxiway A.
+	
+**Runway 07/25** is located close to, but does not intersect with, Runway 01/19. Aircraft landing on **Runway 07** must receive explicit clearance to cross Runway 01/19, via Taxiway D3.
 	
 ### Standard Taxi Routes
 Except when the traffic situation warrants, taxi clearances shall conform to the following diagram:
