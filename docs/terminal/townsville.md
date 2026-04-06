@@ -38,11 +38,11 @@ This gives the enroute controller sufficient time to assess the request, make ne
     *PTHR11 is requesting clearance to operate in the R560A restricted area.*  
     <span class="hotline">**TL ACD** -> **TLA**</span>: "PSSM31 requests clearance to M742”  
     <span class="hotline">**TLA** -> **TL ACD**</span>: "Standby, call you back."  
-    
+     
     <span class="hotline">**TLA** -> **TBP**</span>: "On the groud YBTL, PSSM31, requests activation of M742 `A040-F240`, from 0300 until 0500.”  
     <span class="hotline">**TBP** -> **TLA**</span>: "PSSM31, expect activation of M742 `A040-F240` at 0300 until 0500."   
     <span class="hotline">**TLA** -> **TBP**</span>: "PSSM31."   
-    
+      
     <span class="hotline">**TLA** -> **TL ACD**</span>: "PSSM31, clearance approved."   
     <span class="hotline">**TL ACD** -> **TLA**</span>: "Clearance approved, PSSM31"  
 
@@ -80,7 +80,7 @@ If the pilot **does not** nominate a gate, or nominates a gate that does not pro
 | R752            | TANGO | JOCKO |
 
 !!! tip
-    [Coordination requirements](#acd-to-tl-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU before providing clearance
+    [Coordination requirements](#acd-to-tl-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU before providing clearance.
 
 ### Special Use Airspace
 <figure markdown>
@@ -100,15 +100,15 @@ Aircraft departing to the training area will be cleared a ['BLUEWATER' clearance
 | RWY 19   | Outbound  | YBTL-YBU-D764   | Not above `A015` until within D764 |
 | RWY 19   | Inbound   | D764-via coast remaining over land-YBTL | |
 
-Aircraft intending to return to YBTL from the training area will contact TAL if intending to transit above `A015` (within TCU CTA). All other aircraft will remain OCTA and request inbound clearance directly from TL ADC.
+Aircraft intending to return to YBTL from the training area will contact TLA if intending to transit above `A015` (within TCU CTA). All other aircraft will remain OCTA and request inbound clearance directly from TL ADC.
 
 !!! phraseology
     **ABC**: "Townsville Approach, ABC within D764, for YBTL, request clearance at `A035`.”   
-    **TL ACD**: "ABC, Townsville Approach, cleared BLUEWATER, maintain `A035`. Abeam MBKR contact Townsville Tower on 118.3"   
+    **TLA**: "ABC, Townsville Approach, cleared BLUEWATER, maintain `A035`. Abeam MBKR contact Townsville Tower on 118.3"   
     **ABC**: "Cleared Bluewater, Maintain `A035`, abeam MBKR contact Townsville Tower 118.3, ABC."  
 
 !!! note
-    TAL shall write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
+    TLA shall write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
 
 #### M742 Tiger
 The M742 Tiger [MOA](../../controller-skills/sua/#military-operating-areas) is located off the coast, `A040-F240`, spanning both TL TCU and KEN(TBP) airspace.
@@ -127,7 +127,7 @@ When R739 is activated above `A060` it disrupts aircraft tracking via the CATEY 
 
 !!! phraseology
 	*UTY640 has departed YBTL RWY 01 on the CATEY SID, bound for YCCY. The R739 restricted area has been activated `SFC-A085`.*   
-    **TAL**: "UTY640, Townsville Approach, identified. Climb via SID to `F180`, requirement to reach `A100` by ENSOM."   
+    **TLA**: "UTY640, Townsville Approach, identified. Climb via SID to `F180`, requirement to reach `A100` by ENSOM."   
     **UTY640**: "Climb via SID to `F180`, requirement to reach `A100` by ENSOM, UTY640."  
 
 #### R738A-H Townsville (Land)

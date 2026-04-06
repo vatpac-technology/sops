@@ -81,7 +81,7 @@ Aircraft arriving Runway 01 should be assigned either a **left initial**, **stan
 There are multiple different coded clearances used for a variety of civil and military operations.
 
 !!! tip
-    [Coordination requirements](#acd-to-tl-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU before providing clearance
+    [Coordination requirements](#acd-to-tl-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU **before** providing clearance.
 
 #### Bluewater Clearance
 The D764 Townsville [danger area](../../../controller-skills/sua/#danger-areas), also known as the **Bluewater Training Area**, is a commonly used training area west of YBTL.
@@ -101,10 +101,10 @@ Aircraft departing to the training area should be cleared a 'BLUEWATER' clearanc
        
     <span class="hotline">**TL ACD** -> **TLA**</span>: "ABC, requests clearance to D764.”  
     <span class="hotline">**TLA** -> **TL ACD**</span>: "ABC, clearance approved."  
-    
+      
     **TL ACD**: "ABC, clearance available"  
-    **ABC**: "ABC” 
-    **TL ACD**: "ABC, cleared BLUEWATER, not above `A015`, squawk 0361, departure frequency 126.8"   
+    **ABC**: "ABC”  
+    **TL ACD**: "ABC, cleared BLUEWATER, not above `A015`, squawk 0361, departure frequency 126.8"    
 
 !!! note
     ACD shall write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
@@ -117,12 +117,12 @@ Aircraft will request either the **Lightning 1 Departure** (if departing Runway 
 !!! phraseology
     **VIGL11**: "Townsville Delivery, VIGL11 for YAMB, request Lightning 1 and clearance.”   
     **TL ACD**: "VIGL11, Townsville Delivery, cleared to YAMB via JEMMA flight planned route. Lightning 1 departure, climb to `F180`, squawk 6066, departure frequency 126.8"   
-
+	
 !!! note
 	Assigning the Thunder or Lightning coded clearance to an aircraft does not meet the requirements for [auto release](#auto-release). These aircraft must be 'Next' coordinated with TL TCU.
 
 #### YPAM Traffic
-In VMc, light aircraft travelling between YBTL and YPAM should be cleared a '**CORDELIA**' or '**RATTLESNAKE**' clearance, according to the YBTL runway in use.
+In VMC, light aircraft travelling between YBTL and YPAM should be cleared a '**CORDELIA**' or '**RATTLESNAKE**' clearance, according to the YBTL runway in use.
 
 | Duty RWY     | Clearance            | Tracking Points    | Notes |
 | ------------ | -------------------- | ------------------ | ----- |
@@ -148,7 +148,7 @@ There are several [military gates](../../../controller-skills/military/#military
 
 !!! phraseology
     *DPBR23 plans to enter the M742 MOA via KAGES for military training and airwork.*  
-    **DPBR23**: "Townsville Delivery, DPBR23 for KAGES, `A100` for M742, request clearance."
+    **DPBR23**: "Townsville Delivery, DPBR23 for KAGES, `A100` for M742, request clearance."  
     **TL ACD**: "DPBR23, Townsville Delivery. Cleared KAGES, visual departure. Climb to `A100`, squawk 6001, departure frequency 126.8."   
 
 If the pilot **does not** nominate a gate, or nominates a gate that does not provide access to their intended SUA, TL ACD should clear the aircraft to depart via the **appropriate gate**.
@@ -166,7 +166,7 @@ If the pilot **does not** nominate a gate, or nominates a gate that does not pro
 | R752            | TANGO |
 
 !!! tip
-    [Coordination requirements](#acd-to-tl-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU before providing clearance
+    [Coordination requirements](#acd-to-tl-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU **before** providing clearance.
 
 ### Special Use Airspace
 #### R768A Mt Stuart
@@ -204,7 +204,7 @@ When Runway 01 is in use, the Thornton North VFR route is generally used for dep
 There are two helipads at YBTL: **Helipad F**, located at the intersection of Taxiways B and F; and **Helipad B**, located north of Taxiway B. Both helipads are part of the manoeuvring area and controlled by TL ADC. Any helicopter taking off or landing on the helipads require a specific takeoff or landing clearance from ADC.
 
 !!! phraseology 
-    **TL ADC**: "FTBY21, helipad F, cleared to land"
+    **TL ADC**: "FTBY21, helipad F, cleared to land"  
     
 ### Departures
 VFR helicopters are generally processed via an [VFR route](#vfr-routes). IFR helicopters should conform to fixed wing operations and be processed via the [appropriate radar SID](#sid-selection) from a duty runway, unless a visual departure is acceptable.
@@ -225,7 +225,7 @@ During busy periods, ADC may choose to instruct helicopters to hold at a clearan
     **ABC:** "Clearance limit KSPT, maintain `A005`, report at KSPT, ABC"  
 
 ### Hospital Helipads
-Within the Townsville CTR there are half a dozen HLS's, including two helipads at Townsville Hospital (YXTL and YXTS).
+Within the Townsville CTR there are half a dozen HLS's, including Townsville Hospital (YXTL).
 
 <figure markdown>
 ![HLS in TL ADC Airspace](img/TL_ctr_heli.png){ width="700" }
@@ -252,11 +252,11 @@ Helicopters requesting clearance to operate in the Northern Grass shall be clear
 
 !!! phraseology
     **AGRY11**: "Townsville Tower, helicopter AGRY11, Heli Apron, for the Northern Grass."   
-    **TL ADC**: "AGRY11, Townsville Tower, air transit Northern Grass, cross runway 07. Report established."
-	**AGRY11**: "Air transit Northern Grass, cross runway 07, AGRY11" 
-	
+    **TL ADC**: "AGRY11, Townsville Tower, air transit Northern Grass, cross runway 07. Report established."  
+	**AGRY11**: "Air transit Northern Grass, cross runway 07, AGRY11."  
+	  
 	**AGRY11**: "Townsville Tower, AGRY11, established Northern Grass."   
-    **TL ADC**: "AGRY11, cleared to operate Northern Grass, not above 100ft."
+    **TL ADC**: "AGRY11, cleared to operate Northern Grass, not above 100ft."  
 
 #### Helo West
 The **Helo West** operating area is located north-west of the ARP, within TL MIL CTR airspace. Helicopters may request clearance to operate within the circuit area, not above `A010`.
@@ -267,8 +267,8 @@ Aircraft may be instructed to maintain a *listening watch* upon reporting establ
 
 !!! phraseology
     **CHSW41**: "Townsville Tower, helicopter CHSW41, Heli Apron, for Helo West."   
-    **TL ADC**: "CHSW41, Townsville Tower, air transit Pad West, cross runway 07."
-	**CHSW41**: "Air transit Pad West, cross runway 07, CHSW41" 
+    **TL ADC**: "CHSW41, Townsville Tower, air transit Pad West, cross runway 07."  
+	**CHSW41**: "Air transit Pad West, cross runway 07, CHSW41"   
 		
 	**CHSW41**: "Townsville Tower, CHSW41, established Pad West."   
     **TL ADC**: "CHSW41, cleared to operate Helo West, not above `A010`. Maintain listening watch."  
@@ -295,8 +295,8 @@ Helicopters intending to operate in any part of Town Common should request clear
 
 !!! phraseology
     **CROW22**: "Townsville Delivery, helicopter CROW22, Heli Apron, for Town Common West, request clearance."   
-    **TL ACD**: "CROW22, Townsville Delivery, cleared Town Common West, not above `A015`, squawk 6417."
-	**CROW22**: "Cleared Town Common West, not above `A015`, squawk 6417, CROW22" 
+    **TL ACD**: "CROW22, Townsville Delivery, cleared Town Common West, not above `A015`, squawk 6417."  
+	**CROW22**: "Cleared Town Common West, not above `A015`, squawk 6417, CROW22."  
 
 !!! note
 	Town Common and [Helo West](#helo-west) are overlapping areas. Aircraft should not be cleared to operate in the areas simultaneously.
@@ -375,7 +375,7 @@ The controller assuming responsibility of **ACD** shall give [heads-up](../../..
 
 !!! phraseology
     <span class="hotline">**TL ACD** -> **TLA**</span>: "PSSM31 requests clearance to M742”  
-    <span class="hotline">**TLA** -> **TL ACD**</span>: "PSSM31, clearance approved."
+    <span class="hotline">**TLA** -> **TL ACD**</span>: "PSSM31, clearance approved."  
     
 ## Charts
 !!! abstract "Reference"

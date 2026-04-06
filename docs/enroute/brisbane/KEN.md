@@ -115,7 +115,7 @@ The M742 Tiger [MOA](../../controller-skills/sua/#military-operating-areas) is l
 Aircraft will generally enter and exit the MOA via the appropriate [military gate](../../terminal/townsville/#military-gates).
 
 ##### Affected Civil Operations
-Activation of the MOA disrupts traffic on the infrequently used **R213** high altitude airway. Aircraft travelling on thie airway should kept above `F250` to ensure separation.
+Activation of the MOA disrupts traffic on the infrequently used **R213** high altitude airway. Aircraft travelling on this airway should kept above `F250` to ensure separation.
 
 #### R732 Greenvale Training Area
 The R732 Greenvale Training Area [restricted area](../../controller-skills/sua/#restricted-areas) is located west of YBTL within TBP and ISA airspace.
@@ -131,7 +131,7 @@ When activated the restricted area disrupts traffic on the **J184**, **W152**, *
 | Z51            | `... W841 DOTTE DCT KADMU ...` |
 
 !!! note
-	Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../sua/#separation-from-sua)  laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../sua/#controlled-airspace) clearance with all parts of the SUA.
+	Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../sua/#separation-from-sua) laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../sua/#controlled-airspace) clearance with all parts of the SUA.
 
 #### R736 & R739 Townsville (Star)
 The R736 and R739 Townsville (Star) [restricted areas](../../controller-skills/sua/#restricted-areas) straddle the border of the TL TCU and KEN(TBP) airspace. 
@@ -144,7 +144,7 @@ Aircraft will generally enter and exit the MOA via the appropriate [military gat
 When activated, the restricted areas distrupt traffic on the **J184**, **W265**, **W528**, and **W637** low altitude airways, which connect YBTL to Western Queensland. Aircraft travelling on these airways should be manually rerouted around the SUA.
 
 #### R738A-H Townsville (Land)
-The R738A-H Townsville (Land) [restricted areas](../../controller-skills/sua/#restricted-areas), also known  as the Townsville Field Training Area, is a series of defined airspace volumes west of YBTL, `A070-NOTAM`. R738A and R738B are in both TL TCU and TBP airspace, while R738C-H is wholly located in TBP.
+The R738A-H Townsville (Land) [restricted areas](../../controller-skills/sua/#restricted-areas), also known collectively as the Townsville Field Training Area, is a series of defined airspace volumes west of YBTL, `A070-NOTAM`. R738A and R738B are in both TL TCU and TBP airspace, while R738C-H is wholly located in TBP.
 
 The area is used for a wide array of military training operations, including supersonic flight, air-to-air combat training, and live fire exercises. The extent of activation required will vary according to each operation, but will generally include R738A or R738B, along with an additional larger subsection.
 
