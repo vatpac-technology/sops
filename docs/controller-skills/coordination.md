@@ -63,6 +63,29 @@ Coordination must be done on a **point-to-point** basis, meaning you can only co
 
 Ensure no coordination is ambiguous in its meaning. Not all coordination can be straight out of the phraseology books and the reality is, not everyone controlling the airspace is going to be 100% proficient and by the books. When using "plain english", ensure there is no ambiguity, and the message is fully understood by both parties.
 
+#### Onwards Coordination
+**Onwards coordination** is a practice by which a controller will assume another controller's responsibility for coordination and coordinate on their behalf, reducing the downstream controller's workload.
+
+This is most useful when controllers are coordinating to multiple lateral positions, or where the controller "in the middle" of the chain of coordination has [no frequency requirements](#no-frequency-requirements-nfr).
+
+!!! example
+    You are controlling SDS and an aircraft has requested track shortening to a waypoint in WOL airspace. You can see that the requested track shortening would result in the aircraft passing through SAS airspace and exiting the TCU outside the Sydney [voiceless coordination corridors](../terminal/sydney/#departures).   
+	
+	Ordinarily, SDS would be responsible for coordination with SAS, while SAS is responsible for coordination with WOL. With *onwards coordination*, SDS can coordinate with WOL on SAS's behalf.
+
+A controller can either offer to assume responsibility for onwards coordination, or be given the responsibility by another controller.
+
+!!! phraseology 
+    <span class="hotline">**SDS** -> **SAS**</span>: "Overhead BK, ABC, request direct CB. My onwards with WOL"  
+    <span class="hotline">**SAS** -> **SDS**</span>: "ABC, direct CB, your onwards with WOL." 
+
+    <span class="hotline">**SDS** -> **WOL**</span>: "Overhead BK, ABC, request direct CB"  
+	<span class="hotline">**WOL** -> **SDS**</span>: "ABC, direct CB"
+
+
+!!! tip
+    If another controller is offering to perform *onwards coordination* on your behalf, you're not obliged to accept. If you identify that you have other requirements, or would prefer to perform the coordination yourself, decline the offer: *"I will coordination with..."*
+
 ## Types of Coordination
 ### Voiceless
 Certain routes, areas, levels, airspace, etc, will have voiceless coordination agreements, which is where Heads-Up Coordination is not required. These routes may also have change parameters, where no changes are permitted within a certain distance of the sector boundary without prior coordination.
@@ -253,7 +276,7 @@ Source: [Annotations](../../controller-skills/annotations)
 *Offering NFR*
 !!! phraseology
     *ABC tracking MNG W663 VINOP*  
-    <span class="hotline">**BLA** -> **YWE**</span>: "via MNG, ABC, if you have no restrictions or requirements, my onwards with OXL"  
+    <span class="hotline">**BLA** -> **YWE**</span>: "via MNG, ABC, if you have no restrictions or requirements, [my onwards](#onwards-coordination) with OXL"  
     <span class="hotline">**YWE** -> **BLA**</span>: "ABC, I have no restrictions or requirements, your onwards with OXL"  
     BLA will put *"YWE NRR"* in the label data  
     <span class="hotline">**BLA** -> **OXL**</span>: "via MNG, ABC, YWE has no restrictions or requirements"  
@@ -263,7 +286,7 @@ Source: [Annotations](../../controller-skills/annotations)
 *Initiating NFR*
 !!! phraseology
     *DEF tracking EML-LEMER-RK*  
-    <span class="hotline">**SWY** -> **CVN**</span>: "via LEMER, DEF, I have no vertical restrictions or frequency requirements, your onwards with KPL"  
+    <span class="hotline">**SWY** -> **CVN**</span>: "via LEMER, DEF, I have no vertical restrictions or frequency requirements, [your onwards](#onwards-coordination) with KPL"  
     <span class="hotline">**CVN** -> **SWY**</span>: "DEF, my onwards with KPL"  
     CVN will put *"SWY NVR NFR"* in the label data  
     <span class="hotline">**CVN** -> **KPL**</span>: "via LEMER, DEF, SWY has no vertical restrictions or frequency requirements"  
