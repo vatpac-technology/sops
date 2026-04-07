@@ -344,7 +344,7 @@ Light and **non-RNAV** aircraft shall be assigned a visual departure.
 #### CATEY Departures
 When the [R738A restricted area](../../../terminal/Townsville/r738a-h-townsville-land) is active, aircraft planned via **CATEY** shall be assigned the **ANRUB** (if southbound) or **CARMN** (if northbound) SID.
 
-### Military aircraft
+### Military Aircraft
 Military aircraft that are unable to accept a procedural SID are generally processed through visual departures.
 
 In IMC, fast jets may be assigned the **Thunder** (Runway 01) or **Lightning** (Runway 19) [coded clearance](#thunder-and-lightning)
