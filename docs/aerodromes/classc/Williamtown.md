@@ -78,7 +78,7 @@ If the pilot **does not** nominate a gate, or nominates a gate that does not pro
 | R586            | Gates 1-3           |
 
 !!! tip
-    [Coordination requirements](#acd-to-wlm-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU before providing clearance
+    [Coordination requirements](#acd-to-wlm-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU before providing clearance.
 
 ### Special Use Airspace
 #### Salt Ash SUA
@@ -98,7 +98,7 @@ The restricted area can be activated in two configurations according to the requ
 
 When the R596 restricted area is active all airspace within the SUA is managed by **WAL**, and the [ATIS should be updated](#sua-activations) to reflect the activation.
 
-Aircraft departing YWLM for the [Salt Ash Air Weapons Range (R596)] should be cleared the **SALT ASH** departure, in lieu of a SID. On this departure, aircraft will maintain runway heading until turning between 2 TAC and 7.5 TAC WLM to enter the restricted area.
+Aircraft departing YWLM for the Salt Ash Air Weapons Range (R596) should be cleared the **SALT ASH** departure, in lieu of a SID. On this departure, aircraft will maintain runway heading until turning between 2 TAC and 7.5 TAC WLM to enter the restricted area.
 
 !!! phraseology
     *RPLC15 plans to enter the M581 MOA via Gate 7 for military training and airwork.*  
@@ -121,7 +121,7 @@ When the R596 restricted area is active, aircraft planned via **UBSON** and depa
 ### Military Aircraft
 Military aircraft planned for **Gate 1 and Gate 2** shall be assigned the **PEPPER** SID.
 
-Military aircraft planned for **Gates 3-7**, or for the western training areas, shall be assigned the **CLASSIC** SID. Aircraft planned for the western training areas will additionally be cleared via the **STORM** [coded clearance](#coded-clearances)
+Military aircraft planned for **Gates 3-7**, or for the western training areas, shall be assigned the **CLASSIC** SID. Aircraft planned for the western training areas will additionally be cleared via the **STORM** [coded clearance](#coded-clearances).
 
 Military Aircraft planned for the **[Salt Ash Air Weapons Range](#salt-ash-sua)** shall be assigned a **SALT ASH** departure.
 
