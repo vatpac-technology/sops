@@ -326,7 +326,7 @@ The circuit height is `A015`.
 | 25     | Right     |
 
 ## SID Selection
-#### Civil Aircraft
+### Civil Aircraft
 Aircraft planned via **AKROM**, **ANRUB**, **CARMN**, **CATEY**, **JEMMA**, **PEWEE** and **WALTA** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a procedural SID.
 
 **RNP (0.3)** approved operators planned via **JEMMA** and departing Runway 19 shall be assigned the **KVALM** procedural SID.
@@ -341,13 +341,13 @@ Aircraft that are unable to accept a procedural SID terminating on their route s
 
 Light and **non-RNAV** aircraft shall be assigned a visual departure.
 
-#### Military aircraft
+#### CATEY Departures
+When the [R738A restricted area](../../../terminal/Townsville/r738a-h-townsville-land) is active, aircraft planned via **CATEY** shall be assigned the **ANRUB** (if southbound) or **CARMN** (if northbound) SID.
+
+### Military aircraft
 Military aircraft that are unable to accept a procedural SID are generally processed through visual departures.
 
 In IMC, fast jets may be assigned the **Thunder** (Runway 01) or **Lightning** (Runway 19) [coded clearance](#thunder-and-lightning)
-
-#### CATEY Departures
-When the [R738A restricted area](../../../terminal/Townsville/r738a-h-townsville-land) is active, aircraft planned via **CATEY** shall be assigned the **ANRUB** (if southbound) or **CARMN** (if northbound) SID.
 
 ## Coordination
 ### Auto Release  
