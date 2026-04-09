@@ -43,7 +43,7 @@ RJTG - Fukuoka Oceanic
 | NTTT - Tahiti Oceanic  |  Tahiti Radio | 9.116 (125.500) |  NTTT_FSS |
 | RJTG -  Fukuoka Oceanic |  Toyko | 2.932 (126.700) |  RJTG_FSS |
 
-[Indian (IND)](Positions/IND) and [Tasman (TSN)](Positions/TSN) have their own detailed Local Instructions. Refer to the links for more information.
+[Indian (IND)](IND/) and [Tasman (TSN)](TSN/) have their own detailed Local Instructions. Refer to the links for more information.
 
 !!! Note 
     KZAK oceanic positions may be further subdivided by the shift supervisor, in which case the subsector shall add a numeral to the callsign. For example, ZAK_1_FSS. It is discouraged to only control a portion of KZAK in non-event periods. For more information on KZAK procedures, head to their SOPs [here.](https://oakartcc.org/controllers/procedures){target=new}
