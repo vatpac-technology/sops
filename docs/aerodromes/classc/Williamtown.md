@@ -25,11 +25,11 @@ WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A015`).
 </figure>
 
 ### Restricted Area Activations
-There are no [restricted areas or MOAs](../../controller-skills/sua) activated by default when WLM ADC is online.
+There are no [restricted areas or MOAs](../../../controller-skills/sua) activated by default when WLM ADC is online.
 
 ## Local Procedures
 ### Initial and Pitch
-The [intial points](../../controller-skills/military/#initial-and-pitch) are aligned with Taxiway A at the following locations.
+The [intial points](../../../controller-skills/military/#initial-and-pitch) are aligned with Taxiway A at the following locations.
 
 | RWY  | Initial Point | Altitude |
 | ---- | ------------- | --------------------------- |
@@ -37,7 +37,7 @@ The [intial points](../../controller-skills/military/#initial-and-pitch) are ali
 | 30   | Intersection of the coast and extended Taxiway A centreline | `A025`<br>(`A020` for PC21) |
 
 ### Coded Clearances
-Aircraft departing to the western training areas should be cleared the **STORM 1** coded clearance, in addition to the [appropriate SID](#sid-selection). The **STORM 1** coded clearance gives aircraft permission to transit via the **[Thunder Corridor](../../terminal/williamtown/#thunder-corridor)**, a [military corridor](../../controller-skills/military/#military-corridors) that connects the WLM TCU to the R560 amd R570 restricted areas.
+Aircraft departing to the western training areas should be cleared the **STORM 1** coded clearance, in addition to the [appropriate SID](#sid-selection). The **STORM 1** coded clearance gives aircraft permission to transit via the **[Thunder Corridor](../../terminal/williamtown/#thunder-corridor)**, a [military corridor](../../../controller-skills/military/#military-corridors) that connects the WLM TCU to the R560 amd R570 restricted areas.
 
 [Coordination](#acd-to-wlm-tcu) may be required with WLM TCU prior to issuing clearance to an aircraft intending to operate in an SUA.
 
@@ -49,7 +49,7 @@ Aircraft departing to the western training areas should be cleared the **STORM 1
     ACD shall write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
 
 #### Military Gates
-There are numerous [military gates](../../controller-skills/military/#military-gates) established throughout the WLM TCU to facilitate entry and exit to adjoining SUA.
+There are numerous [military gates](../../../controller-skills/military/#military-gates) established throughout the WLM TCU to facilitate entry and exit to adjoining SUA.
 
 <figure markdown>
 ![WLM SUA Gates](../../terminal/img/wlm_mil_gates.png){ width="700" }
@@ -82,7 +82,7 @@ If the pilot **does not** nominate a gate, or nominates a gate that does not pro
 
 ### Special Use Airspace
 #### Salt Ash SUA
-The Salt Ash Air Weapons Range is located within the WLM MIL CTR, and is used for air-surface gunnery and bombing practice. It is entirely contained within the R596 [restricted area](../../controller-skills/sua/#restricted-areas).
+The Salt Ash Air Weapons Range is located within the WLM MIL CTR, and is used for air-surface gunnery and bombing practice. It is entirely contained within the R596 [restricted area](../../../controller-skills/sua/#restricted-areas).
 
 <figure markdown>
 ![The Salt Ash Weapons Range](../../terminal/img/wlm_salt_ash.png){ width="700" }
@@ -129,7 +129,7 @@ All other military aircraft, including military aircraft that are unable to fly 
 
 ## ATIS
 ### Approach Types
-During high levels of military traffic, **WAL** may nominate [stereo approaches](../../military/#stereo-approaches) as the preferred approach type.
+During high levels of military traffic, **WAL** may nominate [stereo approaches](../../../military/#stereo-approaches) as the preferred approach type.
 
 | Condition         | ATIS APCH field |
 | ----------------- | --------------- |
@@ -146,7 +146,7 @@ The Operational Information field should be updated when either of the [Salt Ash
 
 ## Coordination
 ### Auto Release
-[Next](../../controller-skills/coordination/#next) coordination is **not** required from WLM ADC to WLM TCU for aircraft that are:  
+[Next](../../../controller-skills/coordination/#next) coordination is **not** required from WLM ADC to WLM TCU for aircraft that are:  
 
 - Departing from a runway nominated in the ATIS; and  
 - Assigned the standard assignable level; and 
@@ -159,7 +159,7 @@ The Standard Assignable level from WLM ADC to WLM TCU is:
 | All | The lower of `F120` and `RFL` |
     
 ### ACD to WLM TCU
-The controller assuming responsibility of **ACD** shall give [heads-up](../../controller-skills/coordination/#airways-clearance) coordination to WAL (or the enroute controller responsible for the WLM TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
+The controller assuming responsibility of **ACD** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to WAL (or the enroute controller responsible for the WLM TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
 
 !!! phraseology
     <span class="hotline">**WLM ACD** -> **WAL**</span>: "PTHR11 requests clearance to R570 via Thunder corridor.”  

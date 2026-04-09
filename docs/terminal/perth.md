@@ -148,6 +148,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **SOLUS A**    | 11^    | 12     | 14     | 12^    |
     | **SOLUS V**    | 10^    | 11^    | -      | -      |
     | **SOLUS X**    | 10^    | -      | -      | -      |
+    | **No STAR - Vectors to IAF**<br>*Feeder Fix: OLMAM* | <br>9\^ | <br>10\^ | <br>13 | <br>14 |
 
 === "DH8D"
     | STAR       | RWY 03 | RWY 06 | RWY 21 | RWY 24 |
@@ -165,6 +166,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **SOLUS A**    | 11^    | 12     | 14     | 12^    |
     | **SOLUS V**    | 10^    | 11^    | -      | -      |
     | **SOLUS X**    | 10^    | -      | -      | -      |
+    | **No STAR - Vectors to IAF**<br>*Feeder Fix: OLMAM* | <br>9\^ | <br>10\^ | <br>13 | <br>14 |
 
 === "Non-Jets"
     | STAR       | RWY 03 | RWY 06 | RWY 21 | RWY 24 |
@@ -182,6 +184,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **SOLUS A**    | 12^    | 14     | 16     | 14^    |
     | **SOLUS V**    | 12^    | 13^    | -      | -      |
     | **SOLUS X**    | 11^    | -      | -      | -      |
+    | **No STAR - Vectors to IAF**<br>*Feeder Fix: OLMAM* | <br>11\^ | <br>12\^ | <br>14 | <br>16 |
 
 #### Corrections
 
@@ -196,6 +199,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     - The feeder fix for the IPMOR STAR is **KAGMI**
 - Aircraft on the SOLUS STAR to RWY 21/24 will be vectored from MOCUR to the IAF for ILS
 - Aircraft on the IPMOR STAR to RWY 24 will be vectored from WOOFY to the IAF for the ILS
+- Aircraft for RWY 21 via the OLMAM feeder fix will be processed via **WOOFY** for the ILS (via the 9nm arc)
 
 ### Calculator
 <script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
