@@ -29,7 +29,7 @@ There are no [restricted areas or MOAs](../../../controller-skills/sua) activate
 
 ## Manoeuvring Area
 ### Manoeuvring Area Responsibility
-ADC is responsible for all runways as well as [**Helipad B** and **Helipad F**](#helipads).
+ADC is responsible for all runways as well as [**Helipad B** and **Helipad F**](#helipads) when not released to SMC.
 
 <figure markdown>
 ![YBTL Manoeuvring Area Responsibility](img/ybtlsmcown.png){ width="500" }
@@ -37,7 +37,7 @@ ADC is responsible for all runways as well as [**Helipad B** and **Helipad F**](
 </figure>
 
 !!! note
-    Despite being located on a taxiway, **Helipad F** is treated as a runway. All aircraft need explicit clearance to cross the helipad holding points when taxiing on Taxiway A.
+    **Helipad F** is released to SMC by default. ADC must [coordinate](#adc-to-smc) with SMC prior to issuing a landing clearance to any helicopter intending to use Helipad F.
 	
 **Runway 07/25** is located close to, but does not intersect with, Runway 01/19. Aircraft landing on **Runway 07** must receive explicit clearance to cross Runway 01/19, via Taxiway D3.
 	
@@ -201,13 +201,20 @@ When Runway 01 is in use, the Thornton North VFR route is generally used for dep
 
 ## Helicopter Operations
 ### Helipads
-There are two helipads at YBTL: **Helipad F**, located at the intersection of Taxiways B and F; and **Helipad B**, located north of Taxiway B. Both helipads are part of the manoeuvring area and controlled by TL ADC. Any helicopter taking off or landing on the helipads require a specific takeoff or landing clearance from ADC.
+There are two helipads at YBTL: 
+
+- **Helipad F** (at the intersection of Taxiways B and F)
+- **Helipad B** (north of Taxiway B abeam the HELO apron)
+
+Both helipads are part of the manoeuvring area and controlled by TL ADC. Any helicopter taking off or landing on the helipads require a specific takeoff or landing clearance from ADC.
 
 !!! phraseology 
     **TL ADC**: "FTBY21, helipad F, cleared to land"  
+
+By default, **Helipad F** is released to SMC. ADC must [coordinate](#adc-to-smc) with SMC prior to issuing a landing clearance to ensure all taxiing aircraft remain clear of the pad.
     
 ### Departures
-VFR helicopters are generally processed via an [VFR route](#vfr-routes). IFR helicopters should conform to fixed wing operations and be processed via the [appropriate radar SID](#sid-selection) from a duty runway, unless a visual departure is acceptable.
+VFR helicopters are generally processed via a [VFR route](#vfr-routes). IFR helicopters should conform to fixed wing operations and be processed via the [appropriate radar SID](#sid-selection) from a duty runway, unless a visual departure is acceptable.
 
 ### Arrivals
 VFR helicopters are generally processed via a [VFR route](#vfr-routes). IFR helicopters should conform to fixed wing operationss and be processed via an appropriate runway.
@@ -374,8 +381,34 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
 The controller assuming responsibility of **ACD** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to TLA (or the enroute controller responsible for the TL TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
 
 !!! phraseology
-    <span class="hotline">**TL ACD** -> **TLA**</span>: "PSSM31 requests clearance to M742”  
+    <span class="hotline">**TL ACD** -> **TLA**</span>: "PSSM31 requests clearance to M742"  
     <span class="hotline">**TLA** -> **TL ACD**</span>: "PSSM31, clearance approved."  
+
+### ADC to SMC
+**Helipad F** is released to SMC by default. ADC must cancel the release *prior* to issuing a landing clearance to any helicopters intending to use the pad.
+
+!!! tip
+    Helipad F is not selectable through the OzStrips runway release/crossing system. A manual bar should be added to the **Runway Bay** to denote the status of Helipad F.
+
+    <figure markdown>
+    ![Helipad F Release](img/ybtlhelipadrelease.png){ width="280" }
+    </figure>
+
+!!! phraseology
+    <span class="hotline">**ADC** -> **SMC**</span>: "Cancel release of Helipad F"  
+    <span class="hotline">**SMC** -> **ADC**</span>: "Helipad F, no traffic" 
+
+ADC shall endeavour to release the helipad to SMC as soon as possible, to minimise the disruption to taxiing aircraft.
+
+!!! phraseology
+    <span class="hotline">**ADC** -> **SMC**</span>: "Helipad F released to Ground"  
+    <span class="hotline">**SMC** -> **ADC**</span>: "Helipad F released to Ground" 
+
+Whilst the helipad is being controlled by ADC, SMC must coordinate each aircraft to cross the pad on Taxiway A.
+
+!!! phraseology
+    <span class="hotline">**ADC** -> **SMC**</span>: "737 on A to cross Helipad F"  
+    <span class="hotline">**SMC** -> **ADC**</span>: "737 on A cross Helipad F" 
     
 ## Charts
 !!! abstract "Reference"
