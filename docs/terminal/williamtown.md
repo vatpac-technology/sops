@@ -181,7 +181,7 @@ The restricted area can be activated in two configurations according to the requ
 When the R596 restricted area is active all airspace within the SUA is managed by **WAL**, and the [ATIS should be updated](../../aerodromes/classc/Williamtown/#sua-activations) to reflect the activation.
 
 ### Stereo Approaches
-In times of heavy military traffic, WLM TCU may choose to nominate [stereo approaches](../controller-skills/military/#stereo-approaches) as the preferred approach method. When stereo approaches have been nominated, the ATIS [APCH EXP field must be updated](../../aerodromes/classc/Williamtown/#approach-types) accordingly.
+In times of heavy military traffic, WLM TCU may choose to nominate [stereo approaches](../../controller-skills/military/#stereo-approaches) as the preferred approach method. When stereo approaches have been nominated, the ATIS [APCH EXP field must be updated](../../aerodromes/classc/Williamtown/#approach-types) accordingly.
 
 Aircraft arriving from Gates 1-4 and 6 will join the stereo approach at the gate; other aircraft may start the approach from overhead WLM TAC.
 
@@ -247,17 +247,17 @@ The following calculator will generate a landing time from a feeder fix ETA, or 
     <div class="flowCalculatorFeederFixTime" data-aerodrome="YWLM"></div>
 
 ## Coordination
-### ARL(All)
+### Enroute
 #### Departures
 Voiceless for all aircraft:
 
 - Tracking via a Procedural SID terminus; and  
-- Assigned the lower of `F120` or the `RFL`
+- Assigned the lower of `F120` or the `RFL`.
 
 !!! note
-    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**.
 
-All other aircraft going to ARL CTA must be **Heads-up** Coordinated by WLM TCU prior to the boundary.
+All other aircraft going to ARL CTA must be **Heads-up** coordinated by WLM TCU prior to the boundary.
 
 !!! phraseology
     <span class="hotline">**WAH** -> **MLD**</span>: "QJE1597, request DCT OMGAB"  
@@ -270,14 +270,14 @@ Voiceless for all aircraft:
 - Assigned a STAR; and  
 - Assigned `A090`
 
-All other aircraft coming from ARL CTA will be **Heads-up** Coordinated to WLM TCU.
+All other aircraft coming from ARL CTA will be **Heads-up** coordinated to WLM TCU.
 
 ### WLM ADC
 #### Airspace
 WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A015`).
 
 #### Departures
-[Next](../controller-skills/coordination.md#next) coordination is **not** required from WLM ADC to WLM TCU for aircraft that are:  
+[Next](../../controller-skills/coordination/#next) coordination is **not** required from WLM ADC to WLM TCU for aircraft that are:  
 
 - Departing from a runway nominated in the ATIS; and  
 - Assigned the standard assignable level; and 
@@ -292,7 +292,7 @@ The Standard Assignable level from WLM ADC to WLM TCU is:
 | All | The lower of `F120` and `RFL` | 
     
 #### ACD to WLM TCU
-The controller assuming responsibility of **ACD** shall give [heads-up](../controller-skills/coordination/#airways-clearance) coordination to WAL (or the enroute controller responsible for the WLM TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
+The controller assuming responsibility of **ACD** shall give [heads-up](../../controller-skills/coordination/#airways-clearance) coordination to WAL (or the enroute controller responsible for the WLM TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
 
 !!! phraseology
     <span class="hotline">**WLM ACD** -> **WAL**</span>: "PTHR11 requests clearance to R570 via Thunder corridor.”  

@@ -81,7 +81,7 @@ When there is no conflicting traffic, aircraft can be cleared to track directly 
 
 ## Separation
 ### Surveillance
-Surveillance coverage can be expected to be available at all levels in the WR CTR. Although WR ADC is **not permitted** to use surveillance for separation, ASP(WRA) may assist by establishing surveillance separation standards via coordination
+Surveillance coverage can be expected to be available at all levels in the WR CTR. Although WR ADC is **not permitted** to use surveillance for separation, ASP(WRA) may assist by establishing surveillance separation standards via coordination.
 
 ## Coordination
 ### Departures
@@ -95,7 +95,7 @@ Aircraft leaving WR ADC airspace both **laterally** and **vertically** will ente
     <span class="hotline">**WR ADC** -> **WRA**</span>: "`F240`, LYBD11."  
 
     **WR ADC**: "LYBD11, leave and re-enter controlled airspace on climb to `F240`, no reported IFR traffic"  
-    **LYBD11**: "Leave and re-enter controlled airspace on climb to `F240`, LYBD11"
+    **LYBD11**: "Leave and re-enter controlled airspace on climb to `F240`, LYBD11"  
  
 ### Arrivals/Overfliers
 As with departures, there is no inherent requirement for ASP(WRA) to coordinate arrivals or overfliers with WR ADC. However, it is good practice for ASP(WRA) to provide [heads-up](../../controller-skills/coordination/#heads-up) coordination for aircraft arriving into directly into WR ADC airspace.
