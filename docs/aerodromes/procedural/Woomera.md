@@ -28,7 +28,7 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 When **WR ADC** is online, the **R222F** restricted area `SFC` to `F120` is [activated](../../../sua/#activation-of-sua) by default.
 
 #### SUA in Enroute Airspace
-Military operations taking place in SUA in enroute airspace are outside the jurisdiction of TL TCU.
+Military operations taking place in SUA in enroute airspace are outside the jurisdiction of WR ADC.
 
 WR ADC must give **heads up** coordination to relevant enroute controllers before providing airways clearance to an aircraft intending to operate in a currently inactive SUA.
 
