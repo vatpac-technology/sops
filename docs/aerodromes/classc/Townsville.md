@@ -232,6 +232,8 @@ Within the Townsville CTR there are half a dozen HLS's, including Townsville Hos
   <figcaption>HLS in TL ADC Airspace</figcaption>
 </figure>
 
+These pads sit outside the manoeuvring area, so no takeoff or landing clearances should be issued. Instead, helicopters should be instructed to report airborne or report on the ground.
+
 ### Operating Areas
 There are multiple defined operating areas within the TL MIL CTR to facilitate helicopter operations.
 
