@@ -89,7 +89,7 @@ SUA may also be activated by controllers **upon request** of an aircraft perform
     
     Where a requested airspace release would impact a large number of pilots, consider working with the aircraft to establish a mutually beneficial solution. The full extent of the requested airspace can be released at a later time when the traffic picture allows.
     
-Controllers shall ensure that SUA activation is limited to the **smallest extent necessary** to enable the requested operations while ensuring adequate [separation](#separation) with non-participating aircraft.
+Controllers shall ensure that SUA activation is limited to the **smallest extent necessary** to enable the requested operations while ensuring adequate [separation](#separation-from-sua) with non-participating aircraft.
 
 !!! warning "Important"
     Activation of SUA in excess of operational requirements, or when there is no active/planned operations at all, is unreasonable and not permitted.
@@ -141,4 +141,3 @@ Vertical limits of an SUA activation should include a buffer of at least 1000ft 
 
 !!! example
     A military exercise is planned in the R225J restricted area, involving abrupt vertical manoeuvres from `SFC` to `F196`. ASP applies a buffer of 1000ft to the upper limit of the exercise, and activates the restricted area from`SFC-F210`.
-

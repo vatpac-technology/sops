@@ -35,7 +35,7 @@ PE ADC owns the airspace within the Pearce CIRA (**5nm** Radius of YPEA ARP, loc
 Additional airspace may be released by NOTAM, or coordinated between PEA, PH TCU, and LEA/PIY to facilitate military operations.
 
 !!! phraseology
-    <span class="hotline">**PEA** -> **PH TCU**</span>: "Request release of M166, SFC to F160, for Military Operations. My onwards with LEA"   
+    <span class="hotline">**PEA** -> **PH TCU**</span>: "Request release of M166, SFC to F160, for Military Operations. [My onwards](../../controller-skills/coordination/#onwards-coordination) with LEA"   
     <span class="hotline">**PH TCU** -> **PEA**</span>: "M166, SFC to F160, released to you. Your onwards with LEA"  
 
     <span class="hotline">**PEA** -> **LEA**</span>: "Request release of M166, SFC to F160, for Military Operations. My onwards with PH TCU"   
@@ -44,10 +44,10 @@ Additional airspace may be released by NOTAM, or coordinated between PEA, PH TCU
 ## Coordination
 ### Enroute
 #### Departures
-All aircraft from PE TCU to HYD require [Heads-up](../controller-skills/coordination.md#heads-up) coordination prior to the boundary, however, as soon as practical (when is the aircraft becomes airborne) is preferred. 
+All aircraft from PE TCU to HYD require [Heads-up](../../controller-skills/coordination/#heads-up) coordination prior to the boundary, however, as soon as practical (when is the aircraft becomes airborne) is preferred. 
 
 #### Arrivals/Overfliers
-All aircraft transiting from HYD to **PE TCU** must be [Heads-up](../controller-skills/coordination.md#heads-up) coordinated prior to **20nm** from the boundary. There are no standard assignable levels; HYD and **PEA** controller must agree on a suitable level during coordination.
+All aircraft transiting from HYD to **PE TCU** must be [Heads-up](../../controller-skills/coordination/#heads-up) coordinated prior to **20nm** from the boundary. There are no standard assignable levels; HYD and **PEA** controller must agree on a suitable level during coordination.
 
 !!! phraseology
     <span class="hotline">**LEA** -> **PEA**</span>: "via AVNEX, EGLE9, will be assigned A090"  
@@ -55,7 +55,7 @@ All aircraft transiting from HYD to **PE TCU** must be [Heads-up](../controller-
 
 
 ### PE ADC
-[Next](../controller-skills/coordination.md#next) coordination is required from PE ADC to PE TCU for all aircraft.
+[Next](../../controller-skills/coordination/#next) coordination is required from PE ADC to PE TCU for all aircraft.
 
 The Standard Assignable Level from **PE ADC** to **PE TCU** is:
 

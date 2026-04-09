@@ -1,113 +1,135 @@
-*[STAR]: Standard Terminal Arrival Route
-*[SID]: Standard Instrument Departure
-*[VFR]: Visual Flight Rules
-*[IFR]: Instrument Flight Rules
-*[RNAV]: Area Navigation
-*[GNSS]: Global Navigation Satellite System
-*[RNP]: Required Navigation Performance
-*[DGA]: DME or GNSS Arrival
-*[ANR]: Air Navigation Register   
-*[ATS]: Air Traffic Services
-*[TMA]: Terminal Manoeuvring Area
-*[FIR]: Flight Information Region
-*[SSR]: Secondary Surveillance Radar
-*[LL]: Lower Level
-*[SOPs]: Standard Operating Procedures
-*[FSS]: Flight Service Station
-*[AIP]: Aeronautical Information Publication
-*[PRM]: Precision Runway Monitoring
-*[SODPROPS]: Simultaneous Opposite Direction Parallel Runway Operations
-*[PROPS]: Parallel Runway Operations
-*[RRO]: Reciprocal Runway Operations
-*[SMC]: Surface Movement Control (Ground Controller)
-*[ADC]: Aerodrome Control (Tower Controller)
-*[TCU]: Terminal Control Unit (Approach Controller)
-*[DIR]: Director (Sydney)
-*[IVA]: Independent Visual Approach
-*[IAP]: Instrument Approach
-*[CFL]: Cleared Flight Level
-*[FDR]: Flight Data Record
-*[RFL]: Requested Flight Level
-*[AGL]: Above Ground Level
-*[ADES]: Destination Aerodrome
-*[ADEP]: Departure Aerodrome
-*[LOC]: Localiser
-*[ILS]: Instrument Landing System
-*[GLS]: GBAS Landing System
+*[A-CDM]: Airport Collaborative Decision Making
 *[ACD]: Airways Clearance Delivery
-*[ATIS]: Automatic Terminal Information Service
-*[NOTAM]: Notice to Air Missions
-*[CTA]: Controlled Airspace
-*[OCTA]: Outside Controlled Airspace
-*[HDS]: Hours of Daylight Savings
-*[CTR]: Control Zone
-*[NM]: Nautical Mile
-*[SFC]: Surface
-*[RVSM]: Reduced Vertical Separation Minima
-*[FDRs]: Flight Data Records
-*[DME]: Distance Measuring Equipment
-*[BRL]: Bearing-Range Line
-*[LAHSO]: Land and Hold Short Operations
+*[ADC]: Aerodrome Control (Tower Controller)
+*[ADEP]: Departure Aerodrome
+*[ADES]: Destination Aerodrome
 *[ADSB]: Automatic Dependant Surveillance - Broadcast
-*[FF]: Feeder Fix
-*[NAVCAP]: Navigation Capability
-*[TFMS]: The Flow Management System
-*[TAF]: Terminal Area Forecast
-*[DAP]: Departure and Approach Procedures (AIP)
-*[FIS]: Flight Information Service
-*[SIS]: Surveillance Information Service (Flight Following)
-*[ARP]: Aerodrome Reference Point
+*[AEWC]: Airborne Early Warning and Control
+*[AGL]: Above Ground Level
+*[AIP]: Aeronautical Information Publication
 *[ALA]: Aircraft Landing Area
+*[ANR]: Air Navigation Register   
+*[AOBT]: Actual Off Blocks Time
+*[ARP]: Aerodrome Reference Point
+*[ATIS]: Automatic Terminal Information Service
+*[ATOT]: Actual Off Blocks Time
+*[ATS]: Air Traffic Services
+*[ATZ]: Aerodrome Traffic Zone
+*[AUW]: All Up Weight
+*[BCTA]: Bottom of Controlled Airspace
+*[BRL]: Bearing-Range Line
+*[CFL]: Cleared Flight Level
+*[CIRA]: Circuit Area
+*[COBT]: Calculated Off Blocks Time
+*[CPDLC]: Controller-Pilot Datalink Communications
+*[CSR]: Cancel Speed Restrictions
+*[CTA]: Controlled Airspace
+*[CTOT]: Calculated Take Off Time
+*[CTR]: Control Zone
+*[DAP]: Departure and Approach Procedures (AIP)
 *[DER]: Departure End of Runway
-*[SVFR]: Special VFR
-*[MTOW]: Maximum Takeoff Weight
-*[SDC]: Standard Departure Clearance
+*[DGA]: DME or GNSS Arrival
+*[DIR]: Director (Sydney)
 *[DLE]: Delay En route
-*[AAW]: Adelaide Approach West
-*[AAE]: Adelaide Approach East
-*[AAR]: Adelaide Radar
-*[AMA]: Amberley Approach
-*[BAC]: Brisbane (Gold Coast) Approach
-*[BAN]: Brisbane Approach North
-*[BAS]: Brisbane Approach South
-*[BDN]: Brisbane Departures North
-*[BDS]: Brisbane Departures South
-*[SHN]: Brisbane (Sunshine) Radar
-*[CS1]: Cairns Approach 1
-*[CS2]: Cairns Approach 2
-*[CSA]: Cairns Approach
-*[CSD]: Cairns Departures
-*[CBW]: Canberra Approach West
-*[CBE]: Canberra Approach East
-*[CIA]: Curtin Approach
-*[DAW]: Darwin Approach West
-*[DAE]: Darwin Approach East
-*[ESA]: Sale Approach
-*[HBA]: Hobart Approach
-*[LMA]: Learmonth Approach
-*[LTA]: Launceston Approach
-*[MKA]: Mackay Approach
-*[RKA]: Rockhampton Approach
-*[MAE]: Melbourne Approach East
-*[MDN]: Melbourne Departures North
-*[MDS]: Melbourne Departures South
-*[MAV]: Melbourne (Avalon) Approach
-*[MAW]: Melbourne Radar
-*[OKA]: Oakey Approach
-*[PHA]: Perth Approach
-*[PHD]: Perth Departures
-*[PHR]: Perth Radar
-*[SAN]: Sydney Approach North
-*[SAS]: Sydney Approach South
-*[SDN]: Sydney Departures North
-*[SDS]: Sydney Departures South
-*[SFW]: Sydney Director West
-*[SFE]: Sydney Director East
-*[SRI]: Sydney Radar
-*[SGA]: Scherger Approach
-*[TNA]: Tindal Approach
-*[WAH]: Williamtown Approach (High)
-*[WAL]: Williamtown Approach (Low)
+*[DME]: Distance Measuring Equipment
+*[DR]: Dead Reckoning
+*[ELC]: Enters Lateral Conflict
+*[EOBT]: Estimated Off Blocks Time
+*[EVA]: Expect Visual Approach
+*[FAF]: Final Approach Fix
+*[FDR]: Flight Data Record
+*[FDRs]: Flight Data Records
+*[FF]: Feeder Fix
+*[FIR]: Flight Information Region
+*[FIS]: Flight Information Service
+*[FPR]: Flight Planned Route
+*[FSS]: Flight Service Station
+*[GLS]: GBAS Landing System
+*[GNSS]: Global Navigation Satellite System
+*[HDS]: Hours of Daylight Savings
+*[HLS]: Helicopter Landing Site
+*[Hi-Key]: The point at which a aircraft starts a practice forced landing or flameout practice
+*[IAP]: Instrument Approach
+*[IAS]: Indicated Airspeed
+*[IFR]: Instrument Flight Rules
+*[ILS]: Instrument Landing System
+*[IP]: Initial Point
+*[IVA]: Independent Visual Approach
+*[LAHSO]: Land and Hold Short Operations
+*[LDA]: Landing Distance Available
+*[LLC]: Leaves Lateral Conflict
+*[LL]: Lower Level
+*[LOC]: Localiser
+*[LSALT]: Lowest Safe Altitude
+*[LSALT]: Lowest Safe Altitude
+*[MARSA]: Military Authority Assumes Responsibility for Separation of Military Aircraft
+*[MSA]: Minimum Safe Altitude
+*[MTOW]: Maximum Takeoff Weight
+*[MVA]: Minimum Vectoring Altitude
+*[MX]: Maximum Speed
+*[NAVCAP]: Navigation Capability
+*[NDB]: Non-Directional Beacon
+*[NM]: Nautical Mile
+*[NOCOM]: Non-Continuous Communication
+*[NOTAM]: Notice to Air Missions
+*[OCTA]: Outside Controlled Airspace
+*[PJE]: Parachute Jump Exercise (Parachute Operations)
+*[PRM]: Precision Runway Monitoring
+*[PROPS]: Parallel Runway Operations
+*[RAAF]: Royal Australian Air Force
+*[RFL]: Requested Flight Level
+*[RNAV]: Area Navigation
+*[RNP]: Required Navigation Performance
+*[RRO]: Reciprocal Runway Operations
+*[RTB]: Return To Base
+*[RTCC]: Radar Terrain Clearance Chart
+*[RVSM]: Reduced Vertical Separation Minima
+*[SAR]: Search and Rescue
+*[SDC]: Standard Departure Clearance
+*[SFC]: Surface
+*[SID]: Standard Instrument Departure
+*[SIS]: Surveillance Information Service (Flight Following)
+*[SMC]: Surface Movement Control (Ground Controller)
+*[SODPROPS]: Simultaneous Opposite Direction Parallel Runway Operations
+*[SOPs]: Standard Operating Procedures
+*[SSR]: Secondary Surveillance Radar
+*[STAR]: Standard Terminal Arrival Route
+*[SUA]: Special Use Airspace
+*[SVFR]: Special VFR
+*[SVY]: Aerial Survey
+*[TACAN]: Tactical Air Navigation System
+*[TAC]: Tactical Air Navigation System (TACAN)
+*[TAF]: Terminal Area Forecast
+*[TCU]: Terminal Control Unit (Approach Controller)
+*[TERMA]: Terminal Area Radar and Military Airspace
+*[TFMS]: The Flow Management System
+*[TMA]: Terminal Manoeuvring Area
+*[TOBT]: Tactical Off Blocks Time
+*[TORA]: Takeoff Run Available
+*[TRA]: Temporary Reserved Airspace
+*[TSAT]: Tactical Start Approved Time
+*[VFR]: Visual Flight Rules
+*[VOR]: VHF Omni-directional Range
+*[VPT]: Visual Manoeuvre with Prescribed Track
+*[VSA]: Visual Straight-In Approach
+*[VSOA]: Virtual Special Operations Association
+*[AGGG]: Honiara FIR
+*[ANAU]: Nauru FIR
+*[AYPM]: Port Moresby FIR
+*[FAJO]: Johannesburg FIR
+*[FIMM]: Mauritius FIR
+*[KZAK]: Oakland FIR
+*[NFFF]: Nadi FIR
+*[NTTT]: Tahiti FIR
+*[NZCM]: McMurdo FIR
+*[NZZO]: Auckland FIR
+*[RJTG]: Fukuoka FIR
+*[VCCF]: Colombo FIR
+*[VRMF]: Male FIR
+*[WAAF]: Ujung Pandang FIR
+*[WIIF]: Jakarta FIR
+*[YBBB]: Brisbane FIR
+*[YMMM]: Melbourne FIR
 *[ARL]: Brisbane (Armidale) Centre
 *[INL]: Brisbane (Inverell) Centre
 *[ISA]: Brisbane (Mt Isa) Centre
@@ -180,6 +202,51 @@
 *[WOL]: Melbourne (Wollongong) Centre
 *[WON]: Melbourne (Wonthaggi) Centre
 *[WRA]: Melbourne (Woomera) Centre
+*[AAW]: Adelaide Approach West
+*[AAE]: Adelaide Approach East
+*[AAR]: Adelaide Radar
+*[AMA]: Amberley Approach
+*[BAC]: Brisbane (Gold Coast) Approach
+*[BAN]: Brisbane Approach North
+*[BAS]: Brisbane Approach South
+*[BDN]: Brisbane Departures North
+*[BDS]: Brisbane Departures South
+*[SHN]: Brisbane (Sunshine) Radar
+*[CS1]: Cairns Approach 1
+*[CS2]: Cairns Approach 2
+*[CSA]: Cairns Approach
+*[CSD]: Cairns Departures
+*[CBW]: Canberra Approach West
+*[CBE]: Canberra Approach East
+*[CIA]: Curtin Approach
+*[DAW]: Darwin Approach West
+*[DAE]: Darwin Approach East
+*[ESA]: Sale Approach
+*[HBA]: Hobart Approach
+*[LMA]: Learmonth Approach
+*[LTA]: Launceston Approach
+*[MKA]: Mackay Approach
+*[RKA]: Rockhampton Approach
+*[MAE]: Melbourne Approach East
+*[MDN]: Melbourne Departures North
+*[MDS]: Melbourne Departures South
+*[MAV]: Melbourne (Avalon) Approach
+*[MAW]: Melbourne Radar
+*[OKA]: Oakey Approach
+*[PHA]: Perth Approach
+*[PHD]: Perth Departures
+*[PHR]: Perth Radar
+*[SAN]: Sydney Approach North
+*[SAS]: Sydney Approach South
+*[SDN]: Sydney Departures North
+*[SDS]: Sydney Departures South
+*[SFW]: Sydney Director West
+*[SFE]: Sydney Director East
+*[SRI]: Sydney Radar
+*[SGA]: Scherger Approach
+*[TNA]: Tindal Approach
+*[WAH]: Williamtown Approach (High)
+*[WAL]: Williamtown Approach (Low)
 *[SFL]: Sydney Flow
 *[MFL]: Melbourne Flow
 *[AFL]: Adelaide Flow
@@ -192,126 +259,8 @@
 *[AYMD]: Madang
 *[AYMH]: Mt Hagen
 *[AYTK]: Tokua
-*[GGO]: Goonoo Goonoo Station
-*[WBH]: Wallabadah
-*[NUN]: Nundle
-*[DGN]: Dungowan
-*[NEM]: Nemingha
-*[MAL]: Manilla
-*[GWT]: Gate West
-*[DUA]: Duri Gap
-*[GST]: Gate South
-*[LLC]: Leaves Lateral Conflict
-*[ELC]: Enters Lateral Conflict
-*[LSALT]: Lowest Safe Altitude
-*[VOR]: VHF Omni-directional Range
-*[NDB]: Non-Directional Beacon
-*[DR]: Dead Reckoning
-*[MSA]: Minimum Safe Altitude
-*[MVA]: Minimum Vectoring Altitude
-*[RTCC]: Radar Terrain Clearance Chart
-*[PJE]: Parachute Jump Exercise (Parachute Operations)
-*[SAR]: Search and Rescue
-*[SVY]: Aerial Survey
-*[BCTA]: Bottom of Controlled Airspace
-*[PAL]: Port Adelaide
-*[TWRN]: Two R N
-*[BRY]: Bringelly
-*[DSN]: Doncaster Shopping Town
-*[ADWD]: Adventure World
-*[TVT]: TV Towers
-*[SBD]: Story Bridge
-*[FREM]: Fremantle Golf Course
-*[YGB]: Yangebup Lake
-*[FDL]: Forestdale Lake
-*[SHOP]: Armadale Shops
-*[BOAT]: Boatyard
-*[POWR]: Powerhouse
-*[OAKF]: Oakford
-*[RUSS]: Russell
-*[CNB]: Canning Bridge
-*[SHOP]: Armadale Shops
-*[BTO]: Brighton
-*[BAW]: Baywest
-*[CARR]: Carrum
-*[GMH]: GMH (General Motors Holden)
-*[ACE]: Academy
-*[SHOL]: Shoal
-*[CWST]: Choppers West
-*[CNTH]: Choppers North
-*[CSTH]: Choppers South
-*[PSP]: Prospect Reservoir
-*[EDT]: Edmonton
-*[CGF]: Cape Grafton
-*[ADI]: Admiralty Island
-*[BRY]: Bringelly
-*[MEG]: Menangle
-*[PIC]: Picton
-*[THK]: The Oaks
-*[MYF]: Mayfield
-*[KAO]: Kalkallo
-*[YYN]: Yan Yean Reservoir
-*[APL]: Albert Park Lake
-*[SNP]: Station Pier
-*[WES]: West Gate Bridge
-*[MCG]: Melbourne Cricket Ground
-*[MVC]: Moonee Valley Racecourse
-*[FGN]: Flemington
-*[CBV]: Craigbourne Reservoir
-*[CPA]: Campania
-*[RCH]: Richmond
-*[RADT]: Radio Telescope
-*[SORL]: Sorell
-*[DLY]: Dunalley
-*[DRP]: Droughty Point
-*[LAUD]: Lauderdale
-*[CREM]: Cremorne
-*[BOWB]: Bowen Bridge
-*[SWT]: Sunbury Water Tank
-*[OHB]: Outer Harbor
-*[DMW]: Dam Wall
-*[CTE]: Cottesloe
-*[PCTY]: Perth City
-*[HKE]: Herdsman Lake
-*[JIBN]: Jibbon Point
-*[CUL]: Cronulla
-*[BTJ]: Brighton Jetty
-*[HNLY]: Henley Jetty
-*[GRB]: Georges River Bridge
-*[GON]: Goodna
-*[PKR]: Park Ridge Water Tower
-*[TAR]: Target
-*[CBRG]: Centenary Bridge
-*[WTBG]: Walter Taylor Bridge
-*[KCFF]: Kingscliff
-*[DNGR]: Point Danger
-*[IAS]: Indicated Airspeed
-*[PNL]: Port Noarlunga
-*[PWLC]: Powerline Crossing
-*[LUY]: Latrobe University
-*[WMS]: Williamstown
-*[NPBR]: Nepean Bridge
-*[KRMD]: Kurmond
-*[WSFR]: Wisemans Ferry
-*[YBBB]: Brisbane FIR
-*[YMMM]: Melbourne FIR
-*[NFFF]: Nadi FIR
-*[AGGG]: Honiara FIR
-*[ANAU]: Nauru FIR
-*[NZZO]: Auckland FIR
-*[NZCM]: McMurdo FIR
-*[KZAK]: Oakland FIR
-*[NTTT]: Tahiti FIR
-*[WAAF]: Ujung Pandang FIR
-*[WIIF]: Jakarta FIR
-*[VCCF]: Colombo FIR
-*[VRMF]: Male FIR
-*[FIMM]: Mauritius FIR
-*[FAJO]: Johannesburg FIR
-*[AYPM]: Port Moresby FIR
 *[NWWW]: Noumea Sector
 *[NVVV]: Port Vila Sector
-*[RJTG]: Fukuoka FIR
 *[NFFJ]: Nadi Control (Domestic)
 *[AYPYA]: Jacksons Radar
 *[AYNZA]: Nadzab Approach
@@ -319,76 +268,126 @@
 *[NVVVA]: Vila Tower (TCU)
 *[NFFNA]: Nadi Approach
 *[NFNAA]: Nausori Approach
-*[MX]: Maximum Speed
-*[CSR]: Cancel Speed Restrictions
-*[COBT]: Calculated Off Blocks Time
-*[Hi-Key]: The point at which a aircraft starts a practice forced landing or flameout practice
-*[EVA]: Expect Visual Approach
-*[TRA]: Temporary Reserved Airspace
-*[VSA]: Visual Straight-In Approach
-*[IP]: Initial Point
-*[TAC]: Tactical Air Navigation System (TACAN)
-*[TACAN]: Tactical Air Navigation System
-*[LSALT]: Lowest Safe Altitude
-*[FPR]: Flight Planned Route
-*[CIRA]: Circuit Area
-*[VPT]: Visual Manoeuvre with Prescribed Track
-*[ESL]: East Sale
-*[WSL]: West Sale
-*[RAAF]: Royal Australian Air Force
-*[TERMA]: Terminal Area Radar and Military Airspace
-*[SWTA]: South Western Training Area
-*[MTWK]: Mount Walker
-*[CLVT]: Calvert
-*[MNG]: Mangalore
-*[LTV]: Latrobe Valley
-*[AY]: Albury
-*[AV]: Avalon
-*[EN]: Essendon
-*[MB]: Moorabbin
-*[SUA]: Special Use Airspace
-*[CPDLC]: Controller-Pilot Datalink Communications
-*[LDA]: Landing Distance Available
-*[TORA]: Takeoff Run Available
-*[UQLD]: University of Queensland
-*[HLS]: Helicopter Landing Site
-*[BLHS]: Bald Hills
-*[MBHM]: Manly Boat Harbour
-*[MARSA]: Military Authority Assumes Responsibility for Separation of Military Aircraft
-*[NOCOM]: Non-Continuous Communication
-*[AEWC]: Airborne Early Warning and Control
-*[ATZ]: Aerodrome Traffic Zone
-*[NEN]: Nerang
-*[STOT]: Stotts Island
-*[HASS]: Hastings Point
-*[CIS]: Cook Island
-*[DNGR]: Point Danger
-*[BLGH]: Burleigh Heads
-*[ROTC]: Robina Town Centre
-*[CGD]: Cudgen Headland
-*[AUW]: All Up Weight
 *[MI NDB]: Momi
 *[VK NDB]: Navakai
+*[PAL]: Port Adelaide
+*[ACE]: Academy
+*[ADI]: Admiralty Island
+*[ADWD]: Adventure World
+*[APL]: Albert Park Lake
+*[AV]: Avalon
+*[AY]: Albury
+*[BAW]: Baywest
+*[BLGH]: Burleigh Heads
+*[BLHS]: Bald Hills
+*[BOAT]: Boatyard
+*[BOWB]: Bowen Bridge
+*[BRY]: Bringelly
+*[BTJ]: Brighton Jetty
+*[BTO]: Brighton
+*[CARR]: Carrum
+*[CBRG]: Centenary Bridge
+*[CBV]: Craigbourne Reservoir
 *[CGB]: Craigieburn Overpass
-*[EPPG]: Epping
-*[ROK]: Rockbank
-*[FWO]: Freeway Overpass
-*[A-CDM]: Airport Collaborative Decision Making
-*[EOBT]: Estimated Off Blocks Time
-*[TOBT]: Tactical Off Blocks Time
-*[TSAT]: Tactical Start Approved Time
-*[AOBT]: Actual Off Blocks Time
-*[CTOT]: Calculated Take Off TIme
-*[ATOT]: Actual Off Blocks Time
-*[OFTA]: Oakey Flying Training Area
-*[FTAs]: Flying Training Areas
-*[RTB]: Return To Base
-*[WSM]: West Arm
-*[TCH]: Talc Head
-*[WOW]: White Onion Water Tower
-*[LPT]: Lee Point
-*[ZIN]: Zuizin Island
-*[DRLD]: Dreamworld
+*[CGD]: Cudgen Headland
+*[CGF]: Cape Grafton
+*[CIS]: Cook Island
+*[CLVT]: Calvert
+*[CNB]: Canning Bridge
+*[CNTH]: Choppers North
 *[COTR]: Cotter
-*[VSOA]: Virtual Special Operations Association
-*[FAF]: Final Approach Fix
+*[CPA]: Campania
+*[CREM]: Cremorne
+*[CSTH]: Choppers South
+*[CTE]: Cottesloe
+*[CUL]: Cronulla
+*[CWST]: Choppers West
+*[DGN]: Dungowan
+*[DLY]: Dunalley
+*[DMW]: Dam Wall
+*[DNGR]: Point Danger
+*[DRLD]: Dreamworld
+*[DRP]: Droughty Point
+*[DSN]: Doncaster Shopping Town
+*[DUA]: Duri Gap
+*[EDT]: Edmonton
+*[EN]: Essendon
+*[EPPG]: Epping
+*[ESL]: East Sale
+*[FDL]: Forestdale Lake
+*[FGN]: Flemington
+*[FREM]: Fremantle Golf Course
+*[FTAs]: Flying Training Areas
+*[FWO]: Freeway Overpass
+*[GGO]: Goonoo Goonoo Station
+*[GMH]: GMH (General Motors Holden)
+*[GON]: Goodna
+*[GRB]: Georges River Bridge
+*[GST]: Gate South
+*[GWT]: Gate West
+*[HASS]: Hastings Point
+*[HKE]: Herdsman Lake
+*[HNLY]: Henley Jetty
+*[JIBN]: Jibbon Point
+*[KAO]: Kalkallo
+*[KCFF]: Kingscliff
+*[KRMD]: Kurmond
+*[LAUD]: Lauderdale
+*[LPT]: Lee Point
+*[LTV]: Latrobe Valley
+*[LUY]: Latrobe University
+*[MAL]: Manilla
+*[MBHM]: Manly Boat Harbour
+*[MB]: Moorabbin
+*[MCG]: Melbourne Cricket Ground
+*[MEG]: Menangle
+*[MNG]: Mangalore
+*[MTWK]: Mount Walker
+*[MVC]: Moonee Valley Racecourse
+*[MYF]: Mayfield
+*[NEM]: Nemingha
+*[NEN]: Nerang
+*[NPBR]: Nepean Bridge
+*[NUN]: Nundle
+*[OAKF]: Oakford
+*[OFTA]: Oakey Flying Training Area
+*[OHB]: Outer Harbor
+*[PCTY]: Perth City
+*[PIC]: Picton
+*[PKR]: Park Ridge Water Tower
+*[PNL]: Port Noarlunga
+*[POWR]: Powerhouse
+*[PSP]: Prospect Reservoir
+*[PWLC]: Powerline Crossing
+*[RADT]: Radio Telescope
+*[RCH]: Richmond
+*[ROK]: Rockbank
+*[ROTC]: Robina Town Centre
+*[RUSS]: Russell
+*[SBD]: Story Bridge
+*[SHOL]: Shoal
+*[SHOP]: Armadale Shops
+*[SNP]: Station Pier
+*[SORL]: Sorell
+*[STOT]: Stotts Island
+*[SWTA]: South Western Training Area
+*[SWT]: Sunbury Water Tank
+*[TAR]: Target
+*[TCH]: Talc Head
+*[THK]: The Oaks
+*[TVT]: TV Towers
+*[TWRN]: Two R N
+*[UQLD]: University of Queensland
+*[WBH]: Wallabadah
+*[WES]: West Gate Bridge
+*[WMS]: Williamstown
+*[WOW]: White Onion Water Tower
+*[WSFR]: Wisemans Ferry
+*[WSL]: West Sale
+*[WSM]: West Arm
+*[WTBG]: Walter Taylor Bridge
+*[YGB]: Yangebup Lake
+*[YYN]: Yan Yean Reservoir
+*[ZIN]: Zuizin Island
+
+

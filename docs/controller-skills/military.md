@@ -188,7 +188,7 @@ Clearing an aircraft for a stereo approach gives aircraft permission to descend 
     **CLAS11**: "Tindal Approach, CLAS11. `A090` visual, for stereo approach with information A"  
     **TNA**: "CLAS11, Tindal Approach, track via stereo approach, not below `A060`"  
     **CLAS11**: "Track via stereo approach, not below `A060`, CLAS11"  
-    
+
 Stereo approaches should generally be used during high military traffic levels, and nominated on the appropriate aerodrome ATIS.
 
 ### Restricted Area Operations in Civil Airspace
