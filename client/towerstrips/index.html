@@ -10107,7 +10107,7 @@
 <p>On long runways with readily available rapid exit taxiways (e.g. RWY 34L at YSSY), <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> may instruct landing aircraft to <em>'report taxiway B9 assured'</em> and upon receiving this confirmation, hotline <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> to approve the crossing of an aircraft further upwind of the runway exit.</p>
 </div>
 <h3 id="a-cdm"><abbr title="Airport Collaborative Decision Making">A-CDM</abbr></h3>
-<p>During events, or when traffic flow management procedures are warranted, CDM mode can be enabled for the aerodrome. A CDM Processor at each aerodrome keeps track of which stage of departure each aircraft is in. Active and Pushed aircraft are included within the <strong>Departure Queue</strong>, and will have a <abbr title="Tactical Start Approved Time">TSAT</abbr> and <abbr title="Calculated Take Off TIme">CTOT</abbr> time calculated for each aircraft.</p>
+<p>During events, or when traffic flow management procedures are warranted, CDM mode can be enabled for the aerodrome. A CDM Processor at each aerodrome keeps track of which stage of departure each aircraft is in. Active and Pushed aircraft are included within the <strong>Departure Queue</strong>, and will have a <abbr title="Tactical Start Approved Time">TSAT</abbr> and <abbr title="Calculated Take Off Time">CTOT</abbr> time calculated for each aircraft.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>The departure queue (as well as a range of statistics) is available on the <a href="https://cdm.maxrumsey.xyz/ops" target="new">Ops Dashboard</a>.</p>
@@ -10147,7 +10147,7 @@
 <tr>
 <td>Active</td>
 <td>Cleared Bay, below the queue bar</td>
-<td>Included within the departure queue, and will be issued a <abbr title="Tactical Start Approved Time">TSAT</abbr> and <abbr title="Calculated Take Off TIme">CTOT</abbr></td>
+<td>Included within the departure queue, and will be issued a <abbr title="Tactical Start Approved Time">TSAT</abbr> and <abbr title="Calculated Take Off Time">CTOT</abbr></td>
 </tr>
 <tr>
 <td>Pushed</td>
@@ -10206,7 +10206,7 @@
 <td>10:31z</td>
 </tr>
 <tr>
-<td><abbr title="Calculated Take Off TIme">CTOT</abbr></td>
+<td><abbr title="Calculated Take Off Time">CTOT</abbr></td>
 <td>Calculated Take Off TIme</td>
 <td>The time the CDM system allots for aircraft departure.</td>
 <td>10:45z</td>
@@ -10249,11 +10249,11 @@
 </table>
 <p>Controllers should follow the procedures detailed on the <a href="../../controller-skills/grounddelaymanagement/#processing-each-aircraft">Ground Delay Management</a> page.</p>
 <h4 id="cdm-processing">CDM Processing</h4>
-<p>CDM Processing refers to the process by which the departure order, <abbr title="Tactical Start Approved Time">TSAT</abbr> and <abbr title="Calculated Take Off TIme">CTOT</abbr> times are calculated for each aircraft. This occurs regularly at CDM enabled aerodromes, and after every CDM-relevant aircraft state change.</p>
-<p>The CDM Processor takes the list of active and pushed aircraft, as well as the set <strong>Departure Rate</strong>, determines a priority sorted list of aircraft, and allocates a <strong><abbr title="Calculated Take Off TIme">CTOT</abbr></strong> to each aircraft. <strong><abbr title="Calculated Take Off TIme">CTOT</abbr></strong> times will be spaced by the set <strong>Departure Rate</strong>. A <strong><abbr title="Tactical Start Approved Time">TSAT</abbr></strong> is calculated for each aircraft, based on the <strong><abbr title="Calculated Take Off TIme">CTOT</abbr></strong>. <strong><abbr title="Tactical Start Approved Time">TSAT</abbr></strong> times take into account the aircraft state, such that an aircraft will not be expected to pushback and depart within 5 minutes. <strong><abbr title="Calculated Take Off TIme">CTOT</abbr></strong> and <strong><abbr title="Tactical Start Approved Time">TSAT</abbr></strong> times are recalculated during each CDM Processing cycle, and can vary from the initial <strong><abbr title="Tactical Start Approved Time">TSAT</abbr></strong> issued.</p>
+<p>CDM Processing refers to the process by which the departure order, <abbr title="Tactical Start Approved Time">TSAT</abbr> and <abbr title="Calculated Take Off Time">CTOT</abbr> times are calculated for each aircraft. This occurs regularly at CDM enabled aerodromes, and after every CDM-relevant aircraft state change.</p>
+<p>The CDM Processor takes the list of active and pushed aircraft, as well as the set <strong>Departure Rate</strong>, determines a priority sorted list of aircraft, and allocates a <strong><abbr title="Calculated Take Off Time">CTOT</abbr></strong> to each aircraft. <strong><abbr title="Calculated Take Off Time">CTOT</abbr></strong> times will be spaced by the set <strong>Departure Rate</strong>. A <strong><abbr title="Tactical Start Approved Time">TSAT</abbr></strong> is calculated for each aircraft, based on the <strong><abbr title="Calculated Take Off Time">CTOT</abbr></strong>. <strong><abbr title="Tactical Start Approved Time">TSAT</abbr></strong> times take into account the aircraft state, such that an aircraft will not be expected to pushback and depart within 5 minutes. <strong><abbr title="Calculated Take Off Time">CTOT</abbr></strong> and <strong><abbr title="Tactical Start Approved Time">TSAT</abbr></strong> times are recalculated during each CDM Processing cycle, and can vary from the initial <strong><abbr title="Tactical Start Approved Time">TSAT</abbr></strong> issued.</p>
 <div class="admonition example">
 <p class="admonition-title">Example</p>
-<p>A planned <strong>Departure Rate</strong> of 30/hour is set, but the <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> controller actually maintains a rate of 40/hour. <strong><abbr title="Actual Off Blocks Time">AOBT</abbr></strong> and <strong><abbr title="Actual Off Blocks Time">ATOT</abbr></strong> will be earlier than the initial calculated <strong><abbr title="Tactical Start Approved Time">TSAT</abbr></strong> and <strong><abbr title="Calculated Take Off TIme">CTOT</abbr></strong>.</p>
+<p>A planned <strong>Departure Rate</strong> of 30/hour is set, but the <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> controller actually maintains a rate of 40/hour. <strong><abbr title="Actual Off Blocks Time">AOBT</abbr></strong> and <strong><abbr title="Actual Off Blocks Time">ATOT</abbr></strong> will be earlier than the initial calculated <strong><abbr title="Tactical Start Approved Time">TSAT</abbr></strong> and <strong><abbr title="Calculated Take Off Time">CTOT</abbr></strong>.</p>
 </div>
 <h4 id="departure-monitoring">Departure Monitoring</h4>
 <p>The <strong>Departure Rate</strong> is set based on conditions at the aerodrome, the amount of departures, the amount of arrivals, and amount of arrivals the destination aerodromes can accept. For the <abbr title="Airport Collaborative Decision Making">A-CDM</abbr> system to work effectively, <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> must monitor the amount of depatures they release, and ensure this actual rate is as close to the set departure rate as possible.</p>
