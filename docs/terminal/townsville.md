@@ -58,7 +58,7 @@ Aircraft arriving Runway 19 should be assigned either a **left initial** or **ri
 Aircraft arriving Runway 01 should be assigned either a **left initial**, **standard right initial**, or **close right initial**. On a close right initial aircraft will track north of Mt Stuart, as opposed to aircraft tracking on a standard right initial, who pass Mt Stuart to the south.
 
 ### Military Gates
-There are numerous [military gates](../../controller-skills/military/#military-gates) established throughout the WLM TCU to facilitate entry and exit to adjoining SUA.
+There are numerous [military gates](../../controller-skills/military/#military-gates) established throughout the TL TCU to facilitate entry and exit to adjoining SUA.
 
 <figure markdown>
 ![TL SUA Gates](img/tl_mil_gates.png){ width="700" }
