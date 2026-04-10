@@ -479,14 +479,14 @@ Voiceless to all surrounding Enroute sectors for all aircraft:
 !!! note
     This means that aircraft can be tracking via **any point** along an aircraft's flight planned route (eg, **LEECE** or **BANDA**), as long as they enter Enroute airspace in the *green shaded corridor*
 
-All other aircraft going to Enroute CTA must be **Heads-up** Coordinated to the relevant sector as soon as practical.
+All other aircraft going to Enroute CTA must be **Heads-up** coordinated to the relevant sector as soon as practical.
 
 !!! phraseology
     <span class="hotline">**SY TCU** -> **ARL**</span>: "DAL40, with your concurrence, will be right of route, DCT GUTIV"  
     <span class="hotline">**ARL** -> **SY TCU**</span>: "DAL40, concur right of route DCT GUTIV"
 
 ##### YWLM Arrivals
-Additionally, Voiceless Coordination exists to ARL(All) for aircraft:
+Additionally, voiceless coordination exists to ARL(All) for aircraft:
 
 - With ADES **YWLM**; and  
 - Assigned a STAR; and  
@@ -503,7 +503,7 @@ Voiceless for all aircraft:
 - Tracking via **MARLN**, **RIVET**, or **BOREE**, assigned `A100`; or  
 - Tracking via **MEPIL** or **ODALE**, assigned `A090`
 
-All other aircraft coming from Enroute CTA will be **Heads-up** Coordinated to SY TCU prior to **20nm** from the boundary.
+All other aircraft coming from Enroute CTA will be **Heads-up** coordinated to SY TCU prior to **20nm** from the boundary.
 
 ### SY TCU Internal
 #### APP / DIR
