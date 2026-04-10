@@ -69,7 +69,7 @@ Voiceless for aircraft:
 - Tracking via a published airway; and  
 - Assigned the lower of `F120` or the `RFL`
 
-All other aircraft going to WOL CTA must be **Heads-up** Coordinated by NW TCU prior to the boundary. 
+All other aircraft going to WOL CTA must be **Heads-up** coordinated by NW TCU prior to the boundary. 
 
 #### Arrivals
 Voiceless for aircraft:
@@ -78,7 +78,7 @@ Voiceless for aircraft:
 - Tracking direct to the NWA TACAN or YSNW; and  
 - Assigned `F130`
 
-All other aircraft coming from WOL CTA will be **Heads-up** Coordinated to NW TCU.
+All other aircraft coming from WOL CTA will be **Heads-up** coordinated to NW TCU.
 
 ### NW ADC
 #### Airspace

@@ -134,9 +134,9 @@ Voiceless for all aircraft:
 - Assigned the lower of `F180` or the `RFL`
 
 !!! note
-    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**.
 
-All other aircraft going to TRT CTA must be **Heads-up** Coordinated by DN TCU prior to the boundary.
+All other aircraft going to TRT CTA must be **Heads-up** coordinated by DN TCU prior to the boundary.
 
 !!! phraseology
     <span class="hotline">**DN TCU** -> **TRT**</span>: "PFY1234, with your concurrence, will be assigned F160, for my separation with JTE654"  
@@ -149,7 +149,7 @@ Voiceless for all aircraft:
 - Assigned a STAR; and  
 - Assigned `A100`
 
-All other aircraft coming from TRT CTA will be **Heads-up** Coordinated to DN TCU.
+All other aircraft coming from TRT CTA will be **Heads-up** coordinated to DN TCU.
 
 ### ADC
 #### Auto Release

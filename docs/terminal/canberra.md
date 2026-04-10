@@ -95,9 +95,9 @@ Voiceless for all aircraft:
 - Assigned the lower of `F240` or the `RFL`
 
 !!! note
-    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**.
 
-All other aircraft going to BLA/GUN CTA must be **Heads-up** Coordinated by CB TCU prior to the boundary.
+All other aircraft going to BLA/GUN CTA must be **Heads-up** coordinated by CB TCU prior to the boundary.
 
 !!! phraseology
     <span class="hotline">**CB TCU** -> **GUN**</span>: "EVY113, with your concurrence, will be assigned F180, for my separation with QLK165D"  
@@ -110,7 +110,7 @@ Voiceless for all aircraft:
 - Assigned a STAR; and  
 - Assigned `F130`
 
-All other aircraft coming from BLA/GUN CTA will be **Heads-up** Coordinated to CB TCU prior to **20nm** from the boundary.
+All other aircraft coming from BLA/GUN CTA will be **Heads-up** coordinated to CB TCU prior to **20nm** from the boundary.
 
 ### ADC
 #### Departures

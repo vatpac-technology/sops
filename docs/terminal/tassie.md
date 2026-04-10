@@ -159,7 +159,7 @@ Voiceless for all aircraft:
 - Assigned the lower of `F240` or the `RFL`; and  
 - Tracking via a Procedural SID terminus
 
-All other aircraft going to HUO CTA must be **Heads-up** Coordinated by TAS TCU prior to the boundary.
+All other aircraft going to HUO CTA must be **Heads-up** coordinated by TAS TCU prior to the boundary.
 
 !!! phraseology
     <span class="hotline">**LTA** -> **HUO**</span>: "via IRSOM, QFA114, with your concurrence, will be assigned `F150`, for my separation with ZYX"  
@@ -175,7 +175,7 @@ Voiceless for all aircraft:
     - Assigned a STAR; and  
     - Assigned `F130`   
 
-All other aircraft coming from HUO CTA will be **Heads-up** Coordinated to TAS TCU.
+All other aircraft coming from HUO CTA will be **Heads-up** coordinated to TAS TCU.
 
 ### HB ADC
 #### Airspace

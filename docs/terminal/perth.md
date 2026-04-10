@@ -222,11 +222,11 @@ Voiceless for all aircraft:
 !!! note
     <sup>‡</sup> In contrast to many other TCUs, aircraft are *required* to be tracking via the **SID procedure**. Aircraft simply tracking via any of the terminus waypoints (including aircraft given track shortening) **is not** sufficient to meet the criteria for voiceless coordination.
 
-All other aircraft going to HYD(PIY) CTA must be **Heads-up** Coordinated by PH TCU prior to the boundary.
+All other aircraft going to HYD(All) CTA must be **Heads-up** coordinated by PH TCU prior to the boundary.
 
 !!! phraseology
-    <span class="hotline">**PH TCU** -> **HYD(PIY)**</span>: "PFY9916, with your concurrence, will be assigned F130, for my separation with JTE654"  
-    <span class="hotline">**HYD(PIY)** -> **PH TCU**</span>: "PFY9916, concur F130"  
+    <span class="hotline">**PH TCU** -> **PIY**</span>: "PFY9916, with your concurrence, will be assigned F130, for my separation with JTE654"  
+    <span class="hotline">**PIY** -> **PH TCU**</span>: "PFY9916, concur F130"  
 
 #### Arrivals
 Voiceless for all aircraft:
@@ -235,7 +235,7 @@ Voiceless for all aircraft:
 - Assigned a STAR; and  
 - Assigned `A090`
 
-All other aircraft coming from HYD(PIY) CTA will be **Heads-up** Coordinated to PH TCU.
+All other aircraft coming from HYD(All) CTA will be **Heads-up** coordinated to PH TCU.
 
 ### PH ADC
 #### Auto Release
