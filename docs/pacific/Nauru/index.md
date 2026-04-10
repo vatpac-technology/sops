@@ -20,7 +20,7 @@ In the Nauru FIR the transition level is 12,000 ft (`F120`).
   <figcaption>ANAU FIR boundaries</figcaption>
 </figure>
 
-The Nauru FIR does not have any local ATS. All ATS above `F245` is provided by [TSN (COL)](../../oceanic/Positions/TSN/#coral-col).
+The Nauru FIR does not have any local ATS. All ATS above `F245` is provided by [TSN (COL)](../../oceanic/TSN/#coral-col).
 
 <figure markdown>
 ![ANAU Airspace diagram](img/ANAU_airspace.png){ width="700" }
