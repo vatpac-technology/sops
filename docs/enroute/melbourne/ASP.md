@@ -147,7 +147,7 @@ Aircraft leaving WR ADC airspace both **laterally** and **vertically** will ente
 
 !!! phraseology
     <span class="hotline">**WR ADC** -> **WRA**</span>: "via WR 180 bearing outbound, LYBD11.”  
-    <span class="hotline">**WRA** -> **WR ADC**</span>: "LYBD11, `F240`, no reported traffic."   
+    <span class="hotline">**WRA** -> **WR ADC**</span>: "LYBD11, `F240`, no reported IFR traffic."   
     <span class="hotline">**WR ADC** -> **WRA**</span>: "`F240`, LYBD11."  
 
     **WR ADC**: "LYBD11, leave and re-enter controlled airspace on climb to `F240`, no reported IFR traffic"  
