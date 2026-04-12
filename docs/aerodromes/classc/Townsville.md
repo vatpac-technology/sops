@@ -41,19 +41,19 @@ ADC is responsible for all runways as well as [**Helipad B** and **Helipad F**](
 	
 **Runway 07/25** is located close to, but does not intersect with, Runway 01/19. Aircraft landing on **Runway 07** must receive explicit clearance to cross Runway 01/19, via Taxiway D3.
 	
-### Standard Taxi Routes
+### Recommended Taxi Routes
 Except when the traffic situation warrants, taxi clearances shall conform to the following diagram:
 
 === "Runway 01"
 	<figure markdown>
-	![Standard Taxi Routes for RWY 01](img/ybtlstdtaxi_01.png){ width="500" }
-	  <figcaption>Standard Taxi Routes for RWY 01</figcaption>
+	![Recommended Taxi Routes for RWY 01](img/ybtlstdtaxi_01.png){ width="500" }
+	  <figcaption>Recommended Taxi Routes for RWY 01</figcaption>
 	</figure>
 	
 === "Runway 19"
 	<figure markdown>
-	![Standard Taxi Routes for RWY 19](img/ybtlstdtaxi_19.png){ width="500" }
-	  <figcaption>Standard Taxi Routes for RWY 19</figcaption>
+	![Recommended Taxi Routes for RWY 19](img/ybtlstdtaxi_19.png){ width="500" }
+	  <figcaption>Recommended Taxi Routes for RWY 19</figcaption>
 	</figure>
     
 #### Bay 1 Pushbacks
