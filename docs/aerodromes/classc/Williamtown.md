@@ -49,7 +49,7 @@ Aircraft departing to the western training areas should be cleared the **STORM 1
     ACD shall write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
 
 #### Military Gates
-There are numerous [military gates](../../../controller-skills/military/#military-gates) established throughout the WLM TCU to facilitate entry and exit to adjoining SUA.
+There are numerous [military gates](../../../controller-skills/military/#military-gates) established throughout the WLM TMA to facilitate entry and exit to adjoining SUA.
 
 <figure markdown>
 ![WLM SUA Gates](../../terminal/img/wlm_mil_gates.png){ width="700" }
@@ -101,7 +101,6 @@ When the R596 restricted area is active all airspace within the SUA is managed b
 Aircraft departing YWLM for the [Salt Ash Air Weapons Range (R596)] should be cleared the **SALT ASH** departure, in lieu of a SID. On this departure, aircraft will maintain runway heading until turning between 2 TAC and 7.5 TAC WLM to enter the restricted area.
 
 !!! phraseology
-    *RPLC15 plans to enter the M581 MOA via Gate 7 for military training and airwork.*  
     **PTHR21**: "Willy Delivery, PTHR21 for Salt Ash High, `A100`, transit not above `A050`, request clearance."  
     **WLM ACD**: "PTHR21, Willy Delivery. Standby."  
     *WLM ACD [coordinates the SUA activation request](#acd-to-wlm-tcu) with WAL*  
