@@ -111,19 +111,15 @@ Both helipads are outside of the manoeuvring area so no takeoff or landing clear
 Helicopters perform cirircuit work within '**Choppers East**', defined as an area between Taxiway Alpha the Old Stuart Highway, and the runway thresholds.
 
 <figure markdown>
-![Eastern Grass](img/en_eastern_grass.png){ width="700" }
-<figcaption>Eastern Grass</figcaption>
+![Choppers East](img/tn_choppers_east.png){ width="700" }
+<figcaption>Choppers East</figcaption>
 </figure>
 
 Helicopters requesting clearance to operate in the Eastern Grass shall be cleared to air transit to, and then operate within, the area by ADC.
 
 !!! phraseology
-    **ZXY**: "Essendon Tower, helicopter ZXY, Southern Apron, for the Eastern Grass."   
-    **EN ADC**: "ZXY, Essendon Tower, air transit Eastern Grass, cross runway 17. Report established."
-	**ZXY**: "Air transit Eastern Grass, cross runway 17, ZXY" 
-	
-	**ZXY**: "Essendon Tower, ZXY, established Eastern Grass."   
-    **EN ADC**: "ZXY, cleared to operate Eastern Grass, not above 100ft."
+    **CHOP12**: "Tindal Tower, CHOP12 ZXY, Pad 1, for circuits, ready."   
+    **TN ADC**: "CHOP12, Tindal Tower. Cleared to operate Choppers East not above `A010`. Report airborne."
 
 ## Runway Modes
 ### Circuits
