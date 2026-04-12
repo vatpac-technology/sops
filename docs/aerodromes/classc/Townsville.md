@@ -139,7 +139,7 @@ In VMC, light aircraft travelling between YBTL and YPAM should be cleared a '**C
     ACD shall update the pilot's route and write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
 
 #### Military Gates
-There are several [military gates](../../../controller-skills/military/#military-gates) established throughout the TL TCU to facilitate entry and exit to adjoining SUA.
+There are several [military gates](../../../controller-skills/military/#military-gates) established throughout the TL TMA to facilitate entry and exit to adjoining SUA.
 
 <figure markdown>
 ![TL SUA Gates](../../terminal/img/tl_mil_gates.png){ width="700" }
