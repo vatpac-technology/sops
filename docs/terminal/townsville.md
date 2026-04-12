@@ -84,8 +84,8 @@ If the pilot **does not** nominate a gate, or nominates a gate that does not pro
 
 ### Special Use Airspace
 <figure markdown>
-![Notable SUA in the TL TCU](img/tl_sua.png){ width="700" }
-  <figcaption>Notable SUA in the TL TCU</figcaption>
+![Notable SUA in the TL TMA](img/tl_sua.png){ width="700" }
+  <figcaption>Notable SUA in the TL TMA</figcaption>
 </figure>
 
 #### D764 Townsville 
