@@ -17,7 +17,7 @@
     YBTL is a [joint military/civil aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
 
 ## Airspace
-TL ADC owns the Class C airspace in the TL MIL CTR `SFC` to `A015`. 
+**TL ADC** owns the Class C airspace in the TL MIL CTR `SFC` to `A015`. 
 
 <figure markdown>
 ![TL ADC Airspace](img/tladc.png){ width="600" }
