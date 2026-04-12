@@ -181,7 +181,7 @@ All instrument approaches for Runway 01 and Runway 19 SIDs are procedurally sepa
 
 ## VFR Operations
 ### VFR Routes
-There are six VFR routes established in and around the YBTL TCU to facilitate VFR operations.
+There are six VFR routes established in and around the YBTL TMA to facilitate VFR operations.
 
 <figure markdown>
 ![YBTL VFR Routes](img/tl_vfr.png){ width="600" }
