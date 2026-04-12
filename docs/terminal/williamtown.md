@@ -191,6 +191,35 @@ Aircraft arriving from Gates 1-4 and 6 will join the stereo approach at the gate
     **WAL**: "MAPL45, Willy Approach, cleared stereo approach. At 11 TACAN WLM contact Tower, 118.3"  
     **MAPL45**: "Cleared stereo approach, tower at 11 TACAN WLM, WGTL45"
 
+### VFR Lanes of Entry
+#### Coastal Route
+A lane of entry is available along the coastline, allowing aircraft to transit the zone from north to south (or vice versa). A clearance is required from **WLM TCU** prior to entering the CTR.
+
+| Direction | Routing | Altitude |
+| --- | --- | --- |
+| Northbound | NBB ANA PSS BRI SUG | `A005` |
+| Southbound | SUG BRI PSS ANA NBB | Not above `A020` until ANA, then `A005` |
+
+Aircraft are required to follow the coastline and remain over water at all times.
+
+!!! phraseology
+    **FWC**: "Willy Approach, FWC, Cessna 172, 4nm south of NBB, `A005`, received Bravo, for the coastal route, request clearance"  
+    **WLM TCU**: "FWC, squawk 0366, remain outside controlled airspace"  
+    **FWC**: "Squawk 0366, remain outside controlled airspace, FWC"  
+
+    **WLM TCU**: "FWC, identified, cleared coastal route northbound, maintain `A005`"  
+    **FWC**: "Cleared coastal route northbound, maintain `A005`, FWC"  
+
+Details of the lane are available in the `YWLM ERSA FAC` and on the Williamtown VTC.
+
+!!! warning "Important"
+    Delays may be necessary due to arrivals to runway 30 or departures from runway 12. Clearance should be withheld from VFR aircraft wishing to track between NBB and ANA until the extended runway centreline is clear.
+
+    During periods of peak traffic, it may be beneficial to coordinate with ADC and have them maintain visual separation between aircraft on the VFR route and any other aircraft operating in the CTR.
+
+#### Inland Lane
+A lane of entry is available in the Class G airspace to the north of YWLM, allowing aircraft to transit the restricted airspace from north to south (or vice versa). **No clearance is required** to operate along the route provided aircraft remain at or below `A025`.
+
 ## Flow
 ### Local Knowledge
 - Aircraft may be assigned the Romeo or Victor STAR to reduce track miles

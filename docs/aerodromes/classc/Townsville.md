@@ -17,7 +17,7 @@
     YBTL is a [joint military/civil aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
 
 ## Airspace
-TL ADC owns the Class C airspace in the TL CTR (Extends to 7NM from the thresholds of Runway 01/19) from `SFC` to `A015`. This airspace is designed to facilitate Helicopter Traffic and Ciruit Traffic.
+**TL ADC** owns the Class C airspace in the TL CTR (Extends to 7NM from the thresholds of Runway 01/19) from `SFC` to `A015`. This airspace is designed to facilitate Helicopter Traffic and Ciruit Traffic.
 
 ## Helicopter Operations
 Procedures relating to Helicopters can be found in the Airforce AIP AD2 SUPPS Section for Townsville. (7.5 - 7.9)
@@ -40,9 +40,9 @@ VFR aircraft conducting circuits inside TL ADCs airspace shall be at or below `A
 | 25     | Right |
 
 ## SID Selection
-Aircraft planned via **KVALM**, **PEWEE**, **AKROM**, **CARMN**, **ANRUB**, **CATEY**, **JEMMA**, and **WALTA** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID ending at these termini.
+Aircraft planned via **PEWEE**, **AKROM**, **CARMN**, **ANRUB**, **CATEY**, **JEMMA**, and **WALTA** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus.
 
-Aircraft that are unable to accept a procedural SID terminating on their route shall be assigned the appropriate procedural or radar SID from the table below.
+Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, or be cleared via the following SIDs:
 
 | Runway | Westbound        | Eastbound       |
 | ------ | ---------------- | --------------- |
@@ -50,7 +50,7 @@ Aircraft that are unable to accept a procedural SID terminating on their route s
 | 19     | **IGBIK** SID    | **RURTO** SID   |
 | 07/25  | Visual           | Visual          |
 
-Light and **non-RNAV** aircraft shall be assigned a visual departure.
+Light and **non-RNAV** aircraft shall be assigned a visual departure in VMC.
 
 ## Coordination
 ### Auto Release  
