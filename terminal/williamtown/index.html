@@ -2973,6 +2973,45 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#vfr-lanes-of-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VFR Lanes of Entry
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="VFR Lanes of Entry">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#coastal-route" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Coastal Route
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inland-lane" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inland Lane
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -9050,6 +9089,45 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#vfr-lanes-of-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VFR Lanes of Entry
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="VFR Lanes of Entry">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#coastal-route" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Coastal Route
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inland-lane" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inland Lane
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -9572,6 +9650,47 @@ Aircraft will access the corridor through the <strong><a href="#military-gates">
 <strong><abbr title="Williamtown Approach (Low)">WAL</abbr></strong>: "MAPL45, Willy Approach, cleared stereo approach. At 11 <abbr title="Tactical Air Navigation System">TACAN</abbr> WLM contact Tower, 118.3"<br>
 <strong>MAPL45</strong>: "Cleared stereo approach, tower at 11 <abbr title="Tactical Air Navigation System">TACAN</abbr> WLM, WGTL45"</p>
 </div>
+<h3 id="vfr-lanes-of-entry"><abbr title="Visual Flight Rules">VFR</abbr> Lanes of Entry</h3>
+<h4 id="coastal-route">Coastal Route</h4>
+<p>A lane of entry is available along the coastline, allowing aircraft to transit the zone from north to south (or vice versa). A clearance is required from <strong>WLM <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong> prior to entering the <abbr title="Control Zone">CTR</abbr>.</p>
+<table>
+<thead>
+<tr>
+<th>Direction</th>
+<th>Routing</th>
+<th>Altitude</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Northbound</td>
+<td>NBB ANA PSS BRI SUG</td>
+<td><code>A005</code></td>
+</tr>
+<tr>
+<td>Southbound</td>
+<td>SUG BRI PSS ANA NBB</td>
+<td>Not above <code>A020</code> until ANA, then <code>A005</code></td>
+</tr>
+</tbody>
+</table>
+<p>Aircraft are required to follow the coastline and remain over water at all times.</p>
+<div class="admonition phraseology">
+<p class="admonition-title">Phraseology</p>
+<p><strong>FWC</strong>: "Willy Approach, FWC, Cessna 172, 4nm south of NBB, <code>A005</code>, received Bravo, for the coastal route, request clearance"<br>
+<strong>WLM <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong>: "FWC, squawk 0366, remain outside controlled airspace"<br>
+<strong>FWC</strong>: "Squawk 0366, remain outside controlled airspace, FWC"  </p>
+<p><strong>WLM <abbr title="Terminal Control Unit (Approach Controller)">TCU</abbr></strong>: "FWC, identified, cleared coastal route northbound, maintain <code>A005</code>"<br>
+<strong>FWC</strong>: "Cleared coastal route northbound, maintain <code>A005</code>, FWC"  </p>
+</div>
+<p>Details of the lane are available in the <code>YWLM ERSA FAC</code> and on the Williamtown VTC.</p>
+<div class="admonition warning">
+<p class="admonition-title">Important</p>
+<p>Delays may be necessary due to arrivals to runway 30 or departures from runway 12. Clearance should be withheld from <abbr title="Visual Flight Rules">VFR</abbr> aircraft wishing to track between NBB and ANA until the extended runway centreline is clear.</p>
+<p>During periods of peak traffic, it may be beneficial to coordinate with <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> and have them maintain visual separation between aircraft on the <abbr title="Visual Flight Rules">VFR</abbr> route and any other aircraft operating in the <abbr title="Control Zone">CTR</abbr>.</p>
+</div>
+<h4 id="inland-lane">Inland Lane</h4>
+<p>A lane of entry is available in the Class G airspace to the north of YWLM, allowing aircraft to transit the restricted airspace from north to south (or vice versa). <strong>No clearance is required</strong> to operate along the route provided aircraft remain at or below <code>A025</code>.</p>
 <h2 id="flow">Flow</h2>
 <h3 id="local-knowledge">Local Knowledge</h3>
 <ul>
@@ -9822,7 +9941,7 @@ Aircraft will access the corridor through the <strong><a href="#military-gates">
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 9, 2026 04:47:00 UTC">April 9, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 12, 2026 04:20:46 UTC">April 12, 2026</span>
   </span>
 
     
