@@ -336,19 +336,20 @@ The circuit height is `A015`.
 
 ## SID Selection
 ### Civil Aircraft
-Aircraft planned via **AKROM**, **ANRUB**, **CARMN**, **CATEY**, **JEMMA**, **PEWEE** and **WALTA** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a procedural SID.
+Aircraft planned via **PEWEE**, **AKROM**, **CARMN**, **ANRUB**, **CATEY**, **JEMMA**, and **WALTA** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus.
 
 **RNP (0.3)** approved operators planned via **JEMMA** and departing Runway 19 shall be assigned the **KVALM** procedural SID.
 
-Aircraft that are unable to accept a procedural SID terminating on their route shall be assigned the appropriate procedural or radar SID from the table below.
+Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, or be cleared via the following SIDs:
 
 | Runway | Westbound        | Eastbound       |
+| ------ | ---------------- | --------------- |
 | ------ | ---------------- | --------------- |
 | 01     | **TL NORTH** SID | **TL EAST** SID |
 | 19     | **IGBIK** SID    | **RURTO** SID   |
 | 07/25  | Visual           | Visual          |
 
-Light and **non-RNAV** aircraft shall be assigned a visual departure.
+Light and **non-RNAV** aircraft shall be assigned a visual departure in VMC.
 
 #### CATEY Departures
 When the [R738A restricted area](../../../terminal/Townsville/r738a-h-townsville-land) is active, aircraft planned via **CATEY** shall be assigned the **ANRUB** (if southbound) or **CARMN** (if northbound) SID.
