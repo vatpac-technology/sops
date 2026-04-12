@@ -137,7 +137,7 @@ Aircraft planned via **DN VOR**, **LAREB**, **GREGA**, **DOSAM**, **MILIV**, **M
 
 Aircraft unable to accept a procedural SID, and **non-RNAV** aircraft shall be assigned either the RADAR SID or a visual departure. 
 
-### Military aircraft
+### Military Aircraft
 Military aircraft that are unable to accept a procedural SID shall be assigned either the RADAR SID or a visual departure.
 
 ## ATIS
