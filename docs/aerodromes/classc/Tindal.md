@@ -31,7 +31,7 @@ ADC is responsible for all runways. SMC is responsible for all taxiways, but is 
   <figcaption>YPTN Manoeuvring Area Responsibility</figcaption>
 </figure>
 
-### Standard Taxi Routes
+### Recommended Taxi Routes
 Except when the traffic situation warrants, taxi clearances shall conform to the following diagram:
 
 === "Runway 14"
