@@ -73,7 +73,7 @@ Aircraft departing to certain defined groups of SUA may be cleared a coded clear
     **TN ACD**: "CLAS21, cleared Eastern via [MILNE](#military-gates), climb to `F180`, squawk 6003, departure frequency 120.95"
 
 ### Military Gates
-There are numerous [military gates](../../../controller-skills/military/#military-gates) established throughout the TN TCU to facilitate entry and exit to adjoining SUA.
+There are numerous [military gates](../../../controller-skills/military/#military-gates) established throughout the TN TMA to facilitate entry and exit to adjoining SUA.
 
 <figure markdown>
 ![TN SUA Gates](../../terminal/img/tn_mil_gates.png){ width="700" }
