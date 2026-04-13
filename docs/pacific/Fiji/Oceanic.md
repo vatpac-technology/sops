@@ -40,11 +40,7 @@ NFFF is **not permitted** to provide a top-down approach service in these circum
     NFFF is **not permitted** to extend to any adjacent domestic/international sectors.
 
 ## CPDLC
-The Primary Communication Method for overfliers in NFFF is [CPDLC](../../../client/cpdlc).
-
-The CPDLC Station Code is `NFFF`.
-
-Voice may be used in lieu when applicable.
+The Primary Communication Method for overfliers in NFFF is [CPDLC](../../../client/cpdlc). Voice may be used in lieu when applicable.
 
 <!-- ## Sector Responsibilities
 

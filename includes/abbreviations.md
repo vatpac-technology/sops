@@ -14,6 +14,7 @@
 *[ATIS]: Automatic Terminal Information Service
 *[ATOT]: Actual Off Blocks Time
 *[ATS]: Air Traffic Services
+*[ATSU]: Air Traffic Service Unit
 *[ATZ]: Aerodrome Traffic Zone
 *[AUW]: All Up Weight
 *[BCTA]: Bottom of Controlled Airspace
