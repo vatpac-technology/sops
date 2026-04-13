@@ -16,7 +16,7 @@
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ### CPDLC
-The Primary Communication Method for IND is [CPDLC](../../client/cpdlc). Voice may be used in lieu when applicable. The CPDLC Station Code is `YIND`.
+The Primary Communication Method for IND is [CPDLC](../../client/cpdlc). Voice may be used in lieu when applicable.
 
 ## Airspace
 
