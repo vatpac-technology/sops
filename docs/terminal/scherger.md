@@ -33,7 +33,7 @@ The [SG MIL CTR](#sg-mil-ctr) **is not** activated by default.
 #### SUA in Enroute Airspace
 Military operations taking place in SUA in enroute airspace are outside the jurisdiction of TN TCU.
 
-Upon receiving [airways clearance coordination from ACD](#acd-to-sg-tcu) of an aircraft intending to operate in a currently inactive SUA in enroute airspace, TN TCU must give **heads up** coordination to relevant enroute controllers.
+Upon receiving [airways clearance coordination from SMC](#smc-to-sg-tcu) of an aircraft intending to operate in a currently inactive SUA in enroute airspace, TN TCU must give **heads up** coordination to relevant enroute controllers.
 
 This gives the enroute controller sufficient time to assess the request, make necessary adjustments to any aircraft in the area currently, and activate the SUA; or alternately to refuse the activation request before the aircraft is in the air.
 
@@ -65,7 +65,7 @@ The [intial points](../../../controller-skills/military/#initial-and-pitch) are 
 There are numerous [military gates](../../../controller-skills/military/#military-gates) established throughout the SG TMA to facilitate entry and exit to adjoining SUA.
 
 <figure markdown>
-![SG SUA Gates](../../terminal/img/sg_mil_gates.png){ width="700" }
+![SG SUA Gates](img/sg_mil_gates.png){ width="700" }
   <figcaption>SG SUA Gates</figcaption>
 </figure>
 
