@@ -148,6 +148,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **SOLUS A**    | 11^    | 12     | 14     | 12^    |
     | **SOLUS V**    | 10^    | 11^    | -      | -      |
     | **SOLUS X**    | 10^    | -      | -      | -      |
+    | **No STAR - Vectors to IAF**<br>*Feeder Fix: OLMAM* | <br>9\^ | <br>10\^ | <br>13 | <br>14 |
 
 === "DH8D"
     | STAR       | RWY 03 | RWY 06 | RWY 21 | RWY 24 |
@@ -165,6 +166,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **SOLUS A**    | 11^    | 12     | 14     | 12^    |
     | **SOLUS V**    | 10^    | 11^    | -      | -      |
     | **SOLUS X**    | 10^    | -      | -      | -      |
+    | **No STAR - Vectors to IAF**<br>*Feeder Fix: OLMAM* | <br>9\^ | <br>10\^ | <br>13 | <br>14 |
 
 === "Non-Jets"
     | STAR       | RWY 03 | RWY 06 | RWY 21 | RWY 24 |
@@ -182,6 +184,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **SOLUS A**    | 12^    | 14     | 16     | 14^    |
     | **SOLUS V**    | 12^    | 13^    | -      | -      |
     | **SOLUS X**    | 11^    | -      | -      | -      |
+    | **No STAR - Vectors to IAF**<br>*Feeder Fix: OLMAM* | <br>11\^ | <br>12\^ | <br>14 | <br>16 |
 
 #### Corrections
 
@@ -196,6 +199,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     - The feeder fix for the IPMOR STAR is **KAGMI**
 - Aircraft on the SOLUS STAR to RWY 21/24 will be vectored from MOCUR to the IAF for ILS
 - Aircraft on the IPMOR STAR to RWY 24 will be vectored from WOOFY to the IAF for the ILS
+- Aircraft for RWY 21 via the OLMAM feeder fix will be processed via **WOOFY** for the ILS (via the 9nm arc)
 
 ### Calculator
 <script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
@@ -218,11 +222,11 @@ Voiceless for all aircraft:
 !!! note
     <sup>‡</sup> In contrast to many other TCUs, aircraft are *required* to be tracking via the **SID procedure**. Aircraft simply tracking via any of the terminus waypoints (including aircraft given track shortening) **is not** sufficient to meet the criteria for voiceless coordination.
 
-All other aircraft going to HYD(PIY) CTA must be **Heads-up** Coordinated by PH TCU prior to the boundary.
+All other aircraft going to HYD(All) CTA must be **Heads-up** coordinated by PH TCU prior to the boundary.
 
 !!! phraseology
-    <span class="hotline">**PH TCU** -> **HYD(PIY)**</span>: "PFY9916, with your concurrence, will be assigned F130, for my separation with JTE654"  
-    <span class="hotline">**HYD(PIY)** -> **PH TCU**</span>: "PFY9916, concur F130"  
+    <span class="hotline">**PH TCU** -> **PIY**</span>: "PFY9916, with your concurrence, will be assigned F130, for my separation with JTE654"  
+    <span class="hotline">**PIY** -> **PH TCU**</span>: "PFY9916, concur F130"  
 
 #### Arrivals
 Voiceless for all aircraft:
@@ -231,7 +235,7 @@ Voiceless for all aircraft:
 - Assigned a STAR; and  
 - Assigned `A090`
 
-All other aircraft coming from HYD(PIY) CTA will be **Heads-up** Coordinated to PH TCU.
+All other aircraft coming from HYD(All) CTA will be **Heads-up** coordinated to PH TCU.
 
 ### PH ADC
 #### Auto Release

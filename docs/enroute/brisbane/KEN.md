@@ -16,9 +16,6 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
-### CPDLC
-The Primary Communication Method for KEN is Voice. [CPDLC](../../../client/cpdlc) may be used in lieu when applicable. The CPDLC Station Code is `YKEN`.
-
 ## Airspace
 
 <figure markdown>
@@ -58,7 +55,7 @@ The following subsectors are responsible for issuing STAR clearance.
 === "RWY 33"
 	| Subsector | STAR | Type | Notes |
 	| ---- | ----- | -------- | ----- |
-	| BAR  | HENDO<br>KEEWIE<br>TOTTY | All | INST APCH<br>VISUAL APCH<br>RNP-W |
+	| BAR  | HENDO<br>KEEWI<br>TOTTY | All | INST APCH<br>VISUAL APCH<br>RNP-W |
 	| KEN  | HENDO<br>TOTTY | All   | INST APCH<br>RNP-W |
 	| TBP  | HENDO<br>TOTTY | All   | Descent not below `F190` |
 

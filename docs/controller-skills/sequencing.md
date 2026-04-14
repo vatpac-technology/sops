@@ -169,7 +169,7 @@ As an alternative to vectoring and holding, controllers may reroute aircraft via
 Predictable Sequencing waypoints may also be referred to as Continuous Descent Operations (CDO) waypoints.
 
 
-Predictable Sequencing waypoints have been defined for aircraft inbound to Perth (in [HYD](../../enroute/Melbourne Centre/HYD) airspace), Brisbane (in [KEN](../../enroute/Brisbane Centre/KEN) airspace), Sydney (in [ARL](../../enroute/Brisbane Centre/ARL) airspace), and Melbourne (in [BLA](../../enroute/Melbourne Centre/BLA) and [HUO](../../enroute/Melbourne Centre/HUO) airspace).
+Predictable Sequencing waypoints have been defined for aircraft inbound to Perth (in [HYD](../../enroute/melbourne/HYD) airspace), Brisbane (in [KEN](../../enroute/brisbane/KEN) airspace), Sydney (in [ARL](../../enroute/brisbane/ARL) airspace), and Melbourne (in [BLA](../../enroute/melbourne/BLA) and [HUO](../../enroute/melbourne/HUO) airspace).
 
 <figure markdown>
 ![Predictable Sequencing waypoints](img/cdo_n774_m636.png){ width="500" }

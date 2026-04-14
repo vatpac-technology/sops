@@ -34,12 +34,9 @@ When **AYNZ ADC** is offline, AYNZ CTR (Class C `SFC` to `A060`) is reclassified
 #### Class F Aerodromes
 When **AYGA ADC**, **AYMD ADC**, **AYMH ADC**, **AYTK ADC** are offline, the [ATZ](../#aerodrome-traffic-zones)'s of their respective aerodromes are inactive. The airspace remains Class F.
 <!--- ## Extending --->
-## CPDLC ##
-The Primary Communication Method for AYPM west of 150°E is Voice, east of 150°E is [CPDLC](../../../client/cpdlc).
 
-The CPDLC Station code is `AYPM`.
-
-Both CPDLC or Voice may be used in lieu when applicable.
+## CPDLC
+The Primary Communication Method for AYPM west of 150°E is Voice, east of 150°E is [CPDLC](../../../client/cpdlc). Both CPDLC or Voice may be used in lieu when applicable.
 <!---## Sector Responsibilities
 
 ### Sequencing
