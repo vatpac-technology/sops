@@ -202,6 +202,14 @@ The Standard Assignable level from TN ADC to TN TCU is:
 | ----- | ---- |
 | All | The lower of `F180` and `RFL` |
 
+#### ACD to TN TCU
+The controller assuming responsibility of **ACD** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to TNA (or the enroute controller responsible for the TN TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
+
+!!! phraseology
+    <span class="hotline">**TN ACD** -> **TNA**</span>: "CLAS35 requests clearance to R225D”  
+    <span class="hotline">**TNA** -> **TN ACD**</span>: "CLAS35, clearance approved."  
+
+
 ## Charts
 !!! abstract "Reference"
     In addition to the civilian `ERSA` and `AIP` publications, [the RAAF AIP website](https://ais-af.airforce.gov.au/australian-aip){target=new} contains the necessary charts (available in the TERMA) and description of procedures (in each airports' FIHA).
