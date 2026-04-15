@@ -151,13 +151,14 @@ Helicopters intending to use the corridor to access any other location need to r
 	**DEF**: "Cleared helicopter corridor, not above `A010`, wilco, DEF."  
 
 #### Victoria Highway Corridor
-A VFR lane is available following the Victoria Highway, allowing aircraft to transit the underneath the [R250 restricted area](#../../enroute/brisbane/TRT/#r225a-f-and-r250-tindal) from north to south (or vice versa). A clearance is required from **TN TCU** prior to entering the CTR. It follows the Victoria Highway southwest of Katherine and is wholly contained within the [danger area](../../controller-skills/sua/#danger-areas) `SFC-025`. The corridor is uncontrolled and offers efficient VFR access to TN TCU for aircraft operating west of YPTN.
+A VFR lane is available following the Victoria Highway, allowing aircraft to transit underneath the [R250 restricted area](../../enroute/brisbane/TRT/#r225a-f-and-r250-tindal) from north to south (or vice versa). It follows the Victoria Highway southwest of Katherine and is wholly contained within the [danger area](../../controller-skills/sua/#danger-areas) `SFC-025`. A clearance is **not** required to track via the corridor.
 
 | Direction | Routing | Altitude |
 | --- | --- | --- |
 | Northbound | WAYS WILE RESC | `SFC-A025` |
 | Southbound | RESC WILE WAYS | `SFC-A025` |
 
+Aircraft intending to enter TN CTA require a clearance once clear of the lane.
 
 !!! phraseology
     **ABC**: "Tindal Approach, ABC, Cessna 172 at RESC, `A015`, for YPTN, received A."  
