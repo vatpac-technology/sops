@@ -51,7 +51,7 @@ There are multiple volumes of [SUA](../../controller-skills/sua) within ISA airs
 SG TCU must [give heads up coordination](../../terminal/scherger/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
 
 !!! phraseology
-    <span class="hotline">**SGA** -> **ARA**</span>: "On the groud YBSG, FBED14, requests activation of M610A `F125-F245`, from 0300 until 0500.”  
+    <span class="hotline">**SGA** -> **ARA**</span>: "On the ground YBSG, FBED14, requests activation of M610A `F125-F245`, from 0300 until 0500.”  
     <span class="hotline">**ARA** -> **SGA**</span>: "FBED14, expect activation of M610A `F125-F245` at 0300 until 0500."   
     <span class="hotline">**SGA** -> **ARA**</span>: "FBED14."   
 
