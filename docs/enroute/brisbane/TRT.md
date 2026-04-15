@@ -122,7 +122,7 @@ When activated, the restricted areas distrupt traffic on the **A461** high altit
 #### R226A-B Tindal
 The R226A-B restricted areas are the easternmost segments of the Tindal Flying Training Area, entirely within the TRS subsector.
 
-These areas are rarely activated, with nearly all operations being preferentially conducted in the western [R225A-F and R250 Tindal](#r225-a-f-and-r250-tindal) restricted areas.
+These areas are rarely activated, with nearly all operations being preferentially conducted in the western [R225A-F and R250 Tindal](#r225a-f-and-r250-tindal) restricted areas.
 
 <!-- #### R262A-C Darwin -->
 

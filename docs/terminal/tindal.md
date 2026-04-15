@@ -100,7 +100,7 @@ If the pilot **does not** nominate a gate, or nominates a gate that does not pro
 | R238            | WEDGE 1-3           |
 
 !!! tip
-    [Coordination requirements](#acd-to-tl-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU before providing clearance.
+    [Coordination requirements](#acd-to-tn-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU before providing clearance.
 
 ### Special Use Airspace
 <figure markdown>
