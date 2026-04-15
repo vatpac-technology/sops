@@ -148,7 +148,7 @@ When the SG MIL CTR is inactive, the airspace immediately around YBWP is uncontr
 Due to the low level of CTA, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
 
 !!! phraseology
-	*SG MIL CTR is inactive. QLK2481 is intending to depart YBWP for YBCS
+	*SG MIL CTR is inactive. QLK2481 is intending to depart YBWP for YBCS.*  
     **QLK2481**: "Scherger Approach, QLK2481, Dash 8, IFR, taxiing YBWP for YBCS, runway 30"  
     **SGA**: "QLK2481, squawk 1202, no reported IFR traffic, report lined up for airways clearance."  
     **QLK2481**: "Squawk 1202, wilco, QLK2481."  
