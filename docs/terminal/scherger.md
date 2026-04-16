@@ -27,6 +27,8 @@ The extent of Class C within the TMA varies according to the activation status o
 When **SGA** is online, the following [restricted areas](../../controller-skills/sua/#restricted-areas) are [activated](../../controller-skills/sua/#activation-of-sua) by default, and reclassified as Class C airspace.
 
 - TRA Scherger `SFC-A040`
+- R604AB Scherger `A040-F125`
+- R605AB Scherger `A040-F125`
 
 The [SG MIL CTR](#sg-mil-ctr) **is not** activated by default.
 
