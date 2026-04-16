@@ -45,7 +45,4 @@ The Standard Assignable level from **AV ADC** to **ML TCU** is:
 | All | The lower of `A040` and `RFL` |
 
 #### Runway Change
-Any Runway change must be prior coordinated to the relevant [TCU Controller](#tcu-controller).
-
-#### TCU Controller
-When multiple ML TCU controllers are online, the relevant TCU controller is whoever is responsible for **MAV**.
+Any Runway change must be prior coordinated to the TCU controller responsible for **MAV**.
