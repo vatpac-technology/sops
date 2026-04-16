@@ -81,21 +81,21 @@ All sequencing is performed by TRS.
 ## Local Procedures
 ### Special Use Airspace
 
-There are multiple volumes of [SUA](../../controller-skills/sua) within TRT airspace associated with military operations in and out of YCIN, YPDN, and YPTN.
+There are multiple volumes of [SUA](../../../controller-skills/sua) within TRT airspace associated with military operations in and out of YCIN, YPDN, and YPTN.
 
 <figure markdown>
 ![Notable SUA in TRT Airspace](../img/trt_sua.png){ width="700" }
   <figcaption>Notable SUA in TRT Airspace</figcaption>
 </figure>
 
-Each TCU must [give heads up coordination](../../controller-skills/coordination/#airways-clearance) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
+Each TCU must [give heads up coordination](../../../controller-skills/coordination/#airways-clearance) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
 
 !!! phraseology
     <span class="hotline">**TNA** -> **TRS**</span>: "On the groud YPTN, CLAS35, requests activation of R225D `A095-F600`, from 0300 until 0500.”  
     <span class="hotline">**TRS** -> **TNA**</span>: "CLAS35, expect activation of R225D `A095-F600` at 0300 until 0500."   
     <span class="hotline">**TNA** -> **TRS**</span>: "CLAS35."   
 
-Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../sua/#ad-hoc-activations).
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../sua/#ad-hoc-activations).
 
 <!-- #### M240A-F Darwin
 
@@ -114,7 +114,7 @@ When all three restricted areas are activated, they are referred to collectively
 #### R225A-F and R250 Tindal
 The R225A-F and R250 Tindal restricted areas form the western part of the Tindal Flying Training Area, and are located entirely within the TRS subsector. The areas are used for a variety of training purposes, including supersonic flight.
 
-The restricted areas directly adjoin the TN TMA, and aircraft will generally enter and exit the areas via the appropriate [military gate](../../terminal/tindal/#military-gates)
+The restricted areas directly adjoin the TN TMA, and aircraft will generally enter and exit the areas via the appropriate [military gate](../../../terminal/tindal/#military-gates)
 
 ##### Affected Civil Operations
 When activated, the restricted areas distrupt traffic on the **A461** high altitude airway which connects YPDN and YBAS. Aircraft may be given an additional requirement to climb above the vertical limits of the activation, or rerouted manually to avoid the area.
@@ -194,7 +194,7 @@ All other aircraft going to TRT CTA will be **Heads-up** Coordinated by DN TCU.
 BRM ADC is responsible for the Class D airspace `SFC` to `A055`, as well as the Class E airspace `1200ft AGL` to `A055`, within the BRM CTR.
 
 #### Departures
-[Next](../../controller-skills/coordination.md#next) coordination is required from BRM ADC to TRT(ASH) for all aircraft **entering TRT(ASH) CTA**.
+[Next](../../../controller-skills/coordination/#next) coordination is required from BRM ADC to TRT(ASH) for all aircraft **entering TRT(ASH) CTA**.
 
 The Standard Assignable level from **BRM ADC** to **TRT(ASH)** is:
 
