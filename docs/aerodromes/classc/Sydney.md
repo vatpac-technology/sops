@@ -390,57 +390,67 @@ During SODPROPS, all departures shall be assigned RWY 16L, except:
 ## SID Selection
 
 !!! tip
-    A radar SID (e.g. **SY (RADAR) SID**) is distinct from a procedural SID with a RADAR transition (eg, **RIC SID, RADAR transition**). A radar SID can be identified in the [DAPs](https://www.airservicesaustralia.com/aip/aip.asp){target=new} as having a *"(RADAR)"* at the end of the name.
+    A radar SID (e.g. **SY (RADAR) SID**) is distinct from a procedural SID with a RADAR transition (eg, **GROOK SID, RADAR transition**). A radar SID can be identified in the [DAPs](https://www.airservicesaustralia.com/aip/aip.asp){target=new} as having a *"(RADAR)"* at the end of the name.
 
 === "Runway 07"
 
-    | Type  | Via  | SID     |
-    | ------| ---- | --------|
-    | Jet  | OLSEM<br>WOL | **FISHA** SID, Relevant Transition |
-    | Jet  | All others | **FISHA** SID, RADAR Transition |
-    | Non-Jet | All       | **RADAR** SID |
+    | Type    | Via  | SID      |
+    | ------- | ---- | -------- |
+    | Jet     | KADOM<br>OLSEM<br>STUIE<br>WOL | **FISHA** SID, Relevant Transition |
+    | Jet     | All others | **FISHA** SID, RADAR Transition |
+    | Non-Jet | BENBU<br>KADOM | **ANKUB** SID, RADAR Transition |
+    | Non-Jet | All others | **RADAR** SID |
 
 === "Runway 16L"
 
-    | Type  | Via  | SID     |
-    | ------| ---- | --------|
-    | Jet  | OLSEM<br>NOBAR<br>DIPSO<br>EVONN<br>CAWLY<br>OPTIC | **KEVIN** SID, Relevant Transition |
-    | Jet  | WOL (during SODPROPS only) | **ABBEY** SID |
-    | Jet  | All others | **KEVIN** SID, RADAR Transition |
-    | Non-Jet | All | **RADAR** SID |
+    | Type    | Via  | SID      |
+    | ------- | ---- | -------- |
+    | Jet     | OLSEM<br>NOBAR<br>DIPSO<br>EVONN<br>CAWLY<br>OPTIC | **KEVIN** SID, Relevant Transition |
+    | Jet     | WOL (during SODPROPS only) | **ABBEY** SID |
+    | Jet     | All others | **KEVIN** SID, RADAR Transition |
+    | Non-Jet | BENBU<br>KADOM | **ANKUB** SID, RADAR Transition |
+    | Non-Jet | All others | **RADAR** SID |
 
 === "Runway 16R"
 
-    | Type  | Via  | SID     |
-    | ------| ---- | --------|
-    | Jet  | RIC<br>KADOM<br>WOL | **GROOK** SID, Relevant Transition |
-    | Jet  | All others | **GROOK** SID, RADAR Transition |
-    | Non-Jet | All | **RADAR** SID |
+    | Type    | Via  | SID      |
+    | ------- | ---- | -------- |
+    | Jet     | KADOM<br>STUIE<br>WOL | **GROOK** SID, Relevant Transition |
+    | Jet     | All others | **GROOK** SID, RADAR Transition |
+    | Non-Jet | All others | **RADAR** SID |
 
 === "Runway 25"
 
-    | Type  | Via  | SID     |
-    | ------| ---- | --------|
-    | All  | All | **RADAR** SID |
+    | Type    | Via  | SID      |
+    | ------- | ---- | -------- |
+    | Jet     | CAWLY<br>DIPSO<br>EVONN<br>NOBAR<br>OLSEM<br>OPTIC | **AVMOV** SID, Relevant Transition |
+    | Jet     | KADOM | **KADOM** SID |
+    | Jet     | STUIE | **STUIE** SID |
+    | Jet     | All others | **RADAR** SID |
+    | Non-Jet | BENBU<br>KADOM | **ANKUB** SID, RADAR Transition |
+    | Non-Jet | All others | **RADAR** SID ||
 
 === "Runway 34L"
 
-    | Type  | Via  | SID     |
-    | ------| ---- | --------|
-    | Jet  | WOL | **WOL** SID |
-    | Jet  | KADOM | **KADOM** SID |
-    | Jet  | RIC | **RIC** SID, RIC Transition |
-    | Jet  | All others | **RIC** SID, RADAR Transition |
-    | Non-Jet | All | **RADAR** SID |
+    | Type    | Via  | SID      |
+    | ------- | ---- | -------- |
+    | Jet     | NWA<br>LEECE<br>WOL | **TONTO** SID, Relevant Transition |
+    | Jet     | CAWLY<br>DIPSO<br>EVONN<br>NOBAR<br>OLSEM<br>OPTIC | **AVMOV** SID, Relevant Transition |
+    | Jet     | KADOM | **KADOM** SID |
+    | Jet     | STUIE | **STUIE** SID |
+    | Jet     | All others | **RADAR** SID |
+    | Non-Jet | BENBU<br>KADOM | **ANKUB** SID, RADAR Transition |
+    | Non-Jet | All others | **RADAR** SID |
 
 === "Runway 34R"
 
-    | Type  | Via  | SID     |
-    | ------| ---- | --------|
-    | Jet  | OLSEM | **OLSEM** SID |
-    | Jet  | WOL | **MARUB** SID, WOL Transition |
-    | Jet  | All others | **MARUB** SID, RADAR Transition |
-    | Non-Jet | All | **RADAR** SID |
+    | Type    | Via  | SID      |
+    | ------- | ---- | -------- |
+    | Jet     | OLSEM | **OLSEM** SID |
+    | Jet     | WOL  | **MARUB** SID, WOL Transition |
+    | Jet     | All others | **MARUB** SID, RADAR Transition |
+    | Non-Jet | BENBU<br>KADOM | **ANKUB** SID, RADAR Transition |
+    | Non-Jet | All others | **RADAR** SID |
 
 !!! warning "Important"
     Some jet aircraft may require the use of the **RADAR** SID and will communicate this requirement when requesting airways clearance (see [Climb Gradient Requirements](#climb-gradient-requirements)).
@@ -523,32 +533,34 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
 === "RWY 07"
     | Runway | Via | Departure Frequency |
     | ------ | ---- | -------------------- |
+    | 07 | ANKUB SID<br>Tracking N, or NE | 123.0 (SDN) |
     | 07 | FISHA SID, OLSEM Transition<br>Tracking N, or NE | 123.0 (SDN) |
     | 07 | FISHA SID, WOL Transition<br>Tracking S, W, or SW | 129.7 (SDS) |
 
 === "RWY 16s"
     | Runway | Via  | Departure Frequency |
     | ------ | ---- | -------------------- |
-    | 16L | ABBEY SID, WOL Transition<br>Tracking S or SW | 129.7 (SDS) |
+    | 16L | ABBEY SID<br>Tracking S or SW | 129.7 (SDS) |
 	| 16L | KEVIN SID<br>Tracking SE, E, NE, or N | 123.0 (SDN) |
     | 16R | All | 129.7 (SDS) |
 
 === "RWY 25"
     | Runway | Via  | Departure Frequency |
     | ------ | ---- | -------------------- |
-    | 25 | Tracking N, or NE | 123.0 (SDN) |
+    | 25 | AVMOV SID<br>KADOM SID<br>Tracking N, or NE | 123.0 (SDN) |
     | 25 | Tracking S, W, or SW  | 129.7 (SDS) |
 
 === "RWY 34s"
     | Runway | Via  | Departure Frequency |
     | ------ | ---- | -------------------- |
-    | 34L | RIC SID<br>Tracking N, or NE | 123.0 (SDN) |
-    | 34L | KADOM SID<br>WOL SID<br>Tracking S, W, or SW | 129.7 (SDS) |
-    | 34R | OLSEM SID<br>Tracking N, or NE | 123.0 (SDN) |
-    | 34R | MARUB SID, WOL Trans<br>Tracking S, W, or SW | 129.7 (SDS) |
+    | 34L | AVMOV SID<br><br>Tracking N, or NE | 123.0 (SDN) |
+    | 34L | KADOM SID<br>TONTO SID<br>Tracking S, W, or SW | 118.4 (SWD) |
+    | 34L | STUIE SID<br>Tracking NW | 135.9 (SRA) |
+    | 34R | MARUB SID<br>OLSEM SID<br>Tracking N, or NE | 123.0 (SDN) |
+    | 34R | MARUB SID, WOL Transition<br>Tracking S, W, or SW | 129.7 (SDS) |
 
 
-### Standard Assignable Departure Headings
+### Standard Assignable Departure Headings - REWORK
 Aircraft that have been cleared the **SY (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required to the SY TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
 
 | Runway     | Jet         | Non-Jet                                        |
