@@ -129,7 +129,18 @@ Aircraft arriving from TOP gate and BOTTOM gate will join the stereo approach at
 
 ### VFR Corridor
 #### Katherine Helicopter Corridor
-The Katherine Helicopter Corridor facilitates helicopter movement between private helipads at Katherine Railway Station, Springvale Homestead, Moonraker, Katherine Showgrounds, Katherine Hospital (YXAE), Katherine Museum, Kumbidgee Lodge, Maude Creek Airstrip (YMUD), and Katherine Gorge Helipad. It extends 1NM either side of the Victoria Highway from the Katherine Railway Station to the Stuart Highway, then 1NM either side of the Katherine River north to Katherine Gorge.
+The Katherine Helicopter Corridor facilitates helicopter movement between private helipads at:
+
+- Katherine Railway Station
+- Springvale Homestead
+- Moonraker, Katherine Showgrounds
+- Katherine Hospital (YXAE)
+- Katherine Museum
+- Kumbidgee Lodge
+- Maude Creek Airstrip (YMUD)
+- Katherine Gorge Helipad
+
+It extends 1NM either side of the Victoria Highway from the Katherine Railway Station to the Stuart Highway, then 1NM either side of the Katherine River north to Katherine Gorge.
 
 <figure markdown>
 ![Katherine Helicopter Corridor](img/tn_katherine_heli.png){ width="700" }
