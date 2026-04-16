@@ -272,10 +272,10 @@
 *[NFNAA]: Nausori Approach
 *[MI NDB]: Momi
 *[VK NDB]: Navakai
-*[PAL]: Port Adelaide
 *[ACE]: Academy
 *[ADI]: Admiralty Island
 *[ADWD]: Adventure World
+*[ANP]: Antill Plains
 *[APL]: Albert Park Lake
 *[AV]: Avalon
 *[AY]: Albury
@@ -290,6 +290,8 @@
 *[CARR]: Carrum
 *[CBRG]: Centenary Bridge
 *[CBV]: Craigbourne Reservoir
+*[CCL]: Cape Cleveland
+*[CEN]: Clevedon
 *[CGB]: Craigieburn Overpass
 *[CGD]: Cudgen Headland
 *[CGF]: Cape Grafton
@@ -308,6 +310,7 @@
 *[DLY]: Dunalley
 *[DMW]: Dam Wall
 *[DNGR]: Point Danger
+*[DOP]: Donnington Airpark
 *[DRLD]: Dreamworld
 *[DRP]: Droughty Point
 *[DSN]: Doncaster Shopping Town
@@ -322,6 +325,7 @@
 *[FTAs]: Flying Training Areas
 *[FWO]: Freeway Overpass
 *[GGO]: Goonoo Goonoo Station
+*[GIRU]: Giru
 *[GMH]: GMH (General Motors Holden)
 *[GON]: Goodna
 *[GRB]: Georges River Bridge
@@ -334,15 +338,19 @@
 *[KAO]: Kalkallo
 *[KCFF]: Kingscliff
 *[KRMD]: Kurmond
+*[KSPT]: Kissing Point
 *[LAUD]: Lauderdale
 *[LPT]: Lee Point
 *[LTV]: Latrobe Valley
 *[LUY]: Latrobe University
 *[MAL]: Manilla
+*[MBC]: Mount Black
 *[MBHM]: Manly Boat Harbour
+*[MBHR]: Mouth of the Bohle River
 *[MB]: Moorabbin
 *[MCG]: Melbourne Cricket Ground
 *[MEG]: Menangle
+*[MMT]: Mt Margaret
 *[MNG]: Mangalore
 *[MTWK]: Mount Walker
 *[MVC]: Moonee Valley Racecourse
@@ -354,6 +362,8 @@
 *[OAKF]: Oakford
 *[OFTA]: Oakey Flying Training Area
 *[OHB]: Outer Harbor
+*[ORKS]: Orchard Rocks
+*[PAL]: Port Adelaide
 *[PCTY]: Perth City
 *[PIC]: Picton
 *[PKR]: Park Ridge Water Tower
@@ -363,8 +373,11 @@
 *[PWLC]: Powerline Crossing
 *[RADT]: Radio Telescope
 *[RCH]: Richmond
+*[RKI]: Rattlesnake Island
+*[RMT]: Round Mountain
 *[ROK]: Rockbank
 *[ROTC]: Robina Town Centre
+*[RRDM]: Ross River Dam
 *[RUSS]: Russell
 *[SBD]: Story Bridge
 *[SHOL]: Shoal
@@ -372,15 +385,20 @@
 *[SNP]: Station Pier
 *[SORL]: Sorell
 *[STOT]: Stotts Island
+*[SUNZ]: Sun Zinc Refinery
 *[SWTA]: South Western Training Area
 *[SWT]: Sunbury Water Tank
 *[TAR]: Target
 *[TCH]: Talc Head
 *[THK]: The Oaks
+*[TNCR]: The Corner
+*[TNP]: Thornton Gap
+*[TOOU]: Toomulla
 *[TVT]: TV Towers
 *[TWRN]: Two R N
 *[UQLD]: University of Queensland
 *[WBH]: Wallabadah
+*[WEP]: West Pt
 *[WES]: West Gate Bridge
 *[WMS]: Williamstown
 *[WOW]: White Onion Water Tower
@@ -388,6 +406,7 @@
 *[WSL]: West Sale
 *[WSM]: West Arm
 *[WTBG]: Walter Taylor Bridge
+*[YBU]: Yabulu
 *[YGB]: Yangebup Lake
 *[YYN]: Yan Yean Reservoir
 *[ZIN]: Zuizin Island
