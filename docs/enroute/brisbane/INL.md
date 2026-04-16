@@ -191,7 +191,7 @@ The following subsectors are responsible for issuing STAR clearance.
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
 | BUR  | [No^](#arrivals-via-bn) |     | Descent not below `F190` |
-| INL  | BERNI | All | Descent not below `F190`<br>VESOK/OVREX Transition [(when applicable)](#berni-transitions) |
+| INL  | BERNI | All | Initial descent not below `F190`<br>VESOK/OVREX Transition [(when applicable)](#berni-transitions) |
 | NSA  | [No^](#arrivals-via-bn)   |     | Descent not below `F190` |
 | SDY  | LAMSI | All |       |
 
@@ -202,7 +202,19 @@ Arrivals from other sectors should be issued with descent and tracking instructi
 ##### Arrivals via BN
 There is no STAR available to facilitate aircraft arriving from the north west. INL(BUR/NSA) will instruct these aircraft `BN Y177 IDRIL NOPAS GOMOL` prior to handoff to BN TCU, who will then facilitate further descent. Aircraft will then be given further instructions by BAC according to the runway in use.
 
-##### BERNI Transitions
+##### Arrivals via BERNI
+YBCG arrivals from the south will transit BAA airspace as they descend. INL will provide these aircraft with their STAR clearance and initial descent, and then issuing further descent to meet [voiceless coordination criteria](#arrivals-overfliers).
+
+BAA is then responsible for facilitating descent to these aircraft to `A090` (or an otherwise [coordinated level](../../../terminal/brisbane/#between-bac-and-baa)), before handing the aircraft to BAC.
+
+Alternately, BAA may coordinate `A090` and "[no frequency requirements](../../../controller-skills/coordination/#no-frequency-requirements-nfr)" with INL, if traffic levels allow. This permits IBL to provide the aircraft with continuous descent as they transit the TMA. BAA is responsible for [onwards coordination](../../../controller-skills/coordination/#onwards-coordination) to BAC, if an altitude other than `A090` is assigned.
+
+!!! phraseology
+    <span class="hotline">**BAA** -> **INL**</span>: "JST458, `A080` and no frequency requirements. My onwards with BAC."  
+    <span class="hotline">**INL** -> **BAA**</span>: "JST458, `A080`, yours with BAC."  
+    *INL will put BAA C080 NFR in the label data, and hand the aircraft directly off to BAC.*
+
+###### BERNI Transitions
 When the Evans Head Military Restricted Areas (R638) are activated, aircraft must be assigned the **BERNI** SID with either the **OVREX** (if tracking via Y54) or **VESOK** (if tracking via Y43) transition. These transitions will ensure the aircraft remains clear of the restricted area.
 
 <figure markdown>
@@ -215,7 +227,21 @@ By default, vatSys will select the BERNI STAR with no transition. This can be ma
 #### Sequencing
 Initial sequencing is performed by all sectors, with the final sequencing action performed by GOL.
 
-<!-- ###YBNA --->
+### YBNA
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
+
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| INL  | UPSEL | All |            |
+
+Arrivals from other sectors should be issued with descent and tracking instructions appropriate for the runway configuration, following [coordination](#bn-tcu-bac-baa).
+
+##### Runway 06 Arrivals
+When the Evans Head Military Restricted Areas (R638) are activated, aircraft must be assigned the UPSEL **XRAY** or **YANKEE** STARs, rather than the ALPHA or BRAVO. These prcocedures will ensure the aircraft remains clear of the [restricted area](../../../controller-skills/sua/#restricted-areas).
+
+#### Sequencing
+INL is responsible for initial sequencing for aircraft arriving from the south. NSA, SDY and GOL are responsible for initial sequencing for aircraft arriving from the north/east, with final sequencing actions are performed by GOL.
 
 ### YBSU
 #### STAR Assignment
@@ -324,9 +350,9 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcubac). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 
 ## Coordination
-### BN TCU/BAC
+### BN TCU/BAC/BAA
 #### Airspace
-The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, where it is `SFC` to `A075` in the northwest, and `SFC` to `F125` in the southeast.
+The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAA airspace, where it is `SFC` to `F125`, and in BAC airspace, where it is `SFC` to `A075` in the northwest, and `SFC` to `F125` in the southeast.
 
 Refer to [Brisbane TCU Airspace Division](../../../terminal/brisbane/#airspace-division) for information on airspace divisions when **BAS**, **BDN** and/or **BDS** are online.
 
@@ -339,6 +365,9 @@ Voiceless for all aircraft:
 - With ADES **YBCG**:
 	- Assigned a STAR, and assigned `F130`; or
 	- Tracking via **`BN Y177 IDRIL NOPAS GOMOL`**, and assigned `F190`.
+- With ADES **YBNA**:
+    - Assigned a STAR; and
+    - Assigned `F120`
 
 Additionally, voiceless coordination exists between INL and BN TCU for **YBCG** arrivals tracking via **BN** and assigned `F190`.
 
@@ -353,14 +382,17 @@ Voiceless for aircraft:
 - With ADEP **YBCG**  
     - Tracking via **APAGI** and assigned the lower of `F120` or the `RFL`; or  
     - Tracking via **BN** and assigned the lower of `F180` or the `RFL`  
+- With ADEP **YBNA**
+    - Tracking via **IDNER** or **BUVAM**; an
+    - Assigned the lower of `F120` of the `RFL`
 - With ADES **YBSU**  
     - Assigned the **ITIDE** STAR; and  
     - Assigned `F130`
 
 !!! note
-    ^Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+    ^Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
 	
-All other aircraft going to INL CTA will be **Heads-up** Coordinated by BN TCU/BAC.
+All other aircraft going to INL CTA will be **Heads-up** Coordinated by BN TCU/BAC/BAA.
 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.

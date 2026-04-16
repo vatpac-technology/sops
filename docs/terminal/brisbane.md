@@ -15,6 +15,7 @@
 | <span class="indented">Brisbane Radar :material-information-outline:{ title="Non-standard position"}            | SHN | Brisbane Centre     | 119.500 | BN-R_DEP |
 | <span class="indented">Brisbane Flow :material-information-outline:{ title="Non-standard position"}             | BFL |                     |         | BN_FMP   |
 | **Gold Coast Approach**       | **BAC** | **Brisbane Approach**   | **123.500** | **BN-C_APP**  |
+| <span class="indented">Ballina Approach :material-information-outline:{ title="Non-standard position"}          | BAA | Ballina Approach    | 118.350 | BA_APP   |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
@@ -24,13 +25,23 @@
 The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, where it is `SFC` to `A075` in the North West, and `SFC` to `F125` in the South East.
 
 ### Reclassifications
-#### AF CTR
-AF CTR reverts to Class G when **AF ADC** is offline, and is administered by the relevant BN TCU controller.
+=== "AF CTR"
+    AF CTR reverts to Class G when **AF ADC** is offline, and is administered by the relevant BN TCU controller.
 
-See also: [AF ADC Offline](#af-adc-offline).
+    See also: [AF ADC Offline](#af-adc-offline).
+
+=== "BA CTR"
+    BA CTR reverts to Class G below `A045` when **BA ADC** is offline, and is administered by **BA_APP**.
+
+    See also: [BA ADC Offline](#ba-adc-offline).
+
+=== "CG CTR"
+    CG CTR reverts to Class G below `A035` when **CG ADC** is offline, and is administered by the BAC. Alternatively, BAC may provide a [top-down aerodrome service](../../aerodromes/classc/GoldCoast) if they wish.
+
+    See also: [CG ADC Offline](#cg-adc-offline).
 
 ### Airspace Division
-The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **BAC** change based on the Runway Mode.
+The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, **BAC**, and **BAA** change based on the Runway Mode.
 
 !!! note
     The following diagrams do not include non BN TCU areas of responsibility such as AF CTR or CG ADC
@@ -61,7 +72,7 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, and **
 		
 		The controller may connect as either position, and assume both frequencies. 
         
-        Only **two** TCU controllers may operate the BN TMA when running the SODPROPS runway mode (excluding an additional SHN or BAC controller if desired).
+        Only **two** TCU controllers may operate the BN TMA when running the SODPROPS runway mode (excluding an additional SHN, BAC, and BAA controller if desired).
 
 #### Brisbane Radar (SHN)
 SHN is responsible for the provision of FIS in Class G airspace within the BN TMA. The role can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordation requirements](#between-shn-and-tcu) exist between SHN and other TCU positions.  
@@ -79,13 +90,13 @@ Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac
     - **BAS** and **BDS** combined.
 
 ## Extending
-BN TCU may extend to BAC and vice versa; callsigns remain the same. See [Controller Skills](../controller-skills/extending.md) for details.
+BN TCU may extend to BAC/BAA and vice versa; callsigns remain the same. See [Controller Skills](../../controller-skills/extending/#terminal-area) for details.
 
 ## Separation
 ### Parallel Runway Operations
 Aircraft joining parallel instrument approaches must remain separated from aircraft on the adjacent approach until they are established. This usually involves keeping aircraft vertically separated and may require aircraft to intercept the localiser/final approach course/RNP AR track and maintain their assigned level, only allowing descent on the approach once they are established.  
 
-Two aircraft cleared for adjacent instrument approaches must maintain the following [minimum lateral separation](../separation-standards/parallelapps.md):
+Two aircraft cleared for adjacent instrument approaches must maintain the following [minimum lateral separation](../../separation-standards/parallelapps):
 
 | Situation | Lateral Separation Standard |
 | --- | --- |
@@ -119,6 +130,18 @@ There is no STAR available to facilitate aircraft arriving from the north west. 
 
 !!! note
     Aircraft tracking via the above routing does **not** constitute a voiceless coordination route between BAN/BDS and BAC. Aircraft should still be heads-up coordinated to BAC prior to **5 minutes** to the boundary, unless coordinated otherwise.
+    
+#### BERNI Arrivals
+YBCG arrivals from the south will transit BAA airspace as they descend. INL will provide these aircraft with their STAR clearance and initial descent according to the [voiceless coordination criteria](#arrivals)
+
+BAA is then responsible for facilitating descent to these aircraft to `A090` (or an otherwise [coordinated level](#between-bac-and-baa)), before handing the aircraft to BAC.
+
+Alternately, BAA may coordinate `A090` and "[no frequency requirements](../../controller-skills/coordination/#no-frequency-requirements-nfr)" with INL, if traffic levels allow. This permits IBL to provide the aircraft with continuous descent as they transit the TMA. BAA is responsible for [onwards coordination](../../controller-skills/coordination/#onwards-coordination) to BAC, if an altitude other than `A090` is assigned.
+
+!!! phraseology
+    <span class="hotline">**BAA** -> **INL**</span>: "JST458, `A080` and no frequency requirements. My onwards with BAC."  
+    <span class="hotline">**INL** -> **BAA**</span>: "JST458, `A080`, yours with BAC."  
+    *INL will put BAA C080 NFR in the label data, and hand the aircraft directly off to BAC.*
 
 ## Tower Offline
 ### AF ADC Offline
@@ -132,6 +155,18 @@ Due to the low level of CTA (`A015`) in the AF CTR when **AF ADC** is offline, i
     **ABC**: "ABC, Ready Runway 28R, Request clearance"  
     **BN TCU**: "ABC, Cleared to YBSU via BN, Flight Planned Route. Make Visual right turn DCT BN, Climb to A030"  
     **ABC**: "Cleared to YBSU via BN, Flight Planned Route. Make Visual right turn DCT BN, Climb to A030, ABC"
+
+### BA ADC Offline
+Due to the low level of CTA (`A045`) in the BA CTR when **BA ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
+
+!!! phraseology
+    **JST459**: "Ballina Approach, JST459, A320 IFR, Taxiing YBNA for YSSY, Runway 06"   
+    **BN TCU**: "JST459, Ballina Approach, Squawk 3601, no reported IFR traffic, report ready at the holding point for airways clearance"  
+    **JST459**: "Squawk 3601, wilco, JST459"  
+
+    **JST459**: "JST459, ready Runway 06, request clearance"  
+    **BN TCU**: "JST459, cleared to YSSY via IDNER, flight planned route. climb to A040"  
+    **JST459**: "Cleared to YSSY via IDNER, flight planned route, climb to A040, JST459"
 
 ### CG ADC Offline
 Due to the low level of CTA (`A035`) in the CG CTR when **CG ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
@@ -356,15 +391,18 @@ Voiceless for aircraft:
     - Assigned the lower of `F180` or the `RFL`  
 - With ADEP **YBCG**  
     - Tracking via **APAGI** and assigned the lower of `F120` or the `RFL`; or  
-    - Tracking via **BN** and assigned the lower of `F180` or the `RFL`  
+    - Tracking via **BN** and assigned the lower of `F180` or the `RFL`
+- With ADEP **YBNA**
+    - Tracking via **IDNER** or **BUVAM**; an
+    - Assigned the lower of `F120` of the `RFL`
 - With ADES **YBSU**  
     - Assigned the **ITIDE** STAR; and  
     - Assigned `F130`
 
 !!! note
-    ^Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**.
+    ^Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**.
 	
-All other aircraft going to INL CTA will be **Heads-up** coordinated by BN TCU/BAC.
+All other aircraft going to INL CTA will be **Heads-up** coordinated by BN TCU/BAC/BAA.
 
 !!! phraseology
     <span class="hotline">**BAC** -> **GOL**</span>: "Departing YBCG, X4C, do you have any Restrictions or Requirements?"  
@@ -379,8 +417,11 @@ Voiceless for all aircraft:
 - With ADES **YBCG**:
 	- Assigned a STAR, and assigned `F130`; or
 	- Tracking via **`BN Y177 IDRIL NOPAS GOMOL`**, and assigned `F190`.
+- With ADES **YBNA**:
+    - Assigned a STAR; and
+    - Assigned `F120`
 
-All other aircraft coming from INL CTA must be **Heads-up** coordinated to BN TCU/BAC prior to **20nm** from the boundary.
+All other aircraft coming from INL CTA must be **Heads-up** coordinated to BN TCU/BAC/BAA prior to **20nm** from the boundary.
 
 ### BN ADC
 #### Auto Release
@@ -427,13 +468,11 @@ Voiceless Coordination is in place for aircraft transiting between BN APP/DEP po
   - Assigned a STAR; and
   - Descending via STAR to `A080`
 
-
 All other aircraft, including aircraft that transit between internal BN TCU boundaries, must be heads-up coordinated.
 
 !!! phraseology
     <span class="hotline">**BDS** -> **BAS**</span>: "via MAKRU, QFA904"  
     <span class="hotline">**BAS** -> **BDS**</span>: "QFA904, A050"
-
 
 #### Between BAC and APP/DEP
 YBCG arrivals and departures **do not** meet the voiceless criteria between APP/DEP and BAC, and must be heads-up coordinated.
@@ -441,30 +480,22 @@ YBCG arrivals and departures **do not** meet the voiceless criteria between APP/
 !!! phraseology
     <span class="hotline">**BDS** -> **BAC**</span>: "via NOPAS, A2B"  
     <span class="hotline">**BAC** -> **BDS**</span>: "A2B, `A070`"
+    
+#### Between BAC and BAA
+Voiceless coordination is in place for aircraft transiting between BAA and BAC positions, provided the aircraft is:
+
+- With ADES **YBCG**
+  - Assigned a STAR; and
+  - Descending via STAR to to `A090`.
+
+All other aircraft must be heads-up coordinated.
+
+!!! phraseology
+    <span class="hotline">**BAA** -> **BAC**</span>: "via IPNOS, XYZ"  
+    <span class="hotline">**BAC** -> **BAC**</span>: "XYZ, `A070`"
 
 #### Between SHN and TCU
 Standard [Radar to TCU](../controller-skills/coordination.md#radar-position-tcu-controllers) coordination for each aircraft transiting between Class G and CTA (or vice versa).
-
-
-### CG ADC
-#### Airspace
-CG ADC is responsible for the Class C Airspace within the CG CTR `SFC` to `A015`.
-
-#### Auto Release
-[Next](../controller-skills/coordination.md#next) coordination is **not** required to BN TCU for aircraft that are:   
-  
-  - Departing from a runway nominated on the ATIS; and  
-  - Assigned the standard assignable level; and  
-  - Assigned a **Procedural** SID
-
-All other aircraft require a 'Next' call to CG TCU.
-
-The Standard Assignable level from CG ADC to BN TCU is:  
-
-| Aircraft | Level |
-| -------- | ----- |
-| Jets | `A060` |
-| Non-Jets | The lower of `A060` and `RFL` |
 
 ### AF ADC
 #### Airspace
@@ -489,6 +520,60 @@ VFR aircraft require a level readback.
 !!! phraseology
     <span class="hotline">**BN TCU** -> **AF ADC**</span>: "via TVT for the visual approach, UJE"  
     <span class="hotline">**AF ADC** -> **BN TCU**</span>: "UJE, visual approach"
+
+### BA ADC
+#### Airspace
+BA ADC is responsible for the Class D airspace within the BA CTR `SFC` to `A015`.
+
+Refer to [Reclassifications](#ba-ctr) for operations when BA ADC is offline.
+
+#### Auto Release
+[Next](../../controller-skills/coordination/#next) coordination is **not** required to BN TCU for aircraft that are:   
+  
+  - Departing from a runway nominated on the ATIS; and  
+  - Assigned the standard assignable level; and  
+  - Assigned a **Procedural** SID
+
+All other aircraft require a 'Next' call to BA TCU.
+
+The Standard Assignable level from BA ADC to BA TCU is:  
+
+| Aircraft | Level |
+| -------- | ----- |
+| All      | The lower of `A040` and `RFL` |
+
+
+#### Arrivals/Overfliers
+BAA will heads-up coordinate arrivals/overfliers from Class C to BA ADC prior to **5 mins** from the boundary.  
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to BA ADC, unless BA ADC nominates a restriction.
+
+VFR aircraft require a level readback.
+
+!!! phraseology
+    <span class="hotline">**BAA** -> **BA ADC**</span>: "via AVBAK for RNP-Y, QLK2035"  
+    <span class="hotline">**BA ADC** -> **BAA**</span>: "QLK2035, RNP-Y"
+
+### CG ADC
+#### Airspace
+CG ADC is responsible for the Class C Airspace within the CG CTR `SFC` to `A015`.
+
+Refer to [Reclassifications](#cg-ctr) for operations when CGF ADC is offline.
+
+#### Auto Release
+[Next](../controller-skills/coordination.md#next) coordination is **not** required to BN TCU for aircraft that are:   
+  
+  - Departing from a runway nominated on the ATIS; and  
+  - Assigned the standard assignable level; and  
+  - Assigned a **Procedural** SID
+
+All other aircraft require a 'Next' call to CG TCU.
+
+The Standard Assignable level from CG ADC to BN TCU is:  
+
+| Aircraft | Level |
+| -------- | ----- |
+| Jets | `A060` |
+| Non-Jets | The lower of `A060` and `RFL` |
 
 ### AMB TCU
 All aircraft transiting from **BN TCU** to **AMB TCU** and vice versa must be [Heads-up](../controller-skills/coordination.md#heads-up) coordinated prior to the boundary. 
