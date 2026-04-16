@@ -41,28 +41,28 @@ ARA is responsibile for facilitating operations in and out of YBSG.
 
 ## Local Procedures
 ### Special Use Airspace
-There are multiple volumes of [SUA](../../controller-skills/sua) within ISA airspace, mostly associated with military operations in and out of YBSG.
+There are multiple volumes of [SUA](../../../controller-skills/sua) within ISA airspace, mostly associated with military operations in and out of YBSG.
 
 <figure markdown>
 ![Notable SUA in ISA Airspace](../img/isa_sua.png){ width="700" }
   <figcaption>Notable SUA in ISA Airspace</figcaption>
 </figure>
 
-SG TCU must [give heads up coordination](../../terminal/scherger/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
+SG TCU must [give heads up coordination](../../../terminal/scherger/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
 
 !!! phraseology
     <span class="hotline">**SGA** -> **ARA**</span>: "On the ground YBSG, FBED14, requests activation of M610A `F125-F245`, from 0300 until 0500.”  
     <span class="hotline">**ARA** -> **SGA**</span>: "FBED14, expect activation of M610A `F125-F245` at 0300 until 0500."   
     <span class="hotline">**SGA** -> **ARA**</span>: "FBED14."   
 
-Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../sua/#ad-hoc-activations).
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../sua/#ad-hoc-activations).
 
 #### M610A Scherger
-The M610A Scherger [MOA](../../controller-skills/sua/#military-operating-areas) is located over western coast of North Queensland and the Gulf of Carpentaria, `F125-F245`, located entirely in ARA airspace. 
+The M610A Scherger [MOA](../../../controller-skills/sua/#military-operating-areas) is located over western coast of North Queensland and the Gulf of Carpentaria, `F125-F245`, located entirely in ARA airspace. 
 
 The MOAs directly adjoin the SG TMA and when SGA is online aircraft will be transferred directly to/from the MOAs. When [WAL is offline](#reclassifications), aircraft will contact ARA for transit through the surrounding civilian airspace.
 
-Aircraft will generally enter and exit the MOA via the appropriate [military gate](../../terminal/scherger/#military-gates).
+Aircraft will generally enter and exit the MOA via the appropriate [military gate](../../../terminal/scherger/#military-gates).
 
 #### Townsville SUA
 There are two SUA associated with military operations at Townsville which clip ISA airspace: the R738G-H Townsville (Land) restricted areas.
