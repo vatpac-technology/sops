@@ -66,7 +66,7 @@ The [intial points](../../controller-skills/military/#initial-and-pitch) are ali
 | 32   | 3NM downwind  | `A020`   |
 
 ### Coded Clearances
-Aircraft departing to certain defined groups of SUA may be cleared a coded clearance.
+Aircraft departing to certain defined groups of SUA may be cleared via a coded clearance.
 
 | Coded Clearance | Restricted Areas |
 | --------------- | ---------------- |
