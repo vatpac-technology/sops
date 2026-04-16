@@ -107,7 +107,7 @@ Both helipads are outside of the manoeuvring area so no takeoff or landing clear
 !!! phraseology 
     **TN ADC**: "CHOP31, Pad 1, report on the ground"  
 
-#### Choppers East
+### Choppers East
 Helicopters perform circuits within '**Choppers East**', defined as an area between Taxiway Alpha the Old Stuart Highway, and the runway thresholds.
 
 <figure markdown>
