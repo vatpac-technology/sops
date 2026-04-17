@@ -560,7 +560,7 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
     | 34R | MARUB SID, WOL Transition<br>Tracking S, W, or SW | 129.7 (SDS) |
 
 
-### Standard Assignable Departure Headings - REWORK
+### Standard Assignable Departure Headings
 Aircraft that have been cleared the **SY (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required to the SY TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
 
 | Runway     | Jet         | Non-Jet                                        |
