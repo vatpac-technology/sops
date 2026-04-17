@@ -140,3 +140,9 @@ The boundaries of **WOL** are very slightly adjusting at the western edge near Y
 
 ##### Alice Springs
 The boundaries of **ASP(BKE)** are shrinking as KAT assumes responsibility for airspace westward towards YNYN. There are no changes to its responsibilities.
+
+##### Tamworth (YSTW)
+**TW ADC** will now have two different enroute controllers managing departures: GAH, ARL.
+
+##### Williamtown (YWLM)
+Special Use Airspace that was previously in ARL is now within MNN airspace. All coordination relating to **WAH** and SUA activations will now take place with them.
