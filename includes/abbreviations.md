@@ -89,6 +89,7 @@
 *[SDC]: Standard Departure Clearance
 *[SFC]: Surface
 *[SID]: Standard Instrument Departure
+*[SFIS]: Surveillance Flight Information Service
 *[SIS]: Surveillance Information Service (Flight Following)
 *[SMC]: Surface Movement Control (Ground Controller)
 *[SODPROPS]: Simultaneous Opposite Direction Parallel Runway Operations
