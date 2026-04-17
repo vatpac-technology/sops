@@ -40,12 +40,12 @@ Previously uncontrolled airspace surrounding YBNA is being reclassified:
 
 The **Brisbane/Gold Coast TCU** is being extended to cover the newly reclassified airspace. A new TCU controller, **BAA** (*'Ballina Approach'*), is being introduced as a child position of **BAC**, and will have primary responsibility for the area.
 
-Please see the **[Upcoming Brisbane TCU SOPs](/brisbane)** for full details about aerodrome operations.
+Please see the **[Upcoming Brisbane TCU SOPs](/brisbane)** for full details about TCU operations.
 
 #### Enroute
 **INL** has new responsibilities relating to YBNA, including STAR assignment and sequencing.
 
-Please see the **[Upcoming Inverell SOPs](/INL)** for full details about aerodrome operations.
+Please see the **[Upcoming Inverell SOPs](/INL)** for full details about INL operations.
 
 ### Sydney/Nancy-Bird Walton Airport (YSWS)
 **Sydney/Nancy-Bird Walton Airport** is a newly constructed airport in Sydney's west, following a multi-billion dollar project designed to alleviate congestion at Sydney/Kingsford Smith (YSSY).
@@ -101,7 +101,7 @@ Another new TCU controller, **SRA** (*'Richmond Approach'*), is being introduced
 
 Yet another new TCU controller, **SBA** (*'Bankstown Approach'*), is being introduced as a child position of **SAS**, with jurisdiction over two lower level volumes of airspace used by aircraft arriving and departing YSBK.
 
-Please see the **[Upcoming Sydney TCU SOPs](/sydney-tcu)** for full details about aerodrome operations.
+Please see the **[Upcoming Sydney TCU SOPs](/sydney-tcu)** for full details about TCU operations.
 
 #### Enroute
 The boundaries of several enroute positions are changing, as is the YBBB/YMMM FIR boundary.
@@ -115,7 +115,7 @@ This area roughly aligned with the previous MDE, CNK, and ARL subsectors, but al
 
 The main responsibilities of this sector is to process and sequence arrivals to YSSY and YSWS, with additional responsibilities relating to YSTW and YBBN-YPAD traffic.
 
-Please see the **[Upcoming Gunnedah SOPs](/GAH)** for full details about aerodrome operations.
+Please see the **[Upcoming Gunnedah SOPs](/GAH)** for full details about GAH operations.
 
 ##### Manning (MNN)
 **MNN** will have two child sectors: **MLD** and **OCN**.
@@ -124,7 +124,7 @@ These three positions were previously children of the ARL parent position, but a
 
 The main responsibilities of this sector is to process departures out of the SY TCU, with additional responsibilities relating to YWLM traffic.
 
-Please see the **[Upcoming Manning SOPs](/MNN)** for full details about aerodrome operations.
+Please see the **[Upcoming Manning SOPs](/MNN)** for full details about MNN operations.
 
 ##### Gundagai (GUN)
 The boundaries of **GUN** are changing. 
@@ -133,7 +133,7 @@ The boundaries of **GUN** are changing.
 - **BIK** is adjusting size to accomodate an expansion in KAT airspace close to the SY TCU boundary. BIK retains responsibility for the airspace above the SY TCU. 
 - **GUN** is shrinking slightly as the BIK subsector extends westward. GUN will have additional responsibilities for processing arrivals to YSWS.
 
-Please see the **[Upcoming Gundagai SOPs](/GUN)** for full details about aerodrome operations.
+Please see the **[Upcoming Gundagai SOPs](/GUN)** for full details about GUN operations.
 
 ##### Wollongong
 The boundaries of **WOL** are very slightly adjusting at the western edge near YSCB. The sector will experience an increase in responsibilities for managing southbound departures from YSWS.
