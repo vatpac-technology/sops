@@ -18,7 +18,7 @@
 | <span class="indented">Sydney Flow :material-information-outline:{ title="Non-standard position"}               | SFL |                    |         | SY_FMP   |
 | <span class="indented">Bankstown Approach :material-information-outline:{ title="Non-standard position"}        | SBA | Bankstown Approach | 125.800 | BK_APP   |
 | <span class="indented">Richmond Approach :material-information-outline:{ title="Non-standard position"}         | SRA | Richmond Approach  | 135.900 | RI_APP   |
-| <span class="indented">Nancy-Bird Walton Departures :material-information-outline:{ title="Non-standard position"} | SWD | Walton Departures | 118.400 | WS_DEP |
+| <span class="indented">Nancy-Bird Walton Approach :material-information-outline:{ title="Non-standard position"} | SWA | Walton Approach   | 118.400 | WS_APP   |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  

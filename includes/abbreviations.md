@@ -131,10 +131,11 @@
 *[WIIF]: Jakarta FIR
 *[YBBB]: Brisbane FIR
 *[YMMM]: Melbourne FIR
-*[ARL]: Brisbane (Armidale) Centre
+*[GAH]: Brisbane (Gunnedah) Gentre
 *[INL]: Brisbane (Inverell) Centre
 *[ISA]: Brisbane (Mt Isa) Centre
 *[KEN]: Brisbane (Kennedy) Centre
+*[MNN]: Brisbane (Manning) Centre
 *[TRT]: Brisbane (Territory) Centre
 *[IND]: Brisbane (Indian) Radio
 *[TSN]: Brisbane (Tasman) Radio
@@ -146,23 +147,26 @@
 *[PIY]: Melbourne (Pingelly) Centre
 *[TBD]: Melbourne (Tailem Bend) Centre
 *[YWE]: Melbourne (Yarrowee) Centre
+*[ARL]: Brisbane (Armidale) Centre
 *[ARA]: Brisbane (Arafura) Centre
 *[ARE]: Brisbane (Arafura East) Centre
 *[BAR]: Brisbane (Barra) Centre
 *[BUR]: Brisbane (Burnett) Centre
 *[CVN]: Brisbane (Carnarvon) Centre
 *[CNK]: Brisbane (Cessnock) Centre
+*[DEN]: Brisbane (Denman) Centre
 *[DOS]: Brisbane (Downs) Centre
 *[GOL]: Brisbane (Gold Coast) Centre
 *[KPL]: Brisbane (Keppel) Centre
 *[KIY]: Brisbane (Kimberley) Centre
+*[LIG]: Brisbane (Lightning) Centre
 *[ASH]: Brisbane (Ashmore) Centre
 *[TRS]: Brisbane (Territory South) Centre
 *[MLD]: Brisbane (Maitland) Centre
-*[MNN]: Brisbane (Manning) Centre
-*[MDE]: Brisbane (Mudgee) Centre
+*[MOR]: Brisbane (Moree) Centre
 *[NSA]: Brisbane (Noosa) Centre
 *[OCN]: Brisbane (Ocean) Centre
+*[RYS]: Brisbane (Rylstone) Centre
 *[SDY]: Brisbane (Straddy) Centre
 *[STR]: Brisbane (Sturt) Centre
 *[SWY]: Brisbane (Swampy) Centre
@@ -179,6 +183,7 @@
 *[BLA]: Melbourne (Benalla) Centre
 *[BKE]: Melbourne (Bourke) Centre
 *[SCR]: Melbourne (Cross) Centre
+*[DAL]: Melbourne (Dally) Centre
 *[ESP]: Melbourne (Esperance) Centre
 *[FOR]: Melbourne (Forrest) Centre
 *[FOW]: Melbourne (Forrest West) Centre
@@ -190,6 +195,7 @@
 *[JAR]: Melbourne (Jarrah) Centre
 *[KAT]: Melbourne (Katoomba) Centre
 *[LEA]: Melbourne (Leeman) Centre
+*[LEO]: Melbourne (Leonora) Centre
 *[MEK]: Melbourne (Meekatharra) Centre
 *[MZI]: Melbourne (Menzies) Centre
 *[MTK]: Melbourne (Mount) Centre
@@ -240,11 +246,14 @@
 *[PHR]: Perth Radar
 *[SAN]: Sydney Approach North
 *[SAS]: Sydney Approach South
+*[SBA]: Bankstown Approach
 *[SDN]: Sydney Departures North
 *[SDS]: Sydney Departures South
 *[SFW]: Sydney Director West
 *[SFE]: Sydney Director East
-*[SRI]: Sydney Radar
+*[SRA]: Richmond Approach
+*[SWA]: Walton Approach 
+*[SYC]: Sydney Centre
 *[SGA]: Scherger Approach
 *[TNA]: Tindal Approach
 *[WAH]: Williamtown Approach (High)

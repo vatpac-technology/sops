@@ -158,34 +158,37 @@ When implementing the Pushback Requests on ACD procedure, the OPR INFO shall inc
 - Assigned the standard assignable level; and  
 - Assigned a **Procedural** SID or the **Radar** SID with a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
-All other aircraft require a 'Next' call to WS TCU.
+All other aircraft require a 'Next' call to SWA.
 
 'Next' coordination is additionally required for:  
  
 - [After a go around](../../../controller-skills/coordination/#after-a-go-around), the next departure from that runway  
 - All aircraft during the [RRO](#reciprocal-runway-operations) runway mode.
 
-The Standard Assignable level from WS ADC to WS TCU is: 
+The Standard Assignable level from WS ADC to SWA is: 
 
 | Aircraft | Level  |
 | -------- | ------ |
-| Jets     | `A000` |
-| Non-Jets | The lower of `A000` and `RFL` |
+| Jets     | `A050` |
+| Non-Jets | The lower of `A030` and `RFL` |
 
 ### Departures Controller
-When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate Enroute controller or Advisory frequency shall be issued.
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate enroute controller or advisory frequency shall be issued.
 
+| Runway | Via  | Departure Frequency |
+| ------ | ---- | ------------------- |
+| All    | All  | 118.4 (SWA) |
 
 ### Standard Assignable Departure Headings
-Aircraft that have been cleared the **WS (RADAR)** SID must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required to the WS TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
+Aircraft that have been cleared the **WS (RADAR)** SID must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required to SWA when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
 
 | Runway     | All Aircraft |
 | ---------- | ------------ |
-| RWY 05     | HXXX         |
-| RWY 23     | HXXX         |
+| RWY 05     | H045         |
+| RWY 23     | H230         |
 
 #### ACD to SY TCU
-The controller assuming responsibility of **WS ACD** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to WS TCU prior to the issue of the following clearances: 
+The controller assuming responsibility of **WS ACD** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to SWA prior to the issue of the following clearances: 
 
 - VFR departures
 - Aircraft using a runway not on the ATIS

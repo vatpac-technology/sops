@@ -528,7 +528,7 @@ The Standard Assignable level from SY ADC to SY TCU is:
 | Non-Jets | The lower of `A030` and `RFL` |
 
 ### Departures Controller
-When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate Enroute controller or Advisory frequency shall be issued.
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate cnroute controller or advisory frequency shall be issued.
 
 === "RWY 07"
     | Runway | Via | Departure Frequency |
