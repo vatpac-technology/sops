@@ -26,7 +26,7 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 ### Instrument Approaches
 The only instrument approach at YSCN is the RNP W approach.  This approach commences OCTA and enters the Camden control zone.  
 
-SY TCU **will not** clear aircraft for the approach (as it commences OCTA) and will transfer aircraft to **CN ADC** at `SCNWI`.  **CN ADC** shall issue airways clearance on first contact in accordance with the table below.  
+SY TCU **will not** clear aircraft for the approach (as it commences OCTA) and will transfer aircraft to **CN ADC** at `SC2WI`.  **CN ADC** shall issue airways clearance on first contact in accordance with the table below.  
 
 | Scenario | Clearance |
 | -------- | --------- |

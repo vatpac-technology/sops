@@ -326,9 +326,9 @@ Voiceless to all surrounding Enroute sectors for all aircraft:
     - **AV**
 
 !!! note
-    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**.
 
-All other aircraft going to Enroute CTA must be **Heads-up** Coordinated by ML TCU prior to the boundary.
+All other aircraft going to Enroute CTA must be **Heads-up** coordinated by ML TCU prior to the boundary.
 
 !!! phraseology
     <span class="hotline">**ML TCU** -> **YWE**</span>: "QFA420, with your concurrence, will be assigned F190, for my separation with QLK52D"  
@@ -341,7 +341,7 @@ Voiceless for all aircraft:
 - Assigned a STAR; and  
 - Assigned `A090`
 
-All other aircraft coming from Enroute CTA will be **Heads-up** Coordinated to ML TCU.
+All other aircraft coming from Enroute CTA will be **Heads-up** coordinated to ML TCU.
 
 ### ML ADC
 #### Auto Release

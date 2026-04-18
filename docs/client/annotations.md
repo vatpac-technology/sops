@@ -144,3 +144,4 @@ Here is a complete list of standard annotations controllers should be entering i
 | Abeam | A/(position) | A/MDG |
 | Dead reckoning | | DR |
 | Pilot Estimate | (position)(time) | UVUPU0702 |
+| Aircraft communicating via CPDLC | | J |

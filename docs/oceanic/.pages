@@ -1,0 +1,8 @@
+title: Oceanic
+nav:
+    - Overview: index.md
+    - Procedures: procedures.md
+    - Positions:
+        - Indian (IND): IND.md
+        - Tasman (TSN): TSN.md
+    - ...

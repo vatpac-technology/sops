@@ -27,16 +27,7 @@ When **NFNA ADC** is offline, NFNA TCU below `A065` is reclassified as Class G a
 <!--	
 ## Extending
 -->
-## CPDLC
-The Primary Communication Method for NFFJ is Voice.
 
-[CPDLC](../../../client/cpdlc) may be used in lieu when applicable.
-
-The CPDLC Station Code is `NFFJ`.
-
-!!! tip
-    Even though NFFJ's Primary Communication Method is Voice, CPDLC may be used for Overfliers.
-	
 <!---## Sector Responsibilities
 ## Runway Modes
 

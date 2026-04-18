@@ -228,9 +228,9 @@ Voiceless for all aircraft:
 - Assigned the lower of `F240` or the `RFL`
 
 !!! note
-    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**.
 
-All other aircraft going to TBD CTA must be **Heads-up** Coordinated by AD TCU prior to the boundary.
+All other aircraft going to TBD CTA must be **Heads-up** coordinated by AD TCU prior to the boundary.
 
 !!! phraseology
     <span class="hotline">**AD TCU** -> **TBD**</span>: "PFY1234, request DCT LOLLS"  
@@ -243,7 +243,7 @@ Voiceless for all aircraft:
 - Assigned a STAR; and  
 - Assigned `A090`
 
-All other aircraft coming from TBD CTA will be **Heads-up** Coordinated to AD TCU.
+All other aircraft coming from TBD CTA will be **Heads-up** coordinated to AD TCU.
 
 ### AD ADC
 #### Auto Release
