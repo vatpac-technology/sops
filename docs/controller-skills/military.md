@@ -73,7 +73,6 @@ The ICAOs for many common military aircraft may be unfamiliar to controllers use
 
 | ICAO | Aircraft                        | Type                 |
 | ---- | ------------------------------- | -------------------- |
-| APCH | Boeing AH-64 Apache             | Attack Helicopter    |
 | C17  | Boeing C-17 Globemaster         | Military Transport (Jet)       |
 | C27J | Alenia C-27J Spartan            | Military Transport (Turboprop) |
 | C30J | Lockheed Martin C-130J Hercules | Military Transport (Turboprop) |
@@ -83,6 +82,7 @@ The ICAOs for many common military aircraft may be unfamiliar to controllers use
 | F35  | Lockheed Martin F-35            | High-Performance Jet |
 | HAWK | BAE Systems Hawk                | Jet Trainer          |
 | H60  | Sikorski H-60 Blackhawk/Seahawk | Utility Helicopter   |
+| H64  | Boeing AH-64 Apache             | Attack Helicopter    |
 | P8   | Boeing P-8 Poseidon             | Military B737        |
 | P21  | Pilatus PC-21                   | Turboprop Trainer    |
 | TIGR | Eurocopter EC665 Tiger          | Attack Helicopter    |
@@ -188,7 +188,7 @@ Clearing an aircraft for a stereo approach gives aircraft permission to descend 
     **CLAS11**: "Tindal Approach, CLAS11. `A090` visual, for stereo approach with information A"  
     **TNA**: "CLAS11, Tindal Approach, track via stereo approach, not below `A060`"  
     **CLAS11**: "Track via stereo approach, not below `A060`, CLAS11"  
-    
+
 Stereo approaches should generally be used during high military traffic levels, and nominated on the appropriate aerodrome ATIS.
 
 ### Restricted Area Operations in Civil Airspace

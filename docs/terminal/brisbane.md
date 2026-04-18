@@ -362,9 +362,9 @@ Voiceless for aircraft:
     - Assigned `F130`
 
 !!! note
-    ^Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+    ^Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**.
 	
-All other aircraft going to INL CTA will be **Heads-up** Coordinated by BN TCU/BAC.
+All other aircraft going to INL CTA will be **Heads-up** coordinated by BN TCU/BAC.
 
 !!! phraseology
     <span class="hotline">**BAC** -> **GOL**</span>: "Departing YBCG, X4C, do you have any Restrictions or Requirements?"  
@@ -380,7 +380,7 @@ Voiceless for all aircraft:
 	- Assigned a STAR, and assigned `F130`; or
 	- Tracking via **`BN Y177 IDRIL NOPAS GOMOL`**, and assigned `F190`.
 
-All other aircraft coming from INL CTA must be **Heads-up** Coordinated to BN TCU/BAC prior to **20nm** from the boundary.
+All other aircraft coming from INL CTA must be **Heads-up** coordinated to BN TCU/BAC prior to **20nm** from the boundary.
 
 ### BN ADC
 #### Auto Release

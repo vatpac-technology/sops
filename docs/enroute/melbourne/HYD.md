@@ -19,9 +19,6 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
-### CPDLC
-The Primary Communication Method for HYD is Voice. [CPDLC](../../../client/cpdlc) may be used in lieu when applicable. The CPDLC Station Code is `YHYD`.
-
 ## Airspace
 <figure markdown>
 ![Hyden Airspace](../img/enr_diagrams/hyd.png){ width="700" }
@@ -82,6 +79,11 @@ The following subsectors are responsible for issuing STAR clearance.
 	| PIY  | JT **ROMEO**, LAVEX Trans | Non-Jet |      |
 
 Arrivals from the east and north shall be given initial descent to not below `F190`. **PIY** will issue final descent.
+
+!!! note
+    All STARs at YPJT terminate in radar vectors to the aerodrome and are not associated with a runway. No runway shall be issued with STAR clearance.
+
+    E.g. *"FD623, cleared JT3R arrival, maintain `F200`"*
 
 ### YPPH
 #### STAR Assignment
@@ -341,10 +343,10 @@ All other aircraft coming from PIY CTA must be **Heads-up** Coordinated to PH TC
 PEA is responsible for the restricted airspace within R155A and R155B. This airspace is reclassified to **Class C** when PEA is online. Additional airspace may be released by NOTAM, or coordinated between PEA, PH TCU, and LEA/PIY to facilitate military operations.
 
 !!! phraseology
-    <span class="hotline">**PEA** -> **PH TCU**</span>: "Request release of M166, SFC to F160, for Military Operations. My onwards with LEA"   
+    <span class="hotline">**PEA** -> **PH TCU**</span>: "Request release of M166, SFC to F160, for Military Operations. [My onwards](../../../controller-skills/coordination/#onwards-coordination) with LEA"   
     <span class="hotline">**PH TCU** -> **PEA**</span>: "M166, SFC to F160, released to you. Your onwards with LEA"  
 
-    <span class="hotline">**PEA** -> **LEA**</span>: "Request release of M166, SFC to F160, for Military Operations. My onwards with PH TCU"   
+    <span class="hotline">**PEA** -> **LEA**</span>: "Request release of M166, SFC to F160, for Military Operations. [My onwards](../../../controller-skills/coordination/#onwards-coordination) with PH TCU"   
     <span class="hotline">**LEA** -> **PEA**</span>: "M166, SFC to F160, released to you. Your onwards with PH TCU"  
 
 #### Departures

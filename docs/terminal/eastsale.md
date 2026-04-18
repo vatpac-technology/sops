@@ -210,7 +210,7 @@ Voiceless for all aircraft:
 - Tracking via a Procedural SID terminus; and  
 - Assigned the lower of `F200` or the `RFL`
 
-All other aircraft going to ELW/HUO(WON) CTA must be **Heads-up** Coordinated by ESA prior to the boundary. 
+All other aircraft going to Enroute CTA must be **Heads-up** coordinated by ESA prior to the boundary. 
 
 #### Arrivals
 Voiceless for all aircraft:
@@ -218,7 +218,7 @@ Voiceless for all aircraft:
 - With ADES **YMES**; and
 - Assigned `A100`
 
-All other aircraft coming from ELW/HUO(WON) CTA will be **Heads-up** Coordinated to ESA.
+All other aircraft coming from Enroute CTA will be **Heads-up** coordinated to ESA.
 
 ### Auto Release
 [Next](../controller-skills/coordination.md#next) coordination is required from ES ADC to ESA for all aircraft.

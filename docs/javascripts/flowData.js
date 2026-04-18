@@ -2006,6 +2006,12 @@ export const flowData = {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
+                },
+                "OLMAM": {
+                    "Vectors to IAF": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
                 }
             },
             "24": {
@@ -2031,6 +2037,12 @@ export const flowData = {
                     "SOLUS A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
+                    }
+                },
+                "OLMAM": {
+                    "Vectors to IAF": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
                     }
                 }
             },
@@ -2082,6 +2094,12 @@ export const flowData = {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
                     }
+                },
+                "OLMAM": {
+                    "Vectors to IAF": {
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
+                    }
                 }
             },
             "06": {
@@ -2120,6 +2138,12 @@ export const flowData = {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
+                },
+                "OLMAM": {
+                    "Vectors to IAF": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
                 }
             }
         },
@@ -2148,6 +2172,12 @@ export const flowData = {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
+                },
+                "OLMAM": {
+                    "Vectors to IAF": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    }
                 }
             },
             "24": {
@@ -2173,6 +2203,12 @@ export const flowData = {
                     "SOLUS A STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
+                    }
+                },
+                "OLMAM": {
+                    "Vectors to IAF": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
                     }
                 }
             },
@@ -2237,6 +2273,12 @@ export const flowData = {
                     "SOLUS X STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
+                    }
+                },
+                "OLMAM": {
+                    "Vectors to IAF": {
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
                     }
                 }
             },
@@ -2286,6 +2328,12 @@ export const flowData = {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
+                },
+                "OLMAM": {
+                    "Vectors to IAF": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
                 }
             }
         },
@@ -2314,6 +2362,12 @@ export const flowData = {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
+                },
+                "OLMAM": {
+                    "Vectors to IAF": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
                 }
             },
             "24": {
@@ -2339,6 +2393,12 @@ export const flowData = {
                     "SOLUS A STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 14
+                    }
+                },
+                "OLMAM": {
+                    "Vectors to IAF": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
                     }
                 }
             },
@@ -2401,6 +2461,12 @@ export const flowData = {
                         "Reduced Speed": 12
                     },
                     "SOLUS X STAR": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 11
+                    }
+                },
+                "OLMAM": {
+                    "Vectors to IAF": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
                     }
@@ -2451,6 +2517,12 @@ export const flowData = {
                     "SOLUS V STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
+                    }
+                },
+                "OLMAM": {
+                    "Vectors to IAF": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 12
                     }
                 }
             }
