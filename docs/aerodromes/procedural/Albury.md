@@ -21,6 +21,14 @@ AY ADC is responsible for the Class D airspace in the AY keyhole `BCTA` to `A045
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
+## Manoeuvring Area
+
+!!! note
+    The vatSys ground map includes new taxiways which some simulators may not include. Some pilots will be unable to accept taxi via:
+    
+    - Taxiway A
+    - Taxiway C east of C1
+
 ## Separation
 ### Local Lateral Separation Points
 Due to the convergence of inbound/outbound air routes approaching AY, the [geographic feature separation standard](../../separation-standards/visual.md#geographic-features) may be useful to efficiently process opposite direction aircraft from the north.
