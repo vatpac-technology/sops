@@ -35,6 +35,13 @@ SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005` as 
   <figcaption>Manoeuvring Area</figcaption>
 </figure>
 
+!!! note
+    The vatSys ground map includes new taxiways which some simulators may not include. Some pilots will be unable to accept taxi via:
+    
+    - Taxiway D south of G
+    - Taxiway J east of Runway 16R
+    - Taxiway K east of C
+
 #### Heliport Responsibility
 When runway 07 or 25 is in use for either arrivals or departures, the responsibility for management of the helicopter area and associated arriving and departing helicopters falls to **ADC West**. During all other runway modes, **ADC East** (if online) takes responsibility for the heliport.
 
