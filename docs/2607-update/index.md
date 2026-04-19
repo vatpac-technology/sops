@@ -111,9 +111,9 @@ Two new enroute primary positions are being created with jurisdiction over the a
 ##### Gunnedah (GAH)
 **GAH** will have six child sectors: **ARL**, **CNK**, **DEN**, **LIG**, **MOR**, and **RYS**.
 
-This area roughly aligned with the previous MDE, CNK, and ARL subsectors, but also includes airspace that was previously managed by KAT.
+This area roughly aligned with the previous MDE, CNK, and ARL subsectors, but also includes airspace that was previously managed by KAT. The main responsibilities of this sector is to process and sequence arrivals to YSSY and YSWS, with additional responsibilities relating to YSTW and YBBN-YPAD traffic.
 
-The main responsibilities of this sector is to process and sequence arrivals to YSSY and YSWS, with additional responsibilities relating to YSTW and YBBN-YPAD traffic.
+Several YSSY STARS from the west are changing, notably the replacement of the **ODALE** STAR with a new **AKMIR** STAR, which will alter the standard reroute given to aircraft arriving via RIVET.
 
 Please see the **[Upcoming Gunnedah SOPs](/GAH)** for full details about GAH operations.
 
