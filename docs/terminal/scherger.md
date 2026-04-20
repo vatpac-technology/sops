@@ -33,7 +33,7 @@ When **SGA** is online, the following [restricted areas](../../controller-skills
 The [SG MIL CTR](#sg-mil-ctr) **is not** activated by default.
 
 #### SUA in Enroute Airspace
-Military operations taking place in SUA in enroute airspace are outside the jurisdiction of TN TCU.
+Military operations taking place in SUA in enroute airspace are outside the jurisdiction of SG TCU.
 
 Upon receiving [airways clearance coordination from SMC](#smc-to-sg-tcu) of an aircraft intending to operate in a currently inactive SUA in enroute airspace, TN TCU must give **heads up** coordination to relevant enroute controllers.
 
