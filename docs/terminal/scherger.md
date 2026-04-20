@@ -156,7 +156,7 @@ Due to the low level of CTA, it is best practice to give airways clearance to ai
     **QLK2481**: "Squawk 1202, wilco, QLK2481."  
 	    
 	**QLK2481**: "QLK2481, lined up."   
-	**SGA**: "QLK2481, cleared to YBCS via GOPMI, flight planned route, climb to `F240`."   
+	**SGA**: "QLK2481, cleared to YBCS via GOPMI, flight planned route, climb to `F230`."   
 	**QLK2481**: "Cleared to YBCS via GOPMI, flight planned route, climb to `F230`, QLK2481."    
 
 ### Special Use Airspace
