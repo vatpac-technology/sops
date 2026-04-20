@@ -92,7 +92,7 @@ The circuit height is `A015`.
 
 ## ATIS
 #### Operational Info
-The Operational Information field should be updated to reflect the activation of either [TRA Scherger or SG MIL CTR](../../../terminal/scherger/#sg-mil-ctr).
+The Operational Information field should be updated to reflect the activation of either [TRA Scherger or SG MIL CTR](../../../terminal/scherger/#sg-mil-ctr) when **SG TCU** is online.
 
 | Activated SUA | OPR INFO Field |
 | ------------- | -------------- |
