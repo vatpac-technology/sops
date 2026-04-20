@@ -48,7 +48,7 @@ Aircraft departing to the western training areas should be cleared the **STORM 1
 !!! note
     ACD shall write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
 
-#### Military Gates
+### Military Gates
 There are numerous [military gates](../../../controller-skills/military/#military-gates) established throughout the WLM TMA to facilitate entry and exit to adjoining SUA.
 
 <figure markdown>
