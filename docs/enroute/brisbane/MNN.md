@@ -1,5 +1,5 @@
 ---
-  title: Armidale (ARL)
+  title: Manning (MNN)
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -7,11 +7,8 @@
 
 | Name              | ID      | Callsign            | Frequency   | Login ID       |
 | ----------------- | ------- | ------------------- | ----------- | -------------- |
-| **Armidale**      | **ARL** | **Brisbane Centre** | **130.900** | **BN-ARL_CTR** |
-| <span class="indented">Cessnock :material-information-outline:{ title="Non-standard position"} | CNK | Brisbane Centre | 123.400 | BN-CNK_CTR |
+| **Manning**       | **MNN** | **Brisbane Centre** | **130.100** | **BN-MNN_CTR** |
 | <span class="indented">Maitland :material-information-outline:{ title="Non-standard position"} | MLD | Brisbane Centre | 132.350 | BN-MLD_CTR |
-| <span class="indented">Manning :material-information-outline:{ title="Non-standard position"}  | MNN | Brisbane Centre | 130.100 | BN-MNN_CTR |
-| <span class="indented">Mudgee :material-information-outline:{ title="Non-standard position"}   | MDE | Brisbane Centre | 133.000 | BN-MDE_CTR |
 | <span class="indented">Ocean :material-information-outline:{ title="Non-standard position"}    | OCN | Brisbane Centre | 128.600 | BN-OCN_CTR |
 
 !!! abstract "Non-Standard Positions"
@@ -20,8 +17,8 @@
 
 ## Airspace
 <figure markdown>
-![Armidale Airspace](../img/enr_diagrams/arl.png){ width="700" }
-  <figcaption>Armidale Airspace</figcaption>
+![Manning Airspace](../img/enr_diagrams/arl.png){ width="700" }
+  <figcaption>Manning Airspace</figcaption>
 </figure>
 
 ### Reclassifications
@@ -34,14 +31,8 @@
     !!! tip
         If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
-=== "TW CTR"
-	When **TW ADC** is offline, TW CTR (Class D and C `SFC` to `A085`) reverts to Class G, and is administered by ARL. Alternatively, ARL may provide a [top-down procedural service](../../../aerodromes/procedural/Tamworth) if they wish (not recommended).  
-    
-    !!! tip
-        If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
-
 === "WLM CTR"
-	When **WLM TCU** is offline, WLM MIL CTR (Class C `SFC` to `A065`) reverts to Class G, and WLM MIL CTR (Class C `A065` to `F125`) reverts to Class E. This airspace is administered by the appropriate ARL subsector. Alternatively, ARL(MLD) may provide a [top-down service](../../../terminal/williamtown) if they wish.  
+	When **WLM TCU** is offline, WLM MIL CTR (Class C `SFC` to `A065`) reverts to Class G, and WLM MIL CTR (Class C `A065` to `F125`) reverts to Class E. This airspace is administered by the appropriate MNN subsector. Alternatively, MLD may provide a [top-down service](../../../terminal/williamtown) if they wish.  
 
     !!! tip
         If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
@@ -61,34 +52,15 @@ The following subsectors are responsible for issuing STAR clearance.
 
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
-| ARL  | BOREE<br>MEPIL | Jet<br>Non-Jet  | Descent not below `F250`<br>Descent not below `F250` |
 | OCN  | MARLN | All      |       |
-
-Arrivals from the north shall be given initial descent to not below `F250`. **CNK** will issue final descent.
-
-!!! tip
-    During periods of high traffic flow from the north, it may be beneficial to issue an aircraft with the adjacent STAR (e.g. a jet assigned the MEPIL STAR).  This is most common when assigning the alternate runway to an arrival.  
-    
-    Either **SY TCU** or **ARL** may propose utilising the adjacent STAR where two aircraft with significantly different cruise/descent speeds will be required to overtake or pass abeam each other to achieve a sequenced landing time, or if assigned different runways. This technique can allow aircraft to be processed for different runways independently with minimal delay by using the built-in separation afforded by the STAR height requirements.
-
-!!! phraseology
-    **ARL:** "RXA6417, amended tracking and STAR clearance available"  
-    **RXA6417:** "RXA6417, go ahead"  
-    **ARL:** "RXA6417, recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain F180"  
-    **RXA6417:** "Recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain F180, RXA6417" 
 	
 #### Sequencing
-Sequencing arrivals from the north/east into YSSY is a joint responsibility of the subsectors of ARL. Initial sequencing actions for aircraft from the north should be performed by ARL, with fine tuning and any holding required issued by CNK. 
-
-Aircraft from the north/east shall be assigned **runway 16L/34R** during PROPS. However, some situations may warrant the use of the main runway (16R/34L), such as heavy aircraft operationally requiring the longer runway or large volumes of traffic requiring the use of both runways to minimise delay. In this case, coordination must be conducted with Melbourne Centre or Sydney Flow (if operating) to ensure that the sequence is built in an efficient and orderly way.
+Sequencing arrivals from the east into YSSY is the responsibility of OCN. Aircraft from the north/east shall be assigned **runway 16L/34R** during PROPS. However, some situations may warrant the use of the main runway (16R/34L), such as heavy aircraft operationally requiring the longer runway or large volumes of traffic requiring the use of both runways to minimise delay. In this case, coordination must be conducted with Melbourne Centre or Sydney Flow (if operating) to ensure that the sequence is built in an efficient and orderly way.
 
 !!! phraseology
-    <span class="hotline">**ARL** -> **BIK**</span>: "North of Sydney, CPA21, with your concurrence will be assigned runway 34L due operational requirement"  
-    <span class="hotline">**BIK** -> **ARL**</span>: "Concur, CPA21 runway 34L, required landing time 43 due sequence from the west"  
-    <span class="hotline">**ARL** -> **BIK**</span>: "Runway 34L, landing time 43, CPA21"
-
-##### Adjacent Feeder Fixes
-Aircraft assigned the **same runway** inbound via **BOREE** and **MEPIL**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
+    <span class="hotline">**OCN** -> **BIK**</span>: "West of Sydney, QFA12, with your concurrence will be assigned runway 34L due operational requirement"  
+    <span class="hotline">**BIK** -> **OCN**</span>: "Concur, QFA12 runway 34L, required landing time 43 due sequence from the west"  
+    <span class="hotline">**ARL** -> **OCN**</span>: "Runway 34L, landing time 43, QFA12"
 
 ##### Predictable Sequencing Waypoints
 There are ten [Predictable Sequencing](../../../../controller-skills/sequencing/#predictable-sequencing) waypoints available for aircraft inbound YSSY via **N774** and **M636**.
@@ -118,18 +90,15 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 
 | Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
 | ---- | ---- | ---- |
-| BOREE | SADLO | 4 min |
-| YAKKA | MONDO | 3 min |
 | MARLN | RIKNI | 4 min |
 
 !!! tip
     Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector. 
 
-### YSTW
-ARL and MDE are responsible for issuing descent.
+### YSWS
+#### STAR Assignment
 
 #### Sequencing
-ARL and MDE share a joint responsibility to build the final sequence of arrivals into YSTW when the tower is open. Coordination should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
 
 ### YWLM
 #### STAR Assignment
@@ -140,9 +109,6 @@ The following subsectors are responsible for issuing STAR clearance.
 | ARL  | LAXUM | All      |       | 
 | MNN  | LAXUM | All      |       |
 | OCN  | ASUVA | All      |       |
-
-#### Coded Clearances
-The ARL subsector is additionally responsible for issuing the **STORM 2** coded clearance to aircraft arriving YWLM via the **[Thunder Corridor](#r560-r570-williamtown)**.
 
 ## Local Procedures
 ### Special Use Airspace
@@ -181,54 +147,11 @@ The **W149** and **W768** low altitude airways, connecting YLHI to YWLM and YPMQ
 
 !!! note
 	 Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../sua/#separation-from-sua)  laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../sua/#controlled-airspace) clearance with all parts of the SUA.
-
-#### R560 & R570 Williamtown
-The R560A-B and R570A-H restricted areas are located west of YWLM and YSTW within the ARL and MDE subsectors. The restricted areas are connected to the WLM TCU by the **Thunder Corridor**.
-
-<figure markdown>
-![WLM Thunder Military Corridor](../img/wlm_thunder.png){ width="500" }
-  <figcaption>WLM Thunder Military Corridor</figcaption>
-</figure>
-
-Aircraft departing the WLM TCU will be cleared the **STORM 1** coded clearance. Aircraft returning to the TCU will be cleared the **STORM 2** coded clearance by ARL.
-
-!!! phraseology
-    *BARN21 has completed their military training operations in R570, and intends to return to base.*
-    **BARN21**: "Brisbane Centre, BARN21"  
-    **ARL**: "BARN21, Brisbane Centre, identified"  
-    **BARN21**: "Brisbane Centre, BARN21, detail complete, for RTB, `F130`"  
-    **ARL**: "BARN21, cleared Storm 2. At THNDA, contact Willy Approach, 135.7"  
-    **BARN21**: "Cleared Storm 2, at THNDA contact Willy Approach, BARN21"  
-    
-!!! note
-    Aircraft tracking via the STORM coded clearances does **not** constitute a voiceless coordination route between WLM TCU and ARL. Aircraft should still be heads-up coordinated prior to **5 minutes** to the boundary, unless coordinated otherwise.
-
-Aircraft transiting the Thunder Corridor should be assigned the appropriate altitude to ensure separation with opposite direction traffic while transiting to their desired restricted area.
-
-| Coded Clearance | Altitude |
-| --------------- | -------- |
-| STORM 1         | `F140`   |
-| STORM 2         | `F130`   |
-
-##### Affected Civil Operations
-When activated these restricted areas distrupt traffic on the **Q16**, **Q235**, **Q293**, and **Y46** high altitude airways, used by aircraft travelling between YPAD-YBBN, and YSSY-North Queensland/East Asia.
-
-| Planned Airway | ERSA Recommended Rerouting |
-| -------------- | -------------------------- |
-| Q16 | via `Q4` |
-| Q235 | `... RIC H530 KABIX ...` |
-| Q293 | `... RIC H530 KABIX ...` |
-| Y46 | via `Y27` |
-
-Aircraft travelling below `F240` on the **H66**, **H76**, and **Q35** airways are also disrupted, most directly affecting aircraft departing YSBK to the northwest, and aircraft climbing out of YSSY via RIC. These aircraft may be given altitude requirements to assure separation with the restricted areas, where appropriate.
-
-!!! note
-	Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../sua/#separation-from-sua)  laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../sua/#controlled-airspace) clearance with all parts of the SUA.
     
 #### R585-R586 Williamtown
-The R585A-D and R586A-C restricted areas are located north of the WLM TCU in the ARL and MNN subsectors.
+The R585A-D and R586A-C restricted areas are located north of the WLM TCU in the GAH(ARL) and MNN subsectors.
 
-The MOAs directly adjoin the WLM TCU, and when WAL is online aircraft will be transferred directly to/from the restricted areas. When [WAL is offline](#reclassifications), aircraft will contact ARL for transit through the surrounding civilian airspace.
+The MOAs directly adjoin the WLM TCU, and when WAL is online aircraft will be transferred directly to/from the restricted areas. When [WAL is offline](#reclassifications), aircraft will contact MNN for transit through the surrounding civilian airspace.
 
 #### Amberley SUA
 There are three SUA associated with military operations at [Amberley](../../terminal/amberleyoakey) which clip ARL airspace: the R639D restricted area, located northeast of MOR VOR partially in the MDE subsector, and the M661A and M670A-B MOAs, which clips MNN airspace offshore east of YCFS.
@@ -241,10 +164,9 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| MNN | INL | YBBN, YBCG | |
-| MDE | GUN(KAT) | YSCB | |
-| CNK, MLD, OCN | GUN(BIK) | YSCB | Jets only |
-| MNN, MDE | ARL | YSSY | |
+| MNN  | INL | YBBN, YBCG | |
+| MLD, OCN | GUN(BIK) | YSCB | Jets only |
+| MNN  | ARL | YSSY | |
 
 ## Terminal Handover Frequencies
 Aircraft being transferred from enroute to a TCU with multiple frequencies shall be given the frequency for the revelant TCU position.
@@ -301,23 +223,22 @@ Voiceless for all aircraft:
 
 - With ADES **YSSY**; and  
 - Assigned a STAR; and  
-- Tracking via **MARLN** or **BOREE**, assigned `A100`; or  
-- Tracking via **MEPIL**, assigned `A090`
+- Tracking via **MARLN** assigned `A100`
 
-All other aircraft coming from ARL CTA must be **Heads-up** Coordinated to SY TCU prior to **20nm** from the boundary.
+All other aircraft coming from MNN CTA must be **Heads-up** Coordinated to SY TCU prior to **20nm** from the boundary.
 
 #### Departures
 Voiceless for all aircraft:
 
 - Assigned the lower of `F280` or the `RFL`; and
-- that enter ARL airspace via any of the *Green Shaded Corridors* below, excluding [YWLM Arrivals](#ywlm-arrivals)
+- that enter MNN airspace via any of the *Green Shaded Corridors* below, excluding [YWLM Arrivals](#ywlm-arrivals)
 
 <figure markdown>
 ![SY TCU Voiceless Coordination Corridors](../img/sytcucoordgate.png){ width="700" }
   <figcaption>SY TCU Voiceless Coordination Corridors</figcaption>
 </figure>
 
-All other aircraft going to ARL CTA will be **Heads-up** Coordinated by SY TCU.
+All other aircraft going to MNN CTA will be **Heads-up** coordinated by SY TCU.
 
 ##### YWLM Arrivals
 Additionally, Voiceless Coordination exists from SY TCU for aircraft:
@@ -332,15 +253,8 @@ Additionally, Voiceless Coordination exists from SY TCU for aircraft:
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-### ARL Internal
+### MNN Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
-
-That being said, due to their small sizes and frequent random-track traffic, it is *advised* that ARL(All) gives **Heads-up Coordination** in the following scenarios:   
-
-- MNN to ARL for all aircraft  
-- ARL to MNN for all aircraft  
-- CNK to MLD for all aircraft  
-- MLD to CNK for all aircraft
 
 ### CFS ADC
 #### Airspace
@@ -368,30 +282,6 @@ YCFS arrivals and overfliers shall be heads-up coordinated to **CFS ADC** from M
 
 The Standard Assignable level from MNN to **CFS ADC** is `A080`, any other level must be prior coordinated.
 
-### TW ADC
-#### Airspace
-TW ADC is responsible for the Class D airspace in the TW CTR `SFC` to `A045`, as well as the Class C airspace between `A045` and `A065`.
-
-Refer to [Reclassifications](#reclassifications) for operations when TW ADC is offline.
-
-#### Departures
-[Next](../../controller-skills/coordination.md#next) coordination is required from TW ADC to ARL/MDE for all aircraft **entering ARL/MDE CTA**.
-
-The Standard Assignable level from **TW ADC** to **ARL/MDE** is:
-
-| Aircraft | Level |
-| ---- | ---- |
-| All | The lower of `A070` and `RFL` |
-
-#### Arrivals/Overfliers
-YSTW arrivals and overfliers shall be heads-up coordinated to **TW ADC** from ARL/MDE prior to **5 mins** from the boundary.
-
-!!! phraseology
-    <span class="hotline">**ARL** -> **TW ADC**</span>: "QLK6D, via MATLA DCT ST2WD"  
-    <span class="hotline">**TW ADC** -> **ARL**</span>: "QLK6D"  
-
-The Standard Assignable level from ARL/MDE to **TW ADC** is `A080`, any other level must be prior coordinated.
-
 ### WLM TCU
 #### Airspace
 By default, WLM TCU owns the airspace from `SFC` to `F125`. 
@@ -399,7 +289,7 @@ By default, WLM TCU owns the airspace from `SFC` to `F125`.
 An additional, non-standard TCU position may be activated for specific military exercises or events to control airspace above `F125`. When this happens, **WAH** owns the airspace above `F125` to the agreed upper limit.
 
 !!! note
-    The upper limit of **WAH** must be coordinated with ARL *prior* to the position logging on.
+    The upper limit of **WAH** must be coordinated with MNN *prior* to the position logging on.
 
 Refer to [Reclassifications](#reclassifications) for operations when WLM TCU is offline.
 
@@ -422,11 +312,7 @@ Voiceless for all aircraft:
 - Assigned a STAR; and  
 - Assigned `A090`
 
-All other aircraft coming from ARL CTA must be **Heads-up** Coordinated to WLM TCU prior to **20nm** from the boundary.
-
-!!! phraseology
-    <span class="hotline">**CNK** -> **WAL**</span>: "QFA1968, request DCT UPTEB"  
-    <span class="hotline">**WAL** -> **CNK**</span>: "QFA1968, concur DCT UPTEB"  
+All other aircraft coming from MNN CTA must be **Heads-up** Coordinated to WLM TCU prior to **20nm** from the boundary.
 
 ### TSN/HWE (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
@@ -434,4 +320,4 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
 
 !!! phraseology
-    **ARL**: "QFA121, identification terminated, report position to Brisbane Radio, 126.45"
+    **MNN**: "QFA121, identification terminated, report position to Brisbane Radio, 126.45"
