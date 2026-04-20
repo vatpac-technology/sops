@@ -138,7 +138,7 @@ As a **landing clearance is not given**, aircraft should instead be informed of 
 
 !!! phraseology
     **FD491**: "FD491, visual"  
-    **SGA**: "FD491, cleared visual approach, no reported traffic, report clear of the runway"  
+    **SGA**: "FD491, cleared visual approach, no reported IFR traffic, report clear of the runway"  
     **FD491**: "Cleared visual approach, FD491"  
 
     **FD491**: "FD491, clear of the runway, YBWP, cancel SARWATCH"  
