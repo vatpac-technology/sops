@@ -32,7 +32,7 @@ ISA is responsible for **ARA**, **STR**, and **WEG** when they are offline.
 	
 ### Reclassifications
 === "SG CTR"
-	The restricted airspace around YPWR is classified as Class G by default, and is only reclassified as controlled airspace when **SGA** is online. When **SGA** is offline, the area remains Class G, and is administered by ARA.
+	The restricted airspace around YBSG is classified as Class G by default, and is only reclassified as controlled airspace when **SGA** is online. When **SGA** is offline, the area remains Class G, and is administered by ARA.
 
 ## Departure and Arrival Procedures
 
