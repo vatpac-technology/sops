@@ -14,7 +14,7 @@
     Scherger TCU is a [military TCU](../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those in a civil TCU. Ensure you are familiar with the [military controller skills](../../controller-skills/military) necessary to provide a quality service.
 
 ## Airspace
-**SG TCU** owns the Class C and G airspace within 40 DME YBSG from `SFC` to `F245`.
+**SG TCU** owns the Class C and G airspace within 40 DME YBSG from `SFC` to `F245` in the form of [restricted airspace](#restricted-area-activations) which is activated upon logon.
 
 <figure markdown>
 ![SG TCU Structure](img/sg_tcu.png){ width="700" }
@@ -27,8 +27,8 @@ The extent of Class C within the TMA varies according to the activation status o
 When **SGA** is online, the following [restricted areas](../../controller-skills/sua/#restricted-areas) are [activated](../../controller-skills/sua/#activation-of-sua) by default, and reclassified as Class C airspace.
 
 - TRA Scherger `SFC-A040`
-- R604AB Scherger `A040-F125`
-- R605AB Scherger `A040-F125`
+- R604A/B Scherger `A040-F245`
+- R605A/B Scherger `A040-F245`
 
 The [SG MIL CTR](#sg-mil-ctr) **is not** activated by default.
 
@@ -147,7 +147,7 @@ As a **landing clearance is not given**, aircraft should instead be informed of 
 ##### SG MIL CTR Inactive
 When the SG MIL CTR is inactive, the airspace immediately around YBWP is uncontrolled. All IFR departures and arrivals will be processed by **SGA** following normal OCTA procedures.
 
-Due to the low level of CTA, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
+Due to the low level of CTA, it is best practice to give airways clearance to aircraft once lined up for departure, to ensure departing aircraft can have uninterrupted climb.
 
 !!! phraseology
 	*SG MIL CTR is inactive. QLK2481 is intending to depart YBWP for YBCS.*  
@@ -165,15 +165,15 @@ Due to the low level of CTA, it is best practice to give airways clearance to ai
   <figcaption>Notable SUA in the SG TMA</figcaption>
 </figure>
 
-#### R603 and R605AB Scherger
-The R603 and R605AB Scherger [restricted areas](../../controller-skills/sua/#restricted-areas) are located in the western half of the SG TMA.
+#### R603 and R605A/B Scherger
+The R603 and R605A/B Scherger [restricted areas](../../controller-skills/sua/#restricted-areas) are located in the western half of the SG TMA and are activated by default when SGA is online.
 
-It is predominantly used for military training operations, and transit of aircraft to [military gate](#military-gates) adjoining the [M610A Scherger MOA](../../enroute/brisbane/ISA/#m610a-scherger).
+They are predominantly used for military training operations, and transit of aircraft to [military gates](#military-gates) adjoining the [M610A Scherger MOA](../../enroute/brisbane/ISA/#m610a-scherger).
 
-#### R604AB Scherger
-The R604AB Scherger [restricted area](../../controller-skills/sua/#restricted-areas) is located in the eastern half of the SG TMA.
+#### R604A/B Scherger
+The R604A/B Scherger [restricted areas](../../controller-skills/sua/#restricted-areas) are located in the eastern half of the SG TMA and are activated by default when SGA is online.
 
-It is predominantly used for military training operations when TRA Scherger is activated, as it facilitated military operations without distrupting [YBWP](#weipa-ybwp).
+They are predominantly used for military training operations when TRA Scherger is activated, as they facilitate military operations without distrupting [YBWP](#weipa-ybwp).
 
 ## Coordination
 ### Enroute
