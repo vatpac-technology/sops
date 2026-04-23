@@ -72,12 +72,16 @@ The SIDs have been significantly adjusted, particularly the procedures for aircr
 
 The Standard Assignable Departure Headings and Departure Frequencies are also changing.
 
+The lateral boundaries of the SY ADC CTR are also changing to match new CTA boundaries.
+
 Please see the **[Upcoming Sydney (YSSY) SOPs](/Sydney)** for full details about aerodrome operations.
 
 #### Bankstown Airport (YSBK) Changes
-Bankstown (YSBK) is located between YSWS and YSSY, and the new controlled airspace in the area has led to 
+Bankstown (YSBK) is located between YSWS and YSSY, and the new controlled airspace in the area has led to profound changes to operations at the airport.
 
-New coded clearances have been introduced to facilitate aircraft movement in and out of the SY TCU, as well as new SIDs
+New coded clearances have been introduced to facilitate aircraft movement in and out of the SY TCU, as well as new SIDs.
+
+The lateral boundaries of the BK ADC CTR are also changing to match new CTA boundaries.
 
 Please see the **[Upcoming Bankstown (YSBK) SOPs](/Bankstown)** for full details about aerodrome operations.
 
@@ -129,7 +133,7 @@ Please see the **[Upcoming Manning SOPs](/MNN)** for full details about MNN oper
 ##### Gundagai (GUN)
 The boundaries of **GUN** are changing. 
 
-- **KAT** is expanding to include airspace that was previously part of ASP(BKE). The subsector will have additional respondibilities to process and sequence YSWS arrivals.
+- **KAT** is expanding to include airspace that was previously part of BIK. The subsector will have additional respondibilities to process and sequence YSWS arrivals.
 - **BIK** is adjusting size to accomodate an expansion in KAT airspace close to the SY TCU boundary. BIK retains responsibility for the airspace above the SY TCU. 
 - **GUN** is shrinking slightly as the BIK subsector extends westward. GUN will have additional responsibilities for processing arrivals to YSWS.
 
@@ -137,9 +141,6 @@ Please see the **[Upcoming Gundagai SOPs](/GUN)** for full details about GUN ope
 
 ##### Wollongong
 The boundaries of **WOL** are very slightly adjusting at the western edge near YSCB. The sector will experience an increase in responsibilities for managing southbound departures from YSWS.
-
-##### Alice Springs
-The boundaries of **ASP(BKE)** are shrinking as KAT assumes responsibility for airspace westward towards YNYN. There are no changes to its responsibilities.
 
 ##### Tamworth (YSTW)
 **TW ADC** will now have two different enroute controllers managing departures: GAH, ARL.
