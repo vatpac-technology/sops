@@ -2,4 +2,4 @@
   title: Overview
 ---
 
-Contains event-specific instructions for various Events on the VATPAC Calendar.
+Contains event-specific instructions for various events on the VATPAC Calendar.
