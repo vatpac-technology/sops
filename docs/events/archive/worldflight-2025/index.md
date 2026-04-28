@@ -2,23 +2,7 @@
   title: Overview
 ---
 
-Welcome to the controller briefing material for WorldFlight!
-
-WorldFlight 2026 is currently in the planning stages. Event-specific procedures will be released closer to the date of the event. See the [WorldFlight website](https://www.worldflight.center/){target=new} for the latest updates on this year's instalment!
-
-==== Previous WorldFlight Instalments ====
-The controller briefing material for each WorldFlight are tailored specifically to that instalments' route and traffic levels. Previous controller briefings are available below, for archival reference.
-
-- **[WorldFlight 2024](../archive/worldflight-2024)**
-- **[WorldFlight 2025](../archive/worldflight-2025)**
-
-!!! note
-    The material in the WorldFlight archive is provided for reference only, and is not actively maintained. While every effort is taken to ensure the material remains accessible, there may be references to other parts of the SOPs which have since been made obsolete.
-
-<!--
-
-Event-specific procedures are sorted by position type and should be read in conjunction with the existing SOPs for that position/location.
-
+Welcome to the controller briefing material for WorldFlight! Event-specific procedures are sorted by position type and should be read in conjunction with the existing SOPs for that position/location.
 
 ## Official Team Callsigns
 Official WorldFlight teams should be afforded priority at all stages of flight. 
@@ -60,4 +44,3 @@ The list of callsigns is below:
 <figure markdown>
 ![WorldFlight Route](./img/route.png){ width="800" }
 </figure>
--->
