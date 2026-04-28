@@ -2,8 +2,6 @@
   title: Overview
 ---
 
---8<-- "includes/abbreviations.md"
-
 Welcome to the controller briefing material for WorldFlight!
 
 WorldFlight 2026 is currently in the planning stages. Event-specific procedures will be released closer to the date of the event. See the [WorldFlight website](https://www.worldflight.center/){target=new} for the latest updates on this year's instalment!
