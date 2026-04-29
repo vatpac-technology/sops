@@ -16,12 +16,22 @@
     YSRI is a [military aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
 
 ## Airspace
-RI ADC being online will activate the **R470** Restricted Area, which is reclassified as **Class C** when active.
+<figure markdown>
+![RI ADC Airspace](img/ri_ctr.png){ width="700" }
+  <figcaption>WR ADC Airspace</figcaption>
+</figure>
 
-Control authority of the **R470** Restricted Area when active is as follows:
+**WR ADC** is responsible for the Class C airspace within the **R479** [restricted area](../../../sua/#restricted-areas), `SFC` to `A015`.
 
-- RI ADC: `SFC`-`A015`
-- SY TCU (SDN): `A015`-`A045`
+### Restricted Area Activations
+When **WR ADC** is online, the **R479** restricted area `SFC` to `A015` is [activated](../../../sua/#activation-of-sua) by default.
+
+#### SUA in TCU Airspace
+Military operations taking place in SUA in TCU airspace are outside the jurisdiction of RI ADC.
+
+RI SMC must [give **heads up** coordination](#smc-to-sy-tcu) to relevant TCU controllers before providing airways clearance to an aircraft intending to operate in a currently inactive SUA.
+
+This gives the parent controller sufficient time to assess the request, make necessary adjustments to any aircraft in the area currently, and activate the SUA; or alternately to refuse the activation request before the aircraft is in the air.
 
 ## Local Procedures
 ### Training Areas
@@ -87,12 +97,9 @@ YSRI circuit area is defined as within 6nm of the YSRI ARP. An aircraft operatin
 | 28     | Left |
 
 ## SID Selection
-Military aircraft planned via **ANKUB**, **KADOM** or **MUDGI** may be assigned the SID that terminates at the appropriate SID terminus. 
+Aircraft planned via **BEROW**, **NESSY**, **NIVOT**, **RUTOS**, and **TESAT** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus.
 
-Civil aircraft, military aircraft **not** planned via any of these waypoints, and **non-RNAV** aircraft shall be assigned either the RADAR SID or a visual departure. 
-
-!!! tip
-    Military SID charts are contained in the [RAAF TERMA](https://ais-af.airforce.gov.au/){target=new} document.
+Aircraft that are unable to accept a procedural SID are generally processed through visual departures. In IMC, these aircraft can instead be assigned the RADAR SID.
 
 ## Coordination
 ### Auto Release
@@ -105,8 +112,19 @@ The Standard Assignable Level from **RI ADC** to **SY TCU** is:
 | All | The lower of `A050` and `RFL` |
 
 ### Departures Controller
-The departure controller is dependent on the YSSY [runway mode](../../terminal/sydney.md#airspace-division). Ensure the appropriate frequency is selected based on the direction of flight and runway mode.
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate enroute controller or advisory frequency shall be issued.
+
+| Runway | Via  | Departure Frequency |
+| ------ | ---- | ------------------- |
+| All    | All  | 135.900 (SRA) |
+
+### SMC to SY TCU
+The controller assuming responsibility of **SMC** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to SRA (or the enroute controller responsible for the SY TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
+
+!!! phraseology
+    <span class="hotline">**RI SMC** -> **SRA**</span>: "PSSM31 requests clearance to M742"  
+    <span class="hotline">**SRA** -> **RI SMC**</span>: "PSSM31, clearance approved."  
 
 ## Charts
 !!! abstract "Reference"
-    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
+    In addition to the civilian `ERSA` and `AIP` publications, [the RAAF AIP website](https://ais-af.airforce.gov.au/australian-aip){target=new} contains the necessary charts (available in the TERMA) and description of procedures (in each airports' FIHA).

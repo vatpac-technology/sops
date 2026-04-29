@@ -25,36 +25,27 @@
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
-The Vertical limits of the SY TCU are `SFC` to `F285`.  
-SY TCU is responsible for the Sydney TMA, except:  
+The vertical limits of the SY TCU are `SFC` to `F285`.
 
-- SY CTR `SFC` to `A005` as outlined [here](../../aerodromes/classc/Sydney/#airspace)
-- R470 Restricted Area, when RIC ADC is online (or as negotiated)  
+### SY ADC
+**SY ADC** is responsible for the Class C Airspace within the SY CTR `SFC` to `A005`.  
 
 ### Reclassifications
-#### BK CTR
-BK CTR reverts to Class G when **BK ADC** is offline, and is administered by the relevant SY TCU controller.
+=== "BK CTR"
+    BK CTR reverts to Class G when **BK ADC** is offline, and is administered by SYC.
 
-See also: [BK ADC Offline](#bk-adc-offline).
-
-#### CN CTR
-CN CTR reverts to Class G when **CN ADC** is offline, and is administered by the relevant SY TCU controller.
-
-#### RI CTR
-RI ADC being online will activate the **R470** Restricted Area, which is reclassified as **Class C** when active.
-
-Control authority of the **R470** Restricted Area when active is as follows:
-
-- RI ADC `SFC`-`A015`
-- SY TCU (SDN) `A015`-`A045`
-
-!!! note
-    Depending on the YSSY runway mode, R470 will overlap with the jurisdiction of surrounding TCU positions. **SDN** is ultimately responsible for aircraft into/out of YSRI and should coordinate with any surrounding controllers to establish any restrictions. 
+    See also: [BK ADC Offline](#bk-adc-offline).
     
-    Preference should be given to keeping the aircraft on the SDN frequency where possible, rather than handing them to neighbouring TCU sectors in close proximity to YSRI. 
+=== "CN CTR"
+    BK CTR reverts to Class G when **CN ADC** is offline, and is administered by SYC.
+
+    See also: [BK ADC Offline](#bk-adc-offline).
+
+=== "RI CTR"
+	The restricted airspace around YSYC is classified as Class G by default, and is only reclassified as controlled airspace when **RI ADC** is online. When **RI ADC** is offline, the area remains Class G, and is administered by SYC.
 
 ### Airspace Division
-The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW** and **SFE** change based on the Runway Mode.
+The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW** and **SFE** change based on the Runway Mode. The airspace managed by **SBA**, **SWA**, **SRA**, and **SYC** is not runway mode dependent.
 
 <figure markdown>
 ![SY TCU Side Profile](img/syside.png){ width="700" }
@@ -113,22 +104,22 @@ a) **"South"**/**"West"** positions shall assume the airspace of corresponding *
 
 b) Approach assumes Director/Departure airspace "on-side" when the latter positions are inactive (e.g. with **SAS** and **SAN** online only, **SAS** assumes **SDS** and **SFW**)  
 
-c) Departures assumes **SRI** airspace when the position is inactive.
+c) Departures assumes **SYC** airspace when the position is inactive.
 
 !!! note
-    The default ownership of sectors within the SY TCU is merely a suggestion for starters. There are 7 executive controller positions within the SY TCU, plus a flow controller, and the ownership of these sectors can be delegated as desired based on the traffic disposition, when agreed between the controllers. For example, during a Milk Run event, if SY APP and SY DEP are online, SY APP may have a lot more work to do than SY DEP, and it would mostly be concentrated on the RIVET/ODALE corridor. In light of this, it might be wise for SY APP to take ownership of SAS, SFW and SFE airspace, whilst SY DEP take ownership of SAN, SDS, SDN, and SRI airspace.
+    The default ownership of sectors within the SY TCU is merely a suggestion for starters. There are 10 executive controller positions within the SY TCU, plus a flow controller, and the ownership of these sectors can be delegated as desired based on the traffic disposition, when agreed between the controllers. For example, during a Milk Run event, if SY APP and SY DEP are online, SY APP may have a lot more work to do than SY DEP, and it would mostly be concentrated on the RIVET/ODALE corridor. In light of this, it might be wise for SY APP to take ownership of SAS, SFW and SFE airspace, whilst SY DEP take ownership of SAN, SDS, SDN, and SYC airspace.
 
 !!! tip
     Unless there are 2 separate Director controllers online (during a Major event like Panic Stations, for example), it is **not recommended** that the SFW and SFE positions are held by 2 separate controllers, due to the tendency of some less experienced pilots to overshoot the runway centreline
 
-#### Sydney Radar (SRI)
-SRI is responsible for the provision of FIS in Class G airspace within the SY TMA. It is a role normally performed by DEPs but can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordation requirements](#between-sri-and-tcu) exist between SRI and other TCU positions.  
+#### Sydney Centre (SYC)
+SYC is responsible for the provision of FIS in Class G airspace within the SY TMA. It is a role normally performed by DEPs but can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordation requirements](#between-SYC-and-tcu) exist between SYC and other TCU positions.  
 
 !!! example
-    During a busy event, Sydney Departures is experiencing a high workload and wishes to delegate the SRI role to another TMA controller who isn't as busy.  SAN's sector is quiet, so they elect to perform the role.
+    During a busy event, Sydney Departures is experiencing a high workload and wishes to delegate the SYC role to another TMA controller who isn't as busy.  SAN's sector is quiet, so they elect to perform the role.
 
 ##### Training Areas
-SRI should monitor aircraft operating in the YSBK and YSCN training areas. VFR aircraft are not required to contact SRI for entry, however should monitor the SRI frequency when operating in the training areas.
+SYC should monitor aircraft operating in the YSBK and YSCN training areas. VFR aircraft are not required to contact SYC for entry, however should monitor the SYC frequency when operating in the training areas.
 
 | Training Area  | Danger Area Code   |
 | ------| --------------|
@@ -140,7 +131,7 @@ SRI should monitor aircraft operating in the YSBK and YSCN training areas. VFR a
   <figcaption>Bankstown and Camden Training Areas</figcaption>
 </figure>
 
-If a conflict is imminent, SRI may pass safety alerts to VFR aircraft, even if prior contact has not been established and the aircraft are not in receipt of Surveillance Information Service (SIS). IFR aircraft, or VFR aircraft receiving SIS, that pass near the Training Areas may be given traffic information on known aircraft operating within the Training Areas, particularly those on the eastern side that may intend to exit tracking to Prospect Reservoir (PSP).
+If a conflict is imminent, SYC may pass safety alerts to VFR aircraft, even if prior contact has not been established and the aircraft are not in receipt of Surveillance Information Service (SIS). IFR aircraft, or VFR aircraft receiving SIS, that pass near the Training Areas may be given traffic information on known aircraft operating within the Training Areas, particularly those on the eastern side that may intend to exit tracking to Prospect Reservoir (PSP).
 
 ##### Western Sydney Airport
 The under-construction Western Sydney Airport is located in Badgerys Creek, north north-west of BRY. The opening of the new aerodrome will entail significant changes to the airspace arrangement across the TCU. Until then, the airport remains uncontrolled and is OCTA. There are no instrument procedures or navigational aids established to facilitate its use.
@@ -196,6 +187,35 @@ These can be displayed on vatSys using the `SY_VFR` map.
 
 !!! note
     Remember that VFR aircraft are **not** separated from other VFR aircraft in class C airspace.  If other VFR aircraft are operating over the harbour, you are not required to provide a separation standard between them, however you must pass traffic information to both aircraft.
+
+### Special Use Airspace
+#### Richmond SUA
+There are multiple [restricted areas](../../controller-skills/sua/#restricted-areas) within the TMA associated with military operations at YSRI. The restricted areas are all located within **SRA** airspace.
+
+<figure markdown>
+![Richmond SUA in the SY TMA](img/ri_sua.png){ width="700" }
+  <figcaption>Richmond SUA in the SY TMA</figcaption>
+</figure>
+
+**RI SMC** will coordinate the [activation of these SUAs](#smc-to-tcu) with SY TCU **prior** to any activity.
+
+##### R481 COLO
+The **R481 COLO** [restricted area](../../controller-skills/sua/#restricted-areas) is used to facilitate higher-level military operations, such as [PJE](../../airwork/#parachute-operations) or local flight testing, above `A045`.
+
+Multiple YSSY and YSWS procedures transit the R481 COLO restricted area. When the area is activated, **SRA** must be extremely vigilant to ensure separation between PJE and transiting civil aircraft. Where possible, **SRA** should coordinate with neighbouring **SY TCU** sectors to assign additional requirements to climb above the vertical limits of the activation, or rerouted manually to avoid the area.
+
+!!! phraseology
+	*UPS136 has departed YSSY on the STUIE SID, bound for the Phillipines. The R481 restricted area has been activated `A045-A090`.*   
+    **SDN**: "UPS136, Sydney Departures, identified. Climb via SID to `F280`, requirement to reach `A100` by 5 miles URDOS."   
+    **UPS136**: "Climb via SID to `F280`, requirement to reach `A100` by 5 miles URDOS, UPS136."  
+
+!!! warning "Important"
+    When the R481 COLO airspace is activated and Runway 34L is in use for departures at YSSY, it is **strongly recommended** that **SRA** arrange to receive "heads-up" coordination from **SDN** of any aircraft departing via the **STUIE** or **AVMOV** SIDs.
+    
+#### R555A-F Holsworthy
+The **R555A-F Holsworthy** [restricted areas](../../controller-skills/sua/#restricted-areas) is located underneath and within the SY TMA, around Holsworthy Army Barracks (YSHW).
+
+Upon receiving a request from an aircraft at YSHW to activate the restricted airspace, **SYC** shall coordinate activation with any other affected SY TCU controller.
 
 ## Departure and Arrival Procedures 
 ### Level Assignment
@@ -520,7 +540,7 @@ Any aircraft not meeting this requirement **must** be prior coordinated to DIR.
 
 #### APP / DEP
 ##### Radar Entry Procedure (REP)
-Within 15 DME of SY, Departure controllers (**SDN** and **SDS**) can allow aircraft to cross airspace owned by Approach controllers (**SAN** and **SAS**) at or above `A100` without coordination.  This allows aircraft to safely depart above arriving aircraft and facilitates more direct tracking for YSBK & YSRI departures.  
+Within 15 DME of SY, Departure controllers (**SDN** and **SDS**) can allow aircraft to cross airspace owned by Approach controllers (**SAN** and **SAS**) at or above `A100` without coordination.  This allows aircraft to safely depart above arriving aircraft and facilitates more direct tracking for YSBK & YSYC departures.  
 
 !!! note
     SIDs from YSSY do not guarantee that aircraft will reach A100 by 15DME, so Departure controllers should be mindful of this and take action where necessary to expedite climb or coordinate with Approach.  
@@ -544,7 +564,7 @@ Refer to [Sydney TCU Airspace Division](#airspace-division) for more information
     <span class="hotline">**SDN** -> **SFW**</span>: "Request left turn out of Bankstown"  
     <span class="hotline">**SFW** -> **SDN**</span>: "Approved" *(no callsigns need be used here)*  
 
-#### Between SRI and TCU
+#### Between SYC and TCU
 Standard [Radar to TCU](../controller-skills/coordination.md#radar-position-tcu-controllers) coordination for each aircraft transiting between Class G and CTA (or vice versa).
 
 ### SY ADC
@@ -630,9 +650,9 @@ Refer to [Reclassifications](#cn-ctr) for operations when CN ADC is offline.
 CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a ready call, SY TCU will issue a traffic statement.
 
 !!! phraseology
-    <span class="hotline">**CN ADC** -> **SRI**</span>: "Ready, MHQ, Runway 06"  
-    <span class="hotline">**SRI** -> **CN ADC**</span>: "MHQ, traffic is MEH, an IFR AC50, tracking SHL RAKSO SB2WI, A035, estimate RAKSO time 35" (or "No Reported IFR Traffic")  
-    <span class="hotline">**CN ADC** -> **SRI**</span>: "Traffic is MEH tracking SHL RAKSO SB2WI A035, RAKSO at 35"  
+    <span class="hotline">**CN ADC** -> **SYC**</span>: "Ready, MHQ, Runway 06"  
+    <span class="hotline">**SYC** -> **CN ADC**</span>: "MHQ, traffic is MEH, an IFR AC50, tracking SHL RAKSO SB2WI, A035, estimate RAKSO time 35" (or "No Reported IFR Traffic")  
+    <span class="hotline">**CN ADC** -> **SYC**</span>: "Traffic is MEH tracking SHL RAKSO SB2WI A035, RAKSO at 35"  
     
     **CN ADC:** "MHQ, traffic is MEH, IFR AC50 tracking SHL RAKSO SB2WI at A035, estimating RAKSO at time 35, runway 06, cleared for takeoff"  
     **MHQ:** "Runway 06, cleared for takeoff, MHQ"
@@ -649,8 +669,8 @@ SY TCU must heads-up coordinate inbound IFR aircraft prior to **5 mins** from th
 SY TCU will **NOT** clear the aircraft for the approach.
 
 !!! phraseology
-    <span class="hotline">**SRI** -> **CN ADC**</span>: "via RNP W, HRP"  
-    <span class="hotline">**CN ADC** -> **SRI**</span>: "HRP"   
+    <span class="hotline">**SYC** -> **CN ADC**</span>: "via RNP W, HRP"  
+    <span class="hotline">**CN ADC** -> **SYC**</span>: "HRP"   
 
 **CN ADC** must issue an airways clearance to these aircraft on first contact.
 
@@ -658,11 +678,18 @@ SY TCU will **NOT** clear the aircraft for the approach.
 'Next' coordination is required from RI ADC to SY TCU for all aircraft.
 
 !!! example
-    <span class="hotline">**RI ADC** -> **SDN**</span>: "Next, TROJ57, runway 28"  
-    <span class="hotline">**SDN** -> **RI ADC**</span>: "TROJ57, unrestricted"  
-    <span class="hotline">**RI ADC** -> **SDN**</span>: "TROJ57"  
+    <span class="hotline">**RI ADC** -> **SRA**</span>: "Next, TROJ57, runway 28"  
+    <span class="hotline">**SRA** -> **RI ADC**</span>: "TROJ57, unrestricted"  
+    <span class="hotline">**RI ADC** -> **SRA**</span>: "TROJ57"  
 
 The Standard Assignable Level from **RI ADC** to **SY TCU** is the lower of `A050` or `RFL`.
+
+### SMC to TCU
+The controller assuming responsibility of **SMC** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to SRA (or the enroute controller responsible for the SY TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
+
+!!! phraseology
+    <span class="hotline">**RI SMC** -> **SRA**</span>: "PSSM31 requests clearance to M742"  
+    <span class="hotline">**SRA** -> **RI SMC**</span>: "PSSM31, clearance approved."  
 
 ### NW TCU
 All aircraft transiting between SY TCU and NW TCU require [Heads-up](../controller-skills/coordination.md#heads-up) coordination prior to the boundary; however, as soon as practical (when is the aircraft becomes airborne) is preferred. 
