@@ -197,13 +197,13 @@ The following subsectors are responsible for issuing STAR clearance.
 
 Arrivals from the north shall be given initial descent to not below `F190`. **BN TCU** will issue final descent.
 
-Arrivals from other sectors should be issued with descent and tracking instructions appropriate for the runway configuration, following [coordination](#bn-tcubac).
+Arrivals from other sectors should be issued with descent and tracking instructions appropriate for the runway configuration, following [coordination](#bn-tcubacbaa).
 
 ##### Arrivals via BN
 There is no STAR available to facilitate aircraft arriving from the north west. INL(BUR/NSA) will instruct these aircraft `BN Y177 IDRIL NOPAS GOMOL` prior to handoff to BN TCU, who will then facilitate further descent. Aircraft will then be given further instructions by BAC according to the runway in use.
 
 ##### Arrivals via BERNI
-YBCG arrivals from the south will transit BAA airspace as they descend. INL will provide these aircraft with their STAR clearance and initial descent, and then issuing further descent to meet [voiceless coordination criteria](#arrivals-overfliers).
+YBCG arrivals from the south will transit BAA airspace as they descend. INL will provide these aircraft with their STAR clearance and initial descent, and then issuing further descent to meet [voiceless coordination criteria](#arrivalsoverfliers).
 
 BAA is then responsible for facilitating descent to these aircraft to `A090` (or an otherwise [coordinated level](../../../terminal/brisbane/#between-bac-and-baa)), before handing the aircraft to BAC.
 
@@ -235,7 +235,7 @@ The following subsectors are responsible for issuing STAR clearance.
 | ---- | ----- | -------- | ----- |
 | INL  | UPSEL | All |            |
 
-Arrivals from other sectors should be issued with descent and tracking instructions appropriate for the runway configuration, following [coordination](#bn-tcu-bac-baa).
+Arrivals from other sectors should be issued with descent and tracking instructions appropriate for the runway configuration, following [coordination](#bn-tcubacbaa).
 
 ##### Runway 06 Arrivals
 When the Evans Head Military Restricted Areas (R638) are activated, aircraft must be assigned the UPSEL **XRAY** or **YANKEE** STARs, rather than the ALPHA or BRAVO. These prcocedures will ensure the aircraft remains clear of the [restricted area](../../../controller-skills/sua/#restricted-areas).
@@ -305,7 +305,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		| YBCG | All   | **123.500** (BAC)      |
 
 		!!! tip
-			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcubac). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcubacbaa). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 		
 	=== "19 PROPS"
 		<figure markdown>
@@ -326,7 +326,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		| YBCG | All   | **123.500** (BAC)      |
 
 		!!! tip
-			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcubac). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcubacbaa). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 		
 	=== "SODPROPS"
 		<figure markdown>
@@ -347,7 +347,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		| YBCG | All   | **123.500** (BAC)      |
 
 		!!! tip
-			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcubac). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcubacbaa). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 
 ## Coordination
 ### BN TCU/BAC/BAA
