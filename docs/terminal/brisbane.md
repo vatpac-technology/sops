@@ -31,7 +31,7 @@ The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, w
     See also: [AF ADC Offline](#af-adc-offline).
 
 === "BA CTR"
-    BA CTR reverts to Class G below `A045` when **BA ADC** is offline, and is administered by **BA_APP**.
+    BA CTR reverts to Class G below `A045` when **BA ADC** is offline, and is administered by **BAA**.
 
     See also: [BA ADC Offline](#ba-adc-offline).
 
@@ -44,7 +44,7 @@ The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, w
 The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, **BAC**, and **BAA** change based on the Runway Mode.
 
 !!! note
-    The following diagrams do not include non BN TCU areas of responsibility such as AF CTR or CG ADC
+    The following diagrams do not include non BN TCU areas of responsibility such as AF CTR, CG ADC, or BA ADC.
 
 === "01 PROPS"
 	<figure markdown>
@@ -73,6 +73,12 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, **BAC*
 		The controller may connect as either position, and assume both frequencies. 
         
         Only **two** TCU controllers may operate the BN TMA when running the SODPROPS runway mode (excluding an additional SHN, BAC, and BAA controller if desired).
+    
+=== "YBCG and YBNA"
+	<figure markdown>
+	![Brisbane TCU Structure (Gold Coast/Ballina)](img/cgtcu.png){ width="700" }
+	  <figcaption>Brisbane TCU Structure (Gold Coast/Ballina)</figcaption>
+	</figure>
 
 #### Brisbane Radar (SHN)
 SHN is responsible for the provision of FIS in Class G airspace within the BN TMA. The role can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordation requirements](#between-shn-and-tcu) exist between SHN and other TCU positions.  
@@ -492,7 +498,7 @@ All other aircraft must be heads-up coordinated.
 
 !!! phraseology
     <span class="hotline">**BAA** -> **BAC**</span>: "via IPNOS, XYZ"  
-    <span class="hotline">**BAC** -> **BAC**</span>: "XYZ, `A070`"
+    <span class="hotline">**BAC** -> **BAA**</span>: "XYZ, `A070`"
 
 #### Between SHN and TCU
 Standard [Radar to TCU](../controller-skills/coordination.md#radar-position-tcu-controllers) coordination for each aircraft transiting between Class G and CTA (or vice versa).
@@ -501,7 +507,7 @@ Standard [Radar to TCU](../controller-skills/coordination.md#radar-position-tcu-
 #### Airspace
 AF ADC is responsible for the Class D Airspace within the AF CTR `SFC` to `A015`.
 
-Refer to [Reclassifications](#af-ctr) for operations when AF ADC is offline.
+Refer to [Reclassifications](#reclassifications) for operations when AF ADC is offline.
 
 #### Departures
 [Next](../controller-skills/coordination.md#next) coordination is required from AF ADC to BN TCU for all aircraft **entering BN TCU CTA**.
@@ -509,7 +515,7 @@ Refer to [Reclassifications](#af-ctr) for operations when AF ADC is offline.
 The Standard Assignable level from **AF ADC** to **BN TCU** is:
 
 | Aircraft | Level |
-| ------- | ----- |
+| -------- | ----- |
 | All | The lower of `A040` and `RFL` |
 
 #### Arrivals/Overfliers
@@ -525,7 +531,7 @@ VFR aircraft require a level readback.
 #### Airspace
 BA ADC is responsible for the Class D airspace within the BA CTR `SFC` to `A015`.
 
-Refer to [Reclassifications](#ba-ctr) for operations when BA ADC is offline.
+Refer to [Reclassifications](#reclassifications) for operations when BA ADC is offline.
 
 #### Auto Release
 [Next](../../controller-skills/coordination/#next) coordination is **not** required to BN TCU for aircraft that are:   
@@ -557,7 +563,7 @@ VFR aircraft require a level readback.
 #### Airspace
 CG ADC is responsible for the Class C Airspace within the CG CTR `SFC` to `A015`.
 
-Refer to [Reclassifications](#cg-ctr) for operations when CGF ADC is offline.
+Refer to [Reclassifications](#reclassifications) for operations when CGF ADC is offline.
 
 #### Auto Release
 [Next](../controller-skills/coordination.md#next) coordination is **not** required to BN TCU for aircraft that are:   
