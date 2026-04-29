@@ -118,30 +118,8 @@ SYC is responsible for the provision of FIS in Class G airspace within the SY TM
 !!! example
     During a busy event, Sydney Departures is experiencing a high workload and wishes to delegate the SYC role to another TMA controller who isn't as busy.  SAN's sector is quiet, so they elect to perform the role.
 
-##### Training Areas
-SYC should monitor aircraft operating in the YSBK and YSCN training areas. VFR aircraft are not required to contact SYC for entry, however should monitor the SYC frequency when operating in the training areas.
 
-| Training Area  | Danger Area Code   |
-| ------| --------------|
-| YSBK   | D556B |
-| YSCN   | D552 |
 
-<figure markdown>
-![Bankstown and Camden Training Areas](img/SYtrainingareas.PNG){ width="700" }
-  <figcaption>Bankstown and Camden Training Areas</figcaption>
-</figure>
-
-If a conflict is imminent, SYC may pass safety alerts to VFR aircraft, even if prior contact has not been established and the aircraft are not in receipt of Surveillance Information Service (SIS). IFR aircraft, or VFR aircraft receiving SIS, that pass near the Training Areas may be given traffic information on known aircraft operating within the Training Areas, particularly those on the eastern side that may intend to exit tracking to Prospect Reservoir (PSP).
-
-##### Western Sydney Airport
-The under-construction Western Sydney Airport is located in Badgerys Creek, north north-west of BRY. The opening of the new aerodrome will entail significant changes to the airspace arrangement across the TCU. Until then, the airport remains uncontrolled and is OCTA. There are no instrument procedures or navigational aids established to facilitate its use.
-
-<figure markdown>
-![Western Sydney Airport location (approx.)](img/sytcu_wsiappx.png){ width="300" }
-  <figcaption>Western Sydney Airport location *(approx.)*</figcaption>
-</figure>
-
-Some pilots may choose to simulate operations to/from the airport, despite these limitations. Aircraft operating in and out of the site are processed in the same way as any other flight into an uncontrolled ALA OCTA.
 
 ## Separation
 ### Parallel Runway Operations
@@ -163,27 +141,17 @@ An aircraft is only considered independent from the adjacent final approach cour
 
 ## Local Procedures
 ### Sydney Harbour Scenic Flights
-Flights may be cleared for one of two standard scenic flight routes at `A015`, **Harbour Scenic One** or **Harbour Scenic Two**, which are described below. Pilot preference should be accommodated where traffic permits.
+Flights may be cleared for the **Harbour Scenic One** scenic flight routes at `A015`, where traffic permits. This route can be displayed on vatSys using the `SY_VFR` map.  
 
-Aircraft must track via Class G airspace to Long Reef and contact SY TCU prior to reaching Long Reef requesting a ‘Harbour Scenic’ clearance. Attempt to identify the aircraft, and if a clearance cannot be given immediately, instruct the pilot to remain in Class G airspace.
-
-!!! phraseology
-    "LOI, squawk 0542, remain clear of Class C airspace"
-
-A **‘Harbour Scenic One’** (or **‘Two’**) clearance is used to authorise flight in the nominated route at `A015`. Sydney QNH must be issued with the clearance.
+Aircraft must track via Class G airspace to Long Reef and contact SY TCU prior to reaching Long Reef requesting a ‘Harbour Scenic’ clearance. Attempt to identify the aircraft, and if a clearance cannot be given immediately, instruct the pilot to remain in Class G airspace. Sydney QNH must be issued with the clearance.
 
 !!! phraseology
+    "LOI, squawk 0542, remain clear of Class C airspace"   
+    ...  
     "LOI, identified, cleared Harbour Scenic One, Sydney QNH 1014"
 
 !!! warning "Caution"
     The Harbour Scenic One procedure may cause conflict with departures from Runway 34R to the north. Before issuing a Harbour Scenic One clearance, assess the traffic situation on the ground at YSSY and determine whether a departure to the north of the harbour is likely in the next few minutes. If necessary, instruct the aircraft to remain OCTA and advise of the delay, or alternatively, issue the Harbour Scenic Two clearance.
-
-<figure markdown>
-![Sydney Harbour Scenic Routes](img/sy_harbourbridge_vatsys.png){ width="400" }
-  <figcaption>Sydney Harbour Scenic One *(in pink)* and Two *(in green)*</figcaption>
-</figure>
-
-These can be displayed on vatSys using the `SY_VFR` map.  
 
 !!! note
     Remember that VFR aircraft are **not** separated from other VFR aircraft in class C airspace.  If other VFR aircraft are operating over the harbour, you are not required to provide a separation standard between them, however you must pass traffic information to both aircraft.
