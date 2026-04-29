@@ -143,9 +143,17 @@ YSWS uses four different SID designators to differentiate between different vari
 
 ## ATIS
 ### Operational Info
+The Operational Information field should be updated to reflect the level of controlled airspace within the SY C10 area when it is lowernight overnight.
+
+| Condition    | OPR INFO Field |
+| ------------ | -------------- |
+| Between 2300 and 0600 local | `SY CTA 10 SOUTH OF WS CTR ACTIVE` |
+
+
 #### ACD Pushback Requests
 When implementing the Pushback Requests on ACD procedure, the OPR INFO shall include:
 `ALL DEPARTURES MUST REQUEST PUSH BACK ON 118.65`
+
 
 ## Coordination
 ### Auto Release
@@ -169,7 +177,7 @@ The Standard Assignable level from WS ADC to SWA is:
 
 | Aircraft | Level  |
 | -------- | ------ |
-| Jets     | `A050` |
+| Jets     | `A040` |
 | Non-Jets | The lower of `A030` and `RFL` |
 
 ### Departures Controller
@@ -192,3 +200,6 @@ The controller assuming responsibility of **WS ACD** shall give [heads-up](../..
 
 - VFR departures
 - Aircraft using a runway not on the ATIS
+
+### SY ADC
+#### Airspace
