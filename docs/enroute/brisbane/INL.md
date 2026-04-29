@@ -61,12 +61,7 @@ INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, and **NSA** when they
 
 ### YAMB
 #### Coded Clearances
-Coded Clearances are available inbound and outbound from the AMB TMA to provided a standardised corridor for fast jet aircraft.
-
-<figure markdown>
-![YAMB Coded Clearances](../img/yambcodedclearances.png){ width="700" }
-  <figcaption>YAMB Coded Clearances</figcaption>
-</figure>
+Coded Clearances are available inbound and outbound from the AMB TMA, allowing an aircraft to transit civilian airspace via a [military corridor](#military-corridors) to access offshore SUA.
 
 ##### Arrivals
 Fast jet aircraft leaving offshore SUA or arriving to YAMB from the east shall be cleared via one of the following coded clearances.
@@ -90,7 +85,10 @@ Each coded clearance includes altitude restrictions which can be used to facilit
 | ---------- | --------------------- | --------------------- |
 | Northern 5 | Cross BINUP at `F190` | Cross MURJO at `F260` |
 | Central 5  | Cross BINUP at `F190` | Cross MURJO at `F260` |
-| Byron 1    | Cross COWIE at `F190` | Cross KIWEE at `F260` | 
+| Byron 1    | Cross COWIE at `F190` | Cross KIWEE at `F260` |
+
+!!! note
+    Aircraft tracking via a coded clearance does **not** constitute a voiceless coordination route between AMB TCU and INL. Aircraft should still be heads-up coordinated to ARL prior to **5 minutes** to the boundary, unless coordinated otherwise. 
 	
 ### YBBN
 #### STAR Assignment
@@ -238,7 +236,7 @@ The following subsectors are responsible for issuing STAR clearance.
 Arrivals from other sectors should be issued with descent and tracking instructions appropriate for the runway configuration, following [coordination](#bn-tcubacbaa).
 
 ##### Runway 06 Arrivals
-When the Evans Head Military Restricted Areas (R638) are activated, aircraft must be assigned the UPSEL **XRAY** or **YANKEE** STARs, rather than the ALPHA or BRAVO. These prcocedures will ensure the aircraft remains clear of the [restricted area](../../../controller-skills/sua/#restricted-areas).
+When the [R638 Evans Head](#m661a-b-m641-and-r-638-a-c-evans-head) restricted areas are activated, aircraft must be assigned the UPSEL **XRAY** or **YANKEE** STARs, rather than the ALPHA or BRAVO. These prcocedures will ensure the aircraft remains clear of the [restricted area](../../../controller-skills/sua/#restricted-areas).
 
 #### Sequencing
 INL is responsible for initial sequencing for aircraft arriving from the south. NSA, SDY and GOL are responsible for initial sequencing for aircraft arriving from the north/east, with final sequencing actions are performed by GOL.
@@ -268,9 +266,73 @@ Coordination with KPL should be conducted to ensure that aircraft from each sect
 #### Sequencing
 INL and ARL(MNN) share a joint responsibility to build the final sequence of arrivals into YCFS when the tower is open. Coordination with ARL(MNN) should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
 
-<!-- ## Special Use Airspace 
-### Restricted Areas
--->
+## Local Procedures
+### Military Corridors
+There are three [military corridors](../../../controller-skills/military/#military-corridors) established around the AMB/OK TCU and BN TCU to facilitate transit of military aircraft between the TCU and adjoining SUAs.
+
+<figure markdown>
+![AMB TCU Military Corridors](../../../terminal/img/amb_mil_corridors.png){ width="700" }
+  <figcaption>AMB TCU Military Corridors</figcaption>
+</figure>
+
+These corridors are located **outside** the jurisdiction of the AMB TCU.
+
+Aircraft departing to the AMB TCU will be cleared the relevant [coded clearance](#coded-clearances) by AMB ACD. Aircraft returning to the airport will be cleared the relevant coded clearance by ARL.
+
+Aircraft transiting the Thunder Corridor should be assigned the appropriate altitude to ensure separation with opposite direction traffic while transiting to their desired restricted area.
+
+### Special Use Airspace
+There are multiple volumes of [SUA](../../../controller-skills/sua) within INL airspace, mostly associated with military operations in and out of YAMB and YBOK.
+
+<figure markdown>
+![Notable SUA in INL Airspace](../img/inl_sua.png){ width="700" }
+  <figcaption>Notable SUA in INL Airspace</figcaption>
+</figure>
+
+AMB and OK TCU must [give heads up coordination](../../../terminal/williamtown/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
+
+!!! phraseology
+    <span class="hotline">**AMA** -> **INL**</span>: "On the groud YAMB, DRGN31, requests activation of M640A-D `A050-F240`, from 0300 until 0500.”  
+    <span class="hotline">**INL** -> **AMA**</span>: "DRGN31, expect activation of M640A-D `A050-F240` at 0300 until 0500."   
+    <span class="hotline">**AMA** -> **INL**</span>: "DRGN31."  
+    
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../sua/#ad-hoc-activations).
+
+#### M640A-D Amberley
+The M640A-D Amberley MOAs are located offshore within the SDY, KPL, and TSN(FLD) subsectors. The restricted areas are connected to the AMB TCU by the **Northern Corridor**.
+
+Aircraft departing the AMB TCU will be cleared the **NORTHERN 5** coded clearance. Aircraft returning to the TCU will be cleared the **NORTHERN 6** coded clearance by INL.
+
+##### Affected Civil Operations
+When activated, these MOAs disrupt traffic on the **A598** and **H224** high altitude airways, which connects YBBN to the Solomon Islands.
+
+| Planned Airway | ERSA Recommended Rerouting |
+| -------------- | -------------------------- |
+| A598           | `... Q67 GUDSO Q24 TERUV PUGEL` |
+
+!!! note
+	 Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../../sua/#separation-from-sua)  laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../../sua/#controlled-airspace) clearance with all parts of the SUA.
+
+#### M646 & M649A-B Amberley
+The M646 and M649A-B Amberley MOAs are located offshore within the SDY, MNN and TSN(FLD, HWE) subsectors. The restricted areas are connected to the AMB TCU by the **Central Corridor**.
+
+Aircraft departing the AMB TCU will be cleared the **CENTRAL 4** coded clearance. Aircraft returning to the TCU will be cleared the **CENTRAL 5** coded clearance by INL.
+
+#### M661A-B, M641, and R638A-C Evans Head
+The M661A-B, M641, and R638A-C Evans Head SUAs are located south of YBNA within the GOL, INL, SDY and TSN(HWE) subsectors. The restricted areas are connected to the AMB TCU by the **South Corridor**.
+
+Aircraft departing the AMB TCU will be cleared the **BYRON 1** coded clearance. Aircraft returning to the TCU will be cleared the **BYRON 2** coded clearance by INL.
+
+##### Affected Civil Operations
+When activated, the restricted areas distrupt traffic within [BAA airspace](#runway-06-arrivals), aircraft arriving [YBCG via BERNI](#berni-transitions), and aircraft on the **T53** and **P880** high altitude airways, which connect the BN TMA to New Zealand.
+
+| Planned Airway | ERSA Recommended Rerouting |
+| -------------- | -------------------------- |
+| T53 (eastbound) | `GOMOL LAMSI N584 SAKBI ...` |
+| P880 (westbound) | `... SIFRA N584 LAMSI` |
+
+!!! note
+	 Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../../sua/#separation-from-sua)  laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../../sua/#controlled-airspace) clearance with all parts of the SUA.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -413,7 +475,7 @@ CFS ADC is responsible for the Class D airspace in the CFS CTR `SFC` to `A045`.
 Refer to [Reclassifications](#reclassifications) for operations when CFS ADC is offline.
 
 #### Departures
-[Next](../../controller-skills/coordination.md#next) coordination is required from CFS ADC to INL for all aircraft **entering INL CTA**.
+[Next](../../../controller-skills/coordination/#next) coordination is required from CFS ADC to INL for all aircraft **entering INL CTA**.
 
 The Standard Assignable level from **CFS ADC** to **INL** is:
 

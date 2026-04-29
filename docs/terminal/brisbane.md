@@ -116,7 +116,7 @@ Two aircraft cleared for adjacent instrument approaches must maintain the follow
 ### Special Use Airspace
 
 #### Evans Head SUA
-The Evans Head Air Weapons Range is located partially within BAA airspace, and is used for air-surface gunnery, bombing, and rocket firing practice. There are multiple [restricted areas](../../controller-skills/sua/#restricted-areas) and [MOAs](controller-skills/sua/#military-operating-areas) associated with the range to enable flying activities based at [Amberley](../amberleyoakey).
+The [Evans Head Air Weapons Range](../../enroute/brisbane/INL/#m661a-b-m641-and-r638a-c-evans-head) is located partially within BAA airspace, and is used for air-surface gunnery, bombing, and rocket firing practice. There are multiple [restricted areas](../../controller-skills/sua/#restricted-areas) and [MOAs](controller-skills/sua/#military-operating-areas) associated with the range to enable flying activities based at [Amberley](../amberleyoakey).
 
 <figure markdown>
 ![The Evans Head Air Weapons Range](img/ba_evans_head.png){ width="700" }

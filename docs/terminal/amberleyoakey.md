@@ -58,15 +58,12 @@ The vertical limits of the OK TCU are `SFC` to `F125`.
     **OK ADC** owns the Class C airspace within 5 DME of the OK VOR from `SFC` to `A030`.
 
 ## Extending
-AMA may extend to OKA and vice versa; callsigns remain the same. See [Controller Skills](../controller-skills/extending.md) for details.
+AMA may extend to OKA and vice versa; callsigns remain the same. See [Controller Skills](../../controller-skills/extending/#terminal-area) for details.
 
 ## Local Procedures 
 ### YAMB
 #### Coded Clearances
 High performance military jet aircraft with planned operations in offshore SUA, or intending to depart to the east, will be assigned a Coded Clearance departure. These aircraft may arrive back to YAMB via the same corridor. These Coded Clearances provide a standardised corridor avoiding civilian traffic in the adjacent airspace. 
-
-!!! tip
-    Descriptions of the coded clearances are available in the [FIHA AD2 Supps](https://ais-af.airforce.gov.au/australian-aip){target=new}.
 
 ##### Departures
 Aircraft will depart the circuit visually and track overhead YAMB to begin tracking for their initial waypoint. Aircraft cleared the BYRON1 must turn to the west on departure, and may set course for their inital waypoint within 10TAC AMB, remaining within the lateral limits of the AMB CTR in order to meet the inital constraint at `COWIE`.
@@ -223,4 +220,4 @@ All aircraft transiting between the AMB/OK TCU boundary must be heads-up coordin
 
 ## Charts
 !!! abstract "Reference"
-    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
+    In addition to the civilian `ERSA` and `AIP` publications, [the RAAF AIP website](https://ais-af.airforce.gov.au/australian-aip){target=new} contains the necessary charts (available in the TERMA) and description of procedures (in each airports' FIHA).
