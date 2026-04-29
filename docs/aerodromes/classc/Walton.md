@@ -147,7 +147,7 @@ The Operational Information field should be updated to reflect the level of cont
 
 | Condition    | OPR INFO Field |
 | ------------ | -------------- |
-| Between 2300 and 0600 local | `SY CTA 10 SOUTH OF WS CTR ACTIVE` |
+| Between 2300 and 0600 Local   | `SY CTA 10 SOUTH OF WS CTR ACTIVE` |
 
 
 #### ACD Pushback Requests
