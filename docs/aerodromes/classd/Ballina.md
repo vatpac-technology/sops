@@ -15,7 +15,7 @@
 BA ADC is responsible for the Class D airspace in the BA CTR from `SFC` to `A015`.
 
 <figure markdown>
-![BA ADC Airspace](img/baairspace.png){ width="1000" }
+![BA ADC Airspace](img/baadc.png){ width="1000" }
   <figcaption>BA ADC Airspace</figcaption>
 </figure>
 
