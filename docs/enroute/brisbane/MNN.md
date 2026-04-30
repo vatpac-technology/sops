@@ -17,7 +17,7 @@
 
 ## Airspace
 <figure markdown>
-![Manning Airspace](../img/enr_diagrams/arl.png){ width="700" }
+![Manning Airspace](../img/enr_diagrams/mnn.png){ width="700" }
   <figcaption>Manning Airspace</figcaption>
 </figure>
 
@@ -97,6 +97,11 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 
 ### YSWS
 #### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
+
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| OCN  | BIKUS<br>RIKNI | All      |       |
 
 #### Sequencing
 

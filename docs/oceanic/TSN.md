@@ -58,7 +58,7 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| TSN, HWE | ARL(OCN) | YSSY | |
+| TSN, HWE | MNN(OCN) | YSSY, YSWS, YSBK, YSCN, YSRI | |
 | FLD, HWE | INL(SDY) | YBBN, YBCG, YBSU | |
 | FLD | KEN(All) | YBCS, YBTL | |
 

@@ -21,12 +21,11 @@
 
 ## Airspace
 <figure markdown>
-![Gunnedah Airspace](../img/enr_diagrams/arl.png){ width="700" }
+![Gunnedah Airspace](../img/enr_diagrams/gah.png){ width="700" }
   <figcaption>Gunnedah Airspace</figcaption>
 </figure>
 
 ### Reclassifications
-
 === "TW CTR"
 	When **TW ADC** is offline, TW CTR (Class D and C `SFC` to `A085`) reverts to Class G, and is administered by ARL. Alternatively, ARL may provide a [top-down procedural service](../../../aerodromes/procedural/Tamworth) if they wish (not recommended).  
     
@@ -53,13 +52,13 @@ Arrivals from the north shall be given initial descent to not below `F250`. **CN
 !!! phraseology
     **ARL:** "RXA6417, amended tracking and STAR clearance available"  
     **RXA6417:** "RXA6417, go ahead"  
-    **ARL:** "RXA6417, recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain F180"  
-    **RXA6417:** "Recleared direct BOREE for the BOREE4A arrival, runway 34L, maintain F180, RXA6417" 
+    **ARL:** "RXA6417, recleared direct BOREE for the BOREE5A arrival, runway 34L, maintain F180"  
+    **RXA6417:** "Recleared direct BOREE for the BOREE5A arrival, runway 34L, maintain F180, RXA6417" 
 	
 #### Sequencing
-Sequencing arrivals from the north/east into YSSY is a joint responsibility of the subsectors of ARL. Initial sequencing actions for aircraft from the north should be performed by ARL, with fine tuning and any holding required issued by CNK. 
+Sequencing arrivals from the north into YSSY is a joint responsibility of the subsectors of GAH. Initial sequencing actions for aircraft from the north should be performed by ARL, with fine tuning and any holding required issued by CNK. 
 
-Aircraft from the north/east shall be assigned **runway 16L/34R** during PROPS. However, some situations may warrant the use of the main runway (16R/34L), such as heavy aircraft operationally requiring the longer runway or large volumes of traffic requiring the use of both runways to minimise delay. In this case, coordination must be conducted with Melbourne Centre or Sydney Flow (if operating) to ensure that the sequence is built in an efficient and orderly way.
+Aircraft from the north shall be assigned **runway 16L/34R** during PROPS. However, some situations may warrant the use of the main runway (16R/34L), such as heavy aircraft operationally requiring the longer runway or large volumes of traffic requiring the use of both runways to minimise delay. In this case, coordination must be conducted with Melbourne Centre or Sydney Flow (if operating) to ensure that the sequence is built in an efficient and orderly way.
 
 !!! phraseology
     <span class="hotline">**ARL** -> **BIK**</span>: "North of Sydney, CPA21, with your concurrence will be assigned runway 34L due operational requirement"  
@@ -80,6 +79,21 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 !!! tip
     Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector.
     
+### YSWS
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
+
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| DEN  | GODUK | Non Jet  |       |
+| GAH  | UNTAV | All      | Descent not below `F250` |
+| RYS  | GODUK | Non Jet  |       |
+
+Arrivals from the north shall be given initial descent to not below `F250`. **DEN** will issue final descent.   
+
+#### Sequencing
+Sequencing arrivals from the north into YSWS is a joint responsibility of the subsectors of GAH. Initial sequencing actions for aircraft from the north should be performed by GAH, with fine tuning and any holding required issued by DEN. 
+    
 ### YSTW
 ARL and GAH are responsible for issuing descent.
 
@@ -96,11 +110,6 @@ The following subsectors are responsible for issuing STAR clearance.
 
 #### Coded Clearances
 The ARL subsector is additionally responsible for issuing the **STORM 2** coded clearance to aircraft arriving YWLM via the **[Thunder Corridor](#r560-r570-williamtown)**.
-
-### YSWS
-#### STAR Assignment
-
-#### Sequencing
 
 ## Local Procedures
 ### Special Use Airspace
