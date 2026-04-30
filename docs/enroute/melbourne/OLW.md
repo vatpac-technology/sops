@@ -8,9 +8,10 @@
 | Name                | ID      | Callsign             | Frequency   | Login ID       |
 | ------------------- | ------- | -------------------- | ----------- | -------------- |
 | **Onslow**          | **OLW** | **Melbourne Centre** | **134.000** | **ML-OLW_CTR** |
+| <span class="indented">Leonora :material-information-outline:{ title="Non-standard position"}     | LEO | Melbourne Centre | 133.700 | ML-LEO_CTR |
 | <span class="indented">Meekatharra :material-information-outline:{ title="Non-standard position"} | MEK | Melbourne Centre | 132.000 | ML-MEK_CTR |
 | <span class="indented">Menzies :material-information-outline:{ title="Non-standard position"}     | MZI | Melbourne Centre | 134.300 | ML-MZI_CTR |
-| <span class="indented">Mount :material-information-outline:{ title="Non-standard position"}       | MTK | Melbourne Centre | 133.700 | ML-MTK_CTR |
+| <span class="indented">Mount :material-information-outline:{ title="Non-standard position"}       | MTK | Melbourne Centre | 118.950 | ML-MTK_CTR |
 | <span class="indented">Newman :material-information-outline:{ title="Non-standard position"}      | NEW | Melbourne Centre | 125.400 | ML-NEW_CTR |
 | <span class="indented">Paraburdoo :material-information-outline:{ title="Non-standard position"}  | PAR | Melbourne Centre | 133.500 | ML-PAR_CTR |
 | <span class="indented">Port :material-information-outline:{ title="Non-standard position"}        | POT | Melbourne Centre | 127.000 | ML-POT_CTR |
@@ -54,7 +55,7 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| MEK, MTK, MZI | HYD/GVE | YPPH, YPEA | Jets only |
+| MEK, MTK, MZI | HYD(DAL) | YPPH, YPEA | Jets only |
 
 ## Coordination
 

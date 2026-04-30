@@ -9,6 +9,7 @@
 | ------------------- | ------- | -------------------- | ----------- | -------------- |
 | **Hyden**           | **HYD** | **Melbourne Centre** | **118.200** | **ML-HYD_CTR** |
 | <span class="indented">Cross :material-information-outline:{ title="Non-standard position"}     | SCR | Melbourne Centre | 135.800 | ML-SCR_CTR |
+| <span class="indented">Dally :material-information-outline:{ title="Non-standard position"}     | DAL | Melbourne Centre | 124.800 | ML-DAL_CTR |
 | <span class="indented">Geraldton :material-information-outline:{ title="Non-standard position"} | GEL | Melbourne Centre | 134.200 | ML-GEL_CTR |
 | <span class="indented">Grove :material-information-outline:{ title="Non-standard position"}     | GVE | Melbourne Centre | 133.800 | ML-GVE_CTR |
 | <span class="indented">Jarrah :material-information-outline:{ title="Non-standard position"}    | JAR | Melbourne Centre | 120.300 | ML-JAR_CTR |
@@ -68,7 +69,7 @@ The following subsectors are responsible for issuing STAR clearance.
 
 	| Subsector | STAR | Type | Notes |
 	| ---- | --------- | ---- | ----- |
-	| GVE  | JT **GOLF**, WOORA Trans | Jet | Descent not below `F190` |
+	| DAL  | JT **GOLF**, WOORA Trans | Jet | Descent not below `F190` |
 	| HYD  | JT **GOLF**, KABLI Trans | Jet | Descent not below `F190` |
 	| PIY  | JT **GOLF**, LAVEX Trans<br>JT **WHISKEY**, MALUP Trans<br>JT **GOLF**, WOORA Trans | Non-Jet |      |
 
@@ -91,7 +92,7 @@ The following subsectors are responsible for issuing STAR clearance.
 
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
-| GVE  | JULIM | Jet      | Descent not below `F190` | 
+| DAL  | JULIM | Jet      | Descent not below `F190` | 
 | HYD  | KABLI | Jet      | Descent not below `F190` |
 | JAR  | SOLUS | All      |       |
 | LEA  | IPMOR | All      |       |
@@ -114,7 +115,7 @@ When the [Southwest Plan](../../../aerodromes/classc/Perth/#runway-modes) active
 #### Sequencing
 Sequencing arrivals into YPPH is a joint responsibility of multiple subsectors:
 
-- GVE and HYD will perform initial sequencing actions for aircraft arriving from the north and east, with final sequencing performed by PIY.
+- DAL and HYD will perform initial sequencing actions for aircraft arriving from the north and east, with final sequencing performed by PIY.
 - LEA is responsible for all sequencing actions for aircraft arriving from the west.
 - JAR is responsible for all sequencing actions for aircraft arriving from the south.
 
@@ -269,8 +270,9 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| GVE, CRS, HYD | PIY | YPPH, YPEA | Non-jets only |
-| GVE, CRS, HYD | PIY | YPJT | |
+| GVE  | DAL    | YPPH, YPJT | Jets only |
+| DAL, CRS, HYD | PIY | YPPH, YPEA | Non-jets only |
+| DAL, CRS, HYD | PIY | YPJT | Non-jets only |
 | GEL | LEA | YPPH | |
 
 ## Terminal Handover Frequencies
@@ -363,7 +365,7 @@ All aircraft transiting from HYD to **PE TCU** must be [Heads-up](../../../contr
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 ### HYD Internal
-Changes to CFL are permitted up to the boundary from GVE, CRS and HYD to PIY.
+Changes to CFL are permitted up to the boundary from DAL, CRS and HYD to PIY.
 
 All else is Voiceless, no changes to route or CFL within **20nm** (reduced from 50nm) to boundary.
 
