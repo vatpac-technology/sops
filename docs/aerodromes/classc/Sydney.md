@@ -405,7 +405,7 @@ During SODPROPS, all departures shall be assigned RWY 16L, except:
     | ------- | ---- | -------- |
     | Jet     | KADOM<br>OLSEM<br>STUIE<br>WOL | **FISHA** SID, Relevant Transition |
     | Jet     | All others | **FISHA** SID, RADAR Transition |
-    | Non-Jet | BENBU<br>KADOM | **ANKUB** SID, RADAR Transition |
+    | Non-Jet | BENBU<br>KADOM | [**ANKUB** SID](#ankub-non-jet-sid), Relevant Transition |
     | Non-Jet | All others | **RADAR** SID |
 
 === "Runway 16L"
@@ -415,7 +415,7 @@ During SODPROPS, all departures shall be assigned RWY 16L, except:
     | Jet     | OLSEM<br>NOBAR<br>DIPSO<br>EVONN<br>CAWLY<br>OPTIC | **KEVIN** SID, Relevant Transition |
     | Jet     | WOL (during SODPROPS only) | **ABBEY** SID |
     | Jet     | All others | **KEVIN** SID, RADAR Transition |
-    | Non-Jet | BENBU<br>KADOM | **ANKUB** SID, RADAR Transition |
+    | Non-Jet | BENBU<br>KADOM | [**ANKUB** SID](#ankub-non-jet-sid), Relevant Transition |
     | Non-Jet | All others | **RADAR** SID |
 
 === "Runway 16R"
@@ -424,6 +424,7 @@ During SODPROPS, all departures shall be assigned RWY 16L, except:
     | ------- | ---- | -------- |
     | Jet     | KADOM<br>STUIE<br>WOL | **GROOK** SID, Relevant Transition |
     | Jet     | All others | **GROOK** SID, RADAR Transition |
+    | Non-Jet | BENBU<br>KADOM | [**ANKUB** SID](#ankub-non-jet-sid), Relevant Transition |
     | Non-Jet | All others | **RADAR** SID |
 
 === "Runway 25"
@@ -434,7 +435,7 @@ During SODPROPS, all departures shall be assigned RWY 16L, except:
     | Jet     | KADOM | **KADOM** SID |
     | Jet     | STUIE | **STUIE** SID |
     | Jet     | All others | **RADAR** SID |
-    | Non-Jet | BENBU<br>KADOM | **ANKUB** SID, RADAR Transition |
+    | Non-Jet | BENBU<br>KADOM | [**ANKUB** SID](#ankub-non-jet-sid), Relevant Transition |
     | Non-Jet | All others | **RADAR** SID ||
 
 === "Runway 34L"
@@ -446,7 +447,7 @@ During SODPROPS, all departures shall be assigned RWY 16L, except:
     | Jet     | KADOM | **KADOM** SID |
     | Jet     | STUIE | **STUIE** SID |
     | Jet     | All others | **RADAR** SID |
-    | Non-Jet | BENBU<br>KADOM | **ANKUB** SID, RADAR Transition |
+    | Non-Jet | BENBU<br>KADOM | [**ANKUB** SID](#ankub-non-jet-sid), Relevant Transition |
     | Non-Jet | All others | **RADAR** SID |
 
 === "Runway 34R"
@@ -456,7 +457,7 @@ During SODPROPS, all departures shall be assigned RWY 16L, except:
     | Jet     | OLSEM | **OLSEM** SID |
     | Jet     | WOL  | **MARUB** SID, WOL Transition |
     | Jet     | All others | **MARUB** SID, RADAR Transition |
-    | Non-Jet | BENBU<br>KADOM | **ANKUB** SID, RADAR Transition |
+    | Non-Jet | BENBU<br>KADOM | [**ANKUB** SID](#ankub-non-jet-sid), Relevant Transition |
     | Non-Jet | All others | **RADAR** SID |
 
 !!! warning "Important"
@@ -464,6 +465,11 @@ During SODPROPS, all departures shall be assigned RWY 16L, except:
 
 ### Climb Gradient Requirements
 Climb gradient requirements apply to all Procedural SIDs. It is the pilot's responsibility to advise if they are unable to meet these requirements. Pilots that advise this shall be assigned the **RADAR** SID instead, regardless of aircraft type.
+
+### ANKUB Non-Jet SID
+The **ANKUB SID** is a unique departure that is assigned to non-jets planned via **KADOM** or **BENBU**. On this SID, non-jets fly an assigned heading before being vectored by SY TCU to a waypoint to rejoin the procedure.
+
+**SY ADC** must give aicraft on this SID an [assigned heading](#standard-assignable-departure-headings) with their line up or takeoff clearance, in the same way as aircraft assigned the RADAR SID. 
 
 ## ATIS
 ### Approach Types
@@ -517,7 +523,7 @@ When [Coordinator](#sydney-coordinator) is online and start approval is required
 
 - Departing from a runway nominated on the ATIS; and   
 - Assigned the Standard assignable level; and  
-- Assigned a **Procedural SID** or the **Radar** SID with a [Standard Assignable Heading](#standard-assignable-departure-headings); or
+- Assigned a **Procedural SID**, or the **Radar** SID/**ANKUB** SID with a [Standard Assignable Heading](#standard-assignable-departure-headings); or
 - A helicopter cleared via an outbound helicopter route.
 
 All other aircraft require a 'Next' call to SY TCU.
@@ -568,7 +574,7 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
 
 
 ### Standard Assignable Departure Headings
-Aircraft that have been cleared the **SY (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required to the SY TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
+Aircraft that have been cleared the **SY (RADAR) SID** or **[ANKUB SID](#ankub-non-jet-sid)** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required to the SY TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
 
 | Runway     | Jet         | Non-Jet                                        |
 | ---------- | :---------: | :--------------------------------------------: |

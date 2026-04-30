@@ -198,7 +198,18 @@ The **R555A-F Holsworthy** [restricted areas](../../controller-skills/sua/#restr
 
 Upon receiving a request from an aircraft at YSHW to activate the restricted airspace, **SYC** shall coordinate activation with any other affected SY TCU controller.
 
-## Departure and Arrival Procedures 
+## Departure and Arrival Procedures
+### ANKUB Non-Jet SID
+The **ANKUB SID** is a unique departure that is assigned to non-jets planned via **KADOM** or **BENBU**. On this SID, **SY ADC** will give aicraft on this SID an assigned heading with their line up or takeoff clearance, in the same way as aircraft assigned the RADAR SID. The departures controller is then responsible for vectoring the aircraft to a waypoint to rejoin the procedure.
+
+!!! phraseology
+	*RXA6824 has departed YSSY Runway 16R on the ANKUB SID, KADOM transition, bound for the YSDU.  
+    **SDS**: "RXA6824, Sydney Departures, identified. Turn right heading 270, climb to `A040`"   
+    **RXA6824**: "Turn right heading 270, climb to `A040`, RXA6824."   
+    ...   
+    **SDS**: "RXA6824, resume own navigation, cleared direct ANKUB to rejoin the SID. Climb via SID to `F150`"   
+    **RXA6824**: "Resume own navigation, cleared direct ANKUB to rejoin the SID. Climb via SID to `F150`, RXA6824"   
+
 ### Level Assignment
 !!! note
     Inbound aircraft will be handed from Enroute to Approach assigned the [standard assignable level](#arrivals).  This section refers to further descent issued by the Approach controller.
@@ -576,7 +587,7 @@ Auto Release is used for virtually all fixed-wing departures at Sydney. Unlike s
 
 - Departing from a runway nominated on the ATIS; and   
 - Assigned the Standard assignable level; and  
-- Assigned a **Procedural SID** or the **Radar** SID with a Standard Assignable Heading; or
+- Assigned a **Procedural SID**, or the **Radar** SID/**ANKUB** SID with a Standard Assignable Heading; or
 - A helicopter cleared via an outbound helicopter route.
 
 All other aircraft require a 'Next' call to SY TCU.
