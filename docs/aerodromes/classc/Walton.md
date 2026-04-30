@@ -157,20 +157,17 @@ When implementing the Pushback Requests on ACD procedure, the OPR INFO shall inc
 
 ## Coordination
 ### Auto Release
-!!! warning "Important"
-    YSWS utilises auto release for all **Procedural** SIDs, and the **WS (RADAR)** SID provided aircraft are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
-
 [Next](../../../controller-skills/coordination/#next) coordination is **not** required for aircraft that are:   
 
 - Departing from a runway nominated on the ATIS; and   
 - Assigned the standard assignable level; and  
-- Assigned a **Procedural** SID or the **Radar** SID with a [Standard Assignable Heading](#standard-assignable-departure-headings).
+- Assigned a **Procedural** SID.
 
 All other aircraft require a 'Next' call to SWA.
 
 'Next' coordination is additionally required for:  
  
-- [After a go around](../../../controller-skills/coordination/#after-a-go-around), the next departure from that runway  
+- [After a go around](../../../controller-skills/coordination/#after-a-go-around), the next departure from that runway.
 - All aircraft during the [RRO](#reciprocal-runway-operations) runway mode.
 
 The Standard Assignable level from WS ADC to SWA is: 
@@ -187,18 +184,11 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
 | ------ | ---- | ------------------- |
 | All    | All  | 118.4 (SWA) |
 
-### Standard Assignable Departure Headings
-Aircraft that have been cleared the **WS (RADAR)** SID must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required to SWA when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
-
-| Runway     | All Aircraft |
-| ---------- | ------------ |
-| RWY 05     | H045         |
-| RWY 23     | H230         |
-
 #### ACD to SY TCU
 The controller assuming responsibility of **WS ACD** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to SWA prior to the issue of the following clearances: 
 
 - VFR departures
+- Aircraft with `ADES` YSSY, YSBK, YSCN, YSRI, or YSHW
 - Aircraft using a runway not on the ATIS
 
 ### SY ADC

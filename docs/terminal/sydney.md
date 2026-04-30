@@ -104,10 +104,12 @@ a) **"South"**/**"West"** positions shall assume the airspace of corresponding *
 
 b) Approach assumes Director/Departure airspace "on-side" when the latter positions are inactive (e.g. with **SAS** and **SAN** online only, **SAS** assumes **SDS** and **SFW**)  
 
-c) Departures assumes **SYC** airspace when the position is inactive.
+c) Departures assumes **SRA** and **SWA** airspace when the position is inactive.
+
+d) Departures assumes **SYC** and **SBA** airspace when the position is inactive.
 
 !!! note
-    The default ownership of sectors within the SY TCU is merely a suggestion for starters. There are 10 executive controller positions within the SY TCU, plus a flow controller, and the ownership of these sectors can be delegated as desired based on the traffic disposition, when agreed between the controllers. For example, during a Milk Run event, if SY APP and SY DEP are online, SY APP may have a lot more work to do than SY DEP, and it would mostly be concentrated on the RIVET/ODALE corridor. In light of this, it might be wise for SY APP to take ownership of SAS, SFW and SFE airspace, whilst SY DEP take ownership of SAN, SDS, SDN, and SYC airspace.
+    The default ownership of sectors within the SY TCU is merely a suggestion for starters. There are 10 executive controller positions within the SY TCU, plus a flow controller, and the ownership of these sectors can be delegated as desired based on the traffic disposition, when agreed between the controllers. For example, during a Milk Run event, if SY APP and SY DEP are online, SY APP may have a lot more work to do than SY DEP, and it would mostly be concentrated on the RIVET/ODALE corridor. In light of this, it might be wise for SY APP to take ownership of SAS, SFW and SFE airspace, whilst SY DEP take ownership of SAN, SDS, SDN, SWA, SRA, SBA, and SYC airspace.
 
 !!! tip
     Unless there are 2 separate Director controllers online (during a Major event like Panic Stations, for example), it is **not recommended** that the SFW and SFE positions are held by 2 separate controllers, due to the tendency of some less experienced pilots to overshoot the runway centreline
@@ -118,6 +120,15 @@ SYC is responsible for the provision of FIS in Class G airspace within the SY TM
 !!! example
     During a busy event, Sydney Departures is experiencing a high workload and wishes to delegate the SYC role to another TMA controller who isn't as busy.  SAN's sector is quiet, so they elect to perform the role.
 
+#### Bankstown Approach (SBA)
+SBA is responsible for the provision of ATS in Class D airspace adjacent the BK CTR, `BCTA - C LL`.
+
+<figure markdown>
+![SBA Airspace](img/sba.png){ width="700" }
+  <figcaption>SBA Airspace</figcaption>
+</figure>
+
+Key responsibilities in this airspace is the issuing of [Bankstown Coded Clearances](#bankstown-coded-clearances)
 
 
 
@@ -140,6 +151,8 @@ Two aircraft cleared for adjacent instrument approaches must maintain the follow
 An aircraft is only considered independent from the adjacent final approach course if **both** aircraft have been cleared for an [IVA](#independent-visual-approach_1). If one or both pilots have not been cleared for an IVA, they must remain separated as if they were on an [instrument approach](#instrument-approach).
 
 ## Local Procedures
+### Bankstown Coded Clearances
+
 ### Sydney Harbour Scenic Flights
 Flights may be cleared for the **Harbour Scenic One** scenic flight routes at `A015`, where traffic permits. This route can be displayed on vatSys using the `SY_VFR` map.  
 
@@ -658,6 +671,35 @@ The controller assuming responsibility of **SMC** shall give [heads-up](../../..
 !!! phraseology
     <span class="hotline">**RI SMC** -> **SRA**</span>: "PSSM31 requests clearance to M742"  
     <span class="hotline">**SRA** -> **RI SMC**</span>: "PSSM31, clearance approved."  
+    
+### WS ADC
+#### ACD to SY TCU
+The controller assuming responsibility of **WS ACD** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to SWA prior to the issue of the following clearances: 
+
+- VFR departures
+- Aircraft with `ADES` YSSY, YSBK, YSCN, YSRI, or YSHW
+- Aircraft using a runway not on the ATIS
+
+### Auto Release
+[Next](../../../controller-skills/coordination/#next) coordination is **not** required for aircraft that are:   
+
+- Departing from a runway nominated on the ATIS; and   
+- Assigned the standard assignable level; and  
+- Assigned a **Procedural** SID.
+
+All other aircraft require a 'Next' call to SWA.
+
+'Next' coordination is additionally required for:  
+ 
+- [After a go around](../../../controller-skills/coordination/#after-a-go-around), the next departure from that runway.
+- All aircraft during the [RRO](#reciprocal-runway-operations) runway mode.
+
+The Standard Assignable level from WS ADC to SWA is: 
+
+| Aircraft | Level  |
+| -------- | ------ |
+| Jets     | `A040` |
+| Non-Jets | The lower of `A030` and `RFL` |
 
 ### NW TCU
 All aircraft transiting between SY TCU and NW TCU require [Heads-up](../controller-skills/coordination.md#heads-up) coordination prior to the boundary; however, as soon as practical (when is the aircraft becomes airborne) is preferred. 
