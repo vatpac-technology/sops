@@ -149,11 +149,9 @@ The Operational Information field should be updated to reflect the level of cont
 | ------------ | -------------- |
 | Between 2300 and 0600 Local   | `SY CTA 10 SOUTH OF WS CTR ACTIVE` |
 
-
 #### ACD Pushback Requests
 When implementing the ['Pushback Requests on ACD'](../../../controller-skills/grounddelaymanagement/#pushback-requests-on-acd) procedure, the OPR INFO shall include:
-`ALL DEPARTURES MUST REQUEST PUSH BACK ON 118.65`
-
+`ALL DEPARTURES MUST REQUEST PUSH BACK ON 118.65`.
 
 ## Coordination
 ### Auto Release

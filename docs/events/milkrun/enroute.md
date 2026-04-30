@@ -35,31 +35,31 @@ Best practice is to just focus on providing separation between aircraft (whether
 #### Runway Assignment
 Although the standard runway assignment for arrivals via RIVET is the Western Parallel Runway, eventually, the airspace will get busy enough to warrant distributing arrivals between both the Western and Eastern runways.
 
-#### Amended routing via ODALE
-In order to segregate aircraft inbound to different parallel runways, [Amended routing via ODALE](../../../enroute/melbourne/GUN/#rivet-odale-assignment) should be used for aircraft assigned the Eastern parallel runway (16L/34R). This keeps aircraft segregated in to two distinct arrival streams, and allows a higher volume of arrivals.
+#### Amended routing via AKMIR
+In order to segregate aircraft inbound to different parallel runways, [Amended routing via AKMIR](../../../enroute/melbourne/GUN/#rivet-akmir-assignment) should be used for aircraft assigned the Eastern parallel runway (16L/34R). This keeps aircraft segregated in to two distinct arrival streams, and allows a higher volume of arrivals.
 
-Aircraft can be rerouted on first contact via AKMIR, ODALE, then assigned the **ODALE STAR** for 16L/34R.
+Aircraft can be rerouted on first contact via `MAKKA ANNKY AKMIR`, then assigned the **AKMIR STAR** for 16L/34R.
 
 <figure markdown>
-![Original Flight Planned Route](./img/odale1.png){ width="700" }
+![Original Flight Planned Route](./img/akmir1.png){ width="700" }
   <figcaption>Original Flight Planned Route</figcaption>
 </figure>
 
 <figure markdown>
-![Graphical Reroute via AKMIR, ODALE](./img/odale2.png){ width="700" }
-  <figcaption>Graphical Reroute via AKMIR, ODALE</figcaption>
+![Graphical Reroute via AKMIR](./img/akmir2.png){ width="700" }
+  <figcaption>Graphical Reroute via AKMIR</figcaption>
 </figure>
 
 <figure markdown>
-![Final routing with Assigned STAR](./img/odale3.png){ width="700" }
+![Final routing with Assigned STAR](./img/akmir3.png){ width="700" }
   <figcaption>Final routing with Assigned STAR</figcaption>
 </figure>
 
 Although this action may be beneficial to the arrival flow for both Enroute and Approach, it goes against the [Standard runway and STAR assignment](../../../enroute/melbourne/GUN/#star-assignment_1) for YSSY Arrivals from the South-west, so must still be coordinated to SAS or SFL (if online)
 
 !!! phraseology
-    <span class="hotline">**GUN** -> **SFL**</span>: "QFA494 will be via ODALE for 34R"  
-    <span class="hotline">**SFL** -> **GUN**</span>: "QFA494 via ODALE, 34R, Roger"  
+    <span class="hotline">**GUN** -> **SFL**</span>: "QFA494 will be via AKMIR for 34R"  
+    <span class="hotline">**SFL** -> **GUN**</span>: "QFA494 via AKMIR, 34R, Roger"  
 
 In order to reduce this coordination, GUN/BIK and SFL/SAS may organise blanket coordination to allow this rerouting at the discretion of the GUN/BIK controller.
 
@@ -67,4 +67,4 @@ In order to reduce this coordination, GUN/BIK and SFL/SAS may organise blanket c
   <source src="https://vatpac-home.s3.ap-southeast-2.amazonaws.com/ODALE_Reroute_112233f1d1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-<p><figcaption style="text-align: center;">Demonstration of the ODALE Reroute</figcaption></p>
+<p><figcaption style="text-align: center;">Demonstration of the AKMIR Reroute</figcaption></p>

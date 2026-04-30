@@ -76,14 +76,14 @@ The following subsectors are responsible for issuing STAR clearance.
 
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
-| BIK  | [RIVET^](#rivet-odale-assignment)<br>ODALE | Non-Jet |  |
-| GUN  | RIVET<br>[ODALE^](#rivet-odale-assignment) | Jet | Descent not below `F250` |
-| KAT  | RIVET<br>[ODALE^](#rivet-odale-assignment) | Jet |       |
+| BIK  | [RIVET^](#rivet-akmir-assignment)<br>AKMIR | Non-Jet |  |
+| GUN  | RIVET<br>[AKMIR^](#rivet-akmir-assignment) | Jet | Descent not below `F250` |
+| KAT  | RIVET<br>[AKMIR^](#rivet-akmir-assignment) | Jet |       |
 
 Arrivals from the southwest shall be given initial descent to not below `F250`. **BIK** will issue final descent.
 
-##### RIVET & ODALE Assignment
-By default, Jets should be assigned the **RIVET** STAR, while non-jets should be assigned the **ODALE** STAR.
+##### RIVET & AKMIR Assignment
+By default, Jets should be assigned the **RIVET** STAR, while non-jets should be assigned the **AKMIR** STAR.
 
 However, there are situations where the sequence may be improved by assigning the adjacent STAR (e.g. a non-jet assigned the RIVET STAR). This is most common when assigning the alternate runway to an arrival.   
     
@@ -94,8 +94,8 @@ In this case, coordination should be conducted to ensure that both controllers a
 !!! phraseology
     **GUN:** "JST421, amended tracking and STAR available"  
     **JST421:** "JST421, go ahead"  
-    **GUN:** "JST421, recleared direct AKMIR thence WELSH, ODALE, for the ODALE7 arrival, runway 34R, maintain FL350"  
-    **JST421:** "Recleared direct AKMIR, WELSH, ODALE, for the ODALE7 arrival, runway 34R, maintain FL350, JST421"
+    **GUN:** "JST421, recleared direct MAKKA thence ANNKY, AKMIR, for the AKMIR1 arrival, runway 34R, maintain FL350"  
+    **JST421:** "Recleared direct MAKKA, ANNKY, AKMIR, for the AKMIR1 arrival, runway 34R, maintain FL350, JST421"
 	
 #### Sequencing
 Sequencing arrivals from the west into YSSY is a joint responsibility of GUN and BIK. Initial sequencing actions should be performed by GUN, with fine tuning and any holding required issued by BIK.
@@ -108,7 +108,7 @@ Aircraft from the south/west shall be assigned **runway 16R/34L** during PROPS. 
     <span class="hotline">**GUN** -> **ARL**</span>: "Runway 34R, landing time 22, VOZ421"
 	
 ##### Adjacent Feeder Fixes
-Aircraft assigned the **same runway** inbound via **RIVET** and **ODALE**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
+Aircraft assigned the **same runway** inbound via **RIVET** and **AKMIR**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
 ##### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YSSY. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
@@ -218,7 +218,7 @@ Voiceless for all aircraft:
 - With ADES **YSSY**; and  
 - Assigned a STAR; and  
 - Tracking via **RIVET**, assigned `A100`; or  
-- Tracking via **ODALE**, assigned `A090`
+- Tracking via **AKMIR**, assigned `A090`
 
 All other aircraft coming from BIK/KAT CTA must be **Heads-up** Coordinated to SY TCU prior to **20nm** from the boundary.
 
