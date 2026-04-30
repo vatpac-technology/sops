@@ -18,11 +18,11 @@ WS ADC is not responsible for any airspace by default.
 
 ## Manoeuvring Area
 ### Standard Taxi Routes
-Except when the traffic situation warrants, taxi clearances shall conform to the following diagram:
+Except when the traffic situation warrants, taxi clearances to and from the Cargo Apron shall conform to the following diagram:
 
 <figure markdown>
-![YSWS Taxi Route](img/ysws_taxi_routes.png){ width="500" }
-  <figcaption>YSWS Standard Taxi Routes</figcaption>
+![YSWS Cargo Apron Taxi Routes](img/ysws_taxi.png){ width="500" }
+  <figcaption>YSWS Cargo Apron Taxi Routes</figcaption>
 </figure>
 
 `ERSA FAC YSWS` noise abatement procedures require all aircraft to depart from full length only. This should be simulated where practical but intersection departures should be provided to aircraft on request, where available.
