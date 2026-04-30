@@ -382,7 +382,7 @@ Unless operationally required, aircraft shall be assigned the following runways 
 | via KADOM   | 16R/34L      |
 | Jets via WOL | 16R/**34R** |
 | Non-Jets via WOL | 16R/34L |
-| via RIC | 16R/34L |
+| via STUIE | 16R/34L |
 | via OLSEM | 16L/34R |
 | Other aircraft: |
 | To the NORTH and EAST | 16L/34R |

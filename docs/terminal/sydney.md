@@ -86,7 +86,7 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
     </figure>
     
     !!! warning "Important"
-        Separation between aircraft tracking via the RIC SID to RIC and MARUB SID to MARUB is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
+        Separation between aircraft tracking via the STUIE SID to STUIE and MARUB SID to MARUB is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
 
 === "SODPROPS"
     <figure markdown>
@@ -95,7 +95,7 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
     </figure>
     
     !!! warning "Important"
-        Separation between aircraft tracking via the RIC SID to RIC, and aircraft tracking via the KEVIN SID to KEVIN is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
+        Separation between aircraft tracking via the STUIE SID to STUIE, and aircraft tracking via the KEVIN SID to KEVIN is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
     
 #### Airspace Structural Arrangements
 Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, the following rules apply, in the order presented, to these controller positions, except **SFL**:  
@@ -526,8 +526,7 @@ Within 15 DME of SY, Departure controllers (**SDN** and **SDS**) can allow aircr
 !!! note
     SIDs from YSSY do not guarantee that aircraft will reach A100 by 15DME, so Departure controllers should be mindful of this and take action where necessary to expedite climb or coordinate with Approach.  
 
-    Departure controllers should take extra caution when processing the following procedures to ensure they reach `A100` prior to entering REP airspace:  
-    <ul><li>RWY 34L: WOL SID, & RIC SID with RADAR transition</li><li>YSBK departures via OLSEM/WOL</li></ul>
+    Departure controllers should take extra caution when processing YSBK departures via OLSEM/WOL to ensure they reach `A100` prior to entering REP airspace.
 
 It is vital that Approach controllers ensure all arriving aircraft are established below `A090` no later than 20DME to avoid conflicting with departures utilising the airspace.  All STARs have height requirements which ensure this is achieved.  Aircraft inbound to YSBK or YSSY who are not cleared via a STAR should be instructed to reach `A090` by 20DME.
 
