@@ -121,7 +121,17 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 !!! tip
     Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector.
 
-<!--### YSWS--->
+### YSWS
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
+
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| KAT  | REVKI | All      |       |
+
+#### Sequencing
+Sequencing arrivals from the west and south into YSWS is a responsibility of KAT.
+
 ### YWLM
 #### STAR Assignment
 | Subsector | STAR | Type | Notes |

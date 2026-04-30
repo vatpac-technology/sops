@@ -89,7 +89,7 @@ The following subsectors are responsible for issuing STAR clearance.
 | GAH  | UNTAV | All      | Descent not below `F250` |
 | RYS  | GODUK | Non Jet  |       |
 
-Arrivals from the north shall be given initial descent to not below `F250`. **DEN** will issue final descent.   
+Arrivals from the north shall be given initial descent to not below `F250`. **DEN** will issue final descent.
 
 #### Sequencing
 Sequencing arrivals from the north into YSWS is a joint responsibility of the subsectors of GAH. Initial sequencing actions for aircraft from the north should be performed by GAH, with fine tuning and any holding required issued by DEN. 
@@ -171,9 +171,10 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| LIG | GUN(KAT) | YSCB | |
 | CNK | GUN(BIK) | YSCB | Jets only |
-| RYS | ARL | YSSY | |
+| DEN | GUN(BIK) | YSCB | Jets only |
+| LIG | RYS | YSSY, YSWS | |
+| RYS | GUN(KAT) | YSCB | |
 
 ## Terminal Handover Frequencies
 Aircraft being transferred from enroute to a TCU with multiple frequencies shall be given the frequency for the revelant TCU position.

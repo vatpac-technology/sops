@@ -95,9 +95,10 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | OXL | BLA | YSCB | |
 | GTH | GUN | YSSY | Non-Jets only |
 | OXL | GTH | YSSY | Jets only |
+| GTH | KAT | YSWS | |
 
 !!! tip
-    To help facilitate sequencing, MUN should aim to handoff aircraft to GUN **as soon as possible**, ie, **>50nm** to the boundary if there are no restrictions.
+    To help facilitate sequencing, MUN should aim to handoff aircraft to GUN/KAT **as soon as possible**, ie, **>50nm** to the boundary if there are no restrictions.
 
 ## Terminal Handover Frequencies
 Aircraft being transferred from enroute to a TCU with multiple frequencies shall be given the frequency for the revelant TCU position.

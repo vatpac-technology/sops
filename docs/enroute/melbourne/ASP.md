@@ -105,6 +105,9 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | BKE | GUN(KAT)           | YSWS |
 | ESP | HYD | YPPH, YPEA | Jets only |
 
+!!! tip
+    To help facilitate sequencing, BKE should aim to handoff aircraft to KAT **as soon as possible**, ie, **>50nm** to the boundary if there are no restrictions.
+
 ## Coordination
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
