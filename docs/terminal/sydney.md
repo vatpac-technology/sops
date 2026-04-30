@@ -86,16 +86,13 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
     </figure>
     
     !!! warning "Important"
-        Separation between aircraft tracking via the STUIE SID to STUIE and MARUB SID to MARUB is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
+        Separation between aircraft tracking via the MARUB SID to MARUB is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
 
 === "SODPROPS"
     <figure markdown>
     ![SODPROPS TCU Structure](img/sySODPROPS.png){ width="700" }
       <figcaption>SODPROPS TCU Structure</figcaption>
     </figure>
-    
-    !!! warning "Important"
-        Separation between aircraft tracking via the STUIE SID to STUIE, and aircraft tracking via the KEVIN SID to KEVIN is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
     
 #### Airspace Structural Arrangements
 Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, the following rules apply, in the order presented, to these controller positions, except **SFL**:  
