@@ -143,7 +143,7 @@ YSWS uses four different SID designators to differentiate between different vari
 
 ## ATIS
 ### Operational Info
-The Operational Information field should be updated to reflect the level of controlled airspace within the SY C10 area when it is lowernight overnight.
+The Operational Information field should be updated to reflect the level of controlled airspace within the SY C10 area when it is lowered overnight.
 
 | Condition    | OPR INFO Field |
 | ------------ | -------------- |
