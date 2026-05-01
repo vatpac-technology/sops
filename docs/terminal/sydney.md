@@ -427,6 +427,7 @@ Helicopters departing from a hospital in ADC's jurisdiction and intending to ent
 ### Local Knowledge
 - Aircraft can be processed via the adjacent STAR for the parallel runway (e.g. jet aircraft via the AKMIR STAR for RWY 34R), to reduce overall delay where multiple aircraft approach from the same direction *(coordination required)*
 - Aircraft via AKMIR (to the west) and MARLN (to the east) often make large track direction changes prior to entering the TMA. Direct tracking onto the STAR may be offered to reduce track miles
+- Aircraft to YSWS may be assigned the RNP X to reduce track miles on some STARs
 
 ### Flow Tables
 #### YSSY
@@ -468,22 +469,28 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
 
 === "Jets & DH8D"
-    | STAR                             | RWY 07  | RWY 16L | RWY 16R | RWY 25  | RWY 34L | RWY 34R |
-    | -------------------------------- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-    | **AKMIR**                        | 10      | 16      | 14      | 14      | 14      | 16      |
-    | **BOREE A/P**                    | 11      | 8\^     | 7\^     | 11      | 14      | 14      |
-    | **MEPIL**<br>*Feeder Fix: YAKKA* | <br>12  | <br>8\^ | <br>8\^ | <br>11  | <br>14  | <br>14  |
-    | **MARLN**                        | 12      | 13      | 13      | 8\^     | 14      | 11      |
-    | **RIVET**                        | 7\^     | 14      | 12      | 12      | 11      | 14      |
+    | STAR                               | RWY 05  | RWY 23  |
+    | ---------------------------------- | :-----: | :-----: |
+    | **BIKUS A**                        | 16      | 15      |
+    | **REVKI A/N**                      | 7\^     | 11      |
+    | **RIKNI N**<br>*Feeder Fix: MARLN* | <br>18  | <br>15  |
+    | **UNTAV A**                        | 14      | 7\^     |
+    | **UNTAV B**                        | 12      | -       |
+    | **UNTAV N**                        | 13      | -       |
+    | **UNTAV Q**                        | 14      | -       |
+    | **GODUK N**                        | -       | 5\^     |
 
 === "Non-Jets"
-    | STAR                             | RWY 07  | RWY 16L | RWY 16R | RWY 25  | RWY 34L | RWY 34R |
-    | -------------------------------- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-    | **AKMIR**                        | 13      | 22      | 18      | 19      | 19      | 22      |
-    | **BOREE A/P**                    | 15      | 10\^    | 10\^    | 14      | 18      | 18      |
-    | **MEPIL**<br>*Feeder Fix: YAKKA* | <br>14  | <br>11\^| <br>11\^| <br>14  | <br>19  | <br>18  |
-    | **MARLN**                        | 14      | 17      | 18      | 11\^    | 19      | 15      |
-    | **RIVET**                        | 10\^    | 18      | 16      | 16      | 15      | 18      |
+    | STAR                               | RWY 05  | RWY 23  |
+    | ---------------------------------- | :-----: | :-----: |
+    | **BIKUS A**                        | 21      | 19      |
+    | **REVKI A/N**                      | 10\^    | 14      |
+    | **RIKNI N**<br>*Feeder Fix: MARLN* | <br>24  | <br>20  |
+    | **UNTAV A**                        | 19      | 9\^     |
+    | **UNTAV B**                        | 16      | -       |
+    | **UNTAV N**                        | 17      | -       |
+    | **UNTAV Q**                        | 18      | -       |
+    | **GODUK N**                        | -       | 7\^     |
 
 ##### Corrections
 
@@ -495,9 +502,8 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 ##### Assumptions
 - Nil wind
 - The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except:
-    - The feeder fix for the MEPIL STAR is **YAKKA**
-- Aircraft for the *opposite* parallel runway (eg, ODALE to 16L/34R) will overfly the field, then vectored to a mid-field downwind  
-- All aircraft are tracking via the ILS Initial Approach fix
+    - The feeder fix for the RIKNI STAR is **MARLN**
+- All aircraft are tracking via the ILS
 
 ### YSSY Calculator
 <script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>

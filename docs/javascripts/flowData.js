@@ -804,6 +804,152 @@ export const flowData = {
             }
         }
     },
+    "YSWS": {
+        "Jet & DH8D": {
+            "05": {
+                "BIKUS": {
+                    "BIKUS A STAR": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    }
+                },
+                "REVKI": {
+                    "REVKI A/N STAR": {
+                        "Normal Speed": 7,
+                        "Reduced Speed": 7
+                    }
+                },
+                "MARLN": {
+                    "RIKNI N STAR": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                },
+                "UNTAV": {
+                    "UNTAV A STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    },
+                    "UNTAV B STAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    },
+                    "UNTAV N STAR": {
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
+                    },
+                    "UNTAV Q STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                }
+            },
+            "23": {
+                "BIKUS": {
+                    "BIKUS A STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "REVKI": {
+                    "REVKI A/N STAR": {
+                        "Normal Speed": 11,
+                        "Reduced Speed": 12
+                    }
+                },
+                "MARLN": {
+                    "RIKNI N STAR": {
+                        "Normal Speed": 15,
+                        "Reduced Speed": 16
+                    }
+                },
+                "UNTAV": {
+                    "UNTAV A STAR": {
+                        "Normal Speed": 7,
+                        "Reduced Speed": 7
+                    }
+                },
+                "GODUK": {
+                    "GODUK N STAR": {
+                        "Normal Speed": 5,
+                        "Reduced Speed": 5
+                    }
+                }
+            }
+        },
+        "Non-Jet": {
+            "05": {
+                "BIKUS": {
+                    "BIKUS A STAR": {
+                        "Normal Speed": 21,
+                        "Reduced Speed": 22
+                    }
+                },
+                "REVKI": {
+                    "REVKI A/N STAR": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
+                    }
+                },
+                "MARLN": {
+                    "RIKNI N STAR": {
+                        "Normal Speed": 24,
+                        "Reduced Speed": 25
+                    }
+                },
+                "UNTAV": {
+                    "UNTAV A STAR": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    },
+                    "UNTAV B STAR": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    },
+                    "UNTAV N STAR": {
+                        "Normal Speed": 17,
+                        "Reduced Speed": 18
+                    },
+                    "UNTAV Q STAR": {
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
+                    }
+                }
+            },
+            "23": {
+                "BIKUS": {
+                    "BIKUS A STAR": {
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
+                    }
+                },
+                "REVKI": {
+                    "REVKI A/N STAR": {
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
+                    }
+                },
+                "MARLN": {
+                    "RIKNI N STAR": {
+                        "Normal Speed": 20,
+                        "Reduced Speed": 21
+                    }
+                },
+                "UNTAV": {
+                    "UNTAV A STAR": {
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
+                    }
+                },
+                "GODUK": {
+                    "GODUK N STAR": {
+                        "Normal Speed": 7,
+                        "Reduced Speed": 7
+                    }
+                }
+            }
+        }
+    },
     "YSCB": {
         "Jet": {
             "17": {
