@@ -31,7 +31,7 @@ All aircraft shall be issued a STAR in accordance with the table below:
 | RWY 33 | HENDO2A, OVLET transition |
 
 ## WorldFlight Teams
-[WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
+[WorldFlight Teams](../../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
 
 <figure markdown>
 ![WF Team Highlight](../img/wfteam.png){ width="400" }
@@ -40,13 +40,13 @@ All aircraft shall be issued a STAR in accordance with the table below:
 
 ## Coordination
 ### WAAF CTR to ARA
-As per [standard ISA coordination procedures](../../../../../../enroute/Brisbane Centre/ISA/#international-waaf), all aircraft should be **Heads-up Coordinated** by WAAF CTR prior to **30 mins** from boundary.
+As per [standard ISA coordination procedures](../../../../../../../../enroute/Brisbane Centre/ISA/#international-waaf), all aircraft should be **Heads-up Coordinated** by WAAF CTR prior to **30 mins** from boundary.
 
 !!! tip
     It may be prudent (especially if they are using vatSys) to set up a Voiceless Coordination Agreement with WAAF CTR, in order to reduce workload for both controllers.
 
 ### ARA to BAR
-Standard as per [KEN Local Instructions](../../../../../../enroute/Brisbane Centre/KEN).
+Standard as per [KEN Local Instructions](../../../../../../../../enroute/Brisbane Centre/KEN).
 
 ### BAR to CS TCU
 Voiceless for all aircraft:
@@ -60,7 +60,7 @@ All other aircraft coming from BAR CTA must be **Heads-up** Coordinated to CS TC
     All arriving aircraft from the north and west will be handled by CS2, regardless of duty runway.
 
 ### CS TCU to KEN
-Standard as per [KEN Local Instructions](../../../../../../enroute/Brisbane Centre/KEN).
+Standard as per [KEN Local Instructions](../../../../../../../../enroute/Brisbane Centre/KEN).
 
 !!! note
     All departing aircraft will be handled by CS1, regardless of duty runway.

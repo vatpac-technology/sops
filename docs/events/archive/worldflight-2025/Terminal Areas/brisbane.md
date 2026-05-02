@@ -57,9 +57,9 @@ Although not used at YBBN normally, IVAs can be expected to be in use for WorldF
 Aircraft must report both **visual**, *and* **runway in sight** in order to be cleared for an IVA (Runway in Sight implies Visual).
 
 !!! tip
-    The [Label Data Annotations](../../../../../../client/annotations/#miscellaneous) for these are `V` for *Visual*, and `R` for *Runway in Sight*
+    The [Label Data Annotations](../../../../../../../../client/annotations/#miscellaneous) for these are `V` for *Visual*, and `R` for *Runway in Sight*
 
-Ensure you familiarise yourself with the applicable [Separation Standards](../../../../../../separation-standards/parallelapps/#independent-visual-approaches)
+Ensure you familiarise yourself with the applicable [Separation Standards](../../../../../../../../separation-standards/parallelapps/#independent-visual-approaches)
 
 Pass *Traffic Information* on aircraft that will come within **1.5nm** of each other on parallel approaches.
 
@@ -100,9 +100,9 @@ BFL will formulate the sequence in accordance with the [Flow Times](#times) belo
 !!! warning "Important"
     It is likely that during the event, there will be **no opportunity** for non-event traffic to be sequenced for a landing at YBBN. Flow should determine whether an approach slot is available and inform the appropriate enroute controller if a diversion to another aerodrome is necessary.
 
-BFL will construct the sequence via the [Arrivals List Window](../../../../../../controller-skills/sequencing/#arrivals-list).
+BFL will construct the sequence via the [Arrivals List Window](../../../../../../../../controller-skills/sequencing/#arrivals-list).
 
-Appropriate annotations for the Arrivals List Window can be found [here](../../../../../../client/annotations/#sequencingflow).
+Appropriate annotations for the Arrivals List Window can be found [here](../../../../../../../../client/annotations/#sequencingflow).
 
 ### Times
 The times below indicate the number of minutes from the Feeder Fix to the Runway Threshold on the appropriate STAR.
@@ -120,7 +120,7 @@ Subtract **1 minute** if assigned MX or CSR.
 BUR will instruct all arrivals to cross **SMOKA** and **ENLIP** at **250 knots**, then *published STAR speeds*.
 
 ## WorldFlight Teams
-[WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
+[WorldFlight Teams](../../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
 
 <figure markdown>
 ![WF Team Highlight](../img/wfteam.png){ width="400" }

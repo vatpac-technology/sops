@@ -34,9 +34,9 @@ IVAs can be expected to be in use for WorldFlight, to facilitate the high volume
 Aircraft must report the **runway in sight** (or **visual** if established on the final approach course) in order to be cleared for an IVA (Runway in Sight implies Visual).
 
 !!! tip
-    The [Label Data Annotations](../../../../../../client/annotations/#miscellaneous) for these are `V` for *Visual*, and `R` for *Runway in Sight*
+    The [Label Data Annotations](../../../../../../../../client/annotations/#miscellaneous) for these are `V` for *Visual*, and `R` for *Runway in Sight*
 
-Ensure you familiarise yourself with the applicable [Separation Standards](../../../../../../separation-standards/parallelapps/#independent-visual-approaches)
+Ensure you familiarise yourself with the applicable [Separation Standards](../../../../../../../../separation-standards/parallelapps/#independent-visual-approaches)
 
 Pass *Traffic Information* on aircraft that will come within **1nm** of each other on parallel approaches.
 
@@ -59,7 +59,7 @@ Participating aircraft will transfer to SY ADC on their own as they approach the
 ![Scenic Arrival](../img/worldflight-scenic-arrival.png){ width="600" }
 </figure>
 
-[WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
+[WorldFlight Teams](../../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
 
 <figure markdown>
 ![WF Team Highlight](../img/wfteam.png){ width="400" }
@@ -94,24 +94,24 @@ In order to balance workload effectively, it is recommended to distribute respon
 - SFL on its own
 
 ## Flow
-SFL will formulate the sequence in accordance with the [SY TCU Flow Table](../../../../../../terminal/sydney/#flow). Ensure that event traffic gets priority over non-event traffic.
+SFL will formulate the sequence in accordance with the [SY TCU Flow Table](../../../../../../../../terminal/sydney/#flow). Ensure that event traffic gets priority over non-event traffic.
 
 !!! warning "Important"
     It is likely that during the event, there will be **no opportunity** for non-event traffic to be sequenced for a landing at YBBN. Flow should determine whether an approach slot is available and inform the appropriate enroute controller if a diversion to another aerodrome is necessary.
 
-SFL will construct the sequence via the [Arrivals List Window](../../../../../../controller-skills/sequencing/#arrivals-list).
+SFL will construct the sequence via the [Arrivals List Window](../../../../../../../../controller-skills/sequencing/#arrivals-list).
 
-Appropriate annotations for the Arrivals List Window can be found [here](../../../../../../client/annotations/#sequencingflow).
+Appropriate annotations for the Arrivals List Window can be found [here](../../../../../../../../client/annotations/#sequencingflow).
 
 ### Speeds
 CNK/OCN will instruct all arrivals to cross the feeder fix at **250 knots**, then *published STAR speeds*.
 
 ## Coordination
 ### APP to DIR
-Standard as per [SY TCU Local Instructions](../../../../../../terminal/sydney/#app-dir).
+Standard as per [SY TCU Local Instructions](../../../../../../../../terminal/sydney/#app-dir).
 
 ### CNK to SAS/SAN
-Standard as per [SY TCU Local Instructions](../../../../../../terminal/sydney/#arrivals).
+Standard as per [SY TCU Local Instructions](../../../../../../../../terminal/sydney/#arrivals).
 
 #### Between ARL/CNK/OCN and SFL
 SFL must **voice coordinate** any changes to instructions after ARL/CNK has put a `<` on it.

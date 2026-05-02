@@ -34,7 +34,7 @@ BUR will take responsibility for the DOS subsector, to facilitate **ENLIP** arri
 Minimum distance between arrivals at handoff to BAN/BAS is **10nm** (with no significant closing speed).
 
 ##### MAESTRO
-If a Flow controller is online, the [MAESTRO](../../../client/maestro.md) plugin should be used to determine the landing sequence. Enroute positions must ensure they comply with any sequencing instructions set out by Flow and communicated through the plugin.
+If a Flow controller is online, the [MAESTRO](../../../../client/maestro.md) plugin should be used to determine the landing sequence. Enroute positions must ensure they comply with any sequencing instructions set out by Flow and communicated through the plugin.
 
 !!! note
     The MAESTRO plugin has been included in the Australia dataset by default for the event.
@@ -63,7 +63,7 @@ Arrivals may, when suitable for the *sequence*, and clear of *01L/19R traffic*, 
     Refer to the MAESTRO plugin for guidance on which aircraft should be re-routed.
 
 ## WorldFlight Teams
-[WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
+[WorldFlight Teams](../../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
 
 <figure markdown>
 ![WF Team Highlight](../img/wfteam.png){ width="400" }
@@ -87,7 +87,7 @@ Aircraft must be tracking via **ENLIP** or **SMOKA**
 
 ### BUR to BAS/BAN
 #### Airspace
-Non-Standard Airspace Division will be in use for BN TCU. Refer to [these diagrams](../../../../Terminal Areas/brisbane/#airspace-division).
+Non-Standard Airspace Division will be in use for BN TCU. Refer to [these diagrams](../../../../../Terminal Areas/brisbane/#airspace-division).
 
 Runway **01L** and **19L** Arrivals will be handed off to BAN.  
 Runway **01R** and **19R** Arrivals will be handed off to BAS.  
@@ -109,9 +109,9 @@ Voiceless for all aircraft:
 All other aircraft coming from BUR/DOS CTA must be **Heads-up** Coordinated to BN TCU prior to **20nm** from the boundary.
 
 #### Between KPL/BUR and BFL
-BFL will construct the sequence via the [Arrivals List Window](../../../../../../controller-skills/sequencing/#arrivals-list).
+BFL will construct the sequence via the [Arrivals List Window](../../../../../../../../controller-skills/sequencing/#arrivals-list).
 
-Appropriate annotations for the Arrivals List Window can be found [here](../../../../../../client/annotations/#sequencingflow).
+Appropriate annotations for the Arrivals List Window can be found [here](../../../../../../../../client/annotations/#sequencingflow).
 
 BFL must **voice coordinate** any changes to instructions after KPL/BUR has put a `<` on it.
 
