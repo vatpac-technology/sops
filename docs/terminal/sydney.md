@@ -149,10 +149,15 @@ An aircraft is only considered independent from the adjacent final approach cour
 
 ## Local Procedures
 ### Bankstown Coded Clearances
+The Bankstown Coded Clearances provide standardised routing for VFR aircraft arriving and departing YSBK while transiting Class D SY TCU airspace.
+
+<figure markdown>
+![Bankstown Coded Clearances](img/bankstown_coded.png){ width="700" }
+  <figcaption>Bankstown Coded Clearances</figcaption>
+</figure>
 
 ### Sydney Harbour Scenic Flights
 Flights may be cleared for the **Harbour Scenic One** scenic flight routes at `A015`, where traffic permits. This route can be displayed on vatSys using the `SY_VFR` map.  
-
 Aircraft must track via Class G airspace to Long Reef and contact SY TCU prior to reaching Long Reef requesting a ‘Harbour Scenic’ clearance. Attempt to identify the aircraft, and if a clearance cannot be given immediately, instruct the pilot to remain in Class G airspace. Sydney QNH must be issued with the clearance.
 
 !!! phraseology
