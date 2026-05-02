@@ -271,7 +271,7 @@ INL and ARL(MNN) share a joint responsibility to build the final sequence of arr
 There are three [military corridors](../../../controller-skills/military/#military-corridors) established around the AMB/OK TCU and BN TCU to facilitate transit of military aircraft between the TCU and adjoining SUAs.
 
 <figure markdown>
-![AMB TCU Military Corridors](../../../terminal/img/amb_mil_corridors.png){ width="700" }
+![AMB TCU Military Corridors](../../terminal/img/amb_mil_corridors.png){ width="700" }
   <figcaption>AMB TCU Military Corridors</figcaption>
 </figure>
 

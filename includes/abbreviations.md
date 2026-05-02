@@ -359,6 +359,7 @@
 *[LAUD]: Lauderdale
 *[LIHR]: Lighthorse Interchange
 *[LPT]: Lee Point
+*[LRF]: Long Reef
 *[LTV]: Latrobe Valley
 *[LUY]: Latrobe University
 *[MAGG]: Mount Annan Gardens Greenhouse

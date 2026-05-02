@@ -179,18 +179,18 @@ Arrivals will contact SBA for clearance before entering CTA.
 | ------------------ | ------------------- | ------ | 
 | Brooklyn Inbound   | `BBG CAST PSP`      | `A015` |
 | Lighthorse Inbound | `NPBR LIHR PSP`     | `A015` |
-| St Helens Inbound   | `SSKP CRST CRSC`   | `A015` |
+| St Helens Inbound  | `SSKP CRST CRSC`   | `A015` |
 
 !!! phraseology
     **ABC**: "Bankstown Approach, ABC, Cessna Caravan, VFR, at BBG for Brooklyn Inbound"   
-    **SBA**: "ABC, Bankstown Approach"   
+    **SBA**: "ABC, Bankstown Approach, squawk 0552"   
 
 !!! tip
     Remember that in Class D, establishing two-way communication with VFR aircraft constitutes a clearance to enter controlled airspace.
 
 ### Sydney Harbour Scenic Flights
 Flights may be cleared for the **Harbour Scenic One** scenic flight routes at `A015`, where traffic permits. This route can be displayed on vatSys using the `SY_VFR` map.  
-Aircraft must track via Class G airspace to Long Reef and contact SY TCU prior to reaching Long Reef requesting a ‘Harbour Scenic’ clearance. Attempt to identify the aircraft, and if a clearance cannot be given immediately, instruct the pilot to remain in Class G airspace. Sydney QNH must be issued with the clearance.
+Aircraft must track via Class G airspace to LRF and contact SY TCU prior to reaching LRF requesting a ‘Harbour Scenic’ clearance. Attempt to identify the aircraft, and if a clearance cannot be given immediately, instruct the pilot to remain in Class G airspace. Sydney QNH must be issued with the clearance.
 
 !!! phraseology
     **SDS:** "LOI, squawk 0542, remain clear of Class C airspace"   
@@ -388,14 +388,13 @@ The helicopter route title should be recorded in the **global ops field** and th
 
 | Route | Waypoints |
 | --- | --- |
-| ROSEHILL 5 INBOUND | `RSH RKWC` |
+| ROSEHILL 5 INBOUND | `RSH RKWC CBY` |
 | ERSKINEVILLE 5 INBOUND | ` DHH REDF ERSK` |
-| HARBOUR BRIDGE 5 INBOUND | `HBB DHH REDF ERSK` |
+| HARBOUR BRIDGE 5 INBOUND | `HBB DHH REDF ERSK APST` |
 | BARRACKS 5 INBOUND | `RCB MPSC` |
 | MAROUBRA 5 INBOUND | `MRBR` |
 | CAPE BANKS 5 INBOUND | `CAPS` |
 | WANDA 5 INBOUND | `YWAN DLPT` |
-| GEORGES RIVER 5 INBOUND | `CSTH PNP GRB DLPT` |
 
 !!! note
     Some Helicopter Routes may conflict with fixed wing approach/departure paths, so use common sense to separate helicopters when required.  For example, during 34 PROPS, it may be more suitable for helicopters to track via the `CAPE BANKS 5 INBOUND` rather than taking the `MAROUBRA 5 INBOUND`, due to it's close proximity to the **MARUB SID**.  In any case, if pilots are unfamiliar with local landmarks, simplify your instructions to assist them while maintaining separation.

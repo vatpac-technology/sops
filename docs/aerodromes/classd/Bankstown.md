@@ -77,7 +77,7 @@ All helicopters are considered to be larger than a King Air for the purpose of t
 YSBK uses coded clearances provide standardised routing for VFR aircraft arriving and departing YSBK while transiting Class D SY TCU airspace.
 
 <figure markdown>
-![Bankstown Coded Clearances](../../../terminal/img/bankstown_coded.png){ width="700" }
+![Bankstown Coded Clearances](../../terminal/img/bankstown_coded.png){ width="700" }
   <figcaption>Bankstown Coded Clearances</figcaption>
 </figure>
 

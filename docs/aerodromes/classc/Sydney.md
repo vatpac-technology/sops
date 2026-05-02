@@ -233,14 +233,13 @@ SY ACD will issue airways clearance for all helicopters, including those on a he
 
 | Route | Waypoints |
 | --- | --- |
-| ROSEHILL 5 OUTBOUND | `RKWC RSH` |
+| ROSEHILL 5 OUTBOUND | `CBY RKWC RSH` |
 | ERSKINEVILLE 5 OUTBOUND | `ERSK REDF DHH` |
 | HARBOUR BRIDGE 5 OUTBOUND | `ERSK REDF DHH HBB` |
 | BARRACKS 5 OUTBOUND | `MPSC RCB` |
 | MAROUBRA 5 OUTBOUND | `MRBR` |
 | CAPE BANKS 5 OUTBOUND | `CAPS` |
 | WANDA 5 OUTBOUND | `DLPT YWAN` |
-| GEORGES RIVER 5 OUTBOUND | `DLPT GRB PNP CSTH` |
 
 !!! phraseology
     **YOE:** "Sydney Delivery, helicopter YOE, for the Harbour Bridge 5 outbound, request clearance"  
