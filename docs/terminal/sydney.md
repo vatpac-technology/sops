@@ -127,8 +127,6 @@ SBA is responsible for the provision of ATS in Class D airspace adjacent the BK 
 
 Key responsibilities in this airspace is the issuing of [Bankstown Coded Clearances](#bankstown-coded-clearances)
 
-
-
 ## Separation
 ### Parallel Runway Operations
 #### Instrument Approach
@@ -247,12 +245,9 @@ The **ANKUB SID** is a unique departure that is assigned to non-jets planned via
     **RXA6824**: "Resume own navigation, cleared direct ANKUB to rejoin the SID. Climb via SID to `F150`, RXA6824"   
 
 ### Level Assignment
-!!! note
-    Inbound aircraft will be handed from Enroute to Approach assigned the [standard assignable level](#arrivals).  This section refers to further descent issued by the Approach controller.
+Adjacent STARs do not guarantee lateral separation (particularly as aircraft get closer to TESAT), so to avoid a breakdown of separation standards, **Approach** should assign levels as follows: <ul><li>AKMIR/MEPIL STAR: `A060`</li><li>RIVET/BOREE STAR: `A080`</li><li>MARLN STAR: `A090`</li></ul>
 
-Adjacent STARs do not guarantee lateral separation (particularly as aircraft get closer to TESAT), so to avoid a breakdown of separation standards, **Approach** should assign levels as follows: <ul><li>ODALE/MEPIL STAR: `A060`</li><li>RIVET/BOREE STAR: `A080`</li><li>MARLN STAR: `A090`</li></ul>
-
-RIVET/BOREE aircraft should only be assigned `A070` when an adjacent ODALE/MEPIL arrival is maintaining `A060`.  These aircraft can be stepped down to `A060` once sufficient lateral separation exists (often during the downwind turn).
+RIVET/BOREE aircraft should only be assigned `A070` when an adjacent AKMIR/MEPIL arrival is maintaining `A060`.  These aircraft can be stepped down to `A060` once sufficient lateral separation exists (often during the downwind turn).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7dOF91EIQj8?si=9Vc3-eHTN2Zqlvf4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="display:block; margin:0 auto;" allowfullscreen></iframe>
 <p><figcaption style="text-align: center;">Demonstration of the Adjacent STARs</figcaption></p>
@@ -261,9 +256,6 @@ RIVET/BOREE aircraft should only be assigned `A070` when an adjacent ODALE/MEPIL
     Be mindful of Sydney's [REP airspace](#radar-entry-procedure-rep) arrangement and avoid leaving arrivals at `A100`.  Aircraft should be descended to `A090` or below by 20DME to prevent conflict with departing traffic.
 
 All aircraft should be assigned no lower than `A060` until clear of the active runways' departure tracks.  This normally occurs once established on downwind (but changes based on runway config).
-
-!!! note
-    Remember that you will not receive "Next" Coordination on aircraft assigned Standard Assignable Levels (ie `A050` for Jets, `A030` for Non-Jets), meaning an aircraft could depart at any time without prior warning and climb to `A050`.
 
 !!! example
     For an aircraft inbound from the north on the BOREE STAR to runway 34R, assign no lower than `A080` until any adjacent aircraft are maintaing `A060`, then `A070` until the aircraft are laterally clear.  The arrival should then be assigned `A060` until south of the field.
