@@ -289,6 +289,8 @@
 *[AV]: Avalon
 *[AY]: Albury
 *[BAW]: Baywest
+*[BBG]: Brooklyn Bridge
+*[BEE]: Berilee
 *[BLGH]: Burleigh Heads
 *[BLHS]: Bald Hills
 *[BOAT]: Boatyard
@@ -297,6 +299,7 @@
 *[BTJ]: Brighton Jetty
 *[BTO]: Brighton
 *[CARR]: Carrum
+*[CAST]: Castle Towers
 *[CBRG]: Centenary Bridge
 *[CBV]: Craigbourne Reservoir
 *[CCL]: Cape Cleveland
@@ -311,6 +314,8 @@
 *[COTR]: Cotter
 *[CPA]: Campania
 *[CREM]: Cremorne
+*[CRSC]: Crossroads Shopping Centre
+*[CRST]: Campbelltown Railway Station
 *[CSTH]: Choppers South
 *[CTE]: Cottesloe
 *[CUL]: Cronulla
@@ -325,6 +330,7 @@
 *[DSN]: Doncaster Shopping Town
 *[DUA]: Duri Gap
 *[EDT]: Edmonton
+*[EMPS]: Edmondson Park Station
 *[EN]: Essendon
 *[EPPG]: Epping
 *[ESL]: East Sale
@@ -343,15 +349,19 @@
 *[HASS]: Hastings Point
 *[HKE]: Herdsman Lake
 *[HNLY]: Henley Jetty
+*[HSY]: Hornsby
+*[HXPR]: Hoxton Park Road
 *[JIBN]: Jibbon Point
 *[KAO]: Kalkallo
 *[KCFF]: Kingscliff
 *[KRMD]: Kurmond
 *[KSPT]: Kissing Point
 *[LAUD]: Lauderdale
+*[LIHR]: Lighthorse Interchange
 *[LPT]: Lee Point
 *[LTV]: Latrobe Valley
 *[LUY]: Latrobe University
+*[MAGG]: Mount Annan Gardens Greenhouse
 *[MAL]: Manilla
 *[MBC]: Mount Black
 *[MBHM]: Manly Boat Harbour
@@ -359,6 +369,7 @@
 *[MB]: Moorabbin
 *[MCG]: Melbourne Cricket Ground
 *[MEG]: Menangle
+*[MFGC]: Muirfield Golf Club
 *[MMT]: Mt Margaret
 *[MNG]: Mangalore
 *[MTWK]: Mount Walker
@@ -374,10 +385,12 @@
 *[ORKS]: Orchard Rocks
 *[PAL]: Port Adelaide
 *[PCTY]: Perth City
+*[PENH]: Pennant Hills Strobe
 *[PIC]: Picton
 *[PKR]: Park Ridge Water Tower
 *[PNL]: Port Noarlunga
 *[POWR]: Powerhouse
+*[PRT]: Parramatta
 *[PSP]: Prospect Reservoir
 *[PWLC]: Powerline Crossing
 *[RADT]: Radio Telescope
@@ -391,8 +404,10 @@
 *[SBD]: Story Bridge
 *[SHOL]: Shoal
 *[SHOP]: Armadale Shops
+*[SITS]: Seven Hills Train Station
 *[SNP]: Station Pier
 *[SORL]: Sorell
+*[SSKP]: St Helens Skate Park
 *[STOT]: Stotts Island
 *[SUNZ]: Sun Zinc Refinery
 *[SWTA]: South Western Training Area
@@ -406,6 +421,7 @@
 *[TVT]: TV Towers
 *[TWRN]: Two R N
 *[UQLD]: University of Queensland
+*[VCBR]: Victoria Bridge
 *[WBH]: Wallabadah
 *[WEP]: West Pt
 *[WES]: West Gate Bridge

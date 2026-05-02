@@ -74,35 +74,44 @@ The largest aircraft that can safely hold between Runways is a BE20 (King Air). 
 All helicopters are considered to be larger than a King Air for the purpose of this clause.
 
 ## VFR Operations
-### Bankstown Coded Clearances
-The Bankstown Coded Clearances provide standardised routing for VFR aircraft arriving and departing YSBK while transiting Class D SY TCU airspace.
+YSBK uses coded clearances provide standardised routing for VFR aircraft arriving and departing YSBK while transiting Class D SY TCU airspace.
 
 <figure markdown>
 ![Bankstown Coded Clearances](../../../terminal/img/bankstown_coded.png){ width="700" }
   <figcaption>Bankstown Coded Clearances</figcaption>
 </figure>
 
-<!--
+Each coded clearance includes tracking instructions, height requirements that ensure aircraft remain within Class D airspace. Each coded clearance also includes implicit instructions on when to change frequencies.
+
 ### VFR Inbound Procedures
-VFR aircraft will report inbound at PSP or TWRN. They should be instructed to join the circuit as below:
+| Coded Clearance    | Route             | Altitude | 
+| ------------------ | ------------------- | ------ | 
+| Brooklyn Inbound   | `BBG CAST PSP`      | `A015` |
+| Lighthorse Inbound | `NPBR LIHR PSP`     | `A015` |
+| St Helens Inbound   | `SSKP CRST CRSC`   | `A015` |
+
+VFR aircraft will report inbound at PSP or CRSC. They should be instructed to join the circuit as below:
 
 | VFR Approach Point | RWYs 29  | RWYs 11 |
 | ----------------| --------- | ---------- |
 | PSP    | *"Join right downwind runway 29R, maintain A015"*, then when abeam RWYs 11 threshold or clear of departing traffic, *"Cleared visual approach"*       | *"Join final runway 11L, report 3nm"*        |
-| TWRN   | *"Join crosswind runway 29R, maintain A015"*, then when abeam RWYs 11 threshold or clear of departing traffic, *"Cleared visual approach"* | *"Join final runway 11L, report at Warwick Farm"*  |
+| CRSC   | *"Join crosswind runway 29R, maintain A015"*, then when abeam RWYs 11 threshold or clear of departing traffic, *"Cleared visual approach"* | *"Join final runway 11L, report at Warwick Farm"*  |
 
 !!! note
     Aircraft joining final in the RWY 11 direction are not assigned a level and are expected to commence a visual approach in accordance with the tracking instructions issued by ADC. Aircraft are required to enter the control zone at `A010`. There is no need to clear these aircraft for a visual approach.
 
 ### VFR Outbound Procedures
-VFR aircraft should report ready to **BK ADC** with their departure intentions.  A takeoff clearance constitutes a clearance to depart the zone by extending the pilot's requested leg of the circuit.  Aircraft departing the zone into class G airspace will transfer to area frequency upon leaving the zone, **no explicit frequency transfer is given to these aircraft**.
+VFR aircraft should report ready to **BK ADC** with their departure intentions.  A takeoff clearance constitutes a clearance to depart the zone by extending the pilot's requested leg of the circuit.  Aircraft departing will transfer to appropriate frequency upon leaving the zone, **no explicit frequency transfer is given to these aircraft**.
 
-Aircraft departing a leg of the circuit will climb to and maintain the following levels until clear of the zone:  
-RWY 29 direction: `A010`  
-RWY 11 direction: `A015`
+| Coded Clearance    | Route             | Altitude | 
+| ------------------ | ------------------- | ------ | 
+| Hornsby Outbound   | `PRT MFGC PENH HSY` | `A015` |
+| Mount Annan Outbound | `HXPR EMPS MAGG`  | `A015` |
+| Penrith Outbound   | `PRT SITS VCBR`     | `A015` |
 
-### Departures into CTA
-Aircraft planned into the overlying Class C airspace shall be issued an airways clearance by **BK ADC** and assigned `A030`. These aircraft must be Next coordinated to the relevant TCU controller, who will assess the current traffic picture and provide a release when able. During times of peak TMA traffic, there may be extensive delays for departure and pilots may elect to depart directly into class G. See [Departure Coordination](#departures) for coordination requirements. -->
+!!! phraseology
+    **ABC**: "Bankstown Tower, ABC, ready at runway 11L for a Hornsby Outbound"   
+    **BK ADC**: "ABC, Bankstown Tower, runway 11L, cleared for takeoff"   
 
 ## Helicopter Operations
 ### General
@@ -196,27 +205,27 @@ When the crosswind component exceeds 15 knots, the OPR INFO field must include:
 
 ## Coordination
 ### Departures
-[Next](../../controller-skills/coordination.md#next) coordination is required from BK ADC to SY TCU for all aircraft **entering SY TCU CTA**.
+[Next](../../../controller-skills/coordination/#next) coordination is **not** required for aircraft that are:   
 
-The Standard Assignable level from **BK ADC** to **SY TCU** is:
+- VFR aircraft departing via a [coded clearance](#vfr-outbound-procedures)
+
+All other aircraft require a 'Next' call to SBA.
+
+The Standard Assignable level from **BK ADC** to **SBA** is:
 
 | Aircraft | Level |
 | --- | -----|
 | All | `A030` |
 
-Aircraft shall be instructed to contact SY TCU passing `A015`.
-
-!!! note
-    Unlike other Metro D SIDs, the **BK SID** is *not* a radar SID. An assigned heading or track shall *not* be issued by BK ADC.
-
 ### Arrivals/Overfliers
-SY TCU will heads-up coordinate arrivals/overfliers from Class C to BK ADC.  
-IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to BK ADC, unless BK ADC nominates a restriction.  
+SBA will heads-up coordinate arrivals/overfliers from Class C to BK ADC prior to **5 mins** from the boundary.
+  
+IFR aircraft will be cleared for the instrument prior to handoff to BK ADC, unless BK ADC nominates a restriction.  
 VFR aircraft require a level readback.
 
 !!! phraseology
-    <span class="hotline">**SY TCU** -> **BK ADC**</span>: "via GRB, UJN"  
-    <span class="hotline">**BK ADC** -> **SY TCU**</span>: "UJN, A010"
+    <span class="hotline">**SBA** -> **BK ADC**</span>: "To the west, UJN, for the RNP-Z"  
+    <span class="hotline">**BK ADC** -> **SBA**</span>: "UJN, RNP-Z"
 
 !!! tip
     Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D. You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.
@@ -228,7 +237,7 @@ When ADC (Circuit) is online, SY TCU may not be familiar with which controller o
 BK ADC must heads-up coordinate **all aircraft** transiting from one ADC controller to the other.
 
 !!! phraseology
-    <span class="hotline">**BK ADC C** -> **BK ADC N**</span>: "via TWRN, EWY for an overhead join"  
+    <span class="hotline">**BK ADC C** -> **BK ADC N**</span>: "via CRSC, EWY for an overhead join"  
     <span class="hotline">**BK ADC N** -> **BK ADC C**</span>: "EWY, A015"
 
 BK ADC must coordinate **all helicopter traffic** via CSTH. Coordination must take place prior to Take-Off clearance bring issued (departures) OR before issuing a clearance beyond CSTH (arrivals). When responding to coordination, ADC2 should pass aircraft type and position of any aircraft likely to affect the crossing midfield at A005.

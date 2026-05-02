@@ -156,14 +156,48 @@ The Bankstown Coded Clearances provide standardised routing for VFR aircraft arr
   <figcaption>Bankstown Coded Clearances</figcaption>
 </figure>
 
+Each coded clearance includes tracking instructions, height requirements that ensure aircraft remain within Class D airspace. Each coded clearance also includes implicit instructions on when to change frequencies.
+
+The routes are generally segregated, although the 'Penrith Outbound' and 'Brooklyn Inbound' routes intersect within SBA CTA, west of SITS. Remember that in [Class D Airspace](../../controller-skills/classofairpsace), **no separation** is provided for VFR aircraft. Traffic advisory statements should be given to aircraft where appropriate and, if necessary, SBA may pass an avoiding action advice to ensure aircraft do not collide.
+
+!!! phraseology
+    **SBA**: "ABC, avoiding action, turn left immediately heading 360."   
+    **ABC**: "Turning left heading 360, ABC"   
+    **SBA**: "ABC, traffic is a Kodiak 9 o'clock, same altitude, crossing left to right."   
+
+#### Departures
+Departures will be given their coded clearance by BK ADC, and will contact SBA at their first VFR waypoint.
+
+| Coded Clearance    | Route             | Altitude | 
+| ------------------ | ------------------- | ------ | 
+| Hornsby Outbound   | `PRT MFGC PENH HSY` | `A015` |
+| Mount Annan Outbound | `HXPR EMPS MAGG`  | `A015` |
+| Penrith Outbound   | `PRT SITS VCBR`     | `A015` |
+
+#### Arrivals
+Arrivals will contact SBA for clearance before entering CTA.
+
+| Coded Clearance    | Route             | Altitude | 
+| ------------------ | ------------------- | ------ | 
+| Brooklyn Inbound   | `BBG CAST PSP`      | `A015` |
+| Lighthorse Inbound | `NPBR LIHR PSP`     | `A015` |
+| St Helens Inbound   | `SSKP CRST CRSC`   | `A015` |
+
+!!! phraseology
+    **ABC**: "Bankstown Approach, ABC, Cessna Caravan, VFR, at BBG for Brooklyn Inbound"   
+    **SBA**: "ABC, Bankstown Approach"   
+
+!!! tip
+    Remember that in Class D, establishing two-way communication with VFR aircraft constitutes a clearance to enter controlled airspace.
+
 ### Sydney Harbour Scenic Flights
 Flights may be cleared for the **Harbour Scenic One** scenic flight routes at `A015`, where traffic permits. This route can be displayed on vatSys using the `SY_VFR` map.  
 Aircraft must track via Class G airspace to Long Reef and contact SY TCU prior to reaching Long Reef requesting a ‘Harbour Scenic’ clearance. Attempt to identify the aircraft, and if a clearance cannot be given immediately, instruct the pilot to remain in Class G airspace. Sydney QNH must be issued with the clearance.
 
 !!! phraseology
-    "LOI, squawk 0542, remain clear of Class C airspace"   
+    **SDS:** "LOI, squawk 0542, remain clear of Class C airspace"   
     ...  
-    "LOI, identified, cleared Harbour Scenic One, Sydney QNH 1014"
+    **SDS:** "LOI, identified, cleared Harbour Scenic One, Sydney QNH 1014"
 
 !!! warning "Caution"
     The Harbour Scenic One procedure may cause conflict with departures from Runway 34R to the north. Before issuing a Harbour Scenic One clearance, assess the traffic situation on the ground at YSSY and determine whether a departure to the north of the harbour is likely in the next few minutes. If necessary, instruct the aircraft to remain OCTA and advise of the delay, or alternatively, issue the Harbour Scenic Two clearance.
@@ -256,12 +290,12 @@ SFW/SFE should provide aircraft an approximate 'miles to run' on first contact, 
     A typical downwind will take roughly 25 track miles from the normal point have handover from SAN/SAS to SFE/SFW.
 
 !!! phraseology
-    "QLK402, Sydney Director, descend to `A040`, 25 miles to run"
+    **SFE:** "QLK402, Sydney Director, descend to `A040`, 25 miles to run"
 
 SFW/SFE may provide distance to touchdown, when transferring an aircraft to tower after the aircraft is established on their approach runway centreline.
 
 !!! phraseology
-    "QFA490, 8 miles to touchdown, contact tower 120.5"
+    **SFE:** "QFA490, 8 miles to touchdown, contact tower 120.5"
 
 ### YWLM STARs
 YWLM arrivals from the south and west will transit the SY TCU as they descend. BIK/KAT will provide these aircraft with their STAR clearance and initial descent, before conduct heads-up coordination with the relevant SY TCU controller to facilitate further descent.
@@ -663,22 +697,24 @@ BK ADC is responsible for the Class D airspace in the BK CTR `SFC` to `A015`.
 Refer to [Reclassifications](#bk-ctr) for operations when BK ADC is offline.
 
 #### Departures
-[Next](../../controller-skills/coordination/#next) coordination is required from BK ADC to SY TCU for all aircraft **entering SY TCU CTA**.
+[Next](../../../controller-skills/coordination/#next) coordination is **not** required for aircraft that are:   
 
-The Standard Assignable level from **BK ADC** to **SY TCU** is:
+- VFR aircraft departing via a [coded clearance](#vfr-outbound-procedures)
+
+All other aircraft require a 'Next' call to SBA.
+
+The Standard Assignable level from **BK ADC** to **SBA** is:
 
 | Aircraft | Level |
 | --- | -----|
 | All | `A030` |
 
 #### Arrivals
-SY TCU will heads-up coordinate arrivals/overfliers from Class C to BK ADC prior to **5 mins** from the boundary.  
-IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to BK ADC, unless BK ADC nominates a restriction.  
+SBA will heads-up coordinate arrivals/overfliers from Class C to BK ADC prior to **5 mins** from the boundary.
+  
+IFR aircraft will be cleared for the instrument prior to handoff to BK ADC, unless BK ADC nominates a restriction.  
 VFR aircraft require a level readback.
 
-!!! phraseology
-    <span class="hotline">**SY TCU** -> **BK ADC**</span>: "via GRB, UJN"  
-    <span class="hotline">**BK ADC** -> **SY TCU**</span>: "UJN, A010"
 
 !!! tip
     Ensure the aircraft's FDR is up-to-date in order to give **BK ADC** maximum situational awareness of the traffic picture. (eg. if the aircraft is doing the RNP approach, ensure the FDR has been rerouted via the appropriate points)
