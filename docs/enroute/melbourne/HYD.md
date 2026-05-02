@@ -23,7 +23,7 @@
 ## Airspace
 <figure markdown>
 ![Hyden Airspace](../img/enr_diagrams/hyd.png){ width="700" }
-  <figcaption>Pingelly Airspace</figcaption>
+  <figcaption>Hyden Airspace</figcaption>
 </figure>
 
 ### Reclassifications

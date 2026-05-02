@@ -72,7 +72,7 @@ The following subsectors are responsible for issuing STAR clearance.
 
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
-| KPL  | REBEG | All | Descent not below `F190` |
+| KPL  | REBEG<br>SEBVA | All | Descent not below `F190` |
 
 Arrivals from the north shall be given initial descent to not below `F190`. **INL (NSA)** will issue final descent.
 

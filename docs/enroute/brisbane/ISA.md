@@ -32,19 +32,42 @@ ISA is responsible for **ARA**, **STR**, and **WEG** when they are offline.
 	
 ### Reclassifications
 === "SG CTR"
-	When **SG TCU** is offline, SG MIL CTR and associated restricted airspace reverts to Class G, and is administered by ARA.
-	
-	!!! tip
-        Consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
+	The restricted airspace around YBSG is classified as Class G by default, and is only reclassified as controlled airspace when **SGA** is online. When **SGA** is offline, the area remains Class G, and is administered by ARA.
 
 ## Departure and Arrival Procedures
 
 ### YBSG
 ARA is responsibile for facilitating operations in and out of YBSG.
 
-<!-- ## Special Use Airspace 
-### Restricted Areas
--->
+## Local Procedures
+### Special Use Airspace
+There are multiple volumes of [SUA](../../../controller-skills/sua) within ISA airspace, mostly associated with military operations in and out of YBSG.
+
+<figure markdown>
+![Notable SUA in ISA Airspace](../img/isa_sua.png){ width="700" }
+  <figcaption>Notable SUA in ISA Airspace</figcaption>
+</figure>
+
+SG TCU must [give heads up coordination](../../../terminal/scherger/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
+
+!!! phraseology
+    <span class="hotline">**SGA** -> **ARA**</span>: "On the ground YBSG, FBED14, requests activation of M610A `F125-F245`, from 0300 until 0500.”  
+    <span class="hotline">**ARA** -> **SGA**</span>: "FBED14, expect activation of M610A `F125-F245` at 0300 until 0500."   
+    <span class="hotline">**SGA** -> **ARA**</span>: "FBED14."   
+
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../sua/#ad-hoc-activations).
+
+#### M610A Scherger
+The M610A Scherger [MOA](../../../controller-skills/sua/#military-operating-areas) is located over western coast of North Queensland and the Gulf of Carpentaria, `F125-F245`, located entirely in ARA airspace. 
+
+The MOAs directly adjoin the SG TMA and when SGA is online aircraft will be transferred directly to/from the MOAs. When [WAL is offline](#reclassifications), aircraft will contact ARA for transit through the surrounding civilian airspace.
+
+Aircraft will generally enter and exit the MOA via the appropriate [military gate](../../../terminal/scherger/#military-gates).
+
+#### Townsville SUA
+There are two SUA associated with military operations at Townsville which clip ISA airspace: the R738G-H Townsville (Land) restricted areas.
+
+TLA (or KEN(KEN, TBP) on their behalf) will coordinate the activation these SUA prior to any activity.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -62,20 +85,23 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 ### SG TCU
 #### Airspace
-The limits of the SG TCU are `SFC` to `F245` within 40 NM of the YBSG ARP. This may be amended by NOTAM.
+The limits of the SG TCU are `SFC` to `F245` within 40 NM of the YBSG ARP.
 
 #### Arrivals/Overfliers
-The Standard assignable level from ARA to SG TCU is `F130`, tracking via WP VOR.
+Voiceless for all aircraft:
 
-All other aircraft must be voice coordinated to SG TCU prior to **20nm** from the boundary.
+- With ADES **YBSG**; and
+- Tracking via **WP VOR**; and
+- Assigned `F130`.
+
+All other aircraft coming from ARA CTA must be **Heads-up** Coordinated to SGA prior to **20nm** from the boundary.
 
 #### Departures
-The Standard Assignable level from SG TCU to ARA is `F240`, and tracking via their planned route.
+Voiceless for all aircraft:
 
-#### SG ADC
-When SG TCU is offline, coordination is not required between ISA(ARA) and SG ADC. Aircraft entering SG ADC airspace shall be handed off, and instructed to contact SG ADC for onwards clearance.
+- Assigned the lower of `F240` or the `RFL`.
 
-SG ADC owns the Class C airspace within the SG CTR from `SFC` to `A015`.
+All other aircraft going into ARA CTA will be **Heads-up** Coordinated by SGA prior to the boundary.
 
 ### ISA Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
