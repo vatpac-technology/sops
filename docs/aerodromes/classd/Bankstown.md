@@ -74,6 +74,15 @@ The largest aircraft that can safely hold between Runways is a BE20 (King Air). 
 All helicopters are considered to be larger than a King Air for the purpose of this clause.
 
 ## VFR Operations
+### Bankstown Coded Clearances
+The Bankstown Coded Clearances provide standardised routing for VFR aircraft arriving and departing YSBK while transiting Class D SY TCU airspace.
+
+<figure markdown>
+![Bankstown Coded Clearances](../../../terminal/img/bankstown_coded.png){ width="700" }
+  <figcaption>Bankstown Coded Clearances</figcaption>
+</figure>
+
+<!--
 ### VFR Inbound Procedures
 VFR aircraft will report inbound at PSP or TWRN. They should be instructed to join the circuit as below:
 
@@ -93,7 +102,7 @@ RWY 29 direction: `A010`
 RWY 11 direction: `A015`
 
 ### Departures into CTA
-Aircraft planned into the overlying Class C airspace shall be issued an airways clearance by **BK ADC** and assigned `A030`. These aircraft must be Next coordinated to the relevant TCU controller, who will assess the current traffic picture and provide a release when able. During times of peak TMA traffic, there may be extensive delays for departure and pilots may elect to depart directly into class G. See [Departure Coordination](#departures) for coordination requirements.
+Aircraft planned into the overlying Class C airspace shall be issued an airways clearance by **BK ADC** and assigned `A030`. These aircraft must be Next coordinated to the relevant TCU controller, who will assess the current traffic picture and provide a release when able. During times of peak TMA traffic, there may be extensive delays for departure and pilots may elect to depart directly into class G. See [Departure Coordination](#departures) for coordination requirements. -->
 
 ## Helicopter Operations
 ### General
