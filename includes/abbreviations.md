@@ -354,6 +354,7 @@
 *[MTWK]: Mount Walker
 *[MVC]: Moonee Valley Racecourse
 *[MYF]: Mayfield
+*[NBB]: Nobbys Head
 *[NEM]: Nemingha
 *[NEN]: Nerang
 *[NPBR]: Nepean Bridge
@@ -369,9 +370,11 @@
 *[PNL]: Port Noarlunga
 *[POWR]: Powerhouse
 *[PSP]: Prospect Reservoir
+*[PSS]: Point Stephens Lighthouse
 *[PWLC]: Powerline Crossing
 *[RADT]: Radio Telescope
 *[RCH]: Richmond
+*[RESC]: Research Centre
 *[RKI]: Rattlesnake Island
 *[RMT]: Round Mountain
 *[ROK]: Rockbank
@@ -399,6 +402,7 @@
 *[WBH]: Wallabadah
 *[WEP]: West Pt
 *[WES]: West Gate Bridge
+*[WILE]: Willeroo
 *[WMS]: Williamstown
 *[WOW]: White Onion Water Tower
 *[WSFR]: Wisemans Ferry
