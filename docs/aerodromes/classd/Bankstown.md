@@ -176,6 +176,16 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 #### Night Operational Restrictions
 Runway 11R/29L is unlit, and **cannot** be used at night.
 
+## SID Selection
+IFR aircraft shall be assigned the **Procedural SID** corresponding to their direction of travel.
+
+| Runway  | Via  | SID      |
+| ------- | ---- | -------- |
+| 11C/29C | Tracking N      | **URDOS** SID |
+| 11C/29C | NOLEM           | **MECKO** SID, Relevant Transition |
+| 11C/29C | Tracking S or W | **MECKO** SID, RADAR Transition |
+| 11C/29C | All others      | **RADAR** SID |
+
 ### Circuits
 The circuit direction changes depending on time of day and runway being used.
 
