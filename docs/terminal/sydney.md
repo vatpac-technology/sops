@@ -389,7 +389,6 @@ The helicopter route title should be recorded in the **global ops field** and th
 | Route | Waypoints |
 | --- | --- |
 | ROSEHILL 5 INBOUND | `RSH RKWC CBY` |
-| ERSKINEVILLE 5 INBOUND | ` DHH REDF ERSK` |
 | HARBOUR BRIDGE 5 INBOUND | `HBB DHH REDF ERSK APST` |
 | BARRACKS 5 INBOUND | `RCB MPSC` |
 | MAROUBRA 5 INBOUND | `MRBR` |

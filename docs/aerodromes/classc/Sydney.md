@@ -234,7 +234,6 @@ SY ACD will issue airways clearance for all helicopters, including those on a he
 | Route | Waypoints |
 | --- | --- |
 | ROSEHILL 5 OUTBOUND | `CBY RKWC RSH` |
-| ERSKINEVILLE 5 OUTBOUND | `ERSK REDF DHH` |
 | HARBOUR BRIDGE 5 OUTBOUND | `ERSK REDF DHH HBB` |
 | BARRACKS 5 OUTBOUND | `MPSC RCB` |
 | MAROUBRA 5 OUTBOUND | `MRBR` |
