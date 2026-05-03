@@ -229,12 +229,18 @@ Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-divis
 #### Arrivals/Overfliers
 Voiceless for all aircraft:
 
-- With ADES **YSSY**; and  
-- Assigned a STAR; and  
-- Tracking via **BOREE**, assigned `A100`; or  
-- Tracking via **MEPIL**, assigned `A090`
+- With ADES **YSSY**:  
+    - Assigned a STAR; and  
+    - Tracking via **BOREE**, assigned `A100`; or  
+    - Tracking via **MEPIL**, assigned `A090`
+- With ADES **YSWS**, or **YSRI**:
+	- Assigned a STAR; and
+    - Assigned `A090`.
+- With ADES **YSBK**, **YSCN**:
+    - Assigned a STAR; and
+    - Assigned `A080`
 
-All other aircraft coming from ARL CTA must be **Heads-up** Coordinated to SY TCU prior to **20nm** from the boundary.
+All other aircraft coming from GAH CTA must be **Heads-up** Coordinated to SY TCU prior to **20nm** from the boundary.
 
 #### Departures
 Voiceless for all aircraft:

@@ -226,9 +226,15 @@ Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-divis
 #### Arrivals/Overfliers
 Voiceless for all aircraft:
 
-- With ADES **YSSY**; and  
-- Assigned a STAR; and  
-- Tracking via **MARLN** assigned `A100`
+- With ADES **YSSY**:  
+    - Assigned a STAR; and  
+    - Tracking via **MARLN** assigned `A100`
+- With ADES **YSWS**, or **YSRI**:
+	- Assigned a STAR; and
+    - Assigned `A090`.
+- With ADES **YSBK**, **YSCN**:
+    - Assigned a STAR; and
+    - Assigned `A080`
 
 All other aircraft coming from MNN CTA must be **Heads-up** Coordinated to SY TCU prior to **20nm** from the boundary.
 

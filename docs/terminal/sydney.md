@@ -254,6 +254,16 @@ The **ANKUB SID** is a unique departure that is assigned to non-jets planned via
     **SDS**: "RXA6824, resume own navigation, cleared direct ANKUB to rejoin the SID. Climb via SID to `F150`"   
     **RXA6824**: "Resume own navigation, cleared direct ANKUB to rejoin the SID. Climb via SID to `F150`, RXA6824"   
 
+#### Bankstown Radar Departure Headings
+There are no Standard Assignable Departure Headings at BK, and BK ADC will make a 'Next' call for each aircraft departing via the radar SID. 
+
+Due the restricted areas south of the airport, aircraft departing via the **BK (RADAR) SID** should be issued an assigned heading within the ranges below.
+
+| Runway | Heading        |
+| ------ | -------------- |
+| 11C    | **Left turn** 250° to 111° |
+| 29C    | **Left turn** 250° to 291°<br>**Right turn** 291° to 111° |
+
 ### Level Assignment
 Adjacent STARs do not guarantee lateral separation (particularly as aircraft get closer to TESAT), so to avoid a breakdown of separation standards, **Approach** should assign levels as follows: <ul><li>AKMIR/MEPIL STAR: `A060`</li><li>RIVET/BOREE STAR: `A080`</li><li>MARLN STAR: `A090`</li></ul>
 
@@ -583,8 +593,8 @@ Voiceless to all surrounding Enroute sectors for all aircraft:
 All other aircraft going to Enroute CTA must be **Heads-up** coordinated to the relevant sector as soon as practical.
 
 !!! phraseology
-    <span class="hotline">**SY TCU** -> **ARL**</span>: "DAL40, with your concurrence, will be right of route, DCT GUTIV"  
-    <span class="hotline">**ARL** -> **SY TCU**</span>: "DAL40, concur right of route DCT GUTIV"
+    <span class="hotline">**SY TCU** -> **MNN**</span>: "DAL40, with your concurrence, will be right of route, DCT GUTIV"  
+    <span class="hotline">**MNN** -> **SY TCU**</span>: "DAL40, concur right of route DCT GUTIV"
 
 ##### YWLM Arrivals
 Additionally, voiceless coordination exists to ARL(All) for aircraft:
@@ -599,12 +609,20 @@ Additionally, voiceless coordination exists to ARL(All) for aircraft:
 #### Arrivals
 Voiceless for all aircraft:
 
-- With ADES **YSSY**; and  
-- Assigned a STAR; and  
-- Tracking via **MARLN**, **RIVET**, or **BOREE**, assigned `A100`; or  
-- Tracking via **MEPIL** or **ODALE**, assigned `A090`
+- With ADES **YSSY**:
+    - Assigned a STAR; and
+    - Tracking via **MARLN**, **RIVET**, or **BOREE**, assigned `A100`; or  
+    - Tracking via **MEPIL** or **ODALE**, assigned `A090`
+- With ADES **YSWS**, or **YSRI**:
+	- Assigned a STAR; and
+    - Assigned `A090`.
+- With ADES **YSBK**, **YSCN**:
+    - Assigned a STAR; and
+    - Assigned `A080`
 
-All other aircraft coming from Enroute CTA will be **Heads-up** coordinated to SY TCU prior to **20nm** from the boundary.
+
+
+All other aircraft coming from enroute CTA will be **Heads-up** coordinated to SY TCU prior to **20nm** from the boundary.
 
 ### SY TCU Internal
 #### APP / DIR
