@@ -127,6 +127,16 @@ SBA is responsible for the provision of ATS in Class D airspace adjacent the BK 
 
 Key responsibilities in this airspace is the issuing of [Bankstown Coded Clearances](#bankstown-coded-clearances)
 
+#### Sydney CTA C10 
+The volume of airspace adjacent to the WS CTR overhead Camden (known as **SY CTA C10**) has a lower level that varies according to the time of day.
+
+<figure markdown>
+![Sydney CTA C10 Airspace](img/sba.png){ width="700" }
+  <figcaption>Sydney CTA C10 Airspace</figcaption>
+</figure>
+
+During the hours of 23:00 - 06:00 Sydney local time, the airspace within the C10 area extends to `A015`, allowing YSWS departures on the [November or Quebec SIDs](../../aerodromes/classc/Walton/#sid-selection) to remain within CTA. CN ADC is **[prohibited](../../aerodromes/classd/Camden/#night-operations)** from logging on during this time, regardless of whether YSWS [RRO](../../aerodromes/classc/Walton/#reciprocal-runway-operations) are in use.
+
 ## Separation
 ### Parallel Runway Operations
 #### Instrument Approach

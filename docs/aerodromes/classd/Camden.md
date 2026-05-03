@@ -22,11 +22,16 @@ CN ADC is responsible for the Class D airspace in the CN CTR `SFC` to `A020`.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
+### Night Operations
+Controllers are prohibited from logging on as **CN ADC** or **CN SMC** between 23:00 and 06:00 Sydney local time.
+
+During this time, the [Sydney CTA C10 Airspace](../../../terminal/sydney/#sydney-cta-c10) overhead YSCN extends to `A015`, precluding normal operations.
+
 ## Local Procedures 
 ### Instrument Approaches
-The only instrument approach at YSCN is the RNP W approach.  This approach commences OCTA and enters the Camden control zone.  
+The only instrument approach at YSCN is the RNP W approach.  This approach commences within CTA before leaving controlled airspace on descent before entering the Camden control zone.  
 
-SY TCU **will not** clear aircraft for the approach (as it commences OCTA) and will transfer aircraft to **CN ADC** at `SC2WI`.  **CN ADC** shall issue airways clearance on first contact in accordance with the table below.  
+SY TCU will clear aircraft for the approach (as it commences OCTA) and will transfer aircraft to **CN ADC** prior to `SC2WI`.  **CN ADC** shall issue airways clearance on first contact in accordance with the table below.  
 
 | Scenario | Clearance |
 | -------- | --------- |
@@ -39,7 +44,7 @@ SY TCU **will not** clear aircraft for the approach (as it commences OCTA) and w
 ## VFR Operations
 ## Departures
 All aircraft must depart at `A013` via an extended leg of the circuit.
-Upon reaching 2NM CN, all VFR aircraft should monitor the appropriate area frequency (Sydney Approach). A frequency transfer will not be issued to VFR aircraft.
+Upon reaching 2NM CN, all VFR aircraft should monitor the appropriate area frequency (SRI). A frequency transfer will not be issued to VFR aircraft.
 Departing IFR aircraft will receive a frequency transfer.
 
 ### Depart On Climb
@@ -52,18 +57,15 @@ Some aircraft may request to leave the CTR on climb above `A013`.  If there is n
     **PCN:** "PCN, request depart on climb"  
     **CN ADC:** "PCN, depart on climb"
 
-
 ## Arrivals
 ### VFR Inbound Procedures
 VFR aircraft should track via one of the VFR inbound points and be instructed as below:
 
 | VFR Approach Point | RWYs 06  | RWYs 24 |
 | ----------------| --------- | ---------- |
-| BRY    | *"Join Downwind RWY 06, Maintain A018, Report 2NM"*     | *"Join Final RWY 24, Maintain A018, Report Oran Park (ONPK)"*       |
 | MEG  | *"Overfly Camden to join Mid-Field Crosswind RWY 06, Maintain A018, Report Overhead"*      | *"Overfly Camden to join Mid-Field Crosswind RWY 24, Maintain A018, Report Overhead"*       |
 | PIC   | *"Overfly Camden to join Mid-Field Crosswind RWY 06, Maintain 1800ft, Report Overhead"*      | *"Overfly Camden to join Mid-Field Crosswind RWY 24, Maintain A018, Report Overhead"*       |
 | THK  | *"Join Final RWY 06, Maintain A018, Report 3NM"*    | *"Join Downwind RWY 24, Maintain A018, Report 2NM"*      |
-| MYF   | *"Join Base RWY 06, Maintain A018, Report 2NM"*      | *"Join Base RWY 24, Maintain A018, Report 2NM"*       |
 
 When Aircraft are clear of conflicting traffic below, aircraft may *"cleared visual approach"*.
 
