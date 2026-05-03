@@ -501,7 +501,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 - Nil wind
 - The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except:
     - The feeder fix for the MEPIL STAR is **YAKKA**
-- Aircraft for the *opposite* parallel runway (eg, ODALE to 16L/34R) will overfly the field, then vectored to a mid-field downwind  
+- Aircraft for the *opposite* parallel runway (eg, AKMIR to 16L/34R) will overfly the field, then vectored to a mid-field downwind  
 - All aircraft are tracking via the ILS Initial Approach fix
 
 #### YSWS
