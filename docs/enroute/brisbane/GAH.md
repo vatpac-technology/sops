@@ -100,6 +100,8 @@ YSWS uses different STAR designators to differentiate between different variatio
 | N    | Night           | Between 2300-0530 Local, when RRO is **not** in use |
 | Q    | RRO             | Between 2300-0530 Local, when RRO is **in use**  |
 
+The **GUDOK N** STAR may be tactically assigned in lieu of the REVKI N STAR by **SWA**, for track shortening or separation.
+
 #### Sequencing
 Sequencing arrivals from the north into YSWS is a joint responsibility of the subsectors of GAH. Initial sequencing actions for aircraft from the north should be performed by GAH, with fine tuning and any holding required issued by DEN. 
     
