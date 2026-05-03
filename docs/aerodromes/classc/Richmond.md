@@ -16,15 +16,10 @@
     YSRI is a [military aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
 
 ## Airspace
-<figure markdown>
-![RI ADC Airspace](img/ri_ctr.png){ width="700" }
-  <figcaption>WR ADC Airspace</figcaption>
-</figure>
-
-**WR ADC** is responsible for the Class C airspace within the **R479** [restricted area](../../../sua/#restricted-areas), `SFC` to `A015`.
+RI ADC is not responsible for any airspace by default.
 
 ### Restricted Area Activations
-When **WR ADC** is online, the **R479** restricted area `SFC` to `A015` is [activated](../../../sua/#activation-of-sua) by default.
+When **RI ADC** is online, the **R479** restricted area `SFC` to `A015` is [activated](../../../sua/#activation-of-sua) by default.
 
 #### SUA in TCU Airspace
 Military operations taking place in SUA in TCU airspace are outside the jurisdiction of RI ADC.
