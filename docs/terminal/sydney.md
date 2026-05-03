@@ -42,7 +42,7 @@ The vertical limits of the SY TCU are `SFC` to `F285`.
     See also: [BK ADC Offline](#bk-adc-offline).
 
 === "RI CTR"
-	The restricted airspace around YSYC is classified as Class G by default, and is only reclassified as controlled airspace when **RI ADC** is online. When **RI ADC** is offline, the area remains Class G, and is administered by SYC.
+	The restricted airspace around YSRI is classified as Class G by default, and is only reclassified as controlled airspace when **RI ADC** is online. When **RI ADC** is offline, the area remains Class G, and is administered by SYC.
 
 ### Airspace Division
 The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW** and **SFE** change based on the Runway Mode. The airspace managed by **SBA**, **SWA**, **SRA**, and **SYC** is not runway mode dependent.
@@ -109,7 +109,7 @@ c) Departures assumes **SRA** and **SWA** airspace when the position is inactive
 d) Departures assumes **SYC** and **SBA** airspace when the position is inactive.
 
 !!! note
-    The default ownership of sectors within the SY TCU is merely a suggestion for starters. There are 10 executive controller positions within the SY TCU, plus a flow controller, and the ownership of these sectors can be delegated as desired based on the traffic disposition, when agreed between the controllers. For example, during a Milk Run event, if SY APP and SY DEP are online, SY APP may have a lot more work to do than SY DEP, and it would mostly be concentrated on the RIVET/ODALE corridor. In light of this, it might be wise for SY APP to take ownership of SAS, SFW and SFE airspace, whilst SY DEP take ownership of SAN, SDS, SDN, SWA, SRA, SBA, and SYC airspace.
+    The default ownership of sectors within the SY TCU is merely a suggestion for starters. There are 10 executive controller positions within the SY TCU, plus a flow controller, and the ownership of these sectors can be delegated as desired based on the traffic disposition, when agreed between the controllers. For example, during a Milk Run event, if SY APP and SY DEP are online, SY APP may have a lot more work to do than SY DEP, and it would mostly be concentrated on the RIVET/AKMIR corridor. In light of this, it might be wise for SY APP to take ownership of SAS, SFW and SFE airspace, whilst SY DEP take ownership of SAN, SDS, SDN, SWA, SRA, SBA, and SYC airspace.
 
 !!! tip
     Unless there are 2 separate Director controllers online (during a Major event like Panic Stations, for example), it is **not recommended** that the SFW and SFE positions are held by 2 separate controllers, due to the tendency of some less experienced pilots to overshoot the runway centreline
@@ -615,7 +615,7 @@ Voiceless for all aircraft:
 - With ADES **YSSY**:
     - Assigned a STAR; and
     - Tracking via **MARLN**, **RIVET**, or **BOREE**, assigned `A100`; or  
-    - Tracking via **MEPIL** or **ODALE**, assigned `A090`
+    - Tracking via **MEPIL** or **AKMIR**, assigned `A090`
 - With ADES **YSWS**, or **YSRI**:
 	- Assigned a STAR; and
     - Assigned `A090`.
@@ -626,6 +626,15 @@ Voiceless for all aircraft:
 All other aircraft coming from enroute CTA will be **Heads-up** coordinated to SY TCU prior to **20nm** from the boundary.
 
 ### SY TCU Internal
+#### SY / WS / RI
+Voiceless coordination is in place between SY APP/DEP (**SAN**, **SAS**, **SDN**, and **SDS**), **SWA** and **SRA** for aircraft that tracking via a SID/STAR, and descending/climbing via the procedures' altitude restrictions.
+
+Any aircraft not meeting this requirement, including aircraft who have been issued additional altitude restrictions, **must** be prior coordinated.
+
+!!! phraseology
+    <span class="hotline">**SWA** -> **SDS**</span>: "BNZ99, with your concurrence, will be assigned F150, for my separation with QFA1"  
+    <span class="hotline">**SDS** -> **SWA**</span>: "BNZ99, concur F150"
+    
 #### APP / DIR
 Voiceless coordination is in place between APP and DIR for aircraft that are assigned `A060`.
 
@@ -637,7 +646,7 @@ Any aircraft not meeting this requirement **must** be prior coordinated to DIR.
 
 #### APP / DEP
 ##### Radar Entry Procedure (REP)
-Within 15 DME of SY, Departure controllers (**SDN** and **SDS**) can allow aircraft to cross airspace owned by Approach controllers (**SAN** and **SAS**) at or above `A100` without coordination.  This allows aircraft to safely depart above arriving aircraft and facilitates more direct tracking for YSBK & YSYC departures.  
+Within 15 DME of SY, Departure controllers (**SDN** and **SDS**) can allow aircraft to cross airspace owned by Approach controllers (**SAN** and **SAS**) at or above `A100` without coordination.  This allows aircraft to safely depart above arriving aircraft and facilitates more direct tracking for YSBK & YSRI departures.  
 
 !!! note
     SIDs from YSSY do not guarantee that aircraft will reach A100 by 15DME, so Departure controllers should be mindful of this and take action where necessary to expedite climb or coordinate with Approach.  
@@ -653,7 +662,7 @@ It is vital that Approach controllers ensure all arriving aircraft are establish
 Aircraft are permitted to cross the MARLN corridor at or above `A060` without coordination with APP. DEP is responsible for separation with respect to aircraft in the corridor.
 
 #### Between SDN and SFW/SAN
-If aircraft are cleared off runway 11 at YSBK into CTA, coordination is required from SDN (who will be receiving the aircraft from BK ADC) with SFW or SAN (depending on YSSY runway config) as the aircraft will pass closer than 1.5nm from the sector boundary.  
+If aircraft are cleared off runway 11 at YSBK into CTA, coordination is required from SBA (who will be receiving the aircraft from BK ADC) with SFW or SAN (depending on YSSY runway config) as the aircraft will pass closer than 1.5nm from the sector boundary.  
 Refer to [Sydney TCU Airspace Division](#airspace-division) for more information.
 
 !!! phraseology
