@@ -78,6 +78,9 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
     ![25 TCU Structure](img/sy25.png){ width="700" }
       <figcaption>25 TCU Structure</figcaption>
     </figure>
+    
+    !!! warning "Important"
+        Separation between aircraft tracking via the STUIE SID to URDOS and aircraft tracking via the AVMOV SID to SS500 is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
 
 === "34 PROPS"
     <figure markdown>
