@@ -129,6 +129,15 @@ The following subsectors are responsible for issuing STAR clearance.
 | ---- | ----- | -------- | ----- |
 | KAT  | REVKI | All      |       |
 
+##### Assignment Rules
+YSWS uses different STAR designators to differentiate between different variations of STARs that will be issued, according to time of day, weather, and runway modes in use. Arrivals shall be assigned the STAR in accordance with the tables below.
+
+|      | STAR Designator | Condition                     |
+| ---- | --------------- | ----------------------------- |
+| A/B  | Day             | Between 0530-2300 Local       |
+| N    | Night           | Between 2300-0530 Local, when RRO is **not** in use |
+| Q    | RRO             | Between 2300-0530 Local, when RRO is **in use**  |
+
 #### Sequencing
 Sequencing arrivals from the west and south into YSWS is a responsibility of KAT.
 

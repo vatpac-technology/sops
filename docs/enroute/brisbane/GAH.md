@@ -91,6 +91,15 @@ The following subsectors are responsible for issuing STAR clearance.
 
 Arrivals from the north shall be given initial descent to not below `F250`. **DEN** will issue final descent.
 
+##### Assignment Rules
+YSWS uses different STAR designators to differentiate between different variations of STARs that will be issued, according to time of day, weather, and runway modes in use. Arrivals shall be assigned the STAR in accordance with the tables below.
+
+|      | STAR Designator | Condition                     |
+| ---- | --------------- | ----------------------------- |
+| A/B  | Day             | Between 0530-2300 Local       |
+| N    | Night           | Between 2300-0530 Local, when RRO is **not** in use |
+| Q    | RRO             | Between 2300-0530 Local, when RRO is **in use**  |
+
 #### Sequencing
 Sequencing arrivals from the north into YSWS is a joint responsibility of the subsectors of GAH. Initial sequencing actions for aircraft from the north should be performed by GAH, with fine tuning and any holding required issued by DEN. 
     
