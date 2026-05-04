@@ -769,7 +769,7 @@ CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a
 #### Arrivals
 SY TCU must heads-up coordinate inbound IFR aircraft prior to **5 mins** from the boundary. CN ADC is responsible for issuing a clearance into the CN CTR and for coordination with SY TCU in the event of a missed approach (or on completion of airwork if applicable).
 
-SY TCU will **NOT** clear the aircraft for the approach.
+SY TCU will clear aircraft leave controlled airspace via the approach and will transfer aircraft to **CN ADC** prior to `SC2WI`.  **CN ADC** shall issue airways clearance on first contact in accordance with the table below.  
 
 !!! phraseology
     <span class="hotline">**SYC** -> **CN ADC**</span>: "via RNP W, HRP"  

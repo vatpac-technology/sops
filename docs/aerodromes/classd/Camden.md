@@ -54,7 +54,7 @@ The grass runways are outside of the manouevring area, and ATS service to the gl
 ### Instrument Approaches
 The only instrument approach at YSCN is the RNP W approach.  This approach commences within CTA before leaving controlled airspace on descent before entering the Camden control zone.  
 
-SY TCU will clear aircraft for the approach (as it commences OCTA) and will transfer aircraft to **CN ADC** prior to `SC2WI`.  **CN ADC** shall issue airways clearance on first contact in accordance with the table below.  
+SY TCU will clear aircraft leave controlled airspace via the approach and will transfer aircraft to **CN ADC** prior to `SC2WI`.  **CN ADC** shall issue airways clearance on first contact in accordance with the table below.  
 
 | Scenario | Clearance |
 | -------- | --------- |
