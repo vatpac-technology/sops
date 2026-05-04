@@ -52,7 +52,7 @@ Aircraft for **NZOH** shall be subsequently processed with the following trackin
 Aircraft shall be handed off to OCN assigned the **final instruction** in the tables above.
 
 ## WorldFlight Teams
-[WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
+[WorldFlight Teams](../../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
 
 <figure markdown>
 ![WF Team Highlight](../img/wfteam.png){ width="400" }
@@ -62,7 +62,7 @@ Aircraft shall be handed off to OCN assigned the **final instruction** in the ta
 ## Coordination
 ### SY ADC
 #### Auto Release
-Standard as per [YSSY Local Instructions](../../../../aerodromes/classc/Sydney/#auto-release), with the exception of auto-release being available for aircraft assigned the SY3 SID with the [Standard Assignable Heading](#sy3-departures)
+Standard as per [YSSY Local Instructions](../../../../../aerodromes/classc/Sydney/#auto-release), with the exception of auto-release being available for aircraft assigned the SY3 SID with the [Standard Assignable Heading](#sy3-departures)
 
 #### Departures Controller
 Departures Controller will be as per the following table:
@@ -84,7 +84,7 @@ Voiceless for all aircraft:
 All other aircraft going to OCN CTA will be **Heads-up** Coordinated.
 
 !!! tip
-    Ensure assigned headings are [annotated appropriately](../../../../client/annotations/#route-and-positions) in the aircraft's label data field, to provide situational awareness to receiving controllers
+    Ensure assigned headings are [annotated appropriately](../../../../../client/annotations/#route-and-positions) in the aircraft's label data field, to provide situational awareness to receiving controllers
 
 ### WOL
 WOL will have *No Restrictions or Requirements* on Event traffic. Aircraft transiting WOL airspace can be handed off directly to OCN.
