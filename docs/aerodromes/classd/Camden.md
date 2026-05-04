@@ -12,6 +12,9 @@
 | **Camden SMC**    | **Camden Ground**     | **121.900** | **CN_GND**    |
 | **Camden ATIS**   |                       | **125.100** | **YSCN_ATIS** |
 
+!!! warning "Important"
+    There are [additional restrictions](#night-operations) on controllers logging on as **CN ADC** and **CN SMC** between the hours of 23:00 and 06:00 Sydney local time.
+
 ## Airspace
 CN ADC is responsible for the Class D airspace in the CN CTR `SFC` to `A020`.
 
