@@ -166,7 +166,7 @@ Helicopters shall report ready to **BK ADC** with their departure intentions. In
 Circuits are conducted within the lateral confines of the fixed-wing circuit at `A007`, in the same direction as the current runway config. The termination point of the circuit is the Main Pad.
 
 !!! phraseology
-    **BK ADC:** "SUA, main pad, cleared stop and go"
+    **BK ADC:** "SUX, main pad, cleared stop and go"
 
 ## Runway Modes
 ### Preferred Runway Modes
