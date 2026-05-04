@@ -492,7 +492,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **BOREE A/P**                    | 11      | 8\^     | 7\^     | 11      | 14      | 14      |
     | **MEPIL**<br>*Feeder Fix: YAKKA* | <br>12  | <br>8\^ | <br>8\^ | <br>11  | <br>14  | <br>14  |
     | **MARLN**                        | 12      | 13      | 13      | 8\^     | 14      | 11      |
-    | **RIVET**                        | 7\^     | 14      | 12      | 12      | 11      | 14      |
+    | **RIVET**<br>*Feeder Fix: ENLAD* | <br>10  | <br>16  | <br>14  | <br>14  | <br>13  | <br>16  |
 
 === "Non-Jets"
     | STAR                             | RWY 07  | RWY 16L | RWY 16R | RWY 25  | RWY 34L | RWY 34R |
@@ -501,7 +501,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **BOREE A/P**                    | 15      | 10\^    | 10\^    | 14      | 18      | 18      |
     | **MEPIL**<br>*Feeder Fix: YAKKA* | <br>14  | <br>11\^| <br>11\^| <br>14  | <br>19  | <br>18  |
     | **MARLN**                        | 14      | 17      | 18      | 11\^    | 19      | 15      |
-    | **RIVET**                        | 10\^    | 18      | 16      | 16      | 15      | 18      |
+    | **RIVET**<br>*Feeder Fix: ENLAD* | <br>13  | <br>21  | <br>18  | <br>19  | <br>18  | <br>21  |
 
 ##### Corrections
 
@@ -514,6 +514,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 - Nil wind
 - The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except:
     - The feeder fix for the MEPIL STAR is **YAKKA**
+    - The feeder fix for the RIVET STAR is **ENLAD**
 - Aircraft for the *opposite* parallel runway (eg, AKMIR to 16L/34R) will overfly the field, then vectored to a mid-field downwind  
 - All aircraft are tracking via the ILS Initial Approach fix
 

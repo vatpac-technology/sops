@@ -441,10 +441,10 @@ export const flowData = {
                         "Reduced Speed": 8
                     }
                 },
-                "RIVET": {
+                "ENLAD": {
                     "RIVET STAR": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 13
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
                     }
                 }
             },
@@ -473,10 +473,10 @@ export const flowData = {
                         "Reduced Speed": 13
                     }
                 },
-                "RIVET": {
+                "ENLAD": {
                     "RIVET STAR": {
-                        "Normal Speed": 7,
-                        "Reduced Speed": 7
+                        "Normal Speed": 10,
+                        "Reduced Speed": 11
                     }
                 }
             },
@@ -505,10 +505,10 @@ export const flowData = {
                         "Reduced Speed": 14
                     }
                 },
-                "RIVET": {
+                "ENLAD": {
                     "RIVET STAR": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
                     }
                 }
             },
@@ -537,10 +537,10 @@ export const flowData = {
                         "Reduced Speed": 14
                     }
                 },
-                "RIVET": {
+                "ENLAD": {
                     "RIVET STAR": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 13
+                        "Normal Speed": 14,
+                        "Reduced Speed": 15
                     }
                 }
             },
@@ -569,10 +569,10 @@ export const flowData = {
                         "Reduced Speed": 15
                     }
                 },
-                "RIVET": {
+                "ENLAD": {
                     "RIVET STAR": {
-                        "Normal Speed": 11,
-                        "Reduced Speed": 12
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
                     }
                 }
             },
@@ -601,10 +601,10 @@ export const flowData = {
                         "Reduced Speed": 12
                     }
                 },
-                "RIVET": {
+                "ENLAD": {
                     "RIVET STAR": {
-                        "Normal Speed": 14,
-                        "Reduced Speed": 15
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
                     }
                 }
             }
@@ -635,10 +635,10 @@ export const flowData = {
                         "Reduced Speed": 11
                     }
                 },
-                "RIVET": {
+                "ENLAD": {
                     "RIVET STAR": {
-                        "Normal Speed": 16,
-                        "Reduced Speed": 17
+                        "Normal Speed": 19,
+                        "Reduced Speed": 20
                     }
                 }
             },
@@ -667,10 +667,10 @@ export const flowData = {
                         "Reduced Speed": 15
                     }
                 },
-                "RIVET": {
+                "ENLAD": {
                     "RIVET STAR": {
-                        "Normal Speed": 10,
-                        "Reduced Speed": 10
+                        "Normal Speed": 13,
+                        "Reduced Speed": 14
                     }
                 }
             },
@@ -699,10 +699,10 @@ export const flowData = {
                         "Reduced Speed": 18
                     }
                 },
-                "RIVET": {
+                "ENLAD": {
                     "RIVET STAR": {
-                        "Normal Speed": 18,
-                        "Reduced Speed": 19
+                        "Normal Speed": 21,
+                        "Reduced Speed": 22
                     }
                 }
             },
@@ -731,10 +731,10 @@ export const flowData = {
                         "Reduced Speed": 19
                     }
                 },
-                "RIVET": {
+                "ENLAD": {
                     "RIVET STAR": {
-                        "Normal Speed": 16,
-                        "Reduced Speed": 17
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
                     }
                 }
             },
@@ -763,10 +763,10 @@ export const flowData = {
                         "Reduced Speed": 20
                     }
                 },
-                "RIVET": {
+                "ENLAD": {
                     "RIVET STAR": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
+                        "Normal Speed": 18,
+                        "Reduced Speed": 19
                     }
                 }
             },
@@ -795,10 +795,10 @@ export const flowData = {
                         "Reduced Speed": 16
                     }
                 },
-                "RIVET": {
+                "ENLAD": {
                     "RIVET STAR": {
-                        "Normal Speed": 18,
-                        "Reduced Speed": 19
+                        "Normal Speed": 21,
+                        "Reduced Speed": 22
                     }
                 }
             }
