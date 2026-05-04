@@ -18,7 +18,7 @@
 ## Airspace
 <figure markdown>
 ![RI ADC Airspace](img/ri_adc.png){ width="700" }
-  <figcaption>WR ADC Airspace</figcaption>
+  <figcaption>RI ADC Airspace</figcaption>
 </figure>
 
 **RI ADC** is responsible for the Class C airspace within the **R479** [restricted area](../../../sua/#restricted-areas), `SFC` to `A015`.
