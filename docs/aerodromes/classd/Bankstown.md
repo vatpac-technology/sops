@@ -40,8 +40,10 @@ Refer to the [ATIS section](#runway-mode-formatting) for information on ATIS for
 ## Manoeuvring Area
 All apron areas and associated taxiways are *outside* the manoeuvring area. Each run up bay is inside the manoeuvring area and taxi instructions are required to proceed to them.
 
-!!! tip
-    The Manoeuvring Area chart can be found on the [CASA Website](https://www.casa.gov.au/bankstown-manoeuvring-area-map).
+<figure markdown>
+![YSBK Manoeuvring Area Responsibility](img/ysbksmcown.png){ width="500" }
+  <figcaption>YSBK Manoeuvring Area Responsibility</figcaption>
+</figure>
 
 ## Local Procedures
 ### Adjacent Runways
@@ -69,9 +71,11 @@ Controllers should allow at least one aircraft to become established on final pr
     **BK ADC:** "FWC, Traffic is a King Air, late right base assigned the middle runway"
 
 ### Holding Aircraft Between Runways
-As per YSBK ERSA, all aircraft should remain on Tower frequency when between Runways.
-The largest aircraft that can safely hold between Runways is a BE20 (King Air). All larger aircraft are considered to be occupying the runway behind until clear of all active Runways. 
-All helicopters are considered to be larger than a King Air for the purpose of this clause.
+All aircraft should remain on Tower frequency when between Runways.
+
+The largest aircraft that can safely hold between Runways is a BE20 (King Air). All larger aircraft are considered to be occupying the runway behind until clear of all active Runways.
+
+All helicopters are considered to be larger than a King Air for the purpose of separation.
 
 ## VFR Operations
 YSBK uses coded clearances provide standardised routing for VFR aircraft arriving and departing YSBK while transiting Class D SY TCU airspace.
