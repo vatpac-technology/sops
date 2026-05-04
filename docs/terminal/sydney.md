@@ -115,7 +115,7 @@ d) Departures assumes **SYC** and **SBA** airspace when the position is inactive
     Unless there are 2 separate Director controllers online (during a Major event like Panic Stations, for example), it is **not recommended** that the SFW and SFE positions are held by 2 separate controllers, due to the tendency of some less experienced pilots to overshoot the runway centreline
 
 #### Sydney Centre (SYC)
-SYC is responsible for the provision of FIS in Class G airspace within the SY TMA. It is a role normally performed by DEPs but can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordation requirements](#between-SYC-and-tcu) exist between SYC and other TCU positions.  
+SYC is responsible for the provision of FIS in Class G airspace within the SY TMA. It is a role normally performed by DEPs but can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordation requirements](#between-syc-and-tcu) exist between SYC and other TCU positions.  
 
 !!! example
     During a busy event, Sydney Departures is experiencing a high workload and wishes to delegate the SYC role to another TMA controller who isn't as busy.  SAN's sector is quiet, so they elect to perform the role.
@@ -722,12 +722,12 @@ The Standard Assignable level from SY ADC to SY TCU is:
 #### Airspace
 BK ADC is responsible for the Class D airspace in the BK CTR `SFC` to `A015`.
 
-Refer to [Reclassifications](#bk-ctr) for operations when BK ADC is offline.
+Refer to [Reclassifications](#reclassifications) for operations when BK ADC is offline.
 
 #### Departures
-[Next](../../../controller-skills/coordination/#next) coordination is **not** required for aircraft that are:   
+[Next](../../controller-skills/coordination/#next) coordination is **not** required for aircraft that are:   
 
-- VFR aircraft departing via a [coded clearance](#vfr-outbound-procedures)
+- VFR aircraft departing via a [coded clearance](../../aerodromes/classd/Bankstown/#vfr-outbound-procedures)
 
 All other aircraft require a 'Next' call to SBA.
 
@@ -751,7 +751,7 @@ VFR aircraft require a level readback.
 #### Airspace
 CN ADC is responsible for the Class D airspace in the CN CTR `SFC` to `A020`.
 
-Refer to [Reclassifications](#cn-ctr) for operations when CN ADC is offline.
+Refer to [Reclassifications](#reclassifications) for operations when CN ADC is offline.
 
 #### Departures
 CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a ready call, SY TCU will issue a traffic statement.
@@ -800,14 +800,14 @@ The controller assuming responsibility of **SMC** shall give [heads-up](../../..
     
 ### WS ADC
 #### ACD to SY TCU
-The controller assuming responsibility of **WS ACD** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to SWA prior to the issue of the following clearances: 
+The controller assuming responsibility of **WS ACD** shall give [heads-up](../../controller-skills/coordination/#airways-clearance) coordination to SWA prior to the issue of the following clearances: 
 
 - VFR departures
 - Aircraft with `ADES` YSSY, YSBK, YSCN, YSRI, or YSHW
 - Aircraft using a runway not on the ATIS
 
 ### Auto Release
-[Next](../../../controller-skills/coordination/#next) coordination is **not** required for aircraft that are:   
+[Next](../../controller-skills/coordination/#next) coordination is **not** required for aircraft that are:   
 
 - Departing from a runway nominated on the ATIS; and   
 - Assigned the standard assignable level; and  
@@ -817,8 +817,8 @@ All other aircraft require a 'Next' call to SWA.
 
 'Next' coordination is additionally required for:  
  
-- [After a go around](../../../controller-skills/coordination/#after-a-go-around), the next departure from that runway.
-- All aircraft during the [RRO](#reciprocal-runway-operations) runway mode.
+- [After a go around](../../controller-skills/coordination/#after-a-go-around), the next departure from that runway.
+- All aircraft during the [RRO](../../aerodromes/classc/Walton/#reciprocal-runway-operations) runway mode.
 
 The Standard Assignable level from WS ADC to SWA is: 
 

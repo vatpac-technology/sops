@@ -257,7 +257,7 @@ All other aircraft coming from GAH CTA must be **Heads-up** Coordinated to SY TC
 Voiceless for all aircraft:
 
 - Assigned the lower of `F280` or the `RFL`; and
-- that enter GAH airspace via any of the *Green Shaded Corridors* below, excluding [YWLM Arrivals](#ywlm-arrivals)
+- that enter GAH airspace via any of the *Green Shaded Corridors* below.
 
 <figure markdown>
 ![SY TCU Voiceless Coordination Corridors](../img/sytcucoordgate.png){ width="700" }

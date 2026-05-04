@@ -236,7 +236,7 @@ The following subsectors are responsible for issuing STAR clearance.
 Arrivals from other sectors should be issued with descent and tracking instructions appropriate for the runway configuration, following [coordination](#bn-tcubacbaa).
 
 ##### Runway 06 Arrivals
-When the [R638 Evans Head](#m661a-b-m641-and-r-638-a-c-evans-head) restricted areas are activated, aircraft must be assigned the UPSEL **XRAY** or **YANKEE** STARs, rather than the ALPHA or BRAVO. These prcocedures will ensure the aircraft remains clear of the [restricted area](../../../controller-skills/sua/#restricted-areas).
+When the [R638 Evans Head](#m661a-b-m641-and-r638a-c-evans-head) restricted areas are activated, aircraft must be assigned the UPSEL **XRAY** or **YANKEE** STARs, rather than the ALPHA or BRAVO. These prcocedures will ensure the aircraft remains clear of the [restricted area](../../../controller-skills/sua/#restricted-areas).
 
 #### Sequencing
 INL is responsible for initial sequencing for aircraft arriving from the south. NSA, SDY and GOL are responsible for initial sequencing for aircraft arriving from the north/east, with final sequencing actions are performed by GOL.
