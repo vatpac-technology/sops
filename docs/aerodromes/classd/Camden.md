@@ -19,7 +19,7 @@
 CN ADC is responsible for the Class D airspace in the CN CTR `SFC` to `A020`.
 
 <figure markdown>
-![CN ADC Airspace](img/YSCN_Vatsys.PNG){ width="700" }
+![CN ADC Airspace](img/cn_adc.PNG){ width="700" }
 <figcaption>CN ADC Airspace</figcaption>
 </figure>  
 
