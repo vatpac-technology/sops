@@ -23,7 +23,10 @@ The *recommended* division of duties for **2** controllers is:
     - SAN  
     - SDN  
     - SDS  
-    - SRI  
+    - SWA
+    - SRA
+    - SBA
+    - SYC
 
 The *recommended* division of duties for **3** controllers is:  
 - **Controller 1:**  
@@ -34,8 +37,10 @@ The *recommended* division of duties for **3** controllers is:
     - SFE  
 - **Controller 3:**  
     - SDN  
-    - SDS  
-    - SRI  
+    - SDS 
+    - SWA
+    - SRA
+    - SYC  
 
 Depending on the Runway Mode, additional portions of airspace may be released between controllers as required to help facilitate the orderly flow of traffic. For example, during the **16 PROPS** Mode, it would be beneficial for the Approach/Director controller, to assume responsibility for the SRA sector to facilitate aircraft positioning for a final for Runway 16L/R.
 
