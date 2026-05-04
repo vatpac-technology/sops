@@ -38,7 +38,7 @@ Glider operations are regularly conducted in VMC at YSCN, within the CN CTR.
 Gliders will use the grass runways adjacent to Runway 10/28 for all operations, with circuits performed on the dead side of the field.
 
 <figure markdown>
-![Camden Glider Operations Area](./img/cn_glider_operations.png){ width="700" }
+![Camden Glider Operations Area](./img/cn_glider_ops.png){ width="700" }
 <figcaption>Camden Glider Operations Area</figcaption>
 </figure>  
 
