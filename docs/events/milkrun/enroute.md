@@ -27,7 +27,7 @@ If applying speed control to multiple aircraft in a sequence, there are some han
 - If the lead aircraft is going **20kt IAS faster** than the following aircraft, the distance between them will **hold steady**
 
 ### Responsibilities
-**GUN** and **BIK** are responsible for Sequencing in to **YSSY**. **ELW** and **BLA** are responsible for sequencing in to **YMML**. Although it may seem helpful for other sectors to start to apply speed control to assist with the sequence, sometimes this may hinder natural overtakes from occurring, and create bigger gaps in the sequence, making the job harder for the next controller. It also may not take in to consideration aircraft inbound to the arrival airport from other directions, or that the next controller can create multiple arrival streams.
+**GUN** and **BIK** are responsible for Sequencing in to **YSSY**. **KAT** is responsible for sequencing in to **YSWS**. **ELW** and **BLA** are responsible for sequencing in to **YMML**. Although it may seem helpful for other sectors to start to apply speed control to assist with the sequence, sometimes this may hinder natural overtakes from occurring, and create bigger gaps in the sequence, making the job harder for the next controller. It also may not take in to consideration aircraft inbound to the arrival airport from other directions, or that the next controller can create multiple arrival streams.
 
 Best practice is to just focus on providing separation between aircraft (whether that be vertically, laterally, or longitudinally), and only start to apply sequencing techniques once the aircraft reaches the airspace of the responsible sector.
 
