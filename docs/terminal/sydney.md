@@ -325,7 +325,7 @@ Alternately, SY TCU may coordinate `F130` and "[no frequency requirements](../..
     <span class="hotline">**BIK** -> **SAS**</span>: "via RIVET, QLK1997, will be assigned `F250`"  
     <span class="hotline">**SAS** -> **BIK**</span>: "QLK1997, `F130` and no frequency requirements. My onwards with SDN."  
     <span class="hotline">**BIK** -> **SAS**</span>: "QLK1997, `F130`, yours with SDN."  
-    *BIK will put SAS C130 NFR in the label data, and hand the aircraft directly off to ARL(MLD).*
+    *BIK will put SAS C130 NFR in the label data, and hand the aircraft directly off to MNN(MLD).*
 
 ## Offline Towers
 ### BK ADC Offline
@@ -596,14 +596,14 @@ All other aircraft going to Enroute CTA must be **Heads-up** coordinated to the 
     <span class="hotline">**MNN** -> **SY TCU**</span>: "DAL40, concur right of route DCT GUTIV"
 
 ##### YWLM Arrivals
-Additionally, voiceless coordination exists to ARL(All) for aircraft:
+Additionally, voiceless coordination exists to MNN(All) for aircraft:
 
 - With ADES **YWLM**; and  
 - Assigned a STAR; and  
 - Assigned the lower of `F130` or the `RFL`
 
 !!! note
-    YWLM arrivals are handed off to ARL(MLD), not directly to WLM TCU, unless otherwise coordinated.
+    YWLM arrivals are handed off to MNN(MLD), not directly to WLM TCU, unless otherwise coordinated.
 
 #### Arrivals
 Voiceless for all aircraft:
