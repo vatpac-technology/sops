@@ -15,10 +15,10 @@
 | <span class="indented">Sydney Director West :material-information-outline:{ title="Non-standard position"}      | SFW | Sydney Director    | 126.100 | SY-D_APP |
 | <span class="indented">Sydney Director East :material-information-outline:{ title="Non-standard position"}      | SFE | Sydney Director    | 125.300 | SY-DE_APP|
 | <span class="indented">Sydney Radar :material-information-outline:{ title="Non-standard position"}              | SYC | Sydney Centre      | 124.550 | SY-R_DEP |
-| <span class="indented">Sydney Flow :material-information-outline:{ title="Non-standard position"}               | SFL |                    |         | SY_FMP   |
 | <span class="indented">Bankstown Approach :material-information-outline:{ title="Non-standard position"}        | SBA | Bankstown Approach | 125.800 | BK_APP   |
 | <span class="indented">Richmond Approach :material-information-outline:{ title="Non-standard position"}         | SRA | Richmond Approach  | 135.900 | RI_APP   |
 | <span class="indented">Nancy-Bird Walton Approach :material-information-outline:{ title="Non-standard position"} | SWA | Walton Approach   | 118.400 | WS_APP   |
+| <span class="indented">Sydney Flow :material-information-outline:{ title="Non-standard position"}               | SFL |                    |         | SY_FMP   |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
@@ -46,11 +46,6 @@ The vertical limits of the SY TCU are `SFC` to `F285`.
 
 ### Airspace Division
 The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW** and **SFE** change based on the Runway Mode. The airspace managed by **SBA**, **SWA**, **SRA**, and **SYC** is not runway mode dependent.
-
-<figure markdown>
-![SY TCU Side Profile](img/syside.png){ width="700" }
-  <figcaption>SY TCU Side Profile</figcaption>
-</figure>
 
 !!! note
     The following diagrams do not include non SY TCU areas of responsibility such as BK CTR or CN CTR
@@ -134,7 +129,7 @@ Key responsibilities in this airspace is the issuing of [Bankstown Coded Clearan
 The volume of airspace adjacent to the WS CTR overhead Camden (known as **SY CTA C10**) has a lower level that varies according to the time of day.
 
 <figure markdown>
-![Sydney CTA C10 Airspace](img/sba.png){ width="700" }
+![Sydney CTA C10 Airspace](img/sy_cta10.png){ width="700" }
   <figcaption>Sydney CTA C10 Airspace</figcaption>
 </figure>
 
