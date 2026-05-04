@@ -20,7 +20,7 @@
 BK ADC is responsible for the Class D airspace in the BK CTR `SFC` to `A015`.
 
 <figure markdown>
-![BK ADC Airspace](img/BKTWR.png){ width="700" }
+![BK ADC Airspace](img/bk_adc.png){ width="700" }
   <figcaption>BK ADC Airspace</figcaption>
 </figure>
 
