@@ -129,7 +129,7 @@ Key responsibilities in this airspace is the issuing of [Bankstown Coded Clearan
 The volume of airspace adjacent to the WS CTR overhead Camden (known as **SY CTA C10**) has a lower level that varies according to the time of day.
 
 <figure markdown>
-![Sydney CTA C10 Airspace](img/sy_cta10.png){ width="700" }
+![Sydney CTA C10 Airspace](img/sy_cta10.png){ width="400" }
   <figcaption>Sydney CTA C10 Airspace</figcaption>
 </figure>
 
