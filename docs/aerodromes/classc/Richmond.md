@@ -21,7 +21,7 @@
   <figcaption>WR ADC Airspace</figcaption>
 </figure>
 
-**WR ADC** is responsible for the Class C airspace within the **R479** [restricted area](../../../sua/#restricted-areas), `SFC` to `A015`.
+**RI ADC** is responsible for the Class C airspace within the **R479** [restricted area](../../../sua/#restricted-areas), `SFC` to `A015`.
 
 ### Restricted Area Activations
 When **RI ADC** is online, the **R479** restricted area `SFC` to `A015` is [activated](../../../sua/#activation-of-sua) by default.
@@ -35,7 +35,7 @@ This gives the parent controller sufficient time to assess the request, make nec
 
 ## Local Procedures
 ### Training Areas
-There are three training areas located within R470, used for both civil and military operations.
+There are three training areas located within R479, used for both civil and military operations.
 
 !!! warning "Important"
     Operations above `A015` may require an airspace release from **SY TCU**. Due to published departure procedures from YSSY, levels above `A040` may not be available.
