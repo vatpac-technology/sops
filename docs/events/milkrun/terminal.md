@@ -37,12 +37,7 @@ The *recommended* division of duties for **3** controllers is:
     - SDS  
     - SRI  
 
-Depending on the Runway Mode, additional portions of airspace may be released between controllers as required to help facilitate the orderly flow of traffic. For example, during the **16 PROPS** Mode, it would be beneficial for SDN to release this portion of airspace to the Approach/Director controller, to facilitate aircraft positioning for a final for Runway 16L/R.
-
-<figure markdown>
-![SDN West Release](./img/16sdnrls.png){ width="700" }
-  <figcaption>SDN West Release</figcaption>
-</figure>
+Depending on the Runway Mode, additional portions of airspace may be released between controllers as required to help facilitate the orderly flow of traffic. For example, during the **16 PROPS** Mode, it would be beneficial for the Approach/Director controller, to assume responsibility for the SRA sector to facilitate aircraft positioning for a final for Runway 16L/R.
 
 ## Go-arounds
 When there is a go-around in the middle of a bumper-to-bumper sequence, a fair bit of work needs to be done. Obviously there is the additional work of having to vector the aircraft that has gone around back for an approach, but also trying to find a gap for them in the sequence, where none such gap currently exists. This is an important time to use coordination, and get the Enroute controller to create one for you.

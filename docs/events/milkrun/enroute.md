@@ -41,18 +41,8 @@ In order to segregate aircraft inbound to different parallel runways, [Amended r
 Aircraft can be rerouted on first contact via `MAKKA ANNKY AKMIR`, then assigned the **AKMIR STAR** for 16L/34R.
 
 <figure markdown>
-![Original Flight Planned Route](./img/akmir1.png){ width="700" }
-  <figcaption>Original Flight Planned Route</figcaption>
-</figure>
-
-<figure markdown>
-![Graphical Reroute via AKMIR](./img/akmir2.png){ width="700" }
-  <figcaption>Graphical Reroute via AKMIR</figcaption>
-</figure>
-
-<figure markdown>
-![Final routing with Assigned STAR](./img/akmir3.png){ width="700" }
-  <figcaption>Final routing with Assigned STAR</figcaption>
+![AKMIR Alternative Routing](./img/akmir1.png){ width="700" }
+  <figcaption>AKMIR Alternative Routing (Broken Line)</figcaption>
 </figure>
 
 Although this action may be beneficial to the arrival flow for both Enroute and Approach, it goes against the [Standard runway and STAR assignment](../../../enroute/melbourne/GUN/#star-assignment_1) for YSSY Arrivals from the South-west, so must still be coordinated to SAS or SFL (if online)
