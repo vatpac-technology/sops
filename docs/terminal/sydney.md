@@ -631,6 +631,12 @@ Any aircraft not meeting this requirement, including aircraft who have been issu
     <span class="hotline">**SWA** -> **SDS**</span>: "BNZ99, with your concurrence, will be assigned F150, for my separation with QFA1"  
     <span class="hotline">**SDS** -> **SWA**</span>: "BNZ99, concur F150"
     
+!!! tip
+    Aircraft arriving **YSWS** from the west will generally not require descend lower than `A090` before reaching SWA airspace. As this is the voiceless coordination altitude between enroute and SY TCU, SY APP/DEP will rarely need to issue further descent to these aircraft.
+    
+!!! warning "Important"
+    The SIDs and STARs at YSSY and YSWS are tightly interlaced and have complex altitude restrictions designed to ensure mutual separation. Deviating aircraft from a SID/STAR, particularly in the west of the TMA, will dramatically increase controller workload and increase the likelihood of conflicts.
+    
 #### APP / DIR
 Voiceless coordination is in place between APP and DIR for aircraft that are assigned `A060`.
 
