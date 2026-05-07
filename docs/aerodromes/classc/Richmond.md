@@ -109,7 +109,7 @@ The Standard Assignable Level from **RI ADC** to **SY TCU** is:
 
 | Aircraft | Level |
 | -------- | ----- |
-| All | The lower of `A050` and `RFL` |
+| All | The lower of `A060` and `RFL` |
 
 ### Departures Controller
 When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate enroute controller or advisory frequency shall be issued.

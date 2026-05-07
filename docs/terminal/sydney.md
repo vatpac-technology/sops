@@ -791,7 +791,7 @@ SY TCU will clear aircraft leave controlled airspace via the approach and will t
     <span class="hotline">**SRA** -> **RI ADC**</span>: "TROJ57, unrestricted"  
     <span class="hotline">**RI ADC** -> **SRA**</span>: "TROJ57"  
 
-The Standard Assignable Level from **RI ADC** to **SY TCU** is the lower of `A050` or `RFL`.
+The Standard Assignable Level from **RI ADC** to **SY TCU** is the lower of `A060` or `RFL`.
 
 ### SMC to TCU
 The controller assuming responsibility of **SMC** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to SRA (or the enroute controller responsible for the SY TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
