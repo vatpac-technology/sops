@@ -16,10 +16,10 @@ The ACD role will perform as normal. Expect a handful of departures who want to 
 
 ## Surface Movement Control (SMC)
 ### OzStrips
-With two SMC controllers online, utilise [strip bay bars](../../../../client/towerstrips/#multiple-adcsmc-positions) to keep the **Taxi** and **Holding Point** strip bays organised.
+With two SMC controllers online, utilise [strip bay bars](../../../../../client/towerstrips/#multiple-adcsmc-positions) to keep the **Taxi** and **Holding Point** strip bays organised.
 
 ### Departures
-It is unlikely that Coordinator will be open, so normal outbound taxi procedures apply. If Coordinator is online, refer to the VATPAC [recommended workflow](../../../../client/towerstrips/#recommended-workflow).
+It is unlikely that Coordinator will be open, so normal outbound taxi procedures apply. If Coordinator is online, refer to the VATPAC [recommended workflow](../../../../../client/towerstrips/#workflow).
 
 ### Separation Assurance
 Both SMC positions must be careful to ensure separation is assured at all times, particularly through the complex taxiway intersections at Sydney.
@@ -37,7 +37,7 @@ If a crossing is required, coordinate *early* with ADC, who may obtain assurance
 
 ## Tower Control (ADC)
 ### OzStrips
-With two SMC controllers online, utilise [strip bay bars](../../../../client/towerstrips/#multiple-adcsmc-positions) to keep the **Holding Point** and **Runway** strip bays organised.
+With two SMC controllers online, utilise [strip bay bars](../../../../../client/towerstrips/#multiple-adcsmc-positions) to keep the **Holding Point** and **Runway** strip bays organised.
 
 ### Runway Vacating Instructions
 To avoid creating conflict for SMC, ADC shall instruct all arriving aircraft to vacate via the following exits when issued a landing clearance:
@@ -63,4 +63,4 @@ While runway crossings will be minimised, should a crossing be required, instruc
 If any aircraft need to depart during the arrival window, ensure that maximum efficiency is achieved by instructing them to line up as soon as the landing aircraft has cleared the threshold. Avoid go arounds at all costs, and if necessary, delay the departing aircraft where a gap between two arrivals is too tight.
 
 ## Coordination
-Standard as per [YSSY Local Instructions](../../../../aerodromes/classc/Sydney/#auto-release).
+Standard as per [YSSY Local Instructions](../../../../../aerodromes/classc/Sydney/#auto-release).

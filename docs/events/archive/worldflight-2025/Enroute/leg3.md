@@ -11,7 +11,7 @@ ARA will be responsible for the ARA subsector **only**. The North-east portion o
 ARA shall ensure adequate vertical separation exists between nearby aircraft and may establish basic speed control to avoid any overtaking occurring.
 
 ## WorldFlight Teams
-[WorldFlight Teams](../../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
+WorldFlight Teams will be highlighted by default and should receive priority at all stages of flight.
 
 <figure markdown>
 ![WF Team Highlight](../img/wfteam.png){ width="400" }
@@ -20,7 +20,7 @@ ARA shall ensure adequate vertical separation exists between nearby aircraft and
 
 ## Coordination
 ### DAE to ARA
-Standard as per [ISA Local Instructions](../../../../../../../../enroute/Brisbane Centre/ISA).
+Standard as per [ISA Local Instructions](../../../../../enroute/brisbane/ISA).
 
 !!! note
     All departing aircraft will be handled by DAE, regardless of duty runway.
@@ -34,7 +34,7 @@ When ARA is online, the highlighted portion of TRT is released to ARA to facilit
 </figure>
 
 ### ARA to WAAF CTR
-As per [standard ISA coordination procedures](../../../../../../../../enroute/Brisbane Centre/ISA/#international-waaf), all aircraft should be **Heads-up Coordinated** to WAAF CTR prior to **30 mins** from boundary.
+As per [standard ISA coordination procedures](../../../../../enroute/brisbane/ISA/#international-waaf), all aircraft should be **Heads-up Coordinated** to WAAF CTR prior to **30 mins** from boundary.
 
 !!! tip
     It may be prudent (especially if they are using vatSys) to set up a Voiceless Coordination Agreement with WAAF CTR, in order to reduce workload for both controllers.
