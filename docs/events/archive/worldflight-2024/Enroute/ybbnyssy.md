@@ -61,7 +61,7 @@ Changes to Route and CFL are **permitted** within **50nm** of the boundary, with
 Aircraft must be tracking via **BOREE** or **MEPIL**.
 
 ### CNK to SAS/SAN
-Standard as per [ARL Local Instructions](../../../../../../enroute/Brisbane Centre/ARL/#arrivalsoverfliers).
+Standard as per [ARL Local Instructions](../../../../../enroute/brisbane/ARL/#arrivalsoverfliers).
 
 **BOREE** Arrivals will be handed off to SAS.  
 **MEPIL** Arrivals will be handed off to SAN.  

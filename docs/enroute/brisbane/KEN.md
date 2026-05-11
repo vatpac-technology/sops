@@ -104,10 +104,10 @@ TL TCU must [give heads up coordination](../../../terminal/townsville/#sua-in-en
     <span class="hotline">**TBP** -> **TLA**</span>: "PSSM31, expect activation of M742 `A040-F240` at 0300 until 0500."   
     <span class="hotline">**TLA** -> **TBP**</span>: "PSSM31."   
     
-Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../sua/#ad-hoc-activations).
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../controller-skills/sua/#ad-hoc-activations).
 
 #### M742 Tiger
-The M742 Tiger [MOA](../../../controller-skills/sua/#military-operating-areas) is located off the coast, `A040-F240`, spanning both TL TCU and KEN(TBP) airspace. Activation of the M742 MOA is a [shared responsibility](../../../controller-skills/sua/#activation-of-SUA), and both TAL and KEN(TBP) must coordinate before activation.
+The M742 Tiger [MOA](../../../controller-skills/sua/#military-operating-areas) is located off the coast, `A040-F240`, spanning both TL TCU and KEN(TBP) airspace. Activation of the M742 MOA is a [shared responsibility](../../../controller-skills/sua/#activation-of-sua), and both TAL and KEN(TBP) must coordinate before activation.
 
 Aircraft will generally enter and exit the MOA via the appropriate [military gate](../../../terminal/townsville/#military-gates).
 
@@ -128,7 +128,7 @@ When activated the restricted area disrupts traffic on the **J184**, **W152**, *
 | Z51            | `... W841 DOTTE DCT KADMU ...` |
 
 !!! note
-	Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../../sua/#separation-from-sua) laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../../sua/#controlled-airspace) clearance with all parts of the SUA.
+	Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../../controller-skills/sua/#separation-from-sua) laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../../controller-skills/sua/#controlled-airspace) clearance with all parts of the SUA.
 
 #### R736 & R739 Townsville (Star)
 The R736 and R739 Townsville (Star) [restricted areas](../../../controller-skills/sua/#restricted-areas) straddle the border of the TL TCU and KEN(TBP) airspace. 

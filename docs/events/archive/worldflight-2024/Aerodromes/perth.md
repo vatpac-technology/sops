@@ -14,7 +14,7 @@
 Any other Runway Mode may **only** be used with approval from the Events Coordinator.
 
 ## Workload Management
-Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../client/towerstrips/#recommended-workflow).
+Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../../client/towerstrips/#workflow).
 
 ### 24A21D
 Simultaneous Independent Crossing Runway Operations will be in use, allowing aircraft to depart from Runway 21 without conflicting with Runway 24 arrivals.
@@ -50,7 +50,7 @@ If an aircraft has filed an *incorrect* route and you need to give an amended cl
     **PH ACD:** *"AMENDED ROUTE CLEARANCE. CLEARED TO WIII VIA AVNEX Y15 ESDEG Q587 IGLUT T58 SAPDA A585 IPKON IPKO2G. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
 
 ### WorldFlight Teams
-[WorldFlight Teams](../../../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
+WorldFlight Teams shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
 
 !!! tip
     The [vatSys Events Plugin](https://github.com/badvectors/EventsPlugin){target=new} will also highlight WF Teams, as shown below. Click on the link to install it, or alternatively, use the [Plugin Manager](https://github.com/badvectors/PluginManager){target=new}
@@ -103,7 +103,7 @@ SMC East and West will be responsible for delaying aircraft's pushback requests,
 If there are more than **5** aircraft in the queue at the Holding Point for *any runway*, do not approve any more pushback requests.
 
 #### OzStrips
-All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../../../client/towerstrips/#recommended-workflow) for OzStrips.
+All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../../../../client/towerstrips/#workflow) for OzStrips.
 
 Ensure the Queue function is used to actively to keep track of the order of requests.
 
@@ -127,7 +127,7 @@ Aircraft that cannot accept Intersection **P** for departure will be assigned a 
 #### Manoeuvring Area Responsibility
 Aircraft from the Western Apron shall be taxied via **D** and **N**.
 
-As per the [YPPH Aerodrome SOPs](../../../../../../aerodromes/classc/Perth/#manoeuvring-area-responsibility), ADC is responsible for the taxiways between the thresholds of Runway 21 and 24.
+As per the [YPPH Aerodrome SOPs](../../../../../../aerodromes/classc/Perth/#manuevering-area-responsibility), ADC is responsible for the taxiways between the thresholds of Runway 21 and 24.
 
 Instead of SMC coordinating runway crossings with ADC, aircraft taxiing via **N** and **C** shall be instructed to **contact ADC** at Holding Point **D**, where ADC will give them taxi instructions on their frequency. No coordination is required between SMC and ADC for this.
 
@@ -172,7 +172,7 @@ Full Length Departures have **equal priority** to aircraft that are compliant wi
 #### Manoeuvring Area Responsibility
 Aircraft from the Western Apron shall be taxied via **D** and **N**.
 
-As per the [YPPH Aerodrome SOPs](../../../../../../aerodromes/classc/Perth/#manoeuvring-area-responsibility), ADC is responsible for the taxiways between the thresholds of Runway 21 and 24.
+As per the [YPPH Aerodrome SOPs](../../../../../../aerodromes/classc/Perth/#manuevering-area-responsibility), ADC is responsible for the taxiways between the thresholds of Runway 21 and 24.
 
 Instead of SMC coordinating runway crossings with ADC, aircraft taxiing via **N** and **C** shall be instructed to **contact ADC** at Holding Point **D**, where ADC will give them taxi instructions on their frequency. No coordination is required between SMC and ADC for this.
 

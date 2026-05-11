@@ -15,7 +15,7 @@ An additional Non-Standard position for Sydney ACD will be used
 **16 PROPS** and **34 PROPS** are the available Runway Modes, with equal preference. Any other Runway Mode may **only** be used with approval from the Events Coordinator.
 
 ## Workload Management
-Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../../client/towerstrips/#recommended-workflow). 
+Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../../client/towerstrips/#workflow). 
 
 !!! tip
     The following OzStrips [keyboard shortcuts](../../../../client/towerstrips.md#keyboard-shortcuts) may assist controllers managing busy frequencies:
@@ -54,7 +54,7 @@ If an aircraft has filed an *incorrect* route and you need to give an amended cl
     *AMENDED ROUTE CLEARANCE. CLEARED TO NZAA VIA EVONN L521 LUNBI DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC.*
 
 ### WorldFlight Teams
-[WorldFlight Teams](../../../../../#official-team-callsigns) will be highlighted by OzStrips and should receive priority at all stages of flight.
+WorldFlight Teams will be highlighted by OzStrips and should receive priority at all stages of flight.
 
 <figure markdown>
 ![WF Team Highlight in OzStrips](../img/wfteamozstrips.png){ width="500" }
@@ -126,7 +126,7 @@ Coordinator operations shall be conducted in accordance with the Sydney Aerodrom
     Official WorldFlight teams should be afforded priority when requesting pushback or taxi (if no pushback required), and placed ahead of other non-official aircraft.
 
 ### OzStrips
-All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../../../../client/towerstrips/#recommended-workflow) for OzStrips.
+All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../../../../client/towerstrips/#workflow) for OzStrips.
 
 Coordinator must place a `STANDBY FOR GROUND EAST` & `STANDBY FOR GROUND WEST` bar in the **Cleared Bay Queue** and queue any aircraft who request pushback or taxi (if no pushback required) in the Cleared Bay.
 
