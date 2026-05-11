@@ -67,77 +67,77 @@ YSWS uses four different SID designators to differentiate between different vari
 	=== "Day"
 		| Type    | Via      | SID           |
 		| ------- | ------   | ------------- |
-		| Jet     | BENBU    | **BENBU** SID |
-		| Jet     | CAWLY<br>DIPSO<br>EVONN<br>NOBAR<br>OLSEM<br>OPTIC | **TESAT** SID, Relevant Transition |
-		| Jet     | PKS VOR  | **PKS** SID   |
-		| Jet     | TEEVE    | **TEEVE** SID |
-		| Jet     | LEECE<br>NWA NDB | **TONTO** SID, Relevant Transition | 
+		| Jet     | BENBU    | **BENBU D** SID |
+		| Jet     | CAWLY<br>DIPSO<br>EVONN<br>NOBAR<br>OLSEM<br>OPTIC | **TESAT D** SID, Relevant Transition |
+		| Jet     | PKS VOR  | **PKS D** SID   |
+		| Jet     | TEEVE    | **TEEVE D** SID |
+		| Jet     | LEECE<br>NWA NDB | **TONTO D** SID, Relevant Transition | 
 		| Jet     | All others | RADAR SID |
-		| Non-Jet | DIPSO<br>KAMBA<br>NOBAR | **KAMBA** SID, Relevant Transition |
-		| Non-Jet | North and East | **ISDIT** SID |
-		| Non-Jet | South and West | **ADPAV** SID |
+		| Non-Jet | DIPSO<br>KAMBA<br>NOBAR | **KAMBA D** SID, Relevant Transition |
+		| Non-Jet | North and East | **ISDIT D** SID |
+		| Non-Jet | South and West | **ADPAV D** SID |
 		
 	=== "Hot/Heavy"
 		| Type    | Via      | SID           |
 		| ------- | ------   | ------------- |
-		| Jet     | LEECE<br>NWA NDB | **TONTO** SID, Relevant Transition |
+		| Jet     | LEECE<br>NWA NDB | **TONTO H** SID, Relevant Transition |
 		
 
 	=== "Night"
 		| Type    | Via      | SID           |
 		| ------- | ------   | ------------- |
-		| Jet     | BENBU    | **BENBU** SID |
-		| Jet     | CAWLY<br>EVONN<br>OPTIC | **ENDEV** SID, Relevant Transition |
-		| Jet     | DIPSO<br>EVONN<br>NOBAR<br>OPTIC | **PASGO** SID, Relevant Transition |
-		| Jet     | EXETA<br>LEECE<br>NWA NDB | **REDAS** SID, Relevant Transition |
-		| Jet     | TEEVE    | **TEEVE** SID |
-		| Jet     | PKS VOR  | **TEEVE** SID, Relevant Transition |
+		| Jet     | BENBU    | **BENBU N** SID |
+		| Jet     | CAWLY<br>EVONN<br>OPTIC | **ENDEV N** SID, Relevant Transition |
+		| Jet     | DIPSO<br>EVONN<br>NOBAR<br>OPTIC | **PASGO N** SID, Relevant Transition |
+		| Jet     | EXETA<br>LEECE<br>NWA NDB | **REDAS N** SID, Relevant Transition |
+		| Jet     | TEEVE    | **TEEVE N** SID |
+		| Jet     | PKS VOR  | **TEEVE N** SID, Relevant Transition |
 		| Jet     | All others | RADAR SID |
-		| Non-Jet | KAMBA    | **KAMBA** SID |
+		| Non-Jet | KAMBA    | **KAMBA N** SID |
 		| Non-Jet | All others | As per Jets |
 
 === "23"
 	=== "Day"
 		| Type    | Via      | SID           |
 		| ------- | ------   | ------------- |
-		| Jet     | BENBU    | **BENBU** SID |
+		| Jet     | BENBU    | **BENBU D** SID |
 		| Jet     | CAWLY<br>DIPSO<br>EVONN<br>NOBAR<br>OLSEM<br>OPTIC | **TESAT** SID, Relevant Transition |
-		| Jet     | PKS VOR  | **PKS** SID   |
-		| Jet     | TEEVE    | **TEEVE** SID |
-		| Jet     | LEECE<br>NWA NDB | **TONTO** SID, Relevant Transition | 
+		| Jet     | PKS VOR  | **PKS D** SID   |
+		| Jet     | TEEVE    | **TEEVE D** SID |
+		| Jet     | LEECE<br>NWA NDB | **TONTO D** SID, Relevant Transition | 
 		| Jet     | All others | RADAR SID |
-		| Non-Jet | EXETA<br>NWA NDB<br>WOL NDB | **REGER** SID, Relevant Transition |
-		| Non-Jet | North and East | **LEKID** SID |
+		| Non-Jet | EXETA<br>NWA NDB<br>WOL NDB | **REGER D** SID, Relevant Transition |
+		| Non-Jet | North and East | **LEKID D** SID |
 		
 		
 	=== "Hot/Heavy"
 		| Type    | Via      | SID           |
 		| ------- | ------   | ------------- |
-		| Jet     | LEECE<br>NWA NDB | **MELIT** SID, Relevant Transition |
+		| Jet     | LEECE<br>NWA NDB | **MELIT H** SID, Relevant Transition |
 
 
 	=== "Night"
 		| Type    | Via      | SID           |
 		| ------- | ------   | ------------- |
-		| Jet     | BENBU    | **BENBU** SID |
-		| Jet     | CAWLY<br>EVONN<br>OPTIC | **ENDEV** SID, Relevant Transition |
-		| Jet     | DIPSO<br>NOBAR<br>OPTIC | **PASGO** SID, Relevant Transition |
-		| Jet     | EXETA<br>LEECE<br>NWA NDB | **REDAS** SID, Relevant Transition |
-		| Jet     | TEEVE    | **TEEVE** SID |
-		| Jet     | PKS VOR  | **TEEVE** SID, Relevant Transition |
-		| Jet     | All others | **REDAS SID**, RADAR Transition |
-		| Non-Jet | KAMBA    | **KAMBA** SID, Relevant Transition |
+		| Jet     | BENBU    | **BENBU N** SID |
+		| Jet     | CAWLY<br>EVONN<br>OPTIC | **ENDEV N** SID, Relevant Transition |
+		| Jet     | DIPSO<br>NOBAR<br>OPTIC | **PASGO N** SID, Relevant Transition |
+		| Jet     | EXETA<br>LEECE<br>NWA NDB | **REDAS N** SID, Relevant Transition |
+		| Jet     | TEEVE    | **TEEVE N** SID |
+		| Jet     | PKS VOR  | **TEEVE N** SID, Relevant Transition |
+		| Jet     | All others | **REDAS N** SID, RADAR Transition |
+		| Non-Jet | KAMBA    | **KAMBA N** SID, Relevant Transition |
 		| Non-Jet | All others | As per Jets |
 		
 	=== "RRO"
 		| Type    | Via      | SID           |
 		| ------- | ------   | ------------- |
-		| Jet     | BENBU    | **BENBU** SID |
-		| Jet     | CAWLY<br>DISPO<br>EVONN<br>NOBAR<br>OLSEM<br>OPTIC | **ENDEV** SID, Relevant Transition |
-		| Jet     | EXETA<br>LEECE<br>NWA NDB | **TONTO** SID, Relevant Transition |
-		| Jet     | TEEVE    | **TEEVE** SID |
-		| Jet     | PKS VOR  | **TEEVE** SID, Relevant Transition |
-		| Non-Jet | KAMBA    | **KAMBA** SID |
+		| Jet     | BENBU    | **BENBU Q** SID |
+		| Jet     | CAWLY<br>DISPO<br>EVONN<br>NOBAR<br>OLSEM<br>OPTIC | **ENDEV Q** SID, Relevant Transition |
+		| Jet     | EXETA<br>LEECE<br>NWA NDB | **TONTO Q** SID, Relevant Transition |
+		| Jet     | TEEVE    | **TEEVE Q** SID |
+		| Jet     | PKS VOR  | **TEEVE Q** SID, Relevant Transition |
+		| Non-Jet | KAMBA    | **KAMBA Q** SID |
 		| Non-Jet | All others | As per Jets |
 
 
