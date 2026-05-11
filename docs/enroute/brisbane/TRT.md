@@ -31,7 +31,7 @@ TRT is responsible for **TRS**, **ASH**, and **KIY**,  when they are offline.
 
 ### Reclassifications
 === "BRM CTR"
-	When **BRM ADC** is offline, BRM CTR (Class D/E `SFC` to `A055`) reverts to Class G, and is administered by ASH. Alternatively, ASH may provide a [top-down procedural service](../../../aerodromes/Broome) if they wish.
+	When **BRM ADC** is offline, BRM CTR (Class D/E `SFC` to `A055`) reverts to Class G, and is administered by ASH. Alternatively, ASH may provide a [top-down procedural service](../../../aerodromes/procedural/Broome/) if they wish.
 
 	!!! tip
 		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
@@ -95,7 +95,7 @@ Each TCU must [give heads up coordination](../../../controller-skills/coordinati
     <span class="hotline">**TRS** -> **TNA**</span>: "CLAS35, expect activation of R225D `A095-F600` at 0300 until 0500."   
     <span class="hotline">**TNA** -> **TRS**</span>: "CLAS35."   
 
-Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../sua/#ad-hoc-activations).
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../controller-skills/sua/#ad-hoc-activations).
 
 <!-- #### M240A-F Darwin
 
@@ -104,12 +104,12 @@ Non-participating aircraft intending to transit an activated SUA should be rerou
 #### Bradshaw Field Training Area SUA
 The Bradshaw Field Training Area is contained within three volumes of SUA: R268 Koolendong, R269 Angalarri North, and R270 Angalarri South; all `SFC-NOTAM`. The area is used for extensive army training and operations based at Nackaroo Airfield (YNKR). R269 and R270 are wholly located in the TRS subsector, while R268 extends slightly into KIY.
 
-When all three restricted areas are activated, they are referred to collectively as *'Bradshaw'*. Aircraft intending to operate in adjoining SUA should be notified *'[Bradshaw Active](../../terminal/tindal/#bradshaw-delamere-active)'* with their clearance.
+When all three restricted areas are activated, they are referred to collectively as *'Bradshaw'*. Aircraft intending to operate in adjoining SUA should be notified *'[Bradshaw Active](../../../terminal/tindal/#bradshawdelamere-active)'* with their clearance.
 
 #### Delamere Air Weapons Range SUA
 The Delamere Air Weapons Range is contained within three volumes of SUA: R211 Delamere (`SFC-A095`), R212 Delamere (`SFC-A095`), and R232 Delamere (`SFC-NOTAM`). The range is used for a variety of bombing and live-firing training exercises, and is wholly located within the TRS subsector.
 
-When all three restricted areas are activated, they are referred to collectively as *'Delamere'*. Aircraft intending to operate in adjoining SUA should be notified *'[Delamere Active](../../terminal/tindal/#bradshaw-delamere-active)'* with their clearance.
+When all three restricted areas are activated, they are referred to collectively as *'Delamere'*. Aircraft intending to operate in adjoining SUA should be notified *'[Delamere Active](../../../terminal/tindal/#bradshawdelamere-active)'* with their clearance.
 
 #### R225A-F and R250 Tindal
 The R225A-F and R250 Tindal restricted areas form the western part of the Tindal Flying Training Area, and are located entirely within the TRS subsector. The areas are used for a variety of training purposes, including supersonic flight.

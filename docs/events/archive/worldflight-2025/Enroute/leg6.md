@@ -94,7 +94,7 @@ Most official team aircraft will depart from YBCG and track via **WLM** to facil
 !!! warning "Important"
     The YBCG to WLM track approximates a northbound airway. Be vigilant for any aircraft departing YSSY to the north who may conflict with the southbound aircraft.
 
-[WorldFlight Teams](../../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
+WorldFlight Teams will be highlighted by default and should receive priority at all stages of flight.
 
 <figure markdown>
 ![WF Team Highlight](../img/wfteam.png){ width="400" }
@@ -129,7 +129,7 @@ Changes to Route and CFL are **permitted** within **50nm** of the boundary, with
 Aircraft must be tracking via **BOREE**.
 
 ### CNK/OCN to SAS/SAN
-Standard as per [ARL Local Instructions](../../../../../../../../enroute/Brisbane Centre/ARL/#arrivalsoverfliers).
+Standard as per [ARL Local Instructions](../../../../../enroute/brisbane/ARL/#arrivalsoverfliers).
 
 **BOREE** Arrivals will be handed off to SAN.  
 **MARLN** Arrivals will be handed off to SAS.  

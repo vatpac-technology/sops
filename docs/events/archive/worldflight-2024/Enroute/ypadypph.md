@@ -80,7 +80,7 @@ Aircraft must be tracking via **MALUP** or **KABLI**, with the exception of:
 **Runway 21** Arrivals may be assigned a Heading **North** of the **MALUP-KABLI** track, without coordination.
 
 ### PIY to PHA
-Standard as per [PIY Local Instructions](../../../../../../enroute/Melbourne Centre/PIY/#arrivalsoverfliers), with the exception of:
+Standard as per PIY Local Instructions, with the exception of:
 
 - During the [24A21D Runway Mode](#24a21d), arrivals assigned **Runway 21** may be handed off to PHA on a **Heading** *north* of the Runway 24 arrivals, without coordination.
 

@@ -69,7 +69,7 @@ Ensure no coordination is ambiguous in its meaning. Not all coordination can be 
 This is most useful when controllers are coordinating to multiple lateral positions, or where the controller "in the middle" of the chain of coordination has [no frequency requirements](#no-frequency-requirements-nfr).
 
 !!! example
-    You are controlling SDS and an aircraft has requested track shortening to a waypoint in WOL airspace. You can see that the requested track shortening would result in the aircraft passing through SAS airspace and exiting the TCU outside the Sydney [voiceless coordination corridors](../terminal/sydney/#departures).   
+    You are controlling SDS and an aircraft has requested track shortening to a waypoint in WOL airspace. You can see that the requested track shortening would result in the aircraft passing through SAS airspace and exiting the TCU outside the Sydney [voiceless coordination corridors](../../terminal/sydney/#departures).   
 	
 	Ordinarily, SDS would be responsible for coordination with SAS, while SAS is responsible for coordination with WOL. With *onwards coordination*, SDS can coordinate with WOL on SAS's behalf.
 
@@ -260,7 +260,7 @@ Remove the "C-Prompt" once jurisdiction of the aircraft has been handed off, and
 ## No Frequency Requirements (NFR)
 Occasionally, aircraft may clip small parts of a sector's airspace on their planned route. If an aircraft only enters someone's airspace for a small distance, there is usually no need for them to talk to that controller. In this instance, a controller may coordinate an aircraft to have "No Frequency Requirements" with another controller, or vice versa. This shall also be supplemented by the nomination of a restriction, or lack thereof. See below:
 
-Source: [Annotations](../../controller-skills/annotations)
+Source: [Annotations](../../client/annotations/)
 
 | Label Data / Global Ops | Meaning | Note |
 | ---- | ----------- | --- |
