@@ -101,7 +101,7 @@ YSWS uses four different SID designators to differentiate between different vari
 		| Type    | Via      | SID           |
 		| ------- | ------   | ------------- |
 		| Jet     | BENBU    | **BENBU D** SID |
-		| Jet     | CAWLY<br>DIPSO<br>EVONN<br>NOBAR<br>OLSEM<br>OPTIC | **TESAT** SID, Relevant Transition |
+		| Jet     | CAWLY<br>DIPSO<br>EVONN<br>NOBAR<br>OLSEM<br>OPTIC | **TESAT D** SID, Relevant Transition |
 		| Jet     | PKS VOR  | **PKS D** SID   |
 		| Jet     | TEEVE    | **TEEVE D** SID |
 		| Jet     | LEECE<br>NWA NDB | **TONTO D** SID, Relevant Transition | 
