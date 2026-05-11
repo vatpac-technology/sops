@@ -88,7 +88,7 @@ YSWS uses four different SID designators to differentiate between different vari
 		| ------- | ------   | ------------- |
 		| Jet     | BENBU    | **BENBU N** SID |
 		| Jet     | CAWLY<br>EVONN<br>OPTIC | **ENDEV N** SID, Relevant Transition |
-		| Jet     | DIPSO<br>EVONN<br>NOBAR<br>OPTIC | **PASGO N** SID, Relevant Transition |
+		| Jet     | DIPSO<br>EVONN<br>NOBAR | **PASGO N** SID, Relevant Transition |
 		| Jet     | EXETA<br>LEECE<br>NWA NDB | **REDAS N** SID, Relevant Transition |
 		| Jet     | TEEVE    | **TEEVE N** SID |
 		| Jet     | PKS VOR  | **TEEVE N** SID, Relevant Transition |
@@ -121,7 +121,7 @@ YSWS uses four different SID designators to differentiate between different vari
 		| ------- | ------   | ------------- |
 		| Jet     | BENBU    | **BENBU N** SID |
 		| Jet     | CAWLY<br>EVONN<br>OPTIC | **ENDEV N** SID, Relevant Transition |
-		| Jet     | DIPSO<br>NOBAR<br>OPTIC | **PASGO N** SID, Relevant Transition |
+		| Jet     | DIPSO<br>NOBAR | **PASGO N** SID, Relevant Transition |
 		| Jet     | EXETA<br>LEECE<br>NWA NDB | **REDAS N** SID, Relevant Transition |
 		| Jet     | TEEVE    | **TEEVE N** SID |
 		| Jet     | PKS VOR  | **TEEVE N** SID, Relevant Transition |
