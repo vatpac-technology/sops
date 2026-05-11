@@ -91,7 +91,7 @@ Air transit allows helicopters to proceed directly between two points on the aer
 	
 	**AS ADC**: "SVY801, air transit to the southern airpark, cross runway 12."
 	
-Before an SMC gives an air transit instruction to a helicopter, they must [coordinate with ADC](../coordination#air-transit).
+Before an SMC gives an air transit instruction to a helicopter, they must [coordinate with ADC](../coordination/#helicopter-air-transit).
 
 !!! tip 
     Where air transit will be prolonged or conflicts with other traffic are likely, consider issuing a takeoff/landing clearance instead.

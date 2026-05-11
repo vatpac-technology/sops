@@ -55,7 +55,7 @@ SG TCU must [give heads up coordination](../../../terminal/scherger/#sua-in-enro
     <span class="hotline">**ARA** -> **SGA**</span>: "FBED14, expect activation of M610A `F125-F245` at 0300 until 0500."   
     <span class="hotline">**SGA** -> **ARA**</span>: "FBED14."   
 
-Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../sua/#ad-hoc-activations).
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../controller-skills/sua/#ad-hoc-activations).
 
 #### M610A Scherger
 The M610A Scherger [MOA](../../../controller-skills/sua/#military-operating-areas) is located over western coast of North Queensland and the Gulf of Carpentaria, `F125-F245`, located entirely in ARA airspace. 

@@ -63,7 +63,7 @@ Arrivals may, when suitable for the *sequence*, and clear of *01L/19R traffic*, 
     Refer to the MAESTRO plugin for guidance on which aircraft should be re-routed.
 
 ## WorldFlight Teams
-[WorldFlight Teams](../../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
+WorldFlight Teams will be highlighted by default and should receive priority at all stages of flight.
 
 <figure markdown>
 ![WF Team Highlight](../img/wfteam.png){ width="400" }
@@ -87,7 +87,7 @@ Aircraft must be tracking via **ENLIP** or **SMOKA**
 
 ### BUR to BAS/BAN
 #### Airspace
-Non-Standard Airspace Division will be in use for BN TCU. Refer to [these diagrams](../../../../../Terminal Areas/brisbane/#airspace-division).
+Non-Standard Airspace Division will be in use for BN TCU. Refer to [these diagrams](../../../../../terminal/brisbane/#airspace-division).
 
 Runway **01L** and **19L** Arrivals will be handed off to BAN.  
 Runway **01R** and **19R** Arrivals will be handed off to BAS.  
