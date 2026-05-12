@@ -85,7 +85,7 @@ Pilots should include the desired departure gate when requesting clearance.
 !!! phraseology
     *CLAS35 plans to enter the R225D restricted area via the MOROTAI gate for military training and airwork.*  
     **CLAS35**: "Tindal Delivery, CLAS35 for MOROTAI, `F120` for R225D, request clearance."  
-    **TN ACD**: "RPLC15, Tindal Delivery. cleared MOROTAI direct, climb to `F120`, squawk 6001, departure frequency 120.95."   
+    **TN ACD**: "CLAS35, Tindal Delivery. cleared MOROTAI direct, climb to `F120`, squawk 6001, departure frequency 120.95."   
 
 If the pilot **does not** nominate a gate, or nominates a gate that does not provide access to their intended SUA, TN ACD should clear the aircraft to depart via the **appropriate gate**.
 

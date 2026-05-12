@@ -170,8 +170,8 @@ The R603 and R605A/B Scherger [restricted areas](../../controller-skills/sua/#re
 
 They are predominantly used for military training operations, and transit of aircraft to [military gates](#military-gates) adjoining the [M610A Scherger MOA](../../enroute/brisbane/ISA/#m610a-scherger).
 
-#### R604A/B Scherger
-The R604A/B Scherger [restricted areas](../../controller-skills/sua/#restricted-areas) are located in the eastern half of the SG TMA and are activated by default when SGA is online.
+#### R604A-B Scherger
+The R604A-B Scherger [restricted areas](../../controller-skills/sua/#restricted-areas) are located in the eastern half of the SG TMA and are activated by default when SGA is online.
 
 They are predominantly used for military training operations when TRA Scherger is activated, as they facilitate military operations without distrupting [YBWP](#weipa-ybwp).
 
