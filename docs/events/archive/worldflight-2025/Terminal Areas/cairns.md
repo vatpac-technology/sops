@@ -30,7 +30,7 @@ Ensure that event traffic gets priority over non-event traffic.
 KEN will instruct all arrivals to cross **OVLET** at **250 knots**, then *published STAR speeds*.
 
 ## WorldFlight Teams
-[WorldFlight Teams](../../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
+WorldFlight Teams will be highlighted by default and should receive priority at all stages of flight.
 
 <figure markdown>
 ![WF Team Highlight](../img/wfteam.png){ width="400" }

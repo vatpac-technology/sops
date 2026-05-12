@@ -37,7 +37,7 @@ The [intial points](../../../controller-skills/military/#initial-and-pitch) are 
 | 30   | Intersection of the coast and extended Taxiway A centreline | `A025`<br>(`A020` for PC21) |
 
 ### Coded Clearances
-Aircraft departing to the western training areas should be cleared the **STORM 1** coded clearance, in addition to the [appropriate SID](#sid-selection). The **STORM 1** coded clearance gives aircraft permission to transit via the **[Thunder Corridor](../../terminal/williamtown/#thunder-corridor)**, a [military corridor](../../../controller-skills/military/#military-corridors) that connects the WLM TCU to the R560 amd R570 restricted areas.
+Aircraft departing to the western training areas should be cleared the **STORM 1** coded clearance, in addition to the [appropriate SID](#sid-selection). The **STORM 1** coded clearance gives aircraft permission to transit via the **[Thunder Corridor](../../../terminal/williamtown/#thunder-corridor)**, a [military corridor](../../../controller-skills/military/#military-corridors) that connects the WLM TCU to the R560 amd R570 restricted areas.
 
 [Coordination](#acd-to-wlm-tcu) may be required with WLM TCU prior to issuing clearance to an aircraft intending to operate in an SUA.
 
@@ -128,7 +128,7 @@ All other military aircraft, including military aircraft that are unable to fly 
 
 ## ATIS
 ### Approach Types
-During high levels of military traffic, **WAL** may nominate [stereo approaches](../../../military/#stereo-approaches) as the preferred approach type.
+During high levels of military traffic, **WAL** may nominate [stereo approaches](../../../controller-skills/military/#stereo-approaches) as the preferred approach type.
 
 | Condition         | ATIS APCH field |
 | ----------------- | --------------- |

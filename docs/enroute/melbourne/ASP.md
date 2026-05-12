@@ -34,7 +34,7 @@
 
 ### Reclassifications
 === "AS CTR"
-	When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME AS reverts to Class G, and AS CTA (Class C `F125` to `F245`) within 80 DME AS reverts to Class E, and both are administered by ASP. Alternatively, ASP may provide a [top-down procedural service](../../../aerodromes/Alice) if they wish.
+	When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME AS reverts to Class G, and AS CTA (Class C `F125` to `F245`) within 80 DME AS reverts to Class E, and both are administered by ASP. Alternatively, ASP may provide a [top-down procedural service](../../../aerodromes/procedural/Alice/) if they wish.
 
 	!!! tip
 		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
@@ -63,21 +63,21 @@ WRA is responsibile for facilitating operations in and out of YPWR.
 
 ## Local Procedures
 ### Special Use Airspace
-There are multiple volumes of [SUA](../../controller-skills/sua) within ASP airspace, mostly associated with military operations in and out of YPWR.
+There are multiple volumes of [SUA](../../../controller-skills/sua/) within ASP airspace, mostly associated with military operations in and out of YPWR.
 
 <figure markdown>
 ![Notable SUA in ASP Airspace](../img/asp_sua.png){ width="700" }
   <figcaption>Notable SUA in ASP Airspace</figcaption>
 </figure>
 
-When **WR ADC** is online, **R222F** Restricted Area is activated `SFC` to `F120` by default. WR ADC must [give heads up coordination](../../aerodrome/procedural/Woomera/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
+When **WR ADC** is online, **R222F** Restricted Area is activated `SFC` to `F120` by default. WR ADC must [give heads up coordination](../../../aerodromes/procedural/Woomera/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
 
 !!! phraseology
     <span class="hotline">**WAL** -> **ARL**</span>: "On the groud YWLM, PTHR11, requests activation of R560A `A085-F240`, from 0300 until 0500.”  
     <span class="hotline">**ARL** -> **WAL**</span>: "PTHR11, expect activation of R560A `A085-F240` at 0300 until 0500."   
     <span class="hotline">**WAL** -> **ARL**</span>: "PTHR11."  
 
-Non-participating aircraft intenting to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../sua/#ad-hoc-activations).
+Non-participating aircraft intenting to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../controller-skills/sua/#ad-hoc-activations).
 
 #### Woomera SUA
 There are multiple restricted areas associated with military operations at [YPWR](../../../aerodromes/procedural/Woomera): R222A-L, R237, R246A-C, R273, R281, and R287A-C. All restricted areas are located with the WRA subsector; R222I and R222J extend into FOR airspace, and R222K and R222L extend across ASP, ASW, WAR, and OLW(MZI, LEO).
@@ -90,7 +90,7 @@ When activated these restricted areas distrupt traffic on the **J141**, **J251**
 Aircraft transiting the area should be rerouted via the **Z90**, **Z91**, **Z92**, and **Z93** as required.
 
 !!! note
-	 Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../sua/#separation-from-sua) laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../sua/#controlled-airspace) clearance with all parts of the SUA.
+	 Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../../controller-skills/sua/#separation-from-sua) laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../../controller-skills/sua/#controlled-airspace) clearance with all parts of the SUA.
 
 
 ## STAR Clearance Expectation
@@ -122,7 +122,7 @@ AS ADC is responsible for the Class D airspace `SFC` to `A045`, as well as the C
 Refer to [Reclassifications](#reclassifications) for operations when AS ADC is offline.
 
 #### Departures
-[Next](../../controller-skills/coordination.md#next) coordination is required from AS ADC to ASP for all aircraft **entering ASP CTA**.
+[Next](../../../controller-skills/coordination/#next) coordination is required from AS ADC to ASP for all aircraft **entering ASP CTA**.
 
 The Standard Assignable level from **AS ADC** to **ASP** is:
 
@@ -141,14 +141,14 @@ The Standard Assignable level from ASP to **AS ADC** is `A080`, any other level 
 
 ### WR ADC
 #### Airspace
-WR ADC is responsible for the Class D airspace `SFC` to `F120` within the R222F [restricted area](../../../sua/#restricted-areas).
+WR ADC is responsible for the Class D airspace `SFC` to `F120` within the R222F [restricted area](../../../controller-skills/sua/#restricted-areas).
 
 Refer to [Reclassifications](#reclassifications) for operations when WR ADC is offline.
 
 ### Departures
 Next coordination is not required from WR ADC to ASP(WRA). 
 
-Aircraft leaving WR ADC airspace both **laterally** and **vertically** will enter ASP(WRA) uncontrolled airspace. However, it is good practice for WR ADC to provide [heads-up](../../controller-skills/coordination/#heads-up) coordination for aircraft leaving WR ADC airspace **vertically** to help faciltiate an uninterrupted climb.
+Aircraft leaving WR ADC airspace both **laterally** and **vertically** will enter ASP(WRA) uncontrolled airspace. However, it is good practice for WR ADC to provide [heads-up](../../../controller-skills/coordination/#heads-up) coordination for aircraft leaving WR ADC airspace **vertically** to help faciltiate an uninterrupted climb.
 
 !!! phraseology
     <span class="hotline">**WR ADC** -> **WRA**</span>: "via WR 180 bearing outbound, LYBD11.”  
@@ -159,7 +159,7 @@ Aircraft leaving WR ADC airspace both **laterally** and **vertically** will ente
     **LYBD11**: "Leave and re-enter controlled airspace on climb to `F240`, LYBD11" 
  
 ### Arrivals/Overfliers
-As with departures, there is no inherent requirement for ASP(WRA) to coordinate arrivals or overfliers with WR ADC. However, it is good practice for ASP(WRA) to provide [heads-up](../../controller-skills/coordination/#heads-up) coordination for aircraft arriving into directly into WR ADC airspace. 
+As with departures, there is no inherent requirement for ASP(WRA) to coordinate arrivals or overfliers with WR ADC. However, it is good practice for ASP(WRA) to provide [heads-up](../../../controller-skills/coordination/#heads-up) coordination for aircraft arriving into directly into WR ADC airspace. 
 
 Arriving aircraft shall be instructed to leave CTA descending (if appropriate) and to contact WR ADC for clearance.
 

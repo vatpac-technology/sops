@@ -78,7 +78,7 @@ During times of high traffic, NW TCU may request the release of R420F up to `F30
 
 With R420F released to NW TCU, transiting aircraft will need to be coordinated or rerouted. Every effort will be made to accommodate these aircraft on track, but if NW TCU can't accommodate them, they must be vertically or laterally rerouted to avoid the restricted area. NW TCU will communicate this requirement.
 
-See [Nowra Airspace](../../terminal/nowra#airspace) for more details about the lateral boundaries of the Nowra restricted areas.
+See [Nowra Airspace](../../../terminal/nowra/#airspace) for more details about the lateral boundaries of the Nowra restricted areas.
 
 ## STAR Clearance Expectation
 ### Handoff

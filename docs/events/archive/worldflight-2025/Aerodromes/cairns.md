@@ -10,7 +10,7 @@ Single runway operations on either **runway 15 or 33** will be in use for all ai
 **Runway 15** will be the preferred Runway Mode.
 
 ## Workload Management
-Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../../client/towerstrips/#recommended-workflow).
+Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../../client/towerstrips/#workflow).
 
 !!! tip
     The following OzStrips [keyboard shortcuts](../../../../client/towerstrips.md#keyboard-shortcuts) may assist controllers managing busy frequencies:
@@ -32,7 +32,7 @@ If an aircraft has filed an *incorrect* route and you need to give an amended cl
     **CS ACD:** *"AMENDED ROUTE CLEARANCE. CLEARED TO YBBN VIA CS Y177 BN DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
 
 ### WorldFlight Teams
-[WorldFlight Teams](../../../../../#official-team-callsigns) will be highlighted by OzStrips and should receive priority at all stages of flight.
+WorldFlight Teams will be highlighted by OzStrips and should receive priority at all stages of flight.
 
 <figure markdown>
 ![WF Team Highlight in OzStrips](../img/wfteamozstrips.png){ width="500" }
@@ -63,7 +63,7 @@ SMC will be responsible for delaying aircraft's pushback requests, in order to a
 If there are more than **5** aircraft in the queue at any Holding Point, do not approve any more pushback requests. Instead, use the queue function to keep track of who is awaiting push.
 
 #### OzStrips
-All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../../../../client/towerstrips/#recommended-workflow) for OzStrips.
+All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../../../../client/towerstrips/#workflow) for OzStrips.
 
 Ensure the Queue function is used to actively to keep track of the order of requests.
 
