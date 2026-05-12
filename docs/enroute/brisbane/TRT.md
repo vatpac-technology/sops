@@ -31,16 +31,13 @@ TRT is responsible for **TRS**, **ASH**, and **KIY**,  when they are offline.
 
 ### Reclassifications
 === "BRM CTR"
-	When **BRM ADC** is offline, BRM CTR (Class D/E `SFC` to `A055`) reverts to Class G, and is administered by ASH. Alternatively, ASH may provide a [top-down procedural service](../../../aerodromes/Broome) if they wish.
+	When **BRM ADC** is offline, BRM CTR (Class D/E `SFC` to `A055`) reverts to Class G, and is administered by ASH. Alternatively, ASH may provide a [top-down procedural service](../../../aerodromes/procedural/Broome) if they wish.
 
 	!!! tip
 		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
 === "CIN TCU"
-	When **TN TCU** is offline the CIN MIL CTR and associated restricted airspace is deactivated, and the airspace is administered by ASH.
-
-	!!! tip
-        Consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
+	The restricted airspace around YCIN is classified as Class G by default, and is only reclassified as controlled airspace when **CIA** is online. When **CIA** is offline, the area remains Class G, and is administered by ASH.
 
 === "TN TCU"
 	When **TN TCU** is offline the TN MIL CTR and associated restricted airspace is deactivated, and the airspace is administered by TRS.
@@ -111,6 +108,18 @@ The Delamere Air Weapons Range is contained within three volumes of SUA: R211 De
 
 When all three restricted areas are activated, they are referred to collectively as *'Delamere'*. Aircraft intending to operate in adjoining SUA should be notified *'[Delamere Active](../../terminal/tindal/#bradshaw-delamere-active)'* with their clearance.
 
+#### M821-M824 Curtin
+The M821-M824 Curtin [MOAs](../../../controller-skills/sua/#military-operating-areas) are located over YCIN, `F200-F600`, located entirely in ASH airspace. 
+
+The MOAs directly adjoin the CIN TMA and when CIA is online aircraft will be transferred directly to/from the MOAs. When [CIA is offline](#reclassifications), aircraft will contact ASH for transit through the surrounding civilian airspace.
+
+Aircraft will generally enter and exit the MOA via the appropriate [military gate](../../../terminal/curtin/#military-gates).
+
+##### Affected Civil Operations
+When activated, the restricted areas disrupt traffic on the busy **A339**, **A576**,  **T20**, and **T29** high altitude airways which are used by aircraft travelling between Australia and south-east Asia.
+
+Activation also significantly distrupts traffic travelling in and out of YBRM. Aircraft may be given an additional requirement to climb above, or descend below the vertical limits of the activation, or rerouted manually to avoid the area.
+
 #### R225A-F and R250 Tindal
 The R225A-F and R250 Tindal restricted areas form the western part of the Tindal Flying Training Area, and are located entirely within the TRS subsector. The areas are used for a variety of training purposes, including supersonic flight.
 
@@ -125,8 +134,6 @@ The R226A-B restricted areas are the easternmost segments of the Tindal Flying T
 These areas are rarely activated, with nearly all operations being preferentially conducted in the western [R225A-F and R250 Tindal](#r225a-f-and-r250-tindal) restricted areas.
 
 <!-- #### R262A-C Darwin -->
-
-<!-- #### Curtin SUA -->
 
 ## STAR Clearance Expectation
 ### Handoff
