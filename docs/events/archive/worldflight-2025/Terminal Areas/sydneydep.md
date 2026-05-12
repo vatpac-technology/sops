@@ -52,7 +52,7 @@ Aircraft for **NZOH** shall be subsequently processed with the following trackin
 Aircraft shall be handed off to OCN assigned the **final instruction** in the tables above.
 
 ## WorldFlight Teams
-[WorldFlight Teams](../../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
+WorldFlight Teams will be highlighted by default and should receive priority at all stages of flight.
 
 <figure markdown>
 ![WF Team Highlight](../img/wfteam.png){ width="400" }

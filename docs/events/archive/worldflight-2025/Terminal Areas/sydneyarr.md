@@ -59,7 +59,7 @@ Participating aircraft will transfer to SY ADC on their own as they approach the
 ![Scenic Arrival](../img/worldflight-scenic-arrival.png){ width="600" }
 </figure>
 
-[WorldFlight Teams](../../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
+WorldFlight Teams will be highlighted by default and should receive priority at all stages of flight.
 
 <figure markdown>
 ![WF Team Highlight](../img/wfteam.png){ width="400" }

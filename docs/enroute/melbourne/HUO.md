@@ -36,7 +36,7 @@
 	If HUO chooses to operate top down to either aerodrome, they must administer all relevant airspace within the appropriate TMA, including the class D CTR.
 
 	!!! warning "Important"
-		Ensure you are familiar with the aerodrome procedures for [Launceston](../../../aerodromes/Launceston) and [Hobart](../../../aerodromes/Hobart) before extending top down, and are aware of the limited surveillence coverage available in the lower levels of the TMA.
+		Ensure you are familiar with the aerodrome procedures for [Launceston](../../../aerodromes/classd/Launceston/) and [Hobart](../../../aerodromes/classd/Hobart/) before extending top down, and are aware of the limited surveillence coverage available in the lower levels of the TMA.
 
 	!!! tip
 		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.

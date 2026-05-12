@@ -50,7 +50,7 @@ This gives the enroute controller sufficient time to assess the request, make ne
     The requirement to coordinate activation of an SUA is in **addition** to existing coordination requirements. [**Heads-up** coordination](#departures) is still required for these aircraft if they do not meet the voiceless coordination criteria.
 
 ##### Bradshaw/Delamere Active
-When either the [Bradshaw Field Training Area](../../enroute/brisbane/TRT/#bradshaw-field-training-area-sua) or [Delamere Air Weapons Range](../../enroute/brisbane/TRT/#delamere-air-weapons-range) SUAs are active, aircraft intending to operate in the [R225D restricted area](../../enroute/brisbane/TRT/#r225a-f-and-r250-tindal) must be notified when given clearance.
+When either the [Bradshaw Field Training Area](../../enroute/brisbane/TRT/#bradshaw-field-training-area-sua) or [Delamere Air Weapons Range](../../enroute/brisbane/TRT/#delamere-air-weapons-range-sua) SUAs are active, aircraft intending to operate in the [R225D restricted area](../../enroute/brisbane/TRT/#r225a-f-and-r250-tindal) must be notified when given clearance.
 
 !!! phraseology
     *CLAS35 is has departed YPTN and is approaching MOROTAI for entry to the R225D restricted area*  

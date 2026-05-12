@@ -142,7 +142,7 @@ Military aircraft that are unable to accept a procedural SID shall be assigned e
 
 ## ATIS
 ### Approach Types
-During high levels of military traffic, **TNA** may nominate [stereo approaches](../../../military/#stereo-approaches) as the preferred approach type.
+During high levels of military traffic, **TNA** may nominate [stereo approaches](../../../controller-skills/military/#stereo-approaches) as the preferred approach type.
 
 | Condition         | ATIS APCH field |
 | ----------------- | --------------- |
