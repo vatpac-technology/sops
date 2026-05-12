@@ -296,7 +296,7 @@ AMB and OK TCU must [give heads up coordination](../../../terminal/williamtown/#
     <span class="hotline">**INL** -> **AMA**</span>: "DRGN31, expect activation of M640A-D `A050-F240` at 0300 until 0500."   
     <span class="hotline">**AMA** -> **INL**</span>: "DRGN31."  
     
-Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../sua/#ad-hoc-activations).
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../controller-skills/sua/#ad-hoc-activations).
 
 #### M640A-D Amberley
 The M640A-D Amberley MOAs are located offshore within the SDY, KPL, and TSN(FLD) subsectors. The restricted areas are connected to the AMB TCU by the **Northern Corridor**.
@@ -311,7 +311,7 @@ When activated, these MOAs disrupt traffic on the **A598** and **H224** high alt
 | A598           | `... Q67 GUDSO Q24 TERUV PUGEL` |
 
 !!! note
-	 Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../../sua/#separation-from-sua)  laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../../sua/#controlled-airspace) clearance with all parts of the SUA.
+	 Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../../controller-skills/sua/#separation-from-sua)  laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../../controller-skills/sua/#controlled-airspace) clearance with all parts of the SUA.
 
 #### M646 & M649A-B Amberley
 The M646 and M649A-B Amberley MOAs are located offshore within the SDY, MNN and TSN(FLD, HWE) subsectors. The restricted areas are connected to the AMB TCU by the **Central Corridor**.
@@ -332,7 +332,7 @@ When activated, the restricted areas distrupt traffic within [BAA airspace](#run
 | P880 (westbound) | `... SIFRA N584 LAMSI` |
 
 !!! note
-	 Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../../sua/#separation-from-sua)  laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../../sua/#controlled-airspace) clearance with all parts of the SUA.
+	 Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../../controller-skills/sua/#separation-from-sua)  laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../../controller-skills/sua/#controlled-airspace) clearance with all parts of the SUA.
 
 ## STAR Clearance Expectation
 ### Handoff
