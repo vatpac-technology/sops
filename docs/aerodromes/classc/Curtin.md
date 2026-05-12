@@ -56,7 +56,7 @@ The [intial points](../../../controller-skills/military/#initial-and-pitch) are 
 There are numerous [military gates](../../../controller-skills/military/#military-gates) established throughout the CIN TMA to facilitate entry and exit to adjoining SUA.
 
 <figure markdown>
-![CIN SUA Gates](../../../terminal/img/cin_mil_gates.png){ width="700" }
+![CIN SUA Gates](../../terminal/img/cin_mil_gates.png){ width="700" }
   <figcaption>CIN SUA Gates</figcaption>
 </figure>
 
