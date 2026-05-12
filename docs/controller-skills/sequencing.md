@@ -8,14 +8,14 @@ title: Sequencing
 
 It's all well and good maintaining separation standards in your airspace, but if you handoff 2 aircraft to ML_APP overhead BOOIN at the same speed, 1000ft apart, you're not going to make any friends. By default, aircraft must be sequenced **2 minutes** apart at the **Feeder Fix** (generally the first waypoint of the STAR).  
 
-It's important to remember that aircraft aren't just arriving from your sector, they can be coming in from all directions at similar times. **MAESTRO** is a tool used to help aid with sequencing (what time do YOU need to get the aircraft to the feeder fix to avoid TCU congestion). You can find more info [here](../maestro).
+It's important to remember that aircraft aren't just arriving from your sector, they can be coming in from all directions at similar times. **MAESTRO** is a tool used to help aid with sequencing (what time do YOU need to get the aircraft to the feeder fix to avoid TCU congestion). You can find more info [here](../../client/maestro/).
 
 In real life, controllers have the luxury of putting a fair bit of the onus of forming the sequence on the pilots, by issuing instructions like *"Adjust speed to cross RIVET at time 52 at 250kts in to published speeds"*. On VATSIM, every pilot may be using a different clock, potentially even different weather, and the pilot may simply not be proficient enough to meet a FF time. As such, all sequencing is best left in the hands of you, the controller.
 
 There are multiple tools a controller can use to create and maintain a sequence.
 
 ## Arrivals List
-The Arrivals List window is a sequencing management tool that can be used side-by-side with, or in-lieu of, [Maestro](../maestro).
+The Arrivals List window is a sequencing management tool that can be used side-by-side with, or in-lieu of, [Maestro](../../client/maestro/).
 
 It is a **global** window that can be viewed and manipulated by Tower, TCU, and Enroute Controllers.
 
@@ -63,7 +63,7 @@ Flow Data can be entered in to the **Global Ops Info** field of the aircraft, wh
   <figcaption>Arrivals List Window</figcaption>
 </figure>
 
-[Sequencing/Flow Abbreviations](../annotations/#sequencingflow) should be used to manage the sequence.
+[Sequencing/Flow Abbreviations](../../client/annotations/#sequencingflow) should be used to manage the sequence.
 
 !!! example
     `L54/57 17W CSR<`
@@ -119,7 +119,7 @@ For information only, the following approximate time gains and losses achieved b
 | 180  |  | +3 MIN |
 
 !!! tip
-    Refer to [Annotations](../../controller-skills/annotations/#speed-control) for info regarding Label data pertaining to speed control sequencing.
+    Refer to [Annotations](../../client/annotations/#speed-control) for info regarding Label data pertaining to speed control sequencing.
 
 ### Relative speeds
 When using speed control for aircraft on *climb* with similar climb profiles, using the **same speed** as an instruction to both pilots is a good rule of thumb to ensure the speeds will open at all times (Eg, Lead aircraft: 280kts or Greater, Following aircraft: 280kts or Less). 

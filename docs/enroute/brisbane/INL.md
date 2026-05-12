@@ -38,7 +38,7 @@ INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, and **NSA** when they
         When either AMA or OKA is offline, consider publishing a pre-formatted **ATIS Zulu** for their respective aerodromes, to inform pilots about the airspace reclassification.
 
 === "CFS CTR"
-	When **CFS ADC** is offline, CFS CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by MNN and INL. Alternatively, INL may provide a [top-down procedural service](../../../aerodromes/Coffs) if they wish (not recommended), and this must be coordinated to ARL(MNN).
+	When **CFS ADC** is offline, CFS CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by MNN and INL. Alternatively, INL may provide a [top-down procedural service](../../../aerodromes/procedural/Coffs/) if they wish (not recommended), and this must be coordinated to ARL(MNN).
 
 	Due to the low ceiling of CTA, when CFS ADC is offline, INL shall instruct aircraft departing into CTA to report lined up on the runway and issue an airways clearance (traffic pending) at that time.
 
@@ -52,7 +52,7 @@ INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, and **NSA** when they
         If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
         
 === "SU CTR"
-	When **SU ADC** is offline, SU CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by NSA and BUR. Alternatively, NSA may provide a [top-down procedural service](../../../aerodromes/Sunshinecoast) if they wish (not recommended), and this must be coordinated to BUR.
+	When **SU ADC** is offline, SU CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by NSA and BUR. Alternatively, NSA may provide a [top-down procedural service](../../../aerodromes/procedural/Sunshinecoast/) if they wish (not recommended), and this must be coordinated to BUR.
 
     !!! tip
         If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.

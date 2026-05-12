@@ -7,7 +7,7 @@ title: Airwork
 Not all flights online consist of an aircraft flying between airports. **Airwork** refers to any aerial operation that doesn't involve simply going from A to B. Providing control services to aircraft performing airwork requires specific skills and procedures, but offers a unique and rewarding experience for both pilots and controllers.
 
 !!! warning
-	Certain types of airwork, including search and rescue, firefighting, and other emergency operations are restricted under the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct){target=new}. See [Military and Special Operations](../miitary) for more information.
+	Certain types of airwork, including search and rescue, firefighting, and other emergency operations are restricted under the [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct){target=new}. See [Military and Special Operations](../military) for more information.
 
 !!! tip
     It may be beneficial to refer pilots to VATPAC's [Pilot Procedures](https://pilots.vatpac.org){target=new} to provide them with reference material for special operations.
@@ -92,7 +92,7 @@ Remark codes are also used to advise intentions to perform specific types of air
 | RMK/ Code  | Description                      |
 | ---------- | -------------------------------- |
 | PJE        | [Parachute Jumping Exercise](#parachute-operations) |
-| SAR        | [Search and Rescue Operations](../military/#searh-and-rescue) |
+| SAR        | [Search and Rescue Operations](../military/#search-and-rescue-sar-operations) |
 | NOCOM      | [Non-Continuous Communication](../military/#nocom-operations) |
 | MILSPECREQ | Special Military Requirements, e.g. [MARSA](../military/#marsa-operations) |
     
@@ -259,7 +259,7 @@ Where PJE ops are occuring in CTA, controllers must ensure there is no conflicti
     
     After giving an aircraft clearance to perform a survey approach, maintain your situational awareness with good client usage:
     
-    - **Restricted Areas** Activate the [Restricted or Danger Area](sua/#danger-areas), if applicable.
+    - **Restricted Areas** Activate the [Restricted or Danger Area](../sua/#danger-areas), if applicable.
     - **Label Data**: Use label data to indicate the operation being conducted (e.g. *"PJE"*)
     - **Cleared Flight Level**: Adjust the aircrafts CFL to a block altitude from `000` to the cleared drop altitude (e.g. `000-140`).
     - **Text Labels**: Use text labels to outline the dimensions of the drop area, and location of the drop zone

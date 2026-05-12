@@ -86,7 +86,7 @@ Aircraft must be tracking via **ENLIP** or **SMOKA**
 
 ### BUR to BAS/BAN
 #### Airspace
-Non-Standard Airspace Division will be in use for BN TCU. Refer to [these diagrams](../../../../Terminal Areas/brisbane/#airspace-division).
+Non-Standard Airspace Division will be in use for BN TCU. Refer to [these diagrams](../../../../../terminal/brisbane/#airspace-division).
 
 Runway **01L** and **19L** Arrivals will be handed off to BAN.  
 Runway **01R** and **19R** Arrivals will be handed off to BAS.  

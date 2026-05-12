@@ -12,7 +12,7 @@ Due to the nature of the event, a non-standard maximum crosswind limitation has 
 Runway mode changes will be extremely difficult, so ensure an appropriate mode is chosen with consideration to the forecast wind values over the course of the event.
 
 ## Workload Management
-Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../../client/towerstrips/#recommended-workflow). 
+Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../../client/towerstrips/#workflow). 
 
 !!! tip
     The following OzStrips [keyboard shortcuts](../../../../client/towerstrips.md#keyboard-shortcuts) may assist controllers managing busy frequencies:
@@ -28,7 +28,7 @@ The ACD role will perform as normal. Expect a handful of departures who want to 
 With two SMC controllers online, utilise [strip bay bars](../../../../../client/towerstrips/#multiple-adcsmc-positions) to keep the **Taxi** and **Holding Point** strip bays organised.
 
 ### Departures
-It is unlikely that Coordinator will be open, so normal outbound taxi procedures apply. If Coordinator is online, refer to the VATPAC [recommended workflow](../../../../../client/towerstrips/#recommended-workflow).
+It is unlikely that Coordinator will be open, so normal outbound taxi procedures apply. If Coordinator is online, refer to the VATPAC [recommended workflow](../../../../../client/towerstrips/#workflow).
 
 ### Separation Assurance
 Both SMC positions must be careful to ensure separation is assured at all times, particularly through the complex taxiway intersections at Sydney.
