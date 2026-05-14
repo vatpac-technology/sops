@@ -210,8 +210,16 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 	| YSSY | BOREE | **124.400** (SAN)      |
 	| YSSY | MARLN | **124.400** (SAN)      |
 	| YSSY | MEPIL | **124.400** (SAN)      |
-	| YSSY | ODALE | **128.300** (SAS)      |
+	| YSSY | AKMIR | **128.300** (SAS)      |
 	| YSSY | RIVET | **128.300** (SAS)      |
+    | YSCN | PRAWN | **124.400** (SAN)      |
+    | YSBK | WHALE | **124.400** (SAN)      |
+    | YSRI | RITSU | **135.900** (SRA)      |
+    | YSRI | RUPEM | **118.400** (SWA)      |
+    | YSWS | BIKUS | **124.400** (SAN)      |
+    | YSWS | RIKNI | **124.400** (SAN)      |
+    | YSWS | REVKI | **118.400** (SWA)      |
+    | YSWS | UNTAV | **135.900** (SRA)      |
 
 	!!! tip
 		The quick reference tables above only include scenarios for which there is [voiceless coordination](#sy-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
