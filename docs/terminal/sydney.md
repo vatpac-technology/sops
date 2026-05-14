@@ -663,13 +663,13 @@ It is vital that Approach controllers ensure all arriving aircraft are establish
 ##### MARLN Corridor
 Aircraft are permitted to cross the MARLN corridor at or above `A060` without coordination with APP. DEP is responsible for separation with respect to aircraft in the corridor.
 
-#### Between SDN and SFW/SAN
+#### Between SBA and SFW/SAN
 If aircraft are cleared off runway 11 at YSBK into CTA, coordination is required from SBA (who will be receiving the aircraft from BK ADC) with SFW or SAN (depending on YSSY runway config) as the aircraft will pass closer than 1.5nm from the sector boundary.  
 Refer to [Sydney TCU Airspace Division](#airspace-division) for more information.
 
 !!! phraseology
-    <span class="hotline">**SDN** -> **SFW**</span>: "Request left turn out of Bankstown"  
-    <span class="hotline">**SFW** -> **SDN**</span>: "Approved" *(no callsigns need be used here)*  
+    <span class="hotline">**SBA** -> **SFW**</span>: "Request left turn out of Bankstown"  
+    <span class="hotline">**SFW** -> **SBA**</span>: "Approved" *(no callsigns need be used here)*  
 
 #### Between SYC and TCU
 Standard [Radar to TCU](../controller-skills/coordination.md#radar-position-tcu-controllers) coordination for each aircraft transiting between Class G and CTA (or vice versa).
