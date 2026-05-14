@@ -365,6 +365,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		| YBBN | UGTUG | **125.600** (BAS)      |
 		| YBBN | WOODY | **124.700** (BAN)      |
 		| YBCG | All   | **123.500** (BAC)      |
+        | YBNA | All   | **118.350** (BAA)      |
 
 		!!! tip
 			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcubacbaa). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
@@ -386,6 +387,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		| YBBN | UGTUG | **125.600** (BAS)      |
 		| YBBN | WOODY | **124.700** (BAN)      |
 		| YBCG | All   | **123.500** (BAC)      |
+        | YBNA | All   | **118.350** (BAA)      |
 
 		!!! tip
 			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcubacbaa). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
@@ -407,6 +409,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		| YBBN | UGTUG | **125.600** (BAS)      |
 		| YBBN | WOODY | **124.700** (BAN)      |
 		| YBCG | All   | **123.500** (BAC)      |
+        | YBNA | All   | **118.350** (BAA)      |
 
 		!!! tip
 			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcubacbaa). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
