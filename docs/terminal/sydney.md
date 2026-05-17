@@ -385,7 +385,7 @@ Helicopters outbound from YSSY will make contact with the Departures controller 
 You can find each Helicopter Route below, and full details are in the `ERSA FAC YSSY`. Additionally, the vatSys `SY_HELO` map displays an approximation of each route.
 
 <figure markdown>
-![SY Heli Routes](../../aerodromes/classc/img/yssy_heli_routes.png){ width="700" }
+![SY Heli Routes](../aerodromes/classc/img/yssy_heli_routes.png){ width="700" }
 </figure>
 
 !!! phraseology
