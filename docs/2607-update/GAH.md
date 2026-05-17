@@ -28,7 +28,7 @@
 
 ## Airspace
 <figure markdown>
-![Gunnedah Airspace](../img/enr_diagrams/gah.png){ width="700" }
+![Gunnedah Airspace](img/enr_diagrams/gah.png){ width="700" }
   <figcaption>Gunnedah Airspace</figcaption>
 </figure>
 
@@ -131,10 +131,10 @@ The ARL subsector is additionally responsible for issuing the **STORM 2** coded 
 
 ## Local Procedures
 ### Special Use Airspace
-There are multiple volumes of [SUA](../../controller-skills/sua) within GAH airspace, mostly associated with military operations in and out of YWLM.
+There are multiple volumes of [SUA](../../../controller-skills/sua) within GAH airspace, mostly associated with military operations in and out of YWLM.
 
 <figure markdown>
-![Notable SUA in GAH Airspace](../img/gah_sua.png){ width="700" }
+![Notable SUA in GAH Airspace](img/gah_sua.png){ width="700" }
   <figcaption>Notable SUA in GAH Airspace</figcaption>
 </figure>
 
@@ -144,7 +144,7 @@ WLM TCU (or MNN on their behalf) will coordinate the activation these SUA **prio
 The R560A-B and R570A-H restricted areas are located west of YWLM and YSTW within the ARL and GAH subsectors. The restricted areas are connected to the WLM TCU by the **Thunder Corridor**.
 
 <figure markdown>
-![WLM Thunder Military Corridor](../img/wlm_thunder.png){ width="500" }
+![WLM Thunder Military Corridor](img/wlm_thunder.png){ width="500" }
   <figcaption>WLM Thunder Military Corridor</figcaption>
 </figure>
 
@@ -181,7 +181,7 @@ When activated these restricted areas distrupt traffic on the **Q16**, **Q235**,
 Aircraft travelling below `F240` on the **H66**, **H76**, and **Q35** airways are also disrupted, most directly affecting aircraft departing YSBK to the northwest, and aircraft climbing out of YSSY via STUIE. These aircraft may be given altitude requirements to assure separation with the restricted areas, where appropriate.
 
 !!! note
-	Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../sua/#separation-from-sua)  laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../sua/#controlled-airspace) clearance with all parts of the SUA.
+	Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../../controller-skills/sua/#separation-from-sua)  laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../../controller-skills/sua/#controlled-airspace) clearance with all parts of the SUA.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -200,28 +200,28 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 === "SY TCU"
 	=== "07AD"
 		<figure markdown>
-		![SY TCU Handover Frequencies - 07AD Mode](../img/enr-tcu_handovers/sy07ad.png){ width="500" }
+		![SY TCU Handover Frequencies - 07AD Mode](img/enr-tcu_handovers/sy07ad.png){ width="500" }
 		  <figcaption>SY TCU Handover Frequencies - 07AD Mode</figcaption>
 		</figure>
 		
 	=== "25AD"
 		<figure markdown>
-		![SY TCU Handover Frequencies - 25AD Mode](../img/enr-tcu_handovers/sy25ad.png){ width="500" }
+		![SY TCU Handover Frequencies - 25AD Mode](img/enr-tcu_handovers/sy25ad.png){ width="500" }
 		  <figcaption>SY TCU Handover Frequencies - 25AD Mode</figcaption>
 		</figure>
 	=== "16 PROPS"
 		<figure markdown>
-		![SY TCU Handover Frequencies - 16 PROPS Mode](../img/enr-tcu_handovers/sy16props.png){ width="500" }
+		![SY TCU Handover Frequencies - 16 PROPS Mode](img/enr-tcu_handovers/sy16props.png){ width="500" }
 		  <figcaption>SY TCU Handover Frequencies - 16 PROPS Mode</figcaption>
 		</figure>
 	=== "34 PROPS"
 		<figure markdown>
-		![SY TCU Handover Frequencies - 34 PROPS Mode](../img/enr-tcu_handovers/sy34props.png){ width="500" }
+		![SY TCU Handover Frequencies - 34 PROPS Mode](img/enr-tcu_handovers/sy34props.png){ width="500" }
 		  <figcaption>SY TCU Handover Frequencies - 34 PROPS Mode</figcaption>
 		</figure>
 	=== "SODPROPS"
 		<figure markdown>
-		![SY TCU Handover Frequencies - SODPROPS Mode](../img/enr-tcu_handovers/sysodprops.png){ width="500" }
+		![SY TCU Handover Frequencies - SODPROPS Mode](img/enr-tcu_handovers/sysodprops.png){ width="500" }
 		  <figcaption>SY TCU Handover Frequencies - SODPROPS Mode</figcaption>
 		</figure>
 
@@ -275,7 +275,7 @@ Voiceless for all aircraft:
 - that enter GAH airspace via any of the *Green Shaded Corridors* below.
 
 <figure markdown>
-![SY TCU Voiceless Coordination Corridors](../img/sytcucoordgate.png){ width="700" }
+![SY TCU Voiceless Coordination Corridors](img/sytcucoordgate.png){ width="700" }
   <figcaption>SY TCU Voiceless Coordination Corridors</figcaption>
 </figure>
 
@@ -294,7 +294,7 @@ TW ADC is responsible for the Class D airspace in the TW CTR `SFC` to `A045`, as
 Refer to [Reclassifications](#reclassifications) for operations when TW ADC is offline.
 
 #### Departures
-[Next](../../controller-skills/coordination.md#next) coordination is required from TW ADC to ARL/GAH for all aircraft **entering ARL/GAH CTA**.
+[Next](../../../controller-skills/coordination/#next) coordination is required from TW ADC to ARL/GAH for all aircraft **entering ARL/GAH CTA**.
 
 The Standard Assignable level from **TW ADC** to **ARL/GAH** is:
 

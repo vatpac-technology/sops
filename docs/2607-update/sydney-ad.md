@@ -184,7 +184,7 @@ Generally, aircraft shall cross runway 16R/34L in the following directions at th
 
 ## Separation
 ### Reduced Runway Separation
-When conditions permit, the [2400m separation standard for landing aircraft](../../separation-standards/runway.md#2400m-standard) may be applied to aircraft arriving Runway **16R/34L**.
+When conditions permit, the [2400m separation standard for landing aircraft](../../separation-standards/runway/#2400m-standard) may be applied to aircraft arriving Runway **16R/34L**.
 
 ### SODPROPS
 When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time.
@@ -198,7 +198,7 @@ When using the SODPROPS mode, pass traffic information to aircraft that are depa
 Ensure the [ATIS](#atis) is updated to reflect the SODPROPS runway mode. 
 
 ### Parallel Runway Operations
-Refer to [Parallel Runway Separation Standards](../../../separation-standards/parallelapps) for more information
+Refer to [Parallel Runway Separation Standards](../../separation-standards/parallelapps) for more information
 
 #### Go-arounds / Missed Approaches
 When operating under PROPS, go around headings shall diverge from the extended centreline of the parallel runway by at least 30°. Aircraft cleared the ILS or IVA may follow the published missed approach in order to meet this requirement.  
@@ -215,7 +215,7 @@ Sydney Coordinator is activated to reduce frequency congestion on SMC and ensure
 !!! tip
     The responsibilities of Sydney Coordinator may be delegated to **ACD** when there is high SMC workload but no seperate Coordinator controller available. This should be reflected in the ATIS accordingly.
 
-Refer to [Pushback Requests on ACD](../../controller-skills/grounddelaymanagement.md#pushback-requests-on-acd) for detailed procedures.
+Refer to [Pushback Requests on ACD](../../controller-skills/grounddelaymanagement/#pushback-requests-on-acd) for detailed procedures.
 
 ## Helicopter Operations
 VFR helicopters are generally processed via one of Sydney's Helicopter Routes. There are both inbound and outbound routes. Each procedure is delivered as a coded clearance designed to separate helicopters from fixed-wing aircraft.  
@@ -522,7 +522,7 @@ When [Coordinator](#sydney-coordinator) is online and start approval is required
 !!! warning "Important"
     YSSY utilises auto release for all **Procedural** SIDs, and the **SY (RADAR)** SID provided aircraft are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
-[Next](../../controller-skills/coordination.md#next) coordination is **not** required for aircraft that are:   
+[Next](../../controller-skills/coordination/#next) coordination is **not** required for aircraft that are:   
 
 - Departing from a runway nominated on the ATIS; and   
 - Assigned the Standard assignable level; and  
@@ -533,7 +533,7 @@ All other aircraft require a 'Next' call to SY TCU.
 
 'Next' coordination is additionally required for:  
  
-- [After a go around](../../controller-skills/coordination.md#after-a-go-around), the next departure from that runway  
+- [After a go around](../../controller-skills/coordination/#after-a-go-around), the next departure from that runway  
 - All aircraft during the Curfew Runway Mode
 
 The Standard Assignable level from SY ADC to SY TCU is: 
@@ -598,7 +598,7 @@ Aircraft that have been cleared the **SY (RADAR) SID** or **[ANKUB SID](#ankub-n
 **SY ADC** has responsibility of all runways, requiring **SY SMC** to coordinate with **SY ADC** to allow aircraft to cross runways whilst taxiing. **SY SMC** may request, or **SY ADC** may elect, to release certain runways to the **SY SMC** controller, so they may let aircraft cross the runway without coordination (for example, releasing runway 07/25 to **SY SMC** whilst PROPS are in progress.) This release may also be cancelled at the controller's discretion.
 
 ### ACD to SY TCU
-The controller assuming responsibility of **SY ACD** shall give [heads-up](../../controller-skills/coordination.md#airways-clearance) coordination to the relevant SY TCU controller prior to the issue of the following clearances: 
+The controller assuming responsibility of **SY ACD** shall give [heads-up](../../controller-skills/coordination/#airways-clearance) coordination to the relevant SY TCU controller prior to the issue of the following clearances: 
 
 - VFR departures, other than helicopters assigned a helicopter route coded clearance  
 - Aircraft using a runway not on the ATIS

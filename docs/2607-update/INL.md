@@ -27,7 +27,7 @@
 ## Airspace
 
 <figure markdown>
-![Inverell Airspace](../img/enr_diagrams/inl.png){ width="700" }
+![Inverell Airspace](img/enr_diagrams/inl.png){ width="700" }
   <figcaption>Inverell Airspace</figcaption>
 </figure>
 
@@ -222,7 +222,7 @@ Alternately, BAA may coordinate `A090` and "[no frequency requirements](../../..
 When the Evans Head Military Restricted Areas (R638) are activated, aircraft must be assigned the **BERNI** SID with either the **OVREX** (if tracking via Y54) or **VESOK** (if tracking via Y43) transition. These transitions will ensure the aircraft remains clear of the restricted area.
 
 <figure markdown>
-![BERNI STAR with and without a transition](../img/cg_berni.png){ width="600" }
+![BERNI STAR with and without a transition](img/cg_berni.png){ width="600" }
   <figcaption>BERNI STAR with no transition *left* and VESOK transition</figcaption>
 </figure>
 
@@ -277,7 +277,7 @@ INL and MNN share a joint responsibility to build the final sequence of arrivals
 There are three [military corridors](../../../controller-skills/military/#military-corridors) established around the AMB/OK TCU and BN TCU to facilitate transit of military aircraft between the TCU and adjoining SUAs.
 
 <figure markdown>
-![AMB TCU Military Corridors](../../terminal/img/amb_mil_corridors.png){ width="700" }
+![AMB TCU Military Corridors](img/amb_mil_corridors.png){ width="700" }
   <figcaption>AMB TCU Military Corridors</figcaption>
 </figure>
 
@@ -291,7 +291,7 @@ Aircraft transiting the Thunder Corridor should be assigned the appropriate alti
 There are multiple volumes of [SUA](../../../controller-skills/sua) within INL airspace, mostly associated with military operations in and out of YAMB and YBOK.
 
 <figure markdown>
-![Notable SUA in INL Airspace](../img/inl_sua.png){ width="700" }
+![Notable SUA in INL Airspace](img/inl_sua.png){ width="700" }
   <figcaption>Notable SUA in INL Airspace</figcaption>
 </figure>
 
@@ -356,7 +356,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 === "BN TCU"
 	=== "01 PROPS"
 		<figure markdown>
-		![BN TCU Handover Frequencies - 01 PROPS Mode](../img/enr-tcu_handovers/bn01props.png){ width="500" }
+		![BN TCU Handover Frequencies - 01 PROPS Mode](img/enr-tcu_handovers/bn01props.png){ width="500" }
 		  <figcaption>BN TCU Handover Frequencies - 01 PROPS Mode</figcaption>
 		</figure>
 	
@@ -378,7 +378,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		
 	=== "19 PROPS"
 		<figure markdown>
-		![BN TCU Handover Frequencies - 19 PROPS Mode](../img/enr-tcu_handovers/bn19props.png){ width="500" }
+		![BN TCU Handover Frequencies - 19 PROPS Mode](img/enr-tcu_handovers/bn19props.png){ width="500" }
 		  <figcaption>BN TCU Handover Frequencies - 19 PROPS Mode</figcaption>
 		</figure>
 			
@@ -400,7 +400,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		
 	=== "SODPROPS"
 		<figure markdown>
-		![BN TCU Handover Frequencies - SODPROPS Mode](../img/enr-tcu_handovers/bnsodprops.png){ width="500" }
+		![BN TCU Handover Frequencies - SODPROPS Mode](img/enr-tcu_handovers/bnsodprops.png){ width="500" }
 		  <figcaption>BN TCU Handover Frequencies - SODPROPS Mode</figcaption>
 		</figure>
 			
@@ -510,7 +510,7 @@ SU ADC is responsible for the Class D airspace in the SU CTR `SFC` to `A045`.
 Refer to [Reclassifications](#reclassifications) for operations when SU ADC is offline.
 
 #### Departures
-[Next](../../controller-skills/coordination.md#next) coordination is required from SU ADC to NSA/BUR for all aircraft **entering NSA/BUR CTA**.
+[Next](../../../controller-skills/coordination/#next) coordination is required from SU ADC to NSA/BUR for all aircraft **entering NSA/BUR CTA**.
 
 The Standard Assignable level from **SU ADC** to **NSA/BUR** is:
 

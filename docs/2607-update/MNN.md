@@ -23,7 +23,7 @@
 
 ## Airspace
 <figure markdown>
-![Manning Airspace](../img/enr_diagrams/mnn.png){ width="700" }
+![Manning Airspace](img/enr_diagrams/mnn.png){ width="700" }
   <figcaption>Manning Airspace</figcaption>
 </figure>
 
@@ -69,7 +69,7 @@ Sequencing arrivals from the east into YSSY is the responsibility of OCN. Aircra
     <span class="hotline">**OCN** -> **BIK**</span>: "Runway 34L, landing time 43, QFA12"
 
 ##### Predictable Sequencing Waypoints
-There are ten [Predictable Sequencing](../../../../controller-skills/sequencing/#predictable-sequencing) waypoints available for aircraft inbound YSSY via **N774** and **M636**.
+There are ten [Predictable Sequencing](../../../controller-skills/sequencing/#predictable-sequencing) waypoints available for aircraft inbound YSSY via **N774** and **M636**.
 
 The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
 
@@ -122,21 +122,21 @@ The following subsectors are responsible for issuing STAR clearance.
 
 ## Local Procedures
 ### Special Use Airspace
-There are multiple volumes of [SUA](../../controller-skills/sua) within MNN airspace, mostly associated with military operations in and out of YWLM.
+There are multiple volumes of [SUA](../../../controller-skills/sua) within MNN airspace, mostly associated with military operations in and out of YWLM.
 
 <figure markdown>
-![Notable SUA in MNN Airspace](../img/mnn_sua.png){ width="700" }
+![Notable SUA in MNN Airspace](img/mnn_sua.png){ width="700" }
   <figcaption>Notable SUA in MNN Airspace</figcaption>
 </figure>
 
-WLM TCU must [give heads up coordination](../../terminal/williamtown/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
+WLM TCU must [give heads up coordination](../../../terminal/williamtown/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
 
 !!! phraseology
     <span class="hotline">**WAL** -> **MNN**</span>: "On the groud YWLM, PTHR11, requests activation of R560A `A085-F240`, from 0300 until 0500.”  
     <span class="hotline">**MNN** -> **WAL**</span>: "PTHR11, expect activation of R560A `A085-F240` at 0300 until 0500."   
     <span class="hotline">**WAL** -> **MNN**</span>: "PTHR11."  
     
-Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../sua/#ad-hoc-activations).
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../controller-skills/sua/#ad-hoc-activations).
 
 #### M581-M584 Williamtown
 The M581-M584 MOAs are located offshore within the MLD, MNN, OCN, and TSN(HWE) subsectors.
@@ -156,7 +156,7 @@ When activated these MOAs significantly disrupt traffic on the busy **A579**, **
 The **W149** and **W768** low altitude airways, connecting YLHI to YWLM and YPMQ, are also affected, requiring extensive rerouting or facilitated transit through the SUA.
 
 !!! note
-	 Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../sua/#separation-from-sua)  laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../sua/#controlled-airspace) clearance with all parts of the SUA.
+	 Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../../controller-skills/sua/#separation-from-sua)  laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../../controller-skills/sua/#controlled-airspace) clearance with all parts of the SUA.
     
 #### R585-R586 Williamtown
 The R585A-D and R586A-C restricted areas are located north of the WLM TCU in the GAH(ARL) and MNN subsectors.
@@ -184,28 +184,28 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 === "SY TCU"
 	=== "07AD"
 		<figure markdown>
-		![SY TCU Handover Frequencies - 07AD Mode](../img/enr-tcu_handovers/sy07ad.png){ width="500" }
+		![SY TCU Handover Frequencies - 07AD Mode](img/enr-tcu_handovers/sy07ad.png){ width="500" }
 		  <figcaption>SY TCU Handover Frequencies - 07AD Mode</figcaption>
 		</figure>
 		
 	=== "25AD"
 		<figure markdown>
-		![SY TCU Handover Frequencies - 25AD Mode](../img/enr-tcu_handovers/sy25ad.png){ width="500" }
+		![SY TCU Handover Frequencies - 25AD Mode](img/enr-tcu_handovers/sy25ad.png){ width="500" }
 		  <figcaption>SY TCU Handover Frequencies - 25AD Mode</figcaption>
 		</figure>
 	=== "16 PROPS"
 		<figure markdown>
-		![SY TCU Handover Frequencies - 16 PROPS Mode](../img/enr-tcu_handovers/sy16props.png){ width="500" }
+		![SY TCU Handover Frequencies - 16 PROPS Mode](img/enr-tcu_handovers/sy16props.png){ width="500" }
 		  <figcaption>SY TCU Handover Frequencies - 16 PROPS Mode</figcaption>
 		</figure>
 	=== "34 PROPS"
 		<figure markdown>
-		![SY TCU Handover Frequencies - 34 PROPS Mode](../img/enr-tcu_handovers/sy34props.png){ width="500" }
+		![SY TCU Handover Frequencies - 34 PROPS Mode](img/enr-tcu_handovers/sy34props.png){ width="500" }
 		  <figcaption>SY TCU Handover Frequencies - 34 PROPS Mode</figcaption>
 		</figure>
 	=== "SODPROPS"
 		<figure markdown>
-		![SY TCU Handover Frequencies - SODPROPS Mode](../img/enr-tcu_handovers/sysodprops.png){ width="500" }
+		![SY TCU Handover Frequencies - SODPROPS Mode](img/enr-tcu_handovers/sysodprops.png){ width="500" }
 		  <figcaption>SY TCU Handover Frequencies - SODPROPS Mode</figcaption>
 		</figure>
 
@@ -258,7 +258,7 @@ Voiceless for all aircraft:
 - that enter MNN airspace via any of the *Green Shaded Corridors* below, excluding [YWLM Arrivals](#ywlm-arrivals)
 
 <figure markdown>
-![SY TCU Voiceless Coordination Corridors](../img/sytcucoordgate.png){ width="700" }
+![SY TCU Voiceless Coordination Corridors](img/sytcucoordgate.png){ width="700" }
   <figcaption>SY TCU Voiceless Coordination Corridors</figcaption>
 </figure>
 
@@ -287,7 +287,7 @@ CFS ADC is responsible for the Class D airspace in the CFS CTR `SFC` to `A045`.
 Refer to [Reclassifications](#reclassifications) for operations when CFS ADC is offline.
 
 #### Departures
-[Next](../../controller-skills/coordination.md#next) coordination is required from CFS ADC to MNN for all aircraft **entering MNN CTA**.
+[Next](../../../controller-skills/coordination/#next) coordination is required from CFS ADC to MNN for all aircraft **entering MNN CTA**.
 
 The Standard Assignable level from **CFS ADC** to **MNN** is:
 
