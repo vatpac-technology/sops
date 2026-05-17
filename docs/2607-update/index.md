@@ -96,15 +96,11 @@ Bankstown (YSBK) is located between YSWS and YSSY, and the new controlled airspa
 - All VFR movements should now be conducted via a newly introducted coded clearances. These coded clearances give specific routes for aircraft to follow as they transit SBA airspace.
 - A new set of SIDs have been introduced to facilitate IFR departures.
 
-Please see the **[Upcoming Bankstown (YSBK) SOPs](./Bankstown)** for full details about aerodrome operations.
-
 ##### Camden Airport (YSCN) Changes
 Camden (YSCN) is located close to the southern boundary of the WS CTR.
 
 - MYF and BRY are no longer inbound VFR waypoints for YSCN.
 - During the hours of 23:00 and 06:00 Sydney local time volume of airspace overhead YSCN extends to `A015`, precluding normal operations. For this reason, controllers are prohibited from logging on as either CN ADC or CN SMC during this time.
-
-Please see the **[Upcoming Camden (YSCN) SOPs](./Camden)** for full details about aerodrome operations.
 
 ##### Richmond Airport (YSRI) Changes
 Richmond (YSRI) is located north of the WS CTR and is experiencing changes to its procedures.
@@ -112,8 +108,6 @@ Richmond (YSRI) is located north of the WS CTR and is experiencing changes to it
 - The restricted areas over Richmond have been renumbered.
 - A new set of SIDs have been introduced, replacing all previous procedures.
 - RI ADC's airspace is changing to match its real world boundaries.
-
-Please see the **[Upcoming Richmond (YSRI) SOPs](./Richmond)** for full details about aerodrome operations.
 
 #### Sydney TCU Changes
 The **Sydney TCU** is expanding west to cover newly reclassified airspace associated with YSWS.
