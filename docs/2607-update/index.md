@@ -161,5 +161,5 @@ The boundaries of **GUN** are changing.
 
 Please see the **[Upcoming Gundagai SOPs](./GUN)** for full details about GUN operations.
 
-##### Wollongong (YWOL)
+##### Wollongong (WOL)
 The boundaries of **WOL** are very slightly adjusting at the western edge near YSCB. The sector will experience an increase in responsibilities for managing southbound departures from YSWS.
