@@ -127,7 +127,7 @@ The ARL subsector is additionally responsible for issuing the **STORM 2** coded 
 There are multiple volumes of [SUA](../../controller-skills/sua) within GAH airspace, mostly associated with military operations in and out of YWLM.
 
 <figure markdown>
-![Notable SUA in GAH Airspace](../img/arl_sua.png){ width="700" }
+![Notable SUA in GAH Airspace](../img/gah_sua.png){ width="700" }
   <figcaption>Notable SUA in GAH Airspace</figcaption>
 </figure>
 
