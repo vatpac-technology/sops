@@ -110,9 +110,9 @@ Sequencing arrivals from the west into YSSY is a joint responsibility of GUN and
 Aircraft from the south/west shall be assigned **runway 16R/34L** during PROPS. However, some situations may warrant the use of the alternate runway (16L/34R), such as heavy aircraft operationally requiring the longer runway from the north or large volumes of traffic requiring the use of both runways to minimise delay. In this case, coordination must be conducted with Brisbane Centre or Sydney Flow (if operating) to ensure that the sequence is built in an efficient and orderly way.
 
 !!! phraseology
-    <span class="hotline">**GUN** -> **ARL**</span>: "Southwest of Sydney, VOZ421, with your concurrence will be assigned runway 34R for sequencing"  
-    <span class="hotline">**ARL** -> **GUN**</span>: "Concur, VOZ421 runway 34R, required landing time 22 due sequence from the north"  
-    <span class="hotline">**GUN** -> **ARL**</span>: "Runway 34R, landing time 22, VOZ421"
+    <span class="hotline">**GUN** -> **GAH**</span>: "Southwest of Sydney, VOZ421, with your concurrence will be assigned runway 34R for sequencing"  
+    <span class="hotline">**GAH** -> **GUN**</span>: "Concur, VOZ421 runway 34R, required landing time 22 due sequence from the north"  
+    <span class="hotline">**GUN** -> **GAH**</span>: "Runway 34R, landing time 22, VOZ421"
 	
 ##### Adjacent Feeder Fixes
 Aircraft assigned the **same runway** inbound via **RIVET** and **AKMIR**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.

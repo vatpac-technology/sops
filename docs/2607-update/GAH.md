@@ -34,7 +34,7 @@
 
 ### Reclassifications
 === "TW CTR"
-	When **TW ADC** is offline, TW CTR (Class D and C `SFC` to `A085`) reverts to Class G, and is administered by ARL. Alternatively, ARL may provide a [top-down procedural service](../../../aerodromes/procedural/Tamworth) if they wish (not recommended).  
+	When **TW ADC** is offline, TW CTR (Class D and C `SFC` to `A085`) reverts to Class G, and is administered by GAH. Alternatively, GAH may provide a [top-down procedural service](../../../aerodromes/procedural/Tamworth) if they wish (not recommended).  
     
     !!! tip
         If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
@@ -134,7 +134,7 @@ The ARL subsector is additionally responsible for issuing the **STORM 2** coded 
 There are multiple volumes of [SUA](../../controller-skills/sua) within GAH airspace, mostly associated with military operations in and out of YWLM.
 
 <figure markdown>
-![Notable SUA in GAH Airspace](../img/arl_sua.png){ width="700" }
+![Notable SUA in GAH Airspace](../img/gah_sua.png){ width="700" }
   <figcaption>Notable SUA in GAH Airspace</figcaption>
 </figure>
 

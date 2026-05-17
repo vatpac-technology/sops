@@ -66,7 +66,7 @@ Sequencing arrivals from the east into YSSY is the responsibility of OCN. Aircra
 !!! phraseology
     <span class="hotline">**OCN** -> **BIK**</span>: "West of Sydney, QFA12, with your concurrence will be assigned runway 34L due operational requirement"  
     <span class="hotline">**BIK** -> **OCN**</span>: "Concur, QFA12 runway 34L, required landing time 43 due sequence from the west"  
-    <span class="hotline">**ARL** -> **OCN**</span>: "Runway 34L, landing time 43, QFA12"
+    <span class="hotline">**OCN** -> **BIK**</span>: "Runway 34L, landing time 43, QFA12"
 
 ##### Predictable Sequencing Waypoints
 There are ten [Predictable Sequencing](../../../../controller-skills/sequencing/#predictable-sequencing) waypoints available for aircraft inbound YSSY via **N774** and **M636**.
@@ -117,32 +117,31 @@ The following subsectors are responsible for issuing STAR clearance.
 
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
-| ARL  | LAXUM | All      |       | 
 | MNN  | LAXUM | All      |       |
 | OCN  | ASUVA | All      |       |
 
 ## Local Procedures
 ### Special Use Airspace
-There are multiple volumes of [SUA](../../controller-skills/sua) within ARL airspace, mostly associated with military operations in and out of YWLM.
+There are multiple volumes of [SUA](../../controller-skills/sua) within MNN airspace, mostly associated with military operations in and out of YWLM.
 
 <figure markdown>
-![Notable SUA in ARL Airspace](../img/arl_sua.png){ width="700" }
-  <figcaption>Notable SUA in ARL Airspace</figcaption>
+![Notable SUA in MNN Airspace](../img/mnn_sua.png){ width="700" }
+  <figcaption>Notable SUA in MNN Airspace</figcaption>
 </figure>
 
 WLM TCU must [give heads up coordination](../../terminal/williamtown/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
 
 !!! phraseology
-    <span class="hotline">**WAL** -> **ARL**</span>: "On the groud YWLM, PTHR11, requests activation of R560A `A085-F240`, from 0300 until 0500.”  
-    <span class="hotline">**ARL** -> **WAL**</span>: "PTHR11, expect activation of R560A `A085-F240` at 0300 until 0500."   
-    <span class="hotline">**WAL** -> **ARL**</span>: "PTHR11."  
+    <span class="hotline">**WAL** -> **MNN**</span>: "On the groud YWLM, PTHR11, requests activation of R560A `A085-F240`, from 0300 until 0500.”  
+    <span class="hotline">**MNN** -> **WAL**</span>: "PTHR11, expect activation of R560A `A085-F240` at 0300 until 0500."   
+    <span class="hotline">**WAL** -> **MNN**</span>: "PTHR11."  
     
 Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../sua/#ad-hoc-activations).
 
 #### M581-M584 Williamtown
 The M581-M584 MOAs are located offshore within the MLD, MNN, OCN, and TSN(HWE) subsectors.
 
-The MOAs directly adjoin the WLM TCU, and when WAL is online aircraft will be transferred directly to/from the MOAs. When [WAL is offline](#reclassifications), aircraft will contact ARL for transit through the surrounding civilian airspace.
+The MOAs directly adjoin the WLM TCU, and when WAL is online aircraft will be transferred directly to/from the MOAs. When [WAL is offline](#reclassifications), aircraft will contact MNN for transit through the surrounding civilian airspace.
 
 ##### Affected Civil Operations
 When activated these MOAs significantly disrupt traffic on the busy **A579**, **B450**, **B474**, **B580**, and **H258** high altitude airways, which connect YSSY to the Pacific and North America.
@@ -165,7 +164,7 @@ The R585A-D and R586A-C restricted areas are located north of the WLM TCU in the
 The MOAs directly adjoin the WLM TCU, and when WAL is online aircraft will be transferred directly to/from the restricted areas. When [WAL is offline](#reclassifications), aircraft will contact MNN for transit through the surrounding civilian airspace.
 
 #### Amberley SUA
-There are three SUA associated with military operations at [Amberley](../../terminal/amberleyoakey) which clip ARL airspace: the R639D restricted area, located northeast of MOR VOR partially in the MDE subsector, and the M661A and M670A-B MOAs, which clips MNN airspace offshore east of YCFS.
+There are three SUA associated with military operations at [Amberley](../../terminal/amberleyoakey) which clip MNN airspace: the R639D restricted area, located northeast of MOR VOR partially in the MDE subsector, and the M661A and M670A-B MOAs, which clips MNN airspace offshore east of YCFS.
 
 AMA (or INL(DOS, INL, SDY) on their behalf) will coordinate the activation these SUA **prior** to any activity.
 
@@ -324,7 +323,7 @@ Voiceless for all aircraft:
 - Tracking via a Procedural SID terminus; and  
 - Assigned the lower of `F120` or the `RFL`
 
-All other aircraft going to ARL CTA will be **Heads-up** Coordinated by WLM TCU.
+All other aircraft going to MNN CTA will be **Heads-up** Coordinated by WLM TCU.
 
 !!! phraseology
     <span class="hotline">**WAL** -> **MLD**</span>: "QJE1597, request DCT OMGAB"  
