@@ -132,10 +132,11 @@
 *[WIIF]: Jakarta FIR
 *[YBBB]: Brisbane FIR
 *[YMMM]: Melbourne FIR
-*[ARL]: Brisbane (Armidale) Centre
+*[GAH]: Brisbane (Gunnedah) Gentre
 *[INL]: Brisbane (Inverell) Centre
 *[ISA]: Brisbane (Mt Isa) Centre
 *[KEN]: Brisbane (Kennedy) Centre
+*[MNN]: Brisbane (Manning) Centre
 *[TRT]: Brisbane (Territory) Centre
 *[IND]: Brisbane (Indian) Radio
 *[TSN]: Brisbane (Tasman) Radio
@@ -147,23 +148,26 @@
 *[PIY]: Melbourne (Pingelly) Centre
 *[TBD]: Melbourne (Tailem Bend) Centre
 *[YWE]: Melbourne (Yarrowee) Centre
+*[ARL]: Brisbane (Armidale) Centre
 *[ARA]: Brisbane (Arafura) Centre
 *[ARE]: Brisbane (Arafura East) Centre
 *[BAR]: Brisbane (Barra) Centre
 *[BUR]: Brisbane (Burnett) Centre
 *[CVN]: Brisbane (Carnarvon) Centre
 *[CNK]: Brisbane (Cessnock) Centre
+*[DEN]: Brisbane (Denman) Centre
 *[DOS]: Brisbane (Downs) Centre
 *[GOL]: Brisbane (Gold Coast) Centre
 *[KPL]: Brisbane (Keppel) Centre
 *[KIY]: Brisbane (Kimberley) Centre
+*[LIG]: Brisbane (Lightning) Centre
 *[ASH]: Brisbane (Ashmore) Centre
 *[TRS]: Brisbane (Territory South) Centre
 *[MLD]: Brisbane (Maitland) Centre
-*[MNN]: Brisbane (Manning) Centre
-*[MDE]: Brisbane (Mudgee) Centre
+*[MOR]: Brisbane (Moree) Centre
 *[NSA]: Brisbane (Noosa) Centre
 *[OCN]: Brisbane (Ocean) Centre
+*[RYS]: Brisbane (Rylstone) Centre
 *[SDY]: Brisbane (Straddy) Centre
 *[STR]: Brisbane (Sturt) Centre
 *[SWY]: Brisbane (Swampy) Centre
@@ -180,6 +184,7 @@
 *[BLA]: Melbourne (Benalla) Centre
 *[BKE]: Melbourne (Bourke) Centre
 *[SCR]: Melbourne (Cross) Centre
+*[DAL]: Melbourne (Dally) Centre
 *[ESP]: Melbourne (Esperance) Centre
 *[FOR]: Melbourne (Forrest) Centre
 *[FOW]: Melbourne (Forrest West) Centre
@@ -191,6 +196,7 @@
 *[JAR]: Melbourne (Jarrah) Centre
 *[KAT]: Melbourne (Katoomba) Centre
 *[LEA]: Melbourne (Leeman) Centre
+*[LEO]: Melbourne (Leonora) Centre
 *[MEK]: Melbourne (Meekatharra) Centre
 *[MZI]: Melbourne (Menzies) Centre
 *[MTK]: Melbourne (Mount) Centre
@@ -208,6 +214,7 @@
 *[AAE]: Adelaide Approach East
 *[AAR]: Adelaide Radar
 *[AMA]: Amberley Approach
+*[BAA]: Ballina Approach
 *[BAC]: Brisbane (Gold Coast) Approach
 *[BAN]: Brisbane Approach North
 *[BAS]: Brisbane Approach South
@@ -240,11 +247,14 @@
 *[PHR]: Perth Radar
 *[SAN]: Sydney Approach North
 *[SAS]: Sydney Approach South
+*[SBA]: Bankstown Approach
 *[SDN]: Sydney Departures North
 *[SDS]: Sydney Departures South
 *[SFW]: Sydney Director West
 *[SFE]: Sydney Director East
-*[SRI]: Sydney Radar
+*[SRA]: Richmond Approach
+*[SWA]: Walton Approach 
+*[SYC]: Sydney Centre
 *[SGA]: Scherger Approach
 *[TNA]: Tindal Approach
 *[WAH]: Williamtown Approach (High)
@@ -280,6 +290,8 @@
 *[AV]: Avalon
 *[AY]: Albury
 *[BAW]: Baywest
+*[BBG]: Brooklyn Bridge
+*[BEE]: Berilee
 *[BLGH]: Burleigh Heads
 *[BLHS]: Bald Hills
 *[BOAT]: Boatyard
@@ -288,6 +300,7 @@
 *[BTJ]: Brighton Jetty
 *[BTO]: Brighton
 *[CARR]: Carrum
+*[CAST]: Castle Towers
 *[CBRG]: Centenary Bridge
 *[CBV]: Craigbourne Reservoir
 *[CCL]: Cape Cleveland
@@ -302,6 +315,8 @@
 *[COTR]: Cotter
 *[CPA]: Campania
 *[CREM]: Cremorne
+*[CRSC]: Crossroads Shopping Centre
+*[CRST]: Campbelltown Railway Station
 *[CSTH]: Choppers South
 *[CTE]: Cottesloe
 *[CUL]: Cronulla
@@ -316,6 +331,7 @@
 *[DSN]: Doncaster Shopping Town
 *[DUA]: Duri Gap
 *[EDT]: Edmonton
+*[EMPS]: Edmondson Park Station
 *[EN]: Essendon
 *[EPPG]: Epping
 *[ESL]: East Sale
@@ -334,15 +350,20 @@
 *[HASS]: Hastings Point
 *[HKE]: Herdsman Lake
 *[HNLY]: Henley Jetty
+*[HSY]: Hornsby
+*[HXPR]: Hoxton Park Road
 *[JIBN]: Jibbon Point
 *[KAO]: Kalkallo
 *[KCFF]: Kingscliff
 *[KRMD]: Kurmond
 *[KSPT]: Kissing Point
 *[LAUD]: Lauderdale
+*[LIHR]: Lighthorse Interchange
 *[LPT]: Lee Point
+*[LRF]: Long Reef
 *[LTV]: Latrobe Valley
 *[LUY]: Latrobe University
+*[MAGG]: Mount Annan Gardens Greenhouse
 *[MAL]: Manilla
 *[MBC]: Mount Black
 *[MBHM]: Manly Boat Harbour
@@ -350,6 +371,7 @@
 *[MB]: Moorabbin
 *[MCG]: Melbourne Cricket Ground
 *[MEG]: Menangle
+*[MFGC]: Muirfield Golf Club
 *[MMT]: Mt Margaret
 *[MNG]: Mangalore
 *[MTWK]: Mount Walker
@@ -366,10 +388,12 @@
 *[ORKS]: Orchard Rocks
 *[PAL]: Port Adelaide
 *[PCTY]: Perth City
+*[PENH]: Pennant Hills Strobe
 *[PIC]: Picton
 *[PKR]: Park Ridge Water Tower
 *[PNL]: Port Noarlunga
 *[POWR]: Powerhouse
+*[PRT]: Parramatta
 *[PSP]: Prospect Reservoir
 *[PSS]: Point Stephens Lighthouse
 *[PWLC]: Powerline Crossing
@@ -385,8 +409,10 @@
 *[SBD]: Story Bridge
 *[SHOL]: Shoal
 *[SHOP]: Armadale Shops
+*[SITS]: Seven Hills Train Station
 *[SNP]: Station Pier
 *[SORL]: Sorell
+*[SSKP]: St Helens Skate Park
 *[STOT]: Stotts Island
 *[SUNZ]: Sun Zinc Refinery
 *[SWTA]: South Western Training Area
@@ -400,6 +426,7 @@
 *[TVT]: TV Towers
 *[TWRN]: Two R N
 *[UQLD]: University of Queensland
+*[VCBR]: Victoria Bridge
 *[WBH]: Wallabadah
 *[WEP]: West Pt
 *[WES]: West Gate Bridge

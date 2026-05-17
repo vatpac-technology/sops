@@ -1,12 +1,12 @@
 title: 2607 Updates
 nav:
     - Overview: index.md
+    - YBNA:
+        - Ballina (YBNA): ballina.md
+        - Brisbane TCU Changes: brisbane.md
+        - Enroute Changes: bna-enroute.md
     - YSWS:
         - Sydney/Nancy-Bird Walton (YSWS): walton.md
         - Sydney (YSSY) Changes: sydney-ad.md
         - Sydney TCU Changes: sydney.md
         - Enroute Changes: ws-enroute.md
-    - YBNA:
-        - Ballina (YBNA): ballina.md
-        - Brisbane TCU Changes: brisbane.md
-        - Enroute Changes: bna-enroute.md
