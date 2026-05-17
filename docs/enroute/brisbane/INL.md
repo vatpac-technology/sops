@@ -38,7 +38,7 @@ INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, and **NSA** when they
         When either AMA or OKA is offline, consider publishing a pre-formatted **ATIS Zulu** for their respective aerodromes, to inform pilots about the airspace reclassification.
 
 === "CFS CTR"
-	When **CFS ADC** is offline, CFS CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by MNN and INL. Alternatively, INL may provide a [top-down procedural service](../../../aerodromes/procedural/Coffs/) if they wish (not recommended), and this must be coordinated to ARL(MNN).
+	When **CFS ADC** is offline, CFS CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by MNN and INL. Alternatively, INL may provide a [top-down procedural service](../../../aerodromes/procedural/Coffs/) if they wish (not recommended), and this must be coordinated to MNN.
 
 	Due to the low ceiling of CTA, when CFS ADC is offline, INL shall instruct aircraft departing into CTA to report lined up on the runway and issue an airways clearance (traffic pending) at that time.
 
@@ -88,7 +88,7 @@ Each coded clearance includes altitude restrictions which can be used to facilit
 | Byron 1    | Cross COWIE at `F190` | Cross KIWEE at `F260` |
 
 !!! note
-    Aircraft tracking via a coded clearance does **not** constitute a voiceless coordination route between AMB TCU and INL. Aircraft should still be heads-up coordinated to ARL prior to **5 minutes** to the boundary, unless coordinated otherwise. 
+    Aircraft tracking via a coded clearance does **not** constitute a voiceless coordination route between AMB TCU and INL. Aircraft should still be heads-up coordinated to INL prior to **5 minutes** to the boundary, unless coordinated otherwise. 
 	
 ### YBBN
 #### STAR Assignment
@@ -132,7 +132,7 @@ These standard runway assignments may be modified strategically by the BAS or BF
 When operating the SODPROPS Runway Mode, aircraft via **ENLIP**, **BLAKA**, **GOMOL** and **UGTUG**, shall be assigned the **ISPON** STAR with the appropriate transition. Aircraft via other feeder fixes may be assigned the standard STAR.
 
 #### Sequencing
-Sequencing arrivals into YBBN is a joint responsibility of the subsectors of ARL. Initial sequencing actions should be performed by all sectors, with fine tuning and any holding required issued by GOL/BUR. 
+Sequencing arrivals into YBBN is a joint responsibility of the subsectors of INL. Initial sequencing actions should be performed by all sectors, with fine tuning and any holding required issued by GOL/BUR. 
 
 ##### Adjacent Feeder Fixes
 Aircraft assigned the **same runway** inbound via:  
@@ -261,10 +261,10 @@ BUR, GOL and SDY are responsible for initial sequencing for aircraft arriving fr
 Coordination with KPL should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
 
 ### YCFS
-[Coffs Harbour (YCFS)](../../../aerodromes/procedural/Coffs) lies under the INL/ARL(MNN) boundary. INL is responsible for issuing descent to aircraft arriving into YCFS from the north.
+[Coffs Harbour (YCFS)](../../../aerodromes/procedural/Coffs) lies under the INL/MNN boundary. INL is responsible for issuing descent to aircraft arriving into YCFS from the north.
 
 #### Sequencing
-INL and ARL(MNN) share a joint responsibility to build the final sequence of arrivals into YCFS when the tower is open. Coordination with ARL(MNN) should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
+INL and MNN share a joint responsibility to build the final sequence of arrivals into YCFS when the tower is open. Coordination with MNN should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
 
 ## Local Procedures
 ### Military Corridors
@@ -277,7 +277,7 @@ There are three [military corridors](../../../controller-skills/military/#milita
 
 These corridors are located **outside** the jurisdiction of the AMB TCU.
 
-Aircraft departing to the AMB TCU will be cleared the relevant [coded clearance](#coded-clearances) by AMB ACD. Aircraft returning to the airport will be cleared the relevant coded clearance by ARL.
+Aircraft departing to the AMB TCU will be cleared the relevant [coded clearance](#coded-clearances) by AMB ACD. Aircraft returning to the airport will be cleared the relevant coded clearance by INL.
 
 Aircraft transiting the Thunder Corridor should be assigned the appropriate altitude to ensure separation with opposite direction traffic while transiting to their desired restricted area.
 
@@ -340,7 +340,7 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| INL | ARL | YSSY | |
+| INL | GAH | YSSY | |
 | INL | GOL | YBSU | |
 | NSA, BUR | KPL | YBMK, YBRK | |
 
