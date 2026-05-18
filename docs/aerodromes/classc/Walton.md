@@ -17,8 +17,8 @@
 WS ADC is not responsible for any airspace by default.
 
 ## Manoeuvring Area
-### Standard Taxi Routes
-Except when the traffic situation warrants, taxi clearances to and from the Cargo Apron shall conform to the following diagram:
+### Recommended Taxi Routes
+To minimise conflict on the Cargo Apron, it is recommended that taxi instructions conform to the following diagram:
 
 <figure markdown>
 ![YSWS Cargo Apron Taxi Routes](img/ysws_taxi.png){ width="500" }
