@@ -1,5 +1,5 @@
 ---
-  title: Sydney/Walton (YSWS)
+  title: Walton (YSWS)
 ---
 
 --8<-- "includes/abbreviations.md"
