@@ -217,6 +217,12 @@ The ATIS must indicate runway configuration in the format below:
 When the crosswind component exceeds 15 knots, the OPR INFO field must include:  
 `CROSSWIND ALERT – DO NOT PASS THROUGH FINAL FOR YOUR ASSIGNED RUNWAY`
 
+The volume of airspace adjacent to the WS CTR overhead Camden (known as **SY CTA C10**) has a lower level that varies according to the time of day. The OPR INFO field should be updated to reflect the level of controlled airspace within the SY C10 area when it is lowered overnight, for the awareness of pilots operating in the vicinity.
+
+| Condition    | OPR INFO Field |
+| ------------ | -------------- |
+| Between 2300 and 0600 Local   | `SY CTA 10 SOUTH OF WS CTR ACTIVE` |
+
 ## Coordination
 ### Departures
 [Next](../../../controller-skills/coordination/#next) coordination is **not** required for aircraft that are:   

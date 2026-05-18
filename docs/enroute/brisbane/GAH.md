@@ -105,6 +105,13 @@ The **GUDOK N** STAR may be tactically assigned in lieu of the REVKI N STAR by *
 #### Sequencing
 Sequencing arrivals from the north into YSWS is a joint responsibility of the subsectors of GAH. Initial sequencing actions for aircraft from the north should be performed by GAH, with fine tuning and any holding required issued by DEN. 
     
+### YSRI
+#### STAR Assignment
+The first subsector to control an aircraft bound for YSRI is responsible for issuing STAR clearance for aircraft via RITSU.
+
+#### Sequencing
+Sequencing arrivals into YSRI is a joint responsibility of all the subsectors of GAH.
+
 ### YSTW
 ARL and GAH are responsible for issuing descent.
 

@@ -48,7 +48,10 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 #### Reciprocal Runway Operations
 During Reciprocal Runway Operations (RRO) aircraft will depart and arrive in opposite directions on the same runway.
 
-The RRO procedures on YSWS are designed to utilise airspace vacated by [YSSY Curfew Operations](../Sydney/#preferred-runway-modes). Outside of YSSY curfew hours, or when YSSY is using a non-curfew runway mode, the RRO runway mode **should not** be used.
+The RRO procedures on YSWS are designed to utilise airspace vacated by [YSSY Curfew Operations](../Sydney/#preferred-runway-modes). Outside of YSSY curfew hours, or when YSSY is using a non-curfew runway mode, the RRO runway mode **must not** be used.
+
+!!! tip
+    There is no requirement to nominate RRO during the hours listed above. RRO must only be nominated when the prevailing meteorological conditions allow. 
 
 ## SID Selection
 !!! tip
@@ -143,7 +146,7 @@ YSWS uses four different SID designators to differentiate between different vari
 
 ## ATIS
 ### Operational Info
-The Operational Information field should be updated to reflect the level of controlled airspace within the SY C10 area when it is lowered overnight.
+The OPR INFO field should be updated to reflect the level of controlled airspace within the SY C10 area when it is lowered overnight.
 
 | Condition    | OPR INFO Field |
 | ------------ | -------------- |
@@ -188,6 +191,3 @@ The controller assuming responsibility of **WS ACD** shall give [heads-up](../..
 - VFR departures
 - Aircraft with `ADES` YSSY, YSBK, YSCN, YSRI, or YSHW
 - Aircraft using a runway not on the ATIS
-
-### SY ADC
-#### Airspace

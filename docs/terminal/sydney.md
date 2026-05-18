@@ -135,6 +135,9 @@ The volume of airspace adjacent to the WS CTR overhead Camden (known as **SY CTA
 
 During the hours of 23:00 - 06:00 Sydney local time, the airspace within the C10 area extends to `A015`, allowing YSWS departures on the [November or Quebec SIDs](../../aerodromes/classc/Walton/#sid-selection) to remain within CTA. CN ADC is **[prohibited](../../aerodromes/classd/Camden/#night-operations)** from logging on during this time, regardless of whether YSWS [RRO](../../aerodromes/classc/Walton/#reciprocal-runway-operations) are in use.
 
+!!! tip
+    When the base of C10 is lowered, it should be included on the YSWS, YSBK & YSCN ATISes.
+
 ## Separation
 ### Parallel Runway Operations
 #### Instrument Approach
@@ -162,7 +165,7 @@ The Bankstown Coded Clearances provide standardised routing for VFR aircraft arr
   <figcaption>Bankstown Coded Clearances</figcaption>
 </figure>
 
-Each coded clearance includes tracking instructions, height requirements that ensure aircraft remain within Class D airspace. Each coded clearance also includes implicit instructions on when to change frequencies.
+Each coded clearance includes tracking instructions and height requirements that ensure aircraft remain within Class D airspace. Each coded clearance also includes implicit instructions on when to change frequencies.
 
 The routes are generally segregated, although the 'Penrith Outbound' and 'Brooklyn Inbound' routes intersect within SBA CTA, west of SITS. Remember that in [Class D Airspace](../../controller-skills/classofairpsace), **no separation** is provided for VFR aircraft. Traffic advisory statements should be given to aircraft where appropriate and, if necessary, SBA may pass an avoiding action advice to ensure aircraft do not collide.
 
@@ -180,6 +183,8 @@ Departures will be given their coded clearance by BK ADC, and will contact SBA a
 | Mount Annan Outbound | `HXPR EMPS MAGG`  | `A015` |
 | Penrith Outbound   | `PRT SITS VCBR`     | `A015` |
 
+Each coded clearance includes a frequency transfer and control service termination instruction. No explicit instructions should be given to these aircraft.
+
 #### Arrivals
 Arrivals will contact SBA for clearance before entering CTA.
 
@@ -190,23 +195,23 @@ Arrivals will contact SBA for clearance before entering CTA.
 | St Helens Inbound  | `SSKP CRST CRSC`   | `A015` |
 
 !!! phraseology
-    **ABC**: "Bankstown Approach, ABC, Cessna Caravan, VFR, at BBG for Brooklyn Inbound"   
+    **ABC**: "Bankstown Approach, ABC, Cessna Caravan, BBG, `A015`, for Brooklyn Inbound"   
     **SBA**: "ABC, Bankstown Approach, squawk 0552"   
 
 !!! tip
     Remember that in Class D, establishing two-way communication with VFR aircraft constitutes a clearance to enter controlled airspace.
 
 ### Sydney Harbour Scenic Flights
-Flights may be cleared for the **Harbour Scenic One** scenic flight routes at `A015`, where traffic permits. This route can be displayed on vatSys using the `SY_VFR` map.  
+Flights may be cleared for the **Harbour Scenic** scenic flight routes at `A015`, where traffic permits. This route can be displayed on vatSys using the `SY_VFR` map.  
 Aircraft must track via Class G airspace to LRF and contact SY TCU prior to reaching LRF requesting a ‘Harbour Scenic’ clearance. Attempt to identify the aircraft, and if a clearance cannot be given immediately, instruct the pilot to remain in Class G airspace. Sydney QNH must be issued with the clearance.
 
 !!! phraseology
     **SDS:** "LOI, squawk 0542, remain clear of Class C airspace"   
     ...  
-    **SDS:** "LOI, identified, cleared Harbour Scenic One, Sydney QNH 1014"
+    **SDS:** "LOI, identified, cleared Harbour Scenic, Sydney QNH 1014"
 
 !!! warning "Caution"
-    The Harbour Scenic One procedure may cause conflict with departures from Runway 34R to the north. Before issuing a Harbour Scenic One clearance, assess the traffic situation on the ground at YSSY and determine whether a departure to the north of the harbour is likely in the next few minutes. If necessary, instruct the aircraft to remain OCTA and advise of the delay, or alternatively, issue the Harbour Scenic Two clearance.
+    The Harbour Scenic procedure may cause conflict with departures from Runway 34R to the north. Before issuing a Harbour Scenic clearance, assess the traffic situation on the ground at YSSY and determine whether a departure to the north of the harbour is likely in the next few minutes. If necessary, instruct the aircraft to remain OCTA and advise of the delay.
 
 !!! note
     Remember that VFR aircraft are **not** separated from other VFR aircraft in class C airspace.  If other VFR aircraft are operating over the harbour, you are not required to provide a separation standard between them, however you must pass traffic information to both aircraft.
@@ -245,7 +250,7 @@ Upon receiving a request from an aircraft at YSHW to activate the restricted air
 The **ANKUB SID** is a unique departure that is assigned to non-jets planned via **KADOM** or **BENBU**. On this SID, **SY ADC** will give aicraft on this SID an assigned heading with their line up or takeoff clearance, in the same way as aircraft assigned the RADAR SID. The departures controller is then responsible for vectoring the aircraft to a waypoint to rejoin the procedure.
 
 !!! phraseology
-	*RXA6824 has departed YSSY Runway 16R on the ANKUB SID, KADOM transition, bound for the YSDU.  
+	*RXA6824 has departed YSSY Runway 16R on the ANKUB SID, KADOM transition, bound for the YSDU.*  
     **SDS**: "RXA6824, Sydney Departures, identified. Turn right heading 270, climb to `A040`"   
     **RXA6824**: "Turn right heading 270, climb to `A040`, RXA6824."   
     ...   

@@ -104,6 +104,40 @@ The following subsectors are responsible for issuing STAR clearance.
 | OCN  | BIKUS<br>RIKNI | All      |       |
 
 #### Sequencing
+OCN is responsible for sequencing arrivals into YSWS.
+
+### YSRI
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
+
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| OCN  | DIPPA | All      |       |
+
+#### Sequencing
+OCN is responsible for sequencing arrivals into YSRI.
+
+### YSBK
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
+
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| OCN  | WHALE | All      |       |
+
+#### Sequencing
+OCN is responsible for sequencing arrivals into YSBK.
+
+### YSCN
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
+
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| OCN  | PRAWN | All      |       |
+
+#### Sequencing
+OCN is responsible for sequencing arrivals into YSCN.
 
 ### YWLM
 #### STAR Assignment
