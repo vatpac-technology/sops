@@ -299,6 +299,7 @@
 *[CNB]: Canning Bridge
 *[CNTH]: Choppers North
 *[COTR]: Cotter
+*[COWR]: Cowwarr
 *[CPA]: Campania
 *[CREM]: Cremorne
 *[CSTH]: Choppers South
@@ -339,6 +340,7 @@
 *[KRMD]: Kurmond
 *[KSPT]: Kissing Point
 *[LAUD]: Lauderdale
+*[LOWS]: Lindenow South
 *[LPT]: Lee Point
 *[LTV]: Latrobe Valley
 *[LUY]: Latrobe University
