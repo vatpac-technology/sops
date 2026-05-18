@@ -17,115 +17,154 @@
     YMES is a [military aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
 
 ## Airspace
-ES ADC owns no airspace. Release may be available from ES APP for circuits.
+ES ADC is not responsible for any airspace by default.
+
+### Restricted Area Activations
+There are no [restricted areas or MOAs](../../../controller-skills/sua) activated by default when ES ADC is online.
 
 ## Manoeuvring Area
-### Standard Taxi Routes
-| Runway     | Outbound Route                   | Inbound Route                   |
-| ---------- | -------------------------------- | --------------------------------|
-| Runway 27  | E2 or Eastern Check Bays         | D2                              |
-| Runway 09  | D2 or Western Check Bays         | E2                              |
-| Runway 22  | E2 or Eastern Check Bays         | J                               |
-| Runway 04  | J                                | D2                              |
+### Recommended Taxi Routes
+Except when the traffic situation warrants, taxi clearances shall conform to the following diagram:
 
-<figure markdown>
-![Inbound Taxi Routes](img/esl_taxi_inbound.png){ width="700" }
-<figcaption>Inbound Taxi Routes</figcaption>
-</figure>
+=== "Runway 04"
+	<figure markdown>
+	![Standard Taxi Routes for RWY 04](img/ymesstdtaxi_04.png){ width="500" }
+	  <figcaption>Standard Taxi Routes for RWY 04</figcaption>
+	</figure>
 
-<figure markdown>
-![Outbound Taxi Routes](img/esl_taxi_outbound.png){ width="700" }
-<figcaption>Outbound Taxi Routes</figcaption>
-</figure>
+=== "Runway 09"
+	<figure markdown>
+	![Standard Taxi Routes for RWY 09](img/ymesstdtaxi_09.png){ width="500" }
+	  <figcaption>Standard Taxi Routes for RWY 09</figcaption>
+	</figure>
+
+=== "Runway 22"
+	<figure markdown>
+	![Standard Taxi Routes for RWY 22](img/ymesstdtaxi_22.png){ width="500" }
+	  <figcaption>Standard Taxi Routes for RWY 22</figcaption>
+	</figure>
+
+=== "Runway 27"
+	<figure markdown>
+	![Standard Taxi Routes for RWY 27](img/ymesstdtaxi_27.png){ width="500" }
+	  <figcaption>Standard Taxi Routes for RWY 27</figcaption>
+	</figure>
 
 ## Local Procedures 
-### Flight Category
-Recovering military aircraft must automatically revert to VFR at the following points:
+### Initial and Pitch
+The [intial points](../../../controller-skills/military/#initial-and-pitch) are aligned with Taxiway A at the following locations.
 
-- At the [initial](../../../../controller-skills/military/#initial-and-pitch) point when recovering via military stream landing pattern (initial and pitch)
-- At Hi-Key
-- Following a touch and go, go-around, or visual overshoot when a local IFR aircraft has indicated an intention to join the circuit
+| RWY  | Initial Point | Altitude |
+| ---- | ------------- | -------- |
+| 04   | Longford Road overpass | `A015` |
+| 09   | Comfort Inn Motel      | `A015` |
+| 22   | Lake 2NM west of Lake Wellington Yacht Club | `A015` |
+| 27   | Western edge of Lake Wellington | `A015` |
 
-### Lanes
-The 16 individual training areas within the ESL military airspace are separated by 4 outbound lanes. These lanes are used by aircraft transiting to/from exterior training areas or for entry and exit of ESL military airspace.
-
-Lanes are defined by waypoints situated at 12NM, 35NM, and 50NM from YMES.
+### Coded Clearances
+Aircraft departing to certain specified training areas may be cleared a coded clearance.
 
 <figure markdown>
-![East Sale Lanes](img/ESL Lanes.png){ width="700" }
-<figcaption>ESL Lanes</figcaption>
+![Specified Training Areas within ES TMA](../../../terminal/img/es_stas.png){ width="600" }
+  <figcaption>Specified Training Areas within ES TMA</figcaption>
 </figure>
 
-### Outbound Lanes
-| Lane Name | 12NM Waypoint | 35NM Waypoint | 50NM Waypoint | Bearing |
-| -------------- | ------------------ | ------------------ | ------------------ | ------- |
-| Northern Lane      | LEKEM              | GONEB              | LANOS              | 359     |
-| Eastern Lane        | VEMDA              | KADRU              | TAVET              | 090     |
-| Southern Lane       | SABAX              | LUTUK              | NOLOX              | 180     |
-| Western Lane        | DUGAD              | LERKO              | DUNNE              | 270     |
+!!! tip
+    [Coordination requirements](#acd-to-es-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU **before** providing clearance.
 
-Lanes extend from `SFC` or the base of restricted airspace to `F160`. Aircraft departing ESL military airspace may be instructed to track via a lane at or below `F160`.
+#### Low Flying Area
+The **Low Flying Area** is located in the south-west of the ES TMA `SFC-A020`, entirely within the R360A restricted area.
+
+Aircraft requesting clearance to operate in the area shall be cleared a 'LOW FLYING AREA' clearance. This clearance gives aircraft permission to track to, and operate within, the area.
 
 !!! phraseology
-    *BRCT21 is departing East Sale via the Eastern Lane at `F110` to YORB*  
-    **ES SMC** -> **BRCT21**: "BRCT21 cleared to YORB via Eastern Lane, climb to `F110`, squawk 5072, departure frequency 123.3"
+    **ALDN11**: "Sale Delivery, ALDN11 for Low Flying Area, request clearance.”   
+    **ES ACD**: "ALDN11, cleared LOW FLYING AREA, squawk 0361, departure frequency 123.3"    
+
+!!! note
+    ACD shall write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
+    
+When the area is active the [ATIS should be updated](#specified-training-area-activations) to reflect the activation.
+    
+#### Roulette Training Area
+The **Roulette Training Areas** are located in the north-east of the ES TMA `SFC-A060`, entirely within the R360A restricted area. There are two training areas: Training Area North and Training Area South. Training Area South may be activated in isolation, whereas Training Area North can only be activated in conjunction with Training Area South.
+
+Aircraft requesting clearance to operate in the area shall be cleared a 'ROULETTE TRAINING AREA' clearance. This clearance gives aircraft permission to track to, and operate within, the area.
+
+!!! phraseology
+    **RLTS11**: "Sale Delivery, RLTS11 for Roulette Training Area South, request clearance.”   
+    **ES ACD**: "RLTS11, cleared ROULETTE TRAINING AREA SOUTH, squawk 0362, departure frequency 123.3"    
+
+!!! note
+    ACD shall write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
+    
+When the area is active the [ATIS should be updated](#specified-training-area-activations) to reflect the activation.
+
+### Training Areas
+The ES TMA is divided into sixteen individual training areas to facilitate local training operations. 
+
+<figure markdown>
+![ES Training Areas](../../terminal/img/es_training_areas.png){ width="700" }
+  <figcaption>ES Training Areas</figcaption>
+</figure>
+
+The inner training areas (designated 'A-H') extend from 12NM to 35NM YMES ARP, and the outer training areas (designated 'S-Z') extend from 35NM to 50NM YMES ARP.
+
+Aircraft requesting clearance to operate in a training area shall be cleared via the appropriate [military gate or lane](#military-gates).
+
+### Military Gates
+There are numerous [military lanes](../../../controller-skills/military/#military-gates) established throughout the ES TMA to facilitate entry and exit to [training areas](#training-areas) and SUA.
+
+<figure markdown>
+![ES SUA Gates](../../terminal/img/es_mil_gates.png){ width="700" }
+  <figcaption>ES SUA Gates</figcaption>
+</figure>
+
+Pilots should include the desired departure lane when requesting clearance.
+
+!!! phraseology
+    *DNGO31 plans to enter Training Area A via Northern Lane for military training and airwork.*  
+    **DNGO31**: "Sale Delivery, DNGO31 for ALPHA via Northern Lane, request clearance.”   
+    **ES ACD**: "DNGO31, cleared ALPHA via Northern Lane, climb to `A060`, squawk 0362, departure frequency 123.3" 
+
+If the pilot **does not** nominate a lane, or nominates a lane that does not provide access to their intended SUA, ES ACD should clear the aircraft to depart via the **appropriate lane**.
+
+| Intended [Training Area](#training-areas) | TCU Outbound Lane  |
+| ----------------------------------------- | ------------------ |
+| A, H, S, Z | NORTHERN Lane |
+| B, C, T, U | EASTERN Lane  |
+| D, E, V, W | SOUTHERN Lane |
+| F, G, X, Y | WESTERN Lane  |
+
+!!! tip
+    [Coordination requirements](#acd-to-es-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU **before** providing clearance.
 
 ## Helicopter Operations
-### Circuits  
-When RWY09/27 is being used for fixed-wing circuit training, it is preferred that helicopters utilise the threshold of runway 04 (runway 09/27 direction) for landing and take-off to increase segregation between final approach and upwind segments. When helicopters require use of TWY A (Pad Alpha) for circuit training, base turns should be sequenced to avoid conflict during the final approach segment.
+### Helipads
+There are two helipads at YMES: 
+
+- **Pad A** (at the intersection of Taxiways A and D)
+- **SAR Pad** (apron north of the SAR hangar)
+
+Both helipads are outside of the manoeuvring area so no takeoff or landing clearances should be issued. Instead, helicopters should be instructed to report airborne or report on the ground.
+
+!!! phraseology 
+    **ES ADC**: "CHOP22, Pad A, report on the ground"  
+
+When Runway 09/27 is being used for fixed-wing circuit training, helicopters should be processed via the the Runway 04 threshold, landing and taking off parallel to Runway 09/27. 
 
 ## Runway Modes
 ### Preferred Runway Modes
 Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts). Only single runway operations are approved.
 
 | Mode | Arrivals  | Departures |
-| ----------------| --------- | ---------- |
+| -----| --------- | ---------- |
 | 04 Only | 04 | 04 |
 | 09 Only | 09 | 09 |
 | 22 Only | 22 | 22 |
 | 24 Only | 24 | 24 |
 
 ### Circuits
-The East Sale Circuit Area (ESL CIRA) is active at all times when R360A is active.
-
-Circuit operations occur within a `5NM` radius of ESL ARP, at the following altitudes:
-
-<table>
-  <thead>
-    <tr>
-      <th>Type</th>
-      <th>Normal Altitude</th>
-      <th colspan="2">Low Level Altitude</th>
-    </tr>
-    <tr>
-      <th></th>
-      <th></th>
-      <th>Day</th>
-      <th>Night</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Non Jet</td>
-      <td>A010</td>
-      <td>A004</td>
-      <td>Circling Minima</td>
-    </tr>
-    <tr>
-      <td>Jet</td>
-      <td>A015</td>
-      <td>A006</td>
-      <td>Circling Minima</td>
-    </tr>
-  </tbody>
-</table>
-
-No more than the following aircraft shall be permitted to operate in the circuit area at any one time:
-
-| | ESL Day | ESL Night | WSL Day | WSL Night |
-| ------ | ------- | --------- | ------- | --------- |
-| Aircraft Count    | 6       | 5         | 5       | 5         |
-
 #### Circuit Direction
 | Runway | Direction |
 | ------ | ----------|
@@ -138,27 +177,33 @@ No more than the following aircraft shall be permitted to operate in the circuit
 By day, pilots of local aircraft may request a low approach. Pilots are responsible for ensuring that no collision risk exists and that there is suitable spacing to continue the approach and for the potential/subsequent go-around.
 
 ## SID Selection
-IFR aircraft planned via **AY**, **ANTLA**, **BULKO**, **DUNNE**, **GIPPS**, **MNG**, **MOZZA**, **NUNPA**, **TYERS**, **VALDU**, or **VISER** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
-Aircraft who are not planned via those points may be assigned the RADAR SID or a visual departure. 
+In **VMC by day**, all aircraft shall be assigned a visual departure via the [military lane](#military-gates) corresponding with their direction of travel. 
+
+In all other situations:
+
+- Aircraft planned via **AY VOR**, **ANTLA**, **BULKO**, **DUNNE**, **GIPPS**, **MNG NDB**, **MOZZA**, **NUNPA**, **TYERS**, **VALDU**, or **VISER** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
+- Aircraft who are not planned via those points may be assigned the RADAR SID. 
+
+
+## ATIS
+### Operational Info
+#### Specified Training Area Activations
+The Operational Information field should be updated when any of the [specified training areas](#coded-clearances) are active.
+
+| Activated Training Area | OPR INFO Field |
+| ----------------------- | -------------- |
+| [Low Flying Area](#low-flying-area) | `LOW FLYING AREA ACTIVE, LOWEST USEABLE LEVEL 3000FT` |
+| [Roulette Training Area](#roulette-training-area) | `ROULETTE TRAINING AREA [NORTH AND] SOUTH ACTIVE, LOWEST USEABLE LEVEL 7000FT` | 
 
 ## Coordination
 ### Auto Release
-[Next](../../controller-skills/coordination.md#next) coordination is required from ES ADC to ESA for all aircraft.
+[Next](../../../controller-skills/coordination/#next) coordination is required from ES ADC to ESA for all aircraft.
 
 The Standard Assignable Level from  **ES ADC** to **ESA** is:
 
 | Aircraft | Level |
 | -------- | ----- |
-| Fixed-wing | The lower of `F160` and `RFL` |
-| Rotary-wing | The lower of `A040` and `RFL` |
-
-Helicopters departing from helicopter spots will be treated as if departing from the duty runway.
-
-!!! phraseology
-    *PSDN14 is a VFR helicopter departing from the threshold of RWY04 (in the direction of runway 27)*  
-    <span class="hotline">**ES ADC** -> **ESA**</span>: "Next, PSDN14, runway 27"  
-    <span class="hotline">**ESA** -> **ES ADC**</span>: "PSDN14, right turn, unrestricted"  
-    <span class="hotline">**ES ADC** -> **ESA**</span>: "Right turn, PSDN14" 
+| All | The lower of `A060` and `RFL` |
 
 ### Departures Controller
 When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the Advisory frequency shall be issued.
@@ -167,6 +212,13 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
 | ------ | ---- | -------------------- |
 | All | All | 123.3 (ESA) |
 
+### ACD to ES TCU
+The controller assuming responsibility of **ACD** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to ESA (or the enroute controller responsible for the ES TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
+
+!!! phraseology
+    <span class="hotline">**ES ACD** -> **ESA**</span>: "HDSN11 requests clearance to R360D"  
+    <span class="hotline">**TESA** -> **ES ACD**</span>: "HDSN11, clearance approved."  
+
 ## Charts
 !!! abstract "Reference"
-    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
+    In addition to the civilian `ERSA` and `AIP` publications, [the RAAF AIP website](https://ais-af.airforce.gov.au/australian-aip){target=new} contains the necessary charts (available in the TERMA) and description of procedures (in each airports' FIHA).
