@@ -1,5 +1,5 @@
 ---
-title: Sydney/Nancy-Bird Walton (YSWS)
+title: Walton (YSWS)
 ---
 
 --8<-- "includes/abbreviations.md"
