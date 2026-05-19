@@ -64,11 +64,6 @@ The [intial points](../../../controller-skills/military/#initial-and-pitch) are 
 ### Coded Clearances
 Aircraft departing to certain specified training areas may be cleared a coded clearance.
 
-<figure markdown>
-![Specified Training Areas within ES TMA](../../../terminal/img/es_stas.png){ width="600" }
-  <figcaption>Specified Training Areas within ES TMA</figcaption>
-</figure>
-
 !!! tip
     [Coordination requirements](#acd-to-es-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU **before** providing clearance.
 
