@@ -178,7 +178,6 @@ By day, pilots of local aircraft may request a low approach. Pilots are responsi
 
 ## SID Selection
 In **VMC by day**, all aircraft shall be assigned a visual departure via the [military lane](#military-gates) corresponding with their direction of travel. 
-
 In all other situations:
 
 - Aircraft planned via **AY VOR**, **ANTLA**, **BULKO**, **DUNNE**, **GIPPS**, **MNG NDB**, **MOZZA**, **NUNPA**, **TYERS**, **VALDU**, or **VISER** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
