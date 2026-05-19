@@ -144,6 +144,8 @@ YSWS uses four different SID designators to differentiate between different vari
 		| Non-Jet | KAMBA    | **KAMBA Q** SID |
 		| Non-Jet | All others | As per Jets |
 
+        Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
+
 
 ## ATIS
 ### Operational Info
