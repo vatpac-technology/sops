@@ -12,7 +12,7 @@ title: Overview
 ## Summary of Changes
 There are multiple significant changes being introduced in Australian airspace on **09 July 2026** (AIRAC 2607).
 
-Control services are being introduced at two airports: [Ballina Airport (YBNA)](#ballina-airport-ybna) and the newly constructed [Sydney/Nancy-Bird Walton (YSWS)](#sydney-nancy-bird-walton-airport-ysws), significantly affecting operations in two of Australia's busiest TMAs.
+Control services are being introduced at two airports: [Ballina Airport (YBNA)](#ballina-airport-ybna) and the newly constructed [Sydney/Nancy-Bird Walton (YSWS)](#sydneynancy-bird-walton-airport-ysws), significantly affecting operations in two of Australia's busiest TMAs.
 
 <figure markdown>
 ![Key 2607 Changes](img/key_changes_diagram.png){ width="854" }
