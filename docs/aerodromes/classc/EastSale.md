@@ -28,26 +28,26 @@ Except when the traffic situation warrants, taxi clearances shall conform to the
 
 === "Runway 04"
 	<figure markdown>
-	![Standard Taxi Routes for RWY 04](img/ymesstdtaxi_04.png){ width="500" }
-	  <figcaption>Standard Taxi Routes for RWY 04</figcaption>
+	![Recommended Taxi Routes for RWY 04](img/ymesstdtaxi_04.png){ width="500" }
+	  <figcaption>Recommended Taxi Routes for RWY 04</figcaption>
 	</figure>
 
 === "Runway 09"
 	<figure markdown>
-	![Standard Taxi Routes for RWY 09](img/ymesstdtaxi_09.png){ width="500" }
-	  <figcaption>Standard Taxi Routes for RWY 09</figcaption>
+	![Recommended Taxi Routes for RWY 09](img/ymesstdtaxi_09.png){ width="500" }
+	  <figcaption>Recommended Taxi Routes for RWY 09</figcaption>
 	</figure>
 
 === "Runway 22"
 	<figure markdown>
-	![Standard Taxi Routes for RWY 22](img/ymesstdtaxi_22.png){ width="500" }
-	  <figcaption>Standard Taxi Routes for RWY 22</figcaption>
+	![Recommended Taxi Routes for RWY 22](img/ymesstdtaxi_22.png){ width="500" }
+	  <figcaption>Recommended Taxi Routes for RWY 22</figcaption>
 	</figure>
 
 === "Runway 27"
 	<figure markdown>
-	![Standard Taxi Routes for RWY 27](img/ymesstdtaxi_27.png){ width="500" }
-	  <figcaption>Standard Taxi Routes for RWY 27</figcaption>
+	![Recommended Taxi Routes for RWY 27](img/ymesstdtaxi_27.png){ width="500" }
+	  <figcaption>Recommended Taxi Routes for RWY 27</figcaption>
 	</figure>
 
 ## Local Procedures 
