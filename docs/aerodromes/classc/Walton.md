@@ -111,6 +111,7 @@ YSWS uses four different SID designators to differentiate between different vari
 		| Jet     | All others | RADAR SID |
 		| Non-Jet | EXETA<br>NWA NDB<br>WOL NDB | **REGER D** SID, Relevant Transition |
 		| Non-Jet | North and East | **LEKID D** SID |
+		| Non-Jet | All others | RADAR SID |
 		
 		
 	=== "Hot/Heavy"
