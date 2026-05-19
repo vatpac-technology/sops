@@ -185,8 +185,8 @@ IFR aircraft shall be assigned the **Procedural SID** corresponding to their dir
 
 | Runway  | Via  | SID      |
 | ------- | ---- | -------- |
-| 11C/29C | Tracking N      | **URDOS** SID |
 | 11C/29C | NOLEM           | **MECKO** SID, Relevant Transition |
+| 11C/29C | Tracking N      | **URDOS** SID |
 | 11C/29C | Tracking S or W | **MECKO** SID, RADAR Transition |
 | 11C/29C | All others      | **RADAR** SID |
 
