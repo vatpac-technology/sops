@@ -77,8 +77,8 @@ YSWS uses four different SID designators to differentiate between different vari
 		| Jet     | LEECE<br>NWA NDB | **TONTO D** SID, Relevant Transition | 
 		| Jet     | All others | RADAR SID |
 		| Non-Jet | DIPSO<br>KAMBA<br>NOBAR | **KAMBA D** SID, Relevant Transition |
-		| Non-Jet | North and East | **ISDIT D** SID |
-		| Non-Jet | South and West | **ADPAV D** SID |
+		| Non-Jet | South<br>Southeast<br>Southwest | **ADPAV D** SID |
+		| Non-Jet | All others | **ISDIT D** SID |
 		
 	=== "Hot/Heavy"
 		| Type    | Via      | SID           |
