@@ -181,7 +181,7 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 Runway 11R/29L is unlit, and **cannot** be used at night.
 
 ## SID Selection
-IFR aircraft shall be assigned the **Procedural SID** corresponding to their direction of travel.
+IFR aircraft shall be assigned a SID corresponding to their direction of travel.
 
 | Runway  | Via  | SID      |
 | ------- | ---- | -------- |

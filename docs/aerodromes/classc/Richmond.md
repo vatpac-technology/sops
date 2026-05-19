@@ -97,9 +97,17 @@ YSRI circuit area is defined as within 6nm of the YSRI ARP. An aircraft operatin
 | 28     | Left |
 
 ## SID Selection
-Aircraft planned via **BEROW**, **NESSY**, **NIVOT**, **RUTOS**, and **TESAT** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus.
+IFR aircraft shall be assigned a SID corresponding to their direction of travel.
 
-Aircraft that are unable to accept a procedural SID are generally processed through visual departures. In IMC, these aircraft can instead be assigned the RADAR SID.
+| Via                | SID         |
+| ------------------ | ----------- |
+| BEROW or TESAT     | **BEROW** SID, transition as applicable |
+| NIVOT              | **NIVOT** SID |
+| RUTOS              | **RUTOS** SID |
+| Tracking W, NW, SW | **NESSY** SID, RADAR Transition |
+| All others         | **RADAR** SID |
+
+Aircraft which would otherwise be assigned the RADAR SID may be processed via a visual departure to the north or west, if conditions allow.
 
 ## Coordination
 ### Auto Release
