@@ -43,8 +43,8 @@ This gives the enroute controller sufficient time to assess the request, make ne
     <span class="hotline">**ES ACD** -> **ESA**</span>: "HRTG11 requests clearance to M301B”  
     <span class="hotline">**ESA** -> **ES ACD**</span>: "Standby, call you back."  
      
-    <span class="hotline">**ESA** -> **HUO**</span>: "On the groud YMES, HRTG11, requests activation of M301B `F210-F450`, from 0300 until 0500. [My onwards](../../controller-skills/coordination/#onwards-coordination) with WOL and BLA”  
-    <span class="hotline">**HUO** -> **ESA**</span>: "HRTG11, expect activation of R225D `A095-F600` at 0300 until 0500, your onwards with WOL and BLA."   
+    <span class="hotline">**ESA** -> **HUO**</span>: "On the groud YMES, HRTG11, requests activation of M301B `F210-F450`, from 0300 until 0500. [My onwards](../../controller-skills/coordination/#onwards-coordination) with BLA”  
+    <span class="hotline">**HUO** -> **ESA**</span>: "HRTG11, expect activation of R225D `A095-F600` at 0300 until 0500, your onwards with BLA."   
     <span class="hotline">**ESA** -> **HUO**</span>: "HRTG11."   
       
     <span class="hotline">**ESA** -> **ES ACD**</span>: "HRTG11, clearance approved."   

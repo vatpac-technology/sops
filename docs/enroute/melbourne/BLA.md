@@ -153,6 +153,39 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 | MANDA | NONUP | Jets: 3 min<br>Non-Jets: 4 min |
 | Others | Feeder Fix | - |
 
+## Local Procedures
+### Special Use Airspace
+
+There are volumes of [SUA](../../../controller-skills/sua) within BLA airspace, associated with military operations in and out of YMES and Puckapunyal (YPKL).
+
+<figure markdown>
+![Notable SUA in BLA Airspace](../img/bla_sua.png){ width="700" }
+  <figcaption>Notable SUA in BLA Airspace</figcaption>
+</figure>
+
+ES TCU must [give heads up coordination](../../../terminal/eastsale/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
+
+!!! phraseology
+    <span class="hotline">**ESA** -> **BLA**</span>: "On the groud YMES, HRTG11, requests activation of M301B `F210-F450`, from 0300 until 0500. [My onwards](../../controller-skills/coordination/#onwards-coordination) with HUO”  
+    <span class="hotline">**BLA** -> **ESA**</span>: "HRTG11, expect activation of R225D `A095-F600` at 0300 until 0500, your onwards with HUO."   
+    <span class="hotline">**ESA** -> **BLA**</span>: "HRTG11."   
+    
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../controller-skills/sua/#ad-hoc-activations).
+
+#### M301B East Sale
+The M301B East Sale [MOA](../../../controller-skills/sua/#military-operating-areas) is centred over YMES, `F210-F450`, directly above M301A. Activation of the M301B MOA is a [shared responsibility](../../../controller-skills/sua/#activation-of-sua), and HUO(WON), ELW and BLA must coordinate before activation.
+
+##### Affected Civil Operations
+Activation of the MOA signficantly reduces airspace available for YMML sequencing actions, and disrupts traffic tracking via the UNSIG and NILEV [predictable sequencing waypoints](#predictable-sequencing-waypoints)
+
+!!! tip  
+    During times of high traffic levels, such as [Milk Run Monday](../../../events/milkrun), activation of the MOA should not be permitted.  
+    
+#### R350A-C Puckapunyal
+The R350A-C Puckapunyal [restricted areas](../../../controller-skills/sua/#restricted-areas) is a series of defined airspace volumes north of YMML, `SFC-F230`.
+
+The area is used for a wide array of military training operations. The extent of activation required will vary according to each operation, but will generally include R350A and R350B.
+
 ## STAR Clearance Expectation
 ### Handoff
 Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
