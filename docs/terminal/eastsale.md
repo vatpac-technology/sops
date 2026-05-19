@@ -68,7 +68,7 @@ The [intial points](../../../controller-skills/military/#initial-and-pitch) are 
 Aircraft departing to certain specified training areas may be cleared a coded clearance.
 
 <figure markdown>
-![Specified Training Areas within ES TMA](../../../terminal/img/es_stas.png){ width="600" }
+![Specified Training Areas within ES TMA](/img/es_stas.png){ width="600" }
   <figcaption>Specified Training Areas within ES TMA</figcaption>
 </figure>
 
@@ -87,7 +87,7 @@ Aircraft requesting clearance to operate in the area shall be cleared a 'LOW FLY
 !!! note
     ACD shall write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
     
-When the area is active the [ATIS should be updated](#specified-training-area-activations) to reflect the activation.
+When the area is active the [ATIS should be updated](../../aerodromes/classc/EastSale/#specified-training-area-activations) to reflect the activation.
     
 #### Roulette Training Area
 The **Roulette Training Areas** are located in the north-east of the ES TMA `SFC-A060`, entirely within the R360A restricted area. There are two training areas: Training Area North and Training Area South. Training Area South may be activated in isolation, whereas Training Area North can only be activated in conjunction with Training Area South.
@@ -107,7 +107,7 @@ When the area is active the [ATIS should be updated](#specified-training-area-ac
 The ES TMA is divided into sixteen individual training areas to facilitate local training operations. 
 
 <figure markdown>
-![ES Training Areas](../../terminal/img/es_training_areas.png){ width="700" }
+![ES Training Areas](/img/es_training_areas.png){ width="700" }
   <figcaption>ES Training Areas</figcaption>
 </figure>
 
@@ -119,7 +119,7 @@ Aircraft requesting clearance to operate in a training area shall be cleared via
 There are numerous [military lanes](../../../controller-skills/military/#military-gates) established throughout the ES TMA to facilitate entry and exit to [training areas](#training-areas) and SUA.
 
 <figure markdown>
-![ES SUA Gates](../../terminal/img/es_mil_gates.png){ width="700" }
+![ES SUA Gates](/img/es_mil_gates.png){ width="700" }
   <figcaption>ES SUA Gates</figcaption>
 </figure>
 
@@ -146,7 +146,7 @@ If the pilot **does not** nominate a lane, or nominates a lane that does not pro
 There are several VFR routes established in the ES TMA to faciliate the movement of civil VFR traffic.
 
 <figure markdown>
-![VFR Routes in the ES TMA](img/esl_vfr_routes.png){ width="700" }
+![VFR Routes in the ES TMA](/img/esl_vfr_routes.png){ width="700" }
 <figcaption>VFR Routes in the ES TMA</figcaption>
 </figure>
 
@@ -237,7 +237,7 @@ As a **landing clearance is not given**, aircraft should instead be informed of 
 
 ### Special Use Airspace
 <figure markdown>
-![Notable SUA in the ES TMA](img/es_sua.png){ width="700" }
+![Notable SUA in the ES TMA](/img/es_sua.png){ width="700" }
   <figcaption>Notable SUA in the ES TMA</figcaption>
 </figure>
 
