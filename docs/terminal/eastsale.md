@@ -101,7 +101,7 @@ Aircraft requesting clearance to operate in the area shall be cleared a 'ROULETT
 !!! note
     ACD shall write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
     
-When the area is active the [ATIS should be updated](#specified-training-area-activations) to reflect the activation.
+When the area is active the [ATIS should be updated](../../aerodromes/classc/EastSale/#specified-training-area-activations) to reflect the activation.
 
 ### Training Areas
 The ES TMA is divided into sixteen individual training areas to facilitate local training operations. 
