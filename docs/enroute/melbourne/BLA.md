@@ -35,11 +35,11 @@
 		BLA does not assume the CB TCU in the absence of a CB TCU controller. Assumption of the CB TCU is the responsibility of WOL. Controllers may choose to verbally coordinate the release of the CB TCU to either sector/subsector.
 	
 === "ES TCU"
-	When **ESA** is offline, the restricted airspace within R360 is deactivated and the airspace is administered by BLA and HUO(WON). 
-
-	!!! note
+	The restricted airspace around YMES is classified as Class G by default, and is only reclassified as controlled airspace when **ESA** is online. When **ESA** is offline, the area remains Class G, and is administered by BLA and HUO(WON).
+    
+    !!! note
 		BLA does not assume the ES TCU in the absence of ESA. Assumption of the ES TCU is the responsibility of HUO(WON). Controllers may choose to verbally coordinate the release of the ES TCU to either sector/subsector.
-
+    
 ## Departure and Arrival Procedures
 ### YMAV
 #### STAR Assignment
@@ -71,7 +71,8 @@ All sequencing is performed by BLA.
 All sequencing, including ascertaining arrival intentions, is performed by ELW.
 
 ### YMES
-BLA and ELW share responsibility for facilitating operations at YMES departing to/arriving from the north.
+#### Sequencing
+BLA and ELW share responsibility for sequencing arrivals to YMES from the north.
 
 ### YMML
 #### STAR Assignment

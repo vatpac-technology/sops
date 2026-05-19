@@ -324,6 +324,7 @@
 *[FREM]: Fremantle Golf Course
 *[FTAs]: Flying Training Areas
 *[FWO]: Freeway Overpass
+*[FYN]: Flynn
 *[GGO]: Goonoo Goonoo Station
 *[GIRU]: Giru
 *[GMH]: GMH (General Motors Holden)
@@ -340,8 +341,10 @@
 *[KRMD]: Kurmond
 *[KSPT]: Kissing Point
 *[LAUD]: Lauderdale
+*[LKEE]: Lakes Entrance
 *[LOWS]: Lindenow South
 *[LPT]: Lee Point
+*[LSR]: Loch Sport
 *[LTV]: Latrobe Valley
 *[LUY]: Latrobe University
 *[MAL]: Manilla
@@ -351,6 +354,7 @@
 *[MB]: Moorabbin
 *[MCG]: Melbourne Cricket Ground
 *[MEG]: Menangle
+*[MGBH]: McGauran Beach
 *[MMT]: Mt Margaret
 *[MNG]: Mangalore
 *[MTWK]: Mount Walker
@@ -402,6 +406,7 @@
 *[TWRN]: Two R N
 *[UQLD]: University of Queensland
 *[WBH]: Wallabadah
+*[WELS]: Welshpool
 *[WEP]: West Pt
 *[WES]: West Gate Bridge
 *[WILE]: Willeroo

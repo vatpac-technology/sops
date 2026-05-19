@@ -11,7 +11,7 @@
 | **East Sale ADC** | **Sale Tower**        | **118.300** | **ES_TWR**    |
 | **East Sale SMC** | **Sale Ground**       | **127.250** | **ES_GND**    |
 | **East Sale ACD** | **Sale Delivery**     | **134.100** | **ES_DEL**    |
-| **East Sale ATIS** |                      | **125.40**  | **YMES_ATIS** |
+| **East Sale ATIS** |                      | **125.400** | **YMES_ATIS** |
 
 !!! note
     YMES is a [military aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
@@ -217,7 +217,7 @@ The controller assuming responsibility of **ACD** shall give [heads-up](../../..
 
 !!! phraseology
     <span class="hotline">**ES ACD** -> **ESA**</span>: "HDSN11 requests clearance to R360D"  
-    <span class="hotline">**TESA** -> **ES ACD**</span>: "HDSN11, clearance approved."  
+    <span class="hotline">**ESA** -> **ES ACD**</span>: "HDSN11, clearance approved."  
 
 ## Charts
 !!! abstract "Reference"

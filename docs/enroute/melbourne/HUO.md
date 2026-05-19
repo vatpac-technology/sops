@@ -23,10 +23,7 @@
 
 ### Reclassifications
 === "ES TCU"
-	When **ESA** is offline, the restricted airspace within R360 is deactivated and the airspace is administered by BLA and WON. Alternatively, WON may provide a [top-down service](../../../aerodromes/classc/EastSale) if they wish (not recommended), and this must be coordinated to BLA.
-
-	!!! tip
-		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
+	The restricted airspace around YMES is classified as Class G by default, and is only reclassified as controlled airspace when **ESA** is online. When **ESA** is offline, the area remains Class G, and is administered by BLA and WON.
 	
 === "TAS TCU"
 	When **HBA** and/or **LTA** are offline, the class C and D airspace `SFC` to `A085` in the relevant TMA is reclassified as class G.
@@ -43,7 +40,15 @@
 
 ## Departure and Arrival Procedures
 ### YMES
-WON is responsible for facilitating operations at YMES departing to/arriving from the south.
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
+
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| WON  | ANOSO<br>PAPDO | All     | |
+
+#### Sequencing
+WON is responsible for sequencing arrivals at YMES from the south.
 
 ### YMHB
 #### STAR Assignment
