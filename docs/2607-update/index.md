@@ -87,7 +87,7 @@ Operations at Sydney (YSSY) are being adjusted to accommodate the new airport an
 - The lateral boundaries of the SY ADC CTR are also changing to match new CTA boundaries.
 - The Erskineville and Georges River Helicopter Coded Clearances have been retired, as has the Harbour Scenic Two route.
 
-Please see the **[Upcoming Sydney (YSSY) SOPs](./Sydney)** for full details about aerodrome operations.
+Please see the **[Upcoming Sydney (YSSY) SOPs](./sydney-ad)** for full details about aerodrome operations.
 
 ##### Bankstown Airport (YSBK) Changes
 Bankstown (YSBK) is located between YSWS and YSSY, and the new controlled airspace in the area has led to profound changes to operations at the airport.
@@ -95,6 +95,8 @@ Bankstown (YSBK) is located between YSWS and YSSY, and the new controlled airspa
 - The Bankstown CTR has grown in size, and now adjoins newly introduced Class D airspace beneath the Class C steps in the SY TMA. This airspace will be controlled by SBA (*'Bankstown Approach'*), a SY TCU position.
 - All VFR movements should now be conducted via a newly introducted coded clearances. These coded clearances give specific routes for aircraft to follow as they transit SBA airspace.
 - A new set of SIDs have been introduced to facilitate IFR departures.
+
+Please see the **[Upcoming Bankstown (YSBK) SOPs](./Bankstown)** for full details about aerodrome operations.
 
 ##### Camden Airport (YSCN) Changes
 Camden (YSCN) is located close to the southern boundary of the WS CTR.
