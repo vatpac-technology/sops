@@ -47,7 +47,10 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 #### Reciprocal Runway Operations
 During Reciprocal Runway Operations (RRO) aircraft will depart and arrive in opposite directions on the same runway.
 
-The RRO procedures on YSWS are designed to utilise airspace vacated by [YSSY Curfew Operations](../Sydney/#preferred-runway-modes). Outside of YSSY curfew hours, or when YSSY is using a non-curfew runway mode, the RRO runway mode **should not** be used.
+The RRO procedures on YSWS are designed to utilise airspace vacated by [YSSY Curfew Operations](../Sydney/#preferred-runway-modes). Outside of YSSY curfew hours, or when YSSY is using a non-curfew runway mode, the RRO runway mode **must not** be used.
+
+!!! tip
+    There is no requirement to nominate RRO during the hours listed above. RRO must only be nominated when the prevailing meteorological conditions allow. 
 
 ## SID Selection
 !!! tip
@@ -73,8 +76,8 @@ YSWS uses four different SID designators to differentiate between different vari
 		| Jet     | LEECE<br>NWA NDB | **TONTO D** SID, Relevant Transition | 
 		| Jet     | All others | RADAR SID |
 		| Non-Jet | DIPSO<br>KAMBA<br>NOBAR | **KAMBA D** SID, Relevant Transition |
-		| Non-Jet | North and East | **ISDIT D** SID |
-		| Non-Jet | South and West | **ADPAV D** SID |
+        | Non-Jet | South<br>Southeast<br>Southwest | **ADPAV D** SID |
+		| Non-Jet | All others | **ISDIT D** SID |
 		
 	=== "Hot/Heavy"
 		| Type    | Via      | SID           |
@@ -107,7 +110,7 @@ YSWS uses four different SID designators to differentiate between different vari
 		| Jet     | All others | RADAR SID |
 		| Non-Jet | EXETA<br>NWA NDB<br>WOL NDB | **REGER D** SID, Relevant Transition |
 		| Non-Jet | North and East | **LEKID D** SID |
-		
+        | Non-Jet | All others | RADAR SID |
 		
 	=== "Hot/Heavy"
 		| Type    | Via      | SID           |
@@ -138,11 +141,13 @@ YSWS uses four different SID designators to differentiate between different vari
 		| Jet     | PKS VOR  | **TEEVE Q** SID, Relevant Transition |
 		| Non-Jet | KAMBA    | **KAMBA Q** SID |
 		| Non-Jet | All others | As per Jets |
+        
+         Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
 
 ## ATIS
 ### Operational Info
-The Operational Information field should be updated to reflect the level of controlled airspace within the SY C10 area when it is lowered overnight.
+The OPR INFO field should be updated to reflect the level of controlled airspace within the SY C10 area when it is lowered overnight.
 
 | Condition    | OPR INFO Field |
 | ------------ | -------------- |

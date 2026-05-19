@@ -75,7 +75,11 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 | Others | Feeder Fix | - |
 
 ### YSRI
-GUN and KAT share responsibility for facilitating operations at YSRI departing to/arriving from the west/southwest.
+#### STAR Assignment
+The first subsector to control an aircraft bound for YSRI is responsible for issuing STAR clearance for aircraft via RUPEM.
+
+#### Sequencing
+Sequencing arrivals into YSRI is a joint responsibility of all the subsectors of GUN. Initial sequencing actions should be performed by GUN or BIK as required, with fine tuning performed by KAT.
 
 ### YSSY
 #### STAR Assignment
