@@ -5,7 +5,7 @@
 --8<-- "includes/abbreviations.md"
 
 ## Airspace Division
-Standard airspace division will be in use as per [CS TCU Local Instructions](../../../../../../terminal/cairns/#airspace-division).
+Standard airspace division will be in use as per [CS TCU Local Instructions](../../../../../../../../terminal/cairns/#airspace-division).
 
 **CS1** will handle all departures **regardless of duty runway**.
 
@@ -30,7 +30,7 @@ Ensure that event traffic gets priority over non-event traffic.
 KEN will instruct all arrivals to cross **OVLET** at **250 knots**, then *published STAR speeds*.
 
 ## WorldFlight Teams
-[WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
+WorldFlight Teams will be highlighted by default and should receive priority at all stages of flight.
 
 <figure markdown>
 ![WF Team Highlight](../img/wfteam.png){ width="400" }
@@ -58,4 +58,4 @@ Voiceless for all aircraft:
 All other aircraft going to KEN CTA will be **Heads-up** Coordinated.
 
 ### KEN to CS TCU
-Standard as per [CS TCU Local Instructions](../../../../../../terminal/cairns/#arrivals_1)
+Standard as per [CS TCU Local Instructions](../../../../../../../../terminal/cairns/#arrivals_1)

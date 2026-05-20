@@ -127,8 +127,8 @@ In VMC, light aircraft travelling between YBTL and YPAM should be cleared a '**C
 | Duty RWY     | Clearance            | Tracking Points    | Notes |
 | ------------ | -------------------- | ------------------ | ----- |
 | RWY 01 or 07 | CORDELIA Outbound    | `YBTL RDRS RKI052005 YPAM` | Aircraft to remain east of RDRS and *Cordelia Rocks* (RKI052005) |
-| RWY 01 or 07 | RATTLESNAKE Outbound | `YBTL MBHR RKI YPAM`       | When [R747 restricted area](../../../terminal/Townsville/#r747-rattlesnake-island) is active, expect amended tracking |
-| RWY 19 or 25 | RATTLESNAKE Inbound  | `YPAM RKI MBHR YBTL`       | When [R747 restricted area](../../../terminal/Townsville/#r747-rattlesnake-island) is active, expect amended tracking 
+| RWY 01 or 07 | RATTLESNAKE Inbound  | `YBTL MBHR RKI YPAM`       | When [R747 restricted area](../../../terminal/townsville/#r747-rattlesnake-island) is active, expect amended tracking |
+| RWY 19 or 25 | RATTLESNAKE Outbound | `YPAM RKI MBHR YBTL`       | When [R747 restricted area](../../../terminal/townsville/#r747-rattlesnake-island) is active, expect amended tracking 
 | RWY 19 or 25 | CORDELIA Inbound     | `YPAM RKI052005 RDRS YBTL` | Aircraft to remain east of RDRS and *Cordelia Rocks* (RKI052005) |
 
 !!! phraseology
@@ -138,7 +138,7 @@ In VMC, light aircraft travelling between YBTL and YPAM should be cleared a '**C
 !!! note
     ACD shall update the pilot's route and write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
 
-#### Military Gates
+### Military Gates
 There are several [military gates](../../../controller-skills/military/#military-gates) established throughout the TL TMA to facilitate entry and exit to adjoining SUA.
 
 <figure markdown>
@@ -188,7 +188,7 @@ There are six VFR routes established in and around the YBTL TMA to facilitate VF
   <figcaption>YBTL VFR Routes</figcaption>
 </figure>
 
-| VFR Routes     | Outbound                     | Inbound                              |
+| VFR Routes     | Inbound                      | Outbound                             |
 | -------------- | ---------------------------- | ------------------------------------ | 
 | Clevedon		 | TL - 771ft Hill - CEN - GIRU | GIRU - CEN - 771ft Hill - Abeam SUNZ |
 | Thornton North | TL - MBC - TNP               | TNP - MBC - TL                       |
@@ -352,7 +352,7 @@ Aircraft **not** planned via any of these waypoints shall receive amended routin
 Light and **non-RNAV** aircraft shall be assigned a visual departure in VMC.
 
 #### CATEY Departures
-When the [R738A restricted area](../../../terminal/Townsville/r738a-h-townsville-land) is active, aircraft planned via **CATEY** shall be assigned the **ANRUB** (if southbound) or **CARMN** (if northbound) SID.
+When the [R738A restricted area](../../../terminal/townsville/#r738a-h-townsville-land) is active, aircraft planned via **CATEY** shall be assigned the **ANRUB** (if southbound) or **CARMN** (if northbound) SID.
 
 ### Military Aircraft
 Military aircraft that are unable to accept a procedural SID are generally processed through visual departures.

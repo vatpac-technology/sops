@@ -14,10 +14,10 @@
 *Single Runway* Operations and *SODPROPS* shall not be used.
 
 ## Workload Management
-Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../client/towerstrips/#recommended-workflow).
+Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../../client/towerstrips/#workflow).
 
 !!! tip
-    The following OzStrips [keyboard shortcuts](../../../client/towerstrips.md#keyboard-shortcuts) may assist controllers managing busy frequencies:
+    The following OzStrips [keyboard shortcuts](../../../../client/towerstrips.md#keyboard-shortcuts) may assist controllers managing busy frequencies:
 
     - `T`: Selects the strip of the last aircraft to transmit on frequency  
     - `W`: Highlight the strip of the last aircraft to transmit on frequency
@@ -36,7 +36,7 @@ If an aircraft has filed an *incorrect* route and you need to give an amended cl
     **BN ACD:** *"AMENDED ROUTE CLEARANCE. CLEARED TO YSSY VIA SANEG H91 IGDAM H652 TESAT DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
 
 ### WorldFlight Teams
-[WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by OzStrips and should receive priority at all stages of flight.
+WorldFlight Teams will be highlighted by OzStrips and should receive priority at all stages of flight.
 
 <figure markdown>
 ![WF Team Highlight in OzStrips](../img/wfteamozstrips.png){ width="500" }
@@ -69,7 +69,7 @@ Departures from Runway 01R and 19R shall be given the BDS frequency (118.45).
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect, prioritising those who connected first. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
 
-The [PDC Indicator](../../../client/towerstrips.md#strips) will be displayed on a strip when a PDC has been sent to that pilot.
+The [PDC Indicator](../../../../client/towerstrips.md#strips) will be displayed on a strip when a PDC has been sent to that pilot.
 
 !!! tip
     OzStrips displays strips in the Preactive bay ordered by connection time. Aircraft who connected first are shown down the bottom of the bay.
@@ -83,7 +83,7 @@ SMC Domestic and South will be responsible for delaying aircraft's pushback requ
 If there are more than **5** aircraft in the queue at the Holding Point for *any runway*, do not approve any more pushback requests.
 
 #### OzStrips
-All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../../../client/towerstrips/#recommended-workflow) for OzStrips.
+All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../../../../client/towerstrips/#workflow) for OzStrips.
 
 Ensure the Queue function is used to actively to keep track of the order of requests.
 

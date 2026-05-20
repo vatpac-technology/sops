@@ -91,7 +91,7 @@ Air transit allows helicopters to proceed directly between two points on the aer
 	
 	**AS ADC**: "SVY801, air transit to the southern airpark, cross runway 12."
 	
-Before an SMC gives an air transit instruction to a helicopter, they must [coordinate with ADC](../coordination#air-transit).
+Before an SMC gives an air transit instruction to a helicopter, they must [coordinate with ADC](../coordination/#helicopter-air-transit).
 
 !!! tip 
     Where air transit will be prolonged or conflicts with other traffic are likely, consider issuing a takeoff/landing clearance instead.
@@ -130,7 +130,7 @@ This also applies to helicopters departing helipads away from the aerodrome but 
 
 !!! phraseology 
     *RSCU203 is a VFR AW139 helicopter inbound from the southwest for Southcare Base (YXSB), within the CB CTR*  
-    **RSCU203**: "Canberra Tower, gday, RSCU203"
+    **RSCU203**: "Canberra Tower, gday, RSCU203"  
     **CB ADC**: "RSCU203, Canberra Tower, report on the ground"
 	
 #### Visual Holds

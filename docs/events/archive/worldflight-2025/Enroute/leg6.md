@@ -48,7 +48,7 @@ Minimum distance between arrivals at handoff to SAN/SAS is **10nm** (with no sig
     Track shortening direct to MARLN may help to close any gaps ahead of aircraft.
 
 ##### MAESTRO
-If a Flow controller is online, the [MAESTRO](../../../client/maestro.md) plugin should be used to determine the landing sequence. Enroute positions must ensure they comply with any sequencing instructions set out by Flow and communicated through the plugin.
+If a Flow controller is online, the [MAESTRO](../../../../client/maestro.md) plugin should be used to determine the landing sequence. Enroute positions must ensure they comply with any sequencing instructions set out by Flow and communicated through the plugin.
 
 !!! note
     The MAESTRO plugin has been included in the Australia dataset by default for the event.
@@ -77,7 +77,7 @@ ARL will be responsible for the ARL and MNN subsectors **only**.
 Minimum distance between arrivals at handoff to SAN/SAS is **10nm** (with no significant closing speed). It is important to try not to exceed **15nm**, due to the large number of arrivals.
 
 ##### MAESTRO
-If a Flow controller is online, the [MAESTRO](../../../client/maestro.md) plugin should be used to determine the landing sequence. Enroute positions must ensure they comply with any sequencing instructions set out by Flow and communicated through the plugin.
+If a Flow controller is online, the [MAESTRO](../../../../client/maestro.md) plugin should be used to determine the landing sequence. Enroute positions must ensure they comply with any sequencing instructions set out by Flow and communicated through the plugin.
 
 !!! note
     The MAESTRO plugin has been included in the Australia dataset by default for the event.
@@ -94,7 +94,7 @@ Most official team aircraft will depart from YBCG and track via **WLM** to facil
 !!! warning "Important"
     The YBCG to WLM track approximates a northbound airway. Be vigilant for any aircraft departing YSSY to the north who may conflict with the southbound aircraft.
 
-[WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
+WorldFlight Teams will be highlighted by default and should receive priority at all stages of flight.
 
 <figure markdown>
 ![WF Team Highlight](../img/wfteam.png){ width="400" }
@@ -129,15 +129,15 @@ Changes to Route and CFL are **permitted** within **50nm** of the boundary, with
 Aircraft must be tracking via **BOREE**.
 
 ### CNK/OCN to SAS/SAN
-Standard as per [ARL Local Instructions](../../../../../../enroute/Brisbane Centre/ARL/#arrivalsoverfliers).
+Standard as per [ARL Local Instructions](../../../../../enroute/brisbane/ARL/#arrivalsoverfliers).
 
 **BOREE** Arrivals will be handed off to SAN.  
 **MARLN** Arrivals will be handed off to SAS.  
 
 #### Between ARL/CNK and SFL
-SFL will construct the sequence via the [Arrivals List Window](../../../../../../controller-skills/sequencing/#arrivals-list).
+SFL will construct the sequence via the [Arrivals List Window](../../../../../../../../controller-skills/sequencing/#arrivals-list).
 
-Appropriate annotations for the Arrivals List Window can be found [here](../../../../../../client/annotations/#sequencingflow).
+Appropriate annotations for the Arrivals List Window can be found [here](../../../../../../../../client/annotations/#sequencingflow).
 
 SFL must **voice coordinate** any changes to instructions after ARL/CNK/OCN has put a `<` on it.
 

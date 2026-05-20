@@ -146,21 +146,21 @@ The ARL subsector is additionally responsible for issuing the **STORM 2** coded 
 
 ## Local Procedures
 ### Special Use Airspace
-There are multiple volumes of [SUA](../../controller-skills/sua) within ARL airspace, mostly associated with military operations in and out of YWLM.
+There are multiple volumes of [SUA](../../../controller-skills/sua/) within ARL airspace, mostly associated with military operations in and out of YWLM.
 
 <figure markdown>
 ![Notable SUA in ARL Airspace](../img/arl_sua.png){ width="700" }
   <figcaption>Notable SUA in ARL Airspace</figcaption>
 </figure>
 
-WLM TCU must [give heads up coordination](../../terminal/williamtown/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
+WLM TCU must [give heads up coordination](../../../terminal/williamtown/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
 
 !!! phraseology
     <span class="hotline">**WAL** -> **ARL**</span>: "On the groud YWLM, PTHR11, requests activation of R560A `A085-F240`, from 0300 until 0500.”  
     <span class="hotline">**ARL** -> **WAL**</span>: "PTHR11, expect activation of R560A `A085-F240` at 0300 until 0500."   
     <span class="hotline">**WAL** -> **ARL**</span>: "PTHR11."  
     
-Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../sua/#ad-hoc-activations).
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../controller-skills/sua/#ad-hoc-activations).
 
 #### M581-M584 Williamtown
 The M581-M584 MOAs are located offshore within the MLD, MNN, OCN, and TSN(HWE) subsectors.
@@ -180,7 +180,7 @@ When activated these MOAs significantly disrupt traffic on the busy **A579**, **
 The **W149** and **W768** low altitude airways, connecting YLHI to YWLM and YPMQ, are also affected, requiring extensive rerouting or facilitated transit through the SUA.
 
 !!! note
-	 Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../sua/#separation-from-sua)  laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../sua/#controlled-airspace) clearance with all parts of the SUA.
+	 Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../../controller-skills/sua/#separation-from-sua)  laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../../controller-skills/sua/#controlled-airspace) clearance with all parts of the SUA.
 
 #### R560 & R570 Williamtown
 The R560A-B and R570A-H restricted areas are located west of YWLM and YSTW within the ARL and MDE subsectors. The restricted areas are connected to the WLM TCU by the **Thunder Corridor**.
@@ -223,7 +223,7 @@ When activated these restricted areas distrupt traffic on the **Q16**, **Q235**,
 Aircraft travelling below `F240` on the **H66**, **H76**, and **Q35** airways are also disrupted, most directly affecting aircraft departing YSBK to the northwest, and aircraft climbing out of YSSY via RIC. These aircraft may be given altitude requirements to assure separation with the restricted areas, where appropriate.
 
 !!! note
-	Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../sua/#separation-from-sua)  laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../sua/#controlled-airspace) clearance with all parts of the SUA.
+	Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../../controller-skills/sua/#separation-from-sua) laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../../controller-skills/sua/#controlled-airspace) clearance with all parts of the SUA.
     
 #### R585-R586 Williamtown
 The R585A-D and R586A-C restricted areas are located north of the WLM TCU in the ARL and MNN subsectors.
@@ -231,7 +231,7 @@ The R585A-D and R586A-C restricted areas are located north of the WLM TCU in the
 The MOAs directly adjoin the WLM TCU, and when WAL is online aircraft will be transferred directly to/from the restricted areas. When [WAL is offline](#reclassifications), aircraft will contact ARL for transit through the surrounding civilian airspace.
 
 #### Amberley SUA
-There are three SUA associated with military operations at [Amberley](../../terminal/amberleyoakey) which clip ARL airspace: the R639D restricted area, located northeast of MOR VOR partially in the MDE subsector, and the M661A and M670A-B MOAs, which clips MNN airspace offshore east of YCFS.
+There are three SUA associated with military operations at [Amberley](../../../terminal/amberleyoakey/) which clip ARL airspace: the R639D restricted area, located northeast of MOR VOR partially in the MDE subsector, and the M661A and M670A-B MOAs, which clips MNN airspace offshore east of YCFS.
 
 AMA (or INL(DOS, INL, SDY) on their behalf) will coordinate the activation these SUA **prior** to any activity.
 

@@ -97,7 +97,7 @@ If the pilot **does not** nominate a gate, or nominates a gate that does not pro
     [Coordination requirements](#acd-to-wlm-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU before providing clearance
     
 ### Military Corridors
-There are two [military corridors](../controller-skills/military/#military-corridors) established around the WLM TCU to facilitate transit of military aircraft between the TCU and adjoining SUAs.
+There are two [military corridors](../../controller-skills/military/#military-corridors) established around the WLM TCU to facilitate transit of military aircraft between the TCU and adjoining SUAs.
 
 <figure markdown>
 ![WLM TCU Military Corridors](img/wlm_mil_corridors.png){ width="700" }
@@ -128,7 +128,7 @@ Aircraft will access the corridor through the **[Lightning Gate](#military-gates
 The corridor itself is located entirely within SUA, and aircraft entering the corridor from WLM TCU airspace do not need to be handed off to ARL if the restricted areas are active. 
 
 !!! phraseology
-    **WAL**: "WGTL45 at LG cleared operating, report [ops normal](../controller-skills/airwork/#ops-normal) time 30."  
+    **WAL**: "WGTL45 at LG cleared operating, report [ops normal](../../controller-skills/airwork/#ops-normal) time 30."  
     **WGTL45**: "At LG cleared operating, ops normal time 30, WGTL45."  
     
 Aircraft transiting the Thunder Corridor should be assigned the appropriate altitude to ensure separation with opposite direction traffic while transiting to their desired restricted area.
@@ -160,7 +160,7 @@ WLM TCU is not responsible for assigning subareas, or ensuring separation betwee
 When an aircraft has declared an intention to operate within a subarea, the WLM TCU may provide a traffic statement to help provide situational awareness to the departing aircraft.
 
 !!! phraseology 
-    **WAL**: "WGTL46 at LG cleared operating, number 2 in Bravo One and Charlie One, report [ops normal](../controller-skills/airwork/#ops-normal) time 30.
+    **WAL**: "WGTL46 at LG cleared operating, number 2 in Bravo One and Charlie One, report [ops normal](../../controller-skills/airwork/#ops-normal) time 30.
     
 ### Special Use Airspace
 #### Salt Ash SUA
@@ -186,7 +186,7 @@ In times of heavy military traffic, WLM TCU may choose to nominate [stereo appro
 Aircraft arriving from Gates 1-4 and 6 will join the stereo approach at the gate; other aircraft may start the approach from overhead WLM TAC.
 
 !!! phraseology
-    *WGTL45 is returning from M581 via Gate 6, and has already been identified. Runway 30 is in use.*
+    *WGTL45 is returning from M581 via Gate 6, and has already been identified. Runway 30 is in use.*  
     **WGTL45**: "Willy Approach, WGTL45. `F150` visual, for stereo approach with information A."  
     **WAL**: "MAPL45, Willy Approach, cleared stereo approach. At 11 TACAN WLM contact Tower, 118.3"  
     **MAPL45**: "Cleared stereo approach, tower at 11 TACAN WLM, WGTL45"

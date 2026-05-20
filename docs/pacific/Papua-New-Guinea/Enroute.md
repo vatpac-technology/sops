@@ -96,10 +96,10 @@ The Standard Assignable level from AYPM to AYNZA is `F250`. Any other level must
 
 ### Class F Aerodromes
 #### Departures and Arrivals
-As per [Standard coordination procedures](../../controller-skills/coordination/#octa-coordination), coordination between ADC and AYPM is **not required**. However, a **5 minute** change parameter applies to any aircraft that change level, route, or taxi within **5 minutes** of the next sector's airspace.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#octa-coordination), coordination between ADC and AYPM is **not required**. However, a **5 minute** change parameter applies to any aircraft that change level, route, or taxi within **5 minutes** of the next sector's airspace.
 
 #### Overfliers
-As per [Standard coordination procedures](../../controller-skills/coordination/#octa-coordination), coordination between ADC and AYPM is **not required**. However, a **5 minute** change parameter applies to any aircraft that change level, route, or taxi within **5 minutes** of the next sector's airspace.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#octa-coordination), coordination between ADC and AYPM is **not required**. However, a **5 minute** change parameter applies to any aircraft that change level, route, or taxi within **5 minutes** of the next sector's airspace.
 
 IFR aircraft may either be handed off to the ADC frequency by AYPM, or held on the AYPM frequency following coordination if there is no relevant traffic.
 
@@ -110,10 +110,10 @@ IFR aircraft may either be handed off to the ADC frequency by AYPM, or held on t
     AYPM CTR will put *"AYMH NFR NIT"* in the label data, and the aircraft will remain on the ENR frequency.
 
 ### International (ISA(ARA)/KEN(WIL))
-As per [Standard coordination procedures](../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
     
 ### Pacific Oceanic (TSN(COL)/KZAK)
-As per [Standard coordination procedures](../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
 
 Aircraft must have their identification terminated and be instructed to make a position report on first contact with the next (procedural) sector.
 
@@ -121,7 +121,7 @@ Aircraft must have their identification terminated and be instructed to make a p
     **AYPM**: "SOL712, identification terminated, report position to Brisbane Radio, 124.65"
 
 ### International (WAAF)
-As per [Standard coordination procedures](../../controller-skills/coordination/#other-units), Heads-up Coordination required for all aircraft prior to **30 mins** from boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#other-units), Heads-up Coordination required for all aircraft prior to **30 mins** from boundary.
 
 !!! phraseology
     <span class="coldline">**AYPM** -> **WAAF_CTR**</span>: "Estimate, ANG8, KADAB time 59, F380"  

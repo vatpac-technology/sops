@@ -6,7 +6,7 @@
 
 ## Airspace Division
 ### Runway 11
-Standard airspace division will be in use as per [DN TCU Local Instructions](../../../../../../terminal/darwin/#airspace-division).
+Standard airspace division will be in use as per [DN TCU Local Instructions](../../../../../../../../terminal/darwin/#airspace-division).
 
 ### Runway 29
 Non-Standard airspace division will be in use.
@@ -32,7 +32,7 @@ Ensure that event traffic gets priority over non-event traffic.
 TRT will instruct all arrivals to cross **ANUPA** at **250 knots**, then *published STAR speeds*.
 
 ## WorldFlight Teams
-[WorldFlight Teams](../../../../#official-team-callsigns) will be highlighted by default and should receive priority at all stages of flight.
+WorldFlight Teams will be highlighted by default and should receive priority at all stages of flight.
 
 <figure markdown>
 ![WF Team Highlight](../img/wfteam.png){ width="400" }
@@ -65,4 +65,4 @@ Voiceless for all aircraft:
 All other aircraft going to ARA CTA will be **Heads-up** Coordinated.
 
 ### TRT to DN TCU
-Standard as per [DN TCU Local Instructions](../../../../../../terminal/darwin/#arrivals)
+Standard as per [DN TCU Local Instructions](../../../../../../../../terminal/darwin/#arrivals)

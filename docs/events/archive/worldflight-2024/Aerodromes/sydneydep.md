@@ -15,7 +15,7 @@ An additional Non-Standard position for Sydney ACD will be used
 **16 PROPS** and **34 PROPS** are the available Runway Modes, with equal preference. Any other Runway Mode may **only** be used with approval from the Events Coordinator.
 
 ## Workload Management
-Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../client/towerstrips/#recommended-workflow). 
+Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../../client/towerstrips/#workflow). 
 
 ## Airways Clearance Delivery (ACD)
 ### Flight Plan Compliance
@@ -64,7 +64,7 @@ YSSY will have a non-standard second ACD Controller.
 **SY-C_DEL** will be responsible for:
 
 - Checking [Flight Plan compliance](#flight-plan-compliance)
-- Entering Flight Data (Setting [Runway](#runway-selection), [SID](#sid-selection) and [CFL](../../../../aerodromes/classc/Sydney/#auto-release))
+- Entering Flight Data (Setting [Runway](#runway-selection), [SID](#sid-selection) and [CFL](../../../../../aerodromes/classc/Sydney/#auto-release))
 - Sending [PDCs](#pdcs)
 
 SY-C_DEL has *no frequency*, and will not talk to aircraft by voice.
@@ -100,13 +100,13 @@ PDCs will be in use by default, to avoid frequency congestion. ACD shall send a 
     OzStrips displays strips in the Preactive bay ordered by connection time. Aircraft who connected first are shown down the bottom of the bay.
 
 ## Coordinator
-Coordinator operations shall be conducted in accordance with the Sydney Aerodrome [Coordinator](../../../../aerodromes/classc/Sydney/#sydney-coordinator) procedures, using the OzStrips plugin.
+Coordinator operations shall be conducted in accordance with the Sydney Aerodrome [Coordinator](../../../../../aerodromes/classc/Sydney/#sydney-coordinator) procedures, using the OzStrips plugin.
 
 !!! warning "Important"
     Official WorldFlight teams should be afforded priority when requesting pushback or taxi (if no pushback required), and placed ahead of other non-official aircraft.
 
 ### OzStrips
-All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../../../client/towerstrips/#recommended-workflow) for OzStrips.
+All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../../../../client/towerstrips/#workflow) for OzStrips.
 
 Coordinator must place a `MONITOR GROUND EAST` & `MONITOR GROUND WEST` bar in the **Cleared Bay Queue** and queue any aircraft who request pushback or taxi (if no pushback required) in the Cleared Bay.
 
@@ -133,7 +133,7 @@ If three strips are already present below a respective bar, any subsequent aircr
     **SY COORD**: "Velocity 318, Coordinator, remain this frequency, approximate 5 minute delay due traffic congestion"
 
 !!! warning "Important"
-    Ensure aircraft are [squawking mode C and the correct code](../../../../client/towerstrips/#strips) before instructing them to monitor ground.
+    Ensure aircraft are [squawking mode C and the correct code](../../../../../client/towerstrips/#strips) before instructing them to monitor ground.
 
 ### Delay Expectation
 Aircraft can expect **extensive** delays for Pushback during the event, possibly *multiple hours*. Try to keep pilots informed of their delay expectation, either by providing a figure in minutes, or a position in the queue.
@@ -144,7 +144,7 @@ Aircraft can expect **extensive** delays for Pushback during the event, possibly
 
 ## Surface Movement Control (SMC)
 ### OzStrips
-With two SMC controllers online, utilise [strip bay bars](../../../../client/towerstrips/#multiple-adcsmc-positions) to keep the **Taxi** and **Holding Point** strip bays organised.
+With two SMC controllers online, utilise [strip bay bars](../../../../../client/towerstrips/#multiple-adcsmc-positions) to keep the **Taxi** and **Holding Point** strip bays organised.
 
 ### Departures
 With Coordinator online, aircraft will request pushback on the Coordinator frequency and be told to monitor the applicable SMC frequency when appropriate. These pilots will be waiting for you to initiate contact with them.
@@ -168,7 +168,7 @@ SMC West should protect the Alpha 2 rapid exit and utilise taxiways Yankee and J
 
 ## Tower Control (ADC)
 ### OzStrips
-With two SMC controllers online, utilise [strip bay bars](../../../../client/towerstrips/#multiple-adcsmc-positions) to keep the **Holding Point** and **Runway** strip bays organised.
+With two SMC controllers online, utilise [strip bay bars](../../../../../client/towerstrips/#multiple-adcsmc-positions) to keep the **Holding Point** and **Runway** strip bays organised.
 
 ### Departure Spacing
 While PROPS are in use, subsequent departures from the same runway **must** be spaced by **3 minutes**, to assist with arrival flow in to YPAD.
@@ -198,7 +198,7 @@ The ATIS OPR INFO shall include:
 ## Coordination
 ### SY TCU
 #### Auto Release
-Standard as per [YSSY Local Instructions](../../../../aerodromes/classc/Sydney/#auto-release), with the exception of auto-release being available for the following:
+Standard as per [YSSY Local Instructions](../../../../../aerodromes/classc/Sydney/#auto-release), with the exception of auto-release being available for the following:
 
 - 16L/34R Departure SID: **SY3** RADAR
 - 16L/34R Standard Assignable Departure Heading: **H120**
