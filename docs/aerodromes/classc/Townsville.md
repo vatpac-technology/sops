@@ -127,8 +127,8 @@ In VMC, light aircraft travelling between YBTL and YPAM should be cleared a '**C
 | Duty RWY     | Clearance            | Tracking Points    | Notes |
 | ------------ | -------------------- | ------------------ | ----- |
 | RWY 01 or 07 | CORDELIA Outbound    | `YBTL RDRS RKI052005 YPAM` | Aircraft to remain east of RDRS and *Cordelia Rocks* (RKI052005) |
-| RWY 01 or 07 | RATTLESNAKE Inbound  | `YBTL MBHR RKI YPAM`       | When [R747 restricted area](../../../terminal/Townsville/#r747-rattlesnake-island) is active, expect amended tracking |
-| RWY 19 or 25 | RATTLESNAKE Outbound | `YPAM RKI MBHR YBTL`       | When [R747 restricted area](../../../terminal/Townsville/#r747-rattlesnake-island) is active, expect amended tracking 
+| RWY 01 or 07 | RATTLESNAKE Outbound | `YBTL MBHR RKI YPAM`       | When [R747 restricted area](../../../terminal/Townsville/#r747-rattlesnake-island) is active, expect amended tracking |
+| RWY 19 or 25 | RATTLESNAKE Inbound  | `YPAM RKI MBHR YBTL`       | When [R747 restricted area](../../../terminal/Townsville/#r747-rattlesnake-island) is active, expect amended tracking 
 | RWY 19 or 25 | CORDELIA Inbound     | `YPAM RKI052005 RDRS YBTL` | Aircraft to remain east of RDRS and *Cordelia Rocks* (RKI052005) |
 
 !!! phraseology
@@ -188,7 +188,7 @@ There are six VFR routes established in and around the YBTL TMA to facilitate VF
   <figcaption>YBTL VFR Routes</figcaption>
 </figure>
 
-| VFR Routes     | Inbound                      | Outbound                             |
+| VFR Routes     | Outbound                     | Inbound                              |
 | -------------- | ---------------------------- | ------------------------------------ | 
 | Clevedon		 | TL - 771ft Hill - CEN - GIRU | GIRU - CEN - 771ft Hill - Abeam SUNZ |
 | Thornton North | TL - MBC - TNP               | TNP - MBC - TL                       |
