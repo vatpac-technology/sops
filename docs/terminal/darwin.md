@@ -150,7 +150,7 @@ Voiceless for all aircraft:
 - Assigned `F120`
 
 !!! note
-    When QNH (hPa) falls below 980hPa, **DN TCU** and **TRT**  shall coordinate a suitable level as `F120` is unavailable.
+    When QNH falls below 980 hPa, **DN TCU** and **TRT**  shall coordinate a suitable level as `F120` is unavailable.
 
 All other aircraft coming from TRT CTA will be **Heads-up** coordinated to DN TCU. 
 
