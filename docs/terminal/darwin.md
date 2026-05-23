@@ -147,9 +147,12 @@ Voiceless for all aircraft:
 
 - With ADES **YPDN**; and  
 - Assigned a STAR; and  
-- Assigned `A100`
+- Assigned `F120`
 
-All other aircraft coming from TRT CTA will be **Heads-up** coordinated to DN TCU.
+!!! note
+    When QNH (hPa) falls below 980hPa, **DN TCU** and **TRT**  shall coordinate a suitable level as `F120` is unavailable.
+
+All other aircraft coming from TRT CTA will be **Heads-up** coordinated to DN TCU. 
 
 ### ADC
 #### Auto Release
