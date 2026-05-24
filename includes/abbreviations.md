@@ -163,6 +163,7 @@
 *[LIG]: Brisbane (Lightning) Centre
 *[ASH]: Brisbane (Ashmore) Centre
 *[TRS]: Brisbane (Territory South) Centre
+*[MDE]: Brisbane (Mudgee) Centre
 *[MLD]: Brisbane (Maitland) Centre
 *[MOR]: Brisbane (Moree) Centre
 *[NSA]: Brisbane (Noosa) Centre
