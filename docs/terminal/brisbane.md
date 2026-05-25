@@ -160,7 +160,7 @@ YBCG arrivals from the south will transit BAA airspace as they descend. INL will
 
 BAA is then responsible for facilitating descent to these aircraft to `A090` (or an otherwise [coordinated level](#between-bac-and-baa)), before handing the aircraft to BAC.
 
-Alternately, BAA may coordinate `A090` and "[no frequency requirements](../../controller-skills/coordination/#no-frequency-requirements-nfr)" with INL, if traffic levels allow. This permits IBL to provide the aircraft with continuous descent as they transit the TMA. BAA is responsible for [onwards coordination](../../controller-skills/coordination/#onwards-coordination) to BAC, if an altitude other than `A090` is assigned.
+Alternately, BAA may coordinate `A090` and "[no frequency requirements](../../controller-skills/coordination/#no-frequency-requirements-nfr)" with INL, if traffic levels allow. This permits INL to provide the aircraft with continuous descent as they transit the TMA. BAA is responsible for [onwards coordination](../../controller-skills/coordination/#onwards-coordination) to BAC, if an altitude other than `A090` is assigned.
 
 !!! phraseology
     <span class="hotline">**BAA** -> **INL**</span>: "JST458, `A080` and no frequency requirements. My onwards with BAC."  
