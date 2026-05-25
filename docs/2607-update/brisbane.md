@@ -92,10 +92,15 @@ SHN is responsible for the provision of FIS in Class G airspace within the BN TM
     During a busy event, BAN is experiencing a high workload and wishes to delegate the SHN role to another controller who isn't as busy. BDN has a low workload and elects to perform the role.
 
 #### Airspace Structural Arrangements
-Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, **"North"**/**"West"** positions shall assume the airspace of corresponding **"South"**/**"East"** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
+There are 7 executive controller positions within the BN/CG TCUs, plus a flow controller. Due to the large variety of traffic scenarios experienced across both day-to-day operations and busy events, controllers are encouraged to split the airspace among multiple controllers in a way which best reduces their workload.
+
+With a controller on BAN and an additional controller offering assistance, some example splits include:
+
+- BAC
+- BAS, extending BDS
 
 !!! tip
-    Due to the unique arrangement of the BN TMA, when general traffic levels across the TMA are high and multiple TCU controllers are available, splitting the airspace in to 'approach' airspace and 'departures' airspace may introduce additional complexity. In these situations, it may be simpler to combine sectors 'on-side', i.e.:
+    When general traffic levels are high, splitting the airspace into 'approach' airspace and 'departures' airspace may introduce additional complexity. In these situations, it may be simpler to combine sectors 'on-side', i.e.:
     
     - **BAN** and **BDN** combined; *and*
     - **BAS** and **BDS** combined.
@@ -160,7 +165,7 @@ YBCG arrivals from the south will transit BAA airspace as they descend. INL will
 
 BAA is then responsible for facilitating descent to these aircraft to `A090` (or an otherwise [coordinated level](#between-bac-and-baa)), before handing the aircraft to BAC.
 
-Alternately, BAA may coordinate `A090` and "[no frequency requirements](../../controller-skills/coordination/#no-frequency-requirements-nfr)" with INL, if traffic levels allow. This permits IBL to provide the aircraft with continuous descent as they transit the TMA. BAA is responsible for [onwards coordination](../../controller-skills/coordination/#onwards-coordination) to BAC, if an altitude other than `A090` is assigned.
+Alternately, BAA may coordinate `A090` and "[no frequency requirements](../../controller-skills/coordination/#no-frequency-requirements-nfr)" with INL, if traffic levels allow. This permits INL to provide the aircraft with continuous descent as they transit the TMA. BAA is responsible for [onwards coordination](../../controller-skills/coordination/#onwards-coordination) to BAC, if an altitude other than `A090` is assigned.
 
 !!! phraseology
     <span class="hotline">**BAA** -> **INL**</span>: "JST458, `A080` and no frequency requirements. My onwards with BAC."  
@@ -189,8 +194,8 @@ Due to the low level of CTA (`A045`) in the BA CTR when **BA ADC** is offline, i
     **JST459**: "Squawk 3601, wilco, JST459"  
 
     **JST459**: "JST459, ready Runway 06, request clearance"  
-    **BN TCU**: "JST459, cleared to YSSY via IDNER, flight planned route. climb to A040"  
-    **JST459**: "Cleared to YSSY via IDNER, flight planned route, climb to A040, JST459"
+    **BN TCU**: "JST459, cleared to YSSY via IDNER, flight planned route. climb to `A040`"  
+    **JST459**: "Cleared to YSSY via IDNER, flight planned route, climb to `A040`, JST459"
 
 ### CG ADC Offline
 Due to the low level of CTA (`A035`) in the CG CTR when **CG ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
