@@ -52,12 +52,12 @@ Upon receiving [airways clearance coordination from ED SMC](#smc-to-tcu) of an a
 This gives the enroute controller sufficient time to assess the request, make necessary adjustments to any aircraft in the area currently, and activate the SUA; or alternately to refuse the activation request before the aircraft is in the air.
 
 !!! phraseology
-    *STKR11 is requesting clearance to operate in the R265D restricted area.*  
-    <span class="hotline">**ED SMC** -> **AAW**</span>: "STKR11 requests clearance to R265D”  
+    *STKR11 is requesting clearance to operate in the R265A-F restricted area, up to `F450`.*  
+    <span class="hotline">**ED SMC** -> **AAW**</span>: "STKR11 requests clearance to R265A-F”  
     <span class="hotline">**AAW** -> **ED SMC**</span>: "Standby, call you back."  
      
-    <span class="hotline">**AAW** -> **AUG**</span>: "On the groud YPED, STKR11, requests activation of R265D `A095-F240`, from 0300 until 0500.”  
-    <span class="hotline">**AUG** -> **AAW**</span>: "STKR11, expect activation of R265D `A095-F240` at 0300 until 0500."   
+    <span class="hotline">**AAW** -> **AUG**</span>: "On the groud YPED, STKR11, requests activation of R265A-F `SFC-F450`, from 0300 until 0500.”  
+    <span class="hotline">**AUG** -> **AAW**</span>: "STKR11, expect activation of R265A-F `SFC-F450` at 0300 until 0500."   
     <span class="hotline">**AAW** -> **AUG**</span>: "STKR11."   
       
     <span class="hotline">**AAW** -> **ED SMC**</span>: "STKR11, clearance approved."   

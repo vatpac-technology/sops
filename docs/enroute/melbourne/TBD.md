@@ -166,9 +166,9 @@ There are multiple volumes of [SUA](../../../controller-skills/sua) within TBD a
 AD TCU must [give heads up coordination](../../../terminal/adelaide/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
 
 !!! phraseology
-    <span class="hotline">**AAW** -> **AUG**</span>: "On the groud YPED, STKR11, requests activation of R265D `A095-F240`, from 0300 until 0500.”  
-    <span class="hotline">**AUG** -> **AAW**</span>: "STKR11, expect activation of R265D `A095-F240` at 0300 until 0500."   
-    <span class="hotline">**AAW** -> **AUG**</span>: "STKR11."   
+    <span class="hotline">**AAW** -> **AUG**</span>: "On the groud YPED, STKR11, requests activation of R265A-F `SFC-F450`, from 0300 until 0500.”  
+    <span class="hotline">**AUG** -> **AAW**</span>: "STKR11, expect activation of R265A-F `SFC-F450` at 0300 until 0500."   
+    <span class="hotline">**AAW** -> **AUG**</span>: "STKR11."  
 
 Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../controller-skills/sua/#ad-hoc-activations).
 
