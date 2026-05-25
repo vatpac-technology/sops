@@ -146,6 +146,9 @@ YSWS uses four different SID designators to differentiate between different vari
 
         Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
+!!! warning
+    Whilst OzStrips will automatically select the correct SID based on runway mode, time of day, and temperature, controllers using the default vatSys strips (e.g. while top down) will need to manually select the most relevant procedure from the table above. The default SID may not be the correct one. 
+
 
 ## ATIS
 ### Operational Info
