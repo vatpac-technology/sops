@@ -189,8 +189,8 @@ Due to the low level of CTA (`A045`) in the BA CTR when **BA ADC** is offline, i
     **JST459**: "Squawk 3601, wilco, JST459"  
 
     **JST459**: "JST459, ready Runway 06, request clearance"  
-    **BN TCU**: "JST459, cleared to YSSY via IDNER, flight planned route. climb to A040"  
-    **JST459**: "Cleared to YSSY via IDNER, flight planned route, climb to A040, JST459"
+    **BN TCU**: "JST459, cleared to YSSY via IDNER, flight planned route. climb to `A040`"  
+    **JST459**: "Cleared to YSSY via IDNER, flight planned route, climb to `A040`, JST459"
 
 ### CG ADC Offline
 Due to the low level of CTA (`A035`) in the CG CTR when **CG ADC** is offline, it is best practice to give airways clearance to aircraft at the holding point, to ensure departing aircraft can have uninterrupted climb.
