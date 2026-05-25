@@ -102,6 +102,13 @@ AD TCU will Heads-up coordinate all arrivals/overfliers to ED ADC.
 
 Inbound aircraft will be cleared for an instrument or visual approach prior to handoff to ED ADC, unless ADC nominates a restriction.
 
+### SMC to AD TCU
+The controller assuming responsibility of **SMC** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to AD TCU (or the enroute controller responsible for the AD TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
+
+!!! phraseology
+    <span class="hotline">**ED SMC** -> **AAW**</span>: "STKR11 requests clearance to R265B"  
+    <span class="hotline">**AAW** -> **ED SMC**</span>: "STKR11, clearance approved."  
+
 ## Charts
 !!! abstract "Reference"
     In addition to the civilian `ERSA` and `AIP` publications, [the RAAF AIP website](https://ais-af.airforce.gov.au/australian-aip){target=new} contains the necessary charts (available in the TERMA) and description of procedures (in each airports' FIHA).
