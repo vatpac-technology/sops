@@ -178,8 +178,8 @@ The M201 Adelaide [MOA](../../../controller-skills/sua/#military-operating-areas
 ##### Affected Civil Operations
 When activated the MOA disrupts traffic on the **T131**, **Q46**, **Q22**, and **Q158** high altitude airways, which connect YMML to Western Australia. Aircraft travelling on these airways should be manually rerouted around the SUA.
 
-#### R265A-D Edinburgh
-The R265A-D Edinburgh [restricted areas](../../../controller-skills/sua/#restricted-areas) are located north of the AD TMA, `A085-NOTAM` and `A095-NOTAM`.
+#### R265A-F Edinburgh
+The R265A-F Edinburgh [restricted areas](../../../controller-skills/sua/#restricted-areas) are located north of the AD TMA, `A085-NOTAM` and `A095-NOTAM`.
 
 ##### Affected Civil Operations
 When activated the restricted area disrupts traffic on the **H135** and **H246** airways, which connect the AD TMA to airports in South Australia and the Northern Territory.
