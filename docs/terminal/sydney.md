@@ -248,7 +248,7 @@ There are multiple [restricted areas](../../controller-skills/sua/#restricted-ar
 ##### R481 COLO
 The **R481 COLO** [restricted area](../../controller-skills/sua/#restricted-areas) is used to facilitate higher-level military operations, such as [PJE](../../airwork/#parachute-operations) or local flight testing, above `A045`.
 
-Multiple YSSY and YSWS procedures transit the R481 COLO restricted area. When the area is activated, **SRA** must be extremely vigilant to ensure separation between PJE and transiting civil aircraft. Where possible, **SRA** should coordinate with neighbouring **SY TCU** sectors to assign additional requirements to climb above the vertical limits of the activation, or rerouted manually to avoid the area.
+Multiple YSSY and YSWS procedures transit the R481 COLO restricted area. When the area is activated, **SRA** must be extremely vigilant to ensure separation between PJE and transiting civil aircraft. Where possible, **SRA** should coordinate with neighbouring **SY TCU** sectors to assign additional requirements to climb above the vertical limits of the activation, or have the aircraft rerouted to avoid the area.
 
 !!! phraseology
 	*UPS136 has departed YSSY on the STUIE SID, bound for the Phillipines. The R481 restricted area has been activated `A045-A090`.*   
@@ -259,7 +259,7 @@ Multiple YSSY and YSWS procedures transit the R481 COLO restricted area. When th
     When the R481 COLO airspace is activated and Runway 34L is in use for departures at YSSY, it is **strongly recommended** that **SRA** arrange to receive "heads-up" coordination from **SDN** of any aircraft departing via the **STUIE** or **AVMOV** SIDs.
     
 ##### R555A-F Holsworthy
-The **R555A-F Holsworthy** [restricted areas](../../controller-skills/sua/#restricted-areas) is located underneath and within the SY TMA, around Holsworthy Army Barracks (YSHW).
+The **R555A-F Holsworthy** [restricted areas](../../controller-skills/sua/#restricted-areas) are located underneath and within the SY TMA, around Holsworthy Army Barracks (YSHW).
 
 Upon receiving a request from an aircraft at YSHW to activate the restricted airspace, **SYC** shall coordinate activation with any other affected SY TCU controller.
 
@@ -268,7 +268,7 @@ Upon receiving a request from an aircraft at YSHW to activate the restricted air
 The **ANKUB SID** is a unique departure that is assigned to non-jets planned via **KADOM** or **BENBU**. On this SID, **SY ADC** will give aicraft on this SID an assigned heading with their line up or takeoff clearance, in the same way as aircraft assigned the RADAR SID. The departures controller is then responsible for vectoring the aircraft to a waypoint to rejoin the procedure.
 
 !!! phraseology
-	*RXA6824 has departed YSSY Runway 16R on the ANKUB SID, KADOM transition, bound for the YSDU.*  
+	*RXA6824 has departed YSSY Runway 16R on the ANKUB SID, KADOM transition, bound for YSDU.*  
     **SDS**: "RXA6824, Sydney Departures, identified. Turn right heading 270, climb to `A040`"   
     **RXA6824**: "Turn right heading 270, climb to `A040`, RXA6824."   
     ...   
@@ -765,9 +765,7 @@ The Standard Assignable level from **BK ADC** to **SBA** is:
 #### Arrivals
 SBA will heads-up coordinate arrivals/overfliers from Class C to BK ADC prior to **5 mins** from the boundary.
   
-IFR aircraft will be cleared for the instrument prior to handoff to BK ADC, unless BK ADC nominates a restriction.  
-VFR aircraft require a level readback.
-
+IFR aircraft will be cleared for the instrument prior to handoff to BK ADC, unless BK ADC nominates a restriction.
 
 !!! tip
     Ensure the aircraft's FDR is up-to-date in order to give **BK ADC** maximum situational awareness of the traffic picture. (eg. if the aircraft is doing the RNP approach, ensure the FDR has been rerouted via the appropriate points)
@@ -814,7 +812,11 @@ SY TCU will clear aircraft leave controlled airspace via the approach and will t
     <span class="hotline">**SRA** -> **RI ADC**</span>: "TROJ57, unrestricted"  
     <span class="hotline">**RI ADC** -> **SRA**</span>: "TROJ57"  
 
-The Standard Assignable Level from **RI ADC** to **SY TCU** is the lower of `A060` or `RFL`.
+The Standard Assignable level from RI ADC to SRA is: 
+
+| Aircraft | Level  |
+| -------- | ------ |
+| All Aircraft     | The lower of `A060` and `RFL` |
 
 ### SMC to TCU
 The controller assuming responsibility of **SMC** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to SRA (or the enroute controller responsible for the SY TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
