@@ -161,7 +161,7 @@ Coded Clearances are used to provide standardised routing for VFR aircraft arriv
   <figcaption>Bankstown Coded Clearances</figcaption>
 </figure>
 
-Each coded clearance includes tracking instructions and height requirements that ensure aircraft remain within Class D airspace. Each coded clearance also includes implicit instructions on when to change frequencies and control service termination advice.
+Each coded clearance includes tracking instructions and height requirements that ensure aircraft remain within Class D airspace. Each coded clearance also includes instructions on when to change frequencies and control service termination advice.
 
 The routes are generally segregated, although the 'Penrith Outbound' and 'Brooklyn Inbound' routes intersect within SBA CTA, west of SITS. Remember that in [Class D Airspace](../../controller-skills/classofairpsace), **no separation** is provided for VFR aircraft. Traffic advisory statements should be given to aircraft where appropriate and, if necessary, SBA may pass an avoiding action advice to ensure aircraft do not collide.
 
