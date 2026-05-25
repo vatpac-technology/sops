@@ -87,10 +87,15 @@ SHN is responsible for the provision of FIS in Class G airspace within the BN TM
     During a busy event, BAN is experiencing a high workload and wishes to delegate the SHN role to another controller who isn't as busy. BDN has a low workload and elects to perform the role.
 
 #### Airspace Structural Arrangements
-Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, **"North"**/**"West"** positions shall assume the airspace of corresponding **"South"**/**"East"** positions when the latter are inactive (e.g. **BAN** assumes **BAS** airspace), and vice versa.
+There are 7 executive controller positions within the BN/CG TCUs, plus a flow controller. Due to the large variety of traffic scenarios experienced across both day-to-day operations and busy events, controllers are encouraged to split the airspace among multiple controllers in a way which best reduces their workload.
+
+With a controller on BAN and an additional controller offering assistance, some example splits include:
+
+- BAC
+- BAS, extending BDS
 
 !!! tip
-    Due to the unique arrangement of the BN TMA, when general traffic levels across the TMA are high and multiple TCU controllers are available, splitting the airspace in to 'approach' airspace and 'departures' airspace may introduce additional complexity. In these situations, it may be simpler to combine sectors 'on-side', i.e.:
+    When general traffic levels are high, splitting the airspace into 'approach' airspace and 'departures' airspace may introduce additional complexity. In these situations, it may be simpler to combine sectors 'on-side', i.e.:
     
     - **BAN** and **BDN** combined; *and*
     - **BAS** and **BDS** combined.
