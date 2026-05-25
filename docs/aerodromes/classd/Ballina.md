@@ -22,7 +22,7 @@ BA ADC is responsible for the Class D airspace in the BA CTR from `SFC` to `A015
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
 ## SID Selection
-Non-Jet Aircraft planned via **BUVAM** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus, except when the [M641 Evans Head](../../../enroute/brisbane/INL/#m661a-b-m641-and-r638a-c-evans-head) MOA is active.
+Aircraft planned via **IDNER** and Non-Jet Aircraft planned via **BUVAM** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. The **BUVAM SID** is not available when the [M641 Evans Head](../../../enroute/brisbane/INL/#m661a-b-m641-and-r638a-c-evans-head) MOA is active.
 
 All other aircraft shall be assigned either the **RADAR** SID, or a visual departure.
 
@@ -34,7 +34,7 @@ All other aircraft shall be assigned either the **RADAR** SID, or a visual depar
 | 06     | Left  | -     |
 | 24     | Left  | Right |
 
-Circuits to be flown at `A010`
+Circuits to be flown at `A010`.
 
 ## Coordination
 ### Auto Release
