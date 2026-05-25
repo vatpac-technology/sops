@@ -240,7 +240,7 @@ Multiple YSSY and YSWS procedures transit the R481 COLO restricted area. When th
 !!! warning "Important"
     When the R481 COLO airspace is activated and Runway 34L is in use for departures at YSSY, it is **strongly recommended** that **SRA** arrange to receive "heads-up" coordination from **SDN** of any aircraft departing via the **STUIE** or **AVMOV** SIDs.
     
-#### R555A-F Holsworthy
+##### R555A-F Holsworthy
 The **R555A-F Holsworthy** [restricted areas](../../controller-skills/sua/#restricted-areas) is located underneath and within the SY TMA, around Holsworthy Army Barracks (YSHW).
 
 Upon receiving a request from an aircraft at YSHW to activate the restricted airspace, **SYC** shall coordinate activation with any other affected SY TCU controller.
