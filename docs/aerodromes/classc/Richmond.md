@@ -37,20 +37,28 @@ This gives the parent controller sufficient time to assess the request, make nec
 ### Training Areas
 There are three training areas located within R479, used for both civil and military operations.
 
+<figure markdown>
+![RI Training Areas](img/ri_training_areas.png){ width="700" }
+  <figcaption>RI Training Areas</figcaption>
+</figure>
+
+Aircraft requesting clearance to operate in one of the trianing area shall be cleared a visual departure, along with clearance to operate within the area.
+
+!!! phraseology
+    **SFRI11**: "Richmond Ground, SFRI11 for Londonderry Training area, request clearance.”   
+    **RI SMC**: "SFRI11, cleared to Londonderry Training Area direct, squawk 0361."    
+
 !!! warning "Important"
-    Operations above `A015` may require an airspace release from **SY TCU**. Due to published departure procedures from YSSY, levels above `A040` may not be available.
+    Operations above `A015` require an airspace release and coordination with **SRA**. Due to published procedures from YSSY and YSWS, levels above `A040` may not be available.
 
-| Name | Vertical Limits | Lateral Boundary |
-| ---- | --------------- | --- |
-| Londonderry Training Area | `SFC - A015` | Yarramundi Bridge<br>East to Springwood Road<br>Bonner Road to intersection of Vincent Road<br>West along Vincent Road to the intersection of the Nepean River<br>North via the eastern bank of the Nepean River to Yarramundi Bridge |
-| Northern Training Area | `SFC - A060` | Intersection of North-South powerlines & Bells Line of Road<br>North along power lines to the R470 boundary<br>East along the R470 boundary to the Hawkesbury River<br>South tot Kurmond Road<br>West along Kurmond Road to Kurmond<br>Via Bells Line of Road to the intersection of the power lines |
-| Southern Training Area | `SFC - A040` | Richmond Train Station<br>West to the water tank<br>Straight line to the R470 boundary<br>Along the R470 boundary to the Northern Road<br>Along Northern Road to the intersection of Richmond/Blacktown Road<br>Richmond Road to George & Macquarie Street to the railway overpass |
+#### Londonderry Training Area
+The **Londonderry Training Area** is located in the south-west of the RI CTR `SFC-A015`, entirely within the R479 restricted area.
 
-!!! tip
-    Diagrams of the training areas are available in the [Richmond FIHA AD2](https://ais-af.airforce.gov.au/){target=new} document.
+#### Northern Training Area
+The **Northern Training Area** is located in the north of the RI CTR `SFC-A060`, entirely within the R479 restricted area.
 
-### Start Approval
-A start approval is required whenever parachute drops are conducted onto the Richmond Drop Zone. Additionally, ‘propellers/engines stopped’ reports are required. ATC shall notify these requirements by ATIS broadcast.
+#### Southern Training Area
+The **Southern Training Area** is located in the south-west of the RI CTR `SFC-A040`, entirely within the R479 restricted area.
 
 ### Inital and Pitch
 The standard [initial](../../../../controller-skills/military/#initial-and-pitch) points are 5nm downwind of the active runway, dead side, left pitch/circuit.
@@ -101,7 +109,7 @@ IFR aircraft shall be assigned a SID corresponding to their direction of travel.
 
 | Via                | SID         |
 | ------------------ | ----------- |
-| BEROW or TESAT     | **BEROW** SID, transition as applicable |
+| BEROW or TESAT     | **BEROW** SID, Relevant Transition (if applicable) |
 | NIVOT              | **NIVOT** SID |
 | RUTOS              | **RUTOS** SID |
 | Tracking W, NW, SW | **NESSY** SID, RADAR Transition |
