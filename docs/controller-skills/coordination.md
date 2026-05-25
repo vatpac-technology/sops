@@ -372,10 +372,10 @@ Upon receipt of the heads-up coordination from Radar, the TCU controller has sev
 | *"I'll call you back"* | Useful if the TCU controller hasn't had time to assess the aircraft yet (remember to cock the strip) |
 
 !!! phraseology
-    <span class="hotline">**SRI** -> **SDS**</span>: "Departed YSHL, EQU"  
-    <span class="hotline">**SDS** -> **SRI**</span>: "EQU" 
+    <span class="hotline">**SYC** -> **SDS**</span>: "Departed YSHL, EQU"  
+    <span class="hotline">**SDS** -> **SYC**</span>: "EQU" 
     
-    **SRI:** "EQU, Contact Sydney Departures on 129.7 for clearance"  
+    **SYC:** "EQU, Contact Sydney Departures on 129.7 for clearance"  
     **EQU:** "129.7, EQU"  
     *...*  
     **EQU:** "Sydney Departures, EQU, climbing to `F170`"  
@@ -383,17 +383,17 @@ Upon receipt of the heads-up coordination from Radar, the TCU controller has sev
     **EQU:** "Cleared to YWLM via TESAT, flight planned route. Climb to `F170`, EQU"
 
 !!! phraseology
-    <span class="hotline">**SRI** -> **SDS**</span>: "Departed YSHL, EQU"  
-    <span class="hotline">**SDS** -> **SRI**</span>: "EQU remain outside Class C airspace, expect 10 minute delay."  
-    <span class="hotline">**SRI** -> **SDS**</span>: "Remain outside Class C airspace, expect 10 minute delay, EQU."
+    <span class="hotline">**SYC** -> **SDS**</span>: "Departed YSHL, EQU"  
+    <span class="hotline">**SDS** -> **SYC**</span>: "EQU remain outside Class C airspace, expect 10 minute delay."  
+    <span class="hotline">**SYC** -> **SDS**</span>: "Remain outside Class C airspace, expect 10 minute delay, EQU."
    
-    **SRI:** "EQU, remain outside Class C airspace, expect 10 minute delay."  
+    **SYC:** "EQU, remain outside Class C airspace, expect 10 minute delay."  
     **EQU:** "Remain outside Class C airspace, copy, EQU"
 
-    <span class="hotline">**SDS** -> **SRI**</span>: "EQU to contact me."  
-    <span class="hotline">**SRI** -> **SDS**</span>: "EQU to contact you."
+    <span class="hotline">**SDS** -> **SYC**</span>: "EQU to contact me."  
+    <span class="hotline">**SYC** -> **SDS**</span>: "EQU to contact you."
     
-    **SRI:** "EQU, Contact Sydney Departures on 129.7"  
+    **SYC:** "EQU, Contact Sydney Departures on 129.7"  
     **EQU:** "129.7, EQU"  
     *...*  
     **EQU:** "Sydney Departures, EQU, climbing to `F170`."  
@@ -416,7 +416,7 @@ At locations with a low overlying base of CTA (e.g. YSBK with the tower closed),
         **FD214:** "Descend `A050`, 124.55, FD214"  
 
         **FD214:** "Sydney Centre, FD214, descending `A050`"  
-        **SRI:** "FD214, Sydney Centre, leave controlled airspace descending, no reported IFR traffic"  
+        **SYC:** "FD214, Sydney Centre, leave controlled airspace descending, no reported IFR traffic"  
         **FD214:** "Leave controlled airspace descending, FD214"
 
 === "Leaving CTA *laterally*"
@@ -430,7 +430,7 @@ At locations with a low overlying base of CTA (e.g. YSBK with the tower closed),
         **CYF:** "124.55, CYF"  
 
         **CYF:** "Sydney Centre, CYF, maintaining `A050`"  
-        **SRI:** "CYF, Sydney Centre, no reported IFR traffic, area QNH 1024"
+        **SYC:** "CYF, Sydney Centre, no reported IFR traffic, area QNH 1024"
 
 ### Enroute
 #### ENR -> ENR

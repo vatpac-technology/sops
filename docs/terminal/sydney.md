@@ -93,21 +93,17 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
     </figure>
     
 #### Airspace Structural Arrangements
-Pursuant to Section 2 of the [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}, the following rules apply, in the order presented, to these controller positions, except **SFL**:  
+There are 10 executive controller positions within the SY TCU, plus a flow controller. Due to the large variety of traffic scenarios experienced across both day-to-day operations and busy events, controllers are encouraged to split the airspace among multiple controllers in a way which best reduces their workload.
 
-a) **"South"**/**"West"** positions shall assume the airspace of corresponding **"North"**/**"East"** positions when the latter are inactive (e.g. **SAS** assumes **SAN** airspace, **SFW** assumes **SFE** airspace)  
+With a controller on SAS and an additional controller offering assistance, some example splits include:
 
-b) Approach assumes Director/Departure airspace "on-side" when the latter positions are inactive (e.g. with **SAS** and **SAN** online only, **SAS** assumes **SDS** and **SFW**)  
-
-c) Departures assumes **SRA** and **SWA** airspace when the position is inactive.
-
-d) Departures assumes **SYC** and **SBA** airspace when the position is inactive.
-
-!!! note
-    The default ownership of sectors within the SY TCU is merely a suggestion for starters. There are 10 executive controller positions within the SY TCU, plus a flow controller, and the ownership of these sectors can be delegated as desired based on the traffic disposition, when agreed between the controllers. For example, during a Milk Run event, if SY APP and SY DEP are online, SY APP may have a lot more work to do than SY DEP, and it would mostly be concentrated on the RIVET/AKMIR corridor. In light of this, it might be wise for SY APP to take ownership of SAS, SFW and SFE airspace, whilst SY DEP take ownership of SAN, SDS, SDN, SWA, SRA, SBA, and SYC airspace.
+- SFW, extending SFE
+- SAN, extending SDN & SFE
+- SDS, extending SYC, SWA, SRA & SBA
+- SWA, extending SRA & SBA
 
 !!! tip
-    Unless there are 2 separate Director controllers online (during a Major event like Panic Stations, for example), it is **not recommended** that the SFW and SFE positions are held by 2 separate controllers, due to the tendency of some less experienced pilots to overshoot the runway centreline
+    The Australia vatSys dataset includes a dedicated **Walton TCU** position with the SBA & SRA sectors extended automatically. This represents a recommended split but does not reflect the default jurisdiction of SWA.
 
 #### Sydney Centre (SYC)
 SYC is responsible for the provision of FIS in Class G airspace within the SY TMA. It is a role normally performed by DEPs but can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordation requirements](#between-syc-and-tcu) exist between SYC and other TCU positions.  
@@ -158,24 +154,25 @@ An aircraft is only considered independent from the adjacent final approach cour
 
 ## Local Procedures
 ### Bankstown Coded Clearances
-The Bankstown Coded Clearances provide standardised routing for VFR aircraft arriving and departing YSBK while transiting Class D SY TCU airspace.
+Coded Clearances are used to provide standardised routing for VFR aircraft arriving and departing YSBK while transiting SBA Class D airspace.
 
 <figure markdown>
 ![Bankstown Coded Clearances](img/bankstown_coded.png){ width="700" }
   <figcaption>Bankstown Coded Clearances</figcaption>
 </figure>
 
-Each coded clearance includes tracking instructions and height requirements that ensure aircraft remain within Class D airspace. Each coded clearance also includes implicit instructions on when to change frequencies.
+Each coded clearance includes tracking instructions and height requirements that ensure aircraft remain within Class D airspace. Each coded clearance also includes implicit instructions on when to change frequencies and control service termination advice.
 
 The routes are generally segregated, although the 'Penrith Outbound' and 'Brooklyn Inbound' routes intersect within SBA CTA, west of SITS. Remember that in [Class D Airspace](../../controller-skills/classofairpsace), **no separation** is provided for VFR aircraft. Traffic advisory statements should be given to aircraft where appropriate and, if necessary, SBA may pass an avoiding action advice to ensure aircraft do not collide.
 
 !!! phraseology
-    **SBA**: "ABC, avoiding action, turn left immediately heading 360."   
-    **ABC**: "Turning left heading 360, ABC"   
-    **SBA**: "ABC, traffic is a Kodiak 9 o'clock, same altitude, crossing left to right."   
+    **SBA**: "WFE, traffic is a Kodiak 9 o'clock, same altitude, crossing left to right."   
+    **WFE**: "Looking for traffic, WFE"  
+    **SBA**: "WFE, avoiding action, turn left immediately heading 360."   
+    **WFE**: "Turn left heading 360, WFE"   
 
 #### Departures
-Departures will be given their coded clearance by BK ADC, and will contact SBA at their first VFR waypoint.
+Departures will be cleared for a coded clearance by **BK SMC** and will contact SBA at their first waypoint.
 
 | Coded Clearance    | Route             | Altitude | 
 | ------------------ | ------------------- | ------ | 
@@ -186,7 +183,7 @@ Departures will be given their coded clearance by BK ADC, and will contact SBA a
 Each coded clearance includes a frequency transfer and control service termination instruction. No explicit instructions should be given to these aircraft.
 
 #### Arrivals
-Arrivals will contact SBA for clearance before entering CTA.
+Arrivals may contact either SYC or SBA prior to entering CTA. SYC shall provide a squawk code and identify the aircraft, then transfer them to SBA for clearance.
 
 | Coded Clearance    | Route             | Altitude | 
 | ------------------ | ------------------- | ------ | 
@@ -194,27 +191,48 @@ Arrivals will contact SBA for clearance before entering CTA.
 | Lighthorse Inbound | `NPBR LIHR PSP`     | `A015` |
 | St Helens Inbound  | `SSKP CRST CRSC`   | `A015` |
 
-!!! phraseology
-    **ABC**: "Bankstown Approach, ABC, Cessna Caravan, BBG, `A015`, for Brooklyn Inbound"   
-    **SBA**: "ABC, Bankstown Approach, squawk 0552"   
+Establishing two-way communication with a VFR aircraft constitutes a clearance to enter CTA as requested. Where a squawk code has not yet been issued, this should also be performed.
 
-!!! tip
-    Remember that in Class D, establishing two-way communication with VFR aircraft constitutes a clearance to enter controlled airspace.
+!!! phraseology
+    **BJZ**: "Bankstown Approach, BJZ, Seminole, BBG, `A015`, for Brooklyn Inbound"   
+    **SBA**: "BJZ, Bankstown Approach, squawk 0552"  
+
+ Each coded clearance includes a frequency transfer instruction to BK ADC. No explicit transfer instructions should be given to these aircraft.
 
 ### Sydney Harbour Scenic Flights
-Flights may be cleared for the **Harbour Scenic** scenic flight routes at `A015`, where traffic permits. This route can be displayed on vatSys using the `SY_VFR` map.  
-Aircraft must track via Class G airspace to LRF and contact SY TCU prior to reaching LRF requesting a ‘Harbour Scenic’ clearance. Attempt to identify the aircraft, and if a clearance cannot be given immediately, instruct the pilot to remain in Class G airspace. Sydney QNH must be issued with the clearance.
+A coded clearance is available over Sydney Harbour, traffic permitting. This route can be displayed on vatSys using the `SY_VFR` map.  
+
+| Coded Clearance    | Route             | Altitude | 
+| ------------------ | ----------------- | -------- | 
+| Harbour Scenic     | `LRF HBB NOHD`    | `A015`   |
+
+Aircraft will track via Class G airspace to LRF and contact SYC to request a ‘Harbour Scenic’ clearance. SYC shall provide a squawk code and identify the aircraft, then coordinate with **SDN** (or the controller responsible for the sector) to determine the availability of a clearance.
+
+!!! warning
+    The Harbour Scenic procedure is procedurally separated from the Runway 16L/R approach paths and SIDs from Runway 34L but **is not** separated from departures from Runway 34R.
 
 !!! phraseology
-    **SDS:** "LOI, squawk 0542, remain clear of Class C airspace"   
-    ...  
-    **SDS:** "LOI, identified, cleared Harbour Scenic, Sydney QNH 1014"
+    **LOI**: "Sydney Centre, LOI, Piper Cherokee, LRF, `A015`, received T, request Harbour Scenic"  
+    **SYC:** "LOI, squawk 0542, remain clear of Class C airspace"  
+    **LOI**: "Squawk 0542, remain OCTA, LOI"  
 
-!!! warning "Caution"
-    The Harbour Scenic procedure may cause conflict with departures from Runway 34R to the north. Before issuing a Harbour Scenic clearance, assess the traffic situation on the ground at YSSY and determine whether a departure to the north of the harbour is likely in the next few minutes. If necessary, instruct the aircraft to remain OCTA and advise of the delay.
+    <span class="hotline">**SYC** -> **SDN**</span>: "LRF, LOI, for Harbour Scenic"  
+    <span class="hotline">**SDN** -> **SYC**</span>: "LOI"  
+     
+    **SYC:** "LOI, identified, contact Sydney Departures, 123.0"  
+    **LOI**: "123.0, LOI"  
+      
+    **LOI**: "Sydney Departures, LOI, maintaining `A015`"  
+    **SDN:** "LOI, Sydney Departures, cleared Harbour Scenic, Sydney QNH 1014"  
+    **LOI:** "Cleared Harbour Scenic, QNH 1014, LOI"  
 
 !!! note
-    Remember that VFR aircraft are **not** separated from other VFR aircraft in class C airspace.  If other VFR aircraft are operating over the harbour, you are not required to provide a separation standard between them, however you must pass traffic information to both aircraft.
+    Remember that VFR aircraft are **not** separated from other VFR aircraft in Class C airspace.  Multiple VFR aircraft may operate on the coded clearance with traffic information passed to all applicable pilots.
+
+#### Descent into Victor One
+Pilots intending to track southbound via Victor One after completing the Harbour Scenic will request to do so approaching Manly Beach. Traffic permitting, clear these aircraft to leave CTA on descent once they are established **east of the coast**.
+
+Pilots are required to reach `A005` prior to South Head and will report maintaining `A005`, when their control services may be terminated.
 
 ### Special Use Airspace
 #### Richmond SUA
