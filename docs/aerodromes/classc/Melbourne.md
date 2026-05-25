@@ -131,7 +131,7 @@ There is one helipad within the manouevring area, the **Taxiway Whiskey Helipad*
 There is also a much smaller helipad located adjacent the car dealership on Terminal Drive. This helipad is outside the manouevring area so no takeoff or landing clearances should be issued. Instead, helicopters should be instructed to report airborne or report on the ground. 
 
 ## Runway Modes
-###Preferred Runway Modes
+### Preferred Runway Modes
 If winds are too great, single runway operations may be necessary (eg, Runway 16 for Arrivals and Departures). However, pending wind limitations (Crosswind <20kts, Tailwind <5kts), the following runway modes are to be used
 
 | Mode     | Arrivals | Departures |
