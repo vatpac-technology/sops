@@ -260,7 +260,6 @@ The Standard Assignable level from **BK ADC** to **SBA** is:
 SBA will heads-up coordinate arrivals/overfliers from Class C to BK ADC prior to **5 mins** from the boundary.
   
 IFR aircraft will be cleared for the instrument prior to handoff to BK ADC, unless BK ADC nominates a restriction.  
-VFR aircraft require a level readback.
 
 !!! phraseology
     <span class="hotline">**SBA** -> **BK ADC**</span>: "To the west, UJN, for the RNP-Z"  
