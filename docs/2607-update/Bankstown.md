@@ -27,13 +27,14 @@ BK ADC is responsible for the Class D airspace in the BK CTR `SFC` to `A015`.
 Refer to [Class D Tower Separation Standards](../../separation-standards/classd) for more information.
 
 ### Dual ADC Operations
-When Bankstown ADC (Circuit) is online, responsibility for the **Runway**, **Circuit**, and **Airspace** is divided between the two ADC controllers.
+When Bankstown ADC (Circuit) is online, responsibility for the **runway**, **circuit**, and **airspace** is divided between the two ADC controllers.
 
-ADC North takes responsibility for the Northern Runways, Circuit and Airspace (Runway **11L/29R**, **11C/29C**), and Southern Airspace at **at A015**.
+ADC North takes responsibility for the northern runways, circuit and airspace (Runway **11L/29R**, **11C/29C**), and southern airspace at **at A015**.
 
-ADC (Circuit) takes responsibility for the Southern Runway, Circuit and Airspace (Runway **11R/29L**), **not above A010**
+ADC (Circuit) takes responsibility for the southern runway, circuit and airspace (Runway **11R/29L**), **not above A010**
 
-ADC (Circuit) is **not permitted** online when *Single Runway* Operations are in use.
+ADC (Circuit) is **not permitted** online when *single runway* operations are in use.
+
 
 Refer to the [ATIS section](#runway-mode-formatting) for information on ATIS formatting when ADC (Circuit) is online.
 
@@ -47,45 +48,44 @@ All apron areas and associated taxiways are *outside* the manoeuvring area. Each
 
 ## Local Procedures
 ### Adjacent Runways
-There is 106 metres between the centrelines of Runway **11R/29L** & **11C/29C**, and 106 metres between the centrelines of Runway **11C/29C** & **11L/29R**.
-Due to the close proximity in critical stages of flight, there are additional considerations (below).
+Due to the close proximity of all three runways, there are additional considerations which must be applied between adjacent runway operations.
 
 ### Dependent Runway Operations (Departures Only)
-At Bankstown, all Runways are considered Independent unless a Multi-Engined OR Jet aircraft departs from an adjacent Runway. 
-In this instance, runways are treated as dependent *for departures ONLY*. Controllers should apply the same Runway standard across all dependant Runways. Arriving aircraft are exempt from this clause.
+All runways are considered independent unless a **multi-engined or jet aircraft** departs from an adjacent runway. In this instance, runways are treated as dependent *for departures only*. Controllers should apply the same runway standard across all dependant runways. Arriving aircraft are exempt from this clause.
 
 **Independent**: Runways can operate simultaneously without restriction.  
 **Dependent**: Runways are operated with restrictions, often one at a time.
 
 !!! example "Examples"
     - A King Air (Multi-Engine) is ready to depart Runway 29R. A Cherokee is departing Runway 29L. Runways are not adjacent, and are therefore independent of each other.
-    - A Citation (Jet) is ready Runway 11C. Both Runways 11L & 11R are adjacent, and a Runway Separation Standard should be applied across ALL three Runways. Note: Arriving Aircraft are exempt.
-    - A PC12 (Single Engine) is ready Runway 29C. This aircraft is a single-engined aircraft and the Runways are treated independently from one another.
-    - A Seminole (Multi-Engine) is cleared a Touch & Go on Runway 11R. Any aircraft departing from the adjacent Runway (11C) must have a Runway separation standard applied.
+    - A Citation (Jet) is ready Runway 11C. Both Runways 11L & 11R are adjacent, and a runway separation standard should be applied across **all** three runways. Note: Arriving aircraft are exempt.
+    - A PC12 (Single Engine) is ready Runway 29C. This aircraft is a single-engined aircraft and the runways are treated independently from one another.
+    - A Seminole (Multi-Engine) is cleared a touch & go on Runway 11R. Any aircraft departing from the adjacent runway (11C) must have a runway separation standard applied.
 
 ### Opposite Bases (Arrivals Only)
-DO NOT allow aircraft to turn final simultaneously AND in close proximity.
-Controllers should allow at least one aircraft to become established on final prior to the second commencing their turn to final, and MUST pass mutual traffic.
+Due to the risk of collision, aircraft in each circuit should be staggered on base/final when operating in close proximity. Controllers should allow at least one aircraft to become established on final prior to the second commencing their turn to final, and pass mutual traffic information to both pilots.
 
 !!! phraseology
-    **BK ADC:** "FWC, Traffic is a King Air, late right base assigned the middle runway"
+   **BK ADC:** "FWC, traffic is a King Air, late right base for runway centre"
 
 ### Holding Aircraft Between Runways
-All aircraft should remain on Tower frequency when between Runways.
+All aircraft should remain on ADC frequency when between runways.
 
-The largest aircraft that can safely hold between Runways is a BE20 (King Air). All larger aircraft are considered to be occupying the runway behind until clear of all active Runways.
+The largest aircraft that can safely hold between runways is a BE20 (King Air). All larger aircraft are considered to be occupying the runway behind until clear of all active runways.
 
-All helicopters are considered to be larger than a King Air for the purpose of separation.
+!!! note
+    All helicopters are considered to be larger than a King Air for the purpose of separation.
+    
 
 ## VFR Operations
-YSBK uses coded clearances provide standardised routing for VFR aircraft arriving and departing YSBK while transiting Class D SY TCU airspace.
+Coded clearances are used to provide standardised routing for VFR aircraft arriving and departing YSBK while transiting Class D SY TCU airspace.
 
 <figure markdown>
 ![Bankstown Coded Clearances](img/bankstown_coded.png){ width="700" }
   <figcaption>Bankstown Coded Clearances</figcaption>
 </figure>
 
-Each coded clearance includes tracking instructions, height requirements that ensure aircraft remain within Class D airspace. Each coded clearance also includes implicit instructions on when to change frequencies.
+Each coded clearance includes tracking instructions and height requirements that ensure aircraft remain within Class D airspace. Each coded clearance also includes explicit instructions on when to change frequencies.
 
 ### VFR Inbound Procedures
 | Coded Clearance    | Route             | Altitude | 
@@ -98,14 +98,14 @@ VFR aircraft will report inbound at PSP or CRSC. They should be instructed to jo
 
 | VFR Approach Point | RWYs 29  | RWYs 11 |
 | ----------------| --------- | ---------- |
-| PSP    | *"Join right downwind runway 29R, maintain A015"*, then when abeam RWYs 11 threshold or clear of departing traffic, *"Cleared visual approach"*       | *"Join final runway 11L, report 3nm"*        |
-| CRSC   | *"Join crosswind runway 29R, maintain A015"*, then when abeam RWYs 11 threshold or clear of departing traffic, *"Cleared visual approach"* | *"Join final runway 11L, report at Warwick Farm"*  |
+| PSP    | *"Join right downwind runway 29R, maintain `A015`"*, then when abeam RWYs 11 threshold or clear of departing traffic, *"Cleared visual approach"*       | *"Join final runway 11L, report 3nm"*        |
+| CRSC   | *"Join crosswind runway 29R, maintain `A015`"*, then when abeam RWYs 11 threshold or clear of departing traffic, *"Cleared visual approach"* | *"Join final runway 11L, report at Warwick Farm"*  |
 
 !!! note
     Aircraft joining final in the RWY 11 direction are not assigned a level and are expected to commence a visual approach in accordance with the tracking instructions issued by ADC. Aircraft are required to enter the control zone at `A010`. There is no need to clear these aircraft for a visual approach.
 
 ### VFR Outbound Procedures
-VFR aircraft should report ready to **BK ADC** with their departure intentions.  A takeoff clearance constitutes a clearance to depart the zone by extending the pilot's requested leg of the circuit.  Aircraft departing will transfer to appropriate frequency upon leaving the zone, **no explicit frequency transfer is given to these aircraft**.
+VFR aircraft intending to track via a coded clearance require an airways clearance from **BK SMC**. SMC shall update the FDR route of these aircraft with the following tracking points, as required.
 
 | Coded Clearance    | Route             | Altitude | 
 | ------------------ | ------------------- | ------ | 
@@ -114,8 +114,27 @@ VFR aircraft should report ready to **BK ADC** with their departure intentions. 
 | Penrith Outbound   | `PRT SITS VCBR`     | `A015` |
 
 !!! phraseology
-    **ABC**: "Bankstown Tower, ABC, ready at runway 11L for a Hornsby Outbound"   
-    **BK ADC**: "ABC, Bankstown Tower, runway 11L, cleared for takeoff"   
+    **UNY**: "Bankstown Ground, Diamond UNY, taxiway L, received B, for Hornsby Outbound, request taxi"   
+    **BK SMC**: "UNY, Bankstown Ground, cleared Hornsby Outbound, taxi to holding point A8 runway 29R"  
+    **UNY**: "Cleared Hornsby Outbound, taxi to holding point A8 runway 29R, UNY"  
+
+These aircraft will report ready to **BK ADC** with their departure intentions. A takeoff clearance constitutes a clearance to operate in accordance with the aircraft's requested departure. After takeoff, the aircraft are expected to comply with the following tracking instructions:
+
+=== "Departure RWY 11"
+
+    | Coded Clearance                       | Tracking       | 
+    | ------------------------------------- | --------------------- |
+    | Mount Annan Outbound                  | <ul><li>At `A005`, turn left downwind, track to Dunc Gray Velodrome, climb to `A015`.</li><li>At Dunc Gray Velodrome and not before reaching `A015`, track to intersection of Hoxton Park Rd & M7.</li><li>Track via Mount Annan Outbound.</li></ul>
+    | Hornsby Outbound, or<br>Penrith Outbound  | <ul><li>Climb to `A005`, then turn left direct to PRT, climb to `A015`.</li><li>Track via nominated coded clearance.</li></ul>
+
+=== "Departure RWY 29"
+
+    | Coded Clearance                       | Tracking    | 
+    | ------------------------------------- | --------------------- |
+    | Mount Annan Outbound                  | <ul><li>Climb to `A010`.</li><li>Crossing Hume Highway, track to intersection of Hoxton Park Rd & M7, climb to `A015`.</li><li>Track via Mount Annan Outbound.</li></ul> |
+    | Hornsby Outbound, or<br>Penrith Outbound  | <ul><li>Climb to `A005`, then turn right direct to PRT, climb to `A010`.</li><li>Crossing the pipeline (approx 3nm BK), climb to `A015`.</li><li>Track via nominated coded clearance.</li></ul> |
+
+Aircraft departing will transfer to appropriate frequency upon leaving the zone, **no explicit frequency transfer is given to these aircraft**. 
 
 ## Helicopter Operations
 ### General
@@ -170,7 +189,7 @@ Circuits are conducted within the lateral confines of the fixed-wing circuit at 
 
 ## Runway Modes
 ### Preferred Runway Modes
-Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
+Winds must always be considered for runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
 | Priority - Mode | Arrivals  | Departures | Circuits |
 | ----------------| --------- | ---------- | -------- |
@@ -229,7 +248,7 @@ The volume of airspace adjacent to the WS CTR overhead Camden (known as **SY CTA
 
 - VFR aircraft departing via a [coded clearance](#vfr-outbound-procedures)
 
-All other aircraft require a 'Next' call to SBA.
+All other aircraft entering SBA CTA require a 'Next' call to SBA.
 
 The Standard Assignable level from **BK ADC** to **SBA** is:
 
