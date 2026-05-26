@@ -569,7 +569,7 @@ The Standard Assignable level from BA ADC to BA TCU is:
 
 | Aircraft | Level |
 | -------- | ----- |
-| All      | The lower of `A040` and `RFL` |
+| All      | The lower of `A050` and `RFL` |
 
 
 #### Arrivals/Overfliers
