@@ -50,7 +50,7 @@ The Standard Assignable level from BA ADC to BAA is:
 
 | Aircraft | Level |
 | -------- | ----- |
-| All      | The lower of `A040` and `RFL` |
+| All      | The lower of `A050` and `RFL` |
 
 ### Arrivals/Overfliers
 BAA will heads-up coordinate arrivals/overfliers from Class C to BA ADC prior to **5 mins** from the boundary.  
