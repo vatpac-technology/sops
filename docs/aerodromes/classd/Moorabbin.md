@@ -198,3 +198,7 @@ MB ADC must heads-up coordinate **all aircraft** transiting from one ADC control
 !!! phraseology
     <span class="hotline">**MB ADC W** -> **MB ADC E**</span>: "via CARR, EWX for an overfly"  
     <span class="hotline">**MB ADC E** -> **MB ADC W**</span>: "EWX, A015"
+
+### Melbourne Flow
+
+<!-- TODO: Document coordination procedures with ML_FMP for departures to Melbourne -->

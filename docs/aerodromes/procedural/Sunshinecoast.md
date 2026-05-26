@@ -83,3 +83,7 @@ BN TCU Class G shares a tiny border with SU ADC, however there are no SIDs, STAR
 ![BN TCU / SU ADC Border](../../terminal/img/subntcu.png){ width="700" }
   <figcaption>BN TCU / SU ADC Border</figcaption>
 </figure>
+
+### Brisbane Flow
+
+<!-- TODO: Document coordination procedures with BN_FMP for departures to Brisbane -->

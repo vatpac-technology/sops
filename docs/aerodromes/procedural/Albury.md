@@ -69,3 +69,11 @@ BLA will heads-up coordinate all arrivals/overfliers to AY ADC
     <span class="hotline">**AY ADC** -> **BLA**</span>: "RXA6783"  
 
 The Standard Assignable level from BLA to AY ADC is `A080`, any other level must be prior coordinated.
+
+### Melbourne Flow
+
+<!-- TODO: Document coordination procedures with ML_FMP for departures to Melbourne -->
+
+### Sydney Flow
+
+<!-- TODO: Document coordination procedures with SY_FMP for departures to Sydney -->

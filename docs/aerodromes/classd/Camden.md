@@ -128,3 +128,7 @@ SY TCU will **NOT** clear the aircraft for the approach.
 
 ### IFR overflying YSCN
 SRI will advise CN ADC of observed IFR aircraft overflying CN CTR below `A025`.
+
+### Sydney Flow
+
+<!-- TODO: Document coordination procedures with SY_FMP for departures to Sydney -->

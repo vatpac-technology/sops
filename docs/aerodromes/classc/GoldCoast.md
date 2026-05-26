@@ -243,3 +243,7 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
 
 ### Start Clearance
 A start clearance is required for aircraft planned to YBBN. Start clearance must be coordinated with BN TCU.
+
+### Brisbane Flow
+
+<!-- TODO: Document coordination procedures with BN_FMP for departures to Brisbane -->

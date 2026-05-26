@@ -226,3 +226,7 @@ BK ADC must coordinate **all helicopter traffic** via CSTH. Coordination must ta
 !!! phraseology
     <span class="hotline">**BK ADC N** -> **BK ADC C**</span>: "Choppers South Inbound/Outbound"  
     <span class="hotline">**BK ADC C** -> **BK ADC N**</span>: "Roger, Traffic is a Cherokee late downwind"
+
+### Sydney Flow
+
+<!-- TODO: Document coordination procedures with SY_FMP for departures to Sydney -->

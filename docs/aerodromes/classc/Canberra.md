@@ -191,3 +191,7 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
     | ------ | ---- | -------------------- |
     | 35 | AVBEG<br>DUBUS<br>HOWLY<br>NONUP<br>TANTA<br>WG VOR<br>West | 125.9 (CBW) |
     | 35 | AKMIR<br>CULIN<br>East | 124.5 (CBE) |
+
+### Sydney Flow
+
+<!-- TODO: Document coordination procedures with SY_FMP for departures to Sydney -->

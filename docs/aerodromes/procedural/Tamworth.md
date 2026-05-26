@@ -219,3 +219,7 @@ TW ADC must heads-up coordinate **all aircraft** transiting from one ADC control
 !!! phraseology
     <span class="hotline">**TW ADC S** -> **TW ADC**</span>: "via GWT, SPP for an overfly"  
     <span class="hotline">**TW ADC** -> **TW ADC S**</span>: "SPP, `A035`"
+
+### Sydney Flow
+
+<!-- TODO: Document coordination procedures with SY_FMP for departures to Sydney -->

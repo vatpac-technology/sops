@@ -219,3 +219,7 @@ EN ADC is responsible for separation with all YMML traffic, and must coordinate 
     <span class="hotline">**EN ADC** -> **ML ADC**</span>: "For Ident, OXG, published missed approach from the ILS 26"  
     <span class="hotline">**ML ADC** -> **EN ADC**</span>: "OXG, my restriction is QFA451 on a 10nm final RWY 34, your separation"  
     <span class="hotline">**EN ADC** -> **ML ADC**</span>: "My separation with QFA451, OXG"
+
+### Melbourne Flow
+
+<!-- TODO: Document coordination procedures with ML_FMP for departures to Melbourne -->

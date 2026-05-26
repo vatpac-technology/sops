@@ -157,3 +157,7 @@ JT ADC must heads-up coordinate **all aircraft** transiting from one ADC control
 !!! phraseology
     <span class="hotline">**JT ADC C** -> **JT ADC W**</span>: "via FDL, TBN for an overfly"  
     <span class="hotline">**JT ADC W** -> **JT ADC C**</span>: "TBN, A015"
+
+### Perth Flow
+
+<!-- TODO: Document coordination procedures with PH_FMP for departures to Perth -->

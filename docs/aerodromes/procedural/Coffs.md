@@ -60,3 +60,7 @@ INL/ARL(MNN) will heads-up coordinate all arrivals/overfliers to CFS ADC.
     <span class="hotline">**CFS ADC** -> **INL**</span>: "RXA6416"  
 
 The Standard Assignable level from INL/ARL(MNN) to CFS ADC is `A080`, any other level must be prior coordinated.
+
+### Brisbane Flow
+
+<!-- TODO: Document coordination procedures with BN_FMP for departures to Brisbane -->

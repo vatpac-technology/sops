@@ -269,3 +269,7 @@ AF ADC must heads-up coordinate **all aircraft** transiting from one ADC control
 !!! phraseology
     <span class="hotline">**AF ADC S** -> **AF ADC N**</span>: "via TAR, TQC for an overhead join"  
     <span class="hotline">**AF ADC N** -> **AF ADC S**</span>: "TQC, A015"
+
+### Brisbane Flow
+
+<!-- TODO: Document coordination procedures with BN_FMP for departures to Brisbane -->

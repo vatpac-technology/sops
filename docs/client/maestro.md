@@ -16,6 +16,7 @@ MAESTRO is generally not used by TWR controllers, however it allows them to have
 The MAESTRO plugin can be accessed from the vatSys menu bar under TFMS. By default, it operates in **offline** mode. Use the `SETUP` button to [connect](#synchronisation) to the server, which allows all connected controllers to share sequence information.
 
 ## Installation
+
 The vMaestro plugin should be [downloaded](https://github.com/YuKitsune/vMaestro/releases) and placed in your vatSys Plugins folder.
 
 ## Abbreviations
@@ -39,7 +40,11 @@ Maestro calculates landing times (`STA`) based on estimates (`ETA`) and applies 
 ### The Timeline
 
 Each timeline displays flights at their `STA` (runway view) or `STA_FF` (feeder view).
+Generally, enroute views will be feeder views, and TMA/flow views will be runway views.
+
 Each tick on the timeline corresponds to one minute.
+
+<!-- TODO: Brief explanation of label configuration, and how they can differ between views -->
 
 Flight labels are mirrored on either side of the timeline, and contain (from innermost to outermost):
 
@@ -54,12 +59,17 @@ Flight labels are mirrored on either side of the timeline, and contain (from inn
 9. Total delay required (based on the initial `ETA`)
 10. Delay remaining (based on the current `ETA`)
 
-The total delay required remains unchanged as the flight absorbs delay. The remaining delay progressively reduces as delay is absorbed. When the remaining delay reads `00`, all required delay has been absorbed.
+The total delay required remains unchanged as the flight absorbs delay. The remaining delay progressively reduces as delay is absorbed. When the remaining delay reads `0`, all required delay has been absorbed.
 
 !!! note
-    After a flight has passed the feeder fix, the `ETA` is calculated based on the `ATO` of the feeder fix, thus, the remaining delay figure will not change once the flight enters the TMA.
+    After a flight has passed the feeder fix, the ETA stops being updated, thus, the remaining delay figures will not change once the flight enters the TMA.
 
 ![Maestro Window](./img/maestro.png)
+
+In feeder views, the delay required, and delay remaining fields will only display the enroute portion of the delay.
+Runway views will display the total delay required and/or remaining.
+
+<!-- TODO: Add screenshot, and explanation of ENR vs. TMA delay -->
 
 ### Flight States
 
@@ -79,10 +89,11 @@ Maestro uses various states that affect how flights are processed. Each state is
 
 The delay figure on the flight label is color coded to indicate the suggested delaying action:
 
-- **<span style="color: rgb(0, 105, 0); background-color: rgb(160, 170, 170);">Expedite</span>**: The aircraft needs to make up the time shown (a minus sign will be in front of the delay number)
-- **<span style="color: rgb(0, 0, 96); background-color: rgb(160, 170, 170);">No delay</span>**: No delaying action required. The aircraft can maintain their profile speed.
-- **<span style="color: rgb(0, 235, 235); background-color: rgb(160, 170, 170);">Speed reduction</span>**: A short delay is required for the flight to meet their `STA`.
-- **<span style="color: rgb(235, 235, 0); background-color: rgb(160, 170, 170);">Holding recommended</span>**: Extended delay is required.
+- **<span style="color: rgb(0, 105, 0); background-color: rgb(160, 170, 170);">Expedite</span>**: The aircraft needs to speed up, and make up the time shown (a minus sign will be in front of the delay number)
+- **<span style="color: rgb(0, 0, 96); background-color: rgb(160, 170, 170);">No delay</span>**: No delaying action required. The aircraft can resume their profile.
+- **<span style="color: rgb(0, 235, 235); background-color: rgb(160, 170, 170);">Speed reduction</span>**: Delay can be absorbed linearly using speed control or vectoring.
+- **<span style="color: rgb(255, 255, 255); background-color: rgb(160, 170, 170);">Path Stretching</span>**: Delay needs to be absorbed in the TMA.
+- **<span style="color: rgb(235, 235, 0); background-color: rgb(160, 170, 170);">Holding</span>**: Extended delay is required.
 
 ## Interactions
 
@@ -158,6 +169,14 @@ Do not issue delay instructions to unstable flights. Unstable flights are contin
 Ensure the `ETA_FF` is accurate at least 10 minutes prior to the feeder fix. If the system estimate is inaccurate, use the Change ETA_FF function (right-click the flight, select Change ETA_FF) to manually adjust it.
 
 Remove any PETOs (Pilot Estimated Time Over) that may affect the accuracy of the system estimates.
+
+!!! note
+    The Hold Plugin will set a PETO on the holding point, and the waypoint immediately after it. Do not clear these PETOs.
+    When MAESTRO is used in conjunction with the Hold Plugin, the `ETA_FF` will be calculated based on the hold exit time.
+    Verify the ETA_FF is accurate upon cancelling a hold, and re-routing the aircraft past the holding point.
+
+!!! tip
+    If the ETA_FF is inaccurate, check the TAS in the flight plan is accurate.
 
 ### Re-routing
 
