@@ -238,6 +238,13 @@ ADC can recall a runway release immediately. Upon recall, SMC shall acknowledge 
 
     <span class="hotline">**AD SMC** -> **AD ADC**</span>: "Runway 30, traffic is a B737 crossing on F."
 
+#### Helicopter Movements in SMC Jurisdiction
+ADC must coordinate with the relevant SMC controller before permitting an helicopter to take off or land on any part of the manouevring area under the jurisdiction of ADC. This ensures SMC will keep the designated are clear from taxiing traffic.
+
+!!! phraseology 
+    <span class="hotline">**PH ADC** -> **PH SMC**</span>: "Helicopter ABC inbound for landing on Taxiway C9."  
+    <span class="hotline">**PH SMC** -> **PH ADC**</span>: "ABC."
+
 #### Helicopter Air Transit
 A helicopter performing an air transit maneouvre must be coordinated from SMC to ADC.
 
