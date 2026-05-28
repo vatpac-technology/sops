@@ -20,12 +20,6 @@ AS ADC is responsible for the Class D airspace `BCTA` to `A045`, as well as the 
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
-## Manoeuvring Area Responsibility
-<figure markdown>
-![YBAS Manoeuvring Area](img/ybas_manoeuvring_area.png){ width="609" }
-  <figcaption>Manoeuvring Area</figcaption>
-</figure>
-
 ## Separation
 ### Surveillance
 Surveillance coverage can be expected to be available at all levels in the AS CTR. Although AS ADC is **not permitted** to use surveillance for separation, ASP may assist by establishing surveillance separation standards via coordination.
