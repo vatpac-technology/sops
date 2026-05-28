@@ -110,7 +110,7 @@ Aircraft departing YWLM for the Salt Ash Air Weapons Range (R596) should be clea
 
 ## SID Selection
 ### Civil Aircraft
-Civil aircraft planned via **KEXAR**, **LIMLO**, **MONDO**, and **[UBSON](#ubson-departures)** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. Civil jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
+Civil aircraft planned via **KEXAR**, **LIMLO**, **MONDO**, and **[UBSON](#ubson-departures)** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. Civil jet aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
 Civil aircraft unable to accept a procedural SID and **non-RNAV** aircraft shall be assigned either the RADAR SID or a visual departure.
 

@@ -23,7 +23,7 @@
   <figcaption>Territory Airspace</figcaption>
 </figure>
 
-TRT is responsible for **TRS**, **ASH**, and **KIY**,  when they are offline.  
+TRT is responsible for **TRS**, **ASH**, and **KIY** when they are offline.  
 
 #### Extending
 !!! warning "Important"
@@ -94,10 +94,6 @@ Each TCU must [give heads up coordination](../../../controller-skills/coordinati
 
 Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../sua/#ad-hoc-activations).
 
-<!-- #### M240A-F Darwin
-
-#### M263A-G Darwin -->
-
 #### Bradshaw Field Training Area SUA
 The Bradshaw Field Training Area is contained within three volumes of SUA: R268 Koolendong, R269 Angalarri North, and R270 Angalarri South; all `SFC-NOTAM`. The area is used for extensive army training and operations based at Nackaroo Airfield (YNKR). R269 and R270 are wholly located in the TRS subsector, while R268 extends slightly into KIY.
 
@@ -126,6 +122,19 @@ When activated, the restricted areas disrupt traffic on the busy **A339**, **A57
 
 Activation also significantly disrupts traffic travelling in and out of YBRM. Aircraft may be given an additional requirement to climb above, or descend below the vertical limits of the activation, or rerouted manually to avoid the area.
 
+#### M277A-H Darwin
+The M277A-H Darwin [MOAs](../../controller-skills/sua/#military-operating-areas) are located southwest of YPDN, `NOTAM-NOTAM`. M277A and M277E are entirely within DN TCU airspace, while M277B-D and M277F-H are in TRT airspace.
+
+Aircraft will generally enter and exit the MOA via the appropriate [military gate](../../../terminal/darwin/#military-gates).
+
+##### Affected Civil Operations
+Activation of the MOA disrupts traffic on the **J151** high altitude airway, and aircraft departing via the HELLI SID. Aircraft may be given an additional requirement to climb above the vertical limits of the activation, or rerouted manually to avoid the area.
+
+#### M278A-H Darwin
+The M278A-H Darwin [MOAs](../../controller-skills/sua/#military-operating-areas) are located northeast of YPDN, `NOTAM-NOTAM`. M278A and M278E are entirely within DN TCU airspace, while M278B-D and M278F-H are in TRT and TRS airspace.
+
+Aircraft will generally enter and exit the MOA via the appropriate [military gate](../../../terminal/darwin/#military-gates).
+
 #### R225A-F and R250 Tindal
 The R225A-F and R250 Tindal restricted areas form the western part of the Tindal Flying Training Area, and are located entirely within the TRS subsector. The areas are used for a variety of training purposes, including supersonic flight.
 
@@ -139,7 +148,18 @@ The R226A-B restricted areas are the easternmost segments of the Tindal Flying T
 
 These areas are rarely activated, with nearly all operations being preferentially conducted in the western [R225A-F and R250 Tindal](#r225a-f-and-r250-tindal) restricted areas.
 
-<!-- #### R262A-C Darwin -->
+#### R276B-D Darwin
+The R276B-D Darwin [restricted areas](../../controller-skills/sua/#restricted-areas) are located southwest of YPDN, `NOTAM-NOTAM`, in TRT airspace
+
+Aircraft will generally enter and exit the restricted areas via the appropriate [military gate](../../../terminal/darwin/#military-gates).
+
+##### Affected Civil Operations
+Activation of the restricted areas disrupts traffic on the **J72** high altitude airway, and aircraft arriving via the WANGI STAR. Aircraft may be given an additional requirement to remain above the vertical limits of the activation, or rerouted manually to avoid the area.
+
+!!! phraseology
+	*QFA848 has been assigned the WANGI STAR for Runway 11 into YPDN, and is approaching their top of descent. The R276B-C restricted area has been activated `SFC-F150`.*   
+    **TRT**: "QFA848, descend via STAR to `F160`, cancel level restriction at KIGOS."   
+    **QFA848**: "Descend via STAR to `F160`, cancel level restriction at KIGOS, QFA848."  
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -177,13 +197,8 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 ### DN TCU
 #### Airspace
-DN TCU owns the airspace within a 40NM radius of the DN DME from `SFC`–`F180`  
-
-DN TCU is also responsible for Active Restricted Area R264 A-K and R230 A-F  
-
-DAW may request DN TCU (`SFC`–`F240`) from TRT to facilitate military transits to/from R264 A-K and R230 A-F  
-
-Refer to [Darwin TCU Airspace Division](../../../terminal/darwin/#airspace-division) for information on airspace divisions when **DAW** is online.
+#### Airspace
+DN TCU owns the Class C and G airspace within 40 DME DN from `SFC` to `F180`.
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:
