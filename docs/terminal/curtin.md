@@ -119,8 +119,8 @@ Voiceless coordination is in place from CIN TCU to TST(ASH) for aircraft assigne
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
 !!! phraseology
-    <span class="hotline">**CIA** -> **ASH**</span>: "ASY404, with your concurrence, will be assigned F180, for my separation with JTE654"  
-    <span class="hotline">**ASH** -> **CIA**</span>: "ASY404, concur F160"  
+    <span class="hotline">**CIA** -> **ASH**</span>: "ASY404, with your concurrence, will be assigned `F160`, for my separation with JTE654"  
+    <span class="hotline">**ASH** -> **CIA**</span>: "ASY404, concur `F160`"  
 
 #### Arrivals
 The standard assignable level from TST(ASH) to CIN TCU is `F130`, and tracking via CIN VOR. All other aircraft must be prior coordinated.
