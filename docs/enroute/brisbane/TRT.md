@@ -104,7 +104,13 @@ The Bradshaw Field Training Area is contained within three volumes of SUA: R268 
 When all three restricted areas are activated, they are referred to collectively as *'Bradshaw'*. Aircraft intending to operate in adjoining SUA should be notified *'[Bradshaw Active](../../terminal/tindal/#bradshaw-delamere-active)'* with their clearance.
 
 #### Delamere Air Weapons Range SUA
-The Delamere Air Weapons Range is contained within three volumes of SUA: R211 Delamere (`SFC-A095`), R212 Delamere (`SFC-A095`), and R232 Delamere (`SFC-NOTAM`). The range is used for a variety of bombing and live-firing training exercises, and is wholly located within the TRS subsector.
+The Delamere Air Weapons Range is contained within three volumes of SUA: 
+
+- R211 Delamere (`SFC-A095`)
+- R212 Delamere (`SFC-A095`)
+- R232 Delamere (`SFC-NOTAM`)
+
+The range is used for a variety of bombing and live-firing training exercises, and is wholly located within the TRS subsector.
 
 When all three restricted areas are activated, they are referred to collectively as *'Delamere'*. Aircraft intending to operate in adjoining SUA should be notified *'[Delamere Active](../../terminal/tindal/#bradshaw-delamere-active)'* with their clearance.
 
