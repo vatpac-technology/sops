@@ -89,7 +89,7 @@ If the pilot **does not** nominate a gate, or nominates a gate that does not pro
 
 
 #### R802B Curtin
-The R802B Curtin [restricted area](../../controller-skills/sua/#restricted-areas) forms the bulk of the CTA in the CIN TMA, and are activated by default when CIA is online.
+The R802B Curtin [restricted area](../../controller-skills/sua/#restricted-areas) forms the bulk of the CTA in the CIN TMA, and is activated by default when CIA is online.
 
 ##### Affected Civil Operations
 When activated, the restricted areas disrupt aircraft operating at Derby (YDBY). Civil aircraft should be given a clearance to transit the SUA where practical and otherwise instructed to remain OCTA and transit beneath the airspace steps.
