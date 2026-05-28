@@ -79,7 +79,7 @@ If the pilot **does not** nominate a gate, or nominates a gate that does not pro
 | R806A-B         | 10 or 12 |
 
 !!! tip
-    [Coordination requirements](#acd-to-cin-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU before providing clearance.
+    [Coordination requirements](#acd-to-cin-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated.
     
 ### Special Use Airspace
 <figure markdown>
@@ -88,21 +88,27 @@ If the pilot **does not** nominate a gate, or nominates a gate that does not pro
 </figure>
 
 
-#### R802A-B Curtin
-The R802A and R802B Curtin [restricted areas](../../controller-skills/sua/#restricted-areas) are located in the northern half of the CIN TMA, and are not activated by default when CIA is online.
+#### R802B Curtin
+The R802B Curtin [restricted area](../../controller-skills/sua/#restricted-areas) forms the bulk of the CTA in the CIN TMA, and are activated by default when CIA is online.
 
 ##### Affected Civil Operations
-When activated, the restricted areas disrupt aircraft operating at Derby (YDBY). Civil aircraft may be given clearance to transit the SUA, or rerouted manually to avoid the area.
+When activated, the restricted areas disrupt aircraft operating at Derby (YDBY). Civil aircraft should be given a clearance to transit the SUA where practical and otherwise instructed to remain OCTA and transit beneath the airspace steps.
 
 !!! phraseology
 	*The R802A restricted area has been activated `A035-F200`.*   
-    **FD623**: "Curtin Approach, FD623, PC-24, 4 POB, IFR, taxiing YDY for YBRM, runway 29."   
-    **CIA**: "FD623, Curtin Approach. Squawk 5136, no reported IFR traffic. report lined up for airways clearance."   
+    **FD623**: "Curtin Approach, FD623, PC24, 4 POB, IFR, taxiing YDBY for YBRM, runway 29."   
+    **CIA**: "FD623, Curtin Approach. Squawk 5136, no reported IFR traffic. Report lined up for airways clearance."   
     **FD623**: "Squawk 5136, wilco, FD623"   
-    ...
+    ...  
     **FD623**: "FD623, lined up"   
     **CIA**: "FD623, cleared to YBRM direct, climb to `F190`"    
     **FD623**: "Climb YBRM direct, climb to `F190`, FD623."  
+
+#### R825 Curtin
+The R825 Curtin [restricted area](../../controller-skills/sua/#restricted-areas) is administered by CIN ADC and activated by default when that position is online. When CIA is online without ADC, they shall administer the airspace as part of their top-down coverage to YCIN.
+
+#### R826 Curtin
+The R826 Curtin [restricted area](../../controller-skills/sua/#restricted-areas) extends from `A015-A035` in the southern half of the TMA and **is not** activated by default when CIA logs on. It should only be activated when specific operations necessitate its use, to avoid disrupting civilian operations over the Fitzroy River.
 
 
 ## Coordination
