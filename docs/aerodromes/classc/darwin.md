@@ -25,7 +25,7 @@
 </figure>
 
 ## Restricted Area Activations
-There are no [restricted areas or MOAs](../../../controller-skills/sua) activated by default when TL ADC is online.
+There are no [restricted areas or MOAs](../../../controller-skills/sua) activated by default when DN ADC is online.
 
 ## Manoeuvring Area
 ### Manoeuvring Area Responsibility
