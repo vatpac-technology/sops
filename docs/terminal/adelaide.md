@@ -144,9 +144,9 @@ Due to the low level of CTA at YPPF, it is best practice to give airways clearan
     **AD TCU**: "ABC, Adelaide Approach, Squawk 3601, no reported IFR traffic, report ready at the holding point for airways clearance"  
     **ABC**: "Squawk 3601, wilco, ABC"  
 
-    **ABC**: "ABC, ready Runway 21R, request clearance"  
-    **AD TCU**: "ABC, cleared to YPAG via DOLVU, flight planned route, PARAFIELD1 departure, climb via SID to A040"   
-    **ABC**: "Cleared to YPAG via DOLVU, flight planned route, PARAFIELD1 departure, climb via SID to A040, ABC"  
+    **ABC**: "ABC, ready Runway 21R"  
+    **AD TCU**: "ABC, cleared to YPAG via DOLVU, flight planned route, PF1 departure, climb via SID to `A040`"   
+    **ABC**: "Cleared to YPAG via DOLVU, flight planned route, PF1 departure, climb via SID to `A040`, ABC"  
     **AD TCU**: "ABC, assigned heading right 360, report airborne"  
     **ABC**: "Assigned right 360, wilco, ABC"
 
@@ -349,6 +349,8 @@ The Standard Assignable level from **ED ADC** to **AD TCU** is:
 
 ### SMC to TCU
 The controller assuming responsibility of **SMC** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to AD TCU (or the enroute controller responsible for the AD TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
+
+**AD TCU** shall coordinate with the relevant enroute controller responsible for the airspace to determine whether the airspace will be activated and then approve the clearance to SMC.
 
 !!! phraseology
     <span class="hotline">**ED SMC** -> **AAW**</span>: "STKR11 requests clearance to R265B"  
