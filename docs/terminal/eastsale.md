@@ -22,7 +22,7 @@ ES TCU owns the Class C and G airspace within 50 DME YMES ARP, `SFC` to `F210`.
 </figure>
 
 ### Restricted Area Activations
-When **TNA** is online, the following [restricted areas](../../controller-skills/sua/#restricted-areas) are [activated](../../controller-skills/sua/#activation-of-sua) by default, and reclassified as Class C airspace.
+When **ESA** is online, the following [restricted areas](../../controller-skills/sua/#restricted-areas) are [activated](../../controller-skills/sua/#activation-of-sua) by default, and reclassified as Class C airspace.
 
 - M301A `A040 - F210`
 - R360A `SFC - A060`
