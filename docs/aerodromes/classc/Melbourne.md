@@ -44,7 +44,7 @@ The majority of simulators will still have the old apron layout with a single ta
 
 ## Separation
 ### Reduced Runway Separation
-When conditions permit, the [2400m separation standard for landing aircraft](../../separation-standards/runway.md#2400m-standard) may be applied to aircraft arriving Runway **16/34**.
+When conditions permit, the [2400m separation standard for landing aircraft](../../../separation-standards/runway/#2400m-standard) may be applied to aircraft arriving Runway **16/34**.
 
 ## Workload Management
 During busy events, such as [Milk Run Monday](../../../events/milkrun/), the **SMC** controller may end up with a much higher workload than the **ACD** controller. Additionally, delays may need to be implemented for aircraft requesting pushback, so as to not overload the taxiways and holding points.
@@ -71,7 +71,7 @@ Day VFR Helicopters may request clearance via the **Sunbury Corridor**. It is de
   <figcaption>Sunbury Corridor</figcaption>
 </figure>
 
-Boundary Coordination must be completed to ML TCU for clearances in this airspace
+[Boundary coordination](../../../controller-skills/coordination/#boundary) must be completed to ML TCU for clearances in this airspace
 
 !!! phraseology
     <span class="hotline">**ML ADC** -> **ML TCU**</span>: "For Ident, HM3, Sunbury Corridor, not above A020"  
@@ -114,8 +114,24 @@ Particular attention should be paid to departures for runways 27 and 34. Taxiway
   <figcaption>Segregated queues for runway 34 keeping Taxiway A clear</figcaption>
 </figure>
 
+## Helicopter Operations
+### Helipads
+There are limited facilities for helicopter operations at YMML.
+
+<figure markdown>
+![HLS at YMML](./img/ml_hls.png){ width="800" }
+  <figcaption>HLS at YMML</figcaption>
+</figure>
+
+There is one helipad within the manouevring area, the **Taxiway Whiskey Helipad**, located at the intersection of Taxiways W and W3. Helicopters will be cleared to take off/land from the pad by ML ADC, following [coordination with SMC](../../../controller-skills/coordination/#helicopter-movements-in-smc-jurisdiction)
+
+!!! phraseology
+    **ML ADC**: "EFG, Taxiway W Helipad, cleared to land" 
+    
+There is also a much smaller helipad located adjacent the car dealership on Terminal Drive. This helipad is outside the manouevring area so no takeoff or landing clearances should be issued. Instead, helicopters should be instructed to report airborne or report on the ground. 
+
 ## Runway Modes
-###Preferred Runway Modes
+### Preferred Runway Modes
 If winds are too great, single runway operations may be necessary (eg, Runway 16 for Arrivals and Departures). However, pending wind limitations (Crosswind <20kts, Tailwind <5kts), the following runway modes are to be used
 
 | Mode     | Arrivals | Departures |
