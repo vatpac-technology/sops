@@ -14,7 +14,7 @@
     East Sale TCU is a [military TCU](../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those in a civil TCU. Ensure you are familiar with the [military controller skills](../../controller-skills/military) necessary to provide a quality service.
 
 ## Airspace
-TL TCU owns the Class C and G airspace within 50 DME YMES ARP, `SFC` to `F210`.
+ES TCU owns the Class C and G airspace within 50 DME YMES ARP, `SFC` to `F210`.
 
 <figure markdown>
 ![ES TCU Structure](img/es_tcu.png){ width="700" }
