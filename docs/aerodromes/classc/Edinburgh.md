@@ -50,7 +50,7 @@ There is one helipad at YPED, on Taxiway D immediately east of OLA 11.
 ![ED HLS](img/ed_hls.png){ width="700" }
 </figure>
 
-The helipad is part of the manoeuvring area and controlled by ED SMC. Any helicopter taking off or landing on the helipads require a specific takeoff or landing clearance from ADC, following the [appropriate coordination with SMC](../../../controller-skills/coordination/#helicopter-movements-in-smc-jurisdiction).
+The helipad is part of the manoeuvring area and controlled by ED SMC. Any helicopter taking off or landing on the helipad requires a specific takeoff or landing clearance from ADC, following the [appropriate coordination with SMC](../../../controller-skills/coordination/#helicopter-movements-in-smc-jurisdiction).
 
 !!! phraseology 
     **ED ADC**: "CHOP41, taxiway D, cleared to land" 
