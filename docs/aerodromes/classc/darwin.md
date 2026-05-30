@@ -94,21 +94,6 @@ If the pilot **does not** nominate a gate, or nominates a gate that does not pro
 !!! tip
     [Coordination requirements](#acd-to-dn-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU **before** providing clearance.
 
-### Snake Pit
-The **Snake Pit** is an area of dirt adjacent Runway 36 used for low level hover operations, most commonly by helicopters located at the apron known as the **Snake Farm**, south of OLA 6-10.
-
-<figure markdown>
-![Snake Pit](img/dn_snake_pit.png){ width="700" }
-<figcaption>Snake Pit</figcaption>
-</figure>
-
-Helicopters requesting clearance to operate in the Snake Pit shall be cleared to air transit to, and then operate within, the area by ADC.
-
-!!! phraseology
-    **CHOP19**: "Darwin Tower, helicopter ZXY, Snake Farm, for Snake Pit."   
-    **DN ADC**: "CHOP19, Darwin Tower, air transit Snake Pit, cleared to operate Snake Pit, not above 100ft."
-	**CHOP19**: "Air transit Snake Pit, cleared to operate Snake Pit, not above 100ft, CHOP19."   
-
 ## VFR Operations
 VFR aircraft that will operate only in ADCs airspace shall be assigned SSR code 0100.
 
@@ -160,6 +145,21 @@ VFR helicopters are generally processed via by the TALC HEAD Inbound route.  IFR
 
 ### Hospital Helipads
 The Darwin CTR contains the helipad at the Royal Darwin Hospital (YXDH). This pad sits outside the manoeuvring area, so no takeoff or landing clearances should be issued. Instead, helicopters should be instructed to report airborne or report on the ground.
+
+### Snake Pit
+The **Snake Pit** is an area of dirt adjacent Runway 36 used for low level hover operations, most commonly by helicopters located at the apron known as the **Snake Farm**, south of OLA 6-10.
+
+<figure markdown>
+![Snake Pit](img/dn_snake_pit.png){ width="700" }
+<figcaption>Snake Pit</figcaption>
+</figure>
+
+Helicopters requesting clearance to operate in the Snake Pit shall be cleared to air transit to, and then operate within, the area by ADC.
+
+!!! phraseology
+    **CHOP19**: "Darwin Tower, helicopter ZXY, Snake Farm, for Snake Pit."   
+    **DN ADC**: "CHOP19, Darwin Tower, air transit Snake Pit, cleared to operate Snake Pit, not above 100ft."
+	**CHOP19**: "Air transit Snake Pit, cleared to operate Snake Pit, not above 100ft, CHOP19."   
 
 ## Runway Modes
 ### Preferred Runway Modes
