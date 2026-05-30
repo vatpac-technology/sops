@@ -1,15 +1,15 @@
 ---
-title: MAESTRO
+title: Hold List
 ---
 
 --8<-- "includes/abbreviations.md"
 
 ## Background
 
-The Hold plugin replicates the Eurocat Hold window and functionality, helping Enroute and Terminal controllers manage traffic in holding stacks, or performing airwork over a specified location.
+The Hold plugin replicates the Eurocat Hold window and functionality, helping Enroute and Terminal controllers manage traffic in holding stacks or performing airwork over a specified location.
 
 <figure markdown>
-![Hold Window](./img/hold-list.png)
+![Hold Window](./img/hold-list.png){ width="600" }
 </figure>
 
 ## Installation
@@ -26,7 +26,7 @@ The waypoint name can be shortened to as little as three characters (e.g. `H\RIV
 
 An exit time can be specified by appending it to the holding point name, e.g. `H\RIVET\29` to depart `RIVET` at 29-minutes past the hour.
 
-The exit time can be adjusted directly from the list, or by modifying the label.
+The exit time can be adjusted directly from the list or by modifying the label.
 
 When the exit time is set, the ETO for all subsequent waypoints are adjusted to reflect the hold exit time.
 
@@ -40,12 +40,12 @@ When a block clearance has been issued, the CFL is displayed as `xxxByyy`, where
 
 An `X` will be displayed if the aircraft is non-RVSM.
 
-The hold exit time is displayed in the label, and can be adjusted by clicking on it, and selecting a new exit time.
+The hold exit time is displayed in the label and can be adjusted by clicking on it to select a new exit time.
 
-The `OP_DATA` can also be viewed, and edited from the hold label.
+The `OP_DATA` can also be viewed and edited from the hold label.
 
 <figure markdown>
-![Hold Label Diagram](./img/hold-diagram.png)
+![Hold Label Diagram](./img/hold-diagram.png){ width="700" }
 </figure>
 
 ## Configuring Lists
@@ -60,5 +60,5 @@ Manually configured lists are not freed automatically; they must be cleared via 
 Any aircraft holding at a waypoint when all 4 lists are already occupied will be placed in the `OTHER` list.
 
 <figure markdown>
-![Hold Windows](./img/hold-windows.png)
+![Hold Windows](./img/hold-windows.png){ width="550" }
 </figure>
