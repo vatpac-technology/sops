@@ -318,6 +318,8 @@ SFW/SFE should provide aircraft an approximate 'miles to run' on first contact, 
 !!! warning "Important"
     Particular care should be taken not to descend aircraft on downwind for runway 16R below `A040` until they are clear of the YSBK SID & RNP paths.
 
+    SFW has [no requirements](#between-sba-and-tcu) for aircraft tracking via a YSBK SID by default.
+
 SFW/SFE may provide distance to touchdown, when transferring an aircraft to tower after the aircraft is established on their approach runway centreline.
 
 !!! phraseology
