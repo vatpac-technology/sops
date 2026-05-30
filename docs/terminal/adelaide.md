@@ -354,6 +354,12 @@ The controller assuming responsibility of **SMC** shall give [heads-up](../../..
 
 !!! phraseology
     <span class="hotline">**ED SMC** -> **AAW**</span>: "STKR11 requests clearance to R265B"  
+    <span class="hotline">**AAW** -> **ED SMC**</span>: "I'll call you back"  
+
+    <span class="hotline">**AAW** -> **AUG**</span>: "On the ground YPED, STKR11, requests activation of R265A-F `SFC-F450`, from 0300 until 0500.”  
+    <span class="hotline">**AUG** -> **AAW**</span>: "STKR11, expect activation of R265A-F `SFC-F450` at 0300 until 0500."   
+    <span class="hotline">**AAW** -> **AUG**</span>: "STKR11." 
+
     <span class="hotline">**AAW** -> **ED SMC**</span>: "STKR11, clearance approved."  
 
 #### Arrivals/Overfliers
