@@ -34,17 +34,24 @@ ADC is responsible for all runways as well as the [**Eastern HLS**](#helipads).
 ### Recommended Taxi Routes
 Except when the traffic situation warrants, taxi clearances shall conform to the recommended taxi routes:
 
-- Southern and Northern GA
-  - Outbound via Taxiway V1
-  - Inbound via Taxiway Y1
-- OLAs
-  - Inbound via Taxiway R
-  - Outbound via Taxiways S and T
+Southern and Northern GA:
+
+| Direction | Taxiway |
+| --------- | ------- |
+| Outbound  | V1      |
+| Inbound   | Y1      |
+
+OLAs:
+
+| Direction | Taxiway |
+| --------- | ------- |
+| Outbound  | S and T |
+| Inbound   | R       |
 
 #### Taxiway Limitations
 Traffic permitting, aircraft above 136,000kg MTOW shall be entered/exited for Runway 11/29 from taxiways B2, C3, D or E2 and backtracked as required.  
 
-Taxiway V has a passing bay, located adjacent to the ARFF section. The passing bay is the preferred location for engine run-ups, no longer than 3 minutes  
+Taxiway V has a passing bay, located adjacent to the ARFF section. The passing bay is the preferred location for engine run-ups. 
 
 ## Local Procedures
 ### Initial and Pitch
@@ -88,7 +95,7 @@ If the pilot **does not** nominate a gate, or nominates a gate that does not pro
     [Coordination requirements](#acd-to-dn-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU **before** providing clearance.
 
 ### Snake Pit
-The **Snake Pit** is an area of dirt adjacent Runway 36 used for low level hover operations, most commonly from helicopters located at the apron known as the **Snake Farm**, south of OLA 6-10.
+The **Snake Pit** is an area of dirt adjacent Runway 36 used for low level hover operations, most commonly by helicopters located at the apron known as the **Snake Farm**, south of OLA 6-10.
 
 <figure markdown>
 ![Snake Pit](img/dn_snake_pit.png){ width="700" }
