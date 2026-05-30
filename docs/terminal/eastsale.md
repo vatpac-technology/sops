@@ -180,7 +180,9 @@ West Sale (YWSL) is a certified civilian aerodrome 9NM west of YMES. When the [R
     While ESA is responsible for the airspace from `SFC` above YWSL, they have **no jurisdiction** over the runways, taxiways, or apron areas on the aerodrome itself.
 
 ##### Departures
-Outbound aircraft will report when taxiing for departure to **ES TCU**. Controllers shall issue the aircraft with a squawk code and a traffic statement regarding any aircraft operating on, or shortly to land at, the aerodrome.
+Outbound aircraft will report when taxiing for departure to **ES TCU**. Controllers shall issue the aircraft with a squawk code and a traffic statement regarding any aircraft operating on, or shortly to land at, the aerodrome. 
+
+IFR aircraft should generally be cleared via a visual departure in VMC or via the Radar SID otherwise.
 
 !!! note
     Both VFR and IFR aircraft require a clearance to operate in Class C airspace. The examples below show an IFR aircraft departing.
@@ -194,8 +196,10 @@ When the aircraft reports ready, and where no conflict exists, issue airways cle
 
 !!! phraseology
     **AM301**: "AM301, lined up"  
-    **ESA**: "AM301, cleared to YMEN via DUNNE, flight plan route, climb to `F150`, make right turn, report airborne"  
-    **AM301**: "Cleared to YMEN via DUNNE, flight plan route, climb to `F150`, make right turn, AM301" 
+    **ESA**: "AM301, cleared to YMEN via DUNNE, flight plan route, WS2 departure, climb via SID to `F150`"  
+    **AM301**: "Cleared to YMEN via DUNNE, flight plan route, climb to `F150`, AM301"  
+    **ESA**: "AM301, assigned heading left 360, report airborne"  
+    **AM301**: "Assigned heading left 360, AM301"  
 
 All surface areas at YWSL are **outside TCU's jurisdiction**. Takeoff clearances are not given.
 
@@ -219,7 +223,7 @@ As a **landing clearance is not given**, aircraft should instead be informed of 
     **AM301**: "AM301, visual"  
     **ESA**: "AM301, cleared visual approach, no reported IFR traffic, report clear of the runway"  
     **AM301**: "Cleared visual approach, AM301"  
-    ...
+    ...  
     **AM301**: "AM301, clear of the runway, YWSL, cancel SARWATCH"  
     **ESA**: "AM301, YWSL SARWATCH terminated"
 
