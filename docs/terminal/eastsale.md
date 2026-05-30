@@ -78,28 +78,25 @@ Aircraft departing to certain specified training areas may be cleared a coded cl
 #### Low Flying Area
 The **Low Flying Area** is located in the south-west of the ES TMA `SFC-A020`, entirely within the R360A restricted area.
 
-Aircraft requesting clearance to operate in the area shall be cleared a 'LOW FLYING AREA' clearance. This clearance gives aircraft permission to track to, and operate within, the area.
-
-!!! phraseology
-    **ALDN11**: "Sale Delivery, ALDN11 for Low Flying Area, request clearance.”   
-    **ES ACD**: "ALDN11, cleared LOW FLYING AREA, squawk 0361, departure frequency 123.3"    
+Aircraft requesting clearance to operate in the area will be cleared a 'LOW FLYING AREA' clearance by ACD. This clearance gives aircraft permission to track to, and operate within, the area.
 
 !!! note
-    ACD shall write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
+    ACD will write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
     
-When the area is active the [ATIS should be updated](../../aerodromes/classc/EastSale/#specified-training-area-activations) to reflect the activation.
+When the area is active the [ATIS will be updated](../../aerodromes/classc/EastSale/#specified-training-area-activations) to reflect the activation.
     
 #### Roulette Training Area
-The **Roulette Training Areas** are located in the north-east of the ES TMA `SFC-A060`, entirely within the R360A restricted area. There are two training areas: Training Area North and Training Area South. Training Area South may be activated in isolation, whereas Training Area North can only be activated in conjunction with Training Area South.
+The **Roulette Training Areas** are located in the north-east of the ES TMA `SFC-A060`, entirely within the R360A restricted area. There are two training areas: 
 
-Aircraft requesting clearance to operate in the area shall be cleared a 'ROULETTE TRAINING AREA' clearance. This clearance gives aircraft permission to track to, and operate within, the area.
+- Training Area North
+-  Training Area South
 
-!!! phraseology
-    **RLTS11**: "Sale Delivery, RLTS11 for Roulette Training Area South, request clearance.”   
-    **ES ACD**: "RLTS11, cleared ROULETTE TRAINING AREA SOUTH, squawk 0362, departure frequency 123.3"    
+Training Area South may be activated in isolation, whereas Training Area North can only be activated in conjunction with Training Area South.
+
+Aircraft requesting clearance to operate in the area will be cleared a 'ROULETTE TRAINING AREA' clearance by ACD. This clearance gives aircraft permission to track to, and operate within, the area.  
 
 !!! note
-    ACD shall write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
+    ACD will write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
     
 When the area is active the [ATIS should be updated](../../aerodromes/classc/EastSale/#specified-training-area-activations) to reflect the activation.
 
@@ -113,7 +110,7 @@ The ES TMA is divided into sixteen individual training areas to facilitate local
 
 The inner training areas (designated 'A-H') extend from 12NM to 35NM YMES ARP, and the outer training areas (designated 'S-Z') extend from 35NM to 50NM YMES ARP.
 
-Aircraft requesting clearance to operate in a training area shall be cleared via the appropriate [military gate or lane](#military-gates).
+Aircraft requesting clearance to operate in a training area will be cleared via the appropriate [military gate or lane](#military-gates).
 
 ### Military Gates
 There are numerous [military lanes](../../../controller-skills/military/#military-gates) established throughout the ES TMA to facilitate entry and exit to [training areas](#training-areas) and SUA.
@@ -123,15 +120,6 @@ There are numerous [military lanes](../../../controller-skills/military/#militar
   <figcaption>ES SUA Gates</figcaption>
 </figure>
 
-Pilots should include the desired departure lane when requesting clearance.
-
-!!! phraseology
-    *DNGO31 plans to enter Training Area A via Northern Lane for military training and airwork.*  
-    **DNGO31**: "Sale Delivery, DNGO31 for ALPHA via Northern Lane, request clearance.”   
-    **ES ACD**: "DNGO31, cleared ALPHA via Northern Lane, climb to `A060`, squawk 0362, departure frequency 123.3" 
-
-If the pilot **does not** nominate a lane, or nominates a lane that does not provide access to their intended SUA, ES ACD should clear the aircraft to depart via the **appropriate lane**.
-
 | Intended [Training Area](#training-areas) | TCU Outbound Lane  |
 | ----------------------------------------- | ------------------ |
 | A, H, S, Z | NORTHERN Lane |
@@ -140,7 +128,7 @@ If the pilot **does not** nominate a lane, or nominates a lane that does not pro
 | F, G, X, Y | WESTERN Lane  |
 
 !!! tip
-    [Coordination requirements](#acd-to-es-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU **before** providing clearance.
+    [Coordination requirements](#acd-to-es-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated.
     
 ### VFR Routes
 There are several VFR routes established in the ES TMA to faciliate the movement of civil VFR traffic.
@@ -151,7 +139,7 @@ There are several VFR routes established in the ES TMA to faciliate the movement
 </figure>
 
 #### D354 VFR Transit Lane
-The D354 VFR Transit Lane is available following the disused Gippsland Railway, allowing aircraft to transit underneath the [R360A restricted area](#r360a-f-east-sale) from east to west (or vice versa). It follows the Gippsland Railway southwest from COWR to LOWS and is wholly contained within the [D353 danger area](../../controller-skills/sua/#danger-areas) `SFC-A010`. A clearance is **not** required to track via the corridor, and aircraft are not required to monitor the ESA frequency.
+The D354 VFR Transit Lane is available following the disused Gippsland Railway, allowing aircraft to transit underneath the [R360A restricted area](#r360a-f-east-sale) from east to west (or vice versa). It follows the Gippsland Railway southwest from COWR to LOWS and is wholly contained within the [D353 danger area](../../controller-skills/sua/#danger-areas) `SFC-A010`. A clearance is **not** required to track via the corridor and aircraft are not required to monitor the ESA frequency.
 
 #### Longford Lane
 The Longford Lane facilitates movements between Longford Helipad (YUOF) and off-shore platforms in the Bass Strait. The lane is defined as the area between 1NM south of Longford-Golden Beach Rd and Longford-Loch Sport Rd, 1NM east of Longford Seaspray Rd, and the coastline, `SFC - A020`.
@@ -206,8 +194,8 @@ When the aircraft reports ready, and where no conflict exists, issue airways cle
 
 !!! phraseology
     **AM301**: "AM301, lined up"  
-    **ESA**: "AM301, cleared to YMEN via DUNNE, flight plan route, climb to F150, make right turn, report airborne"  
-    **AM301**: "Cleared to YMEN via DUNNE, flight plan route, climb to F150, make right turn, AM301" 
+    **ESA**: "AM301, cleared to YMEN via DUNNE, flight plan route, climb to `F150`, make right turn, report airborne"  
+    **AM301**: "Cleared to YMEN via DUNNE, flight plan route, climb to `F150`, make right turn, AM301" 
 
 All surface areas at YWSL are **outside TCU's jurisdiction**. Takeoff clearances are not given.
 
