@@ -66,8 +66,8 @@ Circuit operations occur within the CTR bounded by the Gawler River to the north
 #### Circuit Heights
 | Type    | Normal Altitude |
 | ------- | --------------- |
-| Non Jet | A015            |
-| Jet     | A020            |
+| Non Jet | `A015`            |
+| Jet     | `A020`            |
 
 #### Circuit Direction
 
