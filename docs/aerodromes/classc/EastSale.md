@@ -62,7 +62,7 @@ The [intial points](../../../controller-skills/military/#initial-and-pitch) are 
 | 27   | Western edge of Lake Wellington | `A015` |
 
 ### Coded Clearances
-Aircraft departing to certain specified training areas may be cleared a coded clearance.
+Aircraft departing to specified training areas may be cleared via a coded clearance.
 
 !!! tip
     [Coordination requirements](#acd-to-es-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU **before** providing clearance.
@@ -82,7 +82,12 @@ Aircraft requesting clearance to operate in the area shall be cleared a 'LOW FLY
 When the area is active the [ATIS should be updated](#specified-training-area-activations) to reflect the activation.
     
 #### Roulette Training Area
-The **Roulette Training Areas** are located in the north-east of the ES TMA `SFC-A060`, entirely within the R360A restricted area. There are two training areas: Training Area North and Training Area South. Training Area South may be activated in isolation, whereas Training Area North can only be activated in conjunction with Training Area South.
+The **Roulette Training Areas** are located in the north-east of the ES TMA `SFC-A060`, entirely within the R360A restricted area. There are two training areas:
+
+- Training Area North
+- Training Area South
+
+Training Area South may be activated in isolation, whereas Training Area North can only be activated in conjunction with Training Area South.
 
 Aircraft requesting clearance to operate in the area shall be cleared a 'ROULETTE TRAINING AREA' clearance. This clearance gives aircraft permission to track to, and operate within, the area.
 
@@ -124,8 +129,8 @@ Pilots should include the desired departure lane when requesting clearance.
 
 If the pilot **does not** nominate a lane, or nominates a lane that does not provide access to their intended SUA, ES ACD should clear the aircraft to depart via the **appropriate lane**.
 
-| Intended [Training Area](#training-areas) | TCU Outbound Lane  |
-| ----------------------------------------- | ------------------ |
+| Intended [Training Area](#training-areas) | Outbound Lane  |
+| ----------------------------------------- | -------------- |
 | A, H, S, Z | NORTHERN Lane |
 | B, C, T, U | EASTERN Lane  |
 | D, E, V, W | SOUTHERN Lane |
@@ -152,13 +157,6 @@ When Runway 09/27 is being used for fixed-wing circuit training, helicopters sho
 ### Preferred Runway Modes
 Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts). Only single runway operations are approved.
 
-| Mode | Arrivals  | Departures |
-| -----| --------- | ---------- |
-| 04 Only | 04 | 04 |
-| 09 Only | 09 | 09 |
-| 22 Only | 22 | 22 |
-| 24 Only | 24 | 24 |
-
 ### Circuits
 #### Circuit Direction
 | Runway | Direction |
@@ -172,7 +170,8 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 By day, pilots of local aircraft may request a low approach. Pilots are responsible for ensuring that no collision risk exists and that there is suitable spacing to continue the approach and for the potential/subsequent go-around.
 
 ## SID Selection
-In **VMC by day**, all aircraft shall be assigned a visual departure via the [military lane](#military-gates) corresponding with their direction of travel. 
+In **VMC by day**, all military aircraft shall be assigned a visual departure via the [military lane](#military-gates) corresponding with their direction of travel. 
+
 In all other situations:
 
 - Aircraft planned via **AY VOR**, **ANTLA**, **BULKO**, **DUNNE**, **GIPPS**, **MNG NDB**, **MOZZA**, **NUNPA**, **TYERS**, **VALDU**, or **VISER** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
