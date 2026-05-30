@@ -146,6 +146,9 @@ Activation of the restricted areas disrupts traffic on the **J72** high altitude
     **TRT**: "QFA848, descend via STAR to `F160`, cancel level restriction at KIGOS."   
     **QFA848**: "Descend via STAR to `F160`, cancel level restriction at KIGOS, QFA848."  
 
+!!! warning "Important"
+    Before cancelling a STAR level restriction, coordinate with **DN TCU** to ensure no additional conflicts are inadvertently created.
+
 <!-- #### Curtin SUA -->
 
 ## STAR Clearance Expectation
