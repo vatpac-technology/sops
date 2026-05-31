@@ -52,14 +52,17 @@ The grass runways are outside of the manouevring area, and ATS service to the gl
     When glider operations are in progress, the [ATIS OPR INFO](#operational-info) field should be updated to advise other aircraft.
 
 ### Instrument Approaches
-The only instrument approach at YSCN is the RNP W approach.  This approach commences within CTA before leaving controlled airspace on descent before entering the Camden control zone.  
+The only instrument approach at YSCN is the RNP W approach.  This approach commences within CTA, leaves controlled airspace on descent, and then enters the Camden control zone.  
 
-SY TCU will clear aircraft leave controlled airspace via the approach and will transfer aircraft to **CN ADC** prior to `SC2WI`.  **CN ADC** shall issue airways clearance on first contact in accordance with the table below.  
+SY TCU will clear aircraft to leave controlled airspace via the approach and will transfer aircraft to **CN ADC** prior to `SC2WI`.  **CN ADC** shall issue airways clearance on first contact in accordance with the table below.  
 
 | Scenario | Clearance |
 | -------- | --------- |
-| Aircraft is visual & circuit traffic exists | "*Cleared RNP-W approach, not below A018*" |
-| Aircraft not visual or no circuit traffic | "*Cleared RNP-W approach, runway 06/24*" |
+| Aircraft is visual & circuit traffic exists | "*Cleared RNP-W approach, not below `A018`*" |
+| Aircraft not visual or no circuit traffic | "*Cleared RNP-W approach, [circuit joining instructions]*" |
+
+!!! example
+    **CN ADC**: "AM251, cleared RNP-W approach, join upwind runway 06"
 
 !!! note
     The circuit altitude at YSCN is `A013` and the overfly altitude is `A018`.  Aircraft issued a restriction to descend not below `A018` should be instructed to join the circuit once clear of traffic established in the circuit area.

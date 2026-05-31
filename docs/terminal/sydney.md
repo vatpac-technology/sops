@@ -342,6 +342,15 @@ SBA will [coordinate with BK ADC](#bk-adc) and clear the aircraft for the approa
 !!! note
     By day VMC, IFR aircraft should be processed via a [coded clearance](#bankstown-coded-clearances).
 
+### YSCN Operations
+#### Departures
+**CN ADC** will provide [Ready coordination](#cn-adc) for IFR aircraft departing YSCN. **SYC** shall provide traffic information to CN ADC. After departure, SYC shall identify the aircraft and transfer them to the relevant TCU controller to issue clearance (if appropriate), following normal [coordination procedures](#between-syc-and-tcu). 
+
+#### Arrivals
+A single STAR exists to process aircraft inbound to YSCN from the east, terminating in vectors. IFR aircraft from other directions should be processed via the RNP-W IAF.
+
+The RNP-W commences inside CTA (except aircraft maintaining the MSA via SC2WA). SY TCU shall clear aircraft to leave CTA via the approach and transfer them to **CN ADC** no later than SC2WI. CN ADC will issue onwards clearance into the CN CTR.
+
 ### YWLM STARs
 YWLM arrivals from the south and west will transit the SY TCU as they descend. BIK/KAT will provide these aircraft with their STAR clearance and initial descent, before conduct heads-up coordination with the relevant SY TCU controller to facilitate further descent.
 
