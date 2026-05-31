@@ -20,7 +20,10 @@ The Traffic Info plugin can be installed through the [vatSys Plugin Manager](htt
 Controllers should create a pairing between two aircraft requiring traffic information as early as possible. This can act as a visual cue to ensure that they don't forget to issue the traffic information to each pilot.
 
 ### Create a Pairing
-With an aircraft selected, hold the `F7` key and select a second aircraft.
+With an aircraft selected, hold the `Create Pairing` keybind and select a second aircraft.
+
+!!! tip
+    The `Create Pairing` keybind is `F7` by default, but can be modified in the vatSys Keyboard Settings Window.
 
 The Traffic Info window will open (if it isn't already) and the traffic pairing will be created. Each individual aircraft is listed, with each relevant aircraft nested below. The callsign of each primary aircraft is coloured depending on their FDR state and owner.
 
