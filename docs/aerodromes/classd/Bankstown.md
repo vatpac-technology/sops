@@ -189,19 +189,20 @@ Winds must always be considered for runway modes (Crosswind <20kts, Tailwind <5k
 | 2 - 11 PROPS | 11L (VFR) & 11C (IFR) | 11L (VFR) & 11C (IFR) | 11R |
 
 #### Night Operational Restrictions
-Runway 11R/29L is unlit, and **cannot** be used at night.
+Runways 11L/29R & 11R/29L are unlit and **cannot** be used at night.
 
 ## SID Selection
 IFR aircraft shall be assigned a SID corresponding to their direction of travel.
 
-| Runway  | Via  | SID      |
-| ------- | ---- | -------- |
-| 11C/29C | NOLEM           | **MECKO** SID, Relevant Transition |
-| 11C/29C | Tracking N      | **URDOS** SID |
-| 11C/29C | Tracking S or W | **MECKO** SID, RADAR Transition |
-| 11C/29C | All others      | **RADAR** SID |
+| Runway  | Via                  | SID           |
+| ------- | -------------------- | ------------- |
+| 11C/29C | NOLEM                | **MECKO** SID, NOLEM Transition |
+| 11C/29C | Tracking N or E     | **URDOS** SID |
+| 11C/29C | Tracking W or S | **MECKO** SID, RADAR Transition |
 
-### Circuits
+Pilots who are unable to accept a procedural SID shall be cleared the **BK (RADAR) SID**.
+
+## Circuits
 The circuit direction changes depending on time of day and runway being used.
 
 | Runway | Day   | Night |
@@ -213,7 +214,7 @@ The circuit direction changes depending on time of day and runway being used.
 | 29C    | Right | Left  |
 | 29R    | Right | -     |
 
-Circuits to be flown at `A010`
+Circuits are flown at `A010`.
 
 ## ATIS
 ### Runway Mode Formatting
@@ -258,7 +259,7 @@ IFR aircraft will be cleared for the instrument prior to handoff to BK ADC, unle
     <span class="hotline">**BK ADC** -> **SBA**</span>: "UJN, RNP-Z"
 
 !!! tip
-    Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D. You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.
+    Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D. You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground, etc) if separation is required with these aircraft.
 
 #### ADC (Circuit) Online
 When ADC (Circuit) is online, SY TCU may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
