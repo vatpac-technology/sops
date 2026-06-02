@@ -47,6 +47,14 @@ All apron areas and associated taxiways are *outside* the manoeuvring area. Each
 </figure>
 
 ## Local Procedures
+### Start Approval
+Start approval is required on SMC for all aircraft.
+
+SMC shall assess the number of aircraft operating in, or intending to operate in, the circuit area, as well as the workload of adjacent controllers when determining whether start approval is available.
+
+!!! tip
+    Some pilots may be unfamiliar with Bankstown's start approval requirement. Controllers should facilitate these aircraft movements with as little delay as possible.
+    
 ### Adjacent Runways
 Due to the close proximity of all three runways, there are additional considerations which must be applied between adjacent runway operations.
 

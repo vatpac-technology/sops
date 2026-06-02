@@ -56,7 +56,7 @@ The RRO procedures on YSWS are designed to utilise airspace vacated by [YSSY Cur
 !!! tip
     A radar SID (e.g. **WS (RADAR)** SID) is distinct from a procedural SID with a RADAR transition (eg, **REDAS SID, RADAR transition**), or a Procedural SID that ends in RADAR vectors (eg, **ISDIT** SID). A radar SID can be identified in the [DAPs](https://www.airservicesaustralia.com/aip/aip.asp){target=new} as having a *"(RADAR)"* at the end of the name.
 	
-YSWS uses four different SID designators to differentiate between different variations of SIDs that will be issued, according to time of day, weather, and runway modes in use.
+YSWS uses four different SID designators to differentiate between different variations of SIDs that will be issued, according to the time of day, weather, and runway mode in use.
 
 |      | SID Designator | Condition                     |
 | ---- | -------------- | ----------------------------- |
