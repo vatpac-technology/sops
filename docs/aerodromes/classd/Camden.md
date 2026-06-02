@@ -31,6 +31,13 @@ Controllers are prohibited from logging on as **CN ADC** or **CN SMC** between 2
 During this time, the [Sydney CTA C10 Airspace](../../../terminal/sydney/#sydney-cta-c10) overhead YSCN extends to `A015`, precluding normal operations.
 
 ## Local Procedures
+### Start Approval
+Start approval is required on SMC for all aircraft intending to operate in the circuit area.
+
+!!! phraseology  
+    **WKM**: "Camden Ground, Citabria WKM, for circuits, received Echo, request engine start"  
+    **CN SMC**: "WKM, Camden Ground, start approved"  
+    **WKM**: "Start approved, WKM"
 
 ### Glider Operations
 Glider operations are regularly conducted in VMC at YSCN, within the CN CTR.
@@ -93,14 +100,14 @@ VFR aircraft should track via one of the VFR inbound points and be instructed as
 | PIC   | *"Overfly Camden to join Mid-Field Crosswind RWY 06, Maintain 1800ft, Report Overhead"*      | *"Overfly Camden to join Mid-Field Crosswind RWY 24, Maintain A018, Report Overhead"*       |
 | THK  | *"Join Final RWY 06, Maintain A018, Report 3NM"*    | *"Join Downwind RWY 24, Maintain A018, Report 2NM"*      |
 
-When Aircraft are clear of conflicting traffic below, aircraft may *"cleared visual approach"*.
+When Aircraft are clear of conflicting traffic below, aircraft may be *"cleared visual approach"*.
 
 When an aircraft reports at their specified report point (or on downwind), issue the aircraft its sequence in the circuit.
+
 !!! phraseology
     **CN ADC:** "XEM, number 3 Runway 06, follow the C172 on base"
 
-## Runway Modes
-### Circuits
+## Circuits
 The circuit direction changes depending on time of day and runway being used.
 
 | Runway | Day  | Night |
@@ -113,6 +120,7 @@ The circuit direction changes depending on time of day and runway being used.
 Circuits are flown at `A013` (High Performance Aircraft: `A018`)
 
 When an aircraft reports on downwind, indicate their position in the sequence (and give a follow instruction if the sequence has changed since the last circuit).
+
 !!! phraseology
     **JKA:** "JKA, downwind, touch and go"  
     **CN ADC:** "JKA, number 2"
