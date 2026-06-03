@@ -109,7 +109,7 @@ If the pilot **does not** nominate a gate, or nominates a gate that does not pro
 </figure>
 
 #### R238 Tindal Wedge
-The R38 Tindal Wedge [restricted area](../../controller-skills/sua/#restricted-areas) is a minor segment in the east of the TN TMA, `A035-NOTAM`. Aircraft will generally enter and exit the restricted via a [WEDGE military gate](#military-gates).
+The R238 Tindal Wedge [restricted area](../../controller-skills/sua/#restricted-areas) is a minor segment in the east of the TN TMA, `A035-NOTAM`. Aircraft will generally enter and exit the restricted via a [WEDGE military gate](#military-gates).
 
 The restricted area is rarely activated in isolation as it significantly disrupts military traffic intending depart the TN TMA via the MOROTAI or TARAKAN gates, and traffic returning to base via TOP or BOTTOM gate.
 
@@ -163,7 +163,7 @@ Helicopters intending to use the corridor to access any other location need to r
 	**DEF**: "Cleared helicopter corridor, not above `A010`, wilco, DEF."  
 
 #### Victoria Highway Corridor
-A VFR lane is available following the Victoria Highway, allowing aircraft to transit underneath the [R250 restricted area](../../enroute/brisbane/TRT/#r225a-f-and-r250-tindal) from north to south (or vice versa). It follows the Victoria Highway southwest of Katherine and is wholly contained within the [danger area](../../controller-skills/sua/#danger-areas) `SFC-025`. A clearance is **not** required to track via the corridor.
+A VFR lane is available following the Victoria Highway, allowing aircraft to transit underneath the [R250 restricted area](../../enroute/brisbane/TRT/#r225a-f-and-r250-tindal) from north to south (or vice versa). It follows the Victoria Highway southwest of Katherine and is wholly contained within the [D209 danger area](../../controller-skills/sua/#danger-areas) `SFC-A025`. A clearance is **not** required to track via the corridor.
 
 | Direction | Routing | Altitude |
 | --- | --- | --- |

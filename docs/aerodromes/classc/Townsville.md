@@ -146,6 +146,8 @@ There are several [military gates](../../../controller-skills/military/#military
   <figcaption>TL SUA Gates</figcaption>
 </figure>
 
+Pilots should include the desired departure gate when requesting clearance.
+
 !!! phraseology
     *DPBR23 plans to enter the M742 MOA via KAGES for military training and airwork.*  
     **DPBR23**: "Townsville Delivery, DPBR23 for KAGES, `A100` for M742, request clearance."  
