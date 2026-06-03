@@ -109,7 +109,7 @@ If the pilot **does not** nominate a gate, or nominates a gate that does not pro
 </figure>
 
 #### R238 Tindal Wedge
-The R38 Tindal Wedge [restricted area](../../controller-skills/sua/#restricted-areas) is a minor segment in the east of the TN TMA, `A035-NOTAM`. Aircraft will generally enter and exit the restricted via a [WEDGE military gate](#military-gates).
+The R238 Tindal Wedge [restricted area](../../controller-skills/sua/#restricted-areas) is a minor segment in the east of the TN TMA, `A035-NOTAM`. Aircraft will generally enter and exit the restricted via a [WEDGE military gate](#military-gates).
 
 The restricted area is rarely activated in isolation as it significantly disrupts military traffic intending depart the TN TMA via the MOROTAI or TARAKAN gates, and traffic returning to base via TOP or BOTTOM gate.
 
