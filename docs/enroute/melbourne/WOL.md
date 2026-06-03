@@ -36,7 +36,15 @@
 
 ## Departure and Arrival Procedures
 ### YMES
-SNO is responsible for facilitating operations at YMES departing to/arriving from the east.
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
+
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| SNO  | LAREX<br>TREVR | All     | |
+
+#### Sequencing
+SNO is responsible for sequencing arrivals at YMES arriving from the east.
 
 ### YSCB
 #### STAR Assignment
