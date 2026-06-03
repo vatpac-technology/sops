@@ -131,7 +131,7 @@ When R739 is activated above `A060` it disrupts aircraft tracking via the CATEY 
     **UTY640**: "Climb via SID to `F180`, requirement to reach `A100` by ENSOM, UTY640."  
 
 #### R738A-H Townsville (Land)
-The R738A-H Townsville (Land) [restricted areas](../../controller-skills/sua/#restricted-areas), also known  as the Townsville Field Training Area, is a series of defined airspace volumes west of YBTL, `A070-NOTAM`.
+The R738A-H Townsville (Land) [restricted areas](../../controller-skills/sua/#restricted-areas), also known as the Townsville Field Training Area, is a series of defined airspace volumes west of YBTL, `A070-NOTAM`.
 
 The area is used for a wide array of military training operations, including supersonic flight, air-to-air combat training, and live fire exercises. The extent of activation required will vary according to each operation, but will generally include R738A or R738B, along with an additional larger subsection.
 
