@@ -134,7 +134,7 @@ There are numerous [military lanes](../../../controller-skills/military/#militar
 There are several VFR routes established in the ES TMA to faciliate the movement of civil VFR traffic.
 
 <figure markdown>
-![VFR Routes in the ES TMA](img/esl_vfr_routes.png){ width="700" }
+![VFR Routes in the ES TMA](img/es_vfr_routes.png){ width="700" }
 <figcaption>VFR Routes in the ES TMA</figcaption>
 </figure>
 
