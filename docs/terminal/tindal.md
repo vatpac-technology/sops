@@ -163,7 +163,7 @@ Helicopters intending to use the corridor to access any other location need to r
 	**DEF**: "Cleared helicopter corridor, not above `A010`, wilco, DEF."  
 
 #### Victoria Highway Corridor
-A VFR lane is available following the Victoria Highway, allowing aircraft to transit underneath the [R250 restricted area](../../enroute/brisbane/TRT/#r225a-f-and-r250-tindal) from north to south (or vice versa). It follows the Victoria Highway southwest of Katherine and is wholly contained within the [danger area](../../controller-skills/sua/#danger-areas) `SFC-025`. A clearance is **not** required to track via the corridor.
+A VFR lane is available following the Victoria Highway, allowing aircraft to transit underneath the [R250 restricted area](../../enroute/brisbane/TRT/#r225a-f-and-r250-tindal) from north to south (or vice versa). It follows the Victoria Highway southwest of Katherine and is wholly contained within the [D209 danger area](../../controller-skills/sua/#danger-areas) `SFC-A025`. A clearance is **not** required to track via the corridor.
 
 | Direction | Routing | Altitude |
 | --- | --- | --- |
