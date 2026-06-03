@@ -31,16 +31,13 @@ TRT is responsible for **TRS**, **ASH**, and **KIY** when they are offline.
 
 ### Reclassifications
 === "BRM CTR"
-	When **BRM ADC** is offline, BRM CTR (Class D/E `SFC` to `A055`) reverts to Class G, and is administered by ASH. Alternatively, ASH may provide a [top-down procedural service](../../../aerodromes/procedural/Broome/) if they wish.
+	When **BRM ADC** is offline, BRM CTR (Class D/E `SFC` to `A055`) reverts to Class G, and is administered by ASH. Alternatively, ASH may provide a [top-down procedural service](../../../aerodromes/procedural/Broome) if they wish.
 
 	!!! tip
 		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
 === "CIN TCU"
-	When **TN TCU** is offline the CIN MIL CTR and associated restricted airspace is deactivated, and the airspace is administered by ASH.
-
-	!!! tip
-        Consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
+	The restricted airspace around YCIN is classified as Class G by default, and is only reclassified as controlled airspace when **CIA** is online. When **CIA** is offline, the area remains Class G, and is administered by ASH.
 
 === "TN TCU"
 	When **TN TCU** is offline the TN MIL CTR and associated restricted airspace is deactivated, and the airspace is administered by TRS.
@@ -95,17 +92,35 @@ Each TCU must [give heads up coordination](../../../controller-skills/coordinati
     <span class="hotline">**TRS** -> **TNA**</span>: "CLAS35, expect activation of R225D `A095-F600` at 0300 until 0500."   
     <span class="hotline">**TNA** -> **TRS**</span>: "CLAS35."   
 
-Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../controller-skills/sua/#ad-hoc-activations).
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../sua/#ad-hoc-activations).
 
 #### Bradshaw Field Training Area SUA
 The Bradshaw Field Training Area is contained within three volumes of SUA: R268 Koolendong, R269 Angalarri North, and R270 Angalarri South; all `SFC-NOTAM`. The area is used for extensive army training and operations based at Nackaroo Airfield (YNKR). R269 and R270 are wholly located in the TRS subsector, while R268 extends slightly into KIY.
 
-When all three restricted areas are activated, they are referred to collectively as *'Bradshaw'*. Aircraft intending to operate in adjoining SUA should be notified *'[Bradshaw Active](../../../terminal/tindal/#bradshawdelamere-active)'* with their clearance.
+When all three restricted areas are activated, they are referred to collectively as *'Bradshaw'*. Aircraft intending to operate in adjoining SUA should be notified *'[Bradshaw Active](../../terminal/tindal/#bradshaw-delamere-active)'* with their clearance.
 
 #### Delamere Air Weapons Range SUA
-The Delamere Air Weapons Range is contained within three volumes of SUA: R211 Delamere (`SFC-A095`), R212 Delamere (`SFC-A095`), and R232 Delamere (`SFC-NOTAM`). The range is used for a variety of bombing and live-firing training exercises, and is wholly located within the TRS subsector.
+The Delamere Air Weapons Range is contained within three volumes of SUA: 
 
-When all three restricted areas are activated, they are referred to collectively as *'Delamere'*. Aircraft intending to operate in adjoining SUA should be notified *'[Delamere Active](../../../terminal/tindal/#bradshawdelamere-active)'* with their clearance.
+- R211 Delamere (`SFC-A095`)
+- R212 Delamere (`SFC-A095`)
+- R232 Delamere (`SFC-NOTAM`)
+
+The range is used for a variety of bombing and live-firing training exercises, and is wholly located within the TRS subsector.
+
+When all three restricted areas are activated, they are referred to collectively as *'Delamere'*. Aircraft intending to operate in adjoining SUA should be notified *'[Delamere Active](../../terminal/tindal/#bradshaw-delamere-active)'* with their clearance.
+
+#### M821-M824 Curtin
+The M821-M824 Curtin [MOAs](../../../controller-skills/sua/#military-operating-areas) are located over YCIN, `F200-F600`, located entirely in ASH airspace. 
+
+The MOAs directly adjoin the CIN TMA and when CIA is online aircraft will be transferred directly to/from the MOAs. When [CIA is offline](#reclassifications), aircraft will contact ASH for transit through the surrounding civilian airspace.
+
+Aircraft will generally enter and exit the MOA via the appropriate [military gate](../../../terminal/curtin/#military-gates).
+
+##### Affected Civil Operations
+When activated, the restricted areas disrupt traffic on the busy **A339**, **A576**,  **T20**, and **T29** high altitude airways which are used by aircraft travelling between Australia and south-east Asia.
+
+Activation also significantly distrupts traffic travelling in and out of YBRM. Aircraft may be given an additional requirement to climb above, or descend below the vertical limits of the activation, or rerouted manually to avoid the area.
 
 #### M277A-H Darwin
 The M277A-H Darwin [MOAs](../../controller-skills/sua/#military-operating-areas) are located southwest of YPDN, `NOTAM-NOTAM`. M277A and M277E are entirely within DN TCU airspace, while M277B-D and M277F-H are in TRT airspace.
@@ -148,8 +163,6 @@ Activation of the restricted areas disrupts traffic on the **J72** high altitude
 
 !!! warning "Important"
     Before cancelling a STAR level restriction, coordinate with **DN TCU** to ensure no additional conflicts are inadvertently created.
-
-<!-- #### Curtin SUA -->
 
 ## STAR Clearance Expectation
 ### Handoff
