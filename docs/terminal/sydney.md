@@ -331,6 +331,20 @@ SFW/SFE may provide distance to touchdown, when transferring an aircraft to towe
 !!! phraseology
     **SFE:** "QFA490, 8 miles to touchdown, contact tower 120.5"
 
+### YSWS Operations
+#### Departures
+Aircraft departing RWY 05 on the **TEEVE D SID** will pass through SRA airspace before returning to SWA. SWA should coordinate any [frequency requirements](../controller-skills/coordination.md#no-frequency-requirements-nfr) with SRA rather than perform a frequency transfer for these aircraft.
+
+#### Arrivals
+Aircraft inbound to YSWS from the north or east will pass through other SY TCU sectors prior to reaching SWA. [Voiceless coordination](#sy--ws--ri) is in place for aircraft transiting TCU sectors assigned **any sensible level**. 
+
+!!! tip
+    In practice, this is generally `A090` for aircraft inbound from the east and not below `A030` for aircraft inbound from the north.
+
+For aircraft inbound from the east, there is generally no operational need to descend aircraft below `A090` (the standard assignable level from enroute).
+
+For aircraft inbound from the north, SRA shall endeavour to hand off aircraft inbound to YSWS **as early as possible**, to allow SWA to to issue approach clearance. Additionally, SRA is assumed to have **no restrictions or requirements** for aircraft inbound to YSWS via a STAR (as some STARs clip or pass through SRA airspace).
+
 ### YSBK Operations
 #### Departures
 IFR departures from YSBK will be [coordinated by BK ADC](#bk-adc) to SBA. SBA must [onwards coordinate](#between-sba-and-tcu) with the most appropriate TCU controller before releasing the aircraft.
@@ -673,16 +687,16 @@ All other aircraft coming from enroute CTA will be **Heads-up** coordinated to S
 
 ### SY TCU Internal
 #### SY / WS / RI
-Voiceless coordination is in place between SY APP/DEP (**SAN**, **SAS**, **SDN**, and **SDS**), **SWA** and **SRA** for aircraft that tracking via a SID/STAR, and descending/climbing via the procedures' altitude restrictions.
+Voiceless coordination is in place between SY APP/DEP (**SAN**, **SAS**, **SDN**, and **SDS**), **SWA** and **SRA** for aircraft that tracking via a SID/STAR, and descending/climbing via the procedures' altitude restrictions, assigned any sensible level.
 
 Any aircraft not meeting this requirement, including aircraft who have been issued additional altitude restrictions, **must** be prior coordinated.
 
-!!! phraseology
-    <span class="hotline">**SWA** -> **SDS**</span>: "BNZ99, with your concurrence, will be assigned `F150`, for my separation with QFA1"  
-    <span class="hotline">**SDS** -> **SWA**</span>: "BNZ99, concur `F150`"
-    
+Aircraft arriving **YSWS** from the east will generally not require descent below `A090` before reaching SWA airspace. As this is the voiceless coordination altitude between enroute and SY TCU, SY APP/DEP should generally not provide further descent to these aircraft.
+
+The IAF to RWY 23 at YSWS sits inside SRA airspace. **SRA** is assumed to have **no restrictions or requirements** for aircraft inbound to YSWS via a STAR. SWA is responsible for issuing approach clearance to these aircraft.
+
 !!! tip
-    Aircraft arriving **YSWS** from the west will generally not require descend lower than `A090` before reaching SWA airspace. As this is the voiceless coordination altitude between enroute and SY TCU, SY APP/DEP will rarely need to issue further descent to these aircraft.
+    SY TCU positions (including SRA) shall hand YSWS arrivals to SWA *as early as possible*, particularly aircraft inbound from the north.
     
 !!! warning "Important"
     The SIDs and STARs at YSSY and YSWS are tightly interlaced and have complex altitude restrictions designed to ensure mutual separation. Deviating aircraft from a SID/STAR, particularly in the west of the TMA, will dramatically increase controller workload and increase the likelihood of conflicts.
