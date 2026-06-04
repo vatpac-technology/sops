@@ -723,14 +723,14 @@ It is vital that Approach controllers ensure all arriving aircraft are establish
     Circumstances like excessive weather deviation may make the use of REP impractical.  Controllers should coordinate with other TMA positions and suspend REP in this case.
 
 !!! warning "Important"
-    SIDs inbound to YSRI, YSBK & YSCN from the east pass through REP airspace as they transit a 15nm radius of TESAT. Controllers should be mindful of the conflict which this may create and prioritise aircraft on the STAR over departures in the same airspace.
+    SIDs inbound to YSRI, YSBK & YSCN from the east pass through REP airspace as they transit a 15nm radius of TESAT. Controllers should be mindful of the conflict which this may create and prioritise keeping aircraft on the STAR where possible.
 
 ##### MARLN Corridor
-Aircraft are permitted to cross the MARLN corridor at or above `A060` without coordination with APP. DEP is responsible for separation with respect to aircraft in the corridor.
+Aircraft are permitted to cross the MARLN corridor at or above `A060` without coordination with APP. DEP is responsible for separation with any aircraft in the corridor.
 
 #### Between SBA and TCU
 ##### Departures
-IFR departures from YSBK will be [next coordinated by BK ADC](#bk-adc). Before responding to BK ADC, SBA shall relay the coordination with the TCU controller responsible for the airspace in which the SID terminates and only respond to BK ADC when they have a release for the aircraft.
+IFR departures from YSBK will be [next coordinated by BK ADC](#bk-adc) to SBA. Before responding to BK ADC, SBA shall relay the coordination with the TCU controller responsible for the airspace in which the SID terminates and only respond to BK ADC when they have a release for the aircraft.
 
 !!! phraseology
     <span class="hotline">**BK ADC** -> **SBA**</span>: "Next, WHF, runway 11C"  
@@ -744,11 +744,11 @@ IFR departures from YSBK will be [next coordinated by BK ADC](#bk-adc). Before r
 Departing aircraft shall be handed to the most relevant TCU controller (generally **SWA** or **SRA**) tracking via the SID assigned `A030`.
 
 !!! warning "Important"
-    SFW/SDS/SDN have **no requirements** for departures from runway 11C.
+    SFW/SDS/SDN/SAS have **no restrictions or requirements** for departures from runway 11C as they make the initial turn to the west.
     
     Boundary coordination is **not required** with SY ADC/TCU for departures from Runway 11C cleared via a SID. 
 
-There are no standard assignable headings for departures on the **BK (RADAR) SID**.
+There are no *standard assignable headings* for departures on the **BK (RADAR) SID**, although in almost all cases, **H310** will be suitable.
 
 ##### Arrivals
 IFR arrivals will be cleared direct to the IAF and handed to SBA assigned `A030`. [Heads up coordination](../controller-skills/coordination.md#heads-up) is required for these aircraft.
