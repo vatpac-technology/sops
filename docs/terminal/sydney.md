@@ -701,7 +701,7 @@ Any aircraft not meeting this requirement **must** be prior coordinated to DIR.
 Within 15 DME of SY, Departure controllers (**SDN** and **SDS**) can allow aircraft to cross airspace owned by Approach controllers (**SAN** and **SAS**) at or above `A100` without coordination.  This allows aircraft to safely depart above arriving aircraft and facilitates more direct tracking for YSBK & YSRI departures.  
 
 !!! note
-    SIDs from YSSY do not guarantee that aircraft will reach A100 by 15DME, so Departure controllers should be mindful of this and take action where necessary to expedite climb or coordinate with Approach.  
+    SIDs from YSSY do not guarantee that aircraft will reach `A100` by 15DME, so Departure controllers should be mindful of this and take action where necessary to expedite climb or coordinate with Approach.  
 
     Departure controllers should take extra caution when processing YSBK departures via OLSEM/WOL to ensure they reach `A100` prior to entering REP airspace.
 
@@ -709,6 +709,9 @@ It is vital that Approach controllers ensure all arriving aircraft are establish
 
 !!! info
     Circumstances like excessive weather deviation may make the use of REP impractical.  Controllers should coordinate with other TMA positions and suspend REP in this case.
+
+!!! warning "Important"
+    SIDs inbound to YSRI, YSBK & YSCN from the east pass through REP airspace as they transit a 15nm radius of TESAT. Controllers should be mindful of the conflict which this may create and prioritise aircraft on the STAR over departures in the same airspace.
 
 ##### MARLN Corridor
 Aircraft are permitted to cross the MARLN corridor at or above `A060` without coordination with APP. DEP is responsible for separation with respect to aircraft in the corridor.
