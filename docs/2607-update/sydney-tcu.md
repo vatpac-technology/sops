@@ -126,6 +126,12 @@ SBA is responsible for the provision of ATS in Class D airspace adjacent the BK 
 
 Key responsibilities in this airspace is the issuing of [Bankstown Coded Clearances](#bankstown-coded-clearances) and handling [IFR arrivals & departures](#ysbk-operations) at YSBK.
 
+#### Walton Approach (SWA)
+SWA is responsible for the provision of ATS in the Class C airspace overhead & to the west of the WS CTR. Other than departures to the west, aircraft on a SID will need to be transferred to another TCU position prior to being transferred to enroute.
+
+!!! tip
+    The **TEEVE D SID** infringes **SRA** airspace by roughly 3nm and then re-enters **SWA** airspace. It may be beneficial for SWA to coordinate any [frequency requirements](../../controller-skills/coordination.md#no-frequency-requirements-nfr) with SRA to avoid issuing a frequency change for these aircraft.
+
 #### Sydney CTA C10 
 The volume of airspace adjacent to the WS CTR overhead Camden (known as **SY CTA C10**) has a lower level that varies according to the time of day.
 
@@ -330,6 +336,20 @@ SFW/SFE may provide distance to touchdown, when transferring an aircraft to towe
 
 !!! phraseology
     **SFE:** "QFA490, 8 miles to touchdown, contact tower 120.5"
+
+### YSWS Operations
+#### Departures
+Aircraft departing RWY 05 on the **TEEVE D SID** will pass through SRA airspace before returning to SWA. SWA should coordinate any [frequency requirements](../controller-skills/coordination.md#no-frequency-requirements-nfr) with SRA rather than perform a frequency transfer for these aircraft.
+
+#### Arrivals
+Aircraft inbound to YSWS from the north or east will pass through other SY TCU sectors prior to reaching SWA. [Voiceless coordination](#sy--ws--ri) is in place for aircraft transiting TCU sectors assigned **any sensible level**. 
+
+!!! tip
+    In practice, this is generally `A090` for aircraft inbound from the east and not below `A030` for aircraft inbound from the north.
+
+For aircraft inbound from the east, there is generally no operational need to descend aircraft below `A090` (the standard assignable level from enroute).
+
+For aircraft inbound from the north, SRA shall endeavour to hand off aircraft inbound to YSWS **as early as possible**, to allow SWA to to issue approach clearance. Additionally, SRA is assumed to have **no restrictions or requirements** for aircraft inbound to YSWS via a STAR (as some STARs clip or pass through SRA airspace).
 
 ### YSBK Operations
 #### Departures
@@ -664,16 +684,16 @@ All other aircraft coming from enroute CTA will be **Heads-up** coordinated to S
 
 ### SY TCU Internal
 #### SY / WS / RI
-Voiceless coordination is in place between SY APP/DEP (**SAN**, **SAS**, **SDN**, and **SDS**), **SWA** and **SRA** for aircraft that tracking via a SID/STAR, and descending/climbing via the procedures' altitude restrictions.
+Voiceless coordination is in place between SY APP/DEP (**SAN**, **SAS**, **SDN**, and **SDS**), **SWA** and **SRA** for aircraft that tracking via a SID/STAR, and descending/climbing via the procedures' altitude restrictions, assigned any sensible level.
 
 Any aircraft not meeting this requirement, including aircraft who have been issued additional altitude restrictions, **must** be prior coordinated.
 
-!!! phraseology
-    <span class="hotline">**SWA** -> **SDS**</span>: "BNZ99, with your concurrence, will be assigned `F150`, for my separation with QFA1"  
-    <span class="hotline">**SDS** -> **SWA**</span>: "BNZ99, concur `F150`"
-    
+Aircraft arriving **YSWS** from the east will generally not require descent below `A090` before reaching SWA airspace. As this is the voiceless coordination altitude between enroute and SY TCU, SY APP/DEP should generally not provide further descent to these aircraft.
+
+The IAF to RWY 23 at YSWS sits inside SRA airspace. **SRA** is assumed to have **no restrictions or requirements** for aircraft inbound to YSWS via a STAR. SWA is responsible for issuing approach clearance to these aircraft.
+
 !!! tip
-    Aircraft arriving **YSWS** from the west will generally not require descend lower than `A090` before reaching SWA airspace. As this is the voiceless coordination altitude between enroute and SY TCU, SY APP/DEP will rarely need to issue further descent to these aircraft.
+    SY TCU positions (including SRA) shall hand YSWS arrivals to SWA *as early as possible*, particularly aircraft inbound from the north.
     
 !!! warning "Important"
     The SIDs and STARs at YSSY and YSWS are tightly interlaced and have complex altitude restrictions designed to ensure mutual separation. Deviating aircraft from a SID/STAR, particularly in the west of the TMA, will dramatically increase controller workload and increase the likelihood of conflicts.
@@ -692,7 +712,7 @@ Any aircraft not meeting this requirement **must** be prior coordinated to DIR.
 Within 15 DME of SY, Departure controllers (**SDN** and **SDS**) can allow aircraft to cross airspace owned by Approach controllers (**SAN** and **SAS**) at or above `A100` without coordination.  This allows aircraft to safely depart above arriving aircraft and facilitates more direct tracking for YSBK & YSRI departures.  
 
 !!! note
-    SIDs from YSSY do not guarantee that aircraft will reach A100 by 15DME, so Departure controllers should be mindful of this and take action where necessary to expedite climb or coordinate with Approach.  
+    SIDs from YSSY do not guarantee that aircraft will reach `A100` by 15DME, so Departure controllers should be mindful of this and take action where necessary to expedite climb or coordinate with Approach.  
 
     Departure controllers should take extra caution when processing YSBK departures via OLSEM/WOL to ensure they reach `A100` prior to entering REP airspace.
 
@@ -700,6 +720,9 @@ It is vital that Approach controllers ensure all arriving aircraft are establish
 
 !!! info
     Circumstances like excessive weather deviation may make the use of REP impractical.  Controllers should coordinate with other TMA positions and suspend REP in this case.
+
+!!! warning "Important"
+    SIDs inbound to YSRI, YSBK & YSCN from the east pass through REP airspace as they transit a 15nm radius of TESAT. Controllers should be mindful of the conflict which this may create and prioritise aircraft on the STAR over departures in the same airspace.
 
 ##### MARLN Corridor
 Aircraft are permitted to cross the MARLN corridor at or above `A060` without coordination with APP. DEP is responsible for separation with respect to aircraft in the corridor.
