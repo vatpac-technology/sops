@@ -360,6 +360,13 @@ SBA will [coordinate with BK ADC](#bk-adc) and clear the aircraft for the approa
 !!! note
     By day VMC, IFR aircraft should be processed via a [coded clearance](#bankstown-coded-clearances).
 
+Aircraft inbound from the south, west, and northwest should track via the **Z97 airway** and be processed via ESGID for the **RNP-Z** approach. This helps keep them clear of the YSWS SIDs/STARs and segregated (but not separated) from the YSSY STARs.
+
+Aircraft inbound from the east should be processed via the STAR and be vectored in SWA airspace to facilitate descent. They should then be cleared via the **RNP-Y** approach.
+
+!!! note
+    The **RNP-N** from the north terminates in the circling area and should be **avoided where possible**. Where low levels of traffic exist in the SY TMA and BK CTR, its use may be suitable, but in other cases, it is preferred that aircraft track (or are vectored) to the west and commence the RNP-Y or RNP-Z.
+
 ### YSCN Operations
 #### Departures
 **CN ADC** will provide [Ready coordination](#cn-adc) for IFR aircraft departing YSCN. **SYC** shall provide traffic information to CN ADC. After departure, SYC shall identify the aircraft and transfer them to the relevant TCU controller to issue clearance (if appropriate), following normal [coordination procedures](#between-syc-and-tcu). 
