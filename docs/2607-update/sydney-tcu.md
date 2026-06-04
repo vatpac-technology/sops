@@ -130,7 +130,7 @@ Key responsibilities in this airspace is the issuing of [Bankstown Coded Clearan
 SWA is responsible for the provision of ATS in the Class C airspace overhead & to the west of the WS CTR. Other than departures to the west, aircraft on a SID will need to be transferred to another TCU position prior to being transferred to enroute.
 
 !!! tip
-    The **TEEVE D SID** infringes **SRA** airspace by roughly 3nm and then re-enters **SWA** airspace. It may be beneficial for SWA to coordinate any [frequency requirements](../../controller-skills/coordination.md#no-frequency-requirements-nfr) with SRA to avoid issuing a frequency change for these aircraft.
+    The **TEEVE D SID** infringes **SRA** airspace by roughly 3nm and then re-enters **SWA** airspace. It may be beneficial for SWA to coordinate any [frequency requirements](../../controller-skills/coordination/#no-frequency-requirements-nfr) with SRA to avoid issuing a frequency change for these aircraft.
 
 #### Sydney CTA C10 
 The volume of airspace adjacent to the WS CTR overhead Camden (known as **SY CTA C10**) has a lower level that varies according to the time of day.
@@ -342,7 +342,7 @@ SFW/SFE may provide distance to touchdown, when transferring an aircraft to towe
 Aircraft departing RWY 05 on the **TEEVE D SID** will pass through SRA airspace before returning to SWA. SWA should coordinate any [frequency requirements](../controller-skills/coordination.md#no-frequency-requirements-nfr) with SRA rather than perform a frequency transfer for these aircraft.
 
 #### Arrivals
-Aircraft inbound to YSWS from the north or east will pass through other SY TCU sectors prior to reaching SWA. [Voiceless coordination](#sy--ws--ri) is in place for aircraft transiting TCU sectors assigned **any sensible level**. 
+Aircraft inbound to YSWS from the north or east will pass through other SY TCU sectors prior to reaching SWA. [Voiceless coordination](#sy-ws-ri) is in place for aircraft transiting TCU sectors assigned **any sensible level**. 
 
 !!! tip
     In practice, this is generally `A090` for aircraft inbound from the east and not below `A030` for aircraft inbound from the north.
