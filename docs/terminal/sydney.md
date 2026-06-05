@@ -45,7 +45,7 @@ The vertical limits of the SY TCU are `SFC` to `F285`.
 	The restricted airspace around YSRI is classified as Class G by default, and is only reclassified as controlled airspace when **RI ADC** is online. When **RI ADC** is offline, the area remains Class G, and is administered by SYC.
 
 ### Airspace Division
-The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW** and **SFE** change based on the Runway Mode. The airspace managed by **SBA**, **SWA**, **SRA**, and **SYC** is not runway mode dependent.
+The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW**, and **SFE** change based on the Runway Mode. The airspace managed by **SBA**, **SWA**, **SRA**, and **SYC** is not runway mode dependent.
 
 !!! note
     The following diagrams do not include non SY TCU areas of responsibility such as BK CTR or CN CTR
