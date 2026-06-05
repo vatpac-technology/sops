@@ -200,7 +200,7 @@ Departures will be cleared for a coded clearance by **BK SMC** and will contact 
 Each coded clearance includes a frequency transfer and control service termination instruction. No explicit instructions should be given to these aircraft.
 
 #### Arrivals
-Arrivals shall contact **SYC** for identification prior to entering CTA. SYC shall provide a squawk code and identify the aircraft, perform normal [Radar Position to TCU coordination](../controller-skills/coordination.md#radar-position---tcu-controllers) to **SBA**, then issue frequency transfer.
+Arrivals shall contact **SYC** for identification prior to entering CTA. SYC shall provide a squawk code and identify the aircraft, perform normal [Radar Position to TCU coordination](../controller-skills/coordination.md#radar-position-tcu-controllers) to **SBA**, then issue frequency transfer.
 
 | Coded Clearance    | Route             | Altitude | 
 | ------------------ | ------------------- | ------ | 
