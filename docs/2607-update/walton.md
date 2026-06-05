@@ -39,8 +39,8 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 | Priority - Mode | Arrivals  | Departures |
 | ----------------| --------- | ---------- |
 | 1 - 23          | 23        | 25         |
-| 1 - 05          | 05        | 05         |
-| *2 - RRO        | 05        | 23         |
+| 2 - 05          | 05        | 05         |
+| * RRO        | 05        | 23         |
 
 *Permitted between the hours of 2300 and 0530 local when [YSSY Curfew Operations](../Sydney/#preferred-runway-modes) are in use.
 
