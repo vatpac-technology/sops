@@ -62,7 +62,7 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
     </figure>
     
     !!! warning "Important"
-        Separation between aircraft on the TESAT-FISHA-T066 track is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
+        Separation between aircraft on the TESAT-FISHA-T066 track is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controller's traffic.
 
 === "16 PROPS"
     <figure markdown>
@@ -71,7 +71,7 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
     </figure>
     
     !!! warning "Important"
-        Separation between aircraft tracking via the KEVIN SID to KEVIN is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
+        Separation between aircraft tracking via the KEVIN SID to KEVIN is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controller's traffic.
 
 === "25AD"
     <figure markdown>
@@ -80,7 +80,7 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
     </figure>
     
     !!! warning "Important"
-        Separation between aircraft tracking via the STUIE SID to URDOS and aircraft tracking via the AVMOV SID to SS500 is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
+        Separation between aircraft tracking via the STUIE SID to URDOS and aircraft tracking via the AVMOV SID to SS500 is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controller's traffic.
 
 === "34 PROPS"
     <figure markdown>
@@ -89,7 +89,7 @@ The divisions of the airspace between **SAN**, **SAS**, **SDS**, **SDN**, **SFW*
     </figure>
     
     !!! warning "Important"
-        Separation between aircraft tracking via the MARUB SID to MARUB is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
+        Separation between aircraft tracking via the MARUB SID to MARUB is a **joint responsibility** of SDN and SDS. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controller's traffic.
 
 === "SODPROPS"
     <figure markdown>
@@ -104,7 +104,7 @@ With a controller on SAS and an additional controller offering assistance, some 
 
 - SFW, extending SFE
 - SAN, extending SDN & SFE
-- SDS, extending SYC, SWA, SRA & SBA
+- SDS, extending SYC, SWA, SRA, & SBA
 - SWA, extending SRA & SBA
 
 !!! tip
@@ -143,7 +143,7 @@ The volume of airspace adjacent to the WS CTR overhead Camden (known as **SY CTA
 During the hours of 23:00 - 06:00 Sydney local time, the airspace within the C10 area extends to `A015`, allowing YSWS departures on the [November or Quebec SIDs](../../aerodromes/classc/Walton/#sid-selection) to remain within CTA. CN ADC is **[prohibited](../../aerodromes/classd/Camden/#night-operations)** from logging on during this time, regardless of whether YSWS [RRO](../../aerodromes/classc/Walton/#reciprocal-runway-operations) are in use.
 
 !!! tip
-    When the base of C10 is lowered, it should be included on the YSWS, YSBK & YSCN ATISes.
+    When the base of C10 is lowered, it should be included on the YSWS, YSBK, & YSCN ATISes.
 
 ## Separation
 ### Parallel Runway Operations
