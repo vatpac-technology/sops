@@ -51,6 +51,10 @@ Start approval is required on SMC for all aircraft.
 
 SMC shall assess the number of aircraft operating in, or intending to operate in, the circuit area, as well as the workload of adjacent controllers when determining whether start approval is available.
 
+!!! phraseology
+    **TEK**: "Bankstown Ground, Cherokee TEK, for Penrith Outbound, received A, request start"  
+    **BK SMC**: "TEK, start approved"
+
 !!! tip
     Some pilots may be unfamiliar with Bankstown's start approval requirement. Controllers should facilitate these aircraft movements with as little delay as possible.
 
@@ -150,20 +154,20 @@ Three helicopter reporting points help keep helicopters segregated from other tr
 - **CSTH**: Intersection of two creeks enclosing a sewage treatment works 2.1nm south of the aerodrome reference point
 
 ### Inbound Procedures
-Helicopters should track inbound at `A007` via one of the normal inbound points (PSP or TWRN) or via *Olympic Park* and report to **BK ADC** at that point. In response, **BK ADC** should instruct the aircraft to track as below:
+Helicopters should track inbound at `A007` via one of the normal inbound points (PSP or CRSC) or via *Olympic Park* and report to **BK ADC** at that point. In response, **BK ADC** should instruct the aircraft to track as below:
 
 | Inbound Point | RWY 11 Config | RWY 29 Config |
 | ----------------| --------- | ---------- |
 | PSP | *"Report CWST"*, then <br>*"Join base main pad"* | *"Report CNTH"*, then <br>*"Join base main pad"* |
-| TWRN | *"Report CSTH, A005"*, then <br>*"Overfly midfield at A005, join downwind main pad"* | *"Report CSTH, A005"*, then <br>*"Overfly midfield at A005, join downwind main pad"* |
+| CRSC | *"Report CSTH, A005"*, then <br>*"Overfly midfield at A005, join downwind main pad"* | *"Report CSTH, A005"*, then <br>*"Overfly midfield at A005, join downwind main pad"* |
 | *Olympic Park* | *"Report CWST"*, then <br>*"Join base main pad"* | *"Report CNTH"*, then <br>*"Join base main pad"* |
 
 !!! note
     Helicopters tracking via CSTH will pass over the runway complex midfield at `A005` to join downwind. Be mindful of aircraft in the fixed-wing circuit and pass traffic information to both aircraft prior to the fixed-wing aircraft turning final.  
 
     Example:  
-    *"LOI, traffic is a helicopter overflying the aerodrome to the north at A005, runway left, cleared touch and go"*  
-    *"YZD, traffic is a Cherokee turning final for runway left, overfly midfield at A005, join downwind main pad"*
+    *"LOI, traffic is a helicopter overflying the aerodrome to the north at `A005`, runway left, cleared touch and go"*  
+    *"YZD, traffic is a Cherokee turning final for runway left, overfly midfield at `A005`, join downwind main pad"*
 
 ### Outbound Procedures
 Helicopters should track outbound via one of the helicopter reporting points at `A007`. Departures to the north must track via CWST when RWY 29s are in use and CNTH when RWY 11s are in use.
@@ -178,7 +182,7 @@ Helicopters shall report ready to **BK ADC** with their departure intentions. In
     Helicopters tracking via CSTH will pass over the runway complex midfield at `A005` to join downwind. Be mindful of aircraft in the fixed-wing circuit and pass traffic information to both aircraft prior to the helicopter becoming airborne.  
 
     Example:  
-    *"XEL, traffic is a helicopter overflying the aerodrome to the south at A005, runway left, cleared touch and go"*  
+    *"XEL, traffic is a helicopter overflying the aerodrome to the south at `A005`, runway left, cleared touch and go"*  
     *"YZD, traffic is a Cherokee turning final for runway left, depart Choppers South, main pad, cleared for takeoff"*
 
 ### Circuits

@@ -169,7 +169,9 @@ Coded Clearances are used to provide standardised routing for VFR aircraft arriv
 
 Each coded clearance includes tracking instructions and height requirements that ensure aircraft remain within Class D airspace. Each coded clearance also includes instructions on when to change frequencies and control service termination advice.
 
-The routes are generally segregated, although the 'Penrith Outbound' and 'Brooklyn Inbound' routes intersect within SBA CTA, west of SITS. Remember that in [Class D Airspace](../../controller-skills/classofairpsace), **no separation** is provided for VFR aircraft. Traffic advisory statements should be given to aircraft where appropriate and, if necessary, SBA may pass an avoiding action advice to ensure aircraft do not collide.
+The routes are generally segregated, although the '*Penrith Outbound*' and '*Brooklyn Inbound*' routes intersect within SBA CTA, west of SITS. Remember that in [Class D Airspace](../../controller-skills/classofairpsace), **no separation** is provided for VFR aircraft. 
+
+Traffic advisory statements should be given to aircraft where appropriate and, if necessary, SBA may pass an avoiding action advice to ensure aircraft do not collide.
 
 !!! phraseology
     **SBA**: "WFE, traffic is a Kodiak 9 o'clock, same altitude, crossing left to right."   
@@ -178,7 +180,7 @@ The routes are generally segregated, although the 'Penrith Outbound' and 'Brookl
     **WFE**: "Turn left heading 360, WFE"   
 
 #### Departures
-Departures will be cleared for a coded clearance by **BK SMC** and will contact SBA at their first waypoint.
+Departures will be cleared for a coded clearance by **BK SMC** and will contact SBA at the CTR boundary.
 
 | Coded Clearance    | Route             | Altitude | 
 | ------------------ | ------------------- | ------ | 
@@ -186,10 +188,14 @@ Departures will be cleared for a coded clearance by **BK SMC** and will contact 
 | Mount Annan Outbound | `HXPR EMPS MAGG`  | `A015` |
 | Penrith Outbound   | `PRT SITS VCBR`     | `A015` |
 
+!!! phraseology
+    **UNY**: "Bankstown Approach, Diamond UNY, passing `A011`, climbing to `A015`"   
+    **SBA**: "UNY, identified"
+
 Each coded clearance includes a frequency transfer and control service termination instruction. No explicit instructions should be given to these aircraft.
 
 #### Arrivals
-Arrivals may contact either SYC or SBA prior to entering CTA. SYC shall provide a squawk code and identify the aircraft, then transfer them to SBA for clearance.
+Arrivals shall contact **SYC** for identification prior to entering CTA. SYC shall provide a squawk code and identify the aircraft, perform normal [Radar Position to TCU coordination](../controller-skills/coordination.md#radar-position---tcu-controllers) to **SBA**, then issue frequency transfer.
 
 | Coded Clearance    | Route             | Altitude | 
 | ------------------ | ------------------- | ------ | 
@@ -197,13 +203,30 @@ Arrivals may contact either SYC or SBA prior to entering CTA. SYC shall provide 
 | Lighthorse Inbound | `NPBR LIHR PSP`     | `A015` |
 | St Helens Inbound  | `SSKP CRST CRSC`   | `A015` |
 
-Establishing two-way communication with a VFR aircraft constitutes a clearance to enter CTA as requested. Where a squawk code has not yet been issued, this should also be performed.
-
 !!! phraseology
-    **BJZ**: "Bankstown Approach, BJZ, Seminole, BBG, `A015`, for Brooklyn Inbound"   
-    **SBA**: "BJZ, Bankstown Approach, squawk 0552"  
+    **BJZ**: "Sydney Centre, BJZ, Seminole, 10nm north of BBG, `A015`, for Brooklyn Inbound, received A"  
+    **SYC**: "BJZ, Sydney Centre, squawk 0554, remain outside Class D airspace"  
+    **BJZ**: "Squawk 0554, remain outside Class D airspace, BJZ"  
+
+    <span class="hotline">**SYC** -> **SBA**</span>: "North of BBG, BJZ, for Brooklyn Inbound"  
+    <span class="hotline">**SBA** -> **SYC**</span>: "BJZ"  
+
+    **SYC**: "BJZ, identified, contact Bankstown Approach on 125.8"  
+    **BJZ**: "125.8, BJZ"  
+    
+    **BJZ**: "Bankstown Approach, BJZ, Seminole, 5nm north of BBG, `A015`, for Brooklyn Inbound, received A"   
+    **SBA**: "BJZ, Bankstown Approach, cleared Brooklyn Inbound"  
+    **BJZ**: "Cleared Brooklyn Inbound, BJZ"  
 
  Each coded clearance includes a frequency transfer instruction to BK ADC. No explicit transfer instructions should be given to these aircraft.
+
+ !!! tip
+    Whilst establishing two-way communication with a VFR aircraft constitutes a clearance to enter Class D airspace, it is generally preferred to issue an explicit airways clearance as in the examples above.
+
+#### Class D Transits
+Some aircraft may utilise the YSBK coded clearances to track from the south of the TMA to the north of the TMA, without a landing at YSBK.
+
+These aircraft shall be cleared for an appropriate inbound coded clearance, then track to join an appropriate outbound coded clearance, passing through the top of the BK CTR at `A015`.
 
 ### Sydney Harbour Scenic Flights
 A coded clearance is available over Sydney Harbour, traffic permitting. This route can be displayed on vatSys using the `SY_VFR` map.  
@@ -364,8 +387,7 @@ Aircraft inbound from the south, west, and northwest should track via the **Z97 
 
 Aircraft inbound from the east should be processed via the STAR and be vectored in SWA airspace to facilitate descent. They should then be cleared via the **RNP-Y** approach.
 
-!!! note
-    The **RNP-N** from the north terminates in the circling area and should be **avoided where possible**. Where low levels of traffic exist in the SY TMA and BK CTR, its use may be suitable, but in other cases, it is preferred that aircraft track (or are vectored) to the west and commence the RNP-Y or RNP-Z.
+Aircraft inbound from the north should track via the **Z88 airway** and be processed via NIXOD for the **RNP-N** approach. This approach is only available to the circling area and may not be suitable during periods of low cloud or reduced visibility.
 
 ### YSCN Operations
 #### Departures
