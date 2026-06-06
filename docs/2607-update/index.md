@@ -27,7 +27,7 @@ On this page you will find a summary of the changes and the SOPs that will be in
 ### Ballina Airport (YBNA)
 **Ballina Airport** is a certified aerodrome on the northern New South Wales coast, near Byron Bay.
 
-In the real world Ballina Airport is a very busy aerodrome. It is used daily by regular commercial jet and turboprop passenger traffic, general aviation traffic, sight-seeing helicopters, and flying schools. It is one of very few airports in Australia to operate a local SFIS.
+In the real world, Ballina Airport is a very busy aerodrome. It is used daily by regular commercial jet and turboprop passenger traffic, general aviation traffic, sight-seeing helicopters, and flying schools. It is one of very few airports in Australia to operate a local SFIS.
 
 **Beginning 09 July 2026, YBNA is becoming a controlled Class D airport.**
 
@@ -74,7 +74,7 @@ The airport is intended to operate without curfew restrictions and will be progr
 #### Aerodrome
 A new **WS CTR** is being established around YSWS, `SFC-A015`. The airport will be controlled by three new aerodrome positions: **WS ADC**, **WS SMC**, and **WS ACD**. The airspace in the WS CTR will be classified as Class C.
 
-YSWS operates 24 hours a day. When WS ADC is offline, SY TCU must provide top-down service to the aerodrome.
+YSWS operates 24 hours a day. When WS ADC is offline, SY TCU must provide a top-down service to the aerodrome.
 
 Please see the **[Upcoming Sydney/Nancy-Bird Walton (YSWS) SOPs](./Walton)** for full details about aerodrome operations.
 
@@ -93,7 +93,7 @@ Please see the **[Upcoming Sydney (YSSY) SOPs](./sydney-ad)** for full details a
 Bankstown (YSBK) is located between YSWS and YSSY, and the new controlled airspace in the area has led to profound changes to operations at the airport.
 
 - The Bankstown CTR has grown in size, and now adjoins newly introduced Class D airspace beneath the Class C steps in the SY TMA. This airspace will be controlled by SBA (*'Bankstown Approach'*), a SY TCU position.
-- All VFR movements should now be conducted via a newly introducted coded clearances. These coded clearances give specific routes for aircraft to follow as they transit SBA airspace.
+- All VFR movements should now be conducted via newly introduced coded clearances. These coded clearances give specific routes for aircraft to follow as they transit SBA airspace.
 - A new set of SIDs have been introduced to facilitate IFR departures.
 
 Please see the **[Upcoming Bankstown (YSBK) SOPs](./Bankstown)** for full details about aerodrome operations.
@@ -102,7 +102,7 @@ Please see the **[Upcoming Bankstown (YSBK) SOPs](./Bankstown)** for full detail
 Camden (YSCN) is located close to the southern boundary of the WS CTR.
 
 - MYF and BRY are no longer inbound VFR waypoints for YSCN.
-- During the hours of 23:00 and 06:00 Sydney local time volume of airspace overhead YSCN extends to `A015`, precluding normal operations. For this reason, controllers are prohibited from logging on as either CN ADC or CN SMC during this time.
+- During the hours of 23:00 and 06:00 Sydney local time, the volume of Class C airspace overhead YSCN is lowered from `A045` to `A015`, precluding normal operations. For this reason, controllers are prohibited from logging on as either CN ADC or CN SMC during this time.
 
 ##### Richmond Airport (YSRI) Changes
 Richmond (YSRI) is located north of the WS CTR and is experiencing changes to its procedures.
@@ -122,7 +122,7 @@ The **Sydney TCU** is expanding west to cover newly reclassified airspace associ
 - A new TCU controller, **SWA** (*'Walton Approach'*), is being introduced as a child position of **SAS**, and will have primary responsibility for the area.
 - Another new TCU controller, **SRA** (*'Richmond Approach'*), is being introduced as a child position of **SAS**, with jurisdiction over the SY TCU airspace above YSRI.
 - Yet another new TCU controller, **SBA** (*'Bankstown Approach'*), is being introduced as a child position of **SAS**, with jurisdiction over two lower level volumes of airspace used by aircraft arriving and departing YSBK.
-- There are now SIDs and STARs for all airports within the Sydney Basin, with a complex interdependent network of altitude restrictions. While there is procedural separation between most SIDs/STARs, there are multiple potential sources of conflict that need to be closely monitored.
+- There are now SIDs and/or STARs for all controlled aerodromes within the Sydney Basin, with a complex network of altitude restrictions. While there is procedural separation between most SIDs/STARs, there are multiple potential sources of conflict that need to be closely monitored.
 
 Please see the **[Upcoming Sydney TCU SOPs](./sydney-tcu)** for full details about TCU operations.
 
@@ -141,7 +141,7 @@ Two new enroute primary positions are being created with jurisdiction over the a
 
 This area roughly aligned with the previous MDE, CNK, and ARL subsectors, but also includes airspace that was previously managed by KAT. The main responsibilities of this sector is to process and sequence arrivals to YSSY and YSWS, with additional responsibilities relating to YSTW and YBBN-YPAD traffic.
 
-Several YSSY STARS from the west are changing, notably the replacement of the **ODALE** STAR with a new **AKMIR** STAR, which will alter the standard reroute given to aircraft arriving via RIVET.
+Several YSSY STARS from the west are changing, notably the replacement of the **ODALE** STAR with a new **AKMIR** STAR, which will alter the standard reroute given to aircraft when traffic levels are high.
 
 Please see the **[Upcoming Gunnedah SOPs](./GAH)** for full details about GAH operations.
 
