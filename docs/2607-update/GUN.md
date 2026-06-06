@@ -141,7 +141,7 @@ The following subsectors are responsible for issuing STAR clearance.
 | KAT  | REVKI | All      |       |
 
 ##### Assignment Rules
-YSWS uses different STAR designators to differentiate between different variations of STARs that will be issued, according to time of day, weather, and runway modes in use. Arrivals shall be assigned the STAR in accordance with the tables below.
+YSWS uses different STAR designators to differentiate between different variations of STARs that will be issued, according to the time of day and runway mode in use. Arrivals shall be assigned the STAR in accordance with the table below.
 
 |      | STAR Designator | Condition                     |
 | ---- | --------------- | ----------------------------- |

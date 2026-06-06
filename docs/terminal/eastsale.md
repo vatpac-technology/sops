@@ -14,171 +14,231 @@
     East Sale TCU is a [military TCU](../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those in a civil TCU. Ensure you are familiar with the [military controller skills](../../controller-skills/military) necessary to provide a quality service.
 
 ## Airspace
-The vertical limits of the East Sale TCU is `BCTA` to `F210`. 
+ES TCU owns the Class C and G airspace within 50 DME YMES ARP, `SFC` to `F210`.
 
 <figure markdown>
 ![ES TCU Structure](img/es_tcu.png){ width="700" }
   <figcaption>ES TCU Structure</figcaption>
 </figure>
 
-The enroute controllers manage the airspace beneath the active R360 sectors, with HUO(WON) controlling the southern section and BLA controlling the northern section. Coordination with both enroute controllers is needed if online.
+### Restricted Area Activations
+When **ESA** is online, the following [restricted areas](../../controller-skills/sua/#restricted-areas) are [activated](../../controller-skills/sua/#activation-of-sua) by default, and reclassified as Class C airspace.
 
-### Airspace Division
-ESA is responsible for the restricted airspace within R360. Typically, sectors R360A through R360F are active.
+- M301A `A040 - F210`
+- R360A `SFC - A060`
+- R360B `A010 - A060`
+- R360C `A060 - F210`
+- R360D `A040 - F210`
+- R360EF `A060 - F210`
 
-R393 is reserved and is activated only for special events.
+#### SUA in Enroute Airspace
+Military operations taking place in SUA in enroute airspace are outside the jurisdiction of ES TCU.
 
-If operationally necessary, ESA may also request the activation of M301 airspace segments for military exercises up to `F450`.
+Upon receiving [airways clearance coordination from ACD](#acd-to-es-tcu) of an aircraft intending to operate in a currently inactive SUA in enroute airspace, ES TCU must give **heads up** coordination to relevant enroute controllers.
 
-<figure markdown>
-![ESL TMA](img/esltcu.png){ width="700" }
-<figcaption>ESL TMA</figcaption>
-</figure>
-
-## Logon Process
-Given the specific nature of the East Sale TCU airspace, surrounding controllers may not be fully aware of its boundaries. Upon logging on as East Sale TCU, it is essential to announce the activation status of R360/M301.
+This gives the enroute controller sufficient time to assess the request, make necessary adjustments to any aircraft in the area currently, and activate the SUA; or alternately to refuse the activation request before the aircraft is in the air.
 
 !!! phraseology
-    <span class="hotline">**ESA** -> **BLA**</span>: "Request activation of R360 from SFC to F210"
+    *HRTG11 is requesting clearance to operate in the M301B restricted area.*  
+    <span class="hotline">**ES ACD** -> **ESA**</span>: "HRTG11 requests clearance to M301B”  
+    <span class="hotline">**ESA** -> **ES ACD**</span>: "Standby, call you back."  
+     
+    <span class="hotline">**ESA** -> **HUO**</span>: "On the groud YMES, HRTG11, requests activation of M301B `F210-F450`, from 0300 until 0500. [My onwards](../../controller-skills/coordination/#onwards-coordination) with BLA”  
+    <span class="hotline">**HUO** -> **ESA**</span>: "HRTG11, expect activation of R225D `A095-F600` at 0300 until 0500, your onwards with BLA."   
+    <span class="hotline">**ESA** -> **HUO**</span>: "HRTG11."   
+      
+    <span class="hotline">**ESA** -> **ES ACD**</span>: "HRTG11, clearance approved."   
+    <span class="hotline">**ES ACD** -> **ESA**</span>: "Clearance approved, HRTG11"  
+	
+!!! note
+    The requirement to coordinate activation of an SUA is in **addition** to existing coordination requirements. [**Heads-up** coordination](#departures) is still required for these aircraft if they do not meet the voiceless coordination criteria.
 
 ## Local Procedures
-### VFR Transit
+### Initial and Pitch
+The [intial points](../../../controller-skills/military/#initial-and-pitch) are aligned with Taxiway A at the following locations.
+
+| RWY  | Initial Point | Altitude |
+| ---- | ------------- | -------- |
+| 04   | Longford Road overpass | `A015` |
+| 09   | Comfort Inn Motel      | `A015` |
+| 22   | Lake 2NM west of Lake Wellington Yacht Club | `A015` |
+| 27   | Western edge of Lake Wellington | `A015` |
+
+### Coded Clearances
+Aircraft departing to certain specified training areas may be cleared a coded clearance.
 
 <figure markdown>
-![ESL VFR ROUTE](img/esl_vfr_route.png){ width="700" }
-<figcaption>ESL VFR ROUTE</figcaption>
+![Specified Training Areas within ES TMA](img/es_stas.png){ width="600" }
+  <figcaption>Specified Training Areas within ES TMA</figcaption>
 </figure>
 
-### Transit Lane (D353)
+!!! tip
+    [Coordination requirements](#acd-to-es-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU **before** providing clearance.
 
-#### The VFR Transit Lane (D353)
-VFR D353 transit lane allows VFR aircraft to transit the TCU airspace. The lateral limits are approximately 1NM either side of the railway line from Cowwarr to Lindenow South, passing through Heyfield, Maffra, and Stratford.
-The vertical limit is from `SFC` to `A015`.
-Clearance is not required for transit through R360A via D353.
-Aircraft must monitor ESA on 123.300, and broadcast at Cowwarr and Lindenow South compulsory en route reporting points. No air traffic services are provided within D353.
+#### Low Flying Area
+The **Low Flying Area** is located in the south-west of the ES TMA `SFC-A020`, entirely within the R360A restricted area.
 
-#### Princes Route
-Aircraft using the Princes Route should expect a clearance not above 1,500FT. Other levels may be available upon request.
+Aircraft requesting clearance to operate in the area will be cleared a 'LOW FLYING AREA' clearance by ACD. This clearance gives aircraft permission to track to, and operate within, the area.
 
-#### Longford Lane (UOFL)
+!!! note
+    ACD will write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
+    
+When the area is active the [ATIS will be updated](../../aerodromes/classc/EastSale/#specified-training-area-activations) to reflect the activation.
+    
+#### Roulette Training Area
+The **Roulette Training Areas** are located in the north-east of the ES TMA `SFC-A060`, entirely within the R360A restricted area. There are two training areas: 
 
-The Longford Lane is active at all times when R360A is active. It is an airspace reservation within R360A to allow ESSO helicopters to operate between Longford Heliport and offshore oil platforms and other aircraft to transit to the north east.
-The Longford Lane extends from the `SFC` to `A020`.
-Upon pilot request, clear aircraft to transit through the Longford Lane.
+- Training Area North
+-  Training Area South
 
-*RCR is a VFR Archer 10 miles to the north west of McGauran beach*  
+Training Area South may be activated in isolation, whereas Training Area North can only be activated in conjunction with Training Area South.
+
+Aircraft requesting clearance to operate in the area will be cleared a 'ROULETTE TRAINING AREA' clearance by ACD. This clearance gives aircraft permission to track to, and operate within, the area.  
+
+!!! note
+    ACD will write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
+    
+When the area is active the [ATIS should be updated](../../aerodromes/classc/EastSale/#specified-training-area-activations) to reflect the activation.
+
+### Training Areas
+The ES TMA is divided into sixteen individual training areas to facilitate local training operations. 
+
+<figure markdown>
+![ES Training Areas](img/es_training_areas.png){ width="700" }
+  <figcaption>ES Training Areas</figcaption>
+</figure>
+
+The inner training areas (designated 'A-H') extend from 12NM to 35NM YMES ARP, and the outer training areas (designated 'S-Z') extend from 35NM to 50NM YMES ARP.
+
+Aircraft requesting clearance to operate in a training area will be cleared via the appropriate [military gate or lane](#military-gates).
+
+### Military Gates
+There are numerous [military lanes](../../../controller-skills/military/#military-gates) established throughout the ES TMA to facilitate entry and exit to [training areas](#training-areas) and SUA.
+
+<figure markdown>
+![ES SUA Gates](img/es_mil_gates.png){ width="700" }
+  <figcaption>ES SUA Gates</figcaption>
+</figure>
+
+| Intended [Training Area](#training-areas) | TCU Outbound Lane  |
+| ----------------------------------------- | ------------------ |
+| A, H, S, Z | NORTHERN Lane |
+| B, C, T, U | EASTERN Lane  |
+| D, E, V, W | SOUTHERN Lane |
+| F, G, X, Y | WESTERN Lane  |
+
+!!! tip
+    [Coordination requirements](#acd-to-es-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated.
+    
+### VFR Routes
+There are several VFR routes established in the ES TMA to faciliate the movement of civil VFR traffic.
+
+<figure markdown>
+![VFR Routes in the ES TMA](img/es_vfr_routes.png){ width="700" }
+<figcaption>VFR Routes in the ES TMA</figcaption>
+</figure>
+
+#### D354 VFR Transit Lane
+The D354 VFR Transit Lane is available following the disused Gippsland Railway, allowing aircraft to transit underneath the [R360A restricted area](#r360a-f-east-sale) from east to west (or vice versa). It follows the Gippsland Railway southwest from COWR to LOWS and is wholly contained within the [D353 danger area](../../controller-skills/sua/#danger-areas) `SFC-A010`. A clearance is **not** required to track via the corridor and aircraft are not required to monitor the ESA frequency.
+
+#### Longford Lane
+The Longford Lane facilitates movements between Longford Helipad (YUOF) and off-shore platforms in the Bass Strait. The lane is defined as the area between 1NM south of Longford-Golden Beach Rd and Longford-Loch Sport Rd, 1NM east of Longford Seaspray Rd, and the coastline, `SFC - A020`.
+
+Helicopters arriving and departing YUOF may transit the line without clearance. All other aircraft intending to transit the lane require a clearance from **ESA** prior to entering controlled airspace.
 
 !!! phraseology
-    **RCR**: "East Sale Approach, RCR, Archer, 10 miles north west McGauran beach, 3500, request clearance Loch Sport"  
-    **ESA**: "RCR, East Sale Approach, squawk 1234, remain outside charlie airspace"  
-    **RCR**: "Remain OCTA, squawk 1234, RCR"  
-    **ESA**: "RCR, identified, cleared McGauran Beach, Loch Sport, not above 1500"  
-    **RCR**: "cleared McGauran Beach, Lock Sport, not above 1500, RCR"  
+    *ABC intends to transit the ES TMA along the coast, northbound. This course will require them to pass through the Longford Lane*
+    **ABC**: "Sale Approach, ABC, Bonanza, 5 miles south of WELS, `A015`, for LKEE, request clearance"  
+    **ESA**: "ABC, Sale Approach, squawk 0153, remain outside controlled airspace"  
+    **ABC**: "Remain outside controlled airspace, squawk 0153, ABC"  
+    ...   
+    **ESA**: "ABC, identified, cleared LKEE via WELS, MGBH, LSR. Maintain `A015`."  
+    **ABC**: "Cleared LKEE via WELS, MGBH, LSR, maintain `A015`, ABC." 
+
+Aircraft transiting the TMA that will pass through the Longford Lane should be provided with a traffic statement of all traffic observed within the lane.
+
+!!! phraseology
+    **ESA**: "ABC, traffic is EXH, a AW139, inbound to YUOF, currently 15 north east of MGBH, indicating `A012` unverified."  
+    **ABC**: "Copy traffic, ABC"  
+
+#### Princes Route
+A lane of entry is available in the east of the TMA following the Princes Highway, allowing aircraft to transit through the [R360A restricted area](#r360a-f-east-sale) between FYN and YWSL. A clearance is required from **ESA** prior to entering controlled airspace. Aircraft should be cleared not above `A015`.
+
+!!! phraseology
+    **HM3**: "Sale Approach, helicopter HM3, FYN, `A015`, for the Princes Route, request clearance"  
+    **ESA**: "HM3, squawk 0366, remain outside controlled airspace"  
+    **HM3**: "Squawk 0366, remain outside controlled airspace, HM3"  
+    ...   
+    **ESA**: "HM3, identified, cleared Princes Route, not above `A015`"  
+    **HM3**: "Cleared Princes Route not above `A015`, HM3"  
 
 
-### Lanes and Training Areas
+### West Sale (YWSL)
+West Sale (YWSL) is a certified civilian aerodrome 9NM west of YMES. When the [R360A restricted area](#r360a-f-east-sale) is activated, Class C airspace extends to `SFC` over the aerodrome, and clearance from **ESA** is required for all operations.
 
+!!! note
+    While ESA is responsible for the airspace from `SFC` above YWSL, they have **no jurisdiction** over the runways, taxiways, or apron areas on the aerodrome itself.
+
+##### Departures
+Outbound aircraft will report when taxiing for departure to **ES TCU**. Controllers shall issue the aircraft with a squawk code and a traffic statement regarding any aircraft operating on, or shortly to land at, the aerodrome. 
+
+IFR aircraft should generally be cleared via a visual departure in VMC or via the Radar SID otherwise.
+
+!!! note
+    Both VFR and IFR aircraft require a clearance to operate in Class C airspace. The examples below show an IFR aircraft departing.
+
+!!! phraseology
+    **AM301**: "Sale Approach, AM301, King Air, IFR, taxiing YWSL for YMEN, runway 27"  
+    **ESA**: "AM301, squawk 4432, no reported traffic, report lined up for airways clearance"  
+    **AM301**: "Squawk 4432, wilco, AM301"
+
+When the aircraft reports ready, and where no conflict exists, issue airways clearance.
+
+!!! phraseology
+    **AM301**: "AM301, lined up"  
+    **ESA**: "AM301, cleared to YMEN via DUNNE, flight plan route, WS2 departure, climb via SID to `F150`"  
+    **AM301**: "Cleared to YMEN via DUNNE, flight plan route, climb to `F150`, AM301"  
+    **ESA**: "AM301, assigned heading left 360, report airborne"  
+    **AM301**: "Assigned heading left 360, AM301"  
+
+All surface areas at YWSL are **outside TCU's jurisdiction**. Takeoff clearances are not given.
+
+!!! phraseology
+    **AM301**: "AM301, passing `A012`, climbing to `F150`"  
+    **ESA**: "AM301, identified"
+
+Where a delay is required, withhold clearance until a suitable separation standard exists.
+
+!!! phraseology
+    **AM301**: "AM301, lined up"  
+    **ESA**: "AM301, short delay due to traffic inbound to YMES"  
+    **AM301**: "AM301"
+
+##### Arrivals
+Inbound aircraft should be given an airways clearance by ES TCU (if not entering from ENR CTA). Aircraft may be cleared for a visual approach or one of Weipa's instrument approaches.
+
+As a **landing clearance is not given**, aircraft should instead be informed of any traffic operating on the aerodrome and instructed to *'report clear of the runway'*, when their SARWATCH (for IFR aircraft) should be terminated.
+
+!!! phraseology
+    **AM301**: "AM301, visual"  
+    **ESA**: "AM301, cleared visual approach, no reported IFR traffic, report clear of the runway"  
+    **AM301**: "Cleared visual approach, AM301"  
+    ...  
+    **AM301**: "AM301, clear of the runway, YWSL, cancel SARWATCH"  
+    **ESA**: "AM301, YWSL SARWATCH terminated"
+
+### Special Use Airspace
 <figure markdown>
-![ESL LANES AND TRAINING AREAS](img/esl_lanes_training_areas.png){ width="700" }
-<figcaption>ESL LANES AND TRAINING AREAS</figcaption>
+![Notable SUA in the ES TMA](img/es_sua.png){ width="700" }
+  <figcaption>Notable SUA in the ES TMA</figcaption>
 </figure>
 
-#### Outbound Lanes
-
-The outbound lanes are used by aircraft transiting to/from exterior training areas or for entry and exit of ESL military airspace. These lanes are defined by GNSS waypoints situated at 12, 35, and 50 NM from YMES AD.
-
-Lanes extend from `SFC` or the base of restricted airspace to `F160`.
-
-| Lane Direction | 12NM GNSS Waypoint | 35NM GNSS Waypoint | 50NM GNSS Waypoint | Bearing |
-| -------------- | ------------------ | ------------------ | ------------------ | ------- |
-| Northern       | LEKEM              | GONEB              | LANOS              | 359     |
-| Eastern        | VEMDA              | KADRU              | TAVET              | 090     |
-| Southern       | SABAX              | LUTUK              | NOLOX              | 180     |
-| Western        | DUGAD              | LERKO              | DUNNE              | 270     |
-
-#### Inbound Lanes
-
-The inbound lanes are used to guide aircraft into the East Sale airspace from exterior areas. These lanes also rely on GNSS waypoints at 12, 35, and 50 NM from YMES AD.
-
-| Lane Name      | 12NM GNSS Waypoint | 35NM GNSS Waypoint | 50NM GNSS Waypoint | Bearing |
-| -------------- | ------------------ | ------------------ | ------------------ | ------- |
-| Lakes Lane     | OMBOR              | TODIV              | GIPPS              | 049     |
-| Bass Lane      | KIGAG              | REMOT              | PUKIM              | 135     |
-| Strezlecki Ln  | TEBUM              | PARNVU             | RUPOD              | 224     |
-| Avon Lane      | AKVIN              | UPSAL              | ENBUD              | 315     |
-
-
-#### Training Areas
-
-The training areas around East Sale are crucial for military operations. Each area is defined by specific lateral and vertical limits to ensure safe and coordinated use.
-
-| Training Area | Location                                   | Distance        | Vertical Dimensions                                   | LSALT  |
-| ------------- | ------------------------------------------ | --------------- | ----------------------------------------------------- | ------- |
-| Alpha         | Northern Lane and Lakes Lane               | 12 NM to 35 NM   | SFC to F430 (12 NM to 20 NM); A050 FT to F430 (20 NM to 35 NM) | A059 FT |
-| Bravo         | Lakes Lane and Eastern Lane                | 12 NM to 35 NM   | SFC to F430 (12 NM to 20 NM); A050 FT to F430 (20 NM to 35 NM) | A030 FT |
-| Charlie       | Eastern Lane and Bass Lane (ESL NDB)       | 12 NM to 35 NM   | SFC to F430 (12 NM to 20 NM); A050 FT to F430 (20 NM to 35 NM) | A019 FT |
-| Delta         | Bass Lane and Southern Lane                | 12 NM to 35 NM   | SFC to F430 (12 NM to 20 NM); A050 FT to F430 (20 NM to 35 NM) | A024 FT |
-| Echo          | Southern Lane and Strezlecki Lane          | 12 NM to 35 NM   | SFC to F430 (12 NM to 20 NM); A050 FT to F430 (20 NM to 35 NM) | A039 FT |
-| Foxtrot       | Strezlecki Lane and Western Lane           | 12 NM to 35 NM   | SFC to F430 (12 NM to 20 NM); A070 FT to F430 (20 NM to 35 NM) | A066 FT |
-| Golf          | Western Lane and Avon Lane                 | 12 NM to 35 NM   | SFC to F430 (12 NM to 20 NM); A050 FT to F430 (20 NM to 35 NM); 7000 FT to FL430 (20 NM to 35 NM) | A070 FT |
-| Hotel         | Avon Lane and Northern Lane                | 12 NM to 35 NM   | SFC to F430 (12 NM to 20 NM); A050 FT to F430 (20 NM to 35 NM) | A070 FT |
-| Sierra        | Northern Lane and Lakes Lane               | 35 NM to 50 NM   | A050 FT to FL430                                      | A065 FT |
-| Tango         | Lakes Lane and Eastern Lane                | 35 NM to 50 NM   | A050 FT to FL430                                      | A035 FT |
-| Uniform       | Eastern Lane and Bass Lane                 | 35 NM to 50 NM   | A050 FT to FL430                                      | A015 FT |
-| Victor        | Bass Lane and Southern Lane                | 35 NM to 50 NM   | A050 FT to FL430                                      | A017 FT |
-| Whiskey       | Southern Lane and Strezlecki Lane          | 35 NM to 50 NM   | A050 FT to FL430                                      | A039 FT |
-| X-ray         | Strezlecki Lane and Western Lane           | 35 NM to 50 NM   | A070 FT to FL430                                      | A066 FT |
-| Yankee        | Western Lane and Avon Lane                 | 35 NM to 50 NM   | A070 FT to FL430                                      | A071 FT |
-| Zulu          | Avon Lane and Northern Lane                | 35 NM to 50 NM   | A070 FT to FL430                                      | A071 FT |
-
-## Departure and Arrivals Procedure
-### Arrival Procedures
-
-Aircraft arriving from any Training Area (TA) will remain in the TA until direct entry into an IAP is possible. ATC should anticipate the sequence to allow for efficient tracking and sequencing.
-
-#### Visual Approach
-When expect visual approach is advertised on the ATIS:
-
-- Aircraft shall be instructed to maintain `A070`
-- Track to intercept an inbound lane prior to exiting the TRA (20 NM)
-- Sequence aircraft for a Visual Approach via Initial Point (IP) for the duty runway
-
-#### Instrument 
-
-When expect instrument approach is advertised on the ATIS:
-
-- Aircraft shall be instructed to maintain `A070`
-- Track to intercept an inbound lane prior to exiting the TRA (20 NM)
-- Sequence aircraft for an Instrument Approach Procedure in accordance with the table below
-
-| Runway   | Lane          | IAP   | IAF    | LSALT   |
-| -------- | ------------- | ----- | ------ | ------- |
-| RWY 09   | Lakes Lane    | TAC   | BRONY  | A044    |
-| RWY 09   | Bass Lane     | TAC   | JOSSO  | A034    |
-| RWY 09   | Strezlecki Ln | RNP   | MESWO  | A034    |
-| RWY 09   | Avon Lane     | RNP   | MESWO  | A044    |
-| RWY 22   | Lakes Lane    | RNP   | MESND  | A035    |
-| RWY 22   | Bass Lane     | TAC   | WEIRD  | A019    |
-| RWY 22   | Strezlecki Ln | TAC   | ENRIK/WEIRD | A044/A034 |
-| RWY 22   | Avon Lane     | TAC   | ENKIL  | A044    |
-| RWY 27   | Lakes Lane    | ILS-Y/RNAV | LIDVU/MESEE | A035    |
-| RWY 27   | Bass Lane     | ILS-Y/RNAV | LIDVU/MESEJ | A035/A019 |
-| RWY 27   | Strezlecki Ln | ILS-Y/TAC | JOSSO | A034    |
-| RWY 27   | Avon Lane     | ILS-Y/TAC | BRONY | A044    |
+#### R360A-F East Sale
+The R360A-F East Sale [restricted areas](../../controller-skills/sua/#restricted-areas) are located in the western half of the ES TMA and are activated by default when ESA is online.
 
 ## Runway Modes
-### Circuit Procedures 
-#### East Sale Circuit Area (ESL CIRA)
-
-The East Sale Circuit Area (ESL CIRA) is active at all times when R360A is active. The ESL CIRA may be released to ADC on request to the ES ADC.
-
-#### West Sale Circuit Area (WSL CIRA)
-
-The West Sale Circuit Area (WSL CIRA) is active at all times when R360A is active. It is defined as airspace within a `5NM` radius centered on the YWSL ARP, from the `SFC` to `A020`.
-
-Separation on the movement area at West Sale is not provided by ESA due to geographical displacement. Pilots are responsible for separation during ground operations.
-
-The WSL CIRA remains north of the Latrobe River and within 12 TAC ESL.
+### Circuits
+The ESL and YWSL CIRA overlap overhead Sale township. To avoid conflict between aircraft conducting circuits, a line north-south through the Sale Racecourse marks the boundary between ESL and WSL circuit patterns. Pilots must report if extension beyond the racecourse is required.
 
 #### Circuit Directions
 
@@ -190,17 +250,6 @@ The WSL CIRA remains north of the Latrobe River and within 12 TAC ESL.
 | 23     | Left      |
 | 27     | Left      |
 | 32     | Left      |
-
-#### Standard Circuit Altitudes
-
-| Type         | Normal Altitude | Low Level Altitude (Day) | Low Level Altitude (Night) |
-| ------------ | --------------- | ----------------------- | -------------------------- |
-| All Aircraft | A011            | A005                    | Circling Minima             |
-
-### Coordination Between ESL and WSL CIRA
-
-The ESL and WSL CIRA overlap overhead Sale Township. To avoid conflict between aircraft conducting circuits, a line north-south through the Sale Racecourse marks the boundary between ESL and WSL circuit patterns. Pilots must report if extension beyond the racecourse is required.
-
 
 ## Coordination
 ### Enroute
@@ -215,39 +264,29 @@ All other aircraft going to Enroute CTA must be **Heads-up** coordinated by ESA 
 #### Arrivals
 Voiceless for all aircraft:
 
-- With ADES **YMES**; and
+- With ADES **YMES**; 
+- Assigned a STAR; and 
 - Assigned `A100`
 
 All other aircraft coming from Enroute CTA will be **Heads-up** coordinated to ESA.
 
-### Auto Release
-[Next](../controller-skills/coordination.md#next) coordination is required from ES ADC to ESA for all aircraft.
+### ES ADC
+#### Departures
+[Next](../../../controller-skills/coordination/#next) coordination is required from ES ADC to ESA for all aircraft.
 
 The Standard Assignable Level from  **ES ADC** to **ESA** is:
 
 | Aircraft | Level |
 | -------- | ----- |
-| Fixed-wing | The lower of `F160` and `RFL` |
-| Rotary-wing | The lower of `A040` and `RFL` |
+| All | The lower of `A060` and `RFL` |
 
-Helicopters departing from helicopter spots will be treated as if departing from the duty runway.
+#### ACD to ES TCU
+The controller assuming responsibility of **ACD** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to ESA (or the enroute controller responsible for the ES TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
 
 !!! phraseology
-    *PSDN14 is a VFR helicopter departing from the threshold of RWY04 (in the direction of runway 27)*  
-    <span class="hotline">**ES ADC** -> **ESA**</span>: "Next, PSDN14, runway 27"  
-    <span class="hotline">**ESA** -> **ES ADC**</span>: "PSDN14, right turn, unrestricted"  
-    <span class="hotline">**ES ADC** -> **ESA**</span>: "Right turn, PSDN14" 
-
-### Transfer to Tower
-Transfer to tower frequency at the following points:
-
-- **Visual approach:** 10NM
-- **Visual approach via Hi-Key:** Passing 5000FT or 5NM, whichever occurs first
-- **Instrument approach (unless radar vectored):**
-  - **ILS, NDB, TACAN:** Turning inbound
-  - **ILS via LIDVU:** 10NM
-  - **RNP:** Intermediate fix
-  - **DME:** 10NM
-
+    <span class="hotline">**ES ACD** -> **ESA**</span>: "HDSN11 requests clearance to R360D"  
+    <span class="hotline">**ESA** -> **ES ACD**</span>: "HDSN11, clearance approved."  
+    
 ## Charts
-Aerodrome and instrument approach charts are available in the AIP. Additionally, refer to the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip).
+!!! abstract "Reference"
+    In addition to the civilian `ERSA` and `AIP` publications, [the RAAF AIP website](https://ais-af.airforce.gov.au/australian-aip){target=new} contains the necessary charts (available in the TERMA) and description of procedures (in each airports' FIHA).

@@ -314,6 +314,7 @@
 *[CNB]: Canning Bridge
 *[CNTH]: Choppers North
 *[COTR]: Cotter
+*[COWR]: Cowwarr
 *[CPA]: Campania
 *[CREM]: Cremorne
 *[CRSC]: Crossroads Shopping Centre
@@ -341,6 +342,7 @@
 *[FREM]: Fremantle Golf Course
 *[FTAs]: Flying Training Areas
 *[FWO]: Freeway Overpass
+*[FYN]: Flynn
 *[GGO]: Goonoo Goonoo Station
 *[GIRU]: Giru
 *[GMH]: GMH (General Motors Holden)
@@ -360,8 +362,11 @@
 *[KSPT]: Kissing Point
 *[LAUD]: Lauderdale
 *[LIHR]: Lighthorse Interchange
+*[LKEE]: Lakes Entrance
+*[LOWS]: Lindenow South
 *[LPT]: Lee Point
 *[LRF]: Long Reef
+*[LSR]: Loch Sport
 *[LTV]: Latrobe Valley
 *[LUY]: Latrobe University
 *[MAGG]: Mount Annan Gardens Greenhouse
@@ -373,6 +378,7 @@
 *[MCG]: Melbourne Cricket Ground
 *[MEG]: Menangle
 *[MFGC]: Muirfield Golf Club
+*[MGBH]: McGauran Beach
 *[MMT]: Mt Margaret
 *[MNG]: Mangalore
 *[MTWK]: Mount Walker
@@ -429,6 +435,7 @@
 *[UQLD]: University of Queensland
 *[VCBR]: Victoria Bridge
 *[WBH]: Wallabadah
+*[WELS]: Welshpool
 *[WEP]: West Pt
 *[WES]: West Gate Bridge
 *[WILE]: Willeroo

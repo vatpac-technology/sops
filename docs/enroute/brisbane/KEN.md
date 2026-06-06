@@ -107,7 +107,7 @@ TL TCU must [give heads up coordination](../../../terminal/townsville/#sua-in-en
 Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../controller-skills/sua/#ad-hoc-activations).
 
 #### M742 Tiger
-The M742 Tiger [MOA](../../../controller-skills/sua/#military-operating-areas) is located off the coast, `A040-F240`, spanning both TL TCU and KEN(TBP) airspace. Activation of the M742 MOA is a [shared responsibility](../../../controller-skills/sua/#activation-of-sua), and both TAL and KEN(TBP) must coordinate before activation.
+The M742 Tiger [MOA](../../../controller-skills/sua/#military-operating-areas) is located off the coast, `A040-F240`, spanning both TL TCU and KEN(TBP) airspace. Activation of the M742 MOA is a [shared responsibility](../../../controller-skills/sua/#activation-of-sua), and both TLA and KEN(TBP) must coordinate before activation.
 
 Aircraft will generally enter and exit the MOA via the appropriate [military gate](../../../terminal/townsville/#military-gates).
 

@@ -47,6 +47,18 @@ All apron areas and associated taxiways are *outside* the manoeuvring area. Each
 </figure>
 
 ## Local Procedures
+### Start Approval
+Start approval is required on SMC for all aircraft.
+
+SMC shall assess the number of aircraft operating in, or intending to operate in, the circuit area, as well as the workload of adjacent controllers when determining whether start approval is available.
+
+!!! phraseology
+    **TEK**: "Bankstown Ground, Cherokee TEK, for Penrith Outbound, received A, request start"  
+    **BK SMC**: "TEK, start approved"
+
+!!! tip
+    Some pilots may be unfamiliar with Bankstown's start approval requirement. Controllers should facilitate these aircraft movements with as little delay as possible.
+    
 ### Adjacent Runways
 Due to the close proximity of all three runways, there are additional considerations which must be applied between adjacent runway operations.
 
@@ -74,8 +86,7 @@ All aircraft should remain on ADC frequency when between runways.
 The largest aircraft that can safely hold between runways is a BE20 (King Air). All larger aircraft are considered to be occupying the runway behind until clear of all active runways.
 
 !!! note
-    All helicopters are considered to be larger than a King Air for the purpose of separation.
-    
+    All helicopters are considered to be larger than a King Air for the purpose of separation. 
 
 ## VFR Operations
 Coded clearances are used to provide standardised routing for VFR aircraft arriving and departing YSBK while transiting Class D SY TCU airspace.
@@ -150,20 +161,20 @@ Three helicopter reporting points help keep helicopters segregated from other tr
 - **CSTH**: Intersection of two creeks enclosing a sewage treatment works 2.1nm south of the aerodrome reference point
 
 ### Inbound Procedures
-Helicopters should track inbound at `A007` via one of the normal inbound points (PSP or TWRN) or via *Olympic Park* and report to **BK ADC** at that point. In response, **BK ADC** should instruct the aircraft to track as below:
+Helicopters should track inbound at `A007` via one of the normal inbound points (PSP or CRSC) or via *Olympic Park* and report to **BK ADC** at that point. In response, **BK ADC** should instruct the aircraft to track as below:
 
 | Inbound Point | RWY 11 Config | RWY 29 Config |
 | ----------------| --------- | ---------- |
 | PSP | *"Report CWST"*, then <br>*"Join base main pad"* | *"Report CNTH"*, then <br>*"Join base main pad"* |
-| TWRN | *"Report CSTH, A005"*, then <br>*"Overfly midfield at A005, join downwind main pad"* | *"Report CSTH, A005"*, then <br>*"Overfly midfield at A005, join downwind main pad"* |
+| CRSC | *"Report CSTH, A005"*, then <br>*"Overfly midfield at A005, join downwind main pad"* | *"Report CSTH, A005"*, then <br>*"Overfly midfield at A005, join downwind main pad"* |
 | *Olympic Park* | *"Report CWST"*, then <br>*"Join base main pad"* | *"Report CNTH"*, then <br>*"Join base main pad"* |
 
 !!! note
     Helicopters tracking via CSTH will pass over the runway complex midfield at `A005` to join downwind. Be mindful of aircraft in the fixed-wing circuit and pass traffic information to both aircraft prior to the fixed-wing aircraft turning final.  
 
     Example:  
-    *"LOI, traffic is a helicopter overflying the aerodrome to the north at A005, runway left, cleared touch and go"*  
-    *"YZD, traffic is a Cherokee turning final for runway left, overfly midfield at A005, join downwind main pad"*
+    *"LOI, traffic is a helicopter overflying the aerodrome to the north at `A005`, runway left, cleared touch and go"*  
+    *"YZD, traffic is a Cherokee turning final for runway left, overfly midfield at `A005`, join downwind main pad"*
 
 ### Outbound Procedures
 Helicopters should track outbound via one of the helicopter reporting points at `A007`. Departures to the north must track via CWST when RWY 29s are in use and CNTH when RWY 11s are in use.
@@ -178,7 +189,7 @@ Helicopters shall report ready to **BK ADC** with their departure intentions. In
     Helicopters tracking via CSTH will pass over the runway complex midfield at `A005` to join downwind. Be mindful of aircraft in the fixed-wing circuit and pass traffic information to both aircraft prior to the helicopter becoming airborne.  
 
     Example:  
-    *"XEL, traffic is a helicopter overflying the aerodrome to the south at A005, runway left, cleared touch and go"*  
+    *"XEL, traffic is a helicopter overflying the aerodrome to the south at `A005`, runway left, cleared touch and go"*  
     *"YZD, traffic is a Cherokee turning final for runway left, depart Choppers South, main pad, cleared for takeoff"*
 
 ### Circuits
@@ -197,17 +208,18 @@ Winds must always be considered for runway modes (Crosswind <20kts, Tailwind <5k
 | 2 - 11 PROPS | 11L (VFR) & 11C (IFR) | 11L (VFR) & 11C (IFR) | 11R |
 
 #### Night Operational Restrictions
-Runway 11R/29L is unlit, and **cannot** be used at night.
+Runways 11L/29R & 11R/29L are unlit and **cannot** be used at night.
 
 ## SID Selection
 IFR aircraft shall be assigned a SID corresponding to their direction of travel.
 
-| Runway  | Via  | SID      |
-| ------- | ---- | -------- |
-| 11C/29C | NOLEM           | **MECKO** SID, Relevant Transition |
-| 11C/29C | Tracking N      | **URDOS** SID |
-| 11C/29C | Tracking S or W | **MECKO** SID, RADAR Transition |
-| 11C/29C | All others      | **RADAR** SID |
+| Runway  | Via                  | SID           |
+| ------- | -------------------- | ------------- |
+| 11C/29C | NOLEM                | **MECKO** SID, NOLEM Transition |
+| 11C/29C | Tracking N or E     | **URDOS** SID |
+| 11C/29C | Tracking W or S | **MECKO** SID, RADAR Transition |
+
+Pilots who are unable to accept a procedural SID shall be cleared the **BK (RADAR) SID**.
 
 ### Circuits
 The circuit direction changes depending on time of day and runway being used.
@@ -221,7 +233,7 @@ The circuit direction changes depending on time of day and runway being used.
 | 29C    | Right | Left  |
 | 29R    | Right | -     |
 
-Circuits to be flown at `A010`
+Circuits are flown at `A010`
 
 ## ATIS
 ### Runway Mode Formatting
@@ -266,8 +278,8 @@ IFR aircraft will be cleared for the instrument prior to handoff to BK ADC, unle
     <span class="hotline">**BK ADC** -> **SBA**</span>: "UJN, RNP-Z"
 
 !!! tip
-    Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D. You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground) if separation is required with these aircraft.
-
+    Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D. You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground, etc) if separation is required with these aircraft.
+    
 #### ADC (Circuit) Online
 When ADC (Circuit) is online, SY TCU may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
 
