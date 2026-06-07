@@ -212,6 +212,9 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | MLD, OCN | GUN(BIK) | YSCB | Jets only |
 | MNN  | ARL | YSSY | |
 
+!!! note
+    MNN shall perform an early handoff to ARL for aircraft inbound to YSSY departing within MNN airspace. This is to allow ARL to issue STAR clearance provide sequencing instructions in a timely manner.
+
 ## Terminal Handover Frequencies
 Aircraft being transferred from enroute to a TCU with multiple frequencies shall be given the frequency for the revelant TCU position.
 
