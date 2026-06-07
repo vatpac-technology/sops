@@ -346,7 +346,8 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| INL | MNN | YSSY | |
+| INL | ARL | YSSY | |
+| INL | AR:(GAH) | YSWS | |
 | INL | GOL | YBSU | |
 | NSA, BUR | KPL | YBMK, YBRK | |
 

@@ -1,5 +1,5 @@
 ---
-  title: Gunnedah (GAH)
+  title: Armidale (ARL)
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -14,11 +14,11 @@
 
 | Name              | ID      | Callsign            | Frequency   | Login ID       |
 | ----------------- | ------- | ------------------- | ----------- | -------------- |
-| **Gunnedah**      | **GAH** | **Brisbane Centre** | **121.150** | **BN-GAH_CTR** |
-| <span class="indented">Armidale :material-information-outline:{ title="Non-standard position"} | ARL | Brisbane Centre | 130.900 | BN-ARL_CTR |
+| **Armidale**      | **ARL** | **Brisbane Centre** | **130.900** | **BN-ARL_CTR** |
 | <span class="indented">Cessnock :material-information-outline:{ title="Non-standard position"} | CNK | Brisbane Centre | 123.400 | BN-CNK_CTR |
 | <span class="indented">Denman :material-information-outline:{ title="Non-standard position"}   | DEN | Brisbane Centre | 134.150 | BN-DEN_CTR |
 | <span class="indented">Lightning :material-information-outline:{ title="Non-standard position"}| LIG | Brisbane Centre | 133.000 | BN-LIG_CTR |
+| <span class="indented">Gunnedah :material-information-outline:{ title="Non-standard position"} | GAH | Brisbane Centre | 121.150 | BN-GAH_CTR |
 | <span class="indented">Moree :material-information-outline:{ title="Non-standard position"}    | MOR | Brisbane Centre | 134.850 | BN-MOR_CTR |
 | <span class="indented">Rylstone :material-information-outline:{ title="Non-standard position"} | OCN | Brisbane Centre | 119.700 | BN-RYS_CTR |
 
@@ -28,8 +28,8 @@
 
 ## Airspace
 <figure markdown>
-![Gunnedah Airspace](img/enr_diagrams/gah.png){ width="700" }
-  <figcaption>Gunnedah Airspace</figcaption>
+![Armidale Airspace](img/enr_diagrams/arl.png){ width="700" }
+  <figcaption>Armidale Airspace</figcaption>
 </figure>
 
 ### Reclassifications
@@ -63,7 +63,7 @@ Arrivals from the north shall be given initial descent to not below `F250`. **CN
     **RXA6417:** "Recleared direct BOREE for the BOREE5A arrival, runway 34L, maintain F180, RXA6417" 
 	
 #### Sequencing
-Sequencing arrivals from the north into YSSY is a joint responsibility of the subsectors of GAH. Initial sequencing actions for aircraft from the north should be performed by ARL, with fine tuning and any holding required issued by CNK. 
+Sequencing arrivals from the north into YSSY is a joint responsibility of the subsectors of ARL. Initial sequencing actions for aircraft from the north should be performed by ARL, with fine tuning and any holding required issued by CNK. 
 
 Aircraft from the north shall be assigned **runway 16L/34R** during PROPS. However, some situations may warrant the use of the main runway (16R/34L), such as heavy aircraft operationally requiring the longer runway or large volumes of traffic requiring the use of both runways to minimise delay. In this case, coordination must be conducted with Melbourne Centre or Sydney Flow (if operating) to ensure that the sequence is built in an efficient and orderly way.
 
@@ -91,7 +91,7 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 The first subsector to control an aircraft bound for YSRI is responsible for issuing STAR clearance for aircraft via RITSU.
 
 #### Sequencing
-Sequencing arrivals into YSRI is a joint responsibility of all the subsectors of GAH.
+Sequencing arrivals into YSRI is a joint responsibility of all the subsectors of ARL.
     
 ### YSWS
 #### STAR Assignment
@@ -117,7 +117,7 @@ YSWS uses different STAR designators to differentiate between different variatio
 The **GUDOK N** STAR may be tactically assigned in lieu of the REVKI N STAR by **SWA**, for track shortening or separation.
 
 #### Sequencing
-Sequencing arrivals from the north into YSWS is a joint responsibility of the subsectors of GAH. Initial sequencing actions for aircraft from the north should be performed by GAH, with fine tuning and any holding required issued by DEN. 
+Sequencing arrivals from the north into YSWS is a joint responsibility of the subsectors of ARL. Initial sequencing actions for aircraft from the north should be performed by GAH, with fine tuning and any holding required issued by DEN. 
     
 ### YSTW
 ARL and GAH are responsible for issuing descent.
@@ -138,11 +138,11 @@ The ARL subsector is additionally responsible for issuing the **STORM 2** coded 
 
 ## Local Procedures
 ### Special Use Airspace
-There are multiple volumes of [SUA](../../../controller-skills/sua) within GAH airspace, mostly associated with military operations in and out of YWLM.
+There are multiple volumes of [SUA](../../../controller-skills/sua) within ARL airspace, mostly associated with military operations in and out of YWLM.
 
 <figure markdown>
-![Notable SUA in GAH Airspace](img/gah_sua.png){ width="700" }
-  <figcaption>Notable SUA in GAH Airspace</figcaption>
+![Notable SUA in ARL Airspace](img/arl_sua.png){ width="700" }
+  <figcaption>Notable SUA in ARL Airspace</figcaption>
 </figure>
 
 WLM TCU (or MNN on their behalf) will coordinate the activation these SUA **prior** to any activity.
@@ -155,18 +155,18 @@ The R560A-B and R570A-H restricted areas are located west of YWLM and YSTW withi
   <figcaption>WLM Thunder Military Corridor</figcaption>
 </figure>
 
-Aircraft departing the WLM TCU will be cleared the **STORM 1** coded clearance. Aircraft returning to the TCU will be cleared the **STORM 2** coded clearance by GAH.
+Aircraft departing the WLM TCU will be cleared the **STORM 1** coded clearance. Aircraft returning to the TCU will be cleared the **STORM 2** coded clearance by ARL.
 
 !!! phraseology
     *BARN21 has completed their military training operations in R570, and intends to return to base.*
     **BARN21**: "Brisbane Centre, BARN21"  
-    **GAH**: "BARN21, Brisbane Centre, identified"  
+    **ARL**: "BARN21, Brisbane Centre, identified"  
     **BARN21**: "Brisbane Centre, BARN21, detail complete, for RTB, `F130`"  
-    **GAH**: "BARN21, cleared Storm 2. At THNDA, contact Willy Approach, 135.7"  
+    **ARL**: "BARN21, cleared Storm 2. At THNDA, contact Willy Approach, 135.7"  
     **BARN21**: "Cleared Storm 2, at THNDA contact Willy Approach, BARN21"  
     
 !!! note
-    Aircraft tracking via the STORM coded clearances does **not** constitute a voiceless coordination route between WLM TCU and GAH. Aircraft should still be heads-up coordinated prior to **5 minutes** to the boundary, unless coordinated otherwise.
+    Aircraft tracking via the STORM coded clearances does **not** constitute a voiceless coordination route between WLM TCU and ARL. Aircraft should still be heads-up coordinated prior to **5 minutes** to the boundary, unless coordinated otherwise.
 
 Aircraft transiting the Thunder Corridor should be assigned the appropriate altitude to ensure separation with opposite direction traffic while transiting to their desired restricted area.
 
@@ -273,25 +273,25 @@ Voiceless for all aircraft:
     - Assigned a STAR; and
     - Assigned `A080`
 
-All other aircraft coming from GAH CTA must be **Heads-up** Coordinated to SY TCU prior to **20nm** from the boundary.
+All other aircraft coming from ARL CTA must be **Heads-up** Coordinated to SY TCU prior to **20nm** from the boundary.
 
 #### Departures
 Voiceless for all aircraft:
 
 - Assigned the lower of `F280` or the `RFL`; and
-- that enter GAH airspace via any of the *Green Shaded Corridors* below.
+- that enter ARL airspace via any of the *Green Shaded Corridors* below.
 
 <figure markdown>
 ![SY TCU Voiceless Coordination Corridors](img/sytcucoordgate.png){ width="700" }
   <figcaption>SY TCU Voiceless Coordination Corridors</figcaption>
 </figure>
 
-All other aircraft going to GAH CTA will be **Heads-up** Coordinated by SY TCU.
+All other aircraft going to ARL CTA will be **Heads-up** Coordinated by SY TCU.
 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
-### GAH Internal
+### ARL Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 ### TW ADC

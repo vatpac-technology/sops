@@ -136,14 +136,14 @@ Two new enroute primary positions are being created with jurisdiction over the a
   <figcaption>Updated enroute boundaries</figcaption>
 </figure>
 
-##### Gunnedah (GAH)
-**GAH** will have six child sectors: **ARL**, **CNK**, **DEN**, **LIG**, **MOR**, and **RYS**.
+##### Armidale (ARL)
+The updated **ARL** will have six child sectors: **CNK**, **DEN**, **LIG**, **GAH**, **MOR**, and **RYS**.
 
 This area roughly aligned with the previous MDE, CNK, and ARL subsectors, but also includes airspace that was previously managed by KAT. The main responsibilities of this sector is to process and sequence arrivals to YSSY and YSWS, with additional responsibilities relating to YSTW and YBBN-YPAD traffic.
 
 Several YSSY STARS from the west are changing, notably the replacement of the **ODALE** STAR with a new **AKMIR** STAR, which will alter the standard reroute given to aircraft when traffic levels are high.
 
-Please see the **[Upcoming Gunnedah SOPs](./GAH)** for full details about GAH operations.
+Please see the **[Upcoming Armidale SOPs](./ARL)** for full details about GAH operations.
 
 ##### Manning (MNN)
 **MNN** will have two child sectors: **MLD** and **OCN**.
