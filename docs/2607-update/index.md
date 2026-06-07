@@ -24,6 +24,9 @@ On this page you will find a summary of the changes and the SOPs that will be in
 !!! abstract "Reference"
     You can find charts for all the new SIDs, STARs, and airspace volumes on the [Airservices Australia AIP](https://www.airservicesaustralia.com/aip/aip.asp){target=new}.
 
+#### Questions?
+A Q&A channel has been created on the [VATPAC Discord](https://discord.com/channels/343999482737721354/1508107412224081990), open to all members of the community. If you have any questions relating to these major changes, join the conversation!
+
 ### Ballina Airport (YBNA)
 **Ballina Airport** is a certified aerodrome on the northern New South Wales coast, near Byron Bay.
 
