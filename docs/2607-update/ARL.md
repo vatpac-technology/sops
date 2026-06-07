@@ -49,6 +49,9 @@ The following subsectors are responsible for issuing STAR clearance.
 | ---- | ----- | -------- | ----- |
 | ARL  | BOREE<br>MEPIL | Jet<br>Non-Jet  | Descent not below `F250`<br>Descent not below `F250` |
 
+!!! note
+    **MNN** is encouraged to perform early handoffs to ARL for aircraft inbound to YSSY who depart within MNN jurisdiction. This is to allow ARL to provide STAR clearance and sequencing instructions in a timely manner.
+
 Arrivals from the north shall be given initial descent to not below `F250`. **CNK** will issue final descent.
 
 !!! tip
