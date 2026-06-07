@@ -109,7 +109,7 @@ These corridors are located **outside** the jurisdiction of the WLM TCU.
 #### Thunder Corridor
 The **Thunder Corridor** is used by aircraft to transit civilian enroute airspace between the WLM TCU and the R560 and R570 restricted areas.
 
-Aircraft departing to the areas will be cleared the **STORM 1** coded clearance by ACD, aircraft returning to the airport will be cleared the **STORM 2** coded clearance by GAH.
+Aircraft departing to the areas will be cleared the **STORM 1** coded clearance by ACD, aircraft returning to the airport will be cleared the **STORM 2** coded clearance by ARL.
 
 Aircraft transiting the Thunder Corridor should be assigned the appropriate altitude to ensure separation with opposite direction traffic while transiting to their desired restricted area.
 
@@ -119,13 +119,13 @@ Aircraft transiting the Thunder Corridor should be assigned the appropriate alti
 | STORM 2         | `F130`   |
 
 !!! note
-    Aircraft tracking via the STORM coded clearance does **not** constitute a voiceless coordination route between WLM TCU and GAH. Aircraft should still be heads-up coordinated to GAH prior to **5 minutes** to the boundary, unless coordinated otherwise.
+    Aircraft tracking via the STORM coded clearance does **not** constitute a voiceless coordination route between WLM TCU and ARL. Aircraft should still be heads-up coordinated to ARL prior to **5 minutes** to the boundary, unless coordinated otherwise.
 
 #### Lightning Corridor
 The **Lightning Corridor** is used by aircraft to transit between the WLM TCU and the M581-M584 restricted areas. 
 Aircraft will access the corridor through the **[Lightning Gate](#military-gates)** (LG) and transit the corridor before reaching their desired operating area.
 
-The corridor itself is located entirely within SUA, and aircraft entering the corridor from WLM TCU airspace do not need to be handed off to GAH if the restricted areas are active. 
+The corridor itself is located entirely within SUA, and aircraft entering the corridor from WLM TCU airspace do not need to be handed off to ARL if the restricted areas are active. 
 
 !!! phraseology
     **WAL**: "WGTL45 at LG cleared operating, report [ops normal](../../controller-skills/airwork/#ops-normal) time 30."  
