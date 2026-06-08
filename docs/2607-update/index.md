@@ -30,14 +30,14 @@ In the real world, Ballina Airport is a very busy aerodrome. It is used daily by
 **Since 09 July 2026, YBNA is a controlled Class D airport.**
 
 #### Aerodrome
-A new **BA CTR** was established around YBNA, `SFC-A015`. This airspace is the responsibility of a new ADC controller, **BA ADC**.
+A new **BA CTR** has been established around YBNA, `SFC-A015`. This airspace is the responsibility of a new ADC controller, **BA ADC**.
 
 The airspace in the BA CTR will be classified as Class D.
 
 Please see the **[Ballina (YBNA) SOPs](../aerodromes/classd/Ballina)** for full details about aerodrome operations.
 
 #### TCU
-Previously uncontrolled airspace surrounding YBNA was reclassified:
+Previously uncontrolled airspace surrounding YBNA has been reclassified:
 
 - Class D airspace extends up to 20NM DME from YBNA, with lower level steps starting from `A015`
 - The lower level of Class C airspace up to 75NM DME YBCG has been lowered, as low as `A045` overhead YBNA.
@@ -47,7 +47,7 @@ Previously uncontrolled airspace surrounding YBNA was reclassified:
   <figcaption>CTA around Ballina (YBNA)</figcaption>
 </figure>
 
-The **Brisbane/Gold Coast TCU** has been extended to cover the newly reclassified airspace. A new TCU controller, **BAA** (*'Ballina Approach'*), was introduced as a child position of **BAC**, and has primary responsibility for the area.
+The **Brisbane/Gold Coast TCU** has been extended to cover the newly reclassified airspace. A new TCU controller, **BAA** (*'Ballina Approach'*), has been introduced as a child position of **BAC**, and has primary responsibility for the area.
 
 Please see the **[Brisbane TCU SOPs](../terminal/brisbane)** for full details about TCU operations.
 
@@ -120,9 +120,9 @@ The **Sydney TCU** has expanded west to cover newly reclassified airspace associ
   <figcaption>Updated Sydney TMA boundaries</figcaption>
 </figure>
 
-- A new TCU controller, **SWA** (*'Walton Approach'*), was introduced as a child position of **SAS**, and has primary responsibility for the area.
-- Another new TCU controller, **SRA** (*'Richmond Approach'*), was introduced as a child position of **SAS**, with jurisdiction over the SY TCU airspace above YSRI.
-- Yet another new TCU controller, **SBA** (*'Bankstown Approach'*), was introduced as a child position of **SAS**, with jurisdiction over two lower level volumes of airspace used by aircraft arriving and departing YSBK.
+- A new TCU controller, **SWA** (*'Walton Approach'*), has been introduced as a child position of **SAS**, and has primary responsibility for the area.
+- Another new TCU controller, **SRA** (*'Richmond Approach'*), has been introduced as a child position of **SAS**, with jurisdiction over the SY TCU airspace above YSRI.
+- Yet another new TCU controller, **SBA** (*'Bankstown Approach'*), has been introduced as a child position of **SAS**, with jurisdiction over two lower level volumes of airspace used by aircraft arriving and departing YSBK.
 - There are now SIDs and/or STARs for all controlled aerodromes within the Sydney Basin, with a complex network of altitude restrictions. While there is procedural separation between most SIDs/STARs, there are multiple potential sources of conflict that need to be closely monitored.
 
 Please see the **[Sydney TCU SOPs](../terminal/Sydney)** for full details about TCU operations.
