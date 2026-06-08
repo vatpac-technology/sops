@@ -202,8 +202,7 @@ Aircraft shall be instructed to contact SY TCU passing `A015`.
 
 ### Arrivals/Overfliers
 SY TCU will heads-up coordinate arrivals/overfliers from Class C to BK ADC.  
-IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to BK ADC, unless BK ADC nominates a restriction.  
-VFR aircraft require a level readback.
+IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to BK ADC, unless BK ADC nominates a restriction.
 
 !!! phraseology
     <span class="hotline">**SY TCU** -> **BK ADC**</span>: "via GRB, UJN"  
