@@ -79,7 +79,7 @@ A new **WS CTR** is being established around YSWS, `SFC-A015`. The airport will 
 
 YSWS operates 24 hours a day. When WS ADC is offline, SY TCU must provide a top-down service to the aerodrome.
 
-Please see the **[Upcoming Sydney/Nancy-Bird Walton (YSWS) SOPs](./Walton)** for full details about aerodrome operations.
+Please see the **[Upcoming Sydney/Nancy-Bird Walton (YSWS) SOPs](./walton)** for full details about aerodrome operations.
 
 #### Other Aerodrome Updates
 ##### Sydney (YSSY) Changes
