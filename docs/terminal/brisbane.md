@@ -91,7 +91,7 @@ There are 7 executive controller positions within the BN/CG TCUs, plus a flow co
 
 With a controller on BAN and an additional controller offering assistance, some example splits include:
 
-- BAC
+- BAC, extending BAA
 - BAS, extending BDS
 
 !!! tip
