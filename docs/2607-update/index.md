@@ -39,7 +39,7 @@ A new **BA CTR** is being established around YBNA, `SFC-A015`. This airspace wil
 
 The airspace in the BA CTR will be classified as Class D.
 
-Please see the **[Upcoming Ballina (YBNA) SOPs](./Ballina)** for full details about aerodrome operations.
+Please see the **[Upcoming Ballina (YBNA) SOPs](./ballina)** for full details about aerodrome operations.
 
 #### TCU
 Previously uncontrolled airspace surrounding YBNA is being reclassified:
