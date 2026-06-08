@@ -36,11 +36,11 @@ The [intial points](../../../controller-skills/military/#initial-and-pitch) are 
 | 36   | 5.5DME LM, abeam the bend in Minilya-Exxmouth Road | `A015` |
 
 ### Military Gates
-There are numerous [military gates](../../../controller-skills/military/#military-gates) established throughout the SG TMA to facilitate entry and exit to adjoining SUA.
+There are numerous [military gates](../../../controller-skills/military/#military-gates) established throughout the LM TMA to facilitate entry and exit to adjoining SUA.
 
 <figure markdown>
-![SG SUA Gates](../../terminal/img/lm_mil_gates.png){ width="700" }
-  <figcaption>SG SUA Gates</figcaption>
+![LM SUA Gates](../../terminal/img/lm_mil_gates.png){ width="700" }
+  <figcaption>LM SUA Gates</figcaption>
 </figure>
 
 Pilots should include the desired departure gate when requesting clearance.
@@ -50,7 +50,7 @@ Pilots should include the desired departure gate when requesting clearance.
     **PHNX11**: "Learmonth Ground, PHNX11 for Gate 2, `F190` for M855A, request clearance."  
     **LM SMC**: "PHNX11, Learmonth Ground. cleared Gate 2 direct, climb to `F190`, squawk 6001, departure frequency 120.5."   
 
-If the pilot **does not** nominate a gate, or nominates a gate that does not provide access to their intended SUA, SG SMC should clear the aircraft to depart via the **appropriate gate**.
+If the pilot **does not** nominate a gate, or nominates a gate that does not provide access to their intended SUA, LM SMC should clear the aircraft to depart via the **appropriate gate**.
 
 | Intended SUA    | TCU Exit Gate       |
 | --------------- | ------------------- |
