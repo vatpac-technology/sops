@@ -64,7 +64,7 @@ LM TCU must [give heads up coordination](../../../controller-skills/coordination
 Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../sua/#ad-hoc-activations).
 
 #### M855-M857 and M865-M868 Learmonth
-The M855-M857 and M865-M868 Learmonth [MOAs](../../../controller-skills/sua/#military-operating-areas) are located over YPLM, `A100-F950`, located in OLW and IND(INE) airspace. 
+The M855-M857 and M865-M868 Learmonth [MOAs](../../../controller-skills/sua/#military-operating-areas) are located over YPLM, `A100-F950`, located in OLW, MEK, and IND(INE) airspace. 
 
 The MOAs directly adjoin the LM TMA and when LMA is online aircraft will be transferred directly to/from the MOAs. When [LMA is offline](#reclassifications), aircraft will contact OLW for transit through the surrounding civilian airspace.
 
