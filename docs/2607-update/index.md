@@ -89,6 +89,7 @@ Operations at Sydney (YSSY) are being adjusted to accommodate the new airport an
 - The Standard Assignable Departure Headings and Departure Frequencies are also changing.
 - The lateral boundaries of the SY ADC CTR are also changing to match new CTA boundaries.
 - The Erskineville and Georges River Helicopter Coded Clearances have been retired, as has the Harbour Scenic Two route.
+- The R405 restricted area (over Sydney Harbour & the Parramatta River) is being retired, replaced with R407. R407 has similar, but not identical, boundaries.
 
 Please see the **[Upcoming Sydney (YSSY) SOPs](./sydney-ad)** for full details about aerodrome operations.
 
