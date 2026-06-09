@@ -790,7 +790,7 @@ Standard [Radar to TCU](../controller-skills/coordination.md#radar-position-tcu-
 SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005`.
 
 #### ACD to SY TCU
-The controller assuming responsibility of **SY ACD** shall give [heads-up coordination](../controller-skills/coordination.md#airways-clearance) to the relevant SY TCU controller prior to the issue of the following clearances: 
+The controller assuming responsibility of **SY ACD** shall give [heads-up coordination](../../controller-skills/coordination/#airways-clearance) to the relevant SY TCU controller prior to the issue of the following clearances: 
 
 - VFR departures, other than helicopters assigned a helicopter route coded clearance  
 - Aircraft using a runway not on the ATIS
@@ -910,7 +910,7 @@ The Standard Assignable level from RI ADC to SRA is:
 | All Aircraft     | The lower of `A060` and `RFL` |
 
 ### SMC to TCU
-The controller assuming responsibility of **SMC** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to SRA (or the enroute controller responsible for the SY TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
+The controller assuming responsibility of **SMC** shall give [heads-up coordination](../../controller-skills/coordination/#airways-clearance) to SRA (or the enroute controller responsible for the SY TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
 
 !!! phraseology
     <span class="hotline">**RI SMC** -> **SRA**</span>: "PSSM31 requests clearance to M742"  
@@ -918,7 +918,7 @@ The controller assuming responsibility of **SMC** shall give [heads-up](../../..
     
 ### WS ADC
 #### ACD to SY TCU
-The controller assuming responsibility of **WS ACD** shall give [heads-up](../../controller-skills/coordination/#airways-clearance) coordination to SWA prior to the issue of the following clearances: 
+The controller assuming responsibility of **WS ACD** shall give [heads-up coordination](../../controller-skills/coordination/#airways-clearance) to SWA prior to the issue of the following clearances: 
 
 - VFR departures
 - Aircraft with `ADES` YSSY, YSBK, YSCN, YSRI, or YSHW
@@ -946,4 +946,4 @@ The Standard Assignable level from WS ADC to SWA is:
 | Non-Jets | The lower of `A030` and `RFL` |
 
 ### NW TCU
-All aircraft transiting between SY TCU and NW TCU require [Heads-up](../controller-skills/coordination.md#heads-up) coordination prior to the boundary; however, as soon as practical (when the aircraft becomes airborne) is preferred. 
+All aircraft transiting between SY TCU and NW TCU require [heads-up coordination](../../controller-skills/coordination/#heads-up) prior to the boundary; however, as soon as practical (when the aircraft becomes airborne) is preferred. 
