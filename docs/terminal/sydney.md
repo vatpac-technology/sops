@@ -106,7 +106,7 @@ With a controller on SAS and an additional controller offering assistance, some 
     The Australia vatSys dataset includes a dedicated **Walton TCU** position with the SBA & SRA sectors extended automatically. This represents a recommended split but does not reflect the default jurisdiction of SWA.
 
 #### Sydney Centre (SYC)
-SYC is responsible for the provision of FIS in Class G airspace within the SY TMA. It is a role normally performed by DEPs but can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordation requirements](#between-syc-and-tcu) exist between SYC and other TCU positions.  
+SYC is responsible for the provision of FIS in Class G airspace within the SY TMA. It is a role normally performed by DEPs but can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordination requirements](#between-syc-and-tcu) exist between SYC and other TCU positions.  
 
 !!! example
     During a busy event, Sydney Departures is experiencing a high workload and wishes to delegate the SYC role to another TMA controller who isn't as busy.  SAN's sector is quiet, so they elect to perform the role.
@@ -119,7 +119,7 @@ SBA is responsible for the provision of ATS in Class D airspace adjacent the BK 
   <figcaption>SBA Airspace</figcaption>
 </figure>
 
-Key responsibilities in this airspace is the issuing of [Bankstown Coded Clearances](#bankstown-coded-clearances) and handling [IFR arrivals & departures](#ysbk-operations) at YSBK.
+Key responsibilities in this airspace are the issuing of [Bankstown Coded Clearances](#bankstown-coded-clearances) and handling [IFR arrivals & departures](#ysbk-operations) at YSBK.
 
 #### Walton Approach (SWA)
 SWA is responsible for the provision of ATS in the Class C airspace overhead & to the west of the WS CTR. Other than departures to the west, aircraft on a SID will need to be transferred to another TCU position prior to being transferred to enroute.
@@ -242,7 +242,7 @@ Aircraft will track via Class G airspace to LRF and contact SYC to request a ‘
 
 !!! phraseology
     **LOI**: "Sydney Centre, LOI, Piper Cherokee, LRF, `A015`, received T, request Harbour Scenic"  
-    **SYC:** "LOI, squawk 0542, remain clear of Class C airspace"  
+    **SYC:** "LOI, squawk 0542, remain outside class C airspace"  
     **LOI**: "Squawk 0542, remain OCTA, LOI"  
 
     <span class="hotline">**SYC** -> **SDN**</span>: "LRF, LOI, for Harbour Scenic"  
@@ -280,7 +280,7 @@ The **R481 COLO** [restricted area](../../controller-skills/sua/#restricted-area
 Multiple YSSY and YSWS procedures transit the R481 COLO restricted area. When the area is activated, **SRA** must be extremely vigilant to ensure separation between PJE and transiting civil aircraft. Where possible, **SRA** should coordinate with neighbouring **SY TCU** sectors to assign additional requirements to climb above the vertical limits of the activation, or have the aircraft rerouted to avoid the area.
 
 !!! phraseology
-	*UPS136 has departed YSSY on the STUIE SID, bound for the Phillipines. The R481 restricted area has been activated `A045-A090`.*   
+	*UPS136 has departed YSSY on the STUIE SID, bound for the Philippines. The R481 restricted area has been activated `A045-A090`.*   
     **SDN**: "UPS136, Sydney Departures, identified. Climb via SID to `F280`, requirement to reach `A100` by 5 miles URDOS."   
     **UPS136**: "Climb via SID to `F280`, requirement to reach `A100` by 5 miles URDOS, UPS136."  
 
@@ -294,7 +294,7 @@ Upon receiving a request from an aircraft at YSHW to activate the restricted air
 
 ## Departure and Arrival Procedures
 ### ANKUB Non-Jet SID
-The **ANKUB SID** is a unique departure that is assigned to non-jets planned via **KADOM** or **BENBU**. On this SID, **SY ADC** will give aicraft on this SID an assigned heading with their line up or takeoff clearance, in the same way as aircraft assigned the RADAR SID. The departures controller is then responsible for vectoring the aircraft to a waypoint to rejoin the procedure.
+The **ANKUB SID** is a unique departure that is assigned to non-jets planned via **KADOM** or **BENBU**. On this SID, **SY ADC** will give aircraft on this SID an assigned heading with their line up or takeoff clearance, in the same way as aircraft assigned the RADAR SID. The departures controller is then responsible for vectoring the aircraft to a waypoint to rejoin the procedure.
 
 !!! phraseology
 	*RXA6824 has departed YSSY Runway 16R on the ANKUB SID, KADOM transition, bound for YSDU.*  
@@ -318,7 +318,7 @@ RIVET/BOREE aircraft should only be assigned `A070` when an adjacent AKMIR/MEPIL
 All aircraft should be assigned no lower than `A060` until clear of the active runways' departure tracks.  This normally occurs once established on downwind (but changes based on runway config).
 
 !!! example
-    For an aircraft inbound from the north on the BOREE STAR to runway 34R, assign no lower than `A080` until any adjacent aircraft are maintaing `A060`, then `A070` until the aircraft are laterally clear.  The arrival should then be assigned `A060` until south of the field.
+    For an aircraft inbound from the north on the BOREE STAR to runway 34R, assign no lower than `A080` until any adjacent aircraft are maintaining `A060`, then `A070` until the aircraft are laterally clear.  The arrival should then be assigned `A060` until south of the field.
 
 Be mindful of departures from YSBK which may also impact aircraft on downwind for RWY 16R at YSSY.  Do not assign lower than `A040` until the aircraft is north/east of the BK CTR and clear of any departing traffic (who are assigned `A030` by default).
 
@@ -339,7 +339,7 @@ As a general rule, handoffs should occur once the aircraft has crossed any depar
 SFW/SFE should provide aircraft an approximate 'miles to run' on first contact, to allow the aircraft to plan their descent path.
 
 !!! tip
-    A typical downwind will take roughly 25 track miles from the normal point have handover from SAN/SAS to SFE/SFW.
+    A typical downwind will take roughly 25 track miles from the normal point of handover from SAN/SAS to SFE/SFW.
 
 !!! phraseology
     **SFE:** "QLK402, Sydney Director, descend to `A040`, 25 miles to run"
@@ -364,7 +364,7 @@ Aircraft inbound to YSWS from the north or east will pass through other SY TCU s
 !!! tip
     In practice, this is generally `A090` for aircraft inbound from the east and not below `A030` for aircraft inbound from the north, although with RWY 05 in use, descent conflicting with the standard assignable level (`A040`) should be avoided.
 
-For aircraft inbound from the north, SRA shall endeavour to hand off aircraft inbound to YSWS **as early as possible**, to allow SWA to to issue approach clearance. Additionally, SRA is assumed to have **no restrictions or requirements** for aircraft inbound to YSWS via a STAR (as some STARs clip SRA airspace).
+For aircraft inbound from the north, SRA shall endeavour to hand off aircraft inbound to YSWS **as early as possible**, to allow SWA to issue approach clearance. Additionally, SRA is assumed to have **no restrictions or requirements** for aircraft inbound to YSWS via a STAR (as some STARs clip SRA airspace).
 
 ### YSBK Operations
 #### Departures
@@ -399,7 +399,7 @@ A single STAR exists to process aircraft inbound to YSCN from the east, terminat
 The RNP-W commences inside CTA (except aircraft maintaining the MSA via SC2WA). SY TCU shall clear aircraft to leave CTA via the approach and transfer them to **CN ADC** no later than SC2WI. CN ADC will issue onwards clearance into the CN CTR.
 
 ### YWLM STARs
-YWLM arrivals from the south and west will transit the SY TCU as they descend. BIK/KAT will provide these aircraft with their STAR clearance and initial descent, before conduct heads-up coordination with the relevant SY TCU controller to facilitate further descent.
+YWLM arrivals from the south and west will transit the SY TCU as they descend. BIK/KAT will provide these aircraft with their STAR clearance and initial descent, before conducting heads-up coordination with the relevant SY TCU controller to facilitate further descent.
 
 IFR aircraft which depart from the SY TMA with ADES YWLM must be issued STAR clearance by SY TCU.
 
@@ -467,11 +467,11 @@ At night, pilots must be instructed to not descend below the relevant MVA until 
     **SFE:** "ANZ361, Turn right heading 305, join final runway 34R, from that heading cleared independent visual approach, not below `A015` until established on the PAPI"    
 
 #### SODPROPS
-Arriving aircraft must be established on final and transferred to the tower frequency no later than 10NM from touchdown.
+Arriving aircraft must be established on final and transferred to the tower frequency no later than 10nm from touchdown.
 
 ## Helicopter Operations
 ### Inbound/Outbound Routes
-Helicopters outbound from YSSY will make contact with the Departures controller established on a Helicopter Route.  Controllers need only identify the aircraft, as they will already be cleared to climb to a suitable level (generally not above `A010`) through their coded clearance.  Each clearance stipulates a point where identification and control services are automatically terminated, but controllers may explicitely cancel these services for new pilots who may not understand where they exit CTA.  
+Helicopters outbound from YSSY will make contact with the Departures controller established on a Helicopter Route.  Controllers need only identify the aircraft, as they will already be cleared to climb to a suitable level (generally not above `A010`) through their coded clearance.  Each clearance stipulates a point where identification and control services are automatically terminated, but controllers may explicitly cancel these services for new pilots who may not understand where they exit CTA.  
 
 You can find each Helicopter Route below, and full details are in the `ERSA FAC YSSY`. Additionally, the vatSys `SY_HELO` map displays an approximation of each route.
 
@@ -505,7 +505,7 @@ The helicopter route title should be recorded in the **global ops field** and th
 | WANDA 5 INBOUND | `YWAN DLPT` |
 
 !!! note
-    Some Helicopter Routes may conflict with fixed wing approach/departure paths, so use common sense to separate helicopters when required.  For example, during 34 PROPS, it may be more suitable for helicopters to track via the `CAPE BANKS 5 INBOUND` rather than taking the `MAROUBRA 5 INBOUND`, due to it's close proximity to the **MARUB SID**.  In any case, if pilots are unfamiliar with local landmarks, simplify your instructions to assist them while maintaining separation.
+    Some Helicopter Routes may conflict with fixed wing approach/departure paths, so exercise judgement to separate helicopters when required.  For example, during 34 PROPS, it may be more suitable for helicopters to track via the `CAPE BANKS 5 INBOUND` rather than taking the `MAROUBRA 5 INBOUND`, due to its close proximity to the **MARUB SID**.  In any case, if pilots are unfamiliar with local landmarks, simplify your instructions to assist them while maintaining separation.
 
 Inbound helicopters should transfer to **SY ADC** automatically (as per the coded clearance), however new pilots may need an explicit handoff.
 
@@ -714,7 +714,7 @@ All other aircraft coming from enroute CTA will be **Heads-up** coordinated to S
 
 ### SY TCU Internal
 #### SY / WS / RI
-Voiceless coordination is in place between SY APP/DEP (**SAN**, **SAS**, **SDN**, and **SDS**), **SWA** and **SRA** for aircraft that tracking via a SID/STAR, and descending/climbing via the procedures' altitude restrictions, assigned any sensible level.
+Voiceless coordination is in place between SY APP/DEP (**SAN**, **SAS**, **SDN**, and **SDS**), **SWA** and **SRA** for aircraft that are tracking via a SID/STAR, and descending/climbing via the procedures' altitude restrictions, assigned any sensible level.
 
 Any aircraft not meeting this requirement, including aircraft who have been issued additional altitude restrictions, **must** be prior coordinated.
 
@@ -746,7 +746,7 @@ Within 15 DME of SY, Departure controllers (**SDN** and **SDS**) can allow aircr
 
     Departure controllers should take extra caution when processing YSBK departures via OLSEM/WOL to ensure they reach `A100` prior to entering REP airspace.
 
-It is vital that Approach controllers ensure all arriving aircraft are established below `A090` no later than 20DME to avoid conflicting with departures utilising the airspace.  All STARs have height requirements which ensure this is achieved.  Aircraft inbound to YSBK or YSSY who are not cleared via a STAR should be instructed to reach `A090` by 20DME.
+It is vital that Approach controllers ensure all arriving aircraft are established below `A090` no later than 20DME to avoid conflicting with departures utilising the airspace.  All STARs have height requirements which ensure this is achieved.  Aircraft inbound to YSBK or YSSY that are not cleared via a STAR should be instructed to reach `A090` by 20DME.
 
 !!! info
     Circumstances like excessive weather deviation may make the use of REP impractical.  Controllers should coordinate with other TMA positions and suspend REP in this case.
@@ -780,7 +780,7 @@ Departing aircraft shall be handed to the most relevant TCU controller (generall
 There are no *standard assignable headings* for departures on the **BK (RADAR) SID**, although in almost all cases, **H310** will be suitable.
 
 ##### Arrivals
-IFR arrivals will be cleared direct to the IAF and handed to SBA assigned `A030`. [Heads up coordination](../controller-skills/coordination.md#heads-up) is required for these aircraft.
+IFR arrivals will be cleared direct to the IAF and handed to SBA assigned `A030`. [Heads-up coordination](../controller-skills/coordination.md#heads-up) is required for these aircraft.
 
 #### Between SYC and TCU
 Standard [Radar to TCU](../controller-skills/coordination.md#radar-position-tcu-controllers) coordination for each aircraft transiting between Class G and CTA (or vice versa).
@@ -790,7 +790,7 @@ Standard [Radar to TCU](../controller-skills/coordination.md#radar-position-tcu-
 SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005`.
 
 #### ACD to SY TCU
-The controller assuming responsibility of **SY ACD** shall give [heads-up](../controller-skills/coordination.md#airways-clearance) coordination to the relevant SY TCU controller prior to the issue of the following clearances: 
+The controller assuming responsibility of **SY ACD** shall give [heads-up coordination](../controller-skills/coordination.md#airways-clearance) to the relevant SY TCU controller prior to the issue of the following clearances: 
 
 - VFR departures, other than helicopters assigned a helicopter route coded clearance  
 - Aircraft using a runway not on the ATIS
@@ -887,7 +887,7 @@ CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a
 #### Arrivals
 SY TCU must heads-up coordinate inbound IFR aircraft prior to **5 mins** from the boundary. CN ADC is responsible for issuing a clearance into the CN CTR and for coordination with SY TCU in the event of a missed approach (or on completion of airwork if applicable).
 
-SY TCU will clear aircraft leave controlled airspace via the approach and will transfer aircraft to **CN ADC** prior to `SC2WI`.  **CN ADC** shall issue airways clearance on first contact in accordance with the table below.  
+SY TCU will instruct to aircraft leave controlled airspace via the approach and will transfer aircraft to **CN ADC** prior to `SC2WI`.  **CN ADC** shall issue airways clearance on first contact in accordance with the table below.  
 
 !!! phraseology
     <span class="hotline">**SYC** -> **CN ADC**</span>: "via RNP W, HRP"  
@@ -946,4 +946,4 @@ The Standard Assignable level from WS ADC to SWA is:
 | Non-Jets | The lower of `A030` and `RFL` |
 
 ### NW TCU
-All aircraft transiting between SY TCU and NW TCU require [Heads-up](../controller-skills/coordination.md#heads-up) coordination prior to the boundary; however, as soon as practical (when is the aircraft becomes airborne) is preferred. 
+All aircraft transiting between SY TCU and NW TCU require [Heads-up](../controller-skills/coordination.md#heads-up) coordination prior to the boundary; however, as soon as practical (when the aircraft becomes airborne) is preferred. 
