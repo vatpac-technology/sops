@@ -173,7 +173,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 #### Airspace
 SY TCU is responsible for the airspace within a 45nm radius of TESAT, `SFC` to `F285`.
 
-Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAN**, **SDN**, **SDS** and/or **SRI** are online.
+Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when any child position of **SAS** is online.
 
 #### Arrivals/Overfliers
 **Heads-up** Coordination required for all aircraft entering SY TCU from WOL CTA prior to **20nm** from the boundary.
