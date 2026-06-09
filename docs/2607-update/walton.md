@@ -38,7 +38,7 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 
 | Priority - Mode | Arrivals  | Departures |
 | ----------------| --------- | ---------- |
-| 1 - 23          | 23        | 25         |
+| 1 - 23          | 23        | 23         |
 | 2 - 05          | 05        | 05         |
 | * RRO        | 05        | 23         |
 
