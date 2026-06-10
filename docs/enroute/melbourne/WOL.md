@@ -233,29 +233,27 @@ All other aircraft coming from WOL CTA must be **Heads-up** Coordinated to CB TC
 
 ### NW TCU
 #### Airspace
-The vertical limits of the NW TCU are `SFC` to `F125`, and up to `F300` in R420F when activated.
-
-Refer to [Nowra Airspace Releases](#nowra-r420f) for operations with R421 and/or R420F released.
+NW TCU owns the Class C airspace within the R421A and R421B restricted areas `SFC` to `F125`.
 
 #### Arrivals/Overfliers
-Voiceless for all aircraft:
+Voiceless for aircraft:
 
-- With ADES **YSNW**; and   
-- Tracking direct to the NWA TACAN or YSNW; and  
+- With ADES **YSNW**; and 
+- Tracking via **NWA** or **NWR**; and  
 - Assigned `F130`
 
-All other aircraft coming from WOL CTA must be **Heads-up** Coordinated to NW TCU prior to **20nm** from the boundary.
-
-!!! note
-    With R420F released to NW TCU, the majority of aircraft tracking via the NWA TACAN will need to be heads up coordinated as per above.
+All other aircraft coming from WOL CTA will be **heads-up** coordinated to NW TCU.
 
 #### Departures
-Voiceless for all aircraft:
- 
-- Tracking via a published airway; and  
+Voiceless for aircraft:
+
+- Tracking via a Procedural SID terminus; and
 - Assigned the lower of `F120` or the `RFL`
 
-All other aircraft going to WOL CTA will be **Heads-up** Coordinated by NW TCU.
+!!! note
+    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**.
+
+All other aircraft going to WOL CTA must be **heads-up** coordinated by NW TCU prior to the boundary.
 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
