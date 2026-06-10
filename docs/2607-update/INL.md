@@ -330,7 +330,7 @@ The M661A-B, M641, and R638A-C Evans Head SUAs are located south of YBNA within 
 Aircraft departing the AMB TCU will be cleared the **BYRON 1** coded clearance. Aircraft returning to the TCU will be cleared the **BYRON 2** coded clearance by INL.
 
 ##### Affected Civil Operations
-When activated, the restricted areas distrupt traffic within [BAA airspace](#runway-06-arrivals), aircraft arriving [YBCG via BERNI](#berni-transitions), and aircraft on the **T53** and **P880** high altitude airways, which connect the BN TMA to New Zealand.
+When activated, the restricted areas disrupt traffic within [BAA airspace](#runway-06-arrivals), aircraft arriving [YBCG via BERNI](#berni-transitions), and aircraft on the **T53** and **P880** high altitude airways, which connect the BN TMA to New Zealand.
 
 | Planned Airway | ERSA Recommended Rerouting |
 | -------------- | -------------------------- |

@@ -77,8 +77,8 @@ All runways are considered independent unless a **multi-engined or jet aircraft*
 ### Opposite Bases (Arrivals Only)
 Due to the risk of collision, aircraft in each circuit should be staggered on base/final when operating in close proximity. Controllers should allow at least one aircraft to become established on final prior to the second commencing their turn to final, and pass mutual traffic information to both pilots.
 
-!!! phraseology
-   **BK ADC:** "FWC, traffic is a King Air, late right base for runway centre"
+!!! phraseology 
+    **BK ADC:** "FWC, traffic is a King Air, late right base for runway centre"  
 
 ### Holding Aircraft Between Runways
 All aircraft should remain on ADC frequency when between runways.
