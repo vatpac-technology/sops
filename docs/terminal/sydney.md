@@ -264,13 +264,14 @@ Pilots intending to track southbound via Victor One after completing the Harbour
 Pilots are required to reach `A005` prior to South Head and will report maintaining `A005`, when their control services may be terminated.
 
 ### Special Use Airspace
+<figure markdown>
+![SUA in the SY TMA](img/sy_sua.png){ width="700" }
+  <figcaption>SUA in the SY TMA</figcaption>
+</figure>
+
+
 #### Richmond SUA
 There are multiple [restricted areas](../../controller-skills/sua/#restricted-areas) within the TMA associated with military operations at YSRI. The restricted areas are all located within **SRA** airspace.
-
-<figure markdown>
-![Richmond SUA in the SY TMA](img/ri_sua.png){ width="700" }
-  <figcaption>Richmond SUA in the SY TMA</figcaption>
-</figure>
 
 **RI SMC** will coordinate the [activation of these SUAs](#smc-to-tcu) with SY TCU **prior** to any activity.
 
@@ -287,10 +288,15 @@ Multiple YSSY and YSWS procedures transit the R481 COLO restricted area. When th
 !!! warning "Important"
     When the R481 COLO airspace is activated and Runway 34L is in use for departures at YSSY, it is **strongly recommended** that **SRA** arrange to receive "heads-up" coordination from **SDN** of any aircraft departing via the **STUIE** or **AVMOV** SIDs.
     
-##### R555A-F Holsworthy
+#### R555A-F Holsworthy
 The **R555A-F Holsworthy** [restricted areas](../../controller-skills/sua/#restricted-areas) are located underneath and within the SY TMA, around Holsworthy Army Barracks (YSHW).
 
 Upon receiving a request from an aircraft at YSHW to activate the restricted airspace, **SYC** shall coordinate activation with any other affected SY TCU controller.
+
+#### M442A-B and M444A-B Tasman Sea
+The **M442A-B and M444A-B Tasman Sea** [MOAs](../../controller-skills/sua/#military-operating-areas) are located underneath and within the SY TMA, overwater east of YSSY. These SUA are generally associated with naval operations based out of Potts Point, with associated air support from YSNW.
+
+Activation of the SUA is a responsibility of **SYC**. Upon receiving a request from an aircraft to activate the restricted airspace, controllers shall coordinate activation with **SYC**.
 
 ## Departure and Arrival Procedures
 ### ANKUB Non-Jet SID
