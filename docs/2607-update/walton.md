@@ -194,6 +194,3 @@ The controller assuming responsibility of **WS ACD** shall give [heads-up](../..
 - VFR departures
 - Aircraft with `ADES` YSSY, YSBK, YSCN, YSRI, or YSHW
 - Aircraft using a runway not on the ATIS
-
-### SY ADC
-#### Airspace

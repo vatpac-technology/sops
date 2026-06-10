@@ -211,7 +211,7 @@ Aircraft transiting the Thunder Corridor should be assigned the appropriate alti
 | STORM 2         | `F130`   |
 
 ##### Affected Civil Operations
-When activated these restricted areas distrupt traffic on the **Q16**, **Q235**, **Q293**, and **Y46** high altitude airways, used by aircraft travelling between YPAD-YBBN, and YSSY-North Queensland/East Asia.
+When activated these restricted areas disrupt traffic on the **Q16**, **Q235**, **Q293**, and **Y46** high altitude airways, used by aircraft travelling between YPAD-YBBN, and YSSY-North Queensland/East Asia.
 
 | Planned Airway | ERSA Recommended Rerouting |
 | -------------- | -------------------------- |
