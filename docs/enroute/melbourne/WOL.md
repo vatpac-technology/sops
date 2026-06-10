@@ -248,7 +248,7 @@ All other aircraft coming from WOL CTA will be **heads-up** coordinated to NW TC
 Voiceless for aircraft:
 
 - Tracking via a Procedural SID terminus; and
-- Assigned the lower of `F120` or the `RFL`
+- Assigned the lower of `A100` or the `RFL`
 
 !!! note
     Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**.
