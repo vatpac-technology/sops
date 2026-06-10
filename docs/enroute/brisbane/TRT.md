@@ -124,7 +124,7 @@ Aircraft will generally enter and exit the MOA via the appropriate [military gat
 ##### Affected Civil Operations
 When activated, the restricted areas disrupt traffic on the busy **A339**, **A576**,  **T20**, and **T29** high altitude airways which are used by aircraft travelling between Australia and south-east Asia.
 
-Activation also significantly distrupts traffic travelling in and out of YBRM. Aircraft may be given an additional requirement to climb above, or descend below the vertical limits of the activation, or rerouted manually to avoid the area.
+Activation also significantly disrupts traffic travelling in and out of YBRM. Aircraft may be given an additional requirement to climb above, or descend below the vertical limits of the activation, or rerouted manually to avoid the area.
 
 #### R225A-F and R250 Tindal
 The R225A-F and R250 Tindal restricted areas form the western part of the Tindal Flying Training Area, and are located entirely within the TRS subsector. The areas are used for a variety of training purposes, including supersonic flight.
@@ -132,7 +132,7 @@ The R225A-F and R250 Tindal restricted areas form the western part of the Tindal
 The restricted areas directly adjoin the TN TMA, and aircraft will generally enter and exit the areas via the appropriate [military gate](../../../terminal/tindal/#military-gates)
 
 ##### Affected Civil Operations
-When activated, the restricted areas distrupt traffic on the **A461** high altitude airway which connects YPDN and YBAS. Aircraft may be given an additional requirement to climb above the vertical limits of the activation, or rerouted manually to avoid the area.
+When activated, the restricted areas disrupt traffic on the **A461** high altitude airway which connects YPDN and YBAS. Aircraft may be given an additional requirement to climb above the vertical limits of the activation, or rerouted manually to avoid the area.
 
 #### R226A-B Tindal
 The R226A-B restricted areas are the easternmost segments of the Tindal Flying Training Area, entirely within the TRS subsector.

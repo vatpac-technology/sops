@@ -18,7 +18,7 @@
 
 <figure markdown>
 ![Wollongong Airspace](../img/enr_diagrams/wol.png){ width="500" }
-  <figcaption>Bindook Airspace</figcaption>
+  <figcaption>Wollongong Airspace</figcaption>
 </figure>
 
 ### Reclassifications
