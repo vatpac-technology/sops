@@ -18,7 +18,7 @@
 
 <figure markdown>
 ![Wollongong Airspace](../img/enr_diagrams/wol.png){ width="500" }
-  <figcaption>Bindook Airspace</figcaption>
+  <figcaption>Wollongong Airspace</figcaption>
 </figure>
 
 ### Reclassifications
@@ -29,10 +29,7 @@
 		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
 === "NW CTR"
-	When **NWA** is offline, the NW MIL CTR and restricted airspace within R421 is deactivated and the airspace is administered by WOL.
-
-	!!! tip
-        Consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
+	The restricted airspace around YSNW is classified as Class G by default, and is only reclassified as controlled airspace when **NWA** is online. When **NWA** is offline, the area remains Class G, and is administered by WOL.
 
 ## Departure and Arrival Procedures
 ### YMES
@@ -64,8 +61,8 @@ Sequencing arrivals from the east and northeast into YSCB is a responsibility of
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YSCB. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
 
 | Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
-| ---- | ---- | ---- |
-| MANDA | NONUP | Jets: 3 min<br>Non-Jets: 4 min |
+| ------ | ---------- | ---- |
+| MANDA  | NONUP      | Jets: 3 min<br>Non-Jets: 4 min |
 | Others | Feeder Fix | - |
 
 ##### Adjacent Feeder Fixes
@@ -74,19 +71,42 @@ Aircraft assigned the **same runway** inbound via **LEECE** and **BUNGO**, must 
 ### YSNW
 WOL is responsibile for facilitating operations in and out of YSNW.
 
-## Special Use Airspace
-### Restricted Areas
-#### Nowra R420F
-During times of high traffic, NW TCU may request the release of R420F up to `F300`.
+## Local Procedures
+### Special Use Airspace
+
+There are multiple volumes of [SUA](../../../controller-skills/sua) within WOL airspace associated with military operations in and out of YSNW.
+
+<figure markdown>
+![Notable SUA in WOL Airspace](../img/wol_sua.png){ width="700" }
+  <figcaption>Notable SUA in WOL Airspace</figcaption>
+</figure>
+
+Each TCU must [give heads up coordination](../../../controller-skills/coordination/#airways-clearance) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
 
 !!! phraseology
-    <span class="hotline">**NWA** -> **WOL**</span>: "There's a preplanned military exercise about to commence, request release of R420F up to F300"  
-    <span class="hotline">**WOL** -> **NWA**</span>: "R420F released to you F125 to F300"  
-    <span class="hotline">**NWA** -> **WOL**</span>: "R420F released F125 to F300" 
+    <span class="hotline">**NWA** -> **WOL**</span>: "On the groud YPTN, SWFH12, requests activation of R420F `F125-F300`, from 0300 until 0500.”  
+    <span class="hotline">**WOL** -> **NWA**</span>: "SWFH12, expect activation of R420F `F125-F300` at 0300 until 0500."   
+    <span class="hotline">**NWA** -> **WOL**</span>: "SWFH12."   
 
-With R420F released to NW TCU, transiting aircraft will need to be coordinated or rerouted. Every effort will be made to accommodate these aircraft on track, but if NW TCU can't accommodate them, they must be vertically or laterally rerouted to avoid the restricted area. NW TCU will communicate this requirement.
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../sua/#ad-hoc-activations).
 
-See [Nowra Airspace](../../../terminal/nowra/#airspace) for more details about the lateral boundaries of the Nowra restricted areas.
+#### R420F Nowra
+The R420F Nowra [restricted area](../../../controller-skills/sua/#restricted-areas) are located over YSNW, `F125-F300`, located entirely in WOL airspace. 
+
+The resricted area sits directly above the NWA TMA and when NWA is online aircraft will be transferred directly to/from the SUA. When [NWA is offline](#reclassifications), aircraft will contact WOL for transit through the surrounding civilian airspace.
+
+##### Affected Civil Operations
+When activated, the restricted areas disrupt traffic on the **H20** and **H536** high altitude airways which are used by aircraft travelling between YSSY and Tasmania.
+
+Aircraft may be given an additional requirement to climb above the vertical limits of the activation, or rerouted manually to avoid the area.
+
+!!! tip  
+    Activation of the R420F **significantly increases** the workload for **WOL** and **SDS**, as the airspace available for YSSY departures via WOL. During peak periods (such as [Milk Run Monday](../../../events/milkrun)), activation of the restricted area should not be approved.
+    
+#### M440-P Tasman Sea
+The M440-P Tasman Sea [MOAs](../../../controller-skills/sua/#military-operating-areas) are located east of YSNW and extend into the Tasman Sea, `NOTAM-NOTAM`, located entirely in WOL airspace. 
+
+The restricted area sits directly above the NWA TMA and when NWA is online aircraft will be transferred directly to/from the SUA. When [NWA is offline](#reclassifications), aircraft will contact WOL for transit through the surrounding civilian airspace.
 
 ## STAR Clearance Expectation
 ### Handoff
