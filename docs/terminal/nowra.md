@@ -49,6 +49,24 @@ This gives the enroute controller sufficient time to assess the request, make ne
     The requirement to coordinate activation of an SUA is in **addition** to existing coordination requirements. [**Heads-up** coordination](#departures) is still required for these aircraft if they do not meet the voiceless coordination criteria.
 
 ## Local Procedures
+#### Chopper Areas
+Helicopters performing operations within 5nm YSNW ARP may be assigned one of four '**Choppers**' areas.
+
+<figure markdown>
+![Helicopter Operating Areas within NW TMA](../../aerodromes/classc/img/nw_choppers.png){ width="600" }
+  <figcaption>Helicopter Operating Areas within NW TMA</figcaption>
+</figure>
+
+| Choppers Area  | Dimensions                             | Altitude         |
+| -------------- | -------------------------------------- | ---------------- |
+| Choppers North | North of Runway 08/26, within 5nm YSNW | Not above `A015` |
+| Choppers South | South of Runway 08/26, within 5nm YSNW | Not above `A015` |
+| Choppers East  | East of Runway 03/21, within 5nm YSNW  | Not above `A015` |
+| Choppers West  | West of Runway 03/21, within 5nm YSNW  | Not above `A015` |
+    
+!!! note
+	Choppers East/West and North/South should not be used simultaneously.
+    
 ### Initial and Pitch
 The [intial points](../../controller-skills/military/#initial-and-pitch) are on the dead side of each runway at the following locations.
 
