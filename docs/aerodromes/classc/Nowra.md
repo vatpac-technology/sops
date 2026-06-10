@@ -91,7 +91,7 @@ Helicopters performing operations within 5nm YSNW ARP may be assigned one of fou
 
 ### Operating Areas
 <figure markdown>
-![YSNW Operating Areas](img/nw_operating_area.png){ width="600" }
+![YSNW Operating Areas](img/nw_operating_areas.png){ width="600" }
   <figcaption>YSNW Operating Areas</figcaption>
 </figure>
 
