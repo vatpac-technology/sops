@@ -13,7 +13,7 @@
     Nowra TCU is a [military TCU](../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those in a civil TCU. Ensure you are familiar with the [military controller skills](../../controller-skills/military) necessary to provide a quality service.
 
 ## Airspace
-NW TCU owns the Class C and G airspace NW MIL CTR from `SFC` to `F125`
+NW TCU owns the Class C airspace within the R421A and R421B restricted areas `SFC` to `F125`.
 
 <figure markdown>
 ![NW TCU Structure](img/nw_tcu.png){ width="952" }
@@ -53,7 +53,7 @@ This gives the enroute controller sufficient time to assess the request, make ne
 Helicopters performing operations within 5nm YSNW ARP may be assigned one of four '**Choppers**' areas.
 
 <figure markdown>
-![Helicopter Operating Areas within NW TMA](../../aerodromes/classc/img/nw_choppers.png){ width="600" }
+![Helicopter Operating Areas within NW TMA](../aerodromes/classc/img/nw_choppers.png){ width="600" }
   <figcaption>Helicopter Operating Areas within NW TMA</figcaption>
 </figure>
 
