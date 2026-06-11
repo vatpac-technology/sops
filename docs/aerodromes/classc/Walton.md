@@ -152,11 +152,11 @@ YSWS uses four different SID designators to differentiate between different vari
 
 ## ATIS
 ### Operational Info
-The OPR INFO field should be updated to reflect the level of controlled airspace within the SY C10 area when it is lowered overnight.
+The OPR INFO field should be updated to reflect the level of controlled airspace within the [SY CTA C10](../../../terminal/sydney/#sydney-cta-c10) airspace when it is lowered overnight.
 
 | Condition    | OPR INFO Field |
 | ------------ | -------------- |
-| Between 2300 and 0600 Local   | `SY CTA 10 SOUTH OF WS CTR ACTIVE` |
+| Between 2300 and 0600 Local   | `SY CTA C10 SOUTH OF WS CTR ACTIVE` |
 
 #### ACD Pushback Requests
 When implementing the ['Pushback Requests on ACD'](../../../controller-skills/grounddelaymanagement/#pushback-requests-on-acd) procedure, the OPR INFO shall include:
