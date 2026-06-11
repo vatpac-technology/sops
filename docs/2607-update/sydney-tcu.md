@@ -187,11 +187,12 @@ Traffic advisory statements should be given to aircraft where appropriate and, i
 #### Departures
 Departures will be cleared for a coded clearance by **BK SMC** and will contact SBA at the CTR boundary.
 
-| Coded Clearance    | Route             | Altitude | 
-| ------------------ | ------------------- | ------ | 
-| Hornsby Outbound   | `PRT MFGC PENH HSY` | `A015` |
-| Mount Annan Outbound | `HXPR EMPS MAGG`  | `A015` |
-| Penrith Outbound   | `PRT SITS VCBR`     | `A015` |
+| Coded Clearance      | Route               | Altitude | Notes |
+| -------------------- | ------------------- | -------- | ----- |
+| Hornsby Outbound     | `PRT CFCR PENH HSY` | `A015` to CFCR, thence `A018` |  |
+| Mount Annan Outbound | `HXPR EMPS MAGG`    | `A015`   |       |
+| Penrith Outbound     | `PRT SITS VCBR`     | `A015`   |       |
+| Woronora Outbound    | `REVS CASO WORC`    | `A015`   | Day Only |
 
 !!! phraseology
     **UNY**: "Bankstown Approach, Diamond UNY, passing `A011`, climbing to `A015`"   
@@ -199,14 +200,17 @@ Departures will be cleared for a coded clearance by **BK SMC** and will contact 
 
 Each coded clearance includes a frequency transfer and control service termination instruction. No explicit instructions should be given to these aircraft.
 
+!!! warning "Important"
+    When a Super aircraft is arriving **Runway 07** at YSSY, there is no wake turbulence separation between aircraft on the **Woronora Outbound** coded clearance. **SBA** must take extra steps to ensure wake turbulence separation when Runway 07 is in use at YSSY.
+
 #### Arrivals
 Arrivals shall contact **SYC** for identification prior to entering CTA. SYC shall provide a squawk code and identify the aircraft, perform normal [Radar Position to TCU coordination](../controller-skills/coordination.md#radar-position-tcu-controllers) to **SBA**, then issue frequency transfer.
 
-| Coded Clearance    | Route             | Altitude | 
-| ------------------ | ------------------- | ------ | 
-| Brooklyn Inbound   | `BBG CAST PSP`      | `A015` |
-| Lighthorse Inbound | `NPBR LIHR PSP`     | `A015` |
-| St Helens Inbound  | `SSKP CRST CRSC`   | `A015` |
+| Coded Clearance    | Route               | Altitude | 
+| ------------------ | ------------------- | -------- | 
+| Brooklyn Inbound   | `BBG BEE CAST BKHR PSP` | `A018` to BEE, thence `A015` by BKHR  |
+| Lighthorse Inbound | `NPBR LIHR PSP`     | `A015`   |
+| St Helens Inbound  | `SSKP CRST CRSC`    | `A015`   |
 
 Establishing two-way communication with a VFR aircraft constitutes a clearance to enter CTA as requested. Where a squawk code has not yet been issued, this should also be performed.
 
