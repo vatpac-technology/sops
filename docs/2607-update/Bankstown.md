@@ -24,7 +24,7 @@ BK ADC is responsible for the Class D airspace in the BK CTR `SFC` to `A015`.
   <figcaption>BK ADC Airspace</figcaption>
 </figure>
 
-Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
+Refer to [Class D Tower Separation Standards](../../separation-standards/classd) for more information.
 
 ### Dual ADC Operations
 When Bankstown ADC (Circuit) is online, responsibility for the **runway**, **circuit**, and **airspace** is divided between the two ADC controllers.
@@ -34,6 +34,7 @@ ADC North takes responsibility for the northern runways, circuit and airspace (R
 ADC (Circuit) takes responsibility for the southern runway, circuit and airspace (Runway **11R/29L**), **not above A010**
 
 ADC (Circuit) is **not permitted** online when *single runway* operations are in use.
+
 
 Refer to the [ATIS section](#runway-mode-formatting) for information on ATIS formatting when ADC (Circuit) is online.
 
@@ -57,7 +58,7 @@ SMC shall assess the number of aircraft operating in, or intending to operate in
 
 !!! tip
     Some pilots may be unfamiliar with Bankstown's start approval requirement. Controllers should facilitate these aircraft movements with as little delay as possible.
-
+    
 ### Adjacent Runways
 Due to the close proximity of all three runways, there are additional considerations which must be applied between adjacent runway operations.
 
@@ -85,13 +86,13 @@ All aircraft should remain on ADC frequency when between runways.
 The largest aircraft that can safely hold between runways is a BE20 (King Air). All larger aircraft are considered to be occupying the runway behind until clear of all active runways.
 
 !!! note
-    All helicopters are considered to be larger than a King Air for the purpose of separation.
+    All helicopters are considered to be larger than a King Air for the purpose of separation. 
 
 ## VFR Operations
-Coded clearances are used to provide standardised routing for VFR aircraft arriving and departing YSBK while transiting SBA Class D airspace.
+Coded clearances are used to provide standardised routing for VFR aircraft arriving and departing YSBK while transiting Class D SY TCU airspace.
 
 <figure markdown>
-![Bankstown Coded Clearances](../../terminal/img/bankstown_coded.png){ width="700" }
+![Bankstown Coded Clearances](img/bankstown_coded.png){ width="700" }
   <figcaption>Bankstown Coded Clearances</figcaption>
 </figure>
 
@@ -129,8 +130,8 @@ These aircraft will report ready to **BK ADC** with their departure intentions. 
 
     | Coded Clearance                       | Tracking       | 
     | ------------------------------------- | --------------------- |
-    | Mount Annan Outbound                  | <ul><li>At `A005`, turn left downwind, track to Dunc Gray Velodrome, climb to `A015`.</li><li>At Dunc Gray Velodrome and not before reaching `A015`, track to intersection of Hoxton Park Rd & M7.</li><li>Track via Mount Annan Outbound.</li></ul> |
-    | Hornsby Outbound, or<br>Penrith Outbound  | <ul><li>Climb to `A005`, then turn left direct to PRT, climb to `A015`.</li><li>Track via nominated coded clearance.</li></ul> |
+    | Mount Annan Outbound                  | <ul><li>At `A005`, turn left downwind, track to Dunc Gray Velodrome, climb to `A015`.</li><li>At Dunc Gray Velodrome and not before reaching `A015`, track to intersection of Hoxton Park Rd & M7.</li><li>Track via Mount Annan Outbound.</li></ul>
+    | Hornsby Outbound, or<br>Penrith Outbound  | <ul><li>Climb to `A005`, then turn left direct to PRT, climb to `A015`.</li><li>Track via nominated coded clearance.</li></ul>
     | Woronora Outbound                     | As directed by ATC to REVS, climb to `A015`. |
 
 === "Departure RWY 29"
@@ -217,7 +218,7 @@ IFR aircraft shall be assigned a SID corresponding to their direction of travel.
 
 Pilots who are unable to accept a procedural SID shall be cleared the **BK (RADAR) SID**.
 
-## Circuits
+### Circuits
 The circuit direction changes depending on time of day and runway being used.
 
 | Runway | Day   | Night |
@@ -229,7 +230,7 @@ The circuit direction changes depending on time of day and runway being used.
 | 29C    | Right | Left  |
 | 29R    | Right | -     |
 
-Circuits are flown at `A010`.
+Circuits are flown at `A010`
 
 ## ATIS
 ### Runway Mode Formatting
@@ -252,7 +253,7 @@ The volume of airspace adjacent to the WS CTR overhead Camden (known as **SY CTA
 
 ## Coordination
 ### Departures
-[Next](../../../controller-skills/coordination/#next) coordination is **not** required for aircraft that are:   
+[Next](../../controller-skills/coordination/#next) coordination is **not** required for aircraft that are:   
 
 - VFR aircraft departing via a [coded clearance](#vfr-outbound-procedures)
 
@@ -267,7 +268,7 @@ The Standard Assignable level from **BK ADC** to **SBA** is:
 ### Arrivals/Overfliers
 SBA will heads-up coordinate arrivals/overfliers from Class C to BK ADC prior to **5 mins** from the boundary.
   
-IFR aircraft will be cleared for the instrument prior to handoff to BK ADC, unless BK ADC nominates a restriction.
+IFR aircraft will be cleared for the instrument prior to handoff to BK ADC, unless BK ADC nominates a restriction.  
 
 !!! phraseology
     <span class="hotline">**SBA** -> **BK ADC**</span>: "To the west, UJN, for the RNP-Z"  
@@ -275,7 +276,7 @@ IFR aircraft will be cleared for the instrument prior to handoff to BK ADC, unle
 
 !!! tip
     Remember that IFR aircraft are only separated from other IFR or SVFR aircraft in class D. You should *generally* be able to issue a clearance for an approach and use other separation methods (visual separation, holding a departure on the ground, etc) if separation is required with these aircraft.
-
+    
 #### ADC (Circuit) Online
 When ADC (Circuit) is online, SY TCU may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
 

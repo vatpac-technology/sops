@@ -185,7 +185,7 @@ Departures will be cleared for a coded clearance by **BK SMC** and will contact 
 | Coded Clearance      | Route               | Altitude | Notes |
 | -------------------- | ------------------- | -------- | ----- |
 | Hornsby Outbound     | `PRT CFCR PENH HSY` | `A015` to CFCR, thence `A018` |  |
-| Mount Annan Outbound | `HXPR EMPS MAGG`    | `A015`   |       |
+| Mount Annan Outbound | `HXPR EMPS MAGG`    | `A015` to EMPS, thence `A025` |  |
 | Penrith Outbound     | `PRT SITS VCBR`     | `A015`   |       |
 | Woronora Outbound    | `REVS CASO WORC`    | `A015`   | Day Only |
 
