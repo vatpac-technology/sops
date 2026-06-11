@@ -81,7 +81,7 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, **BAC*
 	</figure>
 
 #### Brisbane Radar (SHN)
-SHN is responsible for the provision of FIS in Class G airspace within the BN TMA. The role can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordation requirements](#between-shn-and-tcu) exist between SHN and other TCU positions.  
+SHN is responsible for the provision of FIS in Class G airspace within the BN TMA. The role can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordination requirements](#between-shn-and-tcu) exist between SHN and other TCU positions.  
 
 !!! example
     During a busy event, BAN is experiencing a high workload and wishes to delegate the SHN role to another controller who isn't as busy. BDN has a low workload and elects to perform the role.

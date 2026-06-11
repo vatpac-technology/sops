@@ -103,7 +103,7 @@ MAV extends south outside of **30nm ML**, in to HUO(WON) airspace. The Southern 
 </figure>
 
 #### Melbourne Radar (MAW)
-MAW is responsible for the provision of FIS in Class G airspace within the ML TMA. It is a role normally performed by MAV but can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordation requirements](#between-maw-and-tcu) exist between MAW and other TCU positions.  
+MAW is responsible for the provision of FIS in Class G airspace within the ML TMA. It is a role normally performed by MAV but can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordination requirements](#between-maw-and-tcu) exist between MAW and other TCU positions.  
 
 !!! tip
     It is **not recommended** that the MAV and MAW positions are held by 2 separate controllers, due to the low traffic levels at Avalon. MAV should be opened in preference to MAW, unless traffic levels at Avalon require the role to be split.
