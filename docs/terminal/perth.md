@@ -49,7 +49,7 @@ The divisions of the airspace between **PHA**, and **PHD** change based on the R
 	</figure>
 	
 #### Perth Radar (PHR)
-PHR is responsible for the provision of FIS in Class G airspace within the PH TMA. The role can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordation requirements](#between-phr-and-tcu) exist between PHR and other TCU positions.  
+PHR is responsible for the provision of FIS in Class G airspace within the PH TMA. The role can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordination requirements](#between-phr-and-tcu) exist between PHR and other TCU positions.  
 
 !!! example
     During a busy event, PHA is experiencing a high workload and wishes to delegate the PHR role to another controller who isn't as busy. PHD has a low workload and elects to perform the role.
