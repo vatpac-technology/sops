@@ -647,26 +647,6 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     - The feeder fix for the RIKNI STAR is **MARLN**
 - All aircraft are tracking via the ILS
 
-### YSSY Calculator
-<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
-The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
-
-=== "Landing Time"
-    <div class="flowCalculatorLandingTime" data-aerodrome="YSSY"></div>
-
-=== "Feeder Fix Time"
-    <div class="flowCalculatorFeederFixTime" data-aerodrome="YSSY"></div>
-
-### YSWS Calculator
-<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
-The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
-
-=== "Landing Time"
-    <div class="flowCalculatorLandingTime" data-aerodrome="YSWS"></div>
-
-=== "Feeder Fix Time"
-    <div class="flowCalculatorFeederFixTime" data-aerodrome="YSWS"></div>
-
 ## Coordination
 ### Enroute
 #### Departures
