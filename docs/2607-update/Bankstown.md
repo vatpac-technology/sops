@@ -115,7 +115,7 @@ VFR aircraft intending to track via a coded clearance require an airways clearan
 | Coded Clearance      | Route               | Altitude | Notes |
 | -------------------- | ------------------- | -------- | ----- |
 | Hornsby Outbound     | `PRT CFCR PENH HSY` | `A015` to CFCR, thence `A018` |  |
-| Mount Annan Outbound | `HXPR EMPS MAGG`    | `A015`   |       |
+| Mount Annan Outbound | `HXPR EMPS MAGG`    | `A015` to EMPS, thence `A025` |  |
 | Penrith Outbound     | `PRT SITS VCBR`     | `A015`   |       |
 | Woronora Outbound    | `REVS CASO WORC`    | `A015`   | Day Only |
 
@@ -132,6 +132,7 @@ These aircraft will report ready to **BK ADC** with their departure intentions. 
     | ------------------------------------- | --------------------- |
     | Mount Annan Outbound                  | <ul><li>At `A005`, turn left downwind, track to Dunc Gray Velodrome, climb to `A015`.</li><li>At Dunc Gray Velodrome and not before reaching `A015`, track to intersection of Hoxton Park Rd & M7.</li><li>Track via Mount Annan Outbound.</li></ul>
     | Hornsby Outbound, or<br>Penrith Outbound  | <ul><li>Climb to `A005`, then turn left direct to PRT, climb to `A015`.</li><li>Track via nominated coded clearance.</li></ul>
+    | Woronora Outbound                     | As directed by ATC to REVS |
 
 === "Departure RWY 29"
 
@@ -139,6 +140,7 @@ These aircraft will report ready to **BK ADC** with their departure intentions. 
     | ------------------------------------- | --------------------- |
     | Mount Annan Outbound                  | <ul><li>Climb to `A010`.</li><li>Crossing Hume Highway, track to intersection of Hoxton Park Rd & M7, climb to `A015`.</li><li>Track via Mount Annan Outbound.</li></ul> |
     | Hornsby Outbound, or<br>Penrith Outbound  | <ul><li>Climb to `A005`, then turn right direct to PRT, climb to `A010`.</li><li>Crossing the pipeline (approx 3nm BK), climb to `A015`.</li><li>Track via nominated coded clearance.</li></ul> |
+    | Woronora Outbound                     | As directed by ATC to REVS |
 
 Aircraft departing will transfer to appropriate frequency upon leaving the zone, **no explicit frequency transfer is given to these aircraft**. 
 
