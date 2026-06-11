@@ -154,6 +154,68 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 	!!! tip
 		The quick reference tables above only include scenarios for which there is [voiceless coordination](#ad-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 
+## Local Procedures
+### Special Use Airspace
+There are multiple volumes of [SUA](../../../controller-skills/sua) within TBD airspace, mostly associated with military operations in and out of YPED.
+
+<figure markdown>
+![Notable SUA in TBD Airspace](../img/tbd_sua.png){ width="700" }
+  <figcaption>Notable SUA in TBD Airspace</figcaption>
+</figure>
+
+AD TCU must [give heads up coordination](../../../terminal/adelaide/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
+
+!!! phraseology
+    <span class="hotline">**AAW** -> **AUG**</span>: "On the groud YPED, STKR11, requests activation of R265A-F `SFC-F450`, from 0300 until 0500.”  
+    <span class="hotline">**AUG** -> **AAW**</span>: "STKR11, expect activation of R265A-F `SFC-F450` at 0300 until 0500."   
+    <span class="hotline">**AAW** -> **AUG**</span>: "STKR11."  
+
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../controller-skills/sua/#ad-hoc-activations).
+
+#### M201 Adelaide
+The M201 Adelaide [MOA](../../../controller-skills/sua/#military-operating-areas) is located off the coast, `SFC-F600` within TBD and ASP(FOR) airspace.
+
+##### Affected Civil Operations
+When activated the MOA disrupts traffic on the **T131**, **Q46**, **Q22**, and **Q158** high altitude airways, which connect YMML to Western Australia. Aircraft travelling on these airways should be manually rerouted around the SUA.
+
+#### R265A-F Edinburgh
+The R265A-F Edinburgh [restricted areas](../../../controller-skills/sua/#restricted-areas) are located north of the AD TMA, `SFC-NOTAM`.
+
+##### Affected Civil Operations
+When activated the restricted area disrupts traffic on the **H135** and **H246** airways, which connect the AD TMA to airports in South Australia and the Northern Territory.
+
+| Planned Airway | ERSA Recommended Rerouting |
+| -------------- | -------------------------- |
+| H153           | `... ACTIN V432 ...`<br>`... ASILI H84 ...`<br>`... DOTBO W325 ...` |
+| H246           | `... W238 ACTIN ...`<br>`... AREPA J58 WHA ...`<br>`... W426 UNSOX ...` |
+
+!!! note
+	Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../../controller-skills/sua/#separation-from-sua) laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../../controller-skills/sua/#controlled-airspace) clearance with all parts of the SUA.
+
+#### R279 Edinburgh
+The R279 Edinburgh [restricted area](../../../controller-skills/sua/#restricted-areas) is located overwater in Gulf St Vincent, `SFC-F250`, spanning AD TCU, AUG, and TBD airspace. Activation of R279 Edinburgh is a [shared responsibility](../../../controller-skills/sua/#activation-of-sua), and AD TCU, AUG, and TBD must coordinate before activation.
+
+##### Affected Civil Operations
+When activated the restricted area disrupts traffic on the **V175** low altitude airway, which connects Kangaroo Island to YPAD. Aircraft travelling on this airways should be separated from the SUA, easily achieved by clearing the aircraft direct ELROX.
+
+#### Cultana SUAs
+There are multiple volumes of SUA in the Port Augusta area associated with military flying activities, including:
+
+- **R259A-B Middleback** - `SFC - NOTAM`
+- **R302A-B Cultana** - `SFC - NOTAM`
+- **R303A-B Alamein** - `SFC - NOTAM`
+- **R304A-B Tank Hill** - `SFC - NOTAM`
+
+These SUAs are collectively referred to as **Cultana**.
+
+##### Affected Civil Operations
+When activated the restricted area disrupts traffic planned via WHA on any airway, as well as traffic in and out of Port Augusta (YPAG).
+
+Aircraft travelling between YPAG and Whyalla (YWHA) should be rerouted via `LATAP NODOL ELMEP SAMIN`, as necessary.
+
+!!! note
+	Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../../controller-skills/sua/#separation-from-sua) laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../../controller-skills/sua/#controlled-airspace) clearance with all parts of the SUA.
+
 ## Coordination
 ### AD TCU
 #### Airspace

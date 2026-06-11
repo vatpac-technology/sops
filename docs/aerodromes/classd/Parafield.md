@@ -20,7 +20,7 @@
 PF ADC is responsible for the Class D airspace in the PF CTR `SFC` to `A015`.
 
 <figure markdown>
-![PF ADC Airspace](img/PFTWR.png){ width="700" }
+![PF ADC Airspace](img/pf_ctr.png){ width="700" }
   <figcaption>PF ADC Airspace</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ Refer to the [ATIS section](#runway-mode-formatting) for information on ATIS for
 !!! warning "Important"
     Visually monitor all aircraft to ensure tracking South of **Bolivar Strobe** (located at the Southern tip of the EDN CTR), to ensure aircraft remain outside of EDN CTR. 
     <figure markdown>
-    ![Bolivar](img/bolivar.png){ width="400" }
+    ![Bolivar](img/pf_bolivar.png){ width="400" }
     </figure>
 
 ## Runway Modes
