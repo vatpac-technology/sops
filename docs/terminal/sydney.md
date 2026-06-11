@@ -119,7 +119,7 @@ c) Departures assumes **SRI** airspace when the position is inactive.
     Unless there are 2 separate Director controllers online (during a Major event like Panic Stations, for example), it is **not recommended** that the SFW and SFE positions are held by 2 separate controllers, due to the tendency of some less experienced pilots to overshoot the runway centreline
 
 #### Sydney Radar (SRI)
-SRI is responsible for the provision of FIS in Class G airspace within the SY TMA. It is a role normally performed by DEPs but can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordation requirements](#between-sri-and-tcu) exist between SRI and other TCU positions.  
+SRI is responsible for the provision of FIS in Class G airspace within the SY TMA. It is a role normally performed by DEPs but can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordination requirements](#between-sri-and-tcu) exist between SRI and other TCU positions.  
 
 !!! example
     During a busy event, Sydney Departures is experiencing a high workload and wishes to delegate the SRI role to another TMA controller who isn't as busy.  SAN's sector is quiet, so they elect to perform the role.
