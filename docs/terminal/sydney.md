@@ -205,7 +205,7 @@ Arrivals shall contact **SYC** for identification prior to entering CTA. SYC sha
 | ------------------ | ------------------- | -------- | 
 | Brooklyn Inbound   | `BBG BEE CAST BKHR PSP` | `A018` to BEE, thence `A015` by BKHR  |
 | Lighthorse Inbound | `NPBR LIHR PSP`     | `A015`   |
-| St Helens Inbound  | `SSKP CRST CRSC`    | `A015`   |
+| St Helens Inbound  | `SSKP CRST CRSC`    | `A025` to CRST, thence `A015` by CRSC   |
 
 !!! phraseology
     **BJZ**: "Sydney Centre, BJZ, Seminole, 10nm north of BBG, `A015`, for Brooklyn Inbound, received A"  
