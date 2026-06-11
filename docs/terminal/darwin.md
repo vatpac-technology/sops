@@ -75,14 +75,15 @@ If the pilot **does not** nominate a gate, or nominates a gate that does not pro
 
 | Intended SUA    | TCU Exit Gate        |
 | --------------- | -------------------- |
-| M277A-D         | Gates 8-10           |
-| M277E-H         | Gates 6-8            |
+| M277A-D         | Gates 6-8            |
+| M277E-H         | Gates 5-6            |
 | M278A           | Gates A25-C25        |
 | M278B-D         | Gates A40-C40        |
 | M278E           | Gates C25-E25        |
 | M278F-H         | Gates A40-C40        |
-| R245            | Gates 1-4            |
-| R276A-D         | Gates 4-6            |
+| R245            | Gates 2-3            |
+| R251            | Gate 1               |
+| R276A-D         | Gate 4               |
 
 !!! tip
     [Coordination requirements](#acd-to-dn-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU **before** providing clearance.
