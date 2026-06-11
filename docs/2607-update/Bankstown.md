@@ -99,13 +99,7 @@ Coded clearances are used to provide standardised routing for VFR aircraft arriv
 Each coded clearance includes tracking instructions and height requirements that ensure aircraft remain within Class D airspace. Each coded clearance also includes explicit instructions on when to change frequencies.
 
 ### VFR Inbound Procedures
-| Coded Clearance    | Route               | Altitude | 
-| ------------------ | ------------------- | -------- | 
-| Brooklyn Inbound   | `BBG BEE CAST BKHR PSP` | `A018` to BEE, thence `A015` by BKHR  |
-| Lighthorse Inbound | `NPBR LIHR PSP`     | `A015`   |
-| St Helens Inbound  | `SSKP CRST CRSC`    | `A015`   |
-
-VFR aircraft will report inbound at PSP or CRSC. They should be instructed to join the circuit as below:
+VFR aircraft will be cleared to track via a coded clearance by **SBA** and report inbound to **BK ADC** at PSP or CRSC. They should be instructed to join the circuit as below:
 
 | VFR Approach Point | RWYs 29  | RWYs 11 |
 | ----------------| --------- | ---------- |
