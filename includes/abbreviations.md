@@ -293,6 +293,7 @@
 *[BAW]: Baywest
 *[BBG]: Brooklyn Bridge
 *[BEE]: Berilee
+*[BKHR]: Baulkham Hills Reservoir
 *[BLGH]: Burleigh Heads
 *[BLHS]: Bald Hills
 *[BOAT]: Boatyard
@@ -301,11 +302,13 @@
 *[BTJ]: Brighton Jetty
 *[BTO]: Brighton
 *[CARR]: Carrum
+*[CASO]: Casuarina Oval
 *[CAST]: Castle Towers
 *[CBRG]: Centenary Bridge
 *[CBV]: Craigbourne Reservoir
 *[CCL]: Cape Cleveland
 *[CEN]: Clevedon
+*[CFCR]: Carlingford Corner
 *[CGB]: Craigieburn Overpass
 *[CGD]: Cudgen Headland
 *[CGF]: Cape Grafton
@@ -407,6 +410,7 @@
 *[RADT]: Radio Telescope
 *[RCH]: Richmond
 *[RESC]: Research Centre
+*[REVS]: Revesby Station
 *[RKI]: Rattlesnake Island
 *[RMT]: Round Mountain
 *[ROK]: Rockbank
@@ -440,6 +444,7 @@
 *[WES]: West Gate Bridge
 *[WILE]: Willeroo
 *[WMS]: Williamstown
+*[WORC]: Woronora Cemetery
 *[WOW]: White Onion Water Tower
 *[WSFR]: Wisemans Ferry
 *[WSL]: West Sale

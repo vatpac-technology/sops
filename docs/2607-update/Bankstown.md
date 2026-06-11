@@ -99,11 +99,11 @@ Coded clearances are used to provide standardised routing for VFR aircraft arriv
 Each coded clearance includes tracking instructions and height requirements that ensure aircraft remain within Class D airspace. Each coded clearance also includes explicit instructions on when to change frequencies.
 
 ### VFR Inbound Procedures
-| Coded Clearance    | Route             | Altitude | 
-| ------------------ | ------------------- | ------ | 
-| Brooklyn Inbound   | `BBG CAST PSP`      | `A015` |
-| Lighthorse Inbound | `NPBR LIHR PSP`     | `A015` |
-| St Helens Inbound   | `SSKP CRST CRSC`   | `A015` |
+| Coded Clearance    | Route               | Altitude | 
+| ------------------ | ------------------- | -------- | 
+| Brooklyn Inbound   | `BBG BEE CAST BKHR PSP` | `A018` to BEE, thence `A015` by BKHR  |
+| Lighthorse Inbound | `NPBR LIHR PSP`     | `A015`   |
+| St Helens Inbound  | `SSKP CRST CRSC`    | `A015`   |
 
 VFR aircraft will report inbound at PSP or CRSC. They should be instructed to join the circuit as below:
 
@@ -118,11 +118,12 @@ VFR aircraft will report inbound at PSP or CRSC. They should be instructed to jo
 ### VFR Outbound Procedures
 VFR aircraft intending to track via a coded clearance require an airways clearance from **BK SMC**. SMC shall update the FDR route of these aircraft with the following tracking points, as required.
 
-| Coded Clearance    | Route             | Altitude | 
-| ------------------ | ------------------- | ------ | 
-| Hornsby Outbound   | `PRT MFGC PENH HSY` | `A015` |
-| Mount Annan Outbound | `HXPR EMPS MAGG`  | `A015` |
-| Penrith Outbound   | `PRT SITS VCBR`     | `A015` |
+| Coded Clearance      | Route               | Altitude | Notes |
+| -------------------- | ------------------- | -------- | ----- |
+| Hornsby Outbound     | `PRT CFCR PENH HSY` | `A015` to CFCR, thence `A018` |  |
+| Mount Annan Outbound | `HXPR EMPS MAGG`    | `A015`   |       |
+| Penrith Outbound     | `PRT SITS VCBR`     | `A015`   |       |
+| Woronora Outbound    | `REVS CASO WORC`    | `A015`   | Day Only |
 
 !!! phraseology
     **UNY**: "Bankstown Ground, Diamond UNY, taxiway L, received B, for Hornsby Outbound, request taxi"   
