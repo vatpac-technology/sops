@@ -111,11 +111,12 @@ VFR aircraft will be cleared to track via a coded clearance by **SBA** and repor
 ### VFR Outbound Procedures
 VFR aircraft intending to track via a coded clearance require an airways clearance from **BK SMC**. SMC shall update the FDR route of these aircraft with the following tracking points, as required.
 
-| Coded Clearance    | Route             | Altitude | 
-| ------------------ | ------------------- | ------ | 
-| Hornsby Outbound   | `PRT MFGC PENH HSY` | `A015` |
-| Mount Annan Outbound | `HXPR EMPS MAGG`  | `A015` |
-| Penrith Outbound   | `PRT SITS VCBR`     | `A015` |
+| Coded Clearance      | Route               | Altitude | Notes |
+| -------------------- | ------------------- | -------- | ----- |
+| Hornsby Outbound     | `PRT CFCR PENH HSY` | `A015` to CFCR, thence `A018` |  |
+| Mount Annan Outbound | `HXPR EMPS MAGG`    | `A015`   |       |
+| Penrith Outbound     | `PRT SITS VCBR`     | `A015`   |       |
+| Woronora Outbound    | `REVS CASO WORC`    | `A015`   | Day Only |
 
 !!! phraseology
     **UNY**: "Bankstown Ground, Diamond UNY, taxiway L, received B, for Hornsby Outbound, request taxi"   
