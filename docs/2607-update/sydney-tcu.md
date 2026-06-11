@@ -210,7 +210,7 @@ Arrivals shall contact **SYC** for identification prior to entering CTA. SYC sha
 | ------------------ | ------------------- | -------- | 
 | Brooklyn Inbound   | `BBG BEE CAST BKHR PSP` | `A018` to BEE, thence `A015` by BKHR  |
 | Lighthorse Inbound | `NPBR LIHR PSP`     | `A015`   |
-| St Helens Inbound  | `SSKP CRST CRSC`    | `A015`   |
+| St Helens Inbound  | `SSKP CRST CRSC`    | `A025` to CRST, thence `A015` by CRSC   |
 
 Establishing two-way communication with a VFR aircraft constitutes a clearance to enter CTA as requested. Where a squawk code has not yet been issued, this should also be performed.
 
