@@ -13,7 +13,7 @@ When the number of arriving aircraft increases, a flow controller is required to
 
 MAESTRO is generally not used by TWR controllers, however it allows them to have situational awareness of the flow of inbound aircraft.
 
-The MAESTRO plugin can be accessed from the vatSys menu bar under TFMS. By default, it operates in **offline** mode. Use the `SETUP` button to [connect](#synchronisation) to the server, which allows all connected controllers to share sequence information.
+The MAESTRO plugin can be accessed from the vatSys menu bar under TFMS. By default, it operates in **offline** mode. Click the Connection Status button (top-left of the Maestro window) to [connect](#synchronisation) to the server, which allows all connected controllers to share sequence information.
 
 ## Installation
 
@@ -36,7 +36,7 @@ Maestro tracks flights within 2 hours of the feeder fix or when an FDR is activa
 
 Flights from departure airports are placed in the Pending list and must be manually inserted by the flow controller. These flights can be inserted prior to departure to absorb delay on the ground.
 
-Maestro calculates landing times (`STA`) based on estimates (`ETA`) and applies delays when the time between consecutive flights is less than the acceptance rate. The `STA_FF` is calculated by subtracting the arrival `ETI` from the `STA`.
+Maestro calculates landing times (`STA`) based on estimates (`ETA`) and applies delays when the time between consecutive flights is less than the acceptance rate. The `STA_FF` is calculated by subtracting the time-to-go `TTG` from the `STA`.
 
 ### The Timeline
 
@@ -45,11 +45,9 @@ Generally, enroute views will be feeder views, and TMA/flow views will be runway
 
 Each tick on the timeline corresponds to one minute.
 
-<!-- TODO: Brief explanation of label configuration, and how they can differ between views -->
-
 Flight labels are mirrored on either side of the timeline, and contain (from innermost to outermost):
 
-1. `STA` (in feeder view) or `STA_FF` (in runway view)
+1. `STA` (for feeder views) or `STA_FF` (for runway views)
 2. Assigned runway
 3. Callsign
 4. Approach Type (if applicable)
@@ -57,20 +55,24 @@ Flight labels are mirrored on either side of the timeline, and contain (from inn
 6. `%` if manual delay (other than zero) has been assigned
 7. `+` if the flight must cross the feeder-fix at published speed
 8. `*` if the FDR is not coupled to a radar track
-9. Total delay required (based on the initial `ETA`)
+9. Delay required (based on the initial `ETA`)
 10. Delay remaining (based on the current `ETA`)
 
-The total delay required remains unchanged as the flight absorbs delay. The remaining delay progressively reduces as delay is absorbed. When the remaining delay reads `0`, all required delay has been absorbed.
-
-!!! note
-    After a flight has passed the feeder fix, the ETA stops being updated, thus, the remaining delay figures will not change once the flight enters the TMA.
+Each airport may define additional custom label layouts for specific positions; refer to individual SOPs for details.
 
 ![Maestro Window](./img/maestro.png)
 
-In feeder views, the delay required, and delay remaining fields will only display the enroute portion of the delay.
-Runway views will display the total delay required and/or remaining.
+#### Delay Figures
+
+In enroute views, only the enroute portion of the required and remaining delay is displayed.
+In runway views, the total delay required and remaining is displayed.
+
+The total delay required remains unchanged as the flight absorbs delay. The remaining delay progressively reduces as delay is absorbed. When the remaining delay reads `0`, all required delay has been absorbed.
 
 <!-- TODO: Add screenshot, and explanation of ENR vs. TMA delay -->
+
+!!! note
+    After a flight has passed the feeder fix, the ETA stops being updated, thus, the remaining delay figures will not change once the flight enters the TMA.
 
 ### Flight States
 
@@ -259,7 +261,7 @@ Monitor the sequence for any anomalies, including:
 
 ### Sequence Adjustments
 
-Adjust the sequence as required using the available functions (Move Flight, Change Runway, Manual Delay, etc.).
+Adjust the sequence as required using the available functions (Move Flight, Change Runway, Manual Delay, etc.) to minimise delay.
 
 Before making large adjustments to the sequence:
 
@@ -271,13 +273,14 @@ This alerts controllers that delay figures may be temporarily inaccurate and pre
 
 ### Pending Flights
 
-Regularly review the Pending list (click `DEPS`) and insert flights from departure airports at appropriate times.
+Periodically review the Pending list (click `DEPS`) and insert flights when notified of their intention to depart.
 
 Coordinate with relevant units regarding pending flights, and advise them of the expected delay.
 
 !!! tip
-    Maestro will calculate delays for pending flights on the ground.
-    Advise pilots of the expected delay prior to departure to allow them to absorb the delay on the ground rather than in the air.
+    By activating flights early, Maestro can calculate delays for flights still on the ground.
+    Advise pilots of the expected delay and landing time prior to departure to allow them to absorb the delay on the ground rather than in the air.
+    The remaining delay does not update until they depart and are correlated to a radar track.
 
 ### Slots
 
@@ -304,6 +307,8 @@ Before making changes to the TMA configuration:
 4. Once completed, send the `Maestro delay times accurate...` message to all positions
 
 When scheduling a future configuration change, ensure the transition time allows sufficient buffer for aircraft in the sequence to land under the current configuration.
+
+If only the acceptance rate needs to change, use the Change Landing Rates function rather than a full configuration change. Configuration changes recompute the entire sequence from the transition point, which may cause unnecessary disruption.
 
 ## Synchronisation
 
