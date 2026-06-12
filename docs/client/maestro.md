@@ -28,6 +28,7 @@ The vMaestro plugin should be [downloaded](https://github.com/YuKitsune/vMaestro
 | `STA` | **Scheduled** time of arrival at the runway (landing time) calculated by Maestro. |
 | `ETA_FF` | Estimated time of arrival at the **feeder fix**. |
 | `STA_FF` | **Scheduled** time of arrival at the feeder fix calculated by Maestro. |
+| `TTG` | Time-to-Go from feeder fix to runway threshold. |
 
 ## How it works
 
@@ -75,22 +76,23 @@ Runway views will display the total delay required and/or remaining.
 
 Maestro uses various states that affect how flights are processed. Each state is indicated by a specific color on the flight label:
 
-**<span style="color: rgb(255, 205, 105); background-color: rgb(160, 170, 170);">Unstable</span>**: All new flights start in this state and remain unstable for at least 5 minutes. After each update, unstable flights are re-positioned in the sequence based on their calculated `ETA`, and their `STA_FF` and `STA` times are re-calculated.
+**<span style="color: rgb(255, 205, 105); background-color: rgb(160, 170, 170);">Unstable</span>**: All new flights start in this state and remain unstable for at least 5 minutes. On each update, the full processing cycle runs: estimates are recalculated, the flight is repositioned in the sequence, and scheduling assigns a runway and `STA`. The runway and approach type may change if an earlier `STA` is available on an alternative runway.
 
-**<span style="color: rgb(0, 0, 96); background-color: rgb(160, 170, 170);">Stable</span>**: Flights become stable 25 minutes prior to the `ETA_FF`. Stable flights keep their position in the sequence unless a flight appears, disappears, or moves before it. Stable flights can be displaced by a preceding flight being moved by controller action or a new flight entering the sequence with an earlier `ETA_FF`.
+**<span style="color: rgb(0, 0, 96); background-color: rgb(160, 170, 170);">Stable</span>**: Flights become Stable 25 minutes prior to the `ETA_FF`. Stable flights keep their position in the sequence unless displaced by controller action on a preceding flight, or a new flight entering with an earlier `ETA`. There is no alert when required delays change; controllers should regularly review delay figures.
 
-**<span style="color: rgb(255, 255, 255); background-color: rgb(160, 170, 170);">Super Stable</span>**: Flights become super stable at the original `ETA_FF`. Super stable flights are fixed in position. All new flights are positioned after super stable flights. Super stable flights can only be moved manually by controller interaction.
+**<span style="color: rgb(255, 255, 255); background-color: rgb(160, 170, 170);">Super Stable</span>**: Flights become SuperStable at the original `ETA_FF` (the `ETA_FF` at the time they became Stable). SuperStable flights are fixed in position. All new flights are positioned after them. Displacement only occurs through controller action on this flight or a preceding flight.
 
-**<span style="color: rgb(96, 0, 0); background-color: rgb(160, 170, 170);">Frozen</span>**: Flights become frozen within 15 minutes of the `STA`. No changes can be made to frozen flights. They remain locked in their scheduled position and time.
+**<span style="color: rgb(96, 0, 0); background-color: rgb(160, 170, 170);">Frozen</span>**: Flights become Frozen within 15 minutes of the `STA`. Frozen flights cannot be displaced at all, even by controller actions.
 
-**<span style="color: rgb(0, 235, 235); background-color: rgb(160, 170, 170);">Landed</span>**: Flights become landed at the `STA`. No changes can be made to landed flights. The last 5 landed flights remain in the system in case of an overshoot, after which they are automatically removed.
+**<span style="color: rgb(0, 235, 235); background-color: rgb(160, 170, 170);">Landed</span>**: Flights become Landed at the `STA`. The last 5 landed flights remain visible in case of an overshoot, after which they are automatically removed.
 
 ### Delaying Action
 
 The delay figure on the flight label is color coded to indicate the suggested delaying action:
 
 - **<span style="color: rgb(0, 105, 0); background-color: rgb(160, 170, 170);">Expedite</span>**: The aircraft needs to speed up, and make up the time shown (a minus sign will be in front of the delay number)
-- **<span style="color: rgb(0, 0, 96); background-color: rgb(160, 170, 170);">No delay</span>**: No delaying action required. The aircraft can resume their profile.
+- **<span style="color: rgb(0, 0, 96); background-color: rgb(160, 170, 170);">No delay</span>**: No delaying action required.
+- **<span style="color: rgb(0, 0, 96); background-color: rgb(160, 170, 170);">Resume</span>**: Very small delay remaining; aircraft will absorb it by resuming track (e.g., completing a turn out of holding).
 - **<span style="color: rgb(0, 235, 235); background-color: rgb(160, 170, 170);">Speed reduction</span>**: Delay can be absorbed linearly using speed control or vectoring.
 - **<span style="color: rgb(255, 255, 255); background-color: rgb(160, 170, 170);">Path Stretching</span>**: Delay needs to be absorbed in the TMA.
 - **<span style="color: rgb(235, 235, 0); background-color: rgb(160, 170, 170);">Holding</span>**: Extended delay is required.
@@ -307,7 +309,7 @@ When scheduling a future configuration change, ensure the transition time allows
 
 When connected to the Maestro server, the sequence is synchronised between all connected controllers. This allows multiple controllers to view and interact with the same sequence in real-time.
 
-Connection to the Maestro server is established using the `SETUP` button in the Configuration Zone.
+Connection to the Maestro server is established by clicking the Connection Status button (top-left of the Maestro window) to open the connection settings.
 
 ### Permissions
 
@@ -342,8 +344,8 @@ The Online Status Indicator in the Configuration Zone displays the current conne
 | ------ | ------- |
 | `OFFLINE` | Not connected to the Maestro server. All processing is local, and all functions are available. |
 | `READY` | Connected to the Maestro server but not yet connected to VATSIM. No data is synchronised. |
-| `FMP` | Connected as Flow. Your instance processes the sequence and distributes it to other controllers. |
-| `APP` | Connected as Approach. Some functions are restricted (see [Permissions](#permissions)). |
-| `ENR` | Connected as Enroute. Some functions are restricted (see [Permissions](#permissions)). |
-| `ENR/FMP` or `APP/FMP` | Connected as Enroute or Approach with Flow authority. No dedicated Flow controller is online. All functions are available. |
+| `FLOW` | Connected as Flow. Your instance processes the sequence and distributes it to other controllers. |
+| `APP` | Connected as Approach. A Flow controller is online. Some functions are restricted (see [Permissions](#permissions)). |
+| `ENR` | Connected as Enroute. A Flow controller is online. Some functions are restricted (see [Permissions](#permissions)). |
+| `ENR/FLOW` or `APP/FLOW` | Connected as Enroute or Approach with Flow authority. No dedicated Flow controller is online. All functions are available. |
 | `OBS` | Connected as Observer. The sequence is read-only. |
