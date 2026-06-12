@@ -117,8 +117,8 @@ The M278A-H Darwin [MOAs](../../controller-skills/sua/#military-operating-areas)
 
 Aircraft will generally enter and exit the MOA via the appropriate [military gate](#military-gates).
 
-#### R203A-B Mount Bundey
-The R203A-B Mount Bundey [restricted area](../../controller-skills/sua/#restricted-areas) is located south of YPDN, `SFC-NOTAM`. The restricted area is generally used for low-level military helicopter training operations based out of Robertson Barracks (YRBK).
+#### R203A-B Kangaroo Flat
+The R203A-B Kangaroo Flat [restricted area](../../controller-skills/sua/#restricted-areas) is located south of YPDN, `SFC-NOTAM`. The restricted area is generally used for low-level military helicopter training operations based out of Robertson Barracks (YRBK).
 
 #### R276A Darwin
 The R276A Darwin [restricted areas](../../controller-skills/sua/#restricted-areas) are located southwest of YPDN, `NOTAM-NOTAM`. 
