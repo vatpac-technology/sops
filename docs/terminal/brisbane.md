@@ -348,7 +348,38 @@ The following calculator will generate a landing time from a feeder fix ETA, or 
 
 ### MAESTRO
 
-<!-- TODO: Brisbane MAESTRO procedures, and label layout -->
+<!-- TODO: Brisbane-specific MAESTRO procedures -->
+
+#### Feeder Fix selection
+
+Arrivals via `BLAKA`, `GOMOL`, `TEBOT`, and `UGTUG` are configured to allocate arrivals to 19L or 01R.
+Arrivals via `ENLIP`, `WOODY`, `MORBI`, and `SMOKA` are allocated to 19R or 01L.
+
+Coordinate with BFL when an arrival is unable to accept their allocated runway.
+
+#### Delay Strategy
+
+Enroute delay is prioritised over TMA delay. Arrivals should absorb as much of the required delay as possible before the feeder fix.
+1 - 2 mins of delay may be allocated to the TMA in order to avoid holding.
+
+#### TMA Configuration
+
+| Mode | Runways | Rate | Dependency Rate |
+|------|---------|:----:|:---------------:|
+| 19 | 19L, 19R | 25/hr (144s) | - |
+| 01 | 01L, 01R | 25/hr (144s) | - |
+| SODPROPS | 19R | 12/hr (300s) | - |
+
+#### Views
+
+| View | Window | Reference | Ladders |
+|------|:------:|:---------:|---------|
+| INL | 30 min | `STA_FF` | BLAKA, GOMOL |
+| DOS | 30 min | `STA_FF` | ENLIP, WOODY |
+| BUR | 30 min | `STA_FF` | MORBI, SMOKA |
+| SDY | 30 min | `STA_FF` | TEBOT, UGTUG |
+| ALL | 30 min | `STA_FF` | BLAKA/ENLIP/GOMOL/MORBI, SMOKA/TEBOT/UGTUG/WOODY |
+| RWY | 45 min | `STA` | 01L/19R, 01R/19L |
 
 ## Coordination
 ### Enroute
