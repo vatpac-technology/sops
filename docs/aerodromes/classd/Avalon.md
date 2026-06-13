@@ -49,7 +49,7 @@ Any Runway change must be prior coordinated to the TCU controller responsible fo
 
 ### MAESTRO
 
-When MAESTRO is in use and an aircraft is departing for YMML, **AV ADC** shall advise **MFL** when the aircraft commences taxi. MFL will activate the flight in MAESTRO and advise a landing time.
+When a departure is bound for YMML and MAESTRO is in use, **AV ADC** shall advise **MFL** when the aircraft commences taxi. MFL will activate the flight in MAESTRO and advise a landing time.
 
 MFL may waive this requirement during periods of low traffic.
 

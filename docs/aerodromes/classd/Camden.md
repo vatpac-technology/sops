@@ -131,7 +131,7 @@ SRI will advise CN ADC of observed IFR aircraft overflying CN CTR below `A025`.
 
 ### MAESTRO
 
-When MAESTRO is in use and an aircraft is departing for YSSY, **CN SMC** (or **CN ADC** if SMC is not online) shall advise **SFL** when the aircraft commences taxi. SFL will activate the flight in MAESTRO and advise a landing time.
+When a departure is bound for YSSY and MAESTRO is in use, **CN SMC** (or **CN ADC** if SMC is not online) shall advise **SFL** when the aircraft commences taxi. SFL will activate the flight in MAESTRO and advise a landing time.
 
 SFL may waive this requirement during periods of low traffic.
 

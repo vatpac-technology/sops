@@ -201,7 +201,7 @@ MB ADC must heads-up coordinate **all aircraft** transiting from one ADC control
 
 ### MAESTRO
 
-When MAESTRO is in use and an aircraft is departing for YMML, **MB SMC** (or **MB ADC** if SMC is not online) shall advise **MFL** when the aircraft commences taxi. MFL will activate the flight in MAESTRO and advise a landing time.
+When a departure is bound for YMML and MAESTRO is in use, **MB SMC** (or **MB ADC** if SMC is not online) shall advise **MFL** when the aircraft commences taxi. MFL will activate the flight in MAESTRO and advise a landing time.
 
 MFL may waive this requirement during periods of low traffic.
 

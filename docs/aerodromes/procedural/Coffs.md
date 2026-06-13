@@ -63,7 +63,7 @@ The Standard Assignable level from INL/ARL(MNN) to CFS ADC is `A080`, any other 
 
 ### MAESTRO
 
-When MAESTRO is in use and an aircraft is departing for YBBN, **CFS ADC** shall advise **BFL** when the aircraft commences taxi. BFL will activate the flight in MAESTRO and advise of any delay that can be absorbed on the ground before departure.
+When a departure is bound for YBBN and MAESTRO is in use, **CFS ADC** shall advise **BFL** when the aircraft commences taxi. BFL will activate the flight in MAESTRO and advise of any delay that can be absorbed on the ground before departure.
 
 BFL may waive this requirement during periods of low traffic.
 

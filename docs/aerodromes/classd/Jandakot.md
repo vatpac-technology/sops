@@ -160,7 +160,7 @@ JT ADC must heads-up coordinate **all aircraft** transiting from one ADC control
 
 ### MAESTRO
 
-When MAESTRO is in use and an aircraft is departing for YPPH, **JT SMC** (or **JT ADC** if SMC is not online) shall advise **PFL** when the aircraft commences taxi. PFL will activate the flight in MAESTRO and advise a landing time.
+When a departure is bound for YPPH and MAESTRO is in use, **JT SMC** (or **JT ADC** if SMC is not online) shall advise **PFL** when the aircraft commences taxi. PFL will activate the flight in MAESTRO and advise a landing time.
 
 PFL may waive this requirement during periods of low traffic.
 

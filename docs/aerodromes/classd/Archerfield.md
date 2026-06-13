@@ -272,7 +272,7 @@ AF ADC must heads-up coordinate **all aircraft** transiting from one ADC control
 
 ### MAESTRO
 
-When MAESTRO is in use and an aircraft is departing for YBBN, **AF SMC** (or **AF ADC** if SMC is not online) shall advise **BFL** when the aircraft commences taxi. BFL will activate the flight in MAESTRO and advise a landing time.
+When a departure is bound for YBBN and MAESTRO is in use, **AF SMC** (or **AF ADC** if SMC is not online) shall advise **BFL** when the aircraft commences taxi. BFL will activate the flight in MAESTRO and advise a landing time.
 
 BFL may waive this requirement during periods of low traffic.
 

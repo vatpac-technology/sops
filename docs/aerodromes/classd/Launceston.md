@@ -70,7 +70,7 @@ LT ADC shall give [heads-up](../../controller-skills/coordination.md#airways-cle
 
 ### MAESTRO
 
-When MAESTRO is in use and an aircraft is departing for YMML, **LT ADC** shall advise **MFL** when the aircraft commences taxi. MFL will activate the flight in MAESTRO and advise of any delay that can be absorbed on the ground before departure.
+When a departure is bound for YMML and MAESTRO is in use, **LT ADC** shall advise **MFL** when the aircraft commences taxi. MFL will activate the flight in MAESTRO and advise of any delay that can be absorbed on the ground before departure.
 
 MFL may waive this requirement during periods of low traffic.
 

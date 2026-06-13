@@ -222,7 +222,7 @@ TW ADC must heads-up coordinate **all aircraft** transiting from one ADC control
 
 ### MAESTRO
 
-When MAESTRO is in use and an aircraft is departing for YSSY, **TW SMC** (or **TW ADC** if SMC is not online) shall advise **SFL** when the aircraft commences taxi. SFL will activate the flight in MAESTRO and advise of any delay that can be absorbed on the ground before departure.
+When a departure is bound for YSSY and MAESTRO is in use, **TW SMC** (or **TW ADC** if SMC is not online) shall advise **SFL** when the aircraft commences taxi. SFL will activate the flight in MAESTRO and advise of any delay that can be absorbed on the ground before departure.
 
 SFL may waive this requirement during periods of low traffic.
 
