@@ -76,11 +76,6 @@ When a departure is bound for YSSY or YMML and MAESTRO is in use, **AY SMC** sha
 
 The flow controller may waive this requirement during periods of low traffic.
 
-| Destination | Flow Controller |
-| ----------- | --------------- |
-| YSSY | SFL |
-| YMML | MFL |
-
 !!! phraseology
     <span class="hotline">**AY SMC** -> **SFL**</span>: "QFA414, taxiing YSSY"  
     <span class="hotline">**SFL** -> **AY SMC**</span>: "QFA414, landing time 45, 8 minutes delay"
