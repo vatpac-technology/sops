@@ -69,10 +69,22 @@ In runway views, the total delay required and remaining is displayed.
 
 The total delay required remains unchanged as the flight absorbs delay. The remaining delay progressively reduces as delay is absorbed. When the remaining delay reads `0`, all required delay has been absorbed.
 
-<!-- TODO: Add screenshot, and explanation of ENR vs. TMA delay -->
+##### Delay Allocation
+
+Required delay is split between an **enroute** component and a **TMA** component. The TMA component varies between 0 and 5 minutes depending on the feeder fix and runway — feeder fixes resulting in straight-in approaches leave less room for vectoring, so less delay can be absorbed in the TMA.
+
+Enroute views show only the enroute component. Runway (TMA) views show the **total** delay, which is the sum of both components.
+
+In the example below, an aircraft has 15 minutes of total required delay: 10 minutes allocated to enroute, and 5 minutes to the TMA. The enroute label shows **10**, and the TMA label shows **15**.
+
+<!-- TODO: Screenshot — side-by-side enroute and TMA views, labels reading "10 10 QFA123 34L" and "15 15 QFA123 34L" -->
+
+By the time the aircraft reaches the feeder fix, 9 of the 10 enroute minutes have been absorbed. The enroute remaining delay drops to **1**, while the TMA remaining delay is now **6** (the 1 minute not absorbed enroute, plus the original 5 minutes of TMA delay).
+
+<!-- TODO: Screenshot — same views after feeder fix crossing, labels reading "1 10 QFA123 34L" and "6 15 QFA123 34L" -->
 
 !!! note
-    After a flight has passed the feeder fix, the ETA stops being updated, thus, the remaining delay figures will not change once the flight enters the TMA.
+    Once an aircraft passes the feeder fix, its `ETA` stops updating, so delay figures on the label will not change until the next processing cycle after feeder fix passage.
 
 ### Flight States
 
