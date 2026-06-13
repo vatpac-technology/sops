@@ -306,21 +306,24 @@ This alerts controllers that delay figures may be temporarily inaccurate and pre
 
 ### Pending Flights
 
-Flights from designated departure airports — those within approximately 30 minutes flight time that will track via a feeder fix — appear in the Pending list and are inserted using the `DEPS` button. Maestro will automatically calculate a sequence position and any required delay.
+Flights from designated departure airports (i.e. those within approximately 30 minutes flight time that will track via a feeder fix) appear in the Pending list and are inserted using the `DEPS` button.
+Maestro will automatically calculate a sequence position and any required delay based on the selected Take-Off time.
 
-Periodically review the Pending list and insert flights when notified of their intention to depart. Coordinate with relevant units and advise them of the expected delay and landing time.
+Periodically review the Pending list and insert flights when notified of their intention to depart.
+Coordinate with relevant units and advise them of the expected delay and landing time.
 
 !!! tip
     By activating flights early, Maestro can calculate delays for flights still on the ground.
     Advise pilots of the expected delay and landing time prior to departure to allow them to absorb the delay on the ground rather than in the air.
     The remaining delay does not update until they depart and are correlated to a radar track.
 
-### TMA Departures
+### Arrivals from within the TMA
 
-Aircraft departing from aerodromes within the TMA that will **not** track via a feeder fix cannot be automatically sequenced by Maestro. These flights must be inserted directly onto the ladder using the `Insert Flight` function (right-click a flight or the ladder, select `Insert Flight`).
+Aircraft departing from aerodromes within the TMA that will **not** track via a feeder fix cannot be automatically sequenced by Maestro.
+These flights must be inserted directly onto the ladder using the `Insert Flight` function (right-click a flight or the ladder, select `Insert Flight`).
 
 !!! warning "Important"
-    When inserting a TMA departure using `Insert Flight`, the flight is placed at the time you select. Maestro will not calculate a sequence position or delay — the time chosen is the scheduled landing time.
+    When inserting a TMA departure using `Insert Flight`, the flight is placed at the time you select. Maestro will not calculate a sequence position or delay.
 
 ### Slots
 
