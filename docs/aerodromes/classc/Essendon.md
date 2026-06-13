@@ -220,6 +220,12 @@ EN ADC is responsible for separation with all YMML traffic, and must coordinate 
     <span class="hotline">**ML ADC** -> **EN ADC**</span>: "OXG, my restriction is QFA451 on a 10nm final RWY 34, your separation"  
     <span class="hotline">**EN ADC** -> **ML ADC**</span>: "My separation with QFA451, OXG"
 
-### Melbourne Flow
+### MAESTRO
 
-<!-- TODO: Document coordination procedures with ML_FMP for departures to Melbourne -->
+When MAESTRO is in use and an aircraft is departing for YMML, **EN SMC** (or **EN ADC** if SMC is not online) shall advise **MFL** when the aircraft commences taxi. MFL will activate the flight in MAESTRO and advise a landing time.
+
+MFL may waive this requirement during periods of low traffic.
+
+!!! phraseology
+    <span class="hotline">**EN SMC** -> **MFL**</span>: "RXA6272, taxiing YMML"  
+    <span class="hotline">**MFL** -> **EN SMC**</span>: "RXA6272, landing time 22"

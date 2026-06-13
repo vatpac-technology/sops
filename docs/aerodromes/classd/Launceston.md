@@ -68,6 +68,16 @@ LT ADC shall give [heads-up](../../controller-skills/coordination.md#airways-cle
 - VFR departures entering LTA CTA
 - Aircraft using a runway not on the ATIS 
 
+### MAESTRO
+
+When MAESTRO is in use and an aircraft is departing for YMML, **LT ADC** shall advise **MFL** when the aircraft commences taxi. MFL will activate the flight in MAESTRO and advise of any delay that can be absorbed on the ground before departure.
+
+MFL may waive this requirement during periods of low traffic.
+
+!!! phraseology
+    <span class="hotline">**LT ADC** -> **MFL**</span>: "QFA601, taxiing YMML"  
+    <span class="hotline">**MFL** -> **LT ADC**</span>: "QFA601, landing time 30, 12 minutes delay"
+
 ### Arrivals/Overfliers
 LTA will heads-up coordinate arrivals/overfliers from LTA CTA to LT ADC.  
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to LT ADC, unless LT ADC nominates a restriction.  

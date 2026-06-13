@@ -213,8 +213,6 @@ The following calculator will generate a landing time from a feeder fix ETA, or 
 
 ### MAESTRO
 
-<!-- TODO: Perth-specific MAESTRO procedures -->
-
 #### Delay Strategy
 
 Enroute delay is prioritised over TMA delay. Arrivals should absorb as much of the required delay as possible before the feeder fix.

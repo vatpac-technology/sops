@@ -47,6 +47,12 @@ The Standard Assignable level from **AV ADC** to **ML TCU** is:
 #### Runway Change
 Any Runway change must be prior coordinated to the TCU controller responsible for **MAV**.
 
-### Melbourne Flow
+### MAESTRO
 
-<!-- TODO: Document coordination procedures with ML_FMP for departures to Melbourne -->
+When MAESTRO is in use and an aircraft is departing for YMML, **AV ADC** shall advise **MFL** when the aircraft commences taxi. MFL will activate the flight in MAESTRO and advise a landing time.
+
+MFL may waive this requirement during periods of low traffic.
+
+!!! phraseology
+    <span class="hotline">**AV ADC** -> **MFL**</span>: "JST405, taxiing YMML"  
+    <span class="hotline">**MFL** -> **AV ADC**</span>: "JST405, landing time 22"

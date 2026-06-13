@@ -70,10 +70,17 @@ BLA will heads-up coordinate all arrivals/overfliers to AY ADC
 
 The Standard Assignable level from BLA to AY ADC is `A080`, any other level must be prior coordinated.
 
-### Melbourne Flow
+### MAESTRO
 
-<!-- TODO: Document coordination procedures with ML_FMP for departures to Melbourne -->
+When MAESTRO is in use and an aircraft is departing for YSSY or YMML, **AY SMC** (or **AY ADC** if SMC is not online) shall advise the relevant flow controller when the aircraft commences taxi. The flow controller will activate the flight in MAESTRO and advise of any delay that can be absorbed on the ground before departure.
 
-### Sydney Flow
+The flow controller may waive this requirement during periods of low traffic.
 
-<!-- TODO: Document coordination procedures with SY_FMP for departures to Sydney -->
+| Destination | Flow Controller |
+| ----------- | --------------- |
+| YSSY | SFL |
+| YMML | MFL |
+
+!!! phraseology
+    <span class="hotline">**AY SMC** -> **SFL**</span>: "QFA414, taxiing YSSY"  
+    <span class="hotline">**SFL** -> **AY SMC**</span>: "QFA414, landing time 45, 8 minutes delay"

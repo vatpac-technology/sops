@@ -84,6 +84,12 @@ BN TCU Class G shares a tiny border with SU ADC, however there are no SIDs, STAR
   <figcaption>BN TCU / SU ADC Border</figcaption>
 </figure>
 
-### Brisbane Flow
+### MAESTRO
 
-<!-- TODO: Document coordination procedures with BN_FMP for departures to Brisbane -->
+When MAESTRO is in use and an aircraft is departing for YBBN, **SU SMC** (or **SU ADC** if SMC is not online) shall advise **BFL** when the aircraft commences taxi. BFL will activate the flight in MAESTRO and advise of any delay that can be absorbed on the ground before departure.
+
+BFL may waive this requirement during periods of low traffic.
+
+!!! phraseology
+    <span class="hotline">**SU SMC** -> **BFL**</span>: "QJE1756, taxiing YBBN"  
+    <span class="hotline">**BFL** -> **SU SMC**</span>: "QJE1756, landing time 30, no delay"

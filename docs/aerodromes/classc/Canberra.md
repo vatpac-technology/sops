@@ -192,6 +192,12 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
     | 35 | AVBEG<br>DUBUS<br>HOWLY<br>NONUP<br>TANTA<br>WG VOR<br>West | 125.9 (CBW) |
     | 35 | AKMIR<br>CULIN<br>East | 124.5 (CBE) |
 
-### Sydney Flow
+### MAESTRO
 
-<!-- TODO: Document coordination procedures with SY_FMP for departures to Sydney -->
+When MAESTRO is in use and an aircraft is departing for YSSY, **CB SMC** (or **CB ADC** if SMC is not online) shall advise **SFL** when the aircraft commences taxi. SFL will activate the flight in MAESTRO and advise of any delay that can be absorbed on the ground before departure.
+
+SFL may waive this requirement during periods of low traffic.
+
+!!! phraseology
+    <span class="hotline">**CB SMC** -> **SFL**</span>: "QFA400, taxiing YSSY"  
+    <span class="hotline">**SFL** -> **CB SMC**</span>: "QFA400, landing time 45, 8 minutes delay"

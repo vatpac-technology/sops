@@ -129,6 +129,12 @@ SY TCU will **NOT** clear the aircraft for the approach.
 ### IFR overflying YSCN
 SRI will advise CN ADC of observed IFR aircraft overflying CN CTR below `A025`.
 
-### Sydney Flow
+### MAESTRO
 
-<!-- TODO: Document coordination procedures with SY_FMP for departures to Sydney -->
+When MAESTRO is in use and an aircraft is departing for YSSY, **CN SMC** (or **CN ADC** if SMC is not online) shall advise **SFL** when the aircraft commences taxi. SFL will activate the flight in MAESTRO and advise a landing time.
+
+SFL may waive this requirement during periods of low traffic.
+
+!!! phraseology
+    <span class="hotline">**CN SMC** -> **SFL**</span>: "YFX, taxiing YSSY"  
+    <span class="hotline">**SFL** -> **CN SMC**</span>: "YFX, landing time 45"

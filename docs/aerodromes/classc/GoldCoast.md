@@ -244,6 +244,12 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
 ### Start Clearance
 A start clearance is required for aircraft planned to YBBN. Start clearance must be coordinated with BN TCU.
 
-### Brisbane Flow
+### MAESTRO
 
-<!-- TODO: Document coordination procedures with BN_FMP for departures to Brisbane -->
+When MAESTRO is in use and an aircraft is departing for YBBN, **CG SMC** (or **CG ADC** if SMC is not online) shall advise **BFL** when the aircraft commences taxi. BFL will activate the flight in MAESTRO and advise of any delay that can be absorbed on the ground before departure.
+
+BFL may waive this requirement during periods of low traffic.
+
+!!! phraseology
+    <span class="hotline">**CG SMC** -> **BFL**</span>: "VOZ789, taxiing YBBN"  
+    <span class="hotline">**BFL** -> **CG SMC**</span>: "VOZ789, landing time 22, no delay"

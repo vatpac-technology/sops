@@ -465,8 +465,6 @@ The following calculator will generate a landing time from a feeder fix ETA, or 
 
 ### MAESTRO
 
-<!-- TODO: Sydney-specific MAESTRO procedures -->
-
 #### Feeder Fix selection
 
 `BOREE`, `YAKKA`, and `MARLN` feeder fixes have been configured to allocate arrivals to `16L` or `34R` during parallel operations.

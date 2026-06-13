@@ -199,6 +199,12 @@ MB ADC must heads-up coordinate **all aircraft** transiting from one ADC control
     <span class="hotline">**MB ADC W** -> **MB ADC E**</span>: "via CARR, EWX for an overfly"  
     <span class="hotline">**MB ADC E** -> **MB ADC W**</span>: "EWX, A015"
 
-### Melbourne Flow
+### MAESTRO
 
-<!-- TODO: Document coordination procedures with ML_FMP for departures to Melbourne -->
+When MAESTRO is in use and an aircraft is departing for YMML, **MB SMC** (or **MB ADC** if SMC is not online) shall advise **MFL** when the aircraft commences taxi. MFL will activate the flight in MAESTRO and advise a landing time.
+
+MFL may waive this requirement during periods of low traffic.
+
+!!! phraseology
+    <span class="hotline">**MB SMC** -> **MFL**</span>: "YGC, taxiing YMML"  
+    <span class="hotline">**MFL** -> **MB SMC**</span>: "YGC, landing time 22"

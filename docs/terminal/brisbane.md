@@ -348,8 +348,6 @@ The following calculator will generate a landing time from a feeder fix ETA, or 
 
 ### MAESTRO
 
-<!-- TODO: Brisbane-specific MAESTRO procedures -->
-
 #### Feeder Fix selection
 
 Arrivals via `BLAKA`, `GOMOL`, `TEBOT`, and `UGTUG` are configured to allocate arrivals to 19L or 01R.

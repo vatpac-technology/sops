@@ -220,6 +220,12 @@ TW ADC must heads-up coordinate **all aircraft** transiting from one ADC control
     <span class="hotline">**TW ADC S** -> **TW ADC**</span>: "via GWT, SPP for an overfly"  
     <span class="hotline">**TW ADC** -> **TW ADC S**</span>: "SPP, `A035`"
 
-### Sydney Flow
+### MAESTRO
 
-<!-- TODO: Document coordination procedures with SY_FMP for departures to Sydney -->
+When MAESTRO is in use and an aircraft is departing for YSSY, **TW SMC** (or **TW ADC** if SMC is not online) shall advise **SFL** when the aircraft commences taxi. SFL will activate the flight in MAESTRO and advise of any delay that can be absorbed on the ground before departure.
+
+SFL may waive this requirement during periods of low traffic.
+
+!!! phraseology
+    <span class="hotline">**TW SMC** -> **SFL**</span>: "QFA728, taxiing YSSY"  
+    <span class="hotline">**SFL** -> **TW SMC**</span>: "QFA728, landing time 45, 12 minutes delay"
