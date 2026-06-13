@@ -121,7 +121,6 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 
 In accordance with the authorisation requirements above, YMML may utilise LAHSO during exceptionally busy events. Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../../controller-skills/runwaymanagement/#lahso) for more information.
 
-
 ### YSCB
 #### STAR Assignment
 The following subsectors are responsible for issuing STAR clearance.

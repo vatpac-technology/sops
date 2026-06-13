@@ -263,7 +263,6 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 !!! tip
     Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector. 
 
-
 ## STAR Clearance Expectation
 ### Handoff
 Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:
