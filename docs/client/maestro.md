@@ -79,12 +79,30 @@ Runway views are configured to show the **total** delay (ENR + TMA delay).
 In the example below, an aircraft has 15 minutes of total required delay: 10 minutes allocated to enroute, and 5 minutes to the TMA.
 The enroute label shows **10**, and the TMA label shows **15**.
 
-<!-- TODO: Screenshot — side-by-side enroute and TMA views, labels reading "10 10 QFA123 34L" and "15 15 QFA123 34L" -->
+<div style="display: flex; gap: 1em;">
+  <figure style="flex: 1; text-align: center; margin: 0;">
+    <img src="../img/maestro-enr1.png" alt="Enroute view">
+    <figcaption>Enroute view</figcaption>
+  </figure>
+  <figure style="flex: 1; text-align: center; margin: 0;">
+    <img src="../img/maestro-tma1.png" alt="TMA view">
+    <figcaption>TMA view</figcaption>
+  </figure>
+</div>
 
 By the time the aircraft reaches the feeder fix, 9 of the 10 enroute minutes have been absorbed.
 The enroute remaining delay drops to **1**, while the TMA remaining delay is now **6** (the 1 minute not absorbed enroute, plus the original 5 minutes of TMA delay).
 
-<!-- TODO: Screenshot — same views after feeder fix crossing, labels reading "1 10 QFA123 34L" and "6 15 QFA123 34L" -->
+<div style="display: flex; gap: 1em;">
+  <figure style="flex: 1; text-align: center; margin: 0;">
+    <img src="../img/maestro-enr2.png" alt="Enroute view after feeder fix">
+    <figcaption>Enroute view</figcaption>
+  </figure>
+  <figure style="flex: 1; text-align: center; margin: 0;">
+    <img src="../img/maestro-tma2.png" alt="TMA view after feeder fix">
+    <figcaption>TMA view</figcaption>
+  </figure>
+</div>
 
 !!! note
     Once an aircraft passes the feeder fix, its `ETA` stops updating, so delay figures on the label will not change until the next processing cycle after feeder fix passage.
