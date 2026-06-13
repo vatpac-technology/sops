@@ -197,7 +197,7 @@ The controller assuming responsibility of **WS ACD** shall give [heads-up](../..
 
 ### MAESTRO
 
-When a departure is bound for YSSY and MAESTRO is in use, **WS SMC** (or **WS ADC** if SMC is not online) shall advise **SFL** when the aircraft commences taxi. SFL will activate the flight in MAESTRO and advise a landing time.
+When a departure is bound for YSSY and MAESTRO is in use, **WS SMC** shall advise **SFL** when the aircraft commences taxi. SFL will activate the flight in MAESTRO and advise a landing time.
 
 SFL may waive this requirement during periods of low traffic.
 

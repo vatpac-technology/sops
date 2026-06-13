@@ -194,7 +194,7 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
 
 ### MAESTRO
 
-When a departure is bound for YSSY and MAESTRO is in use, **CB SMC** (or **CB ADC** if SMC is not online) shall advise **SFL** when the aircraft commences taxi. SFL will activate the flight in MAESTRO and advise of any delay that can be absorbed on the ground before departure.
+When a departure is bound for YSSY and MAESTRO is in use, **CB SMC** shall advise **SFL** when the aircraft commences taxi. SFL will activate the flight in MAESTRO and advise of any delay that can be absorbed on the ground before departure.
 
 SFL may waive this requirement during periods of low traffic.
 

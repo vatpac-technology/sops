@@ -222,7 +222,7 @@ EN ADC is responsible for separation with all YMML traffic, and must coordinate 
 
 ### MAESTRO
 
-When a departure is bound for YMML and MAESTRO is in use, **EN SMC** (or **EN ADC** if SMC is not online) shall advise **MFL** when the aircraft commences taxi. MFL will activate the flight in MAESTRO and advise a landing time.
+When a departure is bound for YMML and MAESTRO is in use, **EN SMC** shall advise **MFL** when the aircraft commences taxi. MFL will activate the flight in MAESTRO and advise a landing time.
 
 MFL may waive this requirement during periods of low traffic.
 

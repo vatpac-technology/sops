@@ -72,7 +72,7 @@ The Standard Assignable level from BLA to AY ADC is `A080`, any other level must
 
 ### MAESTRO
 
-When a departure is bound for YSSY or YMML and MAESTRO is in use, **AY SMC** (or **AY ADC** if SMC is not online) shall advise the relevant flow controller when the aircraft commences taxi. The flow controller will activate the flight in MAESTRO and advise of any delay that can be absorbed on the ground before departure.
+When a departure is bound for YSSY or YMML and MAESTRO is in use, **AY SMC** shall advise the relevant flow controller when the aircraft commences taxi. The flow controller will activate the flight in MAESTRO and advise of any delay that can be absorbed on the ground before departure.
 
 The flow controller may waive this requirement during periods of low traffic.
 

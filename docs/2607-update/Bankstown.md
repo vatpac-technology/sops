@@ -285,7 +285,7 @@ When ADC (Circuit) is online, SY TCU may not be familiar with which controller o
 
 ### MAESTRO
 
-When a departure is bound for YSSY and MAESTRO is in use, **BK SMC** (or **BK ADC** if SMC is not online) shall advise **SFL** when the aircraft commences taxi. SFL will activate the flight in MAESTRO and advise a landing time.
+When a departure is bound for YSSY and MAESTRO is in use, **BK SMC** shall advise **SFL** when the aircraft commences taxi. SFL will activate the flight in MAESTRO and advise a landing time.
 
 SFL may waive this requirement during periods of low traffic.
 
