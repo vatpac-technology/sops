@@ -663,6 +663,52 @@ The following calculator will generate a landing time from a feeder fix ETA, or 
 === "Feeder Fix Time"
     <div class="flowCalculatorFeederFixTime" data-aerodrome="YSWS"></div>
 
+## MAESTRO
+
+### Feeder Fix selection
+
+`BOREE`, `YAKKA`, and `MARLN` feeder fixes have been configured to allocate arrivals to `16L` or `34R` during parallel operations.
+
+If an aircraft cannot accept this allocation, ENR may move them to `16R` or `34L` without coordinating with SFL.
+This should be done at least 30 mins prior to `ETA_FF` to avoid changing the stable sequence.
+
+### Delay Strategy
+
+Enroute delay is prioritised over TMA delay.
+Arrivals should absorb as much of the required delay as possible before the feeder fix.
+1 - 2 mins of delay may be allocated to the TMA in order to avoid holding.
+
+Delay can be absorbed within the TMA by extending the downwind legs of the approach.
+
+### TMA Configuration
+
+| Mode | Runways | Rate | Dependency Rate |
+|------|---------|:----:|:---------------:|
+| 34IVA | 34L, 34R | 24/hr (150s) | - |
+| 34I | 34L, 34R | 20/hr (180s) | 60s |
+| 16IVA | 16R, 16L | 24/hr (150s) | - |
+| 16I | 16R, 16L | 20/hr (180s) | 60s |
+| 07I | 07 | 25/hr (144s) | - |
+| 25I | 25 | 25/hr (144s) | - |
+| SODPROPS | 34L | 24/hr (150s) | - |
+
+### Views
+
+| View | Window | Reference | Ladders |
+|------|:------:|:---------:|---------|
+| GUN/BIK | 30 min | `STA_FF` | ENLAD, AKMIR |
+| ARL | 30 min | `STA_FF` | BOREE, YAKKA |
+| OCN | 30 min | `STA_FF` | MARLN |
+| ARL/OCN | 30 min | `STA_FF` | BOREE/YAKKA, MARLN |
+| ALL | 30 min | `STA_FF` | ENLAD/AKMIR, BOREE/YAKKA/MARLN |
+| RWY | 45 min | `STA` | 34L/16R/07, 34R/16L/25 |
+| FLO_RWY | 45 min | `STA` | 16R/34L, 16L/34R, 07, 25 |
+
+**FLO_RWY** uses a custom label layout displaying:
+- callsign and wake category coloured by feeder fix (**<span style="color: rgb(96, 0, 0); background-color: rgb(160, 170, 170);">ENLAD / AKMIR</span>**, **<span style="color: rgb(0, 105, 0); background-color: rgb(160, 170, 170);">BOREE / YAKKA</span>**, **<span style="color: rgb(0, 235, 235); background-color: rgb(160, 170, 170);">MARLN</span>**)
+- total required delay coloured by state
+- total remaining delay, coloured by state
+
 ## Coordination
 ### Enroute
 #### Departures
