@@ -358,7 +358,7 @@ Coordinate with BFL when an arrival is unable to accept their allocated runway.
 #### Delay Strategy
 
 Enroute delay is prioritised over TMA delay. Arrivals should absorb as much of the required delay as possible before the feeder fix.
-1 - 2 mins of delay may be allocated to the TMA in order to avoid holding.
+MAESTRO may allocate 1 - 2 minutes of delay to the TMA in order to avoid holding.
 
 #### TMA Configuration
 

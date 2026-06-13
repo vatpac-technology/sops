@@ -476,7 +476,7 @@ This should be done at least 30 mins prior to `ETA_FF` to avoid changing the sta
 
 Enroute delay is prioritised over TMA delay.
 Arrivals should absorb as much of the required delay as possible before the feeder fix.
-1 - 2 mins of delay may be allocated to the TMA in order to avoid holding.
+MAESTRO may allocate 1 - 2 minutes of delay to the TMA in order to avoid holding.
 
 Delay can be absorbed within the TMA by extending the downwind legs of the approach.
 
