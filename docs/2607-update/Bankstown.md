@@ -130,8 +130,8 @@ These aircraft will report ready to **BK ADC** with their departure intentions. 
 
     | Coded Clearance                       | Tracking       | 
     | ------------------------------------- | --------------------- |
-    | Mount Annan Outbound                  | <ul><li>At `A005`, turn left downwind, track to Dunc Gray Velodrome, climb to `A015`.</li><li>At Dunc Gray Velodrome and not before reaching `A015`, track to intersection of Hoxton Park Rd & M7.</li><li>Track via Mount Annan Outbound.</li></ul>
-    | Hornsby Outbound, or<br>Penrith Outbound  | <ul><li>Climb to `A005`, then turn left direct to PRT, climb to `A015`.</li><li>Track via nominated coded clearance.</li></ul>
+    | Mount Annan Outbound                  | <ul><li>At `A005`, turn left downwind, track to Dunc Gray Velodrome, climb to `A015`.</li><li>At Dunc Gray Velodrome and not before reaching `A015`, track to intersection of Hoxton Park Rd & M7.</li><li>Track via Mount Annan Outbound.</li></ul> |
+    | Hornsby Outbound, or<br>Penrith Outbound  | <ul><li>Climb to `A005`, then turn left direct to PRT, climb to `A015`.</li><li>Track via nominated coded clearance.</li></ul> |
     | Woronora Outbound                     | As directed by ATC to REVS |
 
 === "Departure RWY 29"
