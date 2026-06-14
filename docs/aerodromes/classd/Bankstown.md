@@ -226,3 +226,13 @@ BK ADC must coordinate **all helicopter traffic** via CSTH. Coordination must ta
 !!! phraseology
     <span class="hotline">**BK ADC N** -> **BK ADC C**</span>: "Choppers South Inbound/Outbound"  
     <span class="hotline">**BK ADC C** -> **BK ADC N**</span>: "Roger, Traffic is a Cherokee late downwind"
+
+### MAESTRO
+
+When a departure is bound for YSSY and MAESTRO is in use, **BK SMC** shall advise **SFL** when the aircraft commences taxi. SFL will activate the flight in MAESTRO and advise a landing time.
+
+SFL may waive this requirement during periods of low traffic.
+
+!!! phraseology
+    <span class="hotline">**BK SMC** -> **SFL**</span>: "XKF, taxiing YSSY"  
+    <span class="hotline">**SFL** -> **BK SMC**</span>: "XKF, landing time 45"

@@ -60,3 +60,13 @@ INL/ARL(MNN) will heads-up coordinate all arrivals/overfliers to CFS ADC.
     <span class="hotline">**CFS ADC** -> **INL**</span>: "RXA6416"  
 
 The Standard Assignable level from INL/ARL(MNN) to CFS ADC is `A080`, any other level must be prior coordinated.
+
+### MAESTRO
+
+When a departure is bound for YBBN and MAESTRO is in use, **CFS ADC** shall advise **BFL** when the aircraft commences taxi. BFL will activate the flight in MAESTRO and advise of any delay that can be absorbed on the ground before departure.
+
+BFL may waive this requirement during periods of low traffic.
+
+!!! phraseology
+    <span class="hotline">**CFS ADC** -> **BFL**</span>: "JST441, taxiing YBBN"  
+    <span class="hotline">**BFL** -> **CFS ADC**</span>: "JST441, landing time 22, no delay"

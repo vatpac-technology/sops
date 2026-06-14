@@ -211,6 +211,35 @@ The following calculator will generate a landing time from a feeder fix ETA, or 
 === "Feeder Fix Time"
     <div class="flowCalculatorFeederFixTime" data-aerodrome="YPPH"></div>
 
+### MAESTRO
+
+#### Delay Strategy
+
+Enroute delay is prioritised over TMA delay. Arrivals should absorb as much of the required delay as possible before the feeder fix.
+MAESTRO may allocate 1 - 2 minutes of delay to the TMA in order to avoid holding.
+
+#### TMA Configuration
+
+| Mode | Runways | Rate | Dependency Rate |
+|------|---------|:----:|:---------------:|
+| 21/24 | 21, 24 | 24/hr (150s) | 30s |
+| 21 | 21 | 25/hr (144s) | — |
+| 24 | 24 | 25/hr (144s) | — |
+| 03 | 03 | 25/hr (144s) | — |
+| 06 | 06 | 25/hr (144s) | — |
+
+Perth has no feeder fix preferences configured; Maestro assigns each flight to the runway producing the earliest landing time.
+
+#### Views
+
+| View | Window | Reference | Ladders |
+|------|:------:|:---------:|---------|
+| PIY | 30 min | `STA_FF` | JULIM/SAPKO, KABLI/DAYLR/LAVEX |
+| LEA | 30 min | `STA_FF` | KAGMI |
+| JAR | 30 min | `STA_FF` | OLMAM, SOLUS |
+| ALL/HYD | 30 min | `STA_FF` | JULIM/SAPKO/KAGMI/SOLUS, KABLI/DAYLR/LAVEX/OLMAM |
+| RWY | 45 min | `STA` | 03/21, 06/24 |
+
 ## Coordination
 ### Enroute
 #### Departures

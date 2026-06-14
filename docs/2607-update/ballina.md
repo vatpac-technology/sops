@@ -66,3 +66,13 @@ VFR aircraft require a level readback.
 !!! phraseology
     <span class="hotline">**BAA** -> **BA ADC**</span>: "via AVBAK for RNP-Y, QLK2035"  
     <span class="hotline">**BA ADC** -> **BAA**</span>: "QLK2035, RNP-Y"
+
+### MAESTRO
+
+When a departure is bound for YBBN and MAESTRO is in use, **BA ADC** shall advise **BFL** when the aircraft commences taxi. BFL will activate the flight in MAESTRO and advise of any delay that can be absorbed on the ground before departure.
+
+BFL may waive this requirement during periods of low traffic.
+
+!!! phraseology
+    <span class="hotline">**BA ADC** -> **BFL**</span>: "QLK2035, taxiing YBBN"  
+    <span class="hotline">**BFL** -> **BA ADC**</span>: "QLK2035, landing time 22, 8 minutes delay"
