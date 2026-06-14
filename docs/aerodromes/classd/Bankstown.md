@@ -157,13 +157,19 @@ Three helicopter reporting points help keep helicopters segregated from other tr
 - **CSTH**: Intersection of two creeks enclosing a sewage treatment works 2.1nm south of the aerodrome reference point
 
 ### Inbound Procedures
-Helicopters should track inbound at `A007` via one of the normal inbound points (PSP or CRSC) or via *Olympic Park* and report to **BK ADC** at that point. In response, **BK ADC** should instruct the aircraft to track as below:
+Helicopters should track inbound to the BK CTR as per below:
+
+- Via a coded clearance or inbound reporting point (PSP or CRSC), or
+- From R407, tracking RYB-CWST/CNTH (depending on runway mode) at `A007`
+
+Pilots will report to **BK ADC** prior to entering the BK CTR and should be instructed to track as per below:
 
 | Inbound Point | RWY 11 Config | RWY 29 Config |
 | ----------------| --------- | ---------- |
 | PSP | *"Report CWST"*, then <br>*"Join base main pad"* | *"Report CNTH"*, then <br>*"Join base main pad"* |
 | CRSC | *"Report CSTH, A005"*, then <br>*"Overfly midfield at A005, join downwind main pad"* | *"Report CSTH, A005"*, then <br>*"Overfly midfield at A005, join downwind main pad"* |
 | *Olympic Park* | *"Report CWST"*, then <br>*"Join base main pad"* | *"Report CNTH"*, then <br>*"Join base main pad"* |
+| RYB | *"Report CWST"*, then <br>*"Join base main pad"* | *"Report CNTH"*, then <br>*"Join base main pad"* |
 
 !!! note
     Helicopters tracking via CSTH will pass over the runway complex midfield at `A005` to join downwind. Be mindful of aircraft in the fixed-wing circuit and pass traffic information to both aircraft prior to the fixed-wing aircraft turning final.  
@@ -173,16 +179,21 @@ Helicopters should track inbound at `A007` via one of the normal inbound points 
     *"YZD, traffic is a Cherokee turning final for runway left, overfly midfield at `A005`, join downwind main pad"*
 
 ### Outbound Procedures
-Helicopters should track outbound via one of the helicopter reporting points at `A007`. Departures to the north must track via CWST when RWY 29s are in use and CNTH when RWY 11s are in use.
+Helicopters should track outbound from the BK CTR as per below:
 
-Helicopters shall report ready to **BK ADC** with their departure intentions. In response, **BK ADC** will clear the aircraft for takeoff and instruct them to track via the appropriate exit gate.
+- Via a coded clearance, or
+- To R407, tracking CWST/CNTH-RYB (depending on runway mode) at `A007`
+
+Departures to the north must track via CWST when RWY 29s are in use and CNTH when RWY 11s are in use.
+
+Helicopters shall report ready to **BK ADC** with their departure intentions. In response, **BK ADC** shall clear the aircraft for takeoff and instruct them to track via the appropriate exit gate.
 
 !!! phraseology
     **YZD:** "Bankstown Tower, helicopter YZD, main pad, for Choppers North departure, ready"  
     **BK ADC:** "YZD, Bankstown Tower, depart Choppers North, main pad, cleared for takeoff"
 
 !!! note
-    Helicopters tracking via CSTH will pass over the runway complex midfield at `A005` to join downwind. Be mindful of aircraft in the fixed-wing circuit and pass traffic information to both aircraft prior to the helicopter becoming airborne.  
+    Helicopters tracking via the Mt Annan Outbound will pass over the runway complex midfield at `A005` to join downwind. Be mindful of aircraft in the fixed-wing circuit and pass traffic information to both aircraft prior to the helicopter becoming airborne.   
 
     Example:  
     *"XEL, traffic is a helicopter overflying the aerodrome to the south at `A005`, runway left, cleared touch and go"*  

@@ -416,6 +416,7 @@
 *[ROTC]: Robina Town Centre
 *[RRDM]: Ross River Dam
 *[RUSS]: Russell
+*[RYB]: Ryde Bridge
 *[SBD]: Story Bridge
 *[SHOL]: Shoal
 *[SHOP]: Armadale Shops

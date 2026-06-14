@@ -196,7 +196,9 @@ Departures will be cleared for a coded clearance by **BK SMC** and will contact 
 Each coded clearance includes a frequency transfer and control service termination instruction. No explicit instructions should be given to these aircraft.
 
 !!! warning "Important"
-    When a Super aircraft is arriving **Runway 07** at YSSY, there is no wake turbulence separation between aircraft on the **Woronora Outbound** coded clearance. **SBA** must take extra steps to ensure wake turbulence separation when Runway 07 is in use at YSSY.
+    When a Super-category aircraft is arriving **Runway 07** at YSSY, there is no wake turbulence separation between aircraft on the **Woronora Outbound** coded clearance. **SBA** must take extra steps to ensure wake turbulence separation (which may involve coordinating with BK ADC to delay the aircraft on the ground).
+
+    Alternatively, pilots may offer a wake turbulence waiver, assuming responsibility for wake turbulence avoidance.
 
 #### Arrivals
 Arrivals shall contact **SYC** for identification prior to entering CTA. SYC shall provide a squawk code and identify the aircraft, perform normal [Radar Position to TCU coordination](../../controller-skills/coordination/#radar-position-tcu-controllers) to **SBA**, then issue frequency transfer.
@@ -407,6 +409,9 @@ Aircraft inbound from the north should track via the **Z88 airway** and be proce
 A single STAR exists to process aircraft inbound to YSCN from the east, terminating in vectors. IFR aircraft from other directions should be processed via the RNP-W IAF.
 
 The RNP-W commences inside CTA (except aircraft maintaining the MSA via SC2WA). SY TCU shall clear aircraft to leave CTA via the approach and transfer them to **CN ADC** no later than SC2WI. CN ADC will issue onwards clearance into the CN CTR.
+
+!!! warning "Important"
+    Successive RNP approaches in IMC should only be authorised after the first aircraft lands at YSBK due to the conflict between the approach and published missed approach. In practice, this translates to an **8 min** sequence between arrivals.
 
 ### YWLM STARs
 YWLM arrivals from the south and west will transit the SY TCU as they descend. BIK/KAT will provide these aircraft with their STAR clearance and initial descent, before conducting heads-up coordination with the relevant SY TCU controller to facilitate further descent.
