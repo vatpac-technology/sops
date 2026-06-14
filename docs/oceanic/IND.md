@@ -33,6 +33,12 @@ The Primary Communication Method for IND is [CPDLC](../../client/cpdlc). Voice m
 ## Extending
 !!! warning "Important"
     IND (and its subsectors) are **not permitted** to extend to any adjacent Domestic/International sectors
+    
+## Local Procedures
+### Special Use Airspace
+There are volumes of [SUA](../../controller-skills/sua) within IND airspace, mostly associated with military operations in and out of YPLM.
+
+LMA (or OLW on their behalf) will coordinate the activation these SUA **prior** to any activity.
 
 ## STAR Clearance Expectation
 ### Handoff
