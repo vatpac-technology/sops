@@ -45,7 +45,7 @@ Upon readback of an airways clearance or PDC, instruct aircraft to contact Adela
 WorldFlight Teams shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
 
 !!! tip
-    The [vatSys Events Plugin](https://github.com/badvectors/EventsPlugin){target=new} will also highlight WF Teams, as shown below. Click on the link to install it, or alternatively, use the [Plugin Manager](https://github.com/badvectors/PluginManager){target=new}
+    The [vatSys Events Plugin](https://github.com/badvectors/EventsPlugin){target=new} will also highlight WF Teams, as shown below. Click on the link to install it.
 
     <figure markdown>
     ![WF Team Highlight with Events Plugin](../img/wfteam.png){ width="400" }
