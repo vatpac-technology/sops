@@ -183,9 +183,9 @@ This is **entirely unnecessary**, and just uses up additional talking time, and 
 Further transmissions can be saved in the busy TMA, with the use of *"Descend via STAR"* phraseology when CTA protection is in place, **only** where Level Restrictions exist on the STAR assuring aircraft remain inside CTA.
 
 !!! example
-    RXA4652 is tracking via ODALE for the ODALE7 STAR to runway 34R. CTA LL is `A075`, but the STAR has built-in CTA protection (At or Above A080 at **KABLO**)
+    QLK475D is tracking via MAXAL on the BOOIN1 STAR to runway 09. CTA LL is `A085`, but the STAR has built-in CTA protection (At or Above `A090` at **MAXAL**)
 
-    "RXA4652, Sydney Approach, runway 34R, descend via the STAR to A060"
+    "QLK475D, Melbourne Approach, descend via STAR to A060"
 
 !!! warning "Important"
     **Only** use SID/STAR Level Restrictions to assure separation with CTA, Terrain, and Conflicts, when you are **very familiar** with the airspace.

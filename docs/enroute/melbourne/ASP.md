@@ -73,14 +73,14 @@ There are multiple volumes of [SUA](../../../controller-skills/sua/) within ASP 
 When **WR ADC** is online, **R222F** Restricted Area is activated `SFC` to `F120` by default. WR ADC must [give heads up coordination](../../../aerodromes/procedural/Woomera/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
 
 !!! phraseology
-    <span class="hotline">**WAL** -> **ARL**</span>: "On the groud YWLM, PTHR11, requests activation of R560A `A085-F240`, from 0300 until 0500.”  
-    <span class="hotline">**ARL** -> **WAL**</span>: "PTHR11, expect activation of R560A `A085-F240` at 0300 until 0500."   
-    <span class="hotline">**WAL** -> **ARL**</span>: "PTHR11."  
+    <span class="hotline">**WR ADC** -> **WRA**</span>: "On the ground YPWR, BFLO11, requests activation of R222C `SFC-F290`, from 0100 until 0300."  
+    <span class="hotline">**WRA** -> **WR ADC**</span>: "BFLO11, expect activation of R222C `SFC-F290` at 0100 until 0300."  
+    <span class="hotline">**WR ADC** -> **WRA**</span>: "BFLO11.    
 
 Non-participating aircraft intenting to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../controller-skills/sua/#ad-hoc-activations).
 
 #### Woomera SUA
-There are multiple restricted areas associated with military operations at [YPWR](../../../aerodromes/procedural/Woomera/): R222A-J, R237, R246A-C, R273, R281, and R287A-C. All restricted areas are located with the WRA subsector, and two (R22I and R22J) extend into FOR airspace.
+There are multiple restricted areas associated with military operations at [YPWR](../../../aerodromes/procedural/Woomera): R222A-L, R237, R246A-C, R273, R281, and R287A-C. All restricted areas are located with the WRA subsector; R222I and R222J extend into FOR airspace, and R222K and R222L extend across ASP, ASW, WAR, and OLW(MZI, LEO).
 
 These restricted areas directly adjoin the jurisdiction of WR ADC, and when WR ADC is online aircraft will be transferred directly to/from the MOAs.
 
@@ -101,8 +101,12 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | ---- | -------- | --------- | --------- |
 | FOR, WRA, BKE | TBD(AUG) | YPAD, YPED | Jets only |
 | BKE | TBD | YPAD, YPED | |
-| ESP | HYD | YPPH, YPEA | Jets only |
 | BKE | GUN(KAT), MUN(GTH) | YSSY | |
+| BKE | GUN(KAT)           | YSWS |
+| ESP | HYD | YPPH, YPEA | Jets only |
+
+!!! tip
+    To help facilitate sequencing, BKE should aim to handoff aircraft to KAT **as soon as possible**, ie, **>50nm** to the boundary if there are no restrictions.
 
 ## Coordination
 ### Enroute

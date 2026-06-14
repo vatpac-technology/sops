@@ -23,7 +23,7 @@
   <figcaption>ED ADC Airspace</figcaption>
 </figure>
 
-## Restricted Area Activations
+### Restricted Area Activations
 There are no [restricted areas or MOAs](../../../controller-skills/sua) activated by default when ED ADC is online.
 
 #### SUA in TCU Airspace

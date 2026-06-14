@@ -32,10 +32,10 @@ WLM ADC is responsible for the airspace within the WLM MIL CTR A from `SFC` to `
 ### Airspace Division
 **WAL** owns the WLM TCU airspace `SFC` to `F125`.
 
-**WAH** owns any airspace above `F125` activated by ad-hoc release with ARL or NOTAM.
+**WAH** owns any airspace above `F125` activated by ad-hoc release with MNN or NOTAM.
 
 !!! note
-    The upper limit of **WAH** must be coordinated with ARL *prior* to the position logging on.
+    The upper limit of **WAH** must be coordinated with MNN *prior* to the position logging on.
 
 ### Restricted Area Activations
 There are no [restricted areas or MOAs](../../controller-skills/sua) activated by default when WAL is online.
@@ -48,13 +48,13 @@ Upon receiving [airways clearance coordination from ACD](#acd-to-wlm-tcu) of an 
 This gives the enroute controller sufficient time to assess the request, make necessary adjustments to any aircraft in the area currently, and activate the SUA; or alternately to refuse the activation request before the aircraft is in the air.
 
 !!! phraseology
-    *PTHR11 is requesting clearance to operate in the R560A restricted area.*  
-    <span class="hotline">**WLM ACD** -> **WAL**</span>: "PTHR11 requests clearance to R560A via Thunder corridor.”  
+    *PTHR11 is requesting clearance to operate in the M581 restricted area.*  
+    <span class="hotline">**WLM ACD** -> **WAL**</span>: "PTHR11 requests clearance to M581.”  
     <span class="hotline">**WAL** -> **WLM ACD**</span>: "Standby, call you back."  
     
-    <span class="hotline">**WAL** -> **ARL**</span>: "On the groud YWLM, PTHR11, requests activation of R560A `A085-F240`, from 0300 until 0500.”  
-    <span class="hotline">**ARL** -> **WAL**</span>: "PTHR11, expect activation of R560A `A085-F240` at 0300 until 0500."   
-    <span class="hotline">**WAL** -> **ARL**</span>: "PTHR11."   
+    <span class="hotline">**WAL** -> **MNN**</span>: "On the groud YWLM, PTHR11, requests activation of M581 `A085-F240`, from 0300 until 0500.”  
+    <span class="hotline">**MNN** -> **WAL**</span>: "PTHR11, expect activation of M581 `A085-F240` at 0300 until 0500."   
+    <span class="hotline">**WAL** -> **MNN**</span>: "PTHR11."   
     
     <span class="hotline">**WAL** -> **WLM ACD**</span>: "PTHR11, clearance approved."   
     <span class="hotline">**WLM ACD** -> **WAL**</span>: "Clearance approved, PTHR11"  
@@ -286,7 +286,7 @@ Voiceless for all aircraft:
 !!! note
     Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**.
 
-All other aircraft going to ARL CTA must be **Heads-up** coordinated by WLM TCU prior to the boundary.
+All other aircraft going to MNN CTA must be **Heads-up** coordinated by WLM TCU prior to the boundary.
 
 !!! phraseology
     <span class="hotline">**WAH** -> **MLD**</span>: "QJE1597, request DCT OMGAB"  
@@ -299,7 +299,7 @@ Voiceless for all aircraft:
 - Assigned a STAR; and  
 - Assigned `A090`
 
-All other aircraft coming from ARL CTA will be **Heads-up** coordinated to WLM TCU.
+All other aircraft coming from MNN CTA will be **Heads-up** coordinated to WLM TCU.
 
 ### WLM ADC
 #### Airspace

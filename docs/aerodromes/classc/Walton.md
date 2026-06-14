@@ -1,14 +1,9 @@
 ---
-title: Walton (YSWS)
+  title: Walton (YSWS)
 ---
 
 --8<-- "includes/abbreviations.md"
 
-!!! comingsoon "Future Procedure"
-    This page documents **future procedures** that are scheduled to be introduced on **09 July 2026**. 
-    
-    Controllers are strongly encouraged to familiarise themselves with the incoming changes before launch day.
-    
 ## Positions
 
 | Name                      | Callsign               | Frequency   | Login ID      |
@@ -32,6 +27,12 @@ To minimise conflict on the Cargo Apron, it is recommended that taxi instruction
 
 `ERSA FAC YSWS` noise abatement procedures require all aircraft to depart from full length only. This should be simulated where practical but intersection departures should be provided to aircraft on request, where available.
 
+<!--## Local Procedures
+
+## VFR Operations
+
+## Helicopter Operations
+-->
 ## Runway Modes
 ### Preferred Runway Modes
 Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
@@ -40,7 +41,7 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 | ----------------| --------- | ---------- |
 | 1 - 23          | 23        | 23         |
 | 2 - 05          | 05        | 05         |
-| * RRO        | 05        | 23         |
+| * RRO           | 05        | 23         |
 
 *Permitted between the hours of 2300 and 0530 local when [YSSY Curfew Operations](../Sydney/#preferred-runway-modes) are in use.
 
@@ -76,7 +77,7 @@ YSWS uses four different SID designators to differentiate between different vari
 		| Jet     | LEECE<br>NWA NDB | **TONTO D** SID, Relevant Transition | 
 		| Jet     | All others | RADAR SID |
 		| Non-Jet | DIPSO<br>KAMBA<br>NOBAR | **KAMBA D** SID, Relevant Transition |
-        | Non-Jet | South<br>Southeast<br>Southwest | **ADPAV D** SID |
+		| Non-Jet | South<br>Southeast<br>Southwest | **ADPAV D** SID |
 		| Non-Jet | All others | **ISDIT D** SID |
 		
 	=== "Hot/Heavy"
@@ -110,7 +111,8 @@ YSWS uses four different SID designators to differentiate between different vari
 		| Jet     | All others | RADAR SID |
 		| Non-Jet | EXETA<br>NWA NDB<br>WOL NDB | **REGER D** SID, Relevant Transition |
 		| Non-Jet | North and East | **LEKID D** SID |
-        | Non-Jet | All others | RADAR SID |
+		| Non-Jet | All others | RADAR SID |
+		
 		
 	=== "Hot/Heavy"
 		| Type    | Via      | SID           |
@@ -141,27 +143,28 @@ YSWS uses four different SID designators to differentiate between different vari
 		| Jet     | PKS VOR  | **TEEVE Q** SID, Relevant Transition |
 		| Non-Jet | KAMBA    | **KAMBA Q** SID |
 		| Non-Jet | All others | As per Jets |
-        
-         Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
+
+        Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
 !!! warning
     Whilst OzStrips will automatically select the correct SID based on runway mode, time of day, and temperature, controllers using the default vatSys strips (e.g. while top down) will need to manually select the most relevant procedure from the table above. The default SID may not be the correct one. 
 
+
 ## ATIS
 ### Operational Info
-The OPR INFO field should be updated to reflect the level of controlled airspace within the SY C10 area when it is lowered overnight.
+The OPR INFO field should be updated to reflect the level of controlled airspace within the [SY CTA C10](../../../terminal/sydney/#sydney-cta-c10) airspace when it is lowered overnight.
 
 | Condition    | OPR INFO Field |
 | ------------ | -------------- |
-| Between 2300 and 0600 Local   | `SY CTA 10 SOUTH OF WS CTR ACTIVE` |
+| Between 2300 and 0600 Local   | `SY CTA C10 SOUTH OF WS CTR ACTIVE` |
 
 #### ACD Pushback Requests
-When implementing the ['Pushback Requests on ACD'](../../controller-skills/grounddelaymanagement/#pushback-requests-on-acd) procedure, the OPR INFO shall include:
+When implementing the ['Pushback Requests on ACD'](../../../controller-skills/grounddelaymanagement/#pushback-requests-on-acd) procedure, the OPR INFO shall include:
 `ALL DEPARTURES MUST REQUEST PUSH BACK ON 118.65`.
 
 ## Coordination
 ### Auto Release
-[Next](../../controller-skills/coordination/#next) coordination is **not** required for aircraft that are:   
+[Next](../../../controller-skills/coordination/#next) coordination is **not** required for aircraft that are:   
 
 - Departing from a runway nominated on the ATIS; and   
 - Assigned the standard assignable level; and  
@@ -171,7 +174,7 @@ All other aircraft require a 'Next' call to SWA.
 
 'Next' coordination is additionally required for:  
  
-- [After a go around](../../controller-skills/coordination/#after-a-go-around), the next departure from that runway.
+- [After a go around](../../../controller-skills/coordination/#after-a-go-around), the next departure from that runway.
 - All aircraft during the [RRO](#reciprocal-runway-operations) runway mode.
 
 The Standard Assignable level from WS ADC to SWA is: 
@@ -189,7 +192,7 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
 | All    | All  | 118.4 (SWA) |
 
 #### ACD to SY TCU
-The controller assuming responsibility of **WS ACD** shall give [heads-up](../../controller-skills/coordination/#airways-clearance) coordination to SWA prior to the issue of the following clearances: 
+The controller assuming responsibility of **WS ACD** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to SWA prior to the issue of the following clearances: 
 
 - VFR departures
 - Aircraft with `ADES` YSSY, YSBK, YSCN, YSRI, or YSHW

@@ -12,37 +12,75 @@
 | **Camden SMC**    | **Camden Ground**     | **121.900** | **CN_GND**    |
 | **Camden ATIS**   |                       | **125.100** | **YSCN_ATIS** |
 
+!!! warning "Important"
+    There are [additional restrictions](#night-operations) on controllers logging on as **CN ADC** and **CN SMC** between the hours of 23:00 and 06:00 Sydney local time.
+
 ## Airspace
 CN ADC is responsible for the Class D airspace in the CN CTR `SFC` to `A020`.
 
 <figure markdown>
-![CN ADC Airspace](img/YSCN_Vatsys.PNG){ width="700" }
+![CN ADC Airspace](./img/cn_adc.png){ width="700" }
 <figcaption>CN ADC Airspace</figcaption>
 </figure>  
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
-## Local Procedures 
-### Instrument Approaches
-The only instrument approach at YSCN is the RNP W approach.  This approach commences OCTA and enters the Camden control zone.  
+### Night Operations
+Controllers are prohibited from logging on as **CN ADC** or **CN SMC** between 23:00 and 06:00 Sydney local time.
 
-SY TCU **will not** clear aircraft for the approach (as it commences OCTA) and will transfer aircraft to **CN ADC** at `SC2WI`.  **CN ADC** shall issue airways clearance on first contact in accordance with the table below.  
+During this time, the [Sydney CTA C10 Airspace](../../../terminal/sydney/#sydney-cta-c10) overhead YSCN extends to `A015`, precluding normal operations.
+
+## Local Procedures
+### Start Approval
+Start approval is required on SMC for all aircraft intending to operate in the circuit area.
+
+!!! phraseology  
+    **WKM**: "Camden Ground, Citabria WKM, for circuits, received Echo, request engine start"  
+    **CN SMC**: "WKM, Camden Ground, start approved"  
+    **WKM**: "Start approved, WKM"
+
+### Glider Operations
+Glider operations are regularly conducted in VMC at YSCN, within the CN CTR.
+
+Gliders will use the grass runways adjacent to Runway 10/28 for all operations, with circuits performed on the dead side of the field.
+
+<figure markdown>
+![Camden Glider Operations Area](./img/cn_glider_ops.png){ width="700" }
+<figcaption>Camden Glider Operations Area</figcaption>
+</figure>  
+
+The grass runways are outside of the manouevring area, and ATS service to the gliders is limited to traffic information upon receiving an inbound call.
+
+!!! phraseology
+    **ABC:** "Camden Tower, Glider ABC inbound at THK, `A008`, for glider strip 24"    
+    **CN ADC:** "Glider ABC, Camden Tower, no reported traffic"
+
+!!! tip
+    When glider operations are in progress, the [ATIS OPR INFO](#operational-info) field should be updated to advise other aircraft.
+
+### Instrument Approaches
+The only instrument approach at YSCN is the RNP W approach.  This approach commences within CTA, leaves controlled airspace on descent, and then enters the Camden control zone.  
+
+SY TCU will clear aircraft to leave controlled airspace via the approach and will transfer aircraft to **CN ADC** prior to `SC2WI`.  **CN ADC** shall issue airways clearance on first contact in accordance with the table below.  
 
 | Scenario | Clearance |
 | -------- | --------- |
-| Aircraft is visual & circuit traffic exists | "*Cleared RNP-W approach, not below A018*" |
-| Aircraft not visual or no circuit traffic | "*Cleared RNP-W approach, runway 06/24*" |
+| Aircraft is visual & circuit traffic exists | "*Cleared RNP-W approach, not below `A018`*" |
+| Aircraft not visual or no circuit traffic | "*Cleared RNP-W approach, [circuit joining instructions]*" |
+
+!!! example
+    **CN ADC**: "AM251, cleared RNP-W approach, join upwind runway 06"
 
 !!! note
     The circuit altitude at YSCN is `A013` and the overfly altitude is `A018`.  Aircraft issued a restriction to descend not below `A018` should be instructed to join the circuit once clear of traffic established in the circuit area.
 
 ## VFR Operations
-## Departures
+### Departures
 All aircraft must depart at `A013` via an extended leg of the circuit.
-Upon reaching 2NM CN, all VFR aircraft should monitor the appropriate area frequency (Sydney Approach). A frequency transfer will not be issued to VFR aircraft.
+Upon reaching 2NM CN, all VFR aircraft should monitor the appropriate area frequency (SYC). A frequency transfer will not be issued to VFR aircraft.
 Departing IFR aircraft will receive a frequency transfer.
 
-### Depart On Climb
+#### Depart On Climb
 Some aircraft may request to leave the CTR on climb above `A013`.  If there is no reported traffic above the zone and no conflicting traffic at `A018`, aircraft may be cleared to depart on climb.
 
 !!! phraseology
@@ -52,27 +90,24 @@ Some aircraft may request to leave the CTR on climb above `A013`.  If there is n
     **PCN:** "PCN, request depart on climb"  
     **CN ADC:** "PCN, depart on climb"
 
-
-## Arrivals
-### VFR Inbound Procedures
+### Arrivals
+#### VFR Inbound Procedures
 VFR aircraft should track via one of the VFR inbound points and be instructed as below:
 
 | VFR Approach Point | RWYs 06  | RWYs 24 |
 | ----------------| --------- | ---------- |
-| BRY    | *"Join Downwind RWY 06, Maintain A018, Report 2NM"*     | *"Join Final RWY 24, Maintain A018, Report Oran Park (ONPK)"*       |
 | MEG  | *"Overfly Camden to join Mid-Field Crosswind RWY 06, Maintain A018, Report Overhead"*      | *"Overfly Camden to join Mid-Field Crosswind RWY 24, Maintain A018, Report Overhead"*       |
 | PIC   | *"Overfly Camden to join Mid-Field Crosswind RWY 06, Maintain 1800ft, Report Overhead"*      | *"Overfly Camden to join Mid-Field Crosswind RWY 24, Maintain A018, Report Overhead"*       |
 | THK  | *"Join Final RWY 06, Maintain A018, Report 3NM"*    | *"Join Downwind RWY 24, Maintain A018, Report 2NM"*      |
-| MYF   | *"Join Base RWY 06, Maintain A018, Report 2NM"*      | *"Join Base RWY 24, Maintain A018, Report 2NM"*       |
 
-When Aircraft are clear of conflicting traffic below, aircraft may *"cleared visual approach"*.
+When Aircraft are clear of conflicting traffic below, aircraft may be *"cleared visual approach"*.
 
 When an aircraft reports at their specified report point (or on downwind), issue the aircraft its sequence in the circuit.
-!!! phraseology
-    *"XEM, number 3 Runway 06, follow the C172 on base"*
 
-## Runway Modes
-### Circuits
+!!! phraseology
+    **CN ADC:** "XEM, number 3 Runway 06, follow the C172 on base"
+
+## Circuits
 The circuit direction changes depending on time of day and runway being used.
 
 | Runway | Day  | Night |
@@ -85,6 +120,7 @@ The circuit direction changes depending on time of day and runway being used.
 Circuits are flown at `A013` (High Performance Aircraft: `A018`)
 
 When an aircraft reports on downwind, indicate their position in the sequence (and give a follow instruction if the sequence has changed since the last circuit).
+
 !!! phraseology
     **JKA:** "JKA, downwind, touch and go"  
     **CN ADC:** "JKA, number 2"
@@ -96,15 +132,18 @@ When an aircraft reports on downwind, indicate their position in the sequence (a
 | At or above `A035`  | >5000M     | (blank)         |
 | Below `A035` **or** | <5000M     | `EXP INST APCH` |
 
+### Operational Info
+When [glider operations](#glider-operations) are being conducted, the OPR INFO field should be updated to include `GLIDER OPS IN PROG`.
+
 ## Coordination
 
 ### Departures
 CN ADC must advise SY TCU when the aircraft has called 'Ready'. In response to a ready call, SY TCU will issue a traffic statement.
 
 !!! phraseology
-    <span class="hotline">**CN ADC** -> **SRI**</span>: "Ready, MHQ, Runway 06"  
-    <span class="hotline">**SRI** -> **CN ADC**</span>: "MHQ, traffic is MEH, an IFR AC50, tracking SHL RAKSO SB2WI, `A035`, estimate RAKSO time 35" (or "No Reported IFR Traffic")  
-    <span class="hotline">**CN ADC** -> **SRI**</span>: "Traffic is MEH tracking SHL RAKSO SB2WI `A035`, RAKSO at 35"  
+    <span class="hotline">**CN ADC** -> **SYC**</span>: "Ready, MHQ, Runway 06"  
+    <span class="hotline">**SYC** -> **CN ADC**</span>: "MHQ, traffic is MEH, an IFR AC50, tracking SHL RAKSO SB2WI, `A035`, estimate RAKSO time 35" (or "No Reported IFR Traffic")  
+    <span class="hotline">**CN ADC** -> **SYC**</span>: "Traffic is MEH tracking SHL RAKSO SB2WI `A035`, RAKSO at 35"  
     
     **CN ADC:** "MHQ, traffic is MEH, IFR AC50 tracking SHL RAKSO SB2WI at `A035`, estimating RAKSO at time 35, runway 06, cleared for takeoff"  
     **MHQ:** "Runway 06, cleared for takeoff, MHQ"
@@ -121,10 +160,10 @@ SY TCU will coordinate inbound IFR aircraft. CN ADC is responsible for issuing a
 SY TCU will **NOT** clear the aircraft for the approach.
 
 !!! phraseology
-    <span class="hotline">**SRI** -> **CN ADC**</span>: “via RNP W, HRP”  
-    <span class="hotline">**CN ADC** -> **SRI**</span>: “HRP”   
+    <span class="hotline">**SYC** -> **CN ADC**</span>: “via RNP W, HRP”  
+    <span class="hotline">**CN ADC** -> **SYC**</span>: “HRP”   
 
 **CN ADC** must issue an airways clearance to these aircraft on first contact.
 
 ### IFR overflying YSCN
-SRI will advise CN ADC of observed IFR aircraft overflying CN CTR below `A025`.
+SYC will advise CN ADC of observed IFR aircraft overflying CN CTR below `A025`.

@@ -130,7 +130,7 @@ Winds must always be considered for runway modes (Crosswind <20kts, Tailwind <5k
 ## SID Selection
 **Jet** Aircraft planned via **CULIN**, **TANTA**, **WG VOR**, **HOWLY**, **NONUP** or **AVBEG** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
-**Non-Jet** Aircraft planned via **AKMIR** or **DUBUS** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
+**Non-Jet** Aircraft planned via **DUBUS** or **IDROP** shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
 
 !!! example
     Jet Aircraft planned via TANTA, assigned runway 35, shall be given the TANTA SID.
@@ -177,7 +177,7 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
     | Runway | Via  | Departure Frequency |
     | ------ | ---- | -------------------- |
     | 17 | DUBUS<br>HOWLY<br>NONUP<br>TANTA<br>WG VOR<br>West | 125.9 (CBW) |
-    | 17 | AKMIR<br>AVBEG<br>CULIN<br>East | 124.5 (CBE) |
+    | 17 | IDROP<br>AVBEG<br>CULIN<br>East | 124.5 (CBE) |
 
 === "RWY 30"
 
@@ -190,4 +190,4 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
     | Runway | Via  | Departure Frequency |
     | ------ | ---- | -------------------- |
     | 35 | AVBEG<br>DUBUS<br>HOWLY<br>NONUP<br>TANTA<br>WG VOR<br>West | 125.9 (CBW) |
-    | 35 | AKMIR<br>CULIN<br>East | 124.5 (CBE) |
+    | 35 | IDROP<br>CULIN<br>East | 124.5 (CBE) |

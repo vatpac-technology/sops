@@ -140,14 +140,6 @@ Aircraft unable to accept a procedural SID, and **non-RNAV** aircraft shall be a
 ### Military Aircraft
 Military aircraft that are unable to accept a procedural SID shall be assigned either the RADAR SID or a visual departure.
 
-## ATIS
-### Approach Types
-During high levels of military traffic, **TNA** may nominate [stereo approaches](../../../controller-skills/military/#stereo-approaches) as the preferred approach type.
-
-| Condition         | ATIS APCH field |
-| ----------------- | --------------- |
-| Stereo Approaches | `MIL ACFT EXP STEREO APCH` |
-
 ## Coordination
 ### Auto Release
 [Next](../../../controller-skills/coordination/#next) coordination is required from TN ADC to TN TCU for all aircraft.

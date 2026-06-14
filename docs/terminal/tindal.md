@@ -115,17 +115,6 @@ The restricted area is rarely activated in isolation as it significantly disrupt
 
 #### R249A-B Tindal
 The R249A and R249B Tindal [restricted areas](../../controller-skills/sua/#restricted-areas) are contained entirely within TN TCU airspace. The areas are [activated by default](#restricted-area-activations) when TNA is online.
-	
-### Stereo Approaches
-In times of heavy military traffic, TN TCU may choose to nominate [stereo approaches](../../controller-skills/military/#stereo-approaches) as the preferred approach method. When stereo approaches have been nominated, the ATIS [APCH EXP field must be updated](../../aerodromes/classc/Tindal/#approach-types) accordingly.
-
-Aircraft arriving from TOP gate and BOTTOM gate will join the stereo approach at the gate; aircraft arriving from the east may be directed to join the approach via NORTH gate.
-
-!!! phraseology
-    *CLAS35 is returning from R225D via TOP gate, and has already been identified. Runway 32 is in use.*   
-    **CLAS35**: "Tindal Approach, CLAS35. `F170` visual, for stereo approach with information A."  
-    **TNA**: "CLAS35, Tindal Approach, cleared stereo approach. At 11 TACAN TDL contact Tower, 119.7"  
-    **CLAS35**: "Cleared stereo approach, contact Tower at 11 TACAN TDL, CLAS35"
 
 ### VFR Corridor
 #### Katherine Helicopter Corridor

@@ -40,23 +40,23 @@ The **coastline** is a good reference for this standard. Due to high terrain clo
     **CFS ADC:** "RXA6418, cancel the offshore requirement, track for downwind runway 21, cleared visual approach"
 
 ## Surveillance
-Surveillance coverage can be expected to be not available below `A028` in the CFS CTR. Although CFS ADC is **not permitted** to use surveillance for separation, ARL(MNN) or INL may assist by establishing surveillance separation standards via coordination
+Surveillance coverage can be expected to be not available below `A028` in the CFS CTR. Although CFS ADC is **not permitted** to use surveillance for separation, MNN or INL may assist by establishing surveillance separation standards via coordination
 
 ## Coordination
 ### Departures
-[Next](../../controller-skills/coordination.md#next) coordination is required from CFS ADC to INL/ARL(MNN) for all aircraft **entering INL/ARL(MNN) CTA**.
+[Next](../../controller-skills/coordination.md#next) coordination is required from CFS ADC to INL/MNN for all aircraft **entering INL/MNN CTA**.
 
-The Standard Assignable level from **CFS ADC** to **INL/ARL(MNN)** is:
+The Standard Assignable level from **CFS ADC** to **INL/MNN** is:
 
 | Aircraft | Level |
 | ---- | ---- |
 | All | The lower of `A070` and `RFL` |
 
 ### Arrivals/Overfliers
-INL/ARL(MNN) will heads-up coordinate all arrivals/overfliers to CFS ADC.
+INL/MNN will heads-up coordinate all arrivals/overfliers to CFS ADC.
 
 !!! phraseology
     <span class="hotline">**INL** -> **CFS ADC**</span>: "Via KADSI, RXA6416”  
     <span class="hotline">**CFS ADC** -> **INL**</span>: "RXA6416"  
 
-The Standard Assignable level from INL/ARL(MNN) to CFS ADC is `A080`, any other level must be prior coordinated.
+The Standard Assignable level from INL/MNN to CFS ADC is `A080`, any other level must be prior coordinated.

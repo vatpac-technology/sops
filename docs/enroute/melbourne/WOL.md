@@ -136,8 +136,16 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 	| YSSY | BOREE | **124.400** (SAN)      |
 	| YSSY | MARLN | **124.400** (SAN)      |
 	| YSSY | MEPIL | **124.400** (SAN)      |
-	| YSSY | ODALE | **128.300** (SAS)      |
+	| YSSY | AKMIR | **128.300** (SAS)      |
 	| YSSY | RIVET | **128.300** (SAS)      |
+    | YSCN | PRAWN | **124.400** (SAN)      |
+    | YSBK | WHALE | **124.400** (SAN)      |
+    | YSRI | RITSU | **135.900** (SRA)      |
+    | YSRI | RUPEM | **118.400** (SWA)      |
+    | YSWS | BIKUS | **124.400** (SAN)      |
+    | YSWS | RIKNI | **124.400** (SAN)      |
+    | YSWS | REVKI | **118.400** (SWA)      |
+    | YSWS | UNTAV | **135.900** (SRA)      |
 
 	!!! tip
 		The quick reference tables above only include scenarios for which there is [voiceless coordination](#sy-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
@@ -165,7 +173,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 #### Airspace
 SY TCU is responsible for the airspace within a 45nm radius of TESAT, `SFC` to `F285`.
 
-Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAN**, **SDN**, **SDS** and/or **SRI** are online.
+Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when any child position of **SAS** is online.
 
 #### Arrivals/Overfliers
 **Heads-up** Coordination required for all aircraft entering SY TCU from WOL CTA prior to **20nm** from the boundary.
