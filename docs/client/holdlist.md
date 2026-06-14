@@ -14,9 +14,10 @@ The Hold plugin replicates the Eurocat Hold window and functionality, helping En
 
 ## Installation
 
-The plugin can be installed through the [vatSys Plugin Manager](https://github.com/badvectors/PluginManager){target=new}.
+The plugin is included by default in the Australia and Pacific vatSys profiles provided by VATPAC. No installation action is required from controllers.
 
-Alternatively, download the plugin from [GitHub](https://github.com/YuKitsune/HoldPlugin/releases) and place it in your vatSys Plugins folder.
+!!! warning "Important"
+    Controllers should not install the plugin manually when using the Australia or Pacific vatSys profiles, as doing so can create unstable plugin behaviour.
 
 ## Initiating a Hold
 
