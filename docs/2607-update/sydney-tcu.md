@@ -403,6 +403,9 @@ Aircraft inbound from the east should be processed via the STAR and be vectored 
 
 Aircraft inbound from the north should track via the **Z88 airway** and be processed via NIXOD for the **RNP-N** approach. This approach is only available to the circling area and may not be suitable during periods of low cloud or reduced visibility.
 
+!!! warning "Important"
+    Successive RNP approaches in IMC should only be authorised after the first aircraft lands at YSBK due to the conflict between the approach and published missed approach. In practice, this translates to an **8 min** sequence between arrivals.
+
 ### YWLM STARs
 YWLM arrivals from the south and west will transit the SY TCU as they descend. BIK/KAT will provide these aircraft with their STAR clearance and initial descent, before conducting heads-up coordination with the relevant SY TCU controller to facilitate further descent.
 
