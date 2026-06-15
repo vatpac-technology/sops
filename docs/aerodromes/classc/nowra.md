@@ -95,7 +95,7 @@ Helicopters performing operations within 5nm YSNW ARP may be assigned one of fou
   <figcaption>YSNW Operating Areas</figcaption>
 </figure>
 
-Helicopters may perform airwork below 100FT AGL within the '**Western Pad**' or '**Southern Pad**', located at the 
+Helicopters may perform airwork below 100FT AGL within the '**Western Pad**' or '**Southern Pad**', located at west and south of the runways.
 
 Helicopters requesting clearance to operate in these areas shall be cleared to air transit to, and then operate within, the area by ADC.
 
