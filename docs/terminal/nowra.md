@@ -13,7 +13,7 @@
     Nowra TCU is a [military TCU](../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those in a civil TCU. Ensure you are familiar with the [military controller skills](../../controller-skills/military) necessary to provide a quality service.
 
 ## Airspace
-NW TCU owns the Class C airspace within the R421A and R421B restricted areas `SFC` to `F125`.
+NW TCU owns the Class C & Class G airspace within the R421A and R421B restricted areas `SFC` to `F125`.
 
 <figure markdown>
 ![NW TCU Structure](img/nw_tcu.png){ width="952" }
