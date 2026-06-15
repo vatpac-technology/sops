@@ -103,10 +103,10 @@ Aircraft may be given an additional requirement to climb above the vertical limi
 !!! tip  
     Activation of the R420F **significantly increases** the workload for **WOL** and **SDS**, as the airspace available for YSSY departures via WOL. During peak periods (such as [Milk Run Monday](../../../events/milkrun)), activation of the restricted area should not be approved.
     
-#### M440-P Tasman Sea
-The M440-P Tasman Sea [MOAs](../../../controller-skills/sua/#military-operating-areas) are located east of YSNW and extend into the Tasman Sea, `NOTAM-NOTAM`, located entirely in WOL airspace. 
+#### M440A-P Tasman Sea
+The M440A-P Tasman Sea [MOAs](../../../controller-skills/sua/#military-operating-areas) are located east of YSNW and extend into the Tasman Sea, `NOTAM-NOTAM`, located entirely in WOL airspace. 
 
-The restricted area sits directly above the NWA TMA and when NWA is online aircraft will be transferred directly to/from the SUA. When [NWA is offline](#reclassifications), aircraft will contact WOL for transit through the surrounding civilian airspace.
+The restricted areas sit directly above, and adjacent to, the NWA TMA and when NWA is online aircraft will be transferred directly to/from the SUA. When [NWA is offline](#reclassifications), aircraft will contact WOL for transit through the surrounding civilian airspace.
 
 ## STAR Clearance Expectation
 ### Handoff
