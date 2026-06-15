@@ -91,7 +91,7 @@ Each TCU must [give heads up coordination](../../../controller-skills/coordinati
 Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../sua/#ad-hoc-activations).
 
 #### R420F Nowra
-The R420F Nowra [restricted area](../../../controller-skills/sua/#restricted-areas) are located over YSNW, `F125-F300`, located entirely in WOL airspace. 
+The R420F Nowra [restricted area](../../../controller-skills/sua/#restricted-areas) is located over YSNW, `F125-F300`, located entirely in WOL airspace. 
 
 The resricted area sits directly above the NWA TMA and when NWA is online aircraft will be transferred directly to/from the SUA. When [NWA is offline](#reclassifications), aircraft will contact WOL for transit through the surrounding civilian airspace.
 
