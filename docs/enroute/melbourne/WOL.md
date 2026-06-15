@@ -96,7 +96,7 @@ The R420F Nowra [restricted area](../../../controller-skills/sua/#restricted-are
 The resricted area sits directly above the NWA TMA and when NWA is online aircraft will be transferred directly to/from the SUA. When [NWA is offline](#reclassifications), aircraft will contact WOL for transit through the surrounding civilian airspace.
 
 ##### Affected Civil Operations
-When activated, the restricted areas disrupt traffic on the **H20** and **H536** high altitude airways which are used by aircraft travelling between YSSY and Tasmania.
+When activated, the restricted area disrupts traffic on a number of high and low altitude airways, including **H20**, **H536**, **V501**, **W144**, **W436**, and **W575**, used primarily by aircraft departing the Sydney Basin.
 
 Aircraft may be given an additional requirement to climb above the vertical limits of the activation, or rerouted manually to avoid the area.
 
