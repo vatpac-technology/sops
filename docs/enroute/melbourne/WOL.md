@@ -84,7 +84,7 @@ There are multiple volumes of [SUA](../../../controller-skills/sua) within WOL a
 Each TCU must [give heads up coordination](../../../controller-skills/coordination/#airways-clearance) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
 
 !!! phraseology
-    <span class="hotline">**NWA** -> **WOL**</span>: "On the groud YPTN, SWFH12, requests activation of R420F `F125-F300`, from 0300 until 0500.”  
+    <span class="hotline">**NWA** -> **WOL**</span>: "On the groud YSNW, SWFH12, requests activation of R420F `F125-F300`, from 0300 until 0500.”  
     <span class="hotline">**WOL** -> **NWA**</span>: "SWFH12, expect activation of R420F `F125-F300` at 0300 until 0500."   
     <span class="hotline">**NWA** -> **WOL**</span>: "SWFH12."   
 
