@@ -187,11 +187,12 @@ Traffic advisory statements should be given to aircraft where appropriate and, i
 #### Departures
 Departures will be cleared for a coded clearance by **BK SMC** and will contact SBA at the CTR boundary.
 
-| Coded Clearance    | Route             | Altitude | 
-| ------------------ | ------------------- | ------ | 
-| Hornsby Outbound   | `PRT MFGC PENH HSY` | `A015` |
-| Mount Annan Outbound | `HXPR EMPS MAGG`  | `A015` |
-| Penrith Outbound   | `PRT SITS VCBR`     | `A015` |
+| Coded Clearance      | Route               | Altitude | Notes |
+| -------------------- | ------------------- | -------- | ----- |
+| Hornsby Outbound     | `PRT CFCR PENH HSY` | `A015` to CFCR, thence `A018` |  |
+| Mount Annan Outbound | `HXPR EMPS MAGG`    | `A015` to EMPS, thence `A025` |  |
+| Penrith Outbound     | `PRT SITS VCBR`     | `A015`   |       |
+| Woronora Outbound    | `REVS CASO WORC`    | `A015`   | Day Only |
 
 !!! phraseology
     **UNY**: "Bankstown Approach, Diamond UNY, passing `A011`, climbing to `A015`"   
@@ -199,14 +200,19 @@ Departures will be cleared for a coded clearance by **BK SMC** and will contact 
 
 Each coded clearance includes a frequency transfer and control service termination instruction. No explicit instructions should be given to these aircraft.
 
+!!! warning "Important"
+    When a Super-category aircraft is arriving **Runway 07** at YSSY, there is no wake turbulence separation between aircraft on the **Woronora Outbound** coded clearance. **SBA** must take extra steps to ensure wake turbulence separation (which may involve coordinating with BK ADC to delay the aircraft on the ground).
+
+    Alternatively, pilots may offer a wake turbulence waiver, assuming responsibility for wake turbulence avoidance.
+
 #### Arrivals
 Arrivals shall contact **SYC** for identification prior to entering CTA. SYC shall provide a squawk code and identify the aircraft, perform normal [Radar Position to TCU coordination](../controller-skills/coordination.md#radar-position-tcu-controllers) to **SBA**, then issue frequency transfer.
 
-| Coded Clearance    | Route             | Altitude | 
-| ------------------ | ------------------- | ------ | 
-| Brooklyn Inbound   | `BBG CAST PSP`      | `A015` |
-| Lighthorse Inbound | `NPBR LIHR PSP`     | `A015` |
-| St Helens Inbound  | `SSKP CRST CRSC`   | `A015` |
+| Coded Clearance    | Route               | Altitude | 
+| ------------------ | ------------------- | -------- | 
+| Brooklyn Inbound   | `BBG BEE CAST BKHR PSP` | `A018` to BEE, thence `A015` by BKHR  |
+| Lighthorse Inbound | `NPBR LIHR PSP`     | `A015`   |
+| St Helens Inbound  | `SSKP CRST CRSC`    | `A025` to CRST, thence `A015` by CRSC   |
 
 Establishing two-way communication with a VFR aircraft constitutes a clearance to enter CTA as requested. Where a squawk code has not yet been issued, this should also be performed.
 
@@ -396,6 +402,9 @@ Aircraft inbound from the south, west, and northwest should track via the **Z97 
 Aircraft inbound from the east should be processed via the STAR and be vectored in SWA airspace to facilitate descent. They should then be cleared via the **RNP-Y** approach.
 
 Aircraft inbound from the north should track via the **Z88 airway** and be processed via NIXOD for the **RNP-N** approach. This approach is only available to the circling area and may not be suitable during periods of low cloud or reduced visibility.
+
+!!! warning "Important"
+    Successive RNP approaches in IMC should only be authorised after the first aircraft lands at YSBK due to the conflict between the approach and published missed approach. In practice, this translates to an **8 min** sequence between arrivals.
 
 ### YWLM STARs
 YWLM arrivals from the south and west will transit the SY TCU as they descend. BIK/KAT will provide these aircraft with their STAR clearance and initial descent, before conducting heads-up coordination with the relevant SY TCU controller to facilitate further descent.
@@ -642,26 +651,6 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 - The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except:
     - The feeder fix for the RIKNI STAR is **MARLN**
 - All aircraft are tracking via the ILS
-
-### YSSY Calculator
-<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
-The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
-
-=== "Landing Time"
-    <div class="flowCalculatorLandingTime" data-aerodrome="YSSY"></div>
-
-=== "Feeder Fix Time"
-    <div class="flowCalculatorFeederFixTime" data-aerodrome="YSSY"></div>
-
-### YSWS Calculator
-<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
-The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
-
-=== "Landing Time"
-    <div class="flowCalculatorLandingTime" data-aerodrome="YSWS"></div>
-
-=== "Feeder Fix Time"
-    <div class="flowCalculatorFeederFixTime" data-aerodrome="YSWS"></div>
 
 ## Coordination
 ### Enroute
