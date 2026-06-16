@@ -57,6 +57,7 @@ There are multiple volumes of [SUA](../../../controller-skills/sua) within OLW a
 
 LM TCU must [give heads up coordination](../../../controller-skills/coordination/#airways-clearance) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
 
+!!! phraseology
     <span class="hotline">**LMA** -> **OLW**</span>: "On the groud YPLM, PHNX11, requests activation of M855A `A100-F280`, from 0300 until 0500.”  
     <span class="hotline">**OLW** -> **LMA**</span>: "PHNX11, expect activation of M855A `A100-F280` at 0300 until 0500."   
     <span class="hotline">**LMA** -> **OLW**</span>: "PHNX11."  
@@ -110,8 +111,8 @@ The Standard Assignable level from **KA ADC** to **OLW** is:
 YPKA arrivals and overfliers shall be heads-up coordinated to **KA ADC** from OLW prior to **5 mins** from the boundary.
 
 !!! phraseology
-    <span class="coldline">**OLW** -> **KA ADC**</span>: "Via MCNAB, QFA1214 for the RNP U RWY 26”  
-    <span class="coldline">**KA ADC** -> **OLW**</span>: "QFA1214, RNP U RWY 26"  
+    <span class="hotline">**OLW** -> **KA ADC**</span>: "Via MCNAB, QFA1214 for the RNP U RWY 26”  
+    <span class="hotline">**KA ADC** -> **OLW**</span>: "QFA1214, RNP U RWY 26"  
 
 The Standard Assignable level from OLW to KA ADC is `A060`, any other level must be prior coordinated.
 
