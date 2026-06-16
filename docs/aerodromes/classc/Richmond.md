@@ -10,7 +10,7 @@
 | ------------------ | --------------------- | ----------- | ------------- |
 | **Richmond ADC**   | **Richmond Tower**    | **135.500** | **RI_TWR**    |
 | **Richmond SMC**   | **Richmond Ground**   | **128.250** | **RI_GND**    |
-| **Richmond ATIS**  |                       | **123.300** | **YSRI_ATIS** |
+| **Richmond ATIS**  |                       | **126.300** | **YSRI_ATIS** |
 
 !!! note
     YSRI is a [military aerodrome](../../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those at a civil aerodrome. Ensure you are familiar with the [military controller skills](../../../controller-skills/military) necessary to provide a quality service.
