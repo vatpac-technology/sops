@@ -57,8 +57,8 @@ There are multiple volumes of [SUA](../../../controller-skills/sua) within OLW a
 
 LM TCU must [give heads up coordination](../../../controller-skills/coordination/#airways-clearance) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
 
-    <span class="hotline">**LMA** -> **OLW**</span>: "On the groud YPLM, PHNX11, requests activation of M855A `F100-F280`, from 0300 until 0500.”  
-    <span class="hotline">**OLW** -> **LMA**</span>: "PHNX11, expect activation of M855A `F100-F280` at 0300 until 0500."   
+    <span class="hotline">**LMA** -> **OLW**</span>: "On the groud YPLM, PHNX11, requests activation of M855A `A100-F280`, from 0300 until 0500.”  
+    <span class="hotline">**OLW** -> **LMA**</span>: "PHNX11, expect activation of M855A `A100-F280` at 0300 until 0500."   
     <span class="hotline">**LMA** -> **OLW**</span>: "PHNX11."  
 
 Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../sua/#ad-hoc-activations).

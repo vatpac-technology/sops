@@ -72,7 +72,7 @@ There are four helipads at YPLM:
 - **Helipads H1, H2, and H3** (in the eastern half of the Civil Apron)
 - **South Helipad** (south of Taxiway A, adjacent the RAAF Apron)
 
-The South helipad is part of the manoeuvring area and controlled by LM ADC. Any helicopter taking off or landing on the helipad require a specific takeoff or landing clearance from ADC.
+The South Helipad is part of the manoeuvring area and controlled by LM ADC. Any helicopter taking off or landing on the helipad require a specific takeoff or landing clearance from ADC.
 
 !!! phraseology 
     **LM ADC**: "CHOP71, south helipad, cleared to land"  

@@ -45,8 +45,8 @@ This gives the enroute controller sufficient time to assess the request, make ne
     <span class="hotline">**LM SMC** -> **LMA**</span>: "PHNX11 requests clearance to M855A”  
     <span class="hotline">**LMA** -> **LM SMC**</span>: "Standby, call you back."  
      
-    <span class="hotline">**LMA** -> **OLW**</span>: "On the groud YPLM, PHNX11, requests activation of M855A `F100-F280`, from 0300 until 0500.”  
-    <span class="hotline">**OLW** -> **LMA**</span>: "PHNX11, expect activation of M855A `F100-F280` at 0300 until 0500."   
+    <span class="hotline">**LMA** -> **OLW**</span>: "On the groud YPLM, PHNX11, requests activation of M855A `A100-F280`, from 0300 until 0500.”  
+    <span class="hotline">**OLW** -> **LMA**</span>: "PHNX11, expect activation of M855A `A100-F280` at 0300 until 0500."   
     <span class="hotline">**LMA** -> **OLW**</span>: "PHNX11."   
       
     <span class="hotline">**LMA** -> **LM SMC**</span>: "PHNX11, clearance approved."   
