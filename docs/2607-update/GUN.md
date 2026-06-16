@@ -149,6 +149,10 @@ YSWS uses different STAR designators to differentiate between different variatio
 | N    | Night           | Between 2300-0530 Local, when RRO is **not** in use |
 | Q    | RRO             | Between 2300-0530 Local, when RRO is **in use**  |
 
+!!! tip
+    vatSys will assign the **A** STAR by default. Controllers must manually select the N/Q STAR as appropriate.
+
+
 #### Sequencing
 Sequencing arrivals from the west and south into YSWS is a responsibility of KAT.
 
