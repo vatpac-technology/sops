@@ -21,13 +21,24 @@ The vertical limits of the Pearce TCU is `SFC` to `F160`.
   <figcaption>PE TCU Structure</figcaption>
 </figure>
 
-### Airspace Division
+### PE ADC
 PEA is responsible for the restricted airspace within R155A and R155B. This airspace is reclassified to **Class C** when PEA is online.
 
-<figure markdown>
-![PE TCU Restricted Areas](img/pe_restricted_areas.png){ width="500" }
-  <figcaption>PE TCU Restricted Areas</figcaption>
-</figure>
+### Reclassification
+=== "GIG ADC"
+	When **PE TCU** is offline the TN MIL CTR and associated restricted airspace is deactivated, and the airspace is administered by TRS.
+
+	!!! tip
+        Consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
+
+### Restricted Area Activations
+When **PEA** is online, the following [restricted areas](../../controller-skills/sua/#restricted-areas) are [activated](../../controller-skills/sua/#activation-of-sua) by default, and reclassified as Class C airspace.
+
+- R155A Pearce `SFC-F160`
+- R155B Pearce `SFC-F160`
+
+#### SUA in Enroute Airspace
+Military operations taking place in SUA in enroute airspace are outside the jurisdiction of PE TCU.
 
 PE ADC owns the airspace within the Pearce CIRA (**5nm** Radius of YPEA ARP, located entirely within **R155A**) from `SFC` to `A035.
 
@@ -63,6 +74,7 @@ Aircraft utilising the Quokka Lane should be instructed to reach `A090` before r
 
 !!! important
     Aircraft transiting on the Quokka Lane must be [**heads-up** coordinated](#ph-tcu) to PH TCU prior to the boundary.
+    
 
 ## Coordination
 ### Enroute
