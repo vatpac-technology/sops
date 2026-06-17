@@ -316,7 +316,7 @@ Standard [Radar to TCU](../controller-skills/coordination.md#radar-position-tcu-
 #### Airspace
 PF ADC is responsible for the Class D airspace in the PF CTR `SFC` to `A015`.
 
-Refer to [Reclassifications](#reclassificationsr) for operations when PF ADC is offline.
+Refer to [Reclassifications](#reclassifications) for operations when PF ADC is offline.
 
 #### Departures
 [Next](../controller-skills/coordination.md#next) coordination is required from PF ADC to AD TCU for all aircraft **entering AD TCU CTA**.
