@@ -114,7 +114,7 @@ The R826 Curtin [restricted area](../../controller-skills/sua/#restricted-areas)
 ## Coordination
 ### Enroute
 #### Departures
-Voiceless coordination is in place from CIN TCU to TST(ASH) for aircraft assigned the lower of `F190` and `RFL`. 
+Voiceless coordination is in place from CIN TCU to TRT(ASH) for aircraft assigned the lower of `F190` and `RFL`. 
 
 Any aircraft not meeting the above criteria must be prior coordinated to ENR.
 
