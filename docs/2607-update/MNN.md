@@ -109,6 +109,8 @@ The following subsectors are responsible for issuing STAR clearance.
 | ---- | ----- | -------- | ----- |
 | OCN  | BIKUS<br>RIKNI | All      |       |
 
+The **default STAR** from the east is the **BIKUS A STAR**. At night, the **RIKNI N STAR** shall be assigned instead.
+
 #### Sequencing
 OCN is responsible for sequencing arrivals into YSWS.
 

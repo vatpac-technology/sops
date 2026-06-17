@@ -99,13 +99,7 @@ Coded clearances are used to provide standardised routing for VFR aircraft arriv
 Each coded clearance includes tracking instructions and height requirements that ensure aircraft remain within Class D airspace. Each coded clearance also includes explicit instructions on when to change frequencies.
 
 ### VFR Inbound Procedures
-| Coded Clearance    | Route             | Altitude | 
-| ------------------ | ------------------- | ------ | 
-| Brooklyn Inbound   | `BBG CAST PSP`      | `A015` |
-| Lighthorse Inbound | `NPBR LIHR PSP`     | `A015` |
-| St Helens Inbound   | `SSKP CRST CRSC`   | `A015` |
-
-VFR aircraft will report inbound at PSP or CRSC. They should be instructed to join the circuit as below:
+VFR aircraft will be cleared to track via a coded clearance by **SBA** and report inbound to **BK ADC** at PSP or CRSC. They should be instructed to join the circuit as below:
 
 | VFR Approach Point | RWYs 29  | RWYs 11 |
 | ----------------| --------- | ---------- |
@@ -118,11 +112,12 @@ VFR aircraft will report inbound at PSP or CRSC. They should be instructed to jo
 ### VFR Outbound Procedures
 VFR aircraft intending to track via a coded clearance require an airways clearance from **BK SMC**. SMC shall update the FDR route of these aircraft with the following tracking points, as required.
 
-| Coded Clearance    | Route             | Altitude | 
-| ------------------ | ------------------- | ------ | 
-| Hornsby Outbound   | `PRT MFGC PENH HSY` | `A015` |
-| Mount Annan Outbound | `HXPR EMPS MAGG`  | `A015` |
-| Penrith Outbound   | `PRT SITS VCBR`     | `A015` |
+| Coded Clearance      | Route               | Altitude | Notes |
+| -------------------- | ------------------- | -------- | ----- |
+| Hornsby Outbound     | `PRT CFCR PENH HSY` | `A015` to CFCR, thence `A018` |  |
+| Mount Annan Outbound | `HXPR EMPS MAGG`    | `A015` to EMPS, thence `A025` |  |
+| Penrith Outbound     | `PRT SITS VCBR`     | `A015`   |       |
+| Woronora Outbound    | `REVS CASO WORC`    | `A015`   | Day Only |
 
 !!! phraseology
     **UNY**: "Bankstown Ground, Diamond UNY, taxiway L, received B, for Hornsby Outbound, request taxi"   
@@ -135,8 +130,9 @@ These aircraft will report ready to **BK ADC** with their departure intentions. 
 
     | Coded Clearance                       | Tracking       | 
     | ------------------------------------- | --------------------- |
-    | Mount Annan Outbound                  | <ul><li>At `A005`, turn left downwind, track to Dunc Gray Velodrome, climb to `A015`.</li><li>At Dunc Gray Velodrome and not before reaching `A015`, track to intersection of Hoxton Park Rd & M7.</li><li>Track via Mount Annan Outbound.</li></ul>
-    | Hornsby Outbound, or<br>Penrith Outbound  | <ul><li>Climb to `A005`, then turn left direct to PRT, climb to `A015`.</li><li>Track via nominated coded clearance.</li></ul>
+    | Mount Annan Outbound                  | <ul><li>At `A005`, turn left downwind, track to Dunc Gray Velodrome, climb to `A015`.</li><li>At Dunc Gray Velodrome and not before reaching `A015`, track to intersection of Hoxton Park Rd & M7.</li><li>Track via Mount Annan Outbound.</li></ul> |
+    | Hornsby Outbound, or<br>Penrith Outbound  | <ul><li>Climb to `A005`, then turn left direct to PRT, climb to `A015`.</li><li>Track via nominated coded clearance.</li></ul> |
+    | Woronora Outbound                     | As directed by ATC to REVS |
 
 === "Departure RWY 29"
 
@@ -144,6 +140,7 @@ These aircraft will report ready to **BK ADC** with their departure intentions. 
     | ------------------------------------- | --------------------- |
     | Mount Annan Outbound                  | <ul><li>Climb to `A010`.</li><li>Crossing Hume Highway, track to intersection of Hoxton Park Rd & M7, climb to `A015`.</li><li>Track via Mount Annan Outbound.</li></ul> |
     | Hornsby Outbound, or<br>Penrith Outbound  | <ul><li>Climb to `A005`, then turn right direct to PRT, climb to `A010`.</li><li>Crossing the pipeline (approx 3nm BK), climb to `A015`.</li><li>Track via nominated coded clearance.</li></ul> |
+    | Woronora Outbound                     | As directed by ATC to REVS |
 
 Aircraft departing will transfer to appropriate frequency upon leaving the zone, **no explicit frequency transfer is given to these aircraft**. 
 
@@ -161,13 +158,18 @@ Three helicopter reporting points help keep helicopters segregated from other tr
 - **CSTH**: Intersection of two creeks enclosing a sewage treatment works 2.1nm south of the aerodrome reference point
 
 ### Inbound Procedures
-Helicopters should track inbound at `A007` via one of the normal inbound points (PSP or CRSC) or via *Olympic Park* and report to **BK ADC** at that point. In response, **BK ADC** should instruct the aircraft to track as below:
+Helicopters should track inbound to the BK CTR as per below:
+
+- Via a coded clearance or inbound reporting point (PSP or CRSC), or
+- From R407, tracking RYB-CWST/CNTH (depending on runway mode) at `A007`
+
+Pilots will report to **BK ADC** prior to entering the BK CTR and should be instructed to track as per below:
 
 | Inbound Point | RWY 11 Config | RWY 29 Config |
 | ----------------| --------- | ---------- |
 | PSP | *"Report CWST"*, then <br>*"Join base main pad"* | *"Report CNTH"*, then <br>*"Join base main pad"* |
 | CRSC | *"Report CSTH, A005"*, then <br>*"Overfly midfield at A005, join downwind main pad"* | *"Report CSTH, A005"*, then <br>*"Overfly midfield at A005, join downwind main pad"* |
-| *Olympic Park* | *"Report CWST"*, then <br>*"Join base main pad"* | *"Report CNTH"*, then <br>*"Join base main pad"* |
+| RYB | *"Report CWST"*, then <br>*"Join base main pad"* | *"Report CNTH"*, then <br>*"Join base main pad"* |
 
 !!! note
     Helicopters tracking via CSTH will pass over the runway complex midfield at `A005` to join downwind. Be mindful of aircraft in the fixed-wing circuit and pass traffic information to both aircraft prior to the fixed-wing aircraft turning final.  
@@ -177,16 +179,21 @@ Helicopters should track inbound at `A007` via one of the normal inbound points 
     *"YZD, traffic is a Cherokee turning final for runway left, overfly midfield at `A005`, join downwind main pad"*
 
 ### Outbound Procedures
-Helicopters should track outbound via one of the helicopter reporting points at `A007`. Departures to the north must track via CWST when RWY 29s are in use and CNTH when RWY 11s are in use.
+Helicopters should track outbound from the BK CTR as per below:
 
-Helicopters shall report ready to **BK ADC** with their departure intentions. In response, **BK ADC** will clear the aircraft for takeoff and instruct them to track via the appropriate exit gate.
+- Via a coded clearance, or
+- To R407, tracking CWST/CNTH-RYB (depending on runway mode) at `A007`
+
+Departures to the north must track via CWST when RWY 29s are in use and CNTH when RWY 11s are in use.
+
+Helicopters shall report ready to **BK ADC** with their departure intentions. In response, **BK ADC** shall clear the aircraft for takeoff and instruct them to track via the appropriate exit gate.
 
 !!! phraseology
     **YZD:** "Bankstown Tower, helicopter YZD, main pad, for Choppers North departure, ready"  
     **BK ADC:** "YZD, Bankstown Tower, depart Choppers North, main pad, cleared for takeoff"
 
 !!! note
-    Helicopters tracking via CSTH will pass over the runway complex midfield at `A005` to join downwind. Be mindful of aircraft in the fixed-wing circuit and pass traffic information to both aircraft prior to the helicopter becoming airborne.  
+    Helicopters tracking via the Mt Annan Outbound will pass over the runway complex midfield at `A005` to join downwind. Be mindful of aircraft in the fixed-wing circuit and pass traffic information to both aircraft prior to the helicopter becoming airborne.  
 
     Example:  
     *"XEL, traffic is a helicopter overflying the aerodrome to the south at `A005`, runway left, cleared touch and go"*  
