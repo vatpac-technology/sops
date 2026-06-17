@@ -39,7 +39,7 @@ The [intial points](../../../controller-skills/military/#initial-and-pitch) are 
 There are several [military lanes](../../../controller-skills/military/#military-gates) established throughout the PE TMA to facilitate entry and exit to adjoining SUA.
 
 <figure markdown>
-![PE SUA Gates](../../../terminal/img/pe_mil_gates.png){ width="700" }
+![PE SUA Gates](../../terminal/img/pe_mil_gates.png){ width="700" }
   <figcaption>PE SUA Gates</figcaption>
 </figure>
 
