@@ -544,48 +544,47 @@ The Standard Assignable level from SY ADC to SY TCU is:
 | Non-Jets | The lower of `A030` and `RFL` |
 
 ### Departures Controller
-When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate cnroute controller or advisory frequency shall be issued.
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate enroute controller or advisory frequency shall be issued.
 
 === "RWY 07"
     | Runway | Via | Departure Frequency |
     | ------ | ---- | -------------------- |
-    | 07 | ANKUB SID<br>Tracking N, or NE | 123.0 (SDN) |
-    | 07 | FISHA SID, OLSEM Transition<br>Tracking N, or NE | 123.0 (SDN) |
-    | 07 | FISHA SID, WOL Transition<br>Tracking S, W, or SW | 129.7 (SDS) |
-
+    | 07 | ANKUB SID, *or*<br>FISHA SID, KADOM/OLSEM/STUIE Transitions, *or*<br>Tracking N, NW, or NE | 123.0 (SDN) |
+    | 07 | FISHA SID, WOL Transition, *or*<br>Tracking S, W, or SE | 129.7 (SDS) |
+    
 === "RWY 16s"
     | Runway | Via  | Departure Frequency |
     | ------ | ---- | -------------------- |
-    | 16L | ABBEY SID<br>Tracking S or SW | 129.7 (SDS) |
-	| 16L | KEVIN SID<br>Tracking SE, E, NE, or N | 123.0 (SDN) |
-    | 16R | All | 129.7 (SDS) |
+	| **16L** | KEVIN SID *(exc. radar trans to S or W)*, *or*<br>Tracking SE, E, NE, or N | 123.0 (SDN) |
+    | 16L | ABBEY SID, *or*<br>ANKUB SID, *or*<br>Tracking S or W | 129.7 (SDS) |
+    | **16R** | All | 129.7 (SDS) |
 
 === "RWY 25"
     | Runway | Via  | Departure Frequency |
     | ------ | ---- | -------------------- |
-    | 25 | AVMOV SID<br>KADOM SID<br>Tracking N, or NE | 123.0 (SDN) |
-    | 25 | Tracking S, W, or SW  | 129.7 (SDS) |
+    | 25 | AVMOV SID, *or*<br>Tracking N, or NE | 123.0 (SDN) |
+    | 25 | ANKUB SID, *or*<br>KADOM SID, *or*<br>STUIE SID, *or*<br>Tracking S, W, or SW  | 129.7 (SDS) |
 
 === "RWY 34s"
     | Runway | Via  | Departure Frequency |
     | ------ | ---- | -------------------- |
-    | 34L | AVMOV SID<br><br>Tracking N, or NE | 123.0 (SDN) |
-    | 34L | KADOM SID<br>STUIE SID<br>TONTO SID<br>Tracking S, W, or SW | 118.4 (SDS) |
-    | 34R | MARUB SID<br>OLSEM SID<br>Tracking N, or NE | 123.0 (SDN) |
-    | 34R | MARUB SID, WOL Transition<br>Tracking S, W, or SW | 129.7 (SDS) |
+    | **34L** | AVMOV SID, *or*<br>Tracking N, or NE | 123.0 (SDN) |
+    | 34L | KADOM SID, *or*<br>STUIE SID, *or*<br>TONTO SID<br>Tracking S, W, or SW | 129.7 (SDS) |
+    | **34R** | MARUB SID *(exc. WOL trans)*, *or*<br>OLSEM SID, *or*<br>Tracking N, or NE | 123.0 (SDN) |
+    | 34R | MARUB SID, WOL Transition, *or*<br>Tracking S, W, or SW | 129.7 (SDS) |
 
 
 ### Standard Assignable Departure Headings
 Aircraft that have been cleared the **SY (RADAR) SID** or **[ANKUB SID](#ankub-non-jet-sid)** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required to the SY TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
 
-| Runway     | Jet         | Non-Jet                                        |
-| ---------- | :---------: | :--------------------------------------------: |
-| RWY 07     | H070        | H020, H110                                     |
-| RWY 16L    | H125        | H090 *(RWY 25 not in use)*<br>H125 *(RWY 25 in use)* |
-| RWY 16R    | H170        | H210                                           |
-| RWY 25     | H300, H240  | H020, H210, H240                               |
-| RWY 34L    | H290        | H230                                           |
-| RWY 34R    | H030, H070  | H350                                           |
+| Runway         | Jet         | Non-Jet                                        |
+| -------------- | :---------: | :--------------------------------------------: |
+| **RWY 07**     | H070        | H020, H110                                     |
+| **RWY 16L**    | H125        | H090 *(RWY 25 not in use)*<br>H125 *(RWY 25 in use)* |
+| **RWY 16R**    | H170        | H210                                           |
+| **RWY 25**     | H300, H240  | H020, H210, H240                               |
+| **RWY 34L**    | H290        | H230                                           |
+| **RWY 34R**    | H030, H070  | H350                                           |
 
 !!! note
     Where multiple standard assignable headings are available, assign the heading most suitable for the aircraft's direction of flight.

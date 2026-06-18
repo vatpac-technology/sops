@@ -802,14 +802,14 @@ The controller assuming responsibility of **SY ACD** shall give [heads-up coordi
 #### Auto Release
 Auto Release is used for virtually all fixed-wing departures at Sydney. Unlike some other aerodromes, aircraft cleared via the **SY (RADAR) SID** or **ANKUB SID** do not need to be 'Next' coordinated, provided they are assigned the standard assignable level and a standard assignable heading from the table below.
 
-| Runway     | Jet         | Non-Jet                                        |
-| ---------- | :---------: | :--------------------------------------------: |
-| RWY 07     | H070        | H020, H110                                     |
-| RWY 16L    | H125        | H090 *(RWY 25 not in use)*<br>H125 *(RWY 25 in use)* |
-| RWY 16R    | H170        | H210                                           |
-| RWY 25     | H300, H240  | H020, H210, H240                               |
-| RWY 34L    | H290        | H230                                           |
-| RWY 34R    | H030, H070  | H350                                           |
+| Runway         | Jet         | Non-Jet                                        |
+| -------------- | :---------: | :--------------------------------------------: |
+| **RWY 07**     | H070        | H020, H110                                     |
+| **RWY 16L**    | H125        | H090 *(RWY 25 not in use)*<br>H125 *(RWY 25 in use)* |
+| **RWY 16R**    | H170        | H210                                           |
+| **RWY 25**     | H300, H240  | H020, H210, H240                               |
+| **RWY 34L**    | H290        | H230                                           |
+| **RWY 34R**    | H030, H070  | H350                                           |
 
 !!! tip
     If strong winds are present at altitude, TWR/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
