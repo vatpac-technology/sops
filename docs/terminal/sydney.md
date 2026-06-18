@@ -400,7 +400,11 @@ The RNP-W commences inside CTA (except aircraft maintaining the MSA via SC2WA). 
 
 !!! warning "Important"
     Successive RNP approaches in IMC should only be authorised after the first aircraft lands at YSBK due to the conflict between the approach and published missed approach. In practice, this translates to an **8 min** sequence between arrivals.
-    
+
+### YSRI operations
+#### Departures
+When **RI ADC** is offline, **SYC** will instruct aircraft to depart via **NESSY** SID with the RADAR Transition, in lieu of a RADAR SID. This ensures appropriate terrain and CTA separation for aircraft as they transit through the uncontrolled airspace.
+
 ### YSWS Operations
 #### Departures
 Aircraft departing RWY 05 on the **TEEVE D SID** will pass through SRA airspace before returning to SWA. SWA should coordinate any [frequency requirements](../controller-skills/coordination.md#no-frequency-requirements-nfr) with SRA rather than performing a frequency transfer for these aircraft, where possible.
@@ -922,7 +926,7 @@ The Standard Assignable level from RI ADC to SRA is:
 
 | Aircraft | Level  |
 | -------- | ------ |
-| All Aircraft     | The lower of `A060` and `RFL` |
+| All Aircraft     | The lower of `A050` and `RFL` |
 
 ### SMC to TCU
 The controller assuming responsibility of **SMC** shall give [heads-up coordination](../../controller-skills/coordination/#airways-clearance) to SRA (or the enroute controller responsible for the SY TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 

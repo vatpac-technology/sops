@@ -112,7 +112,6 @@ IFR aircraft shall be assigned a SID corresponding to their direction of travel.
 | BEROW or TESAT     | **BEROW** SID, Relevant Transition (if applicable) |
 | NIVOT              | **NIVOT** SID |
 | RUTOS              | **RUTOS** SID |
-| Tracking W, NW, SW | **NESSY** SID, RADAR Transition |
 | All others         | **RADAR** SID |
 
 Aircraft which would otherwise be assigned the RADAR SID may be processed via a visual departure to the north or west, if conditions allow.
@@ -125,7 +124,7 @@ The Standard Assignable Level from **RI ADC** to **SY TCU** is:
 
 | Aircraft | Level |
 | -------- | ----- |
-| All | The lower of `A060` and `RFL` |
+| All | The lower of `A050` and `RFL` |
 
 ### Departures Controller
 When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate enroute controller or advisory frequency shall be issued.
