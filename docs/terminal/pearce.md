@@ -144,7 +144,7 @@ When the R179 Pearce restricted area is active all airspace within the SUA is ma
 The PE TMA and adjoining SUAs contain multiple segmented training areas to facilitate local training operations. 
 
 <figure markdown>
-![PE Training Areas](../../img/pe_training_areas.png){ width="700" }
+![PE Training Areas](img/pe_training_areas.png){ width="700" }
   <figcaption>PE Training Areas</figcaption>
 </figure>
 
