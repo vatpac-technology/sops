@@ -136,9 +136,9 @@ Aircraft cleared via the Quokka Lane will be issued a requirement to reach `A090
 </figure>
 
 #### Muchea Air Weapons Range SUA
-The Muchea Air Weapons Range is located within the PE TMA, and is used for air-surface gunnery and bombing practice. It is entirely contained within the R179 [restricted area](../../controller-skills/sua/#restricted-areas).
+The Muchea Air Weapons Range is located within the PE TMA, and is used for air-surface gunnery and bombing practice. It is entirely contained within the R179 Pearce [restricted area](../../controller-skills/sua/#restricted-areas).
 
-When the R196 restricted area is active all airspace within the SUA is managed by **PEA**, and the [ATIS should be updated](../../aerodromes/classc/Pearce/#sua-activations) to reflect the activation.
+When the R179 Pearce restricted area is active all airspace within the SUA is managed by **PEA**, and the [ATIS should be updated](../../aerodromes/classc/Pearce/#sua-activations) to reflect the activation.
 
 ### Training Areas
 The PE TMA and adjoining SUAs contain multiple segmented training areas to facilitate local training operations. 

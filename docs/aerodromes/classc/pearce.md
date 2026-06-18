@@ -77,8 +77,8 @@ Aircraft may be cleared to via the Quokka Lane in lieu of the Wannamal Lane foll
     <span class="hotline">**PE ACD** -> **PEA**</span>: "VIPR21 requests clearance to M161."  
     <span class="hotline">**PEA** -> **PE ACD**</span>: "VIPR21, clearance approved via Quokka Lane. 
     
-    
-Aircraft cleared via the Quokka Lane must be issued a requirement to reach `A090` by the 250° PEA TAC radial.\
+   
+Aircraft cleared via the Quokka Lane must be issued a requirement to reach `A090` by the 250° PEA TAC radial.
 
 !!! phraseology
     **PE ACD**: "VIPR21, cleared to M161 via Quokka Lane, visual departure. Climb to `A100`, requirement to reach `A090` by the 250 radial PEA..."   
