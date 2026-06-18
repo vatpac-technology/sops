@@ -289,7 +289,7 @@ There are multiple volumes of [SUA](../../../controller-skills/sua) within INL a
   <figcaption>Notable SUA in INL Airspace</figcaption>
 </figure>
 
-AMB and OK TCU must [give heads up coordination](../../../terminal/williamtown/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
+AMB and OK TCU must [give heads up coordination](../../../terminal/amberleyoakey/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
 
 !!! phraseology
     <span class="hotline">**AMA** -> **INL**</span>: "On the groud YAMB, DRGN31, requests activation of M640A-D `A050-F240`, from 0300 until 0500.”  
