@@ -24,8 +24,10 @@ OK ADC owns the airspace within 5 DME of the OK VOR from `SFC` to `A030`. This a
   <figcaption>YBOK ADC Airspace</figcaption>
 </figure>
 
-## Manoeuvring Area
+### Restricted Area Activations
+There are no [restricted areas or MOAs](../../../controller-skills/sua) activated by default when OK ADC is online.
 
+## Manoeuvring Area
 ### Manoeuvring Area Responsibility
 
 <figure markdown>
@@ -64,8 +66,6 @@ These lanes are inside the manoeuvring area and treated like a runway. Helicopte
 ## Local Procedures
 
 ### Oakey Flying Training Area
-
-#### Flying Training Areas
 
 R654A, B, C and D are divided into the Western, North West and North East FTAs. These areas are the primary location for military helicopters conducting operations.
 
@@ -136,6 +136,15 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
 | ------ | ---- | -------------------- |
 | All | All | 125.4 (OKA) |
 
+#### ACD to TCU
+The controller assuming responsibility of **ACD** shall give [heads-up](../../controller-skills/coordination/#airways-clearance) coordination to OKA (or the enroute controller responsible for the OK TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
+
+!!! phraseology
+    <span class="hotline">**OK ACD** -> **OKA**</span>: "DIAM11 requests clearance to R639D.”  
+    <span class="hotline">**OKA** -> **OKA ACD**</span>: "DIAM11, clearance approved."
+
+Most military operations will take place in SUA adjoining the [TCU in enroute airspace](#sua-in-enroute-airspace). OK TCU must coordinate the activation of these SUAs with the relevant enroute controllers **prior** to approving any clearances.
+
 ## Charts
 !!! abstract "Reference"
-    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
+    In addition to the civilian `ERSA` and `AIP` publications, [the RAAF AIP website](https://ais-af.airforce.gov.au/australian-aip){target=new} contains the necessary charts (available in the TERMA) and description of procedures (in each airports' FIHA).

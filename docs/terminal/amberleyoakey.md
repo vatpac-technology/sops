@@ -15,75 +15,151 @@
     Amberley TCU is a [military TCU](../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those in a civil TCU. Ensure you are familiar with the [military controller skills](../../controller-skills/military) necessary to provide a quality service.
 
 ## Airspace
-The vertical limits of the AMB TCU are `SFC` to `F210`.
-
-The vertical limits of the OK TCU are `SFC` to `F125`.
+The vertical limits of the AMB TCU are `SFC` to `F210`. The vertical limits of the OK TCU are `SFC` to `F125`.
 
 <figure markdown>
 ![AMB/OK TCU Structure](img/ambok_tcu.png){ width="700" }
   <figcaption>AMB/OK TCU Structure</figcaption>
 </figure>
 
+### AMB ADC
+**AMB ADC** owns the Class C airspace in the AMB CTR from `SFC` to `A015`. 
 
-### Airspace Division
+### OK ADC
+**OK ADC** owns the Class C airspace within 5 DME of the OK VOR from `SFC` to `A030`.
 
-=== "AMB TCU"
-    **AMA** owns the airspace contained within:
-
-    - R625A (`A015`-`A085`)  
-    - R625B (`A025`-`A085`)  
-    - R625C (`A045`-`A085`)  
-    - R625D (`A085`-`F210`)
-
-    <figure markdown>
-    ![AMB TCU Restricted Areas](img/amb_restricted_areas.png){ width="550" }
-    <figcaption>AMB TCU Restricted Areas</figcaption>
-    </figure>
-
-    **AMB ADC** owns the Class C airspace in the AMB CTR from `SFC` to `A015`. 
-
-=== "OK TCU"
-    **OKA** owns the airspace contained within:
-
-    - R654A (`SFC`-`A065`)  
-    - R654B (`SFC`-`A065`)  
-    - R654C (`A065`-`F125`)  
-    - R654D (`A065`-`F125`)  
-
-    <figure markdown>
-    ![OK TCU Restricted Areas](img/ok_restricted_areas.png){ width="550" }
-    <figcaption>OK TCU Restricted Areas</figcaption>
-    </figure>
-
-    **OK ADC** owns the Class C airspace within 5 DME of the OK VOR from `SFC` to `A030`.
-
-## Extending
+### Extending
 AMA may extend to OKA and vice versa; callsigns remain the same. See [Controller Skills](../../controller-skills/extending/#terminal-area) for details.
 
-## Local Procedures 
-### YAMB
-#### Coded Clearances
-High performance military jet aircraft with planned operations in offshore SUA, or intending to depart to the east, will be assigned a Coded Clearance departure. These aircraft may arrive back to YAMB via the same corridor. These Coded Clearances provide a standardised corridor avoiding civilian traffic in the adjacent airspace. 
+### Restricted Area Activations
+When **AMA** is online, the following [restricted areas](../../controller-skills/sua/#restricted-areas) are [activated](../../controller-skills/sua/#activation-of-sua) by default, and reclassified as Class C airspace.
 
-##### Departures
-Aircraft will depart the circuit visually and track overhead YAMB to begin tracking for their initial waypoint. Aircraft cleared the BYRON1 must turn to the west on departure, and may set course for their inital waypoint within 10TAC AMB, remaining within the lateral limits of the AMB CTR in order to meet the inital constraint at `COWIE`.
+- R625A (`A015`-`A085`)  
+- R625B (`A025`-`A085`)  
+- R625C (`A045`-`A085`)  
+- R625D (`A085`-`F210`)
 
-AMB ACD will clear relevant departures via the appropriate coded clearance departure, update the FDR route field with the respective tracking points, and write the departure name in the Global Ops Field. 
 
-The routes are shown below:
+When **OKA** is online, the following [restricted areas](../../controller-skills/sua/#restricted-areas) are [activated](../../controller-skills/sua/#activation-of-sua) by default, and reclassified as Class C airspace.
 
-| Departure | Initial Constraint | Route |
-| --------- | ----------| --------- |
-| Northern 5 | `F190` by BINUP | BINUP MURJO BOBED LESKO MOSSI, or<br>BINUP MURJO BOBED LESKO ADNUK |
-| Central 5 | `F190` by BINUP | BINUP MURJO BOBED VIRGE |
-| Byron 1 | `F190` by COWIE | COWIE KIWEE ZANET LOTMA SEMAJ | 
+- R654A (`SFC`-`A065`)  
+- R654B (`SFC`-`A065`)  
+- R654C (`A065`-`F125`)  
+- R654D (`A065`-`F125`)  
 
-!!! important
-    Ensure that aircraft meet the `F190` requirement by the first waypoint to ensure separation assurance is maintained with civil aircraft in the adjacent airspace.
+#### SUA in Enroute Airspace
+Military operations taking place in SUA in enroute airspace are outside the jurisdiction of AMB/OK TCU.
 
-##### Arrivals
-Aircraft will be cleared for the coded clearance by **INL (NSA/GOL/SDY)**, with the procedure terminating at the AMB TMA airspace boundary.
+Upon receiving [airways clearance coordination from ACD](#acd-to-tcu) of an aircraft intending to operate in a currently inactive SUA in enroute airspace, AMB/OK TCU must give **heads up** coordination to relevant enroute controllers.
 
+This gives the enroute controller sufficient time to assess the request, make necessary adjustments to any aircraft in the area currently, and activate the SUA; or alternately to refuse the activation request before the aircraft is in the air.
+
+!!! phraseology
+    *CRNG21 is requesting clearance to operate in the M640A-D restricted area.*  
+    <span class="hotline">**AMB ACD** -> **AMA**</span>: "CRNG21 requests clearance to M640A-D”  
+    <span class="hotline">**AMA** -> **AMB ACD**</span>: "Standby, call you back."  
+     
+    <span class="hotline">**AMA** -> **DOS**</span>: "On the groud YAMB, CRNG21, requests activation of M640A-D `A050-F600`, from 0300 until 0500. [My onwards](../../../controller-skills/coordination/#onwards-coordination) with SDY.”  
+    <span class="hotline">**DOS** -> **AMA**</span>: "CRNG21, your onwards with SDY."   
+    <span class="hotline">**AMA** -> **DOS**</span>: "CRNG21."  
+        
+    <span class="hotline">**AMA** -> **SDY**</span>: "On the groud YAMB, CRNG21, requests activation of M640A-D `A050-F600`, from 0300 until 0500. [My onwards](../../../controller-skills/coordination/#onwards-coordination) with DOS.”  
+    <span class="hotline">**DOS** -> **AMA**</span>: "CRNG21, expect activation of M640A-D `A050-F600`, from 0300 until 0500. Your onwards with DOS."   
+    <span class="hotline">**AMA** -> **DOS**</span>: "CRNG21." 
+      
+    <span class="hotline">**AMA** -> **AMB ACD**</span>: "CRNG21, clearance approved."   
+    <span class="hotline">**AMB ACD** -> **AMA**</span>: "Clearance approved, CRNG21"  
+	
+!!! note
+    The requirement to coordinate activation of an SUA is in **addition** to existing coordination requirements. [**Heads-up** coordination](#departures) is still required for these aircraft if they do not meet the voiceless coordination criteria.
+
+## Local Procedures
+### Initial Pitch Procedures
+The [intial points](../../controller-skills/military/#initial-and-pitch) at YAMB are aligned with Engine Test Cell 2 at the following locations.
+
+| RWY  | Initial Point | Altitude |
+| ---- | ------------- | -------- |
+| 15   | 5NM downwind  | `A020`   |
+| 33   | 5NM downwind  | `A020`   |
+
+### Military Gates
+There are numerous [military gates](../../controller-skills/military/#military-gates) established throughout the AMB/OK TCU to facilitate entry and exit to adjoining SUA.
+
+<figure markdown>
+![AMB/OK SUA Gates](img/ambok_mil_gates.png){ width="700" }
+  <figcaption>AMB/OK SUA Gates</figcaption>
+</figure>
+
+If the pilot **does not** nominate a gate, or nominates a gate that does not provide access to their intended SUA, AMB/OK ACD should clear the aircraft to depart via the **appropriate gate**.
+
+| Intended SUA    | TCU Exit Gate       |
+| --------------- | ------------------- |
+| M640A-D         | [Northern Corridor](#northern-corridor) |
+| M646            | [Central Corridor](#central-corridor) |
+| M649A-B         | [Central Corridor](#central-corridor) |
+| M661A-B         | [Byron Corridor](#byron-corridor) |
+| R639A-D         | BEACH               | 
+
+!!! tip
+    [Coordination requirements](#acd-to-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU before providing clearance
+    
+### Military Corridors
+There are three [military corridors](../../controller-skills/military/#military-corridors) established around the 
+AMB TCU to facilitate transit of military aircraft between the TCU and adjoining SUAs.
+
+<figure markdown>
+![AMB TCU Military Corridors](img/amb_mil_corridors.png){ width="700" }
+  <figcaption>AMB TCU Military Corridors</figcaption>
+</figure>
+
+These corridors are located **outside** the jurisdiction of AMB TCU.
+
+#### Northern Corridor
+The **Northern Corridor** is used by aircraft to transit civilian enroute airspace between the AMB TCU and the M640A-D MOAs.
+
+Aircraft departing to the areas will be cleared the **NORTHERN 5** coded clearance by ACD, aircraft returning to the airport will be cleared the **NORTHERN 6** coded clearance by INL(SDY).
+
+Aircraft transiting the Northern corridor should be assigned the appropriate altitude to ensure separation with opposite direction traffic while transiting to their desired restricted area.
+
+| Coded Clearance | Altitude |
+| --------------- | -------- |
+| NORTHERN 5      | `F190` at BINUP, `F260` at MURJO  |
+| NORTHERN 6      | `F270` at MOSSI/ADNUK, `F200` at ANKED |
+
+!!! note
+    Aircraft tracking via the NORTHERN coded clearance does **not** constitute a voiceless coordination route between AMB TCU and INL(NSA). Aircraft should still be heads-up coordinated prior to **5 minutes** to the boundary, unless coordinated otherwise.
+
+#### Central Corridor
+The **Central Corridor** is used by aircraft to transit civilian enroute airspace between the AMB TCU and the M646 and M649A-B MOAs.
+
+Aircraft departing to the areas will be cleared the **CENTRAL 5** coded clearance by ACD, aircraft returning to the airport will be cleared the **CENTRAL 6** coded clearance by INL(SDY).
+
+Aircraft transiting the Central corridor should be assigned the appropriate altitude to ensure separation with opposite direction traffic while transiting to their desired restricted area.
+
+| Coded Clearance | Altitude |
+| --------------- | -------- |
+| CENTRAL 5       | `F190` at BINUP, `F260` at MURJO  |
+| CENTRAL 6       | `F280` at VIRGE, `F200` at ANKED |
+
+!!! note
+    Aircraft tracking via the CENTRAL coded clearance does **not** constitute a voiceless coordination route between AMB TCU and INL(NSA). Aircraft should still be heads-up coordinated prior to **5 minutes** to the boundary, unless coordinated otherwise.
+    
+#### Byron Corridor
+The **Byron Corridor** is used by aircraft to transit civilian enroute airspace between the AMB TCU and the [Evans Head SUAs](../../enroute/brisbane/INL/#m661a-b-m641-and-r638a-c-evans-head).
+
+Aircraft departing to the areas will be cleared the **BYRON 1** coded clearance by ACD, aircraft returning to the airport will be cleared the **BYRON 2** coded clearance by INL(SDY).
+
+Aircraft transiting the Byron corridor should be assigned the appropriate altitude to ensure separation with opposite direction traffic while transiting to their desired restricted area.
+
+| Coded Clearance | Altitude |
+| --------------- | -------- |
+| BYRON 1         | `F190` at COWIE, `F260` at KIWEE  |
+| BYRON 2         | `F270` at SEMAJ, `F200` and TUGUN |
+
+!!! note
+    Aircraft tracking via the BYRON coded clearance does **not** constitute a voiceless coordination route between AMB TCU and INL(GOL). Aircraft should still be heads-up coordinated prior to **5 minutes** to the boundary, unless coordinated otherwise.
+
+### Training Areas 
 #### Civil Training Area
 Civil operators (including Australian Air Force Cadets) conduct flying operations within the South Western Training Area (SWTA), located between the 10DME and 20DME arcs to the southwest of the AMB CTR. The SWTA is divided in half by the Rosewood-Mt Walker-Aratula Road into SWTA Alpha (north) and SWTA Bravo (south). The training area is classified Class G airspace but some pilots may request to climb into CTA to facilitate flight training (such as stall practice).
 
@@ -118,12 +194,7 @@ Transfer these aircraft to ADC approaching the boundary.
     **AMA**: "ASTR203, contact Amberley Tower, 118.3"  
     **ASTR203**: "118.3, ASTR203"  
 
-### YBOK
-
 #### Oakey Flying Training Area
-
-##### Flying Training Areas
-
 R654A, B, C and D are divided into the Western, North West and North East FTAs. These areas are the primary location for military helicopters conducting operations.
 
 <figure markdown>
@@ -182,10 +253,10 @@ All aircraft transiting from INL to **AMB TCU** and **OK TCU** must be [Heads-up
 
 The Standard Assignable Level from  **AMB ADC** to **AMB TCU** is:  
 
-| Assigned Departure | Level |
-| ------------------ | ----- |
-| Procedural SID | The lower of `F180` and `RFL` |
-| Coded Departure | `F190` |
+| Assigned Departure | Level  |
+| ------------------ | ------ |
+| Coded Clearance    | `F190` |
+| All others         | The lower of `F180` and `RFL` |
 
 [Next](../controller-skills/coordination.md#next) coordination is required from OK ADC to OK TCU for all aircraft.
 
@@ -195,6 +266,15 @@ The Standard Assignable level from **OK ADC** to **OK TCU** is:
 | -------- | ----- |
 | Fixed-wing | The lower of `F120` and `RFL` |
 | Rotary-wing | The lower of `A030` and `RFL` |
+
+#### ACD to TCU
+The controller assuming responsibility of **ACD** shall give [heads-up](../../controller-skills/coordination/#airways-clearance) coordination to AMA/OKA (or the enroute controller responsible for the AMB/OK TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
+
+!!! phraseology
+    <span class="hotline">**AMB ACD** -> **AMA**</span>: "CRNG21 requests clearance to M640A-D.”  
+    <span class="hotline">**AMA** -> **AMB ACD**</span>: "CRNG21, clearance approved."
+
+Most military operations will take place in SUA adjoining the [TCU in enroute airspace](#sua-in-enroute-airspace). AMB/OK TCU must coordinate the activation of these SUAs with the relevant enroute controllers **prior** to approving any clearances.
 
 ### BN TCU
 All aircraft transiting from **BN TCU** to **AMB TCU** and vice versa must be [Heads-up](../controller-skills/coordination.md#heads-up) coordinated prior to the boundary. 
@@ -209,7 +289,6 @@ For aircraft arriving into AMB TCU there is no standard assignable level.
     <span class="hotline">**BDN** -> **AMA**</span>: "via WACKO, STAL13, what level can I assign?"  
     <span class="hotline">**AMA** -> **BDN**</span>: "STAL13, `A100`"  
     <span class="hotline">**BDN** -> **AMA**</span>: "`A100`, STAL13"  
-
 
 ### AMB/OK Internal
 All aircraft transiting between the AMB/OK TCU boundary must be heads-up coordinated.
