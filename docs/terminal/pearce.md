@@ -102,7 +102,7 @@ There are four [military lanes](../../../controller-skills/military/#military-ga
 | R163            | MULLALOO             |
 
 !!! tip
-    [Coordination requirements](#acd-to-pe-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated.
+    [Coordination requirements](#acd-to-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated.
     
 There are four Departure/Arrival Lanes established in the PE TCU to facilitate military aircraft movements between adjacent SUAs.
 
@@ -116,7 +116,7 @@ The **Mullalloo Lane** is between the 248 and 233 radials, `A050`-`F120`. The la
 The **Wannamal Lane** is centered on the PEA 356 radial, `A050`-`F120`. The lane facilitates transit to/from SUAs to the north.
 
 #### Quokka Lane
-The **Quokka Lane** is defined as the AZZAR-FENDA track in the south-west of the TCU, `A090`-`F140`. It facilitates transit to/from the [M161 MOA](#m161-pearce) on the southern side of the PH TCU, and offers shorter track miles for military aircraft that would otherwise transit via the Wannamal Lane.
+The **Quokka Lane** is defined as the AZZAR-FENDA track in the south-west of the TCU, `A090`-`F140`. It facilitates transit to/from the [M161 MOA](../../enroute/HYD/#m161-pearce) on the southern side of the PH TCU, and offers shorter track miles for military aircraft that would otherwise transit via the Wannamal Lane.
 
 Aircraft may be cleared to via the Quokka Lane in lieu of the Wannamal Lane following coordination with PEA.
 

@@ -42,7 +42,7 @@ The [initial](../../../../controller-skills/military/#initial-and-pitch) points 
 There are several [military lanes](../../../controller-skills/military/#military-gates) established throughout the PE TMA to facilitate entry and exit to adjoining SUA.
 
 <figure markdown>
-![PE SUA Gates](../../../terminal/img/pe_mil_gates.png){ width="700" }
+![PE SUA Gates](../../terminal/img/pe_mil_gates.png){ width="700" }
   <figcaption>PE SUA Gates</figcaption>
 </figure>
 
@@ -87,7 +87,7 @@ Aircraft cleared via the Quokka Lane must be issued a requirement to reach `A090
 The PE TMA and adjoining SUAs contain multiple segmented training areas to facilitate local training operations. 
 
 <figure markdown>
-![PE Training Areas](../../img/pe_training_areas.png){ width="700" }
+![PE Training Areas](../../terminal/img/pe_training_areas.png){ width="700" }
   <figcaption>PE Training Areas</figcaption>
 </figure>
 
