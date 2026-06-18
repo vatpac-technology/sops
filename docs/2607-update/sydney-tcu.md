@@ -406,6 +406,22 @@ Aircraft inbound from the north should track via the **Z88 airway** and be proce
 !!! warning "Important"
     Successive RNP approaches in IMC should only be authorised after the first aircraft lands at YSBK due to the conflict between the approach and published missed approach. In practice, this translates to an **8 min** sequence between arrivals.
 
+### YSCN Operations
+#### Departures
+**CN ADC** will provide [Ready coordination](#cn-adc) for IFR aircraft departing YSCN. **SYC** shall provide traffic information to CN ADC. After departure, SYC shall identify the aircraft and transfer them to the relevant TCU controller to issue clearance (if appropriate), following normal [coordination procedures](#between-syc-and-tcu). 
+
+#### Arrivals
+A single STAR exists to process aircraft inbound to YSCN from the east, terminating in vectors. IFR aircraft from other directions should be processed via the RNP-W IAF.
+
+The RNP-W commences inside CTA (except aircraft maintaining the MSA via SC2WA). SY TCU shall clear aircraft to leave CTA via the approach and transfer them to **CN ADC** no later than SC2WI. CN ADC will issue onwards clearance into the CN CTR.
+
+!!! warning "Important"
+    Successive RNP approaches in IMC should only be authorised after the first aircraft lands at YSBK due to the conflict between the approach and published missed approach. In practice, this translates to an **8 min** sequence between arrivals.
+
+### YSRI operations
+#### Departures
+When **RI ADC** is offline, **SYC** will instruct aircraft to depart via **NESSY** SID with the RADAR Transition, in lieu of a RADAR SID. This ensures appropriate terrain and CTA separation for aircraft as they transit through the uncontrolled airspace.
+
 ### YWLM STARs
 YWLM arrivals from the south and west will transit the SY TCU as they descend. BIK/KAT will provide these aircraft with their STAR clearance and initial descent, before conducting heads-up coordination with the relevant SY TCU controller to facilitate further descent.
 
@@ -896,7 +912,7 @@ The Standard Assignable level from RI ADC to SRA is:
 
 | Aircraft | Level  |
 | -------- | ------ |
-| All Aircraft     | The lower of `A060` and `RFL` |
+| All Aircraft     | The lower of `A050` and `RFL` |
 
 ### SMC to TCU
 The controller assuming responsibility of **SMC** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to SRA (or the enroute controller responsible for the SY TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
