@@ -104,7 +104,7 @@ There are two [military corridors](../../controller-skills/military/#military-co
   <figcaption>WLM TCU Military Corridors</figcaption>
 </figure>
 
-These corridors are located **outside** the jurisdiction of the WLM TCU.
+These corridors are located **outside** the jurisdiction of WLM TCU.
 
 #### Thunder Corridor
 The **Thunder Corridor** is used by aircraft to transit civilian enroute airspace between the WLM TCU and the R560 and R570 restricted areas.
