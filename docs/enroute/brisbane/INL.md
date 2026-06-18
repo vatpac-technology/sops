@@ -311,17 +311,17 @@ When activated, these MOAs disrupt traffic on the **A598** and **H224** high alt
 | A598           | `... Q67 GUDSO Q24 TERUV PUGEL` |
 
 !!! note
-	 Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../../controller-skills/sua/#separation-from-sua)  laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../../controller-skills/sua/#controlled-airspace) clearance with all parts of the SUA.
+	 Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../../controller-skills/sua/#separation-from-sua) laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../../controller-skills/sua/#controlled-airspace) clearance with all parts of the SUA.
 
 #### M646 & M649A-B Amberley
 The M646 and M649A-B Amberley MOAs are located offshore within the SDY, MNN and TSN(FLD, HWE) subsectors. The restricted areas are connected to the AMB TCU by the **Central Corridor**.
 
-Aircraft departing the AMB TCU will be cleared the **CENTRAL 4** coded clearance. Aircraft returning to the TCU will be cleared the **CENTRAL 5** coded clearance by INL.
+Aircraft departing the AMB TCU will be cleared the **CENTRAL 4** coded clearance. Aircraft returning to the TCU will be cleared the **CENTRAL 5** [coded clearance](#coded-clearances) by SDY.
 
 #### M661A-B, M641, and R638A-C Evans Head
 The M661A-B, M641, and R638A-C Evans Head SUAs are located south of YBNA within the GOL, INL, SDY and TSN(HWE) subsectors. The restricted areas are connected to the AMB TCU by the **South Corridor**.
 
-Aircraft departing the AMB TCU will be cleared the **BYRON 1** coded clearance. Aircraft returning to the TCU will be cleared the **BYRON 2** coded clearance by INL.
+Aircraft departing the AMB TCU will be cleared the **BYRON 1** coded clearance. Aircraft returning to the TCU will be cleared the **BYRON 2** [coded clearance](#coded-clearances) by SDY.
 
 ##### Affected Civil Operations
 When activated, the restricted areas distrupt traffic within [BAA airspace](#runway-06-arrivals), aircraft arriving [YBCG via BERNI](#berni-transitions), and aircraft on the **T53** and **P880** high altitude airways, which connect the BN TMA to New Zealand.
@@ -528,7 +528,7 @@ The Standard Assignable level from NSA to **SU ADC** is `A060`, any other level 
 
 ### OK TCU / AMB TCU
 #### Airspace
-By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas from `SFC` to `F125`, and **AMB TCU** owns the airspace within the **R625A-D** restricted areas from `SFC` to `F210`, unless stated otherwise by ad-hoc release or NOTAM.
+By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas from `SFC` to `F125`, and **AMB TCU** owns the airspace within the **R625A-D** restricted areas from `SFC` to `F210`.
 
 #### Departures
 All aircraft from AMB/OK TCU to INL(All) require Heads-up coordination prior to the boundary. Expect this coordination to be completed a short time after the aircraft becomes airborne (pending controller workload).

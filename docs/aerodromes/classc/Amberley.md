@@ -24,39 +24,68 @@ AMB ADC owns the Class C airspace in the AMB CTR from `SFC` to `A015`.
   <figcaption>AMB ADC Airspace</figcaption>
 </figure>
 
-## Local Procedures 
-### Coded Clearances (Fast Jets)
-High performance military jet aircraft with planned operations in offshore SUA, or intending to depart to the east, shall be assigned a Coded Clearance departure. These Coded Clearances provide a standardised corridor avoiding civilian traffic in the adjacent airspace. 
+### Restricted Area Activations
+There are no [restricted areas or MOAs](../../../controller-skills/sua) activated by default when AMB ADC is online.
 
-<figure markdown>
-![YAMB Coded Clearances](img/yambcodedclearances.png){ width="700" }
-  <figcaption>YAMB Coded Clearances</figcaption>
-</figure>
+## Local Procedures
+### Initial Pitch Procedures
+The [intial points](../../../controller-skills/military/#initial-and-pitch) are aligned with Engine Test Cell 2 at the following locations.
+
+| RWY  | Initial Point | Altitude |
+| ---- | ------------- | -------- |
+| 15   | 5NM downwind  | `A020`   |
+| 33   | 5NM downwind  | `A020`   |
+
+### Coded Clearances
+Aircraft departing to the M640A-D, M646, M649A-B, or M661A-B MOAs should be cleared via the appropriate coded clearance. Each coded clearance gives aircraft permission to transit via the appropriate **[military corridor](#military-gates)**
+
+[Coordination](#acd-to-tcu) may be required with AMB TCU prior to issuing clearance to an aircraft intending to operate in an SUA.
+
+!!! phraseology
+    *CRNG21 plans to enter M640A-D via the NORTHERN corridor for military training.*  
+    **AMB ACD**: "CRNG21, Cleared NORTHERN 5, SID departure. Climb via SID to `F190`, squawk 6003, departure frequency 126.2"  
+    
+#### Northern Clearance Transitions
+The **Northern** coded clearance includes a steep climb gradient to reach the initial altitude restriction. Aircraft that are unable to meet the initial altitude restrictions may request to depart via the **WOBBL** or **AM2NG** transition, which offers additional track miles.
+
+!!! phraseology
+    *STAL11 plans to enter M640A-D via the NORTHERN corridor for military training, and requires the WOBBL transition due performance*  
+    **STAL11**: "Amberley Delivery, STAL11 for M640A-D via BEACH, request clearance, require WOBBL transition."  
+    **AMB ACD**: "STAL11, Cleared NORTHERN 5, WOBBL transition. SID departure, climb via SID to `F190`, squawk 6003, departure frequency 126.2"  
 
 !!! tip
-    Descriptions of the coded clearances are available in the [FIHA AD2 Supps](https://ais-af.airforce.gov.au/australian-aip){target=new}.
+    ACD should include details about the coded clearance transitions in the Global Ops field.
 
-#### Departures
-Aircraft will depart the circuit visually and track overhead YAMB to begin tracking for their initial waypoint. Aircraft cleared the BYRON departure must turn to the west on departure, and may set course for their inital waypoint within 10TAC AMB, remaining within the laterial limits of the AMB CTR in order to meet the inital constraint at `COWIE`.
+### Military Gates
+There are numerous [military gates](../../../controller-skills/military/#military-gates) established throughout the AMB/OK TCU to facilitate entry and exit to adjoining SUA.
 
-The following altitude constraints and tracking points are implied by the coded clearance:
+<figure markdown>
+![AMB/OK SUA Gates](img/ambok_mil_gates.png){ width="700" }
+  <figcaption>AMB/OK SUA Gates</figcaption>
+</figure>
 
-| Departure | Initial Constraint | Route |
-| --------- | ----------| --------- |
-| Northern 5 | `F190` by BINUP | BINUP MURJO BOBED LESKO MOSSI, or<br>BINUP MURJO BOBED LESKO ADNUK |
-| Central 5 | `F190` by BINUP | BINUP MURJO BOBED VIRGE |
-| Byron 1 | `F190` by COWIE | COWIE KIWEE ZANET LOTMA SEMAJ |
-
-!!! phraseology
-    *CRNG21 plans to enter R637 via the gate MOSSI for military training.*  
-    **AMB ADC**: "CRNG21, cleared to YAMB via BINUP, thence Northern 3, MOSSI transition, flight planned route. Runway 15, visual departure, climb to `F190`, squawk 3601, departure frequency 126.2"   
+Pilots should include the desired departure gate when requesting clearance.
 
 !!! phraseology
-    **AMB ADC**: "CRNG21, make left turn, cleared for takeoff"  
-    **CRNG21**: "Make left turn, cleared for takeoff, CRNG21"  
+    *WOLF11 plans to enter the R639A restricted area via BEACH for military training and airwork.*  
+    **WOLF11**: "Amberley Delivery, WOLF11 for R639A via BEACH, request clearance."  
+    **AMB ACD**: "WOLF11, Amberley Delivery. Cleared BEACH direct, visual departure. Climb to `F180`, squawk 6001, departure frequency 126.2."   
 
-### Civil Training Area
-Civil operators (including Australian Air Force Cadets) conduct flying operations within the South Western Training Area (SWTA). The SWTA is divided in half by the Rosewood-Mt Walker-Aratula Road into SWTA Alpha (north) and SWTA Bravo (south). The training area is classified Class G airspace but a clearance is required to transit the AMB CTA to/from SWTA.
+If the pilot **does not** nominate a gate, or nominates a gate that does not provide access to their intended SUA, WLM ACD should clear the aircraft to depart via the **appropriate gate**.
+
+| Intended SUA    | TCU Exit Gate       |
+| --------------- | ------------------- |
+| M640A-D         | [Northern Corridor](#northern-corridor) |
+| M646            | [Central Corridor](#central-corridor) |
+| M649A-B         | [Central Corridor](#central-corridor) |
+| M661A-B         | [Byron Corridor](#byron-corridor) |
+| R639A-D         | BEACH               |
+
+!!! tip
+    [Coordination requirements](#acd-to-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU before providing clearance.
+
+#### South Western Training Area
+The South Western Training Area (SWTA) is located to the southwest of the AMB MIL CTR. The SWTA is divided in half by the Rosewood-Mt Walker-Aratula Road into SWTA Alpha (north) and SWTA Bravo (south). The training area is classified Class G airspace but a clearance is required to transit the AMB CTA to/from SWTA.
 
 ## VFR Operations
 ### Outbound Aircraft
@@ -156,11 +185,11 @@ Circuits are flown at the following altitudes:
 
 ### Circuit Direction
 | Runway | Direction |
-| ------ | ----------|
-| 15     | Right  |
-| 33     | Left |
-| 04     | Left |
-| 22     | Left |
+| ------ | --------- |
+| 15     | Right     |
+| 33     | Left      |
+| 04     | Left      |
+| 22     | Left      |
 
 ## SID Selection
 
@@ -174,18 +203,29 @@ Aircraft who are not planned via those points may be assigned the RADAR SID or a
 
 The Standard Assignable Level from  **AMB ADC** to **AMB TCU** is:  
 
-| Assigned Departure | Level |
-| ------------------ | ----- |
-| Procedural SID | The lower of `F180` and `RFL` |
-| Coded Departure | `F190` |
+| Assigned Departure | Level  |
+| ------------------ | ------ |
+| Coded Clearance    | `F190` |
+| All others         | The lower of `F180` and `RFL` |
+
+
 
 ### Departures Controller
-When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate Enroute controller or Advisory frequency shall be issued.
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate enroute controller or advisory frequency shall be issued.
 
 | Runway | Via | Departure Frequency |
 | ------ | ---- | -------------------- |
 | All | All | 126.2 (AMA) |
 
+#### ACD to TCU
+The controller assuming responsibility of **ACD** shall give [heads-up](../../controller-skills/coordination/#airways-clearance) coordination to AMA/OKA (or the enroute controller responsible for the AMB/OK TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
+
+!!! phraseology
+    <span class="hotline">**AMB ACD** -> **AMA**</span>: "CRNG21 requests clearance to M640A-D.”  
+    <span class="hotline">**AMA** -> **AMB ACD**</span>: "CRNG21, clearance approved."
+
+Most military operations will take place in SUA adjoining the [TCU in enroute airspace](#sua-in-enroute-airspace). AMB/OK TCU must coordinate the activation of these SUAs with the relevant enroute controllers **prior** to approving any clearances.
+
 ## Charts
 !!! abstract "Reference"
-    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
+    In addition to the civilian `ERSA` and `AIP` publications, [the RAAF AIP website](https://ais-af.airforce.gov.au/australian-aip){target=new} contains the necessary charts (available in the TERMA) and description of procedures (in each airports' FIHA).
