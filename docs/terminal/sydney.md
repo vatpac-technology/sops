@@ -366,18 +366,6 @@ SFW/SFE may provide distance to touchdown, when transferring an aircraft to towe
 !!! phraseology
     **SFE:** "QFA490, 8 miles to touchdown, contact tower 120.5"
 
-### YSWS Operations
-#### Departures
-Aircraft departing RWY 05 on the **TEEVE D SID** will pass through SRA airspace before returning to SWA. SWA should coordinate any [frequency requirements](../controller-skills/coordination.md#no-frequency-requirements-nfr) with SRA rather than performing a frequency transfer for these aircraft, where possible.
-
-#### Arrivals
-Aircraft inbound to YSWS from the north or east will pass through other SY TCU sectors prior to reaching SWA. [Voiceless coordination](#sy--ws--ri) is in place for aircraft transiting TCU sectors assigned **any sensible level**. 
-
-!!! tip
-    In practice, this is generally `A090` for aircraft inbound from the east and not below `A030` for aircraft inbound from the north, although with RWY 05 in use, descent conflicting with the standard assignable level (`A040`) should be avoided.
-
-For aircraft inbound from the north, SRA shall endeavour to hand off aircraft inbound to YSWS **as early as possible**, to allow SWA to issue approach clearance. Additionally, SRA is assumed to have **no restrictions or requirements** for aircraft inbound to YSWS via a STAR (as some STARs clip SRA airspace).
-
 ### YSBK Operations
 #### Departures
 IFR departures from YSBK will be [coordinated by BK ADC](#bk-adc) to SBA. SBA must [onwards coordinate](#between-sba-and-tcu) with the most appropriate TCU controller before releasing the aircraft.
@@ -412,6 +400,18 @@ The RNP-W commences inside CTA (except aircraft maintaining the MSA via SC2WA). 
 
 !!! warning "Important"
     Successive RNP approaches in IMC should only be authorised after the first aircraft lands at YSBK due to the conflict between the approach and published missed approach. In practice, this translates to an **8 min** sequence between arrivals.
+    
+### YSWS Operations
+#### Departures
+Aircraft departing RWY 05 on the **TEEVE D SID** will pass through SRA airspace before returning to SWA. SWA should coordinate any [frequency requirements](../controller-skills/coordination.md#no-frequency-requirements-nfr) with SRA rather than performing a frequency transfer for these aircraft, where possible.
+
+#### Arrivals
+Aircraft inbound to YSWS from the north or east will pass through other SY TCU sectors prior to reaching SWA. [Voiceless coordination](#sy--ws--ri) is in place for aircraft transiting TCU sectors assigned **any sensible level**. 
+
+!!! tip
+    In practice, this is generally `A090` for aircraft inbound from the east and not below `A030` for aircraft inbound from the north, although with RWY 05 in use, descent conflicting with the standard assignable level (`A040`) should be avoided.
+
+For aircraft inbound from the north, SRA shall endeavour to hand off aircraft inbound to YSWS **as early as possible**, to allow SWA to issue approach clearance. Additionally, SRA is assumed to have **no restrictions or requirements** for aircraft inbound to YSWS via a STAR (as some STARs clip SRA airspace).
 
 ### YWLM STARs
 YWLM arrivals from the south and west will transit the SY TCU as they descend. BIK/KAT will provide these aircraft with their STAR clearance and initial descent, before conducting heads-up coordination with the relevant SY TCU controller to facilitate further descent.
