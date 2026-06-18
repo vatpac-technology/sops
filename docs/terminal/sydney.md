@@ -410,7 +410,7 @@ When **RI ADC** is offline, **SYC** will instruct aircraft to depart via **NESSY
 Aircraft departing RWY 05 on the **TEEVE D SID** will pass through SRA airspace before returning to SWA. SWA should coordinate any [frequency requirements](../controller-skills/coordination.md#no-frequency-requirements-nfr) with SRA rather than performing a frequency transfer for these aircraft, where possible.
 
 #### Arrivals
-Aircraft inbound to YSWS from the north or east will pass through other SY TCU sectors prior to reaching SWA. [Voiceless coordination](#sy--ws--ri) is in place for aircraft transiting TCU sectors assigned **any sensible level**. 
+Aircraft inbound to YSWS from the north or east will pass through other SY TCU sectors prior to reaching SWA. [Voiceless coordination](#sy-ws-ri) is in place for aircraft transiting TCU sectors assigned **any sensible level**. 
 
 !!! tip
     In practice, this is generally `A090` for aircraft inbound from the east and not below `A030` for aircraft inbound from the north, although with RWY 05 in use, descent conflicting with the standard assignable level (`A040`) should be avoided.

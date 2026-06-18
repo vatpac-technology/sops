@@ -60,7 +60,7 @@ The **Northern** coded clearance includes a steep climb gradient to reach the in
 There are numerous [military gates](../../../controller-skills/military/#military-gates) established throughout the AMB/OK TCU to facilitate entry and exit to adjoining SUA.
 
 <figure markdown>
-![AMB/OK SUA Gates](img/ambok_mil_gates.png){ width="700" }
+![AMB/OK SUA Gates](../../terminal/img/ambok_mil_gates.png){ width="700" }
   <figcaption>AMB/OK SUA Gates</figcaption>
 </figure>
 
@@ -75,10 +75,10 @@ If the pilot **does not** nominate a gate, or nominates a gate that does not pro
 
 | Intended SUA    | TCU Exit Gate       |
 | --------------- | ------------------- |
-| M640A-D         | [Northern Corridor](#northern-corridor) |
-| M646            | [Central Corridor](#central-corridor) |
-| M649A-B         | [Central Corridor](#central-corridor) |
-| M661A-B         | [Byron Corridor](#byron-corridor) |
+| M640A-D         | [Northern Corridor](#coded-clearances) |
+| M646            | [Central Corridor](#coded-clearances) |
+| M649A-B         | [Central Corridor](#coded-clearances) |
+| M661A-B         | [Byron Corridor](#coded-clearances) |
 | R639A-D         | BEACH               |
 
 !!! tip
@@ -223,8 +223,6 @@ The controller assuming responsibility of **ACD** shall give [heads-up](../../co
 !!! phraseology
     <span class="hotline">**AMB ACD** -> **AMA**</span>: "CRNG21 requests clearance to M640A-D.”  
     <span class="hotline">**AMA** -> **AMB ACD**</span>: "CRNG21, clearance approved."
-
-Most military operations will take place in SUA adjoining the [TCU in enroute airspace](#sua-in-enroute-airspace). AMB/OK TCU must coordinate the activation of these SUAs with the relevant enroute controllers **prior** to approving any clearances.
 
 ## Charts
 !!! abstract "Reference"
