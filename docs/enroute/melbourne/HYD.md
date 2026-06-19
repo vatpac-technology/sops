@@ -341,7 +341,7 @@ Voiceless for all aircraft:
 All other aircraft coming from HYD CTA must be **Heads-up** Coordinated to PH TCU prior to **20nm** from the boundary.
 
 ##### Arrivals via SOLUS STAR
-Due to the relatively high level of Class G in the south of the TMA, aircraft arriving via the **SOLUS** STAR should be cleared to **leave and re-enter CTA on descent** to `A090`. Standard [Heads Up](../controller-skills/coordination.md#heads-up) coordination should be used in this case.
+Due to the relatively high level of Class G in the south of the TMA, aircraft arriving via the **SOLUS** STAR should be cleared to **leave and re-enter CTA on descent** to `A090`. Standard [Heads Up](../../../controller-skills/coordination/#heads-up) coordination should be used in this case.
 
 Upon receiving coordination from HYD, PH TCU should provide a traffic statement to HYD.
 
