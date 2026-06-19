@@ -43,12 +43,12 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 | 2 - 05          | 05        | 05         |
 | * RRO           | 05        | 23         |
 
-*Permitted between the hours of 2300 and 0530 local when [YSSY Curfew Operations](../Sydney/#preferred-runway-modes) are in use.
+*Permitted between the hours of 2300 and 0530 local when [YSSY Curfew Operations](../sydney/#preferred-runway-modes) are in use.
 
 #### Reciprocal Runway Operations
 During Reciprocal Runway Operations (RRO) aircraft will depart and arrive in opposite directions on the same runway.
 
-The RRO procedures on YSWS are designed to utilise airspace vacated by [YSSY Curfew Operations](../Sydney/#preferred-runway-modes). Outside of YSSY curfew hours, or when YSSY is using a non-curfew runway mode, the RRO runway mode **must not** be used.
+The RRO procedures on YSWS are designed to utilise airspace vacated by [YSSY Curfew Operations](../sydney/#preferred-runway-modes). Outside of YSSY curfew hours, or when YSSY is using a non-curfew runway mode, the RRO runway mode **must not** be used.
 
 !!! tip
     There is no requirement to nominate RRO during the hours listed above. RRO must only be nominated when the prevailing meteorological conditions allow. 

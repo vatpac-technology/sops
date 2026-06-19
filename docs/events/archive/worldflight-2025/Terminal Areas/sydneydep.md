@@ -62,7 +62,7 @@ WorldFlight Teams will be highlighted by default and should receive priority at 
 ## Coordination
 ### SY ADC
 #### Auto Release
-Standard as per [YSSY Local Instructions](../../../../../aerodromes/classc/Sydney/#auto-release), with the exception of auto-release being available for aircraft assigned the SY3 SID with the [Standard Assignable Heading](#sy3-departures)
+Standard as per [YSSY Local Instructions](../../../../../aerodromes/classc/sydney/#auto-release), with the exception of auto-release being available for aircraft assigned the SY3 SID with the [Standard Assignable Heading](#sy3-departures)
 
 #### Departures Controller
 Departures Controller will be as per the following table:

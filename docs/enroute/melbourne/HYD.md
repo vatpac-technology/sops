@@ -101,7 +101,7 @@ The following subsectors are responsible for issuing STAR clearance.
 Arrivals from the east and north shall be given initial descent to not below `F190`. **PIY** will issue final descent.
 
 ##### Runway Assignment
-When the [Southwest Plan](../../../aerodromes/classc/Perth/#runway-modes) active, arrivals shall be processed to either Runway 21 or 24 based on their feeder fix (subject to any operational requirements).
+When the [Southwest Plan](../../../aerodromes/classc/perth/#runway-modes) active, arrivals shall be processed to either Runway 21 or 24 based on their feeder fix (subject to any operational requirements).
 
 | FF    | Runway |
 | ----- | ------ |

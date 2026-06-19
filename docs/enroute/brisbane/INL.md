@@ -38,7 +38,7 @@ INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, and **NSA** when they
         When either AMA or OKA is offline, consider publishing a pre-formatted **ATIS Zulu** for their respective aerodromes, to inform pilots about the airspace reclassification.
 
 === "CFS CTR"
-	When **CFS ADC** is offline, CFS CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by MNN and INL. Alternatively, INL may provide a [top-down procedural service](../../../aerodromes/procedural/Coffs/) if they wish (not recommended), and this must be coordinated to MNN.
+	When **CFS ADC** is offline, CFS CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by MNN and INL. Alternatively, INL may provide a [top-down procedural service](../../../aerodromes/procedural/coffs/) if they wish (not recommended), and this must be coordinated to MNN.
 
 	Due to the low ceiling of CTA, when CFS ADC is offline, INL shall instruct aircraft departing into CTA to report lined up on the runway and issue an airways clearance (traffic pending) at that time.
 
@@ -52,7 +52,7 @@ INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, and **NSA** when they
         If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
         
 === "SU CTR"
-	When **SU ADC** is offline, SU CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by NSA and BUR. Alternatively, NSA may provide a [top-down procedural service](../../../aerodromes/procedural/Sunshinecoast/) if they wish (not recommended), and this must be coordinated to BUR.
+	When **SU ADC** is offline, SU CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by NSA and BUR. Alternatively, NSA may provide a [top-down procedural service](../../../aerodromes/procedural/sunshinecoast/) if they wish (not recommended), and this must be coordinated to BUR.
 
     !!! tip
         If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
@@ -261,7 +261,7 @@ BUR, GOL and SDY are responsible for initial sequencing for aircraft arriving fr
 Coordination with KPL should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
 
 ### YCFS
-[Coffs Harbour (YCFS)](../../../aerodromes/procedural/Coffs) lies under the INL/MNN boundary. INL is responsible for issuing descent to aircraft arriving into YCFS from the north.
+[Coffs Harbour (YCFS)](../../../aerodromes/procedural/coffs) lies under the INL/MNN boundary. INL is responsible for issuing descent to aircraft arriving into YCFS from the north.
 
 #### Sequencing
 INL and MNN share a joint responsibility to build the final sequence of arrivals into YCFS when the tower is open. Coordination with MNN should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
