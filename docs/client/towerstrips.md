@@ -243,7 +243,7 @@ When [pushback requests](../controller-skills/grounddelaymanagement.md#pushback-
     Whilst not a requirement, controllers may find it beneficial to utilise [CDM Mode](#a-cdm) to manage the pushback rate where congestion is likely at the holding point.
 
 ### Coordinator
-At locations like [Brisbane](../aerodromes/classc/brisbane.md#pushback-requests-on-acd), [Melbourne](../aerodromes/classc/melbourne.md#pushback-requests-on-acd), [Perth](../aerodromes/classc/perth.md#pushback-requests-on-acd), [Sydney](../aerodromes/classc/sydney.md#sydney-coordinator), and [Walton](../aerodromes/classc/walton.md#sydney-coordinator), a Coordinator role is sometimes performed during times of high traffic. See each aerodrome-specific page for the requirements to open and set up the Coordinator position.
+At locations like [Brisbane](../aerodromes/classc/brisbane.md#pushback-requests-on-acd), [Melbourne](../aerodromes/classc/melbourne.md#pushback-requests-on-acd), [Perth](../aerodromes/classc/perth.md#pushback-requests-on-acd), [Sydney](../aerodromes/classc/sydney.md#sydney-coordinator), and [Walton](../aerodromes/classc/walton.md#pushback-requests-on-acd), a Coordinator role is sometimes performed during times of high traffic. See each aerodrome-specific page for the requirements to open and set up the Coordinator position.
 
 !!! note
     At most aerodromes, this duty is performed by ACD (when required), but for simplicity, this section will refer to the controller performing the role as 'Coordinator'.

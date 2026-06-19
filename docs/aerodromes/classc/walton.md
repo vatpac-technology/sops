@@ -27,8 +27,13 @@ To minimise conflict on the Cargo Apron, it is recommended that taxi instruction
 
 `ERSA FAC YSWS` noise abatement procedures require all aircraft to depart from full length only. This should be simulated where practical but intersection departures should be provided to aircraft on request, where available.
 
-<!--## Local Procedures
+## Workload Management
+### Pushback Requests on ACD
+During busy periods, SMC and ACD may coordinate to implement the [Pushback Requests on ACD](../../../controller-skills/grounddelaymanagement#pushback-requests-on-acd) procedure to balance the workload across ACD and SMC frequencies.
 
+When implementing the procedure the ATIS [OPR INFO field](#acd-pushback-requests) must be updated to inform pilots the correct frequency on which to request pushback.
+
+<!--
 ## VFR Operations
 
 ## Helicopter Operations
