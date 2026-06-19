@@ -351,7 +351,7 @@ Upon receiving coordination from HYD, PH TCU should provide a traffic statement 
     <span class="hotline">**JAR** -> **PHR**</span>: "Traffic is FD613 tracking JT DCT SOLUS `A080`, SOLUS at 35"  
     
     **JAR**: "RXA2126, leave and reenter controlled airspace descending to `A090`, QNH 1013. Traffic is FD613, IFR PC12 tracking JT DCT SOLUS at `A080`, estimating SOLUS at time 35."  
-    **RXA2126**: "Leave and reenter controlled airspace descending to `A090`, copy traffic, RXA2126." 
+    **RXA2126**: "Leave and reenter controlled airspace descending to `A090`, QNH 1013, copy traffic, RXA2126." 
     **JAR**: "RXA2126, contact Perth Centre on 135.25"  
 
 
