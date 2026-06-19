@@ -97,4 +97,4 @@ Go arounds should be avoided at all costs. If necessary, provide traffic informa
 In the event of a go around, participating aircraft will climb straight ahead to `A030`. They should be instructed to rejoin the circuit without delay. If this is not possible, coordinate with the most appropriate TCU controller and transfer the aircraft to them, for vectors back for the most suitable approach.
 
 ## Coordination
-Standard as per [YSSY Local Instructions](../../../../../aerodromes/classc/Sydney/#auto-release).
+Standard as per [YSSY Local Instructions](../../../../../aerodromes/classc/sydney/#auto-release).

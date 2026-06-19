@@ -83,7 +83,7 @@ Aircraft requesting clearance to operate in the area will be cleared a 'LOW FLYI
 !!! note
     ACD will write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
     
-When the area is active the [ATIS will be updated](../../aerodromes/classc/EastSale/#specified-training-area-activations) to reflect the activation.
+When the area is active the [ATIS will be updated](../../aerodromes/classc/eastsale/#specified-training-area-activations) to reflect the activation.
     
 #### Roulette Training Area
 The **Roulette Training Areas** are located in the north-east of the ES TMA `SFC-A060`, entirely within the R360A restricted area. There are two training areas: 
@@ -98,7 +98,7 @@ Aircraft requesting clearance to operate in the area will be cleared a 'ROULETTE
 !!! note
     ACD will write the coded clearance in the **global ops field** prior to issuing clearance, for the awareness of other controllers.
     
-When the area is active the [ATIS should be updated](../../aerodromes/classc/EastSale/#specified-training-area-activations) to reflect the activation.
+When the area is active the [ATIS should be updated](../../aerodromes/classc/eastsale/#specified-training-area-activations) to reflect the activation.
 
 ### Training Areas
 The ES TMA is divided into sixteen individual training areas to facilitate local training operations. 

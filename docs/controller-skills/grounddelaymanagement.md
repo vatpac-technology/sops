@@ -89,9 +89,9 @@ Changes to the departure rate may be made by logging in to the website. It is al
 During busy events, such as [Milk Run Monday](../../events/milkrun/), the **SMC** controller may end up with a much higher workload than the **ACD** controller. To mitigate this, some airports have local SOPs that allow for pushback requests to be done on **ACD** frequency, to balance the workload. 
 
 !!! warning "Important"
-    The 'Pushback Requests on ACD' procedure is currently limited to [Brisbane](../aerodromes/classc/Brisbane.md#pushback-requests-on-acd), [Melbourne](../aerodromes/classc/Melbourne.md#pushback-requests-on-acd), [Perth](../aerodromes/classc/Perth.md#pushback-requests-on-acd), and [Sydney](../aerodromes/classc/Sydney.md#sydney-coordinator).
+    The 'Pushback Requests on ACD' procedure is currently limited to [Brisbane](../aerodromes/classc/brisbane.md#pushback-requests-on-acd), [Melbourne](../aerodromes/classc/melbourne.md#pushback-requests-on-acd), [Perth](../aerodromes/classc/perth.md#pushback-requests-on-acd), [Sydney](../aerodromes/classc/sydney.md#sydney-coordinator), and [Walton](../aerodromes/classc/walton.md#pushback-requests-on-acd)
 
-At Sydney, the role of **ACD** in the procedure listed below is performed by a dedicated controller, named [Sydney Coordinator](../aerodromes/classc/Sydney.md#sydney-coordinator). Where a separate Coordinator controller is not online, the role may be performed by ACD instead.
+At Sydney, the role of **ACD** in the procedure listed below is performed by a dedicated controller, named [Sydney Coordinator](../aerodromes/classc/sydney.md#sydney-coordinator). Where a separate Coordinator controller is not online, the role may be performed by ACD instead.
 
 ### Implementing the Procedure
 !!! note

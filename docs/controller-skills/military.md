@@ -37,21 +37,21 @@ These airports have published military procedures that can differ significantly 
 
 | Aerodrome | Terminal Area | Military Status |
 | --------- | ------------- | --------------- |
-| [Amberley](../../aerodromes/classc/Amberley) | [Amberley TCU](../../terminal/amberleyoakey) | Military |
-| [Curtin](../../aerodromes/classc/Curtin) | [Curtin TCU](../../terminal/curtin) | Joint Military/Civil |
-| [Darwin](../../aerodromes/classc/Darwin) | [Darwin TCU](../../terminal/darwin) | Joint Military/Civil |
-| [East Sale](../../aerodromes/classc/EastSale) | [East Sale TCU](../../terminal/eastsale) | Military |
-| [Edinburgh](../../aerodromes/classc/Edinburgh) | None *(Adelaide)* | Military |
-| [Gingin](../../aerodromes/classc/Gingin) |[Pearce TCU](../../terminal/pearce) | Military |
-| [Learmonth](../../aerodromes/classc/Learmonth) |[Learmonth TCU](../../terminal/learmonth) | Joint Military/Civil |
+| [Amberley](../../aerodromes/classc/amberley) | [Amberley TCU](../../terminal/amberleyoakey) | Military |
+| [Curtin](../../aerodromes/classc/curtin) | [Curtin TCU](../../terminal/curtin) | Joint Military/Civil |
+| [Darwin](../../aerodromes/classc/darwin) | [Darwin TCU](../../terminal/darwin) | Joint Military/Civil |
+| [East Sale](../../aerodromes/classc/eastsale) | [East Sale TCU](../../terminal/eastsale) | Military |
+| [Edinburgh](../../aerodromes/classc/edinburgh) | None *(Adelaide)* | Military |
+| [Gingin](../../aerodromes/classc/gingin) |[Pearce TCU](../../terminal/pearce) | Military |
+| [Learmonth](../../aerodromes/classc/learmonth) |[Learmonth TCU](../../terminal/learmonth) | Joint Military/Civil |
 | [Nowra](../../aerodromes/classc/Nowra) |[Nowra TCU](../../terminal/nowra) | Military |
-| [Oakey](../../aerodromes/classc/Oakey) | [Oakey TCU](../../terminal/amberleyoakey) | Military |
-| [Pearce](../../aerodromes/classc/Pearce) | [Pearce TCU](../../terminal/pearce) | Military |
-| [Richmond](../../aerodromes/classc/Richmond) | None *(Sydney)*  | Military |
-| [Tindal](../../aerodromes/classc/Tindal) | [Tindal TCU](../../terminal/tindal) | Joint Military/Civil |
-| [Townsville](../../aerodromes/classc/Townsville) | [Townsville TCU](../../terminal/townsville) | Joint Military/Civil |
-| [Williamtown](../../aerodromes/classc/Williamtown) | [Williamtown TCU](../../terminal/williamtown) | Joint Military/Civil |
-| [Woomera](../../aerodromes/procedural/Woomera) | None | Military |
+| [Oakey](../../aerodromes/classc/oakey) | [Oakey TCU](../../terminal/amberleyoakey) | Military |
+| [Pearce](../../aerodromes/classc/pearce) | [Pearce TCU](../../terminal/pearce) | Military |
+| [Richmond](../../aerodromes/classc/richmond) | None *(Sydney)*  | Military |
+| [Tindal](../../aerodromes/classc/tindal) | [Tindal TCU](../../terminal/tindal) | Joint Military/Civil |
+| [Townsville](../../aerodromes/classc/townsville) | [Townsville TCU](../../terminal/townsville) | Joint Military/Civil |
+| [Williamtown](../../aerodromes/classc/williamtown) | [Williamtown TCU](../../terminal/williamtown) | Joint Military/Civil |
+| [Woomera](../../aerodromes/procedural/woomera) | None | Military |
 
 When an ADC or TCU controller is online at a military aerodrome-and at some joint military/civil aerodromes-the restricted and danger areas associated with the aerodromes are activated. These areas are listed in the *'Restricted Areas'* section of the relevant aerodrome and TCU page.
 

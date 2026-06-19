@@ -34,7 +34,7 @@
 
 ### Reclassifications
 === "AS CTR"
-	When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME AS reverts to Class G, and AS CTA (Class C `F125` to `F245`) within 80 DME AS reverts to Class E, and both are administered by ASP. Alternatively, ASP may provide a [top-down procedural service](../../../aerodromes/procedural/Alice/) if they wish.
+	When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME AS reverts to Class G, and AS CTA (Class C `F125` to `F245`) within 80 DME AS reverts to Class E, and both are administered by ASP. Alternatively, ASP may provide a [top-down procedural service](../../../aerodromes/procedural/alice/) if they wish.
 
 	!!! tip
 		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
@@ -70,7 +70,7 @@ There are multiple volumes of [SUA](../../../controller-skills/sua/) within ASP 
   <figcaption>Notable SUA in ASP Airspace</figcaption>
 </figure>
 
-When **WR ADC** is online, **R222F** Restricted Area is activated `SFC` to `F120` by default. WR ADC must [give heads up coordination](../../../aerodromes/procedural/Woomera/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
+When **WR ADC** is online, **R222F** Restricted Area is activated `SFC` to `F120` by default. WR ADC must [give heads up coordination](../../../aerodromes/procedural/woomera/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
 
 !!! phraseology
     <span class="hotline">**WR ADC** -> **WRA**</span>: "On the ground YPWR, BFLO11, requests activation of R222C `SFC-F290`, from 0100 until 0300."  
@@ -80,7 +80,7 @@ When **WR ADC** is online, **R222F** Restricted Area is activated `SFC` to `F120
 Non-participating aircraft intenting to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../controller-skills/sua/#ad-hoc-activations).
 
 #### Woomera SUA
-There are multiple restricted areas associated with military operations at [YPWR](../../../aerodromes/procedural/Woomera): R222A-L, R237, R246A-C, R273, R281, and R287A-C. All restricted areas are located with the WRA subsector; R222I and R222J extend into FOR airspace, and R222K and R222L extend across ASP, ASW, WAR, and OLW(MZI, LEO).
+There are multiple restricted areas associated with military operations at [YPWR](../../../aerodromes/procedural/woomera): R222A-L, R237, R246A-C, R273, R281, and R287A-C. All restricted areas are located with the WRA subsector; R222I and R222J extend into FOR airspace, and R222K and R222L extend across ASP, ASW, WAR, and OLW(MZI, LEO).
 
 These restricted areas directly adjoin the jurisdiction of WR ADC, and when WR ADC is online aircraft will be transferred directly to/from the MOAs.
 

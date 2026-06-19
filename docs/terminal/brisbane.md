@@ -36,7 +36,7 @@ The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, w
     See also: [BA ADC Offline](#ba-adc-offline).
 
 === "CG CTR"
-    CG CTR reverts to Class G below `A035` when **CG ADC** is offline, and is administered by the BAC. Alternatively, BAC may provide a [top-down aerodrome service](../../aerodromes/classc/GoldCoast) if they wish.
+    CG CTR reverts to Class G below `A035` when **CG ADC** is offline, and is administered by the BAC. Alternatively, BAC may provide a [top-down aerodrome service](../../aerodromes/classc/goldcoast) if they wish.
 
     See also: [CG ADC Offline](#cg-adc-offline).
 
@@ -76,8 +76,8 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, **BAC*
     
 === "YBCG and YBNA"
 	<figure markdown>
-	![Brisbane TCU Structure (Gold Coast/Ballina)](img/cgtcu.png){ width="700" }
-	  <figcaption>Brisbane TCU Structure (Gold Coast/Ballina)</figcaption>
+	![Brisbane TCU Structure (Gold Coast/ballina)](img/cgtcu.png){ width="700" }
+	  <figcaption>Brisbane TCU Structure (Gold Coast/ballina)</figcaption>
 	</figure>
 
 #### Brisbane Radar (SHN)

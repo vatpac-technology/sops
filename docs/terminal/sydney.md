@@ -135,7 +135,7 @@ The volume of airspace adjacent to the WS CTR overhead Camden (known as **SY CTA
   <figcaption>Sydney CTA C10 Airspace</figcaption>
 </figure>
 
-During the hours of 23:00 - 06:00 Sydney local time, the airspace within the C10 area extends to `A015`, allowing YSWS departures on the [November or Quebec SIDs](../../aerodromes/classc/Walton/#sid-selection) to remain within CTA. CN ADC is **[prohibited](../../aerodromes/classd/Camden/#night-operations)** from logging on during this time, regardless of whether YSWS [RRO](../../aerodromes/classc/Walton/#reciprocal-runway-operations) are in use.
+During the hours of 23:00 - 06:00 Sydney local time, the airspace within the C10 area extends to `A015`, allowing YSWS departures on the [November or Quebec SIDs](../../aerodromes/classc/walton/#sid-selection) to remain within CTA. CN ADC is **[prohibited](../../aerodromes/classd/camden/#night-operations)** from logging on during this time, regardless of whether YSWS [RRO](../../aerodromes/classc/walton/#reciprocal-runway-operations) are in use.
 
 !!! tip
     When the base of C10 is lowered, it should be included on the YSWS, YSBK, and YSCN ATISes.
@@ -859,7 +859,7 @@ Refer to [Reclassifications](#reclassifications) for operations when BK ADC is o
 #### Departures
 [Next](../../controller-skills/coordination/#next) coordination is **not** required for aircraft that are:   
 
-- VFR aircraft departing via a [coded clearance](../../aerodromes/classd/Bankstown/#vfr-outbound-procedures)
+- VFR aircraft departing via a [coded clearance](../../aerodromes/classd/bankstown/#vfr-outbound-procedures)
 
 All other aircraft require a 'Next' call to SBA.
 
@@ -955,7 +955,7 @@ All other aircraft require a 'Next' call to SWA.
 'Next' coordination is additionally required for:  
  
 - [After a go around](../../controller-skills/coordination/#after-a-go-around), the next departure from that runway.
-- All aircraft during the [RRO](../../aerodromes/classc/Walton/#reciprocal-runway-operations) runway mode.
+- All aircraft during the [RRO](../../aerodromes/classc/walton/#reciprocal-runway-operations) runway mode.
 
 The Standard Assignable level from WS ADC to SWA is: 
 

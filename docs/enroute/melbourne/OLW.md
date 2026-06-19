@@ -31,7 +31,7 @@ OLW is responsible for **POT**, **PAR**, **NEW**, **MEK**, **MTK** and **MZI** w
 
 ### Reclassifications
 === "KA CTR"
-	When **KA ADC** is offline, KA CTR (Class D `SFC` to `A055`) reverts to Class G, and is administered by OLW. Alternatively, OLW may provide a [top-down procedural service](../../../aerodromes/procedural/Karratha/) if they wish.
+	When **KA ADC** is offline, KA CTR (Class D `SFC` to `A055`) reverts to Class G, and is administered by OLW. Alternatively, OLW may provide a [top-down procedural service](../../../aerodromes/procedural/karratha/) if they wish.
 
 	!!! tip
 		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
