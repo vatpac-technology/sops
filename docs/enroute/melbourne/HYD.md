@@ -329,16 +329,31 @@ Voiceless for all aircraft:
 !!! note
     <sup>‡</sup> In contrast to many other TCUs, aircraft are *required* to be tracking via the **SID procedure**. Aircraft simply tracking via any of the terminus waypoints (including aircraft given track shortening) **is not** sufficient to meet the criteria for voiceless coordination.
 
-All other aircraft going to PIY CTA will be **Heads-up** Coordinated by PH TCU.
+All other aircraft going to HYD CTA will be **Heads-up** Coordinated by PH TCU.
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:
 
 - With ADES **YPPH**; and  
-- Assigned a STAR; and  
+- Assigned a STAR ([except the SOLUS STAR](#arrivals-via-solus-star)); and  
 - Assigned `A090`
 
-All other aircraft coming from PIY CTA must be **Heads-up** Coordinated to PH TCU prior to **20nm** from the boundary.
+All other aircraft coming from HYD CTA must be **Heads-up** Coordinated to PH TCU prior to **20nm** from the boundary.
+
+##### Arrivals via SOLUS STAR
+Due to the relatively high level of Class G in the south of the TMA, aircraft arriving via the **SOLUS** STAR should be cleared to **leave and re-enter CTA on descent** to `A090`. Standard [Heads Up](../controller-skills/coordination.md#heads-up) coordination should be used in this case.
+
+Upon receiving coordination from HYD, PH TCU should provide a traffic statement for any aircraft in unc
+
+!!! phraseology
+    <span class="hotline">**JAR** -> **PHR**</span>: "Via SOLUS, RXA2126, will be assigned `A090`."  
+    <span class="hotline">**PHR** -> **JAR**</span>: "RXA2126, traffic is FD613, an IFR PC12, tracking JT DCT SOLUS, `A080`, estimate SOLUS time 35"   
+    <span class="hotline">**JAR** -> **PHR**</span>: "Traffic is FD613 tracking JT DCT SOLUS `A080`, SOLUS at 35"  
+    
+    **JAR**: "RXA2126, leave and reenter controlled airspace descending to `A090`, QNH 1013. Traffic is FD613, IFR PC12 tracking JT DCT SOLUS at `A080`, estimating SOLUS at time 35."  
+    **RXA2126**: "Leave and reenter controlled airspace descending to `A090`, copy traffic, RXA2126." 
+    **JAR**: "RXA2126, contact Perth Centre on 135.25"  
+
 
 ### PE TCU
 #### Airspace

@@ -276,8 +276,6 @@ All other aircraft transiting between internal PH TCU boundaries must be heads-u
     <span class="hotline">**PHD** -> **PHA**</span>: "FD123, A090"  
 
 #### Between PHR and TCU
-Voiceless coordination is in place for aircraft arriving YPPH via the SOLUS STAR in Class E airspace, and assigned `A090`.
-
 Standard [Radar to TCU](../controller-skills/coordination.md#radar-position-tcu-controllers) coordination for each aircraft transiting between Class G and CTA (or vice versa).
 
 !!! note
