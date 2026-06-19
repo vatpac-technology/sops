@@ -343,7 +343,7 @@ All other aircraft coming from HYD CTA must be **Heads-up** Coordinated to PH TC
 ##### Arrivals via SOLUS STAR
 Due to the relatively high level of Class G in the south of the TMA, aircraft arriving via the **SOLUS** STAR should be cleared to **leave and re-enter CTA on descent** to `A090`. Standard [Heads Up](../controller-skills/coordination.md#heads-up) coordination should be used in this case.
 
-Upon receiving coordination from HYD, PH TCU should provide a traffic statement for any aircraft in unc
+Upon receiving coordination from HYD, PH TCU should provide a traffic statement to HYD.
 
 !!! phraseology
     <span class="hotline">**JAR** -> **PHR**</span>: "Via SOLUS, RXA2126, will be assigned `A090`."  
