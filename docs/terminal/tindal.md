@@ -196,6 +196,7 @@ Voiceless for all aircraft:
 All other aircraft coming from TRT(TRS) CTA will be **Heads-up** coordinated to TN TCU.
 
 ### TN ADC
+#### Departures
 [Next](../controller-skills/coordination.md#next) coordination is required from TN ADC to TN TCU for all aircraft.
 
 The Standard Assignable level from TN ADC to TN TCU is:
