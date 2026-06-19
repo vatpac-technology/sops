@@ -49,7 +49,7 @@ The divisions of the airspace between **PHA**, and **PHD** change based on the R
 	</figure>
 	
 #### Perth Radar (PHR)
-PHR is responsible for the provision of FIS in Class G airspace within the PH TMA. The role can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordination requirements](#between-phr-and-tcu) exist between PHR and other TCU positions.  
+PHR is responsible for the provision of FIS in Class G airspace, as well as Class E services above F125 in the south of the PH TMA The role can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordination requirements](#between-phr-and-tcu) exist between PHR and other TCU positions.  
 
 !!! example
     During a busy event, PHA is experiencing a high workload and wishes to delegate the PHR role to another controller who isn't as busy. PHD has a low workload and elects to perform the role.
@@ -276,6 +276,8 @@ All other aircraft transiting between internal PH TCU boundaries must be heads-u
     <span class="hotline">**PHD** -> **PHA**</span>: "FD123, A090"  
 
 #### Between PHR and TCU
+Voiceless coordination is in place for aircraft arriving YPPH via the SOLUS STAR in Class E airspace, and assigned `A090`.
+
 Standard [Radar to TCU](../controller-skills/coordination.md#radar-position-tcu-controllers) coordination for each aircraft transiting between Class G and CTA (or vice versa).
 
 !!! note

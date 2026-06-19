@@ -293,7 +293,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		| YPPH | KABLI | **123.600** (PHA)      |
 		| YPPH | LAVEX | **123.600** (PHA)      |
 		| YPPH | SAPKO | ABV `A065`: **123.600** (PHA)<br>BLW `A065`: **118.700** (PHD) | 
-		| YPPH | SOLUS | **123.600** (PHA)      | 
+		| YPPH | SOLUS | **135.250** (PHR)      | 
 
 	=== "24A21AD"
 		<figure markdown>
@@ -305,10 +305,10 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		| ---- | ----- | ---------------------- |
 		| YPPH | IPMOR | ABV `A065`: **123.600** (PHA)<br>BLW `A065`: **118.700** (PHD) |
 		| YPPH | JULIM | **123.600** (PHA)      |
-		| YPPH | KABLI | ABV `A065`: **123.600** (PHA)<br>BLW `A065`: **118.700** (PHD) |
-		| YPPH | LAVEX | ABV `A065`: **123.600** (PHA)<br>BLW `A065`: **118.700** (PHD) |
+		| YPPH | KABLI | **123.600** (PHA)      |
+		| YPPH | LAVEX | **123.600** (PHA)      |
 		| YPPH | SAPKO | **123.600** (PHA)      | 
-		| YPPH | SOLUS | **118.700** (PHD)      | 
+		| YPPH | SOLUS | **135.250** (PHR)      | 
 
 ## Coordination
 ### PH TCU
