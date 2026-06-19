@@ -18,7 +18,7 @@
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
-The Vertical limits of the AD TCU are `SFC` to `F245`.
+The vertical limits of the AD TCU are `SFC` to `F245`.
 
 ### Reclassifications
 === "PF CTR"
