@@ -157,7 +157,7 @@ The M581-M584 MOAs are themselves divided into eighteen different subareas that 
 
 WLM TCU is not responsible for assigning subareas, or ensuring separation between aircraft operations between areas.
 
-When an aircraft has declared an intention to operate within a subarea, the WLM TCU may provide a traffic statement to help provide situational awareness to the departing aircraft.
+When an aircraft has declared an intention to operate within a subarea, WLM TCU may provide a traffic statement to help provide situational awareness to the departing aircraft.
 
 !!! phraseology 
     **WAL**: "WGTL46 at LG cleared operating, number 2 in Bravo One and Charlie One, report [ops normal](../../controller-skills/airwork/#ops-normal) time 30.

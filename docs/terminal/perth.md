@@ -58,7 +58,7 @@ PHR is responsible for the provision of FIS in Class G airspace, as well as Clas
 When **PEA TCU** is online, they assume responsibility for the airspace in R155A and R155B from `SFC` to `F160`.
 
 <figure markdown>
-![PE TCU Restricted Areas](img/pe_restricted_areas.png){ width="700" }
+![PE TCU Restricted Areas](img/pe_sua.png){ width="700" }
   <figcaption>PE TCU Restricted Areas</figcaption>
 </figure>
 

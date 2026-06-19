@@ -35,7 +35,7 @@
 
 ## Departure and Arrival Procedures
 ### YGIG
-LEA and PIY share responsibility for facilitating operations in and out of YGIG
+LEA and PIY share responsibility for facilitating operations in and out of YGIG.
 
 ### YPEA
 #### STAR Assignment
@@ -263,6 +263,38 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 
 !!! tip
     Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector. 
+    
+## Local Procedures
+### Special Use Airspace
+There are multiple volumes of [SUA](../../../controller-skills/sua/) within HYD airspace, mostly associated with military operations in and out of the PE TMA.
+
+<figure markdown>
+![Notable SUA in HYD Airspace](../img/hyd_sua.png){ width="700" }
+  <figcaption>Notable SUA in HYD Airspace</figcaption>
+</figure>
+
+PE TCU must [give heads up coordination](../../../terminal/pearce/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
+
+!!! phraseology
+    <span class="hotline">**PEA** -> **LEA**</span>: "On the groud YPEA, DUGT19, requests activation of M166 `A020-F160`, from 0300 until 0500.”  
+    <span class="hotline">**LEA** -> **PEA**</span>: "DUGT19, expect activation of M166 `A020-F160` at 0300 until 0500."   
+    <span class="hotline">**PEA** -> **LEA**</span>: "DUGT19."  
+    
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../controller-skills/sua/#ad-hoc-activations).
+
+#### M161 Pearce
+The M161 Pearce [MOA](../../../controller-skills/sua/#military-operating-areas) is south of YPPH, `A060 - NOTAM`, spanning both PH TCU and JAR airspace. Activation of M161 Pearce is a [shared responsibility](../../../controller-skills/sua/#activation-of-sua), and both PH TCU and JAR must coordinate before activation.
+
+#### M170A-B and M171A-B Pearce
+The M170A-B and M171A-B Pearce [MOAs](../../../controller-skills/sua/#military-operating-areas) are located off the coast, `SFC - NOTAM`, spanning PEA, PH TCU and LEA airspace. Activation of M170A-B and M171A-B Pearce is a [shared responsibility](../../../controller-skills/sua/#activation-of-sua), and both PEA, PH TCU and LEA must coordinate before activation.
+
+##### Affected Civil Operations
+Activation of the MOA disrupts traffic on the infrequently used **T12** high altitude airway, which connects Perth to destinations in Europe and Asia. Aircraft travelling on this airway will generally be long-haul international flights with limited fuel reserves to handle extensive delays.
+
+Aircraft travelling on this airway **should not** be rerouted around the activation. Instead, aircraft operating within the SUA should be issued with a restriction to remain north of the 258° PEA TAC radial (within 30 TAC) or the 270° PEA TAC radial (between 30-45 TAC).
+
+#### M181 and M182A-G Stirling
+The M181 and M182A-G Stirling [MOAs](../../../controller-skills/sua/#military-operating-areas) are located off the coast, `SFC - NOTAM`, spanning GEL, JAR, and LEA airspace. Activation of M181 and M182A-G Stirling is a [shared responsibility](../../../controller-skills/sua/#activation-of-sua), and both GEL, JAR, and LEA must coordinate before activation.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -357,14 +389,7 @@ Upon receiving coordination from HYD, PH TCU should provide a traffic statement 
 
 ### PE TCU
 #### Airspace
-PEA is responsible for the restricted airspace within R155A and R155B. This airspace is reclassified to **Class C** when PEA is online. Additional airspace may be released by NOTAM, or coordinated between PEA, PH TCU, and LEA/PIY to facilitate military operations.
-
-!!! phraseology
-    <span class="hotline">**PEA** -> **PH TCU**</span>: "Request release of M166, SFC to F160, for Military Operations. [My onwards](../../../controller-skills/coordination/#onwards-coordination) with LEA"   
-    <span class="hotline">**PH TCU** -> **PEA**</span>: "M166, SFC to F160, released to you. Your onwards with LEA"  
-
-    <span class="hotline">**PEA** -> **LEA**</span>: "Request release of M166, SFC to F160, for Military Operations. [My onwards](../../../controller-skills/coordination/#onwards-coordination) with PH TCU"   
-    <span class="hotline">**LEA** -> **PEA**</span>: "M166, SFC to F160, released to you. Your onwards with PH TCU"  
+PEA is responsible for the restricted airspace within R155A and R155B. This airspace is reclassified to **Class C** when PEA is online.
 
 #### Departures
 All aircraft from PE TCU to HYD require [Heads-up](../../../controller-skills/coordination/#heads-up) coordination prior to the boundary, however, as soon as practical (when is the aircraft becomes airborne) is preferred. 
