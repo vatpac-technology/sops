@@ -165,7 +165,7 @@ The controller assuming responsibility of **ACD** shall give [heads-up](../../..
     <span class="hotline">**WAL** -> **WLM ACD**</span>: "PTHR11, clearance approved."
 
 ### Departures Controller
-When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the advisory frequency shall be issued.
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the appropriate enroute frequency or advisory frequency shall be issued.
 
 | Runway | Via  | Departure Frequency |
 | ------ | ---- | ------------------- |

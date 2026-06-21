@@ -75,7 +75,7 @@ The Standard Assignable Level from **GIG ADC** to **PE TCU** is:
 | All | The lower of `A050` and `RFL` |
 
 ### Departures Controller
-When a PE TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the appropriate advisory or enroute frequency shall be issued.
+When a PE TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the appropriate enroute frequency or advisory frequency shall be issued.
 
 | Runway | Via  | Departure Frequency  |
 | ------ | ---- | -------------------- |

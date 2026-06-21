@@ -87,7 +87,7 @@ The Standard Assignable level from **ED ADC** to **AD TCU** is:
 | All | The lower of `A040` and `RFL` |
 
 #### Departures Controller
-When an AD TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the appropriate enroute or advisory frequency shall be issued.
+When an AD TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the appropriate enroute frequency or advisory frequencyshall be issued.
 
 | Runway | Via   | Departure Frequency |
 | ------ | ----- | -------------------- |

@@ -151,7 +151,7 @@ The Standard Assignable level from TN ADC to TN TCU is:
 | All | The lower of `F180` and `RFL` |
 
 ### Departures Controller
-When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the Advisory frequency shall be issued.
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the appropriate enroute frequency or advisory frequencyshall be issued.
 
 | Runway | Via  | Departure Frequency |
 | ------ | ---- | ------------------- |

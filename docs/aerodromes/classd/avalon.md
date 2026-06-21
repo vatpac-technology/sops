@@ -44,5 +44,12 @@ The Standard Assignable level from **AV ADC** to **ML TCU** is:
 | ----- | -------| 
 | All | The lower of `A040` and `RFL` |
 
+### Departures Controller
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the appropriate enroute frequency or advisory frequency shall be issued.
+
+| Runway | Via  | Departure Frequency |
+| ------ | ---- | ------------------- |
+| All    | All  | 133.55 (MAV)        |
+
 #### Runway Change
 Any Runway change must be prior coordinated to the TCU controller responsible for **MAV**.

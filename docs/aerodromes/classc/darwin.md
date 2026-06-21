@@ -236,7 +236,7 @@ The Standard Assignable Level from  **DN ADC** to **DN TCU** is:
 | VFR aircraft | The lower of `A020` and `RFL` |
 
 ### Departures Controller
-When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate Enroute controller or Advisory frequency shall be issued.
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the appropriate enroute frequency or advisory frequency shall be issued.
 
 === "11"
 	| Runway | Via | Departure Frequency |

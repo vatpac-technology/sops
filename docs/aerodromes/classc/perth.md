@@ -143,7 +143,7 @@ The Standard Assignable level from PH ADC to PH TCU is:
 | All | The lower of `A050` and `RFL` |
 
 ### Departures Controller
-When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the most appropriate Enroute controller or Advisory frequency shall be issued.
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the appropriate enroute frequency or advisory frequency shall be issued.
 
 | Runway | Via | Departure Frequency |
 | ------ | ---- | -------------------- |
