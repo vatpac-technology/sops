@@ -284,7 +284,7 @@ The following Standard Assignable Headings may be used for aircraft assigned the
 Any runway change must be prior coordinated to **MAE** and **EN ADC**.
 
 ### Departures Controller
-When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the appropriate enroute frequency or advisory frequencyshall be issued.
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the appropriate enroute frequency or advisory frequency shall be issued.
 
 === "RWY 09"
     | Runway | Via  | Departure Frequency |
