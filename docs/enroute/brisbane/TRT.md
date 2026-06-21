@@ -230,7 +230,7 @@ BRM ADC is responsible for the Class D airspace `SFC` to `A055`, as well as the 
 #### Departures
 [Next](../../../controller-skills/coordination/#next) coordination is required from BRM ADC to TRT(ASH) for all aircraft **entering TRT(ASH) CTA**.
 
-The Standard Assignable level from **BRM ADC** to **TRT(ASH)** is:
+The standard assignable level from **BRM ADC** to **TRT(ASH)** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -243,7 +243,7 @@ YBRM arrivals and overfliers shall be heads-up coordinated to **BRM ADC** from T
     <span class="hotline">**TRT** -> **BRM ADC**</span>: "Via SAFIR, FD621”  
     <span class="hotline">**BRM ADC** -> **TRT**</span>: "FD621"  
 
-The Standard Assignable level from TRT(ASH) to BRM ADC is `A060`, any other level must be prior coordinated.
+The standard assignable level from TRT(ASH) to BRM ADC is `A060`, any other level must be prior coordinated.
 
 ### CIN TCU
 #### Airspace
@@ -255,7 +255,7 @@ The Standard assignable level from ASH to CIN TCU is `F130`, tracking via CIN VO
 All other aircraft must be voice coordinated to CIN TCU prior to **20nm** from the boundary.
 
 #### Departures
-The Standard Assignable level from CIN TCU to ASH is `F190`, and tracking via their planned route.
+The standard assignable level from CIN TCU to ASH is `F190`, and tracking via their planned route.
 
 #### CIN ADC
 When CIN TCU is offline, coordination is not required between ASH and CIN ADC. Aircraft entering CIN ADC airspace shall be handed off, and instructed to contact CIN ADC for onwards clearance.

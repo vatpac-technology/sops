@@ -364,7 +364,7 @@ All other aircraft coming from Enroute CTA will be **Heads-up** coordinated to M
 
 All other aircraft require a 'Next' call to ML TCU.
 
-The Standard Assignable level from **ML ADC** to **ML TCU** is:
+The standard assignable level from **ML ADC** to **ML TCU** is:
 
 | Aircraft | Level |
 | -------- | ----- |
@@ -440,7 +440,7 @@ When a clearance cannot be given (for example, due to conflicting traffic at YMM
 #### Departures
 [Next](../controller-skills/coordination.md#next) coordination is required from EN ADC to ML TCU for all aircraft **entering ML TCU CTA**.
 
-The Standard Assignable level from EN ADC to ML TCU is:
+The standard assignable level from EN ADC to ML TCU is:
 
 | Aircraft | Level |
 | -------- | ----- |
@@ -469,7 +469,7 @@ When "The Coffin" is released, ML TCU is required to coordinate any use of Runwa
 
 All other aircraft require a 'Next' call to ML TCU.
 
-The Standard Assignable level from **AV ADC** to **ML TCU** is:
+The standard assignable level from **AV ADC** to **ML TCU** is:
 
 | Aircraft | Level |
 | ----- | -------| 
@@ -489,7 +489,7 @@ Refer to [Reclassifications](#mb-ctr) for operations when MB ADC is offline.
 
 [Next](../controller-skills/coordination.md#next) coordination is required from MB ADC to ML TCU for all aircraft **entering ML TCU CTA**.
 
-The Standard Assignable level from **MB ADC** to **ML TCU** is:
+The standard assignable level from **MB ADC** to **ML TCU** is:
 
 | Aircraft | Level |
 | ----- | ---- |

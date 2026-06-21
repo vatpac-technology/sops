@@ -481,7 +481,7 @@ Refer to [Reclassifications](#reclassifications) for operations when CFS ADC is 
 #### Departures
 [Next](../../../controller-skills/coordination/#next) coordination is required from CFS ADC to INL for all aircraft **entering INL CTA**.
 
-The Standard Assignable level from **CFS ADC** to **INL** is:
+The standard assignable level from **CFS ADC** to **INL** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -496,7 +496,7 @@ YCFS arrivals and overfliers shall be coordinated to **CFS ADC** from INL prior 
     <span class="hotline">**INL** -> **CFS ADC**</span>: "via IDNER, VET"  
     <span class="hotline">**CFS ADC** -> **INL**</span>: "VET"  
 
-The Standard Assignable level from INL to **CFS ADC** is `A080`, any other level must be prior coordinated.
+The standard assignable level from INL to **CFS ADC** is `A080`, any other level must be prior coordinated.
 
 ### SU ADC
 #### Airspace
@@ -507,7 +507,7 @@ Refer to [Reclassifications](#reclassifications) for operations when SU ADC is o
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from SU ADC to NSA/BUR for all aircraft **entering NSA/BUR CTA**.
 
-The Standard Assignable level from **SU ADC** to **NSA/BUR** is:
+The standard assignable level from **SU ADC** to **NSA/BUR** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -524,7 +524,7 @@ YBSU arrivals and overfliers shall be coordinated to **SU ADC** from NSA prior t
     <span class="hotline">**NSA** -> **SU ADC**</span>: "via ITIDE2W Arrival, JST731"  
     <span class="hotline">**SU ADC** -> **NSA**</span>: "JST731"
 
-The Standard Assignable level from NSA to **SU ADC** is `A060`, any other level must be prior coordinated.
+The standard assignable level from NSA to **SU ADC** is `A060`, any other level must be prior coordinated.
 
 ### OK TCU / AMB TCU
 #### Airspace

@@ -90,7 +90,7 @@ All other aircraft require a 'Next' call to NWWWA.
 - Assigned the **POGO** SID with ADES NWWM.
 - All aircraft during reciprocal runway operations.
 
-The Standard Assignable level from **NWWW ADC** to **NWWWA** is:
+The standard assignable level from **NWWW ADC** to **NWWWA** is:
 
 | Aircraft | Level |
 | -------- | ----- |
@@ -110,7 +110,7 @@ VFR aircraft require a level readback.
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from NWWM ADC to NWWWA for all aircraft **entering NWWWA CTA**.
 
-The Standard Assignable level from **NWWM ADC** to **NWWWA** is:
+The standard assignable level from **NWWM ADC** to **NWWWA** is:
 
 | Aircraft | Level |
 | -------- | ----- |

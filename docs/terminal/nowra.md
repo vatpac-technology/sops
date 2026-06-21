@@ -162,7 +162,7 @@ All other aircraft coming from WOL CTA will be **heads-up** coordinated to NW TC
 #### Departures
 [Next](../../controller-skills/coordination/#next) coordination is required from NW ADC to NW TCU for all aircraft.
 
-The Standard Assignable level from **NW ADC** to **NW TCU** is:
+The standard assignable level from **NW ADC** to **NW TCU** is:
 
 | Aircraft | Level |
 | -------- | ----- |

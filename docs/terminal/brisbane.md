@@ -460,7 +460,7 @@ All other aircraft coming from INL CTA must be **Heads-up** coordinated to BN TC
 
 All other aircraft require a 'Next' call to BN TCU.
 
-The Standard Assignable level from BN ADC to BN TCU is:  
+The standard assignable level from BN ADC to BN TCU is:  
 
 | Aircraft | Level |
 | -------- | ----- |
@@ -530,7 +530,7 @@ Refer to [Reclassifications](#reclassifications) for operations when AF ADC is o
 #### Departures
 [Next](../controller-skills/coordination.md#next) coordination is required from AF ADC to BN TCU for all aircraft **entering BN TCU CTA**.
 
-The Standard Assignable level from **AF ADC** to **BN TCU** is:
+The standard assignable level from **AF ADC** to **BN TCU** is:
 
 | Aircraft | Level |
 | -------- | ----- |
@@ -560,7 +560,7 @@ Refer to [Reclassifications](#reclassifications) for operations when BA ADC is o
 
 All other aircraft require a 'Next' call to BA TCU.
 
-The Standard Assignable level from BA ADC to BA TCU is:  
+The standard assignable level from BA ADC to BA TCU is:  
 
 | Aircraft | Level |
 | -------- | ----- |
@@ -592,7 +592,7 @@ Refer to [Reclassifications](#reclassifications) for operations when CGF ADC is 
 
 All other aircraft require a 'Next' call to CG TCU.
 
-The Standard Assignable level from CG ADC to BN TCU is:  
+The standard assignable level from CG ADC to BN TCU is:  
 
 | Aircraft | Level |
 | -------- | ----- |

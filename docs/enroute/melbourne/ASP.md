@@ -124,7 +124,7 @@ Refer to [Reclassifications](#reclassifications) for operations when AS ADC is o
 #### Departures
 [Next](../../../controller-skills/coordination/#next) coordination is required from AS ADC to ASP for all aircraft **entering ASP CTA**.
 
-The Standard Assignable level from **AS ADC** to **ASP** is:
+The standard assignable level from **AS ADC** to **ASP** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -137,7 +137,7 @@ YBAS arrivals and overfliers shall be heads-up coordinated to **AS ADC** from AS
     <span class="hotline">**ASP** -> **AS ADC**</span>: "Via SADEL, QFA1956”  
     <span class="hotline">**AS ADC** -> **ASP**</span>: "QFA1956"  
 
-The Standard Assignable level from ASP to **AS ADC** is `A080`, any other level must be prior coordinated.
+The standard assignable level from ASP to **AS ADC** is `A080`, any other level must be prior coordinated.
 
 ### WR ADC
 #### Airspace

@@ -247,7 +247,7 @@ All other aircraft coming from HYD(All) CTA will be **Heads-up** coordinated to 
 
 All other aircraft require a 'Next' call to PH TCU.
 
-The Standard Assignable level from PH ADC to PH TCU is:
+The standard assignable level from PH ADC to PH TCU is:
 
 | Aircraft | Level |
 | -------- | ----- |
@@ -295,7 +295,7 @@ When the aircraft is ready for departure, JT ADC will coordinate with the releva
     <span class="hotline">**PH TCU** -> **JT ADC**</span>: "FD420, Unrestricted"  
     <span class="hotline">**JT ADC** -> **PH TCU**</span>: "FD420"  
 
-The Standard Assignable level from JT ADC to PH TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
+The standard assignable level from JT ADC to PH TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
 
 #### Arrivals/Overfliers
 PH TCU will heads-up coordinate arrivals/overfliers from Class C to JT ADC prior to **5 mins** from the boundary.  

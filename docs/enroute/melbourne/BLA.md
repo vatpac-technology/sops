@@ -434,7 +434,7 @@ Refer to [Reclassifications](#reclassifications) for operations when AY ADC is o
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from AY ADC to BLA for all aircraft **entering BLA CTA**.
 
-The Standard Assignable level from **AY ADC** to **BLA** is:
+The standard assignable level from **AY ADC** to **BLA** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -447,4 +447,4 @@ YMAY arrivals and overfliers shall be heads-up coordinated to **AY ADC** from BL
     <span class="hotline">**BLA** -> **AY ADC**</span>: "via VEGRU1 arrival, QLK38"  
     <span class="hotline">**AY ADC** -> **BLA**</span>: "QLK38, VEGRU1 arrival" 
 
-The Standard Assignable level from BLA to **AY ADC** is `A080`.
+The standard assignable level from BLA to **AY ADC** is `A080`.

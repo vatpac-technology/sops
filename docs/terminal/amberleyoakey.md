@@ -260,7 +260,7 @@ The Standard Assignable Level from  **AMB ADC** to **AMB TCU** is:
 
 [Next](../controller-skills/coordination.md#next) coordination is required from OK ADC to OK TCU for all aircraft.
 
-The Standard Assignable level from **OK ADC** to **OK TCU** is:
+The standard assignable level from **OK ADC** to **OK TCU** is:
 
 | Aircraft | Level |
 | -------- | ----- |

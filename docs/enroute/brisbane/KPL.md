@@ -178,7 +178,7 @@ Refer to [Reclassifications](#reclassifications) for operations when HM ADC is o
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from HM ADC to SWY for all aircraft **entering SWY CTA**.
 
-The Standard Assignable level from **HM ADC** to **SWY** is:
+The standard assignable level from **HM ADC** to **SWY** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -191,7 +191,7 @@ YBHM arrivals and overfliers shall be heads-up coordinated to **HM ADC** from SW
     <span class="hotline">**SWY** -> **HM ADC**</span>: "Via OPOSI for RNP-U, JST848”  
     <span class="hotline">**HM ADC** -> **SWY**</span>: "JST848, A060"  
 
-The Standard Assignable level from SWY to HM ADC is `A060`, any other level must be prior coordinated.
+The standard assignable level from SWY to HM ADC is `A060`, any other level must be prior coordinated.
 
 ### TSN(HWE/FLD) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.

@@ -293,7 +293,7 @@ All other aircraft coming from TBD CTA will be **Heads-up** coordinated to AD TC
 
 All other aircraft require a Next call to AD TCU.
 
-The Standard Assignable level from AD ADC to AD TCU is:  
+The standard assignable level from AD ADC to AD TCU is:  
 
 | Aircraft | Level |
 | -------- | ----- |
@@ -321,7 +321,7 @@ Refer to [Reclassifications](#reclassifications) for operations when PF ADC is o
 #### Departures
 [Next](../controller-skills/coordination.md#next) coordination is required from PF ADC to AD TCU for all aircraft **entering AD TCU CTA**.
 
-The Standard Assignable level from **PF ADC** to **AD TCU** is:
+The standard assignable level from **PF ADC** to **AD TCU** is:
 
 | Aircraft | Level |
 | ----- | ---- |
@@ -340,7 +340,7 @@ VFR aircraft require a level readback.
 #### Departures
 [Next](../controller-skills/coordination.md#next) coordination is required from ED ADC to AD TCU for all aircraft.
 
-The Standard Assignable level from **ED ADC** to **AD TCU** is:
+The standard assignable level from **ED ADC** to **AD TCU** is:
 
 | Aircraft | Level |
 | -------- | ----- |

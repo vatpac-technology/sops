@@ -314,7 +314,7 @@ WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A015`).
 
 All other aircraft require a 'Next' call to WLM TCU.
 
-The Standard Assignable level from WLM ADC to WLM TCU is:
+The standard assignable level from WLM ADC to WLM TCU is:
 
 | Aircraft | Level |
 | -------- | ----- |

@@ -177,7 +177,7 @@ Voiceless for all aircraft:
 
 - With ADES **YBCS**; and  
 - Assigned a STAR; and  
-- Assigned the Standard Assignable level of:  
+- Assigned the standard assignable level of:  
   - Radials 055° clockwise through to 355°: `A070`  
   - Radials 355° clockwise to 055°: `A090`
 
@@ -196,7 +196,7 @@ All other aircraft coming from KEN(All) CTA will be **Heads-up** coordinated to 
 
 All other aircraft require a 'Next' call to CS TCU.
 
-The Standard Assignable level from CS ADC to CS TCU is:
+The standard assignable level from CS ADC to CS TCU is:
 
 | Aircraft | Level |
 | -------- | ----- |

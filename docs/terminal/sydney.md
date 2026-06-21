@@ -843,7 +843,7 @@ All other aircraft require a 'Next' call to SY TCU.
 - [After a go around](../../controller-skills/coordination/#after-a-go-around), the next departure from that runway  
 - All aircraft during the Curfew Runway Mode
 
-The Standard Assignable level from SY ADC to SY TCU is: 
+The standard assignable level from SY ADC to SY TCU is: 
 
 | Aircraft | Level |
 | -------- | ----- |
@@ -863,7 +863,7 @@ Refer to [Reclassifications](#reclassifications) for operations when BK ADC is o
 
 All other aircraft require a 'Next' call to SBA.
 
-The Standard Assignable level from **BK ADC** to **SBA** is:
+The standard assignable level from **BK ADC** to **SBA** is:
 
 | Aircraft | Level |
 | --- | -----|
@@ -922,7 +922,7 @@ SY TCU will instruct to aircraft leave controlled airspace via the approach and 
     <span class="hotline">**SRA** -> **RI ADC**</span>: "TROJ57, unrestricted"  
     <span class="hotline">**RI ADC** -> **SRA**</span>: "TROJ57"  
 
-The Standard Assignable level from RI ADC to SRA is: 
+The standard assignable level from RI ADC to SRA is: 
 
 | Aircraft | Level  |
 | -------- | ------ |
@@ -957,7 +957,7 @@ All other aircraft require a 'Next' call to SWA.
 - [After a go around](../../controller-skills/coordination/#after-a-go-around), the next departure from that runway.
 - All aircraft during the [RRO](../../aerodromes/classc/walton/#reciprocal-runway-operations) runway mode.
 
-The Standard Assignable level from WS ADC to SWA is: 
+The standard assignable level from WS ADC to SWA is: 
 
 | Aircraft | Level  |
 | -------- | ------ |

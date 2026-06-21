@@ -323,7 +323,7 @@ Refer to [Reclassifications](#reclassifications) for operations when CFS ADC is 
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from CFS ADC to MNN for all aircraft **entering MNN CTA**.
 
-The Standard Assignable level from **CFS ADC** to **MNN** is:
+The standard assignable level from **CFS ADC** to **MNN** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -338,7 +338,7 @@ YCFS arrivals and overfliers shall be heads-up coordinated to **CFS ADC** from M
     <span class="hotline">**MNN** -> **CFS ADC**</span>: "Via KADSI, RXA6438"  
     <span class="hotline">**CFS ADC** -> **MNN**</span>: "RXA6438"  
 
-The Standard Assignable level from MNN to **CFS ADC** is `A080`, any other level must be prior coordinated.
+The standard assignable level from MNN to **CFS ADC** is `A080`, any other level must be prior coordinated.
 
 ### WLM TCU
 #### Airspace

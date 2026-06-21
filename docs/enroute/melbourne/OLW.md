@@ -102,7 +102,7 @@ Refer to [Reclassifications](#reclassifications) for operations when KA ADC is o
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from KA ADC to OLW for all aircraft **entering OLW CTA**.
 
-The Standard Assignable level from **KA ADC** to **OLW** is:
+The standard assignable level from **KA ADC** to **OLW** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -115,7 +115,7 @@ YPKA arrivals and overfliers shall be heads-up coordinated to **KA ADC** from OL
     <span class="hotline">**OLW** -> **KA ADC**</span>: "Via MCNAB, QFA1214 for the RNP U RWY 26”  
     <span class="hotline">**KA ADC** -> **OLW**</span>: "QFA1214, RNP U RWY 26"  
 
-The Standard Assignable level from OLW to KA ADC is `A060`, any other level must be prior coordinated.
+The standard assignable level from OLW to KA ADC is `A060`, any other level must be prior coordinated.
 
 ### LM TCU
 #### Airspace
@@ -127,7 +127,7 @@ The Standard assignable level from OLW to LM TCU is `F130`, tracking via LM VOR.
 All other aircraft must be voice coordinated to LM TCU prior to **20nm** from the boundary.
 
 #### Departures
-The Standard Assignable level from LM TCU to OLW is `F240`, and tracking via their planned route.
+The standard assignable level from LM TCU to OLW is `F240`, and tracking via their planned route.
 
 ### IND,INE (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.

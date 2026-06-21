@@ -302,7 +302,7 @@ Refer to [Reclassifications](#reclassifications) for operations when TW ADC is o
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from TW ADC to ARL/GAH for all aircraft **entering ARL/GAH CTA**.
 
-The Standard Assignable level from **TW ADC** to **ARL/GAH** is:
+The standard assignable level from **TW ADC** to **ARL/GAH** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -315,4 +315,4 @@ YSTW arrivals and overfliers shall be heads-up coordinated to **TW ADC** from AR
     <span class="hotline">**GAH** -> **TW ADC**</span>: "QLK6D, via MATLA DCT ST2WD"  
     <span class="hotline">**TW ADC** -> **GAH**</span>: "QLK6D"  
 
-The Standard Assignable level from ARL/GAH to **TW ADC** is `A080`, any other level must be prior coordinated.
+The standard assignable level from ARL/GAH to **TW ADC** is `A080`, any other level must be prior coordinated.

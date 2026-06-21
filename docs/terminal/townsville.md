@@ -255,7 +255,7 @@ TL ADC owns the Class C airspace in the TL CTR from `SFC` to `A015`.
 
 All other aircraft require a 'Next' call to TL TCU.
 
-The Standard Assignable level from TL ADC to TL TCU is:
+The standard assignable level from TL ADC to TL TCU is:
 
 | Aircraft | Level |
 | ------ | ------- |

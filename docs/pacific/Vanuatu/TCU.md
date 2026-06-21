@@ -31,7 +31,7 @@ There are no radar services in NVVVA's airspace. The sector is entirely [procedu
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from NVVV ADC to NVVVA for all aircraft **entering NVVV CTA**.
 
-The Standard Assignable level from **NVVV ADC** to **NVVVA** is:
+The standard assignable level from **NVVV ADC** to **NVVVA** is:
 
 | Aircraft | Level |
 | -------- | ----- |
@@ -40,7 +40,7 @@ The Standard Assignable level from **NVVV ADC** to **NVVVA** is:
 ### Arrivals/Overfliers
 NVVVA will heads-up coordinate arrivals/overfliers from Class D to NVVV ADC. 
 
-The Standard Assignable level from NVVVA to NVVV ADC is `A100`, any other level must be prior coordinated.
+The standard assignable level from NVVVA to NVVV ADC is `A100`, any other level must be prior coordinated.
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
