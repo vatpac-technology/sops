@@ -38,7 +38,7 @@ Surveillance coverage can be expected to be available at all levels in the KA CT
 ### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from KA ADC to OLW for all aircraft **entering OLW CTA**.
 
-The Standard Assignable level from **KA ADC** to **OLW** is:
+The standard assignable level from **KA ADC** to **OLW** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -51,4 +51,4 @@ OLW will heads-up coordinate all arrivals/overfliers to KA ADC
     <span class="coldline">**OLW** -> **KA ADC**</span>: "Via PD, KPG, Overflier”  
     <span class="coldline">**KA ADC** -> **OLW**</span>: "KPG, A040"  
 
-The Standard Assignable level from OLW to KA ADC is `A060`, any other level must be prior coordinated.
+The standard assignable level from OLW to KA ADC is `A060`, any other level must be prior coordinated.

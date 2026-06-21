@@ -122,7 +122,7 @@ The standard circuit direction is to the north of the field.
 ### Auto Release
 [Next](../../controller-skills/coordination.md#next) coordination is required from OK ADC to OK TCU for all aircraft.
 
-The Standard Assignable level from **OK ADC** to **OK TCU** is:
+The standard assignable level from **OK ADC** to **OK TCU** is:
 
 | Aircraft | Level |
 | -------- | ----- |

@@ -130,7 +130,7 @@ When YPPH RWY 03 is in use, the `OPR INFO` shall include:
 ### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from JT ADC to PH TCU for all aircraft **entering PH TCU CTA**. 
 
-The Standard Assignable level from **JT ADC** to **PH TCU** is:
+The standard assignable level from **JT ADC** to **PH TCU** is:
 
 | Aircraft | Level |
 | ------ | ----- |

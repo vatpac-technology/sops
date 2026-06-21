@@ -46,7 +46,7 @@ Surveillance coverage can be expected to be not available below `A028` in the CF
 ### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from CFS ADC to INL/MNN for all aircraft **entering INL/MNN CTA**.
 
-The Standard Assignable level from **CFS ADC** to **INL/MNN** is:
+The standard assignable level from **CFS ADC** to **INL/MNN** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -59,4 +59,4 @@ INL/MNN will heads-up coordinate all arrivals/overfliers to CFS ADC.
     <span class="hotline">**INL** -> **CFS ADC**</span>: "Via KADSI, RXA6416”  
     <span class="hotline">**CFS ADC** -> **INL**</span>: "RXA6416"  
 
-The Standard Assignable level from INL/MNN to CFS ADC is `A080`, any other level must be prior coordinated.
+The standard assignable level from INL/MNN to CFS ADC is `A080`, any other level must be prior coordinated.

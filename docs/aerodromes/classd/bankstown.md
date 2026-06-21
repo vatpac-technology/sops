@@ -269,7 +269,7 @@ The volume of airspace adjacent to the WS CTR overhead Camden (known as **SY CTA
 
 All other aircraft entering SBA CTA require a 'Next' call to SBA.
 
-The Standard Assignable level from **BK ADC** to **SBA** is:
+The standard assignable level from **BK ADC** to **SBA** is:
 
 | Aircraft | Level |
 | --- | -----|

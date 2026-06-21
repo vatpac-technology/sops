@@ -151,7 +151,7 @@ The Operational Information field should be updated when either of the [Salt Ash
 - Assigned the standard assignable level; and 
 - Assigned a **Procedural** SID
 
-The Standard Assignable level from WLM ADC to WLM TCU is:
+The standard assignable level from WLM ADC to WLM TCU is:
 
 | Aircraft | Level |
 | -------- | ----- |

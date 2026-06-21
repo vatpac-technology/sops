@@ -35,7 +35,7 @@ Aircraft that are unable to accept a Procedural SID shall be assigned the **Rada
 - Assigned a **Procedural** SID; or  
 - Not entering MKA CTA
 
-The Standard Assignable level from **MK ADC** to **MKA** is:
+The standard assignable level from **MK ADC** to **MKA** is:
 
 | Aircraft | Level |
 | ------ | ----- |

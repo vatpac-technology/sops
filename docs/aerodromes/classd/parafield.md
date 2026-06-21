@@ -111,7 +111,7 @@ When **Runway 21R** is in use for arrivals, the following table shall be followe
 ### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from PF ADC to AD TCU for all aircraft **entering AD TCU CTA**.
 
-The Standard Assignable level from **PF ADC** to **AD TCU** is:
+The standard assignable level from **PF ADC** to **AD TCU** is:
 
 | Aircraft | Level |
 | ----- | ---- |

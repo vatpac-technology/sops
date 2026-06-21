@@ -55,7 +55,7 @@ Aircraft planned via **DUGGI** and **UGVER** shall be assigned the **Procedural 
 ### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from AY ADC to BLA for all aircraft **entering BLA CTA**.
 
-The Standard Assignable level from **AY ADC** to **BLA** is:
+The standard assignable level from **AY ADC** to **BLA** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -68,4 +68,4 @@ BLA will heads-up coordinate all arrivals/overfliers to AY ADC
     <span class="hotline">**BLA** -> **AY ADC**</span>: "Via ARRAN1 Arrival, RXA6783”  
     <span class="hotline">**AY ADC** -> **BLA**</span>: "RXA6783"  
 
-The Standard Assignable level from BLA to AY ADC is `A080`, any other level must be prior coordinated.
+The standard assignable level from BLA to AY ADC is `A080`, any other level must be prior coordinated.

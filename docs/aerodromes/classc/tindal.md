@@ -144,7 +144,7 @@ Military aircraft that are unable to accept a procedural SID shall be assigned e
 ### Auto Release
 [Next](../../../controller-skills/coordination/#next) coordination is required from TN ADC to TN TCU for all aircraft.
 
-The Standard Assignable level from TN ADC to TN TCU is:
+The standard assignable level from TN ADC to TN TCU is:
 
 | Aircraft | Level |
 | ----- | ---- |

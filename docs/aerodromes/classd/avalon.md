@@ -38,7 +38,7 @@ All other IFR aircraft shall be assigned the **Radar SID**.
 
 All other aircraft require a 'Next' call to ML TCU.
 
-The Standard Assignable level from **AV ADC** to **ML TCU** is:
+The standard assignable level from **AV ADC** to **ML TCU** is:
 
 | Aircraft | Level |
 | ----- | -------| 

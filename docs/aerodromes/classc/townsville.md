@@ -368,7 +368,7 @@ In IMC, fast jets may be assigned the **Thunder** (Runway 01) or **Lightning** (
 - Assigned the standard assignable level; and 
 - Assigned a **Procedural** SID 
 
-The Standard Assignable level from TL ADC to TL TCU is:
+The standard assignable level from TL ADC to TL TCU is:
 
 | Aircraft | Level |
 | -------- | ------- |

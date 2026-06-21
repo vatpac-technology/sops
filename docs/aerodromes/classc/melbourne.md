@@ -258,7 +258,7 @@ When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) proc
 
 All other aircraft require a 'Next' call to ML TCU.
 
-The Standard Assignable level from **ML ADC** to **ML TCU** is:
+The standard assignable level from **ML ADC** to **ML TCU** is:
 
 | Aircraft | Level |
 | -------- | ----- |

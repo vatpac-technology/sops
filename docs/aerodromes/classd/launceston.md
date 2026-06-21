@@ -56,7 +56,7 @@ YMLT ATIS identifiers range from `A` to `M`, as YMHB uses `N` through `Y`.
 
 All other aircraft require a 'Next' call to LTA. 
 
-The Standard Assignable level from **LT ADC** to **LTA** is:  
+The standard assignable level from **LT ADC** to **LTA** is:  
 
 | Flight Rules | Level |
 | ------- | ------ |

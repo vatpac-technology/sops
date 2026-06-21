@@ -187,7 +187,7 @@ When a clearance cannot be given (for example, due to conflicting traffic at YMM
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from EN ADC to ML TCU for all aircraft **entering ML TCU CTA**.
 
-The Standard Assignable level from EN ADC to ML TCU is:
+The standard assignable level from EN ADC to ML TCU is:
 
 | Aircraft | Level |
 | -------- | ----- |

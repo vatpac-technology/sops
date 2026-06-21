@@ -227,7 +227,7 @@ Aircraft not meeting the above criteria, or that cannot accept a Procedural SID 
 
 All other aircraft require a 'Next' call to CG TCU.
 
-The Standard Assignable level from CG ADC to BN TCU is:  
+The standard assignable level from CG ADC to BN TCU is:  
 
 | Aircraft | Level |
 | -------- | ----- |

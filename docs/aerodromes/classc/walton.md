@@ -182,7 +182,7 @@ All other aircraft require a 'Next' call to SWA.
 - [After a go around](../../../controller-skills/coordination/#after-a-go-around), the next departure from that runway.
 - All aircraft during the [RRO](#reciprocal-runway-operations) runway mode.
 
-The Standard Assignable level from WS ADC to SWA is: 
+The standard assignable level from WS ADC to SWA is: 
 
 | Aircraft | Level  |
 | -------- | ------ |

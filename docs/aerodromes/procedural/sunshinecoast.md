@@ -57,7 +57,7 @@ All other aircraft may be assigned a visual departure, or a standard IFR departu
 ### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from SU ADC to INL(NSA/BUR) for all aircraft **entering INL(NSA/BUR) CTA**.
 
-The Standard Assignable level from **SU ADC** to **INL(NSA/BUR)** is:
+The standard assignable level from **SU ADC** to **INL(NSA/BUR)** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -75,7 +75,7 @@ NSA will heads-up coordinate arrivals/overfliers from Class C to SU ADC. Aircraf
     <span class="coldline">**NSA** -> **SU ADC**</span>: "Via ITIDE2W Arrival, QJE1756”  
     <span class="coldline">**SU ADC** -> **NSA**</span>: "QJE1756"  
 
-The Standard Assignable level from INL(NSA/BUR) to SU ADC is `A060`, any other level must be prior coordinated.
+The standard assignable level from INL(NSA/BUR) to SU ADC is `A060`, any other level must be prior coordinated.
 ### BN TCU
 BN TCU Class G shares a tiny border with SU ADC, however there are no SIDs, STARs, or airways through this gap. The only possible way for an aircraft to directly enter BN TCU's airspace from SU ADC's jurisdiction, is in to Class G, and as such, no coordination is required to BN TCU.
 

@@ -175,7 +175,7 @@ This allows aircraft to track via the Creek Corridor (see YBCS DAP Noise Abateme
 
 All other aircraft require a 'Next' call to CS TCU.
 
-The Standard Assignable level from CS ADC to CS TCU is:
+The standard assignable level from CS ADC to CS TCU is:
 
 | Aircraft | Level |
 | -------- | ----- |

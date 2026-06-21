@@ -242,7 +242,7 @@ The ATIS must indicate the current state of the helicopter circuit area, refer t
 ### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from AF ADC to BN TCU for all aircraft **entering BN TCU CTA**.
 
-The Standard Assignable level from **AF ADC** to **BN TCU** is:
+The standard assignable level from **AF ADC** to **BN TCU** is:
 
 | Aircraft | Level |
 | ------- | ----- |

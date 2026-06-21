@@ -281,7 +281,7 @@ When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) proc
 
 All other aircraft require a 'Next' call to BN TCU.
 
-The Standard Assignable level from BN ADC to BN TCU is:  
+The standard assignable level from BN ADC to BN TCU is:  
 
 | Aircraft | Level |
 | -------- | ----- |

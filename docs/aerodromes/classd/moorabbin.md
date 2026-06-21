@@ -164,7 +164,7 @@ The ATIS must indicate runway configuration in the format below:
 ### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from MB ADC to ML TCU for all aircraft **entering ML TCU CTA**.
 
-The Standard Assignable level from **MB ADC** to **ML TCU** is:
+The standard assignable level from **MB ADC** to **ML TCU** is:
 
 | Aircraft | Level |
 | ----- | ---- |

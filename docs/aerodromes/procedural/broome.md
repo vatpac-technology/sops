@@ -44,7 +44,7 @@ Surveillance coverage can be expected to be available at all levels in the BRM C
 ### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from BRM ADC to TRT(ASH) for all aircraft **entering TRT(ASH) CTA**.
 
-The Standard Assignable level from **BRM ADC** to **TRT(ASH)** is:
+The standard assignable level from **BRM ADC** to **TRT(ASH)** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -57,4 +57,4 @@ TRT(ASH) will heads-up coordinate all arrivals/overfliers to BRM ADC
     <span class="hotline">**ASH** -> **BRM ADC**</span>: "Via CIN, ANO332”  
     <span class="hotline">**BRM ADC** -> **ASH**</span>: "ANO332"  
 
-The Standard Assignable level from TRT(ASH) to BRM ADC is `A060`, any other level must be prior coordinated.
+The standard assignable level from TRT(ASH) to BRM ADC is `A060`, any other level must be prior coordinated.

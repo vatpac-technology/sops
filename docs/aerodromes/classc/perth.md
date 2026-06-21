@@ -136,7 +136,7 @@ When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) proc
 
 All other aircraft require a 'Next' call to PH TCU.
 
-The Standard Assignable level from PH ADC to PH TCU is:
+The standard assignable level from PH ADC to PH TCU is:
 
 | Aircraft | Level |
 | -------- | ----- |

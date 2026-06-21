@@ -195,7 +195,7 @@ When parallel runway operations are in use, the ATIS OPR INFO field shall includ
 ### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from TW ADC to GAH/ARL for all aircraft **entering GAH/ARL CTA**.
 
-The Standard Assignable level from **TW ADC** to **GAH/ARL** is:
+The standard assignable level from **TW ADC** to **GAH/ARL** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -208,7 +208,7 @@ GAH/ARL will heads-up coordinate all arrivals/overfliers that are entering the T
     <span class="hotline">**GAH** -> **TW ADC**</span>: "Via MOR DCT for the VOR-A, FD272”  
     <span class="hotline">**TW ADC** -> **GAH**</span>: "FD272, VOR-A"  
 
-The Standard Assignable level from GAH/ARL to TW ADC is `A080`, any other level must be prior coordinated.
+The standard assignable level from GAH/ARL to TW ADC is `A080`, any other level must be prior coordinated.
 
 #### ADC South Online
 When ADC South is online, GAH/ARL may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.

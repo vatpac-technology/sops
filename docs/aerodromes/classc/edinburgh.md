@@ -80,7 +80,7 @@ Circuit operations occur within the CTR bounded by the Gawler River to the north
 ### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from ED ADC to AD TCU for all aircraft.
 
-The Standard Assignable level from **ED ADC** to **AD TCU** is:
+The standard assignable level from **ED ADC** to **AD TCU** is:
 
 | Aircraft | Level |
 | -------- | ----- |

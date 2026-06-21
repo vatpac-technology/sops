@@ -156,7 +156,7 @@ When the crosswind component is greater than **11 kts** from the west, the ATIS 
 
 All other aircraft require a 'Next' call to CB TCU.
 
-The Standard Assignable level from CB ADC to CB TCU is:  
+The standard assignable level from CB ADC to CB TCU is:  
 
 | Flight Rules | Level |
 | ------------ | ----- |

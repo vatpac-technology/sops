@@ -141,7 +141,7 @@ All other aircraft require a 'Next' call to HBA.
 !!! note
     All departures from YCBG who will enter the HBA CTA must be Next coordinated by ADC.
 
-The Standard Assignable level from **HB ADC** to **HBA** is:  
+The standard assignable level from **HB ADC** to **HBA** is:  
 
 | Flight Rules | Level |
 | ----- | ----- |

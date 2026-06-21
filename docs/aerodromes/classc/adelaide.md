@@ -122,7 +122,7 @@ The Operational Information field should be updated based on the runway mode in 
 
 All other aircraft require a Next call to AD TCU.
 
-The Standard Assignable level from AD ADC to AD TCU is:
+The standard assignable level from AD ADC to AD TCU is:
 
 | Aircraft | Level |
 | ------------ | ----- |

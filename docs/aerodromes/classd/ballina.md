@@ -46,7 +46,7 @@ Circuits to be flown at `A010`.
 
 All other aircraft require a 'Next' call to BAA.
 
-The Standard Assignable level from BA ADC to BAA is:  
+The standard assignable level from BA ADC to BAA is:  
 
 | Aircraft | Level |
 | -------- | ----- |

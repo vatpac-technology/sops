@@ -143,7 +143,7 @@ When [start approval](#start-approval) is required, the ATIS OPR INFO shall incl
 ## Coordination
 [Next](../../../controller-skills/coordination/#next) coordination is required from NW ADC to NW TCU for all aircraft.
 
-The Standard Assignable level from **NW ADC** to **NW TCU** is:
+The standard assignable level from **NW ADC** to **NW TCU** is:
 
 | Aircraft | Level |
 | -------- | ----- |
