@@ -212,14 +212,7 @@ An amended level may be instructed, or the term **unrestricted** used to indicat
     
     *QFA442 is assigned a procedural SID from YMML with Auto Release cancelled*  
     <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, QFA442, runway 16"  
-    <span class="hotline">**ML TCU** -> **ML ADC**</span>: "QFA442, unrestricted"
-    
-When next coordination is being conducted with a procedural ADC, the assigned altitude is required, even if it is the same as the standard assignable level.
-
-!!! phraseology  
-    <span class="hotline">**AS ADC** -> **ASP**</span>: "Next, QFA1956, runway 12"  
-    <span class="hotline">**ASP** -> **AS ADC**</span>: "QFA1956, `A070`"  
-    <span class="hotline">**AS ADC** -> **ASP**</span>: "`A070`, QFA1956"  
+    <span class="hotline">**ML TCU** -> **ML ADC**</span>: "QFA442, unrestricted" 
     
 #### After a go around
 Following a go around, the next departure from that runway **must** be next coordinated between the ADC and TCU controllers, regardless if it would otherwise meet the auto release criteria.
@@ -313,7 +306,7 @@ Display the "C-Prompt" when all coordination for an aircraft is complete, or voi
 The "C-Prompt" can be displayed by middle clicking the area just above the aircraft's callsign in the label.
 
 <figure markdown>
-![C-Prompt](img/cprompt.png){ width="200" }
+![C-Prompt](img/cprompt.png){ width="380" }
   <figcaption>C-Prompt</figcaption>
 </figure>
 
@@ -382,11 +375,21 @@ Controllers should perform [heads-up coordination](#heads-up) and optionally, of
     MUN will put *"ASP NRR"* in the label data
 
 ## Handoffs
-Receiving a handoff means you are permitted to turn an aircraft **45 degrees left or right**, and **climb/descend it to any level** without coordination. Do not handoff an aircraft to another sector if a turn of 45 degrees or a change of level would cause a conflict with any of your own aircraft. Alternatively, you can nominate a [restriction](#no-frequency-requirements-nfr) prior to handoff.
+Receiving a handoff means you are permitted to turn an aircraft **45 degrees left or right**, and **climb/descend it to any level** without coordination. Do not handoff an aircraft to another sector if a turn of 45 degrees or a change of level would cause a conflict with any of your own aircraft. Alternatively, you can nominate a restriction prior to handoff.
+
+A [restriction](#no-frequency-requirements-nfr) can be limited to vertical or lateral, or be limited by a single aircraft. In this case, nominate the conflicting aircraft themselves as the restriction. 
+
+!!! example
+    <figure markdown>
+    ![Nominating a Restriction](img/restriction.png){ width="700" }
+    <figcaption>BLA nominates QFA494 as a restriction on QFA501 to GUN</figcaption>
+    </figure>
 
 !!! phraseology
-    <span class="hotline">**YWE** -> **TBD**</span>: "ABC, my restriction is DEF, calls you now"  
-    <span class="hotline">**TBD** -> **YWE**</span>: "ABC, restriction is DEF, calls me now"
+    <span class="hotline">**BLA** -> **GUN**</span>: "QFA501, my restriction is QFA494"  
+    <span class="hotline">**GUN** -> **BLA**</span>: "QFA501, restriction is QFA494"
+
+When an aircraft is nominated as a restriction, both controllers are jointly responsible for maintaining separation assurance. Any flightpath deviations which may impact separation assurance must first be backwards coordinated between the controllers.
 
 Upon receipt of a handoff, once the aircraft is established **half the applicable lateral standard** (2.5nm for ENR, 1.5nm for ADC/TCU) within your airspace, you are free to turn the aircraft as much as you like. If you need to turn them more than 45 degrees earlier than that, simply ask!
 
@@ -419,16 +422,6 @@ If Auto Release is suspended by the TCU controller, respond by advising of any a
     <span class="hotline">**ADC** -> **TCU**</span>: "Cancel Auto Release, QLK108D released"  
     <span class="hotline">**TCU** -> **ADC**</span>: "QLK108D"
 
-#### TCU -> Radar TWR
-Radar TWRs will [Next](#next) coordinate all departures unless permitted by local Auto Release rules. Respond with any lateral departure instructions (if required by SID or departure procedure) and any additional vertical restrictions, or "unrestricted". 
-
-If due to weather, overflying aircraft, runway config changes, etc. Auto Release needs to be cancelled, advise this to the ADC controller.  They will respond with any aircraft who have a takeoff clearance.
-
-!!! phraseology
-    <span class="hotline">**TCU** -> **ADC**</span>: "Cancel Auto Release"  
-    <span class="hotline">**ADC** -> **TCU**</span>: "Cancel Auto Release, QLK108D released"  
-    <span class="hotline">**TCU** -> **ADC**</span>: "QLK108D"
-
 ### TCUs
 #### ENR -> TCU
 **Voiceless** for aircraft landing at main airport (eg YMML in ML TCU), assigned a STAR, and standard assignable level, unless overridden by local procedure.  
@@ -439,7 +432,7 @@ Heads-up coordinate all other aircraft by **20nm** to boundary.
 **Voiceless** for aircraft assigned lower of standard assignable level or RFL, and tracking via a Procedural SID terminus, unless overridden by local procedure.
 
 !!! note
-    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**.
 
 Heads-up coordinate all other aircraft by the boundary.
 
