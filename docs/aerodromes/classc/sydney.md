@@ -467,7 +467,7 @@ Climb gradient requirements apply to all Procedural SIDs. It is the pilot's resp
 ### ANKUB Non-Jet SID
 The **ANKUB SID** is a unique departure that is assigned to non-jets planned via **KADOM** or **BENBU**. On this SID, non-jets fly an assigned heading before being vectored by SY TCU to a waypoint to rejoin the procedure.
 
-**SY ADC** must give aicraft on this SID an [assigned heading](#standard-assignable-departure-headings) with their line up or takeoff clearance, in the same way as aircraft assigned the RADAR SID. 
+**SY ADC** must give aircraft on this SID an [assigned heading](#standard-assignable-departure-headings) with their line up or takeoff clearance, in the same way as aircraft assigned the RADAR SID. 
 
 ## ATIS
 ### Approach Types

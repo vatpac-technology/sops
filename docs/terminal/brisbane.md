@@ -277,8 +277,8 @@ Due to the close proximity to YBBN, it may be necessary to instruct helicopters 
 !!! phraseology 
     **BN TCU**: "FHK, report sighting an Embraer E190 departing runway 19R, through `A008` on climb."  
     **FHK**: Traffic in sight, FHK"  
-    **BN TCU**: "FHK, maintain own seperation with the E190"  
-    **FHK**: "Maintain own seperation, FHK"  
+    **BN TCU**: "FHK, maintain own separation with the E190"  
+    **FHK**: "Maintain own separation, FHK"  
 
     **BN TCU**: "QFA1864, traffic is a helicopter operating over the CBD not above `A010`, maintaining own separation with you"  
     **QFA1864:** "QFA1864"

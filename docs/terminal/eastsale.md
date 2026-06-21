@@ -55,7 +55,7 @@ This gives the enroute controller sufficient time to assess the request, make ne
 
 ## Local Procedures
 ### Initial and Pitch
-The [intial points](../../../controller-skills/military/#initial-and-pitch) are aligned with Taxiway A at the following locations.
+The [initial points](../../../controller-skills/military/#initial-and-pitch) are aligned with Taxiway A at the following locations.
 
 | RWY  | Initial Point | Altitude |
 | ---- | ------------- | -------- |

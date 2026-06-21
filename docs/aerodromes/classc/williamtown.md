@@ -29,7 +29,7 @@ There are no [restricted areas or MOAs](../../../controller-skills/sua) activate
 
 ## Local Procedures
 ### Initial and Pitch
-The [intial points](../../../controller-skills/military/#initial-and-pitch) are aligned with Taxiway A at the following locations.
+The [initial points](../../../controller-skills/military/#initial-and-pitch) are aligned with Taxiway A at the following locations.
 
 | RWY  | Initial Point | Altitude |
 | ---- | ------------- | --------------------------- |

@@ -75,7 +75,7 @@ This gives the enroute controller sufficient time to assess the request, make ne
     | 23   | 4.5NM east, at Quarry | `A010` |
     
 === "YGIG"
-    The [intial points](../../../controller-skills/military/#initial-and-pitch) are offset from the runway at the following locations.
+    The [initial points](../../../controller-skills/military/#initial-and-pitch) are offset from the runway at the following locations.
 
     | RWY  | Initial Point | Altitude |
     | ---- | ------------- | -------- |

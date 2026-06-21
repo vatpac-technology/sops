@@ -148,7 +148,7 @@ Refer to [Reclassifications](#reclassifications) for operations when WR ADC is o
 ### Departures
 Next coordination is not required from WR ADC to ASP(WRA). 
 
-Aircraft leaving WR ADC airspace both **laterally** and **vertically** will enter ASP(WRA) uncontrolled airspace. However, it is good practice for WR ADC to provide [heads-up](../../../controller-skills/coordination/#heads-up) coordination for aircraft leaving WR ADC airspace **vertically** to help faciltiate an uninterrupted climb.
+Aircraft leaving WR ADC airspace both **laterally** and **vertically** will enter ASP(WRA) uncontrolled airspace. However, it is good practice for WR ADC to provide [heads-up](../../../controller-skills/coordination/#heads-up) coordination for aircraft leaving WR ADC airspace **vertically** to help facilitate an uninterrupted climb.
 
 !!! phraseology
     <span class="hotline">**WR ADC** -> **WRA**</span>: "via WR 180 bearing outbound, LYBD11.”  

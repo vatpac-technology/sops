@@ -40,7 +40,7 @@ The majority of simulators do not have scenery which reflects this construction,
 #### Taxiway Y Apron Taxi Lanes
 The apron off taxiway Y has been amended to include two separate taxi lanes: APN8 and APN9, capable of facilitating simultaneous pushbacks from aircraft at Pier F and Pier G.
 
-The majority of simulators will still have the old apron layout with a single taxi lane between the two piers. Controllers should be wary of the potential for collision if simultanous pushback approval is given to aircraft in this area.
+The majority of simulators will still have the old apron layout with a single taxi lane between the two piers. Controllers should be wary of the potential for collision if simultaneous pushback approval is given to aircraft in this area.
 
 ## Separation
 ### Reduced Runway Separation
@@ -190,7 +190,7 @@ For jet aircraft departing Runway 16 **Off Mode** via **MNG**, **NONIX**, **DOSE
     The ISPEG SID does not resolve all conflicts. Departures via SUNTI and CORRS need to be handled tactically by ML TCU.
 
 #### RADAR SID
-a) Jet aircraft departing **Off Mode** that don't meet the above critera; or  
+a) Jet aircraft departing **Off Mode** that don't meet the above criteria; or  
 b) Non-Jet Aircraft; or  
 c) All aircraft using Runway 09; or  
 d) Aircraft that cannot accept a Procedural SID  

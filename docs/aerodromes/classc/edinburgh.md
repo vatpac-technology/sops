@@ -35,7 +35,7 @@ This gives the parent controller sufficient time to assess the request, make nec
 
 ## Local Procedures
 ### Inital and Pitch
-The [intial points](../../../controller-skills/military/#initial-and-pitch) are east of the runway, at the following locations. Aircraft will pitch west in order not to impede on the Class G boundary. 
+The [initial points](../../../controller-skills/military/#initial-and-pitch) are east of the runway, at the following locations. Aircraft will pitch west in order not to impede on the Class G boundary. 
 
 | RWY  | Initial Point | Altitude |
 | ---- | ------------- | -------- |

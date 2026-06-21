@@ -158,8 +158,8 @@ Please see the **[Manning SOPs](../enroute/brisbane/MNN)** for full details abou
 ##### Gundagai (GUN)
 The boundaries of **GUN** have changed. 
 
-- **KAT** expanded to include airspace that was previously part of BIK. The subsector has additional respondibilities to process and sequence YSWS arrivals.
-- **BIK** adjusted size to accomodate an expansion in KAT airspace close to the SY TCU boundary. BIK retains responsibility for the airspace above the SY TCU. 
+- **KAT** expanded to include airspace that was previously part of BIK. The subsector has additional responsibilities to process and sequence YSWS arrivals.
+- **BIK** adjusted size to accommodate an expansion in KAT airspace close to the SY TCU boundary. BIK retains responsibility for the airspace above the SY TCU. 
 - **GUN** shrunk slightly as the BIK subsector extended westward. GUN has additional responsibilities for processing arrivals to YSWS.
 
 Please see the **[Gundagai SOPs](../enroute/melbourne/GUN)** for full details about GUN operations.

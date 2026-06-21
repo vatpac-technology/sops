@@ -55,10 +55,10 @@ Taxiway V has a passing bay, located adjacent to the ARFF section. The passing b
 
 ## Local Procedures
 ### Initial and Pitch
-The [intial points](../../../controller-skills/military/#initial-and-pitch) are at 5 TAC, aligned with Runway 11 and 29. Aircraft will arrive via a straight initial.
+The [initial points](../../../controller-skills/military/#initial-and-pitch) are at 5 TAC, aligned with Runway 11 and 29. Aircraft will arrive via a straight initial.
 
 ### Marrara Coded Clearance
-VFR aircraft arriving via LPT may be cleared for a visual approach via a **'Marrara Downwind'** clearance. Aircraft that area cleared for a Marrara Downwind will track from LPT towards *Marrara Stadium* before turning to joing a left (Runway 11) or right (Runway 29) downwind.
+VFR aircraft arriving via LPT may be cleared for a visual approach via a **'Marrara Downwind'** clearance. Aircraft that area cleared for a Marrara Downwind will track from LPT towards *Marrara Stadium* before turning to joining a left (Runway 11) or right (Runway 29) downwind.
 
 !!! phraseology
     **DN ADC:** "ZYX, cleared visual approach via Marrara Downwind, Runway 11"

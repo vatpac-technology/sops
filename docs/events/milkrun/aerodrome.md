@@ -17,7 +17,7 @@ Specific procedures apply to the use of [Pushback Requests on ACD](../../aerodro
 
 ## SMC
 ### Standard Taxi Routes
-[YSSY](../../../aerodromes/classc/sydney/#standard-taxi-routes) and [YMML](../../../aerodromes/classc/melbourne/#standard-taxi-routes) both have Published Standard Taxi Routes that can be used to facilitate the orderly flow of traffic on the ground, but this does not preclude the SMC controller from using alternate routing if they deem it neccessary.
+[YSSY](../../../aerodromes/classc/sydney/#standard-taxi-routes) and [YMML](../../../aerodromes/classc/melbourne/#standard-taxi-routes) both have Published Standard Taxi Routes that can be used to facilitate the orderly flow of traffic on the ground, but this does not preclude the SMC controller from using alternate routing if they deem it necessary.
 
 ### Queuing
 When giving taxi clearance, the SMC controller shall consider holding aircraft short of taxiways when in a long queue for a holding point, so that blockages are not caused on crossing taxiways. The Hotspots to pay the most attention to are circled below

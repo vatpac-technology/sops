@@ -85,7 +85,7 @@ VFR departures to Class G shall be cleared (at not above `A015`) via:
 | North West^ | [Sunbury Corridor](#sunbury-corridor) |
 
 !!! Note
-    ^ Departures to the north and west are generally not available due to YMML traffic. Where YMML taffic permits, departures to these direction may be available [pending coordination](#smc-to-ml-tcu) with ML TCU.
+    ^ Departures to the north and west are generally not available due to YMML traffic. Where YMML traffic permits, departures to these direction may be available [pending coordination](#smc-to-ml-tcu) with ML TCU.
 
 ### Arrivals
 VFR arrivals from Class G shall be cleared (at not above `A015`) via:

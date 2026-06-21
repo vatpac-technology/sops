@@ -48,7 +48,7 @@ Except when the traffic situation warrants, taxi clearances shall conform to the
 
 ## Local Procedures
 ### Initial and Pitch
-The [intial points](../../../controller-skills/military/#initial-and-pitch) are aligned with Taxiway A at the following locations.
+The [initial points](../../../controller-skills/military/#initial-and-pitch) are aligned with Taxiway A at the following locations.
 
 | RWY  | Initial Point | Altitude |
 | ---- | ------------- | -------- |

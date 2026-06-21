@@ -67,7 +67,7 @@ After becoming airborne and making the turn to crosswind and then downwind, the 
     **ABC:** "Cleared touch and go, ABC"
 
 
-Depending on the traffic situation, you may approve the pilots request, or else require that they make a full-stop landing.
+Depending on the traffic situation, you may approve the pilot's request, or require that they make a full-stop landing.
 
 !!! phraseology
     **ABC:** "ABC, downwind, request the option"  

@@ -61,7 +61,7 @@ This gives the enroute controller sufficient time to assess the request, make ne
 
 ## Local Procedures
 ### Initial and Pitch
-The [intial points](../../../controller-skills/military/#initial-and-pitch) are at 5 TAC, aligned with Runway 11 and 29. Aircraft will arrive via a straight initial.
+The [initial points](../../../controller-skills/military/#initial-and-pitch) are at 5 TAC, aligned with Runway 11 and 29. Aircraft will arrive via a straight initial.
 
 ### Military Gates
 There are numerous [military gates](../../../controller-skills/military/#military-gates) established throughout the TMA to facilitate entry and exit to adjoining SUA.

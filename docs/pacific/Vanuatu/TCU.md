@@ -57,7 +57,7 @@ Voiceless for all aircraft:
 - Assigned `F250`.
 
 ### NWWWA
-All aicraft transiting between NWWWA CTA and NVVVA CTA must be heads-up coordinated.
+All aircraft transiting between NWWWA CTA and NVVVA CTA must be heads-up coordinated.
 
 !!! phraseology
     <span class="hotline">**NWWWA** -> **NVVVA**</span>: "via LEDIT, TPC915"  

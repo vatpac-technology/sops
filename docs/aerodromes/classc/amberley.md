@@ -29,7 +29,7 @@ There are no [restricted areas or MOAs](../../../controller-skills/sua) activate
 
 ## Local Procedures
 ### Initial Pitch Procedures
-The [intial points](../../../controller-skills/military/#initial-and-pitch) are aligned with Engine Test Cell 2 at the following locations.
+The [initial points](../../../controller-skills/military/#initial-and-pitch) are aligned with Engine Test Cell 2 at the following locations.
 
 | RWY  | Initial Point | Altitude |
 | ---- | ------------- | -------- |

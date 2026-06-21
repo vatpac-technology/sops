@@ -135,7 +135,7 @@ Winds must always be considered for runway modes (Crosswind <20kts, Tailwind <5k
 !!! example
     Jet Aircraft planned via TANTA, assigned runway 35, shall be given the TANTA SID.
 
-a) Jet or Non-Jet aircraft departing **Off Mode** that don't meet the above critera; or   
+a) Jet or Non-Jet aircraft departing **Off Mode** that don't meet the above criteria; or   
 b) Aircraft that cannot accept a Procedural SID  
 Shall be assigned the **Radar SID**.
 

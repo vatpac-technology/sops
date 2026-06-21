@@ -58,7 +58,7 @@ When either the [Bradshaw Field Training Area](../../enroute/brisbane/TRT/#brads
 
 ## Local Procedures
 ### Initial Pitch Procedures
-The [intial points](../../controller-skills/military/#initial-and-pitch) are aligned with Taxiway A at the following locations.
+The [initial points](../../controller-skills/military/#initial-and-pitch) are aligned with Taxiway A at the following locations.
 
 | RWY  | Initial Point | Altitude |
 | ---- | ------------- | -------- |

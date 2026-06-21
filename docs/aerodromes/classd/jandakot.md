@@ -111,7 +111,7 @@ Aircraft shall be assigned the appropriate SID according to their direction of t
 | South and West     | **TONEG**  |
 
 !!! note
-    ^ The **ISPET** and **SCARP** SIDs include visual maneuvres when departing Runway 06L is in use. The **ISPET** SID also includes a visual maneuvres for aircraft departing Runway 12. When the cloud base is at or below `A007`, the **TONEG** SID should be assigned in lieu of these SIDs when departing an affected runway.
+    ^ The **ISPET** and **SCARP** SIDs include visual manoeuvres when departing Runway 06L is in use. The **ISPET** SID also includes a visual manoeuvres for aircraft departing Runway 12. When the cloud base is at or below `A007`, the **TONEG** SID should be assigned in lieu of these SIDs when departing an affected runway.
 
 ## ATIS
 ### Runway Mode Formatting

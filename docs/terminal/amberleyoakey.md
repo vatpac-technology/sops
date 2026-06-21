@@ -75,7 +75,7 @@ This gives the enroute controller sufficient time to assess the request, make ne
 
 ## Local Procedures
 ### Initial Pitch Procedures
-The [intial points](../../controller-skills/military/#initial-and-pitch) at YAMB are aligned with Engine Test Cell 2 at the following locations.
+The [initial points](../../controller-skills/military/#initial-and-pitch) at YAMB are aligned with Engine Test Cell 2 at the following locations.
 
 | RWY  | Initial Point | Altitude |
 | ---- | ------------- | -------- |

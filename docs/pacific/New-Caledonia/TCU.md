@@ -125,7 +125,7 @@ VFR aircraft require a level readback.
     <span class="hotline">**NWWM ADC** -> **NWWWA**</span>: "FODXX"
 
 ### NVVVA
-All aicraft transiting between NVVVA CTA and NWWWA CTA must be heads-up coordinated.
+All aircraft transiting between NVVVA CTA and NWWWA CTA must be heads-up coordinated.
 
 !!! phraseology
     <span class="hotline">**NVVVA** -> **NWWWA**</span>: "via LEDIT, TPC916"  

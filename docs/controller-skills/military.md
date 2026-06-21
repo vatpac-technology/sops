@@ -154,7 +154,7 @@ Aircraft entering civilian airspace via a military corridor generally **does not
     <span class="hotline">**NSA** -> **AMA**</span>: "BUCK3, `F190`" 
 
 ### Military Gates
-**Military Gates** are fixes used by military aicraft to enter or exit SUA.
+**Military Gates** are fixes used by military aircraft to enter or exit SUA.
 
 These fixes are normally defined by reference to a fixed navaid, such as a TACAN or VOR, and many military SIDs and STARs will use gates as termini. At some aerodromes (such as [Amberley](../../terminal/amberleyoakey)), military gates have been given codenames and are part of the required routing for particular operations. At other aerodromes (such as [East Sale](../../terminal/eastsale)), multiple waypoints are aligned and defined as a **lane**, and serve the same purpose.
 
@@ -256,7 +256,7 @@ Reserved.
 !!! warning "Important"
     MARSA **cannot** be initiated by ATC, it **must** be initiated by the pilot(s).
 
-MARSA is to be assigned and terminated on pilots request, and when standard seperation can been applied.
+MARSA is to be assigned and terminated on pilot's request, and when standard separation can be applied.
 
 !!! phraseology
     *MAPL01 is Maintaining `F260`. DRGN50 is maintaining Block `F270`-`F290` above them.*  
