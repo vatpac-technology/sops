@@ -58,7 +58,7 @@ Military jet training circuits are conducted at `A035`, unless otherwise request
 The Canberra CTR contains the Southcare Helicopter Base (YXSB), the Majura Training Area (YMJR) as well as the helipad at Canberra Hospital (YXCB). Helicopters operating to and from these pads require a clearance from **CB ADC**.
 
 ### Departing Aircraft
-Helicopters departing the pads require an airways clearance to do so, either taking the form of a clearance to transit the zone to the Class G airspace adjacent to the CTR (if the pilot has no intention to enter CTA) or as a normal airways clearance for a departure into the surrounding CTA. Ensure that no conflict exists with arriving or departing traffic and consider delegating separation responsibility to the VFR aircraft if required. It may also be required to coordination with the TMA controller to ensure no additional conflict exists in their sector.
+Helicopters departing the pads require an airways clearance to do so, either taking the form of a clearance to transit the zone to the Class G airspace adjacent to the CTR (if the pilot has no intention to enter CTA) or as a normal airways clearance for a departure into the surrounding CTA. Ensure that no conflict exists with arriving or departing traffic and consider delegating separation responsibility to the VFR aircraft if required. It may also be required to coordinate with the TMA controller to ensure no additional conflict exists in their sector.
 
 Departing aircraft should **not** be issued a takeoff clearance (as the helipads are outside the manoeuvring area). Instead, instruct aircraft to 'report airborne'.
 
