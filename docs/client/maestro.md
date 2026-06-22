@@ -34,9 +34,9 @@ The vMaestro plugin should be [downloaded](https://github.com/YuKitsune/vMaestro
 
 Maestro tracks flights within 2 hours of the feeder fix or when an FDR is activated for flights from departure airports. vatSys provides updated position information every 30 seconds, and Maestro recalculates estimates and sequence position based on the flight's state.
 
-Flights from departure airports are placed in the Pending list and must be manually inserted by the flow controller. These flights can be inserted prior to departure to absorb delay on the ground.
+Flights from departure airports are placed in the Pending list and are automatically activated on departure. The flow controller may also insert them prior to departure so that any required delay can be absorbed on the ground.
 
-Maestro calculates landing times (`STA`) based on estimates (`ETA`) and applies delays when the time between consecutive flights is less than the acceptance rate. The `STA_FF` is calculated by subtracting the time-to-go `TTG` from the `STA`.
+Maestro calculates landing times (`STA`) based on estimates (`ETA`) and applies delays when the time between consecutive flights is less than the acceptance rate. The `STA_FF` is derived from the `ETA_FF` plus the enroute portion of the required delay (the delay to be absorbed before the feeder fix).
 
 ### The Timeline
 
@@ -53,7 +53,7 @@ Flight labels are mirrored on either side of the timeline, and contain (from inn
 4. Approach Type (if applicable)
 5. `#` if zero delay has been assigned
 6. `%` if manual delay (other than zero) has been assigned
-7. `+` if the flight must cross the feeder-fix at published speed
+7. `+` if the flight must cross the feeder fix at profile speed
 8. `*` if the FDR is not coupled to a radar track
 9. Delay required (based on the initial `ETA`)
 10. Delay remaining (based on the current `ETA`)
@@ -306,7 +306,7 @@ This alerts controllers that delay figures may be temporarily inaccurate and pre
 
 ### Pending Flights
 
-Flights from designated departure airports (i.e. those within approximately 30 minutes flight time that will track via a feeder fix) appear in the Pending list and are inserted using the `DEPS` button.
+Flights from designated departure airports (i.e. those within approximately 30 to 45 minutes flight time that will track via a feeder fix) appear in the Pending list and are inserted using the `DEPS` button.
 Maestro will automatically calculate a sequence position and any required delay based on the selected Take-Off time.
 
 Periodically review the Pending list and insert flights when notified of their intention to depart.
