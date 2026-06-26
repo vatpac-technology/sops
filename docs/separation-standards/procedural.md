@@ -5,46 +5,6 @@ title: Procedural
 --8<-- "includes/abbreviations.md"
 
 <details markdown="1">
-<summary>Departures</summary>
-
-## Departures
-### 2 min
-| Conditions | |
-| ------------- | ------------------ |
-| a) The aircraft are climbing to vertically separated levels;<br>b) Both aircraft report reaching the cruising level;<br>c) If the following aircraft is climbing to a lower level than the preceding aircraft, and reaches that level first, apply another form of separation immediately; and<br>d) climb and cruising IAS of the following aircraft is at least **10 kt slower** and not more than **90%** of the climb and cruising IAS or Mach number of the leading aircraft. | <figure markdown>
-![2 min Departure Standard Diagram](img/dep2min.png){ width="600" }
-</figure> |
-
-### 5 min
-| Conditions | |
-| ------------- | ------------------ |
-| a) Both aircraft report reaching the cruising level;<br>b) If the following aircraft reaches that level first, apply another form of separation immediately; and<br>c) climb and cruising IAS of the following aircraft is at least **10 kt slower** and not more than **90%** of the climb and cruising IAS or Mach number of the leading aircraft. | <figure markdown>
-![5 min Departure Standard Diagram](img/dep5min.png){ width="600" }
-</figure> |
-
-### 10 min
-| Conditions | |
-| ------------- | ------------------ |
-| a) Both aircraft report reaching the cruising level;<br>b) If the following aircraft reaches cruising level first, apply another form of separation immediately; and<br>c) climb IAS of the following aircraft is less than or equal to the climb IAS of the leading aircraft. | <figure markdown>
-![10 min Departure Standard Diagram](img/dep10min.png){ width="600" }
-</figure> |
-
-</details>
-
-<details markdown="1">
-<summary>Arrivals</summary>
-
-## Arrivals
-### 10nm
-| Conditions | |
-| ------------- | ------------------ |
-| a) Both aircraft are **inbound**, and the leading aircraft is within **20nm** of a controlled aerodrome; and<br>b) The aircraft are assigned vertically separated levels. | <figure markdown>
-![10nm Arrival Standard Diagram](img/arr10nm.png){ width="600" }
-</figure> |
-
-</details>
-
-<details markdown="1">
 <summary>Longitudinal</summary>
 
 ## Longitudinal

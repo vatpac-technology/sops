@@ -4,16 +4,14 @@ title: Class D Tower
 
 --8<-- "includes/abbreviations.md"
 
-## Airspace
-Remember that in [Class D Airspace](../../controller-skills/classofairspace), IFR aircraft are separated from IFR and SVFR, and SVFR is separated from SVFR when visibility is not VMC. **No separation** is provided for VFR aircraft, even though it is controlled airspace. The Tower Controller provides more of a *"Segregation"* service (ie, providing reasonable opportunity for the aircraft to separate themselves), as well as providing traffic information.
+## Introduction
+- TODO: advice on which separation standards to lean on
 
-<figure markdown>
-![Class D Tower Airspace Diagram](img/classDtwrdiagram.png){ width="800" }
-  <figcaption>Class D Tower Airspace Diagram</figcaption>
-</figure>
+## Airspace
+Remember that in [Class D Airspace](../../controller-skills/classofairspace), IFR aircraft are separated from IFR and SVFR, and SVFR is separated from SVFR when visibility is not VMC. **No separation** is provided for VFR aircraft, even though it is controlled airspace. The Tower Controller provides more of a *"segregation"* service (ie, providing reasonable opportunity for the aircraft to separate themselves), as well as providing traffic information.
 
 ## Surveillance
-Although Surveillance standards cannot be used for separation at Class D Towers, overlying TCU/Enroute controllers can use their surveillance standards to help Class D towers achieve separation, when procedural separation is a bit awkward or impractical.
+Although surveillance standards cannot be used for separation at Class D Towers, overlying TCU/Enroute controllers can use their surveillance standards to help Class D towers achieve separation, when procedural separation is a bit awkward or impractical.
 
 !!! phraseology
     <span class="hotline">**AY ADC** -> **BLA**</span>: "Can you advise when QLK208D is 5nm clear of DSB?"  
@@ -49,6 +47,36 @@ Although Surveillance standards cannot be used for separation at Class D Towers,
 ![Segregated Flight Paths - Visual, DME/GNSS, Circle to land (After 10nm)](img/45segregatedfpcircle2.png){ width="700" }
   <figcaption>Segregated Flight Paths - Visual, DME/GNSS, Circle to land (After 10nm)</figcaption>
 </figure>
+
+## Departures
+### 2 min
+| Conditions | |
+| ------------- | ------------------ |
+| a) The aircraft are climbing to vertically separated levels;<br>b) Both aircraft report reaching the cruising level;<br>c) If the following aircraft is climbing to a lower level than the preceding aircraft, and reaches that level first, apply another form of separation immediately; and<br>d) climb and cruising IAS of the following aircraft is at least **10 kt slower** and not more than **90%** of the climb and cruising IAS or Mach number of the leading aircraft. | <figure markdown>
+![2 min Departure Standard Diagram](img/dep2min.png){ width="600" }
+</figure> |
+
+### 5 min
+| Conditions | |
+| ------------- | ------------------ |
+| a) Both aircraft report reaching the cruising level;<br>b) If the following aircraft reaches that level first, apply another form of separation immediately; and<br>c) climb and cruising IAS of the following aircraft is at least **10 kt slower** and not more than **90%** of the climb and cruising IAS or Mach number of the leading aircraft. | <figure markdown>
+![5 min Departure Standard Diagram](img/dep5min.png){ width="600" }
+</figure> |
+
+### 10 min
+| Conditions | |
+| ------------- | ------------------ |
+| a) Both aircraft report reaching the cruising level;<br>b) If the following aircraft reaches cruising level first, apply another form of separation immediately; and<br>c) climb IAS of the following aircraft is less than or equal to the climb IAS of the leading aircraft. | <figure markdown>
+![10 min Departure Standard Diagram](img/dep10min.png){ width="600" }
+</figure> |
+
+## Arrivals
+### 10nm
+| Conditions | |
+| ------------- | ------------------ |
+| a) Both aircraft are **inbound**, and the leading aircraft is within **20nm** of a controlled aerodrome; and<br>b) The aircraft are assigned vertically separated levels. | <figure markdown>
+![10nm Arrival Standard Diagram](img/arr10nm.png){ width="600" }
+</figure> |
 
 ## Vertical
 ### 1000ft
