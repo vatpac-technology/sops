@@ -147,7 +147,7 @@ This area roughly aligned with the previous MDE, CNK, and ARL subsectors, but al
 
 Several YSSY STARS from the west are changing, notably the replacement of the **ODALE** STAR with a new **AKMIR** STAR, which will alter the standard reroute given to aircraft when traffic levels are high.
 
-Please see the **[Upcoming Armidale SOPs](./ARL)** for full details about GAH operations.
+Please see the **[Upcoming Armidale SOPs](./ARL)** for full details about ARL operations.
 
 ##### Manning (MNN)
 **MNN** will have two child sectors: **MLD** and **OCN**.
