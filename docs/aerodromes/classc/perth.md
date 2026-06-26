@@ -106,7 +106,7 @@ For aircraft departing Runway 03 **Off Mode** via **AMANA**, **HECTO**, **MEMUP*
     Assigning the Radar SID to an off-mode departure does not meet the requirements for [auto release](#auto-release). These aircraft must be 'Next' coordinated with PH TCU.
 
 #### Runway 03 Departures
-When the R155A and R115B restricted areas overhead Pearce are *not active*, aircraft departing departing Runway 03 to the north may be assigned either the **Radar SID** or the **EKEPO** SID. This offers aircraft a shorter, more direct route than the **OTLED** and **AVNEX** SIDs.
+When the [R155A and R155B Pearce](../../../terminal/pearce/#restricted-area-activations) restricted areas are *not active*, aircraft departing departing Runway 03 to the north may be assigned either the **Radar SID** or the **EKEPO** SID. This offers aircraft a shorter, more direct route than the **OTLED** and **AVNEX** SIDs.
 
 ## ATIS
 ### Approach Types
