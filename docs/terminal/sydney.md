@@ -322,7 +322,7 @@ Adjacent STARs do not guarantee lateral separation (particularly as aircraft get
 RIVET/BOREE aircraft should only be assigned `A070` when an adjacent AKMIR/MEPIL arrival is maintaining `A060`.  These aircraft can be stepped down to `A060` once sufficient lateral separation exists (often during the downwind turn).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7dOF91EIQj8?si=9Vc3-eHTN2Zqlvf4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="display:block; margin:0 auto;" allowfullscreen></iframe>
-<p><figcaption style="text-align: center;">Demonstration of the Adjacent STARs</br><small>(filmed prior to [2607 AIRAC](../../2607-update) changes, but practice remains the same)</small></figcaption></p>
+<p><figcaption style="text-align: center;">Demonstration of the Adjacent STARs</br><small>(filmed prior to [2607 AIRAC](../../2607-update) changes, but technique remains the same)</small></figcaption></p>
 
 !!! tip
     Be mindful of Sydney's [REP airspace](#radar-entry-procedure-rep) arrangement and avoid leaving arrivals at `A100`.  Aircraft should be descended to `A090` or below by 20DME to prevent conflict with departing traffic.
