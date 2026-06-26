@@ -10,7 +10,7 @@ ADC controllers can conduct "pseudo-visual" separation between aircraft under th
 
 - ADC controllers only  
 - Projected flight paths do not conflict  
-- Within 5nm of AD  
+- Within 10nm of AD  
 - Both aircraft below the cloud base  
 - Visibility >8km
 
