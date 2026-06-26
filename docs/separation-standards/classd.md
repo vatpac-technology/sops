@@ -78,6 +78,16 @@ Although surveillance standards cannot be used for separation at Class D Towers,
 ![10nm Arrival Standard Diagram](img/arr10nm.png){ width="600" }
 </figure> |
 
+### Visually Acquired Aircraft
+Two aircraft may be considered to be separated if the second aircraft is beyond the view of the controller (i.e. greater than 10nm from the aerodrome), provided:
+
+- the first aircraft has been sighted by the tower controller, and
+- a landing/missed approach can be effected clear of conflict
+
+In practice, this allows controllers to reduce the spacing between successive arrivals via an instrument approach provided the weather conditions will allow the controller to visually acquire each aircraft within 10nm of the aerodrome and before the following aircraft commences the approach.
+
+TODO: Create diagram
+
 ## Vertical
 ### 1000ft
 - Between any aircraft
