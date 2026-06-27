@@ -10,6 +10,11 @@ title: Class D Tower
 ## Airspace
 Remember that in [Class D Airspace](../../controller-skills/classofairspace), IFR aircraft are separated from IFR and SVFR, and SVFR is separated from SVFR when visibility is not VMC. **No separation** is provided for VFR aircraft, even though it is controlled airspace. The Tower Controller provides more of a *"segregation"* service (ie, providing reasonable opportunity for the aircraft to separate themselves), as well as providing traffic information.
 
+<figure markdown>
+![Class D Tower Airspace Diagram](img/classDtwrdiagram.png){ width="800" }
+  <figcaption>Class D Tower Airspace Diagram</figcaption>
+</figure>
+
 ## Surveillance
 Although surveillance standards cannot be used for separation at Class D Towers, overlying TCU/Enroute controllers can use their surveillance standards to help Class D towers achieve separation, when procedural separation is a bit awkward or impractical.
 
