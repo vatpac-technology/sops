@@ -564,7 +564,7 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
     | Runway | Via  | Departure Frequency |
     | ------ | ---- | -------------------- |
     | **34L** | AVMOV SID, *or*<br>Tracking N, or NE | 123.0 (SDN) |
-    | 34L | KADOM SID, *or*<br>STUIE SID, *or*<br>TONTO SID<br>Tracking S, W, or SW | 129.7 (SDS) |
+    | 34L | ANKUB SID, *or*<br>KADOM SID, *or*<br>STUIE SID, *or*<br>TONTO SID<br>Tracking S, W, or SW | 129.7 (SDS) |
     | **34R** | MARUB SID *(exc. WOL trans)*, *or*<br>OLSEM SID, *or*<br>Tracking N, or NE | 123.0 (SDN) |
     | 34R | MARUB SID, WOL Transition, *or*<br>Tracking S, W, or SW | 129.7 (SDS) |
 
