@@ -5,11 +5,42 @@ title: Class D Tower
 --8<-- "includes/abbreviations.md"
 
 ## Introduction
-- TODO: advice on which separation standards to lean on
-- During inbound coordination, pre-plan separation standard to use or provide sequencing instructions
-- Include recommended standard for stream of arrivals, stream of departures, traffic mix
+Procedural separation in the vicinity of an aerodrome requires careful thought and pre-planning. When inbound coordination is performed by the overlying enroute/TCU controller, ADC shall consider the effect of the inbound aircraft on any other aircraft operating in the airspace (or about to become airborne) and pre-plan the best separation standard to use. If necessary, sequencing instructions should be relayed to the overlying controller to ensure sufficient spacing exists with other aircraft.
 
-## Airspace
+!!! phraseology
+    <span class="hotline">**ENR** -> **ADC**</span>: "Via KADSI, RXA6416"  
+    <span class="hotline">**ADC** -> **ENR**</span>: "RXA6416, `A080`"  
+
+    *After assessing the conflict:*  
+
+    <span class="hotline">**ADC** -> **ENR**</span>: "RXA6416, request you track them via CFSSG, cross CFSSG at or after time 50"  
+    <span class="hotline">**ENR** -> **ADC**</span>: "RXA6416, track via CFSSG, cross CFSSG at or after time 50"  
+
+### Recommended Separation Standards
+Every traffic picture is different and controllers will need to utilise a mix of separation standards to provide efficient, separated sequences. The following sections outline recommended starting points for various traffic scenarios.
+
+#### Arrival Streams
+If current meteorological conditions preclude the use of visual separation, IFR aircraft should be sequenced to allow each to conduct an instrument approach and land before the next arrives at the IAF.
+
+!!! tip
+    Sequencing arrivals **5 minutes** apart at the IAF will generally provide enough time to facilitate successive approaches. Smaller, slower aircraft may require more spacing.
+
+Where visual separation is possible, the sequence may be tightened provided ADC can [visually acquire](#visually-acquired-aircraft) each aircraft as they conduct the approach.
+
+!!! example
+    With a cloud base of 3,200ft AGL, ADC should expect to sight aircraft at roughly 10nm. Successive RNP approaches may be conducted with vertical separation maintained until each leading aircraft is sighted, when the following aircraft may be descended and cleared for the approach.
+
+#### Departure Streams
+If current meteorological conditions preclude the use of visual separation, IFR aircraft should be departed at [2 min](#2-min) or [5 min](#5-min) intervals (with any necessary speed restrictions imposed on following aircraft). Alternatively, ADC may issue amended departure radials to aircraft to build [lateral separation](#lat-sep-table) and depart the following aircraft when a standard exists.
+
+Where visual separation is possible, ADC should utilise this within 10nm of the aerodrome until a lateral or vertical standard exists. This will generally allow an increase in departure rate.
+
+#### Mixed Traffic
+Vertical separation is likely to be the most effective standard between mixed traffic (both arrivals and departures). The [lat sep table](#lat-sep-table) is a useful tool for maintaining lateral separation and the [45 degree segregated flight paths](#45-segregated-flight-paths) can be used to separate arrivals from departures.
+
+Visual separation is particularly useful when conditions allow, particularly in allowing aircraft to depart while arrivals approach the aerodrome.
+
+### Airspace
 Remember that in [Class D Airspace](../../controller-skills/classofairspace), IFR aircraft are separated from IFR and SVFR, and SVFR is separated from SVFR when visibility is not VMC. **No separation** is provided for VFR aircraft, even though it is controlled airspace. The Tower Controller provides more of a *"segregation"* service (ie, providing reasonable opportunity for the aircraft to separate themselves), as well as providing traffic information.
 
 <figure markdown>
@@ -17,7 +48,7 @@ Remember that in [Class D Airspace](../../controller-skills/classofairspace), IF
   <figcaption>Class D Tower Airspace Diagram</figcaption>
 </figure>
 
-## Surveillance
+### Surveillance
 Although surveillance standards cannot be used for separation at Class D Towers, overlying TCU/Enroute controllers can use their surveillance standards to help Class D towers achieve separation, when procedural separation is a bit awkward or impractical.
 
 !!! phraseology
@@ -28,6 +59,23 @@ Although surveillance standards cannot be used for separation at Class D Towers,
     <span class="hotline">**AY ADC** -> **BLA**</span>: "QLK208D, 5nm clear of DSB, thanks"
 
 ## Lateral
+### Lat Sep Table
+Lateral Separation works off the basis off establishing a *Lateral Separation Point* (Lat Sep point). That is, when given an angle that 2 tracks intersect at, a distance at which lateral separation is considered to exist procedurally. These figures are detailed in the table below:
+
+| Tracks intersecting at | Lat Sep point |
+| ------------- | ------------------ |
+| 0°-15° | No lateral separation |
+| 16°-44° | 11nm |
+| 44°-135° | 8nm |
+| 136°-180° | No lateral separation |
+
+In a more visual form, ABC can be considered to be laterally separated from aircraft in the green areas, and not laterally separated from aircraft in the red areas. This only applies to intersecting angles **at the crossing point**, and both aircraft tracking directly to/from the crossing point.
+
+<figure markdown>
+![Lat Sep Diagram](img/latsepdiagram.png){ width="700" }
+  <figcaption>Lateral Separation Diagram</figcaption>
+</figure>
+
 ### 45° Segregated Flight Paths
 #### Straight-in
 - Can be applied between departures and arrivals when the departing aircraft's flight path and the arrival aircraft's flight path are at least 45° clear of each other, and, for a straight-in approach, the arriving aircraft is at least **5nm** from the arrival runway threshold
@@ -89,6 +137,9 @@ The minimum number you must select when using the tool, is equal to: **Aircraft 
 
 #### Separation
 With each CEP calculated and the conflict area determined, controllers must ensure another separation standard is in place before the aircraft enter the conflict area.
+
+### Definite Passing
+Aircraft on reciprocal tracks (or converging/diverging tracks at least 90 degrees apart) are laterally separated when there is at least 10nm between them. The distance may be measured with reference to a DME or waypoint.
 
 ## Departures
 ### 2 min
