@@ -166,7 +166,7 @@ There are volumes of [SUA](../../../controller-skills/sua) within BLA airspace, 
 ES TCU must [give heads up coordination](../../../terminal/eastsale/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
 
 !!! phraseology
-    <span class="hotline">**ESA** -> **BLA**</span>: "On the groud YMES, HRTG11, requests activation of M301B `F210-F450`, from 0300 until 0500. [My onwards](../../controller-skills/coordination/#onwards-coordination) with HUO”  
+    <span class="hotline">**ESA** -> **BLA**</span>: "On the groud YMES, HRTG11, requests activation of M301B `F210-F450`, from 0300 until 0500. [My onwards](../../../controller-skills/coordination/#onwards-coordination) with HUO”  
     <span class="hotline">**BLA** -> **ESA**</span>: "HRTG11, expect activation of R225D `A095-F600` at 0300 until 0500, your onwards with HUO."   
     <span class="hotline">**ESA** -> **BLA**</span>: "HRTG11."   
     
