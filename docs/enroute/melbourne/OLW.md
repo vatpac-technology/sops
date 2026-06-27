@@ -63,7 +63,7 @@ LM TCU must [give heads up coordination](../../../controller-skills/coordination
     <span class="hotline">**OLW** -> **LMA**</span>: "PHNX11, expect activation of M855A `A100-F280` at 0300 until 0500."   
     <span class="hotline">**LMA** -> **OLW**</span>: "PHNX11."  
 
-Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../sua/#ad-hoc-activations).
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../controller-skills/sua/#ad-hoc-activations).
 
 #### M855-M857 and M865-M868 Learmonth
 The M855-M857 and M865-M868 Learmonth [MOAs](../../../controller-skills/sua/#military-operating-areas) are located over YPLM, `A100-F950`, located in OLW, MEK, and IND(INE) airspace. 
