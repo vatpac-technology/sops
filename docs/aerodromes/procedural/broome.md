@@ -21,6 +21,11 @@ BRM ADC is responsible for the Class D airspace `BCTA` to `A055`, as well as the
 
 Refer to [Class D Tower Separation Standards](../../../separation-standards/classd) for more information.
 
+## SID Selection
+There are no SIDs available for fixed wing aircraft at YBRM.
+
+A Category H SID exists to facilitate the departure of IFR helicopters.
+
 ## Separation
 ### Local Lateral Separation Points
 Due to the convergence of inbound/outbound air routes approaching BRM, the [geographic feature separation standard](../../separation-standards/visual.md#geographic-features) may be useful to efficiently process opposite direction aircraft from the north or south.
