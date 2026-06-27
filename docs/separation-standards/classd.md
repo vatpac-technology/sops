@@ -6,6 +6,8 @@ title: Class D Tower
 
 ## Introduction
 - TODO: advice on which separation standards to lean on
+- During inbound coordination, pre-plan separation standard to use or provide sequencing instructions
+- Include recommended standard for stream of arrivals, stream of departures, traffic mix
 
 ## Airspace
 Remember that in [Class D Airspace](../../controller-skills/classofairspace), IFR aircraft are separated from IFR and SVFR, and SVFR is separated from SVFR when visibility is not VMC. **No separation** is provided for VFR aircraft, even though it is controlled airspace. The Tower Controller provides more of a *"segregation"* service (ie, providing reasonable opportunity for the aircraft to separate themselves), as well as providing traffic information.
@@ -52,6 +54,41 @@ Although surveillance standards cannot be used for separation at Class D Towers,
 ![Segregated Flight Paths - Visual, DME/GNSS, Circle to land (After 10nm)](img/45segregatedfpcircle2.png){ width="700" }
   <figcaption>Segregated Flight Paths - Visual, DME/GNSS, Circle to land (After 10nm)</figcaption>
 </figure>
+
+### Conflict Area
+Two aircraft are considered to be in lateral conflict when they are within the relevant *Circular Error of Position* (CEP) distance of each other. The *Conflict Area tool* can help identify the region in which the aircraft lose lateral separation assurance along their cleared routes.
+
+The CEP is dependent on an aircraft's navigation capability, which is described in their flight plan remarks by the `NAV/xxx` descriptor.
+
+#### NAVCAPs
+All aircraft have a NAVCAP, associated with a ***Circular Error of Position***. This helps determine which number to select when using the Conflict Area Tool:
+
+| NAVCAP Code | Meaning | Circular Error of Position (CEP) |
+| ---- | ----------- | -------- |
+| A | All | 7nm |
+| 2 | RNP2 | 7nm |
+| 4 | RNP4 | 14nm |
+| 5 | RNAV5 | 14nm |
+| T | RNAV10 | 14nm |
+| Z | None | 30nm |
+
+The minimum number you must select when using the tool, is equal to: **Aircraft 1 CEP + Aircraft 2 CEP + 1nm**
+
+!!! example
+    Aircraft 1 NAVCAP: 4  
+    Aircraft 2 NAVCAP: Z  
+    14+30+1=**45**  
+
+!!! example
+    Aircraft 1 NAVCAP: 2  
+    Aircraft 2 NAVCAP: A  
+    7+7+1=**15**  
+
+!!! tip
+    The best scenario is to have 2 aircraft that are RNP2 approved. "Feed the beast" in order to get what you want, that is to say "QFA12, confirm you are RNP2 approved?", and they'll probably say yes. Enter `NAV/RNP2` in the flight plan remarks, and you can use a 7nm CEP.
+
+#### Separation
+With each CEP calculated and the conflict area determined, controllers must ensure another separation standard is in place before the aircraft enter the conflict area.
 
 ## Departures
 ### 2 min
