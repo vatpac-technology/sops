@@ -61,7 +61,7 @@ Coordination must be done on a **point-to-point** basis, meaning you can only co
 !!! example
     You are controlling ELW and you would like to suggest an amended route to someone on the ground at YMML. Whilst that may be no issue for ML SMC and ML ADC, it might not work for ML APP. ML APP would be the sector which the aircraft is coming from, so ELW must talk to them, and it is the responsibility of ML APP to work backwards down the line on a point-to-point basis.
 
-Ensure no coordination is ambiguous in its meaning. Not all coordination can be straight out of the phraseology books and the reality is, not everyone controlling the airspace is going to be 100% proficient and by the books. When using "plain english", ensure there is no ambiguity, and the message is fully understood by both parties.
+Ensure no coordination is ambiguous in its meaning. While proper phraseology is strongly encouraged, plain English may be used where there is no ambiguity and the message is fully understood by both parties.
 
 #### Onwards Coordination
 *Onwards coordination* is a practice by which a controller will assume another controller's responsibility for coordination and coordinate on their behalf, reducing the downstream controller's workload.
