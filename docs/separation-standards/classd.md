@@ -25,7 +25,7 @@ If current meteorological conditions preclude the use of visual separation, IFR 
 !!! tip
     Sequencing arrivals **5 minutes** apart at the IAF will generally provide enough time to facilitate successive approaches. Smaller, slower aircraft may require more spacing.
 
-Where visual separation is possible, the sequence may be tightened provided ADC can [visually acquire](#visually-acquired-aircraft) each aircraft as they conduct the approach.
+Where visual separation is possible, the sequence may be tightened provided ADC can [visually acquire](#visually-acquired-aircraft) each aircraft as they conduct the approach. The [10nm standard](#10nm) may help to provide further descent to aircraft prior to establishing visual contact.
 
 !!! example
     With a cloud base of 3,200ft AGL, ADC should expect to sight aircraft at roughly 10nm. Successive RNP approaches may be conducted with vertical separation maintained until each leading aircraft is sighted, when the following aircraft may be descended and cleared for the approach.
@@ -36,7 +36,7 @@ If current meteorological conditions preclude the use of visual separation, IFR 
 Where visual separation is possible, ADC should utilise this within 10nm of the aerodrome until a lateral or vertical standard exists. This will generally allow an increase in departure rate.
 
 #### Mixed Traffic
-Vertical separation is likely to be the most effective standard between mixed traffic (both arrivals and departures). The [lat sep table](#lat-sep-table) is a useful tool for maintaining lateral separation and the [45 degree segregated flight paths](#45-segregated-flight-paths) can be used to separate arrivals from departures.
+Vertical separation is likely to be the most effective standard between mixed traffic (both arrivals and departures). The [lat sep table](#lat-sep-table) is a useful tool for maintaining lateral separation and the [45° segregated flight paths](#45-segregated-flight-paths) can be used to separate arrivals from departures.
 
 Visual separation is particularly useful when conditions allow, particularly in allowing aircraft to depart while arrivals approach the aerodrome.
 
@@ -139,10 +139,12 @@ The minimum number you must select when using the tool, is equal to: **Aircraft 
 With each CEP calculated and the conflict area determined, controllers must ensure another separation standard is in place before the aircraft enter the conflict area.
 
 ### Definite Passing
-Aircraft on reciprocal tracks (or converging/diverging tracks at least 90 degrees apart) are laterally separated when there is at least 10nm between them. The distance may be measured with reference to a DME or waypoint.
+Aircraft on reciprocal tracks (or converging/diverging tracks at least 90° apart) are laterally separated when there is at least 10nm between them. The distance may be measured with reference to a DME or waypoint.
 
 ## Departures
 ### 2 min
+Two departing aircraft may be departed with 2 min spacing and be considered separated provided the conditions below are met.
+
 | Conditions | |
 | ------------- | ------------------ |
 | a) The aircraft are climbing to vertically separated levels;<br>b) Both aircraft report reaching the cruising level;<br>c) If the following aircraft is climbing to a lower level than the preceding aircraft, and reaches that level first, apply another form of separation immediately; and<br>d) climb and cruising IAS of the following aircraft is at least **10 kt slower** and not more than **90%** of the climb and cruising IAS or Mach number of the leading aircraft. | <figure markdown>
@@ -150,6 +152,8 @@ Aircraft on reciprocal tracks (or converging/diverging tracks at least 90 degree
 </figure> |
 
 ### 5 min
+Two departing aircraft may be departed with 5 min spacing and be considered separated provided the conditions below are met.
+
 | Conditions | |
 | ------------- | ------------------ |
 | a) Both aircraft report reaching the cruising level;<br>b) If the following aircraft reaches that level first, apply another form of separation immediately; and<br>c) climb and cruising IAS of the following aircraft is at least **10 kt slower** and not more than **90%** of the climb and cruising IAS or Mach number of the leading aircraft. | <figure markdown>
@@ -157,6 +161,8 @@ Aircraft on reciprocal tracks (or converging/diverging tracks at least 90 degree
 </figure> |
 
 ### 10 min
+Two departing aircraft may be departed with 10 min spacing and be considered separated provided the conditions below are met.
+
 | Conditions | |
 | ------------- | ------------------ |
 | a) Both aircraft report reaching the cruising level;<br>b) If the following aircraft reaches cruising level first, apply another form of separation immediately; and<br>c) climb IAS of the following aircraft is less than or equal to the climb IAS of the leading aircraft. | <figure markdown>
@@ -165,6 +171,8 @@ Aircraft on reciprocal tracks (or converging/diverging tracks at least 90 degree
 
 ## Arrivals
 ### 10nm
+Two arriving aircraft may be processed with 10nm spacing and be considered separated provided the conditions below are met.
+
 | Conditions | |
 | ------------- | ------------------ |
 | a) Both aircraft are **inbound**, and the leading aircraft is within **20nm** of a controlled aerodrome; and<br>b) The aircraft are assigned vertically separated levels. | <figure markdown>
