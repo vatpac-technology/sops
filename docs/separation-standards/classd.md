@@ -174,12 +174,20 @@ Aircraft on reciprocal tracks (or converging/diverging tracks at least 90 degree
 ### Visually Acquired Aircraft
 Two aircraft may be considered to be separated if the second aircraft is beyond the view of the controller (i.e. greater than 10nm from the aerodrome), provided:
 
-- the first aircraft has been sighted by the tower controller, and
+- the first aircraft has been sighted by the tower controller within 10nm, and
 - a landing/missed approach can be effected clear of conflict
 
 In practice, this allows controllers to reduce the spacing between successive arrivals via an instrument approach provided the weather conditions will allow the controller to visually acquire each aircraft within 10nm of the aerodrome and before the following aircraft commences the approach.
 
-TODO: Create diagram
+<figure markdown>
+![Visually Acquired Aircraft (Prior to 10nm)](img/visuallyacquired1.png){ width="700" }
+  <figcaption>Visually Acquired Aircraft (Prior to 10nm)</figcaption>
+</figure>
+
+<figure markdown>
+![Visually Acquired Aircraft (After 10nm)](img/visuallyacquired2.png){ width="700" }
+  <figcaption>Visually Acquired Aircraft (After 10nm)</figcaption>
+</figure>
 
 ## Vertical
 ### 1000ft
