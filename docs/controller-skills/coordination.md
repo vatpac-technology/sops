@@ -88,7 +88,7 @@ This is most useful when controllers are coordinating to multiple lateral positi
 A controller can either offer to assume responsibility for onwards coordination, or be given the responsibility by another controller.
 
 !!! tip
-    If another controller is offering to perform *onwards coordination* on your behalf, you're not obliged to accept. If you identify that you have other requirements, or would prefer to perform the coordination yourself, decline the offer: *"I will coordination with..."*
+    If another controller is offering to perform *onwards coordination* on your behalf, you're not obliged to accept. If you identify that you have other requirements, or would prefer to perform the coordination yourself, decline the offer: *"I will coordinate with..."*
 
 ## Types of Coordination
 As a general rule, some form of coordination is required prior to **every** handoff. In the majority of cases, this will be [voiceless](#voiceless) coordination. Local procedures dictate the coordination requirements between each position.
