@@ -60,7 +60,9 @@ Although surveillance standards cannot be used for separation at Class D Towers,
 
 ## Lateral
 ### Lat Sep Table
-Lateral Separation works off the basis off establishing a *Lateral Separation Point* (Lat Sep point). That is, when given an angle that 2 tracks intersect at, a distance at which lateral separation is considered to exist procedurally. These figures are detailed in the table below:
+When two aircraft are on intersecting tracks, lateral separation is established based on the interception angle and distance between the aircraft.
+
+The calculation of the *lateral separation point* is tabulated below:
 
 | Tracks intersecting at | Lat Sep point |
 | ------------- | ------------------ |
