@@ -583,6 +583,7 @@ Helicopters departing from a hospital in ADC's jurisdiction and intending to ent
 ### Local Knowledge
 - Aircraft can be processed via the adjacent STAR for the parallel runway (e.g. jet aircraft via the AKMIR STAR for RWY 34R), to reduce overall delay where multiple aircraft approach from the same direction *(coordination required)*
 - Aircraft via AKMIR (to the west) and MARLN (to the east) often make large track direction changes prior to entering the TMA. Direct tracking onto the STAR may be offered to reduce track miles
+- Aircraft to YSWS via UNTAV may be assigned the **UNTAV B** STAR in lieue of the **UNTAV A** STAR by **SWA**, for track shortening or separation, when the [R481 COLO restricted area](#r481-colo) is not activated.
 - Aircraft to YSWS may be assigned the RNP X to reduce track miles on some STARs
 - Aircraft to YSWS may be tactically assigned the **GUDOK N** STAR in lieu of the REVKI N STAR by **SWA**, for track shortening or separation.
 
