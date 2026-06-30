@@ -40,21 +40,27 @@ Start approval is required on SMC for all aircraft intending to operate in the c
     **WKM**: "Start approved, WKM"
 
 ### Glider Operations
-Glider operations are regularly conducted in VMC at YSCN, within the CN CTR.
+Glider operations are regularly conducted in VMC at YSCN, within the CN CTR remaining south of the duty runway.
 
-Gliders will use the grass runways adjacent to Runway 10/28 for all operations, with circuits performed on the dead side of the field.
+Gliders will use the grass strips adjacent to Runway 10/28 for all operations, with circuits performed on the dead side of the field.
 
 <figure markdown>
 ![Camden Glider Operations Area](./img/cn_glider_ops.png){ width="700" }
 <figcaption>Camden Glider Operations Area</figcaption>
 </figure>  
 
-The grass runways are outside of the manouevring area, and ATS service to the gliders is limited to traffic information upon receiving an inbound call.
+The grass strips are outside of the manouevring area, and ATS service to the gliders is limited to traffic information upon receiving an inbound call.
 
 !!! phraseology
     **ABC:** "Camden Tower, Glider ABC inbound at THK, `A008`, for glider strip 24"    
-    **CN ADC:** "Glider ABC, Camden Tower, no reported traffic"
+    **CN ADC:** "ABC, Camden Tower, no reported traffic"
+    
+Arriving gliders should also call when joining downwind.
 
+!!! phraseology
+    **ABC:** "Camden Tower, Glider ABC downwind glider strip 24"    
+    **CN ADC:** "ABC"
+    
 !!! tip
     When glider operations are in progress, the [ATIS OPR INFO](#operational-info) field should be updated to advise other aircraft.
 
