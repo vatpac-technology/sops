@@ -290,6 +290,16 @@ IFR aircraft will be cleared for the instrument prior to handoff to BK ADC, unle
 #### ADC (Circuit) Online
 When ADC (Circuit) is online, SY TCU may not be familiar with which controller owns what airspace. Best practice is to receive the coordination no matter what, and if it was meant for the other ADC controller, relay the coordination to them internally.
 
+### MAESTRO
+
+When a departure is bound for YSSY and MAESTRO is in use, **BK SMC** shall advise **SFL** when the aircraft commences taxi. SFL will activate the flight in MAESTRO and advise a landing time.
+
+SFL may waive this requirement during periods of low traffic.
+
+!!! phraseology
+    <span class="hotline">**BK SMC** -> **SFL**</span>: "XKF, taxiing YSSY"  
+    <span class="hotline">**SFL** -> **BK SMC**</span>: "XKF, landing time 45"
+
 ### BK ADC Internal
 BK ADC must heads-up coordinate **all aircraft** transiting from one ADC controller to the other.
 

@@ -219,3 +219,13 @@ TW ADC must heads-up coordinate **all aircraft** transiting from one ADC control
 !!! phraseology
     <span class="hotline">**TW ADC S** -> **TW ADC**</span>: "via GWT, SPP for an overfly"  
     <span class="hotline">**TW ADC** -> **TW ADC S**</span>: "SPP, `A035`"
+
+### MAESTRO
+
+When a departure is bound for YSSY and MAESTRO is in use, **TW SMC** shall advise **SFL** when the aircraft commences taxi. SFL will activate the flight in MAESTRO and advise of any delay that can be absorbed on the ground before departure.
+
+SFL may waive this requirement during periods of low traffic.
+
+!!! phraseology
+    <span class="hotline">**TW SMC** -> **SFL**</span>: "QFA728, taxiing YSSY"  
+    <span class="hotline">**SFL** -> **TW SMC**</span>: "QFA728, landing time 45, 12 minutes delay"

@@ -69,3 +69,13 @@ BLA will heads-up coordinate all arrivals/overfliers to AY ADC
     <span class="hotline">**AY ADC** -> **BLA**</span>: "RXA6783"  
 
 The Standard Assignable level from BLA to AY ADC is `A080`, any other level must be prior coordinated.
+
+### MAESTRO
+
+When a departure is bound for YSSY or YMML and MAESTRO is in use, **AY SMC** shall advise the relevant flow controller when the aircraft commences taxi. The flow controller will activate the flight in MAESTRO and advise of any delay that can be absorbed on the ground before departure.
+
+The flow controller may waive this requirement during periods of low traffic.
+
+!!! phraseology
+    <span class="hotline">**AY SMC** -> **SFL**</span>: "QFA414, taxiing YSSY"  
+    <span class="hotline">**SFL** -> **AY SMC**</span>: "QFA414, landing time 45, 8 minutes delay"
