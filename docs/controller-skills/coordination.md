@@ -56,60 +56,81 @@ In situations where additional changes have been discussed (and as such, both co
     <span class="hotline">**CS ADC** -> **CS TCU**</span>: "Left turn, LKU"
 
 ### Point-to-Point
-Coordination must be done on a **point-to-point** basis, meaning you can only coordinate with the sector which the aircraft is coming from, or going to, no skipping! 
+Coordination must be done on a **point-to-point** basis, meaning you can only coordinate with the sector adjacent to yours which the aircraft is coming from, or going to, no skipping! The exception to the rule is [onwards coordination](#onwards-coordination), where a controller assumes responsibility for coordinating with other stations. 
 
 !!! example
-    You are controlling ELW and you would like to pass an amended route to someone on the ground at YMML. Whilst that may be no issue for ML SMC and ML ADC, it might not work for ML APP. ML APP would be the sector which the aircraft is coming from, so ELW must talk to them, and it is the responsibility of ML APP to work backwards down the line on a point-to-point basis.
+    You are controlling ELW and you would like to suggest an amended route to someone on the ground at YMML. Whilst that may be no issue for ML SMC and ML ADC, it might not work for ML APP. ML APP would be the sector which the aircraft is coming from, so ELW must talk to them, and it is the responsibility of ML APP to work backwards down the line on a point-to-point basis.
 
-Ensure no coordination is ambiguous in its meaning. Not all coordination can be straight out of the phraseology books and the reality is, not everyone controlling the airspace is going to be 100% proficient and by the books. When using "plain english", ensure there is no ambiguity, and the message is fully understood by both parties.
+Ensure no coordination is ambiguous in its meaning. While proper phraseology is strongly encouraged, plain English may be used where there is no ambiguity and the message is fully understood by both parties.
 
 #### Onwards Coordination
-**Onwards coordination** is a practice by which a controller will assume another controller's responsibility for coordination and coordinate on their behalf, reducing the downstream controller's workload.
+*Onwards coordination* is a practice by which a controller will assume another controller's responsibility for coordination and coordinate on their behalf, reducing the downstream controller's workload.
 
 This is most useful when controllers are coordinating to multiple lateral positions, or where the controller "in the middle" of the chain of coordination has [no frequency requirements](#no-frequency-requirements-nfr).
 
 !!! example
-    You are controlling SDS and an aircraft has requested track shortening to a waypoint in WOL airspace. You can see that the requested track shortening would result in the aircraft passing through SAS airspace and exiting the TCU outside the Sydney [voiceless coordination corridors](../../terminal/sydney/#departures).   
+    You are controlling **MAV** and an aircraft departing YMAV via ML to the northwest has requested direct to a waypoint in **MDN**'s airspace. 
+
+    <figure markdown>
+    ![Onwards Coordination Example](img/onwardscoord.png){ width="700" }
+      <figcaption>JST626 wants to track direct to DOTPA, through MDS & MDN's airspace</figcaption>
+    </figure>
 	
-	Ordinarily, SDS would be responsible for coordination with SAS, while SAS is responsible for coordination with WOL. With *onwards coordination*, SDS can coordinate with WOL on SAS's behalf.
+	Ordinarily, you would be responsible for coordination with MDS, while MDS is responsible for coordination with MDN. With *onwards coordination*, you can coordinate with MDN on MDS's behalf.
+
+!!! phraseology 
+    <span class="hotline">**MAV** -> **MDS**</span>: "East of AV, JST626, request direct DOTPA. My onwards with MDN"  
+    <span class="hotline">**MDS** -> **MAV**</span>: "JST626, direct DOTPA, your onwards with MDN." 
+
+    <span class="hotline">**MAV** -> **MDN**</span>: "East of AV, JST626, request direct DOTPA"  
+	<span class="hotline">**MDN** -> **MAV**</span>: "JST626, direct DOTPA"
 
 A controller can either offer to assume responsibility for onwards coordination, or be given the responsibility by another controller.
 
-!!! phraseology 
-    <span class="hotline">**SDS** -> **SAS**</span>: "Overhead BK, ABC, request direct CB. My onwards with WOL"  
-    <span class="hotline">**SAS** -> **SDS**</span>: "ABC, direct CB, your onwards with WOL." 
-
-    <span class="hotline">**SDS** -> **WOL**</span>: "Overhead BK, ABC, request direct CB"  
-	<span class="hotline">**WOL** -> **SDS**</span>: "ABC, direct CB"
-
-
 !!! tip
-    If another controller is offering to perform *onwards coordination* on your behalf, you're not obliged to accept. If you identify that you have other requirements, or would prefer to perform the coordination yourself, decline the offer: *"I will coordination with..."*
+    If another controller is offering to perform *onwards coordination* on your behalf, you're not obliged to accept. If you identify that you have other requirements, or would prefer to perform the coordination yourself, decline the offer: *"I will coordinate with..."*
 
 ## Types of Coordination
+As a general rule, some form of coordination is required prior to **every** handoff. In the majority of cases, this will be [voiceless](#voiceless) coordination. Local procedures dictate the coordination requirements between each position.
+
 ### Voiceless
-Certain routes, areas, levels, airspace, etc, will have voiceless coordination agreements, which is where Heads-Up Coordination is not required. These routes may also have change parameters, where no changes are permitted within a certain distance of the sector boundary without prior coordination.
+Voiceless coordination permits the handoff of an aircraft **without prior voice coordination**, provided certain criteria are met. These rules are specified on each position's SOPs page and generally involve having aircraft track via certain routes and/or levels.
+
+These routes may also have change parameters, where no changes are permitted within a certain distance of the sector boundary without prior coordination. If a change is required to be made inside these threshold distances, or if voiceless coordination is not available for an aircraft's intended flightpath, voice communication must take place.
+
+!!! example
+    <figure markdown>
+    ![Voiceless Coordination Example](img/voicelesscoord.png){ width="600" }
+        <figcaption>Extract from an enroute position's local instructions</figcaption>
+    </figure>
 
 ### Heads-up
-Heads-up Coordination is the act of giving the next sector a "heads-up" about an aircraft about to enter their airspace. The format is as follows:
+Heads-up Coordination is the act of giving the next sector a "heads-up" about an aircraft about to enter their airspace, and should be performed for all handoffs which don't meet the criteria for [voiceless coordination](#voiceless). 
+
+The format is as follows:
 
 !!! note "" 
     <span class="hotline">**Controlling Sector** -> **Receiving Sector**</span>: "(Position), (Callsign)"  
     <span class="hotline">**Receiving Sector** -> **Controlling Sector**</span>: "(Callsign), (Level)"
 
-
 !!! phraseology
     <span class="hotline">**BLA** -> **GUN**</span>: "via CB, VOZ1234"  
-    <span class="hotline">**GUN** -> **BLA**</span>: "VOZ1234, F350"  
+    <span class="hotline">**GUN** -> **BLA**</span>: "VOZ1234, `F350`"  
 
 If the level that will be assigned at transfer of jurisdiction is different from the current CFL, the Controlling Sector will use the phrase "*will be assigned (level)*".
 
 If the Receiving Sector requires a change of level, they'll reply with the amended level.
 
+!!! example
+    <figure markdown>
+    ![Heads-Up Coordination Example](img/headsupcoord.png){ width="700" }
+        <figcaption>GUN amends RXA32's level during heads up coordination</figcaption>
+    </figure>
+
 !!! phraseology
-    <span class="hotline">**SNO** -> **GUN**</span>: "Via CB, VOZ1531"  
-    <span class="hotline">**GUN** -> **SNO**</span>: "VOZ1531, F330 due traffic"  
-    <span class="hotline">**SNO** -> **GUN**</span>: "F330, VOZ1531"
+    <span class="hotline">**WOL** -> **GUN**</span>: "Via CB, RXA32"  
+    <span class="hotline">**GUN** -> **WOL**</span>: "RXA32, `F340` due traffic"  
+    <span class="hotline">**WOL** -> **GUN**</span>: "`F340`, RXA32"
 
 Once this coordination is completed, the aircraft's level and route is **locked in**. Any further changes must be recoordinated. 
 
@@ -125,15 +146,23 @@ Ie: within:
 - **2.5nm** laterally for **ENR**; or  
 - **1.5nm** laterally for **TCU/ADC**
 
-Boundary coordination must be completed so they are aware of the aircraft, and can nominate any restrictions. The format is as follows:
+Boundary coordination must be completed so they are aware of the aircraft, and can [nominate any restrictions](#no-frequency-requirements-nfr). 
+
+The format is as follows:
 
 !!! note "" 
     <span class="hotline">**Controlling Sector** -> **Boundary Sector**</span>: "For Ident, (Position), (Callsign), (Details as required)"  
     <span class="hotline">**Boundary Sector** -> **Controlling Sector**</span>: "(Callsign), (Restriction)"
 
+!!! example
+    <figure markdown>
+    ![Boundary Coordination Example](img/boundarycoord.png){ width="700" }
+        <figcaption>QFA494 is tracking direct BOOGI, within 2.5nm of WOL's boundary</figcaption>
+    </figure>
+
 !!! phraseology
-    <span class="hotline">**GUN** -> **CBE**</span>: "For Ident, overhead CB, QFA12, do you have any restrictions on descent?"  
-    <span class="hotline">**CBE** -> **GUN**</span>: "QFA12, No restrictions on descent"  
+    <span class="hotline">**GUN** -> **WOL**</span>: "For Ident, northeast of CB, QFA494, do you have any restrictions on descent?"  
+    <span class="hotline">**WOL** -> **GUN**</span>: "QFA494, no restrictions on descent"  
 
 The Boundary Sector may omit the restriction and readback the callsign only. This will be taken as the Boundary Sector having **no vertical or lateral restrictions**.
 
@@ -150,13 +179,24 @@ The format is as follows:
     <span class="hotline">**ADC** -> **TCU**</span>: "Next, (Callsign), (Runway)"  
     <span class="hotline">**TCU** -> **ADC**</span>: "(Callsign), (Runway), (Lateral and/or Vertical Instructions)"
 
+!!! example
+    <figure markdown>
+    ![Next Coordination Example](img/nextcoord.png){ width="700" }
+        <figcaption>RXA4376 is taxiing to RWY 23 at YPAD</figcaption>
+    </figure>
+
+    !!! phraseology 
+        <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Next, RXA4376, runway 23"  
+        <span class="hotline">**AD TCU** -> **AD ADC**</span>: "RXA4376, runway 23, right heading 290, unrestricted"  
+        <span class="hotline">**AD ADC** -> **AD TCU**</span>: "Right heading 290, RXA4376"
+
 Aircraft assigned a procedural SID will generally not be issued with lateral instructions. Aircraft assigned a radar SID or visual departure must be provided with an assigned heading or other lateral departure instructions, with examples shown below:
 
 | Instruction | Meaning |
 | ----------- | ------- |
 | Left/right turn | Make a visual left/right turn to establish on the planned outbound track |
-| Left 180 | At the SID turn height, or at a safe altitude (if visual departure), fly heading 180 |
-| Left 180 visual | As above, but with a pilot requirement to maintain visual separation with the ground/water and any obstacles |
+| Left heading 180 | At the SID turn height, or at a safe altitude (if visual departure), fly heading 180 |
+| Left heading 180 visual | As above, but with a pilot requirement to maintain visual separation with the ground/water and any obstacles |
 | Extended runway centreline | Track the extended runway centreline (accounting for drift) |
 
 An amended level may be instructed, or the term **unrestricted** used to indicate that no *additional* vertical restrictions apply. This permits the aircraft to climb to their cleared level (as issued with their airways clearance).
@@ -172,17 +212,10 @@ An amended level may be instructed, or the term **unrestricted** used to indicat
     
     *QFA442 is assigned a procedural SID from YMML with Auto Release cancelled*  
     <span class="hotline">**ML ADC** -> **ML TCU**</span>: "Next, QFA442, runway 16"  
-    <span class="hotline">**ML TCU** -> **ML ADC**</span>: "QFA442, unrestricted"
-    
-When next coordination is being conducted with a procedural ADC, the assigned altitude is required, even if it is the same as the standard assignable level.
-
-!!! phraseology  
-    <span class="hotline">**AS ADC** -> **ASP**</span>: "Next, QFA1956, runway 12"  
-    <span class="hotline">**ASP** -> **AS ADC**</span>: "QFA1956, `A070`"  
-    <span class="hotline">**AS ADC** -> **ASP**</span>: "`A070`, QFA1956"  
+    <span class="hotline">**ML TCU** -> **ML ADC**</span>: "QFA442, unrestricted" 
     
 #### After a go around
-Following a go around, the next departure from that runway **must** be next coordinated between the ADC and TCU controllers, regardless if it would otherwise meet the voiceless coordination criteria.
+Following a go around, the next departure from that runway **must** be next coordinated between the ADC and TCU controllers, regardless if it would otherwise meet the auto release criteria.
 
 ### Airways Clearance
 The local procedures of some aerodromes require ACD to coordinate with the TCU prior to issuing airways clearance to certain aircraft. This coordination allows the TCU controller to assess the current & projected traffic levels, and current position staffing, and determine whether clearance is available.
@@ -194,8 +227,14 @@ The format is as follows:
     <span class="hotline">**TCU** -> **ACD**</span>: "(Callsign), clearance approved"
 
 !!! phraseology
-    <span class="hotline">**SY ACD** -> **SY TCU**</span>: "FD213 requests clearance to Bankstown"  
-    <span class="hotline">**SY TCU** -> **SY ACD**</span>: "FD213, clearance approved"
+    <span class="hotline">**SY ACD** -> **SY TCU**</span>: "LKU, VFR aircraft, requests clearance to Bankstown"  
+    <span class="hotline">**SY TCU** -> **SY ACD**</span>: "LKU, clearance approved"
+
+!!! example
+    <figure markdown>
+    ![Airways Clearance Coordination Example](img/airwaysclearancecoord.png){ width="600" }
+        <figcaption>Extract from an aerodrome position's local instructions</figcaption>
+    </figure>
 
 If a change of level or tracking is required, the TCU controller shall provide this change during this exchange.
 
@@ -203,9 +242,9 @@ If a change of level or tracking is required, the TCU controller shall provide t
 #### Runway Crossings
 When coordinating with Tower, there are three key items that must be used.
 
-- Aircraft Type: A320, B737, B777, C172, etc;
-- Location: Taxiway the aircraft is currently on;
-- Runway: The runway the aircraft will enter, backtrack or cross.
+- **Aircraft Type**: A320, B737, B777, C172, etc;
+- **Location**: Taxiway the aircraft is currently on;
+- **Runway**: The runway the aircraft will enter, backtrack or cross.
 
 The format is as follows:
 
@@ -218,6 +257,13 @@ The format is as follows:
     <span class="hotline">**ADC** -> **SMC**</span>: "Negative. Hold Short."  
     <span class="hotline">**SMC** -> **ADC**</span>: "Hold Short (Runway)." 
 
+!!! tip
+    SMC can expedite the coordination process by applying the [crossing highlight](../client/towerstrips.md#runway-crossings) to an aircraft's strip in OzStrips and placing it in the **Holding Point Bay**.
+
+    This will indicate the need to facilitate a runway crossing to ADC and may prompt them to proactively hotline SMC to approve the crossing when a suitable gap in the sequence exists.
+
+Approved runway crossings should be recorded in [OzStrips](../client/towerstrips.md#runway-crossings-1).
+
 #### Runway Releases
 As an alternative to coordinating individual aircraft crossings, ADC may 'release' a non-active runway to SMC. This reduces the workload of both controllers by allowing SMC to instruct aircraft to cross or otherwise use the non-active runway without coordination.
 
@@ -225,7 +271,7 @@ As an alternative to coordinating individual aircraft crossings, ADC may 'releas
     <span class="coldline">**CB SMC** -> **CB ADC**</span>: "Request Runway 30 release to Ground"  
     <span class="coldline">**CB ADC** -> **CB SMC**</span>: "Runway 30 released to Ground"
 
-Either ADC or SMC should place a **Runway ## Released to SMC** bar into the **Runway Bay**, using the "Add Bar" button in the [Control Bar](../../client/towerstrips/#control-bar).
+Coordinated runway releases should be recorded in [OzStrips](../client/towerstrips.md#runway-crossings-1).
 
 ##### Recalling a Runway
 ADC can recall a runway release immediately. Upon recall, SMC shall acknowledge the recall with a traffic statement.
@@ -239,11 +285,13 @@ ADC can recall a runway release immediately. Upon recall, SMC shall acknowledge 
     <span class="hotline">**AD SMC** -> **AD ADC**</span>: "Runway 30, traffic is a B737 crossing on F."
 
 #### Helicopter Movements in SMC Jurisdiction
-ADC must coordinate with the relevant SMC controller before permitting an helicopter to take off or land on any part of the manouevring area under the jurisdiction of ADC. This ensures SMC will keep the designated are clear from taxiing traffic.
+ADC must coordinate with the relevant SMC controller before permitting an helicopter to take off or land on any part of the manouevring area under the jurisdiction of ADC.
+
+This ensures SMC will keep the designated are clear from taxiing traffic.
 
 !!! phraseology 
-    <span class="hotline">**PH ADC** -> **PH SMC**</span>: "Helicopter ABC inbound for landing on Taxiway C9."  
-    <span class="hotline">**PH SMC** -> **PH ADC**</span>: "ABC."
+    <span class="hotline">**PH ADC** -> **PH SMC**</span>: "Helicopter YOE inbound for landing on Taxiway C9."  
+    <span class="hotline">**PH SMC** -> **PH ADC**</span>: "YOE."
 
 #### Helicopter Air Transit
 A helicopter performing an air transit maneouvre must be coordinated from SMC to ADC.
@@ -258,57 +306,90 @@ Display the "C-Prompt" when all coordination for an aircraft is complete, or voi
 The "C-Prompt" can be displayed by middle clicking the area just above the aircraft's callsign in the label.
 
 <figure markdown>
-![C-Prompt](img/cprompt.png){ width="200" }
+![C-Prompt](img/cprompt.png){ width="380" }
   <figcaption>C-Prompt</figcaption>
 </figure>
 
 Remove the "C-Prompt" once jurisdiction of the aircraft has been handed off, and the new frequency has been correctly read back.
 
 ## No Frequency Requirements (NFR)
-Occasionally, aircraft may clip small parts of a sector's airspace on their planned route. If an aircraft only enters someone's airspace for a small distance, there is usually no need for them to talk to that controller. In this instance, a controller may coordinate an aircraft to have "No Frequency Requirements" with another controller, or vice versa. This shall also be supplemented by the nomination of a restriction, or lack thereof. See below:
+Some aircraft may clip small parts of a sector's airspace on their cleared route. If an aircraft only enters someone's airspace for a small distance, there is usually no need for them to talk to that controller. 
 
-Source: [Annotations](../../client/annotations/)
+In this instance, a controller may coordinate any:
+
+- **Frequency Requirements**: requirement for the pilot to be switched to the second controller's frequency
+- **Restrictions**: limitations which the second controller imposes to maintain separation assurance with aircraft in their sector
 
 | Label Data / Global Ops | Meaning | Note |
 | ---- | ----------- | --- |
-| **NFR** | No Frequency Requirements | |
+| **NFR** | No Frequency Requirements | Additional coordination must be done for any **lateral or level** changes |
+| **NR**  | No Restrictions | **Any and all** lateral and level changes approved |
+| **NRR** | No Restrictions or Requirements | **Any and all** lateral and level changes approved, and No Frequency Requirements |
 | **NRD** | No Restrictions on Descent | Additional coordination must be done for any **lateral** changes |
 | **NRC** | No Restrictions on Climb | Additional coordination must be done for any **lateral** changes |
 | **NVR** | No Vertical Restrictions | Additional coordination must be done for any **lateral** changes |
 | **NLR** | No Lateral Restrictions | Additional coordination must be done for any **level** changes |
-| **C(lvl)** | Cleared level (lvl) | Additional coordination must be done for any **lateral or level** changes |
-| **NR** | No Restrictions | **Any and all** lateral and level changes approved |
-| **NRR** | No Restrictions or Requirements | **Any and all** lateral and level changes approved, and No Frequency Requirements |
 
-*Offering NFR*
+!!! tip
+    See [Annotations](../../client/annotations/) for a complete list of label annotations.
+
+### Offering your Airspace
+As you scan your **Announced Bay** and the airspace surrounding your sector, you may notice aircraft who will only clip a small portion of your airspace.
+
+Provided you do not have any potential conflicts with the aircraft, it is good practice to coordinate with the upline controller to offer NFR. This reduces the number of frequency transfers required by the pilot.
+
+!!! example
+    <figure markdown>
+    ![Offering your own airspace with NFR](img/offeringyourairspace.png){ width="700" }
+    <figcaption>ARL offers NFR to INL, their onwards with MNN</figcaption>
+    </figure>
+
 !!! phraseology
-    *ABC tracking MNG W663 VINOP*  
-    <span class="hotline">**BLA** -> **YWE**</span>: "via MNG, ABC, if you have no restrictions or requirements, [my onwards](#onwards-coordination) with OXL"  
-    <span class="hotline">**YWE** -> **BLA**</span>: "ABC, I have no restrictions or requirements, your onwards with OXL"  
-    BLA will put *"YWE NRR"* in the label data  
-    <span class="hotline">**BLA** -> **OXL**</span>: "via MNG, ABC, YWE has no restrictions or requirements"  
-    <span class="hotline">**OXL** -> **YWE**</span>: "ABC, F190"  
-    BLA will handoff the aircraft directly to OXL
+    *VOZ1392 is tracking direct to YWLM*  
+    <span class="hotline">**ARL** -> **INL**</span>: "West of CFS, VOZ1392, I have no vertical restrictions or frequency requirements, [your onwards](#onwards-coordination) with MNN"  
+    <span class="hotline">**INL** -> **ARL**</span>: "VOZ1392, my onwards with MNN"  
 
-*Initiating NFR*
+    INL will put *"ARL NVR NFR"* in the label data  
+
+    <span class="hotline">**INL** -> **MNN**</span>: "West of CFS, VOZ1392, ARL has no vertical restrictions or frequency requirements"  
+    <span class="hotline">**MNN** -> **INL**</span>: "VOZ1392"  
+
+    INL will handoff the aircraft directly to MNN
+
+### Suggesting Adjacent Airspace
+An aircraft under your jurisdiction may clip another controller's airspace (either to return to your jurisdiction or when transiting to a third controller). 
+
+Controllers should perform [heads-up coordination](#heads-up) and optionally, offer NFR. Where the pilot will transit to a third controller, it is important that [onwards coordination](#onwards-coordination) takes place to that controller.
+
+!!! example
+    <figure markdown>
+    ![Suggesting NFR to adjacent sectors](img/suggestingadjacentairspace.png){ width="700" }
+    <figcaption>MUN offers NFR to ASP</figcaption>
+    </figure>
+
 !!! phraseology
-    *DEF tracking EML-LEMER-RK*  
-    <span class="hotline">**SWY** -> **CVN**</span>: "via LEMER, DEF, I have no vertical restrictions or frequency requirements, [your onwards](#onwards-coordination) with KPL"  
-    <span class="hotline">**CVN** -> **SWY**</span>: "DEF, my onwards with KPL"  
-    CVN will put *"SWY NVR NFR"* in the label data  
-    <span class="hotline">**CVN** -> **KPL**</span>: "via LEMER, DEF, SWY has no vertical restrictions or frequency requirements"  
-    <span class="hotline">**KPL** -> **CVN**</span>: "DEF"  
-    CVN will handoff the aircraft directly to KPL
-
-!!! note
-    It is important to remember that this coordination is still a negotiation. You are free to reject any proposition that doesn't work for you and your traffic picture. And if there is a particular restriction to nominate, it is always best to take the aircraft on frequency.
+    *VOZ1447 is tracking direct to CWR*  
+    <span class="hotline">**MUN** -> **ASP**</span>: "Northeast of MIA, VOZ1447, do you have any restrictions or requirements?"  
+    <span class="hotline">**ASP** -> **MUN**</span>: "VOZ1447, I have no restrictions or requirements"  
+    
+    MUN will put *"ASP NRR"* in the label data
 
 ## Handoffs
-Receiving a handoff means you are permitted to turn an aircraft **45 degrees left or right**, and **climb/descend it to any level** without coordination. Do not handoff an aircraft to another sector if a turn of 45 degrees or a change of level would cause a conflict with any of your own aircraft. Or alternatively, you can nominate a restriction prior to handoff.
+Receiving a handoff means you are permitted to turn an aircraft **45 degrees left or right**, and **climb/descend it to any level** without coordination. Do not handoff an aircraft to another sector if a turn of 45 degrees or a change of level would cause a conflict with any of your own aircraft. Alternatively, you can nominate a restriction prior to handoff.
+
+A [restriction](#no-frequency-requirements-nfr) can be limited to vertical or lateral, or be limited by a single aircraft. In this case, nominate the conflicting aircraft themselves as the restriction. 
+
+!!! example
+    <figure markdown>
+    ![Nominating a Restriction](img/restriction.png){ width="700" }
+    <figcaption>BLA nominates QFA494 as a restriction on QFA501 to GUN</figcaption>
+    </figure>
 
 !!! phraseology
-    <span class="hotline">**YWE** -> **TBD**</span>: "ABC, my restriction is DEF, calls you now"  
-    <span class="hotline">**TBD** -> **YWE**</span>: "ABC, restriction is DEF, calls me now"
+    <span class="hotline">**BLA** -> **GUN**</span>: "QFA501, my restriction is QFA494"  
+    <span class="hotline">**GUN** -> **BLA**</span>: "QFA501, restriction is QFA494"
+
+When an aircraft is nominated as a restriction, both controllers are jointly responsible for maintaining separation assurance. Any flightpath deviations which may impact separation assurance must first be backwards coordinated between the controllers.
 
 Upon receipt of a handoff, once the aircraft is established **half the applicable lateral standard** (2.5nm for ENR, 1.5nm for ADC/TCU) within your airspace, you are free to turn the aircraft as much as you like. If you need to turn them more than 45 degrees earlier than that, simply ask!
 
@@ -341,16 +422,6 @@ If Auto Release is suspended by the TCU controller, respond by advising of any a
     <span class="hotline">**ADC** -> **TCU**</span>: "Cancel Auto Release, QLK108D released"  
     <span class="hotline">**TCU** -> **ADC**</span>: "QLK108D"
 
-#### TCU -> Radar TWR
-Radar TWRs will [Next](#next) coordinate all departures unless permitted by local Auto Release rules. Respond with any lateral departure instructions (if required by SID or departure procedure) and any additional vertical restrictions, or "unrestricted". 
-
-If due to weather, overflying aircraft, runway config changes, etc. Auto Release needs to be cancelled, advise this to the ADC controller.  They will respond with any aircraft who have a takeoff clearance.
-
-!!! phraseology
-    <span class="hotline">**TCU** -> **ADC**</span>: "Cancel Auto Release"  
-    <span class="hotline">**ADC** -> **TCU**</span>: "Cancel Auto Release, QLK108D released"  
-    <span class="hotline">**TCU** -> **ADC**</span>: "QLK108D"
-
 ### TCUs
 #### ENR -> TCU
 **Voiceless** for aircraft landing at main airport (eg YMML in ML TCU), assigned a STAR, and standard assignable level, unless overridden by local procedure.  
@@ -361,7 +432,7 @@ Heads-up coordinate all other aircraft by **20nm** to boundary.
 **Voiceless** for aircraft assigned lower of standard assignable level or RFL, and tracking via a Procedural SID terminus, unless overridden by local procedure.
 
 !!! note
-    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**.
 
 Heads-up coordinate all other aircraft by the boundary.
 
