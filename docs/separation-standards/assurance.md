@@ -48,7 +48,7 @@ System Estimates use an aircraft's flight planned route and planned TAS to calcu
   <figcaption>System Estimates</figcaption>
 </figure>
 
-The System Estimates are useful for assessing **longitudinal conflicts** (same tracks), including aircraft in a sequence for the same runway.
+System Estimates are useful for assessing **longitudinal conflicts** (same tracks), including aircraft in a sequence for the same runway.
 
 ### Closest Approach Tool
 The Closest Approach Tool calculates what **position** and **time** two aircraft will be closest to each other. It uses the two aircraft's flight planned routes and performance data.
@@ -69,7 +69,7 @@ To allow for factors that can affect the tool, such as wind, aircraft speeds, cl
 
 | Closest Approach Distance | Interpretation | Action |
 | ----------- | ----------------- | ----------------- |
-| Less than **8nm** | The aircraft have *potential* to be in lateral conflict. | Apply **another form of separation** (ie, Vertical, or additional lateral),</br>or prove lateral separation using another tool. |
+| Less than **8nm** | The aircraft have *potential* to be in lateral conflict. | Apply **another form of separation** (ie, vertical, or additional lateral),</br>or prove lateral separation using another tool. |
 | Between **8nm** and **15nm** | The aircraft will *most likely not* be in lateral conflict. | If it is quiet, **monitor closely** using a BRL.</br>If it is busy, **apply another form of separation**.  |
 | Greater than **15nm** | The aircraft will *not* be in lateral conflict. | - |
 
@@ -77,7 +77,7 @@ To allow for factors that can affect the tool, such as wind, aircraft speeds, cl
 
 | Closest Approach Distance | Interpretation | Action |
 | ----------- | ----------------- | ----------------- |
-| Less than **15nm** | The aircraft have *potential* to be in lateral conflict. | Apply **another form of separation** (ie, Vertical, or additional lateral),</br>or prove lateral separation using another tool. |
+| Less than **15nm** | The aircraft have *potential* to be in lateral conflict. | Apply **another form of separation** (ie, vertical, or additional lateral),</br>or prove lateral separation using another tool. |
 | Between **15nm** and **20nm** | The aircraft will *most likely not* be in lateral conflict. | If it is quiet, **monitor closely** using a BRL.</br>If it is busy, apply **another form of separation**. |
 | Greater than **20nm** | The aircraft will *not* be in lateral conflict. | - |
 
@@ -103,7 +103,7 @@ Unless a level has been "locked in" for an aircraft entering your airspace, for 
 
 - Being inside a change parameter (eg 50nm);
 - Receiving heads-up coordination; or
-- Being A Standard assignable level;
+- Being a standard assignable level;
 
 Their CFL **cannot** be used for separation purposes. Certain aircraft may require additional time to plan restrictions, identify conflicts, etc (For example, as **BLA**, an aircraft cutting across the YMML departure/arrival path at F230), and this is where a **level check** may be useful. If you want to "lock in" a level for an aircraft coming from an adjacent sector, use the following phraseology:
 
@@ -189,7 +189,5 @@ Further transmissions can be saved in the busy TMA, with the use of *"Descend vi
 
 !!! warning "Important"
     **Only** use SID/STAR Level Restrictions to assure separation with CTA, Terrain, and Conflicts, when you are **very familiar** with the airspace.
-    
-    **VERY FEW SIDs/STARs DO THIS!**
     
     You cannot assume that any given SID/STAR will automatically separate from these things, unless you know exactly **how** and **where** that separation is achieved.
