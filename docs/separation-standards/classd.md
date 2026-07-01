@@ -116,6 +116,38 @@ With each CEP calculated and the conflict area determined, controllers must ensu
 ### Definite Passing
 Aircraft on reciprocal tracks (or converging/diverging tracks at least 90° apart) are laterally separated when there is at least 10nm between them. The distance may be measured with reference to a DME or waypoint.
 
+### Geographic Features
+Two aircraft are considered to be *laterally separated* where both are operating with visual reference to a fixed geographic feature, such as a coastline, river, large highway, etc.
+
+A **1nm** buffer must be applied to one aircraft's tracking.
+
+<figure markdown>
+![Both aircraft tracking visually](img/1nmgeosep.png){ width="600" }
+  <figcaption>Both aircraft operating with visual reference to a common geographic feature</figcaption>
+</figure>
+
+!!! example
+    **Aircraft A** operating **1nm East** of the Pacific Highway  
+    is *laterally separated* from  
+    **Aircraft B** operating *West* of the Pacific Highway.  
+
+    **Aircraft C** operating *North* of the Murray River  
+    **is not** laterally separated from  
+    **Aircraft D** operating *South* of the Murray River.
+
+!!! phraseology
+    *RXA6418 is inbound to YCFS from the south and has reported visual. They are vertically separated from an outbound aircraft who is departing to the south.*  
+    **CFS ADC:** "RXA6418, track to remain 1nm offshore, report established"  
+    **RXA6418:** "Track to remain 1nm offshore, RXA6418"  
+
+    **RXA6418:** "RXA6418, established 1nm offshore"  
+    *RXA6418 is now separated from aircraft operating over land, allowing ADC to issue further descent.*  
+    **CFS ADC:** "RXA6418, descend to A050"  
+    **RXA6418:** "Descend A050, RXA6418"  
+
+    *Once both aircraft have passed and/or another separation standard is available (e.g. vertical separation), the geographic feature standard can be relaxed.*  
+    **CFS ADC:** "RXA6418, cancel the offshore requirement, track for downwind runway 21, cleared visual approach"
+
 ## Departures
 ### 2 min
 Two departing aircraft may be departed with 2 min spacing and be considered separated provided the conditions below are met.
