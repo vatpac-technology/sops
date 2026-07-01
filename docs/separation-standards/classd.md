@@ -78,33 +78,6 @@ In a more visual form, ABC can be considered to be laterally separated from airc
   <figcaption>Lateral Separation Diagram</figcaption>
 </figure>
 
-### 45° Segregated Flight Paths
-#### Straight-in
-- Can be applied between departures and arrivals when the departing aircraft's flight path and the arrival aircraft's flight path are at least 45° clear of each other, and, for a straight-in approach, the arriving aircraft is at least **5nm** from the arrival runway threshold
-
-<figure markdown>
-![Segregated Flight Paths - Straight-in (Prior to 5nm)](img/45segregatedfpsi1.png){ width="700" }
-  <figcaption>Segregated Flight Paths - Straight-in (Prior to 5nm)</figcaption>
-</figure>
-
-<figure markdown>
-![Segregated Flight Paths - Straight-in (After 5nm)](img/45segregatedfpsi2.png){ width="700" }
-  <figcaption>Segregated Flight Paths - Straight-in (After 5nm)</figcaption>
-</figure>
-
-#### Visual, DME/GNSS, Circle to land
-- Can be applied between departures and arrivals when the departing aircraft's flight path and the arrival aircraft's flight path are at least 45° clear of each other, and, for a Visual, DME/GNSS or Circle to land approach, the arriving aircraft is at least **10nm** from the airfield
-
-<figure markdown>
-![Segregated Flight Paths - Visual, DME/GNSS, Circle to land (Prior to 10nm)](img/45segregatedfpcircle1.png){ width="700" }
-  <figcaption>Segregated Flight Paths - Visual, DME/GNSS, Circle to land (Prior to 10nm)</figcaption>
-</figure>
-
-<figure markdown>
-![Segregated Flight Paths - Visual, DME/GNSS, Circle to land (After 10nm)](img/45segregatedfpcircle2.png){ width="700" }
-  <figcaption>Segregated Flight Paths - Visual, DME/GNSS, Circle to land (After 10nm)</figcaption>
-</figure>
-
 ### Conflict Area
 Two aircraft are considered to be in lateral conflict when they are within the relevant *Circular Error of Position* (CEP) distance of each other. The *Conflict Area tool* can help identify the region in which the aircraft lose lateral separation assurance along their cleared routes.
 
@@ -199,9 +172,35 @@ In practice, this allows controllers to reduce the spacing between successive ar
   <figcaption>Visually Acquired Aircraft (After 10nm)</figcaption>
 </figure>
 
+### 45° Segregated Flight Paths
+#### Straight-in
+- Can be applied between departures and arrivals when the departing aircraft's flight path and the arrival aircraft's flight path are at least 45° clear of each other, and, for a straight-in approach, the arriving aircraft is at least **5nm** from the arrival runway threshold
+
+<figure markdown>
+![Segregated Flight Paths - Straight-in (Prior to 5nm)](img/45segregatedfpsi1.png){ width="700" }
+  <figcaption>Segregated Flight Paths - Straight-in (Prior to 5nm)</figcaption>
+</figure>
+
+<figure markdown>
+![Segregated Flight Paths - Straight-in (After 5nm)](img/45segregatedfpsi2.png){ width="700" }
+  <figcaption>Segregated Flight Paths - Straight-in (After 5nm)</figcaption>
+</figure>
+
+#### Visual, DME/GNSS, Circle to land
+- Can be applied between departures and arrivals when the departing aircraft's flight path and the arrival aircraft's flight path are at least 45° clear of each other, and, for a Visual, DME/GNSS or Circle to land approach, the arriving aircraft is at least **10nm** from the airfield
+
+<figure markdown>
+![Segregated Flight Paths - Visual, DME/GNSS, Circle to land (Prior to 10nm)](img/45segregatedfpcircle1.png){ width="700" }
+  <figcaption>Segregated Flight Paths - Visual, DME/GNSS, Circle to land (Prior to 10nm)</figcaption>
+</figure>
+
+<figure markdown>
+![Segregated Flight Paths - Visual, DME/GNSS, Circle to land (After 10nm)](img/45segregatedfpcircle2.png){ width="700" }
+  <figcaption>Segregated Flight Paths - Visual, DME/GNSS, Circle to land (After 10nm)</figcaption>
+</figure>
+
 ## Vertical
-### 1000ft
-- Between any aircraft
+1000ft between all applicable aircraft.
 
 ## See Also
 - [Visual Separation](../visual)  
