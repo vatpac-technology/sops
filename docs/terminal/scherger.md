@@ -56,7 +56,7 @@ This gives the enroute controller sufficient time to assess the request, make ne
 
 ## Local Procedures
 ### Initial and Pitch 
-The [intial points](../../../controller-skills/military/#initial-and-pitch) are aligned with Taxiway A at the following locations.
+The [initial points](../../../controller-skills/military/#initial-and-pitch) are aligned with Taxiway A at the following locations.
 
 | RWY  | Initial Point | Altitude |
 | ---- | ------------- | --------------------------- |
@@ -84,7 +84,7 @@ If the pilot **does not** nominate a gate, or nominates a gate that does not pro
 ### SG MIL CTR
 The **SG MIL CTR** is defined as airspace within 15NM DME YBSG, `SFC-A040`. The SG TMA is unique in that the associated MIL CTR is not necessarily activated by default when **SGA** is online. When the SG MIL CTR is activated the entire area is reclassified as Class C airspace.
 
-The activation status of the SG MIL CTR must be reflected through the [ATIS operational field](../../aerodromes/classc/Scherger/#operational-info).
+The activation status of the SG MIL CTR must be reflected through the [ATIS operational field](../../aerodromes/classc/scherger/#operational-info).
 
 <figure markdown>
 ![CTA differences between SG MIL CTR and TRA Scherger](img/sg_tra-ctr_cta.png){ width="700" }

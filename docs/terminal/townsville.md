@@ -51,7 +51,7 @@ This gives the enroute controller sufficient time to assess the request, make ne
 
 ## Local Procedures
 ### Initial and Pitch
-The [intial points](../../controller-skills/military/#initial-and-pitch) are 5NM from the ARP, displaced 1,000 feet laterally to the dead side of the runway, `A025`.
+The [initial points](../../controller-skills/military/#initial-and-pitch) are 5NM from the ARP, displaced 1,000 feet laterally to the dead side of the runway, `A025`.
 
 Aircraft arriving Runway 19 should be assigned either a **left initial** or **right initial**; a straight initial is not available due to high terrain over Magnetic Island.
 
@@ -91,7 +91,7 @@ If the pilot **does not** nominate a gate, or nominates a gate that does not pro
 #### D764 Townsville 
 The D764 Townsville [danger area](../../controller-skills/sua/#danger-areas), also known as the **Bluewater Training Area**, is a commonly used training area west of YBTL.
 
-Aircraft departing to the training area will be cleared a ['BLUEWATER' clearance](../../aerodromes/classc/Townsville/#bluewater-clearance). This clearance gives aircraft permission depart the TL MIL CTR, and transit to the D764 danger area via the appropriate track while remaining OCTA.
+Aircraft departing to the training area will be cleared a ['BLUEWATER' clearance](../../aerodromes/classc/townsville/#bluewater-clearance). This clearance gives aircraft permission depart the TL MIL CTR, and transit to the D764 danger area via the appropriate track while remaining OCTA.
 
 | Duty RWY | Direction | Tracking | Notes |
 | -------- | --------- | --------------- | ----- | 
@@ -138,12 +138,12 @@ The area is used for a wide array of military training operations, including sup
 Aircraft will generally enter and exit the MOA via the appropriate [military gate](#military-gates).
 
 ##### Affected Civil Operations
-Activation of R738A disrupts aircraft tracking via the CATEY SID. Aircraft intending to depart via CATEY should [instead be cleared](../../aerodromes/classc/Townsville/#catey-departures) via CARMN (to the north) or ANRUB (to the south).
+Activation of R738A disrupts aircraft tracking via the CATEY SID. Aircraft intending to depart via CATEY should [instead be cleared](../../aerodromes/classc/townsville/#catey-departures) via CARMN (to the north) or ANRUB (to the south).
 	
 #### R747 Rattlesnake Island
 The R747 Rattlesnake Island [restricted area](../../controller-skills/sua/#restricted-areas) is defined by a 5nm radius circle with RKI at the centre, `SFC-NOTAM`. The area is predominantly used for ground, amphibious, and helicopter gunnery training.
 
-When activated, the restricted area prevents aircraft from tracking via the [RATTLESNAKE](../../aerodromes/classc/Townsville/#ypam-traffic) coded clearance to YPAM. These aircraft must be given alternate tracking instructions to avoid the SUA.
+When activated, the restricted area prevents aircraft from tracking via the [RATTLESNAKE](../../aerodromes/classc/townsville/#ypam-traffic) coded clearance to YPAM. These aircraft must be given alternate tracking instructions to avoid the SUA.
 
 #### R751 & R752 Townsville (High Range)
 The R751 and R752 Townsville (High Range) [restricted areas](../../controller-skills/sua/#restricted-areas) is located in the south-west of TCU, spanning both TL TCU and KEN(TBP) airspace.
@@ -255,7 +255,7 @@ TL ADC owns the Class C airspace in the TL CTR from `SFC` to `A015`.
 
 All other aircraft require a 'Next' call to TL TCU.
 
-The Standard Assignable level from TL ADC to TL TCU is:
+The standard assignable level from TL ADC to TL TCU is:
 
 | Aircraft | Level |
 | ------ | ------- |

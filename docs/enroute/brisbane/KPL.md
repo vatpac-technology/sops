@@ -28,13 +28,13 @@ KPL is responsible for **SWY** and **CVN** when they are offline.
 
 ### Reclassifications
 === "HM CTR"
-	When **HM ADC** is offline, HM CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by SWY. Alternatively, SWY may provide a [top-down procedural service](../../../aerodromes/procedural/HamiltonIsland/) if they wish (not recommended).
+	When **HM ADC** is offline, HM CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by SWY. Alternatively, SWY may provide a [top-down procedural service](../../../aerodromes/procedural/hamiltonisland/) if they wish (not recommended).
 
 === "MK CTR"
-	Whilst the **MKA** controller is expected to provide a [top-down service](../../../aerodromes/classd/Mackay/) to YBMK when **MK ADC** is offline, this is not expected of a SWY controller when both **MKA** and **MK ADC** are offline. If electing not to provide a top-down service to YBMK, the RK CTR Class D is reclassified to Class G `SFC` to `A007`, and Class E `A007` to `A045`.
+	Whilst the **MKA** controller is expected to provide a [top-down service](../../../aerodromes/classd/mackay/) to YBMK when **MK ADC** is offline, this is not expected of a SWY controller when both **MKA** and **MK ADC** are offline. If electing not to provide a top-down service to YBMK, the RK CTR Class D is reclassified to Class G `SFC` to `A007`, and Class E `A007` to `A045`.
 
 === "RK CTR"
-	Whilst the **RKA** controller is expected to provide a [top-down service](../../../aerodromes/classd/Rockhampton/) to YBRK when **RK ADC** is offline, this is not expected of a KPL controller when both **RKA** and **RK ADC** are offline. If electing not to provide a top-down service to YBRK, the RK CTR Class D is reclassified to Class G `SFC` to `A007`, and Class E `A007` to `A045`.
+	Whilst the **RKA** controller is expected to provide a [top-down service](../../../aerodromes/classd/rockhampton/) to YBRK when **RK ADC** is offline, this is not expected of a KPL controller when both **RKA** and **RK ADC** are offline. If electing not to provide a top-down service to YBRK, the RK CTR Class D is reclassified to Class G `SFC` to `A007`, and Class E `A007` to `A045`.
 
 !!! tip
 	If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
@@ -178,7 +178,7 @@ Refer to [Reclassifications](#reclassifications) for operations when HM ADC is o
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from HM ADC to SWY for all aircraft **entering SWY CTA**.
 
-The Standard Assignable level from **HM ADC** to **SWY** is:
+The standard assignable level from **HM ADC** to **SWY** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -191,7 +191,7 @@ YBHM arrivals and overfliers shall be heads-up coordinated to **HM ADC** from SW
     <span class="hotline">**SWY** -> **HM ADC**</span>: "Via OPOSI for RNP-U, JST848”  
     <span class="hotline">**HM ADC** -> **SWY**</span>: "JST848, A060"  
 
-The Standard Assignable level from SWY to HM ADC is `A060`, any other level must be prior coordinated.
+The standard assignable level from SWY to HM ADC is `A060`, any other level must be prior coordinated.
 
 ### TSN(HWE/FLD) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.

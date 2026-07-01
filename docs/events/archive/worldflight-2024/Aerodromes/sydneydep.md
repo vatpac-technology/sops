@@ -64,7 +64,7 @@ YSSY will have a non-standard second ACD Controller.
 **SY-C_DEL** will be responsible for:
 
 - Checking [Flight Plan compliance](#flight-plan-compliance)
-- Entering Flight Data (Setting [Runway](#runway-selection), [SID](#sid-selection) and [CFL](../../../../../aerodromes/classc/Sydney/#auto-release))
+- Entering Flight Data (Setting [Runway](#runway-selection), [SID](#sid-selection) and [CFL](../../../../../aerodromes/classc/sydney/#auto-release))
 - Sending [PDCs](#pdcs)
 
 SY-C_DEL has *no frequency*, and will not talk to aircraft by voice.
@@ -100,7 +100,7 @@ PDCs will be in use by default, to avoid frequency congestion. ACD shall send a 
     OzStrips displays strips in the Preactive bay ordered by connection time. Aircraft who connected first are shown down the bottom of the bay.
 
 ## Coordinator
-Coordinator operations shall be conducted in accordance with the Sydney Aerodrome [Coordinator](../../../../../aerodromes/classc/Sydney/#sydney-coordinator) procedures, using the OzStrips plugin.
+Coordinator operations shall be conducted in accordance with the Sydney Aerodrome [Coordinator](../../../../../aerodromes/classc/sydney/#sydney-coordinator) procedures, using the OzStrips plugin.
 
 !!! warning "Important"
     Official WorldFlight teams should be afforded priority when requesting pushback or taxi (if no pushback required), and placed ahead of other non-official aircraft.
@@ -198,7 +198,7 @@ The ATIS OPR INFO shall include:
 ## Coordination
 ### SY TCU
 #### Auto Release
-Standard as per [YSSY Local Instructions](../../../../../aerodromes/classc/Sydney/#auto-release), with the exception of auto-release being available for the following:
+Standard as per [YSSY Local Instructions](../../../../../aerodromes/classc/sydney/#auto-release), with the exception of auto-release being available for the following:
 
 - 16L/34R Departure SID: **SY3** RADAR
 - 16L/34R Standard Assignable Departure Heading: **H120**

@@ -33,7 +33,7 @@
 	If HUO chooses to operate top down to either aerodrome, they must administer all relevant airspace within the appropriate TMA, including the class D CTR.
 
 	!!! warning "Important"
-		Ensure you are familiar with the aerodrome procedures for [Launceston](../../../aerodromes/classd/Launceston/) and [Hobart](../../../aerodromes/classd/Hobart/) before extending top down, and are aware of the limited surveillence coverage available in the lower levels of the TMA.
+		Ensure you are familiar with the aerodrome procedures for [Launceston](../../../aerodromes/classd/launceston/) and [Hobart](../../../aerodromes/classd/hobart/) before extending top down, and are aware of the limited surveillence coverage available in the lower levels of the TMA.
 
 	!!! tip
 		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
@@ -143,7 +143,7 @@ There are volumes of [SUA](../../../controller-skills/sua) within HUO airspace, 
 ES TCU must [give heads up coordination](../../../terminal/eastsale/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
 
 !!! phraseology
-    <span class="hotline">**ESA** -> **HUO**</span>: "On the groud YMES, HRTG11, requests activation of M301B `F210-F450`, from 0300 until 0500. [My onwards](../../controller-skills/coordination/#onwards-coordination) with BLA”  
+    <span class="hotline">**ESA** -> **HUO**</span>: "On the groud YMES, HRTG11, requests activation of M301B `F210-F450`, from 0300 until 0500. [My onwards](../../../controller-skills/coordination/#onwards-coordination) with BLA”  
     <span class="hotline">**HUO** -> **ESA**</span>: "HRTG11, expect activation of R225D `A095-F600` at 0300 until 0500, your onwards with BLA."   
     <span class="hotline">**ESA** -> **HUO**</span>: "HRTG11."   
     

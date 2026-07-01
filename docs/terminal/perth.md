@@ -49,7 +49,7 @@ The divisions of the airspace between **PHA**, and **PHD** change based on the R
 	</figure>
 	
 #### Perth Radar (PHR)
-PHR is responsible for the provision of FIS in Class G airspace within the PH TMA. The role can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordination requirements](#between-phr-and-tcu) exist between PHR and other TCU positions.  
+PHR is responsible for the provision of FIS in Class G airspace, as well as Class E services above F125 in the south of the PH TMA The role can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordination requirements](#between-phr-and-tcu) exist between PHR and other TCU positions.  
 
 !!! example
     During a busy event, PHA is experiencing a high workload and wishes to delegate the PHR role to another controller who isn't as busy. PHD has a low workload and elects to perform the role.
@@ -58,7 +58,7 @@ PHR is responsible for the provision of FIS in Class G airspace within the PH TM
 When **PEA TCU** is online, they assume responsibility for the airspace in R155A and R155B from `SFC` to `F160`.
 
 <figure markdown>
-![PE TCU Restricted Areas](img/pe_restricted_areas.png){ width="700" }
+![PE TCU Restricted Areas](img/pe_sua.png){ width="700" }
   <figcaption>PE TCU Restricted Areas</figcaption>
 </figure>
 
@@ -247,7 +247,7 @@ All other aircraft coming from HYD(All) CTA will be **Heads-up** coordinated to 
 
 All other aircraft require a 'Next' call to PH TCU.
 
-The Standard Assignable level from PH ADC to PH TCU is:
+The standard assignable level from PH ADC to PH TCU is:
 
 | Aircraft | Level |
 | -------- | ----- |
@@ -295,7 +295,7 @@ When the aircraft is ready for departure, JT ADC will coordinate with the releva
     <span class="hotline">**PH TCU** -> **JT ADC**</span>: "FD420, Unrestricted"  
     <span class="hotline">**JT ADC** -> **PH TCU**</span>: "FD420"  
 
-The Standard Assignable level from JT ADC to PH TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
+The standard assignable level from JT ADC to PH TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
 
 #### Arrivals/Overfliers
 PH TCU will heads-up coordinate arrivals/overfliers from Class C to JT ADC prior to **5 mins** from the boundary.  

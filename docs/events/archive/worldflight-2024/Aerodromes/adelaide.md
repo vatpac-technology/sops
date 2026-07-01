@@ -247,7 +247,7 @@ When 23 is in use for Arrivals, The ATIS OPR INFO shall include:
 ## Coordination
 ### AD TCU
 #### Auto Release
-Standard as per [YPAD Local Instructions](../../../../../../aerodromes/classc/Adelaide/#auto-release), with the exception of auto-release being available for **12/30 Departures** assigned the following *Standard Assignable Departure Headings*:
+Standard as per [YPAD Local Instructions](../../../../../../aerodromes/classc/adelaide/#auto-release), with the exception of auto-release being available for **12/30 Departures** assigned the following *Standard Assignable Departure Headings*:
 
 | Runway Mode | Runway 12/30 Assigned Heading |
 | ---------- | --- |

@@ -69,7 +69,7 @@ YSSY will have a non-standard second ACD Controller.
 
 - Checking [Route Restrictions compliance](#route-restrictions)
 - Checking [Flight Plan compliance](#flight-plan-compliance)
-- Entering Flight Data (Setting [Runway](#runway-selection), [SID](#sid-selection) and [CFL](../../../../../aerodromes/classc/Sydney/#auto-release))
+- Entering Flight Data (Setting [Runway](#runway-selection), [SID](#sid-selection) and [CFL](../../../../../aerodromes/classc/sydney/#auto-release))
 - Entering [Assigned Heading](#sid-selection) to OzStrips [Departure Heading field](../../../../client/towerstrips.md#strips)
 - Sending [PDCs](#pdcs)
 
@@ -120,7 +120,7 @@ The [PDC Indicator](../../../../client/towerstrips.md#strips) will be displayed 
     OzStrips displays strips in the Preactive bay ordered by connection time. Aircraft who connected first are shown down the bottom of the bay.
 
 ## Coordinator
-Coordinator operations shall be conducted in accordance with the Sydney Aerodrome [Coordinator](../../../../../aerodromes/classc/Sydney/#sydney-coordinator) procedures, using the OzStrips plugin.
+Coordinator operations shall be conducted in accordance with the Sydney Aerodrome [Coordinator](../../../../../aerodromes/classc/sydney/#sydney-coordinator) procedures, using the OzStrips plugin.
 
 !!! warning "Important"
     Official WorldFlight teams should be afforded priority when requesting pushback or taxi (if no pushback required), and placed ahead of other non-official aircraft.
@@ -243,7 +243,7 @@ In addition to all normal OPR INFO entries, the OPR INFO shall include:
 ## Coordination
 ### SY TCU
 #### Auto Release
-Standard as per [YSSY Local Instructions](../../../../../aerodromes/classc/Sydney/#auto-release), with the exception of auto-release being available for aircraft assigned the SY3 SID with the [Standard Assignable Heading](#sy3-assigned-heading)
+Standard as per [YSSY Local Instructions](../../../../../aerodromes/classc/sydney/#auto-release), with the exception of auto-release being available for aircraft assigned the SY3 SID with the [Standard Assignable Heading](#sy3-assigned-heading)
 
 #### Departures Controller
 Departures Controller will be as per the following table:

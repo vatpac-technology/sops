@@ -194,7 +194,7 @@ All other aircraft require a 'Next' call to HBA.
 !!! note
     All departures from YCBG who will enter the HBA CTA will be Next coordinated by ADC.
 
-The Standard Assignable level from **HB ADC** to **HBA** is:  
+The standard assignable level from **HB ADC** to **HBA** is:  
 
 | Flight Rules | Level |
 | ----- | ----- |
@@ -232,7 +232,7 @@ LT ADC owns the Class D airspace in the LT CTR `SFC` to `A015`. LTA owns the Cla
 
 All other aircraft require a 'Next' call to LTA. 
 
-The Standard Assignable level from **LT ADC** to **LTA** is:  
+The standard assignable level from **LT ADC** to **LTA** is:  
 
 | Flight Rules | Level |
 | ------- | ------ |

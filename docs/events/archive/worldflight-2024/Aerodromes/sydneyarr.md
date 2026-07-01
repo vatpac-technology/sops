@@ -63,4 +63,4 @@ While runway crossings will be minimised, should a crossing be required, instruc
 If any aircraft need to depart during the arrival window, ensure that maximum efficiency is achieved by instructing them to line up as soon as the landing aircraft has cleared the threshold. Avoid go arounds at all costs, and if necessary, delay the departing aircraft where a gap between two arrivals is too tight.
 
 ## Coordination
-Standard as per [YSSY Local Instructions](../../../../../aerodromes/classc/Sydney/#auto-release).
+Standard as per [YSSY Local Instructions](../../../../../aerodromes/classc/sydney/#auto-release).

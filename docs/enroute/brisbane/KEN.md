@@ -28,7 +28,7 @@ BAR is responsible for the [CS TCU](../../../terminal/cairns) when **CS TCU** is
 
 ### Reclassifications
 === "TL TCU"
-	When **TL TCU** is offline, TL CTR (Class C `SFC` to `A085`) reverts to Class G, and is administered by TBP. Alternatively, TBP may provide a [top-down approach service](../../../aerodromes/classc/Townsville) if they wish.
+	When **TL TCU** is offline, TL CTR (Class C `SFC` to `A085`) reverts to Class G, and is administered by TBP. Alternatively, TBP may provide a [top-down approach service](../../../aerodromes/classc/townsville) if they wish.
 
 	!!! tip
         If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
@@ -213,7 +213,7 @@ Voiceless for all aircraft:
 
 - With ADES **YBCS**; and  
 - Assigned a STAR; and  
-- Assigned the Standard Assignable level of:  
+- Assigned the standard assignable level of:  
     - Radials 055° clockwise through to 355°: `A070`  
     - Radials 355° clockwise to 055°: `A090`
 

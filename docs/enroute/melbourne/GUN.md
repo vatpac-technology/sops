@@ -68,7 +68,11 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 | Others | Feeder Fix | - |
 
 ### YSRI
-GUN and KAT share responsibility for facilitating operations at YSRI departing to/arriving from the west/southwest.
+#### STAR Assignment
+The first subsector to control an aircraft bound for YSRI is responsible for issuing STAR clearance for aircraft via RUPEM.
+
+#### Sequencing
+Sequencing arrivals into YSRI is a joint responsibility of all the subsectors of GUN. Initial sequencing actions should be performed by GUN or BIK as required, with fine tuning performed by KAT.
 
 ### YSSY
 #### STAR Assignment
@@ -76,14 +80,14 @@ The following subsectors are responsible for issuing STAR clearance.
 
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
-| BIK  | [RIVET^](#rivet-odale-assignment)<br>ODALE | Non-Jet |  |
-| GUN  | RIVET<br>[ODALE^](#rivet-odale-assignment) | Jet | Descent not below `F250` |
-| KAT  | RIVET<br>[ODALE^](#rivet-odale-assignment) | Jet |       |
+| BIK  | [RIVET^](#rivet-akmir-assignment)<br>AKMIR | Non-Jet |  |
+| GUN  | RIVET<br>[AKMIR^](#rivet-akmir-assignment) | Jet | Descent not below `F250` |
+| KAT  | RIVET<br>[AKMIR^](#rivet-akmir-assignment) | Jet |       |
 
 Arrivals from the southwest shall be given initial descent to not below `F250`. **BIK** will issue final descent.
 
-##### RIVET & ODALE Assignment
-By default, Jets should be assigned the **RIVET** STAR, while non-jets should be assigned the **ODALE** STAR.
+##### RIVET & AKMIR Assignment
+By default, Jets should be assigned the **RIVET** STAR, while non-jets should be assigned the **AKMIR** STAR.
 
 However, there are situations where the sequence may be improved by assigning the adjacent STAR (e.g. a non-jet assigned the RIVET STAR). This is most common when assigning the alternate runway to an arrival.   
     
@@ -94,8 +98,8 @@ In this case, coordination should be conducted to ensure that both controllers a
 !!! phraseology
     **GUN:** "JST421, amended tracking and STAR available"  
     **JST421:** "JST421, go ahead"  
-    **GUN:** "JST421, recleared direct AKMIR thence WELSH, ODALE, for the ODALE7 arrival, runway 34R, maintain FL350"  
-    **JST421:** "Recleared direct AKMIR, WELSH, ODALE, for the ODALE7 arrival, runway 34R, maintain FL350, JST421"
+    **GUN:** "JST421, recleared direct MAKKA thence ANNKY, AKMIR, for the AKMIR1 arrival, runway 34R, maintain FL350"  
+    **JST421:** "Recleared direct MAKKA, ANNKY, AKMIR, for the AKMIR1 arrival, runway 34R, maintain FL350, JST421"
 	
 #### Sequencing
 Sequencing arrivals from the west into YSSY is a joint responsibility of GUN and BIK. Initial sequencing actions should be performed by GUN, with fine tuning and any holding required issued by BIK.
@@ -108,7 +112,7 @@ Aircraft from the south/west shall be assigned **runway 16R/34L** during PROPS. 
     <span class="hotline">**GUN** -> **ARL**</span>: "Runway 34R, landing time 22, VOZ421"
 	
 ##### Adjacent Feeder Fixes
-Aircraft assigned the **same runway** inbound via **RIVET** and **ODALE**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
+Aircraft assigned the **same runway** inbound via **RIVET** and **AKMIR**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
 ##### Holding Fixes
 Refer to the vatSys Enroute Holds map for details of published holds on the airways inbound to YSSY. Where delays necessitate holding, aircraft should be instructed to hold at the following positions. The listed time should be subtracted from an aircraft's assigned feeder fix time to determine when they should leave the hold.
@@ -121,7 +125,29 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 !!! tip
     Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector.
 
-<!--### YSWS--->
+### YSWS
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
+
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| KAT  | REVKI | All      |       |
+
+##### Assignment Rules
+YSWS uses different STAR designators to differentiate between different variations of STARs that will be issued, according to the time of day and runway mode in use. Arrivals shall be assigned the STAR in accordance with the table below.
+
+|      | STAR Designator | Condition                     |
+| ---- | --------------- | ----------------------------- |
+| A/B  | Day             | Between 0530-2300 Local       |
+| N    | Night           | Between 2300-0530 Local, when RRO is **not** in use |
+| Q    | RRO             | Between 2300-0530 Local, when RRO is **in use**  |
+
+!!! tip
+    vatSys will assign the **A** STAR by default. Controllers must manually select the N/Q STAR as appropriate.
+
+#### Sequencing
+Sequencing arrivals from the west and south into YSWS is a responsibility of KAT.
+
 ### YWLM
 #### STAR Assignment
 | Subsector | STAR | Type | Notes |
@@ -181,8 +207,16 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 	| YSSY | BOREE | **124.400** (SAN)      |
 	| YSSY | MARLN | **124.400** (SAN)      |
 	| YSSY | MEPIL | **124.400** (SAN)      |
-	| YSSY | ODALE | **128.300** (SAS)      |
+	| YSSY | AKMIR | **128.300** (SAS)      |
 	| YSSY | RIVET | **128.300** (SAS)      |
+    | YSCN | PRAWN | **124.400** (SAN)      |
+    | YSBK | WHALE | **124.400** (SAN)      |
+    | YSRI | RITSU | **135.900** (SRA)      |
+    | YSRI | RUPEM | **118.400** (SWA)      |
+    | YSWS | BIKUS | **124.400** (SAN)      |
+    | YSWS | RIKNI | **124.400** (SAN)      |
+    | YSWS | REVKI | **118.400** (SWA)      |
+    | YSWS | UNTAV | **135.900** (SRA)      |
 
 	!!! tip
 		The quick reference tables above only include scenarios for which there is [voiceless coordination](#sy-tcu). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
@@ -210,15 +244,21 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 #### Airspace
 SY TCU is responsible for the airspace within a 45nm radius of TESAT, `SFC` to `F285`.
 
-Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when **SAN**, **SDN**, **SDS** and/or **SRI** are online.
+Refer to [Sydney TCU Airspace Division](../../../terminal/sydney/#airspace-division) for information on airspace divisions when any child position of **SAS** is online.
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:
 
-- With ADES **YSSY**; and  
-- Assigned a STAR; and  
-- Tracking via **RIVET**, assigned `A100`; or  
-- Tracking via **ODALE**, assigned `A090`
+- With ADES **YSSY**:
+    - Assigned a STAR; and  
+    - Tracking via **RIVET**, assigned `A100`; or  
+    - Tracking via **AKMIR**, assigned `A090`
+- With ADES **YSWS**, or **YSRI**:
+	- Assigned a STAR; and
+    - Assigned `A090`.
+- With ADES **YSBK**, **YSCN**:
+    - Assigned a STAR; and
+    - Assigned `A080`
 
 All other aircraft coming from BIK/KAT CTA must be **Heads-up** Coordinated to SY TCU prior to **20nm** from the boundary.
 

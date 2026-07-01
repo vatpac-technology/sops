@@ -9,6 +9,7 @@
 | ------------------- | ------- | -------------------- | ----------- | -------------- |
 | **Hyden**           | **HYD** | **Melbourne Centre** | **118.200** | **ML-HYD_CTR** |
 | <span class="indented">Cross :material-information-outline:{ title="Non-standard position"}     | SCR | Melbourne Centre | 135.800 | ML-SCR_CTR |
+| <span class="indented">Dally :material-information-outline:{ title="Non-standard position"}     | DAL | Melbourne Centre | 124.800 | ML-DAL_CTR |
 | <span class="indented">Geraldton :material-information-outline:{ title="Non-standard position"} | GEL | Melbourne Centre | 134.200 | ML-GEL_CTR |
 | <span class="indented">Grove :material-information-outline:{ title="Non-standard position"}     | GVE | Melbourne Centre | 133.800 | ML-GVE_CTR |
 | <span class="indented">Jarrah :material-information-outline:{ title="Non-standard position"}    | JAR | Melbourne Centre | 120.300 | ML-JAR_CTR |
@@ -34,7 +35,7 @@
 
 ## Departure and Arrival Procedures
 ### YGIG
-LEA and PIY share responsibility for facilitating operations in and out of YGIG
+LEA and PIY share responsibility for facilitating operations in and out of YGIG.
 
 ### YPEA
 #### STAR Assignment
@@ -68,7 +69,7 @@ The following subsectors are responsible for issuing STAR clearance.
 
 	| Subsector | STAR | Type | Notes |
 	| ---- | --------- | ---- | ----- |
-	| GVE  | JT **GOLF**, WOORA Trans | Jet | Descent not below `F190` |
+	| DAL  | JT **GOLF**, WOORA Trans | Jet | Descent not below `F190` |
 	| HYD  | JT **GOLF**, KABLI Trans | Jet | Descent not below `F190` |
 	| PIY  | JT **GOLF**, LAVEX Trans<br>JT **WHISKEY**, MALUP Trans<br>JT **GOLF**, WOORA Trans | Non-Jet |      |
 
@@ -91,7 +92,7 @@ The following subsectors are responsible for issuing STAR clearance.
 
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
-| GVE  | JULIM | Jet      | Descent not below `F190` | 
+| DAL  | JULIM | Jet      | Descent not below `F190` | 
 | HYD  | KABLI | Jet      | Descent not below `F190` |
 | JAR  | SOLUS | All      |       |
 | LEA  | IPMOR | All      |       |
@@ -100,7 +101,7 @@ The following subsectors are responsible for issuing STAR clearance.
 Arrivals from the east and north shall be given initial descent to not below `F190`. **PIY** will issue final descent.
 
 ##### Runway Assignment
-When the [Southwest Plan](../../../aerodromes/classc/Perth/#runway-modes) active, arrivals shall be processed to either Runway 21 or 24 based on their feeder fix (subject to any operational requirements).
+When the [Southwest Plan](../../../aerodromes/classc/perth/#runway-modes) active, arrivals shall be processed to either Runway 21 or 24 based on their feeder fix (subject to any operational requirements).
 
 | FF    | Runway |
 | ----- | ------ |
@@ -114,7 +115,7 @@ When the [Southwest Plan](../../../aerodromes/classc/Perth/#runway-modes) active
 #### Sequencing
 Sequencing arrivals into YPPH is a joint responsibility of multiple subsectors:
 
-- GVE and HYD will perform initial sequencing actions for aircraft arriving from the north and east, with final sequencing performed by PIY.
+- DAL and HYD will perform initial sequencing actions for aircraft arriving from the north and east, with final sequencing performed by PIY.
 - LEA is responsible for all sequencing actions for aircraft arriving from the west.
 - JAR is responsible for all sequencing actions for aircraft arriving from the south.
 
@@ -122,7 +123,7 @@ Sequencing arrivals into YPPH is a joint responsibility of multiple subsectors:
 Aircraft assigned the **same runway** inbound via **JULIM** and **SAPKO**, must be considered to be on the **same STAR** for sequencing purposes. That is, they must be at least **2 minutes** apart at their respective Feeder fixes.
 
 ##### Predictable Sequencing Waypoints
-There are ten [Predictable Sequencing](../../../controller-skills/sequencing/#predictable-sequencing) waypoints available for aircraft inbound YPPH via  **Q10**, **Q32**, **Q27**, **Q41** and **Z38**, located south of **Q10** and north of **Q27**. There are also eight waypoints available for aicraft inbound via **Q9**, **Q31**, **Q38**, **Q73** and **Q181** located east of the **Q38**.
+There are ten [Predictable Sequencing](../../../controller-skills/sequencing/#predictable-sequencing) waypoints available for aircraft inbound YPPH via  **Q10**, **Q32**, **Q27**, **Q41** and **Z38**, located south of **Q10** and north of **Q27**. There are also eight waypoints available for aircraft inbound via **Q9**, **Q31**, **Q38**, **Q73** and **Q181** located east of the **Q38**.
 
 The table below contains the estimated time from the initial waypoint to the final waypoint **via the CDO waypoint**. 
 
@@ -262,6 +263,38 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 
 !!! tip
     Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector. 
+    
+## Local Procedures
+### Special Use Airspace
+There are multiple volumes of [SUA](../../../controller-skills/sua/) within HYD airspace, mostly associated with military operations in and out of the PE TMA.
+
+<figure markdown>
+![Notable SUA in HYD Airspace](../img/hyd_sua.png){ width="700" }
+  <figcaption>Notable SUA in HYD Airspace</figcaption>
+</figure>
+
+PE TCU must [give heads up coordination](../../../terminal/pearce/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
+
+!!! phraseology
+    <span class="hotline">**PEA** -> **LEA**</span>: "On the groud YPEA, DUGT19, requests activation of M166 `A020-F160`, from 0300 until 0500.”  
+    <span class="hotline">**LEA** -> **PEA**</span>: "DUGT19, expect activation of M166 `A020-F160` at 0300 until 0500."   
+    <span class="hotline">**PEA** -> **LEA**</span>: "DUGT19."  
+    
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../controller-skills/sua/#ad-hoc-activations).
+
+#### M161 Pearce
+The M161 Pearce [MOA](../../../controller-skills/sua/#military-operating-areas) is south of YPPH, `A060 - NOTAM`, spanning both PH TCU and JAR airspace. Activation of M161 Pearce is a [shared responsibility](../../../controller-skills/sua/#activation-of-sua), and both PH TCU and JAR must coordinate before activation.
+
+#### M170A-B and M171A-B Pearce
+The M170A-B and M171A-B Pearce [MOAs](../../../controller-skills/sua/#military-operating-areas) are located off the coast, `SFC - NOTAM`, spanning PEA, PH TCU and LEA airspace. Activation of M170A-B and M171A-B Pearce is a [shared responsibility](../../../controller-skills/sua/#activation-of-sua), and both PEA, PH TCU and LEA must coordinate before activation.
+
+##### Affected Civil Operations
+Activation of the MOA disrupts traffic on the infrequently used **T12** high altitude airway, which connects Perth to destinations in Europe and Asia. Aircraft travelling on this airway will generally be long-haul international flights with limited fuel reserves to handle extensive delays.
+
+Aircraft travelling on this airway **should not** be rerouted around the activation. Instead, aircraft operating within the SUA should be issued with a restriction to remain north of the 258° PEA TAC radial (within 30 TAC) or the 270° PEA TAC radial (between 30-45 TAC).
+
+#### M181 and M182A-G Stirling
+The M181 and M182A-G Stirling [MOAs](../../../controller-skills/sua/#military-operating-areas) are located off the coast, `SFC - NOTAM`, spanning GEL, JAR, and LEA airspace. Activation of M181 and M182A-G Stirling is a [shared responsibility](../../../controller-skills/sua/#activation-of-sua), and both GEL, JAR, and LEA must coordinate before activation.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -269,8 +302,9 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| GVE, CRS, HYD | PIY | YPPH, YPEA | Non-jets only |
-| GVE, CRS, HYD | PIY | YPJT | |
+| GVE  | DAL    | YPPH, YPJT | Jets only |
+| DAL, CRS, HYD | PIY | YPPH, YPEA | Non-jets only |
+| DAL, CRS, HYD | PIY | YPJT | Non-jets only |
 | GEL | LEA | YPPH | |
 
 ## Terminal Handover Frequencies
@@ -291,7 +325,7 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		| YPPH | KABLI | **123.600** (PHA)      |
 		| YPPH | LAVEX | **123.600** (PHA)      |
 		| YPPH | SAPKO | ABV `A065`: **123.600** (PHA)<br>BLW `A065`: **118.700** (PHD) | 
-		| YPPH | SOLUS | **123.600** (PHA)      | 
+		| YPPH | SOLUS | **135.250** (PHR)      | 
 
 	=== "24A21AD"
 		<figure markdown>
@@ -303,10 +337,10 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		| ---- | ----- | ---------------------- |
 		| YPPH | IPMOR | ABV `A065`: **123.600** (PHA)<br>BLW `A065`: **118.700** (PHD) |
 		| YPPH | JULIM | **123.600** (PHA)      |
-		| YPPH | KABLI | ABV `A065`: **123.600** (PHA)<br>BLW `A065`: **118.700** (PHD) |
-		| YPPH | LAVEX | ABV `A065`: **123.600** (PHA)<br>BLW `A065`: **118.700** (PHD) |
+		| YPPH | KABLI | **123.600** (PHA)      |
+		| YPPH | LAVEX | **123.600** (PHA)      |
 		| YPPH | SAPKO | **123.600** (PHA)      | 
-		| YPPH | SOLUS | **118.700** (PHD)      | 
+		| YPPH | SOLUS | **135.250** (PHR)      | 
 
 ## Coordination
 ### PH TCU
@@ -327,27 +361,35 @@ Voiceless for all aircraft:
 !!! note
     <sup>‡</sup> In contrast to many other TCUs, aircraft are *required* to be tracking via the **SID procedure**. Aircraft simply tracking via any of the terminus waypoints (including aircraft given track shortening) **is not** sufficient to meet the criteria for voiceless coordination.
 
-All other aircraft going to PIY CTA will be **Heads-up** Coordinated by PH TCU.
+All other aircraft going to HYD CTA will be **Heads-up** Coordinated by PH TCU.
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:
 
 - With ADES **YPPH**; and  
-- Assigned a STAR; and  
+- Assigned a STAR ([except the SOLUS STAR](#arrivals-via-solus-star)); and  
 - Assigned `A090`
 
-All other aircraft coming from PIY CTA must be **Heads-up** Coordinated to PH TCU prior to **20nm** from the boundary.
+All other aircraft coming from HYD CTA must be **Heads-up** Coordinated to PH TCU prior to **20nm** from the boundary.
+
+##### Arrivals via SOLUS STAR
+Due to the relatively high level of Class G in the south of the TMA, aircraft arriving via the **SOLUS** STAR should be cleared to **leave and re-enter CTA on descent** to `A090`. Standard [Heads Up](../../../controller-skills/coordination/#heads-up) coordination should be used in this case.
+
+Upon receiving coordination from HYD, PH TCU should provide a traffic statement to HYD.
+
+!!! phraseology
+    <span class="hotline">**JAR** -> **PHR**</span>: "Via SOLUS, RXA2126, will be assigned `A090`."  
+    <span class="hotline">**PHR** -> **JAR**</span>: "RXA2126, no reported IFR traffic."   
+    <span class="hotline">**JAR** -> **PHR**</span>: "Copy, no traffic"  
+    
+    **JAR**: "RXA2126, leave and reenter controlled airspace descending to `A090`, QNH 1013, no reported IFR traffic."  
+    **RXA2126**: "Leave and reenter controlled airspace descending to `A090`, QNH 1013, copy traffic, RXA2126." 
+    **JAR**: "RXA2126, contact Perth Centre on 135.25"  
+
 
 ### PE TCU
 #### Airspace
-PEA is responsible for the restricted airspace within R155A and R155B. This airspace is reclassified to **Class C** when PEA is online. Additional airspace may be released by NOTAM, or coordinated between PEA, PH TCU, and LEA/PIY to facilitate military operations.
-
-!!! phraseology
-    <span class="hotline">**PEA** -> **PH TCU**</span>: "Request release of M166, SFC to F160, for Military Operations. [My onwards](../../../controller-skills/coordination/#onwards-coordination) with LEA"   
-    <span class="hotline">**PH TCU** -> **PEA**</span>: "M166, SFC to F160, released to you. Your onwards with LEA"  
-
-    <span class="hotline">**PEA** -> **LEA**</span>: "Request release of M166, SFC to F160, for Military Operations. [My onwards](../../../controller-skills/coordination/#onwards-coordination) with PH TCU"   
-    <span class="hotline">**LEA** -> **PEA**</span>: "M166, SFC to F160, released to you. Your onwards with PH TCU"  
+PEA is responsible for the restricted airspace within R155A and R155B. This airspace is reclassified to **Class C** when PEA is online.
 
 #### Departures
 All aircraft from PE TCU to HYD require [Heads-up](../../../controller-skills/coordination/#heads-up) coordination prior to the boundary, however, as soon as practical (when is the aircraft becomes airborne) is preferred. 
@@ -363,7 +405,7 @@ All aircraft transiting from HYD to **PE TCU** must be [Heads-up](../../../contr
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
 
 ### HYD Internal
-Changes to CFL are permitted up to the boundary from GVE, CRS and HYD to PIY.
+Changes to CFL are permitted up to the boundary from DAL, CRS and HYD to PIY.
 
 All else is Voiceless, no changes to route or CFL within **20nm** (reduced from 50nm) to boundary.
 

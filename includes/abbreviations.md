@@ -163,7 +163,6 @@
 *[LIG]: Brisbane (Lightning) Centre
 *[ASH]: Brisbane (Ashmore) Centre
 *[TRS]: Brisbane (Territory South) Centre
-*[MDE]: Brisbane (Mudgee) Centre
 *[MLD]: Brisbane (Maitland) Centre
 *[MOR]: Brisbane (Moree) Centre
 *[NSA]: Brisbane (Noosa) Centre
@@ -316,6 +315,7 @@
 *[CLVT]: Calvert
 *[CNB]: Canning Bridge
 *[CNTH]: Choppers North
+*[CONG]: Comerong Island
 *[COTR]: Cotter
 *[COWR]: Cowwarr
 *[CPA]: Campania
@@ -361,6 +361,7 @@
 *[JIBN]: Jibbon Point
 *[KAO]: Kalkallo
 *[KCFF]: Kingscliff
+*[KMA]: Kiama
 *[KRMD]: Kurmond
 *[KSPT]: Kissing Point
 *[LAUD]: Lauderdale
@@ -437,14 +438,17 @@
 *[TOOU]: Toomulla
 *[TVT]: TV Towers
 *[TWRN]: Two R N
+*[UDA]: Ulladulla
 *[UQLD]: University of Queensland
 *[VCBR]: Victoria Bridge
 *[WBH]: Wallabadah
+*[WDN]: Wandandian
 *[WELS]: Welshpool
 *[WEP]: West Pt
 *[WES]: West Gate Bridge
 *[WILE]: Willeroo
 *[WMS]: Williamstown
+*[WOI]: Woollamia
 *[WORC]: Woronora Cemetery
 *[WOW]: White Onion Water Tower
 *[WSFR]: Wisemans Ferry
