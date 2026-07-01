@@ -27,7 +27,7 @@ A Q&A channel has been created on the [VATPAC Discord](https://discord.com/chann
 
 In the real world, Ballina Airport is a very busy aerodrome. It is used daily by regular commercial jet and turboprop passenger traffic, general aviation traffic, sight-seeing helicopters, and flying schools. It is one of very few airports in Australia to operate a local SFIS.
 
-**Since 09 July 2026, YBNA is a controlled Class D airport.**
+**On 09 July 2026 YBNA became a controlled Class D airport.**
 
 #### Aerodrome
 A new **BA CTR** has been established around YBNA, `SFC-A015`. This airspace is the responsibility of a new ADC controller, **BA ADC**.
@@ -54,14 +54,14 @@ Please see the **[Brisbane TCU SOPs](../terminal/brisbane)** for full details ab
 #### Enroute
 **INL** has new responsibilities relating to YBNA, including STAR assignment and sequencing.
 
-Please see the **[Inverell SOPs](../enroute/brisbaneINL)** for full details about INL operations.
+Please see the **[Inverell SOPs](../enroute/brisbane/INL)** for full details about INL operations.
 
 ### Sydney/Nancy-Bird Walton Airport (YSWS)
 **Sydney/Nancy-Bird Walton Airport** is a newly constructed airport in Sydney's west, following a multi-billion dollar project designed to alleviate congestion at Sydney/Kingsford Smith (YSSY).
 
 The airport is intended to operate without curfew restrictions and will be progressively expanded over the next fifty years as the aviation industry expands. 
 
-**Since 09 July 2026, YSWS is a controlled Class C airport.**
+**On 09 July 2026 YSWS became a controlled Class C airport.**
 
 !!! tip
     Most people will be more familiar with the name *Western Sydney Airport*, or the IATA code *WSI*. To reduce ambiguity in radio communications, the airport is exclusively referred to as **Nancy-Bird Walton Airport** (or **Walton** for short) in all phraseology.
