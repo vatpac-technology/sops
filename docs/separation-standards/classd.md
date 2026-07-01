@@ -235,6 +235,7 @@ In practice, this allows controllers to reduce the spacing between successive ar
 1000ft between all applicable aircraft.
 
 ## See Also
+Any non-surveillance separation standard can also be used, however these are generally impractical in the small volume of airspace operated by a procedural tower. However, the following pages may prove useful:
+
 - [Visual Separation](../visual)  
 - [Procedural Separation](../procedural)
-
