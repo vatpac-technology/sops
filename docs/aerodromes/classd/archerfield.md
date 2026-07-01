@@ -20,7 +20,7 @@
 AF ADC is responsible for the Class D airspace in the AF CTR `SFC` to `A015`.
 
 <figure markdown>
-![AF ADC Airspace](img/af_adc.PNG){ width="700" }
+![AF ADC Airspace](img/af_adc.png){ width="700" }
   <figcaption>AF ADC Airspace</figcaption>
 </figure>
 
