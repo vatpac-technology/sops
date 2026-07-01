@@ -43,7 +43,7 @@ When **PEA** is online, the following [restricted areas](../../controller-skills
 #### SUA in Enroute Airspace
 Military operations taking place in SUA in enroute airspace are outside the jurisdiction of PE TCU.
 
-Upon receiving [airways clearance coordination from ACD](#acd-to-pe-tcu) of an aircraft intending to operate in a currently inactive SUA in enroute airspace, PE TCU must give **heads up** coordination to relevant enroute controllers.
+Upon receiving [airways clearance coordination from ACD](#acd-to-tcu) of an aircraft intending to operate in a currently inactive SUA in enroute airspace, PE TCU must give **heads up** coordination to relevant enroute controllers.
 
 This gives the enroute controller sufficient time to assess the request, make necessary adjustments to any aircraft in the area currently, and activate the SUA; or alternately to refuse the activation request before the aircraft is in the air.
 

@@ -262,7 +262,7 @@ The format is as follows:
 
     This will indicate the need to facilitate a runway crossing to ADC and may prompt them to proactively hotline SMC to approve the crossing when a suitable gap in the sequence exists.
 
-Approved runway crossings should be recorded in [OzStrips](../client/towerstrips.md#runway-crossings-1).
+Approved runway crossings should be recorded in [OzStrips](../client/towerstrips.md#runway-crossings_1).
 
 #### Runway Releases
 As an alternative to coordinating individual aircraft crossings, ADC may 'release' a non-active runway to SMC. This reduces the workload of both controllers by allowing SMC to instruct aircraft to cross or otherwise use the non-active runway without coordination.
@@ -271,7 +271,7 @@ As an alternative to coordinating individual aircraft crossings, ADC may 'releas
     <span class="coldline">**CB SMC** -> **CB ADC**</span>: "Request Runway 30 release to Ground"  
     <span class="coldline">**CB ADC** -> **CB SMC**</span>: "Runway 30 released to Ground"
 
-Coordinated runway releases should be recorded in [OzStrips](../client/towerstrips.md#runway-crossings-1).
+Coordinated runway releases should be recorded in [OzStrips](../client/towerstrips.md#runway-crossings_1).
 
 ##### Recalling a Runway
 ADC can recall a runway release immediately. Upon recall, SMC shall acknowledge the recall with a traffic statement.
