@@ -77,7 +77,7 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, **BAC*
 === "YBCG and YBNA"
 	<figure markdown>
 	![Brisbane TCU Structure (Gold Coast/ballina)](img/cgtcu.png){ width="700" }
-	  <figcaption>Brisbane TCU Structure (Gold Coast/ballina)</figcaption>
+	  <figcaption>Brisbane TCU Structure (Gold Coast/Ballina)</figcaption>
 	</figure>
 
 #### Brisbane Radar (SHN)
