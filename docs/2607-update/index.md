@@ -127,6 +127,9 @@ The **Sydney TCU** has expanded west to cover newly reclassified airspace associ
 
 Please see the **[Sydney TCU SOPs](../terminal/sydney)** for full details about TCU operations.
 
+!!! warning "Important"
+    To ensure all controllers are aware of the changes, all existing Sydney TCU Endorsements are being temporarily invalidated, with controllers required to undergo a small amount of training to revalidate their endorsement. **Any controller with an existing Sydney Complex Terminal Airspace Endorsement must complete the [Sydney TCU Differences Package](https://academy.vatpac.org/course/view.php?id=26)** prior to 9 July. Any controller who fails to do so will not be eligible to control a Sydney TCU position until they complete the training.
+
 #### Enroute
 The boundaries of several enroute positions have changed, as is the YBBB/YMMM FIR boundary.
 
