@@ -128,10 +128,10 @@ The **Sydney TCU** is expanding west to cover newly reclassified airspace associ
 - Yet another new TCU controller, **SBA** (*'Bankstown Approach'*), is being introduced as a child position of **SAS**, with jurisdiction over two lower level volumes of airspace used by aircraft arriving and departing YSBK.
 - There are now SIDs and/or STARs for all controlled aerodromes within the Sydney Basin, with a complex network of altitude restrictions. While there is procedural separation between most SIDs/STARs, there are multiple potential sources of conflict that need to be closely monitored.
 
+Please see the **[Upcoming Sydney TCU SOPs](./sydney-tcu)** for full details about TCU operations.
+
 !!! warning "Important"
     To ensure all controllers are aware of the changes, all existing Sydney TCU Endorsements are being temporarily invalidated, with controllers required to undergo a small amount of training to revalidate their endorsement. **Any controller with an existing Sydney Complex Terminal Airspace Endorsement must complete the [Sydney TCU Differences Package](https://academy.vatpac.org/course/view.php?id=26)** prior to 9 July. Any controller who fails to do so will not be eligible to control a Sydney TCU position until they complete the training.
-
-Please see the **[Upcoming Sydney TCU SOPs](./sydney-tcu)** for full details about TCU operations.
 
 #### Enroute
 The boundaries of several enroute positions are changing, as is the YBBB/YMMM FIR boundary.
