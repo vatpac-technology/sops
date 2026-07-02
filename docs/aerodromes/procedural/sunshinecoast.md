@@ -28,7 +28,7 @@ Pilots with old simulators/scenery may not have the newer Runway 13/31 config (r
 
 ## Separation
 ### Local Lateral Separation Points
-Due to the convergence of inbound/outbound air routes approaching SU, the [geographic feature separation standard](../../separation-standards/visual.md#geographic-features) may be useful to efficiently process opposite direction aircraft from the north or south.
+Due to the convergence of inbound/outbound air routes approaching SU, the [geographic feature separation standard](../../separation-standards/classd.md#geographic-features) may be useful to efficiently process opposite direction aircraft from the north or south.
 
 The **coastline** is a good reference for this standard.
 

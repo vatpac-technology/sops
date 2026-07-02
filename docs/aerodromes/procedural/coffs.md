@@ -22,7 +22,7 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 
 ## Separation
 ### Local Lateral Separation Points
-Due to the convergence of inbound/outbound air routes approaching CFS, the [geographic feature separation standard](../../separation-standards/visual.md#geographic-features) may be useful to efficiently process opposite direction aircraft from the north or south.
+Due to the convergence of inbound/outbound air routes approaching CFS, the [geographic feature separation standard](../../separation-standards/classd.md#geographic-features) may be useful to efficiently process opposite direction aircraft from the north or south.
 
 The **coastline** is a good reference for this standard. Due to high terrain close to the coast, it is recommended that the offshore aircraft be positioned at least 1nm from the geographical feature (the coast), allowing the aircraft over land to maintain adequate separation with terrain.
 

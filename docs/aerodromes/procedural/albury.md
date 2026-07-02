@@ -31,7 +31,7 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 
 ## Separation
 ### Local Lateral Separation Points
-Due to the convergence of inbound/outbound air routes approaching AY, the [geographic feature separation standard](../../separation-standards/visual.md#geographic-features) may be useful to efficiently process opposite direction aircraft from the north.
+Due to the convergence of inbound/outbound air routes approaching AY, the [geographic feature separation standard](../../separation-standards/classd.md#geographic-features) may be useful to efficiently process opposite direction aircraft from the north.
 
 The **Hume Highway** is a good reference for this standard.
 

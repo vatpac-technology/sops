@@ -171,7 +171,7 @@ The positions in each table header below are procedurally separated from each ot
 | LLC West of **GWT** | | |
 | LLC North of<br>**DGN - NEM - Tamworth City<br>- MAL via Manilla Rd** | | |
 
-The [geographic feature separation standard](../../separation-standards/visual.md#geographic-features) may also be useful to efficiently process aircraft.
+The [geographic feature separation standard](../../separation-standards/classd.md#geographic-features) may also be useful to efficiently process aircraft.
 
 The **Oxley** and **New England** Highways are good references for this standard.
 
