@@ -47,10 +47,10 @@ When visual approaches are in use, expect light & medium category aircraft (B737
 ADC must assess any potential conflicts with aircraft in the CTR and clear the inbound aircraft for a visual approach when able. Given the limited airspace available, it is crucial that ADC maintains separation assurance between inbound aircraft and those operating in the CTR, to avoid a delay in issuing the visual approach clearance.
 
 !!! phraseology 
-    <span class="hotline">**TCU** -> **ADC**</span>: "Via right base, RXA5418, will be assigned A020 visual"  
-    <span class="hotline">**ADC** -> **TCU**</span>: "A020 visual, RXA5418"  
+    <span class="hotline">**TCU** -> **ADC**</span>: "Via right base, RXA5418, will be assigned `A020` visual"  
+    <span class="hotline">**ADC** -> **TCU**</span>: "`A020` visual, RXA5418"  
 
-    **RXA5418**: "Cairns Tower, RXA5418, descending to A020 visual"  
+    **RXA5418**: "Cairns Tower, RXA5418, descending to `A020` visual"  
     **CS ADC**: "RXA5418, Cairns Tower, cleared visual approach"  
     **RXA5418**: "Cleared visual approach, RXA5418"  
     
@@ -86,8 +86,8 @@ Where a visual separation standard cannot be established, CS ADC should issue a 
 Aircraft planning to enter the CS CTR between *Mt Gorton*, CGF and Upolo Cay at `A005`, must contact CS ADC for airways clearance.
 
 !!! phraseology
-    **NDR**: "Cairns Tower, NDR, Cape Grafton, A005, Inbound, Information Alpha, Request Clearance"  
-    **CS ADC**: "NDR, enter the CTR tracking for a Right Base runway 33, maintain A005."
+    **NDR**: "Cairns Tower, NDR, CGF, `A005`, inbound, Information Alpha, request clearance"  
+    **CS ADC**: "NDR, enter the CTR tracking for a Right Base runway 33, maintain `A005`."
 
 ## Helicopter Operations
 Within the Cairns CTR, there are over a dozen HLS's, including one hospital: Cairns Hospital (YCBH).
@@ -106,9 +106,9 @@ Arriving helicopters should be cleared direct to The Pier, not above `A005` and 
 
 !!! phraseology
     *YZM is a VFR R44 tracking from Upolo Cay to False Cape, inbound to YRAP.*  
-    **YZM**: "Cairns Tower, helicopter YZM, 5nm northeast of False Cape, A005, for The Pier, received Hotel"  
-    **CS ADC**: "YZM, Cairns Tower, cleared direct to The Pier, not above A005, report on the ground"  
-    **YZM**: "Cleared direct The Pier, not above A005, YZM"  
+    **YZM**: "Cairns Tower, helicopter YZM, 5nm northeast of False Cape, `A005`, for The Pier, received Hotel"  
+    **CS ADC**: "YZM, Cairns Tower, cleared direct to The Pier, not above `A005`, report on the ground"  
+    **YZM**: "Cleared direct The Pier, not above `A005`, YZM"  
 
     **YZM**: "YZM on the pier"  
     **CS ADC**: "YZM"
@@ -121,8 +121,8 @@ Departing helicopters should be cleared direct to their nominated tracking point
     **CS ADC**: "VTB, Cairns Tower, short delay for clearance"  
     **VTB**: "VTB"    
     
-    **CS ADC**: "VTB, cleared direct to the control tower, not above A005, report airborne"  
-    **VTB**: "Cleared direct to the control tower, not above A005, VTB" 
+    **CS ADC**: "VTB, cleared direct to the control tower, not above `A005`, report airborne"  
+    **VTB**: "Cleared direct to the control tower, not above `A005`, VTB" 
 
     **VTB**: "VTB, airborne"  
     **CS ADC**: "VTB, track southern pads, report on the ground"  
