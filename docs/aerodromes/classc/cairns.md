@@ -78,7 +78,7 @@ The corridor is less than 2nm from the Runway 15 approach path, and less than 3n
 Where a visual separation standard cannot be established, CS ADC should issue a clearance limit to the aircraft to ensure separation.
 
 !!! phraseology
-    **XYZ**: "Cairns Tower, XYZ, PCVE, A015, for the Western VFR Corridor, Request Clearance"  
+    **XYZ**: "Cairns Tower, XYZ, PCVE, A015, for the Western VFR corridor, request clearance"  
     **CS ADC**: "XYZ, Cairns Tower, cleared Western VFR corridor, not above `A015`. Clearance limit CBLT, remain on or west of the corridor."
 
 ## VFR Operations
