@@ -154,18 +154,6 @@ There is no STAR available to facilitate aircraft arriving from the north west. 
 
 !!! note
     Aircraft tracking via the above routing does **not** constitute a voiceless coordination route between BAN/BDS and BAC. Aircraft should still be heads-up coordinated to BAC prior to **5 minutes** to the boundary, unless coordinated otherwise.
-    
-#### BERNI Arrivals
-YBCG arrivals from the south will transit BAA airspace as they descend. INL will provide these aircraft with their STAR clearance and initial descent according to the [voiceless coordination criteria](#arrivals)
-
-BAA is then responsible for facilitating descent to these aircraft to `A090` (or an otherwise [coordinated level](#between-bac-and-baa)), before handing the aircraft to BAC.
-
-Alternately, BAA may coordinate `A090` and "[no frequency requirements](../../controller-skills/coordination/#no-frequency-requirements-nfr)" with INL, if traffic levels allow. This permits INL to provide the aircraft with continuous descent as they transit the TMA. BAA is responsible for [onwards coordination](../../controller-skills/coordination/#onwards-coordination) to BAC, if an altitude other than `A090` is assigned.
-
-!!! phraseology
-    <span class="hotline">**BAA** -> **INL**</span>: "JST458, `A080` and no frequency requirements. My onwards with BAC."  
-    <span class="hotline">**INL** -> **BAA**</span>: "JST458, `A080`, yours with BAC."  
-    *INL will put BAA C080 NFR in the label data, and hand the aircraft directly off to BAC.*
 
 ## Tower Offline
 ### AF ADC Offline

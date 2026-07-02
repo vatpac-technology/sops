@@ -200,19 +200,7 @@ Arrivals from other sectors should be issued with descent and tracking instructi
 ##### Arrivals via BN
 There is no STAR available to facilitate aircraft arriving from the north west. INL(BUR/NSA) will instruct these aircraft `BN Y177 IDRIL NOPAS GOMOL` prior to handoff to BN TCU, who will then facilitate further descent. Aircraft will then be given further instructions by BAC according to the runway in use.
 
-##### Arrivals via BERNI
-YBCG arrivals from the south will transit BAA airspace as they descend. INL will provide these aircraft with their STAR clearance and initial descent, and then issuing further descent to meet [voiceless coordination criteria](#arrivalsoverfliers).
-
-BAA is then responsible for facilitating descent to these aircraft to `A090` (or an otherwise [coordinated level](../../../terminal/brisbane/#between-bac-and-baa)), before handing the aircraft to BAC.
-
-Alternately, BAA may coordinate `A090` and "[no frequency requirements](../../../controller-skills/coordination/#no-frequency-requirements-nfr)" with INL, if traffic levels allow. This permits IBL to provide the aircraft with continuous descent as they transit the TMA. BAA is responsible for [onwards coordination](../../../controller-skills/coordination/#onwards-coordination) to BAC, if an altitude other than `A090` is assigned.
-
-!!! phraseology
-    <span class="hotline">**BAA** -> **INL**</span>: "JST458, `A080` and no frequency requirements. My onwards with BAC."  
-    <span class="hotline">**INL** -> **BAA**</span>: "JST458, `A080`, yours with BAC."  
-    *INL will put BAA C080 NFR in the label data, and hand the aircraft directly off to BAC.*
-
-###### BERNI Transitions
+##### BERNI Transitions
 When the Evans Head Military Restricted Areas (R638) are activated, aircraft must be assigned the **BERNI** SID with either the **OVREX** (if tracking via Y54) or **VESOK** (if tracking via Y43) transition. These transitions will ensure the aircraft remains clear of the restricted area.
 
 <figure markdown>
