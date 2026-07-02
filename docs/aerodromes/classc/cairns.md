@@ -19,7 +19,7 @@ CS ADC is responsible for the Class C airspace within the CS CTR `SFC` to `A010`
     CS ADC is responsible for issuing visual approach clearances to some aircraft tracking for runway 33 in CTA, as well as initial airways clearances for VFR aircraft entering the CTR from class G. See [Runway 33 Arrival Procedures](#runway-33) for more information.
 
 <figure markdown>
-![CS ADC Airspace](img/csadc.png){ width="700" }
+![CS ADC Airspace](img/cs_adc.png){ width="700" }
   <figcaption>CS ADC Airspace</figcaption>
 </figure>
 
@@ -60,18 +60,26 @@ ADC must assess any potential conflicts with aircraft in the CTR and clear the i
 
 ## Local Procedures
 ### Western VFR Corridor
-The Western VFR Corridor conflicts with the extended runway centreline to the north of the aerodrome. Clearances for aircraft entering the CTR must be clear and unambiguous to eliminate any potential for confusion by the pilot.
+<figure markdown>
+![Western Corridor](img/cs_western_corridor.png){ width="700" }
+  <figcaption>Western Corridor</figcaption>
+</figure>
+
+The Western VFR corridor is available in the western portion of the CTR, allowing aircraft to transit through the CS CTR from north to south (or vice versa). Aircraft travelling via the Western corrdior are required to remain west of the Captain Cook Highway, Cairns Western Arterial Road, Cairns Golf Course, MARQ, KOPP, and EARV.
+
+Aircraft will request clearance from CS ADC when approaching EDT or PCVE.
 
 !!! phraseology
-    **NDR**: "Cairns Tower, NDR, EDT, A015, for the Western VFR Corridor, Request Clearance"  
-    **CS ADC**: "NDR, enter the CTR tracking via the Western VFR corridor at A015. Remain on the corridor until advised."
+    **ABC**: "Cairns Tower, ABC, EDT, A015, for the Western VFR corridor, request clearance"  
+    **CS ADC**: "ABC, Cairns Tower, cleared Western VFR corridor, not above `A015`."
 
-If a clearance limit is associated with the clearance, then it must be reiterated to the pilot to remain “on or west of the VFR Corridor”.
+The corridor is less than 2nm from the Runway 15 approach path, and less than 3nm from the Runway 33 approach path. Aircraft transiting the corridor may be separated from IFR arrivals through application of the appropriate [visual separation standard](../../separation-standards/visual). 
+
+Where a visual separation standard cannot be established, CS ADC should issue a clearance limit to the aircraft to ensure separation.
 
 !!! phraseology
-    **NDR**: "Cairns Tower, NDR, EDT, A015, for the Western VFR Corridor, Request Clearance"  
-    **CS ADC**: "NDR, enter the CTR tracking via the Western VFR Corridor at A015. Clearance limit is ADI, Remain on or west of the Western VFR Corridor at all times."
-
+    **XYZ**: "Cairns Tower, XYZ, PCVE, A015, for the Western VFR Corridor, Request Clearance"  
+    **CS ADC**: "XYZ, Cairns Tower, cleared Western VFR corridor, not above `A015`. Clearance limit CBLT, remain on or west of the corridor."
 
 ## VFR Operations
 ### Inbound

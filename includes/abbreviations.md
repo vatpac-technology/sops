@@ -303,6 +303,7 @@
 *[CARR]: Carrum
 *[CASO]: Casuarina Oval
 *[CAST]: Castle Towers
+*[CBLT]: Cableway Terminal
 *[CBRG]: Centenary Bridge
 *[CBV]: Craigbourne Reservoir
 *[CCL]: Cape Cleveland
@@ -335,6 +336,7 @@
 *[DRP]: Droughty Point
 *[DSN]: Doncaster Shopping Town
 *[DUA]: Duri Gap
+*[EARV]: Earlville Shopping Centre
 *[EDT]: Edmonton
 *[EMPS]: Edmondson Park Station
 *[EN]: Essendon
@@ -362,6 +364,7 @@
 *[KAO]: Kalkallo
 *[KCFF]: Kingscliff
 *[KMA]: Kiama
+*[KOPP]: Koppen Park
 *[KRMD]: Kurmond
 *[KSPT]: Kissing Point
 *[LAUD]: Lauderdale
@@ -374,6 +377,7 @@
 *[LTV]: Latrobe Valley
 *[LUY]: Latrobe University
 *[MAGG]: Mount Annan Gardens Greenhouse
+*[MARQ]: Marino's Quarry
 *[MAL]: Manilla
 *[MBC]: Mount Black
 *[MBHM]: Manly Boat Harbour
@@ -399,6 +403,7 @@
 *[ORKS]: Orchard Rocks
 *[PAL]: Port Adelaide
 *[PCTY]: Perth City
+*[PCVE]: Palm Cove
 *[PENH]: Pennant Hills Strobe
 *[PIC]: Picton
 *[PKR]: Park Ridge Water Tower
