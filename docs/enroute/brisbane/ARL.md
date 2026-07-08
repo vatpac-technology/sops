@@ -13,7 +13,7 @@
 | <span class="indented">Lightning :material-information-outline:{ title="Non-standard position"}| LIG | Brisbane Centre | 133.000 | BN-LIG_CTR |
 | <span class="indented">Gunnedah :material-information-outline:{ title="Non-standard position"} | GAH | Brisbane Centre | 121.150 | BN-GAH_CTR |
 | <span class="indented">Moree :material-information-outline:{ title="Non-standard position"}    | MOR | Brisbane Centre | 134.850 | BN-MOR_CTR |
-| <span class="indented">Rylstone :material-information-outline:{ title="Non-standard position"} | OCN | Brisbane Centre | 119.700 | BN-RYS_CTR |
+| <span class="indented">Rylstone :material-information-outline:{ title="Non-standard position"} | RYS | Brisbane Centre | 119.700 | BN-RYS_CTR |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
