@@ -84,6 +84,12 @@ Operations at Sydney (YSSY) have been adjusted to accommodate the new airport an
 - The Standard Assignable Departure Headings and Departure Frequencies have changed.
 - The R405 restricted area (over Sydney Harbour & the Parramatta River) has been retired, replaced with R407. R407 has similar, but not identical, boundaries.
 
+!!! tip
+    To reduce ambiguity in radio communications, the airport will be exclusively referred to as **Kingsford Smith Airport** in all phraseology.
+    
+    !!! phraseology
+        **ML ACD**: "QFA454, cleared to *Kingsford Smith* via DOSEL, flight planned route."  
+
 Please see the **[Sydney (YSSY) SOPs](../aerodromes/classc/sydney)** for full details about aerodrome operations.
 
 ##### Bankstown Airport (YSBK) Changes

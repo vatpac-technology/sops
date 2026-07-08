@@ -93,9 +93,9 @@ When requesting airways clearance, aircraft will state their aircraft type and g
 The structure of the airways clearance is broadly similar to Australian phraseology, though with some subtle wording changes. Notably, aircraft will be explicitly told that their readback is "correct".
 
 !!! phraseology  
-    **QFA92:** "Tontouta Ground, QFA92, Boeing 737-800, gate P2, request clearance to Sydney, information F on board."  
-    **NWWW SMC:** "QFA92, Tontouta Ground, Cleared to Sydney via flight planned route, POXAK3E departure, runway 11, inital climb 6000 feet, squawk 1234.  
-    **QFA92:** "Cleared to Sydney via flight planned route, POXAK3E departure, runway 11, initial climb 6000 feet, squawk 1234, QFA92."  
+    **QFA92:** "Tontouta Ground, QFA92, Boeing 737-800, gate P2, request clearance to Kingsford Smith, information F on board."  
+    **NWWW SMC:** "QFA92, Tontouta Ground, Cleared to Kingsford Smith via flight planned route, POXAK3E departure, runway 11, inital climb 6000 feet, squawk 1234.  
+    **QFA92:** "Cleared to Kingsford Smith via flight planned route, POXAK3E departure, runway 11, initial climb 6000 feet, squawk 1234, QFA92."  
     **NWWW SMC:** "QFA92, correct, report ready for push and start."
 
 ##### Omnidirectional Departures
