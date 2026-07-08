@@ -33,7 +33,7 @@ The following subsectors are responsible for issuing STAR clearance.
 
 ##### Assignment Rules
 
-Arrivals shall be assigned the STAR in accordance with the tables below, as per the approach expectations on the [ATIS](../../../aerodromes/classc/Adelaide/#approach-types).
+Arrivals shall be assigned the STAR in accordance with the tables below, as per the approach expectations on the [ATIS](../../../aerodromes/classc/adelaide/#approach-types).
 
 - `R(rwy)` = Non-Jet Victor STAR
     - *Example:* `R23` via **ATNAR** = GULFS V STAR, ATNAR Transition, Runway 23

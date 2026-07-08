@@ -1,0 +1,156 @@
+---
+  title: Perth (YPPH)
+---
+
+--8<-- "includes/abbreviations.md"
+
+## Positions
+| Name               | Callsign              | Frequency   | Login ID      |
+| ------------------ | --------------------- | ----------- | ------------- |
+| **Perth ADC**      | **Perth Tower**       | **127.400** | **PH_TWR**    |
+| **Perth SMC West** | **Perth Ground**      | **121.700** | **PH_GND**    |
+| <span class="indented">Perth SMC East :material-information-outline:{ title="Non-standard position"} | Perth Ground | 122.200 | PH-E_GND |
+| **Perth ACD**      | **Perth Delivery**    | **118.550** | **PH_DEL**    |
+| **Perth ATIS**     |                       | **123.800** | **YPPH_ATIS** |
+
+!!! abstract "Non-Standard Positions"
+    :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
+    Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
+
+## Airspace
+PH ADC is not responsible for any airspace by default.
+
+## Manoeuvring Area
+### Manuevering Area Responsibility
+The area of responsibility between SMC West and East is divided by Runway 03/21.  
+
+<figure markdown>
+![YPPH Manoeuvring Area](img/ypphsmc.png){ width="500" }
+  <figcaption>Manoeuvring Area</figcaption>
+</figure>
+
+### Transferring Between SMCs
+When both SMC positions are online and an aircraft is to be passed from one to the other (e.g. an aircraft vacates runway 24 for the eastern terminal), they should be instructed to hold short of runway 03/21 and to contact the next SMC frequency. 
+
+The aircraft's strip shall be placed in the receiving controller's bay prior to frequency transfer. The **receiving controller** is responsible for coordinating the runway crossing with ADC.
+
+!!! phraseology
+    **SMC West**: "RXA2112, taxi Alpha, Alpha Six, hold short runway 21, contact ground 122.2"  
+    **RXA2112**: "Taxi Alpha, Alpha Six, hold short runway 21, contact ground 122.2, RXA2112"
+
+    <span class="hotline">**SMC East** -> **ADC**</span>: "On A6, RXA2112 to cross runway 21"  
+    <span class="hotline">**ADC** -> **SMC East**</span>: "RXA2112 cross runway 21"
+
+    **RXA2112**: "Perth Ground, RXA2112, holding short runway 21"  
+    **SMC East**: "RXA2112, cross runway 21, taxi to bay 206"  
+    **RXA2112**: "Cross runway 21, taxi to bay 206, RXA2112"
+
+The video below demonstrates the SMC transfer process at Sydney. The same principles apply at Perth.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qVK22SAioeY?si=PAdGhkC3Izv7qHjT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="display:block; margin:0 auto;" allowfullscreen></iframe>
+<p><figcaption style="text-align: center;">Demonstration of Transfer from YSSY SMC East to West</figcaption></p>
+
+## Separation
+### Reduced Runway Separation
+When conditions permit, the [2400m separation standard for landing aircraft](../../separation-standards/runway.md#2400m-standard) may be applied to aircraft arriving Runway **03/21**
+
+## Workload Management
+### Pushback Requests on ACD
+During busy periods, SMC and ACD may coordinate to implement the [Pushback Requests on ACD](../../../controller-skills/grounddelaymanagement#pushback-requests-on-acd) procedure to balance the workload across ACD and SMC frequencies.
+
+When implementing the procedure the ATIS [OPR INFO field](#acd-pushback-requests) must be updated to inform pilots the correct frequency on which to request pushback.
+
+## Local Procedures
+### Scenic Flights
+When traffic permits, VFR scenic flights over Perth are cleared via VICTOR 65 route (`CTE-PCTY-HKE`). Coordination with PH TCU is required prior to issuing this clearance, see [ACD to PH TCU](#acd-to-tcu)
+
+## Helicopter Operations
+There are no helipad facilities at YPPH. Helicopters should be issued an airways clearance in accordance with the fixed-wing operation applicable to their flight rules (i.e. SID for IFR helicopters, VFR departure via appropriate VFR route if necessary for VFR helicopters). Helicopters should be cleared to takeoff/land from runways or taxiways (following [appropriate coordination](../../../controller-skills/coordination/#helicopter-movements-in-smc-jurisdiction)), as deemed appropriate by ADC. The point of takeoff/landing must be specified by ADC.
+
+!!! phraseology
+    **PH ADC:** "YOE, taxiway Romeo, cleared to land"  
+
+    **PH ADC:** "HWD, runway 21, cleared for takeoff"
+
+## Runway Modes
+### Preferred Runway Modes
+If winds are too great, single runway operations may be necessary (eg, Runway 21 for Arrivals and Departures). However, pending wind limitations (Crosswind <20kts, Tailwind <5kts), the following runway modes are to be used:
+
+| Mode | Arrivals  | Departures |
+| ---------------- | --------- | ---------- |
+| Southwest Plan (24A/21AD) | 21 & 24 | 21 |
+| Northeast Plan (03AD/06D) | 03 | 03 (via AVNEX, OTLED, OLMAM, SOLUS, and OPEGA), 06 (all other deps)  |
+
+### Circuit Training
+Circuit training traffic shall be issued SSR code and clearance to operate within circuit area not above `A015`. Circuit training is typically conducted on Runway 03/21.
+
+All circuits are to be conducted to the east of Runway 03/21 (right-hand circuit Runway 03).
+
+## SID Selection
+Jet Aircraft planned via **AMANA**, **AVNEX**, **HECTO**, **MEMUP**, **MUBID**, **YNRV**, **OLMAM**, **SOLUS**, or **OPEGA**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
+
+Non-jet Aircraft planned via **LENVU**, **PUMRY**, **OLMAM**, **SOLUS**, **OPEGA**, **OTLED**, or **REPOK**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
+
+Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
+
+!!! phraseology
+    **PH ACD**: "RXA2357, cleared to YESP via amended LENVU thence direct ESP, LENVU1 departure, climb via SID A050, squawk 7172, departure frequency 123.6"
+
+#### Off Mode Departures
+!!! info "Definition"
+    **Off Mode:** Aircraft departing from a runway not prescribed as active for departures on the ATIS. For example, a heavy aircraft planned via **HECTO** that operationally requires Runway 03 for departure during the Northeast Plan Mode.
+
+For aircraft departing Runway 03 **Off Mode** via **AMANA**, **HECTO**, **MEMUP**, or **YNRV**, the **Radar SID** must be assigned.
+
+!!! note
+    Assigning the Radar SID to an off-mode departure does not meet the requirements for [auto release](#auto-release). These aircraft must be 'Next' coordinated with PH TCU.
+
+#### Runway 03 Departures
+When the [R155A and R155B Pearce](../../../terminal/pearce/#restricted-area-activations) restricted areas are *not active*, aircraft departing departing Runway 03 to the north may be assigned either the **Radar SID** or the **EKEPO** SID. This offers aircraft a shorter, more direct route than the **OTLED** and **AVNEX** SIDs.
+
+## ATIS
+### Approach Types
+| Runway Mode                     | Condition                                         | ATIS APCH field |
+| ------------------------------  | ------------------------------------------------- | --------------- |
+| [Southwest Plan](#runway-modes) | All                                               | `EXP ILS APCH`  |
+| [Northeast Plan](#runway-modes) | Cloud base at or below `A032`, **or**<br>By night | `EXP ILS APCH`  |
+
+### Runway Mode Formatting
+| Mode                            | ATIS Runway information |
+| ------------------------------- | ----------------------- |
+| [Southwest Plan](#runway-modes) | `21 AND RWY 24 FOR ARR. RWY 21 FOR DEP.` |
+| [Northeast Plan](#runway-modes) | `03 FOR ARR. RWY 03 FOR DEP VIA OTLED, AVNEX, OLMAM, SOLUS AND OPEGA. RWY 06 FOR ALL OTHER DEP.` |
+
+### Operational Info
+#### ACD Pushback Requests
+When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) procedure, the OPR INFO shall include:  
+`ALL DEPARTURES MUST REQUEST PUSH BACK ON 118.55`
+
+## Coordination
+### Auto Release
+[Next](../../controller-skills/coordination.md#next) coordination is **not** required for aircraft that are:   
+
+- Departing from a runway nominated on the ATIS; and  
+- Assigned the standard assignable level; and  
+- Assigned a **Procedural SID**
+
+All other aircraft require a 'Next' call to PH TCU.
+
+The standard assignable level from PH ADC to PH TCU is:
+
+| Aircraft | Level |
+| -------- | ----- |
+| All | The lower of `A050` and `RFL` |
+
+### Departures Controller
+When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the appropriate enroute frequency or advisory frequency shall be issued.
+
+| Runway | Via | Departure Frequency |
+| ------ | ---- | -------------------- |
+| All | All | 118.7 (PHD) |
+
+### ACD to TCU
+The controller assuming responsibility of ACD shall give [heads-up](../../controller-skills/coordination.md#airways-clearance) coordination to the relevant PH TCU controller prior to the issue of the following clearances:  
+
+- VFR departures into PH TCU CTA
+- Aircraft using a runway not on the ATIS 

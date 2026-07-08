@@ -127,7 +127,7 @@ Aircraft that cannot accept Intersection **P** for departure will be assigned a 
 #### Manoeuvring Area Responsibility
 Aircraft from the Western Apron shall be taxied via **D** and **N**.
 
-As per the [YPPH Aerodrome SOPs](../../../../../../aerodromes/classc/Perth/#manuevering-area-responsibility), ADC is responsible for the taxiways between the thresholds of Runway 21 and 24.
+As per the [YPPH Aerodrome SOPs](../../../../../../aerodromes/classc/perth/#manuevering-area-responsibility), ADC is responsible for the taxiways between the thresholds of Runway 21 and 24.
 
 Instead of SMC coordinating runway crossings with ADC, aircraft taxiing via **N** and **C** shall be instructed to **contact ADC** at Holding Point **D**, where ADC will give them taxi instructions on their frequency. No coordination is required between SMC and ADC for this.
 
@@ -172,7 +172,7 @@ Full Length Departures have **equal priority** to aircraft that are compliant wi
 #### Manoeuvring Area Responsibility
 Aircraft from the Western Apron shall be taxied via **D** and **N**.
 
-As per the [YPPH Aerodrome SOPs](../../../../../../aerodromes/classc/Perth/#manuevering-area-responsibility), ADC is responsible for the taxiways between the thresholds of Runway 21 and 24.
+As per the [YPPH Aerodrome SOPs](../../../../../../aerodromes/classc/perth/#manuevering-area-responsibility), ADC is responsible for the taxiways between the thresholds of Runway 21 and 24.
 
 Instead of SMC coordinating runway crossings with ADC, aircraft taxiing via **N** and **C** shall be instructed to **contact ADC** at Holding Point **D**, where ADC will give them taxi instructions on their frequency. No coordination is required between SMC and ADC for this.
 

@@ -46,7 +46,7 @@ The Primary Communication Method for AYPM west of 150°E is Voice, east of 150°
 Limited surveillance coverage exists throughout the entire sector at lower levels, and beyond 200NM AYPY.  [Procedural Standards](../../../separation-standards/procedural/) must be implemented **prior** to losing surveillance coverage.
 
 ## STAR Clearances
-AYPM is responsible for issuing STAR clearances for all aicraft inbound to AYPY. Aircraft shall be given STAR Clearance after first being advised "STAR CLEARANCE AVAILABLE".
+AYPM is responsible for issuing STAR clearances for all aircraft inbound to AYPY. Aircraft shall be given STAR Clearance after first being advised "STAR CLEARANCE AVAILABLE".
 <!--- ## STAR Clearance Expectation--->
 ## Coordination
 ### AYPY TCU
@@ -92,7 +92,7 @@ AYPM will **heads-up** coordinate all arrivals/overfliers to AYNZA.
     <span class="hotline">**AYPM** -> **AYNZA**</span>: "Via WESTERN GPS Arrival, TOK8409.”  
     <span class="hotline">**AYNZA** -> **AYPM**</span>: "TOK8409."
 	
-The Standard Assignable level from AYPM to AYNZA is `F250`. Any other level must be prior coordinated.
+The standard assignable level from AYPM to AYNZA is `F250`. Any other level must be prior coordinated.
 
 ### Class F Aerodromes
 #### Departures and Arrivals

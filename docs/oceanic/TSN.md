@@ -50,7 +50,7 @@ Limited surveillance coverage exists for aircraft in CTA greater than **250nm** 
 ### Special Use Airspace
 There are multiple volumes of [SUA](../../controller-skills/sua) within TSN airspace, mostly associated with military operations in and out of YAMB and YWLM.
 
-AMA (or INL on their behalf) and WLM TCU (or ARL) will coordinate the activation these SUA **prior** to any activity.
+AMA (or INL on their behalf) and WLM TCU (or MNN) will coordinate the activation these SUA **prior** to any activity.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -58,7 +58,7 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| TSN, HWE | ARL(OCN) | YSSY | |
+| TSN, HWE | MNN(OCN) | YSSY, YSWS, YSBK, YSCN, YSRI | |
 | FLD, HWE | INL(SDY) | YBBN, YBCG, YBSU | |
 | FLD | KEN(All) | YBCS, YBTL | |
 

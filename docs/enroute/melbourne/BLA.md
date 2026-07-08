@@ -23,7 +23,7 @@
 
 ### Reclassifications
 === "AY CTR"
-	When **AY ADC** is offline, AY CTR (Class D and C `SFC` to `A085`) reverts to Class G, and is administered by BLA. Alternatively, BLA may provide a [top-down procedural service](../../../aerodromes/procedural/Albury/) if they wish.
+	When **AY ADC** is offline, AY CTR (Class D and C `SFC` to `A085`) reverts to Class G, and is administered by BLA. Alternatively, BLA may provide a [top-down procedural service](../../../aerodromes/procedural/albury/) if they wish.
 
 	!!! tip
 		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
@@ -166,7 +166,7 @@ There are volumes of [SUA](../../../controller-skills/sua) within BLA airspace, 
 ES TCU must [give heads up coordination](../../../terminal/eastsale/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
 
 !!! phraseology
-    <span class="hotline">**ESA** -> **BLA**</span>: "On the groud YMES, HRTG11, requests activation of M301B `F210-F450`, from 0300 until 0500. [My onwards](../../controller-skills/coordination/#onwards-coordination) with HUO”  
+    <span class="hotline">**ESA** -> **BLA**</span>: "On the groud YMES, HRTG11, requests activation of M301B `F210-F450`, from 0300 until 0500. [My onwards](../../../controller-skills/coordination/#onwards-coordination) with HUO”  
     <span class="hotline">**BLA** -> **ESA**</span>: "HRTG11, expect activation of R225D `A095-F600` at 0300 until 0500, your onwards with HUO."   
     <span class="hotline">**ESA** -> **BLA**</span>: "HRTG11."   
     
@@ -434,7 +434,7 @@ Refer to [Reclassifications](#reclassifications) for operations when AY ADC is o
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from AY ADC to BLA for all aircraft **entering BLA CTA**.
 
-The Standard Assignable level from **AY ADC** to **BLA** is:
+The standard assignable level from **AY ADC** to **BLA** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -447,4 +447,4 @@ YMAY arrivals and overfliers shall be heads-up coordinated to **AY ADC** from BL
     <span class="hotline">**BLA** -> **AY ADC**</span>: "via VEGRU1 arrival, QLK38"  
     <span class="hotline">**AY ADC** -> **BLA**</span>: "QLK38, VEGRU1 arrival" 
 
-The Standard Assignable level from BLA to **AY ADC** is `A080`.
+The standard assignable level from BLA to **AY ADC** is `A080`.

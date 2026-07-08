@@ -91,7 +91,7 @@ RK ADC is responsible for the Class D airspace in the RK CTR `SFC` to `A010`.
 - Assigned a **Procedural** SID; or  
 - Not entering MKA/RKA CTA
 
-The Standard Assignable level from **MK/RK ADC** to **MKA/RKA** is:
+The standard assignable level from **MK/RK ADC** to **MKA/RKA** is:
 
 | Aircraft | Level |
 | ------ | ----- |
@@ -104,7 +104,7 @@ The Standard Assignable level from **MK/RK ADC** to **MKA/RKA** is:
 
 The TCU controller can suspend/resume Auto Release at any time, with the concurrence of **ADC**.
 
-The Standard Assignable level from MK/RK ADC to MKA/RKA is the lower of `A060` or the `RFL`.
+The standard assignable level from MK/RK ADC to MKA/RKA is the lower of `A060` or the `RFL`.
 
 #### SMC to TCU
 The controller assuming responsibility of **SMC** shall give [Heads-up](../controller-skills/coordination.md#heads-up) coordination to TCU controller prior to the issue of the following clearances:  

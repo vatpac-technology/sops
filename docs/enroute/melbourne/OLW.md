@@ -8,9 +8,10 @@
 | Name                | ID      | Callsign             | Frequency   | Login ID       |
 | ------------------- | ------- | -------------------- | ----------- | -------------- |
 | **Onslow**          | **OLW** | **Melbourne Centre** | **134.000** | **ML-OLW_CTR** |
+| <span class="indented">Leonora :material-information-outline:{ title="Non-standard position"}     | LEO | Melbourne Centre | 133.700 | ML-LEO_CTR |
 | <span class="indented">Meekatharra :material-information-outline:{ title="Non-standard position"} | MEK | Melbourne Centre | 132.000 | ML-MEK_CTR |
 | <span class="indented">Menzies :material-information-outline:{ title="Non-standard position"}     | MZI | Melbourne Centre | 134.300 | ML-MZI_CTR |
-| <span class="indented">Mount :material-information-outline:{ title="Non-standard position"}       | MTK | Melbourne Centre | 133.700 | ML-MTK_CTR |
+| <span class="indented">Mount :material-information-outline:{ title="Non-standard position"}       | MTK | Melbourne Centre | 118.950 | ML-MTK_CTR |
 | <span class="indented">Newman :material-information-outline:{ title="Non-standard position"}      | NEW | Melbourne Centre | 125.400 | ML-NEW_CTR |
 | <span class="indented">Paraburdoo :material-information-outline:{ title="Non-standard position"}  | PAR | Melbourne Centre | 133.500 | ML-PAR_CTR |
 | <span class="indented">Port :material-information-outline:{ title="Non-standard position"}        | POT | Melbourne Centre | 127.000 | ML-POT_CTR |
@@ -30,7 +31,7 @@ OLW is responsible for **POT**, **PAR**, **NEW**, **MEK**, **MTK** and **MZI** w
 
 ### Reclassifications
 === "KA CTR"
-	When **KA ADC** is offline, KA CTR (Class D `SFC` to `A055`) reverts to Class G, and is administered by OLW. Alternatively, OLW may provide a [top-down procedural service](../../../aerodromes/procedural/Karratha/) if they wish.
+	When **KA ADC** is offline, KA CTR (Class D `SFC` to `A055`) reverts to Class G, and is administered by OLW. Alternatively, OLW may provide a [top-down procedural service](../../../aerodromes/procedural/karratha/) if they wish.
 
 	!!! tip
 		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
@@ -62,7 +63,7 @@ LM TCU must [give heads up coordination](../../../controller-skills/coordination
     <span class="hotline">**OLW** -> **LMA**</span>: "PHNX11, expect activation of M855A `A100-F280` at 0300 until 0500."   
     <span class="hotline">**LMA** -> **OLW**</span>: "PHNX11."  
 
-Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../sua/#ad-hoc-activations).
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../controller-skills/sua/#ad-hoc-activations).
 
 #### M855-M857 and M865-M868 Learmonth
 The M855-M857 and M865-M868 Learmonth [MOAs](../../../controller-skills/sua/#military-operating-areas) are located over YPLM, `A100-F950`, located in OLW, MEK, and IND(INE) airspace. 
@@ -82,7 +83,7 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
-| MEK, MTK, MZI | HYD/GVE | YPPH, YPEA | Jets only |
+| MEK, MTK, MZI | HYD(DAL) | YPPH, YPEA | Jets only |
 
 ## Coordination
 
@@ -101,7 +102,7 @@ Refer to [Reclassifications](#reclassifications) for operations when KA ADC is o
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from KA ADC to OLW for all aircraft **entering OLW CTA**.
 
-The Standard Assignable level from **KA ADC** to **OLW** is:
+The standard assignable level from **KA ADC** to **OLW** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -114,7 +115,7 @@ YPKA arrivals and overfliers shall be heads-up coordinated to **KA ADC** from OL
     <span class="hotline">**OLW** -> **KA ADC**</span>: "Via MCNAB, QFA1214 for the RNP U RWY 26”  
     <span class="hotline">**KA ADC** -> **OLW**</span>: "QFA1214, RNP U RWY 26"  
 
-The Standard Assignable level from OLW to KA ADC is `A060`, any other level must be prior coordinated.
+The standard assignable level from OLW to KA ADC is `A060`, any other level must be prior coordinated.
 
 ### LM TCU
 #### Airspace
@@ -126,7 +127,7 @@ The Standard assignable level from OLW to LM TCU is `F130`, tracking via LM VOR.
 All other aircraft must be voice coordinated to LM TCU prior to **20nm** from the boundary.
 
 #### Departures
-The Standard Assignable level from LM TCU to OLW is `F240`, and tracking via their planned route.
+The standard assignable level from LM TCU to OLW is `F240`, and tracking via their planned route.
 
 ### IND,INE (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.

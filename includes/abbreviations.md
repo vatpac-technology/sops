@@ -163,7 +163,6 @@
 *[LIG]: Brisbane (Lightning) Centre
 *[ASH]: Brisbane (Ashmore) Centre
 *[TRS]: Brisbane (Territory South) Centre
-*[MDE]: Brisbane (Mudgee) Centre
 *[MLD]: Brisbane (Maitland) Centre
 *[MOR]: Brisbane (Moree) Centre
 *[NSA]: Brisbane (Noosa) Centre
@@ -304,6 +303,7 @@
 *[CARR]: Carrum
 *[CASO]: Casuarina Oval
 *[CAST]: Castle Towers
+*[CBLT]: Cableway Terminal
 *[CBRG]: Centenary Bridge
 *[CBV]: Craigbourne Reservoir
 *[CCL]: Cape Cleveland
@@ -316,6 +316,7 @@
 *[CLVT]: Calvert
 *[CNB]: Canning Bridge
 *[CNTH]: Choppers North
+*[CONG]: Comerong Island
 *[COTR]: Cotter
 *[COWR]: Cowwarr
 *[CPA]: Campania
@@ -335,6 +336,7 @@
 *[DRP]: Droughty Point
 *[DSN]: Doncaster Shopping Town
 *[DUA]: Duri Gap
+*[EARV]: Earlville Shopping Centre
 *[EDT]: Edmonton
 *[EMPS]: Edmondson Park Station
 *[EN]: Essendon
@@ -361,6 +363,8 @@
 *[JIBN]: Jibbon Point
 *[KAO]: Kalkallo
 *[KCFF]: Kingscliff
+*[KMA]: Kiama
+*[KOPP]: Koppen Park
 *[KRMD]: Kurmond
 *[KSPT]: Kissing Point
 *[LAUD]: Lauderdale
@@ -373,6 +377,7 @@
 *[LTV]: Latrobe Valley
 *[LUY]: Latrobe University
 *[MAGG]: Mount Annan Gardens Greenhouse
+*[MARQ]: Marino's Quarry
 *[MAL]: Manilla
 *[MBC]: Mount Black
 *[MBHM]: Manly Boat Harbour
@@ -398,6 +403,7 @@
 *[ORKS]: Orchard Rocks
 *[PAL]: Port Adelaide
 *[PCTY]: Perth City
+*[PCVE]: Palm Cove
 *[PENH]: Pennant Hills Strobe
 *[PIC]: Picton
 *[PKR]: Park Ridge Water Tower
@@ -437,14 +443,17 @@
 *[TOOU]: Toomulla
 *[TVT]: TV Towers
 *[TWRN]: Two R N
+*[UDA]: Ulladulla
 *[UQLD]: University of Queensland
 *[VCBR]: Victoria Bridge
 *[WBH]: Wallabadah
+*[WDN]: Wandandian
 *[WELS]: Welshpool
 *[WEP]: West Pt
 *[WES]: West Gate Bridge
 *[WILE]: Willeroo
 *[WMS]: Williamstown
+*[WOI]: Woollamia
 *[WORC]: Woronora Cemetery
 *[WOW]: White Onion Water Tower
 *[WSFR]: Wisemans Ferry

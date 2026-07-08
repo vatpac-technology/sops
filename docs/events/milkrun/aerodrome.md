@@ -10,14 +10,14 @@ The job of the ACD controller during Milk Run is a fairly straight-forward one, 
 Ensure that all flight plans are correct, nothing like `DOSEL DCT RIVET`, `GPS DIRECT`, or anything else unusual like that, just stick to the pre-approved Jet and Non-Jet routes. This helps reduce workload on Enroute controllers down the line.
 
 ### 16 Off Mode Departures at YMML
-A Reminder that [Off Mode Departures from Runway 16](../../../aerodromes/classc/Melbourne/#off-mode-departures) to the North East and West during the 16A27D Runway Mode must be assigned the **ISPEG** SID, **NOT** the DOSEL SID. The **ISPEG** SID deconflicts concurrent 16 and 27 departures, whereas the DOSEL SID does not.
+A Reminder that [Off Mode Departures from Runway 16](../../../aerodromes/classc/melbourne/#off-mode-departures) to the North East and West during the 16A27D Runway Mode must be assigned the **ISPEG** SID, **NOT** the DOSEL SID. The **ISPEG** SID deconflicts concurrent 16 and 27 departures, whereas the DOSEL SID does not.
 
 ### ACD/Coordinator Pushback Requests
-Specific procedures apply to the use of [Pushback Requests on ACD](../../aerodromes/classc/Melbourne.md#pushback-requests-on-acd) at YMML and [Coordinator](../../aerodromes/classc/Sydney.md#sydney-coordinator) at YSSY. Ensure that all relevant controllers are following these procedures accurately.
+Specific procedures apply to the use of [Pushback Requests on ACD](../../aerodromes/classc/melbourne.md#pushback-requests-on-acd) at YMML and [Coordinator](../../aerodromes/classc/sydney.md#sydney-coordinator) at YSSY. Ensure that all relevant controllers are following these procedures accurately.
 
 ## SMC
 ### Standard Taxi Routes
-[YSSY](../../../aerodromes/classc/Sydney/#standard-taxi-routes) and [YMML](../../../aerodromes/classc/Melbourne/#standard-taxi-routes) both have Published Standard Taxi Routes that can be used to facilitate the orderly flow of traffic on the ground, but this does not preclude the SMC controller from using alternate routing if they deem it neccessary.
+[YSSY](../../../aerodromes/classc/sydney/#standard-taxi-routes) and [YMML](../../../aerodromes/classc/melbourne/#standard-taxi-routes) both have Published Standard Taxi Routes that can be used to facilitate the orderly flow of traffic on the ground, but this does not preclude the SMC controller from using alternate routing if they deem it necessary.
 
 ### Queuing
 When giving taxi clearance, the SMC controller shall consider holding aircraft short of taxiways when in a long queue for a holding point, so that blockages are not caused on crossing taxiways. The Hotspots to pay the most attention to are circled below
@@ -51,7 +51,7 @@ In order to protect common Runway Exit Taxiways, Consider instructing aircraft t
     Utilising these hold short instructions also opens up the availability of taxiways `J` and `Y` as alternative taxi routes on the International terminal side
 
 ### ACD/Coordinator Pushback Requests
-Specific procedures apply to the use of [Pushback Requests on ACD](../../aerodromes/classc/Melbourne.md#pushback-requests-on-acd) at YMML and [Coordinator](../../aerodromes/classc/Sydney.md#sydney-coordinator) at YSSY. Ensure that all relevant controllers are following these procedures accurately.
+Specific procedures apply to the use of [Pushback Requests on ACD](../../aerodromes/classc/melbourne.md#pushback-requests-on-acd) at YMML and [Coordinator](../../aerodromes/classc/sydney.md#sydney-coordinator) at YSSY. Ensure that all relevant controllers are following these procedures accurately.
 
 ## ADC
 ### Runway Modes
@@ -85,7 +85,7 @@ The usage of non-standard runway modes is **strongly not recommended**, unless a
 #### Approach Types
 At YMML, the approach type in use has neglible affect on the traffic flow.
 
-However, at YSSY, the use of Instrument Approaches vs Independent Visual Approaches during Parallel Runway operations has a big effect on the workload of the Sydney TCU controller, and how close they can run aircraft together on parallel runways. Refer to [YSSY Approach Types](../../../aerodromes/classc/Sydney/#approach-types) for more information.
+However, at YSSY, the use of Instrument Approaches vs Independent Visual Approaches during Parallel Runway operations has a big effect on the workload of the Sydney TCU controller, and how close they can run aircraft together on parallel runways. Refer to [YSSY Approach Types](../../../aerodromes/classc/sydney/#approach-types) for more information.
 
 #### Runway Changes
 Refer to [Runway Management SOPs](../../../controller-skills/runwaymanagement/#runway-changes) for advice on limiting Runway Mode changes during busy events.

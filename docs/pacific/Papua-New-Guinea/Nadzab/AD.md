@@ -89,7 +89,7 @@ There are no controlled helipads at AYNZ. While most helicopters operate in Lae 
 Helicopters using this helipad be instructed to 'report on the ground'/'report when airbourne' in lieu of an explicit clearance.
 
 !!! important
-	The Crossroads helipad sits less than 1NM northeast of the LARID-NZ. Helicopters using the pad **are not** laterally separated from aircraft tracking LARID-NZ *or* from aicraft on the VOR approach to Runway 27. AYNZ ADC must ensure an alternate separation standard is in place at all times.
+	The Crossroads helipad sits less than 1NM northeast of the LARID-NZ. Helicopters using the pad **are not** laterally separated from aircraft tracking LARID-NZ *or* from aircraft on the VOR approach to Runway 27. AYNZ ADC must ensure an alternate separation standard is in place at all times.
 	
 <!--- ## Runway Modes
 ### Runway Selection

@@ -32,10 +32,10 @@ WLM ADC is responsible for the airspace within the WLM MIL CTR A from `SFC` to `
 ### Airspace Division
 **WAL** owns the WLM TCU airspace `SFC` to `F125`.
 
-**WAH** owns any airspace above `F125` activated by ad-hoc release with ARL or NOTAM.
+**WAH** owns any airspace above `F125` activated by ad-hoc release with MNN or NOTAM.
 
 !!! note
-    The upper limit of **WAH** must be coordinated with ARL *prior* to the position logging on.
+    The upper limit of **WAH** must be coordinated with MNN *prior* to the position logging on.
 
 ### Restricted Area Activations
 There are no [restricted areas or MOAs](../../controller-skills/sua) activated by default when WAL is online.
@@ -48,13 +48,13 @@ Upon receiving [airways clearance coordination from ACD](#acd-to-wlm-tcu) of an 
 This gives the enroute controller sufficient time to assess the request, make necessary adjustments to any aircraft in the area currently, and activate the SUA; or alternately to refuse the activation request before the aircraft is in the air.
 
 !!! phraseology
-    *PTHR11 is requesting clearance to operate in the R560A restricted area.*  
-    <span class="hotline">**WLM ACD** -> **WAL**</span>: "PTHR11 requests clearance to R560A via Thunder corridor.”  
+    *PTHR11 is requesting clearance to operate in the M581 restricted area.*  
+    <span class="hotline">**WLM ACD** -> **WAL**</span>: "PTHR11 requests clearance to M581.”  
     <span class="hotline">**WAL** -> **WLM ACD**</span>: "Standby, call you back."  
     
-    <span class="hotline">**WAL** -> **ARL**</span>: "On the groud YWLM, PTHR11, requests activation of R560A `A085-F240`, from 0300 until 0500.”  
-    <span class="hotline">**ARL** -> **WAL**</span>: "PTHR11, expect activation of R560A `A085-F240` at 0300 until 0500."   
-    <span class="hotline">**WAL** -> **ARL**</span>: "PTHR11."   
+    <span class="hotline">**WAL** -> **MNN**</span>: "On the groud YWLM, PTHR11, requests activation of M581 `A085-F240`, from 0300 until 0500.”  
+    <span class="hotline">**MNN** -> **WAL**</span>: "PTHR11, expect activation of M581 `A085-F240` at 0300 until 0500."   
+    <span class="hotline">**WAL** -> **MNN**</span>: "PTHR11."   
     
     <span class="hotline">**WAL** -> **WLM ACD**</span>: "PTHR11, clearance approved."   
     <span class="hotline">**WLM ACD** -> **WAL**</span>: "Clearance approved, PTHR11"  
@@ -64,7 +64,7 @@ This gives the enroute controller sufficient time to assess the request, make ne
 
 ## Local Procedures
 ### Initial and Pitch
-The [intial points](../../controller-skills/military/#initial-and-pitch) are aligned with Taxiway A at the following locations.
+The [initial points](../../controller-skills/military/#initial-and-pitch) are aligned with Taxiway A at the following locations.
 
 | RWY  | Initial Point | Altitude |
 | ---- | ------------- | --------------------------- |
@@ -104,7 +104,7 @@ There are two [military corridors](../../controller-skills/military/#military-co
   <figcaption>WLM TCU Military Corridors</figcaption>
 </figure>
 
-These corridors are located **outside** the jurisdiction of the WLM TCU.
+These corridors are located **outside** the jurisdiction of WLM TCU.
 
 #### Thunder Corridor
 The **Thunder Corridor** is used by aircraft to transit civilian enroute airspace between the WLM TCU and the R560 and R570 restricted areas.
@@ -157,7 +157,7 @@ The M581-M584 MOAs are themselves divided into eighteen different subareas that 
 
 WLM TCU is not responsible for assigning subareas, or ensuring separation between aircraft operations between areas.
 
-When an aircraft has declared an intention to operate within a subarea, the WLM TCU may provide a traffic statement to help provide situational awareness to the departing aircraft.
+When an aircraft has declared an intention to operate within a subarea, WLM TCU may provide a traffic statement to help provide situational awareness to the departing aircraft.
 
 !!! phraseology 
     **WAL**: "WGTL46 at LG cleared operating, number 2 in Bravo One and Charlie One, report [ops normal](../../controller-skills/airwork/#ops-normal) time 30.
@@ -178,10 +178,10 @@ The restricted area can be activated in two configurations according to the requ
 | R596 High          | `SFC` - `A130`   | Aircraft will remain on local QNH above `A100` |
 | R596 Low           | `SFC` - `A050`   |        |
 
-When the R596 restricted area is active all airspace within the SUA is managed by **WAL**, and the [ATIS should be updated](../../aerodromes/classc/Williamtown/#sua-activations) to reflect the activation.
+When the R596 restricted area is active all airspace within the SUA is managed by **WAL**, and the [ATIS should be updated](../../aerodromes/classc/williamtown/#sua-activations) to reflect the activation.
 
 ### Stereo Approaches
-In times of heavy military traffic, WLM TCU may choose to nominate [stereo approaches](../../controller-skills/military/#stereo-approaches) as the preferred approach method. When stereo approaches have been nominated, the ATIS [APCH EXP field must be updated](../../aerodromes/classc/Williamtown/#approach-types) accordingly.
+In times of heavy military traffic, WLM TCU may choose to nominate [stereo approaches](../../controller-skills/military/#stereo-approaches) as the preferred approach method. When stereo approaches have been nominated, the ATIS [APCH EXP field must be updated](../../aerodromes/classc/williamtown/#approach-types) accordingly.
 
 Aircraft arriving from Gates 1-4 and 6 will join the stereo approach at the gate; other aircraft may start the approach from overhead WLM TAC.
 
@@ -286,7 +286,7 @@ Voiceless for all aircraft:
 !!! note
     Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**.
 
-All other aircraft going to ARL CTA must be **Heads-up** coordinated by WLM TCU prior to the boundary.
+All other aircraft going to MNN CTA must be **Heads-up** coordinated by WLM TCU prior to the boundary.
 
 !!! phraseology
     <span class="hotline">**WAH** -> **MLD**</span>: "QJE1597, request DCT OMGAB"  
@@ -299,7 +299,7 @@ Voiceless for all aircraft:
 - Assigned a STAR; and  
 - Assigned `A090`
 
-All other aircraft coming from ARL CTA will be **Heads-up** coordinated to WLM TCU.
+All other aircraft coming from MNN CTA will be **Heads-up** coordinated to WLM TCU.
 
 ### WLM ADC
 #### Airspace
@@ -314,7 +314,7 @@ WLM ADC owns the airspace within the WLM MIL CTR A (`SFC`-`A015`).
 
 All other aircraft require a 'Next' call to WLM TCU.
 
-The Standard Assignable level from WLM ADC to WLM TCU is:
+The standard assignable level from WLM ADC to WLM TCU is:
 
 | Aircraft | Level |
 | -------- | ----- |

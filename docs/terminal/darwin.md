@@ -19,37 +19,114 @@
     Darwin TCU is a [joint military/civil TCU](../../controller-skills/military/#military-aerodromes) and procedures can differ significantly to those in a civil TCU. Ensure you are familiar with the [military controller skills](../../controller-skills/military) necessary to provide a quality service.
 
 ## Airspace
-DN TCU owns the airspace within a 40NM radius of the DN DME from `SFC`-`F180`.
-
-### Airspace Division
-When both DN TCU positions are opened, DN TCU is split east and west along the runway 18/36 extended centreline. DAW owns the airspace to the west of the line and DAE owns the airspace to the east of the line  
-
-<figure markdown>
-![Default DN TCU Upper Limits](img/dntcu.png){ width="700" }
-  <figcaption>DN TCU Airspace</figcaption>
-</figure>
+DN TCU owns the Class C and G airspace within 40NM DME DN from `SFC`to `F180`.
 
 ### DN ADC
-DN ADC owns the airspace within the DN CTR (`SFC`-`A010`). This airspace is designed to facilitate the processing of helicopter scenic flights and low-level helicopter circuits.  
-The CTR extends 7NM from the thresholds of runways 11 and 29 but does not including the Robertson Barracks transit zone.  
+**DN ADC** owns the Class C airspace in the DN MIL CTR `SFC` to `A010`. 
 
-ADC may request DN TCU (`SFC`-`A020`) from DN TCU to facilitate fixed-wing circuit operations. Fixed-wing circuit operations are typically conducted at Delissaville (YDLV) due to high traffic density at Darwin.
+### Airspace Division
+
+<figure markdown>
+![DN TCU Structure](img/dntcu.png){ width="700" }
+  <figcaption>DN TCU Structure</figcaption>
+</figure>
+
+!!! warning "Important"
+	Separation between aircraft tracking along the runway 18/36 extended centreline is a **joint responsibility** of DAE and DAW. Aircraft will be assigned the appropriate departure frequency according to their direction of travel, and each controller will apply separation from the other departure controllers' traffic.
+    
+### Restricted Area Activations
+There are no [restricted areas or MOAs](../../controller-skills/sua) activated by default when DN TCU is online.
+
+#### SUA in Enroute Airspace
+Military operations taking place in SUA in enroute airspace are outside the jurisdiction of TL TCU.
+
+Upon receiving [airways clearance coordination from ACD](#acd-to-dn-tcu) of an aircraft intending to operate in a currently inactive SUA in enroute airspace, TL TCU must give **heads up** coordination to relevant enroute controllers.
+
+This gives the enroute controller sufficient time to assess the request, make necessary adjustments to any aircraft in the area currently, and activate the SUA; or alternately to refuse the activation request before the aircraft is in the air.
+
+!!! phraseology
+    *GRFN11 is requesting clearance to operate in the M278A-D restricted area.*  
+    <span class="hotline">**DN ACD** -> **DAE**</span>: "GRFN11 requests clearance to M278A-D”  
+    <span class="hotline">**DAE** -> **DN ACD**</span>: "Standby, call you back."  
+     
+    <span class="hotline">**DAE** -> **TRT**</span>: "On the groud YBTL, GRFN11, requests activation of M278A-D `A050-F600`, from 0300 until 0500.”  
+    <span class="hotline">**TRT** -> **DAE**</span>: "GRFN11, expect activation of M278A-D `A050-F600` at 0300 until 0500."   
+    <span class="hotline">**DAE** -> **TRT**</span>: "GRFN11."   
+      
+    <span class="hotline">**DAE** -> **DN ACD**</span>: "GRFN11, clearance approved."   
+    <span class="hotline">**DN ACD** -> **DAE**</span>: "Clearance approved, GRFN11"  
+
+!!! note
+    The requirement to coordinate activation of an SUA is in **addition** to existing coordination requirements. [**Heads-up** coordination](#departures) is still required for these aircraft if they do not meet the voiceless coordination criteria.
 
 ## Local Procedures
-### IFR Training Area
+### Initial and Pitch
+The [initial points](../../../controller-skills/military/#initial-and-pitch) are at 5 TAC, aligned with Runway 11 and 29. Aircraft will arrive via a straight initial.
+
+### Military Gates
+There are numerous [military gates](../../../controller-skills/military/#military-gates) established throughout the TMA to facilitate entry and exit to adjoining SUA.
+
+<figure markdown>
+![DN SUA Gates](img/dn_mil_gates.png){ width="700" }
+  <figcaption>DN SUA Gates</figcaption>
+</figure>
+
+If the pilot **does not** nominate a gate, or nominates a gate that does not provide access to their intended SUA, DN ACD should clear the aircraft to depart via the **appropriate gate**.
+
+| Intended SUA    | TCU Exit Gate        |
+| --------------- | -------------------- |
+| M277A-D         | Gates 6-8            |
+| M277E-H         | Gates 5-6            |
+| M278A           | Gates A25-C25        |
+| M278B-D         | Gates A40-C40        |
+| M278E           | Gates C25-E25        |
+| M278F-H         | Gates A40-C40        |
+| R245            | Gates 2-3            |
+| R251            | Gate 1               |
+| R276A-D         | Gate 4               |
+
+!!! tip
+    [Coordination requirements](#acd-to-dn-tcu) exist between ACD and TCU when aircraft are requesting clearance to operate in an SUA that has not been activated. Controllers performing the role of ACD should ensure they coordinate with TCU **before** providing clearance.
+
+### North Eastern Training Area
 IFR aircraft requiring an area for training shall be cleared to operate in the North Eastern Training Area (NETA)  
 The NETA is defined as the area between DN 360R-060R from 15NM-30NM DN DME.  
 Aircraft are to be cleared to the NETA via the 030R outbound. Vertical limits are to be specified by DAW prior to issuing airways clearance  
 
-### Designated Fuel Dumping Area
-Other than in an emergency, the designated fuel jettison area is:
+### Special Use Airspace
+<figure markdown>
+![Notable SUA in the DN TMA](img/dn_sua.png){ width="700" }
+  <figcaption>Notable SUA in the DN TMA</figcaption>
+</figure>
 
-- Over water in the Beagle Gulf  
-- Between the 320 and 020 TACAN radials  
-- `A060` or above  
+#### M277A-H Darwin
+The M277A-H Darwin [MOAs](../../controller-skills/sua/#military-operating-areas) are located southwest of YPDN, `NOTAM-NOTAM`. M277A and M277E are entirely within DN TCU airspace, while M277B-D and M277F-H are in TRT airspace.
 
-### Robertson Barracks
-Darwin TCU is not responsible for traffic or separation services within the `A005` step to the east of Darwin. This step is designed for low-level VFR MIL helos to transit in/out of Robertson Barracks (YRBK) without the need for communication with Darwin TCU.
+Aircraft will generally enter and exit the MOA via the appropriate [military gate](#military-gates).
+
+##### Affected Civil Operations
+Activation of the MOA disrupts traffic on the **J151** high altitude airway, and aircraft departing via the HELLI SID. Aircraft may be given an additional requirement to climb above the vertical limits of the activation, or rerouted manually to avoid the area.
+
+!!! phraseology
+	*QFA849 has departed YPDN Runway 11 on the HELLI SID, bound for YPPH. The M277E restricted area has been activated `SFC-F150`.*   
+    **DAE**: "QFA849, Darwin Approach, identified. Climb via SID to `F180`, requirement to reach `A160` by UTTOX."   
+    **QFA849**: "Climb via SID to `F180`, requirement to reach `A160` by UTTOX, QFA849."  
+
+#### M278A-H Darwin
+The M278A-H Darwin [MOAs](../../controller-skills/sua/#military-operating-areas) are located northeast of YPDN, `NOTAM-NOTAM`. M278A and M278E are entirely within DN TCU airspace, while M278B-D and M278F-H are in TRT and TRS airspace.
+
+Aircraft will generally enter and exit the MOA via the appropriate [military gate](#military-gates).
+
+#### R203A-B Kangaroo Flat
+The R203A-B Kangaroo Flat [restricted area](../../controller-skills/sua/#restricted-areas) is located south of YPDN, `SFC-NOTAM`. The restricted area is generally used for low-level military helicopter training operations based out of Robertson Barracks (YRBK).
+
+#### R276A Darwin
+The R276A Darwin [restricted areas](../../controller-skills/sua/#restricted-areas) are located southwest of YPDN, `NOTAM-NOTAM`. 
+
+Aircraft will generally enter and exit the restricted areas via the appropriate [military gate](#military-gates).
+
+##### Affected Civil Operations
+Activation of the restricted areas disrupts traffic on the **J72** high altitude airway, and aircraft arriving via the WANGI STAR. Aircraft may be given an additional requirement to remain above the vertical limits of the activation, or rerouted manually to avoid the area.
 
 ### VFR Arrivals/Departures
 VFR aircraft generally track via designated VFR routes, as shown on the Darwin VTC. Inbound aircraft tracking via the DN CTA shall be cleared for a VFR route based on their inbound direction.
@@ -63,9 +140,9 @@ VFR aircraft generally track via designated VFR routes, as shown on the Darwin V
 | 180-269 | VFR Route 5 | `BYNO CHI`     |
 
 !!! phraseology
-    **DN TCU**: "LKU, cleared to YPDN via VFR Route 3, maintain `A035`"
+    **DAE**: "LKU, cleared to YPDN via VFR Route 3, maintain `A035`"
 
-VFR fixed wing aircraft entering the CTR directly from Class G and helicopters tracking via the Talc Head coded clearance shall contact **DN ADC** for clearance.
+VFR fixed wing aircraft entering the CTR directly from Class G and helicopters tracking via the [Talc Head](../../aerodromes/classc/Darwin/#departures) coded clearance shall contact **DN ADC** for clearance.
 
 ## Runway Modes
 ### LAHSO
@@ -139,8 +216,8 @@ Voiceless for all aircraft:
 All other aircraft going to TRT CTA must be **Heads-up** coordinated by DN TCU prior to the boundary.
 
 !!! phraseology
-    <span class="hotline">**DN TCU** -> **TRT**</span>: "PFY1234, with your concurrence, will be assigned F160, for my separation with JTE654"  
-    <span class="hotline">**TRT** -> **DN TCU**</span>: "PFY1234, concur F160"  
+    <span class="hotline">**DAW** -> **TRT**</span>: "PFY1234, with your concurrence, will be assigned F160, for my separation with JTE654"  
+    <span class="hotline">**TRT** -> **DAW**</span>: "PFY1234, concur F160"  
 
 #### Arrivals
 Voiceless for all aircraft:
@@ -154,7 +231,7 @@ Voiceless for all aircraft:
 
 All other aircraft coming from TRT CTA will be **Heads-up** coordinated to DN TCU. 
 
-### ADC
+### DN ADC
 #### Auto Release
 [Next](../controller-skills/coordination.md#next) coordination is required from DN ADC to DN TCU for all aircraft.
 
@@ -165,6 +242,14 @@ The Standard Assignable Level from  **DN ADC** to **DN TCU** is:
 | IFR aircraft assigned a **Procedural** SID | The lower of `F180` and `RFL` |
 | IFR aircraft **not** assigned a **Procedural** SID | The lower of `A030` and `RFL` |
 | VFR aircraft | The lower of `A020` and `RFL` |
+
+#### ACD to DN TCU
+The controller assuming responsibility of **ACD** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to DN TCU (or the enroute controller responsible for the DN TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
+
+!!! phraseology
+    <span class="hotline">**DN ACD** -> **DAE**</span>: "GRFN11 requests clearance to M278A”  
+    <span class="hotline">**DAE** -> **DN ACD**</span>: "GRFN11, clearance approved."  
+
  
 ### DN TCU Internal
 Heads-up coordination is not required between DAW and DAE for:
@@ -180,4 +265,4 @@ All other aircraft must be heads-up coordinated prior to the airspace boundary
 
 ## Charts
 !!! abstract "Reference"
-    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
+     In addition to the civilian `ERSA` and `AIP` publications, [the RAAF AIP website](https://ais-af.airforce.gov.au/australian-aip){target=new} contains the necessary charts (available in the TERMA) and description of procedures (in each airports' FIHA).

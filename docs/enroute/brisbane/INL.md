@@ -38,7 +38,7 @@ INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, and **NSA** when they
         When either AMA or OKA is offline, consider publishing a pre-formatted **ATIS Zulu** for their respective aerodromes, to inform pilots about the airspace reclassification.
 
 === "CFS CTR"
-	When **CFS ADC** is offline, CFS CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by MNN and INL. Alternatively, INL may provide a [top-down procedural service](../../../aerodromes/procedural/Coffs/) if they wish (not recommended), and this must be coordinated to ARL(MNN).
+	When **CFS ADC** is offline, CFS CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by MNN and INL. Alternatively, INL may provide a [top-down procedural service](../../../aerodromes/procedural/coffs/) if they wish (not recommended), and this must be coordinated to MNN.
 
 	Due to the low ceiling of CTA, when CFS ADC is offline, INL shall instruct aircraft departing into CTA to report lined up on the runway and issue an airways clearance (traffic pending) at that time.
 
@@ -52,7 +52,7 @@ INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, and **NSA** when they
         If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
         
 === "SU CTR"
-	When **SU ADC** is offline, SU CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by NSA and BUR. Alternatively, NSA may provide a [top-down procedural service](../../../aerodromes/procedural/Sunshinecoast/) if they wish (not recommended), and this must be coordinated to BUR.
+	When **SU ADC** is offline, SU CTR (Class D `SFC` to `A045`) reverts to Class G, and is administered by NSA and BUR. Alternatively, NSA may provide a [top-down procedural service](../../../aerodromes/procedural/sunshinecoast/) if they wish (not recommended), and this must be coordinated to BUR.
 
     !!! tip
         If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
@@ -61,12 +61,7 @@ INL is responsible for **DOS**, **GOL**, **SDY**, **BUR**, and **NSA** when they
 
 ### YAMB
 #### Coded Clearances
-Coded Clearances are available inbound and outbound from the AMB TMA to provided a standardised corridor for fast jet aircraft.
-
-<figure markdown>
-![YAMB Coded Clearances](../img/yambcodedclearances.png){ width="700" }
-  <figcaption>YAMB Coded Clearances</figcaption>
-</figure>
+Coded Clearances are available inbound and outbound from the AMB TMA, allowing an aircraft to transit civilian airspace via a [military corridor](#military-corridors) to access offshore SUA.
 
 ##### Arrivals
 Fast jet aircraft leaving offshore SUA or arriving to YAMB from the east shall be cleared via one of the following coded clearances.
@@ -90,7 +85,10 @@ Each coded clearance includes altitude restrictions which can be used to facilit
 | ---------- | --------------------- | --------------------- |
 | Northern 5 | Cross BINUP at `F190` | Cross MURJO at `F260` |
 | Central 5  | Cross BINUP at `F190` | Cross MURJO at `F260` |
-| Byron 1    | Cross COWIE at `F190` | Cross KIWEE at `F260` | 
+| Byron 1    | Cross COWIE at `F190` | Cross KIWEE at `F260` |
+
+!!! note
+    Aircraft tracking via a coded clearance does **not** constitute a voiceless coordination route between AMB TCU and INL. Aircraft should still be heads-up coordinated to INL prior to **5 minutes** to the boundary, unless coordinated otherwise. 
 	
 ### YBBN
 #### STAR Assignment
@@ -134,7 +132,7 @@ These standard runway assignments may be modified strategically by the BAS or BF
 When operating the SODPROPS Runway Mode, aircraft via **ENLIP**, **BLAKA**, **GOMOL** and **UGTUG**, shall be assigned the **ISPON** STAR with the appropriate transition. Aircraft via other feeder fixes may be assigned the standard STAR.
 
 #### Sequencing
-Sequencing arrivals into YBBN is a joint responsibility of the subsectors of ARL. Initial sequencing actions should be performed by all sectors, with fine tuning and any holding required issued by GOL/BUR. 
+Sequencing arrivals into YBBN is a joint responsibility of the subsectors of INL. Initial sequencing actions should be performed by all sectors, with fine tuning and any holding required issued by GOL/BUR. 
 
 ##### Adjacent Feeder Fixes
 Aircraft assigned the **same runway** inbound via:  
@@ -191,13 +189,13 @@ The following subsectors are responsible for issuing STAR clearance.
 | Subsector | STAR | Type | Notes |
 | ---- | ----- | -------- | ----- |
 | BUR  | [No^](#arrivals-via-bn) |     | Descent not below `F190` |
-| INL  | BERNI | All | Descent not below `F190`<br>VESOK/OVREX Transition [(when applicable)](#berni-transitions) |
+| INL  | BERNI | All | Initial descent not below `F190`<br>VESOK/OVREX Transition [(when applicable)](#berni-transitions) |
 | NSA  | [No^](#arrivals-via-bn)   |     | Descent not below `F190` |
 | SDY  | LAMSI | All |       |
 
 Arrivals from the north shall be given initial descent to not below `F190`. **BN TCU** will issue final descent.
 
-Arrivals from other sectors should be issued with descent and tracking instructions appropriate for the runway configuration, following [coordination](#bn-tcubac).
+Arrivals from other sectors should be issued with descent and tracking instructions appropriate for the runway configuration, following [coordination](#bn-tcubacbaa).
 
 ##### Arrivals via BN
 There is no STAR available to facilitate aircraft arriving from the north west. INL(BUR/NSA) will instruct these aircraft `BN Y177 IDRIL NOPAS GOMOL` prior to handoff to BN TCU, who will then facilitate further descent. Aircraft will then be given further instructions by BAC according to the runway in use.
@@ -215,7 +213,21 @@ By default, vatSys will select the BERNI STAR with no transition. This can be ma
 #### Sequencing
 Initial sequencing is performed by all sectors, with the final sequencing action performed by GOL.
 
-<!-- ###YBNA --->
+### YBNA
+#### STAR Assignment
+The following subsectors are responsible for issuing STAR clearance.
+
+| Subsector | STAR | Type | Notes |
+| ---- | ----- | -------- | ----- |
+| INL  | UPSEL | All |            |
+
+Arrivals from other sectors should be issued with descent and tracking instructions appropriate for the runway configuration, following [coordination](#bn-tcubacbaa).
+
+##### Runway 06 Arrivals
+When the [R638 Evans Head](#m661a-b-m641-and-r638a-c-evans-head) restricted areas are activated, aircraft must be assigned the UPSEL **XRAY** or **YANKEE** STARs, rather than the ALPHA or BRAVO. These prcocedures will ensure the aircraft remains clear of the [restricted area](../../../controller-skills/sua/#restricted-areas).
+
+#### Sequencing
+INL is responsible for initial sequencing for aircraft arriving from the south. NSA, SDY and GOL are responsible for initial sequencing for aircraft arriving from the north/east, with final sequencing actions are performed by GOL.
 
 ### YBSU
 #### STAR Assignment
@@ -237,14 +249,78 @@ BUR, GOL and SDY are responsible for initial sequencing for aircraft arriving fr
 Coordination with KPL should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
 
 ### YCFS
-[Coffs Harbour (YCFS)](../../../aerodromes/procedural/Coffs) lies under the INL/ARL(MNN) boundary. INL is responsible for issuing descent to aircraft arriving into YCFS from the north.
+[Coffs Harbour (YCFS)](../../../aerodromes/procedural/coffs) lies under the INL/MNN boundary. INL is responsible for issuing descent to aircraft arriving into YCFS from the north.
 
 #### Sequencing
-INL and ARL(MNN) share a joint responsibility to build the final sequence of arrivals into YCFS when the tower is open. Coordination with ARL(MNN) should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
+INL and MNN share a joint responsibility to build the final sequence of arrivals into YCFS when the tower is open. Coordination with MNN should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
 
-<!-- ## Special Use Airspace 
-### Restricted Areas
--->
+## Local Procedures
+### Military Corridors
+There are three [military corridors](../../../controller-skills/military/#military-corridors) established around the AMB/OK TCU and BN TCU to facilitate transit of military aircraft between the TCU and adjoining SUAs.
+
+<figure markdown>
+![AMB TCU Military Corridors](../../terminal/img/amb_mil_corridors.png){ width="700" }
+  <figcaption>AMB TCU Military Corridors</figcaption>
+</figure>
+
+These corridors are located **outside** the jurisdiction of the AMB TCU.
+
+Aircraft departing to the AMB TCU will be cleared the relevant [coded clearance](#coded-clearances) by AMB ACD. Aircraft returning to the airport will be cleared the relevant coded clearance by INL.
+
+Aircraft transiting the Thunder Corridor should be assigned the appropriate altitude to ensure separation with opposite direction traffic while transiting to their desired restricted area.
+
+### Special Use Airspace
+There are multiple volumes of [SUA](../../../controller-skills/sua) within INL airspace, mostly associated with military operations in and out of YAMB and YBOK.
+
+<figure markdown>
+![Notable SUA in INL Airspace](../img/inl_sua.png){ width="700" }
+  <figcaption>Notable SUA in INL Airspace</figcaption>
+</figure>
+
+AMB and OK TCU must [give heads up coordination](../../../terminal/amberleyoakey/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
+
+!!! phraseology
+    <span class="hotline">**AMA** -> **INL**</span>: "On the groud YAMB, DRGN31, requests activation of M640A-D `A050-F240`, from 0300 until 0500.”  
+    <span class="hotline">**INL** -> **AMA**</span>: "DRGN31, expect activation of M640A-D `A050-F240` at 0300 until 0500."   
+    <span class="hotline">**AMA** -> **INL**</span>: "DRGN31."  
+    
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../controller-skills/sua/#ad-hoc-activations).
+
+#### M640A-D Amberley
+The M640A-D Amberley MOAs are located offshore within the SDY, KPL, and TSN(FLD) subsectors. The restricted areas are connected to the AMB TCU by the **Northern Corridor**.
+
+Aircraft departing the AMB TCU will be cleared the **NORTHERN 5** coded clearance. Aircraft returning to the TCU will be cleared the **NORTHERN 6** coded clearance by INL.
+
+##### Affected Civil Operations
+When activated, these MOAs disrupt traffic on the **A598** and **H224** high altitude airways, which connects YBBN to the Solomon Islands.
+
+| Planned Airway | ERSA Recommended Rerouting |
+| -------------- | -------------------------- |
+| A598           | `... Q67 GUDSO Q24 TERUV PUGEL` |
+
+!!! note
+	 Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../../controller-skills/sua/#separation-from-sua) laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../../controller-skills/sua/#controlled-airspace) clearance with all parts of the SUA.
+
+#### M646 & M649A-B Amberley
+The M646 and M649A-B Amberley MOAs are located offshore within the SDY, MNN and TSN(FLD, HWE) subsectors. The restricted areas are connected to the AMB TCU by the **Central Corridor**.
+
+Aircraft departing the AMB TCU will be cleared the **CENTRAL 4** coded clearance. Aircraft returning to the TCU will be cleared the **CENTRAL 5** [coded clearance](#coded-clearances) by SDY.
+
+#### M661A-B, M641, and R638A-C Evans Head
+The M661A-B, M641, and R638A-C Evans Head SUAs are located south of YBNA within the GOL, INL, SDY and TSN(HWE) subsectors. The restricted areas are connected to the AMB TCU by the **South Corridor**.
+
+Aircraft departing the AMB TCU will be cleared the **BYRON 1** coded clearance. Aircraft returning to the TCU will be cleared the **BYRON 2** [coded clearance](#coded-clearances) by SDY.
+
+##### Affected Civil Operations
+When activated, the restricted areas distrupt traffic within [BAA airspace](#runway-06-arrivals), aircraft arriving [YBCG via BERNI](#berni-transitions), and aircraft on the **T53** and **P880** high altitude airways, which connect the BN TMA to New Zealand.
+
+| Planned Airway | ERSA Recommended Rerouting |
+| -------------- | -------------------------- |
+| T53 (eastbound) | `GOMOL LAMSI N584 SAKBI ...` |
+| P880 (westbound) | `... SIFRA N584 LAMSI` |
+
+!!! note
+	 Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../../controller-skills/sua/#separation-from-sua)  laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../../controller-skills/sua/#controlled-airspace) clearance with all parts of the SUA.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -253,6 +329,7 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | Transferring Sector | Receiving Sector | ADES | Notes |
 | ---- | -------- | --------- | --------- |
 | INL | ARL | YSSY | |
+| INL | GAH | YSWS | |
 | INL | GOL | YBSU | |
 | NSA, BUR | KPL | YBMK, YBRK | |
 
@@ -277,9 +354,10 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		| YBBN | UGTUG | **125.600** (BAS)      |
 		| YBBN | WOODY | **124.700** (BAN)      |
 		| YBCG | All   | **123.500** (BAC)      |
+        | YBNA | All   | **118.350** (BAA)      |
 
 		!!! tip
-			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcubac). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcubacbaa). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 		
 	=== "19 PROPS"
 		<figure markdown>
@@ -298,9 +376,10 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		| YBBN | UGTUG | **125.600** (BAS)      |
 		| YBBN | WOODY | **124.700** (BAN)      |
 		| YBCG | All   | **123.500** (BAC)      |
+        | YBNA | All   | **118.350** (BAA)      |
 
 		!!! tip
-			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcubac). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcubacbaa). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 		
 	=== "SODPROPS"
 		<figure markdown>
@@ -319,14 +398,15 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		| YBBN | UGTUG | **125.600** (BAS)      |
 		| YBBN | WOODY | **124.700** (BAN)      |
 		| YBCG | All   | **123.500** (BAC)      |
+        | YBNA | All   | **118.350** (BAA)      |
 
 		!!! tip
-			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcubac). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcubacbaa). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 
 ## Coordination
-### BN TCU/BAC
+### BN TCU/BAC/BAA
 #### Airspace
-The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, where it is `SFC` to `A075` in the northwest, and `SFC` to `F125` in the southeast.
+The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAA airspace, where it is `SFC` to `F125`, and in BAC airspace, where it is `SFC` to `A075` in the northwest, and `SFC` to `F125` in the southeast.
 
 Refer to [Brisbane TCU Airspace Division](../../../terminal/brisbane/#airspace-division) for information on airspace divisions when **BAS**, **BDN** and/or **BDS** are online.
 
@@ -339,6 +419,9 @@ Voiceless for all aircraft:
 - With ADES **YBCG**:
 	- Assigned a STAR, and assigned `F130`; or
 	- Tracking via **`BN Y177 IDRIL NOPAS GOMOL`**, and assigned `F190`.
+- With ADES **YBNA**:
+    - Assigned a STAR; and
+    - Assigned `F120`
 
 Additionally, voiceless coordination exists between INL and BN TCU for **YBCG** arrivals tracking via **BN** and assigned `F190`.
 
@@ -353,14 +436,17 @@ Voiceless for aircraft:
 - With ADEP **YBCG**  
     - Tracking via **APAGI** and assigned the lower of `F120` or the `RFL`; or  
     - Tracking via **BN** and assigned the lower of `F180` or the `RFL`  
+- With ADEP **YBNA**
+    - Tracking via **IDNER** or **BUVAM**; an
+    - Assigned the lower of `F120` of the `RFL`
 - With ADES **YBSU**  
     - Assigned the **ITIDE** STAR; and  
     - Assigned `F130`
 
 !!! note
-    ^Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+    ^Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
 	
-All other aircraft going to INL CTA will be **Heads-up** Coordinated by BN TCU/BAC.
+All other aircraft going to INL CTA will be **Heads-up** Coordinated by BN TCU/BAC/BAA.
 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
@@ -381,9 +467,9 @@ CFS ADC is responsible for the Class D airspace in the CFS CTR `SFC` to `A045`.
 Refer to [Reclassifications](#reclassifications) for operations when CFS ADC is offline.
 
 #### Departures
-[Next](../../controller-skills/coordination.md#next) coordination is required from CFS ADC to INL for all aircraft **entering INL CTA**.
+[Next](../../../controller-skills/coordination/#next) coordination is required from CFS ADC to INL for all aircraft **entering INL CTA**.
 
-The Standard Assignable level from **CFS ADC** to **INL** is:
+The standard assignable level from **CFS ADC** to **INL** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -398,7 +484,7 @@ YCFS arrivals and overfliers shall be coordinated to **CFS ADC** from INL prior 
     <span class="hotline">**INL** -> **CFS ADC**</span>: "via IDNER, VET"  
     <span class="hotline">**CFS ADC** -> **INL**</span>: "VET"  
 
-The Standard Assignable level from INL to **CFS ADC** is `A080`, any other level must be prior coordinated.
+The standard assignable level from INL to **CFS ADC** is `A080`, any other level must be prior coordinated.
 
 ### SU ADC
 #### Airspace
@@ -409,7 +495,7 @@ Refer to [Reclassifications](#reclassifications) for operations when SU ADC is o
 #### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from SU ADC to NSA/BUR for all aircraft **entering NSA/BUR CTA**.
 
-The Standard Assignable level from **SU ADC** to **NSA/BUR** is:
+The standard assignable level from **SU ADC** to **NSA/BUR** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -426,11 +512,11 @@ YBSU arrivals and overfliers shall be coordinated to **SU ADC** from NSA prior t
     <span class="hotline">**NSA** -> **SU ADC**</span>: "via ITIDE2W Arrival, JST731"  
     <span class="hotline">**SU ADC** -> **NSA**</span>: "JST731"
 
-The Standard Assignable level from NSA to **SU ADC** is `A060`, any other level must be prior coordinated.
+The standard assignable level from NSA to **SU ADC** is `A060`, any other level must be prior coordinated.
 
 ### OK TCU / AMB TCU
 #### Airspace
-By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas from `SFC` to `F125`, and **AMB TCU** owns the airspace within the **R625A-D** restricted areas from `SFC` to `F210`, unless stated otherwise by ad-hoc release or NOTAM.
+By default, **OK TCU** owns the airspace within the **R654A-D** restricted areas from `SFC` to `F125`, and **AMB TCU** owns the airspace within the **R625A-D** restricted areas from `SFC` to `F210`.
 
 #### Departures
 All aircraft from AMB/OK TCU to INL(All) require Heads-up coordination prior to the boundary. Expect this coordination to be completed a short time after the aircraft becomes airborne (pending controller workload).

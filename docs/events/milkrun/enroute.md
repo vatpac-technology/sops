@@ -27,7 +27,7 @@ If applying speed control to multiple aircraft in a sequence, there are some han
 - If the lead aircraft is going **20kt IAS faster** than the following aircraft, the distance between them will **hold steady**
 
 ### Responsibilities
-**GUN** and **BIK** are responsible for Sequencing in to **YSSY**. **ELW** and **BLA** are responsible for sequencing in to **YMML**. Although it may seem helpful for other sectors to start to apply speed control to assist with the sequence, sometimes this may hinder natural overtakes from occurring, and create bigger gaps in the sequence, making the job harder for the next controller. It also may not take in to consideration aircraft inbound to the arrival airport from other directions, or that the next controller can create multiple arrival streams.
+**GUN** and **BIK** are responsible for Sequencing in to **YSSY**. **KAT** is responsible for sequencing in to **YSWS**. **ELW** and **BLA** are responsible for sequencing in to **YMML**. Although it may seem helpful for other sectors to start to apply speed control to assist with the sequence, sometimes this may hinder natural overtakes from occurring, and create bigger gaps in the sequence, making the job harder for the next controller. It also may not take in to consideration aircraft inbound to the arrival airport from other directions, or that the next controller can create multiple arrival streams.
 
 Best practice is to just focus on providing separation between aircraft (whether that be vertically, laterally, or longitudinally), and only start to apply sequencing techniques once the aircraft reaches the airspace of the responsible sector.
 
@@ -35,31 +35,21 @@ Best practice is to just focus on providing separation between aircraft (whether
 #### Runway Assignment
 Although the standard runway assignment for arrivals via RIVET is the Western Parallel Runway, eventually, the airspace will get busy enough to warrant distributing arrivals between both the Western and Eastern runways.
 
-#### Amended routing via ODALE
-In order to segregate aircraft inbound to different parallel runways, [Amended routing via ODALE](../../../enroute/melbourne/GUN/#rivet-odale-assignment) should be used for aircraft assigned the Eastern parallel runway (16L/34R). This keeps aircraft segregated in to two distinct arrival streams, and allows a higher volume of arrivals.
+#### Amended routing via AKMIR
+In order to segregate aircraft inbound to different parallel runways, [Amended routing via AKMIR](../../../enroute/melbourne/GUN/#rivet-akmir-assignment) should be used for aircraft assigned the Eastern parallel runway (16L/34R). This keeps aircraft segregated in to two distinct arrival streams, and allows a higher volume of arrivals.
 
-Aircraft can be rerouted on first contact via AKMIR, ODALE, then assigned the **ODALE STAR** for 16L/34R.
-
-<figure markdown>
-![Original Flight Planned Route](./img/odale1.png){ width="700" }
-  <figcaption>Original Flight Planned Route</figcaption>
-</figure>
+Aircraft can be rerouted on first contact via `MAKKA ANNKY AKMIR`, then assigned the **AKMIR STAR** for 16L/34R.
 
 <figure markdown>
-![Graphical Reroute via AKMIR, ODALE](./img/odale2.png){ width="700" }
-  <figcaption>Graphical Reroute via AKMIR, ODALE</figcaption>
-</figure>
-
-<figure markdown>
-![Final routing with Assigned STAR](./img/odale3.png){ width="700" }
-  <figcaption>Final routing with Assigned STAR</figcaption>
+![AKMIR Alternative Routing](./img/akmir1.png){ width="700" }
+  <figcaption>AKMIR Alternative Routing (Broken Line)</figcaption>
 </figure>
 
 Although this action may be beneficial to the arrival flow for both Enroute and Approach, it goes against the [Standard runway and STAR assignment](../../../enroute/melbourne/GUN/#star-assignment_1) for YSSY Arrivals from the South-west, so must still be coordinated to SAS or SFL (if online)
 
 !!! phraseology
-    <span class="hotline">**GUN** -> **SFL**</span>: "QFA494 will be via ODALE for 34R"  
-    <span class="hotline">**SFL** -> **GUN**</span>: "QFA494 via ODALE, 34R, Roger"  
+    <span class="hotline">**GUN** -> **SFL**</span>: "QFA494 will be via AKMIR for 34R"  
+    <span class="hotline">**SFL** -> **GUN**</span>: "QFA494 via AKMIR, 34R, Roger"  
 
 In order to reduce this coordination, GUN/BIK and SFL/SAS may organise blanket coordination to allow this rerouting at the discretion of the GUN/BIK controller.
 
@@ -67,4 +57,4 @@ In order to reduce this coordination, GUN/BIK and SFL/SAS may organise blanket c
   <source src="https://vatpac-home.s3.ap-southeast-2.amazonaws.com/ODALE_Reroute_112233f1d1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-<p><figcaption style="text-align: center;">Demonstration of the ODALE Reroute</figcaption></p>
+<p><figcaption style="text-align: center;">Demonstration of the AKMIR Reroute</figcaption></p>
