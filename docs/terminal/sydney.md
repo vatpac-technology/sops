@@ -37,9 +37,9 @@ The vertical limits of the SY TCU are `SFC` to `F285`.
     See also: [BK ADC Offline](#bk-adc-offline).
     
 === "CN CTR"
-    BK CTR reverts to Class G when **CN ADC** is offline, and is administered by SYC.
+    CN CTR reverts to Class G when **CN ADC** is offline, and is administered by SYC.
 
-    See also: [BK ADC Offline](#bk-adc-offline).
+    See also: [CN ADC Offline](#cn-adc-offline).
 
 === "RI CTR"
 	The restricted airspace around YSRI is classified as Class G by default, and is only reclassified as controlled airspace when **RI ADC** is online. When **RI ADC** is offline, the area remains Class G, and is administered by SYC.
