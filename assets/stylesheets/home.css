@@ -98,6 +98,7 @@
     transition: background-color 0.2s ease;
     padding: 0.5rem 1rem;
     border-radius: 5px;
+    height: 100%;
 }
 
 .feature .card a:hover {
