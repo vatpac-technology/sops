@@ -6,11 +6,11 @@
 
 ## Positions
 
-| Name                      | Callsign               | Frequency   | Login ID      |
-| ------------------------- | ---------------------- | ----------- | ------------- |
-| **Nancy-Bird Walton ADC** | **Walton Tower**       | **128.100** | **WS_TWR**    |
-| **Nancy-Bird Walton SMC** | **Walton Ground**      | **124.050** | **WS_GND**    |
-| **Nancy-Bird Walton ACD** | **Walton Delivery**    | **118.650** | **WS_DEL**    |
+| Name                       | Callsign               | Frequency   | Login ID      |
+| -------------------------- | ---------------------- | ----------- | ------------- |
+| **Nancy-Bird Walton ADC**  | **Walton Tower**       | **128.100** | **WS_TWR**    |
+| **Nancy-Bird Walton SMC**  | **Walton Ground**      | **124.050** | **WS_GND**    |
+| **Nancy-Bird Walton ACD**  | **Walton Delivery**    | **118.650** | **WS_DEL**    |
 | **Nancy-Bird Walton ATIS** |                       | **127.000** | **YSWS_ATIS** |
 
 ## Airspace
