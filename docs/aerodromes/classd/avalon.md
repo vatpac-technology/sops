@@ -53,3 +53,13 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
 
 #### Runway Change
 Any Runway change must be prior coordinated to the TCU controller responsible for **MAV**.
+
+### MAESTRO
+
+When a departure is bound for YMML and MAESTRO is in use, **AV ADC** shall advise **MFL** when the aircraft commences taxi. MFL will activate the flight in MAESTRO and advise a landing time.
+
+MFL may waive this requirement during periods of low traffic.
+
+!!! phraseology
+    <span class="hotline">**AV ADC** -> **MFL**</span>: "JST405, taxiing YMML"  
+    <span class="hotline">**MFL** -> **AV ADC**</span>: "JST405, landing time 22"

@@ -205,3 +205,13 @@ The controller assuming responsibility of **WS ACD** shall give [heads-up](../..
 - VFR departures
 - Aircraft with `ADES` YSSY, YSBK, YSCN, YSRI, or YSHW
 - Aircraft using a runway not on the ATIS
+
+### MAESTRO
+
+When a departure is bound for YSSY and MAESTRO is in use, **WS SMC** shall advise **SFL** when the aircraft commences taxi. SFL will activate the flight in MAESTRO and advise a landing time.
+
+SFL may waive this requirement during periods of low traffic.
+
+!!! phraseology
+    <span class="hotline">**WS SMC** -> **SFL**</span>: "QFA401, taxiing YSSY"  
+    <span class="hotline">**SFL** -> **WS SMC**</span>: "QFA401, landing time 45"
