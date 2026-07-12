@@ -15,7 +15,7 @@
 | <span class="indented">Brisbane Radar :material-information-outline:{ title="Non-standard position"}            | SHN | Brisbane Centre     | 119.500 | BN-R_DEP |
 | <span class="indented">Brisbane Flow :material-information-outline:{ title="Non-standard position"}             | BFL |                     |         | BN_FMP   |
 | **Gold Coast Approach**       | **BAC** | **Brisbane Approach**   | **123.500** | **BN-C_APP**  |
-| <span class="indented">Ballina Approach :material-information-outline:{ title="Non-standard position"}          | BAA | Ballina Approach    | 118.350 | BA_APP   |
+| <span class="indented">Ballina Approach :material-information-outline:{ title="Non-standard position"}          | BAB | Ballina Approach    | 118.350 | BA_APP   |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
@@ -31,7 +31,7 @@ The vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, w
     See also: [AF ADC Offline](#af-adc-offline).
 
 === "BA CTR"
-    BA CTR reverts to Class G below `A045` when **BA ADC** is offline, and is administered by **BAA**.
+    BA CTR reverts to Class G below `A045` when **BA ADC** is offline, and is administered by **BAB**.
 
     See also: [BA ADC Offline](#ba-adc-offline).
 
@@ -41,7 +41,7 @@ The vertical limits of the BN TCU are `SFC` to `F180`, except in BAC airspace, w
     See also: [CG ADC Offline](#cg-adc-offline).
 
 ### Airspace Division
-The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, **BAC**, and **BAA** change based on the Runway Mode.
+The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, **BAC**, and **BAB** change based on the Runway Mode.
 
 !!! note
     The following diagrams do not include non BN TCU areas of responsibility such as AF CTR, CG ADC, or BA ADC.
@@ -72,7 +72,7 @@ The divisions of the airspace between **BAN**, **BAS**, **BDS**, **BDN**, **BAC*
 		
 		The controller may connect as either position, and assume both frequencies. 
         
-        Only **two** TCU controllers may operate the BN TMA when running the SODPROPS runway mode (excluding an additional SHN, BAC, and BAA controller if desired).
+        Only **two** TCU controllers may operate the BN TMA when running the SODPROPS runway mode (excluding an additional SHN, BAC, and BAB controller if desired).
     
 === "YBCG and YBNA"
 	<figure markdown>
@@ -91,7 +91,7 @@ There are 7 executive controller positions within the BN/CG TCUs, plus a flow co
 
 With a controller on BAN and an additional controller offering assistance, some example splits include:
 
-- BAC, extending BAA
+- BAC, extending BAB
 - BAS, extending BDS
 
 !!! tip
@@ -101,7 +101,7 @@ With a controller on BAN and an additional controller offering assistance, some 
     - **BAS** and **BDS** combined.
 
 ## Extending
-BN TCU may extend to BAC/BAA and vice versa; callsigns remain the same. See [Controller Skills](../../controller-skills/extending/#terminal-area) for details.
+BN TCU may extend to BAC/BAB and vice versa; callsigns remain the same. See [Controller Skills](../../controller-skills/extending/#terminal-area) for details.
 
 ## Separation
 ### Parallel Runway Operations
@@ -121,7 +121,7 @@ Two aircraft cleared for adjacent instrument approaches must maintain the follow
 ### Special Use Airspace
 
 #### Evans Head SUA
-The [Evans Head Air Weapons Range](../../enroute/brisbane/INL/#m661a-b-m641-and-r638a-c-evans-head) is located partially within BAA airspace, and is used for air-surface gunnery, bombing, and rocket firing practice. There are multiple [restricted areas](../../controller-skills/sua/#restricted-areas) and [MOAs](controller-skills/sua/#military-operating-areas) associated with the range to enable flying activities based at [Amberley](../amberleyoakey).
+The [Evans Head Air Weapons Range](../../enroute/brisbane/INL/#m661a-b-m641-and-r638a-c-evans-head) is located partially within BAB airspace, and is used for air-surface gunnery, bombing, and rocket firing practice. There are multiple [restricted areas](../../controller-skills/sua/#restricted-areas) and [MOAs](controller-skills/sua/#military-operating-areas) associated with the range to enable flying activities based at [Amberley](../amberleyoakey).
 
 <figure markdown>
 ![The Evans Head Air Weapons Range](img/ba_evans_head.png){ width="700" }
@@ -414,7 +414,7 @@ Voiceless for aircraft:
 !!! note
     ^Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**.
 	
-All other aircraft going to INL CTA will be **Heads-up** coordinated by BN TCU/BAC/BAA.
+All other aircraft going to INL CTA will be **Heads-up** coordinated by BN TCU/BAC/BAB.
 
 !!! phraseology
     <span class="hotline">**BAC** -> **GOL**</span>: "Departing YBCG, X4C, do you have any Restrictions or Requirements?"  
@@ -433,7 +433,7 @@ Voiceless for all aircraft:
     - Assigned a STAR; and
     - Assigned `F120`
 
-All other aircraft coming from INL CTA must be **Heads-up** coordinated to BN TCU/BAC/BAA prior to **20nm** from the boundary.
+All other aircraft coming from INL CTA must be **Heads-up** coordinated to BN TCU/BAC/BAB prior to **20nm** from the boundary.
 
 ### BN ADC
 #### Auto Release
@@ -493,8 +493,8 @@ YBCG arrivals and departures **do not** meet the voiceless criteria between APP/
     <span class="hotline">**BDS** -> **BAC**</span>: "via NOPAS, A2B"  
     <span class="hotline">**BAC** -> **BDS**</span>: "A2B, `A070`"
     
-#### Between BAC and BAA
-Voiceless coordination is in place for aircraft transiting between BAA and BAC positions, provided the aircraft is:
+#### Between BAC and BAB
+Voiceless coordination is in place for aircraft transiting between BAB and BAC positions, provided the aircraft is:
 
 - With ADES **YBCG**
   - Assigned a STAR; and
@@ -503,8 +503,8 @@ Voiceless coordination is in place for aircraft transiting between BAA and BAC p
 All other aircraft must be heads-up coordinated.
 
 !!! phraseology
-    <span class="hotline">**BAA** -> **BAC**</span>: "via IPNOS, XYZ"  
-    <span class="hotline">**BAC** -> **BAA**</span>: "XYZ, `A070`"
+    <span class="hotline">**BAB** -> **BAC**</span>: "via IPNOS, XYZ"  
+    <span class="hotline">**BAC** -> **BAB**</span>: "XYZ, `A070`"
 
 #### Between SHN and TCU
 Standard [Radar to TCU](../controller-skills/coordination.md#radar-position-tcu-controllers) coordination for each aircraft transiting between Class G and CTA (or vice versa).
@@ -556,14 +556,14 @@ The standard assignable level from BA ADC to BA TCU is:
 
 
 #### Arrivals/Overfliers
-BAA will heads-up coordinate arrivals/overfliers from Class C to BA ADC prior to **5 mins** from the boundary.  
+BAB will heads-up coordinate arrivals/overfliers from Class C to BA ADC prior to **5 mins** from the boundary.  
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to BA ADC, unless BA ADC nominates a restriction.
 
 VFR aircraft require a level readback.
 
 !!! phraseology
-    <span class="hotline">**BAA** -> **BA ADC**</span>: "via AVBAK for RNP-Y, QLK2035"  
-    <span class="hotline">**BA ADC** -> **BAA**</span>: "QLK2035, RNP-Y"
+    <span class="hotline">**BAB** -> **BA ADC**</span>: "via AVBAK for RNP-Y, QLK2035"  
+    <span class="hotline">**BA ADC** -> **BAB**</span>: "QLK2035, RNP-Y"
 
 ### CG ADC
 #### Airspace
