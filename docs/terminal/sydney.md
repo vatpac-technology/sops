@@ -271,7 +271,7 @@ Pilots are required to reach `A005` prior to South Head and will report maintain
 The Sydney Training Area is located in the south west of the TMA, `SFC` - `BCTA`, entirely within the D426A-D Sydney [danger area](../../controller-skills/sua/#danger-areas).
 
 <figure markdown>
-![Sydney Basin Training Area](img/sy_training_area.PNG){ width="700" }
+![Sydney Basin Training Area](img/sy_training_area.png){ width="700" }
   <figcaption>Sydney Basin Training Area</figcaption>
 </figure>
 
