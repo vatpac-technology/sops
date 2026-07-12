@@ -214,7 +214,7 @@
 *[AAE]: Adelaide Approach East
 *[AAR]: Adelaide Radar
 *[AMA]: Amberley Approach
-*[BAA]: Ballina Approach
+*[BAB]: Ballina Approach
 *[BAC]: Brisbane (Gold Coast) Approach
 *[BAN]: Brisbane Approach North
 *[BAS]: Brisbane Approach South
