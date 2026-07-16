@@ -12,7 +12,7 @@
 | <span class="indented">Brisbane Approach South :material-information-outline:{ title="Non-standard position"}   | BAS | Brisbane Approach   | 125.600 | BN-S_APP |
 | <span class="indented">Brisbane Departures North :material-information-outline:{ title="Non-standard position"} | BDN | Brisbane Departures | 133.450 | BN_DEP   |
 | <span class="indented">Brisbane Departures South :material-information-outline:{ title="Non-standard position"} | BDS | Brisbane Departures | 118.450 | BN-S_DEP |
-| <span class="indented">Brisbane Radar :material-information-outline:{ title="Non-standard position"}            | SHN | Brisbane Centre     | 119.500 | BN-R_DEP |
+| <span class="indented">Brisbane Radar :material-information-outline:{ title="Non-standard position"}            | SHN | Brisbane Centre     | 119.500 | BN-R_APP |
 | <span class="indented">Brisbane Flow :material-information-outline:{ title="Non-standard position"}             | BFL |                     |         | BN_FMP   |
 | **Gold Coast Approach**       | **BAC** | **Brisbane Approach**   | **123.500** | **BN-C_APP**  |
 | <span class="indented">Ballina Approach :material-information-outline:{ title="Non-standard position"}          | BAA | Ballina Approach    | 118.350 | BA_APP   |
