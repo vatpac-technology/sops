@@ -34,7 +34,7 @@ ADC is responsible for the **C**, **D**, and **F** taxiways, as well as the gras
 </figure>
 
 ### Taxiway Restrictions
-Category D aircraft cannot use **Taxiway B** south of Taxiway G is restricted to Code C aircraft. **Taxiway H** is restricted to aircraft no larger than a `AT72`.
+Category D aircraft cannot use **Taxiway B** south of Taxiway G. **Taxiway H** is restricted to aircraft no larger than a `AT72`.
 
 ### Pushback Clearance
 The view of the terminal from the control tower is restricted, and Gates 1 to 5 are not visible to controllers. Aircraft pushing back from these gates will be given a discretionary clearance.
