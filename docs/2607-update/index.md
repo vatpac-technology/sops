@@ -47,7 +47,7 @@ Previously uncontrolled airspace surrounding YBNA has been reclassified:
   <figcaption>CTA around Ballina (YBNA)</figcaption>
 </figure>
 
-The **Brisbane/Gold Coast TCU** has been extended to cover the newly reclassified airspace. A new TCU controller, **BAA** (*'Ballina Approach'*), has been introduced as a child position of **BAC**, and has primary responsibility for the area.
+The **Brisbane/Gold Coast TCU** has been extended to cover the newly reclassified airspace. A new TCU controller, **BAB** (*'Ballina Approach'*), has been introduced as a child position of **BAC**, and has primary responsibility for the area.
 
 Please see the **[Brisbane TCU SOPs](../terminal/brisbane)** for full details about TCU operations.
 

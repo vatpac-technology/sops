@@ -195,7 +195,7 @@ The following subsectors are responsible for issuing STAR clearance.
 
 Arrivals from the north shall be given initial descent to not below `F190`. **BN TCU** will issue final descent.
 
-Arrivals from other sectors should be issued with descent and tracking instructions appropriate for the runway configuration, following [coordination](#bn-tcubacbaa).
+Arrivals from other sectors should be issued with descent and tracking instructions appropriate for the runway configuration, following [coordination](#bn-tcubacbab).
 
 ##### Arrivals via BN
 There is no STAR available to facilitate aircraft arriving from the north west. INL(BUR/NSA) will instruct these aircraft `BN Y177 IDRIL NOPAS GOMOL` prior to handoff to BN TCU, who will then facilitate further descent. Aircraft will then be given further instructions by BAC according to the runway in use.
@@ -221,7 +221,7 @@ The following subsectors are responsible for issuing STAR clearance.
 | ---- | ----- | -------- | ----- |
 | INL  | UPSEL | All |            |
 
-Arrivals from other sectors should be issued with descent and tracking instructions appropriate for the runway configuration, following [coordination](#bn-tcubacbaa).
+Arrivals from other sectors should be issued with descent and tracking instructions appropriate for the runway configuration, following [coordination](#bn-tcubacbab).
 
 ##### Runway 06 Arrivals
 When the [R638 Evans Head](#m661a-b-m641-and-r638a-c-evans-head) restricted areas are activated, aircraft must be assigned the UPSEL **XRAY** or **YANKEE** STARs, rather than the ALPHA or BRAVO. These prcocedures will ensure the aircraft remains clear of the [restricted area](../../../controller-skills/sua/#restricted-areas).
@@ -312,7 +312,7 @@ The M661A-B, M641, and R638A-C Evans Head SUAs are located south of YBNA within 
 Aircraft departing the AMB TCU will be cleared the **BYRON 1** coded clearance. Aircraft returning to the TCU will be cleared the **BYRON 2** [coded clearance](#coded-clearances) by SDY.
 
 ##### Affected Civil Operations
-When activated, the restricted areas distrupt traffic within [BAA airspace](#runway-06-arrivals), aircraft arriving [YBCG via BERNI](#berni-transitions), and aircraft on the **T53** and **P880** high altitude airways, which connect the BN TMA to New Zealand.
+When activated, the restricted areas distrupt traffic within [BAB airspace](#runway-06-arrivals), aircraft arriving [YBCG via BERNI](#berni-transitions), and aircraft on the **T53** and **P880** high altitude airways, which connect the BN TMA to New Zealand.
 
 | Planned Airway | ERSA Recommended Rerouting |
 | -------------- | -------------------------- |
@@ -354,10 +354,10 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		| YBBN | UGTUG | **125.600** (BAS)      |
 		| YBBN | WOODY | **124.700** (BAN)      |
 		| YBCG | All   | **123.500** (BAC)      |
-        | YBNA | All   | **118.350** (BAA)      |
+        | YBNA | All   | **118.350** (BAB)      |
 
 		!!! tip
-			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcubacbaa). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcubacbab). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 		
 	=== "19 PROPS"
 		<figure markdown>
@@ -376,10 +376,10 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		| YBBN | UGTUG | **125.600** (BAS)      |
 		| YBBN | WOODY | **124.700** (BAN)      |
 		| YBCG | All   | **123.500** (BAC)      |
-        | YBNA | All   | **118.350** (BAA)      |
+        | YBNA | All   | **118.350** (BAB)      |
 
 		!!! tip
-			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcubacbaa). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcubacbab). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 		
 	=== "SODPROPS"
 		<figure markdown>
@@ -398,15 +398,15 @@ Aircraft being transferred from enroute to a TCU with multiple frequencies shall
 		| YBBN | UGTUG | **125.600** (BAS)      |
 		| YBBN | WOODY | **124.700** (BAN)      |
 		| YBCG | All   | **123.500** (BAC)      |
-        | YBNA | All   | **118.350** (BAA)      |
+        | YBNA | All   | **118.350** (BAB)      |
 
 		!!! tip
-			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcubacbaa). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
+			The quick reference tables above only include scenarios for which there is [voiceless coordination](#bn-tcubacbab). Refer to the diagram for the appropriate position/frequency for coordination and handoff for all other situations.
 
 ## Coordination
-### BN TCU/BAC/BAA
+### BN TCU/BAC/BAB
 #### Airspace
-The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAA airspace, where it is `SFC` to `F125`, and in BAC airspace, where it is `SFC` to `A075` in the northwest, and `SFC` to `F125` in the southeast.
+The Vertical limits of the BN TCU are `SFC` to `F180`, except in BAB airspace, where it is `SFC` to `F125`, and in BAC airspace, where it is `SFC` to `A075` in the northwest, and `SFC` to `F125` in the southeast.
 
 Refer to [Brisbane TCU Airspace Division](../../../terminal/brisbane/#airspace-division) for information on airspace divisions when **BAS**, **BDN** and/or **BDS** are online.
 
@@ -446,7 +446,7 @@ Voiceless for aircraft:
 !!! note
     ^Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
 	
-All other aircraft going to INL CTA will be **Heads-up** Coordinated by BN TCU/BAC/BAA.
+All other aircraft going to INL CTA will be **Heads-up** Coordinated by BN TCU/BAC/BAB.
 
 ### Enroute
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **50nm** to boundary.
