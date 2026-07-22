@@ -52,6 +52,16 @@ The standard assignable level from BA ADC to BAA is:
 | -------- | ----- |
 | All      | The lower of `A050` and `RFL` |
 
+### MAESTRO
+
+When a departure is bound for YBBN and MAESTRO is in use, **BA ADC** shall advise **BFL** when the aircraft commences taxi. BFL will activate the flight in MAESTRO and advise of any delay that can be absorbed on the ground before departure.
+
+BFL may waive this requirement during periods of low traffic.
+
+!!! phraseology
+    <span class="hotline">**BA ADC** -> **BFL**</span>: "QLK2035, taxiing YBBN"  
+    <span class="hotline">**BFL** -> **BA ADC**</span>: "QLK2035, landing time 22, 8 minutes delay"
+
 ### Arrivals/Overfliers
 BAA will heads-up coordinate arrivals/overfliers from Class C to BA ADC prior to **5 mins** from the boundary.  
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to BA ADC, unless BA ADC nominates a restriction.
