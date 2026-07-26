@@ -373,7 +373,7 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
     Take in to account an aircraft's weight when runways 16L/34R or 07/25 are in use. Heavier aircraft may operationally require the longer Runway 16R/34L, or pilots may prefer a departure from 16R instead of 16L so they have a shorter taxi. If in doubt, ask the pilot and try to be accommodating of these requests.
 
 ### Runway Selection
-Unless operationally required, aircraft shall be assigned the following runways for departure when PROPS are in progress:
+When **PROPS** are in progress, aircraft shall be assigned the following runways for departure (unless operationally required otherwise):
 
 | Aircraft tracking | Runway  |
 | ----------------| --------- |
@@ -385,6 +385,8 @@ Unless operationally required, aircraft shall be assigned the following runways 
 | Other aircraft: |
 | To the NORTH and EAST | 16L/34R |
 | To the SOUTH and WEST | 16R/34L |
+
+Heavy aircraft, particularly international departures, will often operationally require **Runway 34L/16R**. Assigning **Runway 34L/16R** to aircraft from the international apron can also improve aerodrome efficiency due to the reduced taxi distance.
 
 #### SODPROPS
 During SODPROPS, all departures shall be assigned RWY 16L, except:
