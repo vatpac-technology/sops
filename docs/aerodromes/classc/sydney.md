@@ -179,8 +179,7 @@ Generally, aircraft cross runway 16R/34L at the following locations.
 | -------------- | ----------- |
 | Taxiway Golf   | Eastbound   |
 | Runway 25      | Westbound   |
-| Taxiway Juliet | Westbound   |
-| Taxiway Lima   | As required |
+| Taxiway Lima   | As Required |
 
 #### Taxiway Restrictions
 Category F aircraft cannot use Taxiway H, or the sections of Taxiways B and C north of Taxiway G and south of Taxiway K.
