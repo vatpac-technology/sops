@@ -228,7 +228,7 @@ Any subsequent calls will only be made by the leader, representing the entire fo
     **ARA**: "Viper, Climb to `F340`"  
     **VIPR**:  "Climb to `F340`, Viper" 
 
-You may issue issue individual control instructions to a formation when necessary.
+You may issue individual control instructions to a formation when necessary.
 
 !!! phraseology
     **ARA**: "VIPR12, extend downwind"  
