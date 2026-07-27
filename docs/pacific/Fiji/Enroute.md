@@ -23,7 +23,7 @@ All controlled airspace within the Fiji Domestic up to `F600` is classified as C
 When **NFNA ADC** is offline, NFNA TCU below `A065` is reclassified as Class G and is administed by NFFJ. Alternatively, NFFJ may provide a [top-down approach service](../Nausori/TCU) if they wish.
 
 !!! tip
-    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+    If choosing *not* to provide a top down service, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. 
 <!--	
 ## Extending
 -->
