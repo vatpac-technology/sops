@@ -34,7 +34,7 @@ AV CTR Class D `SFC` to `A007` reverts to Class G and `A007` to `A025` to Class 
 See also: [AV ADC Offline](#av-adc-offline).
 
 !!! tip
-    When AV ADC is not online, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+    When AV ADC is not online, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. 
 
 ### Airspace Division
 The divisions of the airspace between **MAE**, **MDN**, **MDS**, and **MAV** change based on the Runway Mode.

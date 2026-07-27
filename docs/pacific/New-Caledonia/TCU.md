@@ -38,7 +38,7 @@ This manoeuvre can take aircraft between two to three minutes, during which time
 ## Tower Offline Procedures 
 ### NWWM ADC Offline
 !!! tip
-    When NWWW ADC is offline, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+    When NWWW ADC is offline, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. 
 	
 #### Arrivals
 IFR aircraft cruising inside CTA will generally commence an instrument approach from within controlled airspace and leave CTA on descent. The missed approach procedure will keep these aircraft outside controlled airspace, so does not need to be protected by the TCU controller. Clear these aircraft to leave CTA descending via an appropriate approach.
