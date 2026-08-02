@@ -14,7 +14,7 @@
 | <span class="indented">Sydney Departures North :material-information-outline:{ title="Non-standard position"}    | SDN | Sydney Departures  | 123.000 | SY-N_DEP |
 | <span class="indented">Sydney Director West :material-information-outline:{ title="Non-standard position"}       | SFW | Sydney Director    | 126.100 | SY-D_APP |
 | <span class="indented">Sydney Director East :material-information-outline:{ title="Non-standard position"}       | SFE | Sydney Director    | 125.300 | SY-DE_APP|
-| <span class="indented">Sydney Centre :material-information-outline:{ title="Non-standard position"}              | SYC | Sydney Centre      | 124.550 | SY-R_DEP |
+| <span class="indented">Sydney Centre :material-information-outline:{ title="Non-standard position"}              | SYC | Sydney Centre      | 124.550 | SY-R_APP |
 | <span class="indented">Bankstown Approach :material-information-outline:{ title="Non-standard position"}         | SBA | Bankstown Approach | 125.800 | BK_APP   |
 | <span class="indented">Richmond Approach :material-information-outline:{ title="Non-standard position"}          | SRA | Richmond Approach  | 135.900 | RI_APP   |
 | <span class="indented">Nancy-Bird Walton Approach :material-information-outline:{ title="Non-standard position"} | SWA | Walton Approach    | 118.400 | WS_APP   |
