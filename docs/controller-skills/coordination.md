@@ -128,9 +128,9 @@ If the Receiving Sector requires a change of level, they'll reply with the amend
     </figure>
 
 !!! phraseology
-    <span class="hotline">**WOL** -> **GUN**</span>: "Via CB, RXA32"  
-    <span class="hotline">**GUN** -> **WOL**</span>: "RXA32, `F340` due traffic"  
-    <span class="hotline">**WOL** -> **GUN**</span>: "`F340`, RXA32"
+    <span class="hotline">**SNO** -> **GUN**</span>: "Via CB, RXA32"  
+    <span class="hotline">**GUN** -> **SNO**</span>: "RXA32, `F340` due traffic"  
+    <span class="hotline">**SNO** -> **GUN**</span>: "`F340`, RXA32"
 
 Once this coordination is completed, the aircraft's level and route is **locked in**. Any further changes must be recoordinated. 
 

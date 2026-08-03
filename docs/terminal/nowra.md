@@ -102,7 +102,7 @@ PJE operations are generally not conducted while the [M440B Tasman Sea MOA](#m44
 </figure>
 
 #### M440A-B Tasman Sea 
-The M440A-B Tasman Sea [MOAs](../../controller-skills/sua/#military-operating-areas) are located in the eastern half of the NW TCU airspace, `NOTAM`-`NOTAM`, and connect the TMA to an extensive network of SUA within WOL airspace.
+The M440A-B Tasman Sea [MOAs](../../controller-skills/sua/#military-operating-areas) are located in the eastern half of the NW TCU airspace, `NOTAM`-`NOTAM`, and connect the TMA to an extensive network of SUA within SNO(WOL) airspace.
 
 When activated below `A020`, these MOAs disrupt operations at [YJBY](#jervis-bay-yjby) and generally preclude PJE operations.
 
@@ -143,7 +143,7 @@ Voiceless for aircraft:
 !!! note
     Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**.
 
-All other aircraft going to WOL CTA must be **heads-up** coordinated by NW TCU prior to the boundary.
+All other aircraft going to SNO(WOL) CTA must be **heads-up** coordinated by NW TCU prior to the boundary.
 
 !!! phraseology
     <span class="hotline">**NWA** -> **WOL**</span>: "EMYU43, request DCT YSHW"  
@@ -156,7 +156,7 @@ Voiceless for aircraft:
 - Tracking via **NWA** or **NWR**; and  
 - Assigned `F130`
 
-All other aircraft coming from WOL CTA will be **heads-up** coordinated to NW TCU.
+All other aircraft coming from SNO(WOL) CTA will be **heads-up** coordinated to NW TCU.
 
 ### NW ADC
 #### Departures
