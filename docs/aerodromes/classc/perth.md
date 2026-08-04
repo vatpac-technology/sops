@@ -112,7 +112,7 @@ When the [R155A and R155B Pearce](../../../terminal/pearce/#restricted-area-acti
 ### Approach Types
 | Runway Mode                     | Condition                                         | ATIS APCH field |
 | ------------------------------  | ------------------------------------------------- | --------------- |
-| [Southwest Plan](#runway-modes) | All                                               | `EXP INST APCH` |
+| [Southwest Plan](#runway-modes) | All                                               | `EXP ILS APCH RWY 21. EXP RNP APCH RWY 24.` |
 | [Northeast Plan](#runway-modes) | Cloud base at or below `A032`, **or**<br>By night | `EXP ILS APCH`  |
 
 ### Runway Mode Formatting
