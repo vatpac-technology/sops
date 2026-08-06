@@ -137,7 +137,7 @@ Sequencing of arrivals into YBBN is the responsibility of INL, with input from B
 Aircraft from the north/west are assigned 01L/19R and aircraft from the south/east assigned 01R/19L. These standard runway assignments may be modified strategically by the BAS or BFL controller.
 
 !!! example
-    If during an event, the vast majority of traffic is coming from **BLAKA** and **GOMOL** feeder fixes, BAS/BFL may elect to assign 19L to **BLAKA** arrivals and 19R to **GOMOL** arrivals, to keep them separated at all times.
+    If during an event, the vast majority of traffic is coming from **BLAKA** and **GOMOL** feeder fixes, BAS/BFL may elect to assign 19L to **BLAKA** arrivals and 19R to **GOMOL** arrivals, to keep them separated at all times. Arrivals via 19R should be monitored for conflict for **GUMKI** or **SCOTT** departures. 
 
     <span class="hotline">**BFL** -> **INL**</span>: "All arrivals via GOMOL to be assigned 19R until further notice"  
     <span class="hotline">**INL** -> **BFL**</span>: "Roger, Arrivals via GOMOL to be assigned 19R" 
@@ -210,11 +210,40 @@ Unless operationally required, aircraft arriving YBBN shall be assigned the foll
 | From the NORTH and WEST | 01L/19R |
 | From the SOUTH and EAST | 01R/19L |
 	
-### SODPROPS
+### Noise Preferred Runway Operations
+#### SODPROPS
 Arriving aircraft must be established on final and transferred to the tower frequency no later than 10NM from touchdown.
 
 !!! note
-    Arrivals from the south and east shall be assigned the **ISPON** STAR to RWY 19R by Enroute. Aircraft not assigned this procedure should be closely monitored for conflict with aircraft departing RWY 01R.
+    All arrivals shall be assigned the **ALPHA** STAR to RWY 19R. This deconflicts aircraft on the departing RWY 01R.
+
+    Additionally, all departures via BIXAD should only be given track shortening when there exists no conflict to arrivals. 
+
+!!! tip
+    The **ISPON** STAR may be assigned to reduce track miles, but this should be closely monitored with RWY 01R departures as to avoid conflict.
+
+
+#### 19RA19LD
+
+Aircraft arriving into YBBN shall be assigned the following STARs when the 19RA19LD mode is in use. 
+
+| Aircraft tracking | STAR |
+| --------- | ------- |
+| via BLAKA | **ISPON** |
+| via GOMOL | **ISPON** |
+| via UGTUG | **ISPON** |
+| via TEBOT | Alpha |
+| via MORBI | Alpha |
+| via SMOKA | Alpha |
+| via WOODY | Alpha |
+| via ENLIP | **ISPON** |
+
+!!! note
+    The **ISPON** STAR is designed to vertically and laterally separate arrivals to RWY 19R from RWY 19L departures. No other STARs to RWY 19R may be used for these arrivals.
+
+#### 01RA01D
+
+All aircraft arriving into YBBN shall be assigned the **ALPHA** STAR.
 
 ## Helicopter Operations
 In VMC, helicopters inbound to or outbound from YBBN shall be processed via two visual waypoints (outlined below) positioned north and south of the field. Where VMC does not exist, IFR helicopters will conform to fixed wing ops.
@@ -281,9 +310,10 @@ Once the aircraft exits the CTA, cancel their identification and control service
 ## Flow
 ### Local Knowledge
 - Aircraft inbound to YBBN from the south may be split between the GOMOL/BLAKA and ENLIP STARs, and assigned different runways, to reduce overall delay (most effective during 01 PROPS)
-- Aircraft inbound to YBBN may be issued the appropriate Xray or Victor STAR to reduce track miles
-- Aircraft inbound to YBBN from the north for RWY 01R may be issued the SMOKA M STAR to reduce track miles
-- Aircraft inbound to YBCG may be assigned the Yankee or Victor STAR to reduce track miles
+- Aircraft inbound to YBBN may be issued the appropriate **X-ray** STAR to reduce track miles
+- Non-jet aircraft inbound to YBBN may be issued the appropiate **Victor** STAR, to continue for a visual approach, when conditions permit.
+- Aircraft inbound to YBBN from the north for RWY 01R may be issued the **Mike** STAR to reduce track miles. This should not be assigned when RWY 01L is in use for arrivals or 19R is in use for departures.
+- Aircraft inbound to YBCG may be assigned the **Yankee** or **Victor** STAR to reduce track miles
 
 ### Flow Tables
 #### YBBN
@@ -461,9 +491,12 @@ Aircraft that have been cleared the **BN (RADAR) SID** will receive an assigned 
 | Runway | Assigned Heading |
 | ---- | -------------- |
 | 01L | H340 |
-| 01R | H120 |
+| 01R | H120^ |
 | 19L | H110 |
 | 19R | H270 |
+
+!!! exception
+    ^Aircraft departing via **BIXAD** , departing RWY 01R, will be assigned runway heading (excluding during SODPROPS).
 
 !!! tip
     If strong winds are present at altitude, ADC/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
