@@ -211,7 +211,7 @@ When **PROPS** are in progress, aircraft shall be assigned the following runways
 | via BIXAD | 01L/19R |
 | via BUGNU | 01L/19R |
 | via ITIDE | 01L/19R |
-| via SAMVI | 01L/19R |
+| via SAMVI | **01R**/19R |
 | via WACKO | **01R**/19R |
 | via LAGOB | 01R/19L |
 | via GUMKI | 01R/19L |
@@ -222,18 +222,20 @@ When **PROPS** are in progress, aircraft shall be assigned the following runways
 | To the SOUTH or EAST | 01R/19L |
 
 ## SID Selection
-Jet Aircraft planned via **BIXAD**, **GUMKI**, **SCOTT**, **SANEG**, or **WACKO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus^, unless the pilot indicates they are unable to accept a Procedural SID.
+Jet Aircraft planned via **BIXAD**^^, **GUMKI**, **SCOTT**, **SANEG**, or **WACKO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus^, unless the pilot indicates they are unable to accept a Procedural SID. .
 
 !!! example
-    Jet Aircraft planned via SCOTT, assigned runway 19L, shall be assigned the SCOTT SID.
+    Jet Aircraft planned via **SCOTT**, assigned runway 19L, shall be assigned the SCOTT SID.
 
 !!! exception
-    ^Jet Aircraft with ADES **YBSU** may plan via **ITIDE**, and be assigned the **Radar SID**. Amended routing is *not required*.
+    ^Jet Aircraft with ADES **YBSU** or **YBCG** may plan via **ITIDE** or **LAGOB** respectively, and be assigned the **Radar SID**. Amended routing is *not required*.
+
+    ^^When RWY 01L is not in use, but RWY 01R is in use, **BIXAD** departures shall be assigned the **Radar SID**.
 
 Non-Jet aircraft, and aircraft that cannot accept a Procedural SID, shall be assigned the **Radar SID**.
 
 !!! example
-    Non-Jet Aircraft planned via WACKO, assigned runway 01R, shall be assigned the BN (RADAR) SID.
+    Non-Jet Aircraft planned via **SAMVI**, assigned runway 01R, shall be assigned the BN (RADAR) SID.
 	
 ### Climb Gradient Requirements
 Climb gradient requirements apply to all Procedural SIDs. It is the pilot's responsibility to advise if they are unable to meet these requirements. Pilots that advise this shall be assigned the **RADAR** SID instead, regardless of aircraft type.
@@ -247,18 +249,24 @@ Visual Approaches are permitted on request, as long as a separation standard exi
 ### Runway Mode
 | Mode     | ATIS Runway information      |
 | -------- | ---------------------------- |
-| 01 PROPS | `01L AND R FOR ARRS AND DEPS` |
-| 19 PROPS | `19L AND R FOR ARRS AND DEPS` |
-| SODPROPS  | `19R FOR ARRS, RWY 01R FOR DEPS` |
+| 01 PROPS | `01L AND R ARRS AND DEPS` |
+| 19 PROPS | `19L AND R ARRS AND DEPS` |
+| SODPROPS  | `19R ARR. RWY 01R DEP` |
+| 19RA19LD  | `19R ARR. 19L DEP` |
+| 01RA01D  | `01R ARR. 01L AND R DEP` |
 | Segregated Runway Operations | *As appropriate for chosen duty runway* |
+
+!!! note
+    In general, the SODPROPS, 19RA19LD, 01RA01D and Segregated runway modes are most suitable for noise abatement. The PROPS modes are most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times.
 
 ### Operational Info
 The Operational Information field should be updated based on the runway mode in use, as per the table below:
 
 | Runway Mode | OPR INFO Field |
 | ----------- | -------------- |
-| 19 PROPS<br>01 PROPS | `INDEPENDENT PARALLEL DEPARTURES IN PROG` |
+| 19 PROPS<br>01 PROPS<BR>01RA01D | `INDEPENDENT PARALLEL DEPARTURES IN PROG` |
 | SODPROPS    | `SIMULTANEOUS OPPOSITE DIRECTION PARALLEL RUNWAY OPERATIONS IN PROG` |
+
 
 #### ACD Pushback Requests
 When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) procedure, the OPR INFO shall include:  
@@ -287,7 +295,7 @@ The standard assignable level from BN ADC to BN TCU is:
 ### Departures Controller
 When a TCU controller is online, aircraft shall be issued with a departure frequency during their airways clearance in accordance with the table below. If no TCU controllers are online, the appropriate enroute frequency or advisory frequency shall be issued.
 
-=== "01 PROPS"
+=== "01 PROPS"<br>"01RA01D"
     
     | Runway | Via  | Departure Frequency |
     | ------ | ---- | -------------------- |
@@ -308,15 +316,25 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
     | ------ | ---- | -------------------- |
     | 01R | All | 118.45 (BDS) |
 
+=== "19RA19LD"
+
+    | Runway | Via  | Departure Frequency |
+    | ------ | ---- | -------------------- |
+    | 19L | BIXAD<br>WACKO | 133.45 (BDN) |
+    | 19L | All others | 118.45 (BDS)|
+
 ### Standard Assignable Departure Headings
 Aircraft that have been cleared the **BN (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required (excluding during SODPROPS) to the BN TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
 
 | Runway | Assigned Heading |
 | ------ | -------------- |
 | 01L | H340 |
-| 01R | H120 |
+| 01R | H120* |
 | 19L | H110 |
 | 19R | H270 |
+
+!!! note
+    *Aircraft departing via **BIXAD** , departing RWY 01R, will be issued runway heading (excluding during SODPROPS).
 
 !!! tip
     If strong winds are present at altitude, ADC/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
