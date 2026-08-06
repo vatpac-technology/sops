@@ -150,6 +150,11 @@ The **active** aircraft is the landing aircraft issued with a hold short instruc
 
 The **passive** aircraft is the landing or departing aircraft which has full use of their assigned runway.
 
+<figure markdown>
+![LAHSO Diagram](img/lahso.png){ width="600" }
+  <figcaption>Example of LAHSO operations</figcaption>
+</figure>
+
 ### ADC
 ADC is responsible for maintaining a visual separation standard between the active and passive aircraft during their final approach and in the event of a go around. The flight paths of both aircraft must be monitored and speed adjustments provided to arriving aircraft to ensure that in the event of a go around, both aircraft remain clear of each other. 
 
