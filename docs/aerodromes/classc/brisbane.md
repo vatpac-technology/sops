@@ -171,12 +171,9 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 | 3 - 01 PROPS      | 01L & 01R | 01L & 01R  |
 | 4 - 19 [Segregated](#segregated-operations) | 19R *or* 19L | 19L *or* 19R |
 | 5 - 01 [Segregated](#segregated-operations) | 01R *or* 01L | 01L *or* 01R |
-| *Curfew (RRO)   | 19L       | 01R        |
-
-*Permitted between the hours of 2200 and 0600 Local. If the pilot does not want to participate in curfew mode operations, the controller must accommodate this request.
 
 !!! note
-    The SODPROPS, Segregated Ops, and RRO modes are most suitable for Noise Abatement. The PROPS modes is most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Panic Stations.
+    The SODPROPS and segregated ops modes are most suitable for Noise Abatement. The PROPS modes is most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Panic Stations.
 
 #### SODPROPS
 When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time
@@ -262,7 +259,6 @@ The Operational Information field should be updated based on the runway mode in 
 | ----------- | -------------- |
 | 19 PROPS<br>01 PROPS | `INDEPENDENT PARALLEL DEPARTURES IN PROG` |
 | SODPROPS    | `SIMULTANEOUS OPPOSITE DIRECTION PARALLEL RUNWAY OPERATIONS IN PROG` |
-| Curfew Mode | AEST: `CURFEW RWY NOMINATION. CURFEW IN OPERATION UNTIL TIME 2000.` |
 
 #### ACD Pushback Requests
 When implementing the [Pushback Requests on ACD](#pushback-requests-on-acd) procedure, the OPR INFO shall include:  

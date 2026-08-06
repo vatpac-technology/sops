@@ -14,7 +14,7 @@
 | <span class="indented">Sydney Departures North :material-information-outline:{ title="Non-standard position"}    | SDN | Sydney Departures  | 123.000 | SY-N_DEP |
 | <span class="indented">Sydney Director West :material-information-outline:{ title="Non-standard position"}       | SFW | Sydney Director    | 126.100 | SY-D_APP |
 | <span class="indented">Sydney Director East :material-information-outline:{ title="Non-standard position"}       | SFE | Sydney Director    | 125.300 | SY-DE_APP|
-| <span class="indented">Sydney Centre :material-information-outline:{ title="Non-standard position"}              | SYC | Sydney Centre      | 124.550 | SY-R_DEP |
+| <span class="indented">Sydney Centre :material-information-outline:{ title="Non-standard position"}              | SYC | Sydney Centre      | 124.550 | SY-R_APP |
 | <span class="indented">Bankstown Approach :material-information-outline:{ title="Non-standard position"}         | SBA | Bankstown Approach | 125.800 | BK_APP   |
 | <span class="indented">Richmond Approach :material-information-outline:{ title="Non-standard position"}          | SRA | Richmond Approach  | 135.900 | RI_APP   |
 | <span class="indented">Nancy-Bird Walton Approach :material-information-outline:{ title="Non-standard position"} | SWA | Walton Approach    | 118.400 | WS_APP   |
@@ -267,12 +267,26 @@ Pilots intending to track southbound via Victor One after completing the Harbour
 
 Pilots are required to reach `A005` prior to South Head and will report maintaining `A005`, when their control services may be terminated.
 
+### Training Areas
+The Sydney Training Area is located in the south west of the TMA, `SFC` - `BCTA`, entirely within the D426A-D Sydney [danger area](../../controller-skills/sua/#danger-areas).
+
+<figure markdown>
+![Sydney Basin Training Area](img/sy_training_area.png){ width="700" }
+  <figcaption>Sydney Basin Training Area</figcaption>
+</figure>
+
+The area is designed for flying training operations from aircraft based out of YSCN and YSBK. VFR aircraft are not required to contact SYC for entry, however should monitor the SYC frequency while operating in the area.
+
+SYC should monitor aircraft operating in the area and, if a conflict is imminent, pass safety alerts to aircraft even if prior contact has not been established and the aircraft are not in receipt of SIS. 
+
+!!! phraseology
+    **SYC**: "Safety alert, VFR aircraft 1nm south of SSKP tracking northeast `A013`, you will shortly be entering R555C restricted area, clearance not available, suggest immediate right turn to avoid."
+
 ### Special Use Airspace
 <figure markdown>
 ![SUA in the SY TMA](img/sy_sua.png){ width="700" }
   <figcaption>SUA in the SY TMA</figcaption>
 </figure>
-
 
 #### Richmond SUA
 There are multiple [restricted areas](../../controller-skills/sua/#restricted-areas) within the TMA associated with military operations at YSRI. The restricted areas are all located within **SRA** airspace.
