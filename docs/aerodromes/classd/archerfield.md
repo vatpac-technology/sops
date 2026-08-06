@@ -269,3 +269,13 @@ AF ADC must heads-up coordinate **all aircraft** transiting from one ADC control
 !!! phraseology
     <span class="hotline">**AF ADC S** -> **AF ADC N**</span>: "via TAR, TQC for an overhead join"  
     <span class="hotline">**AF ADC N** -> **AF ADC S**</span>: "TQC, A015"
+
+### MAESTRO
+
+When a departure is bound for YBBN and MAESTRO is in use, **AF SMC** shall advise **BFL** when the aircraft commences taxi. BFL will activate the flight in MAESTRO and advise a landing time.
+
+BFL may waive this requirement during periods of low traffic.
+
+!!! phraseology
+    <span class="hotline">**AF SMC** -> **BFL**</span>: "YPX, taxiing YBBN"  
+    <span class="hotline">**BFL** -> **AF SMC**</span>: "YPX, landing time 30"

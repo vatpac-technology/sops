@@ -83,3 +83,13 @@ BN TCU Class G shares a tiny border with SU ADC, however there are no SIDs, STAR
 ![BN TCU / SU ADC Border](../../terminal/img/subntcu.png){ width="700" }
   <figcaption>BN TCU / SU ADC Border</figcaption>
 </figure>
+
+### MAESTRO
+
+When a departure is bound for YBBN and MAESTRO is in use, **SU SMC** shall advise **BFL** when the aircraft commences taxi. BFL will activate the flight in MAESTRO and advise of any delay that can be absorbed on the ground before departure.
+
+BFL may waive this requirement during periods of low traffic.
+
+!!! phraseology
+    <span class="hotline">**SU SMC** -> **BFL**</span>: "QJE1756, taxiing YBBN"  
+    <span class="hotline">**BFL** -> **SU SMC**</span>: "QJE1756, landing time 30, no delay"

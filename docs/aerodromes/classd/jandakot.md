@@ -157,3 +157,13 @@ JT ADC must heads-up coordinate **all aircraft** transiting from one ADC control
 !!! phraseology
     <span class="hotline">**JT ADC C** -> **JT ADC W**</span>: "via FDL, TBN for an overfly"  
     <span class="hotline">**JT ADC W** -> **JT ADC C**</span>: "TBN, A015"
+
+### MAESTRO
+
+When a departure is bound for YPPH and MAESTRO is in use, **JT SMC** shall advise **PFL** when the aircraft commences taxi. PFL will activate the flight in MAESTRO and advise a landing time.
+
+PFL may waive this requirement during periods of low traffic.
+
+!!! phraseology
+    <span class="hotline">**JT SMC** -> **PFL**</span>: "YDV, taxiing YPPH"  
+    <span class="hotline">**PFL** -> **JT SMC**</span>: "YDV, landing time 15"

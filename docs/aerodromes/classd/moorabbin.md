@@ -198,3 +198,13 @@ MB ADC must heads-up coordinate **all aircraft** transiting from one ADC control
 !!! phraseology
     <span class="hotline">**MB ADC W** -> **MB ADC E**</span>: "via CARR, EWX for an overfly"  
     <span class="hotline">**MB ADC E** -> **MB ADC W**</span>: "EWX, A015"
+
+### MAESTRO
+
+When a departure is bound for YMML and MAESTRO is in use, **MB SMC** shall advise **MFL** when the aircraft commences taxi. MFL will activate the flight in MAESTRO and advise a landing time.
+
+MFL may waive this requirement during periods of low traffic.
+
+!!! phraseology
+    <span class="hotline">**MB SMC** -> **MFL**</span>: "YGC, taxiing YMML"  
+    <span class="hotline">**MFL** -> **MB SMC**</span>: "YGC, landing time 22"
