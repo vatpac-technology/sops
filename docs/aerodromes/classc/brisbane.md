@@ -184,7 +184,7 @@ From 2000Z to 1200z:
 | 5 - 01 [Segregated](#segregated-operations) | 01R *or* 01L | 01L *or* 01R |
 
 !!! note
-    The SODPROPS and Segregated operation modes are most suitable for Noise Abatement. Additionally, RWY 01L arrivals and RWY 19R departures are not available between 1200Z and 2000Z. The PROPS modes is most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Panic Stations.
+    The SODPROPS and Segregated operation modes are most suitable for Noise Abatement. The PROPS modes is most suitable for higher capacity. Additionally, Noise Abatement Procedures dictate that RWY 01L arrivals and RWY 19R departures are not available between 1200Z and 2000Z. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Panic Stations.
 
 #### SODPROPS
 When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time
