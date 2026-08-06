@@ -11,7 +11,7 @@ Extending to adjacent sectors **must** be done with consideration of the control
 ## Enroute
 Enroute controllers are permitted to *extend* to any **four additional sectors**, provided that the resulting pairing forms a **single, continuously adjacent group**. Controllers with at least 150 hours as a C1 may extend to any **six additional sectors**.
 
-In the example below, **BLA** has elected to extend to **TBD**, **GUN**, **MUN**, and **WOL**. The resulting group of sectors forms a single, continuously adjacent group.
+In the example below, **BLA** has elected to extend to **TBD**, **GUN**, **MUN**, and **SNO**. The resulting group of sectors forms a single, continuously adjacent group.
 
 <figure markdown>
 ![A compliant group of extended sectors](img/extensionpolicy_continuous_example.png){ width="800" }

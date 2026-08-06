@@ -29,10 +29,10 @@
 		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 	
 === "CB TCU"
-	When **CB TCU** is offline, CB TCU (Class C `SFC` to `A085`) reverts to Class G, and is administered by WOL.
+	When **CB TCU** is offline, CB TCU (Class C `SFC` to `A085`) reverts to Class G, and is administered by SNO(WOL).
 
 	!!! note
-		BLA does not assume the CB TCU in the absence of a CB TCU controller. Assumption of the CB TCU is the responsibility of WOL. Controllers may choose to verbally coordinate the release of the CB TCU to either sector/subsector.
+		BLA does not assume the CB TCU in the absence of a CB TCU controller. Assumption of the CB TCU is the responsibility of SNO(WOL). Controllers may choose to verbally coordinate the release of the CB TCU to either sector/subsector.
 	
 === "ES TCU"
 	The restricted airspace around YMES is classified as Class G by default, and is only reclassified as controlled airspace when **ESA** is online. When **ESA** is offline, the area remains Class G, and is administered by BLA and HUO(WON).
@@ -360,7 +360,7 @@ Voiceless for all aircraft:
 All other aircraft coming from BLA CTA must be **Heads-up** Coordinated to CB TCU prior to **20nm** from the boundary.
 
 !!! note
-    These coordination requirements apply to aircraft entering the CB TCU, even if the airspace is owned by WOL
+    These coordination requirements apply to aircraft entering the CB TCU, even if the airspace is owned by SNO(WOL).
 
 #### Departures
 Voiceless for all aircraft:
@@ -399,7 +399,7 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 That being said, it is *advised* that BLA give **Heads-up Coordination** prior to **50nm** from the boundary in the following scenarios:  
 - BLA to GUN for aircraft **not** on the Y59 or W817 airway*  
 - ELW to MUN(YWE) and HUO(WON) for all aircraft  
-- BLA to MUN(OXL/GTH) and WOL for all aircraft  
+- BLA to MUN(OXL/GTH) and SNO(WOL) for all aircraft  
 
 ### BLA Internal
 As per [Standard coordination procedures](../../../controller-skills/coordination/#enr-enr), Voiceless, no changes to route or CFL within **20nm** (reduced from 50nm) to boundary.

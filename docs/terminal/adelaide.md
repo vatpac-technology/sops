@@ -176,6 +176,8 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **BUGSU W**<br>*AGROS transition*<br>*KLAVA transition*<br>*MARGO transition* | <br>14<br>15<br>13     | <br>-<br>-<br>-     |
     | **DRINA A/Z** | -      | 14     |
     | **DRINA V**   | -      | 13     |
+    | **ELROX A**   | -      | 12     |
+    | **ELROX Z**   | 6^     | 12     |
     | **INTOG V/X/Z** | 14     | -      |
     | **KAKLU A/Z** | 16     | 12^    |
     | **KAKLU V/X** | 15     | -      |
@@ -195,7 +197,9 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **BUGSU W STAR**<br>*AGROS transition*<br>*KLAVA transition*<br>*MARGO transition* | <br>14<br>15<br>13     | <br>-<br>-<br>-     | <br>-<br>-<br>-     | <br>-<br>-<br>-     |
     | **DRINA A/Z STAR** | -      | -      | 14     | -      |
     | **DRINA V STAR**   | -      | -      | 13     | -      |
-    | **ELROX V STAR**   | 10^    | 10^    | 12^    | -      |
+    | **ELROX A STAR**   | -      | -      | 12     | -      |
+    | **ELROX V STAR**   | 10^    | 7^     | 12^    | -      |
+    | **ELROX Z STAR**   | 8^     | 8^    | 12     | -      |
     | **GULFS V STAR**<br>*Feeder Fix: ATNAR*   | <br>12^ | <br>11^ | <br>12 | <br>- |
     | **INTOG V/X/Z STAR** | 14     | -      | -      | -      |
     | **KAKLU A/Z STAR** | 16     | -      | 12^    | -      |
@@ -220,7 +224,9 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **BUGSU W STAR**<br>*AGROS transition*<br>*KLAVA transition*<br>*MARGO transition* | <br>16<br>17<br>15     | <br>-<br>-<br>-     | <br>-<br>-<br>-     | <br>-<br>-<br>-     |
     | **DRINA A/Z STAR** | -      | -      | 16     | -      |
     | **DRINA V STAR**   | -      | -      | 15     | -      |
-    | **ELROX V STAR**   | 11^    | 12^    | 13^    | -      |
+    | **ELROX A STAR**   | -      | -      | 16     | -      |
+    | **ELROX V STAR**   | 11^    | 9^     | 13^    | -      |
+    | **ELROX Z STAR**   | 8^     | 10^    | 16     | -      |
     | **GULFS V STAR**<br>*Feeder Fix: ATNAR*   | <br>13^ | <br>13^ | <br>14 | <br>- |
     | **INTOG V/X STAR** | 15     | -      | -      | -      |
     | **INTOG Z STAR**   | 16     | -      | -      | -      |

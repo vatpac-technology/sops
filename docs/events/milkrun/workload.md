@@ -13,7 +13,7 @@ Never ever ever ever ever (ever) deny an offer to split up your sector! It could
 The event gets busy every week, and denying offers to split takes away from the potential pool of controllers to help the event run smoothly. It is better to have a bit of a quieter half an hour, then be ready for the busy rush, than it is to have a decent amount of traffic for half an hour, and get completely snowed under after that.
 
 ### Prioritisation
-Some sectors generally require splitting more than others. For example, the Melbourne TMA can usually operate without the need for a Departures controller for the whole event (although if there's no room for an S3 anywhere else, it's still worth having), whilst a second/third controller in the Sydney TMA is always extremely beneficial. Enroute splits such as WOL and BLA are also extremely beneficial to balancing the workload of the event.
+Some sectors generally require splitting more than others. For example, the Melbourne TMA can usually operate without the need for a Departures controller for the whole event (although if there's no room for an S3 anywhere else, it's still worth having), whilst a second/third controller in the Sydney TMA is always extremely beneficial. Enroute splits such as SNO and BLA are also extremely beneficial to balancing the workload of the event.
 
 It can also be beneficial to redistribute the ratings across the event. For example, if Sydney TMA has two or three C1+ controllers on, whilst BLA is covering an offline GUN, it would be prudent for one of the Sydney TMA controllers to move up and cover GUN.
 

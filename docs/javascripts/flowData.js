@@ -3572,6 +3572,12 @@ export const flowData = {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
                     }
+                },
+                "ELROX": {
+                    "ELROX A/Z STAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
                 }
             },
             "05": {
@@ -3630,6 +3636,12 @@ export const flowData = {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
+                },
+                "ELROX": {
+                    "ELROX Z STAR": {
+                        "Normal Speed": 6,
+                        "Reduced Speed": 6
+                    }
                 }
             }
         },
@@ -3657,8 +3669,12 @@ export const flowData = {
                 },
                 "ELROX": {
                     "ELROX V STAR": {
-                        "Normal Speed": 10,
-                        "Reduced Speed": 10
+                        "Normal Speed": 7,
+                        "Reduced Speed": 7
+                    },
+                    "ELROX Z STAR": {
+                        "Normal Speed": 8,
+                        "Reduced Speed": 8
                     },
                     "No STAR - Direct to IAF": {
                         "Normal Speed": 11,
@@ -3838,6 +3854,10 @@ export const flowData = {
                     }
                 },
                 "ELROX": {
+                    "ELROX A/Z STAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    },
                     "ELROX V STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
@@ -4042,6 +4062,10 @@ export const flowData = {
                     }
                 },
                 "ELROX": {
+                    "ELROX Z STAR": {
+                        "Normal Speed": 8,
+                        "Reduced Speed": 8
+                    },
                     "ELROX V STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
@@ -4097,8 +4121,12 @@ export const flowData = {
                 },
                 "ELROX": {
                     "ELROX V STAR": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 12
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
+                    },
+                    "ELROX Z STAR": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
                     },
                     "No STAR - Direct to IAF": {
                         "Normal Speed": 12,
@@ -4278,9 +4306,17 @@ export const flowData = {
                     }
                 },
                 "ELROX": {
+                    "ELROX A STAR": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    },
                     "ELROX V STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
+                    },
+                    "ELROX Z STAR": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
                     },
                     "No STAR - Direct to IAF": {
                         "Normal Speed": 18,
@@ -4489,6 +4525,10 @@ export const flowData = {
                     "ELROX V STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
+                    },
+                    "ELROX Z STAR": {
+                        "Normal Speed": 8,
+                        "Reduced Speed": 8
                     },
                     "No STAR - Direct to IAF": {
                         "Normal Speed": 11,
