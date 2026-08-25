@@ -10323,71 +10323,76 @@ Approval must be sought from the <strong>bolded parent position</strong> prior t
 </div>
 <h2 id="runway-modes">Runway Modes</h2>
 <h3 id="preferred-runway-modes">Preferred Runway Modes</h3>
-<p>Winds must always be considered for Runway modes (Crosswind &lt;20kts, Tailwind &lt;5kts), however the order of preference is as follows:</p>
 <table>
 <thead>
 <tr>
-<th>Priority - Mode</th>
+<th>Priority</th>
+<th>Mode</th>
 <th>Arrivals</th>
 <th>Departures</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>1 - <abbr title="Simultaneous Opposite Direction Parallel Runway Operations">SODPROPS</abbr></td>
+<td>1</td>
+<td><abbr title="Simultaneous Opposite Direction Parallel Runway Operations">SODPROPS</abbr></td>
 <td>34L</td>
 <td>16L (&amp; 34L if operationally required)</td>
 </tr>
 <tr>
-<td>2 - 34 <abbr title="Parallel Runway Operations">PROPS</abbr></td>
+<td>2</td>
+<td>34 <abbr title="Parallel Runway Operations">PROPS</abbr></td>
 <td>34L &amp; 34R</td>
 <td>34L &amp; 34R</td>
 </tr>
 <tr>
-<td>2 - 16 <abbr title="Parallel Runway Operations">PROPS</abbr></td>
+<td>2</td>
+<td>16 <abbr title="Parallel Runway Operations">PROPS</abbr></td>
 <td>16L &amp; 16R</td>
 <td>16L &amp; 16R</td>
 </tr>
 <tr>
-<td>3 - 16D/07A</td>
+<td>2</td>
+<td>16D/07A</td>
 <td>07</td>
 <td>16L &amp; 16R</td>
 </tr>
 <tr>
-<td>3 - 25D/34A</td>
+<td>2</td>
+<td>25D/34A</td>
 <td>34L &amp; 34R</td>
 <td>25</td>
 </tr>
 <tr>
-<td>4 - 16D/25A</td>
+<td>2</td>
+<td>16D/25A</td>
 <td>25</td>
 <td>16L &amp; 16R</td>
 </tr>
 <tr>
-<td>5 - 07</td>
+<td>3</td>
+<td>07</td>
 <td>07</td>
 <td>07</td>
 </tr>
 <tr>
-<td>5 - 25</td>
+<td>3</td>
+<td>25</td>
 <td>25</td>
 <td>25</td>
 </tr>
 <tr>
+<td></td>
 <td>*Curfew</td>
 <td>34L</td>
 <td>16R</td>
 </tr>
 </tbody>
 </table>
-<p>* <small><em>Permitted between the hours of 2300 and 0600 Local. If the pilot does not want to participate in curfew mode operations, the controller must accommodate this request.</em></small></p>
+<p>* <small><em>Permitted only between the hours of 2300 and 0600 Local. Pilot requests that would contravene curfew restrictions must still be accommodated.</em></small></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>In general, the <abbr title="Simultaneous Opposite Direction Parallel Runway Operations">SODPROPS</abbr>, 16D/07A, and 25D/34A modes are most suitable for noise abatement. The <abbr title="Parallel Runway Operations">PROPS</abbr> modes are most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity <abbr title="Parallel Runway Operations">PROPS</abbr> modes during busy times, such as events like Milk Run Monday or Panic Stations.</p>
-</div>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>Take in to account an aircraft's weight when runways 16L/34R or 07/25 are in use. Heavier aircraft may operationally require the longer Runway 16R/34L, or pilots may prefer a departure from 16R instead of 16L so they have a shorter taxi. If in doubt, ask the pilot and try to be accommodating of these requests.</p>
 </div>
 <h3 id="runway-selection">Runway Selection</h3>
 <p>When <strong><abbr title="Parallel Runway Operations">PROPS</abbr></strong> are in progress, aircraft shall be assigned the following runways for departure (unless operationally required otherwise):</p>
@@ -10433,7 +10438,10 @@ Approval must be sought from the <strong>bolded parent position</strong> prior t
 </tr>
 </tbody>
 </table>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
 <p>Heavy aircraft, particularly international departures, will often operationally require <strong>Runway 34L/16R</strong>. Assigning <strong>Runway 34L/16R</strong> to aircraft from the international apron can also improve aerodrome efficiency due to the reduced taxi distance.</p>
+</div>
 <h4 id="sodprops_1"><abbr title="Simultaneous Opposite Direction Parallel Runway Operations">SODPROPS</abbr></h4>
 <p>During <abbr title="Simultaneous Opposite Direction Parallel Runway Operations">SODPROPS</abbr>, all departures shall be assigned RWY 16L, except:</p>
 <ul>
@@ -11018,7 +11026,7 @@ Approval must be sought from the <strong>bolded parent position</strong> prior t
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="August 18, 2026 02:04:10 UTC">August 18, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="August 19, 2026 02:37:38 UTC">August 19, 2026</span>
   </span>
 
     
