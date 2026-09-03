@@ -3375,14 +3375,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../enroute/melbourne/TBD/" class="md-nav__link">
+      <a href="../../enroute/melbourne/SNO/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Tailem Bend (TBD)
+    Snowy (SNO)
   
 
     
@@ -3403,14 +3403,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../enroute/melbourne/WOL/" class="md-nav__link">
+      <a href="../../enroute/melbourne/TBD/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Wollongong (WOL)
+    Tailem Bend (TBD)
   
 
     
@@ -7823,6 +7823,40 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="The Timeline">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#delay-figures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Delay Figures
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Delay Figures">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#delay-allocation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Delay Allocation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
@@ -8129,6 +8163,17 @@
     <span class="md-ellipsis">
       
         Pending Flights
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arrivals-from-within-the-tma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arrivals from within the TMA
       
     </span>
   </a>
@@ -9126,6 +9171,40 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="The Timeline">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#delay-figures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Delay Figures
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Delay Figures">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#delay-allocation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Delay Allocation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
@@ -9439,6 +9518,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#arrivals-from-within-the-tma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arrivals from within the TMA
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#slots" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -9528,7 +9618,7 @@
 <p>MAESTRO is a semi-automatic system, and will sequence arrivals generally without intervention.
 When the number of arriving aircraft increases, a flow controller is required to 'drive' the system, make adjustments as required, and communicate sequencing information to the respective ENR and APP controllers.</p>
 <p>MAESTRO is generally not used by TWR controllers, however it allows them to have situational awareness of the flow of inbound aircraft.</p>
-<p>The MAESTRO plugin can be accessed from the vatSys menu bar under <abbr title="The Flow Management System">TFMS</abbr>. By default, it operates in <strong>offline</strong> mode. Use the <code>SETUP</code> button to <a href="#synchronisation">connect</a> to the server, which allows all connected controllers to share sequence information.</p>
+<p>The MAESTRO plugin can be accessed from the vatSys menu bar under <abbr title="The Flow Management System">TFMS</abbr>. By default, it operates in <strong>offline</strong> mode. Click the Connection Status button (top-left of the Maestro window) to <a href="#synchronisation">connect</a> to the server, which allows all connected controllers to share sequence information.</p>
 <h2 id="installation">Installation</h2>
 <p>The vMaestro plugin should be <a href="https://github.com/YuKitsune/vMaestro/releases">downloaded</a> and placed in your vatSys Plugins folder.</p>
 <h2 id="abbreviations">Abbreviations</h2>
@@ -9560,48 +9650,89 @@ When the number of arriving aircraft increases, a flow controller is required to
 <td><code>STA_FF</code></td>
 <td><strong>Scheduled</strong> time of arrival at the feeder fix calculated by Maestro.</td>
 </tr>
+<tr>
+<td><code>TTG</code></td>
+<td>Time-to-Go from feeder fix to runway threshold.</td>
+</tr>
 </tbody>
 </table>
 <h2 id="how-it-works">How it works</h2>
 <p>Maestro tracks flights within 2 hours of the feeder fix or when an <abbr title="Flight Data Record">FDR</abbr> is activated for flights from departure airports. vatSys provides updated position information every 30 seconds, and Maestro recalculates estimates and sequence position based on the flight's state.</p>
-<p>Flights from departure airports are placed in the Pending list and must be manually inserted by the flow controller. These flights can be inserted prior to departure to absorb delay on the ground.</p>
-<p>Maestro calculates landing times (<code>STA</code>) based on estimates (<code>ETA</code>) and applies delays when the time between consecutive flights is less than the acceptance rate. The <code>STA_FF</code> is calculated by subtracting the arrival <code>ETI</code> from the <code>STA</code>.</p>
+<p>Flights from departure airports are placed in the Pending list and are automatically activated on departure. The flow controller may also insert them prior to departure so that any required delay can be absorbed on the ground.</p>
+<p>Maestro calculates landing times (<code>STA</code>) based on estimates (<code>ETA</code>) and applies delays when the time between consecutive flights is less than the acceptance rate. The <code>STA_FF</code> is derived from the <code>ETA_FF</code> plus the enroute portion of the required delay (the delay to be absorbed before the feeder fix).</p>
 <h3 id="the-timeline">The Timeline</h3>
 <p>Each timeline displays flights at their <code>STA</code> (runway view) or <code>STA_FF</code> (feeder view).
-Each tick on the timeline corresponds to one minute.</p>
+Generally, enroute views will be feeder views, and <abbr title="Terminal Manoeuvring Area">TMA</abbr>/flow views will be runway views.</p>
+<p>Each tick on the timeline corresponds to one minute.</p>
 <p>Flight labels are mirrored on either side of the timeline, and contain (from innermost to outermost):</p>
 <ol>
-<li><code>STA</code> (in feeder view) or <code>STA_FF</code> (in runway view)</li>
+<li><code>STA</code> (for feeder views) or <code>STA_FF</code> (for runway views)</li>
 <li>Assigned runway</li>
 <li>Callsign</li>
 <li>Approach Type (if applicable)</li>
 <li><code>#</code> if zero delay has been assigned</li>
 <li><code>%</code> if manual delay (other than zero) has been assigned</li>
-<li><code>+</code> if the flight must cross the feeder-fix at published speed</li>
+<li><code>+</code> if the flight must cross the feeder fix at profile speed</li>
 <li><code>*</code> if the <abbr title="Flight Data Record">FDR</abbr> is not coupled to a radar track</li>
-<li>Total delay required (based on the initial <code>ETA</code>)</li>
+<li>Delay required (based on the initial <code>ETA</code>)</li>
 <li>Delay remaining (based on the current <code>ETA</code>)</li>
 </ol>
-<p>The total delay required remains unchanged as the flight absorbs delay. The remaining delay progressively reduces as delay is absorbed. When the remaining delay reads <code>00</code>, all required delay has been absorbed.</p>
+<p>Each airport may define additional custom label layouts for specific positions; refer to individual <abbr title="Standard Operating Procedures">SOPs</abbr> for details.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/maestro.png" data-desc-position="bottom"><img alt="Maestro Window" src="../img/maestro.png"></a></p>
+<h4 id="delay-figures">Delay Figures</h4>
+<p>In enroute views, only the enroute portion of the required and remaining delay is displayed.
+In runway views, the total delay required and remaining is displayed.</p>
+<p>The total delay required remains unchanged as the flight absorbs delay. The remaining delay progressively reduces as delay is absorbed. When the remaining delay reads <code>0</code>, all required delay has been absorbed.</p>
+<h5 id="delay-allocation">Delay Allocation</h5>
+<p>Required delay is split between an <strong>enroute</strong> component and a <strong><abbr title="Terminal Manoeuvring Area">TMA</abbr></strong> component. The <abbr title="Terminal Manoeuvring Area">TMA</abbr> component varies between 0 and 5 minutes depending on the feeder fix and runway. For example, feeder fixes that result in straight-in approaches leave less room for vectoring, so less delay can be absorbed in the <abbr title="Terminal Manoeuvring Area">TMA</abbr>.</p>
+<p>Enroute views have been configured to show only the enroute component.
+Runway views are configured to show the <strong>total</strong> delay (ENR + <abbr title="Terminal Manoeuvring Area">TMA</abbr> delay).</p>
+<p>In the example below, an aircraft has 15 minutes of total required delay: 10 minutes allocated to enroute, and 5 minutes to the <abbr title="Terminal Manoeuvring Area">TMA</abbr>.
+The enroute label shows <strong>10</strong>, and the <abbr title="Terminal Manoeuvring Area">TMA</abbr> label shows <strong>15</strong>.</p>
+<div style="display: flex; gap: 1em;">
+  <figure style="flex: 1; text-align: center; margin: 0;">
+    <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/maestro-enr1.png" data-desc-position="bottom"><img src="../img/maestro-enr1.png" alt="Enroute view"></a>
+    <figcaption>Enroute view</figcaption>
+  </figure>
+  <figure style="flex: 1; text-align: center; margin: 0;">
+    <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/maestro-tma1.png" data-desc-position="bottom"><img src="../img/maestro-tma1.png" alt="TMA view"></a>
+    <figcaption>TMA view</figcaption>
+  </figure>
+</div>
+
+<p>By the time the aircraft reaches the feeder fix, 9 of the 10 enroute minutes have been absorbed.
+The enroute remaining delay drops to <strong>1</strong>, while the <abbr title="Terminal Manoeuvring Area">TMA</abbr> remaining delay is now <strong>6</strong> (the 1 minute not absorbed enroute, plus the original 5 minutes of <abbr title="Terminal Manoeuvring Area">TMA</abbr> delay).</p>
+<div style="display: flex; gap: 1em;">
+  <figure style="flex: 1; text-align: center; margin: 0;">
+    <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/maestro-enr2.png" data-desc-position="bottom"><img src="../img/maestro-enr2.png" alt="Enroute view after feeder fix"></a>
+    <figcaption>Enroute view</figcaption>
+  </figure>
+  <figure style="flex: 1; text-align: center; margin: 0;">
+    <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/maestro-tma2.png" data-desc-position="bottom"><img src="../img/maestro-tma2.png" alt="TMA view after feeder fix"></a>
+    <figcaption>TMA view</figcaption>
+  </figure>
+</div>
+
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>After a flight has passed the feeder fix, the <code>ETA</code> is calculated based on the <code>ATO</code> of the feeder fix, thus, the remaining delay figure will not change once the flight enters the <abbr title="Terminal Manoeuvring Area">TMA</abbr>.</p>
+<p>Once an aircraft passes the feeder fix, its <code>ETA</code> stops updating, so delay figures on the label will not change until the next processing cycle after feeder fix passage.</p>
 </div>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/maestro.png" data-desc-position="bottom"><img alt="Maestro Window" src="../img/maestro.png"></a></p>
 <h3 id="flight-states">Flight States</h3>
 <p>Maestro uses various states that affect how flights are processed. Each state is indicated by a specific color on the flight label:</p>
-<p><strong><span style="color: rgb(255, 205, 105); background-color: rgb(160, 170, 170);">Unstable</span></strong>: All new flights start in this state and remain unstable for at least 5 minutes. After each update, unstable flights are re-positioned in the sequence based on their calculated <code>ETA</code>, and their <code>STA_FF</code> and <code>STA</code> times are re-calculated.</p>
-<p><strong><span style="color: rgb(0, 0, 96); background-color: rgb(160, 170, 170);">Stable</span></strong>: Flights become stable 25 minutes prior to the <code>ETA_FF</code>. Stable flights keep their position in the sequence unless a flight appears, disappears, or moves before it. Stable flights can be displaced by a preceding flight being moved by controller action or a new flight entering the sequence with an earlier <code>ETA_FF</code>.</p>
-<p><strong><span style="color: rgb(255, 255, 255); background-color: rgb(160, 170, 170);">Super Stable</span></strong>: Flights become super stable at the original <code>ETA_FF</code>. Super stable flights are fixed in position. All new flights are positioned after super stable flights. Super stable flights can only be moved manually by controller interaction.</p>
-<p><strong><span style="color: rgb(96, 0, 0); background-color: rgb(160, 170, 170);">Frozen</span></strong>: Flights become frozen within 15 minutes of the <code>STA</code>. No changes can be made to frozen flights. They remain locked in their scheduled position and time.</p>
-<p><strong><span style="color: rgb(0, 235, 235); background-color: rgb(160, 170, 170);">Landed</span></strong>: Flights become landed at the <code>STA</code>. No changes can be made to landed flights. The last 5 landed flights remain in the system in case of an overshoot, after which they are automatically removed.</p>
+<p><strong><span style="color: rgb(255, 205, 105); background-color: rgb(160, 170, 170);">Unstable</span></strong>: All new flights start in this state and remain unstable for at least 5 minutes. On each update, the full processing cycle runs: estimates are recalculated, the flight is repositioned in the sequence, and scheduling assigns a runway and <code>STA</code>. The runway and approach type may change if an earlier <code>STA</code> is available on an alternative runway.</p>
+<p><strong><span style="color: rgb(0, 0, 96); background-color: rgb(160, 170, 170);">Stable</span></strong>: Flights become Stable 25 minutes prior to the <code>ETA_FF</code>. Stable flights keep their position in the sequence unless displaced by controller action on a preceding flight, or a new flight entering with an earlier <code>ETA</code>. There is no alert when required delays change; controllers should regularly review delay figures.</p>
+<p><strong><span style="color: rgb(255, 255, 255); background-color: rgb(160, 170, 170);">Super Stable</span></strong>: Flights become SuperStable at the original <code>ETA_FF</code> (the <code>ETA_FF</code> at the time they became Stable). SuperStable flights are fixed in position. All new flights are positioned after them. Displacement only occurs through controller action on this flight or a preceding flight.</p>
+<p><strong><span style="color: rgb(96, 0, 0); background-color: rgb(160, 170, 170);">Frozen</span></strong>: Flights become Frozen within 15 minutes of the <code>STA</code>. Frozen flights cannot be displaced at all, even by controller actions.</p>
+<p><strong><span style="color: rgb(0, 235, 235); background-color: rgb(160, 170, 170);">Landed</span></strong>: Flights become Landed at the <code>STA</code>. The last 5 landed flights remain visible in case of an overshoot, after which they are automatically removed.</p>
 <h3 id="delaying-action">Delaying Action</h3>
 <p>The delay figure on the flight label is color coded to indicate the suggested delaying action:</p>
 <ul>
-<li><strong><span style="color: rgb(0, 105, 0); background-color: rgb(160, 170, 170);">Expedite</span></strong>: The aircraft needs to make up the time shown (a minus sign will be in front of the delay number)</li>
-<li><strong><span style="color: rgb(0, 0, 96); background-color: rgb(160, 170, 170);">No delay</span></strong>: No delaying action required. The aircraft can maintain their profile speed.</li>
-<li><strong><span style="color: rgb(0, 235, 235); background-color: rgb(160, 170, 170);">Speed reduction</span></strong>: A short delay is required for the flight to meet their <code>STA</code>.</li>
-<li><strong><span style="color: rgb(235, 235, 0); background-color: rgb(160, 170, 170);">Holding recommended</span></strong>: Extended delay is required.</li>
+<li><strong><span style="color: rgb(0, 105, 0); background-color: rgb(160, 170, 170);">Expedite</span></strong>: The aircraft needs to speed up, and make up the time shown (a minus sign will be in front of the delay number)</li>
+<li><strong><span style="color: rgb(0, 0, 96); background-color: rgb(160, 170, 170);">No delay</span></strong>: No delaying action required.</li>
+<li><strong><span style="color: rgb(0, 0, 96); background-color: rgb(160, 170, 170);">Resume</span></strong>: Very small delay remaining; aircraft will absorb it by resuming track (e.g., completing a turn out of holding).</li>
+<li><strong><span style="color: rgb(0, 235, 235); background-color: rgb(160, 170, 170);">Speed reduction</span></strong>: Delay can be absorbed linearly using speed control or vectoring.</li>
+<li><strong><span style="color: rgb(255, 255, 255); background-color: rgb(160, 170, 170);">Path Stretching</span></strong>: Delay needs to be absorbed in the <abbr title="Terminal Manoeuvring Area">TMA</abbr>.</li>
+<li><strong><span style="color: rgb(235, 235, 0); background-color: rgb(160, 170, 170);">Holding</span></strong>: Extended delay is required.</li>
 </ul>
 <h2 id="interactions">Interactions</h2>
 <p>Right-click on a flight label to access the following functions:</p>
@@ -9720,6 +9851,10 @@ Each tick on the timeline corresponds to one minute.</p>
 <h3 id="estimate-accuracy">Estimate Accuracy</h3>
 <p>Ensure the <code>ETA_FF</code> is accurate at least 10 minutes prior to the feeder fix. If the system estimate is inaccurate, use the Change ETA_FF function (right-click the flight, select Change ETA_FF) to manually adjust it.</p>
 <p>Remove any PETOs (Pilot Estimated Time Over) that may affect the accuracy of the system estimates.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>If the ETA_FF is inaccurate, check the TAS in the flight plan is accurate.</p>
+</div>
 <h3 id="re-routing">Re-routing</h3>
 <p>When re-routing a flight via a new feeder fix, use the Recompute function (right-click the flight, select Recompute) after the re-route has been processed. This will recalculate the flight's feeder fix, estimates, and position in the sequence.</p>
 <h3 id="high-priority-flights">High Priority Flights</h3>
@@ -9775,7 +9910,7 @@ Each tick on the timeline corresponds to one minute.</p>
 <li>Pending flights that need to be inserted</li>
 </ul>
 <h3 id="sequence-adjustments">Sequence Adjustments</h3>
-<p>Adjust the sequence as required using the available functions (Move Flight, Change Runway, Manual Delay, etc.).</p>
+<p>Adjust the sequence as required using the available functions (Move Flight, Change Runway, Manual Delay, etc.) to minimise delay.</p>
 <p>Before making large adjustments to the sequence:</p>
 <ol>
 <li>Send the <code>Flow planning in progress...</code> coordination message to all positions</li>
@@ -9784,12 +9919,30 @@ Each tick on the timeline corresponds to one minute.</p>
 </ol>
 <p>This alerts controllers that delay figures may be temporarily inaccurate and prevents them from issuing outdated delay instructions.</p>
 <h3 id="pending-flights">Pending Flights</h3>
-<p>Regularly review the Pending list (click <code>DEPS</code>) and insert flights from departure airports at appropriate times.</p>
-<p>Coordinate with relevant units regarding pending flights, and advise them of the expected delay.</p>
+<p>Flights from designated departure airports (i.e. those within approximately 30 to 45 minutes flight time that will track via a feeder fix) appear in the Pending list and are inserted using the <code>DEPS</code> button.
+Maestro will automatically calculate a sequence position and any required delay based on the selected Take-Off time.</p>
+<p>Periodically review the Pending list and insert flights when notified of their intention to depart.
+Coordinate with relevant units and advise them of the expected delay and landing time.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>Maestro will calculate delays for pending flights on the ground.
-Advise pilots of the expected delay prior to departure to allow them to absorb the delay on the ground rather than in the air.</p>
+<p>By activating flights early, Maestro can calculate delays for flights still on the ground.
+Advise pilots of the expected delay and landing time prior to departure to allow them to absorb the delay on the ground rather than in the air.
+The remaining delay does not update until they depart and are correlated to a radar track.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When a pending flight departs from a nearby aerodrome with an active tower position (for example, Coffs Harbour, Canberra, or Albury), Flow may arrange coordination with the relevant tower during periods of high traffic, so that Flow is advised when the aircraft commences taxi. This allows Flow to activate the flight at the correct time and advise of any delay that can be absorbed on the ground.</p>
+</div>
+<h3 id="arrivals-from-within-the-tma">Arrivals from within the <abbr title="Terminal Manoeuvring Area">TMA</abbr></h3>
+<p>Aircraft departing from aerodromes within the <abbr title="Terminal Manoeuvring Area">TMA</abbr> that will <strong>not</strong> track via a feeder fix cannot be automatically sequenced by Maestro.
+These flights must be inserted directly onto the ladder using the <code>Insert Flight</code> function (right-click a flight or the ladder, select <code>Insert Flight</code>).</p>
+<div class="admonition warning">
+<p class="admonition-title">Important</p>
+<p>When inserting a <abbr title="Terminal Manoeuvring Area">TMA</abbr> departure using <code>Insert Flight</code>, the flight is placed at the time you select. Maestro will not calculate a sequence position or delay.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When an aerodrome within the <abbr title="Terminal Manoeuvring Area">TMA</abbr> has an active tower position (for example, Bankstown, Camden, Moorabbin, Essendon, Archerfield, or Jandakot), Flow may arrange coordination with the relevant tower during periods of high traffic, so that Flow is advised when the aircraft commences taxi. This allows Flow to insert the flight onto the ladder at an appropriate time and advise the landing time.</p>
 </div>
 <h3 id="slots">Slots</h3>
 <p>Create slots as required to restrict arrivals and manage traffic flow. Slots reserve runway capacity for special operations or configuration changes.</p>
@@ -9811,9 +9964,10 @@ Advise pilots of the expected delay prior to departure to allow them to absorb t
 <li>Once completed, send the <code>Maestro delay times accurate...</code> message to all positions</li>
 </ol>
 <p>When scheduling a future configuration change, ensure the transition time allows sufficient buffer for aircraft in the sequence to land under the current configuration.</p>
+<p>If only the acceptance rate needs to change, use the Change Landing Rates function rather than a full configuration change. Configuration changes recompute the entire sequence from the transition point, which may cause unnecessary disruption.</p>
 <h2 id="synchronisation">Synchronisation</h2>
 <p>When connected to the Maestro server, the sequence is synchronised between all connected controllers. This allows multiple controllers to view and interact with the same sequence in real-time.</p>
-<p>Connection to the Maestro server is established using the <code>SETUP</code> button in the Configuration Zone.</p>
+<p>Connection to the Maestro server is established by clicking the Connection Status button (top-left of the Maestro window) to open the connection settings.</p>
 <h3 id="permissions">Permissions</h3>
 <p>When Flow is online, different positions have different levels of access to Maestro functions.
 The following table shows which functions are available to each position:</p>
@@ -9968,19 +10122,19 @@ The following table shows which functions are available to each position:</p>
 <td>Connected to the Maestro server but not yet connected to VATSIM. No data is synchronised.</td>
 </tr>
 <tr>
-<td><code>FMP</code></td>
+<td><code>FLOW</code></td>
 <td>Connected as Flow. Your instance processes the sequence and distributes it to other controllers.</td>
 </tr>
 <tr>
 <td><code>APP</code></td>
-<td>Connected as Approach. Some functions are restricted (see <a href="#permissions">Permissions</a>).</td>
+<td>Connected as Approach. A Flow controller is online. Some functions are restricted (see <a href="#permissions">Permissions</a>).</td>
 </tr>
 <tr>
 <td><code>ENR</code></td>
-<td>Connected as Enroute. Some functions are restricted (see <a href="#permissions">Permissions</a>).</td>
+<td>Connected as Enroute. A Flow controller is online. Some functions are restricted (see <a href="#permissions">Permissions</a>).</td>
 </tr>
 <tr>
-<td><code>ENR/FMP</code> or <code>APP/FMP</code></td>
+<td><code>ENR/FLOW</code> or <code>APP/FLOW</code></td>
 <td>Connected as Enroute or Approach with Flow authority. No dedicated Flow controller is online. All functions are available.</td>
 </tr>
 <tr>
@@ -10009,7 +10163,7 @@ The following table shows which functions are available to each position:</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 19, 2026 12:39:04 UTC">March 19, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="August 27, 2026 04:45:03 UTC">August 27, 2026</span>
   </span>
 
     

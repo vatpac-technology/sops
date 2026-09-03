@@ -2678,7 +2678,7 @@ export const flowData = {
         "Jet & DH8D": {
             "15": {
                 "ANDOP": {
-                    "CODIE A STAR": {
+                    "CODIE A/S/X/Z STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     },
@@ -2688,7 +2688,7 @@ export const flowData = {
                     }
                 },
                 "AVDAN": {
-                    "CODIE A STAR": {
+                    "CODIE A/S/X/Z STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
                     },
@@ -2698,7 +2698,7 @@ export const flowData = {
                     }
                 },
                 "LOCKA": {
-                    "CODIE A STAR": {
+                    "CODIE A/S/X/Z STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     },
@@ -2708,7 +2708,7 @@ export const flowData = {
                     }
                 },
                 "OVLET": {
-                    "CODIE A STAR": {
+                    "CODIE A/S/X/Z STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     },
@@ -2718,7 +2718,7 @@ export const flowData = {
                     }
                 },
                 "PUNIT": {
-                    "CODIE A STAR": {
+                    "CODIE A/S/X/Z STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     },
@@ -2728,7 +2728,7 @@ export const flowData = {
                     }
                 },
                 "ZANEY": {
-                    "CODIE A STAR": {
+                    "CODIE A/S/X/Z STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     },
@@ -2746,7 +2746,7 @@ export const flowData = {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     },
-                    "NONUM W STAR": {
+                    "NONUM U/W STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     }
@@ -2760,7 +2760,7 @@ export const flowData = {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
                     },
-                    "NONUM W STAR": {
+                    "NONUM U/W STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
@@ -2774,7 +2774,7 @@ export const flowData = {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     },
-                    "NONUM W STAR": {
+                    "NONUM U/W STAR": {
                         "Normal Speed": 9,
                         "Reduced Speed": 9
                     }
@@ -2784,11 +2784,7 @@ export const flowData = {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     },
-                    "UPOLO V STAR": {
-                        "Normal Speed": 15,
-                        "Reduced Speed": 16
-                    },
-                    "UPOLO W STAR": {
+                    "UPOLO V/X STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
@@ -2796,43 +2792,43 @@ export const flowData = {
             },
             "33": {
                 "ANDOP": {
-                    "HENDO A STAR": {
+                    "HENDO A/Q/Y STAR": {
                         "Normal Speed": 21,
                         "Reduced Speed": 22
                     },
-                    "TOTTY W STAR": {
+                    "TOTTY U/W STAR": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
                     }
                 },
                 "BARIA": {
-                    "HENDO A STAR": {
+                    "HENDO A/Q/Y STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
                     }
                 },
                 "ISNER": {
-                    "HENDO A STAR": {
+                    "HENDO A/Q/Y STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
                     },
-                    "TOTTY W STAR": {
+                    "TOTTY U/W STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
                 "NORMA": {
-                    "HENDO A STAR": {
+                    "HENDO A/Q/Y STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     },
-                    "TOTTY W STAR": {
+                    "TOTTY U/W STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 14
                     }
                 },
                 "OVLET": {
-                    "HENDO A STAR": {
+                    "HENDO A/Q/Y STAR": {
                         "Normal Speed": 22,
                         "Reduced Speed": 23
                     },
@@ -2840,27 +2836,31 @@ export const flowData = {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     },
-                    "KEEWI X STAR": {
+                    "KEEWI S/X STAR": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
+                    },
+                    "KEEWI Q/Y STAR": {
+                        "Normal Speed": 21,
+                        "Reduced Speed": 22
                     }
                 },
                 "PUNIT": {
-                    "HENDO A STAR": {
+                    "HENDO A/Q/Y STAR": {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
                     },
-                    "TOTTY W STAR": {
+                    "TOTTY U/W STAR": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
                     }
                 },
                 "VEKBI": {
-                    "HENDO A STAR": {
+                    "HENDO A/Q/Y STAR": {
                         "Normal Speed": 24,
                         "Reduced Speed": 25
                     },
-                    "TOTTY W STAR": {
+                    "TOTTY U/W STAR": {
                         "Normal Speed": 22,
                         "Reduced Speed": 23
                     }
@@ -2874,9 +2874,13 @@ export const flowData = {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     },
-                    "KEEWI X STAR": {
+                    "KEEWI S/X STAR": {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
+                    },
+                    "KEEWI Q/Y STAR": {
+                        "Normal Speed": 22,
+                        "Reduced Speed": 23
                     }
                 },
                 "LOCKA": {
@@ -2888,9 +2892,13 @@ export const flowData = {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     },
-                    "KEEWI X STAR": {
+                    "KEEWI S/X STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
+                    },
+                    "KEEWI Q/Y STAR": {
+                        "Normal Speed": 22,
+                        "Reduced Speed": 23
                     }
                 },
                 "ZANEY": {
@@ -2902,7 +2910,7 @@ export const flowData = {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     },
-                    "KEEWI X STAR": {
+                    "KEEWI S/X STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
@@ -2912,7 +2920,7 @@ export const flowData = {
         "Non-Jet": {
             "15": {
                 "ANDOP": {
-                    "CODIE A STAR": {
+                    "CODIE A/S/X/Z STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     },
@@ -2922,7 +2930,7 @@ export const flowData = {
                     }
                 },
                 "AVDAN": {
-                    "CODIE A STAR": {
+                    "CODIE A/S/X/Z STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     },
@@ -2932,7 +2940,7 @@ export const flowData = {
                     }
                 },
                 "LOCKA": {
-                    "CODIE A STAR": {
+                    "CODIE A/S/X/Z STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     },
@@ -2942,7 +2950,7 @@ export const flowData = {
                     }
                 },
                 "OVLET": {
-                    "CODIE A STAR": {
+                    "CODIE A/S/X/Z STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     },
@@ -2952,7 +2960,7 @@ export const flowData = {
                     }
                 },
                 "PUNIT": {
-                    "CODIE A STAR": {
+                    "CODIE A/S/X/Z STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     },
@@ -2962,7 +2970,7 @@ export const flowData = {
                     }
                 },
                 "ZANEY": {
-                    "CODIE A STAR": {
+                    "CODIE A/S/X/Z STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     },
@@ -2980,7 +2988,7 @@ export const flowData = {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
                     },
-                    "NONUM W STAR": {
+                    "NONUM U/W STAR": {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     }
@@ -2994,7 +3002,7 @@ export const flowData = {
                         "Normal Speed": 23,
                         "Reduced Speed": 24
                     },
-                    "NONUM W STAR": {
+                    "NONUM U/W STAR": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
                     }
@@ -3008,7 +3016,7 @@ export const flowData = {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
                     },
-                    "NONUM W STAR": {
+                    "NONUM U/W STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
                     }
@@ -3018,11 +3026,7 @@ export const flowData = {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     },
-                    "UPOLO V STAR": {
-                        "Normal Speed": 17,
-                        "Reduced Speed": 18
-                    },
-                    "UPOLO W STAR": {
+                    "UPOLO V/X STAR": {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     }
@@ -3030,43 +3034,43 @@ export const flowData = {
             },
             "33": {
                 "ANDOP": {
-                    "HENDO A STAR": {
+                    "HENDO A/Q/Y STAR": {
                         "Normal Speed": 24,
                         "Reduced Speed": 25
                     },
-                    "TOTTY W STAR": {
+                    "TOTTY U/W STAR": {
                         "Normal Speed": 22,
                         "Reduced Speed": 23
                     }
                 },
                 "BARIA": {
-                    "HENDO A STAR": {
+                    "HENDO A/Q/Y STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 14
                     }
                 },
                 "ISNER": {
-                    "HENDO A STAR": {
+                    "HENDO A/Q/Y STAR": {
                         "Normal Speed": 14,
                         "Reduced Speed": 15
                     },
-                    "TOTTY W STAR": {
+                    "TOTTY U/W STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
                 "NORMA": {
-                    "HENDO A STAR": {
+                    "HENDO A/Q/Y STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     },
-                    "TOTTY W STAR": {
+                    "TOTTY U/W STAR": {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
                 },
                 "OVLET": {
-                    "HENDO A STAR": {
+                    "HENDO A/Q/Y STAR": {
                         "Normal Speed": 25,
                         "Reduced Speed": 26
                     },
@@ -3074,27 +3078,31 @@ export const flowData = {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     },
-                    "KEEWI X STAR": {
+                    "KEEWI S/X STAR": {
                         "Normal Speed": 21,
                         "Reduced Speed": 22
+                    },
+                    "KEEWI Q/Y STAR": {
+                        "Normal Speed": 24,
+                        "Reduced Speed": 25
                     }
                 },
                 "PUNIT": {
-                    "HENDO A STAR": {
+                    "HENDO A/Q/Y STAR": {
                         "Normal Speed": 23,
                         "Reduced Speed": 24
                     },
-                    "TOTTY W STAR": {
+                    "TOTTY U/W STAR": {
                         "Normal Speed": 21,
                         "Reduced Speed": 22
                     }
                 },
                 "VEKBI": {
-                    "HENDO A STAR": {
+                    "HENDO A/Q/Y STAR": {
                         "Normal Speed": 27,
                         "Reduced Speed": 28
                     },
-                    "TOTTY W STAR": {
+                    "TOTTY U/W STAR": {
                         "Normal Speed": 25,
                         "Reduced Speed": 26
                     }
@@ -3108,9 +3116,13 @@ export const flowData = {
                         "Normal Speed": 18,
                         "Reduced Speed": 19
                     },
-                    "KEEWI X STAR": {
+                    "KEEWI S/X STAR": {
                         "Normal Speed": 21,
                         "Reduced Speed": 22
+                    },
+                    "KEEWI Q/Y STAR": {
+                        "Normal Speed": 25,
+                        "Reduced Speed": 26
                     }
                 },
                 "LOCKA": {
@@ -3122,9 +3134,13 @@ export const flowData = {
                         "Normal Speed": 17,
                         "Reduced Speed": 18
                     },
-                    "KEEWI X STAR": {
+                    "KEEWI S/X STAR": {
                         "Normal Speed": 20,
                         "Reduced Speed": 21
+                    },
+                    "KEEWI Q/Y STAR": {
+                        "Normal Speed": 25,
+                        "Reduced Speed": 26
                     }
                 },
                 "ZANEY": {
@@ -3136,7 +3152,7 @@ export const flowData = {
                         "Normal Speed": 16,
                         "Reduced Speed": 17
                     },
-                    "KEEWI X STAR": {
+                    "KEEWI S/X STAR": {
                         "Normal Speed": 19,
                         "Reduced Speed": 20
                     }
@@ -3572,6 +3588,12 @@ export const flowData = {
                         "Normal Speed": 12,
                         "Reduced Speed": 13
                     }
+                },
+                "ELROX": {
+                    "ELROX A/Z STAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    }
                 }
             },
             "05": {
@@ -3630,6 +3652,12 @@ export const flowData = {
                         "Normal Speed": 15,
                         "Reduced Speed": 16
                     }
+                },
+                "ELROX": {
+                    "ELROX Z STAR": {
+                        "Normal Speed": 6,
+                        "Reduced Speed": 6
+                    }
                 }
             }
         },
@@ -3657,8 +3685,12 @@ export const flowData = {
                 },
                 "ELROX": {
                     "ELROX V STAR": {
-                        "Normal Speed": 10,
-                        "Reduced Speed": 10
+                        "Normal Speed": 7,
+                        "Reduced Speed": 7
+                    },
+                    "ELROX Z STAR": {
+                        "Normal Speed": 8,
+                        "Reduced Speed": 8
                     },
                     "No STAR - Direct to IAF": {
                         "Normal Speed": 11,
@@ -3838,6 +3870,10 @@ export const flowData = {
                     }
                 },
                 "ELROX": {
+                    "ELROX A/Z STAR": {
+                        "Normal Speed": 12,
+                        "Reduced Speed": 13
+                    },
                     "ELROX V STAR": {
                         "Normal Speed": 12,
                         "Reduced Speed": 12
@@ -4042,6 +4078,10 @@ export const flowData = {
                     }
                 },
                 "ELROX": {
+                    "ELROX Z STAR": {
+                        "Normal Speed": 8,
+                        "Reduced Speed": 8
+                    },
                     "ELROX V STAR": {
                         "Normal Speed": 10,
                         "Reduced Speed": 10
@@ -4097,8 +4137,12 @@ export const flowData = {
                 },
                 "ELROX": {
                     "ELROX V STAR": {
-                        "Normal Speed": 12,
-                        "Reduced Speed": 12
+                        "Normal Speed": 9,
+                        "Reduced Speed": 9
+                    },
+                    "ELROX Z STAR": {
+                        "Normal Speed": 10,
+                        "Reduced Speed": 10
                     },
                     "No STAR - Direct to IAF": {
                         "Normal Speed": 12,
@@ -4278,9 +4322,17 @@ export const flowData = {
                     }
                 },
                 "ELROX": {
+                    "ELROX A STAR": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
+                    },
                     "ELROX V STAR": {
                         "Normal Speed": 13,
                         "Reduced Speed": 13
+                    },
+                    "ELROX Z STAR": {
+                        "Normal Speed": 16,
+                        "Reduced Speed": 17
                     },
                     "No STAR - Direct to IAF": {
                         "Normal Speed": 18,
@@ -4489,6 +4541,10 @@ export const flowData = {
                     "ELROX V STAR": {
                         "Normal Speed": 11,
                         "Reduced Speed": 11
+                    },
+                    "ELROX Z STAR": {
+                        "Normal Speed": 8,
+                        "Reduced Speed": 8
                     },
                     "No STAR - Direct to IAF": {
                         "Normal Speed": 11,
