@@ -33,6 +33,12 @@
         If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
 ## Departure and Arrival Procedures
+### YSBK
+#### Sequencing
+All sequencing, including ascertaining arrival intentions, is performed by BIK.
+
+!!! note
+    SY TCU may communicate [vertical restrictions](../../terminal/sydney.md#ysbk-operations) for YSBK arrivals during heads up coordination.
 
 ### YSSY
 #### STAR Assignment
