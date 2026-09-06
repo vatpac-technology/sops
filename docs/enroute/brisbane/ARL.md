@@ -38,7 +38,7 @@
 All sequencing, including ascertaining arrival intentions, is performed by BIK.
 
 !!! note
-    SY TCU may communicate [vertical restrictions](../../terminal/sydney.md#ysbk-operations) for YSBK arrivals during heads up coordination.
+    SY TCU may communicate [vertical restrictions](../../terminal/sydney/#ysbk-operations) for YSBK arrivals during heads up coordination.
 
 ### YSSY
 #### STAR Assignment

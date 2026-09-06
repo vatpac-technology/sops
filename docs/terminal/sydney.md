@@ -388,7 +388,7 @@ These aircraft will be assigned `A030` (unless otherwise coordinated) and should
     With high traffic levels during day VMC, it may be more efficient to process IFR departures via a [coded clearance](#bankstown-coded-clearances).
 
 #### Arrivals
-IFR aircraft inbound to YSBK will generally track via the **Z97 airway** from the west, the **Z88 airway** from the north, or via the **WHALE STAR** from the east. In all cases, **SBA** is responsible for issuing approach clearance to these aircraft.
+IFR aircraft inbound to YSBK will generally follow the [recommended routing](../../controller-skills/routes/#recommended-routes) via the **Z97 airway** from the west, the **Z88 airway** from the north, or the **WHALE STAR** from the east. In all cases, **SBA** is responsible for issuing approach clearance to these aircraft.
 
 SBA will [coordinate with BK ADC](#bk-adc) and clear the aircraft for the approach.
 
@@ -402,37 +402,28 @@ Successive RNP approaches in IMC should only be authorised after the first aircr
 
 Aircraft shall be processed as per the instructions below:
 
-??? "From the West"
+<figure markdown>
+![Recommended Arrival Routes into YSBK](img/bk_arrivals.png){ width="700" }
+  <figcaption>Recommended Arrival Routes into YSBK, with key waypoints shown.</figcaption>
+</figure>
+
+=== "From the West"
     Aircraft from the west do not meet the criteria for voiceless [coordination by Enroute](#arrivals-4) and will be heads up coordinated. A requirement to reach **A060 by WELSH** should be passed to Enroute to relay to these aircraft. This will help segregate them from aircraft on the AKMIR STAR, however there is no separation assurance provided by the AKMIR STAR past **MUBDI** unless the YSBK arrival is descended below their assigned level.
 
     Particular care should be exercised between aircraft inbound to YSBK on the Z97 airway and aircraft departing YSSY on the **ANKUB SID**. The interaction works best when the YSBK arrival is descended below the YSSY departure, although it may be necessary to provide vectors to maintain lateral separation between the pair until vertical separation assurance exists.
 
     The Z97 airway includes ESGID, which is the IAF for the RNP-Z approach. IFR aircraft should either be cleared for this approach or instructed to downgrade to VFR (if conditions are suitable) and processed via a coded clearance. In either case, **SBA** is responsible for issuing approach clearance or VFR tracking instructions.
 
-    <figure markdown>
-    ![Z97 airway](img/z97_airway.png){ width="700" }
-    <figcaption>Z97 airway</figcaption>
-    </figure>
-
-??? "From the North"
+=== "From the North"
     Aircraft from the north do not meet the criteria for voiceless [coordination by Enroute](#arrivals-4) and will be heads up coordinated. A requirement to reach **A070 by YAKKA** should be passed to Enroute to relay to these aircraft. This will establish the aircraft OCTA and keep the MEPIL STAR clear for aircraft inbound to YSSY.
 
     These aircraft shall be instructed to reach **A020 by OMUVU** and transferred to SBA prior to that position. **SBA** will issue airways clearance into the Class D airspace commencing at OMUVU.
 
     The Z88 airway includes NIXOD, which is the IAF for the RNP-N approach (which terminates in the circling area and is not associated with a specific runway). IFR aircraft should either be cleared for this approach or instructed to downgrade to VFR (if conditions are suitable) and processed via a coded clearance. In either case, **SBA** is responsible for issuing approach clearance or VFR tracking instructions.
-
-    <figure markdown>
-    ![Z88 airway](img/z88_airway.png){ width="700" }
-    <figcaption>Z88 airway</figcaption>
-    </figure>
-
-??? "From the East via the STAR"
+    
+=== "From the East via the STAR"
     Aircraft via the STAR meet the criteria for voiceless coordination by Enroute and should be processed via the STAR, then provided with vectors or cleared direct to the IAF for the most appropriate approach. This may involve processing by **SWA**, however **SBA** is responsible for issuing approach clearance via the RNP-Y or RNP-Z. Alternatively, aircraft may be instructed to downgrade to VFR (if conditions are suitable) and processed via a VFR coded clearance.
 
-    <figure markdown>
-    ![WHALE STAR](img/whale_star.png){ width="700" }
-    <figcaption>WHALE STAR</figcaption>
-    </figure>
 
 ### YSCN Operations
 #### Departures
