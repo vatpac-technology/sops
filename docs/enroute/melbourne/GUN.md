@@ -37,6 +37,9 @@ GUN assumes responsibility of the airspace to the North-West of the CB TCU above
 #### Sequencing
 All sequencing, including ascertaining arrival intentions, is performed by BIK.
 
+!!! note
+    SY TCU may communicate [vertical restrictions](../../terminal/sydney/#ysbk-operations) for YSBK arrivals during heads up coordination.
+
 ### YSCN
 #### Sequencing
 All sequencing, including ascertaining arrival intentions, is performed by BIK.
