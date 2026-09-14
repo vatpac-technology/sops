@@ -147,9 +147,11 @@ VFR fixed wing aircraft entering the CTR directly from Class G and helicopters t
 ## Runway Modes
 ### LAHSO
 !!! warning "Important"
-    Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
+    LAHSO is a complex runway mode requiring close attention by aerodrome, TCU, and enroute controllers. Controllers must ensure they are familiar with the specific [LAHSO procedures](../../controller-skills/runwaymanagement/#lahso) before implementing LAHSO.
 
-Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../controller-skills/runwaymanagement.md#lahso) for more information.
+    LAHSO is best run with a flow controller online.
+
+LAHSO in YPDN is most effective with jet aircraft utilising Runway 11/29 and light, non-jet aircraft utilising Runway 18/36.
 
 ## Flow
 ### Local Knowledge
