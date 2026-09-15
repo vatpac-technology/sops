@@ -135,7 +135,7 @@ Refer to [Helicopter Operations](./helicopters.md).
 
 ## LAHSO
 !!! warning "Important"
-    LAHSO is a complex runway mode requiring close attention by aerodrome, TCU, and enroute controllers. Controllers should ensure they are competent on it's use prior to accepting it as a runway mode.
+    LAHSO is a complex runway mode requiring close attention by aerodrome, TCU, and enroute controllers. Controllers must ensure they are familiar with the specific LAHSO procedures before implementing LAHSO.
 
     LAHSO is best run with a flow controller online.
 

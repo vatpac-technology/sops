@@ -117,11 +117,9 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 
 ##### LAHSO
 !!! warning "Important"
-    LAHSO is a complex runway mode requiring close attention by aerodrome, TCU, and enroute controllers. Controllers should ensure they are competent on it's use prior to accepting it as a runway mode.
+    LAHSO is a complex runway mode requiring close attention by aerodrome, TCU, and enroute controllers. Controllers must ensure they are familiar with the specific [LAHSO procedures](../../../controller-skills/runwaymanagement/#lahso) before implementing LAHSO.
 
     LAHSO is best run with a flow controller online.
-
-In accordance with the authorisation requirements above, YMML may utilise LAHSO during exceptionally busy events. Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../../controller-skills/runwaymanagement/#lahso) for more information.
 
 When splitting the stream inbound to BOOIN between RWY 27 and RWY 34, controllers should reroute aircraft for RWY 27 via the **BOYSE STAR**. Aircraft for RWY 34 should be cleared the **BOOIN A STAR**. This provides lateral separation assurance in the TMA.
 

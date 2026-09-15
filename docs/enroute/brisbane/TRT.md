@@ -67,9 +67,9 @@ TRT is responsible for sequencing aircraft arriving from the north/west. TRS is 
 
 ##### LAHSO
 !!! warning "Important"
-    Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
+    LAHSO is a complex runway mode requiring close attention by aerodrome, TCU, and enroute controllers. Controllers must ensure they are familiar with the specific [LAHSO procedures](../../../controller-skills/runwaymanagement/#lahso) before implementing LAHSO.
 
-In accordance with the authorisation requirements above, YPDN may utilise LAHSO during exceptionally busy events. Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../../controller-skills/runwaymanagement/#lahso) for more information.
+    LAHSO is best run with a flow controller online.
 
 ### YPTN
 #### Sequencing
