@@ -175,11 +175,9 @@ Helicopters requesting clearance to operate in the Snake Pit shall be cleared to
 ### Special Runway Operations
 #### LAHSO
 !!! warning "Important"
-    Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
+    LAHSO is a complex runway mode requiring close attention by aerodrome, TCU, and enroute controllers. Controllers must ensure they are familiar with the specific [LAHSO procedures](../../../controller-skills/runwaymanagement/#lahso) before implementing LAHSO.
 
-    Very little benefit is achieved by running LAHSO without a flow controller and it is almost exclusively reserved for our busiest events.
-
-Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../../controller-skills/runwaymanagement.md#lahso) for more information.
+    LAHSO is best run with a flow controller online.
 
 ##### Weather Conditions
 LAHSO may only be used where the weather conditions meet the following minimum requirements:
