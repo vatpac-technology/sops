@@ -12,7 +12,9 @@ An additional Non-Standard position for Sydney ACD will be used
 | [Sydney (Assistant) Delivery](#dual-acd-controller-operations)     | SY-C_DEL | N/A             | N/A | SY-C_DEL                              |
 
 ## Runway Modes
-**16 PROPS** and **34 PROPS** are the available Runway Modes, with equal preference. Any other Runway Mode may **only** be used with approval from the Events Coordinator.
+**16 PROPS** and **34 PROPS** are the *preferred* Runway Modes, with equal preference.
+
+Due to the nature of the event, a non-standard maximum crosswind limitation has been approved up to **30 knots**. A single runway mode should only be considered if the crosswind exceeds this figure.
 
 ## Workload Management
 Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../../client/towerstrips/#workflow). 
