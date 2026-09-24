@@ -158,6 +158,11 @@ YSWS uses four different SID designators to differentiate between different vari
 ### Approach Types
 The ATIS shall always have `EXP INST APCH` as the approach type.
 
+### Runway Mode
+| Mode     | ATIS Runway information      |
+| -------- | ---------------------------- |
+| RRO | `RECIPROCAL RWY OPS IN PROGRESS` |
+
 ### Operational Info
 The OPR INFO field should be updated to reflect the level of controlled airspace within the [SY CTA C10](../../../terminal/sydney/#sydney-cta-c10) airspace when it is lowered overnight.
 
