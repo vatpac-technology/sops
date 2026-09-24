@@ -62,7 +62,7 @@ To avoid creating conflict for SMC, ADC shall instruct all arriving aircraft to 
     **SY ADC**: "JST554, vacate via B9 to the right, runway 34L, cleared to land"
 
 ### Runway Efficiency
-The success of the event will be decided by ADC's ability to minimise runway occupancy and maximise runway efficiency. Where necessary, instruct landing aircraft to 'vacate without delay'.
+The success of the event will be decided by ADC's ability to minimise runway occupancy and maximise runway efficiency. Where necessary, instruct landing aircraft to '*vacate without delay*'.
 
 While runway crossings will be minimised, should a crossing be required, instruct a landing aircraft to report when they are assured of taking the assigned rapid exit. Once that assurance has been received, instruct SMC to cross the applicable aircraft (provided they are further upwind than the assured runway exit).
 
@@ -70,6 +70,11 @@ While runway crossings will be minimised, should a crossing be required, instruc
     **SY ADC**: "QFA451, report when assured of vacating via B9 to the right, runway 34L, cleared to land"
 
 If any aircraft need to depart during the arrival window, ensure that maximum efficiency is achieved by instructing them to line up as soon as the landing aircraft has cleared the threshold. Avoid go arounds at all costs, and if necessary, delay the departing aircraft where a gap between two arrivals is too tight.
+
+If necessary, provide traffic information on preceeding landing aircraft and clear the aircraft to land. If a clear collision risk exists, instruct the aircraft to go around.
+
+!!! phraseology
+    "JST521, traffic is an A320 on the runway shortly to vacate, runway 34R, cleared to land"
 
 ### WF Team Aircraft
 Most offical WorldFlight teams will conclude the event by flying the Scenic Arrival, including a low-level flight through Sydney Harbour. On completion of the harbour tracking, they will track to join the circuit in accordance with the table below:
@@ -92,7 +97,7 @@ These aircraft should be instructed to join the circuit and cleared for a visual
     **QFA25**: "Runway 34R, cleared to land, QFA25"
 
 #### Go Arounds
-Go arounds should be avoided at all costs. If necessary, provide traffic information to preceeding landing aircraft and clear the aircraft to land. If a clear collision risk exists, instruct the aircraft to go around.
+Go arounds should be avoided at all costs. 
 
 In the event of a go around, participating aircraft will climb straight ahead to `A030`. They should be instructed to rejoin the circuit without delay. If this is not possible, coordinate with the most appropriate TCU controller and transfer the aircraft to them, for vectors back for the most suitable approach.
 
