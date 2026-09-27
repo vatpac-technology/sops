@@ -4,17 +4,17 @@
 
 --8<-- "includes/abbreviations.md"
 
-## Runway Modes
+## Temporary Positions
+### Aerodrome Controllers
+**KA ACD**, a temporary Delivery position, is responsible for all of the [functions of ACD](#airways-clearance-delivery-acd) during the event.
 
-| Priority | Mode |
-| ---------- | --- |
-|  1 | 01 PROPS |
-|  2  | 19 PROPS |
+### Terminal Airspace
+For the duration of the event, YPKA will be reclassified as a Class C Radar Tower. **KA ADC is not responsible for any airspace**.
 
-*Single Runway* Operations and *SODPROPS* shall not be used.
+All existing Class D airspace is reclassified as Class C and two temporary surveillance TCU units are responsible for the airspace within 31 DME from `SFC` to `F185`. **KA APP** is responsible for the airspace north of the extended runway centreline, **KA DEP** is responsible for the airspace to the south.
 
 ## Workload Management
-Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../../client/towerstrips/#workflow).
+Due to the high workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../../client/towerstrips/#workflow).
 
 !!! tip
     The following OzStrips [keyboard shortcuts](../../../../client/towerstrips.md#keyboard-shortcuts) may assist controllers managing busy frequencies:
@@ -24,16 +24,17 @@ Due to the extreme workload expected for all positions, the use of the OzStrips 
 
 ## Airways Clearance Delivery (ACD)
 ### Flight Plan Compliance
-Ensure **all flight plans** are checked for compliance with the approved WF Route:
+Ensure **all flight plans** are checked for compliance with the approved WorldFlight route:
 
-`DCT SANEG H91 IGDAM H652 TESAT DCT`
+!!! note "Official Route"
+    TODO: YPKA-YBAS: `DCT RAFFY T85 SCHEE DCT`
 
 **OzStrips** will flag any *non-compliant* WF route.
 
 If an aircraft has filed an *incorrect* route and you need to give an amended clearance, this amendment must be specified by **individual private message**, prior to the PDC.
 
 !!! phraseology
-    **BN ACD:** *"AMENDED ROUTE CLEARANCE. CLEARED TO YSSY VIA SANEG H91 IGDAM H652 TESAT DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
+    TODO: *"AMENDED ROUTE CLEARANCE. DCT SANEG H91 IGDAM H652 TESAT DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
 
 ### WorldFlight Teams
 WorldFlight Teams will be highlighted by OzStrips and should receive priority at all stages of flight.
@@ -43,28 +44,14 @@ WorldFlight Teams will be highlighted by OzStrips and should receive priority at
 <figcaption>WF Team Highlight in OzStrips</figcaption>
 </figure>
 
-### Runway Selection
-Runway **01R/19R** will be the primary runway for departures.
+### Departure Instructions
+There are no SIDs at YPKA. All airways clearances must continue to follow the standard Class D airways clearance format (i.e. no SID or departure instructions issued in the clearance itself).
 
-**Heavy** and **Super** aircraft **must** be assigned Runway **01R/19R**.
-
-**Medium** and **Light** aircraft *may* be assigned Runway **01L/19L** at the discretion of the ACD controller to balance departing traffic.
-
-!!! note
-    Be mindful that 01L/19L Departures will incur additional delays, due to it being the primary arrival runway.
-
-### SID Selection
-
-| Runway | SID |
-| ---------- | --- |
-| 01L  | BN4 |
-| 01R  | SANEG2 |
-| 19L  | BN4 |
-| 19R  | BN4 |
+### Standard Assignable Level
+The [standard assignable level](#auto-release) has been changed for the event. All aircraft must be assigned the lower of RFL and `A040`.
 
 ### Departure Frequency
-Departures from Runway 01L and 19L shall be given the BDN frequency (133.45).  
-Departures from Runway 01R and 19R shall be given the BDS frequency (118.45).
+The departure frequency for all aircraft shall be KA DEP (**XXX.X**). TODO:
 
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect, prioritising those who connected first. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
@@ -77,65 +64,44 @@ The [PDC Indicator](../../../../client/towerstrips.md#strips) will be displayed 
 Work through the OzStrips Preactive bay from *bottom to top* when sending PDCs.
 
 ## Surface Movement Control (SMC)
-### Pushback Delays
-SMC Domestic and South will be responsible for delaying aircraft's pushback requests, in order to avoid overloading the taxiways.
+### Temporary Aprons & Taxiways
+A temporary **WorldFlight Apron** has been established between the main apron and taxiway E, accessible from taxiway F. Taxiway F has also been extended to the runway 26 threshold.
 
-If there are more than **5** aircraft in the queue at the Holding Point for *any runway*, do not approve any more pushback requests.
+### Pushback Delays
+SMC is responsible for delaying aircraft's pushback/taxi requests, in order to avoid overloading the taxiways.
+
+If there are more than **5** aircraft in the queue at the holding point, do not approve any more pushback requests.
+
+!!! note
+    The real-world bays are all 'power off' and do not require a pushback for most aircraft. These aircraft will generally request taxi on first contact with SMC and should be queued in the **Cleared Bay** until a departure slot is available.
 
 #### OzStrips
 All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../../../../client/towerstrips/#workflow) for OzStrips.
 
 Ensure the Queue function is used to actively to keep track of the order of requests.
 
-### A388 Parking
-There are only 6 stands suitable for A388 parking (refer to YBBN Apron Chart). If these are all occupied, A388 aircraft must be instructed to park off-apron on grass.
-
 ## Tower Control (ADC)
 ### Departure Spacing
-Ensure that a minimum of **90 second** spacing is applied between subsequent departures from the same runway.
+Ensure that a minimum of **2 minutes** spacing is applied between subsequent event departures.
 
-### BN4 Assigned Heading
-Runway 01L, 19L and 19R Departures will be assigned the **BN4** RADAR SID, with the following Assigned Heading:
+### Departure Instructions
+There are no SIDs at YPKA. All aircraft shall be instructed to fly a heading with their takeoff clearance, in accordance with [auto release](#auto-release).
 
-| Runway | Assigned Heading |
-| ---------- | --- |
-| 01L      | H340 |
-| 19L      | H090 |
-| 19R      | H210 |
+!!! phraseology
+    **KA ADC**: "QFA421, turn left heading 180, runway 26, cleared for takeoff"
 
 ## ATIS
-### Approach Expectation
-#### 01 PROPS
-
-| Cloud Base             | Visibility     | Approach                             |
-| -----------------------| -------------- | -------------------------------------|
-| >3000FT                | >5000M         | `EXP INDEP VISUAL APCH. DO NOT PASS THRU ASSIGNED RWY CL` |
-| Between 2000FT & 3000FT| >5000M         | `EXP INST APCH THEN INDEP VISUAL APCH WHEN VISUAL. DO NOT PASS THRU ASSIGNED RWY CL`|
-| Below 2000FT **or**    | <5000M         | `EXP INSTR APCH`                |
-
-#### 19 PROPS
-
-| Cloud Base / Visibility             | Approach                             |
-| -----------------------| -------------------------------------|
-| >1700FT **and** >5000m  | `EXP INDEP VISUAL APCH. DO NOT PASS THRU ASSIGNED RWY CL` |
-| <1700FT **or** <5000m    | `EXP INSTR APCH`                |
-
-### OPR INFO
 The ATIS OPR INFO shall include:  
-`EXP CLR VIA PDC. INDEPENDENT PARL APPROACHES AND DEPS IN PROGRESS`
+`EXP CLR VIA PDC. EXP DEPARTURE DELAYS DUE EVENT`
 
 ## Coordination
-### BDN/BDS
+### KA TCU
 #### Auto Release
-Available for aircraft assigned `A060`, and:
+Available for aircraft assigned the lower of `A040` and RFL, and:
 
-| Runway | SID | Assigned Heading |
-| ---------- | --- | --- |
-| 01L  | BN4 | H340 |
-| 01R  | SANEG2 | - |
-| 19L  | BN4 | H090 |
-| 19R  | BN4 | H210 |
+| Runway | Assigned Headings |
+| ------ | ----------------- |
+| 08     | H050<br>H100      |
+| 26     | H180<br>H280      |
 
-#### Departures Controller
-Departures from Runway 01L and 19L shall be handed off to BDN.  
-Departures from Runway 01R and 19R shall be handed off to BDS.
+Next coordination is required for all non-event aircraft.
