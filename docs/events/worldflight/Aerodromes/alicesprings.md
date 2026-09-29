@@ -74,7 +74,9 @@ Work through the OzStrips Preactive bay from *bottom to top* when sending PDCs.
 
 ## Surface Movement Control (SMC)
 ### Temporary Aprons & Taxiways
-A temporary **WorldFlight Apron** has been established between the main apron and the runway 30 threshold. Taxiway A has been extended to the runway 30 threshold and a temporary rapid exit has been added to runway 12 between taxiway E and the runway 30 threshold.
+A temporary **WorldFlight Apron** has been established between the main apron and the runway 30 threshold. 
+
+Taxiway A has been extended to both the runway 12 & 30 thresholds and a temporary rapid exit has been added to runway 12 between taxiway E and the runway 30 threshold.
 
 ### Pushback Delays
 SMC is responsible for delaying aircraft's pushback/taxi requests, in order to avoid overloading the taxiways.
