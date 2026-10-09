@@ -17,7 +17,7 @@ Here is a complete list of standard annotations controllers should be entering i
 | ----------- | ----------------- | ------- |
 | Location indicator | Four-letter ICAO designator.<br />*Note: can be reduced if unlikely to cause confusion.* | YBBN<br /> BN |
 | Waypoint name | Five-letter designator<br />*Note: can be reduced if unlikely to cause confusion.* | RIVET<br />RIV |
-| Place-brearing-distance locations | Position expressed as a bearing and distance from a datum.<br />(place)(bearing)(distance) | SY335045<br />*ie: SY DME, R335, 45 NM* |
+| Place-bearing-distance locations | Position expressed as a bearing and distance from a datum.<br />(place)(bearing)(distance) | SY335045<br />*ie: SY DME, R335, 45 NM* |
 | Amended route | When assigned a route that differs to that planned | AR |
 | Assigned Heading | H(heading) | H350 |
 | Track Extended Centreline | | TEC |
