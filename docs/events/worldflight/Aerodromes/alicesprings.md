@@ -60,7 +60,7 @@ All event departures shall be issued the **KALUG** SID.
 The [standard assignable level](#auto-release) has been changed for the event. All aircraft must be assigned the lower of RFL and `A060`.
 
 ### Departure Frequency
-The departure frequency for all aircraft shall be AS DEP (**XXX.X**). TODO:
+The departure frequency for all aircraft shall be AS DEP (**122.4**).
 
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect, prioritising those who connected first. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.

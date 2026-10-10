@@ -51,7 +51,7 @@ There are no SIDs at YPKA. All airways clearances must continue to follow the st
 The [standard assignable level](#auto-release) has been changed for the event. All aircraft must be assigned the lower of RFL and `A040`.
 
 ### Departure Frequency
-The departure frequency for all aircraft shall be KA DEP (**XXX.X**). TODO:
+The departure frequency for all aircraft shall be KA DEP (**119.8**).
 
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect, prioritising those who connected first. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
