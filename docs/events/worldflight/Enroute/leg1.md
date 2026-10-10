@@ -5,19 +5,32 @@
 --8<-- "includes/abbreviations.md"
 
 ## Sector Responsibilities
-### Ocean (OCN)
-OCN will receive two NZAA-bound flows from SY TCU. These flows must be merged by GEROS.
+### Gundagai (GUN)
+GUN will receive a single stream of traffic via KADOM. Ensure sufficient vertical separation exists between any aircraft operating in close proximity.
 
-!!! warning "Important"
-    Ensure adequate vertical separation exists between nearby aircraft and provide proactive level assignments if necessary to maintain separation assurance for all downstream sectors.
+!!! note
+    Due to the long sector length, it is likely that overtaking will take place during the event. Aircraft **should not** be issued with speed instructions unless required to maintain separation assurance.
 
-OCN will also receive a single NZOH-bound flow from SY TCU, positioned south of the NZAA flows.
+### Armidale (ARL)
+ARL will receive a single stream of traffic from the SY TMA assigned Heading 310. These aircraft should be vectored until clear of the GUN sector, then cleared direct to **ENPAG**. Ensure sufficient vertical separation exists between any aircraft operating in close proximity.
 
-### Tasman (TSN)
-TSN will have temporary surveillance coverage provided by additional floating ADS-B stations in the sector. Normal surveillance separation standards may be used between all identified aircraft.
+No coordination is required with ASP(BKE) prior to clearing an aircraft direct to ENPAG.
 
-### Wollongong (WOL)
-WOL will not be staffed for the event, and they are taken to have *No Restrictions or Requirements* on Event traffic.
+### Alice Springs (ASP)
+ASP will receive two streams of traffic, one from GUN and one from ARL. Both will be merging at **ENPAG**.
+
+Ensure adequate vertical separation exists between aircraft operating in close proximity and pay particular attention to aircraft approaching the merge point.
+
+!!! note
+    Due to the long sector length, it is likely that overtaking will take place during the event. Aircraft **should not** be issued with speed instructions unless required to maintain separation assurance.
+
+### Territory (TRT)
+TRT will receive one stream of traffic from ASP. Ensure adequate vertical separation exists between aircraft operating in close proximity.
+
+!!! note
+    Due to the long sector length, it is likely that overtaking will take place during the event. Aircraft **should not** be issued with speed instructions unless required to maintain separation assurance.
+
+Event aircraft shall be transferred to WAAF approaching the FIR boundary. Voiceless coordination exists for all event aircraft tracking via their filed route.
 
 ### All Other Sectors
 Due to the sheer volume of traffic departing from YSSY, arrivals will **not be possible** during the departure event. Any aircraft inbound to YSSY should be strongly encouraged to divert to another aerodrome.
@@ -31,24 +44,13 @@ WorldFlight Teams will be highlighted by default and should receive priority at 
 </figure>
 
 ## Coordination
-### SY TCU to OCN
+### SY TCU to ARL
 Voiceless for all aircraft:
 
 - Assigned the lower of `F280` or the `RFL`; and  
-- Tracking via **GEROS** or **PLUGA**; or  
-- Assigned **H070**
+- Assigned **H310**
 
-All other aircraft going to OCN CTA will be **Heads-up** Coordinated.
+All other aircraft going to ARL CTA will be **Heads-up** Coordinated.
 
-### OCN and WOL
-WOL will have *No Restrictions or Requirements* on Event traffic. Aircraft transiting WOL airspace can be handed off directly from SY TCU to OCN.
-
-### OCN to TSN
-Voiceless for all aircraft tracking via **GEROS**.
-
-All other aircraft going to TSN CTA will be **Heads-up** Coordinated.
-
-### TSN to NZZO
-Voiceless for all aircraft tracking via **LEGAN**.
-
-All other aircraft going to NZZO CTA will be **Heads-up** Coordinated.
+### TRT to WAAF
+Voiceless for all event aircraft tracking via their filed route.
