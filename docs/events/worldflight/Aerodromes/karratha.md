@@ -8,6 +8,10 @@
 ### Aerodrome Controllers
 **KA ACD**, a temporary Delivery position, is responsible for all of the [functions of ACD](#airways-clearance-delivery-acd) during the event.
 
+| Name                   | Callsign              | Frequency   | Login ID      |
+| ---------------------- | --------------------- | ----------- | ------------- |
+| **Karratha ACD**       | **Karratha Delivery** | **124.500** | **KA_DEL**    |
+
 ### Terminal Airspace
 For the duration of the event, YPKA will be reclassified as a Class C Radar Tower. **KA ADC is not responsible for any airspace**.
 
@@ -66,6 +70,11 @@ Work through the OzStrips Preactive bay from *bottom to top* when sending PDCs.
 ## Surface Movement Control (SMC)
 ### Temporary Aprons & Taxiways
 A temporary **WorldFlight Apron** has been established between the main apron and taxiway E, accessible from taxiway F. Taxiway F has also been extended to the runway 26 threshold.
+
+<figure markdown>
+![Temporary Aerodrome Changes](../img/ypka_ad.png){ width="800" }
+<figcaption>Temporary Aerodrome Changes</figcaption>
+</figure>
 
 ### Pushback Delays
 SMC is responsible for delaying aircraft's pushback/taxi requests, in order to avoid overloading the taxiways.

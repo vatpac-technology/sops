@@ -10,6 +10,11 @@
 
 **AS ACD**, a temporary Delivery position, is responsible for all of the [functions of ACD](#airways-clearance-delivery-acd) during the event.
 
+| Name                   | Callsign              | Frequency   | Login ID      |
+| ---------------------- | --------------------- | ----------- | ------------- |
+| **Alice Springs SMC**  | **Alice Ground**      | **119.900** | **AS_GND**    |
+| **Alice Springs ACD**  | **Alice Delivery**    | **126.800** | **AS_DEL**    |
+
 ### Terminal Airspace
 For the duration of the event, YBAS will be reclassified as a Class C Radar Tower. **AS ADC is not responsible for any airspace**.
 
@@ -77,6 +82,11 @@ Work through the OzStrips Preactive bay from *bottom to top* when sending PDCs.
 A temporary **WorldFlight Apron** has been established between the main apron and the runway 30 threshold. 
 
 Taxiway A has been extended to both the runway 12 & 30 thresholds and a temporary rapid exit has been added to runway 12 between taxiway E and the runway 30 threshold.
+
+<figure markdown>
+![Temporary Aerodrome Changes](../img/ybas_ad.png){ width="800" }
+<figcaption>Temporary Aerodrome Changes</figcaption>
+</figure>
 
 ### Pushback Delays
 SMC is responsible for delaying aircraft's pushback/taxi requests, in order to avoid overloading the taxiways.

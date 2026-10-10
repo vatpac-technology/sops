@@ -5,11 +5,11 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-An additional Non-Standard position for Sydney ACD will be used
+An additional Non-Standard position for Sydney ACD will be used.
 
-| Name               | ID      | Callsign       | Frequency        | Login ID              |
-| ------------------ | --------------| -------------- | ---------------- | --------------------------------------|
-| [Sydney (Assistant) Delivery](#dual-acd-controller-operations)     | SY-C_DEL | N/A             | N/A | SY-C_DEL                              |
+| Name                                                             | Callsign    | Frequency   | Login ID    |
+| ---------------------------------------------------------------- | ----------- | ----------- | ------------|
+| [Sydney (Assistant) Delivery](#dual-acd-controller-operations)   | N/A         | N/A         | SY-C_DEL    |
 
 ## Runway Modes
 **16 PROPS** and **34 PROPS** are the *preferred* Runway Modes, with equal preference.
