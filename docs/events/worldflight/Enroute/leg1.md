@@ -30,7 +30,7 @@ TRT will receive one stream of traffic from ASP. Ensure adequate vertical separa
 !!! note
     Due to the long sector length, it is likely that overtaking will take place during the event. Aircraft **should not** be issued with speed instructions unless required to maintain separation assurance.
 
-Event aircraft shall be transferred to WAAF approaching the FIR boundary. Voiceless coordination exists for all event aircraft tracking via their filed route.
+Event aircraft shall be transferred to WAAF CTR approaching the FIR boundary.
 
 ### All Other Sectors
 Due to the sheer volume of traffic departing from YSSY, arrivals will **not be possible** during the departure event. Any aircraft inbound to YSSY should be strongly encouraged to divert to another aerodrome.
@@ -53,4 +53,7 @@ Voiceless for all aircraft:
 All other aircraft going to ARL CTA will be **Heads-up** Coordinated.
 
 ### TRT to WAAF
-Voiceless for all event aircraft tracking via their filed route.
+As per [standard TRT coordination procedures](../../../../../enroute/brisbane/TRT/#international-waaf), all aircraft should be **Heads-up Coordinated** to WAAF CTR prior to **30 mins** from boundary.
+
+!!! tip
+    It may be prudent (especially if they are using vatSys) to set up a Voiceless Coordination Agreement with WAAF CTR, in order to reduce workload for both controllers.
