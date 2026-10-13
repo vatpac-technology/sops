@@ -48,7 +48,7 @@ Minimum distance between arrivals at handoff to SAN/SAS is **10nm** (with no sig
     Track shortening direct to MARLN may help to close any gaps ahead of aircraft.
 
 ##### MAESTRO
-If a Flow controller is online, the [MAESTRO](../../../../client/maestro.md) plugin should be used to determine the landing sequence. Enroute positions must ensure they comply with any sequencing instructions set out by Flow and communicated through the plugin.
+If a Flow controller is online, the [MAESTRO](../../../client/maestro.md) plugin should be used to determine the landing sequence. Enroute positions must ensure they comply with any sequencing instructions set out by Flow and communicated through the plugin.
 
 !!! note
     The MAESTRO plugin has been included in the Australia dataset by default for the event.
@@ -77,7 +77,7 @@ ARL will be responsible for the ARL and MNN subsectors **only**.
 Minimum distance between arrivals at handoff to SAN/SAS is **10nm** (with no significant closing speed). It is important to try not to exceed **15nm**, due to the large number of arrivals.
 
 ##### MAESTRO
-If a Flow controller is online, the [MAESTRO](../../../../client/maestro.md) plugin should be used to determine the landing sequence. Enroute positions must ensure they comply with any sequencing instructions set out by Flow and communicated through the plugin.
+If a Flow controller is online, the [MAESTRO](../../../client/maestro.md) plugin should be used to determine the landing sequence. Enroute positions must ensure they comply with any sequencing instructions set out by Flow and communicated through the plugin.
 
 !!! note
     The MAESTRO plugin has been included in the Australia dataset by default for the event.

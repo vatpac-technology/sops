@@ -33,7 +33,7 @@ The `ERSA - FLIGHT PLAN REQUIREMENTS` outlines flight planning requirements, sug
 Most major airports have specific route segment requirements which ensure departures and arrivals navigate via SID/STAR termini and their wider airway network.
     
 ### Recommended Routes
-The ERSA also includes a collection of route planning options for aircraft travelling between regular aerodrome pairs. Aircraft travelling between an aerodrome pair are generally required to file via the route option listed ([with some exceptions](#user-preferred-routing)).
+The ERSA also includes a collection of route planning options for aircraft travelling between regular aerodrome pairs. Aircraft travelling between an aerodrome pair are generally required to file via the route option listed ([with some exceptions](#user-preferred-routes)).
 
 Separate route options for jet aircraft and non-jet aircraft may be listed, in addition to alternate routes available during times of [SUA activation](../sua/#activation-of-sua).
 
@@ -89,7 +89,7 @@ Before issuing an airways clearance, controllers should ensure the aircraft's fi
 This includes:
 
 - Comparing the filed route to the [recommended route](#recommended-routes)
-- Checking [UPR](#user-preferred-routing) segments are outside any [UPR Exclusion Zones](#upr-exclusion-zones)
+- Checking [UPR](#user-preferred-routes) segments are outside any [UPR Exclusion Zones](#upr-exclusion-zones)
 - Ensuring filed flight plans are compliant with [route segment requirements](#flight-plan-requirements).
     
 !!! tip
@@ -110,7 +110,7 @@ Where a route is not compliant, an [amended route](#route-amendments) should be 
    
    In all cases, controllers should display professional behaviour to other controllers and pilots when validating routes and providing amended routes.
 
-A non-compliant route will often comply with local [flight planning requirements](#flight-plan-requirements) but utilise [UPRs](#user-preferred-routing) once outside UPR Exclusion Zones. These routes are valid and the warning flag should be inhibited.
+A non-compliant route will often comply with local [flight planning requirements](#flight-plan-requirements) but utilise [UPRs](#user-preferred-routes) once outside UPR Exclusion Zones. These routes are valid and the warning flag should be inhibited.
    
     
 ### Route Amendments
