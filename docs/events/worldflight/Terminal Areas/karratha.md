@@ -4,32 +4,40 @@
 
 --8<-- "includes/abbreviations.md"
 
+## Temporary Positions
+For the duration of the event, YPKA will be reclassified as a Class C Radar Tower. **KA ADC is not responsible for any airspace**.
+
+Two temporary surveillance TCU positions are responsible for the airspace within 31 DME from `SFC` to `F185`. **KA APP** is responsible for the airspace north of the extended runway centreline, **KA DEP** is responsible for the airspace to the south.
+
+| Name                   | Callsign              | Frequency   | Login ID      |
+| ---------------------- | --------------------- | ----------- | ------------- |
+| **Karratha APP**  | **Karratha Approach**      | **122.400** | **KA_APP**    |
+| **Karratha DEP**  | **Karratha Departures**    | **119.800** | **KA_DEP**    |
+
+### Airspace Reclassification
+All Class D & E airspace within 31 DME is reclassified as Class C, extending from their respective bases to `F245`.
+
 ## Airspace Division
-### Runway 11
-Standard airspace division will be in use as per [DN TCU Local Instructions](../../../../../../../../terminal/darwin/#airspace-division).
+During either runway mode, jurisdiction of the temporary TMA is split along the extended runway centreline.
 
-### Runway 29
-Non-Standard airspace division will be in use.
+TODO: image
 
-The solid red line represents the ANUPA STAR.  
-The dashed green line represents the recommended vectors for departing aircraft.
+## Arrival Procedures
+OLW will transfer all event aircraft to **KA APP** cleared direct `KA2WG` (for runway 08) or `KA2EA` (for runway 26), assigned `A090`. [Voiceless coordination](#olw-to-ka-tcu) is in place for aircraft meeting this criteria.
 
-<figure markdown>
-![Runway 29 Airspace Division](../img/29.png){ width="700" }
-  <figcaption>Runway 29 Airspace Division</figcaption>
-</figure>
+All IFR aircraft shall be processed via the RNP approach.
 
-## Runway 29 Departures
-Departures from Runway 29 will call DAE on an assigned heading of **H130**. These aircraft should be climbed to the south and then cleared DCT **TOREX** when clear of the arrival corridor.
+**KA ADC** is temporarily reclassified as a Class C radar tower and is not responsible for any airspace. Aircraft shall be transferred to ADC once established on final.
 
-## Flow
-Ensure that event traffic gets priority over non-event traffic.
+## Departure Procedures
+There are no SIDs at YPKA. All aircraft will be issued an [assigned heading](#auto-release) and assigned a temporary standard assignable level.
 
-!!! warning "Important"
-    It is likely that during the event, there will be **no opportunity** for non-event traffic to be sequenced for a landing at YBBN. Flow should determine whether an approach slot is available and inform the appropriate enroute controller if a diversion to another aerodrome is necessary.
-    
-### Speeds
-TRT will instruct all arrivals to cross **ANUPA** at **250 knots**, then *published STAR speeds*.
+**KA DEP** shall vector event aircraft south of the extended runway centreline as required and then clear them direct to `RAFFY`. They shall be transferred to POT assigned the lower of `F180` or `RFL`.
+
+!!! note
+    The airspace immediately east of the KA TMA has been temporarily delegated from OLW to POT.
+
+TODO: verify route
 
 ## WorldFlight Teams
 WorldFlight Teams will be highlighted by default and should receive priority at all stages of flight.
@@ -40,29 +48,31 @@ WorldFlight Teams will be highlighted by default and should receive priority at 
 </figure>
 
 ## Coordination
-### DN ADC
+### KA TCU
 #### Auto Release
-Available for aircraft assigned `A050`, and:
+Available for aircraft assigned the lower of `A040` and RFL, and:
 
-| Runway | SID | Assigned Heading |
-| ---------- | --- | --- |
-| 11 | DN7 | H030 |
-| 29 | DN7 | H130 |
+| Runway | Assigned Headings |
+| ------ | ----------------- |
+| 08     | H050<br>H100      |
+| 26     | H180<br>H280      |
 
-### DAE to ARA
-An airspace release from TRT will allow ARA to take ownership of all airspace from the southeastern boundary, north to the outbound leg route. All event aircraft shall be handed to ARA, **not TRT**.
+Next coordination is required for all non-event aircraft.
 
-<figure markdown>
-![TRT Airspace Release](../img/TRTRelease.png){ width="500" }
-<figcaption>TRT Airspace Release</figcaption>
-</figure>
+### KA TCU to POT
+Event aircraft departing YPKA for YBAS shall be handed directly from KA TCU to **POT**.
 
 Voiceless for all aircraft:
 
 - Assigned the lower of `F180` or the `RFL`; and  
-- Tracking via **TOREX**
+- Tracking via **RAFFY**
 
-All other aircraft going to ARA CTA will be **Heads-up** Coordinated.
+All other aircraft going to OLW CTA will be **Heads-up** Coordinated.
 
-### TRT to DN TCU
-Standard as per [DN TCU Local Instructions](../../../../../../../../terminal/darwin/#arrivals)
+### OLW to KA TCU
+Voiceless for all aircraft:
+
+- Assigned `A090`; and
+- Tracking via either `KA2WG` or `KA2EA`
+
+All other aircraft going to KA TCU CTA will be **Heads-up** Coordinated.

@@ -4,24 +4,34 @@
 
 --8<-- "includes/abbreviations.md"
 
+## Temporary Positions
+For the duration of the event, YPKA will be reclassified as a Class C Radar Tower.
+
+Two temporary surveillance TCU positions are responsible for the airspace within 31 DME from `SFC` to `F185`. **KA APP** is responsible for the airspace north of the extended runway centreline, **KA DEP** is responsible for the airspace to the south.
+
+### Airspace Reclassification
+All Class D & E airspace within 31 DME is reclassified as Class C, extending from their respective bases to `F245`.
+
 ## Sector Responsibilities
-### Territory (TRT)
-TRT is responsible for issuing STAR Clearances and all sequencing actions in to YPDN.
+### Indian East (INE)
+INE will have temporary surveillance coverage along the length of the official route. A surveillance service shall be provided to all event aircraft.
 
-TRT will be responsible for the TRT subsector **only**.
+INE shall perform initial sequencing actions for aircraft inbound to YPKA, through the use of speed control.
 
-See below for details on the [TRT Release](#trt-release) when ARA is online.
+### Onslow (OLW)
+OLW is responsible for issuing arrival instructions and final sequencing actions in to YPKA.
 
-#### STARs
-All aircraft shall be issued the **ANUPA1A** STAR.  
+OLW will be responsible for the OLW subsector **only**.
+
+When **POT** is online, the airspace immediately east of the KA TMA shall be [released to them](#olw-airspace-release). All event aircraft *departing* YPKA will be transferred directly from KA TCU to POT.
+
+#### Arrival Procedures
+There are no STARs into YPKA. All event aircraft shall be recleared via `KA2WG` (for runway 08) or `KA2EA` (for runway 26) by OLW.
 
 #### Sequencing
-**All aircraft** must be instructed to cross **ANUPA** at **250 knots**, then *published STAR speeds*.
+INE will perform initial sequencing actions for event aircraft. OLW shall perform any final sequencing actions.
 
-!!! note
-    This instruction is not required for aircraft that have a clear gap in front of them in the sequence (>30nm).
-
-Minimum distance between arrivals at handoff to DAW is **10nm** (with no significant closing speed). It is important to try not to exceed **15nm**, due to the large number of arrivals.
+Minimum distance between arrivals at handoff to KA TCU is **10nm** (with no significant closing speed). It is important to try not to exceed **15nm**, due to the large number of arrivals.
 
 ## WorldFlight Teams
 WorldFlight Teams will be highlighted by default and should receive priority at all stages of flight.
@@ -32,19 +42,19 @@ WorldFlight Teams will be highlighted by default and should receive priority at 
 </figure>
 
 ## Coordination
-### WAAF CTR to TRT
-As per [standard TRT coordination procedures](../../../../../enroute/brisbane/TRT/#international-waaf), all aircraft should be **Heads-up Coordinated** by WAAF CTR prior to **30 mins** from boundary.
+### WAAF CTR to INE
+As per standard international coordination procedures, all aircraft should be **Heads-up Coordinated** by WAAF CTR prior to **30 mins** from boundary.
 
 !!! tip
     It may be prudent (especially if they are using vatSys) to set up a Voiceless Coordination Agreement with WAAF CTR, in order to reduce workload for both controllers.
 
-### TRT to DAW
-Standard as per [TRT Local Instructions](../../../../../enroute/brisbane/TRT/#arrivalsoverfliers).
+### OLW to KA TCU
+Voiceless for all aircraft:
 
-### TRT Release
-When ARA is online, the highlighted portion of TRT is released to ARA to facilitate YPDN departures to WAJJ
+- Assigned `A090`; and
+- Tracking via either `KA2WG` or `KA2EA`
 
-<figure markdown>
-![TRT Airspace Release](../img/TRTRelease.png){ width="500" }
-<figcaption>TRT Airspace Release</figcaption>
-</figure>
+All other aircraft going to KA TCU CTA will be **Heads-up** Coordinated.
+
+### OLW Airspace Release
+When POT is online, the airspace immediately east of the KA TMA is released to POT to facilitate YPKA departures to YBAS.
