@@ -89,6 +89,11 @@ All aerodrome controllers must be familiar with the VATPAC [recommended workflow
 
 Ensure the Queue function is used to actively to keep track of the order of requests.
 
+### Pushback Requests on ACD
+Due to the simple taxiway layout at YPKA, it is likely that ACD will have a higher workload than SMC. For this reason, the use of [pushback requests on ACD](../../../controller-skills/grounddelaymanagement.md#pushback-requests-on-acd) is **not recommended**.
+
+However, should SMC need to reduce their workload, the procedure may be considered.
+
 ## Tower Control (ADC)
 ### Departure Spacing
 Ensure that a minimum of **2 minutes** spacing is applied between subsequent event departures.
