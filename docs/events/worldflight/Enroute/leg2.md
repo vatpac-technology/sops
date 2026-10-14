@@ -18,6 +18,11 @@ INE will have temporary surveillance coverage along the length of the official r
 
 INE shall perform initial sequencing actions for aircraft inbound to YPKA, through the use of speed control.
 
+When transferring aircraft to OLW, INE shall instruct event aircraft to expect their arrival details for YPKA.
+
+!!! phraseology
+    **INE**: "QFA26, contact Melbourne Centre 134.0, expect arrival details"
+
 ### Onslow (OLW)
 OLW is responsible for issuing arrival instructions and final sequencing actions in to YPKA.
 
@@ -27,6 +32,12 @@ When **POT** is online, the airspace immediately east of the KA TMA shall be [re
 
 #### Arrival Procedures
 There are no STARs into YPKA. All event aircraft shall be recleared via `KA2WG` (for runway 08) or `KA2EA` (for runway 26) by OLW.
+
+INE will transfer aircraft to OLW expecting arrival detials. 
+
+!!! phraseology
+    **QFA26**: "Melbourne Centre, QFA26, maintaining FL370"  
+    **OLW**: "QFA26, Melbourne Centre, cleared direct Karratha Echo Alpha, when ready descend to `F130`"
 
 #### Sequencing
 INE will perform initial sequencing actions for event aircraft. OLW shall perform any final sequencing actions.
