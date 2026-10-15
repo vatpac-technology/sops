@@ -4,30 +4,48 @@
 
 --8<-- "includes/abbreviations.md"
 
+## Temporary Positions
+For the duration of the event, YBAS will be reclassified as a Class C Radar Tower. **AS ADC is not responsible for any airspace**.
+
+All existing Class D airspace is reclassified as Class C and two temporary surveillance TCU units are responsible for the airspace within 36 DME (39 DME to the southeast) from `SFC` to `F185`. 
+
+| Name                   | Callsign              | Frequency   | Login ID      |
+| ---------------------- | --------------------- | ----------- | ------------- |
+| **Alice Springs APP**  | **Alice Approach**    | **119.800** | **AS_APP**    |
+| **Alice Springs DEP**  | **Alice Departures**  | **122.400** | **AS_DEP**    |
+
+### Airspace Reclassification
+All Class D airspace within 15 DME is reclassified as Class C, extending from their respective bases to the base of the overlying Class C airspace.
+
 ## Airspace Division
-Standard airspace division will be in use as per [CS TCU Local Instructions](../../../../../../../../terminal/cairns/#airspace-division).
+### Runway 12
+The TMA is split perpendicular to the extended runway centreline.
 
-**CS1** will handle all departures **regardless of duty runway**.
+TODO: image
 
-**CS2** will handle all arrivals from the **south and west**. CS1 has *No Restrictions or Requirements* for aircraft cleared via the **CODIE STAR** to Runway 15.
+### Runway 30
+The TMA is split along the extended runway centreline.
 
-## Runway 33 Departures
-Departures from Runway 33 will call **CS1** on an assigned heading of **H040** assigned `A060`. These aircraft should be climbed above the MVA/MSA and then cleared direct to **AKROM** when suitable.
+TODO: image
 
-## Runway 15 Arrivals
-Event aircraft will be cleared the **CODIE1A** STAR, **OVLET** transition. They should be cleared for the ILS approach and transfered to ADC by CS2.
+## Arrival Procedures
+ASW will transfer all event aircraft to **AS APP** cleared direct `LISZT` (for ILS runway 12) or `AS2EC` (for RNP-Z runway 30), assigned `A090`. [Voiceless coordination](#asw-to-as-tcu) is in place for aircraft meeting this criteria.
 
-## Runway 33 Arrivals
-Event aircraft will be cleared the **HENDO2A** STAR, **OVLET** transition. They will be processed via the LOC approach.
+All IFR aircraft shall be processed via the instrument approach mentioned above.
 
-## Flow
-Ensure that event traffic gets priority over non-event traffic.
+**AS ADC** is temporarily reclassified as a Class C radar tower and is not responsible for any airspace. Aircraft shall be transferred to ADC once established on final.
 
-!!! warning "Important"
-    It is likely that during the event, there will be **no opportunity** for non-event traffic to be sequenced for a landing at YBCS. Flow should determine whether an approach slot is available and inform the appropriate enroute controller if a diversion to another aerodrome is necessary.
-    
-### Speeds
-KEN will instruct all arrivals to cross **OVLET** at **250 knots**, then *published STAR speeds*.
+## Departure Procedures
+Normal [SID selection](../../../aerodromes/procedural/alice.md#sid-selection) shall apply to all departures. Event aircraft will be assigned the **KALUG SID**.
+
+With runway 30 in use, the SID track interferes with the RNP-Z final approach course. **AS DEP** may utilise the airspace in the [southeast quadrant](#southeast-quadrant) of the TMA provided any departing aircraft is established above any arriving aircraft. AS DEP is responsible for maintaining separation assurance between these aircraft.
+
+!!! tip
+    It may be necessary to vector departing aircraft to the north of the RNP track until adequate vertical separation assurance exists. Once clear of conflict, these aircraft should be cleared direct to `KALUG`.
+
+**AS DEP** shall transfer event aircraft to ASP assigned the lower of `F180` or `RFL`.
+
+TODO: verify route
 
 ## WorldFlight Teams
 WorldFlight Teams will be highlighted by default and should receive priority at all stages of flight.
@@ -38,24 +56,38 @@ WorldFlight Teams will be highlighted by default and should receive priority at 
 </figure>
 
 ## Coordination
-### CS TCU
-Autorelease is available for aircraft assigned `A060`, and:
+### AS ADC
+#### Auto Release
+Available for all aircraft:
 
-| Runway | SID | Assigned Heading |
-| ---------- | --- | --- |
-| 15  | AKROM1 | - |
-| 33  | CS2 | H040 |
+- Assigned the lower of `A060` or `RFL`; and
+- Assigned the **KALUG** SID
 
-#### Departures Controller
-All departures shall be handed off to CS1.
+Next coordination is required for all non-event aircraft.
 
-### CS1 to KEN
+### AS TCU
+#### Southeast Quadrant
+AS APP has no restrictions or requirements for departing aircraft operating to the southeast of the aerodrome, provided they are established above any arriving aircraft.
+
+**AS DEP** is responsible for maintaining separation assurance between these aircraft.
+
+### AS TCU to ASP
+Event aircraft departing YBAS shall be handed directly from AS TCU to **ASP**.
+
 Voiceless for all aircraft:
 
 - Assigned the lower of `F180` or the `RFL`; and  
-- Tracking via **AKROM**
+- Tracking via **KALUG**
 
-All other aircraft going to KEN CTA will be **Heads-up** Coordinated.
+All other aircraft going to ASP CTA will be **Heads-up** Coordinated.
 
-### KEN to CS TCU
-Standard as per [CS TCU Local Instructions](../../../../../../../../terminal/cairns/#arrivals_1)
+### ASW to AS TCU
+Voiceless for all aircraft:
+
+- Assigned `A090`; and
+- Tracking via either `LISZT` or `AS2EC`
+
+All other aircraft going to AS TCU CTA will be **Heads-up** Coordinated.
+
+!!! note
+    When ASP is online, the airspace immediately west of the AS TMA is released to ASW to facilitate YBAS arrivals. All event aircraft inbound to YBAS will be transferred directly from ASW to AS TCU.

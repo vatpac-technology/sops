@@ -28,7 +28,7 @@ OLW is responsible for issuing arrival instructions and final sequencing actions
 
 OLW will be responsible for the OLW subsector **only**.
 
-When **POT** is online, the airspace immediately east of the KA TMA shall be [released to them](#olw-airspace-release). All event aircraft *departing* YPKA will be transferred directly from KA TCU to POT.
+When **POT** is online, the airspace immediately east of the KA TMA shall be [released to them](#pot-airspace-release). All event aircraft *departing* YPKA will be transferred directly from KA TCU to POT.
 
 #### Arrival Procedures
 There are no STARs into YPKA. All event aircraft shall be recleared via `KA2WG` (for runway 08) or `KA2EA` (for runway 26) by OLW.
@@ -67,5 +67,5 @@ Voiceless for all aircraft:
 
 All other aircraft going to KA TCU CTA will be **Heads-up** Coordinated.
 
-### OLW Airspace Release
-When POT is online, the airspace immediately east of the KA TMA is released to POT to facilitate YPKA departures to YBAS.
+### POT Airspace Release
+When OLW is online, the airspace immediately east of the KA TMA is released to POT to facilitate YPKA departures to YBAS.

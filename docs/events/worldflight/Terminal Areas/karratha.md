@@ -48,7 +48,7 @@ WorldFlight Teams will be highlighted by default and should receive priority at 
 </figure>
 
 ## Coordination
-### KA TCU
+### KA ADC
 #### Auto Release
 Available for aircraft assigned the lower of `A040` and RFL, and:
 

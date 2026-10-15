@@ -18,7 +18,13 @@
 ### Terminal Airspace
 For the duration of the event, YBAS will be reclassified as a Class C Radar Tower. **AS ADC is not responsible for any airspace**.
 
-All existing Class D airspace is reclassified as Class C and two temporary surveillance TCU units are responsible for the airspace within 36 DME (39 DME to the southeast) from `SFC` to `F185`. Both positions share similar jurisdiction, with **AS APP** responsible for arriving aircraft and **AS DEP** responsible for departing aircraft.
+All existing Class D airspace is reclassified as Class C and two temporary surveillance TCU units are responsible for the airspace within 36 DME (39 DME to the southeast) from `SFC` to `F185`. 
+
+#### Runway 12
+The TMA is split perpendicular to the extended runway centreline. **AS APP** is responsible for the airspace to the west, **AS DEP** is responsible for the airspace to the east.
+
+#### Runway 30
+The TMA is split along the extended runway centreline. **AS APP** is responsible for the airspace to the south, **AS DEP** is responsible for the airspace to the north.
 
 ## Runway Modes
 Single runway operations on either **runway 12 or 30** will be in use for all aircraft.
@@ -59,7 +65,7 @@ WorldFlight Teams will be highlighted by OzStrips and should receive priority at
 </figure>
 
 ### SID Selection
-All event departures shall be issued the **KALUG** SID.
+Normal [SID selection](../../../aerodromes/procedural/alice.md#sid-selection) shall apply to all departures. Event aircraft will be assigned the **KALUG SID**.
 
 ### Standard Assignable Level
 The [standard assignable level](#auto-release) has been changed for the event. All aircraft must be assigned the lower of RFL and `A060`.
@@ -117,6 +123,9 @@ The ATIS OPR INFO shall include:
 ## Coordination
 ### AS TCU
 #### Auto Release
-Available for aircraft assigned the **KALUG** SID and the lower of `A060` and RFL.
+Available for all aircraft:
+
+- Assigned the lower of `A060` or `RFL`; and
+- Assigned the **KALUG** SID
 
 Next coordination is required for all non-event aircraft.
