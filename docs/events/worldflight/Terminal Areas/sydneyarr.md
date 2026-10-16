@@ -5,38 +5,19 @@
 --8<-- "includes/abbreviations.md"
 
 ## Airspace Division
-Non-Standard airspace division will be in use.
+Standard airspace divisions will be used for the event.
 
-SAS shall handle all arrivals from the north and west via **BOREE**, **MEPIL**, **RIVET**, and **WELSH**. These aircraft will be processed for RWY 16R/34L.
+The arrival streams will be split between the RIVET and BOREE STARs.
 
-SAN shall handle all arrivals from the east via **MARLN**. These aircraft will be processed for RWY 16L/34R.
-
-### 16 PROPS
-
-<figure markdown>
-![16 PROPS Airspace Division](../img/16PROPS Arrivals.png){ width="700" }
-  <figcaption>16 PROPS Airspace Division</figcaption>
-</figure>
-
-### 34 PROPS
-
-<figure markdown>
-![34 PROPS Airspace Division](../img/34PROPS Arrivals.png){ width="700" }
-  <figcaption>34 PROPS Airspace Division</figcaption>
-</figure>
-
-### Approach Expectation
-All arrivals will be cleared for the Approach type indicated on the ATIS.
-
-#### Independent Visual Approaches
-IVAs can be expected to be in use for WorldFlight, to facilitate the high volume of traffic for both runways.
+## Approach Procedures
+Independent Visual Approaches can be expected to be in use for the event, to facilitate the high volume of traffic for both runways.
 
 Aircraft must report the **runway in sight** (or **visual** if established on the final approach course) in order to be cleared for an IVA (Runway in Sight implies Visual).
 
 !!! tip
-    The [Label Data Annotations](../../../../../../../../client/annotations/#miscellaneous) for these are `V` for *Visual*, and `R` for *Runway in Sight*
+    The [Label Data Annotations](../../../client/annotations.md#miscellaneous) for these are `V` for *Visual*, and `R` for *Runway in Sight*
 
-Ensure you familiarise yourself with the applicable [Separation Standards](../../../../../../../../separation-standards/parallelapps/#independent-visual-approaches)
+Ensure you familiarise yourself with the applicable [Separation Standards](../../../separation-standards/parallelapps.md#independent-visual-approaches)
 
 Pass *Traffic Information* on aircraft that will come within **1nm** of each other on parallel approaches.
 
@@ -94,32 +75,15 @@ In order to balance workload effectively, it is recommended to distribute respon
 - SFL on its own
 
 ## Flow
-SFL will formulate the sequence in accordance with the [SY TCU Flow Table](../../../../../../../../terminal/sydney/#flow). Ensure that event traffic gets priority over non-event traffic.
+SFL will formulate the sequence in accordance with the [SY TCU Flow Table](../../../terminal/sydney.md#flow). Ensure that event traffic gets priority over non-event traffic.
 
 !!! warning "Important"
-    It is likely that during the event, there will be **no opportunity** for non-event traffic to be sequenced for a landing at YBBN. Flow should determine whether an approach slot is available and inform the appropriate enroute controller if a diversion to another aerodrome is necessary.
+    It is likely that during the event, there will be **no opportunity** for non-event traffic to be sequenced for a landing at YSSY. Flow should determine whether an approach slot is available and inform the appropriate enroute controller if a diversion to another aerodrome is necessary.
 
-SFL will construct the sequence via the [Arrivals List Window](../../../../../../../../controller-skills/sequencing/#arrivals-list).
-
-Appropriate annotations for the Arrivals List Window can be found [here](../../../../../../../../client/annotations/#sequencingflow).
-
-### Speeds
-CNK/OCN will instruct all arrivals to cross the feeder fix at **250 knots**, then *published STAR speeds*.
+SFL will construct the sequence using [MAESTRO](../../../client/maestro.md).
 
 ## Coordination
-### APP to DIR
-Standard as per [SY TCU Local Instructions](../../../../../../../../terminal/sydney/#app-dir).
+### Between ARL/GUN and SFL
+SFL must **voice coordinate** any changes to instructions after ARL/GUN has put a `<` on it.
 
-### CNK to SAS/SAN
-Standard as per [SY TCU Local Instructions](../../../../../../../../terminal/sydney/#arrivals).
-
-#### Between ARL/CNK/OCN and SFL
-SFL must **voice coordinate** any changes to instructions after ARL/CNK has put a `<` on it.
-
-SFL must **voice coordinate** to ARL/CNK any aircraft that must be rerouted via **RIKNI MARLN** for **16L/34R**.
-
-!!! phraseology
-    <span class="hotline">**SFL** -> **ARL**</span>: "ANZ361 via MARLN for 34R please"  
-    <span class="hotline">**ARL** -> **SFL**</span>: "ANZ361 via MARLN for 34R, will be"  
-
-ARL/CNK/OCN must **voice coordinate** any requests for *Track Shortening* or *CSR* to SFL.
+ARL/GUN must **voice coordinate** any requests for *track shortening* or *CSR* to SFL.
