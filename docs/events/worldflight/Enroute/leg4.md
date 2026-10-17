@@ -91,21 +91,6 @@ If a Flow controller is online, the [MAESTRO](../../../client/maestro.md) plugin
 !!! note
     The MAESTRO plugin has been included in the Australia dataset by default for the event.
 
-### Sydney Flow (SFL)
-SFL shall assess the stream of aircraft in **BKE** and use [MAESTRO](../../../client/maestro.md) to assign runways based on a 50/50 split. BKE will use the runway nomination to reclear aircraft for 16L/34R via `IGDAM BOREE`. 
-
-Whilst BKE is responsible for recomputing rerouted aircraft, SFL should monitor these aircraft to ensure their feeder fix has been updated.
-
-!!! tip
-    To avoid late reroutes back for the main runway, consider placing larger aircraft on runway 16R/34L and rerouting smaller aircraft, where possible.
-
-[Official WorldFlight team](#official-worldflight-teams) aircraft may choose to conduct the Scenic Arrival into YSSY. When the landing time for the first participating aircraft has been calculated, runway 16L/34R shall be blocked off for a period of 30 minutes (or longer if deemed appropriate without causing undue delay to other event aircraft). All arrivals shall be assigned runway 16R/34L.
-
-!!! tip
-    Participating aircraft will not be tracking via a feeder fix and will only be visible on the `RUNWAY` view in MAESTRO.
-
-It may be easier for SFL to desequence all participating aircraft and add a slot to the ladder for the duratiton of the scenic arrival window.
-
 ## Official WorldFlight Teams
 Most official team aircraft will depart from YBAS and track via `TW WLM LRF` to facilitate their scenic arrival into YSSY. These aircraft should not be issued a STAR clearance. These aircraft shall be transferred to SAN assigned `A090`.
 
@@ -132,7 +117,7 @@ Changes to Route and CFL are **permitted** within **50nm** of the boundary, with
 Aircraft must be tracking via `IGDAM BOREE` (for YSSY) or `UKDUL UNTAV` (for YSWS).
 
 #### Between ARL/GUN and SFL
-SFL will construct the sequence via [MAESTRO](../../../client/maestro.md). With the streams split, there should be sufficient gap between 
+SFL will construct the sequence via [MAESTRO](../../../client/maestro.md).
 
 GUN must **voice coordinate** any requirements for an alternate runway to SFL.
 
