@@ -37,8 +37,6 @@ There are no SIDs at YPKA. All aircraft will be issued an [assigned heading](#au
 !!! note
     The airspace immediately east of the KA TMA has been temporarily delegated from OLW to POT.
 
-TODO: verify route
-
 ## WorldFlight Teams
 WorldFlight Teams will be highlighted by default and should receive priority at all stages of flight.
 

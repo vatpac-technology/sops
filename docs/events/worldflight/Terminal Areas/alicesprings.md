@@ -45,8 +45,6 @@ With runway 30 in use, the SID track interferes with the RNP-Z final approach co
 
 **AS DEP** shall transfer event aircraft to ASP assigned the lower of `F180` or `RFL`.
 
-TODO: verify route
-
 ## WorldFlight Teams
 WorldFlight Teams will be highlighted by default and should receive priority at all stages of flight.
 

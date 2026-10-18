@@ -96,12 +96,6 @@ It may be easier for SFL to desequence all participating aircraft and add a slot
 #### Between ARL/GUN and SFL
 SFL will construct the sequence via [MAESTRO](../../../client/maestro.md). 
 
-SFL must **voice coordinate** to GUN any aircraft that must be rerouted via **IGDAM BOREE** for **16L/34R**.
-
-GUN will **voice coordinate** any requirements for an alternate runway to SFL.
-
-!!! phraseology
-    <span class="hotline">**SFL** -> **GUN**</span>: "ANZ361 via IGDAM BOREE for 34R please"  
-    <span class="hotline">**GUN** -> **SFL**</span>: "ANZ361 via IGDAM BOREE for 34R"  
+ARL will **voice coordinate** any requirements for an alternate runway to SFL.
 
 ARL/GUN will **voice coordinate** any requests for *track shortening* or *CSR* to SFL.

@@ -118,7 +118,7 @@ Ensure that a minimum of **1 minute** spacing is applied between subsequent even
 
 ## ATIS
 The ATIS OPR INFO shall include:  
-`EXP CLR VIA PDC, EXP DEPARTURE DELAYS DUE EVENT`
+`START APPROVAL REQD. EXP CLR VIA PDC, EXP DEPARTURE DELAYS DUE EVENT`
 
 ## Coordination
 ### AS TCU

@@ -33,14 +33,14 @@ To stagger the flow of traffic, pilots are expected to obtain a connection slot 
 Ensure **all flight plans** are checked for compliance with the approved WorldFlight route:
 
 !!! note "Official Route"
-    TODO: YSSY-WAAA: `DCT EVONN L521 LUNBI DCT`
+    YSSY-WAAA: `DCT KADOM PKS ENPAG T74 TN A464 IKUMA Z86 DIL W37 NUKPO DCT`
 
 **OzStrips** will flag any *non-compliant* route.
 
 If an aircraft has filed an *incorrect* route and you need to give an amended clearance, this amendment must be specified by **individual private message**, prior to the PDC.
 
 !!! phraseology "Private Message"
-    TODO: *AMENDED ROUTE CLEARANCE. DCT EVONN L521 LUNBI DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC.*
+    *AMENDED ROUTE CLEARANCE. DCT KADOM PKS ENPAG T74 TN A464 IKUMA Z86 DIL W37 NUKPO DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC.*
 
 ### WorldFlight Teams
 WorldFlight Teams will be highlighted by OzStrips and should receive priority at all stages of flight.
@@ -163,10 +163,10 @@ The YSSY `Aerodrome Ground Movement Chart` specifies taxi routes for A388 aircra
 
 ## Tower Control (ADC)
 ### OzStrips
-With two SMC controllers online, utilise [strip bay bars](../../../client/towerstrips.md#multiple-adcsmc-positions) to keep the **Holding Point** and **Runway** strip bays organised.
+With two ADC controllers online, utilise [strip bay bars](../../../client/towerstrips.md#multiple-adcsmc-positions) to keep the **Holding Point** and **Runway** strip bays organised.
 
 ### Departure Instructions
-All aircraft departing from runway 16L/34R will be assigned the **SY (RADAR)** SID. The standard assignable heading shall be used for these aircraft.
+All aircraft departing from runway 16L/34R will be assigned the **SY (RADAR)** SID. The [standard assignable heading](../../../aerodromes/classc/sydney.md#standard-assignable-departure-headings) shall be used for these aircraft.
 
 To simplify operations in the TMA, all aircraft from runway 16R/34L shall be transferred to SDS (129.7) and all aircraft from runway 16L/34R shall be transferred to SDN (123.0).
 

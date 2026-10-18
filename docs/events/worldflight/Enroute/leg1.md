@@ -16,7 +16,7 @@ ARL will receive a single stream of traffic from the SY TMA assigned Heading 310
 
 No coordination is required with ASP(BKE) prior to clearing an aircraft direct to ENPAG.
 
-### Alice Springs (ASP)
+### Bourke (BKE)
 ASP will receive two streams of traffic, one from GUN and one from ARL. Both will be merging at **ENPAG**.
 
 Ensure adequate vertical separation exists between aircraft operating in close proximity and pay particular attention to aircraft approaching the merge point.
@@ -24,8 +24,17 @@ Ensure adequate vertical separation exists between aircraft operating in close p
 !!! note
     Due to the long sector length, it is likely that overtaking will take place during the event. Aircraft **should not** be issued with speed instructions unless required to maintain separation assurance.
 
+### Mt Isa (ISA)
+ISA will receive one stream of traffic from ASP. Ensure adequate vertical separation exists between aircraft operating in close proximity.
+
+!!! note
+    Due to the long sector length, it is likely that overtaking will take place during the event. Aircraft **should not** be issued with speed instructions unless required to maintain separation assurance.
+
+!!! tip
+    Frequency congestion may be reduced by having additional controllers open WEG and/or STR.
+
 ### Territory (TRT)
-TRT will receive one stream of traffic from ASP. Ensure adequate vertical separation exists between aircraft operating in close proximity.
+TRT will receive one stream of traffic from ISA. Ensure adequate vertical separation exists between aircraft operating in close proximity.
 
 !!! note
     Due to the long sector length, it is likely that overtaking will take place during the event. Aircraft **should not** be issued with speed instructions unless required to maintain separation assurance.

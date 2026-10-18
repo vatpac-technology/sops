@@ -25,7 +25,7 @@ ASP is responsible for managing all departures from YBAS.
 
 The total sector length is approximately 1,100nm. Aircraft may be allowed to overtake each other, as the stream will be split further downline. Ensure adequate vertical separation exists between any aircraft operating in close proximity.
 
-INL will be responsible for the INL subsector **only**.
+ASP will be responsible for the ASP subsector **only**.
 
 ### Woomera (WRA)
 The total sector length is approximately 1,100nm. Aircraft may be allowed to overtake each other, as the stream will be split further downline. Ensure adequate vertical separation exists between any aircraft operating in close proximity.

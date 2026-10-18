@@ -31,14 +31,14 @@ Due to the high workload expected for all positions, the use of the OzStrips plu
 Ensure **all flight plans** are checked for compliance with the approved WorldFlight route:
 
 !!! note "Official Route"
-    TODO: YPKA-YBAS: `DCT RAFFY T85 SCHEE DCT`
+    YPKA-YBAS: `DCT KA T85 AS DCT`
 
 **OzStrips** will flag any *non-compliant* WF route.
 
 If an aircraft has filed an *incorrect* route and you need to give an amended clearance, this amendment must be specified by **individual private message**, prior to the PDC.
 
 !!! phraseology
-    TODO: *"AMENDED ROUTE CLEARANCE. DCT SANEG H91 IGDAM H652 TESAT DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
+    *"AMENDED ROUTE CLEARANCE. DCT KA T85 AS DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC."*
 
 ### WorldFlight Teams
 WorldFlight Teams will be highlighted by OzStrips and should receive priority at all stages of flight.
@@ -106,7 +106,7 @@ There are no SIDs at YPKA. All aircraft shall be instructed to fly a heading wit
 
 ## ATIS
 The ATIS OPR INFO shall include:  
-`EXP CLR VIA PDC. EXP DEPARTURE DELAYS DUE EVENT`
+`START APPROVAL REQD. EXP CLR VIA PDC. EXP DEPARTURE DELAYS DUE EVENT`
 
 ## Coordination
 ### KA TCU
