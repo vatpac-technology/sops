@@ -45,7 +45,7 @@ Aircraft departing to the training area should be cleared to track to, and opera
 ### Helipads
 There are two helipads at YBRK. The **Eastern Helipad**, located adjacent the GA Apron on Taxiway L, and the **Western Helipad**, located at the end of Taxiway N.
 
-The helipad are part of the manoeuvring area and controlled by RK ADC. Any helicopter taking off or landing on the helipad requires a specific takeoff or landing clearance from ADC.
+The helipads are part of the manoeuvring area and controlled by RK ADC. Any helicopter taking off or landing on the helipad requires a specific takeoff or landing clearance from ADC.
 
 !!! phraseology 
     **RK ADC**: "CHOP11, Western Helipad, cleared to land."  

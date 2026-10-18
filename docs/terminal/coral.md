@@ -78,7 +78,7 @@ This gives the enroute controller sufficient time to assess the request, make ne
   <figcaption>Notable SUA in the RK TMA</figcaption>
 </figure>
 
-###R684A-B Mount Hummock and R692A-C Raspberry Creek
+### R684A-B Mount Hummock and R692A-C Raspberry Creek
 The R684A-B Mount Hummock and R692A-C Raspberry Creek [restricted areas](../../controller-skills/sua/#restricted-areas) straddle the border of the RK TCU and KPL airspace. 
 
 It is predominantly used for military training operations, including operations at the Samuel Hill (YSMH).
