@@ -55,6 +55,8 @@ Helicopters may also request clearance to land on Taxiway N. RK ADC will provide
 ## SID Selection
 Aircraft planned via **BUDGI** and **TARES** shall be assigned the **Procedural SID** that terminates at the appropriate SID terminus. Aircraft tracking to the north or south and **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
+Military aircraft shall be assigned either the **Radar SID** or a visual departure.
+
 Aircraft that are unable to accept a Procedural SID shall be assigned the **Radar SID**.
 
 ## Runway Modes
@@ -80,7 +82,12 @@ The standard assignable level from **RK ADC** to **RKA** is:
 | ---- | ---- |
 | All | The lower of `A060` and `RFL` |
 
+### SMC to RK TCU
+The controller assuming responsibility of **SMC** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to RKA (or the enroute controller responsible for the RK TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
 
+!!! phraseology
+    <span class="hotline">**RK SMC** -> **RKA**</span>: "PATR11 requests clearance to M678.”  
+    <span class="hotline">**RKA** -> **RK SMC**</span>: "PATR11, clearance approved."
 
 ### Arrivals/Overfliers
 RKA will heads-up coordinate arrivals/overfliers from Class C to RK ADC.  
