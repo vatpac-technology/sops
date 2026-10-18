@@ -87,7 +87,7 @@ It is predominantly used for military training operations, including operations 
 The D706 Rockhampton [danger area](../../../controller-skills/sua/#danger-areas) is a commonly used training area south-west of YBRK.
 
 <figure markdown>
-![D706 Rockhampton (Rockhampton Training Area)](../../aerodromes/classd/img/rk_training_area.png){ width="700" }
+![D706 Rockhampton (Rockhampton Training Area)](../aerodromes/classd/img/rk_training_area.png){ width="700" }
 </figure>
 
 Aircraft departing to the training area will be cleared to track to, and operate within, the training area not above `A045` by RK ADC. This clearance gives aircraft permission depart the RK CTR, and transit to the D764 danger area via SPS.
@@ -152,7 +152,7 @@ The TCU controller can suspend/resume Auto Release at any time, with the concurr
 The standard assignable level from MK/RK ADC to MKA/RKA is the lower of `A060` or the `RFL`.
 
 ### RK SMC to RK TCU
-The controller assuming responsibility of **RK SMC** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to RKA (or the enroute controller responsible for the RK TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
+The controller assuming responsibility of **RK SMC** shall give [heads-up](../../controller-skills/coordination/#airways-clearance) coordination to RKA (or the enroute controller responsible for the RK TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
 
 !!! phraseology
     <span class="hotline">**RK SMC** -> **RKA**</span>: "PATR11 requests clearance to M678.”  
