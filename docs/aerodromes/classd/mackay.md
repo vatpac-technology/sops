@@ -41,12 +41,6 @@ The standard assignable level from **MK ADC** to **MKA** is:
 | ------ | ----- |
 | All | The lower of `A060` and `RFL` |
 
-#### SMC to TCU
-The controller assuming responsibility of **SMC** shall give [heads-up](../../controller-skills/coordination.md#airways-clearance) coordination to **MKA** prior to the issue of the following clearances:  
-
-- VFR departures entering MKA CTA
-- Aircraft using a runway not on the ATIS
-
 ### Arrivals/Overfliers
 MKA will heads-up coordinate arrivals/overfliers from Class C to MK ADC.  
 IFR aircraft will be cleared for the coordinated approach (Instrument or Visual) prior to handoff to MK ADC, unless MK ADC nominates a restriction.  

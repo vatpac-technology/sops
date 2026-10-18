@@ -74,17 +74,13 @@ Aircraft that are unable to accept a Procedural SID shall be assigned the **Rada
 - Assigned a **Procedural** SID; or  
 - Not entering RKA CTA
 
-The standard assignable level from **MK/RK ADC** to **MKA/RKA** is:
+The standard assignable level from **RK ADC** to **RKA** is:
 
 | Aircraft | Level |
 | ---- | ---- |
 | All | The lower of `A060` and `RFL` |
 
-#### SMC to TCU
-The controller assuming responsibility of **SMC** shall give heads-up coordination to **RKA** controller prior to the issue of the following clearances:  
 
-- VFR departures entering RKA CTA
-- Aircraft using a runway not on the ATIS
 
 ### Arrivals/Overfliers
 RKA will heads-up coordinate arrivals/overfliers from Class C to RK ADC.  
