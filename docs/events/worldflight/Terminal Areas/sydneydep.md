@@ -19,7 +19,7 @@ Standard airspace divisions will be used for the event. The airspace shall be di
 ## Departure Procedures
 Aircraft departing from runways 16R/34L will be assigned the procedural SID terminating at KADOM.
 
-Aircraft departing from runways 16L/34R will be assigned the **SY (RADAR)** SID with the standard assignable heading. These aircraft shall be vectored to the north of YSSY and handed to **ARL** on heading 310. 
+Aircraft departing from runways 16L/34R will be assigned the **SY (RADAR)** SID with the [standard assignable heading](../../../aerodromes/classc/sydney.md#standard-assignable-departure-headings). These aircraft shall be vectored to the north of YSSY and handed to **ARL** on heading 310. 
 
 ## WorldFlight Teams
 WorldFlight Teams will be highlighted by default and should receive priority at all stages of flight.
