@@ -87,7 +87,7 @@ It is predominantly used for military training operations, including operations 
 The D706 Rockhampton [danger area](../../../controller-skills/sua/#danger-areas) is a commonly used training area south-west of YBRK.
 
 <figure markdown>
-![D706 Rockhampton (Rockhampton Training Area)](../../aerodrome/classd/img/rk_training_area.png){ width="700" }
+![D706 Rockhampton (Rockhampton Training Area)](../../aerodromes/classd/img/rk_training_area.png){ width="700" }
 </figure>
 
 Aircraft departing to the training area will be cleared to track to, and operate within, the training area not above `A045` by RK ADC. This clearance gives aircraft permission depart the RK CTR, and transit to the D764 danger area via SPS.
