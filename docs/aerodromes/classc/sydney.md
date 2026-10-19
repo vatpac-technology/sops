@@ -60,13 +60,13 @@ When both ADC and SMC are online, SMC shall issue aircraft departing on runway 1
     **VOZ853:** "Sydney Tower, VOZ853, holding short Sierra, ready"  
     **SY ADC:** "VOZ853, Sydney Tower, give way to the inbound Jetstar A320, taxi to holding point Tango Six, runway 34R"
 
-Aircraft landing on runway 16L/34R are expected to vacate the runway and taxi via the [standard taxi routes](#runway-16l-34r) to join taxiway Lima. If pilots are unfamiliar with local procedures, they should be instructed by **ADC** to taxi accordingly. Where possible, outbound aircraft should give way to inbound aircraft to avoid creating congestion at the runway exits.
+Aircraft landing on runway 16L/34R are expected to vacate the runway and taxi via the [standard taxi routes](#runway-16l34r) to join taxiway Lima. If pilots are unfamiliar with local procedures, they should be instructed by **ADC** to taxi accordingly. Where possible, outbound aircraft should give way to inbound aircraft to avoid creating congestion at the runway exits.
 
 !!! phraseology
     **SY ADC**: "JAL52, taxi via Tango, Lima, on Lima contact Ground 121.7"
 
 #### Transferring Between SMCs
-When both SMC positions are online and an aircraft is to be passed from one to the other (e.g. an aircraft taxis from the domestic terminal for runway 34L), they should be instructed to hold short of runway 16R/34L at [the appropriate point](#crossing-runway-16r-34l) and to contact the next SMC frequency. 
+When both SMC positions are online and an aircraft is to be passed from one to the other (e.g. an aircraft taxis from the domestic terminal for runway 34L), they should be instructed to hold short of runway 16R/34L at [the appropriate point](#crossing-runway-16r34l) and to contact the next SMC frequency. 
 
 The aircraft's strip shall be placed in the receiving controller's bay prior to frequency transfer. The **receiving controller** is responsible for coordinating the runway crossing with ADC.
 
