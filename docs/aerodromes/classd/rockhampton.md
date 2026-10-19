@@ -35,7 +35,7 @@ The D706 Rockhampton [danger area](../../../controller-skills/sua/#danger-areas)
 Aircraft departing to the training area should be cleared to track to, and operate within, the training area not above `A045`. This clearance gives aircraft permission depart the RK CTR, and transit to the D764 danger area via SPS.
 
 !!! phraseology
-    **ABC**: "Rocky Tower, ABC, at runway 33, for the Training Area, ready.”    
+    **ABC**: "Rocky Tower, ABC, for the Training Area, ready.”    
     **RK ADC**: "ABC, track to and operate within the Training Area, not above `A045`. Make left turn, runway 33, cleared for takeoff."    
 
 !!! note
