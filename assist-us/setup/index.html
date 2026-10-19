@@ -8880,11 +8880,11 @@ OR
 <p>When running <code>mkdocs serve</code> without first installing git, the following error may be received:</p>
 <div class="admonition example">
 <p>Traceback (most recent call last):
-File "C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\git__init__.py", line 296, in &lt;module&gt; refresh()<br>
-    ~~~~~~~<ins><br>
-File "C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\git__init__.py", line 287, in refresh<br>
+File "C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\git_<em>init</em><em>.py", line 296, in &lt;module&gt; refresh()<br>
+    ~~~~~~~^^<br>
+File "C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\git_<em>init</em></em>.py", line 287, in refresh<br>
     if not Git.refresh(path=path):<br>
-        ~~~~~~~~~~~</ins>^^^^^^^^^<br>
+        ~~~~~~~~~~~^^^^^^^^^^^<br>
 File "C:\Users\username\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\git\cmd.py", line 860, in refresh<br>
     raise ImportError(err)<br>
 ImportError: Bad git executable.<br>
