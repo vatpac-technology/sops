@@ -21,12 +21,18 @@ All Class D airspace within 15 DME is reclassified as Class C, extending from th
 ### Runway 12
 The TMA is split perpendicular to the extended runway centreline.
 
-TODO: image
+<figure markdown>
+![TMA Split](../img/as_tcu_rwy12.png){ width="700" }
+<figcaption>TMA Split</figcaption>
+</figure>
 
 ### Runway 30
 The TMA is split along the extended runway centreline.
 
-TODO: image
+<figure markdown>
+![TMA Split](../img/as_tcu_rwy30.png){ width="700" }
+<figcaption>TMA Split</figcaption>
+</figure>
 
 ## Arrival Procedures
 ASW will transfer all event aircraft to **AS APP** cleared direct `LISZT` (for ILS runway 12) or `AS2EC` (for RNP-Z runway 30), assigned `A090`. [Voiceless coordination](#asw-to-as-tcu) is in place for aircraft meeting this criteria.

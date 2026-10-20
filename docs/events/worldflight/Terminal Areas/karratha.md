@@ -20,7 +20,10 @@ All Class D & E airspace within 31 DME is reclassified as Class C, extending fro
 ## Airspace Division
 During either runway mode, jurisdiction of the temporary TMA is split along the extended runway centreline.
 
-TODO: image
+<figure markdown>
+![TMA Split](../img/ka_tcu.png){ width="700" }
+<figcaption>TMA Split</figcaption>
+</figure>
 
 ## Arrival Procedures
 OLW will transfer all event aircraft to **KA APP** cleared direct `KA2WG` (for runway 08) or `KA2EA` (for runway 26), assigned `A090`. [Voiceless coordination](#olw-to-ka-tcu) is in place for aircraft meeting this criteria.
