@@ -4,3 +4,5 @@ mkdocs-awesome-pages-plugin
 mkdocs-git-revision-date-localized-plugin
 mkdocs-redirects
 mkdocs-glightbox
+# Pinned: selectolax 1.0.1 breaks mkdocs-glightbox (images removed). See blueswen/mkdocs-glightbox#74
+selectolax<1.0.1
