@@ -8938,7 +8938,7 @@
 <h3 id="implementing-the-procedure">Implementing the Procedure</h3>
 <p>Activating <abbr title="Airport Collaborative Decision Making">A-CDM</abbr> mode can be done by toggling it active, from the <strong>Settings</strong> drop down list, within the OzStrips plugin. You can tell the mode has been activated successfully when you see the Departure Monitor appear in the <strong>Runway Bay</strong>.</p>
 <figure>
-<p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../client/img/ozstripsdepmonitor.png" data-desc-position="bottom"><img alt="Departure Monitor" src="../../client/img/ozstripsdepmonitor.png" width="300"></a>
     </p><figcaption>The Departure Monitor</figcaption><p></p>
 </figure>
 <p>Coordination should be affected with other aerodrome controllers, and the <strong>FMP</strong> controller if present. </p>
@@ -8962,7 +8962,7 @@
 <p>When an aircraft requests pushback, they should be placed into the <strong>Cleared Bay</strong> below the default OzStrips queue bar.</p>
 <p>A <abbr title="Tactical Start Approved Time">TSAT</abbr> and <abbr title="Calculated Take Off Time">CTOT</abbr> will be generated for them, which can be provided to the pilot. This will be presented within the strip <code>Time Field</code>, and will appear with a grey background.</p>
 <p></p><figure markdown="">
-
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../client/img/ozstripscdmqueue.png" data-desc-position="bottom"><img alt="Queued Strip" src="../../client/img/ozstripscdmqueue.png" width="500"></a>
     <figcaption>A queued strip, with a <abbr title="Tactical Start Approved Time">TSAT</abbr> of 03:52z.</figcaption>
 </figure><p></p>
 </li>
@@ -8981,7 +8981,7 @@
 <p><strong><abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong> should allow aircraft to depart, such that the overall departure rate is maintained.</p>
 <p>After each aircraft becomes airborne, their departure is logged, and the Departure Monitor is incremented.</p>
 <p></p><figure markdown="">
-
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../client/img/ozstripsdepmonitor.png" data-desc-position="bottom"><img alt="Departure Monitor" src="../../client/img/ozstripsdepmonitor.png" width="300"></a>
     <figcaption>The Departure Monitor.</figcaption>
 </figure><p></p>
 <p>The <strong><abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong> controller should endeavour to ensure that they monitor actual vs planned departure rates, to avoid saturating down the line approach and enroute sectors. A technique to maintain the departure rate can include using the <a href="../../client/towerstrips/#strips">OzStrips Take-Off Timer</a>, and waiting until <code>60 minutes / Departure Rate</code> minutes have elapsed.</p>
@@ -8994,7 +8994,7 @@
 <h3 id="website">Website</h3>
 <p>When CDM is enabled at an aerodrome, pilots and controllers can view the <a href="https://vats.im/pac/cdm">Departure Queue online</a>. This may be beneficial for Enroute and Approach controllers not using the OzStrips plugin, or with visibility centres not close to the aerodrome of interest.</p>
 <figure>
-<p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../client/img/ozstripscdmladder.png" data-desc-position="bottom"><img alt="CDM Website" src="../../client/img/ozstripscdmladder.png" width="800"></a>
     </p><figcaption>The ladder visible on the CDM Website.</figcaption><p></p>
 </figure>
 <p>Changes to the departure rate may be made by logging in to the website. It is also possible to set destination-specific departure rates, allowing aircraft to avoid departure delays when planned to quieter aerodromes during busy events.</p>
@@ -9076,7 +9076,7 @@
 <h3 id="queue-management">Queue Management</h3>
 <p>To reduce <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> workload, <abbr title="Airways Clearance Delivery">ACD</abbr> should not allow more than <strong>three</strong> aircraft to be awaiting pushback or taxi on the <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> frequency. When three aircraft are already queued on the <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> frequency, any additional aircraft should be told to remain on the <abbr title="Airways Clearance Delivery">ACD</abbr> frequency and informed of their position in the queue or approximate delay (if known). These aircraft should be placed in the <strong>Cleared Bay Queue</strong>, above the <strong>Standby for Ground</strong> bar.</p>
 <figure>
-<p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../../client/img/ozstripscoordinator.png" data-desc-position="bottom"><img alt="ACD Ops with OzStrips" src="../../client/img/ozstripscoordinator.png" width="800"></a>
     </p><figcaption>Pushback Requests on <abbr title="Airways Clearance Delivery">ACD</abbr> Ops with OzStrips<br><small>Three aircraft are waiting on the <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> frequency (in the <strong>Monitor <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> Bay</strong>), and QFA121 and RXA6418 have both requested push/taxi but are being held on the Coordinator frequency. QFA121 is closer to the bottom, so will be next to be told to standby for <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr>.</small></figcaption><p></p>
 </figure>
 <p>When <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> moves an aircraft from below the <strong>Standby for Ground</strong> bar to the <strong>Pushback Bay</strong>, <abbr title="Airways Clearance Delivery">ACD</abbr> should instruct the next aircraft in line to standby for ground on the <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr> frequency (and move the strip appropriately).</p>
