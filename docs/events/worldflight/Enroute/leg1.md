@@ -12,9 +12,12 @@ GUN will receive a single stream of traffic via KADOM. Ensure sufficient vertica
     Due to the long sector length, it is likely that overtaking will take place during the event. Aircraft **should not** be issued with speed instructions unless required to maintain separation assurance.
 
 ### Armidale (ARL)
-ARL will receive a single stream of traffic from the SY TMA assigned Heading 310. These aircraft should be vectored until clear of the GUN sector, then cleared direct to **ENPAG**. Ensure sufficient vertical separation exists between any aircraft operating in close proximity.
+ARL will receive a single stream of traffic from the SY TMA tracking `UNTAV MDG ENPAG` or assigned an equivalent vector. These aircraft should be vectored until clear of the GUN sector, then cleared direct to **ENPAG** if necessary. Ensure sufficient vertical separation exists between any aircraft operating in close proximity.
 
 No coordination is required with ASP(BKE) prior to clearing an aircraft direct to ENPAG.
+
+!!! note
+    The official route for departures is via KADOM and all aircraft departing from the eastern runway will be provided with an amended route (`UNTAV MDG ENPAG`) by SY ACD. It is preferred that pilots track this route under their own navigation but ARL (and surrounding controllers) should be ready to provide vectors to aircraft who are unable to track via the new waypoints.
 
 ### Bourke (BKE)
 ASP will receive two streams of traffic, one from GUN and one from ARL. Both will be merging at **ENPAG**.
@@ -57,7 +60,7 @@ WorldFlight Teams will be highlighted by default and should receive priority at 
 Voiceless for all aircraft:
 
 - Assigned the lower of `F280` or the `RFL`; and  
-- Assigned **H310**
+- Tracking via `UNTAV MDG` or assigned an equivalent vector
 
 All other aircraft going to ARL CTA will be **Heads-up** Coordinated.
 

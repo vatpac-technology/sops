@@ -42,6 +42,24 @@ If an aircraft has filed an *incorrect* route and you need to give an amended cl
 !!! phraseology "Private Message"
     *AMENDED ROUTE CLEARANCE. DCT KADOM PKS ENPAG T74 TN A464 IKUMA Z86 DIL W37 NUKPO DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC.*
 
+#### Amended Routes from Eastern Aprons
+All aircraft parked on aprons east of runway 16R/34L shall be issued an amended route to minimise conflict in the TMA.
+
+**SY-C_DEL** shall amend the FDR of these aircraft to the following route:
+
+!!! note "Amended Route"
+    YSSY-WAAA: `DCT UNTAV MDG ENPAG T74 TN A464 IKUMA Z86 DIL W37 NUKPO DCT`
+
+This must be communicated to the pilot through private message **before** a PDC is sent.
+
+!!! phraseology "Private Message"
+    *AMENDED ROUTE CLEARANCE. DCT UNTAV MDG ENPAG T74 TN A464 IKUMA Z86 DIL W37 NUKPO DCT. READBACK AMENDED ROUTE IN FULL DURING PDC READBACK. STANDBY FOR PDC.*
+
+!!! note
+    This procedure is designed to allow all departures from the eastern aprons to depart from runway 16L/34R and be vectored to the north before tracking to UNTAV. Heavy aircraft who require runway 16R/34L will only communicate this requirement *after* the reroute has been received. They should be rerouted back to the official route if they are reassigned runway 16R/34L.
+
+    **SY ACD**: "QFA101, cleared to WAAA via amended KADOM PKS ENPAG, thence flight planned route, runway 34L..."
+
 ### WorldFlight Teams
 WorldFlight Teams will be highlighted by OzStrips and should receive priority at all stages of flight.
 
@@ -57,6 +75,7 @@ YSSY will have a non-standard second ACD Controller.
 **SY-C_DEL** will be responsible for:
 
 - Checking [Flight Plan compliance](#flight-plan-compliance)
+- Issuing [amended routes](#amended-routes-from-eastern-aprons) to aircraft parked east of runway 16R/34L
 - Entering Flight Data (Setting [Runway](#runway-selection), [SID](#sid-selection) and [CFL](../../../aerodromes/classc/sydney.md#auto-release))
 - Sending [PDCs](#pdcs)
 
