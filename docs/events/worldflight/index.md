@@ -38,24 +38,23 @@ OzStrips will flag official WorldFlight teams and the Events Plugin will highlig
 
 The list of callsigns is below:
 
-| Callsign | Aircraft Type | Team Name | 
+| Callsign | Aircraft Type | Callsign | 
 | -------- | ------------- | --------- |
-| ANZ361 | B738 | Hamilton |
-| ANZ362 | B738 | Hamilton |
-| ANZ363 | B738 | Hamilton |
-| ASY121 | A332 | Simflite AU |
-| BAW47C | B744 | Simfest UK |
-| CVY44N | B744 | Team Covey |
-| DAL209 | B738 | WorldFlight USA |
-| DAL2507 | B738 | Cali Crew |
-| EXS25N | B738 | Ness Aviation |
-| GTI1471 | B744 | WorldFlight Perth |
-| JHL44 | A320 | Team JeeHell |
-| KLM2064 | B738 | Amsterdam 737 Club |
-| NPT11W | B738 | Velocity UK |
-| NWA179 | B743 | Jurrasic Jets |
-| QFA25 | B744 | WorldFlight AU |
-| RYR7MA | B738 | Ascent Aviation |
+| ANZ361 | B738 | New Zealand |
+| ANZ362 | B738 | New Zealand |
+| ANZ363 | B738 | New Zealand |
+| BAW47C | B744 | Speedbird |
+| CVY44N | B744 | Covey |
+| DAL209 | B738 | Delta |
+| DAL2507 | B738 | Delta |
+| GTI1471 | B744 | Giant |
+| HPO8317 | A321 | Hope |
+| JHL44 | A320 | JeHal |
+| KLM2064 | B738 | KLM |
+| NPT11W | B738 | Neptune |
+| NSV26N | B738 | Nessie |
+| NWA179 | B743 | Northwest |
+| QFA25 | B744 | Qantas |
 
 ## Route
 <figure markdown>
