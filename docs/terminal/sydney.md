@@ -224,7 +224,7 @@ Arrivals shall contact **SYC** for identification prior to entering CTA. SYC sha
 
  Each coded clearance includes a frequency transfer instruction to BK ADC. No explicit transfer instructions should be given to these aircraft.
 
- !!! tip
+!!! tip
     Whilst establishing two-way communication with a VFR aircraft constitutes a clearance to enter Class D airspace, it is generally preferred to issue an explicit airways clearance as in the examples above.
 
 #### Class D Transits
