@@ -158,7 +158,7 @@ The ATIS must indicate runway configuration in the format below:
 | ----------- | ----------- | ----------------------- |
 | PROPS | Single ADC  | `RWY 13L/17L/31R/35R FOR ARRS AND DEPS EAST. RWY 13R/17R/31L/35L FOR ARRS AND DEPS WEST` |
 | PROPS | Dual ADC    | `RWY 13L/17L/31R/35R FOR ARRS AND DEPS EAST, FREQ 118.1. RWY 13R/17R/31L/35L FOR ARRS AND DEPS WEST, FREQ 123.0` |
-| Single Runway | Single ADC | `RWY (number) ALL AIRBORN OPERATIONS` |
+| Single Runway | Single ADC | `RWY (number) ALL AIRBORNE OPERATIONS` |
 
 ## Coordination
 ### Departures
