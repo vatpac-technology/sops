@@ -6,7 +6,9 @@ title: Handover/Takeover
 
 When a prior arrangement has been made to change controllers on a particular sector or the log-on of a underlaying sector (APP, TWR, GND), an informative, consistent, and reliable Handover procedure will ensure the controller taking over has all the information necessary to start working the airspace. This is especially important during busy times, such as during events.
 
-All new controller connections should endevor to recive a handover via voice from a neighbouring/overlaying sector. "Hi online" or a silent logon is unacceptable.
+All new controller connections must recive a handover via voice from a neighbouring/overlaying sector. "Hi online" or a silent logon is unacceptable. `(as per section 2.12.6 of the ATS policy)`
+
+Controllers should endevor to warn overlying sectors prior to departure via voice. Sectors expected to assume the responsibility of providing your service in addition to their own shall be the target for this co-ordination.
 
 Wherever possible, Handovers shall be conducted in the **RAWFTO** format:
 
