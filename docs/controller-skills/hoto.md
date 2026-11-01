@@ -4,7 +4,9 @@ title: Handover/Takeover
 
 --8<-- "includes/abbreviations.md"
 
-When a prior arrangement has been made to change controllers on a particular sector, an informative, consistent, and reliable Handover procedure will ensure the controller taking over has all the information necessary to start working the airspace. This is especially important during busy times, such as during events.
+When a prior arrangement has been made to change controllers on a particular sector or the log-on of a underlaying sector (APP, TWR, GND), an informative, consistent, and reliable Handover procedure will ensure the controller taking over has all the information necessary to start working the airspace. This is especially important during busy times, such as during events.
+
+All new controller connections should endevor to recive a handover via voice from a neighbouring/overlaying sector. "Hi online" or a silent logon is unacceptable.
 
 Wherever possible, Handovers shall be conducted in the **RAWFTO** format:
 
