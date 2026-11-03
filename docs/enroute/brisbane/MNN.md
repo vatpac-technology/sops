@@ -187,7 +187,7 @@ When activated these MOAs significantly disrupt traffic on the busy **A579**, **
 The **W149** and **W768** low altitude airways, connecting YLHI to YWLM and YPMQ, are also affected, requiring extensive rerouting or facilitated transit through the SUA.
 
 !!! note
-	 Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../controller-skills/sua/#separation-from-sua)  laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../controller-skills/sua/#controlled-airspace) clearance with all parts of the SUA.
+	 Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../controller-skills/sua/#separation-from-sua) laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../controller-skills/sua/#controlled-airspace) clearance with all parts of the SUA.
     
 #### R585-R586 Williamtown
 The R585A-D and R586A-C restricted areas are located north of the WLM TCU in the ARL and MNN subsectors.
@@ -195,9 +195,9 @@ The R585A-D and R586A-C restricted areas are located north of the WLM TCU in the
 The MOAs directly adjoin the WLM TCU, and when WAL is online aircraft will be transferred directly to/from the restricted areas. When [WAL is offline](#reclassifications), aircraft will contact MNN for transit through the surrounding civilian airspace.
 
 #### Amberley SUA
-There are three SUA associated with military operations at [Amberley](../../terminal/amberleyoakey) which clip MNN airspace: the R639D restricted area, located northeast of MOR VOR partially in the MDE subsector, and the M661A and M670A-B MOAs, which clips MNN airspace offshore east of YCFS.
+There are two SUA associated with military operations at [Amberley](../../terminal/amberleyoakey) which clip MNN airspace: the M661A and M670A-B MOAs, which clips MNN airspace offshore east of YCFS.
 
-AMA (or INL(DOS, INL, SDY) on their behalf) will coordinate the activation these SUA **prior** to any activity.
+AMA (or INL(INL, SDY) on their behalf) will coordinate the activation of these SUA **prior** to any activity.
 
 ## STAR Clearance Expectation
 ### Handoff

@@ -92,6 +92,58 @@ Arrivals from the south shall be given initial descent to not below `F190`. **KE
 #### Sequencing
 SWY is responsible for initial sequencing for aircraft arriving from the south. Final sequencing actions are performed by KEN(TBP). Coordination with KEN(TBP) should be conducted to ensure that aircraft from each sector are sequenced appropriately with each other.
 
+## Local Procedures
+### Special Use Airspace
+There are multiple volumes of [SUA](../../controller-skills/sua) within KPL airspace, mostly associated with military operations around the Shoalwater Bay military training area.
+
+<figure markdown>
+![Notable SUA in KPL Airspace](../img/kpl_sua.png){ width="700" }
+  <figcaption>Notable SUA in KPL Airspace</figcaption>
+</figure>
+
+RK TCU must [give heads up coordination](../../terminal/coral/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
+
+!!! phraseology
+    <span class="hotline">**RKA** -> **KPL**</span>: "On the groud YBRK, PATR11, requests activation of M678 `A085-F240`, from 0300 until 0500.”  
+    <span class="hotline">**KPL** -> **RKA**</span>: "PATR11, expect activation of M678 `A085-F240` at 0300 until 0500."   
+    <span class="hotline">**RKA** -> **KPL**</span>: "PATR11."   
+    
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../controller-skills/sua/#ad-hoc-activations).
+
+#### Shoalwater Bay SUA
+The Shoalwater Bay Military Training Area is contained within multiple volumes of SUA:
+
+- M678 Shoalwater Bay (`NOTAM`-`NOTAM`)
+- R642A-B Mt Wellington (`SFC`-`A060`)
+- R643 Shoalwater Bay West (`A020`-`A060`)
+- R681 Akens Island (`NOTAM`-`NOTAM`)
+- R682 Townshend Island (`NOTAM`-`NOTAM`)
+- R683 Cape Clinton (`NOTAM`-`NOTAM`)
+- R684A-B Mount Hummock (`SFC`-`NOTAM`)
+- R686 Triangular Island (`SFC`-`F160`)
+- R692A-C Raspberry Creek (`SFC`-`NOTAM`)
+
+The area is used for extensive army training and operations based at [YBRK](../../aerodrome/classd/rockhampton), Samuel Hill (YSMH), and Williamson (YWIS). R681-R684 and R692 are wholly located in the KPL subsector, while the rest extend across both KPL and SWY.
+
+##### Affected Civil Operations
+When activated these SUA significantly disrupt traffic on the busy **Q67** and **Y32** high altitude airways, including arrivals to YBMK, YBPN, and YBTL from the south.
+
+| Planned Airway | ERSA Recommended Rerouting |
+| -------------- | -------------------------- |
+| Q67  | `.. Q67 GLA RK TARES NOLUP OVRON Q67 ...` |
+| V308 | `.. V308 RK TARES WELKE V308 ...` |
+
+!!! note
+	 Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../controller-skills/sua/#separation-from-sua) laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../controller-skills/sua/#controlled-airspace) clearance with all parts of the SUA.
+
+#### M694
+The M694 Elliott [MOA](../../controller-skills/sua/#military-operating-areas) are located northeast of YBUD, `NOTAM-NOTAM`, entirely within KPL airspace. The SUA is used for a variety of different naval activities.
+
+#### Amberley SUA
+The R636 Gayndah [restricted area](../../controller-skills/sua/#restricted-areas) is located west of YGAY, `A070`-`F230` in both CVN and KPL airspace. The airspace is associated with military activity based at [Amberley](../../terminal/amberleyoakey), as is the R639C-D restricted area which clips CVN airspace in the south-eastern corner.
+
+AMA (or INL(DOS) on their behalf) will coordinate the activation of these SUA **prior** to any activity.
+
 ## STAR Clearance Expectation
 ### Handoff
 Aircraft being transferred to the following sectors shall be told to Expect STAR Clearance on handoff:

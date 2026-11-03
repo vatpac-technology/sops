@@ -4,18 +4,19 @@
 
 Welcome to the controller briefing material for WorldFlight!
 
-WorldFlight 2026 is currently in the planning stages. Event-specific procedures will be released closer to the date of the event. See the [WorldFlight website](https://www.worldflight.center/){target=new} for the latest updates on this year's instalment!
+<!-- WorldFlight 2026 is currently in the planning stages. Event-specific procedures will be released closer to the date of the event. See the [WorldFlight website](https://www.worldflight.center/){target=new} for the latest updates on this year's instalment!
 
 ### Previous WorldFlight Instalments
 The controller briefing material for each WorldFlight are tailored specifically to that instalments' route and traffic levels. Previous controller briefings are available below, for archival reference.
 
 - **[WorldFlight 2024](../archive/worldflight-2024)**
 - **[WorldFlight 2025](../archive/worldflight-2025)**
+- **[WorldFlight 2026](../archive/worldflight-2026)**
 
 !!! note
     The material in the WorldFlight archive is provided for reference only, and is not actively maintained. While every effort is taken to ensure the material remains accessible, there may be references to other parts of the SOPs which have since been made obsolete.
 
-<!--
+-->
 
 Event-specific procedures are sorted by position type and should be read in conjunction with the existing SOPs for that position/location.
 
@@ -37,27 +38,25 @@ OzStrips will flag official WorldFlight teams and the Events Plugin will highlig
 
 The list of callsigns is below:
 
-| Callsign | Aircraft Type | Team Name | 
+| Callsign | Aircraft Type | Callsign | 
 | -------- | ------------- | --------- |
-| ANZ361 | B738 | Hamilton |
-| ANZ362 | B738 | Hamilton |
-| ANZ363 | B738 | Hamilton |
-| ASY121 | A332 | Simflite AU |
-| BAW47C | B744 | Simfest UK |
-| CVY44N | B744 | Team Covey |
-| DAL209 | B738 | WorldFlight USA |
-| DAL2507 | B738 | Cali Crew |
-| EXS25N | B738 | Ness Aviation |
-| GTI1471 | B744 | WorldFlight Perth |
-| JHL44 | A320 | Team JeeHell |
-| KLM2064 | B738 | Amsterdam 737 Club |
-| NPT11W | B738 | Velocity UK |
-| NWA179 | B743 | Jurrasic Jets |
-| QFA25 | B744 | WorldFlight AU |
-| RYR7MA | B738 | Ascent Aviation |
+| ANZ361 | B738 | New Zealand |
+| ANZ362 | B738 | New Zealand |
+| ANZ363 | B738 | New Zealand |
+| BAW47C | B744 | Speedbird |
+| CVY44N | B744 | Covey |
+| DAL209 | B738 | Delta |
+| DAL2507 | B738 | Delta |
+| GTI1471 | B744 | Giant |
+| HPO8317 | A321 | Hope |
+| JHL44 | A320 | JeHal |
+| KLM2064 | B738 | KLM |
+| NPT11W | B738 | Neptune |
+| NSV26N | B738 | Nessie |
+| NWA179 | B743 | Northwest |
+| QFA25 | B744 | Qantas |
 
 ## Route
 <figure markdown>
 ![WorldFlight Route](./img/route.png){ width="800" }
 </figure>
--->

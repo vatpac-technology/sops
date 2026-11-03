@@ -224,7 +224,7 @@ Arrivals shall contact **SYC** for identification prior to entering CTA. SYC sha
 
  Each coded clearance includes a frequency transfer instruction to BK ADC. No explicit transfer instructions should be given to these aircraft.
 
- !!! tip
+!!! tip
     Whilst establishing two-way communication with a VFR aircraft constitutes a clearance to enter Class D airspace, it is generally preferred to issue an explicit airways clearance as in the examples above.
 
 #### Class D Transits
@@ -408,14 +408,14 @@ Aircraft shall be processed as per the instructions below:
 </figure>
 
 === "From the West"
-    Aircraft from the west do not meet the criteria for voiceless [coordination by Enroute](#arrivals-4) and will be heads-up coordinated. A requirement to reach **A060 by WELSH** should be passed to Enroute to relay to these aircraft. This will help segregate them from aircraft on the AKMIR STAR, however there is no separation assurance provided by the AKMIR STAR past **MUBDI** unless the YSBK arrival is descended further.
+    Aircraft from the west do not meet the criteria for voiceless [coordination by Enroute](#arrivals_6) and will be heads-up coordinated. A requirement to reach **A060 by WELSH** should be passed to Enroute to relay to these aircraft. This will help segregate them from aircraft on the AKMIR STAR, however there is no separation assurance provided by the AKMIR STAR past **MUBDI** unless the YSBK arrival is descended further.
 
     Particular care should be exercised between aircraft inbound to YSBK on the Z97 airway and aircraft departing YSSY on the **ANKUB SID**. The interaction works best when the YSBK arrival is descended below the YSSY departure, although it may be necessary to provide vectors to maintain lateral separation between the pair until vertical separation assurance exists.
 
     The Z97 airway includes ESGID, which is the IAF for the RNP-Z approach. IFR aircraft should either be cleared for this approach or instructed to downgrade to VFR (if conditions are suitable) and processed via a coded clearance. In either case, **SBA** is responsible for issuing approach clearance or VFR tracking instructions.
 
 === "From the North"
-    Aircraft from the north do not meet the criteria for voiceless [coordination by Enroute](#arrivals-4) and will be heads-up coordinated. A requirement to reach **A070 by YAKKA** should be passed to Enroute to relay to these aircraft. This will establish the aircraft OCTA and keep the MEPIL STAR clear for aircraft inbound to YSSY.
+    Aircraft from the north do not meet the criteria for voiceless [coordination by Enroute](#arrivals_6) and will be heads-up coordinated. A requirement to reach **A070 by YAKKA** should be passed to Enroute to relay to these aircraft. This will establish the aircraft OCTA and keep the MEPIL STAR clear for aircraft inbound to YSSY.
 
     These aircraft shall be instructed to reach **A020 by OMUVU** and transferred to SBA prior to that position. **SBA** will issue airways clearance into the Class D airspace commencing at OMUVU.
 

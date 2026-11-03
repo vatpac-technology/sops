@@ -431,6 +431,7 @@
 *[SITS]: Seven Hills Train Station
 *[SNP]: Station Pier
 *[SORL]: Sorell
+*[SPS]: Stanwell Power Station
 *[SSKP]: St Helens Skate Park
 *[STOT]: Stotts Island
 *[SUNZ]: Sun Zinc Refinery
