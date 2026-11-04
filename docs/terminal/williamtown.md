@@ -164,7 +164,7 @@ When an aircraft has declared an intention to operate within a subarea, WLM TCU 
     
 ### Special Use Airspace
 #### Salt Ash SUA
-The Salt Ash Air Weapons Range is located within the WLM MIL CTR, and is used for air-surface gunnery and bombing practice. It is entirely contained within the R596 [restricted area](../../controller-skills/sua/#restricted-areas).
+The Salt Ash Air Weapons Range is located within the WLM MIL CTR, and is used for air-surface gunnery and bombing practice. It is entirely contained within the R597A-B Williamtown [restricted areas](../../controller-skills/sua/#restricted-areas).
 
 <figure markdown>
 ![The Salt Ash Weapons Range](img/wlm_salt_ash.png){ width="700" }
@@ -173,12 +173,12 @@ The Salt Ash Air Weapons Range is located within the WLM MIL CTR, and is used fo
 
 The restricted area can be activated in two configurations according to the requirements of the operation. Only VFR aircraft are permitted.
 
-| Configuration Name | Vertical Limits  | Notes  | 
-| ------------------ | ---------------- | ------ |
-| R596 High          | `SFC` - `A130`   | Aircraft will remain on local QNH above `A100` |
-| R596 Low           | `SFC` - `A050`   |        |
+| Configuration Name | Activated SUA | Vertical Limits  | Notes  | 
+| ------------------ | ------------- | ---------------- | ------ |
+| Salt Ash High      | R597A & R597B | `SFC` - `A150`   | Aircraft will remain on local QNH above `A100` |
+| Salt Ash Low       | R597A         | `SFC` - `A060`   |        |
 
-When the R596 restricted area is active all airspace within the SUA is managed by **WAL**, and the [ATIS should be updated](../../aerodromes/classc/williamtown/#sua-activations) to reflect the activation.
+When the R597 restricted area is active all airspace within the SUA is managed by **WAL**, and the [ATIS should be updated](../../aerodromes/classc/williamtown/#sua-activations) to reflect the activation.
 
 ### Stereo Approaches
 In times of heavy military traffic, WLM TCU may choose to nominate [stereo approaches](../../controller-skills/military/#stereo-approaches) as the preferred approach method. When stereo approaches have been nominated, the ATIS [APCH EXP field must be updated](../../aerodromes/classc/williamtown/#approach-types) accordingly.
