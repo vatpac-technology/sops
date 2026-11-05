@@ -165,7 +165,7 @@ OzStrips will flag any potentially [invalid routes](../../controller-skills/rout
     <figcaption>A potentially invalid route, shown by the yellow background on the first waypoint box</figcaption>
 </figure>
 
-Right mouse click on the yellow First Waypoint box to open the Reroute menu. From here, controllers can select a more compliant route. The [VATPAC Tools](https://vatpac.org/membership-hub/tools){target=new} page can be helpful to double check these routes.
+Right mouse click on the yellow First Waypoint box to open the Reroute menu. From here, controllers can select a more compliant route. The [VATPAC Tools](https://vatpac.org/tools){target=new} page can be helpful to double check these routes.
 
 !!! warning "Important"
     The invalid route detection system compares the filed route against any ERSA FPR requirements. Some **valid routes may flag** where the route deviates from FPR guidance. Some **invalid routes may not flag** where no FPR guidance exists for that aerodrome pairing.
