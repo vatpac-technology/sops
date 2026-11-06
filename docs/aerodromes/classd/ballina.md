@@ -38,7 +38,7 @@ Circuits to be flown at `A010`.
 
 ## Coordination
 ### Auto Release
-[Next](../../controller-skills/coordination/#next) coordination is **not** required to BAB for aircraft that are:   
+[Next](../../../controller-skills/coordination/#next) coordination is **not** required to BAB for aircraft that are:   
   
   - Departing from a runway nominated on the ATIS; and  
   - Assigned the standard assignable level; and  

@@ -116,7 +116,7 @@ The **Mullalloo Lane** is between the 248 and 233 radials, `A050`-`F120`. The la
 The **Wannamal Lane** is centered on the PEA 356 radial, `A050`-`F120`. The lane facilitates transit to/from SUAs to the north.
 
 #### Quokka Lane
-The **Quokka Lane** is defined as the AZZAR-FENDA track in the south-west of the TCU, `A090`-`F140`. It facilitates transit to/from the [M161 MOA](../../enroute/HYD/#m161-pearce) on the southern side of the PH TCU, and offers shorter track miles for military aircraft that would otherwise transit via the Wannamal Lane.
+The **Quokka Lane** is defined as the AZZAR-FENDA track in the south-west of the TCU, `A090`-`F140`. It facilitates transit to/from the [M161 MOA](../../enroute/melbourne/HYD/#m161-pearce) on the southern side of the PH TCU, and offers shorter track miles for military aircraft that would otherwise transit via the Wannamal Lane.
 
 Aircraft may be cleared to via the Quokka Lane in lieu of the Wannamal Lane following coordination with PEA.
 
@@ -138,7 +138,7 @@ Aircraft cleared via the Quokka Lane will be issued a requirement to reach `A090
 #### Muchea Air Weapons Range SUA
 The Muchea Air Weapons Range is located within the PE TMA, and is used for air-surface gunnery and bombing practice. It is entirely contained within the R179 Pearce [restricted area](../../controller-skills/sua/#restricted-areas).
 
-When the R179 Pearce restricted area is active all airspace within the SUA is managed by **PEA**, and the [ATIS should be updated](../../aerodromes/classc/Pearce/#sua-activations) to reflect the activation.
+When the R179 Pearce restricted area is active all airspace within the SUA is managed by **PEA**, and the [ATIS should be updated](../../aerodromes/classc/pearce/#sua-activations) to reflect the activation.
 
 ### Training Areas
 The PE TMA and adjoining SUAs contain multiple segmented training areas to facilitate local training operations. 

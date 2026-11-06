@@ -142,7 +142,7 @@ VFR aircraft generally track via designated VFR routes, as shown on the Darwin V
 !!! phraseology
     **DAE**: "LKU, cleared to YPDN via VFR Route 3, maintain `A035`"
 
-VFR fixed wing aircraft entering the CTR directly from Class G and helicopters tracking via the [Talc Head](../../aerodromes/classc/Darwin/#departures) coded clearance shall contact **DN ADC** for clearance.
+VFR fixed wing aircraft entering the CTR directly from Class G and helicopters tracking via the [Talc Head](../../aerodromes/classc/darwin/#departures) coded clearance shall contact **DN ADC** for clearance.
 
 ## Runway Modes
 ### LAHSO

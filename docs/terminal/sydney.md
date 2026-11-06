@@ -167,7 +167,7 @@ Coded Clearances are used to provide standardised routing for VFR aircraft arriv
 
 Each coded clearance includes tracking instructions and height requirements that ensure aircraft remain within Class D airspace. Each coded clearance also includes instructions on when to change frequencies and control service termination advice.
 
-The routes are generally segregated, although the '*Penrith Outbound*' and '*Brooklyn Inbound*' routes intersect within SBA CTA, west of SITS. Remember that in [Class D Airspace](../../controller-skills/classofairpsace), **no separation** is provided for VFR aircraft. 
+The routes are generally segregated, although the '*Penrith Outbound*' and '*Brooklyn Inbound*' routes intersect within SBA CTA, west of SITS. Remember that in [Class D Airspace](../../controller-skills/classofairspace/), **no separation** is provided for VFR aircraft. 
 
 Traffic advisory statements should be given to aircraft where appropriate and, if necessary, SBA may pass an avoiding action advice to ensure aircraft do not collide.
 
@@ -294,7 +294,7 @@ There are multiple [restricted areas](../../controller-skills/sua/#restricted-ar
 **RI SMC** will coordinate the [activation of these SUAs](#smc-to-tcu) with SY TCU **prior** to any activity.
 
 ##### R481 COLO
-The **R481 COLO** [restricted area](../../controller-skills/sua/#restricted-areas) is used to facilitate higher-level military operations, such as [PJE](../../airwork/#parachute-operations) or local flight testing, above `A045`.
+The **R481 COLO** [restricted area](../../controller-skills/sua/#restricted-areas) is used to facilitate higher-level military operations, such as [PJE](../../controller-skills/airwork/#parachute-operations) or local flight testing, above `A045`.
 
 Multiple YSSY and YSWS procedures transit the R481 COLO restricted area. When the area is activated, **SRA** must be extremely vigilant to ensure separation between PJE and transiting civil aircraft. Where possible, **SRA** should coordinate with neighbouring **SY TCU** sectors to assign additional requirements to climb above the vertical limits of the activation, or have the aircraft rerouted to avoid the area.
 

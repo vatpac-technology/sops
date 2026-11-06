@@ -89,7 +89,7 @@ Each TCU must [give heads up coordination](../../../controller-skills/coordinati
     <span class="hotline">**WOL** -> **NWA**</span>: "SWFH12, expect activation of R420F `F125-F300` at 0300 until 0500."   
     <span class="hotline">**NWA** -> **WOL**</span>: "SWFH12."   
 
-Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../sua/#ad-hoc-activations).
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../controller-skills/sua/#ad-hoc-activations).
 
 #### R420F Nowra
 The R420F Nowra [restricted area](../../../controller-skills/sua/#restricted-areas) is located over YSNW, `F125-F300`, located entirely in WOL airspace. 
