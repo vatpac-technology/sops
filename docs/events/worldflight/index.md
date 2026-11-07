@@ -4,7 +4,9 @@
 
 Welcome to the controller briefing material for WorldFlight!
 
-<!-- WorldFlight 2026 is currently in the planning stages. Event-specific procedures will be released closer to the date of the event. See the [WorldFlight website](https://www.worldflight.center/){target=new} for the latest updates on this year's instalment!
+WorldFlight 2026 was held between 31 October 2026 and 7 November 2026.
+
+See the [WorldFlight website](https://www.worldflight.center/){target=new} for the latest updates on next year's instalment!
 
 ### Previous WorldFlight Instalments
 The controller briefing material for each WorldFlight are tailored specifically to that instalments' route and traffic levels. Previous controller briefings are available below, for archival reference.
@@ -16,7 +18,7 @@ The controller briefing material for each WorldFlight are tailored specifically 
 !!! note
     The material in the WorldFlight archive is provided for reference only, and is not actively maintained. While every effort is taken to ensure the material remains accessible, there may be references to other parts of the SOPs which have since been made obsolete.
 
--->
+<!--
 
 Event-specific procedures are sorted by position type and should be read in conjunction with the existing SOPs for that position/location.
 
@@ -60,3 +62,5 @@ The list of callsigns is below:
 <figure markdown>
 ![WorldFlight Route](./img/route.png){ width="800" }
 </figure>
+
+-->
