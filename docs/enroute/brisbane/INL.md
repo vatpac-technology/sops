@@ -129,7 +129,7 @@ These standard runway assignments may be modified strategically by the BAS or BF
     <span class="hotline">**INL** -> **BFL**</span>: "Roger, Arrivals via GOMOL to be assigned 19R" 
 
 ##### ISPON STAR
-When Runway 19L is in use for departures, and an aircraft arriving via **BLAKA**, **ENLIP**, **GOMOL**, or **UGTUG** is being assigned Runway 19R for arrival (such as during the 19RA19LD [Segregated runway mode](../../../aerodromes/classc/brisbane/#preferred-runway-modes), or [during busy events](../../terminal/brisbane/#star-and-runway-assignment)) they must be assigned the **ISPON** STAR. The **ISPON** STAR is ensures separation from between those arrivals and Runway 19L departures.
+When Runway 19L is in use for departures, and an aircraft arriving via **BLAKA**, **ENLIP**, **GOMOL**, or **UGTUG** is being assigned Runway 19R for arrival (such as during the 19RA19LD [Segregated runway mode](../../../aerodromes/classc/brisbane/#preferred-runway-modes), or [during busy events](../../../terminal/brisbane/#star-and-runway-assignment)) they must be assigned the **ISPON** STAR. The **ISPON** STAR is ensures separation from between those arrivals and Runway 19L departures.
 
 #### Sequencing
 Sequencing arrivals into YBBN is a joint responsibility of the subsectors of INL. Initial sequencing actions should be performed by all sectors, with fine tuning and any holding required issued by GOL/BUR. 

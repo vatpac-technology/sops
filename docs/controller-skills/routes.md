@@ -93,7 +93,7 @@ This includes:
 - Ensuring filed flight plans are compliant with [route segment requirements](#flight-plan-requirements).
     
 !!! tip
-    OzStrips can help controllers [detect potential route errors](../../client-towerstrips/#flight-plan-errors) by highlighting routes that don't match recommended routes listed in the ERSA, however it is not infallible.
+    OzStrips can help controllers [detect potential route errors](../../client/towerstrips/#flight-plan-errors) by highlighting routes that don't match recommended routes listed in the ERSA, however it is not infallible.
     
     Some **valid routes may be flagged as invalid** where the route deviates from FPR guidance. Some **invalid routes may *not* be flagged as invalid** where no FPR guidance exists for that aerodrome pairing.
 

@@ -44,7 +44,7 @@ These airports have published military procedures that can differ significantly 
 | [Edinburgh](../../aerodromes/classc/edinburgh) | None *(Adelaide)* | Military |
 | [Gingin](../../aerodromes/classc/gingin) |[Pearce TCU](../../terminal/pearce) | Military |
 | [Learmonth](../../aerodromes/classc/learmonth) |[Learmonth TCU](../../terminal/learmonth) | Joint Military/Civil |
-| [Nowra](../../aerodromes/classc/Nowra) |[Nowra TCU](../../terminal/nowra) | Military |
+| [Nowra](../../aerodromes/classc/nowra/) |[Nowra TCU](../../terminal/nowra) | Military |
 | [Oakey](../../aerodromes/classc/oakey) | [Oakey TCU](../../terminal/amberleyoakey) | Military |
 | [Pearce](../../aerodromes/classc/pearce) | [Pearce TCU](../../terminal/pearce) | Military |
 | [Richmond](../../aerodromes/classc/richmond) | None *(Sydney)*  | Military |
