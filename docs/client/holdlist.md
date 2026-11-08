@@ -17,12 +17,13 @@ The hold information should be formatted as `H\RIVET`, where `RIVET` is the name
 The waypoint name can be shortened to as little as three characters (e.g. `H\RIV`).
 
 An exit time can be specified by appending it to the holding point name, e.g. `H\RIVET\29` to depart `RIVET` at 29-minutes past the hour.
+If no exit time is specified, it will default to ETO + 10 minutes.
 
-The exit time can be adjusted directly from the list or by modifying the label, and can be cleared by middle-clicking it in the list.
+The exit time can be adjusted directly from the list or by modifying the label.
 
-!!! note
-    The exit time is optional and informational only.
-    Due to limitations in the vatSys SDK, the plugin does not modify the flight plan or the estimates of subsequent waypoints.
+!!! tip
+    The hold plugin will adjust the waypoint ETOs based on the hold exit time.
+    When [MAESTRO](./maestro.md) recommends holding, you can adjust the hold exit time until the remaining delay approaches zero.
 
 ## Terminating a Hold
 
@@ -36,7 +37,7 @@ When a block clearance has been issued, the CFL is displayed as `xxxByyy`, where
 
 An `X` will be displayed if the aircraft is non-RVSM.
 
-The hold entry and exit times are displayed in the label. The exit can be adjusted by clicking on it to select a new exit time, or cleared by middle-clicking it.
+The hold entry and exit times are displayed in the label. The exit can be adjusted by clicking on it to select a new exit time.
 
 The `OP_DATA` can also be viewed and edited from the hold label.
 
