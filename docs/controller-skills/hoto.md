@@ -18,7 +18,7 @@ Controllers who open a new position should get their scope setup, post a general
     It is the responsibility of the **new** controller to obtain a handover.
 
 ## Closing a Position
-Controllers should endevor to provide overlying sectors with as much notice prior to a planned closure of a position. Adjacent/overlying controllers who are expected to assume responsibility of your jurisdiction must receive a handover prior to the position being closed.
+Controllers should endeavour to provide overlying sectors with as much notice prior to a planned closure of a position. Adjacent/overlying controllers who are expected to assume responsibility of your jurisdiction must receive a handover prior to the position being closed.
 
 !!! example
     SY ADC and SAS are both online. Before SY ADC closes, they must conduct a handover with SAS to transfer responsibility for the aerodrome to them, and to avoid leaving the controller 'high and dry' with no information about the state of the traffic, runway modes, etc.
