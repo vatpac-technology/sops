@@ -1,0 +1,48 @@
+---
+  title: Overview
+---
+
+Welcome to the controller briefing material for WorldFlight!
+
+Event-specific procedures are sorted by position type and should be read in conjunction with the existing SOPs for that position/location.
+
+
+## Official Team Callsigns
+Official WorldFlight teams should be afforded priority at all stages of flight. 
+
+OzStrips will flag official WorldFlight teams and the Events Plugin will highlight team aircraft for TCU and enroute controllers.
+
+<figure markdown>
+![WF Team Highlight in OzStrips](./img/wfteamozstrips.png){ width="500" }
+<figcaption>WF Team Highlight in OzStrips</figcaption>
+</figure>
+
+<figure markdown>
+![WF Team Highlight](./img/wfteam.png){ width="400" }
+<figcaption>WF Team Highlight</figcaption>
+</figure>
+
+The list of callsigns is below:
+
+| Callsign | Aircraft Type | Callsign | 
+| -------- | ------------- | --------- |
+| ANZ361 | B738 | New Zealand |
+| ANZ362 | B738 | New Zealand |
+| ANZ363 | B738 | New Zealand |
+| BAW47C | B744 | Speedbird |
+| CVY44N | B744 | Covey |
+| DAL209 | B738 | Delta |
+| DAL2507 | B738 | Delta |
+| GTI1471 | B744 | Giant |
+| HPO8317 | A321 | Hope |
+| JHL44 | A320 | JeHal |
+| KLM2064 | B738 | KLM |
+| NPT11W | B738 | Neptune |
+| NSV26N | B738 | Nessie |
+| NWA179 | B743 | Northwest |
+| QFA25 | B744 | Qantas |
+
+## Route
+<figure markdown>
+![WorldFlight Route](./img/route.png){ width="800" }
+</figure>
