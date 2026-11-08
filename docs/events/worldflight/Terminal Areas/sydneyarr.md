@@ -15,7 +15,7 @@ Independent Visual Approaches can be expected to be in use for the event, to fac
 Aircraft must report the **runway in sight** (or **visual** if established on the final approach course) in order to be cleared for an IVA (Runway in Sight implies Visual).
 
 !!! tip
-    The [Label Data Annotations](../../../client/annotations.md#miscellaneous) for these are `V` for *Visual*, and `R` for *Runway in Sight*
+    The [Label Data Annotations](../../../controller-skills/annotations.md#miscellaneous) for these are `V` for *Visual*, and `R` for *Runway in Sight*
 
 Ensure you familiarise yourself with the applicable [Separation Standards](../../../separation-standards/parallelapps.md#independent-visual-approaches)
 
