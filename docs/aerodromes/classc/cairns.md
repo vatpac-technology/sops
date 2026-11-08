@@ -73,7 +73,7 @@ Aircraft will request clearance from CS ADC when approaching EDT or PCVE.
     **ABC**: "Cairns Tower, ABC, EDT, A015, for the Western VFR corridor, request clearance"  
     **CS ADC**: "ABC, Cairns Tower, cleared Western VFR corridor, not above `A015`."
 
-The corridor is less than 2nm from the Runway 15 approach path, and less than 3nm from the Runway 33 approach path. Aircraft transiting the corridor may be separated from IFR arrivals through application of the appropriate [visual separation standard](../../separation-standards/visual). 
+The corridor is less than 2nm from the Runway 15 approach path, and less than 3nm from the Runway 33 approach path. Aircraft transiting the corridor may be separated from IFR arrivals through application of the appropriate [visual separation standard](../../../separation-standards/visual/). 
 
 Where a visual separation standard cannot be established, CS ADC should issue a clearance limit to the aircraft to ensure separation.
 

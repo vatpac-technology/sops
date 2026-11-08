@@ -145,7 +145,7 @@ The standard assignable level from **NW ADC** to **NW TCU** is:
 | All      | The lower of `A100` and `RFL` | 
 
 #### ACD to NW TCU
-The controller assuming responsibility of **ACD** shall give [heads-up coordination](../../controller-skills/coordination/#airways-clearance) to NWA (or the enroute controller responsible for the NW TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
+The controller assuming responsibility of **ACD** shall give [heads-up coordination](../../../controller-skills/coordination/#airways-clearance) to NWA (or the enroute controller responsible for the NW TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
 
 !!! phraseology
     <span class="hotline">**NW ACD** -> **NWA**</span>: "SWFH12 requests clearance to R420F”  
