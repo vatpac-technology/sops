@@ -17,7 +17,7 @@ An additional Non-Standard position for Sydney ACD will be used.
 Due to the nature of the event, a non-standard maximum crosswind limitation has been approved up to **30 knots**. A single runway mode should only be considered if the crosswind exceeds this figure.
 
 ## Workload Management
-Due to the high workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../client/towerstrips/#workflow). 
+Due to the high workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../client/towerstrips/#workflow). 
 
 !!! tip
     The following OzStrips [keyboard shortcuts](../../../client/towerstrips.md#keyboard-shortcuts) may assist controllers managing busy frequencies:
