@@ -15,10 +15,6 @@ MAESTRO is generally not used by TWR controllers, however it allows them to have
 
 The MAESTRO plugin can be accessed from the vatSys menu bar under TFMS. By default, it operates in **offline** mode. Click the Connection Status button (top-left of the Maestro window) to [connect](#synchronisation) to the server, which allows all connected controllers to share sequence information.
 
-## Installation
-
-The vMaestro plugin should be [downloaded](https://github.com/YuKitsune/vMaestro/releases) and placed in your vatSys Plugins folder.
-
 ## Abbreviations
 
 | Abbreviation | Definition |
