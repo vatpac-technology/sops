@@ -123,7 +123,7 @@ When activated, the restricted areas disrupt traffic on the busy **A339**, **A57
 Activation also significantly disrupts traffic travelling in and out of YBRM. Aircraft may be given an additional requirement to climb above, or descend below the vertical limits of the activation, or rerouted manually to avoid the area.
 
 #### M277A-H Darwin
-The M277A-H Darwin [MOAs](../../controller-skills/sua/#military-operating-areas) are located southwest of YPDN, `NOTAM-NOTAM`. M277A and M277E are entirely within DN TCU airspace, while M277B-D and M277F-H are in TRT airspace.
+The M277A-H Darwin [MOAs](../../../controller-skills/sua/#military-operating-areas) are located southwest of YPDN, `NOTAM-NOTAM`. M277A and M277E are entirely within DN TCU airspace, while M277B-D and M277F-H are in TRT airspace.
 
 Aircraft will generally enter and exit the MOA via the appropriate [military gate](../../../terminal/darwin/#military-gates).
 
@@ -131,7 +131,7 @@ Aircraft will generally enter and exit the MOA via the appropriate [military gat
 Activation of the MOA disrupts traffic on the **J151** high altitude airway, and aircraft departing via the HELLI SID. Aircraft may be given an additional requirement to climb above the vertical limits of the activation, or rerouted manually to avoid the area.
 
 #### M278A-H Darwin
-The M278A-H Darwin [MOAs](../../controller-skills/sua/#military-operating-areas) are located northeast of YPDN, `NOTAM-NOTAM`. M278A and M278E are entirely within DN TCU airspace, while M278B-D and M278F-H are in TRT and TRS airspace.
+The M278A-H Darwin [MOAs](../../../controller-skills/sua/#military-operating-areas) are located northeast of YPDN, `NOTAM-NOTAM`. M278A and M278E are entirely within DN TCU airspace, while M278B-D and M278F-H are in TRT and TRS airspace.
 
 Aircraft will generally enter and exit the MOA via the appropriate [military gate](../../../terminal/darwin/#military-gates).
 
@@ -149,7 +149,7 @@ The R226A-B restricted areas are the easternmost segments of the Tindal Flying T
 These areas are rarely activated, with nearly all operations being preferentially conducted in the western [R225A-F and R250 Tindal](#r225a-f-and-r250-tindal) restricted areas.
 
 #### R276B-D Darwin
-The R276B-D Darwin [restricted areas](../../controller-skills/sua/#restricted-areas) are located southwest of YPDN, `NOTAM-NOTAM`, in TRT airspace
+The R276B-D Darwin [restricted areas](../../../controller-skills/sua/#restricted-areas) are located southwest of YPDN, `NOTAM-NOTAM`, in TRT airspace
 
 Aircraft will generally enter and exit the restricted areas via the appropriate [military gate](../../../terminal/darwin/#military-gates).
 

@@ -91,7 +91,7 @@ Aircraft intending to operate at YJBY require explicit clearance from NWA. NWA w
     While NW TCU is responsible for the airspace from `SFC` to `F125` above YJBY, they have **no jurisdiction** over the runways, taxiways, or apron areas on the aerodrome itself.
     
 #### Parachute Operations
-When PJE is being conducted within the YJBY CIRA, [start approval](../../../aerodromes/classc/Nowra/#start-approval) is required for all aircraft. The [ATIS OPR INFO](../../aerodromes/classc/Nowra/#operational-info) field should be updated accordingly.
+When PJE is being conducted within the YJBY CIRA, [start approval](../../aerodromes/classc/nowra/#start-approval) is required for all aircraft. The [ATIS OPR INFO](../../aerodromes/classc/nowra/#operational-info) field should be updated accordingly.
 
 PJE operations are generally not conducted while the [M440B Tasman Sea MOA](#m440a-b-tasman-sea) has been activated.
     
@@ -176,7 +176,7 @@ The controller assuming responsibility of **ACD** shall give [heads-up coordinat
     <span class="hotline">**NWA** -> **NW ACD**</span>: "SWFH12, clearance approved."  
     
 #### SMC to NW TCU
-When [start approvals](../../aerodromes/classc/Nowra/#start-approval) are nominated as required on the ATIS, when an aircraft requests start approval, the NW SMC controller shall coordinate with NW TCU to obtain the start approval.
+When [start approvals](../../aerodromes/classc/nowra/#start-approval) are nominated as required on the ATIS, when an aircraft requests start approval, the NW SMC controller shall coordinate with NW TCU to obtain the start approval.
 
 ### SY TCU
 All aircraft transiting between SY TCU and NW TCU require [Heads-up coordination](../../controller-skills/coordination/#heads-up) prior to the boundary; however, as soon as practical (when the aircraft becomes airborne) is preferred. 
