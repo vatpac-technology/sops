@@ -4,8 +4,6 @@ title: Hold List
 
 --8<-- "includes/abbreviations.md"
 
-## Background
-
 The Hold plugin replicates the Eurocat Hold window and functionality, helping Enroute and Terminal controllers manage traffic in holding stacks or performing airwork over a specified location.
 
 <figure markdown>
