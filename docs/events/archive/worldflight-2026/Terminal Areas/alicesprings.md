@@ -42,7 +42,7 @@ All IFR aircraft shall be processed via the instrument approach mentioned above.
 **AS ADC** is temporarily reclassified as a Class C radar tower and is not responsible for any airspace. Aircraft shall be transferred to ADC once established on final.
 
 ## Departure Procedures
-Normal [SID selection](../../../aerodromes/procedural/alice.md#sid-selection) shall apply to all departures. Event aircraft will be assigned the **KALUG SID**.
+Normal [SID selection](../../../../aerodromes/procedural/alice.md#sid-selection) shall apply to all departures. Event aircraft will be assigned the **KALUG SID**.
 
 With runway 30 in use, the SID track interferes with the RNP-Z final approach course. **AS DEP** may utilise the airspace in the [southeast quadrant](#southeast-quadrant) of the TMA provided any departing aircraft is established above any arriving aircraft. AS DEP is responsible for maintaining separation assurance between these aircraft.
 

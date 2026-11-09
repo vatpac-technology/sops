@@ -34,10 +34,10 @@ Single runway operations on either **runway 12 or 30** will be in use for all ai
 Runway 17/35 is only available for non-event aircraft by pilot request, or at the discretion of ATC.
 
 ## Workload Management
-Due to the high workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../client/towerstrips.md#workflow).
+Due to the high workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../client/towerstrips.md#workflow).
 
 !!! tip
-    The following OzStrips [keyboard shortcuts](../../../client/towerstrips.md#keyboard-shortcuts) may assist controllers managing busy frequencies:
+    The following OzStrips [keyboard shortcuts](../../../../client/towerstrips.md#keyboard-shortcuts) may assist controllers managing busy frequencies:
 
     - `T`: Selects the strip of the last aircraft to transmit on frequency  
     - `W`: Highlight the strip of the last aircraft to transmit on frequency
@@ -65,7 +65,7 @@ WorldFlight Teams will be highlighted by OzStrips and should receive priority at
 </figure>
 
 ### SID Selection
-Normal [SID selection](../../../aerodromes/procedural/alice.md#sid-selection) shall apply to all departures. Event aircraft will be assigned the **KALUG SID**.
+Normal [SID selection](../../../../aerodromes/procedural/alice.md#sid-selection) shall apply to all departures. Event aircraft will be assigned the **KALUG SID**.
 
 ### Standard Assignable Level
 The [standard assignable level](#auto-release) has been changed for the event. All aircraft must be assigned the lower of RFL and `A060`.
@@ -76,7 +76,7 @@ The departure frequency for all aircraft shall be AS DEP (**122.4**).
 ### PDCs
 PDCs will be in use by default, to avoid frequency congestion. ACD shall send a PDC to each aircraft as they connect, prioritising those who connected first. Upon successful readback of the PDC, ACD shall direct the pilot to contact SMC when ready for pushback or taxi.
 
-The [PDC Indicator](../../../client/towerstrips.md#strips) will be displayed on a strip when a PDC has been sent to that pilot.
+The [PDC Indicator](../../../../client/towerstrips.md#strips) will be displayed on a strip when a PDC has been sent to that pilot.
 
 !!! tip
     OzStrips displays strips in the Preactive bay ordered by connection time. Aircraft who connected first are shown down the bottom of the bay.
@@ -103,12 +103,12 @@ If there are more than **5** aircraft in the queue at the holding point, do not 
     The real-world bays are all 'power off' and do not require a pushback for most aircraft. These aircraft will generally request taxi on first contact with SMC and should be queued in the **Cleared Bay** until a departure slot is available.
 
 #### OzStrips
-All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../../client/towerstrips.md#workflow) for OzStrips.
+All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../../../client/towerstrips.md#workflow) for OzStrips.
 
 Ensure the Queue function is used to actively to keep track of the order of requests.
 
 ### Pushback Requests on ACD
-Due to the simple taxiway layout at YBAS, it is likely that ACD will have a higher workload than SMC. For this reason, the use of [pushback requests on ACD](../../../controller-skills/grounddelaymanagement.md#pushback-requests-on-acd) is **not recommended**.
+Due to the simple taxiway layout at YBAS, it is likely that ACD will have a higher workload than SMC. For this reason, the use of [pushback requests on ACD](../../../../controller-skills/grounddelaymanagement.md#pushback-requests-on-acd) is **not recommended**.
 
 However, should SMC need to reduce their workload, the procedure may be considered.
 
