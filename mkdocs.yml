@@ -154,3 +154,6 @@ extra_javascript:
 
 validation:
   unrecognized_links: ignore
+
+exclude_docs:
+  /events/archive/          # Don't build the archive folder, just keep the files here for future reference

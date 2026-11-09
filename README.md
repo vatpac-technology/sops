@@ -22,6 +22,9 @@ All changes must be submitted as a Pull Request (PR), ensuring:
 - **Transparency** – Allows others to provide feedback and review changes commit by commit.  
 - **Improved version control** – Most PRs will be squashed and merged into `main`.  
 
+### Archived Event Procedures
+Files in the `/events/archive/` directory are excluded from the build process and will not be deployed to the production site. Past event procedures should be stored here for future reference.
+
 ## Project Control
 
 The owner for this project is the ATS Director. Members of the ATS Team are also able to review PR's.

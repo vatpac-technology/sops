@@ -17,7 +17,7 @@ Aircraft must report the **runway in sight** (or **visual** if established on th
 !!! tip
     The [Label Data Annotations](../../../controller-skills/annotations.md#miscellaneous) for these are `V` for *Visual*, and `R` for *Runway in Sight*
 
-Ensure you familiarise yourself with the applicable [Separation Standards](../../../separation-standards/parallelapps.md#independent-visual-approaches)
+Ensure you familiarise yourself with the applicable [Separation Standards](../../../../separation-standards/parallelapps.md#independent-visual-approaches)
 
 Pass *Traffic Information* on aircraft that will come within **1nm** of each other on parallel approaches.
 
@@ -75,7 +75,7 @@ In order to balance workload effectively, it is recommended to distribute respon
 - SFL on its own
 
 ## Flow
-SFL shall assess the stream of aircraft in **BKE** and use [MAESTRO](../../../client/maestro.md) to assign runways based on a 50/50 split. BKE will use the runway nomination to reclear aircraft for 16L/34R via `IGDAM BOREE`. 
+SFL shall assess the stream of aircraft in **BKE** and use [MAESTRO](../../../../client/maestro.md) to assign runways based on a 50/50 split. BKE will use the runway nomination to reclear aircraft for 16L/34R via `IGDAM BOREE`. 
 
 Whilst BKE is responsible for recomputing rerouted aircraft, SFL should monitor these aircraft to ensure their feeder fix has been updated.
 
@@ -94,7 +94,7 @@ It may be easier for SFL to desequence all participating aircraft and add a slot
 
 ## Coordination
 #### Between ARL/GUN and SFL
-SFL will construct the sequence via [MAESTRO](../../../client/maestro.md). 
+SFL will construct the sequence via [MAESTRO](../../../../client/maestro.md). 
 
 ARL will **voice coordinate** any requirements for an alternate runway to SFL.
 
