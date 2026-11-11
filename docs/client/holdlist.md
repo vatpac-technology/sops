@@ -12,23 +12,80 @@ The Hold plugin replicates the Eurocat Hold window and functionality, helping En
 ![Hold Window](./img/hold-list.png){ width="600" }
 </figure>
 
+## How it works
+
+The plugin keeps each hold in the flight plan remarks, in the standard DLE format: `DLE/[waypoint][HHMM]`. `HHMM` is the length of the delay. For example, `DLE/TARAL0020` is a delay of 20 minutes at `TARAL`. All controllers can see the hold in the flight plan. The plugin also reads a DLE that the pilot filed in the flight plan.
+
+The hold exit time is the arrival time at the hold point plus the delay. Before the aircraft gets to the hold point, the exit time changes when the estimate for the hold point changes.
+
+While the hold is active:
+
+- vatSys does not move the aircraft along its route past the hold point.
+- vatSys calculates the estimates for the waypoints after the hold point from the hold exit time.
+- vatSys does not show a Route Adherence Monitoring (RAM) alert for the aircraft.
+
 ## Initiating a Hold
 
-To initiate a hold, enter the hold details into the Label Data.
-The hold information should be formatted as `H\RIVET`, where `RIVET` is the name of the holding waypoint.
-The waypoint name can be shortened to as little as three characters (e.g. `H\RIV`).
+You must have permission to change the flight plan (e.g. you have jurisdiction of the aircraft) to initiate, change, or cancel a hold.
 
-An exit time can be specified by appending it to the holding point name, e.g. `H\RIVET\29` to depart `RIVET` at 29-minutes past the hour.
+Initiate a hold in one of these ways:
 
-The exit time can be adjusted directly from the list or by modifying the label, and can be cleared by middle-clicking it in the list.
+| Method | Description |
+| ------ | ----------- |
+| Hold key | Select the aircraft, put the mouse cursor on the hold position, then press `F8`. The hold has a delay of 10 minutes. |
+| Strip | Right-click the estimate of a waypoint in the strip. Type the delay in the `HHMM` format, then press `Enter`. One or two digits are minutes. |
+
+When you use the hold key:
+
+- If the cursor is near a waypoint on the route, the hold is at that waypoint.
+- If the cursor is not near a waypoint on the route, the plugin re-routes the aircraft direct to the cursor position, then to the waypoint on the route that is nearest to the cursor position. The hold is at the cursor position.
+
+You can change the hold key in Settings > Keyboard, in the `Hold` row.
 
 !!! note
-    The exit time is optional and informational only.
-    Due to limitations in the vatSys SDK, the plugin does not modify the flight plan or the estimates of subsequent waypoints.
+    If you initiate a hold at a waypoint that is further along the route, the plugin adds the DLE to the remarks, but the hold does not show until the hold point is the next waypoint.
+
+
+## Strip
+
+When an aircraft holds, the hold point shows two times in the strip:
+
+- The first time shows the time of arrival at the hold point, with an `A`. Before the aircraft gets to the hold point, this is the estimate. After the aircraft gets to the hold point, this is the actual time.
+- The second time shows the hold exit time, with a `D`.
+
+<figure markdown>
+![Hold Strip](./img/hold-strip.png){ width="600" }
+</figure>
+
+When the aircraft is in the hold, the strip starts at the hold point.
+
+## Changing a Hold
+
+Change the hold in one of these ways:
+
+| Method | Description |
+| ------ | ----------- |
+| Strip | Right-click the arrival time or the exit time of the hold point. Change the delay in the `HHMM` format, then press `Enter`. |
+| Hold List | Click the hold exit time, then select a new exit time. |
 
 ## Terminating a Hold
 
-The hold can be cancelled by middle-clicking the ACID in the hold list, or by removing the details from the Label Data.
+A hold stops in one of these ways:
+
+| Method | Description |
+| ------ | ----------- |
+| Hold List | Middle-click the ACID. |
+| Hold key | Select the aircraft, then press `F8`. |
+| Re-route | Re-route the aircraft so that its route does not go through the hold point. |
+| Automatic | After the hold exit time, the hold stops when vatSys finds that the aircraft has left the hold point. |
+
+When you cancel a hold from the Hold List or with the hold key, the plugin removes the DLE from the remarks, and the hold from the Label Data.
+
+!!! note
+    The re-route and automatic methods apply only to holds in the remarks. To stop a hold that is only in the Label Data, remove it from the Label Data.
+
+!!! warning
+    If the aircraft leaves the hold before the exit time, the plugin does not find it. Cancel the hold manually.
 
 ## Hold Lists
 
@@ -38,7 +95,7 @@ When a block clearance has been issued, the CFL is displayed as `xxxByyy`, where
 
 An `X` will be displayed if the aircraft is non-RVSM.
 
-The hold entry and exit times are displayed in the label. The exit can be adjusted by clicking on it to select a new exit time, or cleared by middle-clicking it.
+The hold entry and exit times are displayed in the label. The exit can be adjusted by clicking on it to select a new exit time.
 
 The `OP_DATA` can also be viewed and edited from the hold label.
 
