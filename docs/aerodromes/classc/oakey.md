@@ -137,7 +137,7 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
 | All | All | 125.4 (OKA) |
 
 #### ACD to TCU
-The controller assuming responsibility of **ACD** shall give [heads-up](../../controller-skills/coordination/#airways-clearance) coordination to OKA (or the enroute controller responsible for the OK TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
+The controller assuming responsibility of **ACD** shall give [heads-up](../../../controller-skills/coordination/#airways-clearance) coordination to OKA (or the enroute controller responsible for the OK TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
 
 !!! phraseology
     <span class="hotline">**OK ACD** -> **OKA**</span>: "DIAM11 requests clearance to R639D.”  
