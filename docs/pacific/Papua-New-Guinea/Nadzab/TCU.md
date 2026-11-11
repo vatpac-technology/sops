@@ -17,7 +17,7 @@ AYNZA is responsible for the Class C Airspace within the AYNZ TMA `A060` to `F24
 ![Nadzab TMA Airspace](../img/AYNZ_TMA.png){ width="700" }
     <figcaption>Nadzab TMA Airspace</figcaption>
 </figure>
-Airspace `SFC` to `BCTA` is considered Class F. Refer to the [PNG Local instructions](../) for more information about Class F operations.
+Airspace `SFC` to `BCTA` is considered Class F. Refer to the [PNG Local instructions](../../) for more information about Class F operations.
 <!--- ### Reclassifications
 ### Airspace Division
 ### Special Positions --->

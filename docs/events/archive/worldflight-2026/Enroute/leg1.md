@@ -65,7 +65,7 @@ Voiceless for all aircraft:
 All other aircraft going to ARL CTA will be **Heads-up** Coordinated.
 
 ### TRT to WAAF
-As per [standard TRT coordination procedures](../../../../../enroute/brisbane/TRT/#international-waaf), all aircraft should be **Heads-up Coordinated** to WAAF CTR prior to **30 mins** from boundary.
+As per [standard TRT coordination procedures](../../../../../../enroute/brisbane/TRT/#international-waaf), all aircraft should be **Heads-up Coordinated** to WAAF CTR prior to **30 mins** from boundary.
 
 !!! tip
     It may be prudent (especially if they are using vatSys) to set up a Voiceless Coordination Agreement with WAAF CTR, in order to reduce workload for both controllers.

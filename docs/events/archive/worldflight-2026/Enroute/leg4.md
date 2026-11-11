@@ -33,7 +33,7 @@ The total sector length is approximately 1,100nm. Aircraft may be allowed to ove
 ### Bourke (BKE)
 BKE will be responsible for starting to form the two sequences in to YSSY by splitting the stream between the northern and western arrival corridors.
 
-SFL will provide runway nominations for aircraft in BKE airspace through the [MAESTRO](../../../client/maestro.md) plugin. BKE shall monitor MAESTRO and provide reroutes for all aircraft assigned runway 16L/34R. These aircraft shall be recleared `IGDAM BOREE TESAT`.
+SFL will provide runway nominations for aircraft in BKE airspace through the [MAESTRO](../../../../client/maestro.md) plugin. BKE shall monitor MAESTRO and provide reroutes for all aircraft assigned runway 16L/34R. These aircraft shall be recleared `IGDAM BOREE TESAT`.
 
 !!! tip
     Aircraft operating on old AIRACs who do not have `IGDAM` shall be rerouted via `CORKY BOREE TESAT` (CORKY was renameed IGDAM in a previous AIRAC update).
@@ -64,7 +64,7 @@ Minimum distance between arrivals at handoff to SAN/SAS is **10nm** (with no sig
     Track shortening direct to ENLAD may help to close any gaps ahead of aircraft.
 
 ##### MAESTRO
-If a Flow controller is online, the [MAESTRO](../../../client/maestro.md) plugin should be used to determine the landing sequence. Enroute positions must ensure they comply with any sequencing instructions set out by Flow and communicated through the plugin.
+If a Flow controller is online, the [MAESTRO](../../../../client/maestro.md) plugin should be used to determine the landing sequence. Enroute positions must ensure they comply with any sequencing instructions set out by Flow and communicated through the plugin.
 
 !!! note
     The MAESTRO plugin has been included in the Australia dataset by default for the event.
@@ -86,7 +86,7 @@ Minimum distance between arrivals at handoff to SAN/SAS is **10nm** (with no sig
     Track shortening direct to BOREE may help to close any gaps ahead of aircraft.
 
 ##### MAESTRO
-If a Flow controller is online, the [MAESTRO](../../../client/maestro.md) plugin should be used to determine the landing sequence. Enroute positions must ensure they comply with any sequencing instructions set out by Flow and communicated through the plugin.
+If a Flow controller is online, the [MAESTRO](../../../../client/maestro.md) plugin should be used to determine the landing sequence. Enroute positions must ensure they comply with any sequencing instructions set out by Flow and communicated through the plugin.
 
 !!! note
     The MAESTRO plugin has been included in the Australia dataset by default for the event.
@@ -117,7 +117,7 @@ Changes to Route and CFL are **permitted** within **50nm** of the boundary, with
 Aircraft must be tracking via `IGDAM BOREE` (for YSSY) or `UKDUL UNTAV` (for YSWS).
 
 #### Between ARL/GUN and SFL
-SFL will construct the sequence via [MAESTRO](../../../client/maestro.md).
+SFL will construct the sequence via [MAESTRO](../../../../client/maestro.md).
 
 GUN must **voice coordinate** any requirements for an alternate runway to SFL.
 

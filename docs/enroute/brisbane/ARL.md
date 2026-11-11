@@ -38,7 +38,7 @@
 All sequencing, including ascertaining arrival intentions, is performed by BIK.
 
 !!! note
-    SY TCU may communicate [vertical restrictions](../../terminal/sydney/#ysbk-operations) for YSBK arrivals during heads up coordination.
+    SY TCU may communicate [vertical restrictions](../../../terminal/sydney/#ysbk-operations) for YSBK arrivals during heads up coordination.
 
 ### YSSY
 #### STAR Assignment
@@ -143,7 +143,7 @@ The ARL subsector is additionally responsible for issuing the **STORM 2** coded 
 
 ## Local Procedures
 ### Special Use Airspace
-There are multiple volumes of [SUA](../../controller-skills/sua) within ARL airspace, mostly associated with military operations in and out of YWLM.
+There are multiple volumes of [SUA](../../../controller-skills/sua/) within ARL airspace, mostly associated with military operations in and out of YWLM.
 
 <figure markdown>
 ![Notable SUA in ARL Airspace](../img/arl_sua.png){ width="700" }
@@ -193,7 +193,7 @@ When activated these restricted areas disrupt traffic on the **Q16**, **Q235**, 
 Aircraft travelling below `F240` on the **H66**, **H76**, and **Q35** airways are also disrupted, most directly affecting aircraft departing YSBK to the northwest, and aircraft climbing out of YSSY via STUIE. These aircraft may be given altitude requirements to assure separation with the restricted areas, where appropriate.
 
 !!! note
-	Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../controller-skills/sua/#separation-from-sua)  laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../controller-skills/sua/#controlled-airspace) clearance with all parts of the SUA.
+	Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../../controller-skills/sua/#separation-from-sua)  laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../../controller-skills/sua/#controlled-airspace) clearance with all parts of the SUA.
 
 ## STAR Clearance Expectation
 ### Handoff
