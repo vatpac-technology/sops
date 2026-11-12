@@ -122,8 +122,8 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 
 | Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
 | ---- | ---- | ---- |
-| RIVET | TARAL | 4 min |
-| WELSH | AKMIR | 2 min |
+| ENLAD | TARAL | 3 min |
+| AKMIR | ANNKY | 3 min |
 
 !!! tip
     Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector.
