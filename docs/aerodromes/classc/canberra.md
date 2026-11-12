@@ -115,8 +115,8 @@ Helicopters requesting clearance to operate in the Eastern Grass shall be cleare
 
 | Priority | Mode | Arrivals  | Departures |
 | ---- | -------- | --------- | ---------- |
-| 1 | 3530A35D    | 35 & 30 | 35 |
-| 2 | 1712A17D    | 17 & 12 | 17 |
+| 1 | 3530AD    | 35 & 30 | 35 & 30 |
+| 2 | 1712AD    | 17 & 12 | 17 & 12 |
 | 3 | 17A35D (RRO) | 17 | 35 |
 | 4 | 35 Only     | 35 | 35 |
 | 4 | 17 Only     | 17 | 17 |
