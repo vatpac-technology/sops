@@ -120,7 +120,7 @@ Handovers should include all the information necessary for the controller 'takin
 	
 	=== "ENR"
 	    *ARL has been extending to INL, but agrees with KEN to transfer responsibility to them for the sector, and conducts a handover*.
-		"**Runways**: 19 PROPS is in use at YBBN, Runway 14 is in use at YBCG, and Runway 31 is in use at YBSU..  
+		"**Runways**: 19 PROPS is in use at YBBN, Runway 14 is in use at YBCG, and Runway 31 is in use at YBSU.
 
 		**Area of Responsibility**: I am covering ARL and MNN, and will transfer INL to you. The M640A-D restricted areas are active `SFC-F600` until 1500z. AMA, BAN, and SU ADB are online. CFS ADC is offline, and I'll administer the Class G airspace.
 
