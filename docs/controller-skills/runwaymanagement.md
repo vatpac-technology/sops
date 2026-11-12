@@ -29,6 +29,11 @@ Most major aerodrome SOP pages include guidance on preferred runway modes, which
 !!! example
     The [Sydney Aerodrome SOPs](../../aerodromes/classc/sydney/#runway-modes) dictate that the preferred runway mode is SODROPS (runway 34L for arrivals, runway 16L for departures), however a note below indicates the reduced capacity achievable with this mode and recommends PROPS where traffic levels are expected to be high.
 
+The [ATIS Editor plugin](../../client/atiseditor) will preselect an appropriate runway mode when first loaded, or when updated METAR is received.
+
+!!! tip
+    The mode preselection is only a recommendation to assist controllers selecting an appropriate runway mode. Controllers are not obligated to use the pre-selected runway mode, and can use their discretion to choose an alternative runway mode when appropriate.
+
 #### Non-Standard Runway Modes
 The usage of non-standard runway modes is **strongly discouraged**, unless approved by a Senior Controller for use in major events. Non-Standard runway modes can cause unintended conflicts in TCU and Enroute airspace that may only slightly reduce an ADC controller's workload, but *dramatically* increase that of the affected TCU or Enroute controller.
 

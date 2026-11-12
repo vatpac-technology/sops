@@ -82,7 +82,7 @@ If the pilot **does not** nominate a gate, or nominates a gate that does not pro
 
 ### Special Use Airspace
 #### Salt Ash SUA
-The Salt Ash Air Weapons Range is located within the WLM MIL CTR, and is used for air-surface gunnery and bombing practice. It is entirely contained within the R596 [restricted area](../../../controller-skills/sua/#restricted-areas).
+The Salt Ash Air Weapons Range is located within the WLM MIL CTR, and is used for air-surface gunnery and bombing practice. It is entirely contained within the R597A-B Williamtown [restricted areas](../../../controller-skills/sua/#restricted-areas).
 
 <figure markdown>
 ![The Salt Ash Weapons Range](../../terminal/img/wlm_salt_ash.png){ width="700" }
@@ -91,14 +91,14 @@ The Salt Ash Air Weapons Range is located within the WLM MIL CTR, and is used fo
 
 The restricted area can be activated in two configurations according to the requirements of the operation. Only VFR aircraft are permitted.
 
-| Configuration Name | Vertical Limits  | Notes  | 
-| ------------------ | ---------------- | ------ |
-| R596 High          | `SFC` - `A130`   | Aircraft will remain on local QNH above `A100` |
-| R596 Low           | `SFC` - `A050`   |        |
+| Configuration Name | Activated SUA | Vertical Limits  | Notes  | 
+| ------------------ | ------------- | ---------------- | ------ |
+| Salt Ash High      | R597A & R597B | `SFC` - `A150`   | Aircraft will remain on local QNH above `A100` |
+| Salt Ash Low       | R597A         | `SFC` - `A060`   |        |
 
-When the R596 restricted area is active all airspace within the SUA is managed by **WAL**, and the [ATIS should be updated](#sua-activations) to reflect the activation.
+When the R597 restricted area is active all airspace within the SUA is managed by **WAL**, and the [ATIS should be updated](#sua-activations) to reflect the activation.
 
-Aircraft departing YWLM for the Salt Ash Air Weapons Range (R596) should be cleared the **SALT ASH** departure, in lieu of a SID. On this departure, aircraft will maintain runway heading until turning between 2 TAC and 7.5 TAC WLM to enter the restricted area.
+Aircraft departing YWLM for the Salt Ash Air Weapons Range (R597) should be cleared the **SALT ASH** departure, in lieu of a SID. On this departure, aircraft will maintain runway heading until turning between 2 TAC and 7.5 TAC WLM to enter the restricted area.
 
 !!! phraseology
     **PTHR21**: "Willy Delivery, PTHR21 for Salt Ash High, `A100`, transit not above `A050`, request clearance."  
@@ -115,7 +115,7 @@ Civil aircraft planned via **KEXAR**, **LIMLO**, **MONDO**, and **[UBSON](#ubson
 Civil aircraft unable to accept a procedural SID and **non-RNAV** aircraft shall be assigned either the RADAR SID or a visual departure.
 
 #### UBSON Departures
-When the R596 restricted area is active, aircraft planned via **UBSON** and departing Runway 12 shall be assigned the **UBSON BRAVO** SID.
+When the R597A-B restricted areas are active, aircraft planned via **UBSON** and departing Runway 12 shall be assigned the **UBSON BRAVO** SID.
 
 ### Military Aircraft
 Military aircraft planned for **Gate 1 and Gate 2** shall be assigned the **PEPPER** SID.
@@ -138,10 +138,10 @@ During high levels of military traffic, **WAL** may nominate [stereo approaches]
 #### SUA Activations
 The Operational Information field should be updated when either of the [Salt Ash Weapons Range](#salt-ash-sua) restricted areas are active.
 
-| Activated SUA | OPR INFO Field |
-| ------------- | -------------- |
-| R596 High     | `R 5 9 6 HIGH ACTIVE` |
-| R596 Low      | `R 5 9 6 LOW ACTIVE`  |
+| Activated SUA     | OPR INFO Field |
+| ----------------- | -------------- |
+| Salt Ash High     | `R 5 9 7 A AND R 5 9 7 B ACTIVE` |
+| Salt Ash Low      | `R 5 9 7 A ACTIVE`  |
 
 ## Coordination
 ### Auto Release

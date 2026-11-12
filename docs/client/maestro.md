@@ -15,10 +15,6 @@ MAESTRO is generally not used by TWR controllers, however it allows them to have
 
 The MAESTRO plugin can be accessed from the vatSys menu bar under TFMS. By default, it operates in **offline** mode. Click the Connection Status button (top-left of the Maestro window) to [connect](#synchronisation) to the server, which allows all connected controllers to share sequence information.
 
-## Installation
-
-The vMaestro plugin should be [downloaded](https://github.com/YuKitsune/vMaestro/releases) and placed in your vatSys Plugins folder.
-
 ## Abbreviations
 
 | Abbreviation | Definition |
@@ -206,6 +202,9 @@ Do not issue delay instructions to unstable flights. Unstable flights are contin
 Ensure the `ETA_FF` is accurate at least 10 minutes prior to the feeder fix. If the system estimate is inaccurate, use the Change ETA_FF function (right-click the flight, select Change ETA_FF) to manually adjust it.
 
 Remove any PETOs (Pilot Estimated Time Over) that may affect the accuracy of the system estimates.
+
+!!! tip
+    The [Hold Plugin](./holdlist.md) will adjust the system estimates based on the hold exit time. You can adjust the exit time until the required delay approaches zero.
 
 !!! tip
     If the ETA_FF is inaccurate, check the TAS in the flight plan is accurate.
