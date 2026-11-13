@@ -108,6 +108,8 @@ Any aircraft holding at a waypoint other than one allocated to one of the 4 list
 The plugin keeps the delays and the holds in the remarks of the flight plan:
 
 - A delay from the pilot uses the standard `DLE/` format: `DLE/[waypoint][HHMM]`, where `HHMM` is the length of the delay. For example, `DLE/TARAL0020` is a delay of 20 minutes at `TARAL`.
-- A hold from the controller uses the same format, with `HLD/`. For example, `HLD/TARAL0020` is a hold of 20 minutes at `TARAL`.
+- A hold from the controller uses the `HLD/` format: `HLD/[waypoint][HHMM]`, where `HHMM` is the UTC exit time of the hold. For example, `HLD/TARAL1245` is a hold at `TARAL` until 1245 UTC.
+
+Make sure that you do not mix up the two formats. In `DLE/`, `HHMM` is a length of time. In `HLD/`, `HHMM` is a time of day.
 
 The remarks can have more than one delay, but only one hold. When you initiate a hold, the new `HLD/` replaces the old one.
