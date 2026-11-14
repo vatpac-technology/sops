@@ -13,10 +13,10 @@ On the network, we don't have shift schedules to rely on: instead, handovers are
 ## Handover Process
 Handovers should be conducted over voice, preferably via the VSCS coldline or through one of the handover channels in the VATPAC Discord.
 
-It is the responsibility of the **new** controller to obtain a handover.
+It is the responsibility of the **controller logging on or off** to obtain a handover.
 
 !!! tip
-    Refer to section 2.12.6 of the VATPAC *(Air Traffic Services Policy)[https://vatpac.org/publications/policies]{target="_blank"}* to learn more about the responsibilities of a controller when opening a new position.
+    Refer to section 2.12.6 of the VATPAC *[Air Traffic Services Policy](https://vatpac.org/publications/policies){target="_blank"}* to learn more about the responsibilities of a controller when opening a new position.
 	
 	Sending a simple *"Hi online"* controller message or logging on silently without conducting a handover is considered bad practice.
 
@@ -35,17 +35,17 @@ Handovers should include all the information necessary for the controller 'takin
 - What is your current area of responsibility?
 - What top-down services are you providing?
 - *For SMCs/ADCs*
-  - Have any runways been [released to SMC](./coordination/#runway-releases)?
+    - Have any runways been [released to SMC](./coordination/#runway-releases)?
 - *For Enroute/TCU*
-  - Where are you [extending](./extending)?
-  - Are there any active [SUAs](./sua)?
+    - Where are you [extending](./extending)?
+    - Are there any active [SUAs](./sua)?
 
 #### Weather
 
 - What are the current weather conditions?
 - Are there any significant weather changes forecast?
 - *For Enroute/TCU*
-  - Does the Area QNH preclude cruising at `F110`?  
+    - Does the Area QNH preclude cruising at `F110`?  
 
 #### Frequencies
 
@@ -53,10 +53,9 @@ Handovers should include all the information necessary for the controller 'takin
 
 #### Traffic
 
-- For each aircraft in your area of responsibility:
-  - Explain their current status and any outstanding tasks related to them.
+- For each aircraft in your area of responsibility, explain their current status and any outstanding tasks related to them.
 - *For Enroute/TCU*
-  - Transfer tags as required.
+    - Transfer tags as required.
 
 #### Outstanding Matters
 
