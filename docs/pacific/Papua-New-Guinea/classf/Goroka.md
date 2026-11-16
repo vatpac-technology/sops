@@ -66,7 +66,7 @@ Due to high terrain to the north of the airport, the only authorised runway mode
 
 | Mode | Arrivals | Departures |
 | ---- | -------- | ---------- |
-| 1 - 17D/35A | **35L** | **14R** |
+| 1 - 17D/35A | **35L** | **17R** |
 
 Runway **17L/35R** is predominantly used as a taxiway, though AYGA ADC can allow ad-hoc take-offs and landings on *pilot request*.
 
@@ -74,8 +74,12 @@ Runway **17L/35R** is predominantly used as a taxiway, though AYGA ADC can allow
 #### Parallel Runway Operations
 Simultaneous parallel runway operations, including PROPS and SODROPS, are not authorised at AYGA. 
 
-<!---
 ## SID Selection
+Aircraft planned via **OMBOG**, **MUDIX**, or **MUKIK** shall be assigned the **TOMER** SID. Jet aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
+
+All other aircraft shall be assigned visual departure.
+
+<!--
 ## ATIS
 --->
 ## Coordination
