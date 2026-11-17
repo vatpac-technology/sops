@@ -13,7 +13,7 @@ For aerodromes with SOP-defined [preferred runway modes](../../controller-skills
 ![Runway Mode Options](./img/atis_editor_preset_modes.gif){ width="600" }
 </figure>
 
-The list is dynamically reorders itself from most preferred to least preferred, based on the aerodromes' local SOPs and weather.
+The list dynamically reorders itself from most preferred to least preferred, based on the aerodromes' local SOPs and weather.
 
 ### Preselected Runway Modes
 When the ATIS Editor is first opened, or an update to the METAR is received, the ATIS Editor will pre-select an appropriate runway mode based on the winds, weather, and local SOPs.
@@ -23,7 +23,7 @@ When the ATIS Editor is first opened, or an update to the METAR is received, the
 </figure>
 
 !!! tip
-    The mode preselection is only a recommendation to assist controllers selecting an appropriate runway mode. Controllers are not obligated to use the pre-selected runway mode, and can use their discretion to choose an alternative runway mode when appropriate.
+    The mode preselection is only a recommendation to assist controllers selecting an appropriate runway mode. Controllers are not obligated to use the pre-selected runway mode, and should use their discretion to choose an alternative runway mode when appropriate.
 	
 ### Runway Mode Warnings
 The ATIS Editor will highlight fields when it detects that an ATIS configuration might be invalid.
