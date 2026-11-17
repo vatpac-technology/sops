@@ -4,6 +4,9 @@
 
 --8<-- "includes/abbreviations.md"
 
+## Positions
+There is no separate flow position for the Townsville TCU. The aerodrome shall be flowed by either TLA or KEN(TBP), depending on workload.
+
 <!--
 | Name                                      | ID      | Callsign                | Frequency   | Login ID      |
 | ----------------------------------------- | ------- | ----------------------- | ----------- | ------------- |

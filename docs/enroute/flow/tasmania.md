@@ -4,6 +4,9 @@
 
 --8<-- "includes/abbreviations.md"
 
+## Positions
+There are no separate flow positions for the Tasmania TCU. The aerodromes shall be flowed by either HBA/LTA or HUO, depending on workload.
+
 <!--
 | Name                                      | ID      | Callsign                | Frequency   | Login ID      |
 | ----------------------------------------- | ------- | ----------------------- | ----------- | ------------- |

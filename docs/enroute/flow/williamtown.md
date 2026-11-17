@@ -4,6 +4,9 @@
 
 --8<-- "includes/abbreviations.md"
 
+## Positions
+There is no separate flow position for the Williamtown TCU. The aerodrome shall be flowed by either WAL or MNN, depending on workload.
+
 <!--
 | Name                                      | ID      | Callsign                | Frequency   | Login ID      |
 | ----------------------------------------- | ------- | ----------------------- | ----------- | ------------- |
