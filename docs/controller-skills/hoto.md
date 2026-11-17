@@ -69,9 +69,8 @@ Handovers should include all the information necessary for the controller 'takin
 !!! example
 	=== "SMC"
 		*The current PH SMC controller is conducting a handover briefing with a relief controller during a busy event.*
-		"Hello,
 		
-		**Runways**: Runways 24 and 21 are in use for arrivals, Runway 21 is in use for departures.  
+		"**Runways**: Runways 24 and 21 are in use for arrivals, Runway 21 is in use for departures.  
 
 		**Area of Responsibility**: PH ACD is online, and we are implementing the [Pushback Requests on ACD](./grounddelaymanagement/#pushback-requests-on-acd) procedure. PH SMC E is offline, so we are responsibile for all taxiways. ADC has not released any runways to us.
 
@@ -85,13 +84,12 @@ Handovers should include all the information necessary for the controller 'takin
 		
 		No other aircraft are on the frequency.
 		
-		**Outstanding Matters**: We own the ATIS, and information J is current."
+		**Outstanding Matters**: We own the ATIS, and information J is current.
 
 	=== "ADC"
 		*SY ADC is intending to log off, and is conducting a handover briefing with SAN who will assume responsibility 'top-down'.*
-		"Hello,
 		
-		**Runways**: 34L and 34R PROPS are in operation.  
+		"**Runways**: 34L and 34R PROPS are in operation.  
 
 		**Area of Responsibility**: SY SMC is online, and I have released Runway 25 to them.
 
@@ -101,10 +99,11 @@ Handovers should include all the information necessary for the controller 'takin
 
 		**Traffic**: QLK31D has been cleared to land Runway 34R. VOZ882 is at holding point A6, runway 34L, but has not yet reported ready. RSCU207 has been cleared the [CAPE BANKS 5 INBOUND](../aerodromes/classc/sydney/#arrivals) and will report at the Container Terminal.   
 		
-		**Outstanding Matters**: SMC owns the ATIS, and information X is current."  	
+		**Outstanding Matters**: SMC owns the ATIS, and information X is current.  	
 	
 	=== "TCU"
 	    *MAE is conducting a handover with MDN after agreeing to them opening the non-standard position*.
+		
 		"**Runways**: Runway 27AD is in use at YMML. The winds are favouring runway 18 at YMAV, 35L and 35R at YMMB, and 26 at YMEN.  
 
 		**Area of Responsibility**: We will keep responsibility for MAE, you will assume MDN, MDS, MAV and MAW. MB ADC is online, and we are running ADC offline procedures at YMEN and YMAV.
@@ -115,11 +114,12 @@ Handovers should include all the information necessary for the controller 'takin
 
 		**Traffic**: JST602 has reported taxiing at YMAV, but has not yet been given a clearance. They will call when ready at the holding point. QLK1563 has been cleared to climb via SID to `F240`. ABC is cruising at `A070` enroute to YBDG.
 		
-		**Outstanding Matters**: Heads up coordination with MUN is still required for ABC."
+		**Outstanding Matters**: Heads up coordination with MUN is still required for ABC.
 	
 	=== "ENR"
 	    *ARL has been extending to INL, but agrees with KEN to transfer responsibility to them for the sector, and conducts a handover*.
-		"**Runways**: 19 PROPS is in use at YBBN, Runway 14 is in use at YBCG, and Runway 31 is in use at YBSU.
+		
+		**Runways**: 19 PROPS is in use at YBBN, Runway 14 is in use at YBCG, and Runway 31 is in use at YBSU.
 
 		**Area of Responsibility**: I am covering ARL and MNN, and will transfer INL to you. The M640A-D restricted areas are active `SFC-F600` until 1500z. AMA, BAN, and SU ADB are online. CFS ADC is offline, and I'll administer the Class G airspace.
 
@@ -129,4 +129,4 @@ Handovers should include all the information necessary for the controller 'takin
 
 		**Traffic**: JST796 is cruising at `F310` and has been given STAR clearance. ANZ148, VOZ346, VOZ1266, and QFA941 are cruising at their FPL.
 		
-		**Outstanding Matters**: ANZ148 needs to be handed off to TSN shortly as they are approaching the boundary."  
+		**Outstanding Matters**: ANZ148 needs to be handed off to TSN shortly as they are approaching the boundary.   
