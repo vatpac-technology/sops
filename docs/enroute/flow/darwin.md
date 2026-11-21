@@ -5,13 +5,15 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
+There is no separate flow position for the Darwin TCU. The aerodrome shall be flowed by either DAE or TRT, depending on workload.
 
+<!--
 | Name                                      | ID      | Callsign                | Frequency   | Login ID      |
 | ----------------------------------------- | ------- | ----------------------- | ----------- | ------------- |
 | **Darwin Flow :octicons-checklist-24:**   | DFL     |                         |             | DN_FMP        |
 
 !!! abstract "Flow Positions"
-    :octicons-checklist-24: There are special restrictions for controllers logging on as DFL. **TRT** must be staffed, and controllers intending to open DFL must coordinate with them *before* logging on.
+    :octicons-checklist-24: There are special restrictions for controllers logging on as DFL. **TRT** must be staffed, and controllers intending to open DFL must coordinate with them *before* logging on. -->
 
 ## Local Knowledge
 - Aircraft may be assigned the Whiskey STAR to reduce track miles
