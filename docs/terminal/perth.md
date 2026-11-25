@@ -72,7 +72,8 @@ VFR aircraft may plan to conduct scenic flights within CTA in the PH TMA. A numb
 | Victor 66 | `TLMI-HRR-CDM` | At or below `A035` |
 
 !!! note
-    Victor 66 can be flown in either direction
+    Victor 66 can be flown in either direction and aircraft on Victor 65 can be told to hold at CTE due to inbound to Jandakot via Canning Bridge
+
 
 
 Other levels are available at the discretion of the TCU controller but coordination may be required if adjacent TMA sectors are online. See [TCU Internal](#ph-tcu-internal) for coordination requirements.
