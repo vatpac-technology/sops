@@ -70,6 +70,9 @@ VFR aircraft may plan to conduct scenic flights within CTA in the PH TMA. A numb
 | Victor 65 | `CTE-PCTY-HKE` | At or below `A015` |
 | Victor 66 | `TLMI-HRR-CDM` | At or below `A035` |
 
+!!! note
+    Victor 66 can be flown in either direction.
+
 Other levels are available at the discretion of the TCU controller but coordination may be required if adjacent TMA sectors are online. See [TCU Internal](#ph-tcu-internal) for coordination requirements.
 
 Aircraft wishing to conduct a scenic flight over the Perth CBD should be cleared via the Victor 65 route. **No lateral separation standard exists between Victor 65 and the extended centreline of runway 06/24**, so controllers must ensure that an alternative form of separation assurance exists.
