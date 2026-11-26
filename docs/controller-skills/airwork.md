@@ -101,6 +101,23 @@ Remark codes are also used to advise intentions to perform specific types of air
     **Filed Route**: `DCT WOL WOL020010 WOL DCT`  
     **Remarks**: `RMK/PJE OPS IN D353`
 
+### Delays and Holds
+A `DLE/` in the remarks gives the pilot's planned time at the airwork waypoint. Do not rely on the delay to show the aircraft correctly during airwork:
+
+- Pilots do not always keep to the time that they filed.
+- On some routes, an APR (a position report from the radar track) can remove the delay. The FDR then continues to extrapolate along the route.
+- If the airwork continues after the delay time, the FDR also continues to extrapolate along the route, preventing you from adding additional delay because vatSys shows the waypoint as overflown.
+- If the airwork finishes before the delay time, you must calculate the correct length of the delay. If you do not, the system processing and the FP track are not correct.
+
+vatSys does not warn you when one of these occurs.
+
+To prevent these problems, replace the delay with a [hold](../../client/holdlist) at the airwork waypoint. Do this before the aircraft gets to the waypoint. In CTA, do it when you clear the aircraft for the airwork. OCTA, do it when the pilot reports their airwork details.
+
+1. Remove the delay. Right-click the ETO of the airwork waypoint in the strip, type `0000`, then press `ENTER`.
+2. Initiate a hold at the airwork waypoint. Select the aircraft, place your mouse cursor on the waypoint, then press `F8`.
+
+The hold continues until you terminate it, so the FDR does not continue along the route during the airwork. When the pilot reports ops complete, [terminate the hold](../../client/holdlist/#terminating-a-hold). vatSys then calculates the ETOs again from the current position of the aircraft.
+
 ## Practice Instrument Approaches
 A practice instrument approach is simply an aircraft conducting an instrument approach with no intention of landing. Pilots will frequently request lesser-used procedures, such as VOR or NDB approaches, than would otherwise be used in normal operations.
 

@@ -164,7 +164,7 @@ When an aircraft has declared an intention to operate within a subarea, WLM TCU 
     
 ### Special Use Airspace
 #### Salt Ash SUA
-The Salt Ash Air Weapons Range is located within the WLM MIL CTR, and is used for air-surface gunnery and bombing practice. It is entirely contained within the R596 [restricted area](../../controller-skills/sua/#restricted-areas).
+The Salt Ash Air Weapons Range is located within the WLM MIL CTR, and is used for air-surface gunnery and bombing practice. It is entirely contained within the R597A-B Williamtown [restricted areas](../../controller-skills/sua/#restricted-areas).
 
 <figure markdown>
 ![The Salt Ash Weapons Range](img/wlm_salt_ash.png){ width="700" }
@@ -173,12 +173,12 @@ The Salt Ash Air Weapons Range is located within the WLM MIL CTR, and is used fo
 
 The restricted area can be activated in two configurations according to the requirements of the operation. Only VFR aircraft are permitted.
 
-| Configuration Name | Vertical Limits  | Notes  | 
-| ------------------ | ---------------- | ------ |
-| R596 High          | `SFC` - `A130`   | Aircraft will remain on local QNH above `A100` |
-| R596 Low           | `SFC` - `A050`   |        |
+| Configuration Name | Activated SUA | Vertical Limits  | Notes  | 
+| ------------------ | ------------- | ---------------- | ------ |
+| Salt Ash High      | R597A & R597B | `SFC` - `A150`   | Aircraft will remain on local QNH above `A100` |
+| Salt Ash Low       | R597A         | `SFC` - `A060`   |        |
 
-When the R596 restricted area is active all airspace within the SUA is managed by **WAL**, and the [ATIS should be updated](../../aerodromes/classc/williamtown/#sua-activations) to reflect the activation.
+When the R597 restricted area is active all airspace within the SUA is managed by **WAL**, and the [ATIS should be updated](../../aerodromes/classc/williamtown/#sua-activations) to reflect the activation.
 
 ### Stereo Approaches
 In times of heavy military traffic, WLM TCU may choose to nominate [stereo approaches](../../controller-skills/military/#stereo-approaches) as the preferred approach method. When stereo approaches have been nominated, the ATIS [APCH EXP field must be updated](../../aerodromes/classc/williamtown/#approach-types) accordingly.
@@ -219,61 +219,6 @@ Details of the lane are available in the `YWLM ERSA FAC` and on the Williamtown 
 
 #### Inland Lane
 A lane of entry is available in the Class G airspace to the north of YWLM, allowing aircraft to transit the restricted airspace from north to south (or vice versa). **No clearance is required** to operate along the route provided aircraft remain at or below `A025`.
-
-## Flow
-### Local Knowledge
-- Aircraft may be assigned the Romeo or Victor STAR to reduce track miles
-- During VMC by day, aircraft may be instructed to track for a visual base to either runway
-
-### Flow Tables
-The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
-
-=== "Jets & DH8D"
-    | STAR         | RWY 12 | RWY 30 |
-    | ------------ | :----: | :----: |
-    | **ASUVA**    | 15     | 7^     |
-    | **EKIPU**    | 12^    | 11^    |
-    | **IVTAG R/V**<br>*EKIPU transition*<br>*OVLUX transition*<br>*PUDUT transition*    | <br>-<br>-<br>-     | <br>8\^<br>8\^<br>9^     |
-    | **LAXUM A**  | 9^     | 15     |
-    | **LAXUM B**  | 11^    | 18     |
-    | **LAXUM R**  | 8^     | 11^    |
-    | **LAXUM V**  | 8^     | 11^    |
-    | **OVLUX**    | 11^    | 11^    |
-    | **PUDUT**    | 9^     | 12^    |
-
-=== "Non-Jets"
-    | STAR         | RWY 12 | RWY 30 |
-    | ------------ | :----: | :----: |
-    | **ASUVA**    | 17     | 8^     |
-    | **EKIPU**    | 13^    | 12^    |
-    | **IVTAG R/V**<br>*EKIPU transition*<br>*OVLUX transition*<br>*PUDUT transition*    | <br>-<br>-<br>-     | <br>9\^<br>9\^<br>10^     |
-    | **LAXUM A**  | 10^    | 17     |
-    | **LAXUM B**  | 12^    | 21     |
-    | **LAXUM R**  | 9^     | 12^    |
-    | **LAXUM V**  | 9^     | 13^    |
-    | **OVLUX**    | 13^    | 13^    |
-    | **PUDUT**    | 10^    | 13^    |
-
-#### Corrections
-
-| Situation | Correction |
-| ----- | ----- |
-| Assigned a reduced speed | +1 min, *except ^* | 
-| Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
-
-#### Assumptions
-- Nil wind
-- The feeder fix for all STARs is the assigned STAR transition waypoint (if applicable), otherwise the waypoint coinciding with the STAR title
-
-### Calculator
-<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
-The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
-
-=== "Landing Time"
-    <div class="flowCalculatorLandingTime" data-aerodrome="YWLM"></div>
-
-=== "Feeder Fix Time"
-    <div class="flowCalculatorFeederFixTime" data-aerodrome="YWLM"></div>
 
 ## Coordination
 ### Enroute

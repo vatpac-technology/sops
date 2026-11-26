@@ -87,7 +87,7 @@ These restricted areas directly adjoin the jurisdiction of WR ADC, and when WR A
 ##### Affected Civil Operations
 When activated these restricted areas disrupt traffic on the **J141**, **J251**, **T20**, **T21** and **T29** high airways, which connect YPAD to the Northern Territory and are often used by transcontinental flights to and from the east coast. Activation also significantly distrupts traffic on the **W238**, **W274**, **W617**, **W764** low airways and traffic around YCBP and YOLD.
 
-Aircraft transiting the area should be rerouted via the **Z90**, **Z91**, **Z92**, and **Z93** as required.
+Aircraft transiting the area should be rerouted via the **J402**, **W415**, **W416**, **Z90**, **Z91**, **Z92**, and **Z93** airways as required.
 
 !!! note
 	 Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../../controller-skills/sua/#separation-from-sua) laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../../controller-skills/sua/#controlled-airspace) clearance with all parts of the SUA.
